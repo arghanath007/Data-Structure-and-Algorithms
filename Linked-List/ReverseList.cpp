@@ -17,15 +17,15 @@ public:
 node* reverseList(node* &head)
 {
     node* prevPtr=NULL;
-    node* currrentPtr=head;
+    node* currentPtr=head;
     node* nextPtr;
-    while(currrentPtr!=NULL)
+    while(currentPtr!=NULL)
     {
-        nextPtr=currrentPtr->next;
-        currrentPtr->next=prevPtr;
+        nextPtr=currentPtr->next;
+        currentPtr->next=prevPtr;
 
-        prevPtr=currrentPtr;
-        currrentPtr=nextPtr;
+        prevPtr=currentPtr;
+        currentPtr=nextPtr;
     }
     return prevPtr; //New head
 
