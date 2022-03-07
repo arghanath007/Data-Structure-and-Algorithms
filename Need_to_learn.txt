@@ -1,0 +1,14 @@
+Revision Topics:
+
+1) Sorts 
+
+
+
+Need to Learn:
+
+1) Graphs (DFS, BFS)
+    Resource -> 1) https://www.bruteforced.dev/2017/12/10/Deep-Dive-Into-Graph-Traversals-227a90c6a261/
+                2) https://www.youtube.com/watch?v=tWVWeAqZ0WU
+        
+
+2) Head and Tail Recursion
