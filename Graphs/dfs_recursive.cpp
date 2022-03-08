@@ -24,8 +24,7 @@ void Graph::DFS(int v)
     visited[v] = true;
     cout << v << " ";
  
-    // Recur for all the vertices adjacent
-    // to this vertex
+    // Traversing all the adjacent and unmarked nodes and calling the function recursively with the index of the adjacent node.
     list<int>::iterator i;
     for (i = adj[v].begin(); i != adj[v].end(); ++i)
         if (!visited[*i])

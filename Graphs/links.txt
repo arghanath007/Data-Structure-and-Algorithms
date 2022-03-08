@@ -1,1 +1,6 @@
-https://www.youtube.com/watch?v=tWVWeAqZ0WU&t=464s
+Graphs video ->https://www.youtube.com/watch?v=tWVWeAqZ0WU&t=464s
+
+list<int>::iterator i; -> https://stackoverflow.com/questions/31585830/trouble-understanding-listintiterator-i
+
+
+DFS -> https://www.geeksforgeeks.org/iterative-depth-first-traversal/
