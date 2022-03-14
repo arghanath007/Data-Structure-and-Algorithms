@@ -4,7 +4,14 @@ Pseudo Code Links ->
                     https://youtu.be/wc19nyxjGY4
 
 
-Coding -> https://www.youtube.com/watch?v=-WNKEJCH9KI&list=PLQit65uXNfmsmyJwmrqjmsoKCmLzFWqRj&index=5(To be Continued)
+Coding -> https://www.youtube.com/watch?v=-WNKEJCH9KI&list=PLQit65uXNfmsmyJwmrqjmsoKCmLzFWqRj&index=5
+
+
+Playlist -> https://www.youtube.com/playlist?list=PLQit65uXNfmsmyJwmrqjmsoKCmLzFWqRj
 
 
 Syllabus -> https://prepinsta.com/accenture/test-pattern-exam/
+
+
+
+Continue from Question 8 of Coding.

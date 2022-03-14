@@ -23,7 +23,7 @@ int CountSpecificNumbers(int m, int n)
             else
             {
                 flag=0;
-                break;
+                break; 
             }
         }
         if(flag==1)
