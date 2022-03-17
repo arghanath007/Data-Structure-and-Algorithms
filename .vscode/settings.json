@@ -1,5 +1,6 @@
 {
   "files.associations": {
+    "*.cpp": "cpp",
     "array": "cpp",
     "string": "cpp",
     "atomic": "cpp",
@@ -67,7 +68,10 @@
     "thread": "cpp",
     "typeindex": "cpp",
     "typeinfo": "cpp",
-    "valarray": "cpp"
+    "valarray": "cpp",
+    "string_view": "cpp",
+    "ranges": "cpp",
+    "span": "cpp"
   },
   "cSpell.words": ["Dipanjan's"]
 }
