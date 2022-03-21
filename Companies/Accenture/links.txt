@@ -15,3 +15,8 @@ Syllabus -> https://prepinsta.com/accenture/test-pattern-exam/
 
 
 Autobiographical Number -> https://www.geeksforgeeks.org/find-all-autobiographical-numbers-with-given-number-of-digits/
+
+
+Playlist -> https://www.youtube.com/playlist?list=PLnfCacCyFMlZZzR53Tw3Dp5DEargnMQRQ
+
+More Coding Questions -> https://www.youtube.com/watch?v=kiZZ27Ht0WU&list=PLnfCacCyFMlZZzR53Tw3Dp5DEargnMQRQ&index=7 
