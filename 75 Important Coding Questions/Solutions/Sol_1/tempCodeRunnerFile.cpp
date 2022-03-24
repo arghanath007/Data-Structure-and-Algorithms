@@ -1,0 +1,2 @@
+
+        m[numbers[i]] = i;
