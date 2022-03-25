@@ -23,6 +23,7 @@ Features:
 1. The keys are in sorted order.
 2. The keys are unique. If keys get repeated, the last value will be the one that is stored.
 3. In-build implementation -> Trees(On comparison basis)
+4. Complex data types like vectors, pair, etc. can also be used as keys because normal maps use trees.
 
 # Unordered Maps
 
