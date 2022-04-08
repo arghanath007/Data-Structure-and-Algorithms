@@ -7,3 +7,7 @@ Question Link on Leetcode - > https://leetcode.com/list/xi4ci4ig/
 
 Leetcode -> https://leetcode.com/problemset/all/
 
+
+
+Problems to be solved -> https://leetcode.com/problems/partition-to-k-equal-sum-subsets/
+                        https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another/
