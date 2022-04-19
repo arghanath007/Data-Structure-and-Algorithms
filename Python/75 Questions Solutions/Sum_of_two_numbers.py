@@ -1,19 +1,20 @@
-def getSum(a: int, b: int) -> int:
+class Calc:
+    def getSum(self,a: int, b: int) -> int:
     
-    while b!=0:
-        carry= (a&b) # For the Carry overs.
-        a^=b # XORing the two numbers. Same numbers means '0' as the output and different numbers means '1' as the output.
-        b=carry <<1
+        # while b!=0:
+        #     carry= (a&b) # For the Carry overs.
+        #     a^=b # XORing the two numbers. Same numbers means '0' as the output and different numbers means '1' as the output.
+        #     b=carry <<1
+            
+        # return a
         
-    return a
-    
-    # return b==0? a:getSum(a^b, (a&b)<<1)
-    
-    # One liner
-    # return a if b==0 else getSum(a^b, (a&b)<<1) 
-    
-    # list=[a,b]
-    #     return sum(list)
+        # return b==0? a:getSum(a^b, (a&b)<<1)
+        
+        # One liner
+        return a if b==0 else self.getSum(a^b, (a&b)<<1) 
+        
+        # list=[a,b]
+        #     return sum(list)
 
 
 a=int(input())
@@ -21,7 +22,9 @@ b=int(input())
 # a=1
 # b=2
 
-print(getSum(a,b))
+cal=Calc() # Object creation
+
+print(cal.getSum(a,b))
 
 
 
