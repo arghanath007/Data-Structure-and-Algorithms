@@ -6,7 +6,7 @@ def uniquePaths(m: int, n: int) -> int:
     for r in range(m):
         for c in range(n):
             if r == 0 and c == 0:
-                dp[c] = 1
+                dp[c] = 1 
             elif r == 0:
                 dp[c] = dp[c-1]
             elif c == 0:
