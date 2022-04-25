@@ -13,7 +13,7 @@ def eraseOverlapIntervals(intervals: list[list[int]]) -> int:
             
         else:
             res+=1 # Increasing the count as we have to erase the overlapping interval.
-            prevEnd=min(end, prevEnd) # Joining the overlapping intervals by taking the minimum of the end points.
+            prevEnd=min(end, prevEnd) # Joining the overlapping intervals by taking the minimum of the end points of the intervals.
             
     return res
 
