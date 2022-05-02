@@ -3,10 +3,11 @@ def topKFrequent(nums: list[int], k: int) -> list[int]:
     freq=[[] for i in range(len(nums)+1)]  # Index is the freq. of the element and value is the list of elements with that freq.
     
     for n in nums:
-        count[n] = 1 + count.get(n,0)  # Counting the frequency of each element in 'nums'
+        count[n] = 1 + count.get(n,0)  # Counting the frequency of each element in 'nums', Count -> {1:3,2:2,3:1}
         
     for n,c in count.items(): # This will return the key:value pair of the hashmap
         freq[c].append(n)  # 'n' is the element and 'c' is the frequency of that element. We are saying that 'n' element has a frequency of 'c' .
+        # freq -> [3:[1], 2:[2], 1:[3]]
         
     res=[]
     
