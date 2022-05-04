@@ -13,14 +13,14 @@ def invertTree(root: Optional[TreeNode]) -> Optional[TreeNode]:
         return None
     
     
-    # Swaping the Child Nodes
+    # Swaping the Child Nodes of the root node.
     
     temp=root.left
     root.left= root.right
     root.right=temp
     
-    invertTree(root.left)
-    invertTree(root.right)
+    invertTree(root.left) # Left Subtree
+    invertTree(root.right) # Right Subtree
     return root
         
         
