@@ -1,6 +1,9 @@
 # Data Structure
 
-* YT Link(Free) -> https://www.youtube.com/watch?v=6LJSlLyjA3A&list=PLIC0AxWOdm5BvHpI_AtPqqjoADnSqcYgp&index=26
+* YT Link(Free) -> https://www.youtube.com/watch?v=4kRlNodMLSY&list=PLIC0AxWOdm5BvHpI_AtPqqjoADnSqcYgp&index=30
+
+![image](https://user-images.githubusercontent.com/54589605/199019468-cd279322-17dc-4425-b4bc-665e970d393e.png)
+> It can be used when the location or loc is the last node of the linked list. It works.
 
 ## Call By Value, reference and address Resource
 
@@ -18,11 +21,22 @@
 
 > The no. of leaf nodes present in a binary tree doesn't depend on the **internal nodes** which have **single child**. It depends on the no. of internal nodes which have **two children/child**.
 
-![image](https://user-images.githubusercontent.com/54589605/199019468-cd279322-17dc-4425-b4bc-665e970d393e.png)
-> It can be used when the location or loc is the last node of the linked list. It works.
+## For traversal(pre, post, in) of trees
+
+> The Run-time complexity would be **theta** of **n**.
+
+
+
+## Strict Complete Binary Tree
+
+> Every strict complete binary tree is a complete binary tree but not vice-versa.
 
 
 ## Prefix, Postfix and Infix
 
 * For **Postfix to infix** conversion, we scan the expression from **left** to **right**.
 * For **Prefix to infix** conversion, we scan the expression from **right** to **left**.
+
+## Searching
+
+> Whenever there is a case/need/requirement for searching, always remember that **Stack** and **Queue** will never be used for searching.
