@@ -50,3 +50,7 @@
 
 > If only **post-order** traversal sequence is given of a BST, we can draw the tree -> **YES**, unique -> **YES**, insert the values from **right to left** **one by one** into the tree.
 
+### Example
+![image](https://user-images.githubusercontent.com/54589605/200236133-18b6aeb5-e644-408e-a10d-b4f3a043f283.png)
+
+
