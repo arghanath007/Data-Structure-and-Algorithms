@@ -40,3 +40,7 @@
 ## Searching
 
 > Whenever there is a case/need/requirement for searching, always remember that **Stack** and **Queue** will never be used for searching.
+
+## Binary Search Tree
+
+> If only **pre-order** traversal sequence is given of a BST, we can draw the tree -> **YES**, unique -> **YES**, insert the values from **left to right** **one by one** into the tree.
