@@ -44,3 +44,7 @@
 ## Binary Search Tree
 
 > If only **pre-order** traversal sequence is given of a BST, we can draw the tree -> **YES**, unique -> **YES**, insert the values from **left to right** **one by one** into the tree.
+
+### Example
+![image](https://user-images.githubusercontent.com/54589605/200232435-1d659b6e-24e8-4f32-8d29-417c0c48a9ae.png)
+
