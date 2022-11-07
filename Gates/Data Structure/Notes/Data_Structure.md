@@ -53,4 +53,19 @@
 ### Example
 ![image](https://user-images.githubusercontent.com/54589605/200236133-18b6aeb5-e644-408e-a10d-b4f3a043f283.png)
 
+### Question
+![Binary_search_tree_inorder_preorder_question_3](https://user-images.githubusercontent.com/54589605/200238352-a3206274-d4ae-46d4-9e4a-a6ee83706f21.png)
+
+![Binary_search_tree_inorder_preorder_question_3_1](https://user-images.githubusercontent.com/54589605/200238609-fc827d3d-0513-4cae-acec-ed1e94bfb5da.png)
+
+> In option A, **6** should have been traversed first as it is in the left sub-tree of **7** compared to **8** which is present on the right sub-tree of **7**. That why it is the wrong option.
+
+> In option B, **4** should have been traversed first as it is in the left sub-tree of **3** compared to **6** which is present on the right sub-tree of **5**. That why it is the wrong option.
+
+> In option C, **1** should have been traversed first as it is in the left sub-tree of **2** compared to **4** which is present on the right sub-tree of **3**. That why it is the wrong option.
+
+> In option D, all of the values are placed/traversed according to their left and right sub-tree. That's why this is the **right option**.
+
+
+
 
