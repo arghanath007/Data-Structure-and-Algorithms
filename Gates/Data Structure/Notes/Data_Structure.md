@@ -84,11 +84,26 @@
 
 > It is a **double** rotation and not a single rotation like LL or RR imbalance. First we have to do **RR** rotation and then **LL** rotation. **RR** rotation is done on the **left child** of the **unbalanced node** and **LL** rotation is done on the **unbalanced node**.
 > After the **two** rotations are done, we will **check** if the tree is now **balanced or not**.
+> 
+### Example
+![AVL_LR_imbalance](https://user-images.githubusercontent.com/54589605/200483462-3e2182a0-23d4-44d9-a7c8-9fd192a79e40.png)
+
+![AVL_LR_imbalance_1](https://user-images.githubusercontent.com/54589605/200483510-bc8a63de-c79e-44f1-959d-7ae8f2423352.png)
+
+![AVL_LR_imbalance_2](https://user-images.githubusercontent.com/54589605/200483496-b2dc10bc-0f85-4466-a891-fd941e534e79.png)
 
 ## RL-Imbalance
 
 > It is a **double** rotation and not a single rotation like LL or RR imbalance. First we have to do **LL** rotation and then **RR** rotation. **LL** rotation is done on the **right child** of the **unbalanced node** and **RR** rotation is done on the **unbalanced node**.
 > After the **two** rotations are done, we will **check** if the tree is now **balanced or not**.
+
+### Example
+![AVL_RL_imbalance](https://user-images.githubusercontent.com/54589605/200483694-8799f364-4281-4ace-9e7e-b2f779517076.png)
+
+![AVL_RL_imbalance_1](https://user-images.githubusercontent.com/54589605/200483703-cf4e2685-a0b0-43c1-aa1a-5f4f7344d8a8.png)
+
+![AVL_RL_imbalance_2](https://user-images.githubusercontent.com/54589605/200483722-ebf90fef-7452-4232-9406-a7bd183b0a18.png)
+
 
 
 
