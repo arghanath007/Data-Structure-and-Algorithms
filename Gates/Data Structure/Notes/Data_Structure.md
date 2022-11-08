@@ -108,7 +108,17 @@
 
 > The heap which was created by **inserting one element at a time or by performing one-By-One insertion** is **different** from the heap which was created using the **Heapify** function.
 
+### Example using Heapify
+![Heap_heapify_max_3](https://user-images.githubusercontent.com/54589605/200585344-d178596f-aa56-491e-9dbf-da4d7af8fb02.png)
 
+### Time-Complexity
+
+* O(n),  where 'n' is the no. of insertions
+
+### Example using one-By-One insertion
+![Heap_insertion_1](https://user-images.githubusercontent.com/54589605/200585773-9516b1f7-73b5-48bb-b1eb-410464148dab.png)
+
+* O(nlogn), where 'n' is the no. of insertions
 
 
 
