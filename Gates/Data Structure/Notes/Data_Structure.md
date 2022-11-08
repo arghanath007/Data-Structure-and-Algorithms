@@ -70,6 +70,10 @@
 
 > When there is a **leaf** node, the **balance factor** is **0** as the left and the right sub-tree are **empty**.
 
+### Example
+![image](https://user-images.githubusercontent.com/54589605/200469974-fb4526d0-6dc5-44fb-aba2-ca36e664bf2b.png)
+
+
 
 
 
