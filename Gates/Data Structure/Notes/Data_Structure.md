@@ -116,7 +116,8 @@
 * O(n),  where 'n' is the no. of insertions
 
 ### Example using one-By-One insertion
-![Heap_insertion_1](https://user-images.githubusercontent.com/54589605/200585773-9516b1f7-73b5-48bb-b1eb-410464148dab.png)
+
+![Heap_max_insertion_1](https://user-images.githubusercontent.com/54589605/200587055-072eaa81-1e11-430f-9460-351de8e8f8bb.png)
 
 * O(nlogn), where 'n' is the no. of insertions
 
