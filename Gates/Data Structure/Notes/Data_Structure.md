@@ -73,6 +73,23 @@
 ### Example
 ![image](https://user-images.githubusercontent.com/54589605/200469974-fb4526d0-6dc5-44fb-aba2-ca36e664bf2b.png)
 
+### Balance Factor
+
+> Do not count the no. of nodes in the left and right sub-tree. Instead, count the **height** of the left and right sub-tree.
+
+> After **insertion** or inserting a node into an AVL tree, we check the **balance factor** of the **parent** node of the **inserted node**, then we check the **balance factor** of the **parent-parent** node and so on, till the **root** node.
+> Whenever we find an **unbalanced** node, we **rotate** it.
+
+## LR-Imbalance
+
+> It is a **double** rotation and not a single rotation like LL or RR imbalance. First we have to do **RR** rotation and then **LL** rotation. **RR** rotation is done on the **left child** of the **unbalanced node** and **LL** rotation is done on the **unbalanced node**.
+> After the **two** rotations are done, we will **check** if the tree is now **balanced or not**.
+
+## RL-Imbalance
+
+> It is a **double** rotation and not a single rotation like LL or RR imbalance. First we have to do **LL** rotation and then **RR** rotation. **LL** rotation is done on the **right child** of the **unbalanced node** and **RR** rotation is done on the **unbalanced node**.
+> After the **two** rotations are done, we will **check** if the tree is now **balanced or not**.
+
 
 
 
