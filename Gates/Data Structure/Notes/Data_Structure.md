@@ -66,6 +66,10 @@
 
 > In option D, all of the values are placed/traversed according to their left and right sub-tree. That's why this is the **right option**.
 
+## AVL Tree
+
+> When there is a **leaf** node, the **balance factor** is **0** as the left and the right sub-tree are **empty**.
+
 
 
 
