@@ -104,6 +104,10 @@
 
 ![AVL_RL_imbalance_2](https://user-images.githubusercontent.com/54589605/200483722-ebf90fef-7452-4232-9406-a7bd183b0a18.png)
 
+## Heap
+
+> The heap which was created by **inserting one element at a time or by performing one-By-One insertion** is **different** from the heap which was created using the **Heapify** function.
+
 
 
 

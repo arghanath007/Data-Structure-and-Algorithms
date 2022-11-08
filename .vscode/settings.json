@@ -73,5 +73,11 @@
     "ranges": "cpp",
     "span": "cpp"
   },
-  "cSpell.words": ["curr", "Dipanjan's", "nlogn", "nums"]
+  "cSpell.words": [
+    "curr",
+    "Dipanjan's",
+    "Heapify",
+    "nlogn",
+    "nums"
+  ]
 }
