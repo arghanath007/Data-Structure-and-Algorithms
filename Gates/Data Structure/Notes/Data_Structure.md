@@ -130,6 +130,7 @@
 ![Graph_DFS_question_HW](https://user-images.githubusercontent.com/54589605/200839713-50a50e14-ac51-4ab5-a555-bdb11ea2825b.png)
 
 > As the **sequence of Adjacent edges** of the **Vertex** are mentioned in the question, we have to follow these sequence. Hence we have to select **2** before we can select **3** for vertex **1**. 
+> **Location** of the Hash-map is **user generated**.
 
 
 
