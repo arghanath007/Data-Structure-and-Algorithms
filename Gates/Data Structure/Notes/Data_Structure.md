@@ -1,6 +1,6 @@
 # Data Structure
 
-* YT Link(Free) -> https://www.youtube.com/watch?v=XJXCmNwXvuw&list=PLIC0AxWOdm5BvHpI_AtPqqjoADnSqcYgp&index=38
+* YT Link(Free) Till Graph(DFS) -> https://www.youtube.com/watch?v=eVSwiPC0JVg&list=PLIC0AxWOdm5BvHpI_AtPqqjoADnSqcYgp&index=40
 
 ![image](https://user-images.githubusercontent.com/54589605/199019468-cd279322-17dc-4425-b4bc-665e970d393e.png)
 > It can be used when the location or loc is the last node of the linked list. It works.
@@ -120,6 +120,10 @@
 ![Heap_max_insertion_1](https://user-images.githubusercontent.com/54589605/200587055-072eaa81-1e11-430f-9460-351de8e8f8bb.png)
 
 * O(nlogn), where 'n' is the no. of insertions
+
+### Heap sort
+
+> For **Ascending order**, we use **Min Heap** and for **Descending order**, we use **Max Heap**.
 
 
 
