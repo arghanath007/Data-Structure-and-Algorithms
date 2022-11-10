@@ -2,6 +2,14 @@
 
 * YT Link(Free) Till Graph(DFS) -> https://www.youtube.com/watch?v=eVSwiPC0JVg&list=PLIC0AxWOdm5BvHpI_AtPqqjoADnSqcYgp&index=40
 
+* Hashing Video(40) **Completed** -> https://www.youtube.com/watch?v=-SGDYUVyn3Y
+* Hashing Video(41) **Completed** -> https://www.youtube.com/watch?v=tzwDRDKONOM
+* Hashing Video(42) **Completed** -> https://www.youtube.com/watch?v=bW34DXofN7I
+* Data Structure Revision **1:56:00** -> https://www.youtube.com/watch?v=LRdZ5HMfoyM&t=413s
+* Short Revision and Notes **18:00** -> https://unacademy.com/class/short-notes-formula-revision-data-structure/3XEA79RL 
+* Sorting Algorithms -> https://www.youtube.com/watch?v=1I_w8tKL7FI
+* DS Gate PYQs -> https://www.youtube.com/watch?v=1BdofNKMMuw
+
 ![image](https://user-images.githubusercontent.com/54589605/199019468-cd279322-17dc-4425-b4bc-665e970d393e.png)
 > It can be used when the location or loc is the last node of the linked list. It works.
 
@@ -131,6 +139,17 @@
 
 > As the **sequence of Adjacent edges** of the **Vertex** are mentioned in the question, we have to follow these sequence. Hence we have to select **2** before we can select **3** for vertex **1**. 
 > **Location** of the Hash-map is **user generated**.
+
+## Hashing and Collision
+
+### Linear Probing
+> In **Linear Probing**, we **search** for the **next** empty **slot** in the **hash table**. If the **next** slot is **empty**, we **insert** the **key** there. If the **next** slot is **not empty**, we **search** for the **next** empty **slot** and so on.
+
+#### Disadvantages of Linear Probing
+> We are linearly searching for the **next** empty slot. Hence, the probing for the **next** empty slot is **linear** and so the **count** or the **amount** of probing required also **increases**. Hence, the **time complexity** of **searching** for the **next** empty slot is **O(n)**.
+
+
+* For this reason only, **Quadratic Probing** was developed.
 
 
 
