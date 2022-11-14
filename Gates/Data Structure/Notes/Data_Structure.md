@@ -5,10 +5,19 @@
 * Hashing Video(40) **Completed** -> https://www.youtube.com/watch?v=-SGDYUVyn3Y
 * Hashing Video(41) **Completed** -> https://www.youtube.com/watch?v=tzwDRDKONOM
 * Hashing Video(42) **Completed** -> https://www.youtube.com/watch?v=bW34DXofN7I
-* Data Structure Revision **1:56:00** -> https://www.youtube.com/watch?v=LRdZ5HMfoyM&t=413s
+* Data Structure Revision **Completed** -> https://www.youtube.com/watch?v=LRdZ5HMfoyM&t=413s
 * Short Revision and Notes **Competed** -> https://unacademy.com/class/short-notes-formula-revision-data-structure/3XEA79RL
-* Sorting Algorithms -> https://www.youtube.com/watch?v=1I_w8tKL7FI
 * DS Gate PYQs -> https://www.youtube.com/watch?v=1BdofNKMMuw
+* Subject-wise important topics -> https://www.youtube.com/watch?v=XyslKxoZ7vc&list=PLG9aCp4uE-s04zuu8lrSEAbJWEB3cdAly&index=2
+* Sorting Algorithms (Lecture - 1) -> https://www.youtube.com/watch?v=1I_w8tKL7FI
+* Sorting Algorithms Playlist(From Lecture- 3) -> https://www.youtube.com/watch?v=secpjz3ysPs&list=PLG9aCp4uE-s2eZzS9mzyoZU5bdn3UL0BY
+
+## DS Gate PYQs:-
+
+* 1-> https://www.youtube.com/watch?v=1BdofNKMMuw
+* 2-> https://www.youtube.com/watch?v=qM8d8nVw4FU
+* 3-> https://www.youtube.com/watch?v=_SpjrBqBgNE
+
 
 ![image](https://user-images.githubusercontent.com/54589605/199019468-cd279322-17dc-4425-b4bc-665e970d393e.png)
 > It can be used when the location or loc is the last node of the linked list. It works.
