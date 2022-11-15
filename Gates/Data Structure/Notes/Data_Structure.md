@@ -9,14 +9,20 @@
 * Short Revision and Notes **Competed** -> https://unacademy.com/class/short-notes-formula-revision-data-structure/3XEA79RL
 * DS Gate PYQs -> https://www.youtube.com/watch?v=1BdofNKMMuw
 * Subject-wise important topics -> https://www.youtube.com/watch?v=XyslKxoZ7vc&list=PLG9aCp4uE-s04zuu8lrSEAbJWEB3cdAly&index=2
+* Most Expected questions from DS -> https://www.youtube.com/watch?v=tDYNZTQt8WE
+* Which Subject is Most Scoring in GATE-CS/IT -> https://www.youtube.com/watch?v=QOi8cLSnOY8
 * Sorting Algorithms (Lecture - 1) -> https://www.youtube.com/watch?v=1I_w8tKL7FI
 * Sorting Algorithms Playlist(From Lecture- 3) -> https://www.youtube.com/watch?v=secpjz3ysPs&list=PLG9aCp4uE-s2eZzS9mzyoZU5bdn3UL0BY
 
 ## DS Gate PYQs:-
 
-* 1-> https://www.youtube.com/watch?v=1BdofNKMMuw
-* 2-> https://www.youtube.com/watch?v=qM8d8nVw4FU
-* 3-> https://www.youtube.com/watch?v=_SpjrBqBgNE
+* 1 **(Linked List)**-> https://www.youtube.com/watch?v=1BdofNKMMuw
+* 2 **(Linked List)**-> https://www.youtube.com/watch?v=qM8d8nVw4FU
+* 3 **(Stack)**-> https://www.youtube.com/watch?v=_SpjrBqBgNE
+* 4 **(Stack)**-> https://www.youtube.com/watch?v=hUEM9m6-sQM
+* 5 **(Queue)**-> https://www.youtube.com/watch?v=oMb5RzLMOQc
+* 6 **(Tree)**-> https://www.youtube.com/watch?v=37vg6IxfQL0
+
 
 
 ![image](https://user-images.githubusercontent.com/54589605/199019468-cd279322-17dc-4425-b4bc-665e970d393e.png)
