@@ -16,12 +16,16 @@
 
 ## DS Gate PYQs:-
 
-* 1 **(Linked List)**-> https://www.youtube.com/watch?v=1BdofNKMMuw
-* 2 **(Linked List)**-> https://www.youtube.com/watch?v=qM8d8nVw4FU
-* 3 **(Stack)**-> https://www.youtube.com/watch?v=_SpjrBqBgNE
-* 4 **(Stack)**-> https://www.youtube.com/watch?v=hUEM9m6-sQM
-* 5 **(Queue)**-> https://www.youtube.com/watch?v=oMb5RzLMOQc
-* 6 **(Tree)**-> https://www.youtube.com/watch?v=37vg6IxfQL0
+* 1 (Completed) **(Linked List)**-> https://www.youtube.com/watch?v=1BdofNKMMuw 
+* 2 (Completed) **(Linked List)**-> https://www.youtube.com/watch?v=qM8d8nVw4FU 
+* 3 (Completed) **(Stack)**-> https://www.youtube.com/watch?v=_SpjrBqBgNE 
+* 4 (Completed) **(Stack)**-> https://www.youtube.com/watch?v=hUEM9m6-sQM 
+* 5 (Completed) **(Queue)**-> https://www.youtube.com/watch?v=oMb5RzLMOQc 
+* 6 (Completed) **(Tree)**-> https://www.youtube.com/watch?v=37vg6IxfQL0 
+* 7 (Completed) **(Tree)**-> https://www.youtube.com/watch?v=KyMqrpUWUeg
+* 8 (Completed) **(Tree)**-> https://www.youtube.com/watch?v=Tz-p8klADWA
+* 9 (Completed) **(Tree)** -> https://www.youtube.com/watch?v=3XXArtmY8RY
+* 10 **(Binary Search Tree)** -> https://www.youtube.com/watch?v=NLKS9yB7My0
 
 
 
