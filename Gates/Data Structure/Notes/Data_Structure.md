@@ -10,6 +10,7 @@
 * DS Gate PYQs -> https://www.youtube.com/watch?v=1BdofNKMMuw
 * Subject-wise important topics -> https://www.youtube.com/watch?v=XyslKxoZ7vc&list=PLG9aCp4uE-s04zuu8lrSEAbJWEB3cdAly&index=2
 * Most Expected questions from DS -> https://www.youtube.com/watch?v=tDYNZTQt8WE
+* Best classes -> https://unacademy.com/a/Best-Classes-of-all-time-by-Vishvadeep-Gothi-CS.html
 * Which Subject is Most Scoring in GATE-CS/IT -> https://www.youtube.com/watch?v=QOi8cLSnOY8
 * Sorting Algorithms (Lecture - 1) -> https://www.youtube.com/watch?v=1I_w8tKL7FI
 * Sorting Algorithms Playlist(From Lecture- 3) -> https://www.youtube.com/watch?v=secpjz3ysPs&list=PLG9aCp4uE-s2eZzS9mzyoZU5bdn3UL0BY
@@ -25,7 +26,10 @@
 * 7 (Completed) **(Tree)**-> https://www.youtube.com/watch?v=KyMqrpUWUeg
 * 8 (Completed) **(Tree)**-> https://www.youtube.com/watch?v=Tz-p8klADWA
 * 9 (Completed) **(Tree)** -> https://www.youtube.com/watch?v=3XXArtmY8RY
-* 10 **(Binary Search Tree)** -> https://www.youtube.com/watch?v=NLKS9yB7My0
+* 10 (Completed) **(Binary Search Tree)** -> https://www.youtube.com/watch?v=NLKS9yB7My0
+* 11 (Completed) **(Binary Search Tree)** -> https://www.youtube.com/watch?v=kNp47J_SGsA&t=32s
+* 12 (Completed) **(Binary Search Tree)** -> https://www.youtube.com/watch?v=A-VcMqzfVWw
+* 13 **(Hashing)** -> https://www.youtube.com/watch?v=mFh_yTxIDDM
 
 
 
