@@ -29,7 +29,9 @@
 * 10 (Completed) **(Binary Search Tree)** -> https://www.youtube.com/watch?v=NLKS9yB7My0
 * 11 (Completed) **(Binary Search Tree)** -> https://www.youtube.com/watch?v=kNp47J_SGsA&t=32s
 * 12 (Completed) **(Binary Search Tree)** -> https://www.youtube.com/watch?v=A-VcMqzfVWw
-* 13 **(Hashing)** -> https://www.youtube.com/watch?v=mFh_yTxIDDM
+* 13 (Completed) **(Hashing)** -> https://www.youtube.com/watch?v=mFh_yTxIDDM
+* 14 (Completed) **(Hashing)** -> https://www.youtube.com/watch?v=804ML4KSmVc
+* 15 (Completed) **(Miscellaneous)** -> https://www.youtube.com/watch?v=y0ZRwcOPTgg
 
 
 
@@ -173,6 +175,9 @@
 > **Location** of the Hash-map is **user generated**.
 
 ## Hashing and Collision
+
+> In Hash table, the searching is **Circular**.
+> If the **collision resolution technique** is not mentioned in the question, then we have to use **Linear Probing** as it is the **default** collision resolution technique for **closed hashing**.
 
 ### Linear Probing
 > In **Linear Probing**, we **search** for the **next** empty **slot** in the **hash table**. If the **next** slot is **empty**, we **insert** the **key** there. If the **next** slot is **not empty**, we **search** for the **next** empty **slot** and so on.
