@@ -16,7 +16,7 @@
 
 > In order to find the count of numbers like 15,10 etc. We need to find the count of **factors** of the number. For example, what we did, when we found out the count of **0's** in a factorial of a number(100!). We have to follow the below process. When we are finding **0's** in a factorial of a number(100!), we are finding the number **10** here, so the factors of **10** are **2 and 5**. Since as **5** is the **bigger factor** of the two, we will use it to find the  count of **0's**.
 
-> When we are finding count of **15's** in a factorial of a number(100!), so the factors of **15** are **2, 3 and 5**. Since as **5** is the **bigger factor** of the two, we will use it to find the  count of **15's**.
+> When we are finding count of **15's** in a factorial of a number(100!), then we are finding the factors/prime numbers of that number(**15 here**). So, the factors of **15** are **2, 3 and 5**. Since **5** is the **bigger factor** of the three, we will use it to find the  count of **15's**.
 
 ![9](https://user-images.githubusercontent.com/54589605/202851215-0290ae41-a68f-4d84-9fa8-984a835ed78a.png)
 ![12](https://user-images.githubusercontent.com/54589605/202851321-1ccd4cd8-dcfe-4e53-b2f6-af1584051033.png)
