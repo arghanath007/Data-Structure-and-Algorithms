@@ -6,7 +6,7 @@
 
 ### Watching tomorrow
 
-* Link -> https://www.youtube.com/watch?v=22bDENaB1Lc&list=PLC36xJgs4dxE43Au1FGRQvwHTr7NbgDCS&index=4
+* Link -> https://www.youtube.com/watch?v=hDJHQxYk_i0&list=PLC36xJgs4dxE43Au1FGRQvwHTr7NbgDCS&index=7
 
 ## Factorial
 
@@ -23,5 +23,9 @@
 ![12_1](https://user-images.githubusercontent.com/54589605/202851325-510c9670-4d96-4780-a518-9ea07d453720.png)
 ![13](https://user-images.githubusercontent.com/54589605/202853545-350de715-0540-400c-a053-4031e44a0cd0.png)
 ![15](https://user-images.githubusercontent.com/54589605/202853637-d8cbd967-d7fb-4d9e-a356-3a8b30d94c6e.png)
+
+## HCF and LCM
+
+> When finding LCM of two numbers, examples **LCM(3,5)**. Since both the numbers are **prime numbers** and hence they are **co-prime numbers** as well, we can find the **LCM by multiplying the two numbers**. So, LCM(3,5) = **3 * 5 = 15**.
 
 
