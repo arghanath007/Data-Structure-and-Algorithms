@@ -6,7 +6,7 @@
 
 ### Watching tomorrow
 
-* Link -> https://www.youtube.com/watch?v=hDJHQxYk_i0&list=PLC36xJgs4dxE43Au1FGRQvwHTr7NbgDCS&index=7
+* Link -> https://www.youtube.com/watch?v=UcBh_OfL0nE&list=PLC36xJgs4dxE43Au1FGRQvwHTr7NbgDCS&index=9
 
 ## Factorial
 
