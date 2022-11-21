@@ -26,6 +26,12 @@
 
 ## HCF and LCM
 
+### Using Prime Factorization
+
+> Express each number as product of prime factors and **least power** of each number is **HCF**.
+
+> Express each number as product of prime factors and **greatest power** of each number is **LCM**.
+
 > When finding LCM of two numbers, examples **LCM(3,5)**. Since both the numbers are **prime numbers** and hence they are **co-prime numbers** as well, we can find the **LCM by multiplying the two numbers**. So, LCM(3,5) = **3 * 5 = 15**.
 
 
