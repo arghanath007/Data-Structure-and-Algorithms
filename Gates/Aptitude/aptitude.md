@@ -6,7 +6,7 @@
 
 ### Watching tomorrow
 
-* Link -> https://www.youtube.com/watch?v=UcBh_OfL0nE&list=PLC36xJgs4dxE43Au1FGRQvwHTr7NbgDCS&index=9
+* Link -> https://www.youtube.com/watch?v=uVnd48hTx_I&list=PLC36xJgs4dxE43Au1FGRQvwHTr7NbgDCS&index=11
 
 ## Factorial
 
@@ -33,5 +33,11 @@
 > Express each number as product of prime factors and **greatest power** of each number is **LCM**.
 
 > When finding LCM of two numbers, examples **LCM(3,5)**. Since both the numbers are **prime numbers** and hence they are **co-prime numbers** as well, we can find the **LCM by multiplying the two numbers**. So, LCM(3,5) = **3 * 5 = 15**.
+
+
+## Calendar
+
+> **Odd Days** = **Extra Days** mod(%) **7**.
+> Mod 7, because we are finding remaining/odd days of the week.
 
 
