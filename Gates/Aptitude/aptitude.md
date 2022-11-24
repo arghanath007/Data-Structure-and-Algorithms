@@ -63,6 +63,28 @@
 
 ![image](https://user-images.githubusercontent.com/54589605/203781335-3ac3d7df-640e-466e-915d-157d586415a4.png)
 
+**Sum of 1st Nth Natural Numbers**
+
+![image](https://user-images.githubusercontent.com/54589605/203793483-4bb37996-f705-453a-9722-661ca2fdc864.png)
+
+**Sum of odd Natural Numbers**
+
+![14](https://user-images.githubusercontent.com/54589605/203793813-9b6555d6-9807-45b6-8a29-d801679b26d6.png)
+
+**Sum of even Natural Numbers**
+
+![15](https://user-images.githubusercontent.com/54589605/203793933-7fb29841-918e-49ef-b0be-c7b8efa24b57.png)
+
+**Sum of squares of Natural Numbers**
+
+![image](https://user-images.githubusercontent.com/54589605/203794109-6d9869c1-483c-491b-a3fd-73e88744bb43.png)
+
+**Sum of cubes of Natural Numbers**
+
+![image](https://user-images.githubusercontent.com/54589605/203794241-bc479a61-6f06-43f6-b969-f03674e85df9.png)
+
+
+
 
 
 
