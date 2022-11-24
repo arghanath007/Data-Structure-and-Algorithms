@@ -40,4 +40,34 @@
 > **Odd Days** = **Extra Days** mod(%) **7**.
 > Mod 7, because we are finding remaining/odd days of the week.
 
+## AP and GP
+
+![3](https://user-images.githubusercontent.com/54589605/203780517-78ce89e0-e848-49d4-bb84-6c200bf62e29.png)
+
+### Formula
+
+**Nth term of AP**
+
+![image](https://user-images.githubusercontent.com/54589605/203781019-5d4657cf-47d3-433d-ba5b-229a095b3add.png)
+
+
+**Sum of Nth terms of AP series**
+
+![image](https://user-images.githubusercontent.com/54589605/203780852-59ee3758-5abb-4991-a226-da7a1373ceaa.png)
+
+**Nth term of GP**
+
+![image](https://user-images.githubusercontent.com/54589605/203781172-291dd2b4-dfe5-48ab-950c-41be0578ec0e.png)
+
+**Sum of Nth terms of GP series**
+
+![image](https://user-images.githubusercontent.com/54589605/203781335-3ac3d7df-640e-466e-915d-157d586415a4.png)
+
+
+
+
+
+
+
+
 
