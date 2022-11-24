@@ -6,7 +6,7 @@
 
 ### Watching tomorrow
 
-* Link -> https://www.youtube.com/watch?v=uVnd48hTx_I&list=PLC36xJgs4dxE43Au1FGRQvwHTr7NbgDCS&index=11
+* Link -> https://www.youtube.com/watch?v=ttQ6taiAn0A&list=PLC36xJgs4dxE43Au1FGRQvwHTr7NbgDCS&index=16
 
 ## Factorial
 
@@ -39,5 +39,9 @@
 
 > **Odd Days** = **Extra Days** mod(%) **7**.
 > Mod 7, because we are finding remaining/odd days of the week.
+
+## AP and GP
+> In **AP** the **difference** is the same.
+> In **GP** the **ratio** is the same.
 
 
