@@ -85,6 +85,15 @@
 
 ![image](https://user-images.githubusercontent.com/54589605/203794241-bc479a61-6f06-43f6-b969-f03674e85df9.png)
 
+## Miscellaneous formulas
+
+![formula_9](https://user-images.githubusercontent.com/54589605/204090963-c1530d15-a8ce-41b5-b402-d8169a388230.png)
+
+> When the have the **+** condition then we look at the **bigger** value of the two consecutive multiples of the number. Example. 72-> (8 * 9). Answer will be **9** here.
+
+>When the have the **-** condition then we look at the **smaller** value of the two consecutive multiples of the number. Example. 72-> (8 * 9). Answer will be **8** here.
+
+
 
 
 
