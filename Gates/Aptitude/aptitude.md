@@ -87,6 +87,8 @@
 
 ## Miscellaneous formulas
 
+### Formula 1
+
 > This is only if the two multiple numbers are consecutive numbers like 2 and 3 or 5 and 6. It will only work on multiple of numbers like 6 and 8 or 9 and 5.
 
 ![formula_9](https://user-images.githubusercontent.com/54589605/204090963-c1530d15-a8ce-41b5-b402-d8169a388230.png)
@@ -94,6 +96,26 @@
 > When the have the **+** condition then we look at the **bigger** value of the two consecutive multiples of the number. Example. 72-> (8 * 9). Answer will be **9** here.
 
 >When the have the **-** condition then we look at the **smaller** value of the two consecutive multiples of the number. Example. 72-> (8 * 9). Answer will be **8** here.
+
+### Formula 2
+
+#### Example(Min Perimeter)
+
+> As **Area** is given, we know we can find **max area** by **multiplying/squaring two numbers** which are same      (10 * 10). In order to find the **same values** for **min perimeter** we need to find two numbers which are the same (10 + 10) and add/sum them. *The sum of the two numbers is the answer*. We use the **max area** formula to find the two numbers needed to find the **min perimeter or just perimeter**
+
+![32](https://user-images.githubusercontent.com/54589605/204091880-99059cbf-5b73-4492-b91c-0899c20566c8.png)
+![33](https://user-images.githubusercontent.com/54589605/204091947-38555ba0-75fb-4e10-9415-c1638599db7c.png)
+
+#### Example(Max Area)
+
+> As **Perimeter** is given, we know we can find **min perimeter** by adding/summing two numbers which are same      (10 + 10). In order to find the **same values** for **Max Area** we need to find two numbers which are the same (10 * 10) and multiply/square them. We use the **min perimeter** formula to find the two numbers needed to find the **max area**.
+
+![35](https://user-images.githubusercontent.com/54589605/204092062-f1786311-3b06-4306-987f-93edc4150b8c.png)
+
+* Summary 
+![36](https://user-images.githubusercontent.com/54589605/204091831-c8a55577-0d1f-4661-903c-2cf1416a2cf4.png)
+![37](https://user-images.githubusercontent.com/54589605/204092438-68f4349f-eabf-4547-91f3-669fb5fe644d.png)
+
 
 
 
