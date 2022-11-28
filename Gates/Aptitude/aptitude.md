@@ -118,7 +118,7 @@
 
 ## Percentages
 
-### Explaination
+### Explanation
 
 1) If 'A' is **10%** more than 'B' then 'B' is **9.09%** less than 'A'.
 2) If 'A' is **20%** more than 'B' then 'B' is **16.6%** less than 'A'.
