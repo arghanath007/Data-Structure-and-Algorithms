@@ -147,6 +147,40 @@
 
 ![summary_2](https://user-images.githubusercontent.com/54589605/204277850-016b2777-0f6f-4731-a823-902d4922ce52.png)
 
+### Direct proportion(Directly proportional)
+
+> In **Direct proportion**, **division** is **constant**.
+
+![image](https://user-images.githubusercontent.com/54589605/204281004-1dd4e8db-2308-44bc-abd4-fb1e8929d61b.png)
+
+![image](https://user-images.githubusercontent.com/54589605/204281321-6c7d5b73-ee72-4cda-b8c9-cf5ff3e3c1d4.png)
+
+![image](https://user-images.githubusercontent.com/54589605/204281857-45eec1b2-f56b-4543-aa10-d33472d77f41.png)
+
+
+
+### In-Direct proportion(Inversely proportional)
+
+> In **n-Direct proportion**, **multiplication/product** is **constant**.
+
+![image](https://user-images.githubusercontent.com/54589605/204281769-42d2ba42-921b-40c6-918c-a23a611332be.png)
+
+![image](https://user-images.githubusercontent.com/54589605/204282354-7c00cfc1-413e-4241-89c8-a568d541c089.png)
+
+
+![image](https://user-images.githubusercontent.com/54589605/204282002-542e7d98-9c48-4206-a4eb-502f5aee539c.png)
+
+
+### Difference
+
+1) Directly Proportional
+2) Inversly Proportional
+
+![image](https://user-images.githubusercontent.com/54589605/204282090-d16d9d3c-4b72-4ec7-b2c8-a1435d0fb32b.png)
+
+
+
+
 
 
 
