@@ -149,7 +149,7 @@
 
 ### Direct proportion(Directly proportional)
 
-> In **Direct proportion**, **division** is **constant**.
+> Here, **Direct proportion**, **division** is **constant**.
 
 ![image](https://user-images.githubusercontent.com/54589605/204281004-1dd4e8db-2308-44bc-abd4-fb1e8929d61b.png)
 
@@ -161,7 +161,7 @@
 
 ### In-Direct proportion(Inversely proportional)
 
-> In **n-Direct proportion**, **multiplication/product** is **constant**.
+> Here, **In-Direct proportion**, **multiplication/product** is **constant**.
 
 ![image](https://user-images.githubusercontent.com/54589605/204281769-42d2ba42-921b-40c6-918c-a23a611332be.png)
 
