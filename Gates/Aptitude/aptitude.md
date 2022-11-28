@@ -116,6 +116,10 @@
 ![36](https://user-images.githubusercontent.com/54589605/204091831-c8a55577-0d1f-4661-903c-2cf1416a2cf4.png)
 ![37](https://user-images.githubusercontent.com/54589605/204092438-68f4349f-eabf-4547-91f3-669fb5fe644d.png)
 
+## Average
+
+> It is called as the **Arithmetic mean**.
+
 ## Percentages
 
 ### Explanation
@@ -133,6 +137,11 @@
 ![summary_12](https://user-images.githubusercontent.com/54589605/204271443-261c3370-d9af-4038-b1e8-2ec097c888a1.png)
 
 ![summary_13](https://user-images.githubusercontent.com/54589605/204271469-0f67a401-7077-4328-a6b7-b0018a7f4270.png)
+
+
+## Ratio and Proportion
+
+> It(Continued Proportion) is called as the **Geometric mean or mean proportion**.
 
 
 
