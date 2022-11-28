@@ -116,16 +116,23 @@
 ![36](https://user-images.githubusercontent.com/54589605/204091831-c8a55577-0d1f-4661-903c-2cf1416a2cf4.png)
 ![37](https://user-images.githubusercontent.com/54589605/204092438-68f4349f-eabf-4547-91f3-669fb5fe644d.png)
 
+## Percentages
 
+### Explaination
 
+1) If 'A' is **10%** more than 'B' then 'B' is **9.09%** less than 'A'.
+2) If 'A' is **20%** more than 'B' then 'B' is **16.6%** less than 'A'.
+3) If 'A' is **25%** more than 'B' then 'B' is **20%** less than 'A'.
+4) If 'A' is **33.3%** more than 'B' then 'B' is **25%** less than 'A'.
+5) If 'A' is **50%** more than 'B' then 'B' is **33.3%** less than 'A'.
 
+![summary_10](https://user-images.githubusercontent.com/54589605/204269882-89e6526e-ddb7-45b5-944e-3255f34a3c71.png)
 
+![summary_11](https://user-images.githubusercontent.com/54589605/204271427-3de9fb19-9877-40d8-928c-887f0db77bbd.png)
 
+![summary_12](https://user-images.githubusercontent.com/54589605/204271443-261c3370-d9af-4038-b1e8-2ec097c888a1.png)
 
-
-
-
-
+![summary_13](https://user-images.githubusercontent.com/54589605/204271469-0f67a401-7077-4328-a6b7-b0018a7f4270.png)
 
 
 
