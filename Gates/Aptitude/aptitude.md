@@ -143,6 +143,10 @@
 
 > It(Continued Proportion) is called as the **Geometric mean or mean proportion**.
 
+![5](https://user-images.githubusercontent.com/54589605/204277829-6cb3f3e8-ea60-4498-aefb-8d41476bbb6f.png)
+
+![summary_2](https://user-images.githubusercontent.com/54589605/204277850-016b2777-0f6f-4731-a823-902d4922ce52.png)
+
 
 
 
