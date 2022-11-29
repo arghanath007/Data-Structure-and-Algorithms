@@ -186,18 +186,22 @@
 
 > The **only condition** is that the **Cost Price(CP)** of **both** the items should be **same**.(Let's say I bought two items for 100Rs each) and both the **profit %** and the **loss %** should be **same**.
 
+![image](https://user-images.githubusercontent.com/54589605/204549145-be63f472-e176-4d2a-b715-9092d4d51d2e.png)
+
+
 > If **Selling Price(SP)** is same for **two** items, and I sell one of the items for a **profit**(let's say 10% profit) and I sell the other item for a **loss**(let's say 10% loss), then it is a **Net loss**. We can calculate the **Net loss** using the below formula.
 
+### Question
 
+![image](https://user-images.githubusercontent.com/54589605/204549449-95a5eaae-b845-4a60-bfb9-406544db992d.png)
 
+### Solution
 
+![11_2](https://user-images.githubusercontent.com/54589605/204549308-d91d2acc-bc95-4686-9416-0d414d3aa740.png)
 
+![11_1](https://user-images.githubusercontent.com/54589605/204548619-e0a2da8e-d5e3-460f-9b24-67db0546088a.png)
 
-
-
-
-
-
+![11_3](https://user-images.githubusercontent.com/54589605/204548518-d03e2d2c-f44d-4724-b14b-7e720a9ac204.png)
 
 
 
