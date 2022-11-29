@@ -6,7 +6,7 @@
 
 ### Watching tomorrow
 
-* Link -> https://www.youtube.com/watch?v=N-Y0QM8lf2w&list=PLC36xJgs4dxE43Au1FGRQvwHTr7NbgDCS&index=26
+* Link -> https://www.youtube.com/watch?v=XrxTfgDtK2c&list=PLC36xJgs4dxE43Au1FGRQvwHTr7NbgDCS&index=30
 
 ## Factorial
 
@@ -175,9 +175,18 @@
 ### Difference
 
 1) Directly Proportional
-2) Inversly Proportional
+2) Inversely Proportional
 
 ![image](https://user-images.githubusercontent.com/54589605/204282090-d16d9d3c-4b72-4ec7-b2c8-a1435d0fb32b.png)
+
+
+## Profit and Loss
+
+> If **Cost Price(CP)** is same for **two** items, and I sell one of the items for a **profit**(let's say 10% profit) and I sell the other item for a **loss**(let's say 10% loss), then **Net profit or loss will be same**.
+
+> The **only condition** is that the **Cost Price(CP)** of **both** the items should be **same**.(Let's say I bought two items for 100Rs each) and both the **profit %** and the **loss %** should be **same**.
+
+> If **Selling Price(SP)** is same for **two** items, and I sell one of the items for a **profit**(let's say 10% profit) and I sell the other item for a **loss**(let's say 10% loss), then it is a **Net loss**. We can calculate the **Net loss** using the below formula.
 
 
 
