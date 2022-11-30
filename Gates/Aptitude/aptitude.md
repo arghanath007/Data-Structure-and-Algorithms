@@ -212,5 +212,13 @@
 
 > The money which we(shopkeeper) are **getting/taking from the customer** is the **Selling Price** of the **item**.
 
+### Examples 
+
+![13](https://user-images.githubusercontent.com/54589605/204726292-95d5fcff-e921-42dc-9ace-5fbf969109dd.png)
+
+![14](https://user-images.githubusercontent.com/54589605/204726311-a80c3b2b-ddd8-434f-8aaf-374f775fcbe4.png)
+
+
+
 
 
