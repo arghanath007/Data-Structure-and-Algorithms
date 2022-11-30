@@ -204,5 +204,13 @@
 ![11_3](https://user-images.githubusercontent.com/54589605/204548518-d03e2d2c-f44d-4724-b14b-7e720a9ac204.png)
 
 
+### Cost Price
+
+> The things(items) which we(shopkeeper) have **bought from the market** and are **selling/giving to the customer** is the **Cost Price** of the **item**.
+
+### Selling Price
+
+> The money which we(shopkeeper) are **getting/taking from the customer** is the **Selling Price** of the **item**.
+
 
 
