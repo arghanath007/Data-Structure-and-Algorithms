@@ -1,12 +1,16 @@
 # Aptitude
 
+## Notes Link
+
+* [Notes](https://mega.nz/file/XF0Qhb5R#YJc4adakOr-M7sldluNlyuokGrCS5aKYRnWj4Td1ugw)
+
 ## Playlist
 
 * Aptitude  -> https://www.youtube.com/watch?v=p1ux1j0bRWA&list=PLC36xJgs4dxE43Au1FGRQvwHTr7NbgDCS&index=2
 
 ### Watching tomorrow
 
-* Link -> https://www.youtube.com/watch?v=W36Ux60Of-c&list=PLC36xJgs4dxE43Au1FGRQvwHTr7NbgDCS&index=38
+* Link -> https://www.youtube.com/watch?v=e8wUzEsJd6w&list=PLC36xJgs4dxE43Au1FGRQvwHTr7NbgDCS&index=43
 
 ## Factorial
 
