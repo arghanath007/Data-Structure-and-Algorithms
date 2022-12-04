@@ -10,7 +10,7 @@
 
 ### Watching tomorrow
 
-* Link -> https://www.youtube.com/watch?v=e8wUzEsJd6w&list=PLC36xJgs4dxE43Au1FGRQvwHTr7NbgDCS&index=43
+* Link -> https://www.youtube.com/watch?v=2stQzKmspTY&list=PLC36xJgs4dxE43Au1FGRQvwHTr7NbgDCS&index=46
 
 ## Factorial
 
