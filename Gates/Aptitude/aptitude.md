@@ -8,9 +8,14 @@
 
 * Aptitude  -> https://www.youtube.com/watch?v=p1ux1j0bRWA&list=PLC36xJgs4dxE43Au1FGRQvwHTr7NbgDCS&index=2
 
+
+### Watched Till
+
+* Link(Analytical reasoning GATE questions | GATE 2023) -> https://www.youtube.com/watch?v=ir2gwuKh5b4&list=PLC36xJgs4dxE43Au1FGRQvwHTr7NbgDCS&index=48
+
 ### Watching tomorrow
 
-* Link -> https://www.youtube.com/watch?v=2stQzKmspTY&list=PLC36xJgs4dxE43Au1FGRQvwHTr7NbgDCS&index=46
+* Link -> Waiting for new Videos.
 
 ## Factorial
 
