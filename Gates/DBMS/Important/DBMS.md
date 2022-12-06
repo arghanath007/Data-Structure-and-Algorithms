@@ -56,3 +56,12 @@
 
 * **Double Line** is used to represent **Total** participation constraints.
 * **Single Line** is used to represent **Partial** participation constraints.
+
+> Examples below.
+
+![46_participation_constraints](https://user-images.githubusercontent.com/54589605/205938902-77036a0b-8942-4b1e-a393-41f56ef74fc8.png)
+
+![46_1_participation_constraints](https://user-images.githubusercontent.com/54589605/205938944-ae68156b-6a1a-423d-a216-efc43a97bc22.png)
+
+![46_2_participation_constraints](https://user-images.githubusercontent.com/54589605/205938975-e467244b-a0ba-4940-a812-5889e6353138.png)
+
