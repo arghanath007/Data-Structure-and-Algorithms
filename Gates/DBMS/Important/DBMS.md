@@ -14,7 +14,7 @@
 
 * Link 1 -> https://www.youtube.com/watch?v=RCrG3L-yO_o&list=PLC36xJgs4dxGcz7nZaxGxxmbJrcgDXhFk&index=12
 
-* Link 2 -> https://www.youtube.com/watch?v=eHm7M3d3dQk&list=PLG9aCp4uE-s0bu-I8fgDXXhVLO4qVROGy&index=5
+* Link 2 -> https://www.youtube.com/watch?v=lwrmiizoZ68&list=PLG9aCp4uE-s0bu-I8fgDXXhVLO4qVROGy&index=8
 
 
 ## DBMS Architecture
@@ -65,3 +65,38 @@
 
 ![46_2_participation_constraints](https://user-images.githubusercontent.com/54589605/205938975-e467244b-a0ba-4940-a812-5889e6353138.png)
 
+## Specialization
+
+* Entity -> Computer Science Branch
+
+> If we bring more Entity-sets, into that entity, like Data Science, Machine Learning, AI,  etc. Then it is called **Specialization** of the branch Computer Science. 
+
+* **Person** ISA **Employee**.
+* **Person** ISA **Customer**.
+
+> Top to bottom is called **Specialization**.
+
+## Generalization
+
+> Bottom to top is called **Generalization**.
+
+* **Employee** ISA **Person**.
+* **Customer** ISA **Person**.
+
+
+> **ISA** relationship is nothing but **specialization** and **generalization**.
+## Types of Specialization
+
+* **Disjoint Specialization** -> If the specialization is not overlapping, then it is called **Disjoint Specialization**.
+
+* **Overlapping Specialization** -> If the specialization is overlapping, then it is called **Overlapping Specialization**.
+
+
+## Attribute Inheritance
+
+> If the attributes of the parent entity is inherited by the child entity, then it is called **Attribute Inheritance**.
+
+## Relational Model
+## Attribute
+
+> These(id, name, size, type, price, fit) are the attributes of these relation **Shirt**. Or, they are the fields of these relation **Shirt**. The name of the columns in the relation are called as **Attributes**. Only the names are included in the relation, not the data.
