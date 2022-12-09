@@ -100,3 +100,16 @@
 ## Attribute
 
 > These(id, name, size, type, price, fit) are the attributes of these relation **Shirt**. Or, they are the fields of these relation **Shirt**. The name of the columns in the relation are called as **Attributes**. Only the names are included in the relation, not the data.
+
+## Lossy VS Lossless Decomposition
+
+> During the normalization process, if **BCNF** giving lossy decomposition, then **BCNF** decomposition will not be applied. This is because, we will only do decomposition when the decomposition process is a **lossless** decomposition process.
+
+
+## Candidate Key
+
+> Minimal keys are nothing but **Candidate Keys**. If asked for minimal keys in a question, then find the **Candidate Keys**.
+
+## 3NF
+
+> If there are None/not any **Non-Prime Attributes** in the relation, then the relation is already in **3NF**. Not need to check.
