@@ -113,3 +113,15 @@
 ## 3NF
 
 > If there are None/not any **Non-Prime Attributes** in the relation, then the relation is already in **3NF**. Not need to check.
+
+
+
+
+
+## Questions
+
+![5](https://user-images.githubusercontent.com/54589605/206654652-63a0562e-2ddd-4ab1-b93c-e4b832200e3b.png)
+
+> Here, we can see that both the Functional Dependencies(FDs) are preserved from the original relation. When we try to do a **natural join** in-order to find if it is a **lossy or a lossless decomposition** between R1 and R2 relations and in-order to do **natural join** we need a **common attribute** between the two relations and we don't have that here. So **natural join** is not possible between R1 and R2 relation. Hence this is a **lossy decomposition** or **not a lossless decomposition**. 
+
+>  If **natural join** is not possible or hell, if there is no **common attribute** between the two relations, it is a **lossy or not a lossless decomposition**. 
