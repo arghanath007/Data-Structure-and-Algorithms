@@ -14,7 +14,7 @@
 
 * Link 1 -> https://www.youtube.com/watch?v=RCrG3L-yO_o&list=PLC36xJgs4dxGcz7nZaxGxxmbJrcgDXhFk&index=12
 
-* Link 2 -> https://www.youtube.com/watch?v=ls-7M_g1MkU&list=PLG9aCp4uE-s0bu-I8fgDXXhVLO4qVROGy&index=15
+* Link 2 -> https://www.youtube.com/watch?v=AOAgfdAYnK0&list=PLG9aCp4uE-s0bu-I8fgDXXhVLO4qVROGy&index=19
 
 
 ## DBMS Architecture
@@ -125,3 +125,17 @@
 > Here, we can see that both the Functional Dependencies(FDs) are preserved from the original relation. When we try to do a **natural join** in-order to find if it is a **lossy or a lossless decomposition** between R1 and R2 relations and in-order to do **natural join** we need a **common attribute** between the two relations and we don't have that here. So **natural join** is not possible between R1 and R2 relation. Hence this is a **lossy decomposition** or **not a lossless decomposition**. 
 
 >  If **natural join** is not possible or hell, if there is no **common attribute** between the two relations, it is a **lossy or not a lossless decomposition**. 
+
+## SQL Joins
+
+### Inner Join
+
+> We get the common data/rows from both the tables.
+
+### Left Join
+
+> We get all the data from the left table and the matching rows/records from the right table.
+
+## Aggregate Functions
+
+> They ignore/omit/does not **count** the **NULL** values in the table.
