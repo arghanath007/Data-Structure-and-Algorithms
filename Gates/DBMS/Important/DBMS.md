@@ -14,7 +14,7 @@
 
 * Link 1 -> https://www.youtube.com/watch?v=RCrG3L-yO_o&list=PLC36xJgs4dxGcz7nZaxGxxmbJrcgDXhFk&index=12
 
-* Link 2 -> https://www.youtube.com/watch?v=AOAgfdAYnK0&list=PLG9aCp4uE-s0bu-I8fgDXXhVLO4qVROGy&index=19
+* Link 2 -> https://www.youtube.com/watch?v=IyVZFzzeuUk&list=PLG9aCp4uE-s0bu-I8fgDXXhVLO4qVROGy&index=21
 
 
 ## DBMS Architecture
