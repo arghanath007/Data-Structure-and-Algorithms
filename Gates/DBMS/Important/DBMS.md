@@ -14,7 +14,7 @@
 
 * Link 1 -> https://www.youtube.com/watch?v=RCrG3L-yO_o&list=PLC36xJgs4dxGcz7nZaxGxxmbJrcgDXhFk&index=12
 
-* Link 2 -> https://www.youtube.com/watch?v=IyVZFzzeuUk&list=PLG9aCp4uE-s0bu-I8fgDXXhVLO4qVROGy&index=21
+* Link 2 -> https://www.youtube.com/watch?v=gSZ5tEAYEKI&list=PLG9aCp4uE-s0bu-I8fgDXXhVLO4qVROGy&index=25
 
 
 ## DBMS Architecture
@@ -211,3 +211,33 @@
 ![142_types_of_operators](https://user-images.githubusercontent.com/54589605/206860170-abf219a5-402f-4416-8ea9-8cc8d6e990ef.png)
 
 
+ 
+
+## Sub Queries
+
+### All Operator
+
+1) select ProductName from products where ProductID = ANY (select ProductID from OrderDetails where quantity > 50);
+                                  *OR*
+* select ProductName from products where ProductID IN (select ProductID from OrderDetails where quantity > 50)
+
+2) select ProductName from products where ProductID < Any (select ProductID from OrderDetails where quantity = 1);
+
+3) select * from products where ProductID < All (select ProductID from OrderDetails where quantity = 1);
+  
+4) select * from employees where salary > All (select salary from employees where DepartmentID = 2);
+
+### Exists Operator
+
+1) select * from customers where exists (select * from orders where customers.CustomerID = orders.CustomerID);
+
+2) select * from suppliers, products where supplier.SupplierID= products.SupplierID and products.price < 20; 
+                              *OR*
+* select * from suppliers where exists (select * from products where supplier.SupplierID= products.SupplierID and price < 20);
+
+3) select * from suppliers where exists (select * from products where price = 22 and supplier.SupplierID= products.SupplierID);
+
+
+## Sets
+
+> In sets, the order of the elements does not matter. It is always an unordered list.
