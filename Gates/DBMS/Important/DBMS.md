@@ -14,7 +14,7 @@
 
 * Link 1 -> https://www.youtube.com/watch?v=RCrG3L-yO_o&list=PLC36xJgs4dxGcz7nZaxGxxmbJrcgDXhFk&index=12
 
-* Link 2 -> https://www.youtube.com/watch?v=gSZ5tEAYEKI&list=PLG9aCp4uE-s0bu-I8fgDXXhVLO4qVROGy&index=25
+* Link 2 -> https://www.youtube.com/watch?v=Pe1PGnmbDh4&list=PLG9aCp4uE-s0bu-I8fgDXXhVLO4qVROGy&index=27
 
 
 ## DBMS Architecture
@@ -241,3 +241,9 @@
 ## Sets
 
 > In sets, the order of the elements does not matter. It is always an unordered list.
+
+## Division Operator
+
+> It works **for All** cases. It is used in queries where there is a case of **For All**. 
+> **Eg**, Select a car which is driven by all the drivers.
+> **Eg**, Select a particular driver which has driven all the cars.
