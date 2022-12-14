@@ -12,7 +12,7 @@
 
 ### Watching tomorrow
 
-* Link 1 -> https://www.youtube.com/watch?v=RCrG3L-yO_o&list=PLC36xJgs4dxGcz7nZaxGxxmbJrcgDXhFk&index=12
+* Link 1 -> https://www.youtube.com/watch?v=gt_xX0rKw1s&list=PLC36xJgs4dxGcz7nZaxGxxmbJrcgDXhFk&index=14
 
 * Link 2 -> https://www.youtube.com/watch?v=5b376YFCliI&list=PLG9aCp4uE-s0bu-I8fgDXXhVLO4qVROGy&index=28
 
@@ -261,3 +261,16 @@
 2) One To One
 3) Many To Many
 4) One To Many from Department to Employee. Many To One from Employee to Department.
+
+## Minimum Cardinality
+
+> By default for **minimum cardinality**, **partial participation** is to be considered.
+
+
+### Note
+
+> **Maximum and minimum cardinality** are nothing but constraints on the system.
+
+## ER Model
+
+> It is a **graphical model**. Creating some figures. Not writing much text. That's why we do **high-level design** in ER-model and then we implement it in a **Relational model**. If we are given **tables** which are present in relational models, it is **very difficult** to interpret/understand them but it is easy to understand in **ER model** which has figures.
