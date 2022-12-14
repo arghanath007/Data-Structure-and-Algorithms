@@ -14,7 +14,7 @@
 
 * Link 1 -> https://www.youtube.com/watch?v=RCrG3L-yO_o&list=PLC36xJgs4dxGcz7nZaxGxxmbJrcgDXhFk&index=12
 
-* Link 2 -> https://www.youtube.com/watch?v=Pe1PGnmbDh4&list=PLG9aCp4uE-s0bu-I8fgDXXhVLO4qVROGy&index=27
+* Link 2 -> https://www.youtube.com/watch?v=5b376YFCliI&list=PLG9aCp4uE-s0bu-I8fgDXXhVLO4qVROGy&index=28
 
 
 ## DBMS Architecture
@@ -247,3 +247,9 @@
 > It works **for All** cases. It is used in queries where there is a case of **For All**. 
 > **Eg**, Select a car which is driven by all the drivers.
 > **Eg**, Select a particular driver which has driven all the cars.
+
+## ER Model to Relational Database
+
+> If it is **one-many** or **many-one** then we will use **2** tables. We have to keep the **relation information** on the **many** table/part. 
+> If it is a **many-many** then we will use **3** tables. We have to keep the **relation information** on the **3rd or new** table/part created. 
+> If we have **one-one** then we will have **2** tables. We have to keep the **relation information** on **either of the tables** and it is dependent on the situation and the tables given.
