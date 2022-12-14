@@ -253,3 +253,11 @@
 > If it is **one-many** or **many-one** then we will use **2** tables. We have to keep the **relation information** on the **many** table/part. 
 > If it is a **many-many** then we will use **3** tables. We have to keep the **relation information** on the **3rd or new** table/part created. 
 > If we have **one-one** then we will have **2** tables. We have to keep the **relation information** on **either of the tables** and it is dependent on the situation and the tables given.
+
+## Relationships and Cardinality
+
+![174_2_cardinality_of_binary_relationships_question](https://user-images.githubusercontent.com/54589605/207613288-8dbd0f86-1f21-46e1-8b2a-7de6b5a9fe34.png)
+1) Stated in the above photo
+2) One To One
+3) Many To Many
+4) One To Many from Department to Employee. Many To One from Employee to Department.
