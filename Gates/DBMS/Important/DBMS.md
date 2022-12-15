@@ -12,9 +12,13 @@
 
 ### Watching tomorrow
 
-* Link 1 -> https://www.youtube.com/watch?v=gt_xX0rKw1s&list=PLC36xJgs4dxGcz7nZaxGxxmbJrcgDXhFk&index=14
+* Link 1 -> https://www.youtube.com/watch?v=VyTNsblZFrI&list=PLC36xJgs4dxGcz7nZaxGxxmbJrcgDXhFk&index=21
 
 * Link 2 -> https://www.youtube.com/watch?v=5b376YFCliI&list=PLG9aCp4uE-s0bu-I8fgDXXhVLO4qVROGy&index=28
+
+### Important Video Links
+
+* relationship between strong and weak entity type -> https://www.youtube.com/watch?v=gt_xX0rKw1s&list=PLC36xJgs4dxGcz7nZaxGxxmbJrcgDXhFk&index=15
 
 
 ## DBMS Architecture
@@ -74,11 +78,13 @@
 * **Person** ISA **Employee**.
 * **Person** ISA **Customer**.
 
-> Top to bottom is called **Specialization**.
+> **Top to bottom(Top down)** approach is called **Specialization**.
+> The main aim of specialization is to create **differences** between one Entity type(general/super type) instance and with those differences we will create multiple Entity types.
 
 ## Generalization
 
-> Bottom to top is called **Generalization**.
+> **Bottom to top(Bottom Up)** approach is called **Generalization**.
+> The aim of generalization is to find **similarities** between the multiple Entity types and create a **general/super** type.
 
 * **Employee** ISA **Person**.
 * **Customer** ISA **Person**.
@@ -100,6 +106,10 @@
 ## Attribute
 
 > These(id, name, size, type, price, fit) are the attributes of these relation **Shirt**. Or, they are the fields of these relation **Shirt**. The name of the columns in the relation are called as **Attributes**. Only the names are included in the relation, not the data.
+
+## Domain
+
+> The set of values an attribute can have.
 
 ## Lossy VS Lossless Decomposition
 
@@ -274,3 +284,5 @@
 ## ER Model
 
 > It is a **graphical model**. Creating some figures. Not writing much text. That's why we do **high-level design** in ER-model and then we implement it in a **Relational model**. If we are given **tables** which are present in relational models, it is **very difficult** to interpret/understand them but it is easy to understand in **ER model** which has figures.
+
+
