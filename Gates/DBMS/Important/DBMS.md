@@ -12,13 +12,14 @@
 
 ### Watching tomorrow
 
-* Link 1 -> https://www.youtube.com/watch?v=VyTNsblZFrI&list=PLC36xJgs4dxGcz7nZaxGxxmbJrcgDXhFk&index=21
+* Link 1 -> https://www.youtube.com/watch?v=2HlsZAO0TpU&list=PLC36xJgs4dxGcz7nZaxGxxmbJrcgDXhFk&index=25
 
 * Link 2 -> https://www.youtube.com/watch?v=5b376YFCliI&list=PLG9aCp4uE-s0bu-I8fgDXXhVLO4qVROGy&index=28
 
 ### Important Video Links
 
 * relationship between strong and weak entity type -> https://www.youtube.com/watch?v=gt_xX0rKw1s&list=PLC36xJgs4dxGcz7nZaxGxxmbJrcgDXhFk&index=15
+* 21. transforming binary relationships (one to many or many to one)to tables -> https://www.youtube.com/watch?v=J-YGCY7ppJ8&list=PLC36xJgs4dxGcz7nZaxGxxmbJrcgDXhFk&index=24
 
 
 ## DBMS Architecture
