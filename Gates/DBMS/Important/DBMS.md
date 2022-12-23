@@ -14,7 +14,7 @@
 
 * Link 1 -> https://www.youtube.com/watch?v=QCBi0mrVaqc&list=PLC36xJgs4dxGcz7nZaxGxxmbJrcgDXhFk&index=32
 
-* Link 2 -> https://www.youtube.com/watch?v=5b376YFCliI&list=PLG9aCp4uE-s0bu-I8fgDXXhVLO4qVROGy&index=28
+* Link 2 -> https://www.youtube.com/watch?v=anBc_RrLkTE&list=PLG9aCp4uE-s0bu-I8fgDXXhVLO4qVROGy&index=31
 
 ### Important Video Links
 
