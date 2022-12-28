@@ -14,12 +14,14 @@
 
 * Link 1 -> https://www.youtube.com/watch?v=QCBi0mrVaqc&list=PLC36xJgs4dxGcz7nZaxGxxmbJrcgDXhFk&index=32
 
-* Link 2 -> https://www.youtube.com/watch?v=gSEaSC6Hmto&list=PLG9aCp4uE-s0bu-I8fgDXXhVLO4qVROGy&index=34
+* Link 2 -> https://www.youtube.com/watch?v=32EJb3J3j4g&list=PLG9aCp4uE-s0bu-I8fgDXXhVLO4qVROGy&index=37
 
 ### Important Video Links
 
-* relationship between strong and weak entity type -> https://www.youtube.com/watch?v=gt_xX0rKw1s&list=PLC36xJgs4dxGcz7nZaxGxxmbJrcgDXhFk&index=15
-* 21. transforming binary relationships (one to many or many to one)to tables -> https://www.youtube.com/watch?v=J-YGCY7ppJ8&list=PLC36xJgs4dxGcz7nZaxGxxmbJrcgDXhFk&index=24
+* *relationship between strong and weak entity type* -> https://www.youtube.com/watch?v=gt_xX0rKw1s&list=PLC36xJgs4dxGcz7nZaxGxxmbJrcgDXhFk&index=15
+* *21. transforming binary relationships (one to many or many to one)to tables* -> https://www.youtube.com/watch?v=J-YGCY7ppJ8&list=PLC36xJgs4dxGcz7nZaxGxxmbJrcgDXhFk&index=24
+* *Timestamp Based Algorithm* -> https://www.youtube.com/watch?v=fpuqVEwJhTo&list=PLG9aCp4uE-s0bu-I8fgDXXhVLO4qVROGy&index=35
+* *Thomas Write Rule and Deadlock Prevention* -> https://www.youtube.com/watch?v=atjXwuAk6qs&list=PLG9aCp4uE-s0bu-I8fgDXXhVLO4qVROGy&index=36
 
 
 ## DBMS Architecture
@@ -285,5 +287,12 @@
 ## ER Model
 
 > It is a **graphical model**. Creating some figures. Not writing much text. That's why we do **high-level design** in ER-model and then we implement it in a **Relational model**. If we are given **tables** which are present in relational models, it is **very difficult** to interpret/understand them but it is easy to understand in **ER model** which has figures.
+
+## Difference Between Strict and Rigorous 2PL protocols
+
+> The strict 2PL protocol is applied to only **Exclusive** locks or **Write** . It does not affect the **Read** or the **shared** locks.
+
+> The Rigorous 2PL protocol is applied to both the **Exclusive**  as well as the **shared** locks. Both the **Read** and **Write** statements are affected by this.
+
 
 
