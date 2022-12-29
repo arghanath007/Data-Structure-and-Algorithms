@@ -14,7 +14,7 @@
 
 * Link 1 -> https://www.youtube.com/watch?v=QCBi0mrVaqc&list=PLC36xJgs4dxGcz7nZaxGxxmbJrcgDXhFk&index=32
 
-* Link 2 -> https://www.youtube.com/watch?v=32EJb3J3j4g&list=PLG9aCp4uE-s0bu-I8fgDXXhVLO4qVROGy&index=37
+* Link 2 -> https://www.youtube.com/watch?v=X-8UzNbxArI&list=PLG9aCp4uE-s0bu-I8fgDXXhVLO4qVROGy&index=39
 
 ### Important Video Links
 
@@ -22,6 +22,8 @@
 * *21. transforming binary relationships (one to many or many to one)to tables* -> https://www.youtube.com/watch?v=J-YGCY7ppJ8&list=PLC36xJgs4dxGcz7nZaxGxxmbJrcgDXhFk&index=24
 * *Timestamp Based Algorithm* -> https://www.youtube.com/watch?v=fpuqVEwJhTo&list=PLG9aCp4uE-s0bu-I8fgDXXhVLO4qVROGy&index=35
 * *Thomas Write Rule and Deadlock Prevention* -> https://www.youtube.com/watch?v=atjXwuAk6qs&list=PLG9aCp4uE-s0bu-I8fgDXXhVLO4qVROGy&index=36
+* *Indexing and Types of Indexing* -> https://www.youtube.com/watch?v=H0ZYyGIBLRY&list=PLG9aCp4uE-s0bu-I8fgDXXhVLO4qVROGy&index=39
+* *Secondary Indexing (Not listed in the playlist)* -> https://www.youtube.com/watch?v=6p3yGiat2Z4
 
 
 ## DBMS Architecture
