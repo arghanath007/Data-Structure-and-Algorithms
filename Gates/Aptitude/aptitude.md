@@ -17,6 +17,16 @@
 
 * Link -> Waiting for new Videos.
 
+## PYQs
+
+### Playlist 
+
+
+* Link -> https://unacademy.com/course/course-on-general-aptitude-and-engineering-mathematics-for-gate-2023-24/2J06M8ZV
+
+* Tomorrow -> https://unacademy.com/class/foundation-questions-on-general-english-part-ii/SDLVMI9N
+
+
 ## Factorial
 
 > When finding how many(**count**) of any number(3,5,7) are present in a factorial of a number(**100!**). Like below. We were finding the count of **prime** numbers.
