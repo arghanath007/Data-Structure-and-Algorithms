@@ -21,7 +21,6 @@
 
 ### Playlist 
 
-
 * Link -> https://unacademy.com/course/course-on-general-aptitude-and-engineering-mathematics-for-gate-2023-24/2J06M8ZV
 
 * Tomorrow -> https://unacademy.com/class/foundation-questions-on-general-english-part-ii/SDLVMI9N
