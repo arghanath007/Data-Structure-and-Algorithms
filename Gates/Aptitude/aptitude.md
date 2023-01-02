@@ -7,6 +7,8 @@
 ## Playlist
 
 * Aptitude  -> https://www.youtube.com/watch?v=p1ux1j0bRWA&list=PLC36xJgs4dxE43Au1FGRQvwHTr7NbgDCS&index=2
+* Number System 1 -> https://unacademy.com/class/number-system-i/QSAWPELZ
+* Number System 2 -> https://unacademy.com/class/number-system-ii/8SV54PA3
 
 
 ### Watched Till
@@ -23,7 +25,7 @@
 
 * Link -> https://unacademy.com/course/course-on-general-aptitude-and-engineering-mathematics-for-gate-2023-24/2J06M8ZV
 
-* Tomorrow -> https://unacademy.com/class/foundation-questions-on-quantitative-aptitude-part-i/QLN4853T
+* Tomorrow -> https://unacademy.com/class/foundation-course-on-quantitative-aptitude-part-iii/MY04MP2H
 
 
 ## Factorial
