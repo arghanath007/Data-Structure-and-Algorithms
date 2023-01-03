@@ -1,5 +1,9 @@
 # Aptitude
 
+## Playlist
+
+* https://unacademy.com/course/complete-course-on-general-aptitude-for-gate-2023-24-585/PMW1DF4L
+
 ## Perfect Square
 
 * UDV -> Unit Digit Value
