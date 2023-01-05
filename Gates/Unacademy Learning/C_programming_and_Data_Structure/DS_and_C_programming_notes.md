@@ -74,3 +74,6 @@
 > The result is that the assignment was completed/successful/True. If some event happens then the result will be *True or 1*.
 
 Hence **d=1** [Since integer value of True is 1.]  
+
+![image](https://user-images.githubusercontent.com/54589605/210773078-e86687ef-4ae9-4b6a-9e54-131032d87adf.png)
+
