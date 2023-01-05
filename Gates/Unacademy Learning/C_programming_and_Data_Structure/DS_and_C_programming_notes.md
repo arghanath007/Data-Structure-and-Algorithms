@@ -66,6 +66,8 @@
 
 ### Conditional Operator
 
+![image](https://user-images.githubusercontent.com/54589605/210772964-1846b7ae-502b-490b-b4b7-89c3b69d27e6.png)
+
 * d= (6!=3)? (a=b) : (b=c)  [a=5,b=3,c=2]
 
 > 6!=3 -> True, then (a=b) which is an assignment operator. The assignment operation will take place but the assigned value will not be returned to *d* as the result of the *ternary* operator, instead the *result of the assignment* will be returned to *d* as the result of the *ternary* operator.
