@@ -90,16 +90,101 @@ Hence **d=1** [Since integer value of True is 1.]
 > They are library functions which are pre-written. The functions which are written along with C language.
 
 
-## DPP 1
+## DPP 1 (4)
 
 * 1 -> A (Compiler)
 * 2 -> B (Double)
 * 3 -> C
 * 4 -> B (3)
 * 5 -> C (a+b =c)
-* 6 -> C
+* 6 -> B 
 * 7 -> A (if)
 * 8 -> D (!=)
 * 9 -> A (=)
 * 10 -> A (&)
+
+> Question 6, ['Associativity' comes into the picture when two or more operands have the same precedence. Here '/' and '*']
+
+### printf() variants
+
+* printf("%d", printf("program")); -> program7
+
+> The word 'program' gets printed. *printf* counts the number of characters that it has printed. So printf counts the length of the characters. These count of the characters will be printed after the word 'program' which was already printed.
+
+* For C programming there are at-least 60 different compilers for it where we can run c language code.
+
+### Structure of C-programming language
+
+> *main() function* -> library function. It is already given. It is to be written in every program. It is mandatory/necessary to be written in every program. Without main(), we cannot write a C-program which we want to execute because execution of a C-programs starts from the main() itself.
+
+
+* **%u** -> It is used for **unsigned** values.
 * 
+
+
+## DPP 2 
+
+* 1 -> B
+* 2 -> A
+* 3 -> D
+* 4 -> C
+* 5 -> C
+* 6 -> B
+* 7 -> A
+* 8 -> A
+* 9 -> C
+* 10 -> D
+* 11 -> C
+* 12 -> E
+* 13 -> B
+* 14 -> B
+
+
+
+* *%lu* ->Unsigned int or unsigned long
+
+### Break and continue (5)
+
+*Break and Continue* -> They are **loop controlling statements** and not branch controlling statements.
+
+* *Break* -> It breaks the current loop.
+* *Continue* -> It skips/stops the current iteration of the loop and goes to the next iteration.
+
+
+## DPP 2.1
+
+* 1 -> B
+* 2 -> A
+* 3 -> E
+* 4 -> C
+* 5 -> D
+* 6 -> C
+* 7 -> D
+* 8 -> 
+* 9 -> B
+* 10 -> D
+
+
+
+## Scratch Board/Dry runs.
+
+a=1 2 3 4
+b=1 2 3 4 2 3 4 3
+
+1 2 3
+2 3
+3
+
+i=5 4 3 2 1
+j=5 4 3 2 1 0 4 3 2 1 0 1
+
+5555
+444
+33
+2
+
+i=20 
+j=20 21              GATE 20232021
+
+i=1
+j=3  0 || 3==4
