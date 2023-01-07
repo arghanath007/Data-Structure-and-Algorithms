@@ -4,6 +4,10 @@
 
 ![syllabus](https://user-images.githubusercontent.com/54589605/210617866-0e5db580-f6ff-47fa-b8ac-8d76d3e12431.png)
 
+## Online Compiler for C language
+
+* Link -> https://www.programiz.com/c-programming/online-compiler/
+
 ## Playlist
 
 * Link -> https://unacademy.com/course/course-on-c-programming-data-structures-gate-24-25/07AHS79R
@@ -119,7 +123,7 @@ Hence **d=1** [Since integer value of True is 1.]
 
 
 * **%u** -> It is used for **unsigned** values.
-* 
+* **%x** -> It is used for getting values in **Hexa-decimal** format.
 
 
 ## DPP 2 
@@ -162,7 +166,181 @@ Hence **d=1** [Since integer value of True is 1.]
 * 7 -> D
 * 8 -> 
 * 9 -> B
-* 10 -> D
+* 10 -> D 
+
+## Pointers and Array (6) **Very  Important**
+
+* Links ->  * https://unacademy.com/class/pointer/D788WQUL
+            * https://unacademy.com/class/array/HG0OOZN2
+            * https://unacademy.com/class/array-with-pointers/56LKYSW6
+
+> Important as pointer are confusing and many questions come from it. Revise it well. Also go through the notes and the PDFs as well.
+
+* floor() and ceil() are found in *math.h* library. [#include<math.h>].
+* floor() gives the *lower nearest* integer number.
+* ceil() gives the *upper nearest* integer number.
+
+### Pointer
+
+> If we want to store the address of another variable into a particular variable then a normal variable cannot store the address of another variable. Hence we need a special variable for storing the address of another variable into a particular variable. That special variable is called as the *pointer* variable. 
+> When we want to store the address of anything into a variable, then we cannot normally define that variable. Normal variable cannot store addresses of anything(another variable). The system will give me an error.
+
+* *Pointer* -> It is also a variable, but it doesn't store values like characters, floats, integers, double etc. It will only store addresses of others or other variables.
+
+#### Example
+
+int a=5, b=2; # Normal variable
+int *p;  # Special variable called as pointer.(Declaration)
+p= &a;   # Pointer p storing the address of a.(Initialization)
+
+int *q= &b; # Initialization and declaration in the same line.
+
+> p is a pointer which points to a.
+
+* char *cp; ->  It is a pointer which will store address of a character type only.
+* float *fp; ->  It is a pointer which will store address of a float type only.
+
+* int *ip; ->  It is a pointer which will store address of a integer type only.
+
+> All three(cp,fp,ip) are all storing address but whose address is mentioned in the datatype of the pointer.
+
+* We are storing address then why do we need the type?
+
+> It is needed because when we are fetching/accessing the value of *cp*, the system knows that we are getting a character type and not any other type.
+
+> It is true for *fp* and *ip* as well.
+
+* *Type of a pointer* -> It is saying how many bytes are to be read from the starting address. What type of values are stored from that given starting address.
+
+* Size of Integer is same as the size of the pointer?
+
+> Because pointer stores the address and address is in integer format.
+
+
+* *Multiplication* and *Division* is not possible in pointers.
+
+### Double Pointer
+
+#### Example
+
+int **p;
+
+> *p* is a pointer which hold's address of another pointer which is integer type. (Pointer pointing to another pointer)
+
+### Array
+
+> Continuos allocation of memory of certain datatype
+
+#### Example
+
+* int A[5];
+
+> It is compulsory/mandatory that it takes up 5 consecutive address in memory.
+> The address of the very first element in the array is called as the base address of the array.
+
+* int a[5]= {1,2,3};
+
+> If we declared an array with certain size(say 5 here) and we do not completely fill or make the array full. We just go to a certain size which is smaller than the actual size of the array(say 3 here). Then the rest positions which do not have any values will be initialized with zero(0).
+
+* int A[5];
+* printf("%d", A[2]);
+
+> If we tried to print A[2], then we will get an *unpredicted* value as we have not *initialized* the array. As we have not initialized the array, hence no values will be initialized and all of the values will become *unpredicted* values.
+> If we tried to initialize even one(1) value in the array then rest of the values will be initialized with zero(0) like above.
+> In C-programming language if we want an array values to be initialized with all zeroes, then we can do the below code.
+
+* int A[size] = {0};
+
+> The name of an array is a *constant pointer* which stores the base address of that array.
+> If we print the name of the array like below, then we will get the base address of the array.
+
+* printf("%d", A); -> gives base address of the array
+
+* int A[5];
+* A++; 
+
+> The 2nd line(A++) will give us an error when we try to run it because 'A' is the name of the array which means it is a constant pointer and it stores the base address of the array. Hence we cannot change/modify it.
+
+## DPP 3
+
+* 1 -> E
+* 2 -> 6,6,6,180
+* 3 ->
+* 4 -> -2
+* 5 -> 8,1,2
+
+## Array With Pointers (7)
+
+* int *p =&A[0];
+* int *p= A;
+
+> These two *&A[0]* and *A* both give the same thing, which is the base address of array A.
+
+* int A[5];
+* printf("%u",A); -> 500
+* printf("%u",&A); -> gives address of the constant pointer 'A'.
+
+> Printing 'A' gives you the base address of the Array. *'&A' gives you the address of the constant pointer which is A*.
+> Which means the array name and the constant pointer name are the same. 'A' here is the name of the array and the name of the constant pointer is 'A' as well.
+
+* int x=6;
+* int *p=&x;
+
+> In normal pointers, the name of the pointer is different to the name of the variable it is pointing to. 'p' is the pointer here and 'x' is the variable to which 'p' is pointing.
+> But in Array, both the constant pointer(which is the pointer) and the variable(the array 'A') where the pointer is pointing have the same name which is 'A' here.
+
+* int A[5];
+* printf("%u", &A); -> gives the address of the constant pointer 'A'.
+* printf("%u", &A+1);
+
+> *'&A+1' means that we are incrementing the address by the size of the entire array*. As '&A' gets initialized first due to precedence and gives '800' as the address of the constant pointer, plus the size of the entire array. We have '5' elements in the array and each is '2bytes'. Hence size of array is 2*5=10bytes. 
+
+* '&A+1' -> 800 + 1* 2 *5 =800 +10=810.
+* '&A+2' -> 800 + 2* 2 *5 =800 +20=820.
+* '&A+3' -> 800 + 3* 2 *5 =800 +30=830.
+
+* int a[5] = {1,2,3,4,5};
+* printf("%d", *a + 3); -> 1 + 3 -> 4
+
+> '*a' gives you the 0th element of the array. It gets executed first as it has higher precedence.
+
+## 2D Array
+
+* int A[4][5];
+
+> In C-language there is only one way to store 2D array elements which is *Row-wise or Row major ordering*.
+> In general Data structure, there are two ways to store 2D array elements which are *Row-wise(Row major ordering)* and *Column-wise(Column major ordering)*.
+
+* int A[4][5];
+* printf("%d", A);
+* printf("%d", &A[0][0]);
+
+> Both 'A' and '&A[0][0]' gives the base address of the 2D array which is 'A'.
+
+### Row-wise order
+
+### Find the address of any element A[i][j].
+
+* Initial Array -> A[4][5]
+* Base Address -> 500
+* Size of each element -> 2(Integer values)
+* A[2][4] = Base address + size of each element * (i * (no. of columns) + j)
+          = 500 + 2 * (2*5 +4)
+          = 500 + 2*14
+          = 528
+
+
+* int A[4][5];
+* printf("%u", A) -> base address
+* printf("%u", &A[0][0]) -> base address
+
+'A+1', 'A+2', 'A+3'
+> If we write 'A+0', then we are trying to access the name of the first(0th row) row of the 2D array. 'A+1', 'A+2', 'A+3' so no are trying to access the name of second, third, forth row of the 2D array respectively.
+
+* 'A+0' -> trying to access the name of the *first(0th row)* row of the 2D array
+* 'A+1' -> trying to access the name of the *second(1st row)* row of the 2D array
+* 'A+2' -> trying to access the name of the *third(2nd row)* row of the 2D array
+* 'A+3' -> trying to access the name of the *fourth(3rd row)* row of the 2D array
 
 
 
@@ -188,3 +366,29 @@ j=20 21              GATE 20232021
 
 i=1
 j=3  0 || 3==4
+
+m=10
+i=1 2 4 8 16
+count=0 1 2 3 4
+
+m=20
+i=1 2 4 8 16 32
+count=0 1 2 3 4 5
+
+i=5
+j=1 2 4 8
+count=0 1 0 -1 -2
+n=5
+
+i=1 2 4 8
+j=1
+count=0 1 2 3 2
+n=5
+
+8 1 2
+
+i=0
+j=0 1 2 3 4 5
+k=1 2 3 4 5
+count=0 1 2 3 4 5 6 7 8 9 10 15 20 25 30
+n=5
