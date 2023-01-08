@@ -12,6 +12,20 @@
 
 * Link -> https://unacademy.com/course/course-on-c-programming-data-structures-gate-24-25/07AHS79R
 
+* Session 9 was Quiz 1
+
+## Important Topics and Video to watch when doing revision
+
+* Pointer videos -> * https://unacademy.com/class/pointer/D788WQUL
+                    * https://unacademy.com/class/array/HG0OOZN2
+                    * https://unacademy.com/class/array-with-pointers/56LKYSW6
+                    * https://unacademy.com/class/structure-and-union/JA6PA1NQ
+* Doubt Clearing(Many DPPs and Quiz question discussed) -> https://unacademy.com/class/doubt-clearing-session/SJZIOSWP
+## Quiz and Practice Questions
+ 
+* 1 -> https://unacademy.com/quiz/quiz-i/11XTRM5Y37 
+* 1(Solutions) -> https://unacademy.com/quiz/quiz-i/11XTRM5Y37/solutions/SP_WR9PER0GSENLRBNM5
+
 ## Watch tomorrow
 
 * Link -> https://unacademy.com/class/doubt-clearing-session/5A97SWZZ
@@ -128,20 +142,22 @@ Hence **d=1** [Since integer value of True is 1.]
 
 ## DPP 2 
 
-* 1 -> B
+* 1 -> D (Got it wrong, I checked B initially)
 * 2 -> A
 * 3 -> D
-* 4 -> C
+* 4 -> D (Got it wrong, I checked C initially)
 * 5 -> C
 * 6 -> B
-* 7 -> A
-* 8 -> A
-* 9 -> C
-* 10 -> D
-* 11 -> C
-* 12 -> E
-* 13 -> B
-* 14 -> B
+* 7 -> A (d,100)
+* 8 -> C (-1,0) (Got it wrong, I checked A initially)
+* 9 -> E (Compilation Error) (Got it wrong, I checked C initially)
+* 10 -> C (8) (Got it wrong, I checked D initially)
+* 11 -> E (GATE EXAM9) (Got it wrong, I checked C initially)
+* 12 -> B (GATE EXAM91) (Got it wrong, I checked E initially)
+* 13 -> C (20,9,0) (Got it wrong, I checked B initially)
+
+
+> '++' and '--' can only be used with variables. They cannot be used with constants as in 'Q9' from above.
 
 
 
@@ -157,22 +173,31 @@ Hence **d=1** [Since integer value of True is 1.]
 
 ## DPP 2.1
 
-* 1 -> B
-* 2 -> A
-* 3 -> E
-* 4 -> C
-* 5 -> D
-* 6 -> C
-* 7 -> D
-* 8 -> 
-* 9 -> B
-* 10 -> D 
+* 1 -> B (This is if0)
+* 2 -> A (GATE 20232021)
+* 3 -> F (You are in else)
+* 4 -> C (23)
+* 5 -> D (TwoThree)
+* 6 -> D (Compilation Error) (Got it wrong, I checked C initially)
+* 7 -> D (Default)
+* 8 -> F (27)
+* 9 -> F (I am WonderfulYaha Kyu?)
+* 10 -> A (Let's Party)
+
+## Switch Case
+
+> In switch case we cannot use *float* and *double* type values. We can use *char*, *int*. As seen in Q6 from above.
+
+### exit(0)
+
+> Whenever this code/statement runs within a program then we will *come out or exit out* of the program *completely*.
 
 ## Pointers and Array (6) **Very  Important**
 
 * Links ->  * https://unacademy.com/class/pointer/D788WQUL
             * https://unacademy.com/class/array/HG0OOZN2
             * https://unacademy.com/class/array-with-pointers/56LKYSW6
+            * https://unacademy.com/class/structure-and-union/JA6PA1NQ
 
 > Important as pointer are confusing and many questions come from it. Revise it well. Also go through the notes and the PDFs as well.
 
@@ -186,6 +211,16 @@ Hence **d=1** [Since integer value of True is 1.]
 > When we want to store the address of anything into a variable, then we cannot normally define that variable. Normal variable cannot store addresses of anything(another variable). The system will give me an error.
 
 * *Pointer* -> It is also a variable, but it doesn't store values like characters, floats, integers, double etc. It will only store addresses of others or other variables.
+
+* * int *ptr;
+* int age=22;
+* ptr = &age;
+* printf("%d", ptr); -> Address of the variable(age) ptr is pointing to.
+* printf("%d", *ptr); -> Value in the variable(age)
+* printf("%d", &age); -> Address of variable(age)
+* printf("%d\n", &ptr); -> Address of pointer ptr.
+
+> 
 
 #### Example
 
@@ -264,8 +299,8 @@ int **p;
 ## DPP 3
 
 * 1 -> E
-* 2 -> 6,6,6,180
-* 3 ->
+* 2 -> 7,7,8,147 [For n=6] 4,4,4, 48 [For n=3]
+* 3 -> B
 * 4 -> -2
 * 5 -> 8,1,2
 
@@ -342,7 +377,47 @@ int **p;
 * 'A+2' -> trying to access the name of the *third(2nd row)* row of the 2D array
 * 'A+3' -> trying to access the name of the *fourth(3rd row)* row of the 2D array
 
+* int A[4][5];
+* printf("%d", &A[0]);
+* printf("%d", A+0);
 
+> 'A[0]' and 'A+0' gives us the same output which is the name of the 0th row of 2D array 'A'.
+
+* printf("%d", &A[0] + 1);
+* printf("%d", A[1]);
+
+> '&A[0] + 1' and 'A[1]' will give the same output which is the name of 1st row of 2D array 'A'.
+
+* printf("%d", *(&A[3][2]));
+* printf("%d", A[3][2]);
+
+> Both will give the same output which is the value/element that A[3][2].
+
+* int (*p)[5]; -> It will create an integer array of size '5'. Each element of the array is an integer only. No name was given to the array. We crated a pointer 'p' which will point to the starting address of the array. With this pointer we can access all of the elements within the array.
+
+> 'int (*p)[5];' is a pointer to an array.
+
+### Difference between regular array and 'int (*p)[5];':
+
+> When creating a regular array, the name of the regular array is constant. It means the name of the array and the name of the constant pointer is the same. We cannot increment the pointer as it is a constant pointer.
+
+> In 'int (*p)[5];', we are naming the pointer ourselves. Hence we call increment the pointer as well(p++) and it will work fine.
+
+* int *p[5]; or (int*) p[5]; -> This will create an array where all of the elements are pointers of type int rather than an element.
+
+> 'int *p[5]; or (int*) p[5];' is an array of pointers.
+
+## Runtime and Compile(Compilation) time errors:-
+
+> **Runtime** -> Errors which occur during program execution(run-time) after successful compilation are called run-time errors. One of the most common run-time error is division by zero also known as Division error. These types of error are hard to find as the compiler doesn’t point to the line at which the error occurs.
+
+> **Compile** -> Errors that occur when you violate the rules of writing syntax are known as Compile-Time errors. This compiler error indicates something that must be fixed before the code can be compiled. All these errors are detected by the compiler and thus are known as compile-time errors. 
+
+## Quiz question
+
+* int j =(x++, --y);
+
+> No matter what is the value of 'x' and 'y' is, we will always take the 2nd or the last value i.e the value of 'y' here and store it in 'j' variable.
 
 ## Scratch Board/Dry runs.
 
@@ -392,3 +467,12 @@ j=0 1 2 3 4 5
 k=1 2 3 4 5
 count=0 1 2 3 4 5 6 7 8 9 10 15 20 25 30
 n=5
+
+n=5
+m=7
+k=3
+t=10
+
+i=3
+j=7
+
