@@ -82,6 +82,7 @@
     "inorder",
     "nlogn",
     "nums",
-    "preorder"
+    "preorder",
+    "struct"
   ]
 }

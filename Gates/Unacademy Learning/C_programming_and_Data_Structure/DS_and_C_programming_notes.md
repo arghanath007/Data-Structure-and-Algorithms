@@ -20,6 +20,7 @@
                     * https://unacademy.com/class/array/HG0OOZN2
                     * https://unacademy.com/class/array-with-pointers/56LKYSW6
                     * https://unacademy.com/class/structure-and-union/JA6PA1NQ
+                    * https://unacademy.com/class/functions/660SO1X9
 * Doubt Clearing(Many DPPs and Quiz question discussed) -> https://unacademy.com/class/doubt-clearing-session/SJZIOSWP
 ## Quiz and Practice Questions
  
@@ -198,6 +199,7 @@ Hence **d=1** [Since integer value of True is 1.]
             * https://unacademy.com/class/array/HG0OOZN2
             * https://unacademy.com/class/array-with-pointers/56LKYSW6
             * https://unacademy.com/class/structure-and-union/JA6PA1NQ
+            * https://unacademy.com/class/functions/660SO1X9
 
 > Important as pointer are confusing and many questions come from it. Revise it well. Also go through the notes and the PDFs as well.
 
@@ -215,12 +217,31 @@ Hence **d=1** [Since integer value of True is 1.]
 * * int *ptr;
 * int age=22;
 * ptr = &age;
-* printf("%d", ptr); -> Address of the variable(age) ptr is pointing to.
-* printf("%d", *ptr); -> Value in the variable(age)
-* printf("%d", &age); -> Address of variable(age)
-* printf("%d\n", &ptr); -> Address of pointer ptr.
+* printf("%d", ptr); -> *Address of the variable(age) ptr is pointing to.*
+* printf("%d", *ptr); -> **Value in the variable(age)**
+* printf("%d", &age); -> *Address of variable(age)*
+* printf("%d\n", &ptr); -> *Address of pointer ptr.*
+* *ptr=25;
+* printf("%d", age); -> Value of age is updated from 22 to 25 as '*ptr' is pointing to the value of age. 
 
-> 
+> '*' gives the value stored at the memory address.
+> '&' gives the address.
+
+* int n;
+* int* ptr;
+* ptr =n; 
+    >*Invalid* as 'ptr' is a pointer(stores memory address) and 'n' is a integer.
+
+* *ptr=&n; 
+    >*Invalid* as '*ptr' is integer(valued stored at ptr location) and '&n' is the address of 'n'.
+
+* ptr=&n;
+    > *Valid* as 'ptr' and '&n' are both memory addresses.
+
+* *ptr =n;
+    > *Valid* as '*ptr' and 'n' are both numbers. They represent the value stored in the memory location.
+
+
 
 #### Example
 
@@ -315,6 +336,10 @@ int **p;
 * printf("%u",A); -> 500
 * printf("%u",&A); -> gives address of the constant pointer 'A'.
 
+* A[0] -> *(500 + 0)
+
+> Both are the same thing.
+
 > Printing 'A' gives you the base address of the Array. *'&A' gives you the address of the constant pointer which is A*.
 > Which means the array name and the constant pointer name are the same. 'A' here is the name of the array and the name of the constant pointer is 'A' as well.
 
@@ -339,7 +364,38 @@ int **p;
 
 > '*a' gives you the 0th element of the array. It gets executed first as it has higher precedence.
 
-## 2D Array
+
+### Difference between regular array and 'int (*p)[5];':
+
+* int (*p)[5]; -> It will create an integer array of size '5'. Each element of the array is an integer only. No name was given to the array. We created a pointer 'p' which will point to the starting address of the array. With this pointer we can access all of the elements within the array.
+
+    ```c
+        int A[5]= {1,2,3,4,5};
+        int (*p)[2] = A;
+        int *q=A;
+        printf("%d, %d\n", *p[0], *q); // 1, 1
+        q++;
+        printf("%d, %d\n", (*p)[0],*q); // 1, 2
+        p++,q++;
+        printf("%d, %d\n", *p[0],*q); // 3, 3
+        p++, q++;
+        printf("%d, %d\n", *p[0], *q); // 5, 4
+        // p++;
+        // printf("%d\n", *p[0]);
+    ```
+
+
+> 'int (*p)[5];' is a pointer to an array.
+
+> When creating a regular array, the name of the regular array is constant. It means the name of the array and the name of the constant pointer is the same. We cannot increment the pointer as it is a constant pointer.
+
+> In 'int (*p)[5];', we are naming the pointer ourselves. Hence we can increment the pointer as well(p++) and it will work fine. It is a pointer to an array.
+
+* int *p[5]; or (int*) p[5]; -> This will create an array where all of the elements are pointers of type int rather than an element.
+
+> 'int *p[5]; or (int*) p[5];' is an array of pointers.
+
+## 2D Array (8)
 
 * int A[4][5];
 
@@ -376,6 +432,7 @@ int **p;
 * 'A+1' -> trying to access the name of the *second(1st row)* row of the 2D array
 * 'A+2' -> trying to access the name of the *third(2nd row)* row of the 2D array
 * 'A+3' -> trying to access the name of the *fourth(3rd row)* row of the 2D array
+* 'A+i' -> trying to access the name of the *ith* row of the 2D array
 
 * int A[4][5];
 * printf("%d", &A[0]);
@@ -393,25 +450,147 @@ int **p;
 
 > Both will give the same output which is the value/element that A[3][2].
 
-* int (*p)[5]; -> It will create an integer array of size '5'. Each element of the array is an integer only. No name was given to the array. We crated a pointer 'p' which will point to the starting address of the array. With this pointer we can access all of the elements within the array.
+### Initialize 2D array (9)
 
-> 'int (*p)[5];' is a pointer to an array.
+* int A[3][4] ={{1,2,3,4}, {5,6,7,8}, {9,10,11,12}};
 
-### Difference between regular array and 'int (*p)[5];':
-
-> When creating a regular array, the name of the regular array is constant. It means the name of the array and the name of the constant pointer is the same. We cannot increment the pointer as it is a constant pointer.
-
-> In 'int (*p)[5];', we are naming the pointer ourselves. Hence we call increment the pointer as well(p++) and it will work fine.
-
-* int *p[5]; or (int*) p[5]; -> This will create an array where all of the elements are pointers of type int rather than an element.
-
-> 'int *p[5]; or (int*) p[5];' is an array of pointers.
+> Anything I missed will be initialized to zero or '0' like in 1D array.
 
 ## Runtime and Compile(Compilation) time errors:-
 
 > **Runtime** -> Errors which occur during program execution(run-time) after successful compilation are called run-time errors. One of the most common run-time error is division by zero also known as Division error. These types of error are hard to find as the compiler doesn’t point to the line at which the error occurs.
 
-> **Compile** -> Errors that occur when you violate the rules of writing syntax are known as Compile-Time errors. This compiler error indicates something that must be fixed before the code can be compiled. All these errors are detected by the compiler and thus are known as compile-time errors. 
+> **Compile** -> Errors that occur when you violate the rules of writing syntax are known as Compile-Time errors. This compiler error indicates something that must be fixed before the code can be compiled. All these errors are detected by the compiler and thus are known as compile-time errors.
+
+## Structure (10)
+
+> Collection of different datatype elements.
+
+### Syntax
+
+    ```c
+        struct books
+        {
+            int id;
+            float price;
+            int quantity;
+        };
+    ```
+
+* The size of the *struct books* will be 2 + 4 + 2=8bytes.
+
+> 'structure' declaration should be outside main().
+> Declaration of 'struct' or structure type means that the user has defined/declared a **new datatype**. It is a user defined datatype. It is using all of the already existing data-types.
+> After we have declared the 'structure', then there will not be any memory allocation/declaration for the structure. It is for creating a prototype and anyone who want to use *struct books* can use it. It has a collection of three things which are *int id*, *float price* and *int quantity*. It is just a prototype that I have created and yet to use it. Hence memory will not be allocated for it as well.
+> Memory will be allocated when we will use it to create variable of these type(struct type).
+
+
+* Declaring a *structure* or 'struct' type -> Making a prototype which is user defined datatype. No memory is allocated to it.
+* To use it we need to create variables of these structure type.
+
+> 'struct' type can be present within a different 'struct' type. Same name struct cannot be within itself, it is not possible.
+
+```c
+    struct student
+    {
+        int rno;
+        struct books b1;
+    };
+
+    struct student stud1;
+    stud1.b1.id;
+```
+
+```c
+    struct ABC
+    {
+        int x;
+        char y;
+        float z;
+    };
+
+    struct ABC a1;
+    struct ABC *ptr;
+    ptr= &a1;
+
+    a1.x=10;
+    a1.y='A';
+    a1.z=2.5;
+
+    printf("%d", ptr ->x); // 10
+    printf("%d", *ptr.x); //10
+```
+
+> 'struct ABC *ptr;' is a *struct ABC* type pointer which is pointing to 'a1'. 'ptr' is a pointer which will store address of structure variable(a1 here).
+> 'ptr ->x' and '*ptr.x' are the same.
+
+## Union
+
+> The elements are stored in overlapping spaces.
+
+### Syntax
+
+```c
+
+    union test
+    {
+        char x;
+        int y;
+        float z;
+    };
+```
+
+> The size of the *union test* will be *4bytes* as the highest size of datatype is float which is 4bytes. Hence the size of the union is 4 bytes.
+> We cannot store all of the values uniquely at a given time. We can assign one value and use it simultaneously. When we can replaced/changed the previous value with a new value then the previous value is not accessible anymore.
+
+
+## Union and Structure difference
+
+> In union, we are not getting separate space for each value in union. The largest size data type in the union is used as the size of the union. That size is used **repeatedly and overlapping and overwritten** to store the values of the union. Previous values are replaced/removed when newer values are entered and the previous values are not accessible anymore. All of the values are not uniquely and simultaneously present at the same time.
+> In structure, we are getting separate space for each value. The size is the total sum of all the data-types present in the structure. All of the values are uniquely and simultaneously present at the same time.
+
+## DPP 4.
+
+* 1 -> 20 3050 60
+* 2 -> 
+* 3 -> 632
+* 4 -> 60,40
+* 5 -> A (A+i)
+* 6 -> D ( *(*(A+i) +j) )
+* 7 -> D (int A[2][]={{1,2,3}, {4,5,6}};)
+
+## Functions (11)
+
+> Able to use repeated code multiple times without writing it every time. Like *printf()* from *stdio.h* library.
+
+### Syntax
+
+```c
+    float fun(int, int, float);
+
+    float fun(int x, int y, float z)
+    {
+        float xyz= x*y*z;
+        return xyz;
+    }
+    int x=10, y=20; 
+    float z=23.5;
+    float result = fun(x,y,z);
+    printf("%d", result);
+```
+
+## Global and Local variable
+
+* Global -> Declared outside the functions. Visible/accessible from anywhere or from any function.
+* Local -> Declared within a function. Visible/accessible from within the function itself only.
+
+## Call by value and Call by address/reference
+
+* *Call by value* -> We are just sending a copy of the value to the function and whatever changes are made to it are local to that function itself only. No connection is made between the value sent to the function and the final value in the main function.
+* *Call by address/reference* -> We are sending the address of the variable to the function and the function has a pointer as a parameter to store that address and the connection is made. If we make any changes to the pointer's value then the value which the pointer is pointing too also get updated/changed.
+
+
+* Pointer -> It is a powerful tool yes but it is a destructive tool which can access memory. 
 
 ## Quiz question
 
