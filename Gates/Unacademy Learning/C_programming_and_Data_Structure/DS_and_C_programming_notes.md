@@ -89,7 +89,7 @@
 
 * d= (6!=3)? (a=b) : (b=c)  [a=5,b=3,c=2]
 
-> 6!=3 -> True, then (a=b) which is an assignment operator. The assignment operation will take place but the assigned value will not be returned to *d* as the result of the *ternary* operator, instead the *result of the assignment* will be returned to *d* as the result of the *ternary* operator.
+> 6!=3 -> True, then (a=b) which is an assig60nment operator. The assignment operation will take place but the assigned value will not be returned to *d* as the result of the *ternary* operator, instead the *result of the assignment* will be returned to *d* as the result of the *ternary* operator.
 > The result is that the assignment was completed/successful/True. If some event happens then the result will be *True or 1*.
 
 Hence **d=1** [Since integer value of True is 1.]  
@@ -321,9 +321,9 @@ int **p;
 
 * 1 -> E
 * 2 -> 7,7,8,147 [For n=6] 4,4,4, 48 [For n=3]
-* 3 -> B
-* 4 -> -2
-* 5 -> 8,1,2
+* 3 -> C (Got it wrong, I checked B initially)
+* 4 -> 0 [When n=6. Any value of n, gives count=0]
+* 5 -> 8,1,2 [When n=6];  64 1 5 [When n=64]
 
 ## Array With Pointers (7)
 
@@ -555,9 +555,13 @@ int **p;
 * 2 -> 
 * 3 -> 632
 * 4 -> 60,40
-* 5 -> A (A+i)
-* 6 -> D ( *(*(A+i) +j) )
-* 7 -> D (int A[2][]={{1,2,3}, {4,5,6}};)
+* 5 -> C (*(A+i)) (Got it wrong, I checked A initially, A+ i gives the address of the element. ( *(A+i) gives the value of the element.)
+
+* 6 -> D (*(*(A+i) +j))
+* 7 -> A,B,C (Got it wrong, I checked D initially thinking it asked for invalid declarations. D -> (int A[2][]={{1,2,3}, {4,5,6}};))
+
+
+> In multi dimensional array, we have to mention the boundation except the first one. We can leave the first dimension and it will be filled by the system itself. We have to mention the rest of them.
 
 ## Functions (11)
 
@@ -581,8 +585,11 @@ int **p;
 
 ## Global and Local variable
 
-* Global -> Declared outside the functions. Visible/accessible from anywhere or from any function.
-* Local -> Declared within a function. Visible/accessible from within the function itself only.
+* **Global** -> Declared outside the functions. Visible/accessible from anywhere or from any function. They are created in memory just at the start of the program and they are removed/deleted after the complete execution of the program. This is the lifetime of a global variable. Their lifetime is during the program running/execution. 
+  
+* **Local** -> Declared within a function. Visible/accessible from within the function itself only. When the function is called and the execution of the program is started then the local variables are created in memory and when the execution of the function is complete then the local variables are  removed/deleted from the memory.
+
+> Parameters of a function are local variables as well.
 
 ## Call by value and Call by address/reference
 
@@ -592,11 +599,50 @@ int **p;
 
 * Pointer -> It is a powerful tool yes but it is a destructive tool which can access memory. 
 
+## DPP 5 
+
+* 1 -> 96
+* 2 -> error [Cannot write function inside the main()]
+* 3 -> 11
+* 4 -> 10 ['exit(0)', got it wrong , thought '1010' is the answer]
+* 5 -> 1  [Finding HCF of two numbers]
+* 6 -> 23 [ Changed the question]
+* 7 -> 1
+
+> *exit(0)* terminates/exits out of the whole program, not just the function but the whole program itself.
+
+> In Q2, if function was outside of main(), then it will give *-10* as the output/result of the program.
+
+## 12_Doubt_Solving_Session PDF questions
+
+* 1 -> 321
+* 2 -> 1213121
+* 3 -> Error ("abc" is a string or more than one character. 'char *s' is a pointer of type character)
+
+* 4 -> 7
+
+## Recursion (12)
+
+> Function calling itself. Good Recursive functions have a good condition as a base/terminating condition. 
+
+### 13_Recursion_Questions PDF
+
+* 1 -> 2
+* 2 ->
+
+## DPP 6
+
+* 1 -> D
+* 2 -> 1048576
+* 3 -> 3
+
 ## Quiz question
 
 * int j =(x++, --y);
 
 > No matter what is the value of 'x' and 'y' is, we will always take the 2nd or the last value i.e the value of 'y' here and store it in 'j' variable.
+
+
 
 ## Scratch Board/Dry runs.
 
@@ -655,3 +701,70 @@ t=10
 i=3
 j=7
 
+x=12
+y=96
+
+a=20
+
+a=1 1
+b=511 255
+z=1 1
+
+
+256 511/2 =255
+
+
+n=5
+j=1 2 4 6
+count=0 1 2 3 2 1 0
+i=5 2 1 0
+
+count= 0 (Ans)
+
+n= 64
+i=1 2 4 8 16 32 64
+j=1 1 1 1 1  1
+count=0 1 2 3 4 5 6 5
+
+64 1 5
+
+n=6
+i=1 2 4 8
+j=1 1 1
+count=0 1 2 3 2
+
+8,1,2
+
+i=1 2 4 8 16 32 64 128 256 512 1024
+count=0 1 2 3 4 5 6 7 8 9 10
+
+x=18 12 6
+y=24 6
+
+6(Ans)
+
+10, 20 -> 10  [HCF]
+1,2
+
+a=20 21 22 23
+
+23(Ans)
+
+
+x=3
+
+Head(3) -> Head(2)[2] -> Head(1)[1] -> Head(0)[0]
+Head(2) -> 1                             -> Head(0)[0]
+1213121
+
+X(5) -> X(4) + X(2) + 1= 5+1+1= 7
+X(4) -> X(3) + X(1) + 1= 3+1+1= 5
+X(3) -> X(2) + X(0) + 1 = 1+1+1= 3
+X(2) -> 1
+X(1) -> 1
+X(0) -> 1 
+
+
+fun(4)[4] -> fun(3)[3] -> fun(2)[2] -> fun(1)[1] -> fun(0)[]
+
+1234
