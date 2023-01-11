@@ -27,11 +27,15 @@
 * 1 -> https://unacademy.com/quiz/quiz-i/11XTRM5Y37 
 * 1(Solutions) -> https://unacademy.com/quiz/quiz-i/11XTRM5Y37/solutions/SP_WR9PER0GSENLRBNM5
 
+## Revision Every week or after every chapter is complete.
+
+* Revision 1 -> Till Switch Case 
+* Revision 2 -> Start from pointers.
+
 ## Watch tomorrow
 
-* Link -> https://unacademy.com/class/doubt-clearing-session/5A97SWZZ
-
-
+* Link -> https://unacademy.com/class/introduction-to-data-structure/RFZ6RXXG
+* Revison on C Language.
 ## Introduction(1)
 
 ### Alphabets
@@ -585,7 +589,7 @@ int **p;
 
 ## Global and Local variable
 
-* **Global** -> Declared outside the functions. Visible/accessible from anywhere or from any function. They are created in memory just at the start of the program and they are removed/deleted after the complete execution of the program. This is the lifetime of a global variable. Their lifetime is during the program running/execution. 
+* **Global** -> Declared outside the functions. Visible/accessible from anywhere or from any function. They are created in memory just at the start of the program and they are removed/deleted after the complete execution of the program. This is the lifetime of a global variable. Their lifetime is during the program running/execution or throughtout the program. 
   
 * **Local** -> Declared within a function. Visible/accessible from within the function itself only. When the function is called and the execution of the program is started then the local variables are created in memory and when the execution of the function is complete then the local variables are  removed/deleted from the memory.
 
@@ -627,20 +631,206 @@ int **p;
 
 ### 13_Recursion_Questions PDF
 
-* 1 -> 2
+* 1 -> 2 [Q ->foo(513,2)]
 * 2 ->
 
 ## DPP 6
 
 * 1 -> D
-* 2 -> 1048576
-* 3 -> 3
+* 2 -> 10230 [Got it wrong , thought '1048576' is the answer]
+* 3 -> 4 [Got it wrong , thought '3' is the answer]
+
+### 14_Storage_Classes PDF (13)
+
+* fun(fun(5)) -> fun(5) + fun(7) = 7 + 17 = *24*(Ans)
+
+> We are re-using the already calculated values(fun(0), fun(1)...fun(5)) from previous fun(5) but computer is doing it again from scratch. Hence first it is calculating *fun(5)* first as it is inside and then calculates *fun(7)* separately from scratch without re-using the values it got it fun(5). Hence we are adding *fun(5) + fun(7)* to get the count of *fun(fun(5))*.
+
+#### Question
+
+* 1 -> 51 (Got it wrong, thought it was 5 initially)
+
+## Static Variable (14)
+
+> In recursion, **it is created for first call and used by all recursion calls as a single copy**. If a static variable is created within a recursive function then it will be **created/generated once only** when the function is called for the very first time unlike local variables which are created/generated for every recursive call of the function.
+> **By default**, if we haven't initialized a *static* variable then it is initialized by *zero(0)*. 
+> In normal variables, if we haven't initialized the variable then it is initialized by some *garbage value*.
+
+## Dynamic Memory Allocation (15)
+
+> If any memory location assignment decided on rumtime. On runtime we are deciding if we need more memory or not. Yes, we can get more memory during runtime and this is called as Dynamic Memory allocation. It happens during runtime only.
+
+* int x; -> Pre-defined variables.
+
+> The memory which is pre-defined when writing the program is called as normal allocation
+
+* Two functions for Dynamic Memory Allocation:-
+
+* **malloc()** -> memory allocation during runtime. For one element.
+            * Example -> malloc(size of memory in bytes)
+* **calloc()** -> We can allocate more than one element.
+
+
+### Malloc (malloc())
+
+> 'malloc()' only allocates a certain amount of memory location(2bytes for integer). It will not define the type of the memory wheather it is int, char, float etc. To get the type we need to do *type-casting* of the malloc(). 
+> In some compilers, 'malloc()' return the address.
+
+#### Example
+
+* int x= (int)malloc(sizeof(int));
+* int *p = (int *)malloc(sizeof(int)); [Use for GATE]
+
+## Storage classes
+
+1) auto
+2) register
+3) static
+4) extern
+
+### auto
+
+> All of the variables created that are local variables without any specification are *auto* variables. By default all local variables are *auto* variables. 
+
+```c
+    void main()
+    {
+        int x;
+        auto int x;
+    }
+```
+
+> If we don't mention the *auto* keyword, then also by default *auto* keyword is added to all of the local variables.
+
+### Register
+
+> Local variables and exactly like auto but storage is not in RAM(stack) but in the CPU register.
+> Advantage of setting a variable as *register* variable is that the allocation will have in the CPU register instead of the stack. Whenever the cpu will use that variable, it will take it from the CPU register and inturn  saving a lot of time as CPU is faster than the RAM(stack). 
+> If the CPU register is out of space then the newly created register variables will be placed into the stack itself.
+
+```c
+    register int i;
+```
+
+## blocks
+
+> We can create blocks using curly braces or {}. It acts like a function even though it is not a function. It has it's own local variables. After the block execution is completed all of the local variables of the block are destroyed.
+
+```c
+    void main()
+    {
+        int x;
+        // block.
+        {
+            int y;
+            y= 10*2;
+            printf("%d",y);
+        }
+    }
+```
+
+## Automatic variables
+
+1) auto
+2) register
+
+> They are created automatically in the memory whenever a function or a block is called and they are removed automatically as well when the function or block has completed execution. Stored in stack. Scope within function or block itself.
+
+## Global variables
+
+> There is no dedicated/specific storage class for global variables but they are there.
+
+> All of the variables(global, static variables) that are present in the data section, they are initialized with zero(0).
+
+
+### static variables
+
+> They can be local as well as global variables as well. Wheather a static is global or local it is created at the starting of the program execution. Both of their lifetime is throught the program execution. Scope depends if it is a global or a local variable. If global variable then the scope is global as well. If local variable then the scope is local as well.
+> static variable is created for the first and the only time at the start of the program execution. 
+
+
+```c
+    static int x; -> // Global static variable
+    void main()
+    {
+        static int x; // Local static variable.
+    }
+```
+
+### extern variable
+
+> It is similar to global variable but there is some differences. Lifetime is throughout the program. Scope is throughout the program(global) as well. It is initialized with zero(0) as well. It is located in the data section.
+>
+
+
+### Difference between static and global variable.
+
+* Scope -> static can be a local variable as well but global cannot be a local variable. static variable's scope can be within a function or a block but the scope of a global variable is throughout the program.
+
+## NULL pointer
+
+> When a pointer is declared but not initialized then it has some *garbage value* initialized to it.
+> If we want a pointer to not hold any address then we can initialize/set the pointer to *NULL*. This is called as NULL pointer.
+
+```c
+    int *p;
+    *p=NULL; // NULL pointer.
+```
+
+> This means the 'p' pointer is created but the address of pointer 'p' is neither pointeing to any valid address or any garbage address. It has a pointer(NULL) which shows that it has nothing.
+> 'NULL' pointer denotes there is nothing at 'p' pointer.
+
+## String
+
+```c
+    char ch[]= {'A','B','C','D', 'E'}; // Character Array. Size is 5.
+
+    char str[]="ABCDE";  // String. Size is 6. 'str' will be a constant pointer. We cannot increment or decrement it.
+
+    char *p ="ABCDE"; // This is also a string. It removes the size issue from below. 'p' will be a normal pointer, we can increment and decrement it.
+
+    char ch[5]="ABCDE"; // Error as size should be 6.
+```
+
+> String has '6' size compared to character array which is of size '5' because the last position of string is reserved for '\0' which is a *NULL character*. *It represents the end of the string*.
+
+## Literals and Constants
+
+```c
+    const float pie=3.14; //const type name=value;
+```
+
+> 'value' is mandatory to be given otherwise it will not be a constant. 'const' variable 'pie' cannot be changed, modified, cannot allocate new value, cannot increment or decrement the value. Nothing is allowed as it is a 'constant'.
+> Once it is defined and the value is fixed, nothing can be changed.
+> They can both be global as well as local.
+
+### Macro
+
+```c
+    #define PIE 3.14   // macro
+    printf("%f", 2*PIE*r);
+```
+
+> Where ever we have mentioned 'PIE' in the program, that is going to be replaced with '3.14' value.
+
+```c
+    #include<stdio.h>
+```
+
+> All of the statements that are starting with '#' are called as preprocessor directive. 
+> All of these statements(starting with '#') are run before the compilation of the program starts.
+
+
 
 ## Quiz question
 
 * int j =(x++, --y);
 
 > No matter what is the value of 'x' and 'y' is, we will always take the 2nd or the last value i.e the value of 'y' here and store it in 'j' variable.
+
+
+
+
 
 
 
@@ -768,3 +958,50 @@ X(0) -> 1
 fun(4)[4] -> fun(3)[3] -> fun(2)[2] -> fun(1)[1] -> fun(0)[]
 
 1234
+
+fun(95) 
+
+fun(95) -> fun(fun(106)) -> fun(96) -> fun(fun(107)) -> fun(97) -> fun(fun(108)) -> fun(98) -> fun(fun(109)) -> fun(99) -> fun(fun(110)) -> fun(100) -> fun(fun(111)) -> fun(101) -> *91*(Ans)
+
+fun(5)
+
+fun(5) -> (fun(4) + fun(2) + 1) -> fun(4) -> (fun(3)+ fun(1)+ 1) -> fun(3) -> (fun(2) + fun(0) + 1) -> fun(2)[1] -> fun(1)[1] -> fun(0)[1]
+
+fun(3) -> fun(2) +fun(0)+1 = 1+1+1 =3
+fun(4) -> fun(3)+ fun(1)+ 1 = 3+1+1 =5
+fun(5) -> fun(4) + fun(2) + 1 = 5+1+1 =*7*(Ans)
+
+fun(fun(5))
+
+fun(6) -> fun(5) + fun(3) + 1 = 7+3+1=11
+fun(7) -> fun(6) + fun(4) + 1 = 11+5+1=*17*(Ans)
+
+
+f(5)
+
+static int r=5
+f(5)[18] ->f(3)+2 ->f(3)[16] -> f(2)+r ->f(2)[11] -> f(1)+r -> f(1)[6] -> f(0)+r -> f(0)[1]
+
+f(5) -> *18*(Ans)
+
+fun(5)
+
+x=1
+k=1
+fun(5) -> 
+
+4+2*4+2*4+2
+4+8+8+2
+22
+
+int x=10
+int *p=&x
+int y 
+
+* *Individual cases*
+
+y= *p--; -> 10 [x=9, p=498]
+y= --*p; -> 9 [x=9, *p=9, p=1100]
+y= (*p)--; -> 10 [x=9, *p=9]
+y= --(*p); -> 9 [x=9, *p=9]
+
