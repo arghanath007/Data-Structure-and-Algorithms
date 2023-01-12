@@ -35,7 +35,9 @@
 ## Watch tomorrow
 
 * Link -> https://unacademy.com/class/introduction-to-data-structure/RFZ6RXXG
-* Revison on C Language.
+* Revison on C Language. (Completed)
+
+## C programming.
 ## Introduction(1)
 
 ### Alphabets
@@ -195,7 +197,7 @@ Hence **d=1** [Since integer value of True is 1.]
 
 ### exit(0)
 
-> Whenever this code/statement runs within a program then we will *come out or exit out* of the program *completely*.
+> Whenever this code/statement runs within a program then we will *come out or exit out* of the whole program *completely*.
 
 ## Pointers and Array (6) **Very  Important**
 
@@ -216,9 +218,9 @@ Hence **d=1** [Since integer value of True is 1.]
 > If we want to store the address of another variable into a particular variable then a normal variable cannot store the address of another variable. Hence we need a special variable for storing the address of another variable into a particular variable. That special variable is called as the *pointer* variable. 
 > When we want to store the address of anything into a variable, then we cannot normally define that variable. Normal variable cannot store addresses of anything(another variable). The system will give me an error.
 
-* *Pointer* -> It is also a variable, but it doesn't store values like characters, floats, integers, double etc. It will only store addresses of others or other variables.
+* *Pointer* -> It is also a variable, but it doesn't store values like characters, floats, integers, double etc. It will only store addresses of others or other variables. It is a variable which is used to store address of other variables.
 
-* * int *ptr;
+* int *ptr;
 * int age=22;
 * ptr = &age;
 * printf("%d", ptr); -> *Address of the variable(age) ptr is pointing to.*
@@ -234,16 +236,16 @@ Hence **d=1** [Since integer value of True is 1.]
 * int n;
 * int* ptr;
 * ptr =n; 
-    >*Invalid* as 'ptr' is a pointer(stores memory address) and 'n' is a integer.
+    -> *Invalid* as 'ptr' is a pointer(stores memory address) and 'n' is a integer. Type mismatch error.
 
 * *ptr=&n; 
-    >*Invalid* as '*ptr' is integer(valued stored at ptr location) and '&n' is the address of 'n'.
+    -> *Invalid* as '*ptr' is integer(value stored at the location where pointer 'ptr' is pointing to) and '&n' is the address of 'n'.
 
 * ptr=&n;
-    > *Valid* as 'ptr' and '&n' are both memory addresses.
+    -> *Valid* as 'ptr' and '&n' are both memory addresses.
 
 * *ptr =n;
-    > *Valid* as '*ptr' and 'n' are both numbers. They represent the value stored in the memory location.
+    -> *Valid* as '*ptr' and 'n' are both numbers. They represent the value stored in the memory location.
 
 
 
@@ -285,11 +287,11 @@ int *q= &b; # Initialization and declaration in the same line.
 
 int **p;
 
-> *p* is a pointer which hold's address of another pointer which is integer type. (Pointer pointing to another pointer)
+> *p* is a pointer which hold's address of another pointer which is of integer type. (Pointer pointing to another pointer)
 
 ### Array
 
-> Continuos allocation of memory of certain datatype
+> Continuos allocation of memory of certain datatype. Homogeneous dataype.
 
 #### Example
 
@@ -337,8 +339,9 @@ int **p;
 > These two *&A[0]* and *A* both give the same thing, which is the base address of array A.
 
 * int A[5];
-* printf("%u",A); -> 500
-* printf("%u",&A); -> gives address of the constant pointer 'A'.
+* printf("%u",A); -> 500 which is the base address of array 'A'.
+
+* printf("%u",&A); -> gives address of the constant pointer 'A' which is different from the base address of array 'A'.
 
 * A[0] -> *(500 + 0)
 
@@ -357,7 +360,7 @@ int **p;
 * printf("%u", &A); -> gives the address of the constant pointer 'A'.
 * printf("%u", &A+1);
 
-> *'&A+1' means that we are incrementing the address by the size of the entire array*. As '&A' gets initialized first due to precedence and gives '800' as the address of the constant pointer, plus the size of the entire array. We have '5' elements in the array and each is '2bytes'. Hence size of array is 2*5=10bytes. 
+> *'&A+1' means that we are incrementing the address by the size of the entire array*. As '&A' gets initialized first due to precedence and gives '800' as the address of the constant pointer, plus the size of the entire array. We have '5' elements in the array and each element is '2bytes' as they are integer type. Hence size of array is 2*5=10bytes. 
 
 * '&A+1' -> 800 + 1* 2 *5 =800 +10=810.
 * '&A+2' -> 800 + 2* 2 *5 =800 +20=820.
@@ -373,20 +376,20 @@ int **p;
 
 * int (*p)[5]; -> It will create an integer array of size '5'. Each element of the array is an integer only. No name was given to the array. We created a pointer 'p' which will point to the starting address of the array. With this pointer we can access all of the elements within the array.
 
-    ```c
-        int A[5]= {1,2,3,4,5};
-        int (*p)[2] = A;
-        int *q=A;
-        printf("%d, %d\n", *p[0], *q); // 1, 1
-        q++;
-        printf("%d, %d\n", (*p)[0],*q); // 1, 2
-        p++,q++;
-        printf("%d, %d\n", *p[0],*q); // 3, 3
-        p++, q++;
-        printf("%d, %d\n", *p[0], *q); // 5, 4
-        // p++;
-        // printf("%d\n", *p[0]);
-    ```
+```c
+    int A[5]= {1,2,3,4,5};
+    int (*p)[2] = A;
+    int *q=A;
+    printf("%d, %d\n", *p[0], *q); // 1, 1
+    q++;
+    printf("%d, %d\n", (*p)[0],*q); // 1, 2
+    p++,q++;
+    printf("%d, %d\n", *p[0],*q); // 3, 3
+    p++, q++;
+    printf("%d, %d\n", *p[0], *q); // 5, 4
+    // p++;
+    // printf("%d\n", *p[0]);
+```
 
 
 > 'int (*p)[5];' is a pointer to an array.
@@ -452,13 +455,13 @@ int **p;
 * printf("%d", *(&A[3][2]));
 * printf("%d", A[3][2]);
 
-> Both will give the same output which is the value/element that A[3][2].
+> Both will give the same output which is the value/element at A[3][2].
 
 ### Initialize 2D array (9)
 
 * int A[3][4] ={{1,2,3,4}, {5,6,7,8}, {9,10,11,12}};
 
-> Anything I missed will be initialized to zero or '0' like in 1D array.
+> Anything that is missed will be initialized to zero or '0' like in 1D array.
 
 ## Runtime and Compile(Compilation) time errors:-
 
@@ -550,7 +553,7 @@ int **p;
 
 ## Union and Structure difference
 
-> In union, we are not getting separate space for each value in union. The largest size data type in the union is used as the size of the union. That size is used **repeatedly and overlapping and overwritten** to store the values of the union. Previous values are replaced/removed when newer values are entered and the previous values are not accessible anymore. All of the values are not uniquely and simultaneously present at the same time.
+> In union, we are not getting separate space for each value. The largest size data type in the union is used as the size of the union. That size is used **repeatedly and overlapping and overwritten** to store the values of the union. Previous values are replaced/removed when newer values are entered and the previous values are not accessible anymore. All of the values are not uniquely and simultaneously present at the same time.
 > In structure, we are getting separate space for each value. The size is the total sum of all the data-types present in the structure. All of the values are uniquely and simultaneously present at the same time.
 
 ## DPP 4.
@@ -565,7 +568,7 @@ int **p;
 * 7 -> A,B,C (Got it wrong, I checked D initially thinking it asked for invalid declarations. D -> (int A[2][]={{1,2,3}, {4,5,6}};))
 
 
-> In multi dimensional array, we have to mention the boundation except the first one. We can leave the first dimension and it will be filled by the system itself. We have to mention the rest of them.
+> In multi dimensional array, we have to mention the boundation except the first one. We can leave the first dimension and it will be filled by the system itself. We have to mention the rest of them and it is mandatory otherwise we will get an error.
 
 ## Functions (11)
 
@@ -601,7 +604,7 @@ int **p;
 * *Call by address/reference* -> We are sending the address of the variable to the function and the function has a pointer as a parameter to store that address and the connection is made. If we make any changes to the pointer's value then the value which the pointer is pointing too also get updated/changed.
 
 
-* Pointer -> It is a powerful tool yes but it is a destructive tool which can access memory. 
+* Pointer -> It is a powerful tool yes but it is a destructive tool which can access memory. Hence it was removed partially from recent programming languages like JS, Python, Java.
 
 ## DPP 5 
 
@@ -644,7 +647,9 @@ int **p;
 
 * fun(fun(5)) -> fun(5) + fun(7) = 7 + 17 = *24*(Ans)
 
-> We are re-using the already calculated values(fun(0), fun(1)...fun(5)) from previous fun(5) but computer is doing it again from scratch. Hence first it is calculating *fun(5)* first as it is inside and then calculates *fun(7)* separately from scratch without re-using the values it got it fun(5). Hence we are adding *fun(5) + fun(7)* to get the count of *fun(fun(5))*.
+> We are re-using the already calculated values(fun(0), fun(1)...fun(5)) from previous fun(5) but computer is doing it again from scratch. Hence first it is calculating *fun(5)* first as it is inside and then calculates *fun(7)* separately from scratch without re-using the values it got from fun(5). Hence we are adding *fun(5) + fun(7)* to get the count of *fun(fun(5))*.
+
+* **IMPORTANT** look at all of the recursion question int *13_REcursive_Questions PDF* file.
 
 #### Question
 
@@ -658,7 +663,8 @@ int **p;
 
 ## Dynamic Memory Allocation (15)
 
-> If any memory location assignment decided on rumtime. On runtime we are deciding if we need more memory or not. Yes, we can get more memory during runtime and this is called as Dynamic Memory allocation. It happens during runtime only.
+> If any memory allocation assignment is decided on rumtime. 
+> On runtime we are deciding if we need more memory or not. Yes, we can get more memory during runtime and this is called as Dynamic Memory allocation. It happens during runtime only.
 
 * int x; -> Pre-defined variables.
 
@@ -668,7 +674,7 @@ int **p;
 
 * **malloc()** -> memory allocation during runtime. For one element.
             * Example -> malloc(size of memory in bytes)
-* **calloc()** -> We can allocate more than one element.
+* **calloc()** -> It can allocate memory for more than one element.
 
 
 ### Malloc (malloc())
@@ -680,6 +686,9 @@ int **p;
 
 * int x= (int)malloc(sizeof(int));
 * int *p = (int *)malloc(sizeof(int)); [Use for GATE]
+
+
+* **Page 7** of *15_Constant_Macro* PDF is an important.
 
 ## Storage classes
 
@@ -745,7 +754,7 @@ int **p;
 
 ### static variables
 
-> They can be local as well as global variables as well. Wheather a static is global or local it is created at the starting of the program execution. Both of their lifetime is throught the program execution. Scope depends if it is a global or a local variable. If global variable then the scope is global as well. If local variable then the scope is local as well.
+> They can be local as well as global variables. Wheather a static is global or local it is created at the starting of the program execution. Both of their lifetime is throught the program execution. Scope depends if it is a global or a local variable. If global variable then the scope is global as well. If local variable then the scope is local as well.
 > static variable is created for the first and the only time at the start of the program execution. 
 
 
@@ -821,7 +830,6 @@ int **p;
 > All of these statements(starting with '#') are run before the compilation of the program starts.
 
 
-
 ## Quiz question
 
 * int j =(x++, --y);
@@ -829,6 +837,33 @@ int **p;
 > No matter what is the value of 'x' and 'y' is, we will always take the 2nd or the last value i.e the value of 'y' here and store it in 'j' variable.
 
 
+## Data Structure with C.
+
+## Introduction to DS
+
+> It is not only the organization of data but the functions to access the data as well. It is sometimes referred to as **ADT or Abstract Data Type**.
+
+* Data Structure -> Data Storage + operations.
+
+### Types
+
+* Linear -> Elements arranged in linear order. Eg -> Array, linked list, queue, stack
+* Non-Linear -> Elements are arranged in non-linear fashion. Ed -> Graph, Heap, hashing, tree
+
+
+### Analysis of Algorithms
+
+> To find out among all of the potential solution to a particular program which one is better, best or worst among each other.
+
+### Types
+
+* **Space Complexity** -> Space(memory) needed by the program to run. The memory is calculated by the extra space taken by the algorithm to run itself. 
+
+>So memory or space of an algorithm is calculated excluding/without including the *input and output* of the program.
+
+> In space complexity, we are not calculating the *bytes* of the program but rather the number of elements that we have stored in the program **separately not including the input and output variables/values**. The no. of elements stored separetely is called as the space complexity of a program.
+
+* **Time Complexity** -> Time(Runtime) needed by the program to run.
 
 
 
