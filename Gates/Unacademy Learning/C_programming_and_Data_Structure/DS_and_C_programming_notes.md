@@ -886,6 +886,9 @@ int **p;
 
 > Runtime complexity is *log n base2*
 
+![image](https://user-images.githubusercontent.com/54589605/212310762-93bf11d6-389a-40bd-9f4f-cdaa7451b04d.png)
+
+
 
 ## Scratch Board/Dry runs.
 
