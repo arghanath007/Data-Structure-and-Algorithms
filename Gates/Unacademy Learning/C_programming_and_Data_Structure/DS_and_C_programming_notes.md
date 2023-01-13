@@ -837,9 +837,9 @@ int **p;
 > No matter what is the value of 'x' and 'y' is, we will always take the 2nd or the last value i.e the value of 'y' here and store it in 'j' variable.
 
 
-## Data Structure with C.
+## Data Structure with C
 
-## Introduction to DS
+## Introduction to DS (17)
 
 > It is not only the organization of data but the functions to access the data as well. It is sometimes referred to as **ADT or Abstract Data Type**.
 
@@ -865,7 +865,7 @@ int **p;
 
 * **Time Complexity** -> Time(Runtime) needed by the program to run.
 
-## How to calculate time?
+## How to calculate time? (18)
 
 * On Wall Clock -> Implement the program/algorithm in any langauge and after implementation run it on CPU/system. Now calculate/measure the milliseconds/nanoseconds for which the program is running. 
 > It is highly dependent on so many external factors. So no stability or no any consistency in results.
@@ -884,9 +884,95 @@ int **p;
 
 * for(i=1;i<=n;i*=2) or for(i=n;i>=1;i/=2)
 
-> Runtime complexity is *log n base2*
+> Runtime complexity is *log n base 2*
 
 ![image](https://user-images.githubusercontent.com/54589605/212310762-93bf11d6-389a-40bd-9f4f-cdaa7451b04d.png)
+
+* for(i=1;i<=n;i*=3) or for(i=n;i>=1;i/=3)
+
+> Runtime complexity is *log n base 3*
+
+* int k;
+* for(i=1;i<=n;i*=k) or for(i=n;i>=1;i/=k)
+
+> Runtime complexity is *log n base k*
+
+## Asymptotic Notations
+
+* Big O -> Provides Tighest upper-bound. Maximum complexity of an algorithm.
+* Omega -> Provides Tighest lower-bound. Minimum complexity of an algorithm.
+* Theta -> Provides exact bound. Max and min complexity of the algorithm is the same. 
+
+> Used for bounding complexities.
+
+### Types of cases
+
+* Best case -> Type of input for which, algorithm takes minimum time.
+* Worst case -> Type of input for which, algorithm takes maximum time.
+* Average case -> The input which is not best or worst.
+
+> We cannot write omega(1) as the constant complexity because omega represents the lower-bound or the minimum complexity hence we don't know the maximum complexity. 
+> We can use O(1) or theta(1) as constant complexities. O(1) is the maximum complexity and nothing is smaller than that. Hence nothing is smaller than that.
+
+* O(1) and theta(1) are the same representation as highest bound is '1' then the lower bound will as be '1' as there is nothing lower than '1'.
+
+## Array in DS
+
+* int a[5];
+* Lower Bound(LB) -> Starting index -> 0
+* Upper Bound(UB) -> Last index -> 4 -> (size -1)
+
+* name[LB:UB]
+* A[0:4]
+* B[2:6]
+* C[-4:3]
+
+* Find the size of the array
+
+> size = UB-LB +1
+
+### Relative Index
+
+* Relative index(RI)= (i-LB)
+
+* Relative index would help us to find the location of an element
+
+### Location of an element
+
+* Location of an element Loc of A[i] = Base address + size of an element in memory * relative index
+                                     = Base + w * (i-LB).
+
+
+#### Question
+
+* A[-4:200]
+* Base address -> 2500
+* W -> 4 locations
+
+* Location of A[17] = 2500 + 4*(17-(-4))
+                    = 2500 + 4*21
+                    = 2500 + 84
+                    = 2584 (Ans)
+
+
+* A[-6:13]
+* W -> 8 locations
+* 1 location = 1Byte
+
+* Total no. of elements in array = UB-LB+1 = 13 -(-6)+1 = **20** elements(Ans)
+* Size of memory required to store completed array(In Bytes) = 20 * 8 = **160 Bytes**(Ans)
+
+
+### Why indexing in array in C language starts from 0?
+
+> It saves the (i-LB) calculation. CPU doesn't have to do the substraction which helps in performance as well if indexing starts from '0'.
+> Then the formula will be like below.
+
+* Location of an element Loc of A[i] = Base address + size of an element in memory * i
+                                     = Base + w * i.
+                        
+**Important**
+> When CPU tries to access an array element, it has to first find the address of the element. To find the address he has to use the non-optimised or earlier formula(i-LB) one. If we keep LB=0, then the formula will be reduced to the above one. In that case, CPU is saving one substraction every time it tries to access an element which in turns increases the performance of the CPU. Everytime we want to improve the performance of the CPU, hence the programming languages have adopted to keeping the starting index of an array to zero(0) for improving the performance.
 
 
 
