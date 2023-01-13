@@ -30,7 +30,7 @@
 ## Revision Every week or after every chapter is complete.
 
 * Revision 1 -> Till Switch Case 
-* Revision 2 -> Start from pointers.
+* Revision 2 -> Start from pointers.(Completed till NULL pointers)
 
 ## Watch tomorrow
 
@@ -865,8 +865,26 @@ int **p;
 
 * **Time Complexity** -> Time(Runtime) needed by the program to run.
 
+## How to calculate time?
+
+* On Wall Clock -> Implement the program/algorithm in any langauge and after implementation run it on CPU/system. Now calculate/measure the milliseconds/nanoseconds for which the program is running. 
+> It is highly dependent on so many external factors. So no stability or no any consistency in results.
+
+* Based on no. of operations or steps performed (Dry run) -> Manually run the program on paper. Calculate the total no. of steps and count it. Then the result will be consistent. It is based on the mathematical analysis of **rate of growth**.
+
+* log(logn) < logn
+
+* Time complexity is independent of the and it is constant only. Then it is called as constant runtime complexity. It is represented by '1' and not the no. of steps of the algorithm.
 
 
+* i=0, i<n
+* i=1, i<=n
+
+> They are the same thing.
+
+* for(i=1;i<=n;i*=2) or for(i=n;i>=1;i/=2)
+
+> Runtime complexity is *log n base2*
 
 
 ## Scratch Board/Dry runs.
