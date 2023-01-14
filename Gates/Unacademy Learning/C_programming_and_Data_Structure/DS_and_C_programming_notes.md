@@ -874,7 +874,7 @@ int **p;
 
 * log(logn) < logn
 
-* Time complexity is independent of the and it is constant only. Then it is called as constant runtime complexity. It is represented by '1' and not the no. of steps of the algorithm.
+* Time complexity is independent of the input and it is constant only. Then it is called as constant runtime complexity. It is represented by '1' and not the no. of steps of the algorithm.
 
 
 * i=0, i<n
@@ -897,7 +897,7 @@ int **p;
 
 > Runtime complexity is *log n base k*
 
-## Asymptotic Notations
+## Asymptotic Notations (19)
 
 * Big O -> Provides Tighest upper-bound. Maximum complexity of an algorithm.
 * Omega -> Provides Tighest lower-bound. Minimum complexity of an algorithm.
@@ -912,9 +912,9 @@ int **p;
 * Average case -> The input which is not best or worst.
 
 > We cannot write omega(1) as the constant complexity because omega represents the lower-bound or the minimum complexity hence we don't know the maximum complexity. 
-> We can use O(1) or theta(1) as constant complexities. O(1) is the maximum complexity and nothing is smaller than that. Hence nothing is smaller than that.
+> We can use O(1) or theta(1) as constant complexities. O(1) is the maximum complexity and nothing is smaller than that. Hence nothing can be smaller than that.
 
-* O(1) and theta(1) are the same representation as highest bound is '1' then the lower bound will as be '1' as there is nothing lower than '1'.
+* O(1) and theta(1) are the same representation as highest bound is '1' then the lower bound will also be '1' as there is nothing lower than '1'.
 
 ## Array in DS
 
@@ -972,7 +972,7 @@ int **p;
                                      = Base + w * i.
                         
 **Important**
-> When CPU tries to access an array element, it has to first find the address of the element. To find the address he has to use the non-optimised or earlier formula(i-LB) one. If we keep LB=0, then the formula will be reduced to the above one. In that case, CPU is saving one substraction every time it tries to access an element which in turns increases the performance of the CPU. Everytime we want to improve the performance of the CPU, hence the programming languages have adopted to keeping the starting index of an array to zero(0) for improving the performance.
+> When CPU tries to access an array element, it has to first find the address of the element. To find the address he has to use the non-optimised or earlier formula(i-LB) one. If we keep LB=0, then the formula will be reduced to the above one(Base + w * i). In that case, CPU is saving one substraction every time it tries to access an element which in turns increases the performance of the CPU. Everytime we want to improve the performance of the CPU, hence the programming languages have adopted to keeping the starting index of an array to zero(0) for improving the performance.
 
 
 
