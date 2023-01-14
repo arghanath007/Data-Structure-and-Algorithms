@@ -830,7 +830,7 @@ int **p;
 > All of these statements(starting with '#') are run before the compilation of the program starts.
 
 
-## Quiz question
+## Quiz questions (1)
 
 * int j =(x++, --y);
 
@@ -974,7 +974,7 @@ int **p;
 **Important**
 > When CPU tries to access an array element, it has to first find the address of the element. To find the address he has to use the non-optimised or earlier formula(i-LB) one. If we keep LB=0, then the formula will be reduced to the above one(Base + w * i). In that case, CPU is saving one substraction every time it tries to access an element which in turns increases the performance of the CPU. Everytime we want to improve the performance of the CPU, hence the programming languages have adopted to keeping the starting index of an array to zero(0) for improving the performance.
 
-
+## Quiz Questions (2) (20)
 
 ## Scratch Board/Dry runs.
 
