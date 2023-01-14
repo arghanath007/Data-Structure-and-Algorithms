@@ -976,6 +976,17 @@ int **p;
 
 ## Quiz Questions (2) (20)
 
+### Solution on the Quiz
+
+![image](https://user-images.githubusercontent.com/54589605/212466904-0ed8c5c4-3481-412f-a133-f36578d0bb7a.png)
+
+### solution provided by teacher
+
+![image](https://user-images.githubusercontent.com/54589605/212466932-c13c8498-b789-49a8-bc8d-ab5b834715b2.png)
+
+> The solution provided by the quiz was wrong. Keep it in mind. Don't blindly accept answers. Check it yourself. I also ticked the correct answer in the quiz.
+
+
 ## Scratch Board/Dry runs.
 
 a=1 2 3 4
