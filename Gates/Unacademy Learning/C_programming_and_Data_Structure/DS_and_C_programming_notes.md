@@ -986,6 +986,114 @@ int **p;
 
 > The solution provided by the quiz was wrong. Keep it in mind. Don't blindly accept answers. Check it yourself. I also ticked the correct answer in the quiz.
 
+## Insertion in Array
+
+* Always at the end
+* Based on index
+
+
+### Based on index insertion
+
+#### Conditions
+
+* Check for overflow condition. If not then check following conditons.
+* Index 'i' is between (LB) and (UB+1)
+* Check if we have to shift elements or not.
+* Empty index 'i' and input the new value 'item' in it.
+
+#### Algorithm
+
+```c
+    Insertion(A[], LB, UB, n, item, i);
+    // item -> new element to be inserted. i -> index where to be inserted. n -> count of the elements.
+    if(UB ==array_UB) //array_UB -> The size of the array
+    {
+        printf("Overflow");
+        return;
+    }
+    if(i <LB || i>(UB+1))
+    {
+        printf("Invalid index");
+        return;
+    }
+    for(k=UB;k>=i;k--)
+    {
+        A[k+1]=A[k];
+    }
+    A[i]=item;
+    UB++;
+    n++;
+```
+
+## Deletion in Array
+
+* Always last element
+* Based on index
+
+### Always last element
+
+```c
+    if(UB == -1)
+    {
+        printf("Underflow");
+        return;
+    }
+    UB--;
+    n--;
+```
+
+### Based on index
+
+* index 'i' range -> LB <= i <= UB.
+
+
+## Insertion, Deletion questions
+
+* Insertion always at the start(LB) -> **Theta(n)**.
+* Deletion always at the start(LB) -> **Theta(n)**.
+
+## Finding min. element in Array.
+
+## Finding max. element in Array.
+
+> Both algorithms and their complexities are in PDF(21_Finding_min_Max_In_Array).
+
+## Tournament Method
+
+> Even if the no. of players are odd or even in the tournament, the no. of comparison regardless is *(n-1)* comparisons, where *n* is the no. of players in the tournament.
+> We need an array to store the results. Array size needed to store the results from the previous round, is **Ceil(n+1/2) value**. We are requiring more storage here. Algorithmns need additional space.
+> As we need space to perform tournament method, hence it is not used that often because of the space limitation.
+
+* Space Complexity -> Theta(n) or linear complexity. [Since we exactly need an array of size n/2 or (n+1)/2]
+* Time complexity -> Theta(n). [Have to check or ask sir]
+
+
+## DPP 1
+
+### Questions before DPP(20_Doubt_Solving_Session)
+
+* 1 -> C (O(n))
+* 2 -> C (O(n))
+* 3 -> C (O(n))
+
+
+### DPP 1 (20_Doubt_Solving_Session)
+
+* 1 -> Theta(n)
+* 2 -> 1032
+* 3 -> n/2 -1
+
+
+### DPP 2 (21_Finding_Min_Max_in_Array)
+
+* 1 -> 4000 [100*40]
+* 2 -> 
+* 3 -> 68
+* 4 -> Theta(n)
+* 5 -> Theta(n) [Insertion at the beginning]
+* 6 -> 1032
+* 7 -> n/2 -1
+
 
 ## Scratch Board/Dry runs.
 
@@ -1158,3 +1266,49 @@ y= --*p; -> 9 [x=9, *p=9, p=1100]
 y= (*p)--; -> 10 [x=9, *p=9]
 y= --(*p); -> 9 [x=9, *p=9]
 
+
+A= {1,2,2,3,3,4,4,4,4,4,6,7,8,9,9}
+k=6
+
+B= {1,2,2,3,3,3,3,3,4,6,7,8,9,9}
+k=3
+
+n=5
+C= {3,4,2,1,5}
+
+A[-6:15]
+base address -> 1000
+W -> 4
+
+
+A[2] -> 1000 + 4*(2 -(-6)) -> 1000 + 32 -> 1032
+
+1 to n
+
+1 to 10
+
+1,2,3,4,5,6,7,8,9,10
+2,4,6,8,10 (n/2)
+1,2,3,4,5
+2,4
+1,2
+2 (n/2 -1)
+
+1 to 5
+1,2,3,4,5
+2,4 (n/2)
+1,2
+2 (n/2 -1)
+
+n/2 -1
+
+A = {1,4,5,7,9,0}
+k=2
+
+A= {7,9,0,1,4,5}
+
+n=64
+n + logn -2
+64 + 6-2
+64+4
+68
