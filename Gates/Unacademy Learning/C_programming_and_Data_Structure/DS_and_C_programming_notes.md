@@ -12,6 +12,12 @@
 
 * Link -> https://unacademy.com/course/course-on-c-programming-data-structures-gate-24-25/07AHS79R
 
+## Doubts and Solutions
+
+> Check them out as well. They have answers to questions I wans't able to do or had problem solving.
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions
+
 * Session 9 was Quiz 1
 
 ## Important Topics and Video to watch when doing revision
@@ -985,6 +991,11 @@ int **p;
 ![image](https://user-images.githubusercontent.com/54589605/212466932-c13c8498-b789-49a8-bc8d-ab5b834715b2.png)
 
 > The solution provided by the quiz was wrong. Keep it in mind. Don't blindly accept answers. Check it yourself. I also ticked the correct answer in the quiz.
+> Update, I ran the code on a compiler and it gave the answer as it was in the quiz solution. Better explaination on the below link.
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/FE03159543
+
+
 
 ## Insertion in Array
 
