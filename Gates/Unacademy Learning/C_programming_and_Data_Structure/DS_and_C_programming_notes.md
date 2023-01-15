@@ -849,6 +849,13 @@ int **p;
 
 ## Data Structure with C
 
+### Daily Revision 
+
+* 1 -> Done still insertion in array (14 Jan 2023)
+* 2 -> Start from insertion in array (15 Jan 2023)
+
+
+
 ## Introduction to DS (17)
 
 > It is not only the organization of data but the functions to access the data as well. It is sometimes referred to as **ADT or Abstract Data Type**.
@@ -1009,23 +1016,25 @@ int **p;
 ![image](https://user-images.githubusercontent.com/54589605/212530371-15c26203-036e-4ad9-8c19-6681ffacdd7e.png)
 
 
-
-
-
-## Insertion in Array
+## Insertion in Array 
 
 * Always at the end
 * Based on index
 
+* Complexity of insertion always at the end
 
-### Based on index insertion
+* Rumtime -> Theta(1)
+* Space -> Theta(1)
+
+
+### Insertion based on index 
 
 #### Conditions
 
 * Check for overflow condition. If not then check following conditons.
-* Index 'i' is between (LB) and (UB+1)
-* Check if we have to shift elements or not.
-* Empty index 'i' and input the new value 'item' in it.
+  * Index 'i' is between (LB) and (UB+1)
+  * Check if we have to shift elements or not.
+  * Empty index 'i' and input the new value 'item' in it.
 
 #### Algorithm
 
@@ -1044,12 +1053,17 @@ int **p;
     }
     for(k=UB;k>=i;k--)
     {
-        A[k+1]=A[k];
+        A[k+1]=A[k]; // Shifting to the right.
     }
     A[i]=item;
     UB++;
     n++;
 ```
+
+* Complexity of insertion based on index
+
+* Rumtime -> O(n)
+* Space -> Theta(1)
 
 ## Deletion in Array
 
@@ -1068,17 +1082,26 @@ int **p;
     n--;
 ```
 
+* Complexity of deletion always last element
+
+* Rumtime -> Theta(1)
+* Space -> Theta(1)
+
 ### Based on index
 
 * index 'i' range -> LB <= i <= UB.
 
+* Complexity of deletion based on index
 
-## Insertion, Deletion questions
+* Rumtime -> O(n)
+* Space -> Theta(1)
 
-* Insertion always at the start(LB) -> **Theta(n)**.
-* Deletion always at the start(LB) -> **Theta(n)**.
+## Insertion, Deletion questions 
 
-## Finding min. element in Array.
+* Insertion always at the start(LB) -> **Theta(n)**. Since we have to right shift all of the 'n' elements by 1 index.
+* Deletion always at the start(LB) -> **Theta(n)**. Since we have to left shift all of the 'n' elements by 1 index.
+
+## Finding min. element in Array. (21)
 
 ## Finding max. element in Array.
 
@@ -1105,7 +1128,7 @@ int **p;
 
 ### DPP 1 (20_Doubt_Solving_Session)
 
-* 1 -> Theta(n)
+* 1 -> B [Theta(logn)] [Got it wrong, thought Theta(n) and the options were wrong as well]
 * 2 -> 1032
 * 3 -> n/2 -1
 
@@ -1119,6 +1142,149 @@ int **p;
 * 5 -> Theta(n) [Insertion at the beginning]
 * 6 -> 1032
 * 7 -> n/2 -1
+
+## Searching in Array (22)
+
+* Linear search
+* Binary search 
+
+
+> In linear search, if an array has **duplicate elements**, then it will return the **first** index/address/location of the element in the array.
+
+
+### Find all index of an element using linear search
+
+```c
+    Linear_Search(A[],LB,UB,element)
+    {
+        int index[UB];
+        for(int i=LB;i<=UB;i++)
+        {
+            index[i]= LB-1;
+        }
+        int j=0;
+        for(int i=LB;i<=UB;i++)
+        {
+            if(A[i] == element)
+            {
+                index[j]=i;
+                j++;
+            }
+        }
+        if(index[0] == -1)
+        {
+            printf("Element not found");
+        }
+        else
+        {
+            for(int i=0;i<UB;i++)
+            {
+                if(index[i]!=-1)
+                {
+                    printf("%d\t", index[i]);
+                }
+            }
+        }
+    }
+```
+
+> In linear search, whatever the formating of elements are in the array like duplicate, unique, any order/sort of elements, it will work fine.
+
+## Binary Search
+
+> If array is sorted then only we can implement binary search.
+> Binary search works only on sorted array.
+
+* while(LB >= UB) -> Element not found condition.
+
+
+### Conditions
+
+1) Find mid 
+2) if(item == A[mid]) return mid
+3) if(item < A[mid]) OR if(item > A[mid]) -> Which matches the condition
+4) UB=mid -1         OR  LB=mid+1
+5) Calculate new mid
+6) Go to step 2.
+
+### Algorithm
+
+```c
+    Binary_search(A[],item, LB,UB)
+    {
+        int low=LB,high=UB;
+        // Alternate way of writing the algo. Both give the same result.
+        // int mid=(low+high)/2; 
+        int mid;
+        while(low<= high)
+        {
+            mid=(low+high)/2;
+            if(A[mid] == item)
+            {
+                return mid;
+            }
+            else if(item < A[mid])
+            {
+                high=mid-1
+            }
+            else
+            {
+                low=mid+1;
+            }
+            // mid=(low+high)/2;
+        }
+        return LB-1;
+    }
+
+```
+
+## Array
+
+* Only stores similar datatypes -> Basic need, not a disadvantage.
+
+### Advantage
+
+* Random or direct access using indexes
+
+### Disadvantage
+
+* Fixed size.
+* Stored in consecutive location.
+
+> To solve the disadvantages of array, we came up with linked list.
+
+## Linked List (23)
+
+* Maining linear or sequential order maintained using pointers/links.
+* Linked contains a node. Node has **two** parts.
+  * Element part
+  * link/address part which points to the next node.
+
+> Last node contains 'NULL' at the link part of the node which marks the end of the linked list.
+> Address of first node is stored in list/head/start pointer. This is used to access the whole linked list.
+
+### Empty List condition
+
+```c
+    if(list == NULL) or if(!list)
+```
+
+### Single Node
+
+```c
+    if(list ->link == NULL) or if(!list ->link)
+```
+
+
+
+
+
+
+
+
+
+
+
 
 
 ## Scratch Board/Dry runs.
@@ -1338,3 +1504,22 @@ n + logn -2
 64 + 6-2
 64+4
 68
+
+
+a -> b -> c -> d -> e -> f
+a -> b -> c -> d -> C -> f
+start -> a
+p -> c
+**d**(Ans)
+
+a -> b -> c -> d -> e -> f
+a -> b -> e -> c -> d
+start -> a
+p -> c
+**c**(Ans)
+
+a -> b -> c -> d -> e -> f
+a -> b -> c -> d -> e -> f -> a
+a ->f ->a b ->c ->d ->e ->f
+p -> d
+**f**(Ans)
