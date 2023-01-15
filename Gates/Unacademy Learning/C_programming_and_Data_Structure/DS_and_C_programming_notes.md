@@ -995,6 +995,10 @@ int **p;
 
 * Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/FE03159543
 
+**Compiler**
+![image](https://user-images.githubusercontent.com/54589605/212529265-4d9b9a5e-7c7f-4924-89bf-f6fdc044f0a8.png)
+
+
 
 
 ## Insertion in Array
