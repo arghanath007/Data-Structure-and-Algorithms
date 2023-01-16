@@ -1112,6 +1112,9 @@ int **p;
 
 > Both algorithms and their complexities are in PDF(21_Finding_min_Max_In_Array).
 
+* Runtime complexity -> Theta(n)
+* Space complexity -> Theta(1)
+
 ## Tournament Method
 
 > Even if the no. of players are odd or even in the tournament, the no. of comparison regardless is *(n-1)* comparisons, where *n* is the no. of players in the tournament.
@@ -1119,31 +1122,65 @@ int **p;
 > As we need space to perform tournament method, hence it is not used that often because of the space limitation.
 
 * Space Complexity -> Theta(n) or linear complexity. [Since we exactly need an array of size n/2 or (n+1)/2]
-* Time complexity -> Theta(n). [Have to check or ask sir]
+* Time complexity -> Theta(n).
+
+* *Formula for finding comparisons required* -> n -1
+
+### Finding both min and max using tournament method
+
+* *Formula for finding comparisons required Method-1* -> n-1 +n-1 = *2n-2*
+
+* *Formula for finding comparisons required Method-2* -> n/2 + n/2-1 + n/2-1 = (3n)/2 -2 = **1.5n -2**
+
+> This is better than normal tournament method where we find min and max separately.
+
+* When 'n' is odd:
+
+* **Formula** -> Ceil((3n/2)) -2
+
+## Finding second minimum
+
+* *Formula for finding comparisons required Method-1* -> n-1 + n-2 = **2n -3**
+
+* *Formula for finding comparisons required Method-2* -> n-1 + logn-1 = **n+logn-2**
 
 
 ## DPP 1
 
 ### Questions before DPP(20_Doubt_Solving_Session)
 
-* 1 -> C (O(n))
-* 2 -> C (O(n))
-* 3 -> C (O(n))
+* 1 -> B [Theta(logn)] [Got it wrong, thought Theta(n) and the options were wrong as well]
+* 2 -> B [Theta(logn)] [Got it wrong, thought (O(n)) and the options were wrong as well]
+* 3 -> B [Theta(logn)] [Got it wrong, thought (O(n)) and the options were wrong as well]
 
 
 ### DPP 1 (20_Doubt_Solving_Session)
 
-* 1 -> B [Theta(logn)] [Got it wrong, thought Theta(n) and the options were wrong as well]
+* 1 -> [Had to write an algorithm]. 
 * 2 -> 1032
-* 3 -> n/2 -1
+* 3 -> Max value which is power of 2 and less than equal to n. 
+
+### Examples
+
+if n = 100, then position = 64(2^6)
+if n = 200, then position = 128(2^7)
+if n = 10, then position = 8(2^3)
+
+## Find max power of 2 which is smaller than n
+
+```c
+    int x =Ceil(logn/log2); // Find the power
+    int y= pow(2,x); // Value
+    return y;
+```
 
 
 ### DPP 2 (21_Finding_Min_Max_in_Array)
 
-* 1 -> 4000 [100*40]
-* 2 -> 
+* 1 -> 4000 [100*40] [Faulty question]
+* 2 ->               [High level question]
 * 3 -> 68
-* 4 -> Theta(n)
+* 4 -> [Had to write an algorithm]. 
 * 5 -> Theta(n) [Insertion at the beginning]
 * 6 -> 1032
 * 7 -> n/2 -1
@@ -1154,7 +1191,13 @@ int **p;
 * Binary search 
 
 
-> In linear search, if an array has **duplicate elements**, then it will return the **first** index/address/location of the element in the array.
+> In linear search, if an array has **duplicate elements**, then it will only return the **first** index/address/location of the element in the array.
+
+* Runtime Complexities
+
+* Best case -> Theta(1)
+* Worst case -> Theta(n)
+* Any case -> O(n)
 
 
 ### Find all index of an element using linear search
@@ -1192,6 +1235,12 @@ int **p;
         }
     }
 ```
+
+* Runtime complexity 
+
+* Average case -> Theta(n)
+* Best case -> Theta(n)
+* worst case -> Theta(n)
 
 > In linear search, whatever the formating of elements are in the array like duplicate, unique, any order/sort of elements, it will work fine.
 
@@ -1243,7 +1292,26 @@ int **p;
 
 ```
 
-## Array
+* Runtime complexity -> O(logn)
+
+## Finding first and last appearance of given array in sorted array
+
+> As it is a sorted array, we can use *Binary Search* here. The runtime complexity of binary search is *logn*. 
+
+* Find first appearance -> log n
+* Find last appearance -> log n 
+
+* Total comparisons -> logn + logn -> 2logn -> O(logn)
+* Frequency = First appearance index - last appearance index.
+
+
+## 22_Searching_in_Array Questions
+
+* 1 -> B [Theta(logn)]
+* 2 -> B [O(logn)]
+* 3 -> B [O(logn)]
+
+## Array (23)
 
 * Only stores similar datatypes -> Basic need, not a disadvantage.
 
@@ -1258,10 +1326,10 @@ int **p;
 
 > To solve the disadvantages of array, we came up with linked list.
 
-## Linked List (23)
+## Linked List 
 
-* Maining linear or sequential order maintained using pointers/links.
-* Linked contains a node. Node has **two** parts.
+* **linear or sequential order maintained using pointers/links**.
+* Linked list contains a node. Node has **two** parts.
   * Element part
   * link/address part which points to the next node.
 
@@ -1280,14 +1348,60 @@ int **p;
     if(list ->link == NULL) or if(!list ->link)
 ```
 
+> Practice the linked list question in 23_Linked_list_basics PDF, Page 12 onwards.
+
+
+## Question in 23_Linked_list_basics PDF
+
+* 1 -> e [Either null pointer dereferencing error or data of 2nd last node get printed]
+* 2 -> 
+
+> null pointer dereferencing errors or NPDs as the problem hasn't handled the base conditions like,
+
+* start =NULL;
+* Linked list has one element only. start points to only node only.
 
 
 
 
+## DPP 3 (23_Linked_list_basics)
 
 
 
+## Doubt and questions (24)
+## Null Pointer Dereferencing (25)
 
+* NULL ->data
+* NULL -> link
+* if(p->link != NULL)
+
+> Error. 
+
+## Traversing in Linked List.
+
+* Runtime complexity -> Theta(n).
+
+## No. of elements in Linked List
+
+* Runtime complexity -> Theta(n).
+
+## Sum of elements in linked list
+
+* Runtime complexity -> Theta(n).
+
+## Min element in linked list.
+
+* Runtime complexity -> Theta(n).
+
+## Address of last node in linked list
+
+* Runtime complexity -> Theta(n).
+
+## Valid NULL terminated linked_list
+
+* start=NULL 
+
+> There is 'start' pointer so linked list exists but it is empty or zero(0) nodes. As have a 'start' pointer which means there exists a linked list which is empty or zero(0) nodes, but a linked list exists never the less.
 
 
 
@@ -1528,3 +1642,13 @@ a -> b -> c -> d -> e -> f -> a
 a ->f ->a b ->c ->d ->e ->f
 p -> d
 **f**(Ans)
+
+
+
+a -> b -> c -> d -> e -> f
+
+start -> a
+p -> a b c d e
+p -> link -> link = c d e f
+
+
