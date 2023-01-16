@@ -1144,23 +1144,20 @@ int **p;
 
 * *Formula for finding comparisons required Method-2* -> n-1 + logn-1 = **n+logn-2**
 
-
-## DPP 1
-
-### Questions before DPP(20_Doubt_Solving_Session)
+## Questions before DPP(20_Doubt_Solving_Session)
 
 * 1 -> B [Theta(logn)] [Got it wrong, thought Theta(n) and the options were wrong as well]
 * 2 -> B [Theta(logn)] [Got it wrong, thought (O(n)) and the options were wrong as well]
 * 3 -> B [Theta(logn)] [Got it wrong, thought (O(n)) and the options were wrong as well]
 
 
-### DPP 1 (20_Doubt_Solving_Session)
+## DPP 1 (20_Doubt_Solving_Session)
 
 * 1 -> [Had to write an algorithm]. 
 * 2 -> 1032
 * 3 -> Max value which is power of 2 and less than equal to n. 
 
-### Examples
+### Examples for question 3 in DPP 1
 
 if n = 100, then position = 64(2^6)
 if n = 200, then position = 128(2^7)
@@ -1368,12 +1365,9 @@ if n = 10, then position = 8(2^3)
 ![image](https://user-images.githubusercontent.com/54589605/212616164-dda68630-d5fb-4c8d-92c6-c753825778af.png)
 
 
-
-
-
-
-
 ## DPP 3 (23_Linked_list_basics)
+
+> These questions are in the next DPP as well, which is DPP 4 in *25_Linked_list_implementation* PDF file. Some extra questions are present as well. Check that out. I will complete all of them there.
 
 
 
@@ -1412,6 +1406,35 @@ if n = 10, then position = 8(2^3)
 
 > There is 'start' pointer so linked list exists but it is empty or zero(0) nodes. As have a 'start' pointer which means there exists a linked list which is empty or zero(0) nodes, but a linked list exists never the less.
 
+## Insertion in Linked List
+
+> We can insert a node at any postion, beginning, end or at any given position of the linked list.
+
+* Whenever a new node to be inserted:
+    1) First create a new node dynamically using malloc()
+    2) Insert the newly created node
+
+### Creating a new node
+
+
+```c
+    struct node* n =(struct node*) malloc(sizeof(struct node));
+
+    if(n == NULL)
+    {
+        printf("Out of memory");
+    }
+```
+
+> If **all of the memory** is used up, then **malloc()** will return **NULL**. 
+> If *n == NULL* is true then, the system is out of memory.
+
+## Different insertion in linked list
+
+* **Beginning** -> Runtime complexity = *Theta(1)*
+* **After a given node** -> Runtime complexity = *Theta(1)*
+* **At end** -> Runtime complexity =  *Theta(n)*
+* **At end when last node is given** -> Runtime complexity =  *Theta(1)*
 
 
 
