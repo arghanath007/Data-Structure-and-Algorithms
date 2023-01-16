@@ -1365,6 +1365,8 @@ if n = 10, then position = 8(2^3)
 
 ### To remove the NPDs errors
 
+![image](https://user-images.githubusercontent.com/54589605/212616164-dda68630-d5fb-4c8d-92c6-c753825778af.png)
+
 
 
 
