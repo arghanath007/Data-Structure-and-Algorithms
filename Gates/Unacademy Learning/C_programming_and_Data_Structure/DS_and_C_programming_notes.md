@@ -847,12 +847,44 @@ int **p;
 > No matter what is the value of 'x' and 'y' is, we will always take the 2nd or the last value i.e the value of 'y' here and store it in 'j' variable.
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Data Structure with C
 
 ### Daily Revision 
 
 * 1 -> Done still insertion in array (14 Jan 2023)
 * 2 -> Start from insertion in array (15 Jan 2023)
+* 3 -> Start from searching in array (16 Jan 2023)
+* 4 -> Start from Deletion in linked list(17 Jan 2023) before starting new lectures.
 
 
 
@@ -1180,9 +1212,11 @@ if n = 10, then position = 8(2^3)
 * 4 -> [Had to write an algorithm]. 
 * 5 -> Theta(n) [Insertion at the beginning]
 * 6 -> 1032
-* 7 -> n/2 -1
+* 7 -> Max value which is power of 2 and less than equal to n.
 
-## Searching in Array (22)
+> The explaination of question 7 is in the above *DPP 1* questions, check above. Example is also given.
+
+## Searching in Array (22) [Date -> 16 Jan 2023]
 
 * Linear search
 * Binary search 
@@ -1194,7 +1228,7 @@ if n = 10, then position = 8(2^3)
 
 * Best case -> Theta(1)
 * Worst case -> Theta(n)
-* Any case -> O(n)
+* Average case -> O(n)
 
 
 ### Find all index of an element using linear search
@@ -1372,6 +1406,8 @@ if n = 10, then position = 8(2^3)
 
 
 ## Doubt and questions (24)
+
+> All of the previous DPP questions are solved. Check the above DPPs for solutions and questions.
 ## Null Pointer Dereferencing (25)
 
 * NULL ->data
@@ -1382,29 +1418,29 @@ if n = 10, then position = 8(2^3)
 
 ## Traversing in Linked List.
 
-* Runtime complexity -> Theta(n).
+* Runtime complexity -> **Theta(n).**
 
 ## No. of elements in Linked List
 
-* Runtime complexity -> Theta(n).
+* Runtime complexity -> **Theta(n).**
 
 ## Sum of elements in linked list
 
-* Runtime complexity -> Theta(n).
+* Runtime complexity -> **Theta(n).**
 
 ## Min element in linked list.
 
-* Runtime complexity -> Theta(n).
+* Runtime complexity -> **Theta(n).**
 
 ## Address of last node in linked list
 
-* Runtime complexity -> Theta(n).
+* Runtime complexity -> **Theta(n).**
 
 ## Valid NULL terminated linked_list
 
 * start=NULL 
 
-> There is 'start' pointer so linked list exists but it is empty or zero(0) nodes. As have a 'start' pointer which means there exists a linked list which is empty or zero(0) nodes, but a linked list exists never the less.
+> There is 'start' pointer so linked list exists but it is empty or has zero(0) nodes. As it has a 'start' pointer which means there exists a linked list which is empty or has zero(0) nodes, but a linked list exists never the less.
 
 ## Insertion in Linked List
 
@@ -1415,7 +1451,6 @@ if n = 10, then position = 8(2^3)
     2) Insert the newly created node
 
 ### Creating a new node
-
 
 ```c
     struct node* n =(struct node*) malloc(sizeof(struct node));
@@ -1435,6 +1470,163 @@ if n = 10, then position = 8(2^3)
 * **After a given node** -> Runtime complexity = *Theta(1)*
 * **At end** -> Runtime complexity =  *Theta(n)*
 * **At end when last node is given** -> Runtime complexity =  *Theta(1)*
+* **Before a given node** -> Runtime complexity =  *O(n)*
+
+
+## DPP 4 (25_Linked_list_implementation)
+
+* 1 ->  [Circular list note yet done]
+* 2 -> 
+* 3 -> D [Error or returns 1]
+* 4 ->   [Cross or axe]
+* 5 -> [Cross or axe]
+* 6 -> f
+* 7 -> e
+* 8 -> error
+
+
+## Deletion in linked list
+
+* **Beginning** -> Runtime complexity = *Theta(1)*
+* **of a given node** -> Runtime complexity = *O(n)*
+* **at the end** -> Runtime complexity = *Theta(n)*
+* **at the end when address of last node is given** -> Runtime complexity = *Theta(n)*
+
+### Deletion at beginning (26) 
+
+```c
+    struct node* p=strat;
+    start= start -> link;
+    free(p);
+```
+
+> *free(p)*, the pointer 'p' was pointing to the node and the space take by that node would be set free. The node will neither exist in memory nor in the linked list.
+
+* free(p) -> keyword.
+
+### Deletion of a given node
+
+```c
+    struct node *p=start;
+    while(p->link != loc)
+    {
+        p=p->link;
+    }
+    p->link=loc->link;
+    free(loc);
+```
+
+> Only valid way to delete a given node.
+
+#### More ways to delete a given node
+
+> Interview question, delete a given node but we cannot use an extra pointer or a new pointer, which will loop to one place before 'loc' position. Below are the ways to tackle this problem/question asked in interviews.
+
+#### Invalid Method 1
+
+```c
+    start = loc ->link.
+```
+
+#### Invalid Method 2
+
+```c
+    loc -> data = loc->link->data;
+    loc->link = loc->link->link;
+```
+
+> Both are invalid ways of deleting a given node. Normal way is in only valid way.
+> Look at the *26_Types_of_linked_list* PDF file, the code and the explaination is there.
+
+### Deletion at the end
+
+
+### Deletion at the end when last node address is given
+
+```c
+    struct node* p =start;
+    while(p->link->link)
+    {
+        p=p->link;
+
+    }
+    p->link=NULL;
+    free(loc);
+```
+
+## Searching in linked list
+
+> Return address of the node where the element found in linked list.
+
+### Linear search in LL
+
+* Rumtime complexity -> O(n)
+
+### Binary search in LL
+
+> Linked List should be sorted.
+> Binary search in linked list is not possible in *logn* runtime complexity. As we have to linearly traverse the list to go to the mid element of list. Hence to find mid element we have to *n/2* comparisons every time, which is *O(n)* runtime complexity. As it is not possible to reach the mid element in *constant or O(1)* runtime. To reach mid element, we need linear or *O(n)* time complexity.
+> Binary search in linked list can not be as efficient as it is on array because in linked list, reaching to mid node is not possible in constant time.
+
+
+* If someone asks can we implement binary search in linked list?
+
+> Yes we can implement binary search in linked list. But the runtime complexity will not be in *O(logn)* but will be in *O(n)*.
+
+
+## Sets
+
+* Union(U) -> Both sets are combined but common/duplicates are removed. Uniques are kept only.
+* Intersection() -> Only the common values from both the sets are kept.
+* Membership -> If an elements belongs to a given set or not.
+* Cardinality -> To find the no. of elements in a given set.
+
+> Good PYQ question from gate 2004, revise it a very important question about linked lists and sets in *26_Types_of_linked_list* PDF file. 
+
+
+## Reversing a linked list
+
+```c
+    struct node* p=start;
+    struct node* p=NULL;
+    struct node* r;
+    while(p)
+    {
+        r=q;
+        q=p;
+        p=p->link;
+        q->link=r;
+    }
+    start=q;
+```
+
+* Runtime complexity -> Theta(n) [Linear complexity]
+* Space complexity -> Theta(1)
+
+## Disadvantage of LL
+
+1) The link part of last node is not utilized
+2) The address of predecessor/previous node is not know
+3) Stepping backward is not possible
+
+* 1 is solved by circular linked list.
+* 2 and 3 is solved by doubly linked list.
+
+## Circular Linked list
+
+```c
+    struct node* p=start;
+    while(p->link)
+    {
+        p=p->link;
+    }
+    p->link=start;
+```
+
+* Runtime complexity -> Theta(n)
+
+
+
 
 
 
@@ -1683,4 +1875,11 @@ start -> a
 p -> a b c d e
 p -> link -> link = c d e f
 
+3,5,5,5,7,8,9,9,9,9,12,15,18,19,23
+3,5,5,7,8,9,9,9,9,12,15,18,19,23
+3,5,,7,8,9,9,9,9,12,15,18,19,23
+
+head -> 3
+p = 5 7
+current -> 3 5
 
