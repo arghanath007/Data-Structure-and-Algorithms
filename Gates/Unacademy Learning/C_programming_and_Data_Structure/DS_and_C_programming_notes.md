@@ -885,8 +885,13 @@ int **p;
 * 2 -> Start from insertion in array (15 Jan 2023)
 * 3 -> Start from searching in array (16 Jan 2023)
 * 4 -> Start from Deletion in linked list(17 Jan 2023) before starting new lectures.
+* 5 -> Start from Header List.(17 Jan 2023).
+* 6 -> Solve the DPP question as revision. (18 Jan 2023).
 
 
+## Weekly Revision
+
+* 1 -> Revise everything from 16 to 21 Jan 2023. Practice questions.
 
 ## Introduction to DS (17)
 
@@ -1210,7 +1215,7 @@ if n = 10, then position = 8(2^3)
 * 2 ->               [High level question]
 * 3 -> 68
 * 4 -> [Had to write an algorithm]. 
-* 5 -> Theta(n) [Insertion at the beginning]
+* 5 -> Theta(n) [Insertion at the beginning] [Asked in the Doubts, check there.]
 * 6 -> 1032
 * 7 -> Max value which is power of 2 and less than equal to n.
 
@@ -1473,26 +1478,48 @@ if n = 10, then position = 8(2^3)
 * **Before a given node** -> Runtime complexity =  *O(n)*
 
 
-## DPP 4 (25_Linked_list_implementation)
+## DPP 4 (25_Linked_list_implementation) 
 
-* 1 ->  [Circular list note yet done]
-* 2 -> 
+> Solved in *28_Doubt_Clearing_session* PDF file.
+
+* 1 ->  [Circular list not yet done]
+* 2 -> 10 [count of the remaining nodes in the list. It is removing the duplicate elements from the list.]
 * 3 -> D [Error or returns 1]
-* 4 ->   [Cross or axe]
-* 5 -> [Cross or axe]
+* 4 -> [Cross or axe] [Solved in the PDF file above]
+* 5 -> [Cross or axe] [Solved in the PDF file above]
 * 6 -> f
-* 7 -> e
-* 8 -> error
+* 7 -> a [Got it wrong, thought 'e' was the answer]
+* 8 -> error [NPD is the error]
 
+* Answer of Question **4** from above:
 
-## Deletion in linked list
+```c
+    x->next=x->next->next;
+```
+
+* Runtime complexity ->*Theta(1)*
+
+* Answer of Question **5** from above:
+
+```c
+    p=start;
+    while(p->link->link!=x)
+    {
+        p=p->link;
+    }
+    p->link=x;
+```
+
+* Runtime complexity ->*O(n)*
+
+## Deletion in linked list (26) 
 
 * **Beginning** -> Runtime complexity = *Theta(1)*
 * **of a given node** -> Runtime complexity = *O(n)*
 * **at the end** -> Runtime complexity = *Theta(n)*
 * **at the end when address of last node is given** -> Runtime complexity = *Theta(n)*
 
-### Deletion at beginning (26) 
+### Deletion at beginning 
 
 ```c
     struct node* p=strat;
@@ -1520,7 +1547,7 @@ if n = 10, then position = 8(2^3)
 
 #### More ways to delete a given node
 
-> Interview question, delete a given node but we cannot use an extra pointer or a new pointer, which will loop to one place before 'loc' position. Below are the ways to tackle this problem/question asked in interviews.
+> Interview question, **delete a given node but we cannot use an extra pointer or a new pointer, which will loop to one place before 'loc' position**. Below are the ways to tackle this problem/question asked in interviews.
 
 #### Invalid Method 1
 
@@ -1535,10 +1562,12 @@ if n = 10, then position = 8(2^3)
     loc->link = loc->link->link;
 ```
 
-> Both are invalid ways of deleting a given node. Normal way is in only valid way.
+> Both are invalid ways of deleting a given node. Normal way is the only valid way.
 > Look at the *26_Types_of_linked_list* PDF file, the code and the explaination is there.
 
 ### Deletion at the end
+
+* Runtime complexity -> Theta(n)
 
 
 ### Deletion at the end when last node address is given
@@ -1554,9 +1583,11 @@ if n = 10, then position = 8(2^3)
     free(loc);
 ```
 
+> Even if the address of last node is given, we still need to traverse the list and get to the 2nd last element of the list.
+
 ## Searching in linked list
 
-> Return address of the node where the element found in linked list.
+> Returns address of the node where the element found in linked list.
 
 ### Linear search in LL
 
@@ -1565,7 +1596,7 @@ if n = 10, then position = 8(2^3)
 ### Binary search in LL
 
 > Linked List should be sorted.
-> Binary search in linked list is not possible in *logn* runtime complexity. As we have to linearly traverse the list to go to the mid element of list. Hence to find mid element we have to *n/2* comparisons every time, which is *O(n)* runtime complexity. As it is not possible to reach the mid element in *constant or O(1)* runtime. To reach mid element, we need linear or *O(n)* time complexity.
+> Binary search in linked list is not possible in *logn* runtime complexity. As we have to linearly traverse the list to go to the mid element of list. Hence to find mid element we have to do *n/2* comparisons every time, which is *O(n)* runtime complexity. As it is not possible to reach the mid element in *constant or O(1)* runtime. To reach mid element, we need linear or *O(n)* time complexity.
 > Binary search in linked list can not be as efficient as it is on array because in linked list, reaching to mid node is not possible in constant time.
 
 
@@ -1584,7 +1615,7 @@ if n = 10, then position = 8(2^3)
 > Good PYQ question from gate 2004, revise it a very important question about linked lists and sets in *26_Types_of_linked_list* PDF file. 
 
 
-## Reversing a linked list
+## Reverse a linked list
 
 ```c
     struct node* p=start;
@@ -1624,6 +1655,221 @@ if n = 10, then position = 8(2^3)
 ```
 
 * Runtime complexity -> Theta(n)
+
+
+## Header List (27)  (17/01/2023)
+
+> It contains some summary information. It is a special first node called as header node.
+> Some types of summary information includes no. of nodes, sum of the elements.
+> We add a node, which doesn't include an element but has information related to the summary of the linked list.
+
+* Whenever an insertion happens then, (list->data)++;
+* Whenever an deletion happens then, (list->data)--;
+
+
+### Condition when header list is empty
+
+
+### Types of header list
+
+* Grounded list -> Last node has link as NULL.
+* Circular list -> The last node's link is pointing to the starting or first node i.e the header node of the linked list.
+
+
+## Traversal in header list.
+
+### In grounded
+
+* Runtime complexity -> Theta(n)
+
+
+### In Circular
+
+* Runtime complexity -> Theta(n)
+
+## Doubly linked list
+
+> Every node stores two addresses and a data. One pointer points to the next node and the other pointer points to the previous node. 
+> In some doubly linked lists, we maintain a pointer on the last node of the list for stepping backwards in the list.
+
+* There could be two varients of doubly linked list
+
+1) Only one pointer pointing to the first node of the list.
+2) Two pointers, one pointing to the first node of the list and the other one pointing to the last node of the list.
+
+## Insertion in doubly linked list.
+
+### At benginning
+
+* Runtime complexity -> **Theta(1)**
+
+### After a given node.
+
+```c
+    n->next= loc->next;
+    n->prev=loc;
+    loc->next->prev=n;   // OR n->next->prev =n; Same thing 
+    loc->next=n; 
+```
+
+* Runtime complexity -> **Theta(1)**
+
+> In linked list insertion, always update/add the links/pointers of the new node which is being inserted into the list first then change/modify/update the existing links/pointers in the list. 
+> Othewise we will loose access to the already existing links/pointers in the list. Sequence is important otherwise we will loose access to some nodes in the list.
+
+### Before a given node.
+
+```c
+
+    n->prev=loc->prev;
+    n->next=loc;
+    loc->prev->next=n;
+    loc->prev=n;
+```
+
+* Runtime complexity -> **Theta(1)**
+
+### At the end when address of last node is given.
+
+```c
+    n->next=NULL;
+    n->prev=last;  // 'last' is the pointer pointing to the last node of list.
+    last->next=n;
+    last=n;
+```
+
+* Runtime complexity -> **Theta(1)**
+
+### At the end when address of last node is not given.
+
+```c
+    n->data=item;
+    p=first;
+    while(p->next)
+    {
+        p=p->next;
+    }
+    n->next=NULL;
+    n->prev=p;
+    p->next=n;
+    // p=n;  Not needed as we are not maintaining the address of last node.
+```
+
+* Runtime complexity -> **Theta(n)**
+
+## Deletion in Doubly linked list
+
+### First node
+
+```c
+    first=first->next;  // 'first' is a pointer pointing to the first node of the list.
+    first->prev=NULL;
+```
+
+* Runtime complexity -> **Theta(1)**
+
+### Given node
+
+```c
+    loc->prev->next=loc->next;
+    loc->next->prev= loc->prev;
+    // loc->next=NULL; Not needed they will be removed the list. 
+    // loc->prev=NULL; Not needed they will be removed the list.
+    free(loc);
+```
+
+* Runtime complexity -> **Theta(1)**
+
+### Last node, when address of last node given
+
+```c
+    p=last;
+    last=last->prev;
+    last->next=NULL;
+    free(p);
+```
+
+* Runtime complexity -> **Theta(1)**
+
+### Last node, when address of last node is not given
+
+```c
+    p=start;
+    while(p->link->link)
+    {
+        p=p->link;
+    }
+    free(p->next);
+    p->next=NULL;
+```
+
+* Runtime complexity -> **Theta(n)**
+
+> All of the algorithms for intersion, deletion in doubly linked list have *Theta(1) or constant* space complexity. We have hardly used one(1) struct node* type pointer in them.
+
+### For insertion
+
+> When we have inserted a node in the **middle** wheather it is before or after a given node, we are **updating four(4) links**.
+> For insertion at **beginning** we are **updating three(3) links**.
+> For insertion at the **end** we are **updating three(3) links**.
+
+### For deletion
+
+> When we have deleted a node in the **middle** wheather it is before or after a given node, we are **updating two(2) links**.
+> For deletion at **beginning or first node** we are **updating one(1) links**.
+> For deletion at the **end or last node** we are **updating one(1) links**.
+
+## Recursion in linked list
+
+> Question 6 from *27_Types_of_linked_list_part_II* PDF file.
+
+
+### Questions from *27_Types_of_linked_list_part_II* PDF file.
+
+> Solved in *28_Doubt_Clearing_session* PDF file.
+
+* 1-> Already done
+* 2-> Omit for now. [Solved below. Interesting and tough question]
+* 3-> dcba [Printing the elements of linked list in reverse order]
+* 4-> B [Reversing the list]
+* 5-> A [Got it wrong, thought 'B' is the answer]
+* 6-> Returns the address of last node or NPD error.
+
+> In question 4, whatever function we are executing, we can access the local variables of that function call only.
+> All of these questions were good. Need to revise and know them to able to solve them in the future. Solve them in revision as well.
+
+## Doubly Circular linked list (28)
+
+> We can make any node as the 'first' pointer. No problem in that. Benefit of traversal in both the directions. We can travel from anywhere or any node and traverse back to that same node as well.
+
+### Reverse doubly Circular linked list
+
+
+## Linked list PYQS 
+
+> Question in *28_Doubt_Clearing_session* PDF file. At the end of the file. Solve them.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
