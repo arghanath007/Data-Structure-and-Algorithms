@@ -1849,6 +1849,191 @@ if n = 10, then position = 8(2^3)
 
 > Question in *28_Doubt_Clearing_session* PDF file. At the end of the file. Solve them.
 
+* 1-> C [Multiple pointers, 4 to be exact]
+* 2-> Have to wring an algorithm
+* 3-> B [Binary Search]
+* 4-> D [I and III]
+* 5-> B [Doubly linked list]
+* 6-> 
+* 7-> [Swapped i+1 and i+2 list data]
+* 8-> Have to wring an algorithm
+* 9-> D [n]
+* 10-> B
+* 11-> C [not possible with a single pointer]
+* 12-> D [union, intersection]
+* 13-> B [2,1,4,3,6,5,7] 
+* 14-> B
+* 15-> B
+* 16-> A
+* 17-> B [Theta(1), Theta(n)]
+* 18-> C [Theta(n^2)]
+* 19-> C [error]
+
+
+
+
+
+### Algorithm for question 2
+
+```c
+    struct node* p=head;
+    while(p->next!=x)
+    {
+        p=p->next;
+    }
+    p->next=Y;
+    Y->next=X;
+```
+
+* Runtime complexity -> O(n)
+
+### Algorithm for question 7
+
+```c
+    struct node* p=head;
+    n->next=p->next;   
+    p->next=n;
+```
+
+>'n' is the address of the new node to be inserted. 'p' is the pointer from the question.
+
+* Runtime complexity -> Theta(1)
+
+## Queue
+
+* FIFO -> First In First Out.
+
+> It is a linear data structure, in which insertion is done from one end(Rear end) and deletion is done from other end(front end).
+
+* Enqueue -> Insertion in queue
+* Dequeue -> Deletion in queue.
+
+## Implementation of queue using **array**
+
+* Two implementation of queue in array:
+
+1) Linear queue -> Insertion can be done on next index of 'Rear' linearly. Insertion can be done only after the index of 'Rear'. It cannot utilize the first/previous empty spaces in the array. Not better space utilization in linear queue. 
+2) Circular queue -> If array is full then the insertion is circularly taken to the starting of the array. Full utilization of the space happens here. No space is left empty.
+
+* We need 2 index variables
+
+1) **Front** -> Which stores index of front element of queue. The first element which was inserted into the queue, that element's index is stored there.
+2) **Rear** -> Which stores index of rear element of queue. The last element which was inserted into the queue, that element's index is stored there.
+
+## Insertion or enqueue in queue
+
+### When queue is empty
+
+```c
+    front=read=-1;
+```
+
+> For insertion, rear index changes.
+> For deletion, front index changes.
+
+> For the first insertion in the queue, we set the front and rear variables to '0' as it is the first, second and the last element of the queue.
+
+### When queue is full **Overflow**
+
+```c
+    if(front ==0 and rear==N-1) // Normal case.
+    {
+        printf("Queue is full, overflow condition");
+    }
+```
+
+> Queue is full and no more insertion into the queue is possible.
+
+* N -> Size of the array.
+
+### Another overflow condition but for **circular queue**
+
+```c
+    front= (read+1)%N;  //N -> size of the array.
+```
+
+## Deletion or dequeue in queue
+
+> We don't need to provide any element in dequeue() as we know dequeue or deletion in queue happens on the **first element** of the queue. Front element or the first inserted element in the queue will be deleted.
+
+## Algorithm for insertion or enqueu in **circular queue**
+
+```c
+    Enqueue(item,queue[],n,front, rear); //n-> size of the array.
+    int queue[5];
+    if(front ==(rear+1)%n)
+    {
+        printf("Overflow");
+        return;
+    }
+    if(front==rear==-1) // Special condition, when inserting the first element in queue
+    {
+        front=rear=0;
+    }
+    else
+    {
+        rear= (rear+1)%n;  // Normal condition, after first insertion.
+    }
+    queue[rear]=item;
+```
+
+* Runtime complexity -> **Theta(1) or constant**
+* Space complexity -> **Theta(1) or constant**
+
+
+## Algorithm for deletion or dequeue in **circular queue**
+
+```c
+    if(front==rear==-1)
+    {
+        printf("Underflow or queue empty");
+        return;
+    }
+    if(front==rear) //special condition, when only one or last element left in queue.
+    {
+        front=rear=-1;
+    }
+    else
+    {
+        front=(front+1)%n;
+    }
+```
+
+> Sometimes they ask to store the deleted values in some place, as they will used afterwards. Use the code below.
+
+```c
+    int deletedItem;
+    if(front==rear==-1)
+    {
+        printf("Underflow or queue empty");
+        return;
+    }
+    deletedItem= queue[Front]; //Storing the deleted item.
+    if(front==rear)
+    {
+        front=rear=-1;
+    }
+    else
+    {
+        front=(front+1)%n;
+    }
+```
+
+* Runtime complexity -> **Theta(1) or constant**
+* Space complexity -> **Theta(1) or constant**
+
+> Same for both even if we are storing the deleted item or not.
+
+## Implementation of queue using **linked list**
+
+* **Enqueue** -> Insertion at the end -> Theta(1)
+* **Dequeue** -> Deletion from the front -> Theta(1)
+
+
+
+* Ask doubt for question **11** as well from the quiz.
+
+
 
 
 
