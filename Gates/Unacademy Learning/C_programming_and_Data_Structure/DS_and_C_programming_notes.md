@@ -2045,6 +2045,14 @@ if n = 10, then position = 8(2^3)
 
 > Many good questions have come in GATE PYQs. Check them out in revision. They are in *30_Queue_Types_of_Queue*.
 
+* One of the questions:
+
+![image](https://user-images.githubusercontent.com/54589605/213432715-e53f8ac4-f925-4000-912b-c0993c49e3eb.png)
+![image](https://user-images.githubusercontent.com/54589605/213432751-36429b9e-e331-4ab3-9a64-a330eee8c6dd.png)
+![queue_question](https://user-images.githubusercontent.com/54589605/213433125-a8803c90-108e-415c-994b-8d0834ddf0de.png)
+
+> The reversing that is happening in image 2. It is happening in queue2 or Q2, where the elements are first being deleted or dequeued and then immediately inserted or enqueued into Q2. Which is mentioned in image 3, underlined with color. This is how it is happening.
+
 
 
 
