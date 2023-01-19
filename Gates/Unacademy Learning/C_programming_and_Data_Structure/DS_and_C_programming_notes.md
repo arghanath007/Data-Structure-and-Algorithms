@@ -887,6 +887,7 @@ int **p;
 * 4 -> Start from Deletion in linked list(17 Jan 2023) before starting new lectures.
 * 5 -> Start from Header List.(17 Jan 2023).
 * 6 -> Solve the DPP question as revision. (18 Jan 2023).
+* 7 -> Start from Queue.(19 Jan 2023)
 
 
 ## Weekly Revision
@@ -1899,7 +1900,7 @@ if n = 10, then position = 8(2^3)
 
 * Runtime complexity -> Theta(1)
 
-## Queue
+## Queue (29)   (18/01/2023)
 
 * FIFO -> First In First Out.
 
@@ -2030,8 +2031,20 @@ if n = 10, then position = 8(2^3)
 * **Dequeue** -> Deletion from the front -> Theta(1)
 
 
+## Other Functions on queue (30) (19 Jan 2023)
 
-* Ask doubt for question **11** as well from the quiz.
+* QueueFront()
+* QueueRear()
+* IsEmptyQueue()
+
+> Some additional functions which can be given with queue.
+> Default functions of queue are *Enqueue* and *Dequeue* only.
+
+## MultiDequeue
+
+
+> Many good questions have come in GATE PYQs. Check them out in revision. They are in *30_Queue_Types_of_Queue*.
+
 
 
 
