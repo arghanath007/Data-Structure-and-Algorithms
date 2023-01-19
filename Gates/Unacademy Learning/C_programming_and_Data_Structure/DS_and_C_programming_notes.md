@@ -1913,8 +1913,8 @@ if n = 10, then position = 8(2^3)
 
 * Two implementation of queue in array:
 
-1) Linear queue -> Insertion can be done on next index of 'Rear' linearly. Insertion can be done only after the index of 'Rear'. It cannot utilize the first/previous empty spaces in the array. Not better space utilization in linear queue. 
-2) Circular queue -> If array is full then the insertion is circularly taken to the starting of the array. Full utilization of the space happens here. No space is left empty.
+1) **Linear queue** -> Insertion can be done on next index of 'Rear' linearly. Insertion can be done only after the index of 'Rear'. It cannot utilize the first/previous empty spaces in the array. Not better space utilization in linear queue. 
+2) **Circular queue** -> If array is full then the insertion is circularly taken to the starting of the array. Full utilization of the space happens here. No space is left empty.
 
 * We need 2 index variables
 
@@ -1957,7 +1957,7 @@ if n = 10, then position = 8(2^3)
 
 > We don't need to provide any element in dequeue() as we know dequeue or deletion in queue happens on the **first element** of the queue. Front element or the first inserted element in the queue will be deleted.
 
-## Algorithm for insertion or enqueu in **circular queue**
+## Algorithm for insertion or enqueue in **circular queue**
 
 ```c
     Enqueue(item,queue[],n,front, rear); //n-> size of the array.
@@ -2000,7 +2000,7 @@ if n = 10, then position = 8(2^3)
     }
 ```
 
-> Sometimes they ask to store the deleted values in some place, as they will used afterwards. Use the code below.
+> Sometimes they ask to store the deleted values in some place, as they will be used afterwards. Use the code below.
 
 ```c
     int deletedItem;
@@ -2027,8 +2027,8 @@ if n = 10, then position = 8(2^3)
 
 ## Implementation of queue using **linked list**
 
-* **Enqueue** -> Insertion at the end -> Theta(1)
-* **Dequeue** -> Deletion from the front -> Theta(1)
+* **Enqueue** -> Insertion at the end -> **Theta(1)**
+* **Dequeue** -> Deletion from the front -> **Theta(1)**
 
 
 ## Other Functions on queue (30) (19 Jan 2023)
@@ -2042,7 +2042,6 @@ if n = 10, then position = 8(2^3)
 
 ## MultiDequeue
 
-
 > Many good questions have come in GATE PYQs. Check them out in revision. They are in *30_Queue_Types_of_Queue*.
 
 * One of the questions:
@@ -2051,13 +2050,113 @@ if n = 10, then position = 8(2^3)
 ![image](https://user-images.githubusercontent.com/54589605/213432751-36429b9e-e331-4ab3-9a64-a330eee8c6dd.png)
 ![queue_question](https://user-images.githubusercontent.com/54589605/213433125-a8803c90-108e-415c-994b-8d0834ddf0de.png)
 
-> The reversing that is happening in image 2. It is happening in queue2 or Q2, where the elements are first being deleted or dequeued and then immediately inserted or enqueued into Q2. Which is mentioned in image 3, underlined with color. This is how it is happening.
+> The **reversing** that is happening in image 2. It is happening in queue2 or Q2, *where the elements are first being deleted or dequeued and then immediately inserted or enqueued into Q2*. Which is mentioned in image 3, **underlined with color**. This is how it is happening.
 
+## Double Ended Queue (31)
 
+> In this queue, insertion and deletion both can be performed from both ends(front and rear).
 
+### Types
 
+* Input Restricted Double ended queue
+* Output Restricted Double ended queue
 
+## Priority Queue
 
+> In priority queue, the deletion in the queue doesn't happen to the first inserted element of the queue. It happens to the highest priority of the element.
+> Each element of queue has associated priority and while deletion, the element with highest priority gets deleted.
+> Delete element with maximum priority.
+> If two elements have same priority then first inserted element gets deleted.
+
+* Smallest no. highest priority
+* Largest no. highest priority
+
+### Priority queue implementation
+
+> Implement standard queue using priority queue.
+
+## Stack
+
+* LIFO -> Last in fast out.
+
+> It is a linear data structure in which insertion and deletion both are performed from the same end. The end where both operations are performed is called as the top of the stack.
+
+* Insertion -> PUSH()
+* Deletion -> POP()
+
+## Implementing stack using **array**
+
+* top -> Index which points to the last inserted element.
+
+### PUSH() algorithm
+
+```c
+    PUSH(stack[],top,n,item); //n->size of the stack.
+
+    if(top==n-1)
+    {
+        printf("Overflow, stack full");
+        return;
+    }
+    top++;
+    stack[top]=item;
+```
+
+* Runtime complexity -> Theta(1)
+* Space complexity -> Theta(1)
+
+### POP() algorithm
+
+```c
+    POP(stack[],top,n); //n->size of the stack.
+
+    if(top==-1)
+    {
+        printf("Underflow, stack empty");
+        return;
+    }
+    item=stack[top];  // To store the deleted element for later use.
+    top--; // Deletion
+```
+
+> We have just removed the access of the element from the stack. It is not a part of stack now.
+
+* Runtime complexity -> Theta(1)
+* Space complexity -> Theta(1)
+
+### Another implementation of stack (Bottom of stack)
+
+> Bottom index of stack is maintained. It is a constant value.
+
+```c
+    int bottom=-1;
+
+    POP(stack[],top,n); //n->size of the stack.
+
+    if(top==bottom)
+    {
+        printf("Underflow, stack empty");
+        return;
+    }
+
+```
+
+## Implementing stack using **linked list**
+
+* **PUSH()** -> Insertion from start. -> Runtime complexity -> **Theta(1)**
+* **POP()** -> Deletion from start. -> Runtime complexity -> **Theta(1)**
+
+* **PUSH()** -> Insertion from last. -> Runtime complexity -> **Theta(n)**
+* **POP()** -> Deletion from last. -> Runtime complexity -> **Theta(n)**
+
+> The list has two pointers *first* and *last*. *First* is pointing to the first node of the list and *last* is pointing to the last node of the list.
+
+* **PUSH()** -> Insertion from last. -> Runtime complexity -> **Theta(1)**
+* **POP()** -> Deletion from last. -> Runtime complexity -> **Theta(n)**
+
+## Stack permutation
+
+> The **differet ways** we can pop out elements from the stack.
 
 
 
