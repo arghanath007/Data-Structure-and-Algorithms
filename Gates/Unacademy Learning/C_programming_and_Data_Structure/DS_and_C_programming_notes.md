@@ -2040,6 +2040,11 @@ if n = 10, then position = 8(2^3)
 > Some additional functions which can be given with queue.
 > Default functions of queue are *Enqueue* and *Dequeue* only.
 
+## Usefull runtime complexities of queue
+
+![image](https://user-images.githubusercontent.com/54589605/213470677-4ca485bc-5c52-4934-94c0-919554e103c7.png)
+
+
 ## MultiDequeue
 
 > Many good questions have come in GATE PYQs. Check them out in revision. They are in *30_Queue_Types_of_Queue*.
