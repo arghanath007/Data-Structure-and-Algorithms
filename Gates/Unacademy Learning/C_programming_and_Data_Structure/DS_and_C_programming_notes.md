@@ -2222,6 +2222,8 @@ if n = 10, then position = 8(2^3)
     PUSH(s1,item);
 ```
 
+> In insertion, we are directly using PUSH(), to insert the element into s1 or first stack.
+
 #### Deletion or dequeue
 
 ```c
@@ -2238,13 +2240,12 @@ if n = 10, then position = 8(2^3)
     }
 ```
 
+> In deletion, first we are checking if s2 or second stack is empty or not. 
+> If it is empty then we are going to pop the remaining elements from s1 stack and push them in s2. Then we perform deletion but using POP() from s2.
+> If s2 is not empty then we directly use POP() to pop elements from s2.
+
 ![image](https://user-images.githubusercontent.com/54589605/213701851-ebb704ff-872b-4081-a6d6-cd14840a5301.png)
 ![image](https://user-images.githubusercontent.com/54589605/213701941-1a5a501e-3877-4437-bc2a-05dab7ef7d53.png)
-
-
-
-
-
 
 ## Multiple stacks in single array.
 
