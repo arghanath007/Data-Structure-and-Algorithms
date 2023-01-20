@@ -2368,6 +2368,10 @@ if n = 10, then position = 8(2^3)
 ## Implement more than 2 stacks in an array
 
 > If we want to do that then we have to given equal space to all of the stacks that we are creating in an array.
+> Space utilization will not happen properly. Space will be wasted if some of the stacks are not fully filled to the allocated size of the stacks.
+
+![image](https://user-images.githubusercontent.com/54589605/213721666-daa4c5b4-c0b5-48be-a919-2e20dcfbf99a.png)
+
 
 
 
