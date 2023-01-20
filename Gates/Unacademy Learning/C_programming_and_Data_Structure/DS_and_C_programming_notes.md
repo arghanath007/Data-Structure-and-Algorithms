@@ -2210,7 +2210,7 @@ if n = 10, then position = 8(2^3)
 * 2-> B [3Y+2X]
 * 3-> 16^16[n^2]
 
-## Implement queue using stack
+## Implementation of queue using stack
 
 ### Best Method
 
@@ -2237,6 +2237,9 @@ if n = 10, then position = 8(2^3)
         POP(s2);
     }
 ```
+
+![image](https://user-images.githubusercontent.com/54589605/213701851-ebb704ff-872b-4081-a6d6-cd14840a5301.png)
+![image](https://user-images.githubusercontent.com/54589605/213701941-1a5a501e-3877-4437-bc2a-05dab7ef7d53.png)
 
 
 
