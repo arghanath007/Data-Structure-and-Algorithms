@@ -2067,6 +2067,9 @@ if n = 10, then position = 8(2^3)
 * Input Restricted Double ended queue
 * Output Restricted Double ended queue
 
+![image](https://user-images.githubusercontent.com/54589605/213626074-65fde548-b31a-4e80-873f-5a19bdc25f3f.png)
+
+
 ## Priority Queue
 
 > In priority queue, the deletion in the queue doesn't happen to the first inserted element of the queue. It happens to the highest priority of the element.
