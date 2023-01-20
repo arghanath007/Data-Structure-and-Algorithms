@@ -888,6 +888,7 @@ int **p;
 * 5 -> Start from Header List.(17 Jan 2023).
 * 6 -> Solve the DPP question as revision. (18 Jan 2023).
 * 7 -> Start from Queue.(19 Jan 2023)
+* 8 -> Start from Double Ended Queue(20 Jan 2023)
 
 
 ## Weekly Revision
@@ -2075,6 +2076,8 @@ if n = 10, then position = 8(2^3)
 
 * Smallest no. highest priority
 * Largest no. highest priority
+
+
 
 ### Priority queue implementation
 
