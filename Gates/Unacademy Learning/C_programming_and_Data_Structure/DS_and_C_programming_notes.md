@@ -23,14 +23,18 @@
 ## Important Topics and Video to watch when doing revision
 
 * Pointer videos -> * https://unacademy.com/class/pointer/D788WQUL
+  
                     * https://unacademy.com/class/array/HG0OOZN2
                     * https://unacademy.com/class/array-with-pointers/56LKYSW6
                     * https://unacademy.com/class/structure-and-union/JA6PA1NQ
                     * https://unacademy.com/class/functions/660SO1X9
+
 * Doubt Clearing(Many DPPs and Quiz question discussed) -> https://unacademy.com/class/doubt-clearing-session/SJZIOSWP
-## Quiz and Practice Questions
- 
+  
+  ## Quiz and Practice Questions
+
 * 1 -> https://unacademy.com/quiz/quiz-i/11XTRM5Y37 
+
 * 1(Solutions) -> https://unacademy.com/quiz/quiz-i/11XTRM5Y37/solutions/SP_WR9PER0GSENLRBNM5
 
 ## Revision Every week or after every chapter is complete.
@@ -44,18 +48,20 @@
 * Revison on C Language. (Completed)
 
 ## C programming.
+
 ## Introduction(1)
 
 ### Alphabets
 
 ^ -> Cap Symbol
 & -> AND, ampersand
+
 * -> Asterisk
-{} -> Curly braces
-~ -> Tilde
-| -> Pipe
-\ -> Backward
-/ -> Forward
+  {} -> Curly braces
+  ~ -> Tilde
+  | -> Pipe
+  \ -> Backward
+  / -> Forward
 
 ## C Language Tokens and Statements(2)
 
@@ -65,9 +71,9 @@
 ### Operators
 
 * Operand: 2+3; '2' and '3' are operands. '+' is the operator and more precisely a binary operator.
+  
           * -6: '6' is operand. '-' is operator and more precisely a unary operator.
           * log x: 'x' is operand. 'log' is operator and more precisely a unary operator.
-
 
 ### Relational Operators
 
@@ -90,8 +96,7 @@
 * a >> b. 2 >> 3. 
 * *Formula* -> a >> b = (a/2^b) <- Floor Value(Integer part only). 
 * *Example* -> 14 >> 2 = 14/2^2 =14/4 = 3(ans)
-* 
-> One right shift is divide by 2(here), the division is done 'b' times.
+* > One right shift is divide by 2(here), the division is done 'b' times.
 
 ## Batch Statements and loops(3)
 
@@ -120,7 +125,6 @@ Hence **d=1** [Since integer value of True is 1.]
 
 > They are library functions which are pre-written. The functions which are written along with C language.
 
-
 ## DPP 1 (4)
 
 * 1 -> A (Compiler)
@@ -148,12 +152,10 @@ Hence **d=1** [Since integer value of True is 1.]
 
 > *main() function* -> library function. It is already given. It is to be written in every program. It is mandatory/necessary to be written in every program. Without main(), we cannot write a C-program which we want to execute because execution of a C-programs starts from the main() itself.
 
-
 * **%u** -> It is used for **unsigned** values.
 * **%x** -> It is used for getting values in **Hexa-decimal** format.
 
-
-## DPP 2 
+## DPP 2
 
 * 1 -> D (Got it wrong, I checked B initially)
 * 2 -> A
@@ -169,10 +171,7 @@ Hence **d=1** [Since integer value of True is 1.]
 * 12 -> B (GATE EXAM91) (Got it wrong, I checked E initially)
 * 13 -> C (20,9,0) (Got it wrong, I checked B initially)
 
-
 > '++' and '--' can only be used with variables. They cannot be used with constants as in 'Q9' from above.
-
-
 
 * *%lu* ->Unsigned int or unsigned long
 
@@ -182,7 +181,6 @@ Hence **d=1** [Since integer value of True is 1.]
 
 * *Break* -> It breaks the current loop.
 * *Continue* -> It skips/stops the current iteration of the loop and goes to the next iteration.
-
 
 ## DPP 2.1
 
@@ -208,6 +206,7 @@ Hence **d=1** [Since integer value of True is 1.]
 ## Pointers and Array (6) **Very  Important**
 
 * Links ->  * https://unacademy.com/class/pointer/D788WQUL
+  
             * https://unacademy.com/class/array/HG0OOZN2
             * https://unacademy.com/class/array-with-pointers/56LKYSW6
             * https://unacademy.com/class/structure-and-union/JA6PA1NQ
@@ -227,20 +226,30 @@ Hence **d=1** [Since integer value of True is 1.]
 * *Pointer* -> It is also a variable, but it doesn't store values like characters, floats, integers, double etc. It will only store addresses of others or other variables. It is a variable which is used to store address of other variables.
 
 * int *ptr;
+
 * int age=22;
+
 * ptr = &age;
+
 * printf("%d", ptr); -> *Address of the variable(age) ptr is pointing to.*
+
 * printf("%d", *ptr); -> **Value in the variable(age)**
+
 * printf("%d", &age); -> *Address of variable(age)*
+
 * printf("%d\n", &ptr); -> *Address of pointer ptr.*
+
 * *ptr=25;
+
 * printf("%d", age); -> Value of age is updated from 22 to 25 as '*ptr' is pointing to the value of age. 
 
 > '*' gives the value stored at the memory address.
 > '&' gives the address.
 
 * int n;
+
 * int* ptr;
+
 * ptr =n; 
     -> *Invalid* as 'ptr' is a pointer(stores memory address) and 'n' is a integer. Type mismatch error.
 
@@ -253,8 +262,6 @@ Hence **d=1** [Since integer value of True is 1.]
 * *ptr =n;
     -> *Valid* as '*ptr' and 'n' are both numbers. They represent the value stored in the memory location.
 
-
-
 #### Example
 
 int a=5, b=2; # Normal variable
@@ -266,6 +273,7 @@ int *q= &b; # Initialization and declaration in the same line.
 > p is a pointer which points to a.
 
 * char *cp; ->  It is a pointer which will store address of a character type only.
+
 * float *fp; ->  It is a pointer which will store address of a float type only.
 
 * int *ip; ->  It is a pointer which will store address of a integer type only.
@@ -283,7 +291,6 @@ int *q= &b; # Initialization and declaration in the same line.
 * Size of Integer is same as the size of the pointer?
 
 > Because pointer stores the address and address is in integer format.
-
 
 * *Multiplication* and *Division* is not possible in pointers.
 
@@ -325,6 +332,7 @@ int **p;
 * printf("%d", A); -> gives base address of the array
 
 * int A[5];
+
 * A++; 
 
 > The 2nd line(A++) will give us an error when we try to run it because 'A' is the name of the array which means it is a constant pointer and it stores the base address of the array. Hence we cannot change/modify it.
@@ -345,6 +353,7 @@ int **p;
 > These two *&A[0]* and *A* both give the same thing, which is the base address of array A.
 
 * int A[5];
+
 * printf("%u",A); -> 500 which is the base address of array 'A'.
 
 * printf("%u",&A); -> gives address of the constant pointer 'A' which is different from the base address of array 'A'.
@@ -369,14 +378,16 @@ int **p;
 > *'&A+1' means that we are incrementing the address by the size of the entire array*. As '&A' gets initialized first due to precedence and gives '800' as the address of the constant pointer, plus the size of the entire array. We have '5' elements in the array and each element is '2bytes' as they are integer type. Hence size of array is 2*5=10bytes. 
 
 * '&A+1' -> 800 + 1* 2 *5 =800 +10=810.
+
 * '&A+2' -> 800 + 2* 2 *5 =800 +20=820.
+
 * '&A+3' -> 800 + 3* 2 *5 =800 +30=830.
 
 * int a[5] = {1,2,3,4,5};
+
 * printf("%d", *a + 3); -> 1 + 3 -> 4
 
 > '*a' gives you the 0th element of the array. It gets executed first as it has higher precedence.
-
 
 ### Difference between regular array and 'int (*p)[5];':
 
@@ -396,7 +407,6 @@ int **p;
     // p++;
     // printf("%d\n", *p[0]);
 ```
-
 
 > 'int (*p)[5];' is a pointer to an array.
 
@@ -426,29 +436,41 @@ int **p;
 ### Find the address of any element A[i][j].
 
 * Initial Array -> A[4][5]
+
 * Base Address -> 500
+
 * Size of each element -> 2(Integer values)
+
 * A[2][4] = Base address + size of each element * (i * (no. of columns) + j)
+  
           = 500 + 2 * (2*5 +4)
           = 500 + 2*14
           = 528
 
-
 * int A[4][5];
+
 * printf("%u", A) -> base address
+
 * printf("%u", &A[0][0]) -> base address
 
 'A+1', 'A+2', 'A+3'
+
 > If we write 'A+0', then we are trying to access the name of the first(0th row) row of the 2D array. 'A+1', 'A+2', 'A+3' so no are trying to access the name of second, third, forth row of the 2D array respectively.
 
 * 'A+0' -> trying to access the name of the *first(0th row)* row of the 2D array
+
 * 'A+1' -> trying to access the name of the *second(1st row)* row of the 2D array
+
 * 'A+2' -> trying to access the name of the *third(2nd row)* row of the 2D array
+
 * 'A+3' -> trying to access the name of the *fourth(3rd row)* row of the 2D array
+
 * 'A+i' -> trying to access the name of the *ith* row of the 2D array
 
 * int A[4][5];
+
 * printf("%d", &A[0]);
+
 * printf("%d", A+0);
 
 > 'A[0]' and 'A+0' gives us the same output which is the name of the 0th row of 2D array 'A'.
@@ -497,7 +519,6 @@ int **p;
 > After we have declared the 'structure', then there will not be any memory allocation/declaration for the structure. It is for creating a prototype and anyone who want to use *struct books* can use it. It has a collection of three things which are *int id*, *float price* and *int quantity*. It is just a prototype that I have created and yet to use it. Hence memory will not be allocated for it as well.
 > Memory will be allocated when we will use it to create variable of these type(struct type).
 
-
 * Declaring a *structure* or 'struct' type -> Making a prototype which is user defined datatype. No memory is allocated to it.
 * To use it we need to create variables of these structure type.
 
@@ -544,7 +565,6 @@ int **p;
 ### Syntax
 
 ```c
-
     union test
     {
         char x;
@@ -556,7 +576,6 @@ int **p;
 > The size of the *union test* will be *4bytes* as the highest size of datatype is float which is 4bytes. Hence the size of the union is 4 bytes.
 > We cannot store all of the values uniquely at a given time. We can assign one value and use it simultaneously. When we can replaced/changed the previous value with a new value then the previous value is not accessible anymore.
 
-
 ## Union and Structure difference
 
 > In union, we are not getting separate space for each value. The largest size data type in the union is used as the size of the union. That size is used **repeatedly and overlapping and overwritten** to store the values of the union. Previous values are replaced/removed when newer values are entered and the previous values are not accessible anymore. All of the values are not uniquely and simultaneously present at the same time.
@@ -565,14 +584,18 @@ int **p;
 ## DPP 4.
 
 * 1 -> 20 3050 60
+
 * 2 -> 
+
 * 3 -> 632
+
 * 4 -> 60,40
+
 * 5 -> C (*(A+i)) (Got it wrong, I checked A initially, A+ i gives the address of the element. ( *(A+i) gives the value of the element.)
 
 * 6 -> D (*(*(A+i) +j))
-* 7 -> A,B,C (Got it wrong, I checked D initially thinking it asked for invalid declarations. D -> (int A[2][]={{1,2,3}, {4,5,6}};))
 
+* 7 -> A,B,C (Got it wrong, I checked D initially thinking it asked for invalid declarations. D -> (int A[2][]={{1,2,3}, {4,5,6}};))
 
 > In multi dimensional array, we have to mention the boundation except the first one. We can leave the first dimension and it will be filled by the system itself. We have to mention the rest of them and it is mandatory otherwise we will get an error.
 
@@ -599,7 +622,7 @@ int **p;
 ## Global and Local variable
 
 * **Global** -> Declared outside the functions. Visible/accessible from anywhere or from any function. They are created in memory just at the start of the program and they are removed/deleted after the complete execution of the program. This is the lifetime of a global variable. Their lifetime is during the program running/execution or throughtout the program. 
-  
+
 * **Local** -> Declared within a function. Visible/accessible from within the function itself only. When the function is called and the execution of the program is started then the local variables are created in memory and when the execution of the function is complete then the local variables are  removed/deleted from the memory.
 
 > Parameters of a function are local variables as well.
@@ -613,10 +636,9 @@ int **p;
 ![image](https://user-images.githubusercontent.com/54589605/212530339-2a2f90ff-d9ac-4d64-974e-c78bc4e60085.png)
 ![image](https://user-images.githubusercontent.com/54589605/212530371-15c26203-036e-4ad9-8c19-6681ffacdd7e.png)
 
-
 * Pointer -> It is a powerful tool yes but it is a destructive tool which can access memory. Hence it was removed partially from recent programming languages like JS, Python, Java.
 
-## DPP 5 
+## DPP 5
 
 * 1 -> 96
 * 2 -> error [Cannot write function inside the main()]
@@ -633,7 +655,9 @@ int **p;
 ## 12_Doubt_Solving_Session PDF questions
 
 * 1 -> 321
+
 * 2 -> 1213121
+
 * 3 -> Error ("abc" is a string or more than one character. 'char *s' is a pointer of type character)
 
 * 4 -> 7
@@ -683,9 +707,10 @@ int **p;
 * Two functions for Dynamic Memory Allocation:-
 
 * **malloc()** -> memory allocation during runtime. For one element.
+  
             * Example -> malloc(size of memory in bytes)
-* **calloc()** -> It can allocate memory for more than one element.
 
+* **calloc()** -> It can allocate memory for more than one element.
 
 ### Malloc (malloc())
 
@@ -695,8 +720,8 @@ int **p;
 #### Example
 
 * int x= (int)malloc(sizeof(int));
-* int *p = (int *)malloc(sizeof(int)); [Use for GATE]
 
+* int *p = (int *)malloc(sizeof(int)); [Use for GATE]
 
 * **Page 7** of *15_Constant_Macro* PDF is an important.
 
@@ -761,12 +786,10 @@ int **p;
 
 > All of the variables(global, static variables) that are present in the data section, they are initialized with zero(0).
 
-
 ### static variables
 
 > They can be local as well as global variables. Wheather a static is global or local it is created at the starting of the program execution. Both of their lifetime is throught the program execution. Scope depends if it is a global or a local variable. If global variable then the scope is global as well. If local variable then the scope is local as well.
 > static variable is created for the first and the only time at the start of the program execution. 
-
 
 ```c
     static int x; -> // Global static variable
@@ -779,8 +802,6 @@ int **p;
 ### extern variable
 
 > It is similar to global variable but there is some differences. Lifetime is throughout the program. Scope is throughout the program(global) as well. It is initialized with zero(0) as well. It is located in the data section.
->
-
 
 ### Difference between static and global variable.
 
@@ -839,47 +860,15 @@ int **p;
 > All of the statements that are starting with '#' are called as preprocessor directive. 
 > All of these statements(starting with '#') are run before the compilation of the program starts.
 
-
 ## Quiz questions (1)
 
 * int j =(x++, --y);
 
 > No matter what is the value of 'x' and 'y' is, we will always take the 2nd or the last value i.e the value of 'y' here and store it in 'j' variable.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Data Structure with C
 
-### Daily Revision 
+### Daily Revision
 
 * 1 -> Done still insertion in array (14 Jan 2023)
 * 2 -> Start from insertion in array (15 Jan 2023)
@@ -889,7 +878,6 @@ int **p;
 * 6 -> Solve the DPP question as revision. (18 Jan 2023).
 * 7 -> Start from Queue.(19 Jan 2023)
 * 8 -> Start from Double Ended Queue(20 Jan 2023)
-
 
 ## Weekly Revision
 
@@ -906,7 +894,6 @@ int **p;
 * Linear -> Elements arranged in linear order. Eg -> Array, linked list, queue, stack
 * Non-Linear -> Elements are arranged in non-linear fashion. Ed -> Graph, Heap, hashing, tree
 
-
 ### Analysis of Algorithms
 
 > To find out among all of the potential solution to a particular program which one is better, best or worst among each other.
@@ -915,7 +902,7 @@ int **p;
 
 * **Space Complexity** -> Space(memory) needed by the program to run. The memory is calculated by the extra space taken by the algorithm to run itself. 
 
->So memory or space of an algorithm is calculated excluding/without including the *input and output* of the program.
+> So memory or space of an algorithm is calculated excluding/without including the *input and output* of the program.
 
 > In space complexity, we are not calculating the *bytes* of the program but rather the number of elements that we have stored in the program **separately not including the input and output variables/values**. The no. of elements stored separetely is called as the space complexity of a program.
 
@@ -924,7 +911,8 @@ int **p;
 ## How to calculate time? (18)
 
 * On Wall Clock -> Implement the program/algorithm in any langauge and after implementation run it on CPU/system. Now calculate/measure the milliseconds/nanoseconds for which the program is running. 
-> It is highly dependent on so many external factors. So no stability or no any consistency in results.
+  
+  > It is highly dependent on so many external factors. So no stability or no any consistency in results.
 
 * Based on no. of operations or steps performed (Dry run) -> Manually run the program on paper. Calculate the total no. of steps and count it. Then the result will be consistent. It is based on the mathematical analysis of **rate of growth**.
 
@@ -932,8 +920,8 @@ int **p;
 
 * Time complexity is independent of the input and it is constant only. Then it is called as constant runtime complexity. It is represented by '1' and not the no. of steps of the algorithm.
 
-
 * i=0, i<n
+
 * i=1, i<=n
 
 > They are the same thing.
@@ -975,12 +963,17 @@ int **p;
 ## Array in DS
 
 * int a[5];
+
 * Lower Bound(LB) -> Starting index -> 0
+
 * Upper Bound(UB) -> Last index -> 4 -> (size -1)
 
 * name[LB:UB]
+
 * A[0:4]
+
 * B[2:6]
+
 * C[-4:3]
 
 * Find the size of the array
@@ -996,28 +989,32 @@ int **p;
 ### Location of an element
 
 * Location of an element Loc of A[i] = Base address + size of an element in memory * relative index
+  
                                      = Base + w * (i-LB).
-
 
 #### Question
 
 * A[-4:200]
+
 * Base address -> 2500
+
 * W -> 4 locations
 
 * Location of A[17] = 2500 + 4*(17-(-4))
+  
                     = 2500 + 4*21
                     = 2500 + 84
                     = 2584 (Ans)
 
-
 * A[-6:13]
+
 * W -> 8 locations
+
 * 1 location = 1Byte
 
 * Total no. of elements in array = UB-LB+1 = 13 -(-6)+1 = **20** elements(Ans)
-* Size of memory required to store completed array(In Bytes) = 20 * 8 = **160 Bytes**(Ans)
 
+* Size of memory required to store completed array(In Bytes) = 20 * 8 = **160 Bytes**(Ans)
 
 ### Why indexing in array in C language starts from 0?
 
@@ -1025,9 +1022,11 @@ int **p;
 > Then the formula will be like below.
 
 * Location of an element Loc of A[i] = Base address + size of an element in memory * i
+  
                                      = Base + w * i.
-                        
+
 **Important**
+
 > When CPU tries to access an array element, it has to first find the address of the element. To find the address he has to use the non-optimised or earlier formula(i-LB) one. If we keep LB=0, then the formula will be reduced to the above one(Base + w * i). In that case, CPU is saving one substraction every time it tries to access an element which in turns increases the performance of the CPU. Everytime we want to improve the performance of the CPU, hence the programming languages have adopted to keeping the starting index of an array to zero(0) for improving the performance.
 
 ## Quiz Questions (2) (20)
@@ -1054,19 +1053,19 @@ int **p;
 ![image](https://user-images.githubusercontent.com/54589605/212530339-2a2f90ff-d9ac-4d64-974e-c78bc4e60085.png)
 ![image](https://user-images.githubusercontent.com/54589605/212530371-15c26203-036e-4ad9-8c19-6681ffacdd7e.png)
 
-
-## Insertion in Array 
+## Insertion in Array
 
 * Always at the end
+
 * Based on index
 
 * Complexity of insertion always at the end
 
 * Rumtime -> Theta(1)
+
 * Space -> Theta(1)
 
-
-### Insertion based on index 
+### Insertion based on index
 
 #### Conditions
 
@@ -1102,6 +1101,7 @@ int **p;
 * Complexity of insertion based on index
 
 * Rumtime -> O(n)
+
 * Space -> Theta(1)
 
 ## Deletion in Array
@@ -1124,6 +1124,7 @@ int **p;
 * Complexity of deletion always last element
 
 * Rumtime -> Theta(1)
+
 * Space -> Theta(1)
 
 ### Based on index
@@ -1133,14 +1134,14 @@ int **p;
 * Complexity of deletion based on index
 
 * Rumtime -> O(n)
+
 * Space -> Theta(1)
 
 ## Summary of complexities of insertion and deletion in Array
 
 ![image](https://user-images.githubusercontent.com/54589605/212548206-5b052a7b-4386-44ba-9705-3232cb010052.png)
 
-
-## Insertion, Deletion questions 
+## Insertion, Deletion questions
 
 * Insertion always at the start(LB) -> **Theta(n)**. Since we have to right shift all of the 'n' elements by 1 index.
 * Deletion always at the start(LB) -> **Theta(n)**. Since we have to left shift all of the 'n' elements by 1 index.
@@ -1161,6 +1162,7 @@ int **p;
 > As we need space to perform tournament method, hence it is not used that often because of the space limitation.
 
 * Space Complexity -> Theta(n) or linear complexity. [Since we exactly need an array of size n/2 or (n+1)/2]
+
 * Time complexity -> Theta(n).
 
 * *Formula for finding comparisons required* -> n -1
@@ -1189,7 +1191,6 @@ int **p;
 * 2 -> B [Theta(logn)] [Got it wrong, thought (O(n)) and the options were wrong as well]
 * 3 -> B [Theta(logn)] [Got it wrong, thought (O(n)) and the options were wrong as well]
 
-
 ## DPP 1 (20_Doubt_Solving_Session)
 
 * 1 -> [Had to write an algorithm]. 
@@ -1210,7 +1211,6 @@ if n = 10, then position = 8(2^3)
     return y;
 ```
 
-
 ### DPP 2 (21_Finding_Min_Max_in_Array)
 
 * 1 -> 4000 [100*40] [Faulty question]
@@ -1228,15 +1228,15 @@ if n = 10, then position = 8(2^3)
 * Linear search
 * Binary search 
 
-
 > In linear search, if an array has **duplicate elements**, then it will only return the **first** index/address/location of the element in the array.
 
 * Runtime Complexities
 
 * Best case -> Theta(1)
-* Worst case -> Theta(n)
-* Average case -> O(n)
 
+* Worst case -> Theta(n)
+
+* Average case -> O(n)
 
 ### Find all index of an element using linear search
 
@@ -1277,7 +1277,9 @@ if n = 10, then position = 8(2^3)
 * Runtime complexity 
 
 * Average case -> Theta(n)
+
 * Best case -> Theta(n)
+
 * worst case -> Theta(n)
 
 > In linear search, whatever the formating of elements are in the array like duplicate, unique, any order/sort of elements, it will work fine.
@@ -1288,7 +1290,6 @@ if n = 10, then position = 8(2^3)
 > Binary search works only on sorted array.
 
 * while(LB >= UB) -> Element not found condition.
-
 
 ### Conditions
 
@@ -1327,7 +1328,6 @@ if n = 10, then position = 8(2^3)
         }
         return LB-1;
     }
-
 ```
 
 * Runtime complexity -> O(logn)
@@ -1337,11 +1337,12 @@ if n = 10, then position = 8(2^3)
 > As it is a sorted array, we can use *Binary Search* here. The runtime complexity of binary search is *logn*. 
 
 * Find first appearance -> log n
+
 * Find last appearance -> log n 
 
 * Total comparisons -> logn + logn -> 2logn -> O(logn)
-* Frequency = First appearance index - last appearance index.
 
+* Frequency = First appearance index - last appearance index.
 
 ## 22_Searching_in_Array Questions
 
@@ -1364,7 +1365,7 @@ if n = 10, then position = 8(2^3)
 
 > To solve the disadvantages of array, we came up with linked list.
 
-## Linked List 
+## Linked List
 
 * **linear or sequential order maintained using pointers/links**.
 * Linked list contains a node. Node has **two** parts.
@@ -1388,7 +1389,6 @@ if n = 10, then position = 8(2^3)
 
 > Practice the linked list question in 23_Linked_list_basics PDF, Page 12 onwards.
 
-
 ## Question in 23_Linked_list_basics PDF
 
 * 1 -> e [Either null pointer dereferencing error or data of 2nd last node get printed]
@@ -1405,16 +1405,14 @@ if n = 10, then position = 8(2^3)
 
 ![image](https://user-images.githubusercontent.com/54589605/212616164-dda68630-d5fb-4c8d-92c6-c753825778af.png)
 
-
 ## DPP 3 (23_Linked_list_basics)
 
 > These questions are in the next DPP as well, which is DPP 4 in *25_Linked_list_implementation* PDF file. Some extra questions are present as well. Check that out. I will complete all of them there.
 
-
-
 ## Doubt and questions (24)
 
 > All of the previous DPP questions are solved. Check the above DPPs for solutions and questions.
+
 ## Null Pointer Dereferencing (25)
 
 * NULL ->data
@@ -1454,8 +1452,8 @@ if n = 10, then position = 8(2^3)
 > We can insert a node at any postion, beginning, end or at any given position of the linked list.
 
 * Whenever a new node to be inserted:
-    1) First create a new node dynamically using malloc()
-    2) Insert the newly created node
+  1) First create a new node dynamically using malloc()
+  2) Insert the newly created node
 
 ### Creating a new node
 
@@ -1479,18 +1477,24 @@ if n = 10, then position = 8(2^3)
 * **At end when last node is given** -> Runtime complexity =  *Theta(1)*
 * **Before a given node** -> Runtime complexity =  *O(n)*
 
-
-## DPP 4 (25_Linked_list_implementation) 
+## DPP 4 (25_Linked_list_implementation)
 
 > Solved in *28_Doubt_Clearing_session* PDF file.
 
 * 1 ->  [Circular list not yet done]
+
 * 2 -> 10 [count of the remaining nodes in the list. It is removing the duplicate elements from the list.]
+
 * 3 -> D [Error or returns 1]
+
 * 4 -> [Cross or axe] [Solved in the PDF file above]
+
 * 5 -> [Cross or axe] [Solved in the PDF file above]
+
 * 6 -> f
+
 * 7 -> a [Got it wrong, thought 'e' was the answer]
+
 * 8 -> error [NPD is the error]
 
 * Answer of Question **4** from above:
@@ -1514,14 +1518,14 @@ if n = 10, then position = 8(2^3)
 
 * Runtime complexity ->*O(n)*
 
-## Deletion in linked list (26) 
+## Deletion in linked list (26)
 
 * **Beginning** -> Runtime complexity = *Theta(1)*
 * **of a given node** -> Runtime complexity = *O(n)*
 * **at the end** -> Runtime complexity = *Theta(n)*
 * **at the end when address of last node is given** -> Runtime complexity = *Theta(n)*
 
-### Deletion at beginning 
+### Deletion at beginning
 
 ```c
     struct node* p=strat;
@@ -1571,7 +1575,6 @@ if n = 10, then position = 8(2^3)
 
 * Runtime complexity -> Theta(n)
 
-
 ### Deletion at the end when last node address is given
 
 ```c
@@ -1601,11 +1604,9 @@ if n = 10, then position = 8(2^3)
 > Binary search in linked list is not possible in *logn* runtime complexity. As we have to linearly traverse the list to go to the mid element of list. Hence to find mid element we have to do *n/2* comparisons every time, which is *O(n)* runtime complexity. As it is not possible to reach the mid element in *constant or O(1)* runtime. To reach mid element, we need linear or *O(n)* time complexity.
 > Binary search in linked list can not be as efficient as it is on array because in linked list, reaching to mid node is not possible in constant time.
 
-
 * If someone asks can we implement binary search in linked list?
 
 > Yes we can implement binary search in linked list. But the runtime complexity will not be in *O(logn)* but will be in *O(n)*.
-
 
 ## Sets
 
@@ -1615,7 +1616,6 @@ if n = 10, then position = 8(2^3)
 * Cardinality -> To find the no. of elements in a given set.
 
 > Good PYQ question from gate 2004, revise it a very important question about linked lists and sets in *26_Types_of_linked_list* PDF file. 
-
 
 ## Reverse a linked list
 
@@ -1641,7 +1641,6 @@ if n = 10, then position = 8(2^3)
 1) The link part of last node is not utilized
 2) The address of predecessor/previous node is not know
 3) Stepping backward is not possible
-
 * 1 is solved by circular linked list.
 * 2 and 3 is solved by doubly linked list.
 
@@ -1658,7 +1657,6 @@ if n = 10, then position = 8(2^3)
 
 * Runtime complexity -> Theta(n)
 
-
 ## Header List (27)  (17/01/2023)
 
 > It contains some summary information. It is a special first node called as header node.
@@ -1668,22 +1666,18 @@ if n = 10, then position = 8(2^3)
 * Whenever an insertion happens then, (list->data)++;
 * Whenever an deletion happens then, (list->data)--;
 
-
 ### Condition when header list is empty
-
 
 ### Types of header list
 
 * Grounded list -> Last node has link as NULL.
 * Circular list -> The last node's link is pointing to the starting or first node i.e the header node of the linked list.
 
-
 ## Traversal in header list.
 
 ### In grounded
 
 * Runtime complexity -> Theta(n)
-
 
 ### In Circular
 
@@ -1695,7 +1689,6 @@ if n = 10, then position = 8(2^3)
 > In some doubly linked lists, we maintain a pointer on the last node of the list for stepping backwards in the list.
 
 * There could be two varients of doubly linked list
-
 1) Only one pointer pointing to the first node of the list.
 2) Two pointers, one pointing to the first node of the list and the other one pointing to the last node of the list.
 
@@ -1722,7 +1715,6 @@ if n = 10, then position = 8(2^3)
 ### Before a given node.
 
 ```c
-
     n->prev=loc->prev;
     n->next=loc;
     loc->prev->next=n;
@@ -1825,7 +1817,6 @@ if n = 10, then position = 8(2^3)
 
 > Question 6 from *27_Types_of_linked_list_part_II* PDF file.
 
-
 ### Questions from *27_Types_of_linked_list_part_II* PDF file.
 
 > Solved in *28_Doubt_Clearing_session* PDF file.
@@ -1846,8 +1837,7 @@ if n = 10, then position = 8(2^3)
 
 ### Reverse doubly Circular linked list
 
-
-## Linked list PYQS 
+## Linked list PYQS
 
 > Question in *28_Doubt_Clearing_session* PDF file. At the end of the file. Solve them.
 
@@ -1871,10 +1861,6 @@ if n = 10, then position = 8(2^3)
 * 18-> C [Theta(n^2)]
 * 19-> C [error]
 
-
-
-
-
 ### Algorithm for question 2
 
 ```c
@@ -1897,7 +1883,7 @@ if n = 10, then position = 8(2^3)
     p->next=n;
 ```
 
->'n' is the address of the new node to be inserted. 'p' is the pointer from the question.
+> 'n' is the address of the new node to be inserted. 'p' is the pointer from the question.
 
 * Runtime complexity -> Theta(1)
 
@@ -1913,12 +1899,9 @@ if n = 10, then position = 8(2^3)
 ## Implementation of queue using **array**
 
 * Two implementation of queue in array:
-
 1) **Linear queue** -> Insertion can be done on next index of 'Rear' linearly. Insertion can be done only after the index of 'Rear'. It cannot utilize the first/previous empty spaces in the array. Not better space utilization in linear queue. 
 2) **Circular queue** -> If array is full then the insertion is circularly taken to the starting of the array. Full utilization of the space happens here. No space is left empty.
-
 * We need 2 index variables
-
 1) **Front** -> Which stores index of front element of queue. The first element which was inserted into the queue, that element's index is stored there.
 2) **Rear** -> Which stores index of rear element of queue. The last element which was inserted into the queue, that element's index is stored there.
 
@@ -1982,7 +1965,6 @@ if n = 10, then position = 8(2^3)
 * Runtime complexity -> **Theta(1) or constant**
 * Space complexity -> **Theta(1) or constant**
 
-
 ## Algorithm for deletion or dequeue in **circular queue**
 
 ```c
@@ -2031,7 +2013,6 @@ if n = 10, then position = 8(2^3)
 * **Enqueue** -> Insertion at the end -> **Theta(1)**
 * **Dequeue** -> Deletion from the front -> **Theta(1)**
 
-
 ## Other Functions on queue (30) (19 Jan 2023)
 
 * QueueFront()
@@ -2045,7 +2026,6 @@ if n = 10, then position = 8(2^3)
 
 ![image](https://user-images.githubusercontent.com/54589605/213470677-4ca485bc-5c52-4934-94c0-919554e103c7.png)
 
-
 ## MultiDequeue
 
 > Many good questions have come in GATE PYQs. Check them out in revision. They are in *30_Queue_Types_of_Queue*.
@@ -2056,7 +2036,7 @@ if n = 10, then position = 8(2^3)
 ![image](https://user-images.githubusercontent.com/54589605/213432751-36429b9e-e331-4ab3-9a64-a330eee8c6dd.png)
 ![queue_question](https://user-images.githubusercontent.com/54589605/213433125-a8803c90-108e-415c-994b-8d0834ddf0de.png)
 
-> The **reversing** that is happening in image 2. It is happening in queue2 or Q2, *where the elements are first being deleted or dequeued and then immediately inserted or enqueued into Q2*. Which is mentioned in image 3, **underlined with color**. This is how it is happening.
+> The **reversing** that is happening in image 2. It is happening in queue2 or Q2, *where the elements are first being deleted or de-queued and then immediately inserted or enqueued into Q2*. Which is mentioned in image 3, **underlined with color**. This is how it is happening.
 
 ## Double Ended Queue (31)
 
@@ -2069,7 +2049,6 @@ if n = 10, then position = 8(2^3)
 
 ![image](https://user-images.githubusercontent.com/54589605/213626074-65fde548-b31a-4e80-873f-5a19bdc25f3f.png)
 
-
 ## Priority Queue
 
 > In priority queue, the deletion in the queue doesn't happen to the first inserted element of the queue. It happens to the highest priority of the element.
@@ -2079,8 +2058,6 @@ if n = 10, then position = 8(2^3)
 
 * Smallest no. highest priority
 * Largest no. highest priority
-
-
 
 ### Priority queue implementation
 
@@ -2151,7 +2128,6 @@ if n = 10, then position = 8(2^3)
         printf("Underflow, stack empty");
         return;
     }
-
 ```
 
 ### Overflow
@@ -2163,27 +2139,33 @@ if n = 10, then position = 8(2^3)
         printf("Overflow, stack full");
         return;
     }
-
 ```
 
 ## Implementing stack using **linked list**
 
 > When there is only **one pointer** in the list, which is 'top' and it is pointing to the first inserted element in the list or the starting node of the list.
 
-* **PUSH()** -> Insertion from start. -> Runtime complexity -> **Theta(1)**
-* **POP()** -> Deletion from start. -> Runtime complexity -> **Theta(1)**
+* **PUSH()** -> Insertion from start. -> Run time complexity -> **Theta(1)**
 
-* **PUSH()** -> Insertion from last. -> Runtime complexity -> **Theta(n)**
-* **POP()** -> Deletion from last. -> Runtime complexity -> **Theta(n)**
+* **POP()** -> Deletion from start. -> Run time complexity -> **Theta(1)**
+
+* **PUSH()** -> Insertion from last. -> Run time complexity -> **Theta(n)**
+
+* **POP()** -> Deletion from last. -> Run time complexity -> **Theta(n)**
 
 > The list has **two pointers** *first* and *last*. *First* is pointing to the first node of the list and *last* is pointing to the last node of the list.
 
-* **PUSH()** -> Insertion from last. -> Runtime complexity -> **Theta(1)**
-* **POP()** -> Deletion from last. -> Runtime complexity -> **Theta(n)**
+* **PUSH()** -> Insertion from last. -> Run time complexity -> **Theta(1)**
+* **POP()** -> Deletion from last. -> Run time complexity -> **Theta(n)**
+
+### Operations on stack
+
+* stacktop(stack) -> Reads and returns top element of stack.
+* IsEmpty(stack) -> Return **True** if stack is empty. Otherwise returns **false**.
 
 ## Stack permutation
 
-> The **differet ways or different orders** in which we can *pop out elements* from the stack.
+> The **different ways or different orders** in which we can *pop out elements* from the stack.
 
 ### Example
 
@@ -2193,20 +2175,88 @@ if n = 10, then position = 8(2^3)
 
 ![image](https://user-images.githubusercontent.com/54589605/213628476-4df34444-24ce-442a-9dd3-23dcd96b6126.png)
 
+## DPP 5 (*31_Basics_of_stack*)  [20 Jan 2023]
+
+### Questions before DPP
+
+* 1-> D [strictly decreasing order]
+
+### DPPs 
+
+> Solved in *32_Doubt_Clearing_Session*.
+
+* 1-> A [ii,iii]
+* 2-> A & C [1,2,4,5,3    3,5,4,2,1]
+* 3-> C [3 & 1 instructions]   [Discuss in a later class]
+* 4-> Valid = 132, invalid=588
+
+
+## Questions in *32_Doubt_Clearing_Session*
+
+> Solved in *33_Stack_permutation_and_Advanced_Topics*.
+
+* 1-> B [Two]
+* 2-> A[n+m<=x<2n and 2m<=y<=n+m]
+* 3-> D [top1=top2-1]
+* 4-> * 1. if(top==n-1)
+      * 2. if(top==bottom)
+
+
+## DPP 6 (*32_Doubt_Clearing_Session*)
+
+> Solved in *33_Stack_permutation_and_Advanced_Topics*.
+
+* 1-> 
+* 2-> B [3Y+2X]
+* 3-> 16^16[n^2]
+
+## Implement queue using stack
+
+### Best Method
+
+#### Insertion or enqueue
+
+```c
+    Insertion(Q,item);
+
+    PUSH(s1,item);
+```
+
+#### Deletion or dequeue
+
+```c
+    Deletion(Q);
+
+    if(!IsEmpty(s2))  // s2 is not empty
+    {
+        POP(s2);   // Pop the top element from s2.
+    }
+    else
+    {
+        PUSH(s2,s1);  // Pop the elements from s1 and then push them into s2.
+        POP(s2);
+    }
+```
 
 
 
 
 
 
+## Multiple stacks in single array.
+
+### Method 1
+
+### Method 2
+
+### Underflow
+
+* if(top1==-1 && top2==n)
 
 
 
 
-
-
-
-
+top1+top2=maxsize -> Even though stack is not full, it will give *True* to the stack full condition.
 
 
 
@@ -2282,9 +2332,7 @@ a=1 1
 b=511 255
 z=1 1
 
-
 256 511/2 =255
-
 
 n=5
 j=1 2 4 6
@@ -2322,7 +2370,6 @@ a=20 21 22 23
 
 23(Ans)
 
-
 x=3
 
 Head(3) -> Head(2)[2] -> Head(1)[1] -> Head(0)[0]
@@ -2335,7 +2382,6 @@ X(3) -> X(2) + X(0) + 1 = 1+1+1= 3
 X(2) -> 1
 X(1) -> 1
 X(0) -> 1 
-
 
 fun(4)[4] -> fun(3)[3] -> fun(2)[2] -> fun(1)[1] -> fun(0)[]
 
@@ -2357,7 +2403,6 @@ fun(fun(5))
 
 fun(6) -> fun(5) + fun(3) + 1 = 7+3+1=11
 fun(7) -> fun(6) + fun(4) + 1 = 11+5+1=*17*(Ans)
-
 
 f(5)
 
@@ -2387,7 +2432,6 @@ y= --*p; -> 9 [x=9, *p=9, p=1100]
 y= (*p)--; -> 10 [x=9, *p=9]
 y= --(*p); -> 9 [x=9, *p=9]
 
-
 A= {1,2,2,3,3,4,4,4,4,4,6,7,8,9,9}
 k=6
 
@@ -2400,7 +2444,6 @@ C= {3,4,2,1,5}
 A[-6:15]
 base address -> 1000
 W -> 4
-
 
 A[2] -> 1000 + 4*(2 -(-6)) -> 1000 + 32 -> 1032
 
@@ -2434,7 +2477,6 @@ n + logn -2
 64+4
 68
 
-
 a -> b -> c -> d -> e -> f
 a -> b -> c -> d -> C -> f
 start -> a
@@ -2453,8 +2495,6 @@ a ->f ->a b ->c ->d ->e ->f
 p -> d
 **f**(Ans)
 
-
-
 a -> b -> c -> d -> e -> f
 
 start -> a
@@ -2468,4 +2508,3 @@ p -> link -> link = c d e f
 head -> 3
 p = 5 7
 current -> 3 5
-
