@@ -2185,6 +2185,14 @@ if n = 10, then position = 8(2^3)
 
 > The **differet ways or different orders** in which we can *pop out elements* from the stack.
 
+### Example
+
+![image](https://user-images.githubusercontent.com/54589605/213628402-af0b9420-eed8-43d0-835f-f5255bae2d76.png)
+
+### Formula
+
+![image](https://user-images.githubusercontent.com/54589605/213628476-4df34444-24ce-442a-9dd3-23dcd96b6126.png)
+
 
 
 
