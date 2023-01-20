@@ -2139,6 +2139,8 @@ if n = 10, then position = 8(2^3)
 
 > Bottom index of stack is maintained. It is a constant value.
 
+#### Underflow
+
 ```c
     int bottom=-1;
 
@@ -2152,7 +2154,21 @@ if n = 10, then position = 8(2^3)
 
 ```
 
+### Overflow
+
+```c
+    PUSH(stack[],top,n,item); //n->size of the stack. maxtop -> 'n-1' size of the array. 
+    if(top==n-1) // or if(top==maxtop)
+    {
+        printf("Overflow, stack full");
+        return;
+    }
+
+```
+
 ## Implementing stack using **linked list**
+
+> When there is only **one pointer** in the list, which is 'top' and it is pointing to the first inserted element in the list or the starting node of the list.
 
 * **PUSH()** -> Insertion from start. -> Runtime complexity -> **Theta(1)**
 * **POP()** -> Deletion from start. -> Runtime complexity -> **Theta(1)**
@@ -2160,14 +2176,14 @@ if n = 10, then position = 8(2^3)
 * **PUSH()** -> Insertion from last. -> Runtime complexity -> **Theta(n)**
 * **POP()** -> Deletion from last. -> Runtime complexity -> **Theta(n)**
 
-> The list has two pointers *first* and *last*. *First* is pointing to the first node of the list and *last* is pointing to the last node of the list.
+> The list has **two pointers** *first* and *last*. *First* is pointing to the first node of the list and *last* is pointing to the last node of the list.
 
 * **PUSH()** -> Insertion from last. -> Runtime complexity -> **Theta(1)**
 * **POP()** -> Deletion from last. -> Runtime complexity -> **Theta(n)**
 
 ## Stack permutation
 
-> The **differet ways** we can pop out elements from the stack.
+> The **differet ways or different orders** in which we can *pop out elements* from the stack.
 
 
 
