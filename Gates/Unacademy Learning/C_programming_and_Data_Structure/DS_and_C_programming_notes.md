@@ -2247,15 +2247,48 @@ if n = 10, then position = 8(2^3)
 ![image](https://user-images.githubusercontent.com/54589605/213701851-ebb704ff-872b-4081-a6d6-cd14840a5301.png)
 ![image](https://user-images.githubusercontent.com/54589605/213701941-1a5a501e-3877-4437-bc2a-05dab7ef7d53.png)
 
+### Question on **Implementation of queue using stack**
+
+![image](https://user-images.githubusercontent.com/54589605/213703623-01a7eaea-9512-47e2-8dd9-24710da198b6.png)
+
+![image](https://user-images.githubusercontent.com/54589605/213703671-48d6c5f5-a77b-4aa9-b801-2b9ce3d294f2.png)
+
+![image](https://user-images.githubusercontent.com/54589605/213703711-bcdaa296-02f3-42af-ac2f-240499ea66c1.png)
+
 ## Multiple stacks in single array.
 
 ### Method 1
 
+![image](https://user-images.githubusercontent.com/54589605/213703830-2cd5df64-3214-46e6-be3a-9fc7f84e6546.png)
+
 ### Method 2
+
+![image](https://user-images.githubusercontent.com/54589605/213703949-d5f5e877-e1e8-477c-aba7-4c61de057306.png)
+
 
 ### Underflow
 
 * if(top1==-1 && top2==n)
+
+### Overflow
+
+*
+
+![image](https://user-images.githubusercontent.com/54589605/213703994-049747a1-c456-4752-a403-cce1dde464fb.png)
+
+### Question on **implementation of two stacks in an array**
+
+### Question
+![image](https://user-images.githubusercontent.com/54589605/213704185-03f9290e-3f6d-4fe4-9b8c-a43ce9c74812.png)
+
+### Option 1
+![stack_question](https://user-images.githubusercontent.com/54589605/213704619-4d78c95b-a89d-4a99-8a2d-1db0dba9182e.png)
+
+### Option 2
+![stack_question_1](https://user-images.githubusercontent.com/54589605/213705171-26b9dddc-f67a-49b7-88a5-8dd0aa62364f.png)
+
+### Option 3
+![stack_question_2](https://user-images.githubusercontent.com/54589605/213704748-c68e5a9a-d347-47cf-ab27-27771fd3b69e.png)
 
 
 
