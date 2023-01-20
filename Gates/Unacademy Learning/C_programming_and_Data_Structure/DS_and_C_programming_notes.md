@@ -2181,7 +2181,7 @@ if n = 10, then position = 8(2^3)
 
 * 1-> D [strictly decreasing order]
 
-### DPPs 
+### DPPs
 
 > Solved in *32_Doubt_Clearing_Session*.
 
@@ -2190,17 +2190,19 @@ if n = 10, then position = 8(2^3)
 * 3-> C [3 & 1 instructions]   [Discuss in a later class]
 * 4-> Valid = 132, invalid=588
 
-
 ## Questions in *32_Doubt_Clearing_Session*
 
 > Solved in *33_Stack_permutation_and_Advanced_Topics*.
 
 * 1-> B [Two]
-* 2-> A[n+m<=x<2n and 2m<=y<=n+m]
-* 3-> D [top1=top2-1]
-* 4-> * 1. if(top==n-1)
-      * 2. if(top==bottom)
 
+* 2-> A[n+m<=x<2n and 2m<=y<=n+m]
+
+* 3-> D [top1=top2-1]
+
+* 4-> * 1. if(top==n-1)
+  
+      * 2. if(top==bottom)
 
 ## DPP 6 (*32_Doubt_Clearing_Session*)
 
@@ -2251,9 +2253,36 @@ if n = 10, then position = 8(2^3)
 
 ![image](https://user-images.githubusercontent.com/54589605/213703623-01a7eaea-9512-47e2-8dd9-24710da198b6.png)
 
+### Worst case
+
 ![image](https://user-images.githubusercontent.com/54589605/213703671-48d6c5f5-a77b-4aa9-b801-2b9ce3d294f2.png)
 
+> We are inserting all of the 'n' elements in 's1' stack. After insertion into 's1' we are popping all of the elements from 's1' and then inserting/pushing them into 's2' stack. After that we are deleting only the 'm' elements out of the 'n' elements in 's2'.
+
+* Total insertions -> n + n = 2n
+* Total Deletions -> n + m = n+m
+
+> In insertion, we are performing 'n' PUSH operations to insert/push the n elements into s1. After the popping from s1 we are doing n PUSH operations to insert/push the n elements into s2.
+
+> In deletion, we are performing 'n' POP operations to delete/pop the elements from s1. We are performing 'm' POP operations to delete/pop the elements from s2. 
+
+### Best case
+
 ![image](https://user-images.githubusercontent.com/54589605/213703711-bcdaa296-02f3-42af-ac2f-240499ea66c1.png)
+
+> We are firstly inserting only the 'm' elements into s1 stack. From s1 we pop the 'm' elements and then we push them into s2 stack. From s2 we pop/delete the 'm' elements. Then we  insert the remaining/rest (n-m) elements.
+
+* Total insertions -> m + m + (n-m) = n+m
+* Total Deletions -> m+m=2m
+
+> In insertion, we are performing 'm' PUSH operations to insert/push the m elements into s1. After the popping from s1 we are doing m PUSH operations to insert/push the m elements into s2. At the end after all of the deletion/pop in s2, we are inserting/pushing the remaining (n-m) elements into s1 stack.
+
+> In deletion, we are performing 'm' POP operations to delete/pop the elements from s1. We are performing 'm' POP operations to delete/pop the elements from s2.
+
+
+### Conclusion
+
+> We are saving a lot of PUSH() and POP() operations in *Best case* by just taking the 'm' elements instead of the whole 'n' elements. All of the PUSH() and POP() operations of remaining (n-m) elements are saved.
 
 ## Multiple stacks in single array.
 
@@ -2261,10 +2290,42 @@ if n = 10, then position = 8(2^3)
 
 ![image](https://user-images.githubusercontent.com/54589605/213703830-2cd5df64-3214-46e6-be3a-9fc7f84e6546.png)
 
+> Divide the array into 2 equal halves. On one half, implement a stack and on another half, implement another stack.
+> The space utilization is not the best as if one of the stacks is full but not the other, then we can't use the empty space in one of the stacks to push/insert more elements into it.
+
+### stack one(1)
+
+* n -> size of the array
+
+* top1= -1 (initial position)
+* maxtop1= n/2-1 (max position of stack 1, end of stack 1)
+
+### stack two(2)
+ 
+* top2= n/2-1 (initial position)
+* maxtop2 = n-1 (max position of stack 2, end of stack 2)
+
+
 ### Method 2
 
 ![image](https://user-images.githubusercontent.com/54589605/213703949-d5f5e877-e1e8-477c-aba7-4c61de057306.png)
 
+> Both of the stacks start from the opposite ends of the arrays or two different ends of the array.
+> Here, we can perform insertion as long as we have empty space or free space to store new elements in the array.
+> Space utilization is optimized than *method 1*.
+
+### stack one(1)
+
+* n -> size of the array
+
+* top1= -1 (initial position) // starts from '0' index of array.
+
+> No max or end position.
+### stack two(2)
+ 
+* top2= n (initial position) //starts from 'n-1' index of array.
+
+> No max or end position.
 
 ### Underflow
 
@@ -2272,34 +2333,41 @@ if n = 10, then position = 8(2^3)
 
 ### Overflow
 
-*
+* if(top2 == top1+1) 
+* OR
+* if(top2-1 == top1)
 
 ![image](https://user-images.githubusercontent.com/54589605/213703994-049747a1-c456-4752-a403-cce1dde464fb.png)
 
 ### Question on **implementation of two stacks in an array**
 
 ### Question
+
 ![image](https://user-images.githubusercontent.com/54589605/213704185-03f9290e-3f6d-4fe4-9b8c-a43ce9c74812.png)
 
 ### Option 1
+
 ![stack_question](https://user-images.githubusercontent.com/54589605/213704619-4d78c95b-a89d-4a99-8a2d-1db0dba9182e.png)
 
+> Here, we are limiting the size of the stacks in the array. Space optimization will be hampered. If the stacks are not distributed equally i.e one of the stacks is larger/smaller thant the other.
+
 ### Option 2
+
 ![stack_question_1](https://user-images.githubusercontent.com/54589605/213705171-26b9dddc-f67a-49b7-88a5-8dd0aa62364f.png)
 
+> Even if the stacks are not full or have the overflow condition. Then also this option we condition to *True* in that case as well, which is wrong. Even if have free space to store elements, this condition will say *True* for the array full condition.
+> **top1+top2=maxsize** -> Even though stack is not full, it will give *True* to the stack full condition.
+
 ### Option 3
+
 ![stack_question_2](https://user-images.githubusercontent.com/54589605/213704748-c68e5a9a-d347-47cf-ab27-27771fd3b69e.png)
 
+> If one of the stack is empty and has free space to store more elements, this will return *True* for the array full condition.
 
 
+## Implement more than 2 stacks in an array
 
-top1+top2=maxsize -> Even though stack is not full, it will give *True* to the stack full condition.
-
-
-
-
-
-
+> If we want to do that then we have to given equal space to all of the stacks that we are creating in an array.
 
 
 
