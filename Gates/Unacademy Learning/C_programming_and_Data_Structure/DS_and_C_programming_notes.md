@@ -866,6 +866,92 @@ int **p;
 
 > No matter what is the value of 'x' and 'y' is, we will always take the 2nd or the last value i.e the value of 'y' here and store it in 'j' variable.
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Data Structure with C
 
 ### Daily Revision
@@ -2208,9 +2294,11 @@ if n = 10, then position = 8(2^3)
 
 > Solved in *33_Stack_permutation_and_Advanced_Topics*.
 
-* 1-> 
-* 2-> B [3Y+2X]
+* 1-> 532 and 530
+* 2-> D [Y+2X]
 * 3-> 16^16[n^2]
+
+> These questions and a few more were given in the next DPP i.e DPP 7 from *33_Stack_permutation_and_Advanced_Topics* PDF file. Check them below for correct solutions.
 
 ## Implementation of queue using stack
 
@@ -2243,7 +2331,7 @@ if n = 10, then position = 8(2^3)
 ```
 
 > In deletion, first we are checking if s2 or second stack is empty or not. 
-> If it is empty then we are going to pop the remaining elements from s1 stack and push them in s2. Then we perform deletion but using POP() from s2.
+> If it is empty then we are going to pop the remaining elements from s1 stack and push them in s2. Then we perform deletion by using POP() from s2.
 > If s2 is not empty then we directly use POP() to pop elements from s2.
 
 ![image](https://user-images.githubusercontent.com/54589605/213701851-ebb704ff-872b-4081-a6d6-cd14840a5301.png)
@@ -2297,12 +2385,12 @@ if n = 10, then position = 8(2^3)
 
 * n -> size of the array
 
-* top1= -1 (initial position)
+* top1= -1 (initial position, starting from index zero(0))
 * maxtop1= n/2-1 (max position of stack 1, end of stack 1)
 
 ### stack two(2)
  
-* top2= n/2-1 (initial position)
+* top2= n/2-1 (initial position, starting from index n/2)
 * maxtop2 = n-1 (max position of stack 2, end of stack 2)
 
 
@@ -2349,13 +2437,13 @@ if n = 10, then position = 8(2^3)
 
 ![stack_question](https://user-images.githubusercontent.com/54589605/213704619-4d78c95b-a89d-4a99-8a2d-1db0dba9182e.png)
 
-> Here, we are limiting the size of the stacks in the array. Space optimization will be hampered. If the stacks are not distributed equally i.e one of the stacks is larger/smaller thant the other.
+> Here, we are limiting the size of the stacks in the array. Space optimization will be hampered. If the stacks are not distributed equally i.e one of the stacks is larger/smaller than the other.
 
 ### Option 2
 
 ![stack_question_1](https://user-images.githubusercontent.com/54589605/213705171-26b9dddc-f67a-49b7-88a5-8dd0aa62364f.png)
 
-> Even if the stacks are not full or have the overflow condition. Then also this option we condition to *True* in that case as well, which is wrong. Even if have free space to store elements, this condition will say *True* for the array full condition.
+> Even if the stacks are not full or have the overflow condition. Then also this option will condition to *True* in that case as well, which is wrong. Even if have free space to store elements, this condition will say *True* for the array full condition.
 > **top1+top2=maxsize** -> Even though stack is not full, it will give *True* to the stack full condition.
 
 ### Option 3
@@ -2371,6 +2459,16 @@ if n = 10, then position = 8(2^3)
 > Space utilization will not happen properly. Space will be wasted if some of the stacks are not fully filled to the allocated size of the stacks.
 
 ![image](https://user-images.githubusercontent.com/54589605/213721666-daa4c5b4-c0b5-48be-a919-2e20dcfbf99a.png)
+
+## DPP 7 from *33_Stack_permutation_and_Advanced_Topics*
+
+* 1-> 532 and 530 [Solved]
+* 2-> D [Y+2X]
+* 3-> 16^16[n^2] 
+* 4-> * 1. if(top==n-1)
+      * 2. if(top==bottom)
+
+## (34) [21 Jan 2023]
 
 
 
