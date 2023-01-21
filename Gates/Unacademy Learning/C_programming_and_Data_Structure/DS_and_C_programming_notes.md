@@ -2499,6 +2499,11 @@ if n = 10, then position = 8(2^3)
 * ++a -> prefix
 * a++ -> postfix
 
+### Unary operators in expressions
+
+![image](https://user-images.githubusercontent.com/54589605/213864116-ea9f9b28-c616-45c8-8e1a-e81fd6371a84.png)
+
+
 
 
 
