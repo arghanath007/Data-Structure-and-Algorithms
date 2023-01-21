@@ -2499,9 +2499,78 @@ if n = 10, then position = 8(2^3)
 * ++a -> prefix
 * a++ -> postfix
 
+* Two methods:
+
+1) Infix -> Prefix or postfix
+2) Prefix or postfix ->  Infix
+
 ### Unary operators in expressions
 
 ![image](https://user-images.githubusercontent.com/54589605/213864116-ea9f9b28-c616-45c8-8e1a-e81fd6371a84.png)
+
+> Precedence of any unary operator is more than any binary operator.
+
+> The main reason for learning conversion from *infix* to *postfix and prefix* is that CPU doesn't know the rules/logic of *Precedence and associativity*. In compiler design, the compiler fully converts the *infix* expression to *postfix or prefix* and then it sends the converted expression either in *postfix or prefix* to the CPU. Now the CPU knows these expressions and how to solve it.
+
+
+### Postfix to Infix
+
+1) Scan from **left to right**.
+2) Solve first operator.
+3) Repeat step 1.
+
+
+### Questions in *34_Expressions_Prefix*
+
+* 1-> 2+5*3^2+9
+* 2-> 9/4+2^3-8 [I think, I did Prefix to infix conversion]
+* 3-> [Not yet taught]
+* 4-> [Not yet taught]
+
+
+### DPP 8 from *34_Expressions_Prefix*
+
+* 1-> 1)* -/*+AB-CDF/*XYZ    [Prefix]
+        * AB+CD-*F/XY*Z/-    [Postfix]
+
+      2)* -+a*bc^d^ef        [Prefix]
+        * abc*+def^^         [Postfix]
+  
+      3)* ++A/*B+CDF*DE      [Prefix]
+        * ABCD+*F/+DE*+      [Postfix]
+
+      4)* -*3log+x1/a2       [Prefix]
+        * 3x1+log*a2/-       [Postfix]
+
+      5)* =a-+-a*b^c^de/*fgh*ij [Prefix]
+        *                       [Postfix]
+
+* 2-> 1) (A+B*(C-D))/E
+      2) A+B*C/D-E
+      3) A*B-C+D
+      4) A*(B+C)-D
+
+* 3-> [Not yet taught]
+
+## Postfix to prefix  (35)
+
+* Scan from *left to right*
+
+## Prefix to infix
+
+* Scan from *right to left*
+* After operator, 2 operands are the operands needed in the operator.
+
+## Prefix to postfix
+
+* Scan from *right to left*
+* After operator, 2 operands are the operands needed in the operator. 
+
+## Evaluation of *postfix notation using stack*
+
+* Push the operands in stack
+* If operand found, then pop two elements from stack top. 
+
 
 
 
