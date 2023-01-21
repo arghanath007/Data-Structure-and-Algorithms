@@ -2468,7 +2468,19 @@ if n = 10, then position = 8(2^3)
 * 4-> * 1. if(top==n-1)
       * 2. if(top==bottom)
 
-## (34) [21 Jan 2023]
+## Applications of stack (34) [21 Jan 2023]
+
+* Expression Evaluation
+* Recursion
+
+
+* operator -> denotes operation
+* operands -> data or value on which operation is to be performed.
+
+* ++a -> prefix
+* a++ -> postfix
+
+> They are unary operators.
 
 ### Question/doubt
 
@@ -2477,6 +2489,16 @@ if n = 10, then position = 8(2^3)
 
 
 > The correct answer provided by sir is **42**. Which is the correct answer for these question. We are using the catalan number here to find the permutations.
+
+### Precidence and Associativity
+
+> There is no any parenthesis in prefix or postfix notations. Only in 'infix' there are parenthesis, for executing them(+,-) before, * and /, even though their precidence is lower than * and /.
+> Solve some expression questions to get used to it. Sir solved some in *34_Expressions_Prefix* PDF file.
+> If we have unary operators then they will either be in *prefix* or in *postfix* expressions. Because they can only be in *prefix or postfix* format like below.
+
+* ++a -> prefix
+* a++ -> postfix
+
 
 
 
