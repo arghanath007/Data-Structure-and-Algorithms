@@ -2470,6 +2470,15 @@ if n = 10, then position = 8(2^3)
 
 ## (34) [21 Jan 2023]
 
+### Question/doubt
+
+![image](https://user-images.githubusercontent.com/54589605/213860799-d31e4051-7ae5-4969-b194-69fac19460fd.png)
+![image](https://user-images.githubusercontent.com/54589605/213860821-6bd50757-50c6-4351-86b1-1403a6044389.png)
+
+
+> The correct answer provided by sir is **42**. Which is the correct answer for these question. We are using the catalan number here to find the permutations.
+
+
 
 
 
