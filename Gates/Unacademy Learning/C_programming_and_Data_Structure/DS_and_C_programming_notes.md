@@ -2462,11 +2462,13 @@ if n = 10, then position = 8(2^3)
 
 ## DPP 7 from *33_Stack_permutation_and_Advanced_Topics*
 
-* 1-> 532 and 530 [Solved]
-* 2-> D [Y+2X]
-* 3-> 16^16[n^2] 
-* 4-> * 1. if(top==n-1)
-      * 2. if(top==bottom)
+> Solved in *36_Doubt_Clearning_Session* PDF file.
+
+* 1-> 532 and 530 [Solved in *33_Stack_permutation_and_Advanced_Topics*] 
+* 2-> C [n(X+Y)-X]  [Got it wrong, thought D [Y+2X] was answer]
+* 3-> 16^16=256 [n^2] 
+* 4-> * 1. if(top[i]==bottom[i+1])
+      * 2. if(top[i]==bottom[i])   [Got it wrong, *if(top==n-1) and if(top==bottom)*]
 
 ## Applications of stack (34) [21 Jan 2023]
 
@@ -2530,11 +2532,13 @@ if n = 10, then position = 8(2^3)
 
 ### DPP 8 from *34_Expressions_Prefix*
 
+> Solved in *36_Doubt_Clearning_Session* PDF file.
+
 * 1-> 1)* -/*+AB-CDF/*XYZ    [Prefix]
         * AB+CD-*F/XY*Z/-    [Postfix]
 
       2)* -+a*bc^d^ef        [Prefix]
-        * abc*+def^^         [Postfix]
+        * abc*+def^^-        [Postfix]
   
       3)* ++A/*B+CDF*DE      [Prefix]
         * ABCD+*F/+DE*+      [Postfix]
@@ -2542,13 +2546,13 @@ if n = 10, then position = 8(2^3)
       4)* -*3log+x1/a2       [Prefix]
         * 3x1+log*a2/-       [Postfix]
 
-      5)* =a-+-a*b^c^de/*fgh*ij [Prefix]
-        *                       [Postfix]
+      5)* =a-+*-b^c^de/*fgh*ij [Prefix]     [Got it wrong, first '-' minus is *unary* operator, so we have to solve it   first. Second '-' minus is binary operator.]
+        * ab-cde^^*fg*h/+ij*-= [Postfix]  [Didnt't do it, Try it again while revision]
 
 * 2-> 1) (A+B*(C-D))/E
-      2) A+B*C/D-E
-      3) A*B-C+D
-      4) A*(B+C)-D
+      1) A+B*C/D-E
+      2) A*B-C+D
+      3) A*(B+C)-D
 
 * 3-> [Not yet taught]
 
@@ -2569,7 +2573,16 @@ if n = 10, then position = 8(2^3)
 ## Evaluation of *postfix notation using stack*
 
 * Push the operands in stack
-* If operand found, then pop two elements from stack top. 
+* If operand found, then pop two elements from stack top.
+* Start from **left to right**
+* Evaluate as *b operator a*. Example: *b-a*
+
+## Evaluation of *prefix notation using stack*
+
+* Push the operands in stack
+* If operand found, then pop two elements from stack top.
+* Start from **right to left**
+* Evaluate as *a operator b*. Example: *a-b*
 
 
 
