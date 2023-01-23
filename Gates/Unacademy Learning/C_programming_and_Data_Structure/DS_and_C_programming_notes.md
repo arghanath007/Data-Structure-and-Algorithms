@@ -2585,6 +2585,19 @@ if n = 10, then position = 8(2^3)
 * Evaluate as *a operator b*. Example: *a-b*
 
 
+> Create a small table to remeber them properly and practice them as well. They are confusing and easy to forget.
+
+## Recursion in DS (37) [23 Jan 2023]
+
+### Fibonacci Series
+
+### Power() function
+
+* pow(x,n)
+
+### Tower of Hanoi
+
+* Runtime complexity -> Theta(2^n)
 
 
 
