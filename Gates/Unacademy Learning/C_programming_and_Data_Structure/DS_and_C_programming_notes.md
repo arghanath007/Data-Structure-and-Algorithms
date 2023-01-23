@@ -2631,6 +2631,12 @@ if n = 10, then position = 8(2^3)
 ![image](https://user-images.githubusercontent.com/54589605/213985718-885483c1-fd2a-4b69-b55a-08bd526f4731.png)
 
 
+### DPP Question from *37_Recursion_in_DS*
+
+![image](https://user-images.githubusercontent.com/54589605/213985956-d662346f-765b-43a5-8ea1-502ee2130355.png)
+
+
+
 
 
 ## Scratch Board/Dry runs.
