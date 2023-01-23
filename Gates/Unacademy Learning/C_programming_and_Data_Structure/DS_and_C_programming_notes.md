@@ -2689,6 +2689,10 @@ if n = 10, then position = 8(2^3)
         printf("The result is: %d", result);
     }
 ```
+### Example
+
+![image](https://user-images.githubusercontent.com/54589605/213991094-1b4e1a1f-1f33-40ad-8895-22051752efce.png)
+
 
 
 
