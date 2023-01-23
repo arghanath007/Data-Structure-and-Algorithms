@@ -2751,6 +2751,9 @@ if n = 10, then position = 8(2^3)
 #### Definition 1
 
 > Height of the tree, is nothing but it's maximum level number. Height is *3* here according to this definition.
+#### Example
+
+![image](https://user-images.githubusercontent.com/54589605/214043866-a9fe9353-9414-49ab-a78a-ab53eea54b9d.png)
 
 
 
