@@ -2636,6 +2636,36 @@ if n = 10, then position = 8(2^3)
 ![image](https://user-images.githubusercontent.com/54589605/213985956-d662346f-765b-43a5-8ea1-502ee2130355.png)
 
 
+### Question 1 solution
+
+```c
+    #include <stdio.h>
+
+    int div(int a, int b)
+    {
+        static int count=0;
+        // printf("%d,%d,%d\n",a,b,count);
+        if(a==1 || a==0)
+        {
+            return count;
+        }
+        if(b==0)
+        {
+            return -1;
+        }
+        count++;
+        return div(a-b,b);
+    }
+
+    int main() {
+        int a,b;
+        printf("Enter two numbers:\n");
+        scanf("%d%d",&a,&b);
+        int result= div(a,b);
+        printf("The result is: %d", result);
+    }
+```
+
 
 
 
@@ -2881,3 +2911,15 @@ p -> link -> link = c d e f
 head -> 3
 p = 5 7
 current -> 3 5
+
+a/b = a-b,b
+
+15/2=7
+
+    13,2
+    11,2
+    9,2
+    7,2
+    5,2
+    3,2
+    1,2
