@@ -2631,7 +2631,7 @@ if n = 10, then position = 8(2^3)
 ![image](https://user-images.githubusercontent.com/54589605/213985718-885483c1-fd2a-4b69-b55a-08bd526f4731.png)
 
 
-### DPP Question from *37_Recursion_in_DS*
+### DPP 9 from *37_Recursion_in_DS*
 
 ![image](https://user-images.githubusercontent.com/54589605/213985956-d662346f-765b-43a5-8ea1-502ee2130355.png)
 
@@ -2668,6 +2668,29 @@ if n = 10, then position = 8(2^3)
 ### Running and example
 
 ![image](https://user-images.githubusercontent.com/54589605/213989557-a05bf4c3-098a-493f-b9b3-2ba0c69256fe.png)
+
+### Question 2 Solution
+
+```c
+    int factorial(int fact)
+    {
+        if(fact==1)
+        {
+            return 1;
+        }
+        return fact*factorial(fact-1);
+    }
+
+    int main() {
+        int a;
+        printf("Enter a numbers:\n");
+        scanf("%d",&a);
+        int result= factorial(a);
+        printf("The result is: %d", result);
+    }
+```
+
+
 
 
 
@@ -2927,3 +2950,8 @@ a/b = a-b,b
     5,2
     3,2
     1,2
+
+a=5
+fact=1*2*3*4*5=120
+
+5*fact(4)*
