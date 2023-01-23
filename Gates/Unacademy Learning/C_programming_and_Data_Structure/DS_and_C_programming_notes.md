@@ -2577,12 +2577,23 @@ if n = 10, then position = 8(2^3)
 * Start from **left to right**
 * Evaluate as *b operator a*. Example: *b-a*
 
+### Example
+
+![image](https://user-images.githubusercontent.com/54589605/213919361-22a5e035-b6ac-4c82-a608-e105064d8f6b.png)
+![image](https://user-images.githubusercontent.com/54589605/213919375-31d63fe0-6610-403b-8bc5-6d81dc604b2e.png)
+![image](https://user-images.githubusercontent.com/54589605/213919383-6f64b295-e2e7-44c8-871a-a8a49d7ea569.png)
+
 ## Evaluation of *prefix notation using stack*
 
 * Push the operands in stack
 * If operand found, then pop two elements from stack top.
 * Start from **right to left**
 * Evaluate as *a operator b*. Example: *a-b*
+
+### Example
+
+![image](https://user-images.githubusercontent.com/54589605/213919390-ca816044-4264-4616-be1b-1b578e831359.png)
+
 
 
 > Create a small table to remeber them properly and practice them as well. They are confusing and easy to forget.
