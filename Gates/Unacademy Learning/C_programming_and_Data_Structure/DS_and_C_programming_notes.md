@@ -44,7 +44,7 @@
 
 ## Watch tomorrow
 
-* Link -> https://unacademy.com/class/introduction-to-data-structure/RFZ6RXXG
+* Link -> https://unacademy.com/class/operations-on-binary-tree-part-i/UWAUBRDP
 * Revison on C Language. (Completed)
 
 ## C programming.
@@ -964,6 +964,7 @@ int **p;
 * 6 -> Solve the DPP question as revision. (18 Jan 2023).
 * 7 -> Start from Queue.(19 Jan 2023)
 * 8 -> Start from Double Ended Queue(20 Jan 2023)
+* 9 -> Start from Applications of stack(24 Jan 2023)
 
 ## Weekly Revision
 
@@ -1433,6 +1434,8 @@ if n = 10, then position = 8(2^3)
 
 ## 22_Searching_in_Array Questions
 
+> Solved in  *24_Doubt_Clearning_Session*.
+
 * 1 -> B [Theta(logn)]
 * 2 -> B [O(logn)]
 * 3 -> B [O(logn)]
@@ -1481,10 +1484,13 @@ if n = 10, then position = 8(2^3)
 * 1 -> e [Either null pointer dereferencing error or data of 2nd last node get printed]
 * 2 -> 
 
-> null pointer dereferencing errors or NPDs as the problem hasn't handled the base conditions like,
+<!-- > Null Pointer Dereferencing errors or NPDs are the problem as they are not being handled the base conditions like, -->
+> As the base conditions are not being handled/written in the question/problem. Because of the lack of base conditions, we will encounter Null Pointer Dereferencing errors or NPDs errors/problems.
+
+### Base conditions missing:
 
 * start =NULL;
-* Linked list has one element only. start points to only node only.
+* If Linked list has one element only. 'start' pointer  points to only one node.
 
 ![image](https://user-images.githubusercontent.com/54589605/212615573-8835e66b-559b-4a75-99d0-022920d6f11b.png)
 
@@ -1492,7 +1498,7 @@ if n = 10, then position = 8(2^3)
 
 ![image](https://user-images.githubusercontent.com/54589605/212616164-dda68630-d5fb-4c8d-92c6-c753825778af.png)
 
-## DPP 3 (23_Linked_list_basics)
+## DPP 3 from *23_Linked_list_basics*
 
 > These questions are in the next DPP as well, which is DPP 4 in *25_Linked_list_implementation* PDF file. Some extra questions are present as well. Check that out. I will complete all of them there.
 
@@ -1708,7 +1714,7 @@ if n = 10, then position = 8(2^3)
 
 ```c
     struct node* p=start;
-    struct node* p=NULL;
+    struct node* q=NULL;
     struct node* r;
     while(p)
     {
@@ -2021,7 +2027,9 @@ if n = 10, then position = 8(2^3)
 ### Another overflow condition but for **circular queue**
 
 ```c
-    front= (read+1)%N;  //N -> size of the array.
+    front= (rear+1)%N;  //N -> size of the array.
+
+    if(front == (rear+1)%N)
 ```
 
 ## Deletion or dequeue in queue
@@ -2301,7 +2309,7 @@ if n = 10, then position = 8(2^3)
 
 > These questions and a few more were given in the next DPP i.e DPP 7 from *33_Stack_permutation_and_Advanced_Topics* PDF file. Check them below for correct solutions.
 
-## Implementation of queue using stack
+## Implementation of queue using stack (33)
 
 ### Best Method
 
@@ -2751,9 +2759,25 @@ if n = 10, then position = 8(2^3)
 #### Definition 1
 
 > Height of the tree, is nothing but it's maximum level number. Height is *3* here according to this definition.
+> Height of the tree with single node is **zero(0)**.
+> Height of an empty tree is **minus one(-1)**.
+> Height of the tree is the maximum/farthest distant between the root and the leaf node.
+> Height of the tree is the no. of edges in path from root to farthest leaf node.
+>
+
 #### Example
 
 ![image](https://user-images.githubusercontent.com/54589605/214043866-a9fe9353-9414-49ab-a78a-ab53eea54b9d.png)
+
+#### Definition 2
+
+> Height of the tree, is maximum level number of tree plus one(+1). Height is *4* here according to this definition.
+> Height of the tree with single node is **one(1)**.
+> Height of an empty tree is **zero(0)**.
+> Height of the tree is the maximum/farthest distant between the root and the leaf node plus one(+1).
+> Height of the tree is the no. of nodes in the path from root to farthest leaf node.
+
+* When doing *Tree* questions, try to take **bigger examples** like *2,3,4* and ignore or pay less attention to *0,1* as they can give multiple right/correct formulas but could/will be wrong.
 
 
 
