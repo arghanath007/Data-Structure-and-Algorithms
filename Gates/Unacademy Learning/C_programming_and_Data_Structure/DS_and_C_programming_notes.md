@@ -968,6 +968,7 @@ int **p;
 ## Weekly Revision
 
 * 1 -> Revise everything from 16 to 21 Jan 2023. Practice questions.
+* 2 -> Revise everything from 21 to 28 Jan 2023. Practice questions.
 
 ## Introduction to DS (17)
 
@@ -2692,6 +2693,66 @@ if n = 10, then position = 8(2^3)
 ### Example
 
 ![image](https://user-images.githubusercontent.com/54589605/213991094-1b4e1a1f-1f33-40ad-8895-22051752efce.png)
+
+## Tree (38)
+
+## General Tree
+
+> Non-linear data structure. 'Root' is known to be at level **zero(0)**.
+
+* **Internal or non-leaf node** -> Node having children
+* **External or leaf node** -> Nodes not having any children.
+* **Total no of nodes(N)** -> Total no. of internal or non-leaf node(I) **+** Total no. of external or leaf node(L) 
+
+* Total no. of internal or non-leaf node(I)
+* Total no. of external or leaf node(L) 
+### **Total no of nodes(N)** for any tree.
+
+* N = I + L
+
+### Parenthesis Representation
+
+> To represent/store a general tree in computer storage, we use *Parenthesis Representation*. We use *string* to store it.
+
+## Binary Tree.
+
+> A tree in which each node has **maximum 2 children**. It can have *0,1,2* nodes as children.
+> **Empty binary tree** is considered as a *valid binary tree* as it does not violate any rules/definitions of binary tree.
+
+### Linked representation of **Binary Tree** 
+
+### Handshaking lemma in **Binary Tree**
+
+* No. of leaf node of Binary tree(L)
+* No. of nodes with 2 children(I2)
+* No. of nodes with 1 children(I1)
+* Total no. of internal nodes(I)
+* Total no. of nodes (N)
+
+### **Handshaking lemma**:
+
+* L = I2+1.
+
+### *Total No. of internal nodes* in *Binary Tree*
+
+* I = I1 + I2. 
+
+### *Total No. of nodes* in *Binary Tree*
+
+* N = L + I [For any tree]
+* N = (I2+1) + (I1 + I2)
+* N= 2I2 + I1 + 1  [**Total No. of nodes in Binary Tree**]
+
+
+* Degree of a node -> No. of children. Same thing.
+
+### Height of a tree.
+
+#### Definition 1
+
+> Height of the tree, is nothing but it's maximum level number. Height is *3* here according to this definition.
+
+
 
 
 
