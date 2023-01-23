@@ -2600,17 +2600,35 @@ if n = 10, then position = 8(2^3)
 
 ## Recursion in DS (37) [23 Jan 2023]
 
+> Go through the *37_Recursion_in_DS* PDF file. Everything is explained there.
+
 ### Fibonacci Series
+
+![image](https://user-images.githubusercontent.com/54589605/213985055-f8ca57d0-3fc6-49dc-afac-569fd0831474.png)
+![image](https://user-images.githubusercontent.com/54589605/213984934-ba94e368-2621-46d6-9222-8c85f59b0ce4.png)
+![image](https://user-images.githubusercontent.com/54589605/213984982-4566cca4-029a-426c-b001-421815754308.png)
+![image](https://user-images.githubusercontent.com/54589605/213985013-c34951cd-3d6d-42f3-a932-9700ea728a1d.png)
 
 ### Power() function
 
 * pow(x,n)
 
+![image](https://user-images.githubusercontent.com/54589605/213985102-92ee491c-a17b-4d09-b51f-4a1d1788a01e.png)
+![image](https://user-images.githubusercontent.com/54589605/213985213-05db03c6-14a6-470e-bf8c-e9cfb6bed868.png)
+![image](https://user-images.githubusercontent.com/54589605/213985232-976c0ca3-4dac-4eb0-aaa5-20930ce2f394.png)
+![image](https://user-images.githubusercontent.com/54589605/213985256-2a2badd2-3f07-4b0c-85aa-f8719ccad79e.png)
+![image](https://user-images.githubusercontent.com/54589605/213985305-74ea2d6a-c890-44ef-8c8f-51774aa87df5.png)
+![image](https://user-images.githubusercontent.com/54589605/213985546-f08cfdb7-5c2e-405e-9b44-879abb13f649.png)
+![image](https://user-images.githubusercontent.com/54589605/213985628-ff0a2a6b-b9cc-476c-8616-799b418f686f.png)
+
 ### Tower of Hanoi
 
 * Runtime complexity -> Theta(2^n)
 
+### Algorithm
 
+![image](https://user-images.githubusercontent.com/54589605/213985691-d8ffa948-5d3d-4d26-a6da-3d61d05634b0.png)
+![image](https://user-images.githubusercontent.com/54589605/213985718-885483c1-fd2a-4b69-b55a-08bd526f4731.png)
 
 
 
