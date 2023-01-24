@@ -2835,7 +2835,8 @@ if n = 10, then position = 8(2^3)
 
 ### Height of tree Question.
 
-
+![image](https://user-images.githubusercontent.com/54589605/214238774-1d7cac83-e5b1-49d1-b8d4-3e9c11961898.png)
+![image](https://user-images.githubusercontent.com/54589605/214238799-fd105467-0eec-4f3b-8fc6-1684ea351e3d.png)
 
 #### Definition 2
 
@@ -2847,8 +2848,15 @@ if n = 10, then position = 8(2^3)
 
 * When doing *Tree* questions, try to take **bigger examples** like *2,3,4* and ignore or pay less attention to *0,1* as they can give multiple right/correct formulas but could/will be wrong.
 
-## Binary Tree drawing *Important*
+## Tree drawing *Important*
 
+![image](https://user-images.githubusercontent.com/54589605/214238577-bfaa961e-377b-41aa-b5eb-3905b36f0aea.png)
+
+### Questions from DPP, for example
+
+![DPP_solutions_Tree_1](https://user-images.githubusercontent.com/54589605/214236360-3e9d05c0-7751-4b85-8100-3e7d177fc903.jpeg)
+
+![DPP_solutions_Tree_2](https://user-images.githubusercontent.com/54589605/214236376-8a6946c7-7586-4c06-857c-d874f67f538e.jpeg)
 
 
 ## DPP 10 from *38_Tree_Binary_Tree*
@@ -2863,6 +2871,7 @@ if n = 10, then position = 8(2^3)
 
 * 1-> Solutions are below.
 * 2-> Solutions are below.
+* 3-> Solutions are below.
 
 
 * Solutions for Question 1
@@ -2870,6 +2879,16 @@ if n = 10, then position = 8(2^3)
 ![DPP_solutions_Tree_1](https://user-images.githubusercontent.com/54589605/214236360-3e9d05c0-7751-4b85-8100-3e7d177fc903.jpeg)
 
 ![DPP_solutions_Tree_2](https://user-images.githubusercontent.com/54589605/214236376-8a6946c7-7586-4c06-857c-d874f67f538e.jpeg)
+
+* Solutions for Question 2
+
+![DPP_solutions_Tree_4](https://user-images.githubusercontent.com/54589605/214239691-8132fd78-45aa-404b-9c5e-0157f551a8f0.jpeg)
+
+![DPP_solutions_Tree_5](https://user-images.githubusercontent.com/54589605/214239710-fb1b6f0f-f74b-4893-9532-287a18082b27.jpeg)
+
+* Solutions for Question 3
+
+![DPP_solutions_Tree_3](https://user-images.githubusercontent.com/54589605/214239922-330b93db-28a7-47f9-a448-fe87e5ad8216.jpeg)
 
 
 
