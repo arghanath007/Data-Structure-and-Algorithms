@@ -2956,6 +2956,18 @@ if n = 10, then position = 8(2^3)
 > Reverse of converse postorder traversal -> **Conventional preorder**.
 > Reverse of converse inorder traversal -> **Conventional inorder**.
 
+## Finding the traversals of a *Binary Tree*
+
+![DPP_solutions_Tree_6](https://user-images.githubusercontent.com/54589605/214304674-3f5d222f-308d-4878-bbf0-2a1c40c8f6a7.jpeg)
+
+![DPP_solutions_Tree_7](https://user-images.githubusercontent.com/54589605/214304730-28b2c474-845e-4cd6-b462-655e6a08ec1a.jpeg)
+
+![DPP_solutions_Tree_8](https://user-images.githubusercontent.com/54589605/214304767-6cb9b12e-84da-40b0-a566-6d0194f57d39.jpeg)
+
+![DPP_solutions_Tree_9](https://user-images.githubusercontent.com/54589605/214304793-c1f1761d-ad70-46fa-b980-f7776203a70a.jpeg)
+
+
+
 ## Level order traversal
 
 > Starting from level zero(0), traverse all nodes of level no. 'L' before traversing any node of higher level no.
@@ -2969,6 +2981,12 @@ if n = 10, then position = 8(2^3)
 > To construct *Unique binary tree* using traversals. **Two** traversals are needed. One of them should be *inorder* traversal.
 > *Preorder and postorder* traversals helps in identifying the *root* of the tree/subtree.
 > *Inorder* traversal helps to identify the *left and right* subtree.
+
+### Examples
+
+![DPP_solutions_Tree_8](https://user-images.githubusercontent.com/54589605/214304767-6cb9b12e-84da-40b0-a566-6d0194f57d39.jpeg)
+
+![DPP_solutions_Tree_9](https://user-images.githubusercontent.com/54589605/214304793-c1f1761d-ad70-46fa-b980-f7776203a70a.jpeg)
 
 
 
