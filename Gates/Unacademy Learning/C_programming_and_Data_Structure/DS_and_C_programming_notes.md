@@ -2526,6 +2526,9 @@ if n = 10, then position = 8(2^3)
 
 > The main reason for learning conversion from *infix* to *postfix and prefix* is that CPU doesn't know the rules/logic of *Precedence and associativity*. In compiler design, the compiler fully converts the *infix* expression to *postfix or prefix* and then it sends the converted expression either in *postfix or prefix* to the CPU. Now the CPU knows these expressions and how to solve it.
 
+### Infix to (Prefix or postfix)
+
+* According to precedence and associtivity.
 
 ### Postfix to Infix
 
@@ -2571,6 +2574,7 @@ if n = 10, then position = 8(2^3)
 ## Postfix to prefix  (35)
 
 * Scan from *left to right*
+* Change the postfix expression from *postfix* to *prefix* directly.
 
 ## Prefix to infix
 
@@ -2607,8 +2611,20 @@ if n = 10, then position = 8(2^3)
 ![image](https://user-images.githubusercontent.com/54589605/213919390-ca816044-4264-4616-be1b-1b578e831359.png)
 
 
-
 > Create a small table to remeber them properly and practice them as well. They are confusing and easy to forget.
+
+### Table to remember Expression evaluations
+
+| Conversion                   	| Position                    	| Operands                                          	|
+|------------------------------	|-----------------------------	|---------------------------------------------------	|
+| Postfix to infix             	| left to right               	| 2 operands immediately from left                  	|
+| Infix to (Prefix or Postfix) 	| Precedence and associtivity 	| Postfix/prefix                                    	|
+| Postfix to prefix            	| Left to right               	| Directly Change it to prefix                      	|
+| Prefix to infix              	| Right to left               	| 2 operands immediately from right                 	|
+| Prefix to postfix            	| Right to left               	| Directly Change it to postfix                     	|
+| Postfix notation using stack 	| left to right               	| a->top, b->2nd top;  a,b;   b^a OR [b operator a] 	|
+| Prefix notation using stack  	| right to left               	| a->top, b->2nd top;  a,b;   a^b OR [a operator b] 	|
+|                              	|                             	|                                                   	|
 
 ## Recursion in DS (37) [23 Jan 2023]
 
