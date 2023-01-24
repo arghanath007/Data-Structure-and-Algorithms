@@ -2507,6 +2507,9 @@ if n = 10, then position = 8(2^3)
 > Solve some expression questions to get used to it. Sir solved some in *34_Expressions_Prefix* PDF file.
 > If we have unary operators then they will either be in *prefix* or in *postfix* expressions. Because they can only be in *prefix or postfix* format like below.
 
+![image](https://user-images.githubusercontent.com/54589605/214219338-e171558c-414a-4652-99b1-f883f1077324.png)
+
+
 * ++a -> prefix
 * a++ -> postfix
 
