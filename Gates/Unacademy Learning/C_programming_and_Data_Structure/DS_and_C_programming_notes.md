@@ -2937,12 +2937,16 @@ if n = 10, then position = 8(2^3)
 
 > Node traversed after *left and right* subtree
 
-## Observations from conventional traversals
+## Observations from **conventional traversals**
 
 > First symbol of preorder traversal is the *root* of the tree.
 > Last symbol of postorder traversal is the *root* of the tree.
 
 ## Converse order Traversal
+
+* **Converse Preorder** -> nRL (root->right subtree->left subtree)
+* **Converse Inorder** -> RnL (right subtree->root->left subtree)
+* **Converse Postorder** -> RLn (right subtree->left subtree->root)
 
 * Converse preorder -> nRL
 * Converse inorder -> RnL
@@ -2966,15 +2970,13 @@ if n = 10, then position = 8(2^3)
 
 ![DPP_solutions_Tree_9](https://user-images.githubusercontent.com/54589605/214304793-c1f1761d-ad70-46fa-b980-f7776203a70a.jpeg)
 
-
-
 ## Level order traversal
 
 > Starting from level zero(0), traverse all nodes of level no. 'L' before traversing any node of higher level no.
 > We are traversing from *left to right* direction on each level. This is the standard/convention.
 > We can traverse the nodes of a level, in any sequence. We can do *right to left*, *alternate between left to right on different levels*.
 
-* No of distinct level order traversals possible -> [1* 2! * 3! * 4! =288]
+* **No of distinct level order traversals possible** -> [1* 2! * 3! * 4! =288]
 
 ## Constructing the tree using traversals
 
