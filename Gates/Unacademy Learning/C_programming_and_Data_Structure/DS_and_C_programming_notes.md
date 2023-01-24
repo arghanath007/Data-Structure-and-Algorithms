@@ -2833,6 +2833,10 @@ if n = 10, then position = 8(2^3)
 
 ![image](https://user-images.githubusercontent.com/54589605/214043866-a9fe9353-9414-49ab-a78a-ab53eea54b9d.png)
 
+### Height of tree Question.
+
+
+
 #### Definition 2
 
 > Height of the tree, is maximum level number of tree plus one(+1). Height is *4* here according to this definition.
@@ -2843,7 +2847,7 @@ if n = 10, then position = 8(2^3)
 
 * When doing *Tree* questions, try to take **bigger examples** like *2,3,4* and ignore or pay less attention to *0,1* as they can give multiple right/correct formulas but could/will be wrong.
 
-## Binary Tree drawing *Importat*
+## Binary Tree drawing *Important*
 
 
 
@@ -2857,7 +2861,8 @@ if n = 10, then position = 8(2^3)
 
 ### DPP
 
-* 1->
+* 1-> Solutions are below.
+* 2-> Solutions are below.
 
 
 * Solutions for Question 1
