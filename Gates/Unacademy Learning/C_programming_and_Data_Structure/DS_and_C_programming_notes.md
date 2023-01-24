@@ -2863,7 +2863,9 @@ if n = 10, then position = 8(2^3)
 
 ### Questions before DPP 
 
-* 1-> D [(1(2 3 NULL)(4 5))]         [GATE 2000]
+> Only question 1 was solved in *39_operations_on_Binary_tree*.
+
+* 1-> C [(1(2 3 4)(5 6 7))]  [Got it wrong, thought it was 'D'] [GATE 2000] 
 * 2-> 28 [Solved, L=I2+1]
 * 3-> 39 [Solved, N=2I2+I1+1]
 
@@ -2872,6 +2874,15 @@ if n = 10, then position = 8(2^3)
 * 1-> Solutions are below.
 * 2-> Solutions are below.
 * 3-> Solutions are below.
+* 4-> 1) I2=L-1
+      2) I=I1+I2 
+   
+* 5-> 1) 79
+      2) 129
+      3) 209
+
+* 6-> 1) Minimum -> floor(sqrt(n))
+      2) Maximum -> n-1 [Since single node is zero(0)]
 
 
 * Solutions for Question 1
@@ -2891,9 +2902,63 @@ if n = 10, then position = 8(2^3)
 ![DPP_solutions_Tree_3](https://user-images.githubusercontent.com/54589605/214239922-330b93db-28a7-47f9-a448-fe87e5ad8216.jpeg)
 
 
+## Operations in **Binary Tree** (39) [24 Jan 2023]
+
+## Tree Traversals
+
+* **Preorder** -> nLR (root->left subtree->right subtree)
+* **Inorder** -> LnR (left subtree->root->right subtree)
+* **Postorder** -> LRn (left subtree->right subtree->root)
+
+> All of these traversals are from **left to right** direction. This is the conventional/normal tree traversal. Here, the traversal starts from the *left* subtree.
+
+### Preorder traversal
+
+> Node traversed before *left and right* subtree
+
+### Inorder traversal
+
+> Node traversed in between *left and right* subtree.
+
+### Postorder traversal
+
+> Node traversed after *left and right* subtree
+
+## Observations from conventional traversals
+
+> First symbol of preorder traversal is the *root* of the tree.
+> Last symbol of postorder traversal is the *root* of the tree.
+
+## Converse order Traversal
+
+* Converse preorder -> nRL
+* Converse inorder -> RnL
+* Converse postorder -> RLn
+
+> All of these traversals are from **right to left** direction. This is the converse order tree traversal. Here the traversal starts from the *right* subtree.
+
+### Observations from *Converse order Traversal*
+
+> Reverse of converse preorder traversal -> **Conventional postorder**.
+> Reverse of converse postorder traversal -> **Conventional preorder**.
+> Reverse of converse inorder traversal -> **Conventional inorder**.
+
+## Level order traversal
+
+> Starting from level zero(0), traverse all nodes of level no. 'L' before traversing any node of higher level no.
+> We are traversing from *left to right* direction on each level. This is the standard/convention.
+> We can traverse the nodes of a level, in any sequence. We can do *right to left*, *alternate between left to right on different levels*.
+
+* No of distinct level order traversals possible -> [1* 2! * 3! * 4! =288]
+
+## Constructing the tree using traversals
+
+> To construct *Unique binary tree* using traversals. **Two** traversals are needed. One of them should be *inorder* traversal.
+> *Preorder and postorder* traversals helps in identifying the *root* of the tree/subtree.
+> *Inorder* traversal helps to identify the *left and right* subtree.
 
 
-## (39) [24 Jan 2023]
+
 
 
 
