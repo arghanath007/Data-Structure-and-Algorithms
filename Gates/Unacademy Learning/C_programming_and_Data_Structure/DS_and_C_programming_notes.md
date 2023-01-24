@@ -965,6 +965,7 @@ int **p;
 * 7 -> Start from Queue.(19 Jan 2023)
 * 8 -> Start from Double Ended Queue(20 Jan 2023)
 * 9 -> Start from Applications of stack(24 Jan 2023)
+* 10 -> Start from Tree(25 Jan 2023)
 
 ## Weekly Revision
 
@@ -2841,6 +2842,29 @@ if n = 10, then position = 8(2^3)
 > Height of the tree is the no. of nodes in the path from root to farthest leaf node.
 
 * When doing *Tree* questions, try to take **bigger examples** like *2,3,4* and ignore or pay less attention to *0,1* as they can give multiple right/correct formulas but could/will be wrong.
+
+## Binary Tree drawing *Importat*
+
+
+
+## DPP 10 from *38_Tree_Binary_Tree*
+
+### Questions before DPP 
+
+* 1-> D [(1(2 3 NULL)(4 5))]         [GATE 2000]
+* 2-> 28 [Solved, L=I2+1]
+* 3-> 39 [Solved, N=2I2+I1+1]
+
+### DPP
+
+* 1->
+
+
+* Solutions for Question 1
+
+
+
+## (39) [24 Jan 2023]
 
 
 
