@@ -2637,6 +2637,39 @@ if n = 10, then position = 8(2^3)
 
 ## Doubt Solving Session (36)
 
+### Question 1
+
+![image](https://user-images.githubusercontent.com/54589605/214226598-a80ed8bf-231b-45f1-bd39-2c7ab9f9f16c.png)
+
+### Answer of Q1
+
+![image](https://user-images.githubusercontent.com/54589605/214226632-39b05234-2cc4-47ca-8549-4973f6a20878.png)
+
+### Explaination
+
+![image](https://user-images.githubusercontent.com/54589605/214226694-a3603350-7a2a-41d7-beca-4de09da049b2.png)
+
+### Code
+
+```c
+  #include <stdio.h>
+
+  int main() {
+    char str1[]="Madeeasy";
+    char str2[]= {'M','a','d','e','e','a','s','y'};
+    int m=sizeof(str1)/sizeof(str1[0]);
+    int n=sizeof(str2)/sizeof(str2[0]);
+    printf("m=%d, n=%d\n",m,n);
+    printf("%d\n", sizeof(str1)); // length of array + 1. since it is a string
+    printf("%d\n", sizeof(str1[0])); //sizeof of character
+    printf("%d\n", sizeof(str2)); // length of array. since it is a character array.
+    printf("%d\n", sizeof(str2[0]));
+    return 0;
+  }
+```
+
+
+
 ## Recursion in DS (37) [23 Jan 2023]
 
 > Go through the *37_Recursion_in_DS* PDF file. Everything is explained there.
