@@ -2626,6 +2626,15 @@ if n = 10, then position = 8(2^3)
 | Prefix notation using stack  	| right to left               	| a->top, b->2nd top;  a,b;   a^b OR [a operator b] 	|
 |                              	|                             	|                                                   	|
 
+### Table Image
+
+> If the above is difficult to read. For some reason.
+
+![image](https://user-images.githubusercontent.com/54589605/214223284-1702d5ad-8bc1-4421-ad0b-42351fa46d32.png)
+![image](https://user-images.githubusercontent.com/54589605/214223309-1229faa0-8bbc-46eb-a3ee-55d2c4eecb43.png)
+
+
+
 ## Recursion in DS (37) [23 Jan 2023]
 
 > Go through the *37_Recursion_in_DS* PDF file. Everything is explained there.
