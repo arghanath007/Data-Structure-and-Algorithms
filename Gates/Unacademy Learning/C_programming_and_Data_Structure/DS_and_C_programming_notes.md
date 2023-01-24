@@ -2904,6 +2904,19 @@ if n = 10, then position = 8(2^3)
 
 ## Operations in **Binary Tree** (39) [24 Jan 2023]
 
+### Questions on *Binary Tree*
+
+![image](https://user-images.githubusercontent.com/54589605/214297980-f2e1f349-f173-4d1b-a629-8b4d2314d232.png)
+
+* No. of **binary tree constructed** using *3 unlabelled nodes* -> *Catalan number* -> (2nCn)/(n+1) -> 5(Ans)
+* For 'n' unlabelled nodes -> (2nCn)/(n+1)
+
+![image](https://user-images.githubusercontent.com/54589605/214298401-7245f262-2b78-4401-a8eb-fa993407dc07.png)
+
+* How many *distinct binary tree* can be constructed using *3 distinct keys* -> ((2nCn)/(n+1)) * n! -> 30(Ans)
+* For 'n' distinct keys -> [((2nCn)/(n+1)) * n!]     [n! ways to populate one binary tree with 'n' keys]
+
+
 ## Tree Traversals
 
 * **Preorder** -> nLR (root->left subtree->right subtree)
