@@ -2976,6 +2976,10 @@ if n = 10, then position = 8(2^3)
 > We are traversing from *left to right* direction on each level. This is the standard/convention.
 > We can traverse the nodes of a level, in any sequence. We can do *right to left*, *alternate between left to right on different levels*.
 
+### Example
+
+![image](https://user-images.githubusercontent.com/54589605/214306637-cc2cf1e5-bf8a-4973-aa1b-4f1b7c03d479.png)
+
 * **No of distinct level order traversals possible** -> [1* 2! * 3! * 4! =288]
 
 ## Constructing the tree using traversals
