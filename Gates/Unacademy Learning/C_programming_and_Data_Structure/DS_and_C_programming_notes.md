@@ -3112,6 +3112,14 @@ if n = 10, then position = 8(2^3)
 > Difficult to understand as well. Looks at the examples from *41_Basics_of_Tree* PDF file. Practice them as well.
 
 
+## Recursion in **Binary Tree**
+
+![image](https://user-images.githubusercontent.com/54589605/214605000-b2ce047d-a552-447a-b6a0-2e8dda0ea7ba.png)
+
+> Here we are counting the no. of leaf nodes in the *Binary Tree*.
+> We have to understand the conditions and have to reach the *base case* of the program to be able to find out what is the program is trying to achive running on a *Binary Tree*.
+
+
 
 
 
