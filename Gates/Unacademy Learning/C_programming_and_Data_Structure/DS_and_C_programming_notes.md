@@ -3162,6 +3162,11 @@ if n = 10, then position = 8(2^3)
 
 * Some **important** questions in *41_Basics_of_tree* PDF file from Page **20**, do check them. They are important questions. Practice them as well.
 
+### Example
+
+![image](https://user-images.githubusercontent.com/54589605/214615108-aeca35d2-bc2f-4408-8073-bd5a223b4539.png)
+
+
 
 
 
