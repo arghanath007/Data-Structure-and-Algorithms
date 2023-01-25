@@ -3099,12 +3099,18 @@ if n = 10, then position = 8(2^3)
 
 ![DPP_solutions_Tree_17](https://user-images.githubusercontent.com/54589605/214587079-e99d3329-eab0-4c27-a906-756584316fc6.jpeg)
 
-## Using *Pre and post* order traversals to construct *unique binary tree* (41)
+> Got one of them wrong. Should be like below.
 
-**Important**
+![image](https://user-images.githubusercontent.com/54589605/214589897-7af3ca55-2d05-4a77-990f-0a21d2c74927.png)
+![image](https://user-images.githubusercontent.com/54589605/214590416-3daea8fb-a6b3-424e-b828-15cb8d84cbd9.png)
+
+> In post-order we do, Left->right->root. So as *7* is not between *3* and *4*, hence it is not the right child of *3*.
+> In the above image, we will get *4* variations as there are nodes with single children. Hence it is not clear that those single children should be *left or right* child of the node.
+
+## Using *Pre and post* order traversals to construct *unique binary tree* **Important** (41)
+
 > Difficult to understand as well. Looks at the examples from *41_Basics_of_Tree* PDF file. Practice them as well.
 
-> In the above image, we will get *4* variations/
 
 
 
