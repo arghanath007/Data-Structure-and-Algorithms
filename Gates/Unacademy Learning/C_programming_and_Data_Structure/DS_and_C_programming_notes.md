@@ -3085,6 +3085,24 @@ if n = 10, then position = 8(2^3)
 > The condition is that every node much have either **zero(0) or two** children. There should be **no nodes** in the tree which have **one or single** children.
 > If this type[above condition making] tree exists. If the *pre and post* order are given for that tree, then we can construct a **unique** tree from that *pre and post* order traversals.
 
+### Question on *Construction of tree using traversals*
+
+> There questions are from *40_Doubt_Clearing_Session*.
+
+### Questions
+
+![image](https://user-images.githubusercontent.com/54589605/214585417-60165400-b1f9-4408-a8bf-471ed588120e.png)
+![image](https://user-images.githubusercontent.com/54589605/214586955-053d30ce-8abd-4c5e-b20d-75eedc127a4a.png)
+
+
+### Solution
+
+![DPP_solutions_Tree_17](https://user-images.githubusercontent.com/54589605/214587079-e99d3329-eab0-4c27-a906-756584316fc6.jpeg)
+
+
+
+
+
 
 
 
