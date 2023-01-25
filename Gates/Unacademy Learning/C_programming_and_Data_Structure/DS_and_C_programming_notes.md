@@ -3153,8 +3153,8 @@ if n = 10, then position = 8(2^3)
 * Base case
 
 > Depends on if single node is **zero(0)** or **one(1)**. As there are two definitions to finding the height of a tree. We studied it earlier.
-> If single node is **zero(0)**, then base case would be to check if is equals to **-1**.
-> If single node is **one(1)**, then base case would be to check if is equals to **0**.
+> If single node is **zero(0)**, then base case would be to return **-1**.
+> If single node is **one(1)**, then base case would be to return **0**.
 
 
 
