@@ -3017,6 +3017,10 @@ if n = 10, then position = 8(2^3)
 
 ### Question 1 solution
 
+![DPP_solutions_Tree_10](https://user-images.githubusercontent.com/54589605/214533937-d575b20c-d152-4c91-81d6-bb989e8b45c0.jpeg)
+
+![DPP_solutions_Tree_11](https://user-images.githubusercontent.com/54589605/214534031-506d3d87-35a6-43d3-abbc-e5ddbd472b3e.jpeg)
+
 
 
 
