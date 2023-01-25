@@ -2708,6 +2708,8 @@ if n = 10, then position = 8(2^3)
 
 ![image](https://user-images.githubusercontent.com/54589605/213985956-d662346f-765b-43a5-8ea1-502ee2130355.png)
 
+> Solved in *40_Doubt_solving_session*.
+
 
 ### Question 1 solution
 
@@ -2724,10 +2726,15 @@ if n = 10, then position = 8(2^3)
         }
         if(b==0)
         {
-            return -1;
+            return 0;
+        }
+        if(a<b)
+        {
+            return 0;
         }
         count++;
-        return div(a-b,b);
+        div(a-b,b);
+        return count;
     }
 
     int main() {
@@ -2747,7 +2754,11 @@ if n = 10, then position = 8(2^3)
 ```c
     int factorial(int fact)
     {
-        if(fact==1)
+        if(fact <0)
+        {
+            return -1;
+        }
+        if(fact==1 || fact==0)
         {
             return 1;
         }
@@ -3009,7 +3020,7 @@ if n = 10, then position = 8(2^3)
 
 ![DPP_solutions_Tree_9](https://user-images.githubusercontent.com/54589605/214304793-c1f1761d-ad70-46fa-b980-f7776203a70a.jpeg)
 
-## Quiz 5
+## Quiz 5 (40) [25 Jan 2023]
 
 > Solutions discussed in *40_Doubts_Session* PDF file.
 
@@ -3058,9 +3069,16 @@ if n = 10, then position = 8(2^3)
 
 ![DPP_solutions_Tree_12](https://user-images.githubusercontent.com/54589605/214552992-288ba8e5-83ea-4823-b991-de86a8414ed3.jpeg)
 
+## Post-order and In-order
+
+> Using post-order and in-order traversals to create/construct a tree
 
 
+* If *pre and post* order *can* provide a unique binary tree?
 
+> True. [*Condition Applied] [Alawys -> False] [Can-> True]
+> The condition is that every node much have either **zero(0) or two** children. There should be **no nodes** in the tree which have **one or single** children.
+> If this type[above condition making] tree exists. If the *pre and post* order are given for that tree, then we can construct a **unique** tree from that *pre and post* order traversals.
 
 
 
