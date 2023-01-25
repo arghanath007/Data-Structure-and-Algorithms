@@ -3148,6 +3148,15 @@ if n = 10, then position = 8(2^3)
 
 * **Height of tree** -> [Max(Height of left subtree, Height of right subtree) + 1]
 
+![image](https://user-images.githubusercontent.com/54589605/214611890-ee0b5a92-a588-40b6-b2bf-f9a670ea8785.png)
+
+* Base case
+
+> Depends on if single node is **zero(0)** or **one(1)**. As there are two definitions to finding the height of a tree. We studied it earlier.
+> If single node is **zero(0)**, then base case would be to check if is equals to **-1**.
+> If single node is **one(1)**, then base case would be to check if is equals to **0**.
+
+
 
 
 
