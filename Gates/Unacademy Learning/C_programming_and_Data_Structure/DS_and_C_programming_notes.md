@@ -3123,6 +3123,11 @@ if n = 10, then position = 8(2^3)
 
 > The main **funda/logic of recursion in binary tree** is that if we have reached the *base condition/case* of the program and then we have to finally return a value(which is value=1 here), otherwise if we haven't reached the *base condition/case* yet then **count** from *left subtree* and *right subtree*.
 
+### Working
+
+![image](https://user-images.githubusercontent.com/54589605/214607705-ef991758-3819-49da-ac57-899aba5d85f3.png)
+
+
 
 
 
