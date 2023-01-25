@@ -3099,6 +3099,13 @@ if n = 10, then position = 8(2^3)
 
 ![DPP_solutions_Tree_17](https://user-images.githubusercontent.com/54589605/214587079-e99d3329-eab0-4c27-a906-756584316fc6.jpeg)
 
+## Using *Pre and post* order traversals to construct *unique binary tree* (41)
+
+**Important**
+> Difficult to understand as well. Looks at the examples from *41_Basics_of_Tree* PDF file. Practice them as well.
+
+> In the above image, we will get *4* variations/
+
 
 
 
