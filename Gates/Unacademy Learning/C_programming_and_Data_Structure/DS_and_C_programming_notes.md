@@ -3099,6 +3099,11 @@ if n = 10, then position = 8(2^3)
 
 ![DPP_solutions_Tree_17](https://user-images.githubusercontent.com/54589605/214587079-e99d3329-eab0-4c27-a906-756584316fc6.jpeg)
 
+> Got one of them wrong. Should be like below.
+
+![image](https://user-images.githubusercontent.com/54589605/214589897-7af3ca55-2d05-4a77-990f-0a21d2c74927.png)
+
+
 
 
 
