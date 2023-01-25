@@ -2898,9 +2898,18 @@ if n = 10, then position = 8(2^3)
 
 ![DPP_solutions_Tree_5](https://user-images.githubusercontent.com/54589605/214239710-fb1b6f0f-f74b-4893-9532-287a18082b27.jpeg)
 
+> In question 4, I made a mistake, Non-leaf nodes(I) will be **4** and hence leaf nodes will be **14**
+> Question 3 is correct.
+> Question 2 is correct.
+> In question 1, I made a mistake, Non-leaf nodes(I) will be **3** and hence leaf nodes will be **6**
+
 * Solutions for Question 3
 
 ![DPP_solutions_Tree_3](https://user-images.githubusercontent.com/54589605/214239922-330b93db-28a7-47f9-a448-fe87e5ad8216.jpeg)
+
+> I read the question wrong, I thought it was asking for *max* and *min* total no. of nodes for a given level *L*.
+> The question is asking for *max* and *min* nodes for a given level *L*. Just that level and not the sum of all the levels upto *L*, which I did.
+
 
 
 ## Operations in **Binary Tree** (39) [24 Jan 2023]
