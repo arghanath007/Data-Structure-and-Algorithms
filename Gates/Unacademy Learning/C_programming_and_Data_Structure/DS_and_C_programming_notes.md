@@ -2856,7 +2856,7 @@ if n = 10, then position = 8(2^3)
 
 ![DPP_solutions_Tree_1](https://user-images.githubusercontent.com/54589605/214236360-3e9d05c0-7751-4b85-8100-3e7d177fc903.jpeg)
 
-![DPP_solutions_Tree_2](https://user-images.githubusercontent.com/54589605/214236376-8a6946c7-7586-4c06-857c-d874f67f538e.jpeg)
+![DPP_solutions_Tree_2](https://user-images.githubusercontent.com/54589605/214520198-112390dc-d578-47ca-9d38-88c681044fa7.jpeg)
 
 
 ## DPP 10 from *38_Tree_Binary_Tree*
@@ -2889,7 +2889,8 @@ if n = 10, then position = 8(2^3)
 
 ![DPP_solutions_Tree_1](https://user-images.githubusercontent.com/54589605/214236360-3e9d05c0-7751-4b85-8100-3e7d177fc903.jpeg)
 
-![DPP_solutions_Tree_2](https://user-images.githubusercontent.com/54589605/214236376-8a6946c7-7586-4c06-857c-d874f67f538e.jpeg)
+![DPP_solutions_Tree_2](https://user-images.githubusercontent.com/54589605/214520198-112390dc-d578-47ca-9d38-88c681044fa7.jpeg)
+
 
 * Solutions for Question 2
 
