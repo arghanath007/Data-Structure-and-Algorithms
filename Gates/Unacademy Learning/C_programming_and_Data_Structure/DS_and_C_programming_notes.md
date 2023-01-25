@@ -3127,6 +3127,21 @@ if n = 10, then position = 8(2^3)
 
 ![image](https://user-images.githubusercontent.com/54589605/214607705-ef991758-3819-49da-ac57-899aba5d85f3.png)
 
+### Above code written in a different way
+
+![image](https://user-images.githubusercontent.com/54589605/214608892-a6996a50-8c1e-493e-ac4b-42e8c14a4a81.png)
+
+> This is an example of **Pre-order** traversal.
+
+![image](https://user-images.githubusercontent.com/54589605/214609085-b068a08d-92b9-4c81-8310-ff7cceb94408.png)
+> This is the processing part of *root* node. We are processing/executing some logic on the root node(n).
+
+![image](https://user-images.githubusercontent.com/54589605/214609318-2bc7a893-fbbd-4c7a-a5bd-0974c167b2c4.png)
+> Then we are recursively calling firstly the **left subtree(L)** then the **right subtree(R)**.
+> We know that pre-order traversal looks like this -> nLR(root->left subtree-> right subtree)
+
+
+
 
 
 
