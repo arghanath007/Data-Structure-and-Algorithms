@@ -3156,6 +3156,11 @@ if n = 10, then position = 8(2^3)
 > If single node is **zero(0)**, then base case would be to return **-1**.
 > If single node is **one(1)**, then base case would be to return **0**.
 
+### Algorithm to calculate height of tree **Recursively**.
+
+![image](https://user-images.githubusercontent.com/54589605/214613718-aba34a21-77f7-41dd-bc66-51c094b1bc5e.png)
+
+
 
 
 
