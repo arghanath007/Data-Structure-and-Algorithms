@@ -2871,6 +2871,8 @@ if n = 10, then position = 8(2^3)
 
 ### DPP
 
+> Solved in *40_Doubt_Solving_Session* PDF file.
+
 * 1-> Solutions are below.
 * 2-> Solutions are below.
 * 3-> Solutions are below.
@@ -2881,8 +2883,8 @@ if n = 10, then position = 8(2^3)
       2) 129
       3) 209
 
-* 6-> 1) Minimum -> floor(sqrt(n))
-      2) Maximum -> n-1 [Since single node is zero(0)]
+* 6-> 1) Minimum -> [floor(logn [base 2])]    [Got it wrong, thought minimum -> floor(sqrt(n))]
+      2) Maximum -> [n-1] [Since single node is zero(0)] [This is correct]
 
 
 * Solutions for Question 1
@@ -2909,8 +2911,6 @@ if n = 10, then position = 8(2^3)
 
 > I read the question wrong, I thought it was asking for *max* and *min* total no. of nodes for a given level *L*.
 > The question is asking for *max* and *min* nodes for a given level *L*. Just that level and not the sum of all the levels upto *L*, which I did.
-
-
 
 ## Operations in **Binary Tree** (39) [24 Jan 2023]
 
@@ -2999,6 +2999,16 @@ if n = 10, then position = 8(2^3)
 ![DPP_solutions_Tree_8](https://user-images.githubusercontent.com/54589605/214304767-6cb9b12e-84da-40b0-a566-6d0194f57d39.jpeg)
 
 ![DPP_solutions_Tree_9](https://user-images.githubusercontent.com/54589605/214304793-c1f1761d-ad70-46fa-b980-f7776203a70a.jpeg)
+
+## DPP 11 from *39_Operations_on_Binary_Tree*
+
+> 1-> Solutions below
+
+
+
+### Question 1 solution
+
+
 
 
 
