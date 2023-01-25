@@ -3073,10 +3073,15 @@ if n = 10, then position = 8(2^3)
 
 > Using post-order and in-order traversals to create/construct a tree
 
+![DPP_solutions_Tree_15](https://user-images.githubusercontent.com/54589605/214583713-6123f86d-0ae8-4756-916c-c1b8ef44c453.jpeg)
+
+### Example of traversal questions
+
+![DPP_solutions_Tree_16](https://user-images.githubusercontent.com/54589605/214583826-43f78e77-019d-4284-93d4-8a6bfbd708fa.jpeg)
 
 * If *pre and post* order *can* provide a unique binary tree?
 
-> True. [*Condition Applied] [Alawys -> False] [Can-> True]
+> True. [**Condition Applied**] [Alawys -> False] [Can -> True]
 > The condition is that every node much have either **zero(0) or two** children. There should be **no nodes** in the tree which have **one or single** children.
 > If this type[above condition making] tree exists. If the *pre and post* order are given for that tree, then we can construct a **unique** tree from that *pre and post* order traversals.
 
