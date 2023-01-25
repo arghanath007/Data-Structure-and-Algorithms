@@ -3117,7 +3117,11 @@ if n = 10, then position = 8(2^3)
 ![image](https://user-images.githubusercontent.com/54589605/214605000-b2ce047d-a552-447a-b6a0-2e8dda0ea7ba.png)
 
 > Here we are counting the no. of leaf nodes in the *Binary Tree*.
-> We have to understand the conditions and have to reach the *base case* of the program to be able to find out what is the program is trying to achive running on a *Binary Tree*.
+> We have to understand the conditions and have to reach the *base condition/case* of the program to be able to find out what is the program is trying to achive running on a *Binary Tree*.
+
+* For the above question and in general
+
+> The main **funda/logic of recursion in binary tree** is that if we have reached the *base condition/case* of the program and then we have to finally return a value(which is value=1 here), otherwise if we haven't reached the *base condition/case* yet then **count** from *left subtree* and *right subtree*.
 
 
 
