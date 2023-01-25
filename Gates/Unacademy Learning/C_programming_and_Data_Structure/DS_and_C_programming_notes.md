@@ -3009,11 +3009,22 @@ if n = 10, then position = 8(2^3)
 
 ![DPP_solutions_Tree_9](https://user-images.githubusercontent.com/54589605/214304793-c1f1761d-ad70-46fa-b980-f7776203a70a.jpeg)
 
+## Quiz 5
+
+> Solutions discussed in *40_Doubts_Session* PDF file.
+
+> Question 2 solution was given wrong in the test solutions. Sir gave the write solution.
+> All of the *4* options in Q2 are *correct*.
+>
+> Question 4, is solved in a future class. Sir said, he will explain in two different ways in a future class.
+
 ## DPP 11 from *39_Operations_on_Binary_Tree*
 
-> 1-> Solutions below
+> Solved in *40_Doubts_Session* PDF file.
 
-
+* 1-> Solutions below
+* 2-> Solutions below[To be added]
+* 3-> Solutions below[To be added]
 
 ### Question 1 solution
 
