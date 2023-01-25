@@ -2912,6 +2912,15 @@ if n = 10, then position = 8(2^3)
 > I read the question wrong, I thought it was asking for *max* and *min* total no. of nodes for a given level *L*.
 > The question is asking for *max* and *min* nodes for a given level *L*. Just that level and not the sum of all the levels upto *L*, which I did.
 
+### The correct way to solve question *3*
+
+![image](https://user-images.githubusercontent.com/54589605/214524823-f60baecb-5146-46d0-b76d-e2db13feb145.png)
+
+* Min nodes -> 1
+* Max nodes -> 2^L
+
+
+
 ## Operations in **Binary Tree** (39) [24 Jan 2023]
 
 ### Questions on *Binary Tree*
