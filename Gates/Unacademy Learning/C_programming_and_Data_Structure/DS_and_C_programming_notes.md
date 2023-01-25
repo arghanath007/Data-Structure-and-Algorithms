@@ -3015,7 +3015,6 @@ if n = 10, then position = 8(2^3)
 
 > Question 2 solution was given wrong in the test solutions. Sir gave the write solution.
 > All of the *4* options in Q2 are *correct*.
->
 > Question 4, is solved in a future class. Sir said, he will explain in two different ways in a future class.
 
 ## DPP 11 from *39_Operations_on_Binary_Tree*
