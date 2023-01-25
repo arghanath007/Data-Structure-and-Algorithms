@@ -2948,10 +2948,6 @@ if n = 10, then position = 8(2^3)
 * **Converse Inorder** -> RnL (right subtree->root->left subtree)
 * **Converse Postorder** -> RLn (right subtree->left subtree->root)
 
-* Converse preorder -> nRL
-* Converse inorder -> RnL
-* Converse postorder -> RLn
-
 > All of these traversals are from **right to left** direction. This is the converse order tree traversal. Here the traversal starts from the *right* subtree.
 
 ### Observations from *Converse order Traversal*
@@ -2972,7 +2968,7 @@ if n = 10, then position = 8(2^3)
 
 ## Level order traversal
 
-> Starting from level zero(0), traverse all nodes of level no. 'L' before traversing any node of higher level no.
+> Starting from level zero(0), traverse all nodes of level no. 'L' or **current level** before traversing any node of higher level no.
 > We are traversing from *left to right* direction on each level. This is the standard/convention.
 > We can traverse the nodes of a level, in any sequence. We can do *right to left*, *alternate between left to right on different levels*.
 
@@ -2984,9 +2980,9 @@ if n = 10, then position = 8(2^3)
 
 ## Constructing the tree using traversals
 
-> To construct *Unique binary tree* using traversals. **Two** traversals are needed. One of them should be *inorder* traversal.
-> *Preorder and postorder* traversals helps in identifying the *root* of the tree/subtree.
-> *Inorder* traversal helps to identify the *left and right* subtree.
+> To construct *Unique binary tree* using traversals. **Two** traversals are needed. **One** of them should be **inorder** traversal.
+> *Preorder and postorder* traversals helps in identifying the **root** of the tree/subtree.
+> *Inorder* traversal helps to identify the **left and right subtree** .
 
 ### Examples
 
