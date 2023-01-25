@@ -3141,6 +3141,15 @@ if n = 10, then position = 8(2^3)
 > We know that pre-order traversal looks like this -> nLR(root->left subtree-> right subtree)
 
 
+## Height of tree(Recursive approach)
+
+> Farthest left node -> Height of the tree.
+> We will recursively calculate the height of left subtree and then we will recursively calculate the height of right subtree. We will find out which subtree(left or right subtree) has the maximum height. After that, we will do plus one(1)[+1] to the maximum height from the previous calculation. Plus one, to include the root of the tree.
+
+* **Height of tree** -> [Max(Height of left subtree, Height of right subtree) + 1]
+
+
+
 
 
 
