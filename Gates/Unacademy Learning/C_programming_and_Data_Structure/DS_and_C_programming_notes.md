@@ -3102,6 +3102,9 @@ if n = 10, then position = 8(2^3)
 > Got one of them wrong. Should be like below.
 
 ![image](https://user-images.githubusercontent.com/54589605/214589897-7af3ca55-2d05-4a77-990f-0a21d2c74927.png)
+![image](https://user-images.githubusercontent.com/54589605/214590416-3daea8fb-a6b3-424e-b828-15cb8d84cbd9.png)
+
+> In post-order we do, Left->right->root. So as *7* is not between *3* and *4*, hence it is not the right child of *3*.
 
 
 
