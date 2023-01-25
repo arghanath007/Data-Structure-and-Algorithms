@@ -3017,6 +3017,25 @@ if n = 10, then position = 8(2^3)
 > All of the *4* options in Q2 are *correct*.
 > Question 4, is solved in a future class. Sir said, he will explain in two different ways in a future class.
 
+### Question 4 solution from **Quiz 5**
+
+### Question 4
+
+![image](https://user-images.githubusercontent.com/54589605/214554332-b763c5c5-f81a-4334-a827-a30d05fcc231.png)
+![image](https://user-images.githubusercontent.com/54589605/214554386-f568704d-8d45-4f24-911f-30c2408a3b3f.png)
+
+> Sir gave a solution using *Dot method* in *40_Doubts_Session* PDF file.
+
+### Solution
+
+![image](https://user-images.githubusercontent.com/54589605/214554227-3aff9858-95d0-430f-ab2c-3c2159b55f1c.png)
+![image](https://user-images.githubusercontent.com/54589605/214554678-55e3843d-6877-43c0-8bd3-c85e4f7a0ab4.png)
+![image](https://user-images.githubusercontent.com/54589605/214555257-3d1ff526-e5e3-4221-8a95-9072f329cc80.png)
+
+> Do the same for *T2* tree. Find the traversals.
+
+![DPP_solutions_Tree_14](https://user-images.githubusercontent.com/54589605/214558201-0672f0ab-3923-4aef-859f-d3e3da90c994.jpeg)
+
 ## DPP 11 from *39_Operations_on_Binary_Tree*
 
 > Solved in *40_Doubts_Session* PDF file.
