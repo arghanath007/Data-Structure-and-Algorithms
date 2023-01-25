@@ -3023,14 +3023,23 @@ if n = 10, then position = 8(2^3)
 > Solved in *40_Doubts_Session* PDF file.
 
 * 1-> Solutions below
-* 2-> Solutions below[To be added]
-* 3-> Solutions below[To be added]
+* 2-> Solutions below
+* 3-> Solutions below
 
 ### Question 1 solution
 
 ![DPP_solutions_Tree_10](https://user-images.githubusercontent.com/54589605/214533937-d575b20c-d152-4c91-81d6-bb989e8b45c0.jpeg)
 
 ![DPP_solutions_Tree_11](https://user-images.githubusercontent.com/54589605/214534031-506d3d87-35a6-43d3-abbc-e5ddbd472b3e.jpeg)
+
+### Question 2 solution
+
+![DPP_solutions_Tree_13](https://user-images.githubusercontent.com/54589605/214552976-2c2eacd5-3424-42c0-b516-378dec740a98.jpeg)
+
+### Question 3 solution
+
+![DPP_solutions_Tree_12](https://user-images.githubusercontent.com/54589605/214552992-288ba8e5-83ea-4823-b991-de86a8414ed3.jpeg)
+
 
 
 
