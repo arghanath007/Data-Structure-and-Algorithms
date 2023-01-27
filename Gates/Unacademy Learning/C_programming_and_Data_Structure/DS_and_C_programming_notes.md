@@ -3175,6 +3175,13 @@ if n = 10, then position = 8(2^3)
 ### Answers
 
 
+![DPP_solutions_Tree_18](https://user-images.githubusercontent.com/54589605/215074894-54683388-a5bb-4b75-9a51-ce265ba65943.jpeg)
+![DPP_solutions_Tree_19](https://user-images.githubusercontent.com/54589605/215074900-74967014-39a5-4edf-8622-11971e00555a.jpeg)
+![DPP_solutions_Tree_20](https://user-images.githubusercontent.com/54589605/215074902-73b37505-94b7-4bde-9b46-fd87288c93e9.jpeg)
+![DPP_solutions_Tree_21](https://user-images.githubusercontent.com/54589605/215074906-858f6d22-baed-4ea3-915d-e1b1a6b00bdc.jpeg)
+![DPP_solutions_Tree_22](https://user-images.githubusercontent.com/54589605/215074910-bd7dc41a-9360-48b4-a01a-944305022d0d.jpeg)
+
+
 
 
 
