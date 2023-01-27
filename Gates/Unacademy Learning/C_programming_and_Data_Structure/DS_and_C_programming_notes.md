@@ -3166,6 +3166,16 @@ if n = 10, then position = 8(2^3)
 
 ![image](https://user-images.githubusercontent.com/54589605/214615108-aeca35d2-bc2f-4408-8073-bd5a223b4539.png)
 
+## DPP 12 from *41_Basics_of_tree*
+
+* 1->
+
+> All of the answers are below.
+
+### Answers
+
+
+
 
 
 
