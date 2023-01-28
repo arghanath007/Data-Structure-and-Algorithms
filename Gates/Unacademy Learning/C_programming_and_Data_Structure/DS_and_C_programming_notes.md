@@ -3196,6 +3196,9 @@ if n = 10, then position = 8(2^3)
 
 > To Convert traversals from **conventional** pre/post/in-order to **converse** pre/post/in-order traversals, we just need to **reverse** the traversal and **vice-versa**.
 
+![image](https://user-images.githubusercontent.com/54589605/215279659-8906e3f9-a422-4aea-b0f4-62d52343094a.png)
+
+
 ### Example
 
 ![DPP_solutions_Tree_27](https://user-images.githubusercontent.com/54589605/215255849-046de82b-6b96-4d10-964e-1c4dfb613f33.jpeg)
