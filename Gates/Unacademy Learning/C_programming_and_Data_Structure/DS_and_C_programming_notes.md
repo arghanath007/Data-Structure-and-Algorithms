@@ -3231,6 +3231,12 @@ if n = 10, then position = 8(2^3)
 
 ![DPP_solutions_Tree_25](https://user-images.githubusercontent.com/54589605/215255769-a6010d51-db0e-41ba-a9d3-00bf88e270dc.jpeg)
 
+### Correct solution for **Q3**
+
+![image](https://user-images.githubusercontent.com/54589605/215279979-6227371f-3c98-4e0c-864b-a992c7a8f80c.png)
+![image](https://user-images.githubusercontent.com/54589605/215279988-db3c4ff7-85bf-41f6-a9cc-a2a4a37f4ce1.png)
+
+
 ## Complete Binary Tree (43) [28 Jan 2023]
 
 > A **Binary Tree** in which all levels much have maximum no. of nodes, except possibly the last level. The **last level nodes** must be arranged from **left to right**.
