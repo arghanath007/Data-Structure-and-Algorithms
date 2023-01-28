@@ -3232,9 +3232,15 @@ if n = 10, then position = 8(2^3)
 
 > A **Binary Tree** in which all levels much have maximum no. of nodes, except possibly the last level. The **last level nodes** must be arranged from **left to right**.
 
+![image](https://user-images.githubusercontent.com/54589605/215270543-c8471d19-4dc4-4c44-9c31-247a42866f23.png)
+
+
 ## Strict Complete Binary Tree
 
 > All levels must have maximum no. of nodes.
+
+![image](https://user-images.githubusercontent.com/54589605/215270555-3ead06a5-de0a-4bbd-a81a-55cffbb49d0c.png)
+
 
 ### Formula to calculate **max and min** no. of nodes in **Complete Binary Tree**
 
@@ -3247,18 +3253,59 @@ if n = 10, then position = 8(2^3)
 
 > When writing the algorithm, the storage is in **Array** only which is fine. The access will still be in **non-linear** order or **hierarchical** order. We cannot access elements in **linear or sequential** order.
 
+### When array index starts from **1**
+
+![image](https://user-images.githubusercontent.com/54589605/215270590-eab63736-9011-493c-931d-2f8148bb848f.png)
+![image](https://user-images.githubusercontent.com/54589605/215270613-a99a6462-77c1-4e85-8a45-1ece23d29c9d.png)
+
+
+### When array index starts from **0**
+
+![image](https://user-images.githubusercontent.com/54589605/215270629-1f98cd93-6b7f-461c-b62c-2fa154762d7b.png)
+
+
 ## Full Binary Tree or Strict Binary Tree or 2-Tree or 2-T
 
 > A Binary Tree in which each node has either zero(0) children or two(2) children.
 > A Binary Tree in which every internal node has exactly two(2) children.
 > A Binary Tree in which no any node has one(1) child.
 
+![image](https://user-images.githubusercontent.com/54589605/215270682-9dfb0e60-2841-4cff-9413-f75e88e6b921.png)
+
+### **Full Binary Tree** Formulas
+
+![image](https://user-images.githubusercontent.com/54589605/215270706-1401f25a-6d82-4abb-88a9-994bc8762221.png)
+
+We know, 
+
+* L=I+1 ...(1) and N=I+L ....(2)
+
+* From (1)
+
+* I=(N-1)/2       [L=N-I]
+* L=(N+1)/2       [I=(N-1)/2]
+
+* From (2)
+
+* N= 2I+1  [L=I+1]
+* N= 2L-1  [I=L-1]  
+
+![image](https://user-images.githubusercontent.com/54589605/215271444-54b0739c-85f2-495e-9c64-4d136119b4c5.png)
+![image](https://user-images.githubusercontent.com/54589605/215271455-8ebb28bc-d481-4c24-8e4f-5941112d74d6.png)
+
+
 ## 3-Tree or Complete 3-ary Tree or 3-T
 
 > Every node has either **zero(0)** child or **three(3)** children.
 > 'I' -> internal nodes
 
+![image](https://user-images.githubusercontent.com/54589605/215271497-1966b7c7-5d18-4b99-9ab7-74db0113ba4b.png)
+
+
 * Leaf nodes(L) =2I+1.
+* N=I+L [We know]
+* N=3I+1 [L=2I+1]
+* N=(3L-1)/2 [I=(L-1)/2]
 
 ## K-Tree or Complete K-ary Tree
 
@@ -3268,6 +3315,9 @@ if n = 10, then position = 8(2^3)
 * Leaf nodes(L) =(k-1)I+1.
 * Total no. of nodes(N) = KI+1
 * Total no. of nodes(N) = (KL -1)/(k-1)
+
+![image](https://user-images.githubusercontent.com/54589605/215271959-46dcc99a-516c-4985-b1c1-0c21be908d10.png)
+
 
 ## Left skewed Binary Tree
 
