@@ -3185,7 +3185,7 @@ if n = 10, then position = 8(2^3)
 
 * **Leftmost child, Right sibling** Representation
 
-> This is just a way to store a *General Tree*. The children of a node are stored only the left subtree of a node. Hence if a node's left-subtree is empty then that node is a **Leaf Node**.
+> This is just a way to store a *General Tree*. The children of a node are stored in the left subtree of a node. Hence if a node's left-subtree is empty then that node is a **Leaf Node**.
 > To find the **Leaf nodes** or count the leaf nodes, we need to check the nodes whose **left** is empty.
 
 ### Example
