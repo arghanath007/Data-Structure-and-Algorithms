@@ -3189,9 +3189,19 @@ if n = 10, then position = 8(2^3)
 > This is just a way to store a *General Tree*. The children of a node are stored only the left subtree of a node. Hence if a node's left-subtree is empty then that node is a **Leaf Node**.
 > To find the **Leaf nodes** or count the leaf nodes, we need to check the nodes whose **left** is empty.
 
+### Example
+
+![DPP_solutions_Tree_26](https://user-images.githubusercontent.com/54589605/215255825-54d7afcb-afaa-41b5-86d6-5c0e33c8d37e.jpeg)
+
 ### Expression Tree
 
 > To Convert traversals from **conventional** pre/post/in-order to **converse** pre/post/in-order traversals, we just need to **reverse** the traversal and **vice-versa**.
+
+### Example
+
+![DPP_solutions_Tree_27](https://user-images.githubusercontent.com/54589605/215255849-046de82b-6b96-4d10-964e-1c4dfb613f33.jpeg)
+
+![DPP_solutions_Tree_28](https://user-images.githubusercontent.com/54589605/215255858-42fbfedb-47c8-41da-b58e-fb5396c00d0f.jpeg)
 
 ### Expression Tree with **unary operators**
 
@@ -3207,7 +3217,17 @@ if n = 10, then position = 8(2^3)
 * 4-> [Answers below]
 
 
-### Solutions of **4**
+### Solutions of the above questions
+
+![DPP_solutions_Tree_23](https://user-images.githubusercontent.com/54589605/215255753-2e497784-65aa-4dd4-b5fb-25e546c7a833.jpeg)
+
+![DPP_solutions_Tree_24](https://user-images.githubusercontent.com/54589605/215255757-f364993a-7219-4d17-bedc-ba3f5a9f6e17.jpeg)
+
+![DPP_solutions_Tree_25](https://user-images.githubusercontent.com/54589605/215255769-a6010d51-db0e-41ba-a9d3-00bf88e270dc.jpeg)
+
+
+
+
 
 
 
