@@ -3243,6 +3243,8 @@ if n = 10, then position = 8(2^3)
 * **Max** -> 2^(h+1)-1
 * **Min** -> 2^h
 
+![image](https://user-images.githubusercontent.com/54589605/215263145-138e0aa0-8450-40cf-b608-085a5e5a76f3.png)
+
 
 
 
