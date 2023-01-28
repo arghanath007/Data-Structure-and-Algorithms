@@ -3211,10 +3211,14 @@ if n = 10, then position = 8(2^3)
 
 ## DPP 13 from *42_operations_on_binary_tree*
 
+> Question 3, solved in *43_Operations_on_Binary_tree* beginning.
+
 * 1-> BDEACFG
 * 2-> CGFABDE
-* 3-> 4
+* 3-> 6 [Got it wrong. Thought 4 is correct]
 * 4-> [Answers below]
+
+> All of the solutions below, including *4*.
 
 
 ### Solutions of the above questions
@@ -3224,6 +3228,20 @@ if n = 10, then position = 8(2^3)
 ![DPP_solutions_Tree_24](https://user-images.githubusercontent.com/54589605/215255757-f364993a-7219-4d17-bedc-ba3f5a9f6e17.jpeg)
 
 ![DPP_solutions_Tree_25](https://user-images.githubusercontent.com/54589605/215255769-a6010d51-db0e-41ba-a9d3-00bf88e270dc.jpeg)
+
+## Complete Binary Tree (43) [28 Jan 2023]
+
+> A **Binary Tree** in which all levels much have maximum no. of nodes, except possibly the last level. The **last level nodes** must be arranged from **left to right**.
+>
+> 
+## Strict Complete Binary Tree
+
+> All levels must have maximum no. of nodes.
+
+### Formula to calculate **max and min** no. of nodes in **Complete Binary Tree**
+
+* **Max** -> 2^(h+1)-1
+* **Min** -> 2^h
 
 
 
