@@ -2710,7 +2710,6 @@ if n = 10, then position = 8(2^3)
 
 > Solved in *40_Doubt_solving_session*.
 
-
 ### Question 1 solution
 
 ```c
@@ -3232,8 +3231,7 @@ if n = 10, then position = 8(2^3)
 ## Complete Binary Tree (43) [28 Jan 2023]
 
 > A **Binary Tree** in which all levels much have maximum no. of nodes, except possibly the last level. The **last level nodes** must be arranged from **left to right**.
->
-> 
+
 ## Strict Complete Binary Tree
 
 > All levels must have maximum no. of nodes.
@@ -3245,6 +3243,58 @@ if n = 10, then position = 8(2^3)
 
 ![image](https://user-images.githubusercontent.com/54589605/215263145-138e0aa0-8450-40cf-b608-085a5e5a76f3.png)
 
+## Array Representation of **Complete Binary Tree**
+
+> When writing the algorithm, the storage is in **Array** only which is fine. The access will still be in **non-linear** order or **hierarchical** order. We cannot access elements in **linear or sequential** order.
+
+## Full Binary Tree or Strict Binary Tree or 2-Tree or 2-T
+
+> A Binary Tree in which each node has either zero(0) children or two(2) children.
+> A Binary Tree in which every internal node has exactly two(2) children.
+> A Binary Tree in which no any node has one(1) child.
+
+## 3-Tree or Complete 3-ary Tree or 3-T
+
+> Every node has either **zero(0)** child or **three(3)** children.
+> 'I' -> internal nodes
+
+* Leaf nodes(L) =2I+1.
+
+## K-Tree or Complete K-ary Tree
+
+> Ecah node has either zero(0) child or **K**-children.
+> 'L' -> Leaf Nodes
+
+* Leaf nodes(L) =(k-1)I+1.
+* Total no. of nodes(N) = KI+1
+* Total no. of nodes(N) = (KL -1)/(k-1)
+
+## Left skewed Binary Tree
+
+> Every internal node has only left-child.
+> It has only one or single leaf node.
+
+## Right skewed Binary Tree
+
+> Every internal node has only right-child.
+> It has only one or single leaf node.
+
+
+* Weekend Quiz syllabus -> **Binary Tree**
+
+## DPP 13 from *43_Operations_on_Binary_Tree*
+
+* 1-> 2^(h+1) - (h+2) [h-> height of tree]
+* 2-> 2^(h+1) - (h+2) [h-> height of tree]
+* 3->
+* 4-> 
+* 5-> Best case= 1, Worst case=2^(h+1)
+* 6-> Leaf nodes= 16, Internal nodes= 15
+* 7-> Leaf nodes= 51, Total no. of nodes= 101
+* 8-> Not possible
+* 9-> D [(2n+1)/3]
+* 10-> C [n(k-1)+1]
+* 11-> D [n-1]
 
 
 
