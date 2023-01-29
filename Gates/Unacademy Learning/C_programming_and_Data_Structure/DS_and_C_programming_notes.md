@@ -971,6 +971,7 @@ int **p;
 
 * 1 -> Revise everything from 16 to 21 Jan 2023. Practice questions.
 * 2 -> Revise everything from 21 to 28 Jan 2023. Practice questions.
+* 3 -> Revise everything from 29 to 5 Feb 2023. Practice questions.
 
 ## Introduction to DS (17)
 
@@ -3289,12 +3290,12 @@ We know,
 
 * L=I+1 ...(1) and N=I+L ....(2)
 
-* From (1)
+* From (2)
 
 * I=(N-1)/2       [L=N-I]
 * L=(N+1)/2       [I=(N-1)/2]
 
-* From (2)
+* From (1)
 
 * N= 2I+1  [L=I+1]
 * N= 2L-1  [I=L-1]  
