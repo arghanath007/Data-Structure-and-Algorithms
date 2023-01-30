@@ -3463,6 +3463,53 @@ We know,
 
 ## Binary Search Tree(BST) (45)
 
+> A **Binary Tree** in which for every node, it's *left subtree* contains *smaller or lesser values* and *right subtree* contains *greater or larger values*.
+> If **equal values** come then it will be mentioned in the question only what to do with them. As there are no questions related to this that have come on GATE exam till now.
+> Two conditions are possible, **one** is that *equal and lesser values* are to the left and *strictly greater values* on right side. 
+> **Two** is that *strictly lesser values* are to the left and *equal and greater values* on the right side. 
+> Only when **equal** keys are there.
+
+## Searching in Binary Search Tree(BST)
+
+> Done in *45_Binary_Search_Tree*. Practice them.
+
+## Insertion in Binary Search Tree(BST)
+
+
+## Construct Binary Search Tree(BST) using keys
+
+## Find **Minimum** in  Binary Search Tree(BST)
+
+> Go to the left->left->left as long as we don't find a node who's **left child** is empty or not present, right child can be present as well that doesn't matter. Then that *node's data* is the **minimum** of BST.
+
+## Find **Maximum** in  Binary Search Tree(BST)
+
+> Go to the right->right->right as long as we don't find a node who's **right child** is empty or not present, left child can be present as well that doesn't matter. Then that *node's data* is the **maximum** of BST.
+
+
+> If we take the **Inorder** traversal of a BST then it will be (left subtree-> root-> right subtree) smaller values->root->larger values.
+> Hence, if we take the **Inorder** traversal of a BST, then it will be in **sorted order/sequence** of **ascending order**.
+> **Inorder traversal** of a BST is a **sorted sequence** in **ascending order**.
+> **Converse Inorder traversal** of a BST is a **sorted sequence** in **descending order** as it is the **reverse/opposite** of **conventional inorder**.
+
+> We can directly **construct** a BST from a **pre-order** traversal because in BST, the left subtree elements are smaller than root and right subtree elements are greater than the root. We have to insert the elements from **left to right**.
+
+
+> Pre-order -> **root->Left->right**. Traversal is from **left to right**.
+> We know the left most element is the **root** of the tree. Hence, we will traverse all of the elements from **left subtree** then only will go to **right subtree**. After we have gone to the **right subtree** we can't go back to traversing **left subtree** which is **wrong**. First traverse the whole **left subtree** and then come to **right subtree** which is **pre-order** traversal.
+
+> Post-order -> **Left->right->root**. Traversal is from **right to left**.
+> We know the right most element is the **root** of the tree. Hence, we will traverse all of the elements from **right subtree** then only will go to **left subtree**. After we have gone to the **left subtree** we can't go back to traversing **right subtree** which is **wrong**. First traverse the whole **right subtree** and then come to **left subtree** which is **post-order** traversal.
+
+### Checking validity of post-order traversal
+
+
+## DPP 15 from *45_Binary_Search_Tree*
+
+* 1-> III
+
+### Solutions to DPP 15
+
 
 
 
