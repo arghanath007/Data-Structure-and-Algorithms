@@ -3168,9 +3168,9 @@ if n = 10, then position = 8(2^3)
 
 ## DPP 12 from *41_Basics_of_tree*
 
-* 1->
+> Solved in **44_Doubt_Clearing_Session**.
 
-> All of the answers are below.
+> **All of the answers are below**.
 
 ### Answers
 
@@ -3182,16 +3182,31 @@ if n = 10, then position = 8(2^3)
 
 ### Correction for above questions
 
-> *4* and *5* are wrong. Fix them.
-> In **4** should have converted the **converse postorder and the converse inorder** traversal to **conventional preorder and conventional inorder respectively** traversal by simply **reversing** it. It would have been easier.
-
 ### Solution for **Q4**
+
+> In **4** should have converted the **converse postorder and the converse inorder** traversal to **conventional preorder and conventional inorder respectively** traversal by simply **reversing** it. It would have been easier.
 
 ![image](https://user-images.githubusercontent.com/54589605/215431681-32b3de5f-3c65-4d88-a3cf-884afcb5ceba.png)
 
+### Solution for **Q5**
+
+> In **5** should have converted the **converse preorder** traversal to **conventional postorder** traversal by simply **reversing** it. It would have been easier.
+
+![image](https://user-images.githubusercontent.com/54589605/215456680-691cf082-3ddb-4ae1-9e79-c3a0d8394c84.png)
+
+### Solution for **Q8**
 
 > *8* is wrong as well. Element 6 would be right child pointer.
-> Sir solved *10*. Check it.
+
+![image](https://user-images.githubusercontent.com/54589605/215458688-c355aac8-df3b-4aef-a662-33210c899bd6.png)
+
+### Solution for **Q10**
+
+> This was a different question. Wasn't able to do it. **Check it out again. During revision**.
+
+![image](https://user-images.githubusercontent.com/54589605/215459806-9dc7a4b3-c2d2-4eb7-9b8d-9bf9a9c9b7a1.png)
+
+> **Rest of the solutions are correct**.
 
 ## Operations on Binary Tree (42) [27 Jan 2023]
 
@@ -3228,9 +3243,10 @@ if n = 10, then position = 8(2^3)
 ## DPP 13 from *42_operations_on_binary_tree*
 
 > Question 3, solved in *43_Operations_on_Binary_tree* beginning.
+> Rest of them are solved in **44_Doubt_Clearing_Session**.
 
 * 1-> BDEACFG
-* 2-> CGFABDE [Got it wrong]
+* 2-> CGFABED [Got it wrong]
 * 3-> 6 [Got it wrong. Thought 4 is correct]
 * 4-> [Answers below]
 
@@ -3245,12 +3261,32 @@ if n = 10, then position = 8(2^3)
 
 ![DPP_solutions_Tree_25](https://user-images.githubusercontent.com/54589605/215255769-a6010d51-db0e-41ba-a9d3-00bf88e270dc.jpeg)
 
-> Q5
-
 ### Correct solution for **Q3**
 
 ![image](https://user-images.githubusercontent.com/54589605/215279979-6227371f-3c98-4e0c-864b-a992c7a8f80c.png)
 ![image](https://user-images.githubusercontent.com/54589605/215279988-db3c4ff7-85bf-41f6-a9cc-a2a4a37f4ce1.png)
+
+### Correct solution for **Q2**
+
+![image](https://user-images.githubusercontent.com/54589605/215460945-5dca21c5-cd32-4cd8-be91-98fe53877031.png)
+
+### Correct solution for **Q4 part 5**
+
+> I did all of it right. Forgot to add the **=** operator.
+
+![image](https://user-images.githubusercontent.com/54589605/215461680-7143a83b-8a80-404f-8dd1-0ea73f0ed4fd.png)
+![image](https://user-images.githubusercontent.com/54589605/215461714-5668a4e6-3169-47d7-8a86-2eb91f8f566b.png)
+
+> **Some questions** can be asked here after the **tree** is drawn.
+> Some of the questions can be asked are like **below**. Some of the questions which could be asked after drawing the tree.
+
+* The operator at the lowest level?
+* How many nodes are there at the lowest level?
+* What is at the root?
+* Height of the tree?
+* No. of nodes at a specific level.
+* Some specific operator at some level.
+
 
 
 ## Complete Binary Tree (43) [28 Jan 2023]
@@ -3359,23 +3395,81 @@ We know,
 
 ## DPP 14 from *43_Operations_on_Binary_Tree*
 
-* 1-> 2^(h+1) - (h+2) [h-> height of tree] [Got it wrong]
-* 2-> 2^(h+1) - (h+2) [h-> height of tree]
-* 3-> 2^h -(h+1) [Check sir did it]
-* 4->  [Check sir did it]
-* 5-> Best case= 1, Worst case=2^h [Got the worst case wrong]
+> Solved in **44_Doubt_Clearing_Session**.
+
+* 1-> [h] [h-> height of tree] [Got it wrong]
+* 2-> [h] [h-> height of tree] [Got it wrong]
+* 3-> [2^h -(h+1)] [OR, 2^h-h-1] [Check sir did it]
+* 4-> [2^(h+1)-h-2] [Check sir did it]
+* 5-> Best case= 1, Worst case=2^h [Got the **worst case** wrong]
 * 6-> Leaf nodes= 16, Internal nodes= 15
 * 7-> Leaf nodes= 51, Total no. of nodes= 101
 * 8-> Not possible [Since in Full Binary Tree, no. of nodes always **odd**]
-* 9-> D [(2n+1)/3]
-* 10-> C [n(k-1)+1]
-* 11-> A [0] [Descendants -> All children. Full Binary Tree either **zero(0)** or **2** children]
+* 9-> D [(2n+1)/3] [Explaination in *44_Doubt_Clearning* PDF File]
+* 10-> C [n(k-1)+1] [Reference to this formula, here they used 'n' instead of 'I',(k-1)I +1]
+* 11-> A [0] [Descendants -> All children. Full Binary Tree either **zero(0)** or **2** children] [Got it wrong]
+
+### Solutions
+
+### **Q1**
+
+![image](https://user-images.githubusercontent.com/54589605/215463553-a73a3ba7-245f-4fc8-8977-d89ac311e756.png)
+
+> If height of a tree with single node is **1**, then it would have been **h-1** as the **answer** here. As in the question, it was **0** as the height of a tree with single node, hence it was **h** as the answer to the question.
+
+* Height of a tree with single node is **1* -> **h-1**
+* Height of a tree with single node is **0* -> **h** 
+
+### **Q2**
+
+![image](https://user-images.githubusercontent.com/54589605/215464241-0ed8ad6f-d7dc-4775-b665-186f5e1815ae.png)
+
+> If height of a tree with single node is **1**, then it would have been **h-1** as the **answer** here. As in the question, it was **0** as the height of a tree with single node, hence it was **h** as the answer to the question.
+
+* Height of a tree with single node is **1* -> **h-1**
+* Height of a tree with single node is **0* -> **h** 
+
+### **Q3**
+
+![image](https://user-images.githubusercontent.com/54589605/215468135-cd650671-f7c9-4a70-bd2f-ffff07ff5a1f.png)
+
+### **Q4**
+
+![image](https://user-images.githubusercontent.com/54589605/215468218-56324776-a2be-4c93-ad06-92b1494855c6.png)
+
+### **Q5**
+
+![image](https://user-images.githubusercontent.com/54589605/215468790-c46fcad5-a802-4a55-a402-5a5cd8ad69c6.png)
+
+### **Q11**
+
+![image](https://user-images.githubusercontent.com/54589605/215471131-1c0c4222-2f9d-4635-90cb-2fb487907bd6.png)
+
+> To get **odd** count of descendants including itself(mentioned in the questions) then we have to have **even** number of childen of the node. If we remove the *including itself condition* then the count of descendants would be **even** which means that they are talking about a **Full Binary Tree** as it can only have **0 or 2** children. As we know a **Full Binary Tree** has **odd** no. of nodes. Hence to have **odd** descendats including itself we need to have either **0 or 2** children of a node. If it had **1** child then the count will become **even**. Hence it doesn't have any **1** child nodes. So the answer is **zero**.
+
+![image](https://user-images.githubusercontent.com/54589605/215473274-8be10813-d743-4051-90ef-6b632518f093.png)
+![image](https://user-images.githubusercontent.com/54589605/215473349-7ed66e1a-1130-4dfa-80c5-2d1f03884557.png)
+
+
+
+
+
+
+
+
 
 ## **44_Doubt_Clearing_Session** (44) [30 Jan 2023]
 
 ## Binary Search Tree(BST) (45)
 
+
+
+
+
+## Questions to ask(sir) in next class.
+
 * Insertion will be O(log n) or theta(log n) [Ask]
+* Didn't complete all of the DPPs from DPP 13 Q4, only did Part 5 of Q4.
 
 
 
