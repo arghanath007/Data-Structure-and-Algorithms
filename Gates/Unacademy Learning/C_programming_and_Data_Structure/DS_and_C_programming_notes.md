@@ -3451,15 +3451,11 @@ We know,
 ![image](https://user-images.githubusercontent.com/54589605/215473274-8be10813-d743-4051-90ef-6b632518f093.png)
 ![image](https://user-images.githubusercontent.com/54589605/215473349-7ed66e1a-1130-4dfa-80c5-2d1f03884557.png)
 
-
-
-
-
-
-
-
-
 ## **44_Doubt_Clearing_Session** (44) [30 Jan 2023]
+
+## Searching Revision/Summary
+
+
 
 ## Binary Search Tree(BST) (45)
 
