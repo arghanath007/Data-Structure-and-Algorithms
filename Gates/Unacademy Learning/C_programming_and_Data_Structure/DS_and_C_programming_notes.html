@@ -320,7 +320,7 @@ pre[data-line] .line-highlight[data-end]:after {
 <h2 class="mume-header" id="-watch-tomorrow">Watch tomorrow</h2>
 
 <ul>
-<li>Link -&gt; <a href="https://unacademy.com/class/introduction-to-data-structure/RFZ6RXXG">https://unacademy.com/class/introduction-to-data-structure/RFZ6RXXG</a></li>
+<li>Link -&gt; <a href="https://unacademy.com/class/operations-on-binary-tree-part-i/UWAUBRDP">https://unacademy.com/class/operations-on-binary-tree-part-i/UWAUBRDP</a></li>
 <li>Revison on C Language. (Completed)</li>
 </ul>
 <h2 class="mume-header" id="-c-programming">C programming.</h2>
@@ -1335,11 +1335,15 @@ All of these statements(starting with &apos;#&apos;) are run before the compilat
 <li>6 -&gt; Solve the DPP question as revision. (18 Jan 2023).</li>
 <li>7 -&gt; Start from Queue.(19 Jan 2023)</li>
 <li>8 -&gt; Start from Double Ended Queue(20 Jan 2023)</li>
+<li>9 -&gt; Start from Applications of stack(24 Jan 2023)</li>
+<li>10 -&gt; Start from Tree(25 Jan 2023)</li>
 </ul>
 <h2 class="mume-header" id="-weekly-revision">Weekly Revision</h2>
 
 <ul>
 <li>1 -&gt; Revise everything from 16 to 21 Jan 2023. Practice questions.</li>
+<li>2 -&gt; Revise everything from 21 to 28 Jan 2023. Practice questions.</li>
+<li>3 -&gt; Revise everything from 29 to 5 Feb 2023. Practice questions.</li>
 </ul>
 <h2 class="mume-header" id="-introduction-to-ds-17">Introduction to DS (17)</h2>
 
@@ -1926,6 +1930,9 @@ Binary search works only on sorted array.</p>
 </ul>
 <h2 class="mume-header" id="-22_searching_in_array-questions">22_Searching_in_Array Questions</h2>
 
+<blockquote>
+<p>Solved in  <em>24_Doubt_Clearning_Session</em>.</p>
+</blockquote>
 <ul>
 <li>1 -&gt; B [Theta(logn)]</li>
 <li>2 -&gt; B [O(logn)]</li>
@@ -1981,17 +1988,19 @@ Address of first node is stored in list/head/start pointer. This is used to acce
 <li>2 -&gt;</li>
 </ul>
 <blockquote>
-<p>null pointer dereferencing errors or NPDs as the problem hasn&apos;t handled the base conditions like,</p>
+<p>As the base conditions are not being handled/written in the question/problem. Because of the lack of base conditions, we will encounter Null Pointer Dereferencing errors or NPDs errors/problems.</p>
 </blockquote>
+<h3 class="mume-header" id="-base-conditions-missing">Base conditions missing:</h3>
+
 <ul>
 <li>start =NULL;</li>
-<li>Linked list has one element only. start points to only node only.</li>
+<li>If Linked list has one element only. &apos;start&apos; pointer  points to only one node.</li>
 </ul>
 <p><img src="https://user-images.githubusercontent.com/54589605/212615573-8835e66b-559b-4a75-99d0-022920d6f11b.png" alt="image"></p>
 <h3 class="mume-header" id="-to-remove-the-npds-errors">To remove the NPDs errors</h3>
 
 <p><img src="https://user-images.githubusercontent.com/54589605/212616164-dda68630-d5fb-4c8d-92c6-c753825778af.png" alt="image"></p>
-<h2 class="mume-header" id="-dpp-3-23_linked_list_basics">DPP 3 (23_Linked_list_basics)</h2>
+<h2 class="mume-header" id="-dpp-3-from-23_linked_list_basics">DPP 3 from <em>23_Linked_list_basics</em></h2>
 
 <blockquote>
 <p>These questions are in the next DPP as well, which is DPP 4 in <em>25_Linked_list_implementation</em> PDF file. Some extra questions are present as well. Check that out. I will complete all of them there.</p>
@@ -2232,7 +2241,7 @@ Binary search in linked list can not be as efficient as it is on array because i
 <h2 class="mume-header" id="-reverse-a-linked-list">Reverse a linked list</h2>
 
 <pre data-role="codeBlock" data-info="c" class="language-c">    <span class="token keyword keyword-struct">struct</span> <span class="token class-name">node</span><span class="token operator">*</span> p<span class="token operator">=</span>start<span class="token punctuation">;</span>
-    <span class="token keyword keyword-struct">struct</span> <span class="token class-name">node</span><span class="token operator">*</span> p<span class="token operator">=</span><span class="token constant">NULL</span><span class="token punctuation">;</span>
+    <span class="token keyword keyword-struct">struct</span> <span class="token class-name">node</span><span class="token operator">*</span> q<span class="token operator">=</span><span class="token constant">NULL</span><span class="token punctuation">;</span>
     <span class="token keyword keyword-struct">struct</span> <span class="token class-name">node</span><span class="token operator">*</span> r<span class="token punctuation">;</span>
     <span class="token keyword keyword-while">while</span><span class="token punctuation">(</span>p<span class="token punctuation">)</span>
     <span class="token punctuation">{</span>
@@ -2554,7 +2563,9 @@ For deletion, front index changes.</p>
 </ul>
 <h3 class="mume-header" id="-another-overflow-condition-but-for-circular-queue">Another overflow condition but for <strong>circular queue</strong></h3>
 
-<pre data-role="codeBlock" data-info="c" class="language-c">    front<span class="token operator">=</span> <span class="token punctuation">(</span>read<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token operator">%</span>N<span class="token punctuation">;</span>  <span class="token comment">//N -&gt; size of the array.</span>
+<pre data-role="codeBlock" data-info="c" class="language-c">    front<span class="token operator">=</span> <span class="token punctuation">(</span>rear<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token operator">%</span>N<span class="token punctuation">;</span>  <span class="token comment">//N -&gt; size of the array.</span>
+
+    <span class="token keyword keyword-if">if</span><span class="token punctuation">(</span>front <span class="token operator">==</span> <span class="token punctuation">(</span>rear<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token operator">%</span>N<span class="token punctuation">)</span>
 </pre><h2 class="mume-header" id="-deletion-or-dequeue-in-queue">Deletion or dequeue in queue</h2>
 
 <blockquote>
@@ -2847,11 +2858,14 @@ If two elements have same priority then first inserted element gets deleted.</p>
 <p>Solved in <em>33_Stack_permutation_and_Advanced_Topics</em>.</p>
 </blockquote>
 <ul>
-<li>1-&gt;</li>
-<li>2-&gt; B [3Y+2X]</li>
+<li>1-&gt; 532 and 530</li>
+<li>2-&gt; D [Y+2X]</li>
 <li>3-&gt; 16<sup>16[n</sup>2]</li>
 </ul>
-<h2 class="mume-header" id="-implementation-of-queue-using-stack">Implementation of queue using stack</h2>
+<blockquote>
+<p>These questions and a few more were given in the next DPP i.e DPP 7 from <em>33_Stack_permutation_and_Advanced_Topics</em> PDF file. Check them below for correct solutions.</p>
+</blockquote>
+<h2 class="mume-header" id="-implementation-of-queue-using-stack-33">Implementation of queue using stack (33)</h2>
 
 <h3 class="mume-header" id="-best-method">Best Method</h3>
 
@@ -2878,7 +2892,7 @@ If two elements have same priority then first inserted element gets deleted.</p>
     <span class="token punctuation">}</span>
 </pre><blockquote>
 <p>In deletion, first we are checking if s2 or second stack is empty or not.<br>
-If it is empty then we are going to pop the remaining elements from s1 stack and push them in s2. Then we perform deletion but using POP() from s2.<br>
+If it is empty then we are going to pop the remaining elements from s1 stack and push them in s2. Then we perform deletion by using POP() from s2.<br>
 If s2 is not empty then we directly use POP() to pop elements from s2.</p>
 </blockquote>
 <p><img src="https://user-images.githubusercontent.com/54589605/213701851-ebb704ff-872b-4081-a6d6-cd14840a5301.png" alt="image"><br>
@@ -2939,7 +2953,7 @@ The space utilization is not the best as if one of the stacks is full but not th
 <p>n -&gt; size of the array</p>
 </li>
 <li>
-<p>top1= -1 (initial position)</p>
+<p>top1= -1 (initial position, starting from index zero(0))</p>
 </li>
 <li>
 <p>maxtop1= n/2-1 (max position of stack 1, end of stack 1)</p>
@@ -2948,7 +2962,7 @@ The space utilization is not the best as if one of the stacks is full but not th
 <h3 class="mume-header" id="-stack-two2">stack two(2)</h3>
 
 <ul>
-<li>top2= n/2-1 (initial position)</li>
+<li>top2= n/2-1 (initial position, starting from index n/2)</li>
 <li>maxtop2 = n-1 (max position of stack 2, end of stack 2)</li>
 </ul>
 <h3 class="mume-header" id="-method-2">Method 2</h3>
@@ -3002,13 +3016,13 @@ Space utilization is optimized than <em>method 1</em>.</p>
 
 <p><img src="https://user-images.githubusercontent.com/54589605/213704619-4d78c95b-a89d-4a99-8a2d-1db0dba9182e.png" alt="stack_question"></p>
 <blockquote>
-<p>Here, we are limiting the size of the stacks in the array. Space optimization will be hampered. If the stacks are not distributed equally i.e one of the stacks is larger/smaller thant the other.</p>
+<p>Here, we are limiting the size of the stacks in the array. Space optimization will be hampered. If the stacks are not distributed equally i.e one of the stacks is larger/smaller than the other.</p>
 </blockquote>
 <h3 class="mume-header" id="-option-2">Option 2</h3>
 
 <p><img src="https://user-images.githubusercontent.com/54589605/213705171-26b9dddc-f67a-49b7-88a5-8dd0aa62364f.png" alt="stack_question_1"></p>
 <blockquote>
-<p>Even if the stacks are not full or have the overflow condition. Then also this option we condition to <em>True</em> in that case as well, which is wrong. Even if have free space to store elements, this condition will say <em>True</em> for the array full condition.<br>
+<p>Even if the stacks are not full or have the overflow condition. Then also this option will condition to <em>True</em> in that case as well, which is wrong. Even if have free space to store elements, this condition will say <em>True</em> for the array full condition.<br>
 <strong>top1+top2=maxsize</strong> -&gt; Even though stack is not full, it will give <em>True</em> to the stack full condition.</p>
 </blockquote>
 <h3 class="mume-header" id="-option-3">Option 3</h3>
@@ -3019,7 +3033,1005 @@ Space utilization is optimized than <em>method 1</em>.</p>
 </blockquote>
 <h2 class="mume-header" id="-implement-more-than-2-stacks-in-an-array">Implement more than 2 stacks in an array</h2>
 
-<blockquote></blockquote>
+<blockquote>
+<p>If we want to do that then we have to given equal space to all of the stacks that we are creating in an array.<br>
+Space utilization will not happen properly. Space will be wasted if some of the stacks are not fully filled to the allocated size of the stacks.</p>
+</blockquote>
+<p><img src="https://user-images.githubusercontent.com/54589605/213721666-daa4c5b4-c0b5-48be-a919-2e20dcfbf99a.png" alt="image"></p>
+<h2 class="mume-header" id="-dpp-7-from-33_stack_permutation_and_advanced_topics">DPP 7 from <em>33_Stack_permutation_and_Advanced_Topics</em></h2>
+
+<blockquote>
+<p>Solved in <em>36_Doubt_Clearning_Session</em> PDF file.</p>
+</blockquote>
+<ul>
+<li>1-&gt; 532 and 530 [Solved in <em>33_Stack_permutation_and_Advanced_Topics</em>]</li>
+<li>2-&gt; C [n(X+Y)-X]  [Got it wrong, thought D [Y+2X] was answer]</li>
+<li>3-&gt; 16^16=256 [n^2]</li>
+<li>4-&gt; * 1. if(top[i]<mark>bottom[i+1])<br>
+* 2. if(top[i]<mark>bottom[i])   [Got it wrong, *if(top</mark>n-1) and if(top</mark>bottom)*]</li>
+</ul>
+<h2 class="mume-header" id="-applications-of-stack-34-21-jan-2023">Applications of stack (34) [21 Jan 2023]</h2>
+
+<ul>
+<li>
+<p>Expression Evaluation</p>
+</li>
+<li>
+<p>Recursion</p>
+</li>
+<li>
+<p>operator -&gt; denotes operation</p>
+</li>
+<li>
+<p>operands -&gt; data or value on which operation is to be performed.</p>
+</li>
+<li>
+<p>++a -&gt; prefix</p>
+</li>
+<li>
+<p>a++ -&gt; postfix</p>
+</li>
+</ul>
+<blockquote>
+<p>They are unary operators.</p>
+</blockquote>
+<h3 class="mume-header" id="-questiondoubt">Question/doubt</h3>
+
+<p><img src="https://user-images.githubusercontent.com/54589605/213860799-d31e4051-7ae5-4969-b194-69fac19460fd.png" alt="image"><br>
+<img src="https://user-images.githubusercontent.com/54589605/213860821-6bd50757-50c6-4351-86b1-1403a6044389.png" alt="image"></p>
+<blockquote>
+<p>The correct answer provided by sir is <strong>42</strong>. Which is the correct answer for these question. We are using the catalan number here to find the permutations.</p>
+</blockquote>
+<h3 class="mume-header" id="-precidence-and-associativity">Precidence and Associativity</h3>
+
+<blockquote>
+<p>There is no any parenthesis in prefix or postfix notations. Only in &apos;infix&apos; there are parenthesis, for executing them(+,-) before, * and /, even though their precidence is lower than * and /.<br>
+Solve some expression questions to get used to it. Sir solved some in <em>34_Expressions_Prefix</em> PDF file.<br>
+If we have unary operators then they will either be in <em>prefix</em> or in <em>postfix</em> expressions. Because they can only be in <em>prefix or postfix</em> format like below.</p>
+</blockquote>
+<p><img src="https://user-images.githubusercontent.com/54589605/214219338-e171558c-414a-4652-99b1-f883f1077324.png" alt="image"></p>
+<ul>
+<li>
+<p>++a -&gt; prefix</p>
+</li>
+<li>
+<p>a++ -&gt; postfix</p>
+</li>
+<li>
+<p>Two methods:</p>
+</li>
+</ul>
+<ol>
+<li>Infix -&gt; Prefix or postfix</li>
+<li>Prefix or postfix -&gt;  Infix</li>
+</ol>
+<h3 class="mume-header" id="-unary-operators-in-expressions">Unary operators in expressions</h3>
+
+<p><img src="https://user-images.githubusercontent.com/54589605/213864116-ea9f9b28-c616-45c8-8e1a-e81fd6371a84.png" alt="image"></p>
+<blockquote>
+<p>Precedence of any unary operator is more than any binary operator.</p>
+</blockquote>
+<blockquote>
+<p>The main reason for learning conversion from <em>infix</em> to <em>postfix and prefix</em> is that CPU doesn&apos;t know the rules/logic of <em>Precedence and associativity</em>. In compiler design, the compiler fully converts the <em>infix</em> expression to <em>postfix or prefix</em> and then it sends the converted expression either in <em>postfix or prefix</em> to the CPU. Now the CPU knows these expressions and how to solve it.</p>
+</blockquote>
+<h3 class="mume-header" id="-infix-to-prefix-or-postfix">Infix to (Prefix or postfix)</h3>
+
+<ul>
+<li>According to precedence and associtivity.</li>
+</ul>
+<h3 class="mume-header" id="-postfix-to-infix">Postfix to Infix</h3>
+
+<ol>
+<li>Scan from <strong>left to right</strong>.</li>
+<li>Solve first operator.</li>
+<li>Repeat step 1.</li>
+</ol>
+<h3 class="mume-header" id="-questions-in-34_expressions_prefix">Questions in <em>34_Expressions_Prefix</em></h3>
+
+<ul>
+<li>1-&gt; 2+5*3^2+9</li>
+<li>2-&gt; 9/4+2^3-8 [I think, I did Prefix to infix conversion]</li>
+<li>3-&gt; [Not yet taught]</li>
+<li>4-&gt; [Not yet taught]</li>
+</ul>
+<h3 class="mume-header" id="-dpp-8-from-34_expressions_prefix">DPP 8 from <em>34_Expressions_Prefix</em></h3>
+
+<blockquote>
+<p>Solved in <em>36_Doubt_Clearning_Session</em> PDF file.</p>
+</blockquote>
+<ul>
+<li>
+<p>1-&gt; 1)* -/*+AB-CDF/*XYZ    [Prefix]<br>
+* AB+CD-<em>F/XY</em>Z/-    [Postfix]</p>
+<pre class="language-text">2)* -+a*bc^d^ef        [Prefix]
+  * abc*+def^^-        [Postfix]
+
+3)* ++A/*B+CDF*DE      [Prefix]
+  * ABCD+*F/+DE*+      [Postfix]
+
+4)* -*3log+x1/a2       [Prefix]
+  * 3x1+log*a2/-       [Postfix]
+
+5)* =a-+*-b^c^de/*fgh*ij [Prefix]     [Got it wrong, first &apos;-&apos; minus is *unary* operator, so we have to solve it   first. Second &apos;-&apos; minus is binary operator.]
+  * ab-cde^^*fg*h/+ij*-= [Postfix]  [Didnt&apos;t do it, Try it again while revision]
+</pre>
+</li>
+<li>
+<p>2-&gt; 1) (A+B*(C-D))/E<br>
+1) A+B<em>C/D-E<br>
+2) A</em>B-C+D<br>
+3) A*(B+C)-D</p>
+</li>
+<li>
+<p>3-&gt; [Not yet taught]</p>
+</li>
+</ul>
+<h2 class="mume-header" id="-postfix-to-prefix--35">Postfix to prefix  (35)</h2>
+
+<ul>
+<li>Scan from <em>left to right</em></li>
+<li>Change the postfix expression from <em>postfix</em> to <em>prefix</em> directly.</li>
+</ul>
+<h2 class="mume-header" id="-prefix-to-infix">Prefix to infix</h2>
+
+<ul>
+<li>Scan from <em>right to left</em></li>
+<li>After operator, 2 operands are the operands needed in the operator.</li>
+</ul>
+<h2 class="mume-header" id="-prefix-to-postfix">Prefix to postfix</h2>
+
+<ul>
+<li>Scan from <em>right to left</em></li>
+<li>After operator, 2 operands are the operands needed in the operator.</li>
+</ul>
+<h2 class="mume-header" id="-evaluation-of-postfix-notation-using-stack">Evaluation of <em>postfix notation using stack</em></h2>
+
+<ul>
+<li>Push the operands in stack</li>
+<li>If operand found, then pop two elements from stack top.</li>
+<li>Start from <strong>left to right</strong></li>
+<li>Evaluate as <em>b operator a</em>. Example: <em>b-a</em></li>
+</ul>
+<h3 class="mume-header" id="-example-5">Example</h3>
+
+<p><img src="https://user-images.githubusercontent.com/54589605/213919361-22a5e035-b6ac-4c82-a608-e105064d8f6b.png" alt="image"><br>
+<img src="https://user-images.githubusercontent.com/54589605/213919375-31d63fe0-6610-403b-8bc5-6d81dc604b2e.png" alt="image"><br>
+<img src="https://user-images.githubusercontent.com/54589605/213919383-6f64b295-e2e7-44c8-871a-a8a49d7ea569.png" alt="image"></p>
+<h2 class="mume-header" id="-evaluation-of-prefix-notation-using-stack">Evaluation of <em>prefix notation using stack</em></h2>
+
+<ul>
+<li>Push the operands in stack</li>
+<li>If operand found, then pop two elements from stack top.</li>
+<li>Start from <strong>right to left</strong></li>
+<li>Evaluate as <em>a operator b</em>. Example: <em>a-b</em></li>
+</ul>
+<h3 class="mume-header" id="-example-6">Example</h3>
+
+<p><img src="https://user-images.githubusercontent.com/54589605/213919390-ca816044-4264-4616-be1b-1b578e831359.png" alt="image"></p>
+<blockquote>
+<p>Create a small table to remeber them properly and practice them as well. They are confusing and easy to forget.</p>
+</blockquote>
+<h3 class="mume-header" id="-table-to-remember-expression-evaluations">Table to remember Expression evaluations</h3>
+
+<table>
+<thead>
+<tr>
+<th>Conversion</th>
+<th>Position</th>
+<th>Operands</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Postfix to infix</td>
+<td>left to right</td>
+<td>2 operands immediately from left</td>
+</tr>
+<tr>
+<td>Infix to (Prefix or Postfix)</td>
+<td>Precedence and associtivity</td>
+<td>Postfix/prefix</td>
+</tr>
+<tr>
+<td>Postfix to prefix</td>
+<td>Left to right</td>
+<td>Directly Change it to prefix</td>
+</tr>
+<tr>
+<td>Prefix to infix</td>
+<td>Right to left</td>
+<td>2 operands immediately from right</td>
+</tr>
+<tr>
+<td>Prefix to postfix</td>
+<td>Right to left</td>
+<td>Directly Change it to postfix</td>
+</tr>
+<tr>
+<td>Postfix notation using stack</td>
+<td>left to right</td>
+<td>a-&gt;top, b-&gt;2nd top;  a,b;   b^a OR [b operator a]</td>
+</tr>
+<tr>
+<td>Prefix notation using stack</td>
+<td>right to left</td>
+<td>a-&gt;top, b-&gt;2nd top;  a,b;   a^b OR [a operator b]</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 class="mume-header" id="-table-image">Table Image</h3>
+
+<blockquote>
+<p>If the above is difficult to read. For some reason.</p>
+</blockquote>
+<p><img src="https://user-images.githubusercontent.com/54589605/214223284-1702d5ad-8bc1-4421-ad0b-42351fa46d32.png" alt="image"><br>
+<img src="https://user-images.githubusercontent.com/54589605/214223309-1229faa0-8bbc-46eb-a3ee-55d2c4eecb43.png" alt="image"></p>
+<h2 class="mume-header" id="-doubt-solving-session-36">Doubt Solving Session (36)</h2>
+
+<h3 class="mume-header" id="-question-1">Question 1</h3>
+
+<p><img src="https://user-images.githubusercontent.com/54589605/214226598-a80ed8bf-231b-45f1-bd39-2c7ab9f9f16c.png" alt="image"></p>
+<h3 class="mume-header" id="-answer-of-q1">Answer of Q1</h3>
+
+<p><img src="https://user-images.githubusercontent.com/54589605/214226632-39b05234-2cc4-47ca-8549-4973f6a20878.png" alt="image"></p>
+<h3 class="mume-header" id="-explaination">Explaination</h3>
+
+<p><img src="https://user-images.githubusercontent.com/54589605/214226694-a3603350-7a2a-41d7-beca-4de09da049b2.png" alt="image"></p>
+<h3 class="mume-header" id="-code">Code</h3>
+
+<pre data-role="codeBlock" data-info="c" class="language-c">  <span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;stdio.h&gt;</span></span>
+
+  <span class="token keyword keyword-int">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword keyword-char">char</span> str1<span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token operator">=</span><span class="token string">&quot;Madeeasy&quot;</span><span class="token punctuation">;</span>
+    <span class="token keyword keyword-char">char</span> str2<span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token operator">=</span> <span class="token punctuation">{</span><span class="token string">&apos;M&apos;</span><span class="token punctuation">,</span><span class="token string">&apos;a&apos;</span><span class="token punctuation">,</span><span class="token string">&apos;d&apos;</span><span class="token punctuation">,</span><span class="token string">&apos;e&apos;</span><span class="token punctuation">,</span><span class="token string">&apos;e&apos;</span><span class="token punctuation">,</span><span class="token string">&apos;a&apos;</span><span class="token punctuation">,</span><span class="token string">&apos;s&apos;</span><span class="token punctuation">,</span><span class="token string">&apos;y&apos;</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
+    <span class="token keyword keyword-int">int</span> m<span class="token operator">=</span><span class="token keyword keyword-sizeof">sizeof</span><span class="token punctuation">(</span>str1<span class="token punctuation">)</span><span class="token operator">/</span><span class="token keyword keyword-sizeof">sizeof</span><span class="token punctuation">(</span>str1<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword keyword-int">int</span> n<span class="token operator">=</span><span class="token keyword keyword-sizeof">sizeof</span><span class="token punctuation">(</span>str2<span class="token punctuation">)</span><span class="token operator">/</span><span class="token keyword keyword-sizeof">sizeof</span><span class="token punctuation">(</span>str2<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">&quot;m=%d, n=%d\n&quot;</span><span class="token punctuation">,</span>m<span class="token punctuation">,</span>n<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">&quot;%d\n&quot;</span><span class="token punctuation">,</span> <span class="token keyword keyword-sizeof">sizeof</span><span class="token punctuation">(</span>str1<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// length of array + 1. since it is a string</span>
+    <span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">&quot;%d\n&quot;</span><span class="token punctuation">,</span> <span class="token keyword keyword-sizeof">sizeof</span><span class="token punctuation">(</span>str1<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">//sizeof of character</span>
+    <span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">&quot;%d\n&quot;</span><span class="token punctuation">,</span> <span class="token keyword keyword-sizeof">sizeof</span><span class="token punctuation">(</span>str2<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// length of array. since it is a character array.</span>
+    <span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">&quot;%d\n&quot;</span><span class="token punctuation">,</span> <span class="token keyword keyword-sizeof">sizeof</span><span class="token punctuation">(</span>str2<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword keyword-return">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+</pre><h2 class="mume-header" id="-recursion-in-ds-37-23-jan-2023">Recursion in DS (37) [23 Jan 2023]</h2>
+
+<blockquote>
+<p>Go through the <em>37_Recursion_in_DS</em> PDF file. Everything is explained there.</p>
+</blockquote>
+<h3 class="mume-header" id="-fibonacci-series">Fibonacci Series</h3>
+
+<p><img src="https://user-images.githubusercontent.com/54589605/213985055-f8ca57d0-3fc6-49dc-afac-569fd0831474.png" alt="image"><br>
+<img src="https://user-images.githubusercontent.com/54589605/213984934-ba94e368-2621-46d6-9222-8c85f59b0ce4.png" alt="image"><br>
+<img src="https://user-images.githubusercontent.com/54589605/213984982-4566cca4-029a-426c-b001-421815754308.png" alt="image"><br>
+<img src="https://user-images.githubusercontent.com/54589605/213985013-c34951cd-3d6d-42f3-a932-9700ea728a1d.png" alt="image"></p>
+<h3 class="mume-header" id="-power-function">Power() function</h3>
+
+<ul>
+<li>pow(x,n)</li>
+</ul>
+<p><img src="https://user-images.githubusercontent.com/54589605/213985102-92ee491c-a17b-4d09-b51f-4a1d1788a01e.png" alt="image"><br>
+<img src="https://user-images.githubusercontent.com/54589605/213985213-05db03c6-14a6-470e-bf8c-e9cfb6bed868.png" alt="image"><br>
+<img src="https://user-images.githubusercontent.com/54589605/213985232-976c0ca3-4dac-4eb0-aaa5-20930ce2f394.png" alt="image"><br>
+<img src="https://user-images.githubusercontent.com/54589605/213985256-2a2badd2-3f07-4b0c-85aa-f8719ccad79e.png" alt="image"><br>
+<img src="https://user-images.githubusercontent.com/54589605/213985305-74ea2d6a-c890-44ef-8c8f-51774aa87df5.png" alt="image"><br>
+<img src="https://user-images.githubusercontent.com/54589605/213985546-f08cfdb7-5c2e-405e-9b44-879abb13f649.png" alt="image"><br>
+<img src="https://user-images.githubusercontent.com/54589605/213985628-ff0a2a6b-b9cc-476c-8616-799b418f686f.png" alt="image"></p>
+<h3 class="mume-header" id="-tower-of-hanoi">Tower of Hanoi</h3>
+
+<ul>
+<li>Runtime complexity -&gt; Theta(2^n)</li>
+</ul>
+<h3 class="mume-header" id="-algorithm-2">Algorithm</h3>
+
+<p><img src="https://user-images.githubusercontent.com/54589605/213985691-d8ffa948-5d3d-4d26-a6da-3d61d05634b0.png" alt="image"><br>
+<img src="https://user-images.githubusercontent.com/54589605/213985718-885483c1-fd2a-4b69-b55a-08bd526f4731.png" alt="image"></p>
+<h3 class="mume-header" id="-dpp-9-from-37_recursion_in_ds">DPP 9 from <em>37_Recursion_in_DS</em></h3>
+
+<p><img src="https://user-images.githubusercontent.com/54589605/213985956-d662346f-765b-43a5-8ea1-502ee2130355.png" alt="image"></p>
+<blockquote>
+<p>Solved in <em>40_Doubt_solving_session</em>.</p>
+</blockquote>
+<h3 class="mume-header" id="-question-1-solution">Question 1 solution</h3>
+
+<pre data-role="codeBlock" data-info="c" class="language-c">    <span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;stdio.h&gt;</span></span>
+
+    <span class="token keyword keyword-int">int</span> <span class="token function">div</span><span class="token punctuation">(</span><span class="token keyword keyword-int">int</span> a<span class="token punctuation">,</span> <span class="token keyword keyword-int">int</span> b<span class="token punctuation">)</span>
+    <span class="token punctuation">{</span>
+        <span class="token keyword keyword-static">static</span> <span class="token keyword keyword-int">int</span> count<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">;</span>
+        <span class="token comment">// printf(&quot;%d,%d,%d\n&quot;,a,b,count);</span>
+        <span class="token keyword keyword-if">if</span><span class="token punctuation">(</span>a<span class="token operator">==</span><span class="token number">1</span> <span class="token operator">||</span> a<span class="token operator">==</span><span class="token number">0</span><span class="token punctuation">)</span>
+        <span class="token punctuation">{</span>
+            <span class="token keyword keyword-return">return</span> count<span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+        <span class="token keyword keyword-if">if</span><span class="token punctuation">(</span>b<span class="token operator">==</span><span class="token number">0</span><span class="token punctuation">)</span>
+        <span class="token punctuation">{</span>
+            <span class="token keyword keyword-return">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+        <span class="token keyword keyword-if">if</span><span class="token punctuation">(</span>a<span class="token operator">&lt;</span>b<span class="token punctuation">)</span>
+        <span class="token punctuation">{</span>
+            <span class="token keyword keyword-return">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+        count<span class="token operator">++</span><span class="token punctuation">;</span>
+        <span class="token function">div</span><span class="token punctuation">(</span>a<span class="token operator">-</span>b<span class="token punctuation">,</span>b<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword keyword-return">return</span> count<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword keyword-int">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword keyword-int">int</span> a<span class="token punctuation">,</span>b<span class="token punctuation">;</span>
+        <span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">&quot;Enter two numbers:\n&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token function">scanf</span><span class="token punctuation">(</span><span class="token string">&quot;%d%d&quot;</span><span class="token punctuation">,</span><span class="token operator">&amp;</span>a<span class="token punctuation">,</span><span class="token operator">&amp;</span>b<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword keyword-int">int</span> result<span class="token operator">=</span> <span class="token function">div</span><span class="token punctuation">(</span>a<span class="token punctuation">,</span>b<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">&quot;The result is: %d&quot;</span><span class="token punctuation">,</span> result<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+</pre><h3 class="mume-header" id="-running-and-example">Running and example</h3>
+
+<p><img src="https://user-images.githubusercontent.com/54589605/213989557-a05bf4c3-098a-493f-b9b3-2ba0c69256fe.png" alt="image"></p>
+<h3 class="mume-header" id="-question-2-solution">Question 2 Solution</h3>
+
+<pre data-role="codeBlock" data-info="c" class="language-c">    <span class="token keyword keyword-int">int</span> <span class="token function">factorial</span><span class="token punctuation">(</span><span class="token keyword keyword-int">int</span> fact<span class="token punctuation">)</span>
+    <span class="token punctuation">{</span>
+        <span class="token keyword keyword-if">if</span><span class="token punctuation">(</span>fact <span class="token operator">&lt;</span><span class="token number">0</span><span class="token punctuation">)</span>
+        <span class="token punctuation">{</span>
+            <span class="token keyword keyword-return">return</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+        <span class="token keyword keyword-if">if</span><span class="token punctuation">(</span>fact<span class="token operator">==</span><span class="token number">1</span> <span class="token operator">||</span> fact<span class="token operator">==</span><span class="token number">0</span><span class="token punctuation">)</span>
+        <span class="token punctuation">{</span>
+            <span class="token keyword keyword-return">return</span> <span class="token number">1</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+        <span class="token keyword keyword-return">return</span> fact<span class="token operator">*</span><span class="token function">factorial</span><span class="token punctuation">(</span>fact<span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword keyword-int">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword keyword-int">int</span> a<span class="token punctuation">;</span>
+        <span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">&quot;Enter a numbers:\n&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token function">scanf</span><span class="token punctuation">(</span><span class="token string">&quot;%d&quot;</span><span class="token punctuation">,</span><span class="token operator">&amp;</span>a<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword keyword-int">int</span> result<span class="token operator">=</span> <span class="token function">factorial</span><span class="token punctuation">(</span>a<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">&quot;The result is: %d&quot;</span><span class="token punctuation">,</span> result<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+</pre><h3 class="mume-header" id="-example-7">Example</h3>
+
+<p><img src="https://user-images.githubusercontent.com/54589605/213991094-1b4e1a1f-1f33-40ad-8895-22051752efce.png" alt="image"></p>
+<h2 class="mume-header" id="-tree-38">Tree (38)</h2>
+
+<h2 class="mume-header" id="-general-tree">General Tree</h2>
+
+<blockquote>
+<p>Non-linear data structure. &apos;Root&apos; is known to be at level <strong>zero(0)</strong>.</p>
+</blockquote>
+<ul>
+<li>
+<p><strong>Internal or non-leaf node</strong> -&gt; Node having children</p>
+</li>
+<li>
+<p><strong>External or leaf node</strong> -&gt; Nodes not having any children.</p>
+</li>
+<li>
+<p><strong>Total no of nodes(N)</strong> -&gt; Total no. of internal or non-leaf node(I) <strong>+</strong> Total no. of external or leaf node(L)</p>
+</li>
+<li>
+<p>Total no. of internal or non-leaf node(I)</p>
+</li>
+<li>
+<p>Total no. of external or leaf node(L)</p>
+</li>
+</ul>
+<h3 class="mume-header" id="-total-no-of-nodesn-for-any-tree"><strong>Total no of nodes(N)</strong> for any tree.</h3>
+
+<ul>
+<li>N = I + L</li>
+</ul>
+<h3 class="mume-header" id="-parenthesis-representation">Parenthesis Representation</h3>
+
+<blockquote>
+<p>To represent/store a general tree in computer storage, we use <em>Parenthesis Representation</em>. We use <em>string</em> to store it.</p>
+</blockquote>
+<h2 class="mume-header" id="-binary-tree">Binary Tree.</h2>
+
+<blockquote>
+<p>A tree in which each node has <strong>maximum 2 children</strong>. It can have <em>0,1,2</em> nodes as children.<br>
+<strong>Empty binary tree</strong> is considered as a <em>valid binary tree</em> as it does not violate any rules/definitions of binary tree.</p>
+</blockquote>
+<h3 class="mume-header" id="-linked-representation-of-binary-tree-">Linked representation of <strong>Binary Tree</strong></h3>
+
+<h3 class="mume-header" id="-handshaking-lemma-in-binary-tree">Handshaking lemma in <strong>Binary Tree</strong></h3>
+
+<ul>
+<li>No. of leaf node of Binary tree(L)</li>
+<li>No. of nodes with 2 children(I2)</li>
+<li>No. of nodes with 1 children(I1)</li>
+<li>Total no. of internal nodes(I)</li>
+<li>Total no. of nodes (N)</li>
+</ul>
+<h3 class="mume-header" id="-handshaking-lemma"><strong>Handshaking lemma</strong>:</h3>
+
+<ul>
+<li>L = I2+1.</li>
+</ul>
+<h3 class="mume-header" id="-total-no-of-internal-nodes-in-binary-tree"><em>Total No. of internal nodes</em> in <em>Binary Tree</em></h3>
+
+<ul>
+<li>I = I1 + I2.</li>
+</ul>
+<h3 class="mume-header" id="-total-no-of-nodes-in-binary-tree"><em>Total No. of nodes</em> in <em>Binary Tree</em></h3>
+
+<ul>
+<li>
+<p>N = L + I [For any tree]</p>
+</li>
+<li>
+<p>N = (I2+1) + (I1 + I2)</p>
+</li>
+<li>
+<p>N= 2I2 + I1 + 1  [<strong>Total No. of nodes in Binary Tree</strong>]</p>
+</li>
+<li>
+<p>Degree of a node -&gt; No. of children. Same thing.</p>
+</li>
+</ul>
+<h3 class="mume-header" id="-height-of-a-tree">Height of a tree.</h3>
+
+<h4 class="mume-header" id="-definition-1">Definition 1</h4>
+
+<blockquote>
+<p>Height of the tree, is nothing but it&apos;s maximum level number. Height is <em>3</em> here according to this definition.<br>
+Height of the tree with single node is <strong>zero(0)</strong>.<br>
+Height of an empty tree is <strong>minus one(-1)</strong>.<br>
+Height of the tree is the maximum/farthest distant between the root and the leaf node.<br>
+Height of the tree is the no. of edges in path from root to farthest leaf node.</p>
+</blockquote>
+<h4 class="mume-header" id="-example-8">Example</h4>
+
+<p><img src="https://user-images.githubusercontent.com/54589605/214043866-a9fe9353-9414-49ab-a78a-ab53eea54b9d.png" alt="image"></p>
+<h3 class="mume-header" id="-height-of-tree-question">Height of tree Question.</h3>
+
+<p><img src="https://user-images.githubusercontent.com/54589605/214238774-1d7cac83-e5b1-49d1-b8d4-3e9c11961898.png" alt="image"><br>
+<img src="https://user-images.githubusercontent.com/54589605/214238799-fd105467-0eec-4f3b-8fc6-1684ea351e3d.png" alt="image"></p>
+<h4 class="mume-header" id="-definition-2">Definition 2</h4>
+
+<blockquote>
+<p>Height of the tree, is maximum level number of tree plus one(+1). Height is <em>4</em> here according to this definition.<br>
+Height of the tree with single node is <strong>one(1)</strong>.<br>
+Height of an empty tree is <strong>zero(0)</strong>.<br>
+Height of the tree is the maximum/farthest distant between the root and the leaf node plus one(+1).<br>
+Height of the tree is the no. of nodes in the path from root to farthest leaf node.</p>
+</blockquote>
+<ul>
+<li>When doing <em>Tree</em> questions, try to take <strong>bigger examples</strong> like <em>2,3,4</em> and ignore or pay less attention to <em>0,1</em> as they can give multiple right/correct formulas but could/will be wrong.</li>
+</ul>
+<h2 class="mume-header" id="-tree-drawing-important">Tree drawing <em>Important</em></h2>
+
+<p><img src="https://user-images.githubusercontent.com/54589605/214238577-bfaa961e-377b-41aa-b5eb-3905b36f0aea.png" alt="image"></p>
+<h3 class="mume-header" id="-questions-from-dpp-for-example">Questions from DPP, for example</h3>
+
+<p><img src="https://user-images.githubusercontent.com/54589605/214236360-3e9d05c0-7751-4b85-8100-3e7d177fc903.jpeg" alt="DPP_solutions_Tree_1"></p>
+<p><img src="https://user-images.githubusercontent.com/54589605/214520198-112390dc-d578-47ca-9d38-88c681044fa7.jpeg" alt="DPP_solutions_Tree_2"></p>
+<h2 class="mume-header" id="-dpp-10-from-38_tree_binary_tree">DPP 10 from <em>38_Tree_Binary_Tree</em></h2>
+
+<h3 class="mume-header" id="-questions-before-dpp-">Questions before DPP</h3>
+
+<blockquote>
+<p>Only question 1 was solved in <em>39_operations_on_Binary_tree</em>.</p>
+</blockquote>
+<ul>
+<li>1-&gt; C [(1(2 3 4)(5 6 7))]  [Got it wrong, thought it was &apos;D&apos;] [GATE 2000]</li>
+<li>2-&gt; 28 [Solved, L=I2+1]</li>
+<li>3-&gt; 39 [Solved, N=2I2+I1+1]</li>
+</ul>
+<h3 class="mume-header" id="-dpp">DPP</h3>
+
+<blockquote>
+<p>Solved in <em>40_Doubt_Solving_Session</em> PDF file.</p>
+</blockquote>
+<ul>
+<li>
+<p>1-&gt; Solutions are below.</p>
+</li>
+<li>
+<p>2-&gt; Solutions are below.</p>
+</li>
+<li>
+<p>3-&gt; Solutions are below.</p>
+</li>
+<li>
+<p>4-&gt; 1) I2=L-1<br>
+2) I=I1+I2</p>
+</li>
+<li>
+<p>5-&gt; 1) 79<br>
+2) 129<br>
+3) 209</p>
+</li>
+<li>
+<p>6-&gt; 1) Minimum -&gt; [floor(logn [base 2])]    [Got it wrong, thought minimum -&gt; floor(sqrt(n))]<br>
+2) Maximum -&gt; [n-1] [Since single node is zero(0)] [This is correct]</p>
+</li>
+<li>
+<p>Solutions for Question 1</p>
+</li>
+</ul>
+<p><img src="https://user-images.githubusercontent.com/54589605/214236360-3e9d05c0-7751-4b85-8100-3e7d177fc903.jpeg" alt="DPP_solutions_Tree_1"></p>
+<p><img src="https://user-images.githubusercontent.com/54589605/214520198-112390dc-d578-47ca-9d38-88c681044fa7.jpeg" alt="DPP_solutions_Tree_2"></p>
+<ul>
+<li>Solutions for Question 2</li>
+</ul>
+<p><img src="https://user-images.githubusercontent.com/54589605/214239691-8132fd78-45aa-404b-9c5e-0157f551a8f0.jpeg" alt="DPP_solutions_Tree_4"></p>
+<p><img src="https://user-images.githubusercontent.com/54589605/214239710-fb1b6f0f-f74b-4893-9532-287a18082b27.jpeg" alt="DPP_solutions_Tree_5"></p>
+<blockquote>
+<p>In question 4, I made a mistake, Non-leaf nodes(I) will be <strong>4</strong> and hence leaf nodes will be <strong>14</strong><br>
+Question 3 is correct.<br>
+Question 2 is correct.<br>
+In question 1, I made a mistake, Non-leaf nodes(I) will be <strong>3</strong> and hence leaf nodes will be <strong>6</strong></p>
+</blockquote>
+<ul>
+<li>Solutions for Question 3</li>
+</ul>
+<p><img src="https://user-images.githubusercontent.com/54589605/214239922-330b93db-28a7-47f9-a448-fe87e5ad8216.jpeg" alt="DPP_solutions_Tree_3"></p>
+<blockquote>
+<p>I read the question wrong, I thought it was asking for <em>max</em> and <em>min</em> total no. of nodes for a given level <em>L</em>.<br>
+The question is asking for <em>max</em> and <em>min</em> nodes for a given level <em>L</em>. Just that level and not the sum of all the levels upto <em>L</em>, which I did.</p>
+</blockquote>
+<h3 class="mume-header" id="-the-correct-way-to-solve-question-3">The correct way to solve question <em>3</em></h3>
+
+<p><img src="https://user-images.githubusercontent.com/54589605/214524823-f60baecb-5146-46d0-b76d-e2db13feb145.png" alt="image"></p>
+<ul>
+<li>Min nodes -&gt; 1</li>
+<li>Max nodes -&gt; 2^L</li>
+</ul>
+<h2 class="mume-header" id="-operations-in-binary-tree-39-24-jan-2023">Operations in <strong>Binary Tree</strong> (39) [24 Jan 2023]</h2>
+
+<h3 class="mume-header" id="-questions-on-binary-tree">Questions on <em>Binary Tree</em></h3>
+
+<p><img src="https://user-images.githubusercontent.com/54589605/214297980-f2e1f349-f173-4d1b-a629-8b4d2314d232.png" alt="image"></p>
+<ul>
+<li>No. of <strong>binary tree constructed</strong> using <em>3 unlabelled nodes</em> -&gt; <em>Catalan number</em> -&gt; (2nCn)/(n+1) -&gt; 5(Ans)</li>
+<li>For &apos;n&apos; unlabelled nodes -&gt; (2nCn)/(n+1)</li>
+</ul>
+<p><img src="https://user-images.githubusercontent.com/54589605/214298401-7245f262-2b78-4401-a8eb-fa993407dc07.png" alt="image"></p>
+<ul>
+<li>How many <em>distinct binary tree</em> can be constructed using <em>3 distinct keys</em> -&gt; ((2nCn)/(n+1)) * n! -&gt; 30(Ans)</li>
+<li>For &apos;n&apos; distinct keys -&gt; [((2nCn)/(n+1)) * n!]     [n! ways to populate one binary tree with &apos;n&apos; keys]</li>
+</ul>
+<h2 class="mume-header" id="-tree-traversals">Tree Traversals</h2>
+
+<ul>
+<li><strong>Preorder</strong> -&gt; nLR (root-&gt;left subtree-&gt;right subtree)</li>
+<li><strong>Inorder</strong> -&gt; LnR (left subtree-&gt;root-&gt;right subtree)</li>
+<li><strong>Postorder</strong> -&gt; LRn (left subtree-&gt;right subtree-&gt;root)</li>
+</ul>
+<blockquote>
+<p>All of these traversals are from <strong>left to right</strong> direction. This is the conventional/normal tree traversal. Here, the traversal starts from the <em>left</em> subtree.</p>
+</blockquote>
+<h3 class="mume-header" id="-preorder-traversal">Preorder traversal</h3>
+
+<blockquote>
+<p>Node traversed before <em>left and right</em> subtree</p>
+</blockquote>
+<h3 class="mume-header" id="-inorder-traversal">Inorder traversal</h3>
+
+<blockquote>
+<p>Node traversed in between <em>left and right</em> subtree.</p>
+</blockquote>
+<h3 class="mume-header" id="-postorder-traversal">Postorder traversal</h3>
+
+<blockquote>
+<p>Node traversed after <em>left and right</em> subtree</p>
+</blockquote>
+<h2 class="mume-header" id="-observations-from-conventional-traversals">Observations from <strong>conventional traversals</strong></h2>
+
+<blockquote>
+<p>First symbol of preorder traversal is the <em>root</em> of the tree.<br>
+Last symbol of postorder traversal is the <em>root</em> of the tree.</p>
+</blockquote>
+<h2 class="mume-header" id="-converse-order-traversal">Converse order Traversal</h2>
+
+<ul>
+<li><strong>Converse Preorder</strong> -&gt; nRL (root-&gt;right subtree-&gt;left subtree)</li>
+<li><strong>Converse Inorder</strong> -&gt; RnL (right subtree-&gt;root-&gt;left subtree)</li>
+<li><strong>Converse Postorder</strong> -&gt; RLn (right subtree-&gt;left subtree-&gt;root)</li>
+</ul>
+<blockquote>
+<p>All of these traversals are from <strong>right to left</strong> direction. This is the converse order tree traversal. Here the traversal starts from the <em>right</em> subtree.</p>
+</blockquote>
+<h3 class="mume-header" id="-observations-from-converse-order-traversal">Observations from <em>Converse order Traversal</em></h3>
+
+<blockquote>
+<p>Reverse of converse preorder traversal -&gt; <strong>Conventional postorder</strong>.<br>
+Reverse of converse postorder traversal -&gt; <strong>Conventional preorder</strong>.<br>
+Reverse of converse inorder traversal -&gt; <strong>Conventional inorder</strong>.</p>
+</blockquote>
+<h2 class="mume-header" id="-finding-the-traversals-of-a-binary-tree">Finding the traversals of a <em>Binary Tree</em></h2>
+
+<p><img src="https://user-images.githubusercontent.com/54589605/214304674-3f5d222f-308d-4878-bbf0-2a1c40c8f6a7.jpeg" alt="DPP_solutions_Tree_6"></p>
+<p><img src="https://user-images.githubusercontent.com/54589605/214304730-28b2c474-845e-4cd6-b462-655e6a08ec1a.jpeg" alt="DPP_solutions_Tree_7"></p>
+<p><img src="https://user-images.githubusercontent.com/54589605/214304767-6cb9b12e-84da-40b0-a566-6d0194f57d39.jpeg" alt="DPP_solutions_Tree_8"></p>
+<p><img src="https://user-images.githubusercontent.com/54589605/214304793-c1f1761d-ad70-46fa-b980-f7776203a70a.jpeg" alt="DPP_solutions_Tree_9"></p>
+<h2 class="mume-header" id="-level-order-traversal">Level order traversal</h2>
+
+<blockquote>
+<p>Starting from level zero(0), traverse all nodes of level no. &apos;L&apos; or <strong>current level</strong> before traversing any node of higher level no.<br>
+We are traversing from <em>left to right</em> direction on each level. This is the standard/convention.<br>
+We can traverse the nodes of a level, in any sequence. We can do <em>right to left</em>, <em>alternate between left to right on different levels</em>.</p>
+</blockquote>
+<h3 class="mume-header" id="-example-9">Example</h3>
+
+<p><img src="https://user-images.githubusercontent.com/54589605/214306637-cc2cf1e5-bf8a-4973-aa1b-4f1b7c03d479.png" alt="image"></p>
+<ul>
+<li><strong>No of distinct level order traversals possible</strong> -&gt; [1* 2! * 3! * 4! =288]</li>
+</ul>
+<h2 class="mume-header" id="-constructing-the-tree-using-traversals">Constructing the tree using traversals</h2>
+
+<blockquote>
+<p>To construct <em>Unique binary tree</em> using traversals. <strong>Two</strong> traversals are needed. <strong>One</strong> of them should be <strong>inorder</strong> traversal.<br>
+<em>Preorder and postorder</em> traversals helps in identifying the <strong>root</strong> of the tree/subtree.<br>
+<em>Inorder</em> traversal helps to identify the <strong>left and right subtree</strong> .</p>
+</blockquote>
+<h3 class="mume-header" id="-examples">Examples</h3>
+
+<p><img src="https://user-images.githubusercontent.com/54589605/214304767-6cb9b12e-84da-40b0-a566-6d0194f57d39.jpeg" alt="DPP_solutions_Tree_8"></p>
+<p><img src="https://user-images.githubusercontent.com/54589605/214304793-c1f1761d-ad70-46fa-b980-f7776203a70a.jpeg" alt="DPP_solutions_Tree_9"></p>
+<h2 class="mume-header" id="-quiz-5-40-25-jan-2023">Quiz 5 (40) [25 Jan 2023]</h2>
+
+<blockquote>
+<p>Solutions discussed in <em>40_Doubts_Session</em> PDF file.</p>
+</blockquote>
+<blockquote>
+<p>Question 2 solution was given wrong in the test solutions. Sir gave the write solution.<br>
+All of the <em>4</em> options in Q2 are <em>correct</em>.<br>
+Question 4, is solved in a future class. Sir said, he will explain in two different ways in a future class.</p>
+</blockquote>
+<h3 class="mume-header" id="-question-4-solution-from-quiz-5">Question 4 solution from <strong>Quiz 5</strong></h3>
+
+<h3 class="mume-header" id="-question-4">Question 4</h3>
+
+<p><img src="https://user-images.githubusercontent.com/54589605/214554332-b763c5c5-f81a-4334-a827-a30d05fcc231.png" alt="image"><br>
+<img src="https://user-images.githubusercontent.com/54589605/214554386-f568704d-8d45-4f24-911f-30c2408a3b3f.png" alt="image"></p>
+<blockquote>
+<p>Sir gave a solution using <em>Dot method</em> in <em>40_Doubts_Session</em> PDF file.</p>
+</blockquote>
+<h3 class="mume-header" id="-solution">Solution</h3>
+
+<p><img src="https://user-images.githubusercontent.com/54589605/214554227-3aff9858-95d0-430f-ab2c-3c2159b55f1c.png" alt="image"><br>
+<img src="https://user-images.githubusercontent.com/54589605/214554678-55e3843d-6877-43c0-8bd3-c85e4f7a0ab4.png" alt="image"><br>
+<img src="https://user-images.githubusercontent.com/54589605/214555257-3d1ff526-e5e3-4221-8a95-9072f329cc80.png" alt="image"></p>
+<blockquote>
+<p>Do the same for <em>T2</em> tree. Find the traversals.</p>
+</blockquote>
+<p><img src="https://user-images.githubusercontent.com/54589605/214558201-0672f0ab-3923-4aef-859f-d3e3da90c994.jpeg" alt="DPP_solutions_Tree_14"></p>
+<h2 class="mume-header" id="-dpp-11-from-39_operations_on_binary_tree">DPP 11 from <em>39_Operations_on_Binary_Tree</em></h2>
+
+<blockquote>
+<p>Solved in <em>40_Doubts_Session</em> PDF file.</p>
+</blockquote>
+<ul>
+<li>1-&gt; Solutions below</li>
+<li>2-&gt; Solutions below</li>
+<li>3-&gt; Solutions below</li>
+</ul>
+<h3 class="mume-header" id="-question-1-solution-1">Question 1 solution</h3>
+
+<p><img src="https://user-images.githubusercontent.com/54589605/214533937-d575b20c-d152-4c91-81d6-bb989e8b45c0.jpeg" alt="DPP_solutions_Tree_10"></p>
+<p><img src="https://user-images.githubusercontent.com/54589605/214534031-506d3d87-35a6-43d3-abbc-e5ddbd472b3e.jpeg" alt="DPP_solutions_Tree_11"></p>
+<h3 class="mume-header" id="-question-2-solution-1">Question 2 solution</h3>
+
+<p><img src="https://user-images.githubusercontent.com/54589605/214552976-2c2eacd5-3424-42c0-b516-378dec740a98.jpeg" alt="DPP_solutions_Tree_13"></p>
+<h3 class="mume-header" id="-question-3-solution">Question 3 solution</h3>
+
+<p><img src="https://user-images.githubusercontent.com/54589605/214552992-288ba8e5-83ea-4823-b991-de86a8414ed3.jpeg" alt="DPP_solutions_Tree_12"></p>
+<h2 class="mume-header" id="-post-order-and-in-order">Post-order and In-order</h2>
+
+<blockquote>
+<p>Using post-order and in-order traversals to create/construct a tree</p>
+</blockquote>
+<p><img src="https://user-images.githubusercontent.com/54589605/214583713-6123f86d-0ae8-4756-916c-c1b8ef44c453.jpeg" alt="DPP_solutions_Tree_15"></p>
+<h3 class="mume-header" id="-example-of-traversal-questions">Example of traversal questions</h3>
+
+<p><img src="https://user-images.githubusercontent.com/54589605/214583826-43f78e77-019d-4284-93d4-8a6bfbd708fa.jpeg" alt="DPP_solutions_Tree_16"></p>
+<ul>
+<li>If <em>pre and post</em> order <em>can</em> provide a unique binary tree?</li>
+</ul>
+<blockquote>
+<p>True. [<strong>Condition Applied</strong>] [Alawys -&gt; False] [Can -&gt; True]<br>
+The condition is that every node much have either <strong>zero(0) or two</strong> children. There should be <strong>no nodes</strong> in the tree which have <strong>one or single</strong> children.<br>
+If this type[above condition making] tree exists. If the <em>pre and post</em> order are given for that tree, then we can construct a <strong>unique</strong> tree from that <em>pre and post</em> order traversals.</p>
+</blockquote>
+<h3 class="mume-header" id="-question-on-construction-of-tree-using-traversals">Question on <em>Construction of tree using traversals</em></h3>
+
+<blockquote>
+<p>There questions are from <em>40_Doubt_Clearing_Session</em>.</p>
+</blockquote>
+<h3 class="mume-header" id="-questions">Questions</h3>
+
+<p><img src="https://user-images.githubusercontent.com/54589605/214585417-60165400-b1f9-4408-a8bf-471ed588120e.png" alt="image"><br>
+<img src="https://user-images.githubusercontent.com/54589605/214586955-053d30ce-8abd-4c5e-b20d-75eedc127a4a.png" alt="image"></p>
+<h3 class="mume-header" id="-solution-1">Solution</h3>
+
+<p><img src="https://user-images.githubusercontent.com/54589605/214587079-e99d3329-eab0-4c27-a906-756584316fc6.jpeg" alt="DPP_solutions_Tree_17"></p>
+<blockquote>
+<p>Got one of them wrong. Should be like below.</p>
+</blockquote>
+<p><img src="https://user-images.githubusercontent.com/54589605/214589897-7af3ca55-2d05-4a77-990f-0a21d2c74927.png" alt="image"><br>
+<img src="https://user-images.githubusercontent.com/54589605/214590416-3daea8fb-a6b3-424e-b828-15cb8d84cbd9.png" alt="image"></p>
+<blockquote>
+<p>In post-order we do, Left-&gt;right-&gt;root. So as <em>7</em> is not between <em>3</em> and <em>4</em>, hence it is not the right child of <em>3</em>.<br>
+In the above image, we will get <em>4</em> variations as there are nodes with single children. Hence it is not clear that those single children should be <em>left or right</em> child of the node.</p>
+</blockquote>
+<h2 class="mume-header" id="-using-pre-and-post-order-traversals-to-construct-unique-binary-tree-important-41">Using <em>Pre and post</em> order traversals to construct <em>unique binary tree</em> <strong>Important</strong> (41)</h2>
+
+<blockquote>
+<p>Difficult to understand as well. Looks at the examples from <em>41_Basics_of_Tree</em> PDF file. Practice them as well.</p>
+</blockquote>
+<h2 class="mume-header" id="-recursion-in-binary-tree">Recursion in <strong>Binary Tree</strong></h2>
+
+<p><img src="https://user-images.githubusercontent.com/54589605/214605000-b2ce047d-a552-447a-b6a0-2e8dda0ea7ba.png" alt="image"></p>
+<blockquote>
+<p>Here we are counting the no. of leaf nodes in the <em>Binary Tree</em>.<br>
+We have to understand the conditions and have to reach the <em>base condition/case</em> of the program to be able to find out what is the program is trying to achive running on a <em>Binary Tree</em>.</p>
+</blockquote>
+<ul>
+<li>For the above question and in general</li>
+</ul>
+<blockquote>
+<p>The main <strong>funda/logic of recursion in binary tree</strong> is that if we have reached the <em>base condition/case</em> of the program and then we have to finally return a value(which is value=1 here), otherwise if we haven&apos;t reached the <em>base condition/case</em> yet then <strong>count</strong> from <em>left subtree</em> and <em>right subtree</em>.</p>
+</blockquote>
+<h3 class="mume-header" id="-working">Working</h3>
+
+<p><img src="https://user-images.githubusercontent.com/54589605/214607705-ef991758-3819-49da-ac57-899aba5d85f3.png" alt="image"></p>
+<h3 class="mume-header" id="-above-code-written-in-a-different-way">Above code written in a different way</h3>
+
+<p><img src="https://user-images.githubusercontent.com/54589605/214608892-a6996a50-8c1e-493e-ac4b-42e8c14a4a81.png" alt="image"></p>
+<blockquote>
+<p>This is an example of <strong>Pre-order</strong> traversal.</p>
+</blockquote>
+<p><img src="https://user-images.githubusercontent.com/54589605/214609085-b068a08d-92b9-4c81-8310-ff7cceb94408.png" alt="image"></p>
+<blockquote>
+<p>This is the processing part of <em>root</em> node. We are processing/executing some logic on the root node(n).</p>
+</blockquote>
+<p><img src="https://user-images.githubusercontent.com/54589605/214609318-2bc7a893-fbbd-4c7a-a5bd-0974c167b2c4.png" alt="image"></p>
+<blockquote>
+<p>Then we are recursively calling firstly the <strong>left subtree(L)</strong> then the <strong>right subtree(R)</strong>.<br>
+We know that pre-order traversal looks like this -&gt; nLR(root-&gt;left subtree-&gt; right subtree)</p>
+</blockquote>
+<h2 class="mume-header" id="-height-of-treerecursive-approach">Height of tree(Recursive approach)</h2>
+
+<blockquote>
+<p>Farthest left node -&gt; Height of the tree.<br>
+We will recursively calculate the height of left subtree and then we will recursively calculate the height of right subtree. We will find out which subtree(left or right subtree) has the maximum height. After that, we will do plus one(1)[+1] to the maximum height from the previous calculation. Plus one, to include the root of the tree.</p>
+</blockquote>
+<ul>
+<li><strong>Height of tree</strong> -&gt; [Max(Height of left subtree, Height of right subtree) + 1]</li>
+</ul>
+<p><img src="https://user-images.githubusercontent.com/54589605/214611890-ee0b5a92-a588-40b6-b2bf-f9a670ea8785.png" alt="image"></p>
+<ul>
+<li>Base case</li>
+</ul>
+<blockquote>
+<p>Depends on if single node is <strong>zero(0)</strong> or <strong>one(1)</strong>. As there are two definitions to finding the height of a tree. We studied it earlier.<br>
+If single node is <strong>zero(0)</strong>, then base case would be to return <strong>-1</strong>.<br>
+If single node is <strong>one(1)</strong>, then base case would be to return <strong>0</strong>.</p>
+</blockquote>
+<h3 class="mume-header" id="-algorithm-to-calculate-height-of-tree-recursively">Algorithm to calculate height of tree <strong>Recursively</strong>.</h3>
+
+<p><img src="https://user-images.githubusercontent.com/54589605/214613718-aba34a21-77f7-41dd-bc66-51c094b1bc5e.png" alt="image"></p>
+<ul>
+<li>Some <strong>important</strong> questions in <em>41_Basics_of_tree</em> PDF file from Page <strong>20</strong>, do check them. They are important questions. Practice them as well.</li>
+</ul>
+<h3 class="mume-header" id="-example-10">Example</h3>
+
+<p><img src="https://user-images.githubusercontent.com/54589605/214615108-aeca35d2-bc2f-4408-8073-bd5a223b4539.png" alt="image"></p>
+<h2 class="mume-header" id="-dpp-12-from-41_basics_of_tree">DPP 12 from <em>41_Basics_of_tree</em></h2>
+
+<ul>
+<li>1-&gt;</li>
+</ul>
+<blockquote>
+<p>All of the answers are below.</p>
+</blockquote>
+<h3 class="mume-header" id="-answers">Answers</h3>
+
+<p><img src="https://user-images.githubusercontent.com/54589605/215074894-54683388-a5bb-4b75-9a51-ce265ba65943.jpeg" alt="DPP_solutions_Tree_18"><br>
+<img src="https://user-images.githubusercontent.com/54589605/215074900-74967014-39a5-4edf-8622-11971e00555a.jpeg" alt="DPP_solutions_Tree_19"><br>
+<img src="https://user-images.githubusercontent.com/54589605/215074902-73b37505-94b7-4bde-9b46-fd87288c93e9.jpeg" alt="DPP_solutions_Tree_20"><br>
+<img src="https://user-images.githubusercontent.com/54589605/215074906-858f6d22-baed-4ea3-915d-e1b1a6b00bdc.jpeg" alt="DPP_solutions_Tree_21"><br>
+<img src="https://user-images.githubusercontent.com/54589605/215074910-bd7dc41a-9360-48b4-a01a-944305022d0d.jpeg" alt="DPP_solutions_Tree_22"></p>
+<h3 class="mume-header" id="-correction-for-above-questions">Correction for above questions</h3>
+
+<blockquote>
+<p><em>4</em> and <em>5</em> are wrong. Fix them<br>
+<em>8</em> is wrong as well. Element 6 would be right child pointer.<br>
+Sir solved <em>10</em>. Check it.</p>
+</blockquote>
+<h2 class="mume-header" id="-operations-on-binary-tree-42-27-jan-2023">Operations on Binary Tree (42) [27 Jan 2023]</h2>
+
+<h3 class="mume-header" id="-representation-of-general-tree-to-binary">Representation of <strong>General tree</strong> to <strong>Binary</strong></h3>
+
+<ul>
+<li><strong>Leftmost child, Right sibling</strong> Representation</li>
+</ul>
+<blockquote>
+<p>This is just a way to store a <em>General Tree</em>. The children of a node are stored in the left subtree of a node. Hence if a node&apos;s left-subtree is empty then that node is a <strong>Leaf Node</strong>.<br>
+To find the <strong>Leaf nodes</strong> or count the leaf nodes, we need to check the nodes whose <strong>left</strong> is empty.</p>
+</blockquote>
+<h3 class="mume-header" id="-example-11">Example</h3>
+
+<p><img src="https://user-images.githubusercontent.com/54589605/215255825-54d7afcb-afaa-41b5-86d6-5c0e33c8d37e.jpeg" alt="DPP_solutions_Tree_26"></p>
+<h3 class="mume-header" id="-expression-tree">Expression Tree</h3>
+
+<blockquote>
+<p>To Convert traversals from <strong>conventional</strong> pre/post/in-order to <strong>converse</strong> pre/post/in-order traversals, we just need to <strong>reverse</strong> the traversal and <strong>vice-versa</strong>.</p>
+</blockquote>
+<p><img src="https://user-images.githubusercontent.com/54589605/215279659-8906e3f9-a422-4aea-b0f4-62d52343094a.png" alt="image"></p>
+<h3 class="mume-header" id="-example-12">Example</h3>
+
+<p><img src="https://user-images.githubusercontent.com/54589605/215255849-046de82b-6b96-4d10-964e-1c4dfb613f33.jpeg" alt="DPP_solutions_Tree_27"></p>
+<p><img src="https://user-images.githubusercontent.com/54589605/215255858-42fbfedb-47c8-41da-b58e-fb5396c00d0f.jpeg" alt="DPP_solutions_Tree_28"></p>
+<h3 class="mume-header" id="-expression-tree-with-unary-operators">Expression Tree with <strong>unary operators</strong></h3>
+
+<h3 class="mume-header" id="-expression-tree-drawing">Expression Tree <strong>Drawing</strong></h3>
+
+<blockquote>
+<p>The one which gets solved <strong>first</strong> has the <strong>higher precedence</strong>.</p>
+</blockquote>
+<h2 class="mume-header" id="-dpp-13-from-42_operations_on_binary_tree">DPP 13 from <em>42_operations_on_binary_tree</em></h2>
+
+<blockquote>
+<p>Question 3, solved in <em>43_Operations_on_Binary_tree</em> beginning.</p>
+</blockquote>
+<ul>
+<li>1-&gt; BDEACFG</li>
+<li>2-&gt; CGFABDE [Got it wrong]</li>
+<li>3-&gt; 6 [Got it wrong. Thought 4 is correct]</li>
+<li>4-&gt; [Answers below]</li>
+</ul>
+<blockquote>
+<p>All of the solutions below, including <em>4</em>.</p>
+</blockquote>
+<h3 class="mume-header" id="-solutions-of-the-above-questions">Solutions of the above questions</h3>
+
+<p><img src="https://user-images.githubusercontent.com/54589605/215255753-2e497784-65aa-4dd4-b5fb-25e546c7a833.jpeg" alt="DPP_solutions_Tree_23"></p>
+<p><img src="https://user-images.githubusercontent.com/54589605/215255757-f364993a-7219-4d17-bedc-ba3f5a9f6e17.jpeg" alt="DPP_solutions_Tree_24"></p>
+<p><img src="https://user-images.githubusercontent.com/54589605/215255769-a6010d51-db0e-41ba-a9d3-00bf88e270dc.jpeg" alt="DPP_solutions_Tree_25"></p>
+<blockquote>
+<p>Q5</p>
+</blockquote>
+<h3 class="mume-header" id="-correct-solution-for-q3">Correct solution for <strong>Q3</strong></h3>
+
+<p><img src="https://user-images.githubusercontent.com/54589605/215279979-6227371f-3c98-4e0c-864b-a992c7a8f80c.png" alt="image"><br>
+<img src="https://user-images.githubusercontent.com/54589605/215279988-db3c4ff7-85bf-41f6-a9cc-a2a4a37f4ce1.png" alt="image"></p>
+<h2 class="mume-header" id="-complete-binary-tree-43-28-jan-2023">Complete Binary Tree (43) [28 Jan 2023]</h2>
+
+<blockquote>
+<p>A <strong>Binary Tree</strong> in which all levels much have maximum no. of nodes, except possibly the last level. The <strong>last level nodes</strong> must be arranged from <strong>left to right</strong>.</p>
+</blockquote>
+<p><img src="https://user-images.githubusercontent.com/54589605/215270543-c8471d19-4dc4-4c44-9c31-247a42866f23.png" alt="image"></p>
+<h2 class="mume-header" id="-strict-complete-binary-tree">Strict Complete Binary Tree</h2>
+
+<blockquote>
+<p>All levels must have maximum no. of nodes.</p>
+</blockquote>
+<p><img src="https://user-images.githubusercontent.com/54589605/215270555-3ead06a5-de0a-4bbd-a81a-55cffbb49d0c.png" alt="image"></p>
+<h3 class="mume-header" id="-formula-to-calculate-max-and-min-no-of-nodes-in-complete-binary-tree">Formula to calculate <strong>max and min</strong> no. of nodes in <strong>Complete Binary Tree</strong></h3>
+
+<ul>
+<li><strong>Max</strong> -&gt; 2^(h+1)-1</li>
+<li><strong>Min</strong> -&gt; 2^h</li>
+</ul>
+<p><img src="https://user-images.githubusercontent.com/54589605/215263145-138e0aa0-8450-40cf-b608-085a5e5a76f3.png" alt="image"></p>
+<h2 class="mume-header" id="-array-representation-of-complete-binary-tree">Array Representation of <strong>Complete Binary Tree</strong></h2>
+
+<blockquote>
+<p>When writing the algorithm, the storage is in <strong>Array</strong> only which is fine. The access will still be in <strong>non-linear</strong> order or <strong>hierarchical</strong> order. We cannot access elements in <strong>linear or sequential</strong> order.</p>
+</blockquote>
+<h3 class="mume-header" id="-when-array-index-starts-from-1">When array index starts from <strong>1</strong></h3>
+
+<p><img src="https://user-images.githubusercontent.com/54589605/215270590-eab63736-9011-493c-931d-2f8148bb848f.png" alt="image"><br>
+<img src="https://user-images.githubusercontent.com/54589605/215270613-a99a6462-77c1-4e85-8a45-1ece23d29c9d.png" alt="image"></p>
+<h3 class="mume-header" id="-when-array-index-starts-from-0">When array index starts from <strong>0</strong></h3>
+
+<p><img src="https://user-images.githubusercontent.com/54589605/215270629-1f98cd93-6b7f-461c-b62c-2fa154762d7b.png" alt="image"></p>
+<h2 class="mume-header" id="-full-binary-tree-or-strict-binary-tree-or-2-tree-or-2-t">Full Binary Tree or Strict Binary Tree or 2-Tree or 2-T</h2>
+
+<blockquote>
+<p>A Binary Tree in which each node has either zero(0) children or two(2) children.<br>
+A Binary Tree in which every internal node has exactly two(2) children.<br>
+A Binary Tree in which no any node has one(1) child.</p>
+</blockquote>
+<p><img src="https://user-images.githubusercontent.com/54589605/215270682-9dfb0e60-2841-4cff-9413-f75e88e6b921.png" alt="image"></p>
+<h3 class="mume-header" id="-full-binary-tree-formulas"><strong>Full Binary Tree</strong> Formulas</h3>
+
+<p><img src="https://user-images.githubusercontent.com/54589605/215270706-1401f25a-6d82-4abb-88a9-994bc8762221.png" alt="image"></p>
+<p>We know,</p>
+<ul>
+<li>
+<p>L=I+1 ...(1) and N=I+L ....(2)</p>
+</li>
+<li>
+<p>From (2)</p>
+</li>
+<li>
+<p>I=(N-1)/2       [L=N-I]</p>
+</li>
+<li>
+<p>L=(N+1)/2       [I=(N-1)/2]</p>
+</li>
+<li>
+<p>From (1)</p>
+</li>
+<li>
+<p>N= 2I+1  [L=I+1]</p>
+</li>
+<li>
+<p>N= 2L-1  [I=L-1]</p>
+</li>
+</ul>
+<p><img src="https://user-images.githubusercontent.com/54589605/215271444-54b0739c-85f2-495e-9c64-4d136119b4c5.png" alt="image"><br>
+<img src="https://user-images.githubusercontent.com/54589605/215271455-8ebb28bc-d481-4c24-8e4f-5941112d74d6.png" alt="image"></p>
+<h2 class="mume-header" id="-3-tree-or-complete-3-ary-tree-or-3-t">3-Tree or Complete 3-ary Tree or 3-T</h2>
+
+<blockquote>
+<p>Every node has either <strong>zero(0)</strong> child or <strong>three(3)</strong> children.<br>
+&apos;I&apos; -&gt; internal nodes</p>
+</blockquote>
+<p><img src="https://user-images.githubusercontent.com/54589605/215271497-1966b7c7-5d18-4b99-9ab7-74db0113ba4b.png" alt="image"></p>
+<ul>
+<li>Leaf nodes(L) =2I+1.</li>
+<li>N=I+L [We know]</li>
+<li>N=3I+1 [L=2I+1]</li>
+<li>N=(3L-1)/2 [I=(L-1)/2]</li>
+</ul>
+<h2 class="mume-header" id="-k-tree-or-complete-k-ary-tree">K-Tree or Complete K-ary Tree</h2>
+
+<blockquote>
+<p>Ecah node has either zero(0) child or <strong>K</strong>-children.<br>
+&apos;L&apos; -&gt; Leaf Nodes</p>
+</blockquote>
+<ul>
+<li>Leaf nodes(L) =(k-1)I+1.</li>
+<li>Total no. of nodes(N) = KI+1</li>
+<li>Total no. of nodes(N) = (KL -1)/(k-1)</li>
+</ul>
+<p><img src="https://user-images.githubusercontent.com/54589605/215271959-46dcc99a-516c-4985-b1c1-0c21be908d10.png" alt="image"></p>
+<h2 class="mume-header" id="-left-skewed-binary-tree">Left skewed Binary Tree</h2>
+
+<blockquote>
+<p>Every internal node has only left-child.<br>
+It has only one or single leaf node.</p>
+</blockquote>
+<h2 class="mume-header" id="-right-skewed-binary-tree">Right skewed Binary Tree</h2>
+
+<blockquote>
+<p>Every internal node has only right-child.<br>
+It has only one or single leaf node.</p>
+</blockquote>
+<ul>
+<li>Weekend Quiz syllabus -&gt; <strong>Binary Tree</strong></li>
+</ul>
+<h2 class="mume-header" id="-dpp-14-from-43_operations_on_binary_tree">DPP 14 from <em>43_Operations_on_Binary_Tree</em></h2>
+
+<ul>
+<li>1-&gt; 2^(h+1) - (h+2) [h-&gt; height of tree] [Got it wrong]</li>
+<li>2-&gt; 2^(h+1) - (h+2) [h-&gt; height of tree]</li>
+<li>3-&gt; 2^h -(h+1) [Check sir did it]</li>
+<li>4-&gt;  [Check sir did it]</li>
+<li>5-&gt; Best case= 1, Worst case=2^h [Got the worst case wrong]</li>
+<li>6-&gt; Leaf nodes= 16, Internal nodes= 15</li>
+<li>7-&gt; Leaf nodes= 51, Total no. of nodes= 101</li>
+<li>8-&gt; Not possible [Since in Full Binary Tree, no. of nodes always <strong>odd</strong>]</li>
+<li>9-&gt; D [(2n+1)/3]</li>
+<li>10-&gt; C [n(k-1)+1]</li>
+<li>11-&gt; A [0] [Descendants -&gt; All children. Full Binary Tree either <strong>zero(0)</strong> or <strong>2</strong> children]</li>
+</ul>
+<h2 class="mume-header" id="-44_doubt_clearing_session-44-30-jan-2023"><strong>44_Doubt_Clearing_Session</strong> (44) [30 Jan 2023]</h2>
+
+<h2 class="mume-header" id="-binary-search-treebst-45">Binary Search Tree(BST) (45)</h2>
+
+<ul>
+<li>Insertion will be O(log n) or theta(log n) [Ask]</li>
+</ul>
 <h2 class="mume-header" id="-scratch-boarddry-runs">Scratch Board/Dry runs.</h2>
 
 <p>a=1 2 3 4<br>
@@ -3194,6 +4206,19 @@ p -&gt; link -&gt; link = c d e f</p>
 <p>head -&gt; 3<br>
 p = 5 7<br>
 current -&gt; 3 5</p>
+<p>a/b = a-b,b</p>
+<p>15/2=7</p>
+<pre class="language-text">13,2
+11,2
+9,2
+7,2
+5,2
+3,2
+1,2
+</pre>
+<p>a=5<br>
+fact=1<em>2</em>3<em>4</em>5=120</p>
+<p>5<em>fact(4)</em></p>
 
       </div>
       

@@ -3180,6 +3180,14 @@ if n = 10, then position = 8(2^3)
 ![DPP_solutions_Tree_21](https://user-images.githubusercontent.com/54589605/215074906-858f6d22-baed-4ea3-915d-e1b1a6b00bdc.jpeg)
 ![DPP_solutions_Tree_22](https://user-images.githubusercontent.com/54589605/215074910-bd7dc41a-9360-48b4-a01a-944305022d0d.jpeg)
 
+### Correction for above questions
+
+> *4* and *5* are wrong. Fix them.
+> In **4** should have converted the **converse postorder** traversal to **conventional preorder** traversal by simply **reversing** it.
+
+> *8* is wrong as well. Element 6 would be right child pointer.
+> Sir solved *10*. Check it.
+
 ## Operations on Binary Tree (42) [27 Jan 2023]
 
 ### Representation of **General tree** to **Binary**
@@ -3217,7 +3225,7 @@ if n = 10, then position = 8(2^3)
 > Question 3, solved in *43_Operations_on_Binary_tree* beginning.
 
 * 1-> BDEACFG
-* 2-> CGFABDE
+* 2-> CGFABDE [Got it wrong]
 * 3-> 6 [Got it wrong. Thought 4 is correct]
 * 4-> [Answers below]
 
@@ -3231,6 +3239,8 @@ if n = 10, then position = 8(2^3)
 ![DPP_solutions_Tree_24](https://user-images.githubusercontent.com/54589605/215255757-f364993a-7219-4d17-bedc-ba3f5a9f6e17.jpeg)
 
 ![DPP_solutions_Tree_25](https://user-images.githubusercontent.com/54589605/215255769-a6010d51-db0e-41ba-a9d3-00bf88e270dc.jpeg)
+
+> Q5
 
 ### Correct solution for **Q3**
 
@@ -3342,21 +3352,25 @@ We know,
 
 * Weekend Quiz syllabus -> **Binary Tree**
 
-## DPP 13 from *43_Operations_on_Binary_Tree*
+## DPP 14 from *43_Operations_on_Binary_Tree*
 
-* 1-> 2^(h+1) - (h+2) [h-> height of tree]
+* 1-> 2^(h+1) - (h+2) [h-> height of tree] [Got it wrong]
 * 2-> 2^(h+1) - (h+2) [h-> height of tree]
-* 3->
-* 4-> 
-* 5-> Best case= 1, Worst case=2^(h+1)
+* 3-> 2^h -(h+1) [Check sir did it]
+* 4->  [Check sir did it]
+* 5-> Best case= 1, Worst case=2^h [Got the worst case wrong]
 * 6-> Leaf nodes= 16, Internal nodes= 15
 * 7-> Leaf nodes= 51, Total no. of nodes= 101
-* 8-> Not possible
+* 8-> Not possible [Since in Full Binary Tree, no. of nodes always **odd**]
 * 9-> D [(2n+1)/3]
 * 10-> C [n(k-1)+1]
-* 11-> D [n-1]
+* 11-> A [0] [Descendants -> All children. Full Binary Tree either **zero(0)** or **2** children]
 
+## **44_Doubt_Clearing_Session** (44) [30 Jan 2023]
 
+## Binary Search Tree(BST) (45)
+
+* Insertion will be O(log n) or theta(log n) [Ask]
 
 
 
