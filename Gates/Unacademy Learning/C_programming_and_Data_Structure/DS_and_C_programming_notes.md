@@ -3183,7 +3183,12 @@ if n = 10, then position = 8(2^3)
 ### Correction for above questions
 
 > *4* and *5* are wrong. Fix them.
-> In **4** should have converted the **converse postorder** traversal to **conventional preorder** traversal by simply **reversing** it.
+> In **4** should have converted the **converse postorder and the converse inorder** traversal to **conventional preorder and conventional inorder respectively** traversal by simply **reversing** it. It would have been easier.
+
+### Solution for **Q4**
+
+![image](https://user-images.githubusercontent.com/54589605/215431681-32b3de5f-3c65-4d88-a3cf-884afcb5ceba.png)
+
 
 > *8* is wrong as well. Element 6 would be right child pointer.
 > Sir solved *10*. Check it.
