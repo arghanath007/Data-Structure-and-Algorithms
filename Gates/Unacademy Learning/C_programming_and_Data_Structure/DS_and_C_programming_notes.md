@@ -3455,7 +3455,11 @@ We know,
 
 ## Searching Revision/Summary
 
+![image](https://user-images.githubusercontent.com/54589605/215482315-5b032405-d63c-4b35-a4e4-9326423fa0c4.png)
 
+> Why we need **Binary Search Tree**.
+> We need **searching**  in lesser time complexity than **O(n)** and it is only possible in **array with binary search** which is **O(log n)**. The issue is that we need **sorted array** for binary search to work and we have to maintain a sorted array. To maintain a sorted array we have to do **insertion and deletion** in **O(n)** runtime complexity and can't be done in **O(logn)**. 
+> To fix these problem, scientist came up with a new data structure called as **Binary Search Tree**. Where we would store elements and **searching** would be done in **O(log n)** and **insertion and deletion** would happen in **O(log n)** runtime complexity as well.
 
 ## Binary Search Tree(BST) (45)
 
