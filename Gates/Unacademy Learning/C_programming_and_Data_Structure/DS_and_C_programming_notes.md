@@ -3294,6 +3294,7 @@ if n = 10, then position = 8(2^3)
 > A Binary Tree in which each node has either zero(0) children or two(2) children.
 > A Binary Tree in which every internal node has exactly two(2) children.
 > A Binary Tree in which no any node has one(1) child.
+> In **Full Binary Tree**, no. of nodes are always **Odd**.
 
 ![image](https://user-images.githubusercontent.com/54589605/215270682-9dfb0e60-2841-4cff-9413-f75e88e6b921.png)
 
