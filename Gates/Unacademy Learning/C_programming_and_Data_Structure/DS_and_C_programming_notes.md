@@ -3473,18 +3473,34 @@ We know,
 
 > Done in *45_Binary_Search_Tree*. Practice them.
 
+![image](https://user-images.githubusercontent.com/54589605/215524553-d264d2c4-f7c7-404f-bd40-e4a701bb693a.png)
+
 ## Insertion in Binary Search Tree(BST)
 
+![image](https://user-images.githubusercontent.com/54589605/215524620-af7f2796-dd6e-4acf-bd9b-b400c5b84011.png)
 
 ## Construct Binary Search Tree(BST) using keys
+
+> Done in *45_Binary_Search_Tree*. Practice them.
+
+![image](https://user-images.githubusercontent.com/54589605/215524704-05780453-b535-49f3-a90f-056ac9f9ea30.png)
+![image](https://user-images.githubusercontent.com/54589605/215524753-53ee14de-c29d-4042-b77b-a27ff606abda.png)
 
 ## Find **Minimum** in  Binary Search Tree(BST)
 
 > Go to the left->left->left as long as we don't find a node who's **left child** is empty or not present, right child can be present as well that doesn't matter. Then that *node's data* is the **minimum** of BST.
 
+![image](https://user-images.githubusercontent.com/54589605/215524873-14e0b69c-ac8f-449d-9b7d-7487058c1cb0.png)
+
+> Right side one is using **recursion**.
+
 ## Find **Maximum** in  Binary Search Tree(BST)
 
 > Go to the right->right->right as long as we don't find a node who's **right child** is empty or not present, left child can be present as well that doesn't matter. Then that *node's data* is the **maximum** of BST.
+
+![image](https://user-images.githubusercontent.com/54589605/215524979-2bcf875a-3e8e-42c2-865a-16533adf97fb.png)
+
+> Right side one is using **recursion**.
 
 
 > If we take the **Inorder** traversal of a BST then it will be (left subtree-> root-> right subtree) smaller values->root->larger values.
@@ -3510,9 +3526,15 @@ We know,
 
 ### Solutions to DPP 15
 
+![BST_1](https://user-images.githubusercontent.com/54589605/215524198-5268d132-72f5-470d-8406-8887610ec4d2.jpeg)
 
+![BST_2](https://user-images.githubusercontent.com/54589605/215524225-01079dbd-363b-4a2f-afc8-5bb41326a27b.jpeg)
 
+![BST_3](https://user-images.githubusercontent.com/54589605/215524234-237ba913-bdd4-42e4-8d51-50e82f79fefb.jpeg)
 
+![BST_4](https://user-images.githubusercontent.com/54589605/215524267-e8e47e4a-955e-4cbf-9cd1-c8932be1aedc.jpeg)
+
+![BST_5](https://user-images.githubusercontent.com/54589605/215524286-55507edb-19e2-4515-aafa-ce272433986e.jpeg)
 
 ## Questions to ask(sir) in next class.
 
