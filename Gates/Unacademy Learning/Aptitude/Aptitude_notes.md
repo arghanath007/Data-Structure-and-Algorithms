@@ -40,6 +40,8 @@
 
 ![image](https://user-images.githubusercontent.com/54589605/215823906-764c276e-f152-413d-ba53-01943b42b675.png)
 
+> Add all of the examples from the *4_Doubt_Clearing* PDF file. Watch the video as well.
+
 
 
 ### Odd and Even power.
@@ -151,9 +153,9 @@
 ![Last_two_digits_example_2](https://user-images.githubusercontent.com/54589605/215820168-2434917d-aaae-4812-a13d-4cb03b4adbaf.jpeg)
 
 
-## DPP 1
+## DPP 1 from *5_Number_System_III*
 
-* 1-> 
+> All of the solutions are below. 
    
 
 
