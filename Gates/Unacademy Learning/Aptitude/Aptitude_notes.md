@@ -36,6 +36,10 @@
 
 > The Unit digit of *8^5* is same as that of *8^1*. Hence the PC or power cycle of 8 is *4*. The UDV of 8 is *6*.
 
+### UDV table
+
+![image](https://user-images.githubusercontent.com/54589605/215823906-764c276e-f152-413d-ba53-01943b42b675.png)
+
 
 
 ### Odd and Even power.
