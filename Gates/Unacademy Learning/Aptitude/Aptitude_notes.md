@@ -32,7 +32,11 @@
 8^4=4096
 8^5=32768
 
+## Unit Digit Value (UDV)
+
 > The Unit digit of *8^5* is same as that of *8^1*. Hence the PC or power cycle of 8 is *4*. The UDV of 8 is *6*.
+
+
 
 ### Odd and Even power.
 
@@ -144,6 +148,8 @@
 
 
 ## DPP 1
+
+* 1-> 
    
 
 
