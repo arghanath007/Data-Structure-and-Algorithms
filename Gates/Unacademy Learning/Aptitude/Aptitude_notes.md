@@ -156,7 +156,14 @@
 ## DPP 1 from *5_Number_System_III*
 
 > All of the solutions are below. 
-   
+
+### Solutions
+
+![Last_two_digits_example_3](https://user-images.githubusercontent.com/54589605/215834425-235e523f-376a-4f30-a231-23945df126fa.jpeg
+
+![Last_two_digits_example_4](https://user-images.githubusercontent.com/54589605/215834458-d9062c2c-e2cc-4463-b4ed-22f114d09466.jpeg)
+
+![Last_two_digits_example_5](https://user-images.githubusercontent.com/54589605/215834474-b08955fc-05df-4fe0-9ccc-5618619f7547.jpeg)
 
 
 
