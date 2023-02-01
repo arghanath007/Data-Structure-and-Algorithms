@@ -3524,6 +3524,8 @@ We know,
 
 * 1-> III
 
+> All solutions are below.
+
 ### Solutions to DPP 15
 
 ![BST_1](https://user-images.githubusercontent.com/54589605/215524198-5268d132-72f5-470d-8406-8887610ec4d2.jpeg)
@@ -3535,6 +3537,13 @@ We know,
 ![BST_4](https://user-images.githubusercontent.com/54589605/215524267-e8e47e4a-955e-4cbf-9cd1-c8932be1aedc.jpeg)
 
 ![BST_5](https://user-images.githubusercontent.com/54589605/215524286-55507edb-19e2-4515-aafa-ce272433986e.jpeg)
+
+## Operations on BST (46) [1st Feb 2023]
+
+* Recursive approach of Catalan Number -> 
+
+> We created different ways to create **Binary Trees**. The answer we got for **Binary Tree** is the same answer for **Binary Search Tree** because for finding the different **binary trees** for *n* distinct elements, we use **Catalan number**. For finding the different **binary search trees** for *n* distinct elements, we use **Catalan number multiplied by 1**. Hence both have the same answer.
+> If the question is for **binary tree** with **n unlabelled nodes**, we will get the **same answer** as above. 
 
 ## Questions to ask(sir) in next class.
 
