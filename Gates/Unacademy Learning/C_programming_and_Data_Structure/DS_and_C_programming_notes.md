@@ -3625,7 +3625,11 @@ We know,
 * 2-> [Solved Below]
 * 3-> [n-p+1]
 * 4-> B[Theta(n) , postorder-> right to left]
-* 5-> 
+* 5-> [Already solved by Sir in *46_operations_on_Binary_Search_Tree*]
+
+### Solutions
+
+![BST_6](https://user-images.githubusercontent.com/54589605/216071355-9be08806-e7ad-480e-b4d1-11559e6c43be.jpeg)
 
 ## Tree PYQs on *46_operations_on_Binary_Search_Tree*
 
