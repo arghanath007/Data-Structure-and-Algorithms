@@ -3547,7 +3547,6 @@ We know,
 ![image](https://user-images.githubusercontent.com/54589605/216018436-e9491432-18e1-468c-bd55-45440afeb33d.png)
 
 
-
 ### Recursive approach of Catalan Number
 
 ![image](https://user-images.githubusercontent.com/54589605/215994693-b9ff7a36-7100-435e-a9ad-70f29492ab3f.png)
@@ -3628,6 +3627,63 @@ We know,
 * 5-> 
 
 ## Tree PYQs on *46_operations_on_Binary_Search_Tree*
+
+> Solve them while **Revision**
+
+## Searching in Tree(BT and BST)  (47)
+
+* BST -> O(h) [h-> height of tree]
+* BST(worst case) -> O(n) [n=no. of nodes of tree]
+* BT(Binary Tree) -> O(n) [Using traversals, preorder is best]
+
+## Balanced Tree
+
+> A tree which has height always equals to **log n** for 'n' nodes.
+
+### Balance Factor
+
+> A tree in which for each node the balance factor is in between **-1 to 1[-1,0,1]**. It is the **difference between the height** of *left subtree* and *right subtree*.
+
+* **Balance Factor(BF)** = LH - LR
+* **LH** -> Height of left subtree
+* **LR** -> Height of right subtree
+
+* If a tree is a **balanced tree** then that tree is also a **binary search tree**?
+
+> No. **Balanced tree** means the height of the tree is close to **log n** but it is not necessary that we have to **store the elements in left and right format** i.e smaller keys in left subtree and larger keys in right subtree.
+> Both are different trees. They are not related.
+> If we want **Balanced tree** as well as a **binary search tree** then that tree is called as **AVL** tree.
+> There are **tree** trees here **Balanced tree** where there is only height balancing. **Binary search tree** whose height can be between **log n and n** and there is no talk/logic of height balancing. 
+> **AVL** tree which is the **Balanced binary search tree**. It is both **Balanced tree** and **Binary search tree** combined. It's height will be in **log n** only. It is **Binary search tree** as well so, smaller values will be at the left subtree and larger values at the right subtree.
+
+## AVL or **Balanced binary search tree** Tree
+
+> Self balancing BST.
+> After some **Insertion or deletion** in BST and the balance is changed/disrupted then the AVL tree balances itself by applying some methods. 
+> Height of AVL tree will always be **log n**.
+> **Searching, insertion and deletion** runtime complexities are **log n**.
+> It will always **self balance itself**.
+
+### Types of Imbalances
+
+* LL -> Left Left (Single Right rotation)
+* RR -> Right Right (Single Left rotation)
+* LR -> Left Right 
+* RL -> Right Left 
+
+> Both **LR** and **RL** are not single rotations but double rotations.
+
+## DPP 17 from *47_Balanced_Binary_Search_Tree*
+
+
+> Solutions below
+
+### Solutions
+
+> *Q5* hasen't been taught/discussed yet in *47_Balanced_Binary_Search_Tree*, hence not solved. Solve it when taught.
+
+
+
 
 ## Questions to ask(sir) in next class.
 
