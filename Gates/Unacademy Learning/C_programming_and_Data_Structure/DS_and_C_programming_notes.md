@@ -3553,11 +3553,36 @@ We know,
 ![image](https://user-images.githubusercontent.com/54589605/215996188-3866dec5-9d84-4fe8-b3c2-324746ddeaf1.png)
 ![image](https://user-images.githubusercontent.com/54589605/215996218-e4cb4b46-0aa1-4077-81d2-70cbe3e28fae.png)
 
+## Deletion in BST
+
+* Search the element to be deleted
+* Find the no. of children of node to be deleted.
+* Call one of the following cases based on no. of children
+    1) **Case 0** -> Node with 0 children
+    2) **Case 1** -> Node with 1 children
+    3) **Case 2** -> Node with 2 children
+
+* Two conditions/ways in **Case 2**
+    1) **Inorder Successor** -> Element just after the element to be deleted in the sorted sequence.
+    2) **Inorder Predecessor**-> Element just before the element to be deleted in the sorted sequence.
+
+> There has not been any GATE questions to delete a given node and all. If it is given in the future, then they will **mention** how to delete a node with two childen via **Inorder Successor or Predecessor**. Nothing is **default** here.
+
+> One question can be asked which is better or easier here **Inorder Successor** by replacing **90** or **Inorder Predecessor** by replacing **70**. Tell where there is **minimum** no. of movement or pointer change.
+> **Inorder Successor and Predecessor** comparison question. Which is better/easier to implement in the given question.
+
+## Runtime complexity of BST
+
+> In the worst case of searching in BST, we can get a left/right skewed tree and the no. of nodes(n) in the tree is equal to the height(h) of the tree(h==n).
+
+* Where **h** is the height of the tree.
+* Where **n** is the no. of nodes in the tree. 
 
 ## Questions to ask(sir) in next class.
 
-* Insertion will be O(log n) or theta(log n) [Ask]
+* Insertion will be O(log n) or theta(log n) [Ask] [Answered]
 * Didn't complete all of the DPPs from DPP 13 Q4, only did Part 5 of Q4.
+* Explain Inorder predecessor or successor
 
 
 
