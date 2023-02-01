@@ -3541,7 +3541,12 @@ We know,
 ## Operations on BST (46) [1st Feb 2023]
 
 ![BST_question](https://user-images.githubusercontent.com/54589605/216014163-64e2340c-fc14-4bca-a7ea-65e55fdb52c1.png)
+
+> For 'n' distinct keys/elements and an(one) unlabeled binary tree with 'n' nodes. As there was one unlabeled binary tree with 'n' nodes and we can get arrange the 'n' distinct keys in '1' way to get a BST.
+
 ![image](https://user-images.githubusercontent.com/54589605/216018436-e9491432-18e1-468c-bd55-45440afeb33d.png)
+
+
 
 ### Recursive approach of Catalan Number
 
@@ -3616,13 +3621,19 @@ We know,
 
 ## DPP 16 from *46_operations_on_Binary_Search_Tree*
 
->
+* 1-> [Solved Below]
+* 2-> [Solved Below]
+* 3-> [n-p+1]
+* 4-> B[Theta(n) , postorder-> right to left]
+* 5-> 
+
+## Tree PYQs on *46_operations_on_Binary_Search_Tree*
 
 ## Questions to ask(sir) in next class.
 
 * Insertion will be O(log n) or theta(log n) [Ask] [Answered]
 * Didn't complete all of the DPPs from DPP 13 Q4, only did Part 5 of Q4.
-* Explain Inorder predecessor or successor
+* Explain Inorder predecessor or successor [Got it]
 
 
 
