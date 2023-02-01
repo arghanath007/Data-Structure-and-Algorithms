@@ -3540,10 +3540,19 @@ We know,
 
 ## Operations on BST (46) [1st Feb 2023]
 
-* Recursive approach of Catalan Number -> 
+### Recursive approach of Catalan Number
+
+![image](https://user-images.githubusercontent.com/54589605/215994693-b9ff7a36-7100-435e-a9ad-70f29492ab3f.png)
+![image](https://user-images.githubusercontent.com/54589605/215996130-8c3c3aff-5936-48fd-892f-3a1c7c650bd0.png)
 
 > We created different ways to create **Binary Trees**. The answer we got for **Binary Tree** is the same answer for **Binary Search Tree** because for finding the different **binary trees** for *n* distinct elements, we use **Catalan number**. For finding the different **binary search trees** for *n* distinct elements, we use **Catalan number multiplied by 1**. Hence both have the same answer.
 > If the question is for **binary tree** with **n unlabelled nodes**, we will get the **same answer** as above. 
+
+### Question
+
+![image](https://user-images.githubusercontent.com/54589605/215996188-3866dec5-9d84-4fe8-b3c2-324746ddeaf1.png)
+![image](https://user-images.githubusercontent.com/54589605/215996218-e4cb4b46-0aa1-4077-81d2-70cbe3e28fae.png)
+
 
 ## Questions to ask(sir) in next class.
 
