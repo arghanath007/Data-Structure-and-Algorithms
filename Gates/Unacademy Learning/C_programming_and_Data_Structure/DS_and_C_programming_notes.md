@@ -3540,6 +3540,9 @@ We know,
 
 ## Operations on BST (46) [1st Feb 2023]
 
+![BST_question](https://user-images.githubusercontent.com/54589605/216014163-64e2340c-fc14-4bca-a7ea-65e55fdb52c1.png)
+![image](https://user-images.githubusercontent.com/54589605/216018436-e9491432-18e1-468c-bd55-45440afeb33d.png)
+
 ### Recursive approach of Catalan Number
 
 ![image](https://user-images.githubusercontent.com/54589605/215994693-b9ff7a36-7100-435e-a9ad-70f29492ab3f.png)
@@ -3555,6 +3558,8 @@ We know,
 
 ## Deletion in BST
 
+![image](https://user-images.githubusercontent.com/54589605/216018676-785a77dc-5c9b-4783-9e0c-8cac785c1a96.png)
+
 * Search the element to be deleted
 * Find the no. of children of node to be deleted.
 * Call one of the following cases based on no. of children
@@ -3566,6 +3571,28 @@ We know,
     1) **Inorder Successor** -> Element just after the element to be deleted in the sorted sequence.
     2) **Inorder Predecessor**-> Element just before the element to be deleted in the sorted sequence.
 
+### Case **0**
+
+![image](https://user-images.githubusercontent.com/54589605/216018760-249212ba-de83-448f-b8d5-6db8a5f6e4ab.png)
+
+### Case **1**
+
+![image](https://user-images.githubusercontent.com/54589605/216018871-0c65387a-8150-4f7d-8972-f1d0e379cceb.png)
+![image](https://user-images.githubusercontent.com/54589605/216018935-03738a8d-f631-404f-8a7f-ed3e93fdbd91.png)
+
+### Case **2**
+
+### **Inorder Successor**
+
+![image](https://user-images.githubusercontent.com/54589605/216019166-bd4ea4f1-0ee9-4e59-9f9d-a0aed0e1145f.png)
+![image](https://user-images.githubusercontent.com/54589605/216019312-d6e36f00-7e4f-4885-b55b-ea7474dba670.png)
+
+### **Inorder predecessor**
+
+![image](https://user-images.githubusercontent.com/54589605/216019769-870684ab-a4a0-4af7-9861-c18e18be1109.png)
+![image](https://user-images.githubusercontent.com/54589605/216019810-fdd68856-b11c-4603-a38f-31511a927a3b.png)
+
+
 > There has not been any GATE questions to delete a given node and all. If it is given in the future, then they will **mention** how to delete a node with two childen via **Inorder Successor or Predecessor**. Nothing is **default** here.
 
 > One question can be asked which is better or easier here **Inorder Successor** by replacing **90** or **Inorder Predecessor** by replacing **70**. Tell where there is **minimum** no. of movement or pointer change.
@@ -3575,8 +3602,21 @@ We know,
 
 > In the worst case of searching in BST, we can get a left/right skewed tree and the no. of nodes(n) in the tree is equal to the height(h) of the tree(h==n).
 
+![BST_searching_worst_case](https://user-images.githubusercontent.com/54589605/216014299-fd61d2f1-f1a4-443f-9d81-f7a6380af213.png)
+![BST_searching_worst_case_1](https://user-images.githubusercontent.com/54589605/216014309-156d343f-1611-49cc-bcb4-31bc75306c88.png)
+
+![BST_searching_best_or_average_case](https://user-images.githubusercontent.com/54589605/216014283-d7977543-55bd-4ba6-a8a8-9ba0556771c6.png)
+
 * Where **h** is the height of the tree.
 * Where **n** is the no. of nodes in the tree. 
+
+### Runtime complexity table of BST
+
+![image](https://user-images.githubusercontent.com/54589605/216020018-a4225c1d-fd99-4e10-b49c-e50c17dc172d.png)
+
+## DPP 16 from *46_operations_on_Binary_Search_Tree*
+
+>
 
 ## Questions to ask(sir) in next class.
 
