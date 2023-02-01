@@ -3640,13 +3640,19 @@ We know,
 * BST(worst case) -> O(n) [n=no. of nodes of tree]
 * BT(Binary Tree) -> O(n) [Using traversals, preorder is best]
 
+![image](https://user-images.githubusercontent.com/54589605/216123265-35d33061-742f-4804-a646-307f473cf3ba.png)
+
 ## Balanced Tree
 
 > A tree which has height always equals to **log n** for 'n' nodes.
 
+![image](https://user-images.githubusercontent.com/54589605/216123453-4ef6d872-5147-47fa-8ecb-7530ba710073.png)
+
 ### Balance Factor
 
 > A tree in which for each node the balance factor is in between **-1 to 1[-1,0,1]**. It is the **difference between the height** of *left subtree* and *right subtree*.
+
+![image](https://user-images.githubusercontent.com/54589605/216123380-5f812285-eb21-480a-8ffe-294d4d77e5cb.png)
 
 * **Balance Factor(BF)** = LH - LR
 * **LH** -> Height of left subtree
@@ -3664,9 +3670,12 @@ We know,
 
 > Self balancing BST.
 > After some **Insertion or deletion** in BST and the balance is changed/disrupted then the AVL tree balances itself by applying some methods. 
-> Height of AVL tree will always be **log n**.
+> **Height of AVL tree will always be log n**.
 > **Searching, insertion and deletion** runtime complexities are **log n**.
 > It will always **self balance itself**.
+
+![image](https://user-images.githubusercontent.com/54589605/216123568-b38ae8a7-21a3-47a8-a9cd-2eb0d79cc49a.png)
+
 
 ### Types of Imbalances
 
@@ -3677,16 +3686,57 @@ We know,
 
 > Both **LR** and **RL** are not single rotations but double rotations.
 
-## DPP 17 from *47_Balanced_Binary_Search_Tree*
+### **LL**
 
+![image](https://user-images.githubusercontent.com/54589605/216123791-23b1dc57-24db-4fbf-835c-95387d64047c.png)
+
+### **RR**
+
+![image](https://user-images.githubusercontent.com/54589605/216123877-fbe5b525-b4ab-4169-ab21-9999143ba6da.png)
+
+### **LR**
+
+![image](https://user-images.githubusercontent.com/54589605/216124000-f079f2a2-2a0b-4406-9fbe-05a53de8e0e5.png)
+![image](https://user-images.githubusercontent.com/54589605/216126049-951abd51-732f-4b53-917d-9fee067b75e0.png)
+
+### **RL**
+
+![image](https://user-images.githubusercontent.com/54589605/216126105-8256a572-4a66-41c3-9fd2-75abf4e1bc7c.png)
+![image](https://user-images.githubusercontent.com/54589605/216126277-49fd744b-045c-4516-9ec7-2dfc25750da2.png)
+
+
+### AVL tree **Insertion**
+
+![image](https://user-images.githubusercontent.com/54589605/216126441-f5ef5d12-3c8f-471b-99f2-cf6df0040c52.png)
+![image](https://user-images.githubusercontent.com/54589605/216126485-b7cb4e83-576e-47d6-98d2-10083f82f3fd.png)
+
+
+
+
+
+## DPP 17 from *47_Balanced_Binary_Search_Tree*
 
 > Solutions below
 
 ### Solutions
 
+![AVL_1](https://user-images.githubusercontent.com/54589605/216122733-f5acf2a3-f67c-41e6-9959-4a31b486b32a.jpeg)
+![AVL_2](https://user-images.githubusercontent.com/54589605/216122739-b7c3d037-c788-4a4e-8f88-88f39bd23ac3.jpeg)
+![AVL_3](https://user-images.githubusercontent.com/54589605/216122744-2f368151-2f74-4cd7-9f15-81b165c2e243.jpeg)
+![AVL_4](https://user-images.githubusercontent.com/54589605/216122747-892e24c4-ed43-4d40-9c8c-b6fe174affe4.jpeg)
+![AVL_5](https://user-images.githubusercontent.com/54589605/216122749-010ff949-5324-4799-b11a-ddd77d75fbd7.jpeg)
+![AVL_6](https://user-images.githubusercontent.com/54589605/216122752-6adcb552-9d88-49d9-a516-916f04028e36.jpeg)
+![AVL_7](https://user-images.githubusercontent.com/54589605/216122756-50092681-758e-496a-b1cd-d297994b09c5.jpeg)
+
+> **Q1** from Image 1 before DPP starts is the **AVL Tree Insertion 2 question** on *47_Balanced_Binary_Search_Tree* PDF file page **19**.
+
+### Question 
+
+![image](https://user-images.githubusercontent.com/54589605/216126769-0ed79175-c2d0-4017-a7c5-237c7201bad1.png)
+
+
+
 > *Q5* hasen't been taught/discussed yet in *47_Balanced_Binary_Search_Tree*, hence not solved. Solve it when taught.
-
-
 
 
 ## Questions to ask(sir) in next class.
