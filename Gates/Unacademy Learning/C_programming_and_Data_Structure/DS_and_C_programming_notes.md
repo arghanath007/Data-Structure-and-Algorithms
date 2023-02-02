@@ -3632,10 +3632,12 @@ We know,
 
 ## DPP 16 from *46_operations_on_Binary_Search_Tree*
 
+> Solved in **48_Doubt_Clearning_Session**.
+
 * 1-> [Solved Below]
 * 2-> [Solved Below]
 * 3-> C [n-p]   [Got it wrong]
-* 4-> B[Theta(n) , postorder-> right to left]
+* 4-> B[Theta(n) , postorder-> right to left] [Will be solved later]
 * 5-> [Already solved by Sir in *46_operations_on_Binary_Search_Tree*]
 
 ### Solutions
@@ -3735,9 +3737,9 @@ We know,
 
 
 
-
-
 ## DPP 17 from *47_Balanced_Binary_Search_Tree*
+
+> Solved in **48_Doubt_Clearning_Session**.
 
 > Solutions below
 
@@ -3756,6 +3758,13 @@ We know,
 ### Question 
 
 ![image](https://user-images.githubusercontent.com/54589605/216126769-0ed79175-c2d0-4017-a7c5-237c7201bad1.png)
+
+### Correct Solutions of **DPP 17**
+
+> I converted **8** element value to **18** in the middle of solving the question and got the answer wrong.
+> Solved in **48_Doubt_Clearning_Session** Page **21**.
+
+> Got **Q4** from DPP wrong. Solved on Page **35** of **48_Doubt_Clearning_Session** PDF file.
 
 
 > *Q5* hasen't been taught/discussed yet in *47_Balanced_Binary_Search_Tree*, hence not solved. Solve it when taught.
