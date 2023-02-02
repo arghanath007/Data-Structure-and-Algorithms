@@ -3540,6 +3540,10 @@ We know,
 
 ![BST_5](https://user-images.githubusercontent.com/54589605/215524286-55507edb-19e2-4515-aafa-ce272433986e.jpeg)
 
+### Question 7
+
+![image](https://user-images.githubusercontent.com/54589605/216317637-977c8b60-3bbf-4380-bc35-2ec6907ad7c5.png)
+
 > In *48_Doubt_Clearning_Session* PDF file Page **7** question, if they had asked **How many number of levels in the tree?** 
 
 * **How many number of levels in the tree?** 
