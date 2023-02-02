@@ -3522,6 +3522,8 @@ We know,
 
 ## DPP 15 from *45_Binary_Search_Tree*
 
+> Solved in **48_Doubt_Clearning_Session**.
+
 * 1-> III
 
 > All solutions are below.
@@ -3628,7 +3630,7 @@ We know,
 
 * 1-> [Solved Below]
 * 2-> [Solved Below]
-* 3-> [n-p+1]
+* 3-> C [n-p]   [Got it wrong]
 * 4-> B[Theta(n) , postorder-> right to left]
 * 5-> [Already solved by Sir in *46_operations_on_Binary_Search_Tree*]
 
