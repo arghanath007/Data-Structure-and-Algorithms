@@ -3642,6 +3642,13 @@ We know,
 
 ![BST_6](https://user-images.githubusercontent.com/54589605/216071355-9be08806-e7ad-480e-b4d1-11559e6c43be.jpeg)
 
+> Got **Q3** wrong.
+
+### Explaination of **Q3** from DPP 16
+
+![image](https://user-images.githubusercontent.com/54589605/216318968-84e16bfa-1a92-4078-8741-2510c4978bea.png)
+
+
 ## Tree PYQs on *46_operations_on_Binary_Search_Tree*
 
 > Solve them while **Revision**
