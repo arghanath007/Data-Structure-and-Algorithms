@@ -3538,6 +3538,12 @@ We know,
 
 ![BST_5](https://user-images.githubusercontent.com/54589605/215524286-55507edb-19e2-4515-aafa-ce272433986e.jpeg)
 
+> In *48_Doubt_Clearning_Session* PDF file Page **7** question, if they had asked **How many number of levels in the tree?** 
+
+* **How many number of levels in the tree?** 
+
+> **3** levels (Ans)
+
 ## Operations on BST (46) [1st Feb 2023]
 
 ![BST_question](https://user-images.githubusercontent.com/54589605/216014163-64e2340c-fc14-4bca-a7ea-65e55fdb52c1.png)
@@ -3735,8 +3741,9 @@ We know,
 ![image](https://user-images.githubusercontent.com/54589605/216126769-0ed79175-c2d0-4017-a7c5-237c7201bad1.png)
 
 
-
 > *Q5* hasen't been taught/discussed yet in *47_Balanced_Binary_Search_Tree*, hence not solved. Solve it when taught.
+
+## *48_Doubt_Clearning_Session* (48) [2nd Feb 2023]
 
 
 ## Questions to ask(sir) in next class.
