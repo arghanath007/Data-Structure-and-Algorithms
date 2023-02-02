@@ -184,6 +184,19 @@
 * n=06
 * Product of Factors(Pn) -> 12^(6/2) = 12^3  (Ans)
 
+![Product_of_factors](https://user-images.githubusercontent.com/54589605/216354038-0d23b1ca-6e54-4c27-8498-9e685e90916a.png)
+![Product_of_factors_1](https://user-images.githubusercontent.com/54589605/216354055-9f0f1fab-1aa0-4eff-a7c8-a74e544ae312.png)
+
+
+### Examples of **Factorization**
+
+![Factors_1](https://user-images.githubusercontent.com/54589605/216361658-31ec69ea-b16f-45bf-bef4-6e15de8b6a93.jpeg)
+![Factors_2](https://user-images.githubusercontent.com/54589605/216361669-fcf6d948-f684-4295-9317-39043d4ce906.jpeg)
+![Factors_3](https://user-images.githubusercontent.com/54589605/216361674-417370e0-3901-412a-9abb-b7fae0ac1b22.jpeg)
+![Factors_4](https://user-images.githubusercontent.com/54589605/216361681-4ac0061f-7612-4752-b9fd-2d27e42295e4.jpeg)
+
+> All of the different ones and examples used.
+
 
 # DPPs
 
