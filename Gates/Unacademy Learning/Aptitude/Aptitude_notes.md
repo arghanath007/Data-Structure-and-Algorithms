@@ -152,6 +152,40 @@
 
 ![Last_two_digits_example_2](https://user-images.githubusercontent.com/54589605/215820168-2434917d-aaae-4812-a13d-4cb03b4adbaf.jpeg)
 
+## Factorization
+
+> For any natural number, break it into the **prime factors form**.
+
+### Example
+
+* 12-> 2^2 * 3.
+
+* **No. of odd factors(n-odd)** ->
+* **No. of even factors(n-even)** -> 
+* **No. of factors(n)** = n-odd + n-even
+
+## Perfect Square
+
+> The **power** of the prime numbers should be **even** or have **even powers**.
+
+## Perfect Cube
+
+> The **power** of the prime numbers should be **multiple of 3**.
+
+## Product of Factors
+
+* Number of factors(n)
+* Natural number(N)
+* Product of Factors(Pn) -> N^(n/2)
+
+### Example
+
+* N=12
+* n=06
+* Product of Factors(Pn) -> 12^(6/2) = 12^3  (Ans)
+
+
+# DPPs
 
 ## DPP 1 from *5_Number_System_III*
 
@@ -159,7 +193,7 @@
 
 ### Solutions
 
-![Last_two_digits_example_3](https://user-images.githubusercontent.com/54589605/215834425-235e523f-376a-4f30-a231-23945df126fa.jpeg
+![Last_two_digits_example_3](https://user-images.githubusercontent.com/54589605/215834425-235e523f-376a-4f30-a231-23945df126fa.jpeg)
 
 ![Last_two_digits_example_4](https://user-images.githubusercontent.com/54589605/215834458-d9062c2c-e2cc-4463-b4ed-22f114d09466.jpeg)
 
