@@ -3647,6 +3647,10 @@ We know,
 ### Explaination of **Q3** from DPP 16
 
 ![image](https://user-images.githubusercontent.com/54589605/216318968-84e16bfa-1a92-4078-8741-2510c4978bea.png)
+![image](https://user-images.githubusercontent.com/54589605/216319234-6e90e9d2-eaa9-4933-9965-d317ff486ad1.png)
+
+> Read the circled part written by me in the chat.
+
 
 
 ## Tree PYQs on *46_operations_on_Binary_Search_Tree*
