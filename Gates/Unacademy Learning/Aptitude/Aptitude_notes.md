@@ -204,7 +204,11 @@
 
 * Link -> https://unacademy.com/quiz/quiz/05BSSFW0YV/solutions/SP_I2GRUJ0WXMMOW1BX1
 
+## Workings
 
+![Quiz_1_solutions](https://user-images.githubusercontent.com/54589605/216593829-d8b578ac-12b7-44b5-9f03-8c2848b151e1.jpeg)
+
+![Quiz_1_solutions_2](https://user-images.githubusercontent.com/54589605/216593839-d2c903bb-8318-4fe1-89ff-b13f12f8bce4.jpeg)
 
 # DPPs
 
