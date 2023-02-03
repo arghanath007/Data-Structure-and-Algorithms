@@ -198,6 +198,14 @@
 > All of the different ones and examples used.
 
 
+# Quiz
+
+## Quiz 1
+
+* Link -> https://unacademy.com/quiz/quiz/05BSSFW0YV/solutions/SP_I2GRUJ0WXMMOW1BX1
+
+
+
 # DPPs
 
 ## DPP 1 from *5_Number_System_III*
