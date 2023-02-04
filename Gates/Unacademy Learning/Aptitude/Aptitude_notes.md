@@ -197,6 +197,12 @@
 
 > All of the different ones and examples used.
 
+## Negative remainder (7) [3rd Feb 2023]
+
+
+
+* (7^101)/4 -> Do it till be get **1** or we see a **pattern**.
+
 
 # Quiz
 
