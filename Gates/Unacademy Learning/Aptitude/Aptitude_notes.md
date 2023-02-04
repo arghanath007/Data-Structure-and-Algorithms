@@ -199,9 +199,75 @@
 
 ## Negative remainder (7) [3rd Feb 2023]
 
+![image](https://user-images.githubusercontent.com/54589605/216767449-848d05e9-2c5e-4cee-ba08-d1d444aa97c5.png)
+
+> Getting the remainders. **3 and 1** are the remainders. Without multiplying **15 and 17** we got the answer. We are then multiplying the remainders to check if it is divisable by the divisor. We return the **remainder** as the answer.  
+
+![image](https://user-images.githubusercontent.com/54589605/216767495-452ceb6c-a96c-44d3-b572-f9274b4cabfe.png)
+![image](https://user-images.githubusercontent.com/54589605/216767550-1a9f714c-3e22-491a-9260-bcc7525c7d59.png)
+
+> For the **negative remainder**, we are **just substracting** the **remainder** by the **divisor**. Here **3** is the remainder and **4** is the divisor. Hence **3-4** is **-1**.
+
+![image](https://user-images.githubusercontent.com/54589605/216767576-81705e6c-9302-4fd9-916e-be7e933d5ea6.png)
+
+> If it is completely divisable by the divisor then the answer is **zero(0)** as the remainder/answer.
+
+### Pattern Recognization
+
+* 7/4 -> 3
+* 7^2/4 -> (7*7)/4 -> (3*3)/4 -> 9/4 -> 1
 
 
 * (7^101)/4 -> Do it till be get **1** or we see a **pattern**.
+
+* (7^101)/4 -> ((7^2)^50 *7)/4 -> (1*7)/4 -> 3  [Since, **7^2** gives **1** as remainder. Solved above]
+
+![image](https://user-images.githubusercontent.com/54589605/216770497-a126d1d0-7564-4dde-bddd-f33b16389146.png)
+![image](https://user-images.githubusercontent.com/54589605/216770527-1f18b489-3328-4da5-82a0-7057f88c13d7.png)
+![image](https://user-images.githubusercontent.com/54589605/216770560-5aa4b07e-0089-49a4-b449-831c1ed6d70a.png)
+![image](https://user-images.githubusercontent.com/54589605/216771746-1181c8d6-111f-414c-a7cb-ad78c8a32167.png)
+![image](https://user-images.githubusercontent.com/54589605/216771827-d47670aa-55e1-4c0e-8e75-429ff2d29755.png)
+
+
+
+> Here we are not like, checking the last digit values of the power's value, rather we are trying to find which powers are giving **1** as the remainder. We can see above that **7^2** gives **1** as the remainde which we want. We want the remainder to the **1**.
+
+![image](https://user-images.githubusercontent.com/54589605/216768968-d18f7513-fe54-4772-b479-cc722c4266bf.png)
+![image](https://user-images.githubusercontent.com/54589605/216769062-80ea9b1c-7ac7-4d63-b3c6-d4c45a57f20d.png)
+
+![image](https://user-images.githubusercontent.com/54589605/216769158-51a7ae28-00d3-4709-a89b-c347c06bfee7.png)
+
+> Whatever the divisor is, here is it is **3**, all of the factorials including **3!** and up will have remainder as **0** as they have atleast one(1) **3** factor in them. Hence we just have to calculate for the factors before **3!**. As **3** is a **prime** number, we don't have to think too much and don't have to find the factors of **3**.
+
+![image](https://user-images.githubusercontent.com/54589605/216769323-ca498a5b-3f03-4673-b6c1-35864607e2ab.png)
+
+> Same as above, **5** is a **prime** factor as well.
+
+![image](https://user-images.githubusercontent.com/54589605/216769349-f6d3894b-7b8a-460d-a1ac-f00d2710ae90.png)
+
+> This one is different as **4** is not a **prime** factor. Hence we have to find all of the **factors** of 4, which are **2^2**.
+
+![image](https://user-images.githubusercontent.com/54589605/216769418-72e63943-5e89-442c-8eb0-bb3d97847079.png)
+
+> This one is different as **6** is not a **prime** factor. Hence we have to find all of the **factors** of 6, which are **2^3**. We are starting from **3!** because **3! -> 3.2.1** has **2 and 3** within it which are the factors of 6.
+
+
+![image](https://user-images.githubusercontent.com/54589605/216770399-31c1a493-e067-4b23-be7d-9677cb4d1f6b.png)
+![image](https://user-images.githubusercontent.com/54589605/216770458-4a66c880-1bb0-4618-bf4e-7b57350e6128.png)
+![image](https://user-images.githubusercontent.com/54589605/216770485-ee92b1d2-c45f-4dbd-9172-0490ded7c499.png)
+
+### Examples
+
+![Remainders_1](https://user-images.githubusercontent.com/54589605/216771937-a7088295-19c0-4854-b005-ca65466bd77b.jpeg)
+![Remainders_2](https://user-images.githubusercontent.com/54589605/216771938-cea7b2ad-d601-4185-8374-1763ba24a2ec.jpeg)
+![Remainders_3](https://user-images.githubusercontent.com/54589605/216771941-cf885264-3620-43f5-bcaa-a01a672ceecd.jpeg)
+![Remainders_4](https://user-images.githubusercontent.com/54589605/216771942-294269cc-f06d-4e2f-9535-8e0d93ad07eb.jpeg)
+![Remainders_5](https://user-images.githubusercontent.com/54589605/216771946-0ceea7ed-34c5-41e5-8ea3-3e583092dc3f.jpeg)
+
+
+> Last one in **Page 5** was Homework, sir asked to solve it by ourselves. Check it.
+
+
 
 
 # Quiz
