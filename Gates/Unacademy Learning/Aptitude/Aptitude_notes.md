@@ -264,8 +264,11 @@
 ![Remainders_4](https://user-images.githubusercontent.com/54589605/216771942-294269cc-f06d-4e2f-9535-8e0d93ad07eb.jpeg)
 ![Remainders_5](https://user-images.githubusercontent.com/54589605/216771946-0ceea7ed-34c5-41e5-8ea3-3e583092dc3f.jpeg)
 
-
 > Last one in **Page 5** was Homework, sir asked to solve it by ourselves. Check it.
+
+## Face and Place Value (8) [4th Feb 2023]
+
+
 
 
 
