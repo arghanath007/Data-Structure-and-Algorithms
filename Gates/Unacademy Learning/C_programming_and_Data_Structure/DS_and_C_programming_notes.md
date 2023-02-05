@@ -3771,6 +3771,12 @@ We know,
 
 ## *48_Doubt_Clearning_Session* (48) [2nd Feb 2023]
 
+## AVL Tree Deletion (49) [5th Feb 2023]
+
+* Delete node based on **BST deletion**.
+* Check for imbalances in **ancestors/parents** of the deleted node.
+* If imbalance(YES), then identify the **case** and perform the appropriate **rotations**.
+
 
 ## Questions to ask(sir) in next class.
 
