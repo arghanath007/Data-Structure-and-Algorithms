@@ -279,8 +279,19 @@
 
 * Original -> xy -> x * 10^1 + y* 10^0
 * Reverse -> yx -> y * 10^1 + x* 10^0
-* Reverse - Original = 18  **Important**
-* yx - xy = 18
+
+### Formulas
+
+* **Reverse - Original = 18**  [**Important**]
+* **yx - xy = 18**
+* **y-x =2**
+
+> The difference between the **reverse** of the two digit no. and the **original** no. is **18**.
+
+### How many such cases are possible?
+
+1) 
+
 
 ![image](https://user-images.githubusercontent.com/54589605/216814098-87274cff-3606-4f8b-b5ce-9e11b25d69cb.png)
 
