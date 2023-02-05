@@ -3740,6 +3740,7 @@ We know,
 ## DPP 17 from *47_Balanced_Binary_Search_Tree*
 
 > Solved in **48_Doubt_Clearning_Session**.
+> Solved in **49_AVL_Tree** for **Q5**.
 
 > Solutions below
 
@@ -3767,15 +3768,40 @@ We know,
 > Got **Q4** from DPP wrong. Solved on Page **35** of **48_Doubt_Clearning_Session** PDF file.
 
 
-> *Q5* hasen't been taught/discussed yet in *47_Balanced_Binary_Search_Tree*, hence not solved. Solve it when taught.
+> *Q5* hasen't been taught/discussed yet in *47_Balanced_Binary_Search_Tree*, hence not solved. Solve it when taught. Solved in **49_AVL_Tree**.
 
 ## *48_Doubt_Clearning_Session* (48) [2nd Feb 2023]
 
 ## AVL Tree Deletion (49) [5th Feb 2023]
 
+![image](https://user-images.githubusercontent.com/54589605/216836142-c08df6cc-e7a0-4bb3-8f15-efa615d4c0bb.png)
+
 * Delete node based on **BST deletion**.
 * Check for imbalances in **ancestors/parents** of the deleted node.
 * If imbalance(YES), then identify the **case** and perform the appropriate **rotations**.
+
+### Deletion Process/steps
+
+![image](https://user-images.githubusercontent.com/54589605/216836168-78a823e3-52b7-452e-a684-a6d8b61014d7.png)
+![image](https://user-images.githubusercontent.com/54589605/216836186-9958e5ce-6e7e-4923-832b-3feae941216f.png)
+![image](https://user-images.githubusercontent.com/54589605/216836194-e37e24bb-cc1f-4d4a-bd5d-36a195a63a77.png)
+
+### **Minimum** no. of nodes
+
+![image](https://user-images.githubusercontent.com/54589605/216836294-c249e394-0690-40c7-99a6-933a7f2613e5.png)
+![image](https://user-images.githubusercontent.com/54589605/216836691-a28b44dc-7ecd-4d5a-b4ea-613ca068be20.png)
+![image](https://user-images.githubusercontent.com/54589605/216836694-e2294e06-a704-4a0d-b674-cdea61fde943.png)
+
+### Question
+![image](https://user-images.githubusercontent.com/54589605/216836704-88dbdf14-b6ef-4a4e-9458-b8369d37b79d.png)
+
+
+### Examples
+
+![Delete_AVL_1](https://user-images.githubusercontent.com/54589605/216836103-caf0812d-307b-43a5-bfc8-76da3e37c856.jpeg)
+![Delete_AVL_2](https://user-images.githubusercontent.com/54589605/216836106-f988724a-6bc8-4eca-ba31-89a115c57a50.jpeg)
+![Delete_AVL_3](https://user-images.githubusercontent.com/54589605/216836109-a177666b-add1-4187-b4f0-28ebac297477.jpeg)
+![Delete_AVL_4](https://user-images.githubusercontent.com/54589605/216836110-e461648b-c128-414e-b9cc-9d0e59c36aa9.jpeg)
 
 
 ## Questions to ask(sir) in next class.
