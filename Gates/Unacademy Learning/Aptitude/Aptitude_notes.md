@@ -268,6 +268,33 @@
 
 ## Face and Place Value (8) [4th Feb 2023]
 
+### Two Digit numbers
+
+* Link -> https://unacademy.com/class/number-system-vi/4OVL94JO
+
+![image](https://user-images.githubusercontent.com/54589605/216813919-6eaa7b07-a959-4998-b306-0cfe7605af81.png)
+
+
+> The numbers in the digits are the **Face value** and the multiples of **10** to the power are **place value**. 
+
+* Original -> xy -> x * 10^1 + y* 10^0
+* Reverse -> yx -> y * 10^1 + x* 10^0
+* Reverse - Original = 18  **Important**
+* yx - xy = 18
+
+![image](https://user-images.githubusercontent.com/54589605/216814098-87274cff-3606-4f8b-b5ce-9e11b25d69cb.png)
+
+### Examples
+
+![image](https://user-images.githubusercontent.com/54589605/216814896-928f9e9a-f57f-4589-a8fd-a2e77866c00c.png)
+![image](https://user-images.githubusercontent.com/54589605/216815232-79c34f6a-5fce-4319-899b-910ff322f7ba.png)
+![image](https://user-images.githubusercontent.com/54589605/216815237-9f0f7816-9f99-4906-a8bb-c4b7ac753113.png)
+![image](https://user-images.githubusercontent.com/54589605/216815249-8bfccf66-c136-4ef4-89a9-2686c830f737.png)
+
+
+## Co-prime
+
+![image](https://user-images.githubusercontent.com/54589605/216814176-760bee56-253b-4298-b868-422915885167.png)
 
 
 
