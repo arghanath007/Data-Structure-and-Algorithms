@@ -290,10 +290,86 @@
 
 ### How many such cases are possible?
 
-1) 
+> **7** cases are possible.
 
+![image](https://user-images.githubusercontent.com/54589605/216819705-fb187a57-97b3-4970-9c14-21cdcdb03443.png)
+
+
+![image](https://user-images.githubusercontent.com/54589605/216819408-894bbe59-51ff-4d06-bcfe-a7613cb6085a.png)
+![image](https://user-images.githubusercontent.com/54589605/216819469-aed672df-6719-4619-91e2-5f2bbd0055fc.png)
+![image](https://user-images.githubusercontent.com/54589605/216819527-f4fd3822-6a57-4d88-9224-61ac22345611.png)
+![image](https://user-images.githubusercontent.com/54589605/216819676-c444ae42-4e3d-41ec-a36b-7e5cfa93f928.png)
+
+> Here, we are getting the point that **reverse(yx) - original(xy) =18** or **yx-xy=18**, then we can write it as follows. **y-x=2**.
+
+* yx-xy=18
+* y-x=2
+
+> If it was like **original(xy) - reverse(yx) = 18** or **xy-yx=18**, then we can write it as follows. **x-y=2**.
+
+* xy-yx=18
+* x-y=2
+
+![image](https://user-images.githubusercontent.com/54589605/216819837-62265a68-958f-4c0c-871a-086275c5fe4a.png)
+
+> Keep our focus on the **unit digit difference**.
 
 ![image](https://user-images.githubusercontent.com/54589605/216814098-87274cff-3606-4f8b-b5ce-9e11b25d69cb.png)
+
+### Two Digit Number Examples
+
+![image](https://user-images.githubusercontent.com/54589605/216820971-8aad1630-276e-48a2-91dd-ebdaa80d1e85.png)
+![image](https://user-images.githubusercontent.com/54589605/216821048-83b109f5-2c38-4b9b-bfb6-c3ffde71e0d2.png)
+
+* Solution -> **6 cases**
+* Prime -> zero/none(0)
+* x+y=15 -> We have to find the values of **x and y**. Which we did in **image 2**. 
+
+![image](https://user-images.githubusercontent.com/54589605/216821185-30818524-2229-477f-977d-1ce4bdccf991.png)
+
+### Questions
+
+![image](https://user-images.githubusercontent.com/54589605/216821482-096ddacb-f612-4334-9f88-b072af0193d4.png)
+![image](https://user-images.githubusercontent.com/54589605/216821894-103e4412-83a9-4092-b9e4-bc8e8d8f58e7.png)
+![image](https://user-images.githubusercontent.com/54589605/216822355-ad6d8085-b8a1-40e5-b831-1e73158ba95a.png)
+
+## Product of Factors(Pn)
+
+![image](https://user-images.githubusercontent.com/54589605/216822646-8fbf5310-9e35-402b-8d35-b3836625cb09.png)
+![image](https://user-images.githubusercontent.com/54589605/216822783-68ab144a-d0da-4c9e-ba1b-412c04b07e94.png)
+
+## Sum of factors(Sn)
+
+![image](https://user-images.githubusercontent.com/54589605/216822855-2c72240b-bbf3-4317-8db1-8fce9be7c445.png)
+![image](https://user-images.githubusercontent.com/54589605/216823299-03cc2711-4b6d-40ea-88b7-fe6c952ba9a3.png)
+![image](https://user-images.githubusercontent.com/54589605/216823477-c321a983-19cf-417c-bb25-21f04f3d4844.png)
+![image](https://user-images.githubusercontent.com/54589605/216823548-273917f8-0665-4ac8-9950-15ce7ecb252d.png)
+
+
+## Co-prime or Relatively Prime
+
+![image](https://user-images.githubusercontent.com/54589605/216823942-9a3d8a4c-e7c0-4c67-8707-fc8198f730bf.png)
+![image](https://user-images.githubusercontent.com/54589605/216824086-9b01973b-dd3d-4ddb-b482-21476afdead9.png)
+
+> Numbers **less than** equals to **10** and are **relatively or co-prime** to **10**. For numbers to be **relatively or co-prime**, the **HCF=1**.
+
+![image](https://user-images.githubusercontent.com/54589605/216824287-130aeb39-842c-49f7-b35f-33fac9a7eee7.png)
+![image](https://user-images.githubusercontent.com/54589605/216824322-49477ad9-ce31-4b25-86b6-90493f4f4a08.png)
+![image](https://user-images.githubusercontent.com/54589605/216824502-e6c42adc-228e-4f15-b4fc-0582b498d32f.png)
+
+> For numbers to be **relatively or co-prime**, the **HCF=1**. For this to happen to **10**, we have to get all the numbers which do not have any **factors** of **10-> 2*5** in them.
+
+### Example
+
+![image](https://user-images.githubusercontent.com/54589605/216824786-4acec154-26fb-4220-b547-8578f0167d54.png)
+
+> We are finding the numbers less than equal to **10** and are **relatively or co-prime** to **10** or the numbers when compared to **10** give **HCF=1**.
+
+### Question
+
+![image](https://user-images.githubusercontent.com/54589605/216814176-760bee56-253b-4298-b868-422915885167.png)
+
+
 
 ### Examples
 
@@ -303,9 +379,7 @@
 ![image](https://user-images.githubusercontent.com/54589605/216815249-8bfccf66-c136-4ef4-89a9-2686c830f737.png)
 
 
-## Co-prime
 
-![image](https://user-images.githubusercontent.com/54589605/216814176-760bee56-253b-4298-b868-422915885167.png)
 
 
 
