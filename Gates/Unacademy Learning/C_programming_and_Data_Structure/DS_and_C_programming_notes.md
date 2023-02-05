@@ -3770,6 +3770,14 @@ We know,
 
 > *Q5* hasen't been taught/discussed yet in *47_Balanced_Binary_Search_Tree*, hence not solved. Solve it when taught. Solved in **49_AVL_Tree**.
 
+### AVL tree creation/insertion
+
+![AVL_insertion_1](https://user-images.githubusercontent.com/54589605/216840906-326a40a4-a7fd-4cec-b50f-f5ea61640ae3.jpeg)
+![AVL_insertion_2](https://user-images.githubusercontent.com/54589605/216840909-d26146bf-29af-4c36-9ada-52cb9994a856.jpeg)
+![AVL_insertion_3](https://user-images.githubusercontent.com/54589605/216840910-4cfff81b-3f51-4384-b4dd-257710c887f8.jpeg)
+![AVL_insertion_4](https://user-images.githubusercontent.com/54589605/216840911-8845984c-050e-4fac-a79f-6d40555f17b2.jpeg)
+
+
 ## *48_Doubt_Clearning_Session* (48) [2nd Feb 2023]
 
 ## AVL Tree Deletion (49) [5th Feb 2023]
@@ -3802,6 +3810,7 @@ We know,
 ![Delete_AVL_2](https://user-images.githubusercontent.com/54589605/216836106-f988724a-6bc8-4eca-ba31-89a115c57a50.jpeg)
 ![Delete_AVL_3](https://user-images.githubusercontent.com/54589605/216836109-a177666b-add1-4187-b4f0-28ebac297477.jpeg)
 ![Delete_AVL_4](https://user-images.githubusercontent.com/54589605/216836110-e461648b-c128-414e-b9cc-9d0e59c36aa9.jpeg)
+![Delete_AVL_5](https://user-images.githubusercontent.com/54589605/216840619-fdedffff-3589-402d-98cf-89fdca607376.jpeg)
 
 
 ## Questions to ask(sir) in next class.
