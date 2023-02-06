@@ -3633,6 +3633,13 @@ We know,
 * **Best/Average** case -> O(log n)
 > Since every level of tree is filled.
 
+![image](https://user-images.githubusercontent.com/54589605/216991525-f588612f-f630-4264-ada5-70c86da32496.png)
+
+![image](https://user-images.githubusercontent.com/54589605/216991687-d9f453e0-55dd-4040-b8b3-d97cf28c4a17.png)
+
+> Comparting **nodes** almost to the height of the tree(h).
+
+
 ## DPP 16 from *46_operations_on_Binary_Search_Tree*
 
 > Solved in **48_Doubt_Clearning_Session**.
