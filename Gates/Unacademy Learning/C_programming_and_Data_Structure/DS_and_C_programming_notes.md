@@ -3618,7 +3618,18 @@ We know,
 
 > In the worst case of searching in BST, we can get a left/right skewed tree and the no. of nodes(n) in the tree is equal to the height(h) of the tree(h==n).
 
+### Worst Case
+
+> Searching -> **O(n)**
+
 ![BST_searching_worst_case](https://user-images.githubusercontent.com/54589605/216014299-fd61d2f1-f1a4-443f-9d81-f7a6380af213.png)
+
+### Best/Average Case
+
+* **Best/Average** case -> **O(log n)**
+> Searching -> **O(log n)**
+> Since every level of tree is filled.
+
 ![BST_searching_worst_case_1](https://user-images.githubusercontent.com/54589605/216014309-156d343f-1611-49cc-bcb4-31bc75306c88.png)
 
 ![BST_searching_best_or_average_case](https://user-images.githubusercontent.com/54589605/216014283-d7977543-55bd-4ba6-a8a8-9ba0556771c6.png)
@@ -3628,16 +3639,12 @@ We know,
 
 ### Runtime complexity table of BST
 
+> First one for **searching** which is **O(h)** is the **runtime complexity of searching in BST**.
+> Comparting **nodes** almost to the height of the tree(h).
+
 ![image](https://user-images.githubusercontent.com/54589605/216020018-a4225c1d-fd99-4e10-b49c-e50c17dc172d.png)
 
-* **Best/Average** case -> O(log n)
-> Since every level of tree is filled.
-
-![image](https://user-images.githubusercontent.com/54589605/216991525-f588612f-f630-4264-ada5-70c86da32496.png)
-
 ![image](https://user-images.githubusercontent.com/54589605/216991687-d9f453e0-55dd-4040-b8b3-d97cf28c4a17.png)
-
-> Comparting **nodes** almost to the height of the tree(h).
 
 
 ## DPP 16 from *46_operations_on_Binary_Search_Tree*
@@ -3794,7 +3801,7 @@ We know,
 
 ![image](https://user-images.githubusercontent.com/54589605/216836142-c08df6cc-e7a0-4bb3-8f15-efa615d4c0bb.png)
 
-* Delete node based on **BST deletion**.
+* Delete node based on **BST deletion** i.e **Case 0,1 and 2**.
 * Check for imbalances in **ancestors/parents** of the deleted node.
 * If imbalance(YES), then identify the **case** and perform the appropriate **rotations**.
 
