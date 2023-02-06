@@ -3794,8 +3794,13 @@ We know,
 ![image](https://user-images.githubusercontent.com/54589605/216836186-9958e5ce-6e7e-4923-832b-3feae941216f.png)
 ![image](https://user-images.githubusercontent.com/54589605/216836194-e37e24bb-cc1f-4d4a-bd5d-36a195a63a77.png)
 
-### AVL tree deletion example
+### **AVL tree deletion example**
 
+![Delete_AVL_1](https://user-images.githubusercontent.com/54589605/216836103-caf0812d-307b-43a5-bfc8-76da3e37c856.jpeg)
+![Delete_AVL_2](https://user-images.githubusercontent.com/54589605/216836106-f988724a-6bc8-4eca-ba31-89a115c57a50.jpeg)
+![Delete_AVL_3](https://user-images.githubusercontent.com/54589605/216836109-a177666b-add1-4187-b4f0-28ebac297477.jpeg)
+![Delete_AVL_4](https://user-images.githubusercontent.com/54589605/216836110-e461648b-c128-414e-b9cc-9d0e59c36aa9.jpeg)
+![Delete_AVL_5](https://user-images.githubusercontent.com/54589605/216840619-fdedffff-3589-402d-98cf-89fdca607376.jpeg)
 
 
 ### **Minimum** no. of nodes
@@ -3804,17 +3809,13 @@ We know,
 ![image](https://user-images.githubusercontent.com/54589605/216836691-a28b44dc-7ecd-4d5a-b4ea-613ca068be20.png)
 ![image](https://user-images.githubusercontent.com/54589605/216836694-e2294e06-a704-4a0d-b674-cdea61fde943.png)
 
+> For **Maximum** nodes, we have to **completely** fill all of the levels of the tree. Because **AVL** tree is a **BST** as well as a **Balanced** tree.
+> For **Minimum** nodes, we can **either** fill the **left subtree** to **h-1** height and **right subtree** to **h-2** height or vice-versa. Here, **'h' is the height of the tree**. Because we can have a **balance factor** of **1**.
+
 ### Question
 ![image](https://user-images.githubusercontent.com/54589605/216836704-88dbdf14-b6ef-4a4e-9458-b8369d37b79d.png)
 
 
-### Examples
-
-![Delete_AVL_1](https://user-images.githubusercontent.com/54589605/216836103-caf0812d-307b-43a5-bfc8-76da3e37c856.jpeg)
-![Delete_AVL_2](https://user-images.githubusercontent.com/54589605/216836106-f988724a-6bc8-4eca-ba31-89a115c57a50.jpeg)
-![Delete_AVL_3](https://user-images.githubusercontent.com/54589605/216836109-a177666b-add1-4187-b4f0-28ebac297477.jpeg)
-![Delete_AVL_4](https://user-images.githubusercontent.com/54589605/216836110-e461648b-c128-414e-b9cc-9d0e59c36aa9.jpeg)
-![Delete_AVL_5](https://user-images.githubusercontent.com/54589605/216840619-fdedffff-3589-402d-98cf-89fdca607376.jpeg)
 
 ## Heap (50) [6th Feb 2023]
 
