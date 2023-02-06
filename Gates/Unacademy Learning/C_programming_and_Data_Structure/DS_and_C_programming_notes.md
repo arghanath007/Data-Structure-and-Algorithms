@@ -3836,9 +3836,119 @@ We know,
 
 ## Heap (50) [6th Feb 2023]
 
+![image](https://user-images.githubusercontent.com/54589605/217024185-9c1a5a78-5a22-4832-b63e-b8606603173f.png)
+> **Priority based** Data Structure
+
+## Properties of Heap
+
+* Should be a **Complete Binary Tree**
+* Max or Min Heap property.
+
+* **Complete Binary Tree** -> A **Binary Tree** in which all levels much have maximum no. of nodes, except possibly the last level. The **last level nodes** must be arranged from **left to right**.
+
+![image](https://user-images.githubusercontent.com/54589605/217024988-77a55c19-f140-41f9-8d3a-cd4f40e24a16.png)
+
+* **Max Heap** -> Every node should contain **greater** element than both of it's children
+![image](https://user-images.githubusercontent.com/54589605/217025304-09e2c2ac-6df6-478f-a250-e2fcdf25e09c.png)
+
+
+* **Min Heap** -> Every node should contain **smllaer/lesser** element than both of it's children
+
+> It is the complete opposite of **Max Heap**.
+
+### Array representation on Heap
+
+![image](https://user-images.githubusercontent.com/54589605/217025477-825d21a9-e963-420f-b7bb-1af30b1e7e22.png)
+![image](https://user-images.githubusercontent.com/54589605/217025954-234ee6c3-c042-4a44-864d-84f4cabb326c.png)
+
+> They are arranged in a sequential order from **left to right**.
+
+> Index starts from **zero(0)**. This is the index of the **root** element.
+* Left Child -> 2*i +1
+* Right Child -> 2*i +2 
+
+> Index starts from **one(1)**. This is the index of the **root** element.
+* Left Child -> 2*i 
+* Right Child -> 2*i +1
+
+### Example
+
+![image](https://user-images.githubusercontent.com/54589605/217026272-40ae1cca-f4db-4e50-83bc-cf310ec5ee0d.png)
+
+### Identifying **Heap** or not
+
+![image](https://user-images.githubusercontent.com/54589605/217026577-ba70100f-bd2b-483a-b196-0b327e70ef5e.png)
+
+
 ## Insertion in Heap(one by one)
 
+> First add new element into the tree based on **Complete Binary Tree** and then adjust the tree to support the **Heap** properties.
+
+![image](https://user-images.githubusercontent.com/54589605/217026811-1bba892c-4d0e-4bc3-9e72-ad12bb9e03d3.png)
+![image](https://user-images.githubusercontent.com/54589605/217027171-b3d55816-b0eb-4fca-8eed-e7827963f915.png)
+
+
+### Building a Heap
+
+![image](https://user-images.githubusercontent.com/54589605/217028779-d64829a6-734e-4c38-9f9e-30070dfb0971.png)
+![image](https://user-images.githubusercontent.com/54589605/217028804-dd6c7861-3447-4bdc-9a42-2cf32cabddae.png)
+
+## Runtime complexity
+
+* Runtime complexity for **each insertion** in Heap -> **O(log n)**
+* Runtime complexity for **'n' insertion** or **one by one** insertion in Heap -> **O(nlog n)**
+
+### Example of **one by one insertion**
+
+![image](https://user-images.githubusercontent.com/54589605/217029182-dd0e0c33-1c37-4e3b-b1e9-b7032330cdcc.png)
+![image](https://user-images.githubusercontent.com/54589605/217029228-15ef2ece-f112-46c2-9cbd-4dca21ddedf0.png)
+![image](https://user-images.githubusercontent.com/54589605/217029317-39cb997f-67f6-4a8e-93a2-f873b9e1594d.png)
+
+
 ## Insertion in Heap(Heapify)
+
+* Construct **Complete Binary Tree** using given keys.
+* From **last to first** traverse the internal nodes and perform **heapify** on them. 
+
+* **Heapify** -> Adjust the **internal node**, such that the subtree starting from the **internal** node as **root** becomes **max or min** heap.
+
+![image](https://user-images.githubusercontent.com/54589605/217029428-41384e15-6f1b-4f53-82f3-496baac137c1.png)
+
+
+### Example
+
+![image](https://user-images.githubusercontent.com/54589605/217029879-6ab93b24-6df1-4080-981f-389c90299a85.png)
+![image](https://user-images.githubusercontent.com/54589605/217030177-97a46cd1-cbe5-4f0e-84f5-2f4f5d234c28.png)
+![image](https://user-images.githubusercontent.com/54589605/217030280-67b182c0-2556-4a91-b542-06333ec9560f.png)
+![image](https://user-images.githubusercontent.com/54589605/217030611-a22399a2-933a-4891-8e39-758454246de6.png)
+![image](https://user-images.githubusercontent.com/54589605/217030640-c35d677e-f1bd-4632-925d-3ae4357f5620.png)
+
+
+## Runtime complexity for **one by one** and **Heapify**
+
+* Runtime complexity for **each insertion** in Heap -> **O(log n)**
+* Runtime complexity for **'n' insertion** or **one by one** insertion in Heap -> **O(nlog n)**
+
+* Runtime complexity for **'n' insertion** using **Heapify** -> **Theta(n)**
+
+### Questions
+
+![image](https://user-images.githubusercontent.com/54589605/217030760-867b9eac-f415-4571-8280-e2fde132e163.png)
+
+> If elements are given in **ascending order** like above then **zero(0)** swaps are required to build **min-heap**.
+
+![image](https://user-images.githubusercontent.com/54589605/217030974-b41dd9c7-67fd-44fc-a7aa-2f7867627478.png)
+![image](https://user-images.githubusercontent.com/54589605/217031022-366307ce-32a9-4c4a-95b6-a43a3addee89.png)
+
+### Examples
+
+![Heap_1](https://user-images.githubusercontent.com/54589605/217036444-8bb7d69f-7c05-4799-ab58-fd5c0b3162a7.jpeg)
+![Heap_2](https://user-images.githubusercontent.com/54589605/217036472-cbc11933-36a0-4732-b3ee-80d3db9f2e39.jpeg)
+![Heap_3](https://user-images.githubusercontent.com/54589605/217036479-e0c9a972-742d-40a7-8922-792dea78f3ce.jpeg)
+![Heap_4](https://user-images.githubusercontent.com/54589605/217036483-ac22b1c9-b533-438b-89ff-f9b043cb454d.jpeg)
+![Heap_5](https://user-images.githubusercontent.com/54589605/217036507-09ee023a-3c70-4c57-bb38-497ebd2024d9.jpeg)
+![Heap_6](https://user-images.githubusercontent.com/54589605/217036520-71d2be69-2b74-434a-a586-755b41ff651d.jpeg)
+![Heap_7](https://user-images.githubusercontent.com/54589605/217036527-9015f487-7865-4120-b3a6-a2aaa2edaa07.jpeg)
 
 
 ## Questions to ask(sir) in next class.
@@ -3846,7 +3956,6 @@ We know,
 * Insertion will be O(log n) or theta(log n) [Ask] [Answered]
 * Didn't complete all of the DPPs from DPP 13 Q4, only did Part 5 of Q4.
 * Explain Inorder predecessor or successor [Got it]
-* For Max
 
 
 
