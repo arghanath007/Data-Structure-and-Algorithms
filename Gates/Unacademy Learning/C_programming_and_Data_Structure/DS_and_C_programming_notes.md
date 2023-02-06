@@ -3794,6 +3794,10 @@ We know,
 ![image](https://user-images.githubusercontent.com/54589605/216836186-9958e5ce-6e7e-4923-832b-3feae941216f.png)
 ![image](https://user-images.githubusercontent.com/54589605/216836194-e37e24bb-cc1f-4d4a-bd5d-36a195a63a77.png)
 
+### AVL tree deletion example
+
+
+
 ### **Minimum** no. of nodes
 
 ![image](https://user-images.githubusercontent.com/54589605/216836294-c249e394-0690-40c7-99a6-933a7f2613e5.png)
@@ -3812,12 +3816,19 @@ We know,
 ![Delete_AVL_4](https://user-images.githubusercontent.com/54589605/216836110-e461648b-c128-414e-b9cc-9d0e59c36aa9.jpeg)
 ![Delete_AVL_5](https://user-images.githubusercontent.com/54589605/216840619-fdedffff-3589-402d-98cf-89fdca607376.jpeg)
 
+## Heap (50) [6th Feb 2023]
+
+## Insertion in Heap(one by one)
+
+## Insertion in Heap(Heapify)
+
 
 ## Questions to ask(sir) in next class.
 
 * Insertion will be O(log n) or theta(log n) [Ask] [Answered]
 * Didn't complete all of the DPPs from DPP 13 Q4, only did Part 5 of Q4.
 * Explain Inorder predecessor or successor [Got it]
+* For Max
 
 
 
