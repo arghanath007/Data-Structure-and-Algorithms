@@ -4046,6 +4046,16 @@ We know,
 ![image](https://user-images.githubusercontent.com/54589605/217275035-8c513691-d604-43b3-b3ee-c22c02606205.png)
 ![image](https://user-images.githubusercontent.com/54589605/217275062-bcc9bbdf-b06f-4000-938c-5212b6f00050.png)
 
+![Heap_deletion_1](https://user-images.githubusercontent.com/54589605/217275910-53543f35-6ff9-49ed-98d8-7e94622557d7.jpeg)
+![Heap_deletion_2](https://user-images.githubusercontent.com/54589605/217275922-cf462cc4-68e5-48b7-81a4-64e726aaf967.jpeg)
+![Heap_deletion_3](https://user-images.githubusercontent.com/54589605/217275927-faf93bec-8df7-4861-8de3-314870d811c7.jpeg)
+![Heap_deletion_4](https://user-images.githubusercontent.com/54589605/217275932-c481e9ea-b0a3-4258-9d06-eae766991ae7.jpeg)
+![Heap_deletion_5](https://user-images.githubusercontent.com/54589605/217275935-b5ebc520-99a8-4207-811b-fc0db7b46ab8.jpeg)
+
+
+
+
+
 
 
 ## Questions to ask(sir) in next class.
