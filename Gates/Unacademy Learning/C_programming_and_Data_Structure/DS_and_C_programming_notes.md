@@ -3955,7 +3955,97 @@ We know,
 
 ## Operations on AVL tree (51) [7th Feb 2023]
 
+![image](https://user-images.githubusercontent.com/54589605/217253435-7b66b500-03ab-4523-996b-22df617bfe00.png)
+![image](https://user-images.githubusercontent.com/54589605/217253511-6b9a4d0e-3ea7-4b58-8337-6a80ca3b8858.png)
+![image](https://user-images.githubusercontent.com/54589605/217253847-964ad34d-9b9d-438f-a0aa-7de654bc4d67.png)
+
+> This part is used to find the **exchanges** for the **L-1** levels of the tree. 'L' is the levels of the tree.
+
+> **(n-logn +1)*logn** is the part to find the exchanges in the **last level if it is not full**.
 > Same formula will be used in **max heap** as well when we insert the elements in the **opposite** direction.
+
+### Time complexities in Heap
+
+> If asked to find the **max or the min** of a given binary heap. Then the runtime complexity will be **Theta(1)**.
+
+![image](https://user-images.githubusercontent.com/54589605/217254915-3acf601d-a675-4475-9f09-62fd3adfb071.png)
+
+* **Runtime complexity** to find **Max or min** in given Heap -> **Theta(1)**
+
+![image](https://user-images.githubusercontent.com/54589605/217256605-81dcd94b-6355-4c95-a8c3-13e1d71bacdc.png)
+
+> The **Runtime complexity** is **Theta(n)** because we do not know where the element is in the tree. But we do know that it is one of the **leaf** nodes as root node is greater than it's children in max-heap and root node is smaller than it's children in min-heap. We have to traverse through the whole tree to find them(min value in max-heap and max value in min-heap.
+
+### Searching in Heap
+
+> Heap is a **Complete Binary Tree** and not a **Binary Search Tree**. Hence we cannot correctly tell if the   searched element is in **left or right** subtree. Hence we have to do **Traversal/Traversing** in Heap to find the searched element.
+
+![image](https://user-images.githubusercontent.com/54589605/217258409-176eb81c-a9c0-44f7-ba64-7a2218b47718.png)
+
+### Runtime complexity of seaching in heap
+
+* Runtime complexity -> **O(n)** [Through Traversal]
+
+> We are doing **O(n)** instead of **Theta(n)** because we can find in anywhere within the tree, can be the root node or the 5 or the last node of the tree.
+
+### Questions
+
+**Important**
+
+![image](https://user-images.githubusercontent.com/54589605/217260119-442b4e05-004b-44af-ad21-467f36c55448.png)
+
+> It is **O(n)** bacause when inserting a new node in the heap, first we are searching the heap to see if the element to be inserted is already present in the heap or not. If it is present in the heap already then we will not insert the element into the heap. Here, the **Runtime complexity** will be **O(n)** which is the complexity of seaching in heap.
+> If we didn't find the element to be inserted in the heap, then we will insert the element into the heap. Hence the **Runtime complexity** will be **O(n) + O(logn) -> O(n + logn) -> O(n)** which is the complexity of insertion in heap. We are inserting only **one** element hence the complexity of insertion is **O(log n)**. 
+> As mentioned in the question, **insert the element only if the element is not present in the heap**. This changes the complexity all together. Now we get two situations here, **1)** when element is present in heap and **2)** when element is not present in heap. 
+
+* When element is present in heap -> O(n) [For searching]
+* when element is not present in heap -> O(n) + O(logn) -> O(n) [For seaching and insertion] 
+
+> If the note was not given in the question then, we would have only one case which is **insert the element in the heap**. No need for searching here.
+
+* Runtime complexity -> O(log n) [Insertion of one element]
+
+![image](https://user-images.githubusercontent.com/54589605/217266285-48a33059-6525-4520-9334-17a305a63956.png)
+
+## Deletion in Heap
+
+> Priority Queue. Deletion should be done on **highest priority**. Every time the element on the **root** gets deleted when deletion happens on heap.
+> In Max-heap, the **max** element gets deleted.
+> In min-heap, the **min** element gets deleted.
+
+![image](https://user-images.githubusercontent.com/54589605/217266992-d008f4d6-beed-4ed3-8d9b-31140040246d.png)
+![image](https://user-images.githubusercontent.com/54589605/217267046-47bfbaea-3713-4c99-8cf5-1ae730b626f3.png)
+
+### Example
+
+![image](https://user-images.githubusercontent.com/54589605/217267998-97960f95-af6d-477d-a416-c0f908d467ae.png)
+![image](https://user-images.githubusercontent.com/54589605/217269027-6d5ae9fd-9bb5-48e2-9e9b-2ea2fd6b40f0.png)
+
+
+## Runtime complexity of **deletion** in heap
+
+* Runtime complexity -> O(log n).
+
+### No. of heaps with **N** keys
+
+![image](https://user-images.githubusercontent.com/54589605/217271350-2644476c-21f0-43bf-a4f4-38fa0834938b.png)
+![image](https://user-images.githubusercontent.com/54589605/217271281-8ac4e487-74d9-425d-a402-48f733a80057.png)
+![image](https://user-images.githubusercontent.com/54589605/217271461-410ee373-b4d8-49c6-85bb-dab069de977f.png)
+![image](https://user-images.githubusercontent.com/54589605/217271519-72a1d411-a9ad-4fe0-a6b1-766e13e37087.png)
+![image](https://user-images.githubusercontent.com/54589605/217271652-f3d70dfc-8a18-4bde-957e-1fae5ea9a14f.png)
+![image](https://user-images.githubusercontent.com/54589605/217271710-4883a0f7-8246-4170-8643-9560eb4c4e3b.png)
+
+#### Formula
+
+![image](https://user-images.githubusercontent.com/54589605/217271610-967072a0-4559-46d4-ac6b-54ec84db1875.png)
+
+
+### Examples
+
+![image](https://user-images.githubusercontent.com/54589605/217273935-57e70b0b-476c-465a-b530-f061423336cc.png)
+![image](https://user-images.githubusercontent.com/54589605/217275035-8c513691-d604-43b3-b3ee-c22c02606205.png)
+![image](https://user-images.githubusercontent.com/54589605/217275062-bcc9bbdf-b06f-4000-938c-5212b6f00050.png)
+
 
 
 ## Questions to ask(sir) in next class.
