@@ -972,6 +972,7 @@ int **p;
 * 1 -> Revise everything from 16 to 21 Jan 2023. Practice questions.
 * 2 -> Revise everything from 21 to 28 Jan 2023. Practice questions.
 * 3 -> Revise everything from 29 to 5 Feb 2023. Practice questions.
+* 4 -> Revise everything from 6 to 13 Feb 2023. Practice questions.
 
 ## Introduction to DS (17)
 
@@ -3949,6 +3950,12 @@ We know,
 ![Heap_5](https://user-images.githubusercontent.com/54589605/217036507-09ee023a-3c70-4c57-bb38-497ebd2024d9.jpeg)
 ![Heap_6](https://user-images.githubusercontent.com/54589605/217036520-71d2be69-2b74-434a-a586-755b41ff651d.jpeg)
 ![Heap_7](https://user-images.githubusercontent.com/54589605/217036527-9015f487-7865-4120-b3a6-a2aaa2edaa07.jpeg)
+
+> Page **7** question is solved in **51_Operations_On_AVL_tree**.
+
+## Operations on AVL tree (51) [7th Feb 2023]
+
+> Same formula will be used in **max heap** as well when we insert the elements in the **opposite** direction.
 
 
 ## Questions to ask(sir) in next class.
