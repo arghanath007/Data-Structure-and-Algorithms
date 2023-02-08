@@ -3925,7 +3925,7 @@ We know,
 ![image](https://user-images.githubusercontent.com/54589605/217030640-c35d677e-f1bd-4632-925d-3ae4357f5620.png)
 
 
-## Runtime complexity for **one by one** and **Heapify**
+## Runtime complexity in Heap for **one by one** and **Heapify**
 
 * Runtime complexity for **each insertion** in Heap -> **O(log n)**
 * Runtime complexity for **'n' insertion** or **one by one** insertion in Heap -> **O(nlog n)**
