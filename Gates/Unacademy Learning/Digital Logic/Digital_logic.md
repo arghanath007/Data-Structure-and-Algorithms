@@ -71,6 +71,8 @@
 
 * For **T2** to apply the condition is **14 + 23** and when **1 and 3** positions should be **complement** to each other.
 
+### Summary of T1 and T2.
+
 * If **1 and 3** both are **same** then **T1**. Steps are different **13 + 24*.
 * If **1 and 3** both are **complement** to each other then **T2**. Steps are **14 + 23*.
 
