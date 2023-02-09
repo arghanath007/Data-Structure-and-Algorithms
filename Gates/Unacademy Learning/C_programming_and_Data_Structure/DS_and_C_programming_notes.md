@@ -3930,7 +3930,7 @@ We know,
 * Runtime complexity for **each insertion** in Heap -> **O(log n)**
 * Runtime complexity for **'n' insertion** or **one by one** insertion in Heap -> **O(nlog n)**
 
-* Runtime complexity for **'n' insertion** using **Heapify** -> **Theta(n)**
+* Runtime complexity for **'n' insertion** using **Heapify** -> **Theta(n)** 
 
 ### Questions
 
@@ -4061,6 +4061,21 @@ We know,
 ![Heap_deletion_3](https://user-images.githubusercontent.com/54589605/217275927-faf93bec-8df7-4861-8de3-314870d811c7.jpeg)
 ![Heap_deletion_4](https://user-images.githubusercontent.com/54589605/217275932-c481e9ea-b0a3-4258-9d06-eae766991ae7.jpeg)
 ![Heap_deletion_5](https://user-images.githubusercontent.com/54589605/217275935-b5ebc520-99a8-4207-811b-fc0db7b46ab8.jpeg)
+
+## 52_Doubt_Solving_session(Heap PYQs) (52) [9th Feb 2023]
+
+* Many Heap **PYQs** done.
+
+> In Q1, the question is about **conversion** and not **insertion**.
+> In Q12, **2007**, no. of comparison performed will be the **no. of element present** and it's **log n** as **height** is **log n** of the tree.
+
+* No. of element present -> Log n
+* Height of tree -> log n
+* no. of comparison performed -> Theta(log log n). 
+
+### Solutions 
+
+
 
 
 
