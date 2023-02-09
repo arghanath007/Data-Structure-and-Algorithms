@@ -4075,8 +4075,16 @@ We know,
 
 ### Solutions 
 
-
-
+![Heap_1](https://user-images.githubusercontent.com/54589605/217866159-bdc4cbe6-1055-4292-ad0d-6583eb1b6243.jpeg)
+![Heap_2](https://user-images.githubusercontent.com/54589605/217866168-771098eb-45d3-4fe6-aa08-71eeaf4b2f8d.jpeg)
+![Heap_3](https://user-images.githubusercontent.com/54589605/217866176-d2292b2b-269c-49e3-81a2-84aef42e5bf0.jpeg)
+![Heap_4](https://user-images.githubusercontent.com/54589605/217866182-289ab0f2-036f-4f3c-8c5c-4b3cb0372869.jpeg)
+![Heap_5](https://user-images.githubusercontent.com/54589605/217866187-6a04f82a-b5e8-4ae8-a8bb-a72ce8604b65.jpeg)
+![Heap_6](https://user-images.githubusercontent.com/54589605/217866191-16db228a-3959-41ff-8067-52b72e6adf45.jpeg)
+![Heap_7](https://user-images.githubusercontent.com/54589605/217866196-e9c711ba-6db4-49d6-937f-3b4cc3f0f102.jpeg)
+![Heap_8](https://user-images.githubusercontent.com/54589605/217866202-a7e68ac8-7d39-4121-9bce-bb3e06b22331.jpeg)
+![Heap_9](https://user-images.githubusercontent.com/54589605/217866205-a315e30c-4c6a-4df9-97a9-66dacbb6d2fe.jpeg)
+![Heap_10](https://user-images.githubusercontent.com/54589605/217866209-c6fb3dbd-c348-44ab-8e72-e0033a583d48.jpeg)
 
 
 
