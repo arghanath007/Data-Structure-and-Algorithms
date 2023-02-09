@@ -3953,6 +3953,16 @@ We know,
 
 > Page **7** question is solved in **51_Operations_On_AVL_tree**.
 
+## Solution to Question in Page **7**
+
+![image](https://user-images.githubusercontent.com/54589605/217731736-2d6f24f3-9d7a-4b3b-9c80-db524601f36f.png)
+![image](https://user-images.githubusercontent.com/54589605/217731803-ba66ddb5-86ba-4be5-9ce0-16940e1a83e5.png)
+![image](https://user-images.githubusercontent.com/54589605/217731824-b3aaf8d2-a17a-423a-ae0e-5ed2d19f32e8.png)
+![image](https://user-images.githubusercontent.com/54589605/217731850-85a8729b-b104-4aca-9301-6e04df752a91.png)
+![Heap_deletion_1](https://user-images.githubusercontent.com/54589605/217275910-53543f35-6ff9-49ed-98d8-7e94622557d7.jpeg)
+![Heap_deletion_2](https://user-images.githubusercontent.com/54589605/217275922-cf462cc4-68e5-48b7-81a4-64e726aaf967.jpeg)
+
+
 ## Operations on AVL tree (51) [7th Feb 2023]
 
 ![image](https://user-images.githubusercontent.com/54589605/217253435-7b66b500-03ab-4523-996b-22df617bfe00.png)
