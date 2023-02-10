@@ -11,13 +11,20 @@
 
 ## Playlist
 
-* Link -> https://unacademy.com/course/complete-course-on-digital-electronics-gate-2023/6CA5DFM1
+* Link (Sanchit Jain sir) -> https://unacademy.com/course/complete-course-on-digital-electronics-gate-2023/6CA5DFM1
 * Link(BV Reddy Sir) -> https://unacademy.com/course/comprehensive-course-on-digital-logic-design-20232024-983/SCBXF3JE
 
 ## Resources
 
 * Link -> https://bvreddysir.blogspot.com/2022/01/comprehensive-course-on-digital-20232024.html
 
+* Digital DPP_1 -> https://drive.google.com/file/d/1ZFbNWRYXc9BFPfk3tE7Y7Rtn0yHjUpp6/view
+
+    1) Boolean Algebra(1-60) -> https://unacademy.com/class/practice-course-on-digital-circuits-1/HNMD92L8
+
+## Revision
+
+1) Revise from 7th to 14th Feb
 
 ## Introduction (1) [7th Feb 2023]
 
@@ -137,6 +144,11 @@
 ![Questions_1](https://user-images.githubusercontent.com/54589605/217540434-f792b296-cacc-490f-92f8-0aa55ea377d2.jpeg)
 ![Questions_2](https://user-images.githubusercontent.com/54589605/217540445-ba98924a-f30c-4e4b-9e6f-69756b2036ca.jpeg)
 ![Questions_3](https://user-images.githubusercontent.com/54589605/217540450-d333b628-6911-4dbc-9d71-ef7608a98cf7.jpeg)
+
+## Practice Questions (1) [10th Feb 2023]
+
+
+
 
 
 
