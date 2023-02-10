@@ -18,6 +18,8 @@
 
 * Link -> https://bvreddysir.blogspot.com/2022/01/comprehensive-course-on-digital-20232024.html
 
+* Digital Assignments and DPP Discussions -> https://bvreddysir.blogspot.com/2021/10/digital-dppsdiscussion-s.html
+
 * Digital DPP_1 -> https://drive.google.com/file/d/1ZFbNWRYXc9BFPfk3tE7Y7Rtn0yHjUpp6/view
 
     1) Boolean Algebra(1-60) -> https://unacademy.com/class/practice-course-on-digital-circuits-1/HNMD92L8
