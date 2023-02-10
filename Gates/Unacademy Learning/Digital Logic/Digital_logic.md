@@ -192,6 +192,12 @@
 
 ![Solution_of_Q7](https://user-images.githubusercontent.com/54589605/218074881-5096b909-9230-46e4-be7d-6456e82b6dcf.png)
 
+### Q8
+
+### Q9
+
+### Q10
+
 ### Q11
 
 ![image](https://user-images.githubusercontent.com/54589605/218088280-c9750742-fa91-45c3-98aa-d4f320c785ea.png)
