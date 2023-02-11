@@ -257,13 +257,10 @@ f` `-> Complement of the Initial expression (Answer)
 > Each product term are called as **minterm**.
 > If each of the **minterm** contains **all** of the **boolean variables**, then this expression is called as **Canonical form**.
 
-### Sum of product(SOP)
+### Examples
 
-* f(A,B,C) = ABC` ` + AB`C` + ABC -> **Sum of product(SOP)**
+![image](https://user-images.githubusercontent.com/54589605/218260178-a92cc93d-56c8-483d-9bce-4a8e3abb2097.png)
 
-> Each term is **SOP** is called as **minterm**.
-
-> In case of **SOP** form, we need to concentrate on where the **output** is **High or Logic '1' or 1**.
 
 ### Minimal Form
 
@@ -271,8 +268,30 @@ f` `-> Complement of the Initial expression (Answer)
 
 > If any variable is **missing** then we can call it as **Minimal Form**.
 
+### Examples
 
-### Product of Sum(POS)
+![image](https://user-images.githubusercontent.com/54589605/218260205-d9aa6469-86b5-44e3-b7ca-cbb39e2f3fb0.png)
+
+
+## Sum of product(SOP)
+
+* f(A,B,C) = ABC` ` + AB`C` + ABC -> **Sum of product(SOP)**
+
+> Each term is **SOP** is called as **minterm**.
+
+![image](https://user-images.githubusercontent.com/54589605/218260477-124bd3b1-2eb6-44f1-a6ae-a082893e93b5.png)
+
+
+> In case of **SOP** form, we need to concentrate on where the **output** is **High or Logic '1' or 1**.
+
+### Examples
+
+![image](https://user-images.githubusercontent.com/54589605/218260094-fe9c5ed1-0237-4650-96b4-3a01e0b77e87.png)
+![image](https://user-images.githubusercontent.com/54589605/218260570-c2de04b2-01c4-4e45-a1a6-26e00366e769.png)
+![image](https://user-images.githubusercontent.com/54589605/218260556-a7c23410-8bd5-43a0-b7af-090003889f51.png)
+
+
+## Product of Sum(POS)
 
 * f(A,B,C) = (A+B+C`)(A`+B`+C)(A`+B`+C`) -> **Canonical Form** or **Canonical f Product of sum(POS)**
 
@@ -285,7 +304,21 @@ f` `-> Complement of the Initial expression (Answer)
 
 > The main purpose of **Boolean Algebra** is to **minimize/reduce** the no. of **literals**.
 
+![image](https://user-images.githubusercontent.com/54589605/218260495-39568449-e06b-4492-ae82-b9e3b862b170.png)
+
+
 > In case of **POS** form, we need to concentrate on where the **output** is **Low or Logic '0' or 0**.
+
+
+### Examples
+
+![image](https://user-images.githubusercontent.com/54589605/218260144-491baf23-72d3-4071-9367-6f4fb2e54498.png)
+![image](https://user-images.githubusercontent.com/54589605/218260570-c2de04b2-01c4-4e45-a1a6-26e00366e769.png)
+![image](https://user-images.githubusercontent.com/54589605/218260602-04b769bf-54ba-4fd8-b8af-68cc73a1d798.png)
+
+### Literal
+
+![image](https://user-images.githubusercontent.com/54589605/218260453-bb4af25f-8719-4fbe-a24b-ae1695f0fbc0.png)
 
 
 
