@@ -148,6 +148,93 @@
 ![Questions_3](https://user-images.githubusercontent.com/54589605/217540450-d333b628-6911-4dbc-9d71-ef7608a98cf7.jpeg)
 ![Boolean_Algebra_2](https://user-images.githubusercontent.com/54589605/218042970-55ebef07-c83c-4e78-a77a-535affc17d33.jpeg)
 
+
+
+## Boolean_Algebra_II (2) [10th Feb 2023]
+
+### Complement
+
+* **Complement** -> Dual + negation
+
+
+### Consensus Theorem (Rajinikanth Wala)
+
+> There might be **only one** variable which has it's **normal form(A)** as well as it's **complement form( A` `)**. **Normal form(A)** as well as **complement form(A` )** is present there. 
+
+
+### Example
+
+* f = AB + BC + A`C
+
+> 'A' has it's **Normal form(A)** as well as **complement form(A`)**. Hence, we call 'A' as **Rajni** here. 
+> With 'A' we have 'B' and with 'A` `' we have 'C'. We can see the **middle expression(BC)** is formed from the **combination** of these two(B and C) variables, which are present along side 'A and A`'. Hence, **BC** is redundant and not required.
+
+### Steps
+
+* We have to first identify **rajni** from the whole expression. 
+    > **Rajni** means the variable which has both of it's **Normal form(A)** as well as **complement form(A` )** is present there.
+
+* The variables(B and C from above example) along side **Rajni** form an expression/term(BC from above example), then that expression/term is **Redundant or not required**.
+
+### Boolean Function Representation 
+
+* Canonical Form
+* Minimal Form
+
+### Canonical Form or Standard Form
+
+> First we need multiply/product(product term). After taking the product we then did sum/add. **Sum of product(SOP)**.
+
+* f(A,B,C) = ABC` + AB`C` + ABC -> **Canonical Form** or **Canonical Sum of product(SOP)**
+* ABC`, AB`C`, ABC -> 3 Product Term
+
+> Above expression contains **3** variables.
+
+> Each product term are called as **minterm**.
+> If each of the **minterm** contains **all** of the **boolean variables**, then this expression is called as **Canonical form**.
+
+### Sum of product(SOP)
+
+* f(A,B,C) = ABC` + AB`C` + ABC -> **Sum of product(SOP)**
+
+> Each term is **SOP** is called as **minterm**.
+
+> In case of **SOP** form, we need to concentrate on where the **output** is **High or Logic '1' or 1**.
+
+### Minimal Form
+
+* f(A,B,C) = AB + AB`C` + ABC -> **Minimal SOP Form**
+
+> If any variable is **missing** then we can call it as **Minimal Form**.
+
+
+### Product of Sum(POS)
+
+* f(A,B,C) = (A+B+C`)(A`+B`+C)(A`+B`+C`) -> **Canonical Form** or **Canonical f Product of sum(POS)**
+
+> Each term is **POS** is called as **maxterm**.
+> Above expression contains **3** variables.
+> If each of the **maxterm** contains **all** of the **boolean variables**, then this expression is called as **Canonical form**.
+
+* f(A,B,C) = (A+B+C`)(A`+B`)(A`+B`+C`) -> **Minimal POS form**
+
+
+> The main purpose of **Boolean Algebra** is to **minimize/reduce** the no. of **literals**.
+
+> In case of **POS** form, we need to concentrate on where the **output** is **Low or Logic '0' or 0**.
+
+
+
+
+
+
+
+
+
+
+
+
+# Practice Questions and Solutions
 ## Practice Questions (1) [10th Feb 2023]
 
 ![Boolean_Algebra_1](https://user-images.githubusercontent.com/54589605/218043260-a7af0cb3-152c-426c-98cc-7038ef4751d9.jpeg)
@@ -228,8 +315,7 @@
 ![image](https://user-images.githubusercontent.com/54589605/218087770-eadd18dd-e954-4fff-8f16-c03d9792bb9e.png)
 
 
-
-
+## Practice Questions (2) [11th Feb 2023]
 
 
 
