@@ -257,13 +257,10 @@ f` `-> Complement of the Initial expression (Answer)
 > Each product term are called as **minterm**.
 > If each of the **minterm** contains **all** of the **boolean variables**, then this expression is called as **Canonical form**.
 
-### Sum of product(SOP)
+### Examples
 
-* f(A,B,C) = ABC` ` + AB`C` + ABC -> **Sum of product(SOP)**
+![image](https://user-images.githubusercontent.com/54589605/218260178-a92cc93d-56c8-483d-9bce-4a8e3abb2097.png)
 
-> Each term is **SOP** is called as **minterm**.
-
-> In case of **SOP** form, we need to concentrate on where the **output** is **High or Logic '1' or 1**.
 
 ### Minimal Form
 
@@ -271,8 +268,30 @@ f` `-> Complement of the Initial expression (Answer)
 
 > If any variable is **missing** then we can call it as **Minimal Form**.
 
+### Examples
 
-### Product of Sum(POS)
+![image](https://user-images.githubusercontent.com/54589605/218260205-d9aa6469-86b5-44e3-b7ca-cbb39e2f3fb0.png)
+
+
+## Sum of product(SOP)
+
+* f(A,B,C) = ABC` ` + AB`C` + ABC -> **Sum of product(SOP)**
+
+> Each term is **SOP** is called as **minterm**.
+
+![image](https://user-images.githubusercontent.com/54589605/218260477-124bd3b1-2eb6-44f1-a6ae-a082893e93b5.png)
+
+
+> In case of **SOP** form, we need to concentrate on where the **output** is **High or Logic '1' or 1**.
+
+### Examples
+
+![image](https://user-images.githubusercontent.com/54589605/218260094-fe9c5ed1-0237-4650-96b4-3a01e0b77e87.png)
+![image](https://user-images.githubusercontent.com/54589605/218260570-c2de04b2-01c4-4e45-a1a6-26e00366e769.png)
+![image](https://user-images.githubusercontent.com/54589605/218260556-a7c23410-8bd5-43a0-b7af-090003889f51.png)
+
+
+## Product of Sum(POS)
 
 * f(A,B,C) = (A+B+C`)(A`+B`+C)(A`+B`+C`) -> **Canonical Form** or **Canonical f Product of sum(POS)**
 
@@ -285,17 +304,35 @@ f` `-> Complement of the Initial expression (Answer)
 
 > The main purpose of **Boolean Algebra** is to **minimize/reduce** the no. of **literals**.
 
+![image](https://user-images.githubusercontent.com/54589605/218260495-39568449-e06b-4492-ae82-b9e3b862b170.png)
+
+
 > In case of **POS** form, we need to concentrate on where the **output** is **Low or Logic '0' or 0**.
 
 
+### Examples
+
+![image](https://user-images.githubusercontent.com/54589605/218260144-491baf23-72d3-4071-9367-6f4fb2e54498.png)
+![image](https://user-images.githubusercontent.com/54589605/218260570-c2de04b2-01c4-4e45-a1a6-26e00366e769.png)
+![image](https://user-images.githubusercontent.com/54589605/218260602-04b769bf-54ba-4fd8-b8af-68cc73a1d798.png)
+
+### Literal
+
+![image](https://user-images.githubusercontent.com/54589605/218260453-bb4af25f-8719-4fbe-a24b-ae1695f0fbc0.png)
 
 
+### Questions
 
-
-
-
-
-
+![2_Questions_1](https://user-images.githubusercontent.com/54589605/218261738-b0f6baf1-ad8e-4e84-96df-1434e6ccb8e5.jpeg)
+![2_Questions_2](https://user-images.githubusercontent.com/54589605/218261742-7c01040f-cad3-42a3-a462-4b70cf0d8546.jpeg)
+![2_Questions_3](https://user-images.githubusercontent.com/54589605/218261783-47c941d7-205a-4665-99fa-415d2c257577.jpeg)
+![2_Questions_4](https://user-images.githubusercontent.com/54589605/218261785-f1751d2f-2bbc-4682-83d5-3fb1b2f0645a.jpeg)
+![2_Questions_5](https://user-images.githubusercontent.com/54589605/218261787-04d78729-41f3-487f-9159-e13f680b0bcf.jpeg)
+![2_Questions_6](https://user-images.githubusercontent.com/54589605/218261788-4eadad0a-b8e8-45f5-a8ab-3413619c8d62.jpeg)
+![2_Questions_7](https://user-images.githubusercontent.com/54589605/218261790-dcc1636b-8293-439c-8670-11943262561c.jpeg)
+![2_Questions_8](https://user-images.githubusercontent.com/54589605/218261791-dc84d95b-aa63-42db-b40c-ab69938018c6.jpeg)
+![2_Questions_9](https://user-images.githubusercontent.com/54589605/218261798-35426127-749c-4a2b-99d6-57a07544dde4.jpeg)
+![2_Questions_10](https://user-images.githubusercontent.com/54589605/218261801-3e81d63c-f3a5-4ffa-a97b-1957a99d7784.jpeg)
 
 
 # Practice Questions and Solutions
@@ -381,14 +418,11 @@ f` `-> Complement of the Initial expression (Answer)
 
 ## Practice Questions (2) [11th Feb 2023]
 
-
-
-
-
-
-
-
-
+![Boolean_Algebra_10](https://user-images.githubusercontent.com/54589605/218261856-bd7a0b50-1305-4bd1-8415-fcb4162551e2.jpeg)
+![Boolean_Algebra_11](https://user-images.githubusercontent.com/54589605/218261859-1bae00a3-94a2-4aa5-a902-f15bb59fd2f4.jpeg)
+![Boolean_Algebra_12](https://user-images.githubusercontent.com/54589605/218261862-32bdaf4f-f841-469a-9e4d-181be54cffd5.jpeg)
+![Boolean_Algebra_13](https://user-images.githubusercontent.com/54589605/218261867-3abd4cd1-c244-4943-bbe0-8f186f99378b.jpeg)
+![Boolean_Algebra_14](https://user-images.githubusercontent.com/54589605/218261869-43370edf-2e58-4ab4-afab-f4a0a8a8a672.jpeg)
 
 
 
