@@ -154,27 +154,91 @@
 
 ### Complement
 
+### Find Complement **trick**.
+
+![2_complement_trick](https://user-images.githubusercontent.com/54589605/218246061-4196510c-6582-45b5-af15-f7530090cb39.png)
+
+f -> Initial expression
+fd -> **Duality** of the Initial expression
+f` `-> Complement of the Initial expression (Answer)
+
 * **Complement** -> Dual + negation
 
+### Examples
 
-### Consensus Theorem (Rajinikanth Wala)
+![image](https://user-images.githubusercontent.com/54589605/218243925-a2d2e62d-025a-421b-ac59-cbcf8238a49c.png)
+![image](https://user-images.githubusercontent.com/54589605/218243937-4c3fac71-b986-49c5-a631-645d1f5ef7e3.png)
+![image](https://user-images.githubusercontent.com/54589605/218243945-06008cb5-eb9a-46a2-aa8e-2e9db13d0eac.png)
+![image](https://user-images.githubusercontent.com/54589605/218243955-921d3aa6-b00b-43cc-aca3-019e950e3837.png)
 
-> There might be **only one** variable which has it's **normal form(A)** as well as it's **complement form( A` `)**. **Normal form(A)** as well as **complement form(A` )** is present there. 
+> In **Q4 or page 4 question**, we did **T2 Transposition** on **3rd** step, instead of **multiplying** them.
+
+![image](https://user-images.githubusercontent.com/54589605/218244594-d1eeeb58-fb87-4b3b-b471-efb8ecf6bfee.png)
+![image](https://user-images.githubusercontent.com/54589605/218244641-81102afb-5cdd-42c2-b6f2-e92634a4433f.png)
+
+
+> When asked to find **complement** of a given expression, what we do is that we first find the **duality** of the given expression(fd) and then we just put **complement** on **fd** i.e **fd` `**. Not **whole complement(`) `** but we just put **complement(`) `** on each of the variables individually. As seen in the **examples above**.  And that is the answer. 
+> For multiple brackets, we have to solve the **inner most** brackets first.
+
+* f` `= f -> fd -> fd` `[Steps]
+
+
+### Consensus Theorem (**Rajinikanth Wala**)
+
+> There might be **only one** variable which has it's **normal form(A)** as well as it's **complement form( A` `)**. **Normal form(A)** as well as **complement form(A` `)** is present there. 
 
 
 ### Example
 
-* f = AB + BC + A`C
+* f = AB + BC + A`C `
 
-> 'A' has it's **Normal form(A)** as well as **complement form(A`)**. Hence, we call 'A' as **Rajni** here. 
-> With 'A' we have 'B' and with 'A` `' we have 'C'. We can see the **middle expression(BC)** is formed from the **combination** of these two(B and C) variables, which are present along side 'A and A`'. Hence, **BC** is redundant and not required.
+> 'A' has it's **Normal form(A)** as well as **complement form(A`) `**. Hence, we call 'A' as **Rajni** here. 
+> With 'A' we have 'B' and with 'A` `' we have 'C'. We can see the **middle expression(BC)** is formed from the **combination** of these two(B and C) variables, which are present along side 'A and A` `'. Hence, **BC** is redundant and not required.
 
 ### Steps
 
 * We have to first identify **rajni** from the whole expression. 
-    > **Rajni** means the variable which has both of it's **Normal form(A)** as well as **complement form(A` )** is present there.
+    > **Rajni** means the variable which has both of it's **Normal form(A)** as well as **complement form(A` `)** are present.
 
-* The variables(B and C from above example) along side **Rajni** form an expression/term(BC from above example), then that expression/term is **Redundant or not required**.
+* The variables(B and C from above example) along side **Rajni** form an expression/term(BC from above example), then that expression/term is called as the **Redundant or not required** term. Remove the **Redundant or not required** term and we got the answer.
+
+### Examples
+
+![image](https://user-images.githubusercontent.com/54589605/218244699-d6a75256-8769-450e-9914-e6f090bcaa09.png)
+![image](https://user-images.githubusercontent.com/54589605/218244807-d9b59bca-edf9-435e-a181-c4929859dfbd.png)
+![image](https://user-images.githubusercontent.com/54589605/218244816-cf170688-0fdf-40d0-967d-850d82f201a8.png)
+![image](https://user-images.githubusercontent.com/54589605/218244839-b45a43e0-7ad8-4aa5-bfda-de59a8ca8b8b.png)
+![image](https://user-images.githubusercontent.com/54589605/218245094-10ef90b8-d4f1-42e6-9635-ccaa78b8351b.png)
+![image](https://user-images.githubusercontent.com/54589605/218245099-f0e1c313-ac64-4047-a03a-de05e59158c0.png)
+![image](https://user-images.githubusercontent.com/54589605/218245106-9e850aee-54e5-41f1-96df-ce77df67c946.png)
+
+> Here, in the above question even though we have many **complement variables** but only **A** has it's normal as well as it's complement form. Hence **A** is the **Rajni** here.
+
+![image](https://user-images.githubusercontent.com/54589605/218245133-99cfcdd9-794d-438a-a43a-20f5d1a79bcc.png)
+![image](https://user-images.githubusercontent.com/54589605/218245146-644b598c-6fba-4955-a0c2-b44ac7b3e650.png)
+
+> Here, in the above question, we can see that there are two variables(A and B) who can be **Rajni** but we know that there can only be **one Rajni** in a given expression. Hence we have to simply the question to find the **single Ranjni**.
+
+![image](https://user-images.githubusercontent.com/54589605/218245276-7f6dece2-7eee-434b-a1eb-b93fb9d4906d.png)
+
+> We are solving the **innermost** brackets here. We are taking **X -> (X+Y) and Y-> y**. We are taking **X->y` ` and Y->z**. 
+
+![image](https://user-images.githubusercontent.com/54589605/218245448-1a4bb778-89ca-43e3-b1a5-4505a4fff859.png)
+![image](https://user-images.githubusercontent.com/54589605/218245496-23dca778-3a84-43bf-a81d-a9a508df8c28.png)
+![image](https://user-images.githubusercontent.com/54589605/218245540-bde3356b-906e-4d07-a494-9a88a79ebe31.png)
+![image](https://user-images.githubusercontent.com/54589605/218245610-c84a5ea3-d767-4f3b-a06d-e03522c37ffb.png)
+
+> In this question as well, we can follow the given below **trick** to solve it. Each last variable in each term of the expression are in **normal form**. That's the pattern.
+
+![image](https://user-images.githubusercontent.com/54589605/218245931-4f6ddc2f-cfcb-4747-9572-10e30de1360a.png)
+![2_question_trick](https://user-images.githubusercontent.com/54589605/218246079-1806319e-0fba-4317-bcb5-ab97c0967901.png)
+
+> The trick is that we can see all of the **last variables** in each of the terms of the expression has **normal form** variables. If we see this pattern then we know that's the solution/result of the question.
+
+![image](https://user-images.githubusercontent.com/54589605/218246019-8e220976-3f1e-4863-abd0-8af635b3aacf.png)
+
+> Here, we cannot do the above trick as **C` `** is present as the last variable in the last term of the expression. Hence we cannot do the above trick. We have to solve it manually. 
+> 1 + anything -> 1
 
 ### Boolean Function Representation 
 
@@ -185,8 +249,8 @@
 
 > First we need multiply/product(product term). After taking the product we then did sum/add. **Sum of product(SOP)**.
 
-* f(A,B,C) = ABC` + AB`C` + ABC -> **Canonical Form** or **Canonical Sum of product(SOP)**
-* ABC`, AB`C`, ABC -> 3 Product Term
+* f(A,B,C) = ABC` ` + AB`C` + ABC -> **Canonical Form** or **Canonical Sum of product(SOP)**
+* ABC` `, AB`C`, ABC -> 3 Product Term
 
 > Above expression contains **3** variables.
 
@@ -195,7 +259,7 @@
 
 ### Sum of product(SOP)
 
-* f(A,B,C) = ABC` + AB`C` + ABC -> **Sum of product(SOP)**
+* f(A,B,C) = ABC` ` + AB`C` + ABC -> **Sum of product(SOP)**
 
 > Each term is **SOP** is called as **minterm**.
 
