@@ -521,6 +521,9 @@ f` `-> Complement of the Initial expression (Answer)
 * Maximum possible value -> (2^n-1)
 
 * If **mi** is a minterm. Then then **Exclusive term** for **mi** will be:-
+
+![image](https://user-images.githubusercontent.com/54589605/218310167-d932e4b0-cb66-4ce0-a417-672235cef97d.png)
+
     
 
 
