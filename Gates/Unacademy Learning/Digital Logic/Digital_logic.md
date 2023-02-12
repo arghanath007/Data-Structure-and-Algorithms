@@ -633,6 +633,15 @@ f` `-> Complement of the Initial expression (Answer)
 * *9*,  know that **maxterms and minterms** are same index complements to each other. We get the output of **8**. Then, we know that **sum of different index maxterms** is **one(1)**.
 * *10*,  know that **maxterms and minterms** are same index complements to each other. We get the output of **7** but they will be capital M(M0 * M2 * M3 * M5). Then, we know that **product of different index maxterms** is **one(1)**.
 
+### Q37
+
+![image](https://user-images.githubusercontent.com/54589605/218309335-f050151d-d283-4d7a-9c45-cc49c2fa5945.png)
+![image](https://user-images.githubusercontent.com/54589605/218309360-13d733f5-36a7-4aff-9b70-5dc6d6578664.png)
+
+> All options are corrrect.
+
+
+
 
 
 
