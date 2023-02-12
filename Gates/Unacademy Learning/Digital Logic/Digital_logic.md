@@ -639,7 +639,7 @@ f` `-> Complement of the Initial expression (Answer)
 ![image](https://user-images.githubusercontent.com/54589605/218309360-13d733f5-36a7-4aff-9b70-5dc6d6578664.png)
 ![image](https://user-images.githubusercontent.com/54589605/218309449-a9a5174b-eab6-41e5-b8fa-7bb09ef47c33.png)
 
-> All options are corrrect. ** * ** is not multiplication here
+> All options are corrrect. '*' is not multiplication here, it is solved according to the question, A*B.
 
 
 
