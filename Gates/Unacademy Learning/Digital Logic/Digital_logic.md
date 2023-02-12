@@ -619,7 +619,10 @@ f` `-> Complement of the Initial expression (Answer)
 ![image](https://user-images.githubusercontent.com/54589605/218307708-92986132-fe4a-489e-8675-5129fc532287.png)
 ![image](https://user-images.githubusercontent.com/54589605/218307729-ad96673c-5b6d-4bbb-921b-8104f91e4246.png)
 
+### Q36
 
+* *3*, we know that **maxterms and minterms** are same index complements to each other.
+* *4*, we know that **maxterms and minterms** are same index complements to each other.
 
 
 
