@@ -506,6 +506,8 @@ f` `-> Complement of the Initial expression (Answer)
 ![3_Questions_16](https://user-images.githubusercontent.com/54589605/218306738-e160b527-538a-4048-8eb8-c860436e26fa.jpeg)
 ![3_Questions_17](https://user-images.githubusercontent.com/54589605/218306753-44d278ec-3913-46c9-840a-485e23101d3f.jpeg)
 
+## Neutral Function (4) [12th Feb 2023]
+
 
 
 
