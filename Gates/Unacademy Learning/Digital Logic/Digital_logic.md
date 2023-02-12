@@ -508,7 +508,20 @@ f` `-> Complement of the Initial expression (Answer)
 
 ## Neutral Function (4) [12th Feb 2023]
 
+> This boolean expression(f) contains equal no. of **minterms** and **maxterms**. Then this function is called as a **neutral function**.
 
+## Mutually Exclusive terms
+
+* There are **3** variables
+* Combinations possible -> 2^3=8
+* All possible combinations of minterms from **where to where** -> 0 to 7 only
+* If **n** variables
+* Combinations possible -> 2^n
+* All possible combinations of minterms from **where to where** -> 0 to (2^n-1)
+* Maximum possible value -> (2^n-1)
+
+* If **mi** is a minterm. Then then **Exclusive term** for **mi** will be:-
+    
 
 
 
