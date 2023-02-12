@@ -529,6 +529,8 @@ f` `-> Complement of the Initial expression (Answer)
 
 ![image](https://user-images.githubusercontent.com/54589605/218310882-8387711e-bcc2-4907-bcd9-cad80f4201a7.png)
 
+> This is called as the **Exclusive term**.
+
     
 
 
