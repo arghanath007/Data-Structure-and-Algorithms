@@ -531,8 +531,51 @@ f` `-> Complement of the Initial expression (Answer)
 
 > This is called as the **Exclusive term**.
 
-    
+* For n=2 [Exclusive Pairs -> 2^(2-1)]
 
+> The maximum possible term that will come is **3**. The sum of these two([0,3]) or ([1,2]) must be **3**.
+
+* For n=3 [Exclusive Pairs -> 2^(3-1)]
+
+> The maximum possible term that will come is **7**. The sum of these two([0,7]) or ([1,6]) or ([2,5]) or ([3,4]) must be **7**.
+> These are called as **Exclusive pairs**.
+    
+* In terms of **minterms**
+
+* 0 -> A` `B` `C` `
+* 7 -> ABC
+
+* 1 -> A` `B` `C
+* 6 -> ABC` `
+
+> Exclusive for **1** is **6**. Vice-Versa as well where exclusive for **6** is **1**.
+
+* For n=4 [Exclusive Pairs -> 2^(4-1)]
+
+* For **n**, [**Exclusive Pairs** -> 2^(n-1)]
+
+> This is called as **Exclusivity**. This is not a **dual or a complement**, keep that in mind.
+
+## Self Dual Function
+
+> For a given function(f), if we do **duality** of that function then we get the function **itself** back. The original function and the **duality(fd)** of that function will be the **same**. Not for **all** functions. Some functions can satisfy this **property**.
+> We have only taken **one time or once** the duality of the function. We get back the **original function**. These are called as **self dual** functions.
+
+
+### Two conditions need to be satisfied
+
+1) Should be a **neutral function**
+2) The terms present in minterms, should not have their **exclusive** terms in **minterms**. The **exclusive** term should be in **maxterms**.
+
+* m3 -> m4
+* m5 -> m2
+* m6 -> m1
+* m7 -> m0
+
+> All of the m4,m2,m1 and m0 are in **maxterms**. Hence this **expression** is a **Self Dual Function**. 
+
+
+* Boolean Function -> Boolean Expression -> Logic Function -> Logic Expression -> All have the same meaning.
 
 
 
