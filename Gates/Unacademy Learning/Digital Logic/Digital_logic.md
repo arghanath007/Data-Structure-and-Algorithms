@@ -524,6 +524,11 @@ f` `-> Complement of the Initial expression (Answer)
 
 ![image](https://user-images.githubusercontent.com/54589605/218310167-d932e4b0-cb66-4ce0-a417-672235cef97d.png)
 
+
+* For **n=3**
+
+![image](https://user-images.githubusercontent.com/54589605/218310882-8387711e-bcc2-4907-bcd9-cad80f4201a7.png)
+
     
 
 
