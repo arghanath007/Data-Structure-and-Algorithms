@@ -597,6 +597,10 @@ f` `-> Complement of the Initial expression (Answer)
 
 ![Boolean_Algebra_15](https://user-images.githubusercontent.com/54589605/218306810-0c5e276b-613e-4a27-ba3e-17655cccf521.jpeg)
 
+> Answer for **Q32** will be **15** as well.
+
+
+
 
 
 
