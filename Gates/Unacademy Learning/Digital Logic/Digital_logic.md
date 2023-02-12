@@ -446,9 +446,12 @@ f` `-> Complement of the Initial expression (Answer)
 > Try to do the **complete simplification or analysis** in **SOP or minterms** form only. So that we do not commit any mistakes. Convert the **POS or maxterms** into **SOP or minterms**, then do the analysis. 
 
 
-### Boolean Function
+### Boolean Function Question
 
+![3_boolean_functions](https://user-images.githubusercontent.com/54589605/218308175-2a7c8669-36f8-45a2-9dc6-6de9fd1aed89.png)
 ![image](https://user-images.githubusercontent.com/54589605/218304211-e4cb8547-ee48-442d-bb40-3daa2dd2d664.png)
+![3_boolean_functions_one_minterm](https://user-images.githubusercontent.com/54589605/218308176-0457d4c4-2e10-4e11-a124-0386739a5f5f.png)
+![3_boolean_functions_two_minterms](https://user-images.githubusercontent.com/54589605/218308178-10545c76-f649-4e10-b45e-f3257badc7a9.png)
 
 
 * In general, for **n** boolean variables, how many different boolean functions are possible?
