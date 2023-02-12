@@ -337,18 +337,126 @@ f` `-> Complement of the Initial expression (Answer)
 
 ## Boolean_Algebra_III (3) [12th Feb 2023]
 
+![image](https://user-images.githubusercontent.com/54589605/218302305-78185896-4c48-4b35-a106-3f69abed0db8.png)
+
+> The no. of **minterms** plus the no. of **maxterms** is **2^3=8**.
+
+* We want the maximum no. of **minterms**
+
+![image](https://user-images.githubusercontent.com/54589605/218302409-a9993987-1c23-485a-b029-34294d159b12.png)
+
+> Here, we are getting the maximum possible **minterms** -> **2^3=8**.
+> When there are maximum possible **minterms**, then the maximum possible **maxterms** is **zero(0)**.
+> Hence, we can say that maximum possible **minterms** are -> **2^n**.
+
+* We want the maximum no. of **maxterms**
+
+![image](https://user-images.githubusercontent.com/54589605/218302560-3f58504d-6a52-42dc-85df-2119fa240896.png)
+
+> Here, we are getting the maximum possible **maxterms** -> **2^3=8**.
+> When there are maximum possible **maxterms**, then the maximum possible **minterms** is **zero(0)**.
+> Hence, we can say that maximum possible **maxterms** are -> **2^n**.
+
+![image](https://user-images.githubusercontent.com/54589605/218302636-609b68ca-3b93-488b-a765-7d3d4239c53c.png)
+
+* No. of variables we have taken=3
+* Hence, **2^3=8**.
+* If we had taken **n** variables then maximum possible **maxterms** would be **2^n**.
+
+![image](https://user-images.githubusercontent.com/54589605/218302718-808b90a1-9ff8-4a54-a9ca-af1d3c7c1664.png)
+
+### Sum of all maximum possible **minterms**
+
+![image](https://user-images.githubusercontent.com/54589605/218302763-7b8f0d4e-1e31-4d38-8641-1adb1452d16e.png)
+
+### Sum of all maximum possible **maxterms**
+
+![image](https://user-images.githubusercontent.com/54589605/218302804-fd3005a3-f40d-4415-a5c5-1963c312124b.png)
+
+### **Maxterm** and **Minterm** of **same index** are complement to each other
+
+![image](https://user-images.githubusercontent.com/54589605/218302909-237ec2e7-27e3-4f04-97eb-7ffc57035fcd.png)
+![3_min_and_max_term](https://user-images.githubusercontent.com/54589605/218303909-2491f5a6-6ead-4163-a61b-ef448e14bfad.png)
+
+* There are **n=3** variables. We know 5-> 101. In **SOP** form it will be **AB` `C**. In **POS** form it will be **A` `BC` `**.
+
+### The **product** of two **minterms** of **different index and same index** is
+
+![image](https://user-images.githubusercontent.com/54589605/218302949-ded2f10d-aeae-40e7-8b88-54b6e3e77e13.png)
+
+* Different Index -> zero(0)
+* Same Index -> mi [A.A = A]
+
+### The **sum** of two arbitrary maxterms of **different index and same index** is
+
+![image](https://user-images.githubusercontent.com/54589605/218303205-41840f6f-62df-4584-832e-1e67a8494b3e.png)
+
+* Different Index -> One(1)
+* Same Index -> mi [A + A = A]
+
+### Questions
+
+![image](https://user-images.githubusercontent.com/54589605/218303275-d9f9fcc5-e0e8-495b-aada-899c90b74902.png)
+
+### Trick for the above type questions
+
+![image](https://user-images.githubusercontent.com/54589605/218303288-21a2a8d4-f129-4f11-a6a9-fa8ea772efc2.png)
+
+### Examples
+
+![image](https://user-images.githubusercontent.com/54589605/218303305-a2a806c2-b16c-4ccf-93e5-090554e9ac72.png)
+![image](https://user-images.githubusercontent.com/54589605/218303325-51655801-909a-4871-a071-3fff2a4f7a20.png)
+![image](https://user-images.githubusercontent.com/54589605/218303340-03ac67de-a3c7-47a5-aca2-704eb3540041.png)
+
+> In this above question, we can use both **SOP** and **POS** form. But we can see that **POS** form gave us the answer faster than **SOP** form.
+
+![image](https://user-images.githubusercontent.com/54589605/218303439-f6641ff2-4ed9-4aef-aa6e-73817ff36562.png)
+![image](https://user-images.githubusercontent.com/54589605/218303457-f10972c5-3817-429e-8c06-3d44d5aa7309.png)
+![image](https://user-images.githubusercontent.com/54589605/218303472-29aa7333-7b71-412c-8420-de5e85559681.png)
+![image](https://user-images.githubusercontent.com/54589605/218303495-edf6adf4-94c1-4b45-932a-875ff882d50d.png)
+![image](https://user-images.githubusercontent.com/54589605/218303505-bba73ecf-e2c9-43b5-84d6-2f9f8b10ed67.png)
+![image](https://user-images.githubusercontent.com/54589605/218303515-9bdd1cc2-1434-4625-aa02-67f5a643e61e.png)
+
+
+![image](https://user-images.githubusercontent.com/54589605/218303539-c518aacf-40e7-4a2a-ac16-3b3d060e74f7.png)
+![3_min_and_max_term_1](https://user-images.githubusercontent.com/54589605/218303969-9af92a94-79c5-4af4-b47b-49e3b4c126cf.png)
 
 > Not applicable for **maxterm**. First convert the maxterms into minterms and then do the **minterm** analysis. After the analysis, get the **minterm answers** and from there we will get the maxterms **result/answer**.
 > Don't go for **maxterm** analysis. This method is **not valid** for **maxterms**. 
 
+* For f3 =f1*f2 
 
-> Try to do the **complete simplification or analysis** in **SOP or minterms** form only. So that we do not commit any mistakes.
+> For finding **f3** we use **common/intersection** formulae from **set theory**.
+
+* For 4f= f1 + f2
+
+> For finding **f4** we use **union** formulae from **set theory**.
+
+![image](https://user-images.githubusercontent.com/54589605/218303549-1ed976a9-5d89-4838-9f44-4749b69b6ef3.png)
+
+> In this above question, just find the **minterms and maxterms**. Use the below trick. To find the **minterms** of f` `, we have to take the **maxterms** of **f** and put them as **minterms** of f` `.
+
+![image](https://user-images.githubusercontent.com/54589605/218303591-76ddb5b2-8af0-4565-bd6f-341a0d125dca.png)
+
+* Minterms of f` ` <-> Maxterms of f
+* Maxterms of f` ` <-> Minterms of f
+
+![image](https://user-images.githubusercontent.com/54589605/218304148-558c6032-af60-40e3-b6a1-33e1abb6629e.png)
+
+> Try to do the **complete simplification or analysis** in **SOP or minterms** form only. So that we do not commit any mistakes. Convert the **POS or maxterms** into **SOP or minterms**, then do the analysis. 
+
 
 ### Boolean Function
+
+![image](https://user-images.githubusercontent.com/54589605/218304211-e4cb8547-ee48-442d-bb40-3daa2dd2d664.png)
+
 
 * In general, for **n** boolean variables, how many different boolean functions are possible?
 
 > (2^2)^n [**Two** to the power of **Two** to the power of **n**]
+
+![image](https://user-images.githubusercontent.com/54589605/218304232-97b2fd06-da71-47d9-abad-ab9536a01b30.png)
+
 
 * How many boolean functions have zero(0) **minterms**?
 
@@ -361,6 +469,37 @@ f` `-> Complement of the Initial expression (Answer)
 * How many boolean functions has **only two(2)** **minterms**?
 
 > **Six(6)**
+
+![image](https://user-images.githubusercontent.com/54589605/218304253-0729d3b9-2c8e-4b45-b36a-5bc1ad5534f2.png)
+
+
+### Questions
+
+![3_Questions_1](https://user-images.githubusercontent.com/54589605/218306650-53aa240f-f9c8-4f4f-a48b-5bcffebebd04.jpeg)
+![3_Questions_2](https://user-images.githubusercontent.com/54589605/218306653-10bc125c-1613-4c08-a542-3757df13dd05.jpeg)
+![3_Questions_3](https://user-images.githubusercontent.com/54589605/218306656-7f684484-0849-48b0-9d87-9c024a2cc011.jpeg)
+![3_Questions_4](https://user-images.githubusercontent.com/54589605/218306658-40163555-4c92-4f6b-bbbd-779e7439a2cb.jpeg)
+![3_Questions_5](https://user-images.githubusercontent.com/54589605/218306669-59debdb6-9eed-498f-b623-fbd3313ce3fb.jpeg)
+![3_Questions_6](https://user-images.githubusercontent.com/54589605/218306671-2d10afe2-c184-46dd-b3a1-958b331c6ab6.jpeg)
+![3_Questions_7](https://user-images.githubusercontent.com/54589605/218306673-8ca76d1c-0657-419f-88c3-60e090690a95.jpeg)
+![3_Questions_8](https://user-images.githubusercontent.com/54589605/218306674-04c71e59-badc-48fd-8c4d-92c32af70d29.jpeg)
+![3_Questions_9](https://user-images.githubusercontent.com/54589605/218306675-5e3a90e3-bb6a-4eae-bac4-22615825e8ad.jpeg)
+![3_Questions_10](https://user-images.githubusercontent.com/54589605/218306677-165977e9-ad94-49ae-9911-6874dc02ace4.jpeg)
+![3_Questions_11](https://user-images.githubusercontent.com/54589605/218306728-2c7ff6fb-6529-46f0-94fc-c51c063d0beb.jpeg)
+![3_Questions_12](https://user-images.githubusercontent.com/54589605/218306731-4ee87ad3-1406-43ba-a8a0-f06296717c54.jpeg)
+![3_Questions_13](https://user-images.githubusercontent.com/54589605/218306732-f6f6d0cb-77e5-42b4-a7c2-548ba4ad0c20.jpeg)
+![3_Questions_14](https://user-images.githubusercontent.com/54589605/218306733-4430276f-f5e5-4016-b9d2-1f35448be93a.jpeg)
+![3_Questions_15](https://user-images.githubusercontent.com/54589605/218306736-e44d85b0-8982-42f1-ba9a-99c28aa59f87.jpeg)
+![3_Questions_16](https://user-images.githubusercontent.com/54589605/218306738-e160b527-538a-4048-8eb8-c860436e26fa.jpeg)
+![3_Questions_17](https://user-images.githubusercontent.com/54589605/218306753-44d278ec-3913-46c9-840a-485e23101d3f.jpeg)
+
+
+
+
+
+
+
+
 
 
 # Practice Questions and Solutions
