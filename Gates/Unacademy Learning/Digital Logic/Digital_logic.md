@@ -481,12 +481,41 @@ f` `-> Complement of the Initial expression (Answer)
 ![image](https://user-images.githubusercontent.com/54589605/218307654-7cb1973b-056d-49ac-8dbe-42771d4d9bbb.png)
 ![image](https://user-images.githubusercontent.com/54589605/218307661-0a5fb34b-d7e5-4a82-84a2-e1c74e148b24.png)
 ![image](https://user-images.githubusercontent.com/54589605/218307666-1c0fced1-c595-4ec8-afd3-0c75ae85131a.png)
+
+> We are using **4** here because we have **2** boolean variables and no. of combinations possible with **2** boolean variable is **2^2=4**. Hence **4** is used here.
+> **Atmost** means **upto**.
+> **Atmost 3** means **upto 3** including **3 -> 0,1,2,3**. 
+
 ![image](https://user-images.githubusercontent.com/54589605/218307675-4df16c1e-31c2-4872-afb9-840954693167.png)
+
+> **Having** means **exactly**.
+> **Having 3** means **exactly 3** nothing more, nothing less.
 
 * This is how we are getting **4**. There are **4** combinations for **2** variables.
 
 ![image](https://user-images.githubusercontent.com/54589605/218307708-92986132-fe4a-489e-8675-5129fc532287.png)
 ![image](https://user-images.githubusercontent.com/54589605/218307729-ad96673c-5b6d-4bbb-921b-8104f91e4246.png)
+
+### Q36
+
+![image](https://user-images.githubusercontent.com/54589605/218319711-2c22551e-fa7e-4830-bb92-361470694ef5.png)
+
+* *3*, we know that **maxterms and minterms** are same index complements to each other.
+* *4*, we know that **maxterms and minterms** are same index complements to each other.
+* *5*, we know that **maxterms and minterms** are same index complements to each other.
+* *6*, we know that **maxterms and minterms** are same index complements to each other.
+* *7*, we know that **product of different index minterms** is **zero(0)**.
+* *8*, we know that **sum of different index maxterms** is **one(1)**.
+* *9*,  know that **maxterms and minterms** are same index complements to each other. We get the output of **8**. Then, we know that **sum of different index maxterms** is **one(1)**.
+* *10*,  know that **maxterms and minterms** are same index complements to each other. We get the output of **7** but they will be capital M(M0 * M2 * M3 * M5). Then, we know that **product of different index maxterms** is **one(1)**.
+
+### Q37
+
+![image](https://user-images.githubusercontent.com/54589605/218319777-eed6c79c-6107-4d30-adab-2a14dd22a245.png)
+![image](https://user-images.githubusercontent.com/54589605/218319800-e91c35ae-8da8-4f98-95bc-7a694efab1e2.png)
+
+All options are corrrect. '*' is not multiplication here, it is solved according to the question, A*B= AB + A'B'.
+
 
 ![3_Questions_1](https://user-images.githubusercontent.com/54589605/218306650-53aa240f-f9c8-4f4f-a48b-5bcffebebd04.jpeg)
 ![3_Questions_2](https://user-images.githubusercontent.com/54589605/218306653-10bc125c-1613-4c08-a542-3757df13dd05.jpeg)
@@ -508,21 +537,30 @@ f` `-> Complement of the Initial expression (Answer)
 
 ## Neutral Function (4) [12th Feb 2023]
 
-> This boolean expression(f) contains equal no. of **minterms** and **maxterms**. Then this function is called as a **neutral function**.
+![image](https://user-images.githubusercontent.com/54589605/218320301-e80897e1-f4ea-4c85-b86a-8aaa88b75d3f.png)
+![image](https://user-images.githubusercontent.com/54589605/218320985-082f0412-25c6-4138-8f88-410188fcc3a3.png)
+
+![4_neutral_functions](https://user-images.githubusercontent.com/54589605/218323883-f6faed05-67a7-4d55-8784-55a079f2439d.png)
+
+
+> This boolean expression(f) contains equal no. of **minterms** and **maxterms**. Hence this function is called as a **neutral function**.
 
 ## Mutually Exclusive terms
 
+![image](https://user-images.githubusercontent.com/54589605/218320354-9b5ccb93-d41b-4cc6-9448-e161557fb886.png)
+
 * There are **3** variables
 * Combinations possible -> 2^3=8
-* All possible combinations of minterms from **where to where** -> 0 to 7 only
+* All possible combinations of **minterms** from **where to where** -> 0 to 7 only
 * If **n** variables
 * Combinations possible -> 2^n
-* All possible combinations of minterms from **where to where** -> 0 to (2^n-1)
-* Maximum possible value -> (2^n-1)
+* All possible combinations of minterms from **where to where** -> 0 to (2^(n-1))
+* Maximum possible value -> (2^(n-1))
 
-* If **mi** is a minterm. Then then **Exclusive term** for **mi** will be:-
+* If **mi** is a minterm. Then **Exclusive term** for **mi** will be:-
 
 ![image](https://user-images.githubusercontent.com/54589605/218310167-d932e4b0-cb66-4ce0-a417-672235cef97d.png)
+![image](https://user-images.githubusercontent.com/54589605/218320614-985c0be8-020c-4cce-8b77-570585a1cb86.png)
 
 
 * For **n=3**
@@ -530,6 +568,12 @@ f` `-> Complement of the Initial expression (Answer)
 ![image](https://user-images.githubusercontent.com/54589605/218310882-8387711e-bcc2-4907-bcd9-cad80f4201a7.png)
 
 > This is called as the **Exclusive term**.
+> The **Exclusive term** for **3 or m3** is **4 or m4**.
+> The **Exclusive term** for **5 or m5** is **2 or m2**.
+> The **Exclusive term** for **7 or m7** is **0 or m0**.
+
+![image](https://user-images.githubusercontent.com/54589605/218320650-5a015610-5fa4-49c6-a837-bcbbf38d2e09.png)
+
 
 * For n=2 [Exclusive Pairs -> 2^(2-1)]
 
@@ -542,13 +586,13 @@ f` `-> Complement of the Initial expression (Answer)
     
 * In terms of **minterms**
 
-* 0 -> A` `B` `C` `
+* 0 -> A'B'C'
 * 7 -> ABC
 
-* 1 -> A` `B` `C
-* 6 -> ABC` `
+* 1 -> A'B'C
+* 6 -> ABC'
 
-> Exclusive for **1** is **6**. Vice-Versa as well where exclusive for **6** is **1**.
+> Exclusive term for **1** is **6**. Vice-Versa as well where exclusive term for **6** is **1**.
 
 * For n=4 [Exclusive Pairs -> 2^(4-1)]
 
@@ -556,16 +600,33 @@ f` `-> Complement of the Initial expression (Answer)
 
 > This is called as **Exclusivity**. This is not a **dual or a complement**, keep that in mind.
 
-## Self Dual Function
+## Self Dual Function/Expressions
 
 > For a given function(f), if we do **duality** of that function then we get the function **itself** back. The original function and the **duality(fd)** of that function will be the **same**. Not for **all** functions. Some functions can satisfy this **property**.
 > We have only taken **one time or once** the duality of the function. We get back the **original function**. These are called as **self dual** functions.
 
+![image](https://user-images.githubusercontent.com/54589605/218320910-38bc61b2-138b-4085-8e26-11e172c95a67.png)
 
-### Two conditions need to be satisfied
+
+![image](https://user-images.githubusercontent.com/54589605/218320806-a824c354-4200-4dec-9eeb-5a7090946e18.png)
+![image](https://user-images.githubusercontent.com/54589605/218320818-3fdb3d3a-4947-4a27-a9fe-1d702df47a7d.png)
+
+> **Remember this expression, it will be needed many times during solving questions and finding patterns in questions**.
+
+### Two conditions need to be satisfied for **Self Dual Function**
 
 1) Should be a **neutral function**
-2) The terms present in minterms, should not have their **exclusive** terms in **minterms**. The **exclusive** term should be in **maxterms**.
+
+![image](https://user-images.githubusercontent.com/54589605/218320967-afae5499-4c7e-44f8-abc8-4c94c559ece5.png)
+
+* (2^n)/2 <=> 2^(n-1) [Both are the same thing]
+
+2) The terms present in **minterms**, should not have their **exclusive** terms in **minterms**. The **exclusive** term should be in **maxterms**.
+
+![image](https://user-images.githubusercontent.com/54589605/218321086-fd5aaecb-78c2-40a8-a3b9-f67dae6982e9.png)
+![image](https://user-images.githubusercontent.com/54589605/218321116-ff4d1dbf-e108-45ed-870a-f4b1d5d1d113.png)
+![image](https://user-images.githubusercontent.com/54589605/218321265-47afb5c2-0158-4364-97ab-e6cf600589ad.png)
+
 
 * m3 -> m4
 * m5 -> m2
@@ -574,8 +635,119 @@ f` `-> Complement of the Initial expression (Answer)
 
 > All of the m4,m2,m1 and m0 are in **maxterms**. Hence this **expression** is a **Self Dual Function**. 
 
-
 * Boolean Function -> Boolean Expression -> Logic Function -> Logic Expression -> All have the same meaning.
+
+### Questions
+
+![image](https://user-images.githubusercontent.com/54589605/218321158-7c92a16d-6937-44b6-9a35-9a6767ad1213.png)
+![image](https://user-images.githubusercontent.com/54589605/218321193-5c5e916f-4c15-46e6-a7da-b72c2093a442.png)
+
+> In the above question, it is not a **self dual function** because the **exclusive term** for **2** is **5** and it is present in **minterms** itself where **2** is also present, which should not happen. Hence it is not a **self dual expression**.
+
+![image](https://user-images.githubusercontent.com/54589605/218321577-a8df2b7e-e791-4cc6-9584-3198beca2e93.png)
+![image](https://user-images.githubusercontent.com/54589605/218321647-defde90d-d316-4aa5-b0b0-5fb2e3e48f2f.png)
+
+* Majority -> 2 or more
+
+![image](https://user-images.githubusercontent.com/54589605/218321677-c400c410-12e6-414f-8589-0bb702cf40b9.png)
+
+* Minority -> Less than 2. 
+
+![image](https://user-images.githubusercontent.com/54589605/218321717-d9bf6044-2c11-412a-b9d6-c78dd5fcd325.png)
+
+
+## Notes
+
+![image](https://user-images.githubusercontent.com/54589605/218321272-d8f897a1-206e-4da8-b3a5-6f84695c893e.png)
+
+
+### No. of Neutral functions
+
+* Neutral functions -> No. of **maxterms** is equal to no. of **minterms**.
+
+* For n=2
+* Total no. of combinations -> 2^2 -> 4 -> 0,1,2,3
+* Total no. of functions possible -> 2^(2^2) -> 16
+
+> For the above function with **n=2**, how many we can select so that the function becomes a **neutral** function. Half of them we can select i.e **4/2=2**. If I select **2** as minterms then the remaining **2** will go to maxterms. 
+
+* How many ways I can do the selection?
+
+> 4C2 ways
+
+![image](https://user-images.githubusercontent.com/54589605/218322459-97170e1c-7a8e-4654-8039-a1e78342c61b.png)
+
+* For n=3
+* Total no. of combinations -> 2^3 -> 8 -> 0,1,2,3,4,5,6,7
+* Total no. of functions possible -> 2^(2^3) -> 256
+
+> For the above function with **n=3**, how many we can select so that the function becomes a **neutral** function. Half of them we can select i.e **8/2=4**. If I select **4** as minterms then the remaining **4** will go to maxterms. 
+
+* How many ways I can do the selection?
+
+> 8C4 ways
+
+![image](https://user-images.githubusercontent.com/54589605/218322595-70f051fa-5475-48d3-b666-59ed2e24a0b4.png)
+
+* For **n** variables
+* Total no. of combinations -> 2^n
+* Total no. of functions possible -> 2^(2^n)
+
+> For the above function with **n** variables, how many we can select so that the function becomes a **neutral** function. Half of them we can select i.e **n/2**. If I select **n/2** as minterms then the remaining **n/2** will go to maxterms. 
+
+* How many ways I can do the selection?
+
+> (2^n)C(2^(n-1)) ways
+
+![image](https://user-images.githubusercontent.com/54589605/218322756-844df2c5-b9f5-4fdd-aed8-a8a76f12ce62.png)
+![image](https://user-images.githubusercontent.com/54589605/218322815-5cf8f97a-6150-4f68-b1f8-5f2265f525a6.png)
+![image](https://user-images.githubusercontent.com/54589605/218322826-41aedfba-7f0d-469e-9c4e-cf41305a85df.png)
+
+
+
+![image](https://user-images.githubusercontent.com/54589605/218321418-58828a0d-9cd2-49a5-8085-2b1a9dbbffda.png)
+
+
+### No. of self dual functions
+
+* For **n=3**
+> From this (0,7) or (1,6) or (2,5) or (3,4) group or individual pairs we can only select **one(1)**. In total there are 4 groups/pairs. From **2** values we can select **only one**, hence we can select in **2C1** ways from each pair/group.
+
+![image](https://user-images.githubusercontent.com/54589605/218323082-5fa6aa3a-a8ba-4a1c-91bc-af0e5cabfe3a.png)
+![image](https://user-images.githubusercontent.com/54589605/218323211-95ef17ba-ad37-4f6d-a91e-35770736d4d9.png)
+
+
+* For **n=4**
+> From this (0,15) or (1,14) or (2,13) or (3,12) or (4,11) or (5,10) or (6,9) or (7,8) group or individual pairs we can only select **one(1)**. In total there are 8 groups/pairs. From **2** values we can select **only one**, hence we can select in **2C1** ways from each pair/group.
+
+![image](https://user-images.githubusercontent.com/54589605/218321402-9e8c0106-d6c2-480f-9b0f-55c5a09e1ba5.png)
+![image](https://user-images.githubusercontent.com/54589605/218323222-549af473-af60-4eff-98f8-53fe3e6d9156.png)
+
+* For **n**
+> From this 2^(n-1) group or individual pairs are possible. From **2** values we can select **only one**, hence we can select in **2C1** ways from each pair/group.
+
+### Formula
+
+* 2^(2^(n-1))
+
+![image](https://user-images.githubusercontent.com/54589605/218323385-007886c4-34a9-4428-bdce-56dcf837a809.png)
+
+### Questions
+
+![4_Questions_1](https://user-images.githubusercontent.com/54589605/218324003-ce03afa1-97a1-43d9-8274-da853a2087af.jpeg)
+![4_Questions_2](https://user-images.githubusercontent.com/54589605/218324006-4149e016-4f32-4871-86c7-81b65e32c3d1.jpeg)
+![4_Questions_3](https://user-images.githubusercontent.com/54589605/218324009-c8a61b94-dff5-44c6-8760-d5ba0821ffd2.jpeg)
+![4_Questions_4](https://user-images.githubusercontent.com/54589605/218324011-04a34481-b3a0-42e4-9c3f-89bc4de7c757.jpeg)
+![4_Questions_5](https://user-images.githubusercontent.com/54589605/218324030-7bb77632-f7b5-4ac4-8835-a21d1b1ad13b.jpeg)
+![4_Questions_6](https://user-images.githubusercontent.com/54589605/218324033-9cad4c14-2047-4562-a0f9-479c12300eea.jpeg)
+![4_Questions_7](https://user-images.githubusercontent.com/54589605/218324034-5964977b-3f9a-40f0-a4f9-3f6b86a6f0cb.jpeg)
+
+
+
+
+
+
+
 
 
 
@@ -707,7 +879,7 @@ f` `-> Complement of the Initial expression (Answer)
 ![image](https://user-images.githubusercontent.com/54589605/218309360-13d733f5-36a7-4aff-9b70-5dc6d6578664.png)
 ![image](https://user-images.githubusercontent.com/54589605/218309449-a9a5174b-eab6-41e5-b8fa-7bb09ef47c33.png)
 
-> All options are corrrect. '*' is not multiplication here, it is solved according to the question, A*B.
+> All options are corrrect. '*' is not multiplication here, it is solved according to the question, A*B= AB + A'B'.
 
 
 
