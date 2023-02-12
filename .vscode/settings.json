@@ -81,6 +81,8 @@
     "Heapify",
     "Hexa",
     "inorder",
+    "maxterms",
+    "minterms",
     "nlogn",
     "nums",
     "preorder",

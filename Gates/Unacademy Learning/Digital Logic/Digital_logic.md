@@ -335,6 +335,34 @@ f` `-> Complement of the Initial expression (Answer)
 ![2_Questions_10](https://user-images.githubusercontent.com/54589605/218261801-3e81d63c-f3a5-4ffa-a97b-1957a99d7784.jpeg)
 
 
+## Boolean_Algebra_III (3) [12th Feb 2023]
+
+
+> Not applicable for **maxterm**. First convert the maxterms into minterms and then do the **minterm** analysis. After the analysis, get the **minterm answers** and from there we will get the maxterms **result/answer**.
+> Don't go for **maxterm** analysis. This method is **not valid** for **maxterms**. 
+
+
+> Try to do the **complete simplification or analysis** in **SOP or minterms** form only. So that we do not commit any mistakes.
+
+### Boolean Function
+
+* In general, for **n** boolean variables, how many different boolean functions are possible?
+
+> (2^2)^n [**Two** to the power of **Two** to the power of **n**]
+
+* How many boolean functions have zero(0) **minterms**?
+
+> Only **One(1)** 
+
+* How many boolean functions has **only one(1)** **minterm**?
+  
+> **Four(4)**
+
+* How many boolean functions has **only two(2)** **minterms**?
+
+> **Six(6)**
+
+
 # Practice Questions and Solutions
 ## Practice Questions (1) [10th Feb 2023]
 
