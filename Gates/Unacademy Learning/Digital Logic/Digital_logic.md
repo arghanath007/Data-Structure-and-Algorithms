@@ -591,6 +591,11 @@ f` `-> Complement of the Initial expression (Answer)
 ![Boolean_Algebra_13](https://user-images.githubusercontent.com/54589605/218261867-3abd4cd1-c244-4943-bbe0-8f186f99378b.jpeg)
 ![Boolean_Algebra_14](https://user-images.githubusercontent.com/54589605/218261869-43370edf-2e58-4ab4-afab-f4a0a8a8a672.jpeg)
 
+## Practice Questions (3) [11th Feb 2023]
+
+> From **3_Boolean_Algebra_III**. Page **116**.
+
+![Boolean_Algebra_15](https://user-images.githubusercontent.com/54589605/218306810-0c5e276b-613e-4a27-ba3e-17655cccf521.jpeg)
 
 
 
