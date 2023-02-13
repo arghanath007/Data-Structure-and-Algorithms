@@ -4132,6 +4132,12 @@ We know,
 
 ## Rest of BST PYQs
 
+### Solutions
+
+![BST_8](https://user-images.githubusercontent.com/54589605/218531120-e24bc185-6d39-47ea-b030-4f2db6e6b4ca.jpeg)
+![BST_9](https://user-images.githubusercontent.com/54589605/218531162-e8619766-c976-4baf-8b39-b47a75b065f8.jpeg)
+![BST_10](https://user-images.githubusercontent.com/54589605/218531186-0b6bda7d-fd74-4e6e-8c64-52f4968fa85a.jpeg)
+
 > In **Q28**, for **n** distinct elements. There is **only one(1)** maximum element in the BST. There are **(n-1) elements** that are smaller than the maximum element, all of the elements **except** the maximum element are smaller than it(maximum element). Hence we can pick any one of the elements out of the **(n-1) elements** and the time complexity for doing so it **Theta(1) or constant**.
 > We can simply return **root** of the tree. We can check if the tree's right subtree is **empty or not**. We get two conditions which are below: 
 
@@ -4139,8 +4145,13 @@ We know,
 
 2)If **it  not empty** then the **root** element is not the **maximum** element and there is some element in the right subtree which is bigger than the root element. We can just simply return the **root** to get the smaller element than the maximum element.
 
+![BST_11](https://user-images.githubusercontent.com/54589605/218531213-9b4df6ea-091b-4990-bb51-aeb9f000353a.jpeg)
 
 > In **Q29**, the largest element in BST is at the **right-> right most** element of the tree.
+
+### Q30
+
+![image](https://user-images.githubusercontent.com/54589605/218532590-510c0adb-7b0c-4194-af83-28afcf79cf52.png)
 
 > In **Q30**, in post-order traversal we know the last element of the traversal is the **root** element. Using this root, we can determine the **left subtree** elements and **right subtree** elements. This determining of the **root** element and then finding/checking the **left subtree** elements and **right subtree** elements  took **O(1) or constant** time complexity.
 > For **n** elements, the time complexity will be **Theta(n)**. We have to fit the **n** elements into the tree, **one** at a time.
@@ -4148,9 +4159,25 @@ We know,
 > In this same question only, if only **n** elements were given but not the range **1,2,...n** of elements then we would just simply find the root and determine the **left and right** subtrees. We would need **inorder** traversal to determine that or something else. 
 > The answer would be **different** as well and we would lean towards **Theta(n * log n)** as **we would require** **inorder** traversal for identifying/determing which elements would go to **left and right** subtrees.
 
+### Q31
+
+![image](https://user-images.githubusercontent.com/54589605/218532757-36af5201-c25b-47d4-b49b-8d288a88c967.png)
+![image](https://user-images.githubusercontent.com/54589605/218532827-c328d2e6-0bc9-4fdf-ab1d-fb28853d41da.png)
+![image](https://user-images.githubusercontent.com/54589605/218532860-bc131118-d5c5-44ba-a039-558119b5ba1a.png)
+
 
 > In **Q31**, For a **Balanced BST**, we know it's height is **log n**. We need to do **one(1) or once**, the calculation of **g(x)**  for **each level**. As all of the **nodes** in a particular level have the **same cost of g(x)**. Hence we only need to calculate the cost of **g(x) once** for each level. The total **g(x)** calculated would be **log n**.
 > The cost of everytime calculating the value of **g(x)** would be **n**.
+
+
+### Q32
+
+![image](https://user-images.githubusercontent.com/54589605/218532995-00918503-a64e-426f-b6ee-c7716ab6ce8c.png)
+![image](https://user-images.githubusercontent.com/54589605/218533025-786d2bdc-ca56-4a09-b875-23f1b060e41d.png)
+
+![binary_Search_tree_question](https://user-images.githubusercontent.com/54589605/218533086-7710fa81-0daf-4770-9200-966c10eb6012.png)
+
+* AP series formula. 
 
 
 > In **Q32**, finding the sum of elements from **v1 to v2**:
