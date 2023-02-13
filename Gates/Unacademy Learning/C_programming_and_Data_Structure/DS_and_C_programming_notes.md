@@ -4062,6 +4062,14 @@ We know,
 ![Heap_deletion_4](https://user-images.githubusercontent.com/54589605/217275932-c481e9ea-b0a3-4258-9d06-eae766991ae7.jpeg)
 ![Heap_deletion_5](https://user-images.githubusercontent.com/54589605/217275935-b5ebc520-99a8-4207-811b-fc0db7b46ab8.jpeg)
 
+## Heap Time Complexities
+
+* Deletion single element -> O(log n)
+* Single(one by one) insertion -> O(log n)
+* Build Heap -> O(n)
+
+> Always remember that in **min-heap**, we will find the first **minimum** element at **first level(0th level) only**, **2nd minimum** element at **2nd level(1st level) only**. We will find **3rd minimum** element at **either 2nd level(1st level) or 3rd level(2nd level)** anywhere between them. We will find **4th minimum** element at anywhere **leaving the first level upto 4th(3rd level) level** between them.
+
 ## 52_Doubt_Solving_session(Heap PYQs) (52) [9th Feb 2023]
 
 * Many Heap **PYQs** done.
@@ -4073,7 +4081,7 @@ We know,
 * Height of tree -> log n
 * no. of comparison performed -> Theta(log log n). 
 
-### Solutions 
+### Solutions (Heap PYQ)
 
 ![Heap_1](https://user-images.githubusercontent.com/54589605/217866159-bdc4cbe6-1055-4292-ad0d-6583eb1b6243.jpeg)
 ![Heap_2](https://user-images.githubusercontent.com/54589605/217866168-771098eb-45d3-4fe6-aa08-71eeaf4b2f8d.jpeg)
@@ -4087,6 +4095,13 @@ We know,
 ![Heap_10](https://user-images.githubusercontent.com/54589605/217866209-c6fb3dbd-c348-44ab-8e72-e0033a583d48.jpeg)
 
 
+## 53_Heap_and_Binary_Heap(Heap PYQs and BST PYQs) (53) [13th Feb 2023]
+
+
+
+### BST PYQs
+
+* In *Q17*, log(no. of elements) for a **balanced binary search tree**.
 
 
 
