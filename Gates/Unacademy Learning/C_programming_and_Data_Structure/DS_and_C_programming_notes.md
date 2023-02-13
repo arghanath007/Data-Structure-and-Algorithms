@@ -4094,14 +4094,46 @@ We know,
 ![Heap_9](https://user-images.githubusercontent.com/54589605/217866205-a315e30c-4c6a-4df9-97a9-66dacbb6d2fe.jpeg)
 ![Heap_10](https://user-images.githubusercontent.com/54589605/217866209-c6fb3dbd-c348-44ab-8e72-e0033a583d48.jpeg)
 
+> Rest of Heap PYQs in **53_Heap_and_Binary_Heap** PDF file.
 
 ## 53_Heap_and_Binary_Heap(Heap PYQs and BST PYQs) (53) [13th Feb 2023]
 
+### Rest of Heap PYQs
+
+![Heap_11](https://user-images.githubusercontent.com/54589605/218458850-8e8605c8-b689-4603-8b81-1c455475815b.jpeg)
+![Heap_12](https://user-images.githubusercontent.com/54589605/218458859-8832d2f8-4379-4f8a-9f8c-93b1805da2d8.jpeg)
+![Heap_13](https://user-images.githubusercontent.com/54589605/218458865-3bf053f3-5e8b-408a-99b4-99292b401e22.jpeg)
+![Heap_14](https://user-images.githubusercontent.com/54589605/218458868-a2706192-7464-414b-8ebf-025efbbaa780.jpeg)
+![Heap_15](https://user-images.githubusercontent.com/54589605/218458876-a79a1952-e2d6-4841-88a5-8a4dc2570943.jpeg)
 
 
 ### BST PYQs
 
-* In *Q17*, log(no. of elements) for a **balanced binary search tree**.
+![BST_1](https://user-images.githubusercontent.com/54589605/218459112-ff41ad9f-87ed-41f5-a0db-eacf9f0ca37a.jpeg)
+
+* To solve the above question faster
+
+![binary_search_tree_question_trick](https://user-images.githubusercontent.com/54589605/218458995-d79bdffc-9c9d-4e28-964a-050dd717828d.png)
+
+> Just count the numbers lower than **50** which would be in the left subtree and count the numbers higher thatn **50** which would be in right subtree. Would be a lot faster than drawing the whole tree. 
+
+![BST_2](https://user-images.githubusercontent.com/54589605/218459128-633c227e-e1de-4dbe-a67f-54e7763b486f.jpeg)
+![BST_3](https://user-images.githubusercontent.com/54589605/218459134-55dc2fd9-9d42-4b3b-b04f-6734d1906389.jpeg)
+![BST_4](https://user-images.githubusercontent.com/54589605/218459138-8a8b6d83-70d0-4fbf-9304-b5a7c8686f29.jpeg)
+![BST_5](https://user-images.githubusercontent.com/54589605/218459142-bcfe5fde-3579-4e7b-b577-8538d460e4e9.jpeg)
+![BST_6](https://user-images.githubusercontent.com/54589605/218459146-4c2f3618-1bcf-4909-9763-d1de82355cd8.jpeg)
+
+* In **Q17** in the above image, log(no. of elements) for a **balanced binary search tree**.
+
+![BST_7](https://user-images.githubusercontent.com/54589605/218459151-2c4517a9-5aad-4721-b816-ddbf2e5b4ba9.jpeg)
+
+
+
+
+
+
+
+
 
 
 
