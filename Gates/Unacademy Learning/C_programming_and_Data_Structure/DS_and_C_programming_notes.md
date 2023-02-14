@@ -4254,6 +4254,19 @@ We know,
 ![image](https://user-images.githubusercontent.com/54589605/218699451-a35c08be-4305-4592-9cc4-cb48c18d5833.png)
 
 
+## Graph_II (56) [14th Feb 2023]
+
+## DFS
+
+> In the above example, **source is A**, A has *B,C* as friends and decides to give the **movie DVD** to B. B has *A,D,E* as friends and gives it to E out of the three. E has *C,B,D,F* as friends and decides to give it to *C*. C has *A and E* as friends but both *A and E* have seen the movie. So *C* gives back the *movie DVD* to *E* as 'C' initially got the *movie DVD* from 'E' only. E has *C,B,D,F* as friends and decides to give it to D. D has *F and E* as friends and decides to give it to F. As all of F's friends have seen the movie, he gave the *movie DVD* back to 'D' as he initially got it from. D gave it back to 'C'. C gave it back to 'E'. E gave it back to 'B'. B returns it back to it's initial source(A). 
+
+* DFS traversal -> A,B,E,C,D,F.
+
+> We have to find the **neighbours** of the last traversed node. If no neighbours present then find the **neighbours** of the previously traversed node.
+> We can select any one of the **neighbours** of the last traversed node. We have to select anyone of them and go **complete depth/deep** with it.
+
+
+## DFS/DFT implemented using **Stack**.
 
 
 ## Questions to ask(sir) in next class.
