@@ -4183,7 +4183,7 @@ We know,
 > Finding the sum of elements from **v1 to v2** will be in **constant** time as it is found out by using a **formulae**.
 
 
-## (55) [14th Feb 2023]
+## Graph (55) [14th Feb 2023]
 
 ### Doubt (Doubly Linked List)
 
@@ -4218,10 +4218,35 @@ We know,
 
 ![image](https://user-images.githubusercontent.com/54589605/218649357-8e6596d8-3453-4584-88b8-46c9f1d343d4.png)
 
+> The answer is **O(N^2)** as it is the **highest** time complexity out of the all. Adding all of them up also, gives us the same answer **Asymptotically**.
 
 
+## Graph
+
+> It is a non-linear data structure.
+> It is like tree only but **tree is a hierarchial data structure**.
+> Graph does not have a **hierarchial data structure**, the structure is not **fixed**. Any node can be connected to another node in any way.
+> Graph -> Nodes(Also called as vertices), edges.
+
+## Graph Traversal
+
+* Breadth First Traversal -> Breadth First Search(BFS)
+* Depth First Traversal -> Depth First Search(DFS)
+
+* Breadth First Traversal -> It is a **level-order traversal** of the tree. We traverse/search just casually each and everywhere without going into **complete details/depth**. We do not check in **complete details/depth** each and everywhere and have checked at all of the locations. Then also we **haven't found the searched element**, then we come to each and every place and now search in **complete details/depth**.
+
+* Depth First Traversal -> We go in one particular direction in **complete details/depth**. If found then well and good otherwise we come back **one step** and then starting searching in that particular direction in complete details/depth. We step back and check each and every direction in **complete details/depth** and inturn traversing/searching the whole graph. We do this untill we have **traversed/searched** the whole graph.
+
+> If given graph is in **adjacent list** representation wheather it is in **hybrid** or in **Linked List** form, doesn't matter. If it is in **adjacent list** representation then the **sequence of edges matters during the traversal**.
 
 
+> As in the above example, we can see that the **edges** for **each vertice** are given in a **particular** sequence. **We have to maintain that particular sequence** no matter what as the **edges** are stored in **Linked list** in that **sequence/order** only and they will show up or come up in that particular sequence only no matter what. 
+> Hence we cannot randomly decide the sequence of some elements like before.
+> Previously when **graph drawing/graphic representation** was given and an vertice(A) has **three edges** connected to **three other vertices(B,J,K)**. When  Doing **BFS** of that **graph** when we reach **Vertice(A)**, we can arrange those three vertices(B,J,K) in any other we want[(K,J,B),(B,J,K), etc]. We can arrange them in **3! -> 6** ways.
+> But with the **adjacent list** representation we cannot do that. We have to follow the **given order of sequences** in the question only. We have to always **consider** the **sequence of edges**. Hence for this reason, we can have **only one** sequence of **BFS** possible now instead of **n!**, where 'n' is the **no. of edges**.
+
+
+## BFS/BFT implemented using **Queue**.
 
 
 ## Questions to ask(sir) in next class.
