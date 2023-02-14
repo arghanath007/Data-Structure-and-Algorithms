@@ -4189,14 +4189,30 @@ We know,
 
 ![image](https://user-images.githubusercontent.com/54589605/218647292-12841d56-6682-4e4e-b996-f57d568196cb.png)
 
+### For **Insertion**
+
+> As it is a sorted doubly linked list, we have to **traverse** the list in **linear search (binary search is not possible in linked list)** order to find the position where the insertion maintains the sorted sequence.
+> Hence for **one(1)** insertion, the time complexity is **O(N)**.
+> For **log N** insertions given in the question, the time complexity is **logN * O(N) -> O(N log N)**
+
+### For **Deletion**
+
+> As the pointer is provided for the element to be deleted, we know that time complexity for deletion in doubly linked list is **constant or O(1)**.
+> For **N** deletions given in the question, the time complexity is **N * O(1) -> O(N)**
+
+### For **Searching**
+
+> We know traversing in doubly linked list happens in **linear search** order. Searching is basically traversing the list to find the **element** we are searching. 
+> Hence for **One(1)** search, the time complexity is **O(N)**.
+> For **log N** searches, the time complexity is **log N * O(N) -> O(N logN)**.
 
 ### For **Decrease Key**
 
 ![image](https://user-images.githubusercontent.com/54589605/218646677-e5934d96-a0d0-4283-986e-31687e3a7706.png)
 
-> When decreasing **26** with **23**, we get **3**. After that the sequence is not in **sorted** order. We have to sort the sequence to fit **3** in the sequence. 
-> Hence the **time complexity** for **One(1) Decrease key** operation is **O(N)**. 
-> For **'n' Decrease key** operations, the **time complexity** will be **N * O(N) -> O(N^2)**.   
+> When decreasing **26** with **23**, we get **3**. After that the sequence is not in **sorted** order as **3** is the result from **26-23-> 3** and **3** is disrupting the sorted sequence. Hence, we have to sort the sequence to fit **3** in the sequence. 
+> The sorting takes **O(N)** time complexity. The decreasing key operations happens in **O(1) or constant** time complexity. Hence the **time complexity** for **One(1) Decrease key** operation is **O(N) * O(1) -> O(N)**.
+> For **'N' Decrease key** operations, the **time complexity** will be **N * O(N) -> O(N^2)**.   
 
 
 
