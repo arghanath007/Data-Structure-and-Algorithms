@@ -4223,6 +4223,8 @@ We know,
 
 ## Graph
 
+![Graph_like_tree](https://user-images.githubusercontent.com/54589605/218752844-aefc9855-5f3f-4f09-ad9d-71135b8776c3.png)
+
 > It is a non-linear data structure.
 > It is like tree only but **tree is a hierarchial data structure**.
 > Graph does not have a **hierarchial data structure**, the structure is not **fixed**. Any node can be connected to another node in any way.
@@ -4248,15 +4250,29 @@ We know,
 
 ## BFS/BFT implemented using **Queue**.
 
+![Graph_Breadth_First_Search](https://user-images.githubusercontent.com/54589605/218752897-11437a61-db82-4566-92d7-0711d35bae69.png)
+
+
 ### Algorithm/Working
 
 ![image](https://user-images.githubusercontent.com/54589605/218699355-07e3efee-4d7a-4b47-9c44-62b282f0cff9.png)
 ![image](https://user-images.githubusercontent.com/54589605/218699451-a35c08be-4305-4592-9cc4-cb48c18d5833.png)
 
+### Examples
+
+![Graph_1](https://user-images.githubusercontent.com/54589605/218752515-62fea469-cb03-4890-8961-102b2eaa2de3.jpeg)
+![Graph_2](https://user-images.githubusercontent.com/54589605/218752523-537fc818-90fa-4c6c-8442-90501efff162.jpeg)
+
+
 
 ## Graph_II (56) [14th Feb 2023]
 
 ## DFS
+
+![Graph_Depth_First_Search png](https://user-images.githubusercontent.com/54589605/218752935-3ec73d05-8f60-4870-9281-11371a058140.png)
+
+
+![image](https://user-images.githubusercontent.com/54589605/218753342-e73f1eb9-7f8a-4ded-aaa3-a31b56e179c1.png)
 
 > In the above example, **source is A**, A has *B,C* as friends and decides to give the **movie DVD** to B. B has *A,D,E* as friends and gives it to E out of the three. E has *C,B,D,F* as friends and decides to give it to *C*. C has *A and E* as friends but both *A and E* have seen the movie. So *C* gives back the *movie DVD* to *E* as 'C' initially got the *movie DVD* from 'E' only. E has *C,B,D,F* as friends and decides to give it to D. D has *F and E* as friends and decides to give it to F. As all of F's friends have seen the movie, he gave the *movie DVD* back to 'D' as he initially got it from. D gave it back to 'C'. C gave it back to 'E'. E gave it back to 'B'. B returns it back to it's initial source(A). 
 
@@ -4265,8 +4281,27 @@ We know,
 > We have to find the **neighbours** of the last traversed node. If no neighbours present then find the **neighbours** of the previously traversed node.
 > We can select any one of the **neighbours** of the last traversed node. We have to select anyone of them and go **complete depth/deep** with it.
 
+![image](https://user-images.githubusercontent.com/54589605/218753401-5036f30c-1e13-4b6c-8b13-920c8efc6b31.png)
+
+
 
 ## DFS/DFT implemented using **Stack**.
+
+![image](https://user-images.githubusercontent.com/54589605/218753127-18bf044b-7ea0-4b62-a87c-05adfb0f86b7.png)
+![image](https://user-images.githubusercontent.com/54589605/218753206-5ff95b6e-defd-483c-a565-3877f35ae7f5.png)
+![image](https://user-images.githubusercontent.com/54589605/218753228-a08eac25-d381-4eac-8fd7-d02ed8d3c295.png)
+
+
+### Examples
+
+![Graph_3](https://user-images.githubusercontent.com/54589605/218752612-4349c7df-3105-49a9-b8ff-73867f5376dc.jpeg)
+![Graph_4](https://user-images.githubusercontent.com/54589605/218752647-43196541-7fec-4095-ba75-e811caecc778.jpeg)
+![Graph_5](https://user-images.githubusercontent.com/54589605/218752658-53ae8fb7-1752-45ac-b5da-3407441f2f59.jpeg)
+![Graph_6](https://user-images.githubusercontent.com/54589605/218752669-19a2b0c9-574e-4ba1-a25f-bdc93f58a5e6.jpeg)
+![Graph_7](https://user-images.githubusercontent.com/54589605/218752678-449a32de-3ebf-4044-98ba-0ec03a0217b2.jpeg)
+![Graph_8](https://user-images.githubusercontent.com/54589605/218752686-85f51b45-3eef-42e5-8efd-cf242865f825.jpeg)
+![Graph_9](https://user-images.githubusercontent.com/54589605/218752702-edb73788-60a3-4fe1-9ebb-4d982fad56fa.jpeg)
+![Graph_10](https://user-images.githubusercontent.com/54589605/218752737-26b3886c-5912-4ed9-af4c-da7f8017424b.jpeg)
 
 
 ## Questions to ask(sir) in next class.
