@@ -4187,6 +4187,17 @@ We know,
 
 ### Doubt (Doubly Linked List)
 
+![image](https://user-images.githubusercontent.com/54589605/218647292-12841d56-6682-4e4e-b996-f57d568196cb.png)
+
+
+### For **Decrease Key**
+
+![image](https://user-images.githubusercontent.com/54589605/218646677-e5934d96-a0d0-4283-986e-31687e3a7706.png)
+
+> When decreasing **26** with **23**, we get **3**. After that the sequence is not in **sorted** order. We have to sort the sequence to fit **3** in the sequence. 
+> Hence the **time complexity** for **One(1) Decrease key** operation is **O(N)**. 
+> For **'n' Decrease key** operations, the **time complexity** will be **N * O(N) -> O(N^2)**.   
+
 
 
 
