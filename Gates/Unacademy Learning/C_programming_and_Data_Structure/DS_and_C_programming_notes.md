@@ -4212,7 +4212,12 @@ We know,
 
 > When decreasing **26** with **23**, we get **3**. After that the sequence is not in **sorted** order as **3** is the result from **26-23-> 3** and **3** is disrupting the sorted sequence. Hence, we have to sort the sequence to fit **3** in the sequence. 
 > The sorting takes **O(N)** time complexity. The decreasing key operations happens in **O(1) or constant** time complexity. Hence the **time complexity** for **One(1) Decrease key** operation is **O(N) * O(1) -> O(N)**.
-> For **'N' Decrease key** operations, the **time complexity** will be **N * O(N) -> O(N^2)**.   
+> For **'N' Decrease key** operations, the **time complexity** will be **N * O(N) -> O(N^2)**. 
+
+### Solution
+
+![image](https://user-images.githubusercontent.com/54589605/218649357-8e6596d8-3453-4584-88b8-46c9f1d343d4.png)
+
 
 
 
