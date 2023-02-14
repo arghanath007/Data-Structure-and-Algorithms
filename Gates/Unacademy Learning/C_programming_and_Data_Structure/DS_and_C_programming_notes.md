@@ -4179,9 +4179,14 @@ We know,
 
 * AP series formula. 
 
-
 > In **Q32**, finding the sum of elements from **v1 to v2**:
 > Finding the sum of elements from **v1 to v2** will be in **constant** time as it is found out by using a **formulae**.
+
+
+## (55) [14th Feb 2023]
+
+### Doubt (Doubly Linked List)
+
 
 
 
