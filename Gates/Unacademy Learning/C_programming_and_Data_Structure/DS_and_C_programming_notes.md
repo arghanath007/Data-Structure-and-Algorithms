@@ -4248,6 +4248,13 @@ We know,
 
 ## BFS/BFT implemented using **Queue**.
 
+### Algorithm/Working
+
+![image](https://user-images.githubusercontent.com/54589605/218699355-07e3efee-4d7a-4b47-9c44-62b282f0cff9.png)
+![image](https://user-images.githubusercontent.com/54589605/218699451-a35c08be-4305-4592-9cc4-cb48c18d5833.png)
+
+
+
 
 ## Questions to ask(sir) in next class.
 
