@@ -4305,11 +4305,24 @@ We know,
 
 ## Graph Question from **56_Graph** 
 
+![image](https://user-images.githubusercontent.com/54589605/219034438-ad04fb15-3679-4d61-bbe9-4e80a4eb906c.png)
+![image](https://user-images.githubusercontent.com/54589605/219034462-a78855f4-d474-4ec2-b0a3-35f28be2b4a8.png)
+
+> Here, it is asked for **DFS**, we have to traverse the whole **graph** using **DFS** technique and **minimize** the **maximum possible recursion depth**. The  **maximum possible recursion depth** which is possible using **DFS** has to be **minimized**.
+
+![image](https://user-images.githubusercontent.com/54589605/219035695-abd88290-1755-421d-af68-317ef54bf189.png)
+
+
 > Solved in **57_Hashing** PDF file.
+
+### Searching Techniques **Summary**
+
+![image](https://user-images.githubusercontent.com/54589605/219035985-dd4cfb59-356b-4158-86f9-4d7637d50792.png)
+
 
 ## Hashing (57) [15th Feb 2023]
 
-> In Hashing Technique, searching is done in **O(1) or constant time** and where it is **located**.
+> In Hashing Technique, searching is done in **O(1) or constant time** and we also find out where it is **located**.
 > Whenever a **new item** is found/given then we have to immediately find a **specific location** of that new item and as soon as we find the location for the new item, we put it there.
 > For **searching**, we will use the **same** above **process/technique** to find that **specific location** of that item we are **searching** and after finding that **specific location**, we will search that location for that **item**. If we find the item there **item found**, otherwise **item not found**.
 
@@ -4319,6 +4332,11 @@ We know,
 *  Location has a fixed range depending on the size of the Hash table.
 
 ## Hashing Techniques
+
+* H(Key) -> Key mod m [Key % m] ['m' is an integer]
+* Location range -> 0 to m-1
+
+> All of the **different** hashing techniques are explained in **57_Hashing_Techniques** PDF file. Revise it from there.
 
 * Best Method -> Division/Modulo Division method
 
@@ -4339,12 +4357,25 @@ We know,
 
 * No standards in **Fold shifting and Fold Boundary** methods. They have many variations. No standard methods.
 
+### Question
+
+![image](https://user-images.githubusercontent.com/54589605/219036547-2036e79c-8da9-42e0-be1a-1d331adf4067.png)
+![Hashing_1](https://user-images.githubusercontent.com/54589605/219037518-d767e93b-b9a5-4f1a-8079-119e550b84cd.jpeg)
+
 
 ## Collision
+
+> If for a **key**, the same hash function generates a pre-occupied location, then there is a **collision** at that **location**.
+
+![image](https://user-images.githubusercontent.com/54589605/219037787-f1f33033-5a80-451a-aa4a-b0c76a8608c4.png)
+![image](https://user-images.githubusercontent.com/54589605/219037839-a0673a7c-9a4e-49aa-8bb7-706cf768cc6e.png)
 
 
 ## Collision Resolution Techniques
 
+![image](https://user-images.githubusercontent.com/54589605/219037879-7892b3d5-d12b-4833-bc85-81c75a971592.png)
+
+> To be continued in **next class** i.e **58**.
 
 
 
