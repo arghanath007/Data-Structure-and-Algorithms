@@ -4303,6 +4303,52 @@ We know,
 ![Graph_9](https://user-images.githubusercontent.com/54589605/218752702-edb73788-60a3-4fe1-9ebb-4d982fad56fa.jpeg)
 ![Graph_10](https://user-images.githubusercontent.com/54589605/218752737-26b3886c-5912-4ed9-af4c-da7f8017424b.jpeg)
 
+## Graph Question from **56_Graph** 
+
+> Solved in **57_Hashing** PDF file.
+
+## Hashing (57) [15th Feb 2023]
+
+> In Hashing Technique, searching is done in **O(1) or constant time** and where it is **located**.
+> Whenever a **new item** is found/given then we have to immediately find a **specific location** of that new item and as soon as we find the location for the new item, we put it there.
+> For **searching**, we will use the **same** above **process/technique** to find that **specific location** of that item we are **searching** and after finding that **specific location**, we will search that location for that **item**. If we find the item there **item found**, otherwise **item not found**.
+
+* Hash Function H() is applied on a **key** and we get the **location** as the **result**.
+* Location = H(key)
+*  **Location** is not an **address**. This is not an address. It is just a reference of our **table**.
+*  Location has a fixed range depending on the size of the Hash table.
+
+## Hashing Techniques
+
+* Best Method -> Division/Modulo Division method
+
+### Fold Shifting
+
+#### Method 1
+
+> We have to make folds of **three** digits.
+
+#### Method 2
+
+> Reversed the **centre/central** fold.
+
+### Fold Boundry
+
+> Take the folds at the boundry only.
+
+
+* No standards in **Fold shifting and Fold Boundary** methods. They have many variations. No standard methods.
+
+
+## Collision
+
+
+## Collision Resolution Techniques
+
+
+
+
+
 
 ## Questions to ask(sir) in next class.
 
