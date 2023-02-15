@@ -386,22 +386,135 @@
 
 ## Number System_VII (9) [15th Feb 2023]
 
+### Verbal Reasoning
+
+![image](https://user-images.githubusercontent.com/54589605/219112553-bbc0fac3-7c09-41ec-8c59-382aca6c5cf4.png)
+![image](https://user-images.githubusercontent.com/54589605/219112872-3250bc07-d6f3-49f2-906d-305d1d14dfc9.png)
+
+* Words with **C** are **nouns**.
+* Words with **S** are **Verbs**.
+
+![image](https://user-images.githubusercontent.com/54589605/219117427-929528c1-033e-4b5d-b577-9714f32e9fc0.png)
+
+* Brake -> Car brake
+* Break -> Lunch break, break from studies.
+
+### Number System (Note)
+
+![image](https://user-images.githubusercontent.com/54589605/219113289-f24269b3-bc64-4c99-af76-2d1b009be264.png)
+![image](https://user-images.githubusercontent.com/54589605/219114295-bfbe8f48-4ac2-47f0-817c-c4487f5bc6ba.png)
+
+
+> The no. of **bars(-)** on the digit, the no. of **9s**.
+
+* 0.444.. (bar on all three 4s) -> 0.444 [Same thing, different way of writing them]
+
+![image](https://user-images.githubusercontent.com/54589605/219114375-cd31d350-c5c1-4a66-912b-0d956dffcd5e.png)
+
+> **GP series**
+* a -> First element
+* r -> second element by(/) first element
+
+### Sum of **GP** series
+
+![image](https://user-images.githubusercontent.com/54589605/219116970-d1e0e344-5a6c-43d9-a983-9693e2f1514e.png)
+
+
+### Questions
+
+![image](https://user-images.githubusercontent.com/54589605/219115054-a7e13eef-bf19-4f7c-a6e7-cfb6662d6249.png)
+![image](https://user-images.githubusercontent.com/54589605/219115430-18f1a9b9-4011-4b98-bdac-974a98a72186.png)
+![image](https://user-images.githubusercontent.com/54589605/219115523-857b2c05-0d51-4b62-ba45-47bee53511b0.png)
+![image](https://user-images.githubusercontent.com/54589605/219116175-6be09349-0cfb-4896-a869-c5941907a8ae.png)
+![image](https://user-images.githubusercontent.com/54589605/219116251-16d32987-1d01-43e7-ad6d-db68ac28bad4.png)
+
 
 ### AP and GP
+
+![image](https://user-images.githubusercontent.com/54589605/219116537-9a27f700-1fc5-40ea-9f92-28a75168afdd.png)
 
 * AP -> Difference
 * GP -> Ratio
 
-### **3** and **9**
+### Sum of **GP** series
 
+![image](https://user-images.githubusercontent.com/54589605/219116970-d1e0e344-5a6c-43d9-a983-9693e2f1514e.png)
+
+### Question
+
+![image](https://user-images.githubusercontent.com/54589605/219116773-03746c9c-ab1e-4a64-bff7-3cb3a00e446b.png)
+![image](https://user-images.githubusercontent.com/54589605/219117844-b1725871-2674-4277-b62d-155d1e576ecc.png)
+![image](https://user-images.githubusercontent.com/54589605/219117998-4d4206b9-3955-444b-93db-86755b3edea9.png)
+
+
+## Divisibility Rule
+
+### **2** and it's higher powers(4|8|16)
+
+* For **2^1 -> 2** divisibility -> If the **last digit** of the number is divisible by 2 then the whole number is divisible by 2.
+* 97654316/2 -> 6 is the **last digit** of the number and it is divisible by 2, then the number is also divisible by 2. 
+
+* For **2^2 -> 4** divisibility -> If the last **two** digits of the number is divisible by 4 then the whole number is divisible by 4.
+* 998768724/4 -> **24** is the **last two digits** of the number and it is divisible by 4, then the number is also divisible by 4.
+
+* For **2^3 -> 8** divisibility -> If the last **three** digits of the number is divisible by 8 then the whole number is divisible by 8.
+* 1234512/8 -> **512** is the **last three digits** of the number and it is divisible by 8, then the number is also divisible by 8.
+
+* For **2^4 -> 16** divisibility -> If the last **four** digits of the number is divisible by 8 then the whole number is divisible by 16.
+* 12345674096/16 -> **4096** is the **last four digits** of the number and it is divisible by 16, then the number is also divisible by 16.
+
+![image](https://user-images.githubusercontent.com/54589605/219119302-f34df466-521b-4b9f-ac93-794d53d9580b.png)
+
+### **5**
+
+* For **5^1 -> 5** divisibility -> If the last digit of the number is divisible by 5 then the whole number is divisible by 5.
+* 98765/5 -> **5** is the **last digit** of the number and it is divisible by 5, then the number is also divisible by 5.
+
+* For **5^2 -> 25** divisibility -> If the last **two** digits of the number is divisible by 25 then the whole number is divisible by 25.
+* 14375/5 -> **75** is the **last two digits** of the number and it is divisible by 25, then the number is also divisible by 25.
+
+* For **5^3 -> 125** divisibility -> If the last **three** digits of the number is divisible by 25 then the whole number is divisible by 125.
+* 129876500/125 -> **500** is the **last three digits** of the number and it is divisible by 125, then the number is also divisible by 125.
+* 998760250/125 -> **250** is the **last three digits** of the number and it is divisible by 125, then the number is also divisible by 125.
+
+![image](https://user-images.githubusercontent.com/54589605/219120679-472c78cb-ee61-4309-b9e4-b3edfe07380e.png)
+
+### Question
+
+![image](https://user-images.githubusercontent.com/54589605/219121490-4a77d8b4-d457-46c2-90c8-1cae9a97d9ed.png)
+
+
+### **3** and **9**
+ 
 * DS -> Digit Sum
 
+![image](https://user-images.githubusercontent.com/54589605/219121688-3884321a-51a1-4682-aceb-13998a86f7ae.png)
+![image](https://user-images.githubusercontent.com/54589605/219121877-902ed937-89d9-4d57-9991-a5b304accd21.png)
+![image](https://user-images.githubusercontent.com/54589605/219121959-b7ff3581-ea18-4aad-a0f2-50a0233b2915.png)
+
+### Question
+
+![image](https://user-images.githubusercontent.com/54589605/219122368-5c8d553e-f50b-4288-a200-3b6535b2b157.png)
+
+
 ### **9** and **11**
+
+### **11**
+
+![image](https://user-images.githubusercontent.com/54589605/219123053-ced2b4d3-0a31-4793-b542-77d5d7fad0dc.png)
+![image](https://user-images.githubusercontent.com/54589605/219123357-12bc8352-5438-4a4c-ab40-0a38deef8a57.png)
+
 
 * 34*11 -> 3(3+4->7)4 -> 374
 * 23*11 -> 2(2+3->5)3 -> 253
 * 53*11 -> 5(5+3->8)3 -> 583
 * 98*11 -> 9(9+8->17)8 -> (9+1)78 -> 1078
+
+### Divisibility of **11**
+
+![image](https://user-images.githubusercontent.com/54589605/219123649-94555c6f-c824-46bf-9ee9-da9eacfb478e.png)
+![image](https://user-images.githubusercontent.com/54589605/219124013-b53b5258-b1f4-4765-ae4f-c6bde06d7142.png)
+
 
 > N= abcdef [eoeoeo] [e->even, o->odd]
 > Sum_odd ~ Sum_even
@@ -412,6 +525,9 @@
 
 * 1331(N) -> Sum_odd = 1+3=4, Sum_even = 1+3=4
 * Difference of Sum_odd and Sum_even is **4-4 =0**. Hence **N** is a multiple of **11**.
+
+* 2442(N) -> Sum_odd = 2+4=6, Sum_even = 4+2=6
+* Difference of Sum_odd and Sum_even is **6-6 =0**. Hence **N** is a multiple of **11**.
 
 ### **7** and **13**
 
@@ -425,24 +541,59 @@
 
 > Hence '140210007' is also divisible by 7. We take the **mod value** here.
 
+
+![image](https://user-images.githubusercontent.com/54589605/219124476-a69fb3c5-ee4f-4580-8146-5dbb96ed603a.png)
+![image](https://user-images.githubusercontent.com/54589605/219124595-113e7b74-604a-4647-b548-52c609f0ec4e.png)
+![image](https://user-images.githubusercontent.com/54589605/219124863-bd329287-0a50-4b5b-8cc4-255e650ef737.png)
+
+> We are taking the **difference** between the sum_odd and sum_even with **mod**, so **negative** numbers do not occur.
+
+![image](https://user-images.githubusercontent.com/54589605/219125248-e3fb8dca-c624-492a-887f-19b37da6f438.png)
+![image](https://user-images.githubusercontent.com/54589605/219125357-33d1e3e8-6d88-4a0b-9003-cf45aa5f5b8d.png)
+
 * If triplets are not forming, take extra **0** at the front. 
+
+### Question
+
+![image](https://user-images.githubusercontent.com/54589605/219126348-2783fc37-d4dd-4615-9fd6-7a40f87742cc.png)
+![image](https://user-images.githubusercontent.com/54589605/219126484-5797ed72-9409-4be8-91b0-6f3591ea9040.png)
+![image](https://user-images.githubusercontent.com/54589605/219126578-65fcffd4-c51e-46c9-a390-58096d674f32.png)
+
 
 #### **13**
 
-> Same as **11**. 
+> Same as **7**. 
+
+![image](https://user-images.githubusercontent.com/54589605/219126959-dc949706-df99-4f0c-808f-5f28c6bd6cfb.png)
+![image](https://user-images.githubusercontent.com/54589605/219127062-39cedaf6-ef0d-48c2-a007-e42ef7ee966f.png)
+![image](https://user-images.githubusercontent.com/54589605/219127196-916dcd12-016c-4f92-8478-3333c1d275b5.png)
+![image](https://user-images.githubusercontent.com/54589605/219127382-c9f39445-5c01-49b3-b767-45f9719b7370.png)
 
 
 ### Questions
 
+![image](https://user-images.githubusercontent.com/54589605/219127578-8aba1daa-4aaa-40a9-a93e-1852849a0b20.png)
+![image](https://user-images.githubusercontent.com/54589605/219127651-0b3649fd-85bb-4aaf-acb4-6916cdca5bfe.png)
+![image](https://user-images.githubusercontent.com/54589605/219127860-4cc3d0b9-7113-4307-97b9-9949b25a81a6.png)
+
+
+![image](https://user-images.githubusercontent.com/54589605/219128080-daac32fc-1f63-49a3-acc7-0e88ac782375.png)
+![image](https://user-images.githubusercontent.com/54589605/219128172-fabe1121-d76b-4be5-bddb-e258f76b2fab.png)
+![image](https://user-images.githubusercontent.com/54589605/219128307-299974ed-0a7d-4950-880d-7a01d5b00256.png)
+![image](https://user-images.githubusercontent.com/54589605/219128334-b2355f57-bf8d-49c8-bd4b-f9fa5cee35b3.png)
+
+
 * ABC - ABC -> 0
 * C is even
-* ABC - ABC 
+* ABC - ABC -> 0
 * C is even
 
 * Divisible by 14 -> Yes
 * Divisible by 14 -> Yes
 
+## Practice Questions
 
+> Solve them, in **9_Numebr_System_VII** PDF file
 
 
 
