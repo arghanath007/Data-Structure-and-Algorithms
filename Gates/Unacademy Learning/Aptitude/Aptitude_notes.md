@@ -210,7 +210,7 @@
 
 ![image](https://user-images.githubusercontent.com/54589605/216767576-81705e6c-9302-4fd9-916e-be7e933d5ea6.png)
 
-> If it is completely divisable by the divisor then the answer is **zero(0)** as the remainder/answer.
+> If it is completely divisible by the divisor then the answer is **zero(0)** as the remainder/answer.
 
 ### Pattern Recognization
 
@@ -382,6 +382,80 @@
 ![two_digits_3](https://user-images.githubusercontent.com/54589605/216828273-832543a8-2ed5-4e37-b36e-b6e324ee4e67.jpeg)
 ![two_digits_4](https://user-images.githubusercontent.com/54589605/216828275-21f94d92-c180-4942-8d43-fc4538f70370.jpeg)
 ![two_digits_5](https://user-images.githubusercontent.com/54589605/216828277-596951ae-88b2-4b0c-87e3-076ee3fccf71.jpeg)
+
+
+## Number System_VII (9) [15th Feb 2023]
+
+
+### AP and GP
+
+* AP -> Difference
+* GP -> Ratio
+
+### **3** and **9**
+
+* DS -> Digit Sum
+
+### **9** and **11**
+
+* 34*11 -> 3(3+4->7)4 -> 374
+* 23*11 -> 2(2+3->5)3 -> 253
+* 53*11 -> 5(5+3->8)3 -> 583
+* 98*11 -> 9(9+8->17)8 -> (9+1)78 -> 1078
+
+> N= abcdef [eoeoeo] [e->even, o->odd]
+> Sum_odd ~ Sum_even
+> If the **difference** of Sum_odd and Sum_even is either **0** or a **multiple of 11(11n)**, then 'N' is divisible by **11**. Count from **right to left** of the digit.
+
+* 121(N) -> Sum_odd = 1+1=2, Sum_even = 2
+* Difference of Sum_odd and Sum_even is **2-2 =0**. Hence **N** is a multiple of **11**.
+
+* 1331(N) -> Sum_odd = 1+3=4, Sum_even = 1+3=4
+* Difference of Sum_odd and Sum_even is **4-4 =0**. Hence **N** is a multiple of **11**.
+
+### **7** and **13**
+
+#### **7**
+
+> Here, we are taking the **sum of triplets**. We are counting from right to left of the digit. First *3* will be **odd**, then **even** then again **odd**.
+> If the **difference** of Sum_odd and Sum_even is either **0** or a **multiple of 7(7n)**, then 'N' is divisible by **7**.
+
+* 210007 /7 -> (210 - 007)/7 -> 203/7 -> Divisible, hence 210007 is divisible by **7** as well.
+* 140210007 -> (007+140) - (210) -> 147 - 210 -> 63/7 -> 9 [divisible by 7]
+
+> Hence '140210007' is also divisible by 7. We take the **mod value** here.
+
+* If triplets are not forming, take extra **0** at the front. 
+
+#### **13**
+
+> Same as **11**. 
+
+
+### Questions
+
+* ABC - ABC -> 0
+* C is even
+* ABC - ABC 
+* C is even
+
+* Divisible by 14 -> Yes
+* Divisible by 14 -> Yes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
