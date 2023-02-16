@@ -4379,8 +4379,54 @@ We know,
 
 ## Collision Resolution Technique (58) [16th Feb 2023]
 
+![image](https://user-images.githubusercontent.com/54589605/219337212-a884daa2-cd73-44ee-97f6-dbf506b6d8ee.png)
 
 
+> All of the Techniques are explained in the **58_Hashing_Part_II** PDF File. Check it out while revising.
+
+* **Probing** -> The no. of times, we have tried to generate a **new address**.
+
+## Clustering
+
+![image](https://user-images.githubusercontent.com/54589605/219337861-df415d1e-efde-4d57-8dbb-0aa0d7f1e8a8.png)
+
+
+## Difference between **Open Addressing** and **Closed Addressing**
+
+> Check the PDF file.
+
+## Perfect Hashing
+
+![image](https://user-images.githubusercontent.com/54589605/219338293-16306888-7099-4706-9c5d-6ec0f5c56a06.png)
+
+## Minimal Perfect Hashing
+
+![image](https://user-images.githubusercontent.com/54589605/219338434-0b69989e-e2e4-4b5c-8d24-45c597267d6d.png)
+
+## Universal Hashing/Universal Hash Function
+
+![image](https://user-images.githubusercontent.com/54589605/219338596-a8ab6204-5efe-4c80-8039-ca05db70a508.png)
+
+## Load Factor Formula **Important**
+
+![image](https://user-images.githubusercontent.com/54589605/219338978-b1769c46-d021-4b01-808f-0115aa4f6e9d.png)
+
+## Space Utilization Formula **Important**
+
+![image](https://user-images.githubusercontent.com/54589605/219339231-34465015-009e-4d3c-bb75-38edcf4a5d05.png)
+
+
+* For **Open Address or Closed Hashing** -> **Load Factor** and **Space Utilization** will always be **same/equal**.
+* Space Utilization value for **any adressing be it channing or something else** will be between **0 and 1**, including both **0 and 1**. '0' if no **keys** are available. '1' when almost all of the **slots** are occupied. If each slot has **1,5,10 or 100** keys, doesn't matter. Maximum space utilization can be **1** only and not more than that.
+
+
+### Question
+
+![image](https://user-images.githubusercontent.com/54589605/219339339-3c462cef-a55c-4116-be54-081f37edf98f.png)
+![Hashing_2](https://user-images.githubusercontent.com/54589605/219345643-526ad635-063c-40a5-adc5-261466055e51.jpeg)
+![Hashing_3](https://user-images.githubusercontent.com/54589605/219345677-bf19a956-e15d-4561-9185-8ac5fe80d7e0.jpeg)
+![Hashing_4](https://user-images.githubusercontent.com/54589605/219345692-8b15b470-1bd9-4b18-bfb2-2f9abb7db0f5.jpeg)
+![Hashing_5](https://user-images.githubusercontent.com/54589605/219345696-183cca05-7d11-4bf1-9bbd-4747aced31b3.jpeg)
 
 
 
@@ -4390,6 +4436,7 @@ We know,
 * Insertion will be O(log n) or theta(log n) [Ask] [Answered]
 * Didn't complete all of the DPPs from DPP 13 Q4, only did Part 5 of Q4.
 * Explain Inorder predecessor or successor [Got it]
+
 
 
 
