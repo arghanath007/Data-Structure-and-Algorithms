@@ -631,6 +631,15 @@
 
 * 100!^(1000) -> We are first finding the **count of zeroes** in 100! and then multiply the **count of zeroes** with the power(1000) and you get the answer.
 
+### Questions from **Quiz 1**
+
+![Quiz_1_1](https://user-images.githubusercontent.com/54589605/219424368-be4ae0d4-b376-4c11-9293-fa8464698ff0.jpeg)
+![Quiz_1_2](https://user-images.githubusercontent.com/54589605/219424380-a8d2214d-4dae-42a9-b08b-4c1c8cdfdbeb.jpeg)
+![Quiz_1_3](https://user-images.githubusercontent.com/54589605/219424407-d159b46b-3a48-49cd-aa56-2c098c81aaf8.jpeg)
+![Quiz_1_4](https://user-images.githubusercontent.com/54589605/219424414-54eae4df-336e-41e1-93a3-b707699af4e1.jpeg)
+![Quiz_1_5](https://user-images.githubusercontent.com/54589605/219424422-a7fd92f4-4605-4eb2-a794-8654fb0b1403.jpeg)
+
+
 ## Verbal Reasoning-1 (11) [16th Feb 2023]
 
 ![image](https://user-images.githubusercontent.com/54589605/219395685-dfada5fe-0e2b-4277-90b8-08fdb0e539b9.png)
@@ -672,6 +681,9 @@
 > After **older or taller or words ending with 'er' at the end** words, we have **than** which helps in **comparison/comparion** between things. 
 > After **older** there is **than** but after **elder** there is no **than**.
 
+### Questions
+
+![Verbal_1](https://user-images.githubusercontent.com/54589605/219424540-0db80634-5de5-4e42-949e-da79f29a92d3.jpeg)
 
 
 
