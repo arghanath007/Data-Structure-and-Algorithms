@@ -593,7 +593,7 @@
 
 ## Practice Questions
 
-> Solve them, in **9_Numebr_System_VII** PDF file
+> Solve them, in **9_Number_System_VII** PDF file
 
 
 
