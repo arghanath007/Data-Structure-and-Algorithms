@@ -605,7 +605,31 @@
 ![Number_System_5](https://user-images.githubusercontent.com/54589605/219134168-b1b8bff5-fb34-4c80-a66e-7c65ddc3a483.jpeg)
 ![Number_System_6](https://user-images.githubusercontent.com/54589605/219134174-853a302f-0ec9-43f0-a6da-c938a81bd9ed.jpeg)
 
+## **10_Doubt_Session** (10) [16th Feb 2023]
 
+> Solved the **Quiz 1** questions.
+
+## Questions
+
+![image](https://user-images.githubusercontent.com/54589605/219388129-cc3902bb-91ee-48bb-9998-ad722dcf0296.png)
+![image](https://user-images.githubusercontent.com/54589605/219388716-a8870bb9-fc1d-49dc-bb48-8fb9e4aa2eb3.png)
+![image](https://user-images.githubusercontent.com/54589605/219388778-7d4b3f75-461c-4942-8dd4-c36f636c3ff0.png)
+
+![image](https://user-images.githubusercontent.com/54589605/219388825-e2a0845e-11d7-4ea1-82cd-4809d56788e3.png)
+
+* 27!^(27!) -> First find the **count of zeroes** for **27!** and the multiply that **count of zeroes** with **27!** and that the answer.
+
+![image](https://user-images.githubusercontent.com/54589605/219389447-94e93288-a613-466e-830a-a246d196a872.png)
+![image](https://user-images.githubusercontent.com/54589605/219389588-b3cf0954-a8c8-46ca-aa5c-116b2eab4e08.png)
+![image](https://user-images.githubusercontent.com/54589605/219389625-03caae94-add8-43c8-97f9-63cea0f27272.png)
+![image](https://user-images.githubusercontent.com/54589605/219389844-12f7e0b9-b97a-4f23-8a37-344c652dd5df.png)
+
+
+![image](https://user-images.githubusercontent.com/54589605/219388855-1c3f1c4b-4734-4703-b3aa-53fb50754bc1.png)
+
+> In the above question.
+
+* 100!^(1000) -> We are first finding the **count of zeroes** in 100! and then multiply the **count of zeroes** with the power(1000) and you get the answer.
 
 
 
@@ -636,7 +660,17 @@
 
 ## Solutions
 
-> Solved in  **10_Doubt_Clearing_Session** PDF File.
+> Solved in  **10_Doubt_Clearing_Session** PDF File. Starts from Page **4** and is till page **40**.
+
+> For **Q3**, **8** has **cycling power** of **4**. Hence we are diving the power **12500** by **4** and it is completely divisible by **4**. **8^4 -> 4096**, and the last digit is **6** which we want.
+
+> For **Q8**, it is same as **Q3**. The power is completely divisible by **4**, hence **6** is the answer.
+
+> For **Q9**, we are dividing **1260** by **10** as **10** gives factors which end with **zero**. Hence **12** is the answer. 
+> **36** is the **total** no. of factors of 1260.
+
+
+
 
 # DPPs
 
