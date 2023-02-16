@@ -631,10 +631,46 @@
 
 * 100!^(1000) -> We are first finding the **count of zeroes** in 100! and then multiply the **count of zeroes** with the power(1000) and you get the answer.
 
+## Verbal Reasoning-1 (11) [16th Feb 2023]
+
+![image](https://user-images.githubusercontent.com/54589605/219395685-dfada5fe-0e2b-4277-90b8-08fdb0e539b9.png)
 
 
+* CID -> Conclusion Inference Deduction
+* Conclusion, Inference, Deduction -> Outcome
+* Inference -> 
+* Deduction
+
+![image](https://user-images.githubusercontent.com/54589605/219395627-a68b8def-84fd-4a86-a1a4-993484bbdab9.png)
+
+### Question
+
+![image](https://user-images.githubusercontent.com/54589605/219397877-e5e24456-af10-44a9-8d27-6765539c30f1.png)
+![image](https://user-images.githubusercontent.com/54589605/219398436-a4f000e2-bbb8-41f3-aa20-370c78d87be5.png)
+
+![image](https://user-images.githubusercontent.com/54589605/219400887-8e3c4a1f-d929-4293-ab0c-2225543a922d.png)
+![image](https://user-images.githubusercontent.com/54589605/219401074-847dcda7-2bbe-4542-ab26-d75a77950e22.png)
+![image](https://user-images.githubusercontent.com/54589605/219402483-0b85ffde-2b9a-448e-8923-91e932ae5bc3.png)
+![image](https://user-images.githubusercontent.com/54589605/219407083-cb13b9bd-cea9-4347-9be2-25d1454c4704.png)
+![image](https://user-images.githubusercontent.com/54589605/219408683-d6f215f4-09ef-44e4-a305-c7179d2a102d.png)
+![image](https://user-images.githubusercontent.com/54589605/219410145-eb87a37b-a566-43ab-afa3-59e0ff63bf14.png)
+![image](https://user-images.githubusercontent.com/54589605/219411990-1357bc43-ef06-4df4-87d3-b4edf84463db.png)
+![image](https://user-images.githubusercontent.com/54589605/219412342-d3102fd3-1900-430b-bdf1-af77f509c320.png)
+![image](https://user-images.githubusercontent.com/54589605/219414524-861932f6-3c69-4842-b1ec-5fd35a619f55.png)
+
+![image](https://user-images.githubusercontent.com/54589605/219417595-86c04553-c9ab-453c-ae82-49ee4e6aeaba.png)
+![image](https://user-images.githubusercontent.com/54589605/219417794-57a51764-728f-42f4-9b79-793b0eeb3d75.png)
+
+> **No Conclusion can be drawn** means that **no unique answer** could be found.
+
+![image](https://user-images.githubusercontent.com/54589605/219417049-dc2cab59-697e-42e9-b1a3-fe2688bdf4a2.png)
 
 
+* Elder used for -> Living beings, Humans, Blood relatives
+* Older used for -> Living beings, Non-Living beings and everything else.
+
+> After **older or taller or words ending with 'er' at the end** words, we have **than** which helps in **comparison/comparion** between things. 
+> After **older** there is **than** but after **elder** there is no **than**.
 
 
 
