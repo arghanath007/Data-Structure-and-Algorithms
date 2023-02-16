@@ -634,6 +634,10 @@
 
 ![Quiz_1_solutions_2](https://user-images.githubusercontent.com/54589605/216593839-d2c903bb-8318-4fe1-89ff-b13f12f8bce4.jpeg)
 
+## Solutions
+
+> Solved in  **10_Doubt_Clearing_Session** PDF File.
+
 # DPPs
 
 ## DPP 1 from *5_Number_System_III*
