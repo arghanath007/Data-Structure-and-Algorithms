@@ -4500,6 +4500,12 @@ We know,
 ![image](https://user-images.githubusercontent.com/54589605/219678534-b94b5272-5b26-40c4-9856-c55f1a7ec924.png)
 
 
+## Mega Quiz
+
+> After complete revision attempt this.
+
+* Link -> https://unacademy.com/quiz/mega-quiz/5XX9411NS0
+
 
 ## Questions to ask(sir) in next class.
 
