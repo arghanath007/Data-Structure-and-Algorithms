@@ -4429,6 +4429,8 @@ We know,
 ![Hashing_5](https://user-images.githubusercontent.com/54589605/219345696-183cca05-7d11-4bf1-9bbd-4747aced31b3.jpeg)
 
 
+## Hashing PYQs (59) [17th Feb 2023]
+
 
 
 ## Questions to ask(sir) in next class.

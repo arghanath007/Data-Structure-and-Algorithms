@@ -597,7 +597,7 @@
 
 
 ### Practice
-
+ 
 ![Number_System_1](https://user-images.githubusercontent.com/54589605/219134087-45db21c4-a56b-48fa-9d8f-59aabf47f24b.jpeg)
 ![Number_System_2](https://user-images.githubusercontent.com/54589605/219134148-13386a61-7ee5-416f-8a37-0e26ecf40171.jpeg)
 ![Number_System_3](https://user-images.githubusercontent.com/54589605/219134157-0b674698-62fd-46eb-a14d-f260d1b7e18a.jpeg)
