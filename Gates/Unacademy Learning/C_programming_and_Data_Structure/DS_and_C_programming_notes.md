@@ -4431,6 +4431,74 @@ We know,
 
 ## Hashing PYQs (59) [17th Feb 2023]
 
+> In **Q1** from 1989, **linear probing** works **circularly or does a circular check**. For **maximum comparisons**, we will start from **8** and check **circularly** till we find an **empty space**. **8,9,0 and 1** are all full and **2** is empty hence the **maximum comparisons** will be **5**, **4** collisions and **1** empty space. From **0 to 2 [0,1,2]**, the comparison are **3**, **2** collisions and **1** empty space. 
+
+* **8,9,0, 1 and 2** are the comparsions which total to **5**.
+
+> For any **probing** if adding **1** is taking it out of range of the table then we are using **mod or %** to move it into the **range circularly**.  
+
+* For **maximum comparison** we need the **maximum consecutive collisions** from occupied places(0,1,3,4,6,8,9).
+
+![image](https://user-images.githubusercontent.com/54589605/219665483-d2e0965c-db9f-4d33-b49c-a035cd001dd4.png)
+![image](https://user-images.githubusercontent.com/54589605/219665901-83e05749-a5fd-4b64-a4dc-ee65ccbf7fa3.png)
+
+> The **minimum** will always/anyway be **1** as we have to do **atleast one(1)** comparison to **seach** an item. 
+
+![image](https://user-images.githubusercontent.com/54589605/219666311-69cc2942-cd09-4227-bda9-8b50a6156d1b.png)
+
+> As the elements are stored in **Linked List**. Easier to **delete**.
+
+
+* ord -> Order.
+* Capitalization doesn't matter, 'a' and 'A' are the same.
+
+![image](https://user-images.githubusercontent.com/54589605/219666647-d5e49744-9d15-4117-b90c-2773a68ae624.png)
+![image](https://user-images.githubusercontent.com/54589605/219667086-b61e5762-c0e6-4c33-8750-79ce03a7ce3d.png)
+
+* If no **collision resolution technique** is not defined, then by default **linear probing** is used.
+
+![image](https://user-images.githubusercontent.com/54589605/219667274-06539f97-c9dc-4af2-aa1d-6cb4d7eb3fa1.png)
+
+> If option IV was, **Each element is stored to a different space**. Then this **statement** would have been **correct**. In **collision**, we would use **probing** techniques to generate **new locations** and store them there. 
+> These statement cannot be possible for **channing** as **same hashed** elements are stored at the **same place** only using **Linked List**. 
+
+
+![image](https://user-images.githubusercontent.com/54589605/219669055-79eda6f3-6db9-4abb-ad47-22871f82ee4b.png)
+![image](https://user-images.githubusercontent.com/54589605/219669851-6bcf8ed2-7141-47e9-80a4-2b62c65c3c56.png)
+![image](https://user-images.githubusercontent.com/54589605/219670593-e30eccdb-3bd1-4ef9-b5ac-eb71f21da135.png)
+![image](https://user-images.githubusercontent.com/54589605/219671167-a9830617-532f-4a1d-9f1b-f347588ab939.png)
+![image](https://user-images.githubusercontent.com/54589605/219671645-4807d70f-2bd7-4174-8cad-aefa8ae13099.png)
+![image](https://user-images.githubusercontent.com/54589605/219672322-5877c565-2e3a-4ec6-8f76-9c40fc36b6fa.png)
+
+
+![image](https://user-images.githubusercontent.com/54589605/219675082-8df770d0-5d16-4184-9b9a-ec148d6c77a0.png)
+![image](https://user-images.githubusercontent.com/54589605/219674997-53e026c4-64dd-4532-b87d-faad855e96e1.png)
+
+
+![image](https://user-images.githubusercontent.com/54589605/219676611-c6c80144-cfa9-4691-a6f3-add7b3c08569.png)
+
+* Average chain length= Load Factor = Total no. of keys/ Total no. of slots.
+
+> Average chain length is equal to **load factor** here.
+
+![image](https://user-images.githubusercontent.com/54589605/219677028-7e5b7697-9506-4139-9289-f4e51467653d.png)
+
+> Average will not be **1**, it is according to **load factor**.
+
+
+![image](https://user-images.githubusercontent.com/54589605/219677752-730c84ce-26d0-40c5-9e15-43308b376f52.png)
+![image](https://user-images.githubusercontent.com/54589605/219677790-d537bdd9-0c2f-4ed7-b28f-78bfd1d2558d.png)
+![image](https://user-images.githubusercontent.com/54589605/219677821-3144dbc1-f0d5-46e5-9011-7551593b3230.png)
+
+> Because of **chaining**, we can generate any of the **97** slots for all **3** of the insertions, that's why the probabilities will be **97/100**.
+
+![image](https://user-images.githubusercontent.com/54589605/219677906-f36705da-2ad3-4efb-82bc-7e788551d319.png)
+
+> For **linear probing** we will have to go into **details** for **conditional probability**.
+
+
+![image](https://user-images.githubusercontent.com/54589605/219678534-b94b5272-5b26-40c4-9856-c55f1a7ec924.png)
+
 
 
 ## Questions to ask(sir) in next class.
