@@ -749,7 +749,7 @@ All options are corrrect. '*' is not multiplication here, it is solved according
 
 ## Logic Gates (5) [18th Feb 2023]
 
-### NOT Gate
+## NOT Gate
 
 * The bubble plays a very important role.
 * Without having the bubble, it is called as **buffer**.
@@ -757,10 +757,211 @@ All options are corrrect. '*' is not multiplication here, it is solved according
 
 ## Switching Circuit
 
+![image](https://user-images.githubusercontent.com/54589605/219865988-3347799a-1e75-4744-a2a1-9c97677ba15e.png)
+![image](https://user-images.githubusercontent.com/54589605/219866009-877bb3de-4ca6-410a-beaf-43c7cb61f8df.png)
+
+* This is called as **NOT operation**.
+* The switch must be **parallel** or in **parallel** connection to the bulb for **NOT operations**.
 
 
+### Buffer
+
+![image](https://user-images.githubusercontent.com/54589605/219866157-a4dd2428-3b84-4219-ab52-862e6ddd2a4d.png)
+![image](https://user-images.githubusercontent.com/54589605/219866236-aca81a22-a643-428f-b1fe-e028be805629.png)
 
 
+> When we want **buffer operations**, then the switch and the bulb must be in **series** connection.
+ 
+## Timing Diagram **Important**
+
+![image](https://user-images.githubusercontent.com/54589605/219866385-2697b502-e41f-4a01-9d48-c0964d723604.png)
+
+
+## Feedback connection
+
+> It is **one of the important circuits**.
+
+![image](https://user-images.githubusercontent.com/54589605/219866454-b6e71959-f210-4b11-80da-5fb99bab366b.png)
+
+> **Feedback connection** has one **special** property, **it allows the signal in the given direction only**. Not flow of anything in the opposite direction. Output will be connected to the input only. The signal will flow from **output to input** only. It is **uni-directional**.
+
+> We can call it as a **Buffer**. Whatever input we have given, that same input we are getting as the **output**.
+> If two ends of the **feedback** are the same, we can call it as **stable** circuit.
+> At **P** end we have **0** and on the other end **Q**, we have **0** as well. At both ends of the **feedback**, the values are the **same**. If we have given **input as 0**, then we can say that this circuit is **stable**.
+> We are giving **1** as the **input** and we are getting **1** at the other end. Hence both ends of the **feedback** are the **same**. This circuit is **stable** for **input 1** as well. It is stable for **0 as well as for 1**. Hence it is called as **bi-stable** circuit.
+> It is also called  as **Basic memory element**.
+
+![image](https://user-images.githubusercontent.com/54589605/219868212-764f717f-d383-47f6-8244-8dc217b4d94c.png)
+
+> It has **two NOT gates** inside the **feedback** connection.
+
+![image](https://user-images.githubusercontent.com/54589605/219868284-78cfef5c-a0c1-4005-bfa4-6c3bf1b932bd.png)
+
+> It has **four NOT gates** inside the **feedback** connection.
+> For **even(2,4,6)** no. of **NOT gates** inside the **feedback** connection, then it will behave as a **buffer**, **bi-stable circuit** and a **Basic memory elements**.
+
+* Basic memory element -> storage, if anything has capacity to store, then we can call it as memory element.
+
+
+![image](https://user-images.githubusercontent.com/54589605/219868659-3e0ef6a0-daf2-47c8-b3ed-c14c42883bf0.png)
+
+* Will we get the output immediately?
+
+> No, it will take some time. How much time it will take?
+> It will take **1 tpd** time.
+
+> After **1 tpd** time, output is **1**.
+> Before **1 tpd** time, output is **0**. The output **0** is for **1 tpd** time as well.
+
+![image](https://user-images.githubusercontent.com/54589605/219869016-620aa82c-26aa-439c-ba18-4a62ea906784.png)
+
+> The **feedback** doesn't have any delay.
+> When the **input is 1**, then **output is 0** after **1 tpd** time.
+
+![image](https://user-images.githubusercontent.com/54589605/219869152-d7d3da26-f2b4-44e3-9c4f-6bca1c3b9df3.png)
+
+
+> When the **output is 1**, we can call it as **on** state.
+> When the **output is 0**, we can call it as **off** state.
+
+### Time-period
+
+> Where the **same** thing is **repeating**.
+
+![image](https://user-images.githubusercontent.com/54589605/219869319-5384294f-3f58-4eb4-85e0-ba63bd1d3d75.png)
+
+> Time Period(T) of the circuit is **2 Tpd**.
+> The output is not a **fixed** value. It keeps on changing or changes(on->off->on->off). It continuously changes. In this we can say that this above circuit is not a  **stable or a bi-stable** circuit. It is called as an **unstable** circuit. It is **not stable**. It is neither **stable** on **0 or 1**. This circuit is called as a **clock generator**.
+> **On and off** time both are **equal**, i.e they take **1 tpd** time. It is also called as **square wave generator**.
+> Here, we have **only one NOT gate** inside the **feedback**. That why ** 2 * 1 * tpd**.
+
+> In general, **Time period** is -> 2n * tpd. [n -> no. of NOT gates inside the feedback]
+> 'n' will only take **odd** values, because with **even** values, we will get he **buffer**.
+
+![image](https://user-images.githubusercontent.com/54589605/219870094-33a81a46-d828-4833-a7f5-40df00802cf8.png)
+
+> For **bi-stable** circuits, there is no **time period**.
+* Invertes -> NOT gates
+
+![image](https://user-images.githubusercontent.com/54589605/219870553-aee0aaf1-3b15-430a-95d2-42f55716bda3.png)
+![image](https://user-images.githubusercontent.com/54589605/219870516-75f09481-3694-4048-9a26-c66470965474.png)
+
+[n -> no. of NOT gates inside the feedback and it is odd numbers only]
+
+
+## **AND** Gate
+
+![image](https://user-images.githubusercontent.com/54589605/219870705-74588a57-760b-4df7-a306-ac8783658601.png)
+
+* y= AB
+
+> A*B means **product*. Product means we should have them in **series**. Product means **intersection**. **Intersection** means how the two switches much be in **series**. Implement the **series**.
+
+> If both **A and B** are **off**, then the bulb has **no power** and hence it is **off**.
+
+![image](https://user-images.githubusercontent.com/54589605/219870963-1aeb87d1-f77f-420c-a30a-6dbfd148e1e9.png)
+![image](https://user-images.githubusercontent.com/54589605/219871127-c48e29b8-54a4-4baf-b5e7-8ca03342fab1.png)
+![image](https://user-images.githubusercontent.com/54589605/219871336-a84626a9-8a52-4636-b24f-849c270b83da.png)
+![image](https://user-images.githubusercontent.com/54589605/219871347-89fede23-7b8e-41a3-9c1b-136dce3a6568.png)
+![image](https://user-images.githubusercontent.com/54589605/219871385-9cf9b1be-9561-49ac-b214-02024290a5e1.png)
+
+
+## Enable input and disable input
+
+> If **one** of the inputs is **0**, then the **0** input is **disabling** the **other input(A)**. The **other input(A)** doesn't have any **affect** on the **output**. **0** input is **supressing** the **other input**. That's why **0** is called as the **disabled input** for the **AND** gate.
+
+![image](https://user-images.githubusercontent.com/54589605/219871660-9c5edb6b-d6f1-4b2c-b42a-99b243cd6c1d.png)
+![image](https://user-images.githubusercontent.com/54589605/219871524-86847b60-a993-456f-b644-da94498bda72.png)
+
+![image](https://user-images.githubusercontent.com/54589605/219872026-b19fad6a-3f69-46eb-93cf-7719fb62bcd9.png)
+
+> If **one** of the inputs is **1**, then the **1** input is **enabling/encouraging** the **other input(A)**. **1** input is **enabling/encouraging** the **other input**. That's why **1** is called as the **enabled input** for the **AND** gate.
+
+### Commutative and Associative law for **AND** Gate
+
+> **AND** gate obeys **commutative law**. **Commutative law** is for **two(2)** inputs.
+> **Associative** law is for **more than 2 [3,4,5...] or 3+** inputs.
+
+![image](https://user-images.githubusercontent.com/54589605/219872251-bc44be27-464a-450a-834a-f6f089de02cd.png)
+
+> **AND** gate obeys both **commutative as well as associative** laws.
+
+### Timing Diagram for **AND** Gate
+
+> If any one of the **inputs** is **0**, then the **output** is **0**.
+
+![image](https://user-images.githubusercontent.com/54589605/219872410-4b2d60af-2026-4bea-9c19-2822780b39a0.png)
+
+
+## OR Gate
+
+![image](https://user-images.githubusercontent.com/54589605/219872605-2b95084d-6e64-415f-bf57-d969e1cea38b.png)
+
+ * **A + B** means **union**. It means they should be in **parallel**.
+
+![image](https://user-images.githubusercontent.com/54589605/219872960-3b4c5395-1f09-4f31-b368-eafe9df61d69.png)
+
+* y= A + B
+* y= x [x= A + B]
+* y=x [Buffer, hence x is in series to the bulb]
+* x= A + B [**A + B** means **union**, hence A and B will be **parallel** to the bulb]
+
+![image](https://user-images.githubusercontent.com/54589605/219873108-1f042a9a-3e60-413a-a9cb-e8f8e04dc158.png)
+
+
+![image](https://user-images.githubusercontent.com/54589605/219873291-f1b5bf4d-9b95-4bbb-bb83-12a491f5c0cc.png)
+
+> If **one** of the inputs is **0**, then the **0** input is **enabling/encouraging** the **other input(A)**. **0** input is **enabling/encouraging** the **other input**. That's why **0** is called as the **enabled input** for the **OR** gate.
+
+> If **one** of the inputs is **1**, then the **1** input is **disabling** the **other input(A)**. The **other input(A)** doesn't have any **affect** on the **output**. **1** input is **supressing** the **other input**. That's why **1** is called as the **disabled input** for the **OR** gate.
+
+
+### Commutative and Associative law for **OR** Gate
+
+
+![image](https://user-images.githubusercontent.com/54589605/219873406-6de999c8-3e12-483f-a377-2c8b08424cca.png)
+![image](https://user-images.githubusercontent.com/54589605/219873416-5b318f70-a2e8-4df9-8e7f-abc2c57998ea.png)
+
+> **OR** gate obeys both **commutative as well as associative** laws.
+
+
+### Timing Diagram for **OR** Gate
+
+> **Output is 1**, if any one of the **inputs** is **1**.
+
+
+![image](https://user-images.githubusercontent.com/54589605/219873493-0770b033-6ba7-49af-be6e-e8c7277ae5a6.png)
+
+
+## **NAND** Gate
+
+* NAND -> AND + NOT
+
+> It is opposite to **AND** gate.
+> If any one of the inputs is **0**, then the output is **1** for **NAND** gate.
+> If any one of the inputs is **0**, then the output is **0** for **AND** gate.
+
+![image](https://user-images.githubusercontent.com/54589605/219874394-576dd343-c98a-4fb0-8f56-b6271bf8c0f2.png)
+
+
+* y= A'B'
+* y= x' [x= AB]
+* y= x' [Inverter, hence x is in parallel to the bulb]
+* x= AB [**AB** means **intersection**, hence A and B will be **series** to the bulb]
+
+![image](https://user-images.githubusercontent.com/54589605/219874609-f3870104-90a2-4298-9b6e-8bbca774c011.png)
+
+
+![image](https://user-images.githubusercontent.com/54589605/219874829-11d650da-2d2c-4561-91c6-7a6c50ede3b5.png)
+
+> If **one** of the inputs is **0**, then the **0** input is **disabling** the **other input(A)**. **0** input is **disabling** the **other input**. That's why **0** is called as the **disabled input** for the **NAND** gate.
+
+> If **one** of the inputs is **1**, then the **1** input is **enabling** the **other input(A)**. **1** input is **enabling** the **other input**. That's why **1** is called as the **enabled input** for the **NAND** gate.
+
+
+### Questions
+
+![image](https://user-images.githubusercontent.com/54589605/219873724-190568f5-8c5b-4e12-b2d7-9da0789c7e3a.png)
 
 
 
