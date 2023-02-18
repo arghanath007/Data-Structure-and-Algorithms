@@ -4515,7 +4515,7 @@ We know,
 ### Rest of Hashing PYQs
 
 ![Hashing_8](https://user-images.githubusercontent.com/54589605/219855523-6d784843-be57-4825-a74c-7ede31cc869a.jpeg)
-![Up![Hashing_9](https://user-images.githubusercontent.com/54589605/219855484-133a489d-ac7b-40cc-b5ab-3ed8e3852485.jpeg)
+![Hashing_9](https://user-images.githubusercontent.com/54589605/219855484-133a489d-ac7b-40cc-b5ab-3ed8e3852485.jpeg)
 ![Hashing_10](https://user-images.githubusercontent.com/54589605/219855492-215c37ac-cd6f-4d64-8872-17b9b52657bb.jpeg)
 
 
@@ -4528,22 +4528,12 @@ We know,
 
 
 
-
-
-
-
-
-
-
-
-
-
 ## Mega Quiz
 
 > After complete revision attempt this.
 
 * Link -> https://unacademy.com/quiz/mega-quiz/5XX9411NS0
-
+* Link -> https://unacademy.com/course/complete-course-of-data-structure-gate-23/QD5N5156
 
 ## Questions to ask(sir) in next class.
 
