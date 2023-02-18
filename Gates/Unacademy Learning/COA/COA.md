@@ -8,8 +8,8 @@
 
 ### Material
 
-* Video 1 -> https://www.youtube.com/watch?v=syKlvr5a8yQ&t=72s
-* Video 2 -> https://www.youtube.com/watch?v=n7vehBgKZZo&t=3255s [Start from 24mins]
+* Video 1 -> https://www.youtube.com/watch?v=syKlvr5a8yQ&t=72s [Completed]
+* Video 2 -> https://www.youtube.com/watch?v=n7vehBgKZZo&t=3255s [Completed]
 
 ## Number System
 
@@ -71,4 +71,62 @@
 ![image](https://user-images.githubusercontent.com/54589605/219718381-a1f2a619-4abc-4c40-bffb-8db66b4948ec.png)
 ![image](https://user-images.githubusercontent.com/54589605/219718563-bb1c62f5-6094-4980-b79f-503df941abae.png)
 
+![image](https://user-images.githubusercontent.com/54589605/219822467-ab1be341-8518-466c-adf7-0c5c7f97831c.png)
+
+> Separately solve whatever is before the decimal point and separately solve whatever is after the decimal point.
+
+* (5.75) base 10 -> base 2
+* Solve **5** separately we get **101** which is the binary of **5**.
+* Solve **0.75** separately by multiplying it with **2** ie. **0.75 * 2 -> 1.50**, we take the **1** and again multiply **0.5 * 2 -> 1.00**, we take the **1** again. The answer for **0.75 -> 11**.
+* (5.75) base 10 -> (101.11) base 2
+
+## Binary to Decimal
+
+![image](https://user-images.githubusercontent.com/54589605/219822764-6da68cc4-7eec-405f-876b-4c5a807d7ff4.png)
+![image](https://user-images.githubusercontent.com/54589605/219822841-ef7779b4-a27b-48ec-8127-265101fa02bd.png)
+
+> For the values after the **decimal pointer**, start from the **decimal pointer** and go **right**.
+
+* (0.10) base 2 -> Base 10
+
+> We will first do **1** as it is closest to **decimal pointer**, **1 * 2^(-1)** and then do **0** ie.**0 * 2^(-2)**. 
+
+* 1 * 2^(-1) + 0 * 2^(-2)
+* 1/2 + 0
+* 0.5 [Ans] 
+
+![image](https://user-images.githubusercontent.com/54589605/219823222-33545d0e-d193-4940-bc30-652fa1c6ba78.png)
+![image](https://user-images.githubusercontent.com/54589605/219823242-ba0d6dde-566d-4a48-900d-cc7afa2d3254.png)
+
+## Decimal to Binary
+
+![image](https://user-images.githubusercontent.com/54589605/219823476-c92c5dc7-58d2-4d94-b97c-37bd90d20f92.png)
+![image](https://user-images.githubusercontent.com/54589605/219823522-0cb8b795-cbab-4695-bcf3-9ce40b980019.png)
+
+
+## Decoder
+
+> It takes input as **binary combination** and generates only one result as **enabled means one(1)**.
+> Based on the **input combination**, only one output will be **enabled**. Only one output will be **1** and the rest will be **0**.
+
+![image](https://user-images.githubusercontent.com/54589605/219823706-ab8dff21-fbae-4d0e-8117-58ae54118092.png)
+![image](https://user-images.githubusercontent.com/54589605/219823758-7ee55bd5-0d75-40e5-a34b-69b48bfeb2e3.png)
+![image](https://user-images.githubusercontent.com/54589605/219823813-854543e8-105c-4dc0-ae64-76a04a58f62e.png)
+![image](https://user-images.githubusercontent.com/54589605/219823856-5136d80d-bcf6-4986-9da1-a0623615de81.png)
+![image](https://user-images.githubusercontent.com/54589605/219823935-f5df5254-a9bb-4e00-9b86-0c0e4754a148.png)
+
+## Multiplexer
+
+> It selects one of the multiple inputs as output.
+> It will only have one output always. It is different have decorder. Decorder can have multiple outputs, so many outputs but only one will be enabled.
+> Whatever **inputs** we are sending to the **multiplexer**, that only will be taken as the **output**. Whatever input we are sending to a **multiplexer**, we are getting it back as the **output**.
+
+![image](https://user-images.githubusercontent.com/54589605/219824148-2e0818c5-1502-4d22-b5de-f587a854fa69.png)
+![image](https://user-images.githubusercontent.com/54589605/219824169-40e1e64c-522c-4378-8c9d-4cccd66c53ed.png)
+![image](https://user-images.githubusercontent.com/54589605/219824179-e14ccab5-fc04-46e0-a089-562d2d26e8da.png)
+![image](https://user-images.githubusercontent.com/54589605/219824366-6349d1e9-e715-4fad-939e-b025c001ce69.png)
+![image](https://user-images.githubusercontent.com/54589605/219824765-33ed818a-2513-44ca-af0b-88d21bcc445a.png)
+![image](https://user-images.githubusercontent.com/54589605/219824815-51994d74-a6f9-43a1-9a7b-c92a3c1549a2.png)
+![image](https://user-images.githubusercontent.com/54589605/219824826-75134019-8108-4524-9785-77b139575c5f.png)
+![image](https://user-images.githubusercontent.com/54589605/219824866-9dd6598d-e2ee-4307-b8e6-1e990fadd94b.png)
 
