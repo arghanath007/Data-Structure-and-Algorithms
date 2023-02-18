@@ -160,7 +160,7 @@
 
 f -> Initial expression
 fd -> **Duality** of the Initial expression
-f` `-> Complement of the Initial expression (Answer)
+f'-> Complement of the Initial expression (Answer)
 
 * **Complement** -> Dual + negation
 
@@ -177,23 +177,23 @@ f` `-> Complement of the Initial expression (Answer)
 ![image](https://user-images.githubusercontent.com/54589605/218244641-81102afb-5cdd-42c2-b6f2-e92634a4433f.png)
 
 
-> When asked to find **complement** of a given expression, what we do is that we first find the **duality** of the given expression(fd) and then we just put **complement** on **fd** i.e **fd` `**. Not **whole complement(`) `** but we just put **complement(`) `** on each of the variables individually. As seen in the **examples above**.  And that is the answer. 
+> When asked to find **complement** of a given expression, what we do is that we first find the **duality** of the given expression(fd) and then we just put **complement** on **fd** i.e **fd'**. Not **whole complement(')** but we just put **complement(')** on each of the variables individually. As seen in the **examples above**.  And that is the answer. 
 > For multiple brackets, we have to solve the **inner most** brackets first.
 
-* f` `= f -> fd -> fd` `[Steps]
+* f'= f -> fd -> fd' [Steps]
 
 
 ### Consensus Theorem (**Rajinikanth Wala**)
 
-> There might be **only one** variable which has it's **normal form(A)** as well as it's **complement form( A` `)**. **Normal form(A)** as well as **complement form(A` `)** is present there. 
+> There might be **only one** variable which has it's **normal form(A)** as well as it's **complement form(A')**. **Normal form(A)** as well as **complement form(A')** is present there. 
 
 
 ### Example
 
-* f = AB + BC + A`C `
+* f = AB + BC + A'C
 
-> 'A' has it's **Normal form(A)** as well as **complement form(A`) `**. Hence, we call 'A' as **Rajni** here. 
-> With 'A' we have 'B' and with 'A` `' we have 'C'. We can see the **middle expression(BC)** is formed from the **combination** of these two(B and C) variables, which are present along side 'A and A` `'. Hence, **BC** is redundant and not required.
+> 'A' has it's **Normal form(A)** as well as **complement form(A')**. Hence, we call 'A' as **Rajni** here. 
+> With 'A' we have 'B' and with '  A'  ' we have 'C'. We can see the **middle expression(BC)** is formed from the **combination** of these two(B and C) variables, which are present along side 'A and A' '. Hence, **BC** is redundant and not required.
 
 ### Steps
 
@@ -249,8 +249,8 @@ f` `-> Complement of the Initial expression (Answer)
 
 > First we need multiply/product(product term). After taking the product we then did sum/add. **Sum of product(SOP)**.
 
-* f(A,B,C) = ABC` ` + AB`C` + ABC -> **Canonical Form** or **Canonical Sum of product(SOP)**
-* ABC` `, AB`C`, ABC -> 3 Product Term
+* f(A,B,C) = ABC' + A'B'C' + ABC -> **Canonical Form** or **Canonical Sum of product(SOP)**
+* ABC', A'B'C', ABC -> 3 Product Term
 
 > Above expression contains **3** variables.
 
@@ -428,13 +428,18 @@ f` `-> Complement of the Initial expression (Answer)
 
 > For finding **f3** we use **common/intersection** formulae from **set theory**.
 
-* For 4f= f1 + f2
+* f3 = f1 (intersection) f2
+
+
+* For f4 = f1 + f2
 
 > For finding **f4** we use **union** formulae from **set theory**.
 
+* f4 = f1 (union) f2
+
 ![image](https://user-images.githubusercontent.com/54589605/218303549-1ed976a9-5d89-4838-9f44-4749b69b6ef3.png)
 
-> In this above question, just find the **minterms and maxterms**. Use the below trick. To find the **minterms** of f` `, we have to take the **maxterms** of **f** and put them as **minterms** of f` `.
+> In this above question, just find the **minterms and maxterms**. Use the below trick. To find the **minterms** of f', we have to take the **maxterms** of **f** and put them as **minterms** of f'.
 
 ![image](https://user-images.githubusercontent.com/54589605/218303591-76ddb5b2-8af0-4565-bd6f-341a0d125dca.png)
 
@@ -554,8 +559,8 @@ All options are corrrect. '*' is not multiplication here, it is solved according
 * All possible combinations of **minterms** from **where to where** -> 0 to 7 only
 * If **n** variables
 * Combinations possible -> 2^n
-* All possible combinations of minterms from **where to where** -> 0 to (2^(n-1))
-* Maximum possible value -> (2^(n-1))
+* All possible combinations of minterms from **where to where** -> 0 to ((2^n) -1))
+* Maximum possible value -> ((2^n) -1))
 
 * If **mi** is a minterm. Then **Exclusive term** for **mi** will be:-
 
@@ -742,6 +747,15 @@ All options are corrrect. '*' is not multiplication here, it is solved according
 ![4_Questions_6](https://user-images.githubusercontent.com/54589605/218324033-9cad4c14-2047-4562-a0f9-479c12300eea.jpeg)
 ![4_Questions_7](https://user-images.githubusercontent.com/54589605/218324034-5964977b-3f9a-40f0-a4f9-3f6b86a6f0cb.jpeg)
 
+## Logic Gates (5) [18th Feb 2023]
+
+### NOT Gate
+
+* The bubble plays a very important role.
+* Without having the bubble, it is called as **buffer**.
+* **Buffer** means that whatever we have given as **input**, the same thing will come out as **output**.
+
+## Switching Circuit
 
 
 
