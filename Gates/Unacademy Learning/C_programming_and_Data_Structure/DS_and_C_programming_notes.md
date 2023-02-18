@@ -4499,6 +4499,44 @@ We know,
 
 ![image](https://user-images.githubusercontent.com/54589605/219678534-b94b5272-5b26-40c4-9856-c55f1a7ec924.png)
 
+### Questions
+
+![Hashing_1](https://user-images.githubusercontent.com/54589605/219847829-e0197717-2412-432d-9bd8-4355e456d99f.jpeg)
+![Hashing_2](https://user-images.githubusercontent.com/54589605/219847833-d450126a-92a3-48bd-8368-7e7f763a45d8.jpeg)
+![Hashing_3](https://user-images.githubusercontent.com/54589605/219847841-d30eab2a-30a2-4e24-b303-a4f0ec8e6fdf.jpeg)
+![Hashing_4](https://user-images.githubusercontent.com/54589605/219847852-691ba01d-e939-4cf4-a66b-b1766ef708d8.jpeg)
+![Hashing_5](https://user-images.githubusercontent.com/54589605/219847855-a29612cf-f6df-4bfa-b494-ff53d3f895f5.jpeg)
+![Hashing_6](https://user-images.githubusercontent.com/54589605/219847862-8d7c2e99-f6c9-4600-a060-ea0180c420fc.jpeg)
+![Hashing_7](https://user-images.githubusercontent.com/54589605/219847866-2769ff3d-368a-426c-8d3b-b7f9e5b3d5c1.jpeg)
+
+
+## Hashing and Tree PYQs (60) [18th Feb 2023]
+
+### Rest of Hashing PYQs
+
+![Hashing_8](https://user-images.githubusercontent.com/54589605/219855523-6d784843-be57-4825-a74c-7ede31cc869a.jpeg)
+![Up![Hashing_9](https://user-images.githubusercontent.com/54589605/219855484-133a489d-ac7b-40cc-b5ab-3ed8e3852485.jpeg)
+![Hashing_10](https://user-images.githubusercontent.com/54589605/219855492-215c37ac-cd6f-4d64-8872-17b9b52657bb.jpeg)
+
+
+
+### Tree PYQs
+
+![Tree_1](https://user-images.githubusercontent.com/54589605/219855536-a6a3f641-e50f-44dd-9a03-76fee43e63e9.jpeg)
+![Tree_2](https://user-images.githubusercontent.com/54589605/219855537-6e8fc32c-1a40-4772-a50e-587ecee84b30.jpeg)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Mega Quiz
 
