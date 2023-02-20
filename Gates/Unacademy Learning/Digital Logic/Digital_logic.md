@@ -855,7 +855,9 @@ All options are corrrect. '*' is not multiplication here, it is solved according
 
 * y= AB
 
-> A*B means **product*. Product means we should have them in **series**. Product means **intersection**. **Intersection** means how the two switches much be in **series**. Implement the **series**.
+> **A * B** means **product**. Product means we should have them in **series**. Product means **intersection**. **Intersection** means how the two switches much be in **series**. Implement the **series**.
+
+* Product(AB) -> insertion -> Series
 
 > If both **A and B** are **off**, then the bulb has **no power** and hence it is **off**.
 
@@ -868,7 +870,9 @@ All options are corrrect. '*' is not multiplication here, it is solved according
 
 ## Enable input and disable input
 
-> If **one** of the inputs is **0**, then the **0** input is **disabling** the **other input(A)**. The **other input(A)** doesn't have any **affect** on the **output**. **0** input is **supressing** the **other input**. That's why **0** is called as the **disabled input** for the **AND** gate.
+> If **one** of the inputs is **0**, then the **0** input is **disabling** the **other input(A)**. The **other input(A)** doesn't have any **affect** on the **output**. **0** input is **suppressing** the **other input**. That's why **0** is called as the **disabled input** for the **AND** gate.
+
+* A.0 -> 0
 
 ![image](https://user-images.githubusercontent.com/54589605/219871660-9c5edb6b-d6f1-4b2c-b42a-99b243cd6c1d.png)
 ![image](https://user-images.githubusercontent.com/54589605/219871524-86847b60-a993-456f-b644-da94498bda72.png)
@@ -876,6 +880,8 @@ All options are corrrect. '*' is not multiplication here, it is solved according
 ![image](https://user-images.githubusercontent.com/54589605/219872026-b19fad6a-3f69-46eb-93cf-7719fb62bcd9.png)
 
 > If **one** of the inputs is **1**, then the **1** input is **enabling/encouraging** the **other input(A)**. **1** input is **enabling/encouraging** the **other input**. That's why **1** is called as the **enabled input** for the **AND** gate.
+
+* A*1 -> A
 
 ### Commutative and Associative law for **AND** Gate
 
@@ -899,6 +905,8 @@ All options are corrrect. '*' is not multiplication here, it is solved according
 
  * **A + B** means **union**. It means they should be in **parallel**.
 
+* Sum(A + B) -> Union -> Parallel.
+
 ![image](https://user-images.githubusercontent.com/54589605/219872960-3b4c5395-1f09-4f31-b368-eafe9df61d69.png)
 
 * y= A + B
@@ -913,8 +921,11 @@ All options are corrrect. '*' is not multiplication here, it is solved according
 
 > If **one** of the inputs is **0**, then the **0** input is **enabling/encouraging** the **other input(A)**. **0** input is **enabling/encouraging** the **other input**. That's why **0** is called as the **enabled input** for the **OR** gate.
 
-> If **one** of the inputs is **1**, then the **1** input is **disabling** the **other input(A)**. The **other input(A)** doesn't have any **affect** on the **output**. **1** input is **supressing** the **other input**. That's why **1** is called as the **disabled input** for the **OR** gate.
+* A + 0 -> A
 
+> If **one** of the inputs is **1**, then the **1** input is **disabling** the **other input(A)**. The **other input(A)** doesn't have any **affect** on the **output**. **1** input is **suppressing** the **other input**. That's why **1** is called as the **disabled input** for the **OR** gate.
+
+* A + 1 -> 1 [Anything + 1 -> 1]
 
 ### Commutative and Associative law for **OR** Gate
 
@@ -938,8 +949,9 @@ All options are corrrect. '*' is not multiplication here, it is solved according
 * NAND -> AND + NOT
 
 > It is opposite to **AND** gate.
-> If any one of the inputs is **0**, then the output is **1** for **NAND** gate.
 > If any one of the inputs is **0**, then the output is **0** for **AND** gate.
+> If any one of the inputs is **0**, then the output is **1** for **NAND** gate.
+
 
 ![image](https://user-images.githubusercontent.com/54589605/219874394-576dd343-c98a-4fb0-8f56-b6271bf8c0f2.png)
 
@@ -962,6 +974,15 @@ All options are corrrect. '*' is not multiplication here, it is solved according
 ### Questions
 
 ![image](https://user-images.githubusercontent.com/54589605/219873724-190568f5-8c5b-4e12-b2d7-9da0789c7e3a.png)
+
+
+## Logic Gates (6) [20th Feb 2023]
+
+
+### Commutative and Associative law for **NAND** Gate
+
+
+> **OR** gate obeys both **commutative as well as associative** laws.
 
 
 
