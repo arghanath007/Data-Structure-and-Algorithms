@@ -17,6 +17,10 @@
 ## Resources
 
 * Link -> https://bvreddysir.blogspot.com/2022/01/comprehensive-course-on-digital-20232024.html
+ 
+* Notes -> https://drive.google.com/drive/folders/1oH9c1DvT9rpii0QGe-mflhyC_ciJK2j9
+
+* Digital Daily Practice -> https://drive.google.com/drive/folders/1Feqhx3AHQt1MXlX-UxTk-q5V0EK_UUJv
 
 * Digital Assignments and DPP Discussions -> https://bvreddysir.blogspot.com/2021/10/digital-dppsdiscussion-s.html
 
@@ -948,6 +952,9 @@ All options are corrrect. '*' is not multiplication here, it is solved according
 
 * NAND -> AND + NOT
 
+y= (AB)' [AB whole bar] 
+y= A' + B'
+
 > It is opposite to **AND** gate.
 > If any one of the inputs is **0**, then the output is **0** for **AND** gate.
 > If any one of the inputs is **0**, then the output is **1** for **NAND** gate.
@@ -981,8 +988,200 @@ All options are corrrect. '*' is not multiplication here, it is solved according
 
 ### Commutative and Associative law for **NAND** Gate
 
+![image](https://user-images.githubusercontent.com/54589605/220028165-bfbf70e6-839c-4b0a-a4cc-058d39c23157.png)
 
-> **OR** gate obeys both **commutative as well as associative** laws.
+
+> **NAND** gate obeys **commutative law** but doesn't obey  **associative** laws.
+
+### Alternative logic of **NAND** Gate
+
+![image](https://user-images.githubusercontent.com/54589605/220029408-9cbb6d1a-97b4-493e-bd78-5b34948ddaf5.png)
+
+> These **two** are **exactly** same.
+
+
+![image](https://user-images.githubusercontent.com/54589605/220029739-23228dff-7804-4fd4-b024-440a1d83d3b1.png)
+
+> We are **lazy people**, hence we have **replaced** the **NOT** Gates with the **bubble**. This is called as a **bubbled OR-Gate**.
+
+![image](https://user-images.githubusercontent.com/54589605/220030165-2dbc1903-117b-4d1e-a01a-045ca34396bf.png)
+
+* **NAND Gate** is **identically equal** to **Bubbled OR-Gate**.
+
+
+### Timing Diagram for **NAND** Gate
+
+> If any one of the **inputs is 0**, then the **output is 1**.
+
+![image](https://user-images.githubusercontent.com/54589605/220030802-09879c5c-5f54-432e-b8a6-68095bc406dd.png)
+
+
+
+### Notes (Logic Gates)
+
+* All **gates** satisfy **commutative law**. 
+* The **gates** which have a **bubble** at the **output location**, those gates does not satisfy **associative** laws.
+
+
+## **NOR** Gate
+
+* NOR -> OR + NOT
+
+> Opposite of **OR** Gate.
+
+![image](https://user-images.githubusercontent.com/54589605/220033441-fdee3309-d741-4d70-a5a8-453e3d2a57cc.png)
+
+### Switching circuit of **NOR** Gate
+
+![image](https://user-images.githubusercontent.com/54589605/220034207-e9b44d52-c604-473b-a8bd-db3e4fcce7c5.png)
+
+* y= (A+B)'
+* y=x' [x=A+B]
+
+* **A + B** -> Sum -> Union -> Parallel
+
+
+> If **one** of the inputs is **0**, then the **0** input is **enabling** the **other input(A)**. **0** input is **enabling** the **other input**. That's why **0** is called as the **enabled input** for the **NOR** gate.
+
+> If **one** of the inputs is **1**, then the **1** input is **disabling** the **other input(A)**. **1** input is **disabling** the **other input**. That's why **1** is called as the **disabled input** for the **NOR** gate.
+
+![image](https://user-images.githubusercontent.com/54589605/220034908-6a9394d4-3da1-42b1-a410-98cb289530e3.png)
+
+
+### Commutative and Associative law for **NOR** Gate
+
+![image](https://user-images.githubusercontent.com/54589605/220035462-825d1382-a962-4cf9-92a4-5019ad423edd.png)
+
+> **NOR** gate only satisfy **Commutative** law but doesn't satisfy **Associative** law.
+
+
+### Alternative Logic
+
+![image](https://user-images.githubusercontent.com/54589605/220036070-717fc02a-d174-4e31-bf0a-755118a8f324.png)
+ 
+> We are **lazy people**, hence we have **replaced** the **NOT** Gates with the **bubble**. This is called as a **bubbled AND-Gate**.
+
+* **NOR Gate** is **identically equal** to **Bubbled AND-Gate**.
+
+
+### Timing Diagram of **NOR Gate**
+
+![image](https://user-images.githubusercontent.com/54589605/220036704-2857b31f-ad89-49e5-9c53-e76fbb81a789.png)
+
+
+## EX-OR GATE [**Very Very Important**]
+
+* Most questions come from **EX-OR** Gate.
+
+* **Exclusive OR** -> Some extra **OR** gate.
+* EX-OR GATE -> **Extra OR** Gate
+
+
+> **SOP** and **POS** form of Ex-OR gate is **important**. We need to **remember** it.
+
+![image](https://user-images.githubusercontent.com/54589605/220052967-9a2ad619-eabf-4b2a-a24e-acc95c3611af.png)
+![image](https://user-images.githubusercontent.com/54589605/220055542-519e2292-c327-40f7-8d93-ddc25379b81e.png)
+
+
+### Switching Circuit for **EX-OR** gate
+
+![image](https://user-images.githubusercontent.com/54589605/220069252-67a41112-64fb-444c-b83f-1f4a508b9c13.png)
+
+* A Ex-OR B -> A'B + AB'
+
+### SOP Form
+
+y=m(1,2)
+
+![image](https://user-images.githubusercontent.com/54589605/220056688-dfb7f48c-0ced-44b9-b787-b407a32851b2.png)
+
+
+![image](https://user-images.githubusercontent.com/54589605/220056812-8a263f89-ca87-4db2-a0fe-f595c61074b7.png)
+![image](https://user-images.githubusercontent.com/54589605/220056858-80a16e37-f1e4-47c8-a5b2-9c6cda5f94cc.png)
+![image](https://user-images.githubusercontent.com/54589605/220057008-6cf5d590-d30e-4384-ba73-2b0ab22270a1.png)
+
+
+### POS Form
+
+y= M(0,3)
+
+![image](https://user-images.githubusercontent.com/54589605/220058257-6d31fa3e-872e-474d-8f7e-f1fb12635472.png)
+
+* Sum -> Union -> Parallel
+* Product -> Intersection -. Series
+
+
+![image](https://user-images.githubusercontent.com/54589605/220058093-38f8d900-4a50-4af6-b5b9-ee10f69aac80.png)
+
+
+### Timing Diagram
+
+![image](https://user-images.githubusercontent.com/54589605/220058759-c606f32d-4f3e-4a19-af6d-c1731eb3fcfb.png)
+
+### Commutative and Associative law for **EX-OR** Gate
+
+![image](https://user-images.githubusercontent.com/54589605/220062735-538a58b2-3fd0-450d-b9f2-fb675cdaec35.png)
+![image](https://user-images.githubusercontent.com/54589605/220062429-25ae5969-786f-49be-8ea3-16e33365310e.png)
+
+> Hence, **EX-OR** obeys both **Commutative as well as Associative** law.
+
+![image](https://user-images.githubusercontent.com/54589605/220066598-92c3c0fe-83df-4b1b-bec0-0944ff2274a0.png)
+![image](https://user-images.githubusercontent.com/54589605/220066929-7088e22f-a7cd-4383-be38-3da64748c85a.png)
+
+
+> **EX-OR** Gate doesn't have **Enabled and Disabled** inputs.
+
+* A Ex-OR 0 -> A [This behaves as a **buffer**]
+* A Ex-OR 1 -> A' [This behaves as a **inverter**]
+
+* 0 -> Buffer
+* 1 -> Inverter
+* For **same inputs** in Ex-OR gate, we get **0**.
+* For **different inputs** in Ex-OR gate, we get **1**.
+
+![image](https://user-images.githubusercontent.com/54589605/220067634-98f88636-c725-4f7b-9d05-44100c578013.png)
+![image](https://user-images.githubusercontent.com/54589605/220068074-9becc9b1-6d17-4eb8-9b07-7356c0122278.png)
+![image](https://user-images.githubusercontent.com/54589605/220068569-aea5649d-e60e-44cf-9483-264c091adfcd.png)
+
+
+
+
+### Questions
+
+![image](https://user-images.githubusercontent.com/54589605/220037854-4a92aaab-56a9-45b9-aab1-037aba5a4e5b.png)
+![image](https://user-images.githubusercontent.com/54589605/220041911-e7d3f3c3-d84e-4b48-9fc0-2041e642e422.png)
+![image](https://user-images.githubusercontent.com/54589605/220043723-7c9e0330-8135-4577-b20c-75cf56bbc525.png)
+
+![image](https://user-images.githubusercontent.com/54589605/220070776-4c9add00-7c86-459c-aa98-f5594848b2c3.png)
+> Here only in the above question, Ex-OR behaves like an **OR** Gate.
+
+![image](https://user-images.githubusercontent.com/54589605/220071988-ed9db912-1b45-44a2-9da7-2edc728becf3.png)
+
+![image](https://user-images.githubusercontent.com/54589605/220072814-f68aea12-ce57-410d-baf2-ed560d8a1c25.png)
+> Here only in the above question, Ex-OR behaves like an **OR** Gate.
+
+
+
+
+
+
+
+* After This video, do the **5** daily assignments.
+* After that do **DPP 1**.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
