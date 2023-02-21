@@ -1213,6 +1213,9 @@ y= M(0,3)
 
 
 # Practice Questions and Solutions
+
+* Link -> https://drive.google.com/drive/folders/1Feqhx3AHQt1MXlX-UxTk-q5V0EK_UUJv
+
 ## Practice Questions (1) [10th Feb 2023]
 
 ![Boolean_Algebra_1](https://user-images.githubusercontent.com/54589605/218043260-a7af0cb3-152c-426c-98cc-7038ef4751d9.jpeg)
@@ -1393,7 +1396,25 @@ y= M(0,3)
 
 ## Daily Practice 3
 
-> Solved in  **5_Boolean Algebra_IV, Lesso
+> Solved in  **5_Boolean Algebra_IV, Lesson 5**
+
+### solution
+
+![Boolean_Algebra_16](https://user-images.githubusercontent.com/54589605/220421806-d25cfa86-eb5b-4c8a-8aa4-194946770dd4.jpeg)
+![Boolean_Algebra_17](https://user-images.githubusercontent.com/54589605/220421869-5fd6c785-c9c1-4129-85f6-50f91e5ebc7f.jpeg)
+![Boolean_Algebra_18](https://user-images.githubusercontent.com/54589605/220421908-ed3a8105-8915-48c0-b57c-5a6b5b791a40.jpeg)
+![Boolean_Algebra_19](https://user-images.githubusercontent.com/54589605/220421965-525d4f79-fb1b-4917-b975-563cdf64d2d6.jpeg)
+![Boolean_Algebra_20](https://user-images.githubusercontent.com/54589605/220422005-9b34455e-6f12-4145-ac70-861776325f36.jpeg)
+![Boolean_Algebra_21](https://user-images.githubusercontent.com/54589605/220422024-76577784-36e9-4d07-8e34-c303413d5ecc.jpeg)
+![Boolean_Algebra_22](https://user-images.githubusercontent.com/54589605/220422031-87359838-177f-452a-a18e-a74a252f1062.jpeg)
+![Boolean_Algebra_23](https://user-images.githubusercontent.com/54589605/220422099-c9b018c6-9727-4896-8d61-e8bae806863a.jpeg)
+![Boolean_Algebra_24](https://user-images.githubusercontent.com/54589605/220422114-6d68c060-cd1c-4299-aa3b-4ded3333744f.jpeg)
+![Boolean_Algebra_25](https://user-images.githubusercontent.com/54589605/220422188-5934eff9-8684-4003-8d3b-e0302ca5c6f0.jpeg)
+![Boolean_Algebra_26](https://user-images.githubusercontent.com/54589605/220422219-473a1977-7ab6-4454-bd29-9a00c6ba0bf0.jpeg)
+![Boolean_Algebra_27](https://user-images.githubusercontent.com/54589605/220422242-e9ba815c-c505-4963-8516-f71c5e129382.jpeg)
+
+
+### Solutions
 
 ![image](https://user-images.githubusercontent.com/54589605/220374279-a2cbe065-a65d-45f1-aff0-d2c96886edd6.png)
 ![image](https://user-images.githubusercontent.com/54589605/220374807-0c3ee8b3-622a-486b-9ce9-91500b1e8e82.png)
@@ -1437,14 +1458,38 @@ y= M(0,3)
 
 ## Daily Practice 4
 
+### Solutions
+
+![Boolean_Algebra_28](https://user-images.githubusercontent.com/54589605/220425352-3a83f769-23f1-4a1a-ba31-73d864ba98bc.jpeg)
+![Boolean_Algebra_29](https://user-images.githubusercontent.com/54589605/220425362-a0d22549-f4c1-422d-8258-692f331e483f.jpeg)
+![Boolean_Algebra_30](https://user-images.githubusercontent.com/54589605/220425367-0b724951-517a-4561-b3c6-4d8805d63eb3.jpeg)
+![Boolean_Algebra_31](https://user-images.githubusercontent.com/54589605/220425402-5079bbda-9d25-4c12-835a-950fdd1a377e.jpeg)
+![Boolean_Algebra_32](https://user-images.githubusercontent.com/54589605/220425446-4a053068-892a-4bb1-9f02-7350231d27df.jpeg)
+
+
 ## Daily Practice 5
 
+### Solutions
+
+![Boolean_Algebra_33](https://user-images.githubusercontent.com/54589605/220425515-d6e53cbe-6c97-42a8-bc93-e16a125909c2.jpeg)
+![Boolean_Algebra_34](https://user-images.githubusercontent.com/54589605/220425523-8e0f9f4d-351f-46c4-b108-aa951ede6db1.jpeg)
+![Boolean_Algebra_35](https://user-images.githubusercontent.com/54589605/220425529-89f63953-6b31-46d0-abb5-845dc2f7ed81.jpeg)
+![Boolean_Algebra_36](https://user-images.githubusercontent.com/54589605/220425536-2b0de8af-2916-49c2-9369-a9d2eb559e04.jpeg)
+![Boolean_Algebra_37](https://user-images.githubusercontent.com/54589605/220425595-12fc3f5f-ef90-45dc-b98c-5431e516041f.jpeg)
+![Boolean_Algebra_38](https://user-images.githubusercontent.com/54589605/220425606-360e3900-d1c7-4f50-aaa5-f25d4f3d4bea.jpeg)
+![Boolean_Algebra_39](https://user-images.githubusercontent.com/54589605/220425611-3cc9b1c9-2f0c-4538-ba9d-08c55d9e0418.jpeg)
+
+
+
+# DPP questions
+
+* Link -> https://drive.google.com/drive/folders/1dq_D8WXuIe_2drVlRyed_ci9QofI_TaU
 
 
 
 
 
 
-
+![Boolean_Algebra_32](https://user-images.githubusercontent.com/54589605/220425416-99f2cab6-9577-4c92-a62d-92b7d9e1d38c.jpeg)
 
 
