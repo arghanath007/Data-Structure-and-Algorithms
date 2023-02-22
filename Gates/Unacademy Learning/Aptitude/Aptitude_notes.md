@@ -717,6 +717,9 @@
 > For **Q9**, we are dividing **1260** by **10** as **10** gives factors which end with **zero**. Hence **12** is the answer. 
 > **36** is the **total** no. of factors of 1260.
 
+## Quiz 2
+
+* Link -> https://unacademy.com/quiz/quiz/ID3F4FOUL9/solutions/SP_W18HYF0NTYEJFTLRL
 
 
 

@@ -985,7 +985,7 @@ y= A' + B'
 ![image](https://user-images.githubusercontent.com/54589605/219874394-576dd343-c98a-4fb0-8f56-b6271bf8c0f2.png)
 
 
-* y= A'B'
+* y= (AB)'
 * y= x' [x= AB]
 * y= x' [Inverter, hence x is in parallel to the bulb]
 * x= AB [**AB** means **intersection**, hence A and B will be **series** to the bulb]
