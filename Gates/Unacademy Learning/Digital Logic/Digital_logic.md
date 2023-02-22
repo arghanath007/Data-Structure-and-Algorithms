@@ -1465,6 +1465,7 @@ y= M(0,3)
 ![Boolean_Algebra_30](https://user-images.githubusercontent.com/54589605/220425367-0b724951-517a-4561-b3c6-4d8805d63eb3.jpeg)
 ![Boolean_Algebra_31](https://user-images.githubusercontent.com/54589605/220425402-5079bbda-9d25-4c12-835a-950fdd1a377e.jpeg)
 ![Boolean_Algebra_32](https://user-images.githubusercontent.com/54589605/220425446-4a053068-892a-4bb1-9f02-7350231d27df.jpeg)
+![Boolean_Algebra_32](https://user-images.githubusercontent.com/54589605/220425416-99f2cab6-9577-4c92-a62d-92b7d9e1d38c.jpeg)
 
 
 ## Daily Practice 5
@@ -1485,11 +1486,5 @@ y= M(0,3)
 
 * Link -> https://drive.google.com/drive/folders/1dq_D8WXuIe_2drVlRyed_ci9QofI_TaU
 
-
-
-
-
-
-![Boolean_Algebra_32](https://user-images.githubusercontent.com/54589605/220425416-99f2cab6-9577-4c92-a62d-92b7d9e1d38c.jpeg)
 
 
