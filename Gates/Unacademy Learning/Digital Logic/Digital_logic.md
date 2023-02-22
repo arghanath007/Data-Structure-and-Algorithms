@@ -751,7 +751,29 @@ All options are corrrect. '*' is not multiplication here, it is solved according
 ![4_Questions_6](https://user-images.githubusercontent.com/54589605/218324033-9cad4c14-2047-4562-a0f9-479c12300eea.jpeg)
 ![4_Questions_7](https://user-images.githubusercontent.com/54589605/218324034-5964977b-3f9a-40f0-a4f9-3f6b86a6f0cb.jpeg)
 
-## Logic Gates (5) [18th Feb 2023]
+## Boolean Algebra-IV (5) [21st Feb 2023]
+
+**IMPORTANT**
+![image](https://user-images.githubusercontent.com/54589605/220338228-0e0b6be5-a95e-460b-a79a-3780ba238c27.png)
+![image](https://user-images.githubusercontent.com/54589605/220338820-98c4adf4-2320-4771-b7b1-f4ced803e581.png)
+![image](https://user-images.githubusercontent.com/54589605/220339405-f0a22265-9ab0-43d8-b739-2c9f7c5cb3f3.png)
+![image](https://user-images.githubusercontent.com/54589605/220340606-83455827-2356-4bf1-8c9d-dcd070c8bb59.png)
+
+* The no. of boolean functions -> (2^(2^(n))) -> (2^(2^(2))) -> 16
+
+> Even after **negation** also, the minters are the **same**. The **Exclusive terms** must be **present**.
+
+
+![image](https://user-images.githubusercontent.com/54589605/220340201-3c0bcb08-e7c9-4200-9864-fb9bcf4d1083.png)
+![image](https://user-images.githubusercontent.com/54589605/220340495-b4e180d7-8908-45fb-b3d5-00124487e1f4.png)
+![image](https://user-images.githubusercontent.com/54589605/220340976-10c0f62a-4438-43d2-bd10-936943fc5888.png)
+
+> The formula used in **self dual expression** is used here as well. (2^(2^(n-1)))
+* The no. of boolean functions -> (2^(2^(n))) -> (2^(2^(3))) -> 256
+
+* Solutions for **Daily Practice 1**. **15 Questions**.
+
+## Logic Gates (6) [18th Feb 2023]
 
 ## NOT Gate
 
@@ -983,7 +1005,7 @@ y= A' + B'
 ![image](https://user-images.githubusercontent.com/54589605/219873724-190568f5-8c5b-4e12-b2d7-9da0789c7e3a.png)
 
 
-## Logic Gates (6) [20th Feb 2023]
+## Logic Gates (7) [20th Feb 2023]
 
 
 ### Commutative and Associative law for **NAND** Gate
@@ -1191,6 +1213,9 @@ y= M(0,3)
 
 
 # Practice Questions and Solutions
+
+* Link -> https://drive.google.com/drive/folders/1Feqhx3AHQt1MXlX-UxTk-q5V0EK_UUJv
+
 ## Practice Questions (1) [10th Feb 2023]
 
 ![Boolean_Algebra_1](https://user-images.githubusercontent.com/54589605/218043260-a7af0cb3-152c-426c-98cc-7038ef4751d9.jpeg)
@@ -1202,6 +1227,36 @@ y= M(0,3)
 ![Boolean_Algebra_7](https://user-images.githubusercontent.com/54589605/218043349-d73a3575-15a2-4ad2-b459-beddcab640c7.jpeg)
 ![Boolean_Algebra_8](https://user-images.githubusercontent.com/54589605/218043356-f3d7800f-818b-4944-98c9-447de1d34cec.jpeg)
 ![Boolean_Algebra_9](https://user-images.githubusercontent.com/54589605/218043358-5e5ba2dd-d8bb-45ad-b898-bcf0b1333343.jpeg)
+
+## Solutions
+
+> Solved in  **5_Boolean Algebra_IV, Lesson 5**.
+
+![image](https://user-images.githubusercontent.com/54589605/220342702-2e4a650d-ca6d-426d-87e0-abc8d132ba3c.png)
+![image](https://user-images.githubusercontent.com/54589605/220342992-a5206118-de29-46c2-afe0-200724c2e344.png)
+![image](https://user-images.githubusercontent.com/54589605/220343107-9a19cb96-7bb8-40e0-817d-b99c80c0dde1.png)
+![image](https://user-images.githubusercontent.com/54589605/220343273-a47221c6-78c1-451e-aef2-94d75a718860.png)
+![image](https://user-images.githubusercontent.com/54589605/220343418-b3b03176-f75a-44d9-8867-4021aa411a8d.png)
+![image](https://user-images.githubusercontent.com/54589605/220343537-f9ee9dee-3758-4d0f-9b4b-ad84dd81da87.png)
+![image](https://user-images.githubusercontent.com/54589605/220343820-e50e4b95-97b2-4999-bf4c-b5f215c68bae.png)
+
+![image](https://user-images.githubusercontent.com/54589605/220344239-83b095af-4b5f-4320-9020-1a16e55400bd.png)
+![image](https://user-images.githubusercontent.com/54589605/220344394-beeb218b-8d03-46d3-8425-9cc4d27edb67.png)
+
+> In the above question, we have to see the **given values**. Whichever is the **highest** value is given **logic 1** and the **smaller** value is given **logic 0**.
+
+![image](https://user-images.githubusercontent.com/54589605/220344792-2c0a9aaa-25fc-44d9-a2ee-36c1c70b957d.png)
+
+> Here also same as above. Check the **given values**. Whichever is the **smallest** value is given **logic 1** and the **higher** value is given **logic 0**
+
+
+![image](https://user-images.githubusercontent.com/54589605/220345093-45f928f6-22c0-40b5-aea9-69344de4a1b6.png)
+![image](https://user-images.githubusercontent.com/54589605/220345194-504ecb89-c989-4dde-970e-8f092f6d00f5.png)
+![image](https://user-images.githubusercontent.com/54589605/220345476-ef2a3663-8063-4e75-a6a2-c340715edce0.png)
+![image](https://user-images.githubusercontent.com/54589605/220363569-71a8b193-c1dc-4d45-93ea-efdbf1fc8886.png)
+![image](https://user-images.githubusercontent.com/54589605/220363823-d3d59089-bfbc-4ff8-addc-49195f1a21e8.png)
+![image](https://user-images.githubusercontent.com/54589605/220363923-582565e4-5d99-420c-881e-e12c44d4fee8.png)
+
 
 ## Solutions
 
@@ -1279,6 +1334,29 @@ y= M(0,3)
 ![Boolean_Algebra_13](https://user-images.githubusercontent.com/54589605/218261867-3abd4cd1-c244-4943-bbe0-8f186f99378b.jpeg)
 ![Boolean_Algebra_14](https://user-images.githubusercontent.com/54589605/218261869-43370edf-2e58-4ab4-afab-f4a0a8a8a672.jpeg)
 
+## Solutions
+
+> Solved in  **5_Boolean Algebra_IV, Lesson 5**.
+
+![image](https://user-images.githubusercontent.com/54589605/220364239-901adac2-4e6a-4943-ad38-c6378972e119.png)
+![image](https://user-images.githubusercontent.com/54589605/220364501-a1c68cd2-39b2-447d-9822-24cbe9dc261b.png)
+![image](https://user-images.githubusercontent.com/54589605/220364758-a2ab1c78-b01c-4eba-850b-a26ea7a8c383.png)
+![image](https://user-images.githubusercontent.com/54589605/220364874-0d57de93-36b9-477d-8437-95e3a4b99fbc.png)
+![image](https://user-images.githubusercontent.com/54589605/220365098-15ca86ac-b8c4-4b49-bb1b-57f187818446.png)
+![image](https://user-images.githubusercontent.com/54589605/220365261-e01b8432-87e0-4bfa-8ade-a8a707b52c48.png)
+![image](https://user-images.githubusercontent.com/54589605/220365456-a5ee6566-9713-48c5-abb1-72351f8c7688.png)
+![image](https://user-images.githubusercontent.com/54589605/220365755-b02dbdf4-a65e-45a0-9c13-bb1e30353eb0.png)
+![image](https://user-images.githubusercontent.com/54589605/220366033-c19f1a66-ee72-426c-9094-c627a23f02f7.png)
+![image](https://user-images.githubusercontent.com/54589605/220366139-59d5f076-6bdb-4fa9-87fe-9ca5f1a1d0bf.png)
+![image](https://user-images.githubusercontent.com/54589605/220366248-2c65a355-b165-4c41-8e69-4b2574b47ed6.png)
+![image](https://user-images.githubusercontent.com/54589605/220366332-6fa39f7d-a8f6-459e-8f0b-6ed17065972a.png)
+![image](https://user-images.githubusercontent.com/54589605/220366773-7cb69e7c-f968-4f59-a015-46e57333e24d.png)
+![image](https://user-images.githubusercontent.com/54589605/220367639-04eb0875-8f3e-423b-bbcd-d7df570dce73.png)
+![image](https://user-images.githubusercontent.com/54589605/220371748-234ad26c-660b-4cb2-90fd-dcfe865294c5.png)
+![image](https://user-images.githubusercontent.com/54589605/220372150-d3eb228b-9ea8-4623-8953-d273348d966e.png)
+![image](https://user-images.githubusercontent.com/54589605/220373805-1d7ec0fa-b5b3-4201-8d20-1500da177349.png)
+
+
 ## Practice Questions (3) [11th Feb 2023]
 
 > From **3_Boolean_Algebra_III**. Page **116**.
@@ -1316,14 +1394,97 @@ y= M(0,3)
 
 > All options are corrrect. '*' is not multiplication here, it is solved according to the question, A*B= AB + A'B'.
 
+## Daily Practice 3
+
+> Solved in  **5_Boolean Algebra_IV, Lesson 5**
+
+### solution
+
+![Boolean_Algebra_16](https://user-images.githubusercontent.com/54589605/220421806-d25cfa86-eb5b-4c8a-8aa4-194946770dd4.jpeg)
+![Boolean_Algebra_17](https://user-images.githubusercontent.com/54589605/220421869-5fd6c785-c9c1-4129-85f6-50f91e5ebc7f.jpeg)
+![Boolean_Algebra_18](https://user-images.githubusercontent.com/54589605/220421908-ed3a8105-8915-48c0-b57c-5a6b5b791a40.jpeg)
+![Boolean_Algebra_19](https://user-images.githubusercontent.com/54589605/220421965-525d4f79-fb1b-4917-b975-563cdf64d2d6.jpeg)
+![Boolean_Algebra_20](https://user-images.githubusercontent.com/54589605/220422005-9b34455e-6f12-4145-ac70-861776325f36.jpeg)
+![Boolean_Algebra_21](https://user-images.githubusercontent.com/54589605/220422024-76577784-36e9-4d07-8e34-c303413d5ecc.jpeg)
+![Boolean_Algebra_22](https://user-images.githubusercontent.com/54589605/220422031-87359838-177f-452a-a18e-a74a252f1062.jpeg)
+![Boolean_Algebra_23](https://user-images.githubusercontent.com/54589605/220422099-c9b018c6-9727-4896-8d61-e8bae806863a.jpeg)
+![Boolean_Algebra_24](https://user-images.githubusercontent.com/54589605/220422114-6d68c060-cd1c-4299-aa3b-4ded3333744f.jpeg)
+![Boolean_Algebra_25](https://user-images.githubusercontent.com/54589605/220422188-5934eff9-8684-4003-8d3b-e0302ca5c6f0.jpeg)
+![Boolean_Algebra_26](https://user-images.githubusercontent.com/54589605/220422219-473a1977-7ab6-4454-bd29-9a00c6ba0bf0.jpeg)
+![Boolean_Algebra_27](https://user-images.githubusercontent.com/54589605/220422242-e9ba815c-c505-4963-8516-f71c5e129382.jpeg)
+
+
+### Solutions
+
+![image](https://user-images.githubusercontent.com/54589605/220374279-a2cbe065-a65d-45f1-aff0-d2c96886edd6.png)
+![image](https://user-images.githubusercontent.com/54589605/220374807-0c3ee8b3-622a-486b-9ce9-91500b1e8e82.png)
+![image](https://user-images.githubusercontent.com/54589605/220377232-6751f284-6002-4328-a154-bdf0f7427a84.png)
+![image](https://user-images.githubusercontent.com/54589605/220377335-77fc5d97-5c8e-4d42-8098-8e47b2c421f3.png)
+![image](https://user-images.githubusercontent.com/54589605/220377519-7086a083-b554-4f82-bd11-824209826603.png)
+![image](https://user-images.githubusercontent.com/54589605/220378237-28f38076-590e-4e80-99ee-b5a25bda3103.png)
+![image](https://user-images.githubusercontent.com/54589605/220379058-9c4f858a-3613-46be-a142-b80ada7307a5.png)
+![image](https://user-images.githubusercontent.com/54589605/220379717-2a9a6613-b068-419a-8504-5342b01feb13.png)
+![image](https://user-images.githubusercontent.com/54589605/220380006-f44c0513-e919-4611-81c4-ed7a4b39f050.png)
+![image](https://user-images.githubusercontent.com/54589605/220380725-4d5e0abb-4b76-4d5a-b228-96aad4e40ce3.png)
+![image](https://user-images.githubusercontent.com/54589605/220380997-fc163809-0802-4532-ad1b-41a2a5b6170a.png)
+![image](https://user-images.githubusercontent.com/54589605/220381389-4bf0a9fe-2fc0-4b64-9119-f0178028d7d2.png)
+![image](https://user-images.githubusercontent.com/54589605/220381961-63ae3f58-66bf-49b2-8301-8f87ad633a40.png)
+![image](https://user-images.githubusercontent.com/54589605/220382288-3651ef42-1859-4b02-b588-8e41f665d357.png)
+![image](https://user-images.githubusercontent.com/54589605/220382584-d81a2f3b-4d68-47ea-bae8-253b9d7b4e23.png)
+![image](https://user-images.githubusercontent.com/54589605/220383456-abd1df56-4b80-4ab3-bd8a-781826d4645a.png)
+![image](https://user-images.githubusercontent.com/54589605/220383615-7d513f3e-b183-424b-82ad-ad4b75827f8c.png)
+![image](https://user-images.githubusercontent.com/54589605/220383797-431d5fe9-d7e0-432b-8246-059af1e3d465.png)
+![image](https://user-images.githubusercontent.com/54589605/220384307-1a3f1f56-9475-4588-8a02-a9e4de9bd967.png)
+![image](https://user-images.githubusercontent.com/54589605/220384493-1846cb4c-a9dc-47a4-8d0a-2849488c7dd6.png)
+![image](https://user-images.githubusercontent.com/54589605/220385553-0e29ba02-c481-4fdf-bf30-fc40f90514e1.png)
+![image](https://user-images.githubusercontent.com/54589605/220385790-9dbb9b9c-c2ca-45d2-bbc3-4cd52c6d483c.png)
+![image](https://user-images.githubusercontent.com/54589605/220386528-173ea492-afd4-4efd-a2f7-3a2a3bbb7a03.png)
+![image](https://user-images.githubusercontent.com/54589605/220386931-98a1c616-45d7-4a86-a995-2c1e0fbdddf5.png)
+
+> Here, in the above question, the **minimized expression** may not be **unique**. We need to follow a systematic format, that is the **K-map**.
+
+![image](https://user-images.githubusercontent.com/54589605/220388102-3c217961-a84f-4a15-ad92-32ba5864f318.png)
+![image](https://user-images.githubusercontent.com/54589605/220388687-2401dca0-dd71-47d7-ace1-6d17a8cebec8.png)
+![image](https://user-images.githubusercontent.com/54589605/220389936-0f456faf-90d6-4584-adeb-12a6cc258408.png)
+![image](https://user-images.githubusercontent.com/54589605/220390174-f3ddf2f2-e4c0-454f-83b7-9953979af0da.png)
+![image](https://user-images.githubusercontent.com/54589605/220390282-938d2f35-fd76-4bed-b2dc-fc8eeea86e0e.png)
+![image](https://user-images.githubusercontent.com/54589605/220390478-a692af73-3775-46fb-b044-bb6e78667a1b.png)
+![image](https://user-images.githubusercontent.com/54589605/220390626-44cb17f0-b523-4568-8e87-6aed467f43fd.png)
+![image](https://user-images.githubusercontent.com/54589605/220390741-44fd7755-a3b7-46c0-8640-0f8c76b3878f.png)
+![image](https://user-images.githubusercontent.com/54589605/220390958-5584e3e1-d443-4c0d-9693-c5b0e692ab18.png)
+
+> In the above question, the expression is in **minimal form**, we are converting it into **canonical form** by multiplying the **values** which are not present.
+
+
+## Daily Practice 4
+
+### Solutions
+
+![Boolean_Algebra_28](https://user-images.githubusercontent.com/54589605/220425352-3a83f769-23f1-4a1a-ba31-73d864ba98bc.jpeg)
+![Boolean_Algebra_29](https://user-images.githubusercontent.com/54589605/220425362-a0d22549-f4c1-422d-8258-692f331e483f.jpeg)
+![Boolean_Algebra_30](https://user-images.githubusercontent.com/54589605/220425367-0b724951-517a-4561-b3c6-4d8805d63eb3.jpeg)
+![Boolean_Algebra_31](https://user-images.githubusercontent.com/54589605/220425402-5079bbda-9d25-4c12-835a-950fdd1a377e.jpeg)
+![Boolean_Algebra_32](https://user-images.githubusercontent.com/54589605/220425446-4a053068-892a-4bb1-9f02-7350231d27df.jpeg)
+![Boolean_Algebra_32](https://user-images.githubusercontent.com/54589605/220425416-99f2cab6-9577-4c92-a62d-92b7d9e1d38c.jpeg)
+
+
+## Daily Practice 5
+
+### Solutions
+
+![Boolean_Algebra_33](https://user-images.githubusercontent.com/54589605/220425515-d6e53cbe-6c97-42a8-bc93-e16a125909c2.jpeg)
+![Boolean_Algebra_34](https://user-images.githubusercontent.com/54589605/220425523-8e0f9f4d-351f-46c4-b108-aa951ede6db1.jpeg)
+![Boolean_Algebra_35](https://user-images.githubusercontent.com/54589605/220425529-89f63953-6b31-46d0-abb5-845dc2f7ed81.jpeg)
+![Boolean_Algebra_36](https://user-images.githubusercontent.com/54589605/220425536-2b0de8af-2916-49c2-9369-a9d2eb559e04.jpeg)
+![Boolean_Algebra_37](https://user-images.githubusercontent.com/54589605/220425595-12fc3f5f-ef90-45dc-b98c-5431e516041f.jpeg)
+![Boolean_Algebra_38](https://user-images.githubusercontent.com/54589605/220425606-360e3900-d1c7-4f50-aaa5-f25d4f3d4bea.jpeg)
+![Boolean_Algebra_39](https://user-images.githubusercontent.com/54589605/220425611-3cc9b1c9-2f0c-4538-ba9d-08c55d9e0418.jpeg)
 
 
 
+# DPP questions
 
-
-
-
-
+* Link -> https://drive.google.com/drive/folders/1dq_D8WXuIe_2drVlRyed_ci9QofI_TaU
 
 
 
