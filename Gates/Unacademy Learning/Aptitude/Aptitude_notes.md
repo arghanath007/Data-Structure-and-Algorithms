@@ -686,10 +686,20 @@
 ![Verbal_1](https://user-images.githubusercontent.com/54589605/219424540-0db80634-5de5-4e42-949e-da79f29a92d3.jpeg)
 
 
+## Doubt_Clearing_session (12) [22nd Feb 2023]
 
+> **Quiz 2** solutions.
 
+![image](https://user-images.githubusercontent.com/54589605/220685464-b82e28e4-922a-4784-b322-98e2d5251ee9.png)
+![image](https://user-images.githubusercontent.com/54589605/220685821-f9bb2753-342e-40d5-ac74-d87f38841047.png)
+![image](https://user-images.githubusercontent.com/54589605/220687445-1c16a619-b607-4194-9993-f94fca063afc.png)
+![image](https://user-images.githubusercontent.com/54589605/220687511-61c722a8-2673-4d7c-b290-8206ee1af64c.png)
+![image](https://user-images.githubusercontent.com/54589605/220688202-6b1fe11c-dbd8-4cff-91a4-57380527afb0.png)
+![image](https://user-images.githubusercontent.com/54589605/220688288-b9919e17-a5a5-44d1-85d0-cd283fa87240.png)
+![image](https://user-images.githubusercontent.com/54589605/220690004-ba6a3c2f-c618-44ea-9476-c3501ba30e38.png)
+![image](https://user-images.githubusercontent.com/54589605/220692935-7c17d68e-216c-48c7-884b-08aeb4dec996.png)
 
-
+* Continued from 10mins
 
 
 
