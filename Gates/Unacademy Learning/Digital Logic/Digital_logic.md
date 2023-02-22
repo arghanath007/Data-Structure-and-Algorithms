@@ -1182,33 +1182,149 @@ y= M(0,3)
 ![image](https://user-images.githubusercontent.com/54589605/220072814-f68aea12-ce57-410d-baf2-ed560d8a1c25.png)
 > Here only in the above question, Ex-OR behaves like an **OR** Gate.
 
+## Doubt_Clearing_session (8) [22nd Feb 2023]
+
+![image](https://user-images.githubusercontent.com/54589605/220611772-3898f186-04c4-490c-af3d-83e193720746.png)
+
+> Here **Ex-OR** is behaving like an **OR** Gate.
+
+## **Ex-NOR** Gate
+
+* Ex-OR + NOT -> Ex-NOR
+
+![image](https://user-images.githubusercontent.com/54589605/220612827-62426f0f-613a-47b8-8e0b-97a9be8a38da.png)
+![image](https://user-images.githubusercontent.com/54589605/220613170-d252cde3-e74b-4647-b10b-2a2d7145097b.png)
+![image](https://user-images.githubusercontent.com/54589605/220614128-aeedf9bc-c708-4f18-b015-84be930c0dbc.png)
+![image](https://user-images.githubusercontent.com/54589605/220614197-9e2a06e0-3211-4eee-96c5-f6809af9e780.png)
+![image](https://user-images.githubusercontent.com/54589605/220616845-8a758ea3-e75e-4be3-a46a-f685e425ead3.png)
+
+> **Ex-NOR** gate does not satisfy **associative** law.
+
+![image](https://user-images.githubusercontent.com/54589605/220617280-433feffe-499c-4f68-a3f0-5d28852806bd.png)
+
+3. ![image](https://user-images.githubusercontent.com/54589605/220618396-1d1ae2fe-e637-4ddc-9661-a01e0f5f84e0.png)
+4. ![image](https://user-images.githubusercontent.com/54589605/220618718-9003545e-7a68-423b-b15d-e781c7536d6e.png)
+![image](https://user-images.githubusercontent.com/54589605/220619232-6d5b57c5-a85c-476d-bdcc-f7948b3ed7ea.png)
+
+> **2 and 4** are same.
+
+![image](https://user-images.githubusercontent.com/54589605/220620040-9f1c8cad-7492-4b9c-b083-71adaaf93df3.png)
+
+> **1 and 4** are not complements to each other.
+
+
+1) **Ex-NOR** -> **Even** no. of 1s
+2)  **Ex-OR** -> **Odd** no. of 1s
+3) Only include two(A and B)
+4) (1) and (4) are different. In **1**, we are taking all **three** together. In **4**, we are taking **A and B** First and then the result of **A and B** with **C**. 
+
+![image](https://user-images.githubusercontent.com/54589605/220620113-b4ceb3d9-c2b4-403a-b9f2-d9223e360ff5.png)
+![image](https://user-images.githubusercontent.com/54589605/220620511-8b58932a-765c-4fd4-a986-dd9f609fce60.png)
+![image](https://user-images.githubusercontent.com/54589605/220620677-b9b64fec-7876-48e4-9f25-cb9befeef8c1.png)
+
+> These above operations, **2,4 and 6** all are same. But these are not **equal** to **Ex-NOR**.
+
+![image](https://user-images.githubusercontent.com/54589605/220621354-68a7f593-6312-4ea8-86dc-9bee1921032a.png)
+![image](https://user-images.githubusercontent.com/54589605/220621791-2525ed35-ab51-4711-a0ba-3916a80b7501.png)
+
+> Y1,Y3 and Y4 are **equal**.
+> From this, we can conclude that **Ex-NOR** does not obey **Associative** property.
+
+![image](https://user-images.githubusercontent.com/54589605/220622377-7ec63ed1-fb80-41b3-a82e-a052264e27e6.png)
+
+> From this, we can conclude that **Ex-NOR** obeys **Commutative** property.
+
+![image](https://user-images.githubusercontent.com/54589605/220622491-807729ce-0b2c-42a8-bfb8-ccbc32c78f66.png)
+![image](https://user-images.githubusercontent.com/54589605/220623029-acd45a5c-a7cf-4908-a640-f6ed040d451d.png)
+
+> From this, we can conclude that **Ex-NOR** does not obey **Associative** property.
+
+
+### **Associative** property
+
+![image](https://user-images.githubusercontent.com/54589605/220623270-18d72487-b04a-4702-9635-eca76669860b.png)
+
+![image](https://user-images.githubusercontent.com/54589605/220623453-7a97982d-4c95-4b2d-8de6-1fc2e7cd56da.png)
+![image](https://user-images.githubusercontent.com/54589605/220623690-8c5e946d-32ad-4069-8fb8-0a63580a4572.png)
+
+> These *two* are **equal** we have seen but this is not associative law. If it is **equal** to **A Ex-NOR B Ex-NOR C**, then only we can say that this follows **Associative** property.
+
+![image](https://user-images.githubusercontent.com/54589605/220623764-961933e2-2496-4ae1-bf44-82b582c51544.png)
+
+> They are not equal, hence **Ex-NOR** does not obey **Associative** law.
+
+![image](https://user-images.githubusercontent.com/54589605/220624103-7667c5e8-75c3-49c9-a0df-3c88659e091d.png)
+
+
+> When one of the **inputs** is **1** for **Ex-NOR** gate, then it behaves as a **Buffer**.
+> When one of the **inputs** is **0** for **Ex-NOR** gate, then it behaves as an **Inverter**.
+
+* 1 -> Buffer
+* 0 -> Inverter
+
+![image](https://user-images.githubusercontent.com/54589605/220625167-9708d015-0b15-43a3-b2e5-2483db11c87a.png)
+
+> Opposite to **Ex-OR**.
+
+![image](https://user-images.githubusercontent.com/54589605/220625506-03b99876-fec8-4695-88d9-0701deccb9c6.png)
+
+
+![image](https://user-images.githubusercontent.com/54589605/220626917-ecb00fff-686e-490c-af05-68cd1d3394e9.png)
+![image](https://user-images.githubusercontent.com/54589605/220627300-1833e7c0-947f-44b0-9291-5d0fef80ab0f.png)
+![image](https://user-images.githubusercontent.com/54589605/220627337-22fbb1db-e7fd-4923-8e49-0416b998f7e4.png)
+![image](https://user-images.githubusercontent.com/54589605/220627411-5ddccd8d-59ec-4acc-97d3-0a7b45950d7c.png)
+
+* y= A'
+
+![image](https://user-images.githubusercontent.com/54589605/220627490-51c91092-947b-4fc5-b89f-a2fff523846e.png)
+![image](https://user-images.githubusercontent.com/54589605/220628046-3cddfa11-c885-4920-bcf1-b253f6869025.png)
+
+
+### Questions
+
+![image](https://user-images.githubusercontent.com/54589605/220630891-9bafa6d0-289c-4c2e-8b4d-2a8ee64ed9b4.png)
+![image](https://user-images.githubusercontent.com/54589605/220631162-7557c2d2-3d52-4679-8c62-ce072b31a38e.png)
+
+> In the above questions, because of the **complements in A' and B'** in **two different questions** circled in the image, the symbol(**Ex-OR**) changes or gets **complemented once** into **Ex-NOR** gate.
+
+![image](https://user-images.githubusercontent.com/54589605/220631455-edc1dac6-4197-499d-86bb-2dbf05a2722c.png)
+
+> Here because of **two complements i.e A' and B'** in the **same question**, the symbol(**Ex-OR**) changes or gets **complemented two times**, **once for A' and once for B'**. Hence after **two** complements, the symbol is back to **Ex-OR**.
+> The **conclusion** is that the **no. of complements in the question**, the **no. of times** we have to perform **complement** of the **symbol**.
+
+![image](https://user-images.githubusercontent.com/54589605/220632772-39d98fcd-69e7-4e35-88a3-518cf2fac2e5.png)
+![image](https://user-images.githubusercontent.com/54589605/220633082-3acc5450-cd22-40bd-a7c4-46acf0158504.png)
+![image](https://user-images.githubusercontent.com/54589605/220634513-474917ec-8a44-4d3a-8438-039f92d8bf42.png)
+![image](https://user-images.githubusercontent.com/54589605/220635000-b65b84fd-2d35-408f-af83-8cfd19cb01e3.png)
+![image](https://user-images.githubusercontent.com/54589605/220635046-79b33c7a-7417-4134-b1b5-c981d049a4d8.png)
+![image](https://user-images.githubusercontent.com/54589605/220635412-a70b4533-dfac-49a6-a298-7825b9a10632.png)
+![image](https://user-images.githubusercontent.com/54589605/220636008-4ae55d83-4c47-40d4-b403-494ef63b0d19.png)
+![image](https://user-images.githubusercontent.com/54589605/220636112-6e5a726d-e24c-486b-837c-dce259e276ea.png)
+![image](https://user-images.githubusercontent.com/54589605/220636544-bf4e2f7c-1c87-471b-936d-2bb24b38d9d0.png)
+
+
+## Summary of **Ex-OR and Ex-NOR** Gates
+
+![image](https://user-images.githubusercontent.com/54589605/220637511-a4a966e6-05a4-4c3f-bf97-d7b88e0c0e00.png)
+
+* Equality Detector -> When inputs are the **same**, we get **1**.
+* Inequality Detector -> When inputs are **different**, we get **1**.
+* Anti-coincident Gate -> Different inputs or when inputs are different, we get **1**.
+* Coincident Gate -> Same input or when both inputs are the same, we get **1**.
+
+
+### Questions
+
+![image](https://user-images.githubusercontent.com/54589605/220642385-b1e5d882-8474-4268-8d8e-4962ae35db06.png)
+![image](https://user-images.githubusercontent.com/54589605/220649022-73e6167f-03a0-47e9-be2c-d6430fe4234d.png)
+![image](https://user-images.githubusercontent.com/54589605/220649563-d3498432-36d0-49bd-b908-18bd91194e26.png)
+![image](https://user-images.githubusercontent.com/54589605/220651835-9cd91e63-dc4a-4dc7-b28f-1a3276b21c66.png)
 
 
 
 
-
-
-* After This video, do the **5** daily assignments.
+* After This video, do the **5** daily assignments. (**DONE**)
 * After that do **DPP 1**.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
