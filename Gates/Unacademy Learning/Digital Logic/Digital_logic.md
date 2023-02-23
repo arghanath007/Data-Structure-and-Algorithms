@@ -1319,7 +1319,9 @@ y= M(0,3)
 ![image](https://user-images.githubusercontent.com/54589605/220649022-73e6167f-03a0-47e9-be2c-d6430fe4234d.png)
 ![image](https://user-images.githubusercontent.com/54589605/220649563-d3498432-36d0-49bd-b908-18bd91194e26.png)
 ![image](https://user-images.githubusercontent.com/54589605/220651835-9cd91e63-dc4a-4dc7-b28f-1a3276b21c66.png)
-
+![Logic_Gates_1](https://user-images.githubusercontent.com/54589605/220826567-eb2c46ee-1c37-4a8a-a527-ab50b4820266.jpeg)
+![Logic_Gates_2](https://user-images.githubusercontent.com/54589605/220826575-04e931cd-70a6-43de-a0f1-719212fd7c71.jpeg)
+![Logic_Gates_3](https://user-images.githubusercontent.com/54589605/220826577-9872694d-e080-4433-b4df-6f54ede5241d.jpeg)
 
 
 
