@@ -696,10 +696,66 @@
 ![image](https://user-images.githubusercontent.com/54589605/220687511-61c722a8-2673-4d7c-b290-8206ee1af64c.png)
 ![image](https://user-images.githubusercontent.com/54589605/220688202-6b1fe11c-dbd8-4cff-91a4-57380527afb0.png)
 ![image](https://user-images.githubusercontent.com/54589605/220688288-b9919e17-a5a5-44d1-85d0-cd283fa87240.png)
+
+> Here in the above question, we are taking the **2 as the power of 7** and getting **1**.
+* 7^2/48 -> 49/48=1
+
 ![image](https://user-images.githubusercontent.com/54589605/220690004-ba6a3c2f-c618-44ea-9476-c3501ba30e38.png)
+![image](https://user-images.githubusercontent.com/54589605/220827291-3d684380-fe22-4fdb-a69c-53eb5d0fad02.png)
+
+> Gradual increasing power of 7.
+
+
+![image](https://user-images.githubusercontent.com/54589605/220827437-d7231722-5a9e-4999-ba7b-ab08906b63d0.png)
+
+> Remainder will **always** be **1**.
+
+![image](https://user-images.githubusercontent.com/54589605/220827557-c7c180d0-4e40-4c4b-9e98-f4c6dd657fa9.png)
+![image](https://user-images.githubusercontent.com/54589605/220827687-20f61df0-1753-407e-8b25-09274f9de4ef.png)
+![image](https://user-images.githubusercontent.com/54589605/220827795-772274a1-fb80-4157-85fe-5a7377d2fdc3.png)
+
+> We can say that for **(a^n)/(a+1)**, if **n is odd**, **then we always get back the same number itself i.e 'a'**.
+* **(a^n)/(a+1)** -> a [When, 'n' is **odd**]
+
+![image](https://user-images.githubusercontent.com/54589605/220828004-e73cc715-6a54-451b-bbeb-e47c4e93040f.png)
+
+> We can say that for **(a^n)/(a+1)**, if **n is even**, **then we always get '1'**.
+* **(a^n)/(a+1)** -> 1 [When, 'n' is **even**]
+
+### Note
+
+![image](https://user-images.githubusercontent.com/54589605/220828105-2e8532e2-a18d-4845-a0ff-15b71e8b1ea2.png)
+
+### Questions 
+
+![image](https://user-images.githubusercontent.com/54589605/220829069-99b8d11b-ef89-4591-b370-f55a2f205527.png)
+![image](https://user-images.githubusercontent.com/54589605/220829229-728df56c-0fa5-4588-a8b7-4f704652240d.png)
+![image](https://user-images.githubusercontent.com/54589605/220829197-0ac01dde-862f-4884-a477-163ea455942c.png)
+
+* N! >= 2! -> Always **Even**.
+
+![image](https://user-images.githubusercontent.com/54589605/220829379-4767248f-bf6f-4b92-9ae2-65301c92484a.png)
+![image](https://user-images.githubusercontent.com/54589605/220829406-3cca59d3-ce4c-4d2a-8356-7057080a5810.png)
+
+* No. of **1s**. The no. of 1s, till that number we are counting and then count backwards till 1.
+
+* (111111111)^2 -> 12345678987654321
+* Digit sum of 12345678987654321 -> 2*(1+2+3+4+5+6+7+8+9) - 9 ->  90-8 -> 81 [Minus 9, since there is only one count of 9 but we are counting twice, that's why]
+
+![image](https://user-images.githubusercontent.com/54589605/220829630-484ebbfc-5e23-4324-bea3-471b365bd192.png)
+![image](https://user-images.githubusercontent.com/54589605/220829869-4067d602-b814-4271-ae6b-3cc5c4d1a467.png)
+![image](https://user-images.githubusercontent.com/54589605/220830102-4672997d-980d-4dd3-885e-4c59a6771756.png)
+![image](https://user-images.githubusercontent.com/54589605/220830140-8b02909b-4fd9-4a6c-9e3f-4bc2fcd90496.png)
+![image](https://user-images.githubusercontent.com/54589605/220830428-4cc097ff-2c20-4bff-aa67-1c28b9f01b0a.png)
+
+* Continued from 44mins
+
+
+
+
 ![image](https://user-images.githubusercontent.com/54589605/220692935-7c17d68e-216c-48c7-884b-08aeb4dec996.png)
 
-* Continued from 10mins
+
 
 
 
