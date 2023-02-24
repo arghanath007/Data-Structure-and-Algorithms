@@ -932,6 +932,99 @@
 ![Verbal_4](https://user-images.githubusercontent.com/54589605/221185949-45ea2879-7040-4f5f-a459-8b7c5947ad35.jpeg)
 
 
+## Verbal_Reasoning_III (14) [24th Feb 2023]
+
+![image](https://user-images.githubusercontent.com/54589605/221190598-f2f11015-a82a-48df-9c51-a3b8ee945796.png)
+
+### Logical Connectives
+
+![image](https://user-images.githubusercontent.com/54589605/221192457-0483c538-788e-4222-ac83-8e269ef9fe7d.png)
+
+* We find **logical truthfulness** and not **Factual Truthfulness**. If it is not **factually** correct as well then no problem but should be **logically** correct. It is not necessary that the statement is **factually** correct, it could be **wrong** as well. We are lloking for **logical interpretation** only.
+
+* From which **direction** the **sun and the moon** are rising is **not important**. The important is that the **moon rising in the south** is **dependent on the sun rises in the west or not**.
+
+![image](https://user-images.githubusercontent.com/54589605/221193409-9732b55a-fb84-4e3b-b205-6f85cd93c3e5.png)
+ 
+ ### Compound statements
+ 
+ * They are formed by **combining two or more** simple statements.
+
+![image](https://user-images.githubusercontent.com/54589605/221194142-56c76eb5-4825-4890-a857-56c295fabac3.png)
+![image](https://user-images.githubusercontent.com/54589605/221194181-e22dcdad-ceee-4e5b-a981-4109255a9182.png)
+
+### Takeaways
+
+1) We have to look at Logical truthfulness instead of factual truthfulness. If it is not factual, then also it is fine.
+2) One(1) line statements are called as **simple statements**. **Two or more** simple statements combine to form **compound** statements. 
+3) The simple statements were **connected** by some means and these **means** are called as **connectives(Either-or, if-then)**.
+
+![image](https://user-images.githubusercontent.com/54589605/221196833-75c3e460-c575-4c89-a832-59724d4ffd6b.png)
+![image](https://user-images.githubusercontent.com/54589605/221197123-91b5c47e-78e5-4f30-975b-02bf6e907607.png)
+![image](https://user-images.githubusercontent.com/54589605/221197160-1d92eff4-9b7e-4626-b09a-e9029651fb0f.png)
+
+![image](https://user-images.githubusercontent.com/54589605/221198103-33ada59f-16f8-4e35-86a3-fd317c2774fd.png)
+![image](https://user-images.githubusercontent.com/54589605/221198516-ea1bd6c4-d2c9-447d-8f5d-dfbf934cee79.png)
+
+* For the **compound statement** to be **True**, **atleast one** of the statements **must be True**.
+ 
+ ![image](https://user-images.githubusercontent.com/54589605/221198979-a0646da3-8460-46d8-ba9d-111ca8dc1245.png)
+
+* We have to look at **logical truthfulness** and not **factual truthfulness**. **Dead and alive** are just **variables**.
+* For a **compound statement** to be **True**, either **one** of the **simple statemenets** should be **True**. OR, both the **simple statemenets** are **True**.
+ 
+ ![image](https://user-images.githubusercontent.com/54589605/221207120-3988ad39-8600-4214-8071-e06292925468.png)
+
+
+![image](https://user-images.githubusercontent.com/54589605/221207856-ccf5b1ed-9501-4b03-85e3-f751ca0efe28.png)
+![image](https://user-images.githubusercontent.com/54589605/221208058-23ae9fea-e909-4bfd-953d-86c120b74d20.png)
+![image](https://user-images.githubusercontent.com/54589605/221208230-0f7bc157-d48a-4aed-b983-5f1aaaf14601.png)
+
+1) When the compound statement is **True** and we have been told that **p** is **True** and it is not **necessary** that **q** is **True**, it can be **True** or **it is not True or false**. Hence we cannot give a **unique solution for **q** i.e whether **q** is **True or not**. It is a **solution** but not a **unique solution**.
+2) When the compound statement is **True** and we have been told that **p** is **not True or False** and in order for the compound statement to be **True**, **q** has to be or should be **True**, otherwise the compound statement will not remain **True**. Hence we can give a **unique solution for **q** i.e **q has to be True or q is True**.
+3)  When the compound statement is **True** and we have been told that **q** is **True** and it is not **necessary** that **p** is **True**, it can be **True** or **it is not True or false**. Hence we cannot give a **unique solution for **p** i.e whether **p** is **True or not**. It is a **solution** but not a **unique solution**
+4)  When the compound statement is **True** and we have been told that **q** is **not True or False** and in order for the compound statement to be **True**, **p** has to be or should be **True**, otherwise the compound statement will not remain **True**. Hence we can give a **unique solution for **p** i.e **p has to be True or p is True**.
+
+![image](https://user-images.githubusercontent.com/54589605/221210251-93124e2f-33a8-42a3-adcf-b6a077d80caa.png)
+![image](https://user-images.githubusercontent.com/54589605/221210666-39dfe6ec-e475-4600-a98f-768d647e9780.png)
+![image](https://user-images.githubusercontent.com/54589605/221210847-c7672487-e0c3-4f06-af10-07bb66904481.png)
+
+* The idea is **unique solutions**.
+
+### Questions
+
+![image](https://user-images.githubusercontent.com/54589605/221211609-17e0ca58-ba8b-4a32-b75e-5f288de73277.png)
+![image](https://user-images.githubusercontent.com/54589605/221212393-300b1d30-6e49-4892-af62-4e68375a18e5.png)
+![image](https://user-images.githubusercontent.com/54589605/221213419-d6a4b8c2-ba33-4b95-9ee9-45b9e30b1e07.png)
+
+
+### **If, then**
+
+* If p, then q.
+
+![image](https://user-images.githubusercontent.com/54589605/221214406-fc7bd242-5d4c-4cd4-84de-573b808bdf1e.png)
+
+* p -> If it is raining
+* q -> then I wear my raincoat.
+
+* (When it is raining) p -> q [**Unique Solution**, I am wearing my raincoat]
+* (When it is not raining) p' -> q/q' [Beyond the scope, **not a unique solution**]
+* (I am wearing my raincoat) q -> p/p' [Beyond the scope, **not a unique solution**]
+* (when I am not wearing my raincoat) q' -> p' [**Unique Solution**, When it is not raining]
+
+![image](https://user-images.githubusercontent.com/54589605/221215684-0f3b1db0-1338-4873-90a4-4c7cfed636c8.png)
+
+### **If, then** summary
+
+![image](https://user-images.githubusercontent.com/54589605/221215746-0dcaca83-17b9-42f6-9eb5-cbed851badd6.png)
+![image](https://user-images.githubusercontent.com/54589605/221216140-d26bfe7e-ab95-4c4b-8a37-1d7450a82591.png)
+
+* The statement with which **if** is attached is **p** for us.
+
+![image](https://user-images.githubusercontent.com/54589605/221217388-f0c3685c-4f86-4ef1-982b-b99901a8285b.png)
+
+
+* Continue for **1hr**. 
 
 
 
