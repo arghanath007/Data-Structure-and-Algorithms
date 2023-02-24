@@ -789,8 +789,147 @@
 ![image](https://user-images.githubusercontent.com/54589605/220964120-0a9829c3-62d6-4d77-9279-eecadc3e5f72.png)
 
 
+## Verbal_Reasoning_II (13) [24th Feb 2023]
+
+![image](https://user-images.githubusercontent.com/54589605/221151211-1c1102f8-abeb-4280-aade-a03bad1ec982.png)
+![image](https://user-images.githubusercontent.com/54589605/221151268-d5b8d1f5-c76a-4b98-b7b3-5a171443c278.png)
+
+## Syllogism(**Important**)
+
+![image](https://user-images.githubusercontent.com/54589605/221151866-fbcf3140-fb4c-43b2-ba0a-63232985cca3.png)
+![image](https://user-images.githubusercontent.com/54589605/221152123-0cdf439b-a934-45fd-ad99-339fe683b2f5.png)
+
+* Avatar 2 was a **great movie** -> Outcome/Verdict/Conclusion
+* Premise -> P
+* Conclusion -> C
+
+### Deductive Reasoning
+
+![image](https://user-images.githubusercontent.com/54589605/221153094-d3047ef1-106f-439e-a849-b13b515f69cc.png)
+ 
+> In the type of **reasoning**, where there is **no doubt/ambiguity** in the **conclusion**, that type of reasoning is called as **Deductive Reasoning**. Henceforth, we will call it as **Logical Necessity(Unique solution) or LN**.
+
+![image](https://user-images.githubusercontent.com/54589605/221154511-38768097-0697-4114-9ca3-cd4618b2cd3f.png)
+
+### Inductive Reasoning
+
+> In the type of **reasoning**, where there is **doubt/ambiguity** in the **conclusion**, that type of reasoning is called as **Inductive Reasoning**. Henceforth, we will call it as **Logical Possibility or LP**.
+
+![image](https://user-images.githubusercontent.com/54589605/221155710-954ba4e1-f792-4c4c-a0b9-1477520fc1a2.png)
+![image](https://user-images.githubusercontent.com/54589605/221155883-2a993ab7-70b2-4f9f-9b3c-f6daba29bcb1.png)
+
+* Syllogism -> Main objective is to find **unique solution**. Because of these reason, we always go for **At least** case.
+
+![image](https://user-images.githubusercontent.com/54589605/221156449-982341f8-7201-44e5-abf7-e06a33c342a2.png)
+
+### Note
+
+![image](https://user-images.githubusercontent.com/54589605/221157916-9eba6128-0e59-4871-b9d8-7829d5709dbc.png)
+
+* Iron -> Metal
+* Irons -> Beriya/fetters or chains
+
+### **Some**
+
+* Kuch/Atleast one(1)
+* It can be used with both **countable(Apples) as well as uncountable(rice)** nouns.
+
+![image](https://user-images.githubusercontent.com/54589605/221158803-31f9c132-e21e-4323-80cc-7f30e9d488e3.png)
+![image](https://user-images.githubusercontent.com/54589605/221158942-8ce4ad2e-6bd0-420d-8d61-789092c5d8dd.png)
+
+> In a class of 100 students, some boys are **black**. It means that **atleast one** of the boys is **black**. 
+
+![image](https://user-images.githubusercontent.com/54589605/221159421-f590ac67-9619-4aff-a9a4-936aa8728ab0.png)
+
+### Summary
+
+![image](https://user-images.githubusercontent.com/54589605/221160568-ed19f5c3-05fb-44bc-ac7d-ac4e46dff70b.png)
+
+* Always go for **unique solutions or LN**. Only in the absence of **unique solution or LN**, then only go for **Logical possibility or LP**.
+* **LP + maybe** -> **LN**.
+* Do not **assume** anything **external** in the **given premise**.
+
+![image](https://user-images.githubusercontent.com/54589605/221161574-47eb4df3-7aed-4e2c-9a92-48b2733a037c.png)
+![image](https://user-images.githubusercontent.com/54589605/221162993-e2696697-dd34-48b7-a853-f9d4b7bdd709.png)
+![image](https://user-images.githubusercontent.com/54589605/221163056-237fceb3-d241-44ef-b829-3266b51a4f2c.png)
+
+* Some -> Atleast
+* Some X is/are Y -> Atleast one of the elements from X are present in Y.
+
+![image](https://user-images.githubusercontent.com/54589605/221163840-6e3471e5-1c8f-4cad-a786-f8305b6eba5f.png)
+
+* Some ->(Grows) to **All**.
+* Extreme of **Some** is **All**.
+* Some -> All
+
+![image](https://user-images.githubusercontent.com/54589605/221164081-687a3db7-c9be-4c00-9deb-61a1338171e1.png)
+![image](https://user-images.githubusercontent.com/54589605/221164204-865ebbc5-3d41-40f5-9895-682fb496df70.png)
+
+* All X is/are Y -> All elements of X are in Y -> X ka har ek element Y hai. X doesn't have any elements that are not in Y.
+
+![image](https://user-images.githubusercontent.com/54589605/221164400-7f63ce98-77db-4856-a94c-7b1053663f61.png)
+
+* Some X is/are not Y -> Atleast one element of X is not in Y. 
+
+![image](https://user-images.githubusercontent.com/54589605/221171030-f45a34db-364c-458e-b8f4-f943f6100037.png)
+![image](https://user-images.githubusercontent.com/54589605/221171995-c696378d-a99b-4306-bef5-4fd166538e35.png)
+![image](https://user-images.githubusercontent.com/54589605/221172292-4f0da17f-e8b3-4f52-8fdf-39e71fc1d07f.png)
+
+* All of the elements of X are not in Y. OR, None of the elements of X are not in Y.
+* Some Not ->(Grows) to **None/No**.
+* Some Not -> None/No
+
+![image](https://user-images.githubusercontent.com/54589605/221172879-8e376356-a34e-4535-96d8-7ebefd045f05.png)
+![image](https://user-images.githubusercontent.com/54589605/221173033-8c6b71a2-f0f4-4cce-9f88-d9d7a9793b5d.png)
+![image](https://user-images.githubusercontent.com/54589605/221172967-c0bcc585-7f82-4db3-977d-9533016bd8d0.png)
+
+* Disjoint set
+
+### Syllogism Summary
+
+* Two important things of Syllogism
+
+1) Unique Solution
+2) Alteast Case
+
+![image](https://user-images.githubusercontent.com/54589605/221173537-12eeccd2-c69f-4c29-ab4f-274d4bd72def.png)
 
 
+### Questions
+
+![image](https://user-images.githubusercontent.com/54589605/221174169-d8b6aa09-e11e-4c70-91ac-722f3d7d6418.png)
+![image](https://user-images.githubusercontent.com/54589605/221174587-ffc8029e-1e61-4df2-9821-f0be8b71bdac.png)
+
+
+1)![image](https://user-images.githubusercontent.com/54589605/221174801-09a280de-ebfe-4caf-83b4-710464030a62.png)
+
+* I(1) -> All A are B and All B are C.
+
+2)![image](https://user-images.githubusercontent.com/54589605/221174854-d4ab8c39-cfd5-4e39-9bec-b69ed21ecd98.png)
+
+* II(2) -> All A are B and some B are C.
+
+3)![image](https://user-images.githubusercontent.com/54589605/221175050-ec801854-dfff-4660-8c07-4cd1cddb5634.png)
+
+* III(3) -> All A are B and All A are C.
+
+![image](https://user-images.githubusercontent.com/54589605/221175258-7ac0c82e-cc42-4d9b-8218-f0cc8ac3239c.png)
+![image](https://user-images.githubusercontent.com/54589605/221175285-74702f6e-2991-49c8-8953-67f78b5b8ddb.png)
+
+![image](https://user-images.githubusercontent.com/54589605/221176382-36c818a2-9a69-450c-8b34-b02eaf973b84.png)
+![image](https://user-images.githubusercontent.com/54589605/221176488-38dbe285-916c-4c87-8551-8139e2f74b51.png)
+![image](https://user-images.githubusercontent.com/54589605/221177464-c4089ca1-1c07-4236-8ab6-9f436d23688a.png)
+![image](https://user-images.githubusercontent.com/54589605/221178410-5ef623ff-3483-46d4-b29e-39bb7fea63aa.png)
+
+![image](https://user-images.githubusercontent.com/54589605/221179707-ed509a48-b1ee-4333-be70-8dca2f61a443.png)
+![image](https://user-images.githubusercontent.com/54589605/221179633-64908c3e-608a-4825-9262-2335ad88ffcc.png)
+
+![image](https://user-images.githubusercontent.com/54589605/221180060-ce8496a1-1e22-4557-8cc2-9edb8da5f830.png)
+
+![image](https://user-images.githubusercontent.com/54589605/221180794-d6f0db10-7b5c-4afc-9d01-2b6cf0e92ea9.png)
+![Verbal_2](https://user-images.githubusercontent.com/54589605/221185937-dab8acc0-0a2f-4c48-9a27-ff95f1d22b18.jpeg)
+![Verbal_3](https://user-images.githubusercontent.com/54589605/221185945-c3176948-0984-4661-a6ee-0963ae9b7e97.jpeg)
+![Verbal_4](https://user-images.githubusercontent.com/54589605/221185949-45ea2879-7040-4f5f-a459-8b7c5947ad35.jpeg)
 
 
 
