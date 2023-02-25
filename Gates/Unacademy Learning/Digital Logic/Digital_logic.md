@@ -1330,6 +1330,18 @@ y= M(0,3)
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 # Practice Questions and Solutions
 
 * Link -> https://drive.google.com/drive/folders/1Feqhx3AHQt1MXlX-UxTk-q5V0EK_UUJv
@@ -1597,6 +1609,13 @@ y= M(0,3)
 ![Boolean_Algebra_37](https://user-images.githubusercontent.com/54589605/220425595-12fc3f5f-ef90-45dc-b98c-5431e516041f.jpeg)
 ![Boolean_Algebra_38](https://user-images.githubusercontent.com/54589605/220425606-360e3900-d1c7-4f50-aaa5-f25d4f3d4bea.jpeg)
 ![Boolean_Algebra_39](https://user-images.githubusercontent.com/54589605/220425611-3cc9b1c9-2f0c-4538-ba9d-08c55d9e0418.jpeg)
+
+## Quiz -1
+
+* Link -> https://unacademy.com/quiz/quiz-i/GHBP234BLO/attempts/SP_D3D556TXHE409MJQE
+
+![1_Quiz_1](https://user-images.githubusercontent.com/54589605/221354263-e6ced04e-ca20-4f9c-a2a7-b3bb26caf3c1.jpeg)
+![1_Quiz_2](https://user-images.githubusercontent.com/54589605/221354265-f95e476d-f683-4f9d-97e0-ea8b9c31dd42.jpeg)
 
 
 
