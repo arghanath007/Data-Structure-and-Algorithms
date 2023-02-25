@@ -1071,7 +1071,7 @@
 
 
 ![image](https://user-images.githubusercontent.com/54589605/221352787-6742a87e-c524-4f8d-9c43-148a222d9e4f.png)
-
+![Verbal_5](https://user-images.githubusercontent.com/54589605/221354319-c2affdf7-879a-44da-9dd9-859ba23d1e0b.jpeg)
 
 
 
