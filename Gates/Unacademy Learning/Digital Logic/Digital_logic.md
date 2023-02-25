@@ -1323,6 +1323,175 @@ y= M(0,3)
 ![Logic_Gates_2](https://user-images.githubusercontent.com/54589605/220826575-04e931cd-70a6-43de-a0f1-719212fd7c71.jpeg)
 ![Logic_Gates_3](https://user-images.githubusercontent.com/54589605/220826577-9872694d-e080-4433-b4df-6f54ede5241d.jpeg)
 
+## Logic Gates-II (9) [25th Feb 2023]
+
+> In **Q1**, if both **inputs** are the same then we get **1** as the **ouput**, as **Ex-NOR** is called as a  **equality detector**.
+
+* **Ex-NOR** -> **equality detector**
+* **Ex-OR** -> **Inequality detector**.
+
+### Questions
+
+![image](https://user-images.githubusercontent.com/54589605/221355510-60f62ca5-fb09-4ef5-9087-f9ec02057ff4.png)
+![image](https://user-images.githubusercontent.com/54589605/221355487-4a28cd5f-7808-41d6-9e6d-567abf1cca03.png)
+
+> Sir made a mistake, in the above question. It should be **C**.
+![image](https://user-images.githubusercontent.com/54589605/221356312-b3ce4f25-4b6d-4a0f-b06b-5c591b3d6644.png)
+![image](https://user-images.githubusercontent.com/54589605/221356763-2d9301d5-bb0b-4788-86d0-dd414cd43c9d.png)
+
+**Important**
+![image](https://user-images.githubusercontent.com/54589605/221356745-f2d1e8ad-0a25-40ec-b8a8-d3d0d9dca746.png)
+
+* y=1 is possible when all of the inputs are **ABC or all of them are 1** as the last gate is an **AND** gate and for and gate, it is **1** when all of the **inputs are 1**.
+* For **Ex-NOR**, we get **1**, when the inputs are the **same**, that why **B and C** are **1**.
+* For **Ex-OR**, we get **1**, when the inputs are **different**, we already found out that **B** should be **1** then **A** should be **0**.
+
+![image](https://user-images.githubusercontent.com/54589605/221357053-74339990-8c55-43ec-b2ab-28197bc1193d.png)
+
+* As 20 is even, we can do for **2** and found out the answer for **20**.
+
+![image](https://user-images.githubusercontent.com/54589605/221357314-d171c3d6-8147-49f0-aa0e-a2b787925185.png)
+![image](https://user-images.githubusercontent.com/54589605/221357359-ba840b9a-2978-406a-8ecc-e88d17d354c5.png)
+![image](https://user-images.githubusercontent.com/54589605/221357765-4e2d8523-0ceb-49e6-9d27-36ee7d003a63.png)
+
+
+### Alternative Logics
+
+![image](https://user-images.githubusercontent.com/54589605/221357982-ce111799-04b4-4ae6-bcd2-0106d3f4da7b.png)
+
+* Buffer -> Even no. of **NOT** Gates.
+* NOT -> Bubble + buffer
+* AND -> AB **Or** ((AB)')' = (A' + B')'   [Double complement method]
+
+> For the **A' and B'**, we are taking **one bubble each**. For **(A' + B')'**, we have to use **NOR** gate here.
+> It is called as a **Bubbled NOR gate**. It is **identically equal** to **AND** gate.
+
+![image](https://user-images.githubusercontent.com/54589605/221358545-9eaa5f52-a349-456f-873c-95af1aa9dbc6.png)
+
+![image](https://user-images.githubusercontent.com/54589605/221358207-15c4806e-2a96-498d-817a-4aa3cd29bc62.png)
+
+
+* OR -> A + B Or ((A + B)')' = (A' * B')'   [Double complement method]
+
+> For the **A' and B'**, we are taking **one bubble each**. For **(A' + B')'**, we have to use **NAND** gate here.
+
+* NAND -> (AB)' -> (A' + B')
+
+> As there is a **bar/complement** already, so we don't have to use the **Double complement method** here. We can just use **two bubble, one each for A' and B'**. We are using an **OR** gate.
+
+* NOR -> (A + B)' -> (A' * B')
+
+> As there is a **bar/complement** already, so we don't have to use the **Double complement method** here. We can just use **two bubble, one each for A' and B'**. We are using an **AND** gate. It is called as **Bubbled AND** gate. It is **identically equal** to **NOR** gate.
+
+![image](https://user-images.githubusercontent.com/54589605/221358482-2a1e78c9-015f-4aff-a525-3404cfcb53b6.png)
+
+* Bubbled NAND(4) -> OR
+* Bubbled OR(5) -> NAND
+
+
+![image](https://user-images.githubusercontent.com/54589605/221358743-a240a070-8bc8-4fd0-b5e7-e0a16b5d9f56.png)
+![image](https://user-images.githubusercontent.com/54589605/221358797-18197379-ed4b-4bbb-9e2b-862bc80d3c29.png)
+
+
+### Method 1
+
+![image](https://user-images.githubusercontent.com/54589605/221359261-12b996f3-e80d-4851-bc34-0c1ac023157e.png)
+
+> Using **AND** and **OR** gates.
+
+![image](https://user-images.githubusercontent.com/54589605/221359437-5170e797-bae1-4277-8e49-6a3dd19b9f62.png)
+
+* **Bubbled OR gate** is nothing but **NAND** gate only.
+
+> The **two level AND-OR** logic is nothing but **two level NAND-NAND** logic. They are identical equal to each other. 
+> We are implementing with **NAND** gate. Whenever we want to express some expression in **NAND** gate, then the expression must be in **SOP** form. If it is not in **SOP** form, then we have to convert it into **SOP** form.
+
+* NAND -> SOP form
+
+![image](https://user-images.githubusercontent.com/54589605/221359529-818c7cf7-14d9-4645-9ab9-70b4e93db976.png)
+![image](https://user-images.githubusercontent.com/54589605/221359626-a24ec6cd-f69c-4306-aa7a-413ba23dcd40.png)
+
+### Method 2
+
+![image](https://user-images.githubusercontent.com/54589605/221359736-b4358374-f3b1-4e3b-8414-cc3dcfe66f3b.png)
+
+
+![image](https://user-images.githubusercontent.com/54589605/221359931-bcacec53-cbfd-4f59-b4cb-8bb700d254c1.png)
+
+* NOR -> POS form
+* **Bubbled AND** gate is nothing but **NOR** gate.
+
+![image](https://user-images.githubusercontent.com/54589605/221359997-70876a51-ae7c-4102-a11f-e0d1a55bad5b.png)
+![image](https://user-images.githubusercontent.com/54589605/221360027-7fccca64-73b3-4a3e-a129-bf6c0707fb84.png)
+![image](https://user-images.githubusercontent.com/54589605/221360080-4284cdcf-33a8-45a8-ab5c-68ea69ba763a.png)
+
+### Notes
+
+![image](https://user-images.githubusercontent.com/54589605/221360094-c2234fc3-d3ae-4293-abce-21383da60082.png)
+![image](https://user-images.githubusercontent.com/54589605/221360120-c21624bd-b5f8-4295-86f3-8a8875b08fe4.png)
+
+* It is valid for **two levels** only. 
+
+
+![image](https://user-images.githubusercontent.com/54589605/221360300-5571d07a-762c-49ae-b5a1-96fea1404b19.png)
+
+* **3 NAND** gates are required to implement the given expression.
+
+![image](https://user-images.githubusercontent.com/54589605/221360434-c83bdd68-ec0e-4690-9047-7502c39f50cb.png)
+
+* **3 NOR** gates are required to implement the given expression.
+
+
+![image](https://user-images.githubusercontent.com/54589605/221360735-d3f0486d-033b-43e1-945e-6719b11c5829.png)
+
+* **4 NAND** gates are required to implement the given expression.
+
+
+## Universal Gates
+
+![image](https://user-images.githubusercontent.com/54589605/221360773-7d8e8717-eede-4dbc-b00b-dc0e611a16db.png)
+![image](https://user-images.githubusercontent.com/54589605/221360835-e570a765-fce0-451c-a7fc-39f2bb66c46b.png)
+![image](https://user-images.githubusercontent.com/54589605/221360951-ffc188ea-a2fc-4c75-8519-c9e48195c51f.png)
+![image](https://user-images.githubusercontent.com/54589605/221360969-e0042fee-17f6-4bdd-b2b9-60561bb50deb.png)
+![image](https://user-images.githubusercontent.com/54589605/221361181-87ec3340-8afd-41a7-93ac-1453ef400e9d.png)
+![image](https://user-images.githubusercontent.com/54589605/221361225-33f24fcc-d026-405b-af35-707501710bab.png)
+![image](https://user-images.githubusercontent.com/54589605/221361339-d8f7acf8-eea1-4e12-98f5-2abd5c61163b.png)
+![image](https://user-images.githubusercontent.com/54589605/221361394-99d995dc-0ec3-4c72-9d96-a911db831140.png)
+
+* Barfi Design. NAND Barfi. **Kaju Barfi Design**. For both **EX-OR and EX-NOR**, we use the **Barfi NAND** design.
+* **4 NAND** gates for **EX-OR**
+
+### NOR Gate
+
+* **Bubbled NOR** gate is **AND** gate.
+* **Bubbled AND** gate is **NOR** gate.
+
+![image](https://user-images.githubusercontent.com/54589605/221361534-91b9e43c-e072-45eb-b1f6-423ceb60b6b2.png)
+![image](https://user-images.githubusercontent.com/54589605/221361577-d69450c0-0431-421f-85cf-6a9703354fe0.png)
+
+
+* Barfi Design. NOR Barfi. **Badam Barfi Design**. For both **EX-OR and EX-NOR**, we use the **NOR Barfi** design.
+
+![image](https://user-images.githubusercontent.com/54589605/221361693-56b2e8c8-087b-4631-936d-5bef9f7bd523.png)
+
+* **5 NOR** gates for **EX-OR**
+
+![image](https://user-images.githubusercontent.com/54589605/221361756-19f930c0-ba82-4e52-ba51-c605f45e451b.png)
+
+* **4 NOR** gates for **EX-NOR**
+
+
+![Logic_Gates_4](https://user-images.githubusercontent.com/54589605/221362300-68281cc5-9c59-460e-bb62-bfbcc9126e5b.jpeg)
+![Logic_Gates_5](https://user-images.githubusercontent.com/54589605/221362301-02ae773b-860b-4899-a5e1-5874fffbd195.jpeg)
+![Logic_Gates_6](https://user-images.githubusercontent.com/54589605/221362304-b069ca31-df6e-4369-871f-bc6844c85b51.jpeg)
+![Logic_Gates_7](https://user-images.githubusercontent.com/54589605/221362305-51ceae4c-1b34-4a07-b9aa-69091902404b.jpeg)
+![Logic_Gates_8](https://user-images.githubusercontent.com/54589605/221362320-e0a44930-aae9-46f5-a359-4066a35eaabc.jpeg)
+
+
+
+
+
+
 
 
 * After This video, do the **5** daily assignments. (**DONE**)
@@ -1330,7 +1499,7 @@ y= M(0,3)
 
 
 
-
+ 
 
 
 
