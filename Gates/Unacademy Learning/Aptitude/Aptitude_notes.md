@@ -1023,8 +1023,59 @@
 
 ![image](https://user-images.githubusercontent.com/54589605/221217388-f0c3685c-4f86-4ef1-982b-b99901a8285b.png)
 
+### **Whenever**
 
-* Continue for **1hr**. 
+* It works same like **if**.
+* The statement with which **Whenever** is attached is **p** for us.
+
+![image](https://user-images.githubusercontent.com/54589605/221345718-f36890ab-5c2f-407c-a27c-299f36cc0192.png)
+![image](https://user-images.githubusercontent.com/54589605/221345790-e177e289-b02a-41cc-a35b-52762b01fd94.png)
+![image](https://user-images.githubusercontent.com/54589605/221346302-1fdf45aa-5923-4a2b-95a7-02b8cd2189b3.png)
+
+### **Not**
+
+![image](https://user-images.githubusercontent.com/54589605/221345842-f2dd1822-b905-4be7-9916-5211096aed09.png)
+
+* P -> It is not raining
+* p' -> It is raining
+
+### **AND**
+
+* For the **compound statement** to be **True**, then both the **single** statements must be **True**.
+
+![image](https://user-images.githubusercontent.com/54589605/221352066-a47a322b-037e-48b3-ad29-bee2310040ad.png)
+
+* Negation of **OR** is **AND** only.
+
+![image](https://user-images.githubusercontent.com/54589605/221352085-618d6896-2a37-47a6-8dc5-85fbe4ecbf9d.png)
+
+* If we do negation of **P or Q** then we get **P' and q'**.
+
+![image](https://user-images.githubusercontent.com/54589605/221352430-224b29bb-ea4f-43ef-932f-b5c64a4a2190.png)
+ 
+
+## Summary
+
+![image](https://user-images.githubusercontent.com/54589605/221352508-645293a2-230a-4586-9136-be73be68e8e7.png)
+![image](https://user-images.githubusercontent.com/54589605/221352539-9d5b7ab7-d5fb-413d-be96-b32e6101d0c1.png)
+
+![image](https://user-images.githubusercontent.com/54589605/221352584-cf6e5c2e-22e6-4b32-8193-32129c847f94.png)
+
+### **Only if**
+
+![image](https://user-images.githubusercontent.com/54589605/221352640-6a440b02-727c-4fee-83e0-e60457129dff.png)
+
+* Sir make a mistake, it would be q'
+* q->p
+* p'->q'
+
+
+![image](https://user-images.githubusercontent.com/54589605/221352787-6742a87e-c524-4f8d-9c43-148a222d9e4f.png)
+
+
+
+
+
 
 
 
