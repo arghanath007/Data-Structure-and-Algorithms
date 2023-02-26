@@ -1488,9 +1488,101 @@ y= M(0,3)
 ![Logic_Gates_8](https://user-images.githubusercontent.com/54589605/221362320-e0a44930-aae9-46f5-a359-4066a35eaabc.jpeg)
 
 
+## Logic Gates-III (10) [26th Feb 2023]
+
+![image](https://user-images.githubusercontent.com/54589605/221401470-e7c3d75f-ec09-4966-9bc9-e1a1445d076e.png)
+
+## Venn Diagrams
+
+* S -> Sample space/Universal Set
+
+![image](https://user-images.githubusercontent.com/54589605/221401589-5f0c7a2d-74c5-473a-a068-a85e5b730514.png)
+![image](https://user-images.githubusercontent.com/54589605/221401638-d826dc58-92a3-427b-8549-ba1df129837b.png)
+![image](https://user-images.githubusercontent.com/54589605/221401669-4a96daf5-0149-43a0-993b-147e3132062b.png)
+![image](https://user-images.githubusercontent.com/54589605/221401709-8505a6f6-2344-4d54-a185-efda7b80e8c3.png)
+![image](https://user-images.githubusercontent.com/54589605/221401841-04afdf24-9a94-4722-ba7e-347d765c7e75.png)
+![image](https://user-images.githubusercontent.com/54589605/221402006-25dc0c89-3c1d-4b8c-997d-2b9f8e6e43e6.png)
+![image](https://user-images.githubusercontent.com/54589605/221401928-34bdc5c5-91a3-42ea-9cf9-df27e5de91db.png)
+![image](https://user-images.githubusercontent.com/54589605/221402076-a12d2027-e5b9-4c2f-a977-7708d44267b5.png)
+
+* For **EX-OR**, the things **common** between **A and B**, won't come. The things which are not present in **A or B** won't come as well.
+
+![image](https://user-images.githubusercontent.com/54589605/221402207-b78ceab1-1512-4ebc-8c47-80bc72d1bcc0.png)
+![image](https://user-images.githubusercontent.com/54589605/221402261-68fdcdc5-5897-40ca-a03c-823e8e75502a.png)
+
+* AB -> Product -> Intersection -> Common part
+
+### Questions
+
+![image](https://user-images.githubusercontent.com/54589605/221402670-07b4a36b-285f-418f-bb31-419043f2cc2b.png)
+![image](https://user-images.githubusercontent.com/54589605/221402660-9a26e038-0f7d-4661-98d1-9d9a7555ff15.png)
+![image](https://user-images.githubusercontent.com/54589605/221402650-598541ae-ea63-4531-adce-e2ba334354d7.png)
+![image](https://user-images.githubusercontent.com/54589605/221402847-61115748-3173-44da-ae16-1fb023ccc44a.png)
+![image](https://user-images.githubusercontent.com/54589605/221402883-b8016ff3-d5bb-4c03-97af-1a1f92b02405.png)
+ 
+![image](https://user-images.githubusercontent.com/54589605/221403120-f2dc9bc9-e23f-4fee-8895-cb6298f89f5e.png)
+![image](https://user-images.githubusercontent.com/54589605/221403162-2cc29516-29bb-46ee-8d1c-9dd2000b2e25.png)
+![image](https://user-images.githubusercontent.com/54589605/221403184-7a8dd7b3-6581-40c2-8109-cd617230fefd.png)
+![image](https://user-images.githubusercontent.com/54589605/221403242-b0b6a5e9-9e52-4eca-aa46-9d19b401e007.png)
+![image](https://user-images.githubusercontent.com/54589605/221403297-c9a29865-e705-4951-88b5-a8b698cecba7.png)
+
+> In the above question, don't try to do it directly. There will be chances of making mistakes. Try to analyze it without the bubble. 
+> Whenever we have to this type of questions for **NAND and NOR** gates, we have to do it like this only, othewise we will make some mistake.
+> For these type of questions, **Remove the bubble** and try to analyze.
+
+![image](https://user-images.githubusercontent.com/54589605/221407159-c7d4e669-5f00-466c-aa68-4559ac37e1df.png)
+
+![image](https://user-images.githubusercontent.com/54589605/221407199-b606faf4-8dab-4c5d-82ab-677bbd93f9aa.png)
+![image](https://user-images.githubusercontent.com/54589605/221407331-d3e7e08d-703d-4ebc-9f56-e2f7b861f5c3.png)
+
+![image](https://user-images.githubusercontent.com/54589605/221407718-9f06be73-395a-4c01-8d7c-3b30facc119a.png)
+
+> For these type of questions, **Remove the bubble** and try to analyze.
+
+![image](https://user-images.githubusercontent.com/54589605/221407887-2c43d196-19a5-4b0d-949a-9f57acdfdffb.png)
+![image](https://user-images.githubusercontent.com/54589605/221408245-4a6a7150-fe5b-4ad0-af55-cbcdc34b6cd4.png)
+
+![image](https://user-images.githubusercontent.com/54589605/221408527-f44b19e4-6998-4b1a-b48a-d9ad35cae138.png)
+![image](https://user-images.githubusercontent.com/54589605/221408743-ce35bde2-1f6f-4e46-b643-8c057d8a47f2.png)
+![image](https://user-images.githubusercontent.com/54589605/221408750-f204d64f-b4cc-4109-9c08-b235047b4968.png)
+![image](https://user-images.githubusercontent.com/54589605/221408822-1211e62a-c488-424b-a84c-b4e6fd609103.png)
+![image](https://user-images.githubusercontent.com/54589605/221409052-b81aefd9-cb15-405c-82a4-42f31d948252.png)
+![image](https://user-images.githubusercontent.com/54589605/221409067-8fe3b71d-d2be-4789-827b-74ef981aaa91.png)
+
+![image](https://user-images.githubusercontent.com/54589605/221409198-62797fa6-efc3-4b1d-8176-7d211169fc95.png)
+![image](https://user-images.githubusercontent.com/54589605/221409264-2ae3b828-4d22-4e98-ad50-acc2586b52b7.png)
+![image](https://user-images.githubusercontent.com/54589605/221409490-92c37a4f-6df5-45ec-9822-a4533836768a.png)
+![image](https://user-images.githubusercontent.com/54589605/221409571-8268d868-ab56-4e33-87a6-eaf4aed6644f.png)
+
+* Transition -> Values changing from 0 to 1 and 1 to 0. **0 to 1** is one transition. 
+
+![image](https://user-images.githubusercontent.com/54589605/221409630-86d0d7b7-798e-449e-a424-cbaf32c8cf93.png)
+
+![image](https://user-images.githubusercontent.com/54589605/221409795-0661bb3a-2015-470e-8f83-10d3f1423e77.png)
+![image](https://user-images.githubusercontent.com/54589605/221409830-33d53014-5cac-40e6-acb8-081a1ad8d2cf.png)
+![image](https://user-images.githubusercontent.com/54589605/221410174-b01d745a-1452-4398-bae8-fc6433405839.png)
+![image](https://user-images.githubusercontent.com/54589605/221410190-a348d509-342a-4804-872a-780785c0821b.png)
+![image](https://user-images.githubusercontent.com/54589605/221410401-169b0a38-4726-44a4-ac61-212671ce4b96.png)
 
 
+![image](https://user-images.githubusercontent.com/54589605/221410745-38de010c-6d3b-4c3e-b3d6-1f66896aa16f.png)
+![image](https://user-images.githubusercontent.com/54589605/221410872-1adc9190-7f8a-455d-83f5-82792ca2a897.png)
+![image](https://user-images.githubusercontent.com/54589605/221410932-e522c1ca-f877-4219-8bab-870bef6edf07.png)
 
+* Should be **60** instead of **80**.
+
+![image](https://user-images.githubusercontent.com/54589605/221411008-0bfe5c3a-c351-44ab-bc4d-081cee2c1926.png)
+
+![image](https://user-images.githubusercontent.com/54589605/221411257-2cd7472d-0219-4516-ac4d-9945020d15f2.png)
+![image](https://user-images.githubusercontent.com/54589605/221411352-7f9ff2cf-fa34-44c3-83c1-f71c6d97793f.png)
+![image](https://user-images.githubusercontent.com/54589605/221411383-8edf9f53-8bf7-4b91-91b5-1331a91bf1c6.png)
+![image](https://user-images.githubusercontent.com/54589605/221411391-31acb28e-4bd6-4ae4-b5b2-11c180786fdf.png)
+
+
+![image](https://user-images.githubusercontent.com/54589605/221411451-b7032db2-07db-40dd-99ff-349cfb79bac8.png)
+![image](https://user-images.githubusercontent.com/54589605/221411464-739c5f8e-a4cb-46e5-b921-a721389b723e.png)
+
+* Same Problem.
 
 
 
