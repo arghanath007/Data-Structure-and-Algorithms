@@ -1490,6 +1490,10 @@ y= M(0,3)
 
 ## Logic Gates-III (10) [26th Feb 2023]
 
+* Link -> https://unacademy.com/class/logic-gates-iii/LU60VD4I [**Very Imporant**] 
+
+> Practice these type of questions. They are very hard.
+
 ![image](https://user-images.githubusercontent.com/54589605/221401470-e7c3d75f-ec09-4966-9bc9-e1a1445d076e.png)
 
 ## Venn Diagrams
