@@ -1649,6 +1649,11 @@ y= M(0,3)
 ![image](https://user-images.githubusercontent.com/54589605/221511070-18af10ed-9aa0-4bd4-b6cd-049b562273dc.png)
 ![image](https://user-images.githubusercontent.com/54589605/221555994-e0fe1034-f308-48ef-8c88-21d93c7985bc.png)
 
+![Logic_Gates_9](https://user-images.githubusercontent.com/54589605/221578186-7eac2208-75e0-44eb-8a34-31e04d49a095.jpeg)
+![Logic_Gates_10](https://user-images.githubusercontent.com/54589605/221578194-6ae275de-76cb-4b14-8b5d-a0c13b62828a.jpeg)
+![Logic_Gates_11](https://user-images.githubusercontent.com/54589605/221578200-c4d2235a-c2c6-42db-a3a0-c363e4d9adb7.jpeg)
+![Logic_Gates_12](https://user-images.githubusercontent.com/54589605/221578206-25c769aa-46ee-4081-9fe4-f0ea2dafbd28.jpeg)
+
 
 
 
@@ -1991,4 +1996,9 @@ y= M(0,3)
 ![image](https://user-images.githubusercontent.com/54589605/221572078-e36db17d-033c-4a35-a722-b240ac647ae9.png)
 
 
- 
+![1_DPP_1](https://user-images.githubusercontent.com/54589605/221579487-ac9d24e3-f76d-48e7-b2c0-33517e00b7e3.jpeg)
+![2_DPP_1](https://user-images.githubusercontent.com/54589605/221579494-e28d35a3-6c25-4a90-9e42-1aefdbb70684.jpeg)
+![3_DPP_1](https://user-images.githubusercontent.com/54589605/221579499-27d6d3c8-4c0c-4282-ac6e-bfa264fb3f15.jpeg)
+![4_DPP_1](https://user-images.githubusercontent.com/54589605/221579503-3fc29a68-52b3-417b-bbe1-3c0d1d4313ef.jpeg)
+![5_DPP_1](https://user-images.githubusercontent.com/54589605/221579506-bb9e68d8-c7a2-46f2-abe3-15dcdd2cf4c8.jpeg)
+![6_DPP_1](https://user-images.githubusercontent.com/54589605/221579510-5b988a61-3a3a-4532-816c-6eedf416d1af.jpeg)
