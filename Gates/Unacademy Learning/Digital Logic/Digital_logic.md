@@ -1588,23 +1588,73 @@ y= M(0,3)
 
 * Same Problem.
 
+## Logic Gates-IV (11) [27th Feb 2023]
+
+![image](https://user-images.githubusercontent.com/54589605/221481459-9d9508fe-cf09-413a-bcdd-c009ced21ab5.png)
+![image](https://user-images.githubusercontent.com/54589605/221481841-d74a6f34-56c5-492f-ae89-3bf924a231ad.png)
+![image](https://user-images.githubusercontent.com/54589605/221482009-0f8b92e2-80bb-419d-84d6-a64bb0bab959.png)
+![image](https://user-images.githubusercontent.com/54589605/221483803-5f6644f5-c6d3-4eda-9f1c-115354bcb8d5.png)
+![image](https://user-images.githubusercontent.com/54589605/221484185-63f00728-45ad-4da3-92a5-21ce81048d0d.png)
+
+* Minterms(1,2,4,7) -> 3-input Ex-or Gate. [**IMPORTANT, ATM PIN**]
+* Minterms(a,b,c) -> ab + bc + ca -> (3,5,6,7) -> [**IMPORTANT, Mobile pin**] 
+
+![image](https://user-images.githubusercontent.com/54589605/221484821-9032f518-0db9-490b-82d2-9e5ca4cab32f.png)
+![image](https://user-images.githubusercontent.com/54589605/221486326-0a8f1c62-91bd-405b-9ea3-bd1d69302326.png)
+
+## Functionally Complete
+
+![image](https://user-images.githubusercontent.com/54589605/221488301-97ac85d5-e8ae-4a0f-8cd7-46f3c7e26081.png)
+![image](https://user-images.githubusercontent.com/54589605/221488748-772d9dae-c40f-4e38-91f9-7e94547d836e.png)
+
+> We need to design **one** special circuit that I can use for **AND, OR, as well as NOT** Gate also. This special circuit is called as a **Functionally Complete**. Using the **AND, OR and NOT** Gate, we can implement any and all boolean functions.**AND, OR and NOT** Gates are given as a whole group only. Not only **one** gate but the whole group(**AND, OR and NOT** Gate) is called as the **Functionally Complete Set**.
+> In **one** box only, all of the **three** gates are there only. All of the logic expressions we can do.
+
+> We know that using **NAND** Gate we can implement all of the logic expressions. NAND is a universal gate. Hence we can call **NAND** a **Functionally Complete Set**.
+> We know that using **NOR** Gate we can implement all of the logic expressions. NOR is a universal gate. Hence we can call **NOR** a **Functionally Complete Set**.
+
+* **NAND** and **NOR** -> **Functionally Complete Set**
+* **NAND** -> (NOT + AND) -> With this two we can create **NAND**, hence these two gates are also considered as  **Functionally Complete Set**.
+* **NOR** -> (NOT + OR) -> With this two we can create **NOR**, hence these two gates are also considered as  **Functionally Complete Set**.
+
+![image](https://user-images.githubusercontent.com/54589605/221491188-4995d764-edd7-4575-b0a7-f4e611ae5f9b.png)
+![image](https://user-images.githubusercontent.com/54589605/221491382-59842116-bcd2-47c6-9272-587da0dc846e.png)
+
+* **Functionally Complete Set** 
+
+1) **AND, OR, as well as NOT** Gates
+2) **NOT + AND**
+3) **NOT + OR**
+4) **NAND**
+5) **NOR**
+
+![image](https://user-images.githubusercontent.com/54589605/221491842-2efc605c-bb53-42fc-b1b8-08daf7faae9a.png)
+![image](https://user-images.githubusercontent.com/54589605/221492117-e227f89f-4402-44f8-9385-08c2f5996316.png)
+
+> Here, first we have to try and find **NOT** gate first. After that we have to try and get **AND or OR** Gate either one of them is fine. As **NOT + AND** or **NOT + OR** are **Functionally Complete Set**.
+
+![image](https://user-images.githubusercontent.com/54589605/221492566-d3763648-dcd2-4602-aa60-b26ec13fb969.png)
+
+> In place of Boolean Variables, substitude them with **A,0 and 1**.
+
+![image](https://user-images.githubusercontent.com/54589605/221493109-d0ca07b7-cac0-458d-b814-dfe515045f47.png)
+
+* **Both AND and OR** are **not required**. **One** is sufficient. Anyone of  **AND** or **OR** Gate is fine.
+
+![image](https://user-images.githubusercontent.com/54589605/221493781-735f698b-8743-4065-be6c-89e3cf39f366.png)
+![image](https://user-images.githubusercontent.com/54589605/221494077-01e28657-4d37-43d2-b063-3a49c1173fcf.png)
+![image](https://user-images.githubusercontent.com/54589605/221495143-a499aa16-a876-4852-8473-b722f7fc9b05.png)
+![image](https://user-images.githubusercontent.com/54589605/221495573-d6015add-327a-4d40-bc0f-e5eb129bb176.png)
+![image](https://user-images.githubusercontent.com/54589605/221496374-8ef3cfba-49e1-43a0-951e-2b13cabc2e18.png)
+![image](https://user-images.githubusercontent.com/54589605/221511070-18af10ed-9aa0-4bd4-b6cd-049b562273dc.png)
+![image](https://user-images.githubusercontent.com/54589605/221555994-e0fe1034-f308-48ef-8c88-21d93c7985bc.png)
+
+
+
 
 
 * After This video, do the **5** daily assignments. (**DONE**)
 * After that do **DPP 1**.
-
-
-
- 
-
-
-
-
-
-
-
-
-
 
 
 # Practice Questions and Solutions
@@ -1888,5 +1938,57 @@ y= M(0,3)
 
 * Link -> https://drive.google.com/drive/folders/1dq_D8WXuIe_2drVlRyed_ci9QofI_TaU
 
+## DPP 1
+
+> Solved in **Logic Gates-IV**, Lesson **1**.
+
+![image](https://user-images.githubusercontent.com/54589605/221558780-098518b2-a976-4349-b3c7-c7cae7959ca6.png)
+![image](https://user-images.githubusercontent.com/54589605/221558818-4ae50f57-dead-4948-9505-f51957820b19.png)
+![image](https://user-images.githubusercontent.com/54589605/221558643-18d71836-bf40-4be8-9224-b62b4ad26eab.png)
+![image](https://user-images.githubusercontent.com/54589605/221559393-5b36396c-daa4-4fd8-8ea9-8ad1e1217836.png)
+![image](https://user-images.githubusercontent.com/54589605/221559652-d3ea6049-f78a-42a3-98d2-b97afd5f3ff6.png)
+![image](https://user-images.githubusercontent.com/54589605/221559885-88bfc081-6ee0-4a55-be0d-4d0437212694.png)
+![image](https://user-images.githubusercontent.com/54589605/221560269-1a55c475-6c29-45a1-a7eb-b6e2d0fc1206.png)
+![image](https://user-images.githubusercontent.com/54589605/221560419-9c9f4b95-5070-4f2d-a210-985a14ff6040.png)
+![image](https://user-images.githubusercontent.com/54589605/221560667-d43100c9-3674-4a5c-b7e8-3fb126c44a18.png)
+![image](https://user-images.githubusercontent.com/54589605/221560886-c7193657-77c1-43c8-87de-9b45922ecc1f.png)
+![image](https://user-images.githubusercontent.com/54589605/221561779-f1c86f20-14ea-4a1c-b5b9-76bf001ad73c.png)
+![image](https://user-images.githubusercontent.com/54589605/221562416-be0e51f9-a9ed-4496-bc04-95db0a6e7997.png)
+![image](https://user-images.githubusercontent.com/54589605/221562278-95937d89-d888-4b3c-bb61-266a03ed23b9.png)
+![image](https://user-images.githubusercontent.com/54589605/221562614-919721a0-c89e-4e25-87d4-a57705320252.png)
+
+* SSOP -> Standard SOP or Canonical SOP
+* SPOS -> Standard POS or Canonical POS
+
+![image](https://user-images.githubusercontent.com/54589605/221562822-de21f2a4-b8b7-4c15-b237-3db9785eb00a.png)
+![image](https://user-images.githubusercontent.com/54589605/221563076-a11bc2be-5c89-46ae-8646-85df39415817.png)
+![image](https://user-images.githubusercontent.com/54589605/221563186-3743ca92-bc42-4784-b9d2-d7dc54337556.png)
+![image](https://user-images.githubusercontent.com/54589605/221563226-114b6cf6-ba7a-4086-9f9a-ba690b283f88.png)
+![image](https://user-images.githubusercontent.com/54589605/221563310-dff82011-39c5-4de4-b998-6be29489d238.png)
+![image](https://user-images.githubusercontent.com/54589605/221563445-cc232aaa-b9df-4608-8268-1348c48bfdc8.png)
+![image](https://user-images.githubusercontent.com/54589605/221563651-5f5c7406-5d72-495a-9c3c-2fff746450d5.png)
+![image](https://user-images.githubusercontent.com/54589605/221564227-a6f8121c-d3b1-45c9-be2d-87abd4654999.png)
+![image](https://user-images.githubusercontent.com/54589605/221564463-71563bc0-ab8d-4a33-94c6-aafbb38c9f56.png)
+
+> We have to completely convert the expression into either **SOP or POS** form and then count the no. of literals. The expression cannot be in half SOP and half in POS form, we cannot count the no. of literals during that time.
+
+![image](https://user-images.githubusercontent.com/54589605/221564827-a2a0293f-f231-4153-8d7a-755898999f21.png)
+![image](https://user-images.githubusercontent.com/54589605/221564885-edbad77d-a77e-42fb-a563-fb60d3dbd68f.png)
+![image](https://user-images.githubusercontent.com/54589605/221564973-1fa5d3a5-1ad5-4ac7-8cfc-fc84bda8cfe1.png)
+![image](https://user-images.githubusercontent.com/54589605/221565493-152f5cf0-36f5-4f49-a971-51a420bd1085.png)
+![image](https://user-images.githubusercontent.com/54589605/221565931-036d1a26-89a9-4da2-9cf0-39b5176a534e.png)
+![image](https://user-images.githubusercontent.com/54589605/221565991-fb292d15-e7b6-4f4f-b8cf-b0028bb97264.png)
+![image](https://user-images.githubusercontent.com/54589605/221566092-442f2db6-8fb7-4d78-b04b-48d3319003fb.png)
+![image](https://user-images.githubusercontent.com/54589605/221567398-3a714b53-0111-49c3-9639-a3b21af5a8d3.png)
+![image](https://user-images.githubusercontent.com/54589605/221567557-b5f72468-5c83-4d2b-bb38-9025fa0b71a7.png)
+![image](https://user-images.githubusercontent.com/54589605/221567701-9dc67984-a7c9-48e0-9b37-3c97181639c2.png)
+![image](https://user-images.githubusercontent.com/54589605/221567893-160e43bd-7412-4845-a7f7-89b2dc338a30.png)
+![image](https://user-images.githubusercontent.com/54589605/221568624-563033fd-3ecd-439a-b26a-cbef92d4d27d.png)
+![image](https://user-images.githubusercontent.com/54589605/221570291-f4caf204-85ca-41d7-a4eb-807865fa1a68.png)
+![image](https://user-images.githubusercontent.com/54589605/221571313-499f077b-99f5-4feb-a871-aa2c63163f62.png)
+![image](https://user-images.githubusercontent.com/54589605/221571368-63488afb-5fdc-4ccf-a955-ed6b6eb6ad17.png)
+![image](https://user-images.githubusercontent.com/54589605/221572029-12c75dcb-984e-497f-b873-04d98f2d0930.png)
+![image](https://user-images.githubusercontent.com/54589605/221572078-e36db17d-033c-4a35-a722-b240ac647ae9.png)
 
 
+ 
