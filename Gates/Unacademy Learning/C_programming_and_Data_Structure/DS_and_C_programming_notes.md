@@ -4537,9 +4537,51 @@ We know,
 
 * Mega Quiz Solutions -> https://unacademy.com/quiz/mega-quiz/5XX9411NS0/solutions/SP_7V8MVOIBL8SSNHVPM
 
-## Quizes
+## Quiz 1
 
 * 1 -> https://unacademy.com/quiz/quiz-i/RIE675803I/solutions/SP_6XAVWIMPT6Y2IRJJA
+
+### Solutions
+
+* Q1 -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/4949C5D49D
+
+![image](https://user-images.githubusercontent.com/54589605/221605061-598cbeee-c87a-4205-8e7c-0a4bd7ad06bd.png)
+
+> For **2** numbers, the comparisons needed to find **min and max** is **3 comparison**.
+
+* For 2 numbers -> 3 comparisons
+* For 1 number -> 3/2 comparisons
+* For n number -> ((3n)/2 -2) comparisons ['-2' since we don't have to update the **min and max** value every time]
+
+![image](https://user-images.githubusercontent.com/54589605/221605718-819b27d9-7a1f-461e-8461-0c4785f20acb.png)
+![image](https://user-images.githubusercontent.com/54589605/221605828-f0614775-8858-476c-811e-b1830bd81683.png)
+![image](https://user-images.githubusercontent.com/54589605/221606632-9a35a3dc-9ccd-41a2-ae77-6618d912534c.png)
+ 
+* For 500 comparisons -> 3n/2 -2 [n=500]
+* (3 * 500)/2-2 -> (3 * 250) - 2 -> 750 - 2 -> 748 [Ans]
+
+
+## Quiz 2
+
+* Link -> https://unacademy.com/quiz/quiz-ii/ULGCT6UVU5/solutions/SP_9DP2XJD9XPUM38LUB
+
+### Solution
+
+* 2 -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/6C6C8611CB
+
+![image](https://user-images.githubusercontent.com/54589605/221614421-f5d9ba57-76e3-419a-bb4d-bd14128b1f44.png)
+![image](https://user-images.githubusercontent.com/54589605/221614383-8daef28c-50ce-45ac-9298-515fcd56dc69.png)
+
+ ## Quiz 3
+ 
+ * Link -> https://unacademy.com/quiz/quiz-iii/5C2VOPBX3P/solutions/SP_QY18XR362FBGM7H6O
+
+
+## Quiz 4
+
+* Link -> https://unacademy.com/quiz/quiz-iv/8PD0KGWQGS/solutions/SP_PAQRC3C10MHF5MKG3
+
+
 
 ## Questions to ask(sir) in next class.
 
