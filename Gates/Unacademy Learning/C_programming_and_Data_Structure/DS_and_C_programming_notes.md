@@ -4537,6 +4537,10 @@ We know,
 
 * Mega Quiz Solutions -> https://unacademy.com/quiz/mega-quiz/5XX9411NS0/solutions/SP_7V8MVOIBL8SSNHVPM
 
+## Quizes
+
+* 1 -> https://unacademy.com/quiz/quiz-i/RIE675803I/solutions/SP_6XAVWIMPT6Y2IRJJA
+
 ## Questions to ask(sir) in next class.
 
 * Insertion will be O(log n) or theta(log n) [Ask] [Answered]
