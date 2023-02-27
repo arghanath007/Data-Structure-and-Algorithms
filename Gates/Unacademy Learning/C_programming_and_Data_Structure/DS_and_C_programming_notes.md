@@ -4535,6 +4535,8 @@ We know,
 * Link -> https://unacademy.com/quiz/mega-quiz/5XX9411NS0
 * Link -> https://unacademy.com/course/complete-course-of-data-structure-gate-23/QD5N5156
 
+* Mega Quiz Solutions -> https://unacademy.com/quiz/mega-quiz/5XX9411NS0/solutions/SP_7V8MVOIBL8SSNHVPM
+
 ## Questions to ask(sir) in next class.
 
 * Insertion will be O(log n) or theta(log n) [Ask] [Answered]
