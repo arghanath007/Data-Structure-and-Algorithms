@@ -638,11 +638,20 @@ Solved in **8_Doubt_Clearning_Session**.
 
 > 'int *p[5]; or (int*) p[5];' is an array of pointers.
 
+![image](https://user-images.githubusercontent.com/54589605/221849598-17f63b70-61d7-4844-b629-d7ff848d7639.png)
+![image](https://user-images.githubusercontent.com/54589605/221849627-39dc89ca-d256-4d60-9dc8-00349a1f8ee0.png)
+![image](https://user-images.githubusercontent.com/54589605/221851614-99c1a4bc-c4bb-4b47-8e16-6c0ca046c5e2.png)
+![image](https://user-images.githubusercontent.com/54589605/221852104-a6af6bea-02d3-4cfe-b884-663a0e012def.png)
+
+
 ## 2D Array (8)
 
 ![image](https://user-images.githubusercontent.com/54589605/221840561-0c9e6c5d-730c-4c6b-a541-e7018971e716.png)
 ![image](https://user-images.githubusercontent.com/54589605/221840580-919a0484-2708-4f34-8300-e9f4198af733.png)
 ![image](https://user-images.githubusercontent.com/54589605/221840867-71b2a6ad-5ec8-48fb-bb6b-38e556d9698b.png)
+![image](https://user-images.githubusercontent.com/54589605/221852289-451ecc16-1f80-4012-854c-9f44f52d9dc6.png)
+![image](https://user-images.githubusercontent.com/54589605/221852325-6be80b1a-3c06-49e8-b3dd-91b7aaeadd4d.png)
+![image](https://user-images.githubusercontent.com/54589605/221852453-fa190e98-241d-489f-8e1d-562b6fd7cee5.png)
 
 
 * int A[4][5];
@@ -716,6 +725,12 @@ Solved in **8_Doubt_Clearning_Session**.
 
 ### Initialize 2D array (9)
 
+![image](https://user-images.githubusercontent.com/54589605/221848463-e6a03fb8-d46a-422d-b6b5-d4b675688312.png)
+![image](https://user-images.githubusercontent.com/54589605/221848942-ca2f9b4f-1617-439f-938b-773b85f3fcfc.png)
+![image](https://user-images.githubusercontent.com/54589605/221849299-af4b6819-4688-42a5-8851-606c143f0a73.png)
+![image](https://user-images.githubusercontent.com/54589605/221849367-91d2e9f7-7c7a-446c-b2d6-e30d0f9e3d84.png)
+
+
 * int A[3][4] ={{1,2,3,4}, {5,6,7,8}, {9,10,11,12}};
 
 > Anything that is missed will be initialized to zero or '0' like in 1D array.
@@ -726,7 +741,40 @@ Solved in **8_Doubt_Clearning_Session**.
 
 > **Compile** -> Errors that occur when you violate the rules of writing syntax are known as Compile-Time errors. This compiler error indicates something that must be fixed before the code can be compiled. All these errors are detected by the compiler and thus are known as compile-time errors.
 
+## 3D Array
+
+![image](https://user-images.githubusercontent.com/54589605/221852589-385914d5-9a35-4959-8113-77c6118714bb.png)
+![image](https://user-images.githubusercontent.com/54589605/221852618-1660abc4-4a9b-4aca-8f04-fafeb2a19967.png)
+![image](https://user-images.githubusercontent.com/54589605/221852685-1b187dad-caae-4b52-8858-4b54e2c55c74.png)
+
+## Void Pointer
+
+![image](https://user-images.githubusercontent.com/54589605/221852981-df34005a-8fc2-481e-96f9-e5b07530e309.png)
+![image](https://user-images.githubusercontent.com/54589605/221853114-265c0c26-decc-452a-b6ee-bd92b3a0a949.png)
+
+* As it is a **void pointer(* )**, we have to **explicitely** mention the datatyper here, i.e **(int * )p**, otherwise we will get an error.
+
+![image](https://user-images.githubusercontent.com/54589605/221853762-44f06a96-241c-44e9-a954-bafd4665dc60.png)
+
+* We don't have to change the type of **a**, it is already in **int address** type, we have to change of **p**, which is the **void pointer** here. In the printf statement, we have to write like below.
+
+* printf("%d", * (int *) p);
+
+### Array Question
+
+![image](https://user-images.githubusercontent.com/54589605/221851239-cf953245-157f-41c0-986a-238cfd695dd7.png)
+
 ## Structure (10)
+
+![image](https://user-images.githubusercontent.com/54589605/221854335-0925a291-2748-454c-be79-bc328a2c13ce.png)
+![image](https://user-images.githubusercontent.com/54589605/221854385-79721c40-85a1-4e5a-9fd0-1b326ea1c78f.png)
+![image](https://user-images.githubusercontent.com/54589605/221854560-fc9b94b2-c634-4787-b35b-3033a87eb17e.png)
+![image](https://user-images.githubusercontent.com/54589605/221854654-09c378c4-c787-41f0-a866-1319de28c60e.png)
+
+* 16 -> int is 2, float is 4, char -> 1 * 10 = 10 -> 2 + 4 + 10 -> 16
+
+![image](https://user-images.githubusercontent.com/54589605/221854880-3fddb423-e496-4e08-85ea-2ec9b7914ce2.png)
+
 
 > Collection of different datatype elements.
 
@@ -741,7 +789,7 @@ Solved in **8_Doubt_Clearning_Session**.
         };
     ```
 
-* The size of the *struct books* will be 2 + 4 + 2=8bytes.
+* The size of the *struct books* will be (2 + 4 + 2) = 8 bytes.
 
 > 'structure' declaration should be outside main().
 > Declaration of 'struct' or structure type means that the user has defined/declared a **new datatype**. It is a user defined datatype. It is using all of the already existing data-types.
@@ -787,7 +835,14 @@ Solved in **8_Doubt_Clearning_Session**.
 > 'struct ABC *ptr;' is a *struct ABC* type pointer which is pointing to 'a1'. 'ptr' is a pointer which will store address of structure variable(a1 here).
 > 'ptr ->x' and '*ptr.x' are the same.
 
+![image](https://user-images.githubusercontent.com/54589605/221855511-2336f802-450b-40ee-9a3f-d52b347ad11e.png)
+
+
 ## Union
+
+![image](https://user-images.githubusercontent.com/54589605/221855258-8317e2b4-8b91-4f12-852b-a1c9500cf068.png)
+![image](https://user-images.githubusercontent.com/54589605/221855281-dc5750f8-b2ab-4279-b026-80c418aa9266.png)
+
 
 > The elements are stored in overlapping spaces.
 
@@ -802,23 +857,25 @@ Solved in **8_Doubt_Clearning_Session**.
     };
 ```
 
-> The size of the *union test* will be *4bytes* as the highest size of datatype is float which is 4bytes. Hence the size of the union is 4 bytes.
-> We cannot store all of the values uniquely at a given time. We can assign one value and use it simultaneously. When we can replaced/changed the previous value with a new value then the previous value is not accessible anymore.
+> The size of the *union test* will be *4bytes* as the **highest size of datatype is float which is 4bytes. Hence the size of the union is 4 bytes.**
+> **We cannot store all of the values uniquely at a given time**. We can assign one value and use it simultaneously. When we can replaced/changed the previous value with a new value then the previous value is not accessible anymore.
 
 ## Union and Structure difference
 
-> In union, we are not getting separate space for each value. The largest size data type in the union is used as the size of the union. That size is used **repeatedly and overlapping and overwritten** to store the values of the union. Previous values are replaced/removed when newer values are entered and the previous values are not accessible anymore. All of the values are not uniquely and simultaneously present at the same time.
-> In structure, we are getting separate space for each value. The size is the total sum of all the data-types present in the structure. All of the values are uniquely and simultaneously present at the same time.
+> In union, we are not getting separate space for each value. The largest size data type in the union is used as the size of the union. That size is used **repeatedly and overlapping and overwritten** to store the values of the union. Previous values are replaced/removed when newer values are entered and the previous values are not accessible anymore. **All of the values are not uniquely and simultaneously present at the same time**.
+> In structure, we are getting separate space for each value. **The size is the total sum of all the data-types present in the structure**. **All of the values are uniquely and simultaneously present at the same time**.
 
 ## DPP 4.
 
+> Solved in **12_Doubt_Solving_Session**.
+
 * 1 -> 20 3050 60
 
-* 2 -> 
+* 2 -> [Check Doubt Solving Section In Unacademy, uploaded it there]
 
 * 3 -> 632
 
-* 4 -> 60,40
+* 4 -> 60,40 [*1[a] -> *a[1] -> a[1][0]]
 
 * 5 -> C (*(A+i)) (Got it wrong, I checked A initially, A+ i gives the address of the element. ( *(A+i) gives the value of the element.)
 
@@ -826,9 +883,19 @@ Solved in **8_Doubt_Clearning_Session**.
 
 * 7 -> A,B,C (Got it wrong, I checked D initially thinking it asked for invalid declarations. D -> (int A[2][]={{1,2,3}, {4,5,6}};))
 
+* Valid -> A,B,C
+* Invalid -> D
+
 > In multi dimensional array, we have to mention the boundation except the first one. We can leave the first dimension and it will be filled by the system itself. We have to mention the rest of them and it is mandatory otherwise we will get an error.
 
 ## Functions (11)
+
+![image](https://user-images.githubusercontent.com/54589605/221858032-7df10f84-974e-43b5-8c9b-565a12e001fc.png)
+![image](https://user-images.githubusercontent.com/54589605/221858111-c8eed570-0b20-4b2a-b6ee-cd191ce6eab6.png)
+![image](https://user-images.githubusercontent.com/54589605/221858193-4d886675-7d3e-40db-b9f8-c4eb42929d86.png)
+![image](https://user-images.githubusercontent.com/54589605/221858241-b57d5e23-ed02-4ad3-a914-d31eadec22c3.png)
+![image](https://user-images.githubusercontent.com/54589605/221858461-17005f6a-cd2d-4812-a088-1f734f6e3022.png)
+
 
 > Able to use repeated code multiple times without writing it every time. Like *printf()* from *stdio.h* library.
 
@@ -850,16 +917,34 @@ Solved in **8_Doubt_Clearning_Session**.
 
 ## Global and Local variable
 
+![image](https://user-images.githubusercontent.com/54589605/221859550-7c31bcaf-19d4-4897-96ad-c7fe1fb4a2df.png)
+
+
 * **Global** -> Declared outside the functions. Visible/accessible from anywhere or from any function. They are created in memory just at the start of the program and they are removed/deleted after the complete execution of the program. This is the lifetime of a global variable. Their lifetime is during the program running/execution or throughtout the program. 
 
 * **Local** -> Declared within a function. Visible/accessible from within the function itself only. When the function is called and the execution of the program is started then the local variables are created in memory and when the execution of the function is complete then the local variables are  removed/deleted from the memory.
 
 > Parameters of a function are local variables as well.
 
+![image](https://user-images.githubusercontent.com/54589605/221859700-4273839f-a9d4-4613-be21-88510678269b.png)
+![image](https://user-images.githubusercontent.com/54589605/221859779-02926e05-7f7f-47a2-b413-5607800fc2fa.png)
+![image](https://user-images.githubusercontent.com/54589605/221860008-f293e157-e1b9-42a2-af2e-f78f98f26447.png)
+![image](https://user-images.githubusercontent.com/54589605/221860196-900b2ae9-17cd-4ffe-86e3-05c87ebdbbc3.png)
+
+
 ## Call by value and Call by address/reference
 
 * *Call by value* -> We are just sending a copy of the value to the function and whatever changes are made to it are local to that function itself only. No connection is made between the value sent to the function and the final value in the main function.
+
+*Call by value*
+![image](https://user-images.githubusercontent.com/54589605/221858620-9e7a30a2-b86a-4c21-a8b2-e69e63f4fb40.png)
+
+
 * *Call by address/reference* -> We are sending the address of the variable to the function and the function has a pointer as a parameter to store that address and the connection is made. If we make any changes to the pointer's value then the value which the pointer is pointing too also get updated/changed.
+
+*Call by address/reference*
+![image](https://user-images.githubusercontent.com/54589605/221858665-48b3b197-4474-433e-89da-90a03e56f2df.png)
+
 
 ![image](https://user-images.githubusercontent.com/54589605/212530290-cccf5b83-a34b-4fba-a899-9730facaa306.png)
 ![image](https://user-images.githubusercontent.com/54589605/212530339-2a2f90ff-d9ac-4d64-974e-c78bc4e60085.png)
@@ -868,6 +953,8 @@ Solved in **8_Doubt_Clearning_Session**.
 * Pointer -> It is a powerful tool yes but it is a destructive tool which can access memory. Hence it was removed partially from recent programming languages like JS, Python, Java.
 
 ## DPP 5
+
+> Solved in **12_Doubt_Solving_Session**.
 
 * 1 -> 96
 * 2 -> error [Cannot write function inside the main()]
@@ -879,9 +966,16 @@ Solved in **8_Doubt_Clearning_Session**.
 
 > *exit(0)* terminates/exits out of the whole program, not just the function but the whole program itself.
 
+> In Q1, We can only return **one(1)** value from a function itself. But we have returned **two values** here, **return (x,y)**.
+
+![image](https://user-images.githubusercontent.com/54589605/221865514-d178aad0-8927-4e16-a12c-985342e11d08.png)
+![image](https://user-images.githubusercontent.com/54589605/221865550-60e15f8a-c514-4b5f-91f8-97daafdcd1b6.png)
+![image](https://user-images.githubusercontent.com/54589605/221865628-6c9838e8-9f6d-4cf4-95fd-974d06ee52a9.png)
+
+
 > In Q2, if function was outside of main(), then it will give *-10* as the output/result of the program.
 
-## 12_Doubt_Solving_Session PDF questions
+## 12_Doubt_Solving_Session PDF questions (12)
 
 * 1 -> 321
 
@@ -891,7 +985,19 @@ Solved in **8_Doubt_Clearning_Session**.
 
 * 4 -> 7
 
-## Recursion (12)
+![image](https://user-images.githubusercontent.com/54589605/221860808-3fa0011a-2872-4412-9321-42e2aa2be2ed.png)
+![image](https://user-images.githubusercontent.com/54589605/221860867-be12bf58-a825-4885-87f1-e04b0290c85d.png)
+![image](https://user-images.githubusercontent.com/54589605/221860922-2568af02-c67f-4a68-9204-e7590c13f20d.png)
+
+![image](https://user-images.githubusercontent.com/54589605/221865348-032e65b9-3124-4030-ab1c-2d3c7793f09a.png)
+![image](https://user-images.githubusercontent.com/54589605/221865369-41b1b959-980a-494d-91ba-46ceb3f1b9e6.png)
+
+
+## Recursion (13)
+
+![image](https://user-images.githubusercontent.com/54589605/221870155-96a2ecfe-edb4-4bd3-8ad1-fe48d33742d2.png)
+![image](https://user-images.githubusercontent.com/54589605/221870276-0f3cc784-e579-404b-bf8d-a5331abc1ec2.png)
+
 
 > Function calling itself. Good Recursive functions have a good condition as a base/terminating condition. 
 
@@ -900,6 +1006,36 @@ Solved in **8_Doubt_Clearning_Session**.
 * 1 -> 2 [Q ->foo(513,2)]
 * 2 ->
 
+![image](https://user-images.githubusercontent.com/54589605/221870575-4aecef70-4cc2-4675-953a-cd2eaf99bba9.png)
+![image](https://user-images.githubusercontent.com/54589605/221870741-90eedffc-6763-4088-b905-216c38996334.png)
+![image](https://user-images.githubusercontent.com/54589605/221871137-7945b1d7-973e-442e-9f52-738d6a31bf51.png)
+![image](https://user-images.githubusercontent.com/54589605/221871222-d8a898e3-b573-4f1c-a2c3-40f1f1627ae5.png)
+![image](https://user-images.githubusercontent.com/54589605/221871497-a5c8b12b-4cef-462b-a3a4-2638683dfbcb.png)
+![image](https://user-images.githubusercontent.com/54589605/221872011-b0ad46ec-f550-4353-b091-55c81ce2bf15.png)
+![image](https://user-images.githubusercontent.com/54589605/221877925-10b3e522-ef71-4732-bf0c-fc408387d878.png)
+![image](https://user-images.githubusercontent.com/54589605/221877951-7dbd92cc-6a8b-442a-b2dd-4040a5331ae7.png)
+
+## Question
+
+![image](https://user-images.githubusercontent.com/54589605/221874776-8cae9037-6149-403d-9cb5-96566c7d7781.png)
+![23](https://user-images.githubusercontent.com/54589605/221877597-e8b8e243-7921-4a13-8599-e2a89001f7c9.jpeg)
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/25FA132746
+
+## Question
+
+![image](https://user-images.githubusercontent.com/54589605/221879512-eb00b820-99d2-4fdd-98dd-4e657e5a6184.png)
+![image](https://user-images.githubusercontent.com/54589605/221879556-13b007c8-c524-4c3e-8265-f4c4492182d8.png)
+![24](https://user-images.githubusercontent.com/54589605/221879874-8188ad80-ca21-415b-b610-216f87c20e45.jpeg)
+![image](https://user-images.githubusercontent.com/54589605/221880258-c1e26ce2-c2e6-4053-be22-a13e8395395e.png)
+![image](https://user-images.githubusercontent.com/54589605/221880287-a4a46c8e-b3b2-43ce-8dcd-743aad65dbe0.png)
+
+
+![image](https://user-images.githubusercontent.com/54589605/221880744-066104c3-5379-402b-a491-cc9d90bae874.png)
+![image](https://user-images.githubusercontent.com/54589605/221880679-3327008d-8675-4b26-93f9-1fa49c451d02.png)
+![image](https://user-images.githubusercontent.com/54589605/221880886-98b7d806-8b15-4d6a-8ae9-6ee2c9be81cf.png)
+
+
 ## DPP 6
 
 * 1 -> D
@@ -907,6 +1043,9 @@ Solved in **8_Doubt_Clearning_Session**.
 * 3 -> 4 [Got it wrong , thought '3' is the answer]
 
 ### 14_Storage_Classes PDF (13)
+
+![image](https://user-images.githubusercontent.com/54589605/221881115-59cef393-a72e-4a5c-8f46-6662cecec552.png)
+![image](https://user-images.githubusercontent.com/54589605/221881165-744c1c7b-d42f-45bc-ad1a-c3a89ba78d6d.png)
 
 * fun(fun(5)) -> fun(5) + fun(7) = 7 + 17 = *24*(Ans)
 
@@ -920,14 +1059,35 @@ Solved in **8_Doubt_Clearning_Session**.
 
 ## Static Variable (14)
 
+![image](https://user-images.githubusercontent.com/54589605/221897517-f15749c9-670c-4d40-882f-a3fd15161fb5.png)
+
+
 > In recursion, **it is created for first call and used by all recursion calls as a single copy**. If a static variable is created within a recursive function then it will be **created/generated once only** when the function is called for the very first time unlike local variables which are created/generated for every recursive call of the function.
 > **By default**, if we haven't initialized a *static* variable then it is initialized by *zero(0)*. 
 > In normal variables, if we haven't initialized the variable then it is initialized by some *garbage value*.
+
+![image](https://user-images.githubusercontent.com/54589605/221897955-d5420a14-d63b-46bb-9024-9ff9523bf7f4.png)
+
+### Question
+
+![image](https://user-images.githubusercontent.com/54589605/221901986-bab0a048-16f3-4a27-b215-d0478366b413.png)
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/455E0B5471
+
+
+![image](https://user-images.githubusercontent.com/54589605/221902744-2fd5a676-bbe9-4b8f-8913-7574f29809df.png)
+![image](https://user-images.githubusercontent.com/54589605/221903104-673e7b77-e515-4cdf-a3e5-2612394bf154.png)
+![image](https://user-images.githubusercontent.com/54589605/221903385-8e051139-b55a-4d98-8ab8-abbdc33f7e9a.png)
+![image](https://user-images.githubusercontent.com/54589605/221904318-8afae79f-a5ea-4469-88f7-3ce2e3d09589.png)
+
 
 ## Dynamic Memory Allocation (15)
 
 > If any memory allocation assignment is decided on rumtime. 
 > On runtime we are deciding if we need more memory or not. Yes, we can get more memory during runtime and this is called as Dynamic Memory allocation. It happens during runtime only.
+
+![image](https://user-images.githubusercontent.com/54589605/221934662-e22d1c56-00b7-4c40-8d19-df7840cde945.png)
+
 
 * int x; -> Pre-defined variables.
 
@@ -946,6 +1106,30 @@ Solved in **8_Doubt_Clearning_Session**.
 > 'malloc()' only allocates a certain amount of memory location(2bytes for integer). It will not define the type of the memory wheather it is int, char, float etc. To get the type we need to do *type-casting* of the malloc(). 
 > In some compilers, 'malloc()' return the address.
 
+![image](https://user-images.githubusercontent.com/54589605/221934819-7e94d10f-0eca-4e75-b8b3-c1181815b713.png)
+![image](https://user-images.githubusercontent.com/54589605/221934882-a89c8c23-d3b3-4b0f-98b3-e54f7982589c.png)
+![image](https://user-images.githubusercontent.com/54589605/221935063-c9127213-839c-4c3f-8b6e-f9e878dca6d0.png)
+![image](https://user-images.githubusercontent.com/54589605/221935672-a1e6c5b1-7108-48b0-91f2-3f22a64fafe1.png)
+
+## Code blocks
+
+![image](https://user-images.githubusercontent.com/54589605/221936246-31dda294-cba5-46a0-9889-971a4b98862e.png)
+
+> We can create blocks using curly braces or {}. It acts like a function even though it is not a function. It has it's own local variables. After the block execution is completed all of the local variables of the block are destroyed.
+
+```c
+    void main()
+    {
+        int x;
+        // block.
+        {
+            int y;
+            y= 10*2;
+            printf("%d",y);
+        }
+    }
+```
+
 #### Example
 
 * int x= (int)malloc(sizeof(int));
@@ -953,6 +1137,10 @@ Solved in **8_Doubt_Clearning_Session**.
 * int *p = (int *)malloc(sizeof(int)); [Use for GATE]
 
 * **Page 7** of *15_Constant_Macro* PDF is an important.
+
+### **Page 7**
+
+![image](https://user-images.githubusercontent.com/54589605/221939415-e050a212-a755-4261-8856-44ea81d3d2cb.png)
 
 ## Storage classes
 
@@ -975,32 +1163,23 @@ Solved in **8_Doubt_Clearning_Session**.
 
 > If we don't mention the *auto* keyword, then also by default *auto* keyword is added to all of the local variables.
 
+![image](https://user-images.githubusercontent.com/54589605/221936538-ec00c746-a87e-417f-a865-6b73e71d5e30.png)
+![image](https://user-images.githubusercontent.com/54589605/221936808-31eb81ba-c328-41b2-b625-4f71dd81997f.png)
+
+
 ### Register
 
 > Local variables and exactly like auto but storage is not in RAM(stack) but in the CPU register.
-> Advantage of setting a variable as *register* variable is that the allocation will have in the CPU register instead of the stack. Whenever the cpu will use that variable, it will take it from the CPU register and inturn  saving a lot of time as CPU is faster than the RAM(stack). 
+> Advantage of setting a variable as *register* variable is that the allocation will happen in the CPU register instead of the stack. Whenever the cpu will use that variable, it will take it from the CPU register and inturn  saving a lot of time as CPU is faster than the RAM(stack). 
 > If the CPU register is out of space then the newly created register variables will be placed into the stack itself.
 
 ```c
     register int i;
 ```
 
-## blocks
+![image](https://user-images.githubusercontent.com/54589605/221937931-26c37c9c-0660-449e-80cb-3d9d738018aa.png)
+![image](https://user-images.githubusercontent.com/54589605/221938225-8c94d41d-7da2-4301-9945-186df6c69813.png)
 
-> We can create blocks using curly braces or {}. It acts like a function even though it is not a function. It has it's own local variables. After the block execution is completed all of the local variables of the block are destroyed.
-
-```c
-    void main()
-    {
-        int x;
-        // block.
-        {
-            int y;
-            y= 10*2;
-            printf("%d",y);
-        }
-    }
-```
 
 ## Automatic variables
 
@@ -1015,6 +1194,9 @@ Solved in **8_Doubt_Clearning_Session**.
 
 > All of the variables(global, static variables) that are present in the data section, they are initialized with zero(0).
 
+![image](https://user-images.githubusercontent.com/54589605/221939667-89ce95b3-a5cd-4d89-ac22-92086b6bb843.png)
+
+
 ### static variables
 
 > They can be local as well as global variables. Wheather a static is global or local it is created at the starting of the program execution. Both of their lifetime is throught the program execution. Scope depends if it is a global or a local variable. If global variable then the scope is global as well. If local variable then the scope is local as well.
@@ -1028,9 +1210,18 @@ Solved in **8_Doubt_Clearning_Session**.
     }
 ```
 
+![image](https://user-images.githubusercontent.com/54589605/221940081-1f7de41e-0b68-467c-ab2f-8ff597dc5a47.png)
+![image](https://user-images.githubusercontent.com/54589605/221940139-2facdc60-108c-4adf-971f-14186596b30e.png)
+![image](https://user-images.githubusercontent.com/54589605/221940338-960b10d1-e37d-4b8d-9ecb-d332032e15a1.png)
+
+
 ### extern variable
 
-> It is similar to global variable but there is some differences. Lifetime is throughout the program. Scope is throughout the program(global) as well. It is initialized with zero(0) as well. It is located in the data section.
+> It is similar to **global variable** but there is some differences. Lifetime is throughout the program. Scope is throughout the program(global) as well. It is initialized with zero(0) as well. It is located in the data section.
+
+![image](https://user-images.githubusercontent.com/54589605/221940454-4cb18a69-e55f-4c52-87a4-0aecf4672d52.png)
+![image](https://user-images.githubusercontent.com/54589605/221940629-0829e0d4-a9ed-45a9-a238-b39bdb4a9a4a.png)
+
 
 ### Difference between static and global variable.
 
@@ -1049,6 +1240,9 @@ Solved in **8_Doubt_Clearning_Session**.
 > This means the 'p' pointer is created but the address of pointer 'p' is neither pointeing to any valid address or any garbage address. It has a pointer(NULL) which shows that it has nothing.
 > 'NULL' pointer denotes there is nothing at 'p' pointer.
 
+![image](https://user-images.githubusercontent.com/54589605/221945619-8159cf16-088b-44df-ad55-53bc5d1736cb.png)
+
+
 ## String
 
 ```c
@@ -1063,15 +1257,28 @@ Solved in **8_Doubt_Clearning_Session**.
 
 > String has '6' size compared to character array which is of size '5' because the last position of string is reserved for '\0' which is a *NULL character*. *It represents the end of the string*.
 
+![image](https://user-images.githubusercontent.com/54589605/221945663-94303e11-552e-4324-99b1-300c79500190.png)
+![image](https://user-images.githubusercontent.com/54589605/221945690-59a17954-b96e-481e-bde2-c40a125fe028.png)
+![image](https://user-images.githubusercontent.com/54589605/221945922-9686415b-10e1-4a76-86d8-c0ef04505496.png)
+
+* To be able to **printout** a character from a **string** we have to use **the * (st + 2)**, to get the value at that given address. Otherwise we will get an error.
+
+
+![image](https://user-images.githubusercontent.com/54589605/221946476-bd6809a5-ab69-448a-841c-760876b44684.png)
+
 ## Literals and Constants
 
 ```c
     const float pie=3.14; //const type name=value;
 ```
 
+![image](https://user-images.githubusercontent.com/54589605/221946631-5902e186-63f0-44d1-afd9-3d48aba2497c.png)
+
+
 > 'value' is mandatory to be given otherwise it will not be a constant. 'const' variable 'pie' cannot be changed, modified, cannot allocate new value, cannot increment or decrement the value. Nothing is allowed as it is a 'constant'.
 > Once it is defined and the value is fixed, nothing can be changed.
 > They can both be global as well as local.
+
 
 ### Macro
 
@@ -1080,22 +1287,46 @@ Solved in **8_Doubt_Clearning_Session**.
     printf("%f", 2*PIE*r);
 ```
 
+![image](https://user-images.githubusercontent.com/54589605/221946828-7bc99202-7917-4777-8e16-d73940bf2471.png)
+![image](https://user-images.githubusercontent.com/54589605/221947083-25bcff98-de05-41f6-ba99-53ad2b6e0fb1.png)
+
 > Where ever we have mentioned 'PIE' in the program, that is going to be replaced with '3.14' value.
 
 ```c
     #include<stdio.h>
 ```
 
-> All of the statements that are starting with '#' are called as preprocessor directive. 
+> All of the statements that are starting with '#' are called as **preprocessor directive**. 
 > All of these statements(starting with '#') are run before the compilation of the program starts.
+
+## 16_Doubt_Solving_Session (16)
+
+![image](https://user-images.githubusercontent.com/54589605/221943044-f147bd71-b89d-427e-b61e-b285b79cf6c4.png)
+![image](https://user-images.githubusercontent.com/54589605/221943060-7c992411-a6c4-4347-8e23-557f387fd711.png)
+![image](https://user-images.githubusercontent.com/54589605/221943168-18a9ca63-14c5-47cf-8567-eface48f533e.png)
+
+![image](https://user-images.githubusercontent.com/54589605/221943929-b4a90c1d-7434-4ae2-ad31-a3f9c3c73ec1.png)
+
+**CORRECTION**
+
+![image](https://user-images.githubusercontent.com/54589605/221943908-a4a4781a-3948-47a7-8aab-46015cdbe010.png)
+
+
+![image](https://user-images.githubusercontent.com/54589605/221944073-02c5013b-71c0-4753-9e6a-46e8392c8767.png)
+
+![image](https://user-images.githubusercontent.com/54589605/221945426-b124b8be-d0ff-4c6d-bf35-c5aa12bcd60b.png)
+
+![image](https://user-images.githubusercontent.com/54589605/221945402-08eb80af-2188-4750-8c65-c88eb11ebf8d.png)
+
+![image](https://user-images.githubusercontent.com/54589605/221947440-fab86bca-a629-4191-ba59-24d297515933.png)
+
+
 
 ## Quiz questions (1)
 
 * int j =(x++, --y);
 
 > No matter what is the value of 'x' and 'y' is, we will always take the 2nd or the last value i.e the value of 'y' here and store it in 'j' variable.
-
-
 
 
 
