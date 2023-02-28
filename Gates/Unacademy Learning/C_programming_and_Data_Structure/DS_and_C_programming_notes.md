@@ -1320,6 +1320,57 @@ Solved in **8_Doubt_Clearning_Session**.
 
 ![image](https://user-images.githubusercontent.com/54589605/221947440-fab86bca-a629-4191-ba59-24d297515933.png)
 
+```c
+// int z= ++(*p);
+    // printf("%d\n",z);
+    // printf("%d\n",++(*p));
+    
+    // printf("%d\n",x);
+    // printf("%d\n",p);
+    // printf("%d\n",*p);
+    // printf("%d\n",(*p)++);
+    // printf("%d\n",x);
+    // printf("%d\n",++*p);
+    // printf("%d\n",x);
+    // printf("%d\n",++(*p));
+    // printf("%d\n",x);
+    // printf("%d\n",++(*p));
+    // printf("%d\n",x);
+    
+    // printf("\n\n");
+    
+    // printf("%d\n",x);
+    // printf("%d\n",p);
+    // printf("%d\n",*p);
+    // printf("%d\n",(*p)--);
+    // printf("%d\n",x);
+    // printf("%d\n",--*p);
+    // printf("%d\n",x);
+    // printf("%d\n",--(*p));
+    // printf("%d\n",x);
+    // printf("%d\n",--(*p));
+    // printf("%d\n",x);
+    
+    // printf("%d\n",--*p);
+    // printf("%d\n",++*p);
+    // printf("%d\n",*p);
+    // printf("%d\n",x);
+   
+```
+
+### Explaination
+
+![image](https://user-images.githubusercontent.com/54589605/221954453-7d48e871-6415-48f4-ab59-10edf6a58c5d.png)
+![image](https://user-images.githubusercontent.com/54589605/221954914-25ef48ee-15ec-4767-ab84-9a772a27aee3.png)
+
+
+* *p++ OR *p-- -> Is causing the issue from the looks of it. We should use **(*p)++** or **(*p)--** respectively, as this is giving the desired output.
+
+* printf("%d\n",(*p)--);
+
+![image](https://user-images.githubusercontent.com/54589605/221955645-8d092cca-ca07-4be0-813a-9ea27f1783f1.png)
+![image](https://user-images.githubusercontent.com/54589605/221956501-b00ad1f9-408e-4d61-be17-4b6ac929e325.png)
+
 
 
 ## Quiz questions (1)
