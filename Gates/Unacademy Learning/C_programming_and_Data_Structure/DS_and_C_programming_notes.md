@@ -75,15 +75,36 @@
           * -6: '6' is operand. '-' is operator and more precisely a unary operator.
           * log x: 'x' is operand. 'log' is operator and more precisely a unary operator.
 
+![image](https://user-images.githubusercontent.com/54589605/221762845-d98e5704-8330-445c-868b-554cfc02d07a.png)
+![image](https://user-images.githubusercontent.com/54589605/221762882-43533083-e0a4-41b3-8195-41be4c7c7dc9.png)
+
+![image](https://user-images.githubusercontent.com/54589605/221763748-16bd816b-ac34-42b0-b2cd-5fa63fcaf046.png)
+
+* Termination Operator -> **;**.
+
+### Logical Operators
+
+![image](https://user-images.githubusercontent.com/54589605/221763171-3820219a-1284-43e2-ae5e-27199abb1209.png)
+
+
 ### Relational Operators
 
 * = -> Assignment operator
 * == -> Equals to operator
 * != -> Not equals to.
 
+![image](https://user-images.githubusercontent.com/54589605/221763210-e7a05f04-be58-49c8-9add-fb415595d0d7.png)
+
+### Bitwise Operators
+
+![image](https://user-images.githubusercontent.com/54589605/221763444-5287d4da-a04f-4c08-88d9-6ef09bf7be19.png)
+
+
 ### Left and Right Shift
 
 #### Left Shift
+
+![image](https://user-images.githubusercontent.com/54589605/221763482-caefa09e-7eb2-466b-837d-4eaeb0c3bd2b.png)
 
 * a << b. 2 << 3. 
 * *Formula* -> a << b = a * 2^b.
@@ -93,23 +114,53 @@
 
 #### Right Shift
 
+![image](https://user-images.githubusercontent.com/54589605/221763541-b207f6fd-8b9f-4a22-b1e0-ffd6ed8c30c8.png)
+
 * a >> b. 2 >> 3. 
 * *Formula* -> a >> b = (a/2^b) <- Floor Value(Integer part only). 
 * *Example* -> 14 >> 2 = 14/2^2 =14/4 = 3(ans)
 * > One right shift is divide by 2(here), the division is done 'b' times.
 
+### Floor and Ceil Function
+
+![image](https://user-images.githubusercontent.com/54589605/221763617-b20ef0e4-236e-4352-a7f1-0758a92d4eb6.png)
+
+
+## Identifiers
+
+![image](https://user-images.githubusercontent.com/54589605/221762670-970858d6-75db-4ff1-9450-d8d64a547e68.png)
+
+## Literals
+
+![image](https://user-images.githubusercontent.com/54589605/221762759-233fac25-c72b-4613-b2b6-cf70c6bdf0f1.png)
+
+
+## Operator Precedence and Associativity [**IMPORTANT**]
+
+![image](https://user-images.githubusercontent.com/54589605/221763019-b56a0161-9ad8-40fd-b3f2-411032eae756.png)
+
+
 ## Batch Statements and loops(3)
 
 ### Conditional Operator
 
-![image](https://user-images.githubusercontent.com/54589605/210772964-1846b7ae-502b-490b-b4b7-89c3b69d27e6.png)
+![image](https://user-images.githubusercontent.com/54589605/221763952-b09f84cd-9a3b-4ff7-8c07-13d913098c22.png)
+![image](https://user-images.githubusercontent.com/54589605/221764035-689e879c-9352-4829-9c66-720dff696423.png)
+![image](https://user-images.githubusercontent.com/54589605/221764077-34380558-edf1-40be-89dd-9df1428964c6.png)
 
 * d= (6!=3)? (a=b) : (b=c)  [a=5,b=3,c=2]
 
-> 6!=3 -> True, then (a=b) which is an assig60nment operator. The assignment operation will take place but the assigned value will not be returned to *d* as the result of the *ternary* operator, instead the *result of the assignment* will be returned to *d* as the result of the *ternary* operator.
+> 6!=3 -> True, then (a=b) which is an assignment operator. The assignment operation will take place but the assigned value will not be returned to *d* as the result of the *ternary* operator, instead the *result of the assignment* will be returned to *d* as the result of the *ternary* operator.
 > The result is that the assignment was completed/successful/True. If some event happens then the result will be *True or 1*.
 
-Hence **d=1** [Since integer value of True is 1.]  
+Hence **d=1** [Since integer value of True is 1.]
+
+
+![image](https://user-images.githubusercontent.com/54589605/221768170-69aec78c-b496-48c3-8e6f-bfa73da75f14.png)
+![image](https://user-images.githubusercontent.com/54589605/221768740-f46b05eb-182e-44f0-bdb6-f8a704e59816.png)
+
+* Looks like **1** is not coming.
+* From **4_Doubt_Solving_Session**. Page 23 of the PDF.
 
 ![image](https://user-images.githubusercontent.com/54589605/210773078-e86687ef-4ae9-4b6a-9e54-131032d87adf.png)
 
@@ -117,15 +168,50 @@ Hence **d=1** [Since integer value of True is 1.]
 
 > (a=b) is assignment operation and not comparison operator, which is *==*. As the assignment was successful and it happened and hence it will return *True* and the value of *a* is updated to *3* because of the assignment operator. which means *d=3 and a=3* (Ans). 
 
+![image](https://user-images.githubusercontent.com/54589605/221769136-1b72eea8-e68d-403c-92df-32c9c5cc269e.png)
+![image](https://user-images.githubusercontent.com/54589605/221769236-5d59a511-8f32-489e-be50-06ceef0db6d9.png)
+
+
+## Special Operators
+
+![image](https://user-images.githubusercontent.com/54589605/221764659-1cb23344-ed85-4b90-b7f7-577e22bbe91d.png)
+
+
 ### Data Types
 
+![image](https://user-images.githubusercontent.com/54589605/221764848-7f48731e-db10-4afa-bc1c-a464f72b87d4.png)
+![image](https://user-images.githubusercontent.com/54589605/221764924-b6b4a6e6-94da-45d8-af3e-7c80c25826b0.png)
+
 > The default of Data Types in C programming language is *signed*.
+
+## Access Specifier [**IMPORTANT**]
+
+![image](https://user-images.githubusercontent.com/54589605/221765043-8fd371a6-1acb-4219-b898-cd8d76f44cb3.png)
+
+## Variables
+
+![image](https://user-images.githubusercontent.com/54589605/221765230-620c2d24-4383-4911-9365-c2d97aa3398b.png)
+![image](https://user-images.githubusercontent.com/54589605/221765271-d7a5d6dd-ab13-4269-8153-fe4fc8c92a0a.png)
+![image](https://user-images.githubusercontent.com/54589605/221765384-a19ec6fd-5d99-47b9-bce5-527b30bc8e7f.png)
+
+## Output function
+
+![image](https://user-images.githubusercontent.com/54589605/221765601-8ba13afb-21f7-4306-a539-c34aaaa909a6.png)
+![image](https://user-images.githubusercontent.com/54589605/221765691-f22af734-cca6-4ac7-aad7-e038f2be02be.png)
+![image](https://user-images.githubusercontent.com/54589605/221765772-c254e7a7-d4f6-4b10-a6ac-d0b90e13c8b0.png)
+
+## Input Function
+
+![image](https://user-images.githubusercontent.com/54589605/221765837-9ede9ac8-b2be-46ee-86bf-98750014e0df.png)
+
 
 ### Header Files
 
 > They are library functions which are pre-written. The functions which are written along with C language.
 
 ## DPP 1 (4)
+
+> Solved in **4_Doubt_Clearning_Session** PDF file.
 
 * 1 -> A (Compiler)
 * 2 -> B (Double)
@@ -140,7 +226,25 @@ Hence **d=1** [Since integer value of True is 1.]
 
 > Question 6, ['Associativity' comes into the picture when two or more operands have the same precedence. Here '/' and '*']
 
+### Structure of C-programming language
+
+![image](https://user-images.githubusercontent.com/54589605/221766732-ec2114ae-ab8f-47f0-a113-781dedb0f453.png)
+
+> *main() function* -> library function. It is already given. It is to be written in every program. It is mandatory/necessary to be written in every program. Without main(), we cannot write a C-program which we want to execute because execution of a C-programs starts from the main() itself.
+
+* **%u** -> It is used for **unsigned** values.
+* **%x** -> It is used for getting values in **Hexa-decimal** format.
+
+![image](https://user-images.githubusercontent.com/54589605/221766887-40b8ad27-b262-4cda-956c-d7ebb9b577f6.png)
+
+## Ternary Operator [**IMPORTANT**]
+
+![image](https://user-images.githubusercontent.com/54589605/221767918-d43cc9c0-ea5b-4f72-ad0f-2fe5d3cda349.png)
+
+
 ### printf() variants
+
+![image](https://user-images.githubusercontent.com/54589605/221769499-4f1033af-cf57-43a2-9b3d-10987e14ff49.png)
 
 * printf("%d", printf("program")); -> program7
 
@@ -148,14 +252,31 @@ Hence **d=1** [Since integer value of True is 1.]
 
 * For C programming there are at-least 60 different compilers for it where we can run c language code.
 
-### Structure of C-programming language
+## Sizeof
 
-> *main() function* -> library function. It is already given. It is to be written in every program. It is mandatory/necessary to be written in every program. Without main(), we cannot write a C-program which we want to execute because execution of a C-programs starts from the main() itself.
+![image](https://user-images.githubusercontent.com/54589605/221769835-c945b464-1e57-445e-a32c-882ce7b5b53a.png)
 
-* **%u** -> It is used for **unsigned** values.
-* **%x** -> It is used for getting values in **Hexa-decimal** format.
+## Type Casting
+
+![image](https://user-images.githubusercontent.com/54589605/221770021-7a9eb27a-4d8e-4941-aa8b-36cfba90353a.png)
+
+## ASCII
+
+![image](https://user-images.githubusercontent.com/54589605/221770205-5298a9a9-1644-4295-8c17-0512f7d3f16c.png)
+![image](https://user-images.githubusercontent.com/54589605/221770267-80e3406f-ec7c-48eb-b1ad-0d46ebff561a.png)
+
+
+## Branching Statements
+
+![image](https://user-images.githubusercontent.com/54589605/221770426-c07fde5a-de60-4432-b370-0eff728a00aa.png)
+![image](https://user-images.githubusercontent.com/54589605/221770443-b5eb1fce-4d41-4478-b591-d872577b721b.png)
+![image](https://user-images.githubusercontent.com/54589605/221770462-5d3d7701-24bd-4a48-adde-94a25fef65d7.png)
+![image](https://user-images.githubusercontent.com/54589605/221770491-cb63b83c-b177-4939-8768-c3b597e38689.png)
+
 
 ## DPP 2
+
+> Solved in **8_Doubt_Clearning_Session**.
 
 * 1 -> D (Got it wrong, I checked B initially)
 * 2 -> A
@@ -165,7 +286,7 @@ Hence **d=1** [Since integer value of True is 1.]
 * 6 -> B
 * 7 -> A (d,100)
 * 8 -> C (-1,0) (Got it wrong, I checked A initially)
-* 9 -> E (Compilation Error) (Got it wrong, I checked C initially)
+* 9 -> E (Compilation Error) (Got it wrong, I checked C initially) [10--, cannot decrement a constant value]
 * 10 -> C (8) (Got it wrong, I checked D initially)
 * 11 -> E (GATE EXAM9) (Got it wrong, I checked C initially)
 * 12 -> B (GATE EXAM91) (Got it wrong, I checked E initially)
@@ -182,7 +303,36 @@ Hence **d=1** [Since integer value of True is 1.]
 * *Break* -> It breaks the current loop.
 * *Continue* -> It skips/stops the current iteration of the loop and goes to the next iteration.
 
+![image](https://user-images.githubusercontent.com/54589605/221773758-0e5c07c2-8438-4119-950e-7c299000c62c.png)
+![image](https://user-images.githubusercontent.com/54589605/221773781-a1cef7cc-510d-474d-b526-2f7373b131bc.png)
+
+## goto
+
+![image](https://user-images.githubusercontent.com/54589605/221774060-0cd7fdb3-78a5-4aa3-a9ce-10c580a3b97c.png)
+
+## Switch case
+
+![image](https://user-images.githubusercontent.com/54589605/221774275-1523b1f2-61bd-4b90-aa5e-0b100ef9b738.png)
+![image](https://user-images.githubusercontent.com/54589605/221774313-87224e3f-a749-4c26-9408-ad36e19e1f83.png)
+
+> In switch case we cannot use *float* and *double* type values. We can use *char*, *int*. As seen in Q6 from above.
+
+## Loops
+
+> Examples of **For, while and Do-while** in **5_Pointer** PDF file. From Page 12.
+
+### While Loop
+
+![image](https://user-images.githubusercontent.com/54589605/221774801-b7923266-ae72-4a77-9e84-bda5c63b9811.png)
+
+### do-while loop
+
+![image](https://user-images.githubusercontent.com/54589605/221774887-468f65ae-de3d-4741-ac6b-fb02f164ead9.png)
+
+
 ## DPP 2.1
+
+Solved in **8_Doubt_Clearning_Session**.
 
 * 1 -> B (This is if0)
 * 2 -> A (GATE 20232021)
@@ -194,6 +344,14 @@ Hence **d=1** [Since integer value of True is 1.]
 * 8 -> F (27)
 * 9 -> F (I am WonderfulYaha Kyu?)
 * 10 -> A (Let's Party)
+
+### Q2
+
+![image](https://user-images.githubusercontent.com/54589605/221786399-0fe074bc-206e-46c4-af91-1dad52b2ad2c.png)
+![image](https://user-images.githubusercontent.com/54589605/221786370-3d6e13df-046e-483a-aa1b-fdbf52c93a91.png)
+![image](https://user-images.githubusercontent.com/54589605/221786532-95ec0658-5a5c-47fd-9e9d-bef641fb4e22.png)
+
+* Since we are getting **j=21** or just **21** as the output for the **if** condition and **21** is True that why **Gate 2023** is getting printed out.
 
 ## Switch Case
 
@@ -214,6 +372,9 @@ Hence **d=1** [Since integer value of True is 1.]
 
 > Important as pointer are confusing and many questions come from it. Revise it well. Also go through the notes and the PDFs as well.
 
+![image](https://user-images.githubusercontent.com/54589605/221787980-6475ea2b-b4cd-496b-94f8-23fdc17b04e6.png)
+
+
 * floor() and ceil() are found in *math.h* library. [#include<math.h>].
 * floor() gives the *lower nearest* integer number.
 * ceil() gives the *upper nearest* integer number.
@@ -224,6 +385,27 @@ Hence **d=1** [Since integer value of True is 1.]
 > When we want to store the address of anything into a variable, then we cannot normally define that variable. Normal variable cannot store addresses of anything(another variable). The system will give me an error.
 
 * *Pointer* -> It is also a variable, but it doesn't store values like characters, floats, integers, double etc. It will only store addresses of others or other variables. It is a variable which is used to store address of other variables.
+
+![image](https://user-images.githubusercontent.com/54589605/221788341-0b805ae5-1665-4c08-98e0-763cc8446c0a.png)
+![image](https://user-images.githubusercontent.com/54589605/221788360-4f9ed8f1-afb0-4ae3-8bd3-3feb7a7189e3.png)
+
+![image](https://user-images.githubusercontent.com/54589605/221788672-def4fd85-617a-4e10-957d-b75b5835b44a.png)
+![image](https://user-images.githubusercontent.com/54589605/221788696-e5642f2e-d4d5-4218-9955-0e6cf0c1ad84.png)
+![image](https://user-images.githubusercontent.com/54589605/221788718-1491f373-4b1b-4e97-9005-96efd8278db2.png)
+
+* As pointers store address and address is nothing but **integer value**. Hence **sizeof()** returns **2 which is the size of int or integer** for any type of pointer whether it is **int, float, double or char**. 
+
+![image](https://user-images.githubusercontent.com/54589605/221789452-b2354ebb-a9a2-4041-b8b4-324c7343477c.png)
+
+* Increment or decrement in pointer is done by size of data item it points to.
+
+![image](https://user-images.githubusercontent.com/54589605/221789671-f0cda85c-4165-4756-a68b-07955173816d.png)
+![image](https://user-images.githubusercontent.com/54589605/221789924-a6453f76-4acb-4bdb-a8a6-3a774fe1dff7.png)
+
+## Double Pointer
+
+![image](https://user-images.githubusercontent.com/54589605/221789968-a25483fe-846a-4240-b123-45f8653182d5.png)
+
 
 * int *ptr;
 
@@ -242,6 +424,8 @@ Hence **d=1** [Since integer value of True is 1.]
 * *ptr=25;
 
 * printf("%d", age); -> Value of age is updated from 22 to 25 as '*ptr' is pointing to the value of age. 
+
+[**IMPORTANT**]
 
 > '*' gives the value stored at the memory address.
 > '&' gives the address.
@@ -339,13 +523,49 @@ int **p;
 
 ## DPP 3
 
-* 1 -> E
+Solved in **8_Doubt_Clearning_Session**.
+
+* 1 -> B
 * 2 -> 7,7,8,147 [For n=6] 4,4,4, 48 [For n=3]
 * 3 -> C (Got it wrong, I checked B initially)
 * 4 -> 0 [When n=6. Any value of n, gives count=0]
 * 5 -> 8,1,2 [When n=6];  64 1 5 [When n=64]
 
+### Q1
+
+![image](https://user-images.githubusercontent.com/54589605/221845789-4bf16e55-db0b-4d45-ba05-8905a642542c.png)
+![image](https://user-images.githubusercontent.com/54589605/221845997-d2373881-15c9-4a5b-b445-3e6ef7932824.png)
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/8A11AF610A
+
+### Extra Questions
+
+* From **8_Doubt_Clearning_Session**.
+
+![image](https://user-images.githubusercontent.com/54589605/221846570-4b7949dc-7f89-4b82-80ab-4724f03a9151.png)
+![image](https://user-images.githubusercontent.com/54589605/221846604-6a0fee97-9910-414f-a97b-cfd4bbd07b35.png)
+![image](https://user-images.githubusercontent.com/54589605/221847480-da6aeadf-46f0-4092-a1c1-0c726efdbae4.png)
+![image](https://user-images.githubusercontent.com/54589605/221847547-1136f6cb-da5c-4810-92e4-e95ddcd93571.png)
+![image](https://user-images.githubusercontent.com/54589605/221847583-0127bfb6-4c06-490b-88b3-19510bf68508.png)
+![image](https://user-images.githubusercontent.com/54589605/221847635-d45ca320-468f-420e-b7af-f2bf20aa0a18.png)
+
+
+
 ## Array With Pointers (7)
+
+![image](https://user-images.githubusercontent.com/54589605/221837423-9a544a67-9697-443a-a9a3-ce04a03cc1af.png)
+![image](https://user-images.githubusercontent.com/54589605/221837493-2a5afd02-64ea-4e9b-823a-b278e9b24e59.png)
+![image](https://user-images.githubusercontent.com/54589605/221837783-a4c6ec50-f3f0-4b2d-bcfe-33d3e44d1ce6.png)
+![image](https://user-images.githubusercontent.com/54589605/221837830-c9531e91-10fa-4664-857b-c1c7bcfc1c09.png)
+![image](https://user-images.githubusercontent.com/54589605/221837961-a9ae3766-4e7d-4440-9f12-4d5ac8aa8ba3.png)
+![image](https://user-images.githubusercontent.com/54589605/221838139-1b2154d0-95fd-45a2-89fc-6488c290c67f.png)
+![image](https://user-images.githubusercontent.com/54589605/221838317-ff04443c-fb6a-4ff1-9932-078000a6d28a.png)
+![image](https://user-images.githubusercontent.com/54589605/221838479-ba66838b-de58-4de6-a05e-3e4c4c929c51.png)
+![image](https://user-images.githubusercontent.com/54589605/221838654-0475874c-5901-4342-9e1f-117623ae07ef.png)
+![image](https://user-images.githubusercontent.com/54589605/221838792-a6deea09-a849-41b2-818e-4b4796308d6c.png)
+![image](https://user-images.githubusercontent.com/54589605/221839136-66e7b76b-6aee-4768-9f3c-63f0d2b8f3b9.png)
+
+* No errors, **constant pointer A and variable x** are explicitely converted to  **(int)** and **(int *)** respectively.
 
 * int *p =&A[0];
 * int *p= A;
@@ -356,14 +576,14 @@ int **p;
 
 * printf("%u",A); -> 500 which is the base address of array 'A'.
 
-* printf("%u",&A); -> gives address of the constant pointer 'A' which is different from the base address of array 'A'.
+* printf("%u",&A); -> **Gives address of the constant pointer 'A' which is different from the base address of array 'A'**.
 
 * A[0] -> *(500 + 0)
 
 > Both are the same thing.
 
-> Printing 'A' gives you the base address of the Array. *'&A' gives you the address of the constant pointer which is A*.
-> Which means the array name and the constant pointer name are the same. 'A' here is the name of the array and the name of the constant pointer is 'A' as well.
+> Printing 'A' gives you the base address of the Array. **'&A' gives you the address of the constant pointer which is A**.
+> **Which means the array name and the constant pointer name are the same**. 'A' here is the name of the array and the name of the constant pointer is 'A' as well.
 
 * int x=6;
 * int *p=&x;
@@ -420,6 +640,11 @@ int **p;
 
 ## 2D Array (8)
 
+![image](https://user-images.githubusercontent.com/54589605/221840561-0c9e6c5d-730c-4c6b-a541-e7018971e716.png)
+![image](https://user-images.githubusercontent.com/54589605/221840580-919a0484-2708-4f34-8300-e9f4198af733.png)
+![image](https://user-images.githubusercontent.com/54589605/221840867-71b2a6ad-5ec8-48fb-bb6b-38e556d9698b.png)
+
+
 * int A[4][5];
 
 > In C-language there is only one way to store 2D array elements which is *Row-wise or Row major ordering*.
@@ -432,6 +657,10 @@ int **p;
 > Both 'A' and '&A[0][0]' gives the base address of the 2D array which is 'A'.
 
 ### Row-wise order
+
+![image](https://user-images.githubusercontent.com/54589605/221840700-af750b59-86e1-45ea-ad1b-e4a673cc3a76.png)
+![image](https://user-images.githubusercontent.com/54589605/221840724-cf9a6711-9de4-4c53-8ce9-ef18b9789044.png)
+
 
 ### Find the address of any element A[i][j].
 
