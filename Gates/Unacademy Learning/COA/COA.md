@@ -4,6 +4,7 @@
 ## COA Prerequisite
 
 ![image](https://user-images.githubusercontent.com/54589605/219703126-5838cf62-bbc5-41c3-aa64-5ecb4f5a3b23.png)
+![image](https://user-images.githubusercontent.com/54589605/222415066-82eff0ab-07ad-417c-95de-2877f4003c13.png)
 
 
 ### Material
@@ -129,4 +130,115 @@
 ![image](https://user-images.githubusercontent.com/54589605/219824815-51994d74-a6f9-43a1-9a7b-c92a3c1549a2.png)
 ![image](https://user-images.githubusercontent.com/54589605/219824826-75134019-8108-4524-9785-77b139575c5f.png)
 ![image](https://user-images.githubusercontent.com/54589605/219824866-9dd6598d-e2ee-4307-b8e6-1e990fadd94b.png)
+
+
+# COA
+
+## Syllabus
+
+![image](https://user-images.githubusercontent.com/54589605/222424846-0f6c97f9-1eed-4867-a1f3-719dfb004a65.png)
+![image](https://user-images.githubusercontent.com/54589605/222425568-fcbe88e0-f315-43d0-a943-7709897c9968.png)
+
+
+## Routine
+
+![image](https://user-images.githubusercontent.com/54589605/222414532-a1bc4710-5af8-4580-af54-980475cdda3f.png)
+
+
+* Course Link -> https://unacademy.com/course/complete-course-on-computer-organization-architecture/SFZXXJRP
+
+## Basics of Computer Systems (1) [2nd March 2023]
+
+![image](https://user-images.githubusercontent.com/54589605/222416710-8b5eed31-e7e2-495c-8ee6-1e2f3cec5dfb.png)
+![image](https://user-images.githubusercontent.com/54589605/222417377-ef6c95c8-28f1-4ac4-9ee0-0f7eac37c841.png)
+![image](https://user-images.githubusercontent.com/54589605/222417697-aa8c5fd0-cff0-4668-a1cd-a976ab7ccda7.png)
+![image](https://user-images.githubusercontent.com/54589605/222417874-227000a7-45b3-474b-9fa1-7412c9f5cc92.png)
+![image](https://user-images.githubusercontent.com/54589605/222418834-411bb0f0-aec8-4b9e-b257-cd356a8d774b.png)
+![image](https://user-images.githubusercontent.com/54589605/222418919-7218e17f-df4a-4cc5-a8b0-3489c714a3a8.png)
+
+* Micro processor -> CPU [Every is separate hardware, CPU is separate hardware, Memory has separate hardware and other devices are separate hardware as well]
+* When we have single chip with memeory also and other devices on that chip only, that chip is called as the **micro controller**.
+
+
+![image](https://user-images.githubusercontent.com/54589605/222419701-6526516e-a9f7-4e32-8f8d-3b20ec37732a.png)
+![image](https://user-images.githubusercontent.com/54589605/222419845-47ef2fff-c2ff-4e64-b150-63949bd33632.png)
+
+* CPU works on **Binary Number** system. 
+* Data Format -> The data which comes to the CPU, how the data is represented(Binary, decimal, etc) in the CPU.
+
+![image](https://user-images.githubusercontent.com/54589605/222420951-b871fb4f-edac-402a-a79c-d2034d4b03e5.png)
+![image](https://user-images.githubusercontent.com/54589605/222421650-4fbad66b-f63c-4a4b-ba30-e233d9b489e0.png)
+
+> When we try to make a computer system, we first decide logically what kind of design we want to have of the computer system i.e that is **Architecture** basically. When we try to implement it, we will be having the **Organizational** part coming into the picture. The **organization** says whatever **physical devices** we have decided in the **Architecture**, how will the physical devices be made.
+> I have decided that I will teach a kid **multiplication**, that **decision of teaching, multiplication** to that kid is **Architecture** part. How will I teach **multiplication** to that kid is **Organization** part.
+
+* Decision of teaching, multiplication -> **Architecture** part [Decision, what to do]
+* How will I teach **multiplication** -> **Organization** part [Decision, How to do]
+
+![image](https://user-images.githubusercontent.com/54589605/222424254-f491be35-622a-47c1-91c0-d2bf01c459ef.png)
+![image](https://user-images.githubusercontent.com/54589605/222424288-d0e87ae5-577c-49ac-a6c6-f238e77102ba.png)
+![image](https://user-images.githubusercontent.com/54589605/222424398-18d8cf26-a5c6-40e6-8969-d3e8c1f37535.png)
+
+* Microprocessor is a special type of implementation of COA.
+
+[**IMPORTANT**]
+![image](https://user-images.githubusercontent.com/54589605/222424549-b3f47b87-ded1-46cb-8387-1f2e68b94340.png)
+
+* After 2008, **microprocessor** is removed from the syllabus. Don't learn it and ignore the PYQ questions as well.
+
+![image](https://user-images.githubusercontent.com/54589605/222424796-46b1970e-0a2d-49ad-b739-7e3d4126797c.png)
+
+## Data In Computers
+
+![image](https://user-images.githubusercontent.com/54589605/222427069-4be83cb3-a459-4e74-95b1-c7d924531c71.png)
+![image](https://user-images.githubusercontent.com/54589605/222428365-1af0e0f0-d93d-42b1-908d-9b1cc7912696.png)
+
+
+## Componenets of Computer
+
+![image](https://user-images.githubusercontent.com/54589605/222429183-b2e5940f-c018-4608-b9c7-03df75fa0a12.png)
+
+* ALU -> Arithmetic Logic Unit -> Arithemic, logic type operations are performed here. -> **Husband**
+* CU -> Control Unit -> Controlling the entire computer system hardware. -> **Wife**
+ 
+ > They are the **couple** of the house.
+
+![image](https://user-images.githubusercontent.com/54589605/222432203-3ead5c4b-9026-42cf-be9c-b5ee4944e3c2.png)
+ 
+### Other Componenets
+
+### System bus
+
+![image](https://user-images.githubusercontent.com/54589605/222433831-eb07b9e8-5c58-4b72-b987-5e541107712d.png)
+![image](https://user-images.githubusercontent.com/54589605/222433927-2ad40f05-67fa-4997-bfac-808a2f517e8a.png)
+
+> The single Communication/Connection line like a single wire can take **one(1) Bite(Either 0 or 1)**, it can carry **one bite** at a single time, from **CPU to Memory** and **Vice-versa**. It is **bi-directional**. If we want to send **more no. of bytes**, then we need more **single lines or wires**.
+> If we have **5 lines** then we can **transfer 5bites** of data at a time. 
+
+* Bus -> Collection of communication lines single-single lines/wires.
+
+![image](https://user-images.githubusercontent.com/54589605/222434488-943004a5-f8e7-46c4-b6fa-64356992f07e.png)
+
+* We make different types of busses, **what type of content that bus is carrying** or **for what purpose the bus is being used**. Based on these, we are deciding **different types of buses**.
+
+### Types of Buses
+
+1) **Address Bus** -> Only take the address from one place to another. -> **Uni-directional**.
+2) **Data Bus** -> Only take the data from one place to another. -> **Bi-directional**
+3) **Control bus** -> Only take the control from one place to another. -> **Bi-directional**
+
+
+![image](https://user-images.githubusercontent.com/54589605/222437273-04cb9a5d-7c53-4aed-ae2b-f05a2ea5b179.png)
+![image](https://user-images.githubusercontent.com/54589605/222438049-0ca32f7f-e0c6-4b8e-9b9e-d47bbf139848.png)
+
+## Memory System
+
+![image](https://user-images.githubusercontent.com/54589605/222438767-7abf9d8b-02f0-45f9-a7a7-ec38f080cce2.png)
+
+
+
+
+
+
+
 
