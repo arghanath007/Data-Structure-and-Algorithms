@@ -1937,6 +1937,15 @@ y= M(0,3)
 ![1_Quiz_1](https://user-images.githubusercontent.com/54589605/221354263-e6ced04e-ca20-4f9c-a2a7-b3bb26caf3c1.jpeg)
 ![1_Quiz_2](https://user-images.githubusercontent.com/54589605/221354265-f95e476d-f683-4f9d-97e0-ea8b9c31dd42.jpeg)
 
+## Quiz -2
+
+* Link -> https://unacademy.com/quiz/quiz-ii/86ZC82X5Y4/solutions/SP_8D3S0555R3HT0ONHV
+
+![Quiz_2_1](https://user-images.githubusercontent.com/54589605/222900536-1da6f402-ab09-44ca-9709-03b743c1f611.jpeg)
+![Quiz_2_2](https://user-images.githubusercontent.com/54589605/222900538-b2743d90-5af7-40c0-9cf6-9d8a4fca1064.jpeg)
+
+
+
 
 
 # DPP questions
