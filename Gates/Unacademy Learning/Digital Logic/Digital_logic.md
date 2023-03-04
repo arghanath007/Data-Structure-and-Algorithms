@@ -2213,8 +2213,37 @@ y= M(0,3)
 ![image](https://user-images.githubusercontent.com/54589605/222913358-00da12c5-71ed-4151-a89b-52be3d5fea90.png)
 ![image](https://user-images.githubusercontent.com/54589605/222913398-582f41b1-d9a1-46d3-8e9d-d63273d566b1.png)
 ![image](https://user-images.githubusercontent.com/54589605/222913465-0ed89232-bcab-4240-b949-9003d87cc313.png)
-![image](https://user-images.githubusercontent.com/54589605/222913552-0faf7c76-7529-4cb4-9c6e-42b1a94a10c2.png)
-![image](https://user-images.githubusercontent.com/54589605/222913556-9ef1ec7a-6eb2-4691-95cf-346b0047dc07.png)
+![image](https://user-images.githubusercontent.com/54589605/222913933-2cc12c86-4968-4065-9417-20b3e01a0f06.png)
+![image](https://user-images.githubusercontent.com/54589605/222914323-9ea786e6-d584-4b46-9843-6901f2ad5ba1.png)
+![image](https://user-images.githubusercontent.com/54589605/222914873-217fbf2b-c4fa-4b54-8438-6381787cb150.png)
+![image](https://user-images.githubusercontent.com/54589605/222914993-a6af8af7-a658-4a12-9a12-cf0df7056fee.png)
+![image](https://user-images.githubusercontent.com/54589605/222915221-9ee98b42-ab62-46a1-a0e5-3c257908361a.png)
+![image](https://user-images.githubusercontent.com/54589605/222915596-6c5a26dd-4114-4098-b46c-47d029ebfd95.png)
+![image](https://user-images.githubusercontent.com/54589605/222915651-fa26f879-ad2b-495a-8efb-0b98c350052c.png)
+![image](https://user-images.githubusercontent.com/54589605/222915707-30c4480b-4029-4d02-a2bd-9c76abceff72.png)
+![image](https://user-images.githubusercontent.com/54589605/222915863-fb986665-dc81-4049-8aa0-f057f86ec202.png)
+![image](https://user-images.githubusercontent.com/54589605/222915906-34e40cef-d756-4e89-8bd4-bc1385996105.png)
+![image](https://user-images.githubusercontent.com/54589605/222915989-9d71f41c-3c08-4802-9022-3170c3c4648f.png)
+![image](https://user-images.githubusercontent.com/54589605/222916007-98b583d6-e670-4ab0-ab45-f2b07d43e39e.png)
+![image](https://user-images.githubusercontent.com/54589605/222916088-a9cc6baa-edb7-44af-a7e3-1af66bf73a07.png)
+![image](https://user-images.githubusercontent.com/54589605/222916102-df6e4d3b-d7e7-4943-80b2-0b365486ffbb.png)
+![image](https://user-images.githubusercontent.com/54589605/222916291-85cde17a-c3a0-4d58-8c54-8a037761c6d3.png)
+![image](https://user-images.githubusercontent.com/54589605/222916416-cfb2f719-a602-4d7c-879c-f1d702ce1f33.png)
+![image](https://user-images.githubusercontent.com/54589605/222916551-f3aeddf7-3759-4550-ad4b-b8d347e778e5.png)
+![image](https://user-images.githubusercontent.com/54589605/222916605-2de70fd3-6c2d-49ba-be42-a8b15689bd36.png)
+![image](https://user-images.githubusercontent.com/54589605/222916751-f644e539-2ece-451b-aa3e-e764925d42da.png)
+![image](https://user-images.githubusercontent.com/54589605/222916765-859aef57-d940-4718-b5e8-fc441a092f89.png)
+
+* stuck-at-1 fault -> Whatever the circuit is before it, doesn't matter, it is always stuck at **1**, no matter what.
+
+* stuck-at-0 fault -> Whatever the circuit is before it, doesn't matter, it is always stuck at **0**, no matter what.
+
+![image](https://user-images.githubusercontent.com/54589605/222917365-0da49b8b-cc8f-4338-8dac-b21db36522d1.png)
+![image](https://user-images.githubusercontent.com/54589605/222916932-9f0188d1-817c-43df-9302-87a01dbdfd52.png)
+![image](https://user-images.githubusercontent.com/54589605/222917313-27cd0e52-ce62-4e80-96de-e21ee4a488d1.png)
+![image](https://user-images.githubusercontent.com/54589605/222917414-4a4c84f4-466c-43cd-9ec8-62a2d291790d.png)
+![image](https://user-images.githubusercontent.com/54589605/222917484-21eb7f27-10aa-4fe6-9afe-f65687094719.png)
+![image](https://user-images.githubusercontent.com/54589605/222917558-75ae81c9-cc2e-4cbb-92ac-edec4179dfc8.png)
 
 
 
