@@ -1941,8 +1941,60 @@ y= M(0,3)
 
 * Link -> https://unacademy.com/quiz/quiz-ii/86ZC82X5Y4/solutions/SP_8D3S0555R3HT0ONHV
 
+> Solved in **13_K_Maps_1** PDF file.
+
 ![Quiz_2_1](https://user-images.githubusercontent.com/54589605/222900536-1da6f402-ab09-44ca-9709-03b743c1f611.jpeg)
 ![Quiz_2_2](https://user-images.githubusercontent.com/54589605/222900538-b2743d90-5af7-40c0-9cf6-9d8a4fca1064.jpeg)
+
+![image](https://user-images.githubusercontent.com/54589605/222901416-a7b01b00-aa26-4546-b61b-02ba3b5ae4d7.png)
+![image](https://user-images.githubusercontent.com/54589605/222901446-eb31cac7-1094-4d43-af3e-f8e3b9d87034.png)
+![image](https://user-images.githubusercontent.com/54589605/222901459-31278e4a-48a7-4a11-a11c-880e5e31bf1d.png)
+![image](https://user-images.githubusercontent.com/54589605/222901510-e5a688d8-d6f7-4d07-891f-0182b2b35768.png)
+![image](https://user-images.githubusercontent.com/54589605/222901670-a01b1863-0192-40dd-900d-892fb8d28ad2.png)
+![image](https://user-images.githubusercontent.com/54589605/222902083-714e2a8c-a85b-4283-8ce2-58587dbb6d24.png)
+![image](https://user-images.githubusercontent.com/54589605/222902078-a9914c62-f92c-42e3-b462-8515da48b328.png)
+![image](https://user-images.githubusercontent.com/54589605/222902149-c131f68b-17ba-46d9-bc04-f0450a93a114.png)
+![image](https://user-images.githubusercontent.com/54589605/222902185-cf325cfc-1c0e-4059-8b08-7decf4ba39fc.png)
+![image](https://user-images.githubusercontent.com/54589605/222902198-58494352-60e2-4bcd-9842-6dd492992c65.png)
+
+>The questions was find the minimized boolean expression which is not correct?
+
+* The answer would be **a**, as **b,c and d** are minimized boolean expression.
+
+![image](https://user-images.githubusercontent.com/54589605/222902383-8afe74cd-47d7-48e2-9400-afdedd03539a.png)
+
+![image](https://user-images.githubusercontent.com/54589605/222902396-afeb439a-3bc8-4c6f-b696-aa765b8a29f4.png)
+![image](https://user-images.githubusercontent.com/54589605/222902424-f7b84134-92f0-4643-9e9e-835783d96de7.png)
+![image](https://user-images.githubusercontent.com/54589605/222902451-6633fa52-f37f-43ce-848e-cc04352194bc.png)
+
+* I also choose **option D** in the quiz as well.
+
+![image](https://user-images.githubusercontent.com/54589605/222902594-83778cff-0d9b-4163-8214-79f92e81a592.png)
+![image](https://user-images.githubusercontent.com/54589605/222902632-1f1d3147-ebbc-4ecc-b1cc-3060223e9eb7.png)
+![image](https://user-images.githubusercontent.com/54589605/222903336-a14c8081-78a2-4d81-b080-020580d22fb2.png)
+![image](https://user-images.githubusercontent.com/54589605/222903371-53bce139-4262-4afe-b16c-15e51f4c196c.png)
+
+* Product -> Intersection -> Common
+
+![image](https://user-images.githubusercontent.com/54589605/222903597-814809b1-53cd-4484-aec2-c0406686c18e.png)
+![image](https://user-images.githubusercontent.com/54589605/222903606-f7c873c6-d054-4366-abdc-10e7d71011b5.png)
+![Quiz_2_3](https://user-images.githubusercontent.com/54589605/222904259-c8dd7b45-df2c-4cef-9d33-2c3e8969e07b.jpeg)
+![image](https://user-images.githubusercontent.com/54589605/222904272-6064f901-b4f8-475a-a83f-b7ccf8172cda.png)
+![image](https://user-images.githubusercontent.com/54589605/222904366-f0b253b3-d110-4e53-be03-90ecf2f7c194.png)
+![image](https://user-images.githubusercontent.com/54589605/222904424-9c9a71ae-264a-4d0a-8df7-74323575510b.png)
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/9E08304ADD
+
+![image](https://user-images.githubusercontent.com/54589605/222907881-132152b2-5faa-4489-af67-a5e89bbef38d.png)
+![image](https://user-images.githubusercontent.com/54589605/222907922-de77bc77-e086-4b60-94bf-d0a9f4fdcd54.png)
+![image](https://user-images.githubusercontent.com/54589605/222907951-45c1aea0-5b1c-4070-b302-1e34a92841b4.png)
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/0F85EDFD59
+
+![image](https://user-images.githubusercontent.com/54589605/222908131-d3f0f144-623a-44d8-8424-a259abbe0545.png)
+![image](https://user-images.githubusercontent.com/54589605/222908101-e1b7eea0-6c0c-4d4a-8f44-adb3f42183da.png)
+![image](https://user-images.githubusercontent.com/54589605/222908123-bab7631d-7b1a-4253-b2a3-e4ca98e3940d.png)
+
 
 
 
@@ -1951,7 +2003,7 @@ y= M(0,3)
 # DPP questions
 
 * Link -> https://drive.google.com/drive/folders/1dq_D8WXuIe_2drVlRyed_ci9QofI_TaU
-
+ 
 ## DPP 1
 
 > Solved in **Logic Gates-IV**, Lesson **1**.
@@ -2124,6 +2176,46 @@ y= M(0,3)
 ![image](https://user-images.githubusercontent.com/54589605/222900754-faef90b5-8db8-49a1-a566-3098472df5a2.png)
 
 * Using De-morgans law on 4th statemenet matched with 2nd statement.
+
+## K_Map_I (DPP-1 Continued) (13) [4th March 2023]
+
+![image](https://user-images.githubusercontent.com/54589605/222904624-ae8313c9-c150-45c4-86ff-7926785b8774.png)
+![image](https://user-images.githubusercontent.com/54589605/222904888-963b88de-86ed-4461-b221-8c8cf56cc6a0.png)
+![image](https://user-images.githubusercontent.com/54589605/222905292-d7d0e10e-9360-4e15-99ca-50c2ea0fd37e.png)
+![image](https://user-images.githubusercontent.com/54589605/222905498-c5a52fd6-2878-4255-a837-99192aa5a970.png)
+![image](https://user-images.githubusercontent.com/54589605/222905544-97f3d64d-a78d-4f9c-8870-802f1947046c.png)
+![image](https://user-images.githubusercontent.com/54589605/222905841-1cc80621-3e5a-43d5-9095-3b0ff06c773f.png)
+![image](https://user-images.githubusercontent.com/54589605/222905864-95ba63b3-3d1e-4a02-b23c-f327d590d785.png)
+![image](https://user-images.githubusercontent.com/54589605/222905946-400c9adf-9a25-4b81-9e06-6338e8fcf493.png)
+![image](https://user-images.githubusercontent.com/54589605/222906068-ff6ab954-bfdf-48b4-b4de-9a68f67fcd7e.png)
+![image](https://user-images.githubusercontent.com/54589605/222906151-eef6ba1b-71ed-4334-badd-ac17062baebf.png)
+![image](https://user-images.githubusercontent.com/54589605/222906255-a78434fd-4c53-4fb0-b34b-3ac94e7d2c0a.png)
+![image](https://user-images.githubusercontent.com/54589605/222906398-c74bd2ff-668c-4c5b-b527-bf0663d4dd63.png)
+![image](https://user-images.githubusercontent.com/54589605/222906541-f5a36cd1-6c7c-4d59-8547-bc7d2e7a0248.png)
+![image](https://user-images.githubusercontent.com/54589605/222906596-08865dcc-8c4e-4019-98e5-ec5a1c737f5a.png)
+![image](https://user-images.githubusercontent.com/54589605/222906836-a9b43932-e1e6-4900-894d-400897f4d5c4.png)
+![image](https://user-images.githubusercontent.com/54589605/222906909-8ce1c41b-0567-4414-a166-b42d0433a65c.png)
+![image](https://user-images.githubusercontent.com/54589605/222907090-f71243b0-2068-4896-bdec-6b6aa4af4aae.png)
+ 
+
+### Logic Gates DPP
+
+![image](https://user-images.githubusercontent.com/54589605/222907403-fafee904-ee54-48e4-bf90-0744d3eb4f26.png)
+![image](https://user-images.githubusercontent.com/54589605/222907698-114dd8e6-6d44-4831-8f02-340de734ed9c.png)
+![image](https://user-images.githubusercontent.com/54589605/222908364-bc9940cb-704a-48ab-b95e-49200f46e90e.png)
+![image](https://user-images.githubusercontent.com/54589605/222908431-5e9687bd-8248-4560-ba27-d57d14c8f21c.png)
+![image](https://user-images.githubusercontent.com/54589605/222908502-54db59b1-5906-4826-bfa5-9bf438e27603.png)
+![image](https://user-images.githubusercontent.com/54589605/222911397-d1d90533-a95a-4a70-b252-9d86cbc2bbfe.png)
+![image](https://user-images.githubusercontent.com/54589605/222911965-1f16f3b6-cea0-4817-9077-72714385073a.png)
+![image](https://user-images.githubusercontent.com/54589605/222912247-08b59e3f-8bf5-4af8-a551-4636ebd628ab.png)
+
+![image](https://user-images.githubusercontent.com/54589605/222913332-44561e42-d4bf-4ca1-b47b-49fbb346a94d.png)
+![image](https://user-images.githubusercontent.com/54589605/222913358-00da12c5-71ed-4151-a89b-52be3d5fea90.png)
+![image](https://user-images.githubusercontent.com/54589605/222913398-582f41b1-d9a1-46d3-8e9d-d63273d566b1.png)
+![image](https://user-images.githubusercontent.com/54589605/222913465-0ed89232-bcab-4240-b949-9003d87cc313.png)
+![Uploading image.png…]()
+ 
+
 
 
 
