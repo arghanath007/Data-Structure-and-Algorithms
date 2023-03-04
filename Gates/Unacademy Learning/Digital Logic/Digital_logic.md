@@ -1937,12 +1937,73 @@ y= M(0,3)
 ![1_Quiz_1](https://user-images.githubusercontent.com/54589605/221354263-e6ced04e-ca20-4f9c-a2a7-b3bb26caf3c1.jpeg)
 ![1_Quiz_2](https://user-images.githubusercontent.com/54589605/221354265-f95e476d-f683-4f9d-97e0-ea8b9c31dd42.jpeg)
 
+## Quiz -2
+
+* Link -> https://unacademy.com/quiz/quiz-ii/86ZC82X5Y4/solutions/SP_8D3S0555R3HT0ONHV
+
+> Solved in **13_K_Maps_1** PDF file.
+
+![Quiz_2_1](https://user-images.githubusercontent.com/54589605/222900536-1da6f402-ab09-44ca-9709-03b743c1f611.jpeg)
+![Quiz_2_2](https://user-images.githubusercontent.com/54589605/222900538-b2743d90-5af7-40c0-9cf6-9d8a4fca1064.jpeg)
+
+![image](https://user-images.githubusercontent.com/54589605/222901416-a7b01b00-aa26-4546-b61b-02ba3b5ae4d7.png)
+![image](https://user-images.githubusercontent.com/54589605/222901446-eb31cac7-1094-4d43-af3e-f8e3b9d87034.png)
+![image](https://user-images.githubusercontent.com/54589605/222901459-31278e4a-48a7-4a11-a11c-880e5e31bf1d.png)
+![image](https://user-images.githubusercontent.com/54589605/222901510-e5a688d8-d6f7-4d07-891f-0182b2b35768.png)
+![image](https://user-images.githubusercontent.com/54589605/222901670-a01b1863-0192-40dd-900d-892fb8d28ad2.png)
+![image](https://user-images.githubusercontent.com/54589605/222902083-714e2a8c-a85b-4283-8ce2-58587dbb6d24.png)
+![image](https://user-images.githubusercontent.com/54589605/222902078-a9914c62-f92c-42e3-b462-8515da48b328.png)
+![image](https://user-images.githubusercontent.com/54589605/222902149-c131f68b-17ba-46d9-bc04-f0450a93a114.png)
+![image](https://user-images.githubusercontent.com/54589605/222902185-cf325cfc-1c0e-4059-8b08-7decf4ba39fc.png)
+![image](https://user-images.githubusercontent.com/54589605/222902198-58494352-60e2-4bcd-9842-6dd492992c65.png)
+
+>The questions was find the minimized boolean expression which is not correct?
+
+* The answer would be **a**, as **b,c and d** are minimized boolean expression.
+
+![image](https://user-images.githubusercontent.com/54589605/222902383-8afe74cd-47d7-48e2-9400-afdedd03539a.png)
+
+![image](https://user-images.githubusercontent.com/54589605/222902396-afeb439a-3bc8-4c6f-b696-aa765b8a29f4.png)
+![image](https://user-images.githubusercontent.com/54589605/222902424-f7b84134-92f0-4643-9e9e-835783d96de7.png)
+![image](https://user-images.githubusercontent.com/54589605/222902451-6633fa52-f37f-43ce-848e-cc04352194bc.png)
+
+* I also choose **option D** in the quiz as well.
+
+![image](https://user-images.githubusercontent.com/54589605/222902594-83778cff-0d9b-4163-8214-79f92e81a592.png)
+![image](https://user-images.githubusercontent.com/54589605/222902632-1f1d3147-ebbc-4ecc-b1cc-3060223e9eb7.png)
+![image](https://user-images.githubusercontent.com/54589605/222903336-a14c8081-78a2-4d81-b080-020580d22fb2.png)
+![image](https://user-images.githubusercontent.com/54589605/222903371-53bce139-4262-4afe-b16c-15e51f4c196c.png)
+
+* Product -> Intersection -> Common
+
+![image](https://user-images.githubusercontent.com/54589605/222903597-814809b1-53cd-4484-aec2-c0406686c18e.png)
+![image](https://user-images.githubusercontent.com/54589605/222903606-f7c873c6-d054-4366-abdc-10e7d71011b5.png)
+![Quiz_2_3](https://user-images.githubusercontent.com/54589605/222904259-c8dd7b45-df2c-4cef-9d33-2c3e8969e07b.jpeg)
+![image](https://user-images.githubusercontent.com/54589605/222904272-6064f901-b4f8-475a-a83f-b7ccf8172cda.png)
+![image](https://user-images.githubusercontent.com/54589605/222904366-f0b253b3-d110-4e53-be03-90ecf2f7c194.png)
+![image](https://user-images.githubusercontent.com/54589605/222904424-9c9a71ae-264a-4d0a-8df7-74323575510b.png)
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/9E08304ADD
+
+![image](https://user-images.githubusercontent.com/54589605/222907881-132152b2-5faa-4489-af67-a5e89bbef38d.png)
+![image](https://user-images.githubusercontent.com/54589605/222907922-de77bc77-e086-4b60-94bf-d0a9f4fdcd54.png)
+![image](https://user-images.githubusercontent.com/54589605/222907951-45c1aea0-5b1c-4070-b302-1e34a92841b4.png)
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/0F85EDFD59
+
+![image](https://user-images.githubusercontent.com/54589605/222908131-d3f0f144-623a-44d8-8424-a259abbe0545.png)
+![image](https://user-images.githubusercontent.com/54589605/222908101-e1b7eea0-6c0c-4d4a-8f44-adb3f42183da.png)
+![image](https://user-images.githubusercontent.com/54589605/222908123-bab7631d-7b1a-4253-b2a3-e4ca98e3940d.png)
+
+
+
+
 
 
 # DPP questions
 
 * Link -> https://drive.google.com/drive/folders/1dq_D8WXuIe_2drVlRyed_ci9QofI_TaU
-
+ 
 ## DPP 1
 
 > Solved in **Logic Gates-IV**, Lesson **1**.
@@ -2002,3 +2063,194 @@ y= M(0,3)
 ![4_DPP_1](https://user-images.githubusercontent.com/54589605/221579503-3fc29a68-52b3-417b-bbe1-3c0d1d4313ef.jpeg)
 ![5_DPP_1](https://user-images.githubusercontent.com/54589605/221579506-bb9e68d8-c7a2-46f2-abe3-15dcdd2cf4c8.jpeg)
 ![6_DPP_1](https://user-images.githubusercontent.com/54589605/221579510-5b988a61-3a3a-4532-816c-6eedf416d1af.jpeg)
+
+
+## Doubt_Solving_Session (12) [2nd March 2023]
+
+![image](https://user-images.githubusercontent.com/54589605/222480589-650927cd-8246-4046-8b30-4eaea4891eb9.png)
+![image](https://user-images.githubusercontent.com/54589605/222481393-373458fe-4d6c-45d0-b038-d668f1d9a32e.png)
+![image](https://user-images.githubusercontent.com/54589605/222482256-5a0a8d6d-6308-4aef-a75e-54f5167ab0e9.png)
+![image](https://user-images.githubusercontent.com/54589605/222482917-9dc3cf96-7603-4fc7-8220-be6ac2120178.png)
+![image](https://user-images.githubusercontent.com/54589605/222485454-eccaa7c1-d4fd-4e41-ae75-7b207ebe4a4d.png)
+![image](https://user-images.githubusercontent.com/54589605/222486907-d195abe8-f453-4031-92fa-48c4b4c272ef.png)
+![image](https://user-images.githubusercontent.com/54589605/222487379-b7e25c6b-3b94-4a59-aa59-c792fce70068.png)
+![image](https://user-images.githubusercontent.com/54589605/222488033-bc632168-d269-499f-a9ea-5521c43dabf2.png)
+![image](https://user-images.githubusercontent.com/54589605/222489320-cb1ed15f-0193-4fbd-9189-7ff853659e80.png)
+![image](https://user-images.githubusercontent.com/54589605/222489883-638aebfb-968e-4d90-a3d6-934f3e9ffc76.png)
+![image](https://user-images.githubusercontent.com/54589605/222494862-4543050f-732c-42cf-86a8-1474762fd83a.png)
+![image](https://user-images.githubusercontent.com/54589605/222496753-fd0c3318-5e85-48f3-8349-e3611f4ebdcc.png)
+ ![image](https://user-images.githubusercontent.com/54589605/222497138-585d339b-6013-4845-b401-4414aadcd1c4.png)
+![image](https://user-images.githubusercontent.com/54589605/222497275-b0f1f0b2-e498-4063-b52b-62fa78288f0a.png)
+![image](https://user-images.githubusercontent.com/54589605/222497811-48f3a255-932a-420e-bb58-f1aece34142b.png)
+
+* As we have considered the **1s**, hence we are dealing with **SOP** form.
+
+![image](https://user-images.githubusercontent.com/54589605/222498856-d983045b-4351-49da-880b-540449ad5e2b.png)
+![image](https://user-images.githubusercontent.com/54589605/222498903-b7bf2048-2c7f-4e61-8c24-756f548b84cc.png)
+![image](https://user-images.githubusercontent.com/54589605/222501068-e3022258-e48b-4aa1-88e1-7b44502dd5cb.png)
+![image](https://user-images.githubusercontent.com/54589605/222501628-92410938-0791-4b61-bf9e-3a1a3dd1e995.png)
+![image](https://user-images.githubusercontent.com/54589605/222502033-f283a840-9015-4c80-bd59-1bdad9530c74.png)
+![image](https://user-images.githubusercontent.com/54589605/222502298-7b676759-480c-4b81-8dae-dd846ffce081.png)
+![image](https://user-images.githubusercontent.com/54589605/222502590-4a662a89-4c71-4969-bfd5-c881973d5d18.png)
+![image](https://user-images.githubusercontent.com/54589605/222503311-9e8a3b2c-fe97-4238-a0a1-0f15c9e117e4.png)
+![image](https://user-images.githubusercontent.com/54589605/222504202-d93f97b5-6c10-40d5-beab-ef6b4de303d3.png)
+![image](https://user-images.githubusercontent.com/54589605/222504427-9295cc05-971c-4f0f-b9a2-9d5d63c8754b.png)
+![image](https://user-images.githubusercontent.com/54589605/222505327-2d2c1563-565a-4c31-9f4e-c1f5703cee40.png)
+![image](https://user-images.githubusercontent.com/54589605/222505523-50432c5c-6139-4f42-abc4-d5f8277aa55e.png)
+![image](https://user-images.githubusercontent.com/54589605/222506261-0e8039ee-59d4-427c-9f23-07b0461b3858.png)
+![image](https://user-images.githubusercontent.com/54589605/222506505-be0007f4-1f21-4461-9e70-e3c6bccd4455.png)
+![image](https://user-images.githubusercontent.com/54589605/222506720-f2740c7b-2eb3-4e0c-b37a-c9c8261388f3.png)
+![image](https://user-images.githubusercontent.com/54589605/222507690-2480f6d2-9c8c-4459-83bd-1324101844b3.png)
+![image](https://user-images.githubusercontent.com/54589605/222509098-6054439a-5484-43ae-a34e-5536f830d9ca.png)
+![image](https://user-images.githubusercontent.com/54589605/222509778-50fe43a3-10a2-4d7e-869b-c27bc66d1c07.png)
+![image](https://user-images.githubusercontent.com/54589605/222509888-8a3f2e63-94c4-4578-adb6-20a234a950a0.png)
+![image](https://user-images.githubusercontent.com/54589605/222510094-a2d4d7be-b148-446d-9ff8-b86bc32f2f85.png)
+![image](https://user-images.githubusercontent.com/54589605/222510517-a1c4d41d-7b1d-4b65-888f-fb0ff5188058.png)
+![image](https://user-images.githubusercontent.com/54589605/222510706-14e40df4-8051-44ff-9acb-06f5c3d39fda.png)
+![image](https://user-images.githubusercontent.com/54589605/222511660-5eaca84c-cff0-4ad5-a926-7d8666b63e15.png)
+![image](https://user-images.githubusercontent.com/54589605/222511857-a2653707-0b5a-4764-8c67-8c01481e67c1.png)
+![image](https://user-images.githubusercontent.com/54589605/222512062-b3a42812-b3eb-4ce1-a966-43c162746c1c.png)
+![image](https://user-images.githubusercontent.com/54589605/222512942-570a486e-6505-4d39-9950-7910ea21be9e.png)
+![image](https://user-images.githubusercontent.com/54589605/222513750-f3b9b40b-910f-4db3-a68f-57fbc0e3f390.png)
+![image](https://user-images.githubusercontent.com/54589605/222514325-5a092007-aa54-4638-b689-09a54194eb7e.png)
+ ![image](https://user-images.githubusercontent.com/54589605/222516567-01e1be58-1f62-492e-bc78-9a900dba7c7e.png)
+![image](https://user-images.githubusercontent.com/54589605/222518082-f2ea1464-7457-4381-b19f-081d7b17f8e4.png)
+
+![image](https://user-images.githubusercontent.com/54589605/222518558-5724cfaf-e1a6-48fa-9bb0-2192c58cf439.png)
+![image](https://user-images.githubusercontent.com/54589605/222518756-f3a6d777-2791-4973-b23b-0b4fb9ad683e.png)
+![image](https://user-images.githubusercontent.com/54589605/222519114-0e6eefb3-3f11-4e39-a03a-09a410d20dcd.png)
+![image](https://user-images.githubusercontent.com/54589605/222521606-469d0cd3-f623-4f70-903f-e0eeb7fc5fd8.png)
+![image](https://user-images.githubusercontent.com/54589605/222522633-a8f8348b-ed12-441c-8e66-9b2ddeefb26d.png)
+![image](https://user-images.githubusercontent.com/54589605/222523006-f00ccb9d-4285-4429-a18e-91c556bbf64c.png)
+ ![image](https://user-images.githubusercontent.com/54589605/222523201-f2c7f3bc-2293-480c-b6ee-b71631fb8b52.png)
+![image](https://user-images.githubusercontent.com/54589605/222523323-12cde4f5-64c3-426d-a0bb-4ccec9bba0dd.png)
+![image](https://user-images.githubusercontent.com/54589605/222523706-8c6cd174-88ac-424c-821e-a6c1a918a0c0.png)
+![image](https://user-images.githubusercontent.com/54589605/222524554-49288a46-2b8d-4b34-b364-6dee9a3ee216.png)
+![image](https://user-images.githubusercontent.com/54589605/222525590-f27adec8-3695-4b78-90ab-608cb23e8984.png)
+![image](https://user-images.githubusercontent.com/54589605/222526674-8184da7f-918f-4ad2-bb82-d181680cc544.png)
+![image](https://user-images.githubusercontent.com/54589605/222527105-6f71ea60-c4aa-4547-bd78-2279c3af8c06.png)
+![image](https://user-images.githubusercontent.com/54589605/222527523-d56c2155-892f-4d91-81e0-5fb5388a259c.png)
+![image](https://user-images.githubusercontent.com/54589605/222528313-3b287eb4-6bde-4837-a315-ba50b0770a88.png)
+![image](https://user-images.githubusercontent.com/54589605/222529182-ac8a2bfe-e79a-4a30-a26e-3442961afe21.png)
+![image](https://user-images.githubusercontent.com/54589605/222529274-eaf3f3c3-9873-4d26-a63d-bce6937aada6.png)
+![image](https://user-images.githubusercontent.com/54589605/222530123-d9a947db-470b-4892-acc3-9c1bcb3894de.png)
+![image](https://user-images.githubusercontent.com/54589605/222530633-9179bcde-bd7c-4f1d-9cc7-038169e01ee0.png)
+![image](https://user-images.githubusercontent.com/54589605/222532382-e3aa9db4-3873-4d88-abac-8fed993fca47.png)
+![image](https://user-images.githubusercontent.com/54589605/222532932-9be35160-9a09-41d2-a5be-2b23b993f6ac.png)
+![image](https://user-images.githubusercontent.com/54589605/222533618-4f1530d9-f801-4fd1-b315-de7a16aaac83.png)
+![image](https://user-images.githubusercontent.com/54589605/222533761-36386125-5404-4941-8f00-a25f1376e84c.png)
+![image](https://user-images.githubusercontent.com/54589605/222534055-39176caf-e2ba-41e8-b8fc-edbbb894eaf2.png)
+![image](https://user-images.githubusercontent.com/54589605/222534934-d4511edb-f5a3-41cc-85b3-a88ca07ed0f0.png)
+![image](https://user-images.githubusercontent.com/54589605/222534981-c4899cef-2f11-41e7-887b-4a352b398452.png)
+![7_DPP_1](https://user-images.githubusercontent.com/54589605/222883915-a7de31ea-f27e-4a68-a5de-2235fe7fc4ef.jpeg)
+![8_DPP_1](https://user-images.githubusercontent.com/54589605/222883916-690228d5-5afe-4720-8ffe-db01e1eb19e2.jpeg)
+![9_DPP_1](https://user-images.githubusercontent.com/54589605/222883918-3c001f45-ec43-435f-9905-18e8095bcf75.jpeg)
+![10_DPP_1](https://user-images.githubusercontent.com/54589605/222883920-3da03155-d05b-4320-83db-13b622fcb347.jpeg)
+![11_DPP_1](https://user-images.githubusercontent.com/54589605/222883930-0b3b7b57-6ee3-441f-8184-2c37f8f1a9c3.jpeg)
+![12_DPP_1](https://user-images.githubusercontent.com/54589605/222883931-c1b773e1-e95c-4967-b88d-d75ded965c5e.jpeg)
+![13_DPP_1](https://user-images.githubusercontent.com/54589605/222883963-911a028b-1bb6-4956-a8d0-a2ef9755849e.jpeg)
+![14_DPP_1](https://user-images.githubusercontent.com/54589605/222883966-73dbe711-afbd-498b-947e-1e6a3b1a366a.jpeg)
+![15_DPP_1](https://user-images.githubusercontent.com/54589605/222883968-a1628d3c-8383-4a98-99b3-626db25ef481.jpeg)
+![16_DPP_1](https://user-images.githubusercontent.com/54589605/222883969-e1933943-8759-42ca-a5ff-2b3a0b6bc4f1.jpeg)
+![17_DPP_1](https://user-images.githubusercontent.com/54589605/222883976-6a30f891-6c95-4c80-82fd-219716df3454.jpeg)
+![18_DPP_1](https://user-images.githubusercontent.com/54589605/222883979-8640f581-3bfc-4ec7-975d-8b2789dd8cc8.jpeg)
+![19_DPP_1](https://user-images.githubusercontent.com/54589605/222883980-ca44f480-a823-418f-8da6-e9e5dda00e9a.jpeg)
+![20_DPP_1](https://user-images.githubusercontent.com/54589605/222883982-15629ee2-b79d-4752-b546-ed5628ca1904.jpeg)
+![21_DPP_1](https://user-images.githubusercontent.com/54589605/222884010-19aa1fe3-57ce-4230-9b3e-6cc07d5af3a4.jpeg)
+![22_DPP_1](https://user-images.githubusercontent.com/54589605/222884012-f23f7635-524e-4c92-8b01-a52d5f627f43.jpeg)
+![23_DPP_1](https://user-images.githubusercontent.com/54589605/222884014-ea736f72-269c-4101-9aa1-6537dcc2501b.jpeg)
+![24_DPP_1](https://user-images.githubusercontent.com/54589605/222884015-f35eb6b6-52df-42b4-b762-e5a4efc45ea1.jpeg)
+![25_DPP_1](https://user-images.githubusercontent.com/54589605/222884019-fbed4508-0191-4052-8dd5-8608b1dfe261.jpeg)
+![26_DPP_1](https://user-images.githubusercontent.com/54589605/222884020-a9d2752c-a949-4b15-8813-9ff4cdb72564.jpeg)
+![27_DPP_1](https://user-images.githubusercontent.com/54589605/222884022-ac3c90d8-506c-4817-a699-441a5c1e5264.jpeg)
+![28_DPP_1](https://user-images.githubusercontent.com/54589605/222884023-4ebcedd9-3f43-41de-bc87-d246a44182b8.jpeg)
+![29_DPP_1](https://user-images.githubusercontent.com/54589605/222884024-8b76d4c2-efda-440f-9e73-833d0b686153.jpeg)
+
+
+### Q98 from DPP-1
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/B6409363AA
+
+![image](https://user-images.githubusercontent.com/54589605/222900706-9fcccb02-52af-4149-ba5f-c78d5d299b8c.png)
+![image](https://user-images.githubusercontent.com/54589605/222900723-56351ae0-c0c7-49ee-91ad-5fccecbd4a2a.png)
+![image](https://user-images.githubusercontent.com/54589605/222900754-faef90b5-8db8-49a1-a566-3098472df5a2.png)
+
+* Using De-morgans law on 4th statemenet matched with 2nd statement.
+
+## K_Map_I (DPP-1 Continued) (13) [4th March 2023]
+
+![image](https://user-images.githubusercontent.com/54589605/222904624-ae8313c9-c150-45c4-86ff-7926785b8774.png)
+![image](https://user-images.githubusercontent.com/54589605/222904888-963b88de-86ed-4461-b221-8c8cf56cc6a0.png)
+![image](https://user-images.githubusercontent.com/54589605/222905292-d7d0e10e-9360-4e15-99ca-50c2ea0fd37e.png)
+![image](https://user-images.githubusercontent.com/54589605/222905498-c5a52fd6-2878-4255-a837-99192aa5a970.png)
+![image](https://user-images.githubusercontent.com/54589605/222905544-97f3d64d-a78d-4f9c-8870-802f1947046c.png)
+![image](https://user-images.githubusercontent.com/54589605/222905841-1cc80621-3e5a-43d5-9095-3b0ff06c773f.png)
+![image](https://user-images.githubusercontent.com/54589605/222905864-95ba63b3-3d1e-4a02-b23c-f327d590d785.png)
+![image](https://user-images.githubusercontent.com/54589605/222905946-400c9adf-9a25-4b81-9e06-6338e8fcf493.png)
+![image](https://user-images.githubusercontent.com/54589605/222906068-ff6ab954-bfdf-48b4-b4de-9a68f67fcd7e.png)
+![image](https://user-images.githubusercontent.com/54589605/222906151-eef6ba1b-71ed-4334-badd-ac17062baebf.png)
+![image](https://user-images.githubusercontent.com/54589605/222906255-a78434fd-4c53-4fb0-b34b-3ac94e7d2c0a.png)
+![image](https://user-images.githubusercontent.com/54589605/222906398-c74bd2ff-668c-4c5b-b527-bf0663d4dd63.png)
+![image](https://user-images.githubusercontent.com/54589605/222906541-f5a36cd1-6c7c-4d59-8547-bc7d2e7a0248.png)
+![image](https://user-images.githubusercontent.com/54589605/222906596-08865dcc-8c4e-4019-98e5-ec5a1c737f5a.png)
+![image](https://user-images.githubusercontent.com/54589605/222906836-a9b43932-e1e6-4900-894d-400897f4d5c4.png)
+![image](https://user-images.githubusercontent.com/54589605/222906909-8ce1c41b-0567-4414-a166-b42d0433a65c.png)
+![image](https://user-images.githubusercontent.com/54589605/222907090-f71243b0-2068-4896-bdec-6b6aa4af4aae.png)
+ 
+
+### Logic Gates DPP
+
+![image](https://user-images.githubusercontent.com/54589605/222907403-fafee904-ee54-48e4-bf90-0744d3eb4f26.png)
+![image](https://user-images.githubusercontent.com/54589605/222907698-114dd8e6-6d44-4831-8f02-340de734ed9c.png)
+![image](https://user-images.githubusercontent.com/54589605/222908364-bc9940cb-704a-48ab-b95e-49200f46e90e.png)
+![image](https://user-images.githubusercontent.com/54589605/222908431-5e9687bd-8248-4560-ba27-d57d14c8f21c.png)
+![image](https://user-images.githubusercontent.com/54589605/222908502-54db59b1-5906-4826-bfa5-9bf438e27603.png)
+![image](https://user-images.githubusercontent.com/54589605/222911397-d1d90533-a95a-4a70-b252-9d86cbc2bbfe.png)
+![image](https://user-images.githubusercontent.com/54589605/222911965-1f16f3b6-cea0-4817-9077-72714385073a.png)
+![image](https://user-images.githubusercontent.com/54589605/222912247-08b59e3f-8bf5-4af8-a551-4636ebd628ab.png)
+
+![image](https://user-images.githubusercontent.com/54589605/222913332-44561e42-d4bf-4ca1-b47b-49fbb346a94d.png)
+![image](https://user-images.githubusercontent.com/54589605/222913358-00da12c5-71ed-4151-a89b-52be3d5fea90.png)
+![image](https://user-images.githubusercontent.com/54589605/222913398-582f41b1-d9a1-46d3-8e9d-d63273d566b1.png)
+![image](https://user-images.githubusercontent.com/54589605/222913465-0ed89232-bcab-4240-b949-9003d87cc313.png)
+![image](https://user-images.githubusercontent.com/54589605/222913933-2cc12c86-4968-4065-9417-20b3e01a0f06.png)
+![image](https://user-images.githubusercontent.com/54589605/222914323-9ea786e6-d584-4b46-9843-6901f2ad5ba1.png)
+![image](https://user-images.githubusercontent.com/54589605/222914873-217fbf2b-c4fa-4b54-8438-6381787cb150.png)
+![image](https://user-images.githubusercontent.com/54589605/222914993-a6af8af7-a658-4a12-9a12-cf0df7056fee.png)
+![image](https://user-images.githubusercontent.com/54589605/222915221-9ee98b42-ab62-46a1-a0e5-3c257908361a.png)
+![image](https://user-images.githubusercontent.com/54589605/222915596-6c5a26dd-4114-4098-b46c-47d029ebfd95.png)
+![image](https://user-images.githubusercontent.com/54589605/222915651-fa26f879-ad2b-495a-8efb-0b98c350052c.png)
+![image](https://user-images.githubusercontent.com/54589605/222915707-30c4480b-4029-4d02-a2bd-9c76abceff72.png)
+![image](https://user-images.githubusercontent.com/54589605/222915863-fb986665-dc81-4049-8aa0-f057f86ec202.png)
+![image](https://user-images.githubusercontent.com/54589605/222915906-34e40cef-d756-4e89-8bd4-bc1385996105.png)
+![image](https://user-images.githubusercontent.com/54589605/222915989-9d71f41c-3c08-4802-9022-3170c3c4648f.png)
+![image](https://user-images.githubusercontent.com/54589605/222916007-98b583d6-e670-4ab0-ab45-f2b07d43e39e.png)
+![image](https://user-images.githubusercontent.com/54589605/222916088-a9cc6baa-edb7-44af-a7e3-1af66bf73a07.png)
+![image](https://user-images.githubusercontent.com/54589605/222916102-df6e4d3b-d7e7-4943-80b2-0b365486ffbb.png)
+![image](https://user-images.githubusercontent.com/54589605/222916291-85cde17a-c3a0-4d58-8c54-8a037761c6d3.png)
+![image](https://user-images.githubusercontent.com/54589605/222916416-cfb2f719-a602-4d7c-879c-f1d702ce1f33.png)
+![image](https://user-images.githubusercontent.com/54589605/222916551-f3aeddf7-3759-4550-ad4b-b8d347e778e5.png)
+![image](https://user-images.githubusercontent.com/54589605/222916605-2de70fd3-6c2d-49ba-be42-a8b15689bd36.png)
+![image](https://user-images.githubusercontent.com/54589605/222916751-f644e539-2ece-451b-aa3e-e764925d42da.png)
+![image](https://user-images.githubusercontent.com/54589605/222916765-859aef57-d940-4718-b5e8-fc441a092f89.png)
+
+* stuck-at-1 fault -> Whatever the circuit is before it, doesn't matter, it is always stuck at **1**, no matter what.
+
+* stuck-at-0 fault -> Whatever the circuit is before it, doesn't matter, it is always stuck at **0**, no matter what.
+
+![image](https://user-images.githubusercontent.com/54589605/222917365-0da49b8b-cc8f-4338-8dac-b21db36522d1.png)
+![image](https://user-images.githubusercontent.com/54589605/222916932-9f0188d1-817c-43df-9302-87a01dbdfd52.png)
+![image](https://user-images.githubusercontent.com/54589605/222917313-27cd0e52-ce62-4e80-96de-e21ee4a488d1.png)
+![image](https://user-images.githubusercontent.com/54589605/222917414-4a4c84f4-466c-43cd-9ec8-62a2d291790d.png)
+![image](https://user-images.githubusercontent.com/54589605/222917484-21eb7f27-10aa-4fe6-9afe-f65687094719.png)
+![image](https://user-images.githubusercontent.com/54589605/222917558-75ae81c9-cc2e-4cbb-92ac-edec4179dfc8.png)
+
+
+
+
+
+
+
+
+
+

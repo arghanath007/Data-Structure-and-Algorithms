@@ -184,6 +184,7 @@
 [**IMPORTANT**]
 ![image](https://user-images.githubusercontent.com/54589605/222424549-b3f47b87-ded1-46cb-8387-1f2e68b94340.png)
 
+[**IMPORTANT**]
 * After 2008, **microprocessor** is removed from the syllabus. Don't learn it and ignore the PYQ questions as well.
 
 ![image](https://user-images.githubusercontent.com/54589605/222424796-46b1970e-0a2d-49ad-b739-7e3d4126797c.png)
@@ -228,6 +229,8 @@
 3) **Control bus** -> Only take the control from one place to another. -> **Bi-directional**
 
 
+> **Control bus** -> It contains the **control signals**. Control Signal is send so that other devices understand what does the device want. Control Signal are signals which tells other devices, what to do. 
+
 ![image](https://user-images.githubusercontent.com/54589605/222437273-04cb9a5d-7c53-4aed-ae2b-f05a2ea5b179.png)
 ![image](https://user-images.githubusercontent.com/54589605/222438049-0ca32f7f-e0c6-4b8e-9b9e-d47bbf139848.png)
 
@@ -236,6 +239,213 @@
 ![image](https://user-images.githubusercontent.com/54589605/222438767-7abf9d8b-02f0-45f9-a7a7-ec38f080cce2.png)
 
 
+## Registers and Memory Address (2) [4th March 2023]
+
+* The basic reason for providing the address is that the CPU has to give some address or send some address to memory, and the memory will understand, where the CPU wants to do some operation(read, write etc). **This is the basic reason for providing address to each and every cell**.
+
+![image](https://user-images.githubusercontent.com/54589605/222869679-12b4996c-a211-479e-91cb-1c0528ac099b.png)
+
+> If CPU wants to select any particular cell then the CPU has to inform the **memory** by providing the **cell number i.e the address of the cell**. If CPU wants to send **the address of the cell** to memory, **the how will CPU send the address to memory?**
+
+> Through **Bus**, Which Bus? -> **Address Bus**.
+
+![image](https://user-images.githubusercontent.com/54589605/222869858-4e9a78d4-f794-41d0-b664-acebf6c241a8.png)
+
+> If CPU wants to perform **read and write** in memory then it will send **the address of the cell** in a given range(0-15) here to memory i.e CPU is selecting that particular memory cell and wants to perform **read and write** operations there.
+
+![image](https://user-images.githubusercontent.com/54589605/222870027-3d496553-12ab-4bc3-80b5-cab47cf07c2e.png)
+
+### Memory operations
+
+* Read
+* Write
+
+* Control Signal -> It is a signal which is used to inform to **memory**, what type of **operation** CPU wants to perform on memory.
+
+### Read operation
+
+* Enabled -> The signal is **tuned on i.e Carrying 1**.
+
+> When CPU performs **read** operation, cpu has to send **two information** to memory, **one is address by address bus and one is control signal i.e read through control bus**. Memory will send data back to cpu through data bus.
+
+* **tuned off i.e Carrying 0**.
+
+![image](https://user-images.githubusercontent.com/54589605/222871379-c7745a0a-38fd-4da3-b46f-04923f756a8d.png)
+![image](https://user-images.githubusercontent.com/54589605/222871436-48e3515e-98b3-4712-bc56-3795496d96fd.png)
+
+### Write operation
+
+> CPU sends **data** to memory through **data bus**, whatever data CPU wants to **write** in the memory. That data also CPU will send.
+
+![image](https://user-images.githubusercontent.com/54589605/222871828-680bc636-cfa4-4d9a-815e-5be464ed2b28.png)
+
+>  When CPU performs **read** operation, cpu has to send **three information** to memory, **one is address by address bus, one is data(content) through data bus and one is control signal i.e write through control bus**. Memory will accept the address, go to the address, whatever content cpu has send, memory will accept that and perform a **write** operation on that given address.
+
+
+> In Both **read and write** operation, one thing is sure, cpu can send **enabled read/write** signal to memory, only when the memory is ready. There are control signals between memory and cpu. Memory is sending those control signals to cpu.
+
+* The control signals are:
+
+1) Ready
+2) Busy/wait
+
+![image](https://user-images.githubusercontent.com/54589605/222872994-8b1fc007-5fe9-4a98-b3d0-3a5128deceb7.png)
+
+> As soon as cpu has send a signal to memory to perform read/write. What happens that memory will perform that operation and immediately as the memory accepted that signal of read/write, memory will **enable** that **busy/wait** signal.  **Busy/wait** signal will be **enabled or 1**. **Ready** signal will be **0**.
+
+![image](https://user-images.githubusercontent.com/54589605/222873284-4e689a8e-cc5c-4e04-adb2-36476338b775.png)
+
+> As soon as memory operation is over, **Busy/wait** signal will be **0**. **Ready** signal will be **1**.
+
+![image](https://user-images.githubusercontent.com/54589605/222873317-b441f51d-f06a-4eb6-8934-47b1e5b8d621.png)
+
+
+## CPU Registers
+
+> The work of the cpu is to perform the operations, to execute the program, to execute the software.
+
+* CPU registers are small memories inside the cpu.
+
+![image](https://user-images.githubusercontent.com/54589605/222873484-de0fb589-5c78-44d6-8ee8-f92d59c7d728.png)
+
+### Types
+
+1) General Purpose Registers(GPRs) -> Any general data
+2) Special Purpose Registers -> Special content/data. Very specific.
+
+![image](https://user-images.githubusercontent.com/54589605/222873599-6938ac27-5193-4ee5-a963-5a23f73f875c.png)
+![image](https://user-images.githubusercontent.com/54589605/222873638-2f899fa5-d77b-43c6-b9c9-43c45d3be61d.png)
+![image](https://user-images.githubusercontent.com/54589605/222874085-35b645d4-db28-4eb3-9267-597ebecc3319.png)
+
+
+## 1. Accumulator
+
+* ALU -> It need **two** inputs and it generates the result.
+
+![image](https://user-images.githubusercontent.com/54589605/222874263-ef77487a-dc3d-45d0-903c-971ba0667977.png)
+![image](https://user-images.githubusercontent.com/54589605/222874329-a3c84a66-44f8-42a3-8550-b67042556488.png)
+
+* One input should be taken from **accumulator** only. In ALU, only first input taken from Accumulator only that is fixed.
+
+
+* These two designs are called as **architectures** of cpu based on **ALU** input. Or **Accumulator based architecture**.
+
+![image](https://user-images.githubusercontent.com/54589605/222874504-37aefa34-909f-45cf-9969-19b53380998f.png)
+
+* Based on from where the **two** inputs are coming to **ALU**, based on these we have different achitectures.
+
+## Types of Architecture
+
+* In every architecture, the result always comes to the **Accumulator** first.
+
+![image](https://user-images.githubusercontent.com/54589605/222874573-78cf8d88-90be-475e-b1eb-3745b2e099c7.png)
+![image](https://user-images.githubusercontent.com/54589605/222874651-37ccb6bd-f51c-411e-be17-2caa0c48767b.png)
+
+![image](https://user-images.githubusercontent.com/54589605/222874768-ee23a81f-05f2-409f-a20a-428d0d2f6b65.png)
+
+> As, **a and b** values are stored in memory, hence we have to first take the values from memory to some **genenral purpose registers(R1, R2)**. After that we can perform the **addition** operation.
+
+* In Register-based architecture, if we want to perform any **ALU** operation on any values, both values are to be present in a **genenral purpose registers(R1, R2)**. If not present then we have to bring it first. First we have to bring the values into **genenral purpose registers(R1, R2)** and after that we can send them to ALU.
+
+![image](https://user-images.githubusercontent.com/54589605/222874999-ac0220c5-8fdb-437d-a71f-bed47c9c13fd.png)
+
+
+* Register-Memory Base Architecture -> The first input is fixed/restricted to **Genenral purpose registers** only. The second input has flexibility i.e it can be choosen either from **memory or Genenral purpose registers** depending on the condition or requirements. 
+
+> **By default**, we have fixed the first input to *Genenral purpose registers** only. If we have to perform **a + b**, then **a** should be in a **Genenral purpose registers** and **b** can be in **memory or Genenral purpose registers** my choice but **first input is fixed**. This is the **default one**.
+> In the questions they will **reverse it**, to **confuse** us.
+
+[**Default**]
+
+![image](https://user-images.githubusercontent.com/54589605/222875552-27e330dc-6524-4ea5-bafe-b64b329aa5f9.png)
+
+
+* Complex System Architecture -> More flexibility. Four combinations/options available. 
+
+![image](https://user-images.githubusercontent.com/54589605/222878099-0cfd032f-636b-4991-92cc-758922d0e5d8.png)
+
+
+* Stack-based architecture -> Not in the syllabus. Jurt remember the drawing and nothing else.
+
+![image](https://user-images.githubusercontent.com/54589605/222878127-3c4cd467-ed89-4dc9-af47-5fe3b6b8ce76.png)
+
+
+## 2. Program Counter 
+
+* It is just a pointer which will store the address of the memory, so that the cpu will know whatever program we are running, if current instructions are  completely executed then next instruction we will get from which address in the memory.
+
+![image](https://user-images.githubusercontent.com/54589605/222878482-4b13fa66-ec75-4c69-aa75-589366e88f79.png)
+
+## 3. Instruction Register
+
+![image](https://user-images.githubusercontent.com/54589605/222878570-e33746da-1951-46c8-b94f-365f837fb69f.png)
+
+* To store the current instructions, cpu has a very specific register called as the **Instruction register**. It stores the current instruction to be executed. Whichever instructions cpu brings from memory that instruction is stored in IR. The **viva chair** is the *Instruction register**.
+
+
+## 4. Stack Pointer
+
+* Stores the address of the top of the stack.
+
+![image](https://user-images.githubusercontent.com/54589605/222878875-70335b45-ad2e-4c03-888a-86efc03037f7.png)
+
+## 5. Flag or Status Register
+
+![image](https://user-images.githubusercontent.com/54589605/222878989-b0fe9286-079e-4640-8960-c4ab040fa357.png)
+
+* Carry is nothing but extra bit or extra result we have or not.
+* Status of the current result we are generating.
+
+* S -> Sign [Negative or positive]
+* Z -> Zero [Zero or not]
+* Ca -> Carry [Carry or not]
+
+![image](https://user-images.githubusercontent.com/54589605/222879079-42bd3563-e4dc-4d74-b2ac-2a6dec5d7911.png)
+![image](https://user-images.githubusercontent.com/54589605/222879099-e4ba3399-cd85-428b-9fbf-6c8af2a71f33.png)
+
+
+## Address Register or MAR
+
+* Used to send address to memory
+
+> Cpu wants to do read/write operation in memory, cpu has to send address to memory through address bus. **Bus stop** in the cpu for address bus is **Address register**.
+> If cpu is having any address which cpu wants to send to memory through address bus. First, cpu has to bring that address to **address register**. If cpu wants to send any address to memory through address bus then first cpu has to bring that address to **address register**. From **address register**, address bus is connected, that address goes to memory.
+
+![image](https://user-images.githubusercontent.com/54589605/222879537-6ffd32ca-73c6-4711-aa31-297d9a96e587.png)
+
+
+## Data Register or MDR
+
+* Used to send data to memory -> Memory **write** operation
+* Used to receive data from memory -> Memory **read** operation -> Data is coming from memory to cpu
+
+![image](https://user-images.githubusercontent.com/54589605/222879676-395e5355-72d1-43f9-ad4a-f7766214cefc.png)
+
+![image](https://user-images.githubusercontent.com/54589605/222879733-135a8053-7b37-49d4-a479-e10861f7ccec.png)
+
+> **Current**
+
+![image](https://user-images.githubusercontent.com/54589605/222880025-fe74dc2c-d582-487d-8ca0-36b5536e869d.png)
+
+* It will be given in the question.
+
+![image](https://user-images.githubusercontent.com/54589605/222880003-815ccc33-4646-47a7-837b-2401526f62dd.png)
+
+* One(1) instruction is -> 2 bytes (Taken her)
+
+
+### Questions
+
+* If nothing is mentioned about **memory** then it is **byte addressable** by default .
+
+![image](https://user-images.githubusercontent.com/54589605/222880526-0beb55ca-046a-4f9a-a6e4-404c460a6bcb.png)
+![image](https://user-images.githubusercontent.com/54589605/222880612-da236703-b519-4bf4-958a-8d38f99ba02f.png)
+
+> When **I120** has gone for execution, PC Or program counter will hold the address of next instruction or **I121**. The value will be **976+4 -> 980**. PC Or program counter will point to the next instruction.
+
+![image](https://user-images.githubusercontent.com/54589605/222880683-a8e28e1f-11b3-4fd9-8ca2-496e19a580dd.png)
+![image](https://user-images.githubusercontent.com/54589605/222880767-0fd476a4-ac6c-42bd-b972-e419128e1b09.png)
+![1_registers](https://user-images.githubusercontent.com/54589605/222881338-c143d85e-5473-4e96-9f00-a1e2883e0f38.jpeg)
 
 
 
