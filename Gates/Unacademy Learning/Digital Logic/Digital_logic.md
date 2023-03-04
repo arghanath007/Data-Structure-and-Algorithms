@@ -2115,6 +2115,16 @@ y= M(0,3)
 ![29_DPP_1](https://user-images.githubusercontent.com/54589605/222884024-8b76d4c2-efda-440f-9e73-833d0b686153.jpeg)
 
 
+### Q98 from DPP-1
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/B6409363AA
+
+![image](https://user-images.githubusercontent.com/54589605/222900706-9fcccb02-52af-4149-ba5f-c78d5d299b8c.png)
+![image](https://user-images.githubusercontent.com/54589605/222900723-56351ae0-c0c7-49ee-91ad-5fccecbd4a2a.png)
+![image](https://user-images.githubusercontent.com/54589605/222900754-faef90b5-8db8-49a1-a566-3098472df5a2.png)
+
+* Using De-morgans law on 4th statemenet matched with 2nd statement.
+
 
 
 
