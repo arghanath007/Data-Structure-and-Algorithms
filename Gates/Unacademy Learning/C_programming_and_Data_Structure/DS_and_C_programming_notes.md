@@ -5286,6 +5286,16 @@ We know,
 ![Stack_7](https://user-images.githubusercontent.com/54589605/222384985-4b47b65d-4880-466d-8ca6-8e3c2d76f8e0.jpeg)
 
 
+## Doubt Question
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/0BEC63A632
+
+![image](https://user-images.githubusercontent.com/54589605/222900955-41016b92-76b0-450b-9e1c-58ce8fd880f1.png)
+![image](https://user-images.githubusercontent.com/54589605/222901002-d6f70ec7-853e-46e6-bf9e-9987e151a74e.png)
+
+* It is not **1 and 4** separate it is **14**. I was solving it separately.
+
+
 
 
 
