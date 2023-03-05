@@ -2245,10 +2245,157 @@ y= M(0,3)
 ![image](https://user-images.githubusercontent.com/54589605/222917484-21eb7f27-10aa-4fe6-9afe-f65687094719.png)
 ![image](https://user-images.githubusercontent.com/54589605/222917558-75ae81c9-cc2e-4cbb-92ac-edec4179dfc8.png)
 
+### Doubts
+
+![image](https://user-images.githubusercontent.com/54589605/222976868-c3249abd-16a8-4ac1-b5f3-a07ee52332b3.png)
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/C90DC659E3
+
+
+## Logic Gates DPP continued (K_map_II) (14) [5th march 2023]
+
+![image](https://user-images.githubusercontent.com/54589605/222966405-44ad2982-f22b-4626-9bd5-c0fcc91b4bfc.png)
+![image](https://user-images.githubusercontent.com/54589605/222966675-1f892d28-24ba-4e85-98ac-53c0042a026d.png)
+![image](https://user-images.githubusercontent.com/54589605/222966708-9b075786-0c40-4cff-ac56-0e0f0e6255bf.png)
+![image](https://user-images.githubusercontent.com/54589605/222966752-4a1c22ba-7505-4167-90d7-a25d7e373e3e.png)
+![image](https://user-images.githubusercontent.com/54589605/222966780-85d72412-20fd-424a-9583-f97ab4042c8b.png)
+![image](https://user-images.githubusercontent.com/54589605/222966855-95b8d02b-6686-4e24-8359-6c5231e57ceb.png)
+![image](https://user-images.githubusercontent.com/54589605/222967064-91eeb505-708d-4ca9-b44d-0229fa985f56.png)
+![image](https://user-images.githubusercontent.com/54589605/222967376-d3d8a24b-e38b-4c26-afb1-37fc73e86746.png)
+![image](https://user-images.githubusercontent.com/54589605/222967700-33475d08-4fea-44a1-9f45-4f7d4c760926.png)
+![image](https://user-images.githubusercontent.com/54589605/222967977-47d32212-2da4-4bcb-b0b5-a19be806411b.png)
+![image](https://user-images.githubusercontent.com/54589605/222968124-cdccb1de-3ef0-4774-a2b9-0caf20b96060.png)
+![image](https://user-images.githubusercontent.com/54589605/222968167-c58740fa-76de-4d1e-bdde-e4831fe490d3.png)
+![image](https://user-images.githubusercontent.com/54589605/222968179-2c6a8f94-baeb-484b-9ebb-e08fc3d8c805.png)
+
+* X-NOR -> Equality Gate, coincidence gate.
+
+![image](https://user-images.githubusercontent.com/54589605/222968414-48c70c8f-0652-4733-bd20-830e92903aee.png)
+
+* Only **NAND** as there is only one option where both inputs are high and the output is low.
+* In **NOR**, we satisfy the condition that when both inputs are high and the output is low. But here, we are getting more than **1** condition where the output is low and the ouputs are not necessarily both high, one of them is high. Hence as the question says **if and only if** that's we cannot take **NOR** here. 
+
+![image](https://user-images.githubusercontent.com/54589605/222968658-5838a326-7d05-4c3f-8db8-9dd5d54d0700.png)
+![image](https://user-images.githubusercontent.com/54589605/222968768-3a2ccf33-c15b-4de1-afea-cc644e64c4c7.png)
+![image](https://user-images.githubusercontent.com/54589605/222968783-f20c19b0-73f9-45a1-b6d8-41a842609cac.png)
+![image](https://user-images.githubusercontent.com/54589605/222968860-c6593fc6-61d6-4c2a-8adf-e9345edb2c80.png)
+![image](https://user-images.githubusercontent.com/54589605/222969292-1e673094-e403-4908-91cc-b57cda027391.png)
+![image](https://user-images.githubusercontent.com/54589605/222969323-3a181c3e-8ec8-4402-8acf-5375275d9a25.png)
+ ![image](https://user-images.githubusercontent.com/54589605/222969630-006c347a-0924-4826-88c3-279f9359d0f2.png)
+![image](https://user-images.githubusercontent.com/54589605/222969753-3fc25b8e-6d22-4c90-883f-0c750ff48cd1.png)
+
+* Two level Nor-Nor circuit is equivalent to OR-AND circuit.
+* NAND-NAnD -> AND-or
+* NOR-NOR -> OR-AND
+
+![image](https://user-images.githubusercontent.com/54589605/222969980-f587a459-3e0b-4afe-87c6-5a342c296e02.png)
+![image](https://user-images.githubusercontent.com/54589605/222970068-22f8523f-b7c8-4e51-af29-34cc8dc00dd7.png)
+![image](https://user-images.githubusercontent.com/54589605/222970158-e0975b7f-52e2-4ca2-8fdd-26b33c2b58ca.png)
+![image](https://user-images.githubusercontent.com/54589605/222970370-70c0e8d3-65bd-4870-b292-3344e9896e57.png)
+![image](https://user-images.githubusercontent.com/54589605/222970536-c3062bb1-466e-47e4-a0ac-fc3d9f6cb70c.png)
+![image](https://user-images.githubusercontent.com/54589605/222970671-1898e837-56e7-41e5-aca4-8be8e9717b83.png)
+![image](https://user-images.githubusercontent.com/54589605/222970837-6d70c55a-1af9-4a14-b786-766c1a028905.png)
+![image](https://user-images.githubusercontent.com/54589605/222970997-f04f159b-c613-46fa-a62e-5b5da5995283.png)
+![image](https://user-images.githubusercontent.com/54589605/222971161-52372a16-31ec-4961-9f6f-fdbe492aac79.png)
+
+* Kaju barfi -> NAND Barfi.
+
+![image](https://user-images.githubusercontent.com/54589605/222971388-164c8e44-0b80-4a1d-8258-5ef5c439dbd2.png)
+![image](https://user-images.githubusercontent.com/54589605/222971408-3eb69c40-5e23-49f7-aa3c-8f8d8e2f68b1.png)
+![image](https://user-images.githubusercontent.com/54589605/222971374-c5e6b373-f709-4abd-9339-12157a6620b1.png)
+![image](https://user-images.githubusercontent.com/54589605/222971524-21ba39ea-c31c-425e-9ead-984697c5211e.png)
+![image](https://user-images.githubusercontent.com/54589605/222971624-cff7f533-d278-4def-bff6-4d6e55da654b.png)
+![image](https://user-images.githubusercontent.com/54589605/222971747-efdcbdd1-0053-442b-9334-c5a95f51fc29.png)
+![image](https://user-images.githubusercontent.com/54589605/222972148-7b62f935-6305-45be-ba7c-42f1f3ad4edf.png)
+![image](https://user-images.githubusercontent.com/54589605/222972163-a09c2ecc-0e6c-48b7-9263-79a22a71006a.png)
+![image](https://user-images.githubusercontent.com/54589605/222972360-5c3a0f9c-e717-4ff3-a2da-a0358cc44eac.png)
+![image](https://user-images.githubusercontent.com/54589605/222972904-95dcae30-9feb-403c-ab16-0a083785480c.png)
+![image](https://user-images.githubusercontent.com/54589605/222972995-c48e1a91-084d-4eca-bcf7-891d1e4a62b4.png)
+![image](https://user-images.githubusercontent.com/54589605/222973091-affeee4a-ee8f-4626-96fb-d6a5ee6ad048.png)
+![image](https://user-images.githubusercontent.com/54589605/222973317-05c616a7-51a3-4833-bfee-5eec245fba30.png)
+![image](https://user-images.githubusercontent.com/54589605/222973363-f5c2363d-fafd-4a9d-b65a-e10899fd6587.png)
+![image](https://user-images.githubusercontent.com/54589605/222974113-a65b82b6-ba46-4a18-aa92-69fd862f8c4f.png)
+![image](https://user-images.githubusercontent.com/54589605/222974188-064848a5-02e4-4a65-9857-91ffac445b47.png)
+![image](https://user-images.githubusercontent.com/54589605/222974202-cc07435d-ad00-4315-9c39-ade36dfd16ac.png)
+![image](https://user-images.githubusercontent.com/54589605/222974539-ccb36726-c2bd-4d2d-a4e6-aa7bee12afb8.png)
+![image](https://user-images.githubusercontent.com/54589605/222974614-fa1a7579-cf5c-4105-b4b6-bb6f7d1ea37f.png)
+![image](https://user-images.githubusercontent.com/54589605/222974770-35fc179a-b9f1-4ef4-99e8-91970adce53e.png)
+![image](https://user-images.githubusercontent.com/54589605/222975142-28822bf1-6ec3-47d2-b040-dd7d4964e60d.png)
+![image](https://user-images.githubusercontent.com/54589605/222975251-e96dc58c-a962-4d77-9176-9d7e48060976.png)
+![image](https://user-images.githubusercontent.com/54589605/222975357-afe967fb-3a87-4e44-a384-1d7daa56b55a.png)
+
+* Statement **a** is correct in the above question but it is not a **De-morgan's** law.
+
+![image](https://user-images.githubusercontent.com/54589605/222976068-609c2ef9-e16e-4312-bf0d-504f48efed46.png)
+![image](https://user-images.githubusercontent.com/54589605/222976486-9a8fa126-884d-4d6e-822f-e247e1c6e12a.png)
+![image](https://user-images.githubusercontent.com/54589605/222976609-c2e4890b-eddf-4330-9459-62494bdd8263.png)
+![image](https://user-images.githubusercontent.com/54589605/222977237-7accc377-b9cb-4ccc-9a1d-5ddd7dfe5955.png)
+![image](https://user-images.githubusercontent.com/54589605/222977305-bfae69b6-1bc6-49ff-86e3-4dba64753abe.png)
+![image](https://user-images.githubusercontent.com/54589605/222977409-81f5e335-cae1-4cb6-8d13-6007beef67d5.png)
+![image](https://user-images.githubusercontent.com/54589605/222977473-efe2b4ce-5486-467d-9449-6617ec2e5f06.png)
+
+* Z= (xy)' + x + y
+* It should be like the above one, as X and y are passed through a OR gate and not an AND gate.
+
+![image](https://user-images.githubusercontent.com/54589605/222977611-ee556c7c-3ac4-4c11-9f80-693b029b9137.png)
+![image](https://user-images.githubusercontent.com/54589605/222977695-013a394b-081e-4494-b821-879cb779f309.png)
+![image](https://user-images.githubusercontent.com/54589605/222977941-60ea4ae8-3c9b-489e-bd27-7c3703e74858.png)
+![image](https://user-images.githubusercontent.com/54589605/222978012-cbb10294-f2c4-48c5-9bc5-3647723d72a2.png)
+![image](https://user-images.githubusercontent.com/54589605/222978093-5d1eb7ca-8e84-4a26-b116-7722dccbc884.png)
+![image](https://user-images.githubusercontent.com/54589605/222978174-6f080119-803c-474f-b934-9b6afb87fbaf.png)
+![image](https://user-images.githubusercontent.com/54589605/222978203-a8530fab-ea07-41cb-89d7-db49da7776d5.png)
+![image](https://user-images.githubusercontent.com/54589605/222978206-b41c020a-8ab4-4b82-9dee-7daa409f9389.png)
+
+* Multiplexer -> Also called as a **Universal logic circuit**.
+
+![image](https://user-images.githubusercontent.com/54589605/222978300-d661a097-6de2-40c1-b666-ee29a1002c81.png)
+![image](https://user-images.githubusercontent.com/54589605/222978388-dd837aa7-2676-447a-9a31-d50717727b90.png)
+![image](https://user-images.githubusercontent.com/54589605/222978467-8e721cd7-bb3e-4b6a-94ac-e1f27db19418.png)
+![image](https://user-images.githubusercontent.com/54589605/222978575-f1f3924e-a19b-4ead-9303-087efe0fb8d8.png)
+![image](https://user-images.githubusercontent.com/54589605/222978722-c7c7295d-6162-421d-8d87-5610e733cb4b.png)
+![image](https://user-images.githubusercontent.com/54589605/222978863-dd81d71e-cb90-4c5b-ab8c-3dfe5892e3d1.png)
+![image](https://user-images.githubusercontent.com/54589605/222978966-98e73d1c-efd4-4321-860f-81150bbd2f42.png)
+![image](https://user-images.githubusercontent.com/54589605/222979010-4e97ba55-fe14-44c5-a9b7-b19075c2f755.png)
+![image](https://user-images.githubusercontent.com/54589605/222979071-9f155d74-d89d-4ba0-b4fb-78e9278e07bb.png)
+
+* If the **no. of inverters** are **even** they that circuit is called as **bi-stable** circuit.
+
+![image](https://user-images.githubusercontent.com/54589605/222979082-ec9ec1e8-5ab7-40ae-ba7a-f0075b61aa90.png)
+
+* Buffer is **bi-stable** circuit as well.
+
+![image](https://user-images.githubusercontent.com/54589605/222979182-0b6ec2bf-185e-4885-aece-e019f2496223.png)
+![image](https://user-images.githubusercontent.com/54589605/222979277-88e9f150-ed79-4de0-95f4-028ee1601ba6.png)
+![image](https://user-images.githubusercontent.com/54589605/222979326-f3afa7b0-62e2-4d43-bed8-59d03f34474f.png)
+
+* This is valid for **XOR and XNOR** as well. 
+* There is no **negative signs** here. Negative signs not valid.
+* A XOR B -> B XOR A -> C
+* B XOR C -> C XOR B -> A
+* C XOR A -> A XOR C -> B
+
+![image](https://user-images.githubusercontent.com/54589605/222979494-17fe03f8-7b2d-4a7a-bef9-3efd7aec488b.png)
+![image](https://user-images.githubusercontent.com/54589605/222979505-a2575012-c922-4c7c-a62f-e5b873cdf7af.png)
+![image](https://user-images.githubusercontent.com/54589605/222979736-8f54fef9-09b3-4073-984d-34f857dfb126.png)
+![image](https://user-images.githubusercontent.com/54589605/222979851-a8e39200-ed9e-4462-a7c6-b2df5880965d.png)
+![image](https://user-images.githubusercontent.com/54589605/222980029-74db0188-43a8-4f4a-a884-44330633e8dd.png)
+![image](https://user-images.githubusercontent.com/54589605/222980036-01db947f-0368-45a1-83da-889be6a9958e.png)
+![image](https://user-images.githubusercontent.com/54589605/222980544-79d08710-22b1-41ad-8522-5c4e74bd5c71.png)
+![image](https://user-images.githubusercontent.com/54589605/222980570-1b009eb3-554e-41c1-ada5-99a468d4458c.png)
+
+![image](https://user-images.githubusercontent.com/54589605/222980613-c6842732-b36a-41cd-8d78-6b0093777344.png)
+![image](https://user-images.githubusercontent.com/54589605/222980642-3eacf901-b491-47df-a076-cccdbb9744c8.png)
 
 
 
 
+
+
+### Doubt
+
+![image](https://user-images.githubusercontent.com/54589605/222977163-f93ad768-dbc2-4938-a487-48b16ded3d54.png)
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/F266879C2B
 
 
 
