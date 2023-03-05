@@ -750,8 +750,8 @@
 ![image](https://user-images.githubusercontent.com/54589605/222957711-eab68717-dba2-4e11-aa21-5fed928b9798.png)
 
 ![image](https://user-images.githubusercontent.com/54589605/222957744-cc53aab9-6a7a-4aeb-ab98-085cf49847ff.png)
-
-
+![micro_operations_1](https://user-images.githubusercontent.com/54589605/222959022-03974a2f-5549-45c6-87df-63c7713ffc27.jpeg)
+![micro_operations_2](https://user-images.githubusercontent.com/54589605/222959023-ae0fd63a-47ff-4a7a-b972-7e6fafd7277e.jpeg)
 
 
 
