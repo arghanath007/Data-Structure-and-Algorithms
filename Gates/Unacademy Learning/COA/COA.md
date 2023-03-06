@@ -12,6 +12,11 @@
 * Video 1 -> https://www.youtube.com/watch?v=syKlvr5a8yQ&t=72s [Completed]
 * Video 2 -> https://www.youtube.com/watch?v=n7vehBgKZZo&t=3255s [Completed]
 
+### Marks
+
+![image](https://user-images.githubusercontent.com/54589605/223104039-dc940cd3-9917-458e-9a16-c974dfe9ad6a.png)
+
+
 ## Number System
 
 * 10 -> Not a digit, it is a number, combination of digits
@@ -753,6 +758,80 @@
 ![micro_operations_1](https://user-images.githubusercontent.com/54589605/222959022-03974a2f-5549-45c6-87df-63c7713ffc27.jpeg)
 ![micro_operations_2](https://user-images.githubusercontent.com/54589605/222959023-ae0fd63a-47ff-4a7a-b972-7e6fafd7277e.jpeg)
 
+## Doubts_Solutions (4) [6th March 2023]
+
+![image](https://user-images.githubusercontent.com/54589605/223107582-c1e38937-b2cf-49c4-a60e-b5765550bfc6.png)
+![image](https://user-images.githubusercontent.com/54589605/223107745-144455f3-caaa-4d01-a8d2-0d42e9a3c575.png)
+![image](https://user-images.githubusercontent.com/54589605/223107858-65acb2d2-d8fa-49da-95f4-fb72016a665d.png)
+![image](https://user-images.githubusercontent.com/54589605/223107988-d89f864b-ed13-428f-956f-7a46203fd59a.png)
+![image](https://user-images.githubusercontent.com/54589605/223108094-6b3399cd-f1c7-4260-9ab0-6c959850efe3.png)
+
+
+* Address Register ->  To send address
+* Data Register -> To send/receive data.
+
+![image](https://user-images.githubusercontent.com/54589605/223109278-01d37309-a4d0-4216-98ec-1308fa6b0b85.png)
+![image](https://user-images.githubusercontent.com/54589605/223109444-1e2a8c0e-fdd4-484c-93a3-4dd33f99d50b.png)
+
+* Instruction Registers -> Holds/stores instructions
+* Program Counter -> Holds address
+* Address Register -> Holds memory address
+* Program Counter -> Holds memory address(next instruction)
+* Stack pointer -> Holds address of stack top.
+* Data Register -> Holds data or Hold operand values.
+* Accumulator -> Hold operand values
+
+![image](https://user-images.githubusercontent.com/54589605/223109671-003fb3bc-6ac5-4d2b-9557-1c8e958d934b.png)
+
+
+* Included in Architecture -> CPU design, instruction, addressing mode and data formating. 
+* Instruction set -> Collection of instructions
+
+![image](https://user-images.githubusercontent.com/54589605/223110295-ce5492bb-764c-4d60-ad32-5f005d4b1c89.png)
+
+![image](https://user-images.githubusercontent.com/54589605/223111212-38c2f12f-ac97-4c4a-a2a5-1792e52e555e.png)
+
+* Implementation of Architecture comes in organization part.
+
+![image](https://user-images.githubusercontent.com/54589605/223111405-ec3a9a85-772f-44df-9818-5b22e3c285c4.png)
+
+* All of the other three(A,B and C) will store addresses. They will always store addresses.
+
+![image](https://user-images.githubusercontent.com/54589605/223112091-d074362f-d7e2-4ab8-8c54-2b998fed428c.png)
+![image](https://user-images.githubusercontent.com/54589605/223112634-77d2403f-1599-416b-bf3a-23e3e4ed543f.png)
+![image](https://user-images.githubusercontent.com/54589605/223112936-0da6d2b1-6f39-474e-95ee-8069b96c2385.png)
+![image](https://user-images.githubusercontent.com/54589605/223113044-48f04351-9e06-4dd6-b931-8cc9ed679b57.png)
+
+* As we know it is byte addressable, hence 24bits is **3 bytes**. As **600** is the starting address, we will add **3** to it to go to the next address, **600+3 =603, 606,609.....**. The addresses will be multiple of **3**. Hence the answer is **900** as it is a multiple of **3**.  
+
+
+* 5000 [Starting Address]
+* 5000, 5001 [2 Words]
+* 5002 [1 word]
+* 5003, 5004 [2 Words]
+* 5005, 5006, 5007 [3 Words]
+* 5008, 5009 [2 Words]
+
+* 5008 (Ans)
+
+![image](https://user-images.githubusercontent.com/54589605/223114751-8c3783be-2c9d-447c-86dc-7a89e7035fda.png)
+![image](https://user-images.githubusercontent.com/54589605/223114944-a53cde30-3e73-4903-93f7-a60bd89f8907.png)
+![image](https://user-images.githubusercontent.com/54589605/223115164-c9f91004-aa56-4879-8701-a71f17e5e97c.png)
+
+* 234 [Starting Address]
+* 234 + 2 * 2 = 234 + 4 = 238 [Answer, C]
+
+![image](https://user-images.githubusercontent.com/54589605/223123813-8b1a5b29-9598-42ed-ab48-3efa136d6860.png)
+![image](https://user-images.githubusercontent.com/54589605/223128392-4ef3d241-8d0c-47c1-928b-f36ff20c632f.png)
+![image](https://user-images.githubusercontent.com/54589605/223131812-89a1f732-807c-4580-848a-c0b2ef8b8417.png)
+![image](https://user-images.githubusercontent.com/54589605/223131865-72061fe2-fb6b-4183-a58d-d6f8289805f8.png)
+![image](https://user-images.githubusercontent.com/54589605/223131916-3e332225-c118-4efd-b258-2ced493e2a2b.png)
+
+* It is possible that 2 micro-operations can be performed parallely.
+* In **single memory system**, memory read and memory write both can be performed simultaneously. **NEVER EVER**. Not possible.
+
+![image](https://user-images.githubusercontent.com/54589605/223132796-b23541d5-6304-4d25-b179-2cfb83ee7716.png)
+![image](https://user-images.githubusercontent.com/54589605/223133263-c33ccbab-2ba8-4d7b-84d4-a40edfbc0461.png)
 
 
 
