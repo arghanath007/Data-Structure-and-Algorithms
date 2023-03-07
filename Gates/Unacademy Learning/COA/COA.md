@@ -12,6 +12,11 @@
 * Video 1 -> https://www.youtube.com/watch?v=syKlvr5a8yQ&t=72s [Completed]
 * Video 2 -> https://www.youtube.com/watch?v=n7vehBgKZZo&t=3255s [Completed]
 
+### Marks
+
+![image](https://user-images.githubusercontent.com/54589605/223104039-dc940cd3-9917-458e-9a16-c974dfe9ad6a.png)
+
+
 ## Number System
 
 * 10 -> Not a digit, it is a number, combination of digits
@@ -446,6 +451,607 @@
 ![image](https://user-images.githubusercontent.com/54589605/222880683-a8e28e1f-11b3-4fd9-8ca2-496e19a580dd.png)
 ![image](https://user-images.githubusercontent.com/54589605/222880767-0fd476a4-ac6c-42bd-b972-e419128e1b09.png)
 ![1_registers](https://user-images.githubusercontent.com/54589605/222881338-c143d85e-5473-4e96-9f00-a1e2883e0f38.jpeg)
+
+## Micro-Operations (3) [5th March 2023]
+
+![image](https://user-images.githubusercontent.com/54589605/222943658-c52afd0c-83d3-41aa-9097-9360d1084abe.png)
+
+* Status Registers stores the status, not the values. Status means 1 bit will be storing the status of sign of the previous result, which is either positive or negative.
+
+![image](https://user-images.githubusercontent.com/54589605/222943769-fdccffe5-3f32-4ef6-97db-f7732052444c.png)
+
+* Current instructions
+
+![image](https://user-images.githubusercontent.com/54589605/222943830-6946397d-da9d-4762-951b-73623463810f.png)
+
+* Yes
+
+![image](https://user-images.githubusercontent.com/54589605/222943854-cf953fe2-e0af-4400-840a-baf13e09c0cc.png)
+
+* Next instruction address
+
+![image](https://user-images.githubusercontent.com/54589605/222943865-ae057227-2a3c-412c-b7d9-5cc742746b67.png)
+
+* Also stores the address of memory. It stores the address of stack top.
+
+![image](https://user-images.githubusercontent.com/54589605/222943916-1d3c3d88-25eb-4431-a47d-ad0a45bde848.png)
+
+* Yes and Yes
+
+## Architecture Type(Based on size of input)
+
+* ALU can perfrom operations but there is limitation to ALU also. Let's say ALU can take two inputs for any operation(addition, substraction etc), **there is a particular limit for what can be the size in binary of each input**. Assuming that an ALU can take max. size of upto 32-bits of each inputs and can perform any operation. It can. This ALU is having a **32bit architecture** of the cpu or alu.
+
+![image](https://user-images.githubusercontent.com/54589605/222944260-28d27d18-ac8d-4029-8e30-a26a0421efdf.png)
+
+* If it is written like **32bit architecture** then we will know that each input for the ALU will be max. of upto **32-bits** only.
+
+> We can say that the **CPU word size** for **32bit architecture** is **4bytes -> 32/8 -> 4bytes**.
+
+* **CPU word size** -> **32bit architecture** -> **32/8** -> **4bytes**.
+
+![image](https://user-images.githubusercontent.com/54589605/222944570-a901dac4-1389-4b75-a15a-65456be8c55b.png)
+
+
+* We have **64bit ALU** also.
+* If it is written like **64bit architecture** then we will know that each input for the ALU will be max. of upto **64-bits** only.
+
+
+### Padding
+
+* 5 -> 101 -> 0101 [As 4 bytes in 32bit architecture]
+
+> Adding **0s** at the starting of the number to fit the architecture is called as padding.
+
+![image](https://user-images.githubusercontent.com/54589605/222944721-2b5e65ec-5353-4b16-a7c6-7a388c92a399.png)
+
+* Padding
+
+> If we don't have a 32-bit number, then we will make a 32-bit number using padding. Then, CPU will always get a 32-bit number. ALU can use that afterwards.
+
+
+* Padding -> Done though **unsigned values**.
+* Signed bit extension -> Done though **signed values**.
+
+## Micro Operation
+
+![image](https://user-images.githubusercontent.com/54589605/222944829-dcf03f6c-57be-4433-a555-1727ecd4d10e.png)
+![image](https://user-images.githubusercontent.com/54589605/222945386-a53fa1e4-3c6b-492d-ab06-a74dd4f14dd1.png)
+
+> We write a program(user-program), in it we have written lots of statements. I am going from highest to lowest level. This **user-program** cannot be directly understood by the CPU. For that, some interpreter or compiler, some type of language converter comes and that language translater/converter converts this **user-program** into binaries. This **user-program** is converted into **binary statements**, that is called as **lower level language or program**, which cpu can understand. User writes statements in english characters, which cpu cannot understand.
+> This **user-program**, compiler converts into **lower level language or program** which cpu can understand. Each of the staements written here are called as **cpu instructions** and **these are in binary**.
+> Cpu executes instructions one by one to execute a program.
+> **To execute one instruction**, cpu performs so many small-small operations.
+> **One such small operation** is called as **one micro operation**. Cpu performs it.
+
+* Micro -> small  [Meaning]
+
+> If cpu is performing some operation, ofcourse those operation will be performed on those values that are present in the **registers**. Inside cpu, we have everything in the registers only.
+> Other definition of **micro operation** is, whatever the operations performed/executed by cpu values stored in the register are called as **micro operation**.
+
+* Micro Operation -> Smallest operation, which Cpu can perform at a time.
+
+![image](https://user-images.githubusercontent.com/54589605/222945889-c99fe1f9-0593-49d0-b5e3-6895a502d885.png)
+
+> In a single go, one operation that can be performed by the cpu that is one micro operation.
+> In another go, another micro operation and on and on.
+> That one go or one step done by cpu is one micro operation performed.
+> Another step cpu is doing, another micro operation performed.
+
+> That one step of cpu is called as **one cpu cycle time**.
+> **One cpu cycle time** means cpu will be able to do one step of **micro operation**.
+> Another cpu cycle time, another **micro operation**.
+> Let's say a cpu has cycle time of **3 nano seconds or 3ns**. **3ns** means that in **3ns**, cpu can perform **one micro operation**. In another **3ns**, another micro operation will be performed and so no and so forth.
+
+![image](https://user-images.githubusercontent.com/54589605/222949741-6219ba6e-2a26-45e4-a08e-0cd28e63c313.png)
+
+![image](https://user-images.githubusercontent.com/54589605/222949750-f271e32c-7be4-4b49-a7d3-990eb2d93149.png)
+
+* No, reading data from bus and coping it into register only. It is micro-operation only.
+
+
+![image](https://user-images.githubusercontent.com/54589605/222949802-645f85bf-e572-449a-b944-ccfee938133d.png)
+
+* No. They are not the same.
+* Operation -> Is operation
+* Instruction -> Will be responsible for operation. Micro instruction will be responsible for operation.
+
+![image](https://user-images.githubusercontent.com/54589605/222950026-156ca46c-a14c-4930-85c7-2ad9f84ad896.png)
+
+> In general, almost all of the micro-operations will be performed in **one cpu cycle time** only, whatever is the **cpu cycle time**. Some micro-operations will be there which will take longer, multiple cpu cycles.
+
+
+![image](https://user-images.githubusercontent.com/54589605/222950184-0925fbdd-1997-4d03-bd50-68f5bd529cd4.png)
+
+### Register Transfer
+
+![image](https://user-images.githubusercontent.com/54589605/222950232-db925870-1816-4f08-b7cc-20df6232235a.png)
+
+* R1 and R2 both have **5**.
+
+### Memory Transfer
+
+* Either read or write.
+
+* Read -> Data goes from memory to cpu.
+* M or m -> It represents memory.
+* M(address) -> Representation of memory access. We accessed the memory at that address.
+
+![image](https://user-images.githubusercontent.com/54589605/222950459-4aab03b0-f64f-4fb9-ac29-86f63ee595fd.png)
+
+* Two ways of writing the address
+
+1) We directly specify the address value.
+
+ * M[address] -> M[5000] -> We go to the memory, there is an address 5000, on that address, some content is there, that particular content we need to read. We need to copy it into some register(DR).
+
+![image](https://user-images.githubusercontent.com/54589605/222950610-4a597fa3-9f2f-4a7f-9721-c81ca68fcac1.png)
+![image](https://user-images.githubusercontent.com/54589605/222950691-64163f2c-68bd-4fea-87fd-a4d721d45556.png)
+
+2) We specify some register inside bracket( [] ), which will hold the memory address. Instead of directly writing the address, we write a register name here(AR). 'AR' is that register which is holding the memory address. Go to the memory and on address 500, whatever content is present, bring it into the Register(DR). 
+ 
+  * M[AR] -> AR=5000 -> DR
+
+> Target will be **'M', memory access** only. Inside we will specify address directly or through register.
+
+![image](https://user-images.githubusercontent.com/54589605/222950980-28d482a3-4739-4939-b2c3-157523b43541.png)
+
+
+* Write -> Content goes from cpu to memory.
+
+![image](https://user-images.githubusercontent.com/54589605/222951042-58449b57-4102-4802-a811-62235fa17f65.png)
+
+* Opposite of read operation.
+
+![image](https://user-images.githubusercontent.com/54589605/222951170-57232cfc-6fd0-48a7-8789-d68eeaac3b85.png)
+
+* M[700] -> 50 [Content which is present at address of 700]
+* Content of M[700] which is **50** will be copied to a register(R1).
+
+![image](https://user-images.githubusercontent.com/54589605/222951251-84aed1f8-ee79-4ccb-991f-aa55be1bf145.png)
+![image](https://user-images.githubusercontent.com/54589605/222951284-b42fdd72-0416-498a-89d5-4692b4e7834c.png)
+
+* R2=800
+* R3 <- M[R2]
+* R3 <- M[800] 
+* R3 = 40.
+
+![image](https://user-images.githubusercontent.com/54589605/222951372-b11b9009-71f9-4a6a-ac64-6bd63b38adbc.png)
+![image](https://user-images.githubusercontent.com/54589605/222951421-ef25762a-e441-438f-af11-d85999649707.png)
+
+* R4 = 500
+* M[R4] <- R3
+* M[500] <- R3 [R3=40, from above]
+* M[500] = 40 [Previously M[500] was 10]
+
+![image](https://user-images.githubusercontent.com/54589605/222951438-856642c0-9da1-4a80-ba99-1120a57b77ba.png)
+
+* Yes, always.
+
+![image](https://user-images.githubusercontent.com/54589605/222951476-659f5b04-397c-427e-b1e6-7c4c52096c6a.png)
+
+* Some address will be given in **AR**, we will not be changing anything. We will just be using it. 
+
+### Questions
+
+* Whenever **#** is used, means **it is just a value**.
+
+![image](https://user-images.githubusercontent.com/54589605/222951683-e695a1a4-4664-4760-9ad9-a886e4855962.png)
+![image](https://user-images.githubusercontent.com/54589605/222951728-fa0bb919-af07-4be1-bb2a-f200d5137316.png)
+![image](https://user-images.githubusercontent.com/54589605/222951800-24d6f1ce-8839-4d94-88c9-55c6027e6d57.png)
+
+* We don't have to learn **Assembly Language**. Not needed.
+
+![image](https://user-images.githubusercontent.com/54589605/222952074-da7c3eba-b8aa-4742-980e-eef51008f5a0.png)
+
+## Status Register (Real Meaning)
+
+* ALU takes two inputs, performs some operation. Result generated in Accumulator. Along with that, **status** is stored in the **status register or flag register**.
+
+![image](https://user-images.githubusercontent.com/54589605/222953108-d8172348-f20e-4f15-aeef-d97f7ed38f5c.png)
+
+* The status of these operation is **non-zero and positive and no-carry**. This status is stored in the **status register or flag register**.
+* Based on these status, we will check the conditions(Do something if result is zero or non-zero). These condition check will be done on the status. 
+* The status is of which operation?
+
+> Whichever operation(R1 <- R1 -1, here) we did on the ALU.
+
+> So in any case, if any condition is written in the program for the condition check, we will check the result of the operation we just performed in the ALU. We will check the result of the operation we just performed in ALU. Check the status of the result and based on that checkout the condition.
+> Whenever a condition is checked, we will have the status of just previous operation, which we did perform in ALU and that status will be in **status register**.
+
+### Question
+
+![image](https://user-images.githubusercontent.com/54589605/222953720-3be2d6b7-dc20-49cd-8bce-c3f694b52803.png)
+![image](https://user-images.githubusercontent.com/54589605/222953752-d96a5145-bdfb-4440-a791-7a44aed5ebd2.png)
+
+* Branch on not zero to loop
+* Branch -> Nothing but jump.
+
+> If condition is **True**, we jump to **loop** and execute from **loop** again. The condition is **not zero**. 
+
+* Which operation's result **not zero**?
+
+> Just before this check. Check the statement just before the condition.
+> **R1 <- R1 -1**. This statement.
+> We are check this statement because this is the statement we have performed last in the ALU. After that we are checking the condition. Just before the condition statement, whichever operation we are performing, it's status will be in the status register. That status only we will check.
+
+![image](https://user-images.githubusercontent.com/54589605/222954124-9cf81230-5aa0-487c-94fe-61732eb880a5.png)
+![image](https://user-images.githubusercontent.com/54589605/222954177-95862236-faa6-43a9-a347-7ba83ebdf450.png)
+![image](https://user-images.githubusercontent.com/54589605/222954191-2a4325ab-232f-4837-b816-1ddf474a5a7f.png)
+
+* To read/write the operand value, how many times we have accessed memory in the above question?
+
+> Once(1) or one time. First statement i.e **R1 <- M[1000]**. It is a memory **read** statement.
+
+
+![image](https://user-images.githubusercontent.com/54589605/222955155-7e4c87d2-56d1-4010-af89-152d3bd11faf.png)
+![image](https://user-images.githubusercontent.com/54589605/222955170-4ef5454a-8e8a-4745-9091-978f89dc13ba.png)
+![image](https://user-images.githubusercontent.com/54589605/222956236-2170b7b8-3c12-4096-9a3b-327c62e13689.png)
+![image](https://user-images.githubusercontent.com/54589605/222956277-d9d30797-454b-4e94-9572-8674c14f9a0a.png)
+![image](https://user-images.githubusercontent.com/54589605/222956285-c062bf34-3232-4f65-9e72-f10c58432b6b.png)
+![image](https://user-images.githubusercontent.com/54589605/222956421-1ba60279-cc87-406c-a055-93d5fd369336.png)
+
+* 2 * any_number -> Even
+* Even + 1 -> Odd
+
+![image](https://user-images.githubusercontent.com/54589605/222956326-c896c593-0ca9-48ee-bdbe-4897eefc62b1.png)
+
+* Yes [Asked for above question]
+
+![image](https://user-images.githubusercontent.com/54589605/222956421-1ba60279-cc87-406c-a055-93d5fd369336.png)
+![image](https://user-images.githubusercontent.com/54589605/222956514-7a51b53c-c64f-40f1-97f2-55ff6c194658.png)
+
+
+![image](https://user-images.githubusercontent.com/54589605/222956578-db45244a-32ff-4846-8164-283a78ae2f08.png)
+
+* Byte Addressable
+
+### Word Addressable
+
+* If memory is **word addressable**, then in **1 memory/address**, one(1) word is stored.
+
+![image](https://user-images.githubusercontent.com/54589605/222956857-bef7d832-9efa-47b4-905d-e418f6fbf454.png)
+![image](https://user-images.githubusercontent.com/54589605/222956920-160b25ff-d758-49de-8a95-9a91aa96cb74.png)
+
+* No. of words -> Size taken by the operation
+
+> If the size is **2**, then **2** addresses will be taken by that operation. If the size is **1**, then only **1** address will be taken by that operation. 
+
+### Byte Addressable
+
+> If memory is **Byte Addressable**, then in **one(1) room**, we can write **1 byte** only.
+
+![image](https://user-images.githubusercontent.com/54589605/222957271-8c73dcc4-8540-4b1a-8741-feb6414f3378.png)
+
+
+* 1 word -> 2bytes
+
+![image](https://user-images.githubusercontent.com/54589605/222957021-46324007-d029-4be9-8247-c7d48299160a.png)
+
+* 1 word -> 4bytes
+
+![image](https://user-images.githubusercontent.com/54589605/222957075-e5f0942f-13cb-43a9-b414-cead1bc5c3c9.png)
+
+
+![image](https://user-images.githubusercontent.com/54589605/222957422-f77ff054-2366-4650-9db3-9cfa041e90b3.png)
+
+[**Interrupt**]
+
+![image](https://user-images.githubusercontent.com/54589605/222957529-5bf8a78b-35ad-4e07-afaf-b69f06e9a27c.png)
+![image](https://user-images.githubusercontent.com/54589605/222957581-187d7364-28a4-4912-b1a0-a07430229a54.png)
+![image](https://user-images.githubusercontent.com/54589605/222957558-163d6874-8af0-43ae-b4e5-612f1805159e.png)
+
+* INC -> 1020
+* DEC R1 -> 1024 [Answer]
+
+* If, Byte addressable, 1 word -> 2 bytes
+* Dec R1 -> 1012 [Answer]
+
+![image](https://user-images.githubusercontent.com/54589605/222957660-1b30f98e-adba-408f-a5f9-a41fa1025b26.png)
+
+* If word addressable, 1 word -> 1 byte
+* Dec R1 -> 1006 [Answer]
+
+![image](https://user-images.githubusercontent.com/54589605/222957711-eab68717-dba2-4e11-aa21-5fed928b9798.png)
+
+![image](https://user-images.githubusercontent.com/54589605/222957744-cc53aab9-6a7a-4aeb-ab98-085cf49847ff.png)
+![micro_operations_1](https://user-images.githubusercontent.com/54589605/222959022-03974a2f-5549-45c6-87df-63c7713ffc27.jpeg)
+![micro_operations_2](https://user-images.githubusercontent.com/54589605/222959023-ae0fd63a-47ff-4a7a-b972-7e6fafd7277e.jpeg)
+
+## Doubts_Solutions (4) [6th March 2023]
+
+![image](https://user-images.githubusercontent.com/54589605/223107582-c1e38937-b2cf-49c4-a60e-b5765550bfc6.png)
+![image](https://user-images.githubusercontent.com/54589605/223107745-144455f3-caaa-4d01-a8d2-0d42e9a3c575.png)
+![image](https://user-images.githubusercontent.com/54589605/223107858-65acb2d2-d8fa-49da-95f4-fb72016a665d.png)
+![image](https://user-images.githubusercontent.com/54589605/223107988-d89f864b-ed13-428f-956f-7a46203fd59a.png)
+![image](https://user-images.githubusercontent.com/54589605/223108094-6b3399cd-f1c7-4260-9ab0-6c959850efe3.png)
+
+
+* Address Register ->  To send address
+* Data Register -> To send/receive data.
+
+![image](https://user-images.githubusercontent.com/54589605/223109278-01d37309-a4d0-4216-98ec-1308fa6b0b85.png)
+![image](https://user-images.githubusercontent.com/54589605/223109444-1e2a8c0e-fdd4-484c-93a3-4dd33f99d50b.png)
+
+* Instruction Registers -> Holds/stores instructions
+* Program Counter -> Holds address
+* Address Register -> Holds memory address
+* Program Counter -> Holds memory address(next instruction)
+* Stack pointer -> Holds address of stack top.
+* Data Register -> Holds data or Hold operand values.
+* Accumulator -> Hold operand values
+
+![image](https://user-images.githubusercontent.com/54589605/223109671-003fb3bc-6ac5-4d2b-9557-1c8e958d934b.png)
+
+
+* Included in Architecture -> CPU design, instruction, addressing mode and data formating. 
+* Instruction set -> Collection of instructions
+
+![image](https://user-images.githubusercontent.com/54589605/223110295-ce5492bb-764c-4d60-ad32-5f005d4b1c89.png)
+
+![image](https://user-images.githubusercontent.com/54589605/223111212-38c2f12f-ac97-4c4a-a2a5-1792e52e555e.png)
+
+* Implementation of Architecture comes in organization part.
+
+![image](https://user-images.githubusercontent.com/54589605/223111405-ec3a9a85-772f-44df-9818-5b22e3c285c4.png)
+
+* All of the other three(A,B and C) will store addresses. They will always store addresses.
+
+![image](https://user-images.githubusercontent.com/54589605/223112091-d074362f-d7e2-4ab8-8c54-2b998fed428c.png)
+![image](https://user-images.githubusercontent.com/54589605/223112634-77d2403f-1599-416b-bf3a-23e3e4ed543f.png)
+![image](https://user-images.githubusercontent.com/54589605/223112936-0da6d2b1-6f39-474e-95ee-8069b96c2385.png)
+![image](https://user-images.githubusercontent.com/54589605/223113044-48f04351-9e06-4dd6-b931-8cc9ed679b57.png)
+
+* As we know it is byte addressable, hence 24bits is **3 bytes**. As **600** is the starting address, we will add **3** to it to go to the next address, **600+3 =603, 606,609.....**. The addresses will be multiple of **3**. Hence the answer is **900** as it is a multiple of **3**.  
+
+
+* 5000 [Starting Address]
+* 5000, 5001 [2 Words]
+* 5002 [1 word]
+* 5003, 5004 [2 Words]
+* 5005, 5006, 5007 [3 Words]
+* 5008, 5009 [2 Words]
+
+* 5008 (Ans)
+
+![image](https://user-images.githubusercontent.com/54589605/223114751-8c3783be-2c9d-447c-86dc-7a89e7035fda.png)
+![image](https://user-images.githubusercontent.com/54589605/223114944-a53cde30-3e73-4903-93f7-a60bd89f8907.png)
+![image](https://user-images.githubusercontent.com/54589605/223115164-c9f91004-aa56-4879-8701-a71f17e5e97c.png)
+
+* 234 [Starting Address]
+* 234 + 2 * 2 = 234 + 4 = 238 [Answer, C]
+
+![image](https://user-images.githubusercontent.com/54589605/223123813-8b1a5b29-9598-42ed-ab48-3efa136d6860.png)
+![image](https://user-images.githubusercontent.com/54589605/223128392-4ef3d241-8d0c-47c1-928b-f36ff20c632f.png)
+![image](https://user-images.githubusercontent.com/54589605/223131812-89a1f732-807c-4580-848a-c0b2ef8b8417.png)
+![image](https://user-images.githubusercontent.com/54589605/223131865-72061fe2-fb6b-4183-a58d-d6f8289805f8.png)
+![image](https://user-images.githubusercontent.com/54589605/223131916-3e332225-c118-4efd-b258-2ced493e2a2b.png)
+
+* It is possible that 2 micro-operations can be performed parallely.
+* In **single memory system**, memory read and memory write both can be performed simultaneously. **NEVER EVER**. Not possible.
+
+![image](https://user-images.githubusercontent.com/54589605/223132796-b23541d5-6304-4d25-b179-2cfb83ee7716.png)
+![image](https://user-images.githubusercontent.com/54589605/223133263-c33ccbab-2ba8-4d7b-84d4-a40edfbc0461.png)
+
+## Micro-Operations: Part II (5)  [7th March 2023]
+
+## Instruction Part 1
+
+* Program -> Set of instructions or statements or code that we have written and runs on the cpu.
+* Data -> Operands on which the program operates.
+
+* Both **Program and Data** should be in Binary or converted to binary form.
+
+![image](https://user-images.githubusercontent.com/54589605/223321326-97ef7305-ba4a-471c-a2fc-f07579c41670.png)
+
+> Output also initially generated in binary only and later converted and presented to us in some visual or text form.
+> Computer takes **input in binary** and also **outputs in binary**. Input means **program and data**, which will be comverted to binary and send to cpu for processing.
+
+![image](https://user-images.githubusercontent.com/54589605/223321769-76bffca6-dbdc-4c9a-bb9b-2c204ea9dc32.png)
+
+![image](https://user-images.githubusercontent.com/54589605/223321936-e83c0940-c401-47c0-80f6-30439714938b.png)
+
+> CPU doesn't understand the above lines of program or code. CPU doesn't understand them directly, that's why **compiler** comes to the picture and **translates** the above piece of code into such kind of code which works exactly as the above code but in a **format which  cpu can understand**.
+
+![image](https://user-images.githubusercontent.com/54589605/223322322-0d368e02-63be-478c-8c78-e0a09101f75c.png)
+
+> The above code if we write then cpu can't understand anything. We have to translate into such type of code which cpu understands. The new code generated works like the above code but can be understood by the cpu. This new code is generated by the **compiler**. 
+> The **language translation** is done by the **compiler**. The compiler generates the new code which is understood by the cpu.
+
+![image](https://user-images.githubusercontent.com/54589605/223322902-bcd1bb50-92fa-4abf-821e-12e6a9a007c5.png)
+
+* Output of both the code will be the **same**. The working of both the logic is the same. The result will not change. 
+* Whatever we have written, the same kind of code will be running on the cpu but in a **different format**.
+
+![image](https://user-images.githubusercontent.com/54589605/223323533-e4df25d8-add8-40dd-b8c0-93c190d79252.png)
+
+> Whenever compiler converts these **programming statements**, into such type of code, these type of code is called as **low level code, machine langauge code, binary code, byte code, machine code**.
+
+![image](https://user-images.githubusercontent.com/54589605/223323589-33087fdc-5525-40c5-b5a0-acf46c36d6ae.png)
+![image](https://user-images.githubusercontent.com/54589605/223324852-e1e7f5eb-0df1-4d46-9757-eede29554786.png)
+
+* Intermediate Code. 
+* Direct convertion form High level language to low level language doesn't happen. First C-language program will be converted to **Assembly code**, then assembly to low level code.
+
+* Instructions -> C-language statements are not instructions. Instructions are which cpu can understand. Instructions are nothing but **binary combination**.
+
+![image](https://user-images.githubusercontent.com/54589605/223325129-24b694cf-a3a4-47a9-9a70-3258cba9bdd8.png)
+
+> These are instructions.
+
+![image](https://user-images.githubusercontent.com/54589605/223325389-24c8835b-559e-436b-ba12-0043f0aecae2.png)
+
+* In instructions, in binary format only, there are **two types of information** are hidden/given.
+* First few bits or left side few bits will be used to give information about **operation**. The instruction trying to do what type of operation. These few bits collection is called as **operation code or opcode**.
+* Remaining bits will give information about the **operands**.
+
+![image](https://user-images.githubusercontent.com/54589605/223326093-7942a64c-b9e1-4853-9f3e-6ba910db6cda.png)
+
+![image](https://user-images.githubusercontent.com/54589605/223326635-5b6b9fe1-2a27-4852-963b-da05ab1cd8b4.png)
+
+* There are **8** operations.
+
+> Whenever the compiler will generate the instructions. The compiler will generate the instructions in such a way that for **addition**, the first **three bits** will be **000** which are the **opcodes** of the instruction.
+> For instruction which has **substraction** operation, the first **three bits** will be **001** which are the **opcodes** of the instruction.
+
+* For complement -> **101**
+* Increment -> **111**.
+
+> If at all the compiler will generate the instruction for the above computer system, the compiler will have to have **opcode of 3 bits**.
+
+![image](https://user-images.githubusercontent.com/54589605/223327540-bf835fef-a3d1-4463-987a-2ca49281a017.png)
+
+* How did we get the **opcode of 3 bits** for the above computer system?
+
+> We have to collect first architecture information that total how many different-different operations, the computer architecture is supporting. Based on that, one instruction, the architecture can support of one addition type, one substraction type, one multiplication type etc. Whenever a unique instruction is created one for **addition**, then **addition** will have the first **three bits as 000**.
+
+![image](https://user-images.githubusercontent.com/54589605/223328796-0d22c132-03cd-4d1a-8812-eb9bb80c4e29.png)
+
+> If Vice-versa, when somebody has designed a computer architecture then that fellow could have **maximum** of 16 distinct instructions supported by the architecture.
+
+![image](https://user-images.githubusercontent.com/54589605/223329208-a540aa89-08cc-4fca-b696-1c2f292905c5.png)
+
+* Why maximum? [Means why for 4 bits maximum 16 instrcutions]
+ 
+> When designing a computer system and during designing the computer system, they thought they needed a total of 15 
+different types of operations only. For 15 operations to be supported, **opcode** cannot be of **3 bits** only, because with **opcode of 3 bits**, we can have a maximum combinations of 8 opcodes only, **2^3=8**. For making more than 8 combinations, the opcode combination should be **4**. Among 16 combinations available, one will be not used. Compiler will never generate that combination. Compiler will generate only that combination which is supported. Simple.
+
+![image](https://user-images.githubusercontent.com/54589605/223330821-ffb89fa4-b436-4e90-8e11-77a7b90e40ba.png)
+
+![image](https://user-images.githubusercontent.com/54589605/223331176-5bfa34e3-9b20-4b9f-9751-203116dda262.png)
+
+* Yes, each instruction
+
+![image](https://user-images.githubusercontent.com/54589605/223331755-57940888-a0dc-4a71-8017-bb77d8ccb054.png)
+![image](https://user-images.githubusercontent.com/54589605/223331708-1b1c72b2-6c45-474b-8f84-7078e04823ed.png)
+
+* Compiler makes the instruction. Compiler sees the hardware and then whatever program we have written, translates it into such kind of instructions which this hardware can understand. Compiler is making these binary instructions.
+
+![image](https://user-images.githubusercontent.com/54589605/223332204-d7d26afa-87d0-4711-a12d-d2480f3ed1db.png)
+
+* Compiler is not identifying anything. Compiler is making these binary instruction/strings. Compiler needs to understand that what the hardware can understand, based on that compiler generates it.
+
+![image](https://user-images.githubusercontent.com/54589605/223332817-4182a175-b016-4d5f-bcbd-509261ee05a9.png)
+
+* Architecture First. Then we implement it. Once implemented, after that at the time of usage, compiler thing comes.
+
+![image](https://user-images.githubusercontent.com/54589605/223333619-b846a0ab-28d0-4148-8bf0-1034be76c098.png)
+
+* Yes.
+
+* why **min. no. of instruction cpu supports** is 1?
+
+> If we say that there is an instruction supported then only we will have **opcode**. So if we have **instruction supported** then we will have **opcode**. Atleast **1** instruction should be supported. Atleast **1(one)** instruction should be there.
+
+![image](https://user-images.githubusercontent.com/54589605/223334371-ebb1ee3d-23f3-4dfb-9dfe-7d0acc687ee2.png)
+
+* Yes.
+
+![image](https://user-images.githubusercontent.com/54589605/223334501-d84ffabe-2169-4d8a-9b71-79cb9ea46127.png)
+
+## Instruction Set Architecture(ISA)
+
+> Collection of all supported instructions by a cpu. It is also called as **instruction set** as well.
+
+![image](https://user-images.githubusercontent.com/54589605/223334870-c6cb8963-6810-4804-af0a-6077ece9fe94.png)
+
+* Size of instruction set -> How many no. of instructions are there in the **ISA**. **No. of instructions supported**.
+
+![image](https://user-images.githubusercontent.com/54589605/223337840-5fdcad8f-a93d-4432-be34-b2bf19e9c4fa.png)
+
+![image](https://user-images.githubusercontent.com/54589605/223337950-b5a821b4-a2c3-45e9-9f41-6264f3b8598f.png)
+
+* Yes, same.
+
+> When we design the system, apart from deciding the **instruction and their opcode**. We decide one more thing, that when we have the instructions, within an instruction, how many operands we can describe or specify. How many operand's information we will provide in one instruction. For **addition** we will specify **2 or 3** operands, **substraction** we will specify **2 or 3** operands, **increment** we will specify **1** operand. Like this way for different-different operations and different-different instructions, what happens for different-different instructions how many no. of operands to be given within an instruction, that is decided. Based on that we categorize the instructions, what type of instruction it is.
+
+### Types of instructions
+
+![image](https://user-images.githubusercontent.com/54589605/223340678-9d571cb4-6df3-4400-9b22-44a3c6c4d7da.png)
+
+* Address -> Reference of operand. Where is the operand.
+
+![image](https://user-images.githubusercontent.com/54589605/223341051-136793a3-21c9-4911-8a2f-6263241ab1ac.png)
+
+### 3-Address Instruction
+
+* How many operands we will specify when we have **3-Address Instruction**?
+
+> Three(3) operands we will specify.
+
+> **opcode** is the mandatory part of instruction. Without opcode, no instruction. opcode is mandatory part, that only will specify what is the instruction type. Apart from that these **3 operands** we will be having. For the first operand, we will specify the address where it is located. For the second operand, we will specify the address where it is located. For the third operand, we will specify the address where it is located. Such that we are specifying three address here.
+
+![image](https://user-images.githubusercontent.com/54589605/223344231-4487e6c4-6014-4428-b7f7-7dc4153a4f8e.png)
+![image](https://user-images.githubusercontent.com/54589605/223344638-d73ac35d-e017-4204-86ef-f3cfe09b911f.png)
+
+* Designer of the architecture will decide if **first address or Register 5 is the destination address** or **address 3 or register 1 is the destination address**.
+
+* Use of **3-Address Instruction**.
+
+> We can specify **two operands** for taking two inputs and another 3rd operand for giving the result where we have to store the result.
+> Apart from opcode, we will specify three operands, one operand will be destination and two will be the source of the operations.
+
+* Destination -> Where to store the result/output.
+* Source -> From where to get the input.
+
+![image](https://user-images.githubusercontent.com/54589605/223345903-106c9d58-5a82-44b0-ad11-e9f2cc811b36.png)
+
+* If in an instruction, three operands are specified. We can take intuition that two operands will be take as input/source operands and one will be take as output/destination operand.
+
+* Output operand -> Where the result is stored.
+
+> Let's say there is a new computer system and that computer system is supporting 3-address instruction.
+
+* Max. how many operands we can provide within one instruction itself?
+
+>  Three(3).
+
+* Can we get more than 3?
+
+> No.
+
+![image](https://user-images.githubusercontent.com/54589605/223347794-82b4d4b8-365d-4358-8cb1-1d7076de0f32.png)
+
+* We cannot specify **4** operands in an architecture which is supporting 3-address instruction. So we will have to break down. We have to break down it.
+
+* Who will break down this?
+
+> Compiler will break down this, so that compiler can make instructions for these(3-address instruction) cpu which only supports 3-address instruction.
+
+![image](https://user-images.githubusercontent.com/54589605/223348609-77f57830-a938-4e73-9f7d-7f0ef7f250c9.png)
+![image](https://user-images.githubusercontent.com/54589605/223348850-0fe815dc-09d9-4ab1-9fd3-d48fb07a8689.png)
+
+* Now it is possible, as there are max. of **3** operands specified.
+
+> If computer system supports **3-address instruction**, whichever instruction is generated. If it needs or any 
+operation needs more **3 operands**, it will be broken down into multiple instructions by the compiler so that every instruction can be max. of three(3) operands.
+> If any instruction needs **2 operands**, compiler will do that too.
+
+![image](https://user-images.githubusercontent.com/54589605/223349632-badd8a46-9dde-4308-a901-99607da3085f.png)
+
+* Max. will be 3.
+
+### 2-Address Instruction
+
+> Apart from opcode, we can only specify max. of **2 operands** only. Not more than **2**.
+
+![image](https://user-images.githubusercontent.com/54589605/223350423-b10645c7-ba6a-4d08-85b3-0fbf75316ff2.png)
+
+### 1-Address Instruction
+
+> Apart from opcode, we can only specify max. of **1 operands** only. Not more than **1**.
+
+![image](https://user-images.githubusercontent.com/54589605/223350517-2145c388-fb85-4322-915e-f66bd8813926.png)
+
+### 0-Address Instruction
+
+> **Only opcode can be specified in the instruction here**. No any address can be specified within the instruction. opcode should be there in the instruction, it is mandatory part.
+
+![image](https://user-images.githubusercontent.com/54589605/223350847-31d685ff-9972-4929-bdc3-df673b09bde3.png)
+![image](https://user-images.githubusercontent.com/54589605/223351204-954b3056-ba79-47a7-8b46-b6d2b83049d8.png)
+
+> If we build a new architecture, and we have said that it will support max. of **3-Address instruction**. So, it will support 0-Address Instruction, 1-Address Instruction, 2-Address Instruction and 3-Address Instruction, based on how many operands needed for that instruction. For **add and sub** operation, we will need **3**, for **moving/copy** operation we need **2**, for **increment/decrement of any register** operation will require **1** operand. Some operations will not require any operands as well then **0** also.
+
 
 
 
