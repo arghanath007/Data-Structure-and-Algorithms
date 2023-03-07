@@ -1654,12 +1654,298 @@ y= M(0,3)
 ![Logic_Gates_11](https://user-images.githubusercontent.com/54589605/221578200-c4d2235a-c2c6-42db-a3a0-c363e4d9adb7.jpeg)
 ![Logic_Gates_12](https://user-images.githubusercontent.com/54589605/221578206-25c769aa-46ee-4081-9fe4-f0ea2dafbd28.jpeg)
 
+## K-Map (15) [7th March 2023]
+
+* Purpose to minimize boolean expression.
+
+![image](https://user-images.githubusercontent.com/54589605/223485067-1e07e93e-518e-441a-a05e-f36a227fcd42.png)
+![image](https://user-images.githubusercontent.com/54589605/223485227-759cd1bd-cdc6-4828-83ee-125aba72c20a.png)
+![image](https://user-images.githubusercontent.com/54589605/223486676-1a30a15f-671c-4ddb-808a-d8511df056a3.png)
+
+* Only one bit difference must be there.
+
+* In **grey code**, we have to ensure that **only one bit changes**.
+* Grey Code -> 00 -> 01 -> 11 -> 10. [Grey Code sequence, 0,1,3,2]
+
+![image](https://user-images.githubusercontent.com/54589605/223489368-a4bfa039-52f5-49e7-8425-289c503a1e12.png)
+![image](https://user-images.githubusercontent.com/54589605/223489801-be61dd48-3ba0-424a-b076-446bfd2c2132.png)
+
+* 01 -> 10 -> Two bits change hence we go from 01 to 11 as only 1 bit changes between them.
+* 11 -> 10 -> As there is one bit change.
+
+* If two bit changes then we cannot combine A'B' with AB.
+
+![image](https://user-images.githubusercontent.com/54589605/223492133-7e29d919-8d20-4cee-b295-a5d24437493b.png)
+
+* Whenever there is a 1 bit changes are there, we will combine them. 
+* In K-map there is only one big change.
+
+![image](https://user-images.githubusercontent.com/54589605/223493658-a02a89b3-6b0a-4019-928a-8092b1b08a4b.png)
+
+* whoever is near/side by of A'B', wheather the follow is at the right, left, top or bottom. Combine A'B' with that fellow, that's all.
+
+![image](https://user-images.githubusercontent.com/54589605/223494181-82a50fed-9136-4503-a1da-bc842c722a46.png)
+
+> In A'B'(00) and AB'(10), *A* value is changing. Whichever is changing, that thing we can remove simply. Whichever fellow is changing, remove that fellow. Whichever fellow is unchanged, that has to be written.
+> In AB(11) and A'B(01), *A* value is changing. Whichever is changing, we should eliminate simply.
+
+![image](https://user-images.githubusercontent.com/54589605/223495257-1e505f11-3f1d-4182-a77b-df64f5b6dae4.png)
+
+* Physical Adjacent -> 0,1,2,3 there are physical adjacent. [0 -> 1 -> 2 -> 3]
+* Logical Adjacent -> There put be only one bit change should appear.
+
+![image](https://user-images.githubusercontent.com/54589605/223497761-d77d6652-f010-47dd-ada9-b80fafa65700.png)
+ 
+* Minterms are indicated by **1**.
+* Maxterms are indicated by **0**.
+
+![image](https://user-images.githubusercontent.com/54589605/223498116-9890ec4f-86a3-423e-94ea-c37fba38442f.png)
+![image](https://user-images.githubusercontent.com/54589605/223498708-7945cdda-ea76-49a2-a37c-744cabdfcb9a.png)
+ 
+![image](https://user-images.githubusercontent.com/54589605/223498278-0fa95ce3-0591-4dca-811b-e1f1a6082dfa.png)
+
+* Yes, that's why we are using grey code here.
+
+* Which number system are preferrable in the K-map?
+
+> Grey code. Because we need the logical adjacency property.
+
+## 2-Variable K-Map
+
+![image](https://user-images.githubusercontent.com/54589605/223514142-782c8ecb-4f6c-43d2-b937-aabd2400a07a.png)
+
+* 4 combinations are possible.
+* Each box is called as a cell.
+
+* If it is f(A, B), then we have to maintain the **AB order**. In the K-map we can take it in any manner but the order given in the function should be maintained.
+
+* If we change the position of the variables, then the cell numbers also changes. A and B is interchanging. It is like transpose in a matrix. Rows become columns and columns become rows.
+
+* Whatever order we take, doesn't matter. We should maintain the order given in the function i.e f(A,B). Always maintain the order.
+
+![image](https://user-images.githubusercontent.com/54589605/223516503-186430d3-1785-4c68-b33f-597fd0973921.png)
+![image](https://user-images.githubusercontent.com/54589605/223516801-dc43d743-cd1e-4ebb-88ea-417749798e6d.png)
+
+## 3-Variable K-Map
+
+![image](https://user-images.githubusercontent.com/54589605/223517862-9ad9fe3e-a2f0-40ec-ad90-4c01ada41688.png)
+
+* As there are 2 bit change from 01 to 10, hence we have 11 after 01 and at the end we have 10. We have to maintain logical adjancy.
+
+
+![image](https://user-images.githubusercontent.com/54589605/223518163-cdd3ddcd-5659-48a4-aff7-0ccb0eca2649.png)
+
+* Yes.
+
+![image](https://user-images.githubusercontent.com/54589605/223518505-95bd9deb-91dc-40fe-b5e6-1e44f0f1d128.png)
+
+![image](https://user-images.githubusercontent.com/54589605/223519082-5ac15cef-5fbd-4c55-a017-9222b19d3fb8.png)
+
+* We can shuffle, ABC but we have to maintain the order from the function i.e f(A,B,C). Only maintain these order while writing.
+
+![image](https://user-images.githubusercontent.com/54589605/223519518-71b0b80e-0659-4d5e-8f6d-f5931af166b1.png)
+![image](https://user-images.githubusercontent.com/54589605/223525788-681ea6c1-9f89-45f2-be0b-a156a812d684.png)
+![image](https://user-images.githubusercontent.com/54589605/223526179-b9513fee-c342-412d-8195-92a510f983d4.png)
+
+
+## 4-Variable K-Map
+
+![image](https://user-images.githubusercontent.com/54589605/223526773-ac438dcc-9fa9-47db-b69d-a4374f5c309d.png)
+![image](https://user-images.githubusercontent.com/54589605/223526976-fabf1729-71cb-433c-bfc8-6b972fd7bd5a.png)
+![image](https://user-images.githubusercontent.com/54589605/223527700-34ed8a76-922e-4a96-80b6-c7e9cfdbd3d5.png)
+
+* Logical adjacent cell -> There is only one bit difference.
+
+![image](https://user-images.githubusercontent.com/54589605/223527951-61b12c3a-6d1c-4a0e-bb33-99af2f1fd8de.png)
+![image](https://user-images.githubusercontent.com/54589605/223528015-b8dbfc90-3446-4f6e-bf07-d661e9062579.png)
+![image](https://user-images.githubusercontent.com/54589605/223528097-63696337-747a-4124-89dc-b80b61c2f42c.png)
+![image](https://user-images.githubusercontent.com/54589605/223528178-5cc9f99d-ab02-45d8-a8f0-7fcc30601e69.png)
+![image](https://user-images.githubusercontent.com/54589605/223528267-72e56483-e15f-4cd7-a394-9f124a9d5415.png)
+
+* A'B'C'D' cell has **4** logical adjacent cell.
+
+![image](https://user-images.githubusercontent.com/54589605/223529213-c7236b0e-2388-4c9e-98d3-b5b386600ef8.png)
+
+* As 4-variable K-map, then the value of 'n' is 4. Hence, how many logical adjacent cell it should contain?
+
+> 4. Every cell should contain **4** logical adjacent cell.
+
+![image](https://user-images.githubusercontent.com/54589605/223530011-cc490eeb-bfae-41bb-a98a-a5d77dd190b0.png)
+![image](https://user-images.githubusercontent.com/54589605/223530373-6c837b7f-ceaa-4d03-b5d8-5c0711bfa54c.png)
+![image](https://user-images.githubusercontent.com/54589605/223530785-4d04824c-c364-4214-93f8-38d4ec775d07.png)
+![image](https://user-images.githubusercontent.com/54589605/223532483-c0018b71-4d6c-4cc6-884d-c5bcbcd11a1f.png)
+![image](https://user-images.githubusercontent.com/54589605/223532778-41865aa2-016e-4dd0-a127-8c3f61603d85.png)
+![image](https://user-images.githubusercontent.com/54589605/223534652-84daf449-3900-416f-8d98-494629f55670.png)
+
+* Look at the adjacent cells from the previous one to these one. The adjacent cells are the same, they do not differ. If we shuffle the variables, then everything gets shuffled but the adjacent cells will be the same. Final answer won't change.
+
+![image](https://user-images.githubusercontent.com/54589605/223535220-b6f27b8a-c2ec-4cbf-adaa-14d8a406b52b.png)
+![image](https://user-images.githubusercontent.com/54589605/223536009-ff398994-5550-4cb1-8770-f2e5378e81fd.png)
+![image](https://user-images.githubusercontent.com/54589605/223536481-114ecdac-1768-451d-8720-5c4d0f41f525.png)
+![image](https://user-images.githubusercontent.com/54589605/223537529-a348214c-00a0-4fd9-8cce-b313b92de2d8.png)
+![image](https://user-images.githubusercontent.com/54589605/223537920-c8d51cd3-b0d9-460b-acd7-cf158848dfa4.png)
+![image](https://user-images.githubusercontent.com/54589605/223538132-f3256a72-0fae-4cd7-a0f1-53eca813324a.png)
+![image](https://user-images.githubusercontent.com/54589605/223538215-04264c50-67ee-4554-9d4a-d3c5897acad8.png)
+![image](https://user-images.githubusercontent.com/54589605/223538318-2b7ddfb5-b06b-4703-aac0-a4780ee80bad.png)
+
+* For OR gate, we would want to write in POS form.
+
+![image](https://user-images.githubusercontent.com/54589605/223538475-d9e3d548-7c6a-4d68-80fb-0014cc44132a.png)
+
+* Both positive and negative must be present. Both SOP and POS form are helpful in designing of the systems. Some we prefer SOP form and sometimes we prefer POS form. Sepends on the scenarios or based on the requirements.
+
+![image](https://user-images.githubusercontent.com/54589605/223538901-1e7ed460-00af-42de-bdd8-10789d3d3cec.png)
+
+* Which is low? Minterms or Maxterms are low?
+
+> Whichever is low, that we need to implement it. That's why we need both SOP and POS form are required.
+
+## Minimization Steps
+
+![image](https://user-images.githubusercontent.com/54589605/223539645-956d83eb-38f1-43ae-8a07-83220b73cd30.png)
+
+* Grouping should be done in powers of 2(2^1, 2^2, 2^3, 2^4 -> 2^n). 'n' is the number of variables. Try to go for 
+2^4 cells, if not possible then go for 2^3, then go for 2^2 and then 2^1. **We should try to group maximum cells**.
+
+* **Don't care** is like a **joker**. If I need it, then I can use it. If I don't want then I don't use it.
+
+![image](https://user-images.githubusercontent.com/54589605/223540874-6f6543d7-a0bd-4c4a-aaa3-f0b177d0e1be.png)
+
+* Don't care is representated by the **X or cross** symbol. **X or cross** symbol means that it can be either **0 or 1**. We can take anything.
+
+* If we have considered, don't care as **0** and we got some benefits/helping in minimizations. Then we can take don't care as **0**.
+* If we have considered, don't care as **1** and we got some benefits/helping in minimizations. Then we can take don't care as **1**.
+
+![image](https://user-images.githubusercontent.com/54589605/223542016-e50f7c8a-260c-40bd-a9df-b189cadb91a4.png)
+![image](https://user-images.githubusercontent.com/54589605/223542172-c0f5c1af-5c28-46a1-af91-a4dfd733f756.png)
+![image](https://user-images.githubusercontent.com/54589605/223542546-b55300a6-00b3-4e0d-8c58-b361b58264c3.png)
+![image](https://user-images.githubusercontent.com/54589605/223542623-8b238962-7993-4ebd-b1bf-8f33d90bab9e.png)
+
+* Don't care is like this only. If it is helpful then use it. If it is not helpful then don't use it.
+
+![image](https://user-images.githubusercontent.com/54589605/223542936-8cbd7679-96d3-47af-99c4-0ae92f16014e.png)
+![image](https://user-images.githubusercontent.com/54589605/223543083-10976be9-3e23-4162-a7f0-72f8be4c6917.png)
+
+### Valid Sub Cube
+
+> A collection of 2^m number of cells in a k-map is said to be forming a valid sub cube, provided inside the collection 2^m number of cells, every cell is logical adjacent to 'm' no. of cells.
+
+![image](https://user-images.githubusercontent.com/54589605/223543623-0e53a3ba-af7a-4063-b49a-809b4636e3d3.png)
+
+![image](https://user-images.githubusercontent.com/54589605/223544005-7e3c79b8-1cea-4438-b24c-d91e8b721b8c.png)
+
+* We need to verify wheather it is a logically adjacent or not.
+
+* How many cells we have selected?
+
+> 4 cells.
+
+* 4 -> 2^2 -> 2^m -> m=2. [Power of 2 is 'm' value]
+
+>  In this group, if we take any cell, every cell should have 2 logically adjacent must be present. Every fellow must contain 2 logically adjacent cells must be present.
+
+![image](https://user-images.githubusercontent.com/54589605/223545999-1f08fb12-5fdf-43d5-84c7-a9cfc59d6c44.png)
+![image](https://user-images.githubusercontent.com/54589605/223546180-9d201e2d-9044-42aa-974c-97be48649588.png)
+![image](https://user-images.githubusercontent.com/54589605/223546232-b81f40c7-49e1-46aa-9602-efce8768a977.png)
+![image](https://user-images.githubusercontent.com/54589605/223546271-55ac7a5e-2a1f-4fdb-ac68-9b93ff9fcbb0.png)
+![image](https://user-images.githubusercontent.com/54589605/223546328-16f931b7-403c-405c-92c9-5776b8e859d8.png)
+
+> That why every fellow/cell in the group must contain 2 logically adjacent cells must be present. Because of these reason, these group is called as a **Valid Sub Cube**.
+
+![image](https://user-images.githubusercontent.com/54589605/223546796-b771f4c4-f543-4acf-a5ce-70f8a8cceea4.png)
+
+![image](https://user-images.githubusercontent.com/54589605/223546912-ace419e2-f885-4095-b65c-8c88967b9c69.png)
+
+* Need to verify if it is a valid sub cube or not?
+
+
+
+![image](https://user-images.githubusercontent.com/54589605/223544219-28878fbb-0f8d-4408-a19e-1619e21b3813.png)
+
+* Need to verify if it is a valid sub cube or not?
+
+> It is a valid sub cube.
+
+* How many cells are combined?
+
+> 4.
+
+* What is the 'm' value here?
+
+> 4 -> 2^2 -> 2^m -> m=2. 'm' value is **2**. Hence each cell in the group must have 2 logically adjacent cells to be required.
+
+![image](https://user-images.githubusercontent.com/54589605/223547463-fc730ccd-235e-4d77-a268-6c85c52ffa60.png)
+![image](https://user-images.githubusercontent.com/54589605/223547511-4abff9e7-cbfe-44d5-949b-a9435c98ad34.png)
+![image](https://user-images.githubusercontent.com/54589605/223547543-a95b371e-18fa-4f99-8847-78becb979297.png)
+![image](https://user-images.githubusercontent.com/54589605/223547575-e9d91521-7c03-4e4b-999d-a9a8db73cac0.png)
+
+![image](https://user-images.githubusercontent.com/54589605/223547702-c37c32d9-f376-4e8b-9b07-63a347f7dfe4.png)
+
+* Need to verify if it is a valid sub cube or not?
+
+> It is not a valid sub cube.
+
+* How many cells are combined?
+
+> 4.
+
+* What is the 'm' value here?
+
+> 4 -> 2^2 -> 2^m -> m=2. 'm' value is **2**. Hence each cell in the group must have 2 logically adjacent cells to be required.
+
+![image](https://user-images.githubusercontent.com/54589605/223547868-51d5e7bd-7cec-446c-b9d6-42ac74740550.png)
+
+* 0000 -> Contains **only one** logically adjacent cells which is **0100**.
+
+> Hence it is not a valid sub cube.
+
+![image](https://user-images.githubusercontent.com/54589605/223548201-d6b9378e-1916-40bc-beb5-dbbdebae61e4.png)
+
+![image](https://user-images.githubusercontent.com/54589605/223548286-104584b5-c48e-460b-be55-2cfa9c26898b.png)
+
+* **Four black circles are grouped together**.
+
+* Need to verify if it is a valid sub cube or not?
+
+> It is a valid sub cube.
+
+* How many cells are combined?
+
+> 4.
+
+* What is the 'm' value here?
+
+> 4 -> 2^2 -> 2^m -> m=2. 'm' value is **2**. Hence each cell in the group must have 2 logically adjacent cells to be required.
+
+
+![image](https://user-images.githubusercontent.com/54589605/223548622-551dbb3f-7909-4153-9d67-e63a7961f0fc.png)
+![image](https://user-images.githubusercontent.com/54589605/223548691-2d62f17a-098f-4cb1-bae4-89253fe755a7.png)
+![image](https://user-images.githubusercontent.com/54589605/223548751-8c091019-c916-4ace-92a7-093b6fb4066b.png)
+![image](https://user-images.githubusercontent.com/54589605/223548783-4750bfb0-42d1-4d85-b20e-69d80fbc8c45.png)
+
+* Each fellow/cell in the group contains 2 logically adjacent cells. Hence we can say it is a **valid sub cube**.
+
+![image](https://user-images.githubusercontent.com/54589605/223549090-f2dcb0e9-ac37-4987-896a-d87b821e6faa.png)
+
+![image](https://user-images.githubusercontent.com/54589605/223549138-77590448-28d3-425b-b7d1-3a77c8c423c7.png)
+
+* Yes, if we combine 8 cells then each fellow/cell must contain 3 logically adjacent cells.
+
+![image](https://user-images.githubusercontent.com/54589605/223549403-f840c227-bfbc-4267-bfac-ef5f080cac6a.png)
+
+
+
+
+
+
+
+
 
 
 
 
 * After This video, do the **5** daily assignments. (**DONE**)
-* After that do **DPP 1**.
+* After that do **DPP 1**. (**DONE**)
 
 
 # Practice Questions and Solutions
