@@ -965,6 +965,94 @@ different types of operations only. For 15 operations to be supported, **opcode*
 
 > When we design the system, apart from deciding the **instruction and their opcode**. We decide one more thing, that when we have the instructions, within an instruction, how many operands we can describe or specify. How many operand's information we will provide in one instruction. For **addition** we will specify **2 or 3** operands, **substraction** we will specify **2 or 3** operands, **increment** we will specify **1** operand. Like this way for different-different operations and different-different instructions, what happens for different-different instructions how many no. of operands to be given within an instruction, that is decided. Based on that we categorize the instructions, what type of instruction it is.
 
+### Types of instructions
+
+![image](https://user-images.githubusercontent.com/54589605/223340678-9d571cb4-6df3-4400-9b22-44a3c6c4d7da.png)
+
+* Address -> Reference of operand. Where is the operand.
+
+![image](https://user-images.githubusercontent.com/54589605/223341051-136793a3-21c9-4911-8a2f-6263241ab1ac.png)
+
+### 3-Address Instruction
+
+* How many operands we will specify when we have **3-Address Instruction**?
+
+> Three(3) operands we will specify.
+
+> **opcode** is the mandatory part of instruction. Without opcode, no instruction. opcode is mandatory part, that only will specify what is the instruction type. Apart from that these **3 operands** we will be having. For the first operand, we will specify the address where it is located. For the second operand, we will specify the address where it is located. For the third operand, we will specify the address where it is located. Such that we are specifying three address here.
+
+![image](https://user-images.githubusercontent.com/54589605/223344231-4487e6c4-6014-4428-b7f7-7dc4153a4f8e.png)
+![image](https://user-images.githubusercontent.com/54589605/223344638-d73ac35d-e017-4204-86ef-f3cfe09b911f.png)
+
+* Designer of the architecture will decide if **first address or Register 5 is the destination address** or **address 3 or register 1 is the destination address**.
+
+* Use of **3-Address Instruction**.
+
+> We can specify **two operands** for taking two inputs and another 3rd operand for giving the result where we have to store the result.
+> Apart from opcode, we will specify three operands, one operand will be destination and two will be the source of the operations.
+
+* Destination -> Where to store the result/output.
+* Source -> From where to get the input.
+
+![image](https://user-images.githubusercontent.com/54589605/223345903-106c9d58-5a82-44b0-ad11-e9f2cc811b36.png)
+
+* If in an instruction, three operands are specified. We can take intuition that two operands will be take as input/source operands and one will be take as output/destination operand.
+
+* Output operand -> Where the result is stored.
+
+> Let's say there is a new computer system and that computer system is supporting 3-address instruction.
+
+* Max. how many operands we can provide within one instruction itself?
+
+>  Three(3).
+
+* Can we get more than 3?
+
+> No.
+
+![image](https://user-images.githubusercontent.com/54589605/223347794-82b4d4b8-365d-4358-8cb1-1d7076de0f32.png)
+
+* We cannot specify **4** operands in an architecture which is supporting 3-address instruction. So we will have to break down. We have to break down it.
+
+* Who will break down this?
+
+> Compiler will break down this, so that compiler can make instructions for these(3-address instruction) cpu which only supports 3-address instruction.
+
+![image](https://user-images.githubusercontent.com/54589605/223348609-77f57830-a938-4e73-9f7d-7f0ef7f250c9.png)
+![image](https://user-images.githubusercontent.com/54589605/223348850-0fe815dc-09d9-4ab1-9fd3-d48fb07a8689.png)
+
+* Now it is possible, as there are max. of **3** operands specified.
+
+> If computer system supports **3-address instruction**, whichever instruction is generated. If it needs or any 
+operation needs more **3 operands**, it will be broken down into multiple instructions by the compiler so that every instruction can be max. of three(3) operands.
+> If any instruction needs **2 operands**, compiler will do that too.
+
+![image](https://user-images.githubusercontent.com/54589605/223349632-badd8a46-9dde-4308-a901-99607da3085f.png)
+
+* Max. will be 3.
+
+### 2-Address Instruction
+
+> Apart from opcode, we can only specify max. of **2 operands** only. Not more than **2**.
+
+![image](https://user-images.githubusercontent.com/54589605/223350423-b10645c7-ba6a-4d08-85b3-0fbf75316ff2.png)
+
+### 1-Address Instruction
+
+> Apart from opcode, we can only specify max. of **1 operands** only. Not more than **1**.
+
+![image](https://user-images.githubusercontent.com/54589605/223350517-2145c388-fb85-4322-915e-f66bd8813926.png)
+
+### 0-Address Instruction
+
+> **Only opcode can be specified in the instruction here**. No any address can be specified within the instruction. opcode should be there in the instruction, it is mandatory part.
+
+![image](https://user-images.githubusercontent.com/54589605/223350847-31d685ff-9972-4929-bdc3-df673b09bde3.png)
+![image](https://user-images.githubusercontent.com/54589605/223351204-954b3056-ba79-47a7-8b46-b6d2b83049d8.png)
+
+> If we build a new architecture, and we have said that it will support max. of **3-Address instruction**. So, it will support 0-Address Instruction, 1-Address Instruction, 2-Address Instruction and 3-Address Instruction, based on how many operands needed for that instruction. For **add and sub** operation, we will need **3**, for **moving/copy** operation we need **2**, for **increment/decrement of any register** operation will require **1** operand. Some operations will not require any operands as well then **0** also.
+
+
 
 
 
