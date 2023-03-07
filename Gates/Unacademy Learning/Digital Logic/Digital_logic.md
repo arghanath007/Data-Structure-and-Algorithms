@@ -2386,6 +2386,92 @@ y= M(0,3)
 ![image](https://user-images.githubusercontent.com/54589605/222980613-c6842732-b36a-41cd-8d78-6b0093777344.png)
 ![image](https://user-images.githubusercontent.com/54589605/222980642-3eacf901-b491-47df-a076-cccdbb9744c8.png)
 
+## Rest of Boolean Algebra
+
+![Boolean_Algebra_40](https://user-images.githubusercontent.com/54589605/223480794-170c185c-fdf7-4713-95ef-f7683a5099c9.jpeg)
+![Boolean_Algebra_41](https://user-images.githubusercontent.com/54589605/223480809-3eb3c337-cd9f-4f84-961e-4042cb73569c.jpeg)
+![Boolean_Algebra_42](https://user-images.githubusercontent.com/54589605/223480816-69cdae35-cdc7-4b8f-bf01-51ef2ab92a47.jpeg)
+![Boolean_Algebra_43](https://user-images.githubusercontent.com/54589605/223480819-d7d8e559-4250-4d86-9257-e8d34c6ce285.jpeg)
+![Boolean_Algebra_44](https://user-images.githubusercontent.com/54589605/223480824-ee491d62-5e89-4711-85c5-9d00fcb3c633.jpeg)
+
+
+## Logica Gate 
+
+![Logic_Gates_1](https://user-images.githubusercontent.com/54589605/223480905-e184b40f-1066-4e18-aad4-713122ef6ae9.jpeg)
+![Logic_Gates_2](https://user-images.githubusercontent.com/54589605/223480912-2c4bba47-889d-4dbb-be8e-8413661e2773.jpeg)
+![Logic_Gates_3](https://user-images.githubusercontent.com/54589605/223480918-4612086a-705d-4aea-8343-a0db9c8c881f.jpeg)
+![Logic_Gates_4](https://user-images.githubusercontent.com/54589605/223480924-ff4d86d9-2807-459f-94db-7fa27b648393.jpeg)
+![Logic_Gates_5](https://user-images.githubusercontent.com/54589605/223480931-5cc4fce0-bc84-436a-8a88-f5030e9cb0a9.jpeg)
+![Logic_Gates_6](https://user-images.githubusercontent.com/54589605/223480937-25d50f4f-924d-4728-b60c-dfefca73bdee.jpeg)
+![Logic_Gates_7](https://user-images.githubusercontent.com/54589605/223481228-b05ff45d-d07c-43ec-83af-7875aeb23c5e.jpeg)
+![Logic_Gates_8](https://user-images.githubusercontent.com/54589605/223481244-38efc010-0bba-4a49-ba30-9bab390581de.jpeg)
+![Logic_Gates_9](https://user-images.githubusercontent.com/54589605/223481252-0dc40027-f510-4aed-aca7-b466e4aafb51.jpeg)
+![Logic_Gates_10](https://user-images.githubusercontent.com/54589605/223481254-d7fe12cc-f10a-4723-b313-5d40d13ead87.jpeg)
+![Logic_Gates_11](https://user-images.githubusercontent.com/54589605/223481261-44efa4e5-2aa4-42e4-a2d2-c442fc79f75e.jpeg)
+![Logic_Gates_12](https://user-images.githubusercontent.com/54589605/223481266-8f2d57c8-4d9b-4cfc-bb82-bce5678a9e29.jpeg)
+![Logic_Gates_13](https://user-images.githubusercontent.com/54589605/223481274-4f203b74-74b1-418e-b95f-74fa0f30a5d7.jpeg)
+![Logic_Gates_14](https://user-images.githubusercontent.com/54589605/223481281-65df00b4-12ff-4a4c-889e-ea0b2039119d.jpeg)
+![Logic_Gates_15](https://user-images.githubusercontent.com/54589605/223481289-cfc1023e-da21-46cd-9495-478b62be200e.jpeg)
+![Logic_Gates_16](https://user-images.githubusercontent.com/54589605/223481295-fe49abfa-6007-47a9-8379-61d519ec545f.jpeg)
+![Logic_Gates_17](https://user-images.githubusercontent.com/54589605/223481788-04218861-8600-4ca6-9cd7-e74f99634126.jpeg)
+![Logic_Gates_18](https://user-images.githubusercontent.com/54589605/223481806-0ec7ad11-90ad-4309-b638-7aa365b8e15c.jpeg)
+![Logic_Gates_19](https://user-images.githubusercontent.com/54589605/223481815-2e9e7150-2c53-4935-a2d5-e05fedd52408.jpeg)
+![Logic_Gates_20](https://user-images.githubusercontent.com/54589605/223481824-7e5ed225-dba6-47cb-b9fa-587b7d4519da.jpeg)
+![Logic_Gates_21](https://user-images.githubusercontent.com/54589605/223481942-ae3b0627-fe10-45ef-a8eb-b6991d881474.jpeg)
+![Logic_Gates_22](https://user-images.githubusercontent.com/54589605/223481962-f848cf16-afb2-4d6c-ac93-5468edb927d6.jpeg)
+![Logic_Gates_23](https://user-images.githubusercontent.com/54589605/223481971-33bc4cbf-a956-446e-b0d7-a77ae8948db8.jpeg)
+![Logic_Gates_24](https://user-images.githubusercontent.com/54589605/223481976-9d5baa12-5126-44a1-a933-a374d7cee08e.jpeg)
+![Logic_Gates_25](https://user-images.githubusercontent.com/54589605/223482091-4c2eec9d-f387-4140-8448-ea35dd33c775.jpeg)
+![Logic_Gates_26](https://user-images.githubusercontent.com/54589605/223482108-40b653ae-0f75-47aa-ac0d-804b50adace2.jpeg)
+![Logic_Gates_27](https://user-images.githubusercontent.com/54589605/223482195-fa33456b-0ae7-44be-91f3-c0fdaa814ae7.jpeg)
+![Logic_Gates_28](https://user-images.githubusercontent.com/54589605/223482212-5e3cf58d-c759-4d39-9bb8-0c3a24b6d41f.jpeg)
+![Logic_Gates_29](https://user-images.githubusercontent.com/54589605/223482219-3b64010a-8605-4d87-82e4-810f5b90cf2b.jpeg)
+![Logic_Gates_30](https://user-images.githubusercontent.com/54589605/223482227-1d8b824e-98e5-4cd4-86e3-5fa81c620ab9.jpeg)
+![Logic_Gates_31](https://user-images.githubusercontent.com/54589605/223482236-43a955c3-cb91-4a15-84f4-954bcc27b08b.jpeg)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2396,8 +2482,6 @@ y= M(0,3)
 ![image](https://user-images.githubusercontent.com/54589605/222977163-f93ad768-dbc2-4938-a487-48b16ded3d54.png)
 
 * Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/F266879C2B
-
-
 
 
 
