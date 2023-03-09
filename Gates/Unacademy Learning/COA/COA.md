@@ -1174,6 +1174,257 @@ operation needs more **3 operands**, it will be broken down into multiple instru
 ![Instructions_2](https://user-images.githubusercontent.com/54589605/223426854-950e3e97-8728-470c-a6fa-4bdcedb0f477.jpeg)
 ![Instructions_3](https://user-images.githubusercontent.com/54589605/223426857-1d51ef28-e7c9-44c1-97ab-9d223e242ffc.jpeg)
 
+
+## Instructions Part 2 (6) [9th March 2023]
+
+![image](https://user-images.githubusercontent.com/54589605/223940650-b1be401f-d87d-42bd-8cbd-d158a61f1092.png)
+![image](https://user-images.githubusercontent.com/54589605/223940673-4326e66e-46ea-4d4b-9234-11c2f05731c9.png)
+
+* From the perspective/view of **architecture**, both are **same** i.e both are addition. Because the **opcode** is the same for **addition**.
+* From the perspective/view  of **program**, both are **different** instructions.
+
+![image](https://user-images.githubusercontent.com/54589605/223941822-0af211c2-9f6b-4795-b3de-dc40abbe4dd2.png)
+![image](https://user-images.githubusercontent.com/54589605/223942006-0a6c2cd7-d926-4560-b4ec-9f15f0ad395c.png)
+
+* All type of instructions whichever a particular type of cpu supports, that collection is called as **ISA**.
+
+
+![image](https://user-images.githubusercontent.com/54589605/223943137-7f2868fd-061f-4ebc-84e6-b78441ee99bc.png)
+
+* On the left hand side or **Byte Addressable**, we are storing **2 Bytes** on **2 addresses**. 
+* On the right hand side or **Word Addressable**, we are storing **2 Bytes** on **1 or single address**. **100 words** for **100 instructions**, total **200 bytes** needed/given for the program.
+
+* For both of them, we will require **2 bytes** of space, to store the **one complete instruction**.
+
+![image](https://user-images.githubusercontent.com/54589605/223944296-769a7eb6-185c-4206-bebf-0e24edf6497b.png)
+
+* Too much **wastage** of storage here.
+
+* Per instruction, how many bytes are wasted?
+
+> 4Bytes -> 32 bits, but we need 12 bits only. So (32-12)= 20 bits are wasted per instruction.
+
+
+![image](https://user-images.githubusercontent.com/54589605/223943137-7f2868fd-061f-4ebc-84e6-b78441ee99bc.png)
+
+* Per instruction, how many bytes are wasted for left hand side or **Byte Addressable**?
+
+> 2Bytes -> 16 bits, but we need 12 bits only. So (16-12)= 4 bits are wasted per instruction.
+
+* Per instruction, how many bytes are wasted for right hand side or **Word Addressable**?
+
+> 2Bytes -> 16 bits, but we need 12 bits only. So (16-12)= 4 bits are wasted per instruction.
+
+![image](https://user-images.githubusercontent.com/54589605/223945822-53880da0-d901-4b05-8e7e-0c59bb99fdc2.png)
+
+> When we call these **wastage** in very technical term, it is called as **internal fragmentation**. Wastage of extra spaces.
+
+* **Total Internal Fragmentation** for left hand side or **Byte Addressable** -> 4bits * 100 total instructions -> 400 bits -> 50 bytes
+
+* 4 bits per instructions
+* There are 100 total instructions
+
+> It is the same for right hand side or **Word Addressable**.
+
+![image](https://user-images.githubusercontent.com/54589605/223946515-486ec06c-40bc-430d-9c36-d6618edb8c6e.png)
+
+* **Total Internal Fragmentation** -> 20bits * 100 total instructions -> 200 bits -> 250 bytes
+* 20 bits per instructions
+* There are 100 total instructions
+
+![image](https://user-images.githubusercontent.com/54589605/223947306-f71a3bdf-d991-47f5-ab99-37bf60b81bd7.png)
+
+* Yes. Fragementation means wastage of storage space.
+
+> Whenever a computer system is designed, it is not the case that the instruction format will be strictly only in these below formats. Computer system instruction format can be anything. Atleast theoritically it can be anything.
+
+![image](https://user-images.githubusercontent.com/54589605/223946910-867039de-51a0-46b7-843c-a1623b0b0ee7.png)
+![image](https://user-images.githubusercontent.com/54589605/223947870-63e12745-bdff-43d9-a3a1-3d639a5eef07.png)
+![image](https://user-images.githubusercontent.com/54589605/223947889-ca95a365-dffc-4348-b635-2d9b858c92de.png)
+
+* We want to number all of the registers, uniquely. If we want to number all of the registers in **binary**, then that particular register number will require how many **bits** to be given?
+
+> We need **3 bits**, 8= 2^3. Hence we need 3 bits.
+
+![image](https://user-images.githubusercontent.com/54589605/223948423-ea063071-408e-442f-bd69-6f46ada6f625.png)
+
+> For **n** registers, the register numbers will be in **Ceil(log n)** bits.
+
+![image](https://user-images.githubusercontent.com/54589605/223949961-8dd32836-c344-4371-9011-4fd992a855c4.png)
+![image](https://user-images.githubusercontent.com/54589605/223950061-730387c0-5d0d-4d47-925b-22997aee18ab.png)
+
+* Yes, rather than address they are giving **register number** here.
+
+![image](https://user-images.githubusercontent.com/54589605/223950649-c3f370c8-ea5a-4520-acd2-8292cb8171d8.png)
+
+* No, if we see a question where in the registers, in place of the registers, special purpose registers are mentioned or in any of the operand field special purpose registers is mentioned then that is a wrong thing/question. We are not going to solve that question.
+* We will never specify any **special purpose registers** at all here(Circled or highlighted). Never ever at all. Special purpose registers are having very special purpose to be served and those will never be mentioned here.
+
+![image](https://user-images.githubusercontent.com/54589605/223951176-657239d9-d7e0-4504-81f9-53b4bd4095ee.png)
+![image](https://user-images.githubusercontent.com/54589605/223953304-7c88f8e0-d4e7-4140-b2cb-db1079e834f5.png)
+![image](https://user-images.githubusercontent.com/54589605/223956928-7b248e43-fdd4-4cd4-9305-92421b2e5fe2.png)
+![image](https://user-images.githubusercontent.com/54589605/223957189-f04e08fb-d036-4ec7-8cda-61a133dd898c.png)
+
+* 1 bit is given for **sign**.
+ 
+ ![image](https://user-images.githubusercontent.com/54589605/223957570-5199af1d-c636-424b-b8a3-d18a5a34509f.png)
+
+* We got **9 bits** as the answers. That why **2^9 -1 -> 511**
+
+![image](https://user-images.githubusercontent.com/54589605/223958110-94b5c57b-7349-4892-bd2f-8b42e30dc587.png)
+
+* Here, n=9, as we got **9 bits** as the answers.
+* **2^(n-1) - 1 -> 256 -1 -> 255.
+
+> As we have given **numbering** to each and every register. Similarly, we have to give **numbering** for **memory cells** also like addresses. It will be in **binary**.
+
+![image](https://user-images.githubusercontent.com/54589605/223959032-d785a565-cdb1-442f-929f-b021994cda42.png)
+![image](https://user-images.githubusercontent.com/54589605/223959369-c3ab671d-066e-4d54-bafa-cfe41f57483c.png)
+
+* Memory is **byte addressable** -> Each address is **1 byte** -> Each Cell is **1 byte**.
+* Memory Size or Overall memory size -> How much content this memory can store total is equal to **64 bytes** .
+
+![image](https://user-images.githubusercontent.com/54589605/224018634-81883f8a-0dd9-4939-a5f8-38211ba04f91.png)
+
+* Per address how much data we have stored?
+
+> 1 byte. Per address 1 byte we can store.
+
+![image](https://user-images.githubusercontent.com/54589605/224019429-0471e268-5506-4d68-8d65-ba983e1bc0c9.png)
+
+* Address size = log 64 -> log 2^6 -> 6 bits.
+
+![image](https://user-images.githubusercontent.com/54589605/224019904-33321b72-09f8-476c-9984-b70b5864c212.png)
+![image](https://user-images.githubusercontent.com/54589605/224020217-af2c977a-7c95-4909-9dab-858bc8875ed6.png)
+
+* No. of cells or no. of addresses -> 256B/1B -> 256
+* Address Size -> log 256 -> log 2^8 -> 8 bits
+
+![image](https://user-images.githubusercontent.com/54589605/224020544-114331ed-ca2c-45f2-991f-2d6ab1aaba3b.png)
+
+* No of cells -> 2^17B/1B -> 2^17
+* Address size -> log 2^17 -> 17 bits.
+
+![image](https://user-images.githubusercontent.com/54589605/224020403-a01fb7ff-29a2-4f49-8754-4cee78ac3733.png)
+![image](https://user-images.githubusercontent.com/54589605/224021135-b5f2dc16-8c7f-4a0e-9147-d3cee9f4eba6.png)
+
+* Address size -> log 16 -> log 2^4 -> 4 bits.
+
+![image](https://user-images.githubusercontent.com/54589605/224023727-f4d71e07-b16a-4c8e-badc-a6019ceff85d.png)
+
+![image](https://user-images.githubusercontent.com/54589605/224025121-9326e6eb-da6c-4db7-b0dd-24687a36ea9f.png)
+![image](https://user-images.githubusercontent.com/54589605/224026182-23843c46-8b75-4645-8c46-e7371530178c.png)
+
+* 5 instructions require 2 operands only(+,-,* , /). -> Here, we will have **opcode** of lesser bits.
+* 4 instructions require 1 operands only(+=,--,!). -> Here, we will have **opcode** of more bits.
+
+> Possible, yes ofcourse both the type of **instructions** are supported. If, length is fixed then the length of opcode will be increased. So we will have **extra bits** in opcode in the **4 instructions require 1 operands only case**. So, we have **variable length** opcode.
+
+![image](https://user-images.githubusercontent.com/54589605/224029314-8d2f2245-8002-4587-aad9-db3e6c1316c1.png)
+![image](https://user-images.githubusercontent.com/54589605/224030029-b65488bd-eef4-43a7-9dd9-d97150a43b70.png)
+
+* cpu design will be something like this that, it will match the smallest size of **opcode**. In the above two instructions which is the **smallest** size of **opcode**. Here, it is the **2-address instruction**  which has the **smallest size of opcode**.  
+
+> So whenever a instruction comes to the cpu, cpu will try to match the first two bits which are the **opcodes** with it's hardware that do we have **10** as the opcode combination for any two bit instruction. If yes, then the cpu has to interpret and run this (101011) instruction as **2-address instruction**.
+
+* Opcode -> 10
+* address 1 -> 10
+* address 2 -> 11
+
+> If these first two (10) bits are not used for **2-address instruction** opcode design then cpu will go with the **1-address instruction** design. Then,
+
+* Opcode -> 1010
+* address 1 -> 11
+
+![image](https://user-images.githubusercontent.com/54589605/224032629-8ce7c87b-ab70-48ee-bf49-64b884dcd1ff.png)
+![image](https://user-images.githubusercontent.com/54589605/224033262-07cdd1b8-1713-43b7-881b-78a9fe80c6cf.png)
+![image](https://user-images.githubusercontent.com/54589605/224033297-e400d0b8-8534-48c2-9a55-a5f04f9d8cca.png)
+
+> Whenever a particular architecture is build based on the above assumptions on **image 3** and if 6 bit instruction is coming to the cpu then cpu will first match the 2 bit of instruction(10) because smallest/minimum opcode bits are 2 bits in **2-address instruction**. If yes, then this instruction(101011) will be interpreted by cpu as **2-address instruction**.
+
+![image](https://user-images.githubusercontent.com/54589605/224034477-2481a310-7df6-4e3c-84ad-e0d03ae0d26b.png)
+
+> Any instruction comes which is having first two bits as opcode and they are **00, 01 or 10**. Then that instruction will be interpreted/executed as **2-address instruction**.
+> The instruction who's first two bits are not in **00, 01 or 10**. The first two bits of instruction should be **1**.
+
+![image](https://user-images.githubusercontent.com/54589605/224035602-322db038-4453-4255-993b-1e540fc4311e.png)
+![image](https://user-images.githubusercontent.com/54589605/224035655-c16ee6db-963e-4616-bc24-18032904ec07.png)
+
+> Now, if we go to **1-address instruction**, the total length of opcode is **4**. First two bits got fixed, in opcode of 4 bits as **11** is the only combination of **first two bits** which can go to **1-address instruction**, any opcode which is starting with (11) that only can come to **1-address instruction** only.
+
+![image](https://user-images.githubusercontent.com/54589605/224036956-b9d80d02-b10a-4432-a3c1-a01fab5f186d.png)
+
+* We can have **4 possible opcode** we can have in this case, where instructions will be interpreted, understood as **1-address instruction** only. Not more than that.
+
+* Maximum possible opcodes available for **1-address instruction** is?
+
+> 4. Not more than that.
+
+> In such kind of questions where multiple instructions are supported, then we will start solving the question from wherever we have **minimum no. of bits of opcode**. From that format we will start and go to **higher bits of opcode**.
+
+![image](https://user-images.githubusercontent.com/54589605/224039264-fc64e2bd-0124-466c-b3fc-0bb3f098087c.png)
+![image](https://user-images.githubusercontent.com/54589605/224039337-d7680d3a-edc8-4dc6-b632-73f8b040e919.png)
+
+* Previous level -> Start with minimum opcode bits, max. opcode combinations will be **2^2 -> 4**. From the question we know **3** opcodes are used. Hence **1** opcode is not **used**. Go to the next level.
+
+![image](https://user-images.githubusercontent.com/54589605/224039987-3f712f98-5642-4e72-91d7-9a40efabecc3.png)
+
+* Next level -> After this, complete opcode(4 bits) will be divided into **two** parts. From left side, first starting part, previous level opcode bits(2 here). First part will have previous level opcode bits and these two bits are fixed. If total bits is **4**, then **2 bits** are used in the first part then the 2nd part will be **4-2 -> 2** bits. Now, with these **1** combination, which is the count of **unused combinations** from previous level, we will make  binary combination of the remaining two bits. This is how we will get the **max no. of 1-address instructions**.  
+
+* How many opcode bits in previous level or  in **2-address instruction**?
+
+> 2 bits
+
+* How many **unused combinations** we are getting from previous level for starting two bits?
+
+> 1.
+
+![image](https://user-images.githubusercontent.com/54589605/224045088-7b820458-e5be-4575-a58b-6192c789e444.png)
+
+![image](https://user-images.githubusercontent.com/54589605/224046996-27fa1710-2172-41bd-bbd6-6507758da9d2.png)
+![image](https://user-images.githubusercontent.com/54589605/224047065-69257a18-e57c-4f7c-a3cb-844ed855f077.png)
+
+> We can pretty surely say that there is no any **2-address instructions** supported in this system(highlighted with blue). Only **1-address instructions** are there. If qustions says that we need both **2-address instructions and 1-address instructions** supported then this **case** is not possible. 
+
+> It should have **atleast one** instruction supported to support the **2-address instructions**.
+
+![image](https://user-images.githubusercontent.com/54589605/224047831-512c4ae1-d8f2-4080-8009-a9af3dc8c675.png)
+
+
+> Here, we have used all opcode for **2-address instructions**, so we cannot use any opcode for **1-address instruction**, which means that there is no **1-address instructions**. Hence, **1-address instructions** is not supported.
+
+![image](https://user-images.githubusercontent.com/54589605/224048908-45628432-2c48-4cbb-9c51-beed59731a2a.png)
+
+> If we have **2 bits address** and **6 bits instruction**. Then,
+
+* Maximum **2-address instructions** we can have?
+
+> 3. Not more than that. If we make **4** then **1-address instructions** won't be supported.
+
+
+* Minimum **2-address instructions** we can have?
+
+> 1. Not less than that. If we make **0** then **2-address instructions** won't be supported.
+
+> **2-address instructions** can vary from **1 to 3**.
+
+![image](https://user-images.githubusercontent.com/54589605/224052836-309d2284-da3d-4e9d-bc66-caaded058ddc.png)
+![image](https://user-images.githubusercontent.com/54589605/224055429-3945adb7-c697-463c-90b0-148c49070b34.png)
+
+
+
+
+
+
+# Quizes
+
+## Quiz-1
+
+* Link -> https://unacademy.com/quiz/quiz-i/PPCBB9935H/solutions/SP_AAF34WLKY4HP0N2MV
+
+![Quiz_1](https://user-images.githubusercontent.com/54589605/223939357-b43aeca8-d6c8-4cf3-a3fd-18f0636e1029.jpeg)
+
+
 # PYQs
 
 ## Micro-operation PYQs
