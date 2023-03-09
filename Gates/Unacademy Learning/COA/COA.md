@@ -1228,7 +1228,7 @@ operation needs more **3 operands**, it will be broken down into multiple instru
 
 ![image](https://user-images.githubusercontent.com/54589605/223946515-486ec06c-40bc-430d-9c36-d6618edb8c6e.png)
 
-* **Total Internal Fragmentation** -> 20bits * 100 total instructions -> 200 bits -> 250 bytes
+* **Total Internal Fragmentation** -> 20bits * 100 total instructions -> 2000 bits -> 250 bytes
 * 20 bits per instructions
 * There are 100 total instructions
 
