@@ -1412,7 +1412,9 @@ operation needs more **3 operands**, it will be broken down into multiple instru
 ![image](https://user-images.githubusercontent.com/54589605/224055429-3945adb7-c697-463c-90b0-148c49070b34.png)
 
 
-
+![Instructions_4](https://user-images.githubusercontent.com/54589605/224235345-be07aacb-36fe-4028-a8b4-c1307e60b68d.jpeg)
+![Instructions_5](https://user-images.githubusercontent.com/54589605/224235350-35389ad1-82ed-4747-aa1f-fb04f8971134.jpeg)
+![Instructions_6](https://user-images.githubusercontent.com/54589605/224235353-1f8a3541-53e1-4fd7-a120-39248264b69f.jpeg)
 
 
 
