@@ -1416,6 +1416,88 @@ operation needs more **3 operands**, it will be broken down into multiple instru
 ![Instructions_5](https://user-images.githubusercontent.com/54589605/224235350-35389ad1-82ed-4747-aa1f-fb04f8971134.jpeg)
 ![Instructions_6](https://user-images.githubusercontent.com/54589605/224235353-1f8a3541-53e1-4fd7-a120-39248264b69f.jpeg)
 
+## Instruction: Part II (7) [10th March 2023]
+
+![image](https://user-images.githubusercontent.com/54589605/224335986-2c929c38-617e-4e0f-88d3-e334af6573ca.png)
+![image](https://user-images.githubusercontent.com/54589605/224337300-1b44e86b-9637-4092-b025-4b2f00bdfe55.png)
+![image](https://user-images.githubusercontent.com/54589605/224337372-10dd2c9e-b01c-4877-b41d-e549ff456c35.png)
+![image](https://user-images.githubusercontent.com/54589605/224338040-6233ced5-875f-40b6-8e77-7fde31fdd8e9.png)
+![image](https://user-images.githubusercontent.com/54589605/224339214-daf369e2-5084-4f02-8614-47e5bc4e12d3.png)
+
+* If it was mentioned in the question that **512** 2-address instructions, then how many **1-address instructions**? [Above]
+
+![image](https://user-images.githubusercontent.com/54589605/224340950-4fb79f96-ab67-440f-8e96-a1ea4a8e9b79.png)
+
+* **4096** is **exactly** 1-address instructions.
+
+![image](https://user-images.githubusercontent.com/54589605/224341585-fc7d8d56-9b17-41aa-92fc-7598faca9212.png)
+
+* Yes
+
+![image](https://user-images.githubusercontent.com/54589605/224341312-d1c528fb-0472-46b3-a9f1-676c229de390.png)
+![image](https://user-images.githubusercontent.com/54589605/224341662-5320976a-1d3b-430b-b4ea-48d5c86a9ef0.png)
+
+* Yes. exactly.
+
+![image](https://user-images.githubusercontent.com/54589605/224343003-69576f38-8df7-4846-8309-5f3794ecd281.png)
+
+## Variable length instruction
+
+* Opcode size is **fixed** in variable length instruction. Then, we will calculate total how many no. of instruction are supported of every type.
+
+> For each type of instruction, the opcode length will not vary, it will be fixed(5 bits here). For each type of instruction, calculate total no. of instructions and based on that, calculate opcode bits.
+
+![image](https://user-images.githubusercontent.com/54589605/224350378-044a91f2-92bd-42cf-8c18-f0aafa743bd5.png)
+![image](https://user-images.githubusercontent.com/54589605/224352006-a43b66fa-28c7-41a7-8464-05afb6b1c79d.png)
+![image](https://user-images.githubusercontent.com/54589605/224352440-5e651d54-fb73-40d2-87a2-0aeb0fbffea4.png)
+![image](https://user-images.githubusercontent.com/54589605/224352528-c94b0bde-65f1-4288-a481-a02f9a4bca91.png)
+![image](https://user-images.githubusercontent.com/54589605/224353132-800aff40-5cb4-497a-abfa-5f0ecc40f7a5.png)
+
+* If that is the case then the length of instruction is **variable**, then it is a known fact that **length of opcode is fixed** for all instructions.
+
+## Compiler
+
+![image](https://user-images.githubusercontent.com/54589605/224354404-9668c566-4e76-4ed3-b982-56e9ca6ec633.png)
+![image](https://user-images.githubusercontent.com/54589605/224354434-4dec1490-2a2c-4152-95d6-d6c0adc9ee0a.png)
+
+> Compiler generates the **instructions**. It converts the code(c-program) to low level language which is understood by the cpu.
+
+![image](https://user-images.githubusercontent.com/54589605/224354741-e2d50955-9c66-4d30-9f8b-f7e9a366aeae.png)
+![image](https://user-images.githubusercontent.com/54589605/224355075-43f0d75c-c97a-488b-95a3-07a31da3d03c.png)
+
+> Same code(C = a +b), but these **instructions(below)**, the compiler generates, based on whatever type of instruction these **architecture(below)** is supporting and cpu is understanding. Based on that the compiler will generate the instructions.
+
+![image](https://user-images.githubusercontent.com/54589605/224355385-65e308ec-bf3e-4feb-92a8-fcaa135c019a.png)
+
+* instructions
+
+![image](https://user-images.githubusercontent.com/54589605/224355898-02da74ac-a8fb-44fc-9b74-7d5bde77f89b.png)
+
+* Architectures
+
+![image](https://user-images.githubusercontent.com/54589605/224356767-708b9046-c9dd-48ef-800e-9a243c6f7e7c.png)
+![image](https://user-images.githubusercontent.com/54589605/224356801-a3e569d9-8c42-4ba3-aa95-b5af4aeb2fe2.png)
+![image](https://user-images.githubusercontent.com/54589605/224359814-857e7efc-3ddd-4555-ab00-ecc571e42d4f.png)
+![image](https://user-images.githubusercontent.com/54589605/224359839-1a823bf3-f0b4-4ae2-8fef-274182ddcae3.png)
+![image](https://user-images.githubusercontent.com/54589605/224363073-3ca6bd3a-5ed9-4f54-b60a-9a2ffe71b474.png)
+![image](https://user-images.githubusercontent.com/54589605/224363136-8ef5316d-0787-4a17-b515-865758ec5169.png)
+
+## Register Spill
+
+> If there are not enough no. of registers, then for temporary basis, register memory is kept in main memory.
+
+![image](https://user-images.githubusercontent.com/54589605/224365405-12716e8d-aadd-4e22-b456-da2b8ef23397.png)
+![image](https://user-images.githubusercontent.com/54589605/224364520-0cab4a9a-2aac-4fcd-ae79-4c5c575eb409.png)
+
+* Register spill, highlighted with green.
+
+![image](https://user-images.githubusercontent.com/54589605/224365540-1088acec-eb3d-439b-9ef8-10da8e5ed4cf.png)
+
+> Here, if we have **3** registers then we can do the operations without any **register spill**.
+
+![image](https://user-images.githubusercontent.com/54589605/224370714-de1c9e47-72b7-4972-bdc2-2ad869b6f46b.png)
+
+
 
 
 # Quizes
