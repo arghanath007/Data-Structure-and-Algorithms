@@ -1824,7 +1824,15 @@ y= M(0,3)
 * Don't care is like this only. If it is helpful then use it. If it is not helpful then don't use it.
 
 ![image](https://user-images.githubusercontent.com/54589605/223542936-8cbd7679-96d3-47af-99c4-0ae92f16014e.png)
+
+### Priority of grouping
+
+> We need to go for **more no. of cells** when grouping.
+
+* 16 -> 8 -> 4 -> 2 [All cell numbers/count]
+
 ![image](https://user-images.githubusercontent.com/54589605/223543083-10976be9-3e23-4162-a7f0-72f8be4c6917.png)
+
 
 ### Valid Sub Cube
 
@@ -1934,12 +1942,72 @@ y= M(0,3)
 ![image](https://user-images.githubusercontent.com/54589605/223549403-f840c227-bfbc-4267-bfac-ef5f080cac6a.png)
 
 
+## K-Map (16) [10th March 2023]
+
+* Every minterm must be grouped **atleast once**. [**IMPORTANT**]
+
+![image](https://user-images.githubusercontent.com/54589605/224259820-242c8c11-a864-44bd-ae96-7839a62c3107.png)
 
 
+![image](https://user-images.githubusercontent.com/54589605/224255342-b21f2638-4898-4576-aa44-7e55ed757b22.png)
+![image](https://user-images.githubusercontent.com/54589605/224257847-ef9bb807-938e-42ae-9e4e-5e5bf250f267.png)
+
+* Moving from **left to right**. Then, **A** is constant and **B** is changing. Hence **A'** is the answer.
+
+> Remove the **changing(B) character**. Keep the constant(**A**) here.
+
+![image](https://user-images.githubusercontent.com/54589605/224258840-b3b2f8fc-fac6-4c84-8dc1-7fba3726c50f.png)
+![image](https://user-images.githubusercontent.com/54589605/224259083-419ece2b-679c-4906-810f-1054cee7a5d3.png)
+
+* Moving from **top to bottom**. Then, **A** is changing and **B** is constant. Hence **B'** is the answer.
 
 
+![image](https://user-images.githubusercontent.com/54589605/224259909-13914114-9f2c-4430-9849-db5af4d66e9d.png)
+![image](https://user-images.githubusercontent.com/54589605/224260082-41a34dea-d4a4-4fa6-b25b-7e4a271227aa.png)
+![image](https://user-images.githubusercontent.com/54589605/224260578-7cd1f5de-6772-42f0-8bae-a6c31ac977dd.png)
+![image](https://user-images.githubusercontent.com/54589605/224260990-96412051-20cc-4a1f-9564-bf3c291d605c.png)
 
+* We are doing SOP or minterms. Hence **A'** is a separate minterm and **B'** is another separate minterm. Hence the answer will be **A' + B'** and not **A'B'**.
 
+![image](https://user-images.githubusercontent.com/54589605/224261547-93708a6e-040f-429f-b052-d529b1744fd3.png)
+![image](https://user-images.githubusercontent.com/54589605/224261578-6498465e-8bae-4122-98cd-cd1389182d11.png)
+![image](https://user-images.githubusercontent.com/54589605/224262047-9e7eb9b1-f919-4838-8d02-c9cd58cd7d39.png)
+
+* **A** changes in first image or from **left to right**.
+* **B** changes in second image or from **right to left**.
+
+> We need to remove the changing variables. As both the variables are changing, hence answer is **1**.
+
+![image](https://user-images.githubusercontent.com/54589605/224262386-62495027-99ad-4825-a5b8-ad42bc74d223.png)
+![image](https://user-images.githubusercontent.com/54589605/224262648-9f763c43-f45e-4519-9f11-36b2712aacad.png)
+![image](https://user-images.githubusercontent.com/54589605/224263238-e56bf787-e405-4db5-938d-310f2501fc82.png)
+![image](https://user-images.githubusercontent.com/54589605/224264050-bb246545-a0d9-422f-af88-cbf2a957da33.png)
+
+* For SOP, we get **AB'** because it is **one minterm only** and **not two separate minterms**.
+* We got the same answers as well.
+* Here, we converted the **POS -> maxterm** form on the left to the **SOP -> minterms** form on the right. It is confusing to do both. Hence convert them into one form and remember that one form only.
+
+![image](https://user-images.githubusercontent.com/54589605/224264949-c3338d16-92c1-44ba-b055-a2a502b5df7e.png)
+
+* Product of all Maxterms -> 0
+* Sum of all minterms -> 1
+
+![image](https://user-images.githubusercontent.com/54589605/224266402-93eb70b5-e1e4-46d7-a833-74221521cca4.png)
+![image](https://user-images.githubusercontent.com/54589605/224267149-4eea6a7a-6983-47e8-bbc3-c292aa2010cc.png)
+![image](https://user-images.githubusercontent.com/54589605/224270371-bc33d365-8305-43c3-9778-044312eefcc2.png)
+![image](https://user-images.githubusercontent.com/54589605/224272462-f97aea32-41ab-4c7d-b2db-e545223e5260.png)
+![image](https://user-images.githubusercontent.com/54589605/224272520-d86f72b5-29e2-4fbe-b1ce-a602b4e9058c.png)
+![image](https://user-images.githubusercontent.com/54589605/224272584-0de35308-a7ce-4885-b9b9-f9e033127cc9.png)
+![image](https://user-images.githubusercontent.com/54589605/224272618-460b7014-f737-4332-96c7-991c06c4cc8a.png)
+![image](https://user-images.githubusercontent.com/54589605/224272654-334d3fbf-f00d-452c-90ab-1587d82acfa8.png)
+![image](https://user-images.githubusercontent.com/54589605/224272809-bf7b4e29-ff06-4a29-b61b-c752f42bdd08.png)
+![image](https://user-images.githubusercontent.com/54589605/224274746-c8110d69-2fec-4a8b-ac4e-442ed5cd3dea.png)
+![image](https://user-images.githubusercontent.com/54589605/224275024-661180fe-5b15-4b86-aa82-5aa0c5183ebe.png)
+![image](https://user-images.githubusercontent.com/54589605/224275114-bd0aa508-c759-49e6-9dd6-22e8e5d72aca.png)
+![image](https://user-images.githubusercontent.com/54589605/224275267-b111f417-362c-4307-91ee-0aa4c69746c6.png)
+
+* K-map means most minimized form.
+* **A'B'** group is called as redundant group. That group is not required. Remove them.
 
 
 
