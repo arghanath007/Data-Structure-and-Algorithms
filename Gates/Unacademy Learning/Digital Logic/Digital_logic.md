@@ -2282,6 +2282,10 @@ y= M(0,3)
 ![image](https://user-images.githubusercontent.com/54589605/222908123-bab7631d-7b1a-4253-b2a3-e4ca98e3940d.png)
 
 
+## Quiz-3
+
+* Link -> https://unacademy.com/quiz/quiz-iii/CXYPV272GG/solutions/SP_PUXNX0XD1XLJZO351
+
 
 
 
