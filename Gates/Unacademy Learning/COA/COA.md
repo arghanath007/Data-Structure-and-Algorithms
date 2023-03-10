@@ -1365,11 +1365,11 @@ operation needs more **3 operands**, it will be broken down into multiple instru
 ![image](https://user-images.githubusercontent.com/54589605/224039264-fc64e2bd-0124-466c-b3fc-0bb3f098087c.png)
 ![image](https://user-images.githubusercontent.com/54589605/224039337-d7680d3a-edc8-4dc6-b632-73f8b040e919.png)
 
-* Previous level -> Start with minimum opcode bits, max. opcode combinations will be **2^2 -> 4**. From the question we know **3** opcodes are used. Hence **1** opcode is not **used**. Go to the next level.
+* **Previous level** -> Start with minimum opcode bits, max. opcode combinations will be **2^2 -> 4**. From the question we know **3** opcodes are used. Hence **1** opcode is not **used**. Go to the **next level**.
 
 ![image](https://user-images.githubusercontent.com/54589605/224039987-3f712f98-5642-4e72-91d7-9a40efabecc3.png)
 
-* Next level -> After this, complete opcode(4 bits) will be divided into **two** parts. From left side, first starting part, previous level opcode bits(2 here). First part will have previous level opcode bits and these two bits are fixed. If total bits is **4**, then **2 bits** are used in the first part then the 2nd part will be **4-2 -> 2** bits. Now, with these **1** combination, which is the count of **unused combinations** from previous level, we will make  binary combination of the remaining two bits. This is how we will get the **max no. of 1-address instructions**.  
+* **Next level** -> After this, complete opcode(4 bits) will be divided into **two** parts. From left side, first starting part, previous level opcode bits(2 here) are taken. The count of the previous level bits are taken into the **starting/first** part. First part will have previous level opcode bits and these two bits are fixed. If total bits is **4**, then **2 bits** are used in the first part as they are coming from the previous level and  then the 2nd part will be **4-2 -> 2** bits. Now, with these **1** combination, which is the count of **unused combinations** from previous level, we will make  binary combination of the remaining two bits. This is how we will get the **max no. of 1-address instructions**.  
 
 * How many opcode bits in previous level or  in **2-address instruction**?
 
