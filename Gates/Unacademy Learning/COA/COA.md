@@ -1498,6 +1498,8 @@ operation needs more **3 operands**, it will be broken down into multiple instru
 ![image](https://user-images.githubusercontent.com/54589605/224370714-de1c9e47-72b7-4972-bdc2-2ad869b6f46b.png)
 
 
+* Add the yesterday's numerical photos from the copy. Both for digial and COA.
+
 
 
 # Quizes
