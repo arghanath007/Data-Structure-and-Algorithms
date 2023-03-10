@@ -2009,6 +2009,120 @@ y= M(0,3)
 * K-map means most minimized form.
 * **A'B'** group is called as redundant group. That group is not required. Remove them.
 
+![image](https://user-images.githubusercontent.com/54589605/224311626-74707751-3316-42ee-bda5-05a994f0c65b.png)
+![image](https://user-images.githubusercontent.com/54589605/224311930-f76b1f09-e9b6-420d-9689-881fd68456ac.png)
+
+* Yes. Atleast one minterm should be alone.    
+
+![image](https://user-images.githubusercontent.com/54589605/224312679-eff3081b-02c7-4a8b-884f-0768854e4ec7.png)
+![image](https://user-images.githubusercontent.com/54589605/224313450-60f77a1d-555b-46ec-9aab-e95111374e28.png)
+![image](https://user-images.githubusercontent.com/54589605/224314080-a5a2e350-d503-4d7f-a33b-e70b7dfb3faa.png)
+![image](https://user-images.githubusercontent.com/54589605/224314846-db262f4b-16f0-4da7-bdcb-ff93bb257d38.png)
+![image](https://user-images.githubusercontent.com/54589605/224315477-dfd69b89-983e-49c2-b823-f92ab9b850c3.png)
+![image](https://user-images.githubusercontent.com/54589605/224315890-370c5f6a-c80d-430b-8f70-108d9e0572c5.png)
+![image](https://user-images.githubusercontent.com/54589605/224317027-176d615f-a918-45e1-b0a3-64ccbdf10f03.png)
+![image](https://user-images.githubusercontent.com/54589605/224316752-5bfee695-83e5-451e-9e57-664fc1b84ee4.png)
+![image](https://user-images.githubusercontent.com/54589605/224317853-ee59c5d0-44c7-442d-865b-c65394a5fdf2.png)
+![image](https://user-images.githubusercontent.com/54589605/224318203-18e5134d-d15a-41bf-8c2a-e0afe234b43f.png)
+![image](https://user-images.githubusercontent.com/54589605/224318349-c83a812c-5479-4653-ae58-eb29dc0e3118.png)
+![image](https://user-images.githubusercontent.com/54589605/224318560-ed4cc20e-036a-4141-9ba3-9c96bb06a154.png)
+
+> There are **4** variables, hence 'n' is **4**. As we have combined **8 or 2^3** cells, hence **m=3** and **3** variables are eliminated. The resultant term contains **4-3 = 1** variables or **n-m** or **total - eleminated** variables.
+
+![image](https://user-images.githubusercontent.com/54589605/224319001-d17f131c-5c3e-4909-a2df-7e074c427c2a.png)
+
+* No. of variables(n) -> 4
+* Cells combined -> 8 -> 2^3 -> 2^m -> **m=3**.
+
+![image](https://user-images.githubusercontent.com/54589605/224319477-b5369454-834d-4407-aa65-63b84b02731b.png)
+
+> There are **4** variables, hence 'n' is **4**. As we have combined **8 or 2^3** cells, hence **m=3** and **3** variables are eliminated. The resultant term contains **4-3 = 1** variables or **n-m** or **total - eleminated** variables.
+
+* No. of variables(n) -> 4
+* Cells combined -> 8 -> 2^3 -> 2^m -> **m=3**.
+
+![image](https://user-images.githubusercontent.com/54589605/224319646-baa00b31-b9ff-4f27-8ccd-02169a094418.png)
+![image](https://user-images.githubusercontent.com/54589605/224319690-7cae24ba-b95b-41aa-8e14-0f2e79ba0b1b.png)
+
+* For the **Blue highlighted box**.
+
+> There are **4** variables, hence 'n' is **4**. As we have combined **4 or 2^2** cells, hence **m=2** and **2** variables are eliminated. The resultant term contains **4-2 = 2** variables or **n-m** or **total - eleminated** variables.
+
+* No. of variables(n) -> 4
+* Cells combined -> 4 -> 2^2 -> 2^m -> **m=2**.
+* Left out -> 4-2 or n-m -> 2.
+
+![image](https://user-images.githubusercontent.com/54589605/224320027-7400792e-acf9-405a-950f-7475c6642e35.png)
+
+![image](https://user-images.githubusercontent.com/54589605/224320084-3e748c0b-1a39-4a58-abe9-05d7f59ae10b.png)
+![image](https://user-images.githubusercontent.com/54589605/224320266-a3c63466-8726-467a-b072-b0ef919da16d.png)
+
+* For the **Green highlighted box**.
+
+> There are **3** variables, hence 'n' is **3**. As we have combined **2 or 2^1** cells, hence **m=1** and **1** variables is eliminated. The resultant term contains **3-1 = 2** variables or **n-m** or **total - eleminated** variables.
+
+* No. of variables(n) -> 3
+* Cells combined -> 2 -> 2^1 -> 2^m -> **m=1**.
+* Left out -> 3-1 or n-m -> 2.
+
+### Note
+
+![image](https://user-images.githubusercontent.com/54589605/224320701-5b201390-5574-4f20-9970-7f7ae3dd1be9.png)
+
+
+![image](https://user-images.githubusercontent.com/54589605/224322210-7bb05885-541c-4837-a0e8-30f8a06f30d8.png)
+![image](https://user-images.githubusercontent.com/54589605/224322380-a35c6bbd-5a05-4083-82f2-52223660b806.png)
+
+* The minterms are only in diagonal form like below. We will either get **X-OR** or **X-NOR**. 
+
+![image](https://user-images.githubusercontent.com/54589605/224323392-8c9441a1-0844-49f2-8bc5-aa2f6b2c9ab6.png)
+![image](https://user-images.githubusercontent.com/54589605/224324273-99c86833-6de1-435b-a193-6bd39a3b2f45.png)
+![image](https://user-images.githubusercontent.com/54589605/224324555-13c08464-911e-49c9-a3fc-22dc7521863c.png)
+
+* For **Ex-OR**, the starting minterm is **1**. So if we see, **1** as a minterm in the question, then that is **Ex-OR**. 
+* For **Ex-NOR**, the starting minterm is **0**. So if we see, **0** as a minterm in the question, then that is **Ex-NOR**. 
+
+* Diagonals for **3 variables**.
+
+![image](https://user-images.githubusercontent.com/54589605/224325124-1a71d84b-9b2d-4dca-b5f8-c87b1f3c618b.png)
+
+* Diagonals for **4 variables**.
+
+![image](https://user-images.githubusercontent.com/54589605/224325426-602391b8-9c06-4468-9db0-764d29720b47.png)
+
+* We have **two types of diagonal**
+
+1) Principle diagonal -> **X-NOR**.
+2) HOD diagonal -> **XOR**.
+
+![image](https://user-images.githubusercontent.com/54589605/224325817-415346f1-39be-4028-b676-47229ddfd8be.png)
+![image](https://user-images.githubusercontent.com/54589605/224326601-920d5baa-0091-4225-9845-2efbc01fe33a.png)
+![image](https://user-images.githubusercontent.com/54589605/224326651-83f67861-63b6-44b0-a21e-6cd63d8796fd.png)
+
+* Principle diagonal, above
+
+![image](https://user-images.githubusercontent.com/54589605/224325964-e85d57d9-246d-4da5-a430-40ea51aa08f2.png)
+![image](https://user-images.githubusercontent.com/54589605/224326563-adf16997-d52c-4dbd-aacd-c4d9b8904af0.png)
+![image](https://user-images.githubusercontent.com/54589605/224326685-ca4053d1-fa23-4d8d-8e72-91178cd17fe8.png)
+
+* HOD diagonal, above
+
+> We will contact **HOD** first, then **principle**.
+![image](https://user-images.githubusercontent.com/54589605/224326461-a0390315-f4e2-4aa5-9bb1-ad4f227b6aac.png)
+
+* #principle_diagonal -> **XNOR**.
+* #hod_diagonal -> **XOR**.
+
+![image](https://user-images.githubusercontent.com/54589605/224326994-232dc9bf-4749-4423-8418-e1c5987dafc6.png)
+![image](https://user-images.githubusercontent.com/54589605/224327072-a2d6fe78-a730-4b5f-aa01-5c00133d404f.png)
+
+
+
+
+
+
+
+
 
 
 
