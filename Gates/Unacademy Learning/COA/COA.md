@@ -1509,6 +1509,91 @@ operation needs more **3 operands**, it will be broken down into multiple instru
 ![Instructions_12](https://user-images.githubusercontent.com/54589605/224470920-beb7a24b-3c11-4f66-843e-2860492ed5ac.jpeg)
 
 
+## Doubts and Practice (8) [11th March 2023]
+
+> Discussed **Quiz -1** questions.
+
+### Solutions of **Quiz -1**
+
+![image](https://user-images.githubusercontent.com/54589605/224471116-a8f259b5-577b-44aa-8fd9-2b893d19edb3.png)
+
+> Other registers are not directly connected. Data Register or DR is directly connected to memory.
+
+![image](https://user-images.githubusercontent.com/54589605/224471466-258d52ff-f2d3-44ee-a463-64bd410fd732.png)
+![image](https://user-images.githubusercontent.com/54589605/224471589-88329791-15e3-4e1a-8a4c-037874ce0d63.png)
+
+> In Q3, is it mandatory that the last byte also should have all **8** bits utilized? **NO, we have seen it**.
+> **Maximum**, we can use all 8 bits, even if the instruction size is not 40 bits and 39 bits also, then also it will be stored in 5 bytes.
+> **Minimum** possible instruction length in this scenario is **33 bits**.
+
+![image](https://user-images.githubusercontent.com/54589605/224471739-8baca73f-1a69-4b03-abea-376246254139.png)
+![image](https://user-images.githubusercontent.com/54589605/224471959-99abf278-a4d1-4798-8473-63ab74904316.png)
+
+### Practice Questions
+
+![image](https://user-images.githubusercontent.com/54589605/224472347-0c2bd818-62ad-42b7-b54e-78e366f54256.png)
+
+> Here, we can use all combination of **2^16**, **YES**, as there is only one type of instruction supported which is **3-address instruction**. 
+> But if any other type of instruciton is also supoorted like **2-address instruction**, then we would not be able to use max. of all **2^16** instructions. We would be able to use **2^16 - 1** instructions. We have to leave **atleast one(1)** instruction **unused**. For only one **3-address instruction** that why answer is **2^16**.
+
+![image](https://user-images.githubusercontent.com/54589605/224472291-869254f4-48a3-47fe-875c-748344e7af91.png)
+![image](https://user-images.githubusercontent.com/54589605/224473151-3afc8435-dac0-4d6e-9e79-bbc665630b3f.png)
+![image](https://user-images.githubusercontent.com/54589605/224473259-4474a2fe-fcb9-4fa1-bbe8-6396dd66dcc5.png)
+![image](https://user-images.githubusercontent.com/54589605/224473720-4c8e8ee0-0fee-4117-b42f-e07a5e206adc.png)
+![image](https://user-images.githubusercontent.com/54589605/224474112-bc7227af-c2ff-4d25-976f-0f5d02d5a1aa.png)
+![image](https://user-images.githubusercontent.com/54589605/224474473-0d1a5434-0f03-4fc5-a0e6-46087b29e8de.png)
+
+![image](https://user-images.githubusercontent.com/54589605/224474506-e1666681-f0d0-4b79-b5b9-8f2f9c15a656.png)
+![image](https://user-images.githubusercontent.com/54589605/224474642-58a2e1d4-3b88-4c1e-8a27-08c815d7856c.png)
+
+* Memory is word addressable. In all addresses, we can store **one word**. 1 word size is 32 bits. In bytes because the questions wants the answer in **bytes**.
+* 32 bits -> 4 bytes
+
+![image](https://user-images.githubusercontent.com/54589605/224479726-2ab4b52a-bbbc-4094-ace0-36ee9c958ad9.png)
+![image](https://user-images.githubusercontent.com/54589605/224480289-1433db1d-4c22-48a6-bf6c-cc4127657d67.png)
+
+* If it is the last instruction then put the max of that instruction as **equal or equal to**. As, **0-address** was the last one, we simply put **65536** equals to or equal to the equation.
+* Otherwise, simply **substract** it. As after **1-address** there was **0-address** as well that why we need **((64-x)* 2^13) - 16376**. 
+
+![image](https://user-images.githubusercontent.com/54589605/224480792-7deb7651-65e9-4069-a6b0-cc66ba82eeca.png)
+![image](https://user-images.githubusercontent.com/54589605/224481316-090e6189-847b-4601-84f2-3023b92bc00d.png)
+![image](https://user-images.githubusercontent.com/54589605/224481504-d75300d9-1c03-491d-a7ff-042f0af1e235.png)
+![image](https://user-images.githubusercontent.com/54589605/224482176-7188e5d5-50fd-4839-82c5-a640a512533f.png)
+![image](https://user-images.githubusercontent.com/54589605/224482600-14565e0c-a8ad-40fd-a406-3b60e3771d5f.png)
+![image](https://user-images.githubusercontent.com/54589605/224482978-4fb9a891-78d2-4b87-9126-01cb4775ec0d.png)
+![image](https://user-images.githubusercontent.com/54589605/224482960-09d64f64-ba48-48ce-b18b-3b4fd3ec051a.png)
+
+[**IMPORTANT**]
+
+![image](https://user-images.githubusercontent.com/54589605/224483680-90b63bcf-8b70-46ca-b985-08fa08c1d166.png)
+
+
+> If there are **x 2-address instructions** then, **b=1** or minimum 1-address instructions is **1**.
+> Now, we want **maximum possible 1-address instructions**, then we would want **maximum** opcode result for **1-address instructions**, so we take **minimum used combination** from **2-address instructions**. If we take **minimum opcode** from **2-address instructions more unused will go to the next level** i.e **1-address instructions**.
+
+![image](https://user-images.githubusercontent.com/54589605/224483315-6b97c8e8-d9ff-4f02-9eaf-b20d78dab6e7.png)
+![image](https://user-images.githubusercontent.com/54589605/224484675-8401fbf8-f5b3-464a-860a-3edac80aa06c.png)
+![image](https://user-images.githubusercontent.com/54589605/224484687-c8bd1cd9-717d-4137-a3c5-ac17abda1cb1.png)
+![image](https://user-images.githubusercontent.com/54589605/224484693-07a65c17-b61e-48f1-aba9-6794899ceac4.png)
+![image](https://user-images.githubusercontent.com/54589605/224484704-28399375-a032-4e65-a436-75b54d5d5729.png)
+![image](https://user-images.githubusercontent.com/54589605/224484711-423dd7cd-84e4-45dc-ae4d-1258fa1e979e.png)
+![image](https://user-images.githubusercontent.com/54589605/224484722-13c9914e-bc76-4e77-9256-37a8a413ca01.png)
+![image](https://user-images.githubusercontent.com/54589605/224484733-554ae6f3-727c-4852-8e5a-62c26ba480a9.png)
+![image](https://user-images.githubusercontent.com/54589605/224484741-4f579894-63db-4124-b6c2-65e78b17a143.png)
+![image](https://user-images.githubusercontent.com/54589605/224484746-a86d0b2a-bacb-48c5-9048-ee7dc137590d.png)
+![image](https://user-images.githubusercontent.com/54589605/224484751-8c6019d8-c071-4281-ad1f-ebcf2dcfaf3f.png)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
