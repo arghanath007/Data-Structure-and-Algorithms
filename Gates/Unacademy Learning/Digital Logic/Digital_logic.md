@@ -2092,8 +2092,8 @@ y= M(0,3)
 
 * We have **two types of diagonal**
 
-1) Principle diagonal -> **X-NOR**.
-2) HOD diagonal -> **XOR**.
+1) Principle diagonal -> **X-NOR** -> **0**.
+2) HOD diagonal -> **XOR** -> **1**.
 
 ![image](https://user-images.githubusercontent.com/54589605/224325817-415346f1-39be-4028-b676-47229ddfd8be.png)
 ![image](https://user-images.githubusercontent.com/54589605/224326601-920d5baa-0091-4225-9845-2efbc01fe33a.png)
@@ -2125,6 +2125,176 @@ y= M(0,3)
 ![Kmap_6](https://user-images.githubusercontent.com/54589605/224485419-c81902f2-eccc-4b0d-8f4d-00f66dcdfa80.jpeg)
 ![Kmap_7](https://user-images.githubusercontent.com/54589605/224485420-4a15813b-7899-4c3c-ab32-7e3fe15cbafb.jpeg)
 ![Kmap_8](https://user-images.githubusercontent.com/54589605/224485421-4298a1cd-b017-4636-84fe-c8522b88558f.jpeg)
+
+## Doubt_Session (170 [11th March 2023]
+
+![image](https://user-images.githubusercontent.com/54589605/224486506-d9f52ccb-cf14-4909-ab8e-4dd2c2bddbdc.png)
+![image](https://user-images.githubusercontent.com/54589605/224486737-e2668da3-f4e5-4b68-ab02-871b94cff224.png)
+
+> In the above questions, whenever for particular inputs we cannot proceed, then we will treat them as **don't care** conditions.
+
+![image](https://user-images.githubusercontent.com/54589605/224486967-9eb6f389-5d65-48db-8b12-b539059cd72c.png)
+![image](https://user-images.githubusercontent.com/54589605/224486984-96b5550c-1948-4fbe-8400-29f9681bd028.png)
+
+* Yes. 
+
+> We have to reduce the no. of literals.
+
+![image](https://user-images.githubusercontent.com/54589605/224487682-09f3d0ad-79e3-4d52-9aac-1d4e81fddce0.png)
+![image](https://user-images.githubusercontent.com/54589605/224487861-5f477659-c4b4-498e-8140-5b93fedc1518.png)
+![image](https://user-images.githubusercontent.com/54589605/224487904-282908da-c6c6-45cd-8fb5-c14b7abc3c29.png)
+
+> Whichever used the **least or less** no. of literals is the answer.
+
+![image](https://user-images.githubusercontent.com/54589605/224487974-2583513a-5825-4110-8683-2b754ba5e9ff.png)
+![image](https://user-images.githubusercontent.com/54589605/224487988-22cf2981-55d2-4e74-ac85-eee3cdf0ea2c.png)
+![image](https://user-images.githubusercontent.com/54589605/224488043-126b8efb-df2d-49ad-94e5-77b18c3da880.png)
+
+> The minimized expression we got may not be **unique**. More than **1** also possible.
+> Sometimes maybe unique, not always.
+
+![image](https://user-images.githubusercontent.com/54589605/224488108-7cc79768-884d-4bae-aa69-47c5119c2661.png)
+
+> **Don't cares** need not to be grouped. No condition for grouping of the **Don't cares** but every minterm must be **grouped**.   
+
+![image](https://user-images.githubusercontent.com/54589605/224488374-ccdf857e-a178-4690-949a-ade375373a19.png)
+
+> We are getting confused which to be considered and which not to be considered. To avoid these condition, we are going to the **advanced concept of K-map**. Systamic approach to find minimized expression.
+
+## Implicant, prime implicant, Essential Prime implicant
+
+![image](https://user-images.githubusercontent.com/54589605/224488551-62f04b98-89f0-4ca5-acd0-0847031af21a.png)
+![image](https://user-images.githubusercontent.com/54589605/224488959-8f8deb59-a2b0-4b3a-be67-0998862ff2d0.png)
+
+* Optional PIs -> Optional means it depends. It could be 1, 0,2,3. **0** also possible.
+
+![image](https://user-images.githubusercontent.com/54589605/224489178-7c9f17c1-550c-437c-8dfc-faf2f426c9dd.png)
+
+### PI
+
+![image](https://user-images.githubusercontent.com/54589605/224489215-969a6324-2d31-414b-887b-701c31c53fc8.png)
+![image](https://user-images.githubusercontent.com/54589605/224489226-e219b1af-f108-463c-9bed-96399ee38784.png)
+
+* These are the **PIs** simply. All **maximum** possible groupings. **These are the state level selections**. 
+
+> After state level selections, we will go for **national level selection** which is **EPIs**. Then after the **state level selections** only, the **national team is formed**. The fellows who perfomed very well will be selected for the **state level**. The fellows who perfomed very well for the **state level** will be selected or will be sent to **national level**.
+
+* PIs -> The fellows that are selected at the **state level**.
+
+![image](https://user-images.githubusercontent.com/54589605/224489480-d9aee89a-77c4-4b21-b215-6d2655c2bfa9.png)
+
+> Now, we have to see if these **PIs or state level** are selected for the **national level or EPI** or not.
+> We have taken **B'C**, from the **highlighted red part below**, do we have **any minterm** which is **grouped only once**? **YES**, **AB'C** is grouped **twice**. Once with **A'B'C and ABC**. **A'B'C** is grouped only once with **AB'C**. As the fellow(B'C) is **grouped once** hence, the fellow is eligiable for the **nationals**. Selected for the **nationals**.
+
+> We have taken **AC**, do we have **any minterm** which is **grouped only once**? **NO**, **AB'C** is grouped **twice**. Once with **A'B'C and ABC**. **ABC** is grouped twice with **AB'C and ABC'**. As both of them are **grouped twice** hence, the fellow is not eligiable for the **nationals**. Not selected for the **nationals**.
+
+> Same with **AB**, both are **grouped twice**. Hence not eligible/selected.
+> For **BC'**, **A'BC'** is **grouped once only**. Hence eligible/selected
+
+![image](https://user-images.githubusercontent.com/54589605/224489615-d869e375-7a2c-467f-bfcc-83b636f2d978.png)
+![image](https://user-images.githubusercontent.com/54589605/224489860-95206dab-2c67-49f6-af71-a01798954600.png)
+![image](https://user-images.githubusercontent.com/54589605/224490037-2c9f35d2-d3a8-4a13-a95e-bc8415eb93dd.png)
+![image](https://user-images.githubusercontent.com/54589605/224490149-bd6b9116-322c-4319-88f5-dfd769d7281d.png)
+
+> The final minimized expression, it should contain all of the **EPIs** must be there in the final expression..
+
+![image](https://user-images.githubusercontent.com/54589605/224490372-de67da3a-5961-489a-9874-fb2bab202b8f.png)
+
+> Sometimes, **1** is required. Sometimes, **2** is required. Someone **0** or nothing is required.
+> EPIs must be required, between the two **PI**, **AC and AB**. Sometimes, **0** selected is required, maybe **1** is selected. Sometimes **2** selected. It depends upon the problem.
+
+![image](https://user-images.githubusercontent.com/54589605/224490582-b5e18d29-b0c4-4473-9436-9a8c5dc4a6c0.png)
+
+> **B'C** means that that the **red square or blue highlighted** is covered.
+
+![image](https://user-images.githubusercontent.com/54589605/224490625-dc8bf384-8627-4405-8643-1d6a331fbe11.png)
+
+> **BC'** means the **blue square or blue highlighted** is covered.
+
+> Apart from **BC' and B'C**, do we have any **minterms** which is not at all covered.
+
+![image](https://user-images.githubusercontent.com/54589605/224490814-c02cfdcd-4cd7-40bd-97fc-7fc5bb506d80.png)
+![image](https://user-images.githubusercontent.com/54589605/224490821-8417ed1c-099f-42fb-a750-110840bfb07d.png)
+![image](https://user-images.githubusercontent.com/54589605/224490867-a7d5ba45-c5e2-4708-9a47-5e419077eb44.png)
+
+> Here, **AC** is called as **Selective PI**. -> 1 [Count]
+> **AB** is called as **Rejected PI**. ->  [Count]
+
+![image](https://user-images.githubusercontent.com/54589605/224490961-bdb3b08a-172e-4891-b5d1-de4b8890ed7a.png)
+
+> For **PI** case, whatever possible groupings are possible, do all of them. These fellows will be selected for **state level**. There after, we need to see if they are eligible for **national team** or not.
+
+* Condition for **national team** -> That fellow has to be **grouped only once**. Then only that fellow is **eligible**.
+
+![image](https://user-images.githubusercontent.com/54589605/224491257-fa53ff61-fd91-4331-b6b2-69bf75907f37.png)
+
+> For the final expression, all **EPIs** must be present.
+
+### EPI
+
+![image](https://user-images.githubusercontent.com/54589605/224491486-c4d30fca-f96c-4c58-8efd-9b66e5b33123.png)
+![image](https://user-images.githubusercontent.com/54589605/224491504-27e91290-b0b2-4512-84b3-193c4787e0cf.png)
+![image](https://user-images.githubusercontent.com/54589605/224491577-e05ccf3f-0719-42ac-b6dd-1b5217d00f63.png)
+
+
+> If **PIs and EPIs** are **equal** then there is **only one possible expression** possible. More than **1** expression is not possible. Only **unique** expression is possible.
+
+![image](https://user-images.githubusercontent.com/54589605/224491889-dec5e625-c86e-4eb1-bfab-a2249c4a5376.png)
+![image](https://user-images.githubusercontent.com/54589605/224491915-a7e4a57c-5bbf-48d2-ad5b-55fdbcd0decd.png)
+![image](https://user-images.githubusercontent.com/54589605/224491922-7d547a32-d115-4507-979f-b06c6ebf96e9.png)
+
+> Some cases **PIs and EPIs** are **equal**. **EPIs** are equal to **PIs**. **EPIs** can never be greater than **PIs**. First it is an **PIs** then it will only go to **EPIs**.
+
+![image](https://user-images.githubusercontent.com/54589605/224492176-c90988c9-6590-4fb3-85cf-7f088251c90a.png)
+![image](https://user-images.githubusercontent.com/54589605/224492206-69148748-15b5-4504-9730-068cb5965b26.png)
+
+> No need of **optional EPs** 
+
+![image](https://user-images.githubusercontent.com/54589605/224492485-a80d3291-0dfa-4f0c-bab7-0bf224cfc0de.png)
+![image](https://user-images.githubusercontent.com/54589605/224492533-bd6050ae-7b7b-4a57-9325-fd2d782f8347.png)
+![image](https://user-images.githubusercontent.com/54589605/224492763-e1c6f016-c278-4c5a-8838-970267c8e7c8.png)
+![image](https://user-images.githubusercontent.com/54589605/224492793-dbd74740-70df-4a2b-9964-d50e82d1d6cd.png)
+![image](https://user-images.githubusercontent.com/54589605/224492846-30cbb20b-cf1b-4c8e-b0f3-01f9c5c5cc03.png)
+![image](https://user-images.githubusercontent.com/54589605/224492925-292bee2c-4d9d-4377-a21c-9699bf4a71a2.png)
+![image](https://user-images.githubusercontent.com/54589605/224493025-c506c9f2-e549-4648-ae87-fc667154f91f.png)
+![image](https://user-images.githubusercontent.com/54589605/224493249-379014d1-1af0-4113-b87f-332d15766a72.png)
+![image](https://user-images.githubusercontent.com/54589605/224493568-02e533e0-f002-4c79-b51a-e29dcd3ed2d3.png)
+
+## Notes
+
+![image](https://user-images.githubusercontent.com/54589605/224493804-30f2ec2c-e9d6-4ab2-8b51-061e39bde549.png)
+
+> Unique expression, when **EPIs == PIs**, EPIs is equal to PIs.
+
+![image](https://user-images.githubusercontent.com/54589605/224494039-2da2c4bc-5482-4219-9d51-4c4fb1ea8f13.png)
+![image](https://user-images.githubusercontent.com/54589605/224494272-09c5193b-4abd-4a74-8d83-179d8047000d.png)
+![image](https://user-images.githubusercontent.com/54589605/224494522-0e98d31e-bb14-4d93-8a5c-bec0212790ec.png)
+
+> Like this we need to find **PIs and EPIs**.
+
+![image](https://user-images.githubusercontent.com/54589605/224494978-14dfd4ec-c295-4f43-b600-f49af6e75ab3.png)
+![image](https://user-images.githubusercontent.com/54589605/224494983-7ddc548e-e780-49cc-81ee-06a74f22f233.png)
+![image](https://user-images.githubusercontent.com/54589605/224494985-d58d86db-6465-4325-b30c-b144e8ae3d84.png)
+![image](https://user-images.githubusercontent.com/54589605/224494995-c4282305-dc6f-45ed-8826-33c2d29bf39f.png)
+![image](https://user-images.githubusercontent.com/54589605/224495003-8dd2f170-f260-44b3-8fa7-ff64e50a6433.png)
+![image](https://user-images.githubusercontent.com/54589605/224495008-17c8c20d-4cd6-4765-aacf-1c651a5b2a05.png)
+![image](https://user-images.githubusercontent.com/54589605/224495011-b43cfce7-6420-45aa-bf8f-caac70c6c644.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
