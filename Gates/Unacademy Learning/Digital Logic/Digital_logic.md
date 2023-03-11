@@ -2115,9 +2115,16 @@ y= M(0,3)
 
 ![image](https://user-images.githubusercontent.com/54589605/224326994-232dc9bf-4749-4423-8418-e1c5987dafc6.png)
 ![image](https://user-images.githubusercontent.com/54589605/224327072-a2d6fe78-a730-4b5f-aa01-5c00133d404f.png)
+![Kmap_1](https://user-images.githubusercontent.com/54589605/224485407-0e4870be-1243-42ad-911d-5147ab971989.jpeg)
+![Kmap_2](https://user-images.githubusercontent.com/54589605/224485409-9281bfab-8b43-4ca0-a500-35ea8bc7985e.jpeg)
+![Kmap_3](https://user-images.githubusercontent.com/54589605/224485411-c1ee1687-e5b8-4019-bcc2-a5d005436cb5.jpeg)
+![Kmap_4](https://user-images.githubusercontent.com/54589605/224485412-f899ba64-c57c-4c23-8e19-fbd5f07641cd.jpeg)
+![Kmap_5](https://user-images.githubusercontent.com/54589605/224485417-37633053-e51c-4859-8a82-a01dba3d404f.jpeg)
 
 
-
+![Kmap_6](https://user-images.githubusercontent.com/54589605/224485419-c81902f2-eccc-4b0d-8f4d-00f66dcdfa80.jpeg)
+![Kmap_7](https://user-images.githubusercontent.com/54589605/224485420-4a15813b-7899-4c3c-ab32-7e3fe15cbafb.jpeg)
+![Kmap_8](https://user-images.githubusercontent.com/54589605/224485421-4298a1cd-b017-4636-84fe-c8522b88558f.jpeg)
 
 
 
@@ -2133,6 +2140,7 @@ y= M(0,3)
 # Practice Questions and Solutions
 
 * Link -> https://drive.google.com/drive/folders/1Feqhx3AHQt1MXlX-UxTk-q5V0EK_UUJv
+
 
 ## Practice Questions (1) [10th Feb 2023]
 
