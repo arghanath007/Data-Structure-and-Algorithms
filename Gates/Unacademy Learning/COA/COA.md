@@ -1501,8 +1501,18 @@ operation needs more **3 operands**, it will be broken down into multiple instru
 
 ![image](https://user-images.githubusercontent.com/54589605/224370714-de1c9e47-72b7-4972-bdc2-2ad869b6f46b.png)
 
+![Instructions_7](https://user-images.githubusercontent.com/54589605/224470906-08512e79-cae2-4523-96ed-cde35432a612.jpeg)
+![Instructions_8](https://user-images.githubusercontent.com/54589605/224470910-e3fac41c-0ef4-42bd-a78f-3fa18aa562e3.jpeg)
+![Instructions_9](https://user-images.githubusercontent.com/54589605/224470911-c86c29f6-8c87-4c99-8260-adbdb806ef11.jpeg)
+![Instructions_10](https://user-images.githubusercontent.com/54589605/224470917-d49d03c2-7283-4078-8ce5-9a235203ded1.jpeg)
+![Instructions_11](https://user-images.githubusercontent.com/54589605/224470919-7cbb3ee6-6610-4e45-8b20-12f64415183a.jpeg)
+![Instructions_12](https://user-images.githubusercontent.com/54589605/224470920-beb7a24b-3c11-4f66-843e-2860492ed5ac.jpeg)
 
-* Add the yesterday's numerical photos from the copy. Both for digial and COA.
+
+
+
+
+
 
 
 
