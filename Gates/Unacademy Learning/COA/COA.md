@@ -1422,6 +1422,9 @@ operation needs more **3 operands**, it will be broken down into multiple instru
 ![image](https://user-images.githubusercontent.com/54589605/224337300-1b44e86b-9637-4092-b025-4b2f00bdfe55.png)
 ![image](https://user-images.githubusercontent.com/54589605/224337372-10dd2c9e-b01c-4877-b41d-e549ff456c35.png)
 ![image](https://user-images.githubusercontent.com/54589605/224338040-6233ced5-875f-40b6-8e77-7fde31fdd8e9.png)
+
+> Continuation of the above question only. We found **1-address instructions** first then from the **1-address instructions** we found the **0-address instructions**.
+
 ![image](https://user-images.githubusercontent.com/54589605/224339214-daf369e2-5084-4f02-8614-47e5bc4e12d3.png)
 
 * If it was mentioned in the question that **512** 2-address instructions, then how many **1-address instructions**? [Above]
