@@ -1583,15 +1583,75 @@ operation needs more **3 operands**, it will be broken down into multiple instru
 ![image](https://user-images.githubusercontent.com/54589605/224484746-a86d0b2a-bacb-48c5-9048-ee7dc137590d.png)
 ![image](https://user-images.githubusercontent.com/54589605/224484751-8c6019d8-c071-4281-ad1f-ebcf2dcfaf3f.png)
 
+## Instructions: Part III (9)  [12th March 2023]
+
+[**IMPORTANT questions**]
+
+![image](https://user-images.githubusercontent.com/54589605/224529297-4677b2ca-7c3c-4c48-9ac5-154de782cfb9.png)
+![image](https://user-images.githubusercontent.com/54589605/224529367-f83c3c25-4355-45a3-ae24-e43d7af2a2c2.png)
+![image](https://user-images.githubusercontent.com/54589605/224529661-4aa077f6-0001-49ea-9d46-593899c00ea0.png)
+![image](https://user-images.githubusercontent.com/54589605/224531422-8698a133-5905-421e-b6a6-f49f69a37caa.png)
+
+![image](https://user-images.githubusercontent.com/54589605/224533205-9ba3a9b8-9b46-496f-9a94-169931763b30.png)
+
+> Total no. of different type of instruction supported. We have to start from that instruction type which has **minimum** no. of opcode bits. We have **I-type and M-type** which have the **minimum** opcode bits. We can start from anyone of them(I and M-type). We should always go in the sequence of **opcode size**. We will learn another method, if **two opcode are same**, we can go with them **one by one**, always solve the question with minimum opcode bits to the next either it will be equal or greater. Means, **non-decreasing order of opcode bits size**. The order will be for the above question will be **8 -> 8 -> 10**. That is fine, completely correct.
+
+![image](https://user-images.githubusercontent.com/54589605/224554705-07035d0b-28e1-43f3-8f24-30fbc71249a6.png)
+![image](https://user-images.githubusercontent.com/54589605/224554729-5c0e2638-6c28-40a7-8b0a-4b79bcc09413.png)
+
+![image](https://user-images.githubusercontent.com/54589605/224555897-6b41d370-606e-477d-a919-65a8e21a4aaf.png)
+![image](https://user-images.githubusercontent.com/54589605/224556712-dced8268-cec3-4632-818f-d82996d5f515.png)
+
+> In AC or Accumulator-based architecture, we can only support **1-address instruction or 1-address instruction** only.
+> In question, it is mentioned if nothing is given then only the first operand should come from **accumulator**.
+
+> If we are copying any content outside the register to memory, it takes a lot of time. Anything accessed within the cpu, anything accessed with the register, we fast. If anything goes to the memory it takes a lot of time.
+
+![image](https://user-images.githubusercontent.com/54589605/224557033-96aea637-67ca-4a1c-9799-3ad5783cd1ae.png)
+![image](https://user-images.githubusercontent.com/54589605/224557674-2a7aacab-0e41-4503-a69a-85445c78a1de.png)
+
+> For **register based architecture**, if nothing mentioned then **both inputs** should come from **registers**. THe first input or **r1** is the destination as well.
+
+* r1 <- r1 + r2. 
+
+![image](https://user-images.githubusercontent.com/54589605/224558346-59c6af02-ba6b-4aad-88ea-3b7174836191.png)
+
+* Yes.
+
+> In **register-memory based architecture**, if nothing mentioned then **both inputs** are taken from registers. The **1st register** also acts as the **destination address** as well.
+
+![image](https://user-images.githubusercontent.com/54589605/224558620-eb187c81-503f-4dc6-afa8-ba0339affc8d.png)
+![image](https://user-images.githubusercontent.com/54589605/224559442-a863c48f-8499-4d23-9a4c-cddeedb64d56.png)
+![image](https://user-images.githubusercontent.com/54589605/224559594-5a90433f-f6cd-436a-b449-61f81ed65280.png)
+![image](https://user-images.githubusercontent.com/54589605/224559817-d4e17ec2-277b-4fd3-b904-05a6d8740bf6.png)
+
+> For variable length instructions, we have **fixed opcode**.
+
+* In **Type 3**, we were getting **26** as the memory address size, but when we put **26** as the memory address in **type-4**, the instruction size is greater than 32-bits which is not possible as 32-bit is the max instruction size mentioned in the question. So memory address size cannot be **26**.
+* In **Type-4**,  we were getting **19** as the memory address size. When we put **19** as the memory address size in **type-3**, we get **25** bits as instruction size as it is lower than 32 bit which is good. Hence **19** is the correct as the memory address size.
 
 
+## Effective Address(EA)
 
+![image](https://user-images.githubusercontent.com/54589605/224560284-4bc3b40d-54e4-4793-b737-c828f5d534f3.png)
 
+> If any operand used for computation is stored in memory, then it's address is **effective address**. Whatever is the adddress(500) of the operand 'x' we have, that address is the **effective address** for that instruction. Only memory address, not register value. If operand is in memory then it's address of memory is called as **effective address**.
+> For branch type instructions, the definition of **effective address** is changed. The **target address** is the effective address. Branch instructions means **jumping**. If, else, for, while loops are branch instructions.
 
+![image](https://user-images.githubusercontent.com/54589605/224560727-75d7af8e-bb26-4f2b-8077-abdee5d726e8.png)
+![image](https://user-images.githubusercontent.com/54589605/224560951-57f709c7-09fb-4def-9fbb-09beec430101.png)
+![image](https://user-images.githubusercontent.com/54589605/224561932-b09e5afe-44fb-4069-bfa2-4638f67cefd0.png)
+![image](https://user-images.githubusercontent.com/54589605/224562173-522af500-f25f-4fdf-9ee5-064855a81b5b.png)
 
+> We will directly jump to **step 7**, we will not execute 3,4,5,6 steps. This is the means of **branch or jump**. If condition is **True**, we will directly jump to **step 7** and whatever is there in **step 7**, we will execute them.
+> If cpu detects, **I2** as branch instruction, then cpu check the conditions, there are **two options** here, **condition is True** or **condition is False**. If **condition is True** then **jump happens**, **YES**. In techincal language it is called as **branch taken**. **I3** will not be executed, some other instruction will be executed, let's assume **I7**. Where to jump? **I7**. If **I7** is the next instruction where **jump** instruction takes branch then **I7** is called as the **target branch**. If **branch taken**, then **target instruction executed**, not next in the sequence. **Target instruction** is where to jump. To execute **target instruction** next, what will cpu do is, it will **internally change** the **PC or Program counter** value by address **206**. Cpu will update the **PC value** with **target instruction address**. 
+> If **condition is False** then **jump not taken**, **YES**. In techincal language it is called as **branch not taken**. Then, next in the sequence **I3** will be executed. No change in **PC value**. **PG value** is updated only when the **Branch is taken**, by what **target address**. **Target address** is the addrress of **target instruction**, where to **jump**.
 
+* PC = Target instruction address(206 here)
 
+* **Branch instruction** -> It takes jump based on the condition. If it is jumping where to jump on which instruction to jump, that instruction is called as **branch target instruction** and it's address of memory is called as **target address**. 
 
+> For branch type instruction, their target address is their **effective address** only.
 
 
 
