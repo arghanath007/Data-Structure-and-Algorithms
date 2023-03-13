@@ -2501,19 +2501,207 @@ y= M(0,3)
 ![image](https://user-images.githubusercontent.com/54589605/224691399-3d82985a-7360-4cd3-87d8-85e053ed5984.png)
 
 
+## Combinational Circuits-II (19) [13th March 2023]
+
+* if, **m=0**.
+* then, (r-1)'s complement -> r^n - N -1
+* (r-1)'s complement -> r's complement -1
+
+* r's complement -> (r-1)'s complement + 1  [**IMPORTANT**]
+
+![image](https://user-images.githubusercontent.com/54589605/224693316-2c0d73c7-88c2-4258-b2a5-3ed1ccc3001f.png)
+![image](https://user-images.githubusercontent.com/54589605/224693388-b6eb01f1-43c9-4784-9136-80d5cacfd8df.png)
+
+![image](https://user-images.githubusercontent.com/54589605/224694489-ded900b7-3732-4cd9-a0db-3b45090e3970.png)
+![image](https://user-images.githubusercontent.com/54589605/224695067-b27794b9-d878-4a86-9bc5-aded00477079.png)
+![image](https://user-images.githubusercontent.com/54589605/224696107-6ec531ed-3a91-4d7c-bf81-e1fce1b2ca99.png)
+
+## Trick to get **r and (r-1)** complement
+
+* if **r=10** as **base 10** 
+* N = (327.452) base 10
+* Count of 'N' -> 6
+* Count of 9's depends on (r-1) -> as **r-1** is **9** here, that's why we are substractiong N from 9's.
+* **(r-1)'s complement -> 9's complement** -> Count of 9's (6) - N.
+* **r's complement -> 10's complement** -> 9's complement + 1(right most bit).
+
+![image](https://user-images.githubusercontent.com/54589605/224697231-ebd813a5-30f7-4239-928c-293070a848e5.png)
+
+> As the base of the system is **10**, that's why we can find the 9th and 10th complement. We cannot get **7's complement** directly. 
+> If we want to get 7's complement, then we have to convert the given number to **base 7** then we can find **7 as well as 6 complement**.
+> To get 10th complement, we just add **+1** to the right most of **9th complement**.
+![image](https://user-images.githubusercontent.com/54589605/224698445-b7e8b2ab-a881-4c27-a02c-eef6c7bc1517.png)
 
 
+* if **r=2** as **base 2** 
+* N -> (101100) base 2
+* **(r-1)'s complement -> 1's complement** -> Substract all the numbers by **1**.
+* **r's complement -> 2's complement** -> 1's complement + 1(right most bit). [This is same as above]
+
+![image](https://user-images.githubusercontent.com/54589605/224700848-a78b71a8-eeb3-4845-ab84-df8151763379.png)
+
+## Trick to find **2's complement**
+
+> This trick is for **2's complement only** and not for others.
+
+* N = 101100
+
+> We do this on the original number **N** and **not on the 1's complement**. We need to move from right to left direction. We skip and move, till we find first time **1**. We just copy that **1** down and after that **1**, we **flip/negate/opposite** each of the next bits.
+
+![image](https://user-images.githubusercontent.com/54589605/224702251-91df7b9b-9ab6-48cd-a1b3-6af4312afbb6.png)
+
+* N = (0.0110) base 2
+
+> There is **no importance** of the **zero(0)** on the left side of the **dot(.)**. Just leave it there, don't change it. Like below.
+
+![image](https://user-images.githubusercontent.com/54589605/224703119-4ce2925e-0e09-40b3-a57d-de6c84f340ea.png)
+![image](https://user-images.githubusercontent.com/54589605/224703591-2fea7cde-7fae-43d2-a498-7050be1fb49a.png)
+![image](https://user-images.githubusercontent.com/54589605/224703889-4adcd37d-1827-4d1a-8037-c44f008e58ee.png)
+![image](https://user-images.githubusercontent.com/54589605/224704855-fef2b3df-0bc8-4fa9-9826-cc3ec9526b09.png)
+![image](https://user-images.githubusercontent.com/54589605/224706104-286577b0-18b4-4fbf-bfae-3b05be81d5b9.png)
+![image](https://user-images.githubusercontent.com/54589605/224706283-1f259031-1b72-43d4-957f-fc0c998b4979.png)
+
+> In the above questions, as **r=9** here, so **r-1 = 8**. Hence we would be using **six(6) 8's** and substract **N** from it.
 
 
+![image](https://user-images.githubusercontent.com/54589605/224707414-5d9a2278-f15b-42aa-9a47-f8cbba8c7265.png)
+![image](https://user-images.githubusercontent.com/54589605/224707912-1f0469a0-05f8-4e27-aea9-df5c353b9895.png)
+![image](https://user-images.githubusercontent.com/54589605/224708378-ce0aefb5-a139-4649-9874-56a2cadae709.png)
+![image](https://user-images.githubusercontent.com/54589605/224708654-7d108a0c-0dde-4f2a-b939-5fd5982e5eef.png)
+![image](https://user-images.githubusercontent.com/54589605/224709128-02b7bf7b-f1ef-4e66-bb66-95c40c801f22.png)
+![image](https://user-images.githubusercontent.com/54589605/224709352-9c958642-d125-4249-916e-9089dca48c21.png)
+
+> In the above question, it is **base 8** and in base 8, **8** is not allowed, that why we had to do **carry + 1**, in 2's complement.
+
+![image](https://user-images.githubusercontent.com/54589605/224709920-fc4fd824-da4e-41bf-958e-499282ed6f3e.png)
+
+> In the above question, it is **base 10** and in base 10, **8** is allowed, that why we just added **+1** to 1's complement to get 2's complement.
+
+![image](https://user-images.githubusercontent.com/54589605/224710266-3dc97ac7-8711-4147-bb9a-5e34707d7170.png)
+
+## Data Representation
+
+![image](https://user-images.githubusercontent.com/54589605/224710620-68e562c4-6368-42de-b5f6-9ce1df419b83.png)
+
+* Unsigned number -> **positive or +ve number** only.
+* Signed number -> Both **positive and negative** numbers are used.
+
+## Unsigned Number representation
+
+> Positive numbers only. No negative number representation here. No **sign bit** concept. 
+
+![image](https://user-images.githubusercontent.com/54589605/224711930-a0aa938a-4099-4b08-bdab-c3cd008e4a0a.png)
+![image](https://user-images.githubusercontent.com/54589605/224712390-8c4d74b7-1cb5-45c9-92f8-ccdf2f5a2ad0.png)
+
+## Signed Number representation
+
+> What system they have used, they will mention it clearly in the question.
+
+![image](https://user-images.githubusercontent.com/54589605/224712737-3363419c-01dd-44a6-a038-0c9962542804.png)
 
 
+## 1. Signed magnitude representation
+
+> Both for **positive and negative** numbers.
+> There is a dedicate **sign bit** is present. **MSB** bit is dedicated for the sign bit only.
+> If we have 5 bits allocated, then **1 bit** is used for sign bit only. Remaining bits are used for **magnitude**.
+
+* Sign bit is **zero(0)** -> **positive numbers**.
+* Sign bit is **one(1)** -> **negative numbers**.
+
+![image](https://user-images.githubusercontent.com/54589605/224713423-b8e6071c-2abf-4343-b8d9-c055ba39238a.png)
+
+> One bit is allocated for sign bit only, we cannot allocate it for magnitude.
+
+![image](https://user-images.githubusercontent.com/54589605/224713995-653f3dd5-e2be-45dd-af04-eae3d26ab2e6.png)
+
+* Highlighted bit is **MSB** bit and stores the **sign bit**.
+
+![image](https://user-images.githubusercontent.com/54589605/224714488-5b85f92b-e8ef-431c-9239-b9137fb6fcd5.png)
+![image](https://user-images.githubusercontent.com/54589605/224714865-866382c3-13e9-41d4-bbc7-df444471e1f9.png)
+
+> One bit is compulsarily dedicated for sign bit only. We cannot use that bit for magnitude.
+
+![image](https://user-images.githubusercontent.com/54589605/224715656-fc7a2e70-d28b-46e2-b8d8-0fbacbca22a2.png)
+
+## 2. 1's complement representation
+
+> **1's complement and 2's complement** are **applicable only** for **negative** numbers only.
+> **1's complement** representation of a **positive** number is **same** as a **normal binary** number with **MSB as zero(0)** .
+
+![image](https://user-images.githubusercontent.com/54589605/224716937-74585613-09dd-4581-9fc0-cb423b62ebdd.png)
+
+> For a negative number, when finding it's 1's complement. First we will write that number and there after we will take the 1's complement.
+> For example, **-6** is given, then firstly, we will treat it as **+6**. For **+6**, we get **110**. We will now take the 1's complement of the number, we will get **001**. But we are missing the sign bit, so we have to add another bit to **+6** which is **0110**. Now the 1's complement will be **1001**. As MSB is **1** which signifies **negative number**.
+
+![image](https://user-images.githubusercontent.com/54589605/224718740-4ce3cade-6f73-43c8-b5b6-266c3a6b3adc.png)
 
 
+> If we have **1001** as 1's complement of a number, now we want to get the original number back. By looking at **1001**, we can see that **MSB** bit is **1**, which means it is **negative**. We will now **flip** **1001** to get back the original number.
 
+* 1001 -> 1's complement
+* MSB -> 1 [Hence, negative number]
+* -[0110] [Flipped 1001, '-' sign since it is a negative number]
+* -6 [Which is the original number] [Ans]
 
+![image](https://user-images.githubusercontent.com/54589605/224720066-817bed35-99b4-46de-87b0-e00f12fe9fed.png)
 
+> Observation, like the **normal binary numbers**,
 
+* 0000110 -> 6 [Same]
 
+> Observation, like in **1's and 2's complement**, if we add any number of 1's on the left hand side, there will be no effect, the result will be the **same** only. 
+> We will need more no. of bits to store these many 1s and as a result the register size will increase. AS a result we will go for the least no. of bits which is sufficient and we need to focus on the minimum no. of beats.
+
+![image](https://user-images.githubusercontent.com/54589605/224720823-ced97619-fdb4-4ff7-9907-97f63da665c2.png)
+
+> As 1's complement doesn't have any effect on **positive** numbers. Whatever number is given, that only. We do the flip it for positive numbers.
+> 1's complement has effect on **negative** numbers only.
+
+![image](https://user-images.githubusercontent.com/54589605/224722252-52d5d1cf-6a00-42a7-8a58-a586033001d6.png)
+
+![image](https://user-images.githubusercontent.com/54589605/224723629-e2e80ead-04dc-4e25-b249-fab87ce63254.png)
+![image](https://user-images.githubusercontent.com/54589605/224724362-ce5891ab-d5f9-47e9-a2a7-32151a789112.png)
+
+> For the remaining bits in **+6** in the **3rd** question, will be filled by just copying the sign bit. The sign bit is **zero(0)** here. Called as **sign bit extension**.
+> For the remaining bits in **-6** in the **4th** question, will be filled by just copying the sign bit. The sign bit is **one(1)** here. Called as **sign bit extension**.
+
+> 1's complement representation is different, finding 1's complement is different.
+
+> For **-0**, we are taking the 1's complement of **+0**.
+
+* **+0* -> 0000
+* **-0** -> 1111 [1's complement of **+0**]
+
+![image](https://user-images.githubusercontent.com/54589605/224725696-27225b48-053d-441d-8f9d-780606e5fa84.png)
+
+## 3. 2's complement representation
+
+![image](https://user-images.githubusercontent.com/54589605/224728555-68baaa1c-2d6e-416e-9e81-6001dafcb4a2.png)
+
+> **1's complement and 2's complement** are **applicable only** for **negative** numbers only.
+> **2's complement** representation of a **positive** number is **same** as a **normal binary** number with **MSB as zero(0)** .
+
+* 3 -> 011
+* +3 -> 0011
+* 5 -> 101
+* +5 -> 0101
+* -5 -> 1011 [Trick to find 2's complement above, used that here]
+
+![image](https://user-images.githubusercontent.com/54589605/224732115-6af03de7-0404-4cae-9ed4-83ac12f7adae.png)
+
+> For the remaining bits in **+6** in the **3rd** question, will be filled by just copying the sign bit. The sign bit is **zero(0)** here. Called as **sign bit extension**.
+> For the remaining bits in **-6** in the **4th** question, will be filled by just copying the sign bit. The sign bit is **one(1)** here. Called as **sign bit extension**.
+
+![image](https://user-images.githubusercontent.com/54589605/224732481-11efac4b-59b1-44fb-9cdb-bc0258038cbc.png)
+
+![image](https://user-images.githubusercontent.com/54589605/224734832-5942b7fe-d320-435f-80fb-717c9e44c05e.png)
+![image](https://user-images.githubusercontent.com/54589605/224734897-8255a957-3874-4b19-9643-f04c072ef2a5.png)
+![image](https://user-images.githubusercontent.com/54589605/224734930-2444231c-7594-4a3a-a22e-485ce6031504.png)
+![image](https://user-images.githubusercontent.com/54589605/224734975-8e6c4664-0eee-4600-ac9a-2875f4406e8b.png)
+![image](https://user-images.githubusercontent.com/54589605/224735010-e54c73a3-07b8-40bd-9472-a51b51047d53.png)
+![image](https://user-images.githubusercontent.com/54589605/224735050-02469cb3-36c5-485c-9a51-45eb4a9da4a1.png)
+![image](https://user-images.githubusercontent.com/54589605/224735074-0dcbb3a8-38a2-4c2b-b43e-1df1c713012c.png)
 
 
 
