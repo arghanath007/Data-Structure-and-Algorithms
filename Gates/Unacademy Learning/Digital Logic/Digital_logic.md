@@ -2245,10 +2245,12 @@ y= M(0,3)
 
 > Some cases **PIs and EPIs** are **equal**. **EPIs** are equal to **PIs**. **EPIs** can never be greater than **PIs**. First it is an **PIs** then it will only go to **EPIs**.
 
+![image](https://user-images.githubusercontent.com/54589605/224607145-aa3ade96-cabc-403e-b7dc-77a1c89f97c2.png)
 ![image](https://user-images.githubusercontent.com/54589605/224492176-c90988c9-6590-4fb3-85cf-7f088251c90a.png)
 ![image](https://user-images.githubusercontent.com/54589605/224492206-69148748-15b5-4504-9730-068cb5965b26.png)
 
-> No need of **optional EPs** 
+> No need of **optional EPs**, because there is no **minterm** that is not covered. Hence we do not need any **optional PIs**.
+> If there are any **minterms** that are not covered in the EPIs, then only we will go for **optional IPs**.
 
 ![image](https://user-images.githubusercontent.com/54589605/224492485-a80d3291-0dfa-4f0c-bab7-0bf224cfc0de.png)
 ![image](https://user-images.githubusercontent.com/54589605/224492533-bd6050ae-7b7b-4a57-9325-fd2d782f8347.png)
