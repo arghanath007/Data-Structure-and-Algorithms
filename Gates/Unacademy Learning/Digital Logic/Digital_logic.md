@@ -2566,6 +2566,9 @@ y= M(0,3)
 
 ![image](https://user-images.githubusercontent.com/54589605/224707414-5d9a2278-f15b-42aa-9a47-f8cbba8c7265.png)
 ![image](https://user-images.githubusercontent.com/54589605/224707912-1f0469a0-05f8-4e27-aea9-df5c353b9895.png)
+
+> The base is **16** which means **0 to 15**. As **F** is **15**, so when doing 2's complement we do **F + 1 -> 15 + 1 -> 16**, which givens **16** and **16** doesn't fall under **base 16**, so we have to do carry forward, and take **+1** to the next step.
+
 ![image](https://user-images.githubusercontent.com/54589605/224708378-ce0aefb5-a139-4649-9874-56a2cadae709.png)
 ![image](https://user-images.githubusercontent.com/54589605/224708654-7d108a0c-0dde-4f2a-b939-5fd5982e5eef.png)
 ![image](https://user-images.githubusercontent.com/54589605/224709128-02b7bf7b-f1ef-4e66-bb66-95c40c801f22.png)
