@@ -2273,6 +2273,11 @@ y= M(0,3)
 > Unique expression, when **EPIs == PIs**, EPIs is equal to PIs.
 
 ![image](https://user-images.githubusercontent.com/54589605/224494039-2da2c4bc-5482-4219-9d51-4c4fb1ea8f13.png)
+![image](https://user-images.githubusercontent.com/54589605/224608673-6609276f-db24-40d5-8614-3b3d09d86f15.png)
+
+> In the above question, there is a **quad**, which is formed that is the **reject PI**, here as all of them were **grouped twice**.
+> For K-map, we have to find **PIs and EPIs**, which is the best method to solve them.
+
 ![image](https://user-images.githubusercontent.com/54589605/224494272-09c5193b-4abd-4a74-8d83-179d8047000d.png)
 ![image](https://user-images.githubusercontent.com/54589605/224494522-0e98d31e-bb14-4d93-8a5c-bec0212790ec.png)
 
