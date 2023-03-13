@@ -2337,7 +2337,7 @@ y= M(0,3)
 
 > If the base of a system is **n**, so we have **n** different digits and it will be starting from **0** and ending at **n-1**.
 
-## Decimal to Other base
+## 1. Decimal to Other base
 
 ![image](https://user-images.githubusercontent.com/54589605/224612852-a492376d-95ce-4b4e-b24c-a1f557a94e0a.png)
 ![image](https://user-images.githubusercontent.com/54589605/224613866-fe35cd86-7047-403d-8c8a-69e3835e3ee7.png)
@@ -2375,7 +2375,7 @@ y= M(0,3)
 
 * As we **increase the base of the system** or convert from **lower(10)** to **higher(16)** base, the actual number **decreases** and vice-versa.
 
-## Any base to Decimal
+## 2. Any base to Decimal
 
 > Which ever base is required, we have to do polynomial expansion with that base.
 
@@ -2397,7 +2397,7 @@ y= M(0,3)
 
 ![image](https://user-images.githubusercontent.com/54589605/224627064-00bbf5a9-3eea-40ca-b02a-a16918623db2.png)
 
-## One base to another base
+## 3. One base to another base
 
 ![image](https://user-images.githubusercontent.com/54589605/224628028-baaf3456-4fa3-48e7-9033-670ea08ee575.png)
 
