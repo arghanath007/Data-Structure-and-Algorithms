@@ -2258,6 +2258,9 @@ y= M(0,3)
 ![image](https://user-images.githubusercontent.com/54589605/224492763-e1c6f016-c278-4c5a-8838-970267c8e7c8.png)
 ![image](https://user-images.githubusercontent.com/54589605/224492793-dbd74740-70df-4a2b-9964-d50e82d1d6cd.png)
 ![image](https://user-images.githubusercontent.com/54589605/224492846-30cbb20b-cf1b-4c8e-b0f3-01f9c5c5cc03.png)
+
+> Here, All of the **minterms** are grouped **twice** already. Hence there are no **EPIs**. But for the final expression 'f', we put '0' for EPIs and we have to put the **optional IPs** to cover all of the minterms. We could do that in two ways, hence there are two expressions.
+
 ![image](https://user-images.githubusercontent.com/54589605/224492925-292bee2c-4d9d-4377-a21c-9699bf4a71a2.png)
 ![image](https://user-images.githubusercontent.com/54589605/224493025-c506c9f2-e549-4648-ae87-fc667154f91f.png)
 ![image](https://user-images.githubusercontent.com/54589605/224493249-379014d1-1af0-4113-b87f-332d15766a72.png)
