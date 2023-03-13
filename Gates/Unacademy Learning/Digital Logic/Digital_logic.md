@@ -2292,23 +2292,200 @@ y= M(0,3)
 ![image](https://user-images.githubusercontent.com/54589605/224495011-b43cfce7-6420-45aa-bf8f-caac70c6c644.png)
 
 
+## Combinational Circuits (18) [13th March 2023]
+
+## Number Systems
+
+> For any number system, we need a **base**.
+
+![image](https://user-images.githubusercontent.com/54589605/224610766-13ab607f-3fc5-4e27-9579-5dbd134f387a.png)
+
+* Polynomial expansion with the base of the system.
+
+* Minimum base of a system ?
+
+> Atleast 2. Always greater than equal to **2**.
+
+![image](https://user-images.githubusercontent.com/54589605/224611087-f8937f6c-38a7-4108-99b2-ed1dfc46f86a.png)
+
+> Base is always positive. It cannot be negative.
+
+![image](https://user-images.githubusercontent.com/54589605/224611142-05c487e5-4a3e-4bc2-87be-c9cd097d8cb6.png)
+
+* (421) base 4 -> Not valid
+
+> For base 4 system, the valid numbers are 0,1,2,3. **4** is not allowed, hence **(421) base 4** is not valid number.
+
+* (243) base 5 -> Valid
+
+> For base 5 system, the valid numbers are 0,1,2,3,4. **2,4 and 3** are allowed, hence **(243) base 5** is a valid number.
+
+![image](https://user-images.githubusercontent.com/54589605/224611542-4ea2bfa2-1dca-41df-9976-e18e5850f04c.png)
+
+> The min. base of a system is **always greater than equal to 2**. Base is always positive integer only. No fractions are allowed.
+
+![image](https://user-images.githubusercontent.com/54589605/224611907-4a35fcae-347c-4012-b862-63d245a31529.png)
+![image](https://user-images.githubusercontent.com/54589605/224612041-554e9eb5-cde6-47c2-addc-46b0bdbba064.png)
+
+> Number is stored as **10** only internally. We just write it as **A**. Instead of **A**, if we write it as **10**, then we will treat **1** and **0** separately, as **two** separate digits and not together. To avoid this problem/confusion, we are treating the whole thing(10) as **A**. Internally, it is stored in **10** form only.
+
+![image](https://user-images.githubusercontent.com/54589605/224612469-f4995ed3-3a9d-49ee-9ef6-f92ae02fb391.png)
+
+## Conversation of Number System
+
+![image](https://user-images.githubusercontent.com/54589605/224612606-4d326fc1-e7c6-44e0-ac51-ed2ddf83e55a.png)
+
+> If the base of a system is **n**, so we have **n** different digits and it will be starting from **0** and ending at **n-1**.
+
+## Decimal to Other base
+
+![image](https://user-images.githubusercontent.com/54589605/224612852-a492376d-95ce-4b4e-b24c-a1f557a94e0a.png)
+![image](https://user-images.githubusercontent.com/54589605/224613866-fe35cd86-7047-403d-8c8a-69e3835e3ee7.png)
+![image](https://user-images.githubusercontent.com/54589605/224614199-52f96997-1836-41e2-9d7b-778833c0fd97.png)
+
+* **Integer part** -> Successive divisions
+* **Fractional part** -> Successive multiplication
+
+![image](https://user-images.githubusercontent.com/54589605/224616056-62009bab-3c22-41a9-aa59-e91f6e151d58.png)
+
+### Note
+
+![image](https://user-images.githubusercontent.com/54589605/224616256-51f4748b-e253-4d57-be62-1c847bd6bd1e.png)
+
+> For **integer** part we are getting the **exact** conversion.
+> For **fractional** part, the **exact** conversion may not be possible.
+
+![image](https://user-images.githubusercontent.com/54589605/224616399-50f313bc-ac09-4868-9e2c-0dbffb132dab.png)
+![image](https://user-images.githubusercontent.com/54589605/224616580-0f95048a-ab80-4fe7-9101-63004baaa1df.png)
+![image](https://user-images.githubusercontent.com/54589605/224616721-644c16cb-e213-424f-98ae-760450ccf86f.png)
+
+* (53.75)  base 10 -> base 4
+
+> The number is **53** and the base is 10. We have to convert them into **base 4** number system. Initial base is 10 and required is 4, i.e we have to convert from **higher** to **lower** base. If we are converting from **higher** to **lower** base or base is **decreasing**, hence the **number increases**.
+
+* (39.5)  base 10 -> base 8 -> (47.4) base 8 [Ans]
+
+> Here also we are converting from **higher(10)** to **lower(8)** base or base is **decreasing**, hence the **number increases**.
+> **The number and the base of the system are inversely proportional**.
+
+* (39.5)  base 10 -> base 16 -> (27.8) base 16 [Ans]
+
+> Here we are converting from **lower(10)** to **higher(16)** base or base is **increasing**, hence the **number decreases** because **the number and the base of the system are inversely proportional**.
 
 
+* As we **increase the base of the system** or convert from **lower(10)** to **higher(16)** base, the actual number **decreases** and vice-versa.
+
+## Any base to Decimal
+
+> Which ever base is required, we have to do polynomial expansion with that base.
+
+![image](https://user-images.githubusercontent.com/54589605/224621539-76fd2152-f02c-448c-b0da-7cce33aa01b2.png)
+![image](https://user-images.githubusercontent.com/54589605/224623084-044f42fc-fc21-479a-a4c9-194f981fe751.png)
+
+> The **required base** is **4** here. So, we are multiplying the values with **powers of 4**.
+
+![image](https://user-images.githubusercontent.com/54589605/224624549-8212d3bb-c545-4ca7-a740-985f1b2f4579.png)
+
+> As **B** is present, which represents **11**. So, as **11** is present, the value of **x** must be **12**. As base 12 signifies values form **0 to 11**.
+
+![image](https://user-images.githubusercontent.com/54589605/224624856-21da18e0-3ff1-490b-ba28-dcdd3177f913.png)
+![image](https://user-images.githubusercontent.com/54589605/224625848-ea0ef25f-e940-472f-a3e1-e35c7a9e66f7.png)
+![image](https://user-images.githubusercontent.com/54589605/224625994-10b7680f-6ee7-483d-ba0c-77b64fe6a2cd.png)
+![image](https://user-images.githubusercontent.com/54589605/224626354-0e239a01-d51e-456f-9213-26610d9a348d.png)
+
+> For any mathematical operation like **squaring, multiplying, division**, carefull that **two number's** base must be the **same**.
+
+![image](https://user-images.githubusercontent.com/54589605/224627064-00bbf5a9-3eea-40ca-b02a-a16918623db2.png)
+
+## One base to another base
+
+![image](https://user-images.githubusercontent.com/54589605/224628028-baaf3456-4fa3-48e7-9033-670ea08ee575.png)
+
+> Convert both the numbers into **decimal form**, then convert to from **decimal** to the **required base**.
+
+![image](https://user-images.githubusercontent.com/54589605/224628426-024ab70f-a2d4-4648-8fb7-4b0fd950c1eb.png)
+![image](https://user-images.githubusercontent.com/54589605/224628566-9709d11c-7d83-48c1-9f85-d4e9f9b17de0.png)
+![image](https://user-images.githubusercontent.com/54589605/224628897-bea4b7ef-6789-4e56-9c62-dde9e3ab52da.png)
+![image](https://user-images.githubusercontent.com/54589605/224629036-bb335fc3-192b-4bde-96ec-cb3f0e5ec554.png)
+
+> The **number 3** is less than **base 8**. So after **conversion** also we will get the same thing.
+> If number is more than **base**, then we should do **division**.
+
+![image](https://user-images.githubusercontent.com/54589605/224629394-9cb800a4-637f-4026-b584-dbd0039066f2.png)
+![image](https://user-images.githubusercontent.com/54589605/224629576-5063bff6-5a79-4029-82d6-607aab6fd07c.png)
+![image](https://user-images.githubusercontent.com/54589605/224629660-58f51432-75f9-48dd-8394-0e6470fcd34d.png)
+![image](https://user-images.githubusercontent.com/54589605/224630967-eed346c5-71d6-49dc-b6bd-53b4b4d9e10a.png)
+
+> Converted both the numbers **193 and 623** into base 10 format.
+
+![image](https://user-images.githubusercontent.com/54589605/224637779-38b00059-7a76-44b0-b66c-5e569f8dd68f.png)
+![image](https://user-images.githubusercontent.com/54589605/224637901-c4844ab4-cb07-47e8-957d-fd4534e8d1d6.png)
+
+[**IMPORTANT**]
+
+![image](https://user-images.githubusercontent.com/54589605/224639447-9f1e322d-bfbc-45a6-957a-5a93425b90b8.png)
+
+* (3) base b -> (3) base 10
+
+> Since **3** is less than **base 10**. Same for **6** as well.
+
+## 4. Required base
+
+* Required base = (Given base)^ (integer).
+
+![image](https://user-images.githubusercontent.com/54589605/224639804-4c7f2253-88ba-49d5-975d-143c3554619e.png)
+![image](https://user-images.githubusercontent.com/54589605/224641021-663d57b8-e7b7-4c4a-b684-c55130538c43.png)
+
+* Required base = 8
+* Given base = 2
+* 8 = 2^n -> 2^3 = 2^n -> n=3 
+
+> So, **n=3**, hence divide into **3-3 parts**. **3** digits will be taken as **1 entity**.
+> For **integer part**, move from the left-right side of **dot**. 
+> For the **fraction part**, move from right-left side of the **dot**.
+
+![image](https://user-images.githubusercontent.com/54589605/224642504-f24cfd24-dfa2-4ccd-9477-aa118f9151b5.png)
+![image](https://user-images.githubusercontent.com/54589605/224642975-b9d15847-c767-423f-a829-4ab5b982b682.png)
+![image](https://user-images.githubusercontent.com/54589605/224645151-563518a5-af68-43c9-9e93-231d02b84480.png)
+![image](https://user-images.githubusercontent.com/54589605/224646500-e8162995-ebbb-450b-aa89-ba07e7413bfe.png)
+![image](https://user-images.githubusercontent.com/54589605/224647747-817750c9-ed20-4814-acc4-7d9dc56cd5cd.png)
+![image](https://user-images.githubusercontent.com/54589605/224648389-926af357-b672-48b7-92ad-cacce5530098.png)
+![image](https://user-images.githubusercontent.com/54589605/224648803-850721df-7f6c-442e-9d1d-9d8dd17e8b2a.png)
+![image](https://user-images.githubusercontent.com/54589605/224649928-089d7f79-3147-4f40-aea9-445e958c7fd7.png)
+
+> **b=7** only and not **10**. Always, we have to give **minimum base**. Whenever they ask for **base**, we have to give **minimum base** only. **Minimum 7** means that above **7**, all values will be **satisfied**.
+
+[**IMPORTANT**]
+![image](https://user-images.githubusercontent.com/54589605/224651191-bde1f64e-a3b2-4d6b-a2e7-88c0fe40098c.png)
+![image](https://user-images.githubusercontent.com/54589605/224652225-d6d90a41-420c-452f-89b0-7e61d61391e0.png)
 
 
+## Complement Analysis
 
+![image](https://user-images.githubusercontent.com/54589605/224652426-14692f63-3bf5-4ed7-bbdd-a9de2bbff110.png)
+![image](https://user-images.githubusercontent.com/54589605/224652716-3650784c-2a90-4432-bc95-e9179e7cbbc1.png)
 
+> If the base of a system is **r**, for these number we can find, **r's complement** as well as **(r-1)'s complement**. We cannot find any other types of complements are not defined.
+> If the base of a system is **r**, then we can find out **r's complement** as well as **(r-1)'s complement** only. We cannot defined any another type of complements.
 
+![image](https://user-images.githubusercontent.com/54589605/224653367-4d69fd21-1ab6-434e-a117-e5b5bcc7e3a5.png)
+![image](https://user-images.githubusercontent.com/54589605/224653601-73a633a2-d838-4fbe-99d3-8519c61c2ee3.png)
 
+## **r's** complement
 
+![image](https://user-images.githubusercontent.com/54589605/224653844-1fdbf7cd-88ac-40ea-9624-7b84f6ff9ac7.png)
 
+> **r** is the base of the system.
+> **N** is the given number.
+> **n** no. of **integer** digits.
 
+![image](https://user-images.githubusercontent.com/54589605/224654310-6579d622-c51e-4b59-91ed-8777536d2b95.png)
 
+## **(r-1)'s** complement
 
+![image](https://user-images.githubusercontent.com/54589605/224654679-bc6c3813-4c9e-4ea4-9e3b-a3c72e6bf310.png)
 
-
-
-
+> **m** no. of **fractional/decimal** digits.
 
 
 
