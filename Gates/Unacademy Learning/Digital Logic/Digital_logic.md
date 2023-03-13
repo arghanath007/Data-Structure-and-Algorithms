@@ -2487,6 +2487,38 @@ y= M(0,3)
 
 > **m** no. of **fractional/decimal** digits.
 
+![image](https://user-images.githubusercontent.com/54589605/224690812-d9e1f19c-ad34-4675-a26e-d12a5d120a5f.png)
+![image](https://user-images.githubusercontent.com/54589605/224690846-5c56af79-0450-4031-ba52-a81a50021e59.png)
+![image](https://user-images.githubusercontent.com/54589605/224690888-30c13f52-2ef9-4f8e-a1a7-c9028368c348.png)
+![image](https://user-images.githubusercontent.com/54589605/224690766-4ab20828-f5d8-4f28-a912-f9777ab0f524.png)
+![image](https://user-images.githubusercontent.com/54589605/224691192-385947a2-24e6-48c2-b531-4023dc607ac5.png)
+![image](https://user-images.githubusercontent.com/54589605/224691236-c2798022-a109-434b-a07c-8582c638d584.png)
+![image](https://user-images.githubusercontent.com/54589605/224691266-2af8ddcc-89ae-4d7a-9b61-8a117c4cd53e.png)
+![image](https://user-images.githubusercontent.com/54589605/224691296-68620151-3af7-4228-ab45-ff4fb6f0748d.png)
+![image](https://user-images.githubusercontent.com/54589605/224691317-836d3b0c-9c88-4895-97a7-1c96e370e558.png)
+![image](https://user-images.githubusercontent.com/54589605/224691345-67a85f89-e1d4-470a-9d62-1b57dc7930f9.png)
+![image](https://user-images.githubusercontent.com/54589605/224691376-a87feff9-be17-49d3-a07c-bd4299816ca9.png)
+![image](https://user-images.githubusercontent.com/54589605/224691399-3d82985a-7360-4cd3-87d8-85e053ed5984.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
