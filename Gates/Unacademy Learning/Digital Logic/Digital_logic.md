@@ -2570,6 +2570,10 @@ y= M(0,3)
 > The base is **16** which means **0 to 15**. As **F** is **15**, so when doing 2's complement we do **F + 1 -> 15 + 1 -> 16**, which givens **16** and **16** doesn't fall under **base 16**, so we have to do carry forward, and take **+1** to the next step.
 
 ![image](https://user-images.githubusercontent.com/54589605/224708378-ce0aefb5-a139-4649-9874-56a2cadae709.png)
+
+> For **base 2**, when we find **1's complement**, we just **flip** the bits of the number to get it's **1's complement**.
+> For **2's complement**, we can do the **2's complement trick from above** or just add **+1** to **1's complement**.
+
 ![image](https://user-images.githubusercontent.com/54589605/224708654-7d108a0c-0dde-4f2a-b939-5fd5982e5eef.png)
 ![image](https://user-images.githubusercontent.com/54589605/224709128-02b7bf7b-f1ef-4e66-bb66-95c40c801f22.png)
 ![image](https://user-images.githubusercontent.com/54589605/224709352-9c958642-d125-4249-916e-9089dca48c21.png)
