@@ -2662,7 +2662,7 @@ y= M(0,3)
 
 ![image](https://user-images.githubusercontent.com/54589605/224720823-ced97619-fdb4-4ff7-9907-97f63da665c2.png)
 
-> As 1's complement doesn't have any effect on **positive** numbers. Whatever number is given, that only. We do the flip it for positive numbers.
+> As 1's complement doesn't have any effect on **positive** numbers. Whatever number is given, that only. We do not flip the numbers for positive numbers.
 > 1's complement has effect on **negative** numbers only.
 
 ![image](https://user-images.githubusercontent.com/54589605/224722252-52d5d1cf-6a00-42a7-8a58-a586033001d6.png)
