@@ -2251,6 +2251,7 @@ y= M(0,3)
 
 > No need of **optional EPs**, because there is no **minterm** that is not covered. Hence we do not need any **optional PIs**.
 > If there are any **minterms** that are not covered in the EPIs, then only we will go for **optional IPs**.
+> **BC** is a **rejected PI**, not at all required.
 
 ![image](https://user-images.githubusercontent.com/54589605/224492485-a80d3291-0dfa-4f0c-bab7-0bf224cfc0de.png)
 ![image](https://user-images.githubusercontent.com/54589605/224492533-bd6050ae-7b7b-4a57-9325-fd2d782f8347.png)
