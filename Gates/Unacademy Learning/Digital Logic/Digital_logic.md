@@ -2718,16 +2718,190 @@ y= M(0,3)
 ![image](https://user-images.githubusercontent.com/54589605/224735074-0dcbb3a8-38a2-4c2b-b43e-1df1c713012c.png)
 
 
+## Doubts_session (20) [14th March 2023]
+
+### 1's complement representation
+
+![image](https://user-images.githubusercontent.com/54589605/224942438-65c654b2-0771-49e9-825c-8578b27920f8.png)
+![image](https://user-images.githubusercontent.com/54589605/224942468-98567530-708e-4f36-88de-82b107e46f72.png)
+
+> No effect on **positive numbers**. Only effects on **negative numbers**.
+> Here also, **positive numbers** are represented as **normal binary numbers** only, with MSB as **0**.
+
+### 2's complement representation
+
+![image](https://user-images.githubusercontent.com/54589605/224944269-a2cec5b8-6ba0-4aa2-9a89-deeaebf769f9.png)
+
+> Here also, **positive numbers** are represented as **normal binary numbers** only, with MSB as **0**.
+> For **negative numbers** we find the **2's complement** and we need to ensure that MSB is **1**.
+
+* 6 -> 110
+* **2's complement representation** of **+6** -> 0110 -> **MSB** is **0**, which means positive number.
+
+![image](https://user-images.githubusercontent.com/54589605/224946097-f90a7602-f0f1-4184-ba14-c8ed8feb4d3d.png)
+![image](https://user-images.githubusercontent.com/54589605/224946247-b514d0f4-90bb-41ba-a5d5-38618d980ab4.png)
+![image](https://user-images.githubusercontent.com/54589605/224946661-4bc9d932-97ba-438c-964b-8b342b40b59b.png)
+
+> **Sign bit extension** is used in **1's and 2's complement representation**. We are filling the remaining bits with **sign bit**.
+
+> **Quiz 4**, **Q2** solutions.
+
+![image](https://user-images.githubusercontent.com/54589605/224943800-8bfb73c5-1915-47cf-9ac6-a051285390cd.png)
+
+## Questions
+
+![image](https://user-images.githubusercontent.com/54589605/224947033-93943862-8d46-4e9a-844c-bfb75fd905bf.png)
+![image](https://user-images.githubusercontent.com/54589605/224948134-3bae6e3f-2aeb-4db9-85bf-bf35328070e1.png)
+![image](https://user-images.githubusercontent.com/54589605/224949956-a8dabc7f-92f2-4a31-bcfc-e57473009739.png)
+
+> In the above question, **1's complement** doesn't have any effect on **positive numbers** we can just use the number as the **magnitude** of the number.
+> 1's complement representation has effect on **negative numbers**, so the **negative number** is in **1's complement form**, so we have to do **1's complement** again to get back the **original number**.
+
+![image](https://user-images.githubusercontent.com/54589605/224950944-a4e7b7ef-f1b6-41f1-bb1f-7715a82e6efb.png)
+
+> In the above question, **2's complement** doesn't have any effect on **positive numbers** we can just use the number as the **magnitude** of the number.
+> In the above question, **2's complement**  has effect on **negative numbers**, so the **negative number** is in **2's complement form**, so we have to do **2's complement** again to get back the **original number**.
+
+![image](https://user-images.githubusercontent.com/54589605/224952508-10c64dc5-d2f4-4cf8-b7d1-6bbe5f22044b.png)
+![image](https://user-images.githubusercontent.com/54589605/224952578-4f06c26b-a1f5-435d-af3b-31e70cb45707.png)
+![image](https://user-images.githubusercontent.com/54589605/224952998-4c3f0663-6d7a-433c-b1b3-0da6153a5294.png)
+![image](https://user-images.githubusercontent.com/54589605/224953952-d8a00e5d-4bca-45dc-9f1b-4f20527b7d0d.png)
+![image](https://user-images.githubusercontent.com/54589605/224957018-a8cfc8bb-e555-456d-99cd-02d66576fa54.png)
+
+* No. 
+
+![image](https://user-images.githubusercontent.com/54589605/224958342-57a649da-1af5-4682-b21a-0a1a09a7a6ab.png)
+
+> 1 followed by **n** zeroes.
+
+### Note
+
+![image](https://user-images.githubusercontent.com/54589605/224989061-366631cb-2b54-4e3c-98b1-fed4eb8eced7.png)
+
+
+> Mp effect of **2's complement** on **positive numbers**.
+
+* Bits taken -> 4 bits (+0 to +7)
+
+* 8 -> 1000
+* -8 -> 0111 (1's complement)
+* -8 -> 1000 (2's complement)
+* +8 -> 01000 (2's complement)
+
+> For **+8**, minimum no. of bits required is **5 bits**. We have taken only **4 bits** here. That's why **+8** not possible here. That's why max. no. is **+7** only.
+
+* 0 -> 0000
+* -0 -> 1111 (1's complement)
+* -0 -> 10000 (2's complement)
+
+> For **-0**, no. of bits required is **5 bits** but we have only **4 bits** here. Hence **-0** is not possible here(4 bits).
+
+![image](https://user-images.githubusercontent.com/54589605/224991773-150cc291-f736-43a8-b4e6-fd4f3cb4063e.png)
+
+## Difference between 1's and 2's complement
+
+### 1's complement
+
+![image](https://user-images.githubusercontent.com/54589605/224992505-84d80687-73e0-4088-a010-80945b4657fb.png)
+
+* range -> -7 to +7.
+
+> In 1's complement we did two separate allotments for **-0 and +0**.
+
+### 2's complement
+
+![image](https://user-images.githubusercontent.com/54589605/224992627-08dab60d-e811-44cf-aa7c-89c031b55c5c.png)
+
+* range -> -8 to +7
+
+> In 2's complement we alloted space for **+0** only, **-0** is not alloted here. 
+> Since **-0** is not alloted here, **-8** has taken it's place. For **-0** we need min. of **5bits**.
+> Because of these range is increased by **one**. Also for these reason only, **2's complement** is used more than **1's complement**.
+
+![image](https://user-images.githubusercontent.com/54589605/224993403-46e69f00-f629-4ce1-b859-93a8211700dd.png)
+![image](https://user-images.githubusercontent.com/54589605/224993876-d8f35aa6-f90e-4e90-8937-1c09735c65e1.png)
+![image](https://user-images.githubusercontent.com/54589605/224994929-d2256afa-c796-4700-8a6e-82939ed7f4f5.png)
+![image](https://user-images.githubusercontent.com/54589605/224996415-77a783f2-41c2-47f4-b6a8-aa78063834b0.png)
+
+> In the above question, we did the polynomial expansion in reverse order.
+
+## Binary Substraction using 1's complement method [**IMPORTANT**]
+
+![image](https://user-images.githubusercontent.com/54589605/224996884-60a7f8bf-816f-4e5b-a999-679c7e92a6e8.png)
+![image](https://user-images.githubusercontent.com/54589605/224997660-91f8a081-3ff5-4c8f-90bd-e7acf9f94053.png)
+![image](https://user-images.githubusercontent.com/54589605/224998087-0b1ca291-ca89-4b90-a345-91ba36ccacf0.png)
+
+> Addition means **normal** addition only.
+> In computer language, there is no substraction. It has addition only.
+
+![image](https://user-images.githubusercontent.com/54589605/224999611-70fb1594-6ab2-4b31-977b-e0169ba8de64.png)
+
+> If **carry=1**, then **add** the carry to **lsb** like in the **8-4** question.
+> If **carry=0**, then take **negative** of the **1's complement of the number(11011)**, like in the **4-8** question.
+
+![image](https://user-images.githubusercontent.com/54589605/225000112-4fa35d66-3b1d-4872-8f18-1bd31e1b86cb.png)
+![image](https://user-images.githubusercontent.com/54589605/225000163-4c617dd2-a099-48ab-86b1-46cd95ff3155.png)
+
+> If **carry=0**, then we should do **1's complement** again as it is not the original/true form.
+> Here, in **1's complement**, wheather the number will be **positive or negative** will depend on the output **carry**.
+
+## Binary Substraction using 2's complement method [**IMPORTANT**]
+
+![image](https://user-images.githubusercontent.com/54589605/225000446-b1c15dbb-c033-447b-bb3d-02fc17714e10.png)
+
+> Here, in **2's complement**, wheather the number will be **positive or negative** will depend only on the **MSB**.
+
+* If **MSB=0** -> positive number -> no effect -> already in true form.
+* If **MSB=1** -> negative number -> has effect -> Again do 2's complement of the result.
+
+![image](https://user-images.githubusercontent.com/54589605/225004321-049c7222-2415-46bd-b3ae-17a358b72411.png)
+![image](https://user-images.githubusercontent.com/54589605/225004570-12a1a020-ee16-4eab-8d20-f92790c7ebe4.png)
+![image](https://user-images.githubusercontent.com/54589605/225005579-5de3bd0a-f371-4f16-bdda-83583b5eb867.png)
+
+* Cout -> Carry -> 0
+* Cin -> Carry for **MSB** bit -> 0
+* X -> Sign bit of 1st number(9 here) -> 0
+* Y -> Sign bit of 2nd number(4 here) -> 0
+* Z -> Sign bit of result(9 + 4)(+13 here) -> 0
+
+![image](https://user-images.githubusercontent.com/54589605/225006131-08504d46-179f-4e8e-82c1-dacde3cf6237.png)
+![image](https://user-images.githubusercontent.com/54589605/225006466-bd78d614-1519-45c6-abc2-195dc7e07097.png)
+![image](https://user-images.githubusercontent.com/54589605/225007080-1565fb19-e810-43b0-90fb-37d6c9e79c1f.png)
+![image](https://user-images.githubusercontent.com/54589605/225007945-d0fb6a35-451a-4bff-9205-2bac11bc2b7d.png)
+![image](https://user-images.githubusercontent.com/54589605/225008605-8847dcf0-7ab0-4fcc-adfb-b2ec00d84dd8.png)
+![image](https://user-images.githubusercontent.com/54589605/225008495-884cd893-4e73-46fb-8e5c-881e4d9d5031.png)
+![image](https://user-images.githubusercontent.com/54589605/225009174-50da61d8-e136-4663-8d67-c5665fbbfa5b.png)
+![image](https://user-images.githubusercontent.com/54589605/225009441-e3191408-7109-491f-9850-7d13f4faec10.png)
+![image](https://user-images.githubusercontent.com/54589605/225009573-d765d48a-9d4e-406f-a0b1-1bd24f95abdb.png)
+
+> There type of problem arises, if we take **less** no. of bits.
+
+![image](https://user-images.githubusercontent.com/54589605/225009809-23a46fab-28dd-43b3-9ef7-0dc3df046d21.png)
+![image](https://user-images.githubusercontent.com/54589605/225009889-5f08c605-da96-406d-9056-5b973979b2cc.png)
+![image](https://user-images.githubusercontent.com/54589605/225009909-b095b4f9-397a-43be-bd81-92e59617730c.png)
+![image](https://user-images.githubusercontent.com/54589605/225010322-dac73685-1d66-405d-943c-1e76e6ed2c05.png)
+
+> For **5 bits**, the range is from **-16** to **+15**, but the expected answer from **-9-8** is **-17**, which is out of range for **5 bits**, that's why we are getting **+15** as the answer instead of **-17**, as we have used **less** no. of bits. So the **answer which is -17** is out of the range.
+
+![image](https://user-images.githubusercontent.com/54589605/225010395-1599214b-013b-4c5c-bad0-b9276d165a7f.png)
+
+> Here also, we have used **5 bits**, the range is from **-16** to **+15**. But the expected answer for **9+8** is **+17** which is out of rande for **5 bits**, that why we are getting **-15** as the answer instead of **+17**, because of the **less** no. of bits used.
+
+## Overflow condition
+
+![image](https://user-images.githubusercontent.com/54589605/225011005-e49c2102-c174-489d-ad8b-7552eaaace9c.png)
+
+
+
+
+
+
+
+
+
+ 
+
 * Upload the rest of the doubts of digital, uploaded till **Image 15**. Some of the solutions are present check them out.
-
-
-
-
-
-
-
-
-
 * After This video, do the **5** daily assignments. (**DONE**)
 * After that do **DPP 1**. (**DONE**)
 
@@ -3144,6 +3318,12 @@ y= M(0,3)
 ![image](https://user-images.githubusercontent.com/54589605/224941222-42fe7b0c-080c-4fcd-95bc-369a78af0d0a.png)
 ![image](https://user-images.githubusercontent.com/54589605/224941240-ad61594b-904d-4b4c-b7b9-0097e8a76a3d.png)
 
+### Q2
+
+![image](https://user-images.githubusercontent.com/54589605/224943429-e586278d-2a8d-4336-be07-eacb48e2cf80.png)
+![image](https://user-images.githubusercontent.com/54589605/224943482-048840e7-ee10-4938-b1f0-4ce07b324241.png)
+
+> Here, the numbers are in different number systems. We have to guess the number systems then it would be easier to find the number.
 
 
 
