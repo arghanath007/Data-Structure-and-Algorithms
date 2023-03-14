@@ -2718,7 +2718,7 @@ y= M(0,3)
 ![image](https://user-images.githubusercontent.com/54589605/224735074-0dcbb3a8-38a2-4c2b-b43e-1df1c713012c.png)
 
 
-* Upload the rest of the doubts of digital, uploaded till **Image 13**. Some of the solutions are present check them out.
+* Upload the rest of the doubts of digital, uploaded till **Image 15**. Some of the solutions are present check them out.
 
 
 
@@ -3073,16 +3073,6 @@ y= M(0,3)
 
 ### Solutions
 
-### Q5
-
-* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/B0C11533F7
-
-![image](https://user-images.githubusercontent.com/54589605/224917477-7ddf3104-5cd6-4ea9-a0f6-e0171bff822b.png)
-![image](https://user-images.githubusercontent.com/54589605/224917435-f1b5a7e4-ddc5-4c02-89da-7214831d39b8.png)
-
-> The video solution also mentioned that the **3rd variable** is not mentioned in the options. Check it.
-
-
 ### Q4
 
 * Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/C6A01A8C34
@@ -3106,7 +3096,10 @@ y= M(0,3)
 
 ![image](https://user-images.githubusercontent.com/54589605/224927374-2ddc6538-d88d-4b13-8131-2610673d5b7f.png)
 ![image](https://user-images.githubusercontent.com/54589605/224927448-2b5f6d87-7ebe-4f23-8432-5aac22e36e55.png)
+![image](https://user-images.githubusercontent.com/54589605/224917477-7ddf3104-5cd6-4ea9-a0f6-e0171bff822b.png)
+![image](https://user-images.githubusercontent.com/54589605/224917435-f1b5a7e4-ddc5-4c02-89da-7214831d39b8.png)
 
+> The video solution also mentioned that the **3rd variable** is not mentioned in the options. Check it.
 
 
 ### Q6
@@ -3128,6 +3121,20 @@ y= M(0,3)
 * Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/6E1DF1ADA6
 
 > Waiting for the solution. Got solution for a different question.
+
+### Q9
+
+
+### Q10
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/2F1B48BB6E
+
+![image](https://user-images.githubusercontent.com/54589605/224928674-13c5acd4-460d-424a-ada9-5f7b1fb7ab4f.png)
+![image](https://user-images.githubusercontent.com/54589605/224929243-2890582f-4b19-4861-815b-57cbd95540ec.png)
+![image](https://user-images.githubusercontent.com/54589605/224929403-e5ff8f1a-3528-4a61-86e5-1106485fe4a0.png)
+
+> Only **b and c** were correct but in the quiz **a,b and c** were correct.
+
 
 
 
