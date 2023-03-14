@@ -2908,20 +2908,209 @@ y= M(0,3)
 ![image](https://user-images.githubusercontent.com/54589605/225022214-49607ae3-913b-4514-8bc9-20561006366b.png)
 
 
-
 ## Overflow condition
 
 ![image](https://user-images.githubusercontent.com/54589605/225011005-e49c2102-c174-489d-ad8b-7552eaaace9c.png)
 
 
+## Combinational_Circuits_IV (21) [14th March 2023]
+
+### Revision
+
+![image](https://user-images.githubusercontent.com/54589605/225023655-b01184af-2a72-4361-b633-8e4dee835728.png)
+
+* Correct. **9+4 -> +13**.
+
+![image](https://user-images.githubusercontent.com/54589605/225023951-95eed351-e766-4177-af5d-6fa0de95bbac.png)
+
+* Correct. **9 - 4 -> +5**.
+
+![image](https://user-images.githubusercontent.com/54589605/225024557-857237c2-f929-4d8f-b240-8274f59ef991.png)
+
+* Correct. **-9 + 4 -> -5**.
+
+![image](https://user-images.githubusercontent.com/54589605/225024861-51a6e82b-a231-4c61-9ee0-cb35726fbd0f.png)
+
+* Correct. **-9 - 4 -> -13**.
+
+![image](https://user-images.githubusercontent.com/54589605/225025354-ac1183af-7fab-4387-a0c4-206177952e23.png)
+
+* In-correct. **9 + 8 -> -15**. It should give **+17** and not **-15**.
+
+![image](https://user-images.githubusercontent.com/54589605/225025643-74e891a7-d2f0-47bc-b623-7d322906ead2.png)
+
+* In-correct. **-9 - 8 -> +15**. It should give **-17** and not **+15**.
+
+![image](https://user-images.githubusercontent.com/54589605/225025884-95edc890-e20b-4ade-8cbe-fa6de7867120.png)
+
+> Because of **less no. of bits**. 
+> If we **increase the no. of bits**, then the problem gets eliminated.
 
 
+## Overflow Condition
+
+![image](https://user-images.githubusercontent.com/54589605/225026650-09a21529-c0c8-4c7e-831b-e524a01fa8ff.png)
+![image](https://user-images.githubusercontent.com/54589605/225027384-cee3014e-a676-41bb-868b-3dc009e98275.png)
+
+> The problem/condition happens when we try to **add** **same sign** numbers, **both positive or both negative**.
+> If we do, one positive and one negative, then we will never have that problem. 
+
+> **Overflow** occurs when **two same sign** numbers are added.
+> We have to design the system in such a way that if an **overflow** occurs then we have to **increase the bit size**.
+
+![image](https://user-images.githubusercontent.com/54589605/225029284-f96a6d8e-71d1-41df-b30b-5b6710a96922.png)
+![image](https://user-images.githubusercontent.com/54589605/225029607-063a3599-2a14-4393-9a90-d91dc9153816.png)
+
+* No **overflow**. Above question
+* Cin -> 0
+* Cout -> 0
+* **Cin Ex-OR Cout** -> **zero(0)**
+
+> As **Cin Ex-OR Cout** equals to **zero(0)**, hence no **overflow**.
+
+![image](https://user-images.githubusercontent.com/54589605/225029715-58a339c6-caaf-4183-9f77-be5f6d1ea3dc.png)
+
+* No **overflow**. Above question
+* Cin -> 1
+* Cout -> 1
+* **Cin Ex-OR Cout** -> **zero(0)**
+
+> As **Cin Ex-OR Cout** equals to **zero(0)**, hence no **overflow**.
+
+![image](https://user-images.githubusercontent.com/54589605/225030027-24fce68b-8355-40c9-8925-14a8fadbfd51.png)
+![image](https://user-images.githubusercontent.com/54589605/225030160-1aee5bb8-c72e-49ac-a570-a7dd15afad26.png)
+![image](https://user-images.githubusercontent.com/54589605/225030234-71ec9ec3-5b5c-493e-8e58-b51aa40333e6.png)
+
+* **Overflow**. Above question
+* Cin -> 1
+* Cout -> 0
+* **Cin Ex-OR Cout** -> **One(1)**
+
+> As **Cin Ex-OR Cout** equals to **One(1)**, hence **overflow** occured here.
+
+![image](https://user-images.githubusercontent.com/54589605/225030519-64bcd572-2186-4e1d-a32e-6f2afd792218.png)
+
+* **Overflow**. Above question
+* Cin -> 1
+* Cout -> 0
+* **Cin Ex-OR Cout** -> **One(1)**
+
+> As **Cin Ex-OR Cout** equals to **One(1)**, hence **overflow** occured here.
+
+![image](https://user-images.githubusercontent.com/54589605/225030700-0e9be5ed-7e5c-412c-8761-2e9ae6b6bbfe.png)
+![image](https://user-images.githubusercontent.com/54589605/225030858-82fc7845-748f-4eca-93d8-4bf57a686227.png)
+
+> Whenever we have **Cin Ex-OR Cout** equals to **One(1)** or **Cin Ex-OR Cout = 1**, then **overflow** occurs.
+> Whenever we have **Cin Ex-OR Cout** equals to **zero(0)** or **Cin Ex-OR Cout = 0**, then there is **no overflow** occurs.
 
 
+### 1. Using **carry bits(Above)**.
 
+![image](https://user-images.githubusercontent.com/54589605/225031366-cc294c75-2344-4bb9-9bbd-4d47195385ee.png)
+![image](https://user-images.githubusercontent.com/54589605/225031502-e81c712d-ad4d-44e7-aee2-4250ef612077.png)
 
+### 2. Using **sign bits**.
 
+* X -> Sign bit of 1st number
+* Y -> Sign bit of 2nd number
+* Z -> Sign bit of result(1st op 2nd) [op -> operator]
+
+![image](https://user-images.githubusercontent.com/54589605/225032137-a03ee0d6-5d0a-429c-b210-b77002fd766a.png)
+![image](https://user-images.githubusercontent.com/54589605/225032217-92279f48-966e-46a6-a639-fc9ecb9dee85.png)
+![image](https://user-images.githubusercontent.com/54589605/225032267-16cf4da7-9386-4214-b25a-c8052ab0c997.png)
+![image](https://user-images.githubusercontent.com/54589605/225032349-8d433ae5-c716-46fe-ab5d-e384ae55405d.png)
+![image](https://user-images.githubusercontent.com/54589605/225032809-53f78edb-e69d-4abe-9483-bfba2ab0114e.png)
+
+![image](https://user-images.githubusercontent.com/54589605/225033543-1eb18093-4893-4d15-92a3-4b4c0de07055.png)
+
+* x=0,y=0, z=1
+
+> We get **X'y'z**. **X' = 0** is a **positive number system. **y' = 0** is also a positive number.
+> If we add two positive nubers, it should be a **positive number(z)** but **z=1**, which means **z** is a **negative number**. If **Z=1** means that **z** is the resultant of the two positive numbers(x and y), indicating as a **negative number**. This will **never happen**, addition of **two** positive numbers gives **resultant  number as negative(z). Hence we have **overflow** here.
+> If we add **two** numbers then the resultant number cannot be a **negative number**.
+
+![image](https://user-images.githubusercontent.com/54589605/225035872-f0dcd131-5c88-4c99-925c-b7de9796b425.png)
+![image](https://user-images.githubusercontent.com/54589605/225039339-d8b9f851-d8a9-4f4d-b51b-f4ff126187bf.png)
+
+> We get **Xyz'**. **X=1** is a **negative number**, **y=1** is also a **negative number**.
+> If we add **two negative number**, it should be a **negative number(z)** but **z=0**, which means **z** is a **positive number**. If **Z=0** means that **z** is the resultant of the two negative numbers(x and y), indicating as a **positive number**. This will **never happen**, addition of **two** negative numbers gives **result number as positive(z). Hence we have **overflow** here.
+> If we add **two negative numbers** then the resultant number cannot be a **positive number**.
+
+![image](https://user-images.githubusercontent.com/54589605/225039783-bc79f8f9-c093-4454-babd-c619fb7174fd.png)
+
+### Case 1
+
+* X=0
+* Y=0
+* Z=1
+* X'Y'Z -> Addition of two positive numbers(X and Y), gives negative number(z). Not possible and hence **overlfow** condition.
+
+### Case 2
+
+* X=1
+* Y=1
+* Z=0
+* XYZ' -> Addition of two negative numbers(X and Y), gives positive number(z). Not possible and hence **overlfow** condition.
+
+![image](https://user-images.githubusercontent.com/54589605/225040930-c1f3f736-1e34-42ee-b54b-f7cd3bc321a5.png)
+![image](https://user-images.githubusercontent.com/54589605/225041447-6fd0cd09-ca47-4b8d-9604-769a4f31b283.png)
+
+> We can eliminate **overflow** by **increasing the no. of bits**.
+
+![image](https://user-images.githubusercontent.com/54589605/225042057-2e426605-6202-4c2d-b77a-de8ed676e0b1.png)
+![image](https://user-images.githubusercontent.com/54589605/225042271-d75a9e1f-424a-472c-8483-e6f427097d81.png)
+
+> Initially we had **5 bits**, now we are adding **1 more bit** here(with black pen). 
+> Now for **9 + 8 -> +17**, we got **+17**, which is the **correct answer** by **increasing** the no. of bits.
+
+![image](https://user-images.githubusercontent.com/54589605/225043116-6525821d-cf67-41b4-9026-486ba2631963.png)
+![image](https://user-images.githubusercontent.com/54589605/225043163-7c7a88dc-7695-4966-80ba-611e573670a4.png)
+![image](https://user-images.githubusercontent.com/54589605/225043373-0a5de5f3-45b0-45ce-885e-a314514ce0b2.png)
+
+> Overflow when the **sign bits** were the **same** but the resultant **sign bit** was **different**.
+
+![image](https://user-images.githubusercontent.com/54589605/225045473-3cc3e1d3-c8ef-4bbb-a283-008760d193ee.png)
+![image](https://user-images.githubusercontent.com/54589605/225045902-d43f57ee-061e-4770-b35c-81b7ccd48566.png)
+
+> In **Method 3**, **X=Y** but Z does't equal to **X or Y**, hence **overflow**.
  
+## Binary Codes
+
+![image](https://user-images.githubusercontent.com/54589605/225046538-b64be38f-98ec-42a8-810c-abe3a1cc8398.png)
+![image](https://user-images.githubusercontent.com/54589605/225047787-fb77d3c4-ae1b-4b15-a162-2f06e5efdc25.png)
+![image](https://user-images.githubusercontent.com/54589605/225048797-3d92491a-2f5f-40f3-b542-2fec1e07b9bc.png)
+![image](https://user-images.githubusercontent.com/54589605/225084180-9aa49570-ddd3-4717-b5aa-e348355222c7.png)
+![image](https://user-images.githubusercontent.com/54589605/225084389-1f4c15f2-286d-424e-8893-04b0854730de.png)
+![image](https://user-images.githubusercontent.com/54589605/225084955-fe010ffc-f068-4fb8-9833-e07f0f8c6aa9.png)
+
+* (27) base 10
+* (27) base 10 -> (00100111) -> BCD code
+* (27) base 10 -> (11011) base 2 -> Binary code
+
+> In BCD we are using **8 bits** to store 27 but in binary we are just using **5 bits** to store 27.
+
+![image](https://user-images.githubusercontent.com/54589605/225085553-ed4a40eb-a042-4b1b-b38d-d18cf208b4fe.png)
+![image](https://user-images.githubusercontent.com/54589605/225085641-de7d8181-934c-40bf-8f10-671de7119fdc.png)
+![image](https://user-images.githubusercontent.com/54589605/225085917-7602f8b1-1117-4464-8c1e-45c236526989.png)
+
+> Adding **6 or 0110**, that number comes a valid BCD.
+> **0 to 9** are **valid BCDs**. After that **10,11,12 etc** they are invalid or not valid BCDs.
+> From **0 to 9**, BCD and binary are the same.
+
+![image](https://user-images.githubusercontent.com/54589605/225088421-732de4ee-27da-463e-8ac3-b2ffa5b78299.png)
+![image](https://user-images.githubusercontent.com/54589605/225088842-7bd22d96-3503-44b6-977a-e81c43d208d5.png)
+
+> **8421** only is called as the **Natutal BCD**.
+
+![image](https://user-images.githubusercontent.com/54589605/225088904-cc1f1c9a-5982-4d04-bf41-4ce3db7eb831.png)
+
+
+* Start from **1hr 7mins**.
+
+
+
+
+
 
 * Upload the rest of the doubts of digital, uploaded till **Image 15**. Some of the solutions are present check them out.
 * After This video, do the **5** daily assignments. (**DONE**)
