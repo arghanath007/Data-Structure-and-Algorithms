@@ -2462,9 +2462,18 @@ y= M(0,3)
 
 > Here we have **1 and 2** values in the question. Let, 'b' be the base. To hold values **1 and 2**, we need **minimum base of 3** as **3** can have values from **0 to 2**. **3** onwards we can take any values. We have to give minimum value, that's why **b=3** is the answer.  
 
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/7DB99DE5C0
+
 ![image](https://user-images.githubusercontent.com/54589605/224652225-d6d90a41-420c-452f-89b0-7e61d61391e0.png)
 
 > Here, we are **squaring both sides**, then on the left we did polynomial expansion of the base and got **b=6** as the answer.
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/A9EA2D5F9B
+
+![image](https://user-images.githubusercontent.com/54589605/225013506-baf01b4d-facc-445e-a2e8-a44d7645db7e.png)
+![image](https://user-images.githubusercontent.com/54589605/225013599-af483be5-1c8d-4918-9900-a645a5abd827.png)
+
+
 
 
 ## Complement Analysis
