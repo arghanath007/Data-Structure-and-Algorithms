@@ -2454,10 +2454,17 @@ y= M(0,3)
 ![image](https://user-images.githubusercontent.com/54589605/224649928-089d7f79-3147-4f40-aea9-445e958c7fd7.png)
 
 > **b=7** only and not **10**. Always, we have to give **minimum base**. Whenever they ask for **base**, we have to give **minimum base** only. **Minimum 7** means that above **7**, all values will be **satisfied**.
+> For **base 7**, we get values from **0-6**. As the question has the highest value of **6**, that why we put **7** as the answer. 
+> **2 and 6** options are not correct because **base 2** can hold **0 and 1** only and as for **6** it can hold **0 to 5**. Both of them cannot have **6** in their range that's why.
 
 [**IMPORTANT**]
 ![image](https://user-images.githubusercontent.com/54589605/224651191-bde1f64e-a3b2-4d6b-a2e7-88c0fe40098c.png)
+
+> Here we have **1 and 2** values in the question. Let, 'b' be the base. To hold values **1 and 2**, we need **minimum base of 3** as **3** can have values from **0 to 2**. **3** onwards we can take any values. We have to give minimum value, that's why **b=3** is the answer.  
+
 ![image](https://user-images.githubusercontent.com/54589605/224652225-d6d90a41-420c-452f-89b0-7e61d61391e0.png)
+
+> Here, we are **squaring both sides**, then on the left we did polynomial expansion of the base and got **b=6** as the answer.
 
 
 ## Complement Analysis
@@ -2709,6 +2716,9 @@ y= M(0,3)
 ![image](https://user-images.githubusercontent.com/54589605/224735010-e54c73a3-07b8-40bd-9472-a51b51047d53.png)
 ![image](https://user-images.githubusercontent.com/54589605/224735050-02469cb3-36c5-485c-9a51-45eb4a9da4a1.png)
 ![image](https://user-images.githubusercontent.com/54589605/224735074-0dcbb3a8-38a2-4c2b-b43e-1df1c713012c.png)
+
+
+* Upload the rest of the doubts of digital, uploaded till **Image 13**. Some of the solutions are present check them out.
 
 
 
