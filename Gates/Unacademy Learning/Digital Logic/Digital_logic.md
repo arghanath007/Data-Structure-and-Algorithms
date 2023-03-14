@@ -3071,7 +3071,63 @@ y= M(0,3)
 
 * Link -> https://unacademy.com/quiz/quiz-iii/CXYPV272GG/solutions/SP_PUXNX0XD1XLJZO351
 
+### Solutions
 
+### Q5
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/B0C11533F7
+
+![image](https://user-images.githubusercontent.com/54589605/224917477-7ddf3104-5cd6-4ea9-a0f6-e0171bff822b.png)
+![image](https://user-images.githubusercontent.com/54589605/224917435-f1b5a7e4-ddc5-4c02-89da-7214831d39b8.png)
+
+> The video solution also mentioned that the **3rd variable** is not mentioned in the options. Check it.
+
+
+### Q4
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/C6A01A8C34
+
+> Here, we have to create the truth table.
+
+* 0 0 -> 0 [Open circuit]
+* 0 1 -> 1 [Closed Circuit and bulb glows]
+* 1 0 -> 1 [Closed Circuit and bulb glows]
+* 1 1 -> 0 [Open circuit]
+
+![image](https://user-images.githubusercontent.com/54589605/224918888-1c5f45d2-0652-4fe6-849e-5e4ed4819de5.png)
+![image](https://user-images.githubusercontent.com/54589605/224919060-3cd9ec97-d183-4748-905e-7f652c3f3a78.png)
+![image](https://user-images.githubusercontent.com/54589605/224919282-10bfc786-b742-4d3b-ba94-1a6098cd5f45.png)
+
+> The circuit is behaving like an **odd '1'** detector. We have that **Ex-OR** acts as an **odd '1'** detector.
+
+### Q5
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/B0C11533F7
+
+![image](https://user-images.githubusercontent.com/54589605/224927374-2ddc6538-d88d-4b13-8131-2610673d5b7f.png)
+![image](https://user-images.githubusercontent.com/54589605/224927448-2b5f6d87-7ebe-4f23-8432-5aac22e36e55.png)
+
+
+
+### Q6
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/7927390292
+
+### Q7
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/E662A2BF2C
+
+> The video solution also said the answer should be **F + (A + B + C) * DE**. Which is option **A**, but the quiz gave **option D** as the answer. 
+
+![image](https://user-images.githubusercontent.com/54589605/224923101-605058de-e6ce-44c6-b43a-ccf064c16b6d.png)
+![image](https://user-images.githubusercontent.com/54589605/224923426-31bd51ef-3074-4a81-ac10-767a50dc2317.png)
+![image](https://user-images.githubusercontent.com/54589605/224923498-9f313a8c-d681-451b-9a7c-45772042db74.png)
+
+### Q8
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/6E1DF1ADA6
+
+> Waiting for the solution. Got solution for a different question.
 
 
 
