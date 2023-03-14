@@ -3140,6 +3140,10 @@ y= M(0,3)
 
 * Link -> https://unacademy.com/quiz/quiz-iv/DCB01ZEY3S/solutions/SP_QVL4A30HZ0V6VOTZG
 
+![image](https://user-images.githubusercontent.com/54589605/224941205-86b0b2c5-32a3-4ff0-aef5-3984a26a060a.png)
+![image](https://user-images.githubusercontent.com/54589605/224941222-42fe7b0c-080c-4fcd-95bc-369a78af0d0a.png)
+![image](https://user-images.githubusercontent.com/54589605/224941240-ad61594b-904d-4b4c-b7b9-0097e8a76a3d.png)
+
 
 
 
