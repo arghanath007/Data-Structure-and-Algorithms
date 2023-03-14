@@ -2896,6 +2896,19 @@ y= M(0,3)
 
 > Here also, we have used **5 bits**, the range is from **-16** to **+15**. But the expected answer for **9+8** is **+17** which is out of rande for **5 bits**, that why we are getting **-15** as the answer instead of **+17**, because of the **less** no. of bits used.
 
+![image](https://user-images.githubusercontent.com/54589605/225021788-48431fe2-b1f1-4023-b6eb-1eda5c044293.png)
+![image](https://user-images.githubusercontent.com/54589605/225021892-122eaa4f-8f53-4f25-8479-83dad42a6cb4.png)
+![image](https://user-images.githubusercontent.com/54589605/225021999-d8448b13-6b13-4186-b839-87edb798a462.png)
+![image](https://user-images.githubusercontent.com/54589605/225022048-731d1b0d-9f6d-4198-af5d-523b731bf9b3.png)
+![image](https://user-images.githubusercontent.com/54589605/225022089-69924b3b-91b5-470c-91d9-e11189727b54.png)
+![image](https://user-images.githubusercontent.com/54589605/225022119-b153e24a-fccf-4fc2-b4fb-fdd240de32c2.png)
+![image](https://user-images.githubusercontent.com/54589605/225022144-f51021e2-470a-4d1c-a33c-be55b397d0d3.png)
+![image](https://user-images.githubusercontent.com/54589605/225022167-1fd18ac6-d527-4f10-a02f-00adf34e8acd.png)
+![image](https://user-images.githubusercontent.com/54589605/225022186-fbdd7a9f-886a-4e75-ac12-de9e43a969c2.png)
+![image](https://user-images.githubusercontent.com/54589605/225022214-49607ae3-913b-4514-8bc9-20561006366b.png)
+
+
+
 ## Overflow condition
 
 ![image](https://user-images.githubusercontent.com/54589605/225011005-e49c2102-c174-489d-ad8b-7552eaaace9c.png)
@@ -3333,6 +3346,21 @@ y= M(0,3)
 ![image](https://user-images.githubusercontent.com/54589605/224943482-048840e7-ee10-4938-b1f0-4ce07b324241.png)
 
 > Here, the numbers are in different number systems. We have to guess the number systems then it would be easier to find the number.
+
+### Q7
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/350A12D163
+
+> The first video is a solution of a **different** question.
+
+![image](https://user-images.githubusercontent.com/54589605/225016454-f83098d4-c65f-4e13-a7bd-c83ebb3f7a26.png)
+![image](https://user-images.githubusercontent.com/54589605/225016807-02d3222d-1135-4986-b377-cd0d63254a4b.png)
+
+> My Solution after seeing the above solution for similar type question.
+
+![image](https://user-images.githubusercontent.com/54589605/225017743-55e7b256-f6a4-4fbe-b177-13214c9e682c.png)
+![image](https://user-images.githubusercontent.com/54589605/225019226-48c4334b-8fa0-4d44-ba22-9bbbf1cec2b7.png)
+
 
 
 
