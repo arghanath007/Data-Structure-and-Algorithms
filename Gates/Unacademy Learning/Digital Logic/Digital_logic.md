@@ -3247,10 +3247,162 @@ y= M(0,3)
 ![image](https://user-images.githubusercontent.com/54589605/225188399-e9da5c7b-656f-4e10-ad0b-af59dd2b67a8.png)
 ![image](https://user-images.githubusercontent.com/54589605/225188415-fbaf2b6d-4687-4075-8b4b-0bf335e6f6e5.png)
 
+## Sequential Circuits-I (22) [15th March 2023]
+
+## Parity Bit
+
+### Even Parity
+
+> We have to make sure that **message + parity** gives **even** no. of 1s.
+> **0** 1's is **even**.
+
+![image](https://user-images.githubusercontent.com/54589605/225281505-516508f4-b473-4e2c-8dc7-e572dac720e8.png)
+
+### Even Parity Generator
+
+> We have **4 bits** here.
+> The ouput of Ex-OR gate is **1** for **odd** no. of **1s**.
+> If the message contains **odd** no. of 1s, then the output of Ex-OR gate is **1** which means parity bit or **p=1**. Parity bit plus odd no. of 1s in the message, together they(parity bit + message) contain **even** no. of 1s. So, we can call it as a **even parity** circuit.
+
+![image](https://user-images.githubusercontent.com/54589605/225283547-1022ef08-b3d6-4ecf-9fff-2494e027ac2c.png)
+![image](https://user-images.githubusercontent.com/54589605/225283808-bb9d6210-74e3-47f4-8b46-55349d8bbd32.png)
+
+> The ouput of Ex-OR gate is **0** for **even** no. of **1s**.
+> If the message contains **even** no. of 1s, then the output of Ex-OR gate is **0** which means parity bit or **p=0**. Parity bit plus even no. of 1s in the message, together they(parity bit + message) contain **even** no. of 1s. So, we can call it as a **even parity** circuit.
+
+![image](https://user-images.githubusercontent.com/54589605/225284218-356a1dd3-dbd9-4b51-8cbc-fdcada84d107.png)
+![image](https://user-images.githubusercontent.com/54589605/225284397-24502506-c517-47d0-b87c-834955b2a6ac.png)
+
+> So this is called as an **even** parity generator.
+
+## Odd Parity
+
+![image](https://user-images.githubusercontent.com/54589605/225284848-f056dc01-4c9b-4872-b480-dab896a75c33.png)
+
+> We have to make sure that **message + parity** gives **odd** no. of 1s.
+
+## Odd Parity Generator
+
+> The ouput of Ex-OR gate is **1** for **odd** no. of **1s**.
+> If the message contains **odd** no. of 1s, then the output of Ex-OR gate is **1** and we have a **NOT** gate after the Ex-OR gate which means parity bit or **p=0**. Parity bit plus odd no. of 1s in the message, together they(parity bit + message) contain **odd + 0 ->odd** no. of 1s. So, we can call it as a **odd parity** circuit.
+
+![image](https://user-images.githubusercontent.com/54589605/225287430-de009824-103a-464a-b96f-32f606c0f917.png)
+
+> The ouput of Ex-OR gate is **0** for **even** no. of **1s**.
+> If the message contains **even** no. of 1s, then the output of Ex-OR gate is **0** and we have a **NOT** gate after the Ex-OR gate which means parity bit or **p=1**. Parity bit plus even no. of 1s in the message, together they(parity bit + message) contains **even + 1 -> odd** no. of 1s. So, we can call it as a **odd parity** circuit.
+
+![image](https://user-images.githubusercontent.com/54589605/225288009-e2ea42bb-b796-42eb-89cc-f599bb43225b.png)
+
+## Hamming Code
+
+> Applicable for detection and correction of 1-bit code errors. If it is more than 1 bit then hamming code will not work.
+
+![image](https://user-images.githubusercontent.com/54589605/225289219-3db8be0e-30f5-4098-a896-3ffb504b688a.png)
+
+> Now, we can say that no. of required **parity bits** for **n=2** no. of bits is **3 or p=3**. Using the relation, we can find the **required no. of parity bits**.
+
+![image](https://user-images.githubusercontent.com/54589605/225290446-a5264622-ec5b-48ee-bf6d-5d505ef95c89.png)
+![image](https://user-images.githubusercontent.com/54589605/225290955-9a11b88b-b0c4-4507-816b-882787949e2e.png)
+
+![image](https://user-images.githubusercontent.com/54589605/225292235-522abfd6-7cda-4023-8908-a7dcbd0f981d.png)
+
+> There is no direct relation between **n and p**. The relation we need to consider.
+
+### Location of Parity bits
+
+* Parity bit location -> **2^m** only
+* No. of parity bits(p) =3
+
+> When **m=0**, we get **p1** that is a parity bit. -> 2^m -> 2^0 -> 1 -> p1
+> When **m=1**, we get **p2** that is a parity bit. -> 2^m -> 2^1 -> 2 -> p2
+> When **m=2**, we get **p4** that is a parity bit. -> 2^m -> 2^2 -> 4 -> p4
+
+> These are the location of the **parity bits**.
+
+* No. of parity bits(p) =5
+
+> When **m=0**, we get **p1** that is a parity bit.
+> When **m=1**, we get **p2** that is a parity bit.
+> When **m=2**, we get **p4** that is a parity bit.
+> When **m=3**, we get **p8** that is a parity bit.
+> When **m=4**, we get **p16** that is a parity bit.
+
+![image](https://user-images.githubusercontent.com/54589605/225301835-6afcbf03-bd3b-4632-9685-d115cbec9862.png)
+![image](https://user-images.githubusercontent.com/54589605/225301958-4aec573a-2052-4f95-b820-1ee14f35e9b8.png)
+
+
+> First we allocate the **parity bits** then we allocate the **data bits**.
+
+* Total message -> 4 + 3 -> 7 bits
+
+![image](https://user-images.githubusercontent.com/54589605/225302408-e7bba509-5ca3-444d-a224-3b396a1ecca6.png)
+
+> First we need to locate the **parity bits** locations first. Remaining location, we will locate the **data bits**.
+
+![image](https://user-images.githubusercontent.com/54589605/225302933-6c44a3ce-d3b6-411e-ad98-8303f21db6e3.png)
+![image](https://user-images.githubusercontent.com/54589605/225303147-9ee00d2c-1296-4737-8bc7-e3504fce8b50.png)
+
+> This is the **Hamming code**.
+> Data bits value we know, we need to find out the parity bit's value.
+
+![image](https://user-images.githubusercontent.com/54589605/225303715-bfb4971f-2580-4694-8152-894d8ae925b5.png)
+
+> We need to decide the parity bit, on what factors does the **p1** value depend. **p1** value will be **0 or 1** will be dependent on if it is an **even or an odd** parity. **p1** depends on **p1** also, we need to identify.
+> For **p1** case only the last bit is **1**. In the remaining cases, which has last bit as **1**. They are **1, 3, 5 and 7** and they correspond to **p1, d, c, a** respectively. The value of **p1** depends upon the values whose last bit is **1**.
+> For **p2** case, the middle bit is **1**. In the remaining cases, which has middle bit as **1**. They are **2, 3,6 and 7** and they correspond to **p2, d, b, a** respectively. The value of **p2** depends upon the values whose middle bit is **1**.
+> For **p4** case, the MSB or last bit is **1**. In the remaining cases, which has MSB bit as **1**. They are **4, 5,6 and 7** and they correspond to **p4, c, b, a** respectively. The value of **p4** depends upon the values whose MSB bit is **1**.
+
+![image](https://user-images.githubusercontent.com/54589605/225305970-8704f250-4dee-49af-ba42-ab37c0296250.png)
+
+> We need to decide the value of **p1**. The value of **p1** will be decided based on these(p1 dca) group. Let's call it as **even parity**. So, we need to select the value of **p1**, such that these(p1 dca) group contains **even no. of 1s**. As **dca** are **data bits**, we know their values. If we want to develop as an **even parity**, we need to ensure that the complete group(p1 dca) contains **even** no. of 1s.
+
+![image](https://user-images.githubusercontent.com/54589605/225306204-40638d4f-1b83-4345-8c3d-24c9781b1246.png)
+![image](https://user-images.githubusercontent.com/54589605/225308582-cf0c0dd6-87ca-4b01-8085-885e0dd7378a.png)
+
+![image](https://user-images.githubusercontent.com/54589605/225324731-eb75a623-f523-458a-ae15-e6236ee0fe33.png)
+![image](https://user-images.githubusercontent.com/54589605/225325584-098a4d0d-05c3-4aaa-b72f-f9aebe6558f6.png)
+
+![image](https://user-images.githubusercontent.com/54589605/225328919-ccb459b5-82bd-4420-9a46-63a19650c72d.png)
+![image](https://user-images.githubusercontent.com/54589605/225328956-94491e7e-2c2d-4699-92e0-58593525f303.png)
+![image](https://user-images.githubusercontent.com/54589605/225329063-3d15ea93-2702-474f-9f41-6d0c6a1c09c9.png)
+
+> It gives the location of the **correction**. **p4p2p1** gives us the **location of the correction**, based on that we can do the correction. 
+
+![image](https://user-images.githubusercontent.com/54589605/225331581-dc808b78-406d-4ec9-9ddc-3be97621a647.png)
+
+> Correct data. No error. 
+
+![image](https://user-images.githubusercontent.com/54589605/225333673-edaaeb4b-9ce0-4cf6-9a45-f0ebf14188bc.png)
+
+> Sir will check and tell in next class. 
+
+![image](https://user-images.githubusercontent.com/54589605/225335519-eada81fd-3abd-45d2-b43c-bfd4b0077b38.png)
+
+> We took the 2's complement of **+11 -> 001011** and got **-11 -> 110101** which is the answer.
+
+![image](https://user-images.githubusercontent.com/54589605/225337387-56b57ddf-d90b-4cb0-b7c6-23fd4890db0d.png)
+![image](https://user-images.githubusercontent.com/54589605/225338060-fcf55c9e-f9b9-492b-a8d2-d8465feaab78.png)
+![image](https://user-images.githubusercontent.com/54589605/225338824-eef48532-d948-484a-850b-760a592ceb6b.png)
+![image](https://user-images.githubusercontent.com/54589605/225339683-872a4511-35bf-41a5-9871-997f65d5e525.png)
+![image](https://user-images.githubusercontent.com/54589605/225339995-96232e59-9943-4141-a8a6-8d4829548122.png)
+![image](https://user-images.githubusercontent.com/54589605/225341210-090b5167-55d6-4b49-85a4-10f3b672ced2.png)
+![image](https://user-images.githubusercontent.com/54589605/225342507-1ea72e28-399c-45e1-a1e1-5d41c472baf8.png)
+![image](https://user-images.githubusercontent.com/54589605/225344673-2c908369-e3b6-4f2a-ba6b-08546d94917e.png)
+![image](https://user-images.githubusercontent.com/54589605/225344731-655f7e02-09b4-4666-908d-10d42b2d0677.png)
+![image](https://user-images.githubusercontent.com/54589605/225344777-13578ed4-2fa3-4b58-8942-fa24fbf3b15b.png)
+![image](https://user-images.githubusercontent.com/54589605/225344804-0440e251-0b4c-41df-9e5d-4fbfae47ff06.png)
+![image](https://user-images.githubusercontent.com/54589605/225344834-9ca6a521-1ae4-4d24-88e7-d96719b09518.png)
+![image](https://user-images.githubusercontent.com/54589605/225344869-ffe302c2-39d3-476e-b529-ffd499386b1d.png)
+![image](https://user-images.githubusercontent.com/54589605/225344895-e14d36ea-0932-4cf0-a95b-4c5fdad2eed5.png)
+![image](https://user-images.githubusercontent.com/54589605/225344939-90ef4954-cf2c-4b15-94eb-ca5d7446e928.png)
+![image](https://user-images.githubusercontent.com/54589605/225344974-cd2866e9-feef-4ec6-bee2-e7bef91f9ce0.png)
+![image](https://user-images.githubusercontent.com/54589605/225345017-b73a6255-a2f4-43fb-a7d9-93a3addfb2b5.png)
 
 
 
 
+
+ 
 
 
 
@@ -3695,6 +3847,13 @@ y= M(0,3)
 
 ![image](https://user-images.githubusercontent.com/54589605/225017743-55e7b256-f6a4-4fbe-b177-13214c9e682c.png)
 ![image](https://user-images.githubusercontent.com/54589605/225019226-48c4334b-8fa0-4d44-ba22-9bbbf1cec2b7.png)
+
+### Q10
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/29CF7082F7
+
+![image](https://user-images.githubusercontent.com/54589605/225279680-a289ca1d-2f14-478c-868c-4f1d0b841644.png)
+![image](https://user-images.githubusercontent.com/54589605/225279812-3a89d440-1551-45cf-8ce8-77f1b1ecf24c.png)
 
 
 
