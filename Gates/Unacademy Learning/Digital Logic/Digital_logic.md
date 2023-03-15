@@ -3103,9 +3103,155 @@ y= M(0,3)
 > **8421** only is called as the **Natutal BCD**.
 
 ![image](https://user-images.githubusercontent.com/54589605/225088904-cc1f1c9a-5982-4d04-bf41-4ce3db7eb831.png)
+![image](https://user-images.githubusercontent.com/54589605/225176549-4a659d03-2296-4ce1-9bbd-43235f7b68c4.png)
+![image](https://user-images.githubusercontent.com/54589605/225177044-8aab8d73-31c4-44a6-b386-d91f1ca3d6a7.png)
+
+> **BCD** means **0 to 9**. **14** is not valid.
+
+> We are finding for **9** using **742'1'**. For **9** we need 7 and 2. We need **2** but we have **2'**, so we will put **0** for **2'** which shows **2'** is not required but **2** is required. We dont need **1** so we will put **1'** as 1, as we don't need **1**, which means we need **1'**.
+> Which means if we need **2**, then we don't need **2'**.
+> Which means if we don't need **1**, then we need **1'**.
+
+* 742'1' -> 1001
+
+![image](https://user-images.githubusercontent.com/54589605/225177757-cadeae65-a4c2-48c9-a9d1-4bba598dbc8a.png)
+
+> If we are able to express all the values from **0 to 9** using that code, then only we can say that it is a **valid BCD** code.
+> If some numbers cannot be expressed then that code is **not a valid BCD code**.
+
+![image](https://user-images.githubusercontent.com/54589605/225178003-3aca401d-d27f-4993-8500-32bdc0d3e3d7.png)
+
+> Both are correct only.
 
 
-* Start from **1hr 7mins**.
+## BCD Addition
+
+![image](https://user-images.githubusercontent.com/54589605/225178054-2d2408fe-17f1-43dc-ae96-f39befd46f88.png)
+![image](https://user-images.githubusercontent.com/54589605/225178404-50227f04-d13f-4173-8c39-5fafb9de978f.png)
+
+* When we can say that a number is a valid BCD or not?
+
+> When the sum of the number is between 0 to 9.
+> If the sum is more than **9** then it is an invalid BCD number.
+
+![image](https://user-images.githubusercontent.com/54589605/225178575-5a82fa25-642e-46f1-8509-5ba39c2f4488.png)
+![image](https://user-images.githubusercontent.com/54589605/225178606-502188be-34cf-4176-b97b-54c8c74d3168.png)
+![image](https://user-images.githubusercontent.com/54589605/225178775-ec82b047-86f8-4c5f-a5dc-eabc61f70d26.png)
+![image](https://user-images.githubusercontent.com/54589605/225178821-de1b268d-3d55-4cff-84da-1f236fd0db94.png)
+![image](https://user-images.githubusercontent.com/54589605/225179401-04a089fc-7f85-45b8-b732-4e9b8b6c81ab.png)
+![image](https://user-images.githubusercontent.com/54589605/225179370-a61fcf0a-bb1a-4075-82cd-e2d521123ceb.png)
+
+* 4 bits -> nibble
+* 8 bits -> byte
+
+![image](https://user-images.githubusercontent.com/54589605/225179908-6267e6e2-313b-4aee-9191-de2ee43e88fa.png)
+
+## Excess-3 Code
+
+![image](https://user-images.githubusercontent.com/54589605/225180213-a3386579-3507-49ce-9b7e-a6be1475bac5.png)
+![image](https://user-images.githubusercontent.com/54589605/225180260-7917ca80-8ef9-465b-8d23-90af434d9d07.png)
+![image](https://user-images.githubusercontent.com/54589605/225180437-6bff90dd-6c45-4533-bf83-32e91d0be241.png)
+![image](https://user-images.githubusercontent.com/54589605/225180865-cf03fd26-e573-42cd-a13e-50dd679ffc81.png)
+
+* **Valid Ex-3 codes** -> 3,4,5,6,7,8,9,10,11,12
+
+> Since **valid BCD** starts from **0** and Ex-3 code is **BCD code + 3**. So **min** valid Ex-3 code is **0 + 3 -> 3**. Max BCD code is **9**, so max valid Ex-3 codes is **9 + 3 ->12**.
+
+* **Invalid Ex-3 codes** -> 0, 1, 2, 13, 14, 15.
+
+> **BCD** and **bianry codes** are **weighted** codes.
+
+## Gray Code
+
+![image](https://user-images.githubusercontent.com/54589605/225181191-2660926b-d3ef-4a9f-9e35-fee5c2853338.png)
+
+> Gray code is **non-weighted** codes. Here, the difference between two **successive** numbers will be **1 bit** only. That why it is called as the **minimum distance code** or **unit distance code**.
+
+> Above place **zeroes**, below place **ones**.
+
+![image](https://user-images.githubusercontent.com/54589605/225182110-08c0470a-e9cd-432a-8175-fa2b15384de1.png)
+
+## Binary to Gray Code
+
+![image](https://user-images.githubusercontent.com/54589605/225183399-eff0b878-f416-4f19-910e-839200ac8779.png)
+
+* Convert to BG -> Convert from Binary to Gray code.
+
+> Remember a song which is **side by side**.
+
+![image](https://user-images.githubusercontent.com/54589605/225183781-2ad208aa-b92d-4054-aa41-4d47a468c5d3.png)
+
+> Remember the **no. of bits** in binary and gray code must be the **same**.
+
+![image](https://user-images.githubusercontent.com/54589605/225183992-8839cf0d-a8d3-41df-98c4-ebdbd40f507b.png)
+
+> **Logical diagram** for the implementation of **binary to gray code**.
+
+![image](https://user-images.githubusercontent.com/54589605/225184229-5f31e468-24e5-4bf0-8481-cda9ed917e88.png)
+
+## Gray to Binary Code
+
+![image](https://user-images.githubusercontent.com/54589605/225184445-c2cdb26f-d59e-4c2c-8cfa-6e14ed4a3299.png)
+![image](https://user-images.githubusercontent.com/54589605/225184471-b370d5e6-b141-4d9d-9ff9-b275d962f4f2.png)
+
+> **Logical diagram** for the implementation of **gray to binary code**.
+
+![image](https://user-images.githubusercontent.com/54589605/225184591-dd77b8d8-e72e-4e20-a9bd-58c1e9c201d9.png)
+![image](https://user-images.githubusercontent.com/54589605/225184720-2a4acf1f-47ac-4dc8-9bf6-e6c2c9c932d4.png)
+![image](https://user-images.githubusercontent.com/54589605/225184847-f78c20f9-6400-4ef5-b55c-b4aaa4a12cda.png)
+![image](https://user-images.githubusercontent.com/54589605/225185036-8b21c014-2356-431a-bff6-0ddf61df2e86.png)
+
+## Self Complementing Code
+
+![image](https://user-images.githubusercontent.com/54589605/225185123-d97cde66-20d6-4ab1-9bdd-9f019d1f3291.png)
+
+* 2421
+* N=8
+
+> Representation of **8** in these(2421) code format is **1110**.
+
+* 8 -> 1110 [2421]
+* 1's complement of 1110 -> 0001
+* 9's complement of (8) base 10 -> 9-8 -> 1 
+* Express 9's complement in **2421** form -> 0001
+
+> We can see that **1's complement of 1110 -> 0001** and 9's complement of 8 in **2421** form -> **0001**. In both we are getting **0001**. Then, this(2421) number is a **self complementing code**.
+
+![image](https://user-images.githubusercontent.com/54589605/225185932-9f25cfae-f373-4f3e-a9f0-a83226828bcc.png)
+![image](https://user-images.githubusercontent.com/54589605/225186185-9ac07818-3544-414b-9263-5a98b1ac43ce.png)
+
+* Excess-3 Code. Same
+
+![image](https://user-images.githubusercontent.com/54589605/225186333-04ad92e7-e847-4562-8ed9-52afab5a7568.png)
+
+* Excess-3 code or XS-3 code
+* N=5
+* Excess-3 of (5) -> 5 + 3 -> 8 -> 1000
+* 1's complement of (1000) -> 0111
+
+* 9's complement of (5) base 10 -> 9 - 5 -> 4
+* Excess-3 of (4) -> 4 + 3 -> 7 -> 0111 
+
+> We can see that **1's complement of (1000) -> 0111** and 9's complement of 5 in **Excess-3 code** form -> **0111 **. In both we are getting **0111**. Then, this(XS-3 or excess-3 code) number is a **self complementing code**.
+
+## Parity Bits
+
+![image](https://user-images.githubusercontent.com/54589605/225187275-a32b05fa-147d-4a2d-ad6c-4858659b7abd.png)
+
+* We have two parity bits,
+
+1) Even parity bit -> No. of 1s will be **even**.
+2) Odd parity bit -> No. of 1s will are **odd**.
+
+![image](https://user-images.githubusercontent.com/54589605/225188391-a641764c-b588-4173-af89-4047a9126345.png)
+![image](https://user-images.githubusercontent.com/54589605/225188399-e9da5c7b-656f-4e10-ad0b-af59dd2b67a8.png)
+![image](https://user-images.githubusercontent.com/54589605/225188415-fbaf2b6d-4687-4075-8b4b-0bf335e6f6e5.png)
+
+
+
+
+
+
 
 
 
