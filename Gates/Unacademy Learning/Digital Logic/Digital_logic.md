@@ -3677,9 +3677,32 @@ y= M(0,3)
 > We have different paths for **sum** and **carry**.
 
 ![image](https://user-images.githubusercontent.com/54589605/225632719-0657464d-e2bb-415a-8131-c8df294c17b5.png)
+![image](https://user-images.githubusercontent.com/54589605/225692196-b6cb9dcd-4910-4822-9ce4-9eb726b9937b.png)
 
-> Start from 35mins.
+* Sum Delay -> 32 + 32 + 32 + 14 -> 110
+* Carry Delay -> 32 + 32 + 32 + 32 -> 128
+* Overall Delay -> max(sum, carry) -> 128 
 
+![image](https://user-images.githubusercontent.com/54589605/225692472-a5c403fd-9b62-43fc-a3af-89130b359ddc.png)
+![image](https://user-images.githubusercontent.com/54589605/225692630-505bcb89-607e-4a36-9891-da4e8b100075.png)
+![image](https://user-images.githubusercontent.com/54589605/225693116-a43f9a62-f5f9-4f4b-a792-e7843af7b4d3.png)
+
+* Overall Delay -> 3(carry) + max[sum, carry]
+
+> **3 times carry or 3(carry)**  because in both sum and carry **3 carry values are common**. **ax[sum, carry]** means that which ever value is bigger we are considering that.
+
+![image](https://user-images.githubusercontent.com/54589605/225693972-94aaaa88-ffc9-4732-9622-e394f82831ad.png)
+
+![image](https://user-images.githubusercontent.com/54589605/225694674-46dddffa-16d6-4d3f-9d8c-2708dd29315f.png)
+
+> When both the inputs are **available**, then only the **carry** will come.
+
+![image](https://user-images.githubusercontent.com/54589605/225696777-784fa9dd-9a24-4d1e-844b-1766c405fefd.png)
+![image](https://user-images.githubusercontent.com/54589605/225698954-2dcb8d9a-1b9d-4668-9bba-747bbc31afda.png)
+
+## Parallel Substractor 
+
+> Start from **1hr**.
 
  
  
