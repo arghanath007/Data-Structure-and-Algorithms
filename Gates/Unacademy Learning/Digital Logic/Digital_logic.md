@@ -3439,6 +3439,11 @@ y= M(0,3)
 ![image](https://user-images.githubusercontent.com/54589605/225344939-90ef4954-cf2c-4b15-94eb-ca5d7446e928.png)
 ![image](https://user-images.githubusercontent.com/54589605/225344974-cd2866e9-feef-4ec6-bee2-e7bef91f9ce0.png)
 ![image](https://user-images.githubusercontent.com/54589605/225345017-b73a6255-a2f4-43fb-a7d9-93a3addfb2b5.png)
+![image](https://user-images.githubusercontent.com/54589605/225610446-9177b880-cacf-40d5-bca0-c09c5b40c154.png)
+![image](https://user-images.githubusercontent.com/54589605/225610468-a305860e-59d0-4bd1-a30f-7974dad6b3e2.png)
+![image](https://user-images.githubusercontent.com/54589605/225610485-b7943113-7930-4fe8-a679-b16bd3b94e2a.png)
+
+
 
 ## Combinational Logic Circuits (23) [16th March 2023]
 
@@ -3621,20 +3626,62 @@ y= M(0,3)
 
 > By default, put **bar** on **A** for the **logical expression for borrow** in **Full Adder**.
 
+## Combinational Logic Circuits (24) [16th March 2023]
+
+![image](https://user-images.githubusercontent.com/54589605/225611221-0012d2ca-a02f-4a95-8e8f-2742d830b590.png)
+
+## Ripple Carry Adder(Parallel Adder)
+
+* Half Adder -> 2 single bits only
+* Full Adder -> 3 bits.
+
+* To add these **4 bit** numbers, how many adders(hardware) required?
+ 
+> 3 Full adders(FA) and 1 half adder(HA).
+> In place of half adder, we can use a full adder as well. Full adder takes **3 inputs**, so we can set **one input to zero, c0 = 0**. Now it becomes a full adder.
+
+![image](https://user-images.githubusercontent.com/54589605/225613633-49644ac0-df5f-40b8-aff0-ae00ab2ba35b.png)
+
+> If we have taken **10 bit numbers**, then we have to use **10 full adders** only. To minimize the cost, then we can have **9 full adders** and **1 half adder**.
+
+![image](https://user-images.githubusercontent.com/54589605/225614618-1b607296-d5fd-418c-8943-288c502123f1.png)
+![image](https://user-images.githubusercontent.com/54589605/225615197-e59164b7-7710-4ff8-854b-8a9193a95dce.png)
+![image](https://user-images.githubusercontent.com/54589605/225615998-736480d6-e237-4f2b-a7dc-8ad3020fd8cc.png)
+
+## Delay Analysis [**IMPORTANT**]
+
+### Case 1:
+
+> We are assuming that (tpd)sum is more/greater than (tpd)carry. All of the inputs are simultaneouslty given to all of the full adders at **t=0** secs. There won't be any delay.
+
+![image](https://user-images.githubusercontent.com/54589605/225618858-e990401f-44c7-40fd-a43e-99b866ffb11a.png)
+
+> Here, we can see that **s1** is dependent on carry(c1). **YES**. So, **s1** will be dependent on all of the three inputs(a1, b1 and c1). **a1 and b1** are available at **t=0** secs onwards. Even though **a1 and b1** are available at **t=0** they have to **wait** until **c1** has to come. **c1** will come at **14ns**. After **14ns** and to get the sum, to process it(sum), it will take additional **32ns**. So, to get **s1**, **14ns** for the carry and **32ns** for calculations **s0 sum**. So total time for **s1** is **32 + 14 -> 46**.
+> **c2** depends on **a1, b1 and c1**. **a1 and b1** are available at **t=0** secs onwards. **c1** is available at **14ns** onwards. So all three(**a1, b1 and c1**) are available at **14ns** onwards. For c2, **14ns** for all three to be available and another **14ns** to process the carry. Hence c2 time is **14 + 14 -> 28ns**.
+
+* c2 -> present carry(14) + previous carry(14) -> 28ns
+* s2 -> c2(14 + 14) + s1(32) -> 14 + 14 + 32 -> ns
+* c3 -> 14 + 14 + 14
+* s3 -> 14 + 14 + 14 + 32
+* c4 -> 14 + 14 + 14 + 14
+
+![image](https://user-images.githubusercontent.com/54589605/225633239-b966643a-b815-4358-8763-a31187ae3ecb.png)
+![image](https://user-images.githubusercontent.com/54589605/225633809-2201877c-02e3-4d42-8546-62c1bef8cbe8.png)
+
+* Delay to get the **sum** or sum delay -> 14 + 14 + 14 + 32 -> 74ns
+* Delay to get the **carry** or carry delay -> 14 + 14 + 14 + 14 -> 56ns
+* Overall Delay -> max(sum, carry) -> 74ns
+
+> s1 depends on c1. s2 depends c2 and c1. s3 depends on c3, c2 and c1. So **sum** depends on all of the previous **carries** and until all of the previous carries come, the **sum** won't come.
+
+> We have different paths for **sum** and **carry**.
+
+![image](https://user-images.githubusercontent.com/54589605/225632719-0657464d-e2bb-415a-8131-c8df294c17b5.png)
+
+> Start from 35mins.
 
 
  
-
-
-
-
-
-
-
-
-
-
-
  
 
 
