@@ -3374,9 +3374,51 @@ y= M(0,3)
 
 ![image](https://user-images.githubusercontent.com/54589605/225333673-edaaeb4b-9ce0-4cf6-9a45-f0ebf14188bc.png)
 
-> Sir will check and tell in next class. 
+> Sir will check and tell in next class. Below is the correct solution.
 
-![image](https://user-images.githubusercontent.com/54589605/225335519-eada81fd-3abd-45d2-b43c-bfd4b0077b38.png)
+### Solution 
+
+[**This is the correct value to find the correct data**]
+
+> As all of the bits of **p4p2p1** are not all zeroes(0), hence we have an error. We need to identify the **location of the error**. The location of the error is given as **p4p2p1 -> 110 -> 6**. This means we have an **error** at the **6th bit**. On the 6th bit we have **1** and it is an error, so we should have **0** there.
+
+![image](https://user-images.githubusercontent.com/54589605/225484198-356dcdb3-091f-4074-aab9-d85da2a1baaf.png)
+![image](https://user-images.githubusercontent.com/54589605/225485131-e5bc0de7-0d23-4f61-920b-3826aed0779b.png)
+
+* When there is no error?
+
+> When all of the **p1, p2 and p4** bits are **0, 0 and 0**. The ones highlighted below, when they are all **zeroes(0)** then there is no error. Then we have **no errors**, otherwise we have errors.
+
+![image](https://user-images.githubusercontent.com/54589605/225485262-208b057d-ba98-44e1-8bd9-18c44c3379a3.png)
+![image](https://user-images.githubusercontent.com/54589605/225485592-d8ba665e-48cb-4734-923b-8155950ca24a.png)
+
+> Gives the **location of the error bit**.
+
+![image](https://user-images.githubusercontent.com/54589605/225485775-6ff82ed3-5f00-4520-87b7-8cf291076832.png)
+
+> No no, don't see that one. If all **...p4p2p1** values are zeros then only we don't have any error.
+
+![image](https://user-images.githubusercontent.com/54589605/225487866-1dc03073-f220-4ef6-9aac-e50ba0943249.png)
+![image](https://user-images.githubusercontent.com/54589605/225488666-50a30c51-8662-451b-8245-afb23015062b.png)
+
+> Error as all the values of **p4p2p1** are not all **zeroes(0)**.
+
+![image](https://user-images.githubusercontent.com/54589605/225488940-d757db0c-ff20-4943-b4d6-654e81d6a397.png)
+
+> No, it is wrong. We need to use **p4p2p1** by calculating, we can find/identify the **location of the error**. and **not the no. of errors**. Location of the error we are going to find out.
+
+![image](https://user-images.githubusercontent.com/54589605/225489522-00809a8e-7d35-4c78-bc97-19f06a652bcb.png)
+
+> Only **1 bit** of data is there nah, so by finding the location of the error, we are able to correct it. If it is **1** then we convert it into **0** and vice-versa.
+
+
+
+
+
+
+
+
+![image](https://user-images.githubusercontent.com/54589605/225335519-eada81fd-3abd-45d2-b43c-bfd4b0077b38.png)'
 
 > We took the 2's complement of **+11 -> 001011** and got **-11 -> 110101** which is the answer.
 
@@ -3397,6 +3439,8 @@ y= M(0,3)
 ![image](https://user-images.githubusercontent.com/54589605/225344939-90ef4954-cf2c-4b15-94eb-ca5d7446e928.png)
 ![image](https://user-images.githubusercontent.com/54589605/225344974-cd2866e9-feef-4ec6-bee2-e7bef91f9ce0.png)
 ![image](https://user-images.githubusercontent.com/54589605/225345017-b73a6255-a2f4-43fb-a7d9-93a3addfb2b5.png)
+
+## Combinational Logic Circuits
 
 
 
