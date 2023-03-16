@@ -3440,7 +3440,196 @@ y= M(0,3)
 ![image](https://user-images.githubusercontent.com/54589605/225344974-cd2866e9-feef-4ec6-bee2-e7bef91f9ce0.png)
 ![image](https://user-images.githubusercontent.com/54589605/225345017-b73a6255-a2f4-43fb-a7d9-93a3addfb2b5.png)
 
-## Combinational Logic Circuits
+## Combinational Logic Circuits (23) [16th March 2023]
+
+![image](https://user-images.githubusercontent.com/54589605/225527207-aea618f9-c8a7-42b5-9acb-2c4c07f9da36.png)
+![image](https://user-images.githubusercontent.com/54589605/225527316-eb7fcf17-d3da-4c37-bf5b-8f074c1f6127.png)
+
+> The best example for **combinational circuit** is a caulculator.
+> The output of the combinational circuit does not depend on **previous** output as well as **previous** input.
+> The present **output** depends on the  given input at that **instant** only. That's why we don't need **mmory**.
+
+
+## 1. Half Adder
+
+![image](https://user-images.githubusercontent.com/54589605/225528463-289f8ca9-f64b-4bd2-a417-ee5183033ebf.png)
+![image](https://user-images.githubusercontent.com/54589605/225528553-0af962d9-9459-483e-9cb4-c37d8ff3a154.png)
+
+
+> Addition of two single bit.
+
+* A = 0 [Single bit]
+* B = 1 [Single bit]
+
+> If the bits given are **1, 1 and 0**, then we have **3 single bits** here. Addition of **3 single bits**. Half addrer will work for addition of **2 signle bits** only. Half adder won't work or does not work for these(1, 1, 0) **3 single bits**. In that case, we have to either take another half adder(so total 2 half adders) or use a full adder(only 1 full adder, no half adders) instead.
+> Half adder inputs are always **2 inputs** only. It has two inputs and two ouputs(sum and carry).
+
+### Logic Circuit
+
+![image](https://user-images.githubusercontent.com/54589605/225530038-13228633-2748-4d6c-8c43-0fca4b0c6b16.png)
+![image](https://user-images.githubusercontent.com/54589605/225530392-14b92151-7f30-4d6b-b7ef-c47d0dc63b16.png)
+
+> **5** NAND gates required for Half Adder.
+> **4** NAND gates required for Sum of Half Adder.
+> **2** NAND gates required for carry of Half Adder.
+
+![image](https://user-images.githubusercontent.com/54589605/225530715-a43c7ccd-3926-4738-ad17-f45dba98b223.png)
+
+> **5** NOR gates required for Half Adder.
+
+## 2. Half Subtractor.
+
+> Two inputs and two outputs.
+
+> For, A-B, when **A=0 and B=1**, it is **0-1** and it is not possible, we need to borrow, how much is the borrow required for **0-1**, so **1** borrow required. So, how much will come? **base of the system**, and the base is **base 2** here, so **2** will come. Hence **2-1** gives **1** which is the **difference**.
+
+![image](https://user-images.githubusercontent.com/54589605/225532138-43360c21-b98c-4dfa-94fd-32e2cf27e8db.png)
+![image](https://user-images.githubusercontent.com/54589605/225532223-60d66f40-2396-4b19-aac1-b442137f8215.png)
+
+### Logic Circuit
+
+![image](https://user-images.githubusercontent.com/54589605/225532556-62c4434f-1523-402a-a928-df25dadb5854.png)
+
+* How we can implement a **single circuit**(like both) to work as a Half Adder as well as a Half Substractor?
+
+> We use the concept of **shift** operator.
+
+![image](https://user-images.githubusercontent.com/54589605/225535506-7828a16b-97b5-4d80-a18e-8cf79f907c25.png)
+![image](https://user-images.githubusercontent.com/54589605/225535647-83e80c04-5e1d-4b1c-a2c2-1dd3082c3ee7.png)
+![image](https://user-images.githubusercontent.com/54589605/225536161-c63fc864-50a3-4523-90c2-ed7ab613fefd.png)
+
+> The **single circuit** which we can use as both as **Half Adder** as well **Half substractor** based on the **select(s)** input.
+> Types of questions:
+
+* The circuit drawing will be given.
+* If s=0, then the circuit will behave as?
+* If s=1, then the circuit will behave as?
+
+![image](https://user-images.githubusercontent.com/54589605/225537435-8709f549-54b4-4c5d-bc5f-3468767a6ecb.png)
+
+> **5** NAND gates required for Half substractor.
+> **4** NAND gates required for difference of Half substractor.
+> **3** NAND gates required for borrow of Half substractor.
+
+![image](https://user-images.githubusercontent.com/54589605/225538231-3ce0e13a-fa5b-43b8-b260-a3eb0c686c01.png)
+![image](https://user-images.githubusercontent.com/54589605/225539149-4fc3915f-eec4-4589-80a6-a6e6a4b7e846.png)
+
+> **5** NOR gates required for Half substractor.
+> **5** NOR gates required for difference of Half substractor.
+> **2** NOR gates required for borrow of Half substractor.
+
+> Problem of **Half Adder** is it is used to **add** two bits only.
+> We cannot use **Half Adder** for more than 2 bits input. For that we need to use **Full adder**.
+
+
+## 3. Full Adder
+
+> It will accept the **3 inputs** and have two outputs(Sum and carry).
+
+![image](https://user-images.githubusercontent.com/54589605/225540833-7df1d17e-30a3-446b-88c1-f55eef4ad864.png)
+![image](https://user-images.githubusercontent.com/54589605/225540892-86a17225-1eb5-4af4-a35f-49edc4538f55.png)
+
+* Sum -> minterms(1,2,4,7) -> ATM pin -> A Ex-OR B Ex-OR C
+* Carry -> minterms(3,5,6,7) -> Mobile Pin -> AB + BC + AC -> Self dual function/Majority Logic Circuit.
+
+![image](https://user-images.githubusercontent.com/54589605/225541888-8983904d-5c45-4b6f-8aa3-50ec8a266095.png)
+
+> Another form of **carry**. [**IMPORTANT**]
+
+![image](https://user-images.githubusercontent.com/54589605/225542580-3a6715b2-234d-4aae-b4e6-d1180f0a231f.png)
+![image](https://user-images.githubusercontent.com/54589605/225543153-e7bc72e4-e897-4c43-9f35-90a07887f30e.png)
+![image](https://user-images.githubusercontent.com/54589605/225543229-062193de-433f-40ab-b7dd-83388ad0574d.png)
+
+* Full Adder -> 2 Half Adders + 1 OR-Gate.  [Requirements]
+
+![image](https://user-images.githubusercontent.com/54589605/225543879-b0f71904-a386-4bab-abb9-c57387b05021.png)
+![image](https://user-images.githubusercontent.com/54589605/225544694-69ed2157-177e-4ffb-8025-5a14d34e355c.png)
+![image](https://user-images.githubusercontent.com/54589605/225545023-2ee50919-6c6b-4b0f-9b8a-76f1f10f6721.png)
+
+ > **9** NAND gates required to implement Full Adder.
+
+![image](https://user-images.githubusercontent.com/54589605/225545189-3e70588a-ace3-4fe7-ba4a-5db3f14926b1.png)
+
+## 4. Full Substractor
+
+> For **0 - 1**, we need **borrow** of **1**. **2** will come as the borrow. So, **2 - 1 -> 1** which is the difference.
+> For ** A=1, B=0 and C=1**, first we have to do **A - B** first which is **1 - 0**, which gives **1**. We will use this **1** with **C**. So **1 - C -> 1 - 1 ->  0**. So the there was no **borrow**, hence the borrow is **zero(0)** and we got **0** as the difference when we did **1 - C ->  1 - 1 -> 0**.
+> For ** A=0, B=0 and C=1**, first we have to do **A - B** first which is **0 - 0**, which gives **0**. We will use this **0** with **C**. So **0 - C -> 0 - 1 ->  1**. As **0 - 1** is not possible, we have to take a **borrow** of **2** as the borrow is the base of the number system which is **base 2**. So now, **0 - 1 -> 2 - 1 -> 1**. We had to take a borrow so, borrow is **1** and the difference is **1** as we got **1** as the result of **0 - 1**.
+
+![image](https://user-images.githubusercontent.com/54589605/225547600-180f1880-388f-4710-bec5-93d426f0d29b.png)
+![image](https://user-images.githubusercontent.com/54589605/225547959-6fec5cd6-bd7d-4435-aa20-0376e7ba91ac.png)
+
+* Difference -> minterms(1, 2, 4, 7) -> A Ex-OR B Ex-OR C.
+* Borrow -> minterms(1, 2, 3, 7) -> 
+
+> Here, we will get **two** types of **borrows**.
+
+* This is **one type of borrow**. Below. 
+* Borrow -> A'B + BC + A'C.
+
+![image](https://user-images.githubusercontent.com/54589605/225548527-4f36195c-94dc-4cb5-96ef-6b0db2749a70.png)
+
+* This is **another type of borrow**. Below. 
+* Borrow -> A'B + (A Ex-OR B)'C.
+
+![image](https://user-images.githubusercontent.com/54589605/225548959-d8b3e424-199f-4266-8c1b-ca473b9808f3.png)
+![image](https://user-images.githubusercontent.com/54589605/225549227-46937050-0384-4cba-a39b-6ea7a434a4df.png)
+
+### Full Substractor With Half Substractors.
+
+* Full Substractor -> 2-Half Substractors + 1-OR gate.
+
+![image](https://user-images.githubusercontent.com/54589605/225550021-2dfd4e37-bcf0-4237-8916-3b0dc9a9a402.png)
+
+> In case of addition, What is **sum** here in these cases?, we are doing **A + B + C**. If we do **B + C + A**, will there be any change? **NO change**. There is **no effect**.
+> In case of substraction, we created the table for **A - B - C**. From **A**, we substracted **B and C**, that is the standard analysis we got. If we did like this **B - C - A**, will the table change? **YES**. One beauty there is there that the **difference column/expression** will not change but **borrow column** changes. If we take it in some other manner also, **Diffence -> No change** but **Borrow -> Changes**. 
+
+> By default, **substractor** means **A - B - C** only. THis is the **standard** analysis only.
+
+* Diffence -> No change
+* Borrow -> Changes
+
+> **Diffence -> No change**, **Borrow -> Changes**. For the **changes**, we have to develop the table again.
+
+![image](https://user-images.githubusercontent.com/54589605/225553353-aea110cf-56da-4706-aa0b-f0f20eaa8ee4.png)
+
+> Here, we are writing the **carry expression** for **borrow**.
+
+* Carry -> AB + BC + AC.
+
+* From whom we are substraction **B and C**?
+
+> From **A**.
+
+![image](https://user-images.githubusercontent.com/54589605/225553534-95e848d8-9571-4103-9451-33b844580729.png)
+
+> As we are **subtracting** from **A**, hence we have put a **bar** on all values of **A**.
+
+![image](https://user-images.githubusercontent.com/54589605/225553927-8e34d024-c111-4d01-a084-1aad85b4e9ce.png)
+![image](https://user-images.githubusercontent.com/54589605/225553946-543ef619-6862-4e91-8739-f491082b36e8.png)
+
+> As we are **subtracting** from **B**, hence we have put a **bar** on all values of **B**.
+
+![image](https://user-images.githubusercontent.com/54589605/225554101-c84e1e02-44c0-41c3-b2ff-0f6ba8341113.png)
+![image](https://user-images.githubusercontent.com/54589605/225554118-f161b4e4-8b1a-47e3-afea-8795ec8e300b.png)
+
+> As we are **subtracting** from **C**, hence we have put a **bar** on all values of **C**.
+
+## Summary of Hlaf Adder and Full Adder [**IMPORTANT**]
+
+![image](https://user-images.githubusercontent.com/54589605/225554526-0e6d93d1-7494-4f3d-bf11-ff2182684707.png)
+
+> By default, put **bar** on **A** for the **logical expression for borrow** in **Full Adder**.
+
+
+
+ 
+
+
+
+
+
+
 
 
 
