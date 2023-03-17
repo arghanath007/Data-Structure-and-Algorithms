@@ -3677,6 +3677,9 @@ y= M(0,3)
 > We have different paths for **sum** and **carry**.
 
 ![image](https://user-images.githubusercontent.com/54589605/225632719-0657464d-e2bb-415a-8131-c8df294c17b5.png)
+
+### Case 2:
+
 ![image](https://user-images.githubusercontent.com/54589605/225692196-b6cb9dcd-4910-4822-9ce4-9eb726b9937b.png)
 
 * Sum Delay -> 32 + 32 + 32 + 14 -> 110
@@ -3691,6 +3694,9 @@ y= M(0,3)
 
 > **3 times carry or 3(carry)**  because in both sum and carry **3 carry values are common**. **ax[sum, carry]** means that which ever value is bigger we are considering that.
 
+> If we have taken a **100 bit** number, then it will depend on the **previous carry** or not. **YES**, it will depend on the previous carries and as a result there will be **more delay**. It will take more time to get the final answer. That is one of the **disadvantages of parallel adder**.
+> To avoid this disadvantage, we are modifying the circuit and going for a different adder.
+
 ![image](https://user-images.githubusercontent.com/54589605/225693972-94aaaa88-ffc9-4732-9622-e394f82831ad.png)
 
 ![image](https://user-images.githubusercontent.com/54589605/225694674-46dddffa-16d6-4d3f-9d8c-2708dd29315f.png)
@@ -3700,12 +3706,199 @@ y= M(0,3)
 ![image](https://user-images.githubusercontent.com/54589605/225696777-784fa9dd-9a24-4d1e-844b-1766c405fefd.png)
 ![image](https://user-images.githubusercontent.com/54589605/225698954-2dcb8d9a-1b9d-4668-9bba-747bbc31afda.png)
 
+> All of them, **A, B and C** are available at **t=0** secs onwards.
+> The output of **A Ex-OR B** is available after **2.4 secs**. So C and the output of A and B, will be available together at **2.4 secs**. Then **Ex-OR** will take 2.4secs to process it. Hence after **2.4 + 2.4** secs, which is the **tpd of sum**.
+
+![image](https://user-images.githubusercontent.com/54589605/225795964-33cebb2b-386e-4428-b010-c97bf2d45219.png)
+
+> In the above **AND** gate highlighted, **c** is available at t=0 secs but the other input is available after 2.4secs only. So both will be available after 2.4secs only. The **AND** gate will take **1.2 secs**. Hence it is **2.4 + 1.2 -> 3.6 secs**. 
+> For the **OR** gate, one input is available at **3.6 secs** and the other input is available at **1.2secs**. So, both will be available at **3.6secs**. The **OR** gate takes **1.2 secs**. So, **3.6 + 1.2 -> 4.8 secs**, which is the **tpd of carry**.
+
+![image](https://user-images.githubusercontent.com/54589605/225795136-fd2588a7-87d2-488e-8947-ea3120fc7c9d.png)
+
+> The moment when all three are together, we need to see how much time(delay) it will take to reach the **movie hall**.
+
 ## Parallel Substractor 
 
-> Start from **1hr**.
+> Substraction is done in the form of addition only.
+> **NOT** gate is for **1's complement of B**.
 
+![image](https://user-images.githubusercontent.com/54589605/225798234-be5d1cf4-e98b-4cb5-9149-94005a20dc9a.png)
+
+> It is just like **addition** or adder only. Here also after this, we do the **same analysis** we did for **parallel adder**.
  
- 
+## Paraller Adder/Substractor
+
+> One circuit will act as a paraller Adder as well as a paraller substractor also.
+> **M** is like the **shift operator**.
+
+* if, **M=0**, then c0=0
+
+> Then it behaves like a **parallel adder**.
+
+![image](https://user-images.githubusercontent.com/54589605/225799091-66c46e6f-5134-4780-8f69-f66debe1b32f.png)
+
+* if **M=1**, then c0=1
+* Then it behaves like a **parallel substractor**.
+
+![image](https://user-images.githubusercontent.com/54589605/225799394-7f94778c-f979-43f0-ac93-178547aacdc2.png)
+
+> When M=1 then c0=1, we are getting **complements of B -> b3,b2,b1** from the Ex-OR gate, which are **1's complement of B**, as **c0=1**, we are adding **+1** to the 1's complement of B which gives **2's complement of B**.
+
+![image](https://user-images.githubusercontent.com/54589605/225799461-72b24fe0-2dc6-424b-8acb-eae64b15482c.png)
+
+* Not possible, we will do **2's complement** here. 1's complement not possible.
+
+> The problem of this **parallel adder/substractor** is that the **delay is more**. The carry dependency is more.
+
+## Look Ahead Carry Adder
+
+![image](https://user-images.githubusercontent.com/54589605/225801286-3b8699dd-b383-4dae-ba43-d645e6582ccd.png)
+
+> Carry will start from **c1,c2,c3**. That's why **carry is c(i+1). 
+> Sum will start from **s0,s1,s2**.
+
+![image](https://user-images.githubusercontent.com/54589605/225802171-513c3d32-a3b1-4381-bad8-9af354213ec0.png)
+![image](https://user-images.githubusercontent.com/54589605/225802350-36fd07e2-286c-4252-bb40-3bcc0a2e46b6.png)
+![image](https://user-images.githubusercontent.com/54589605/225802439-97e2abf8-4e28-40d6-82dc-48fe4d58460c.png)
+![image](https://user-images.githubusercontent.com/54589605/225803213-6fb0e83c-a6d1-497b-8d11-c67e84d4a090.png)
+![image](https://user-images.githubusercontent.com/54589605/225803686-683855c6-bcd8-4ed3-92d8-ff105b9b5d04.png)
+![image](https://user-images.githubusercontent.com/54589605/225803751-819c119c-b048-4a6b-940a-0400ee9da69f.png)
+
+> We can see now, that **s1** sum doesn't depend on **carries**.
+
+![image](https://user-images.githubusercontent.com/54589605/225803862-166ed480-5caa-47e2-8b11-500cdd48cd09.png)
+![image](https://user-images.githubusercontent.com/54589605/225803998-59bab570-43d9-42df-a144-c06aef156ed2.png)
+
+> We can see now, that **s2** sum doesn't depend on **carries**.
+
+![image](https://user-images.githubusercontent.com/54589605/225804175-8ca7c149-1cba-4706-ad63-8584d2071390.png)
+
+> **c2** depends on **c1**.
+
+![image](https://user-images.githubusercontent.com/54589605/225804295-3538a5f0-6bdf-482e-98c9-71b2abfc1296.png)
+
+> Until **c1** comes, **c2** won't come. **c2** has to wait.
+
+![image](https://user-images.githubusercontent.com/54589605/225804460-8cd7d2ad-cc6f-4888-95df-6d3585bc9f74.png)
+![image](https://user-images.githubusercontent.com/54589605/225804507-e0a54d64-f1b3-4444-a37e-bf2d162243e1.png)
+
+> We don't have any **c1** here. **c2** is completely independent of **c1**. For this to work, we need to implement **c2 = G1 + P1C1 = G1 + P1G0 + P1P0C0**.
+
+![image](https://user-images.githubusercontent.com/54589605/225804706-5d3c306d-95ec-4239-b4de-3f6526b51e92.png)
+
+* For **P1P0C0**, we require an **AND** gate.
+* For **P1G0**, another **AND** gate required.
+
+> For the whole **G1 + P1G0 + P1P0C0**, we required one **OR** gate.
+> That what we have implemented here below.
+
+![image](https://user-images.githubusercontent.com/54589605/225805225-3fd50b4f-4404-40aa-95d3-d7b9fbf799c2.png)
+![image](https://user-images.githubusercontent.com/54589605/225805282-3517395a-b37c-4166-a8ae-51582b8cb5ac.png)
+
+> Exactly.
+> So, we are doing **parallel** operations.
+> So, instead of going one after another, waiting till **c1** has to come. We want to separately implement one more sepcial circuit for **c1, c2 and c3**
+
+![image](https://user-images.githubusercontent.com/54589605/225805641-b7f8dbfc-d847-46eb-aaa2-6a654dffe8d9.png)
+
+> If we want to implement **c3**, it depends on **c2**. Untill **c2** comes, **c3** doesn't come. **c3** has to wait for **c2** to come.
+
+![image](https://user-images.githubusercontent.com/54589605/225805789-920e792c-33b8-459c-b58d-29c49ca25d4b.png)
+
+> We have implemented **c3** in the highlighted color manner. We do not find any **c1, c2 and c3** here.
+> For these we require **3 AND** gates and **1 OR gate, which is 4-input**.
+
+* **P2P1P0C0, G0P2P1, G1P2** all three of them require **1 AND gate each**. So, total **3 AND gates**.
+* For all of these **P2P1P0C0, G0P2P1, G1P2 and G2** addition, we need one(1) 4-input **OR gate**.
+
+![image](https://user-images.githubusercontent.com/54589605/225806295-db115a7c-39d5-4c1a-9ca8-7b6d31a1b330.png)
+
+> That's what we have implemented here.
+> As a result, the **delay decreases** but the **complexity increases**.
+
+![image](https://user-images.githubusercontent.com/54589605/225806394-ff640467-1aee-4c56-9c4f-8bc7a356cebe.png)
+
+> Actual Circuit.
+> Before we did **serial** operations. Now, we are doing in **parallel**, so **time/delay** decreased.
+
+> Ex-OR and AND gates are in the **same** level which is **L1 or level 1**.
+> AND gates are in the **same** level which is **L2 or level 2**.
+> OR gates are in the **same** level which is **L3 or level 3**. Here we will get the **carry**.
+> Ex-OR gates are in the **same** level which is **L4 or level 4**. Here we will get the **sum**.
+
+### Hardware Requirements
+
+> For **n-bits**.
+
+[**IMPORTANT**]
+
+![image](https://user-images.githubusercontent.com/54589605/225807449-d333b868-75db-476f-a2c2-0798cb4ced74.png)
+![image](https://user-images.githubusercontent.com/54589605/225807497-21b9757d-ab1a-40a8-99f0-79f365d5d8ce.png)
+
+> We are using **Look Ahead Carry Adder** to **decrease/avoid the delays**.
+
+> In **L1**, gates will work **parallely**. The gate which has **more delay** that delay can to be considered.
+
+![image](https://user-images.githubusercontent.com/54589605/225808105-3371de7f-16bc-4722-818e-80e46b963b83.png)
+
+* L1
+
+> In **L2**, only **AND** gate is there and it will work **parallely**. So we have to consider **AND** gates delay only.
+
+![image](https://user-images.githubusercontent.com/54589605/225808279-ec9439be-d7d9-47ea-833b-c19baf53c65e.png)
+
+* L2
+
+> In **L3**, only **OR** gate is there and it will work **parallely**. So we have to consider **OR** gates delay only.
+
+![image](https://user-images.githubusercontent.com/54589605/225808375-a13dbcb8-9ddb-4d22-b946-c92909683151.png)
+
+* L3
+
+> In **L4**, only **Ex-OR** gate is there and it will work **parallely**. So we have to consider **EX-OR** gates delay only.
+
+![image](https://user-images.githubusercontent.com/54589605/225808480-ec8c65a3-e5ea-4477-acc9-d368626ffaad.png)
+
+* L4
+
+![image](https://user-images.githubusercontent.com/54589605/225808504-dcab2b08-db23-4fac-8cfa-bc094818fc2b.png)
+
+> Previously, the delay is dependent on the **no. of bits**. As we increase the **no. of bits**, the delay increases, in case of a **parallel adder**.
+> In, **Look Ahead Carry Adder**, the delay, depends on the **no. of levels**.
+
+* How many levels we have in **Look Ahead Carry Adder**?
+
+> 4(L1, L2, L3 and L4).
+> As we have taken **4 bits**, so we have gotten **4 levels**.
+> If we had taken **100 bits**, so we would have gotten **100 levels**. [WRONG, proven below]
+
+* If we increase the **no. of bits**, how the below diagram changes? **vertically or horizontally changes**?
+
+![image](https://user-images.githubusercontent.com/54589605/225809222-9b7be861-9cba-4f32-9519-a526bf709abc.png)
+
+> It will change **vertically**. It will **move down** with more no. of bits.
+> If we had taken **100 bits**, so we would have gotten **4 levels**. As it is moving **vertically** and not **horizontally**. **That's the beauty here**.
+> The delay does not depend on the **no. of bits**, it depends only on the **no. of levels**. It has only **4 levels**.
+
+> Each level has **equal delay** of **1 tpd**. Then, the **overall delay**, would be **1 * 4 -> 4 tpd**. **4** is the no. of levels.
+
+![image](https://user-images.githubusercontent.com/54589605/225809967-da8f645b-1c4e-468e-8491-e23d5f63c4f6.png)
+
+> Irrespective of the **no. of bits**, the delay offered by **Look Ahead Carry Adder** adder will always be **4 tpd** only. That's the **advantage**.
+
+![image](https://user-images.githubusercontent.com/54589605/225810197-00921b3b-c931-405a-9534-9ed58310fd58.png)
+
+* No yaar. It will only depend on the **no. of levels** and not on the **no. of bits**. It is independent of the  
+**no. of bits** and depends only on the **no. of levels**.
+
+![image](https://user-images.githubusercontent.com/54589605/225810432-7a721ac9-125a-438d-b816-b3aa66b45c49.png)
+
+
+
+
+
+
 
 
 
