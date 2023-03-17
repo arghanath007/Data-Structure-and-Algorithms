@@ -3827,11 +3827,9 @@ y= M(0,3)
 > OR gates are in the **same** level which is **L3 or level 3**. Here we will get the **carry**.
 > Ex-OR gates are in the **same** level which is **L4 or level 4**. Here we will get the **sum**.
 
-### Hardware Requirements
+### Hardware Requirements [**IMPORTANT**]
 
 > For **n-bits**.
-
-[**IMPORTANT**]
 
 ![image](https://user-images.githubusercontent.com/54589605/225807449-d333b868-75db-476f-a2c2-0798cb4ced74.png)
 ![image](https://user-images.githubusercontent.com/54589605/225807497-21b9757d-ab1a-40a8-99f0-79f365d5d8ce.png)
@@ -3861,6 +3859,8 @@ y= M(0,3)
 ![image](https://user-images.githubusercontent.com/54589605/225808480-ec8c65a3-e5ea-4477-acc9-d368626ffaad.png)
 
 * L4
+
+## Delay Analysis [**IMPORTANT**]
 
 ![image](https://user-images.githubusercontent.com/54589605/225808504-dcab2b08-db23-4fac-8cfa-bc094818fc2b.png)
 
@@ -3893,6 +3893,154 @@ y= M(0,3)
 **no. of bits** and depends only on the **no. of levels**.
 
 ![image](https://user-images.githubusercontent.com/54589605/225810432-7a721ac9-125a-438d-b816-b3aa66b45c49.png)
+
+## Combination Logic Circuit (25) [17th March 2023]
+
+### Revision
+
+* Gi -> Carry Generator
+* Pi -> Carry Propegator
+
+![image](https://user-images.githubusercontent.com/54589605/225873384-bee52b49-c2f6-4734-810e-3305b3b7dafb.png)
+![image](https://user-images.githubusercontent.com/54589605/225874205-da31f04a-7e40-49fc-b8ef-0a6aba6cea48.png)
+
+### Questions
+
+![image](https://user-images.githubusercontent.com/54589605/225874659-8429b5d1-371e-47cd-beee-f61548b3d14d.png)
+![image](https://user-images.githubusercontent.com/54589605/225875236-5cf589ce-b969-4808-832c-9082de6df363.png)
+
+> We know that **Gi and Pi** are present in **L1* of **carry look ahead adder**. It is mentioned that **Gi and Pi** are already present which means we don't have to implement them again. We have to implement from **L2** only.
+
+## Binaru Multiplier
+
+> When we did addition of **a1bo and a0b1**, we got **s1** and some carry can come which is **c2**.
+> When we did addition of **a1b1 and c2**, we got **s2** and some carry can come which is **c3**.
+> For the implementation, to get **a0b0, a1bo, a0b1, a1b1**, we need an **AND** gates. In total, we need **4 AND**  gate. We directly got **a0b0** using AND gate. For 2 bit addition of **a1bo and a0b1**, we need a **Half Adder**. For addition of **c2 and a1b1**, we need another **Half Adder**. So, total **2 Half Adders** needed.
+
+![image](https://user-images.githubusercontent.com/54589605/225877999-dabdc4d8-c597-46b7-abda-9fcb7efae8b0.png)
+
+* 4 AND gates and 2 Half Adders.
+
+![image](https://user-images.githubusercontent.com/54589605/225880553-8486aff5-989f-45bd-ae60-9e16054ba9cc.png)
+
+* AND -> 6 [Product]
+* HA -> 2 [2 bit, (a1b0 and aob1) and (a2b1 and c3)]
+* FA -> 1 [a2bo, a1b1 and c2]
+* a0b0 -> Comes as it is.
+
+## Magnitude Comparators
+
+> Just for comparison of **two** numbers. 
+> We are comparing **A** with **B**. There are **three** comparisons only, **less than(0 < 1)**, **equal to(0 = 0)** and **greater than(1 > 0)**.
+> Whenever we compare **2 numbers**, there are **three** possible comparisons. So, **three** outputs are required.
+
+![image](https://user-images.githubusercontent.com/54589605/225883797-f09ebdc7-8a5f-4e93-a30f-ff607cb80363.png)
+![image](https://user-images.githubusercontent.com/54589605/225883829-e2280b03-c1e6-4de0-bd35-2fb06584d678.png)
+
+### Logic Circuit
+
+![image](https://user-images.githubusercontent.com/54589605/225885431-b0ae5ba6-92bf-4b97-95c5-e5006053d53a.png)
+
+### Doubts
+
+![image](https://user-images.githubusercontent.com/54589605/225885878-26a5e296-89f9-4291-8594-d9f749cb7789.png)
+![image](https://user-images.githubusercontent.com/54589605/225886330-797cfdb9-301c-405d-b48a-302f5a738549.png)
+
+> Not in **CSE** syllabus. Not required.
+
+![image](https://user-images.githubusercontent.com/54589605/225887419-d855a033-14cb-41a6-9b24-72d89996840b.png)
+![image](https://user-images.githubusercontent.com/54589605/225887738-b5ad2e8d-0030-4d56-8ece-cd968e6a45ce.png)
+
+> As **F=1**, we cannot implement any gates, so it is not **functionally complete**.
+> As **G= (AB)'**, which we can implement with **NAND** gate and we know that **NAND** gate is **functionally complete**.
+
+![image](https://user-images.githubusercontent.com/54589605/225888291-8dcdff72-a2c8-4e03-a89f-6e2dc5c30534.png)
+![image](https://user-images.githubusercontent.com/54589605/225888394-1f1ee396-91ad-4873-af05-566149c19e1a.png)
+
+> It is should be **f(x',y',z')**.
+
+## 1-bit Magnitude Comparator
+
+![image](https://user-images.githubusercontent.com/54589605/225889245-7a0ca389-da8c-4d95-afbf-2afda62f5a3b.png)
+
+## 2-bit Magnitude Comparator
+
+> If we directly start with **MSB**, then we can directly say that **A is greater compared to B**. While comparison, **MSB to LSB** is more **easier** than vice-versa.
+
+![image](https://user-images.githubusercontent.com/54589605/225892646-ed443897-caf6-448c-872e-54cb314b08d0.png)
+
+> In **A**, **a1** is the **MSB** bit.
+> In **B**, **b1** is the **MSB** bit.
+> For **y1** which is **greater**? **B** is **greater**. Now, we will **compare**, **a1 and b1** as they are the **MSB** bits of **A and B** respectively.
+> When **b1 > a1** bit then we can say that **B is greater compared A**.
+> If **a1** is less than **b1**, then **B** is greater.
+> When we will go for the **next bit** comparison? -> provided **a1 and b1** bits are **equal**.
+
+![image](https://user-images.githubusercontent.com/54589605/225894152-337b5c86-f056-478e-8483-63089acefea9.png)
+
+> When **a1 and b1** are **equal** then we do further calculation that **a0 < b0**.
+
+![image](https://user-images.githubusercontent.com/54589605/225894818-d87dfdfb-b8e2-4c62-9ee6-5b375b1d47d2.png)
+
+
+
+![image](https://user-images.githubusercontent.com/54589605/225890002-f07f2c3c-e554-440e-b46c-c255aeee90ca.png)
+![image](https://user-images.githubusercontent.com/54589605/225890366-59969abb-4ba9-4d4e-b9ea-099316f05443.png)
+
+
+> The beauty thing is that **a1,a0, b1 and b0** values will only take **0 or 1** binary values only.
+> For **a1 < b1** case, **a1** must be **0** and **b1** must be **1**.
+> For it to be **a1 = b1** equal, it has to be **a1 Ex-NOR b1**.
+> For **a0 < b0** case, **a0** must be **0** and **b0** must be **1**.
+
+![image](https://user-images.githubusercontent.com/54589605/225890805-f3e968ec-d9c4-4101-ad9e-69b90f0e20a0.png)
+
+* a1 =0 -> a1'
+* b1 =1 -> b1
+
+![image](https://user-images.githubusercontent.com/54589605/225891557-950758bc-6aef-420c-b95b-ec88e038ea46.png)
+
+* a0 =0 -> a0'
+* b0 =1 -> b0
+
+![image](https://user-images.githubusercontent.com/54589605/225890894-d7b563a9-814f-4311-9f16-563bad5e4f52.png)
+
+* Logic
+
+![image](https://user-images.githubusercontent.com/54589605/225890927-dfadb9fe-bda2-4d3a-9a83-186e734b8513.png)
+![image](https://user-images.githubusercontent.com/54589605/225891587-ed9374a5-7de2-46e7-909f-c56e0f457c79.png)
+
+* Boolean Logic
+
+## 2-bit Magnitude Comparator
+
+> For **y2 = (A = B)**, we just can't compare **a1 = b1** and say the numbers are **equal**. We need to compare **a0 = b0** as well.
+
+* AND -> Product
+
+![image](https://user-images.githubusercontent.com/54589605/225895316-9a9923c1-d6c7-4f3f-b407-9e6251b38d77.png)
+![image](https://user-images.githubusercontent.com/54589605/225895523-06b664ad-5fd2-44d4-bdec-e01414329b0b.png)
+
+## 3-bit Magnitude Comparator
+
+![image](https://user-images.githubusercontent.com/54589605/225896603-12db59b3-8af5-47ac-8100-4af035cc669b.png)
+
+## 4-bit Magnitude Comparator
+
+![image](https://user-images.githubusercontent.com/54589605/225896999-a2c4cf55-661e-4206-86fe-c1568b4a3ba6.png)
+![image](https://user-images.githubusercontent.com/54589605/225897327-48d4b75f-551f-4928-a6a7-c8f020a41600.png)
+
+## n-bit Magnitude Comparator
+
+![image](https://user-images.githubusercontent.com/54589605/225897444-9542a409-c2ce-4b2e-b4bd-2f351988c748.png)
+
+## Multiplexer
+
+![image](https://user-images.githubusercontent.com/54589605/225897640-dcf81237-0506-46b2-a94d-c8380c9a9772.png)
+
+
+
+
 
 
 
