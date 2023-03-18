@@ -4179,6 +4179,7 @@ y= M(0,3)
 ![image](https://user-images.githubusercontent.com/54589605/226096840-530c5b37-20d3-4e69-afdf-49c7f4570c72.png)
 ![image](https://user-images.githubusercontent.com/54589605/226096933-ad61baea-a404-46f8-ab70-40b086e548c7.png)
 
+## Combinational Logic Circuit (27) [18th March 2023]
 
 
 
@@ -4202,7 +4203,10 @@ y= M(0,3)
 
 
 
-* Upload the rest of the doubts of digital, uploaded till **Image 15**. Some of the solutions are present check them out.
+
+
+
+* Upload the rest of the doubts of digital, uploaded till **Image 15**. Some of the solutions are present check them out. (**DONE**)
 * After This video, do the **5** daily assignments. (**DONE**)
 * After that do **DPP 1**. (**DONE**)
 
