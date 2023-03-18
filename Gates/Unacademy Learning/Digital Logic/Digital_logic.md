@@ -4034,9 +4034,157 @@ y= M(0,3)
 
 ![image](https://user-images.githubusercontent.com/54589605/225897444-9542a409-c2ce-4b2e-b4bd-2f351988c748.png)
 
+### Questions
+
+![image](https://user-images.githubusercontent.com/54589605/226089239-600e51db-ef4a-4362-86c8-1ca9f0251323.png)
+![image](https://user-images.githubusercontent.com/54589605/226089244-0846b3de-f431-4fc8-8655-086b4fe7878e.png)
+![image](https://user-images.githubusercontent.com/54589605/226089252-0031a0d1-dfd7-41a4-8bdd-5a03606d0e1e.png)
+
+
+## Combination Logic Circuit (26) [18th March 2023]
+
 ## Multiplexer
 
 ![image](https://user-images.githubusercontent.com/54589605/225897640-dcf81237-0506-46b2-a94d-c8380c9a9772.png)
+![image](https://user-images.githubusercontent.com/54589605/226089278-59e39896-e966-4f02-b7cd-462b1a16a5cd.png)
+
+> From so many books, we are only **picking/selecting** only **one**. That's why **Many to one**.
+> All the books are **simultaneously/parallely** available but we can only select **one** at a time. That's why **parallel to serial** converter.
+
+![image](https://user-images.githubusercontent.com/54589605/226089401-da15f57e-bd02-45f0-8fa2-9889cd9468a1.png)
+![image](https://user-images.githubusercontent.com/54589605/226089472-69e583a7-fc58-4b79-9a8e-e787a7e05ca7.png)
+
+> We have **one road** only. At a time, one fellow can enter. Which fellow has to go, depends on the **mamaji**. Technical name of **mamaji** is **select lines(s)**.
+> **A** is assigned as **0** and **B** is assigned as **1**.
+> If **s=0**, then **A** will go, then **y=A**.
+> If **s=1**, then **B** will go, then **y=B**.
+
+![image](https://user-images.githubusercontent.com/54589605/226089572-5574b1b2-9726-4661-9c5a-c6de09b2b8f3.png)
+
+> There is no **manipulation** here. Whatever we have given here(A and B), that will only come as output(y) which depends on the **select line(s)**.
+> It will mentioned in the question which will be **0 and 1**.
+> **A** is assigned as **1** and **B** is assigned as **0**.
+> If **s=0**, then **B** will go, then **y=B**.
+> If **s=1**, then **A** will go, then **y=A**.
+
+![image](https://user-images.githubusercontent.com/54589605/226089706-431ed46d-6300-4ecf-b9e5-caf6b39be5a6.png)
+
+> The moment, **s=0**, the connection is established and **A** will go, **y=A**.
+
+![image](https://user-images.githubusercontent.com/54589605/226089731-d14fe8ba-e55f-4194-b932-26db5911adb6.png)
+
+> The moment, **s=1**, the connection is established and **B** will go, **y=B**.
+> It is like a **switching connection**, based on the input and based on the select lines, it(output) will depend.
+> Data cannot be modified. Only **selection** can be done based on the **selection lines**.
+
+![image](https://user-images.githubusercontent.com/54589605/226089809-ab065a86-d947-4c83-b7aa-0be9177c4269.png)
+
+> Output is always **one** only.
+
+![image](https://user-images.githubusercontent.com/54589605/226089890-72f67dca-04c5-4f52-ab49-55ab79541a9f.png)
+
+> Power of 2, multiplexers are possible only. Like above. **5X1 or 10X1** are not possible.
+
+![image](https://user-images.githubusercontent.com/54589605/226089925-3c04047a-5cf1-4d43-ac4d-5f2abd20ed08.png)
+
+> The circled values are the **no. of select inputs or select lines**.
+
+![image](https://user-images.githubusercontent.com/54589605/226090073-795bbdf1-16e4-4559-81d6-e915e806d2ac.png)
+
+> Logic expression for **2X1** mux.
+
+### Logic Circuit
+
+![image](https://user-images.githubusercontent.com/54589605/226090426-41e80ddf-7d78-4e4c-8c4f-2c723f501ac7.png)
+
+
+## 4 X 1 Mux
+
+* S0 -> LSB
+* S1 -> MSB
+
+> It doesn't check also whatever things we have connected in the **circuit**. It doesn't see anything. The moment we have given the **selection line as 10 here**, immediately there will be an connection established from **I2 to y**. As a result, **R** fellow will be shown as the output.
+
+![image](https://user-images.githubusercontent.com/54589605/226090629-d449d92b-7b23-431b-a15f-fdf02cc567d5.png)
+![image](https://user-images.githubusercontent.com/54589605/226090671-e9c9d281-c64e-405d-be9d-c323c201ae5b.png)
+
+* Logic Expression of **4 X 1** multiplexer.
+
+![image](https://user-images.githubusercontent.com/54589605/226090810-8cc39742-8c66-4bb7-afd3-ac4eb5892340.png)
+
+> Always remember the **MSB and LSB**, it is important.
+
+![image](https://user-images.githubusercontent.com/54589605/226091062-5cfe869c-dd0b-49ab-ac05-8d7e3aaa5e4f.png)
+![image](https://user-images.githubusercontent.com/54589605/226091092-e9349195-80c8-4953-94ec-489b7bda9dfb.png)
+
+> **1** indicates **minterms**.
+> **0** indicates **maxterms**. 
+
+> The inputs which have **1** are **minterms** only.
+> The inputs which have **0** are **maxterms** only.
+
+> We have directly identify the **minterms and maxterms** from **1 and 0** respectively.
+
+![image](https://user-images.githubusercontent.com/54589605/226091296-a4c1f534-e33c-4281-8b76-ecb8788b8092.png)
+![image](https://user-images.githubusercontent.com/54589605/226091427-0777e488-2d85-4fe6-afc3-39d975970524.png)
+
+[**Explaination**]
+
+![image](https://user-images.githubusercontent.com/54589605/226092097-850b6857-3a7c-499f-a215-c4603976be47.png)
+![image](https://user-images.githubusercontent.com/54589605/226092126-149c8c97-4c7d-4cae-b2ff-49da39f9e962.png)
+![image](https://user-images.githubusercontent.com/54589605/226092418-215e8eb8-7e5b-4a04-aece-5da7fbe15d19.png)
+![image](https://user-images.githubusercontent.com/54589605/226093131-f2ae134e-0f0f-4f20-9dd8-4c13457a5a3a.png)
+![image](https://user-images.githubusercontent.com/54589605/226093334-f0010429-128e-4c09-a627-8b8cbb9ed351.png)
+![image](https://user-images.githubusercontent.com/54589605/226093497-f4e6fb92-a93d-498c-99f1-ebbba72ec268.png)
+![image](https://user-images.githubusercontent.com/54589605/226093673-a22a127a-96ff-4e06-b16e-a76de3ee5da2.png)
+
+### Question
+
+![image](https://user-images.githubusercontent.com/54589605/226094599-f79300fa-b179-447c-9517-3df9bc29b689.png)
+
+### Sir's solution
+
+![image](https://user-images.githubusercontent.com/54589605/226094618-f76b71a4-69ce-4c5d-91dd-262104ce40c9.png)
+![image](https://user-images.githubusercontent.com/54589605/226094623-9ef39c94-1f0c-4d3e-879c-09d8266c1698.png)
+
+
+![image](https://user-images.githubusercontent.com/54589605/226094780-1c7ae832-5d2b-467c-b8d8-8386c2de23c1.png)
+![image](https://user-images.githubusercontent.com/54589605/226095358-24302494-d207-46bf-a607-5759f9afbd38.png)
+
+
+* Weight of A -> 2^2 -> 4
+* Weight of B -> 2^1 -> 2
+* Weight of c -> 2^0 -> 1
+
+> I0 -> **0, value of C** -> 0,1
+> I1 -> **2, 2 + value of C** -> 2,3
+> I2 -> **4, 4 + value of C** -> 4,5
+> I3 -> **6, 6 + value of C** -> 6,7
+
+
+![image](https://user-images.githubusercontent.com/54589605/226095758-6a0a8af2-5696-4e75-a2b3-5d24cde63f4a.png)
+
+> In I0, we need **1** and it is the **bigger value** compared to **0 and 1**, so we will simply connect **C** to **I0**.
+> In I1, we need **2** and it is the **smaller value** compared to **2 and 3**, so we will simply connect **C'** to **I1**.
+> In I2, we need **4** and it is the **smaller value** compared to **4 and 5**, so we will simply connect **C'** to **I2**.
+> In I3, we need **7** and it is the **bigger value** compared to **6 and 7**, so we will simply connect **C** to **I3**.
+
+![image](https://user-images.githubusercontent.com/54589605/226095975-ab9b0bbf-0844-48b2-8ea9-77e1b5474dbd.png)
+![image](https://user-images.githubusercontent.com/54589605/226095999-fa2d1922-c6be-45c7-947c-103cb85ed1ce.png)
+
+* Not needed in **2 inputs**. More than **2** inputs needed for this trick.
+
+![image](https://user-images.githubusercontent.com/54589605/226096115-dcea85ad-d024-414e-85bd-7adc4eddf3da.png)
+![image](https://user-images.githubusercontent.com/54589605/226096611-ff0b05ba-112f-4f7f-a0d7-220419adf64b.png)
+![image](https://user-images.githubusercontent.com/54589605/226096840-530c5b37-20d3-4e69-afdf-49c7f4570c72.png)
+![image](https://user-images.githubusercontent.com/54589605/226096933-ad61baea-a404-46f8-ab70-40b086e548c7.png)
+
+
+
+
+
+
+
 
 
 
