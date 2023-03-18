@@ -4178,15 +4178,187 @@ y= M(0,3)
 ![image](https://user-images.githubusercontent.com/54589605/226096611-ff0b05ba-112f-4f7f-a0d7-220419adf64b.png)
 ![image](https://user-images.githubusercontent.com/54589605/226096840-530c5b37-20d3-4e69-afdf-49c7f4570c72.png)
 ![image](https://user-images.githubusercontent.com/54589605/226096933-ad61baea-a404-46f8-ab70-40b086e548c7.png)
+![image](https://user-images.githubusercontent.com/54589605/226105935-02286063-bc62-4a54-82ed-8f10236f5598.png)
+![image](https://user-images.githubusercontent.com/54589605/226105942-e4719b0d-be51-419e-92fd-965477c3940a.png)
+![image](https://user-images.githubusercontent.com/54589605/226105944-9f505e40-b7ed-4c2f-a2d7-31335d8da8cb.png)
+![image](https://user-images.githubusercontent.com/54589605/226105948-ecc7e86a-7f3b-4041-82ee-3fa2ab0c502b.png)
+![image](https://user-images.githubusercontent.com/54589605/226105957-406cdc8a-ea31-46cf-bb10-c0525f3a3cbc.png)
+![image](https://user-images.githubusercontent.com/54589605/226105962-a5401107-57c3-48da-94a9-601048a552c4.png)
+![image](https://user-images.githubusercontent.com/54589605/226105968-986f1e98-db05-48d6-9a65-8eee14d9f2ac.png)
+![image](https://user-images.githubusercontent.com/54589605/226105975-4a51cb42-eef9-48cf-9f57-50f3cf294d06.png)
+![image](https://user-images.githubusercontent.com/54589605/226105979-d0be38e6-874f-450a-a2e5-8e498e6264ae.png)
+![image](https://user-images.githubusercontent.com/54589605/226105983-ecca9774-bbcf-4862-9dc6-134e1a17609b.png)
+![image](https://user-images.githubusercontent.com/54589605/226105986-c24b063c-6d70-4562-a181-1aa034d8d459.png)
+
 
 ## Combinational Logic Circuit (27) [18th March 2023]
 
+![image](https://user-images.githubusercontent.com/54589605/226106182-9303b31b-d69f-4019-9ef8-7a8713ea589c.png)
+![image](https://user-images.githubusercontent.com/54589605/226106768-eb7cb5a7-9568-4ca2-9d8f-8fc0cd7ec859.png)
+![image](https://user-images.githubusercontent.com/54589605/226106752-591d25b5-da7d-4133-9d39-a95c01e52427.png)
+![image](https://user-images.githubusercontent.com/54589605/226106880-d99489a3-dedb-4a99-96f0-a3734619a32a.png)
+![image](https://user-images.githubusercontent.com/54589605/226106978-0b2e39ed-99f0-4efd-b9f6-71d38cb3ebc1.png)
+
+> Ground Symbol. It denotes **logic 0**.
+> Vcc symbol represents **5v**. It denots **logic 1**.
+
+![image](https://user-images.githubusercontent.com/54589605/226107086-507e15b1-972e-4298-8749-3190a27a8d35.png)
+![image](https://user-images.githubusercontent.com/54589605/226107103-abbed1f6-554e-4827-8097-967afd9b87b7.png)
+
+![image](https://user-images.githubusercontent.com/54589605/226107251-b959ad01-9364-4af6-b12a-f230c76f7540.png)
+
+* If, D = y-x
+* Difference = X Ex-OR Y  [No change]
+* Borrow = Y'X [Change]
+
+> In **borrow** whichever we are need to **substract**, put **bar or '** on top of that. As we are substracting **X** from **Y**, **D = y-x**, so we have to put **y'** in **borrow**.
+
+![image](https://user-images.githubusercontent.com/54589605/226107715-0412aef6-fcc4-429b-9253-96672357aa25.png)
+
+![image](https://user-images.githubusercontent.com/54589605/226107754-1cb104a0-372b-498c-820e-a84a826bf881.png)
+
+* No, they will clearly mention in the question. Otherwise don't assume anything. 
+
+### **Maha Technique**
+
+![image](https://user-images.githubusercontent.com/54589605/226107860-852c06af-06d6-45e2-bf67-f3f690b5e7db.png)
+
+> In the above question, there are **4** variables. **3** variables are taken for **selection line**. **1** variable is given for **input**. Whenever we have **total variables = 4, selection lines has 3 variables and 1 is used for input**, in these type of cases, we can use the **maha technique**.
+
+> Which ever variable is not in the **selection line**, we have to concentrate on that. **D** is not present in the **selection line**. **D** is LSB. As this is in **binary system**, we are using **powers of 2**.
+
+![image](https://user-images.githubusercontent.com/54589605/226108548-b1756369-da07-492e-8dd1-3d4ed29e2b09.png)
+
+> Like this, we will do **weight analysis**.
+
+* Minterms possible -> 0,1,2,3 .. 13,14,15
+
+> Start from the **least value**. First value is **0**.
+
+* I0 -> (0, 0 + weight of D) -> 0, (0 + 1) -> (0,1)
+* I6 -> (12, 12 + 1) -> (12,13) 
+
+> Like this do for all.
+> We have to find the **minterms**. 
+> If **0** is there as **input**, then don't take any terms. Not required. 
+> **D** means **higher value** to be considered. Here in **I1(2,3)**, **3** is higher so take **3** as a **minterm**.
+> **D'** means **lower value** to be considered. If there was something like in for **I4(8,9)**, then, **8** is take as lower value for the **minterm**.
+> **1** means **both** to be considered. For **I6(12,13)**, both **12 and 13** are considered for the **minterms**.
+
+![image](https://user-images.githubusercontent.com/54589605/226109011-1fe115ba-6403-45f2-bcb0-90f1c7c06044.png)
+![image](https://user-images.githubusercontent.com/54589605/226109077-83294cc4-2269-4ca5-947c-73146ceb671d.png)
+
+> This **maha technique** is valid for **4** variables where **1** is missing. If **2** missing then we can't do this technique.
+
+![image](https://user-images.githubusercontent.com/54589605/226109192-123a10fe-76bf-43a0-b98d-aac91cd763f2.png)
+![image](https://user-images.githubusercontent.com/54589605/226109711-fe037273-c6ad-4e31-8b73-c3aded7d33e5.png)
+
+### **Maha Technique** trick
+
+> Same above question only, done using **Maha Technique** trick.
+
+![image](https://user-images.githubusercontent.com/54589605/226109864-a238f748-b70e-46c4-be9c-ee4f98ea9124.png)
+
+> Weight of **A** is **2^2 -> 4**. So, **I0 -> (0, 0 + weight of A) -> (0, 0 + 4) -> (0, 4)**.
+> **0 and 4** are now considered. Now for **I1**, the smallest value is **1**, so for **I1 -> (1, 1 + 4) -> (1,5)**. 
+> **1 and 5** are now considered. Now for **I2**, the smallest value is **2**, so for **I2 -> (2, 2 + 4) -> (2,6)**.
+> **2 and 6** are now considered. Now for **I3**, the smallest value is **3**, so for **I1 -> (3, 3 + 4) -> (3,7)**.
+
+![image](https://user-images.githubusercontent.com/54589605/226110145-bf6c59b0-fc60-42ac-bc2e-b2c8bb0ffdd1.png)
+![image](https://user-images.githubusercontent.com/54589605/226110225-f7d8410b-c699-44fa-916d-83c6974340ce.png)
+![image](https://user-images.githubusercontent.com/54589605/226110536-c51df85b-3ede-453a-abe2-77eda2e14be2.png)
+
+> For **3** variables, we need a **2^3 X 1 -> 8 X 1**  MUX for easy implementation.
+
+![image](https://user-images.githubusercontent.com/54589605/226110792-ef5d95d7-529e-4409-99bc-dad016e2bede.png)
+
+> For **4** variables, we need a **2^4 X 1 -> 16 X 1**  MUX for easy implementation.
 
 
+![image](https://user-images.githubusercontent.com/54589605/226110949-41b9063a-3e75-415e-90ab-e7e434a209ec.png)
 
+> For **3** variables, we only need a **2^2 X 1 -> 4 X 1** MUX is sufficient. But we saw above that for **3** variables we need **8 X 1** MUX.
 
+![image](https://user-images.githubusercontent.com/54589605/226111048-f55ac521-7927-484f-afe5-de99cf972cc6.png)
 
+> For the implementation of the **same** function, the no. of variables is **3**. The size of MUX required is **4 X 1** MUX. **YES**. With just **4 X 1** MUX, we can implement it? **NO**. In addition to the **4 X 1** MUX, we require **A'** which comes from **NOT** gate.
+> So, in addition to the **4 X 1** MUX, we need **one(1) NOT gate**.
 
+![image](https://user-images.githubusercontent.com/54589605/226111315-32e034b5-fc47-4d83-8f7b-8aa5fa123d41.png)
+
+> For the implementation of the **same** function, the no. of variables is **3**. So, in addition to the **4 X 1** MUX, we need **one(1) NOT gate**.
+
+![image](https://user-images.githubusercontent.com/54589605/226111373-4aed3e99-ee44-4c84-82bd-0b1976a646c5.png)
+
+> With just **4 X 1** MUX, we implemented a **3** variable function.
+
+![image](https://user-images.githubusercontent.com/54589605/226111413-8c2c02c6-05df-4ee9-8c8d-f5eb29c80b59.png)
+
+> In here, in addition to the **4 X 1** MUX, we need **one(1) NOT gate** as well.
+
+![image](https://user-images.githubusercontent.com/54589605/226111448-49af9f36-2184-4832-96a8-0d26ae85dab4.png)
+
+> **Conclusion**, by using **8 X 1** mux only and nothing else, we can implement all the **3 variable** functions. **YES**. Whatever way they have given, we can implement it. **YES**.
+> By using **4 X 1** mux only and nothing else, can we implement all the **3 variable** functions. **NO**.
+
+![image](https://user-images.githubusercontent.com/54589605/226111712-75818938-fd9f-44f7-b5e1-b2bf3f7b5a7a.png)
+
+> In this case we have implemented using **4 X 1** mux only and nothing else.
+
+![image](https://user-images.githubusercontent.com/54589605/226111735-483aacef-d566-454f-acc2-f96225d2a605.png)
+
+> But, in the above case, it is not possible to implement with **4 X 1** mux only and nothing else. With the **4 X 1** mux, we need **one(1) NOT gate** required as well.
+
+> **Conclusion**, by **8 X 1** mux only and nothing else, we can implement all the **3 variable** functions.
+> By using **4 X 1** mux only and nothing else, we can implement **some** of the **3 variable** functions but not all.
+
+## **NOTES**
+
+> **4 X 1** MUX -> Some -> Some but not all **3 variable functions**.
+> **8 X 1** MUX -> Some -> Some but not all **4 variable functions**.
+
+![image](https://user-images.githubusercontent.com/54589605/226112061-41cff4b0-922d-4c09-9ca1-8196bfc75e4f.png)
+
+> We can extend it for **any no. of variables**.
+
+![image](https://user-images.githubusercontent.com/54589605/226112120-01e87701-e6d3-4d66-9a6f-caa6a204a5e0.png)
+
+### Questions
+
+![image](https://user-images.githubusercontent.com/54589605/226112293-ec24db96-e83d-477b-bb8c-d3a78651e204.png)
+![image](https://user-images.githubusercontent.com/54589605/226113980-8274d4af-b63e-428a-a7d6-919307df2f44.png)
+
+> We have to answer in **least possibility** remember.
+
+![image](https://user-images.githubusercontent.com/54589605/226113872-a111b0f0-0f43-4c2a-a98b-f778f3a42fb8.png)
+![image](https://user-images.githubusercontent.com/54589605/226114170-ed981237-7e5d-4de1-857d-5de18fabfaf5.png)
+![image](https://user-images.githubusercontent.com/54589605/226114331-52e7a98e-4c78-4fd7-9b1a-3da298b8c0df.png)
+![image](https://user-images.githubusercontent.com/54589605/226114781-e6db4344-6bd9-490a-b60f-12daf1d28f3b.png)
+![image](https://user-images.githubusercontent.com/54589605/226114838-944d24eb-bcba-441a-8156-6835ee9483b1.png)
+
+## MUX as **Universal Gate**
+
+![image](https://user-images.githubusercontent.com/54589605/226114934-967dcb8f-6eb4-414f-9ae7-a46644e4ef26.png)
+![image](https://user-images.githubusercontent.com/54589605/226115045-85814c22-b589-4fdc-a979-a570cb308faa.png)
+![image](https://user-images.githubusercontent.com/54589605/226115142-16698f08-8bf3-4fc2-9634-ba033899fee2.png)
+![image](https://user-images.githubusercontent.com/54589605/226115227-8654b108-54b6-4784-a890-12508cc9657b.png)
+
+## Implementation of Higher Orde MUX using lower order MUX
+
+![image](https://user-images.githubusercontent.com/54589605/226115300-6db0bb88-76e3-44b5-9d51-5a74d1da302d.png)
+
+> Here, **4** inputs are required and using **2** inputs only.
+> **4 X 1** is the required MUX. **4** inputs and **2** selection line.
+> **2 X 1** has **1** selection line.
+> Simply **divide** the **required Mux(4 X 1) here** with **given MUX(2 X 1)**.
+> **L2** is **higher level**, **L1** is lower level.
+> **MSB** must be connected to the **higher/last** level. **B** becomes the **selection line**.
+> Same **level** so **same selection line** is given which is **B**.
+
+![image](https://user-images.githubusercontent.com/54589605/226115575-772d2e70-1477-4183-80c5-a30cb6a68f27.png)
+![image](https://user-images.githubusercontent.com/54589605/226115676-7c0cf2ee-296b-4aad-8ad6-0ed8047252c2.png)
+
+> **4 X 1** MUX using **2 X 1** MUX.
 
 
 
