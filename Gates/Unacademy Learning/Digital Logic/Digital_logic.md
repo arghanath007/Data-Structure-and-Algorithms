@@ -4383,10 +4383,34 @@ y= M(0,3)
 > Here, same like above. **4 X 1** mux behaves like a **2 X 1** mux.
 
 ![image](https://user-images.githubusercontent.com/54589605/226251503-e1406587-d1bb-450a-862a-8d76e7162e04.png)
+
+### Homework Questions
+
 ![image](https://user-images.githubusercontent.com/54589605/226251570-0d87073f-864f-4bd3-a0bf-851f0b410e52.png)
 ![image](https://user-images.githubusercontent.com/54589605/226251605-e8b82c93-606c-4913-b9e8-189fdc623f03.png)
 ![image](https://user-images.githubusercontent.com/54589605/226251642-2e1be4b0-2454-46f0-b60b-756abf179c5a.png)
 ![image](https://user-images.githubusercontent.com/54589605/226251675-3c6ecbcf-c2e3-4726-ac6e-40ded0aa0c05.png)
+
+### Q1
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/F286EEE54C
+
+### Q2
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/61C7724311
+
+### Q3
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/1F5535058D
+
+### Q4
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/605FBE534F
+
+![image](https://user-images.githubusercontent.com/54589605/226334137-ae189760-3ac8-4812-b3e5-b43fb4559420.png)
+![image](https://user-images.githubusercontent.com/54589605/226334165-79b21453-1eb2-439b-9be0-d020f7dd2ba8.png)
+![image](https://user-images.githubusercontent.com/54589605/226334184-89b17b44-66a4-4aaf-b63a-36edf3f4be56.png)
+
 
 ## De-multiplexer
 
@@ -4537,15 +4561,285 @@ y= M(0,3)
 ![image](https://user-images.githubusercontent.com/54589605/226275550-faeb5b3c-a774-420c-80fd-877a9195b12f.png)
 ![image](https://user-images.githubusercontent.com/54589605/226276295-0854c823-bc87-4f77-a53b-e7822a3676d2.png)
 ![image](https://user-images.githubusercontent.com/54589605/226276646-257b22ef-10f9-4e15-8ec6-c28fa252cb04.png)
+![image](https://user-images.githubusercontent.com/54589605/226318683-596bc9b5-f1d5-4436-ad30-e38ce95c435b.png)
+![image](https://user-images.githubusercontent.com/54589605/226318727-2d8150f5-bfc4-49b2-8768-97dc8760185b.png)
+![image](https://user-images.githubusercontent.com/54589605/226318790-70703b3e-c96a-430c-9eb2-c66a6638ad95.png)
+![image](https://user-images.githubusercontent.com/54589605/226318843-bbb4510a-2a66-453f-ada4-8497fbc3200d.png)
+![image](https://user-images.githubusercontent.com/54589605/226318866-01a015b5-c0bd-4bbc-953d-0dbc00e89615.png)
+![image](https://user-images.githubusercontent.com/54589605/226318885-99af8c76-0e44-48d2-810f-3172f66a2b8a.png)
+![image](https://user-images.githubusercontent.com/54589605/226318921-6a948317-50b4-4057-b38a-67c0469f7d63.png)
+
+## Combination Circuit (29) [20th March 2023]
+
+![image](https://user-images.githubusercontent.com/54589605/226322403-504b4f2a-f6e0-47c1-b9de-73c3f4b232be.png)
+![image](https://user-images.githubusercontent.com/54589605/226333003-19050c6a-9221-4d6a-861a-db3fe11373e0.png)
+![image](https://user-images.githubusercontent.com/54589605/226333471-5accbcaf-19b0-4cfb-b7ea-d862c1d0624b.png)
+
+> Whenever we want to implement an expression using **decoder**, we need to first find the **minterms** of all the expression.
+
+![image](https://user-images.githubusercontent.com/54589605/226335093-fa32138b-6edb-42be-827a-138515695e07.png)
+
+## Conversation of **De-multiplexer** to **Decoder**.
+
+![image](https://user-images.githubusercontent.com/54589605/226335421-d3b32fa2-80d5-4e13-a857-05fc6dba478b.png)
+
+> **Inputs** of the **decoder** are the **selection lines** of **De-mux**.
+
+![image](https://user-images.githubusercontent.com/54589605/226335816-5f23e218-eb0f-44ea-b403-05eeb4242af6.png)
+
+> The **input** of **De-mux** becomes the **enable pit** in **decoder**.
+
+![image](https://user-images.githubusercontent.com/54589605/226335755-92e76d35-2db6-4eeb-a388-41cf4950d0e1.png)
+![image](https://user-images.githubusercontent.com/54589605/226336173-c81bbc1d-0019-4294-bbfa-68c50ec9d4ab.png)
+
+> In this matter, we are able to implement the **decoder to De-mux** and **De-mux to decoder** which is vice-versa.
+
+![image](https://user-images.githubusercontent.com/54589605/226336622-bbd6e245-f568-4f89-b776-18c7a90e5fbc.png)
+
+> In most cases, we will use **decoder** instead of **De-mux**.
+
+## Implementation of higher order decorders using lower order decorders
+
+> The implementation of a **decorder** is the **same as De-mux** only.
+
+* Multiplexer -> Inputs divided
+* De-mux -> Outputs divided 
+
+![image](https://user-images.githubusercontent.com/54589605/226338204-537dfc29-9682-406f-adb9-ea28b2c786d0.png)
+![image](https://user-images.githubusercontent.com/54589605/226338478-2d66d682-f4f2-4cf3-8955-88d1d32af0ab.png)
+![image](https://user-images.githubusercontent.com/54589605/226338798-982240c0-76f9-440e-89ed-189f8d1e3051.png)
+
+## Encoder
+
+> Encoder is simply opposite to the **decoder**.
+> Encoder is preferred for **core convertions**.
+
+![image](https://user-images.githubusercontent.com/54589605/226339201-cf814e24-ccd9-44d8-8807-156c891cc96e.png)
+![image](https://user-images.githubusercontent.com/54589605/226339220-26983b21-cf34-4e39-8251-3f18192d953c.png)
+
+> In case of an **encoder** in these **4** inputs, at a time **only one of the input is one(1)**
+> We have given **I1** input as **1**. Then, it will display the **output** of binary equivalent of **one(1)**. We will get the **output** as **01**. **Y1** is **MSB bit** here. **Y1Y0 -> 01** this is the **output**.
+
+* Binary equivalent of **1** -> 01.
+
+![image](https://user-images.githubusercontent.com/54589605/226342584-852fb008-6e11-46b8-97d9-38dd185e9155.png)
+
+> **At a time only one input is 1**, other that this, if we have given any other forms of **input**, we will get some **random/garbage** value as **output** but that is not a **valid output**. So, the **valid pin** will be set to **0**.
+
+> For **I0**, we got **1**, the binary equivalent of **0** as **zero** is present in **I0** is **00**. Hence **Y1Y0 -> 00**. As this is a **valid output**, the **valid pin** is set to **1**.
+
+![image](https://user-images.githubusercontent.com/54589605/226344256-1d7765cf-6f8f-453b-b8d9-d83c3c4a0e58.png)
+
+### Drawbacks of Encoder
+
+![image](https://user-images.githubusercontent.com/54589605/226344590-93902d19-a5f7-4fa1-aa42-972bf4e7f101.png)
+
+## Priority Encoder
+
+![image](https://user-images.githubusercontent.com/54589605/226345194-0139da18-e0b1-42ee-b082-4f4e0a682a87.png)
+
+> While designing **priority encoder**, we will assign some **priority**. **Priority** will be assigned depending on the **requirements**.
+
+* Priority -> I3 > I2 > I1 > I0
+
+> When **I1 = 1**, then **I1** has **higher priority** than **I0**. The system doesn't check for **I0** wheather it has **0 or 1** value. The system doesn't care about **I0** value. **I0** value is **don't care**.
+> When **I2 = 1**, then **I2** has **higher priority** than **I1 and I0**. The system doesn't check for **I1 and I0** wheather they has **0 or 1** value. The system doesn't care about **I1 and I0** value. **I1 and I0** value are **don't care**.
+> When **I3 = 1**, then **I3** has **higher priority** than **I2, I1 and I0**. The system doesn't check for **I2, I1 and I0** wheather they has **0 or 1** value. The system doesn't care about **I2, I1 and I0** value. **I2, I1 and I0** value are **don't care**.
+
+![image](https://user-images.githubusercontent.com/54589605/226347274-77dcf829-3354-441e-aa06-d8e97486538d.png)
+![image](https://user-images.githubusercontent.com/54589605/226347605-7ac89df9-ca11-4659-981b-5fedba1ba9c3.png)
+
+* Obviously, it is **always valid**.
+
+![image](https://user-images.githubusercontent.com/54589605/226347946-dd69ed8b-defb-4a27-8578-2900d66a2517.png)
+
+## Sequential Circuit
+
+> In **combination circuit**, there is **no memory**. There is **no feedback** and there is **no clock signal**.
+> In **sequential part**, we need to see the **past behaviour**. We need to **analyze** the **past behaviour**. **Past behaviour or Past output** we need to store, for that we need a **memory**.
+> In **combinational part**, if we ask, immediately we get the **things**.
+
+![image](https://user-images.githubusercontent.com/54589605/226351336-c6891418-57cf-414f-8c7a-80d90bbe4a9c.png)
+
+> **Flip-flp** depends on **latches**.
+> **Shift register, Counters and Finite State Machines** depends on **Flip flops**.
+
+* Latches -> [**IMPORTANT**].
+
+## Latch [**IMPORTANT**]
+
+> At **two** ends, the value is the same. Then, it is called as **stable**.
+> It is **stable**.
+> As for both **0 and 1**, the circuit is **stable**, hence it is as bistable circuit.
+
+![image](https://user-images.githubusercontent.com/54589605/226354502-9c640719-26d2-4242-81a8-e38a0eba0eaa.png)
+![image](https://user-images.githubusercontent.com/54589605/226354993-8e287a5e-9377-4fac-a118-ad7bb0b5f7d8.png)
+
+> Initially, the **input is zero(0)**. If we take the **output** at the **first NOT gate**, then we get **1** as the **output**. **1** will come down and act as the **input** for the **second NOT gate**. We will get **0** as the **output** for the **second NOT gate**.
+
+![image](https://user-images.githubusercontent.com/54589605/226355293-001232ab-f35a-4a6a-9477-11c575a74af7.png)
+![image](https://user-images.githubusercontent.com/54589605/226358198-f28a14e2-def8-429e-a894-b5cb068745d3.png)
+
+> We have given **input** as **zero(0)** and we waited for sometime(10secs) till the **output** of the second NOT gate came. After the output came, we removed the **input**. The moment, the output of **second NOT gate**  is **zero(0)**, it will go back to the input of **first NOT gate**. Now, we will get **1** as the output of **first NOT gate** and the **1** will go to the input of **second NOT gate** and we will get **zero(0)** as the output of **second NOT gate**.
+> We are getting a complete **loop** here.
+> Even if we check after sometime(after 1yr), then also we will get the **same values**. Which means, it is storing the information. It is storing **1 bit of information**. That's why it is called as **basic memory circuit**.
+
+![image](https://user-images.githubusercontent.com/54589605/226359520-2a572258-6c23-404e-996e-adaf93ead0b9.png)
+![image](https://user-images.githubusercontent.com/54589605/226359592-9bc7a6cd-4c88-49a2-9135-5356f8df24e9.png)
+
+> This is the basic idea we got for **implementation**.
+> If we want to change the data present in **latch** device, then we need to **again supply the input**.
+> NOT gate has only **one input**. We need to replace with some other gate which **behaves like a NOT gate** and has **more than 1 inputs**. The gates are **NAND and NOR** gate.
+> So, it the place of NOT gate, we are using the **NAND** gate.
+
+![image](https://user-images.githubusercontent.com/54589605/226363858-61f04772-3183-42e6-a25a-2c730b348738.png)
+
+* Changing the data present
+* Feedbacks
+
+> It is called as a **NAND latch**.
+
+![image](https://user-images.githubusercontent.com/54589605/226364209-99153611-abd1-45ae-9fdc-b599ebcb2b6a.png)
+
+* NOR latch.
+
+## NAND latch
+
+* Qn -> Present output
+* Q(n+1) -> Next state output.
+* (Q(n+1))' -> Complement of Q(n+1).
+
+![image](https://user-images.githubusercontent.com/54589605/226365191-e9231b5a-6d3f-4719-8823-dfcccb71da04.png)
+
+> The output of the **first NAND gate** will depend on **present input(S)** as well as **previous output(Q)**.
+> The output of the **second NAND gate** will depend on **present input(R)** as well as **previous output(Q')**.
+
+![image](https://user-images.githubusercontent.com/54589605/226369291-41953a35-95ef-4890-8f15-0700c898d099.png)
+
+> We have take **S=0 and R=0** and in one circuit we have take **Q=0** and in another circuit, **Q=1**.
+
+* We need to see if the **output** is **stable or not**. 
+
+> We got **1** as the **output for second NAND gate**. We need to check if the **output** is same as the value in the **feedback location** of the **first NAND gate**. **Feedback location** has **0** as it's value. So they are **different**.
+> If it is **different** then we can call it as **unstable**. Untill we get **stable**, we need to **continue**. So the **feedback location** value of the **first NAND gate** is **overwritten** to **1**.
+
+![image](https://user-images.githubusercontent.com/54589605/226370283-1e2d2780-417f-4e73-8146-08f332485413.png)
+
+> We got **1** as the **output for first NAND gate**. We need to check if the **output** is same as the value in the **feedback location** of the **second NAND gate**. **Feedback location** has **1** as it's value. So they are **same**. Then, **no problem**.
+> As it was different for the **other output**, we will do it **again**.
+
+![image](https://user-images.githubusercontent.com/54589605/226371622-2c5094fa-2c3a-4960-a1cb-64183d44561f.png)
+![image](https://user-images.githubusercontent.com/54589605/226372181-3532ac46-bd86-4400-bda1-1d0a34226887.png)
+
+> After getting the **outputs**, we need to check if the circuit is **stable or not**.
+
+![image](https://user-images.githubusercontent.com/54589605/226372449-593d06ae-f041-4a78-8321-7f526d08423e.png)
+
+> We got **1** as the **output for secons NAND gate**. We need to check if the **output** is same as the value in the **feedback location** of the **first NAND gate**. **Feedback location** has **1** as it's value. So they are **same**. Then, **no problem**.
+
+![image](https://user-images.githubusercontent.com/54589605/226372716-3d5892a3-9073-4de2-a439-afa9a9566d2f.png)
+
+> We got **1** as the **output for first NAND gate**. We need to check if the **output** is same as the value in the **feedback location** of the **second NAND gate**. **Feedback location** has **1** as it's value. So they are **same**. Then, **no problem**.
+
+> As **both** values are **same**. Now, we can say that it is **stable**. If it is **stable**, then we need to enter the **stable values** into the **table**.
+
+![image](https://user-images.githubusercontent.com/54589605/226373488-93721dd5-2318-4719-9c56-6d92c939ca48.png)
+![image](https://user-images.githubusercontent.com/54589605/226373533-5ced65bb-54d2-491a-a80f-ff5b075b087e.png)
+
+> We got **1** as the **output for second NAND gate**. We need to check if the **output** is same as the value in the **feedback location** of the **first NAND gate**. **Feedback location** has **1** as it's value. So they are **same**. Then, **no problem**.
+
+![image](https://user-images.githubusercontent.com/54589605/226373800-0e70c402-d69f-413e-b556-efca09fcc103.png)
+
+> We got **1** as the **output for first NAND gate**. We need to check if the **output** is same as the value in the **feedback location** of the **second NAND gate**. **Feedback location** has **0** as it's value. So they are **different**. It is **unstable**. **0** will be **overwritten** as **1**. We need to do it again.
+
+![image](https://user-images.githubusercontent.com/54589605/226374087-373745e6-7a35-49b6-805c-97e26a6186c6.png)
+
+> We got **1** as the **output for second NAND gate**. We need to check if the **output** is same as the value in the **feedback location** of the **first NAND gate**. **Feedback location** has **1** as it's value. So they are **same**. Then, **no problem**.
+
+![image](https://user-images.githubusercontent.com/54589605/226374680-9299ff1b-6e07-42dc-88e9-801b2c2ff7b3.png)
+
+> We got **1** as the **output for first NAND gate**. We need to check if the **output** is same as the value in the **feedback location** of the **second NAND gate**. **Feedback location** has **1** as it's value. So they are **same**. It is **stable**.
+
+![image](https://user-images.githubusercontent.com/54589605/226374822-e44738f1-8ad2-47b8-86b4-2b92219ce750.png)
+![image](https://user-images.githubusercontent.com/54589605/226375125-8b4a227a-0494-4e1b-bc37-0e9e39888927.png)
+
+> **S=0, R=0 and Q=0**, all of these are **given inputs**.
+
+![image](https://user-images.githubusercontent.com/54589605/226376457-ea281fda-319c-4c5a-a2d7-6fcb18b6f40d.png)
+
+![image](https://user-images.githubusercontent.com/54589605/226377863-d09e5d67-0c01-486b-9564-f36a0e9f0950.png)
+
+* same values
+
+![image](https://user-images.githubusercontent.com/54589605/226377923-04f1dda6-c610-4f7d-8b95-6d06e9821e6a.png)
 
 
+* same values
 
+> Feedback values are the same. 
 
+![image](https://user-images.githubusercontent.com/54589605/226378392-300a9fb8-e554-4818-a53a-bdfb9576f88b.png)
 
+* Same
 
+![image](https://user-images.githubusercontent.com/54589605/226378495-f6a28d34-e9e0-4256-a7de-6cf8a44afacb.png)
 
+* Different.
 
+> So, it is **overwritten** by **one**.
 
+![image](https://user-images.githubusercontent.com/54589605/226379253-796f1bcf-9507-46b9-bf6d-d12d1cdce15d.png)
+![image](https://user-images.githubusercontent.com/54589605/226379294-f1142c46-1393-41bc-bf03-d8a007c97d75.png)
+
+> **Same**. Both are stable. As it is **stable**, then only we will enter the values into the **table**.
+
+![image](https://user-images.githubusercontent.com/54589605/226380037-97d1b97e-9b04-452b-b9f2-3caf46ca52b7.png)
+
+> Not stable. So, **0** is overwritten with **1**.
+
+![image](https://user-images.githubusercontent.com/54589605/226380236-f34b46d0-d53e-45c6-8a27-d7c76a364091.png)
+![image](https://user-images.githubusercontent.com/54589605/226380333-3bce4e30-c9ed-439c-bb37-099cd5a43bfa.png)
+
+> Not stable. So, **1** is overwritten with **0**.
+
+![image](https://user-images.githubusercontent.com/54589605/226380443-34c20fc4-727c-4fe5-92af-5707c46837e3.png)
+
+> Now it is **stable**.
+
+![image](https://user-images.githubusercontent.com/54589605/226380561-55c9b76d-a2e4-4288-b77d-c6e3809c8af0.png)
+
+![image](https://user-images.githubusercontent.com/54589605/226381096-c8331725-5219-4972-8992-f5455a7ac777.png)
+
+* Stable. So enter the values into the table.
+
+![image](https://user-images.githubusercontent.com/54589605/226381324-6e338379-b031-41e6-8dbf-8ca423853ecd.png)
+
+* Stable. So enter the values into the table.
+
+![image](https://user-images.githubusercontent.com/54589605/226381487-fc709029-2484-4585-9168-edbd0c5abe95.png)
+
+* Stable. So enter the values into the table.
+
+![image](https://user-images.githubusercontent.com/54589605/226381639-59779e97-466c-4cd8-9bed-7f805affd993.png)
+
+* Stable. So enter the values into the table.
+
+![image](https://user-images.githubusercontent.com/54589605/226381915-83f9dda1-4085-47e3-bc63-12b8a35f6c45.png)
+
+> Practice it **2-3** times and try to do it as fast as possible. [**IMPORTANT**]
+
+### Doubt
+
+![image](https://user-images.githubusercontent.com/54589605/226383472-369e159a-18da-4e03-b3b9-e2251a76eaf6.png)
+![image](https://user-images.githubusercontent.com/54589605/226384195-0f4a347e-5b51-4f77-8f54-05835e07e300.png)
+
+> In **X + yz**, atleast **two** inputs must be **1**.
+
+![image](https://user-images.githubusercontent.com/54589605/226385142-c5e1e11e-babd-44b2-9186-e5a3491874ee.png)
+
+![image](https://user-images.githubusercontent.com/54589605/226387721-dfa7c65b-ab76-4df4-a739-bd07175073d3.png)
+![image](https://user-images.githubusercontent.com/54589605/226387759-9919a4ed-74a2-429b-8172-9158123048ca.png)
+![image](https://user-images.githubusercontent.com/54589605/226387790-db9ed46c-53ed-4f04-85c2-03416e699709.png)
 
 
 
