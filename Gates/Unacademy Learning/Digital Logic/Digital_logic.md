@@ -4360,6 +4360,183 @@ y= M(0,3)
 
 > **4 X 1** MUX using **2 X 1** MUX.
 
+![image](https://user-images.githubusercontent.com/54589605/226249745-255cf004-8609-4257-a174-3632eddffce1.png)
+![image](https://user-images.githubusercontent.com/54589605/226249757-df895086-9b2a-4e62-9d57-fda20c896c8f.png)
+![image](https://user-images.githubusercontent.com/54589605/226249765-a3e2438c-d4aa-48e1-93ef-b3f7e16a3dd0.png)
+![image](https://user-images.githubusercontent.com/54589605/226249786-fe2b7733-d5af-49ac-972e-eaae0278bd0d.png)
+![image](https://user-images.githubusercontent.com/54589605/226249799-dc0b3d17-414d-41d0-a813-0917b3317fcd.png)
+![image](https://user-images.githubusercontent.com/54589605/226249815-b08817c4-4702-43b9-9e48-58c82f88b23a.png)
+![image](https://user-images.githubusercontent.com/54589605/226249829-52ffaa0d-f3b6-4c83-9f4e-666eff4b7661.png)
+![image](https://user-images.githubusercontent.com/54589605/226249839-69237ebc-9212-4300-97ec-dccde36b0557.png)
+![image](https://user-images.githubusercontent.com/54589605/226249853-c44ec293-ca8f-480e-b31a-3e8af18fd57b.png)
+
+## Doubt_session (28) [20th March 2023]
+
+* At high level we need to connect the **MSB**.
+
+![image](https://user-images.githubusercontent.com/54589605/226250496-cb678205-b0c0-4826-9bcf-e67aea5a14f9.png)
+
+> At the last level, we have **2/4**, we only need **2** inputs. We have **4 X 1** mux, which means **4** inputs. We need to **disable** two inputs. Even though we are using **4 X 1** mux, it should behave like a **2 X 1** mux. As it behaves like a **2 X 1** mux, so only **1** select line.
+
+![image](https://user-images.githubusercontent.com/54589605/226251252-8212a4b9-e1ea-4b10-87cd-080ff306fd73.png)
+
+> Here, same like above. **4 X 1** mux behaves like a **2 X 1** mux.
+
+![image](https://user-images.githubusercontent.com/54589605/226251503-e1406587-d1bb-450a-862a-8d76e7162e04.png)
+![image](https://user-images.githubusercontent.com/54589605/226251570-0d87073f-864f-4bd3-a0bf-851f0b410e52.png)
+![image](https://user-images.githubusercontent.com/54589605/226251605-e8b82c93-606c-4913-b9e8-189fdc623f03.png)
+![image](https://user-images.githubusercontent.com/54589605/226251642-2e1be4b0-2454-46f0-b60b-756abf179c5a.png)
+![image](https://user-images.githubusercontent.com/54589605/226251675-3c6ecbcf-c2e3-4726-ac6e-40ded0aa0c05.png)
+
+## De-multiplexer
+
+> In multiplexer, if  **S=0** then **y=0**,  if  **S=1** then **y=1**. **MANY to ONE**.
+
+![image](https://user-images.githubusercontent.com/54589605/226252006-d4847c94-b9e5-40c1-9aec-862f7ed1f99a.png)
+
+> In de-multiplexer, **S or select lines** will decide where **C** will be, wheather **C** will be at **M** or at **P**. It is **ONE to MANY**.
+
+![image](https://user-images.githubusercontent.com/54589605/226252262-eac57d72-77aa-4dfc-97e5-84582ad3bb5f.png)
+![image](https://user-images.githubusercontent.com/54589605/226252399-87350e3d-46da-41b9-a459-564a87485615.png)
+![image](https://user-images.githubusercontent.com/54589605/226252515-492eb312-7bf4-4eaf-a826-670bf1649054.png)
+![image](https://user-images.githubusercontent.com/54589605/226252670-208fa564-5f98-4a82-a53a-1a7eb5f1490e.png)
+
+> When **S=0**, **I** developes a connection with **Y0**, so we get **Y0=I** and nothing in **Y1**.
+> When **S=1**, **I** developes a connection with **Y1**, so we get **Y1=I** and nothing in **Y0**.
+
+![image](https://user-images.githubusercontent.com/54589605/226253926-a5f833f9-7231-4167-a765-84c69111f720.png)
+![image](https://user-images.githubusercontent.com/54589605/226254005-3c794708-4981-4c6e-8a3e-bea3ce434430.png)
+
+### Logic Ciurcuit
+
+![image](https://user-images.githubusercontent.com/54589605/226254226-6ed820dc-ef0c-4915-ad7f-08c592f3ba7b.png)
+
+> **1 X 4**, so **4 = 2^n -> 2^2 = 2^n -> n=2**. **n** is the no. of selection lines.
+
+![image](https://user-images.githubusercontent.com/54589605/226254605-8db8040d-b066-402d-bb66-2f22100add83.png)
+![image](https://user-images.githubusercontent.com/54589605/226254738-d91c9b2c-5b59-4a7c-8c1a-ecf916bbd744.png)
+![image](https://user-images.githubusercontent.com/54589605/226255352-d36e7a7c-4e06-41c2-90b3-3eca5fb3a45f.png)
+![image](https://user-images.githubusercontent.com/54589605/226257296-26b98929-4d31-4191-ac31-d27deb35de4a.png)
+![image](https://user-images.githubusercontent.com/54589605/226257941-8a78c8fa-49bf-4891-aeb8-5d9dd3731a4f.png)
+![image](https://user-images.githubusercontent.com/54589605/226258531-b13f0c36-a5d8-4397-a184-bf6699498023.png)
+![image](https://user-images.githubusercontent.com/54589605/226258615-0383c029-7f6f-4881-9d81-5b7160a95334.png)
+
+> Whatever expression is given, find the **minterms** of those expressions and we need to implement those things.
+
+![image](https://user-images.githubusercontent.com/54589605/226259266-14b50f43-ac4f-4d1f-a170-71a65cd6d523.png)
+
+## Implementation of higher order demux using lower order demux
+
+> Here we **divide** the outputs. We **number** the levels from **bottom to top**. Here. we need to connect the **MSB** to the **lower level**.
+
+![image](https://user-images.githubusercontent.com/54589605/226259773-80466a48-53af-4f70-bb47-61e2fd047bfb.png)
+![image](https://user-images.githubusercontent.com/54589605/226260153-a612a076-89b3-49c7-a642-332aabc96ed8.png)
+![image](https://user-images.githubusercontent.com/54589605/226260368-87dce96d-6194-4c37-ab29-f43547f20be2.png)
+
+> We will exactly **divide** the outputs. After, that we need to focus on **levels given**. We have to given the levels from **bottom to top**.
+
+![image](https://user-images.githubusercontent.com/54589605/226260555-e9e7b0bc-0797-4d1b-bd15-0b4b3f9e69c9.png)
+
+> In case of **multiplexer**, we have to give the levels from **top to bottom**.
+> **MSB** for **both** the cases is the **same**. We have to give it at the **bottom**.
+
+![image](https://user-images.githubusercontent.com/54589605/226261183-dd77014b-31e4-4e3f-b457-8539ac47a6ac.png)
+![image](https://user-images.githubusercontent.com/54589605/226261332-f4ae8db6-9f52-4423-9128-566e6a11e669.png)
+![image](https://user-images.githubusercontent.com/54589605/226261768-e1bdf905-4711-4981-8951-9ad2ddb6550a.png)
+
+## Decoder
+
+* Multiplexer -> 1 output
+* De-multiplexer -> 1 input
+
+> We are taking the **advantages** of both **MUX and De-MUX** and combining these **two** to get **decoder**.
+> **Decoder** is a mult input and multi output circuit.
+
+* n=1, **1 X 2**.
+* n=2, **2 X 4**.
+* n=3, **3 X 8**.
+
+![image](https://user-images.githubusercontent.com/54589605/226262523-e25fcc33-ae66-46ca-9259-befee9e5404f.png)
+
+> We do not have any **selection or select lines** in decoders. We have one **single pin** which is called as the **enable pin**. For the complete working of the **decoder**, it depends upon the **enable pin**. Once the **enable pin** is deactivated, the **decoder** will not work.
+
+* Activated -> Enable = 1
+* Deactivated => Enable = 0
+
+![image](https://user-images.githubusercontent.com/54589605/226262766-9fc77c2a-055a-45a8-841d-760c14ccd748.png)
+
+> Whichever is connected to the **I0**, it is the **LSB** bit only. **B** is LSB.
+> Whichever connected has the highest suffix **I1** here, is the **MSB** bit only. **A** is MSB.
+> **2 X 4** decoder. **2** inputs and **4** outputs.
+> Complete working depends on the **enable pin** only.
+> If **enable or en=0**, then all the **outputs** are **zero**, irrespective of the **inputs**.
+> If **enable or en=1**, then only the **decoder** will start working for the corresponding inputs. 
+
+![image](https://user-images.githubusercontent.com/54589605/226266618-4139e5f2-f5fb-42df-9c48-7de24016ddb5.png)
+
+> If we have given **0** then the **En' = 0**, same as the given value. Then the value of **En = 1**. 
+> If they have given **En' = 0**, whatever value they have mentioned is **before the bubble only** and **not after the bubble**.
+> If we have given taken **En' = 1**. The **decoder** is **deactivated**. Then the value of **En = 0**. 
+
+![image](https://user-images.githubusercontent.com/54589605/226267667-7f0398b9-7431-420e-861a-212d51a68c62.png)
+![image](https://user-images.githubusercontent.com/54589605/226267781-b98b3338-97a9-4569-b2a2-8f6fb03e94dc.png)
+
+> This is with **En'**.
+
+![image](https://user-images.githubusercontent.com/54589605/226268489-fbb67b7a-9474-446d-bed9-6af15c6fb810.png)
+
+* If **En' = 1** then **En = 0**.
+* If **En' = 0** then **En = 1**.
+
+![image](https://user-images.githubusercontent.com/54589605/226269252-180299aa-09c7-4150-8498-f8f9e07c33a5.png)
+
+
+> For **Active high decoder**, we will get **minterms**.
+
+### Active Low Decoder
+
+> For **Active low decoder**, we will get **maxterms**.
+
+* Bubble -> NOT gate.
+
+> If the **output** is **0** before the bubble, then the **output** will be **1** after the bubble.
+> If **En = 0**, then all of the **outputs** will be **0 before the bubble**. All the **outputs** will be **1 after the bubble**.
+> When there was **no bubble** we got **all outputs** as **0** for **En = 0**.
+
+![image](https://user-images.githubusercontent.com/54589605/226270008-68445764-f4e0-4991-ab8e-a996bc4ebd55.png)
+
+> For **En = 1** and **A = 0 and  B = 0**, **y0 = 1** before the bubble and **y0 = 0** after the bubble.
+
+* **0** -> maxterms.
+> We need to write the **maxterms**.
+
+![image](https://user-images.githubusercontent.com/54589605/226271470-5092dac0-d978-4025-ae4f-f1c29f2ae38c.png)
+![image](https://user-images.githubusercontent.com/54589605/226272133-126ca1c2-2881-4929-8bf2-5607348d0583.png)
+![image](https://user-images.githubusercontent.com/54589605/226272168-ef18d98f-4748-431f-b40e-367e2e058d51.png)
+
+## LED
+
+> If **voltage of Anode(A) > Voltage of cathode(C)** or voltage of Anode(A) is **greater** than voltage of cathode(C), then the circuit is in **forward bias**.
+> If **voltage of Anode(A) < Voltage of cathode(C)** or voltage of Anode(A) is **lesser** than voltage of cathode(C), then the circuit is in **reverse bias**.
+
+> Extension of **diode** is **LED**.
+
+* LED -> Light Emmitting Diode.
+
+> If **voltage of Anode(A) > Voltage of cathode(C)** or voltage of Anode(A) is **greater** than voltage of cathode(C), then **LED is ON**.
+> If **voltage of Anode(A) <= Voltage of cathode(C)** or voltage of Anode(A) is **lesser than equal to** than voltage of cathode(C), then the **LED is OFF**.
+
+![image](https://user-images.githubusercontent.com/54589605/226274102-83d61275-667a-43c9-aac0-346afcff0193.png)
+
+> If **En** is connected to **ground** then **En = 0**.
+
+![image](https://user-images.githubusercontent.com/54589605/226274354-8e258c03-1463-4f59-b2c0-0dac0cfcf991.png)
+![image](https://user-images.githubusercontent.com/54589605/226274643-24be49e0-31a4-4032-863a-cb5b948cd13e.png)
+![image](https://user-images.githubusercontent.com/54589605/226274892-4d17910c-78b9-4308-b973-7c34aaeebe99.png)
+![image](https://user-images.githubusercontent.com/54589605/226275083-b18e87f8-da9e-4c7e-836d-796f5797ba31.png)
+![image](https://user-images.githubusercontent.com/54589605/226275550-faeb5b3c-a774-420c-80fd-877a9195b12f.png)
+![image](https://user-images.githubusercontent.com/54589605/226276295-0854c823-bc87-4f77-a53b-e7822a3676d2.png)
+![image](https://user-images.githubusercontent.com/54589605/226276646-257b22ef-10f9-4e15-8ec6-c28fa252cb04.png)
 
 
 
@@ -4377,6 +4554,17 @@ y= M(0,3)
 
 
 
+
+
+
+
+
+
+
+
+
+
+* Find Digital Revision classes.
 
 * Upload the rest of the doubts of digital, uploaded till **Image 15**. Some of the solutions are present check them out. (**DONE**)
 * After This video, do the **5** daily assignments. (**DONE**)
