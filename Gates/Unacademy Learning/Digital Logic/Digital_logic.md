@@ -4841,6 +4841,358 @@ y= M(0,3)
 ![image](https://user-images.githubusercontent.com/54589605/226387759-9919a4ed-74a2-429b-8172-9158123048ca.png)
 ![image](https://user-images.githubusercontent.com/54589605/226387790-db9ed46c-53ed-4f04-85c2-03416e699709.png)
 
+## Sequential Circuit (30) [21st March 2023]
+
+## NAND Latch
+
+![image](https://user-images.githubusercontent.com/54589605/226525837-08d853cf-77ad-4a71-945c-78479f4e8f24.png)
+
+> **Q(n+1) and (Q(n+1))'** are generally, complement to each other.
+> For input of **S=0 and R=0**, we are getting the **same** value for **Q(n+1) and (Q(n+1))'**. Basically, **Q(n+1) and (Q(n+1))'** should be **complement** to each other but it is not happening for input of **S=0 and R=0**. So, it means that the device, **NAND latch** is not properly working for inputs of **S=0 and R=0**.
+> So, this is a problem of **NAND latch**.
+> So, we never give the **input of S=0 and R=0** for **NAND latch**. **NAND latch** won't work for  input of **S=0 and R=0**, it is **not valid**. We never give input of **S=0 and R=0** in case of **NAND latch**.
+
+> In case of **NAND latch**, we cannot use the combination of **00** or **both inputs as 00**, as it is giving **not valid or invalid** state.
+
+### Summary
+
+> The summary is dependent on what we have considered earlier in the circuit. If we change any **one terminal**, the whole **table** changes.
+> For **S=0 and R=0**, we are getting **some invalid or not valid** outputs. As **Q(n+1) and (Q(n+1))'** are not giving **complement** values.
+
+![image](https://user-images.githubusercontent.com/54589605/226528316-e0fb0e72-1d85-41c8-9ea1-2d1732229a5a.png)
+![image](https://user-images.githubusercontent.com/54589605/226527948-0ab5033a-6cef-4a75-9238-ac11fe2402df.png)
+
+> For **S=0 and R=1** input, irrespective of the **previous value**, we are always getting **0**.
+> Output becomes **0**, means that the complete system gets **restarted**.
+> It is called as **reset**.
+
+![image](https://user-images.githubusercontent.com/54589605/226528333-25d66ade-d059-4d8e-a280-947208f0188e.png)
+![image](https://user-images.githubusercontent.com/54589605/226528411-993b0e36-8881-4c6a-a624-851b18eeb318.png)
+
+> For **S=1 and R=0** input, irrespective of the **previous value**, we are always getting **1**.
+
+![image](https://user-images.githubusercontent.com/54589605/226528584-27ae34dc-7412-4b1a-8b54-890b5ae3bbbf.png)
+![image](https://user-images.githubusercontent.com/54589605/226528596-2c8141a0-5a80-43bd-b4ee-0f39ce0a4981.png)
+![image](https://user-images.githubusercontent.com/54589605/226528889-e69a81c6-e501-4bcb-8281-b7a736cc9951.png)
+
+> For **S=1 and R=1** input, for **Qn =0**, we are getting the **Q(n+1)=0**. For **Qn =1**, we are getting the **Q(n+1)=1**. So we are getting the **same previous value**. Whatever **previous value** was, we are getting the **same value** as output..
+
+![image](https://user-images.githubusercontent.com/54589605/226528927-b508d551-2193-44b0-b15b-ed5728482c0e.png)
+
+## NOR Latch
+
+> It is same as **NAND latch**.
+
+![image](https://user-images.githubusercontent.com/54589605/226529345-9409cede-1a7d-4f7f-afd0-a65f167d9e49.png)
+
+> For **S=0 and R=0 and Q=0**, the output from **second NOR gate** is **0**, which is **same** as the **feedback connection** for the **first NOR gate**.
+
+![image](https://user-images.githubusercontent.com/54589605/226529461-f479887e-560a-437f-a92b-998b57a45564.png)
+
+> For **S=0 and R=0 and Q=0**, the output from **first NOR gate** is **1**, which is **same** as the **feedback connection** for the **second NOR gate**.
+> So, the circuit is **stable** and hence we will input them into the **table**.
+
+![image](https://user-images.githubusercontent.com/54589605/226529696-f32ec0be-65c9-4140-9a2d-9700673d715b.png)
+
+> For **S=0 and R=0 and Q=1**, the output from **second NOR gate** is **1**, which is **same** as the **feedback connection** for the **first NOR gate**.
+> For **S=0 and R=0 and Q=1**, the output from **first NOR gate** is **0**, which is **same** as the **feedback connection** for the **second NOR gate**.
+> So, the circuit is **stable** and hence we will input them into the **table**.
+
+![image](https://user-images.githubusercontent.com/54589605/226529920-76b13de7-3fc7-45e0-9092-226d40658b75.png)
+![image](https://user-images.githubusercontent.com/54589605/226530038-b4cfd81e-543b-4a77-83e8-aa6569dd5fdf.png)
+
+> For **S=0 and R=1 and Q=0**, the output from **second NOR gate** is **0**, which is **same** as the **feedback connection** for the **first NOR gate**.
+> For **S=0 and R=1 and Q=0**, the output from **first NOR gate** is **1**, which is **same** as the **feedback connection** for the **second NOR gate**.
+> So, the circuit is **stable** and hence we will input them into the **table**.
+
+![image](https://user-images.githubusercontent.com/54589605/226530202-3cd46781-6ac4-4525-9b85-7fb0d7bf3670.png)
+
+> For **S=0 and R=1 and Q=1**, the output from **second NOR gate** is **0**, which is **different** for the **feedback connection** which has **1** for the **first NOR gate**.
+> For **S=0 and R=1 and Q=1**, the output from **first NOR gate** is **0**, which is **same** as the **feedback connection** for the **second NOR gate**.
+> So, the circuit is not **stable**. So the **1** at the **feedback connection** of the **first NOR gate** will be **overwritten** by **0** and we will do it **again**
+
+> For **S=0 and R=1 and Q=1**, the output from **second NOR gate** is **0**, which is **same** for the **feedback connection** which has **0** for the **first NOR gate**.
+> For **S=0 and R=1 and Q=1**, the output from **first NOR gate** is **1**, which is **different** for the **feedback connection** which has **0** for the **second NOR gate**.
+> So, the circuit is not **stable**. So the **0** at the **feedback connection** of the **second NOR gate** will be **overwritten** by **1** and we will do it **again**
+
+> For **S=0 and R=1 and Q=1**, the output from **second NOR gate** is **0**, which is **same** for the **feedback connection** which has **0** for the **first NOR gate**.
+> For **S=0 and R=1 and Q=1**, the output from **first NOR gate** is **1**, which is **same** for the **feedback connection** which has **1** for the **second NOR gate**.
+> So, the circuit is **stable**. Hence we will input them into the table.
+
+![image](https://user-images.githubusercontent.com/54589605/226531502-a16e499e-8441-4b2d-8cb2-0065237ffd81.png)
+
+> For **S=1 and R=0 and Q=0**, the output from **second NOR gate** is **0**, which is **same** for the **feedback connection** which has **0** for the **first NOR gate**.
+> For **S=1 and R=0 and Q=0**, the output from **first NOR gate** is **0**, which is **different** for the **feedback connection** which has **1** for the **second NOR gate**.
+> So, the circuit is not **stable**. So the **1** at the **feedback connection** of the **second NOR gate** will be **overwritten** by **0** and we will do it **again**
+
+> For **S=1 and R=0 and Q=0**, the output from **second NOR gate** is **1**, which is **different** for the **feedback connection** which has **0** for the **first NOR gate**.
+> For **S=1 and R=0 and Q=0**, the output from **first NOR gate** is **0**, which is **same** for the **feedback connection** which has **0** for the **second NOR gate**.
+> So, the circuit is not **stable**. So the **0** at the **feedback connection** of the **first NOR gate** will be **overwritten** by **1** and we will do it **again**
+
+> For **S=1 and R=0 and Q=0**, the output from **second NOR gate** is **1**, which is **same** for the **feedback connection** which has **1** for the **first NOR gate**.
+> For **S=1 and R=0 and Q=0**, the output from **first NOR gate** is **0**, which is **same** for the **feedback connection** which has **0** for the **second NOR gate**.
+> So, the circuit is **stable**. Hence we will input them into the table.
+
+![image](https://user-images.githubusercontent.com/54589605/226532624-7e4eb914-2e6c-4dd3-bb14-98dcd0530e9d.png)
+
+> For **S=1 and R=0 and Q=1**, the output from **second NOR gate** is **1**, which is **same** for the **feedback connection** which has **1** for the **first NOR gate**.
+> For **S=1 and R=0 and Q=1**, the output from **first NOR gate** is **0**, which is **same** for the **feedback connection** which has **0** for the **second NOR gate**.
+> So, the circuit is **stable**. Hence we will input them into the table.
+
+![image](https://user-images.githubusercontent.com/54589605/226532768-8e44cf29-ad4d-45a3-9e1d-c3de19c7ef31.png)
+![image](https://user-images.githubusercontent.com/54589605/226532807-a9bf33a9-1df9-436e-8326-d80436ed806e.png)
+
+> For **S=1 and R=1 and Q=0**, the output from **second NOR gate** is **0**, which is **same** for the **feedback connection** which has **0** for the **first NOR gate**.
+> For **S=1 and R=1 and Q=0**, the output from **first NOR gate** is **0**, which is **different** for the **feedback connection** which has **1** for the **second NOR gate**.
+> So, the circuit is not **stable**. So the **1** at the **feedback connection** of the **second NOR gate** will be **overwritten** by **0** and we will do it **again**
+
+> For **S=1 and R=1 and Q=0**, the output from **second NOR gate** is **0**, which is **same** for the **feedback connection** which has **0** for the **first NOR gate**.
+> For **S=1 and R=1 and Q=0**, the output from **first NOR gate** is **0**, which is **same** for the **feedback connection** which has **0** for the **second NOR gate**.
+> So, the circuit is **stable**. Hence we will input them into the table.
+
+![image](https://user-images.githubusercontent.com/54589605/226533165-a92dc4ff-77da-4f9b-b6dd-7abe19faa6b6.png)
+
+> For **S=1 and R=1 and Q=1**, the output from **second NOR gate** is **0**, which is **different** for the **feedback connection** which has **1** for the **first NOR gate**.
+> For **S=1 and R=1 and Q=1**, the output from **first NOR gate** is **0**, which is **same** for the **feedback connection** which has **0** for the **second NOR gate**.
+> So, the circuit is not **stable**. So the **1** at the **feedback connection** of the **first NOR gate** will be **overwritten** by **0** and we will do it **again**
+
+> For **S=1 and R=1 and Q=1**, the output from **second NOR gate** is **0**, which is **same** for the **feedback connection** which has **0** for the **first NOR gate**.
+> For **S=1 and R=1 and Q=1**, the output from **first NOR gate** is **0**, which is **same** for the **feedback connection** which has **0** for the **second NOR gate**.
+> So, the circuit is **stable**. Hence we will input them into the table.
+
+![image](https://user-images.githubusercontent.com/54589605/226533479-e718fab6-940d-4b8b-b7c6-b736d2c900ff.png)
+![image](https://user-images.githubusercontent.com/54589605/226533503-5069edd7-ff5c-4fc4-83d8-bdf7149aea3c.png)
+
+> Whenever mentioned in the question, **find the output**, always give/take **Q** as the only **output** and never take **Q'** as the **output**. Otherwise, it will create a problem.
+
+![image](https://user-images.githubusercontent.com/54589605/226534319-6f5d9477-1d7e-4d56-b10c-8cd2cdc84072.png)
+![image](https://user-images.githubusercontent.com/54589605/226534390-2e0fd1af-f907-473e-aa07-f3d8c0f3bb62.png)
+
+* **Q(n+1)** is the **next state** output.
+* **Qn** is the **present state** output.
+
+![image](https://user-images.githubusercontent.com/54589605/226534553-48af737f-6350-40bc-9937-e638b4a0dc4d.png)
+
+> For **S=0 and R=0**, we are getting the **previous state(Qn)** outputs in the **next state(Q(n+1))** outputs only.
+
+![image](https://user-images.githubusercontent.com/54589605/226534755-8925a8e4-410c-4541-92e6-d96c7e69e447.png)
+![image](https://user-images.githubusercontent.com/54589605/226534767-083e6e6f-fd10-4882-8812-fe5bdab09afb.png)
+
+> For **S=0 and R=1**, irrespective of the **previous state values**, we are getting **zero(0)** as the **output**. It means **reset**.
+
+![image](https://user-images.githubusercontent.com/54589605/226534995-ef82c853-3838-4e46-84c9-32167609870d.png)
+![image](https://user-images.githubusercontent.com/54589605/226535023-e94feb9a-e660-47aa-a9b5-9d7d29a2ade9.png)
+
+> For **S=1 and R=0**, irrespective of the **previous state values**, we are getting **one(1)** as the **output**. It means **set**.
+
+![image](https://user-images.githubusercontent.com/54589605/226535125-a4749bad-922e-4675-9e05-7dab844cc1d4.png)
+![image](https://user-images.githubusercontent.com/54589605/226535142-c1b21fc6-caff-474c-b556-56981a5e352b.png)
+
+> For **S=1 and R=1**, the values of **Q(n+1) or Q and (Q(n+1))' Or Q'** are **zero(0)**. They must be **complement** to each other like in the previous cases(00, 01 and 10), the values where **complement** to each other, but for **11**, they are not **complement** to each other. We are getting **same/equal** values for them. As both values are **equal**, we should call it as **not valid or invalid** state.
+
+> In case of **NOR latch**, we cannot use the combination of **11** or **both inputs as 11**, as it is giving **not valid or invalid** state.
+
+## Summary
+
+![image](https://user-images.githubusercontent.com/54589605/226536506-fee02785-1142-4812-890f-17d1f606365c.png)
+
+> In **NAND latch**, for **S=0 and R=0**, it is a **not valid or invalid** state.
+> In **NAND latch**, for **S=0 and R=1**, the **R** pin is **activated**. So, **R** means **reset**. When we press **reset** button, then all the values are **00** only. That's why **Q(n+1)** will be **0** which means **reset**.
+> In **NAND latch**, for **S=1 and R=0**, the **S** pin is **activated**. So, **S** means **set**. When we press **set** button, then all the values are **maximum or 11** only. That's why **Q(n+1)** will be **1** which means **set**.
+> In **NAND latch**, for **S=1 and R=1**, the **previous state** only will comes. That's why **Q(n+1)** will be **Qn** which means **Hold or memory**.
+
+![image](https://user-images.githubusercontent.com/54589605/226537538-2d37765c-9ce6-4a8e-82ce-2092161dde83.png)
+
+> In **NOR latch**, for **S=0 and R=0**, the **previous state** only will comes. That's why **Q(n+1)** will be **Qn** which means **Hold or memory**..
+> In **NOR latch**, for **S=0 and R=1**, the **R** pin is **activated**. So, **R** means **reset**. When we press **reset** button, then all the values are **00** only. That's why **Q(n+1)** will be **0** which means **reset**.
+> In **NOR latch**, for **S=1 and R=0**, the **S** pin is **activated**. So, **S** means **set**. When we press **set** button, then all the values are **maximum or 11** only. That's why **Q(n+1)** will be **1** which means **set**.
+> In **NOR latch**, for **S=1 and R=1**, it is a **not valid or invalid** state.
+
+![image](https://user-images.githubusercontent.com/54589605/226537813-6351e02e-7c40-401e-b425-5d751afbe975.png)
+![image](https://user-images.githubusercontent.com/54589605/226537790-f33b47e6-a00f-478d-8a92-c0b6c69edd9b.png)
+
+> For **NAND latch**, when both inputs are **00**, then the **output** is **not valid or invalid** state.
+> For **NOR latch**, when both inputs are **11**, then the **output** is **not valid or invalid** state.
+> **Set and reset** for both **NOR and NAND** is the **same**.
+
+![image](https://user-images.githubusercontent.com/54589605/226539340-2b1b3e6c-c50a-4d5a-aee9-79533e33e400.png)
+![image](https://user-images.githubusercontent.com/54589605/226539465-0d9d7eed-96d6-4a5a-8488-52ccdf69376f.png)
+![image](https://user-images.githubusercontent.com/54589605/226539663-08434b9d-0783-4803-b6c0-c3690a2d5adc.png)
+
+> For **S=1 and R=1**, **hold state**, whatever previous value was there, that only will come to the **next state**. Previous value was **zero(0)**, that why **next value** is also **zero(0)**.
+> For **S=1 and R=1**, **hold state**, whatever previous value was there, that only will come to the **next state**. Previous value was **one(1)**, that why **next value** is also **one(1)**.
+> Same for **3rd input** as well where **S=1 and R=1**.
+
+![image](https://user-images.githubusercontent.com/54589605/226540013-595d93d0-b086-4608-88f7-7ae6d1fceb6e.png)
+
+> **11** input depends on **previous state**. Without knowing the **previous state**, how we will get the output for **11**.
+
+![image](https://user-images.githubusercontent.com/54589605/226540362-1991fbc7-e966-48ae-8d4d-89c08a233605.png)
+
+> In case of **combinational circuit**, if we have given some input, we will get some output. If we have given the same input, then the output should be **same** as well. 
+> In case of **sequential circuits**, the output is not like exactly same but the **output** will depend upon the input **sequence** aaplied.
+
+> For the **3rd input**, we have given **10** just above it.
+> For the **6th input**, we have given **01** just above it.
+
+> If we have changed the **sequence** of inputs, then the **output also changes**.
+> > In case of **combinational circuit**, the output depends upon the **combination** of inputs.
+> In case of **sequential circuits**, the output depends upon the **sequence** we have given the **input**. 
+
+> We have given some values for **a and b** and we have gotten some output. If we give same values for **a and b**, we will get the **same output** forever for all the cases, bit this is not the case for **sequential circuit**.
+
+## Note
+
+![image](https://user-images.githubusercontent.com/54589605/226543144-3ee0fc95-6c1d-469f-b360-7667bd192719.png)
+
+> The tables we have seen **above** is applicable for **un-equal** delays as well.
+
+![image](https://user-images.githubusercontent.com/54589605/226544810-899c3c80-ec9a-4fb9-ad47-d96c74d874d2.png)
+![image](https://user-images.githubusercontent.com/54589605/226545427-a5669f02-df9e-48e9-ad4b-e3bbb103148a.png)
+ 
+ > This is a restriction on the **NAND latch**, whenver we have given **00**, immediately we never give the **input of 11**.
+
+![image](https://user-images.githubusercontent.com/54589605/226545793-311cbe18-1b4e-4143-a4be-2499ab471036.png) 
+
+> The **2ns** NAND gate will respond faster. We will get **1** and that **1** will act as the **feedback connection** value for the **second NAND gate**.
+
+![image](https://user-images.githubusercontent.com/54589605/226549390-65d21e24-44a7-41f6-9162-c9f0fda6c2b3.png)
+
+> We have changed the input from **00** to **11**.
+
+> For the **unequal delay's** case, we got **stable** output. We got **Q=0**, which is **stable** output.
+
+![image](https://user-images.githubusercontent.com/54589605/226551675-eb40575a-f6df-4c3f-97e4-efc86aa551b2.png)
+
+> Sir, got it wrong fixing it **below**.
+
+![image](https://user-images.githubusercontent.com/54589605/226555245-fdee630d-20c8-474c-ae10-515c1184a3b4.png)
+
+> Stable now.
+> We have changed the input from **00** to **11**.
+> The **2ns** NAND gate will respond faster. We will get **0** and that **0** will act as the **feedback connection** value for the **second NAND gate**. As there was **1** as the value for **feedback connection**  of the **first NAND gate**, we have **overwritten** it with **0**. Now, we have **0 and 1** to calculate value for **Q**.
+
+![image](https://user-images.githubusercontent.com/54589605/226555791-957c5094-6c6e-42fd-a4f7-0d3c2d92cd52.png)
+
+> It is **stable** and we got **Q=1**.
+
+
+> The **2ns** NAND gate will respond faster. We will get **1** and that **1** will act as the **feedback connection** value for the **first NAND gate**. As there was **0** as the value for **feedback connection**  of the **first NAND gate**, we have **overwritten** it with **1**. Now, we have **0 and 1** to calculate value for **Q'**.
+
+![image](https://user-images.githubusercontent.com/54589605/226554188-b448e5ba-c4df-4d60-ab15-894edc1154ed.png)
+
+> The **2ns** NAND gate will respond faster. We will get **0** and that **0** will act as the **feedback connection** value for the **first NAND gate**. As there was **1** as the value for **feedback connection**  of the **first NAND gate**, we have **overwritten** it with **0**. Now, we have **1 and 0** to calculate value for **Q'**.
+
+![image](https://user-images.githubusercontent.com/54589605/226554708-3b305ba0-5719-4d64-996f-f2ea9d2bad2c.png)
+
+### Cases
+
+![image](https://user-images.githubusercontent.com/54589605/226556269-4c52efb9-3e1c-4297-95e1-600693f4d6b7.png)
+![image](https://user-images.githubusercontent.com/54589605/226556283-07176a21-b232-4098-831e-35351921f85c.png)
+![image](https://user-images.githubusercontent.com/54589605/226556333-8348f6d8-5cdc-4ffd-adf0-7d80b8ba3fb9.png)
+
+> From the above **3 cases**, we can **conclude** that when we have given input of **SR = 00** followed by **SR = 11**. After **00** if we give **11**, we have **two** cases,
+
+1) **When delays are equal or equal delays** -> **Diwali comes** also called as **critical race**. The values continuously **loop** from **0 to 1**.
+2) **If unequal delays** -> We get **stable output**, but we cannot conclude whether the **output** will be **1 or 0**. It depends on the **delays of the gates**.
+
+## Conclusion
+
+![image](https://user-images.githubusercontent.com/54589605/226558143-1598751c-f738-4103-b4ff-0b99535ff10c.png)
+
+### Questions
+
+![image](https://user-images.githubusercontent.com/54589605/226559904-18c889cf-d4dc-4a85-8d99-f1230fa4be31.png)
+
+> After **Stable**, inputs are changed from **11** to **00**. 
+
+![image](https://user-images.githubusercontent.com/54589605/226560765-b29da70f-f6c4-4e3e-b062-3e6595b0c792.png)
+
+> We will get **critical race** as it is **looping** continuously.
+
+![image](https://user-images.githubusercontent.com/54589605/226561287-fc2a8cc5-1e2d-435a-957d-b3b47afb4da9.png)
+
+![image](https://user-images.githubusercontent.com/54589605/226562510-93c2a9dd-c060-4009-b837-16d41043a0dd.png)
+
+* Stable
+
+![image](https://user-images.githubusercontent.com/54589605/226562703-9ceb1e4b-1fe9-45eb-8dc4-88a72d1a7c48.png)
+
+* Stable and **Q=0**.
+
+![image](https://user-images.githubusercontent.com/54589605/226563534-def763c4-77d1-4cff-bc90-2ebe305ab99a.png)
+
+* Stable
+
+![image](https://user-images.githubusercontent.com/54589605/226563653-d7017252-b861-4cd1-ac3a-7f4b4788a206.png)
+
+* Stable and **Q=1**.
+
+## Cases
+
+![image](https://user-images.githubusercontent.com/54589605/226564059-f3801986-602d-4a98-aaa5-ce1b6c1e1537.png)
+![image](https://user-images.githubusercontent.com/54589605/226564110-5fed2d24-0f17-44ee-8d7a-643e28a37049.png)
+
+### Conclusion for above cases
+
+![image](https://user-images.githubusercontent.com/54589605/226564232-cfab74f4-b901-43b0-92d5-28b6f31800bd.png)
+
+### Questions
+
+![image](https://user-images.githubusercontent.com/54589605/226565932-67481eb4-f42d-4d05-8e3a-0320b3003678.png)
+
+> If **equal delays** mentioned then **C** option is **correct**. **Critical race**.
+
+* If X=0 then Y=0
+* If X=1 then Y=1
+
+![image](https://user-images.githubusercontent.com/54589605/226566320-e6587675-ebd5-4001-b393-2d9aa1eade0d.png)
+
+> Both are **ON** or Both are **OFF**.
+
+![image](https://user-images.githubusercontent.com/54589605/226570323-ee69e0e9-1589-4fc6-8985-4ab717b04fe5.png)
+
+> If nothing mentioned about delays, then take them as **equal**.
+
+![image](https://user-images.githubusercontent.com/54589605/226573199-199fb757-bc1c-4acb-ad8c-7540cac778cb.png)
+![image](https://user-images.githubusercontent.com/54589605/226574531-419ceea9-003d-4af3-a4b3-732933033cd6.png)
+![image](https://user-images.githubusercontent.com/54589605/226574740-93b81cd2-2ce0-4af8-8ab3-23db7c673c59.png)
+![image](https://user-images.githubusercontent.com/54589605/226574817-1dd61b40-4034-4476-93cb-9d2bab5ad06c.png)
+![image](https://user-images.githubusercontent.com/54589605/226575219-bf814188-4a12-4f72-a5dd-7aa1f00859d0.png)
+![image](https://user-images.githubusercontent.com/54589605/226575458-f4cd3345-bcb4-472e-a9cd-b026ca7560bc.png)
+![image](https://user-images.githubusercontent.com/54589605/226576875-d2408980-339e-4337-97e3-8ff4bf52db2a.png)
+![image](https://user-images.githubusercontent.com/54589605/226578008-6e2a58a8-ecba-4501-b230-affcab3745d1.png)
+
+> Depends on the **initial condition**. It is not mentioned in the **question**. 
+
+![image](https://user-images.githubusercontent.com/54589605/226578293-bebd44dd-106f-4a73-88a9-2815eb6a729b.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
