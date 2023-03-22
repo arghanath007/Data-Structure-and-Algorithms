@@ -5414,18 +5414,164 @@ y= M(0,3)
 
 ## JK Flip Flop
 
-> Updated version of SR flip flop.
+> Updated/modified version of SR flip flop.
+
+![image](https://user-images.githubusercontent.com/54589605/226908048-8696eb3c-189f-4983-a791-501f42efd7e2.png)
+![image](https://user-images.githubusercontent.com/54589605/226907965-87dc7b02-9df7-4d8a-9e0f-45245e130fbe.png)
+![image](https://user-images.githubusercontent.com/54589605/226909001-10e5546a-03e6-4355-8cad-689d6e24fb8f.png)
+
+> The problem of **SR flip flop** with **11** input gave **invalid** situation. That is fixed in **JK flip flop**, we are getting **Q'** for **11** input.
+> That problem is **eliminated**.
+
+![image](https://user-images.githubusercontent.com/54589605/226909752-325c56c7-818e-429b-acb3-50c73d06c2c1.png)
+
+* Toggle -> Complement to the previous output.
+
+## Characteristic Table
+
+![image](https://user-images.githubusercontent.com/54589605/226910622-8380b40d-52f2-470e-a5df-82b67376632e.png)
+
+> Same use as mentioned in **SR flip flop**.
+
+## Excitation table
+
+> Same use as mentioned in **SR flip flop**.
+
+![image](https://user-images.githubusercontent.com/54589605/226911002-f8f8ec22-3436-4180-ab1f-4b6abeece623.png)
+
+> **Blue line**. There is only **two** option to get **0 -> 0** for **Q -> Q+**, which are **J=0 and K=0** and **J=0 and K=1**. So, **K** is changing which means it is not dependent on **K** and **K** is don't **care(X)**. **J** is constant/same. So, **J=0 and K=X** to get **Q=0 and Q+=0**.
+
+![image](https://user-images.githubusercontent.com/54589605/226911827-334aa127-e771-4e37-8b5b-2d5b72f7579b.png)
+
+> **Orange line**. There is only **two** option to get **0 -> 1** for **Q -> Q+**, which are **J=1 and K=0** and **J=1 and K=1**. So, **K** is changing which means it is not dependent on **K** and **K** is don't **care(X)**. **J** is constant/same. So, **J=1 and K=X** to get **Q=0 and Q+=1**.
+
+![image](https://user-images.githubusercontent.com/54589605/226912157-efd9476a-f483-4b8e-873c-1dc3bd62a799.png)
+
+> **Green line**. There is only **two** option to get **1 -> 0** for **Q -> Q+**, which are **J=0 and K=1** and **J=1 and K=1**. So, **J** is changing which means it is not dependent on **J** and **J** is don't **care(X)**. **K** is constant/same. So, **J=X and K=1** to get **Q=1 and Q+=0**.
+
+![image](https://user-images.githubusercontent.com/54589605/226912610-0de22e77-006e-42f8-b6ed-45cbf3bcc70f.png)
+
+> **Red line**. There is only **two** option to get **1 -> 1** for **Q -> Q+**, which are **J=0 and K=0** and **J=1 and K=0**. So, **J** is changing which means it is not dependent on **J** and **J** is don't **care(X)**. **K** is constant/same. So, **J=X and K=0** to get **Q=1 and Q+=1**.
+
+### Excitation table
+
+![image](https://user-images.githubusercontent.com/54589605/226912928-0e4a5d02-4eaf-4255-a40e-39ac7334a795.png)
+
+### State Diagram
+
+![image](https://user-images.githubusercontent.com/54589605/226913145-21ec295b-ceab-4327-ab02-bcba88fec75b.png)
+
+> Inside the **JK flip flop**, we have **SR flip flop**.
+
+## **D** flip flop
+
+> It is called as **Data flip flop** or a **transparent flip flop**. It cannot hide anything.
+
+![image](https://user-images.githubusercontent.com/54589605/226914830-988fb46a-c101-4166-9d75-b39a18877156.png)
+![image](https://user-images.githubusercontent.com/54589605/226915502-0e34e973-f70f-4af9-bc07-2caa2267f1a2.png)
+
+> Whatever **input** we have given, the **same** thing will come out as output.
+> For **D=0**, we get **01** as the input for the **flip flop**. **01** means **reset** and set **Q+ = 0**.
+> For **D=1**, we get **10** as the input for the **flip flop**. **10** means **set** and set **Q+ = 1**.
+> Hence, **Q+ = D**, which means whatever input we have given, the same thing only will come out as the **output**.
+
+* D -> Input **D**.
+
+![image](https://user-images.githubusercontent.com/54589605/226917688-42e372cc-8eeb-4cc5-b770-9404ab6c0e96.png)
+
+## Characteristic table
+
+> The **output** completely depends on the **input**. It does not depend on **initial values** also.
+
+![image](https://user-images.githubusercontent.com/54589605/226918356-e31e1089-a81d-4bf8-a9d6-f7a1a1767c08.png)
+
+> As the **output** complemely depends on the **input**. It does not depend on **initial values** also.
+> As **clock=0 and D=X**, **Q+= Q**, which means **hold state**.
+> As the input is **D=0** then **Q+ = 0**, as **D=0** was the **input**.
+> As the input is **D=1** then **Q+ = 1**, as **D=1** was the **input**.
+
+![image](https://user-images.githubusercontent.com/54589605/226919284-1737b015-6571-4c74-9f7e-d64e0e10031f.png)
+
+> The **chaacteristic equation** proves that the **output** completely depends on the **input**.
+
+## Excitation table
+
+> For the outputs(Q and Q+), we need to get the input(D).
+> We know that **Q+ = D** or **D= Q+**, so the output(Q+) completely depends on the input(D).
+
+* As **Q+=0** so, **D=0**.
+* As **Q+=1** so, **D=1**.
+* As **Q+=0** so, **D=0**.
+* As **Q+=1** so, **D=1**.
+
+> So, **output** depends on **input** and **input** depends on **output**.
+
+![image](https://user-images.githubusercontent.com/54589605/226923153-1f2729c1-d65d-4098-8139-a7cccb07202d.png)
+
+## State Diagram
+
+![image](https://user-images.githubusercontent.com/54589605/226923367-fa42aa66-6a57-4a5c-84e8-f431f6e183bf.png)
+![image](https://user-images.githubusercontent.com/54589605/226923616-e564c195-77df-47ae-a70b-b8b3bfed3259.png)
+
+> Both are **Q+** only.
+
+### Observation
+
+> We are using **JK flip flop**.
+
+* Can we use **SR flip flop**? In place of **JK flip flop** can we directly say **SR flip flop**?
+
+> **YES**. Explained below.
+> **SR flip flop** has a problem i.e for **11** input we get **invalid** state.
+> For **D flip flop** as there is a **NOT gate**, we will never get **same input**. So we will never get **11** input.
+> So we can say that **D flip flop** has no **invalid state** if we use **SR flip flop** here instead of **JK flip flop**.
+
+![image](https://user-images.githubusercontent.com/54589605/226926290-64b2c229-f492-452c-b1e0-0af0a37ca501.png)
+
+> SR flip flop will work here.
 
 
 
+## T Flip Flop
 
+> For **clock = 0** and **T=X**, we get **hold state**.
+> For **clock = 1** and **T=0**, we get **00** as the input for **JK flip flop** and it gives **hold state**.
+> For **clock = 1** and **T=1**, we get **11** as the input for **JK flip flop** and it gives **toggle state**.
 
+![image](https://user-images.githubusercontent.com/54589605/226926419-b642e41e-310e-482b-9cc5-7d0072b91f34.png)
 
+### Observation
 
+* Can we use **SR flip flop**? In place of **JK flip flop** can we directly say **SR flip flop**?
 
+> **NO**.
+> For **T=1**, we will get **11** input which will result in **invalid** state.
+> So we cannot use **SR flip flop** in **T flip flop**.
 
+## Characteristic table
 
+> For **clock = 0** and **T=X and Q=Q**, we get **Q+=Q**, which is **hold state**.
+> For **clock = 1** and **T=0 and Q=0**, and we know that **T=0** is **hold state** and **Q=0** which is the initial state, so we get **Q+=0**, which is **hold state**.
+> For **clock = 1** and **T=0 and Q=1**, and we know that **T=0** is **hold state** and **Q=1** which is the initial state, so we get **Q+=1**, which is **hold state**.
+> For **clock = 1** and **T=1 and Q=0**, and we know that **T=1** is **toggle state** and **Q=0** which is the initial state, so we get **Q+=1**, which is **toggle state**.
+> For **clock = 1** and **T=1 and Q=1**, and we know that **T=1** is **toggle state** and **Q=1** which is the initial state, so we get **Q+=0**, which is **toggle state**.
 
+![image](https://user-images.githubusercontent.com/54589605/226928942-2890ee82-bf4c-42ff-9bcd-d1a01b3d3b4f.png)
+
+## Excitation Table
+
+![image](https://user-images.githubusercontent.com/54589605/226929528-744fcb83-8f7b-4b1a-870b-0cc638b90f44.png)
+
+* Q+ = T Ex-OR Q
+* T = Q Ex-OR Q+ [We can do this and find the values of **T** here]
+
+## State Diagram
+
+![image](https://user-images.githubusercontent.com/54589605/226930163-ea502b7d-f26f-410c-aee6-2bb33f5eb080.png)
+
+### Doubts
+
+![image](https://user-images.githubusercontent.com/54589605/226931385-92962299-e46e-4c5c-8e4f-7b61319bce31.png)
 
 
 
