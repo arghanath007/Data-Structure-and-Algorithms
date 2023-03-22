@@ -5167,23 +5167,254 @@ y= M(0,3)
 
 ![image](https://user-images.githubusercontent.com/54589605/226578293-bebd44dd-106f-4a73-88a9-2815eb6a729b.png)
 
+![image](https://user-images.githubusercontent.com/54589605/226824576-8eef19cf-808b-44e6-8db6-fbe5b1a24623.png)
+
+> Always use the tables when solving the above **questions**.
+> Solve them **while revising**.
+> **Important topic** and **important questions**.
+
+## Flip-Flop (31) [22nd March 2023]
+
+> In case of **latch**, the moment we have changed the **inputs**, corresponding we will get the **output**.
+> In **latches**, whenever we have given the **input**, we will get the output.
+
+> In circuit, we need **additional control**, whenever we want, we will get the **output**.
+> Whenever we have said **YES**, then only the **output** should come. Otherwise, we will get **no output**.
+> For the  **additional control**, we use an  **additional block** called as **clock signal**.
+> If clock is **0** then **we don't want the output, it has to wait**.
+> If clock is **1** then **we have said YES, and we will get the output**.
+> To have **additional control** over the **latch** we use an **additional block** called as **clock signal**.
+
+![image](https://user-images.githubusercontent.com/54589605/226826753-d041b7ce-8da0-47f6-8dd1-351bf9071f6b.png)
+
+> The combination of **latch + clock -> Flip Flop**.
+
+## SR Flip Flip using NAND latch
+
+![image](https://user-images.githubusercontent.com/54589605/226827094-741a0726-4f95-4788-826c-b7ddcc3f9558.png)
+![image](https://user-images.githubusercontent.com/54589605/226827331-f74783d5-7c17-427b-abba-3dbcd42fdb5c.png)
+
+> **YES**. In latch we could take **Q and Q'** anywhere but in SR Flip Flop, their(Q and Q') positions are **fixed** like this.
+> Earlier they were not **fixed**, now they are.
+
+![image](https://user-images.githubusercontent.com/54589605/226827808-90f5bfc9-19ce-46e6-8cc7-023842e85ef3.png)
+
+> **Q+ or Q(n+1)** is next state. **Q'** is complement of **Q**.
+
+![image](https://user-images.githubusercontent.com/54589605/226828108-17bead8b-3455-40b9-8613-1bf8ba9bd127.png)
+![image](https://user-images.githubusercontent.com/54589605/226828799-fab5c0ed-d96f-4cf7-9a8c-69390527e8e9.png)
+
+> When **clock = 0**, irrespective of **S and R** or inputs. When one of the inputs for **NAND** gate is **zero(0)** we will get **1** as the output. When the inputs for **NAND latch** were **11**, we would get **hold/memory**. So we would get **Q+ = Q**, as **Q** is the previous state.
+
+![image](https://user-images.githubusercontent.com/54589605/226829502-ee6315f7-a9c9-4d8a-88c7-f22e366b93e3.png)
+
+> When **clock = 1, S=0, R=0 and Q=0**, **Q=0** is the initial value we have taken. When the inputs for **NAND latch** were **11**, we would get **hold/memory**. So we would get **Q+ = 0**, as **Q=0** is the previous state.
+
+> When **clock = 1, S=0, R=0 and Q=1**, **Q=1** is the initial value we have taken. When the inputs for **NAND latch** were **11**, we would get **hold/memory**. So we would get **Q+ = 1**, as **Q=1** is the previous state.
+
+![image](https://user-images.githubusercontent.com/54589605/226830437-5767bc96-4e09-4b1c-bf45-ae03f3d305d2.png)
+
+> When **clock = 1, S=0, R=1 and Q=0**, **Q=0** is the initial value we have taken. We know **Q=0 and Q'=1**. For the first **NAND gate of the latch**, we would get **11** as the input and got **Q=0** as the output. For the second **NAND gate of the latch**, we would get **00** as the input and got **Q'=1** as the output. So we would get **Q+ = 0**, as we got **Q=0** as the output from the first NAND latch.
+
+![image](https://user-images.githubusercontent.com/54589605/226831522-53fcfab2-e321-43c6-b6b9-4cc8da8f7ccc.png)
+
+> When **clock = 1, S=0, R=1 and Q=1**, **Q=1** is the initial value we have taken. We know **Q=1 and Q'=0**. For the first **NAND gate of the latch**, we would get **10** as the input and got **Q=1** as the output. For the second **NAND gate of the latch**, we would get **10** as the input and got **Q'=1** as the output.
+
+![image](https://user-images.githubusercontent.com/54589605/226832224-d0f8cef9-fef0-4867-b9f8-93ea86fb7606.png)
+
+> It is not **stable**. **Q' 's 1** will come to the **feedback connection** of first NAND gate and **overite** the **0**. 
+
+![image](https://user-images.githubusercontent.com/54589605/226836308-7ef9a72f-af37-4ad0-bb92-749ed9844f1e.png)
+
+> It is not **stable**. **Q's 0** will come to the **feedback connection** of second NAND gate and **overite** the **1**. 
+
+![image](https://user-images.githubusercontent.com/54589605/226836443-6cc36ddb-12d7-46af-b019-a6d1cb554af7.png)
+
+* Stable and **Q+ = 0** as **Q=0**.
+
+![image](https://user-images.githubusercontent.com/54589605/226837310-dca2a2b2-ebb1-4b91-a705-8ce48cf7f612.png)
+
+> When **clock = 1, S=1, R=0 and Q=0**, **Q=0** is the initial value we have taken. We know **Q=0 and Q'=1**. For the first **NAND gate of the latch**, we would get **01** as the input and got **Q=1** as the output. For the second **NAND gate of the latch**, we would get **01** as the input and got **Q'=1** as the output.
+
+* Not stable. Replace the **0** with **1**.
+* Not stable. Replace the **1** with **0**.
+* Stable. **Q+ =1**, since **Q=1**.
+
+![image](https://user-images.githubusercontent.com/54589605/226837719-8b197244-8e26-49ef-81c0-74d410dd16be.png)
+
+> When **clock = 1, S=1, R=0 and Q=1**, **Q=1** is the initial value we have taken. We know **Q=1 and Q'=0**. For the first **NAND gate of the latch**, we would get **00** as the input and got **Q=1** as the output. For the second **NAND gate of the latch**, we would get **11** as the input and got **Q'=0** as the output.
+
+* Stable. **Q+ =1**, since **Q=1**.
+
+![image](https://user-images.githubusercontent.com/54589605/226837979-2f970d48-1d8e-451e-9733-457a84b4ac4c.png)
+
+> When **clock = 1, S=1, R=1 and Q=0**, **Q=0** is the initial value we have taken. We know **Q=0 and Q'=1**. For the first **NAND gate of the latch**, we would get **01** as the input and got **Q=1** as the output. For the second **NAND gate of the latch**, we would get **00** as the input and got **Q'=1** as the output.
+
+* Not stable. Replace **0** with **1**.
+* Stable. But **Q and Q'** have the same value i.e **1**. So it is an **invalid** situation. So, **Q+ =X**, since **Q=Q'=1**. They should not be **same**.
+
+![image](https://user-images.githubusercontent.com/54589605/226838638-79ddea6e-7ddc-4788-a303-18fd4fed3556.png)
+
+> When **clock = 1, S=1, R=1 and Q=1**, **Q=1** is the initial value we have taken. We know **Q=1 and Q'=0**. For the first **NAND gate of the latch**, we would get **00** as the input and got **Q=1** as the output. For the second **NAND gate of the latch**, we would get **10** as the input and got **Q'=1** as the output.
+
+* Not stable. Replace **0** with **1**.
+* Stable. But **Q and Q'** have the same value i.e **1**. So it is an **invalid** situation. So, **Q+ =X**, since **Q=Q'=1**. They should not be **same**.
+
+![image](https://user-images.githubusercontent.com/54589605/226839764-824cf160-e055-4afa-9782-afab406737e3.png)
+
+## SR Flip Flop using NOR latch
+
+![image](https://user-images.githubusercontent.com/54589605/226840326-a15233b8-e532-4226-8410-429993064ea9.png)
+
+> If **clock =0**, then **hold** state.
+
+![image](https://user-images.githubusercontent.com/54589605/226840670-b7448f53-555e-4bb1-ae0b-c9c12cb45c29.png)
+
+> For **clock=1, S=0, R=0 and Q=0** and **clock=1, S=0, R=0 and Q=1**, we are getting **00** as the input for the **NOR latch**, which is essentially **hold state** i.e previous state value in present state.
+
+![image](https://user-images.githubusercontent.com/54589605/226842450-138f72ad-d4bd-491a-9841-d3b08552b0e8.png)
+
+> For **clock=1, S=0, R=1 and Q=0**, initial value of **Q=0**, we are getting **01** as the input for the **NOR latch**. We got **Q=0**, so **Q+ = 0**.
+
+![image](https://user-images.githubusercontent.com/54589605/226843390-266c19df-3d43-4ace-842d-144c0b8679e5.png)
+
+> For **clock=1, S=0, R=1 and Q=1**, initial value of **Q=1**, we are getting **01** as the input for the **NOR latch**. We got **Q=0**, so **Q+ = 0**.
+
+![image](https://user-images.githubusercontent.com/54589605/226844237-25b3bb0a-3e58-4728-8220-ed38fade86fd.png)
+
+> For **clock=1, S=1, R=0 and Q=0**, initial value of **Q=0**, we are getting **10** as the input for the **NOR latch**. We got **Q=1**, so **Q+ = 1**.
+
+![image](https://user-images.githubusercontent.com/54589605/226844538-af334ea0-220c-4609-bf58-9e9c6ef33fc6.png)
+![image](https://user-images.githubusercontent.com/54589605/226845562-57ca658f-84e6-4369-8113-b115438a6aa0.png)
+
+* Stable
+
+![image](https://user-images.githubusercontent.com/54589605/226845802-bfa8666b-765a-4b73-9828-c3782d1d5e99.png)
+
+> For **clock=1, S=1, R=1 and Q=0**, initial value of **Q=0**, we are getting **11** as the input for the **NOR latch**. We got **Q=Q'=0**, which means **invalid situation**. so **Q+ = X**. 
+
+![image](https://user-images.githubusercontent.com/54589605/226846642-bce76c07-74d9-4b2f-943c-429029d27184.png)
+
+> For **clock=1, S=1, R=1 and Q=1**, initial value of **Q=1**, we are getting **11** as the input for the **NOR latch**. We got **Q=Q'=1**, which means **invalid situation**. so **Q+ = X**. 
+
+> In **SR Flip-Flop**, we cannot change the terminals(S,R,Q and Q'). They are **fixed**.
+
+![image](https://user-images.githubusercontent.com/54589605/226847774-abb71dee-e679-4635-9778-4fb12d053f88.png)
+![image](https://user-images.githubusercontent.com/54589605/226847861-9616e090-b52a-4d3f-9b09-a591f0bbeacb.png)
+
+> We cannot say **SR flipflop with NAND latch** or **SR flipflop with NOR latch** as it can be **anything**, so it will work as a single only. Output of both the **cases** will be **same** only. So, we will call it as **SR flip flop**. It can be **NAND or NOR**, anything will do.
+
+![image](https://user-images.githubusercontent.com/54589605/226848571-0837af1a-ecfc-4ea8-b05e-00b8ac5a270c.png)
+
+> Yes, and we don't care about it.
+
+![image](https://user-images.githubusercontent.com/54589605/226848897-7e25e174-57a8-43d6-a709-eb838ba3a5f8.png)
+
+> For **clock=1, S=0, R=0**, we are getting **same** as the previous values. It is called as the **hold** state.
+
+![image](https://user-images.githubusercontent.com/54589605/226849288-a7cfeaa5-271a-4726-98d4-21bbb4c3782c.png)
+
+> For **clock=1, S=0, R=1**, irrespective of the **previous state**, we are getting **0** as the output for the **next state(Q+)**. It is called as the **reset** state.
+
+![image](https://user-images.githubusercontent.com/54589605/226849776-83ba6bb7-8288-47d0-9f29-60dd1c9670f0.png)
+
+> For **clock=1, S=1, R=0**, irrespective of the **previous state**, we are getting **1** as the output for the **next state(Q+)**. It is called as the **set** state.
+
+![image](https://user-images.githubusercontent.com/54589605/226850053-d5bc16bb-8c73-4d47-8a95-4ed1775f37a0.png)
+![image](https://user-images.githubusercontent.com/54589605/226850118-818974ac-aadd-4c94-b1ad-18bbca649b56.png)
+
+> For both **NAND and NOR**, when it was **clock=1, S=1, R=1**, we are getting **invalid or don't care** as the output for the **next state(Q+)**. It is called as the **invalid** state.
+
+![image](https://user-images.githubusercontent.com/54589605/226850437-8c8b3c38-534b-4188-99b0-2a9ef0a14ec6.png)
+
+> For **clock=0**, **SR values are don't care(X)**. so **Q+= Q** and **hold/previous** state.
+> > For **00**, **Q+= Q** and **hold/previous** state.
+> For **01**, **R** pin is activated, so **Q+= 0** and **reset** state.
+> For **10**, **S** pin is activated, so **Q+= 1** and **set** state.
+> For **11**, so **Q+= X** and **invalid** state.
 
 
+> We don't need to remember **latch** table.
+> We have to remember **SR flip flop** table.
 
+## Characteristic Table
 
+![image](https://user-images.githubusercontent.com/54589605/226852530-29accff6-a852-4f7b-8155-be9eac41a6a6.png)
 
+> Above equation is **not valid** for **S=1 and R=1** inputs.
 
+![image](https://user-images.githubusercontent.com/54589605/226852768-42927bbc-56f2-45d4-bfd4-762bf57f655b.png)
 
+> Substitude **S,R and Q** values in the equation, to get **Q+** value.
 
+> For **S=0, R=1 and Q=1**, we put in the equation
 
+* S + R'Q -> 0 + 1'1 -> 0 + 01 -> 0 + 0 -> 0 
 
+> So, **Q+ =0**, which is correct we can check from the **table above**.
 
+![image](https://user-images.githubusercontent.com/54589605/226853407-3594d03a-1e9f-4096-a50d-f089ccd22e4e.png)
 
+## Excitation table
 
+> In the question, some program is given and the question is asking to find the **output** of the program. This is called as **analysis**.
+> The output is given in the question, the question is asking to **write the program**, to get the output. This is called as **designing**.
 
+> These are some ways to **ask questions**.
 
+![image](https://user-images.githubusercontent.com/54589605/226854676-d8e5b2c3-f705-462b-ab0f-3eb8edfd4902.png)
 
+> The **characteristic** table is for **analysis(to get or find the output)** purpose. By using the **inputs**, we can get the **outputs**. Knowing the **inputs** and getting the **outputs** is called as **analysis** purpose.
+> The **excitation** table is for **designing** purpose. By knowing the **outputs** and getting the **inputs** is called as **designing** purpose.
 
+### Excitation table
+
+> Initial output **Q=0**. We need to get the next output **Q+=0** also. To get the initial output of **0** to the next state output of **0**, what **inputs** we need to given.
+> What should be the **inputs** to get the **0 -> 0** as the output.
+
+![image](https://user-images.githubusercontent.com/54589605/226856273-1df806ea-c764-4751-ae42-28188e5fa79a.png)
+
+> By knowing the **outputs**, we need to get the **inputs**. We need to use the **excitation** table.
+
+![image](https://user-images.githubusercontent.com/54589605/226856566-21d4ab71-f002-4880-b8c4-c2eadd9fdc1e.png)
+![image](https://user-images.githubusercontent.com/54589605/226857111-41463b2f-3bf9-4cef-a1c5-24de675b2039.png)
+
+> **Orange line**. For **Q=0 and Q+=0**, we see that we can get those outputs by **S=0 and R=0** and **S=0 and R=1**. So, **S** is fixed to **0** but **R** changes which means it doesn't depend on **R** value. **R** is **don't care(X)**. so, **S=0 and R=X**.
+
+![image](https://user-images.githubusercontent.com/54589605/226857261-a97ecb50-e755-421f-a5f6-bd395f9b049e.png)
+![image](https://user-images.githubusercontent.com/54589605/226857575-8c6c5522-2a1e-4793-a433-765dc94fdfac.png)
+
+> **Green line**. There is only one option to get **0 -> 1** for **Q -> Q+**, which is **S=1 and R=0**.
+
+![image](https://user-images.githubusercontent.com/54589605/226857639-45ae127f-8461-46cc-8c43-b72382ba3f20.png)
+![image](https://user-images.githubusercontent.com/54589605/226857852-1b00d122-2182-4254-ae66-cfc0fa0de4df.png)
+
+> **Red line**. There is only one option to get **1 -> 0** for **Q -> Q+**, which is **S=0 and R=1**.
+
+![image](https://user-images.githubusercontent.com/54589605/226857947-808b010a-0654-4b6d-ad8a-91ee61773850.png)
+![image](https://user-images.githubusercontent.com/54589605/226858695-d453e7d3-dd2f-41e7-92ee-d003765d9fcf.png)
+
+> **Blue line**. There is only **two** option to get **1 -> 1** for **Q -> Q+**, which are **S=0 and R=0** and **S=1 and R=0**. So, **S** is changing which means it is not dependent on **S** and **S** is don't **care(X)**. **R** is constant/same. So, **S=X and R=0** to get **Q=1 and Q+=1**.
+
+### State Diagram
+
+> **Output** is called as **state**.
+> **Starting point** is the **initial** point. **arrow** indicates the **movement/move**.
+
+![image](https://user-images.githubusercontent.com/54589605/226859439-fde1ca43-698d-4fd7-95e7-f59208a02ede.png)
+![image](https://user-images.githubusercontent.com/54589605/226859658-c2f39a81-21b1-4a48-ab5d-d3ef032940f9.png)
+
+## Drawbacks of SR flip flop
+
+> **00 -> 11** -> Critical race/diwali.
+
+![image](https://user-images.githubusercontent.com/54589605/226860479-f9a13b18-6d58-4078-99a3-e7deaded4511.png)
+
+> Disadvantage of SR flip-flop
+
+## JK Flip Flop
+
+> Updated version of SR flip flop.
 
 
 
