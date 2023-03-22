@@ -5173,6 +5173,17 @@ y= M(0,3)
 > Solve them **while revising**.
 > **Important topic** and **important questions**.
 
+![image](https://user-images.githubusercontent.com/54589605/226956355-8da03578-a85f-4767-89ec-00af23891ad5.png)
+![image](https://user-images.githubusercontent.com/54589605/226956388-49a4600f-18ec-4ce3-8234-ce26afcc8843.png)
+![image](https://user-images.githubusercontent.com/54589605/226956430-7ecaf712-cb86-4a67-8c3f-7ceb16c0314f.png)
+![image](https://user-images.githubusercontent.com/54589605/226956459-969adfb8-124d-4175-a3b3-c8187a01454f.png)
+![image](https://user-images.githubusercontent.com/54589605/226956485-0ba8d126-bf27-4a8a-a406-6575aaba3ccd.png)
+![image](https://user-images.githubusercontent.com/54589605/226956514-b0b28418-21a7-48e7-b21c-20604a8b4d3b.png)
+![image](https://user-images.githubusercontent.com/54589605/226956539-0b08759e-283f-4d8a-a418-2fb03adb1015.png)
+![image](https://user-images.githubusercontent.com/54589605/226956558-234c21e9-13f1-49f9-9eb8-4609c0c3a797.png)
+
+
+
 ## Flip-Flop (31) [22nd March 2023]
 
 > In case of **latch**, the moment we have changed the **inputs**, corresponding we will get the **output**.
@@ -5572,6 +5583,124 @@ y= M(0,3)
 ### Doubts
 
 ![image](https://user-images.githubusercontent.com/54589605/226931385-92962299-e46e-4c5c-8e4f-7b61319bce31.png)
+
+### Flip-flops
+
+![image](https://user-images.githubusercontent.com/54589605/226956954-f8d15630-a5b7-433a-af3c-e94f186e2ca5.png)
+![image](https://user-images.githubusercontent.com/54589605/226956999-dc7a7e42-ea5a-4ad4-bdda-c8e7fc0a7f0e.png)
+
+
+## Sequential Circuit (32) [22nd March 2023]
+
+![image](https://user-images.githubusercontent.com/54589605/226959247-d214d8e1-7ceb-460a-9a24-c3241307e561.png)
+![image](https://user-images.githubusercontent.com/54589605/226959551-41cc81c9-00e9-46f1-9b21-42a3adbd0085.png)
+
+> We don't know the **initial value** of the circuit but by doing **Q=0 and Q=1**, we found that we got the **same result** so **initial value** didn't matter.
+
+![image](https://user-images.githubusercontent.com/54589605/226960544-9eba368c-8739-44fd-a143-e13911e89ebe.png)
+
+> It is the **JK flip flop** here as **Q and Q'** are in the opposite of what they are in **SR flip flop**.
+
+![image](https://user-images.githubusercontent.com/54589605/226962330-ebe5239f-5104-4824-95a3-2900150e2da2.png)
+
+> Have to remember the **equations** as well.
+
+## Triggering
+
+* Two types of triggers
+
+1) Level trigger
+2) Edge trigger
+
+![image](https://user-images.githubusercontent.com/54589605/226963344-7dfeb008-0056-473e-a2a5-f8d266d7539e.png)
+
+## Positive Level Triggering
+
+> The **flip flop** will work in the **positive level**.
+
+> If the **input** changes, correspondingly we will get the **output**.
+
+> If the clock is **absent or not present**, so it will maintain the **previous state or cold state** only. Untill the **clock** reaches the **positive level**, the **flip flop**, doesn't work.
+
+![image](https://user-images.githubusercontent.com/54589605/226965002-3834f5e9-d03b-4359-82b1-48c07cb73638.png)
+![image](https://user-images.githubusercontent.com/54589605/226965191-440090bc-5ac4-454a-ac00-9fad4ae4b56f.png)
+
+> The line(clock) represents the **positive level trigger**.
+
+## Negative Level Triggering
+
+> Opposite to **Positive Level Triggering**. It only works on those range only **negative levels**.
+
+> The flip flop only functions if it is at a **Negative Level Triggering**.
+
+![image](https://user-images.githubusercontent.com/54589605/226966233-cecec6da-6af1-423d-bc47-340e534ab6b3.png)
+![image](https://user-images.githubusercontent.com/54589605/226968288-98505b40-0e07-4f33-94a8-2fd26fe110c5.png)
+
+> The **line with bubble at the end** represents the **negative level trigger**. **Bubble** is a **NOT gate** in the negative level.
+
+> In case of **level tiggering**, we will respond in that **complete region(highlighted)** 
+
+> Level means **time interval**
+
+![image](https://user-images.githubusercontent.com/54589605/226969767-8a0a54a3-54ed-4cb6-9f61-ef1df3ec771f.png)
+
+ 
+## Positive Edge trigger
+ 
+> When the value of a **clock signal** changes from **0 to 1 or 0 -> 1** is called as the **positive edge trigger**.
+
+> When the value of a **clock signal** changes from **1 to 0 or 1 -> 0** is called as the **not positive or negative edge trigger**.
+
+![image](https://user-images.githubusercontent.com/54589605/226968042-bf6d103c-2e3c-4f74-9d0a-90b0031454dd.png)
+
+> The **arrow** represents the **positive edge trigger**.
+
+## Negative Edge trigger
+
+> When the value of a **clock signal** changes from **1 to 0 or 1 -> 0** is called as the **negative edge trigger**.
+> At that **instant** only, the flip flop will respond.
+
+> **Edge** means instant. It will happen at that instant only.
+
+![image](https://user-images.githubusercontent.com/54589605/226970451-a123855b-e6cf-495a-a184-12bb3dfb664a.png)
+
+> The stick wth bubble at the end, represents the **negative edge triggers**.
+
+![image](https://user-images.githubusercontent.com/54589605/226990315-5e5b9d75-d791-4313-8fe1-0996722d3339.png)
+
+> The clock is a **positive level clock**. The flip flop will respond in the positive levels only. Otherwise it will be in **hold state**. Initial state of a flip flop is **0**. Untill the clock comes, the value of the output is **0**. Untill the clock comes back, it will maintain the **hold state** only.
+
+![image](https://user-images.githubusercontent.com/54589605/226993016-194c5be5-fad7-4b1f-8c2e-8b90bf29d3fe.png)
+
+> We need to observe the **change of inputs** and simultaneously check if at that location **clock** is present or not. If **clock** is present then only the **output changes**, otherwise it is **same outputs**.
+
+![image](https://user-images.githubusercontent.com/54589605/226996668-c3afcfd2-f8d0-402e-8136-60b5c755fe64.png)
+
+> Until another **edge** comes, it is **hold state** only. Only at that **edge/instant only** the flip flop will respond. Otherwise it will not respond. It will be in **hold state** until next **negative edge** comes. **11** for **JK** flip flop means **toggle**, so if previous value is **0** then it is **1** and vice-versa.
+
+![image](https://user-images.githubusercontent.com/54589605/226997519-073381b7-9b54-49bf-8dd6-c2f342e84fd3.png)
+
+* Toggeling nature
+
+![image](https://user-images.githubusercontent.com/54589605/226998183-d524d364-78d8-4f1a-b2e9-4b236ee4a17f.png)
+
+## Toggle Modes
+
+![image](https://user-images.githubusercontent.com/54589605/226998392-e8f86c64-144c-4698-b416-e6935d6a6cc9.png)
+
+> We need to remember the **toggle modes** while designing counters.
+
+* SR -> 1 mode
+* D -> 1 mode
+* T -> 1 mode
+* JK -> 4 modes
+
+> Start from 52mins
+
+
+
+
+
 
 
 
