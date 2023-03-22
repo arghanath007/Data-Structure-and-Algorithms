@@ -2462,9 +2462,18 @@ y= M(0,3)
 
 > Here we have **1 and 2** values in the question. Let, 'b' be the base. To hold values **1 and 2**, we need **minimum base of 3** as **3** can have values from **0 to 2**. **3** onwards we can take any values. We have to give minimum value, that's why **b=3** is the answer.  
 
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/7DB99DE5C0
+
 ![image](https://user-images.githubusercontent.com/54589605/224652225-d6d90a41-420c-452f-89b0-7e61d61391e0.png)
 
 > Here, we are **squaring both sides**, then on the left we did polynomial expansion of the base and got **b=6** as the answer.
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/A9EA2D5F9B
+
+![image](https://user-images.githubusercontent.com/54589605/225013506-baf01b4d-facc-445e-a2e8-a44d7645db7e.png)
+![image](https://user-images.githubusercontent.com/54589605/225013599-af483be5-1c8d-4918-9900-a645a5abd827.png)
+
+
 
 
 ## Complement Analysis
@@ -2718,7 +2727,2851 @@ y= M(0,3)
 ![image](https://user-images.githubusercontent.com/54589605/224735074-0dcbb3a8-38a2-4c2b-b43e-1df1c713012c.png)
 
 
-* Upload the rest of the doubts of digital, uploaded till **Image 13**. Some of the solutions are present check them out.
+## Doubts_session (20) [14th March 2023]
+
+### 1's complement representation
+
+![image](https://user-images.githubusercontent.com/54589605/224942438-65c654b2-0771-49e9-825c-8578b27920f8.png)
+![image](https://user-images.githubusercontent.com/54589605/224942468-98567530-708e-4f36-88de-82b107e46f72.png)
+
+> No effect on **positive numbers**. Only effects on **negative numbers**.
+> Here also, **positive numbers** are represented as **normal binary numbers** only, with MSB as **0**.
+
+### 2's complement representation
+
+![image](https://user-images.githubusercontent.com/54589605/224944269-a2cec5b8-6ba0-4aa2-9a89-deeaebf769f9.png)
+
+> Here also, **positive numbers** are represented as **normal binary numbers** only, with MSB as **0**.
+> For **negative numbers** we find the **2's complement** and we need to ensure that MSB is **1**.
+
+* 6 -> 110
+* **2's complement representation** of **+6** -> 0110 -> **MSB** is **0**, which means positive number.
+
+![image](https://user-images.githubusercontent.com/54589605/224946097-f90a7602-f0f1-4184-ba14-c8ed8feb4d3d.png)
+![image](https://user-images.githubusercontent.com/54589605/224946247-b514d0f4-90bb-41ba-a5d5-38618d980ab4.png)
+![image](https://user-images.githubusercontent.com/54589605/224946661-4bc9d932-97ba-438c-964b-8b342b40b59b.png)
+
+> **Sign bit extension** is used in **1's and 2's complement representation**. We are filling the remaining bits with **sign bit**.
+
+> **Quiz 4**, **Q2** solutions.
+
+![image](https://user-images.githubusercontent.com/54589605/224943800-8bfb73c5-1915-47cf-9ac6-a051285390cd.png)
+
+## Questions
+
+![image](https://user-images.githubusercontent.com/54589605/224947033-93943862-8d46-4e9a-844c-bfb75fd905bf.png)
+![image](https://user-images.githubusercontent.com/54589605/224948134-3bae6e3f-2aeb-4db9-85bf-bf35328070e1.png)
+![image](https://user-images.githubusercontent.com/54589605/224949956-a8dabc7f-92f2-4a31-bcfc-e57473009739.png)
+
+> In the above question, **1's complement** doesn't have any effect on **positive numbers** we can just use the number as the **magnitude** of the number.
+> 1's complement representation has effect on **negative numbers**, so the **negative number** is in **1's complement form**, so we have to do **1's complement** again to get back the **original number**.
+
+![image](https://user-images.githubusercontent.com/54589605/224950944-a4e7b7ef-f1b6-41f1-bb1f-7715a82e6efb.png)
+
+> In the above question, **2's complement** doesn't have any effect on **positive numbers** we can just use the number as the **magnitude** of the number.
+> In the above question, **2's complement**  has effect on **negative numbers**, so the **negative number** is in **2's complement form**, so we have to do **2's complement** again to get back the **original number**.
+
+![image](https://user-images.githubusercontent.com/54589605/224952508-10c64dc5-d2f4-4cf8-b7d1-6bbe5f22044b.png)
+![image](https://user-images.githubusercontent.com/54589605/224952578-4f06c26b-a1f5-435d-af3b-31e70cb45707.png)
+![image](https://user-images.githubusercontent.com/54589605/224952998-4c3f0663-6d7a-433c-b1b3-0da6153a5294.png)
+![image](https://user-images.githubusercontent.com/54589605/224953952-d8a00e5d-4bca-45dc-9f1b-4f20527b7d0d.png)
+![image](https://user-images.githubusercontent.com/54589605/224957018-a8cfc8bb-e555-456d-99cd-02d66576fa54.png)
+
+* No. 
+
+![image](https://user-images.githubusercontent.com/54589605/224958342-57a649da-1af5-4682-b21a-0a1a09a7a6ab.png)
+
+> 1 followed by **n** zeroes.
+
+### Note
+
+![image](https://user-images.githubusercontent.com/54589605/224989061-366631cb-2b54-4e3c-98b1-fed4eb8eced7.png)
+
+
+> Mp effect of **2's complement** on **positive numbers**.
+
+* Bits taken -> 4 bits (+0 to +7)
+
+* 8 -> 1000
+* -8 -> 0111 (1's complement)
+* -8 -> 1000 (2's complement)
+* +8 -> 01000 (2's complement)
+
+> For **+8**, minimum no. of bits required is **5 bits**. We have taken only **4 bits** here. That's why **+8** not possible here. That's why max. no. is **+7** only.
+
+* 0 -> 0000
+* -0 -> 1111 (1's complement)
+* -0 -> 10000 (2's complement)
+
+> For **-0**, no. of bits required is **5 bits** but we have only **4 bits** here. Hence **-0** is not possible here(4 bits).
+
+![image](https://user-images.githubusercontent.com/54589605/224991773-150cc291-f736-43a8-b4e6-fd4f3cb4063e.png)
+
+## Difference between 1's and 2's complement
+
+### 1's complement
+
+![image](https://user-images.githubusercontent.com/54589605/224992505-84d80687-73e0-4088-a010-80945b4657fb.png)
+
+* range -> -7 to +7.
+
+> In 1's complement we did two separate allotments for **-0 and +0**.
+
+### 2's complement
+
+![image](https://user-images.githubusercontent.com/54589605/224992627-08dab60d-e811-44cf-aa7c-89c031b55c5c.png)
+
+* range -> -8 to +7
+
+> In 2's complement we alloted space for **+0** only, **-0** is not alloted here. 
+> Since **-0** is not alloted here, **-8** has taken it's place. For **-0** we need min. of **5bits**.
+> Because of these range is increased by **one**. Also for these reason only, **2's complement** is used more than **1's complement**.
+
+![image](https://user-images.githubusercontent.com/54589605/224993403-46e69f00-f629-4ce1-b859-93a8211700dd.png)
+![image](https://user-images.githubusercontent.com/54589605/224993876-d8f35aa6-f90e-4e90-8937-1c09735c65e1.png)
+![image](https://user-images.githubusercontent.com/54589605/224994929-d2256afa-c796-4700-8a6e-82939ed7f4f5.png)
+![image](https://user-images.githubusercontent.com/54589605/224996415-77a783f2-41c2-47f4-b6a8-aa78063834b0.png)
+
+> In the above question, we did the polynomial expansion in reverse order.
+
+## Binary Substraction using 1's complement method [**IMPORTANT**]
+
+![image](https://user-images.githubusercontent.com/54589605/224996884-60a7f8bf-816f-4e5b-a999-679c7e92a6e8.png)
+![image](https://user-images.githubusercontent.com/54589605/224997660-91f8a081-3ff5-4c8f-90bd-e7acf9f94053.png)
+![image](https://user-images.githubusercontent.com/54589605/224998087-0b1ca291-ca89-4b90-a345-91ba36ccacf0.png)
+
+> Addition means **normal** addition only.
+> In computer language, there is no substraction. It has addition only.
+
+![image](https://user-images.githubusercontent.com/54589605/224999611-70fb1594-6ab2-4b31-977b-e0169ba8de64.png)
+
+> If **carry=1**, then **add** the carry to **lsb** like in the **8-4** question.
+> If **carry=0**, then take **negative** of the **1's complement of the number(11011)**, like in the **4-8** question.
+
+![image](https://user-images.githubusercontent.com/54589605/225000112-4fa35d66-3b1d-4872-8f18-1bd31e1b86cb.png)
+![image](https://user-images.githubusercontent.com/54589605/225000163-4c617dd2-a099-48ab-86b1-46cd95ff3155.png)
+
+> If **carry=0**, then we should do **1's complement** again as it is not the original/true form.
+> Here, in **1's complement**, wheather the number will be **positive or negative** will depend on the output **carry**.
+
+## Binary Substraction using 2's complement method [**IMPORTANT**]
+
+![image](https://user-images.githubusercontent.com/54589605/225000446-b1c15dbb-c033-447b-bb3d-02fc17714e10.png)
+
+> Here, in **2's complement**, wheather the number will be **positive or negative** will depend only on the **MSB**.
+
+* If **MSB=0** -> positive number -> no effect -> already in true form.
+* If **MSB=1** -> negative number -> has effect -> Again do 2's complement of the result.
+
+![image](https://user-images.githubusercontent.com/54589605/225004321-049c7222-2415-46bd-b3ae-17a358b72411.png)
+![image](https://user-images.githubusercontent.com/54589605/225004570-12a1a020-ee16-4eab-8d20-f92790c7ebe4.png)
+![image](https://user-images.githubusercontent.com/54589605/225005579-5de3bd0a-f371-4f16-bdda-83583b5eb867.png)
+
+* Cout -> Carry -> 0
+* Cin -> Carry for **MSB** bit -> 0
+* X -> Sign bit of 1st number(9 here) -> 0
+* Y -> Sign bit of 2nd number(4 here) -> 0
+* Z -> Sign bit of result(9 + 4)(+13 here) -> 0
+
+![image](https://user-images.githubusercontent.com/54589605/225006131-08504d46-179f-4e8e-82c1-dacde3cf6237.png)
+![image](https://user-images.githubusercontent.com/54589605/225006466-bd78d614-1519-45c6-abc2-195dc7e07097.png)
+![image](https://user-images.githubusercontent.com/54589605/225007080-1565fb19-e810-43b0-90fb-37d6c9e79c1f.png)
+![image](https://user-images.githubusercontent.com/54589605/225007945-d0fb6a35-451a-4bff-9205-2bac11bc2b7d.png)
+![image](https://user-images.githubusercontent.com/54589605/225008605-8847dcf0-7ab0-4fcc-adfb-b2ec00d84dd8.png)
+![image](https://user-images.githubusercontent.com/54589605/225008495-884cd893-4e73-46fb-8e5c-881e4d9d5031.png)
+![image](https://user-images.githubusercontent.com/54589605/225009174-50da61d8-e136-4663-8d67-c5665fbbfa5b.png)
+![image](https://user-images.githubusercontent.com/54589605/225009441-e3191408-7109-491f-9850-7d13f4faec10.png)
+![image](https://user-images.githubusercontent.com/54589605/225009573-d765d48a-9d4e-406f-a0b1-1bd24f95abdb.png)
+
+> There type of problem arises, if we take **less** no. of bits.
+
+![image](https://user-images.githubusercontent.com/54589605/225009809-23a46fab-28dd-43b3-9ef7-0dc3df046d21.png)
+![image](https://user-images.githubusercontent.com/54589605/225009889-5f08c605-da96-406d-9056-5b973979b2cc.png)
+![image](https://user-images.githubusercontent.com/54589605/225009909-b095b4f9-397a-43be-bd81-92e59617730c.png)
+![image](https://user-images.githubusercontent.com/54589605/225010322-dac73685-1d66-405d-943c-1e76e6ed2c05.png)
+
+> For **5 bits**, the range is from **-16** to **+15**, but the expected answer from **-9-8** is **-17**, which is out of range for **5 bits**, that's why we are getting **+15** as the answer instead of **-17**, as we have used **less** no. of bits. So the **answer which is -17** is out of the range.
+
+![image](https://user-images.githubusercontent.com/54589605/225010395-1599214b-013b-4c5c-bad0-b9276d165a7f.png)
+
+> Here also, we have used **5 bits**, the range is from **-16** to **+15**. But the expected answer for **9+8** is **+17** which is out of rande for **5 bits**, that why we are getting **-15** as the answer instead of **+17**, because of the **less** no. of bits used.
+
+![image](https://user-images.githubusercontent.com/54589605/225021788-48431fe2-b1f1-4023-b6eb-1eda5c044293.png)
+![image](https://user-images.githubusercontent.com/54589605/225021892-122eaa4f-8f53-4f25-8479-83dad42a6cb4.png)
+![image](https://user-images.githubusercontent.com/54589605/225021999-d8448b13-6b13-4186-b839-87edb798a462.png)
+![image](https://user-images.githubusercontent.com/54589605/225022048-731d1b0d-9f6d-4198-af5d-523b731bf9b3.png)
+![image](https://user-images.githubusercontent.com/54589605/225022089-69924b3b-91b5-470c-91d9-e11189727b54.png)
+![image](https://user-images.githubusercontent.com/54589605/225022119-b153e24a-fccf-4fc2-b4fb-fdd240de32c2.png)
+![image](https://user-images.githubusercontent.com/54589605/225022144-f51021e2-470a-4d1c-a33c-be55b397d0d3.png)
+![image](https://user-images.githubusercontent.com/54589605/225022167-1fd18ac6-d527-4f10-a02f-00adf34e8acd.png)
+![image](https://user-images.githubusercontent.com/54589605/225022186-fbdd7a9f-886a-4e75-ac12-de9e43a969c2.png)
+![image](https://user-images.githubusercontent.com/54589605/225022214-49607ae3-913b-4514-8bc9-20561006366b.png)
+
+
+## Overflow condition
+
+![image](https://user-images.githubusercontent.com/54589605/225011005-e49c2102-c174-489d-ad8b-7552eaaace9c.png)
+
+
+## Combinational_Circuits_IV (21) [14th March 2023]
+
+### Revision
+
+![image](https://user-images.githubusercontent.com/54589605/225023655-b01184af-2a72-4361-b633-8e4dee835728.png)
+
+* Correct. **9+4 -> +13**.
+
+![image](https://user-images.githubusercontent.com/54589605/225023951-95eed351-e766-4177-af5d-6fa0de95bbac.png)
+
+* Correct. **9 - 4 -> +5**.
+
+![image](https://user-images.githubusercontent.com/54589605/225024557-857237c2-f929-4d8f-b240-8274f59ef991.png)
+
+* Correct. **-9 + 4 -> -5**.
+
+![image](https://user-images.githubusercontent.com/54589605/225024861-51a6e82b-a231-4c61-9ee0-cb35726fbd0f.png)
+
+* Correct. **-9 - 4 -> -13**.
+
+![image](https://user-images.githubusercontent.com/54589605/225025354-ac1183af-7fab-4387-a0c4-206177952e23.png)
+
+* In-correct. **9 + 8 -> -15**. It should give **+17** and not **-15**.
+
+![image](https://user-images.githubusercontent.com/54589605/225025643-74e891a7-d2f0-47bc-b623-7d322906ead2.png)
+
+* In-correct. **-9 - 8 -> +15**. It should give **-17** and not **+15**.
+
+![image](https://user-images.githubusercontent.com/54589605/225025884-95edc890-e20b-4ade-8cbe-fa6de7867120.png)
+
+> Because of **less no. of bits**. 
+> If we **increase the no. of bits**, then the problem gets eliminated.
+
+
+## Overflow Condition
+
+![image](https://user-images.githubusercontent.com/54589605/225026650-09a21529-c0c8-4c7e-831b-e524a01fa8ff.png)
+![image](https://user-images.githubusercontent.com/54589605/225027384-cee3014e-a676-41bb-868b-3dc009e98275.png)
+
+> The problem/condition happens when we try to **add** **same sign** numbers, **both positive or both negative**.
+> If we do, one positive and one negative, then we will never have that problem. 
+
+> **Overflow** occurs when **two same sign** numbers are added.
+> We have to design the system in such a way that if an **overflow** occurs then we have to **increase the bit size**.
+
+![image](https://user-images.githubusercontent.com/54589605/225029284-f96a6d8e-71d1-41df-b30b-5b6710a96922.png)
+![image](https://user-images.githubusercontent.com/54589605/225029607-063a3599-2a14-4393-9a90-d91dc9153816.png)
+
+* No **overflow**. Above question
+* Cin -> 0
+* Cout -> 0
+* **Cin Ex-OR Cout** -> **zero(0)**
+
+> As **Cin Ex-OR Cout** equals to **zero(0)**, hence no **overflow**.
+
+![image](https://user-images.githubusercontent.com/54589605/225029715-58a339c6-caaf-4183-9f77-be5f6d1ea3dc.png)
+
+* No **overflow**. Above question
+* Cin -> 1
+* Cout -> 1
+* **Cin Ex-OR Cout** -> **zero(0)**
+
+> As **Cin Ex-OR Cout** equals to **zero(0)**, hence no **overflow**.
+
+![image](https://user-images.githubusercontent.com/54589605/225030027-24fce68b-8355-40c9-8925-14a8fadbfd51.png)
+![image](https://user-images.githubusercontent.com/54589605/225030160-1aee5bb8-c72e-49ac-a570-a7dd15afad26.png)
+![image](https://user-images.githubusercontent.com/54589605/225030234-71ec9ec3-5b5c-493e-8e58-b51aa40333e6.png)
+
+* **Overflow**. Above question
+* Cin -> 1
+* Cout -> 0
+* **Cin Ex-OR Cout** -> **One(1)**
+
+> As **Cin Ex-OR Cout** equals to **One(1)**, hence **overflow** occured here.
+
+![image](https://user-images.githubusercontent.com/54589605/225030519-64bcd572-2186-4e1d-a32e-6f2afd792218.png)
+
+* **Overflow**. Above question
+* Cin -> 1
+* Cout -> 0
+* **Cin Ex-OR Cout** -> **One(1)**
+
+> As **Cin Ex-OR Cout** equals to **One(1)**, hence **overflow** occured here.
+
+![image](https://user-images.githubusercontent.com/54589605/225030700-0e9be5ed-7e5c-412c-8761-2e9ae6b6bbfe.png)
+![image](https://user-images.githubusercontent.com/54589605/225030858-82fc7845-748f-4eca-93d8-4bf57a686227.png)
+
+> Whenever we have **Cin Ex-OR Cout** equals to **One(1)** or **Cin Ex-OR Cout = 1**, then **overflow** occurs.
+> Whenever we have **Cin Ex-OR Cout** equals to **zero(0)** or **Cin Ex-OR Cout = 0**, then there is **no overflow** occurs.
+
+
+### 1. Using **carry bits(Above)**.
+
+![image](https://user-images.githubusercontent.com/54589605/225031366-cc294c75-2344-4bb9-9bbd-4d47195385ee.png)
+![image](https://user-images.githubusercontent.com/54589605/225031502-e81c712d-ad4d-44e7-aee2-4250ef612077.png)
+
+### 2. Using **sign bits**.
+
+* X -> Sign bit of 1st number
+* Y -> Sign bit of 2nd number
+* Z -> Sign bit of result(1st op 2nd) [op -> operator]
+
+![image](https://user-images.githubusercontent.com/54589605/225032137-a03ee0d6-5d0a-429c-b210-b77002fd766a.png)
+![image](https://user-images.githubusercontent.com/54589605/225032217-92279f48-966e-46a6-a639-fc9ecb9dee85.png)
+![image](https://user-images.githubusercontent.com/54589605/225032267-16cf4da7-9386-4214-b25a-c8052ab0c997.png)
+![image](https://user-images.githubusercontent.com/54589605/225032349-8d433ae5-c716-46fe-ab5d-e384ae55405d.png)
+![image](https://user-images.githubusercontent.com/54589605/225032809-53f78edb-e69d-4abe-9483-bfba2ab0114e.png)
+
+![image](https://user-images.githubusercontent.com/54589605/225033543-1eb18093-4893-4d15-92a3-4b4c0de07055.png)
+
+* x=0,y=0, z=1
+
+> We get **X'y'z**. **X' = 0** is a **positive number system. **y' = 0** is also a positive number.
+> If we add two positive nubers, it should be a **positive number(z)** but **z=1**, which means **z** is a **negative number**. If **Z=1** means that **z** is the resultant of the two positive numbers(x and y), indicating as a **negative number**. This will **never happen**, addition of **two** positive numbers gives **resultant  number as negative(z). Hence we have **overflow** here.
+> If we add **two** numbers then the resultant number cannot be a **negative number**.
+
+![image](https://user-images.githubusercontent.com/54589605/225035872-f0dcd131-5c88-4c99-925c-b7de9796b425.png)
+![image](https://user-images.githubusercontent.com/54589605/225039339-d8b9f851-d8a9-4f4d-b51b-f4ff126187bf.png)
+
+> We get **Xyz'**. **X=1** is a **negative number**, **y=1** is also a **negative number**.
+> If we add **two negative number**, it should be a **negative number(z)** but **z=0**, which means **z** is a **positive number**. If **Z=0** means that **z** is the resultant of the two negative numbers(x and y), indicating as a **positive number**. This will **never happen**, addition of **two** negative numbers gives **result number as positive(z). Hence we have **overflow** here.
+> If we add **two negative numbers** then the resultant number cannot be a **positive number**.
+
+![image](https://user-images.githubusercontent.com/54589605/225039783-bc79f8f9-c093-4454-babd-c619fb7174fd.png)
+
+### Case 1
+
+* X=0
+* Y=0
+* Z=1
+* X'Y'Z -> Addition of two positive numbers(X and Y), gives negative number(z). Not possible and hence **overlfow** condition.
+
+### Case 2
+
+* X=1
+* Y=1
+* Z=0
+* XYZ' -> Addition of two negative numbers(X and Y), gives positive number(z). Not possible and hence **overlfow** condition.
+
+![image](https://user-images.githubusercontent.com/54589605/225040930-c1f3f736-1e34-42ee-b54b-f7cd3bc321a5.png)
+![image](https://user-images.githubusercontent.com/54589605/225041447-6fd0cd09-ca47-4b8d-9604-769a4f31b283.png)
+
+> We can eliminate **overflow** by **increasing the no. of bits**.
+
+![image](https://user-images.githubusercontent.com/54589605/225042057-2e426605-6202-4c2d-b77a-de8ed676e0b1.png)
+![image](https://user-images.githubusercontent.com/54589605/225042271-d75a9e1f-424a-472c-8483-e6f427097d81.png)
+
+> Initially we had **5 bits**, now we are adding **1 more bit** here(with black pen). 
+> Now for **9 + 8 -> +17**, we got **+17**, which is the **correct answer** by **increasing** the no. of bits.
+
+![image](https://user-images.githubusercontent.com/54589605/225043116-6525821d-cf67-41b4-9026-486ba2631963.png)
+![image](https://user-images.githubusercontent.com/54589605/225043163-7c7a88dc-7695-4966-80ba-611e573670a4.png)
+![image](https://user-images.githubusercontent.com/54589605/225043373-0a5de5f3-45b0-45ce-885e-a314514ce0b2.png)
+
+> Overflow when the **sign bits** were the **same** but the resultant **sign bit** was **different**.
+
+![image](https://user-images.githubusercontent.com/54589605/225045473-3cc3e1d3-c8ef-4bbb-a283-008760d193ee.png)
+![image](https://user-images.githubusercontent.com/54589605/225045902-d43f57ee-061e-4770-b35c-81b7ccd48566.png)
+
+> In **Method 3**, **X=Y** but Z does't equal to **X or Y**, hence **overflow**.
+ 
+## Binary Codes
+
+![image](https://user-images.githubusercontent.com/54589605/225046538-b64be38f-98ec-42a8-810c-abe3a1cc8398.png)
+![image](https://user-images.githubusercontent.com/54589605/225047787-fb77d3c4-ae1b-4b15-a162-2f06e5efdc25.png)
+![image](https://user-images.githubusercontent.com/54589605/225048797-3d92491a-2f5f-40f3-b542-2fec1e07b9bc.png)
+![image](https://user-images.githubusercontent.com/54589605/225084180-9aa49570-ddd3-4717-b5aa-e348355222c7.png)
+![image](https://user-images.githubusercontent.com/54589605/225084389-1f4c15f2-286d-424e-8893-04b0854730de.png)
+![image](https://user-images.githubusercontent.com/54589605/225084955-fe010ffc-f068-4fb8-9833-e07f0f8c6aa9.png)
+
+* (27) base 10
+* (27) base 10 -> (00100111) -> BCD code
+* (27) base 10 -> (11011) base 2 -> Binary code
+
+> In BCD we are using **8 bits** to store 27 but in binary we are just using **5 bits** to store 27.
+
+![image](https://user-images.githubusercontent.com/54589605/225085553-ed4a40eb-a042-4b1b-b38d-d18cf208b4fe.png)
+![image](https://user-images.githubusercontent.com/54589605/225085641-de7d8181-934c-40bf-8f10-671de7119fdc.png)
+![image](https://user-images.githubusercontent.com/54589605/225085917-7602f8b1-1117-4464-8c1e-45c236526989.png)
+
+> Adding **6 or 0110**, that number comes a valid BCD.
+> **0 to 9** are **valid BCDs**. After that **10,11,12 etc** they are invalid or not valid BCDs.
+> From **0 to 9**, BCD and binary are the same.
+
+![image](https://user-images.githubusercontent.com/54589605/225088421-732de4ee-27da-463e-8ac3-b2ffa5b78299.png)
+![image](https://user-images.githubusercontent.com/54589605/225088842-7bd22d96-3503-44b6-977a-e81c43d208d5.png)
+
+> **8421** only is called as the **Natutal BCD**.
+
+![image](https://user-images.githubusercontent.com/54589605/225088904-cc1f1c9a-5982-4d04-bf41-4ce3db7eb831.png)
+![image](https://user-images.githubusercontent.com/54589605/225176549-4a659d03-2296-4ce1-9bbd-43235f7b68c4.png)
+![image](https://user-images.githubusercontent.com/54589605/225177044-8aab8d73-31c4-44a6-b386-d91f1ca3d6a7.png)
+
+> **BCD** means **0 to 9**. **14** is not valid.
+
+> We are finding for **9** using **742'1'**. For **9** we need 7 and 2. We need **2** but we have **2'**, so we will put **0** for **2'** which shows **2'** is not required but **2** is required. We dont need **1** so we will put **1'** as 1, as we don't need **1**, which means we need **1'**.
+> Which means if we need **2**, then we don't need **2'**.
+> Which means if we don't need **1**, then we need **1'**.
+
+* 742'1' -> 1001
+
+![image](https://user-images.githubusercontent.com/54589605/225177757-cadeae65-a4c2-48c9-a9d1-4bba598dbc8a.png)
+
+> If we are able to express all the values from **0 to 9** using that code, then only we can say that it is a **valid BCD** code.
+> If some numbers cannot be expressed then that code is **not a valid BCD code**.
+
+![image](https://user-images.githubusercontent.com/54589605/225178003-3aca401d-d27f-4993-8500-32bdc0d3e3d7.png)
+
+> Both are correct only.
+
+
+## BCD Addition
+
+![image](https://user-images.githubusercontent.com/54589605/225178054-2d2408fe-17f1-43dc-ae96-f39befd46f88.png)
+![image](https://user-images.githubusercontent.com/54589605/225178404-50227f04-d13f-4173-8c39-5fafb9de978f.png)
+
+* When we can say that a number is a valid BCD or not?
+
+> When the sum of the number is between 0 to 9.
+> If the sum is more than **9** then it is an invalid BCD number.
+
+![image](https://user-images.githubusercontent.com/54589605/225178575-5a82fa25-642e-46f1-8509-5ba39c2f4488.png)
+![image](https://user-images.githubusercontent.com/54589605/225178606-502188be-34cf-4176-b97b-54c8c74d3168.png)
+![image](https://user-images.githubusercontent.com/54589605/225178775-ec82b047-86f8-4c5f-a5dc-eabc61f70d26.png)
+![image](https://user-images.githubusercontent.com/54589605/225178821-de1b268d-3d55-4cff-84da-1f236fd0db94.png)
+![image](https://user-images.githubusercontent.com/54589605/225179401-04a089fc-7f85-45b8-b732-4e9b8b6c81ab.png)
+![image](https://user-images.githubusercontent.com/54589605/225179370-a61fcf0a-bb1a-4075-82cd-e2d521123ceb.png)
+
+* 4 bits -> nibble
+* 8 bits -> byte
+
+![image](https://user-images.githubusercontent.com/54589605/225179908-6267e6e2-313b-4aee-9191-de2ee43e88fa.png)
+
+## Excess-3 Code
+
+![image](https://user-images.githubusercontent.com/54589605/225180213-a3386579-3507-49ce-9b7e-a6be1475bac5.png)
+![image](https://user-images.githubusercontent.com/54589605/225180260-7917ca80-8ef9-465b-8d23-90af434d9d07.png)
+![image](https://user-images.githubusercontent.com/54589605/225180437-6bff90dd-6c45-4533-bf83-32e91d0be241.png)
+![image](https://user-images.githubusercontent.com/54589605/225180865-cf03fd26-e573-42cd-a13e-50dd679ffc81.png)
+
+* **Valid Ex-3 codes** -> 3,4,5,6,7,8,9,10,11,12
+
+> Since **valid BCD** starts from **0** and Ex-3 code is **BCD code + 3**. So **min** valid Ex-3 code is **0 + 3 -> 3**. Max BCD code is **9**, so max valid Ex-3 codes is **9 + 3 ->12**.
+
+* **Invalid Ex-3 codes** -> 0, 1, 2, 13, 14, 15.
+
+> **BCD** and **bianry codes** are **weighted** codes.
+
+## Gray Code
+
+![image](https://user-images.githubusercontent.com/54589605/225181191-2660926b-d3ef-4a9f-9e35-fee5c2853338.png)
+
+> Gray code is **non-weighted** codes. Here, the difference between two **successive** numbers will be **1 bit** only. That why it is called as the **minimum distance code** or **unit distance code**.
+
+> Above place **zeroes**, below place **ones**.
+
+![image](https://user-images.githubusercontent.com/54589605/225182110-08c0470a-e9cd-432a-8175-fa2b15384de1.png)
+
+## Binary to Gray Code
+
+![image](https://user-images.githubusercontent.com/54589605/225183399-eff0b878-f416-4f19-910e-839200ac8779.png)
+
+* Convert to BG -> Convert from Binary to Gray code.
+
+> Remember a song which is **side by side**.
+
+![image](https://user-images.githubusercontent.com/54589605/225183781-2ad208aa-b92d-4054-aa41-4d47a468c5d3.png)
+
+> Remember the **no. of bits** in binary and gray code must be the **same**.
+
+![image](https://user-images.githubusercontent.com/54589605/225183992-8839cf0d-a8d3-41df-98c4-ebdbd40f507b.png)
+
+> **Logical diagram** for the implementation of **binary to gray code**.
+
+![image](https://user-images.githubusercontent.com/54589605/225184229-5f31e468-24e5-4bf0-8481-cda9ed917e88.png)
+
+## Gray to Binary Code
+
+![image](https://user-images.githubusercontent.com/54589605/225184445-c2cdb26f-d59e-4c2c-8cfa-6e14ed4a3299.png)
+![image](https://user-images.githubusercontent.com/54589605/225184471-b370d5e6-b141-4d9d-9ff9-b275d962f4f2.png)
+
+> **Logical diagram** for the implementation of **gray to binary code**.
+
+![image](https://user-images.githubusercontent.com/54589605/225184591-dd77b8d8-e72e-4e20-a9bd-58c1e9c201d9.png)
+![image](https://user-images.githubusercontent.com/54589605/225184720-2a4acf1f-47ac-4dc8-9bf6-e6c2c9c932d4.png)
+![image](https://user-images.githubusercontent.com/54589605/225184847-f78c20f9-6400-4ef5-b55c-b4aaa4a12cda.png)
+![image](https://user-images.githubusercontent.com/54589605/225185036-8b21c014-2356-431a-bff6-0ddf61df2e86.png)
+
+## Self Complementing Code
+
+![image](https://user-images.githubusercontent.com/54589605/225185123-d97cde66-20d6-4ab1-9bdd-9f019d1f3291.png)
+
+* 2421
+* N=8
+
+> Representation of **8** in these(2421) code format is **1110**.
+
+* 8 -> 1110 [2421]
+* 1's complement of 1110 -> 0001
+* 9's complement of (8) base 10 -> 9-8 -> 1 
+* Express 9's complement in **2421** form -> 0001
+
+> We can see that **1's complement of 1110 -> 0001** and 9's complement of 8 in **2421** form -> **0001**. In both we are getting **0001**. Then, this(2421) number is a **self complementing code**.
+
+![image](https://user-images.githubusercontent.com/54589605/225185932-9f25cfae-f373-4f3e-a9f0-a83226828bcc.png)
+![image](https://user-images.githubusercontent.com/54589605/225186185-9ac07818-3544-414b-9263-5a98b1ac43ce.png)
+
+* Excess-3 Code. Same
+
+![image](https://user-images.githubusercontent.com/54589605/225186333-04ad92e7-e847-4562-8ed9-52afab5a7568.png)
+
+* Excess-3 code or XS-3 code
+* N=5
+* Excess-3 of (5) -> 5 + 3 -> 8 -> 1000
+* 1's complement of (1000) -> 0111
+
+* 9's complement of (5) base 10 -> 9 - 5 -> 4
+* Excess-3 of (4) -> 4 + 3 -> 7 -> 0111 
+
+> We can see that **1's complement of (1000) -> 0111** and 9's complement of 5 in **Excess-3 code** form -> **0111 **. In both we are getting **0111**. Then, this(XS-3 or excess-3 code) number is a **self complementing code**.
+
+## Parity Bits
+
+![image](https://user-images.githubusercontent.com/54589605/225187275-a32b05fa-147d-4a2d-ad6c-4858659b7abd.png)
+
+* We have two parity bits,
+
+1) Even parity bit -> No. of 1s will be **even**.
+2) Odd parity bit -> No. of 1s will are **odd**.
+
+![image](https://user-images.githubusercontent.com/54589605/225188391-a641764c-b588-4173-af89-4047a9126345.png)
+![image](https://user-images.githubusercontent.com/54589605/225188399-e9da5c7b-656f-4e10-ad0b-af59dd2b67a8.png)
+![image](https://user-images.githubusercontent.com/54589605/225188415-fbaf2b6d-4687-4075-8b4b-0bf335e6f6e5.png)
+
+## Sequential Circuits-I (22) [15th March 2023]
+
+## Parity Bit
+
+### Even Parity
+
+> We have to make sure that **message + parity** gives **even** no. of 1s.
+> **0** 1's is **even**.
+
+![image](https://user-images.githubusercontent.com/54589605/225281505-516508f4-b473-4e2c-8dc7-e572dac720e8.png)
+
+### Even Parity Generator
+
+> We have **4 bits** here.
+> The ouput of Ex-OR gate is **1** for **odd** no. of **1s**.
+> If the message contains **odd** no. of 1s, then the output of Ex-OR gate is **1** which means parity bit or **p=1**. Parity bit plus odd no. of 1s in the message, together they(parity bit + message) contain **even** no. of 1s. So, we can call it as a **even parity** circuit.
+
+![image](https://user-images.githubusercontent.com/54589605/225283547-1022ef08-b3d6-4ecf-9fff-2494e027ac2c.png)
+![image](https://user-images.githubusercontent.com/54589605/225283808-bb9d6210-74e3-47f4-8b46-55349d8bbd32.png)
+
+> The ouput of Ex-OR gate is **0** for **even** no. of **1s**.
+> If the message contains **even** no. of 1s, then the output of Ex-OR gate is **0** which means parity bit or **p=0**. Parity bit plus even no. of 1s in the message, together they(parity bit + message) contain **even** no. of 1s. So, we can call it as a **even parity** circuit.
+
+![image](https://user-images.githubusercontent.com/54589605/225284218-356a1dd3-dbd9-4b51-8cbc-fdcada84d107.png)
+![image](https://user-images.githubusercontent.com/54589605/225284397-24502506-c517-47d0-b87c-834955b2a6ac.png)
+
+> So this is called as an **even** parity generator.
+
+## Odd Parity
+
+![image](https://user-images.githubusercontent.com/54589605/225284848-f056dc01-4c9b-4872-b480-dab896a75c33.png)
+
+> We have to make sure that **message + parity** gives **odd** no. of 1s.
+
+## Odd Parity Generator
+
+> The ouput of Ex-OR gate is **1** for **odd** no. of **1s**.
+> If the message contains **odd** no. of 1s, then the output of Ex-OR gate is **1** and we have a **NOT** gate after the Ex-OR gate which means parity bit or **p=0**. Parity bit plus odd no. of 1s in the message, together they(parity bit + message) contain **odd + 0 ->odd** no. of 1s. So, we can call it as a **odd parity** circuit.
+
+![image](https://user-images.githubusercontent.com/54589605/225287430-de009824-103a-464a-b96f-32f606c0f917.png)
+
+> The ouput of Ex-OR gate is **0** for **even** no. of **1s**.
+> If the message contains **even** no. of 1s, then the output of Ex-OR gate is **0** and we have a **NOT** gate after the Ex-OR gate which means parity bit or **p=1**. Parity bit plus even no. of 1s in the message, together they(parity bit + message) contains **even + 1 -> odd** no. of 1s. So, we can call it as a **odd parity** circuit.
+
+![image](https://user-images.githubusercontent.com/54589605/225288009-e2ea42bb-b796-42eb-89cc-f599bb43225b.png)
+
+## Hamming Code
+
+> Applicable for detection and correction of 1-bit code errors. If it is more than 1 bit then hamming code will not work.
+
+![image](https://user-images.githubusercontent.com/54589605/225289219-3db8be0e-30f5-4098-a896-3ffb504b688a.png)
+
+> Now, we can say that no. of required **parity bits** for **n=2** no. of bits is **3 or p=3**. Using the relation, we can find the **required no. of parity bits**.
+
+![image](https://user-images.githubusercontent.com/54589605/225290446-a5264622-ec5b-48ee-bf6d-5d505ef95c89.png)
+![image](https://user-images.githubusercontent.com/54589605/225290955-9a11b88b-b0c4-4507-816b-882787949e2e.png)
+
+![image](https://user-images.githubusercontent.com/54589605/225292235-522abfd6-7cda-4023-8908-a7dcbd0f981d.png)
+
+> There is no direct relation between **n and p**. The relation we need to consider.
+
+### Location of Parity bits
+
+* Parity bit location -> **2^m** only
+* No. of parity bits(p) =3
+
+> When **m=0**, we get **p1** that is a parity bit. -> 2^m -> 2^0 -> 1 -> p1
+> When **m=1**, we get **p2** that is a parity bit. -> 2^m -> 2^1 -> 2 -> p2
+> When **m=2**, we get **p4** that is a parity bit. -> 2^m -> 2^2 -> 4 -> p4
+
+> These are the location of the **parity bits**.
+
+* No. of parity bits(p) =5
+
+> When **m=0**, we get **p1** that is a parity bit.
+> When **m=1**, we get **p2** that is a parity bit.
+> When **m=2**, we get **p4** that is a parity bit.
+> When **m=3**, we get **p8** that is a parity bit.
+> When **m=4**, we get **p16** that is a parity bit.
+
+![image](https://user-images.githubusercontent.com/54589605/225301835-6afcbf03-bd3b-4632-9685-d115cbec9862.png)
+![image](https://user-images.githubusercontent.com/54589605/225301958-4aec573a-2052-4f95-b820-1ee14f35e9b8.png)
+
+
+> First we allocate the **parity bits** then we allocate the **data bits**.
+
+* Total message -> 4 + 3 -> 7 bits
+
+![image](https://user-images.githubusercontent.com/54589605/225302408-e7bba509-5ca3-444d-a224-3b396a1ecca6.png)
+
+> First we need to locate the **parity bits** locations first. Remaining location, we will locate the **data bits**.
+
+![image](https://user-images.githubusercontent.com/54589605/225302933-6c44a3ce-d3b6-411e-ad98-8303f21db6e3.png)
+![image](https://user-images.githubusercontent.com/54589605/225303147-9ee00d2c-1296-4737-8bc7-e3504fce8b50.png)
+
+> This is the **Hamming code**.
+> Data bits value we know, we need to find out the parity bit's value.
+
+![image](https://user-images.githubusercontent.com/54589605/225303715-bfb4971f-2580-4694-8152-894d8ae925b5.png)
+
+> We need to decide the parity bit, on what factors does the **p1** value depend. **p1** value will be **0 or 1** will be dependent on if it is an **even or an odd** parity. **p1** depends on **p1** also, we need to identify.
+> For **p1** case only the last bit is **1**. In the remaining cases, which has last bit as **1**. They are **1, 3, 5 and 7** and they correspond to **p1, d, c, a** respectively. The value of **p1** depends upon the values whose last bit is **1**.
+> For **p2** case, the middle bit is **1**. In the remaining cases, which has middle bit as **1**. They are **2, 3,6 and 7** and they correspond to **p2, d, b, a** respectively. The value of **p2** depends upon the values whose middle bit is **1**.
+> For **p4** case, the MSB or last bit is **1**. In the remaining cases, which has MSB bit as **1**. They are **4, 5,6 and 7** and they correspond to **p4, c, b, a** respectively. The value of **p4** depends upon the values whose MSB bit is **1**.
+
+![image](https://user-images.githubusercontent.com/54589605/225305970-8704f250-4dee-49af-ba42-ab37c0296250.png)
+
+> We need to decide the value of **p1**. The value of **p1** will be decided based on these(p1 dca) group. Let's call it as **even parity**. So, we need to select the value of **p1**, such that these(p1 dca) group contains **even no. of 1s**. As **dca** are **data bits**, we know their values. If we want to develop as an **even parity**, we need to ensure that the complete group(p1 dca) contains **even** no. of 1s.
+
+![image](https://user-images.githubusercontent.com/54589605/225306204-40638d4f-1b83-4345-8c3d-24c9781b1246.png)
+![image](https://user-images.githubusercontent.com/54589605/225308582-cf0c0dd6-87ca-4b01-8085-885e0dd7378a.png)
+
+![image](https://user-images.githubusercontent.com/54589605/225324731-eb75a623-f523-458a-ae15-e6236ee0fe33.png)
+![image](https://user-images.githubusercontent.com/54589605/225325584-098a4d0d-05c3-4aaa-b72f-f9aebe6558f6.png)
+
+![image](https://user-images.githubusercontent.com/54589605/225328919-ccb459b5-82bd-4420-9a46-63a19650c72d.png)
+![image](https://user-images.githubusercontent.com/54589605/225328956-94491e7e-2c2d-4699-92e0-58593525f303.png)
+![image](https://user-images.githubusercontent.com/54589605/225329063-3d15ea93-2702-474f-9f41-6d0c6a1c09c9.png)
+
+> It gives the location of the **correction**. **p4p2p1** gives us the **location of the correction**, based on that we can do the correction. 
+
+![image](https://user-images.githubusercontent.com/54589605/225331581-dc808b78-406d-4ec9-9ddc-3be97621a647.png)
+
+> Correct data. No error. 
+
+![image](https://user-images.githubusercontent.com/54589605/225333673-edaaeb4b-9ce0-4cf6-9a45-f0ebf14188bc.png)
+
+> Sir will check and tell in next class. Below is the correct solution.
+
+### Solution 
+
+[**This is the correct value to find the correct data**]
+
+> As all of the bits of **p4p2p1** are not all zeroes(0), hence we have an error. We need to identify the **location of the error**. The location of the error is given as **p4p2p1 -> 110 -> 6**. This means we have an **error** at the **6th bit**. On the 6th bit we have **1** and it is an error, so we should have **0** there.
+
+![image](https://user-images.githubusercontent.com/54589605/225484198-356dcdb3-091f-4074-aab9-d85da2a1baaf.png)
+![image](https://user-images.githubusercontent.com/54589605/225485131-e5bc0de7-0d23-4f61-920b-3826aed0779b.png)
+
+* When there is no error?
+
+> When all of the **p1, p2 and p4** bits are **0, 0 and 0**. The ones highlighted below, when they are all **zeroes(0)** then there is no error. Then we have **no errors**, otherwise we have errors.
+
+![image](https://user-images.githubusercontent.com/54589605/225485262-208b057d-ba98-44e1-8bd9-18c44c3379a3.png)
+![image](https://user-images.githubusercontent.com/54589605/225485592-d8ba665e-48cb-4734-923b-8155950ca24a.png)
+
+> Gives the **location of the error bit**.
+
+![image](https://user-images.githubusercontent.com/54589605/225485775-6ff82ed3-5f00-4520-87b7-8cf291076832.png)
+
+> No no, don't see that one. If all **...p4p2p1** values are zeros then only we don't have any error.
+
+![image](https://user-images.githubusercontent.com/54589605/225487866-1dc03073-f220-4ef6-9aac-e50ba0943249.png)
+![image](https://user-images.githubusercontent.com/54589605/225488666-50a30c51-8662-451b-8245-afb23015062b.png)
+
+> Error as all the values of **p4p2p1** are not all **zeroes(0)**.
+
+![image](https://user-images.githubusercontent.com/54589605/225488940-d757db0c-ff20-4943-b4d6-654e81d6a397.png)
+
+> No, it is wrong. We need to use **p4p2p1** by calculating, we can find/identify the **location of the error**. and **not the no. of errors**. Location of the error we are going to find out.
+
+![image](https://user-images.githubusercontent.com/54589605/225489522-00809a8e-7d35-4c78-bc97-19f06a652bcb.png)
+
+> Only **1 bit** of data is there nah, so by finding the location of the error, we are able to correct it. If it is **1** then we convert it into **0** and vice-versa.
+
+
+
+
+
+
+
+
+![image](https://user-images.githubusercontent.com/54589605/225335519-eada81fd-3abd-45d2-b43c-bfd4b0077b38.png)'
+
+> We took the 2's complement of **+11 -> 001011** and got **-11 -> 110101** which is the answer.
+
+![image](https://user-images.githubusercontent.com/54589605/225337387-56b57ddf-d90b-4cb0-b7c6-23fd4890db0d.png)
+![image](https://user-images.githubusercontent.com/54589605/225338060-fcf55c9e-f9b9-492b-a8d2-d8465feaab78.png)
+![image](https://user-images.githubusercontent.com/54589605/225338824-eef48532-d948-484a-850b-760a592ceb6b.png)
+![image](https://user-images.githubusercontent.com/54589605/225339683-872a4511-35bf-41a5-9871-997f65d5e525.png)
+![image](https://user-images.githubusercontent.com/54589605/225339995-96232e59-9943-4141-a8a6-8d4829548122.png)
+![image](https://user-images.githubusercontent.com/54589605/225341210-090b5167-55d6-4b49-85a4-10f3b672ced2.png)
+![image](https://user-images.githubusercontent.com/54589605/225342507-1ea72e28-399c-45e1-a1e1-5d41c472baf8.png)
+![image](https://user-images.githubusercontent.com/54589605/225344673-2c908369-e3b6-4f2a-ba6b-08546d94917e.png)
+![image](https://user-images.githubusercontent.com/54589605/225344731-655f7e02-09b4-4666-908d-10d42b2d0677.png)
+![image](https://user-images.githubusercontent.com/54589605/225344777-13578ed4-2fa3-4b58-8942-fa24fbf3b15b.png)
+![image](https://user-images.githubusercontent.com/54589605/225344804-0440e251-0b4c-41df-9e5d-4fbfae47ff06.png)
+![image](https://user-images.githubusercontent.com/54589605/225344834-9ca6a521-1ae4-4d24-88e7-d96719b09518.png)
+![image](https://user-images.githubusercontent.com/54589605/225344869-ffe302c2-39d3-476e-b529-ffd499386b1d.png)
+![image](https://user-images.githubusercontent.com/54589605/225344895-e14d36ea-0932-4cf0-a95b-4c5fdad2eed5.png)
+![image](https://user-images.githubusercontent.com/54589605/225344939-90ef4954-cf2c-4b15-94eb-ca5d7446e928.png)
+![image](https://user-images.githubusercontent.com/54589605/225344974-cd2866e9-feef-4ec6-bee2-e7bef91f9ce0.png)
+![image](https://user-images.githubusercontent.com/54589605/225345017-b73a6255-a2f4-43fb-a7d9-93a3addfb2b5.png)
+![image](https://user-images.githubusercontent.com/54589605/225610446-9177b880-cacf-40d5-bca0-c09c5b40c154.png)
+![image](https://user-images.githubusercontent.com/54589605/225610468-a305860e-59d0-4bd1-a30f-7974dad6b3e2.png)
+![image](https://user-images.githubusercontent.com/54589605/225610485-b7943113-7930-4fe8-a679-b16bd3b94e2a.png)
+
+
+
+## Combinational Logic Circuits (23) [16th March 2023]
+
+![image](https://user-images.githubusercontent.com/54589605/225527207-aea618f9-c8a7-42b5-9acb-2c4c07f9da36.png)
+![image](https://user-images.githubusercontent.com/54589605/225527316-eb7fcf17-d3da-4c37-bf5b-8f074c1f6127.png)
+
+> The best example for **combinational circuit** is a caulculator.
+> The output of the combinational circuit does not depend on **previous** output as well as **previous** input.
+> The present **output** depends on the  given input at that **instant** only. That's why we don't need **mmory**.
+
+
+## 1. Half Adder
+
+![image](https://user-images.githubusercontent.com/54589605/225528463-289f8ca9-f64b-4bd2-a417-ee5183033ebf.png)
+![image](https://user-images.githubusercontent.com/54589605/225528553-0af962d9-9459-483e-9cb4-c37d8ff3a154.png)
+
+
+> Addition of two single bit.
+
+* A = 0 [Single bit]
+* B = 1 [Single bit]
+
+> If the bits given are **1, 1 and 0**, then we have **3 single bits** here. Addition of **3 single bits**. Half addrer will work for addition of **2 signle bits** only. Half adder won't work or does not work for these(1, 1, 0) **3 single bits**. In that case, we have to either take another half adder(so total 2 half adders) or use a full adder(only 1 full adder, no half adders) instead.
+> Half adder inputs are always **2 inputs** only. It has two inputs and two ouputs(sum and carry).
+
+### Logic Circuit
+
+![image](https://user-images.githubusercontent.com/54589605/225530038-13228633-2748-4d6c-8c43-0fca4b0c6b16.png)
+![image](https://user-images.githubusercontent.com/54589605/225530392-14b92151-7f30-4d6b-b7ef-c47d0dc63b16.png)
+
+> **5** NAND gates required for Half Adder.
+> **4** NAND gates required for Sum of Half Adder.
+> **2** NAND gates required for carry of Half Adder.
+
+![image](https://user-images.githubusercontent.com/54589605/225530715-a43c7ccd-3926-4738-ad17-f45dba98b223.png)
+
+> **5** NOR gates required for Half Adder.
+
+## 2. Half Subtractor.
+
+> Two inputs and two outputs.
+
+> For, A-B, when **A=0 and B=1**, it is **0-1** and it is not possible, we need to borrow, how much is the borrow required for **0-1**, so **1** borrow required. So, how much will come? **base of the system**, and the base is **base 2** here, so **2** will come. Hence **2-1** gives **1** which is the **difference**.
+
+![image](https://user-images.githubusercontent.com/54589605/225532138-43360c21-b98c-4dfa-94fd-32e2cf27e8db.png)
+![image](https://user-images.githubusercontent.com/54589605/225532223-60d66f40-2396-4b19-aac1-b442137f8215.png)
+
+### Logic Circuit
+
+![image](https://user-images.githubusercontent.com/54589605/225532556-62c4434f-1523-402a-a928-df25dadb5854.png)
+
+* How we can implement a **single circuit**(like both) to work as a Half Adder as well as a Half Substractor?
+
+> We use the concept of **shift** operator.
+
+![image](https://user-images.githubusercontent.com/54589605/225535506-7828a16b-97b5-4d80-a18e-8cf79f907c25.png)
+![image](https://user-images.githubusercontent.com/54589605/225535647-83e80c04-5e1d-4b1c-a2c2-1dd3082c3ee7.png)
+![image](https://user-images.githubusercontent.com/54589605/225536161-c63fc864-50a3-4523-90c2-ed7ab613fefd.png)
+
+> The **single circuit** which we can use as both as **Half Adder** as well **Half substractor** based on the **select(s)** input.
+> Types of questions:
+
+* The circuit drawing will be given.
+* If s=0, then the circuit will behave as?
+* If s=1, then the circuit will behave as?
+
+![image](https://user-images.githubusercontent.com/54589605/225537435-8709f549-54b4-4c5d-bc5f-3468767a6ecb.png)
+
+> **5** NAND gates required for Half substractor.
+> **4** NAND gates required for difference of Half substractor.
+> **3** NAND gates required for borrow of Half substractor.
+
+![image](https://user-images.githubusercontent.com/54589605/225538231-3ce0e13a-fa5b-43b8-b260-a3eb0c686c01.png)
+![image](https://user-images.githubusercontent.com/54589605/225539149-4fc3915f-eec4-4589-80a6-a6e6a4b7e846.png)
+
+> **5** NOR gates required for Half substractor.
+> **5** NOR gates required for difference of Half substractor.
+> **2** NOR gates required for borrow of Half substractor.
+
+> Problem of **Half Adder** is it is used to **add** two bits only.
+> We cannot use **Half Adder** for more than 2 bits input. For that we need to use **Full adder**.
+
+
+## 3. Full Adder
+
+> It will accept the **3 inputs** and have two outputs(Sum and carry).
+
+![image](https://user-images.githubusercontent.com/54589605/225540833-7df1d17e-30a3-446b-88c1-f55eef4ad864.png)
+![image](https://user-images.githubusercontent.com/54589605/225540892-86a17225-1eb5-4af4-a35f-49edc4538f55.png)
+
+* Sum -> minterms(1,2,4,7) -> ATM pin -> A Ex-OR B Ex-OR C
+* Carry -> minterms(3,5,6,7) -> Mobile Pin -> AB + BC + AC -> Self dual function/Majority Logic Circuit.
+
+![image](https://user-images.githubusercontent.com/54589605/225541888-8983904d-5c45-4b6f-8aa3-50ec8a266095.png)
+
+> Another form of **carry**. [**IMPORTANT**]
+
+![image](https://user-images.githubusercontent.com/54589605/225542580-3a6715b2-234d-4aae-b4e6-d1180f0a231f.png)
+![image](https://user-images.githubusercontent.com/54589605/225543153-e7bc72e4-e897-4c43-9f35-90a07887f30e.png)
+![image](https://user-images.githubusercontent.com/54589605/225543229-062193de-433f-40ab-b7dd-83388ad0574d.png)
+
+* Full Adder -> 2 Half Adders + 1 OR-Gate.  [Requirements]
+
+![image](https://user-images.githubusercontent.com/54589605/225543879-b0f71904-a386-4bab-abb9-c57387b05021.png)
+![image](https://user-images.githubusercontent.com/54589605/225544694-69ed2157-177e-4ffb-8025-5a14d34e355c.png)
+![image](https://user-images.githubusercontent.com/54589605/225545023-2ee50919-6c6b-4b0f-9b8a-76f1f10f6721.png)
+
+ > **9** NAND gates required to implement Full Adder.
+
+![image](https://user-images.githubusercontent.com/54589605/225545189-3e70588a-ace3-4fe7-ba4a-5db3f14926b1.png)
+
+## 4. Full Substractor
+
+> For **0 - 1**, we need **borrow** of **1**. **2** will come as the borrow. So, **2 - 1 -> 1** which is the difference.
+> For ** A=1, B=0 and C=1**, first we have to do **A - B** first which is **1 - 0**, which gives **1**. We will use this **1** with **C**. So **1 - C -> 1 - 1 ->  0**. So the there was no **borrow**, hence the borrow is **zero(0)** and we got **0** as the difference when we did **1 - C ->  1 - 1 -> 0**.
+> For ** A=0, B=0 and C=1**, first we have to do **A - B** first which is **0 - 0**, which gives **0**. We will use this **0** with **C**. So **0 - C -> 0 - 1 ->  1**. As **0 - 1** is not possible, we have to take a **borrow** of **2** as the borrow is the base of the number system which is **base 2**. So now, **0 - 1 -> 2 - 1 -> 1**. We had to take a borrow so, borrow is **1** and the difference is **1** as we got **1** as the result of **0 - 1**.
+
+![image](https://user-images.githubusercontent.com/54589605/225547600-180f1880-388f-4710-bec5-93d426f0d29b.png)
+![image](https://user-images.githubusercontent.com/54589605/225547959-6fec5cd6-bd7d-4435-aa20-0376e7ba91ac.png)
+
+* Difference -> minterms(1, 2, 4, 7) -> A Ex-OR B Ex-OR C.
+* Borrow -> minterms(1, 2, 3, 7) -> 
+
+> Here, we will get **two** types of **borrows**.
+
+* This is **one type of borrow**. Below. 
+* Borrow -> A'B + BC + A'C.
+
+![image](https://user-images.githubusercontent.com/54589605/225548527-4f36195c-94dc-4cb5-96ef-6b0db2749a70.png)
+
+* This is **another type of borrow**. Below. 
+* Borrow -> A'B + (A Ex-OR B)'C.
+
+![image](https://user-images.githubusercontent.com/54589605/225548959-d8b3e424-199f-4266-8c1b-ca473b9808f3.png)
+![image](https://user-images.githubusercontent.com/54589605/225549227-46937050-0384-4cba-a39b-6ea7a434a4df.png)
+
+### Full Substractor With Half Substractors.
+
+* Full Substractor -> 2-Half Substractors + 1-OR gate.
+
+![image](https://user-images.githubusercontent.com/54589605/225550021-2dfd4e37-bcf0-4237-8916-3b0dc9a9a402.png)
+
+> In case of addition, What is **sum** here in these cases?, we are doing **A + B + C**. If we do **B + C + A**, will there be any change? **NO change**. There is **no effect**.
+> In case of substraction, we created the table for **A - B - C**. From **A**, we substracted **B and C**, that is the standard analysis we got. If we did like this **B - C - A**, will the table change? **YES**. One beauty there is there that the **difference column/expression** will not change but **borrow column** changes. If we take it in some other manner also, **Diffence -> No change** but **Borrow -> Changes**. 
+
+> By default, **substractor** means **A - B - C** only. THis is the **standard** analysis only.
+
+* Diffence -> No change
+* Borrow -> Changes
+
+> **Diffence -> No change**, **Borrow -> Changes**. For the **changes**, we have to develop the table again.
+
+![image](https://user-images.githubusercontent.com/54589605/225553353-aea110cf-56da-4706-aa0b-f0f20eaa8ee4.png)
+
+> Here, we are writing the **carry expression** for **borrow**.
+
+* Carry -> AB + BC + AC.
+
+* From whom we are substraction **B and C**?
+
+> From **A**.
+
+![image](https://user-images.githubusercontent.com/54589605/225553534-95e848d8-9571-4103-9451-33b844580729.png)
+
+> As we are **subtracting** from **A**, hence we have put a **bar** on all values of **A**.
+
+![image](https://user-images.githubusercontent.com/54589605/225553927-8e34d024-c111-4d01-a084-1aad85b4e9ce.png)
+![image](https://user-images.githubusercontent.com/54589605/225553946-543ef619-6862-4e91-8739-f491082b36e8.png)
+
+> As we are **subtracting** from **B**, hence we have put a **bar** on all values of **B**.
+
+![image](https://user-images.githubusercontent.com/54589605/225554101-c84e1e02-44c0-41c3-b2ff-0f6ba8341113.png)
+![image](https://user-images.githubusercontent.com/54589605/225554118-f161b4e4-8b1a-47e3-afea-8795ec8e300b.png)
+
+> As we are **subtracting** from **C**, hence we have put a **bar** on all values of **C**.
+
+## Summary of Hlaf Adder and Full Adder [**IMPORTANT**]
+
+![image](https://user-images.githubusercontent.com/54589605/225554526-0e6d93d1-7494-4f3d-bf11-ff2182684707.png)
+
+> By default, put **bar** on **A** for the **logical expression for borrow** in **Full Adder**.
+
+## Combinational Logic Circuits (24) [16th March 2023]
+
+![image](https://user-images.githubusercontent.com/54589605/225611221-0012d2ca-a02f-4a95-8e8f-2742d830b590.png)
+
+## Ripple Carry Adder(Parallel Adder)
+
+* Half Adder -> 2 single bits only
+* Full Adder -> 3 bits.
+
+* To add these **4 bit** numbers, how many adders(hardware) required?
+ 
+> 3 Full adders(FA) and 1 half adder(HA).
+> In place of half adder, we can use a full adder as well. Full adder takes **3 inputs**, so we can set **one input to zero, c0 = 0**. Now it becomes a full adder.
+
+![image](https://user-images.githubusercontent.com/54589605/225613633-49644ac0-df5f-40b8-aff0-ae00ab2ba35b.png)
+
+> If we have taken **10 bit numbers**, then we have to use **10 full adders** only. To minimize the cost, then we can have **9 full adders** and **1 half adder**.
+
+![image](https://user-images.githubusercontent.com/54589605/225614618-1b607296-d5fd-418c-8943-288c502123f1.png)
+![image](https://user-images.githubusercontent.com/54589605/225615197-e59164b7-7710-4ff8-854b-8a9193a95dce.png)
+![image](https://user-images.githubusercontent.com/54589605/225615998-736480d6-e237-4f2b-a7dc-8ad3020fd8cc.png)
+
+## Delay Analysis [**IMPORTANT**]
+
+### Case 1:
+
+> We are assuming that (tpd)sum is more/greater than (tpd)carry. All of the inputs are simultaneouslty given to all of the full adders at **t=0** secs. There won't be any delay.
+
+![image](https://user-images.githubusercontent.com/54589605/225618858-e990401f-44c7-40fd-a43e-99b866ffb11a.png)
+
+> Here, we can see that **s1** is dependent on carry(c1). **YES**. So, **s1** will be dependent on all of the three inputs(a1, b1 and c1). **a1 and b1** are available at **t=0** secs onwards. Even though **a1 and b1** are available at **t=0** they have to **wait** until **c1** has to come. **c1** will come at **14ns**. After **14ns** and to get the sum, to process it(sum), it will take additional **32ns**. So, to get **s1**, **14ns** for the carry and **32ns** for calculations **s0 sum**. So total time for **s1** is **32 + 14 -> 46**.
+> **c2** depends on **a1, b1 and c1**. **a1 and b1** are available at **t=0** secs onwards. **c1** is available at **14ns** onwards. So all three(**a1, b1 and c1**) are available at **14ns** onwards. For c2, **14ns** for all three to be available and another **14ns** to process the carry. Hence c2 time is **14 + 14 -> 28ns**.
+
+* c2 -> present carry(14) + previous carry(14) -> 28ns
+* s2 -> c2(14 + 14) + s1(32) -> 14 + 14 + 32 -> ns
+* c3 -> 14 + 14 + 14
+* s3 -> 14 + 14 + 14 + 32
+* c4 -> 14 + 14 + 14 + 14
+
+![image](https://user-images.githubusercontent.com/54589605/225633239-b966643a-b815-4358-8763-a31187ae3ecb.png)
+![image](https://user-images.githubusercontent.com/54589605/225633809-2201877c-02e3-4d42-8546-62c1bef8cbe8.png)
+
+* Delay to get the **sum** or sum delay -> 14 + 14 + 14 + 32 -> 74ns
+* Delay to get the **carry** or carry delay -> 14 + 14 + 14 + 14 -> 56ns
+* Overall Delay -> max(sum, carry) -> 74ns
+
+> s1 depends on c1. s2 depends c2 and c1. s3 depends on c3, c2 and c1. So **sum** depends on all of the previous **carries** and until all of the previous carries come, the **sum** won't come.
+
+> We have different paths for **sum** and **carry**.
+
+![image](https://user-images.githubusercontent.com/54589605/225632719-0657464d-e2bb-415a-8131-c8df294c17b5.png)
+
+### Case 2:
+
+![image](https://user-images.githubusercontent.com/54589605/225692196-b6cb9dcd-4910-4822-9ce4-9eb726b9937b.png)
+
+* Sum Delay -> 32 + 32 + 32 + 14 -> 110
+* Carry Delay -> 32 + 32 + 32 + 32 -> 128
+* Overall Delay -> max(sum, carry) -> 128 
+
+![image](https://user-images.githubusercontent.com/54589605/225692472-a5c403fd-9b62-43fc-a3af-89130b359ddc.png)
+![image](https://user-images.githubusercontent.com/54589605/225692630-505bcb89-607e-4a36-9891-da4e8b100075.png)
+![image](https://user-images.githubusercontent.com/54589605/225693116-a43f9a62-f5f9-4f4b-a792-e7843af7b4d3.png)
+
+* Overall Delay -> 3(carry) + max[sum, carry]
+
+> **3 times carry or 3(carry)**  because in both sum and carry **3 carry values are common**. **ax[sum, carry]** means that which ever value is bigger we are considering that.
+
+> If we have taken a **100 bit** number, then it will depend on the **previous carry** or not. **YES**, it will depend on the previous carries and as a result there will be **more delay**. It will take more time to get the final answer. That is one of the **disadvantages of parallel adder**.
+> To avoid this disadvantage, we are modifying the circuit and going for a different adder.
+
+![image](https://user-images.githubusercontent.com/54589605/225693972-94aaaa88-ffc9-4732-9622-e394f82831ad.png)
+
+![image](https://user-images.githubusercontent.com/54589605/225694674-46dddffa-16d6-4d3f-9d8c-2708dd29315f.png)
+
+> When both the inputs are **available**, then only the **carry** will come.
+
+![image](https://user-images.githubusercontent.com/54589605/225696777-784fa9dd-9a24-4d1e-844b-1766c405fefd.png)
+![image](https://user-images.githubusercontent.com/54589605/225698954-2dcb8d9a-1b9d-4668-9bba-747bbc31afda.png)
+
+> All of them, **A, B and C** are available at **t=0** secs onwards.
+> The output of **A Ex-OR B** is available after **2.4 secs**. So C and the output of A and B, will be available together at **2.4 secs**. Then **Ex-OR** will take 2.4secs to process it. Hence after **2.4 + 2.4** secs, which is the **tpd of sum**.
+
+![image](https://user-images.githubusercontent.com/54589605/225795964-33cebb2b-386e-4428-b010-c97bf2d45219.png)
+
+> In the above **AND** gate highlighted, **c** is available at t=0 secs but the other input is available after 2.4secs only. So both will be available after 2.4secs only. The **AND** gate will take **1.2 secs**. Hence it is **2.4 + 1.2 -> 3.6 secs**. 
+> For the **OR** gate, one input is available at **3.6 secs** and the other input is available at **1.2secs**. So, both will be available at **3.6secs**. The **OR** gate takes **1.2 secs**. So, **3.6 + 1.2 -> 4.8 secs**, which is the **tpd of carry**.
+
+![image](https://user-images.githubusercontent.com/54589605/225795136-fd2588a7-87d2-488e-8947-ea3120fc7c9d.png)
+
+> The moment when all three are together, we need to see how much time(delay) it will take to reach the **movie hall**.
+
+## Parallel Substractor 
+
+> Substraction is done in the form of addition only.
+> **NOT** gate is for **1's complement of B**.
+
+![image](https://user-images.githubusercontent.com/54589605/225798234-be5d1cf4-e98b-4cb5-9149-94005a20dc9a.png)
+
+> It is just like **addition** or adder only. Here also after this, we do the **same analysis** we did for **parallel adder**.
+ 
+## Paraller Adder/Substractor
+
+> One circuit will act as a paraller Adder as well as a paraller substractor also.
+> **M** is like the **shift operator**.
+
+* if, **M=0**, then c0=0
+
+> Then it behaves like a **parallel adder**.
+
+![image](https://user-images.githubusercontent.com/54589605/225799091-66c46e6f-5134-4780-8f69-f66debe1b32f.png)
+
+* if **M=1**, then c0=1
+* Then it behaves like a **parallel substractor**.
+
+![image](https://user-images.githubusercontent.com/54589605/225799394-7f94778c-f979-43f0-ac93-178547aacdc2.png)
+
+> When M=1 then c0=1, we are getting **complements of B -> b3,b2,b1** from the Ex-OR gate, which are **1's complement of B**, as **c0=1**, we are adding **+1** to the 1's complement of B which gives **2's complement of B**.
+
+![image](https://user-images.githubusercontent.com/54589605/225799461-72b24fe0-2dc6-424b-8acb-eae64b15482c.png)
+
+* Not possible, we will do **2's complement** here. 1's complement not possible.
+
+> The problem of this **parallel adder/substractor** is that the **delay is more**. The carry dependency is more.
+
+## Look Ahead Carry Adder
+
+![image](https://user-images.githubusercontent.com/54589605/225801286-3b8699dd-b383-4dae-ba43-d645e6582ccd.png)
+
+> Carry will start from **c1,c2,c3**. That's why **carry is c(i+1). 
+> Sum will start from **s0,s1,s2**.
+
+![image](https://user-images.githubusercontent.com/54589605/225802171-513c3d32-a3b1-4381-bad8-9af354213ec0.png)
+![image](https://user-images.githubusercontent.com/54589605/225802350-36fd07e2-286c-4252-bb40-3bcc0a2e46b6.png)
+![image](https://user-images.githubusercontent.com/54589605/225802439-97e2abf8-4e28-40d6-82dc-48fe4d58460c.png)
+![image](https://user-images.githubusercontent.com/54589605/225803213-6fb0e83c-a6d1-497b-8d11-c67e84d4a090.png)
+![image](https://user-images.githubusercontent.com/54589605/225803686-683855c6-bcd8-4ed3-92d8-ff105b9b5d04.png)
+![image](https://user-images.githubusercontent.com/54589605/225803751-819c119c-b048-4a6b-940a-0400ee9da69f.png)
+
+> We can see now, that **s1** sum doesn't depend on **carries**.
+
+![image](https://user-images.githubusercontent.com/54589605/225803862-166ed480-5caa-47e2-8b11-500cdd48cd09.png)
+![image](https://user-images.githubusercontent.com/54589605/225803998-59bab570-43d9-42df-a144-c06aef156ed2.png)
+
+> We can see now, that **s2** sum doesn't depend on **carries**.
+
+![image](https://user-images.githubusercontent.com/54589605/225804175-8ca7c149-1cba-4706-ad63-8584d2071390.png)
+
+> **c2** depends on **c1**.
+
+![image](https://user-images.githubusercontent.com/54589605/225804295-3538a5f0-6bdf-482e-98c9-71b2abfc1296.png)
+
+> Until **c1** comes, **c2** won't come. **c2** has to wait.
+
+![image](https://user-images.githubusercontent.com/54589605/225804460-8cd7d2ad-cc6f-4888-95df-6d3585bc9f74.png)
+![image](https://user-images.githubusercontent.com/54589605/225804507-e0a54d64-f1b3-4444-a37e-bf2d162243e1.png)
+
+> We don't have any **c1** here. **c2** is completely independent of **c1**. For this to work, we need to implement **c2 = G1 + P1C1 = G1 + P1G0 + P1P0C0**.
+
+![image](https://user-images.githubusercontent.com/54589605/225804706-5d3c306d-95ec-4239-b4de-3f6526b51e92.png)
+
+* For **P1P0C0**, we require an **AND** gate.
+* For **P1G0**, another **AND** gate required.
+
+> For the whole **G1 + P1G0 + P1P0C0**, we required one **OR** gate.
+> That what we have implemented here below.
+
+![image](https://user-images.githubusercontent.com/54589605/225805225-3fd50b4f-4404-40aa-95d3-d7b9fbf799c2.png)
+![image](https://user-images.githubusercontent.com/54589605/225805282-3517395a-b37c-4166-a8ae-51582b8cb5ac.png)
+
+> Exactly.
+> So, we are doing **parallel** operations.
+> So, instead of going one after another, waiting till **c1** has to come. We want to separately implement one more sepcial circuit for **c1, c2 and c3**
+
+![image](https://user-images.githubusercontent.com/54589605/225805641-b7f8dbfc-d847-46eb-aaa2-6a654dffe8d9.png)
+
+> If we want to implement **c3**, it depends on **c2**. Untill **c2** comes, **c3** doesn't come. **c3** has to wait for **c2** to come.
+
+![image](https://user-images.githubusercontent.com/54589605/225805789-920e792c-33b8-459c-b58d-29c49ca25d4b.png)
+
+> We have implemented **c3** in the highlighted color manner. We do not find any **c1, c2 and c3** here.
+> For these we require **3 AND** gates and **1 OR gate, which is 4-input**.
+
+* **P2P1P0C0, G0P2P1, G1P2** all three of them require **1 AND gate each**. So, total **3 AND gates**.
+* For all of these **P2P1P0C0, G0P2P1, G1P2 and G2** addition, we need one(1) 4-input **OR gate**.
+
+![image](https://user-images.githubusercontent.com/54589605/225806295-db115a7c-39d5-4c1a-9ca8-7b6d31a1b330.png)
+
+> That's what we have implemented here.
+> As a result, the **delay decreases** but the **complexity increases**.
+
+![image](https://user-images.githubusercontent.com/54589605/225806394-ff640467-1aee-4c56-9c4f-8bc7a356cebe.png)
+
+> Actual Circuit.
+> Before we did **serial** operations. Now, we are doing in **parallel**, so **time/delay** decreased.
+
+> Ex-OR and AND gates are in the **same** level which is **L1 or level 1**.
+> AND gates are in the **same** level which is **L2 or level 2**.
+> OR gates are in the **same** level which is **L3 or level 3**. Here we will get the **carry**.
+> Ex-OR gates are in the **same** level which is **L4 or level 4**. Here we will get the **sum**.
+
+### Hardware Requirements [**IMPORTANT**]
+
+> For **n-bits**.
+
+![image](https://user-images.githubusercontent.com/54589605/225807449-d333b868-75db-476f-a2c2-0798cb4ced74.png)
+![image](https://user-images.githubusercontent.com/54589605/225807497-21b9757d-ab1a-40a8-99f0-79f365d5d8ce.png)
+
+> We are using **Look Ahead Carry Adder** to **decrease/avoid the delays**.
+
+> In **L1**, gates will work **parallely**. The gate which has **more delay** that delay can to be considered.
+
+![image](https://user-images.githubusercontent.com/54589605/225808105-3371de7f-16bc-4722-818e-80e46b963b83.png)
+
+* L1
+
+> In **L2**, only **AND** gate is there and it will work **parallely**. So we have to consider **AND** gates delay only.
+
+![image](https://user-images.githubusercontent.com/54589605/225808279-ec9439be-d7d9-47ea-833b-c19baf53c65e.png)
+
+* L2
+
+> In **L3**, only **OR** gate is there and it will work **parallely**. So we have to consider **OR** gates delay only.
+
+![image](https://user-images.githubusercontent.com/54589605/225808375-a13dbcb8-9ddb-4d22-b946-c92909683151.png)
+
+* L3
+
+> In **L4**, only **Ex-OR** gate is there and it will work **parallely**. So we have to consider **EX-OR** gates delay only.
+
+![image](https://user-images.githubusercontent.com/54589605/225808480-ec8c65a3-e5ea-4477-acc9-d368626ffaad.png)
+
+* L4
+
+## Delay Analysis [**IMPORTANT**]
+
+![image](https://user-images.githubusercontent.com/54589605/225808504-dcab2b08-db23-4fac-8cfa-bc094818fc2b.png)
+
+> Previously, the delay is dependent on the **no. of bits**. As we increase the **no. of bits**, the delay increases, in case of a **parallel adder**.
+> In, **Look Ahead Carry Adder**, the delay, depends on the **no. of levels**.
+
+* How many levels we have in **Look Ahead Carry Adder**?
+
+> 4(L1, L2, L3 and L4).
+> As we have taken **4 bits**, so we have gotten **4 levels**.
+> If we had taken **100 bits**, so we would have gotten **100 levels**. [WRONG, proven below]
+
+* If we increase the **no. of bits**, how the below diagram changes? **vertically or horizontally changes**?
+
+![image](https://user-images.githubusercontent.com/54589605/225809222-9b7be861-9cba-4f32-9519-a526bf709abc.png)
+
+> It will change **vertically**. It will **move down** with more no. of bits.
+> If we had taken **100 bits**, so we would have gotten **4 levels**. As it is moving **vertically** and not **horizontally**. **That's the beauty here**.
+> The delay does not depend on the **no. of bits**, it depends only on the **no. of levels**. It has only **4 levels**.
+
+> Each level has **equal delay** of **1 tpd**. Then, the **overall delay**, would be **1 * 4 -> 4 tpd**. **4** is the no. of levels.
+
+![image](https://user-images.githubusercontent.com/54589605/225809967-da8f645b-1c4e-468e-8491-e23d5f63c4f6.png)
+
+> Irrespective of the **no. of bits**, the delay offered by **Look Ahead Carry Adder** adder will always be **4 tpd** only. That's the **advantage**.
+
+![image](https://user-images.githubusercontent.com/54589605/225810197-00921b3b-c931-405a-9534-9ed58310fd58.png)
+
+* No yaar. It will only depend on the **no. of levels** and not on the **no. of bits**. It is independent of the  
+**no. of bits** and depends only on the **no. of levels**.
+
+![image](https://user-images.githubusercontent.com/54589605/225810432-7a721ac9-125a-438d-b816-b3aa66b45c49.png)
+
+## Combination Logic Circuit (25) [17th March 2023]
+
+### Revision
+
+* Gi -> Carry Generator
+* Pi -> Carry Propegator
+
+![image](https://user-images.githubusercontent.com/54589605/225873384-bee52b49-c2f6-4734-810e-3305b3b7dafb.png)
+![image](https://user-images.githubusercontent.com/54589605/225874205-da31f04a-7e40-49fc-b8ef-0a6aba6cea48.png)
+
+### Questions
+
+![image](https://user-images.githubusercontent.com/54589605/225874659-8429b5d1-371e-47cd-beee-f61548b3d14d.png)
+![image](https://user-images.githubusercontent.com/54589605/225875236-5cf589ce-b969-4808-832c-9082de6df363.png)
+
+> We know that **Gi and Pi** are present in **L1* of **carry look ahead adder**. It is mentioned that **Gi and Pi** are already present which means we don't have to implement them again. We have to implement from **L2** only.
+
+## Binaru Multiplier
+
+> When we did addition of **a1bo and a0b1**, we got **s1** and some carry can come which is **c2**.
+> When we did addition of **a1b1 and c2**, we got **s2** and some carry can come which is **c3**.
+> For the implementation, to get **a0b0, a1bo, a0b1, a1b1**, we need an **AND** gates. In total, we need **4 AND**  gate. We directly got **a0b0** using AND gate. For 2 bit addition of **a1bo and a0b1**, we need a **Half Adder**. For addition of **c2 and a1b1**, we need another **Half Adder**. So, total **2 Half Adders** needed.
+
+![image](https://user-images.githubusercontent.com/54589605/225877999-dabdc4d8-c597-46b7-abda-9fcb7efae8b0.png)
+
+* 4 AND gates and 2 Half Adders.
+
+![image](https://user-images.githubusercontent.com/54589605/225880553-8486aff5-989f-45bd-ae60-9e16054ba9cc.png)
+
+* AND -> 6 [Product]
+* HA -> 2 [2 bit, (a1b0 and aob1) and (a2b1 and c3)]
+* FA -> 1 [a2bo, a1b1 and c2]
+* a0b0 -> Comes as it is.
+
+## Magnitude Comparators
+
+> Just for comparison of **two** numbers. 
+> We are comparing **A** with **B**. There are **three** comparisons only, **less than(0 < 1)**, **equal to(0 = 0)** and **greater than(1 > 0)**.
+> Whenever we compare **2 numbers**, there are **three** possible comparisons. So, **three** outputs are required.
+
+![image](https://user-images.githubusercontent.com/54589605/225883797-f09ebdc7-8a5f-4e93-a30f-ff607cb80363.png)
+![image](https://user-images.githubusercontent.com/54589605/225883829-e2280b03-c1e6-4de0-bd35-2fb06584d678.png)
+
+### Logic Circuit
+
+![image](https://user-images.githubusercontent.com/54589605/225885431-b0ae5ba6-92bf-4b97-95c5-e5006053d53a.png)
+
+### Doubts
+
+![image](https://user-images.githubusercontent.com/54589605/225885878-26a5e296-89f9-4291-8594-d9f749cb7789.png)
+![image](https://user-images.githubusercontent.com/54589605/225886330-797cfdb9-301c-405d-b48a-302f5a738549.png)
+
+> Not in **CSE** syllabus. Not required.
+
+![image](https://user-images.githubusercontent.com/54589605/225887419-d855a033-14cb-41a6-9b24-72d89996840b.png)
+![image](https://user-images.githubusercontent.com/54589605/225887738-b5ad2e8d-0030-4d56-8ece-cd968e6a45ce.png)
+
+> As **F=1**, we cannot implement any gates, so it is not **functionally complete**.
+> As **G= (AB)'**, which we can implement with **NAND** gate and we know that **NAND** gate is **functionally complete**.
+
+![image](https://user-images.githubusercontent.com/54589605/225888291-8dcdff72-a2c8-4e03-a89f-6e2dc5c30534.png)
+![image](https://user-images.githubusercontent.com/54589605/225888394-1f1ee396-91ad-4873-af05-566149c19e1a.png)
+
+> It is should be **f(x',y',z')**.
+
+## 1-bit Magnitude Comparator
+
+![image](https://user-images.githubusercontent.com/54589605/225889245-7a0ca389-da8c-4d95-afbf-2afda62f5a3b.png)
+
+## 2-bit Magnitude Comparator
+
+> If we directly start with **MSB**, then we can directly say that **A is greater compared to B**. While comparison, **MSB to LSB** is more **easier** than vice-versa.
+
+![image](https://user-images.githubusercontent.com/54589605/225892646-ed443897-caf6-448c-872e-54cb314b08d0.png)
+
+> In **A**, **a1** is the **MSB** bit.
+> In **B**, **b1** is the **MSB** bit.
+> For **y1** which is **greater**? **B** is **greater**. Now, we will **compare**, **a1 and b1** as they are the **MSB** bits of **A and B** respectively.
+> When **b1 > a1** bit then we can say that **B is greater compared A**.
+> If **a1** is less than **b1**, then **B** is greater.
+> When we will go for the **next bit** comparison? -> provided **a1 and b1** bits are **equal**.
+
+![image](https://user-images.githubusercontent.com/54589605/225894152-337b5c86-f056-478e-8483-63089acefea9.png)
+
+> When **a1 and b1** are **equal** then we do further calculation that **a0 < b0**.
+
+![image](https://user-images.githubusercontent.com/54589605/225894818-d87dfdfb-b8e2-4c62-9ee6-5b375b1d47d2.png)
+
+
+
+![image](https://user-images.githubusercontent.com/54589605/225890002-f07f2c3c-e554-440e-b46c-c255aeee90ca.png)
+![image](https://user-images.githubusercontent.com/54589605/225890366-59969abb-4ba9-4d4e-b9ea-099316f05443.png)
+
+
+> The beauty thing is that **a1,a0, b1 and b0** values will only take **0 or 1** binary values only.
+> For **a1 < b1** case, **a1** must be **0** and **b1** must be **1**.
+> For it to be **a1 = b1** equal, it has to be **a1 Ex-NOR b1**.
+> For **a0 < b0** case, **a0** must be **0** and **b0** must be **1**.
+
+![image](https://user-images.githubusercontent.com/54589605/225890805-f3e968ec-d9c4-4101-ad9e-69b90f0e20a0.png)
+
+* a1 =0 -> a1'
+* b1 =1 -> b1
+
+![image](https://user-images.githubusercontent.com/54589605/225891557-950758bc-6aef-420c-b95b-ec88e038ea46.png)
+
+* a0 =0 -> a0'
+* b0 =1 -> b0
+
+![image](https://user-images.githubusercontent.com/54589605/225890894-d7b563a9-814f-4311-9f16-563bad5e4f52.png)
+
+* Logic
+
+![image](https://user-images.githubusercontent.com/54589605/225890927-dfadb9fe-bda2-4d3a-9a83-186e734b8513.png)
+![image](https://user-images.githubusercontent.com/54589605/225891587-ed9374a5-7de2-46e7-909f-c56e0f457c79.png)
+
+* Boolean Logic
+
+## 2-bit Magnitude Comparator
+
+> For **y2 = (A = B)**, we just can't compare **a1 = b1** and say the numbers are **equal**. We need to compare **a0 = b0** as well.
+
+* AND -> Product
+
+![image](https://user-images.githubusercontent.com/54589605/225895316-9a9923c1-d6c7-4f3f-b407-9e6251b38d77.png)
+![image](https://user-images.githubusercontent.com/54589605/225895523-06b664ad-5fd2-44d4-bdec-e01414329b0b.png)
+
+## 3-bit Magnitude Comparator
+
+![image](https://user-images.githubusercontent.com/54589605/225896603-12db59b3-8af5-47ac-8100-4af035cc669b.png)
+
+## 4-bit Magnitude Comparator
+
+![image](https://user-images.githubusercontent.com/54589605/225896999-a2c4cf55-661e-4206-86fe-c1568b4a3ba6.png)
+![image](https://user-images.githubusercontent.com/54589605/225897327-48d4b75f-551f-4928-a6a7-c8f020a41600.png)
+
+## n-bit Magnitude Comparator
+
+![image](https://user-images.githubusercontent.com/54589605/225897444-9542a409-c2ce-4b2e-b4bd-2f351988c748.png)
+
+### Questions
+
+![image](https://user-images.githubusercontent.com/54589605/226089239-600e51db-ef4a-4362-86c8-1ca9f0251323.png)
+![image](https://user-images.githubusercontent.com/54589605/226089244-0846b3de-f431-4fc8-8655-086b4fe7878e.png)
+![image](https://user-images.githubusercontent.com/54589605/226089252-0031a0d1-dfd7-41a4-8bdd-5a03606d0e1e.png)
+
+
+## Combination Logic Circuit (26) [18th March 2023]
+
+## Multiplexer
+
+![image](https://user-images.githubusercontent.com/54589605/225897640-dcf81237-0506-46b2-a94d-c8380c9a9772.png)
+![image](https://user-images.githubusercontent.com/54589605/226089278-59e39896-e966-4f02-b7cd-462b1a16a5cd.png)
+
+> From so many books, we are only **picking/selecting** only **one**. That's why **Many to one**.
+> All the books are **simultaneously/parallely** available but we can only select **one** at a time. That's why **parallel to serial** converter.
+
+![image](https://user-images.githubusercontent.com/54589605/226089401-da15f57e-bd02-45f0-8fa2-9889cd9468a1.png)
+![image](https://user-images.githubusercontent.com/54589605/226089472-69e583a7-fc58-4b79-9a8e-e787a7e05ca7.png)
+
+> We have **one road** only. At a time, one fellow can enter. Which fellow has to go, depends on the **mamaji**. Technical name of **mamaji** is **select lines(s)**.
+> **A** is assigned as **0** and **B** is assigned as **1**.
+> If **s=0**, then **A** will go, then **y=A**.
+> If **s=1**, then **B** will go, then **y=B**.
+
+![image](https://user-images.githubusercontent.com/54589605/226089572-5574b1b2-9726-4661-9c5a-c6de09b2b8f3.png)
+
+> There is no **manipulation** here. Whatever we have given here(A and B), that will only come as output(y) which depends on the **select line(s)**.
+> It will mentioned in the question which will be **0 and 1**.
+> **A** is assigned as **1** and **B** is assigned as **0**.
+> If **s=0**, then **B** will go, then **y=B**.
+> If **s=1**, then **A** will go, then **y=A**.
+
+![image](https://user-images.githubusercontent.com/54589605/226089706-431ed46d-6300-4ecf-b9e5-caf6b39be5a6.png)
+
+> The moment, **s=0**, the connection is established and **A** will go, **y=A**.
+
+![image](https://user-images.githubusercontent.com/54589605/226089731-d14fe8ba-e55f-4194-b932-26db5911adb6.png)
+
+> The moment, **s=1**, the connection is established and **B** will go, **y=B**.
+> It is like a **switching connection**, based on the input and based on the select lines, it(output) will depend.
+> Data cannot be modified. Only **selection** can be done based on the **selection lines**.
+
+![image](https://user-images.githubusercontent.com/54589605/226089809-ab065a86-d947-4c83-b7aa-0be9177c4269.png)
+
+> Output is always **one** only.
+
+![image](https://user-images.githubusercontent.com/54589605/226089890-72f67dca-04c5-4f52-ab49-55ab79541a9f.png)
+
+> Power of 2, multiplexers are possible only. Like above. **5X1 or 10X1** are not possible.
+
+![image](https://user-images.githubusercontent.com/54589605/226089925-3c04047a-5cf1-4d43-ac4d-5f2abd20ed08.png)
+
+> The circled values are the **no. of select inputs or select lines**.
+
+![image](https://user-images.githubusercontent.com/54589605/226090073-795bbdf1-16e4-4559-81d6-e915e806d2ac.png)
+
+> Logic expression for **2X1** mux.
+
+### Logic Circuit
+
+![image](https://user-images.githubusercontent.com/54589605/226090426-41e80ddf-7d78-4e4c-8c4f-2c723f501ac7.png)
+
+
+## 4 X 1 Mux
+
+* S0 -> LSB
+* S1 -> MSB
+
+> It doesn't check also whatever things we have connected in the **circuit**. It doesn't see anything. The moment we have given the **selection line as 10 here**, immediately there will be an connection established from **I2 to y**. As a result, **R** fellow will be shown as the output.
+
+![image](https://user-images.githubusercontent.com/54589605/226090629-d449d92b-7b23-431b-a15f-fdf02cc567d5.png)
+![image](https://user-images.githubusercontent.com/54589605/226090671-e9c9d281-c64e-405d-be9d-c323c201ae5b.png)
+
+* Logic Expression of **4 X 1** multiplexer.
+
+![image](https://user-images.githubusercontent.com/54589605/226090810-8cc39742-8c66-4bb7-afd3-ac4eb5892340.png)
+
+> Always remember the **MSB and LSB**, it is important.
+
+![image](https://user-images.githubusercontent.com/54589605/226091062-5cfe869c-dd0b-49ab-ac05-8d7e3aaa5e4f.png)
+![image](https://user-images.githubusercontent.com/54589605/226091092-e9349195-80c8-4953-94ec-489b7bda9dfb.png)
+
+> **1** indicates **minterms**.
+> **0** indicates **maxterms**. 
+
+> The inputs which have **1** are **minterms** only.
+> The inputs which have **0** are **maxterms** only.
+
+> We have directly identify the **minterms and maxterms** from **1 and 0** respectively.
+
+![image](https://user-images.githubusercontent.com/54589605/226091296-a4c1f534-e33c-4281-8b76-ecb8788b8092.png)
+![image](https://user-images.githubusercontent.com/54589605/226091427-0777e488-2d85-4fe6-afc3-39d975970524.png)
+
+[**Explaination**]
+
+![image](https://user-images.githubusercontent.com/54589605/226092097-850b6857-3a7c-499f-a215-c4603976be47.png)
+![image](https://user-images.githubusercontent.com/54589605/226092126-149c8c97-4c7d-4cae-b2ff-49da39f9e962.png)
+![image](https://user-images.githubusercontent.com/54589605/226092418-215e8eb8-7e5b-4a04-aece-5da7fbe15d19.png)
+![image](https://user-images.githubusercontent.com/54589605/226093131-f2ae134e-0f0f-4f20-9dd8-4c13457a5a3a.png)
+![image](https://user-images.githubusercontent.com/54589605/226093334-f0010429-128e-4c09-a627-8b8cbb9ed351.png)
+![image](https://user-images.githubusercontent.com/54589605/226093497-f4e6fb92-a93d-498c-99f1-ebbba72ec268.png)
+![image](https://user-images.githubusercontent.com/54589605/226093673-a22a127a-96ff-4e06-b16e-a76de3ee5da2.png)
+
+### Question
+
+![image](https://user-images.githubusercontent.com/54589605/226094599-f79300fa-b179-447c-9517-3df9bc29b689.png)
+
+### Sir's solution
+
+![image](https://user-images.githubusercontent.com/54589605/226094618-f76b71a4-69ce-4c5d-91dd-262104ce40c9.png)
+![image](https://user-images.githubusercontent.com/54589605/226094623-9ef39c94-1f0c-4d3e-879c-09d8266c1698.png)
+
+
+![image](https://user-images.githubusercontent.com/54589605/226094780-1c7ae832-5d2b-467c-b8d8-8386c2de23c1.png)
+![image](https://user-images.githubusercontent.com/54589605/226095358-24302494-d207-46bf-a607-5759f9afbd38.png)
+
+
+* Weight of A -> 2^2 -> 4
+* Weight of B -> 2^1 -> 2
+* Weight of c -> 2^0 -> 1
+
+> I0 -> **0, value of C** -> 0,1
+> I1 -> **2, 2 + value of C** -> 2,3
+> I2 -> **4, 4 + value of C** -> 4,5
+> I3 -> **6, 6 + value of C** -> 6,7
+
+
+![image](https://user-images.githubusercontent.com/54589605/226095758-6a0a8af2-5696-4e75-a2b3-5d24cde63f4a.png)
+
+> In I0, we need **1** and it is the **bigger value** compared to **0 and 1**, so we will simply connect **C** to **I0**.
+> In I1, we need **2** and it is the **smaller value** compared to **2 and 3**, so we will simply connect **C'** to **I1**.
+> In I2, we need **4** and it is the **smaller value** compared to **4 and 5**, so we will simply connect **C'** to **I2**.
+> In I3, we need **7** and it is the **bigger value** compared to **6 and 7**, so we will simply connect **C** to **I3**.
+
+![image](https://user-images.githubusercontent.com/54589605/226095975-ab9b0bbf-0844-48b2-8ea9-77e1b5474dbd.png)
+![image](https://user-images.githubusercontent.com/54589605/226095999-fa2d1922-c6be-45c7-947c-103cb85ed1ce.png)
+
+* Not needed in **2 inputs**. More than **2** inputs needed for this trick.
+
+![image](https://user-images.githubusercontent.com/54589605/226096115-dcea85ad-d024-414e-85bd-7adc4eddf3da.png)
+![image](https://user-images.githubusercontent.com/54589605/226096611-ff0b05ba-112f-4f7f-a0d7-220419adf64b.png)
+![image](https://user-images.githubusercontent.com/54589605/226096840-530c5b37-20d3-4e69-afdf-49c7f4570c72.png)
+![image](https://user-images.githubusercontent.com/54589605/226096933-ad61baea-a404-46f8-ab70-40b086e548c7.png)
+![image](https://user-images.githubusercontent.com/54589605/226105935-02286063-bc62-4a54-82ed-8f10236f5598.png)
+![image](https://user-images.githubusercontent.com/54589605/226105942-e4719b0d-be51-419e-92fd-965477c3940a.png)
+![image](https://user-images.githubusercontent.com/54589605/226105944-9f505e40-b7ed-4c2f-a2d7-31335d8da8cb.png)
+![image](https://user-images.githubusercontent.com/54589605/226105948-ecc7e86a-7f3b-4041-82ee-3fa2ab0c502b.png)
+![image](https://user-images.githubusercontent.com/54589605/226105957-406cdc8a-ea31-46cf-bb10-c0525f3a3cbc.png)
+![image](https://user-images.githubusercontent.com/54589605/226105962-a5401107-57c3-48da-94a9-601048a552c4.png)
+![image](https://user-images.githubusercontent.com/54589605/226105968-986f1e98-db05-48d6-9a65-8eee14d9f2ac.png)
+![image](https://user-images.githubusercontent.com/54589605/226105975-4a51cb42-eef9-48cf-9f57-50f3cf294d06.png)
+![image](https://user-images.githubusercontent.com/54589605/226105979-d0be38e6-874f-450a-a2e5-8e498e6264ae.png)
+![image](https://user-images.githubusercontent.com/54589605/226105983-ecca9774-bbcf-4862-9dc6-134e1a17609b.png)
+![image](https://user-images.githubusercontent.com/54589605/226105986-c24b063c-6d70-4562-a181-1aa034d8d459.png)
+
+
+## Combinational Logic Circuit (27) [18th March 2023]
+
+![image](https://user-images.githubusercontent.com/54589605/226106182-9303b31b-d69f-4019-9ef8-7a8713ea589c.png)
+![image](https://user-images.githubusercontent.com/54589605/226106768-eb7cb5a7-9568-4ca2-9d8f-8fc0cd7ec859.png)
+![image](https://user-images.githubusercontent.com/54589605/226106752-591d25b5-da7d-4133-9d39-a95c01e52427.png)
+![image](https://user-images.githubusercontent.com/54589605/226106880-d99489a3-dedb-4a99-96f0-a3734619a32a.png)
+![image](https://user-images.githubusercontent.com/54589605/226106978-0b2e39ed-99f0-4efd-b9f6-71d38cb3ebc1.png)
+
+> Ground Symbol. It denotes **logic 0**.
+> Vcc symbol represents **5v**. It denots **logic 1**.
+
+![image](https://user-images.githubusercontent.com/54589605/226107086-507e15b1-972e-4298-8749-3190a27a8d35.png)
+![image](https://user-images.githubusercontent.com/54589605/226107103-abbed1f6-554e-4827-8097-967afd9b87b7.png)
+
+![image](https://user-images.githubusercontent.com/54589605/226107251-b959ad01-9364-4af6-b12a-f230c76f7540.png)
+
+* If, D = y-x
+* Difference = X Ex-OR Y  [No change]
+* Borrow = Y'X [Change]
+
+> In **borrow** whichever we are need to **substract**, put **bar or '** on top of that. As we are substracting **X** from **Y**, **D = y-x**, so we have to put **y'** in **borrow**.
+
+![image](https://user-images.githubusercontent.com/54589605/226107715-0412aef6-fcc4-429b-9253-96672357aa25.png)
+
+![image](https://user-images.githubusercontent.com/54589605/226107754-1cb104a0-372b-498c-820e-a84a826bf881.png)
+
+* No, they will clearly mention in the question. Otherwise don't assume anything. 
+
+### **Maha Technique**
+
+![image](https://user-images.githubusercontent.com/54589605/226107860-852c06af-06d6-45e2-bf67-f3f690b5e7db.png)
+
+> In the above question, there are **4** variables. **3** variables are taken for **selection line**. **1** variable is given for **input**. Whenever we have **total variables = 4, selection lines has 3 variables and 1 is used for input**, in these type of cases, we can use the **maha technique**.
+
+> Which ever variable is not in the **selection line**, we have to concentrate on that. **D** is not present in the **selection line**. **D** is LSB. As this is in **binary system**, we are using **powers of 2**.
+
+![image](https://user-images.githubusercontent.com/54589605/226108548-b1756369-da07-492e-8dd1-3d4ed29e2b09.png)
+
+> Like this, we will do **weight analysis**.
+
+* Minterms possible -> 0,1,2,3 .. 13,14,15
+
+> Start from the **least value**. First value is **0**.
+
+* I0 -> (0, 0 + weight of D) -> 0, (0 + 1) -> (0,1)
+* I6 -> (12, 12 + 1) -> (12,13) 
+
+> Like this do for all.
+> We have to find the **minterms**. 
+> If **0** is there as **input**, then don't take any terms. Not required. 
+> **D** means **higher value** to be considered. Here in **I1(2,3)**, **3** is higher so take **3** as a **minterm**.
+> **D'** means **lower value** to be considered. If there was something like in for **I4(8,9)**, then, **8** is take as lower value for the **minterm**.
+> **1** means **both** to be considered. For **I6(12,13)**, both **12 and 13** are considered for the **minterms**.
+
+![image](https://user-images.githubusercontent.com/54589605/226109011-1fe115ba-6403-45f2-bcb0-90f1c7c06044.png)
+![image](https://user-images.githubusercontent.com/54589605/226109077-83294cc4-2269-4ca5-947c-73146ceb671d.png)
+
+> This **maha technique** is valid for **4** variables where **1** is missing. If **2** missing then we can't do this technique.
+
+![image](https://user-images.githubusercontent.com/54589605/226109192-123a10fe-76bf-43a0-b98d-aac91cd763f2.png)
+![image](https://user-images.githubusercontent.com/54589605/226109711-fe037273-c6ad-4e31-8b73-c3aded7d33e5.png)
+
+### **Maha Technique** trick
+
+> Same above question only, done using **Maha Technique** trick.
+
+![image](https://user-images.githubusercontent.com/54589605/226109864-a238f748-b70e-46c4-be9c-ee4f98ea9124.png)
+
+> Weight of **A** is **2^2 -> 4**. So, **I0 -> (0, 0 + weight of A) -> (0, 0 + 4) -> (0, 4)**.
+> **0 and 4** are now considered. Now for **I1**, the smallest value is **1**, so for **I1 -> (1, 1 + 4) -> (1,5)**. 
+> **1 and 5** are now considered. Now for **I2**, the smallest value is **2**, so for **I2 -> (2, 2 + 4) -> (2,6)**.
+> **2 and 6** are now considered. Now for **I3**, the smallest value is **3**, so for **I1 -> (3, 3 + 4) -> (3,7)**.
+
+![image](https://user-images.githubusercontent.com/54589605/226110145-bf6c59b0-fc60-42ac-bc2e-b2c8bb0ffdd1.png)
+![image](https://user-images.githubusercontent.com/54589605/226110225-f7d8410b-c699-44fa-916d-83c6974340ce.png)
+![image](https://user-images.githubusercontent.com/54589605/226110536-c51df85b-3ede-453a-abe2-77eda2e14be2.png)
+
+> For **3** variables, we need a **2^3 X 1 -> 8 X 1**  MUX for easy implementation.
+
+![image](https://user-images.githubusercontent.com/54589605/226110792-ef5d95d7-529e-4409-99bc-dad016e2bede.png)
+
+> For **4** variables, we need a **2^4 X 1 -> 16 X 1**  MUX for easy implementation.
+
+
+![image](https://user-images.githubusercontent.com/54589605/226110949-41b9063a-3e75-415e-90ab-e7e434a209ec.png)
+
+> For **3** variables, we only need a **2^2 X 1 -> 4 X 1** MUX is sufficient. But we saw above that for **3** variables we need **8 X 1** MUX.
+
+![image](https://user-images.githubusercontent.com/54589605/226111048-f55ac521-7927-484f-afe5-de99cf972cc6.png)
+
+> For the implementation of the **same** function, the no. of variables is **3**. The size of MUX required is **4 X 1** MUX. **YES**. With just **4 X 1** MUX, we can implement it? **NO**. In addition to the **4 X 1** MUX, we require **A'** which comes from **NOT** gate.
+> So, in addition to the **4 X 1** MUX, we need **one(1) NOT gate**.
+
+![image](https://user-images.githubusercontent.com/54589605/226111315-32e034b5-fc47-4d83-8f7b-8aa5fa123d41.png)
+
+> For the implementation of the **same** function, the no. of variables is **3**. So, in addition to the **4 X 1** MUX, we need **one(1) NOT gate**.
+
+![image](https://user-images.githubusercontent.com/54589605/226111373-4aed3e99-ee44-4c84-82bd-0b1976a646c5.png)
+
+> With just **4 X 1** MUX, we implemented a **3** variable function.
+
+![image](https://user-images.githubusercontent.com/54589605/226111413-8c2c02c6-05df-4ee9-8c8d-f5eb29c80b59.png)
+
+> In here, in addition to the **4 X 1** MUX, we need **one(1) NOT gate** as well.
+
+![image](https://user-images.githubusercontent.com/54589605/226111448-49af9f36-2184-4832-96a8-0d26ae85dab4.png)
+
+> **Conclusion**, by using **8 X 1** mux only and nothing else, we can implement all the **3 variable** functions. **YES**. Whatever way they have given, we can implement it. **YES**.
+> By using **4 X 1** mux only and nothing else, can we implement all the **3 variable** functions. **NO**.
+
+![image](https://user-images.githubusercontent.com/54589605/226111712-75818938-fd9f-44f7-b5e1-b2bf3f7b5a7a.png)
+
+> In this case we have implemented using **4 X 1** mux only and nothing else.
+
+![image](https://user-images.githubusercontent.com/54589605/226111735-483aacef-d566-454f-acc2-f96225d2a605.png)
+
+> But, in the above case, it is not possible to implement with **4 X 1** mux only and nothing else. With the **4 X 1** mux, we need **one(1) NOT gate** required as well.
+
+> **Conclusion**, by **8 X 1** mux only and nothing else, we can implement all the **3 variable** functions.
+> By using **4 X 1** mux only and nothing else, we can implement **some** of the **3 variable** functions but not all.
+
+## **NOTES**
+
+> **4 X 1** MUX -> Some -> Some but not all **3 variable functions**.
+> **8 X 1** MUX -> Some -> Some but not all **4 variable functions**.
+
+![image](https://user-images.githubusercontent.com/54589605/226112061-41cff4b0-922d-4c09-9ca1-8196bfc75e4f.png)
+
+> We can extend it for **any no. of variables**.
+
+![image](https://user-images.githubusercontent.com/54589605/226112120-01e87701-e6d3-4d66-9a6f-caa6a204a5e0.png)
+
+### Questions
+
+![image](https://user-images.githubusercontent.com/54589605/226112293-ec24db96-e83d-477b-bb8c-d3a78651e204.png)
+![image](https://user-images.githubusercontent.com/54589605/226113980-8274d4af-b63e-428a-a7d6-919307df2f44.png)
+
+> We have to answer in **least possibility** remember.
+
+![image](https://user-images.githubusercontent.com/54589605/226113872-a111b0f0-0f43-4c2a-a98b-f778f3a42fb8.png)
+![image](https://user-images.githubusercontent.com/54589605/226114170-ed981237-7e5d-4de1-857d-5de18fabfaf5.png)
+![image](https://user-images.githubusercontent.com/54589605/226114331-52e7a98e-4c78-4fd7-9b1a-3da298b8c0df.png)
+![image](https://user-images.githubusercontent.com/54589605/226114781-e6db4344-6bd9-490a-b60f-12daf1d28f3b.png)
+![image](https://user-images.githubusercontent.com/54589605/226114838-944d24eb-bcba-441a-8156-6835ee9483b1.png)
+
+## MUX as **Universal Gate**
+
+![image](https://user-images.githubusercontent.com/54589605/226114934-967dcb8f-6eb4-414f-9ae7-a46644e4ef26.png)
+![image](https://user-images.githubusercontent.com/54589605/226115045-85814c22-b589-4fdc-a979-a570cb308faa.png)
+![image](https://user-images.githubusercontent.com/54589605/226115142-16698f08-8bf3-4fc2-9634-ba033899fee2.png)
+![image](https://user-images.githubusercontent.com/54589605/226115227-8654b108-54b6-4784-a890-12508cc9657b.png)
+
+## Implementation of Higher Orde MUX using lower order MUX
+
+![image](https://user-images.githubusercontent.com/54589605/226115300-6db0bb88-76e3-44b5-9d51-5a74d1da302d.png)
+
+> Here, **4** inputs are required and using **2** inputs only.
+> **4 X 1** is the required MUX. **4** inputs and **2** selection line.
+> **2 X 1** has **1** selection line.
+> Simply **divide** the **required Mux(4 X 1) here** with **given MUX(2 X 1)**.
+> **L2** is **higher level**, **L1** is lower level.
+> **MSB** must be connected to the **higher/last** level. **B** becomes the **selection line**.
+> Same **level** so **same selection line** is given which is **B**.
+
+![image](https://user-images.githubusercontent.com/54589605/226115575-772d2e70-1477-4183-80c5-a30cb6a68f27.png)
+![image](https://user-images.githubusercontent.com/54589605/226115676-7c0cf2ee-296b-4aad-8ad6-0ed8047252c2.png)
+
+> **4 X 1** MUX using **2 X 1** MUX.
+
+![image](https://user-images.githubusercontent.com/54589605/226249745-255cf004-8609-4257-a174-3632eddffce1.png)
+![image](https://user-images.githubusercontent.com/54589605/226249757-df895086-9b2a-4e62-9d57-fda20c896c8f.png)
+![image](https://user-images.githubusercontent.com/54589605/226249765-a3e2438c-d4aa-48e1-93ef-b3f7e16a3dd0.png)
+![image](https://user-images.githubusercontent.com/54589605/226249786-fe2b7733-d5af-49ac-972e-eaae0278bd0d.png)
+![image](https://user-images.githubusercontent.com/54589605/226249799-dc0b3d17-414d-41d0-a813-0917b3317fcd.png)
+![image](https://user-images.githubusercontent.com/54589605/226249815-b08817c4-4702-43b9-9e48-58c82f88b23a.png)
+![image](https://user-images.githubusercontent.com/54589605/226249829-52ffaa0d-f3b6-4c83-9f4e-666eff4b7661.png)
+![image](https://user-images.githubusercontent.com/54589605/226249839-69237ebc-9212-4300-97ec-dccde36b0557.png)
+![image](https://user-images.githubusercontent.com/54589605/226249853-c44ec293-ca8f-480e-b31a-3e8af18fd57b.png)
+
+## Doubt_session (28) [20th March 2023]
+
+* At high level we need to connect the **MSB**.
+
+![image](https://user-images.githubusercontent.com/54589605/226250496-cb678205-b0c0-4826-9bcf-e67aea5a14f9.png)
+
+> At the last level, we have **2/4**, we only need **2** inputs. We have **4 X 1** mux, which means **4** inputs. We need to **disable** two inputs. Even though we are using **4 X 1** mux, it should behave like a **2 X 1** mux. As it behaves like a **2 X 1** mux, so only **1** select line.
+
+![image](https://user-images.githubusercontent.com/54589605/226251252-8212a4b9-e1ea-4b10-87cd-080ff306fd73.png)
+
+> Here, same like above. **4 X 1** mux behaves like a **2 X 1** mux.
+
+![image](https://user-images.githubusercontent.com/54589605/226251503-e1406587-d1bb-450a-862a-8d76e7162e04.png)
+
+### Homework Questions
+
+![image](https://user-images.githubusercontent.com/54589605/226251570-0d87073f-864f-4bd3-a0bf-851f0b410e52.png)
+![image](https://user-images.githubusercontent.com/54589605/226251605-e8b82c93-606c-4913-b9e8-189fdc623f03.png)
+![image](https://user-images.githubusercontent.com/54589605/226251642-2e1be4b0-2454-46f0-b60b-756abf179c5a.png)
+![image](https://user-images.githubusercontent.com/54589605/226251675-3c6ecbcf-c2e3-4726-ac6e-40ded0aa0c05.png)
+
+### Q1
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/F286EEE54C
+
+### Q2
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/61C7724311
+
+### Q3
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/1F5535058D
+
+### Q4
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/605FBE534F
+
+![image](https://user-images.githubusercontent.com/54589605/226334137-ae189760-3ac8-4812-b3e5-b43fb4559420.png)
+![image](https://user-images.githubusercontent.com/54589605/226334165-79b21453-1eb2-439b-9be0-d020f7dd2ba8.png)
+![image](https://user-images.githubusercontent.com/54589605/226334184-89b17b44-66a4-4aaf-b63a-36edf3f4be56.png)
+
+
+## De-multiplexer
+
+> In multiplexer, if  **S=0** then **y=0**,  if  **S=1** then **y=1**. **MANY to ONE**.
+
+![image](https://user-images.githubusercontent.com/54589605/226252006-d4847c94-b9e5-40c1-9aec-862f7ed1f99a.png)
+
+> In de-multiplexer, **S or select lines** will decide where **C** will be, wheather **C** will be at **M** or at **P**. It is **ONE to MANY**.
+
+![image](https://user-images.githubusercontent.com/54589605/226252262-eac57d72-77aa-4dfc-97e5-84582ad3bb5f.png)
+![image](https://user-images.githubusercontent.com/54589605/226252399-87350e3d-46da-41b9-a459-564a87485615.png)
+![image](https://user-images.githubusercontent.com/54589605/226252515-492eb312-7bf4-4eaf-a826-670bf1649054.png)
+![image](https://user-images.githubusercontent.com/54589605/226252670-208fa564-5f98-4a82-a53a-1a7eb5f1490e.png)
+
+> When **S=0**, **I** developes a connection with **Y0**, so we get **Y0=I** and nothing in **Y1**.
+> When **S=1**, **I** developes a connection with **Y1**, so we get **Y1=I** and nothing in **Y0**.
+
+![image](https://user-images.githubusercontent.com/54589605/226253926-a5f833f9-7231-4167-a765-84c69111f720.png)
+![image](https://user-images.githubusercontent.com/54589605/226254005-3c794708-4981-4c6e-8a3e-bea3ce434430.png)
+
+### Logic Ciurcuit
+
+![image](https://user-images.githubusercontent.com/54589605/226254226-6ed820dc-ef0c-4915-ad7f-08c592f3ba7b.png)
+
+> **1 X 4**, so **4 = 2^n -> 2^2 = 2^n -> n=2**. **n** is the no. of selection lines.
+
+![image](https://user-images.githubusercontent.com/54589605/226254605-8db8040d-b066-402d-bb66-2f22100add83.png)
+![image](https://user-images.githubusercontent.com/54589605/226254738-d91c9b2c-5b59-4a7c-8c1a-ecf916bbd744.png)
+![image](https://user-images.githubusercontent.com/54589605/226255352-d36e7a7c-4e06-41c2-90b3-3eca5fb3a45f.png)
+![image](https://user-images.githubusercontent.com/54589605/226257296-26b98929-4d31-4191-ac31-d27deb35de4a.png)
+![image](https://user-images.githubusercontent.com/54589605/226257941-8a78c8fa-49bf-4891-aeb8-5d9dd3731a4f.png)
+![image](https://user-images.githubusercontent.com/54589605/226258531-b13f0c36-a5d8-4397-a184-bf6699498023.png)
+![image](https://user-images.githubusercontent.com/54589605/226258615-0383c029-7f6f-4881-9d81-5b7160a95334.png)
+
+> Whatever expression is given, find the **minterms** of those expressions and we need to implement those things.
+
+![image](https://user-images.githubusercontent.com/54589605/226259266-14b50f43-ac4f-4d1f-a170-71a65cd6d523.png)
+
+## Implementation of higher order demux using lower order demux
+
+> Here we **divide** the outputs. We **number** the levels from **bottom to top**. Here. we need to connect the **MSB** to the **lower level**.
+
+![image](https://user-images.githubusercontent.com/54589605/226259773-80466a48-53af-4f70-bb47-61e2fd047bfb.png)
+![image](https://user-images.githubusercontent.com/54589605/226260153-a612a076-89b3-49c7-a642-332aabc96ed8.png)
+![image](https://user-images.githubusercontent.com/54589605/226260368-87dce96d-6194-4c37-ab29-f43547f20be2.png)
+
+> We will exactly **divide** the outputs. After, that we need to focus on **levels given**. We have to given the levels from **bottom to top**.
+
+![image](https://user-images.githubusercontent.com/54589605/226260555-e9e7b0bc-0797-4d1b-bd15-0b4b3f9e69c9.png)
+
+> In case of **multiplexer**, we have to give the levels from **top to bottom**.
+> **MSB** for **both** the cases is the **same**. We have to give it at the **bottom**.
+
+![image](https://user-images.githubusercontent.com/54589605/226261183-dd77014b-31e4-4e3f-b457-8539ac47a6ac.png)
+![image](https://user-images.githubusercontent.com/54589605/226261332-f4ae8db6-9f52-4423-9128-566e6a11e669.png)
+![image](https://user-images.githubusercontent.com/54589605/226261768-e1bdf905-4711-4981-8951-9ad2ddb6550a.png)
+
+## Decoder
+
+* Multiplexer -> 1 output
+* De-multiplexer -> 1 input
+
+> We are taking the **advantages** of both **MUX and De-MUX** and combining these **two** to get **decoder**.
+> **Decoder** is a mult input and multi output circuit.
+
+* n=1, **1 X 2**.
+* n=2, **2 X 4**.
+* n=3, **3 X 8**.
+
+![image](https://user-images.githubusercontent.com/54589605/226262523-e25fcc33-ae66-46ca-9259-befee9e5404f.png)
+
+> We do not have any **selection or select lines** in decoders. We have one **single pin** which is called as the **enable pin**. For the complete working of the **decoder**, it depends upon the **enable pin**. Once the **enable pin** is deactivated, the **decoder** will not work.
+
+* Activated -> Enable = 1
+* Deactivated => Enable = 0
+
+![image](https://user-images.githubusercontent.com/54589605/226262766-9fc77c2a-055a-45a8-841d-760c14ccd748.png)
+
+> Whichever is connected to the **I0**, it is the **LSB** bit only. **B** is LSB.
+> Whichever connected has the highest suffix **I1** here, is the **MSB** bit only. **A** is MSB.
+> **2 X 4** decoder. **2** inputs and **4** outputs.
+> Complete working depends on the **enable pin** only.
+> If **enable or en=0**, then all the **outputs** are **zero**, irrespective of the **inputs**.
+> If **enable or en=1**, then only the **decoder** will start working for the corresponding inputs. 
+
+![image](https://user-images.githubusercontent.com/54589605/226266618-4139e5f2-f5fb-42df-9c48-7de24016ddb5.png)
+
+> If we have given **0** then the **En' = 0**, same as the given value. Then the value of **En = 1**. 
+> If they have given **En' = 0**, whatever value they have mentioned is **before the bubble only** and **not after the bubble**.
+> If we have given taken **En' = 1**. The **decoder** is **deactivated**. Then the value of **En = 0**. 
+
+![image](https://user-images.githubusercontent.com/54589605/226267667-7f0398b9-7431-420e-861a-212d51a68c62.png)
+![image](https://user-images.githubusercontent.com/54589605/226267781-b98b3338-97a9-4569-b2a2-8f6fb03e94dc.png)
+
+> This is with **En'**.
+
+![image](https://user-images.githubusercontent.com/54589605/226268489-fbb67b7a-9474-446d-bed9-6af15c6fb810.png)
+
+* If **En' = 1** then **En = 0**.
+* If **En' = 0** then **En = 1**.
+
+![image](https://user-images.githubusercontent.com/54589605/226269252-180299aa-09c7-4150-8498-f8f9e07c33a5.png)
+
+
+> For **Active high decoder**, we will get **minterms**.
+
+### Active Low Decoder
+
+> For **Active low decoder**, we will get **maxterms**.
+
+* Bubble -> NOT gate.
+
+> If the **output** is **0** before the bubble, then the **output** will be **1** after the bubble.
+> If **En = 0**, then all of the **outputs** will be **0 before the bubble**. All the **outputs** will be **1 after the bubble**.
+> When there was **no bubble** we got **all outputs** as **0** for **En = 0**.
+
+![image](https://user-images.githubusercontent.com/54589605/226270008-68445764-f4e0-4991-ab8e-a996bc4ebd55.png)
+
+> For **En = 1** and **A = 0 and  B = 0**, **y0 = 1** before the bubble and **y0 = 0** after the bubble.
+
+* **0** -> maxterms.
+> We need to write the **maxterms**.
+
+![image](https://user-images.githubusercontent.com/54589605/226271470-5092dac0-d978-4025-ae4f-f1c29f2ae38c.png)
+![image](https://user-images.githubusercontent.com/54589605/226272133-126ca1c2-2881-4929-8bf2-5607348d0583.png)
+![image](https://user-images.githubusercontent.com/54589605/226272168-ef18d98f-4748-431f-b40e-367e2e058d51.png)
+
+## LED
+
+> If **voltage of Anode(A) > Voltage of cathode(C)** or voltage of Anode(A) is **greater** than voltage of cathode(C), then the circuit is in **forward bias**.
+> If **voltage of Anode(A) < Voltage of cathode(C)** or voltage of Anode(A) is **lesser** than voltage of cathode(C), then the circuit is in **reverse bias**.
+
+> Extension of **diode** is **LED**.
+
+* LED -> Light Emmitting Diode.
+
+> If **voltage of Anode(A) > Voltage of cathode(C)** or voltage of Anode(A) is **greater** than voltage of cathode(C), then **LED is ON**.
+> If **voltage of Anode(A) <= Voltage of cathode(C)** or voltage of Anode(A) is **lesser than equal to** than voltage of cathode(C), then the **LED is OFF**.
+
+![image](https://user-images.githubusercontent.com/54589605/226274102-83d61275-667a-43c9-aac0-346afcff0193.png)
+
+> If **En** is connected to **ground** then **En = 0**.
+
+![image](https://user-images.githubusercontent.com/54589605/226274354-8e258c03-1463-4f59-b2c0-0dac0cfcf991.png)
+![image](https://user-images.githubusercontent.com/54589605/226274643-24be49e0-31a4-4032-863a-cb5b948cd13e.png)
+![image](https://user-images.githubusercontent.com/54589605/226274892-4d17910c-78b9-4308-b973-7c34aaeebe99.png)
+![image](https://user-images.githubusercontent.com/54589605/226275083-b18e87f8-da9e-4c7e-836d-796f5797ba31.png)
+![image](https://user-images.githubusercontent.com/54589605/226275550-faeb5b3c-a774-420c-80fd-877a9195b12f.png)
+![image](https://user-images.githubusercontent.com/54589605/226276295-0854c823-bc87-4f77-a53b-e7822a3676d2.png)
+![image](https://user-images.githubusercontent.com/54589605/226276646-257b22ef-10f9-4e15-8ec6-c28fa252cb04.png)
+![image](https://user-images.githubusercontent.com/54589605/226318683-596bc9b5-f1d5-4436-ad30-e38ce95c435b.png)
+![image](https://user-images.githubusercontent.com/54589605/226318727-2d8150f5-bfc4-49b2-8768-97dc8760185b.png)
+![image](https://user-images.githubusercontent.com/54589605/226318790-70703b3e-c96a-430c-9eb2-c66a6638ad95.png)
+![image](https://user-images.githubusercontent.com/54589605/226318843-bbb4510a-2a66-453f-ada4-8497fbc3200d.png)
+![image](https://user-images.githubusercontent.com/54589605/226318866-01a015b5-c0bd-4bbc-953d-0dbc00e89615.png)
+![image](https://user-images.githubusercontent.com/54589605/226318885-99af8c76-0e44-48d2-810f-3172f66a2b8a.png)
+![image](https://user-images.githubusercontent.com/54589605/226318921-6a948317-50b4-4057-b38a-67c0469f7d63.png)
+
+## Combination Circuit (29) [20th March 2023]
+
+![image](https://user-images.githubusercontent.com/54589605/226322403-504b4f2a-f6e0-47c1-b9de-73c3f4b232be.png)
+![image](https://user-images.githubusercontent.com/54589605/226333003-19050c6a-9221-4d6a-861a-db3fe11373e0.png)
+![image](https://user-images.githubusercontent.com/54589605/226333471-5accbcaf-19b0-4cfb-b7ea-d862c1d0624b.png)
+
+> Whenever we want to implement an expression using **decoder**, we need to first find the **minterms** of all the expression.
+
+![image](https://user-images.githubusercontent.com/54589605/226335093-fa32138b-6edb-42be-827a-138515695e07.png)
+
+## Conversation of **De-multiplexer** to **Decoder**.
+
+![image](https://user-images.githubusercontent.com/54589605/226335421-d3b32fa2-80d5-4e13-a857-05fc6dba478b.png)
+
+> **Inputs** of the **decoder** are the **selection lines** of **De-mux**.
+
+![image](https://user-images.githubusercontent.com/54589605/226335816-5f23e218-eb0f-44ea-b403-05eeb4242af6.png)
+
+> The **input** of **De-mux** becomes the **enable pit** in **decoder**.
+
+![image](https://user-images.githubusercontent.com/54589605/226335755-92e76d35-2db6-4eeb-a388-41cf4950d0e1.png)
+![image](https://user-images.githubusercontent.com/54589605/226336173-c81bbc1d-0019-4294-bbfa-68c50ec9d4ab.png)
+
+> In this matter, we are able to implement the **decoder to De-mux** and **De-mux to decoder** which is vice-versa.
+
+![image](https://user-images.githubusercontent.com/54589605/226336622-bbd6e245-f568-4f89-b776-18c7a90e5fbc.png)
+
+> In most cases, we will use **decoder** instead of **De-mux**.
+
+## Implementation of higher order decorders using lower order decorders
+
+> The implementation of a **decorder** is the **same as De-mux** only.
+
+* Multiplexer -> Inputs divided
+* De-mux -> Outputs divided 
+
+![image](https://user-images.githubusercontent.com/54589605/226338204-537dfc29-9682-406f-adb9-ea28b2c786d0.png)
+![image](https://user-images.githubusercontent.com/54589605/226338478-2d66d682-f4f2-4cf3-8955-88d1d32af0ab.png)
+![image](https://user-images.githubusercontent.com/54589605/226338798-982240c0-76f9-440e-89ed-189f8d1e3051.png)
+
+## Encoder
+
+> Encoder is simply opposite to the **decoder**.
+> Encoder is preferred for **core convertions**.
+
+![image](https://user-images.githubusercontent.com/54589605/226339201-cf814e24-ccd9-44d8-8807-156c891cc96e.png)
+![image](https://user-images.githubusercontent.com/54589605/226339220-26983b21-cf34-4e39-8251-3f18192d953c.png)
+
+> In case of an **encoder** in these **4** inputs, at a time **only one of the input is one(1)**
+> We have given **I1** input as **1**. Then, it will display the **output** of binary equivalent of **one(1)**. We will get the **output** as **01**. **Y1** is **MSB bit** here. **Y1Y0 -> 01** this is the **output**.
+
+* Binary equivalent of **1** -> 01.
+
+![image](https://user-images.githubusercontent.com/54589605/226342584-852fb008-6e11-46b8-97d9-38dd185e9155.png)
+
+> **At a time only one input is 1**, other that this, if we have given any other forms of **input**, we will get some **random/garbage** value as **output** but that is not a **valid output**. So, the **valid pin** will be set to **0**.
+
+> For **I0**, we got **1**, the binary equivalent of **0** as **zero** is present in **I0** is **00**. Hence **Y1Y0 -> 00**. As this is a **valid output**, the **valid pin** is set to **1**.
+
+![image](https://user-images.githubusercontent.com/54589605/226344256-1d7765cf-6f8f-453b-b8d9-d83c3c4a0e58.png)
+
+### Drawbacks of Encoder
+
+![image](https://user-images.githubusercontent.com/54589605/226344590-93902d19-a5f7-4fa1-aa42-972bf4e7f101.png)
+
+## Priority Encoder
+
+![image](https://user-images.githubusercontent.com/54589605/226345194-0139da18-e0b1-42ee-b082-4f4e0a682a87.png)
+
+> While designing **priority encoder**, we will assign some **priority**. **Priority** will be assigned depending on the **requirements**.
+
+* Priority -> I3 > I2 > I1 > I0
+
+> When **I1 = 1**, then **I1** has **higher priority** than **I0**. The system doesn't check for **I0** wheather it has **0 or 1** value. The system doesn't care about **I0** value. **I0** value is **don't care**.
+> When **I2 = 1**, then **I2** has **higher priority** than **I1 and I0**. The system doesn't check for **I1 and I0** wheather they has **0 or 1** value. The system doesn't care about **I1 and I0** value. **I1 and I0** value are **don't care**.
+> When **I3 = 1**, then **I3** has **higher priority** than **I2, I1 and I0**. The system doesn't check for **I2, I1 and I0** wheather they has **0 or 1** value. The system doesn't care about **I2, I1 and I0** value. **I2, I1 and I0** value are **don't care**.
+
+![image](https://user-images.githubusercontent.com/54589605/226347274-77dcf829-3354-441e-aa06-d8e97486538d.png)
+![image](https://user-images.githubusercontent.com/54589605/226347605-7ac89df9-ca11-4659-981b-5fedba1ba9c3.png)
+
+* Obviously, it is **always valid**.
+
+![image](https://user-images.githubusercontent.com/54589605/226347946-dd69ed8b-defb-4a27-8578-2900d66a2517.png)
+
+## Sequential Circuit
+
+> In **combination circuit**, there is **no memory**. There is **no feedback** and there is **no clock signal**.
+> In **sequential part**, we need to see the **past behaviour**. We need to **analyze** the **past behaviour**. **Past behaviour or Past output** we need to store, for that we need a **memory**.
+> In **combinational part**, if we ask, immediately we get the **things**.
+
+![image](https://user-images.githubusercontent.com/54589605/226351336-c6891418-57cf-414f-8c7a-80d90bbe4a9c.png)
+
+> **Flip-flp** depends on **latches**.
+> **Shift register, Counters and Finite State Machines** depends on **Flip flops**.
+
+* Latches -> [**IMPORTANT**].
+
+## Latch [**IMPORTANT**]
+
+> At **two** ends, the value is the same. Then, it is called as **stable**.
+> It is **stable**.
+> As for both **0 and 1**, the circuit is **stable**, hence it is as bistable circuit.
+
+![image](https://user-images.githubusercontent.com/54589605/226354502-9c640719-26d2-4242-81a8-e38a0eba0eaa.png)
+![image](https://user-images.githubusercontent.com/54589605/226354993-8e287a5e-9377-4fac-a118-ad7bb0b5f7d8.png)
+
+> Initially, the **input is zero(0)**. If we take the **output** at the **first NOT gate**, then we get **1** as the **output**. **1** will come down and act as the **input** for the **second NOT gate**. We will get **0** as the **output** for the **second NOT gate**.
+
+![image](https://user-images.githubusercontent.com/54589605/226355293-001232ab-f35a-4a6a-9477-11c575a74af7.png)
+![image](https://user-images.githubusercontent.com/54589605/226358198-f28a14e2-def8-429e-a894-b5cb068745d3.png)
+
+> We have given **input** as **zero(0)** and we waited for sometime(10secs) till the **output** of the second NOT gate came. After the output came, we removed the **input**. The moment, the output of **second NOT gate**  is **zero(0)**, it will go back to the input of **first NOT gate**. Now, we will get **1** as the output of **first NOT gate** and the **1** will go to the input of **second NOT gate** and we will get **zero(0)** as the output of **second NOT gate**.
+> We are getting a complete **loop** here.
+> Even if we check after sometime(after 1yr), then also we will get the **same values**. Which means, it is storing the information. It is storing **1 bit of information**. That's why it is called as **basic memory circuit**.
+
+![image](https://user-images.githubusercontent.com/54589605/226359520-2a572258-6c23-404e-996e-adaf93ead0b9.png)
+![image](https://user-images.githubusercontent.com/54589605/226359592-9bc7a6cd-4c88-49a2-9135-5356f8df24e9.png)
+
+> This is the basic idea we got for **implementation**.
+> If we want to change the data present in **latch** device, then we need to **again supply the input**.
+> NOT gate has only **one input**. We need to replace with some other gate which **behaves like a NOT gate** and has **more than 1 inputs**. The gates are **NAND and NOR** gate.
+> So, it the place of NOT gate, we are using the **NAND** gate.
+
+![image](https://user-images.githubusercontent.com/54589605/226363858-61f04772-3183-42e6-a25a-2c730b348738.png)
+
+* Changing the data present
+* Feedbacks
+
+> It is called as a **NAND latch**.
+
+![image](https://user-images.githubusercontent.com/54589605/226364209-99153611-abd1-45ae-9fdc-b599ebcb2b6a.png)
+
+* NOR latch.
+
+## NAND latch
+
+* Qn -> Present output
+* Q(n+1) -> Next state output.
+* (Q(n+1))' -> Complement of Q(n+1).
+
+![image](https://user-images.githubusercontent.com/54589605/226365191-e9231b5a-6d3f-4719-8823-dfcccb71da04.png)
+
+> The output of the **first NAND gate** will depend on **present input(S)** as well as **previous output(Q)**.
+> The output of the **second NAND gate** will depend on **present input(R)** as well as **previous output(Q')**.
+
+![image](https://user-images.githubusercontent.com/54589605/226369291-41953a35-95ef-4890-8f15-0700c898d099.png)
+
+> We have take **S=0 and R=0** and in one circuit we have take **Q=0** and in another circuit, **Q=1**.
+
+* We need to see if the **output** is **stable or not**. 
+
+> We got **1** as the **output for second NAND gate**. We need to check if the **output** is same as the value in the **feedback location** of the **first NAND gate**. **Feedback location** has **0** as it's value. So they are **different**.
+> If it is **different** then we can call it as **unstable**. Untill we get **stable**, we need to **continue**. So the **feedback location** value of the **first NAND gate** is **overwritten** to **1**.
+
+![image](https://user-images.githubusercontent.com/54589605/226370283-1e2d2780-417f-4e73-8146-08f332485413.png)
+
+> We got **1** as the **output for first NAND gate**. We need to check if the **output** is same as the value in the **feedback location** of the **second NAND gate**. **Feedback location** has **1** as it's value. So they are **same**. Then, **no problem**.
+> As it was different for the **other output**, we will do it **again**.
+
+![image](https://user-images.githubusercontent.com/54589605/226371622-2c5094fa-2c3a-4960-a1cb-64183d44561f.png)
+![image](https://user-images.githubusercontent.com/54589605/226372181-3532ac46-bd86-4400-bda1-1d0a34226887.png)
+
+> After getting the **outputs**, we need to check if the circuit is **stable or not**.
+
+![image](https://user-images.githubusercontent.com/54589605/226372449-593d06ae-f041-4a78-8321-7f526d08423e.png)
+
+> We got **1** as the **output for secons NAND gate**. We need to check if the **output** is same as the value in the **feedback location** of the **first NAND gate**. **Feedback location** has **1** as it's value. So they are **same**. Then, **no problem**.
+
+![image](https://user-images.githubusercontent.com/54589605/226372716-3d5892a3-9073-4de2-a439-afa9a9566d2f.png)
+
+> We got **1** as the **output for first NAND gate**. We need to check if the **output** is same as the value in the **feedback location** of the **second NAND gate**. **Feedback location** has **1** as it's value. So they are **same**. Then, **no problem**.
+
+> As **both** values are **same**. Now, we can say that it is **stable**. If it is **stable**, then we need to enter the **stable values** into the **table**.
+
+![image](https://user-images.githubusercontent.com/54589605/226373488-93721dd5-2318-4719-9c56-6d92c939ca48.png)
+![image](https://user-images.githubusercontent.com/54589605/226373533-5ced65bb-54d2-491a-a80f-ff5b075b087e.png)
+
+> We got **1** as the **output for second NAND gate**. We need to check if the **output** is same as the value in the **feedback location** of the **first NAND gate**. **Feedback location** has **1** as it's value. So they are **same**. Then, **no problem**.
+
+![image](https://user-images.githubusercontent.com/54589605/226373800-0e70c402-d69f-413e-b556-efca09fcc103.png)
+
+> We got **1** as the **output for first NAND gate**. We need to check if the **output** is same as the value in the **feedback location** of the **second NAND gate**. **Feedback location** has **0** as it's value. So they are **different**. It is **unstable**. **0** will be **overwritten** as **1**. We need to do it again.
+
+![image](https://user-images.githubusercontent.com/54589605/226374087-373745e6-7a35-49b6-805c-97e26a6186c6.png)
+
+> We got **1** as the **output for second NAND gate**. We need to check if the **output** is same as the value in the **feedback location** of the **first NAND gate**. **Feedback location** has **1** as it's value. So they are **same**. Then, **no problem**.
+
+![image](https://user-images.githubusercontent.com/54589605/226374680-9299ff1b-6e07-42dc-88e9-801b2c2ff7b3.png)
+
+> We got **1** as the **output for first NAND gate**. We need to check if the **output** is same as the value in the **feedback location** of the **second NAND gate**. **Feedback location** has **1** as it's value. So they are **same**. It is **stable**.
+
+![image](https://user-images.githubusercontent.com/54589605/226374822-e44738f1-8ad2-47b8-86b4-2b92219ce750.png)
+![image](https://user-images.githubusercontent.com/54589605/226375125-8b4a227a-0494-4e1b-bc37-0e9e39888927.png)
+
+> **S=0, R=0 and Q=0**, all of these are **given inputs**.
+
+![image](https://user-images.githubusercontent.com/54589605/226376457-ea281fda-319c-4c5a-a2d7-6fcb18b6f40d.png)
+
+![image](https://user-images.githubusercontent.com/54589605/226377863-d09e5d67-0c01-486b-9564-f36a0e9f0950.png)
+
+* same values
+
+![image](https://user-images.githubusercontent.com/54589605/226377923-04f1dda6-c610-4f7d-8b95-6d06e9821e6a.png)
+
+
+* same values
+
+> Feedback values are the same. 
+
+![image](https://user-images.githubusercontent.com/54589605/226378392-300a9fb8-e554-4818-a53a-bdfb9576f88b.png)
+
+* Same
+
+![image](https://user-images.githubusercontent.com/54589605/226378495-f6a28d34-e9e0-4256-a7de-6cf8a44afacb.png)
+
+* Different.
+
+> So, it is **overwritten** by **one**.
+
+![image](https://user-images.githubusercontent.com/54589605/226379253-796f1bcf-9507-46b9-bf6d-d12d1cdce15d.png)
+![image](https://user-images.githubusercontent.com/54589605/226379294-f1142c46-1393-41bc-bf03-d8a007c97d75.png)
+
+> **Same**. Both are stable. As it is **stable**, then only we will enter the values into the **table**.
+
+![image](https://user-images.githubusercontent.com/54589605/226380037-97d1b97e-9b04-452b-b9f2-3caf46ca52b7.png)
+
+> Not stable. So, **0** is overwritten with **1**.
+
+![image](https://user-images.githubusercontent.com/54589605/226380236-f34b46d0-d53e-45c6-8a27-d7c76a364091.png)
+![image](https://user-images.githubusercontent.com/54589605/226380333-3bce4e30-c9ed-439c-bb37-099cd5a43bfa.png)
+
+> Not stable. So, **1** is overwritten with **0**.
+
+![image](https://user-images.githubusercontent.com/54589605/226380443-34c20fc4-727c-4fe5-92af-5707c46837e3.png)
+
+> Now it is **stable**.
+
+![image](https://user-images.githubusercontent.com/54589605/226380561-55c9b76d-a2e4-4288-b77d-c6e3809c8af0.png)
+
+![image](https://user-images.githubusercontent.com/54589605/226381096-c8331725-5219-4972-8992-f5455a7ac777.png)
+
+* Stable. So enter the values into the table.
+
+![image](https://user-images.githubusercontent.com/54589605/226381324-6e338379-b031-41e6-8dbf-8ca423853ecd.png)
+
+* Stable. So enter the values into the table.
+
+![image](https://user-images.githubusercontent.com/54589605/226381487-fc709029-2484-4585-9168-edbd0c5abe95.png)
+
+* Stable. So enter the values into the table.
+
+![image](https://user-images.githubusercontent.com/54589605/226381639-59779e97-466c-4cd8-9bed-7f805affd993.png)
+
+* Stable. So enter the values into the table.
+
+![image](https://user-images.githubusercontent.com/54589605/226381915-83f9dda1-4085-47e3-bc63-12b8a35f6c45.png)
+
+> Practice it **2-3** times and try to do it as fast as possible. [**IMPORTANT**]
+
+### Doubt
+
+![image](https://user-images.githubusercontent.com/54589605/226383472-369e159a-18da-4e03-b3b9-e2251a76eaf6.png)
+![image](https://user-images.githubusercontent.com/54589605/226384195-0f4a347e-5b51-4f77-8f54-05835e07e300.png)
+
+> In **X + yz**, atleast **two** inputs must be **1**.
+
+![image](https://user-images.githubusercontent.com/54589605/226385142-c5e1e11e-babd-44b2-9186-e5a3491874ee.png)
+
+![image](https://user-images.githubusercontent.com/54589605/226387721-dfa7c65b-ab76-4df4-a739-bd07175073d3.png)
+![image](https://user-images.githubusercontent.com/54589605/226387759-9919a4ed-74a2-429b-8172-9158123048ca.png)
+![image](https://user-images.githubusercontent.com/54589605/226387790-db9ed46c-53ed-4f04-85c2-03416e699709.png)
+
+## Sequential Circuit (30) [21st March 2023]
+
+## NAND Latch
+
+![image](https://user-images.githubusercontent.com/54589605/226525837-08d853cf-77ad-4a71-945c-78479f4e8f24.png)
+
+> **Q(n+1) and (Q(n+1))'** are generally, complement to each other.
+> For input of **S=0 and R=0**, we are getting the **same** value for **Q(n+1) and (Q(n+1))'**. Basically, **Q(n+1) and (Q(n+1))'** should be **complement** to each other but it is not happening for input of **S=0 and R=0**. So, it means that the device, **NAND latch** is not properly working for inputs of **S=0 and R=0**.
+> So, this is a problem of **NAND latch**.
+> So, we never give the **input of S=0 and R=0** for **NAND latch**. **NAND latch** won't work for  input of **S=0 and R=0**, it is **not valid**. We never give input of **S=0 and R=0** in case of **NAND latch**.
+
+> In case of **NAND latch**, we cannot use the combination of **00** or **both inputs as 00**, as it is giving **not valid or invalid** state.
+
+### Summary
+
+> The summary is dependent on what we have considered earlier in the circuit. If we change any **one terminal**, the whole **table** changes.
+> For **S=0 and R=0**, we are getting **some invalid or not valid** outputs. As **Q(n+1) and (Q(n+1))'** are not giving **complement** values.
+
+![image](https://user-images.githubusercontent.com/54589605/226528316-e0fb0e72-1d85-41c8-9ea1-2d1732229a5a.png)
+![image](https://user-images.githubusercontent.com/54589605/226527948-0ab5033a-6cef-4a75-9238-ac11fe2402df.png)
+
+> For **S=0 and R=1** input, irrespective of the **previous value**, we are always getting **0**.
+> Output becomes **0**, means that the complete system gets **restarted**.
+> It is called as **reset**.
+
+![image](https://user-images.githubusercontent.com/54589605/226528333-25d66ade-d059-4d8e-a280-947208f0188e.png)
+![image](https://user-images.githubusercontent.com/54589605/226528411-993b0e36-8881-4c6a-a624-851b18eeb318.png)
+
+> For **S=1 and R=0** input, irrespective of the **previous value**, we are always getting **1**.
+
+![image](https://user-images.githubusercontent.com/54589605/226528584-27ae34dc-7412-4b1a-8b54-890b5ae3bbbf.png)
+![image](https://user-images.githubusercontent.com/54589605/226528596-2c8141a0-5a80-43bd-b4ee-0f39ce0a4981.png)
+![image](https://user-images.githubusercontent.com/54589605/226528889-e69a81c6-e501-4bcb-8281-b7a736cc9951.png)
+
+> For **S=1 and R=1** input, for **Qn =0**, we are getting the **Q(n+1)=0**. For **Qn =1**, we are getting the **Q(n+1)=1**. So we are getting the **same previous value**. Whatever **previous value** was, we are getting the **same value** as output..
+
+![image](https://user-images.githubusercontent.com/54589605/226528927-b508d551-2193-44b0-b15b-ed5728482c0e.png)
+
+## NOR Latch
+
+> It is same as **NAND latch**.
+
+![image](https://user-images.githubusercontent.com/54589605/226529345-9409cede-1a7d-4f7f-afd0-a65f167d9e49.png)
+
+> For **S=0 and R=0 and Q=0**, the output from **second NOR gate** is **0**, which is **same** as the **feedback connection** for the **first NOR gate**.
+
+![image](https://user-images.githubusercontent.com/54589605/226529461-f479887e-560a-437f-a92b-998b57a45564.png)
+
+> For **S=0 and R=0 and Q=0**, the output from **first NOR gate** is **1**, which is **same** as the **feedback connection** for the **second NOR gate**.
+> So, the circuit is **stable** and hence we will input them into the **table**.
+
+![image](https://user-images.githubusercontent.com/54589605/226529696-f32ec0be-65c9-4140-9a2d-9700673d715b.png)
+
+> For **S=0 and R=0 and Q=1**, the output from **second NOR gate** is **1**, which is **same** as the **feedback connection** for the **first NOR gate**.
+> For **S=0 and R=0 and Q=1**, the output from **first NOR gate** is **0**, which is **same** as the **feedback connection** for the **second NOR gate**.
+> So, the circuit is **stable** and hence we will input them into the **table**.
+
+![image](https://user-images.githubusercontent.com/54589605/226529920-76b13de7-3fc7-45e0-9092-226d40658b75.png)
+![image](https://user-images.githubusercontent.com/54589605/226530038-b4cfd81e-543b-4a77-83e8-aa6569dd5fdf.png)
+
+> For **S=0 and R=1 and Q=0**, the output from **second NOR gate** is **0**, which is **same** as the **feedback connection** for the **first NOR gate**.
+> For **S=0 and R=1 and Q=0**, the output from **first NOR gate** is **1**, which is **same** as the **feedback connection** for the **second NOR gate**.
+> So, the circuit is **stable** and hence we will input them into the **table**.
+
+![image](https://user-images.githubusercontent.com/54589605/226530202-3cd46781-6ac4-4525-9b85-7fb0d7bf3670.png)
+
+> For **S=0 and R=1 and Q=1**, the output from **second NOR gate** is **0**, which is **different** for the **feedback connection** which has **1** for the **first NOR gate**.
+> For **S=0 and R=1 and Q=1**, the output from **first NOR gate** is **0**, which is **same** as the **feedback connection** for the **second NOR gate**.
+> So, the circuit is not **stable**. So the **1** at the **feedback connection** of the **first NOR gate** will be **overwritten** by **0** and we will do it **again**
+
+> For **S=0 and R=1 and Q=1**, the output from **second NOR gate** is **0**, which is **same** for the **feedback connection** which has **0** for the **first NOR gate**.
+> For **S=0 and R=1 and Q=1**, the output from **first NOR gate** is **1**, which is **different** for the **feedback connection** which has **0** for the **second NOR gate**.
+> So, the circuit is not **stable**. So the **0** at the **feedback connection** of the **second NOR gate** will be **overwritten** by **1** and we will do it **again**
+
+> For **S=0 and R=1 and Q=1**, the output from **second NOR gate** is **0**, which is **same** for the **feedback connection** which has **0** for the **first NOR gate**.
+> For **S=0 and R=1 and Q=1**, the output from **first NOR gate** is **1**, which is **same** for the **feedback connection** which has **1** for the **second NOR gate**.
+> So, the circuit is **stable**. Hence we will input them into the table.
+
+![image](https://user-images.githubusercontent.com/54589605/226531502-a16e499e-8441-4b2d-8cb2-0065237ffd81.png)
+
+> For **S=1 and R=0 and Q=0**, the output from **second NOR gate** is **0**, which is **same** for the **feedback connection** which has **0** for the **first NOR gate**.
+> For **S=1 and R=0 and Q=0**, the output from **first NOR gate** is **0**, which is **different** for the **feedback connection** which has **1** for the **second NOR gate**.
+> So, the circuit is not **stable**. So the **1** at the **feedback connection** of the **second NOR gate** will be **overwritten** by **0** and we will do it **again**
+
+> For **S=1 and R=0 and Q=0**, the output from **second NOR gate** is **1**, which is **different** for the **feedback connection** which has **0** for the **first NOR gate**.
+> For **S=1 and R=0 and Q=0**, the output from **first NOR gate** is **0**, which is **same** for the **feedback connection** which has **0** for the **second NOR gate**.
+> So, the circuit is not **stable**. So the **0** at the **feedback connection** of the **first NOR gate** will be **overwritten** by **1** and we will do it **again**
+
+> For **S=1 and R=0 and Q=0**, the output from **second NOR gate** is **1**, which is **same** for the **feedback connection** which has **1** for the **first NOR gate**.
+> For **S=1 and R=0 and Q=0**, the output from **first NOR gate** is **0**, which is **same** for the **feedback connection** which has **0** for the **second NOR gate**.
+> So, the circuit is **stable**. Hence we will input them into the table.
+
+![image](https://user-images.githubusercontent.com/54589605/226532624-7e4eb914-2e6c-4dd3-bb14-98dcd0530e9d.png)
+
+> For **S=1 and R=0 and Q=1**, the output from **second NOR gate** is **1**, which is **same** for the **feedback connection** which has **1** for the **first NOR gate**.
+> For **S=1 and R=0 and Q=1**, the output from **first NOR gate** is **0**, which is **same** for the **feedback connection** which has **0** for the **second NOR gate**.
+> So, the circuit is **stable**. Hence we will input them into the table.
+
+![image](https://user-images.githubusercontent.com/54589605/226532768-8e44cf29-ad4d-45a3-9e1d-c3de19c7ef31.png)
+![image](https://user-images.githubusercontent.com/54589605/226532807-a9bf33a9-1df9-436e-8326-d80436ed806e.png)
+
+> For **S=1 and R=1 and Q=0**, the output from **second NOR gate** is **0**, which is **same** for the **feedback connection** which has **0** for the **first NOR gate**.
+> For **S=1 and R=1 and Q=0**, the output from **first NOR gate** is **0**, which is **different** for the **feedback connection** which has **1** for the **second NOR gate**.
+> So, the circuit is not **stable**. So the **1** at the **feedback connection** of the **second NOR gate** will be **overwritten** by **0** and we will do it **again**
+
+> For **S=1 and R=1 and Q=0**, the output from **second NOR gate** is **0**, which is **same** for the **feedback connection** which has **0** for the **first NOR gate**.
+> For **S=1 and R=1 and Q=0**, the output from **first NOR gate** is **0**, which is **same** for the **feedback connection** which has **0** for the **second NOR gate**.
+> So, the circuit is **stable**. Hence we will input them into the table.
+
+![image](https://user-images.githubusercontent.com/54589605/226533165-a92dc4ff-77da-4f9b-b6dd-7abe19faa6b6.png)
+
+> For **S=1 and R=1 and Q=1**, the output from **second NOR gate** is **0**, which is **different** for the **feedback connection** which has **1** for the **first NOR gate**.
+> For **S=1 and R=1 and Q=1**, the output from **first NOR gate** is **0**, which is **same** for the **feedback connection** which has **0** for the **second NOR gate**.
+> So, the circuit is not **stable**. So the **1** at the **feedback connection** of the **first NOR gate** will be **overwritten** by **0** and we will do it **again**
+
+> For **S=1 and R=1 and Q=1**, the output from **second NOR gate** is **0**, which is **same** for the **feedback connection** which has **0** for the **first NOR gate**.
+> For **S=1 and R=1 and Q=1**, the output from **first NOR gate** is **0**, which is **same** for the **feedback connection** which has **0** for the **second NOR gate**.
+> So, the circuit is **stable**. Hence we will input them into the table.
+
+![image](https://user-images.githubusercontent.com/54589605/226533479-e718fab6-940d-4b8b-b7c6-b736d2c900ff.png)
+![image](https://user-images.githubusercontent.com/54589605/226533503-5069edd7-ff5c-4fc4-83d8-bdf7149aea3c.png)
+
+> Whenever mentioned in the question, **find the output**, always give/take **Q** as the only **output** and never take **Q'** as the **output**. Otherwise, it will create a problem.
+
+![image](https://user-images.githubusercontent.com/54589605/226534319-6f5d9477-1d7e-4d56-b10c-8cd2cdc84072.png)
+![image](https://user-images.githubusercontent.com/54589605/226534390-2e0fd1af-f907-473e-aa07-f3d8c0f3bb62.png)
+
+* **Q(n+1)** is the **next state** output.
+* **Qn** is the **present state** output.
+
+![image](https://user-images.githubusercontent.com/54589605/226534553-48af737f-6350-40bc-9937-e638b4a0dc4d.png)
+
+> For **S=0 and R=0**, we are getting the **previous state(Qn)** outputs in the **next state(Q(n+1))** outputs only.
+
+![image](https://user-images.githubusercontent.com/54589605/226534755-8925a8e4-410c-4541-92e6-d96c7e69e447.png)
+![image](https://user-images.githubusercontent.com/54589605/226534767-083e6e6f-fd10-4882-8812-fe5bdab09afb.png)
+
+> For **S=0 and R=1**, irrespective of the **previous state values**, we are getting **zero(0)** as the **output**. It means **reset**.
+
+![image](https://user-images.githubusercontent.com/54589605/226534995-ef82c853-3838-4e46-84c9-32167609870d.png)
+![image](https://user-images.githubusercontent.com/54589605/226535023-e94feb9a-e660-47aa-a9b5-9d7d29a2ade9.png)
+
+> For **S=1 and R=0**, irrespective of the **previous state values**, we are getting **one(1)** as the **output**. It means **set**.
+
+![image](https://user-images.githubusercontent.com/54589605/226535125-a4749bad-922e-4675-9e05-7dab844cc1d4.png)
+![image](https://user-images.githubusercontent.com/54589605/226535142-c1b21fc6-caff-474c-b556-56981a5e352b.png)
+
+> For **S=1 and R=1**, the values of **Q(n+1) or Q and (Q(n+1))' Or Q'** are **zero(0)**. They must be **complement** to each other like in the previous cases(00, 01 and 10), the values where **complement** to each other, but for **11**, they are not **complement** to each other. We are getting **same/equal** values for them. As both values are **equal**, we should call it as **not valid or invalid** state.
+
+> In case of **NOR latch**, we cannot use the combination of **11** or **both inputs as 11**, as it is giving **not valid or invalid** state.
+
+## Summary
+
+![image](https://user-images.githubusercontent.com/54589605/226536506-fee02785-1142-4812-890f-17d1f606365c.png)
+
+> In **NAND latch**, for **S=0 and R=0**, it is a **not valid or invalid** state.
+> In **NAND latch**, for **S=0 and R=1**, the **R** pin is **activated**. So, **R** means **reset**. When we press **reset** button, then all the values are **00** only. That's why **Q(n+1)** will be **0** which means **reset**.
+> In **NAND latch**, for **S=1 and R=0**, the **S** pin is **activated**. So, **S** means **set**. When we press **set** button, then all the values are **maximum or 11** only. That's why **Q(n+1)** will be **1** which means **set**.
+> In **NAND latch**, for **S=1 and R=1**, the **previous state** only will comes. That's why **Q(n+1)** will be **Qn** which means **Hold or memory**.
+
+![image](https://user-images.githubusercontent.com/54589605/226537538-2d37765c-9ce6-4a8e-82ce-2092161dde83.png)
+
+> In **NOR latch**, for **S=0 and R=0**, the **previous state** only will comes. That's why **Q(n+1)** will be **Qn** which means **Hold or memory**..
+> In **NOR latch**, for **S=0 and R=1**, the **R** pin is **activated**. So, **R** means **reset**. When we press **reset** button, then all the values are **00** only. That's why **Q(n+1)** will be **0** which means **reset**.
+> In **NOR latch**, for **S=1 and R=0**, the **S** pin is **activated**. So, **S** means **set**. When we press **set** button, then all the values are **maximum or 11** only. That's why **Q(n+1)** will be **1** which means **set**.
+> In **NOR latch**, for **S=1 and R=1**, it is a **not valid or invalid** state.
+
+![image](https://user-images.githubusercontent.com/54589605/226537813-6351e02e-7c40-401e-b425-5d751afbe975.png)
+![image](https://user-images.githubusercontent.com/54589605/226537790-f33b47e6-a00f-478d-8a92-c0b6c69edd9b.png)
+
+> For **NAND latch**, when both inputs are **00**, then the **output** is **not valid or invalid** state.
+> For **NOR latch**, when both inputs are **11**, then the **output** is **not valid or invalid** state.
+> **Set and reset** for both **NOR and NAND** is the **same**.
+
+![image](https://user-images.githubusercontent.com/54589605/226539340-2b1b3e6c-c50a-4d5a-aee9-79533e33e400.png)
+![image](https://user-images.githubusercontent.com/54589605/226539465-0d9d7eed-96d6-4a5a-8488-52ccdf69376f.png)
+![image](https://user-images.githubusercontent.com/54589605/226539663-08434b9d-0783-4803-b6c0-c3690a2d5adc.png)
+
+> For **S=1 and R=1**, **hold state**, whatever previous value was there, that only will come to the **next state**. Previous value was **zero(0)**, that why **next value** is also **zero(0)**.
+> For **S=1 and R=1**, **hold state**, whatever previous value was there, that only will come to the **next state**. Previous value was **one(1)**, that why **next value** is also **one(1)**.
+> Same for **3rd input** as well where **S=1 and R=1**.
+
+![image](https://user-images.githubusercontent.com/54589605/226540013-595d93d0-b086-4608-88f7-7ae6d1fceb6e.png)
+
+> **11** input depends on **previous state**. Without knowing the **previous state**, how we will get the output for **11**.
+
+![image](https://user-images.githubusercontent.com/54589605/226540362-1991fbc7-e966-48ae-8d4d-89c08a233605.png)
+
+> In case of **combinational circuit**, if we have given some input, we will get some output. If we have given the same input, then the output should be **same** as well. 
+> In case of **sequential circuits**, the output is not like exactly same but the **output** will depend upon the input **sequence** aaplied.
+
+> For the **3rd input**, we have given **10** just above it.
+> For the **6th input**, we have given **01** just above it.
+
+> If we have changed the **sequence** of inputs, then the **output also changes**.
+> > In case of **combinational circuit**, the output depends upon the **combination** of inputs.
+> In case of **sequential circuits**, the output depends upon the **sequence** we have given the **input**. 
+
+> We have given some values for **a and b** and we have gotten some output. If we give same values for **a and b**, we will get the **same output** forever for all the cases, bit this is not the case for **sequential circuit**.
+
+## Note
+
+![image](https://user-images.githubusercontent.com/54589605/226543144-3ee0fc95-6c1d-469f-b360-7667bd192719.png)
+
+> The tables we have seen **above** is applicable for **un-equal** delays as well.
+
+![image](https://user-images.githubusercontent.com/54589605/226544810-899c3c80-ec9a-4fb9-ad47-d96c74d874d2.png)
+![image](https://user-images.githubusercontent.com/54589605/226545427-a5669f02-df9e-48e9-ad4b-e3bbb103148a.png)
+ 
+ > This is a restriction on the **NAND latch**, whenver we have given **00**, immediately we never give the **input of 11**.
+
+![image](https://user-images.githubusercontent.com/54589605/226545793-311cbe18-1b4e-4143-a4be-2499ab471036.png) 
+
+> The **2ns** NAND gate will respond faster. We will get **1** and that **1** will act as the **feedback connection** value for the **second NAND gate**.
+
+![image](https://user-images.githubusercontent.com/54589605/226549390-65d21e24-44a7-41f6-9162-c9f0fda6c2b3.png)
+
+> We have changed the input from **00** to **11**.
+
+> For the **unequal delay's** case, we got **stable** output. We got **Q=0**, which is **stable** output.
+
+![image](https://user-images.githubusercontent.com/54589605/226551675-eb40575a-f6df-4c3f-97e4-efc86aa551b2.png)
+
+> Sir, got it wrong fixing it **below**.
+
+![image](https://user-images.githubusercontent.com/54589605/226555245-fdee630d-20c8-474c-ae10-515c1184a3b4.png)
+
+> Stable now.
+> We have changed the input from **00** to **11**.
+> The **2ns** NAND gate will respond faster. We will get **0** and that **0** will act as the **feedback connection** value for the **second NAND gate**. As there was **1** as the value for **feedback connection**  of the **first NAND gate**, we have **overwritten** it with **0**. Now, we have **0 and 1** to calculate value for **Q**.
+
+![image](https://user-images.githubusercontent.com/54589605/226555791-957c5094-6c6e-42fd-a4f7-0d3c2d92cd52.png)
+
+> It is **stable** and we got **Q=1**.
+
+
+> The **2ns** NAND gate will respond faster. We will get **1** and that **1** will act as the **feedback connection** value for the **first NAND gate**. As there was **0** as the value for **feedback connection**  of the **first NAND gate**, we have **overwritten** it with **1**. Now, we have **0 and 1** to calculate value for **Q'**.
+
+![image](https://user-images.githubusercontent.com/54589605/226554188-b448e5ba-c4df-4d60-ab15-894edc1154ed.png)
+
+> The **2ns** NAND gate will respond faster. We will get **0** and that **0** will act as the **feedback connection** value for the **first NAND gate**. As there was **1** as the value for **feedback connection**  of the **first NAND gate**, we have **overwritten** it with **0**. Now, we have **1 and 0** to calculate value for **Q'**.
+
+![image](https://user-images.githubusercontent.com/54589605/226554708-3b305ba0-5719-4d64-996f-f2ea9d2bad2c.png)
+
+### Cases
+
+![image](https://user-images.githubusercontent.com/54589605/226556269-4c52efb9-3e1c-4297-95e1-600693f4d6b7.png)
+![image](https://user-images.githubusercontent.com/54589605/226556283-07176a21-b232-4098-831e-35351921f85c.png)
+![image](https://user-images.githubusercontent.com/54589605/226556333-8348f6d8-5cdc-4ffd-adf0-7d80b8ba3fb9.png)
+
+> From the above **3 cases**, we can **conclude** that when we have given input of **SR = 00** followed by **SR = 11**. After **00** if we give **11**, we have **two** cases,
+
+1) **When delays are equal or equal delays** -> **Diwali comes** also called as **critical race**. The values continuously **loop** from **0 to 1**.
+2) **If unequal delays** -> We get **stable output**, but we cannot conclude whether the **output** will be **1 or 0**. It depends on the **delays of the gates**.
+
+## Conclusion
+
+![image](https://user-images.githubusercontent.com/54589605/226558143-1598751c-f738-4103-b4ff-0b99535ff10c.png)
+
+### Questions
+
+![image](https://user-images.githubusercontent.com/54589605/226559904-18c889cf-d4dc-4a85-8d99-f1230fa4be31.png)
+
+> After **Stable**, inputs are changed from **11** to **00**. 
+
+![image](https://user-images.githubusercontent.com/54589605/226560765-b29da70f-f6c4-4e3e-b062-3e6595b0c792.png)
+
+> We will get **critical race** as it is **looping** continuously.
+
+![image](https://user-images.githubusercontent.com/54589605/226561287-fc2a8cc5-1e2d-435a-957d-b3b47afb4da9.png)
+
+![image](https://user-images.githubusercontent.com/54589605/226562510-93c2a9dd-c060-4009-b837-16d41043a0dd.png)
+
+* Stable
+
+![image](https://user-images.githubusercontent.com/54589605/226562703-9ceb1e4b-1fe9-45eb-8dc4-88a72d1a7c48.png)
+
+* Stable and **Q=0**.
+
+![image](https://user-images.githubusercontent.com/54589605/226563534-def763c4-77d1-4cff-bc90-2ebe305ab99a.png)
+
+* Stable
+
+![image](https://user-images.githubusercontent.com/54589605/226563653-d7017252-b861-4cd1-ac3a-7f4b4788a206.png)
+
+* Stable and **Q=1**.
+
+## Cases
+
+![image](https://user-images.githubusercontent.com/54589605/226564059-f3801986-602d-4a98-aaa5-ce1b6c1e1537.png)
+![image](https://user-images.githubusercontent.com/54589605/226564110-5fed2d24-0f17-44ee-8d7a-643e28a37049.png)
+
+### Conclusion for above cases
+
+![image](https://user-images.githubusercontent.com/54589605/226564232-cfab74f4-b901-43b0-92d5-28b6f31800bd.png)
+
+### Questions
+
+![image](https://user-images.githubusercontent.com/54589605/226565932-67481eb4-f42d-4d05-8e3a-0320b3003678.png)
+
+> If **equal delays** mentioned then **C** option is **correct**. **Critical race**.
+
+* If X=0 then Y=0
+* If X=1 then Y=1
+
+![image](https://user-images.githubusercontent.com/54589605/226566320-e6587675-ebd5-4001-b393-2d9aa1eade0d.png)
+
+> Both are **ON** or Both are **OFF**.
+
+![image](https://user-images.githubusercontent.com/54589605/226570323-ee69e0e9-1589-4fc6-8985-4ab717b04fe5.png)
+
+> If nothing mentioned about delays, then take them as **equal**.
+
+![image](https://user-images.githubusercontent.com/54589605/226573199-199fb757-bc1c-4acb-ad8c-7540cac778cb.png)
+![image](https://user-images.githubusercontent.com/54589605/226574531-419ceea9-003d-4af3-a4b3-732933033cd6.png)
+![image](https://user-images.githubusercontent.com/54589605/226574740-93b81cd2-2ce0-4af8-8ab3-23db7c673c59.png)
+![image](https://user-images.githubusercontent.com/54589605/226574817-1dd61b40-4034-4476-93cb-9d2bab5ad06c.png)
+![image](https://user-images.githubusercontent.com/54589605/226575219-bf814188-4a12-4f72-a5dd-7aa1f00859d0.png)
+![image](https://user-images.githubusercontent.com/54589605/226575458-f4cd3345-bcb4-472e-a9cd-b026ca7560bc.png)
+![image](https://user-images.githubusercontent.com/54589605/226576875-d2408980-339e-4337-97e3-8ff4bf52db2a.png)
+![image](https://user-images.githubusercontent.com/54589605/226578008-6e2a58a8-ecba-4501-b230-affcab3745d1.png)
+
+> Depends on the **initial condition**. It is not mentioned in the **question**. 
+
+![image](https://user-images.githubusercontent.com/54589605/226578293-bebd44dd-106f-4a73-88a9-2815eb6a729b.png)
+
+![image](https://user-images.githubusercontent.com/54589605/226824576-8eef19cf-808b-44e6-8db6-fbe5b1a24623.png)
+
+> Always use the tables when solving the above **questions**.
+> Solve them **while revising**.
+> **Important topic** and **important questions**.
+
+## Flip-Flop (31) [22nd March 2023]
+
+> In case of **latch**, the moment we have changed the **inputs**, corresponding we will get the **output**.
+> In **latches**, whenever we have given the **input**, we will get the output.
+
+> In circuit, we need **additional control**, whenever we want, we will get the **output**.
+> Whenever we have said **YES**, then only the **output** should come. Otherwise, we will get **no output**.
+> For the  **additional control**, we use an  **additional block** called as **clock signal**.
+> If clock is **0** then **we don't want the output, it has to wait**.
+> If clock is **1** then **we have said YES, and we will get the output**.
+> To have **additional control** over the **latch** we use an **additional block** called as **clock signal**.
+
+![image](https://user-images.githubusercontent.com/54589605/226826753-d041b7ce-8da0-47f6-8dd1-351bf9071f6b.png)
+
+> The combination of **latch + clock -> Flip Flop**.
+
+## SR Flip Flip using NAND latch
+
+![image](https://user-images.githubusercontent.com/54589605/226827094-741a0726-4f95-4788-826c-b7ddcc3f9558.png)
+![image](https://user-images.githubusercontent.com/54589605/226827331-f74783d5-7c17-427b-abba-3dbcd42fdb5c.png)
+
+> **YES**. In latch we could take **Q and Q'** anywhere but in SR Flip Flop, their(Q and Q') positions are **fixed** like this.
+> Earlier they were not **fixed**, now they are.
+
+![image](https://user-images.githubusercontent.com/54589605/226827808-90f5bfc9-19ce-46e6-8cc7-023842e85ef3.png)
+
+> **Q+ or Q(n+1)** is next state. **Q'** is complement of **Q**.
+
+![image](https://user-images.githubusercontent.com/54589605/226828108-17bead8b-3455-40b9-8613-1bf8ba9bd127.png)
+![image](https://user-images.githubusercontent.com/54589605/226828799-fab5c0ed-d96f-4cf7-9a8c-69390527e8e9.png)
+
+> When **clock = 0**, irrespective of **S and R** or inputs. When one of the inputs for **NAND** gate is **zero(0)** we will get **1** as the output. When the inputs for **NAND latch** were **11**, we would get **hold/memory**. So we would get **Q+ = Q**, as **Q** is the previous state.
+
+![image](https://user-images.githubusercontent.com/54589605/226829502-ee6315f7-a9c9-4d8a-88c7-f22e366b93e3.png)
+
+> When **clock = 1, S=0, R=0 and Q=0**, **Q=0** is the initial value we have taken. When the inputs for **NAND latch** were **11**, we would get **hold/memory**. So we would get **Q+ = 0**, as **Q=0** is the previous state.
+
+> When **clock = 1, S=0, R=0 and Q=1**, **Q=1** is the initial value we have taken. When the inputs for **NAND latch** were **11**, we would get **hold/memory**. So we would get **Q+ = 1**, as **Q=1** is the previous state.
+
+![image](https://user-images.githubusercontent.com/54589605/226830437-5767bc96-4e09-4b1c-bf45-ae03f3d305d2.png)
+
+> When **clock = 1, S=0, R=1 and Q=0**, **Q=0** is the initial value we have taken. We know **Q=0 and Q'=1**. For the first **NAND gate of the latch**, we would get **11** as the input and got **Q=0** as the output. For the second **NAND gate of the latch**, we would get **00** as the input and got **Q'=1** as the output. So we would get **Q+ = 0**, as we got **Q=0** as the output from the first NAND latch.
+
+![image](https://user-images.githubusercontent.com/54589605/226831522-53fcfab2-e321-43c6-b6b9-4cc8da8f7ccc.png)
+
+> When **clock = 1, S=0, R=1 and Q=1**, **Q=1** is the initial value we have taken. We know **Q=1 and Q'=0**. For the first **NAND gate of the latch**, we would get **10** as the input and got **Q=1** as the output. For the second **NAND gate of the latch**, we would get **10** as the input and got **Q'=1** as the output.
+
+![image](https://user-images.githubusercontent.com/54589605/226832224-d0f8cef9-fef0-4867-b9f8-93ea86fb7606.png)
+
+> It is not **stable**. **Q' 's 1** will come to the **feedback connection** of first NAND gate and **overite** the **0**. 
+
+![image](https://user-images.githubusercontent.com/54589605/226836308-7ef9a72f-af37-4ad0-bb92-749ed9844f1e.png)
+
+> It is not **stable**. **Q's 0** will come to the **feedback connection** of second NAND gate and **overite** the **1**. 
+
+![image](https://user-images.githubusercontent.com/54589605/226836443-6cc36ddb-12d7-46af-b019-a6d1cb554af7.png)
+
+* Stable and **Q+ = 0** as **Q=0**.
+
+![image](https://user-images.githubusercontent.com/54589605/226837310-dca2a2b2-ebb1-4b91-a705-8ce48cf7f612.png)
+
+> When **clock = 1, S=1, R=0 and Q=0**, **Q=0** is the initial value we have taken. We know **Q=0 and Q'=1**. For the first **NAND gate of the latch**, we would get **01** as the input and got **Q=1** as the output. For the second **NAND gate of the latch**, we would get **01** as the input and got **Q'=1** as the output.
+
+* Not stable. Replace the **0** with **1**.
+* Not stable. Replace the **1** with **0**.
+* Stable. **Q+ =1**, since **Q=1**.
+
+![image](https://user-images.githubusercontent.com/54589605/226837719-8b197244-8e26-49ef-81c0-74d410dd16be.png)
+
+> When **clock = 1, S=1, R=0 and Q=1**, **Q=1** is the initial value we have taken. We know **Q=1 and Q'=0**. For the first **NAND gate of the latch**, we would get **00** as the input and got **Q=1** as the output. For the second **NAND gate of the latch**, we would get **11** as the input and got **Q'=0** as the output.
+
+* Stable. **Q+ =1**, since **Q=1**.
+
+![image](https://user-images.githubusercontent.com/54589605/226837979-2f970d48-1d8e-451e-9733-457a84b4ac4c.png)
+
+> When **clock = 1, S=1, R=1 and Q=0**, **Q=0** is the initial value we have taken. We know **Q=0 and Q'=1**. For the first **NAND gate of the latch**, we would get **01** as the input and got **Q=1** as the output. For the second **NAND gate of the latch**, we would get **00** as the input and got **Q'=1** as the output.
+
+* Not stable. Replace **0** with **1**.
+* Stable. But **Q and Q'** have the same value i.e **1**. So it is an **invalid** situation. So, **Q+ =X**, since **Q=Q'=1**. They should not be **same**.
+
+![image](https://user-images.githubusercontent.com/54589605/226838638-79ddea6e-7ddc-4788-a303-18fd4fed3556.png)
+
+> When **clock = 1, S=1, R=1 and Q=1**, **Q=1** is the initial value we have taken. We know **Q=1 and Q'=0**. For the first **NAND gate of the latch**, we would get **00** as the input and got **Q=1** as the output. For the second **NAND gate of the latch**, we would get **10** as the input and got **Q'=1** as the output.
+
+* Not stable. Replace **0** with **1**.
+* Stable. But **Q and Q'** have the same value i.e **1**. So it is an **invalid** situation. So, **Q+ =X**, since **Q=Q'=1**. They should not be **same**.
+
+![image](https://user-images.githubusercontent.com/54589605/226839764-824cf160-e055-4afa-9782-afab406737e3.png)
+
+## SR Flip Flop using NOR latch
+
+![image](https://user-images.githubusercontent.com/54589605/226840326-a15233b8-e532-4226-8410-429993064ea9.png)
+
+> If **clock =0**, then **hold** state.
+
+![image](https://user-images.githubusercontent.com/54589605/226840670-b7448f53-555e-4bb1-ae0b-c9c12cb45c29.png)
+
+> For **clock=1, S=0, R=0 and Q=0** and **clock=1, S=0, R=0 and Q=1**, we are getting **00** as the input for the **NOR latch**, which is essentially **hold state** i.e previous state value in present state.
+
+![image](https://user-images.githubusercontent.com/54589605/226842450-138f72ad-d4bd-491a-9841-d3b08552b0e8.png)
+
+> For **clock=1, S=0, R=1 and Q=0**, initial value of **Q=0**, we are getting **01** as the input for the **NOR latch**. We got **Q=0**, so **Q+ = 0**.
+
+![image](https://user-images.githubusercontent.com/54589605/226843390-266c19df-3d43-4ace-842d-144c0b8679e5.png)
+
+> For **clock=1, S=0, R=1 and Q=1**, initial value of **Q=1**, we are getting **01** as the input for the **NOR latch**. We got **Q=0**, so **Q+ = 0**.
+
+![image](https://user-images.githubusercontent.com/54589605/226844237-25b3bb0a-3e58-4728-8220-ed38fade86fd.png)
+
+> For **clock=1, S=1, R=0 and Q=0**, initial value of **Q=0**, we are getting **10** as the input for the **NOR latch**. We got **Q=1**, so **Q+ = 1**.
+
+![image](https://user-images.githubusercontent.com/54589605/226844538-af334ea0-220c-4609-bf58-9e9c6ef33fc6.png)
+![image](https://user-images.githubusercontent.com/54589605/226845562-57ca658f-84e6-4369-8113-b115438a6aa0.png)
+
+* Stable
+
+![image](https://user-images.githubusercontent.com/54589605/226845802-bfa8666b-765a-4b73-9828-c3782d1d5e99.png)
+
+> For **clock=1, S=1, R=1 and Q=0**, initial value of **Q=0**, we are getting **11** as the input for the **NOR latch**. We got **Q=Q'=0**, which means **invalid situation**. so **Q+ = X**. 
+
+![image](https://user-images.githubusercontent.com/54589605/226846642-bce76c07-74d9-4b2f-943c-429029d27184.png)
+
+> For **clock=1, S=1, R=1 and Q=1**, initial value of **Q=1**, we are getting **11** as the input for the **NOR latch**. We got **Q=Q'=1**, which means **invalid situation**. so **Q+ = X**. 
+
+> In **SR Flip-Flop**, we cannot change the terminals(S,R,Q and Q'). They are **fixed**.
+
+![image](https://user-images.githubusercontent.com/54589605/226847774-abb71dee-e679-4635-9778-4fb12d053f88.png)
+![image](https://user-images.githubusercontent.com/54589605/226847861-9616e090-b52a-4d3f-9b09-a591f0bbeacb.png)
+
+> We cannot say **SR flipflop with NAND latch** or **SR flipflop with NOR latch** as it can be **anything**, so it will work as a single only. Output of both the **cases** will be **same** only. So, we will call it as **SR flip flop**. It can be **NAND or NOR**, anything will do.
+
+![image](https://user-images.githubusercontent.com/54589605/226848571-0837af1a-ecfc-4ea8-b05e-00b8ac5a270c.png)
+
+> Yes, and we don't care about it.
+
+![image](https://user-images.githubusercontent.com/54589605/226848897-7e25e174-57a8-43d6-a709-eb838ba3a5f8.png)
+
+> For **clock=1, S=0, R=0**, we are getting **same** as the previous values. It is called as the **hold** state.
+
+![image](https://user-images.githubusercontent.com/54589605/226849288-a7cfeaa5-271a-4726-98d4-21bbb4c3782c.png)
+
+> For **clock=1, S=0, R=1**, irrespective of the **previous state**, we are getting **0** as the output for the **next state(Q+)**. It is called as the **reset** state.
+
+![image](https://user-images.githubusercontent.com/54589605/226849776-83ba6bb7-8288-47d0-9f29-60dd1c9670f0.png)
+
+> For **clock=1, S=1, R=0**, irrespective of the **previous state**, we are getting **1** as the output for the **next state(Q+)**. It is called as the **set** state.
+
+![image](https://user-images.githubusercontent.com/54589605/226850053-d5bc16bb-8c73-4d47-8a95-4ed1775f37a0.png)
+![image](https://user-images.githubusercontent.com/54589605/226850118-818974ac-aadd-4c94-b1ad-18bbca649b56.png)
+
+> For both **NAND and NOR**, when it was **clock=1, S=1, R=1**, we are getting **invalid or don't care** as the output for the **next state(Q+)**. It is called as the **invalid** state.
+
+![image](https://user-images.githubusercontent.com/54589605/226850437-8c8b3c38-534b-4188-99b0-2a9ef0a14ec6.png)
+
+> For **clock=0**, **SR values are don't care(X)**. so **Q+= Q** and **hold/previous** state.
+> > For **00**, **Q+= Q** and **hold/previous** state.
+> For **01**, **R** pin is activated, so **Q+= 0** and **reset** state.
+> For **10**, **S** pin is activated, so **Q+= 1** and **set** state.
+> For **11**, so **Q+= X** and **invalid** state.
+
+
+> We don't need to remember **latch** table.
+> We have to remember **SR flip flop** table.
+
+## Characteristic Table
+
+![image](https://user-images.githubusercontent.com/54589605/226852530-29accff6-a852-4f7b-8155-be9eac41a6a6.png)
+
+> Above equation is **not valid** for **S=1 and R=1** inputs.
+
+![image](https://user-images.githubusercontent.com/54589605/226852768-42927bbc-56f2-45d4-bfd4-762bf57f655b.png)
+
+> Substitude **S,R and Q** values in the equation, to get **Q+** value.
+
+> For **S=0, R=1 and Q=1**, we put in the equation
+
+* S + R'Q -> 0 + 1'1 -> 0 + 01 -> 0 + 0 -> 0 
+
+> So, **Q+ =0**, which is correct we can check from the **table above**.
+
+![image](https://user-images.githubusercontent.com/54589605/226853407-3594d03a-1e9f-4096-a50d-f089ccd22e4e.png)
+
+## Excitation table
+
+> In the question, some program is given and the question is asking to find the **output** of the program. This is called as **analysis**.
+> The output is given in the question, the question is asking to **write the program**, to get the output. This is called as **designing**.
+
+> These are some ways to **ask questions**.
+
+![image](https://user-images.githubusercontent.com/54589605/226854676-d8e5b2c3-f705-462b-ab0f-3eb8edfd4902.png)
+
+> The **characteristic** table is for **analysis(to get or find the output)** purpose. By using the **inputs**, we can get the **outputs**. Knowing the **inputs** and getting the **outputs** is called as **analysis** purpose.
+> The **excitation** table is for **designing** purpose. By knowing the **outputs** and getting the **inputs** is called as **designing** purpose.
+
+### Excitation table
+
+> Initial output **Q=0**. We need to get the next output **Q+=0** also. To get the initial output of **0** to the next state output of **0**, what **inputs** we need to given.
+> What should be the **inputs** to get the **0 -> 0** as the output.
+
+![image](https://user-images.githubusercontent.com/54589605/226856273-1df806ea-c764-4751-ae42-28188e5fa79a.png)
+
+> By knowing the **outputs**, we need to get the **inputs**. We need to use the **excitation** table.
+
+![image](https://user-images.githubusercontent.com/54589605/226856566-21d4ab71-f002-4880-b8c4-c2eadd9fdc1e.png)
+![image](https://user-images.githubusercontent.com/54589605/226857111-41463b2f-3bf9-4cef-a1c5-24de675b2039.png)
+
+> **Orange line**. For **Q=0 and Q+=0**, we see that we can get those outputs by **S=0 and R=0** and **S=0 and R=1**. So, **S** is fixed to **0** but **R** changes which means it doesn't depend on **R** value. **R** is **don't care(X)**. so, **S=0 and R=X**.
+
+![image](https://user-images.githubusercontent.com/54589605/226857261-a97ecb50-e755-421f-a5f6-bd395f9b049e.png)
+![image](https://user-images.githubusercontent.com/54589605/226857575-8c6c5522-2a1e-4793-a433-765dc94fdfac.png)
+
+> **Green line**. There is only one option to get **0 -> 1** for **Q -> Q+**, which is **S=1 and R=0**.
+
+![image](https://user-images.githubusercontent.com/54589605/226857639-45ae127f-8461-46cc-8c43-b72382ba3f20.png)
+![image](https://user-images.githubusercontent.com/54589605/226857852-1b00d122-2182-4254-ae66-cfc0fa0de4df.png)
+
+> **Red line**. There is only one option to get **1 -> 0** for **Q -> Q+**, which is **S=0 and R=1**.
+
+![image](https://user-images.githubusercontent.com/54589605/226857947-808b010a-0654-4b6d-ad8a-91ee61773850.png)
+![image](https://user-images.githubusercontent.com/54589605/226858695-d453e7d3-dd2f-41e7-92ee-d003765d9fcf.png)
+
+> **Blue line**. There is only **two** option to get **1 -> 1** for **Q -> Q+**, which are **S=0 and R=0** and **S=1 and R=0**. So, **S** is changing which means it is not dependent on **S** and **S** is don't **care(X)**. **R** is constant/same. So, **S=X and R=0** to get **Q=1 and Q+=1**.
+
+### State Diagram
+
+> **Output** is called as **state**.
+> **Starting point** is the **initial** point. **arrow** indicates the **movement/move**.
+
+![image](https://user-images.githubusercontent.com/54589605/226859439-fde1ca43-698d-4fd7-95e7-f59208a02ede.png)
+![image](https://user-images.githubusercontent.com/54589605/226859658-c2f39a81-21b1-4a48-ab5d-d3ef032940f9.png)
+
+## Drawbacks of SR flip flop
+
+> **00 -> 11** -> Critical race/diwali.
+
+![image](https://user-images.githubusercontent.com/54589605/226860479-f9a13b18-6d58-4078-99a3-e7deaded4511.png)
+
+> Disadvantage of SR flip-flop
+
+## JK Flip Flop
+
+> Updated/modified version of SR flip flop.
+
+![image](https://user-images.githubusercontent.com/54589605/226908048-8696eb3c-189f-4983-a791-501f42efd7e2.png)
+![image](https://user-images.githubusercontent.com/54589605/226907965-87dc7b02-9df7-4d8a-9e0f-45245e130fbe.png)
+![image](https://user-images.githubusercontent.com/54589605/226909001-10e5546a-03e6-4355-8cad-689d6e24fb8f.png)
+
+> The problem of **SR flip flop** with **11** input gave **invalid** situation. That is fixed in **JK flip flop**, we are getting **Q'** for **11** input.
+> That problem is **eliminated**.
+
+![image](https://user-images.githubusercontent.com/54589605/226909752-325c56c7-818e-429b-acb3-50c73d06c2c1.png)
+
+* Toggle -> Complement to the previous output.
+
+## Characteristic Table
+
+![image](https://user-images.githubusercontent.com/54589605/226910622-8380b40d-52f2-470e-a5df-82b67376632e.png)
+
+> Same use as mentioned in **SR flip flop**.
+
+## Excitation table
+
+> Same use as mentioned in **SR flip flop**.
+
+![image](https://user-images.githubusercontent.com/54589605/226911002-f8f8ec22-3436-4180-ab1f-4b6abeece623.png)
+
+> **Blue line**. There is only **two** option to get **0 -> 0** for **Q -> Q+**, which are **J=0 and K=0** and **J=0 and K=1**. So, **K** is changing which means it is not dependent on **K** and **K** is don't **care(X)**. **J** is constant/same. So, **J=0 and K=X** to get **Q=0 and Q+=0**.
+
+![image](https://user-images.githubusercontent.com/54589605/226911827-334aa127-e771-4e37-8b5b-2d5b72f7579b.png)
+
+> **Orange line**. There is only **two** option to get **0 -> 1** for **Q -> Q+**, which are **J=1 and K=0** and **J=1 and K=1**. So, **K** is changing which means it is not dependent on **K** and **K** is don't **care(X)**. **J** is constant/same. So, **J=1 and K=X** to get **Q=0 and Q+=1**.
+
+![image](https://user-images.githubusercontent.com/54589605/226912157-efd9476a-f483-4b8e-873c-1dc3bd62a799.png)
+
+> **Green line**. There is only **two** option to get **1 -> 0** for **Q -> Q+**, which are **J=0 and K=1** and **J=1 and K=1**. So, **J** is changing which means it is not dependent on **J** and **J** is don't **care(X)**. **K** is constant/same. So, **J=X and K=1** to get **Q=1 and Q+=0**.
+
+![image](https://user-images.githubusercontent.com/54589605/226912610-0de22e77-006e-42f8-b6ed-45cbf3bcc70f.png)
+
+> **Red line**. There is only **two** option to get **1 -> 1** for **Q -> Q+**, which are **J=0 and K=0** and **J=1 and K=0**. So, **J** is changing which means it is not dependent on **J** and **J** is don't **care(X)**. **K** is constant/same. So, **J=X and K=0** to get **Q=1 and Q+=1**.
+
+### Excitation table
+
+![image](https://user-images.githubusercontent.com/54589605/226912928-0e4a5d02-4eaf-4255-a40e-39ac7334a795.png)
+
+### State Diagram
+
+![image](https://user-images.githubusercontent.com/54589605/226913145-21ec295b-ceab-4327-ab02-bcba88fec75b.png)
+
+> Inside the **JK flip flop**, we have **SR flip flop**.
+
+## **D** flip flop
+
+> It is called as **Data flip flop** or a **transparent flip flop**. It cannot hide anything.
+
+![image](https://user-images.githubusercontent.com/54589605/226914830-988fb46a-c101-4166-9d75-b39a18877156.png)
+![image](https://user-images.githubusercontent.com/54589605/226915502-0e34e973-f70f-4af9-bc07-2caa2267f1a2.png)
+
+> Whatever **input** we have given, the **same** thing will come out as output.
+> For **D=0**, we get **01** as the input for the **flip flop**. **01** means **reset** and set **Q+ = 0**.
+> For **D=1**, we get **10** as the input for the **flip flop**. **10** means **set** and set **Q+ = 1**.
+> Hence, **Q+ = D**, which means whatever input we have given, the same thing only will come out as the **output**.
+
+* D -> Input **D**.
+
+![image](https://user-images.githubusercontent.com/54589605/226917688-42e372cc-8eeb-4cc5-b770-9404ab6c0e96.png)
+
+## Characteristic table
+
+> The **output** completely depends on the **input**. It does not depend on **initial values** also.
+
+![image](https://user-images.githubusercontent.com/54589605/226918356-e31e1089-a81d-4bf8-a9d6-f7a1a1767c08.png)
+
+> As the **output** complemely depends on the **input**. It does not depend on **initial values** also.
+> As **clock=0 and D=X**, **Q+= Q**, which means **hold state**.
+> As the input is **D=0** then **Q+ = 0**, as **D=0** was the **input**.
+> As the input is **D=1** then **Q+ = 1**, as **D=1** was the **input**.
+
+![image](https://user-images.githubusercontent.com/54589605/226919284-1737b015-6571-4c74-9f7e-d64e0e10031f.png)
+
+> The **chaacteristic equation** proves that the **output** completely depends on the **input**.
+
+## Excitation table
+
+> For the outputs(Q and Q+), we need to get the input(D).
+> We know that **Q+ = D** or **D= Q+**, so the output(Q+) completely depends on the input(D).
+
+* As **Q+=0** so, **D=0**.
+* As **Q+=1** so, **D=1**.
+* As **Q+=0** so, **D=0**.
+* As **Q+=1** so, **D=1**.
+
+> So, **output** depends on **input** and **input** depends on **output**.
+
+![image](https://user-images.githubusercontent.com/54589605/226923153-1f2729c1-d65d-4098-8139-a7cccb07202d.png)
+
+## State Diagram
+
+![image](https://user-images.githubusercontent.com/54589605/226923367-fa42aa66-6a57-4a5c-84e8-f431f6e183bf.png)
+![image](https://user-images.githubusercontent.com/54589605/226923616-e564c195-77df-47ae-a70b-b8b3bfed3259.png)
+
+> Both are **Q+** only.
+
+### Observation
+
+> We are using **JK flip flop**.
+
+* Can we use **SR flip flop**? In place of **JK flip flop** can we directly say **SR flip flop**?
+
+> **YES**. Explained below.
+> **SR flip flop** has a problem i.e for **11** input we get **invalid** state.
+> For **D flip flop** as there is a **NOT gate**, we will never get **same input**. So we will never get **11** input.
+> So we can say that **D flip flop** has no **invalid state** if we use **SR flip flop** here instead of **JK flip flop**.
+
+![image](https://user-images.githubusercontent.com/54589605/226926290-64b2c229-f492-452c-b1e0-0af0a37ca501.png)
+
+> SR flip flop will work here.
+
+
+
+## T Flip Flop
+
+> For **clock = 0** and **T=X**, we get **hold state**.
+> For **clock = 1** and **T=0**, we get **00** as the input for **JK flip flop** and it gives **hold state**.
+> For **clock = 1** and **T=1**, we get **11** as the input for **JK flip flop** and it gives **toggle state**.
+
+![image](https://user-images.githubusercontent.com/54589605/226926419-b642e41e-310e-482b-9cc5-7d0072b91f34.png)
+
+### Observation
+
+* Can we use **SR flip flop**? In place of **JK flip flop** can we directly say **SR flip flop**?
+
+> **NO**.
+> For **T=1**, we will get **11** input which will result in **invalid** state.
+> So we cannot use **SR flip flop** in **T flip flop**.
+
+## Characteristic table
+
+> For **clock = 0** and **T=X and Q=Q**, we get **Q+=Q**, which is **hold state**.
+> For **clock = 1** and **T=0 and Q=0**, and we know that **T=0** is **hold state** and **Q=0** which is the initial state, so we get **Q+=0**, which is **hold state**.
+> For **clock = 1** and **T=0 and Q=1**, and we know that **T=0** is **hold state** and **Q=1** which is the initial state, so we get **Q+=1**, which is **hold state**.
+> For **clock = 1** and **T=1 and Q=0**, and we know that **T=1** is **toggle state** and **Q=0** which is the initial state, so we get **Q+=1**, which is **toggle state**.
+> For **clock = 1** and **T=1 and Q=1**, and we know that **T=1** is **toggle state** and **Q=1** which is the initial state, so we get **Q+=0**, which is **toggle state**.
+
+![image](https://user-images.githubusercontent.com/54589605/226928942-2890ee82-bf4c-42ff-9bcd-d1a01b3d3b4f.png)
+
+## Excitation Table
+
+![image](https://user-images.githubusercontent.com/54589605/226929528-744fcb83-8f7b-4b1a-870b-0cc638b90f44.png)
+
+* Q+ = T Ex-OR Q
+* T = Q Ex-OR Q+ [We can do this and find the values of **T** here]
+
+## State Diagram
+
+![image](https://user-images.githubusercontent.com/54589605/226930163-ea502b7d-f26f-410c-aee6-2bb33f5eb080.png)
+
+### Doubts
+
+![image](https://user-images.githubusercontent.com/54589605/226931385-92962299-e46e-4c5c-8e4f-7b61319bce31.png)
 
 
 
@@ -2728,6 +5581,15 @@ y= M(0,3)
 
 
 
+
+
+
+
+
+
+* Find Digital Revision classes.
+
+* Upload the rest of the doubts of digital, uploaded till **Image 15**. Some of the solutions are present check them out. (**DONE**)
 * After This video, do the **5** daily assignments. (**DONE**)
 * After that do **DPP 1**. (**DONE**)
 
@@ -3071,6 +5933,106 @@ y= M(0,3)
 
 * Link -> https://unacademy.com/quiz/quiz-iii/CXYPV272GG/solutions/SP_PUXNX0XD1XLJZO351
 
+### Solutions
+
+### Q4
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/C6A01A8C34
+
+> Here, we have to create the truth table.
+
+* 0 0 -> 0 [Open circuit]
+* 0 1 -> 1 [Closed Circuit and bulb glows]
+* 1 0 -> 1 [Closed Circuit and bulb glows]
+* 1 1 -> 0 [Open circuit]
+
+![image](https://user-images.githubusercontent.com/54589605/224918888-1c5f45d2-0652-4fe6-849e-5e4ed4819de5.png)
+![image](https://user-images.githubusercontent.com/54589605/224919060-3cd9ec97-d183-4748-905e-7f652c3f3a78.png)
+![image](https://user-images.githubusercontent.com/54589605/224919282-10bfc786-b742-4d3b-ba94-1a6098cd5f45.png)
+
+> The circuit is behaving like an **odd '1'** detector. We have that **Ex-OR** acts as an **odd '1'** detector.
+
+### Q5
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/B0C11533F7
+
+![image](https://user-images.githubusercontent.com/54589605/224927374-2ddc6538-d88d-4b13-8131-2610673d5b7f.png)
+![image](https://user-images.githubusercontent.com/54589605/224927448-2b5f6d87-7ebe-4f23-8432-5aac22e36e55.png)
+![image](https://user-images.githubusercontent.com/54589605/224917477-7ddf3104-5cd6-4ea9-a0f6-e0171bff822b.png)
+![image](https://user-images.githubusercontent.com/54589605/224917435-f1b5a7e4-ddc5-4c02-89da-7214831d39b8.png)
+
+> The video solution also mentioned that the **3rd variable** is not mentioned in the options. Check it.
+
+
+### Q6
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/7927390292
+
+### Q7
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/E662A2BF2C
+
+> The video solution also said the answer should be **F + (A + B + C) * DE**. Which is option **A**, but the quiz gave **option D** as the answer. 
+
+![image](https://user-images.githubusercontent.com/54589605/224923101-605058de-e6ce-44c6-b43a-ccf064c16b6d.png)
+![image](https://user-images.githubusercontent.com/54589605/224923426-31bd51ef-3074-4a81-ac10-767a50dc2317.png)
+![image](https://user-images.githubusercontent.com/54589605/224923498-9f313a8c-d681-451b-9a7c-45772042db74.png)
+
+### Q8
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/6E1DF1ADA6
+
+> Waiting for the solution. Got solution for a different question.
+
+### Q9
+
+
+### Q10
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/2F1B48BB6E
+
+![image](https://user-images.githubusercontent.com/54589605/224928674-13c5acd4-460d-424a-ada9-5f7b1fb7ab4f.png)
+![image](https://user-images.githubusercontent.com/54589605/224929243-2890582f-4b19-4861-815b-57cbd95540ec.png)
+![image](https://user-images.githubusercontent.com/54589605/224929403-e5ff8f1a-3528-4a61-86e5-1106485fe4a0.png)
+
+> Only **b and c** were correct but in the quiz **a,b and c** were correct.
+
+
+## Quiz-4 [14th March 2023]
+
+* Link -> https://unacademy.com/quiz/quiz-iv/DCB01ZEY3S/solutions/SP_QVL4A30HZ0V6VOTZG
+
+![image](https://user-images.githubusercontent.com/54589605/224941205-86b0b2c5-32a3-4ff0-aef5-3984a26a060a.png)
+![image](https://user-images.githubusercontent.com/54589605/224941222-42fe7b0c-080c-4fcd-95bc-369a78af0d0a.png)
+![image](https://user-images.githubusercontent.com/54589605/224941240-ad61594b-904d-4b4c-b7b9-0097e8a76a3d.png)
+
+### Q2
+
+![image](https://user-images.githubusercontent.com/54589605/224943429-e586278d-2a8d-4336-be07-eacb48e2cf80.png)
+![image](https://user-images.githubusercontent.com/54589605/224943482-048840e7-ee10-4938-b1f0-4ce07b324241.png)
+
+> Here, the numbers are in different number systems. We have to guess the number systems then it would be easier to find the number.
+
+### Q7
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/350A12D163
+
+> The first video is a solution of a **different** question.
+
+![image](https://user-images.githubusercontent.com/54589605/225016454-f83098d4-c65f-4e13-a7bd-c83ebb3f7a26.png)
+![image](https://user-images.githubusercontent.com/54589605/225016807-02d3222d-1135-4986-b377-cd0d63254a4b.png)
+
+> My Solution after seeing the above solution for similar type question.
+
+![image](https://user-images.githubusercontent.com/54589605/225017743-55e7b256-f6a4-4fbe-b177-13214c9e682c.png)
+![image](https://user-images.githubusercontent.com/54589605/225019226-48c4334b-8fa0-4d44-ba22-9bbbf1cec2b7.png)
+
+### Q10
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/29CF7082F7
+
+![image](https://user-images.githubusercontent.com/54589605/225279680-a289ca1d-2f14-478c-868c-4f1d0b841644.png)
+![image](https://user-images.githubusercontent.com/54589605/225279812-3a89d440-1551-45cf-8ce8-77f1b1ecf24c.png)
 
 
 
