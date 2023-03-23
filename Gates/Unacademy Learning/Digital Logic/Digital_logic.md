@@ -5957,6 +5957,296 @@ y= M(0,3)
 ![image](https://user-images.githubusercontent.com/54589605/227173254-9636ae53-a804-42bb-b21d-356e6885618f.png)
 ![image](https://user-images.githubusercontent.com/54589605/227173274-1e0073e0-e391-45bb-9c78-1b52464c02a1.png)
 
+##  (33) [23rd March 2023]
+
+### Doubts
+
+![image](https://user-images.githubusercontent.com/54589605/227215446-00b71f47-5133-44ab-8b84-39399b1edf86.png)
+
+> Sir did it wrong. Correct it. It will be **En'**.
+
+### Questions
+
+* Remember excitation table of SR [**IMPORTANT**]
+
+> First remember **OX**. Then at the last reverse of **OX** which is **X0**.
+
+![image](https://user-images.githubusercontent.com/54589605/227219264-dfa1683d-002a-4aac-a9a5-3b6d11d5d926.png)
+![image](https://user-images.githubusercontent.com/54589605/227219169-09348bd3-0a6c-46dd-8f23-74b005a535f7.png)
+![image](https://user-images.githubusercontent.com/54589605/227219001-5f408f7a-2c11-4cb1-8fbd-ce4efcfb05d9.png)
+
+> Like this we can convert any flip flop to any flip flop.
+
+## Flip Flop Conversion summary
+
+![image](https://user-images.githubusercontent.com/54589605/227219539-bfc40aee-cac5-4258-899a-69eb76468558.png)
+
+![image](https://user-images.githubusercontent.com/54589605/227220867-98995164-4ae3-4833-8207-95381117f7db.png)
+![image](https://user-images.githubusercontent.com/54589605/227221133-469c2112-2c5b-421f-afb1-b2e6e53474cd.png)
+![image](https://user-images.githubusercontent.com/54589605/227221204-576237d9-8c18-49ec-815b-abdd553e10cc.png)
+
+> **B and D** are **same**.
+
+> We need to find the **characteristic equation of the required gate**. Here **T** is the required gate and **SR** is given.
+
+* Characteristic equation of SR(Q+) -> S + R'Q
+* Characteristic equation of T(Q+) -> T Ex-OR Q
+
+> From the **options** we need to check which satisfies the **Characteristic equation of T**. We need to put the values of **S and R**, into the Characteristic equation of SR**.
+
+![image](https://user-images.githubusercontent.com/54589605/227226583-d87db6af-6e07-4912-a478-81a5d45cdfef.png)
+
+> We need to find the **characteristic equation of the required gate**. Here **JK** is the required gate and **T** is given.
+
+* Characteristic equation of JK(Q+) -> JQ' + K'Q
+* Characteristic equation of T(Q+) -> T Ex-OR Q
+
+> From the **options** we need to check which satisfies the **Characteristic equation of JK**. We need to put the values of **T**, into the Characteristic equation of T**
+
+## Shift Registers
+
+> For **storage** purpose.
+
+> Whatever data we have entered into the register, that **same data** must be present inside. No data modification required.
+
+> Each flip flop can store **1 bit** of data only.
+
+* Which flip flop can maintain the **same data** in the **input phase**, whatever data we have entered, same data will come out as **output**?
+
+> **D** flip flop or transparent flip flop.
+
+* Characteristic eq. of D -> Q+ = D.
+
+> Whatever data we have entered, same data will be available as the **output** location also.
+
+> For **registers**, we will generally prefer **D flip flops**.
+
+![image](https://user-images.githubusercontent.com/54589605/227234688-16a90b23-4438-418b-b7c8-ab25ed0a1f8e.png)
+
+* If we don't have **D flip flop**, then what to do? If we have a different flip flop?
+
+> Whatever flip flop we have. We need to ensure that it behaves just like a **D flip flop**.
+
+* Serial Data -> One after another. Depends on **time**. 
+* Parallel data -> Depends on **space**, point to point
+
+![image](https://user-images.githubusercontent.com/54589605/227238158-586a41bf-61b0-4dc9-bb6b-971c2844cf53.png)
+
+### Types of registers
+
+![image](https://user-images.githubusercontent.com/54589605/227238323-d540cf95-5de3-4503-a9db-8901ec3411f9.png)
+
+### Serial In Serial Out
+
+* Serial in -> Only Entrance always. No any other entrance.
+* Serial out -> Only Exit always
+
+![image](https://user-images.githubusercontent.com/54589605/227238798-309c7c51-7bb8-4bf2-a9e2-0c2288de7b0c.png)
+
+* Random data -> wxyz
+
+* From where we need to start? From MSB or LSB?
+
+> From **LSB**. 
+
+> Initial values are all **zeroes(0)**. Reseted completely.
+
+> For the flip flops we have given the **same** clock
+
+> For **D2** we got **0**. For **D1** we got **0**. For **D0** we got **0**
+
+![image](https://user-images.githubusercontent.com/54589605/227240268-924e7e8b-2cb2-4453-842e-6466090d9c7f.png)
+
+> Initially.
+
+> When we apply **one(1) clock pulse**. The input **z**, will become the output of the flip flop. Since **D flip flop**.
+
+![image](https://user-images.githubusercontent.com/54589605/227240797-8cdf2f38-96fd-4868-b07b-39e9782043de.png)
+
+> After **1 clock pulse**. This is the scenario. First clock is **completed**.
+
+> We applied the second input **y**. For the **second clock pulse**.
+
+![image](https://user-images.githubusercontent.com/54589605/227241554-ab870b63-e9bf-4f07-a79c-3e61171d4e43.png)
+![image](https://user-images.githubusercontent.com/54589605/227241632-07944ac5-1ab5-4898-87be-f975b12ffc44.png)
+
+> After **second clock pulse**. This is the scenario. Second clock is **completed**.
+
+![image](https://user-images.githubusercontent.com/54589605/227241961-a11a60d3-2293-45d8-867e-37e278a03fa4.png)
+
+> **X** is the third input. We apply **clock signal now**.
+
+![image](https://user-images.githubusercontent.com/54589605/227242145-ca98f2c6-73bb-47d6-9e7d-7f76afa104f2.png)
+![image](https://user-images.githubusercontent.com/54589605/227242343-16333a3b-01c7-4e29-9509-81b20267b61a.png)
+
+> After **4** clock pulses. State of the **register**.
+
+> Data is getting shifted to the right. It is **right shifting**. That's why it s called as **shift register**. As the values are getting **shifted** to the **right**, **right shift** is happenning. That why it is called as a **shift register**.
+
+### Block Diagram representation
+
+> We need to store **1101** into the register. We will start from **LSB** bit.
+
+> Now we have data we want to **1101** store in the register. It is called as **writing or storing**.
+
+* How many clock pulses required to store **4 bits** of data?
+
+> **4** clock pulses
+
+* For **n bit** data -> **n** clock pulses.
+
+> As **LSB** bit **1** is readily available at the **exit** location only. We can directly take the **output**, no need of clock pulse here.
+
+* To take out the **output**, how many clock pulses required?
+
+> **3** clock pulses.
+
+> For the first **1** at the LSB bit, we don't need any clock plses to get it.
+
+* For **n** bit -> **n-1** clock pulses required.
+
+* Total clock pulses required -> **n + (n-1)** -> **2n-1**.
+
+![image](https://user-images.githubusercontent.com/54589605/227257577-1d9367cc-418b-4e2c-b44e-d9101494ea2d.png)
+
+> Before starting the experiment, we press **reset** and then only we can **start the experiment**.
+
+![image](https://user-images.githubusercontent.com/54589605/227258768-e8ad6e0c-9925-47f5-94a9-019bc44bdf77.png)
+
+## SISO using JK FF
+
+![image](https://user-images.githubusercontent.com/54589605/227259709-e25e69f5-b52a-49b0-9ed2-b00cb3eab2aa.png)
+
+* Direct connections
+
+## SISO using SR FF
+
+![image](https://user-images.githubusercontent.com/54589605/227260203-0d0d39f4-a575-457d-84d8-5598fe1587ac.png)
+
+* Same as JK flip flop.
+
+## Serial In Parallel out
+
+> Only one input and **4** outputs.
+
+* Serial IN -> Entrance for input
+
+![image](https://user-images.githubusercontent.com/54589605/227261669-9141fa1c-c4f5-4774-960b-25138210126e.png)
+![image](https://user-images.githubusercontent.com/54589605/227261726-341c5cdf-714f-408b-8ea1-9bfad6e9d26c.png)
+
+> Here also, we will start from **LSB** which is **Z** here.
+
+![image](https://user-images.githubusercontent.com/54589605/227261918-fb6f84ca-b531-4a1e-9c42-4c03888070d1.png)
+![image](https://user-images.githubusercontent.com/54589605/227262254-0e21b18f-07e1-4fc2-abff-de0c2e3993f6.png)
+
+> It will be **Z** instead of **W**.
+
+![image](https://user-images.githubusercontent.com/54589605/227262484-9f740e17-2053-4674-98af-08be40b00e87.png)
+
+> After **4** clock pulses we got **wxyx**.
+
+* How many clocks required to store **4 bits** of data. 
+
+> **4** clocks.
+
+* To read the data and take out the output? How many clocks required?
+
+> **No or zero(0) clocks required**, after **storing** all of the data is readily available, at the **outputs** location available.
+
+![image](https://user-images.githubusercontent.com/54589605/227264407-d3fff40b-6ab2-4f38-8154-3fb7fe1a44aa.png)
+
+> After **4 clock pulses**, if we add another clock pulse. If we apply **P** then, **Z** value or these bit of information will be **lost**.
+
+> We don't require any clock to get the **output**.
+
+* For storing **n bit** they need -> **n** clock pulses
+* For retrieving **n bit** data , we need **zero or 0** clock pulses as all of the **n bits** are readible available.
+ 
+![image](https://user-images.githubusercontent.com/54589605/227265947-7339aa7b-f299-4ef3-9212-389f4275094d.png
+![image](https://user-images.githubusercontent.com/54589605/227266487-4b18007a-49e5-4303-ba4b-a7e94f1e8411.png)
+
+* Total no. of clock pulses required -> n + 0 -> n
+
+## Parallel In Parallel out
+
+> In case of **PIPO**, it has **4 inputs and 4 outputs**. We want to store **wxyz**. We have given all **inputs 
+simultaneously**. If we apply **clock =1**, then we will get **wxyz**.
+
+* After **1 clock pulse**. What happens?
+
+
+> All the data is entered **simultaneously**.
+
+* **Parallel in** means data should enter simultaneously.
+* Serial out means outputs come one after another. We have only one **output**. We have **3** inputs and **one output**. 
+
+> We have given **X** as the input and after applying **one clock pulse**, we will get **X** as the output. We don't have output there. Output is present at the last one(flip flop). If we want to get the output then **x** has to come to the last one(flip flop). There is no exist path.
+
+![image](https://user-images.githubusercontent.com/54589605/227271954-1b9d16ad-e2d8-43eb-8fa0-2fbc511b166a.png)
+
+* How will **x** go to the last flip flop?
+
+> There are **two** fellows and they have to go through the same **single path**. To control the **two** fellows, we need to alot the time slots. If **two** fellows come at the **same time**, then **clash/collision**. So, one time, one fellow will come. Other time, the other fellow will come.
+
+![image](https://user-images.githubusercontent.com/54589605/227272788-d2fec432-706b-4730-814c-58deababa6f1.png)
+![image](https://user-images.githubusercontent.com/54589605/227273027-b96c5b0b-2c74-457f-80b9-37105f2f132d.png)
+
+> Which fellow has to go which fellow will go another time, depends on what? **Mamaji**. It is controlled by **mamaji**. We should use a **multiplexer**.
+
+![image](https://user-images.githubusercontent.com/54589605/227271136-5e281799-3c0d-4537-b250-89a6c0508008.png)
+![image](https://user-images.githubusercontent.com/54589605/227273818-c112a53f-c6a9-4d48-9efe-e48fc8278388.png)
+
+> When **selection line(s)** is **0**, then the **inputs** at **0th** position will enter. This is called as **loading** takes place.
+
+![image](https://user-images.githubusercontent.com/54589605/227274653-a473e309-4615-4129-90aa-9320f7ecf26e.png)
+
+> When **s=1**, then **shifting** will take place. **D3** value will go to **D2**. **D2** value will go to **D1**. **D1** value will go to **D0**. In this manner, **D3** input value will be shifted to **D0**. 
+
+![image](https://user-images.githubusercontent.com/54589605/227275178-1b149122-1308-4ddd-8db5-d6f6bc785baa.png)
+![image](https://user-images.githubusercontent.com/54589605/227275612-70b30e6b-f223-4120-91ea-f2d7c658c501.png)
+
+* How many **clocks** required for storing the data?
+
+> **Only 1 clock** required.
+
+* How many **clocks** required for retrieving **4 bit** data?
+
+> **Only 3 clock** required.
+
+
+* How many **clocks** required for retrieving **n bit** data?
+
+> **Only (n-1) clocks** required.
+
+* Total number of clock pulses required -> 1 + (n-1) -> n.
+
+![image](https://user-images.githubusercontent.com/54589605/227276679-ad1bebaf-43be-4725-827e-ee9c0cde9837.png)
+
+[**IMPORTANT Question**]
+
+![image](https://user-images.githubusercontent.com/54589605/227279631-92d1f250-fa21-4980-9f6d-3d9ef47cd4e4.png)
+![image](https://user-images.githubusercontent.com/54589605/227279713-94bc2ff4-afd3-47cd-aee9-d29cf80bf7ee.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
