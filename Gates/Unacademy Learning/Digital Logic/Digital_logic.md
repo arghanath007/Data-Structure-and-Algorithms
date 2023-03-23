@@ -5953,6 +5953,11 @@ y= M(0,3)
 
 > We should know the **procedure**.
 
+![image](https://user-images.githubusercontent.com/54589605/227173208-34166912-e4a9-4cb2-8d8d-d7b35617ff66.png)
+![image](https://user-images.githubusercontent.com/54589605/227173254-9636ae53-a804-42bb-b21d-356e6885618f.png)
+![image](https://user-images.githubusercontent.com/54589605/227173274-1e0073e0-e391-45bb-9c78-1b52464c02a1.png)
+
+
 
 
 
