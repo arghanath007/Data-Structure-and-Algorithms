@@ -6226,6 +6226,13 @@ simultaneously**. If we apply **clock =1**, then we will get **wxyz**.
 
 ![image](https://user-images.githubusercontent.com/54589605/227279631-92d1f250-fa21-4980-9f6d-3d9ef47cd4e4.png)
 ![image](https://user-images.githubusercontent.com/54589605/227279713-94bc2ff4-afd3-47cd-aee9-d29cf80bf7ee.png)
+![image](https://user-images.githubusercontent.com/54589605/227284273-5a1f74b0-ffa5-4f5e-b5c2-40d8d7652957.png)
+![image](https://user-images.githubusercontent.com/54589605/227284469-5cd13e69-063b-4340-ab07-a7e96bb1985c.png)
+![image](https://user-images.githubusercontent.com/54589605/227284501-893dcbcc-94c5-430d-8072-2257650153b1.png)
+![image](https://user-images.githubusercontent.com/54589605/227284524-34a82eed-2ad9-47ea-b771-85d53d0fcaaa.png)
+![image](https://user-images.githubusercontent.com/54589605/227284571-2649c013-a3fe-4e76-b5f9-312ad56aaeca.png)
+![image](https://user-images.githubusercontent.com/54589605/227284623-5ffdd80f-2a21-4ee9-aeb3-7218daad0140.png)
+![image](https://user-images.githubusercontent.com/54589605/227284659-8d33f769-7c72-493f-8826-55fe06655c14.png)
 
 
 
