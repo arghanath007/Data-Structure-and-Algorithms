@@ -5684,31 +5684,274 @@ y= M(0,3)
 
 ![image](https://user-images.githubusercontent.com/54589605/226998183-d524d364-78d8-4f1a-b2e9-4b236ee4a17f.png)
 
+> For **11** input for **JK** we get **toggle**. As initial value was **0**, toggle of **0** is **1**, so **Q+ =1**.
+
+> As **Q+=1**, so **J=Q'** will be **J= 1' -> J=0** for the next input.
+
+> For **01** input for **JK** we get **reset**. So **reset** means **0**, so **Q+=0**.
+
+> This is called as **toggeling**.
+
 ## Toggle Modes
+
+> We have **7** toggle modes.
 
 ![image](https://user-images.githubusercontent.com/54589605/226998392-e8f86c64-144c-4698-b416-e6935d6a6cc9.png)
 
-> We need to remember the **toggle modes** while designing counters.
+> We need to remember the **toggle modes** while designing counters. Then, the problem will be **easier**.
 
 * SR -> 1 mode
 * D -> 1 mode
 * T -> 1 mode
 * JK -> 4 modes
 
-> Start from 52mins
+> To get the toggle mode, connect the **S to Q'** and connect **R to Q**. This is **one** toggle mode.
+
+> When **J and K** both inputs are **11** for JK flip flop then it is in **toggle mode**.
+
+![image](https://user-images.githubusercontent.com/54589605/227128221-f7a7088a-7a16-4fa3-b48f-91c6bccf375e.png)
+
+> For **T flip flop**, when **T=1**, we get **toggeling** nature.
+
+![image](https://user-images.githubusercontent.com/54589605/227128664-b2ba1e31-8196-4125-a621-7a60bae0d74a.png)
+![image](https://user-images.githubusercontent.com/54589605/227128707-b3a91743-9503-4644-916f-31050fd31173.png)
+
+> All of the **toggle modes**.
+
+### Frequency and time period formulae
+
+> For all of the **toggle modes**, if we had given a **clock**. The time period of a **clock signal** is **T**. Then, the **time period of the signal** will be **2 * T** or **2 times the clock signal(T)**.
+
+> If the **frequency is fclk**, then the **output frequency(fop)** will be **fclk/2**.
+
+![image](https://user-images.githubusercontent.com/54589605/227130071-0d4fee5d-566d-4bd8-9302-45e832a10871.png)
+![image](https://user-images.githubusercontent.com/54589605/227131796-e83d079b-d968-4e2a-85fb-8fa235e8dbba.png)
+
+## Race Around Condition
+
+> They don't mention the **trigger** in any problem. We have to identify it from the **diagram/figure** only.
+
+> The clock is **positive level trigger**.
+
+> We have given **J=1 and K=1** and let's consider **Q=0** initially.
+
+> **tpd** is the delay of the flip flop, which is **2ns**. After **2ns** we will get the output. **Tclk** is the **time period** of the clock which is **16.2ns**.
+
+> If we had given the **inputs(10)** at **T=0**. After how long we will get the **output** from flip flop? -> **After 2ns**.
+
+> The **0** will continue until the output has to come. We will get the output of flip flop at **2ns**. At **2ns**  the **output** will be **1** as **10** is **set**. So, **Q=1 and Q'=0**.
+
+![image](https://user-images.githubusercontent.com/54589605/227136233-36366601-a220-4093-bfec-d7d89d009659.png)
+
+> At the moment when the **output** is generated, they are **connected to the AND** gates, So for **J** we get **0** and for **k** we get **K=1**.
+
+> After **2ns** we get the outputs as at **2ns**, the inputs are connected. Until that time, between **2 to 4ns**, the output is at **hold state**. The output will remain the same. We will get the **output** after **4ns**
+
+> If we had given the **inputs(01)** at **T=2**. At **4ns**, **Q=0 and Q'=1**, as **01** means **reset**. After how long we will get the **output** from flip flop? -> **After 4ns**.
+> The **1** will become **0** as **Q=0**. We will get the output of flip flop at **4ns**. At **4ns**  the **output** will be **Q=0 and Q'=1** as **01** is **reset**.
+
+![image](https://user-images.githubusercontent.com/54589605/227139220-e001e76b-fc26-49d2-ad87-e73c04fa6ca6.png)
+
+> At **4ns**, **Q=0 and Q'=1** will come back for **inputs of JK**. So, **J=1 and K=0**. The inputs for the flip flop will be **10** which is **set** so **Q=1**. We will get the output at **6ns**. At **4ns** clock is present so we will get the **output**. Between **4 to 6ns** the **line graph** is at **0** and will have **hold status** till **6ns**.
+
+> At **6ns**, we get the outputs as **Q=1 and Q'=0**. So at **6ns**, the **line graph** was at **0** and it will move to **1**.
+
+![image](https://user-images.githubusercontent.com/54589605/227141085-24552e4d-de64-4ccf-b016-83724a0a9495.png)
+
+> At **6ns**, we have **Q=1 and Q'=0**, which will act as **inputs** for **J and K**. So, **J=0 and K=1**. The inputs for the flip flop is **01**, which is **reset** and **Q=0**. At **6ns** clock is present so we will get the **output**. Between **6 to 8ns** the **line graph** is at **1** and will have **hold status** till **8ns**.
+
+> At **8ns**, we will get the output as **Q=0 and Q'=1**. So at **8ns**, the **line graph** was at **1** and it will move to **0**.
+
+![image](https://user-images.githubusercontent.com/54589605/227142265-0c40ab99-d51d-4c77-9941-d4bf1d78ef90.png)
+
+> Thereafter, At **8ns**, we have **Q=0 and Q'=1**, which will act as **inputs** for **J and K**. So **J=1 and K=0**. The inputs for the flip flop is **10**, which is **set** and **Q=1**. So we will get the **output** at **10ns** but the **clock is present till 8.1ns**. So, at **8ns** clock is present so we will get the **output**, but Between **8 to 8.1ns** only the **line graph** is at **0** and will have **hold status** till **8.1ns**. As after **8.1ns** clock is not present so there will be **no output**.
+
+> For the flip flop to process the data, it needs **2ns** but from **8 to 8.1ns**, the clock is present. After **8.1**, there is **no clock*. If there is **no clock**, then **no output** and it will maintain the **hold state** only. We have utilized **0.1ns** from **8 to 8.1ns**. Until we get **1.9ns more**, it is at **hold state** still. After reaching **1.9ns**, the output will be **Q=1 and Q'=0**. So, the **line graph** will move from **0** to **1** as **1** is the output now.
+
+> The same process is repeated again and again, till the **clock is present**.
+
+> This is the scenario we have observed when **Tclk = 16.2ns** and **tpd = 2ns**. The **time period** of the clock is **16.2ns**. So, the value is **16.2/2 -> 8.1ns**.
+
+![image](https://user-images.githubusercontent.com/54589605/227145274-06f71859-ae33-4514-9a85-0e0e99f0785d.png)
+
+> Assume that everything has **no delay** except the **flip flop**. As **clock** is available, flip flop will **respond** for the **inputs**.
+
+* What is the **output at the 2nd clock pulse**? [Black dot is the 2nd clock pulse. **T or time period** resembles clock pulse]
+
+> **Q=0**.
+
+![image](https://user-images.githubusercontent.com/54589605/227147035-799faf6c-61e8-4f64-a619-2ba4ac7c80fd.png)
+![image](https://user-images.githubusercontent.com/54589605/227146902-a320909f-fe0b-43ba-acd2-779ff0603684.png)
+![image](https://user-images.githubusercontent.com/54589605/227146357-dae7b80a-690f-4243-883d-4fcf9f716dab.png)
+
+> For Demonstration and understanding.
+
+
+> we have taken the **time period= 20.2ns** and **tpd=2ns**. Everything else is **same**.
+
+> Similar thing will be **repeated** here.
+
+![image](https://user-images.githubusercontent.com/54589605/227146739-cf2fa429-6ab9-43f5-85d6-3cc018c329f0.png)
+
+
+* What is the **output at the 2nd clock pulse**? [Black dot is the 2nd clock pulse. **T or time period** resembles clock pulse]
+
+> **Q=1**.
+
+![image](https://user-images.githubusercontent.com/54589605/227146357-dae7b80a-690f-4243-883d-4fcf9f716dab.png)
+![image](https://user-images.githubusercontent.com/54589605/227146657-1c9b92c7-03f5-4f90-9af4-e35cbf0e8e27.png)
+
+> For Demonstration and understanding.
+
+* From the **above two** conditions, **what could be the output at the starting of the second clock pulse**.
+
+> We cannot say, as for the **first one**, we got **Q=0** and for the **second one**, we got **Q=1**.
+
+> The output maybe **0** or maybe **1**, which is **not certain**. This is the **problem**. It is called as **race around condition**.
+
+> There is a **race** between the two fellows **0 and 1**. This race is called as **race around 0 and 1**. This condition is called as a **race around condition**.
+
+![image](https://user-images.githubusercontent.com/54589605/227148926-e71467f2-073a-49eb-8f1d-eff6906708d7.png)
+
+* **Ton** -> Clock is present. **Clock=1**
+* **Toff** -> Clock is not there/present or absent. **Clock=0**.
+
+> **Toggle mode**, since initially **J=1 and K=1** were taken.
+
+* FF -> Flip Flop
+
+![image](https://user-images.githubusercontent.com/54589605/227149491-6de74042-9cfe-403c-b87e-a8315a3b1b8b.png)
+
+> If all the **three** conditions are satisfied then only we have a **race around condition**.
+
+* In which flip flop**, **race around condition** occurs?
+
+> **Race around condition** occurs in **all of the flip flops** not just **1** flip flop, provided it satisfies the **above three** conditions simultaneously.
+
+### Solutions/Remedy
+
+> First solution is **not possible**. The speed of the system also decreases. Not a practical solution.
+
+![image](https://user-images.githubusercontent.com/54589605/227151980-90bccc9a-8aee-44f7-aed3-b1526b18d624.png)
+
+> At the highlighted positions, it will change. At the remaining location it will **not change**. If we use a **positive edge trigger**. At the **positive edges** only it will respond. Then, we will have no problem of **race around condition**.
+
+![image](https://user-images.githubusercontent.com/54589605/227152667-5a91af83-5749-44e5-a265-2c0ba558d923.png)
+
+## Master-Slave configuration
+
+> Master slave JK flip flop.
+
+> **Master** has **positive level trigger**. It will respond in the **positive level**.
+
+> **Slave** has **negative level trigger**. It will respond in the **negative level**.
+
+> Initially we have taken the output of the flip flop as **0**. So **Qs=0 and Qs'=1**.
+
+![image](https://user-images.githubusercontent.com/54589605/227154136-a9171c80-1511-4fae-a64c-4b4ca484c686.png)
+
+1)![image](https://user-images.githubusercontent.com/54589605/227155445-f2451818-484c-4b34-8b0c-50400b243201.png)
+
+> For **J=1 and K=1**, we got **10** as the input for the **master flip flop**. As there is **no positive level**, master ff will not respond. So it will be at **hold state**. After that, master ff has input of **10** and **clock is present**. So we will get **output**. The output is **Qm=1 and Qm'=0** as **set** and we got **1** as the output for the **master ff**. Now, we called the **slave ff**.
+
+3)![image](https://user-images.githubusercontent.com/54589605/227157741-c5813ba7-9999-448a-9e1c-e6b2462be928.png)
+
+> So, the output of slave ff is **Qs=1 and Qs'=0** and we will get **J=0  and K=1**. So the input for master ff is **01**. There is no **clock of positive level**, so will have **hold state**. Slave ff also maintains the same thing **hold state**. As there is **clock of positive level**, we got **Qm=0 and Qm'=1** and output is **0** for master ff. Now we call the slave ff.
+
+5)![image](https://user-images.githubusercontent.com/54589605/227161033-dc93f08e-86d9-43fa-a2b2-b084f4e3865c.png)
+
+
+> We got **Qs=0 and Qs'=1** from slave ff and we got **J=1 and K=0**. So the input is **10** for master ff. There is no **clock of positive level**, so will have **hold state**. Slave ff also maintains the same thing **hold state**. As there is **clock of positive level**, we got **Qm=1 and Qm'=0** and output is **1** for master ff. The line graph for the master ff moves from **0 -> 1**. Now we call the slave ff.
+
+6)![image](https://user-images.githubusercontent.com/54589605/227161176-2002d6d8-eb04-47dd-8903-6a2830d66b6a.png)
+
+
+> The process will keep repeating only.
+
+> There is no race between **0 and 1**. We always get **1** stable output. There is no **oscillations** here
+
+![image](https://user-images.githubusercontent.com/54589605/227162168-ed0c04d8-d373-451d-881c-c353854ab9c0.png)
+
+> In the next clock pulse we can **100%** say if it will be **0 or 1**. This is called as **master-slave configuration**.
+
+![image](https://user-images.githubusercontent.com/54589605/227161499-8248a690-f735-4f16-9d9f-cc7590708456.png)
+
+> Earlier there was a race between **0 and 1**. It was continuously changing between **0 and 1**. If it keeps oscillating continuously we will get randomly **0 or 1**.
 
 
 
+### Slave flip flop steps
 
 
+2)![image](https://user-images.githubusercontent.com/54589605/227156738-a35b7fa3-d041-4f33-be48-61cd09d4a6b4.png)
 
+> Initial value of **slave ff** is **0**. The input of slave ff is **10**. As there is **no clock for negative level**, slave ff will not respond. So, it will be at **hold state** until clock value of **negative level** comes. After that slave ff has input of **10** and **clock of negative level is present**. So, output will be **Qs=1 and Qs'=0** and output is **1** for slave ff. So, the **line graph** for slave ff will change from **0 -> 1**. Back to master ff.
 
+4)![image](https://user-images.githubusercontent.com/54589605/227159150-be1a1b86-cf60-4e7e-9f39-6f28dae583b5.png)
 
+> The input for **slave ff** is **01**. As there is **no clock for negative level**, slave ff will not respond. So, it will be at **hold state** until clock value of **negative level** comes. Master ff will do the same thing **hold state**. Now, as there is **clock with negative level**, the output is **Qs=0 and Qs'=1** and the output is **0** for slave ff. So, the **line graph** for slave ff will change from **1 -> 0**. Back to master ff.
 
+### Summary
 
+![image](https://user-images.githubusercontent.com/54589605/227162544-7810d1bd-96e8-4efc-a84e-e09306190c71.png)
 
+* How much data **master-slave ff** store?
 
+> It has **two** ffs, but the **two** ffs can only store **1 bit** of information only. It does not store the **two bit** of information. It can store only **1 bit** of information only.  
 
+> In these manner we can avoid the **RAC or race around condition**.
+
+## Conversion of ffs
+
+> We need to convert one ff to another ff.
+
+> Given ff has to be converted into **required ff**. For these we use **Conversion of ffs**.
+
+### Steps
+
+1) Whatever ff we want, write that ff's characteristic table.
+2) Then, match the excitation table.
+
+![image](https://user-images.githubusercontent.com/54589605/227164376-ff9f8612-8a98-483b-bdc1-5d75fa15943f.png)
+
+* SR ff is **given(have)**.
+* JK ff is **required(want)**.
+
+1) Write characteristic table of JK ff as that is **rquired**.
+
+![image](https://user-images.githubusercontent.com/54589605/227165657-4157b3b2-911e-424a-b990-1ef0bfa7728c.png)
+![image](https://user-images.githubusercontent.com/54589605/227166005-b63c6ec2-5f18-4655-ae49-ddc084a054df.png)
+
+> We know the **outputs** from above characteristic table, we need to find/get the **inputs**. What should be the **inputs** we require. We need to focus on that.
+
+![image](https://user-images.githubusercontent.com/54589605/227166598-ed3a4047-5bd5-4cc7-ba24-0a6b0ef72b59.png)
+
+> Excitation table of SR ff.
+
+![image](https://user-images.githubusercontent.com/54589605/227166944-7e203aca-fc39-49ee-a621-5d230cd67ae3.png)
+![image](https://user-images.githubusercontent.com/54589605/227167181-4007a682-944a-4970-ac73-e3dfbada9f64.png)
+
+> Find the minterms of **S and R**. Then **simply the equations**.
+
+> **J, K and Q** are the **inputs** for the **K-map**.
+
+![image](https://user-images.githubusercontent.com/54589605/227167824-02f2b050-c524-43cf-a768-bc02c6b4c47f.png)
+
+> Minimize using **K-map** and get the expression for **S and R**.
+
+> Now, we have **SR ff**.
+
+![image](https://user-images.githubusercontent.com/54589605/227168364-423db6c4-a0e5-4f8d-8f9d-52d8288aa1f6.png)
+
+* Convertion from **JK** -> **SR** ff.
+
+![image](https://user-images.githubusercontent.com/54589605/227168568-0b3400e6-c2d4-485a-b874-bcbb95c840cb.png)
+
+* Box
+
+![image](https://user-images.githubusercontent.com/54589605/227168772-93056996-e7ec-475d-a066-afca86b53230.png)
+
+> We should know the **procedure**.
 
 
 
