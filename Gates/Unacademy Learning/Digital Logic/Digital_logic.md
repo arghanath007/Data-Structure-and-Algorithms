@@ -6536,7 +6536,13 @@ For **n ffs**, we have totally **2^n** states are possible. The states are from 
 
 ![image](https://user-images.githubusercontent.com/54589605/227725299-d03fd8b8-765b-43ba-b9db-ee325ac9bccd.png)
 
+> Here, additionally **clear pin** must come. We need to **observe**, when **clear pin** gets **activated**. In **below example** we have **6** states, so it is **Mod-6** counter. We have to ensure only **6** states are there. **After** then **6th** state, it has to come back to it's **initial state**.
 
+![image](https://user-images.githubusercontent.com/54589605/227725695-6f0433f8-60b5-4170-ba21-74b330c07a4f.png)
+
+![image](https://user-images.githubusercontent.com/54589605/227725774-5908867b-ca8d-46e0-b1b5-d1b967e77a44.png)
+
+> For **down** counter case, it will **start from 7**. It will go in **decreasing order**, **7, 6, 5...**.
 
 
 
