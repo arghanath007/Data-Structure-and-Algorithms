@@ -6234,6 +6234,9 @@ simultaneously**. If we apply **clock =1**, then we will get **wxyz**.
 ![image](https://user-images.githubusercontent.com/54589605/227284623-5ffdd80f-2a21-4ee9-aeb3-7218daad0140.png)
 ![image](https://user-images.githubusercontent.com/54589605/227284659-8d33f769-7c72-493f-8826-55fe06655c14.png)
 
+## Counters (34) [25th March 2023]
+
+
 
 
 
