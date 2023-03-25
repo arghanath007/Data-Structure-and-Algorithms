@@ -6236,6 +6236,305 @@ simultaneously**. If we apply **clock =1**, then we will get **wxyz**.
 
 ## Counters (34) [25th March 2023]
 
+![image](https://user-images.githubusercontent.com/54589605/227714629-489ca2cf-ee44-4811-9a70-1a5fc700a7f6.png)
+
+> Counters are nothing but combination of **flip flops**. By the combination of the ffs, we will generate the desired sequence whenever we apply a **clock pulse**. We know ffs don't work/respond without a **clock**.
+
+> Counters are nothing but **combination of ffs** like in **registers**.
+
+
+> **Asynchronous Counter** means different ff will work differently.
+
+ 1) **Binary Counter** -> If the counter is **displaying** all the **states** from **starting to max**, without skipping any values. Then, it is a **Binary Counter**.
+ 2) **Non-binary counter** -> If any **state** is **skipping**, then it is called as **Non-binary counter**.
+
+> In **Binary and non-binary Counter** we can do **two** sequences **Up and down** sequences.
+
+> **Synchronous Counter** means all the ffs will use all of the outputs simultaneously.
+
+![image](https://user-images.githubusercontent.com/54589605/227714886-db442b10-d006-4822-b32d-dbadad2ab0dc.png)
+
+## State of a counter
+
+> Output of a **counter** is called as the **state of the counter**.
+
+> For **2 ffs**, we have **2^2 -> 4** states are possible.
+
+> For **3 ffs**, we have totally **2^3 -> 8** states are possible. The states are from **0 to 7**.
+
+![image](https://user-images.githubusercontent.com/54589605/227715258-664eed32-a555-404c-a5b4-d685d5e6d3e5.png)
+
+> For **4 ffs**, we have totally **2^4 -> 16** states are possible. The states are from **0 to 15**.
+
+For **n ffs**, we have totally **2^n** states are possible. The states are from **0 to 2^(n-1)**.
+
+![image](https://user-images.githubusercontent.com/54589605/227715335-219754fe-ae46-432a-8ab3-c2ff03d87da2.png)
+![image](https://user-images.githubusercontent.com/54589605/227715357-c4334993-a354-4255-abe1-3b8ff6d1dc46.png)
+
+> **000, ..., 101, 110, 111**, individually are called as **state**.
+
+> For **3 ffs** we have **3 bits** of data as **1 ff** can store **1 bit** of data only. It is called as a **3-bit counter**. For **3 ffs**, the total states are **8** and they are from **0 to 7**. Initial value is of state is **0**. If we apply **first clock pulse**, the state of a counter changes to **1**. If we apply **second clock pulse**, the state of a counter changes to **2**. 
+
+> For **3 bit counter**, max value the counter can **display** is **7** only. If we apply **another clock pulse**, then it will go back to **0** and continue from **0**. It is like a **loop** only. It will move from **0 -> 7 -> 0 -> 7...**.
+
+![image](https://user-images.githubusercontent.com/54589605/227715859-092a08cb-bd5d-4b78-a621-86721650bc6a.png)
+
+> By using **3 ffs**, the **min state=0** and **max state=7**. Total possible states is **8**. **All states are possible**.
+
+> Whatever state the counter will **count or display** are called as **valid states**.
+
+![image](https://user-images.githubusercontent.com/54589605/227715965-093395ab-31e1-4220-9867-0d8466f67229.png)
+
+> We have designed the counter in such a way that it loops from **0 to 5**. We have used **3 ffs** and with **3 ffs** we can have **0 to 7** or total states as **8**. We don't want from **0 to 7**, we need from **o to 5**. After **5** we want **0**. By **3 ffs**, **6 and 7** are possible but we don't want **6 and 7**.
+
+> We have to design the counter in such a way that it will count or dispaly from **0 to 5** only always. For **6 and 7**, the counter is not showing or displaying or counting, then **6 and 7** states are called as **invalid states**.
+
+![image](https://user-images.githubusercontent.com/54589605/227716229-bf536a40-f728-475a-b7de-199e6055ca81.png)
+
+> The states which are not counted or skipped by the counter are called as **imvalid states**.
+
+![image](https://user-images.githubusercontent.com/54589605/227716308-9c97d19b-5e73-42fd-bcf9-0f226a8b9486.png)
+![image](https://user-images.githubusercontent.com/54589605/227716313-45e8a96c-fcfd-430c-a5af-637196ff9195.png)
+
+![image](https://user-images.githubusercontent.com/54589605/227716325-98125b0a-9d42-432f-a59d-3f6ce593137f.png)
+
+> The counter is counting **min to max** of the possible states it is **displaying**.
+
+![image](https://user-images.githubusercontent.com/54589605/227716454-97861d8e-a354-481e-88f2-87bb5256f5c7.png)
+
+## Modulus of a counter(Mod number)
+
+> After how many clocks/states the complete pattern is repeating.
+
+> For easier, convert the **binary forms** into **decimal form**.
+
+![image](https://user-images.githubusercontent.com/54589605/227716746-08d3525a-549d-4054-8764-f16ae23186cb.png)
+
+* How many clocks required for the pattern to repeat? Mod number
+
+> Mod Number -> **4**
+
+> We can start from **anywhere**, it is completely cyclic manner.
+
+![image](https://user-images.githubusercontent.com/54589605/227716781-19a745c6-51e8-4c3e-892f-8682493db844.png)
+
+> We have to count from **t1 to t2**.
+
+![image](https://user-images.githubusercontent.com/54589605/227716864-30d867da-b0ef-4557-965f-95c853d93ca7.png)
+![image](https://user-images.githubusercontent.com/54589605/227716917-442e6730-2291-4d6f-802e-ea6b98a60619.png)
+
+## Design equation of a counter
+
+* N -> Mod no. of a counter.
+* n -> No. of ffs.
+
+* N <= 2^n [**Design equation of a counter**]
+
+![image](https://user-images.githubusercontent.com/54589605/227717011-49e6da91-992b-494a-b246-6837e6b8ae1f.png)
+![image](https://user-images.githubusercontent.com/54589605/227717053-fc779261-8ca9-42ed-a78d-fb73041f2494.png)
+
+* Time period of input signal -> T
+* Frequency of input signal -> f
+
+* **At the output**,
+* Time period -> NT [Time period is multipled]
+* Frequency -> f/N  [Frequency is divided]
+
+> Because of the **multiplication and division**, counter is called as a **frequency dividing circuits**.
+
+> Some counter are connected in **cascade**. The mod numbers are **x, y and z** respectively. So the overall mod number of the counter is **xyz**.
+
+![image](https://user-images.githubusercontent.com/54589605/227717268-e0d34ac8-b613-41d4-bb9b-5d2eee529f3f.png)
+
+> All of them are **cascaded** and the mod numbers are **multiplied**.
+
+![image](https://user-images.githubusercontent.com/54589605/227717324-5a85c3f6-a9e3-4ded-92bd-9af8b83b737f.png)
+
+> The mod numbers are **2 and 5** respectively. So, the overall mod number is **2 * 5 -> 10** or **Mod-10 counter**.
+
+![image](https://user-images.githubusercontent.com/54589605/227717394-ee461fc5-1dff-4b55-935e-9e40ee13ed53.png)
+
+## Asynchronous Counter
+
+> Here, for **each ff**, different-different clocks are applied. Different clocks for different ffs. Each ff will receive different clock. We apply **external clock** to **only one ff**. Whichever clock we apply the **external clock** that ff is **LSB**. From there we can get **MSB**. If one side is **LSB**, then the other side is **MSB**. The ffs are used in **toggle mode** only.
+
+> In **Asynchronous Counter**, we can design a **fixed counting** sequence. The counting sequence maybe **Up or down**.
+
+![image](https://user-images.githubusercontent.com/54589605/227717661-5895c80b-4e0a-4d4d-ac13-0383e8be4d5f.png)
+
+> Like the **above** is possible. After**0** we can get **1** only, **2** is not possible. Only **one** sequence we are able to form either **increasing or decreasing**, random sequences are not possible.
+
+![image](https://user-images.githubusercontent.com/54589605/227717752-424b2a77-33a9-435e-ac21-ee36b10953aa.png)
+
+> Not at all possible with **Asynchronous Counter**. Only fixed sequence is possible. **One by one** increase is possible only.
+ 
+ ![image](https://user-images.githubusercontent.com/54589605/227718942-10da8168-2dad-4e5d-8c0e-39e743833a82.png)
+
+> **One by one** decrease is also possible.
+
+> If we **strictly** want random sequence then we can't use **Asynchronous Counter**, we have to use **Synchronous Counter**.
+
+## 3-Bit Ripple counter
+
+> **Asynchronous Counter** is also called as **ripple counter**.
+
+> We want **toggle** mode for the ffs. So for **T ff**, we use **1** to get the **toggle** mode. We need **clock**, otherwise the ffs will not respond. Only **one ff** will receive the **external clock**. Whichever ff get the **external clock** is the **LSB**. Other ffs will receive the clock from the output of the **previous** input.
+
+![image](https://user-images.githubusercontent.com/54589605/227719639-43712ab5-ae80-41dc-abdb-b3a24e8504ee.png)
+![image](https://user-images.githubusercontent.com/54589605/227719960-8df35954-342f-42dd-b37d-a018175d8453.png)
+
+> We have used **negative edge trigger**, so ff will respond in **negative edge** or when value changes from **1 to 0**.
+
+> At **clock=0**, the initial value of the ffs is **000**, they are **reseted**. Whenever **clock** is applied, the output of **Q0** will be **toggled**.
+
+> At **clock=1**, for **Q0**, the initial value was **0** and as soon as **clock=1**, toggle happens and **Q0=1** now. So, **Q0** is the **clock** for **Q1**. We have used **negative edge trigger**, so ff will respond in **negative edge** or when value changes from **1 to 0**. We can see that **Q0** value changed from **0 to 1** which is a **positive edge**. So ff(Q1) will not respond and it will be in **hold state**. So, **Q1=0**. **Q1** is the clock for **Q2**. We can see that **Q1** value changed from **0 to 0**, so not a **negative edge**. Hence, ff(Q2) will not respond and will be in **hold state**.
+
+![image](https://user-images.githubusercontent.com/54589605/227720219-daef4269-d8f8-41c9-b894-1739b8fe0776.png)
+
+> For **clock=2**, **Q0=0** now as it was **1** and it gets **toggled** for **every clock signal**. **Q0** is the input for **Q1** and **Q0** value changed from **1 to 0**, which is a **negative edge**. So ff(Q1) will **respond** as **clock given** and it will **toggle** it's previous value. So **Q1=1** as previous value is **0**. **Q1** is the **input** for **Q2**. **Q1** value changed from **0 to 1**, so not a **negative edge**. Hence **Q2** will be in **hold state** only and **Q2=0**. 
+
+![image](https://user-images.githubusercontent.com/54589605/227720528-b92ecfb1-90da-439e-9d79-d3fb0cdaa917.png)
+
+> For **clock=3**, **Q0=1** now as it was **0** and it gets **toggled** for **every clock signal**. **Q0** is the input for **Q1** and **Q0** value changed from **0 to 1**, which is not a **negative edge**. So ff(Q1) will **not respond** as **clock not given**. So **Q1=1** as previous value is **1**. **Q1** is the **input** for **Q2**. **Q1** value changed from **1 to 1**, so not a **negative edge**. Hence **Q2** will be in **hold state** only and **Q2=0**. 
+
+![image](https://user-images.githubusercontent.com/54589605/227720612-2982e130-6628-467f-993c-54a902c70c3d.png)
+
+> For **clock=4**, **Q0=0** now as it was **1** and it gets **toggled** for **every clock signal**. **Q0** is the input for **Q1** and **Q0** value changed from **1 to 0**, which is a **negative edge**. So ff(Q1) will **respond** as **clock given** and it will **toggle** it's previous value. So **Q1=0** as previous value is **1**. **Q1** is the **input** for **Q2**. **Q1** value changes from **1 to 0**, so a **negative edge**. Hence **Q2** will **respond** as **clock given** and it will **toggle** it's previous value. So **Q2=1** as previous value is **0**.
+
+![image](https://user-images.githubusercontent.com/54589605/227720826-d4a46284-7450-4221-842f-a2e8b08f5cd2.png)
+![image](https://user-images.githubusercontent.com/54589605/227720900-c289b41a-1b86-49a4-b140-11330a161b8c.png)
+![image](https://user-images.githubusercontent.com/54589605/227720952-303ca3be-42e1-45a1-899a-4d772bf936d1.png)
+
+> Like this the **pattern** will continue.
+
+* Mod Number = 8 [t2-t1 -> 8-0 -> 8]
+
+![image](https://user-images.githubusercontent.com/54589605/227721009-d08c6ff6-3d83-4d53-9b56-913fd635f758.png)
+
+* Mod-8 Up counter
+
+* Qo -> LSB -> So it will toggle for every negative edge of clock.
+
+![image](https://user-images.githubusercontent.com/54589605/227721072-a6969df4-c752-4ea2-89cb-86d4acf07884.png)
+
+> Whether it is an **Up or down** counter will depend on the **clock** as well as from where we have given the **signal**. Sometimes we have to connect with Q and sometimes with Q'.
+
+![image](https://user-images.githubusercontent.com/54589605/227721174-dcee4c03-af27-4fc9-80d3-058a580b9646.png)
+![image](https://user-images.githubusercontent.com/54589605/227721316-2bf80f82-9fee-465c-a414-64f4629fd6c3.png)
+![image](https://user-images.githubusercontent.com/54589605/227721514-c4129ad7-f60a-4d16-918b-fad2a2dc7a59.png)
+
+* Happy(Sukh) -> Sad(Dukh)
+* Sad(Dukh) -> Happy(Sukh)
+
+![image](https://user-images.githubusercontent.com/54589605/227721606-dec5f659-d5c4-4377-88e2-7e593a0c3431.png)
+
+## 3-Bit ripple down counter
+
+![image](https://user-images.githubusercontent.com/54589605/227721742-9b5f9912-b08d-45c5-846f-95cdd96caca8.png)
+
+> Sir make a small mistake here. This is **3-Bit ripple Up** counter, which sir has shown.
+
+![image](https://user-images.githubusercontent.com/54589605/227721933-99e0d80a-341d-48f5-b08a-475401aded2e.png)
+![image](https://user-images.githubusercontent.com/54589605/227721982-76762f28-608f-436e-9997-545de40973b9.png)
+![image](https://user-images.githubusercontent.com/54589605/227722003-8cdd04c6-419c-44fe-b10c-5ca6f24a492b.png)
+![image](https://user-images.githubusercontent.com/54589605/227722049-1cec7ac4-3a19-414b-98a0-aea74176fb77.png)
+![image](https://user-images.githubusercontent.com/54589605/227722080-e724b53b-4529-4647-93bf-bf219be5b771.png)
+
+> **Up and Down** counter depends on **clock and trigger** only and remaining things are **same**.
+
+![image](https://user-images.githubusercontent.com/54589605/227722267-80932e01-2491-4ee8-945a-6f10b06e97f8.png)
+
+* **Down** counter
+
+![image](https://user-images.githubusercontent.com/54589605/227722300-991d26a7-c500-4372-b58f-d78f26c8ebd1.png)
+
+* **Up** counter.
+
+![image](https://user-images.githubusercontent.com/54589605/227722314-433a0fc4-b7d0-4768-a07c-199016e8520a.png)
+
+> Sometimes from **Q** and sometimes from **Q0'**. For this we need **mamaji or MUX**.
+
+![image](https://user-images.githubusercontent.com/54589605/227722400-ab3b747b-5c99-4dfb-b46e-e0677c9caf6b.png)
+
+> If **S=0**, then **Q0** will go i.e **Down** counter will be formed.
+
+![image](https://user-images.githubusercontent.com/54589605/227722452-41e348d1-1116-4307-b460-779f2e99e6f2.png)
+
+> If **S=1**, then **Q0'** will go i.e **Up** counter will be formed.
+
+![image](https://user-images.githubusercontent.com/54589605/227722478-540b181d-3d4e-4fda-9365-c3cbe6490f89.png)
+
+* How many **states** possible with **3 ffs**?
+
+> **8** total. **0 to 7** range.
+
+![image](https://user-images.githubusercontent.com/54589605/227722585-ef188399-b022-4ac4-b8c0-5c0b8eada9ec.png)
+
+>  In the above **3-bit ripple** counters, the range was from **0 to 7** and total is **9**. We want to count till **0 to 4** and skip the rest(5,6 and 7).
+
+## Clear and Preset inpin.
+
+> If **clear or clr=1**, which means **clear pin** is **activated**. So, whatever maybe the **State** of the **Q**, it will immediately become **zero(0)**. It will **reset** the complete system.
+
+> If **clear or clr'=0**, which means **clear pin** is **activated**. So, whatever maybe the **State** of the **Q**, it will immediately become **zero(0)**. It will **reset** the complete system.
+
+> If **clear or clr'=0**, which means **clear pin** is **activated**. So, whatever maybe the **State** of the **Q**, it will immediately become **zero(0)**. It will **reset** the complete system.
+
+> If **preset or pre=1**, which means **preset pin** is **activated**. So, whatever maybe the **State** of the **Q**, it will immediately become **one(1)**. It will **set** the complete system.
+
+> If **preset or pre'=0**, which means **preset pin** is **activated**. So, whatever maybe the **State** of the **Q**, it will immediately become **one(1)**. It will **set** the complete system.
+
+![image](https://user-images.githubusercontent.com/54589605/227723617-4d40465c-5328-4830-8cd1-dc23161c42e3.png)
+![image](https://user-images.githubusercontent.com/54589605/227723631-b6e71362-0346-4357-8d8e-23e8797013a7.png)
+
+* **interupt** from COA.
+
+> The moment **clear pin** is **activated**, complete system is **reseted**.
+
+> For the **system** to not **count and display** all of the **States**, we use **clear and preset** pins.
+
+> If **clr=0 and pre=0**, so **clear and preset** pin are not active, then ff will work in the **normal operation**.
+
+> If **clr=1 and pre=0**, so **preset** pin is not active and **clear pin** is only **activated**, then the complete system is **reset**.
+
+> If **clr=0 and pre=1**, so **clear** pin is not active and **preset pin** is only **activated**, then the complete system is **set**.
+
+> If **clr=1 and pre=1**, so **clear and preset pin** both are **activated**, then we don't know what happends. It is **invalid**.
+
+![image](https://user-images.githubusercontent.com/54589605/227723819-55404248-b4cd-4dd9-92b5-812e221fa0e9.png)
+![image](https://user-images.githubusercontent.com/54589605/227723903-d34cdf73-7f8e-4b79-86da-869ac4428a38.png)
+
+> We use these, when we don't want to use all of the possible **states**. We want to reduce the **states**.
+
+> For **Mod-6** we need **3 ffs**, since **2^2 = 4** and **4 < 6**, so **2 ffs** not possible and **2^3 -> 8**, which is **8 > 6**, so **3 ffs** required.
+
+![image](https://user-images.githubusercontent.com/54589605/227724075-de066456-84ac-42dc-a7b1-21a452061b3d.png)
+
+* **Up** counter.
+
+> Here we will get **0 -> 7 -> 0 -> 7**, all possible **States** are used.
+
+> In the question they have given **Mod-6**, so the **clock** has to go **6** times. As we have to **reset**, so we will use **clear** pin.
+
+> We have to wait **6** clocks, till we can activate the **clear pin**. On the **6th** clock we will get **Q2, Q1 and Q0** as **1, 1 and 0** respectively. So, to form the **pattern**, **t1 and t2**, must have the **same** value. Whatever state is present in **t1**, that state must be present in **t2** as well. So, now we will set **clear or clr=1**, means **clear pin** is activated. If **clearn pin** is activated so, it will be **t2 = Q2, Q1 and Q0** or **T2= 000**, as **clearn pin** resets the value.
+
+![image](https://user-images.githubusercontent.com/54589605/227724919-2b36550e-d752-4dfb-bfef-9b81f9712331.png)
+![image](https://user-images.githubusercontent.com/54589605/227724929-5d9f5332-497a-4a8f-bd9f-94d88d4ce546.png)
+
+> We have **6** states. It is called as **Mod-6&**.
+
+> So **Q2, Q1 and Q0** are **1, 1 and 0**. So **clr = Q2, Q1 and Q0**. Hence when the values are **1, 1 and 0** or **Q2, Q1 and Q0**, is the time or instant we have to **activate** the **clear pin**.
+
+![image](https://user-images.githubusercontent.com/54589605/227725152-74e3e227-a683-4b05-badc-58e0cddb5d21.png)
+![image](https://user-images.githubusercontent.com/54589605/227725178-805844b2-fe04-4f8f-a471-3acc1d11fe39.png)
+
+> We have to **connect** with the **Q2, Q1 and Q0'** values. **0** is also a **state** remember.
+
+![image](https://user-images.githubusercontent.com/54589605/227725213-31b1b6a3-5544-43c2-b868-c177e1a6f468.png)
+
+* Mode-6 Up counter
+
+![image](https://user-images.githubusercontent.com/54589605/227725299-d03fd8b8-765b-43ba-b9db-ee325ac9bccd.png)
 
 
 
@@ -6251,18 +6550,9 @@ simultaneously**. If we apply **clock =1**, then we will get **wxyz**.
 
 
 
+## Practice
 
-
-
-
-
-
-
-
-
-
-
-
+> Find the **links**.
 
 * Find Digital Revision classes.
 
