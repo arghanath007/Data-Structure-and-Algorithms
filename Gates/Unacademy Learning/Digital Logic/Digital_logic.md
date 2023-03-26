@@ -6904,17 +6904,93 @@ For **n ffs**, we have totally **2^n** states are possible. The states are from 
 
 > This is the **circuit** we use to prevent **log out problem** in **johnson** counter.
 
+![image](https://user-images.githubusercontent.com/54589605/227771454-d989e2b5-a0dd-44ff-a231-9305506309f8.png)
+![image](https://user-images.githubusercontent.com/54589605/227771476-8254f0a5-5cdc-480c-b858-6acba69ab4ea.png)
+![image](https://user-images.githubusercontent.com/54589605/227771486-78966c8c-0368-4402-9f7b-def67356003b.png)
+![image](https://user-images.githubusercontent.com/54589605/227771491-3eeab8e1-df58-424d-9089-e5f079ce9516.png)
+
+### Different name for **Johnson** counter
+
+![image](https://user-images.githubusercontent.com/54589605/227771521-9d7aa977-e8b4-40a8-9245-ed545e67389c.png)
+
+## User defined counter design
+
+> We need to form a **table**. The **first column** is the **present state**. The **second column** is **next state**. The **third column** is **ff inputs**.
+
+> FF required is **2** as **0-3** values are **required**. **T ff** has only **one** input. **T1** is for **one ff** and **T0** is for another **T ff**.
+
+> Until wherever we have **started**, until we reach the **same thing(00) here**, continue filling the **present and next** state columns.
+
+![image](https://user-images.githubusercontent.com/54589605/227772561-48567018-e8bf-4e92-bd5e-10e5d9db4e3c.png)
+
+> **T1** depends on **Q1 and Q1+** value. **T0** depends on **Q0 and Q0+**.
+
+* Characteristic equation of T FF is (Q+)-> T Ex-OR Q.
+* To get **T** -> Q Ex-OR Q+.
+
+> So we will calculate **T1** based on **Q1 Ex-OR Q1+**. So we will calculate **T0** based on **Q0 Ex-OR Q0+**.
+
+![image](https://user-images.githubusercontent.com/54589605/227772925-3a232ed6-470a-4657-a86b-fa232d8c941b.png)
+![image](https://user-images.githubusercontent.com/54589605/227773000-9c716842-d8cb-4c70-8d8a-b4fbce91dd2c.png)
+
+> WE find the **minterms** of **T1 and T0**. As all values of **T1** were **1**, so **T1=1** only. For **T0**, we did the **minterms** and found **T0=Q1**.
+
+> Now, we should design the FFs. We are designing **synchronous** counters. So, the ffs should have the **same clock**. We can give **positive or negative edge trigger**, anyone we can give.
+
+![image](https://user-images.githubusercontent.com/54589605/227773149-cdb273b6-3096-4d80-8e48-4ee88e4588ff.png)
+
+> Implementation of the **synchronous user defined** counter. The given sequence will come.
+
+![image](https://user-images.githubusercontent.com/54589605/227773210-51152321-c2ba-404f-8a58-080333090a31.png)
+
+> We need to **remember** the order of the **table**. **Present states -> Next states -> FF inputs**, this is the order, we need to **remember**.
+
+![image](https://user-images.githubusercontent.com/54589605/227773432-7089743b-72b3-459e-b981-64d4f8ef1750.png)
+
+> For these **analysis** type of **questions**, we need to create the table **differently**.
+
+> The **output of Q1+**, depends on **T1**. 
+
+> The **output of Q0+**, depends on **T0**. 
+
+> **T1=1** is **fixed** only, which we got from the diagram only and **T0=Q1**. Initial value of **Q1+=0 and Q0+=0**.
 
 
+> We got **T1=1** and **T0+=0** as **Q1+=0** was given as the **initial state**. The **output** of **Q1+** depends on **T1**. The **output of Q0+**, depends on **T0**. As the **input** of the ff was **T1=1**, which means **toggle** as the **previous value** was **0** so, it was **toggled** from **0 to 1** and we got **Q1+=1**. As **T0=0** and **0** represents **hold state**, so we got **Q0+=0**. So, **Q1+=1 and Q0+=0**.
 
+![image](https://user-images.githubusercontent.com/54589605/227774515-969c77a3-84cb-4a87-a4e4-464dd01d0a83.png)
 
+> We got **T1=1** and **T0+=1** as **Q1+=1** was the **previous state** value. The **output** of **Q1+** depends on **T1**. The **output of Q0+**, depends on **T0**. As the **input** of the ff was **T1=1**, which means **toggle** as the **previous value** was **Q1+=1** so, it was **toggled** from **1 to 0** and we got **Q1+=0**. As **T0=1** and **1** represents **toggle** as the **previous value** was **0** so, it was **toggled** from **0 to 1** and we got **Q0+=1**. So, **Q1+=0** and **Q0+=1**.
 
+![image](https://user-images.githubusercontent.com/54589605/227774828-257a7f25-698e-4f27-aa9d-5187162fa54f.png)
 
+> We got **T1=1** and **T0+=0** as **Q1+=0** was the **previous state** value. The **output** of **Q1+** depends on **T1**. The **output of Q0+**, depends on **T0**. As the **input** of the ff was **T1=1**, which means **toggle** as the **previous value** was **Q1+=0** so, it was **toggled** from **0 to 1** and we got **Q1+=1**. As **T0=0** and **0** represents **hold state** so we got **Q0+=1**. So, **Q1+=1** and **Q0+=1**.
 
+![image](https://user-images.githubusercontent.com/54589605/227774957-0446548c-8819-4229-b00b-916f60458b8e.png)
 
+> We got **T1=1** and **T0+=1** as **Q1+=1** was the **previous state** value. The **output** of **Q1+** depends on **T1**. The **output of Q0+**, depends on **T0**. As the **input** of the ff was **T1=1**, which means **toggle** as the **previous value** was **Q1+=1** so, it was **toggled** from **1 to 0** and we got **Q1+=0**. As **T0=1** and **1** represents **toggle** as the **previous value** was **Q0+=1** so, it was **toggled** from **1 to 0** and we got **Q0+=0**. So, **Q1+=0** and **Q0+=0**.
 
+![image](https://user-images.githubusercontent.com/54589605/227775096-59ce1038-d005-4dee-872a-bce31a04461b.png)
 
+> From wherever we have **started(00)**, we have reached the **same** state(00).
 
+![image](https://user-images.githubusercontent.com/54589605/227775161-e5ea3f2e-7402-4135-9276-edf812380ef1.png)
+
+* Mod Number -> t2- t1 -> 4-0 -> 4.
+
+> For **236 clock**, the state is -> 236/(mod number) -> 236/4 -> 59 [**a** Ans]
+
+![image](https://user-images.githubusercontent.com/54589605/227775329-0bbda1a6-ed90-4d75-b95e-ac030c4c73f7.png)
+
+> For **251 clock**, the state is -> 251/(mod number) -> 251/4 -> 4 * 62 + 3 -> 00 + 3 -> 11 [**b** Ans]
+
+![image](https://user-images.githubusercontent.com/54589605/227775501-45c7c05a-d4fb-43e9-9731-b4d51f2d4f0a.png)
+
+> For **333 clock**, the state is -> 333/(mod number) -> 333/4 -> 4 * 83 + 1 -> 00 + 1 ->  10 [**c** Ans]
+
+![image](https://user-images.githubusercontent.com/54589605/227775609-84866193-2cec-4f57-8283-7ddc1e2b3544.png)
+
+> Check the **order** in which they want the **answer**, here they wanted in **Q1, Q0** order.
 
 
 
