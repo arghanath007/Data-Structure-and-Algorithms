@@ -45,6 +45,22 @@
 
 ![2_Amplitude](https://user-images.githubusercontent.com/54589605/217532315-b51c7960-d0fc-4e73-8308-7d5f30698694.png)
 
+## Doing Revision
+
+* Practice Question link -> https://unacademy.com/@bvreddy/courses?goal=JAQRK&type=special&language=59&topic=JXAOF
+
+> Started from **4th Dec 2022**. 
+
+> Solve all of them while **revising**.
+
+![image](https://user-images.githubusercontent.com/54589605/227777503-50c82102-59b6-4f68-a178-5ce8629baa3b.png)
+![image](https://user-images.githubusercontent.com/54589605/227777641-7f6cbe11-e299-47da-b859-34f2d149049f.png)
+
+> Can also get the **links** from sir's telegram group.
+
+* First Video Link -> https://unacademy.com/class/revision-session-on-digital-logic-circuits-i/4SXBWNLM
+
+
 
 ### Digital Signal
 
