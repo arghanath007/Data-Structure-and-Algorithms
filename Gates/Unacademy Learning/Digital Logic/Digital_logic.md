@@ -6542,7 +6542,371 @@ For **n ffs**, we have totally **2^n** states are possible. The states are from 
 
 ![image](https://user-images.githubusercontent.com/54589605/227725774-5908867b-ca8d-46e0-b1b5-d1b967e77a44.png)
 
-> For **down** counter case, it will **start from 7**. It will go in **decreasing order**, **7, 6, 5...**.
+> For **down** counter case, it will **start from 7**. It will go in **decreasing order**, **7, 6, 5...**. It would start from **max** value and then decrease **one by one** from there.
+
+> The **max** value we can get for **3 FFs** is **7**. As the **Mod number** is **6**, we require **6** states. The states are from **max to min**, so, they are **7-3**. So, **t2** minus **t1** should be **6** which is the **mod** number. So **t1=1** and **t2=6** and **t2-t1 -> 6-1 -> 5**. It is not **6**, so we should go **one more clock cycle**.
+
+![image](https://user-images.githubusercontent.com/54589605/227752607-b2e778ce-5710-43d1-967d-1935ad36b2c9.png)
+
+> Now, **t1=1** and **t2=7**. Now, **t2-t1 -> 7-1 -> 6**. Which is the **mod number**. This is what we want but we know that whatever it is  in **t1** state should be in **t2** state. Currently **t2=001** but it should be **t2=111**. Then, only we can say that this is a **Mod-6** counter.
+
+> So when **clear or clr** pin is **activated** all of the **outputs** of ffs are **zero(0)**. We have to use **preset** pin as all of the **outputs** at **t2** are **111**, since when **preset** pin is **activated**, all of the **outputs** of ffs are **one(1)**.
+
+> At **t2**, **preset** pin must be **activated**, then only all of the ffs outputs are **1**. The **preset** pin should be **activated** at **0, 0 and 1** position, which is **001 -> Q2'Q1'Q0** instant.
+
+![image](https://user-images.githubusercontent.com/54589605/227752862-5a5468a1-0634-46ae-aa4f-31c3297cd110.png)
+
+> In case of **down** counter we will go for **preset** pin.
+
+> In case of **up** counter we will go for **clear** pin.
+
+![image](https://user-images.githubusercontent.com/54589605/227753001-973587e3-8999-406a-b1fe-94cba58f3774.png)
+
+## Counters (35) [26th March 2023]
+
+> **BCD counter** is also called as a **Mod-10 counter** or **decade counter**. The count for **BCD** is from **0 to 9**. After **9** we will get **0**. If we don't use any **reset** logic then what comes after **9**, it is **10**. The moment **10** comes, we need to activate the **reset** i.e **clear or clr** pin. 
+
+> So, for **BCD** counter, the **clear** pin should be instantly activated for **10 -> 1010 -> Q3Q2'Q1Q0'**. Now, implement it in the ffs by drawing the **Up** counter.
+
+![image](https://user-images.githubusercontent.com/54589605/227753928-b0baa5d8-5edb-4c4f-8ede-c532197acf18.png)
+
+![image](https://user-images.githubusercontent.com/54589605/227754008-937226a7-0bd7-48d0-bf25-cd9cf42fb309.png)
+
+> We are using **NAND** gate here and **clr'** here to implement BCD up counter. They can ask sometimes to design with **clr** and sometimes with **clr'**.
+
+> This is how we can implement **Asynchronous counters**.
+
+## Synchronous counters
+
+### Types
+
+1) Ring Counter
+2) Johnson Counter
+3) User defined Counter
+
+> **Ring and Johnson** counters have some **fixed sequence**.
+
+> For **Synchronous counters**, all the ffs have the **same clock**. In **Asynchronous counters**, we apply different clocks to **each ff**. This is the primary difference between **Synchronous and Asynchronous counters**.
+
+> In **Asynchronous counters**, we could saw which is **LSB** and from there find **MSB**. In **Synchronous counters**, we cannot talk about **LSB or MSB**. So, in **Synchronous counters**, we cannot identify **LSB and MSB**.
+
+## Ring Counter
+
+> All of the ffs are given the **same clock**. So, all the **ffs** will respond simultaneously(done at the same time). So, all the outputs of the ffs are given at a **single time**.
+
+![image](https://user-images.githubusercontent.com/54589605/227754251-8c019354-6147-4cdc-b15d-fb981d77b6d1.png)
+
+> So, in **ring counter**, the **output** is feedback as the **input**. So, this is the **connections**.
+
+![image](https://user-images.githubusercontent.com/54589605/227754309-5caa0e02-5fe8-4320-b917-d896c93ba03e.png)
+
+![image](https://user-images.githubusercontent.com/54589605/227754452-ea0822ba-acee-4786-bd4f-c3f7ff860a23.png)
+
+> As it is a **D ff**, so, we can say that the **characteristic eq** of **D ff** is **Q+ = D**. So, whatever **input** we have given, that **input** will be **available** as the **output** only. So, the **output** of the **last ff** is again feedback as the **input** of the **first ff**.
+
+> When **clock=0**, then the **initial state** of the ff is **0000**. So, when **clock=1**, the last output of **Q3** which is **0**, which act as the **input** for **Q0**.
+
+![image](https://user-images.githubusercontent.com/54589605/227754603-6d7058ca-996a-47c1-8bba-8e1ac9d6df96.png)
+
+> Even if the **initial state** of the ring counter is **0**. Even though we apply any no. of **clocks**, the **output** of **each case** is always **0**.
+
+![image](https://user-images.githubusercontent.com/54589605/227754676-c9584b5c-b3a7-4257-8822-37f24c191374.png)
+
+> This is a **problem**. So, now the **initial state** of a ff, can never be **0**. If the **initial state** of a ff is all **zeroes(0)**, then the **counter** doesn't even start working also.
+
+> In case of **ring counter**, always **remember** that **only one of the ff outputs must be 1** always.
+
+> Initially we have take **0001** and the **clock=0**. When we apply **first clock**, the state of the counter is **1000**. When we apply **second clock**, the state of the counter is **0100**. When we apply **third clock**, the state of the counter is **0010**. When we apply **fourth clock**, the state of the counter is **0001**. When we apply **fifth clock**, the state of the counter is **1000**. The **states** are **repeated** back. When we apply **sixth clock**, the state of the counter is **0100**.
+
+> The **Mod number** is **t2-t1 -> 5-1 -> 4**. The **Mod number** is **4**. The **states** of the **counter** are from **1-4** or overall states are **4**. The **states** which the **counter** is displaying are called as **valid states** and the remaining are **in-valid** states.
+
+![image](https://user-images.githubusercontent.com/54589605/227755032-d4be2b29-8235-4cf3-965a-d5adace8f889.png)
+
+> These are the **states**.
+
+![image](https://user-images.githubusercontent.com/54589605/227755084-4407b4d4-707f-4327-9061-ca5cdfc15e5e.png)
+
+> **Decoding logic** is the **LED** which would be **glowing**.
+
+> The purpose of LEDs is that whichever ff's **output** is **1**, that corresponding LED will **glow**.
+
+![image](https://user-images.githubusercontent.com/54589605/227755172-29d7f52a-c520-4d8e-9ac7-48c04fe526e2.png)
+
+> The same **pattern** keeps **repeating**, since the **mod number=4**.
+
+* T -> Time Period -> After how many **cycles** it is **repeating**? -> **Multiplied by Mod number**.
+* F -> Frequency -> fclk/4. -> **Divided by the Mod number**.
+* D -> Duty Cycle -> In the **complete pattern**, how many times output is **1**?
+
+> The **mod number=4** or a **mod-4** counter, so the complete pattern is **repeating** after **4** cycles.
+
+* Time Perid(T) -> **Multiplied by Mod number**.
+* Frequency(F) -> **Divided by the Mod number**.
+* Duty Cycle(D) -> **((No. outputs as 1)/ (Mod Number)) * 100** -> (1/4) * 100 -> 25%.
+
+![image](https://user-images.githubusercontent.com/54589605/227755373-a9f5973e-b254-4e21-8f00-aa75a57cb5aa.png)
+
+* Complete pattern
+
+![image](https://user-images.githubusercontent.com/54589605/227755463-2ca375e6-4bc0-4d5d-966b-22f0ddda499f.png)
+
+## Summary
+
+![image](https://user-images.githubusercontent.com/54589605/227755530-064af420-f210-438b-8c4f-fbf561de3383.png)
+
+> **1, 2, 4 and 8** from **right to left** or from **Q3 -> Q0**. We have used **4 ffs**, so **16** states are possible. So, from **0 to 15**. But my counter is displaying only **1, 2, 4 and 8** states only and they are called as **used states**. The rest of the **states** are called as **unused** states.
+
+* We have an **n-bit ring counter**. 'n' is the **mod number**.
+* If **T** is the time period, then the **time period** will be **nT**.
+* If **f** is the frequency of the **input**, then the **output frequency** will be **f/n**.
+
+* If **n=4** then, **360/n -> 360/4 -> 90** degrees.
+
+> As all of the ffs will respond **simultaneously**, since it is a **synchronous counter**, so the **overall delay** is **1 tpd** only, considering that **each ff** has **1 tpd** delay.
+
+> If the **ffs have different delays**, then the **overall delay** will be the **max** delay of **all the ff's delay**. The ff which has the **max tpd delay** that **tpd delay** value has to be considered.
+
+![image](https://user-images.githubusercontent.com/54589605/227755915-2d9e7d7c-9ff7-45fa-a0e5-ce0431a6aa47.png)
+
+![image](https://user-images.githubusercontent.com/54589605/227755926-17731ae6-b57e-4b27-a19c-4f5d9a0bf860.png)
+
+> These are the **used states**, **first bit**, then **second bit**, then **third bit**. Like this way remember. These are the **used states** only, others are **unused** states.
+
+![image](https://user-images.githubusercontent.com/54589605/227757150-a6041ac7-882a-48cc-80c2-71420f9b42a1.png)
+
+> Let's see what happens when the **counter** enters into any one of the **unused states**.
+
+* What's going to happen?
+
+> Select any one of the **unused states**. Let's say that the **initial state** of the **counter** is **5**. When we apply the **first clock pulse**, we get **1010**. When the **second clock pulse** is applied, then we get **0101**. So the **cycle** is repeated, from where ever we have **started**, same thing is **repeated** again. **Same pattern** is repeated in this **case**.
+
+> When we started from **5**, we got **10** in the **first clock pulse**, then we got **5** in the **second clock pulse** and then **10** in the **forth clock pulse**. **The cycle keeps repeating** nah from **5->10->5->10**. The loop will keep on **repeating**. So **5 and 10** are in the **unused** states.
+
+![image](https://user-images.githubusercontent.com/54589605/227757421-845903de-3e63-47a0-969c-d7e23d93fbe6.png)
+![image](https://user-images.githubusercontent.com/54589605/227757442-4ee535b1-bb04-4d7b-8717-f34a9c4504d5.png)
+
+> So, if by mistake the **ring counter** enters into any one of the **unused** states, then the **counter** is permanently **stuck** in the **unused** states. The **counter** will never come back to the **used** states.
+
+> This is one of the problems of **ring counter**. It is called as **lock out problem**.
+
+![image](https://user-images.githubusercontent.com/54589605/227757529-03ef4230-76aa-4146-b744-61f570eca39f.png)
+
+## Advantage
+
+> Decoding logic is **very simple**, we do not need **any logic circuits**. Directly we can do the **decoding** logic.
+
+## Drawbacks/disadvantage
+
+1) If the **initial state** of the counter is **zero(0)**, then the **counter** doesn't even start. The outputs will always be **0000** only.
+2) If by mistake, the **ring counter** enters into one of the **unused states**, the counter will never come back to the **used** states. It will permanently stay in the **unused** states only forever. It is called as the **lock out problem**.
+
+![image](https://user-images.githubusercontent.com/54589605/227757718-14d3ffcc-dd24-4392-963f-cda34888d1a7.png)
+
+> To overcome the **lock out problem**, the circuit is modified like below.
+
+* **Input(i/p)** -> (Q3 + Q2 + Q1)'
+
+> Instead of a **direct connection**, we have taken a **NOR gate**. Initially all the **inputs** are **0000**. When we apply the **first clock**, **000** will be the **input** for the **NOR** gate and the **output** will be **(0 + 0 + 0)' -> 0' -> 1**. So, **1** will act as the **input** for the **D3** ff. Hence, **Q3=1, Q2=0, Q1=0, Q=0**.
+
+> When we apply the **second clock**, **100** will be the **input** for the **NOR** gate and the **output** will be **(1 + 0 + 0)' -> 1' -> 0**. So, **0** will act as the **input** for the **D3** ff. Hence, **Q3=0, Q2=1, Q1=0, Q=0**.
+
+> When we apply the **third clock**, **010** will be the **input** for the **NOR** gate and the **output** will be **(0 + 1 + 0)' -> 1' -> 0**. So, **0** will act as the **input** for the **D3** ff. Hence, **Q3=0, Q2=0, Q1=1, Q=0**.
+
+> When we apply the **fourth clock**, **001** will be the **input** for the **NOR** gate and the **output** will be **(0 + 0 + 1)' -> 1' -> 0**. So, **0** will act as the **input** for the **D3** ff. Hence, **Q3=0, Q2=0, Q1=0, Q=1**.
+
+> When we apply the **fifth clock**, **000** will be the **input** for the **NOR** gate and the **output** will be **(0 + 0 + 0)' -> 0' -> 1**. So, **1** will act as the **input** for the **D3** ff. Hence, **Q3=1, Q2=0, Q1=0, Q=0**.
+
+> Even though, initially we started with **all zeroes(0)** also, the **ring counter**, entered into the **used** states.
+
+![image](https://user-images.githubusercontent.com/54589605/227758445-01e654b9-f9a0-4ae9-aed5-658636a9c7b3.png)
+
+> We got **1, 2, 4 and 8** which are the **used states**. Now, we can say that the **starting problem** is **eliminated**.
+
+![image](https://user-images.githubusercontent.com/54589605/227758495-348c7893-9ef2-40eb-8b6c-63afb386538d.png)
+
+> Let's select any one of the **unused** states. Let take **3 -> 0011**. So, **Q3=0, Q2=0, Q1=1 and Q0=1**. This is the **initial** state of the **counter**. When we apply the **first clock**, **001** will be the **input** for the **NOR** gate and the **output** will be **(0 + 0 + 1)' -> 1' -> 0**. So, **0** will act as the **input** for the **D3** ff. Hence, **Q3=0, Q2=0, Q1=0, Q0=1**.
+
+> When we apply the **second clock**, **000** will be the **input** for the **NOR** gate and the **output** will be **(0 + 0 + 0)' -> 0' -> 1**. So, **1** will act as the **input** for the **D3** ff. Hence, **Q3=1, Q2=0, Q1=0, Q0=0**.
+
+> When we apply the **third clock**, **100** will be the **input** for the **NOR** gate and the **output** will be **(1 + 0 + 0)' -> 1' -> 0**. So, **0** will act as the **input** for the **D3** ff. Hence, **Q3=0, Q2=1, Q1=0, Q0=0**.
+
+> When we apply the **fourth clock**, **010** will be the **input** for the **NOR** gate and the **output** will be **(0 + 1 + 0)' -> 1' -> 0**. So, **0** will act as the **input** for the **D3** ff. Hence, **Q3=0, Q2=0, Q1=1, Q0=0**.
+
+> When we apply the **fifth clock**, **001** will be the **input** for the **NOR** gate and the **output** will be **(0 + 0 + 1)' -> 1' -> 0**. So, **0** will act as the **input** for the **D3** ff. Hence, **Q3=0, Q2=0, Q1=0, Q0=1**.
+
+> When we apply the **sixth clock**, **000** will be the **input** for the **NOR** gate and the **output** will be **(0 + 0 + 0)' -> 0' -> 1**. So, **0** will act as the **input** for the **D3** ff. Hence, **Q3=1, Q2=0, Q1=0, Q0=0**.
+   
+> We had started from **unused state(3)** but the **ring counter** entered into the **used states(1,2,4 and 8)**.
+
+![image](https://user-images.githubusercontent.com/54589605/227759537-bb79a97d-f044-46ae-a867-11d4d3897859.png)
+
+> So this is the **modified circuit** of a **ring counter**.
+
+![image](https://user-images.githubusercontent.com/54589605/227759577-cfd53ebb-1619-430b-a0f6-ec81101b5229.png)
+
+> Whatever **input** we can give. Inputs depends on **(Q3 + Q2 + Q1)'** condition.
+
+![image](https://user-images.githubusercontent.com/54589605/227759619-aad47324-f276-424c-a46c-c007ea61360e.png)
+
+> We can **randomly** consider something for the **initial state** withput **applying any clock**.
+
+> In this manner, we can **eliminate** the **two** conditions of a **ring counter** which were the **starting problem and the lock out problem**. This **two** are eliminated with the help of the **below** circuit.
+
+![image](https://user-images.githubusercontent.com/54589605/227759706-dfa68d8e-5601-424c-b8d6-a73ca23706e2.png)
+
+* Modified **Ring** counter
+
+> We have used the **D ffs**. It is like a **register** only. If we don't have **D ffs**, then we have to convert those other ffs into **D ffs**.
+
+![image](https://user-images.githubusercontent.com/54589605/227759764-ad6902b6-4c4a-4c6a-8e44-d929a00589f1.png)
+![image](https://user-images.githubusercontent.com/54589605/227759807-02d1be04-62d3-4f4c-9234-120b804281c6.png)
+![image](https://user-images.githubusercontent.com/54589605/227759826-f400a725-2090-49e3-a181-30f5ef63a49c.png)
+![image](https://user-images.githubusercontent.com/54589605/227759833-2787d338-d08f-4263-9448-76a544a817e0.png)
+
+> **IMPORTANT**, try to **remember them**.
+
+## Johnson Ring Counter
+
+![image](https://user-images.githubusercontent.com/54589605/227759878-3a1a5463-7bb4-4c56-a6d3-a9482977ed81.png)
+
+> We had this connection in **ring counter**. From **Q0** to **D3**. It was direct connection.
+
+![image](https://user-images.githubusercontent.com/54589605/227759891-4cc33959-6dc5-45c1-9e30-8b13439c27df.png)
+![image](https://user-images.githubusercontent.com/54589605/227760595-adccb7d1-7fe6-4f77-afb6-1ec9fe2dd49a.png)
+
+> In, **Johnson ring counter**, the connection is from **Q0' to D3**. It is connected with **Q0'**.
+
+> This is the **difference** between **johnson and ring counter**.
+
+> We are taking from **Q0'**, so we have a **NOT** gate here.
+
+> Initial state, all are **zeroes(0)**. When we apply the **first clock**, **0** will be the **input** for the **NOT** gate and the **output** will be **0' -> 1**. So, **1** will act as the **input** for the **D3** ff. Hence, **Q3=1, Q2=0, Q1=0, Q0=0**.
+
+> When we apply the **second clock**, **0** will be the **input** for the **NOT** gate and the **output** will be **0' -> 1**. So, **1** will act as the **input** for the **D3** ff. Hence, **Q3=1, Q2=1, Q1=0, Q0=0**.
+
+> When we apply the **third clock**, **0** will be the **input** for the **NOT** gate and the **output** will be **0' -> 1**. So, **1** will act as the **input** for the **D3** ff. Hence, **Q3=1, Q2=1, Q1=1, Q0=0**.
+
+> When we apply the **fourth clock**, **0** will be the **input** for the **NOT** gate and the **output** will be **0' -> 1**. So, **1** will act as the **input** for the **D3** ff. Hence, **Q3=1, Q2=1, Q1=1, Q0=1**.
+
+> When we apply the **fifth clock**, **1** will be the **input** for the **NOT** gate and the **output** will be **1' -> 0**. So, **0** will act as the **input** for the **D3** ff. Hence, **Q3=0, Q2=1, Q1=1, Q0=1**.
+
+> When we apply the **sixth clock**, **1** will be the **input** for the **NOT** gate and the **output** will be **1' -> 0**. So, **0** will act as the **input** for the **D3** ff. Hence, **Q3=0, Q2=0, Q1=1, Q0=1**.
+
+> When we apply the **seventh clock**, **1** will be the **input** for the **NOT** gate and the **output** will be **1' -> 0**. So, **0** will act as the **input** for the **D3** ff. Hence, **Q3=0, Q2=0, Q1=0, Q0=1**.
+
+> When we apply the **eigth clock**, **1** will be the **input** for the **NOT** gate and the **output** will be **1' -> 0**. So, **0** will act as the **input** for the **D3** ff. Hence, **Q3=0, Q2=0, Q1=0, Q0=0**.
+
+> When we apply the **ninth clock**, **0** will be the **input** for the **NOT** gate and the **output** will be **0' -> 1**. So, **1** will act as the **input** for the **D3** ff. Hence, **Q3=1, Q2=0, Q1=0, Q0=0**.
+
+> If we have take **t1** as **Q3=1, Q2=0, Q1=0 and Q0=0**, then we can see that at **9th clock**, we are getting the **same** pattern as in **t1**. We will take this as **t2**. So, the **Mod number** is **t2-t1 -> 9-1 -> 8**.
+
+![image](https://user-images.githubusercontent.com/54589605/227760993-fb9053cd-8b3b-4576-9716-4432b0292f07.png)
+![image](https://user-images.githubusercontent.com/54589605/227761023-ed32c5c1-8124-461d-a471-7ab4c5f1290b.png)
+
+* Diwali pattern. 
+
+* Duty Cycle(D) -> 4/8 -> 1/2 -> 50 %.
+
+> **All the cases have the same thing**.
+
+![image](https://user-images.githubusercontent.com/54589605/227761152-5b7897f1-a5f3-4c1a-ae9d-29ade4b488e6.png)
+
+## Summary
+
+![image](https://user-images.githubusercontent.com/54589605/227761174-796e20f0-acd1-49cf-b697-541f18f7e4b8.png)
+
+> **IMPORTANT**, remember this **pattern**.
+
+![image](https://user-images.githubusercontent.com/54589605/227761227-9bbd9188-5ed7-4053-996c-34e5e1589220.png)
+
+> We are finding the **used states** from the **pattern only**. We have **8** used states. The remaining are **unused** states.
+
+> If **'n' ffs** are used then **max possible** states are **2^n**. Used states are **2 * n or 2n**. 
+
+* Total possible states -> 2^n
+* Used states -> 2 * n
+* Unused states -> (2^n) - (2 * n) -> Total - used.
+* Mod number -> 2 * n.
+
+![image](https://user-images.githubusercontent.com/54589605/227761449-ac40488c-64ae-401d-89b7-9d13c25e9f8b.png)
+
+* What happens when **johnson** counter enters **unused** states?
+
+![image](https://user-images.githubusercontent.com/54589605/227761488-333fa4b3-766f-4af2-9a2f-dc4a9009134d.png)
+
+> When **clock=0**, the **initial value** is **13 -> 1101**. When we apply the **first clock**, **1** will be the **input** for the **NOT** gate and the **output** will be **1' -> 0**. So, **0** will act as the **input** for the **D3** ff. Hence, **Q3=0, Q2=1, Q1=1, Q0=0**.
+
+> When we apply the **second clock**, **0** will be the **input** for the **NOT** gate and the **output** will be **0' -> 1**. So, **1** will act as the **input** for the **D3** ff. Hence, **Q3=1, Q2=0, Q1=1, Q0=1**.
+
+> When we apply the **third clock**, **1** will be the **input** for the **NOT** gate and the **output** will be **1' -> 0**. So, **0** will act as the **input** for the **D3** ff. Hence, **Q3=0, Q2=1, Q1=0, Q0=1**.
+
+> When we apply the **fourth clock**, **1** will be the **input** for the **NOT** gate and the **output** will be **1' -> 0**. So, **0** will act as the **input** for the **D3** ff. Hence, **Q3=0, Q2=0, Q1=1, Q0=0**.
+
+> When we apply the **fifth clock**, **0** will be the **input** for the **NOT** gate and the **output** will be **0' -> 1**. So, **1** will act as the **input** for the **D3** ff. Hence, **Q3=1, Q2=0, Q1=0, Q0=1**.
+
+> When we apply the **sixth clock**, **1** will be the **input** for the **NOT** gate and the **output** will be **1' -> 0**. So, **0** will act as the **input** for the **D3** ff. Hence, **Q3=0, Q2=1, Q1=0, Q0=0**.
+
+> When we apply the **seventh clock**, **0** will be the **input** for the **NOT** gate and the **output** will be **0' -> 1**. So, **1** will act as the **input** for the **D3** ff. Hence, **Q3=1, Q2=0, Q1=1, Q0=0**.
+
+> When we apply the **eight clock**, **0** will be the **input** for the **NOT** gate and the **output** will be **0' -> 1**. So, **1** will act as the **input** for the **D3** ff. Hence, **Q3=1, Q2=1, Q1=0, Q0=1**.
+
+> When we apply the **ninth clock**, **1** will be the **input** for the **NOT** gate and the **output** will be **1' -> 0**. So, **0** will act as the **input** for the **D3** ff. Hence, **Q3=0, Q2=1, Q1=1, Q0=0**.
+
+> Now, if we take **first clock cycle** or **Q3=0, Q2=1, Q1=1 and Q0=0** as **t1**. Then, at the **9th clock cycle**, we got the same pattern as **t1**. So, the **pattern** is repeated.
+
+> We can also see that all of the **States** are in the **unused** states. So, when the **johnson** counter enters into any one of the **unused** states, then the **counter** cannot come back to the **used** states.
+
+![image](https://user-images.githubusercontent.com/54589605/227761972-ee6332ce-dbb5-4e0c-abfb-4c0377804dcd.png)
+![image](https://user-images.githubusercontent.com/54589605/227761990-93eded38-cb90-4103-86b6-b8ffdcaade7e.png)
+
+> This is called as the **lock out problem**. **Johnson** counter also suffers from **lock out problem**.
+
+## Drawback
+
+![image](https://user-images.githubusercontent.com/54589605/227762017-b45b6d3e-eece-4456-be70-5f44ee29164d.png)
+
+* **Lock out problem**.
+
+* How to overcome the **Lock out problem** for **johnson** counters?
+
+* **Input condition(i/p)** -> (Q1 + Q0)' 
+
+> When **clock=0**, then the **initial state** is **13 -> 1101 -> Q3=1, Q2=1, Q1=0 and Q0=1**.
+
+> When we apply the **first clock**, **01** will be the **input** for the **NOR** gate and the **output** will be **(0 + 1)' -> 1' -> 0**. So, **0** will act as the **input** for the **D3** ff. Hence, **Q3=0, Q2=1, Q1=1, Q0=0**.
+
+> When we apply the **second clock**, **10** will be the **input** for the **NOR** gate and the **output** will be **(1 + 0)' -> 1' -> 0**. So, **0** will act as the **input** for the **D3** ff. Hence, **Q3=0, Q2=0, Q1=1, Q0=1**.
+
+> When we apply the **third clock**, **11** will be the **input** for the **NOR** gate and the **output** will be **(1 + 1)' -> 1' -> 0**. So, **0** will act as the **input** for the **D3** ff. Hence, **Q3=0, Q2=0, Q1=0, Q0=1**.
+
+> When we apply the **fourth clock**, **01** will be the **input** for the **NOR** gate and the **output** will be **(0 + 1)' -> 1' -> 0**. So, **0** will act as the **input** for the **D3** ff. Hence, **Q3=0, Q2=0, Q1=0, Q0=0**.
+
+> When we apply the **fifth clock**, **00** will be the **input** for the **NOR** gate and the **output** will be **(0 + 0)' -> 0' -> 1**. So, **1** will act as the **input** for the **D3** ff. Hence, **Q3=1, Q2=0, Q1=0, Q0=0**.
+
+> When we apply the **sixth clock**, **00** will be the **input** for the **NOR** gate and the **output** will be **(0 + 0)' -> 0' -> 1**. So, **1** will act as the **input** for the **D3** ff. Hence, **Q3=1, Q2=1, Q1=0, Q0=0**.
+
+> When we apply the **seventh clock**, **00** will be the **input** for the **NOR** gate and the **output** will be **(0 + 0)' -> 0' -> 1**. So, **1** will act as the **input** for the **D3** ff. Hence, **Q3=1, Q2=1, Q1=1, Q0=0**.
+
+> When we apply the **eight clock**, **10** will be the **input** for the **NOR** gate and the **output** will be **(1 + 0)' -> 1' -> 0**. So, **0** will act as the **input** for the **D3** ff. Hence, **Q3=0, Q2=1, Q1=1, Q0=1**.
+
+> When we apply the **ninth clock**, **11** will be the **input** for the **NOR** gate and the **output** will be **(1 + 1)' -> 1' -> 0**. So, **0** will act as the **input** for the **D3** ff. Hence, **Q3=0, Q2=0, Q1=1, Q0=1**.
+
+> When we apply the **tenth clock**, **11** will be the **input** for the **NOR** gate and the **output** will be **(1 + 1)' -> 1' -> 0**. So, **0** will act as the **input** for the **D3** ff. Hence, **Q3=0, Q2=0, Q1=0, Q0=1**.
+
+> When we apply the **eleventh clock**, **01** will be the **input** for the **NOR** gate and the **output** will be **(0 + 1)' -> 1' -> 0**. So, **0** will act as the **input** for the **D3** ff. Hence, **Q3=0, Q2=0, Q1=0, Q0=0**.
+
+> When we apply the **twelveth clock**, **00** will be the **input** for the **NOR** gate and the **output** will be **(0 + 0)' -> 0' -> 1**. So, **1** will act as the **input** for the **D3** ff. Hence, **Q3=1, Q2=0, Q1=0, Q0=0**.
+
+> From here, the **johnson** counter has entered into the **used** states.
+
+![image](https://user-images.githubusercontent.com/54589605/227762608-b1199a47-f851-4390-8466-9d1af9a64934.png)
+![image](https://user-images.githubusercontent.com/54589605/227762575-c74055bc-6c9b-4371-bcec-727bab106d74.png)
+
+> This is the **circuit** we use to prevent **log out problem** in **johnson** counter.
+
+
+
+
 
 
 
