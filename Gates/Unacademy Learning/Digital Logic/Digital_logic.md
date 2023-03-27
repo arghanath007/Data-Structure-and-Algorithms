@@ -6238,7 +6238,7 @@ simultaneously**. If we apply **clock =1**, then we will get **wxyz**.
 
 
 
-
+t
 
 
 
