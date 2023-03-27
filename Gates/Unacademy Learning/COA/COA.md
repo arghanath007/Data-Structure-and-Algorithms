@@ -1608,6 +1608,11 @@ operation needs more **3 operands**, it will be broken down into multiple instru
 > If we are copying any content outside the register to memory, it takes a lot of time. Anything accessed within the cpu, anything accessed with the register, we fast. If anything goes to the memory it takes a lot of time.
 
 ![image](https://user-images.githubusercontent.com/54589605/224557033-96aea637-67ca-4a1c-9799-3ad5783cd1ae.png)
+
+![image](https://user-images.githubusercontent.com/54589605/227844581-5ed8bb4a-acf6-4e7d-9f93-c2790adb6f9f.png)
+
+* Example of **Register spill** condition.
+
 ![image](https://user-images.githubusercontent.com/54589605/224557674-2a7aacab-0e41-4503-a69a-85445c78a1de.png)
 
 > For **register based architecture**, if nothing mentioned then **both inputs** should come from **registers**. THe first input or **r1** is the destination as well.
