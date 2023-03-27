@@ -1602,7 +1602,7 @@ operation needs more **3 operands**, it will be broken down into multiple instru
 ![image](https://user-images.githubusercontent.com/54589605/224555897-6b41d370-606e-477d-a919-65a8e21a4aaf.png)
 ![image](https://user-images.githubusercontent.com/54589605/224556712-dced8268-cec3-4632-818f-d82996d5f515.png)
 
-> In AC or Accumulator-based architecture, we can only support **1-address instruction or 1-address instruction** only.
+> In AC or Accumulator-based architecture, it can only support either **1-address instruction or 0-address instruction** only.
 > In question, it is mentioned if nothing is given then only the first operand should come from **accumulator**.
 
 > If we are copying any content outside the register to memory, it takes a lot of time. Anything accessed within the cpu, anything accessed with the register, we fast. If anything goes to the memory it takes a lot of time.
