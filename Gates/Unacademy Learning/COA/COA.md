@@ -1658,6 +1658,16 @@ operation needs more **3 operands**, it will be broken down into multiple instru
 
 > For branch type instruction, their target address is their **effective address** only.
 
+![image](https://user-images.githubusercontent.com/54589605/227865683-ff042378-0b0e-4097-928b-2f8fe6d9c48a.png)
+![image](https://user-images.githubusercontent.com/54589605/227865698-593e5692-ce3e-4ab3-9b87-7641d4ae24de.png)
+![image](https://user-images.githubusercontent.com/54589605/227865717-7bd0db25-67fb-48ba-af9b-b2ccc2b7d840.png)
+![image](https://user-images.githubusercontent.com/54589605/227865734-502ceb25-9ef0-4dd0-aa81-6612090c1d81.png)
+![image](https://user-images.githubusercontent.com/54589605/227865756-449fa680-f70a-4f0e-9ebc-12c833fcbd6c.png)
+![image](https://user-images.githubusercontent.com/54589605/227865786-f6cca169-4e1d-4543-82cd-9e41e2bbab96.png)
+![image](https://user-images.githubusercontent.com/54589605/227865808-d1d3683a-e3e1-4fdd-bd02-949a70d8751c.png)
+![image](https://user-images.githubusercontent.com/54589605/227865825-6a645ceb-c414-4a3c-aaa1-ea567974840f.png)
+
+
 
 
 
@@ -1673,6 +1683,15 @@ operation needs more **3 operands**, it will be broken down into multiple instru
 * Link -> https://unacademy.com/quiz/quiz-i/PPCBB9935H/solutions/SP_AAF34WLKY4HP0N2MV
 
 ![Quiz_1](https://user-images.githubusercontent.com/54589605/223939357-b43aeca8-d6c8-4cf3-a3fd-18f0636e1029.jpeg)
+
+## Quiz-2
+
+* Link -> https://unacademy.com/quiz/quiz-ii/89LRBIT1WD/solutions/SP_A07NM0ZTTGW0YO4CS
+
+![image](https://user-images.githubusercontent.com/54589605/227865586-e88963a9-2c5f-4920-a817-2892ade8c85b.png)
+![image](https://user-images.githubusercontent.com/54589605/227865605-e1c71e1b-1ac9-4195-bea7-84f1296675ec.png)
+
+
 
 
 # PYQs
