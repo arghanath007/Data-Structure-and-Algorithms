@@ -7008,6 +7008,11 @@ For **n ffs**, we have totally **2^n** states are possible. The states are from 
 
 > Check the **order** in which they want the **answer**, here they wanted in **Q1, Q0** order.
 
+![image](https://user-images.githubusercontent.com/54589605/227866243-264ac01a-20a0-49fb-ae57-72438242b2ee.png)
+![image](https://user-images.githubusercontent.com/54589605/227866295-364d3cb5-d4ac-47e6-af9a-6793197eebfe.png)
+![image](https://user-images.githubusercontent.com/54589605/227866311-ba45e1f0-1931-4ae4-9f96-f0a93f8e0b31.png)
+
+
 
 
 
