@@ -1602,12 +1602,17 @@ operation needs more **3 operands**, it will be broken down into multiple instru
 ![image](https://user-images.githubusercontent.com/54589605/224555897-6b41d370-606e-477d-a919-65a8e21a4aaf.png)
 ![image](https://user-images.githubusercontent.com/54589605/224556712-dced8268-cec3-4632-818f-d82996d5f515.png)
 
-> In AC or Accumulator-based architecture, we can only support **1-address instruction or 1-address instruction** only.
+> In AC or Accumulator-based architecture, it can only support either **1-address instruction or 0-address instruction** only.
 > In question, it is mentioned if nothing is given then only the first operand should come from **accumulator**.
 
 > If we are copying any content outside the register to memory, it takes a lot of time. Anything accessed within the cpu, anything accessed with the register, we fast. If anything goes to the memory it takes a lot of time.
 
 ![image](https://user-images.githubusercontent.com/54589605/224557033-96aea637-67ca-4a1c-9799-3ad5783cd1ae.png)
+
+![image](https://user-images.githubusercontent.com/54589605/227844581-5ed8bb4a-acf6-4e7d-9f93-c2790adb6f9f.png)
+
+* Example of **Register spill** condition.
+
 ![image](https://user-images.githubusercontent.com/54589605/224557674-2a7aacab-0e41-4503-a69a-85445c78a1de.png)
 
 > For **register based architecture**, if nothing mentioned then **both inputs** should come from **registers**. THe first input or **r1** is the destination as well.
@@ -1618,7 +1623,7 @@ operation needs more **3 operands**, it will be broken down into multiple instru
 
 * Yes.
 
-> In **register-memory based architecture**, if nothing mentioned then **both inputs** are taken from registers. The **1st register** also acts as the **destination address** as well.
+> In **register-memory based architecture**, if nothing mentioned in the question then **first** operation should be taken from **register** and **second** operand can be taken from **register or memory**. The **1st operand** if **register** also acts as the **destination address** as well. This is the **default** only.
 
 ![image](https://user-images.githubusercontent.com/54589605/224558620-eb187c81-503f-4dc6-afa8-ba0339affc8d.png)
 ![image](https://user-images.githubusercontent.com/54589605/224559442-a863c48f-8499-4d23-9a4c-cddeedb64d56.png)
@@ -1653,6 +1658,252 @@ operation needs more **3 operands**, it will be broken down into multiple instru
 
 > For branch type instruction, their target address is their **effective address** only.
 
+![image](https://user-images.githubusercontent.com/54589605/227865683-ff042378-0b0e-4097-928b-2f8fe6d9c48a.png)
+![image](https://user-images.githubusercontent.com/54589605/227865698-593e5692-ce3e-4ab3-9b87-7641d4ae24de.png)
+![image](https://user-images.githubusercontent.com/54589605/227865717-7bd0db25-67fb-48ba-af9b-b2ccc2b7d840.png)
+![image](https://user-images.githubusercontent.com/54589605/227865734-502ceb25-9ef0-4dd0-aa81-6612090c1d81.png)
+![image](https://user-images.githubusercontent.com/54589605/227865756-449fa680-f70a-4f0e-9ebc-12c833fcbd6c.png)
+![image](https://user-images.githubusercontent.com/54589605/227865786-f6cca169-4e1d-4543-82cd-9e41e2bbab96.png)
+![image](https://user-images.githubusercontent.com/54589605/227865808-d1d3683a-e3e1-4fdd-bd02-949a70d8751c.png)
+![image](https://user-images.githubusercontent.com/54589605/227865825-6a645ceb-c414-4a3c-aaa1-ea567974840f.png)
+
+## Addressing Modes: Part 1 (10) [27th March 2023]
+
+> If any operation or instruction needs operand and that operand is in memory, then the **address of the operand** is known as **effective address**.
+
+> If **instruction** is **branch** type instruction, then **target address** which is **where to jump**, then that **target address** is known as **effective address**.
+
+> In **branch type instruction**, if **branch taken** then **jump happens**. So, **program counter(PC)** value should be updated by **target address**. If **branch not taken**, then **no change in program counter(PC)** and the next instruction in the sequence will be **executed**.
+
+![image](https://user-images.githubusercontent.com/54589605/227870292-b05291c3-d08a-4303-a8c3-02831bf4e1f7.png)
+
+## Types of Branch Instruction
+
+1) Conditional
+2) Unconditional -> **No any condition**, so **branch taken always and jump taken**. It means, without checking any condition, **Program counter(PC)** value will always be updated by **target address** value. **Target instruction** will be executed always without any **condition checking**.
+
+## Instruction Cycle
+
+![image](https://user-images.githubusercontent.com/54589605/227873132-495388f5-7cea-4f6d-aa78-5af564988f82.png)
+
+> Instruction executed in **6** phases.
+
+> Each **instruction** is stored in **two** addresses.
+
+> The cpu has to **execute** the **above** program and cpu will know which is the **first** instruction to **execute(I1)**. For that cpu will have it's address. Whichever **next instruction** is to be **executed** that instruction's address is known to the cpu and **stored in general purpose registers** and it is called as **Program counter(PC)**. So, PC will hold the **address 500**, so that cpu will know that at **500** address in the memory, cpu has to **execute** that instruction next. 
+
+* Program is in **memory** and instructions are in **memory but execution of instruction happens **inside memory or cpu**?
+
+> **Inside CPU**. So, cpu has to bring the **instructions** from **memory to cpu**. This is the **very first step** of **instruction execution** that CPU brings **first or next** instruction to **execute** from **memory** to CPU. .CPU knows **PC** and it uses PC and it goes to **memory** on that **address** and whatever instruction is stored on that address, bring that **instruction** to cpu. So Instruction register(IR) will **hold** the instructions. So, CPU brings instruction in IR from **memory**.
+
+![image](https://user-images.githubusercontent.com/54589605/227878383-5c8bae74-2d3d-4364-b08e-834458979486.png)
+
+
+* Where is the instruction is kept?
+
+> Instruction register(IR).
+
+> So Instruction register(IR) will **hold** the instructions. CPU brings the **instructions** into Instruction register(IR) from memory. Whenever cpu bring the **instructions** into Instruction register(IR) from memory, the value of **Program counter(PC)** increase/incremented by the size of the current instruction.
+
+![image](https://user-images.githubusercontent.com/54589605/227878840-c1abeb39-e166-47d3-9514-9a57a9747fe5.png)
+![image](https://user-images.githubusercontent.com/54589605/227890129-cf879fef-e57a-4466-b2b6-3c40d54a0c10.png)
+
+> This is the very first step of **instruction execution**. The **step** name is as **instruction fetch**. The cpu uses PC value and goes to a memory, reads the memory and bring the next **instructions** to IR.  This is **instruction fetch**.
+
+> The **above step**, is **common** for all type of **instructions**, which is bringing **instructions** from **memory** to **CPU**. It is a **memory read** operation. The initial address is in **PC**. Next instruction address is in **IR** only. This is **instruction fetch**.
+
+> Now, if the instruction is present in CPU's instruction register(IR), then cpu will understand that it has an **opcode**. CPU will first **decode** the opcode part only and will try to understand **what is the type of instruction**. Let's say cpu understand that it is **addition** type operation. This is the **second step** which is called as **instruction decode**.
+
+![image](https://user-images.githubusercontent.com/54589605/227882205-cdae43fc-2fc1-45ac-9c74-11889becf00e.png)
+
+> Now, cpu understands that for that **operation**, we need **operands**. If we need operands then **operand information** is given and cpu will try to **decode** the information. By decoding the information, cpu will try to know **how many operands?**, **where the operands are?(memory or register)**. After **decoding**, cpu will try to understand **from where we can get the operands?**. In basic terms, address of operands is called as **effective address**. That's why this **phase** is called as **effective address calculation**. It is the **3rd step**.
+
+![image](https://user-images.githubusercontent.com/54589605/227884412-c2991e3f-58fa-4b3c-8fa0-b92b4fc22c5c.png)
+
+> Let's assume, cpu understood that **effective address are , two operands are needed, both are present in memory(a and b)**. Their **address** cpu has already calculated. To perform the **operation inside ALU**, ALU will have **two direct inputs**. To bring the **operands** into ALU, cpu will has to fetch these(a and b) operands from the given **addresses**. From wherever **(a and b)** operands are cpu has to fetch them into the **two** registers 
+which are directly giving **input** to ALU.  This is the **fourth step** called as **operand fetch step**.
+
+![image](https://user-images.githubusercontent.com/54589605/227886963-b7e34402-21ef-4590-ac82-d0e7cb947497.png)
+
+> Now, cpu has the operands and it knows the operation. So, the **actual operation(add, mul, div)** whatever is the **operation**, should happen now and it is performed. This is the **fifth step** called as the **execution stage**.
+
+![image](https://user-images.githubusercontent.com/54589605/227888374-ea86a06f-3b70-4886-9c71-666d664ec8d3.png)
+
+> After **execution** immediately, the result of **ALU** generated is first stored/kept in **AC**. From here, whatever the instruction's destination we have, that destination will get back the **operand** back. This is the **sixth** step, called as the **right back result step**.
+
+> In the **sixth step**, the result will be **copied** back to the **destination**.
+
+![image](https://user-images.githubusercontent.com/54589605/227889229-a9e1e8e8-07a4-4dff-9d32-30077bac6246.png)
+
+![image](https://user-images.githubusercontent.com/54589605/227890453-43ebb994-3bc5-490e-b00d-466adead2fa9.png)
+
+> No, immediately at the end of the **fetch cycle** only. After the complete execution of fetch operation of **instructions** from **memory** to **instruction register(IR)**, then only the **Program Counter(PC)** gets **updated**.
+
+> This is a **computation** type **instruction**.
+
+### Instruction Cycle
+
+![image](https://user-images.githubusercontent.com/54589605/227891574-3c14c874-eb4d-4dde-b10c-3f25aeb5b9b8.png)
+![image](https://user-images.githubusercontent.com/54589605/227891947-f2d0d885-4411-46b8-98bb-131af8c35e72.png)
+
+> All of the **6** phases are **divided** again into **two** different names.
+
+* Fetch Cycle -> Only **instruction fetch**.
+* Execution Cycle of instructions -> From **instruction decode** to **write back result** everything.
+
+![image](https://user-images.githubusercontent.com/54589605/227892477-620b5a5f-4fae-44e4-bc60-4cfc61dde6ba.png)
+
+> There are differences, **Execution Cycle** then from **instruction decode** to **write back result** everything. If, **Execution stage/phase** then **Execution** only.
+
+![image](https://user-images.githubusercontent.com/54589605/227892920-92738e0e-0291-4bcd-911f-fd9b247f46b4.png)
+
+> This only for **Execution stage/phase**.
+
+* Total time taken for **instruction execution completely**?
+
+![image](https://user-images.githubusercontent.com/54589605/227893604-596ee546-3419-443b-bc57-67768ab1a4c8.png)
+
+> Then we will take all **6** phases.
+
+
+* For, **Branch Type Instruction**
+
+> In the **operand fetch**, nothing happens or **no operation** happens as there is no **operand fetch** in the **Branch Type Instruction**. For, **Branch Type Instruction**, we don't need **operand fetch** stage. **Operand fetch** will not happen. There will be **no time** taken for **operand fetch**.
+
+> In **execution phase** of  **Branch Type Instruction**, the **condition** is checked and if the **condition** is **True** then the **Program counter(PC)** value is **updated** and if **condition** is **false**, then **no change** in **PC**. If the **Branch Type Instruction** is **uncondition** type, then the **condition** is also not checked and directly **PC** value is updated.
+
+> We don't need **write back phase** in **Branch Type Instruction** as nothing happends. We don't need it for **Branch Type Instruction**.
+
+![image](https://user-images.githubusercontent.com/54589605/227897467-9d430aba-90ce-4181-b37c-2d1d224e1ab4.png)
+
+## Addressing Mode
+
+![image](https://user-images.githubusercontent.com/54589605/227943886-c5257483-28ce-4b42-8ab4-02bd4b0ee272.png)
+
+> CPU is confused how to read **110**.
+
+![image](https://user-images.githubusercontent.com/54589605/227944133-509d2baa-c758-4ab4-a867-dd937baee16f.png)
+
+> **mode** is removing the **confusion**.
+
+![image](https://user-images.githubusercontent.com/54589605/227944563-d20f7bf2-f712-4de9-8e2b-c6ef1d192c11.png)
+![image](https://user-images.githubusercontent.com/54589605/227944765-ab0aad22-34e3-40ba-be2f-2691776cab4e.png)
+
+## Implied Mode
+
+> Generally, **opcode** gives information about **operation**. But sometimes, it gives information about **operation and operand location** also. Then, we don't need **address** part at all. To give the information to cpu that don't use the **address** part and only **opcode** part itself will be enough as **operation and operand location** are inside opcode only. Then, cpu has to be informed by a specific mode called as the **implied mode**.
+
+![image](https://user-images.githubusercontent.com/54589605/227945989-7430ffe3-51eb-4a9b-bd12-19e4a1376382.png)
+
+* Example -> Increment Accumulator.
+
+## Immediate Mode
+
+> Whatever is **writte** within the **address** part, it is **operand** value. Direct **operand** value is written within the **instruction** itself. The **mode** suggests that it is **immediate** mode.
+
+> Example for **initializing** registers.
+
+![image](https://user-images.githubusercontent.com/54589605/227946933-86df79c0-6e55-41b8-a1e9-d121a1bef0fb.png)
+
+## Direct/Absolute Mode
+
+> Operand is taken from **memory**. **Address** is **memory address** and **effectively address**. Cpu will take the address and go to memory and get the **operand** on that **address**. If it is **direct mode**, then the operand is taken from **memory**. So cpu will treat the **address** as **memory address** and go to that **address** and get the **operand**.
+
+* How many times memory access happened for accessing the **operand**?
+
+> Once(1) or **1** memory access needed here.
+
+![image](https://user-images.githubusercontent.com/54589605/227947585-9c92594e-ac26-4e62-9e3e-1d360ab3b494.png)
+
+## Indirect mode
+
+> **Address** is the address of the **effective address** given. So when cpu reads the address and goes to the memory and reads the content and gets the **effective address**. Then, again cpu sends the  **effective address** to memory and then reads the content and now gets the **operand**. **Two** times **memory** is accessed here.
+
+![image](https://user-images.githubusercontent.com/54589605/227948017-d420ea55-1318-4b3c-a749-5aec76cea742.png)
+![image](https://user-images.githubusercontent.com/54589605/227948151-685f37d4-63cf-4471-9b4e-afb52f4a8053.png)
+![image](https://user-images.githubusercontent.com/54589605/227948410-c172e6df-3224-4611-b78c-afee9feb1b66.png)
+
+> This is needed to implement **pointers**.
+
+## Register Mode
+
+> The name itself suggests, from where we will get the **operand**?, we will get it from the **general purpose register**. Whatever no. is given in the **address** is not the **memory address**, it is a **general purpose register number**. Go to that **general purpose register** and inside the register there will be an **operand**.
+
+![image](https://user-images.githubusercontent.com/54589605/227949352-59d93c90-1158-4a97-803f-e69ce27805f0.png)
+
+* How many **memory access** needed to obtain **operand**?
+
+> **zero(0)** or **0** memory reference needed.
+
+## Register indirect mode
+
+> We are getting the **operand** through **register** only. If we get some **register number** in **address**, then go to the **register** but we will not get **any operand** inside the register but we will get **effective address**. Use the **effective address** and go to **memory** and we will get an **operand**. Here, **one memory access** needed.
+
+![image](https://user-images.githubusercontent.com/54589605/227950248-0d136c78-2757-4ee1-b3db-ee365a7d9dc9.png)
+
+* How many **memory access** needed to obtain **operand**?
+
+> **Once(1)** or **1** memory reference needed.
+
+![image](https://user-images.githubusercontent.com/54589605/227951167-ae3f42ce-dcb9-4300-9dfa-cfe9686f17a1.png)
+
+* Why we are going indirectly through a **register** to the **effective memory address** to get the **operand**?
+
+> **For the purpose of shortening instruction length** as **memory address** are significantly **larger** like 32 bits, 34bits, 16bits etc. No. of registers are so less and cpu can support variable length instruction. It is better to store lesser no. of bits at the **address** of the instruction. Then, we can save a **lot of bits**.
+
+![image](https://user-images.githubusercontent.com/54589605/227952560-f5ff250c-f8a8-43c5-83e7-2892a06249be.png)
+
+> It has **variable length instructions**, so **fixed length opcode**.
+
+> All most in **same time**, operand is taken. In **Direct**, memory took like **200ns**, so time taken was **200ns**. For, **register indirect**, time taken was **200ns for memory address + 0.1ns for register**. So, in total **200.01ns** time taken which is almost same to **200ns**.
+
+> So, if **variable instruction size** is given then we can **reduce** the **length of instruction** by using **register indirect mode**. 
+
+![image](https://user-images.githubusercontent.com/54589605/227983637-850da197-6944-4eb1-bd16-d167a4104576.png)
+![image](https://user-images.githubusercontent.com/54589605/227985035-b8d43ef6-d8bc-4345-b4ab-9e7b257f51f9.png)
+
+## Auto-increment/Auto-decrement mode
+
+> We have an array **A** of **50** elements. The same thing(**for loop**) is implemented through the **auto-increment** mode.
+
+> The **base address** of the array is copied to the **register** which is the **address** of the **first operand**. The **single instruction** will execute **50** times and there is **no change** in the **instructions**. **Opcode** is whatever **operation** we want to perform. **Mode** is **auto-increment** mode and the **address** is the **register operand**. One register we have specified, the **same** register only. In that register we have **initially**, the **address** of the **first operand**. First time when the **instruction** is executed, then whatever **operation**, then **auto-increment mode** means **register indirect mode** and the **address** is the **address of the register**. 
+> CPU will go to that register and on that register cpu will get the effective address and on that effective address, cpu will read the **memory** and get the **operand** and perform the **operation**. As soon as the operation is performed, cpu will automatically increment implicitly only, the address of the **register**.
+
+![image](https://user-images.githubusercontent.com/54589605/227988949-b214a3b4-d57b-4dd4-b67a-03eef2892589.png)
+![image](https://user-images.githubusercontent.com/54589605/227989064-a98fab80-5874-4d10-a8ea-975068ba1b24.png)
+
+> We need to use **auto-decrement** mode when we need to **access the array** in the **reverse** order, from **bottom to top**.
+
+> This is the **way** we can convert **for loops** into **machine code** using **auto-increment or auto-decrement** mode.
+
+> If there is no **auto-increment mode**, then the compiler has to generate **50** instructions for the **for loop**.
+
+> **Post increment**, the instruction will get the register no. from **address** and we will got to that **register** and in that register whatever address is there will be **used** to get **operand first**. After the **operand** is accessed, then the increment happens at the **register**. Once the instruction is executed again, we will go to the register and we will the **address**. We will go to that address where we will find **another operand**, access the operand and perform the operation, after that **increment** happens at the register. 
+
+> **Pre decrement**, the instruction will get the register no. from **address** and we will got to that **register** and first **decrement** the value in the register and after that whatever address is there will be **used** to get **operand**. Once the instruction is executed again, we will go to the register and first **decrement** the value in the register and after that whatever address is there will be **used** to get **operand**.. We will go to that address where we will find **another operand**, access the operand and perform the operation. 
+
+> These are the **default** rules, until otherwise given.
+
+![image](https://user-images.githubusercontent.com/54589605/227996503-99c43a90-47f3-4f97-837a-66f320f46b08.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1668,6 +1919,15 @@ operation needs more **3 operands**, it will be broken down into multiple instru
 * Link -> https://unacademy.com/quiz/quiz-i/PPCBB9935H/solutions/SP_AAF34WLKY4HP0N2MV
 
 ![Quiz_1](https://user-images.githubusercontent.com/54589605/223939357-b43aeca8-d6c8-4cf3-a3fd-18f0636e1029.jpeg)
+
+## Quiz-2
+
+* Link -> https://unacademy.com/quiz/quiz-ii/89LRBIT1WD/solutions/SP_A07NM0ZTTGW0YO4CS
+
+![image](https://user-images.githubusercontent.com/54589605/227865586-e88963a9-2c5f-4920-a817-2892ade8c85b.png)
+![image](https://user-images.githubusercontent.com/54589605/227865605-e1c71e1b-1ac9-4195-bea7-84f1296675ec.png)
+
+
 
 
 # PYQs
