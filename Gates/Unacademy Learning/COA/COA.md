@@ -1887,15 +1887,34 @@ which are directly giving **input** to ALU.  This is the **fourth step** called 
 ![image](https://user-images.githubusercontent.com/54589605/227996503-99c43a90-47f3-4f97-837a-66f320f46b08.png)
 
 
+## Addressing Modes: Part II (11) [27th March 2023]
 
+### Summary of yesterday's class
 
+![image](https://user-images.githubusercontent.com/54589605/228013932-512ee014-1bb8-480b-b6bc-a4fe6f403426.png)
 
+> In the **instruction**, we have **opcode, mode** and have also included **memory address**, then the **no. of bits** used will be **more**. In place of the **memory address**, we use a **register**, then the **no. of bits** used will be **less** than **memory address**. The size of **memory address** is usually **32 bits** and for **registers**, the size is usually **6-7 bits** only. So we are saving quite a bit of **bits** there.
 
+![image](https://user-images.githubusercontent.com/54589605/228015113-f731a277-786d-469c-88da-d58dd78cfc56.png)
+![image](https://user-images.githubusercontent.com/54589605/228015581-0aa5edfc-3c18-46f1-89cf-9a4edfe7932a.png)
 
+> We can **significantly** reduce the **length of the  instruction** instead of using **memory address**, we would use a **register**.
 
+![image](https://user-images.githubusercontent.com/54589605/228017636-93947c0b-0638-4e26-a56a-625bd4bc7498.png)
 
+> **Address** is **memory address** in bith **direct as well as indirect** modes. How is the **address** used to get **operand** from memory?, It is **different** for **both direct as well as indirect** modes. That is why **how**, from where **memory** only but **how**, **directly or indirectly** that is specified by the **mode**.
 
+> **Register indirect** mode is used to **reduce instruction length** in **variable length instructions** type computer system. It can be used for **some other purpose** also for **fixed length instructions**. **Register indirect** mode will be used in **both** **variable length instructions** as well as **fixed length instructions**.
 
+![image](https://user-images.githubusercontent.com/54589605/228019714-8517989a-d950-4227-aded-efe89a6c90c2.png)
+
+> To access **array** sequentially we can use **auto-increment and auto-decrement** mode. **By default**, **auto-increment** is **post-increment** and **auto decrement** is **pre decrement**.
+
+![image](https://user-images.githubusercontent.com/54589605/228020886-09597709-f76d-463d-a13f-4d5f5573ae62.png)
+
+## Indexed mode
+
+> Start from **15mins**.
 
 
 
