@@ -1667,6 +1667,130 @@ operation needs more **3 operands**, it will be broken down into multiple instru
 ![image](https://user-images.githubusercontent.com/54589605/227865808-d1d3683a-e3e1-4fdd-bd02-949a70d8751c.png)
 ![image](https://user-images.githubusercontent.com/54589605/227865825-6a645ceb-c414-4a3c-aaa1-ea567974840f.png)
 
+## Addressing Modes: Part 1 (10) [27th March 2023]
+
+> If any operation or instruction needs operand and that operand is in memory, then the **address of the operand** is known as **effective address**.
+
+> If **instruction** is **branch** type instruction, then **target address** which is **where to jump**, then that **target address** is known as **effective address**.
+
+> In **branch type instruction**, if **branch taken** then **jump happens**. So, **program counter(PC)** value should be updated by **target address**. If **branch not taken**, then **no change in program counter(PC)** and the next instruction in the sequence will be **executed**.
+
+![image](https://user-images.githubusercontent.com/54589605/227870292-b05291c3-d08a-4303-a8c3-02831bf4e1f7.png)
+
+## Types of Branch Instruction
+
+1) Conditional
+2) Unconditional -> **No any condition**, so **branch taken always and jump taken**. It means, without checking any condition, **Program counter(PC)** value will always be updated by **target address** value. **Target instruction** will be executed always without any **condition checking**.
+
+## Instruction Cycle
+
+![image](https://user-images.githubusercontent.com/54589605/227873132-495388f5-7cea-4f6d-aa78-5af564988f82.png)
+
+> Instruction executed in **6** phases.
+
+> Each **instruction** is stored in **two** addresses.
+
+> The cpu has to **execute** the **above** program and cpu will know which is the **first** instruction to **execute(I1)**. For that cpu will have it's address. Whichever **next instruction** is to be **executed** that instruction's address is known to the cpu and **stored in general purpose registers** and it is called as **Program counter(PC)**. So, PC will hold the **address 500**, so that cpu will know that at **500** address in the memory, cpu has to **execute** that instruction next. 
+
+* Program is in **memory** and instructions are in **memory but execution of instruction happens **inside memory or cpu**?
+
+> **Inside CPU**. So, cpu has to bring the **instructions** from **memory to cpu**. This is the **very first step** of **instruction execution** that CPU brings **first or next** instruction to **execute** from **memory** to CPU. .CPU knows **PC** and it uses PC and it goes to **memory** on that **address** and whatever instruction is stored on that address, bring that **instruction** to cpu. So Instruction register(IR) will **hold** the instructions. So, CPU brings instruction in IR from **memory**.
+
+![image](https://user-images.githubusercontent.com/54589605/227878383-5c8bae74-2d3d-4364-b08e-834458979486.png)
+
+
+* Where is the instruction is kept?
+
+> Instruction register(IR).
+
+> So Instruction register(IR) will **hold** the instructions. CPU brings the **instructions** into Instruction register(IR) from memory. Whenever cpu bring the **instructions** into Instruction register(IR) from memory, the value of **Program counter(PC)** increase/incremented by the size of the current instruction.
+
+![image](https://user-images.githubusercontent.com/54589605/227878840-c1abeb39-e166-47d3-9514-9a57a9747fe5.png)
+![image](https://user-images.githubusercontent.com/54589605/227890129-cf879fef-e57a-4466-b2b6-3c40d54a0c10.png)
+
+> This is the very first step of **instruction execution**. The **step** name is as **instruction fetch**. The cpu uses PC value and goes to a memory, reads the memory and bring the next **instructions** to IR.  This is **instruction fetch**.
+
+> The **above step**, is **common** for all type of **instructions**, which is bringing **instructions** from **memory** to **CPU**. It is a **memory read** operation. The initial address is in **PC**. Next instruction address is in **IR** only. This is **instruction fetch**.
+
+> Now, if the instruction is present in CPU's instruction register(IR), then cpu will understand that it has an **opcode**. CPU will first **decode** the opcode part only and will try to understand **what is the type of instruction**. Let's say cpu understand that it is **addition** type operation. This is the **second step** which is called as **instruction decode**.
+
+![image](https://user-images.githubusercontent.com/54589605/227882205-cdae43fc-2fc1-45ac-9c74-11889becf00e.png)
+
+> Now, cpu understands that for that **operation**, we need **operands**. If we need operands then **operand information** is given and cpu will try to **decode** the information. By decoding the information, cpu will try to know **how many operands?**, **where the operands are?(memory or register)**. After **decoding**, cpu will try to understand **from where we can get the operands?**. In basic terms, address of operands is called as **effective address**. That's why this **phase** is called as **effective address calculation**. It is the **3rd step**.
+
+![image](https://user-images.githubusercontent.com/54589605/227884412-c2991e3f-58fa-4b3c-8fa0-b92b4fc22c5c.png)
+
+> Let's assume, cpu understood that **effective address are , two operands are needed, both are present in memory(a and b)**. Their **address** cpu has already calculated. To perform the **operation inside ALU**, ALU will have **two direct inputs**. To bring the **operands** into ALU, cpu will has to fetch these(a and b) operands from the given **addresses**. From wherever **(a and b)** operands are cpu has to fetch them into the **two** registers 
+which are directly giving **input** to ALU.  This is the **fourth step** called as **operand fetch step**.
+
+![image](https://user-images.githubusercontent.com/54589605/227886963-b7e34402-21ef-4590-ac82-d0e7cb947497.png)
+
+> Now, cpu has the operands and it knows the operation. So, the **actual operation(add, mul, div)** whatever is the **operation**, should happen now and it is performed. This is the **fifth step** called as the **execution stage**.
+
+![image](https://user-images.githubusercontent.com/54589605/227888374-ea86a06f-3b70-4886-9c71-666d664ec8d3.png)
+
+> After **execution** immediately, the result of **ALU** generated is first stored/kept in **AC**. From here, whatever the instruction's destination we have, that destination will get back the **operand** back. This is the **sixth** step, called as the **right back result step**.
+
+> In the **sixth step**, the result will be **copied** back to the **destination**.
+
+![image](https://user-images.githubusercontent.com/54589605/227889229-a9e1e8e8-07a4-4dff-9d32-30077bac6246.png)
+
+![image](https://user-images.githubusercontent.com/54589605/227890453-43ebb994-3bc5-490e-b00d-466adead2fa9.png)
+
+> No, immediately at the end of the **fetch cycle** only. After the complete execution of fetch operation of **instructions** from **memory** to **instruction register(IR)**, then only the **Program Counter(PC)** gets **updated**.
+
+> This is a **computation** type **instruction**.
+
+### Instruction Cycle
+
+![image](https://user-images.githubusercontent.com/54589605/227891574-3c14c874-eb4d-4dde-b10c-3f25aeb5b9b8.png)
+![image](https://user-images.githubusercontent.com/54589605/227891947-f2d0d885-4411-46b8-98bb-131af8c35e72.png)
+
+> All of the **6** phases are **divided** again into **two** different names.
+
+* Fetch Cycle -> Only **instruction fetch**.
+* Execution Cycle of instructions -> From **instruction decode** to **write back result** everything.
+
+![image](https://user-images.githubusercontent.com/54589605/227892477-620b5a5f-4fae-44e4-bc60-4cfc61dde6ba.png)
+
+> There are differences, **Execution Cycle** then from **instruction decode** to **write back result** everything. If, **Execution stage/phase** then **Execution** only.
+
+![image](https://user-images.githubusercontent.com/54589605/227892920-92738e0e-0291-4bcd-911f-fd9b247f46b4.png)
+
+> This only for **Execution stage/phase**.
+
+* Total time taken for **instruction execution completely**?
+
+![image](https://user-images.githubusercontent.com/54589605/227893604-596ee546-3419-443b-bc57-67768ab1a4c8.png)
+
+> Then we will take all **6** phases.
+
+
+* For, **Branch Type Instruction**
+
+> In the **operand fetch**, nothing happens or **no operation** happens as there is no **operand fetch** in the **Branch Type Instruction**. For, **Branch Type Instruction**, we don't need **operand fetch** stage. **Operand fetch** will not happen. There will be **no time** taken for **operand fetch**.
+
+> In **execution phase** of  **Branch Type Instruction**, the **condition** is checked and if the **condition** is **True** then the **Program counter(PC)** value is **updated** and if **condition** is **false**, then **no change** in **PC**. If the **Branch Type Instruction** is **uncondition** type, then the **condition** is also not checked and directly **PC** value is updated.
+
+> We don't need **write back phase** in **Branch Type Instruction** as nothing happends. We don't need it for **Branch Type Instruction**.
+
+![image](https://user-images.githubusercontent.com/54589605/227897467-9d430aba-90ce-4181-b37c-2d1d224e1ab4.png)
+
+## Addressing Mode
+
+> Continue from **45mins**
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
