@@ -1623,7 +1623,7 @@ operation needs more **3 operands**, it will be broken down into multiple instru
 
 * Yes.
 
-> In **register-memory based architecture**, if nothing mentioned then **both inputs** are taken from registers. The **1st register** also acts as the **destination address** as well.
+> In **register-memory based architecture**, if nothing mentioned in the question then **first** operation should be taken from **register** and **second** operand can be taken from **register or memory**. The **1st operand** if **register** also acts as the **destination address** as well. This is the **default** only.
 
 ![image](https://user-images.githubusercontent.com/54589605/224558620-eb187c81-503f-4dc6-afa8-ba0339affc8d.png)
 ![image](https://user-images.githubusercontent.com/54589605/224559442-a863c48f-8499-4d23-9a4c-cddeedb64d56.png)
