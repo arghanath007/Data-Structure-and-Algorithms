@@ -1778,7 +1778,119 @@ which are directly giving **input** to ALU.  This is the **fourth step** called 
 
 ## Addressing Mode
 
-> Continue from **45mins**
+![image](https://user-images.githubusercontent.com/54589605/227943886-c5257483-28ce-4b42-8ab4-02bd4b0ee272.png)
+
+> CPU is confused how to read **110**.
+
+![image](https://user-images.githubusercontent.com/54589605/227944133-509d2baa-c758-4ab4-a867-dd937baee16f.png)
+
+> **mode** is removing the **confusion**.
+
+![image](https://user-images.githubusercontent.com/54589605/227944563-d20f7bf2-f712-4de9-8e2b-c6ef1d192c11.png)
+![image](https://user-images.githubusercontent.com/54589605/227944765-ab0aad22-34e3-40ba-be2f-2691776cab4e.png)
+
+## Implied Mode
+
+> Generally, **opcode** gives information about **operation**. But sometimes, it gives information about **operation and operand location** also. Then, we don't need **address** part at all. To give the information to cpu that don't use the **address** part and only **opcode** part itself will be enough as **operation and operand location** are inside opcode only. Then, cpu has to be informed by a specific mode called as the **implied mode**.
+
+![image](https://user-images.githubusercontent.com/54589605/227945989-7430ffe3-51eb-4a9b-bd12-19e4a1376382.png)
+
+* Example -> Increment Accumulator.
+
+## Immediate Mode
+
+> Whatever is **writte** within the **address** part, it is **operand** value. Direct **operand** value is written within the **instruction** itself. The **mode** suggests that it is **immediate** mode.
+
+> Example for **initializing** registers.
+
+![image](https://user-images.githubusercontent.com/54589605/227946933-86df79c0-6e55-41b8-a1e9-d121a1bef0fb.png)
+
+## Direct/Absolute Mode
+
+> Operand is taken from **memory**. **Address** is **memory address** and **effectively address**. Cpu will take the address and go to memory and get the **operand** on that **address**. If it is **direct mode**, then the operand is taken from **memory**. So cpu will treat the **address** as **memory address** and go to that **address** and get the **operand**.
+
+* How many times memory access happened for accessing the **operand**?
+
+> Once(1) or **1** memory access needed here.
+
+![image](https://user-images.githubusercontent.com/54589605/227947585-9c92594e-ac26-4e62-9e3e-1d360ab3b494.png)
+
+## Indirect mode
+
+> **Address** is the address of the **effective address** given. So when cpu reads the address and goes to the memory and reads the content and gets the **effective address**. Then, again cpu sends the  **effective address** to memory and then reads the content and now gets the **operand**. **Two** times **memory** is accessed here.
+
+![image](https://user-images.githubusercontent.com/54589605/227948017-d420ea55-1318-4b3c-a749-5aec76cea742.png)
+![image](https://user-images.githubusercontent.com/54589605/227948151-685f37d4-63cf-4471-9b4e-afb52f4a8053.png)
+![image](https://user-images.githubusercontent.com/54589605/227948410-c172e6df-3224-4611-b78c-afee9feb1b66.png)
+
+> This is needed to implement **pointers**.
+
+## Register Mode
+
+> The name itself suggests, from where we will get the **operand**?, we will get it from the **general purpose register**. Whatever no. is given in the **address** is not the **memory address**, it is a **general purpose register number**. Go to that **general purpose register** and inside the register there will be an **operand**.
+
+![image](https://user-images.githubusercontent.com/54589605/227949352-59d93c90-1158-4a97-803f-e69ce27805f0.png)
+
+* How many **memory access** needed to obtain **operand**?
+
+> **zero(0)** or **0** memory reference needed.
+
+## Register indirect mode
+
+> We are getting the **operand** through **register** only. If we get some **register number** in **address**, then go to the **register** but we will not get **any operand** inside the register but we will get **effective address**. Use the **effective address** and go to **memory** and we will get an **operand**. Here, **one memory access** needed.
+
+![image](https://user-images.githubusercontent.com/54589605/227950248-0d136c78-2757-4ee1-b3db-ee365a7d9dc9.png)
+
+* How many **memory access** needed to obtain **operand**?
+
+> **Once(1)** or **1** memory reference needed.
+
+![image](https://user-images.githubusercontent.com/54589605/227951167-ae3f42ce-dcb9-4300-9dfa-cfe9686f17a1.png)
+
+* Why we are going indirectly through a **register** to the **effective memory address** to get the **operand**?
+
+> **For the purpose of shortening instruction length** as **memory address** are significantly **larger** like 32 bits, 34bits, 16bits etc. No. of registers are so less and cpu can support variable length instruction. It is better to store lesser no. of bits at the **address** of the instruction. Then, we can save a **lot of bits**.
+
+![image](https://user-images.githubusercontent.com/54589605/227952560-f5ff250c-f8a8-43c5-83e7-2892a06249be.png)
+
+> It has **variable length instructions**, so **fixed length opcode**.
+
+> All most in **same time**, operand is taken. In **Direct**, memory took like **200ns**, so time taken was **200ns**. For, **register indirect**, time taken was **200ns for memory address + 0.1ns for register**. So, in total **200.01ns** time taken which is almost same to **200ns**.
+
+> So, if **variable instruction size** is given then we can **reduce** the **length of instruction** by using **register indirect mode**. 
+
+![image](https://user-images.githubusercontent.com/54589605/227983637-850da197-6944-4eb1-bd16-d167a4104576.png)
+![image](https://user-images.githubusercontent.com/54589605/227985035-b8d43ef6-d8bc-4345-b4ab-9e7b257f51f9.png)
+
+## Auto-increment/Auto-decrement mode
+
+> We have an array **A** of **50** elements. The same thing(**for loop**) is implemented through the **auto-increment** mode.
+
+> The **base address** of the array is copied to the **register** which is the **address** of the **first operand**. The **single instruction** will execute **50** times and there is **no change** in the **instructions**. **Opcode** is whatever **operation** we want to perform. **Mode** is **auto-increment** mode and the **address** is the **register operand**. One register we have specified, the **same** register only. In that register we have **initially**, the **address** of the **first operand**. First time when the **instruction** is executed, then whatever **operation**, then **auto-increment mode** means **register indirect mode** and the **address** is the **address of the register**. 
+> CPU will go to that register and on that register cpu will get the effective address and on that effective address, cpu will read the **memory** and get the **operand** and perform the **operation**. As soon as the operation is performed, cpu will automatically increment implicitly only, the address of the **register**.
+
+![image](https://user-images.githubusercontent.com/54589605/227988949-b214a3b4-d57b-4dd4-b67a-03eef2892589.png)
+![image](https://user-images.githubusercontent.com/54589605/227989064-a98fab80-5874-4d10-a8ea-975068ba1b24.png)
+
+> We need to use **auto-decrement** mode when we need to **access the array** in the **reverse** order, from **bottom to top**.
+
+> This is the **way** we can convert **for loops** into **machine code** using **auto-increment or auto-decrement** mode.
+
+> If there is no **auto-increment mode**, then the compiler has to generate **50** instructions for the **for loop**.
+
+> **Post increment**, the instruction will get the register no. from **address** and we will got to that **register** and in that register whatever address is there will be **used** to get **operand first**. After the **operand** is accessed, then the increment happens at the **register**. Once the instruction is executed again, we will go to the register and we will the **address**. We will go to that address where we will find **another operand**, access the operand and perform the operation, after that **increment** happens at the register. 
+
+> **Pre decrement**, the instruction will get the register no. from **address** and we will got to that **register** and first **decrement** the value in the register and after that whatever address is there will be **used** to get **operand**. Once the instruction is executed again, we will go to the register and first **decrement** the value in the register and after that whatever address is there will be **used** to get **operand**.. We will go to that address where we will find **another operand**, access the operand and perform the operation. 
+
+> These are the **default** rules, until otherwise given.
+
+![image](https://user-images.githubusercontent.com/54589605/227996503-99c43a90-47f3-4f97-837a-66f320f46b08.png)
+
+
+
+
+
+
 
 
 
