@@ -1971,6 +1971,93 @@ which are directly giving **input** to ALU.  This is the **fourth step** called 
 
 > Advanced version of **indexed** mode. We will have **two** things specified within the **instructiom**.
 
+> **Address** contains **base address**. We don't have to calculate the **index register** value separately. We can calculate it within the instruction itself. Everything will be mentioned in the instruction. In a **single instruction** only, everything will be **calculated**.
+
+> For **effective address** calculation we need **addition and multiplication**. DIrectly within **single instruction**, **YES**. **Scaled Addressing mode** is benifical than **indexed modes** because **two instructions** are needed to calculate **effective address** of **array element**. Whereas, in **Scaled Addressing mode**, a **single instruction** is needed to calculate **effective address**.
+
+![image](https://user-images.githubusercontent.com/54589605/228593578-3d7888ae-c3fe-4079-8371-eeed09872291.png)
+
+* How is **time** saved?
+
+> Time is saved for **instruction cycle**.
+
+![image](https://user-images.githubusercontent.com/54589605/228595630-56dcd18e-f34f-4ab7-878c-db8e694b7055.png)
+
+> We are trying to update the **instruction**, and updating **instruction** is a costly operation. It takes a lot of time and it is not preferable at all.
+
+> So, in **indexed mode**, if in case **array** is reallocated somewhere else, then we need to change/update the **base address** which is stored in the **address** part of the **instruction**, which is a costly operation and takes  a lot of time.
+
+![image](https://user-images.githubusercontent.com/54589605/228597554-43f11f17-19fe-4f63-aa52-2da61c8f4292.png)
+
+> **Indexed mode** is **not a good addressing mode** if we talk about **reallocation**. It will need some support and that support is very costly and it takes a lot of time. So, **Indexed mode** does not **supoort reallocation**.
+
+![image](https://user-images.githubusercontent.com/54589605/228598239-407d952f-6149-4972-af47-a276caea551c.png)
+
+> CPU have to skip **4** instructions. Each instruction stored on **2 addresses**. So, cpu has to make a jump of **8** addresses. CPU directly jumped to **I7** instruction.
+
+![image](https://user-images.githubusercontent.com/54589605/228600668-5e324103-fb00-4429-9efc-65b628394a25.png)
+![image](https://user-images.githubusercontent.com/54589605/228600895-f50d518e-f7d8-4120-9a10-79695cf3f935.png)
+
+> So **address** we have already made from **effective address** calculation, through some kind of **addition**. If it is **True** then **Program counter(PG)** upadeted by **512**. CPU in the next fetch, will fetch instruction,  from address **512**, **I7**.
+
+## PC-relative mode or Positive independent mode
+
+> Used for **branch type** instructions.
+
+> Whenever a **branch type instruction** a compiler generates, the compiler in the **address** part, the **8** value is copied by the compiler. So, the **8** value is called as **relative locations to skip**. **Relative locations to skip** is added to the **Program counter(PG)**, to get the **effective address** and the **effective address** is calculated in the **effective address** part. It happens when **mode** is **PC-relative mode**.
+
+![image](https://user-images.githubusercontent.com/54589605/228617930-4d06e7b9-6d43-4d58-a5c7-af811df4d493.png)
+![image](https://user-images.githubusercontent.com/54589605/228619964-f5cef1a9-48fb-4b66-97c2-d87bf7ab1655.png)
+![image](https://user-images.githubusercontent.com/54589605/228620134-98a5d1f6-fd86-4b0e-bdfd-0f0bf8bad4a4.png)
+![image](https://user-images.githubusercontent.com/54589605/228623450-a895102f-4837-40e3-9c0e-5c971060c09b.png)
+
+## Base Register Mode
+
+> Everything is same to same as **PC-relative mode** but the **address** part has some **offset**. Rather than having **PC** value being added in the address part to get the **target address**, we are having a **base register** value. **Base register** value is nothing but the base address of the **target** segment. Add the **offset** and **base register** value and we get the **effective address** which is the branch **target address**, where to **jump**.
+
+> Only one thing changed rather than **PC** value we have **base register** value.
+
+![image](https://user-images.githubusercontent.com/54589605/228624617-32ea7a12-30c4-43da-a624-d9d42e3afd0f.png)
+
+> The function stored in memory which is not stored in **sequence**, according to the current function and to be able to jump to that function, we need the **base address** of the function.
+
+![image](https://user-images.githubusercontent.com/54589605/228625040-f22b2c76-56d5-4c8d-96d1-42ae3f396839.png)
+![image](https://user-images.githubusercontent.com/54589605/228625218-2c0b97ac-67c3-4bad-8b21-fa22fd462c50.png)
+
+> All the **modes** in **green color** are used in **computation** type instructions where we need **operands**. All of them need **operands**. All of them will us **operands** or an **address to an operand**. They are **related to operands**.
+
+> The **two** modes in **white color** are used for **branching or jumping**.
+
+![image](https://user-images.githubusercontent.com/54589605/228626099-cd29d44c-3131-4b37-b3a2-ccdda017fe3c.png)
+
+## Category of addressing mode(based on how the addressing modes work)
+
+1) Computable addressing modes -> For effective address calculation these addressing modes need some kind of computation like addition, sub, mul, div etc.
+2) Non-computable addressing modes -> No computation needed for calculating effective address.
+
+![image](https://user-images.githubusercontent.com/54589605/228627560-4e541eee-0ad3-47b3-ac3e-98360c4a16a9.png)
+
+### Example
+
+1) Information fetched.
+
+![image](https://user-images.githubusercontent.com/54589605/228628419-71f665e8-8090-4a10-b135-510426bbb35e.png)
+
+2) PC value incremented to next instruction's address.
+
+![image](https://user-images.githubusercontent.com/54589605/228630399-07d88406-2e76-4582-9e04-d8c3e0a5a32c.png)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
