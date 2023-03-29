@@ -1902,9 +1902,24 @@ which are directly giving **input** to ALU.  This is the **fourth step** called 
 
 ![image](https://user-images.githubusercontent.com/54589605/228017636-93947c0b-0638-4e26-a56a-625bd4bc7498.png)
 
-> **Address** is **memory address** in bith **direct as well as indirect** modes. How is the **address** used to get **operand** from memory?, It is **different** for **both direct as well as indirect** modes. That is why **how**, from where **memory** only but **how**, **directly or indirectly** that is specified by the **mode**.
+> In the **addressing mode**, the **mode** field specifies one thing that is using the **address** part information we can get **from where the operand part is obtained and in which cases and how exactly**. Will we take **address** as the **operand only** or **register no.** or **memory address**. How we will get the **operand** and where we will get the operand, they are specified by the **mode**.
+
+![image](https://user-images.githubusercontent.com/54589605/228442021-41d479d0-de31-4435-a3bf-d7966c0a47a3.png)
+![image](https://user-images.githubusercontent.com/54589605/228442064-f23fde08-b2f1-4ae5-8809-57747e0eb935.png)
+
+> **Address** is **memory address** in both **direct as well as indirect** modes. How is the **address** used to get **operand** from memory?, It is **different** for **both direct as well as indirect** modes. That is why **how**, from where **memory** only but **how**, **directly or indirectly** that is specified by the **mode**.
+
+![image](https://user-images.githubusercontent.com/54589605/228442340-46ca3ec9-1df8-4816-8f65-76bea6779a27.png)
+
+> In **register mode**, **address** has the **register no**, go to that **register** and we will get the **operand**.
+
+![image](https://user-images.githubusercontent.com/54589605/228442641-9376a092-0d45-4b24-9790-c3b3edcc29b3.png)
+
+> In **register indirect mode**, has the **register no**, go to that **register** and we ill get the **effective address**, and go to that **effective address** in the memory and we will get the **operand**.
 
 > **Register indirect** mode is used to **reduce instruction length** in **variable length instructions** type computer system. It can be used for **some other purpose** also for **fixed length instructions**. **Register indirect** mode will be used in **both** **variable length instructions** as well as **fixed length instructions**.
+
+> If it is a **fixed length instruction** computer system then, the **register indirect mode** will be used for some other purpose.
 
 ![image](https://user-images.githubusercontent.com/54589605/228019714-8517989a-d950-4227-aded-efe89a6c90c2.png)
 
@@ -1912,14 +1927,49 @@ which are directly giving **input** to ALU.  This is the **fourth step** called 
 
 ![image](https://user-images.githubusercontent.com/54589605/228020886-09597709-f76d-463d-a13f-4d5f5573ae62.png)
 
-## Indexed mode
+## Indexed mode Or Index register mode
 
-> Start from **15mins**.
+![image](https://user-images.githubusercontent.com/54589605/228444393-a6525ada-4c62-46c7-a33a-beb41608a3a9.png)
 
+> It is used to access an array element.
 
+> For accessing **A[3]**, the cpu has to know the **address** of **A[3]**. The **address** is essentially the **address** of the **oprand** i.e **effective address**.
 
+> How the **effective address** is calculated is called as **indexed mode**. The **indexed mode** says that whenever an instruction for **operation on operand stored at base address + index value** is given, **operation** will be mentioned in **opcode**. **Mode** is **indexed mode**. **Address** part containes the **base address of array**.
 
+> **Indexed mode** is used to access **one array element** only. If we want access any one random element anyway, then **indexed mode** is used.
 
+![image](https://user-images.githubusercontent.com/54589605/228449760-76b7e3ae-f8ad-4e8a-b5c5-658f8859ee8f.png)
+
+> The **address** part of instruction will give us **base address** and **index register** will give us the **index**. We will add **base address** and **index** to get the **effective address**.
+
+> **1 memory access** and **1 addition operation** needed inside the **effective address** calculation to get the **operand**.
+
+![image](https://user-images.githubusercontent.com/54589605/228450972-2ea9a069-2e4a-4239-919a-38abe0bdb282.png)
+
+### Two implementaion of **indexed mode**
+
+> In some cpu there can be a **special purpose register** only for **indexed mode**. So whenever compiler will generate any instruction for **indexed register mode**, before that previous instruction will calculate **2 * i** and then that will be copied to **special purpose register**. We know that for **special purpose register**, cpu knows always. So we don't have to inform to cpu that this is the register, cpu has to access. So, in this case, instruction format will be **same** only. We don't need anything extra specified in the instruction as whenver the **mode** is decoded as **indexed mode**, then cpu knows that the **special purpose register** is the **index register** only. So, cpu will use that **index register** to access the **index** and **address** part for **base address**. Add **index register** and  **base address** to get the **effective address**.
+
+> There is no **special purpose register** named as **index register**, no implementation is there then for current usage any **general purpose register** will be used as **index register**. In that case, **fixed general purpose register** that will be specified within the instruction only.
+
+> Here, compiler is using register **7** as the **index register**. So previous instruction will copy the value of **2 * i** into register **7** and in the next instruction we will use register **7** as **index register**. 
+
+> It will be specified in the **instruction**, so that the cpu goes to that register and get the **index value** from there.
+
+![image](https://user-images.githubusercontent.com/54589605/228454547-27aa3df5-76e5-4d65-9680-ff4a5ea02a7a.png)
+
+* In indexed mode, how many **instructions** needed to write code for **A[3]**?
+
+> **Two** instructions.
+
+> One will calculated **size of element * i** and will copy that into **index register**.
+
+> Another one will calculate **addition** to find **effective address**, based on **index mode**.
+
+## Scaled Addressing mode
+
+> Advanced version of **indexed** mode. We will have **two** things specified within the **instructiom**.
 
 
 
