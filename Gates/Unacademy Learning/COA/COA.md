@@ -2158,6 +2158,9 @@ which are directly giving **input** to ALU.  This is the **fourth step** called 
 
 ![image](https://user-images.githubusercontent.com/54589605/228919400-d699570e-79c3-4193-a1ab-30aec7f6d501.png)
 
+![image](https://user-images.githubusercontent.com/54589605/228921375-9cc96f96-6d44-4a94-be81-e36726263e4f.png)
+![image](https://user-images.githubusercontent.com/54589605/228921393-1b45d555-4e39-425f-853f-634ae13a1d28.png)
+
 
 
 
