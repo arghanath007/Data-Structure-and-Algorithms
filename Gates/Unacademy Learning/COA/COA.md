@@ -2047,8 +2047,116 @@ which are directly giving **input** to ALU.  This is the **fourth step** called 
 
 ![image](https://user-images.githubusercontent.com/54589605/228630399-07d88406-2e76-4582-9e04-d8c3e0a5a32c.png)
 
+## Doubts and Addressing Modes Practice (12) [30th March 2023]
 
+### Quiz-II solutions/discussion
 
+![image](https://user-images.githubusercontent.com/54589605/228858850-ea150806-6a9a-429d-9448-efe3dc04d0ca.png)
+![image](https://user-images.githubusercontent.com/54589605/228859262-4f65d878-0de3-4f97-9498-5c60279a680c.png)
+
+> In **Q2**, for each type **atleast one** instruction should be there.
+
+![image](https://user-images.githubusercontent.com/54589605/228860121-b97c3936-c6d8-4056-bdc1-46d492837f5c.png)
+
+> That is **maximum**. Understand the context, not actual number.
+
+![image](https://user-images.githubusercontent.com/54589605/228860056-e38043cd-4de9-463c-ac68-947d0e242768.png)
+
+![image](https://user-images.githubusercontent.com/54589605/228860576-e82f243e-8ad2-41a5-8219-7cf579d515cd.png)
+
+* Yes. **Minimum** use is **one**.
+
+![image](https://user-images.githubusercontent.com/54589605/228861638-e5a57dca-9b55-42de-a49f-55d3e0848bdf.png)
+![image](https://user-images.githubusercontent.com/54589605/228861782-e4e24fb2-b67d-4a64-9b4c-ff083232d41f.png)
+![image](https://user-images.githubusercontent.com/54589605/228861992-5aa26378-e527-4867-ba26-1dae4a3c7884.png)
+
+> If we take **1** used, then the **max** unused will go to the next address level. **Max** we will get at **0-address** instruction. That why we used **1** in **3, 2, 1** instructions, so that we get **max** at the last level.
+
+![image](https://user-images.githubusercontent.com/54589605/228862541-dabda635-3402-48bd-b014-700f216730b1.png)
+
+* Total no. of instructions supported are asked in the question. 
+
+![image](https://user-images.githubusercontent.com/54589605/228863207-1d6415e5-738e-4704-9d30-404ba6ebe24b.png)
+
+> **Maximum** asked so we will use **all** at the **last level**.
+
+![image](https://user-images.githubusercontent.com/54589605/228864214-b6906f67-172e-4280-a945-1aa0b2793cf7.png)
+![image](https://user-images.githubusercontent.com/54589605/228865447-666c7e40-a9ea-4d46-98f1-f4818bccf0a0.png)
+![image](https://user-images.githubusercontent.com/54589605/228864545-0077a99c-afc2-4fa6-82a5-1ea22378b70f.png)
+
+* Yes
+
+![image](https://user-images.githubusercontent.com/54589605/228866852-4bd1a7e4-dfb0-4d89-9c6c-d843e2edfc1a.png)
+![image](https://user-images.githubusercontent.com/54589605/228867173-ab376091-69c5-4760-a55c-b76c18a5606b.png)
+![image](https://user-images.githubusercontent.com/54589605/228867568-84b948b1-a5ed-4336-80df-1baa5b455f0b.png)
+
+> Check the pattern in the question. First **4** have **two** registers, next **two** have **register and memory address** and the rest **three** have **registers** only.
+
+![image](https://user-images.githubusercontent.com/54589605/228868480-7145d352-b9fd-411c-9362-bdbf72ce4f2f.png) 
+
+> Every memory smaller/lesser than **16MB** can be supported by the system. Yes, possible.
+
+![image](https://user-images.githubusercontent.com/54589605/228870460-e6a2028b-451c-4b2c-8484-ad9813adf25c.png)
+
+### Questions
+
+> In **PC-relative** mode, we need to calculate the value of **PC**. In the **PC** value we need to add the **offset** part in **address**. When we are calculating **effective address** for the **current instruction**, **PC** value will point to the **next instruction**.
+
+![image](https://user-images.githubusercontent.com/54589605/228884827-4e97dd9b-3859-4915-a37e-0a82d1a3a38b.png)
+![image](https://user-images.githubusercontent.com/54589605/228888880-70158001-4fa0-4169-9f79-ca5ece079d0a.png)
+![image](https://user-images.githubusercontent.com/54589605/228888954-cea4f682-1989-488b-b7b3-4edf75b37ae1.png)
+![image](https://user-images.githubusercontent.com/54589605/228889013-68df703c-9fe5-4b72-8ca1-5f1df25fdec4.png)
+
+* Yes
+
+![image](https://user-images.githubusercontent.com/54589605/228890292-9fa13161-e9af-4c01-aa05-407d4168783e.png)
+
+> Jump has been taken for sure. **After fetch**, next instruction's address i.e **301**, which is being used in the **3rd phase** which is the **effective address** calculation. So that we can calculate **301 + 149** to get **450**. Once **450** is calculated, then in the **execution** phase, the value of **PC** updated by **target address**. We don't know for sure that **PC** value is updated with **target address**, if it is **false** then the **PC** value is not **updated**. The statemenet **branch is made  to an address 450** means that **Jump has been taken for sure**. So, **PC** value will change after **execution** phase for sure by the **target address**. So next instruction is executed from **450** and not **301**.
+
+![image](https://user-images.githubusercontent.com/54589605/228891940-e31a7fa8-b56a-4549-b953-b8dea1f6ca7d.png)
+![image](https://user-images.githubusercontent.com/54589605/228892349-04139b2e-9e22-4611-9bcb-018f893c2c44.png)
+
+> **660** is **PC** value not current instruction value as **PC** points to the **next instruction**. Each instruction is stored in **4** locations. So, when **current location** got **fetched**, we added **4**
+
+![image](https://user-images.githubusercontent.com/54589605/228905734-338704f6-89f6-4170-a9df-b148ed62865c.png)
+![image](https://user-images.githubusercontent.com/54589605/228908355-ebdf9153-4433-4edf-8f37-89ad6e86d78f.png)
+
+> In **base indexed addressing** mode only, we add two things to get the **effective address**, **one is index register content** and another is **base address**.
+
+![image](https://user-images.githubusercontent.com/54589605/228909063-16ebdf3a-5d4f-48c5-af4d-5c0f02288b45.png)
+![image](https://user-images.githubusercontent.com/54589605/228909347-717dfed5-f687-4dcf-9da9-adea2601d24e.png)
+
+> **Two** instructions are needed to access the element of the array.  The **same** thing can be doen in **scaled** mode in **one** instruction only because in **Scaled** mode, we provide every information in the instruction itself.
+
+![image](https://user-images.githubusercontent.com/54589605/228910452-7f73a7f5-d832-4f47-bfc7-66209de5481d.png)
+![image](https://user-images.githubusercontent.com/54589605/228912967-5686c8ba-0620-41cb-9ced-27efa9dfa977.png)
+![image](https://user-images.githubusercontent.com/54589605/228913009-2f4b7fa7-b7c8-44be-9a0e-632ca85f9b27.png)
+
+> **Implied** mode gives the **location** of the data within opcode itself.
+
+![image](https://user-images.githubusercontent.com/54589605/228913554-109cdfc6-43aa-49be-ada7-3dc90d1284ff.png)
+
+> **#5** is value **5**, we are using here. So, it is **immediate**.
+
+![image](https://user-images.githubusercontent.com/54589605/228914145-a64f8c66-51db-435c-b2a8-a94ec1d04132.png)
+
+> Instruction starts from memory **300** or instruction's address is **300** or starting address of instruction is **300**. Every one of them mean the **same thing**. Representation of address will be the very first address on which the content is present. Starting address or address of the instruction, **same thing**. No any change.
+
+![image](https://user-images.githubusercontent.com/54589605/228915032-fe03c420-c5fb-4a86-acc5-f51c462cef1f.png)
+![image](https://user-images.githubusercontent.com/54589605/228915418-00cae277-eb73-45f4-b54d-c045c5447ca5.png)
+
+> Base register mode is used for **branching** and not in **array elements**.
+
+> Scaled is just the advanced version of indexed mode.
+
+![image](https://user-images.githubusercontent.com/54589605/228916240-39b936ca-3788-48d4-b5a1-172055142038.png)
+![image](https://user-images.githubusercontent.com/54589605/228918775-9a7387be-394c-4f45-ab74-769fda4145f4.png)
+![image](https://user-images.githubusercontent.com/54589605/228919223-53faa7d7-71e8-4815-8b7d-c74c4e2b446a.png)
+![image](https://user-images.githubusercontent.com/54589605/228919245-8172913f-47f4-4c9b-9073-a069ae436e27.png)
+
+* Yes, **implied** mode as well.
+
+![image](https://user-images.githubusercontent.com/54589605/228919400-d699570e-79c3-4193-a1ab-30aec7f6d501.png)
 
 
 
