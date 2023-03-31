@@ -2161,6 +2161,214 @@ which are directly giving **input** to ALU.  This is the **fourth step** called 
 ![image](https://user-images.githubusercontent.com/54589605/228921375-9cc96f96-6d44-4a94-be81-e36726263e4f.png)
 ![image](https://user-images.githubusercontent.com/54589605/228921393-1b45d555-4e39-425f-853f-634ae13a1d28.png)
 
+## CPU-I (13) [31st March 2023]
+
+> CPU performs operation on **series** of **micro-operations**. **Micro-operations** is that operation which cpu performs in single step, **one smallest operation**. After that, another **micro-operations**. CPU performs so many **micro-operations**, so that **one complete big operation** is performed.
+
+> So to perform one **micro-operations**, cpu needs **one cycle** that is **cpu cycle time(2ns, 5ns, 10ns etc)**. Depends on how the cpu is designed.
+
+> CPU cycle time is that **smallest** possible time in which a cpu can perform one **smallest** possible **step** that step is **micro-operation**.
+
+> Frequency and time are **inversely** proportional. **Cycle time** is the cycle time of the cpu. **Vice-versa** is also **True**,
+
+> CPI is a **number**, it is **cycles per instruction**. In **one cycle**, cpu is able to perfrom one smallest micro-operation. Such multiple micro-operations needed only to perfrom **instruction fetch**, then **decode**, then **effective address calculation**, then **operand fetch**, then **execution**, then **write back result**. All phases will take a lot of cycles. How many? **CPI** many.
+
+> In a cpu, to execute **one** instructions, cpu takes **15** cycles. No. of cycles of cpu taken to complete one instruction is **15**. So, for these cpu, **CPI** count is **15**.
+
+> If we want to calculate **total time**, how much time taken/needed to **execute** one instruction.
+
+* One instruction execution time = CPI * cycle time.
+
+![image](https://user-images.githubusercontent.com/54589605/229090193-663dbf40-3069-4076-9a7d-371f396f6da4.png)
+
+> All instructions will not take **same amount** of time, it will depend from instruction to instruction.
+
+![image](https://user-images.githubusercontent.com/54589605/229090512-b4df1638-b3ff-4eff-9ee3-cfce2daeb998.png)
+
+> Whatever **CPI** we are writing here it is not actual **CPI**, it is **CPI on an average**.
+
+![image](https://user-images.githubusercontent.com/54589605/229090892-865f610d-fb54-49d4-8bca-b8a83bcb625a.png)
+![image](https://user-images.githubusercontent.com/54589605/229091024-4b1eba3e-1e6c-407b-a617-c3d8c6ac2a07.png)
+![image](https://user-images.githubusercontent.com/54589605/229091088-700f09f9-8bb8-42c7-ab81-b461018c85c4.png)
+![image](https://user-images.githubusercontent.com/54589605/229091596-8ef389ea-8cf7-49a1-bba2-819b9ada78b2.png)
+![image](https://user-images.githubusercontent.com/54589605/229091641-0c64eb6c-200f-4529-9121-711efac34207.png)
+![image](https://user-images.githubusercontent.com/54589605/229091723-026321e5-248d-487a-a25c-9efd47f0edea.png)
+![image](https://user-images.githubusercontent.com/54589605/229091926-7fa6f0ba-d03b-4c42-acbe-cb041818b1a4.png)
+
+* Yes.
+
+## Conversions
+
+![image](https://user-images.githubusercontent.com/54589605/229092208-50cab897-0fad-442f-b78b-30292738802a.png)
+![image](https://user-images.githubusercontent.com/54589605/229092368-0719120f-0fa5-448f-a780-188ae180baaa.png)
+
+ * Link -> https://unacademy.com/course/basics-of-computer-architecture-and-organization/VMSN7B02
+
+## MIPS(Million Instruction Per Second)
+
+> Metric to measure CPU's performance, that in **1 sec**, how many instructions, cpu can execute.
+
+* 10 L or lakh -> 1M or 1 million
+
+> Rather than giving the no. very very high, we convert it into **million**.
+
+![image](https://user-images.githubusercontent.com/54589605/229099226-76d0cdae-5359-40f5-bf69-9067a182db06.png)
+
+> We replaced **t** here.
+
+![image](https://user-images.githubusercontent.com/54589605/229099616-656632d7-0cdf-43e0-98ee-c6fcfea62824.png)
+
+* When we want it in **Millions**.
+
+## Average CPI
+
+![image](https://user-images.githubusercontent.com/54589605/229100251-3188042b-06f9-4553-b551-d262f9080a79.png)
+
+> **249** overall cycles needed to execute **100** instructions.
+
+![image](https://user-images.githubusercontent.com/54589605/229100467-a868859b-fa6b-4060-9236-de82b5fdb17f.png)
+
+![image](https://user-images.githubusercontent.com/54589605/229102547-0a2a471a-fd15-4cdb-9cbd-0f9f8cfd9a70.png)
+![image](https://user-images.githubusercontent.com/54589605/229102811-6a6f3a75-ad20-47ed-adc8-9faef73e63be.png)
+![image](https://user-images.githubusercontent.com/54589605/229102950-0310781d-ee42-43f6-8929-809516f074ad.png)
+
+## ALU
+
+> ALU can perfrom **multiple** type of operations. If some **input 8** is given and some **operand 4** is given to the ALU, then the ALU doesn't know right now what to perfrom on them. For that ALU accepts another **input** and that comes from **control unit**. **Control unit** gives some thing of **input** to ALU and it is called as **function code or opcode**. This is not instruction's **opcode**, they are **two** different things.
+
+> The **opcode** to the ALU is coming from **control unit**. **Control unit** tells the ALU that it is getting **two** inputs and it has to perform **some operation** on them. It is an operation which ALU can perfrom. For that, **opcode** comes as **5 bit** input and **32** different-different combinations are possible.
+
+![image](https://user-images.githubusercontent.com/54589605/229104234-e099ddbf-11cf-47d9-b1d0-8104dce8e4da.png)
+
+## DataPath
+
+![image](https://user-images.githubusercontent.com/54589605/229105493-44c0dc9f-62c4-4175-ab10-3e22558b8658.png)
+
+* **R and S** are some **registers*.
+* **SP** -> Stack pointer.
+* **incrementor** to increase **PC or program counter**.
+* **IR** -> instruction register
+* **GPS** -> General Purpose Register.
+* AR -> Address register
+* DR -> Data register
+
+![image](https://user-images.githubusercontent.com/54589605/229107516-e9cb8f1d-b480-4184-8f15-7a47373a7d41.png)
+
+> Whatever **address** in **PC** value has to be send to **memory**. There is no direct path from **PC to memory**. So, we will bring the PC value into **AR** and from **AR** the **address** can be sent to **memory**. So, we are connecting the data from **one place** to **another**.
+
+![image](https://user-images.githubusercontent.com/54589605/229110099-08cf104a-0b3c-4bbb-b4c4-c7be85dc0f54.png)
+![image](https://user-images.githubusercontent.com/54589605/229110304-1979f562-6cfd-4a3d-8c3a-89efc5f08376.png)
+
+### Instruction Fetch
+
+* Can we send directly PC value to memory through address bus?
+
+> **NO**. First the PC value(**address**) will go to **AR**(Blue highlighted path below). Now, we will send the **address** to memory. We can also inform to memory to perfrom read operations. Whatever data is coming from **memory** is not going to **IR** directly, it is going to **DR** based on the **diagram**. Later on we can send the instruction from **DR** to **IR**. **Instruction Fetch** is not yet done. In the **Instruction Fetch**, value of **PC** is **incremented**. So, we will increase the value of **PC** also.
+
+![image](https://user-images.githubusercontent.com/54589605/229110777-cd3a638b-9d25-4774-8640-595855ea8476.png)
+![image](https://user-images.githubusercontent.com/54589605/229111857-18f4a02b-21d0-47c2-b5ad-2bc4675a4cb4.png)
+
+> Two micro-operations cpu can perform in **parallel**, needed in **parallel**. We can write separated by **comma(,)**. So, in a **single** cycle **both operations** are performed.
+
+> We are able to do them in **parallel** because they require different-different units and both are **independent** to each other. Nothing is **common**.
+
+![image](https://user-images.githubusercontent.com/54589605/229113307-5b56dae0-f0c2-4a2e-b878-ba54cecdb00a.png)
+
+> **Instruction fetch** happens in these steps because of the **above** diagram only.
+
+![image](https://user-images.githubusercontent.com/54589605/229114186-99c4ecf7-caf1-47ef-a484-c2c38fb3f3cb.png)
+
+> First we will bring **R1** from **GPS** to **S** register. Then we will bring **R2** from **GPS** to **T** register. Can we do the above **two** things **parallely**? **NO**. As **internal bus** is **busy** for **one operation**.
+
+![image](https://user-images.githubusercontent.com/54589605/229114675-27a87244-7fda-4ddf-a845-31b03bf6561c.png)
+![image](https://user-images.githubusercontent.com/54589605/229114530-21e25f8e-5df3-4ffd-86e1-51a651347368.png)
+
+* Yes
+
+> Now the operation is performed and the **result** is stored in **AC**. Now, **write back operation** is performed from **AC** to destination, **R0** register.
+
+![image](https://user-images.githubusercontent.com/54589605/229114971-972631cc-8235-48f8-bec0-f2f6307fdc37.png)
+
+> Let's assume within cpu all micro-operations take **1 cycle** only. 
+
+* How many cycles needed to do the above one?
+
+> **4** cycles.
+
+![image](https://user-images.githubusercontent.com/54589605/229115331-edee0849-fc2e-44c4-9419-dad7c601b367.png)
+
+* No, it will be given in the question.
+
+> ALU has an **increment** operation.
+
+![image](https://user-images.githubusercontent.com/54589605/229115830-aca976ba-67af-4754-b4ce-f92fa9fa5076.png)
+![image](https://user-images.githubusercontent.com/54589605/229115983-a05fbbb2-2a4e-4925-ada5-de93b15b741f.png)
+
+* Yes.
+
+> **New element** is the **PC value**. We want to send **current PC** as data to **memory** on the **new address**. Not current value of **stack pointer or sp** value, we need to **increment** it first, so that it points to the **next address** and after that in the **next address**, we will copy the **next element**.
+
+> We will first increment **SP** value. How will be **increment** sp value **locally** here? **No**, as it don't have any **incrementer*** around **SP**. So, in **ALU**, it is possible. So, first we will bring the **SP** value to **S** register and increment it and copy it into **SP** value.
+After that we will copy into **AR** and send it to **memory** as **address**.
+
+![image](https://user-images.githubusercontent.com/54589605/229118422-2b12dbab-4cfa-4f6d-86cc-2ca7d928ca4e.png)
+
+* Which of the following can store **addresses**?
+
+> **PC, SP, AR, DR**.
+
+> **DR** is used to store **address as content or data**, which we are writing in the memory or fetching from memory. DR can have **address**, possible. Whenever we **read address from memory** or we are **bringing address as content to memory**.
+
+> DR -> Acts as **address** to access **address**?
+
+* NO.
+
+> DR can store memory address?
+
+* **YES**. The difference is that if any address is there in **AR** then we will use that address to **access the memory** and if any address is in **DR** which means we are either **reading an address from memory as data or content** or we are **sending address as data to memory**.
+
+![image](https://user-images.githubusercontent.com/54589605/229125976-44d1ee09-6518-4074-a6f7-07d22904236c.png)
+![image](https://user-images.githubusercontent.com/54589605/229121210-2ac9e850-fc05-4523-a79a-31e3d023a535.png)
+![image](https://user-images.githubusercontent.com/54589605/229121482-69263c9c-cdcd-4c53-8c6c-90477cbc28e4.png)
+![image](https://user-images.githubusercontent.com/54589605/229121727-67af8e1d-77a4-4666-a4ce-e1172ab3d1a9.png)
+![image](https://user-images.githubusercontent.com/54589605/229125426-a730dee8-a9d4-44c7-b040-fbb52142012f.png)
+![image](https://user-images.githubusercontent.com/54589605/229125677-96af02dc-6790-4482-aaa5-71b4618e84b3.png)
+
+> How will PC know that it has to send it's value to AR for instruction fetch?
+
+* In -> **take in**
+* Out -> **put your value out**.
+* Enabled -> 1
+* Disabled -> 0
+
+* So, the control unit will send **In** signal which means **take in**. So, we have to copy the content of PC to AR. So, PC will get the signal of **Out** which means **whatever value PC has just put that value out** through the bus(white highlighted). 
+* So, PC will have **enabled out** signal. so, that value will now be copied into **AR** only. AR will only get a signal of **In** enabled. So, AR only will accept and copy the bus content. The AR content has to be send to memory now. We have to have **out** signal enabled for AR, whatever value AR has **put it out** through the address bus outside. Then, address is reaching memory.
+
+If address is reaching memory then the memory has to read the address. So, memory **read** should be enabled and memory is sending so kind of instruction from there. So, that instruction is sent through **data bus**. We have to copy that instruction into **DR**. So, DR's **In** signal should be enabled.
+
+
+![image](https://user-images.githubusercontent.com/54589605/229127555-f0e9b746-7cb1-4781-bab1-1fa46ff18847.png)
+![image](https://user-images.githubusercontent.com/54589605/229129472-c30bd87a-f86f-4af3-9a42-9fa0d47e5e6f.png)
+![image](https://user-images.githubusercontent.com/54589605/229129814-3e725cea-dd2a-4624-9ce2-dfcf6a69db69.png)
+
+* PCinc
+
+![image](https://user-images.githubusercontent.com/54589605/229129490-83d75e62-77e4-4e85-90fb-c215d9ee569f.png)
+
+* Yes
+
+![image](https://user-images.githubusercontent.com/54589605/229130985-d436d686-3e7c-407d-a3a2-f07cb14d20e8.png)
+![image](https://user-images.githubusercontent.com/54589605/229131128-b1bf091e-ec66-425e-80a8-2850586ceaec.png)
+![image](https://user-images.githubusercontent.com/54589605/229131220-d83b0bf8-9dea-4414-81a9-7c73c433b7ce.png)
+
+> If any content is coming from **memory** then it should come from **MDR** only.
+
+![image](https://user-images.githubusercontent.com/54589605/229131592-f788e006-8036-4c36-a273-865799a89817.png)
+![image](https://user-images.githubusercontent.com/54589605/229131722-fdcbbde8-ede7-43c2-8437-510c570b1bd9.png)
+
+
+
+
 
 
 
