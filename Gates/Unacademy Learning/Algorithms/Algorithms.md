@@ -301,6 +301,153 @@
 
 ![image](https://user-images.githubusercontent.com/54589605/229344177-8acf7b96-a426-4edf-9c02-98f7a013427f.png)
 
+## Doubt Clearing Session (4) [2nd April 2023]
+
+![image](https://user-images.githubusercontent.com/54589605/229349862-73b2a70e-6345-4fc6-a4a7-06a0f10ce3cc.png)
+![image](https://user-images.githubusercontent.com/54589605/229349870-1d8e505c-9c32-4385-93b5-276e711caf20.png)
+
+> First for loop is **increasing** and the second for loop is **decreasing**. One is **increasing** and one is **decreasing** but both are taking the **same time**.
+
+> After **K times**, we got **2^K=n**, which is the last iteration of the **first for** loop. So, after applying **log** on both the sides, we got **K= log n base 2**. So, the **time complexity** for the **first for** loop is **O(log n base 2)**.
+
+![image](https://user-images.githubusercontent.com/54589605/229350276-a7762caf-8950-4e42-bea4-58086221325c.png)
+![image](https://user-images.githubusercontent.com/54589605/229350290-e4eec45f-df14-4ce8-a0d6-f17caab10565.png)
+
+> Everytime, **i** is **increasing by double**, then the time complexity is **O(log n base 2)**.
+
+![image](https://user-images.githubusercontent.com/54589605/229351964-f76521c9-f06a-4c52-933b-0209f75b8f93.png)
+![image](https://user-images.githubusercontent.com/54589605/229352028-9ec44231-d60d-4da0-8211-43f15bb3a7e9.png)
+![image](https://user-images.githubusercontent.com/54589605/229352197-e49c3b0d-5bd4-4ee3-841d-1f7d21f3f4f5.png)
+
+> If we **divide by 2 or multiply by 2**, the value of **i** when incrementing the value of **i**, then the **time complexity** will be **O(log n base 2)**.
+
+> If we **divide by x or multiply by x**, the value of **i** when incrementing the value of **i**, then the **time complexity** will be **O(log n base x)**.
+
+![image](https://user-images.githubusercontent.com/54589605/229352430-a212e56c-4125-4f70-b31a-97af79c87eab.png)
+
+> **i=5 * i and i=12 * 1**, we wrote together, then the **i** value is **incremented** by **i= 60 * i**. Then the **time complexity** is **O(log n base 60)**.  
+
+![image](https://user-images.githubusercontent.com/54589605/229352593-76da8a14-da18-4045-a3f3-715a046bbb1d.png)
+![image](https://user-images.githubusercontent.com/54589605/229352717-07dc02b0-a0d7-4e0f-89d1-97695a4517b8.png)
+![image](https://user-images.githubusercontent.com/54589605/229352818-45696cfa-6bf3-4d31-8e1d-892258d6766c.png)
+![image](https://user-images.githubusercontent.com/54589605/229352948-2cc2ba3b-42bd-4bb1-b644-53ab5a5ae2d6.png)
+![image](https://user-images.githubusercontent.com/54589605/229353768-9cecc04f-d127-4e07-a8aa-f432fc142c29.png)
+
+> **log n base 2** is bigger. Whichever base is **small**, we will take that.
+
+![image](https://user-images.githubusercontent.com/54589605/229353802-b930c798-068b-4998-b7fc-d61dce895be8.png)
+![image](https://user-images.githubusercontent.com/54589605/229353807-3bc17e59-dd76-4574-9e2c-e51b06178815.png)
+![image](https://user-images.githubusercontent.com/54589605/229353886-12398664-8899-4b9b-ae87-e7060ef5de00.png)
+![image](https://user-images.githubusercontent.com/54589605/229355507-22d62859-86f3-4d52-9f45-215b225027c6.png)
+![image](https://user-images.githubusercontent.com/54589605/229355571-2ac9850f-87d9-4df9-bfc4-00e347821c51.png)
+![image](https://user-images.githubusercontent.com/54589605/229355617-faaede82-e486-4f95-a3cb-5ff50566476b.png)
+![image](https://user-images.githubusercontent.com/54589605/229355673-97455b13-01f0-41f5-9a2b-dab0439cc142.png)
+![image](https://user-images.githubusercontent.com/54589605/229355727-8e9d3755-47fe-4e10-9a08-8ed24f0649ac.png)
+
+> For the first loop, it is **incrementing** as it has started from **smaller value** ie **i=1**.
+
+> For the second loop, it is **decrementing** as it has started from **bigger value** ie **j=n**.
+
+> What is the **overall effect** we have to check.
+
+* **Add and sub** -> n/2 or n/5 etc. -> These loops are **bigger** than the **log** loops below.
+* **Div and Mul** -> log n base 2 or log n base 20 etc. -> These loops are **smaller** but **faster** than above loops.
+
+> For multiplication, multiply the **numbers** only and for **division**, divide the **numbers** only.
+
+> **Less time complexity**, loop is repeating **less**, the **better**. So **log** is better than **Add and sub** -> n/2 or n/5**.
+
+> Loop should repeat **minimum** time as possible.
+
+![image](https://user-images.githubusercontent.com/54589605/229356272-5fe38aba-dc13-4fa8-93e6-ac19c717653e.png)
+
+* O(log n base 35) [Ans]
+
+![image](https://user-images.githubusercontent.com/54589605/229356507-ba125e31-6ab7-432b-b6ed-d1395bbc487d.png)
+
+> As starting value of **i=5** and it will not affect that much as **5** is a **constant** value, we can ignore it.
+
+> For **multiplication**, the **reverse** is **division** and vice-versa.
+
+> For **addition**, the **reverse** is **substraction** and vice-versa.
+
+> If we do **multiplication and addition** togerther then we get **7007** which is closer to **multiplication** and it gave **7000**. For the **addition**, we got **1007**. So,  **multiplication and addition** togerther is approximately equal to **multiplication**. Exactly not possible.
+
+![image](https://user-images.githubusercontent.com/54589605/229357155-9466c0e2-4fc6-4c01-9515-4cf03176d88e.png)
+![image](https://user-images.githubusercontent.com/54589605/229357239-d6743186-915a-4b1c-9ad4-910dfd2e815a.png)
+
+> So **multiplication** is faster than **addition**, that's why it is affecting more and for **addition**, it is affecting in **constant** values.
+
+![image](https://user-images.githubusercontent.com/54589605/229357689-4c9500e2-72a2-40de-a193-c632f8e118bc.png)
+![image](https://user-images.githubusercontent.com/54589605/229357956-e58bff4c-5dd1-49bc-b664-cdcefdb45802.png)
+
+[**IMPORTANT**]
+
+* i + 2 -> n/2
+* i * 2 -> log n base 2
+* i * i or i^2 -> log(log n)
+
+![image](https://user-images.githubusercontent.com/54589605/229358415-4b380b13-4c16-4a0e-a484-0ea122ea6aee.png)
+![image](https://user-images.githubusercontent.com/54589605/229358602-865544b6-6614-462f-a331-44849290a8e0.png)
+![image](https://user-images.githubusercontent.com/54589605/229358750-549d09b4-028a-48db-b3a7-1332c5e325a9.png)
+
+![image](https://user-images.githubusercontent.com/54589605/229359090-e9f13bdd-7796-48e4-8596-205a4cf96039.png)
+
+> The **time complexity** is **log(log n base 2) base 10**. 
+
+> Because the **initial value** of **i** is **i=2**, so the **inner base** is **2** as it has come **before/earlier**. At the end the **power** of **i** is **i^10**, so the **outer base** is **10** as it has come **after/later**.
+
+> This is how we got the **time complexity** of **log(log n base 2) base 10**. 
+
+![image](https://user-images.githubusercontent.com/54589605/229359259-d856333b-c5e8-4bd5-ae05-2092c4c079f3.png)
+![image](https://user-images.githubusercontent.com/54589605/229359296-a63b614a-ba6d-489c-abd9-8109f750df01.png)
+
+> The **time complexity** is **log(log n base 2) base 30**. Even if we add **i= i =7** in the for loop, it has very small effect which is **some constant**. So, the result remains **same** still. It is **baccha** only.
+
+![image](https://user-images.githubusercontent.com/54589605/229359399-249e129c-0a6a-489b-a1d2-95912b6d29e9.png)
+
+> If we also include **i= i * 7**, then also the result remains the **same** as it has very small effect which is **some constant**. It is **baccha** only
+
+![image](https://user-images.githubusercontent.com/54589605/229359506-85a8a026-06e9-41f6-9e9a-cd956c337594.png)
+![image](https://user-images.githubusercontent.com/54589605/229359522-a014b913-19d9-4b63-b6d4-20779aaaab8a.png)
+
+> **log(log n)** is faster compared to **n/2 or log n**. So **log(log n)** is dominating the **time complexity** value compared to them. Every oen is **participating** but **log(log n)** is dominating. So, **overall**, **time complexity** remains the **same** which is **log(log n base 2) base 30**.
+
+> **Constants** doesn't have much effects.
+
+* 9 * 6 * 5/(9) -> 6 * 5 -> 30 
+* log(log n base 1500) base 30
+
+> So, we got **log(log n base 1500) base 30** as the **time complexity** value.
+
+> Because the **initial value** of **i** is **i=1500**, so the **inner base** is **1500** as it has come **before/earlier**. At the end the **power** of **i** is **i^30**, so the **outer base** is **30** as it has come **after/later**.
+
+> This is how we got the **time complexity** of **log(log n base 1500) base 30**. 
+
+![image](https://user-images.githubusercontent.com/54589605/229360322-f893ef84-4f51-4192-beff-e6a088cab979.png)
+![image](https://user-images.githubusercontent.com/54589605/229360445-870e27a9-188d-49a7-b948-9fb67861ba25.png)
+
+> Answer will be **same** only even if we remove **less than equal to** to **less than** only. As **i^9 or i^6 or i^(1/9)** have the **highest power** compared to **add, mul and divide** that why they are dominating here. We have **ignored** the **rest**.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
