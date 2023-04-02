@@ -136,6 +136,9 @@
 ![image](https://user-images.githubusercontent.com/54589605/219824826-75134019-8108-4524-9785-77b139575c5f.png)
 ![image](https://user-images.githubusercontent.com/54589605/219824866-9dd6598d-e2ee-4307-b8e6-1e990fadd94b.png)
 
+## COA Long Notes
+
+* Link -> https://mega.nz/file/OFMEALJT#CiSw_kwCYriE4eU-UCJusS6zgyu51Uy7YsEjCxkxdVk
 
 # COA
 
