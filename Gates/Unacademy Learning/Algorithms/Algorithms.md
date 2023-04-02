@@ -161,8 +161,6 @@
 
 > We don't need to go **inside**. It still gives the **same analysis**.
 
-![image](https://user-images.githubusercontent.com/54589605/229305287-d57fcdb3-3d39-4d9b-a289-6b73b43a2051.png)
-
 
 
 

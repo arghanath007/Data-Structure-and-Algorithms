@@ -162,7 +162,7 @@
 ![image](https://user-images.githubusercontent.com/54589605/222418919-7218e17f-df4a-4cc5-a8b0-3489c714a3a8.png)
 
 * Micro processor -> CPU [Every is separate hardware, CPU is separate hardware, Memory has separate hardware and other devices are separate hardware as well]
-* When we have single chip with memeory also and other devices on that chip only, that chip is called as the **micro controller**.
+* When we have single chip with memory also and other devices on that chip only, that chip is called as the **micro controller**.
 
 
 ![image](https://user-images.githubusercontent.com/54589605/222419701-6526516e-a9f7-4e32-8f8d-3b20ec37732a.png)
