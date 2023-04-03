@@ -481,16 +481,124 @@
 ![image](https://user-images.githubusercontent.com/54589605/229450647-f70a7f71-4b00-4dd4-8d88-2fd6be134bbd.png)
 ![image](https://user-images.githubusercontent.com/54589605/229449100-7c669f9a-baf4-43e0-807c-e740f6f2681e.png)
 
+> So, when we are doing **i^20** and the **initial value** is **i=2**, the time complexity is **log(log n base 2) base 20**.
 
+> So, when we are doing **i^65** and the **initial value** is **i=2**, the time complexity is **log(log n base 2) base 65**.
 
+> It is similar for **root** also. So, when we are doing **i^(1/2)** and the **initial value** for the **termination** condition for the loop is **i=2**, the time complexity is **log(log n base 2) base 2**. So, **reverse** is happening.
 
+![image](https://user-images.githubusercontent.com/54589605/229454189-cfd8032b-7ca6-4f4e-8041-4ee4b8c58a7a.png)
 
+> If we add **i= i + 75**, then also the **result** remains the **same** as  it has **very small effect**. If we add **i= i * 75**, then also the **result** remains the **same** as  it has **very small effect**.
 
+![image](https://user-images.githubusercontent.com/54589605/229454633-edbc6237-8d4f-4db1-8dab-e56c1877d019.png)
 
+> So, if the  **initial value** for the **termination** condition for the loop is **i=23**, then we get **n^(4/225)^k = 23**. Hence, the value of **k= log(log n base 23) base 255/4)**. So, the **time complexity** is **O(log(log n base 23) base 255/4)**.
 
+> Try to understand what is **happening**. **Time complexity** means **how many times the loop is running and what is happening within the loop**.
 
+## GATE Questions
 
+* Find **time complexity** and **value of q**.
 
+> For the first loop, the **time complexity** is **log n base 2** and **p** value is **incrementing everytime**. The loop is repeating **log n base 2** time and **p** is **incrementing everytime**. So, **p** value is **p= log n base 2** only. So, how many times the loop is repeating that many times only **p** is incremented.
+
+> After the end of the first loop, **p= log n**.
+
+> For the second for loop, the **time complexity** is **log p base 2 -> log(log n base 2) base 2**. The second loop is **log p** time and not **log n** times as **j <=p** is the condition.
+
+> As from the first for loop, we gathered whatever is the **time complexity**, that value is the value of **p**. So, here in the second for loop as well, whatever is the **time complexity**, that value is the value of **q** which is **q= log(log n base 2) base 2**.
+
+![image](https://user-images.githubusercontent.com/54589605/229472063-cd52d5b5-b7f4-4acb-9bcd-3553238a8382.png)
+![image](https://user-images.githubusercontent.com/54589605/229484717-2e29daf4-7aff-4e5c-b8d4-47f9372e097b.png)
+![image](https://user-images.githubusercontent.com/54589605/229488396-fec7b740-17de-42ce-86c1-38250c7cccb5.png)
+![image](https://user-images.githubusercontent.com/54589605/229488623-74c42aee-b4d5-401a-9084-479fccb4ec2e.png)
+
+> This is for when we have many values within **one** loop only. If we have **add and mul** within one loop then **mul** will be **faster** than **add**, so it will have much more effect than **add**. That's why we ignored **add** in that case and took the **faster value**.
+
+> When finding **time complexity**, then we have to take the larger value like **log n > log(log n)** in the above example as if **n=16**, then **log 16 -> 4** and **log(log 16) -> log 4 -> 2**. As **4 > 2** which means **log n > log(log n)**. Hence we took **log n** as the **time complexity** in the above question.
+
+[**IMPORTANT**]
+
+> They are **two** different loops and they are **outer** loops, when **outer** loops, take the **larger one**.
+
+![image](https://user-images.githubusercontent.com/54589605/229489833-b7094cbd-6aa4-491f-9e0b-85eba2b46e68.png)
+![image](https://user-images.githubusercontent.com/54589605/229491861-8bd6410e-4516-4b4c-a3f5-b48bfabcd48a.png)
+
+> Time complexity is **O(nlog n)** because the time complexity between the inner for loops is **log n** but the outer for loop is running for **n times**. So, it is **O(nlog n)**. The **q** value remains the same because every in the outer for loop, **p and q** are initialized by 0 only.
+
+* return -> Get out of the function.
+* exit -> Get out of the entire program or stop the program.
+
+![image](https://user-images.githubusercontent.com/54589605/229493160-63908197-026f-4d08-a8a0-99c5c291754f.png)
+![image](https://user-images.githubusercontent.com/54589605/229498658-742e3bc2-fa3f-45f9-810f-bd4a613428e1.png)
+![image](https://user-images.githubusercontent.com/54589605/229499000-3e3da2fb-eaac-42a5-916a-1dffa2725d37.png)
+
+> If **q=0** was within the first for loop like **p=0**, then the **q** value would have been **q= log n**, as after every loop, q value would have been initialized with **q=0** only.
+
+* break -> outside loop or out of the loop.
+* return -> outside the function(same as above), just different wording.
+* exit -> program stops
+
+![image](https://user-images.githubusercontent.com/54589605/229500169-d964c9f0-4f2e-4d42-83e5-4f6cc08b0848.png)
+
+> For the first loop, time complexity is **log n^2 base 7** as the termination condition for the loop is **i <= n^2** that why.
+
+> For the second loop, time complexity is **log n^2 base 7** as the termination condition for the loop is **i <= n^2** that why.
+
+![image](https://user-images.githubusercontent.com/54589605/229502823-f7f097b7-0546-41d8-ac04-33e012c59105.png)
+![image](https://user-images.githubusercontent.com/54589605/229503671-6dbfb9a4-7dae-4fee-ad9c-5ed7fdce71e4.png)
+
+> Both are correct if we ignore the **constants**. Check which is given in the **options** of the question. Choose that one.
+
+![image](https://user-images.githubusercontent.com/54589605/229505160-0a9114d3-7db8-4966-a2fe-94414755cf50.png)
+
+> For the **value of x**, as the **inner loop** is repeating **log n** times and every time **n** is getting added so **n log n** but the **outer loop** is also there which is **log n** times. So, value of **x = log n * nlogn -> n * (log n)^2**.
+
+![image](https://user-images.githubusercontent.com/54589605/229505864-77653c1c-7b46-4776-8359-026cf1ded495.png)
+![image](https://user-images.githubusercontent.com/54589605/229506380-2c667974-8038-47a7-b56c-ee41add96fe9.png)
+
+> If we have replaced the variable **n** in **x= x + n** with **x=x+1**, then the **value of x** is **log n * log n -> (log n)^2**. As the inner loop runs for **log n** times and the outer loop also runs for **log n** times.
+
+> By replacing **n** with **1**, the **value** is changing only. The **time complexity** is **same** only. Time complexity will only change when loops are **increasing or decreasing**.
+
+![image](https://user-images.githubusercontent.com/54589605/229507869-3706aefb-48c6-478e-961e-9066f9677571.png)
+
+> Even if we put **0**, then also only the **value** changes. The **time complexity** remains **same** only.
+
+> In **power**, constants matter, don't ignore them there.
+
+![image](https://user-images.githubusercontent.com/54589605/229513967-e69ba091-bc02-4051-b9b2-f326e8cae36b.png)
+![image](https://user-images.githubusercontent.com/54589605/229516312-1b66d5e2-7d55-4c94-812d-9252496a1841.png)
+![image](https://user-images.githubusercontent.com/54589605/229516249-abe8a073-a836-4692-b8fe-199d8467ff15.png)
+![image](https://user-images.githubusercontent.com/54589605/229516472-ecd2a386-997a-4998-b6a4-a7f951ad85c5.png)
+![image](https://user-images.githubusercontent.com/54589605/229516823-dd337e48-f32b-45e3-bfc0-cf7bc2aaf8f7.png)
+
+> If both the loops have **n** complexity then the value of **x** will be **n^(n^2)**. As **j** loop has run **n** times and each time **n** is multiplied to **x** then the value of **x** after whole of **j** loop is **n * n -> n^2**. So, **n * n -> n^2** will be for each loop of **i**, so for **n** loops of **i**, we get **n^(n^2)**.
+
+![image](https://user-images.githubusercontent.com/54589605/229517864-ec76b7f1-355f-474e-b50b-339c380ea928.png)
+![image](https://user-images.githubusercontent.com/54589605/229518106-566ea1c0-95dd-4296-a20f-3781f41d598d.png)
+
+> So multiply **n^(1.57) * log n^7 base 8** and that is the **answer** for the given question.
+
+![image](https://user-images.githubusercontent.com/54589605/229521532-a59fcc11-2c5d-4a57-a2f7-3aea51a22d12.png)
+![image](https://user-images.githubusercontent.com/54589605/229521845-0e5338df-6e86-4b3a-b21d-5a71d2a0d21c.png)
+
+> If **x=0**, then **0 * anything -> 0**. So, the value of **x** will be **0** only.
+
+> There are **2** loops in the program. They are **inner** loops as **j** has come before **i** has completely stopped. AS they are **inner**, so we have to **multiply**.
+
+> As **n** is a **prime no**, it has **only two factors** i.e **1 and itself**. So, for all the values of **i**, only **two** values will enter the **j** loop.
+
+![image](https://user-images.githubusercontent.com/54589605/229525351-ff33b8a5-6dd6-41ee-bbef-a6f69111cc9b.png)
+![image](https://user-images.githubusercontent.com/54589605/229525731-040aacb7-feb2-44be-b5c6-80d8d319ce75.png)
+![image](https://user-images.githubusercontent.com/54589605/229525849-0890ab9c-f0e7-44d9-9b18-11c4d9d74a46.png)
+
+> Even though there are **two** loops and they are **inner** loops. We only got **time complexity** as **O(n)** as there is an **if** condition which is stopping most of the **i** iterations to go to **j** loop. Everyone not allowed into **j** loop. Because of **n** being **prime number**, only **two** values can go into **j** loop.
+
+![image](https://user-images.githubusercontent.com/54589605/229526008-c669800a-d873-4aac-b86f-e4a726abf724.png)
+
+> If we remove the **condition** then the **time complexity** as **O(n^2)*.
 
 
 
