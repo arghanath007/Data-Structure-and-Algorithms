@@ -600,17 +600,117 @@
 
 > If we remove the **condition** then the **time complexity** as **O(n^2)*.
 
+## Asymptotic Notation-II (6) [3rd April 2023]
 
+### Time Complexity Questions continued
 
+> There are **two** loops and they are **inner** loops. In **j** loop, it is dependent on **i**. Without mentioning **i**, we cannot define **j**. As **j** is dependent on **i**, or when **one** is dependent on **another** then we can't write them individually. We have to write them **combinedly** only.
 
+> Based on the **dependency**, we cannot **divide**. Based on **i**, **j** will come. **j** is how many times? **i** times. Whenever there is a  **dependency**, we cannot **separate** them. We have to take **both** of them into consideration.
 
+![image](https://user-images.githubusercontent.com/54589605/229578017-d9cf42fd-595f-4dac-a768-e6fe24d3e71d.png)
 
+> If **n terms** are there then **each term** is **one loop**. We are getting the **terms** because of the **combination of i and j**. **i** will say how many loops. **j** will say every loop how many time.
 
+![image](https://user-images.githubusercontent.com/54589605/229582397-11aa207b-9eb5-49a1-82e5-74d4f01e91f2.png)
+![image](https://user-images.githubusercontent.com/54589605/229582500-1649aff7-3fc2-4944-aa2d-eb9e7deee18f.png)
 
+> So, the **time complexity** will be **O(n^2)**.
 
+> If **i=1**, then **j** loops  **one** time only.
 
+![image](https://user-images.githubusercontent.com/54589605/229582790-576b0543-4ea8-4511-bcdf-a951bbc99c86.png)
 
+> Instead of **i**, we have put **n** in the **j** loop, then also we would get **O(n^2)** as the **time complexity** which is the **same** as before. But in the **above question**, the actual answer is **n(n+1)/2** but we are simply ignoring the **constants**. So we get **O(n^2)**.
 
+> For the **2nd question** we get **O(n^2) or n * n**, which is the actual correct solution. So they are not the same solutions.
+
+> So the symbol we write on the right hand side which is the **Theta**, are simply **approximation**. But before **Theta**, whatever we write that's the **actual** solution.
+
+> We are **approximating** because the **actual values** differ from system to system, if the system is **slower** then we could get **n(n+1)/2^t** or if the system is **faster** then we could get **n(n+1)/1.2**. So the **actual** answer is varrying with **constant** values. That's why we use **approximations**.
+
+> So the **actual value**, **n(n+1)/2** will change from system to system. It could be **n(n+1)/20** or **n(n+1)/200** or **n(n+1)/2000000**. They keep on **changing**, but in every system one thing is **common** that is **n^2**. **Constant factor** will only **change**. This is the **meaning** of **Theta(n^2)**. From system to system in the **actual answers**, the **constant** factor can **change**. But one thing is **common** in every system which is **n^2**. Some constant factor **n^2**.
+
+![image](https://user-images.githubusercontent.com/54589605/229583693-5e948183-2cc2-43d7-98a6-29e60a59197b.png)
+
+* 1 + 4 + 9 + ........ + n^2 -> Series
+
+* Above series explaination -> https://math.stackexchange.com/questions/1544526/the-sum-of-the-first-n-squares-1-4-9-cdots-n2-is-fracnn12
+
+![image](https://user-images.githubusercontent.com/54589605/229589693-8d7753ca-fa17-402d-bc97-4385e90ca287.png)
+
+> So it givens **n^3**. Hence the time complexity is **Theta(n^3)**. So, in every system **n^3** is **common**.
+
+![image](https://user-images.githubusercontent.com/54589605/229590344-6a20a21d-ba93-4b54-960f-b69ba8ee783d.png)
+
+> The loop is **dependent** on **s**. **s** is always incremented by **i**, but **i** is always incremented by **1**. After doing **k times**, the total sum is equal to **n**.
+
+![image](https://user-images.githubusercontent.com/54589605/229593178-08f36cd9-065c-4bc8-8513-bfe952a97276.png)
+
+> If **s** is incrementing by **s= s + i^2**. Then, the **time complexity** will be **Theta(cube(n)) -> Theta(n^(1/3)**.
+
+![image](https://user-images.githubusercontent.com/54589605/229594030-c427c7bf-1497-45d5-a63a-11f8c22b6ff1.png)
+
+> **j** is based on **i** loop. **YES**. If a for loop **j** is incremeneted by **3** then **time complexity** is **n/3**. If a for loop **j** is incremeneted by **10** then **time complexity** is **n/10**. If a for loop **j** is incremeneted by **20** then **time complexity** is **n/20**.
+
+> So, in the below question **j** is incremented by **i** then **time complexity** is **n/i**. There is **dependency**. So, if **i=1**, then the **j** loop will repeat, **n/i -> n/1 -> n** time.  So, if **i=5**, then the **j** loop will repeat, **n/i -> n/5** time.  So, if **i=n**, then the **j** loop will repeat, **n/i -> n/n -> 1** time. The **series** we got is by considering **both, i and j**.
+
+![image](https://user-images.githubusercontent.com/54589605/229597235-984ca85c-a5e0-4f3a-bf99-41612ef02c8c.png)
+
+* n/1 + n/2 + n/3 ............. + n/n -> n[1/1 + 1/2 + 1/3 + ........ 1/n] 
+
+> This is a **logarithmetic series**. So we get **n * log n -> n(log n)**. The **constant factor**, **[1/1 + 1/2 + 1/3 + ........ 1/n]** is equal to **log n**.
+
+* [1/1 + 1/2 + 1/3 + ........ 1/n] -> log n
+
+> As **1/n** is there so **log n**.
+
+* [1/1 + 1/2 + 1/3 + ........ 1/log n] -> log(log n)
+
+> As **1/log n** is there so **log(log n)**.
+
+> So, whatever is there at the end **1/whatever**, then we do **log** of it so, **log(whatever)**. That's the **logic**.
+
+> They are **inner** loops. They are **dependent** on each other. They are based on **one variable**.
+
+> **int i** means **i** is declared and **memory** is allocated for it.
+
+![image](https://user-images.githubusercontent.com/54589605/229601850-49e40c3c-e57e-4f38-b368-cf247af0f3d5.png)
+![image](https://user-images.githubusercontent.com/54589605/229601964-cf7df09f-3a5e-4761-91fd-a92d019d5906.png)
+![image](https://user-images.githubusercontent.com/54589605/229602095-6ee91b9e-d3ea-4703-8fdd-180f86e0ca94.png)
+
+> We got **n^3** from the inner most loop and in the next iteration it was **n^3 + 1** which is greater than **n^3**, so the condition of the loop fails and we go to the **second loop**. We check the condition that **n^3 + 1** is less than **n^2** and it is **false**, so we go to the **first/outer** loop. We check condition that **n^3 + 1** less than **n** and it is **false**. So, we get out of all the loops. We got **1** itiration in **first loop**, then **1** itiration in **second loop** and **n^3** iteration in the **third/last** loop. So the **time complexity** is **O(1 * 1 * n^3) -> O(n^3)**.
+
+![image](https://user-images.githubusercontent.com/54589605/229602918-0417a5b8-c2be-4139-959f-2e828b68f631.png)
+
+> If we do like that then **each i** value is localized to their respective **for loop** blocks only. So, they are **different** now. Now, there are **two** declarations. First loop has it's own declaration and the **second and third** loops have their own declaration.
+
+![image](https://user-images.githubusercontent.com/54589605/229603089-a59164c5-9196-43fd-831e-d5845205c438.png)
+![image](https://user-images.githubusercontent.com/54589605/229603054-cc0bc2ad-df4f-4e60-89ef-66f854c750b4.png)
+
+> If we write **int i** in every for loop, then there are **three** declaration and each and every loop is **different**. It is like **i, j and k**. It is like **three** different variables. One person don't see the **other person**. Everyone is individual. Their scope is **inside** their respective **for loop** blocks.
+
+![image](https://user-images.githubusercontent.com/54589605/229603558-0ec35f2e-78d6-4f94-a8cc-881e366f4db6.png)
+![image](https://user-images.githubusercontent.com/54589605/229604245-288c988d-fa18-4bab-a0ac-2cb00b7f7c48.png)
+
+> Now, there is only **one i**.
+
+![image](https://user-images.githubusercontent.com/54589605/229604504-ea0d11a5-8166-4cf2-a294-48ed0cc1bc22.png)
+![image](https://user-images.githubusercontent.com/54589605/229605386-2b910a46-f155-448b-a652-5a1ffba17d48.png)
+![image](https://user-images.githubusercontent.com/54589605/229605859-6267f4da-66bd-4286-abec-17cd32c2679c.png)
+
+> It is forming an **infinite loop**. So, it is not an **algorithm**. It is a **program** which is going to  **infinite loop**.
+
+![image](https://user-images.githubusercontent.com/54589605/229606268-a822465d-caac-47ea-9a83-c2b59e5c8a2d.png)
+
+> Inner loops affecting outer loops.
+
+[**IMPORTANT**]
+> **Practice** all of the questions. Before starting the new topic. Do some **practice** questions and revise them again.
+
+## Asymptotic Notations
+
+> Start from **1hr 30mins**.
 
 
 
