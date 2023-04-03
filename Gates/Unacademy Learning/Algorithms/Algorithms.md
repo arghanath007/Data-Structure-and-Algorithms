@@ -600,6 +600,16 @@
 
 > If we remove the **condition** then the **time complexity** as **O(n^2)*.
 
+![image](https://user-images.githubusercontent.com/54589605/229610057-63d39edf-fc3e-4f3f-a04c-444b937b3a20.png)
+![image](https://user-images.githubusercontent.com/54589605/229610083-5ed96e12-f13e-4771-a543-08de173875e7.png)
+![image](https://user-images.githubusercontent.com/54589605/229610117-fa09f375-4011-419e-94f8-78919579c1e2.png)
+![image](https://user-images.githubusercontent.com/54589605/229610141-f21463be-d26d-4661-bec2-2d524e5a91cf.png)
+![image](https://user-images.githubusercontent.com/54589605/229610164-75e7104b-2869-4289-9ef0-39b018acd540.png)
+![image](https://user-images.githubusercontent.com/54589605/229610188-cb14c423-f0bd-4327-b9d6-0d282bf3ea82.png)
+![image](https://user-images.githubusercontent.com/54589605/229610201-9735d2e5-c655-43d4-a010-b63421294136.png)
+
+
+
 ## Asymptotic Notation-II (6) [3rd April 2023]
 
 ### Time Complexity Questions continued
@@ -704,6 +714,13 @@
 ![image](https://user-images.githubusercontent.com/54589605/229606268-a822465d-caac-47ea-9a83-c2b59e5c8a2d.png)
 
 > Inner loops affecting outer loops.
+
+![image](https://user-images.githubusercontent.com/54589605/229610287-aecda8f1-f14b-4c88-a8a1-23693cb27b8f.png)
+![image](https://user-images.githubusercontent.com/54589605/229610310-03c68713-57d0-409f-8ca4-eae1d1b5a897.png)
+![image](https://user-images.githubusercontent.com/54589605/229610337-e9fde60f-c3c2-4ae7-bf2e-a165a911d2a6.png)
+![image](https://user-images.githubusercontent.com/54589605/229610357-63d12144-f145-4051-b844-201b1395b768.png)
+![image](https://user-images.githubusercontent.com/54589605/229610373-5b502678-b0f8-4708-bd7e-d910a2b9d58f.png)
+
 
 [**IMPORTANT**]
 > **Practice** all of the questions. Before starting the new topic. Do some **practice** questions and revise them again.
