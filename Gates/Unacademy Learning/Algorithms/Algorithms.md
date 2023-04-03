@@ -449,7 +449,7 @@
 ![image](https://user-images.githubusercontent.com/54589605/229445145-f47c35d0-3c16-4869-9553-a0a4822a08f1.png)
 ![image](https://user-images.githubusercontent.com/54589605/229446072-049a5c25-8c90-4c6c-bf62-8f3f146ecc24.png)
 ![image](https://user-images.githubusercontent.com/54589605/229446245-bf099211-58f3-44f9-abb7-cd1f5aac3adf.png)
-![image](https://user-images.githubusercontent.com/54589605/229446827-d5aaaca1-a7fb-4fe3-87cd-e82dca3640bd.png)
+![image](https://user-images.githubusercontent.com/54589605/229451172-5cb10e53-0796-4fed-8c8e-cd47d89ff4fb.png)
 
 > So, the **time complexity** is  **O(log(log n base 2) base 255/4)**.
 
@@ -461,7 +461,7 @@
 > But **sir** is saying it should be **O(log(log n base 2) base 2**. Let's see his **proof** for these solution.
 
 ![image](https://user-images.githubusercontent.com/54589605/229438172-40197edc-20df-4d56-b7fc-1ea12be76696.png)
-![image](https://user-images.githubusercontent.com/54589605/229439660-09a68a79-54bf-4a77-94b1-9c63ccf12157.png)
+![image](https://user-images.githubusercontent.com/54589605/229451172-5cb10e53-0796-4fed-8c8e-cd47d89ff4fb.png)
 
 > Here is the **proof** why we are getting **base 2** in **outer** base even though **i^(1/2)**. So, remember when we get **1/2** as the **power** then put **2** as the base. In the proof we got **O(log(log n base 2) base 2**, so for **i^(1/2)** we got **time complexity** as **O(log(log n base 2) base 2** and not **O(log(log n base 2) base 1/2**, which we thought **initially**. 
 
@@ -473,7 +473,7 @@
 
 > Initially **i=n** and after **k times**, it is **n^(1/2^k) = 2**, which is the **termination** condition for the loop. We want the **k** value as it has looped for **k times**. So after applying **log**, we get **1/(2^k) * log n base 2=1**. So, **log n base 2 = 2^k** and after applying another **log**, we got **k = log(log n base 2) base 2**.
 
-![image](https://user-images.githubusercontent.com/54589605/229448491-96a38d8c-4a33-4046-bddf-ced6cd4e53a1.png)
+![image](https://user-images.githubusercontent.com/54589605/229451172-5cb10e53-0796-4fed-8c8e-cd47d89ff4fb.png)
 ![image](https://user-images.githubusercontent.com/54589605/229448219-3d9d39f6-5d57-47b9-8358-5f46bd4f9598.png)
 
 > Initially **i=n** and after **k times**, it is **n^(4/255)^k = 2**, which is the **termination** condition for the loop. We want the **k** value as it has looped for **k times**. So after applying **log**, we get **(4/255)^k * log n base 2=1**. So, **log n base 2 = (255/4)^k** and after applying another **log**, we got **k = log(log n base 2) base 255/4**.
