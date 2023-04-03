@@ -429,6 +429,68 @@
 
 > Answer will be **same** only even if we remove **less than equal to** to **less than** only. As **i^9 or i^6 or i^(1/9)** have the **highest power** compared to **add, mul and divide** that why they are dominating here. We have **ignored** the **rest**.
 
+## Asymptotic Notation-I (5) [3rd April 2023]
+
+> As **i** is starting from a **larger no.**, **i=n**, hence the **overall** effect should be **decreasing or decrement**.
+
+* 5 * 4 / 3 * 15 * 25 -> 4/ 9 * 25 -> 4/225
+* log(log n base 2) base 4/225
+
+![image](https://user-images.githubusercontent.com/54589605/229436098-855e308e-58d4-4fd2-bffa-aa5598aa3b09.png)
+
+> So, we got **log(log n base 2) base 4/225** as the **time complexity** value.
+
+> Because the **initial value** of **i** is **i=n**, so it has a **greater value**, so now we have to check the **initial value** where the **condition** ends, which is **i >=2**. So the **inner base** is **2** as it has come **before/earlier**. At the end the **power** of **i** is **i^(4/225)**, so the **outer base** is **4/225** as it has come **after/later**.
+
+> This is how we got the **time complexity** of **log(log n base 2) base 4/225**. 
+
+> This is also **wrong** because of the **below proof**.
+
+![image](https://user-images.githubusercontent.com/54589605/229445145-f47c35d0-3c16-4869-9553-a0a4822a08f1.png)
+![image](https://user-images.githubusercontent.com/54589605/229446072-049a5c25-8c90-4c6c-bf62-8f3f146ecc24.png)
+![image](https://user-images.githubusercontent.com/54589605/229446245-bf099211-58f3-44f9-abb7-cd1f5aac3adf.png)
+![image](https://user-images.githubusercontent.com/54589605/229446827-d5aaaca1-a7fb-4fe3-87cd-e82dca3640bd.png)
+
+> So, the **time complexity** is  **O(log(log n base 2) base 255/4)**.
+
+
+![image](https://user-images.githubusercontent.com/54589605/229436734-f0c42dd7-a885-4b66-8281-5b86b20d82cd.png)
+
+> If we got final value of **i** as **i^(1/2)**. Then, the **time complexity** is **O(log(log n base 2) base 1/2**.
+
+> But **sir** is saying it should be **O(log(log n base 2) base 2**. Let's see his **proof** for these solution.
+
+![image](https://user-images.githubusercontent.com/54589605/229438172-40197edc-20df-4d56-b7fc-1ea12be76696.png)
+![image](https://user-images.githubusercontent.com/54589605/229439660-09a68a79-54bf-4a77-94b1-9c63ccf12157.png)
+
+> Here is the **proof** why we are getting **base 2** in **outer** base even though **i^(1/2)**. So, remember when we get **1/2** as the **power** then put **2** as the base. In the proof we got **O(log(log n base 2) base 2**, so for **i^(1/2)** we got **time complexity** as **O(log(log n base 2) base 2** and not **O(log(log n base 2) base 1/2**, which we thought **initially**. 
+
+> If it is **i^(1/2)** then it is **ulta/opposite** i.e **base 2** as the **outer base**.
+
+![image](https://user-images.githubusercontent.com/54589605/229447306-8acf58ba-a21c-46ea-bac2-7b69ab6f6815.png)
+
+> For **square**, reverse is **root**. They(square and root) both are the **same**. So, **i^(1/2)** is **root** only.
+
+> Initially **i=n** and after **k times**, it is **n^(1/2^k) = 2**, which is the **termination** condition for the loop. We want the **k** value as it has looped for **k times**. So after applying **log**, we get **1/(2^k) * log n base 2=1**. So, **log n base 2 = 2^k** and after applying another **log**, we got **k = log(log n base 2) base 2**.
+
+![image](https://user-images.githubusercontent.com/54589605/229448491-96a38d8c-4a33-4046-bddf-ced6cd4e53a1.png)
+![image](https://user-images.githubusercontent.com/54589605/229448219-3d9d39f6-5d57-47b9-8358-5f46bd4f9598.png)
+
+> Initially **i=n** and after **k times**, it is **n^(4/255)^k = 2**, which is the **termination** condition for the loop. We want the **k** value as it has looped for **k times**. So after applying **log**, we get **(4/255)^k * log n base 2=1**. So, **log n base 2 = (255/4)^k** and after applying another **log**, we got **k = log(log n base 2) base 255/4**.
+
+![image](https://user-images.githubusercontent.com/54589605/229450647-f70a7f71-4b00-4dd4-8d88-2fd6be134bbd.png)
+![image](https://user-images.githubusercontent.com/54589605/229449100-7c669f9a-baf4-43e0-807c-e740f6f2681e.png)
+
+
+
+
+
+
+
+
+
+
+
 
 
 
