@@ -727,9 +727,92 @@
 
 ## Asymptotic Notations
 
-> Start from **1hr 30mins**.
+> Approximate answer
+
+1) Big-O Notation -> (**<=**)
+2) Omega Notation -> (**>=**)
+3) Theta Notation -> It means **equal**. It means **Big O(<=)** as well as **Omega(>=)** also. If both(Big-O and omega) satisfied then it is **theta**.
+
+> If between two people <= and >=, both are possible. Then, they are **equal**. If both are **True**, then they are **equal**. If both are **True**, then they are **not equal**.
+
+![image](https://user-images.githubusercontent.com/54589605/231459382-4c202308-2b11-44dc-804f-5118a5db48bf.png)
+
+> If we know **Big-O** then we know how to apply **<=**. If we know **<=**, then we also know **>=**. As we know both(**<=** and **>=**), then we can apply **theta**. 
+
+> If we learn **Big-O**, then automatically **all** will come.
+
+> If we used **Theta** for one problem, then we can use **Big-O** as well as **Omega** for the same problem. **Theta** means **Big-O** as well as **Omega** only. 
+
+![image](https://user-images.githubusercontent.com/54589605/231461655-2466978b-7f27-4f76-b0c5-8119a53f523a.png)
+![image](https://user-images.githubusercontent.com/54589605/231462675-ab0129e5-85c1-4963-bbbc-35009ce892f8.png)
+
+* Time and Space complexity cannot be **negative**.
+
+![image](https://user-images.githubusercontent.com/54589605/231463083-bc937018-244f-41a0-b8e9-8a4f2ff6698d.png)
+
+## Big-O Notation
+
+* O -> <= [Less than or equal too]
+* o -> <  [Less than]
+
+![image](https://user-images.githubusercontent.com/54589605/231464989-cafdd352-b73e-44bb-937a-5517092b8aa2.png)
+
+> **Big-O** means **right side** person would be **more or equal too** when compared with the **left side** person.
+
+> In **Big-O**, **more or equal too** is on the **right side**. 
+
+> According to **Big-O**, **right side** is **more/greater/bigger or equal too** than the **left side**.
+
+![image](https://user-images.githubusercontent.com/54589605/231469636-b90040ec-603d-46ee-b7d5-69655dca5f15.png)
+
+## Example
+
+> We want to prove **right bigger** but frankly in the question, **left** is bigger.
+
+![image](https://user-images.githubusercontent.com/54589605/231471403-9b66972c-0e8f-410c-990f-be5735920aff.png)
+
+> The **2n** on the **left side** is far bigger than the **n + 5**. So, we will take **c=2**. Now, **n + 5 <= 2n**, so the **right side** is **bigger**. When comparing **left and right** side, **right side** is bigger with the help of **constant, c**. That's the meaning of **Big-O**.
+
+![image](https://user-images.githubusercontent.com/54589605/231472294-b8c72faa-3f94-48b6-a8fa-72372f6e31ba.png)
+![image](https://user-images.githubusercontent.com/54589605/231474437-ab0449d2-ce95-42ba-a0f9-eb77314a36a4.png)
+![image](https://user-images.githubusercontent.com/54589605/231476493-3e7eaff7-802a-4585-a4d2-1b5a066c93a5.png)
+![image](https://user-images.githubusercontent.com/54589605/231477937-9e2fcc06-2b19-49ee-bdb4-f91b18258e3a.png)
+
+> In **Big=O**, we can take the support of **one** person, which is the **constant, c** and using that **constant, c**, we can prove that **right side** is **bigger or equal too**.
+
+* **right side** is **bigger or equal too** -> **Big O**.
+
+> In **example 2**, we can see that **right side** is **bigger** and we want to prove that **right side** is **bigger** only. So, **we don't need the help of the** **constant, c** here. We can set **c=1**, as support of **constant, c**, is not needed.
+
+> From which value of **n** onwards, this relation will hold? Minimum value, start checking from **n0=1**. May or may not work. **Left** is **1** and **right** is **6**. So, **1(one)** onwards it is working. So, **right side** is **bigger**, proved. It is working from **zero(0)** also but don't write **zero(0)** when analyzing **algorithm**, **minimum one input is required**, so from **one** onwards start checking.
+
+![image](https://user-images.githubusercontent.com/54589605/231481969-f28ac272-1acb-4725-8da1-42fe35754262.png)
+
+> So, it is working **one(1) onwards**, and not **one(1) only**.
+
+![image](https://user-images.githubusercontent.com/54589605/231482186-6d4974c7-c6e3-446e-9c9c-15c878a10a59.png)
+
+> So for **Big-O** notation, it is the **starting** boundary. **From which point onwards it is working**, then is no **until** point here, until **infinite**. There is no **ending boundary** to it. Just say, the **starting point** and **from that point onwards, it is working**.
+
+![image](https://user-images.githubusercontent.com/54589605/231483165-a6ec8330-4c8d-411d-8c18-7271eec4ee5a.png)
+
+> From **1** point onwards, it is working. The constant value is **c=1** and **n0=1**. In place of **c** anything is ok, but is should be **constant**. Greater than **zero(0)**, we can take **anything**.
+
+![image](https://user-images.githubusercontent.com/54589605/231485311-af4739fe-6b64-4fd5-8db6-a7b28cf6a236.png)
+![image](https://user-images.githubusercontent.com/54589605/231485852-b607f18a-d5c8-47c5-bc68-7d4a00190317.png)
+
+> The line **n= O(n+5)**, means that when comparing **n** with **O(n+5)** then **O(n+5)** is **bigger or equal too**, **n**, after taking **constant, c** help from some **n0** onwards. **Right side** is **bigger**.
+
+> Even though the **constant, c** is available, we have to take it as **right side** is already **bigger** and we want the **right side** to be **bigger** that's we didn't need any help.
 
 
+## Omega Notation
+
+> In **Omega**, **less or equal too** is on the **right side**.
+
+> By taking **constant, c** help, we can prove that **right side** is **less or equal too**. That is **Omega**.
+
+* **right side** is **less or equal too** -> **Omega**.
 
 
 
