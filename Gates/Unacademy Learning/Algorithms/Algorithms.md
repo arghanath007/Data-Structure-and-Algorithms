@@ -750,7 +750,7 @@
 
 ![image](https://user-images.githubusercontent.com/54589605/231463083-bc937018-244f-41a0-b8e9-8a4f2ff6698d.png)
 
-## Big-O Notation
+## Big-O Notation(<=)
 
 * O -> <= [Less than or equal too]
 * o -> <  [Less than]
@@ -806,7 +806,45 @@
 > Even though the **constant, c** is available, we have to take it as **right side** is already **bigger** and we want the **right side** to be **bigger** that's we didn't need any help.
 
 
-## Omega Notation
+## Recursion-Part-I (7) [13th April 2023]
+
+> **Big-O** means **right side** is **greater**.
+
+> **Omega** means **right side** is **smaller**.
+
+## Questions
+
+![image](https://user-images.githubusercontent.com/54589605/231685712-f14fbe0b-1e42-4a85-8b59-de4af086664d.png)
+![image](https://user-images.githubusercontent.com/54589605/231686479-07342880-7e32-45df-a26d-af7e9f0048f3.png)
+
+> With respect to **c**, **n0** value will **change**. If we take **bigger c** value then **n0** value will be **smaller**. 
+
+> **n0=3** means **3 onwards** upto **infinite**. Starting boundary is **n0=3** but there is no **ending boundary**.
+
+![image](https://user-images.githubusercontent.com/54589605/231694994-9a4bdedc-c654-4e48-b7f0-82b8a75511c1.png)
+![image](https://user-images.githubusercontent.com/54589605/231695183-1088a399-f0cb-45c9-b543-8bf4438c41b3.png)
+
+> Starting boundary is **n0=10** but there is no **ending boundary**.
+
+![image](https://user-images.githubusercontent.com/54589605/231688210-8bd04214-1a35-4b73-947c-26058dc4eda3.png)
+
+> **f(n)= O(g(n))** means that comparing **f(n)**, **g(n)** will be **greater or equal too** after taking **constant help**. After comparing left and right, right will be **greater or equal too** after taking **constant help**, some **n0** onwards.
+
+![image](https://user-images.githubusercontent.com/54589605/231690377-714b1934-42d3-45d1-b831-cffdd087d91d.png)
+![image](https://user-images.githubusercontent.com/54589605/231690539-a0ddc063-d04a-4774-aba4-1d2aacc1839b.png)
+
+> **n** is a function and we cannot take a **function**. Constant help is only allowed.
+
+> The constant(c) cannot take a function **n** as on the left side it is **n * n** and on the right side is **c * n**. Only way it is possible if **c=n** but that is not allowed in notations, we cannot take a **function**.
+ 
+![image](https://user-images.githubusercontent.com/54589605/231691836-9cb4ac0a-2090-4a11-8401-2b17ae8f1958.png)
+
+> Using **Big-O**, we cannot prove any person is **bigger**. We can take only **constant** help and prove whatever possible. By using **constant** help if we can prove **right side** is **bigger** then that is **Big-O**.
+
+> There is a limit for everything, we can only use **constant** help. More than **constant** help is not allowed. 
+
+
+## Omega Notation(>=)
 
 > In **Omega**, **less or equal too** is on the **right side**.
 
@@ -814,15 +852,61 @@
 
 * **right side** is **less or equal too** -> **Omega**.
 
+![image](https://user-images.githubusercontent.com/54589605/231696283-2dd5ae72-b306-40fe-87c0-8834c2cc4b92.png)
 
+> Not necessary that **c** value should be in **integers** only it can be in **fractions** as well like **1/2 or 0.5, 1/4 or 0.25**. More than **zero(0)**, take anything, which is a **constant**. Less than **zero(0)** not allowed and more than **zero(0)** anything which is **constant** is allowed. 
 
+> **n0** indicates **inputs**, so it has to in **integer** and cannot be in **fractions**. We cannot have **1.5** inputs it should be either **1** or **2** inputs but not **1.5** inputs.
 
+![image](https://user-images.githubusercontent.com/54589605/231698060-84cff2a3-ffd9-4bb6-a7d7-ccfb7b57a613.png)
 
+> As it is **Omega**, we want to prove that the **left side** is **bigger** or directly that the **right side** is **smaller or equal too** as it is the **opposite** of **Big-O**.
 
+>  We want to prove that the **left side** is **greater** but to be frank, the **right side** is **greater**.
 
+![image](https://user-images.githubusercontent.com/54589605/231702689-008e17aa-b172-43af-9c6e-182fb92449a7.png)
 
+> Whenever **c** value changes, then automatically **n0** value also changes. We don't need to find out every **c and n0** value. Find out **one pair** of **c and n0** value.
 
+![image](https://user-images.githubusercontent.com/54589605/231703200-10bc7f82-d997-4e65-9a19-ec7b9951a4f1.png)
 
+> One **c** value is **enough**. After fixing **c** value, adjust **n0** value accordingly.
+
+![image](https://user-images.githubusercontent.com/54589605/231706580-2389733c-7f81-4f54-9e97-99a5f5d3c2b5.png)
+
+> **n = Omega(n+5)** means that when comparing **n** with **Omega(n+5)**, we can prove that **n** is **bigger or equal too**, **n+5** with the **constant help** of **c**.
+
+> Without any help, **n + 5** is **bigger**.
+
+> After taking **constant help**, we proved **n** is **bigger**. **Omega** means **left side** is **bigger or equal too**.
+
+![image](https://user-images.githubusercontent.com/54589605/231708907-f54d580f-1eff-4705-bb26-3eb1ec055921.png)
+![image](https://user-images.githubusercontent.com/54589605/231709685-4f89887a-6fe0-4d73-b8a0-51d3da9d41cd.png)
+
+> **c** cannot take a **function**. How small the function is, **c** cannot take a **function**. It can only take **constant** values.
+
+![image](https://user-images.githubusercontent.com/54589605/231710063-88d5db24-e96e-45e0-9af1-019459a89837.png)
+
+> For only few people it is possible to prove with **constant help** and not for all.
+
+![image](https://user-images.githubusercontent.com/54589605/231712069-b4d26761-6b33-4521-a3ce-ba92f8cad741.png)
+
+> Bigger one(n^2 here) will **decide** the answer. Think of the **bigger ones** they will **decide** the answer. Don't worry about the **smaller** ones.
+
+![image](https://user-images.githubusercontent.com/54589605/231712165-8d30bc15-3f98-4806-b33d-7c0e7f32316a.png)
+
+> Comparing **n^2** and **n^2 + n + 1**, we proved **n^2** is **bigger** by taking **constant help** that the **left side** is **bigger**.
+
+## Summary
+
+* With the help of **constant** prove **right side** is **bigger or equal too** is **Big-O**.
+* With the help of **constant** prove **left side** is **bigger or equal too** is **Omega**.
+
+> We cannot take **function help**, we have to take **constant help** only to prove them. There is no **requirement** of **every c or every n0**. Just find **one(1)** pair of **c and n0**.
+
+> Until **constant** help is **only possible**. If not possible with **constant** help or more than **constant** help is needed then **Big-O or Omega** is not possible there.
+
+![image](https://user-images.githubusercontent.com/54589605/231714728-a3db7f75-a6f8-4502-b814-6a54fccf4160.png)
 
 
 
