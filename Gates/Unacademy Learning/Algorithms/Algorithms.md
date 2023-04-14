@@ -908,40 +908,190 @@
 
 ![image](https://user-images.githubusercontent.com/54589605/231714728-a3db7f75-a6f8-4502-b814-6a54fccf4160.png)
 
+![image](https://user-images.githubusercontent.com/54589605/231906104-834a66aa-8262-40a6-ac46-19132abefd0e.png)
+
+> From **c=1/2 and n0=5 onwards**, the **omega** notation is working.
+
+![image](https://user-images.githubusercontent.com/54589605/231906337-c7802369-0621-4b53-8a45-7d0ab9a39e01.png)
+![image](https://user-images.githubusercontent.com/54589605/231906672-9b6691e0-6c7b-4df6-9391-48792204260e.png)
+
+> Here also, we proved that for **c=1 and n0=1 onwards**, the **Big-O** notation is working.
+
+> For the given two functions **f(n) and g(n)**, we have proved that **f(n)** is **bigger** by taking the constant help of **c=1/2 and n0=5 onwards**, the **omega** notation is working.
+
+> For the given two functions **f(n) and g(n)**, we have also proved that **g(n)** is **bigger** by taking the constant help of **c=1 and n0=1 onwards**, the **Big-O** notation is working.
+
+> So for some value of **c and n0**, **omega** notation is working. So for some value of **c and n0**, **Big-O** notation is working.
+
+* **c=1 and n0=1 onwards**, the **Big-O** notation is working.
+* **c=1/2 and n0=5 onwards**, the **omega** notation is working.
+
+![image](https://user-images.githubusercontent.com/54589605/231907332-afeff6b4-7834-4a0a-81c5-23fc03167a96.png)
+
+> To eliminate the confusion of two **c** values we have taken **c1** for **omega** and **c2** for **Big-O**.
+
+> So we can see that we have **c1=1/2 and c2=1** and **n0=5 and n0=1** respectively. As for **n0** values they are overlapping from **n0=5** which is the **common point**, so we will use **n0=5** as both **Big-O and omega** are working fro **n0=5** onwards.
+
+> Hence, we can say that **c1=1/2 and n0=5**, we can say that **omega** is working and for **c2=1 and n0=5**, we can say that **Big-O** is working. So **Big-O and omega** both are possible.
+
+> Then, we can say that **n = Theta(n+5)**, as we have proved that between **two people** both **Big-O and omega** are possible for some **c1=1/2** value, **c2=1** value and **n0=5** value. Then we can say **Theta** possible.
+
+![image](https://user-images.githubusercontent.com/54589605/231908749-7dbb24e7-1b8e-42cb-bbaa-5e8b7cbb6cad.png)
+
+## Theta Notation
+
+> **Theta** notation is very simple, please prove **Big-O and omega** notation possible. **Both** should satisfy, if **one** fails then we cannot say guranteed.
+
+![image](https://user-images.githubusercontent.com/54589605/231909143-6bff60a8-1480-423e-9c01-21b5b3c9c45e.png)
+
+> In the **first point**, we have to find **c1** value where **omega** notation is working and along with it find the **n0** value which onwards **omega** is working.
+
+> In the **second point**, we have to find **c2** value where **Big-O** notation is working and along with it find the **n0** value which onwards **Big-O** is working.
+
+> After finding **c1 and c2** value we have to find the **common point** in **n0** where both **omega and Big-O** are working. If we find **n0=1 and n0=5**, then the **common point** would be from **n0=5**.
+
+![image](https://user-images.githubusercontent.com/54589605/231909695-adb07659-96c4-4080-8c16-e53a7b34e66d.png)
+![image](https://user-images.githubusercontent.com/54589605/231909842-004ac36d-b124-41a8-bca6-7f9ff2c5f03a.png)
+![image](https://user-images.githubusercontent.com/54589605/231910556-498bf20d-e046-4174-87ce-123145dc95a4.png)
+
+> To say **Theta**, **omega and Big-O** are possible. It is an **AND** operator, **both**, should be possible.
+
+![image](https://user-images.githubusercontent.com/54589605/231911077-d1d2050e-8e64-4b2a-a598-0f654d7bf282.png)
+![image](https://user-images.githubusercontent.com/54589605/231911887-b2670ce7-48fa-4d15-a67f-65dbe2c8bcc6.png)
+
+> Sometimes **c1 and c2** maybe **same**.
+
+![image](https://user-images.githubusercontent.com/54589605/231913041-0aed30fc-934e-406e-a49f-6eaf9b51cdbe.png)
+
+> If any one of the them(Big-O and omega) fails, then **theta** also fails/not possible. That's the reason for **AND(&&)** operator.
+
+![image](https://user-images.githubusercontent.com/54589605/231913216-f3b3510e-85aa-48c9-aa35-e44ed43d3040.png)
+
+> If one fails, then **stop**. If **both pass**, then only **theta** is possible.
+
+> **Theta** means **<= and >=** both should be possible because of **AND operator**, which means they should be **equal**. **<= and >=** both are satisfied which means they are **equal**. 
+
+> But in the above question, **n** and **n^2** were not **equal**, that's why they failed.
+
+![image](https://user-images.githubusercontent.com/54589605/231913579-50460486-4973-43e0-8b16-84aea672c22e.png)
+
+> **Theta** means **equal**. But, **n** and **n^2** were not **equal**, that's why they failed or **theta** failed for them.
+
+> If asked to find **theta** among **two** people, then we don't need to do/find **Big-O and omega** between them. We just need to verify that **both are equal** or not. 
+
+> We don't need to do definitions also. **Theta** means **equal**. We just need to verify that **both are equal** or not. If they are **not equal**, then **theta** fails.
+
+![image](https://user-images.githubusercontent.com/54589605/231913929-91ce6c26-52ac-4343-8b78-0b985fc86f97.png)
+![image](https://user-images.githubusercontent.com/54589605/231914330-825936ff-08e7-4dfe-b171-cee62b4bcdfa.png)
+
+> Here, in **both sides**, we have **n** which means both are **equal**. As they are **equal**, hence, **theta** is possible.
+
+![image](https://user-images.githubusercontent.com/54589605/231914597-c0fa94ea-4c17-4064-ba14-eacc30ee28f7.png)
+![image](https://user-images.githubusercontent.com/54589605/231915919-af202874-40a1-473c-a09b-5dbb875c3269.png)
+
+> In this case, we have to see the **bigger values** which is **n^2**. As **n^2**, is present on both sides, hence both of them are **equal**. So, **theta** is possible.
+
+> We have to compare the **bigger values**. **Smaller** values will be taken care of by the **constant(c)**. Just compare the **bigger values**. **Theta** possible means **Big-O and omega** both are possible. 
+
+> These **two** are **equal** because we are neglecting the **Smaller** values. They are **mathematically not equal** but they are **asymptotically equal**. By neglecting the **Smaller** values/terms, **bigger** values are **equal**.
+
+![image](https://user-images.githubusercontent.com/54589605/231916402-575910bf-9b98-46e1-91ce-f7a301d529e8.png)
+
+> **Theta** means **asymptotically equal**, which means by neglecting the **Smaller** values/terms, **bigger** values are **equal**.
+
+![image](https://user-images.githubusercontent.com/54589605/231916565-0024fafc-33aa-4b17-8a95-3d8275ab4a7e.png)
+
+> In the above question, they are **mathematically equal** as well as **asymptotically equal** also. **Mathematically equal** means they will be **asymptotically equal** also but **asymptotically equal** doesn't mean they are **mathematically equal**.
+
+![image](https://user-images.githubusercontent.com/54589605/231916941-be779ec7-2e6d-4b8a-a6da-ee529ad07b53.png)
+
+> Both the sides are not **exactly or mathematically equal** but they are **asymptotically equal**, as **bigger** person is **same** for **both the sides**.
+
+## Trick to find **Theta** notation [**IMPORTANT**]
+
+> We have to check the **bigger** values/function on **both sides**. If the **bigger** values/function on **both sides** are **equal**, then **theta** is **asymptotically equal** and possible. 
+
+![image](https://user-images.githubusercontent.com/54589605/231917675-9418171e-03b6-4c8a-86a3-177199316781.png)
+![image](https://user-images.githubusercontent.com/54589605/231917733-9f8119c4-a9a6-4ad1-87f6-31d7a482142e.png)
+
+> If without any **constant help**, **both sides** are **equal**, then **c1=1 and c2=1**. No need of any help. This is **mathematically equal**, so it is **asymptotically equal** also.
+
+> If **theta** is possible which means that both **Omega and Big-O** are also possible. [**IMPORTANT**]
+
+![image](https://user-images.githubusercontent.com/54589605/231918510-6b64bf8a-2b04-4c3b-b97d-622fe602392a.png)
+
+>  As it is **Big-O**, the **right side**, is **bigger or equal too** left side. So, **g(n)** is **bigger** after taking **constant(c)** help.  **g(n)** is **bigger** after some **n0** point. From **n0**, after comparing **f(n) and g(n)**,  **g(n)** is **bigger** after taking **constant(c)** help.
+
+> We have started from **1** and not from **0** because **n0 >= 1**. Some **minimum** input is required.
+
+* The line with **Blue color** is **g(n)** function.
+* The line with **Red color** is **f(n)** function.
+
+![image](https://user-images.githubusercontent.com/54589605/231919498-07cc6598-4f19-43e2-889c-5c40e7676d4f.png)
+![image](https://user-images.githubusercontent.com/54589605/231919612-e0e4dd56-2afb-4f42-9f24-3051c90ed1d3.png)
+
+> It keeps on **changing**, we cannot tell for sure which is **greater**. Sometimes **g(n)** function is **greater**. Sometimes **f(n)** function is **greater**. We cannot tell for **sure**. We are unable to express which is **smaller** and which is **greater**. 
+
+![image](https://user-images.githubusercontent.com/54589605/231920156-8a76f1ad-5388-45fb-8c62-d6a5b4b04aff.png)
+
+> After a certain point, **g(n)** function is clearly **greater** after taking some **constant help(c)**.
+
+> The **certain point**, is called as **n0** and the value of **n0=4** onwards,  **g(n)** function is **greater**.
+
+> This is called as **Big-O** notation.
+
+![image](https://user-images.githubusercontent.com/54589605/231920433-351fdc82-d030-4051-b069-caf5d6da8e94.png)
+
+> Before **n0**, we cannot say for sure what is the **relation**. We have some **doubts**. From **n0** onwards, we can clearly say that **g(n)** function is **greater** after taking some **constant help(c)**.
+
+![image](https://user-images.githubusercontent.com/54589605/231920492-cbaf0649-a19f-4381-8e4a-3412183a014f.png)
+![image](https://user-images.githubusercontent.com/54589605/231920585-fc19618e-8855-41db-8e53-80f0af773261.png)
+
+> In **diagram 2**, **f(n)** is **bigger**.
+
+> We can directly say that after comparing **f(n) and g(n)**, we can say that **g(n)** is **smaller or equal too** after taking some **constant help(c)**. Which means **f(n)** is **bigger**. 
+
+> Always talk about **right side**. Right side means **g(n)**. To whoem we are keeping **constant(c)**, we have to talk about them. As **c** is on the **right side** so we are taking about **g(n)**. So, **g(n)** is **smaller** after taking some **constant help(c)**.
+
+![image](https://user-images.githubusercontent.com/54589605/231921461-28f703f3-dfe9-433b-b830-989e365f4a41.png)
+
+> From **n0** point onwards we can say that **g(n)** is **smaller** after taking some **constant help(c)**.
+
+> We have to keep **c** for **g(n)** only and not for **f(n)**.
+
+![image](https://user-images.githubusercontent.com/54589605/231922367-e0941fe5-e87e-4c1a-9af0-cf193aa166d0.png)
+
+> For some **constant(c1)**, **f(n)** is **bigger**, so it is **omega** notation.
+
+> For some **constant(c2)**, **g(n)** is **bigger**, so it is **Big-O** notation.
+
+![image](https://user-images.githubusercontent.com/54589605/231927546-c3b7cfee-f178-4ad2-80cb-8e2bfb69a821.png)
+
+> For some constant, **f(n)** is **bigger** and for some constant, **g(n)** is **bigger**. Difference is **only constant**. Otherwise how is it possible. If **difference** is function, by changing **constants**, how someone becomes **smaller** and someone becomes **bigger**. 
+
+> This means, difference is only **constant**. Bigger functions are **same**.
+
+![image](https://user-images.githubusercontent.com/54589605/231928043-1b70ae1f-e23a-4818-9fa4-910371012065.png)
+
+> If **g(n) = n + 5** and **f(n)= n**. Then, **theta** is possible as **difference is only constant**. One person is **n+5** and another person is **n**, **difference is only constant** and the difference will be taken care of by **c1 and c2** constants.
+
+> By changing only constant, sometime **g(n)** is **bigger** and sometime, **g(n)** is **smaller**. This means that, **difference is only constant**. That's the **meaning of theta**.
+
+> **Theta** is nothing but sandwitching **f(n)** between **two g(n)s**. Therefore, by **constants**. This is called as **theta**.
+
+> These two, **f(n)** and **g(n)** are working from **n0** onwards only. Before, **n0** anything can happen. After **n0**, we got clarity what is **happening/going on**.
+
+![image](https://user-images.githubusercontent.com/54589605/231929265-173ab310-b5f7-4b61-b949-38d8efbbee2f.png)
 
 
+## Doubts
 
+![image](https://user-images.githubusercontent.com/54589605/231929742-73ea385a-c446-4bd8-beac-ba1dd0d27ab2.png)
+![image](https://user-images.githubusercontent.com/54589605/231930173-e99b2a32-c17f-4b01-a9c1-2c54443501f5.png)
 
+* RIC -> PYQs.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+> RIC then PYQs.
 
 
 
