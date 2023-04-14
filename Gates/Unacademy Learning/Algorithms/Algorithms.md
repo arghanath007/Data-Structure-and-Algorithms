@@ -1093,6 +1093,10 @@
 
 > RIC then PYQs.
 
+![image](https://user-images.githubusercontent.com/54589605/231930669-ebfac401-a2ec-408c-a4ac-17b1653a0cdb.png)
+![image](https://user-images.githubusercontent.com/54589605/231930684-3d7f47b4-b26b-4667-92b0-f389b81e3b7f.png)
+
+> Do the above ones, it is sufficient.
 
 
 
