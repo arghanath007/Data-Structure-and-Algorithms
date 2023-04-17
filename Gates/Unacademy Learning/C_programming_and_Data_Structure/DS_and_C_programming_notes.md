@@ -5295,7 +5295,17 @@ We know,
 
 * It is not **1 and 4** separate it is **14**. I was solving it separately.
 
+## Rapid Fire Practice Questions [**IMPORTANT**]
 
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/classes/trending
+
+![image](https://user-images.githubusercontent.com/54589605/232479105-e4d5bbea-6d46-4116-807e-9cb7f65da226.png)
+
+> Go to VD sir profile and search then in **free classes**.
+
+* Part-1 -> https://unacademy.com/class/rapid-fire-questions-on-data-structure-tree-part-i/90AXK01E
+
+> Solve when when doing **revision**.
 
 
 
