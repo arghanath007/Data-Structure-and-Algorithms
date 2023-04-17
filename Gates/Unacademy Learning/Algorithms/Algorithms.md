@@ -1098,6 +1098,218 @@
 
 > Do the above ones, it is sufficient.
 
+## DAC-PART-I (8) [17th April 2023]
+
+## Big-O Notation(O, <=)
+
+> **Big-O** means **right side**, should be **bigger or equal too**.
+
+> Equal and greater poeple are **OK**. Smaller people are **not OK**.
+
+![image](https://user-images.githubusercontent.com/54589605/232393589-25f43e3d-e83a-4b61-b912-08f6d02c0fb9.png)
+
+> In **Big-O** notation, on the **right side**, how are allowed?
+
+> **Bigger and equal** people. They are called as **Upper bounds**.
+
+![image](https://user-images.githubusercontent.com/54589605/232394064-a5268f2f-555f-4188-b0e2-d064e4585396.png)
+
+> Big-O means right side will be **more or equal too** left side. Big-O will give **upper bounds**.
+
+![image](https://user-images.githubusercontent.com/54589605/232394637-d100f173-1995-4130-aa3d-1be589c18b7f.png)
+
+* n^2 = O(n^3) -> Upper Bound
+* n^2 = O(n^2) -> Tighest Upper Bound(TUB) 
+
+> When both the sides are **equal**.
+
+![image](https://user-images.githubusercontent.com/54589605/232395269-f917fd94-1700-4a12-9a3f-1b1db407eb36.png)
+
+> In case of **Big-O**, we are giving **upper bound**. Upper bound means **equal or more**.
+
+* A=O(B)
+
+> **A** is the **actual** here. **Left side person** is always **actual**. That's why we don't talk about the **left side** as it is anyways **actual** only. We will always talk about **right side** person only. **B** is **upper bound**. The **upper bound** maybe be **tight upper bound(n^2)** or maybe not **tight upper bound(n^3,N^4,n^10)**.
+
+![image](https://user-images.githubusercontent.com/54589605/232398069-a7549496-f3fe-4580-80fc-364c192ee0f2.png)
+
+> All of them are **upper bounds**. **Equal(n^2= O(n^2) )** is called as the **tightest upper bound**. **Not equal** is know as **not tightest upper bound**.
+
+![image](https://user-images.githubusercontent.com/54589605/232400104-9ccc1f6d-32bb-468f-bd3b-6e6083f90332.png)
+
+* A=O(B)
+
+> **B** is the **upper bound**, which may or may not be **tightest upper bound**. **Dilemma is there**.
+
+![image](https://user-images.githubusercontent.com/54589605/232402122-75fb4aec-1e75-45e0-8f88-0da529b75a20.png)
+
+> In **small o**, there is only **less than** and **no equal too**. That's why only the **not tightest upper bound** are there. 
+
+> **Small o** means **strictly bigger**.
+
+> In **small o**, the **not tightest upper bound** are there on the **right side**.
+
+> In **Big-O**, all are there but in **small o**, the **not tightest upper bound** are there only. So, in **Big-O**, there is some **dilemma**, whether it is **equal** or **more**. But in **small o**, there is **no dilemma**, as only the **not tightest upper bound** are there only.
+
+* If the time complexity of some algorithm is **small o of n^3 or o(n^3)**. This is the **right side**. What will be the actual **time complexity** on the **left side**?
+
+> The **left side** should be **strictly smaller** as we are using **small o** instead of **Big-O**. The left side person should be **n^2 or n or log n etc**.
+
+* **Small o** means **strictly bigger**.
+* **Big-O** means **bigger or equal too**.
+
+![image](https://user-images.githubusercontent.com/54589605/232404276-6095d6ac-ad89-428b-8da5-4f6241dab656.png)
+
+* A=o(B) [Small o]
+
+> **B** is **not tightest upper bound**. **No dilemma**.
+
+> **Big-O** has dilemma which is maybe **tightest upper bound** or not. To remove it then we should go with **small o** as it has **no dilemma**.
+
+> If we have **dilemmas**, then we can use **upper as well as lower bounds**.
+
+![image](https://user-images.githubusercontent.com/54589605/232406025-b0e1feee-bfa0-466e-b63d-164f3f817f10.png)
+
+* **Big-O** having **two** operators,**< and =**.
+* **small-o** having **one** operator,**<**.
+
+* If **small-o** is satisfied then the **Big-O** will automatically be satisfied.
+
+* If **Big-O** is satisfied then the **small-o** may or may not be satisfied.
+
+![image](https://user-images.githubusercontent.com/54589605/232409630-3dcc6900-e7dd-46f0-9b52-6efbe904b959.png)
+
+## Omega Notation(>=)
+
+* Lower Bound 
+
+> **Omega** means **right side**, should be **smaller or equal too**.
+
+> In **lower bound**, some are **tighest lower bound** and some are **not tighest lower bound**.
+
+* A= Omega(B)
+
+> It means **B** is **lower bound** but it is ambigious/in dilemma that **B** is either **tighest lower bound** or  **not tighest lower bound**.
+
+![image](https://user-images.githubusercontent.com/54589605/232413597-a8b4edc7-bde5-4692-a0c5-3032b10ce356.png)
+
+> **Equal** person(n^4= Omega(n^4)) is allowed because of the **Equal too**. But it brings the **ambigious/ dilemma**.
+
+> We can remove the **dilemma** by using the **small omega(w)**.
+
+## Small Omega(w, >)
+
+![image](https://user-images.githubusercontent.com/54589605/232414475-741dbb99-677b-4193-b831-3c5d50cfdc84.png)
+
+* If **small-omega(w)** is satisfied then the **Omega** will automatically be satisfied.
+
+* If **Omega** is satisfied then the **small-omega(w)** may or may not be satisfied.
+
+> **small-omega(w)** is the **subset** of **Omega**.
+
+![image](https://user-images.githubusercontent.com/54589605/232414954-07e046e9-a62b-4a20-be58-85edb047e2f5.png)
+
+> It is **minimum**, which means **lower bound**.
+
+* n^4 = Omega(n)
+
+> **Omega(n)** means that the **left side** is **more or equal too than n**.
+
+![image](https://user-images.githubusercontent.com/54589605/232415508-40bf956c-5be1-4fdc-ac3b-bed7697a4330.png)
+![image](https://user-images.githubusercontent.com/54589605/232415854-ef4fe1fe-ba03-47c1-a4f0-c6767403b44b.png)
+
+* = Omega(6)
+
+> If we say **Omega(6)**, then the **left side** should be **more or equal too 6**, which is **6,7,8....etc**.
+
+> **Omega(6)** means that, we want to say that it is **6 or more than 6**, anytime.
+
+* = w(6)
+
+> If we say **small omega or w(6)**, then the **left side** should be **more than 6**, which is **7,8,9....etc**.
+
+> **Small omega or w(6)** means that, we want to say that it is **after 6, at anytime**.
+
+![image](https://user-images.githubusercontent.com/54589605/232416740-966bcfdb-3b77-4db3-8ebd-f8a66c4cc362.png)
+
+* **Omega** is from **6 and onwards**.
+* **Small omega or w**, **7 onwards**.
+
+![image](https://user-images.githubusercontent.com/54589605/232418968-8a2cd0b2-de52-4f60-b904-e348d604c217.png)
+![image](https://user-images.githubusercontent.com/54589605/232420262-31a3212a-dacd-4672-8dac-43dec9bb3f6b.png)
+
+## Summary
+
+* Strictly less than 7 or Before 7 -> **Small o**.
+* 7 or less than 7 -> **Big-O**, as it is **upper bound**.
+* 7 or after 7 -> **Omega**, as it is **lower bound**.
+* Definitely after 7 only -> **small omega w**.
+* Guranteed less than 9 -> **small o**.
+
+![image](https://user-images.githubusercontent.com/54589605/232421937-485961a4-74b8-4824-8223-df51935959db.png)
+
+> **Tighest upper or lower bound** are not possible in **small o or small omega**, as they don't have the **equal too** operator. 
+
+> **Tighest upper or lower bound** are possible only in **Big O and Omega(Big Omega)**.
+
+![image](https://user-images.githubusercontent.com/54589605/232422565-ad834736-2dc6-427a-82e8-9fe4e9dfe47d.png)
+
+* Tightest Upper bound
+
+## Theta Notation
+
+> If between **two** people, **Big-O and Omega** are possible, then **theta** is also possible.
+
+* A = Theta(B)
+
+> **Theta(B)** means it is the **tightest upper bound** as well as the **tightest lower bound**.
+
+> Theta possible means **Big-O and Omega** are possible.
+
+![image](https://user-images.githubusercontent.com/54589605/232423668-0d864f95-51f0-4b4b-90f3-de2ba1f3c239.png)
+
+> If **left and right** side are **not equal**, then **theta** is not possible.
+
+![image](https://user-images.githubusercontent.com/54589605/232424058-689883c7-2be1-4137-93f8-0695180b2e09.png)
+
+> It is **not possible**, if **left and right** side are **not equal**. One of the **sides** is **True** and one of the sides is **False**.
+
+> If **both** are **equal**, then only possible.
+
+> If between **two** people, **Big-O and Omega** are possible, then **theta** is also possible. If **theta** is possible which means that there is no doubt at all that they both are **equal**. **Equal** means **tightest upper bound** as well as the **tightest lower bound**
+
+## Summary
+
+* Want upper bound may or may not be tight -> Go for **Big-O**.
+* Want upper bound which is not tight -> Go for **small-o**.
+* Want all lower bounds -> Go for **Omega**.
+* Want not tighest lower bound -> Go for **small-omega(w)**.
+* Want tighest upper bound and tightest lower bound -> **Theta**.
+
+> On all of them **left side** is the **actual** side.
+
+![image](https://user-images.githubusercontent.com/54589605/232426300-0e8fadc8-519e-44ca-96fb-17ea02e26daa.png)
+
+* As it doesn't go more than **n^2**
+
+> Which means it is **upper bound**, so it is **Big-O(n^2) or O(n^2)**.
+
+* As it doesn't go less than **n^2**
+
+> Which means it is **upper bound**, so it is **small-o(n^2) or o(n^2)**.
+
+![image](https://user-images.githubusercontent.com/54589605/232427466-12f5f406-4572-431b-9e04-8bb551d8bdc1.png)
+
+## Complexity Classes
+
+
+
+
+
+
+
+
+
 
 
 
