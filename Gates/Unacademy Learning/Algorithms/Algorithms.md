@@ -1317,6 +1317,161 @@
 
 ## Complexity Classes
 
+> **Constant** cannot change.
+
+> When we say **Theta(1)**, it is not Theta(1), the **actual one(1)** is on the **left hand side**.
+
+> Any constant can be written as **Theta(1)**.
+
+![image](https://user-images.githubusercontent.com/54589605/232486492-3be678d6-dd48-417d-901d-95756899e404.png)
+
+> Whichever takes **less time** is **better**.
+
+* In terms of **time complexity**, **constant or Theta(1)** is better.
+* In terms of **growth**, **log or logaredmic** is better.
+
+* Bigger algorithm -> Worst algorithm
+* Smaller algorithm -> Best algorithm
+
+![image](https://user-images.githubusercontent.com/54589605/232492430-a92d37bb-6fc2-405d-a376-79693e46f195.png)
+
+> As of now, **linear or Theta(n)**, is the **Bigger algorithm** and hence the **Worst algorithm**.
+
+![image](https://user-images.githubusercontent.com/54589605/232492932-e2bc5ae4-dfa2-4cfb-b83f-bc53af8ce1b5.png)
+
+> As of now, **exponential or Theta(2^n)**, is the **Bigger algorithm** and hence the **Worst algorithm**.
+
+> As of now, **constant or Theta(1)**, is the **smaller algorithm** and hence the **best algorithm**.
+
+* Whichever will take **less time** is **better**.
+* Whichever will take **less space** is **better**.
+
+![image](https://user-images.githubusercontent.com/54589605/232494980-be58eb49-f007-4b3f-af57-3e38f36b2a55.png)
+
+> Definition of **polynomial** is **n^c**, where **c** is some **constant** and **c>0**, we cannot take any **negatives**. No integers, nothing, **fractions are allowed**.
+
+* n^1 -> polynomial
+* n^2, n^3 -> polynomial
+* n^100 -> polynomial
+* n^(1.414) -> polynomial
+* n^(1.5) -> polynomial [1.5, is a constant and greater than zero(0)]
+* n^0 -> Not polynomial [As, c should be greater than zero(0)]
+* n^(0.5) -> polynomial
+
+![image](https://user-images.githubusercontent.com/54589605/232496667-d829191c-e59c-4bef-9eac-568c88237155.png)
+
+> The main ones are **constant, log, polynomial, exponential**.
+
+> Inside **polynomial**, we have **n^1, n^2, n^3,....**, which are **linear, quadratic, cubic,....** respectively.
+
+![image](https://user-images.githubusercontent.com/54589605/232497942-c77b56de-c50c-430e-93bf-545441d21f59.png)
+
+> Definition of **exponential** is **c^n**, where **c** is some **constant** and **c>1**. They are **2^n, 3^n,4^n...**.
+
+* (1.1)^n -> exponential
+* 5^n -> exponential
+* (51)^n -> exponential
+* (1.01)^n -> exponential
+
+![image](https://user-images.githubusercontent.com/54589605/232499031-085607f5-6d33-4afb-8014-be491e89f0f7.png)
+
+> The **smallest function** is **constant**.
+
+> The **smallest function** is from **constant, log, polynomial(linear, quad, cubic), exponential**. **Exponential** is the **biggest** function.
+
+![image](https://user-images.githubusercontent.com/54589605/232499775-effeeeff-a702-4aa8-84f7-a873fb44d2e0.png)
+
+> **linear, quad, cubic** are polynomials only but **special type** of polynomials, as they have **names** also.
+
+![image](https://user-images.githubusercontent.com/54589605/232507821-63eb4795-15ab-4854-ad71-2dae69da038a.png)
+
+* If asked, if less than **constant** possible?
+
+> **YES**, possible. They are called as **decreasing functions**.
+
+> Examples of **decreasing functions** are **1/n, 1/(2 * n)**.
+
+> The **smallest/minimum**, time complexity of any algo is **constant or Theta(1)**. If no. of inputs increasing then the time is decreasing, how is that possible, atleast it should be **constant**, how time decreases. Less than **constant** time, how possible.
+
+![image](https://user-images.githubusercontent.com/54589605/232527621-ff1650d7-9663-4267-a64a-c9a88c534db3.png)
+
+> They are used for **all**.
+
+> Time complexity or space complexity **decreasing**, possible? **NO**. **Minimum** is **constant**. No meaning of **decreasing**. Just remember it is **one of the functions**.
+
+* Decreasing function < constant < log < (linear < quad < cubic) [Polynomial] < exponential.
+
+![image](https://user-images.githubusercontent.com/54589605/232532909-06d35433-1c2c-430d-a495-4347810b4a79.png)
+
+* n^n is **bigger**
+* n! is **bigger**.
+
+![image](https://user-images.githubusercontent.com/54589605/232536065-ffec6245-094b-4a91-ba53-4b0c131db639.png)
+
+> Out of **n^n and n!**, **n^n** is **bigger**.
+
+![image](https://user-images.githubusercontent.com/54589605/232536454-80cbe5af-77d4-43c5-a526-1c4986e576bc.png)
+![image](https://user-images.githubusercontent.com/54589605/232536754-3024dca1-7aa5-4c6d-925a-c3e171950193.png)
+
+> **2n** is **bigger** and it is **bigger** by a **constant**.
+
+![image](https://user-images.githubusercontent.com/54589605/232536857-7cd9ff35-578f-4f75-a4c8-41e57d60890f.png)
+
+> As **n!** is **bigger** by a **function** then **theta** not possible. So it is only **2^n= O(n!)**, Big-O. It is **bigger** by **function**. If it was **bigger** by **constant**, then **theta** possible.
+
+![image](https://user-images.githubusercontent.com/54589605/232537758-4b7f378e-61e3-4f56-9991-a58db8f6312d.png)
+
+> As **n^n** is **bigger** by a **function** then **theta** not possible. So it is only **n!= O(n^n)**, Big-O. It is **bigger** by **function**. If it was **bigger** by **constant**, then **theta** possible.
+
+* n^n = Omega(n!)
+
+> Whenever **Big-O** is there, by **reversing** the functions, we can write **omega**.
+
+![image](https://user-images.githubusercontent.com/54589605/232539643-1d91b955-388e-4b33-8719-a6938da22bc5.png)
+
+> We can **reverse** them and then we can use **omega** notation. If we reverse the **function**, then we can **reverse** the symbols also.
+
+![image](https://user-images.githubusercontent.com/54589605/232540967-baf3b309-5b23-4b0d-8e4a-784df029fb88.png)
+![image](https://user-images.githubusercontent.com/54589605/232541014-0118ebf6-00a2-476e-a15e-8a0fd741ad81.png)
+![image](https://user-images.githubusercontent.com/54589605/232542330-12c33d89-dfd9-4d6e-82b3-8aa7d6422f62.png)
+
+> As **omega** is not possible, that's why **theta** is also not possible. **Big-O** is only possible. 
+
+> **Big-O and omega** possible means, **difference** is **constant**, then **theta** possible.
+
+> In the **above** ones, difference is **not constant**, it is **function** that's why **theta** not possible.
+
+![image](https://user-images.githubusercontent.com/54589605/232541701-2b434c9b-a1bb-4d53-ac5d-5b7e350f85f5.png)
+![image](https://user-images.githubusercontent.com/54589605/232541786-0b3db813-e4b5-491d-a6f0-39c8b306ab1b.png)
+
+* constant difference.
+
+![image](https://user-images.githubusercontent.com/54589605/232541986-0a1dd5ca-9756-447f-986c-6d34aed4d66d.png)
+
+![image](https://user-images.githubusercontent.com/54589605/232542423-4056974b-b8ab-4ef1-8c49-1592774948fc.png)
+
+> **n^n** is **bigger** than **2^n**.
+
+> Both **n^n and 2^n** have **powers** and they look **complex**. So, whenever complex functions are given and  we have to find which is **bigger** and which is **smaller**. Apply **log** on both the sides.
+
+![image](https://user-images.githubusercontent.com/54589605/232543082-d02af8c6-9ae0-480a-bc21-5c95eb9c6d81.png)
+
+> After taking **log** on both sides, we got **log n : 1** and **log n** is **bigger** so, **n^n** is **bigger**.
+
+![image](https://user-images.githubusercontent.com/54589605/232543527-e18162b7-f1ec-4fc2-92aa-7a6087cb344d.png)
+
+> **n^3** is **bigger**. Don't apply **log** there **easy questions**. 
+
+> If we apply **log**, then we get **1 : 1**, which is **wrong**.
+
+* Do not apply **log bliendly**. **YES**.
+
+> Apply **log** to complex problems only.
+
+![image](https://user-images.githubusercontent.com/54589605/232548364-7d83dd0d-55c4-49e5-be2f-733441a2dffa.png)
+
+
+
 
 
 
