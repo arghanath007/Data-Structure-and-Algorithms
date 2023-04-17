@@ -1098,6 +1098,19 @@
 
 > Do the above ones, it is sufficient.
 
+![image](https://user-images.githubusercontent.com/54589605/232482124-76d15d55-fe5e-4519-92fd-265cff2d30b6.png)
+![image](https://user-images.githubusercontent.com/54589605/232482146-e7340cf4-6f29-4ea3-ba7f-43d3e69623ae.png)
+![image](https://user-images.githubusercontent.com/54589605/232482176-db9c2d38-04ff-433c-b824-addda28a5bbf.png)
+![image](https://user-images.githubusercontent.com/54589605/232482193-f85e4e01-3d95-4f22-a07a-6ecea39c9499.png)
+![image](https://user-images.githubusercontent.com/54589605/232482218-2e49e577-a5c8-4e79-bc19-367bd3a90577.png)
+![image](https://user-images.githubusercontent.com/54589605/232482239-9a35e270-b354-4c69-956f-7adae611b1fe.png)
+![image](https://user-images.githubusercontent.com/54589605/232482263-d64cc02c-df1a-49a0-8e5f-692e44690e85.png)
+![image](https://user-images.githubusercontent.com/54589605/232482281-c88c73c4-03fe-435e-9ae8-1fe83cc78065.png)
+
+
+
+
+
 ## DAC-PART-I (8) [17th April 2023]
 
 ## Big-O Notation(O, <=)
