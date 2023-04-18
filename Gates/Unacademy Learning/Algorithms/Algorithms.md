@@ -1470,6 +1470,254 @@
 
 ![image](https://user-images.githubusercontent.com/54589605/232548364-7d83dd0d-55c4-49e5-be2f-733441a2dffa.png)
 
+## Doubt_Clearning_Session (10) [18th April 2023]
+
+> Base is **bigger**, **small** value.
+
+> Base is **smaller**, **bigger** value.
+
+> So **log n base 2** is **bigger** compared to **log n base 3**.
+
+[**IMPORTANT**]
+
+![image](https://user-images.githubusercontent.com/54589605/232773731-2236ee93-110f-43bb-800d-1fc09b043167.png)
+![image](https://user-images.githubusercontent.com/54589605/232773796-ea3633bb-31ce-464f-b369-399dd2feaa90.png)
+
+> **c** is **some common** base.
+
+* log a base b -> log a base c/ log b base c
+
+![image](https://user-images.githubusercontent.com/54589605/232774203-10d95547-ddd4-418a-9aa3-ff1fb22f8efa.png)
+
+* log 64 base 4 -> log 4^3 base 4 -> 3
+* log 64 base 2/ log 4 base 2 -> log 2^6 base 2/ log 2^2 base 2 -> 6/2 -> 3
+
+> Between **two** people, if the difference is only **constant**, then we can write **theta**.
+
+> If two people differ by only **base** which is nothing but **constant** only and not functions.
+
+> Bases are only **constants** means, the **difference** is also **constant** only. Rest is **same** only. Only **base** differ and they are **constants** only, so **difference** is **constant** only. So, we can write, **theta**.
+
+![image](https://user-images.githubusercontent.com/54589605/232777461-6bcb896a-4e99-4f75-b62c-8d0c6f00fdc9.png)
+
+* If in a loop, **i** is incremented by ** i * 2**. How many **times**, the loop is repeating?
+
+> **log n base 2**.
+
+* If in a loop, **i** is incremented by ** i / 3**. How many **times**, the loop is repeating?
+
+> **log n base 3**.
+
+> One program's time complexity is **log n base 2** and another's is **log n base 3**. Asymptotically those **two** algorithms are **same**. They **differ** by **constants** but logic-wise they both are **same**.
+
+> In a question, they asked for **time complexity** and the answer is **log n base 2**. In the options there was **log n base 2** and we **selected** that.
+
+> If **log n base 2**, not there in the **options**, but **O(log n base 3)** is there in the **options**. Then we have to select **O(log n base 3)** as the **correct option** as **log n base 2** not there. Because the **difference**, is only **constant**.
+
+> If **theta** is there, then **Big-O and omega** possible.
+
+> Whatever is there in terms of **log** in the options just select that, because **base** are **constants** and don't worry much about them.
+
+> If the answer was **log n base 2** and the options only had **log n**, then we should select that as the **correct option**, as **bases** are **constants** only.
+
+> **log n base 20** and **log n base 30** are **asymptotically same** but **mathematically not same**.
+
+![image](https://user-images.githubusercontent.com/54589605/232781758-6b94e57c-04a2-4233-8d5c-38f33ab8c84e.png)
+![image](https://user-images.githubusercontent.com/54589605/232782175-fdccfd30-4383-49d9-bea7-9e4fea63e054.png)
+
+> If two people are **log n**, therefore, **Big-O, omega and theta** are possible.
+
+![image](https://user-images.githubusercontent.com/54589605/232783559-12834096-3f7f-4d11-8467-dbfe183ebc4a.png)
+![image](https://user-images.githubusercontent.com/54589605/232784111-e4a13e1a-4943-4908-a6b0-3b54a069df45.png)
+
+> **3^n** is **bigger**. But it is not bigger by **constants** but is is bigger by **exponential function** which is **(1.5)^n**.
+
+* 2^n = O(3^n) [YES]
+* 2^n = Omega(3^n) [NO]
+* 2^n = Theta(3^n) [NO]
+
+> **Omega** is not possible because **right side** is **bigger** by **fuction** and not **constant**.
+
+> Remember, **3^n** is **bigger** by some **function** and not **constant**.
+
+![image](https://user-images.githubusercontent.com/54589605/232787036-262db8ba-4fc1-4c49-aeb5-1c7d0dc0c616.png)
+
+> Don't apply **log** in GATE exam. It is a **trap**. [**IMPORTANT**]
+
+> **Worst case**, If applying **log** anyways, then remove/cancel the **common things**.
+
+> **Common** means **writing one interms of another**.
+
+### strling of n!
+
+![image](https://user-images.githubusercontent.com/54589605/232790512-583716f1-59fc-4933-aa5c-43a06e12a930.png)
+![image](https://user-images.githubusercontent.com/54589605/232790534-b81fd7c7-6055-47d6-b9f6-452bc7f5e41f.png)
+![image](https://user-images.githubusercontent.com/54589605/232790722-1643ba7a-0556-4166-b2d7-4d1e124add8a.png)
+
+> **n^n** is **bigger** but with **function** difference and not with **constant** difference. So, **Big-O** is only possible. **Omega and theta** are not possible.
+
+![image](https://user-images.githubusercontent.com/54589605/232791210-747e7ea4-aa23-4ccb-94b1-1f9a56c44cb0.png)
+![image](https://user-images.githubusercontent.com/54589605/232791552-ef4c476e-bad1-4ba6-8890-991b29f26acf.png)
+
+> **n^n** is **bigger** but with **function** difference and not with **constant** difference. So, **Big-O** is only possible. **Omega and theta** are not possible.
+
+![image](https://user-images.githubusercontent.com/54589605/232792535-a101ed9e-39c2-45de-98c6-00a2e167d8fc.png)
+
+> **Before** applying **log**, **theta** is not possible.
+
+![image](https://user-images.githubusercontent.com/54589605/232792592-8d90a77b-7e65-4328-8dea-48cbd79773f7.png)
+![image](https://user-images.githubusercontent.com/54589605/232793182-51774b85-846e-41cf-a64a-7514357be8df.png)
+
+> **After**, applying **log**, on both sides, which are **n! and n^n**. We got **n log n** on both the sides. As they are **same**, hence **theta** is possible.
+
+> **Before** applying **log**, **theta** is not possible, but **After**, applying **log** **theta** is possible. This is because of **strling's approximation**.
+
+> This is only for **n!**. Not applicable for others.
+
+> On **6th point's**, part **1**, there is no **n!** there. So, **strling** will not **come**.
+
+> On **6th point's**, part **2**, there is **n!** there. But **before** applying **log**, they both are **not equal**. Only **Big-O** possible. **Theta** is not possible.
+
+> On **6th point's**, part **3**, there is **n!** there. But **before** applying **log**, they both are not **equal**. But **after** applying **log**, they both are **equal**. **Theta** is possible.
+
+![image](https://user-images.githubusercontent.com/54589605/232795488-e7597a42-2149-4c48-b917-adee7365aa09.png)
+
+> There are **two** people, **before** applying **log**, **theta** is not possible. **After** applying **log**, **theta** is possible, because of **strling approximation**. 
+
+> **Strling** keyword will come whenever **factorial or n!** is given. [**IMPORTANT**]
+
+> According to **Strling**, **n!** is not equal to **n^n**. **n^n** is **bigger**, **theta** not possible. But **after** applying **log**, they(n! and n^n) both are **equal**. **After** applying **log**, **left side**, became **n log n** and **right side** also became **n log n**. They both are **equal**, because of **strling**.
+
+![image](https://user-images.githubusercontent.com/54589605/232801649-63a50cc0-5c4b-474f-b2d3-e609743528ec.png)
+
+> On the **3rd last step**, from **1/2 log(2 * pie * n)**, we took **log n** and from **n logn - nloge**, we took, **n logn**, because **n logn** is **bigger**.
+
+> In the **2nd last step**, **log n + nlog n**, we took, **nlog n** because it is **bigger** than **log n**.
+
+![image](https://user-images.githubusercontent.com/54589605/232803378-7b13c256-d55e-41b9-99ec-d115ade9870d.png)
+
+> **Before** applying **log**, left side which is **n!** is **n^n/e^n** and the right side is **n^n**. **Right side** is **bigger**, it is **bigger** by **e^n or exponential** times.
+
+> **After** applying **log**, both are asymptotically **equal**, because of **strling**.
+
+![image](https://user-images.githubusercontent.com/54589605/232804248-9e06855b-75dd-4027-9d3e-1f568501cf79.png)
+![image](https://user-images.githubusercontent.com/54589605/232804880-d0878aad-e6f3-4f8c-8ba9-3a54d910f5fc.png)
+
+> **Before** applying **log**, **theta** is not possible. Only **Big-O** is possible.
+
+> **After** applying **log**, **theta** is possible. They both became **equal**.
+
+![image](https://user-images.githubusercontent.com/54589605/232805131-a9a252a3-f037-42b2-b509-4321ef7d1498.png)
+![image](https://user-images.githubusercontent.com/54589605/232805274-5ea618be-179f-42a2-89ce-fdc882863121.png)
+
+* If asked to see if **theta** is possible or not? What is the relationship between these two people?
+
+> **We will not apply log** and give answer.
+
+> Before log, theta is not possible.
+
+> After log, theta is possible.
+
+> They are asking without applying log, if both are **equal** or not. **SAY NOT**. They are **not equal**.
+
+> After applying log they are equal.
+
+> After applying log, sometimes they are **equal**. Please avoid applying **log**. Until and unless they are **complex** people/questions, don't apply **log**.
+
+> Before and after applying log sometimes behaviour changing or not. Because of behaviour changing, don't apply log.
+
+![image](https://user-images.githubusercontent.com/54589605/232809398-3f78a340-0850-4e51-a9e8-35ca8b6e17b2.png)
+
+> Before log, theta not possible. But after log, **maybe sometimes**, theta is possible.
+
+* A= Theata(B)
+
+> Don't blindly apply log.
+
+![image](https://user-images.githubusercontent.com/54589605/232810217-5dbbf0ec-e328-4a3a-8cc2-d4c2b237a557.png)
+
+* n^2 = n^3
+* n^2 = (n^2 * n) [Cancelling/removing the common things/terms]
+* 1= n [Now, applying log]
+* log 1 = log n
+* 0 = log n 
+
+> We can see that after **careful** application of **log**, **theta** is not possible.
+
+![image](https://user-images.githubusercontent.com/54589605/232812614-7e05900b-e39b-4de8-b6c2-3249b57b0c7b.png)
+
+> Behaviour changing asymptotically. Mathematically nothing changes.
+
+> If A < B. After applying **log** also, it is **A < B** only.
+
+* A < B -> Mathematics. No constant, c.
+
+> If we take some constant help, c, then it is asymptotic.
+
+![image](https://user-images.githubusercontent.com/54589605/232814205-15c25737-3f53-4411-8c36-27e1393ece04.png)
+![image](https://user-images.githubusercontent.com/54589605/232814483-e837b271-c61c-4e5d-bd25-fd302e02ac8b.png)
+![image](https://user-images.githubusercontent.com/54589605/232815080-639cbbcf-aa18-44a8-a700-e3dd9ead3117.png)
+![image](https://user-images.githubusercontent.com/54589605/232817842-c85b3d3d-867c-4c62-a0cb-1405c9cd27ea.png)
+
+> After applying **log** carefully, **theta** is not possible.
+
+![image](https://user-images.githubusercontent.com/54589605/232824974-4ac668f7-9b96-448a-a4a7-bd3028f000e3.png)
+![image](https://user-images.githubusercontent.com/54589605/232826389-34bc2c4c-4b52-4408-93a3-5586088012e6.png)
+![image](https://user-images.githubusercontent.com/54589605/232826558-0a8872cf-9bd6-4ff3-b484-bef36f9b3a34.png)
+![image](https://user-images.githubusercontent.com/54589605/232841118-b628ea74-68a1-4fe1-a80f-b777158f56b0.png)
+ 
+> **n * root(n)** means **n * n^(1/2)**.
+ 
+![image](https://user-images.githubusercontent.com/54589605/232840835-5be58d22-2233-410d-8d20-e19e6669471a.png)
+
+* n * sqrt(n) -> n * n^(1/2) -> n^1 * n^(1/2) -> n^(3/2) -> n^(1.5)
+
+![image](https://user-images.githubusercontent.com/54589605/232842426-1912d987-f21b-49d9-be4b-759637b8b2a6.png)
+
+> In **powers**, **constants** matters. We cannot ignore them. In the **power**, everything matters, we cannot ignore everything.
+
+![image](https://user-images.githubusercontent.com/54589605/232843484-156580f5-4904-4210-b568-f06568241362.png)
+![image](https://user-images.githubusercontent.com/54589605/232844455-2049318d-3c8c-418d-81ef-8cc0a21bda71.png)
+![image](https://user-images.githubusercontent.com/54589605/232844489-3f1a77ca-4c1d-4c91-a02e-57b37f3b3609.png)
+
+> In the **power**, anything is fine, cannot be ignored.
+
+![image](https://user-images.githubusercontent.com/54589605/232844911-84b7a7f8-acbc-4ea8-bfee-043555e4e1e0.png)
+
+> **Exponential** is **bigger** than **polynomial**.
+
+![image](https://user-images.githubusercontent.com/54589605/232845199-b1d37e82-c2fb-43b1-9717-ca9ac97ac774.png)
+
+> **D** is saying that **2^n** is not equal to **n^x**, which is **correct**.
+
+![image](https://user-images.githubusercontent.com/54589605/232845526-2371c2b5-5be3-437d-842e-fac2de384dae.png)
+![image](https://user-images.githubusercontent.com/54589605/232846052-6158ea33-a2f8-4d2c-9701-9636b52c0107.png)
+
+[**IMPORTANT**]
+
+![image](https://user-images.githubusercontent.com/54589605/232846175-aef3acaf-e801-4646-8807-a116cba393e7.png)
+
+* a^(log b base c) = b^(log a base c)  [**IMPORTANT FORMULAE**]
+
+> In the **power**, **log** is there, apply the above formulae.
+
+* 64^(log n base 2) -> n^(log 64 base 2) -> n^(log 2^6 base 2) -> n^(6 * 1) ->n^6
+
+![image](https://user-images.githubusercontent.com/54589605/232846940-5934a42f-4de3-48ef-8d61-903fc76a3600.png)
+![image](https://user-images.githubusercontent.com/54589605/232847268-d1a708ce-d662-4a48-a892-8d86e00c1ec6.png)
+![image](https://user-images.githubusercontent.com/54589605/232847441-698621c5-bbfd-4a9a-bb6f-1367fbc5417a.png)
+
+> If **theta** is possible, then **small-o and small-omega(w)** has no meaning or are not possible.
+
+
+
+
+
+
+
+
+
+
 
 
 
