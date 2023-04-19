@@ -1709,6 +1709,250 @@
 
 > If **theta** is possible, then **small-o and small-omega(w)** has no meaning or are not possible.
 
+## Doubt Clearing Session (11) [19th April 2023]
+
+![image](https://user-images.githubusercontent.com/54589605/233063312-ac1be5ca-6418-48cf-af29-d7f4e387617e.png)
+
+> In **option (a)**, both the sides the bigger value is **2^n** and the difference is constant only. So **Big-O**, possible.
+
+![image](https://user-images.githubusercontent.com/54589605/233065160-e7f7ef53-a21e-489e-b2f7-70ac3a39ad13.png)
+
+> In **option (d)**, both the sides the bigger value is **2^n** and the difference is constant only. So **Theta**, possible.
+
+![image](https://user-images.githubusercontent.com/54589605/233067056-0328a61f-cca4-4020-81fd-d0e275a38d86.png)
+
+![image](https://user-images.githubusercontent.com/54589605/233065327-61c6387d-2660-4ac2-b5fe-eac50c59017c.png)
+![image](https://user-images.githubusercontent.com/54589605/233065016-d794f2f1-e454-44f0-9bb8-359c3290188d.png)
+
+> **Gave it by mistake**. It is **false** as the **bigger values** are not the **same**, on both the sides. Left side is **2*(2n)** and on the **right side**, it is **2^n**. The differenece is **function** and not constant. So, **theta** not possible.
+
+![image](https://user-images.githubusercontent.com/54589605/233067334-4e2f781d-03c6-4dcf-a21d-ed90789f58fd.png)
+![image](https://user-images.githubusercontent.com/54589605/233067544-45a97f99-58ad-4fd7-8a2b-938cff1c9915.png)
+
+* True
+
+![image](https://user-images.githubusercontent.com/54589605/233067784-d5f00133-4b2e-4e2b-b6e3-0b3e64a0ee25.png)
+
+> In **option (a)**, **omega** is also possible along with **Big-O**. As both, **Big-O and omega** are possible, then **theta** is also possible. As **theta** is possible and it means **equal**, that's why **smal-o and small-omega(w)** are not possible.
+
+![image](https://user-images.githubusercontent.com/54589605/233069108-beae3a80-34eb-48ea-951e-9dcfaf74d556.png)
+
+> In **option (b)**, both the sides have the **same bigger** values but they differ by **functional** difference and not by **constants**. That's why **Big-O** not possible. Hence **option (b)**, is **False**.
+
+![image](https://user-images.githubusercontent.com/54589605/233069264-ba6f568c-23c9-4ccc-b39b-b63cb7f8bb2a.png)
+
+> **Omega** is possible as omega is **>=**. As **Big-O** is not possible, so **theta** is also not possible. As **theta** represents **equal**, so **equal** is not there. Hence, the **small-omega(w)** is also possible. 
+
+> **Omega and small-omega(w)** are possible for **option (b)**.
+
+![image](https://user-images.githubusercontent.com/54589605/233070338-657610e0-7c5b-48cd-94e2-4455fc66760c.png)
+
+> In **option (c)**, both the sides have the **same bigger(2^n)** values but they differ by **functional** difference and not by **constants**. **Omega** is possible as omega is **>=** but **Big-O** is not possible as big-O is **<=**. As, **big-O** is not possible, hence **theta** is also not possible. Hence **option (c)**, is **False**.
+
+![image](https://user-images.githubusercontent.com/54589605/233071312-09875bc6-b15a-43b7-aeab-98ca55e9cc5f.png)
+
+* T
+* T
+* T
+* F
+
+![image](https://user-images.githubusercontent.com/54589605/233071521-26fbd00e-1829-43f7-baa6-27d566814732.png)
+
+> In **option(a)**, it is **True**. When **theta** is possible, **small-o and small-omega(w)** are not possible.
+
+![image](https://user-images.githubusercontent.com/54589605/233073955-f49a076e-0e68-4c78-b694-bb0a08bc6954.png)
+![image](https://user-images.githubusercontent.com/54589605/233074104-1e65ec5f-7e8b-4afc-9728-561bbe3002b4.png)
+
+> **1/n** is **less than 1**, when **n > 1**. These are **decreasing functions**.
+
+> In **option(b)**, it is **True** for **normal or increasing** functions but it is **false** for **decreasing functions**.
+ 
+![image](https://user-images.githubusercontent.com/54589605/233075077-3bc56940-d221-4ed7-b464-9cea91713dcd.png)
+![image](https://user-images.githubusercontent.com/54589605/233075521-a6928dc3-8462-46e4-981a-93061469c027.png)
+
+> As nothing is mentioned in the question, we have to consider **both or all**, **increasing as well as decreasing**, functions.
+
+> In **option(b)**, **big-O**, failed for **decreasing functions**. **Omega** failed for **increasing functions**.
+
+> **One**, fail is **enough** to say that **option (b)** is **False**.
+
+> In **option(b)**, everything **failed**. So, sometimes, **two** are **not comparable**.
+
+![image](https://user-images.githubusercontent.com/54589605/233076770-2da29b5b-dde5-4856-86b7-66c91f530f78.png)
+![image](https://user-images.githubusercontent.com/54589605/233077592-7abd475a-6fb4-4e13-a370-dd596eda1059.png)
+
+> When nothing is mentioned in the question, we have to consider/take **both or all**, **increasing as well as decreasing**, functions.
+
+> If **mentioned** then take accordingly.
+
+![image](https://user-images.githubusercontent.com/54589605/233079838-4e1dd86b-a25e-44b6-b23e-b19a7524eab4.png)
+
+> In **option(b)**, it is only mentioned **increasing functions** and **f(n) >= 1 and n>=1**, then **option(b)** will be **True** as **Big-O** will be possible.
+
+![image](https://user-images.githubusercontent.com/54589605/233080003-1e0e8d8c-6d4a-48d8-afd3-cd65d4ac0f5a.png)
+
+> In **option(b)**, it is only mentioned **decreasing functions** and **f(n) <= 1 and n>=1**, then **option(b)** will be **False** as **Big-O** will not be possible.
+
+![image](https://user-images.githubusercontent.com/54589605/233081061-6fd564b5-1ddd-4014-ae9c-b3ed8e05fbb9.png)
+
+> In **option(c)**, whatever is on the **left side**, that thing's **half** is on the **right side**. If **n** is on the left side, then **n/2** is on the right side.
+
+> The difference is by **constants** only, so **Big-O and omega** are possible and hence, **theta** is also possible.
+
+![image](https://user-images.githubusercontent.com/54589605/233081272-d119322b-e7e2-4fd8-a897-598b05189646.png)
+![image](https://user-images.githubusercontent.com/54589605/233081519-8445736c-49c2-4acc-8cf2-42e91e000fc3.png)
+
+> In **option(c)**, it is **True**.
+
+![image](https://user-images.githubusercontent.com/54589605/233082023-197f57a8-fc69-402b-81e5-4de687c6e975.png)
+![image](https://user-images.githubusercontent.com/54589605/233081923-9b6dd6ab-2a99-4957-898d-931ae4c5e984.png)
+
+> In one case, **Big-O** is possible and in one case, **Big-O** is not possible. As it has failed in **one** case, it is **fail** only. So, **Big-O** is not possible.
+
+> In **option(c)**, it is **False**. **Big-O** is not possible. The difference is by **function** and not by **constant**.
+
+![image](https://user-images.githubusercontent.com/54589605/233082827-8a5a10f8-2dda-490e-a79b-ec9e384b6169.png)
+
+* 2^n <= c * 2^(n/2) [<=, means **less than equal too** sinn]
+* 2^(n/2) * 2^(n/2) <= c * 2^(n/2)
+* 2^(n/2) <= c
+
+> So, the **left side** is **bigger**. This also shows that **Big-O** is not possible. With **c** we cannot manage, **2^(n/2)**, the difference is by **function** and not by **constant**.
+
+> One case **fail** also, **fail** only.
+
+> **Option (c) and (d)**, **are different** in the sense that in **Option (c)**, whatever in **left**, keep it in **right** also but **divide it by 2**. In **Option (c)**, the **difference**, is not related with **n**, it is **constant** difference.
+
+![image](https://user-images.githubusercontent.com/54589605/233084565-d9ecfbf6-797d-4b35-9334-114063a9bdda.png)
+
+* For **Option (c)**
+
+> In **Option (d)**, whatever in **left**, keep it in **right** but where ever, **n** is there, replace it with **n/2**. It(n) is creating problem, if it is in the **power**. If it is normally there, then **no problem. If **n** is there in the **power**, then we are **decreasing**.
+
+> If **n** is there on the **left** side then it is **n/2** on the right side. **No problem** as the **difference** is **constant** only. **Big-O** is possible.
+
+> If **2^(2n)** is there on the **left** side then it is **2^(2 * (n/2)) -> 2^n** on the right side. **Problem** is there as the **difference** is **functional** and not **constant**. So, **Big-O** is not possible.
+
+> **Option (D)** is creating trouble, if **n** is there in the **power**. If **n** not there in the **power**, then there is **no problem**.
+
+![image](https://user-images.githubusercontent.com/54589605/233085119-28ef90cc-9418-46c7-b959-b3725a420b96.png)
+![image](https://user-images.githubusercontent.com/54589605/233085174-c37afb22-c44f-4dd6-b3b7-8b9f9958e297.png)
+![image](https://user-images.githubusercontent.com/54589605/233086873-0e4db431-da39-4f84-968f-02bec92c9a04.png)
+
+* For **Option (D)**
+
+* What about **omega** in **Option (D)**?
+
+> If **n** is there on the **left** side then it is **n/2** on the right side. **No problem** as the **difference** is **constant** only. **Omega* is possible.
+
+> If **2^(2n)** is there on the **left** side then it is **2^(2 * (n/2)) -> 2^n** on the right side. **Problem** is there as the **difference** is **functional** and not **constant**. So, **Big-O** is not possible, but the **left** side is already **bigger**, so **omega** is possible.
+
+> Hence **omega** is possible in **Option (D)**. 
+
+> In **Option (D)**, **omega** is **True**. **Theta** is not possible because **Big-O** is not possible. So, **small-omega(w)** is also possible.
+
+![image](https://user-images.githubusercontent.com/54589605/233088426-022e914c-f57c-4503-a1b8-65d8ee707cd5.png)
+![image](https://user-images.githubusercontent.com/54589605/233088565-90183611-98e8-4612-b8e2-e02d20e1cbe1.png)
+
+> Answer is **small-omega(w)**, as **small-omega(w)** means **omega** also.
+
+* **Red line** is **sin** wave
+* **Blue line** is **cos** wave
+
+![image](https://user-images.githubusercontent.com/54589605/233126999-4733431e-f6db-4c83-b834-60538e7363cc.png)
+![image](https://user-images.githubusercontent.com/54589605/233127287-9730a2d6-1d28-46b3-8960-81492029bcbb.png)
+
+* **f(n)** is with **green color**.
+* **g(n)** is with **pink color**.
+
+> We neglected the bases because they are the **same** which is **n** for **f(n) and g(n)**.
+
+> If **bases** are **same**, then only look at the **powers**.
+
+![image](https://user-images.githubusercontent.com/54589605/233128903-d3b423c4-a49d-4b81-98d5-72ca1fb19149.png)
+
+> Base is **same**, see the **power**.
+
+![image](https://user-images.githubusercontent.com/54589605/233129170-89ea266b-ddec-4195-999e-68560107eb8b.png)
+
+> At **0**, **f(n) and g(n)** are at **1** only. They both are **same**.
+
+> At **270 and 360**, **cos and sin** values are the **same**. From **270 to 360**, in between them, **cos** value is **bigger** as **cos 300 = 0.5 and sin 300 = - 0.8 + 1 = 0.2**. **Cos 300** value is **bigger**. 
+
+![image](https://user-images.githubusercontent.com/54589605/233130653-e5c78f37-e8c5-45a0-b104-d6cb6f52a113.png)
+
+* At **0**, both **same**.
+* At **90**, **f(n)** is **bigger**.
+* At **180**, **f(n)** is **bigger**.
+* At **270**, both **same**.
+* At **360**, both **same**.
+
+> Sometimes **f(n)** is **bigger**, sometimes, **g(n)** is **bigger**, sometimes, both are **same or equal**.
+
+> So **both** are **not comparable**.
+
+![image](https://user-images.githubusercontent.com/54589605/233131504-58a7cbf8-6905-4328-a513-309d839c292e.png)
+![image](https://user-images.githubusercontent.com/54589605/233131656-e72cb0f9-810d-490a-96f8-d4b4159212c1.png)
+![image](https://user-images.githubusercontent.com/54589605/233131894-1a152b30-cd7d-4899-bf39-e42b988b3347.png)
+
+* **Green** is **f(n)**
+* **Red** is **g(n)**.
+
+![image](https://user-images.githubusercontent.com/54589605/233134699-3c2b375f-de14-49d6-bb5a-afdbab3697ec.png)
+![image](https://user-images.githubusercontent.com/54589605/233134778-aad6b835-07dd-4109-92ab-dc1aec941ed7.png)
+
+> They are **not comparable**.
+
+![image](https://user-images.githubusercontent.com/54589605/233137344-31fff011-8243-463f-9c3c-9a90f0c85376.png)
+![image](https://user-images.githubusercontent.com/54589605/233139208-1891c78c-82a4-4416-b4d6-2c19fc756f04.png)
+
+> There is **no dilemma**. **g(n)** is **bigger**.
+
+> This will happen for every **360**.
+
+* **Red** is **g(n)**
+* **Green** is **f(n)**
+
+> They are **not equal** at any point in time. 
+
+* f(n) = O(g(n)) [True, possible and comparable]
+* f(n) = o(g(n)) [Not equal]
+
+![image](https://user-images.githubusercontent.com/54589605/233141522-52584a29-55df-4dbd-b566-626900d81782.png)
+![image](https://user-images.githubusercontent.com/54589605/233141583-f2317fcc-cece-4aa4-bf05-f40c4e782afc.png)
+![image](https://user-images.githubusercontent.com/54589605/233141820-42d2e35e-7b2f-42c8-8382-3a21d2448e24.png)
+
+> We will not see **small-o or small-omega(w)**, in **GATE** exam. It is for **understanding**.
+
+> Given functions are **trignometric** functions.
+
+![image](https://user-images.githubusercontent.com/54589605/233142562-984771ff-bca0-441e-98ba-1c0c375d3629.png)
+![image](https://user-images.githubusercontent.com/54589605/233142600-a975c394-a3d7-4be0-91a1-06a65e4d37ca.png)
+![image](https://user-images.githubusercontent.com/54589605/233142984-a09a46d6-a69d-4c88-9703-52c3ca172883.png)
+
+
+![image](https://user-images.githubusercontent.com/54589605/233142303-f34c1241-216a-4092-baf2-7ffe54830680.png)
+![image](https://user-images.githubusercontent.com/54589605/233142335-61a2dab2-ad59-4a96-a1fa-0487edfb8e98.png)
+
+* Next part of **algo**.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Practice Questions
 
 * Link -> https://unacademy.com/course/complete-course-on-algorithms-gate/K8EKOMCE
