@@ -1745,7 +1745,7 @@
 
 > First remove the **common things** then do **log**.
 
-![image](https://user-images.githubusercontent.com/54589605/233022522-a85c91c3-f752-4ae4-815a-47a287c99e5a.png)
+![image](https://user-images.githubusercontent.com/54589605/233023669-91b3d808-5d12-4f28-b7e8-6331db6c93c1.png)
 
 
 ## 4
@@ -1760,6 +1760,7 @@
 ![image](https://user-images.githubusercontent.com/54589605/233022141-167e45cd-7b2e-471e-aef3-5ed97a89ad96.png)
 ![image](https://user-images.githubusercontent.com/54589605/233022187-04dbc2c1-67b2-48a6-92cb-7483728d2784.png)
 
+* In Review
 
 
 
