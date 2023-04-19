@@ -1709,12 +1709,56 @@
 
 > If **theta** is possible, then **small-o and small-omega(w)** has no meaning or are not possible.
 
+# Practice Questions
+
+* Link -> https://unacademy.com/course/complete-course-on-algorithms-gate/K8EKOMCE
+
+> Every video has **5** practice questions. Do them **regularly**.
+
+* Video 1 -> None given
+* Video 2 -> Done [19th April 2023]
+* Video 3 -> Done [19th April 2023]
+
+# Doubts
+
+## 1
+
+![1](https://user-images.githubusercontent.com/54589605/233017636-36e65fe8-d0c0-4ef0-948e-d8f9645f247b.png)
 
 
+## 2
+
+> We are using **log N base 2**, and **base 2**, because we are representing the no. in **binary** form or in **bits** form as asked in the question, they are the **same** thing.
+
+> For representing **15**, in **bits or binary** form, we have to do **log N base 2 -> log 15 base 2**, where **N=15**.
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/4E9F25BC81
+
+![2](https://user-images.githubusercontent.com/54589605/233017799-52346147-d5a1-432c-bfaa-8ddfbd134477.png)
+![image](https://user-images.githubusercontent.com/54589605/233018553-b142659f-ee7c-45b2-b0bd-8b007928fc56.png)
+
+## 3
+
+![3](https://user-images.githubusercontent.com/54589605/233019898-38cf80a1-b44e-48e8-a794-312ff2a60fcc.png)
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/E6B3684ACC
+
+> First remove the **common things** then do **log**.
+
+![image](https://user-images.githubusercontent.com/54589605/233022522-a85c91c3-f752-4ae4-815a-47a287c99e5a.png)
 
 
+## 4
 
+* a^(log b base a) = b [**IMPORTANT FORMULAE**]
 
+![image](https://user-images.githubusercontent.com/54589605/233021203-b25194ef-9fa5-435f-846b-935fc93733b8.png)
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/3F80718DC8
+* Solution -> https://unacademy.com/goal/gate-cs-it/NVLIA/practice/PQQFK?topic_type=2&topic_group=PQQFK&type=4&quiz_uid=NXB8YCHZX9&educator_name=Subbarao+Lingamgunta&source=Course
+
+![image](https://user-images.githubusercontent.com/54589605/233022141-167e45cd-7b2e-471e-aef3-5ed97a89ad96.png)
+![image](https://user-images.githubusercontent.com/54589605/233022187-04dbc2c1-67b2-48a6-92cb-7483728d2784.png)
 
 
 
