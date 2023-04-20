@@ -1936,9 +1936,332 @@
 
 * Next part of **algo**.
 
+## DAC-III (12) [20th April 2023]
+
+> Every **function** has **two** behaviour.
+
+![image](https://user-images.githubusercontent.com/54589605/233239420-df29c4bc-ae12-4c14-9123-b4b4e7e82360.png)
+![image](https://user-images.githubusercontent.com/54589605/233239435-daf074e4-d7ea-4f4d-9bd2-012d7a97118e.png)
+![image](https://user-images.githubusercontent.com/54589605/233239392-ce4bee75-a90f-44df-95c2-ab9cefa72e6a.png)
+
+> Asymptotic notation means we will bother about **ending**. Just see **ending** part, ignore **starting** part.
+
+> From **100** onwards, **g(n)** is **bigger**.
+
+![image](https://user-images.githubusercontent.com/54589605/233240664-f7cbf929-7f3b-417e-948a-7691d341b12c.png)
+
+* f(n) = O(g(n)) , where **n0=100**.
+
+### Doubt [**IMPORTANT**]
+
+* Link -> https://t.me/c/1432493727/104087
+
+![image](https://user-images.githubusercontent.com/54589605/233244609-53cd922a-ad8d-44de-81d0-a4261aba58b1.png)
+![image](https://user-images.githubusercontent.com/54589605/233244636-61e810c1-b330-482b-b5ad-848fa22e82bd.png)
+![image](https://user-images.githubusercontent.com/54589605/233244672-a5a5f633-b6e6-47bc-ad7e-b67e69d72718.png)
+
+In the first image it is not comparable but in the 2nd image it is comparable? Why? In the first image the ambiguity was from 270 360 which is at the end. In the 2nd image the ambiguity is from 0 to 99 and it is at the start. That's why? or I am missing something?
+
+![image](https://user-images.githubusercontent.com/54589605/233244702-f4579fb4-a6e4-418f-a1da-7d08aab41d1b.png)
+![image](https://user-images.githubusercontent.com/54589605/233244834-864607bf-9e2a-474b-9b07-231d63d601e7.png)
+![image](https://user-images.githubusercontent.com/54589605/233244964-ecc08f61-3739-41d1-8687-0d1e147ddbd8.png)
+
+> As in the **first** image, the values where sometimes **bigger** and sometimes **smaller**. It was not certain for sure. That's why it was **not in relation**.
+
+> In the **second** image, from **0 to 99**, **f(n)** is **bigger** but from **100 to 700**, **g(n)** is clearly **bigger** than **f(n)**. That's why we have mentioned that **n0 =100**.
+
+* f(n) = O(g(n), when **n0 =100**.
+
+![image](https://user-images.githubusercontent.com/54589605/233249392-1324c509-49ea-4ff6-aed0-7dc663837259.png)
+![image](https://user-images.githubusercontent.com/54589605/233249777-00a0b522-92be-424f-a75e-e8ddba6f0e29.png)
+![image](https://user-images.githubusercontent.com/54589605/233249876-89dfb9e3-570f-44ce-8c73-77c65cb6f0b0.png)
+![image](https://user-images.githubusercontent.com/54589605/233245619-ef1dca71-9d66-4906-87f7-7e97bcf6b3ee.png)
+
+> Before **100**, it is **ambigious or do not have clarity**, but after **100**, we have **clarity** that **g(n)** is clearly **bigger**.
+
+![image](https://user-images.githubusercontent.com/54589605/233246450-e0980c41-f326-426b-a856-d2fdb887ca2e.png)
+
+> From **0 to 99**, **f(n)** is **bigger** than **g(n)**. So, **n0=1**.
+
+* f(n) = Omega(g(n)), where **n0=1**.
+
+> From **700 onwards**, we are getting clarity that **f(n) and g(n)** are **greater than equal too**.
+
+* f(n) = O(g(n)), where **n0=700**.
+
+> As **both**, **Big-O and omega** possible, then we can say that **theta** is also possible.
+
+* f(n) =Theta(g(n)), where **n0=700**. 
+
+> **n0=700**, since one point is from **n0=1** and another is from **n0=700**. So the **common point** is from **n0=700**.
+
+![image](https://user-images.githubusercontent.com/54589605/233247514-cea7e86a-7637-4305-8391-e6e42af7576f.png)
+![image](https://user-images.githubusercontent.com/54589605/233248309-2d74b081-0803-4753-86cb-41fd800fadfc.png)
+
+> All of them **Big-O, omega and theta**, all are **correct**, if given in the **options**.
+
+> As **theta** is possible, we cannot say **small-o and small-omega(w)** are possible.
+
+> Every function having **two** behaviour.
+
+![image](https://user-images.githubusercontent.com/54589605/233248582-2ab7a944-9060-495e-9f43-ae49c3af3df0.png)
+
+1) Reflexive property -> Mirror Image. Both the **sides**, it is the **same person**.
+
+  * f(n) = O(f(n)) -> True
+  * f(n) = Omega(f(n)) -> True
+  * f(n) = Theta(f(n)) -> True
+  * f(n) = small-o(f(n)) -> False [Since, Theta is **True**]
+  * f(n) = small-omega(w)(f(n)) -> False [Since, Theta is **True**]
+
+![image](https://user-images.githubusercontent.com/54589605/233250068-436d04fb-2136-4df4-8d6d-da6e69857a6f.png)
+
+2) Symmetric property -> If f(n) = O(g(n)), then, g(n) = O(f(n)). If, A = O(B), then, B = O(A).
+
+![image](https://user-images.githubusercontent.com/54589605/233250303-43a8f200-9a6e-4270-8d0a-59b21cc80071.png)
+![image](https://user-images.githubusercontent.com/54589605/233250589-5f537aee-4ec7-4685-9071-85a27ebd8bd5.png)
+
+* n^2 = O(n^5)
+* n^5 = O(n^2)
+
+> Symmetric property means that if **first two conditions** are **True**, then the **next two conditions** are **True** or not.
+
+> Not possible.
+
+  * If f(n) = O(g(n)), then, g(n) = O(f(n)) -> False
+  * If f(n) = Omega(g(n)), then, g(n) = Omega(f(n)) -> False
+  * If f(n) = Theta(g(n)), then, g(n) = Theta(f(n)) -> True
+  * f(n) = small-o(f(n)) -> False [Since, Theta is **True**]
+  * f(n) = small-omega(w)(f(n)) -> False [Since, Theta is **True**]
+
+> Remember, **theta** possible between **two** people, means that the **two** people are **equal**. We can **reverse** also.
+
+* If, A = B
+* Then, B = A [Theta case]
+
+* **Big-O and omega** are not possible, then how is **theta** possible. It is **normal theta** or **conditional theta**?
+
+> It is **conditional theta**, it has nothing to do with **Big-O and omega**. If **first two conditions** are **True**, then the **next two conditions** are **True** or not. It has nothing to do with **Big-O and omega**.
+
+> In **normal theta**, if **Big-O or omega**, either **one of them** is not possible, then **theta** is also not possible.
+
+![image](https://user-images.githubusercontent.com/54589605/233251857-517ae7e2-2802-4c4d-89b2-741dc3def743.png)
+![image](https://user-images.githubusercontent.com/54589605/233251940-a0e0dae7-f4c0-4f6a-95aa-d890454ffcce.png)
+
+* Only, **theta** is possible. As it is **conditional theta** and not **normal theta**. **Conditional theta** has nothing to do with **Big-O and omega**. 
+
+![image](https://user-images.githubusercontent.com/54589605/233252171-ef0a267d-f07d-42a9-814f-9fc41089f4b6.png)
 
 
+3) Transitive property -> If **first two** conditions are satisfied, then the **third** condition should be satisfied as well. If **first two** conditions are satisfied, then only we will go to **third** condition.
 
+> If **first two** conditions are **not satisfied**, then we will not go to **third** condition.
+
+![image](https://user-images.githubusercontent.com/54589605/233252702-200c3bd7-a0ca-4bc6-8677-c56c20e75d25.png)
+![image](https://user-images.githubusercontent.com/54589605/233253589-e183d937-5145-4a55-bf2e-dad6a4b28e87.png)
+![image](https://user-images.githubusercontent.com/54589605/233253700-e49441b5-ec07-4420-8433-a3213248a796.png)
+![image](https://user-images.githubusercontent.com/54589605/233254013-72c8800a-6db1-4e34-a50e-918320ccb03b.png)
+![image](https://user-images.githubusercontent.com/54589605/233254067-eb4bb598-a7e0-4c10-ae5d-78c1cb735dcf.png)
+
+* n^2 < n^5
+* n^5 < n^9
+* n^2 < n^9 [small-o]
+
+* n^9 > n^5
+* n^5 > n^2
+* n^9 > n^2 [small-omega(w)]
+
+> **Transitive** property is satisfied by **all** of them.
+
+![image](https://user-images.githubusercontent.com/54589605/233254334-017541ec-c545-4394-959b-b80f873bd399.png)
+
+> **Theta** is possible, then how **small-o and small-omega(w)** are possible. **Theta** is **conditional theta**, here.
+
+> In **direct theta**, **small-o and small-omega(w)** are not possible.
+
+![image](https://user-images.githubusercontent.com/54589605/233254697-13febf9f-2d80-42d7-b950-6e95be35d9d7.png)
+
+> Comparing **f(n) and d(n)**, **d(n)** is **bigger**.
+
+> Comparing **g(n) and e(n)**, **e(n)** is **bigger**.
+
+![image](https://user-images.githubusercontent.com/54589605/233256314-ad90a7ae-decc-4c34-a8be-0f216ebf0479.png)
+![image](https://user-images.githubusercontent.com/54589605/233256723-31f7c6de-edbd-4fec-a93f-b6606320f65a.png)
+![image](https://user-images.githubusercontent.com/54589605/233256808-39488f98-42c1-4c30-b3e1-c7c7a2fa5a7a.png)
+
+* n^5 + n^9 = O(n^15)
+
+> Big-O means right will be **bigger or equal too**, left.
+
+> If we **add** on the **left side**, then we should **add** on the **right side** also.
+
+![image](https://user-images.githubusercontent.com/54589605/233256987-b4f22e7b-1040-4ae5-a37c-d091eceef8d7.png)
+![image](https://user-images.githubusercontent.com/54589605/233257647-07cb30eb-82d8-4d73-a348-412bd2bce3c5.png)
+
+
+* If we **multiply**, **left side** people. What will happen to the **right side** people.
+
+> Previously we **added**, **left side** people. In **Big-O**, **left side** people are **smaller**, **right side** people are **bigger**. If we **multiply**, **left side** people, even though they are **small**, sometimes they will cross **right side** people, **individually**.
+
+* n^5 = O(n^7)
+* n^9 = O(n^12)
+
+> On **multiplying**, **left side** people, who are **n^5 and n^9**, we got **n^(5+9) -> n^14**. If we just keep, **d(n) or e(n)** individually, then they will not work out. If we **add** the **right side** people, then we get **n^7 + n^ 12 -> n^12** and it doesn't work out.
+
+![image](https://user-images.githubusercontent.com/54589605/233258599-2047fae7-1977-4e19-b98f-c68eb715a8c9.png)
+
+>  If we **add** the **right side** people, then we get **n^7 + n^ 12 -> n^12** and it doesn't work out
+
+> We **multiplied**, the **left side** people, so **no doubt**, we have to **multiply**, the **right side** people also.
+
+> If  **left side** people are **multiplied**, then, we have to **multiply**, the **right side** people also. Then, it will **always**, work out.
+
+![image](https://user-images.githubusercontent.com/54589605/233258808-9505b936-3f28-4db7-8096-47b7ef691514.png)
+![image](https://user-images.githubusercontent.com/54589605/233258863-2c6a5547-c276-430e-890e-1d7e6a676ffb.png)
+
+* If **left side** people are **multiplied**, then **multiply**, the **right side** people also.
+* If **left side** people are **added**, then **add**, the **right side** people also.
+
+> **VERY VERY IMPORTANT**.
+
+## Note
+
+1)
+![image](https://user-images.githubusercontent.com/54589605/233259135-3a02ea5e-fe93-4b98-92a0-835e03b98413.png)
+![image](https://user-images.githubusercontent.com/54589605/233259174-290aa8b4-88bf-4dee-960e-c4be05e4941c.png)
+
+> Taking **maximum** is **addition**, followed by **big-O**.
+
+2)
+![image](https://user-images.githubusercontent.com/54589605/233259294-d2995c10-1857-426c-bc01-bb3f82cbd2e6.png)
+
+> If **left side** people are **multiplied**, then **multiply**, the **right side** people also.
+
+3) 
+![image](https://user-images.githubusercontent.com/54589605/233259518-35af5966-a8d3-4a40-896a-e6c90b900bd8.png)
+
+> Left side is **decreasing**, right side is also **decreaing**, no problem.
+
+![image](https://user-images.githubusercontent.com/54589605/233259574-61e59e43-1768-4057-b470-aada69220407.png)
+
+> Left is **decreasing**, in the **same way**, right is **decreaing**, so no problem.
+
+> **Same way decreasing** and **Same way increasing**, so no problem.
+
+![image](https://user-images.githubusercontent.com/54589605/233259777-75afaeb4-67df-422a-8d8c-6ac188843f6e.png)
+
+> If we do the **same work**, on **both**, the **left and right** sides, then the **behaviour**, will **not change**.
+
+![image](https://user-images.githubusercontent.com/54589605/233259992-0b538e45-fec4-4b32-9191-903791de9a0f.png)
+
+![image](https://user-images.githubusercontent.com/54589605/233260832-1424fa5c-6392-44cc-ace5-3c01e2101142.png)
+
+> Both the people are having the **same upper bound**, but **no relation** between them. It can be **reverse** also. First is **n^8** and the second is **n^5**. The reverse will be that the first is **n^5** and the second is **n^8**. 
+
+![image](https://user-images.githubusercontent.com/54589605/233261257-4a260fb7-5b05-4b19-b708-d7aac91e2c48.png)
+
+> So, we cannot say anything between **T1 and T2**.
+
+> In **option(a)**, if we **add** left side poeple, then we have to **add**, right side people also.
+
+![image](https://user-images.githubusercontent.com/54589605/233261440-15a62e4d-b1cf-41a6-b24b-ffc7a0d77a5b.png)
+![image](https://user-images.githubusercontent.com/54589605/233261465-5b292bc3-1c22-4326-87d7-e769c383a7da.png)
+
+> Between **T1 and T2**, we cannot say anything.
+
+> This is an **MSQ** question.
+
+> **MSQ** question sometimes have **one answer** only.
+
+![image](https://user-images.githubusercontent.com/54589605/233261843-4f36d011-7e19-4fdb-9dea-f7735d74fdbf.png)
+
+* T1(n) = Theta(f(n))
+* T2(n) = Theta(f(n))
+
+> When we say **theta**, **T1(n) and Theta(f(n))** are **equal**. **YES**.
+
+> When we say **theta**, **T2(n) and Theta(f(n))** are also **equal**. **YES**.
+
+> So, **T1, T2 and f(n)**, all are **equal**, **YES**.
+
+* A = B
+* C = B
+* A = B = c
+
+![image](https://user-images.githubusercontent.com/54589605/233262178-ee85d7ab-afd8-436d-89af-72367e9b8ce6.png)
+
+> All(A,B and C) are **Equal**.
+
+> Now **answer** is **all**. **All** of the **options** are satisfied. **Theta** means all **True**.
+
+![image](https://user-images.githubusercontent.com/54589605/233262381-ff85f52c-1612-4917-8896-f2084e6cb902.png)
+![image](https://user-images.githubusercontent.com/54589605/233262409-d7edbe5d-2be7-4f84-a250-8f6c64e4c40d.png)
+
+* T1(n) = Omega(f(n))
+* T2(n) = Omega(f(n))
+
+> With **omega** also, we cannot get any **relation** between **T1 and T2**.
+
+> Both the people are having the **same lower bound**, but **no relation** between them. It can be **reverse** also. First is **n^10** and the second is **n^8**. The reverse will be that the first is **n^8** and the second is **n^10**. 
+
+![image](https://user-images.githubusercontent.com/54589605/233262945-760d9df1-9fd0-4c58-9a51-41bf100f2d41.png)
+
+> So, all are **wrong**. No option is **correct**.
+
+![image](https://user-images.githubusercontent.com/54589605/233263060-dca8279a-884a-45d1-a5dc-95dbb2d1c5af.png)
+
+* Big-O -> only option **a** is correct.
+* Omega -> All are **wrong**. No option is **correct**.
+* Theta -> All are **correct**.
+
+![image](https://user-images.githubusercontent.com/54589605/233263485-486678f2-6e6a-435a-a844-86b7ccbf1ab1.png)
+
+> From the **above**, **4** statemenets we have to conclude that the following statements are **True or False**.
+
+![image](https://user-images.githubusercontent.com/54589605/233264468-26f230ec-8f18-43dc-8233-00a4a5684b03.png)
+![image](https://user-images.githubusercontent.com/54589605/233264486-54dfcd7a-caff-4f68-bf0e-b96c187b3456.png)
+![image](https://user-images.githubusercontent.com/54589605/233264718-44125568-fe73-4a9d-a4ff-d1853ba78229.png)
+
+> Between **two people**, **reverse** as well as **directly** also possible. Which means they are **equal** and **theta** is possible. 
+
+> Between two people, **directly** possible, which means **<=** is possible but **reverse** is not possible, which means **equal** is not possible/there. So it is **small-o** instead of **big-O** as **reverse** is not possible, so, **equal** is not possible/there.
+
+![image](https://user-images.githubusercontent.com/54589605/233265377-d49c4bdd-3e87-4999-a9ce-a7d08c5faf67.png)
+
+* If **direct and reverse** possible then they are **equal**.
+* If **direct** is possible then it is **<=** and **reverse** is not possible, so, **equal** is not there. So, it is only **<** only.
+
+![image](https://user-images.githubusercontent.com/54589605/233265616-1b105ee0-3eb1-46f8-baf2-d2a424d22b3a.png)
+
+* A = O(B) [Possible]
+* B = O(A) [Not possible]
+
+> Between two people, **A = O(B)** is possible and **B = O(A)** is not possible, then **reverse** is not possible. Which means **A < B**. **Theta** not there, so **equal** is not there. Only **<**(less than) is there.
+
+![image](https://user-images.githubusercontent.com/54589605/233266037-ea64810a-b16a-40f9-8cc6-882378fe8b9f.png)
+
+* f(n) < g(n) = h(n)
+
+> **f(n)** is **smaller**. **g(n) and h(n)** are **bigger** as they are **equal**.
+
+> In option **a**, left side is **smaller** and right side is **bigger**, so **big-O** is possible. Option **a** is **correct**.
+
+> In option **b**, on the left side among **f(n) and g(n)**, **g(n)** is **bigger**, so it will dominate the **left side**. So, **g(n) = O(h(n))** is possible, as they are **equal**. Option **b** is **correct**.
+
+> In option **c**, on the left side, **f(n) and g(n)** are **multiplied**, one **smaller** and one **bigger** respectively are **multiplied**. On the right side, **g(n) and h(n)** are **multiplied**, both are **bigger** are **multiplied**. 
+
+> So **both** the sides are **not equal**. Hence **theta** is not possible. Option **c** is **not correct**.
+
+![image](https://user-images.githubusercontent.com/54589605/233267260-d779fc13-be74-47ff-874c-26da3eff2da0.png)
+
+> In Option **c**, if we keep **Big-O**, instead of **theta**, then, option **c** would have been **correct**.
+
+![image](https://user-images.githubusercontent.com/54589605/233267503-dd80ec19-1e57-406a-8ea9-e64649feef81.png)
+![image](https://user-images.githubusercontent.com/54589605/233267644-7f48ad79-e1c6-4570-ac12-b5e196f9f432.png)
+
+> In Option **d**, left and right side, both are **bigger**. So they are **equal**, hence **theta** is possible. So, Option **d** is **correct**.
+
+* A, B and D are **correct**.
 
 
 
