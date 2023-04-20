@@ -2263,6 +2263,7 @@ In the first image it is not comparable but in the 2nd image it is comparable? W
 
 * A, B and D are **correct**.
 
+## Recursion
 
 
 
@@ -2334,9 +2335,29 @@ In the first image it is not comparable but in the 2nd image it is comparable? W
 ![image](https://user-images.githubusercontent.com/54589605/233143309-53f64a98-8648-4d74-ada3-5f47fee34cff.png)
 ![image](https://user-images.githubusercontent.com/54589605/233143371-142812a5-a42e-40d2-bcb4-6df6e8e076b0.png)
 
+## 6
 
+![image](https://user-images.githubusercontent.com/54589605/233268478-2bd7e8f7-3837-4c1f-a1ae-6faf33493519.png)
+![image](https://user-images.githubusercontent.com/54589605/233268940-1c71cf55-13ca-4ede-9534-0e147445a75f.png)
 
+> **n** increases, value increases, **increasing function**.
 
+> **n** increases, value decreases, **decreasing function**.
+
+> Option **B** is **True** for **increasing function**. **False** for **decreasing function**.
+
+![image](https://user-images.githubusercontent.com/54589605/233268817-7507759a-bb8e-4fdc-88e1-aaf3635dfda4.png)
+
+> Time complexity is not mentioned in the question. Asymptotic notation does not bother about **constants**.
+
+![image](https://user-images.githubusercontent.com/54589605/233269230-67da1031-a388-4765-9c69-d5891cde532c.png)
+![image](https://user-images.githubusercontent.com/54589605/233269385-465bd05a-8122-443f-868f-1c9eb7726af3.png)
+
+* YES.
+
+> **Big-O, omega and theta** are applicable for **anything**.
+
+![image](https://user-images.githubusercontent.com/54589605/233268911-be152691-b35c-4371-8de6-3339c3790e29.png)
 
 
 
