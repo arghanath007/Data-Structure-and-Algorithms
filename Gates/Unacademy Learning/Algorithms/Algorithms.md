@@ -2263,7 +2263,252 @@ In the first image it is not comparable but in the 2nd image it is comparable? W
 
 * A, B and D are **correct**.
 
+## GT-III (13) [20th April 2023]
+
 ## Recursion
+
+> Function calling itself is known as **Recursion**. [**Point One**]
+
+> It maybe close to **starting**. It maybe close to **ending**. Most of the time, calling is in the **middle**.
+
+![image](https://user-images.githubusercontent.com/54589605/233365940-d98e8200-35ed-421a-89be-8d49b76ff3af.png)
+![image](https://user-images.githubusercontent.com/54589605/233366241-2d367a46-4dbf-475c-9e99-983c03d0a436.png)
+
+* Fact(6) -> 6 * Fact(5)
+* Fact(5) -> 6 * Fact(4)
+
+> At anywhere we know, **go back**. Worst case, is **fact(1)** and everyone knows, **fact(1) = 1**.
+
+![image](https://user-images.githubusercontent.com/54589605/233366468-ee619eba-2f5f-49a4-be14-0f25ef40dc50.png)
+
+
+* Coming down -> Function calling(PUSH operation)
+* Going up -> Return(POP operation)
+
+> **Fact(1)** is the **first** function completed and **popped**. Then, **fact(2)** is **popped**.
+
+* **Fact(6)** -> **Fact(5)** -> **Fact(4)** -> .... -> **Fact(2)** -> **Fact(1)** [Sequence of **PUSH**]
+
+* **Fact(1)** -> **Fact(2)** -> **Fact(3)** -> .... -> **Fact(6)** [Sequence of **POP**]
+
+> How many **push** operations, that/those many **pop** operations as well.
+
+> If **push** operations is **7** and **pop** operations is **6**, then there is **no meaning**.
+
+> If **push** operations is **7** then **pop** operations should be **7** only, otherwise something is **stuck** in the **stack**.
+
+> For getting the value of **Fact(6)**, we need all of them from **Fact(5) to Fact(1)**. We need to **store** them in **one data structure** and that data structure is **stack**.
+
+* Among all of them, **Fact(6)** is called **first**.
+* Among all of them, **Fact(6)** is completed **last**.
+* Among all of them, **Fact(1)** is called **last**.
+* Among all of them, **Fact(1)** is completed **first**.
+
+> That's the meaning of **stack**. Stack is **LIFO**, **last in first out**.
+
+> Why stack and why not **queue**, because in queue, **Fact(6)** is called **first** and **Fact(6)** is completed **first**, which doesn't give the **desired result**.
+
+> That's why **stack** used.
+
+> For **recursion** programs, **stack** data structure is used. [**Point Two**]
+
+![image](https://user-images.githubusercontent.com/54589605/233371190-50db29ba-eea4-446d-9493-99b59c3a6e28.png)
+
+> We are completing **Fact(6)**, using **Fact(5), 4, 3, 2 and 1**.
+
+> We are completing **Fact(5)**, using **Fact(4), 3, 2 and 1**.
+
+> We are completing, **bigger** problems, with **smaller** problems. **Recursion** is nothing but solving **bigger** problems, in-terms of **smaller** problems. [**Point three**]
+
+![image](https://user-images.githubusercontent.com/54589605/233372140-a215d383-e9b4-45e7-91d7-6d8b333677fc.png)
+
+> **Divide and Conquour** is nothing but **recursion**.
+
+![image](https://user-images.githubusercontent.com/54589605/233373752-c8e0a8ec-4f6c-4513-b701-09923959e324.png)
+![image](https://user-images.githubusercontent.com/54589605/233375372-17e939b2-5d83-466a-96d1-64d81107a3d3.png)
+
+
+> Every **function call** is a **PUSH** operation.
+
+* Stack Overflow -> Stack Error Message, when **memory** full.
+
+> Every **recursive** program, must have or should have **termination** condition. Otherwise we will get an **error message while running**, which is **Stack Overflow**.           [**Point Four**]
+
+> **Stack Overflow** is a **run-time** error message. It is not **compile** time.
+
+> Some **compile** time, errors are **type mis-match**, **semi-colo missing**, **undeclared variable**, **multiple declaration**.
+
+* In a given recursive program, termination condition is not given. What will happen?
+
+A) Infinite loop -> **NO**. Space is **limited**. Not possible.
+
+> The program will **stop** at some point in time by giving an **error message** that is **Stack Overflow**. [**Correct Answer**]
+
+![image](https://user-images.githubusercontent.com/54589605/233379463-e5048c47-ba51-477a-bf76-f967a99c816a.png)
+![image](https://user-images.githubusercontent.com/54589605/233379876-d1ac27c6-258e-4c17-b507-dbd81e082e95.png)
+
+* Recursive program
+
+![image](https://user-images.githubusercontent.com/54589605/233381167-148509de-7232-41dd-8c22-156e65d5c30b.png)
+![image](https://user-images.githubusercontent.com/54589605/233381529-a2701d50-09b4-453f-8f36-bb24a1d93457.png)
+
+> **White** color is **going down**, which means **POP** operations which is **return** statements.
+
+> **Red** color is **going up**, which means **PUSH** operations which is **function call**.
+
+* Whenever **recursion** is going on, **many** function calls are there. From **one** function call to **another** function call, what will be the **difference**.
+
+> The **function name**, remains the **same**. Everywhere **f(n)**.
+
+> The **function code**, remains the **same**.
+
+> The **local variables name**, remains the **same**.
+
+> The **no. of local variables**, remains the **same**.
+
+> The **value of local variables**, will **change**.
+
+> Whenever **recursion** is going on, **many** function calls are there. From **one** function call to **another** function call, **parameter value** will **change** but not the **no. of parameter, parameter name, function name, function code**, these will not change. [**Point Five**]
+
+> Somethings should **change**, if **nothing** is **changed** then it will never **terminate**.
+
+![image](https://user-images.githubusercontent.com/54589605/233387648-628bbce9-c17d-4572-a169-875192d9705d.png)
+
+* Parameter value is only **changed**, rest are the **same**.
+
+![image](https://user-images.githubusercontent.com/54589605/233387768-00205e1e-a456-491d-a438-08a0a1b16de1.png)
+![image](https://user-images.githubusercontent.com/54589605/233388226-d00fb78e-8162-40c5-9f8a-43f728977cf6.png)
+![image](https://user-images.githubusercontent.com/54589605/233388816-f3b9bdfb-0f11-4d29-86ea-b5f5ab65a740.png)
+
+* It is **Non-recursion**.
+
+> The **above** program with **for loop**, will call the **fact(n)** function only **1 time or once** to calculate the **factorial of 6**. Inside loop, running many time but the function **fact(n) or fact(6)** when **n=6** is called **1 time or once**.
+
+> **Fact(6)** is not calling anyone else. **1 time or once** function call.
+
+> **1 time or once** function call, means **1 PUSH** operation.
+
+> So, in the **Non-recursion** program, only **1 PUSH** operation is required as there is **1 time or once** function call. Whereas in the **recursion** program, **6 PUSH** operations are required as **6** function calls are required.
+
+> In terms of **space**, most of the time **non-recursion** programs are **better**.
+
+>  Most of the time, **recursion** will take **more space**, because of **more** function calls.
+
+>  Most of the time, in **non-recursion**, it will take **less space**, because of **less** function calls.
+
+* For **every recursion**, **non-recursion** is possible. [**Point Six**]
+
+![image](https://user-images.githubusercontent.com/54589605/233392404-c4211085-f66c-4417-b9a9-c95d7a58e13a.png)
+
+> Most of the time, **recursion** program takes **more** stack space and **non-Recursion** program takes **less** stack space. [**Point Seven**]
+
+![image](https://user-images.githubusercontent.com/54589605/233393302-9b356f7d-c181-47bb-b58b-217fa7d96cb2.png)
+
+> **Non-Recursion** program takes **less** stack space than **recursion** program for most of the time but in **some cases**, they will take the **same** amount of time.
+
+> Comparing **recursion and non-recursion**, recursion will take **more stack space**, **most** of the time, comparing with **non-recursion** because of **more** function calls.
+
+> Sometimes, **equal** also. [Explained later]
+
+> **Space complexity** for **non-recursion** programs is **constant**.
+
+> For every problem, **space complexity** is **constant**.
+
+> **Space complexity** for **recursion** programs is not **constant**, we have to find it out.
+
+![image](https://user-images.githubusercontent.com/54589605/233403169-38317b01-64d6-4936-a714-5c7c7c429844.png)
+![image](https://user-images.githubusercontent.com/54589605/233404014-8cdc13ed-9c7e-40a1-9a17-3ede093132a7.png)
+
+* Non-recursion program
+
+> **Time complexity** is how many **times**, loop is running. **Time complexity** means loop.
+
+> In the above program, there is **loop**. **YES**. The loop is running **n times**. So, the **time complexity** of the program is **O(n)** as loop is running **n times**.
+
+![image](https://user-images.githubusercontent.com/54589605/233404058-52a06cd9-f64c-487e-911d-78974cdcc720.png)
+
+* Recursion program.
+
+> There is **no loops** but the function is calling itself, **n times**. So, the **time complexity** of the program is **O(n)** as the function is calling itself, **n times**.
+
+> So, indirectly, the **time complexity** of both the **recursive and non-recursive** programs are the **same** which is **O(n)**.
+
+![image](https://user-images.githubusercontent.com/54589605/233404822-88096c50-e054-4699-b03e-eec688c693ac.png)
+
+> So, internally, it is doing the **same** thing only. Everytime **one no.** multiplication.
+
+* 5 * 4 * 3 * ... * 1.
+
+![image](https://user-images.githubusercontent.com/54589605/233405145-d03450af-94d6-4c86-9dbc-0fc67eedfda5.png)
+
+> We are doing the **same***, everytime **one no.** multiplication in **non-recursive** programs as well.
+
+![image](https://user-images.githubusercontent.com/54589605/233405379-0636ad4b-fcfd-441d-94c6-fd34936ab0c5.png)
+
+> Different ways of writing.
+
+> Calling myself, it is **loop** only.
+
+> Indirectly **loop** in **recursion** programs and direct **loop** in **non-recursive** programs.
+
+* Which will take more time? **recursion** or **non-recursive** programs?
+
+> They will take **same** amount of time**.
+
+![image](https://user-images.githubusercontent.com/54589605/233405909-c46cb4f0-70d2-4667-8654-91420a4010de.png)
+![image](https://user-images.githubusercontent.com/54589605/233406146-2d457975-80b4-4c76-a840-7d8bd20a0b70.png)
+
+> **Time complexity** is based on **logic** and not on **recursion or non-recursion** program.
+
+> **Recursion or non-recursion** programs will not decide **time complexity**, but the **loops or logic** will decide, **time complexity**.
+
+> **Time** point of view, no **discrimination** between **recursion and non-recursion** programs. **Time** is **same** for **both**.
+
+> **Space** point of view, there is **discrimination** between **recursion and non-recursion** programs, because in **recursion**, more **function call** and more **PUSH** operation. In, **non-recursion**, less **function call** and less **PUSH** operation.
+
+[**Point Eight below**] 
+
+> **Recursion and non-recursion** programs will take **same time**, because of **same logic**. If different logic, then both will have different logic, then different time. If logic changes, time will also change.
+
+> **Logic** will decide, **time complexity** and not **recursion and non-recursion** programs.
+
+> **Space complexity** is based on **recursion and non-recursion** programs, because in **recursion**, **more** function calls. In **non-recursion**, **less** function calls. Sometimes, **both** maybe **equal**, but most of the time, **recursion** having more space.  
+
+* In **non-recursion** programs, **1 time or once**, **PUSH** operation and **1 time or once**, **POP** operation .
+* In **recursion** programs, **n times**, **PUSH** operation and **n times**, **POP** operation.
+
+> Mathematically, **recursion** will take **more time**. **n time** PUSH and **n time** POP, so, **2n** operations. But in **non-recursion**, one time loop and **n**, one time **PUSH** and one time **POP** but loop is **n** time.
+
+> Asymptotially, **2n and n** are **same**, so, they will take **same time** because of **same logic**. But mathematically, **recursion** having some **over-head**.
+
+> Forget about **constant**, even though **recursion** having some **over-head**, in-terms of **PUSH and POP**. That is **negligible** because of **some constant**.
+
+![image](https://user-images.githubusercontent.com/54589605/233410838-1083022e-e8c6-4b1a-9963-aba3587027a3.png)
+
+## Recurrence Relation
+
+> Recursion program having **two** part.
+
+![image](https://user-images.githubusercontent.com/54589605/233414629-fd9a6634-f388-4c9b-8094-0214196fba1e.png)
+![image](https://user-images.githubusercontent.com/54589605/233414849-a791e7eb-1a42-40d6-8aa2-7962da1b513d.png)
+
+* This is called as **recurrence relation** for **fact(n)** value.
+
+* For every **recursive** program, **recurrence relation** is possible? 
+
+> **YES**.
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2334,6 +2579,15 @@ In the first image it is not comparable but in the 2nd image it is comparable? W
 
 ![image](https://user-images.githubusercontent.com/54589605/233143309-53f64a98-8648-4d74-ada3-5f47fee34cff.png)
 ![image](https://user-images.githubusercontent.com/54589605/233143371-142812a5-a42e-40d2-bcb4-6df6e8e076b0.png)
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/B09B352AC7
+
+* Different question solution below
+
+![image](https://user-images.githubusercontent.com/54589605/233364266-c051146e-4cca-47f1-9875-c52c691b9e59.png)
+![image](https://user-images.githubusercontent.com/54589605/233364606-b78cf1a4-5d6e-495c-a84a-73533fee75d3.png)
+
+* **In Review**
 
 ## 6
 
