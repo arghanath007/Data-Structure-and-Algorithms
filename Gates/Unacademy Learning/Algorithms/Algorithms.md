@@ -2522,6 +2522,29 @@ A) Infinite loop -> **NO**. Space is **limited**. Not possible.
 
 
 
+
+
+
+
+
+
+
+
+
+## Revision
+
+1) Asymptotic Notation and complexities -> Book and practice questions [21st April 2023]
+
+
+
+
+
+
+
+
+
+
+
 # Practice Questions
 
 * Link -> https://unacademy.com/course/complete-course-on-algorithms-gate/K8EKOMCE
