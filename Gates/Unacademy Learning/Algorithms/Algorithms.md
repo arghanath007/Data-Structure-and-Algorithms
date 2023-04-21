@@ -2493,26 +2493,138 @@ A) Infinite loop -> **NO**. Space is **limited**. Not possible.
 ![image](https://user-images.githubusercontent.com/54589605/233414849-a791e7eb-1a42-40d6-8aa2-7962da1b513d.png)
 
 * This is called as **recurrence relation** for **fact(n)** value.
-
+ 
 * For every **recursive** program, **recurrence relation** is possible? 
 
 > **YES**.
 
+## GT-IV (14) [21st April 2023]
 
+* For every **non-recursive** program, **recurrence relation** is possible? 
 
+> **YES**.
 
+> Every **recursive** program, contains **two** parts, **base condition** and **function calling itself**.
 
+![image](https://user-images.githubusercontent.com/54589605/233677216-13e9bec0-11ff-460b-80bf-7e9ffa684535.png)
+![image](https://user-images.githubusercontent.com/54589605/233678878-7cd48818-45f4-4209-b392-59e4fad7aa0e.png)
 
+## Recurrence Relation Time Complexity
 
+![image](https://user-images.githubusercontent.com/54589605/233681596-685141b3-f645-4c6a-b33b-437a0322ab25.png)
 
+* **T(n)** is time complexity of **fact(n)**.
 
+> In the **return or else** part, there is no **loops**. Recursion is there.
 
+> **Multiplying** one number, takes **constant** times. That's why we have put **+ c** with **T(n-1) + c**.
 
+![image](https://user-images.githubusercontent.com/54589605/233686524-0205f184-fab2-4730-be75-ba4d59207152.png)
 
+> With **time compleixty**, the **loop** key-word should come immediately.
 
+> In **time compleixty, recurrence relation** and **value, recurrence relation**, one thing is **common**, which is **recursion**. Only **names** will **differ**.
 
+![image](https://user-images.githubusercontent.com/54589605/233687407-f2fd77e1-f17b-435d-84a6-a469d53ea92d.png)
 
+> Until and unless, we see **loops(for or while)**, don't write **n**.
 
+> As a **programmer**, we will take care of **first level**, remaining **recursion** will take care.
+
+## Recurrence Relation of multiplication
+
+> We have to calculate, no. of multiplication.
+
+> We have **one only** multiplication in the **2nd part** of the recursion. 
+
+> Don't worry about **all** the levels. Just do the **first level**. Whatever we are able to see, do that only. Don't do everything. Remaining thing will be do by **recursion**.
+
+> In the **first level** only, we can see **one only** multiplication.
+
+![image](https://user-images.githubusercontent.com/54589605/233690417-8f457f98-97f6-40d2-8d47-e7fa705b07f4.png)
+
+> In **every** area, **recursion** is common. Remaining things a little bit differ.
+
+* If we want to find the **time complexity** of any **recursion** program?
+
+> First, write the **recurrence relation for time**.
+
+![image](https://user-images.githubusercontent.com/54589605/233693592-6bf7b41c-63cf-43a5-a43d-3593c46ae086.png)
+
+* If we want to find the **no. of multiplication** in a given **recursion** program?
+
+> First, write the **recurrence relation for no. of multiplication**.
+
+![image](https://user-images.githubusercontent.com/54589605/233694076-c5b259cd-9a3f-4567-9639-d435a3c69446.png)
+
+## Solving Recurrence Relations
+
+1) Substitution method
+2) Recursive Tree method
+3) Master's theorem
+
+![image](https://user-images.githubusercontent.com/54589605/233694864-dde1d058-98b7-4218-a20d-0cf212e8df2e.png)
+
+## Substitution method
+
+![image](https://user-images.githubusercontent.com/54589605/233695177-ecb1378a-6019-4a35-ade3-9e3afdecaa4f.png)
+
+* We want to find the **time complexity** of **above** program?
+
+> We will use the **recurrence relation of time**.
+
+> Don't think much about **if** condition, it is for **termination** purpose. Think about **else** part.
+
+![image](https://user-images.githubusercontent.com/54589605/233697080-3aaee42e-c026-4904-bb18-6c3e216283e9.png)
+
+> Among **T(n-1) and C**, **T(n-1)** is the **recursion**. **C** is the **non-recursion**.
+
+> We have to **expand** the **recursion**, **non-recursion** cannot be expanded.
+
+![image](https://user-images.githubusercontent.com/54589605/233697401-e82c49ef-a401-4792-b906-37b345b07a44.png)
+![image](https://user-images.githubusercontent.com/54589605/233697573-31f71b9b-ec2d-4fd4-95fd-847a455f7e36.png)
+
+> Every level, **one** constant is coming.
+
+![image](https://user-images.githubusercontent.com/54589605/233698222-6264a3f6-3e69-411d-b1e4-dfa9b4aabd3a.png)
+
+> **T(n-k)** is the **recursive** term.
+
+> To stop the **recursion** on the **recursive** program, we need the **termination or base condition**.
+
+> We want to stop **T(n-k)**, so **n-k = 1** and we need to find the value of **k**, which is **n-k = 1 -> n = k + 1 -> k = n-1**. So, **k** value is **k = n-1**.
+
+> **T(1)** is **constant** time or **O(1)**.
+
+> The **bigger** function is **n**, so asymptotically it is **O(n)**.
+
+![image](https://user-images.githubusercontent.com/54589605/233700147-cc09d5ca-12f4-4f48-88a6-e2dc307db478.png)
+![image](https://user-images.githubusercontent.com/54589605/233700407-b4b5c1d3-885b-4cc9-b6c3-0ea3aa03d24b.png)
+
+> **Substitution method** means **substitution, substitution and substitution**, until **termination** happens. For **k** value of **k=n-1**, termination happened.
+
+> We will **expand** the **recursive** term.
+
+![image](https://user-images.githubusercontent.com/54589605/233702836-1fa937ec-fc41-438f-9122-32e01321cbb1.png)
+
+> If we substitude **2**, then everything will come in-terms of **2**.
+
+![image](https://user-images.githubusercontent.com/54589605/233704226-467672ee-2cae-47b0-927a-b0b86bb9b4ad.png)
+![image](https://user-images.githubusercontent.com/54589605/233704487-e4838f75-f246-4b7a-af33-153d37c79582.png)
+
+> If we substitude **3**, then everything will come in-terms of **3**. As, we did in **3**, that's why **T(n-3)** came. That **3** is **3** times.
+
+> To stop **T(n-k)**, we have to put **n-k=1** and get the value of **k**. The value of **k** is **n-1** and we substituted **n-1** in place of **k** in the equation.
+
+> So we got **n!**. **n!** is the **actual answer**.
+
+> If **n!* is not there in the options then, **n! = O(n^n)** and **n! = omega(2^n)**.
+
+![image](https://user-images.githubusercontent.com/54589605/233705313-2b5853f1-6026-4b99-a776-e7778edf4e42.png)
+
+> If **n!* is not there in the options then, **upper bound** with **O(n^n)** or **lower bound** with **omega(2^n)**, will be there.
+
+* Start from **1hr 50mins**.
 
 
 
