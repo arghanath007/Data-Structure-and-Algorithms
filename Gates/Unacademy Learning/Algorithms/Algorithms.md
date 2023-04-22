@@ -2605,26 +2605,139 @@ A) Infinite loop -> **NO**. Space is **limited**. Not possible.
 
 > We will **expand** the **recursive** term.
 
-![image](https://user-images.githubusercontent.com/54589605/233702836-1fa937ec-fc41-438f-9122-32e01321cbb1.png)
+![image](https://user-images.githubusercontent.com/54589605/233758367-d50470c5-87ab-4b44-bb8e-88cf15239ee1.png)
+
+> The above **recurrence relation** is for **time**, that why we got **time**.
+
+> If the **recurrence relation** is for **value**, then we would get **value**.
+
+> If the **recurrence relation** is for **no. of multiplication**, then we would get **no. of multiplication **.
+
+### Value
+
+![image](https://user-images.githubusercontent.com/54589605/233758709-d9b4f641-f9cf-4db0-b8d2-2e0a6df0e97b.png)
+
+> If we solve the **above** one then we will get **value**.
+
+> **Recursion** is **important**.
+
+![image](https://user-images.githubusercontent.com/54589605/233758736-c210dcc9-673c-4d39-86c4-e49c6313fe58.png)
+
+> Expand only **recursion**.
+
+![image](https://user-images.githubusercontent.com/54589605/233758859-2fac867d-d4e2-4c0a-8817-ef507ad83e7b.png)
+
+> If we substitude **3** times, then we will get **3** non-recursive terms.
+
+![image](https://user-images.githubusercontent.com/54589605/233758972-090d3a66-5d71-4a38-85bf-74ccb6f4af38.png)
+
+> Always substitude for **3** times.
+ 
+![image](https://user-images.githubusercontent.com/54589605/233759087-4269be1f-92ce-4c94-9aa0-0a0556f44a5d.png)
 
 > If we substitude **2**, then everything will come in-terms of **2**.
+
+![image](https://user-images.githubusercontent.com/54589605/233759198-6f9b5dfa-faae-4259-b989-edf9d4cef98b.png)
+
+> After going **3** times, we will go for **k** times.
+
+> To stop **T(n-k)** recursion, we have to put **n-k=1**, as **1** is the **termination condition** here and we get the value of **k**. The value of **k** is **n-1** and we substituted **n-1** in place of **k** in the equation.
+
+> After substitution, only the **first** term is having **T** and the 2nd term is not having any **T**. Only the **first** term having **T** and the rest terms not having **T**.
+
+![image](https://user-images.githubusercontent.com/54589605/233759412-2b65d574-5d99-4aee-812d-a127932ed198.png)
+
+> This is the **recurrence relation** for **value** and we got **value** which is **n!**.
+
+* If we written for **value**, value will come.
+* If we written for **time**, time will come.
+* If we written for **no. of multiplication**, multiplication will come.
+
+* All of the **recurrence relation** came from the **same program**.
+
+* One **recursive** program, having many **recurrence relation**.
+
+* Explain **substitution method**.
+
+> Substitude the given function again and again, until **termination** condition will happened.
+
+1) Substitude the given function for **3** times.
+2) We have to find the **pattern** for substitution. After **3rd** step, we will stop and observer to find the **pattern**.
+
+![image](https://user-images.githubusercontent.com/54589605/233759917-32d1f2c2-405c-43ce-87a2-012fa5448bf0.png)
+![image](https://user-images.githubusercontent.com/54589605/233759935-7dc06382-d6d9-46d8-8870-3976e84c0129.png)
+
+* We did with **recursion**.
+
+> We are **substraction by 1**, that's why we getting **one-one** difference.
+
+> If we are **substraction by 2**, then we will get **two-two** difference.
+
+> Whatever we substract, accordingly the **difference** will come.
 
 ![image](https://user-images.githubusercontent.com/54589605/233704226-467672ee-2cae-47b0-927a-b0b86bb9b4ad.png)
 ![image](https://user-images.githubusercontent.com/54589605/233704487-e4838f75-f246-4b7a-af33-153d37c79582.png)
 
 > If we substitude **3**, then everything will come in-terms of **3**. As, we did in **3**, that's why **T(n-3)** came. That **3** is **3** times.
 
-> To stop **T(n-k)**, we have to put **n-k=1** and get the value of **k**. The value of **k** is **n-1** and we substituted **n-1** in place of **k** in the equation.
+> To stop **T(n-k)**, we have to put **n-k=1**, as **1** is the **termination** condition and it is **T(1)** and we get the value of **k**. The value of **k** is **n-1** and we substituted **n-1** in place of **k** in the equation.
 
 > So we got **n!**. **n!** is the **actual answer**.
 
-> If **n!* is not there in the options then, **n! = O(n^n)** and **n! = omega(2^n)**.
+> If **n!** is not there in the options then, **n! = O(n^n)** and **n! = omega(2^n)**.
+
+* **n^n** is **bigger** compared to **n!**.
+* **2^n** is **smaller** compared to **n!**.
+
+> **Big-O and omega** are not **exact** they are **upper and lower** bound respectively.
 
 ![image](https://user-images.githubusercontent.com/54589605/233705313-2b5853f1-6026-4b99-a776-e7778edf4e42.png)
+![image](https://user-images.githubusercontent.com/54589605/233760329-55cf651a-0cad-446e-a84f-920ec3cf3585.png)
 
 > If **n!* is not there in the options then, **upper bound** with **O(n^n)** or **lower bound** with **omega(2^n)**, will be there.
 
-* Start from **1hr 50mins**.
+* One recursion program in **GATE** exam will be given. Find the **time complexity** of the recursive program.
+
+> Write **recurrence relation** for **time**.
+
+![image](https://user-images.githubusercontent.com/54589605/233760472-74046fec-b169-4614-a8cd-7c23e43b6bd8.png)
+![image](https://user-images.githubusercontent.com/54589605/233760485-84ec8ae1-bb5c-4b60-a753-54ca4570d372.png)
+![image](https://user-images.githubusercontent.com/54589605/233760493-2e5be1b3-7591-4585-bf8b-bf62fa0850dc.png)
+
+> There are **3** methods but out of all of them **substitution** method is the **most** powerful.
+
+> **Substitution** method  will solve every problem.
+
+> For every **recursion** program, write it's **recurrence relation** and after that, solve it using one of the **3** methods.
+
+## Fibonacci Series
+
+![image](https://user-images.githubusercontent.com/54589605/233760752-75171d36-7081-4ead-9926-bcf000abdad2.png)
+![image](https://user-images.githubusercontent.com/54589605/233762479-02aba72a-0233-4f36-bae3-504045580e1e.png)
+
+> Previous **two** summation will give **next**.
+
+> Fibonacci series having **two** termiantion conditions.
+
+![image](https://user-images.githubusercontent.com/54589605/233762646-c7d54a1e-9cb5-4340-ae46-73d45347fab9.png)
+![image](https://user-images.githubusercontent.com/54589605/233762811-f88b5a48-7914-4ae2-9b8f-91ff447a8d90.png)
+
+> We are substituting **two** times. So **Binary tree** coming.
+
+![image](https://user-images.githubusercontent.com/54589605/233762872-f6d32a93-bcd2-4364-83b5-b00a51f6e236.png)
+
+* Binary Tree.
+
+![image](https://user-images.githubusercontent.com/54589605/233762838-974f71bd-644b-4006-bff1-a917f08bcedc.png)
+
+> It was **uniary** tree in the **previous** problem, as we were substituting only **one** time.
+
+* Write **3** recurrence relations(value, time and additions) for the **above** program.
+
+
+
+
+
 
 
 
