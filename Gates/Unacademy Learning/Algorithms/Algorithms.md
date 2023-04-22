@@ -2848,12 +2848,12 @@ A) Infinite loop -> **NO**. Space is **limited**. Not possible.
 ![image](https://user-images.githubusercontent.com/54589605/233769716-d7a7b581-d66b-4c9a-a4ae-23aa1d1d4971.png)
 ![image](https://user-images.githubusercontent.com/54589605/233769800-dce07ec1-9b15-4568-8afc-38ac920f515f.png)
 
-* GP series formula.
+* GP series formula. [**IMPORTANT**]
 * Sum of **n** terms in the GP series.
 * [a * (r^n -1)]/(r-1) -> Formula
-* a -> 2^0
-* r -> 2
-* n -> log n terms.
+* a -> 2^0 [First element]
+* r -> 2  [First element]
+* n -> log n terms. [No. of terms]
 
 ![image](https://user-images.githubusercontent.com/54589605/233769642-97ddc9d0-96b0-4441-a666-68d022e22f44.png)
 ![image](https://user-images.githubusercontent.com/54589605/233769653-111f55cc-15d5-437b-811e-a327c01e28b1.png)
@@ -2913,17 +2913,72 @@ A) Infinite loop -> **NO**. Space is **limited**. Not possible.
 
 * YES. 
 
+![image](https://user-images.githubusercontent.com/54589605/233787571-8999712b-f02c-4028-95bb-7ae9fb5f61e5.png)
+![image](https://user-images.githubusercontent.com/54589605/233787452-41d8c2d6-b4de-4783-b60d-5072aa03b510.png)
 
+* O(n^(log 7 base 2).
 
+![image](https://user-images.githubusercontent.com/54589605/233788388-ae6b1034-2736-49af-9bd1-ef933ccc4a72.png)
+![image](https://user-images.githubusercontent.com/54589605/233788650-6fe4c4b7-4ec5-4bb9-b100-539656ab77b4.png)
 
+* All are **correct**.
 
+> Explained how to solve, **Even no. squared series**. [**IMPORTANT**]
 
+> Explained how to solve, **'N' natural no. squared series**. [**IMPORTANT**]
 
+![image](https://user-images.githubusercontent.com/54589605/233789454-850bcaae-ff22-44fc-aa4f-69057b3cbc80.png)
 
+* **'N' natural no. squared series** formula **minus(-)**, **Even no. squared series**, we get **odd numbers**
+* n*(n+1)*(2*n + 1) - [(n/2) * [(n/2 + 1)] * [(2 * n)/2 + 1]] -> **O(n^3)**
+* **O(n^3)**
 
+![image](https://user-images.githubusercontent.com/54589605/233788875-da75f67e-4d17-49f9-ae0f-0b55a89b6ae0.png)
 
+> **Recursion** means we are doing **many** times. Everytimes, **one term** will come.
 
+> If at all, the **recurrence relation** is for **time complexity**, then **every term** is the **time** for that specific level.
 
+> If at all, the **recurrence relation** is for **value**, then **every term** is the **value** for that specific level.
+
+> When solving **recurrence relation**, we are getting **some series** inside. Sometimes, we will get **GP**. Sometimes, we will get **AP**.
+
+![image](https://user-images.githubusercontent.com/54589605/233788973-2412c316-19ee-4224-8a91-f71f74cd669b.png)
+
+> Above **recurrence relation** is for **time complexity** or **time** purpose. Level to level, **time** is **increasing**. It is a **binary** tree.
+
+> Level to level, function calls are **increasing**, so **time** also **increasing**.
+
+> Whenever we are solving **recurrence relation** is for **time complexity** or **time** purpose, every time, we are getting **one** term, that **term** is **time** at that **level**.
+
+> Whenever we are solving **recurrence relation** is for **value** purpose, every time, we are getting **one** term, that **term** is **value** at that **level**.
+
+![image](https://user-images.githubusercontent.com/54589605/233789603-ae8bd576-5932-484c-8c0e-f1f77b99ed52.png)
+![image](https://user-images.githubusercontent.com/54589605/233789658-355a089e-4ef5-4c85-b41b-97294122d29b.png)
+
+> The actual answer is **Theta(n^3)**.
+
+> All **three** with **green ticks or check marks** are **correct**.
+
+> Out of the **three**, only **one** is available.
+
+* Assume that all **three** are available and we can choose **one only**? Which one we should choose? 
+
+> **Theta**, because **theta** means **big-O and omega** are also possible. **Theta** means we selected **all**.
+
+> If, **MSQ**, then select **all three**.
+
+> If, **MCQ**, then select **Theta**.
+
+![image](https://user-images.githubusercontent.com/54589605/233789850-4a6c1cd8-d7de-4239-9dec-c0681fd011ae.png)
+![image](https://user-images.githubusercontent.com/54589605/233789860-0ed01533-0865-420d-99e1-73de6eb50614.png)
+![image](https://user-images.githubusercontent.com/54589605/233789908-027eb96a-2406-4204-b2d6-c5df235fb106.png)
+
+> If, **MSQ**, then select **all** of them.
+
+## Practice
+
+![image](https://user-images.githubusercontent.com/54589605/233789962-c46e5afe-52f8-485a-9e40-dbf34d5c2072.png)
 
 
 
