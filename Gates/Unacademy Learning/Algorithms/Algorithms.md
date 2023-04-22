@@ -1098,6 +1098,1776 @@
 
 > Do the above ones, it is sufficient.
 
+![image](https://user-images.githubusercontent.com/54589605/232482124-76d15d55-fe5e-4519-92fd-265cff2d30b6.png)
+![image](https://user-images.githubusercontent.com/54589605/232482146-e7340cf4-6f29-4ea3-ba7f-43d3e69623ae.png)
+![image](https://user-images.githubusercontent.com/54589605/232482176-db9c2d38-04ff-433c-b824-addda28a5bbf.png)
+![image](https://user-images.githubusercontent.com/54589605/232482193-f85e4e01-3d95-4f22-a07a-6ecea39c9499.png)
+![image](https://user-images.githubusercontent.com/54589605/232482218-2e49e577-a5c8-4e79-bc19-367bd3a90577.png)
+![image](https://user-images.githubusercontent.com/54589605/232482239-9a35e270-b354-4c69-956f-7adae611b1fe.png)
+![image](https://user-images.githubusercontent.com/54589605/232482263-d64cc02c-df1a-49a0-8e5f-692e44690e85.png)
+![image](https://user-images.githubusercontent.com/54589605/232482281-c88c73c4-03fe-435e-9ae8-1fe83cc78065.png)
+
+
+
+
+
+## DAC-PART-I (8) [17th April 2023]
+
+## Big-O Notation(O, <=)
+
+> **Big-O** means **right side**, should be **bigger or equal too**.
+
+> Equal and greater poeple are **OK**. Smaller people are **not OK**.
+
+![image](https://user-images.githubusercontent.com/54589605/232393589-25f43e3d-e83a-4b61-b912-08f6d02c0fb9.png)
+
+> In **Big-O** notation, on the **right side**, how are allowed?
+
+> **Bigger and equal** people. They are called as **Upper bounds**.
+
+![image](https://user-images.githubusercontent.com/54589605/232394064-a5268f2f-555f-4188-b0e2-d064e4585396.png)
+
+> Big-O means right side will be **more or equal too** left side. Big-O will give **upper bounds**.
+
+![image](https://user-images.githubusercontent.com/54589605/232394637-d100f173-1995-4130-aa3d-1be589c18b7f.png)
+
+* n^2 = O(n^3) -> Upper Bound
+* n^2 = O(n^2) -> Tighest Upper Bound(TUB) 
+
+> When both the sides are **equal**.
+
+![image](https://user-images.githubusercontent.com/54589605/232395269-f917fd94-1700-4a12-9a3f-1b1db407eb36.png)
+
+> In case of **Big-O**, we are giving **upper bound**. Upper bound means **equal or more**.
+
+* A=O(B)
+
+> **A** is the **actual** here. **Left side person** is always **actual**. That's why we don't talk about the **left side** as it is anyways **actual** only. We will always talk about **right side** person only. **B** is **upper bound**. The **upper bound** maybe be **tight upper bound(n^2)** or maybe not **tight upper bound(n^3,N^4,n^10)**.
+
+![image](https://user-images.githubusercontent.com/54589605/232398069-a7549496-f3fe-4580-80fc-364c192ee0f2.png)
+
+> All of them are **upper bounds**. **Equal(n^2= O(n^2) )** is called as the **tightest upper bound**. **Not equal** is know as **not tightest upper bound**.
+
+![image](https://user-images.githubusercontent.com/54589605/232400104-9ccc1f6d-32bb-468f-bd3b-6e6083f90332.png)
+
+* A=O(B)
+
+> **B** is the **upper bound**, which may or may not be **tightest upper bound**. **Dilemma is there**.
+
+![image](https://user-images.githubusercontent.com/54589605/232402122-75fb4aec-1e75-45e0-8f88-0da529b75a20.png)
+
+> In **small o**, there is only **less than** and **no equal too**. That's why only the **not tightest upper bound** are there. 
+
+> **Small o** means **strictly bigger**.
+
+> In **small o**, the **not tightest upper bound** are there on the **right side**.
+
+> In **Big-O**, all are there but in **small o**, the **not tightest upper bound** are there only. So, in **Big-O**, there is some **dilemma**, whether it is **equal** or **more**. But in **small o**, there is **no dilemma**, as only the **not tightest upper bound** are there only.
+
+* If the time complexity of some algorithm is **small o of n^3 or o(n^3)**. This is the **right side**. What will be the actual **time complexity** on the **left side**?
+
+> The **left side** should be **strictly smaller** as we are using **small o** instead of **Big-O**. The left side person should be **n^2 or n or log n etc**.
+
+* **Small o** means **strictly bigger**.
+* **Big-O** means **bigger or equal too**.
+
+![image](https://user-images.githubusercontent.com/54589605/232404276-6095d6ac-ad89-428b-8da5-4f6241dab656.png)
+
+* A=o(B) [Small o]
+
+> **B** is **not tightest upper bound**. **No dilemma**.
+
+> **Big-O** has dilemma which is maybe **tightest upper bound** or not. To remove it then we should go with **small o** as it has **no dilemma**.
+
+> If we have **dilemmas**, then we can use **upper as well as lower bounds**.
+
+![image](https://user-images.githubusercontent.com/54589605/232406025-b0e1feee-bfa0-466e-b63d-164f3f817f10.png)
+
+* **Big-O** having **two** operators,**< and =**.
+* **small-o** having **one** operator,**<**.
+
+* If **small-o** is satisfied then the **Big-O** will automatically be satisfied.
+
+* If **Big-O** is satisfied then the **small-o** may or may not be satisfied.
+
+![image](https://user-images.githubusercontent.com/54589605/232409630-3dcc6900-e7dd-46f0-9b52-6efbe904b959.png)
+
+## Omega Notation(>=)
+
+* Lower Bound 
+
+> **Omega** means **right side**, should be **smaller or equal too**.
+
+> In **lower bound**, some are **tighest lower bound** and some are **not tighest lower bound**.
+
+* A= Omega(B)
+
+> It means **B** is **lower bound** but it is ambigious/in dilemma that **B** is either **tighest lower bound** or  **not tighest lower bound**.
+
+![image](https://user-images.githubusercontent.com/54589605/232413597-a8b4edc7-bde5-4692-a0c5-3032b10ce356.png)
+
+> **Equal** person(n^4= Omega(n^4)) is allowed because of the **Equal too**. But it brings the **ambigious/ dilemma**.
+
+> We can remove the **dilemma** by using the **small omega(w)**.
+
+## Small Omega(w, >)
+
+![image](https://user-images.githubusercontent.com/54589605/232414475-741dbb99-677b-4193-b831-3c5d50cfdc84.png)
+
+* If **small-omega(w)** is satisfied then the **Omega** will automatically be satisfied.
+
+* If **Omega** is satisfied then the **small-omega(w)** may or may not be satisfied.
+
+> **small-omega(w)** is the **subset** of **Omega**.
+
+![image](https://user-images.githubusercontent.com/54589605/232414954-07e046e9-a62b-4a20-be58-85edb047e2f5.png)
+
+> It is **minimum**, which means **lower bound**.
+
+* n^4 = Omega(n)
+
+> **Omega(n)** means that the **left side** is **more or equal too than n**.
+
+![image](https://user-images.githubusercontent.com/54589605/232415508-40bf956c-5be1-4fdc-ac3b-bed7697a4330.png)
+![image](https://user-images.githubusercontent.com/54589605/232415854-ef4fe1fe-ba03-47c1-a4f0-c6767403b44b.png)
+
+* = Omega(6)
+
+> If we say **Omega(6)**, then the **left side** should be **more or equal too 6**, which is **6,7,8....etc**.
+
+> **Omega(6)** means that, we want to say that it is **6 or more than 6**, anytime.
+
+* = w(6)
+
+> If we say **small omega or w(6)**, then the **left side** should be **more than 6**, which is **7,8,9....etc**.
+
+> **Small omega or w(6)** means that, we want to say that it is **after 6, at anytime**.
+
+![image](https://user-images.githubusercontent.com/54589605/232416740-966bcfdb-3b77-4db3-8ebd-f8a66c4cc362.png)
+
+* **Omega** is from **6 and onwards**.
+* **Small omega or w**, **7 onwards**.
+
+![image](https://user-images.githubusercontent.com/54589605/232418968-8a2cd0b2-de52-4f60-b904-e348d604c217.png)
+![image](https://user-images.githubusercontent.com/54589605/232420262-31a3212a-dacd-4672-8dac-43dec9bb3f6b.png)
+
+## Summary
+
+* Strictly less than 7 or Before 7 -> **Small o**.
+* 7 or less than 7 -> **Big-O**, as it is **upper bound**.
+* 7 or after 7 -> **Omega**, as it is **lower bound**.
+* Definitely after 7 only -> **small omega w**.
+* Guranteed less than 9 -> **small o**.
+
+![image](https://user-images.githubusercontent.com/54589605/232421937-485961a4-74b8-4824-8223-df51935959db.png)
+
+> **Tighest upper or lower bound** are not possible in **small o or small omega**, as they don't have the **equal too** operator. 
+
+> **Tighest upper or lower bound** are possible only in **Big O and Omega(Big Omega)**.
+
+![image](https://user-images.githubusercontent.com/54589605/232422565-ad834736-2dc6-427a-82e8-9fe4e9dfe47d.png)
+
+* Tightest Upper bound
+
+## Theta Notation
+
+> If between **two** people, **Big-O and Omega** are possible, then **theta** is also possible.
+
+* A = Theta(B)
+
+> **Theta(B)** means it is the **tightest upper bound** as well as the **tightest lower bound**.
+
+> Theta possible means **Big-O and Omega** are possible.
+
+![image](https://user-images.githubusercontent.com/54589605/232423668-0d864f95-51f0-4b4b-90f3-de2ba1f3c239.png)
+
+> If **left and right** side are **not equal**, then **theta** is not possible.
+
+![image](https://user-images.githubusercontent.com/54589605/232424058-689883c7-2be1-4137-93f8-0695180b2e09.png)
+
+> It is **not possible**, if **left and right** side are **not equal**. One of the **sides** is **True** and one of the sides is **False**.
+
+> If **both** are **equal**, then only possible.
+
+> If between **two** people, **Big-O and Omega** are possible, then **theta** is also possible. If **theta** is possible which means that there is no doubt at all that they both are **equal**. **Equal** means **tightest upper bound** as well as the **tightest lower bound**
+
+## Summary
+
+* Want upper bound may or may not be tight -> Go for **Big-O**.
+* Want upper bound which is not tight -> Go for **small-o**.
+* Want all lower bounds -> Go for **Omega**.
+* Want not tighest lower bound -> Go for **small-omega(w)**.
+* Want tighest upper bound and tightest lower bound -> **Theta**.
+
+> On all of them **left side** is the **actual** side.
+
+![image](https://user-images.githubusercontent.com/54589605/232426300-0e8fadc8-519e-44ca-96fb-17ea02e26daa.png)
+
+* As it doesn't go more than **n^2**
+
+> Which means it is **upper bound**, so it is **Big-O(n^2) or O(n^2)**.
+
+* As it doesn't go less than **n^2**
+
+> Which means it is **upper bound**, so it is **small-o(n^2) or o(n^2)**.
+
+![image](https://user-images.githubusercontent.com/54589605/232427466-12f5f406-4572-431b-9e04-8bb551d8bdc1.png)
+
+## DAC-II (9) [17th April 2023]
+
+## Complexity Classes
+
+> **Constant** cannot change.
+
+> When we say **Theta(1)**, it is not Theta(1), the **actual one(1)** is on the **left hand side**.
+
+> Any constant can be written as **Theta(1)**.
+
+![image](https://user-images.githubusercontent.com/54589605/232486492-3be678d6-dd48-417d-901d-95756899e404.png)
+
+> Whichever takes **less time** is **better**.
+
+* In terms of **time complexity**, **constant or Theta(1)** is better.
+* In terms of **growth**, **log or logaredmic** is better.
+
+* Bigger algorithm -> Worst algorithm
+* Smaller algorithm -> Best algorithm
+
+![image](https://user-images.githubusercontent.com/54589605/232492430-a92d37bb-6fc2-405d-a376-79693e46f195.png)
+
+> As of now, **linear or Theta(n)**, is the **Bigger algorithm** and hence the **Worst algorithm**.
+
+![image](https://user-images.githubusercontent.com/54589605/232492932-e2bc5ae4-dfa2-4cfb-b83f-bc53af8ce1b5.png)
+
+> As of now, **exponential or Theta(2^n)**, is the **Bigger algorithm** and hence the **Worst algorithm**.
+
+> As of now, **constant or Theta(1)**, is the **smaller algorithm** and hence the **best algorithm**.
+
+* Whichever will take **less time** is **better**.
+* Whichever will take **less space** is **better**.
+
+![image](https://user-images.githubusercontent.com/54589605/232494980-be58eb49-f007-4b3f-af57-3e38f36b2a55.png)
+
+> Definition of **polynomial** is **n^c**, where **c** is some **constant** and **c>0**, we cannot take any **negatives**. No integers, nothing, **fractions are allowed**.
+
+* n^1 -> polynomial
+* n^2, n^3 -> polynomial
+* n^100 -> polynomial
+* n^(1.414) -> polynomial
+* n^(1.5) -> polynomial [1.5, is a constant and greater than zero(0)]
+* n^0 -> Not polynomial [As, c should be greater than zero(0)]
+* n^(0.5) -> polynomial
+
+![image](https://user-images.githubusercontent.com/54589605/232496667-d829191c-e59c-4bef-9eac-568c88237155.png)
+
+> The main ones are **constant, log, polynomial, exponential**.
+
+> Inside **polynomial**, we have **n^1, n^2, n^3,....**, which are **linear, quadratic, cubic,....** respectively.
+
+![image](https://user-images.githubusercontent.com/54589605/232497942-c77b56de-c50c-430e-93bf-545441d21f59.png)
+
+> Definition of **exponential** is **c^n**, where **c** is some **constant** and **c>1**. They are **2^n, 3^n,4^n...**.
+
+* (1.1)^n -> exponential
+* 5^n -> exponential
+* (51)^n -> exponential
+* (1.01)^n -> exponential
+
+![image](https://user-images.githubusercontent.com/54589605/232499031-085607f5-6d33-4afb-8014-be491e89f0f7.png)
+
+> The **smallest function** is **constant**.
+
+> The **smallest function** is from **constant, log, polynomial(linear, quad, cubic), exponential**. **Exponential** is the **biggest** function.
+
+![image](https://user-images.githubusercontent.com/54589605/232499775-effeeeff-a702-4aa8-84f7-a873fb44d2e0.png)
+
+> **linear, quad, cubic** are polynomials only but **special type** of polynomials, as they have **names** also.
+
+![image](https://user-images.githubusercontent.com/54589605/232507821-63eb4795-15ab-4854-ad71-2dae69da038a.png)
+
+* If asked, if less than **constant** possible?
+
+> **YES**, possible. They are called as **decreasing functions**.
+
+> Examples of **decreasing functions** are **1/n, 1/(2 * n)**.
+
+> The **smallest/minimum**, time complexity of any algo is **constant or Theta(1)**. If no. of inputs increasing then the time is decreasing, how is that possible, atleast it should be **constant**, how time decreases. Less than **constant** time, how possible.
+
+![image](https://user-images.githubusercontent.com/54589605/232527621-ff1650d7-9663-4267-a64a-c9a88c534db3.png)
+
+> They are used for **all**.
+
+> Time complexity or space complexity **decreasing**, possible? **NO**. **Minimum** is **constant**. No meaning of **decreasing**. Just remember it is **one of the functions**.
+
+* Decreasing function < constant < log < (linear < quad < cubic) [Polynomial] < exponential.
+
+![image](https://user-images.githubusercontent.com/54589605/232532909-06d35433-1c2c-430d-a495-4347810b4a79.png)
+
+* n^n is **bigger**
+* n! is **bigger**.
+
+![image](https://user-images.githubusercontent.com/54589605/232536065-ffec6245-094b-4a91-ba53-4b0c131db639.png)
+
+> Out of **n^n and n!**, **n^n** is **bigger**.
+
+![image](https://user-images.githubusercontent.com/54589605/232536454-80cbe5af-77d4-43c5-a526-1c4986e576bc.png)
+![image](https://user-images.githubusercontent.com/54589605/232536754-3024dca1-7aa5-4c6d-925a-c3e171950193.png)
+
+> **2n** is **bigger** and it is **bigger** by a **constant**.
+
+![image](https://user-images.githubusercontent.com/54589605/232536857-7cd9ff35-578f-4f75-a4c8-41e57d60890f.png)
+
+> As **n!** is **bigger** by a **function** then **theta** not possible. So it is only **2^n= O(n!)**, Big-O. It is **bigger** by **function**. If it was **bigger** by **constant**, then **theta** possible.
+
+![image](https://user-images.githubusercontent.com/54589605/232537758-4b7f378e-61e3-4f56-9991-a58db8f6312d.png)
+
+> As **n^n** is **bigger** by a **function** then **theta** not possible. So it is only **n!= O(n^n)**, Big-O. It is **bigger** by **function**. If it was **bigger** by **constant**, then **theta** possible.
+
+* n^n = Omega(n!)
+
+> Whenever **Big-O** is there, by **reversing** the functions, we can write **omega**.
+
+![image](https://user-images.githubusercontent.com/54589605/232539643-1d91b955-388e-4b33-8719-a6938da22bc5.png)
+
+> We can **reverse** them and then we can use **omega** notation. If we reverse the **function**, then we can **reverse** the symbols also.
+
+![image](https://user-images.githubusercontent.com/54589605/232540967-baf3b309-5b23-4b0d-8e4a-784df029fb88.png)
+![image](https://user-images.githubusercontent.com/54589605/232541014-0118ebf6-00a2-476e-a15e-8a0fd741ad81.png)
+![image](https://user-images.githubusercontent.com/54589605/232542330-12c33d89-dfd9-4d6e-82b3-8aa7d6422f62.png)
+
+> As **omega** is not possible, that's why **theta** is also not possible. **Big-O** is only possible. 
+
+> **Big-O and omega** possible means, **difference** is **constant**, then **theta** possible.
+
+> In the **above** ones, difference is **not constant**, it is **function** that's why **theta** not possible.
+
+![image](https://user-images.githubusercontent.com/54589605/232541701-2b434c9b-a1bb-4d53-ac5d-5b7e350f85f5.png)
+![image](https://user-images.githubusercontent.com/54589605/232541786-0b3db813-e4b5-491d-a6f0-39c8b306ab1b.png)
+
+* constant difference.
+
+![image](https://user-images.githubusercontent.com/54589605/232541986-0a1dd5ca-9756-447f-986c-6d34aed4d66d.png)
+
+![image](https://user-images.githubusercontent.com/54589605/232542423-4056974b-b8ab-4ef1-8c49-1592774948fc.png)
+
+> **n^n** is **bigger** than **2^n**.
+
+> Both **n^n and 2^n** have **powers** and they look **complex**. So, whenever complex functions are given and  we have to find which is **bigger** and which is **smaller**. Apply **log** on both the sides.
+
+![image](https://user-images.githubusercontent.com/54589605/232543082-d02af8c6-9ae0-480a-bc21-5c95eb9c6d81.png)
+
+> After taking **log** on both sides, we got **log n : 1** and **log n** is **bigger** so, **n^n** is **bigger**.
+
+![image](https://user-images.githubusercontent.com/54589605/232543527-e18162b7-f1ec-4fc2-92aa-7a6087cb344d.png)
+
+> **n^3** is **bigger**. Don't apply **log** there **easy questions**. 
+
+> If we apply **log**, then we get **1 : 1**, which is **wrong**.
+
+* Do not apply **log bliendly**. **YES**.
+
+> Apply **log** to complex problems only.
+
+![image](https://user-images.githubusercontent.com/54589605/232548364-7d83dd0d-55c4-49e5-be2f-733441a2dffa.png)
+
+## Doubt_Clearning_Session (10) [18th April 2023]
+
+> Base is **bigger**, **small** value.
+
+> Base is **smaller**, **bigger** value.
+
+> So **log n base 2** is **bigger** compared to **log n base 3**.
+
+[**IMPORTANT**]
+
+![image](https://user-images.githubusercontent.com/54589605/232773731-2236ee93-110f-43bb-800d-1fc09b043167.png)
+![image](https://user-images.githubusercontent.com/54589605/232773796-ea3633bb-31ce-464f-b369-399dd2feaa90.png)
+
+> **c** is **some common** base.
+
+* log a base b -> log a base c/ log b base c
+
+![image](https://user-images.githubusercontent.com/54589605/232774203-10d95547-ddd4-418a-9aa3-ff1fb22f8efa.png)
+
+* log 64 base 4 -> log 4^3 base 4 -> 3
+* log 64 base 2/ log 4 base 2 -> log 2^6 base 2/ log 2^2 base 2 -> 6/2 -> 3
+
+> Between **two** people, if the difference is only **constant**, then we can write **theta**.
+
+> If two people differ by only **base** which is nothing but **constant** only and not functions.
+
+> Bases are only **constants** means, the **difference** is also **constant** only. Rest is **same** only. Only **base** differ and they are **constants** only, so **difference** is **constant** only. So, we can write, **theta**.
+
+![image](https://user-images.githubusercontent.com/54589605/232777461-6bcb896a-4e99-4f75-b62c-8d0c6f00fdc9.png)
+
+* If in a loop, **i** is incremented by ** i * 2**. How many **times**, the loop is repeating?
+
+> **log n base 2**.
+
+* If in a loop, **i** is incremented by ** i / 3**. How many **times**, the loop is repeating?
+
+> **log n base 3**.
+
+> One program's time complexity is **log n base 2** and another's is **log n base 3**. Asymptotically those **two** algorithms are **same**. They **differ** by **constants** but logic-wise they both are **same**.
+
+> In a question, they asked for **time complexity** and the answer is **log n base 2**. In the options there was **log n base 2** and we **selected** that.
+
+> If **log n base 2**, not there in the **options**, but **O(log n base 3)** is there in the **options**. Then we have to select **O(log n base 3)** as the **correct option** as **log n base 2** not there. Because the **difference**, is only **constant**.
+
+> If **theta** is there, then **Big-O and omega** possible.
+
+> Whatever is there in terms of **log** in the options just select that, because **base** are **constants** and don't worry much about them.
+
+> If the answer was **log n base 2** and the options only had **log n**, then we should select that as the **correct option**, as **bases** are **constants** only.
+
+> **log n base 20** and **log n base 30** are **asymptotically same** but **mathematically not same**.
+
+![image](https://user-images.githubusercontent.com/54589605/232781758-6b94e57c-04a2-4233-8d5c-38f33ab8c84e.png)
+![image](https://user-images.githubusercontent.com/54589605/232782175-fdccfd30-4383-49d9-bea7-9e4fea63e054.png)
+
+> If two people are **log n**, therefore, **Big-O, omega and theta** are possible.
+
+![image](https://user-images.githubusercontent.com/54589605/232783559-12834096-3f7f-4d11-8467-dbfe183ebc4a.png)
+![image](https://user-images.githubusercontent.com/54589605/232784111-e4a13e1a-4943-4908-a6b0-3b54a069df45.png)
+
+> **3^n** is **bigger**. But it is not bigger by **constants** but is is bigger by **exponential function** which is **(1.5)^n**.
+
+* 2^n = O(3^n) [YES]
+* 2^n = Omega(3^n) [NO]
+* 2^n = Theta(3^n) [NO]
+
+> **Omega** is not possible because **right side** is **bigger** by **fuction** and not **constant**.
+
+> Remember, **3^n** is **bigger** by some **function** and not **constant**.
+
+![image](https://user-images.githubusercontent.com/54589605/232787036-262db8ba-4fc1-4c49-aeb5-1c7d0dc0c616.png)
+
+> Don't apply **log** in GATE exam. It is a **trap**. [**IMPORTANT**]
+
+> **Worst case**, If applying **log** anyways, then remove/cancel the **common things**.
+
+> **Common** means **writing one interms of another**.
+
+### strling of n!
+
+![image](https://user-images.githubusercontent.com/54589605/232790512-583716f1-59fc-4933-aa5c-43a06e12a930.png)
+![image](https://user-images.githubusercontent.com/54589605/232790534-b81fd7c7-6055-47d6-b9f6-452bc7f5e41f.png)
+![image](https://user-images.githubusercontent.com/54589605/232790722-1643ba7a-0556-4166-b2d7-4d1e124add8a.png)
+
+> **n^n** is **bigger** but with **function** difference and not with **constant** difference. So, **Big-O** is only possible. **Omega and theta** are not possible.
+
+![image](https://user-images.githubusercontent.com/54589605/232791210-747e7ea4-aa23-4ccb-94b1-1f9a56c44cb0.png)
+![image](https://user-images.githubusercontent.com/54589605/232791552-ef4c476e-bad1-4ba6-8890-991b29f26acf.png)
+
+> **n^n** is **bigger** but with **function** difference and not with **constant** difference. So, **Big-O** is only possible. **Omega and theta** are not possible.
+
+![image](https://user-images.githubusercontent.com/54589605/232792535-a101ed9e-39c2-45de-98c6-00a2e167d8fc.png)
+
+> **Before** applying **log**, **theta** is not possible.
+
+![image](https://user-images.githubusercontent.com/54589605/232792592-8d90a77b-7e65-4328-8dea-48cbd79773f7.png)
+![image](https://user-images.githubusercontent.com/54589605/232793182-51774b85-846e-41cf-a64a-7514357be8df.png)
+
+> **After**, applying **log**, on both sides, which are **n! and n^n**. We got **n log n** on both the sides. As they are **same**, hence **theta** is possible.
+
+> **Before** applying **log**, **theta** is not possible, but **After**, applying **log** **theta** is possible. This is because of **strling's approximation**.
+
+> This is only for **n!**. Not applicable for others.
+
+> On **6th point's**, part **1**, there is no **n!** there. So, **strling** will not **come**.
+
+> On **6th point's**, part **2**, there is **n!** there. But **before** applying **log**, they both are **not equal**. Only **Big-O** possible. **Theta** is not possible.
+
+> On **6th point's**, part **3**, there is **n!** there. But **before** applying **log**, they both are not **equal**. But **after** applying **log**, they both are **equal**. **Theta** is possible.
+
+![image](https://user-images.githubusercontent.com/54589605/232795488-e7597a42-2149-4c48-b917-adee7365aa09.png)
+
+> There are **two** people, **before** applying **log**, **theta** is not possible. **After** applying **log**, **theta** is possible, because of **strling approximation**. 
+
+> **Strling** keyword will come whenever **factorial or n!** is given. [**IMPORTANT**]
+
+> According to **Strling**, **n!** is not equal to **n^n**. **n^n** is **bigger**, **theta** not possible. But **after** applying **log**, they(n! and n^n) both are **equal**. **After** applying **log**, **left side**, became **n log n** and **right side** also became **n log n**. They both are **equal**, because of **strling**.
+
+![image](https://user-images.githubusercontent.com/54589605/232801649-63a50cc0-5c4b-474f-b2d3-e609743528ec.png)
+
+> On the **3rd last step**, from **1/2 log(2 * pie * n)**, we took **log n** and from **n logn - nloge**, we took, **n logn**, because **n logn** is **bigger**.
+
+> In the **2nd last step**, **log n + nlog n**, we took, **nlog n** because it is **bigger** than **log n**.
+
+![image](https://user-images.githubusercontent.com/54589605/232803378-7b13c256-d55e-41b9-99ec-d115ade9870d.png)
+
+> **Before** applying **log**, left side which is **n!** is **n^n/e^n** and the right side is **n^n**. **Right side** is **bigger**, it is **bigger** by **e^n or exponential** times.
+
+> **After** applying **log**, both are asymptotically **equal**, because of **strling**.
+
+![image](https://user-images.githubusercontent.com/54589605/232804248-9e06855b-75dd-4027-9d3e-1f568501cf79.png)
+![image](https://user-images.githubusercontent.com/54589605/232804880-d0878aad-e6f3-4f8c-8ba9-3a54d910f5fc.png)
+
+> **Before** applying **log**, **theta** is not possible. Only **Big-O** is possible.
+
+> **After** applying **log**, **theta** is possible. They both became **equal**.
+
+![image](https://user-images.githubusercontent.com/54589605/232805131-a9a252a3-f037-42b2-b509-4321ef7d1498.png)
+![image](https://user-images.githubusercontent.com/54589605/232805274-5ea618be-179f-42a2-89ce-fdc882863121.png)
+
+* If asked to see if **theta** is possible or not? What is the relationship between these two people?
+
+> **We will not apply log** and give answer.
+
+> Before log, theta is not possible.
+
+> After log, theta is possible.
+
+> They are asking without applying log, if both are **equal** or not. **SAY NOT**. They are **not equal**.
+
+> After applying log they are equal.
+
+> After applying log, sometimes they are **equal**. Please avoid applying **log**. Until and unless they are **complex** people/questions, don't apply **log**.
+
+> Before and after applying log sometimes behaviour changing or not. Because of behaviour changing, don't apply log.
+
+![image](https://user-images.githubusercontent.com/54589605/232809398-3f78a340-0850-4e51-a9e8-35ca8b6e17b2.png)
+
+> Before log, theta not possible. But after log, **maybe sometimes**, theta is possible.
+
+* A= Theata(B)
+
+> Don't blindly apply log.
+
+![image](https://user-images.githubusercontent.com/54589605/232810217-5dbbf0ec-e328-4a3a-8cc2-d4c2b237a557.png)
+
+* n^2 = n^3
+* n^2 = (n^2 * n) [Cancelling/removing the common things/terms]
+* 1= n [Now, applying log]
+* log 1 = log n
+* 0 = log n 
+
+> We can see that after **careful** application of **log**, **theta** is not possible.
+
+![image](https://user-images.githubusercontent.com/54589605/232812614-7e05900b-e39b-4de8-b6c2-3249b57b0c7b.png)
+
+> Behaviour changing asymptotically. Mathematically nothing changes.
+
+> If A < B. After applying **log** also, it is **A < B** only.
+
+* A < B -> Mathematics. No constant, c.
+
+> If we take some constant help, c, then it is asymptotic.
+
+![image](https://user-images.githubusercontent.com/54589605/232814205-15c25737-3f53-4411-8c36-27e1393ece04.png)
+![image](https://user-images.githubusercontent.com/54589605/232814483-e837b271-c61c-4e5d-bd25-fd302e02ac8b.png)
+![image](https://user-images.githubusercontent.com/54589605/232815080-639cbbcf-aa18-44a8-a700-e3dd9ead3117.png)
+![image](https://user-images.githubusercontent.com/54589605/232817842-c85b3d3d-867c-4c62-a0cb-1405c9cd27ea.png)
+
+> After applying **log** carefully, **theta** is not possible.
+
+![image](https://user-images.githubusercontent.com/54589605/232824974-4ac668f7-9b96-448a-a4a7-bd3028f000e3.png)
+![image](https://user-images.githubusercontent.com/54589605/232826389-34bc2c4c-4b52-4408-93a3-5586088012e6.png)
+![image](https://user-images.githubusercontent.com/54589605/232826558-0a8872cf-9bd6-4ff3-b484-bef36f9b3a34.png)
+![image](https://user-images.githubusercontent.com/54589605/232841118-b628ea74-68a1-4fe1-a80f-b777158f56b0.png)
+ 
+> **n * root(n)** means **n * n^(1/2)**.
+ 
+![image](https://user-images.githubusercontent.com/54589605/232840835-5be58d22-2233-410d-8d20-e19e6669471a.png)
+
+* n * sqrt(n) -> n * n^(1/2) -> n^1 * n^(1/2) -> n^(3/2) -> n^(1.5)
+
+![image](https://user-images.githubusercontent.com/54589605/232842426-1912d987-f21b-49d9-be4b-759637b8b2a6.png)
+
+> In **powers**, **constants** matters. We cannot ignore them. In the **power**, everything matters, we cannot ignore everything.
+
+![image](https://user-images.githubusercontent.com/54589605/232843484-156580f5-4904-4210-b568-f06568241362.png)
+![image](https://user-images.githubusercontent.com/54589605/232844455-2049318d-3c8c-418d-81ef-8cc0a21bda71.png)
+![image](https://user-images.githubusercontent.com/54589605/232844489-3f1a77ca-4c1d-4c91-a02e-57b37f3b3609.png)
+
+> In the **power**, anything is fine, cannot be ignored.
+
+![image](https://user-images.githubusercontent.com/54589605/232844911-84b7a7f8-acbc-4ea8-bfee-043555e4e1e0.png)
+
+> **Exponential** is **bigger** than **polynomial**.
+
+![image](https://user-images.githubusercontent.com/54589605/232845199-b1d37e82-c2fb-43b1-9717-ca9ac97ac774.png)
+
+> **D** is saying that **2^n** is not equal to **n^x**, which is **correct**.
+
+![image](https://user-images.githubusercontent.com/54589605/232845526-2371c2b5-5be3-437d-842e-fac2de384dae.png)
+![image](https://user-images.githubusercontent.com/54589605/232846052-6158ea33-a2f8-4d2c-9701-9636b52c0107.png)
+
+[**IMPORTANT**]
+
+![image](https://user-images.githubusercontent.com/54589605/232846175-aef3acaf-e801-4646-8807-a116cba393e7.png)
+
+* a^(log b base c) = b^(log a base c)  [**IMPORTANT FORMULAE**]
+
+> In the **power**, **log** is there, apply the above formulae.
+
+* 64^(log n base 2) -> n^(log 64 base 2) -> n^(log 2^6 base 2) -> n^(6 * 1) ->n^6
+
+![image](https://user-images.githubusercontent.com/54589605/232846940-5934a42f-4de3-48ef-8d61-903fc76a3600.png)
+![image](https://user-images.githubusercontent.com/54589605/232847268-d1a708ce-d662-4a48-a892-8d86e00c1ec6.png)
+![image](https://user-images.githubusercontent.com/54589605/232847441-698621c5-bbfd-4a9a-bb6f-1367fbc5417a.png)
+
+> If **theta** is possible, then **small-o and small-omega(w)** has no meaning or are not possible.
+
+## Doubt Clearing Session (11) [19th April 2023]
+
+![image](https://user-images.githubusercontent.com/54589605/233063312-ac1be5ca-6418-48cf-af29-d7f4e387617e.png)
+
+> In **option (a)**, both the sides the bigger value is **2^n** and the difference is constant only. So **Big-O**, possible.
+
+![image](https://user-images.githubusercontent.com/54589605/233065160-e7f7ef53-a21e-489e-b2f7-70ac3a39ad13.png)
+
+> In **option (d)**, both the sides the bigger value is **2^n** and the difference is constant only. So **Theta**, possible.
+
+![image](https://user-images.githubusercontent.com/54589605/233067056-0328a61f-cca4-4020-81fd-d0e275a38d86.png)
+
+![image](https://user-images.githubusercontent.com/54589605/233065327-61c6387d-2660-4ac2-b5fe-eac50c59017c.png)
+![image](https://user-images.githubusercontent.com/54589605/233065016-d794f2f1-e454-44f0-9bb8-359c3290188d.png)
+
+> **Gave it by mistake**. It is **false** as the **bigger values** are not the **same**, on both the sides. Left side is **2*(2n)** and on the **right side**, it is **2^n**. The differenece is **function** and not constant. So, **theta** not possible.
+
+![image](https://user-images.githubusercontent.com/54589605/233067334-4e2f781d-03c6-4dcf-a21d-ed90789f58fd.png)
+![image](https://user-images.githubusercontent.com/54589605/233067544-45a97f99-58ad-4fd7-8a2b-938cff1c9915.png)
+
+* True
+
+![image](https://user-images.githubusercontent.com/54589605/233067784-d5f00133-4b2e-4e2b-b6e3-0b3e64a0ee25.png)
+
+> In **option (a)**, **omega** is also possible along with **Big-O**. As both, **Big-O and omega** are possible, then **theta** is also possible. As **theta** is possible and it means **equal**, that's why **smal-o and small-omega(w)** are not possible.
+
+![image](https://user-images.githubusercontent.com/54589605/233069108-beae3a80-34eb-48ea-951e-9dcfaf74d556.png)
+
+> In **option (b)**, both the sides have the **same bigger** values but they differ by **functional** difference and not by **constants**. That's why **Big-O** not possible. Hence **option (b)**, is **False**.
+
+![image](https://user-images.githubusercontent.com/54589605/233069264-ba6f568c-23c9-4ccc-b39b-b63cb7f8bb2a.png)
+
+> **Omega** is possible as omega is **>=**. As **Big-O** is not possible, so **theta** is also not possible. As **theta** represents **equal**, so **equal** is not there. Hence, the **small-omega(w)** is also possible. 
+
+> **Omega and small-omega(w)** are possible for **option (b)**.
+
+![image](https://user-images.githubusercontent.com/54589605/233070338-657610e0-7c5b-48cd-94e2-4455fc66760c.png)
+
+> In **option (c)**, both the sides have the **same bigger(2^n)** values but they differ by **functional** difference and not by **constants**. **Omega** is possible as omega is **>=** but **Big-O** is not possible as big-O is **<=**. As, **big-O** is not possible, hence **theta** is also not possible. Hence **option (c)**, is **False**.
+
+![image](https://user-images.githubusercontent.com/54589605/233071312-09875bc6-b15a-43b7-aeab-98ca55e9cc5f.png)
+
+* T
+* T
+* T
+* F
+
+![image](https://user-images.githubusercontent.com/54589605/233071521-26fbd00e-1829-43f7-baa6-27d566814732.png)
+
+> In **option(a)**, it is **True**. When **theta** is possible, **small-o and small-omega(w)** are not possible.
+
+![image](https://user-images.githubusercontent.com/54589605/233073955-f49a076e-0e68-4c78-b694-bb0a08bc6954.png)
+![image](https://user-images.githubusercontent.com/54589605/233074104-1e65ec5f-7e8b-4afc-9728-561bbe3002b4.png)
+
+> **1/n** is **less than 1**, when **n > 1**. These are **decreasing functions**.
+
+> In **option(b)**, it is **True** for **normal or increasing** functions but it is **false** for **decreasing functions**.
+ 
+![image](https://user-images.githubusercontent.com/54589605/233075077-3bc56940-d221-4ed7-b464-9cea91713dcd.png)
+![image](https://user-images.githubusercontent.com/54589605/233075521-a6928dc3-8462-46e4-981a-93061469c027.png)
+
+> As nothing is mentioned in the question, we have to consider **both or all**, **increasing as well as decreasing**, functions.
+
+> In **option(b)**, **big-O**, failed for **decreasing functions**. **Omega** failed for **increasing functions**.
+
+> **One**, fail is **enough** to say that **option (b)** is **False**.
+
+> In **option(b)**, everything **failed**. So, sometimes, **two** are **not comparable**.
+
+![image](https://user-images.githubusercontent.com/54589605/233076770-2da29b5b-dde5-4856-86b7-66c91f530f78.png)
+![image](https://user-images.githubusercontent.com/54589605/233077592-7abd475a-6fb4-4e13-a370-dd596eda1059.png)
+
+> When nothing is mentioned in the question, we have to consider/take **both or all**, **increasing as well as decreasing**, functions.
+
+> If **mentioned** then take accordingly.
+
+![image](https://user-images.githubusercontent.com/54589605/233079838-4e1dd86b-a25e-44b6-b23e-b19a7524eab4.png)
+
+> In **option(b)**, it is only mentioned **increasing functions** and **f(n) >= 1 and n>=1**, then **option(b)** will be **True** as **Big-O** will be possible.
+
+![image](https://user-images.githubusercontent.com/54589605/233080003-1e0e8d8c-6d4a-48d8-afd3-cd65d4ac0f5a.png)
+
+> In **option(b)**, it is only mentioned **decreasing functions** and **f(n) <= 1 and n>=1**, then **option(b)** will be **False** as **Big-O** will not be possible.
+
+![image](https://user-images.githubusercontent.com/54589605/233081061-6fd564b5-1ddd-4014-ae9c-b3ed8e05fbb9.png)
+
+> In **option(c)**, whatever is on the **left side**, that thing's **half** is on the **right side**. If **n** is on the left side, then **n/2** is on the right side.
+
+> The difference is by **constants** only, so **Big-O and omega** are possible and hence, **theta** is also possible.
+
+![image](https://user-images.githubusercontent.com/54589605/233081272-d119322b-e7e2-4fd8-a897-598b05189646.png)
+![image](https://user-images.githubusercontent.com/54589605/233081519-8445736c-49c2-4acc-8cf2-42e91e000fc3.png)
+
+> In **option(c)**, it is **True**.
+
+![image](https://user-images.githubusercontent.com/54589605/233082023-197f57a8-fc69-402b-81e5-4de687c6e975.png)
+![image](https://user-images.githubusercontent.com/54589605/233081923-9b6dd6ab-2a99-4957-898d-931ae4c5e984.png)
+
+> In one case, **Big-O** is possible and in one case, **Big-O** is not possible. As it has failed in **one** case, it is **fail** only. So, **Big-O** is not possible.
+
+> In **option(c)**, it is **False**. **Big-O** is not possible. The difference is by **function** and not by **constant**.
+
+![image](https://user-images.githubusercontent.com/54589605/233082827-8a5a10f8-2dda-490e-a79b-ec9e384b6169.png)
+
+* 2^n <= c * 2^(n/2) [<=, means **less than equal too** sinn]
+* 2^(n/2) * 2^(n/2) <= c * 2^(n/2)
+* 2^(n/2) <= c
+
+> So, the **left side** is **bigger**. This also shows that **Big-O** is not possible. With **c** we cannot manage, **2^(n/2)**, the difference is by **function** and not by **constant**.
+
+> One case **fail** also, **fail** only.
+
+> **Option (c) and (d)**, **are different** in the sense that in **Option (c)**, whatever in **left**, keep it in **right** also but **divide it by 2**. In **Option (c)**, the **difference**, is not related with **n**, it is **constant** difference.
+
+![image](https://user-images.githubusercontent.com/54589605/233084565-d9ecfbf6-797d-4b35-9334-114063a9bdda.png)
+
+* For **Option (c)**
+
+> In **Option (d)**, whatever in **left**, keep it in **right** but where ever, **n** is there, replace it with **n/2**. It(n) is creating problem, if it is in the **power**. If it is normally there, then **no problem. If **n** is there in the **power**, then we are **decreasing**.
+
+> If **n** is there on the **left** side then it is **n/2** on the right side. **No problem** as the **difference** is **constant** only. **Big-O** is possible.
+
+> If **2^(2n)** is there on the **left** side then it is **2^(2 * (n/2)) -> 2^n** on the right side. **Problem** is there as the **difference** is **functional** and not **constant**. So, **Big-O** is not possible.
+
+> **Option (D)** is creating trouble, if **n** is there in the **power**. If **n** not there in the **power**, then there is **no problem**.
+
+![image](https://user-images.githubusercontent.com/54589605/233085119-28ef90cc-9418-46c7-b959-b3725a420b96.png)
+![image](https://user-images.githubusercontent.com/54589605/233085174-c37afb22-c44f-4dd6-b3b7-8b9f9958e297.png)
+![image](https://user-images.githubusercontent.com/54589605/233086873-0e4db431-da39-4f84-968f-02bec92c9a04.png)
+
+* For **Option (D)**
+
+* What about **omega** in **Option (D)**?
+
+> If **n** is there on the **left** side then it is **n/2** on the right side. **No problem** as the **difference** is **constant** only. **Omega* is possible.
+
+> If **2^(2n)** is there on the **left** side then it is **2^(2 * (n/2)) -> 2^n** on the right side. **Problem** is there as the **difference** is **functional** and not **constant**. So, **Big-O** is not possible, but the **left** side is already **bigger**, so **omega** is possible.
+
+> Hence **omega** is possible in **Option (D)**. 
+
+> In **Option (D)**, **omega** is **True**. **Theta** is not possible because **Big-O** is not possible. So, **small-omega(w)** is also possible.
+
+![image](https://user-images.githubusercontent.com/54589605/233088426-022e914c-f57c-4503-a1b8-65d8ee707cd5.png)
+![image](https://user-images.githubusercontent.com/54589605/233088565-90183611-98e8-4612-b8e2-e02d20e1cbe1.png)
+
+> Answer is **small-omega(w)**, as **small-omega(w)** means **omega** also.
+
+* **Red line** is **sin** wave
+* **Blue line** is **cos** wave
+
+![image](https://user-images.githubusercontent.com/54589605/233126999-4733431e-f6db-4c83-b834-60538e7363cc.png)
+![image](https://user-images.githubusercontent.com/54589605/233127287-9730a2d6-1d28-46b3-8960-81492029bcbb.png)
+
+* **f(n)** is with **green color**.
+* **g(n)** is with **pink color**.
+
+> We neglected the bases because they are the **same** which is **n** for **f(n) and g(n)**.
+
+> If **bases** are **same**, then only look at the **powers**.
+
+![image](https://user-images.githubusercontent.com/54589605/233128903-d3b423c4-a49d-4b81-98d5-72ca1fb19149.png)
+
+> Base is **same**, see the **power**.
+
+![image](https://user-images.githubusercontent.com/54589605/233129170-89ea266b-ddec-4195-999e-68560107eb8b.png)
+
+> At **0**, **f(n) and g(n)** are at **1** only. They both are **same**.
+
+> At **270 and 360**, **cos and sin** values are the **same**. From **270 to 360**, in between them, **cos** value is **bigger** as **cos 300 = 0.5 and sin 300 = - 0.8 + 1 = 0.2**. **Cos 300** value is **bigger**. 
+
+![image](https://user-images.githubusercontent.com/54589605/233130653-e5c78f37-e8c5-45a0-b104-d6cb6f52a113.png)
+
+* At **0**, both **same**.
+* At **90**, **f(n)** is **bigger**.
+* At **180**, **f(n)** is **bigger**.
+* At **270**, both **same**.
+* At **360**, both **same**.
+
+> Sometimes **f(n)** is **bigger**, sometimes, **g(n)** is **bigger**, sometimes, both are **same or equal**.
+
+> So **both** are **not comparable**.
+
+![image](https://user-images.githubusercontent.com/54589605/233131504-58a7cbf8-6905-4328-a513-309d839c292e.png)
+![image](https://user-images.githubusercontent.com/54589605/233131656-e72cb0f9-810d-490a-96f8-d4b4159212c1.png)
+![image](https://user-images.githubusercontent.com/54589605/233131894-1a152b30-cd7d-4899-bf39-e42b988b3347.png)
+
+* **Green** is **f(n)**
+* **Red** is **g(n)**.
+
+![image](https://user-images.githubusercontent.com/54589605/233134699-3c2b375f-de14-49d6-bb5a-afdbab3697ec.png)
+![image](https://user-images.githubusercontent.com/54589605/233134778-aad6b835-07dd-4109-92ab-dc1aec941ed7.png)
+
+> They are **not comparable**.
+
+![image](https://user-images.githubusercontent.com/54589605/233137344-31fff011-8243-463f-9c3c-9a90f0c85376.png)
+![image](https://user-images.githubusercontent.com/54589605/233139208-1891c78c-82a4-4416-b4d6-2c19fc756f04.png)
+
+> There is **no dilemma**. **g(n)** is **bigger**.
+
+> This will happen for every **360**.
+
+* **Red** is **g(n)**
+* **Green** is **f(n)**
+
+> They are **not equal** at any point in time. 
+
+* f(n) = O(g(n)) [True, possible and comparable]
+* f(n) = o(g(n)) [Not equal]
+
+![image](https://user-images.githubusercontent.com/54589605/233141522-52584a29-55df-4dbd-b566-626900d81782.png)
+![image](https://user-images.githubusercontent.com/54589605/233141583-f2317fcc-cece-4aa4-bf05-f40c4e782afc.png)
+![image](https://user-images.githubusercontent.com/54589605/233141820-42d2e35e-7b2f-42c8-8382-3a21d2448e24.png)
+
+> We will not see **small-o or small-omega(w)**, in **GATE** exam. It is for **understanding**.
+
+> Given functions are **trignometric** functions.
+
+![image](https://user-images.githubusercontent.com/54589605/233142562-984771ff-bca0-441e-98ba-1c0c375d3629.png)
+![image](https://user-images.githubusercontent.com/54589605/233142600-a975c394-a3d7-4be0-91a1-06a65e4d37ca.png)
+![image](https://user-images.githubusercontent.com/54589605/233142984-a09a46d6-a69d-4c88-9703-52c3ca172883.png)
+
+
+![image](https://user-images.githubusercontent.com/54589605/233142303-f34c1241-216a-4092-baf2-7ffe54830680.png)
+![image](https://user-images.githubusercontent.com/54589605/233142335-61a2dab2-ad59-4a96-a1fa-0487edfb8e98.png)
+
+* Next part of **algo**.
+
+## DAC-III (12) [20th April 2023]
+
+> Every **function** has **two** behaviour.
+
+![image](https://user-images.githubusercontent.com/54589605/233239420-df29c4bc-ae12-4c14-9123-b4b4e7e82360.png)
+![image](https://user-images.githubusercontent.com/54589605/233239435-daf074e4-d7ea-4f4d-9bd2-012d7a97118e.png)
+![image](https://user-images.githubusercontent.com/54589605/233239392-ce4bee75-a90f-44df-95c2-ab9cefa72e6a.png)
+
+> Asymptotic notation means we will bother about **ending**. Just see **ending** part, ignore **starting** part.
+
+> From **100** onwards, **g(n)** is **bigger**.
+
+![image](https://user-images.githubusercontent.com/54589605/233240664-f7cbf929-7f3b-417e-948a-7691d341b12c.png)
+
+* f(n) = O(g(n)) , where **n0=100**.
+
+### Doubt [**IMPORTANT**]
+
+* Link -> https://t.me/c/1432493727/104087
+
+![image](https://user-images.githubusercontent.com/54589605/233244609-53cd922a-ad8d-44de-81d0-a4261aba58b1.png)
+![image](https://user-images.githubusercontent.com/54589605/233244636-61e810c1-b330-482b-b5ad-848fa22e82bd.png)
+![image](https://user-images.githubusercontent.com/54589605/233244672-a5a5f633-b6e6-47bc-ad7e-b67e69d72718.png)
+
+In the first image it is not comparable but in the 2nd image it is comparable? Why? In the first image the ambiguity was from 270 360 which is at the end. In the 2nd image the ambiguity is from 0 to 99 and it is at the start. That's why? or I am missing something?
+
+![image](https://user-images.githubusercontent.com/54589605/233244702-f4579fb4-a6e4-418f-a1da-7d08aab41d1b.png)
+![image](https://user-images.githubusercontent.com/54589605/233244834-864607bf-9e2a-474b-9b07-231d63d601e7.png)
+![image](https://user-images.githubusercontent.com/54589605/233244964-ecc08f61-3739-41d1-8687-0d1e147ddbd8.png)
+
+> As in the **first** image, the values where sometimes **bigger** and sometimes **smaller**. It was not certain for sure. That's why it was **not in relation**.
+
+> In the **second** image, from **0 to 99**, **f(n)** is **bigger** but from **100 to 700**, **g(n)** is clearly **bigger** than **f(n)**. That's why we have mentioned that **n0 =100**.
+
+* f(n) = O(g(n), when **n0 =100**.
+
+![image](https://user-images.githubusercontent.com/54589605/233249392-1324c509-49ea-4ff6-aed0-7dc663837259.png)
+![image](https://user-images.githubusercontent.com/54589605/233249777-00a0b522-92be-424f-a75e-e8ddba6f0e29.png)
+![image](https://user-images.githubusercontent.com/54589605/233249876-89dfb9e3-570f-44ce-8c73-77c65cb6f0b0.png)
+![image](https://user-images.githubusercontent.com/54589605/233245619-ef1dca71-9d66-4906-87f7-7e97bcf6b3ee.png)
+
+> Before **100**, it is **ambigious or do not have clarity**, but after **100**, we have **clarity** that **g(n)** is clearly **bigger**.
+
+![image](https://user-images.githubusercontent.com/54589605/233246450-e0980c41-f326-426b-a856-d2fdb887ca2e.png)
+
+> From **0 to 99**, **f(n)** is **bigger** than **g(n)**. So, **n0=1**.
+
+* f(n) = Omega(g(n)), where **n0=1**.
+
+> From **700 onwards**, we are getting clarity that **f(n) and g(n)** are **greater than equal too**.
+
+* f(n) = O(g(n)), where **n0=700**.
+
+> As **both**, **Big-O and omega** possible, then we can say that **theta** is also possible.
+
+* f(n) =Theta(g(n)), where **n0=700**. 
+
+> **n0=700**, since one point is from **n0=1** and another is from **n0=700**. So the **common point** is from **n0=700**.
+
+![image](https://user-images.githubusercontent.com/54589605/233247514-cea7e86a-7637-4305-8391-e6e42af7576f.png)
+![image](https://user-images.githubusercontent.com/54589605/233248309-2d74b081-0803-4753-86cb-41fd800fadfc.png)
+
+> All of them **Big-O, omega and theta**, all are **correct**, if given in the **options**.
+
+> As **theta** is possible, we cannot say **small-o and small-omega(w)** are possible.
+
+> Every function having **two** behaviour.
+
+![image](https://user-images.githubusercontent.com/54589605/233248582-2ab7a944-9060-495e-9f43-ae49c3af3df0.png)
+
+1) Reflexive property -> Mirror Image. Both the **sides**, it is the **same person**.
+
+  * f(n) = O(f(n)) -> True
+  * f(n) = Omega(f(n)) -> True
+  * f(n) = Theta(f(n)) -> True
+  * f(n) = small-o(f(n)) -> False [Since, Theta is **True**]
+  * f(n) = small-omega(w)(f(n)) -> False [Since, Theta is **True**]
+
+![image](https://user-images.githubusercontent.com/54589605/233250068-436d04fb-2136-4df4-8d6d-da6e69857a6f.png)
+
+2) Symmetric property -> If f(n) = O(g(n)), then, g(n) = O(f(n)). If, A = O(B), then, B = O(A).
+
+![image](https://user-images.githubusercontent.com/54589605/233250303-43a8f200-9a6e-4270-8d0a-59b21cc80071.png)
+![image](https://user-images.githubusercontent.com/54589605/233250589-5f537aee-4ec7-4685-9071-85a27ebd8bd5.png)
+
+* n^2 = O(n^5)
+* n^5 = O(n^2)
+
+> Symmetric property means that if **first two conditions** are **True**, then the **next two conditions** are **True** or not.
+
+> Not possible.
+
+  * If f(n) = O(g(n)), then, g(n) = O(f(n)) -> False
+  * If f(n) = Omega(g(n)), then, g(n) = Omega(f(n)) -> False
+  * If f(n) = Theta(g(n)), then, g(n) = Theta(f(n)) -> True
+  * f(n) = small-o(f(n)) -> False [Since, Theta is **True**]
+  * f(n) = small-omega(w)(f(n)) -> False [Since, Theta is **True**]
+
+> Remember, **theta** possible between **two** people, means that the **two** people are **equal**. We can **reverse** also.
+
+* If, A = B
+* Then, B = A [Theta case]
+
+* **Big-O and omega** are not possible, then how is **theta** possible. It is **normal theta** or **conditional theta**?
+
+> It is **conditional theta**, it has nothing to do with **Big-O and omega**. If **first two conditions** are **True**, then the **next two conditions** are **True** or not. It has nothing to do with **Big-O and omega**.
+
+> In **normal theta**, if **Big-O or omega**, either **one of them** is not possible, then **theta** is also not possible.
+
+![image](https://user-images.githubusercontent.com/54589605/233251857-517ae7e2-2802-4c4d-89b2-741dc3def743.png)
+![image](https://user-images.githubusercontent.com/54589605/233251940-a0e0dae7-f4c0-4f6a-95aa-d890454ffcce.png)
+
+* Only, **theta** is possible. As it is **conditional theta** and not **normal theta**. **Conditional theta** has nothing to do with **Big-O and omega**. 
+
+![image](https://user-images.githubusercontent.com/54589605/233252171-ef0a267d-f07d-42a9-814f-9fc41089f4b6.png)
+
+
+3) Transitive property -> If **first two** conditions are satisfied, then the **third** condition should be satisfied as well. If **first two** conditions are satisfied, then only we will go to **third** condition.
+
+> If **first two** conditions are **not satisfied**, then we will not go to **third** condition.
+
+![image](https://user-images.githubusercontent.com/54589605/233252702-200c3bd7-a0ca-4bc6-8677-c56c20e75d25.png)
+![image](https://user-images.githubusercontent.com/54589605/233253589-e183d937-5145-4a55-bf2e-dad6a4b28e87.png)
+![image](https://user-images.githubusercontent.com/54589605/233253700-e49441b5-ec07-4420-8433-a3213248a796.png)
+![image](https://user-images.githubusercontent.com/54589605/233254013-72c8800a-6db1-4e34-a50e-918320ccb03b.png)
+![image](https://user-images.githubusercontent.com/54589605/233254067-eb4bb598-a7e0-4c10-ae5d-78c1cb735dcf.png)
+
+* n^2 < n^5
+* n^5 < n^9
+* n^2 < n^9 [small-o]
+
+* n^9 > n^5
+* n^5 > n^2
+* n^9 > n^2 [small-omega(w)]
+
+> **Transitive** property is satisfied by **all** of them.
+
+![image](https://user-images.githubusercontent.com/54589605/233254334-017541ec-c545-4394-959b-b80f873bd399.png)
+
+> **Theta** is possible, then how **small-o and small-omega(w)** are possible. **Theta** is **conditional theta**, here.
+
+> In **direct theta**, **small-o and small-omega(w)** are not possible.
+
+![image](https://user-images.githubusercontent.com/54589605/233254697-13febf9f-2d80-42d7-b950-6e95be35d9d7.png)
+
+> Comparing **f(n) and d(n)**, **d(n)** is **bigger**.
+
+> Comparing **g(n) and e(n)**, **e(n)** is **bigger**.
+
+![image](https://user-images.githubusercontent.com/54589605/233256314-ad90a7ae-decc-4c34-a8be-0f216ebf0479.png)
+![image](https://user-images.githubusercontent.com/54589605/233256723-31f7c6de-edbd-4fec-a93f-b6606320f65a.png)
+![image](https://user-images.githubusercontent.com/54589605/233256808-39488f98-42c1-4c30-b3e1-c7c7a2fa5a7a.png)
+
+* n^5 + n^9 = O(n^15)
+
+> Big-O means right will be **bigger or equal too**, left.
+
+> If we **add** on the **left side**, then we should **add** on the **right side** also.
+
+![image](https://user-images.githubusercontent.com/54589605/233256987-b4f22e7b-1040-4ae5-a37c-d091eceef8d7.png)
+![image](https://user-images.githubusercontent.com/54589605/233257647-07cb30eb-82d8-4d73-a348-412bd2bce3c5.png)
+
+
+* If we **multiply**, **left side** people. What will happen to the **right side** people.
+
+> Previously we **added**, **left side** people. In **Big-O**, **left side** people are **smaller**, **right side** people are **bigger**. If we **multiply**, **left side** people, even though they are **small**, sometimes they will cross **right side** people, **individually**.
+
+* n^5 = O(n^7)
+* n^9 = O(n^12)
+
+> On **multiplying**, **left side** people, who are **n^5 and n^9**, we got **n^(5+9) -> n^14**. If we just keep, **d(n) or e(n)** individually, then they will not work out. If we **add** the **right side** people, then we get **n^7 + n^ 12 -> n^12** and it doesn't work out.
+
+![image](https://user-images.githubusercontent.com/54589605/233258599-2047fae7-1977-4e19-b98f-c68eb715a8c9.png)
+
+>  If we **add** the **right side** people, then we get **n^7 + n^ 12 -> n^12** and it doesn't work out
+
+> We **multiplied**, the **left side** people, so **no doubt**, we have to **multiply**, the **right side** people also.
+
+> If  **left side** people are **multiplied**, then, we have to **multiply**, the **right side** people also. Then, it will **always**, work out.
+
+![image](https://user-images.githubusercontent.com/54589605/233258808-9505b936-3f28-4db7-8096-47b7ef691514.png)
+![image](https://user-images.githubusercontent.com/54589605/233258863-2c6a5547-c276-430e-890e-1d7e6a676ffb.png)
+
+* If **left side** people are **multiplied**, then **multiply**, the **right side** people also.
+* If **left side** people are **added**, then **add**, the **right side** people also.
+
+> **VERY VERY IMPORTANT**.
+
+## Note
+
+1)
+![image](https://user-images.githubusercontent.com/54589605/233259135-3a02ea5e-fe93-4b98-92a0-835e03b98413.png)
+![image](https://user-images.githubusercontent.com/54589605/233259174-290aa8b4-88bf-4dee-960e-c4be05e4941c.png)
+
+> Taking **maximum** is **addition**, followed by **big-O**.
+
+2)
+![image](https://user-images.githubusercontent.com/54589605/233259294-d2995c10-1857-426c-bc01-bb3f82cbd2e6.png)
+
+> If **left side** people are **multiplied**, then **multiply**, the **right side** people also.
+
+3) 
+![image](https://user-images.githubusercontent.com/54589605/233259518-35af5966-a8d3-4a40-896a-e6c90b900bd8.png)
+
+> Left side is **decreasing**, right side is also **decreaing**, no problem.
+
+![image](https://user-images.githubusercontent.com/54589605/233259574-61e59e43-1768-4057-b470-aada69220407.png)
+
+> Left is **decreasing**, in the **same way**, right is **decreaing**, so no problem.
+
+> **Same way decreasing** and **Same way increasing**, so no problem.
+
+![image](https://user-images.githubusercontent.com/54589605/233259777-75afaeb4-67df-422a-8d8c-6ac188843f6e.png)
+
+> If we do the **same work**, on **both**, the **left and right** sides, then the **behaviour**, will **not change**.
+
+![image](https://user-images.githubusercontent.com/54589605/233259992-0b538e45-fec4-4b32-9191-903791de9a0f.png)
+
+![image](https://user-images.githubusercontent.com/54589605/233260832-1424fa5c-6392-44cc-ace5-3c01e2101142.png)
+
+> Both the people are having the **same upper bound**, but **no relation** between them. It can be **reverse** also. First is **n^8** and the second is **n^5**. The reverse will be that the first is **n^5** and the second is **n^8**. 
+
+![image](https://user-images.githubusercontent.com/54589605/233261257-4a260fb7-5b05-4b19-b708-d7aac91e2c48.png)
+
+> So, we cannot say anything between **T1 and T2**.
+
+> In **option(a)**, if we **add** left side poeple, then we have to **add**, right side people also.
+
+![image](https://user-images.githubusercontent.com/54589605/233261440-15a62e4d-b1cf-41a6-b24b-ffc7a0d77a5b.png)
+![image](https://user-images.githubusercontent.com/54589605/233261465-5b292bc3-1c22-4326-87d7-e769c383a7da.png)
+
+> Between **T1 and T2**, we cannot say anything.
+
+> This is an **MSQ** question.
+
+> **MSQ** question sometimes have **one answer** only.
+
+![image](https://user-images.githubusercontent.com/54589605/233261843-4f36d011-7e19-4fdb-9dea-f7735d74fdbf.png)
+
+* T1(n) = Theta(f(n))
+* T2(n) = Theta(f(n))
+
+> When we say **theta**, **T1(n) and Theta(f(n))** are **equal**. **YES**.
+
+> When we say **theta**, **T2(n) and Theta(f(n))** are also **equal**. **YES**.
+
+> So, **T1, T2 and f(n)**, all are **equal**, **YES**.
+
+* A = B
+* C = B
+* A = B = c
+
+![image](https://user-images.githubusercontent.com/54589605/233262178-ee85d7ab-afd8-436d-89af-72367e9b8ce6.png)
+
+> All(A,B and C) are **Equal**.
+
+> Now **answer** is **all**. **All** of the **options** are satisfied. **Theta** means all **True**.
+
+![image](https://user-images.githubusercontent.com/54589605/233262381-ff85f52c-1612-4917-8896-f2084e6cb902.png)
+![image](https://user-images.githubusercontent.com/54589605/233262409-d7edbe5d-2be7-4f84-a250-8f6c64e4c40d.png)
+
+* T1(n) = Omega(f(n))
+* T2(n) = Omega(f(n))
+
+> With **omega** also, we cannot get any **relation** between **T1 and T2**.
+
+> Both the people are having the **same lower bound**, but **no relation** between them. It can be **reverse** also. First is **n^10** and the second is **n^8**. The reverse will be that the first is **n^8** and the second is **n^10**. 
+
+![image](https://user-images.githubusercontent.com/54589605/233262945-760d9df1-9fd0-4c58-9a51-41bf100f2d41.png)
+
+> So, all are **wrong**. No option is **correct**.
+
+![image](https://user-images.githubusercontent.com/54589605/233263060-dca8279a-884a-45d1-a5dc-95dbb2d1c5af.png)
+
+* Big-O -> only option **a** is correct.
+* Omega -> All are **wrong**. No option is **correct**.
+* Theta -> All are **correct**.
+
+![image](https://user-images.githubusercontent.com/54589605/233263485-486678f2-6e6a-435a-a844-86b7ccbf1ab1.png)
+
+> From the **above**, **4** statemenets we have to conclude that the following statements are **True or False**.
+
+![image](https://user-images.githubusercontent.com/54589605/233264468-26f230ec-8f18-43dc-8233-00a4a5684b03.png)
+![image](https://user-images.githubusercontent.com/54589605/233264486-54dfcd7a-caff-4f68-bf0e-b96c187b3456.png)
+![image](https://user-images.githubusercontent.com/54589605/233264718-44125568-fe73-4a9d-a4ff-d1853ba78229.png)
+
+> Between **two people**, **reverse** as well as **directly** also possible. Which means they are **equal** and **theta** is possible. 
+
+> Between two people, **directly** possible, which means **<=** is possible but **reverse** is not possible, which means **equal** is not possible/there. So it is **small-o** instead of **big-O** as **reverse** is not possible, so, **equal** is not possible/there.
+
+![image](https://user-images.githubusercontent.com/54589605/233265377-d49c4bdd-3e87-4999-a9ce-a7d08c5faf67.png)
+
+* If **direct and reverse** possible then they are **equal**.
+* If **direct** is possible then it is **<=** and **reverse** is not possible, so, **equal** is not there. So, it is only **<** only.
+
+![image](https://user-images.githubusercontent.com/54589605/233265616-1b105ee0-3eb1-46f8-baf2-d2a424d22b3a.png)
+
+* A = O(B) [Possible]
+* B = O(A) [Not possible]
+
+> Between two people, **A = O(B)** is possible and **B = O(A)** is not possible, then **reverse** is not possible. Which means **A < B**. **Theta** not there, so **equal** is not there. Only **<**(less than) is there.
+
+![image](https://user-images.githubusercontent.com/54589605/233266037-ea64810a-b16a-40f9-8cc6-882378fe8b9f.png)
+
+* f(n) < g(n) = h(n)
+
+> **f(n)** is **smaller**. **g(n) and h(n)** are **bigger** as they are **equal**.
+
+> In option **a**, left side is **smaller** and right side is **bigger**, so **big-O** is possible. Option **a** is **correct**.
+
+> In option **b**, on the left side among **f(n) and g(n)**, **g(n)** is **bigger**, so it will dominate the **left side**. So, **g(n) = O(h(n))** is possible, as they are **equal**. Option **b** is **correct**.
+
+> In option **c**, on the left side, **f(n) and g(n)** are **multiplied**, one **smaller** and one **bigger** respectively are **multiplied**. On the right side, **g(n) and h(n)** are **multiplied**, both are **bigger** are **multiplied**. 
+
+> So **both** the sides are **not equal**. Hence **theta** is not possible. Option **c** is **not correct**.
+
+![image](https://user-images.githubusercontent.com/54589605/233267260-d779fc13-be74-47ff-874c-26da3eff2da0.png)
+
+> In Option **c**, if we keep **Big-O**, instead of **theta**, then, option **c** would have been **correct**.
+
+![image](https://user-images.githubusercontent.com/54589605/233267503-dd80ec19-1e57-406a-8ea9-e64649feef81.png)
+![image](https://user-images.githubusercontent.com/54589605/233267644-7f48ad79-e1c6-4570-ac12-b5e196f9f432.png)
+
+> In Option **d**, left and right side, both are **bigger**. So they are **equal**, hence **theta** is possible. So, Option **d** is **correct**.
+
+* A, B and D are **correct**.
+
+## GT-III (13) [20th April 2023]
+
+## Recursion
+
+> Function calling itself is known as **Recursion**. [**Point One**]
+
+> It maybe close to **starting**. It maybe close to **ending**. Most of the time, calling is in the **middle**.
+
+![image](https://user-images.githubusercontent.com/54589605/233365940-d98e8200-35ed-421a-89be-8d49b76ff3af.png)
+![image](https://user-images.githubusercontent.com/54589605/233366241-2d367a46-4dbf-475c-9e99-983c03d0a436.png)
+
+* Fact(6) -> 6 * Fact(5)
+* Fact(5) -> 6 * Fact(4)
+
+> At anywhere we know, **go back**. Worst case, is **fact(1)** and everyone knows, **fact(1) = 1**.
+
+![image](https://user-images.githubusercontent.com/54589605/233366468-ee619eba-2f5f-49a4-be14-0f25ef40dc50.png)
+
+
+* Coming down -> Function calling(PUSH operation)
+* Going up -> Return(POP operation)
+
+> **Fact(1)** is the **first** function completed and **popped**. Then, **fact(2)** is **popped**.
+
+* **Fact(6)** -> **Fact(5)** -> **Fact(4)** -> .... -> **Fact(2)** -> **Fact(1)** [Sequence of **PUSH**]
+
+* **Fact(1)** -> **Fact(2)** -> **Fact(3)** -> .... -> **Fact(6)** [Sequence of **POP**]
+
+> How many **push** operations, that/those many **pop** operations as well.
+
+> If **push** operations is **7** and **pop** operations is **6**, then there is **no meaning**.
+
+> If **push** operations is **7** then **pop** operations should be **7** only, otherwise something is **stuck** in the **stack**.
+
+> For getting the value of **Fact(6)**, we need all of them from **Fact(5) to Fact(1)**. We need to **store** them in **one data structure** and that data structure is **stack**.
+
+* Among all of them, **Fact(6)** is called **first**.
+* Among all of them, **Fact(6)** is completed **last**.
+* Among all of them, **Fact(1)** is called **last**.
+* Among all of them, **Fact(1)** is completed **first**.
+
+> That's the meaning of **stack**. Stack is **LIFO**, **last in first out**.
+
+> Why stack and why not **queue**, because in queue, **Fact(6)** is called **first** and **Fact(6)** is completed **first**, which doesn't give the **desired result**.
+
+> That's why **stack** used.
+
+> For **recursion** programs, **stack** data structure is used. [**Point Two**]
+
+![image](https://user-images.githubusercontent.com/54589605/233371190-50db29ba-eea4-446d-9493-99b59c3a6e28.png)
+
+> We are completing **Fact(6)**, using **Fact(5), 4, 3, 2 and 1**.
+
+> We are completing **Fact(5)**, using **Fact(4), 3, 2 and 1**.
+
+> We are completing, **bigger** problems, with **smaller** problems. **Recursion** is nothing but solving **bigger** problems, in-terms of **smaller** problems. [**Point three**]
+
+![image](https://user-images.githubusercontent.com/54589605/233372140-a215d383-e9b4-45e7-91d7-6d8b333677fc.png)
+
+> **Divide and Conquour** is nothing but **recursion**.
+
+![image](https://user-images.githubusercontent.com/54589605/233373752-c8e0a8ec-4f6c-4513-b701-09923959e324.png)
+![image](https://user-images.githubusercontent.com/54589605/233375372-17e939b2-5d83-466a-96d1-64d81107a3d3.png)
+
+
+> Every **function call** is a **PUSH** operation.
+
+* Stack Overflow -> Stack Error Message, when **memory** full.
+
+> Every **recursive** program, must have or should have **termination** condition. Otherwise we will get an **error message while running**, which is **Stack Overflow**.           [**Point Four**]
+
+> **Stack Overflow** is a **run-time** error message. It is not **compile** time.
+
+> Some **compile** time, errors are **type mis-match**, **semi-colo missing**, **undeclared variable**, **multiple declaration**.
+
+* In a given recursive program, termination condition is not given. What will happen?
+
+A) Infinite loop -> **NO**. Space is **limited**. Not possible.
+
+> The program will **stop** at some point in time by giving an **error message** that is **Stack Overflow**. [**Correct Answer**]
+
+![image](https://user-images.githubusercontent.com/54589605/233379463-e5048c47-ba51-477a-bf76-f967a99c816a.png)
+![image](https://user-images.githubusercontent.com/54589605/233379876-d1ac27c6-258e-4c17-b507-dbd81e082e95.png)
+
+* Recursive program
+
+![image](https://user-images.githubusercontent.com/54589605/233381167-148509de-7232-41dd-8c22-156e65d5c30b.png)
+![image](https://user-images.githubusercontent.com/54589605/233381529-a2701d50-09b4-453f-8f36-bb24a1d93457.png)
+
+> **White** color is **going down**, which means **POP** operations which is **return** statements.
+
+> **Red** color is **going up**, which means **PUSH** operations which is **function call**.
+
+* Whenever **recursion** is going on, **many** function calls are there. From **one** function call to **another** function call, what will be the **difference**.
+
+> The **function name**, remains the **same**. Everywhere **f(n)**.
+
+> The **function code**, remains the **same**.
+
+> The **local variables name**, remains the **same**.
+
+> The **no. of local variables**, remains the **same**.
+
+> The **value of local variables**, will **change**.
+
+> Whenever **recursion** is going on, **many** function calls are there. From **one** function call to **another** function call, **parameter value** will **change** but not the **no. of parameter, parameter name, function name, function code**, these will not change. [**Point Five**]
+
+> Somethings should **change**, if **nothing** is **changed** then it will never **terminate**.
+
+![image](https://user-images.githubusercontent.com/54589605/233387648-628bbce9-c17d-4572-a169-875192d9705d.png)
+
+* Parameter value is only **changed**, rest are the **same**.
+
+![image](https://user-images.githubusercontent.com/54589605/233387768-00205e1e-a456-491d-a438-08a0a1b16de1.png)
+![image](https://user-images.githubusercontent.com/54589605/233388226-d00fb78e-8162-40c5-9f8a-43f728977cf6.png)
+![image](https://user-images.githubusercontent.com/54589605/233388816-f3b9bdfb-0f11-4d29-86ea-b5f5ab65a740.png)
+
+* It is **Non-recursion**.
+
+> The **above** program with **for loop**, will call the **fact(n)** function only **1 time or once** to calculate the **factorial of 6**. Inside loop, running many time but the function **fact(n) or fact(6)** when **n=6** is called **1 time or once**.
+
+> **Fact(6)** is not calling anyone else. **1 time or once** function call.
+
+> **1 time or once** function call, means **1 PUSH** operation.
+
+> So, in the **Non-recursion** program, only **1 PUSH** operation is required as there is **1 time or once** function call. Whereas in the **recursion** program, **6 PUSH** operations are required as **6** function calls are required.
+
+> In terms of **space**, most of the time **non-recursion** programs are **better**.
+
+>  Most of the time, **recursion** will take **more space**, because of **more** function calls.
+
+>  Most of the time, in **non-recursion**, it will take **less space**, because of **less** function calls.
+
+* For **every recursion**, **non-recursion** is possible. [**Point Six**]
+
+![image](https://user-images.githubusercontent.com/54589605/233392404-c4211085-f66c-4417-b9a9-c95d7a58e13a.png)
+
+> Most of the time, **recursion** program takes **more** stack space and **non-Recursion** program takes **less** stack space. [**Point Seven**]
+
+![image](https://user-images.githubusercontent.com/54589605/233393302-9b356f7d-c181-47bb-b58b-217fa7d96cb2.png)
+
+> **Non-Recursion** program takes **less** stack space than **recursion** program for most of the time but in **some cases**, they will take the **same** amount of time.
+
+> Comparing **recursion and non-recursion**, recursion will take **more stack space**, **most** of the time, comparing with **non-recursion** because of **more** function calls.
+
+> Sometimes, **equal** also. [Explained later]
+
+> **Space complexity** for **non-recursion** programs is **constant**.
+
+> For every problem, **space complexity** is **constant**.
+
+> **Space complexity** for **recursion** programs is not **constant**, we have to find it out.
+
+![image](https://user-images.githubusercontent.com/54589605/233403169-38317b01-64d6-4936-a714-5c7c7c429844.png)
+![image](https://user-images.githubusercontent.com/54589605/233404014-8cdc13ed-9c7e-40a1-9a17-3ede093132a7.png)
+
+* Non-recursion program
+
+> **Time complexity** is how many **times**, loop is running. **Time complexity** means loop.
+
+> In the above program, there is **loop**. **YES**. The loop is running **n times**. So, the **time complexity** of the program is **O(n)** as loop is running **n times**.
+
+![image](https://user-images.githubusercontent.com/54589605/233404058-52a06cd9-f64c-487e-911d-78974cdcc720.png)
+
+* Recursion program.
+
+> There is **no loops** but the function is calling itself, **n times**. So, the **time complexity** of the program is **O(n)** as the function is calling itself, **n times**.
+
+> So, indirectly, the **time complexity** of both the **recursive and non-recursive** programs are the **same** which is **O(n)**.
+
+![image](https://user-images.githubusercontent.com/54589605/233404822-88096c50-e054-4699-b03e-eec688c693ac.png)
+
+> So, internally, it is doing the **same** thing only. Everytime **one no.** multiplication.
+
+* 5 * 4 * 3 * ... * 1.
+
+![image](https://user-images.githubusercontent.com/54589605/233405145-d03450af-94d6-4c86-9dbc-0fc67eedfda5.png)
+
+> We are doing the **same***, everytime **one no.** multiplication in **non-recursive** programs as well.
+
+![image](https://user-images.githubusercontent.com/54589605/233405379-0636ad4b-fcfd-441d-94c6-fd34936ab0c5.png)
+
+> Different ways of writing.
+
+> Calling myself, it is **loop** only.
+
+> Indirectly **loop** in **recursion** programs and direct **loop** in **non-recursive** programs.
+
+* Which will take more time? **recursion** or **non-recursive** programs?
+
+> They will take **same** amount of time**.
+
+![image](https://user-images.githubusercontent.com/54589605/233405909-c46cb4f0-70d2-4667-8654-91420a4010de.png)
+![image](https://user-images.githubusercontent.com/54589605/233406146-2d457975-80b4-4c76-a840-7d8bd20a0b70.png)
+
+> **Time complexity** is based on **logic** and not on **recursion or non-recursion** program.
+
+> **Recursion or non-recursion** programs will not decide **time complexity**, but the **loops or logic** will decide, **time complexity**.
+
+> **Time** point of view, no **discrimination** between **recursion and non-recursion** programs. **Time** is **same** for **both**.
+
+> **Space** point of view, there is **discrimination** between **recursion and non-recursion** programs, because in **recursion**, more **function call** and more **PUSH** operation. In, **non-recursion**, less **function call** and less **PUSH** operation.
+
+[**Point Eight below**] 
+
+> **Recursion and non-recursion** programs will take **same time**, because of **same logic**. If different logic, then both will have different logic, then different time. If logic changes, time will also change.
+
+> **Logic** will decide, **time complexity** and not **recursion and non-recursion** programs.
+
+> **Space complexity** is based on **recursion and non-recursion** programs, because in **recursion**, **more** function calls. In **non-recursion**, **less** function calls. Sometimes, **both** maybe **equal**, but most of the time, **recursion** having more space.  
+
+* In **non-recursion** programs, **1 time or once**, **PUSH** operation and **1 time or once**, **POP** operation .
+* In **recursion** programs, **n times**, **PUSH** operation and **n times**, **POP** operation.
+
+> Mathematically, **recursion** will take **more time**. **n time** PUSH and **n time** POP, so, **2n** operations. But in **non-recursion**, one time loop and **n**, one time **PUSH** and one time **POP** but loop is **n** time.
+
+> Asymptotially, **2n and n** are **same**, so, they will take **same time** because of **same logic**. But mathematically, **recursion** having some **over-head**.
+
+> Forget about **constant**, even though **recursion** having some **over-head**, in-terms of **PUSH and POP**. That is **negligible** because of **some constant**.
+
+![image](https://user-images.githubusercontent.com/54589605/233410838-1083022e-e8c6-4b1a-9963-aba3587027a3.png)
+
+## Recurrence Relation
+
+> Recursion program having **two** part.
+
+![image](https://user-images.githubusercontent.com/54589605/233414629-fd9a6634-f388-4c9b-8094-0214196fba1e.png)
+![image](https://user-images.githubusercontent.com/54589605/233414849-a791e7eb-1a42-40d6-8aa2-7962da1b513d.png)
+
+* This is called as **recurrence relation** for **fact(n)** value.
+ 
+* For every **recursive** program, **recurrence relation** is possible? 
+
+> **YES**.
+
+## GT-IV (14) [21st April 2023]
+
+* For every **non-recursive** program, **recurrence relation** is possible? 
+
+> **YES**.
+
+> Every **recursive** program, contains **two** parts, **base condition** and **function calling itself**.
+
+![image](https://user-images.githubusercontent.com/54589605/233677216-13e9bec0-11ff-460b-80bf-7e9ffa684535.png)
+![image](https://user-images.githubusercontent.com/54589605/233678878-7cd48818-45f4-4209-b392-59e4fad7aa0e.png)
+
+## Recurrence Relation Time Complexity
+
+![image](https://user-images.githubusercontent.com/54589605/233681596-685141b3-f645-4c6a-b33b-437a0322ab25.png)
+
+* **T(n)** is time complexity of **fact(n)**.
+
+> In the **return or else** part, there is no **loops**. Recursion is there.
+
+> **Multiplying** one number, takes **constant** times. That's why we have put **+ c** with **T(n-1) + c**.
+
+![image](https://user-images.githubusercontent.com/54589605/233686524-0205f184-fab2-4730-be75-ba4d59207152.png)
+
+> With **time compleixty**, the **loop** key-word should come immediately.
+
+> In **time compleixty, recurrence relation** and **value, recurrence relation**, one thing is **common**, which is **recursion**. Only **names** will **differ**.
+
+![image](https://user-images.githubusercontent.com/54589605/233687407-f2fd77e1-f17b-435d-84a6-a469d53ea92d.png)
+
+> Until and unless, we see **loops(for or while)**, don't write **n**.
+
+> As a **programmer**, we will take care of **first level**, remaining **recursion** will take care.
+
+## Recurrence Relation of multiplication
+
+> We have to calculate, no. of multiplication.
+
+> We have **one only** multiplication in the **2nd part** of the recursion. 
+
+> Don't worry about **all** the levels. Just do the **first level**. Whatever we are able to see, do that only. Don't do everything. Remaining thing will be do by **recursion**.
+
+> In the **first level** only, we can see **one only** multiplication.
+
+![image](https://user-images.githubusercontent.com/54589605/233690417-8f457f98-97f6-40d2-8d47-e7fa705b07f4.png)
+
+> In **every** area, **recursion** is common. Remaining things a little bit differ.
+
+* If we want to find the **time complexity** of any **recursion** program?
+
+> First, write the **recurrence relation for time**.
+
+![image](https://user-images.githubusercontent.com/54589605/233693592-6bf7b41c-63cf-43a5-a43d-3593c46ae086.png)
+
+* If we want to find the **no. of multiplication** in a given **recursion** program?
+
+> First, write the **recurrence relation for no. of multiplication**.
+
+![image](https://user-images.githubusercontent.com/54589605/233694076-c5b259cd-9a3f-4567-9639-d435a3c69446.png)
+
+## Solving Recurrence Relations
+
+1) Substitution method
+2) Recursive Tree method
+3) Master's theorem
+
+![image](https://user-images.githubusercontent.com/54589605/233694864-dde1d058-98b7-4218-a20d-0cf212e8df2e.png)
+
+## Substitution method
+
+![image](https://user-images.githubusercontent.com/54589605/233695177-ecb1378a-6019-4a35-ade3-9e3afdecaa4f.png)
+
+* We want to find the **time complexity** of **above** program?
+
+> We will use the **recurrence relation of time**.
+
+> Don't think much about **if** condition, it is for **termination** purpose. Think about **else** part.
+
+![image](https://user-images.githubusercontent.com/54589605/233697080-3aaee42e-c026-4904-bb18-6c3e216283e9.png)
+
+> Among **T(n-1) and C**, **T(n-1)** is the **recursion**. **C** is the **non-recursion**.
+
+> We have to **expand** the **recursion**, **non-recursion** cannot be expanded.
+
+![image](https://user-images.githubusercontent.com/54589605/233697401-e82c49ef-a401-4792-b906-37b345b07a44.png)
+![image](https://user-images.githubusercontent.com/54589605/233697573-31f71b9b-ec2d-4fd4-95fd-847a455f7e36.png)
+
+> Every level, **one** constant is coming.
+
+![image](https://user-images.githubusercontent.com/54589605/233698222-6264a3f6-3e69-411d-b1e4-dfa9b4aabd3a.png)
+
+> **T(n-k)** is the **recursive** term.
+
+> To stop the **recursion** on the **recursive** program, we need the **termination or base condition**.
+
+> We want to stop **T(n-k)**, so **n-k = 1** and we need to find the value of **k**, which is **n-k = 1 -> n = k + 1 -> k = n-1**. So, **k** value is **k = n-1**.
+
+> **T(1)** is **constant** time or **O(1)**.
+
+> The **bigger** function is **n**, so asymptotically it is **O(n)**.
+
+![image](https://user-images.githubusercontent.com/54589605/233700147-cc09d5ca-12f4-4f48-88a6-e2dc307db478.png)
+![image](https://user-images.githubusercontent.com/54589605/233700407-b4b5c1d3-885b-4cc9-b6c3-0ea3aa03d24b.png)
+
+> **Substitution method** means **substitution, substitution and substitution**, until **termination** happens. For **k** value of **k=n-1**, termination happened.
+
+> We will **expand** the **recursive** term.
+
+![image](https://user-images.githubusercontent.com/54589605/233758367-d50470c5-87ab-4b44-bb8e-88cf15239ee1.png)
+
+> The above **recurrence relation** is for **time**, that why we got **time**.
+
+> If the **recurrence relation** is for **value**, then we would get **value**.
+
+> If the **recurrence relation** is for **no. of multiplication**, then we would get **no. of multiplication **.
+
+### Value
+
+![image](https://user-images.githubusercontent.com/54589605/233758709-d9b4f641-f9cf-4db0-b8d2-2e0a6df0e97b.png)
+
+> If we solve the **above** one then we will get **value**.
+
+> **Recursion** is **important**.
+
+![image](https://user-images.githubusercontent.com/54589605/233758736-c210dcc9-673c-4d39-86c4-e49c6313fe58.png)
+
+> Expand only **recursion**.
+
+![image](https://user-images.githubusercontent.com/54589605/233758859-2fac867d-d4e2-4c0a-8817-ef507ad83e7b.png)
+
+> If we substitude **3** times, then we will get **3** non-recursive terms.
+
+![image](https://user-images.githubusercontent.com/54589605/233758972-090d3a66-5d71-4a38-85bf-74ccb6f4af38.png)
+
+> Always substitude for **3** times.
+ 
+![image](https://user-images.githubusercontent.com/54589605/233759087-4269be1f-92ce-4c94-9aa0-0a0556f44a5d.png)
+
+> If we substitude **2**, then everything will come in-terms of **2**.
+
+![image](https://user-images.githubusercontent.com/54589605/233759198-6f9b5dfa-faae-4259-b989-edf9d4cef98b.png)
+
+> After going **3** times, we will go for **k** times.
+
+> To stop **T(n-k)** recursion, we have to put **n-k=1**, as **1** is the **termination condition** here and we get the value of **k**. The value of **k** is **n-1** and we substituted **n-1** in place of **k** in the equation.
+
+> After substitution, only the **first** term is having **T** and the 2nd term is not having any **T**. Only the **first** term having **T** and the rest terms not having **T**.
+
+![image](https://user-images.githubusercontent.com/54589605/233759412-2b65d574-5d99-4aee-812d-a127932ed198.png)
+
+> This is the **recurrence relation** for **value** and we got **value** which is **n!**.
+
+* If we written for **value**, value will come.
+* If we written for **time**, time will come.
+* If we written for **no. of multiplication**, multiplication will come.
+
+* All of the **recurrence relation** came from the **same program**.
+
+* One **recursive** program, having many **recurrence relation**.
+
+* Explain **substitution method**.
+
+> Substitude the given function again and again, until **termination** condition will happened.
+
+1) Substitude the given function for **3** times.
+2) We have to find the **pattern** for substitution. After **3rd** step, we will stop and observer to find the **pattern**.
+
+![image](https://user-images.githubusercontent.com/54589605/233759917-32d1f2c2-405c-43ce-87a2-012fa5448bf0.png)
+![image](https://user-images.githubusercontent.com/54589605/233759935-7dc06382-d6d9-46d8-8870-3976e84c0129.png)
+
+* We did with **recursion**.
+
+> We are **substraction by 1**, that's why we getting **one-one** difference.
+
+> If we are **substraction by 2**, then we will get **two-two** difference.
+
+> Whatever we substract, accordingly the **difference** will come.
+
+![image](https://user-images.githubusercontent.com/54589605/233704226-467672ee-2cae-47b0-927a-b0b86bb9b4ad.png)
+![image](https://user-images.githubusercontent.com/54589605/233704487-e4838f75-f246-4b7a-af33-153d37c79582.png)
+
+> If we substitude **3**, then everything will come in-terms of **3**. As, we did in **3**, that's why **T(n-3)** came. That **3** is **3** times.
+
+> To stop **T(n-k)**, we have to put **n-k=1**, as **1** is the **termination** condition and it is **T(1)** and we get the value of **k**. The value of **k** is **n-1** and we substituted **n-1** in place of **k** in the equation.
+
+> So we got **n!**. **n!** is the **actual answer**.
+
+> If **n!** is not there in the options then, **n! = O(n^n)** and **n! = omega(2^n)**.
+
+* **n^n** is **bigger** compared to **n!**.
+* **2^n** is **smaller** compared to **n!**.
+
+> **Big-O and omega** are not **exact** they are **upper and lower** bound respectively.
+
+![image](https://user-images.githubusercontent.com/54589605/233705313-2b5853f1-6026-4b99-a776-e7778edf4e42.png)
+![image](https://user-images.githubusercontent.com/54589605/233760329-55cf651a-0cad-446e-a84f-920ec3cf3585.png)
+
+> If **n!* is not there in the options then, **upper bound** with **O(n^n)** or **lower bound** with **omega(2^n)**, will be there.
+
+* One recursion program in **GATE** exam will be given. Find the **time complexity** of the recursive program.
+
+> Write **recurrence relation** for **time**.
+
+![image](https://user-images.githubusercontent.com/54589605/233760472-74046fec-b169-4614-a8cd-7c23e43b6bd8.png)
+![image](https://user-images.githubusercontent.com/54589605/233760485-84ec8ae1-bb5c-4b60-a753-54ca4570d372.png)
+![image](https://user-images.githubusercontent.com/54589605/233760493-2e5be1b3-7591-4585-bf8b-bf62fa0850dc.png)
+
+> There are **3** methods but out of all of them **substitution** method is the **most** powerful.
+
+> **Substitution** method  will solve every problem.
+
+> For every **recursion** program, write it's **recurrence relation** and after that, solve it using one of the **3** methods.
+
+## Fibonacci Series
+
+![image](https://user-images.githubusercontent.com/54589605/233760752-75171d36-7081-4ead-9926-bcf000abdad2.png)
+![image](https://user-images.githubusercontent.com/54589605/233762479-02aba72a-0233-4f36-bae3-504045580e1e.png)
+
+> Previous **two** summation will give **next**.
+
+> Fibonacci series having **two** termiantion conditions.
+
+![image](https://user-images.githubusercontent.com/54589605/233762646-c7d54a1e-9cb5-4340-ae46-73d45347fab9.png)
+![image](https://user-images.githubusercontent.com/54589605/233762811-f88b5a48-7914-4ae2-9b8f-91ff447a8d90.png)
+
+> We are substituting **two** times. So **Binary tree** coming.
+
+![image](https://user-images.githubusercontent.com/54589605/233762872-f6d32a93-bcd2-4364-83b5-b00a51f6e236.png)
+
+* Binary Tree.
+
+![image](https://user-images.githubusercontent.com/54589605/233762838-974f71bd-644b-4006-bff1-a917f08bcedc.png)
+
+> It was **uniary** tree in the **previous** problem, as we were substituting only **one** time.
+
+* Write **3** recurrence relations(value, time and additions) for the **above** program.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Revision
+
+1) Asymptotic Notation and complexities -> Book and practice questions [21st April 2023]
+
+
+
+
+
+
+
+
+
+
+
+# Practice Questions
+
+* Link -> https://unacademy.com/course/complete-course-on-algorithms-gate/K8EKOMCE
+
+> Every video has **5** practice questions. Do them **regularly**.
+
+* Video 1 -> None given
+* Video 2 -> Done [19th April 2023]
+* Video 3 -> Done [19th April 2023]
+
+# Doubts
+
+## 1
+
+![1](https://user-images.githubusercontent.com/54589605/233017636-36e65fe8-d0c0-4ef0-948e-d8f9645f247b.png)
+
+
+## 2
+
+> We are using **log N base 2**, and **base 2**, because we are representing the no. in **binary** form or in **bits** form as asked in the question, they are the **same** thing.
+
+> For representing **15**, in **bits or binary** form, we have to do **log N base 2 -> log 15 base 2**, where **N=15**.
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/4E9F25BC81
+
+![2](https://user-images.githubusercontent.com/54589605/233017799-52346147-d5a1-432c-bfaa-8ddfbd134477.png)
+![image](https://user-images.githubusercontent.com/54589605/233018553-b142659f-ee7c-45b2-b0bd-8b007928fc56.png)
+
+## 3
+
+![3](https://user-images.githubusercontent.com/54589605/233019898-38cf80a1-b44e-48e8-a794-312ff2a60fcc.png)
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/E6B3684ACC
+
+> First remove the **common things** then do **log**.
+
+![image](https://user-images.githubusercontent.com/54589605/233023669-91b3d808-5d12-4f28-b7e8-6331db6c93c1.png)
+
+
+## 4
+
+* a^(log b base a) = b [**IMPORTANT FORMULAE**]
+
+![image](https://user-images.githubusercontent.com/54589605/233021203-b25194ef-9fa5-435f-846b-935fc93733b8.png)
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/3F80718DC8
+* Solution -> https://unacademy.com/goal/gate-cs-it/NVLIA/practice/PQQFK?topic_type=2&topic_group=PQQFK&type=4&quiz_uid=NXB8YCHZX9&educator_name=Subbarao+Lingamgunta&source=Course
+
+![image](https://user-images.githubusercontent.com/54589605/233022141-167e45cd-7b2e-471e-aef3-5ed97a89ad96.png)
+![image](https://user-images.githubusercontent.com/54589605/233022187-04dbc2c1-67b2-48a6-92cb-7483728d2784.png)
+
+* In Review
+
+## 5
+
+![image](https://user-images.githubusercontent.com/54589605/233143309-53f64a98-8648-4d74-ada3-5f47fee34cff.png)
+![image](https://user-images.githubusercontent.com/54589605/233143371-142812a5-a42e-40d2-bcb4-6df6e8e076b0.png)
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/B09B352AC7
+
+* Different question solution below
+
+![image](https://user-images.githubusercontent.com/54589605/233364266-c051146e-4cca-47f1-9875-c52c691b9e59.png)
+![image](https://user-images.githubusercontent.com/54589605/233364606-b78cf1a4-5d6e-495c-a84a-73533fee75d3.png)
+
+* **In Review**
+
+## 6
+
+![image](https://user-images.githubusercontent.com/54589605/233268478-2bd7e8f7-3837-4c1f-a1ae-6faf33493519.png)
+![image](https://user-images.githubusercontent.com/54589605/233268940-1c71cf55-13ca-4ede-9534-0e147445a75f.png)
+
+> **n** increases, value increases, **increasing function**.
+
+> **n** increases, value decreases, **decreasing function**.
+
+> Option **B** is **True** for **increasing function**. **False** for **decreasing function**.
+
+![image](https://user-images.githubusercontent.com/54589605/233268817-7507759a-bb8e-4fdc-88e1-aaf3635dfda4.png)
+
+> Time complexity is not mentioned in the question. Asymptotic notation does not bother about **constants**.
+
+![image](https://user-images.githubusercontent.com/54589605/233269230-67da1031-a388-4765-9c69-d5891cde532c.png)
+![image](https://user-images.githubusercontent.com/54589605/233269385-465bd05a-8122-443f-868f-1c9eb7726af3.png)
+
+* YES.
+
+> **Big-O, omega and theta** are applicable for **anything**.
+
+![image](https://user-images.githubusercontent.com/54589605/233268911-be152691-b35c-4371-8de6-3339c3790e29.png)
+
+
+
+
+
+
+
+
 
 
 
