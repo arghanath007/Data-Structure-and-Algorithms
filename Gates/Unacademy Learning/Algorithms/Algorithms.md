@@ -2732,7 +2732,7 @@ A) Infinite loop -> **NO**. Space is **limited**. Not possible.
 
 > It was **uniary** tree in the **previous** problem, as we were substituting only **one** time.
 
-* Write **3** recurrence relations(value, time and additions) for the **above** program.
+* Write **3** recurrence relations(value, time and additions) for the **fibonacci series** program.
 
 
 
