@@ -2263,6 +2263,10 @@ In the first image it is not comparable but in the 2nd image it is comparable? W
 
 * A, B and D are **correct**.
 
+![image](https://user-images.githubusercontent.com/54589605/233764629-14b6796c-7142-426a-b3f8-79d613be1f6a.png)
+![image](https://user-images.githubusercontent.com/54589605/233764633-fe897356-eade-44bd-85ce-bc174af6a579.png)
+
+
 ## GT-III (13) [20th April 2023]
 
 ## Recursion
@@ -2733,6 +2737,197 @@ A) Infinite loop -> **NO**. Space is **limited**. Not possible.
 > It was **uniary** tree in the **previous** problem, as we were substituting only **one** time.
 
 * Write **3** recurrence relations(value, time and additions) for the **fibonacci series** program.
+
+![image](https://user-images.githubusercontent.com/54589605/233764649-988fb885-2194-43c7-b95c-78168b4d500b.png)
+![image](https://user-images.githubusercontent.com/54589605/233764653-82063169-8bc8-41c5-a785-42cdaa0ccd6b.png)
+
+> Above **3** recurrence relations(value, time and additions) for the **fibonacci series** program.
+
+* Wrong. **n=1 and n=0** should be **together**, like is **below** shown by **sir**.
+
+![image](https://user-images.githubusercontent.com/54589605/233766292-f9859931-e76c-4570-8941-8aa6cb1d80a5.png)
+
+
+
+## GT-V (15) [22nd April 2023]
+
+> If **loop** is there, then only write **n**. Otherwise simply write, **+ c***.
+
+> Recursion people, everywhere same. Remaining things will only **differ**.
+
+* Write as it is, the **else** part, it is the **recurrence relation for value**.
+* Thinking about **loop**, it is the **recurrence relation for time complexity**.
+* Thinking about **addition**, it is the **recurrence relation for addition**.
+
+![image](https://user-images.githubusercontent.com/54589605/233765377-0ecfb03a-7d50-451d-b78d-8932e09a4c23.png)
+![image](https://user-images.githubusercontent.com/54589605/233766305-887431a6-5ac9-49d6-9525-e3748a2d1028.png)
+![image](https://user-images.githubusercontent.com/54589605/233766357-de3a5576-d315-492f-be0c-79903d629cff.png)
+
+> Beacuse **one** addition(+) is there in the **else** condition.
+
+> As there is no addition(+) is there in the **if** condition, that's we put **zero(0)**.
+
+> In the **else's** place there is **no loop**, that's why time complexity is **constant**, so, **+ c** in the **recurrence relation for time complexity**.
+
+> In **recurrence relation for value**, nothing to discuss, as it is. 
+
+![image](https://user-images.githubusercontent.com/54589605/233766508-378b8e99-1f37-4550-862e-3075644e895b.png)
+
+> We have to solve **recurrence relation for time complexity** to get the **time**.
+
+> In the above recurrence relation, more than **one** function calls is there.
+
+> It is taking time using **substitution method**, that's why we are using **recursive tree method**.
+
+## Recursive Tree method
+
+![image](https://user-images.githubusercontent.com/54589605/233766841-12f6b0d3-8e75-498d-9538-777123a13b12.png)
+![image](https://user-images.githubusercontent.com/54589605/233766959-52b93d54-7e17-4912-a732-e6aa65be82ff.png)
+
+> As there is more than **one** function calls, that's why we are using **recursive tree method**.
+
+> More than **one** function call, **recursive tree method** is **better**. [**IMPORTANT**]
+
+![image](https://user-images.githubusercontent.com/54589605/233767027-ef04f944-a5d4-45ce-8a1c-e14d02eda417.png)
+
+* Tree better.
+
+> We will use **substitution** method when there is only **one** function call.
+
+> **One** function call is there, that is also a **tree**, which is a **1-ary tree**.
+
+> For **three** function call, **recursive tree method** is **better**. **3-ary tree** will come here.
+
+![image](https://user-images.githubusercontent.com/54589605/233767306-7af90827-e822-40d7-bbef-8e812c0242e2.png)
+
+* Recurrence Relation for **time complexity**.
+
+> We cannot write **T(n/2) - T(n/2)**, since there is **no meaning** of **time complexity** substraction. As there are **two** function calls, we have to **add** the **time complexities**, even though there is **minus(-)** sign in between them. That's why we had to write, **T(n/2) + T(n/2) + c**. **+ c** is the **constant** time required to do the **substraction**.
+
+> As it is if we **write**, that is called as **value**. **T(n/2) - T(n/2) - n**, this is called as **value**.
+
+![image](https://user-images.githubusercontent.com/54589605/233767839-53869811-90c4-4b6b-a7e4-c33e804a2520.png)
+![image](https://user-images.githubusercontent.com/54589605/233767886-ee8f74d2-c566-4dbf-8b8a-5ffeb84a50b5.png)
+
+> Simplification is possible and now it looks like **one** function call, instead of **two** function calls. We can do **substitution** method for that reason.
+
+> But in **T(n-1) + T(n-2)**, simplification was not possible and it remained as **two** function calls, so we couldn't do **substitution** method there and had to use **recursive tree method**.
+
+![image](https://user-images.githubusercontent.com/54589605/233768003-45d0df7a-5f42-4f13-a630-676854845534.png)
+
+> In **recurrence relation for time complexity**, we would never see **minux(-)**.
+
+> **Minux(-)**, would be possible for other **recurrence relations**.
+
+> Until, **3** rounds/steps are **over** and the pattern is **identified**, don't do simplification. Keep it, as it is.
+
+![image](https://user-images.githubusercontent.com/54589605/233768449-b775285e-82d5-4c38-a033-f56e23231369.png)
+
+* 2 rounds are done.
+
+> After **3 rounds are done**, whatever came, it is in-terms of **3** only. Everything is in-terms of **3**.
+
+![image](https://user-images.githubusercontent.com/54589605/233768756-ba9e12cb-f5e0-409d-9e8b-c56a2b1c6f2d.png)
+![image](https://user-images.githubusercontent.com/54589605/233768858-822f5309-caa5-4f66-8581-2510b30632f4.png)
+
+> Until identified the **pattern**, don't do simplification.
+
+> After **k** times, **recursion** is still there. To stop the recursion, **T(n/2^k=1**, since **1** is the termination condition.
+
+![image](https://user-images.githubusercontent.com/54589605/233769141-968aa22c-daf8-494c-882e-7805f9fe1278.png)
+![image](https://user-images.githubusercontent.com/54589605/233769221-ef01b77f-bba9-466e-9b98-5989c871c6da.png)
+
+> If **termination condition(if condition)** not given in **GATE** exam, then take some **termination condition(if condition)** for **stopping** purpose. We can take some **constant**.
+
+![image](https://user-images.githubusercontent.com/54589605/233769264-1c09fb1b-9fac-4612-83c1-c7a0c3974f44.png)
+![image](https://user-images.githubusercontent.com/54589605/233769301-0d024c99-251a-4e20-8bc8-90daecd4d2ee.png)
+
+> Out of those **three** all are **right/correct**. Anyone we can use. All **three** we can use.
+
+![image](https://user-images.githubusercontent.com/54589605/233769555-1054dff3-5e71-44a8-ba76-05e0e3b666d3.png)
+![image](https://user-images.githubusercontent.com/54589605/233769716-d7a7b581-d66b-4c9a-a4ae-23aa1d1d4971.png)
+![image](https://user-images.githubusercontent.com/54589605/233769800-dce07ec1-9b15-4568-8afc-38ac920f515f.png)
+
+* GP series formula.
+* Sum of **n** terms in the GP series.
+* [a * (r^n -1)]/(r-1) -> Formula
+* a -> 2^0
+* r -> 2
+* n -> log n terms.
+
+![image](https://user-images.githubusercontent.com/54589605/233769642-97ddc9d0-96b0-4441-a666-68d022e22f44.png)
+![image](https://user-images.githubusercontent.com/54589605/233769653-111f55cc-15d5-437b-811e-a327c01e28b1.png)
+
+* Log formula
+
+![image](https://user-images.githubusercontent.com/54589605/233769671-cb66edf1-f278-4860-80cc-b9c3cd56abcd.png)
+
+* O(n)
+
+![image](https://user-images.githubusercontent.com/54589605/233769780-2b2935fa-53d4-4cf3-bf71-98ea38bbb7e5.png)
+
+## Steps for **Substitution method**
+
+> Substitution method is **easy**, if we do first **three** rounds properly.
+
+> First **three** rounds, don't do any simplification. Keep it as it is.
+
+> Do **three** rounds properly. Automatically remaining all will come.
+
+> After **three** rounds are over, observe **pattern**.
+
+> After **pattern** found, go **k** times.
+
+> After **k** times are over, find **k** value.
+
+> Some **series** will come, **solve** it.
+
+![image](https://user-images.githubusercontent.com/54589605/233770029-14819136-2042-4b17-96d0-8c4f70656cf4.png)
+![image](https://user-images.githubusercontent.com/54589605/233770040-fb1363aa-6407-42a0-8a16-b7399ad77269.png)
+
+> Time complexity cannot be **negative**. Time complexity is about **loops**. Small small **minus(-)** operations will take **constant** time.
+
+> How substracting **two** numbers can be **negative**. It cannot be **negative**.
+
+> Substracting, multiplying, adding **two** numbers is **constant** time.
+
+> Time complexity means **time** only. It cannot be **negative**.
+
+![image](https://user-images.githubusercontent.com/54589605/233770160-2277cac2-17c4-4bfa-ac84-ab43d9effcb2.png)
+
+> Until **yellow** part it is substitution method. Afterwards, normal mathematics.
+
+> The actual answer is **n + c * (n-1)**. **n** is the **larger** function.
+
+> Left and right side, **larger** function is same we can write **theta** also, which is **theta(n)**.
+
+> We could write, **O(n^2)** also, as **big-O** means **right** side is **bigger**.
+
+> We could write, **Omega(1)** also, as **omega** means **right** side is **smaller** or **left** side is **bigger**, same thing.
+
+![image](https://user-images.githubusercontent.com/54589605/233770673-1f5c3a3b-b22c-4553-899b-6f278df02402.png)
+
+> All are **correct**.
+
+![image](https://user-images.githubusercontent.com/54589605/233770685-76df770a-b146-4bc3-8bcf-5fc1cd18be60.png)
+
+* YES. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
