@@ -2980,13 +2980,90 @@ A) Infinite loop -> **NO**. Space is **limited**. Not possible.
 
 ![image](https://user-images.githubusercontent.com/54589605/233789962-c46e5afe-52f8-485a-9e40-dbf34d5c2072.png)
 
+## Doubt_Solving_Session (16) [22nd April 2023]
 
+> In the **first** question, first level cost is **n**. The no. of levels is **log n** because **T(n/2)**. So, the total cost is **n * log n**. **n * log n** is the **upper bound**. It will not go more/further than **n * log n**. 
 
+> If we are **substracting by 2** from every level, then the total **no. of levels** is **n/2**.
 
+![image](https://user-images.githubusercontent.com/54589605/233798106-642de703-7a34-4742-9632-cda154cef166.png)
 
+> **Two** times, we have substituted and we have **two** non-recursive terms.
 
+![image](https://user-images.githubusercontent.com/54589605/233798149-a0a3c8b6-0640-468f-9490-f4b53d69de81.png)
 
+> In the **first level**, **n** is the  non-recursive term.
 
+> In the **second level**, **n/2** is the  non-recursive term.
+
+> The **non-recursive terms** are different for both the levels.
+
+![image](https://user-images.githubusercontent.com/54589605/233798501-6cf106fe-fad7-4fb3-9051-706c7d54b96e.png)
+
+## Notes
+
+### GP Formula [**IMPORTANT**]
+
+![image](https://user-images.githubusercontent.com/54589605/233798538-4f4bb479-9704-4133-afd6-4d6b9869eed7.png)
+
+![image](https://user-images.githubusercontent.com/54589605/233798831-e2e624da-9924-4dee-9bb3-d90e9fd50ff0.png)
+
+> If **r** value is less than **1**, then **r^n** will still be **decreasing**. It will **decrease** more.
+
+![image](https://user-images.githubusercontent.com/54589605/233798855-75b61a92-35f3-4e7b-bce0-d69f102f950c.png)
+
+> If we doing **r^n** which is **function** time squaring, then it is closer to **zero(0)**.
+
+![image](https://user-images.githubusercontent.com/54589605/233799694-b46847eb-1b8d-4a62-95c1-c92df16102ba.png)
+
+> GP series, where **r** value is less than **1**, then the total answer is **O(1)**.
+
+![image](https://user-images.githubusercontent.com/54589605/233798974-8e086430-8ad5-4e8a-9129-daceb9838aa8.png)
+![image](https://user-images.githubusercontent.com/54589605/233798990-76ca0c09-7cc5-43ee-acd9-2d61898efb18.png)
+
+* O(n).
+
+> It is a **GP** series and **r** value is less than **1**. In a **GP** series if the **r** value is less than **1**, then whatever the **answer will come**, it will be a **constant**. [**IMPORTANT**]
+
+![image](https://user-images.githubusercontent.com/54589605/233799093-bd3fa76e-76d9-4891-895b-a5c38b60b8a1.png)
+![image](https://user-images.githubusercontent.com/54589605/233799105-e0964632-54ed-45fe-a9fe-8f24303b5928.png)
+![image](https://user-images.githubusercontent.com/54589605/233799123-f833db4b-3b72-4f63-8616-9651ad1970e8.png)
+
+> If the exact answer is **n**, then we can write **upper bound** as **O(n * logn)**.
+
+![image](https://user-images.githubusercontent.com/54589605/233799184-7e669bff-16f4-42a8-8326-77af95a44435.png)
+
+> If a series is a **decreasing GP**, then the answer is **constant or O(1)**.
+
+> If the **k** value is **log n**, then the **tree** contains **log n**  levels. The function is a **unary** tree, because of **one** function call.
+
+> **log n**  level tree means stack size is **log n**.
+
+> That **k** indicates, **stack size**.
+
+![image](https://user-images.githubusercontent.com/54589605/233799656-382d187b-c493-44a9-93ea-8852cbf4d722.png)
+
+> First level cost itself is **n**.
+
+> Last level cost itself is also **n**.
+
+* **Decreasing GP series** -> Whatever is the **first** term, final term is also **same**, because the people who came afterwards, they are **very small**, that's the reason.
+
+* **Decreasing GP series** is a **GP** series where the **r** value is less than **1**.
+
+> First term is almost the **answer** as later terms are almost **negligiable**.
+
+> **GP** series, where the **r** value is less than **1**, it is called as **decreasing GP series** and the **final answer** is **constant**.
+
+![image](https://user-images.githubusercontent.com/54589605/233800015-6b4fff64-699c-41af-b6e0-9968d4d271f6.png)
+
+> If **constant**, then how we got **O(n)**, because **n** is outside of the series and **n * 1 -> n** only.
+
+> **Recursion** means **tree** there and the **tree level** is **log n**.
+
+> It is a **unary tree** because of **one** function call.
+
+* Start from **50mins**.
 
 
 
