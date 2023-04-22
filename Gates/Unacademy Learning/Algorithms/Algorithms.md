@@ -2821,7 +2821,7 @@ A) Infinite loop -> **NO**. Space is **limited**. Not possible.
 ![image](https://user-images.githubusercontent.com/54589605/233022141-167e45cd-7b2e-471e-aef3-5ed97a89ad96.png)
 ![image](https://user-images.githubusercontent.com/54589605/233022187-04dbc2c1-67b2-48a6-92cb-7483728d2784.png)
 
-* In Review
+* **Solved**. Solutions available. 
 
 ## 5
 
@@ -2835,7 +2835,7 @@ A) Infinite loop -> **NO**. Space is **limited**. Not possible.
 ![image](https://user-images.githubusercontent.com/54589605/233364266-c051146e-4cca-47f1-9875-c52c691b9e59.png)
 ![image](https://user-images.githubusercontent.com/54589605/233364606-b78cf1a4-5d6e-495c-a84a-73533fee75d3.png)
 
-* **In Review**
+* **Solved**. Solutions available.
 
 ## 6
 
