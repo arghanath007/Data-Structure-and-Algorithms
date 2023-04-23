@@ -3144,6 +3144,81 @@ A) Infinite loop -> **NO**. Space is **limited**. Not possible.
 
 > Sometimes, it will **work**. Sometimes it will not **work**. May work and may not work. 
 
+![image](https://user-images.githubusercontent.com/54589605/233268911-be152691-b35c-4371-8de6-3339c3790e29.png)
+![image](https://user-images.githubusercontent.com/54589605/233816593-4d75210b-9c54-4670-bd4e-2af16bc05d26.png)
+![image](https://user-images.githubusercontent.com/54589605/233816640-dd7494f8-078a-4771-a12f-505edf2c1d75.png)
+![image](https://user-images.githubusercontent.com/54589605/233816820-169579ef-4903-478d-9e68-68a1dc972d4b.png)
+![image](https://user-images.githubusercontent.com/54589605/233816823-450dc81c-6ff0-44af-a7ff-fed732f73d0d.png)
+
+* All the **four** statements are **related**.
+
+![image](https://user-images.githubusercontent.com/54589605/233816854-df58b724-7006-4a79-adff-cbb03c3b2d75.png)
+![image](https://user-images.githubusercontent.com/54589605/233816887-b7ede2fa-7d73-4d4c-9509-0d553d511054.png)
+![image](https://user-images.githubusercontent.com/54589605/233816942-8122d152-b95e-4249-9cba-116d8a04bafb.png)
+
+* We can use any **one** of the above **four** statements as they all are **related**.
+
+![image](https://user-images.githubusercontent.com/54589605/233817709-3c6e6c72-29f9-488b-bee2-18ee6f4dbef8.png)
+
+> In **first and second** level, non-recursive term is **different**. The non-recursive term in the **first** level is **n** and on the **second** level is **n-1**.
+
+* **Different** means **series** coming.
+
+![image](https://user-images.githubusercontent.com/54589605/233817855-389c5de3-4355-470d-9771-ad5eb4792784.png)
+![image](https://user-images.githubusercontent.com/54589605/233818010-bc7dfbf1-80a9-42b3-aa1f-613402420b7b.png)
+![image](https://user-images.githubusercontent.com/54589605/233818046-23344188-c621-4fd7-a0f3-9303a8d0acdb.png)
+
+* The **first part(2^0,2^1,2^2......,2^(n-2),2^(n-1)** of every term is a **GP**.
+* The **second part(n-0, n-1, n-2,.....,3, 2, 1** of every term is an **AP**.
+
+> It is a combination of **AP and GP** series.
+
+![image](https://user-images.githubusercontent.com/54589605/233818137-fa3f7412-a9ea-4b95-98d2-97bf3492fbd5.png)
+
+## Solving **AP and GP** series combination. [**IMPORTANT**]
+
+> In the **GP** series, **r** value is **2**.
+
+> In the **AP** series, **r** value is **1 or -1**. **2nd term** minus(-) first term. (-1 -0) -> (-1). Common difference is **1**.
+
+1) Whatever is the **r** value in the **GP** series, here is it **2**, multiply it with the whole/total **series**. The power increases by **1**.
+
+![image](https://user-images.githubusercontent.com/54589605/233818524-f0e647e3-fb72-4a73-b8c0-66c125d023ab.png)
+
+2) After **multiplication** is over, **substract**, **T(n)** with **2T(n)**, which is **T(n) - 2T(2)**.
+
+![image](https://user-images.githubusercontent.com/54589605/233818654-6296a828-ccf9-4757-bda3-860c08ca9e84.png)
+
+* **AP and GP** series combination became **GP** series.
+
+![image](https://user-images.githubusercontent.com/54589605/233818718-5a2e05b1-dd95-4ea3-bea3-e0386626d262.png)
+
+* We got **Theta(2^n)**.
+
+![image](https://user-images.githubusercontent.com/54589605/233818994-eb3290f9-a3ca-4709-a00b-cdfff6f141e0.png)
+
+![image](https://user-images.githubusercontent.com/54589605/233819021-3a291c55-bb4d-492b-a224-e84b00755355.png)
+
+* It is another **AP and GP** combination series.
+* **First part** of every term is **AP** series and **difference(r)** is **10**. In **AP**, **substract**, second term by first term. **20 - 10 -> 10**. **Third** term by **second**, term and so on, **30 - 20 -> 10**
+
+* **Second part** of every term is **GP** series and **r** is **2^2**. In **GP**, **divide**, second term by first term. **2^11/2^9 -> 2^(11-9) -> 2^2 -> 4**. **Third** term by **second** term and so on.
+
+1) Multiply with the **r** value of **GP** series, so that the **powers** are **equal** and **substraction** will be **easier**.
+
+![image](https://user-images.githubusercontent.com/54589605/233819236-b7252aaf-7e9e-4ec8-a9e3-dbf9144c8dc6.png)
+![image](https://user-images.githubusercontent.com/54589605/233819262-7c117227-b1ce-4987-887b-38e3b2ce0e49.png)
+![image](https://user-images.githubusercontent.com/54589605/233819273-c4fdca7f-4d60-473a-a69e-9f455af4b43f.png)
+
+* If we are multiplying by **r** value, then all **powers** are **shifted** one position to the right, so that **GP** term powers are **equal** and we can easily **substract** the **AP** term. So, **AP** series is **cancelled** and we are left with **GP** series only.
+
+![image](https://user-images.githubusercontent.com/54589605/233819338-965c61b8-297c-4816-9987-6ecb87d88949.png)
+![image](https://user-images.githubusercontent.com/54589605/233819347-ed6e4b1c-261b-47f9-88c3-cac84a6b9504.png)
+
+## Practice
+
+![image](https://user-images.githubusercontent.com/54589605/233819352-857d2b46-889c-4790-b8a0-35ea2dc715a5.png)
+  
 
 
 
@@ -3274,9 +3349,6 @@ A) Infinite loop -> **NO**. Space is **limited**. Not possible.
 
 > **Big-O, omega and theta** are applicable for **anything**.
 
-![image](https://user-images.githubusercontent.com/54589605/233268911-be152691-b35c-4371-8de6-3339c3790e29.png)
-![image](https://user-images.githubusercontent.com/54589605/233816593-4d75210b-9c54-4670-bd4e-2af16bc05d26.png)
-![image](https://user-images.githubusercontent.com/54589605/233816640-dd7494f8-078a-4771-a12f-505edf2c1d75.png)
 
 
 
