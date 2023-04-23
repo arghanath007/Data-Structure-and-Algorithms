@@ -2866,21 +2866,21 @@ A) Infinite loop -> **NO**. Space is **limited**. Not possible.
 
 ![image](https://user-images.githubusercontent.com/54589605/233769780-2b2935fa-53d4-4cf3-bf71-98ea38bbb7e5.png)
 
-## Steps for **Substitution method**
+## Steps for **Substitution method** [**IMPORTANT**]
 
-> Substitution method is **easy**, if we do first **three** rounds properly.
+1) Substitution method is **easy**, if we do first **three** rounds properly.
 
-> First **three** rounds, don't do any simplification. Keep it as it is.
+2) First **three** rounds, don't do any simplification. Keep it as it is.
 
-> Do **three** rounds properly. Automatically remaining all will come.
+3) Do **three** rounds properly. Automatically remaining all will come.
 
-> After **three** rounds are over, observe **pattern**.
+4) After **three** rounds are over, observe **pattern**.
 
-> After **pattern** found, go **k** times.
+5) After **pattern** found, go **k** times.
 
-> After **k** times are over, find **k** value.
+6) After **k** times are over, find **k** value.
 
-> Some **series** will come, **solve** it.
+7) Some **series** will come, **solve** it.
 
 ![image](https://user-images.githubusercontent.com/54589605/233770029-14819136-2042-4b17-96d0-8c4f70656cf4.png)
 ![image](https://user-images.githubusercontent.com/54589605/233770040-fb1363aa-6407-42a0-8a16-b7399ad77269.png)
@@ -3061,9 +3061,97 @@ A) Infinite loop -> **NO**. Space is **limited**. Not possible.
 
 > **Recursion** means **tree** there and the **tree level** is **log n**.
 
-> It is a **unary tree** because of **one** function call.
+> It is a **unary tree** because of **one** function call, which is **T(n/2)** everytime.
 
-* Start from **50mins**.
+## Summary
+
+> From the above problem, the **total sum** of a **decreasing GP series** is **1**.
+
+![image](https://user-images.githubusercontent.com/54589605/233814340-b92070df-b303-41a5-9555-c658abe25879.png)
+
+* No problem. **T(1)** is **10** now.
+
+![image](https://user-images.githubusercontent.com/54589605/233814381-db6551f9-addd-4532-a593-b40a02ce5e3f.png)
+![image](https://user-images.githubusercontent.com/54589605/233814410-eda3c456-5940-4c66-b8ee-57008474e8d5.png)
+
+* No problem. **T(10)** is **10** now. Differ by only **constant**.
+
+> We can take anything as the **termination** condition, because it differs by only some small **constant**
+
+> **Termination** condition cannot have a **function**, it has to be a **constant**.
+
+![image](https://user-images.githubusercontent.com/54589605/233815059-75e73a4a-fbed-4afc-b095-a8b881312330.png)
+
+> In the above question, we got **n** as the non-recursive term for the **first level**.
+
+> In the above question, we got **n** also as the non-recursive term for the **second level**.
+
+> We got **n** as the as the non-recursive term for **first and second** level. 
+
+## Note
+
+* **First and second** level non-recursive term are **same**, which means **same** terms are coming. It is not a **series**. Further also, **same** will come. Series will not come.
+
+* If **First and second** level non-recursive terms **differ**, which means **series** coming.
+
+* If **First and second** level non-recursive terms **same**, which means **same** coming.
+
+> Recursion having clear behaviour, either **everytime changing** or **everytime same or not changing**. 
+
+## Note
+
+* If **base** same, then **powers** we have to **add**.  [**IMPORTANT**]
+
+![image](https://user-images.githubusercontent.com/54589605/233815380-802e4a6c-8cb6-410e-9b14-136b2dd8bfac.png)
+![image](https://user-images.githubusercontent.com/54589605/233815461-938a05b1-4b5c-4bd2-b025-ee06a6674ec5.png)
+
+* **Third** term also is **n**.
+
+* **First and second** level **same**, means **third** will also be **same**. This is **recursion**, a clear behaviour is followed.
+
+![image](https://user-images.githubusercontent.com/54589605/233815537-d8000013-4a05-4de9-b63a-16fa3a71aa3d.png)
+![image](https://user-images.githubusercontent.com/54589605/233815578-669cfdcd-dfa5-420e-92d4-dbe62c3bb85d.png)
+
+> Everything should be in-terms of **three** only.
+
+![image](https://user-images.githubusercontent.com/54589605/233815788-7290f49b-5fe9-4aa9-b584-3d0fbd3eef58.png)
+![image](https://user-images.githubusercontent.com/54589605/233815794-d7bd8606-2d0c-4455-82ea-fcd9c4fdd615.png)
+
+> **Theta** means **big-O and omega** also there.
+
+![image](https://user-images.githubusercontent.com/54589605/233815852-895090fe-baaa-4402-a0c6-b607ba3697c2.png)
+
+* Practice
+
+* Recursive program time complexity, how to calculate?
+
+1) Write Recurrence relation for **time**. Many Recurrence relation possible.
+2) Using one of the **three** methods(substitution, master's,recursive tree method) to find the time complexity of the recursive program.
+
+> If we apply everytime **sqrt(n) or n^(1/2)** in a loop, then we will get **log(log n)** as the **time complexity**.
+
+![image](https://user-images.githubusercontent.com/54589605/233816232-4e7aacbf-b783-4ed6-a67e-a3239d21406c.png)
+
+* i - 2 -> **n/2**
+* i / 2 **OR** i * 2 -> **log n**
+* everytime **root** operator **OR** i^(1/2) -> **log(log n)**.
+
+* First non-recursive term is **n**. Every time **root or n^(1/2)**, then the **no. of levels** is **log(log n)**.
+
+> **One** level cost is **n** and total levels is **log(log n)**. So, the total cost is **n * log(log n)**.
+
+![image](https://user-images.githubusercontent.com/54589605/233816294-eb887dfe-82ee-4d79-a135-0680c274ccdb.png)
+
+> Sometimes, it will **work**. Sometimes it will not **work**. May work and may not work. 
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3187,6 +3275,9 @@ A) Infinite loop -> **NO**. Space is **limited**. Not possible.
 > **Big-O, omega and theta** are applicable for **anything**.
 
 ![image](https://user-images.githubusercontent.com/54589605/233268911-be152691-b35c-4371-8de6-3339c3790e29.png)
+![image](https://user-images.githubusercontent.com/54589605/233816593-4d75210b-9c54-4670-bd4e-2af16bc05d26.png)
+![image](https://user-images.githubusercontent.com/54589605/233816640-dd7494f8-078a-4771-a12f-505edf2c1d75.png)
+
 
 
 
