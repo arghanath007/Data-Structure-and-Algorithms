@@ -2263,6 +2263,10 @@ In the first image it is not comparable but in the 2nd image it is comparable? W
 
 * A, B and D are **correct**.
 
+![image](https://user-images.githubusercontent.com/54589605/233764629-14b6796c-7142-426a-b3f8-79d613be1f6a.png)
+![image](https://user-images.githubusercontent.com/54589605/233764633-fe897356-eade-44bd-85ce-bc174af6a579.png)
+
+
 ## GT-III (13) [20th April 2023]
 
 ## Recursion
@@ -2732,11 +2736,564 @@ A) Infinite loop -> **NO**. Space is **limited**. Not possible.
 
 > It was **uniary** tree in the **previous** problem, as we were substituting only **one** time.
 
-* Write **3** recurrence relations(value, time and additions) for the **above** program.
+* Write **3** recurrence relations(value, time and additions) for the **fibonacci series** program.
+
+![image](https://user-images.githubusercontent.com/54589605/233764649-988fb885-2194-43c7-b95c-78168b4d500b.png)
+![image](https://user-images.githubusercontent.com/54589605/233764653-82063169-8bc8-41c5-a785-42cdaa0ccd6b.png)
+
+> Above **3** recurrence relations(value, time and additions) for the **fibonacci series** program.
+
+* Wrong. **n=1 and n=0** should be **together**, like is **below** shown by **sir**.
+
+![image](https://user-images.githubusercontent.com/54589605/233766292-f9859931-e76c-4570-8941-8aa6cb1d80a5.png)
+
+
+
+## GT-V (15) [22nd April 2023]
+
+> If **loop** is there, then only write **n**. Otherwise simply write, **+ c***.
+
+> Recursion people, everywhere same. Remaining things will only **differ**.
+
+* Write as it is, the **else** part, it is the **recurrence relation for value**.
+* Thinking about **loop**, it is the **recurrence relation for time complexity**.
+* Thinking about **addition**, it is the **recurrence relation for addition**.
+
+![image](https://user-images.githubusercontent.com/54589605/233765377-0ecfb03a-7d50-451d-b78d-8932e09a4c23.png)
+![image](https://user-images.githubusercontent.com/54589605/233766305-887431a6-5ac9-49d6-9525-e3748a2d1028.png)
+![image](https://user-images.githubusercontent.com/54589605/233766357-de3a5576-d315-492f-be0c-79903d629cff.png)
+
+> Beacuse **one** addition(+) is there in the **else** condition.
+
+> As there is no addition(+) is there in the **if** condition, that's we put **zero(0)**.
+
+> In the **else's** place there is **no loop**, that's why time complexity is **constant**, so, **+ c** in the **recurrence relation for time complexity**.
+
+> In **recurrence relation for value**, nothing to discuss, as it is. 
+
+![image](https://user-images.githubusercontent.com/54589605/233766508-378b8e99-1f37-4550-862e-3075644e895b.png)
+
+> We have to solve **recurrence relation for time complexity** to get the **time**.
+
+> In the above recurrence relation, more than **one** function calls is there.
+
+> It is taking time using **substitution method**, that's why we are using **recursive tree method**.
+
+## Recursive Tree method
+
+![image](https://user-images.githubusercontent.com/54589605/233766841-12f6b0d3-8e75-498d-9538-777123a13b12.png)
+![image](https://user-images.githubusercontent.com/54589605/233766959-52b93d54-7e17-4912-a732-e6aa65be82ff.png)
+
+> As there is more than **one** function calls, that's why we are using **recursive tree method**.
+
+> More than **one** function call, **recursive tree method** is **better**. [**IMPORTANT**]
+
+![image](https://user-images.githubusercontent.com/54589605/233767027-ef04f944-a5d4-45ce-8a1c-e14d02eda417.png)
+
+* Tree better.
+
+> We will use **substitution** method when there is only **one** function call.
+
+> **One** function call is there, that is also a **tree**, which is a **1-ary tree**.
+
+> For **three** function call, **recursive tree method** is **better**. **3-ary tree** will come here.
+
+![image](https://user-images.githubusercontent.com/54589605/233767306-7af90827-e822-40d7-bbef-8e812c0242e2.png)
+
+* Recurrence Relation for **time complexity**.
+
+> We cannot write **T(n/2) - T(n/2)**, since there is **no meaning** of **time complexity** substraction. As there are **two** function calls, we have to **add** the **time complexities**, even though there is **minus(-)** sign in between them. That's why we had to write, **T(n/2) + T(n/2) + c**. **+ c** is the **constant** time required to do the **substraction**.
+
+> As it is if we **write**, that is called as **value**. **T(n/2) - T(n/2) - n**, this is called as **value**.
+
+![image](https://user-images.githubusercontent.com/54589605/233767839-53869811-90c4-4b6b-a7e4-c33e804a2520.png)
+![image](https://user-images.githubusercontent.com/54589605/233767886-ee8f74d2-c566-4dbf-8b8a-5ffeb84a50b5.png)
+
+> Simplification is possible and now it looks like **one** function call, instead of **two** function calls. We can do **substitution** method for that reason.
+
+> But in **T(n-1) + T(n-2)**, simplification was not possible and it remained as **two** function calls, so we couldn't do **substitution** method there and had to use **recursive tree method**.
+
+![image](https://user-images.githubusercontent.com/54589605/233768003-45d0df7a-5f42-4f13-a630-676854845534.png)
+
+> In **recurrence relation for time complexity**, we would never see **minux(-)**.
+
+> **Minux(-)**, would be possible for other **recurrence relations**.
+
+> Until, **3** rounds/steps are **over** and the pattern is **identified**, don't do simplification. Keep it, as it is.
+
+![image](https://user-images.githubusercontent.com/54589605/233768449-b775285e-82d5-4c38-a033-f56e23231369.png)
+
+* 2 rounds are done.
+
+> After **3 rounds are done**, whatever came, it is in-terms of **3** only. Everything is in-terms of **3**.
+
+![image](https://user-images.githubusercontent.com/54589605/233768756-ba9e12cb-f5e0-409d-9e8b-c56a2b1c6f2d.png)
+![image](https://user-images.githubusercontent.com/54589605/233768858-822f5309-caa5-4f66-8581-2510b30632f4.png)
+
+> Until identified the **pattern**, don't do simplification.
+
+> After **k** times, **recursion** is still there. To stop the recursion, **T(n/2^k=1**, since **1** is the termination condition.
+
+![image](https://user-images.githubusercontent.com/54589605/233769141-968aa22c-daf8-494c-882e-7805f9fe1278.png)
+![image](https://user-images.githubusercontent.com/54589605/233769221-ef01b77f-bba9-466e-9b98-5989c871c6da.png)
+
+> If **termination condition(if condition)** not given in **GATE** exam, then take some **termination condition(if condition)** for **stopping** purpose. We can take some **constant**.
+
+![image](https://user-images.githubusercontent.com/54589605/233769264-1c09fb1b-9fac-4612-83c1-c7a0c3974f44.png)
+![image](https://user-images.githubusercontent.com/54589605/233769301-0d024c99-251a-4e20-8bc8-90daecd4d2ee.png)
+
+> Out of those **three** all are **right/correct**. Anyone we can use. All **three** we can use.
+
+![image](https://user-images.githubusercontent.com/54589605/233769555-1054dff3-5e71-44a8-ba76-05e0e3b666d3.png)
+![image](https://user-images.githubusercontent.com/54589605/233769716-d7a7b581-d66b-4c9a-a4ae-23aa1d1d4971.png)
+![image](https://user-images.githubusercontent.com/54589605/233769800-dce07ec1-9b15-4568-8afc-38ac920f515f.png)
+
+* GP series formula. [**IMPORTANT**]
+* Sum of **n** terms in the GP series.
+* [a * (r^n -1)]/(r-1) -> Formula
+* a -> 2^0 [First element]
+* r -> 2  [First element]
+* n -> log n terms. [No. of terms]
+
+![image](https://user-images.githubusercontent.com/54589605/233769642-97ddc9d0-96b0-4441-a666-68d022e22f44.png)
+![image](https://user-images.githubusercontent.com/54589605/233769653-111f55cc-15d5-437b-811e-a327c01e28b1.png)
+
+* Log formula
+
+![image](https://user-images.githubusercontent.com/54589605/233769671-cb66edf1-f278-4860-80cc-b9c3cd56abcd.png)
+
+* O(n)
+
+![image](https://user-images.githubusercontent.com/54589605/233769780-2b2935fa-53d4-4cf3-bf71-98ea38bbb7e5.png)
+
+## Steps for **Substitution method** [**IMPORTANT**]
+
+1) Substitution method is **easy**, if we do first **three** rounds properly.
+
+2) First **three** rounds, don't do any simplification. Keep it as it is.
+
+3) Do **three** rounds properly. Automatically remaining all will come.
+
+4) After **three** rounds are over, observe **pattern**.
+
+5) After **pattern** found, go **k** times.
+
+6) After **k** times are over, find **k** value.
+
+7) Some **series** will come, **solve** it.
+
+![image](https://user-images.githubusercontent.com/54589605/233770029-14819136-2042-4b17-96d0-8c4f70656cf4.png)
+![image](https://user-images.githubusercontent.com/54589605/233770040-fb1363aa-6407-42a0-8a16-b7399ad77269.png)
+
+> Time complexity cannot be **negative**. Time complexity is about **loops**. Small small **minus(-)** operations will take **constant** time.
+
+> How substracting **two** numbers can be **negative**. It cannot be **negative**.
+
+> Substracting, multiplying, adding **two** numbers is **constant** time.
+
+> Time complexity means **time** only. It cannot be **negative**.
+
+![image](https://user-images.githubusercontent.com/54589605/233770160-2277cac2-17c4-4bfa-ac84-ab43d9effcb2.png)
+
+> Until **yellow** part it is substitution method. Afterwards, normal mathematics.
+
+> The actual answer is **n + c * (n-1)**. **n** is the **larger** function.
+
+> Left and right side, **larger** function is same we can write **theta** also, which is **theta(n)**.
+
+> We could write, **O(n^2)** also, as **big-O** means **right** side is **bigger**.
+
+> We could write, **Omega(1)** also, as **omega** means **right** side is **smaller** or **left** side is **bigger**, same thing.
+
+![image](https://user-images.githubusercontent.com/54589605/233770673-1f5c3a3b-b22c-4553-899b-6f278df02402.png)
+
+> All are **correct**.
+
+![image](https://user-images.githubusercontent.com/54589605/233770685-76df770a-b146-4bc3-8bcf-5fc1cd18be60.png)
+
+* YES. 
+
+![image](https://user-images.githubusercontent.com/54589605/233787571-8999712b-f02c-4028-95bb-7ae9fb5f61e5.png)
+![image](https://user-images.githubusercontent.com/54589605/233787452-41d8c2d6-b4de-4783-b60d-5072aa03b510.png)
+
+* O(n^(log 7 base 2).
+
+![image](https://user-images.githubusercontent.com/54589605/233788388-ae6b1034-2736-49af-9bd1-ef933ccc4a72.png)
+![image](https://user-images.githubusercontent.com/54589605/233788650-6fe4c4b7-4ec5-4bb9-b100-539656ab77b4.png)
+
+* All are **correct**.
+
+> Explained how to solve, **Even no. squared series**. [**IMPORTANT**]
+
+> Explained how to solve, **'N' natural no. squared series**. [**IMPORTANT**]
+
+![image](https://user-images.githubusercontent.com/54589605/233789454-850bcaae-ff22-44fc-aa4f-69057b3cbc80.png)
+
+* **'N' natural no. squared series** formula **minus(-)**, **Even no. squared series**, we get **odd numbers**
+* n*(n+1)*(2*n + 1) - [(n/2) * [(n/2 + 1)] * [(2 * n)/2 + 1]] -> **O(n^3)**
+* **O(n^3)**
+
+![image](https://user-images.githubusercontent.com/54589605/233788875-da75f67e-4d17-49f9-ae0f-0b55a89b6ae0.png)
+
+> **Recursion** means we are doing **many** times. Everytimes, **one term** will come.
+
+> If at all, the **recurrence relation** is for **time complexity**, then **every term** is the **time** for that specific level.
+
+> If at all, the **recurrence relation** is for **value**, then **every term** is the **value** for that specific level.
+
+> When solving **recurrence relation**, we are getting **some series** inside. Sometimes, we will get **GP**. Sometimes, we will get **AP**.
+
+![image](https://user-images.githubusercontent.com/54589605/233788973-2412c316-19ee-4224-8a91-f71f74cd669b.png)
+
+> Above **recurrence relation** is for **time complexity** or **time** purpose. Level to level, **time** is **increasing**. It is a **binary** tree.
+
+> Level to level, function calls are **increasing**, so **time** also **increasing**.
+
+> Whenever we are solving **recurrence relation** is for **time complexity** or **time** purpose, every time, we are getting **one** term, that **term** is **time** at that **level**.
+
+> Whenever we are solving **recurrence relation** is for **value** purpose, every time, we are getting **one** term, that **term** is **value** at that **level**.
+
+![image](https://user-images.githubusercontent.com/54589605/233789603-ae8bd576-5932-484c-8c0e-f1f77b99ed52.png)
+![image](https://user-images.githubusercontent.com/54589605/233789658-355a089e-4ef5-4c85-b41b-97294122d29b.png)
+
+> The actual answer is **Theta(n^3)**.
+
+> All **three** with **green ticks or check marks** are **correct**.
+
+> Out of the **three**, only **one** is available.
+
+* Assume that all **three** are available and we can choose **one only**? Which one we should choose? 
+
+> **Theta**, because **theta** means **big-O and omega** are also possible. **Theta** means we selected **all**.
+
+> If, **MSQ**, then select **all three**.
+
+> If, **MCQ**, then select **Theta**.
+
+![image](https://user-images.githubusercontent.com/54589605/233789850-4a6c1cd8-d7de-4239-9dec-c0681fd011ae.png)
+![image](https://user-images.githubusercontent.com/54589605/233789860-0ed01533-0865-420d-99e1-73de6eb50614.png)
+![image](https://user-images.githubusercontent.com/54589605/233789908-027eb96a-2406-4204-b2d6-c5df235fb106.png)
+
+> If, **MSQ**, then select **all** of them.
+
+## Practice
+
+![image](https://user-images.githubusercontent.com/54589605/233789962-c46e5afe-52f8-485a-9e40-dbf34d5c2072.png)
+
+## Doubt_Solving_Session (16) [22nd April 2023]
+
+> In the **first** question, first level cost is **n**. The no. of levels is **log n** because **T(n/2)**. So, the total cost is **n * log n**. **n * log n** is the **upper bound**. It will not go more/further than **n * log n**. 
+
+> If we are **substracting by 2** from every level, then the total **no. of levels** is **n/2**.
+
+![image](https://user-images.githubusercontent.com/54589605/233798106-642de703-7a34-4742-9632-cda154cef166.png)
+
+> **Two** times, we have substituted and we have **two** non-recursive terms.
+
+![image](https://user-images.githubusercontent.com/54589605/233798149-a0a3c8b6-0640-468f-9490-f4b53d69de81.png)
+
+> In the **first level**, **n** is the  non-recursive term.
+
+> In the **second level**, **n/2** is the  non-recursive term.
+
+> The **non-recursive terms** are different for both the levels.
+
+![image](https://user-images.githubusercontent.com/54589605/233798501-6cf106fe-fad7-4fb3-9051-706c7d54b96e.png)
+
+## Notes
+
+### GP Formula [**IMPORTANT**]
+
+![image](https://user-images.githubusercontent.com/54589605/233798538-4f4bb479-9704-4133-afd6-4d6b9869eed7.png)
+
+![image](https://user-images.githubusercontent.com/54589605/233798831-e2e624da-9924-4dee-9bb3-d90e9fd50ff0.png)
+
+> If **r** value is less than **1**, then **r^n** will still be **decreasing**. It will **decrease** more.
+
+![image](https://user-images.githubusercontent.com/54589605/233798855-75b61a92-35f3-4e7b-bce0-d69f102f950c.png)
+
+> If we doing **r^n** which is **function** time squaring, then it is closer to **zero(0)**.
+
+![image](https://user-images.githubusercontent.com/54589605/233799694-b46847eb-1b8d-4a62-95c1-c92df16102ba.png)
+
+> GP series, where **r** value is less than **1**, then the total answer is **O(1)**.
+
+![image](https://user-images.githubusercontent.com/54589605/233798974-8e086430-8ad5-4e8a-9129-daceb9838aa8.png)
+![image](https://user-images.githubusercontent.com/54589605/233798990-76ca0c09-7cc5-43ee-acd9-2d61898efb18.png)
+
+* O(n).
+
+> It is a **GP** series and **r** value is less than **1**. In a **GP** series if the **r** value is less than **1**, then whatever the **answer will come**, it will be a **constant**. [**IMPORTANT**]
+
+![image](https://user-images.githubusercontent.com/54589605/233799093-bd3fa76e-76d9-4891-895b-a5c38b60b8a1.png)
+![image](https://user-images.githubusercontent.com/54589605/233799105-e0964632-54ed-45fe-a9fe-8f24303b5928.png)
+![image](https://user-images.githubusercontent.com/54589605/233799123-f833db4b-3b72-4f63-8616-9651ad1970e8.png)
+
+> If the exact answer is **n**, then we can write **upper bound** as **O(n * logn)**.
+
+![image](https://user-images.githubusercontent.com/54589605/233799184-7e669bff-16f4-42a8-8326-77af95a44435.png)
+
+> If a series is a **decreasing GP**, then the answer is **constant or O(1)**.
+
+> If the **k** value is **log n**, then the **tree** contains **log n**  levels. The function is a **unary** tree, because of **one** function call.
+
+> **log n**  level tree means stack size is **log n**.
+
+> That **k** indicates, **stack size**.
+
+![image](https://user-images.githubusercontent.com/54589605/233799656-382d187b-c493-44a9-93ea-8852cbf4d722.png)
+
+> First level cost itself is **n**.
+
+> Last level cost itself is also **n**.
+
+* **Decreasing GP series** -> Whatever is the **first** term, final term is also **same**, because the people who came afterwards, they are **very small**, that's the reason.
+
+* **Decreasing GP series** is a **GP** series where the **r** value is less than **1**.
+
+> First term is almost the **answer** as later terms are almost **negligiable**.
+
+> **GP** series, where the **r** value is less than **1**, it is called as **decreasing GP series** and the **final answer** is **constant**.
+
+![image](https://user-images.githubusercontent.com/54589605/233800015-6b4fff64-699c-41af-b6e0-9968d4d271f6.png)
+
+> If **constant**, then how we got **O(n)**, because **n** is outside of the series and **n * 1 -> n** only.
+
+> **Recursion** means **tree** there and the **tree level** is **log n**.
+
+> It is a **unary tree** because of **one** function call, which is **T(n/2)** everytime.
+
+## Summary
+
+> From the above problem, the **total sum** of a **decreasing GP series** is **1**.
+
+![image](https://user-images.githubusercontent.com/54589605/233814340-b92070df-b303-41a5-9555-c658abe25879.png)
+
+* No problem. **T(1)** is **10** now.
+
+![image](https://user-images.githubusercontent.com/54589605/233814381-db6551f9-addd-4532-a593-b40a02ce5e3f.png)
+![image](https://user-images.githubusercontent.com/54589605/233814410-eda3c456-5940-4c66-b8ee-57008474e8d5.png)
+
+* No problem. **T(10)** is **10** now. Differ by only **constant**.
+
+> We can take anything as the **termination** condition, because it differs by only some small **constant**
+
+> **Termination** condition cannot have a **function**, it has to be a **constant**.
+
+![image](https://user-images.githubusercontent.com/54589605/233815059-75e73a4a-fbed-4afc-b095-a8b881312330.png)
+
+> In the above question, we got **n** as the non-recursive term for the **first level**.
+
+> In the above question, we got **n** also as the non-recursive term for the **second level**.
+
+> We got **n** as the as the non-recursive term for **first and second** level. 
+
+## Note
+
+* **First and second** level non-recursive term are **same**, which means **same** terms are coming. It is not a **series**. Further also, **same** will come. Series will not come.
+
+* If **First and second** level non-recursive terms **differ**, which means **series** coming.
+
+* If **First and second** level non-recursive terms **same**, which means **same** coming.
+
+> Recursion having clear behaviour, either **everytime changing** or **everytime same or not changing**. 
+
+## Note
+
+* If **base** same, then **powers** we have to **add**.  [**IMPORTANT**]
+
+![image](https://user-images.githubusercontent.com/54589605/233815380-802e4a6c-8cb6-410e-9b14-136b2dd8bfac.png)
+![image](https://user-images.githubusercontent.com/54589605/233815461-938a05b1-4b5c-4bd2-b025-ee06a6674ec5.png)
+
+* **Third** term also is **n**.
+
+* **First and second** level **same**, means **third** will also be **same**. This is **recursion**, a clear behaviour is followed.
+
+![image](https://user-images.githubusercontent.com/54589605/233815537-d8000013-4a05-4de9-b63a-16fa3a71aa3d.png)
+![image](https://user-images.githubusercontent.com/54589605/233815578-669cfdcd-dfa5-420e-92d4-dbe62c3bb85d.png)
+
+> Everything should be in-terms of **three** only.
+
+![image](https://user-images.githubusercontent.com/54589605/233815788-7290f49b-5fe9-4aa9-b584-3d0fbd3eef58.png)
+![image](https://user-images.githubusercontent.com/54589605/233815794-d7bd8606-2d0c-4455-82ea-fcd9c4fdd615.png)
+
+> **Theta** means **big-O and omega** also there.
+
+![image](https://user-images.githubusercontent.com/54589605/233815852-895090fe-baaa-4402-a0c6-b607ba3697c2.png)
+
+* Practice
+
+* Recursive program time complexity, how to calculate?
+
+1) Write Recurrence relation for **time**. Many Recurrence relation possible.
+2) Using one of the **three** methods(substitution, master's,recursive tree method) to find the time complexity of the recursive program.
+
+> If we apply everytime **sqrt(n) or n^(1/2)** in a loop, then we will get **log(log n)** as the **time complexity**.
+
+![image](https://user-images.githubusercontent.com/54589605/233816232-4e7aacbf-b783-4ed6-a67e-a3239d21406c.png)
+
+* i - 2 -> **n/2**
+* i / 2 **OR** i * 2 -> **log n**
+* everytime **root** operator **OR** i^(1/2) -> **log(log n)**.
+
+* First non-recursive term is **n**. Every time **root or n^(1/2)**, then the **no. of levels** is **log(log n)**.
+
+> **One** level cost is **n** and total levels is **log(log n)**. So, the total cost is **n * log(log n)**.
+
+![image](https://user-images.githubusercontent.com/54589605/233816294-eb887dfe-82ee-4d79-a135-0680c274ccdb.png)
+
+> Sometimes, it will **work**. Sometimes it will not **work**. May work and may not work. 
+
+![image](https://user-images.githubusercontent.com/54589605/233268911-be152691-b35c-4371-8de6-3339c3790e29.png)
+![image](https://user-images.githubusercontent.com/54589605/233816593-4d75210b-9c54-4670-bd4e-2af16bc05d26.png)
+![image](https://user-images.githubusercontent.com/54589605/233816640-dd7494f8-078a-4771-a12f-505edf2c1d75.png)
+![image](https://user-images.githubusercontent.com/54589605/233816820-169579ef-4903-478d-9e68-68a1dc972d4b.png)
+![image](https://user-images.githubusercontent.com/54589605/233816823-450dc81c-6ff0-44af-a7ff-fed732f73d0d.png)
+
+* All the **four** statements are **related**.
+
+![image](https://user-images.githubusercontent.com/54589605/233816854-df58b724-7006-4a79-adff-cbb03c3b2d75.png)
+![image](https://user-images.githubusercontent.com/54589605/233816887-b7ede2fa-7d73-4d4c-9509-0d553d511054.png)
+![image](https://user-images.githubusercontent.com/54589605/233816942-8122d152-b95e-4249-9cba-116d8a04bafb.png)
+
+* We can use any **one** of the above **four** statements as they all are **related**.
+
+![image](https://user-images.githubusercontent.com/54589605/233817709-3c6e6c72-29f9-488b-bee2-18ee6f4dbef8.png)
+
+> In **first and second** level, non-recursive term is **different**. The non-recursive term in the **first** level is **n** and on the **second** level is **n-1**.
+
+* **Different** means **series** coming.
+
+![image](https://user-images.githubusercontent.com/54589605/233817855-389c5de3-4355-470d-9771-ad5eb4792784.png)
+![image](https://user-images.githubusercontent.com/54589605/233818010-bc7dfbf1-80a9-42b3-aa1f-613402420b7b.png)
+![image](https://user-images.githubusercontent.com/54589605/233818046-23344188-c621-4fd7-a0f3-9303a8d0acdb.png)
+
+* The **first part(2^0,2^1,2^2......,2^(n-2),2^(n-1)** of every term is a **GP**.
+* The **second part(n-0, n-1, n-2,.....,3, 2, 1** of every term is an **AP**.
+
+> It is a combination of **AP and GP** series.
+
+![image](https://user-images.githubusercontent.com/54589605/233818137-fa3f7412-a9ea-4b95-98d2-97bf3492fbd5.png)
+
+## Solving **AP and GP** series combination. [**IMPORTANT**]
+
+> In the **GP** series, **r** value is **2**.
+
+> In the **AP** series, **r** value is **1 or -1**. **2nd term** minus(-) first term. (-1 -0) -> (-1). Common difference is **1**.
+
+1) Whatever is the **r** value in the **GP** series, here is it **2**, multiply it with the whole/total **series**. The power increases by **1**.
+
+![image](https://user-images.githubusercontent.com/54589605/233818524-f0e647e3-fb72-4a73-b8c0-66c125d023ab.png)
+
+2) After **multiplication** is over, **substract**, **T(n)** with **2T(n)**, which is **T(n) - 2T(2)**.
+
+![image](https://user-images.githubusercontent.com/54589605/233818654-6296a828-ccf9-4757-bda3-860c08ca9e84.png)
+
+* **AP and GP** series combination became **GP** series.
+
+![image](https://user-images.githubusercontent.com/54589605/233818718-5a2e05b1-dd95-4ea3-bea3-e0386626d262.png)
+
+* We got **Theta(2^n)**.
+
+![image](https://user-images.githubusercontent.com/54589605/233818994-eb3290f9-a3ca-4709-a00b-cdfff6f141e0.png)
+
+![image](https://user-images.githubusercontent.com/54589605/233819021-3a291c55-bb4d-492b-a224-e84b00755355.png)
+
+* It is another **AP and GP** combination series.
+* **First part** of every term is **AP** series and **difference(r)** is **10**. In **AP**, **substract**, second term by first term. **20 - 10 -> 10**. **Third** term by **second**, term and so on, **30 - 20 -> 10**
+
+* **Second part** of every term is **GP** series and **r** is **2^2**. In **GP**, **divide**, second term by first term. **2^11/2^9 -> 2^(11-9) -> 2^2 -> 4**. **Third** term by **second** term and so on.
+
+1) Multiply with the **r** value of **GP** series, so that the **powers** are **equal** and **substraction** will be **easier**.
+
+![image](https://user-images.githubusercontent.com/54589605/233819236-b7252aaf-7e9e-4ec8-a9e3-dbf9144c8dc6.png)
+![image](https://user-images.githubusercontent.com/54589605/233819262-7c117227-b1ce-4987-887b-38e3b2ce0e49.png)
+![image](https://user-images.githubusercontent.com/54589605/233819273-c4fdca7f-4d60-473a-a69e-9f455af4b43f.png)
+
+* If we are multiplying by **r** value, then all **powers** are **shifted** one position to the right, so that **GP** term powers are **equal** and we can easily **substract** the **AP** term. So, **AP** series is **cancelled** and we are left with **GP** series only.
+
+![image](https://user-images.githubusercontent.com/54589605/233819338-965c61b8-297c-4816-9987-6ecb87d88949.png)
+![image](https://user-images.githubusercontent.com/54589605/233819347-ed6e4b1c-261b-47f9-88c3-cac84a6b9504.png)
+
+## Practice
+
+![image](https://user-images.githubusercontent.com/54589605/233819352-857d2b46-889c-4790-b8a0-35ea2dc715a5.png)
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Practice Videos (27th April 2023)
+
+* Video 1 -> https://unacademy.com/class/algo-practice-class/7THGBZDH
+
+![image](https://user-images.githubusercontent.com/54589605/234853417-e669a0b7-d9be-44b4-a5e0-2a36673a53c2.png)
+![image](https://user-images.githubusercontent.com/54589605/234853698-bd0014ff-46e9-40e7-bbdf-1de7ad565114.png)
+![image](https://user-images.githubusercontent.com/54589605/234854938-ea1c37a3-d859-45ec-b208-6575eee2136f.png)
+![image](https://user-images.githubusercontent.com/54589605/234854964-1a82df9d-4697-4455-bb9d-68e7f142b7ff.png)
+![image](https://user-images.githubusercontent.com/54589605/234855044-7c56e6c0-4692-41b2-ae0e-f408def16721.png)
+![image](https://user-images.githubusercontent.com/54589605/234856190-b20b8022-592c-44ca-84fe-019376de2c0c.png)
+![image](https://user-images.githubusercontent.com/54589605/234856332-14f82fc0-4d7b-431e-8f5e-46fc25dc9317.png)
+![image](https://user-images.githubusercontent.com/54589605/234856402-77f82ea8-4179-44c3-8b8c-296edb426c07.png)
+
+* Asymptotically equal. All are **correct**.
+
+![image](https://user-images.githubusercontent.com/54589605/234856643-82c3285d-1d30-460f-adf7-f927a272114e.png)
+![image](https://user-images.githubusercontent.com/54589605/234856712-eeefa6bd-8952-47e3-8589-216a2e9aeeee.png)
+
+![image](https://user-images.githubusercontent.com/54589605/234860633-1546e7d0-1d29-41ff-bb4b-25bfc1a05811.png)
+![image](https://user-images.githubusercontent.com/54589605/234860419-6e3e1f7c-b1ab-45ba-8aa6-de716c04770c.png)
+![image](https://user-images.githubusercontent.com/54589605/234860461-aaf98de4-3d7e-4fa5-8180-52240dcb25b1.png)
+
+* Condition is on **i** only.
+
+![image](https://user-images.githubusercontent.com/54589605/234860977-3ec1c234-bb7a-4060-986e-40b5baac02e1.png)
+![image](https://user-images.githubusercontent.com/54589605/234861169-d8ac0f48-80a7-433a-9344-96c1c837c2e4.png)
+
+## GP series formula [**IMPORTANT**]
+
+![image](https://user-images.githubusercontent.com/54589605/234861705-2e2b5a1b-3c0a-4d70-b9d5-84c555bd5748.png)
+![image](https://user-images.githubusercontent.com/54589605/234861859-aa184a8e-fca2-47e6-9afe-12c77c3e99a7.png)
+
+![image](https://user-images.githubusercontent.com/54589605/234862871-743256f9-17ca-45ee-9e6d-26da870e800b.png)
+
+> For **larger n** values, which is **1/(2^(log n))**, the **(2^(log n)** value becomes **infinite**, so, **1/(2^(log n))** becomes **zero(0)** as **1/(infinite)** is **zero(0)**.
+
+![image](https://user-images.githubusercontent.com/54589605/234863186-efd5b290-4479-4a50-9207-b303d282b293.png)
+![image](https://user-images.githubusercontent.com/54589605/234863408-ac97ee62-2b3d-414e-b0fc-2aeb78113bd2.png)
+![image](https://user-images.githubusercontent.com/54589605/234863640-5cfc9432-c689-451a-aa9d-da12f285ffa7.png)
+
+> There is **no negatives** in the  above **given series**. If we finally got **negative**, then we have **done something** wrong while solving the series.
+
+> If we use the **wrong formulae**, then we will get **negative** as an answer for the series.
+
+* Time Complexity is **O(log n)**
+
+> Since only **i** was there in the **condition**.
+
+* **j** value is **n**.
+
+![image](https://user-images.githubusercontent.com/54589605/234864089-e3a92b6b-1f36-4573-a554-333420c6882a.png)
+![image](https://user-images.githubusercontent.com/54589605/234865925-f6faa930-f803-4325-9278-b0e0f2f9f561.png)
+![image](https://user-images.githubusercontent.com/54589605/234870341-b33d9ff1-182d-4029-aeba-a624af30f9e2.png)
 
 
 
@@ -2759,14 +3316,6 @@ A) Infinite loop -> **NO**. Space is **limited**. Not possible.
 ## Revision
 
 1) Asymptotic Notation and complexities -> Book and practice questions [21st April 2023]
-
-
-
-
-
-
-
-
 
 
 
@@ -2859,7 +3408,7 @@ A) Infinite loop -> **NO**. Space is **limited**. Not possible.
 
 > **Big-O, omega and theta** are applicable for **anything**.
 
-![image](https://user-images.githubusercontent.com/54589605/233268911-be152691-b35c-4371-8de6-3339c3790e29.png)
+
 
 
 
