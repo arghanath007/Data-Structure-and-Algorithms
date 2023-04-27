@@ -3215,9 +3215,71 @@ A) Infinite loop -> **NO**. Space is **limited**. Not possible.
 ![image](https://user-images.githubusercontent.com/54589605/233819338-965c61b8-297c-4816-9987-6ecb87d88949.png)
 ![image](https://user-images.githubusercontent.com/54589605/233819347-ed6e4b1c-261b-47f9-88c3-cac84a6b9504.png)
 
+![image](https://user-images.githubusercontent.com/54589605/234887810-428b32d7-2bb9-4c78-9da0-c2ad0f74cc94.png)
+![image](https://user-images.githubusercontent.com/54589605/234887828-59710426-16ff-4db0-a4ff-8fd21d72e953.png)
+![image](https://user-images.githubusercontent.com/54589605/234887858-00cbbe1d-2fad-4008-9899-5c39082065d1.png)
+![image](https://user-images.githubusercontent.com/54589605/234887897-bdb8a9fc-8d8f-44a6-8bab-94ac605b03cb.png)
+![image](https://user-images.githubusercontent.com/54589605/234887931-da40d86d-b3cf-4009-8521-754bf57a311e.png)
+![image](https://user-images.githubusercontent.com/54589605/234887952-e20b9f3a-c772-424d-bf48-191338d648e6.png)
+![image](https://user-images.githubusercontent.com/54589605/234887973-186bf37e-e62e-4a5b-993c-4049e38af6f3.png)
+![image](https://user-images.githubusercontent.com/54589605/234887991-25669ed9-27cd-4e16-a422-e956b0952c1d.png)
+![image](https://user-images.githubusercontent.com/54589605/234888008-371e01a7-576b-41f0-bdaa-bb712517e0fe.png)
+![image](https://user-images.githubusercontent.com/54589605/234888018-0f6d3787-d94a-4d41-a105-279543a77b7b.png)
+![image](https://user-images.githubusercontent.com/54589605/234888049-47baec89-cd5f-4ca8-8f44-2672fff4201a.png)
+![image](https://user-images.githubusercontent.com/54589605/234888081-4c6c8233-4ed1-4f68-8035-48938fc80c19.png)
+![image](https://user-images.githubusercontent.com/54589605/234888102-2c052c8e-5d7e-46c3-83ae-f16dec2affc8.png)
+![image](https://user-images.githubusercontent.com/54589605/234888131-da3180de-d513-4f39-b7c9-08e1f356e4ba.png)
+![image](https://user-images.githubusercontent.com/54589605/234888155-698718b0-9847-42c7-96d9-f52ec9cdb31c.png)
+![image](https://user-images.githubusercontent.com/54589605/234888207-fa4eec87-27eb-4c7d-a756-701830dbd610.png)
+![image](https://user-images.githubusercontent.com/54589605/234888228-ec07d27b-8dff-4822-9122-d2ab52658880.png)
+![image](https://user-images.githubusercontent.com/54589605/234888257-afe5bdb6-e09f-42d8-9ab5-40305685f941.png)
+
+
 ## Practice
 
 ![image](https://user-images.githubusercontent.com/54589605/233819352-857d2b46-889c-4790-b8a0-35ea2dc715a5.png)
+
+* **Solved below**.
+
+## GT-VI (17) [27th April 2023]
+
+![image](https://user-images.githubusercontent.com/54589605/234893008-43b883e5-88ee-46d6-8de5-2310ba05ed85.png)
+![image](https://user-images.githubusercontent.com/54589605/234894122-cbfca89f-4745-4782-95ad-ed91efa1ff29.png)
+
+## Recursive Tree Method
+
+* More than **one** function call.
+
+> We are **dividing** by **two**, so we will see **log n** levels. The first level cost is **n** and every level cost is **n** as well. 
+
+> As first level cost and second level cost is the **same**, which is **n**, which means that they are **same/equal**, so no **series** will be **formed/created**.
+
+![image](https://user-images.githubusercontent.com/54589605/234905749-57ad9573-91b6-442b-ac1b-90b81961504c.png)
+![image](https://user-images.githubusercontent.com/54589605/234906326-540da068-7280-4e6f-bdf7-5e29cf0e316e.png)
+![image](https://user-images.githubusercontent.com/54589605/234912648-2c440ce0-dd2a-4e37-bfa6-1a93609f6697.png)
+![image](https://user-images.githubusercontent.com/54589605/234912911-db2228de-4bbc-48fc-a396-89c68f05959c.png)
+
+> So, the **time complexity** is **n  * log n** which is **n * (log n)**.
+
+![image](https://user-images.githubusercontent.com/54589605/234913630-675d138a-61ab-4895-9c37-24b673188511.png)
+![image](https://user-images.githubusercontent.com/54589605/234914175-c29c1502-42f9-42d7-af90-2f15b7a6d7a7.png)
+
+> Because of always **divide by 2**, we got **log n** levels.
+
+![image](https://user-images.githubusercontent.com/54589605/234914706-789c54d8-d5e7-4b3d-848c-e41e375c5d9a.png)
+
+
+![image](https://user-images.githubusercontent.com/54589605/234916641-387680af-58f7-4c2f-8a59-9d80e6418bf0.png)
+
+* Start from **1hr 13mins**.
+
+
+
+
+
+
+
+
 
 
 
