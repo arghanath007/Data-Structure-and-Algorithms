@@ -3218,7 +3218,6 @@ A) Infinite loop -> **NO**. Space is **limited**. Not possible.
 ## Practice
 
 ![image](https://user-images.githubusercontent.com/54589605/233819352-857d2b46-889c-4790-b8a0-35ea2dc715a5.png)
-  
 
 
 
@@ -3227,6 +3226,74 @@ A) Infinite loop -> **NO**. Space is **limited**. Not possible.
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Practice Videos (27th April 2023)
+
+* Video 1 -> https://unacademy.com/class/algo-practice-class/7THGBZDH
+
+![image](https://user-images.githubusercontent.com/54589605/234853417-e669a0b7-d9be-44b4-a5e0-2a36673a53c2.png)
+![image](https://user-images.githubusercontent.com/54589605/234853698-bd0014ff-46e9-40e7-bbdf-1de7ad565114.png)
+![image](https://user-images.githubusercontent.com/54589605/234854938-ea1c37a3-d859-45ec-b208-6575eee2136f.png)
+![image](https://user-images.githubusercontent.com/54589605/234854964-1a82df9d-4697-4455-bb9d-68e7f142b7ff.png)
+![image](https://user-images.githubusercontent.com/54589605/234855044-7c56e6c0-4692-41b2-ae0e-f408def16721.png)
+![image](https://user-images.githubusercontent.com/54589605/234856190-b20b8022-592c-44ca-84fe-019376de2c0c.png)
+![image](https://user-images.githubusercontent.com/54589605/234856332-14f82fc0-4d7b-431e-8f5e-46fc25dc9317.png)
+![image](https://user-images.githubusercontent.com/54589605/234856402-77f82ea8-4179-44c3-8b8c-296edb426c07.png)
+
+* Asymptotically equal. All are **correct**.
+
+![image](https://user-images.githubusercontent.com/54589605/234856643-82c3285d-1d30-460f-adf7-f927a272114e.png)
+![image](https://user-images.githubusercontent.com/54589605/234856712-eeefa6bd-8952-47e3-8589-216a2e9aeeee.png)
+
+![image](https://user-images.githubusercontent.com/54589605/234860633-1546e7d0-1d29-41ff-bb4b-25bfc1a05811.png)
+![image](https://user-images.githubusercontent.com/54589605/234860419-6e3e1f7c-b1ab-45ba-8aa6-de716c04770c.png)
+![image](https://user-images.githubusercontent.com/54589605/234860461-aaf98de4-3d7e-4fa5-8180-52240dcb25b1.png)
+
+* Condition is on **i** only.
+
+![image](https://user-images.githubusercontent.com/54589605/234860977-3ec1c234-bb7a-4060-986e-40b5baac02e1.png)
+![image](https://user-images.githubusercontent.com/54589605/234861169-d8ac0f48-80a7-433a-9344-96c1c837c2e4.png)
+
+## GP series formula [**IMPORTANT**]
+
+![image](https://user-images.githubusercontent.com/54589605/234861705-2e2b5a1b-3c0a-4d70-b9d5-84c555bd5748.png)
+![image](https://user-images.githubusercontent.com/54589605/234861859-aa184a8e-fca2-47e6-9afe-12c77c3e99a7.png)
+
+![image](https://user-images.githubusercontent.com/54589605/234862871-743256f9-17ca-45ee-9e6d-26da870e800b.png)
+
+> For **larger n** values, which is **1/(2^(log n))**, the **(2^(log n)** value becomes **infinite**, so, **1/(2^(log n))** becomes **zero(0)** as **1/(infinite)** is **zero(0)**.
+
+![image](https://user-images.githubusercontent.com/54589605/234863186-efd5b290-4479-4a50-9207-b303d282b293.png)
+![image](https://user-images.githubusercontent.com/54589605/234863408-ac97ee62-2b3d-414e-b0fc-2aeb78113bd2.png)
+![image](https://user-images.githubusercontent.com/54589605/234863640-5cfc9432-c689-451a-aa9d-da12f285ffa7.png)
+
+> There is **no negatives** in the  above **given series**. If we finally got **negative**, then we have **done something** wrong while solving the series.
+
+> If we use the **wrong formulae**, then we will get **negative** as an answer for the series.
+
+* Time Complexity is **O(log n)**
+
+> Since only **i** was there in the **condition**.
+
+* **j** value is **n**.
+
+![image](https://user-images.githubusercontent.com/54589605/234864089-e3a92b6b-1f36-4573-a554-333420c6882a.png)
+![image](https://user-images.githubusercontent.com/54589605/234865925-f6faa930-f803-4325-9278-b0e0f2f9f561.png)
+![image](https://user-images.githubusercontent.com/54589605/234870341-b33d9ff1-182d-4029-aeba-a624af30f9e2.png)
 
 
 
@@ -3249,14 +3316,6 @@ A) Infinite loop -> **NO**. Space is **limited**. Not possible.
 ## Revision
 
 1) Asymptotic Notation and complexities -> Book and practice questions [21st April 2023]
-
-
-
-
-
-
-
-
 
 
 
