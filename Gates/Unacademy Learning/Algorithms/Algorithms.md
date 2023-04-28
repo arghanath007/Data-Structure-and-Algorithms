@@ -3270,17 +3270,145 @@ A) Infinite loop -> **NO**. Space is **limited**. Not possible.
 
 
 ![image](https://user-images.githubusercontent.com/54589605/234916641-387680af-58f7-4c2f-8a59-9d80e6418bf0.png)
+![image](https://user-images.githubusercontent.com/54589605/235089348-8cc59b44-c155-485d-9c21-6b8512a8aeff.png)
 
-* Start from **1hr 13mins**.
+* **Divide by 5** is nothing but **multiply by 1/5**.
+* **Multiply by 4/5** is nothing but **divide by 5/4**.
 
+![image](https://user-images.githubusercontent.com/54589605/235089816-5a472128-dea9-49e0-8500-debfa0a9c0c7.png)
 
+* Second level total cost is **n** also.
 
+> As **first and second** level total cost are **same**, which is **n** only. So in the further levels, it is also **same**, which will be **n** only.
 
+![image](https://user-images.githubusercontent.com/54589605/235090535-90d4a5b1-032e-4875-80a6-5e9a57a32f1d.png)
+![image](https://user-images.githubusercontent.com/54589605/235090909-2ddce5a6-88b5-413e-b491-6acf88cd836d.png)
 
+> **Left and right** side values are **different** because we are **dividing** by **different** numbers.
 
+> **Left** base is **bigger** as it is **5**, compared to **5/4**, which is **5/4 -> 1.25**. 
 
+> Whichever **base** is **bigger** that is **smaller**.
 
+> **Base** is **small**, **bigger** value will come.
 
+> **Base** is **bigger**, **smaller** value will come.
+
+> As, **left** base is **bigger** so it has **smaller** value. So **right** is **bigger** as it has **smaller** base.
+
+> **Left** stopped somewhere in the **middle** and **right** is still going.
+
+![image](https://user-images.githubusercontent.com/54589605/235091531-24d400e8-fcb0-4063-91d5-3dec5bbaa618.png)
+![image](https://user-images.githubusercontent.com/54589605/235092157-a4da8955-2978-400e-94f9-ef06b4f2fb19.png)
+
+> In the **below** problem, the **base** difference didn't came because in both of them they were **divided by 2** only, so they were **same/equal**.
+
+![image](https://user-images.githubusercontent.com/54589605/235092201-3af3249a-d29a-41c5-a01c-c3db4f4b2134.png)
+![image](https://user-images.githubusercontent.com/54589605/235092750-f89b1dd4-a219-4567-bef4-eabe59af6110.png)
+![image](https://user-images.githubusercontent.com/54589605/235092839-194d0ad4-a197-4b1b-a5ea-0ba7e7b5c08b.png)
+![image](https://user-images.githubusercontent.com/54589605/235093104-8b9f4cb9-9097-40c8-aaf1-c203e1fc4f76.png)
+
+* Every level cost is **n**.
+
+![image](https://user-images.githubusercontent.com/54589605/235093994-d4577086-605c-4aec-a736-381851950898.png)
+
+> We **added** something, so we will get **upper bound**, when we **add** something.
+
+> We are **adding** all to get **n**.
+
+> As we go down, **left** people are **decreasing/missing** so it will be **less than n**.
+
+![image](https://user-images.githubusercontent.com/54589605/235094675-b5d205bb-5a13-4673-b95d-4f921fe9601c.png)
+
+> After **adding** extra with the **white color part** at the bottom of the **left side**, after adding all we got **n**. It is called as **upper bound**.
+
+* **Upper bound** means **right height** as it is **bigger**. So, until **right height** time, we **added 'n'**. 
+
+![image](https://user-images.githubusercontent.com/54589605/235097244-ba485295-582a-4ed6-a826-fbd411e1a8d2.png)
+
+* Right side is **bigger**, that's why **<=**.
+
+![image](https://user-images.githubusercontent.com/54589605/235097525-95fa7f30-1209-4a3e-8859-355877c26f84.png)
+
+> As we have **added** something, that's why it is **upper** bound.
+
+![image](https://user-images.githubusercontent.com/54589605/235097927-66b5faa6-71b9-477d-9ace-410e3f60a93b.png)
+![image](https://user-images.githubusercontent.com/54589605/235098134-a1e58097-88fa-43fb-a8fb-d5d0c0f4812b.png)
+
+> If we **cut/substract** it, then we will get **less**. This is called as **lower bound**.
+
+![image](https://user-images.githubusercontent.com/54589605/235098433-f9aefd26-f868-4042-9124-895013e29a49.png)
+![image](https://user-images.githubusercontent.com/54589605/235098552-7e10d8b4-f0b2-4702-9058-bf10e7ab1e24.png)
+
+* **Omega** is **lower bound**. Comparing with **actual** answer it is **smaller**.
+
+* If we take **maximum** levels, then we will get **upper bound(O)**.
+* If we take **minimum** levels, then we will get **lower bound(Omega)**.
+
+> **Left** height has **lower** levels. So, it has **lower bound(Omega)**. As we have left out **something**, that's why it is called as **lower bound(Omega)**.
+
+> **Right** height has **bigger** levels. So, it has **upper bound(O)**. As we have taken **extra**, that's why it is **upper bound(O)**. 
+
+![image](https://user-images.githubusercontent.com/54589605/235099570-c0869671-2c10-412b-bdf4-f37048b95342.png)
+
+> In the **above** question there was no question of **upper or lower** bound, as both the **left and right** heights were **same/equal**. No, **upper or lower** bound.
+
+![image](https://user-images.githubusercontent.com/54589605/235099950-e7c72fe9-db6c-4871-82cf-cecf80f844d6.png)
+
+> In the **above** question, **left and right** heights are **different**. That's why we cannot find out **exact** answer.
+
+![image](https://user-images.githubusercontent.com/54589605/235100309-5a718cea-ebbd-4b5c-8acd-53327762d4d2.png)
+
+> In the **above** diagrams, it is not possible to give **exact** answers. **Add** something to make a **nice diagram** so that we can give **answer**. 
+
+> If **adding** not possible, then **cut/substract** something, then make a **nice diagram** so that we can give **answer**.
+
+> So, whenever not possible, **add** something to give the **upper bound(O)**. 
+
+> So, whenever not possible, **cut/substract** something, to give the **lower bound(omega)**.
+
+> Whenever not possible, to give **exact** answer, atleast give **upper or lower** bound as **answer**.
+
+![image](https://user-images.githubusercontent.com/54589605/235103739-62795f5a-1262-418f-b1a8-0385ca57a640.png)
+![image](https://user-images.githubusercontent.com/54589605/235104314-3a51bebc-2a5d-4339-8d9f-fd6052c6b53e.png)
+
+* **T(n)** is **smaller** than **n * (log n base (5/4))** and **T(n)** is **bigger** than **n * (log n base 5)**.
+
+> So **T(n)**, lies betweeen **upper and lower** bound, as we **add** something to get **upper** bound and we **cut/substract** something to get **lower bound(omega)**.
+
+> **Left** side is **smaller** and **right** side is **bigger**. **In-betweeen** is **In-betweeen**.
+
+* **Left** person is **less than**, **T(n)**.
+* **Right** person is **more than**, **T(n)**.
+
+> **Left and right** sides, **differ** by only **constants** only and bigger functions are **same**.  
+
+> So, **theta** is also possible, as they differ by **constants only**.
+
+![image](https://user-images.githubusercontent.com/54589605/235105074-528ddd40-bc71-431b-9902-73880464614d.png)
+![image](https://user-images.githubusercontent.com/54589605/235105475-0d2fe7ff-c696-4bf1-b348-63cd90cee175.png)
+![image](https://user-images.githubusercontent.com/54589605/235105941-1363277d-d867-46d3-b52c-59c1b7bac2b9.png)
+
+* Differ by **constants** only, so **theta** possible.
+
+![image](https://user-images.githubusercontent.com/54589605/235106078-0a448e06-9b5d-47ad-8f03-9b42a16dd8c3.png)
+
+> **Lower and upper** bound, differ by **constants** only.
+
+![image](https://user-images.githubusercontent.com/54589605/235106512-c0d4e1b7-3dfc-4d21-a19f-e282f2eca4ec.png)
+
+> In the above question, **left and right** height are **same**. So difference at all. Even **constant** also, no difference.
+
+![image](https://user-images.githubusercontent.com/54589605/235106705-d6a9ad74-ac0f-4976-a825-9a3f04944ee3.png)
+
+> In the above question, **left and right** height are not **same** but still **theta** possible as **difference** by **constant** also.
+
+![image](https://user-images.githubusercontent.com/54589605/235107405-39bc43cc-730b-40c9-8820-f12c7b937aaf.png)
+![image](https://user-images.githubusercontent.com/54589605/235107549-2d3c92df-be1d-4fea-9240-22de5bf02711.png)
+
+> **Constant** difference so, we can write **Big-O and omega**.
+
+> Same thing can happen for **n * (log n base 5)** also.
 
 
 
