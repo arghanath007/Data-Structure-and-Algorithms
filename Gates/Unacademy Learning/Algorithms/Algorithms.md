@@ -3410,11 +3410,61 @@ A) Infinite loop -> **NO**. Space is **limited**. Not possible.
 
 > Same thing can happen for **n * (log n base 5)** also.
 
+> The total levels in the tree is **log n base (5/4)**.
 
+> **Stack space** means **no. of levels** in the Tree. [**IMPORTANT**]
 
+![image](https://user-images.githubusercontent.com/54589605/235117640-18d26ea8-40fe-4ef4-a293-30bf8976f433.png)
 
+* **Right** is **bigger** because **5/3** base is **smaller** than **5** base.
 
+> First level cost is **n**. Second level cost is **n/5 + (3 * n)/5 -> (4 * n)/5**. So, first and second level costs are **different**, which means **series** coming.
 
+![image](https://user-images.githubusercontent.com/54589605/235118760-92e19530-0ea9-4084-9897-bd64e4c65a16.png)
+
+> To know, which **series**, we have to **expand** upto **3** times, then only we will get clarity.
+
+![image](https://user-images.githubusercontent.com/54589605/235119087-5bcb97b5-8041-433e-a2b8-715a3aa80805.png)
+![image](https://user-images.githubusercontent.com/54589605/235119406-2a651988-cf9f-441b-ae12-fa173b6132b9.png)
+
+> To make **series** ok, we have to **add** something, and **adding** something leads to **upper bound**.
+
+> To make **series** ok, we have to **cut/substract** something, and **cut/substract** something leads to **lower bound**.
+
+![image](https://user-images.githubusercontent.com/54589605/235119742-0c20840f-63a5-407b-a77a-127e1e045b6e.png)
+![image](https://user-images.githubusercontent.com/54589605/235119887-c6e9d2f5-bda1-421e-8c25-1e20836e7c67.png)
+
+* Upper bound. **Red area** is **extra**.
+
+![image](https://user-images.githubusercontent.com/54589605/235120050-01b07a9b-8e98-416d-8fcc-bf1d1f557d53.png)
+![image](https://user-images.githubusercontent.com/54589605/235120188-9c8a4dcb-434e-4dca-bf96-8af3a0953e55.png)
+
+* Lower bound.
+
+![image](https://user-images.githubusercontent.com/54589605/235120253-8b543282-ea65-4f8a-934b-b72eae8c11ae.png)
+
+> **GP** series, and **r** value is **less than 1** as **4/5** is **0.something**. So the whole thing will become **constant or O(1)**.
+
+![image](https://user-images.githubusercontent.com/54589605/235120564-cdd34118-96ce-482a-965d-4cce63c2772c.png)
+![image](https://user-images.githubusercontent.com/54589605/235121148-7c7a8aac-ced1-43ad-9ffa-f2a9a3813db3.png)
+
+> Here, in the **above** question, **series** is coming.
+
+> It is a **decreasing GP**. [**IMPORTANT**]
+
+* In a **decreasing GP**, whoever is the first person, is the **answer**, the first person was **(4/5)^0 * n -> n** and we got **n** as the answer as well.
+
+![image](https://user-images.githubusercontent.com/54589605/235121770-07f1161f-a880-4961-bd1c-92438cb395e5.png)
+![image](https://user-images.githubusercontent.com/54589605/235121965-8bba2736-ba24-403f-a249-53cc11184cd4.png)
+![image](https://user-images.githubusercontent.com/54589605/235122108-2738ccb4-d721-489e-af13-b7b21f8d081f.png)
+
+> Asymptotically, both are **constant or O(1)** but mathematically **above one** is **bigger**.
+
+![image](https://user-images.githubusercontent.com/54589605/235122427-dcd2d76b-e9c2-4e07-82b0-aff03356edef.png)
+
+## Practice
+
+![image](https://user-images.githubusercontent.com/54589605/235122636-4cd711c7-0367-4058-a04d-fc11bd1da708.png)
 
 
 
