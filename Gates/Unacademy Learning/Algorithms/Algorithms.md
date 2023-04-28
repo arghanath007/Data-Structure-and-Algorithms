@@ -3466,6 +3466,423 @@ A) Infinite loop -> **NO**. Space is **limited**. Not possible.
 
 ![image](https://user-images.githubusercontent.com/54589605/235122636-4cd711c7-0367-4058-a04d-fc11bd1da708.png)
 
+## GT-VII (18) [28th April 2023]
+
+![image](https://user-images.githubusercontent.com/54589605/235143478-9eeb69c6-4889-451e-baf9-8ce74eb3251d.png)
+
+> For the first level, the cost is **c**, where **c** is a **constant**. **c** is independent of **n**.
+
+> For the second level, the cost is **2 * c**. So, first and second level costs are **different**, which means **series** coming.
+
+![image](https://user-images.githubusercontent.com/54589605/235144637-2d8dd4ee-c1ce-4e6a-b652-f4a488216bdc.png)
+![image](https://user-images.githubusercontent.com/54589605/235144822-41a260ef-97fd-4f68-9507-12ee235a0677.png)
+
+* **Right** side or **log n base (5/3)** is **bigger**, since base **5/3** is **smaller** compared to **5** base.
+
+![image](https://user-images.githubusercontent.com/54589605/235145515-3d4ea2ce-b38d-4b67-8b9d-894256f29578.png)
+![image](https://user-images.githubusercontent.com/54589605/235146894-bb4a8af9-30f9-445b-95ee-55f16f931c44.png)
+
+> **Big-O and omega** differ by **constants** only, which are the **bases** and they are **5/3 and 5**, which are **constants** only.
+
+> In **n^(log 2 base (5/3))**, we will get **bigger** value for **(log 2 base (5/3)** as **base** is **smaller**. 
+
+> In **n^(log 2 base 5)**, we will get **smaller** value for **(log 2 base 5** as **base** is **bigger**. 
+
+> They differ by **base** only which is **constant** but they are in the **power** of **n**.
+
+> In **power**, **differ** by **constants matter**. [**IMPORTANT**]
+
+![image](https://user-images.githubusercontent.com/54589605/235148704-90b14f0a-011b-4cb5-9a0b-3b647970b99b.png)
+
+> **n^2 and n^3**, differ by **constants** but **n^3** is **bigger** than **n^2**.
+
+![image](https://user-images.githubusercontent.com/54589605/235147498-84be757f-0a49-4fc5-9fee-dced25c6660b.png)
+![image](https://user-images.githubusercontent.com/54589605/235147404-c900b25c-ab9f-42ad-97c1-81e03a7e46bc.png)
+
+> So the **bases** are in the **power** of **n**, so they **matter** and hence we cannot write **theta** possible.
+
+![image](https://user-images.githubusercontent.com/54589605/235149060-648c7d0f-f55e-4550-8cd9-67004db1a19b.png)
+![image](https://user-images.githubusercontent.com/54589605/235149220-ee99b84a-2072-495e-81df-1b4a51c7ad80.png)
+
+> Constant difference in power. That's why we cannot write **theta** possible.
+
+> Constant difference is not there, functional difference is there, because in **power**, **constant difference** is **functional difference**.
+
+![image](https://user-images.githubusercontent.com/54589605/235149594-611ec2cb-c9d2-40b5-958e-740df91a285b.png)
+![image](https://user-images.githubusercontent.com/54589605/235150360-ca1b7dbf-f00d-4fc7-99ba-f4e2a07ed678.png)
+
+* Everytime **theta** possible?
+
+> **NO**. Above question.
+
+![image](https://user-images.githubusercontent.com/54589605/235152500-cfc2db68-7941-4feb-b209-6e36f2b6c7d7.png)
+![image](https://user-images.githubusercontent.com/54589605/235155060-86fc69ae-631f-4426-a322-fa12e18af9c5.png)
+![image](https://user-images.githubusercontent.com/54589605/235156535-5026e5bf-f437-4dd0-b9b7-ee46c3e97cb0.png)
+![image](https://user-images.githubusercontent.com/54589605/235156874-62f6bf2d-353a-42d7-99e0-fbd4090b4d11.png)
+
+> **Upper and lower** bound, both differ by constants only and the **constants** are **beside** or in **multiply** i.e they are not in **power**, so we can **ignore** them and say that **theta** is possible. 
+
+![image](https://user-images.githubusercontent.com/54589605/235157338-6e1d44b5-34d9-4417-9e04-c7b445f0cac9.png)
+
+> **T(n) = Theta(n^2)**, it is **True**. **Big-O and omega** are possible, so **theta** also possible. **T(n)** is the **actual** person.
+
+![image](https://user-images.githubusercontent.com/54589605/235157879-7840809e-7f5f-462b-900c-20dc65a6d2d7.png)
+
+> Only for **n^2**, **theta** is possible. For others, **theta** is not possible.
+
+![image](https://user-images.githubusercontent.com/54589605/235158171-5f7de8ce-fc59-4ab7-bb42-b7868fff5608.png)
+![image](https://user-images.githubusercontent.com/54589605/235158248-ba0b702d-67d6-4505-a337-07875c49eaea.png)
+![image](https://user-images.githubusercontent.com/54589605/235158927-45952564-cb5b-44ed-a285-f7e0a5792996.png)
+
+> **log n base 2** will give **upper bound** because **base 2** which is the **smallest** base.
+
+> **log n base 4** will give **lower bound** because **base 4** which is the **biggest** base.
+
+> In the above question, we can say definitely because it is an **increasing GP** series, where **13/12 -> 1/something** which is **greater** than **1**.
+
+![image](https://user-images.githubusercontent.com/54589605/235160851-db8bdddb-46ff-4ec4-99cd-1d35c076f593.png)
+
+> Everyone is **less** than **leftmost** one and everyone is **more** than **rightmost** one.
+
+![image](https://user-images.githubusercontent.com/54589605/235161184-e6bd3de1-0e76-4f2d-9c1d-91b5fdc9f288.png)
+![image](https://user-images.githubusercontent.com/54589605/235162812-e3d90ef8-2436-4789-9738-4d907e24f1e1.png)
+
+> Both the **upper and lower** bounds differ by **bases** only, which are **constant** difference but the constants are present in the **power of n**, and constants present in **power** cannot be **ignored** and they matter. So, we cannot say that **theta** is possible, as the constants are present in the power.
+
+![image](https://user-images.githubusercontent.com/54589605/235163337-e625c801-3d71-4fed-87cb-03c3fe86c11c.png)
+
+> So **functional difference** is there. That's why we cannot write **theta**.
+
+![image](https://user-images.githubusercontent.com/54589605/235164125-9d8c1897-8b49-4ea2-93b7-698ba83f75dd.png)
+
+> After **3 rounds** are over, we got to know that it is an **increasing** series.
+
+![image](https://user-images.githubusercontent.com/54589605/235164412-2264ae8b-c642-42bb-a875-60fbcf7a7be0.png)
+![image](https://user-images.githubusercontent.com/54589605/235164973-69f49dc9-0c53-4bdb-9918-fac4d110a07d.png)
+![image](https://user-images.githubusercontent.com/54589605/235165088-213278ca-e8a7-48fe-abc3-39b9936c02fb.png)
+
+> It is a **series** and it is **increasing**.
+
+![image](https://user-images.githubusercontent.com/54589605/235165867-20a099ce-8b99-4826-a7c0-16de391ee57d.png)
+
+> Among all of them **middle** one is the **smallest** as it has **log n base 5** levels. Which gives us the **lower bound**. 
+
+> Among all of them **left** one is the **largest** as it has **n** levels. Which gives us the **upper bound**. 
+
+![image](https://user-images.githubusercontent.com/54589605/235166827-ad9afd3c-b699-4282-b765-77878c4ce55e.png)
+![image](https://user-images.githubusercontent.com/54589605/235168762-c1fe14a1-d47f-4dd9-859f-06721996c28d.png)
+![image](https://user-images.githubusercontent.com/54589605/235168960-761566bb-31f2-441b-bb5b-f868a6f0c12e.png)
+![image](https://user-images.githubusercontent.com/54589605/235169040-b311c4e1-a3e9-4bfa-8204-aa6d65906a31.png)
+![image](https://user-images.githubusercontent.com/54589605/235169129-aae719b6-23e5-4ca5-879f-76d2d273f37e.png)
+
+> We cannot write, **theta** as **upper and lower** bound, differ.
+
+## Master's Theorem
+
+![image](https://user-images.githubusercontent.com/54589605/235170342-2debd372-6a4f-47d8-a6df-f6c16cb8730a.png)
+![image](https://user-images.githubusercontent.com/54589605/235172299-9370cd82-d882-4d39-96e5-99c3b7f85640.png)
+![image](https://user-images.githubusercontent.com/54589605/235172871-974c3c9c-e3d4-4902-83cc-58756f394bab.png)
+
+* 'a' value -> 1,2,3, ........
+* 'b' value -> 2,3,4,.............., 3/2 also possible. 
+
+> **Integer constants** is not mentioned, only **constants** are mentioned. So, **3/2** also possible.
+
+![image](https://user-images.githubusercontent.com/54589605/235173810-b8587d3a-9a46-47fe-9775-bf11d24351f6.png)
+
+> **n** should be **non-negative** and **integer**. **n** is the **no. of inputs**.
+
+![image](https://user-images.githubusercontent.com/54589605/235192204-64b389b2-f3f6-41cd-99a3-9de1eb08268a.png)
+
+> There is no **minus(-)** operator. Master's theorem is not applicable for **minus(-)** operator. Go to **substitution** method.
+
+> For more than one function call, master's theorem is not applicable. Go to **recursive tree method**.
+
+![image](https://user-images.githubusercontent.com/54589605/235195347-72f68711-89d7-4300-b3f4-191f696fccd4.png)
+
+> If any **recurrence** relation in the above format, then only use master's theorem.
+
+![image](https://user-images.githubusercontent.com/54589605/235195774-66d9bf62-c012-463f-823f-bcbba1bdea87.png)
+
+* Red ticks are **shortcuts**.
+
+![image](https://user-images.githubusercontent.com/54589605/235195906-5383f6fe-57a6-4019-bd5e-c54898fd2cac.png)
+
+> The given **recurrence** relation is in the master's theorem format.
+
+![image](https://user-images.githubusercontent.com/54589605/235196061-5d62a224-2dcf-4059-befa-307cdbcaf060.png)
+![image](https://user-images.githubusercontent.com/54589605/235196310-2532b31d-82c9-43b8-aaef-79c75fbe0d9b.png)
+
+> Always talk about **right side** only.
+
+> Right side person is **bigger** compared to left side person.
+
+* Compare **left and right** side, whoever is **bigger**, is the **answer**.
+
+![image](https://user-images.githubusercontent.com/54589605/235197207-e51ffe80-ef09-4b8d-aebf-5fdc01e9ca42.png)
+![image](https://user-images.githubusercontent.com/54589605/235197543-198c1c7c-a367-4b90-884c-e8d6430c4a15.png)
+![image](https://user-images.githubusercontent.com/54589605/235197856-661ae2f0-b5c9-46de-a592-6315935c8fd7.png)
+
+* Compare **left and right** side, right is **bigger** by **polynomial** time.
+
+* Whoever is **bigger**, is the **answer**.
+
+* If we want to solve a **recurrence** relation using master theorem.
+
+1) First check if it is there in the given format.
+2) If Yes, then write **f(n)** on the **left** side.
+3) On the **right** side, write **n ^ (log a base b)**.
+4) Whoever is **bigger**, is the **answer**.
+
+![image](https://user-images.githubusercontent.com/54589605/235198846-6903bb0b-1b57-47fe-ab62-f267ae44005c.png)
+
+> **Right** side is **smaller**.
+
+> So, **right** side is **smaller** by **polynomial** time.
+
+![image](https://user-images.githubusercontent.com/54589605/235199471-d5beb709-59d4-4b21-aae6-f9e0ec6fc732.png)
+
+> **Right** side is **smaller** by **polynomial** time.
+
+> **Right** side is **small**, to make it **equal**, we multiplied it with **n**.
+
+![image](https://user-images.githubusercontent.com/54589605/235199932-d71f7958-fc7b-49ea-9f7e-e6668d4df456.png)
+![image](https://user-images.githubusercontent.com/54589605/235202009-de97fafe-c2e9-4653-a2ba-85f9a1bfe840.png)
+
+> Whoever **bigger** is the **answer**.
+
+![image](https://user-images.githubusercontent.com/54589605/235202239-cffb8d30-e655-4959-8675-809f32d0b282.png)
+
+* Right is bigger.
+
+![image](https://user-images.githubusercontent.com/54589605/235202301-128cc1c1-8706-4a4f-af7c-93ff7b06868a.png)
+![image](https://user-images.githubusercontent.com/54589605/235202396-33724b13-26ba-4b17-8632-fb55749c02c7.png)
+
+* Left is bigger.
+
+> In all of the above questions, either **left or right** is **bigger**. How much **bigger/smaller**?, we will get from the **right** side only.
+
+![image](https://user-images.githubusercontent.com/54589605/235202687-eeee49e3-9a98-426b-ab46-7e0fd9173e5f.png)
+![image](https://user-images.githubusercontent.com/54589605/235203007-5513b55a-11d5-44a9-b2f7-f86ae5cefc2a.png)
+
+* Because of **big** on the right side, to make it **equal** to the **left side**, we will do **division**. **Division** is nothing but **power substraction**.
+
+![image](https://user-images.githubusercontent.com/54589605/235203178-51081555-834b-40a3-a74c-5e05bd3eed12.png)
+
+* Because of **smaller** on the right side, to make it **equal** to the **left side**, we will do **multiplication**. **Multiplication** is nothing but **power addition**.
+
+* In all of the **above questions**, the **right side person** is either **bigger or smaller** than the **left side person** by **polynomial** times.
+
+* If a **recurrence** relation is given, calculate **left and right** side. After calculation done, whoever is **bigger** is the **answer** but before writing the answer, confirm one more thing. Ask the **right** side, if it is **bigger/smaller** by **polynomial** times. If **YES** then, whoever is **bigger** is the **answer**, **confirmed**.
+
+![image](https://user-images.githubusercontent.com/54589605/235204596-c10c6443-e94b-44c8-91f6-c320dc0a424b.png)
+![image](https://user-images.githubusercontent.com/54589605/235204639-275d29f4-396a-4323-a6e0-3aa80da42cc1.png)
+
+* If the condition, **bigger/smaller** by **polynomial** is **satisfied**, then only whoever is **bigger** is the **answer**, **confirmed**.
+
+* If the condition, is **not satisfied**, then we cannot take whoever is **bigger** as the **answer**.
+
+> Master theorem is saying that, comparing **left and right**, if **right** is **bigger/smaller** compared to the **left** by **polynomial** times, then only whoever is **bigger** is the **answer**, **confirmed**.
+
+> Otherwise, we cannot take whoever is **bigger** as the **answer**.
+
+![image](https://user-images.githubusercontent.com/54589605/235206090-220594f6-5011-4716-88a4-bda3906fc6ec.png)
+![image](https://user-images.githubusercontent.com/54589605/235206247-3c04bb44-56d1-420b-9efd-4b94e0fe9ce8.png)
+
+> In the **first** case, we are doing **division**.
+
+> In place of **c**, the formula has **E**.
+
+> It is **divided**, because **right** side **bigger** compared to left side.
+
+> **Right** side is **bigger** by **polynomial**, then whoever is **bigger** is the **answer**, **confirmed**.
+
+![image](https://user-images.githubusercontent.com/54589605/235206921-2d65fab0-2525-45a7-a020-408774c1343b.png)
+![image](https://user-images.githubusercontent.com/54589605/235207413-72b820eb-1540-4cc3-9fc4-ec079acd5fda.png)
+
+> In the **3rd case**, we are doing **multiplication**, as the **right** side is **smaller** by **polynomial** compared to the left side.
+
+![image](https://user-images.githubusercontent.com/54589605/235207528-6b70a859-1a9f-4d10-8e6f-4abe70aeb57b.png)
+
+> So, the **answer** is, whoever is **bigger** is the **answer**.
+
+* In **case 1**, we are doing **division**, **minus(-)** means **divide**, because **right** side is **bigger**. So, **n^(log a base b)** is **bigger**. So, whoever is **bigger** is the **answer**.
+* In **case 3**, we are doing **multiplication**, **add(+)** means **multiply**, because **right** side is **smaller**. So, **f(n)** is **bigger**. So, whoever is **bigger** is the **answer**.
+
+![image](https://user-images.githubusercontent.com/54589605/235208237-c2666efb-a145-450b-8a8d-eb2f7ab9c6e9.png)
+![image](https://user-images.githubusercontent.com/54589605/235208671-28389877-e793-4f4c-8c75-64a99669797e.png)
+![image](https://user-images.githubusercontent.com/54589605/235208777-c46d4eae-c71e-467b-ae79-67ca5076316b.png)
+
+> **Left** is **bigger**, as we have to **multiply**, **log n** on the **right** side. So, **right** side is **smaller** compared to the left side.
+
+> Right side person is **smaller** than the left side, as right is **smaller**, we have to **multiply**. How much **smaller**? We have to **multiply**, **log n** to make both the sides as **equal**. **log n** is **not polynomial**, it is **logarithmic**.
+
+> Because of the **above reason**, that it is **not polynomial** and it is **logarithmic**, immediately come back and **remove** the previous answer which is **Whoever is **bigger** is the **answer**.**.
+
+> If **bigger/smaller** by **polynomial** then only **master theorem** will work out. 
+
+> If also **bigger/smaller** by **logarithmic** times, then also **master theorem** will not work out.
+
+![image](https://user-images.githubusercontent.com/54589605/235209984-56c8463b-3066-45eb-a92d-2e3a20f7c9f8.png)
+![image](https://user-images.githubusercontent.com/54589605/235210432-79ccddc9-debb-46ee-8f6c-25eba293cf9e.png)
+
+> The actual answer is **n * (log n)^2**.
+
+![image](https://user-images.githubusercontent.com/54589605/235210911-9cb5ae1f-d76c-40fa-a5fa-4e3534af7494.png)
+![image](https://user-images.githubusercontent.com/54589605/235210981-7b42eba4-b021-4468-bba1-e7921d396800.png)
+
+* Must be **polynomial** times **smaller/bigger**.
+
+> Apply **substitution method** to get **actual/correct** answer.
+
+![image](https://user-images.githubusercontent.com/54589605/235211846-eb2480bd-39ab-4b84-9a95-94555069f2e6.png)
+
+> They are **equal**. Whenever they are **equal**, we have to do one thing.
+
+> Whenever both are equal, go **right** side. In the **right** side, attach some **(log n)^0**, so that both sides are still **equal**.
+
+> Take the **same** thing which is present on the **right** side as the **answer** and add **+1** to the **power** of **log n**. So, the answer will be from **n * (log n)^0** to **n * (log n)^(0+1) -> n * (log n)^1**.
+
+![image](https://user-images.githubusercontent.com/54589605/235213073-8eabc90f-ac28-40d7-a8d9-be03c29734cd.png)
+![image](https://user-images.githubusercontent.com/54589605/235213466-890474ba-a5e4-4f8c-ab34-d55f9f6cc88b.png)
+
+* This is the **answer**.
+
+> Whenever **both are equal**, on the **right** side, attach some **(log n)^0**, so that both sides are still **equal**. So, the **answer** is, whatever we have written on the **right** side, take as it is and add **+1** to the **power** of **log n**.
+
+
+![image](https://user-images.githubusercontent.com/54589605/235212008-f8393dc4-3ed1-46cb-a8d8-9a6f200441eb.png)
+
+* In **first case** of master theorem, it is **big-O**, which means **right** is **bigger**.
+* In **last/third case** of master theorem, it is **omega**, which means **right** is **smaller** or **left** is **bigger**.
+* In **second case** of master theorem, it is **theta**.
+
+![image](https://user-images.githubusercontent.com/54589605/235213706-44771359-b547-4cd7-bc5c-18d590b17aea.png)
+
+* **Case 1 and case 3** fail because **right** side is not **polynomicall** bigger than the left side and it is not **polynomicall** smaller than the left side. It is **logrithmically** smaller than the left side.  
+
+![image](https://user-images.githubusercontent.com/54589605/235214022-d4cad58c-7c4a-469f-9837-1f8b5b4c6839.png)
+
+> We can attach some **log n** power something on the right side to make **both** the sides as **equal**. 
+
+> We can attach **(log n)^1** on the right side to make **both** the sides as **equal**. 
+
+> Then, the **answer** is take whatever is there on the right side and add **+1** to the power of **log n**.
+
+![image](https://user-images.githubusercontent.com/54589605/235214516-33373ebc-bcc1-485b-839d-590dc8c2d671.png)
+![image](https://user-images.githubusercontent.com/54589605/235214641-9f96ff05-4b96-4c52-851e-6cec113e007c.png)
+
+> So the **answer** is **n * (log n)^2**.
+
+* **Case 2** is meant for, between **f(n) and n^(log a base b)**, if **no difference** at all and **logrithmetic** difference(smaller), then go to **case 2**.
+
+![image](https://user-images.githubusercontent.com/54589605/235215276-2b474683-6fab-45a5-affd-92a84ae58e3d.png)
+![image](https://user-images.githubusercontent.com/54589605/235215450-db54c540-10cb-47c9-90fe-52dd538b782e.png)
+![image](https://user-images.githubusercontent.com/54589605/235215702-48fd82cf-8925-45d1-8b4d-746362d1735c.png)
+
+> **Left and right** side are not **equal**.
+
+> By **multiplying** **(log n)^8** on the right side, we are getting both the sides as **equal**, which means right side is **logrithmetically* smaller than the left side. So, we will go to **case 2**.
+
+> So the answer is take whatever on the right side and **add(+1)** to the power of **log n**. The answer is **(log n)^11**.
+
+![image](https://user-images.githubusercontent.com/54589605/235216410-c0445b31-0fa5-495c-b422-a7128155076f.png)
+![image](https://user-images.githubusercontent.com/54589605/235216770-295b3763-c067-4bdb-9221-7fe711264783.png)
+
+* **Case 2** when they are **equal** or the right hand side person is **smaller** by **logarithemetic**.
+
+![image](https://user-images.githubusercontent.com/54589605/235216938-d394f26c-5a85-454d-92f5-74f760ee24d2.png)
+
+> By **multiplying** with **log**, **both** are **equal**. So, right side is **logarithemetically** **smaller** than the left side.
+
+> Only **multiply** no division here.
+
+![image](https://user-images.githubusercontent.com/54589605/235217305-3a492da8-276f-4f93-858d-ea52e2a8a56f.png)
+![image](https://user-images.githubusercontent.com/54589605/235217353-d1518a58-c0eb-449b-961c-6efd0ca8c882.png)
+
+> We made **left and right** equal by **multiplying** by **log n**. **Multiplying** means **right** is **smaller**.
+
+![image](https://user-images.githubusercontent.com/54589605/235217631-db35cf18-dee0-4874-8ccc-c743d193f79d.png)
+
+> By **multiplying** with **log n or logarithemetic**, both sides are **equal**.
+
+![image](https://user-images.githubusercontent.com/54589605/235218020-69583458-34b4-4678-a49e-fc18df829fce.png)
+
+> **Case 2** will work for when **both** the sides are **equal** as well, when we take **k=0** value, which is **(log n)^k -> (log n)^0**.
+
+* **Polynomial** time, **bigger/smaller**, then whoever is **bigger** is the **answer**. **Case 1 or 3**.
+* If **equal(no difference)** or **logarithemetic** time, **smaller** then **case 2**.
+
+> **Logarithemetic** time, **smaller** because we are **multiplying**.
+
+![image](https://user-images.githubusercontent.com/54589605/235218888-1b2688f8-48ea-4d80-ab4f-4ca0ce328193.png)
+![image](https://user-images.githubusercontent.com/54589605/235219624-082aaa2a-0a9e-4df9-89c8-c326aba07159.png)
+
+> Not possible as **a and b** are **constants**.
+
+![image](https://user-images.githubusercontent.com/54589605/235219989-ca9def86-93e3-4d6d-bb65-52a4c6d9a3e3.png)
+
+> **k > 0**, **k** cannot be **negative**.
+
+![image](https://user-images.githubusercontent.com/54589605/235220066-41acbe21-50c1-46c0-8454-7b09bcfc042d.png)
+
+> We cannot take **negatives** as powers.
+
+![image](https://user-images.githubusercontent.com/54589605/235220176-96fdda44-5646-4b0b-b5d1-d77a138e6b41.png)
+![image](https://user-images.githubusercontent.com/54589605/235220353-10687e4c-57e1-4ee2-b6ca-46fd58e56626.png)
+
+> **k=-3** then only both sides are **equal**.
+
+> Right side person **bigger** by **logarethmetic** will not work out.
+
+> Right side person **smaller** by **logarethmetic** then only it will work out.
+
+![image](https://user-images.githubusercontent.com/54589605/235220683-50dd5add-fe1b-4f01-bd97-6fd911052b58.png)
+![image](https://user-images.githubusercontent.com/54589605/235220716-e853e2f9-023a-4bf4-8c1a-b53ec7cc5734.png)
+![image](https://user-images.githubusercontent.com/54589605/235220730-03008096-e002-43d9-b7e5-54bfe3d4cd01.png)
+![image](https://user-images.githubusercontent.com/54589605/235220767-c71005eb-05b5-46b8-9a23-113414a98903.png)
+
+* For **Case 2** of master's theorem, it should be **equal** or **right small** by **logarethmetic**.
+
+![image](https://user-images.githubusercontent.com/54589605/235220875-c2c0f3f1-42c4-4de9-ab8b-482f6a82b392.png)
+
+* If **exponential** difference then only **case 1 or case 3**.
+
+![image](https://user-images.githubusercontent.com/54589605/235221310-63e95da7-bd3f-4a99-b34d-2d80a34193a1.png)
+
+> **Right** is **bigger** by **exponential** times. **2^n** is more than **polynomial**.
+
+> **Polynomial** is **ok** and more than **polynomial** is also **ok**. So, **master theorem** will work.
+
+![image](https://user-images.githubusercontent.com/54589605/235221378-572256dd-a505-4adc-bf13-61d8127d04fb.png)
+![image](https://user-images.githubusercontent.com/54589605/235221636-a0fec0e0-31ad-4a0d-aad4-94ecaeffc39b.png)
+
+* Whoever is **bigger** is the **answer**.
+* n, n^2, n^3 all are **polynomial**.
+
+![image](https://user-images.githubusercontent.com/54589605/235221956-0d03ab12-26b3-4aa1-aa58-4e9c764b0132.png)
+
+> **Right** side is **bigger**, and it is **bigger** by **n * log n**. So, **n * log n** is **polynomial** as **n, n^2, n^3** all are **polynomial**, so **in-between** also, **n and n^2** where **n * log n** stays is also **polynomial**.
+
+![image](https://user-images.githubusercontent.com/54589605/235222258-6dd173c0-fed9-4c84-9483-b5c553fc1bb3.png)
+![image](https://user-images.githubusercontent.com/54589605/235222320-cfe44b71-9c32-434f-a936-834acad286f3.png)
+
+> Master's theorem possible. **n and n^2** are **polynomial**, so **in-between** also **polynomial**.
+
+![image](https://user-images.githubusercontent.com/54589605/235222466-5c3d7698-32a0-4b0d-b2e2-d7681aa0daa8.png)
+![image](https://user-images.githubusercontent.com/54589605/235222750-bcc99c56-3717-440a-9423-734a5c30dbed.png)
+![image](https://user-images.githubusercontent.com/54589605/235222834-b4b1de2f-9d0b-4467-a15f-1859e812e3fd.png)
+
+> **Right** side is **bigger** by **exponential** of **n^(n-1)**.
+
+![image](https://user-images.githubusercontent.com/54589605/235222902-ef02043c-d57f-4c88-9547-42aff0a444c5.png)
+
+* **2^n** is not **constant** and **a** should be a **constant**. 
+
+> Because of this reason **Theta(n^n)** is **wrong**.
+
+![image](https://user-images.githubusercontent.com/54589605/235223151-b536155f-d06b-4dda-8601-c53a36725df8.png)
+![image](https://user-images.githubusercontent.com/54589605/235223112-5405ddfd-0e9a-4554-b273-2b6485652b3d.png)
 
 
 
@@ -3476,9 +3893,7 @@ A) Infinite loop -> **NO**. Space is **limited**. Not possible.
 
 
 
-
-
-
+ 
 
 
 # Practice Videos (27th April 2023)
