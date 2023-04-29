@@ -3884,6 +3884,186 @@ A) Infinite loop -> **NO**. Space is **limited**. Not possible.
 ![image](https://user-images.githubusercontent.com/54589605/235223151-b536155f-d06b-4dda-8601-c53a36725df8.png)
 ![image](https://user-images.githubusercontent.com/54589605/235223112-5405ddfd-0e9a-4554-b273-2b6485652b3d.png)
 
+## Questions
+
+![image](https://user-images.githubusercontent.com/54589605/235282049-f260093e-de7b-488c-9055-46256583bb90.png)
+![image](https://user-images.githubusercontent.com/54589605/235282053-3e548185-d430-4661-ba11-962713a595ae.png)
+![image](https://user-images.githubusercontent.com/54589605/235282055-596cffec-4a8b-409a-a2f3-25caa9f4ceaf.png)
+![image](https://user-images.githubusercontent.com/54589605/235282079-4d558c8b-ae00-4709-9c54-41023ce3c2dc.png)
+![image](https://user-images.githubusercontent.com/54589605/235282085-d6b26aaf-a3bb-4acc-a59c-6d67f5cb9dc9.png)
+![image](https://user-images.githubusercontent.com/54589605/235282088-6347778f-8b59-4283-b289-97fcb0c3e279.png)
+![image](https://user-images.githubusercontent.com/54589605/235282090-054c9160-56dd-45af-9d6c-d547faff8dc1.png)
+![image](https://user-images.githubusercontent.com/54589605/235282095-b638fd66-43f5-4be8-a1d8-a209575c5739.png)
+![image](https://user-images.githubusercontent.com/54589605/235282098-9a3d22be-4ef1-472f-a079-21b3a1ffb8b4.png)
+![image](https://user-images.githubusercontent.com/54589605/235282102-178dd3d7-919c-4f30-a8db-bdf80f69c684.png)
+![image](https://user-images.githubusercontent.com/54589605/235282105-07628c8b-7338-4f53-8724-f894c4673098.png)
+![image](https://user-images.githubusercontent.com/54589605/235282110-343a2dff-a215-456f-a4d9-87a161a3e47f.png)
+![image](https://user-images.githubusercontent.com/54589605/235282113-08fcb891-2871-4ee7-a7a8-6d6b3324e232.png)
+![image](https://user-images.githubusercontent.com/54589605/235282116-9816f085-bca9-4eda-9798-f92fabd35a69.png)
+![image](https://user-images.githubusercontent.com/54589605/235282120-a427f7f4-a897-4690-be2c-aadb0ada4f9c.png)
+![image](https://user-images.githubusercontent.com/54589605/235282126-fc30d8f0-5e94-4d9a-944f-8e05a08cb1d4.png)
+![image](https://user-images.githubusercontent.com/54589605/235282129-04653e88-f7fb-4f82-97a9-47733ea43976.png)
+![image](https://user-images.githubusercontent.com/54589605/235282134-c70c0fd1-6282-4025-8696-05b5df843ac7.png)
+
+
+## DAC-IV (19) [29th April 2023]
+
+![image](https://user-images.githubusercontent.com/54589605/235282322-61c39e5d-b08b-4230-abcf-591405b429f4.png)
+![image](https://user-images.githubusercontent.com/54589605/235282364-0ceac59a-e9cc-4db4-97e2-0cb666fd4d0d.png)
+
+* **No difference** also **case 2** and **log or logrametric difference** also **case 2**.
+
+![image](https://user-images.githubusercontent.com/54589605/235282500-3134efe0-4a81-481d-99c8-221c0c82edca.png)
+![image](https://user-images.githubusercontent.com/54589605/235282502-71ca36c1-5f22-40cc-8feb-87cb4cc094b0.png)
+
+> When we say, master's theorem, **divide** should be there, but there is **no divide**.
+
+> **We cannot apply master's theorem**, because **divide** is not there. 
+
+* **Divide** should be there when solving with master's theorem.
+
+> If we convert it into the **required** form then we can apply **master's theorem**.
+
+* The **required format** is **a * T(n/b) + f(n)**.
+
+> Convert into the above required format.
+
+> The purpose of the above question is to help solve questions when **recurrence relation** contain **root operator**, then using **master's theorem**, how we will **solve** it. 
+
+> **Worst case** is we can go for **substitution** method.
+
+> As it is not there in the **master's theorem** form, convert it into the **master's theorem* form, which is **a * T(n/b) + f(n)**.
+
+* Steps to **convert it**.
+
+1) Assume, **n= 2^k**.
+
+![image](https://user-images.githubusercontent.com/54589605/235282824-636ab9d5-53d6-4dda-a9eb-5f79df19df3f.png)
+
+2) Assume, **T(2^k) = s(k)**. We are mapping **T function** to **s function**. In the **power** whatever there in the **T function**, comes to the **s function**. Whatever leftout will go to **s**.
+
+![image](https://user-images.githubusercontent.com/54589605/235282877-cf64f32e-18df-4fe4-9d02-14d4dc10011a.png)
+![image](https://user-images.githubusercontent.com/54589605/235282889-8491422e-f2cc-464a-a116-4918e520f907.png)
+
+> If **T** comes, then only **s** comes.
+
+![image](https://user-images.githubusercontent.com/54589605/235283278-c17cc93a-ac98-4fed-bb0c-879129e82b10.png)
+![image](https://user-images.githubusercontent.com/54589605/235283321-b42a4729-fabf-4a39-b71b-7a389d429f5c.png)
+
+> Directly we cannot solve the recurrence relation, **convert first**.
+
+> Now apply **master's theorem**.
+
+> **k** is a **function**.
+
+![image](https://user-images.githubusercontent.com/54589605/235283482-5500e443-54ca-49df-8752-19a6b36d4299.png)
+
+> Left is **bigger** because on the left **k** is a function and on the write **c** is a **constant**.
+
+> Right side **c** is **smaller**, it is **smaller** by some **k**. Then only **both** sides are **equal**.
+
+> Comparing left and right side, right side is smaller by **k** times, where **k** is a function. **K** is a **polynomial** because, **k** is there in terms of **function**.
+
+![image](https://user-images.githubusercontent.com/54589605/235283584-48e66d8a-a8be-4a38-99b5-9bd25f04d064.png)
+![image](https://user-images.githubusercontent.com/54589605/235283669-f2cd4eab-4a78-4a3d-b47e-899b3dcfc21d.png)
+
+> Given problem is there in the form of **n**.
+
+> We have to **convert** whatever answer we got in the form of **n**.
+
+3) Now do, **step 2** in **reverse** order. **No s** there, then **no T** will come. Where ever **s** there, keep **T**.
+
+![image](https://user-images.githubusercontent.com/54589605/235283790-a2799a29-628e-41c8-b2f2-dde1ddae4eaf.png)
+
+4) Now do **step 1** in **reverse** order. We know **n = 2^k**, so we will find the value of **k**, which is **k = log n base 2**. Where ever, **k** there, replace it by **n**.
+
+![image](https://user-images.githubusercontent.com/54589605/235283951-6dff96f4-d454-4e06-a854-794241e855fd.png)
+
+> After **converting** into **master's theorem**, please **solve** master theorem **format**. Why solving **master's theorem**, don't worry about **k** value, some **function** is there in the form of **k**, solve it.
+
+![image](https://user-images.githubusercontent.com/54589605/235285337-30233c0d-cde0-46f0-88cf-4c04000b4c47.png)
+![image](https://user-images.githubusercontent.com/54589605/235285469-2288803f-9d71-43ac-a890-fa80e277ae7b.png)
+
+> We got the **master's theorem** format now.
+
+> While applying **master's theorem**, don't bring **before and after**.
+
+> The function is in the form of **K**, **YES**.
+
+![image](https://user-images.githubusercontent.com/54589605/235285815-831334d9-b4bf-412b-9b8b-fbb9c39b82c7.png)
+![image](https://user-images.githubusercontent.com/54589605/235285838-1f4f2f92-c09c-4fd5-ab66-51e581aa00d2.png)
+
+> We want **answer** in the form of **n** as it was given in the question in the form of **n**.
+
+* 3rd step **reverse** is **2nd** step.
+* 4th step **reverse** is **1st** step.
+
+![image](https://user-images.githubusercontent.com/54589605/235285938-39629b47-9194-4b91-897e-98efc92e0d43.png)
+![image](https://user-images.githubusercontent.com/54589605/235286353-d980e350-84f2-4aee-ac2e-7bf425ecbb93.png)
+
+> Both the sides are **equal**, so **case 2** and we can multiply with **(log k)^0**, to keep both the sides as **equal** only still. We are multipling with **(log k)^0** and not **(log n)^0** because **function** is there in the form of **k**.
+
+> If we are multipy with **(log n)^0*, then it is **wrong**. Here, we only know about **k** as **function** is there in the form of **k**.
+
+![image](https://user-images.githubusercontent.com/54589605/235286531-70b0e5f5-16ac-4616-9245-0b8f1583bd71.png)
+![image](https://user-images.githubusercontent.com/54589605/235286572-0b4cde3f-db3e-467e-bea0-1b71b046047f.png)
+![image](https://user-images.githubusercontent.com/54589605/235286626-dd4c5fd0-5610-4795-b6b4-17d905090eee.png)
+
+* Recurrence relation for **time**.
+
+![image](https://user-images.githubusercontent.com/54589605/235286676-95bba476-03a7-4b38-a428-08e3c2a7a0d3.png)
+
+> First and second level costs are **different**, so **series** coming.
+
+![image](https://user-images.githubusercontent.com/54589605/235286869-d6b3cc19-bb58-4b82-9b16-2a1003c9383a.png)
+
+> Upper and lower bound differ by **constants** but that **constant** is in the **power of 2**, so it becomes a **functional** difference and we cannot **ignore**. So, we cannot say that **theta** is possible.
+
+![image](https://user-images.githubusercontent.com/54589605/235286985-b06a6cb6-5c90-446a-9aa2-be6bac558295.png)
+![image](https://user-images.githubusercontent.com/54589605/235286974-f51a8554-f589-47b4-979e-99cdc5f8151f.png)
+
+> If **both** upper and lower bound are there in the **answer**, then the **answer** is **both**.
+
+![image](https://user-images.githubusercontent.com/54589605/235287065-6eaa6b84-99ff-4a3c-8d33-559eb29bc006.png)
+![image](https://user-images.githubusercontent.com/54589605/235287078-c5910ddb-4a18-4f6b-bcc7-5787bf338697.png)
+![image](https://user-images.githubusercontent.com/54589605/235287082-8f433984-436a-4874-8edb-ec56b6bcbe86.png)
+![image](https://user-images.githubusercontent.com/54589605/235287092-4eebd423-eedb-4a5e-bdc7-01893584c35c.png)
+![image](https://user-images.githubusercontent.com/54589605/235287100-128910c8-57dd-4ec8-b66e-4a590548a882.png)
+
+![image](https://user-images.githubusercontent.com/54589605/235287165-771cc606-8117-40be-a3ff-05cbf86e1601.png)
+
+> **T(n)** is **in-between**.
+
+> Comparing **T(n)**, **2^n** is **bigger**, so **big-O**.
+
+> Comparing **T(n)**, **2^(n/2)** is **smaller**, so **omega**.
+
+> We are not sure if  **T(n)** is **Big-O or omega**, that why we have not written **theta**.
+
+![image](https://user-images.githubusercontent.com/54589605/235287237-8d8ae822-f080-4469-b11a-86b2b14871ae.png)
+![image](https://user-images.githubusercontent.com/54589605/235287291-c039cd53-74ed-4e44-b483-92a45f84c3d8.png)
+
+## Divide and Conquor
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3949,44 +4129,6 @@ A) Infinite loop -> **NO**. Space is **limited**. Not possible.
 ![image](https://user-images.githubusercontent.com/54589605/234864089-e3a92b6b-1f36-4573-a554-333420c6882a.png)
 ![image](https://user-images.githubusercontent.com/54589605/234865925-f6faa930-f803-4325-9278-b0e0f2f9f561.png)
 ![image](https://user-images.githubusercontent.com/54589605/234870341-b33d9ff1-182d-4029-aeba-a624af30f9e2.png)
-
-## Questions
-
-![image](https://user-images.githubusercontent.com/54589605/235282049-f260093e-de7b-488c-9055-46256583bb90.png)
-![image](https://user-images.githubusercontent.com/54589605/235282053-3e548185-d430-4661-ba11-962713a595ae.png)
-![image](https://user-images.githubusercontent.com/54589605/235282055-596cffec-4a8b-409a-a2f3-25caa9f4ceaf.png)
-![image](https://user-images.githubusercontent.com/54589605/235282079-4d558c8b-ae00-4709-9c54-41023ce3c2dc.png)
-![image](https://user-images.githubusercontent.com/54589605/235282085-d6b26aaf-a3bb-4acc-a59c-6d67f5cb9dc9.png)
-![image](https://user-images.githubusercontent.com/54589605/235282088-6347778f-8b59-4283-b289-97fcb0c3e279.png)
-![image](https://user-images.githubusercontent.com/54589605/235282090-054c9160-56dd-45af-9d6c-d547faff8dc1.png)
-![image](https://user-images.githubusercontent.com/54589605/235282095-b638fd66-43f5-4be8-a1d8-a209575c5739.png)
-![image](https://user-images.githubusercontent.com/54589605/235282098-9a3d22be-4ef1-472f-a079-21b3a1ffb8b4.png)
-![image](https://user-images.githubusercontent.com/54589605/235282102-178dd3d7-919c-4f30-a8db-bdf80f69c684.png)
-![image](https://user-images.githubusercontent.com/54589605/235282105-07628c8b-7338-4f53-8724-f894c4673098.png)
-![image](https://user-images.githubusercontent.com/54589605/235282110-343a2dff-a215-456f-a4d9-87a161a3e47f.png)
-![image](https://user-images.githubusercontent.com/54589605/235282113-08fcb891-2871-4ee7-a7a8-6d6b3324e232.png)
-![image](https://user-images.githubusercontent.com/54589605/235282116-9816f085-bca9-4eda-9798-f92fabd35a69.png)
-![image](https://user-images.githubusercontent.com/54589605/235282120-a427f7f4-a897-4690-be2c-aadb0ada4f9c.png)
-![image](https://user-images.githubusercontent.com/54589605/235282126-fc30d8f0-5e94-4d9a-944f-8e05a08cb1d4.png)
-![image](https://user-images.githubusercontent.com/54589605/235282129-04653e88-f7fb-4f82-97a9-47733ea43976.png)
-![image](https://user-images.githubusercontent.com/54589605/235282134-c70c0fd1-6282-4025-8696-05b5df843ac7.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ## Revision
