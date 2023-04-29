@@ -4315,9 +4315,12 @@ A) Infinite loop -> **NO**. Space is **limited**. Not possible.
 
 > The above program is **without** divide and conquor strategies.
 
+## DP-II (21) [29th April 2023]
+
 ## Finding Max and min using divide and conquor strategies
 
 ![image](https://user-images.githubusercontent.com/54589605/235304200-710be72b-6ea4-437d-9626-7e8c0a073106.png)
+
 
 
 
