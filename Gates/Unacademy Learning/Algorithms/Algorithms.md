@@ -3950,6 +3950,27 @@ A) Infinite loop -> **NO**. Space is **limited**. Not possible.
 ![image](https://user-images.githubusercontent.com/54589605/234865925-f6faa930-f803-4325-9278-b0e0f2f9f561.png)
 ![image](https://user-images.githubusercontent.com/54589605/234870341-b33d9ff1-182d-4029-aeba-a624af30f9e2.png)
 
+## Questions
+
+![image](https://user-images.githubusercontent.com/54589605/235282049-f260093e-de7b-488c-9055-46256583bb90.png)
+![image](https://user-images.githubusercontent.com/54589605/235282053-3e548185-d430-4661-ba11-962713a595ae.png)
+![image](https://user-images.githubusercontent.com/54589605/235282055-596cffec-4a8b-409a-a2f3-25caa9f4ceaf.png)
+![image](https://user-images.githubusercontent.com/54589605/235282079-4d558c8b-ae00-4709-9c54-41023ce3c2dc.png)
+![image](https://user-images.githubusercontent.com/54589605/235282085-d6b26aaf-a3bb-4acc-a59c-6d67f5cb9dc9.png)
+![image](https://user-images.githubusercontent.com/54589605/235282088-6347778f-8b59-4283-b289-97fcb0c3e279.png)
+![image](https://user-images.githubusercontent.com/54589605/235282090-054c9160-56dd-45af-9d6c-d547faff8dc1.png)
+![image](https://user-images.githubusercontent.com/54589605/235282095-b638fd66-43f5-4be8-a1d8-a209575c5739.png)
+![image](https://user-images.githubusercontent.com/54589605/235282098-9a3d22be-4ef1-472f-a079-21b3a1ffb8b4.png)
+![image](https://user-images.githubusercontent.com/54589605/235282102-178dd3d7-919c-4f30-a8db-bdf80f69c684.png)
+![image](https://user-images.githubusercontent.com/54589605/235282105-07628c8b-7338-4f53-8724-f894c4673098.png)
+![image](https://user-images.githubusercontent.com/54589605/235282110-343a2dff-a215-456f-a4d9-87a161a3e47f.png)
+![image](https://user-images.githubusercontent.com/54589605/235282113-08fcb891-2871-4ee7-a7a8-6d6b3324e232.png)
+![image](https://user-images.githubusercontent.com/54589605/235282116-9816f085-bca9-4eda-9798-f92fabd35a69.png)
+![image](https://user-images.githubusercontent.com/54589605/235282120-a427f7f4-a897-4690-be2c-aadb0ada4f9c.png)
+![image](https://user-images.githubusercontent.com/54589605/235282126-fc30d8f0-5e94-4d9a-944f-8e05a08cb1d4.png)
+![image](https://user-images.githubusercontent.com/54589605/235282129-04653e88-f7fb-4f82-97a9-47733ea43976.png)
+![image](https://user-images.githubusercontent.com/54589605/235282134-c70c0fd1-6282-4025-8696-05b5df843ac7.png)
+
 
 
 
