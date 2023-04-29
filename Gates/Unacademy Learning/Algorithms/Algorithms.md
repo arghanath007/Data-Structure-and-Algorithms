@@ -4043,18 +4043,111 @@ A) Infinite loop -> **NO**. Space is **limited**. Not possible.
 ![image](https://user-images.githubusercontent.com/54589605/235287237-8d8ae822-f080-4469-b11a-86b2b14871ae.png)
 ![image](https://user-images.githubusercontent.com/54589605/235287291-c039cd53-74ed-4e44-b483-92a45f84c3d8.png)
 
+## DP-I (20) [29th April 2023]
+
 ## Divide and Conquor
 
+![image](https://user-images.githubusercontent.com/54589605/235288298-b2f59af5-da49-4a50-8b2f-5a878921c802.png)
+![image](https://user-images.githubusercontent.com/54589605/235288295-38aa7c43-25da-4ad1-b143-c2f64b701e86.png)
 
+> We are calling **two** times. So it may give **binary tree**.
 
+![image](https://user-images.githubusercontent.com/54589605/235288347-3819cc30-851d-4d9e-b458-33e809a90517.png)
 
+> There are **4** function(small, solution, divide, combine) calls which are not **recursive**. 
 
+> The above **4** function codes are **outside**.
 
+![image](https://user-images.githubusercontent.com/54589605/235288437-0419e435-affc-4f8e-b652-b6ca240bcbb0.png)
 
+* i -> First element index
+* j -> Last element index
+* a -> Array, which contains elements from i to j.
 
+> We want to **sort** the array, using **divide and conquor**.
 
+* small function -> Will check if the problem is small or not. Return **1** means problem is **small**. Return **0** means problem is not **small**. 
 
+![image](https://user-images.githubusercontent.com/54589605/235289395-e5c2155c-501f-4f61-a2df-870140f65c3e.png)
+![image](https://user-images.githubusercontent.com/54589605/235289493-f00f4f43-ff3b-4314-b909-dee63705bdfc.png)
+![image](https://user-images.githubusercontent.com/54589605/235289683-9c5cc719-2542-4a60-847a-03613038627b.png)
 
+> A Recursive function without **if(termination condition)** part will give **stack overflow** error message.
+
+![image](https://user-images.githubusercontent.com/54589605/235289829-1fa10bea-b177-4aeb-a5c8-762752f01fa6.png)
+
+> Divide and conquor doesn't mean, we will divide bliendly or divide everytime. First verify **small** or not. If not small, then divide. Don't divide everytime.
+
+> There are **4** non-recursive function calls and out them, **2** are in the **if** part and **2** are there in the **else** part.
+
+> As **2** functions belong to the **else** part, there is chance of **for** loop. Inside **divide**, **for** loop maybe there.
+
+> Inside, **Divide()** there is **one** for loop running till **n** times. Then the time complexity is **n**.
+
+> Inside, **Combine()** there is **two** for loop running till **n** times each. They are **inner** loops. Then the time complexity is **n ^ 2**.
+
+> If no loop is there, then the **time complexity** is **constant**.
+
+> Inside **Small() and solution()**, there are **no loops**. But inside **Divide() and Combine()**, loop maybe there.
+
+![image](https://user-images.githubusercontent.com/54589605/235290221-ee6784b3-7bcd-4da1-befc-9e9b31e33f7e.png)
+
+> **Combine()** code executed means **Combine()** code is **over**.
+
+* Small() -> **True** -> Solution() 
+* Small() -> **False** -> Divide() -> Combine()
+
+> This is **Divide and Conquor** abstract algorithm.
+
+![image](https://user-images.githubusercontent.com/54589605/235291467-cc1776f1-3596-48b2-ac1a-98690be618eb.png)
+
+* Code is **hidden**.
+
+* **Divide and conquor** doesn't mean we will **divide** directly, first verify it is **small** or not. Don't divide directly.
+
+![image](https://user-images.githubusercontent.com/54589605/235291592-81d6da76-6d33-43c9-aa64-7f8abcdf3459.png)
+
+* Getting **sub-problem** solutions using **recursion** is called as **conquor**.
+
+![image](https://user-images.githubusercontent.com/54589605/235291638-b7110de4-2026-4013-9de8-ccba94750593.png)
+
+* First **divide**, now we got **sub-problems**, **conquor** will solve the **sub-problems**. **Conquor** goal is to get **sub-problem** solutions using **recursion**. **Combine** is **multiplication**. After getting the **sub-problem** solutions, **multiply**, that is called as **combine**.
+
+![image](https://user-images.githubusercontent.com/54589605/235291769-cfd2a990-2fd7-4ebd-80be-080d3e811f8d.png)
+
+* F(5) = F(4) + F(3)
+
+> F(5) is divided into two parts, F(4) and F(3), it is **divide**.
+
+> Solve F(4) and F(3), individually. It is **conquor**.
+
+> Now, **combine**, here for F(5), **combine** is **addition**. 
+
+![image](https://user-images.githubusercontent.com/54589605/235291912-aa805729-4cf4-4460-bdae-d3096495b437.png)
+
+* From problem to problem, **combine** will change.
+
+> **Combine()** code **inputs** are **sub-problem** solutions, which are **b and c** here.
+
+> **Combine()** code **output** is **total problem** solution which is **d** here.
+
+![image](https://user-images.githubusercontent.com/54589605/235292023-6ca81e41-9895-498b-9e17-5f65bdb37d30.png)
+
+> **Divide and conquor** major part is **else** part. In the **else** part only, **Divide(), Conquor() and Combine()** there.
+
+> **If** is required for **termination** condition.
+
+> In the **else** part, **Divide()** will be executed **first**.
+
+> **Divide()** will divide into **how many parts**, will depend on **divide code**.
+
+![image](https://user-images.githubusercontent.com/54589605/235292140-72def053-5c41-4746-a49c-00a4bd992761.png)
+
+> **How to do combine**? will depend on **combine code**.
+
+> **How to do divide**? will depend on **divide code**.
+
+* Start from **1hr 5mins**.
 
 
 
