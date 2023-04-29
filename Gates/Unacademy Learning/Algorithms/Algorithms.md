@@ -4147,7 +4147,177 @@ A) Infinite loop -> **NO**. Space is **limited**. Not possible.
 
 > **How to do divide**? will depend on **divide code**.
 
-* Start from **1hr 5mins**.
+> In the **else** part, **Divide()** is the **first** part. After divide, **conquor** will come and solve every single problem using recursion. Now, we have solutions to all of the sub-problems. These parts of the solutions are **inputs** to the **combine()**.
+
+![image](https://user-images.githubusercontent.com/54589605/235297957-e2f60f96-e63c-4b72-97c8-52bdc702901e.png)
+
+> Lastly we got **f** as the final solution and we return **f**.
+
+> **Combine()** inputs are going to be **solutions** for the **sub-problems**.
+
+## Summary
+
+* Divide and conquor major part -> **else** part
+* **else** part -> Divide() -> Conquor() -> Combine()
+
+![image](https://user-images.githubusercontent.com/54589605/235298376-323fab08-a174-4041-b067-c0e50914b9e8.png)
+
+> The above algorithm is solving **many problems**.
+
+> **Divide and conquor** is a **designing technique**. It is a **template**. That's why somethings are **hidden**.
+
+> It will solve **as many** problems as possible.
+
+![image](https://user-images.githubusercontent.com/54589605/235298679-a74c4488-869c-41cb-83b0-d6b4a085bf26.png)
+
+> **Merge and Quick** sort are implemented using **divide and conquor** designing technique.
+
+> **As many** problems are solved using the **same** algorithm, but the **code** is different in **different functions**.
+
+## Applications of Divide and Conquor (FOR GATE)
+
+1) Finding max and min
+2) Power of an element
+3) Binary Search
+4) Merge sort
+5) Quick sort
+6) Selection procedure(Not selection sort)
+7) Maximum contigious sub-array sum
+8) Finding no. of inversions
+9) Strassen's matrix multiplication
+
+> All of them use, **same** algorithm. The **4** function's code will **differ**.
+
+![image](https://user-images.githubusercontent.com/54589605/235299034-9beb8c48-f4ff-42de-b0bc-0de205ca89d3.png)
+![image](https://user-images.githubusercontent.com/54589605/235299189-d20e2a66-3040-4d43-87d3-07d8ce6b72b6.png)
+
+> All of the applications are having the **same** format but the **4** function's code will **differ**.
+
+> **Small()** function code will take **O(1) or constant** time, as there is **no loop**. Code may change but **no loop**.
+
+> **Solution()** function code will take **O(1) or constant** time, as there is **no loop**. Code may change but **no loop**.
+
+* So, total **if** part is **O(1) or constant** time.
+
+![image](https://user-images.githubusercontent.com/54589605/235299290-638114ac-a162-48ae-9da0-ae3fbe21c3d4.png)
+
+> **Divide()** function time is **dependent** on how the problem is being **divided**, it can be in **constant** or in **some loop**. Some divisions are **easy** and some are **difficult**. Some divisions will take **exponential**.
+
+> Until and unless we see the **code**, we cannot say **anything**. So, we can say **some function**, which is **f1(n)**.
+
+> **Divide()** function time is **dependent** on how the problem is being **combined**, it can be in **constant** or in **some loop**. Some combinations are **easy** and some are **difficult**. Some combinations will take **exponential**.
+
+> Until and unless we see the **code**, we cannot say **anything**. So, we can say **some function**, which is **f2(n)**.
+
+![image](https://user-images.githubusercontent.com/54589605/235299559-e55ae7ef-6212-4337-857d-3130b64961ea.png)
+
+> **Divide and conquor** algorithm for **n** elements, will take time complexity of **T(n)** time.
+
+> **Divide and conquor** algorithm for **n/2** elements, will take time complexity of **T(n/2)** time.
+
+![image](https://user-images.githubusercontent.com/54589605/235299615-ae97f2ba-3347-453b-a49b-f2982bd073c7.png)
+![image](https://user-images.githubusercontent.com/54589605/235299643-db0fed28-e3a6-4191-a363-1582f42f4bc4.png)
+
+
+> If we **add**, divide(f1(n)) and combine time(f2(n)), then we will get **f(n)**.
+
+![image](https://user-images.githubusercontent.com/54589605/235301419-fadb05a1-3c35-4bf3-af80-b01f5aefb811.png)
+
+> First **two** indicate **how many sub-problems** we have, which is **two**. One **sub-problem** size is **n/2**. **T(n/2)** is one **sub-problem** cost. To solve one **sub-problem**, cost is **T(n/2)**.
+
+> **2T(n/2)** represent **cost of all sub-problems**, which means **conquor** time.
+
+> So the **conquor** time is **T(n/2) + T(n/2) -> 2 * T(n/2)**.
+
+![image](https://user-images.githubusercontent.com/54589605/235299747-1b99b465-8250-47ce-bc97-3534da3c5d72.png)
+![image](https://user-images.githubusercontent.com/54589605/235299892-9218d271-bafb-436a-9a4a-cc1410ba0f2a.png)
+
+> So, **f(n)** is the time required for both **divide and combine**.
+
+> In general someone can make **a** sub-problems, each of size, **n/b**.**F(n)** is the time required for both **divide and combine**.
+ 
+> It is the **recurrence relation** of **master's theorem**.
+
+![image](https://user-images.githubusercontent.com/54589605/235302085-f152f4f5-3df8-420b-8d51-567198ac5069.png)
+
+> **Master theorem** was invented to solve **divide and conquor** recurrence relations.
+
+> All **divide and conquor** recurrence relation problem will look like the **above** format.
+
+* a -> No. of sub-problems. a >= 1
+* n/b -> Size of sub-problems
+* f(n) -> Time required for both divide and conquor.
+* T(n/b) -> Time/cost of one sub-problem
+* b -> b > 1. Otherwise no divide.
+
+![image](https://user-images.githubusercontent.com/54589605/235302268-10f7e1b9-9ffd-4cb5-a45f-279e802f717a.png)
+![image](https://user-images.githubusercontent.com/54589605/235302476-d7763c45-8ee3-44e5-955b-db09222ace0c.png)
+![image](https://user-images.githubusercontent.com/54589605/235302482-da41f881-ee70-4d3c-8a77-59921acae81a.png)
+
+* **a >= 1**, which means that **a=1** also possible. If we keep **a > 1**, then **binary search** is gone. In **binary search**, **a=1**. If **a > 1**, then we have to remove **binary search**.
+
+## Finding Max and min
+
+* Input -> An array of **n** distinct elements
+* Output -> Returns max and min elements.
+
+![image](https://user-images.githubusercontent.com/54589605/235302838-8b05b2bb-e0c5-4206-993d-bcaa61ee6604.png)
+![image](https://user-images.githubusercontent.com/54589605/235302889-26c0e21a-cc94-4885-a6cd-2a63aa53532a.png)
+
+> **One scan** is required, which means **O(n)** times.
+
+![image](https://user-images.githubusercontent.com/54589605/235303058-8e167b98-d455-4044-9934-d68c3d6b2ecd.png)
+
+> Finding max, **one scan** is required.
+
+> Finding min, **one scan** is required.
+
+![image](https://user-images.githubusercontent.com/54589605/235303087-8261ec28-9f8c-4120-b018-ca1053a23a9a.png)
+
+> **Loop** will repeat, approximately **n** times.
+
+![image](https://user-images.githubusercontent.com/54589605/235303141-d4d21ab5-9ef0-498d-9ee0-c921151f51e1.png)
+![image](https://user-images.githubusercontent.com/54589605/235303170-a0df633d-bca8-405b-a646-45226ad38d65.png)
+
+> Left to right, we went **one** time only, which is **one** scan.
+
+> Within **one** scan, we managed **two** people.
+
+> Within **one** scan, we can manage **two** max people.
+
+![image](https://user-images.githubusercontent.com/54589605/235303274-2076cadf-7700-48e2-a8b5-254b2b41118c.png)
+![image](https://user-images.githubusercontent.com/54589605/235303395-a617251e-524f-495a-92ac-0bd8f0145d18.png)
+
+> The above code is **without** **divide and conquor** strategies.
+
+> This is called as **straight max, min** algorithm. The time complexity is **O(n) or theta(n)**, **one scan** is mandatory.
+
+![image](https://user-images.githubusercontent.com/54589605/235303491-c483af10-6e42-4275-96b0-0941a9b25c2c.png)
+![image](https://user-images.githubusercontent.com/54589605/235303514-8702190c-9346-4ac2-9e92-6bef1ecc2226.png)
+![image](https://user-images.githubusercontent.com/54589605/235303538-ea7a43ef-75df-4460-ba7f-203060dd91b6.png)
+
+> More coming, **change**, less coming, **no change**.
+
+![image](https://user-images.githubusercontent.com/54589605/235303745-96c58d18-3b3d-48cb-a3a6-1ed21bf0a201.png)
+![image](https://user-images.githubusercontent.com/54589605/235303758-f359ecb7-42d5-40cc-b14e-2419dd78ec4d.png)
+
+> **Topper** can be at **any place**. If we like it or not, we have to **compare** all of them.
+
+* ECE -> Every Case
+
+![image](https://user-images.githubusercontent.com/54589605/235304033-73116b6a-1a6f-4355-9357-f9caa6ef04b2.png)
+
+> In a given array, finding **max**, **best case** time is, **O(n)** which is **one scan** and it is mandatory.
+
+* Best, Worst, Average -> **O(n)**
+
+> All of them are **O(n)**. **O(n)** is for **every case**.
+
+> The above program is **without** divide and conquor strategies.
+
+## Finding Max and min using divide and conquor strategies
+
+![image](https://user-images.githubusercontent.com/54589605/235304200-710be72b-6ea4-437d-9626-7e8c0a073106.png)
 
 
 
@@ -4156,6 +4326,10 @@ A) Infinite loop -> **NO**. Space is **limited**. Not possible.
 
 
 
+
+
+
+ 
 
 
 
