@@ -4745,7 +4745,359 @@ A) Infinite loop -> **NO**. Space is **limited**. Not possible.
 
 > Master's theorem will not give **stack space**. It will only give **answer**.
 
+## Doubt_Clearing_Session (22) [30th April 2023]
 
+* Time complexity recurrence relation  -> 2T(n/2) + C. -> Theta(n)
+
+![image](https://user-images.githubusercontent.com/54589605/235347534-bb76b52b-3865-4064-a7c2-8ceb4d3d567c.png)
+
+> **Else** is **more** valuable.
+
+> The **time complexity** to find max-min is **O(n)** for **every case**. We cannot stop in-between. It is **every case**.
+
+![image](https://user-images.githubusercontent.com/54589605/235347626-ccfd578d-fd1b-4fa4-90cb-3c9cf63c5c22.png)
+
+> Recursive program's **space** is based on **no. of levels**.
+
+> Stack space is based on **no. of levels**.
+
+* c1 push -> c2 push -> c3 push -> c3 pop -> c4 push -> c4 pop -> c2 pop -> c5 push -> c6 push -> c6 pop -> c7 push -> c7 pop -> c5 pop -> c1 pop
+
+> If completed, then only **popped**.
+
+> **Function calling and function execution**, both are done **simultaneously**, if possible, **immediately** done.
+
+> **c2 and c5** are **sibling**, once **c2** is **popeed**, then only **c5** is **pushed**.
+
+> Whenever recursive programming is executing, **stack space** is based on **no. of levels**. [**IMPORTANT**]
+
+> Recursive programs, create a recursive **tree**, which is nothing but a **stack**. In the stack, **how many levels are there** is called as **stack space**.
+
+> If we want **time complexity**, then solve recurrence relation for **time**.
+
+> We have substituted **log n** times as there are **log n** no. of levels in the tree, that's why **stack space or space complexity** is **log n**.
+
+![image](https://user-images.githubusercontent.com/54589605/235350123-6554d3dd-dcae-4d29-ae80-b9fd3dd97ea2.png)
+![image](https://user-images.githubusercontent.com/54589605/235350157-137efd8a-6b4d-45b3-8a2d-0312175f65b6.png)
+
+> **Array** is fixed space only.
+
+> Finding **max-min**, **else** part is **important**.
+
+* Divide -> O(1)  [No loop]
+* Left part(sub-problem) -> T(n/2)
+* Right part(sub-problem) -> T(n/2)
+* Combine -> O(1) [No loop]
+
+![image](https://user-images.githubusercontent.com/54589605/235350314-3f1234f9-6c3f-4bde-a949-61fee2af118a.png)
+
+> From problem to problem, those **4** functions(Divide, 2 * Conquor, Combine) will **change**. Whenever **code** changes, **time complexity** will also change.
+
+> The above problem's **time complexity** is **O(n)**.
+
+> Conquor is always **recursion** and there are **two** function calls, so **2 * T(n/2)**.
+
+![image](https://user-images.githubusercontent.com/54589605/235350451-2eea791b-7d0b-4fa6-93cb-486e7a416d8d.png)
+
+> Less function calls **less time**. 
+
+> More function calls **more time**. 
+
+> If we divide **one element**, each level, then the **no. of levels** is **n**. **n** level stack required. Stack size increasing.
+
+> Time complexity is **same** which is **n** only but **space** is **increasing**.
+
+> Unnecessarily **space is increasing**.
+
+![image](https://user-images.githubusercontent.com/54589605/235350855-6b9c28ac-f4f9-41ee-bd4c-54d40af343a7.png)
+
+* Let c(n) be the no. of comparisons between the elements in the above algorithm on **n-elements* array.
+
+> Divide and conquor for **max-min** for **n** elements is **c(n)** comparisons.
+
+> Divide and conquor for **max-min** for **n/2** elements is **c(n/2)** comparisons.
+
+![image](https://user-images.githubusercontent.com/54589605/235350997-88db70a5-44ac-4feb-889f-166c98c4c7f1.png)
+
+> For **1-element**, no comparisons.
+
+> For **2-elements**, one(1) comparison is there.
+
+> **Divide()** has no comparisons.
+
+> In **Combine()**, there are **2** comparisons.
+
+![image](https://user-images.githubusercontent.com/54589605/235351070-dd839421-61fb-4f11-9d30-7fc00960e949.png)
+
+* We are calculating **comparisons**.
+
+> Don't write **constants**, write the exact **numbers**, we are not calculating **time complexity** here.
+
+> For **if** purpose, bring **n** value, in **else** don't bring **n** value. It is **very big**.
+
+> Don't give number for **conquor**, it is **recursion**.
+
+> For **non-recursion**, we can give number.
+
+![image](https://user-images.githubusercontent.com/54589605/235351426-0ed45197-94dc-4600-985f-1faf1c4361b9.png)
+
+> a[i] and a[j] are comparison **between elements**, it will give **value**.
+
+> i and j are comparison **between positions**.
+
+![image](https://user-images.githubusercontent.com/54589605/235351469-12f1d902-106c-4cad-a2ab-9fbbe6920167.png)
+
+> Question asked, comparisons between it's elements.
+
+* Recurrence relation **comparisons**.
+
+> The goal is **else** part only and not **if** part.
+
+![image](https://user-images.githubusercontent.com/54589605/235351532-1e15a6b6-681e-4ef1-87cd-44666adf4366.png)
+
+* Exact number required. 
+
+> We have to do **substitution** method, because we want **exact** answer.
+
+> First and second level **non-recursive** term is **different**.
+
+![image](https://user-images.githubusercontent.com/54589605/235352402-086a493e-ca91-4d4f-bb1f-34f1742dfaec.png)
+
+> For first level, **Divide is zero(0)**, **Combine is 2**, so the overall is **2** for the **first level**.
+
+> For second level, **Divide is zero(0)**, **Combine is 2**, so the overall is **0 + 2 + 0 + 2 -> 4 -> 2^2** for the **second level**.
+
+> For third level, **Divide is zero(0)**, **Combine is 2**, so the overall is **0 + 2 + 0 + 2 + 0 + 2 -> 8 -> 2^3** for the **third level**.
+
+> For every level, **Divide and Combine** is going on.
+
+![image](https://user-images.githubusercontent.com/54589605/235352540-0cb57307-82ad-4369-83a3-f63ee20d767c.png)
+![image](https://user-images.githubusercontent.com/54589605/235352631-fda5d910-f340-4bc2-a941-bdf48dea1e4b.png)
+
+> We have **two** terminations, **1 and 2**, we can stop at **2** also.
+
+![image](https://user-images.githubusercontent.com/54589605/235352698-87b01b9d-7166-4a3c-a376-6822a54b8770.png)
+
+* c(2) -> 1.
+
+![image](https://user-images.githubusercontent.com/54589605/235352872-c6816f28-c8f0-4586-8230-ba3f52c5f062.png)
+
+* We did **exact**.
+
+> The algo to find **max-min** using divide and conquor, will take **1.5 * n - 2** comparisons.
+
+![image](https://user-images.githubusercontent.com/54589605/235352934-86964173-c7dc-4e0a-a72f-90e2f7a15334.png)
+
+* To find **max-min** using divide and conquor, how many comparisons needed?
+
+> **1.5 * n - 2** or **(3 * n)/2 - 2** comparisons.
+
+> Anything we can use for **asymptotic notations**. That should be **last line**, don't do anything in-between.
+
+* Actual answer is **1.5 * n - 2** or **(3 * n)/2 - 2** comparisons, which is **Theta(n)**.
+
+![image](https://user-images.githubusercontent.com/54589605/235353105-7db89912-0166-4d96-a8b5-8972dbb56193.png)
+
+* In **MSQ**, both are correct.
+
+> If **exact** is there, then why go for **approx** answer. [**IMPORTANT QUESTION**]
+
+* **1.5 * n - 2** or **(3 * n)/2 - 2** comparisons is for **n > 2**.
+
+![image](https://user-images.githubusercontent.com/54589605/235353172-ebe9b70f-5b15-49d5-a5b1-e09c39b922e9.png)
+
+* What is the prodecure to find **1.5 * n - 2** or **(3 * n)/2 - 2** comparisons? [**IMPORTANT QUESTION**]
+
+> Write the recurrence relation and solve it using substitution method.
+
+![image](https://user-images.githubusercontent.com/54589605/235353249-d0a40b63-b1ec-4c91-9610-080a74bdd1a6.png)
+![image](https://user-images.githubusercontent.com/54589605/235353268-631ef632-792e-47c8-bee8-f61d7ef03075.png)
+
+> One is **left max and right max** comparion. Another is **left min and right min** comparison. So that we get the overall **max and min**.
+
+![image](https://user-images.githubusercontent.com/54589605/235353341-4e0c5704-f034-4857-b27a-ead3096bf5ac.png)
+![image](https://user-images.githubusercontent.com/54589605/235353355-f920b907-cfa0-49f4-8b66-9e34515e6847.png)
+
+> **Total divide and conquor with every application** is having **similar** story.
+
+![image](https://user-images.githubusercontent.com/54589605/235353444-88caa4f8-6ac0-4a3d-a68d-0def85eae7b7.png)
+![image](https://user-images.githubusercontent.com/54589605/235353454-c5524c5e-2b40-4cf9-a89b-7c617eacb073.png)
+
+* Both are **similar**.
+
+> In recurrence relation for **time**, **c** is constant so we can write **O(1)**. It can be **anything**.
+
+![image](https://user-images.githubusercontent.com/54589605/235353498-5b54a3d1-23ec-48d0-b40b-888fe70c73d8.png)
+
+> In recurrence relation for **comparisons**, it is **2**, nothing more and nothing less.
+
+> The program had **two(2)** terminations(1 and 2), and we stopped at **2** element.
+
+> If we continue **one more level** till **1**, then **one more term** will **increase**. Automatically, **comparisions** will **increase**.
+
+> Then it will become **2 * n - 2**.
+
+![image](https://user-images.githubusercontent.com/54589605/235353679-7608c5ce-b28a-4d04-ba1e-4e77535d622e.png)
+
+> We have chance to end at **element 2**, then why we should go to **element 1**. Stop at **2**.
+
+> Stopped at **2** for **less comparisons**.
+
+> **2** will come first, so that we can **stop** one level. [**IMPORTANT**]
+
+![image](https://user-images.githubusercontent.com/54589605/235353872-f9feec3d-b506-425d-9123-ad8c4722cbd6.png)
+
+> Among **Divide and combine**, **Combine()** is take more **comparisons**.
+
+![image](https://user-images.githubusercontent.com/54589605/235353937-4c6cd2cd-149f-4266-82a0-d74917c14c50.png)
+
+> If we want **approximation**, then go to asymptotic notation.
+
+> In the **time complexity** recurrence relation, the final time we got was **Theta(n)**.
+
+> In the **comparisons** recurrence relation, the final comparisons we got was **Theta(n)**.
+
+> They are **same**.
+
+![image](https://user-images.githubusercontent.com/54589605/235354209-9f4586fb-1e4d-4ceb-853e-f4461bb84fcd.png)
+
+> They both will take same **time**. The **constant factor** in **stright max min** algo will take **more comparisons**.
+
+* Finding **max-min**, how many comparison?
+
+> **1.5 * n - 2** or **(3 * n)/2 - 2** comparisons.
+
+## Problem
+
+![image](https://user-images.githubusercontent.com/54589605/235354348-ce92beaa-2c13-48eb-a741-500f9ef60b26.png)
+
+* To find **max-min** in the array of 100 elements, comparisons needed?
+
+> 1.5 * n -2 -> 1.5 * 100 -2 -> 150 - 2 -> 148.
+
+> Remember the **comparisons**.
+
+![image](https://user-images.githubusercontent.com/54589605/235362471-443dc197-92f1-4254-8cd5-67e6c4bbfe62.png)
+![image](https://user-images.githubusercontent.com/54589605/235362567-c1cc2c63-c3e7-468d-9a34-77bbe5e71002.png)
+
+> When **no algo** mentioned, which ever **better**, go for that.
+
+> If mentioned, take that only.
+
+> If nothing mentioned, we have flexibility.
+
+![image](https://user-images.githubusercontent.com/54589605/235362949-de9e9bbf-49d4-49d1-9e62-a331d54a84db.png)
+![image](https://user-images.githubusercontent.com/54589605/235363531-d87122bd-3976-4c58-80b3-225b565812f1.png)
+
+> Repeatation not allowed. Sorted yes.
+
+![image](https://user-images.githubusercontent.com/54589605/235363598-8dd3b4a6-8576-460a-b250-38486e83a89a.png)
+
+* Time complexity is **O(1)**.
+
+> No comparisons.
+
+![image](https://user-images.githubusercontent.com/54589605/235363698-5e574f01-c34d-466d-ba8e-2d0ca3ae2a18.png)
+
+* Best Algo only -> O(1), constant time. Every case
+* return (2nd element)
+
+> Other than **first and last** element, return any element.
+
+![image](https://user-images.githubusercontent.com/54589605/235363763-def5f878-a83a-4349-b72a-0dde686b1a72.png)
+![image](https://user-images.githubusercontent.com/54589605/235363774-e8bc6041-6546-4a15-b240-011f1c798ee8.png)
+
+> To find **max-min**, we have a well known algo. Worst case is that we have to use that algo.
+
+> The question didn't mention, give **best algo** but also didn't say give **worst algo** as well. If nothing mentioned give **best algo** because there is no limit or limitation end of **worst algo**.
+
+![image](https://user-images.githubusercontent.com/54589605/235364025-2925cc08-b5b1-423c-ba93-d4b2b5ef0845.png)
+![image](https://user-images.githubusercontent.com/54589605/235364416-1ba5c70c-5e3d-4276-90c1-6039d54020eb.png)
+
+![image](https://user-images.githubusercontent.com/54589605/235364471-a4a061ef-accd-4fde-b487-48433d9cfa98.png)
+
+* Not sorted. No duplicates.
+
+> We have to scan the whole array **once** to find the **min and max** elements. Then only we can give an element which is neither max nor min.
+
+> So, time complexity is **O(n)**, which is the worst case. 
+
+> Let's try to find if any better time complexity is there or not.
+
+> Take first three elements and sort them. It will take **constant** time. **80** is the **answer** because he is either min nor max, as there is **10** which is a min element and there is **90** which is the max element.
+
+> So, **80** is either min nor max element.
+
+> As there is one element which is less than **80** and there is one element which is more than **80**. 
+
+> The entire process will take **constant or O(1)** time. [**Correct Answer**]
+
+![image](https://user-images.githubusercontent.com/54589605/235365208-28e63ada-526b-4cbb-b60c-d18b7edfd16a.png)
+![image](https://user-images.githubusercontent.com/54589605/235365311-3075240f-d1a1-4001-bee0-972f8463b1e6.png)
+
+> To find out **1 element** which is either max nor min, we don't need to scan the whole array.
+
+> Take first **3 elements**, sort them. Return **middle** person.
+
+> Middle person should be the **answer** because there is **one element more** than middle element and **one element less** than middle element.
+
+> Any **3 people** ok, sort them and return **middle** element.
+
+* Time Complexity -> O(1) [Best algo, Every case(EC)]
+
+![image](https://user-images.githubusercontent.com/54589605/235365548-379ab773-0ecb-4930-98fb-5704517e8023.png)
+![image](https://user-images.githubusercontent.com/54589605/235365657-efdf4e2b-857c-4ad8-8c88-c2df3fd199c0.png)
+
+* Straight max-min without divide conquor strategies -> (2 * n) - 1.
+* Max-min using divide conquor strategies -> (1.5 * (n)) - 2.
+
+> **Max-min using divide conquor strategies** is asymptotically **better** than **Straight max-min without divide conquor strategies**.
+
+> In both of them, we are doing **one scan**.
+
+> Both of the algos are the **same**. 
+
+## Required slides
+
+![image](https://user-images.githubusercontent.com/54589605/235366066-b5fd1e1b-3486-4359-aebc-4501852757bd.png)
+![image](https://user-images.githubusercontent.com/54589605/235366078-5515820b-6c36-4924-a5bd-bcd7122b29a3.png)
+![image](https://user-images.githubusercontent.com/54589605/235366083-a18fc524-a55d-4cf7-89e8-776f6ce54e53.png)
+![image](https://user-images.githubusercontent.com/54589605/235366085-1781cd70-723e-4341-b3f7-75f1fbc45baf.png)
+![image](https://user-images.githubusercontent.com/54589605/235366093-0f419529-7c81-4f72-93ce-a0b4a853af20.png)
+
+> In one problem, we don't know which one to apply, either **straight max-min** or **divide and conquor max-min**, then always apply **divide and conquor max-min**, that's the last one we have to see.
+
+![image](https://user-images.githubusercontent.com/54589605/235366190-ea367dc1-a1bb-48ce-ae92-cc539d30c011.png)
+
+* Not sorted but distinct is there.
+
+![image](https://user-images.githubusercontent.com/54589605/235366220-7e90a21b-8f55-4b34-aed9-a0614fed9834.png)
+![image](https://user-images.githubusercontent.com/54589605/235366275-e9115f16-1159-4d61-947f-8aa3770b563b.png)
+
+* Same as above problem but **not sorted** and **not distinct**.
+
+> Repetition is allowed.
+
+> We took first **3 elements**, sort them and returned the **middle** element. We cannot do this because of **non-distinct** elements. There is no gurantee now.
+
+> Worst case is we have to **scan array once**.
+
+> So, time complexity is **O(n)**.
+
+![image](https://user-images.githubusercontent.com/54589605/235366414-696dae23-67b5-4813-bef6-f2ebc8968ac3.png)
+
+> This is the **only algo** possible.
+
+* **Time complexity**  ->  **O(n)** [Best algo]
+* Worst Case -> **O(n)**.
+* Best Case -> **O(1)**.
+
+> We didn't get any doubt of **best, worst or best** case in the previous questions, because all of the **cases** were the same, that's why we wrote **Every Case(EC)**.
+
+> In the above question, we have different time complexities for different cases.
+
+![image](https://user-images.githubusercontent.com/54589605/235366568-57e5cd8b-0fca-4982-95b8-ad82054946bf.png)
+![image](https://user-images.githubusercontent.com/54589605/235366596-08295c0b-d2ad-4e47-8a0b-fe846b8d7526.png)
 
 
 
