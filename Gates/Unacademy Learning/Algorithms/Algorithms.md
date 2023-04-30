@@ -4315,12 +4315,435 @@ A) Infinite loop -> **NO**. Space is **limited**. Not possible.
 
 > The above program is **without** divide and conquor strategies.
 
+![image](https://user-images.githubusercontent.com/54589605/235329777-a8239654-36b2-4e23-822b-049fabd3796c.png)
+![image](https://user-images.githubusercontent.com/54589605/235329781-146dd7f8-88b6-4758-8eca-0b48d459395c.png)
+![image](https://user-images.githubusercontent.com/54589605/235329784-41056e0f-0741-4cfa-997f-1a1514b97278.png)
+![image](https://user-images.githubusercontent.com/54589605/235329786-bbe1c33e-9a44-44e2-9926-0dceb46a7979.png)
+![image](https://user-images.githubusercontent.com/54589605/235329789-5430133a-ba53-44ed-a00a-f947dd0ce412.png)
+![image](https://user-images.githubusercontent.com/54589605/235329791-6b0d7d32-fc84-412a-827c-6b194c7a0032.png)
+![image](https://user-images.githubusercontent.com/54589605/235329794-88d03559-c2c7-4c3c-ae81-d0ee18c9b6bf.png)
+![image](https://user-images.githubusercontent.com/54589605/235329795-4bd32e56-7bf4-4529-bcb0-275f4d8376d1.png)
+
+
 ## DP-II (21) [29th April 2023]
 
 ## Finding Max and min using divide and conquor strategies
 
 ![image](https://user-images.githubusercontent.com/54589605/235304200-710be72b-6ea4-437d-9626-7e8c0a073106.png)
 
+> Compulsory **one scan** needed. This will also give, **O(n)**.
+
+> Yesterday's algorithm of **Finding Max and min** is without using **divide and conquor strategies**.
+
+* **divide and conquor** abstract algorithm steps:
+
+1) Check for the problem is small or not in the if condition.
+2) 
+
+> Time complexity is decided by **else** part. **If** is for **stopping/termination** purpose.
+
+![image](https://user-images.githubusercontent.com/54589605/235329958-30b33d1d-c975-40e6-b448-4c3fa142112b.png)
+
+> **1-element** is small, **2-element** is also **small**.
+
+> If **1-element** is there in the array, then that element is **max** as well as **min** element of the array. **No comparions** needed.
+
+> If **1-element** is there in the array, then compare once, one element is **max** and one element is **min**. **Only one** comparison needed.
+
+![image](https://user-images.githubusercontent.com/54589605/235330086-1af48ca8-d8a9-49c4-86c4-1e0d0015d29b.png)
+
+> Array containing **7** elements, it is **big**.
+
+> Bigger one is solved in terms of smaller one, it is **recursion**.
+
+> When calculating **mid** value, we need to take **floor** value.
+
+> **1 and 2-elements** mean **small**, stop it.
+
+![image](https://user-images.githubusercontent.com/54589605/235330189-3169745a-99c1-4e1f-8435-523957fc9025.png)
+![image](https://user-images.githubusercontent.com/54589605/235330196-f87a4616-4a3a-4e79-8257-e787757980f9.png)
+
+> **Divides** happened, **combines** will start.
+
+> **3** divides have happened, one that (1,7), another at (1,4) and last at (5,7).
+
+> **3** divides mean compulsory **3** combines will happen or required, otherwise system will not be stabilized.
+
+> Leaf nodes or last level nodes are all **small** problems.
+
+> A node with **zero** children is **leaf** node.
+
+![image](https://user-images.githubusercontent.com/54589605/235330460-a410c9eb-a6a1-4f03-bc17-6225ade77839.png)
+
+> A node with **atleast one** child is **internal** node.
+
+![image](https://user-images.githubusercontent.com/54589605/235330473-62eb73b4-5a8b-4816-a9bc-ddedd67bbaa9.png)
+![image](https://user-images.githubusercontent.com/54589605/235330375-64a67ce4-efd9-465e-848f-b755e9202a46.png)
+
+* YES
+
+![image](https://user-images.githubusercontent.com/54589605/235330521-993d717a-c25e-4613-9ac8-6f9e55c1a203.png)
+
+> Every node is a function call.
+
+> Left child(**c1**) is called **first**. Left is over, then only right child is called.
+
+> To completed **c1**, we need **c2 and c5**.
+
+> To complete **c2**, **c3 and c4** are required. 
+
+> To complete **c3 and c4**, **none or no one** is required.
+
+> To complete **c2**, **c3 and c4** are required and they are available. So, **c2** is completed.
+
+> Then it goes to **c5**. To completed **c5**, **c6 and c7** are needed.
+
+> When **c6 and c7** are over, then **c5** is also over.
+
+> Childern over, then **parents** also over.
+
+![image](https://user-images.githubusercontent.com/54589605/235330811-4ada59a7-543d-4e4e-bdf2-e0a72cce6c50.png)
+
+* First and last line in code. There is no left and right in code.
+
+![image](https://user-images.githubusercontent.com/54589605/235330876-47bdf68b-854b-465b-9801-c8cf2db03988.png)
+![image](https://user-images.githubusercontent.com/54589605/235330914-73c3d458-9da4-4a41-8e8a-583a4fef6003.png)
+
+* c1 -> c2 -> c3 -> c4 -> c5 -> c6 -> c7.
+
+> This ordering is function **calling**.
+
+![image](https://user-images.githubusercontent.com/54589605/235331041-4e8060ad-7283-4b2e-a210-9bc0861eae6a.png)
+
+> **c1** will finish **last**, even though **c1** started **first**, until and unless, rest of them are **finished/over**. **c1** is based on all of the people. If all over, then only **c1** is over.
+
+![image](https://user-images.githubusercontent.com/54589605/235330987-4393c2ed-58d8-4460-b13c-ffabaa032300.png)
+
+> **Left** means **first**.
+
+* Who will complete first?
+
+> **c3**. Leftmost element of the tree, which is a **leaf** node.
+
+![image](https://user-images.githubusercontent.com/54589605/235331075-543225f9-304a-4c7b-a16d-c67bd39dea56.png)
+
+* c3 -> c4 -> c2 -> c6 -> c7 -> c5 -> c1
+
+> This is the ordering of **function execution**.
+
+![image](https://user-images.githubusercontent.com/54589605/235331095-292bfbfa-d45d-4041-a506-e8e42bc1d3be.png)
+
+* Left -> Right -> Root 
+
+> This is called as **post-order**. It is also called as **bottom-up** approach.
+
+![image](https://user-images.githubusercontent.com/54589605/235331137-f407e73f-3075-40d4-9208-876bf9dc5070.png)
+![image](https://user-images.githubusercontent.com/54589605/235331172-aa4cd098-e541-452b-b207-ce2e2ece5610.png)
+![image](https://user-images.githubusercontent.com/54589605/235331193-4b2e0b32-ef9c-4b37-9a3d-d99a05a6061a.png)
+
+* Root -> Left -> Right
+
+> This is called as **pre-order**.
+
+![image](https://user-images.githubusercontent.com/54589605/235331248-9adaf6c1-7fd7-4156-bfdb-e27c165b7569.png)
+![image](https://user-images.githubusercontent.com/54589605/235331369-0317803f-164a-4e87-a4d9-482763893596.png)
+
+> Every programming language uses **pre-order** for function calling.
+
+> Every programming language uses **post-order** for function execution.
+
+![image](https://user-images.githubusercontent.com/54589605/235331413-ab3dae08-c6d2-46f9-946e-8e1508379b38.png)
+
+* Array is contiguous.
+* Linked list may not be contiguous.
+
+![image](https://user-images.githubusercontent.com/54589605/235331531-9c8576d2-9862-4a84-afde-3d3b7c1861d0.png)
+
+* Function call is a **push operation**.
+
+> At **c3**, **c3** can complete directly and call none or no one. As **c3** is a **small** problem.
+
+> At **stack**, **stack-top** will execute.
+
+![image](https://user-images.githubusercontent.com/54589605/235331663-c2dcb91b-132c-4ea7-a8d1-5ae9759698f0.png)
+
+> Completed means **POP**, before **POP**, it returned to it's **parent**. 
+
+* **Siblings** are at the **same** level.
+
+* **Parents and children** differ by **1-level**.
+
+> All children will not come at the same time. One after another, they will come.
+
+![image](https://user-images.githubusercontent.com/54589605/235331828-3a14a05c-b9d7-49cd-8d86-c7102616a35b.png)
+![image](https://user-images.githubusercontent.com/54589605/235331918-2b41545e-7440-4012-ae4a-edd69edba6c3.png)
+![image](https://user-images.githubusercontent.com/54589605/235331933-ff054891-762b-468d-b6e3-0856d240f21d.png)
+![image](https://user-images.githubusercontent.com/54589605/235332042-1a2cc9c5-9607-4e20-9ca1-7f81a4a3c953.png)
+![image](https://user-images.githubusercontent.com/54589605/235332056-cee4950a-33eb-4316-a3f8-6bc32e5d60ae.png)
+![image](https://user-images.githubusercontent.com/54589605/235332100-d6eef294-458a-4ec7-8c77-8494b25aebc4.png)
+![image](https://user-images.githubusercontent.com/54589605/235332129-a71708f4-1a19-446f-b0d2-7ef66759969c.png)
+![image](https://user-images.githubusercontent.com/54589605/235332134-1b2d41f1-5bff-45e3-97bc-e5b48f5ae17c.png)
+
+* How many places divide?
+
+> **3**.
+
+> In those **3** places, **Combine()** also happened. Those many places **divide** happened, those many places, **Combine()** also happened.
+
+> How many times, we **divide**, those many times, we **combine**.
+
+* In the above tree, how many levels?
+
+> **3**.
+
+> Whenever we are dividing, we are **dividing by 2**. Middle means by 2. If we always do by 2, then it is **log n** levels. So, there are **7** elements, then **log 7 base 2** levels. So more than **2** levels, which is **3** levels.
+
+> So, if we always do by 2, then **log n base 2** levels will come. 
+
+> So, if we always do by 3, then **log n base 3** levels will come. 
+
+> So, if we always do by 5, then **log n base 5** levels will come. 
+
+> We are always dividing into two **equal** parts, when **dividing by 2**. Half on the left and half on the right. It is **log n base 2** levels.
+
+![image](https://user-images.githubusercontent.com/54589605/235332367-2d396de6-41d5-4c6c-99f2-c8c5b91bfa44.png)
+![image](https://user-images.githubusercontent.com/54589605/235332378-31ed566c-d057-4f28-b7b6-bf600fe8d19e.png)
+
+> In algo, **floor and ceil** doesn't matter.
+
+* How many levels, in the above tree?
+
+> Asymptotically, **log n** levels.
+
+![image](https://user-images.githubusercontent.com/54589605/235332398-9ad559f6-4374-46fa-9a1d-f5503320096f.png)
+
+> Always dividing by 2, so **3** level tree came. what is that tree? **log n base 2**.
+
+![image](https://user-images.githubusercontent.com/54589605/235332428-63a21fc5-9116-4326-a959-adbc4e64a334.png)
+![image](https://user-images.githubusercontent.com/54589605/235332429-bf86513a-7702-4589-ac19-e14993537d64.png)
+
+> **Tree** and **stack** both are **same**. **YES**.
+
+> In the **stack**, **c1** will be at the **bottom**, but in the **tre**, **c1** will be at the **top**.
+
+> Rotate the tree, **180 degrees** and we will get **stack**.
+
+> In-side, computer **stack** will be there. **Tree** is for **our/human's** purpose.
+
+* Computer -> Stack
+* Humans -> Tree
+
+> Computer never contains **tree**. It contains **stack**.
+
+![image](https://user-images.githubusercontent.com/54589605/235332560-4e0d0da3-3957-49b4-9157-c37e8980a0d5.png)
+
+* How many levels, stack has?
+
+> Stack contains as many levels as tree does, because **stack and tree** are **same** only.
+
+> So, it is **log n**.
+
+![image](https://user-images.githubusercontent.com/54589605/235332615-25306161-d87f-4ea7-9947-a47201ad0f3d.png)
+![image](https://user-images.githubusercontent.com/54589605/235332631-de0cc2e3-800b-42c9-be18-5b25a334bab8.png)
+
+> Since dividing by 2, so **base 2**.
+
+> Those many **divides**, those many **combines**.
+
+> The tree level is **log n**.
+
+![image](https://user-images.githubusercontent.com/54589605/235332656-04008c96-73b9-4204-bcb0-105d6bef90dc.png)
+
+> Everywhere is **divide by 2**. So, **log n base 2**.
+
+![image](https://user-images.githubusercontent.com/54589605/235332734-88722cea-ddc1-462d-8cc6-3f1e03ff3ed1.png)
+![image](https://user-images.githubusercontent.com/54589605/235332774-06e7eadc-ffd8-4f9e-aa11-0bde1566e59a.png)
+
+* Done, after **divide**.
+
+> Using **Divide and comquor** technique.
+
+![image](https://user-images.githubusercontent.com/54589605/235332851-f58f6b04-0263-46ba-bd70-cd03ba5077e0.png)
+![image](https://user-images.githubusercontent.com/54589605/235332869-f26d26e1-0de4-4e45-9a40-e955587a068b.png)
+
+* Divided into **3** parts. **Log n base 3**.
+
+![image](https://user-images.githubusercontent.com/54589605/235332960-6ddac40a-60bd-4ab0-96cf-b0669abbcbc1.png)
+![image](https://user-images.githubusercontent.com/54589605/235332964-b949882f-1bd0-47c4-ac1e-8e0f03ec605d.png)
+![image](https://user-images.githubusercontent.com/54589605/235332997-091e5737-fb3b-4459-ac18-edba19eb5dfe.png)
+  
+> Recursive program **running** is time consuming.
+
+![image](https://user-images.githubusercontent.com/54589605/235333370-818d6c6d-7325-43e1-a298-3a3be5a8cc4e.png)
+![image](https://user-images.githubusercontent.com/54589605/235333376-7e26ca05-9021-4216-a865-04f6a1565816.png)
+![image](https://user-images.githubusercontent.com/54589605/235333432-a43ed770-407c-40fd-a2bb-fa630e366756.png)
+![image](https://user-images.githubusercontent.com/54589605/235333446-a4419c18-34b4-4be1-894c-20be1e16d84e.png)
+
+* Small and solution(if part). **If** part is **small** problem.
+
+![image](https://user-images.githubusercontent.com/54589605/235333459-25c9f165-633c-43b8-b1ee-19d1d1e3ba07.png)
+
+> **else** part is **big** problem.
+
+![image](https://user-images.githubusercontent.com/54589605/235333496-17f04f9c-e96a-47b4-ac0e-992d9c44e458.png)
+![image](https://user-images.githubusercontent.com/54589605/235333543-6db1826d-b4ff-4b12-9612-d53a10d97a80.png)
+![image](https://user-images.githubusercontent.com/54589605/235333573-c5631669-157f-4d4a-999c-b017c5043f06.png)
+
+> Conquor completed successfully, we got **left and right** answer. Now, we can go for **Combine()**.
+
+> Inputs of **Combine()** are the **outputs** of **Conquor()**.
+
+![image](https://user-images.githubusercontent.com/54589605/235333643-5b0c6476-52c5-477a-aa4b-f6d232ad7587.png)
+![image](https://user-images.githubusercontent.com/54589605/235333661-ae5430a3-ffe3-4ddb-a53d-318df7e09b01.png)
+
+> So, the **Combine()** algo will take **4** things as inputs, it will **return**, **2** things as **output**.
+
+> **Conquor** over means we have **4** things, **max1, min1, max2 and min2**.
+
+![image](https://user-images.githubusercontent.com/54589605/235333741-8da99b61-8d0a-45e9-8173-f8067d7ad5b9.png)
+![image](https://user-images.githubusercontent.com/54589605/235333763-5b588eea-dc0f-41ae-875d-bc1bf540e7d0.png)
+
+> Just take both the **max** and find out which is the real **max**.
+
+> Just take both the **min** and find out which is the real **min**.
+
+> Now, we got **overall**, **max and min**.
+
+![image](https://user-images.githubusercontent.com/54589605/235333798-1eb2f0f8-314f-48b1-8b5c-b4cbcc15cb7b.png)
+![image](https://user-images.githubusercontent.com/54589605/235333803-af2e4315-99cd-49e0-bf93-ac46ab30c48c.png)
+![image](https://user-images.githubusercontent.com/54589605/235333812-21c5d850-4307-480e-ae06-2b0de524bf77.png)
+
+> We are dividing into **2** parts.
+
+> If we divide into **3** parts, then we will get **3** maximums(max1, max2 and max3).
+
+![image](https://user-images.githubusercontent.com/54589605/235333879-aeb39ca3-069b-4199-859c-28ac0e174ca0.png)
+
+* Recursion will take care.
+
+![image](https://user-images.githubusercontent.com/54589605/235333890-8d0621df-b19c-47bc-a2dc-e9d20f43df62.png)
+
+* Conquor. Solving **sub-problems** is **conquor**.
+
+> **Conquor** step is over means, we got the **answers/solutions** for the **sub-problems**. Now, we can **combine**.
+
+> In **combine**, we are **comparing**.
+
+* Steps:
+
+1) First **Divide()**.
+2) Then **sub-problems** came.
+3) Solve **sub-problems**, that is **recursion**. This is **Conquor()**.
+4) Then **Combine()**.
+
+![image](https://user-images.githubusercontent.com/54589605/235333979-6fd8195c-d858-42da-8b47-364a4b447393.png)
+![image](https://user-images.githubusercontent.com/54589605/235334007-7b503264-c55b-42b0-8cba-63e066321e0a.png)
+
+> We have **divided** the problem into **two** equal parts.
+
+![image](https://user-images.githubusercontent.com/54589605/235334035-667cde01-b2cc-458c-b8d5-58f5074c3f7b.png)
+![image](https://user-images.githubusercontent.com/54589605/235334042-bff17a76-8391-47c6-ba03-a358407e3c05.png)
+
+> Divde and conquor, max-min for **n** people is **T(n)**.
+
+> Divde and conquor, max-min for **n/2 or half people** people is **T(n/2)**.
+
+![image](https://user-images.githubusercontent.com/54589605/235334083-26e7a201-e1b3-450b-a125-218befe15e4b.png)
+
+> After getting both the solutions, we will **Combine()**. Inside, **Combine()**, there is no **for** loop. So, it is **constant or O(1)**.
+
+![image](https://user-images.githubusercontent.com/54589605/235334100-37c99ad4-3e1f-4762-a788-09cbf54adfc4.png)
+
+> For **Divide()**, there is no **for** loop. So, it is **constant or O(1)**.
+
+![image](https://user-images.githubusercontent.com/54589605/235334114-2d76889b-91c7-4a9b-ad6e-b38d2a7f5316.png)
+
+> For **Small() and Solution()**, there is no **for** loop. So, it is **constant or O(1)**.
+
+![image](https://user-images.githubusercontent.com/54589605/235334137-89a95080-6508-432b-bfda-aea86fc23f58.png)
+
+## Time complexity of above program.
+
+* Write Recurrence relation for **time**.
+
+![image](https://user-images.githubusercontent.com/54589605/235334180-d733189f-c138-46d8-bab8-7a76d7430dac.png)
+
+* **T(n)** = 2 * T(n/2) + C
+
+> **C** is the amount of time required for **both**, **Divide() and Combine()** functions. Amount of time is for **first level** only.
+
+![image](https://user-images.githubusercontent.com/54589605/235334216-f1cf7348-0114-4319-9ceb-ca1e74381a91.png)
+![image](https://user-images.githubusercontent.com/54589605/235334235-2cae9fdd-d7b3-42c8-8996-1bdc826da9a4.png)
+
+> In the **first level**, we have done **Divide() and Combine()** function both.
+
+![image](https://user-images.githubusercontent.com/54589605/235334253-a068872a-b5c5-4b7c-a172-e4fe2179fbae.png)
+![image](https://user-images.githubusercontent.com/54589605/235334264-7cab0f89-45e3-472c-b47c-6d6816618ade.png)
+![image](https://user-images.githubusercontent.com/54589605/235334271-8691b04b-dd44-4ca2-8aa0-ae1098c25e20.png)
+![image](https://user-images.githubusercontent.com/54589605/235334278-c8a0a676-2684-4a30-ac52-68c65fb5c80d.png)
+
+> **n** is **bigger** than **c**. We have to **divide** right side **n** with **n**, so that both the sides are **equal**. So, we are **dividing** by **polynomial**, means **n** is **polynomial** times **bigger** than the left side person.
+
+> Hence, **Case 1 and 3** are allowed, so, whoever is **bigger** is the **answer**.
+
+> So, **n** is **bigger**, hence **Theta(n)**.
+
+![image](https://user-images.githubusercontent.com/54589605/235334306-e54b6192-c0a0-4415-b69e-67133d4bee8b.png)
+![image](https://user-images.githubusercontent.com/54589605/235334349-a7b1ccc1-839b-4478-9f90-09b74f530e9d.png)
+![image](https://user-images.githubusercontent.com/54589605/235334397-66ac5de9-0b5c-464d-a364-68f9679ea257.png)
+
+> **Log n** time in **substitution** method is called as **stack space**, which is **how many times we have substituted**. 
+
+![image](https://user-images.githubusercontent.com/54589605/235334426-369ebf65-23c0-4b70-99d4-0870ca43a69f.png)
+![image](https://user-images.githubusercontent.com/54589605/235334454-a0b80248-3113-49ba-9698-0c7f49d8f462.png)
+
+> **Divide()** time is **constant** because there are **no loops** in the **Divide()** code.
+
+> **Combine()** time is **constant** because there are **no loops** in the **Combine()** code.
+
+> In the **if** condition, there are **no loops** so, the **Small() and Solution()** functions have **constant** time.
+
+![image](https://user-images.githubusercontent.com/54589605/235334487-e3e80ccc-fb43-4a21-bee3-3f008c3d7c6c.png)
+
+> In **Conquor()**, it is always **same**, because **recursion** is always **same**.
+
+> **Master's theorem** doesn't give any clarity about, no. of **levels** in the tree. **NO**. **Master's theorem** purpose is only **answer**.
+
+![image](https://user-images.githubusercontent.com/54589605/235334584-08b2bb9d-dcb7-4577-980b-0e5a123c87d5.png)
+
+* Continuing **substituiton** method.
+
+> We can **stop** at **1 or 2**.
+
+![image](https://user-images.githubusercontent.com/54589605/235334637-e88c5a0d-ce87-41b1-bb0e-5bbed6eb9920.png)
+![image](https://user-images.githubusercontent.com/54589605/235334640-f63e1778-3318-43b9-ab7a-41c344096401.png)
+
+> Last level is **n/2** people.
+
+![image](https://user-images.githubusercontent.com/54589605/235334661-e13091ec-ecdc-4605-8a57-23e4abf00045.png)
+![image](https://user-images.githubusercontent.com/54589605/235334669-2c35189f-90ac-4b0b-b251-28bac7347418.png)
+
+> Leave it. Approximated is **OK**.
+
+![image](https://user-images.githubusercontent.com/54589605/235334704-8b0321b8-57c2-4369-8e6b-c4a4786e08d9.png)
+
+## Slide Numebrs
+
+![image](https://user-images.githubusercontent.com/54589605/235334713-39cfdf93-424a-4f60-96f4-101481842865.png)
+![image](https://user-images.githubusercontent.com/54589605/235334722-7a43162f-f208-4285-ad00-257e60c02a20.png)
+![image](https://user-images.githubusercontent.com/54589605/235334724-db886526-7376-4544-a0dc-d95de6be68ea.png)
+![image](https://user-images.githubusercontent.com/54589605/235334731-c7ec2897-f3af-4a0f-af85-bcf16f783580.png)
+![image](https://user-images.githubusercontent.com/54589605/235334735-bb5dc137-844b-4c9e-90c5-c69e1661fb4f.png)
+
+![image](https://user-images.githubusercontent.com/54589605/235334740-6117952d-2f5f-4e87-89d1-bbbdfa179550.png)
+
+* Same only
+
+* Space Complexity -> Stack Space -> O(log n).
+
+![image](https://user-images.githubusercontent.com/54589605/235334755-20f77e46-d568-42f5-8f40-5d294a282736.png)
+
+> Master's theorem will not give **stack space**. It will only give **answer**.
 
 
 
@@ -4332,7 +4755,8 @@ A) Infinite loop -> **NO**. Space is **limited**. Not possible.
 
 
 
- 
+
+
 
 
 
