@@ -5099,6 +5099,310 @@ A) Infinite loop -> **NO**. Space is **limited**. Not possible.
 ![image](https://user-images.githubusercontent.com/54589605/235366568-57e5cd8b-0fca-4982-95b8-ad82054946bf.png)
 ![image](https://user-images.githubusercontent.com/54589605/235366596-08295c0b-d2ad-4e47-8a0b-fe846b8d7526.png)
 
+## DAC-VII (23) [30th April 2023]
+
+## 2. Power of an element
+
+![image](https://user-images.githubusercontent.com/54589605/235367653-ac061971-cbab-4b98-94ec-1afc8cd71107.png)
+![image](https://user-images.githubusercontent.com/54589605/235367787-d770488a-fb89-45fb-957c-42cea190d597.png)
+
+> Everytime, **a** is **multiplied**.
+
+* Time complexity -> **O(n)**.
+
+> Above algo is **without** divide and conquor strategies, normal approach.
+
+![image](https://user-images.githubusercontent.com/54589605/235367988-2da2b21e-c34f-4eb5-a4e1-23d2c4fce11b.png)
+![image](https://user-images.githubusercontent.com/54589605/235368012-dc782af5-d3cf-4c75-a474-7f4c1acc4248.png)
+
+* Goal is with divide and conquor strategies, only.
+
+![image](https://user-images.githubusercontent.com/54589605/235368070-bbaaa982-f55c-4ab1-a094-96d8fa0e1862.png)
+![image](https://user-images.githubusercontent.com/54589605/235368182-7a91d2ae-7561-492e-a906-0a0717758e79.png)
+
+> With **divide and conquor** strategies, we will first **Divide()**. We have to **divide**.
+
+![image](https://user-images.githubusercontent.com/54589605/235368285-d87bee17-1cce-44d7-9fd5-da4bc5e2dbd6.png)
+
+> Calculate **both** and **multiply**.
+
+> We have to define, **small problems**.
+
+![image](https://user-images.githubusercontent.com/54589605/235368328-80a53cec-8852-4ba7-959f-3efe40b6d976.png)
+![image](https://user-images.githubusercontent.com/54589605/235368392-54dad1ee-1f8a-415c-a3d9-8830549f0569.png)
+
+> One time, we have **saved**, we can further use it. It is the **power of loops**.
+
+> According to problem, we have to take care.
+
+> **Always by 2**, so, **log n** levels.
+
+> We divided **32**, 5 times.
+
+* log n base 2 -> log 32 base 2 -> log 2^5 base 2 -> 5 [**Answer**]
+
+> Afte getting **sub-problem** answer. **b and b**.
+
+> Our goal is **algorithm**.
+
+> We already got **half answer**.
+
+![image](https://user-images.githubusercontent.com/54589605/235369154-cb8ad9ad-4d8c-4eea-933a-d9c35e526164.png)
+![image](https://user-images.githubusercontent.com/54589605/235369206-fd5c1c53-9cce-430c-b1c5-7642fd070683.png)
+
+> So many **recursive calls** are there.
+
+![image](https://user-images.githubusercontent.com/54589605/235369242-0b01ef4b-bdad-4d81-8478-4108540b883d.png)
+
+* Recursion.
+
+> While **execution** going on, so many **recursive calls**.
+
+> We will write the code, **only once**.
+
+> If we write it many times, then no point of **Recursion**.
+
+![image](https://user-images.githubusercontent.com/54589605/235369506-62d697c1-9297-4ad1-a66c-7ff083756026.png)
+
+> Recursive program writting, we will just give **path**.
+
+![image](https://user-images.githubusercontent.com/54589605/235370084-7239a499-0cc4-413c-aad0-57a0969f524e.png)
+![image](https://user-images.githubusercontent.com/54589605/235370116-bf21279a-1da5-4677-8a9a-36588aea9ee1.png)
+
+> All divide and conquor strategies have these **4** functions only.
+
+> **Small, Solutions, Divide and Combine** have **no loops**, so their **time complexity** is **O(1)**.
+
+![image](https://user-images.githubusercontent.com/54589605/235370256-5d2cb2f0-36d2-4469-9256-fdffb98a8e20.png)
+![image](https://user-images.githubusercontent.com/54589605/235370272-3cbf3adf-1be4-441b-91d6-592d27468835.png)
+
+* Let, **T(n)** be the time complexity of the above algo to find **a^n**.
+
+* **c** is **constant**, but it is the **amount of time** required for both **Divide() and Combine()** at **first** level.
+
+* It is a **unary** tree. Everywhere , **one(1) c**, because of **one function call**.
+
+![image](https://user-images.githubusercontent.com/54589605/235370477-bdef2196-8a48-45f6-9bdd-9996b55bc648.png)
+
+> Time complexity of **a^n** value after using divide and conquor strategies is **O(logn) or Theta(log n)**.
+
+![image](https://user-images.githubusercontent.com/54589605/235370627-a979479a-1dd5-41d3-adb7-f8ea7976d478.png)
+
+> If we repeat it, **log n** times, then we will get **log c**.
+
+![image](https://user-images.githubusercontent.com/54589605/235370660-1b5f7599-1d7f-42c4-bc2a-3a8abf0c43de.png)
+
+> **a^n, where n=1** is a **small** problem. So. it is **O(1)**.
+
+> Big problem cost is **log n**.
+
+> Overall cost is **small + big problem** cost which is **O(1) + O(log n)**. So the overall cost is **O(log n)**.
+
+![image](https://user-images.githubusercontent.com/54589605/235370790-1c56ffad-01ad-4a43-8ded-abcc7de123ab.png)
+![image](https://user-images.githubusercontent.com/54589605/235370827-ff1491a5-e42e-41d2-bb3d-338131907804.png)
+
+> Left and right side, **bigger** function **same**, so we can write **theta** also.
+
+![image](https://user-images.githubusercontent.com/54589605/235370863-b12c1ca5-01fa-4607-ab16-9ad0a7052da2.png)
+
+* Stack space -> **O(log n)**.
+
+![image](https://user-images.githubusercontent.com/54589605/235370874-bc3cb3ff-0ac2-4daf-87eb-60bfee2a50b4.png)
+![image](https://user-images.githubusercontent.com/54589605/235370910-b7d2f6ec-778b-4b0b-88b1-6bbee74d2ad1.png)
+![image](https://user-images.githubusercontent.com/54589605/235370926-45234910-3993-4faf-97b0-f01d3b15fba4.png)
+
+* Final answer what we got is for **time** which is **Theta(log n)**.
+
+![image](https://user-images.githubusercontent.com/54589605/235370964-2d6fcdb5-6c6b-4613-ae87-3c10b420d018.png)
+
+> We can also solve it using **master's theorem**. Both sides are **c or constant**, which means we got **case 2**. So we can add **(log n)^0** to the right side, so that both the sides are sill **equal**.
+
+* The time complexity  -> O((log n)^(0+1)) -> **O(log n)**.
+
+![image](https://user-images.githubusercontent.com/54589605/235371085-28064939-72a2-47ef-ac34-8b68f3c2714a.png)
+
+* Master theorem will give **last answer**.
+
+* Substitution method will say, **how it came**.
+
+![image](https://user-images.githubusercontent.com/54589605/235371133-329e5da1-55ea-46e1-9698-5f7349a33e71.png)
+
+* Time and space complexity  ->  **O(log n)**.
+
+## Slides
+
+![image](https://user-images.githubusercontent.com/54589605/235371261-ce3bc440-162f-4cd9-99fc-d9da9392831e.png)
+![image](https://user-images.githubusercontent.com/54589605/235371272-7fec20f7-aef7-45bb-85e5-167d570e1da1.png)
+![image](https://user-images.githubusercontent.com/54589605/235371279-8ac20799-0791-4122-b289-146378a7df80.png)
+
+* Recursive program, stack space is based on **no. of levels**.
+
+> If **n** value is **even**, then **no problem** and also we can **directly** return **c**.
+
+> **Else** means **odd** numebr, then return **a * c**.
+
+![image](https://user-images.githubusercontent.com/54589605/235371603-d5063120-e53c-40ed-8453-3dc9150338a3.png)
+
+> While **returning** check if the numbers are **even or odd** numbers.
+
+> By doing **small adjustment**, we can handle **odd numbers** also.
+ 
+![image](https://user-images.githubusercontent.com/54589605/235371780-cdb157e0-7f7b-4478-8f19-1027c379e849.png)
+
+> **No loop** is there, so **time complexity** is **O(1)**.
+
+![image](https://user-images.githubusercontent.com/54589605/235371828-dd4372a3-c3bb-4279-975f-52d6d57344b8.png)
+
+> If we repeat **3** times, then **T(n/2^3)**.
+
+> If we repeat **2** times, then **T(n/2^2)**.
+
+> If we repeat for **k** times, then **n/2^k**.
+
+![image](https://user-images.githubusercontent.com/54589605/235371986-d206645d-de14-43be-ac96-0837db2f82c3.png)
+
+> To terminate the above program, the condition we would take is that, **n = 2^k**.
+
+> Remember, **n** cannot be **odd** number. **n** should be **even** number. **n** should be **powers** of 2 only.
+
+![image](https://user-images.githubusercontent.com/54589605/235372112-f008bbe1-3ad5-4bc1-8f5c-6e43363ae7ae.png)
+
+> When it comes to divide and conquor, we will always divide by 2.
+
+> In the total divide and conquor strategy, we are assuming that **n** is powers  of 2.
+
+> When we always divide by 2 and **n** is powers  of 2, then the story is **quite simple**.
+
+> If not powers of 2, then also divide and conquor strategy will work.
+
+
+* If anyone asked that if **n** is **odd** than the above code will work or not?
+
+> Because of divide and conquor, we are assuming **n** is powers of 2, then **odd** numbers will not come into the picture.
+
+![image](https://user-images.githubusercontent.com/54589605/235372329-d17b8bc6-a6a0-4d86-8bc1-01b5b7496284.png)
+
+> We have done it in **two** parts, because of **dividing by 2**.
+
+> If there are **three** parts, that is because of **dividing by 3**.
+
+![image](https://user-images.githubusercontent.com/54589605/235372417-b5903a8d-272c-4f6c-862d-c570e1b0c765.png)
+
+> If we divide by 3, then **n** is in the powers of **3**.
+
+![image](https://user-images.githubusercontent.com/54589605/235372462-d0402823-78db-44ee-9244-f4c8246999d9.png)
+![image](https://user-images.githubusercontent.com/54589605/235372492-22ab7781-3aa5-4b02-ad39-481abcd3f25c.png)
+
+> Without divide and conquor we had done and got **time complexity** of **O(n)**, because of **1 loop**.
+
+![image](https://user-images.githubusercontent.com/54589605/235372550-c9a819bf-14f3-454a-bcfb-f223d6114ec6.png)
+
+> With divide and conquor we had done and got **time complexity** of **O(log n)**.
+
+![image](https://user-images.githubusercontent.com/54589605/235372578-387e5b20-5612-4bef-8f1c-119749de8535.png)
+
+> The loop is repeating **log n** time.
+
+![image](https://user-images.githubusercontent.com/54589605/235372698-e14fc402-bf9b-4407-abba-2dff9941ad49.png)
+
+> Here also, without divide and conquor. We got **log n** time.
+
+> Time complexity is determined by **logic** and not by **divide and conquor** techniques.
+
+> divide and conquor doesn't mean better one.
+
+* With or without, divide and conquor, **log n** time is possible.
+* With or without, divide and conquor, **n** time is possible.
+
+> It is **dependent** on how we write it. Differ by **constants** but both are **same**.
+
+> Recursion something possible, non-recursion also possible.
+
+> Non-recursion something possible, recursion  also possible.
+
+* The **only difference** is that in **recursion**, because of so many **function calls**, stack space maybe **more**. From **time** point of view, both are **same**.
+
+> It is **dependent** on what type of **logic** we write**.
+
+![image](https://user-images.githubusercontent.com/54589605/235373007-938f1054-3e28-45fc-8811-9af7e5c3fcb7.png)
+
+* Maybe in terms of **space**.
+
+![image](https://user-images.githubusercontent.com/54589605/235373028-b2606984-6940-476b-8893-4c8522c7e640.png)
+
+* Only **one** function call. So, **one** unit of stack.
+* But the other one is having **log n** function calls. So, **log n** units of stack.
+
+> They will both take **one** stack only, but stack units is different.
+
+* Non-recursion is **better** in terms of or from the point of view of **space** compared to **recursions**.
+* From the point of view of **time**, they would be **similar**.
+
+![image](https://user-images.githubusercontent.com/54589605/235373165-710b22c4-7817-4131-b8a9-afc79d6af7d1.png)
+
+* For understanding purpose.
+
+> If we write **better logic**, even **better time** will come.
+
+> If we write **worse logic**, even **worse time** will come.
+
+* Time complexity depends on **logic**, how we have written the logic.
+
+* If we want to calculate **a^n**, how much time?
+
+> **O(log n)**.
+
+![image](https://user-images.githubusercontent.com/54589605/235373337-320f88f5-38c6-4afd-afd5-1b333ef11b5d.png)
+
+> With or without recursion, anything is fine.
+
+![image](https://user-images.githubusercontent.com/54589605/235373374-16f47694-0c54-4bc4-b37d-3657eb12d041.png)
+![image](https://user-images.githubusercontent.com/54589605/235373403-48fb2260-a2a2-4221-9a38-3172a7539919.png)
+
+> No requirement for doing all **three**. **One(1)** is enough.
+
+![image](https://user-images.githubusercontent.com/54589605/235373418-8077d734-947d-4b2c-aa5c-bede0ed9b426.png)
+
+> How we have **divided**, **combination** will also **change** accordingly.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -5271,6 +5575,7 @@ A) Infinite loop -> **NO**. Space is **limited**. Not possible.
 * YES.
 
 > **Big-O, omega and theta** are applicable for **anything**.
+
 
 
 
