@@ -5935,6 +5935,141 @@ A) Infinite loop -> **NO**. Space is **limited**. Not possible.
 
 ![image](https://user-images.githubusercontent.com/54589605/235442352-6cedcefa-bce6-47f5-ad40-37d3ac1878bc.png)
 
+## DP-V (25) [1st May 2023]
+
+* Binary search is **partial** divide and conquor strategy, because there is **no combine()**.
+
+## Application of Binary Search
+
+![image](https://user-images.githubusercontent.com/54589605/235458815-ccc456f8-a50b-454d-b322-b323cacdebbf.png)
+![image](https://user-images.githubusercontent.com/54589605/235459243-38929151-ef77-42d8-b96a-9d0e2b4be7f6.png)
+
+* Sorted and no-repetation allowed.
+
+> If we want to give **best algo**, then first we have to give **some algo**.
+
+> Any problem is given, first we can try **linear search**.
+
+> Linear searching is working. The problem has asked for **worst case**.
+
+> Linear search is possible with time complexity of **O(n)**, which is the **worst case**.
+
+> When mentioning specific case(worst case here), then **one** possibility. So, we can use **theta(n)** because left and right side are **same**.
+
+![image](https://user-images.githubusercontent.com/54589605/235463280-520cd040-adb9-4545-ae3c-bc2bca1c513e.png)
+
+* Linear Search -> Worst case -> **O(n)** -> n.
+
+> If asked for **worst case** in the problem, find **worst case**.
+
+> If nothing mentioned in the problem, then we will have to find **everything or every case**. If nothing mentioned, then find **every case**.
+
+> If asked for **best case** in the problem, then there is a twist in the problem. **Best case** is not asked normally in problems/questions.
+
+![image](https://user-images.githubusercontent.com/54589605/235465983-1090f20e-2386-427d-81ab-27cbfd849f1f.png)
+
+> In **binary search**, the **middle** is the **mid element**. The middle element is **9** so **i=9**, then **a[9] == 9 -> 6 == 9**, **NO**. Now, we are at a **dilemma**, which side to go? If we go to the left then we are at **8th position** and at **i=8** will have **less than 6** element as **i=9** had **6** and it is an **increasing sorted** array. But we wanted **8** at **i=8** which is **not possible**, so we cannot go **left**.
+
+> In **i=9** we had **6**, so at **i=10**, we will have **greater/more than 6**, which could be **10** that's what we are looking for which is **a[i] == i**. So it is **possible, that's why we went **right**.
+
+![image](https://user-images.githubusercontent.com/54589605/235468922-2a5cf513-cfc2-4fb2-b226-c06acf7d7905.png)
+
+> The middle is **10 + 17/2 -> 27/2 -> 13**. So **i=13** and it has **70**. We want **a[13] == 13 -> 70 == 13**, **NO**.  If we go to the **right** then **i=14** and the value will be **more than 70**, which is not possible, so we cannot go **right**. If we go to the **left** then **i=12** and the value is **less than 70**, which is possible, so we got **left**.
+
+![image](https://user-images.githubusercontent.com/54589605/235469714-1775365a-d82f-4e66-87f3-ebddf63c6179.png)
+
+> The middle is **10 + 12/2 -> 22/2 -> 11**. So in **i=11**, the value is **15** and it is not **a[i] == i**. If we go to the **right**, then **i=12** and value is **more than 15**, then it is not possible. If we go to the **left**, then **i=10** and the value is **less than 15**, possible, so we have to go **left**.
+
+![image](https://user-images.githubusercontent.com/54589605/235470371-9fb9ddb8-aabe-4810-ad35-d22ccf3d234a.png)
+
+> The middle is **10 + 10/2 -> 20/2 -> 10**, we have only **one** element which is **10** only so, it is a **small** problem. So for **i=10**, the value is **10** and it satisfies the condition which is **a[i] == i -> a[10] == 10 -> 10 == 10**, **YES**. The condition is **satisfied**. So, we will **return** the **index** which is **10**, **return index -> return 10**.
+
+* Worst case -> log n
+* Best Case -> 1
+
+![image](https://user-images.githubusercontent.com/54589605/235471189-b780eb15-959f-4371-ae07-0b1f3b161d04.png)
+
+* If we can decide, which side, we want to go, **left or right*** then **binary search** is possible.
+
+> If **9th person's** value is **6**, then **10th person's** value is **more than 6** as it is an **increasing sorted** array. So, there is **hope**. For **8th person's** value is **less than 6**, so, **no hope**.
+
+![image](https://user-images.githubusercontent.com/54589605/235472005-399de7f7-78ce-4cbb-a586-a771eea43aed.png)
+
+* Using the above logic we can decide, which side, we want to go, **left or right** then **binary search** is possible.
+
+* If we are at the **middle** and we can't decide which side to go, then **binary search** is **not possible**.
+
+* If we are at the **middle** and are able to decide which side to go, then **binary search** is  **possible**.
+
+> If **9th person's** value is **6**, then **10th person's** value can be **anything**, if the array is **not sorted**. For **8th person's**  value also, it can be **anything**, as the array is **not sorted**. 
+
+> We cannot say clearly that if the element is present on the **left or right** side. Then, we have to **verify**, both the sides, this is called as **dilemma**.
+
+* If array is **not sorted**, then **binary search** is not possible.
+* If the array is **not sorted**, then we can't take decision to go either **left or right** side, when we are at the **middle**, it is called  as **dilemma**. Both the side people are saying **maybe**. So, we cannot go blindly to either one of the sides. Both the side,**maybe**, so **binary search** is not possible.
+
+* How to decide, if binary search is possible or not?
+
+> Go to the **middle**, if we can go to the **left** only or to the **right** only, then **binary search** is possible, otherwise, if go either **left or right**, it is **dilemma** and **binary search** is not possible.
+
+> When we are in the **middle** and unable to decide which side to go, either **left or right**, dilemma happens, that's why **binary search** is not possible.
+
+> If we try both the sides, then it is called as **linear search**. **Linear search** means covering everyone.
+
+> **Binary search** means **covering only one side**.
+
+![image](https://user-images.githubusercontent.com/54589605/235477934-61c6234b-c281-497d-9232-296c278695e6.png)
+![image](https://user-images.githubusercontent.com/54589605/235478189-9d6c3c10-c270-48e5-8f8d-5dc6689c633f.png)
+![image](https://user-images.githubusercontent.com/54589605/235478499-28e9c8fb-ff25-4cd1-8574-7034c0627d4f.png)
+![image](https://user-images.githubusercontent.com/54589605/235478803-1e5d78ae-1861-4f79-97bb-726c4de169b8.png)
+
+> If we should be able to resolve otherwise we will not be able to proceed further.
+
+* In the above problem, if **sorted** keyword is not there, then only **linear search** is **possible**, **binary search** is **not possible**.
+
+* In the above program, if **sorted** keyword is not there, then time complexity is **n** because only **linear search** is **possible**.
+
+![image](https://user-images.githubusercontent.com/54589605/235479676-3b34bb92-499d-48c7-b1f7-4c43003f5ff4.png)
+
+* In the above problem, if **distinct** keyword is not there, but **sorted** keyword is there then?
+
+> So, if **sorted** is there but **distinct** is not there, then **binary search** is not possible. [**Answer, explained below**]
+
+> If **10th person** is **13**, then **11th person** is **greater than equal to 13**. **12th person** is **greater than equal to 13**. **13th person** is **greater than equal to 13**, there is a change that **13th person** is **13**.
+
+> If **10th person** is **13**, then **repetation** is possible on the **right** side.
+
+![image](https://user-images.githubusercontent.com/54589605/235480051-66b39c69-1bad-41a1-8b58-f4e51a78b35d.png)
+
+> If **10th person** is **13**, then **10th person** is **less than equal to 13**. Then, **left** is also possible.
+
+* If **distinct** is not there, then both the **sides** are possible.
+* So, if **sorted** is there but **distinct** is not there, then **binary search** is not possible.
+
+![image](https://user-images.githubusercontent.com/54589605/235480483-a721337d-4f82-46a6-876f-d809e21f9ca6.png)
+
+* If array is **sorted**, then **binary search** is guranteed possible?
+
+> **NO**. See the above example only. **Sorted** array but **non-distinct**, binary search was not possible.
+
+* If array is **sorted**, then **binary search** is **maybe**. No gurantee.
+
+* If array is **not sorted**, then there is **no change** of **binary search** is there. Confirmed, no way.
+
+![image](https://user-images.githubusercontent.com/54589605/235481448-149da0f4-9cd7-44fd-ba8d-1d3bed8f6ab2.png)
+![image](https://user-images.githubusercontent.com/54589605/235482179-44a25af0-1f6b-4708-ac69-a1905f9e0571.png)
+![image](https://user-images.githubusercontent.com/54589605/235482290-3896850c-63a0-4295-a77a-9a0e76a918d6.png)
+
+* For the above program.
+* Not sorted, then **binary search** is **not possible**. 
+* Sorted but distinct is not there, then also **binary search** is **not possible**
+
+
+
+
+
+
+
 
 
 
