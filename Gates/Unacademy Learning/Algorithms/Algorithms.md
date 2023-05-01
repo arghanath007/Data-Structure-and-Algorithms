@@ -6066,6 +6066,71 @@ A) Infinite loop -> **NO**. Space is **limited**. Not possible.
 
 ## DAC-V (26) [1st May 2023]
 
+![image](https://user-images.githubusercontent.com/54589605/235490799-cdfa5077-10f8-4c15-877c-bbb7ae424059.png)
+![image](https://user-images.githubusercontent.com/54589605/235491405-fea5df5a-37d0-47a6-9b70-dffdd6316ec0.png)
+
+* **n^(log a base b)** is **bigger**. It is **bigger** by **log n/ root(n) -> log n/n^(1/2)**. Because there is **roo(n) or n^(1/2)** also, that's why it is **bigger** by **polynomial** times, as we are **dividing** by **polynomial** times.
+
+> As, **polynomial** time **bigger**, so **case 1 and 2** of master's theore, which means whoever is **bigger** is the **answer**. So **O(root(n)) -> O(n^(1/2))** is the **answer**.
+
+* If only **log n** was there then we would have to go to **case 2** of master's theorem. 
+
+![image](https://user-images.githubusercontent.com/54589605/235491973-26d362e1-a65d-4f54-8e77-d0eaa8fd5753.png)
+![image](https://user-images.githubusercontent.com/54589605/235492021-4c239588-b9ab-4762-a56e-65da2ca8e475.png)
+![image](https://user-images.githubusercontent.com/54589605/235492337-a78c1cfc-1a25-46bd-987e-b3d84b6faaf4.png)
+
+* Both the **side**, it can be possible. So, **binary search** is not possible.
+
+![image](https://user-images.githubusercontent.com/54589605/235492963-89d0ff7d-5523-429d-8085-2ff0092c64fb.png)
+
+* Input -> An array of 'n' elements in which, until some position all are integers and afterwards all are infinite.
+
+* Array is not sorted. No mention of positive numbers.
+
+![image](https://user-images.githubusercontent.com/54589605/235494294-77f5b16d-aefa-4941-b0f8-69cd4ec2bc43.png)
+
+* Until which position, integers are there?
+
+> Still **16th** index. 
+
+* What will be the **output**?
+
+![image](https://user-images.githubusercontent.com/54589605/235494790-0ab4f385-d72d-4b11-a474-fdb668109590.png)
+
+* Start from **46mins**.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
