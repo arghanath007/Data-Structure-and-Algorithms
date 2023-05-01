@@ -5933,6 +5933,8 @@ A) Infinite loop -> **NO**. Space is **limited**. Not possible.
 * **Time complexity** is **same** as **logic** is **same** for **recursive** as well as **non-recursive** program.
 * Depending on **how we write the program**, **space complexity** will **change**.
 
+![image](https://user-images.githubusercontent.com/54589605/235442352-6cedcefa-bce6-47f5-ad40-37d3ac1878bc.png)
+
 
 
 
