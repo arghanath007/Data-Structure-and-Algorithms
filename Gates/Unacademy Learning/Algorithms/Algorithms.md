@@ -6064,6 +6064,7 @@ A) Infinite loop -> **NO**. Space is **limited**. Not possible.
 * Not sorted, then **binary search** is **not possible**. 
 * Sorted but distinct is not there, then also **binary search** is **not possible**
 
+## DAC-V (26) [1st May 2023]
 
 
 
