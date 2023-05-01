@@ -5365,50 +5365,573 @@ A) Infinite loop -> **NO**. Space is **limited**. Not possible.
 
 > How we have **divided**, **combination** will also **change** accordingly.
 
+## DP-IV (24) [1st May 2023]
+
+![image](https://user-images.githubusercontent.com/54589605/235411253-69b0883a-0f54-40c3-9e69-1986acf1b340.png)
+
+## Searching
+
+## Linear Search
+
+1) Linear Search -> * Input -> An array of **n-elements** and an **element 'x'**.
+                    * Output -> Returns position of x, else return '-1'. If found then return position of 'x', else                                     return '-1'.
+
+> 'x' is the element we are searching and return the position of 'x' if found, then return '-1'.
+
+![image](https://user-images.githubusercontent.com/54589605/235412170-a0766aea-3c5b-4d7e-ac79-df11aac56e4f.png)
+![image](https://user-images.githubusercontent.com/54589605/235412178-65f2ba5e-8b76-42d8-92bf-17b74166892f.png)
+
+> We are **searching** for **one element**. As soon as we get that element we will stop.
+
+> This is called as **Best case**, which is **O(1)**.
+
+* **Best case** -> **O(1)** [Minimum time to solve the problem]
+* **Worst case** -> **O(n)** [When last element is the element we want or the element is not present only]
+
+![image](https://user-images.githubusercontent.com/54589605/235412975-c66f26f4-ed0f-4b12-86f6-ed610cc32905.png)
+
+> Finding element x, **best case** is **O(1)**.
+
+> Finding maximum, **one scan** is required, **best case**  is **O(n)**.
+
+* Maximum means **we have to compare all**.
+
+> Best case to find **x** is **O(1)**.
+
+> Best case to find **max or larger** than the others is **O(n)**. We have to compare with the rest of them and do **one scan**.
+
+> Best case doesn't always mean **O(1)**, we have to **adapt and change** according to the problem and then verify.
+
+![image](https://user-images.githubusercontent.com/54589605/235415148-a93fe6eb-b124-43a7-b9cb-ed5903a939d0.png)
+
+* Best case -> O(1) [Minimum time to solve the problem. When first element is the element, we are finding]
+* Worst case -> O(n) [Maximum time to solve the problem. When last element is the element we want or the element is not present only]
+
+> **Best case** to finding an element in a array is **O(n)** and the **worst case** is also **O(n)**. So, the **average case** will also be **O(n)**.
+
+> When **best and worst** are the **same**, then **average** case is also **same**. 
+
+> Starting matching is **best case** and ending matching is **worst case**.
+
+> To calculate **average** case, we have to take everyone or every case into consideration.
+
+> Average matters. It is based on **everyone or every case**.
+
+![image](https://user-images.githubusercontent.com/54589605/235416549-cebe08ba-765a-4603-837f-343ee8804c2d.png)
+
+* Calculating **average case**.
+
+![image](https://user-images.githubusercontent.com/54589605/235416950-6a54a53f-6d3a-4be1-89b5-475a7260f26c.png)
+![image](https://user-images.githubusercontent.com/54589605/235417027-db994a32-7700-4a80-981c-77a6abd87a88.png)
+
+> We cannot say that **60 and 100** are **average case** values, because we cannot just take **min and max** values and divide them by 2. That doesn't give **average**.
+
+> We have to use the **upper or first image** steps to calculate average. We have to take all of the values into consideration and then find **average**.
+
+> **Average** is not based on **two** scores which are **min and max** values. **It is values on all of the scores.**
+
+![image](https://user-images.githubusercontent.com/54589605/235417315-5ca86418-fdf3-4e98-98ea-5b4005837629.png)
+
+> All the **(people/scores) by n** is **more** accurate than **two people/2**.
 
 
+ ## Linear search time complexity
+
+* Best case -> O(1)
+* Worst case -> O(n)
+* Average case -> (n+1)/2 -> O(n).
+
+* Assume, Linear search time complexity -> **T(n)**.
+
+> **T(n)** having **three** choices. For these **three**, we can write time complexity as **O(n)**. Everyone should satisfy.
+
+* 1 = O(n)
+* n = O(n)
+* (n + 1)/2 = O(n)
+
+> All are satisfied.
+
+> We cannot write, **theta(n)**, because in **theta**, both sides should be **equal** but they are not. So, **1** is not satisfied with **theta(n)**. So, **theta(n)** not possible.
+
+![image](https://user-images.githubusercontent.com/54589605/235417903-a2b449c0-e2c9-4a97-9ed6-f0dabc7e53b4.png)
+
+> We can write, **omega(1)**, because when comparing **left and right**, **left** should be **bigger or equal to** right side. 
+
+* 1 = Omega(1)
+* n = Omega(1)
+* (n + 1)/2 = Omega(1)
+
+> All are satisfied. For **1**, **left side** is **bigger or equal to** right side that's why.
+
+![image](https://user-images.githubusercontent.com/54589605/235418304-dfd344af-554a-4d21-bb85-935200df147f.png)
+
+> **T(n)** having **three** possibilities.
+
+> **Theta(1)** is also not possible because only **1** is happy but **n and (n+1)/2** are not happy, as they are not **equal** on both the sides.
+
+![image](https://user-images.githubusercontent.com/54589605/235418552-dd5b309d-7ac6-4d31-a237-088888f422bc.png)
+![image](https://user-images.githubusercontent.com/54589605/235418578-6c2ca10d-086c-428a-9e59-57d360b1dedd.png)
+
+> Linear search time complexity **T(n)**, then,
+
+* T(n) = O(n)
+* T(n) = Omega(1)
+
+![image](https://user-images.githubusercontent.com/54589605/235418705-71b0a4d7-37b3-41a6-8ff8-9029ad68858d.png)
+
+* Assume linear search worst case time complexity is **T(n)**.
+
+> So **T(n)** is **worst case time complexity**.
+
+![image](https://user-images.githubusercontent.com/54589605/235418947-c2a97031-eaf6-4a4b-9f14-e38d998a05c5.png)
+
+> So, **T(n)** is having only **one** possibility.
+
+* **T(n)** -> O(n)
+* **T(n)** -> Omega(n)
+* **T(n)** -> Theta(n)
+
+![image](https://user-images.githubusercontent.com/54589605/235419136-3d56b875-bb06-4aed-b669-da462adebc74.png)
+
+> In the above one, they have not mentioned if **T(n)** is **best, worst or average**. They have just mentioned that **T(n)** is time complexity of linear search. That's why we had **three** options there.
+
+> Time complexity of linear search  is **three** options or possibilities. It didn't mention **best, worst or average**.
+
+> If not mentioned, then we have to take **all possibilities**. With respect to **all**, we have to give.
+
+> When mentioned **worst** case, then respect to **worst** case, we have to give.
+
+![image](https://user-images.githubusercontent.com/54589605/235419488-03314188-f84d-4f29-a7bf-31245aa681ee.png)
+![image](https://user-images.githubusercontent.com/54589605/235419503-4c3d2c48-64cc-4d38-99bf-3774f2f7acf5.png)
+
+* Assume linear search Best case time complexity is **T(n)**.
+
+> There is only one possibility that is **O(1)**.
+
+![image](https://user-images.githubusercontent.com/54589605/235425369-a435fe60-f038-4afe-ad7e-e8ac27615b2a.png)
+
+* 1 -> Theta(1)
+
+![image](https://user-images.githubusercontent.com/54589605/235425454-02bcce26-866b-4b63-bcaa-f457d59ff896.png)
+
+* In linear search time complexity, **theta** possible?
+
+> It depends on how we define **T(n)**. **T(n)** is simply time complexity.
+
+> If **T(n)** is simply time complexity, then we have to consider **every case** which is **best, worst, average**.
+
+![image](https://user-images.githubusercontent.com/54589605/235425779-4f5e6c69-8a9a-4396-8314-edb9db465b05.png)
+
+* Best case -> Minimum time to solve the problem(correct answer).
+* Worst case -> Maximum time to solve the problem(correct answer).
+
+> If **min and max** time are **same**, then **average** time is also **same**.
+
+> If **min and max** time are **different**, then **average** time is **in-between** of **min and max** time.
+
+> If **min= O(1) and max= O(n)**, then average is **(n + 1)/2**, which is **in-between**.
+
+![image](https://user-images.githubusercontent.com/54589605/235426361-91e02ece-7e42-4dc5-8382-cb7c66ef84ba.png)
+
+> There is **no change** that **average** will go **more** than **worst** case and there is **no change** that **average** will go **less** than **best** case.
+
+> Either **all three** will be **same/equal** or **average** is **in-between**.
+
+* Arrange **best, average and worst** cases asymptotically?
+
+> **Best -> Average -> Worst**. Arranged from **less to more**.
+
+> **Best <= Average <= Worst**. 
+
+* **Best** less than **average**
+* **Average** less than **worst**.
+
+![image](https://user-images.githubusercontent.com/54589605/235426786-35d2c031-603f-4ab1-9d05-378891874d86.png)
+
+* In-general relation
+
+* Remember how to find out **average case**.
+
+> Average is based on **all person** and not on **two people or two scores**.
+
+![image](https://user-images.githubusercontent.com/54589605/235427017-c31fe845-7631-45dc-ba50-fd0efbe0023a.png)
+
+## Binary Search
+
+* Input -> An **array of sorted** which has **n-elements** and an **element, 'x'**.
+* Output -> Returns position of x, else return '-1'. If found then return position of 'x', else return '-1'.
+
+> If we want **efficient** algo, then the **input** should be **efficient** as well.
+
+> In **linear search**, the **numbers** are **random**.
+
+![image](https://user-images.githubusercontent.com/54589605/235428388-84ace385-eb12-460c-9402-a2a4a08eb5a1.png)
+
+> In **Binary search**, the **numbers** are in **increasing order**.
+
+![image](https://user-images.githubusercontent.com/54589605/235428441-095feaaa-1fd6-43ba-b036-4098fbc32d33.png)
+![image](https://user-images.githubusercontent.com/54589605/235428545-d5c9f73b-ba8b-440f-a01f-acd2a999f067.png)
+
+* Binary Search
+
+> We are doing **one side** everytime, either it is **left side** or it is **right side**. We are not going at **both** the sides at the **same time**.
+
+> Everytime, it will be **half** of the previous one.
+
+![image](https://user-images.githubusercontent.com/54589605/235429672-eda47c2f-f966-41ca-b65f-e670c16bb7c9.png)
+
+> Algorithm is **deterministic** in nature.
+
+* Best case -> O(1) [The first middle element is the element to be searched]
+
+![image](https://user-images.githubusercontent.com/54589605/235430074-88e7b257-036f-4a80-8467-43b3c8fb2988.png)
+![image](https://user-images.githubusercontent.com/54589605/235430188-c26df3f3-6eda-46a1-858e-fc2dcfdaefaf.png)
+![image](https://user-images.githubusercontent.com/54589605/235430164-7ddf0364-852e-407c-9150-b8f730fdb605.png)
+
+> As **mid(40)** is less than **10** that's why we have to go **left**.
+
+> **1 element** is a **small** problem.
+
+![image](https://user-images.githubusercontent.com/54589605/235430438-2a847550-2d2a-4dd6-a237-cd6378b79153.png)
+
+> So, we **returned**, the position of 'x' as **1**. 
+
+> If we divide the **n**, everytime by 2, then we will get **n/2**, until one element comes. It is **O(log n)**.
+
+![image](https://user-images.githubusercontent.com/54589605/235430675-bb500cea-ab55-4428-ab15-7a270171dab6.png)
+
+* Best case -> O(1)
+
+![image](https://user-images.githubusercontent.com/54589605/235430732-3bbccbb1-c89e-4fd7-a1f9-513b77b36d09.png)
+
+* Worst case -> O(log n)
+
+![image](https://user-images.githubusercontent.com/54589605/235430942-867ddd98-e1ef-4502-84e7-71dab4c64f1c.png)
+
+> At **7** position, it is **one element** only, so, **small problem**. One element is there, if that's 'x', which we are searching. As it is **70** and we are finding **69**, which means we diidn't find 'x'. So, return **-1**.
+
+> **Not found** is **max** work done and **worst case**.
+
+![image](https://user-images.githubusercontent.com/54589605/235431255-40f01206-268b-4b45-b2f8-918ae866136a.png)
+![image](https://user-images.githubusercontent.com/54589605/235431359-33ee1921-1b66-4f21-bd11-1e5daec63b71.png)
+
+* Return **-1**, **41** not possible.
+
+![image](https://user-images.githubusercontent.com/54589605/235431404-fdde0454-426b-4c96-b2f3-c8738c524984.png)
+![image](https://user-images.githubusercontent.com/54589605/235431633-0077e058-bdd7-4895-ba2a-4054bec03c97.png)
+
+* i -> First element index
+* j -> Last element index
+* j - i + 1 -> Array size.
+
+![image](https://user-images.githubusercontent.com/54589605/235432227-598e9b9c-d1c2-4134-8087-83a82a044c6c.png)
+
+> The element we are finding(x) is on the **left** side. So, it will be from **i to mid - 1**.
+
+![image](https://user-images.githubusercontent.com/54589605/235432421-07e6a213-2316-4e71-9974-1f0838ec7abd.png)
+
+> The element we are finding(x) is on the **right** side. So, it will be from **mid + 1 to j**.
+
+![image](https://user-images.githubusercontent.com/54589605/235432441-e52a1c38-aef7-4778-8e95-83466a76eded.png)
+![image](https://user-images.githubusercontent.com/54589605/235432504-8069c893-e6fc-4804-9bbb-792c0ed83113.png)
+![image](https://user-images.githubusercontent.com/54589605/235432530-fb9470ea-f501-48c8-afff-53513d591a99.png)
+
+* Will come eventually. Wait.
+
+> In the **else** part we have **two** function calls. Only one function call will execute at a time, because of in-between **else** there. 
+
+> Only one will execute, we don't know which one, whether it is **left or right** one, no idea.
+
+> Because **only one(1)** will execute, so the **conquor** time will be **T(n/2)**.
+
+> In the **min-max** divide conquor algo, **two** of the functions calls were executed simultaneously to calculate the **left and right** values, that why it was **2 * T(n/2)** there and here it is only **T(n/2)**, as only **one(1)** function call is executed.
+
+> If **n** elements is **T(n)**, then **n/2** elements is **T(n/2)**.
+
+![image](https://user-images.githubusercontent.com/54589605/235433154-7955f406-37bd-4ab4-a4ad-4ca875c56502.png)
+
+* **Only one** will execute.
+
+* In **conquor**, there are **two** function calls but **only one** is executed because of the **else** in-between so it is **T(n/2)** and not **2 * T(n/2)**.
+
+![image](https://user-images.githubusercontent.com/54589605/235433426-68877642-4234-4423-b382-3cdcff620753.png)
+![image](https://user-images.githubusercontent.com/54589605/235433474-069a6c53-0c23-4b76-8c14-c6cb0fd16a6f.png)
+
+> As soon as we enter the **else** part, first we do **constant or O(1)** time, then we take **T(n/2)** time for **conquor**.
+
+> If we are lucky then we can stop at **constant or O(1)** time only, as there is a **return** statement there.
+
+> Without function call also, we can **stop**, as there is a **return** statement there.
+
+* In the **else** part of the program, we can stop in-between?
+
+> **YES**.
+
+> At the staring only of the **else** part, we can **stop**. That is the **best case**.
+
+* In a recursive program, which is more valuable, if or else part?
+
+> **Else** part.
+
+* In a recursive program, how will give better **case**, if or else part?
+
+> **Else** part. [**Correct answer**]
+
+> **If** part. [**JOKE ONLY**]
+
+> If anyone says that **If** part gives the **best** case, then the **best case** always becomes **1 or O(1)**.
+
+> This will be a **joke** only.
+
+* In a recursive program, how is powerful, if or else part?
+
+> **Else** part.
+
+> **Powerful** means **best, worst, average case** from that area. All cases from that area only.
+
+> Everything will come from **else** only.
+
+![image](https://user-images.githubusercontent.com/54589605/235434451-924d0226-0475-4e2c-bedb-7ae74833e274.png)
+![image](https://user-images.githubusercontent.com/54589605/235434543-1816feba-4520-4411-a77e-11384a5d80c4.png)
+
+> If **lucky**, we will get **c or constant** only. 
+
+> If **not lucky**, we will get **c + T(n/2)**. We have to do some extra work also.
+
+* Let, **T(n)** be the time complexity of above algo.
+
+* Reccurence relation for **time** or time complexity for **worst case(wc)**.
+
+![image](https://user-images.githubusercontent.com/54589605/235434745-11b577cd-774e-4614-914e-d965cad5c285.png)
+
+* Reccurence relation for **time** or time complexity for **best case(wc)**.
+
+![image](https://user-images.githubusercontent.com/54589605/235434818-c968b408-f113-42f6-93c1-d70f26ca2733.png)
+![image](https://user-images.githubusercontent.com/54589605/235434873-348082d6-033f-4d6e-9047-10d331921f81.png)
+![image](https://user-images.githubusercontent.com/54589605/235434972-0445ab7e-d9be-43a6-969e-a9cce75c25e9.png)
+
+* Function calls mean **conquor**.
+
+![image](https://user-images.githubusercontent.com/54589605/235435281-ca411995-7f95-429c-86ff-d7df225f96e0.png)
+
+* **Divide and conquor** but **no combine**. No need/requirement for **combine**.
+
+* **Binary Search** is a partial application of **divide and conquor** strategy, as there is need/requirement for **combine**.
+
+![image](https://user-images.githubusercontent.com/54589605/235435541-c708dead-ce1d-40df-a610-cfcecfd7f269.png)
+
+* What is the **c** here?
+
+> **c** is the **Divide** time only, as there is no **combine*. It is for **first** level.
+
+![image](https://user-images.githubusercontent.com/54589605/235435727-4d0d7b77-b173-4aaf-8782-28bf27b7fa6e.png)
+
+> The above recurrence relation is for **worst case** and we will get **worst case** only. We will not get **best case**. It is for **worst case** only.
+
+![image](https://user-images.githubusercontent.com/54589605/235435959-efd722a9-69de-4999-ad51-8090450b3b7e.png)
+![image](https://user-images.githubusercontent.com/54589605/235436057-ad941954-7fa8-4668-a9a4-4a84877f2cf2.png)
+![image](https://user-images.githubusercontent.com/54589605/235436072-653b2627-c175-45a8-903e-e3320ae8cac4.png)
+
+> Left and right side are **same**, so we can write **theta**, which is **theta(log n)**.
+
+> We can write **O(n)** as well.
+
+> We can write **Omega(1)** as well.
+
+> We cannot write **theta(1)** because **left and right** side are not **same**.
+
+> We cannot write **theta(n)** because **left and right** side are not **same**.
+
+* This is for **worst case**.
+
+* Reccurence relation for **time** or time complexity for **best case(bc)**.
+
+> In the starting of **else** part there is a **return** statement. So, we can **stop** it there.
+
+* Best case -> Theta(1).
+* Best case -> O(1).
+
+![image](https://user-images.githubusercontent.com/54589605/235436439-be58a046-fefc-4d3a-907b-94e164d3244a.png)
+![image](https://user-images.githubusercontent.com/54589605/235436606-3ea8f30c-f569-4bf2-90ea-bf0c9fc2bfde.png)
+
+> Best case recurrence relation is **not possible** because we are either going **left or right** side. We are stopping at the **middle** only.
+
+* In the **else** part, if we stop at the **starting** only then that is the **best case**.
+
+* When someone doing **binary search**, the **left(worst case)** one will happen **more frequently** compared to **right(best case)**.  
+
+* The worst case of **binary search** is also **average** case only.
+
+![image](https://user-images.githubusercontent.com/54589605/235436912-5210806b-825c-4ccf-9056-102b3d8a7c6f.png)
+
+* Most of the time, **worst case** will happen for **binary search**.
+* Whichever will happen, **most of the time**, that will decide **average case**.
+* Most of the time, **binary search** will behave as **worst case**.
+
+* Why sachin's average is 60?
+
+![image](https://user-images.githubusercontent.com/54589605/235437139-6fc1a7bc-be4a-4447-917e-cd24adf86cef.png)
+![image](https://user-images.githubusercontent.com/54589605/235437162-fe17ad6e-4bf9-4de0-bab2-22f121b3c9a4.png)
+
+* For **best case** of **binary search**, there is **no recurrence relation** because at the **entrance** only we got the **answer**.
+
+* **T(n)** is time complexity. Every case we have to **cover**.
+
+* log n = O(log n)
+* 1 = O(log n)
+
+> All are **satisfied**.
+
+![image](https://user-images.githubusercontent.com/54589605/235437735-b0a7a064-8c25-47c7-aaf0-dcc8808a0605.png)
+
+* log n = Omega(1)
+* 1 = Omega(1)
+
+> All are **satisfied**.
+
+* log n = Theta(log n)
+* 1 = Theta(log n)
+
+> **1** is opposing because **left and right** sides are not the **same**. Hence, **theta(log n)** not possible.
+
+* log n = Theta(1)
+* 1 = Theta(1)
+
+> **log n** is opposing because **left and right** sides are not the **same**. Hence, **theta(1)** not possible.
+
+![image](https://user-images.githubusercontent.com/54589605/235437980-24c04e8c-6650-4f24-9d39-dd275b676dbe.png)
+
+* In **T(n)** we have to **cover** everything. **T(n)** has **two** choices, it has to consider both **log n and 1**.
+
+![image](https://user-images.githubusercontent.com/54589605/235438094-10e8d770-7d2a-4642-a3fa-35f4f9a992a0.png)
+
+* what is **Binary search** time complexity?
+
+> O(log n) OR Omega(1). Anyone is **correct**.
+
+![image](https://user-images.githubusercontent.com/54589605/235438311-83744372-880c-4e9e-94cd-52cc6171ed06.png)
+
+* what is **Binary search** time complexity for best case?
+
+> They are asking only **one case**. So, it is **O(1)**. We can also use **theta(1)**, no problem.
+
+> In **best case**, **T(n)** having **only one** choice.
 
 
+* what is **Binary search** time complexity for worst case?
 
+> They are asking only **one case**. So, it is **O(log n)**. We can also use **theta(log n)**, no problem.
 
+> In **worst case**, **T(n)** having **only one** choice.
 
+* In **one** case, we don't have **any problem**, because **only one** answer.
 
+![image](https://user-images.githubusercontent.com/54589605/235438574-364ca8ad-0384-40be-9f46-0e6c6329e17c.png)
 
+* When asking for **binary search** time complexity?
 
+> Take all of the **cases**. Give **O(log n) or Omega(1)** as the **answer**.
 
+* In **binary search**, we will go **one side**.
 
+![image](https://user-images.githubusercontent.com/54589605/235438716-cc4253d6-1740-444f-8611-79645b4aa055.png)
 
+* Sometimes, we don't go **one side** also, it is the **Best case**.
 
+![image](https://user-images.githubusercontent.com/54589605/235438799-23a1da7f-f4a5-4f94-93b8-86725540cede.png)
 
+* If we are **lucky**, then we don't have to go **any sides**.
+* If we are **not lucky**, then we have to go in **one of the sides**.
 
+* In specific case, we can use **theta**. We have **only one answer**.
 
+![image](https://user-images.githubusercontent.com/54589605/235438970-7f1f5b81-1ece-4f77-a3bf-7522b997d7ce.png)
 
+* Time complexity of **binary search**.
 
+*  Best case -> O(1)
+*  Average case -> O(log n) [Most of the time, **worst case** will happen]
+*  Worst case -> O(log n)
 
+* Why the time complexity of **binary search** in **average case** is **O(log n)**?
 
+> Average means we have to **consider all**. When considering all, most of the time, it is behaving like **worst case**.
 
+> So, **average and worst** case is **same**.
 
+> **Best case** is **very rare** incident, happening very less amount of time.
 
+![image](https://user-images.githubusercontent.com/54589605/235439276-45d2f61a-656a-4cbb-8b9f-3deb424a3223.png)
+![image](https://user-images.githubusercontent.com/54589605/235439535-7c4e8c43-602f-4961-8cd3-e8424ef5ca71.png)
 
+* Stack space is **log n**, which is **average and worst case**.
+* If we are lucky, then **once divide** then **stop**, which is **best case**.
 
+![image](https://user-images.githubusercontent.com/54589605/235439722-bf443e7e-79ad-4794-913f-061b49e56e7c.png)
 
+* Recursive program performance is based on  -> **Else** part.
+* If we want **best case** -> **Else** part.
+* Everything thing or every case -> **Else** part.
+* Binary search time complexity(In general) -> O(log n) OR Omega(1).
 
+![image](https://user-images.githubusercontent.com/54589605/235440167-f4e44894-2849-405a-a586-14cda8b9ecd9.png)
+![image](https://user-images.githubusercontent.com/54589605/235440205-aab3f28a-9774-4e68-90ea-6e4bd6410336.png)
 
+* Binary search time complexity best case -> O(1) OR theta(1) -> 1
+* Binary search time complexity worst case -> O(log n) OR theta(log n) -> log n
+* Binary search time complexity average case -> O(log n) OR theta(log n) -> log n
 
+> For **one case**, we can give **any symbol** as there is **only one** answer. So better don't give **any symbols**.
 
+* Binary search time complexity(In general) -> O(log n) OR Omega(1).
 
+![image](https://user-images.githubusercontent.com/54589605/235440604-5ea28d0f-7079-438b-8351-f592e2e526a0.png)
 
+* Not needed [**EXTRA**]
 
+![image](https://user-images.githubusercontent.com/54589605/235440697-4664b646-5094-49ea-8cb6-d95579b3da93.png)
+![image](https://user-images.githubusercontent.com/54589605/235440714-f901763c-9336-4a91-b5c9-6f2da1a845c6.png)
+![image](https://user-images.githubusercontent.com/54589605/235440974-5c938bf1-aacc-403a-8eb3-aa2fd3a52afa.png)
+![image](https://user-images.githubusercontent.com/54589605/235441087-29adb420-175c-465b-ae03-8d811d2925c0.png)
+![image](https://user-images.githubusercontent.com/54589605/235441124-95ce8765-9b2a-4a23-b751-0a6168afc193.png)
 
+* Non-recursive program. Only **i and j** are updated.
+* Because of non-recursive program, the **Stack space** is **1**, because of **1 function call**.
+* Time complexity is **same**.
+* Other than **recursion**, both the codes are **same**.
+* In place of **recursion**, the above program used **while** loop.
+* Everything **same**, except **space**.
 
+![image](https://user-images.githubusercontent.com/54589605/235441399-235e33c7-229b-4d37-bf2e-fd0a10d12874.png)
 
+* Binary search time complexity best case -> O(1) OR theta(1) -> 1
+* Binary search time complexity worst case -> O(log n) OR theta(log n) -> log n
+* Binary search time complexity average case -> O(log n) OR theta(log n) -> log n
+* Binary search time complexity(In general) -> O(log n) OR Omega(1).
 
+![image](https://user-images.githubusercontent.com/54589605/235441543-16d1d628-30f5-4b16-a97d-aac46caf1859.png)
 
+> Because of **non-recursion**, **space** is **saved**.
 
+* Space complexity -> **Theta(1)** or constant.
 
+* If above program(non-recursion) given, how much **space complexity** needed?
 
+> **1**.
 
+![image](https://user-images.githubusercontent.com/54589605/235441646-f0c87257-0b54-425f-975c-9916818666ce.png)
 
+* If above program(recursion) given, how much **space complexity** needed?
+
+> **log n**.
+
+* Depending on how we write the program, **space complexity** will **change**.
+* Recursion means **more space**.
+
+* If **space complexity** asked then **program** will be given. Without program, how we will calculate **space complexity**.
+
+* **Time complexity** is **same** as **logic** is **same** for **recursive** as well as **non-recursive** program.
+* Depending on **how we write the program**, **space complexity** will **change**.
 
 
 
