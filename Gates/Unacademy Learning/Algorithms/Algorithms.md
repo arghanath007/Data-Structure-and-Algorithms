@@ -6097,17 +6097,195 @@ A) Infinite loop -> **NO**. Space is **limited**. Not possible.
 
 ![image](https://user-images.githubusercontent.com/54589605/235494790-0ab4f385-d72d-4b11-a474-fdb668109590.png)
 
-* Start from **46mins**.
+1) First try linear search
+2) See the best and worst case of linear search
+3) Applications/improvement of linear search. Try to improve it. Binary search possible or not.
 
+![image](https://user-images.githubusercontent.com/54589605/235565953-561e8a3c-e7e1-4115-96e0-d47cdeda79c6.png)
+![image](https://user-images.githubusercontent.com/54589605/235565972-34ddd544-65f1-4db8-8b00-1d1418eefe17.png)
+![image](https://user-images.githubusercontent.com/54589605/235566080-5d3cb86a-9aeb-4a64-b85b-7298715f72bc.png)
 
+1) First algo is linear search.
+2) Worst case is **n** and best case is **1**, for linear search. Worst case is mentioned so we will consider **n** only. If nothing mentioned then consider/find out all and we will use **O(n) or Omega(1)** in that case, as all cases agree to **O(n) or Omega(1)**.
 
+![image](https://user-images.githubusercontent.com/54589605/235566682-1eb61338-82e3-45c6-963f-4df5b4f9a38a.png)
 
+> As mentioned in the question, **worst case**, so we only have **n** and we can say **any symbol(O,omega, theta)**.
 
+![image](https://user-images.githubusercontent.com/54589605/235566999-f9a661e7-8533-4959-a877-7931f45cb73e.png)
+![image](https://user-images.githubusercontent.com/54589605/235567066-b244f1e7-458a-4a0e-8862-7b7b7e7f7d94.png)
 
+> See the options for the **question**, if **n** is there and **less than n**, no one or not there. Then **n** is the **answer** and we can stop.
 
+> If **less than n** there in the **options**, then we can to **continue**. If **log n** there, then **signal came**, **binary search** possible. Could be a trap a well.
 
+![image](https://user-images.githubusercontent.com/54589605/235569536-a323ae42-ffcc-4493-9c06-1ae2ba51ea7c.png)
 
+3) Try binary search. Array is not sorted. Go to the middle element, which is **1+30/2 -> 31/2-> 15**. Ask if **15** is **integer or infinite**. **15** is **integer**, but we want **infinite**, we should go to **right**, as mentioned in the question that **after some integer, all are **infinite**. There is no **dilemma**.
 
+![image](https://user-images.githubusercontent.com/54589605/235570524-05caa5d9-6141-4439-871c-73e6749fe39c.png)
+
+> Again go to the **middle**. The middle is **16+30/2 -> 23**. **23** is **infinite**, now ask if **before** is **infinite** or not. We will get to know if it is the **first, middle or last infinite**. We got to know that it is the **middle** infinite as there are **infinites** to the **left** as well. We want the **first infinite**, so we **go left**, to find the **first infinite**.
+
+![image](https://user-images.githubusercontent.com/54589605/235571247-75a53016-9dfa-436c-bb76-95f9f8213592.png)
+
+> Again go to the **middle**. The middle is **16+22/2 -> 19**. **19** is **infinite**, now ask if **before** is **infinite** or not. We will get to know if it is the **first, middle or last infinite**. We got to know that it is the **middle** infinite as there are **infinites** to the **left** as well. We want the **first infinite**, so we **go left**, to find the **first infinite**.
+
+> Again go to the **middle**. The middle is **17** only, as there is only one element, which is a **small problem**. **17** is **infinite**, now ask if **before** is **infinite** or not. We will get to know if it is the **first, middle or last infinite**. We got to know that it is the **first** infinite as there are no **infinites** to the **left**. We got the **first infinite**. So, stop and **return** the **position** of the **first infinite**.
+
+![image](https://user-images.githubusercontent.com/54589605/235571706-14c7ffe1-483a-479e-b8e3-b0e9bba4686e.png)
+
+> Whenever **infinite** came, we will check if it is the **middle** person or not, by checking if there are **any infinites** to the **left**. If there are **infinites** to the **left**, then it is the **middle** infinite and we have to go **left**.
+
+> If the **middle** is **infinite**, and the **left** is **not infinite**, then stop it. We found the  **first infinite**.
+
+> If the **middle** is **integer**, then go to the **right**.
+
+![image](https://user-images.githubusercontent.com/54589605/235572148-db01b9d8-b529-47d0-b2a2-3e1062a80228.png)
+
+> Worst is maximum we **divide by 2** and get the **last element**.
+
+![image](https://user-images.githubusercontent.com/54589605/235569922-e7d0953a-f2a2-42b7-ac7c-77f9f63bb5e8.png)
+
+* Array is **sorted**, **according to the requirements** of the question/problem. Physically not sorted but logically sorted.
+* Don't judge, **sorted or not** from outside.
+* Array **not sorted**, we will not apply **binary search** -> **JUST SHUT UP**. It is logically sorted, **according to the requirements** of the question/problem.
+* We have to go **inside** and verify if the array is **sorted or not**. Don't judge from **outside**.
+
+* Worst case for bianry search -> log n
+* Best case for bianry search -> 1
+
+![image](https://user-images.githubusercontent.com/54589605/235572966-31593503-a0e1-4aea-bfa3-ebc6723acef4.png)
+
+* Best case example.
+* We are not interested in **Best case**, as worst case is asked in the question.
+
+![image](https://user-images.githubusercontent.com/54589605/235573110-511469f9-c1a2-434a-8245-275dfde386a2.png)
+
+* Both, **theta(log n) and theta(n)** both are given in the options. Then we should select **theta(log n)** as it is the **best algorithm** and the **worst case time complexity** as **asked/mentioned** in the question.
+
+* We can use **theta** because only **worst case** asked so **one case** and **one choice** only. 
+* From **outside** it looked like **binary search** is not possible. Go inside and verify.
+* Array sorted according to problem.
+
+![image](https://user-images.githubusercontent.com/54589605/235573600-a3a73c19-c9db-42cf-bd0d-757f4972448b.png)
+![image](https://user-images.githubusercontent.com/54589605/235573623-ad60401d-4fd9-4068-a1bc-68cf9ee022ef.png)
+![image](https://user-images.githubusercontent.com/54589605/235573656-3b05c1d0-eb72-4e14-ba0a-3d6a307a58b7.png)
+![image](https://user-images.githubusercontent.com/54589605/235573684-993312e3-178a-4829-9097-48d12964e3a6.png)
+
+* We want the **last integer**.
+
+> Middle element is **12**, ask if it is **integer**. It is **integer**. We asked, **right** if it is **integer** or not, it is **integer**. So, we go to the **right**.
+
+> Middle element is **22**, ask if it is **integer**. It is **infinite**. So, we go **left**.
+
+> Middle element is **17**, ask if it is **integer**. It is **infinite**. So, we go **left**.
+
+> Middle element is **15**, ask if it is **integer**. It is **infinite**. So, we go **left**.
+
+> Middle element is **13**, ask if it is **integer**. It is **integer**. We asked, **right** if it is an **integer** or not, it is **integer**. So, we go to the **right**.
+
+> Middle element is **14**, it is the **only one element**, so it is a **small problem**. Ask if it is an **integer**. It is an **integer**. We asked, **right** if it is an **integer** or not, it is **infinite**. So, we found the **last integer**. Now stop, and return the **position** of the **last integer**.
+
+![image](https://user-images.githubusercontent.com/54589605/235574145-a9de34d4-2080-46ce-95b6-0b99e86491bf.png)
+![image](https://user-images.githubusercontent.com/54589605/235574289-bbf9ce06-4d59-4c41-9de2-84b91f29ca27.png)
+![image](https://user-images.githubusercontent.com/54589605/235574796-869d1555-32cf-4538-ae34-78cef9012f7f.png)
+
+* **n** becomes **log n** is great achievement. This is the meaning of **making apps faster**.
+
+![image](https://user-images.githubusercontent.com/54589605/235574865-d2beee24-f16c-4398-b44b-f141bacdb9f9.png)
+![image](https://user-images.githubusercontent.com/54589605/235575007-40b3853e-526b-4cc7-bde8-4c482b9b064f.png)
+
+* If we write **n distinct elements**, then how we will write that many **infinites**.
+
+![image](https://user-images.githubusercontent.com/54589605/235576074-bfc40379-1fda-46f0-ab8f-d90d48b36c00.png)
+
+* Assume 'n' is unknown and after array, all the symbols in memory are '#'.
+
+* If **size** is **unknown**, how we will know that **array** is over.
+
+![image](https://user-images.githubusercontent.com/54589605/235576177-09849ad4-9ab7-4634-a13e-27e99b7df573.png)
+
+* Array having size but we don't know the **size**. We cannot tell when the array is over.
+* We cannot use **n**. Be careful.
+* Linear search is possible because we will take a **loop** and **search** until we find an **#**, then we stop.
+
+![image](https://user-images.githubusercontent.com/54589605/235576489-658f58eb-e957-4ccd-b437-f18493bf0bb1.png)
+
+> When we see the **first #**, it indicates that the array is over. Stop it and say not there. If we are lucky then we will find the **first infinite** in the array.
+
+> We haven't used **n** anywhere.
+
+![image](https://user-images.githubusercontent.com/54589605/235576686-e5224527-f96b-4ab1-a086-4ec55622e227.png)
+![image](https://user-images.githubusercontent.com/54589605/235576779-d0bbe87e-63c8-44b2-8104-003d6cab6b58.png)
+![image](https://user-images.githubusercontent.com/54589605/235577263-4d63ca6a-b539-46a3-a980-105fd975561b.png)
+
+* We haven't used **n** anywhere in the code.
+* Worst case -> n.
+
+![image](https://user-images.githubusercontent.com/54589605/235577381-9c77b9a3-77fe-427c-be2f-a52a625f2294.png)
+
+* Binary search is not possible because we can't go to the **middle** element or find the **middle** element because we don't know the value of **n**, it is **unknown** or not given in the question.
+
+* As **binary search** is not possible, so, **linear search** is the **best algo**.
+
+![image](https://user-images.githubusercontent.com/54589605/235577644-66a7c918-03d7-4ece-994c-88ce8dc968c5.png)
+![image](https://user-images.githubusercontent.com/54589605/235578150-4be90167-e7d6-41d6-be3b-05437711bd0d.png)
+
+* Binary Search.
+
+* We are doing **i * 2**. We are jumping by **double**.
+
+![image](https://user-images.githubusercontent.com/54589605/235578381-98737b4e-3dc1-4eef-8a09-044e8181f8d2.png)
+
+* If we know **n** value then do **divide by 2**.
+* If we don't know **n** value then do **multiply by 2**. [**IMPORTANT**]
+
+![image](https://user-images.githubusercontent.com/54589605/235578531-7a137400-d16d-40c6-9e4e-93fc920eb274.png)
+
+* We still want to find the **first infinite**.
+
+> We are starting from **first**. We are asking if the first element is **infinite** or not. It is an **integer**, so, we will go to the **right**. We are **multiplying**, **i * 2**, every time we more to the **right**. Now, after **3-4** jumps, we have reached/entered to the **infinites**. Now, in the given area from **start or 1st index** to the currenct index which is **16**. So the **first index** is **1** and the **last index** which is **n** is **16**. So, now we can  do **binary search** in that area as **n** value is **known** now and also the **answer** is there in that area only.
+
+* **Binary Search** steps:
+
+1) We took **log n** time to find the **infinite** at the **16th** index, as we did **double** by **multiplying**, **i * 2**.
+2) **One binary search** for finding **n** value is **log n**.
+
+* We took **log n** time to find the **n** value.
+
+3) Now do normal, binary search to find the **first infinite**. 
+
+> Middle element is **8**. It is an **integer**, go to the right.
+
+> Middle element is **9 + 16/2 -> 12**. It is an **integer**, go to the right.
+
+> Middle element is **13 + 16/2 -> 14**. It is an **integer**, go to the right.
+
+> Middle element is **15 + 16/2 -> 15**. It is **infinite**. Check **before**, it is **not infinite**, then this is the **first infinite**. Now, stop and return the **position** of the **first infinite**.
+
+![image](https://user-images.githubusercontent.com/54589605/235581015-b64dc29a-6f24-4b32-93bd-3d8afe832d18.png)
+
+* First find **n** value, for that apply **binary search**.
+* So **log n + log n -> 2 * log n -> log n**.
+* Binary search **possible**.
+
+![image](https://user-images.githubusercontent.com/54589605/235581221-89ae1e7f-5d57-463f-badf-07dfd5817ff5.png)
+
+* Binary search means **divide by 2** as well as **multiply by 2**, both meaning are **same** they are coming from **two** different directions/angles. [**IMPORTANT**]
+
+* So, binary search is possible in the **above problem**.
+
+![image](https://user-images.githubusercontent.com/54589605/235579802-3471c931-86ac-4f9b-86e8-dfc2552b8fd9.png)
+
+* Previous problem and the above(current) problem is the **n**value. It was known in the **previous problem** but it is unknown in the **above(current) problem**.
+
+* Algo means **logics**. Learn logics.
+
+![image](https://user-images.githubusercontent.com/54589605/235581307-25f6650f-91bc-414b-9943-8cf30d6e1ab0.png)
+![image](https://user-images.githubusercontent.com/54589605/235578703-819a8e6d-b532-4d4e-aa22-036abadfa317.png)
+
+* Practice like **sir**.
 
 
 
