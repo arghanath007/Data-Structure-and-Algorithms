@@ -6287,18 +6287,226 @@ A) Infinite loop -> **NO**. Space is **limited**. Not possible.
 
 * Practice like **sir**.
 
+![image](https://user-images.githubusercontent.com/54589605/235581640-5639bf85-cf90-4823-9ea1-c5ac94fe9af6.png)
+![image](https://user-images.githubusercontent.com/54589605/235581801-0831236a-fde7-49df-8be6-d1d50bbc325d.png)
+
+* We are multiplying **i * 2**, because we want to find the value of **n** as it is **unknown** in the **above** question.
+* If we go **slowly**, **i**, then it will be **linear search** only and time complexity will be **n**.
+* If we go **fast**, multiplying **i * 2**, then it will be **binary search** only and time complexity will be **log n**.
+
+![image](https://user-images.githubusercontent.com/54589605/235582255-7ee952f2-581b-493a-b0cb-4e70d8eabe7e.png)
+
+> We went to **16th person** and it said it is an **integer**. Now we jumped to **32nd** person. **32nd** person said **#**. We crossed the array. Keep the **marker** at **32** only.
+
+> Now, apply **binary search** from **1st to 32nd** person. The **n** value is **32** only. 
+
+> Find the middle element, it is **1 + 32/2 -> 17/2 -> 16**. It is **integer**, go to the **right**.
+
+> Find the middle element, it is **17 + 32/2 -> 49/2 -> 24**. It is **infinite**, check before, if it is an **integer** or not. It is **infinite**, go to the **left**.
+
+> Find the middle element, it is **17 + 23/2 -> 40/2 -> 20**. It is **infinite**, check before, if it is an **integer** or not. It is **infinite**, go to the **left**.
+
+> Find the middle element, it is **17 + 19/2 -> 36/2 -> 18**. It is **infinite**, check before, if it is an **integer** or not. It is **infinite**, go to the **left**.
+
+> Find the middle element, it is **17 + 17/2 -> 34/2 -> 17**, there is only **one element**, which is a **small problem**. It is **infinite**, check before, if it is an **integer** or not. It is an **integer**. So, we found the **first infinite**. Now, stop and return the position of the **first infinite**.
+
+![image](https://user-images.githubusercontent.com/54589605/235583251-a5f2980c-694d-4ada-83ac-8ec6afc6b641.png)
+
+* **log n** for finding unknown **n** value and another **log n** to find the **first infinite** or the **required** thing from the **question**.
+'
+* **log n + log n -> 2 * log n -> log n**. **log n** only.
+* So, for the **above problem**, **binary search** is **possible**.
+
+![image](https://user-images.githubusercontent.com/54589605/235583441-5e217b66-5841-4afc-a39d-a72d09a69156.png)
+
+* When we are multiplying **i * 2**, to find the **n** value, if we cross the array, there is **no problem**.
+* If nothing mentioned about **no #** present after **array** is over, then it is a **serious issue**. There should be some marker to say that **array** is over. Use that market and stop it.
+
+* If **integers and infinites** are **randomly** there in the **array** then we can apply **binary search**?
+
+> **NO**.
+
+![image](https://user-images.githubusercontent.com/54589605/235583966-2c65a799-dabe-49a9-a74c-c29e4090c1ec.png)
+![image](https://user-images.githubusercontent.com/54589605/235584031-74f2c733-f7b7-4fdc-b6b5-582c88581c6b.png)
+
+* We will not know, if **array** is over or not. Continued to **infinite**.
+
+![image](https://user-images.githubusercontent.com/54589605/235584315-e811343c-a168-48bc-a5db-cf4574ea3c5c.png)
+
+### Next Question
+
+![image](https://user-images.githubusercontent.com/54589605/235584910-76752a6b-fc8b-4bb0-84e6-2f3eb783553c.png)
+
+* Input -> Sorted array of n-distinct positive integers.
+* Output -> Find any 2 elements a and b such that a + b > 1000.
+
+![image](https://user-images.githubusercontent.com/54589605/235585567-d5cc6ff3-aafb-4a51-8a86-24a55c4b071d.png)
+
+* Find time complexity. [Best Algo and worst case]
+
+* We have to find out **2** elements, **a and b**.
+
+* Steps:
+
+1) First apply linear Search.  
+
+![image](https://user-images.githubusercontent.com/54589605/235585768-5c40b646-9c03-45ee-8402-01813d2fd9cc.png)
+
+* If **a + b > 100**. Otherwise increment **b** or go to the next **b**.
+
+> We are asking **one by one** and **a** is **asking**, every other person. It is asking, I am **a** is confirmed, if you are **b** or not. 
+
+> If anyone satisfied then stop it, otherwise continue.
+
+![image](https://user-images.githubusercontent.com/54589605/235586603-4222b10e-4fbd-4747-af93-bc2c19f40073.png)
+![image](https://user-images.githubusercontent.com/54589605/235586885-daf8a61e-e7f4-403f-895a-5ab45c5b2244.png)
+![image](https://user-images.githubusercontent.com/54589605/235586905-6cd330d4-d516-43e8-8b85-e5e7ea1f5732.png)
+
+* We need **two** for loops here.
+
+![image](https://user-images.githubusercontent.com/54589605/235587089-cc9a0c27-ecd2-4704-8a9f-cc39b028ee7d.png)
+
+* Fix **a** value and rotate **b** value.
+* Using **linear search** we know how to find **one element or value**.
+* **n** time linear search happening.
+* Two inner loops, we have to **multiply**.
+
+![image](https://user-images.githubusercontent.com/54589605/235587629-2362451f-cbfd-4842-8015-da0ca82c6934.png)
+
+* For finding **3 elements or people**, we need **3 loops**.
+
+![image](https://user-images.githubusercontent.com/54589605/235587762-bfc45508-4589-40a1-b54d-f49ffc16a3b4.png)
+![image](https://user-images.githubusercontent.com/54589605/235587913-d94123cb-2905-4513-a16b-03406e34d839.png)
+![image](https://user-images.githubusercontent.com/54589605/235588181-fb3eceb3-3a16-497a-b954-cad88aef9815.png)
+![image](https://user-images.githubusercontent.com/54589605/235588203-8715a07d-2666-42da-8a1d-0f85bccd17e4.png)
+![image](https://user-images.githubusercontent.com/54589605/235588407-a3a601ed-9d09-4248-b29a-cf4b1aa12abf.png)
+
+* For finding **two** people, **time complexity** is **n * n -> n^2**.
+
+* **LINEAR SEARCH**
+
+* One time **linear search** -> **n**.
+* So for **n** times **linear search** -> **n * n -> n^2**
 
 
+* Array is sorted. So, why applying **linear search**, we can apply **binary search**.
 
+> Fix **a** and the for **remaining** people, for **b** purpose, apply **binary search**.
 
+> **a** will ask the **middle** person, are you **b**, so that the **sum** is more than 1000? **No**. We want **more**, and as it is a **sorted** array, we go to the **right** side.
 
+![image](https://user-images.githubusercontent.com/54589605/235588903-e124da34-ec87-4944-afad-16a79224915b.png)
 
+> **a** will ask the **middle** person, are you **b**, so that the **sum** is more than 1000? **No**. We want **more**, and as it is a **sorted** array, we go to the **right** side.
 
+![image](https://user-images.githubusercontent.com/54589605/235589154-7c11124d-cc5b-4061-8c73-f9d0f45eb648.png)
 
+* Everytime we are doing **divide by 2**, so it is **binary search**. **a** asking for **b** purpose of **binary search**.
 
+* How much time is over till now?
 
+> **log n** time, as we did **one** binary search.
 
+> Unfortunately, it failed, so **a** will move/increment one position to the **right**.
 
+![image](https://user-images.githubusercontent.com/54589605/235589571-2c70a554-5df2-4e1b-b5dd-a5808362fea1.png)
+
+> Again fix **a** and for the purpose of **b**, apply **binary search**. 
+
+![image](https://user-images.githubusercontent.com/54589605/235589712-a3f78808-0399-4b0b-b578-8dd36f0c83f8.png)
+
+**BINARY SEARCH**
+
+* One time **binary search** -> **log n**.
+* So for **n** times **binary search** -> **n * log n**
+
+![image](https://user-images.githubusercontent.com/54589605/235590397-605ab86c-c793-4ac0-b368-38c28a20fb37.png)
+
+* We are finding **two** people.
+* Binary search is going for **b** purpose.
+
+![image](https://user-images.githubusercontent.com/54589605/235590482-5f19bbf1-a349-487b-95c4-bc27f76bb59d.png)
+
+* For **three** people, we will apply **binary search** for **c** purpose. Only on **last** element, we apply **binary search**.
+
+> For **a and b** there are **two** loops. So, **n^2**, but for **c** loop it is not **linear search**, it is **binary search**, so it is **log n**.
+
+* For **three** elements it is **(n^2) * log n**.
+
+![image](https://user-images.githubusercontent.com/54589605/235590559-fdf5e9f9-2f15-4834-ac7f-6c6eb63ef9ad.png)
+
+* For **ten** elements it is **(n^9) * log n**.
+
+![image](https://user-images.githubusercontent.com/54589605/235590993-7319db9b-3155-4dd4-b4fc-3e4dfcff9490.png)
+![image](https://user-images.githubusercontent.com/54589605/235591024-1c4f06a8-052f-4d48-b92b-2e18bd3f6cd0.png)
+
+* For **two** people.
+
+![image](https://user-images.githubusercontent.com/54589605/235591080-d5d031ad-0bb4-4986-9e96-6a83393a8434.png)
+![image](https://user-images.githubusercontent.com/54589605/235591100-0180f29f-c075-4268-9f61-373419e0d75a.png)
+
+> In the above question, first try **linear search**, if in the **options**, **n^2** is there and **less than n^2** is not there, then stop it and select **n^2** as the **answer**.
+
+> Suppose **n^2** is there and **n * log n** is also there in the **options**, then by seeing **n * log n**, we got the clarity that **binary search** is there. Now, just check if **binary search** is **possible or not**.
+
+![image](https://user-images.githubusercontent.com/54589605/235591825-d27e4aac-d427-47a2-a688-089321af84ae.png)
+
+* **log n** -> One **binary search**
+* **n * log n** -> **n** number of **binary search** are possible.
+
+> **n * log n** is there but **less than (n * log n)** is not there, then stop and select **n * log n** as the **answer** only.
+
+> **n * log n** is there and **less than (n * log n)** is also there, then we have to **try** further. **YES**.
+
+![image](https://user-images.githubusercontent.com/54589605/235592070-9cc4f06f-5a19-42ad-9389-bbf7be4a36b6.png)
+
+* **Sorted array and increasing**.
+
+## 3rd Algo
+
+![image](https://user-images.githubusercontent.com/54589605/235592219-534a78fd-15bf-43db-af60-482e861dcc09.png)
+![image](https://user-images.githubusercontent.com/54589605/235592443-e7c5d9a2-861b-4c23-a374-d2eadb044ac5.png)
+
+> It is a **Sorted array and increasing**, so if the **last two** elements don't give **greater than 1000**, then no one can give.
+
+> Either they will give or none or no one will give.
+
+![image](https://user-images.githubusercontent.com/54589605/235592493-6df09d69-c4e2-45fe-bbaa-ace5f9922285.png)
+
+* Return **last two elements**.
+* Time complexity is O(1), since **no loops**.
+
+> If **n^2, (n * log n) and O(1)** there, then **O(1)** is the **correct** answer.
+
+![image](https://user-images.githubusercontent.com/54589605/235592721-08e64a4f-cf4a-4459-bde3-5b2a5947b06b.png)
+
+* For the above problem, **3rd algo** is **better**.
+* We want **best algo** and **worst case time complexity**.
+
+![image](https://user-images.githubusercontent.com/54589605/235592961-62827eef-1316-4f54-8363-8b6fa0292c07.png)
+![image](https://user-images.githubusercontent.com/54589605/235593055-9d27d842-00d3-4b9e-896e-c65245f7afe2.png)
+
+* For the **3rd algo**, **every case(EC)** is **1**.
+* **3rd algo** came from **common sense**.
+
+![image](https://user-images.githubusercontent.com/54589605/235593121-8854053a-196e-4e93-974b-97bc9475d755.png)
+
+* The **3rd algo** will work out for **three** people also.
+
+![image](https://user-images.githubusercontent.com/54589605/235593261-2ae0fef0-9dac-4e0a-9ad8-3467bd559c9d.png)
+
+* All of them will give **correct** answer.
+* Only thing is **3rd algo** will take **less time**.
+* Best algo is **3rd algo**.
+
+![image](https://user-images.githubusercontent.com/54589605/235593390-359eabfe-f686-4644-bd67-ca1eda33f113.png)
+![image](https://user-images.githubusercontent.com/54589605/235593406-8342c39c-1f09-41be-8516-947fa4294302.png)
+
+* Worst Case only and if **array** is **un-sorted**. 
+
+![image](https://user-images.githubusercontent.com/54589605/235593579-c597f98c-326b-4aff-ad95-ff36432cb7dc.png)
+![image](https://user-images.githubusercontent.com/54589605/235593895-c0241ae2-4786-4c4a-bb23-b601dc497d91.png)
+![image](https://user-images.githubusercontent.com/54589605/235593930-70d1f0f8-eb97-4405-ba5f-36168aac4742.png)
 
 
 
