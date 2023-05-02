@@ -6508,10 +6508,292 @@ A) Infinite loop -> **NO**. Space is **limited**. Not possible.
 ![image](https://user-images.githubusercontent.com/54589605/235593895-c0241ae2-4786-4c4a-bb23-b601dc497d91.png)
 ![image](https://user-images.githubusercontent.com/54589605/235593930-70d1f0f8-eb97-4405-ba5f-36168aac4742.png)
 
+## Doubt_Clearing_Session (27) [2nd May 2023]
+
+![image](https://user-images.githubusercontent.com/54589605/235653584-3dfbf039-5606-410f-9749-f2847f5ebfc4.png)
+
+### Sorted
+
+* Sorted(2-elements)
+
+1) Linear Search -> n^2
+2) Binary Search -> n * log n
+3) Short-cut -> O(1)
+
+* Sorted(3-elements)
+
+1) Linear Search -> n^3
+2) Binary Search -> (n^2) * log n
+3) Short-cut -> O(1)
+
+* Sorted(4-elements)
+
+1) Linear Search -> n^4
+2) Binary Search -> (n^3) * log n
+3) Short-cut -> O(1)
+
+### Unsorted
+
+* Unsorted(2-elements)
+
+1) Linear Search -> n^2
+2) Binary Search -> 1) Sort array -> n * log n.
+                    2) Binary search ->  n * log n.    
+
+* Together -> n * log n + n * log n -> 2 * (n * log n) -> n * log n.
+
+3) Short-cut -> 1) Sort array -> n * log n.
+                2) Short-cut ->  O(1).   
+
+* Together -> n * log n + O(1) -> n * log n.
+
+> In **unsorted array**, between **binary search and short-cut**, **short-cut** is **better** because it is **n * log n + O(1)** but **binary search** is **2 * (n * log n)**. 
+
+* **n * log n + O(1)** <= **2 * (n * log n)**
+
+## 4th Algo
+
+> In array, we know how to find **max** element. We can **scan once** and find the **max** element.
+
+> In **one scan**, we can find **first max and first min**.
+
+* Using **one scan**, we can find **first two max** and return them. It will take **O(n)** time complexity.
+* Time complexity -> O(n).
+
+* If we want **two** maximum, then **no need/requirement** of **sorting** the total array. Find them **directly** only.
+
+* **STEPS**:
+
+1) Find **first two max** directly using only **one scan**.
+2) Return them.
+
+![image](https://user-images.githubusercontent.com/54589605/235658515-92173649-9703-49c8-9842-a5059964dba8.png)
+![image](https://user-images.githubusercontent.com/54589605/235658435-2e85992e-2e49-4007-9234-e6d27808a06e.png)
+
+* **Best Answers/Best Algo**:-
+
+* If array **not sorted or un-sorted** -> O(n).
+* If array **sorted** -> O(1).
+
+![image](https://user-images.githubusercontent.com/54589605/235658691-516f8db2-9584-4a5d-86b8-06f65c71a174.png)
+
+![image](https://user-images.githubusercontent.com/54589605/235659065-c435a38c-3fdf-47fb-b783-21d10153c604.png)
+
+* No **hashmap** in **algo**. Don't use it, unless mentioned in question.
+
+![image](https://user-images.githubusercontent.com/54589605/235659294-bf662fdf-cf86-4c40-a2de-c7139d5e4f56.png)
+
+* **YES**.
+
+![image](https://user-images.githubusercontent.com/54589605/235659399-adda0893-2c51-4011-bcb6-dfdd752271b4.png)
+
+* **O(n)**. Use **4th algo**, as it is an **unsorted array**.
+
+![image](https://user-images.githubusercontent.com/54589605/235660688-c79380be-c3c6-4c3f-80cb-dd236e7f9ad0.png)
+![image](https://user-images.githubusercontent.com/54589605/235660717-5958b163-0b19-4539-82e5-3048f5b86e0e.png)
+
+* For sorted array.
+
+![image](https://user-images.githubusercontent.com/54589605/235661051-ae20e576-ea3a-4dd3-b2b8-47141346cd9a.png)
+
+* In the previous question it was **max** elements.
+* In the above question it is **min** elements.
+
+![image](https://user-images.githubusercontent.com/54589605/235661275-240df8ab-50b9-4f2a-a96d-7df20ae1a05c.png)
+
+### Next question
+
+* Input -> Sorted array of n distinct elements
+* Output -> Find any 2-elements(a and b) such that a + b == 1000.
+
+* Sorted -> O(n * log n) 
+* Unsorted -> O(n * log n)
+
+* **Binary Search** in **both cases**.
+* We can see that **linear and binary** search both are possible on the **above** question.
+
+![image](https://user-images.githubusercontent.com/54589605/235662843-c3653062-3aaf-423b-bc99-5b99ae7bf053.png)
+
+* Wait sirji.
 
 
+## 3rd Algo
+
+* If we want **more** then **increment/move**, 'a'  to the **right**.
+* If we want **less** then **decrement/move**, 'b'  to the **left**.
+
+![image](https://user-images.githubusercontent.com/54589605/235670313-5b15f9ea-5af3-4177-bdc4-072f2b14715b.png)
+![image](https://user-images.githubusercontent.com/54589605/235670401-8589f5e4-6ee8-41f7-a1b9-56ab5d7ad283.png)
+
+* We got it with **one scan**. **a** is **increment/moving** every time because we want **more**. 
+
+* In the **algo**, how will change, a or b?
+
+> Depending on the **requirement**, sometimes **a** will change, sometimes **b** will change.
+
+![image](https://user-images.githubusercontent.com/54589605/235670993-ae7bebc1-8fc5-4f05-b469-9175a990f4fa.png)
+![image](https://user-images.githubusercontent.com/54589605/235671071-6296e61d-a0b9-4823-a4d7-519fec107461.png)
+
+* It is also **one scan**. Right most **b**, moved to the **left** because we want **less**.
+* **One scan** means **one loop**, so it is **O(n)**.
+
+![image](https://user-images.githubusercontent.com/54589605/235671660-f2b43bdf-6c7d-4414-ac7d-ede21715f0be.png)
+
+> We are getting **a + b -> 100 + 700 -> 800**, which is **less than 950**, which we want. Hence, we want **more**. We **moved** 'a' to the **right**.
+
+![image](https://user-images.githubusercontent.com/54589605/235672198-d50fc773-00c4-47eb-a1dd-c491066162c0.png)
+
+> We are getting **a + b -> 200 + 700 -> 900**, which is **less than 950**, which we want. Hence, we want **more**. We **moved** 'a' to the **right**.
+
+![image](https://user-images.githubusercontent.com/54589605/235672250-f8b1cbe3-329e-40bc-ab79-934d05a17d6f.png)
+
+> We are getting **a + b -> 300 + 700 -> 1000**, which is **more than 950**, which we want. Hence, we want **less**. We **moved** 'b' to the **left**.
+
+![image](https://user-images.githubusercontent.com/54589605/235672881-6ec968a7-a50d-4458-a5e9-ece4b807f6ca.png)
+
+> We are getting **a + b -> 300 + 600 -> 900**, which is **less than 950**, which we want. Hence, we want **more**. We **moved** 'a' to the **right**.
+
+![image](https://user-images.githubusercontent.com/54589605/235673053-47d33cd6-b9ec-4746-b79a-5b0a633a2a2a.png)
+
+> We are getting **a + b -> 450 + 600 -> 1050**, which is **more than 950**, which we want. Hence, we want **less**. We **moved** 'b' to the **left**.
+
+![image](https://user-images.githubusercontent.com/54589605/235673270-3c5268e1-b587-4cd0-9cae-3acaf07888b8.png)
+
+> We are getting **a + b -> 450 + 500 -> 950**, which is **equal than 950**, which we want. We got what we wanted, which is **950**. Return **a and b**.
+
+![image](https://user-images.githubusercontent.com/54589605/235673581-5a3b47be-b220-4248-af4b-621291c9c923.png)
+
+* Sometimes, **left** will move, sometimes, **right** will move and sometimes **both** will move.
+
+![image](https://user-images.githubusercontent.com/54589605/235673783-1c46d6ff-f444-4dab-8dcf-52dc5c5d918f.png)
+
+* Simply **one scan**, which is **one loop**.
+
+![image](https://user-images.githubusercontent.com/54589605/235674434-f458ea66-0dda-44ae-a6dc-a9bbcad36040.png)
+![image](https://user-images.githubusercontent.com/54589605/235674685-ea6a27ac-997c-4ce3-a733-22afbcfff4a6.png)
+
+* If **not equal** in the **while** loop, then come **inside**.
+
+![image](https://user-images.githubusercontent.com/54589605/235675512-97b4d567-1f0d-4f9a-8cd9-581e21d42536.png)
+![image](https://user-images.githubusercontent.com/54589605/235675551-628cfe96-845f-404f-9f70-16d79f1ebac5.png)
+
+* Elements **not found**. They are not possible.
+* Time Complexity -> **O(n)**.
+
+![image](https://user-images.githubusercontent.com/54589605/235675817-d272a7ca-94d0-4ea4-ac77-418b8814c483.png)
+
+* Loop is **n** time, only **one scan** required.
+* The options are **n^2, (n * log n) and O(n)**, then the **answer** is **O(n)**.
+* Sorted array and **equal asked**, answer is **O(n)**.
+* Same problem, un-sorted array and **equal asked**, answer is **(n * log n) + O(n) -> (n * log n)**. First we have to sort the **un-sorted array** which will take **(n * log n**, then apply **3rd algo**, which will take **O(n)**.
+
+* **3rd Algo** is **not possible** if the array is **not sorted**. We have to **sort** the array first then apply **3rd algo**.
 
 
+* Same problem, un-sorted array and **equal asked**, answer:
+
+* Linear Search -> n^2
+* Binary search -> (n * log n) -> (n * log n) + (n * log n)  => 2 * (n * log n).
+* 3rd algo -> **(n * log n) + O(n) -> (n * log n)** [Since, we have to do sorting first]
+
+* 2 * (n * log n) > (n * log n) + O(n) -> That's why **3rd algo** is **better**.
+
+![image](https://user-images.githubusercontent.com/54589605/235678607-c063a01a-12e2-4e42-98c0-2abe06429200.png)
+
+* Another name of **greedy** technique is **short-cut**.
+
+![image](https://user-images.githubusercontent.com/54589605/235679019-3010d6f1-1fb0-4de7-8a17-2154b6906c2d.png)
+![image](https://user-images.githubusercontent.com/54589605/235679307-20d3a15b-c603-485e-9ea4-d043959c510c.png)
+![image](https://user-images.githubusercontent.com/54589605/235679391-69525277-6d5c-41d4-909b-c8ba8f925107.png)
+![image](https://user-images.githubusercontent.com/54589605/235679773-493b0eee-fe90-4363-bf82-780fff7de074.png)
+
+## Process
+
+1) First try **linear search**, it will give some ideal.
+2) Improvement of **linear search** is **binary search**.
+3) Now try the **greedy or short-cut** algos from above to get improvement from **binary search**.
+
+![image](https://user-images.githubusercontent.com/54589605/235680815-e86cb7f6-6ca4-4191-ae33-1ebbcaeabfad.png)
+
+* Greedy Approach.
+
+![image](https://user-images.githubusercontent.com/54589605/235681211-3aba41b5-a8de-4a01-bb50-cac1665e70f2.png)
+
+* BRO. DEAD.
+
+## Merge Sort
+
+* Sorting Technique.
+
+![image](https://user-images.githubusercontent.com/54589605/235688721-7c5e308e-df29-4f7e-b57a-bf09c32b9547.png)
+![image](https://user-images.githubusercontent.com/54589605/235688750-d498ad3c-5882-44e3-a90e-92a0524de50f.png)
+
+* They are **different**.
+* Merge sort -> Given array is converted into sorted array.
+
+![image](https://user-images.githubusercontent.com/54589605/235714001-13edf355-f8eb-48e9-a968-8d92366a9c2f.png)
+![image](https://user-images.githubusercontent.com/54589605/235715070-f6551a30-c7a1-434b-87b0-5bcbd21aa1a0.png)
+
+* Merge sort is application of **divide and conquor**.
+* One element is a **small problem**, return that element.
+
+![image](https://user-images.githubusercontent.com/54589605/235717142-46ea5492-cece-47fe-a2d1-d68fa363f93b.png)
+
+* Every circle is a **function** call.
+* Space complexity of recursive programs depends on **no. of levels**. The **no. of levels** is **log n**.
+
+![image](https://user-images.githubusercontent.com/54589605/235718116-65631ec8-0a8c-4cd0-af34-c1aa9fa52c49.png)
+
+* For function calling.
+
+![image](https://user-images.githubusercontent.com/54589605/235731650-9f9c8ec8-60d1-4b8a-90d0-9fb2e3684b62.png)
+
+* At every **divide**, **combine** should take place.
+* To do **c3**, **c4 and c5** are required. **c4** is required first then **c5**.
+* c4 is a **small** problem, so return that element.
+* As both **c4 and c5** are **available**, we can **combine**.
+* Left is **1** element and right also **1** element. So, if we **combine**, we will get **2** elements but in **sorted** order.
+
+![image](https://user-images.githubusercontent.com/54589605/235734816-8b28a258-20e8-4814-9732-11b8cfdf6783.png)
+
+* Left and right person become **two** people in the **sorted** order, then that process is called as **combine**. It is also called as **merge**. **Combine** is nothing but **merge**.
+
+![image](https://user-images.githubusercontent.com/54589605/235735271-fe946e06-9c9a-4732-b19b-92b380604039.png)
+![image](https://user-images.githubusercontent.com/54589605/235736405-b7acf89e-9bb9-4579-9bda-72530a474bfe.png)
+![image](https://user-images.githubusercontent.com/54589605/235736425-1e8b756e-16dd-4629-92aa-b11b7a4bede7.png)
+
+![image](https://user-images.githubusercontent.com/54589605/235738628-f7c0e5dc-7f18-49d5-b354-ba80cfd9cc7b.png)
+
+* Top of the **stack** is **c1**.
+
+* For **c9**, **c10 and c13** are available. Because both are available, we have to **combine**. **c9** has **2** elements and **c13** has **1** element. So, total is **2 + 1 -> 3** people in the sorted order.
+
+![image](https://user-images.githubusercontent.com/54589605/235739072-b0b0072d-521a-4cc2-8bb7-5ee5ab0afd40.png)
+![image](https://user-images.githubusercontent.com/54589605/235739102-f5eb29a1-6d77-4166-b680-e6dd3577004e.png)
+
+* Top of the **stack** is **c1**.
+* For **c1**, **c2 and c9** are needed and they are available. **c2** has **4** elements, **c9** has **3** elements. So, total is **4 + 3 -> 7** people in the sorted order.
+
+![image](https://user-images.githubusercontent.com/54589605/235739428-f597d84b-d699-4717-960d-d7c17a5e0eeb.png)
+![image](https://user-images.githubusercontent.com/54589605/235739477-4a9ccedd-6a37-408b-87f7-6cedb7498ca1.png)
+
+* We got **sorted order**.
+* There is **Divide(), small(), solution(), combine()** within **merge sort**. The **combine()** is called as **merge** in merge sort.
+* **6** times divide, means **6** times combine.
+* **1** divide time is **constant**.
+* **1** combine time is not **constant**.
+
+> If total elements is **n**, then the **left side**, is **n/2** and right side is also **n/2**.
+
+> To **combine** both the **n/2** elements from **left and right**, it would take **n** time. One **merge or combine** will take **n** time.
+
+* **merge or combine** is costlier than **divide**.
+
+![image](https://user-images.githubusercontent.com/54589605/235741242-c791a2a9-9462-4dd0-a3fc-a75bb6d0154b.png)
+![image](https://user-images.githubusercontent.com/54589605/235741301-2df2447b-e916-433e-8b9c-4c07e017ca3c.png)
+![image](https://user-images.githubusercontent.com/54589605/235741409-a59a670e-4c8f-41f5-a66e-58745ff37563.png)
+
+* All are **same**.
 
 
 
