@@ -733,7 +733,7 @@
 2) Omega Notation -> (**>=**)
 3) Theta Notation -> It means **equal**. It means **Big O(<=)** as well as **Omega(>=)** also. If both(Big-O and omega) satisfied then it is **theta**.
 
-> If between two people <= and >=, both are possible. Then, they are **equal**. If both are **True**, then they are **equal**. If both are **True**, then they are **not equal**.
+> If between two people <= and >=, both are possible. Then, they are **equal**. If both are **True**, then they are **equal**. 
 
 ![image](https://user-images.githubusercontent.com/54589605/231459382-4c202308-2b11-44dc-804f-5118a5db48bf.png)
 
