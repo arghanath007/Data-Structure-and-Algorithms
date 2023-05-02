@@ -6794,7 +6794,10 @@ A) Infinite loop -> **NO**. Space is **limited**. Not possible.
 ![image](https://user-images.githubusercontent.com/54589605/235741409-a59a670e-4c8f-41f5-a66e-58745ff37563.png)
 
 * All are **same**.
+* We are dividing at every level.
+* Dominator is **combine** time.
 
+* At every level, we are doing **merging**. At every level it will take **n** time, we have **log n** levels, so it is **n * log n**.
 
 
 
