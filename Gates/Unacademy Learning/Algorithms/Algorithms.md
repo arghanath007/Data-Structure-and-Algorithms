@@ -6780,7 +6780,7 @@ A) Infinite loop -> **NO**. Space is **limited**. Not possible.
 * We got **sorted order**.
 * There is **Divide(), small(), solution(), combine()** within **merge sort**. The **combine()** is called as **merge** in merge sort.
 * **6** times divide, means **6** times combine.
-* **1** divide time is **constant**.
+* **1** divide time or simply divide time is **constant**.
 * **1** combine time is not **constant**.
 
 > If total elements is **n**, then the **left side**, is **n/2** and right side is also **n/2**.
@@ -6798,6 +6798,281 @@ A) Infinite loop -> **NO**. Space is **limited**. Not possible.
 * Dominator is **combine** time.
 
 * At every level, we are doing **merging**. At every level it will take **n** time, we have **log n** levels, so it is **n * log n**.
+ 
+## DP-VI (28) [3rd May 2023]
+
+* **Log n** levels in the tree. Because we are always **dividing by 2**.
+* First level, we have **1** divide. Every function call, we will **divide**.
+* At every division, there is **combine** also.
+
+![image](https://user-images.githubusercontent.com/54589605/235836634-fe00da11-8fc1-406a-a589-55fd34760280.png)
+
+* In the bottom level, there are **n** groups. Every group contains **1 element**.
+* In the 2nd last level, there are **n/2** groups. Every group contains **2 element**. So, it is **n/2 * 2 -> n**. So at the end of the day, it is **n** people only.
+* Groups are **compressing/decreasig** but the **no. of elements** remain the **same**.
+* First level has **1 group**, containing **n**  people/elements. 
+* Every level, containing **n** people/elements.
+
+![image](https://user-images.githubusercontent.com/54589605/235839600-4b022af9-3979-4292-928d-4c87b1bcbb5d.png)
+![image](https://user-images.githubusercontent.com/54589605/235839698-17eaab75-5bd6-4b61-95b9-897b6ee5a54b.png)
+![image](https://user-images.githubusercontent.com/54589605/235839863-a0cd1c29-43b5-4656-b416-09ae0ac52d53.png)
+
+## Merge() or combine()
+
+* Merge is **two sorted sub-arrays**. Merge is the other name for **combine()**. It is different from **merge sort**. Merge sort is superset of **merge**.
+* Even if we have **two sub-arrays**, then also we cannot go to **merger**, we need **two sorted sub-arrays**.
+
+![image](https://user-images.githubusercontent.com/54589605/235840746-1a45ee71-1f2b-46fa-b981-c757df0978de.png)
+
+* **One(1) sorted sub-array**,apply **binary search**.
+
+* If in any problem, more than **one** sorted array given?
+
+> Apply **merge algorithm** not **merge sort**.
+
+* If in any problem, only **one** sorted array given?
+
+> Apply **binary search**.
+
+## Summary
+
+* **Merge algorithm** input -> **two sorted sub arrays**
+* **Merge sort** input -> **One array**.
+
+![image](https://user-images.githubusercontent.com/54589605/235844003-421a3acf-17d7-4ebf-a433-83d483893e89.png)
+
+* After every comparison is over, **move** or do assignment, whoever is **winner**, **move** them.
+* As only **41** is left, as there are **no elements** to fight with, it, cannot fight further.
+* No change of **comparison** further, so we just simply **copy 41** to the **last place**. 
+
+![image](https://user-images.githubusercontent.com/54589605/235844552-7585b3c4-6ec4-401c-b90d-7cb1d968941b.png)
+
+* If there are **m** elements in first arrray, **n** elements in second array then the **no of comparisons** is **m + n -1**.
+* No. of moves is **m + n**.
+* Time complexity of **merge algorithm** is **moves** only, as somethings **comparisions** may not be there, but every element **move** is there.
+
+![image](https://user-images.githubusercontent.com/54589605/235845103-e9c40ded-23f5-4a2f-9a3e-f5209d0948a7.png)
+
+* Time complexity of **merge algorithm** -> O(n).
+
+![image](https://user-images.githubusercontent.com/54589605/235845540-8c9b84aa-0fe9-4e2e-9a08-0677ce2a2741.png)
+
+* In the **A** group, the two arrays are **individually** sorted.
+* In the **B** group, the array is **completely** sorted.
+
+![image](https://user-images.githubusercontent.com/54589605/235846602-3f181c36-0c8e-42e2-b4f7-a272f07da25c.png)
+![image](https://user-images.githubusercontent.com/54589605/235846690-71643961-f131-4bf9-a5c7-3675391ecce6.png)
+ 
+* Elements are always going from **same** group, that is also **small group**. Here, **n=3** and **m=6**, so **n** is **smaller**.
+
+![image](https://user-images.githubusercontent.com/54589605/235884820-740f3ec3-e629-40eb-bc92-a0ce58864d4f.png)
+![image](https://user-images.githubusercontent.com/54589605/235885295-c62c9b63-23dc-4b58-8603-0247fcd8c039.png)
+
+* This is an example of **merge algorithm** with **best case**.
+
+![image](https://user-images.githubusercontent.com/54589605/235885442-4bb10575-676f-4bce-8b46-ca703091fae4.png)
+
+* This is an example of **merge algorithm** with **worst case**.
+* It will take much more time.
+
+* Whether it is **best or worst** case, **time complexity** is the **same** which is the **no. of moves**. Moves are **same** only **m + n**.
+* From **best to worst** case, the **no. of comparisions** are **changing(increasing or decreasing)** instead of **no. of moves**.
+
+![image](https://user-images.githubusercontent.com/54589605/235886337-8d8e49f2-9f9f-497c-84d8-740209a8d4d8.png)
+![image](https://user-images.githubusercontent.com/54589605/235886414-0cca4378-dfaf-4920-ae77-37d5af40df5c.png)
+
+* If we are asked any algo's **best and worst** case time complexity, shpuld we bother about **input order or input size**?
+
+> **Input order**. Don't think about **input size**. We are bothered about **logic** and not **size** here.
+
+* **Any case**, the **no. of elements** is **same(n)**.
+ 
+> Whenever **merge algo** is going on, we are taking **another array**, where the **merge algo** is happening. **YES**. We are taking some **extra space** from outside. That's why **merge algo**, happens on the **outside/outplace**.
+
+![image](https://user-images.githubusercontent.com/54589605/235890040-0cc7b7c2-c083-4302-b741-f99851da584e.png)
+![image](https://user-images.githubusercontent.com/54589605/235890066-a24fcd88-bba9-427f-a777-235621158521.png)
+
+* We can take **max** of **log n** extra space. We have taken an extra array of size **n**. As, **n** is greater than **log n**, so it is considered to be **outplace**.
+
+* Why **merge sort** is **outplace**?
+
+> When doing **merge sort**, we are taking **extra space**. We are taking **more than log n**, which is **n**. As we took an array of size **n**.
+
+> We want to say that we have taken **more space**. If really needed then take.
+
+## Note[**IMPORTANT**]
+
+![image](https://user-images.githubusercontent.com/54589605/235892745-0e273ddb-c59f-464b-a8c2-c7801b9ebc5c.png)
+
+* Merging 2-sorted sub-arrays each of size **m and n** will take **O(m + n)**.
+
+> It is for **every case(EC)**, because **moves** are always **m + n**. It is called as **outplace** algorithm. **Outplace** means we have take **more space** than **log n**.
+
+* To save **time**, we have take **extra space**.
+
+* Moves are always **bigger** than comparisions.
+
+* If we won't want to take **more space**?
+
+> If we take **less space**, then the time complexity of **merge algo** will be **O(m * n)**.
+
+> It is **worst case** and it is **in-place** algorithm because we have not take any **extra space**.
+
+![image](https://user-images.githubusercontent.com/54589605/235895186-c0bdbd23-6572-45a3-95fc-8c565889e1c0.png)
+
+* In-place -> **Less space**, so time is **more**. Time is **m * n** more.
+* Out-place -> **More space**, so time is **less/decreased**. 
+
+* If **m=10 and n=20**, then for **In-place** algo, where **more** space is taken, time complexity is **O(m + n) -> 20 + 10 -> 30**.
+
+* If **m=10 and n=20**, then for **out-place** algo, where **less** space is taken, time complexity is **O(m * n) -> 20 * 10 -> 200**.
+
+* **Time and space** both are important. But **time** is **more important** than **space**.
+
+![image](https://user-images.githubusercontent.com/54589605/235895899-03b02476-7401-4052-909f-b46dca5a6552.png)
+
+> We don't discuss **in-place** because it takes **more time** than **out-place**.
+
+![image](https://user-images.githubusercontent.com/54589605/235896011-6e27fdd8-46a2-48e7-93ad-4e38fd4c15a4.png)
+![image](https://user-images.githubusercontent.com/54589605/235896598-7dbb23df-b551-443d-b96a-bd26a911b77e.png)
+
+* **Inplace** algo.
+
+![image](https://user-images.githubusercontent.com/54589605/235897012-91684108-82c2-4a05-8a47-661a9ab522e7.png)
+![image](https://user-images.githubusercontent.com/54589605/235897626-4d9f0d16-3e5f-4b9d-be45-ce688b932010.png)
+![image](https://user-images.githubusercontent.com/54589605/235897995-af4c86d4-1c01-4c47-b067-48ab047af1c5.png)
+
+* Not required.
+
+* Inside **merge sort**, **merge** is there then it is **out-place**.
+* If we try to **decrease space**, **time** is **increasing**. 
+
+![image](https://user-images.githubusercontent.com/54589605/235898022-cfa22261-1592-4559-884c-b5d212803a63.png)
+
+* Meaningful **merge**.
+* In **merge sort**, **combine** is **careful** but **divide** is **blind divide**, as we have not done any **comparisions**.
+* Blind division is **O(1) or constant**, **advantage** is that they are **fast** or take less time.
+
+* Who is rectfying **blind divide's** mistakes?
+
+> **Combine()**.
+
+* **Combine()** is meaningful combine.
+
+![image](https://user-images.githubusercontent.com/54589605/235899146-388ad5a0-836d-4e19-830c-071a8e09938a.png)
+
+* Above is **VERY IMPORTANT**.
+
+![image](https://user-images.githubusercontent.com/54589605/235899294-8b1e7333-53e8-4c30-bd00-ea76e5aef5c6.png)
+
+* For **min** comparisions, one group only, which is **smaller**.
+
+![image](https://user-images.githubusercontent.com/54589605/235899432-cb39e89b-9283-4a02-bfd0-9721cdc9ad12.png)
+
+* For **min** comparisions, both group will come, which is **m + n -1**. Last element is **excluded**.
+
+![image](https://user-images.githubusercontent.com/54589605/235899658-dd79c0fd-2138-4e46-9930-28c640eaf344.png)
+
+* **Moves** is always **bigger** and it is the **time complexity**.
+
+![image](https://user-images.githubusercontent.com/54589605/235899734-7c0381a1-9cbc-4994-9fd7-b5e0523c5c34.png)
+![image](https://user-images.githubusercontent.com/54589605/235899899-83ea5e82-441f-47f6-a8df-cd9ea1184083.png)
+
+## Doubt by student
+
+![image](https://user-images.githubusercontent.com/54589605/235900221-152271f4-f186-4531-8070-8d0d7e8b927c.png)
+![image](https://user-images.githubusercontent.com/54589605/235900258-7f0c63f2-9a85-4dc4-907c-84d4f9eceee9.png)
+![image](https://user-images.githubusercontent.com/54589605/235900633-5436c3fc-0860-4b2c-9a46-134f364b9e49.png)
+
+> He's comparing **last element** of **first** array and **first element** of **second** array. Which is **incorrect** or **wrong**.
+> It should be comparing **first element** of **first** array with **first element** of **second** array. This is **correct**.
+
+![image](https://user-images.githubusercontent.com/54589605/235900806-9c300e68-b185-4e8f-88dc-1edbf85b1d94.png)
+
+* This is possible if they ask in the question to modify the **merge sort** algo in such a way that it gives certain time complexity?
+
+> We can try then, the above one.
+
+* Worst case matters.
+
+![image](https://user-images.githubusercontent.com/54589605/235901198-9ba98e83-65f5-438f-823f-60500a920e6c.png)
+
+* Algo is **fixed**. We can change the **input**.
+* Without touching the algo, change the **input** and see which **input** matches the **best, worst or average** cases.
+
+## Merge Sort Algorithm
+
+* **One** array.
+
+* merge(a, i, mid); -> Sorts the **left** part.
+* merge(a, mid + 1, j); -> Sorts the **right** part.
+* **Left and right** part are **individually** sorted.
+* merge(a, i, mid, j); -> **Merge** algo. It is the **combine** part.
+
+* **Merge algo**, time complexity is **moves** only.
+
+![image](https://user-images.githubusercontent.com/54589605/235902699-cefce45b-cb31-4afc-ae92-34b485bb41ee.png)
+![image](https://user-images.githubusercontent.com/54589605/235902936-e878b4ce-6453-465e-9299-4a00ee80ddea.png)
+
+* Time complexity of **merge algo** is **O(n)** for **every case(EC)**.
+* Merge algo is over, now the **total array** is **sorted**.
+
+![image](https://user-images.githubusercontent.com/54589605/235903140-e5fc55b3-4fa9-478e-85f8-f70bab1a1d76.png)
+
+* Time complexity of **divide** time  -> O(1) or constant
+* The total is **T(n)**.
+* Time complexity of **conquor** time -> T(n/2) + T(n/2) -> **2 * T(n/2)*
+
+![image](https://user-images.githubusercontent.com/54589605/235903429-23e86a93-c78a-4963-8710-93be3237ad10.png)
+![image](https://user-images.githubusercontent.com/54589605/235903707-05e9aa94-fe6b-44e6-8a9d-dbc60ae1bd93.png)
+
+* **Combine** time is **more** compared to **divide** time.
+* **Combine + divide** time, combined time is **O(n) + O(1) -> O(n)**.
+
+* Inside **merge sort**, **merge** is there. The **merge** is **out-place** because it has take **more space** than **log n**.
+* As **merge** is **out-place**, so the whole **merge sort** algorithm is **out-place** now.
+
+![image](https://user-images.githubusercontent.com/54589605/235904484-0b40c9ab-8974-411e-8f2e-a90599e28374.png)
+![image](https://user-images.githubusercontent.com/54589605/235904559-e86fd205-bd41-470e-9807-3cdd06e8af61.png)
+
+### Time complexity of Merge Sort
+
+![image](https://user-images.githubusercontent.com/54589605/235905485-17c45566-9721-41d7-9c0a-caaf2f3c98e7.png)
+
+* It is **log n** level tree, or **no. of levels** is **log n**.
+
+* Time complexity of Merge Sort -> **Theta(n * log n)**. [For every case, as **moves** are always **same**]
+* Space complexity of Merge Sort -> log n + n -> **O(n)**.
+
+> In the **space complexity**, **log n** is for the **stack**, as it is a **recursive** function. When the **merge** function is running it is taking **extra space** by using another array of size **n**. So it is **log n + n -> O(n)**.
+
+> If the extra array is not taken of size **n**, then it is an **in-place** algo.
+
+![image](https://user-images.githubusercontent.com/54589605/235906380-8056c6b3-6c83-43f0-aef2-864c2a83da28.png)
+![image](https://user-images.githubusercontent.com/54589605/235906520-6739537b-e432-42e8-a0a9-42459c6ec545.png)
+![image](https://user-images.githubusercontent.com/54589605/235906574-fba25ae1-a87a-4d5f-b1e7-e7168e226539.png)
+![image](https://user-images.githubusercontent.com/54589605/235906971-086e091d-2166-4e1d-9e50-b483d8807cfe.png)
+![image](https://user-images.githubusercontent.com/54589605/235907094-dfa54c4d-560f-4ee7-afb7-631a3cc1a66a.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
