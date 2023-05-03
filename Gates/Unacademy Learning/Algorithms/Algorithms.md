@@ -7054,26 +7054,363 @@ A) Infinite loop -> **NO**. Space is **limited**. Not possible.
 ![image](https://user-images.githubusercontent.com/54589605/235906971-086e091d-2166-4e1d-9e50-b483d8807cfe.png)
 ![image](https://user-images.githubusercontent.com/54589605/235907094-dfa54c4d-560f-4ee7-afb7-631a3cc1a66a.png)
 
+## DAC-VI (29) [3rd May 2023]
+
+![image](https://user-images.githubusercontent.com/54589605/235924629-f1a3dacf-59e7-4715-b0e8-db943fee3c3d.png)
+
+* Time complexity of Merge Sort -> **Theta(n * log n)**. [For every case, as **moves** are always **same**]
+* Best case(Min time) in **divide and conquor** techniques -> **else** part
+
+![image](https://user-images.githubusercontent.com/54589605/235939111-0a32df21-47e9-4ecb-994f-f3476891eb4c.png)
+
+* Whenever an array is given to **merge sort**, then **divide, conquor and combine/merge** will always happen as there is no **return** in the **middle**. The **return** statemenet is there at the **end** only.
+* We cannot stop in-between a **merge sort**, because there is no **return** in the **middle**. The **return** statemenet is there at the **end** only.
+
+* Why merge sort time complexity is **O(n *  log n)**?
+
+>  As there is no **return** in the **middle**, the program has to execute till the end everytime. The **return** statemenet is there at the **end** only. That's it is always **O(n *  log n)** only.
+
+![image](https://user-images.githubusercontent.com/54589605/235940217-17f04c30-90eb-4a08-9354-5cacfad26e39.png)
+
+> If both the sides are **equal**, then we can apply master theorem's **case 2** there and multiply right side with **(log n)^0**. So that both the sides are still **equal**.
+
+> Left and right side person **no difference** at all or **difference** by **log n**.
+
+* **Binary search** is the only algo as of now, where we can stop at the **middle** only. Other algos stop at the end only.
+
+* Time complexity of **merge sort** having **only one** value which is **O(n *  log n)**.
+
+![image](https://user-images.githubusercontent.com/54589605/235944350-593053f9-4017-42dd-ad3a-9cbb83738d98.png)
+
+### Problems
+
+![image](https://user-images.githubusercontent.com/54589605/235944435-40a9179d-2597-4ba5-93b7-44ba8767b00a.png)
+
+* Merge sort input -> It can be anything, sorted, unsorted etc array.
+* Merge sort output -> Sorted array.
+
+* Merge algo input -> 2 sorted arrays.
+* Merge algo output -> 1 Sorted array.
+
+* One sorted array -> Binary search
+* More than One sorted array -> Merge algo [Multiple arrays become one array]
+
+* Total element is **n** elements.
+
+![image](https://user-images.githubusercontent.com/54589605/235949456-ad7c92cb-d2d6-452b-ae1a-af5f64e46579.png)
+
+* From **bottom to top**, **groups** are decreasing, as we are merging groups.
+* For **merge algo**, **moves** is important.
+
+![image](https://user-images.githubusercontent.com/54589605/235951433-16f63bbe-6fe3-44e7-aaa2-8e605238420d.png)
+
+* Until and unless they mention **merge sort**, don't go to **n * log n**.
+* Normal merge sort contain **divide, cconquor, combine**. In **merge also** there is no **divide or conquor**, there is only **combine**.
+
+![image](https://user-images.githubusercontent.com/54589605/235952347-e2c20387-70f9-4488-bd6b-e9db68a19bb7.png)
+
+* Input -> log n sorted sub-array each of size **n/log n**.
+* Output -> Find single sorted array. 
+* Find time complexity. [Best algo and worst case]
+
+> We want **1** group only.
+
+* Whenver we are doing recurrence relation, when the first and second level values are **same**, then all of the level value are **same** as well.
+* Whenver we are doing recurrence relation, when the first and second level values are **different**, then all of the level value are **different** which means **series** coming.
+
+![image](https://user-images.githubusercontent.com/54589605/235953624-8dba2347-e245-46e7-8359-e81033535dce.png)
+![image](https://user-images.githubusercontent.com/54589605/235954648-3ec12bd4-3689-4ae9-8ebd-fd33767eb6b0.png)
+
+* If we have **n** elements and we divide by 2 everytime, then it is **log n** levels.
+* If we have **a** elements and we divide by 2 everytime, then it is **log a** levels.
+* If we have **k** elements and we divide by 2 everytime, then it is **log k** levels.
+* If we have **log n** elements and we divide by 2 everytime, then it is **log(log n)** levels.
+
+> We have **log n** elements and we divide by 2 everytime, that's why we got **log(log n)** levels. When we had **n** elements and we divide by 2 everytime, we got **log n**.
+
+* Every level cost is **n**. **No. of levels** is **log(log n)**. So, the **total cost** is **n * log(log n)** 
+
+![image](https://user-images.githubusercontent.com/54589605/235955822-66d0a27b-46f1-4bf5-b45b-1662da505e08.png)
+
+> We have **log n** groups, every group is **n/log n**. Bottom level has **log n** groups. Next level(2nd last level) has **log n/2** groups. Every level, total elements is **n**. At the bottom level, the one group contain how many elements, **n/log n** elements. Bottom level cost is **nothing** as input given.
+
+> Levels became **log(log n)**, because we are always dividing **log n** by 2. 
+
+![image](https://user-images.githubusercontent.com/54589605/235972957-441d5d47-a368-4c69-94ef-95a513a31036.png)
+  
+> Inputs groups are **log n**. 
+
+* In the exam, they will give like "Inputs groups are **k**", instead of **log n**.
+
+> How many levels? **log k**.
+> Groups? **k**
+> Sorted arrays? **k**
+
+![image](https://user-images.githubusercontent.com/54589605/235975922-7f3144f2-d922-4659-99ee-ed561d1b5703.png)
+
+> Normal merge sort contains **n** groups, where each group contains **1 element**. Normal merge sort input is **n element** array.
+
+> In the **2nd last level**, **n** is the **no. of elements**, **n/2** groups. Total cost is **n**.
+
+> Groups are **compressed**.
+
+![image](https://user-images.githubusercontent.com/54589605/235976223-95d1dfcc-76f3-4ce5-9ea3-d74fa8ce235d.png)
+![image](https://user-images.githubusercontent.com/54589605/235976627-e341babd-dd36-4d82-b7c8-3e2da2652fdf.png)
+
+* We will see **log n** groups.
+* From the **bottom to top**, the total time is **n * log n**. It is **log n** level and every level cost is **n**.
+* In the given problem, it is given from **middle to top**, **log n** groups to **1** group. Actual problem is **n** groups to **1** group how? but the problem has given from **middle to top**.
+* They can **ask** any part.
+
+* **bottom to top** -> **n * log n**. [Normal merge sort]
+* **middle to top**
+
+![image](https://user-images.githubusercontent.com/54589605/235978343-dabd3678-6b97-47f5-bfb1-b8a1ed113daa.png)
+![image](https://user-images.githubusercontent.com/54589605/235979375-3bd6d31e-12a3-4f34-a494-fd1b8dc72ee4.png)
+ 
+> We continued for **k** times. We got **n/2^k** groups. **k** value is **log(log n)**.
+
+![image](https://user-images.githubusercontent.com/54589605/235979712-a3aa79fd-bc91-4356-a58c-a4e8aa693063.png)
+
+* input ->'n' sorted sub-array each of size **1**.
+* Output -> Find single sorted array.
+
+> 'n' sorted sub-array each of size **1** means **one array**. Finally want **sorted array**. It is **merge sort**.
+
+* Total time is -> **n * logn**. [Answer]
+
+![image](https://user-images.githubusercontent.com/54589605/235980606-3ab68e51-e87d-4888-9b71-96fe62d29c45.png)
+
+* input -> 'n' sorted sub-array each of size **1**.
+* Output -> Find **log n** sorted array.
+
+> 'n' sorted sub-array each of size **1**, that is the **input**. Output is gonna be **log n** sorted sub-arrays. We only want **log n** sorted sub-array.
+
+![image](https://user-images.githubusercontent.com/54589605/235981448-8a9789c5-3969-4974-9dda-acc70aa52bdf.png)
+
+> In the question, they can start from anywhere and end at anywhere.
+
+> 'n' sorted sub-array each of size **1**. It is **n** elements sub-array. Start from the **bottom** and do it till the **middle**. Time complexity is gonna be **n * logn - log(log n)**. Asymptotically it is **n * log n**.
+
+* Total time is -> **n * log(logn)**. [Answer]
+
+![image](https://user-images.githubusercontent.com/54589605/235982960-136cadb4-2c40-41c4-9bac-c3b51168acb3.png)
+
+* input -> '80' sorted sub-array each of size **1**.
+* Output -> Find **log n** sorted array.
+
+> '80' sorted sub-array each of size **1** means the program has done some portion/work. In the **below**, there are **n** sorted sub-array but now we have **80** sorted sub-array.
+
+> Major portion of work is done from **n to 80**. Now, he wants **4** sorted sub-arrays.
+
+![image](https://user-images.githubusercontent.com/54589605/235984152-2fa78d1d-ca49-4fd5-ae35-ca51308626c8.png)
+
+* They will ask the portion how they got from **80 to 4**. We will **divide 80 by 2** to reach 4.
+
+> So for **k** times, it is **80/(2^K) = 4**.
+
+* We got the value of **k** which is **k = log 20 base 2**.
+
+![image](https://user-images.githubusercontent.com/54589605/235984815-cd137eab-67d3-47a7-baa3-9181c6b05384.png)
+
+* No. of levels from **80 to 4** is **log 20 base 2**.
+
+![image](https://user-images.githubusercontent.com/54589605/235985658-9585f956-c505-48c6-b038-69b6347df877.png)
+
+* Time complexity -> **n * O(1) -> O(n)**.
+
+![image](https://user-images.githubusercontent.com/54589605/235988538-f418334f-aee4-4de1-a6e4-c609f5038fef.png)
+
+* input -> n-sorted sub-arrays each of size **n^2/n**.
+* Output -> Find **log n** sorted subarrays.
+
+* Total elements -> **n * (n^2/n) -> n^2**. 
+
+![image](https://user-images.githubusercontent.com/54589605/235989078-0aa3b1ad-c624-4764-9ce3-62cad19765b8.png)
+
+> **n** sorted sub-arrays each containing **n** element. Total people is **n^2**. 
+
+> If **n^2** elements are there, then at the bottom level, there are **n^2** groups each containing **1** element. This is **normal merge sort** behaviour.
+
+> What is the problem here? Not **n^2** groups, but **n** groups only., where every group contain **n** people, who are already sorted. So he done a lot of work, **n^2** groups became **n** groups.
+
+> Follow the **procedure**.
+
+![image](https://user-images.githubusercontent.com/54589605/235990899-e5735eab-56f9-4bb9-a976-13403e61a4ba.png)
+
+* There are **n** groups. Each group size is **n^2/n**.
+
+* How many people/elements at the given level?
+
+> **n** groups and every group is **n^2/n**. So **n * n^2/n -> n^2**. The **no. of people** in the given level is **n^2**.
+
+> We have **n^2** **no. of elements**, **n** groups and group size is **n**, for the given level. Total is **n^2**.
+
+![image](https://user-images.githubusercontent.com/54589605/235991285-4b7e4ed1-a269-40b3-a857-246f33386c6c.png)
+
+> **Two** groups become **one** group. So it is **n/2** groups. 
+
+> Cost of every group is **n^2/n * n^2/n -> (2 * (n^2))/n**.
+
+> **No. of moves** is **n/2 * (2 * (n^2))/n -> n^2**.
+
+![image](https://user-images.githubusercontent.com/54589605/235993672-ae09beda-6eb6-4775-8df9-f9b7243e42b5.png)
+
+> **n^2** elements are moving from **one** level to another level. Definitely moves becomes **n^2**.
+
+* Time complexity of **merge algo** is **moves** only.
+
+![image](https://user-images.githubusercontent.com/54589605/235994432-bdb15fdb-d409-4e06-a217-4845c2914eb2.png)
+
+* First and second level values are **same**, so rest of the levels are **same** as well.
+* Every level is **n^2**.
+* **No. of groups** is **n/2^k**. The question is expecting **log n** groups.
+
+![image](https://user-images.githubusercontent.com/54589605/235995281-cc513e2f-82f8-475a-b7f6-53247931a798.png)
+
+* n/2^k = log n
+* n= 2^k * log n
+* log n = k* 1 + log(log n)
+* k= log n - log(log n).
+
+* **log n - log(log n)** is asymptotically equal to **log n**.
+* k = **log n**.
+
+* There are **log n** groups.
+* No. of levels -> log n
+* Every level -> n^2
+* Total cost -> **log n * (n^2) -> (n^2) * log n**.
+
+![image](https://user-images.githubusercontent.com/54589605/235996828-ba197251-abb9-4a1c-be27-b486621e487a.png)
+![image](https://user-images.githubusercontent.com/54589605/236000106-89481ea9-2f40-45db-9c43-ec6301653e10.png)
+
+* input -> K-sorted sub-arrays each of size 'm'
+* Output -> Find single sorted array with all elements.
+
+* No. of elements -> k * m.
+
+> **k-sorted arrays**, if we **divide by 2**, then the **no. of levels** is **log k**.
+
+* Every level cost is -> k * m.
+* Total cost -> O(k * m * log k). [**Answer**]
+
+![image](https://user-images.githubusercontent.com/54589605/236000872-c6019d8b-7053-4bfd-ba50-a6948792cb5b.png)
+
+* Decreasing series question example.
+
+![image](https://user-images.githubusercontent.com/54589605/236001354-70fe4309-da92-4329-b3dc-e4e128803a15.png)
+![image](https://user-images.githubusercontent.com/54589605/236001446-02245ded-9908-47a4-9bb9-49088f85b636.png)
+
+* Minimum do **2-3** levels.
+
+![image](https://user-images.githubusercontent.com/54589605/236001792-e2fe80b0-208f-4b64-9dfa-ec5ea1e5726f.png)
+![image](https://user-images.githubusercontent.com/54589605/236002107-8f629806-efa9-4af4-bfd7-c8eff979f1e0.png)
+
+* Input -> K-sorted sub-arrays each of size 'm', where every sub-array sorted individually using insertion sort
+* Output -> Find single sorted array.
+
+* If we want to apply **merge algo**, we need **sorted sub-arrays**.
+
+> In the previous problem, **k** sorted sub-arrays was given directly. In the above question, sub-arrays are not sorted but explained how to sort. Sorting level cost we also have to take care.
+
+* First and second level have **same** cost, so it will be **same** for the rest of the levels.
+* No. of levels -> log k
+* Every level cost -> m * k
+* Total cost -> m * k * log k.
+
+> For the, first level it is **k** groups. They are **not sorted**, so for each group we are applying **insertion sort**. For **m** elements time complexity is **m^2**. One group contains **m** elements so it is **m^2**. On group sorting is **m^2** amd we have **k** groups, so it is **k * m^2**.
+
+* Insertion sort, worst case for **n** elements -> **n^2**
+* Insertion sort, best case for **n** elements -> **n**
+
+![image](https://user-images.githubusercontent.com/54589605/236004260-793b3e85-7f0f-4605-a5b2-69dee28072d4.png)
+![image](https://user-images.githubusercontent.com/54589605/236004464-d15512fd-1e23-44a4-aa7b-bffd960a26d6.png)
+
+* Total time -> **k * m^2** + **m * k * log k**. [**Answer**]
+
+![image](https://user-images.githubusercontent.com/54589605/236004616-e0836d57-6677-4446-914b-ff5f33e6a806.png)
+
+* **k * m** is **common** part. The comparision is between **m and log k**.
+
+* Both are **possible**. If we can't decide which is **bigger** then keep **both**.
+
+![image](https://user-images.githubusercontent.com/54589605/236005136-b5ddd688-182d-49a8-a68f-a63494ef6145.png)
+
+* **k * m^2** is the cost of **first level** only.
+* In the first level, how many groups, **k** groups.
+* In the question, mentioned how to sorted, not sorted array given.
+
+![image](https://user-images.githubusercontent.com/54589605/236005617-e235fed0-581b-470e-b394-f017f137d67f.png)
+
+* If algo not mentioned for sorting, we can take any algo we want. **YES**.
+* Normally in the **bottom part**, it is **small** problems. Groups maybe **more**, but every group size is **m**.
+* Group size**small** means **small** problem.
+
+* **Merging** required **sorted sub-arrays**.
+* If **sorted sub-arrays** not given, we will **sort** the array ourselves only.
+* In the **merge sort**, bottom level, so many sub-problems are there, every sub-problem size is **small**.
+
+## Note
+
+* It is a well known fact that for **small arrays**, **insertion** sort is preferred.
+* **Merge sort** is preferred if array is **large**.
+
+![image](https://user-images.githubusercontent.com/54589605/236007242-db9d396d-6119-45ac-ab3a-6989fc5b3a1b.png)
+
+* Smaller array -> Insetion sort
+* Larger array -> Merge sort
+
+![image](https://user-images.githubusercontent.com/54589605/236007422-1a0a0767-b73d-4774-984f-c925b21383c4.png)
+![image](https://user-images.githubusercontent.com/54589605/236007491-6d3d483e-82ab-4227-825f-d440e1253342.png)
+
+* Except **first level** everything else is **merge sort**.
+* In first level, every group is **small**, there we have applied **insertion sort**, rest we have applied **merge sort**.
+
+* Combination of merge and insertion sort will lead to **better** results/performance.
+
+![image](https://user-images.githubusercontent.com/54589605/236007932-96ab0cfd-13f6-41ba-87eb-b59686970937.png)
+ 
+* Smaller size **insertion** sort is preferred.
+
+![image](https://user-images.githubusercontent.com/54589605/236008461-5df4f494-f315-4b34-b727-555edec73eda.png)
+
+* Selection sort
+
+* We need to study all **sorting algorithms**.
+
+![image](https://user-images.githubusercontent.com/54589605/236008587-44c92908-eea0-4a11-9bfb-242c0de01666.png)
+
+* Merge sort.
+
+![image](https://user-images.githubusercontent.com/54589605/236008789-4fb2b885-92ab-4eea-b590-ffcc6323f5d9.png)
+
+* Smaller size **insertion** sort is preferred.
+
+* Sorting array is **many ways**.
+* Sorted array is very **large**, so **merge sort** is preferred.
+
+![image](https://user-images.githubusercontent.com/54589605/236009071-a90afecc-da29-446a-949a-1ca95adbc543.png)
+
+* Sorted array is very **smaller**, so **insertion sort** is preferred.
+
+* input -> k-subarrays each of size m, where 'm' is very **small**.
+
+> Insertion sort.
 
 
+* Merge sort on sorted array ->  n * log n
+* Merge sort on un-sorted array ->  n * log n
 
+> Every time **n * log n**.
 
+## Summary
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+* Nothing mentioned then **merge sort**.
+* For **un-sorted** array, always use **quick sort**.
+* To be same, use **merge sort**.
+* For **small arrays** use **insertion sort**.
+* Random array -> **quick sort**.
+* **Large array** -> **merge sort**
 
 
 
