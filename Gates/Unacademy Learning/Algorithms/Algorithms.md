@@ -7412,8 +7412,14 @@ A) Infinite loop -> **NO**. Space is **limited**. Not possible.
 * Random array -> **quick sort**.
 * **Large array** -> **merge sort**
 
+![image](https://user-images.githubusercontent.com/54589605/236011760-38228055-d5a0-4b06-8f70-0b5155b37abe.png)
+
+* By **default**, **merge sort** is **out-place**. Don't bother about **in-place**.
 
 
+* For **merge algo** time:
+* in-place -> n^2
+* out-place ->  n
 
 
 
