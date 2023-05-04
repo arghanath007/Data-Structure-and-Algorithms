@@ -7416,10 +7416,100 @@ A) Infinite loop -> **NO**. Space is **limited**. Not possible.
 
 * By **default**, **merge sort** is **out-place**. Don't bother about **in-place**.
 
-
 * For **merge algo** time:
 * in-place -> n^2
 * out-place ->  n
+
+## Doubt_Clearing_Session (30) [4th May 2023]
+
+> **Merge sort** is better for **larger problems**, **insertion sort** is better for **smaller problems**. When doing merge sort, we **divided-divide** the array, at the bottom we will see **small problem**, there apply **insertion sort**. Then, it will be **better performance**.
+
+* Un-sorted array -> Quick sort
+* Any array, nothing mentioned -> Merge sort.
+
+## Straight 2-way merge sort
+
+![image](https://user-images.githubusercontent.com/54589605/236106222-2d229c55-e21b-45cd-94cf-6a81b0fae5ea.png)
+
+> From the **bottom**, first level is given array. **Second** level is, **output** after **first pass**.
+
+![image](https://user-images.githubusercontent.com/54589605/236106356-877fc6a9-3925-4d76-80ce-e746c4317e43.png)
+
+> On the given array, we are not **dividing**, we are directly **merging**.
+
+![image](https://user-images.githubusercontent.com/54589605/236106452-afdfe1df-5cc8-424b-8d29-5093290464c6.png)
+
+* This is not the **divide and conquor** technique, **merge sort**. It is called as **straight 2-way merge sort**. 
+
+![image](https://user-images.githubusercontent.com/54589605/236106795-4daf222d-a7e0-4325-840d-b1b067c1a87d.png)
+![image](https://user-images.githubusercontent.com/54589605/236106823-c9f79d3d-d6d8-4dd4-9a53-88f9b60ceb91.png)
+
+* 1st pass.
+
+### Question
+
+* In a **straight two way merge sort** algo, what is the ouput after **2nd pass**?
+
+> 13,28,36,80,15,19,42,75,3,7.
+
+* **Straight two way merge sort** algo is **pass wise** output. This is the way.
+
+![image](https://user-images.githubusercontent.com/54589605/236107906-bf0443a1-63cf-44cb-bdf9-6051131fa4a9.png)
+
+* Divide and conquor technique, **merge sort** will start from **top**. Given array **divide** it into **two** parts. We **divide** equally. At the **last level**, we see **1** element each. It follows **post order** traversal.
+
+* There is no output nothing after each pass, because it doesn't go **level by level**.
+
+![image](https://user-images.githubusercontent.com/54589605/236108373-675a5fa1-755a-4b34-a054-e138b916f86a.png)
+![image](https://user-images.githubusercontent.com/54589605/236108359-e519e166-c35b-4355-9d4d-dc84f929c5d2.png)
+
+* In **straight two way merge sort** algo only, we have to do **level by level**.
+
+> **Pass wise** output will come from **straight two way merge sort** algo only.
+
+![image](https://user-images.githubusercontent.com/54589605/236108777-2574072d-6e7d-4486-990b-35c772799e72.png)
+
+* Why levels came **4**?
+
+> It is also **divide by 2**. So, **log n** levels will come and **log n** passes. It contains **log n base 2** passes.
+
+* At the **bottom** level, we are **combining** two elements, so **two moves** required. So the **total move** is **10** only. The **10** elements we have, are moving from **first to second** level. So, the moves are **10**.
+
+![image](https://user-images.githubusercontent.com/54589605/236110181-c12071f4-440d-455b-ab80-cc78c50ebe5d.png)
+
+* At every level, moves are **n**, **n=10** in the above example.
+* No. of passes -> log n base 2 -> log 10 base 2.
+* No. of moves for every pass -> n -> 10
+* Time complexity -> O(10 * (log 10 base 2)) -> O(n * (log n base 2))
+
+![image](https://user-images.githubusercontent.com/54589605/236110613-dbdf13b7-c66a-40df-aa73-a14db0bc15b8.png)
+![image](https://user-images.githubusercontent.com/54589605/236110668-f25217fd-dd55-44fc-9c60-641299485ed3.png)
+
+* Normal **merge sort** time complexity is also **same**.  The difference is that it is having some **different behaviour** as it is a **recursive program**.
+
+![image](https://user-images.githubusercontent.com/54589605/236110867-43bc60d2-75e6-4944-be63-c054662fd31b.png)
+
+* It is a **straing 2-way merge sort**.
+* If it was a **straing 3-way merge sort**. Then we had to **merge** 3 elements, which would have given **O(n * (log n base 3)).
+* No. of passes is **log n base 2** because we are **dividing by 2** from the bottom.
+* Every pass cost is **n**, as there are **n** elements in every level.
+* No. of levels is **log n**, which means **no. of passes** is **log n**.
+* Every pass, contains **n** moves.
+* So, it is **O(n * log n)**.
+
+![image](https://user-images.githubusercontent.com/54589605/236111284-3a34c08f-5f69-4e7b-b20f-fc986108e833.png)
+
+* Little bit variation but it is still **merge sort**. In the divide and conquor technique, merge sort, we **divide-divide** and divide. We are doing by **post order** traversal.
+
+* In straight 2-way merge sort, we take **two** people and **merge** them. Level by level we are doing.
+
+![image](https://user-images.githubusercontent.com/54589605/236111544-d62fe566-1ddb-41dc-aeea-3ae3779a1745.png)
+![image](https://user-images.githubusercontent.com/54589605/236111700-d4185a6e-9b90-4eaa-bdbc-91046eb5c7b0.png)
+
+* Divide and conquor technique, merge sort example. How it works. 
+
+* Start from **35mins**.
+
 
 
 
