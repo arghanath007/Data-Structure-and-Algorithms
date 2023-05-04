@@ -733,7 +733,7 @@
 2) Omega Notation -> (**>=**)
 3) Theta Notation -> It means **equal**. It means **Big O(<=)** as well as **Omega(>=)** also. If both(Big-O and omega) satisfied then it is **theta**.
 
-> If between two people <= and >=, both are possible. Then, they are **equal**. If both are **True**, then they are **equal**. If both are **True**, then they are **not equal**.
+> If between two people <= and >=, both are possible. Then, they are **equal**. If both are **True**, then they are **equal**. 
 
 ![image](https://user-images.githubusercontent.com/54589605/231459382-4c202308-2b11-44dc-804f-5118a5db48bf.png)
 
@@ -3215,10 +3215,4345 @@ A) Infinite loop -> **NO**. Space is **limited**. Not possible.
 ![image](https://user-images.githubusercontent.com/54589605/233819338-965c61b8-297c-4816-9987-6ecb87d88949.png)
 ![image](https://user-images.githubusercontent.com/54589605/233819347-ed6e4b1c-261b-47f9-88c3-cac84a6b9504.png)
 
+![image](https://user-images.githubusercontent.com/54589605/234887810-428b32d7-2bb9-4c78-9da0-c2ad0f74cc94.png)
+![image](https://user-images.githubusercontent.com/54589605/234887828-59710426-16ff-4db0-a4ff-8fd21d72e953.png)
+![image](https://user-images.githubusercontent.com/54589605/234887858-00cbbe1d-2fad-4008-9899-5c39082065d1.png)
+![image](https://user-images.githubusercontent.com/54589605/234887897-bdb8a9fc-8d8f-44a6-8bab-94ac605b03cb.png)
+![image](https://user-images.githubusercontent.com/54589605/234887931-da40d86d-b3cf-4009-8521-754bf57a311e.png)
+![image](https://user-images.githubusercontent.com/54589605/234887952-e20b9f3a-c772-424d-bf48-191338d648e6.png)
+![image](https://user-images.githubusercontent.com/54589605/234887973-186bf37e-e62e-4a5b-993c-4049e38af6f3.png)
+![image](https://user-images.githubusercontent.com/54589605/234887991-25669ed9-27cd-4e16-a422-e956b0952c1d.png)
+![image](https://user-images.githubusercontent.com/54589605/234888008-371e01a7-576b-41f0-bdaa-bb712517e0fe.png)
+![image](https://user-images.githubusercontent.com/54589605/234888018-0f6d3787-d94a-4d41-a105-279543a77b7b.png)
+![image](https://user-images.githubusercontent.com/54589605/234888049-47baec89-cd5f-4ca8-8f44-2672fff4201a.png)
+![image](https://user-images.githubusercontent.com/54589605/234888081-4c6c8233-4ed1-4f68-8035-48938fc80c19.png)
+![image](https://user-images.githubusercontent.com/54589605/234888102-2c052c8e-5d7e-46c3-83ae-f16dec2affc8.png)
+![image](https://user-images.githubusercontent.com/54589605/234888131-da3180de-d513-4f39-b7c9-08e1f356e4ba.png)
+![image](https://user-images.githubusercontent.com/54589605/234888155-698718b0-9847-42c7-96d9-f52ec9cdb31c.png)
+![image](https://user-images.githubusercontent.com/54589605/234888207-fa4eec87-27eb-4c7d-a756-701830dbd610.png)
+![image](https://user-images.githubusercontent.com/54589605/234888228-ec07d27b-8dff-4822-9122-d2ab52658880.png)
+![image](https://user-images.githubusercontent.com/54589605/234888257-afe5bdb6-e09f-42d8-9ab5-40305685f941.png)
+
+
 ## Practice
 
 ![image](https://user-images.githubusercontent.com/54589605/233819352-857d2b46-889c-4790-b8a0-35ea2dc715a5.png)
 
+* **Solved below**.
+
+## GT-VI (17) [27th April 2023]
+
+![image](https://user-images.githubusercontent.com/54589605/234893008-43b883e5-88ee-46d6-8de5-2310ba05ed85.png)
+![image](https://user-images.githubusercontent.com/54589605/234894122-cbfca89f-4745-4782-95ad-ed91efa1ff29.png)
+
+## Recursive Tree Method
+
+* More than **one** function call.
+
+> We are **dividing** by **two**, so we will see **log n** levels. The first level cost is **n** and every level cost is **n** as well. 
+
+> As first level cost and second level cost is the **same**, which is **n**, which means that they are **same/equal**, so no **series** will be **formed/created**.
+
+![image](https://user-images.githubusercontent.com/54589605/234905749-57ad9573-91b6-442b-ac1b-90b81961504c.png)
+![image](https://user-images.githubusercontent.com/54589605/234906326-540da068-7280-4e6f-bdf7-5e29cf0e316e.png)
+![image](https://user-images.githubusercontent.com/54589605/234912648-2c440ce0-dd2a-4e37-bfa6-1a93609f6697.png)
+![image](https://user-images.githubusercontent.com/54589605/234912911-db2228de-4bbc-48fc-a396-89c68f05959c.png)
+
+> So, the **time complexity** is **n  * log n** which is **n * (log n)**.
+
+![image](https://user-images.githubusercontent.com/54589605/234913630-675d138a-61ab-4895-9c37-24b673188511.png)
+![image](https://user-images.githubusercontent.com/54589605/234914175-c29c1502-42f9-42d7-af90-2f15b7a6d7a7.png)
+
+> Because of always **divide by 2**, we got **log n** levels.
+
+![image](https://user-images.githubusercontent.com/54589605/234914706-789c54d8-d5e7-4b3d-848c-e41e375c5d9a.png)
+
+
+![image](https://user-images.githubusercontent.com/54589605/234916641-387680af-58f7-4c2f-8a59-9d80e6418bf0.png)
+![image](https://user-images.githubusercontent.com/54589605/235089348-8cc59b44-c155-485d-9c21-6b8512a8aeff.png)
+
+* **Divide by 5** is nothing but **multiply by 1/5**.
+* **Multiply by 4/5** is nothing but **divide by 5/4**.
+
+![image](https://user-images.githubusercontent.com/54589605/235089816-5a472128-dea9-49e0-8500-debfa0a9c0c7.png)
+
+* Second level total cost is **n** also.
+
+> As **first and second** level total cost are **same**, which is **n** only. So in the further levels, it is also **same**, which will be **n** only.
+
+![image](https://user-images.githubusercontent.com/54589605/235090535-90d4a5b1-032e-4875-80a6-5e9a57a32f1d.png)
+![image](https://user-images.githubusercontent.com/54589605/235090909-2ddce5a6-88b5-413e-b491-6acf88cd836d.png)
+
+> **Left and right** side values are **different** because we are **dividing** by **different** numbers.
+
+> **Left** base is **bigger** as it is **5**, compared to **5/4**, which is **5/4 -> 1.25**. 
+
+> Whichever **base** is **bigger** that is **smaller**.
+
+> **Base** is **small**, **bigger** value will come.
+
+> **Base** is **bigger**, **smaller** value will come.
+
+> As, **left** base is **bigger** so it has **smaller** value. So **right** is **bigger** as it has **smaller** base.
+
+> **Left** stopped somewhere in the **middle** and **right** is still going.
+
+![image](https://user-images.githubusercontent.com/54589605/235091531-24d400e8-fcb0-4063-91d5-3dec5bbaa618.png)
+![image](https://user-images.githubusercontent.com/54589605/235092157-a4da8955-2978-400e-94f9-ef06b4f2fb19.png)
+
+> In the **below** problem, the **base** difference didn't came because in both of them they were **divided by 2** only, so they were **same/equal**.
+
+![image](https://user-images.githubusercontent.com/54589605/235092201-3af3249a-d29a-41c5-a01c-c3db4f4b2134.png)
+![image](https://user-images.githubusercontent.com/54589605/235092750-f89b1dd4-a219-4567-bef4-eabe59af6110.png)
+![image](https://user-images.githubusercontent.com/54589605/235092839-194d0ad4-a197-4b1b-a5ea-0ba7e7b5c08b.png)
+![image](https://user-images.githubusercontent.com/54589605/235093104-8b9f4cb9-9097-40c8-aaf1-c203e1fc4f76.png)
+
+* Every level cost is **n**.
+
+![image](https://user-images.githubusercontent.com/54589605/235093994-d4577086-605c-4aec-a736-381851950898.png)
+
+> We **added** something, so we will get **upper bound**, when we **add** something.
+
+> We are **adding** all to get **n**.
+
+> As we go down, **left** people are **decreasing/missing** so it will be **less than n**.
+
+![image](https://user-images.githubusercontent.com/54589605/235094675-b5d205bb-5a13-4673-b95d-4f921fe9601c.png)
+
+> After **adding** extra with the **white color part** at the bottom of the **left side**, after adding all we got **n**. It is called as **upper bound**.
+
+* **Upper bound** means **right height** as it is **bigger**. So, until **right height** time, we **added 'n'**. 
+
+![image](https://user-images.githubusercontent.com/54589605/235097244-ba485295-582a-4ed6-a826-fbd411e1a8d2.png)
+
+* Right side is **bigger**, that's why **<=**.
+
+![image](https://user-images.githubusercontent.com/54589605/235097525-95fa7f30-1209-4a3e-8859-355877c26f84.png)
+
+> As we have **added** something, that's why it is **upper** bound.
+
+![image](https://user-images.githubusercontent.com/54589605/235097927-66b5faa6-71b9-477d-9ace-410e3f60a93b.png)
+![image](https://user-images.githubusercontent.com/54589605/235098134-a1e58097-88fa-43fb-a8fb-d5d0c0f4812b.png)
+
+> If we **cut/substract** it, then we will get **less**. This is called as **lower bound**.
+
+![image](https://user-images.githubusercontent.com/54589605/235098433-f9aefd26-f868-4042-9124-895013e29a49.png)
+![image](https://user-images.githubusercontent.com/54589605/235098552-7e10d8b4-f0b2-4702-9058-bf10e7ab1e24.png)
+
+* **Omega** is **lower bound**. Comparing with **actual** answer it is **smaller**.
+
+* If we take **maximum** levels, then we will get **upper bound(O)**.
+* If we take **minimum** levels, then we will get **lower bound(Omega)**.
+
+> **Left** height has **lower** levels. So, it has **lower bound(Omega)**. As we have left out **something**, that's why it is called as **lower bound(Omega)**.
+
+> **Right** height has **bigger** levels. So, it has **upper bound(O)**. As we have taken **extra**, that's why it is **upper bound(O)**. 
+
+![image](https://user-images.githubusercontent.com/54589605/235099570-c0869671-2c10-412b-bdf4-f37048b95342.png)
+
+> In the **above** question there was no question of **upper or lower** bound, as both the **left and right** heights were **same/equal**. No, **upper or lower** bound.
+
+![image](https://user-images.githubusercontent.com/54589605/235099950-e7c72fe9-db6c-4871-82cf-cecf80f844d6.png)
+
+> In the **above** question, **left and right** heights are **different**. That's why we cannot find out **exact** answer.
+
+![image](https://user-images.githubusercontent.com/54589605/235100309-5a718cea-ebbd-4b5c-8acd-53327762d4d2.png)
+
+> In the **above** diagrams, it is not possible to give **exact** answers. **Add** something to make a **nice diagram** so that we can give **answer**. 
+
+> If **adding** not possible, then **cut/substract** something, then make a **nice diagram** so that we can give **answer**.
+
+> So, whenever not possible, **add** something to give the **upper bound(O)**. 
+
+> So, whenever not possible, **cut/substract** something, to give the **lower bound(omega)**.
+
+> Whenever not possible, to give **exact** answer, atleast give **upper or lower** bound as **answer**.
+
+![image](https://user-images.githubusercontent.com/54589605/235103739-62795f5a-1262-418f-b1a8-0385ca57a640.png)
+![image](https://user-images.githubusercontent.com/54589605/235104314-3a51bebc-2a5d-4339-8d9f-fd6052c6b53e.png)
+
+* **T(n)** is **smaller** than **n * (log n base (5/4))** and **T(n)** is **bigger** than **n * (log n base 5)**.
+
+> So **T(n)**, lies betweeen **upper and lower** bound, as we **add** something to get **upper** bound and we **cut/substract** something to get **lower bound(omega)**.
+
+> **Left** side is **smaller** and **right** side is **bigger**. **In-betweeen** is **In-betweeen**.
+
+* **Left** person is **less than**, **T(n)**.
+* **Right** person is **more than**, **T(n)**.
+
+> **Left and right** sides, **differ** by only **constants** only and bigger functions are **same**.  
+
+> So, **theta** is also possible, as they differ by **constants only**.
+
+![image](https://user-images.githubusercontent.com/54589605/235105074-528ddd40-bc71-431b-9902-73880464614d.png)
+![image](https://user-images.githubusercontent.com/54589605/235105475-0d2fe7ff-c696-4bf1-b348-63cd90cee175.png)
+![image](https://user-images.githubusercontent.com/54589605/235105941-1363277d-d867-46d3-b52c-59c1b7bac2b9.png)
+
+* Differ by **constants** only, so **theta** possible.
+
+![image](https://user-images.githubusercontent.com/54589605/235106078-0a448e06-9b5d-47ad-8f03-9b42a16dd8c3.png)
+
+> **Lower and upper** bound, differ by **constants** only.
+
+![image](https://user-images.githubusercontent.com/54589605/235106512-c0d4e1b7-3dfc-4d21-a19f-e282f2eca4ec.png)
+
+> In the above question, **left and right** height are **same**. So difference at all. Even **constant** also, no difference.
+
+![image](https://user-images.githubusercontent.com/54589605/235106705-d6a9ad74-ac0f-4976-a825-9a3f04944ee3.png)
+
+> In the above question, **left and right** height are not **same** but still **theta** possible as **difference** by **constant** also.
+
+![image](https://user-images.githubusercontent.com/54589605/235107405-39bc43cc-730b-40c9-8820-f12c7b937aaf.png)
+![image](https://user-images.githubusercontent.com/54589605/235107549-2d3c92df-be1d-4fea-9240-22de5bf02711.png)
+
+> **Constant** difference so, we can write **Big-O and omega**.
+
+> Same thing can happen for **n * (log n base 5)** also.
+
+> The total levels in the tree is **log n base (5/4)**.
+
+> **Stack space** means **no. of levels** in the Tree. [**IMPORTANT**]
+
+![image](https://user-images.githubusercontent.com/54589605/235117640-18d26ea8-40fe-4ef4-a293-30bf8976f433.png)
+
+* **Right** is **bigger** because **5/3** base is **smaller** than **5** base.
+
+> First level cost is **n**. Second level cost is **n/5 + (3 * n)/5 -> (4 * n)/5**. So, first and second level costs are **different**, which means **series** coming.
+
+![image](https://user-images.githubusercontent.com/54589605/235118760-92e19530-0ea9-4084-9897-bd64e4c65a16.png)
+
+> To know, which **series**, we have to **expand** upto **3** times, then only we will get clarity.
+
+![image](https://user-images.githubusercontent.com/54589605/235119087-5bcb97b5-8041-433e-a2b8-715a3aa80805.png)
+![image](https://user-images.githubusercontent.com/54589605/235119406-2a651988-cf9f-441b-ae12-fa173b6132b9.png)
+
+> To make **series** ok, we have to **add** something, and **adding** something leads to **upper bound**.
+
+> To make **series** ok, we have to **cut/substract** something, and **cut/substract** something leads to **lower bound**.
+
+![image](https://user-images.githubusercontent.com/54589605/235119742-0c20840f-63a5-407b-a77a-127e1e045b6e.png)
+![image](https://user-images.githubusercontent.com/54589605/235119887-c6e9d2f5-bda1-421e-8c25-1e20836e7c67.png)
+
+* Upper bound. **Red area** is **extra**.
+
+![image](https://user-images.githubusercontent.com/54589605/235120050-01b07a9b-8e98-416d-8fcc-bf1d1f557d53.png)
+![image](https://user-images.githubusercontent.com/54589605/235120188-9c8a4dcb-434e-4dca-bf96-8af3a0953e55.png)
+
+* Lower bound.
+
+![image](https://user-images.githubusercontent.com/54589605/235120253-8b543282-ea65-4f8a-934b-b72eae8c11ae.png)
+
+> **GP** series, and **r** value is **less than 1** as **4/5** is **0.something**. So the whole thing will become **constant or O(1)**.
+
+![image](https://user-images.githubusercontent.com/54589605/235120564-cdd34118-96ce-482a-965d-4cce63c2772c.png)
+![image](https://user-images.githubusercontent.com/54589605/235121148-7c7a8aac-ced1-43ad-9ffa-f2a9a3813db3.png)
+
+> Here, in the **above** question, **series** is coming.
+
+> It is a **decreasing GP**. [**IMPORTANT**]
+
+* In a **decreasing GP**, whoever is the first person, is the **answer**, the first person was **(4/5)^0 * n -> n** and we got **n** as the answer as well.
+
+![image](https://user-images.githubusercontent.com/54589605/235121770-07f1161f-a880-4961-bd1c-92438cb395e5.png)
+![image](https://user-images.githubusercontent.com/54589605/235121965-8bba2736-ba24-403f-a249-53cc11184cd4.png)
+![image](https://user-images.githubusercontent.com/54589605/235122108-2738ccb4-d721-489e-af13-b7b21f8d081f.png)
+
+> Asymptotically, both are **constant or O(1)** but mathematically **above one** is **bigger**.
+
+![image](https://user-images.githubusercontent.com/54589605/235122427-dcd2d76b-e9c2-4e07-82b0-aff03356edef.png)
+
+## Practice
+
+![image](https://user-images.githubusercontent.com/54589605/235122636-4cd711c7-0367-4058-a04d-fc11bd1da708.png)
+
+## GT-VII (18) [28th April 2023]
+
+![image](https://user-images.githubusercontent.com/54589605/235143478-9eeb69c6-4889-451e-baf9-8ce74eb3251d.png)
+
+> For the first level, the cost is **c**, where **c** is a **constant**. **c** is independent of **n**.
+
+> For the second level, the cost is **2 * c**. So, first and second level costs are **different**, which means **series** coming.
+
+![image](https://user-images.githubusercontent.com/54589605/235144637-2d8dd4ee-c1ce-4e6a-b652-f4a488216bdc.png)
+![image](https://user-images.githubusercontent.com/54589605/235144822-41a260ef-97fd-4f68-9507-12ee235a0677.png)
+
+* **Right** side or **log n base (5/3)** is **bigger**, since base **5/3** is **smaller** compared to **5** base.
+
+![image](https://user-images.githubusercontent.com/54589605/235145515-3d4ea2ce-b38d-4b67-8b9d-894256f29578.png)
+![image](https://user-images.githubusercontent.com/54589605/235146894-bb4a8af9-30f9-445b-95ee-55f16f931c44.png)
+
+> **Big-O and omega** differ by **constants** only, which are the **bases** and they are **5/3 and 5**, which are **constants** only.
+
+> In **n^(log 2 base (5/3))**, we will get **bigger** value for **(log 2 base (5/3)** as **base** is **smaller**. 
+
+> In **n^(log 2 base 5)**, we will get **smaller** value for **(log 2 base 5** as **base** is **bigger**. 
+
+> They differ by **base** only which is **constant** but they are in the **power** of **n**.
+
+> In **power**, **differ** by **constants matter**. [**IMPORTANT**]
+
+![image](https://user-images.githubusercontent.com/54589605/235148704-90b14f0a-011b-4cb5-9a0b-3b647970b99b.png)
+
+> **n^2 and n^3**, differ by **constants** but **n^3** is **bigger** than **n^2**.
+
+![image](https://user-images.githubusercontent.com/54589605/235147498-84be757f-0a49-4fc5-9fee-dced25c6660b.png)
+![image](https://user-images.githubusercontent.com/54589605/235147404-c900b25c-ab9f-42ad-97c1-81e03a7e46bc.png)
+
+> So the **bases** are in the **power** of **n**, so they **matter** and hence we cannot write **theta** possible.
+
+![image](https://user-images.githubusercontent.com/54589605/235149060-648c7d0f-f55e-4550-8cd9-67004db1a19b.png)
+![image](https://user-images.githubusercontent.com/54589605/235149220-ee99b84a-2072-495e-81df-1b4a51c7ad80.png)
+
+> Constant difference in power. That's why we cannot write **theta** possible.
+
+> Constant difference is not there, functional difference is there, because in **power**, **constant difference** is **functional difference**.
+
+![image](https://user-images.githubusercontent.com/54589605/235149594-611ec2cb-c9d2-40b5-958e-740df91a285b.png)
+![image](https://user-images.githubusercontent.com/54589605/235150360-ca1b7dbf-f00d-4fc7-99ba-f4e2a07ed678.png)
+
+* Everytime **theta** possible?
+
+> **NO**. Above question.
+
+![image](https://user-images.githubusercontent.com/54589605/235152500-cfc2db68-7941-4feb-b209-6e36f2b6c7d7.png)
+![image](https://user-images.githubusercontent.com/54589605/235155060-86fc69ae-631f-4426-a322-fa12e18af9c5.png)
+![image](https://user-images.githubusercontent.com/54589605/235156535-5026e5bf-f437-4dd0-b9b7-ee46c3e97cb0.png)
+![image](https://user-images.githubusercontent.com/54589605/235156874-62f6bf2d-353a-42d7-99e0-fbd4090b4d11.png)
+
+> **Upper and lower** bound, both differ by constants only and the **constants** are **beside** or in **multiply** i.e they are not in **power**, so we can **ignore** them and say that **theta** is possible. 
+
+![image](https://user-images.githubusercontent.com/54589605/235157338-6e1d44b5-34d9-4417-9e04-c7b445f0cac9.png)
+
+> **T(n) = Theta(n^2)**, it is **True**. **Big-O and omega** are possible, so **theta** also possible. **T(n)** is the **actual** person.
+
+![image](https://user-images.githubusercontent.com/54589605/235157879-7840809e-7f5f-462b-900c-20dc65a6d2d7.png)
+
+> Only for **n^2**, **theta** is possible. For others, **theta** is not possible.
+
+![image](https://user-images.githubusercontent.com/54589605/235158171-5f7de8ce-fc59-4ab7-bb42-b7868fff5608.png)
+![image](https://user-images.githubusercontent.com/54589605/235158248-ba0b702d-67d6-4505-a337-07875c49eaea.png)
+![image](https://user-images.githubusercontent.com/54589605/235158927-45952564-cb5b-44ed-a285-f7e0a5792996.png)
+
+> **log n base 2** will give **upper bound** because **base 2** which is the **smallest** base.
+
+> **log n base 4** will give **lower bound** because **base 4** which is the **biggest** base.
+
+> In the above question, we can say definitely because it is an **increasing GP** series, where **13/12 -> 1/something** which is **greater** than **1**.
+
+![image](https://user-images.githubusercontent.com/54589605/235160851-db8bdddb-46ff-4ec4-99cd-1d35c076f593.png)
+
+> Everyone is **less** than **leftmost** one and everyone is **more** than **rightmost** one.
+
+![image](https://user-images.githubusercontent.com/54589605/235161184-e6bd3de1-0e76-4f2d-9c1d-91b5fdc9f288.png)
+![image](https://user-images.githubusercontent.com/54589605/235162812-e3d90ef8-2436-4789-9738-4d907e24f1e1.png)
+
+> Both the **upper and lower** bounds differ by **bases** only, which are **constant** difference but the constants are present in the **power of n**, and constants present in **power** cannot be **ignored** and they matter. So, we cannot say that **theta** is possible, as the constants are present in the power.
+
+![image](https://user-images.githubusercontent.com/54589605/235163337-e625c801-3d71-4fed-87cb-03c3fe86c11c.png)
+
+> So **functional difference** is there. That's why we cannot write **theta**.
+
+![image](https://user-images.githubusercontent.com/54589605/235164125-9d8c1897-8b49-4ea2-93b7-698ba83f75dd.png)
+
+> After **3 rounds** are over, we got to know that it is an **increasing** series.
+
+![image](https://user-images.githubusercontent.com/54589605/235164412-2264ae8b-c642-42bb-a875-60fbcf7a7be0.png)
+![image](https://user-images.githubusercontent.com/54589605/235164973-69f49dc9-0c53-4bdb-9918-fac4d110a07d.png)
+![image](https://user-images.githubusercontent.com/54589605/235165088-213278ca-e8a7-48fe-abc3-39b9936c02fb.png)
+
+> It is a **series** and it is **increasing**.
+
+![image](https://user-images.githubusercontent.com/54589605/235165867-20a099ce-8b99-4826-a7c0-16de391ee57d.png)
+
+> Among all of them **middle** one is the **smallest** as it has **log n base 5** levels. Which gives us the **lower bound**. 
+
+> Among all of them **left** one is the **largest** as it has **n** levels. Which gives us the **upper bound**. 
+
+![image](https://user-images.githubusercontent.com/54589605/235166827-ad9afd3c-b699-4282-b765-77878c4ce55e.png)
+![image](https://user-images.githubusercontent.com/54589605/235168762-c1fe14a1-d47f-4dd9-859f-06721996c28d.png)
+![image](https://user-images.githubusercontent.com/54589605/235168960-761566bb-31f2-441b-bb5b-f868a6f0c12e.png)
+![image](https://user-images.githubusercontent.com/54589605/235169040-b311c4e1-a3e9-4bfa-8204-aa6d65906a31.png)
+![image](https://user-images.githubusercontent.com/54589605/235169129-aae719b6-23e5-4ca5-879f-76d2d273f37e.png)
+
+> We cannot write, **theta** as **upper and lower** bound, differ.
+
+## Master's Theorem
+
+![image](https://user-images.githubusercontent.com/54589605/235170342-2debd372-6a4f-47d8-a6df-f6c16cb8730a.png)
+![image](https://user-images.githubusercontent.com/54589605/235172299-9370cd82-d882-4d39-96e5-99c3b7f85640.png)
+![image](https://user-images.githubusercontent.com/54589605/235172871-974c3c9c-e3d4-4902-83cc-58756f394bab.png)
+
+* 'a' value -> 1,2,3, ........
+* 'b' value -> 2,3,4,.............., 3/2 also possible. 
+
+> **Integer constants** is not mentioned, only **constants** are mentioned. So, **3/2** also possible.
+
+![image](https://user-images.githubusercontent.com/54589605/235173810-b8587d3a-9a46-47fe-9775-bf11d24351f6.png)
+
+> **n** should be **non-negative** and **integer**. **n** is the **no. of inputs**.
+
+![image](https://user-images.githubusercontent.com/54589605/235192204-64b389b2-f3f6-41cd-99a3-9de1eb08268a.png)
+
+> There is no **minus(-)** operator. Master's theorem is not applicable for **minus(-)** operator. Go to **substitution** method.
+
+> For more than one function call, master's theorem is not applicable. Go to **recursive tree method**.
+
+![image](https://user-images.githubusercontent.com/54589605/235195347-72f68711-89d7-4300-b3f4-191f696fccd4.png)
+
+> If any **recurrence** relation in the above format, then only use master's theorem.
+
+![image](https://user-images.githubusercontent.com/54589605/235195774-66d9bf62-c012-463f-823f-bcbba1bdea87.png)
+
+* Red ticks are **shortcuts**.
+
+![image](https://user-images.githubusercontent.com/54589605/235195906-5383f6fe-57a6-4019-bd5e-c54898fd2cac.png)
+
+> The given **recurrence** relation is in the master's theorem format.
+
+![image](https://user-images.githubusercontent.com/54589605/235196061-5d62a224-2dcf-4059-befa-307cdbcaf060.png)
+![image](https://user-images.githubusercontent.com/54589605/235196310-2532b31d-82c9-43b8-aaef-79c75fbe0d9b.png)
+
+> Always talk about **right side** only.
+
+> Right side person is **bigger** compared to left side person.
+
+* Compare **left and right** side, whoever is **bigger**, is the **answer**.
+
+![image](https://user-images.githubusercontent.com/54589605/235197207-e51ffe80-ef09-4b8d-aebf-5fdc01e9ca42.png)
+![image](https://user-images.githubusercontent.com/54589605/235197543-198c1c7c-a367-4b90-884c-e8d6430c4a15.png)
+![image](https://user-images.githubusercontent.com/54589605/235197856-661ae2f0-b5c9-46de-a592-6315935c8fd7.png)
+
+* Compare **left and right** side, right is **bigger** by **polynomial** time.
+
+* Whoever is **bigger**, is the **answer**.
+
+* If we want to solve a **recurrence** relation using master theorem.
+
+1) First check if it is there in the given format.
+2) If Yes, then write **f(n)** on the **left** side.
+3) On the **right** side, write **n ^ (log a base b)**.
+4) Whoever is **bigger**, is the **answer**.
+
+![image](https://user-images.githubusercontent.com/54589605/235198846-6903bb0b-1b57-47fe-ab62-f267ae44005c.png)
+
+> **Right** side is **smaller**.
+
+> So, **right** side is **smaller** by **polynomial** time.
+
+![image](https://user-images.githubusercontent.com/54589605/235199471-d5beb709-59d4-4b21-aae6-f9e0ec6fc732.png)
+
+> **Right** side is **smaller** by **polynomial** time.
+
+> **Right** side is **small**, to make it **equal**, we multiplied it with **n**.
+
+![image](https://user-images.githubusercontent.com/54589605/235199932-d71f7958-fc7b-49ea-9f7e-e6668d4df456.png)
+![image](https://user-images.githubusercontent.com/54589605/235202009-de97fafe-c2e9-4653-a2ba-85f9a1bfe840.png)
+
+> Whoever **bigger** is the **answer**.
+
+![image](https://user-images.githubusercontent.com/54589605/235202239-cffb8d30-e655-4959-8675-809f32d0b282.png)
+
+* Right is bigger.
+
+![image](https://user-images.githubusercontent.com/54589605/235202301-128cc1c1-8706-4a4f-af7c-93ff7b06868a.png)
+![image](https://user-images.githubusercontent.com/54589605/235202396-33724b13-26ba-4b17-8632-fb55749c02c7.png)
+
+* Left is bigger.
+
+> In all of the above questions, either **left or right** is **bigger**. How much **bigger/smaller**?, we will get from the **right** side only.
+
+![image](https://user-images.githubusercontent.com/54589605/235202687-eeee49e3-9a98-426b-ab46-7e0fd9173e5f.png)
+![image](https://user-images.githubusercontent.com/54589605/235203007-5513b55a-11d5-44a9-b2f7-f86ae5cefc2a.png)
+
+* Because of **big** on the right side, to make it **equal** to the **left side**, we will do **division**. **Division** is nothing but **power substraction**.
+
+![image](https://user-images.githubusercontent.com/54589605/235203178-51081555-834b-40a3-a74c-5e05bd3eed12.png)
+
+* Because of **smaller** on the right side, to make it **equal** to the **left side**, we will do **multiplication**. **Multiplication** is nothing but **power addition**.
+
+* In all of the **above questions**, the **right side person** is either **bigger or smaller** than the **left side person** by **polynomial** times.
+
+* If a **recurrence** relation is given, calculate **left and right** side. After calculation done, whoever is **bigger** is the **answer** but before writing the answer, confirm one more thing. Ask the **right** side, if it is **bigger/smaller** by **polynomial** times. If **YES** then, whoever is **bigger** is the **answer**, **confirmed**.
+
+![image](https://user-images.githubusercontent.com/54589605/235204596-c10c6443-e94b-44c8-91f6-c320dc0a424b.png)
+![image](https://user-images.githubusercontent.com/54589605/235204639-275d29f4-396a-4323-a6e0-3aa80da42cc1.png)
+
+* If the condition, **bigger/smaller** by **polynomial** is **satisfied**, then only whoever is **bigger** is the **answer**, **confirmed**.
+
+* If the condition, is **not satisfied**, then we cannot take whoever is **bigger** as the **answer**.
+
+> Master theorem is saying that, comparing **left and right**, if **right** is **bigger/smaller** compared to the **left** by **polynomial** times, then only whoever is **bigger** is the **answer**, **confirmed**.
+
+> Otherwise, we cannot take whoever is **bigger** as the **answer**.
+
+![image](https://user-images.githubusercontent.com/54589605/235206090-220594f6-5011-4716-88a4-bda3906fc6ec.png)
+![image](https://user-images.githubusercontent.com/54589605/235206247-3c04bb44-56d1-420b-9efd-4b94e0fe9ce8.png)
+
+> In the **first** case, we are doing **division**.
+
+> In place of **c**, the formula has **E**.
+
+> It is **divided**, because **right** side **bigger** compared to left side.
+
+> **Right** side is **bigger** by **polynomial**, then whoever is **bigger** is the **answer**, **confirmed**.
+
+![image](https://user-images.githubusercontent.com/54589605/235206921-2d65fab0-2525-45a7-a020-408774c1343b.png)
+![image](https://user-images.githubusercontent.com/54589605/235207413-72b820eb-1540-4cc3-9fc4-ec079acd5fda.png)
+
+> In the **3rd case**, we are doing **multiplication**, as the **right** side is **smaller** by **polynomial** compared to the left side.
+
+![image](https://user-images.githubusercontent.com/54589605/235207528-6b70a859-1a9f-4d10-8e6f-4abe70aeb57b.png)
+
+> So, the **answer** is, whoever is **bigger** is the **answer**.
+
+* In **case 1**, we are doing **division**, **minus(-)** means **divide**, because **right** side is **bigger**. So, **n^(log a base b)** is **bigger**. So, whoever is **bigger** is the **answer**.
+* In **case 3**, we are doing **multiplication**, **add(+)** means **multiply**, because **right** side is **smaller**. So, **f(n)** is **bigger**. So, whoever is **bigger** is the **answer**.
+
+![image](https://user-images.githubusercontent.com/54589605/235208237-c2666efb-a145-450b-8a8d-eb2f7ab9c6e9.png)
+![image](https://user-images.githubusercontent.com/54589605/235208671-28389877-e793-4f4c-8c75-64a99669797e.png)
+![image](https://user-images.githubusercontent.com/54589605/235208777-c46d4eae-c71e-467b-ae79-67ca5076316b.png)
+
+> **Left** is **bigger**, as we have to **multiply**, **log n** on the **right** side. So, **right** side is **smaller** compared to the left side.
+
+> Right side person is **smaller** than the left side, as right is **smaller**, we have to **multiply**. How much **smaller**? We have to **multiply**, **log n** to make both the sides as **equal**. **log n** is **not polynomial**, it is **logarithmic**.
+
+> Because of the **above reason**, that it is **not polynomial** and it is **logarithmic**, immediately come back and **remove** the previous answer which is **Whoever is **bigger** is the **answer**.**.
+
+> If **bigger/smaller** by **polynomial** then only **master theorem** will work out. 
+
+> If also **bigger/smaller** by **logarithmic** times, then also **master theorem** will not work out.
+
+![image](https://user-images.githubusercontent.com/54589605/235209984-56c8463b-3066-45eb-a92d-2e3a20f7c9f8.png)
+![image](https://user-images.githubusercontent.com/54589605/235210432-79ccddc9-debb-46ee-8f6c-25eba293cf9e.png)
+
+> The actual answer is **n * (log n)^2**.
+
+![image](https://user-images.githubusercontent.com/54589605/235210911-9cb5ae1f-d76c-40fa-a5fa-4e3534af7494.png)
+![image](https://user-images.githubusercontent.com/54589605/235210981-7b42eba4-b021-4468-bba1-e7921d396800.png)
+
+* Must be **polynomial** times **smaller/bigger**.
+
+> Apply **substitution method** to get **actual/correct** answer.
+
+![image](https://user-images.githubusercontent.com/54589605/235211846-eb2480bd-39ab-4b84-9a95-94555069f2e6.png)
+
+> They are **equal**. Whenever they are **equal**, we have to do one thing.
+
+> Whenever both are equal, go **right** side. In the **right** side, attach some **(log n)^0**, so that both sides are still **equal**.
+
+> Take the **same** thing which is present on the **right** side as the **answer** and add **+1** to the **power** of **log n**. So, the answer will be from **n * (log n)^0** to **n * (log n)^(0+1) -> n * (log n)^1**.
+
+![image](https://user-images.githubusercontent.com/54589605/235213073-8eabc90f-ac28-40d7-a8d9-be03c29734cd.png)
+![image](https://user-images.githubusercontent.com/54589605/235213466-890474ba-a5e4-4f8c-ab34-d55f9f6cc88b.png)
+
+* This is the **answer**.
+
+> Whenever **both are equal**, on the **right** side, attach some **(log n)^0**, so that both sides are still **equal**. So, the **answer** is, whatever we have written on the **right** side, take as it is and add **+1** to the **power** of **log n**.
+
+
+![image](https://user-images.githubusercontent.com/54589605/235212008-f8393dc4-3ed1-46cb-a8d8-9a6f200441eb.png)
+
+* In **first case** of master theorem, it is **big-O**, which means **right** is **bigger**.
+* In **last/third case** of master theorem, it is **omega**, which means **right** is **smaller** or **left** is **bigger**.
+* In **second case** of master theorem, it is **theta**.
+
+![image](https://user-images.githubusercontent.com/54589605/235213706-44771359-b547-4cd7-bc5c-18d590b17aea.png)
+
+* **Case 1 and case 3** fail because **right** side is not **polynomicall** bigger than the left side and it is not **polynomicall** smaller than the left side. It is **logrithmically** smaller than the left side.  
+
+![image](https://user-images.githubusercontent.com/54589605/235214022-d4cad58c-7c4a-469f-9837-1f8b5b4c6839.png)
+
+> We can attach some **log n** power something on the right side to make **both** the sides as **equal**. 
+
+> We can attach **(log n)^1** on the right side to make **both** the sides as **equal**. 
+
+> Then, the **answer** is take whatever is there on the right side and add **+1** to the power of **log n**.
+
+![image](https://user-images.githubusercontent.com/54589605/235214516-33373ebc-bcc1-485b-839d-590dc8c2d671.png)
+![image](https://user-images.githubusercontent.com/54589605/235214641-9f96ff05-4b96-4c52-851e-6cec113e007c.png)
+
+> So the **answer** is **n * (log n)^2**.
+
+* **Case 2** is meant for, between **f(n) and n^(log a base b)**, if **no difference** at all and **logrithmetic** difference(smaller), then go to **case 2**.
+
+![image](https://user-images.githubusercontent.com/54589605/235215276-2b474683-6fab-45a5-affd-92a84ae58e3d.png)
+![image](https://user-images.githubusercontent.com/54589605/235215450-db54c540-10cb-47c9-90fe-52dd538b782e.png)
+![image](https://user-images.githubusercontent.com/54589605/235215702-48fd82cf-8925-45d1-8b4d-746362d1735c.png)
+
+> **Left and right** side are not **equal**.
+
+> By **multiplying** **(log n)^8** on the right side, we are getting both the sides as **equal**, which means right side is **logrithmetically* smaller than the left side. So, we will go to **case 2**.
+
+> So the answer is take whatever on the right side and **add(+1)** to the power of **log n**. The answer is **(log n)^11**.
+
+![image](https://user-images.githubusercontent.com/54589605/235216410-c0445b31-0fa5-495c-b422-a7128155076f.png)
+![image](https://user-images.githubusercontent.com/54589605/235216770-295b3763-c067-4bdb-9221-7fe711264783.png)
+
+* **Case 2** when they are **equal** or the right hand side person is **smaller** by **logarithemetic**.
+
+![image](https://user-images.githubusercontent.com/54589605/235216938-d394f26c-5a85-454d-92f5-74f760ee24d2.png)
+
+> By **multiplying** with **log**, **both** are **equal**. So, right side is **logarithemetically** **smaller** than the left side.
+
+> Only **multiply** no division here.
+
+![image](https://user-images.githubusercontent.com/54589605/235217305-3a492da8-276f-4f93-858d-ea52e2a8a56f.png)
+![image](https://user-images.githubusercontent.com/54589605/235217353-d1518a58-c0eb-449b-961c-6efd0ca8c882.png)
+
+> We made **left and right** equal by **multiplying** by **log n**. **Multiplying** means **right** is **smaller**.
+
+![image](https://user-images.githubusercontent.com/54589605/235217631-db35cf18-dee0-4874-8ccc-c743d193f79d.png)
+
+> By **multiplying** with **log n or logarithemetic**, both sides are **equal**.
+
+![image](https://user-images.githubusercontent.com/54589605/235218020-69583458-34b4-4678-a49e-fc18df829fce.png)
+
+> **Case 2** will work for when **both** the sides are **equal** as well, when we take **k=0** value, which is **(log n)^k -> (log n)^0**.
+
+* **Polynomial** time, **bigger/smaller**, then whoever is **bigger** is the **answer**. **Case 1 or 3**.
+* If **equal(no difference)** or **logarithemetic** time, **smaller** then **case 2**.
+
+> **Logarithemetic** time, **smaller** because we are **multiplying**.
+
+![image](https://user-images.githubusercontent.com/54589605/235218888-1b2688f8-48ea-4d80-ab4f-4ca0ce328193.png)
+![image](https://user-images.githubusercontent.com/54589605/235219624-082aaa2a-0a9e-4df9-89c8-c326aba07159.png)
+
+> Not possible as **a and b** are **constants**.
+
+![image](https://user-images.githubusercontent.com/54589605/235219989-ca9def86-93e3-4d6d-bb65-52a4c6d9a3e3.png)
+
+> **k > 0**, **k** cannot be **negative**.
+
+![image](https://user-images.githubusercontent.com/54589605/235220066-41acbe21-50c1-46c0-8454-7b09bcfc042d.png)
+
+> We cannot take **negatives** as powers.
+
+![image](https://user-images.githubusercontent.com/54589605/235220176-96fdda44-5646-4b0b-b5d1-d77a138e6b41.png)
+![image](https://user-images.githubusercontent.com/54589605/235220353-10687e4c-57e1-4ee2-b6ca-46fd58e56626.png)
+
+> **k=-3** then only both sides are **equal**.
+
+> Right side person **bigger** by **logarethmetic** will not work out.
+
+> Right side person **smaller** by **logarethmetic** then only it will work out.
+
+![image](https://user-images.githubusercontent.com/54589605/235220683-50dd5add-fe1b-4f01-bd97-6fd911052b58.png)
+![image](https://user-images.githubusercontent.com/54589605/235220716-e853e2f9-023a-4bf4-8c1a-b53ec7cc5734.png)
+![image](https://user-images.githubusercontent.com/54589605/235220730-03008096-e002-43d9-b7e5-54bfe3d4cd01.png)
+![image](https://user-images.githubusercontent.com/54589605/235220767-c71005eb-05b5-46b8-9a23-113414a98903.png)
+
+* For **Case 2** of master's theorem, it should be **equal** or **right small** by **logarethmetic**.
+
+![image](https://user-images.githubusercontent.com/54589605/235220875-c2c0f3f1-42c4-4de9-ab8b-482f6a82b392.png)
+
+* If **exponential** difference then only **case 1 or case 3**.
+
+![image](https://user-images.githubusercontent.com/54589605/235221310-63e95da7-bd3f-4a99-b34d-2d80a34193a1.png)
+
+> **Right** is **bigger** by **exponential** times. **2^n** is more than **polynomial**.
+
+> **Polynomial** is **ok** and more than **polynomial** is also **ok**. So, **master theorem** will work.
+
+![image](https://user-images.githubusercontent.com/54589605/235221378-572256dd-a505-4adc-bf13-61d8127d04fb.png)
+![image](https://user-images.githubusercontent.com/54589605/235221636-a0fec0e0-31ad-4a0d-aad4-94ecaeffc39b.png)
+
+* Whoever is **bigger** is the **answer**.
+* n, n^2, n^3 all are **polynomial**.
+
+![image](https://user-images.githubusercontent.com/54589605/235221956-0d03ab12-26b3-4aa1-aa58-4e9c764b0132.png)
+
+> **Right** side is **bigger**, and it is **bigger** by **n * log n**. So, **n * log n** is **polynomial** as **n, n^2, n^3** all are **polynomial**, so **in-between** also, **n and n^2** where **n * log n** stays is also **polynomial**.
+
+![image](https://user-images.githubusercontent.com/54589605/235222258-6dd173c0-fed9-4c84-9483-b5c553fc1bb3.png)
+![image](https://user-images.githubusercontent.com/54589605/235222320-cfe44b71-9c32-434f-a936-834acad286f3.png)
+
+> Master's theorem possible. **n and n^2** are **polynomial**, so **in-between** also **polynomial**.
+
+![image](https://user-images.githubusercontent.com/54589605/235222466-5c3d7698-32a0-4b0d-b2e2-d7681aa0daa8.png)
+![image](https://user-images.githubusercontent.com/54589605/235222750-bcc99c56-3717-440a-9423-734a5c30dbed.png)
+![image](https://user-images.githubusercontent.com/54589605/235222834-b4b1de2f-9d0b-4467-a15f-1859e812e3fd.png)
+
+> **Right** side is **bigger** by **exponential** of **n^(n-1)**.
+
+![image](https://user-images.githubusercontent.com/54589605/235222902-ef02043c-d57f-4c88-9547-42aff0a444c5.png)
+
+* **2^n** is not **constant** and **a** should be a **constant**. 
+
+> Because of this reason **Theta(n^n)** is **wrong**.
+
+![image](https://user-images.githubusercontent.com/54589605/235223151-b536155f-d06b-4dda-8601-c53a36725df8.png)
+![image](https://user-images.githubusercontent.com/54589605/235223112-5405ddfd-0e9a-4554-b273-2b6485652b3d.png)
+
+## Questions
+
+![image](https://user-images.githubusercontent.com/54589605/235282049-f260093e-de7b-488c-9055-46256583bb90.png)
+![image](https://user-images.githubusercontent.com/54589605/235282053-3e548185-d430-4661-ba11-962713a595ae.png)
+![image](https://user-images.githubusercontent.com/54589605/235282055-596cffec-4a8b-409a-a2f3-25caa9f4ceaf.png)
+![image](https://user-images.githubusercontent.com/54589605/235282079-4d558c8b-ae00-4709-9c54-41023ce3c2dc.png)
+![image](https://user-images.githubusercontent.com/54589605/235282085-d6b26aaf-a3bb-4acc-a59c-6d67f5cb9dc9.png)
+![image](https://user-images.githubusercontent.com/54589605/235282088-6347778f-8b59-4283-b289-97fcb0c3e279.png)
+![image](https://user-images.githubusercontent.com/54589605/235282090-054c9160-56dd-45af-9d6c-d547faff8dc1.png)
+![image](https://user-images.githubusercontent.com/54589605/235282095-b638fd66-43f5-4be8-a1d8-a209575c5739.png)
+![image](https://user-images.githubusercontent.com/54589605/235282098-9a3d22be-4ef1-472f-a079-21b3a1ffb8b4.png)
+![image](https://user-images.githubusercontent.com/54589605/235282102-178dd3d7-919c-4f30-a8db-bdf80f69c684.png)
+![image](https://user-images.githubusercontent.com/54589605/235282105-07628c8b-7338-4f53-8724-f894c4673098.png)
+![image](https://user-images.githubusercontent.com/54589605/235282110-343a2dff-a215-456f-a4d9-87a161a3e47f.png)
+![image](https://user-images.githubusercontent.com/54589605/235282113-08fcb891-2871-4ee7-a7a8-6d6b3324e232.png)
+![image](https://user-images.githubusercontent.com/54589605/235282116-9816f085-bca9-4eda-9798-f92fabd35a69.png)
+![image](https://user-images.githubusercontent.com/54589605/235282120-a427f7f4-a897-4690-be2c-aadb0ada4f9c.png)
+![image](https://user-images.githubusercontent.com/54589605/235282126-fc30d8f0-5e94-4d9a-944f-8e05a08cb1d4.png)
+![image](https://user-images.githubusercontent.com/54589605/235282129-04653e88-f7fb-4f82-97a9-47733ea43976.png)
+![image](https://user-images.githubusercontent.com/54589605/235282134-c70c0fd1-6282-4025-8696-05b5df843ac7.png)
+
+
+## DAC-IV (19) [29th April 2023]
+
+![image](https://user-images.githubusercontent.com/54589605/235282322-61c39e5d-b08b-4230-abcf-591405b429f4.png)
+![image](https://user-images.githubusercontent.com/54589605/235282364-0ceac59a-e9cc-4db4-97e2-0cb666fd4d0d.png)
+
+* **No difference** also **case 2** and **log or logrametric difference** also **case 2**.
+
+![image](https://user-images.githubusercontent.com/54589605/235282500-3134efe0-4a81-481d-99c8-221c0c82edca.png)
+![image](https://user-images.githubusercontent.com/54589605/235282502-71ca36c1-5f22-40cc-8feb-87cb4cc094b0.png)
+
+> When we say, master's theorem, **divide** should be there, but there is **no divide**.
+
+> **We cannot apply master's theorem**, because **divide** is not there. 
+
+* **Divide** should be there when solving with master's theorem.
+
+> If we convert it into the **required** form then we can apply **master's theorem**.
+
+* The **required format** is **a * T(n/b) + f(n)**.
+
+> Convert into the above required format.
+
+> The purpose of the above question is to help solve questions when **recurrence relation** contain **root operator**, then using **master's theorem**, how we will **solve** it. 
+
+> **Worst case** is we can go for **substitution** method.
+
+> As it is not there in the **master's theorem** form, convert it into the **master's theorem* form, which is **a * T(n/b) + f(n)**.
+
+* Steps to **convert it**.
+
+1) Assume, **n= 2^k**.
+
+![image](https://user-images.githubusercontent.com/54589605/235282824-636ab9d5-53d6-4dda-a9eb-5f79df19df3f.png)
+
+2) Assume, **T(2^k) = s(k)**. We are mapping **T function** to **s function**. In the **power** whatever there in the **T function**, comes to the **s function**. Whatever leftout will go to **s**.
+
+![image](https://user-images.githubusercontent.com/54589605/235282877-cf64f32e-18df-4fe4-9d02-14d4dc10011a.png)
+![image](https://user-images.githubusercontent.com/54589605/235282889-8491422e-f2cc-464a-a116-4918e520f907.png)
+
+> If **T** comes, then only **s** comes.
+
+![image](https://user-images.githubusercontent.com/54589605/235283278-c17cc93a-ac98-4fed-bb0c-879129e82b10.png)
+![image](https://user-images.githubusercontent.com/54589605/235283321-b42a4729-fabf-4a39-b71b-7a389d429f5c.png)
+
+> Directly we cannot solve the recurrence relation, **convert first**.
+
+> Now apply **master's theorem**.
+
+> **k** is a **function**.
+
+![image](https://user-images.githubusercontent.com/54589605/235283482-5500e443-54ca-49df-8752-19a6b36d4299.png)
+
+> Left is **bigger** because on the left **k** is a function and on the write **c** is a **constant**.
+
+> Right side **c** is **smaller**, it is **smaller** by some **k**. Then only **both** sides are **equal**.
+
+> Comparing left and right side, right side is smaller by **k** times, where **k** is a function. **K** is a **polynomial** because, **k** is there in terms of **function**.
+
+![image](https://user-images.githubusercontent.com/54589605/235283584-48e66d8a-a8be-4a38-99b5-9bd25f04d064.png)
+![image](https://user-images.githubusercontent.com/54589605/235283669-f2cd4eab-4a78-4a3d-b47e-899b3dcfc21d.png)
+
+> Given problem is there in the form of **n**.
+
+> We have to **convert** whatever answer we got in the form of **n**.
+
+3) Now do, **step 2** in **reverse** order. **No s** there, then **no T** will come. Where ever **s** there, keep **T**.
+
+![image](https://user-images.githubusercontent.com/54589605/235283790-a2799a29-628e-41c8-b2f2-dde1ddae4eaf.png)
+
+4) Now do **step 1** in **reverse** order. We know **n = 2^k**, so we will find the value of **k**, which is **k = log n base 2**. Where ever, **k** there, replace it by **n**.
+
+![image](https://user-images.githubusercontent.com/54589605/235283951-6dff96f4-d454-4e06-a854-794241e855fd.png)
+
+> After **converting** into **master's theorem**, please **solve** master theorem **format**. Why solving **master's theorem**, don't worry about **k** value, some **function** is there in the form of **k**, solve it.
+
+![image](https://user-images.githubusercontent.com/54589605/235285337-30233c0d-cde0-46f0-88cf-4c04000b4c47.png)
+![image](https://user-images.githubusercontent.com/54589605/235285469-2288803f-9d71-43ac-a890-fa80e277ae7b.png)
+
+> We got the **master's theorem** format now.
+
+> While applying **master's theorem**, don't bring **before and after**.
+
+> The function is in the form of **K**, **YES**.
+
+![image](https://user-images.githubusercontent.com/54589605/235285815-831334d9-b4bf-412b-9b8b-fbb9c39b82c7.png)
+![image](https://user-images.githubusercontent.com/54589605/235285838-1f4f2f92-c09c-4fd5-ab66-51e581aa00d2.png)
+
+> We want **answer** in the form of **n** as it was given in the question in the form of **n**.
+
+* 3rd step **reverse** is **2nd** step.
+* 4th step **reverse** is **1st** step.
+
+![image](https://user-images.githubusercontent.com/54589605/235285938-39629b47-9194-4b91-897e-98efc92e0d43.png)
+![image](https://user-images.githubusercontent.com/54589605/235286353-d980e350-84f2-4aee-ac2e-7bf425ecbb93.png)
+
+> Both the sides are **equal**, so **case 2** and we can multiply with **(log k)^0**, to keep both the sides as **equal** only still. We are multipling with **(log k)^0** and not **(log n)^0** because **function** is there in the form of **k**.
+
+> If we are multipy with **(log n)^0*, then it is **wrong**. Here, we only know about **k** as **function** is there in the form of **k**.
+
+![image](https://user-images.githubusercontent.com/54589605/235286531-70b0e5f5-16ac-4616-9245-0b8f1583bd71.png)
+![image](https://user-images.githubusercontent.com/54589605/235286572-0b4cde3f-db3e-467e-bea0-1b71b046047f.png)
+![image](https://user-images.githubusercontent.com/54589605/235286626-dd4c5fd0-5610-4795-b6b4-17d905090eee.png)
+
+* Recurrence relation for **time**.
+
+![image](https://user-images.githubusercontent.com/54589605/235286676-95bba476-03a7-4b38-a428-08e3c2a7a0d3.png)
+
+> First and second level costs are **different**, so **series** coming.
+
+![image](https://user-images.githubusercontent.com/54589605/235286869-d6b3cc19-bb58-4b82-9b16-2a1003c9383a.png)
+
+> Upper and lower bound differ by **constants** but that **constant** is in the **power of 2**, so it becomes a **functional** difference and we cannot **ignore**. So, we cannot say that **theta** is possible.
+
+![image](https://user-images.githubusercontent.com/54589605/235286985-b06a6cb6-5c90-446a-9aa2-be6bac558295.png)
+![image](https://user-images.githubusercontent.com/54589605/235286974-f51a8554-f589-47b4-979e-99cdc5f8151f.png)
+
+> If **both** upper and lower bound are there in the **answer**, then the **answer** is **both**.
+
+![image](https://user-images.githubusercontent.com/54589605/235287065-6eaa6b84-99ff-4a3c-8d33-559eb29bc006.png)
+![image](https://user-images.githubusercontent.com/54589605/235287078-c5910ddb-4a18-4f6b-bcc7-5787bf338697.png)
+![image](https://user-images.githubusercontent.com/54589605/235287082-8f433984-436a-4874-8edb-ec56b6bcbe86.png)
+![image](https://user-images.githubusercontent.com/54589605/235287092-4eebd423-eedb-4a5e-bdc7-01893584c35c.png)
+![image](https://user-images.githubusercontent.com/54589605/235287100-128910c8-57dd-4ec8-b66e-4a590548a882.png)
+
+![image](https://user-images.githubusercontent.com/54589605/235287165-771cc606-8117-40be-a3ff-05cbf86e1601.png)
+
+> **T(n)** is **in-between**.
+
+> Comparing **T(n)**, **2^n** is **bigger**, so **big-O**.
+
+> Comparing **T(n)**, **2^(n/2)** is **smaller**, so **omega**.
+
+> We are not sure if  **T(n)** is **Big-O or omega**, that why we have not written **theta**.
+
+![image](https://user-images.githubusercontent.com/54589605/235287237-8d8ae822-f080-4469-b11a-86b2b14871ae.png)
+![image](https://user-images.githubusercontent.com/54589605/235287291-c039cd53-74ed-4e44-b483-92a45f84c3d8.png)
+
+## DP-I (20) [29th April 2023]
+
+## Divide and Conquor
+
+![image](https://user-images.githubusercontent.com/54589605/235288298-b2f59af5-da49-4a50-8b2f-5a878921c802.png)
+![image](https://user-images.githubusercontent.com/54589605/235288295-38aa7c43-25da-4ad1-b143-c2f64b701e86.png)
+
+> We are calling **two** times. So it may give **binary tree**.
+
+![image](https://user-images.githubusercontent.com/54589605/235288347-3819cc30-851d-4d9e-b458-33e809a90517.png)
+
+> There are **4** function(small, solution, divide, combine) calls which are not **recursive**. 
+
+> The above **4** function codes are **outside**.
+
+![image](https://user-images.githubusercontent.com/54589605/235288437-0419e435-affc-4f8e-b652-b6ca240bcbb0.png)
+
+* i -> First element index
+* j -> Last element index
+* a -> Array, which contains elements from i to j.
+
+> We want to **sort** the array, using **divide and conquor**.
+
+* small function -> Will check if the problem is small or not. Return **1** means problem is **small**. Return **0** means problem is not **small**. 
+
+![image](https://user-images.githubusercontent.com/54589605/235289395-e5c2155c-501f-4f61-a2df-870140f65c3e.png)
+![image](https://user-images.githubusercontent.com/54589605/235289493-f00f4f43-ff3b-4314-b909-dee63705bdfc.png)
+![image](https://user-images.githubusercontent.com/54589605/235289683-9c5cc719-2542-4a60-847a-03613038627b.png)
+
+> A Recursive function without **if(termination condition)** part will give **stack overflow** error message.
+
+![image](https://user-images.githubusercontent.com/54589605/235289829-1fa10bea-b177-4aeb-a5c8-762752f01fa6.png)
+
+> Divide and conquor doesn't mean, we will divide bliendly or divide everytime. First verify **small** or not. If not small, then divide. Don't divide everytime.
+
+> There are **4** non-recursive function calls and out them, **2** are in the **if** part and **2** are there in the **else** part.
+
+> As **2** functions belong to the **else** part, there is chance of **for** loop. Inside **divide**, **for** loop maybe there.
+
+> Inside, **Divide()** there is **one** for loop running till **n** times. Then the time complexity is **n**.
+
+> Inside, **Combine()** there is **two** for loop running till **n** times each. They are **inner** loops. Then the time complexity is **n ^ 2**.
+
+> If no loop is there, then the **time complexity** is **constant**.
+
+> Inside **Small() and solution()**, there are **no loops**. But inside **Divide() and Combine()**, loop maybe there.
+
+![image](https://user-images.githubusercontent.com/54589605/235290221-ee6784b3-7bcd-4da1-befc-9e9b31e33f7e.png)
+
+> **Combine()** code executed means **Combine()** code is **over**.
+
+* Small() -> **True** -> Solution() 
+* Small() -> **False** -> Divide() -> Combine()
+
+> This is **Divide and Conquor** abstract algorithm.
+
+![image](https://user-images.githubusercontent.com/54589605/235291467-cc1776f1-3596-48b2-ac1a-98690be618eb.png)
+
+* Code is **hidden**.
+
+* **Divide and conquor** doesn't mean we will **divide** directly, first verify it is **small** or not. Don't divide directly.
+
+![image](https://user-images.githubusercontent.com/54589605/235291592-81d6da76-6d33-43c9-aa64-7f8abcdf3459.png)
+
+* Getting **sub-problem** solutions using **recursion** is called as **conquor**.
+
+![image](https://user-images.githubusercontent.com/54589605/235291638-b7110de4-2026-4013-9de8-ccba94750593.png)
+
+* First **divide**, now we got **sub-problems**, **conquor** will solve the **sub-problems**. **Conquor** goal is to get **sub-problem** solutions using **recursion**. **Combine** is **multiplication**. After getting the **sub-problem** solutions, **multiply**, that is called as **combine**.
+
+![image](https://user-images.githubusercontent.com/54589605/235291769-cfd2a990-2fd7-4ebd-80be-080d3e811f8d.png)
+
+* F(5) = F(4) + F(3)
+
+> F(5) is divided into two parts, F(4) and F(3), it is **divide**.
+
+> Solve F(4) and F(3), individually. It is **conquor**.
+
+> Now, **combine**, here for F(5), **combine** is **addition**. 
+
+![image](https://user-images.githubusercontent.com/54589605/235291912-aa805729-4cf4-4460-bdae-d3096495b437.png)
+
+* From problem to problem, **combine** will change.
+
+> **Combine()** code **inputs** are **sub-problem** solutions, which are **b and c** here.
+
+> **Combine()** code **output** is **total problem** solution which is **d** here.
+
+![image](https://user-images.githubusercontent.com/54589605/235292023-6ca81e41-9895-498b-9e17-5f65bdb37d30.png)
+
+> **Divide and conquor** major part is **else** part. In the **else** part only, **Divide(), Conquor() and Combine()** there.
+
+> **If** is required for **termination** condition.
+
+> In the **else** part, **Divide()** will be executed **first**.
+
+> **Divide()** will divide into **how many parts**, will depend on **divide code**.
+
+![image](https://user-images.githubusercontent.com/54589605/235292140-72def053-5c41-4746-a49c-00a4bd992761.png)
+
+> **How to do combine**? will depend on **combine code**.
+
+> **How to do divide**? will depend on **divide code**.
+
+> In the **else** part, **Divide()** is the **first** part. After divide, **conquor** will come and solve every single problem using recursion. Now, we have solutions to all of the sub-problems. These parts of the solutions are **inputs** to the **combine()**.
+
+![image](https://user-images.githubusercontent.com/54589605/235297957-e2f60f96-e63c-4b72-97c8-52bdc702901e.png)
+
+> Lastly we got **f** as the final solution and we return **f**.
+
+> **Combine()** inputs are going to be **solutions** for the **sub-problems**.
+
+## Summary
+
+* Divide and conquor major part -> **else** part
+* **else** part -> Divide() -> Conquor() -> Combine()
+
+![image](https://user-images.githubusercontent.com/54589605/235298376-323fab08-a174-4041-b067-c0e50914b9e8.png)
+
+> The above algorithm is solving **many problems**.
+
+> **Divide and conquor** is a **designing technique**. It is a **template**. That's why somethings are **hidden**.
+
+> It will solve **as many** problems as possible.
+
+![image](https://user-images.githubusercontent.com/54589605/235298679-a74c4488-869c-41cb-83b0-d6b4a085bf26.png)
+
+> **Merge and Quick** sort are implemented using **divide and conquor** designing technique.
+
+> **As many** problems are solved using the **same** algorithm, but the **code** is different in **different functions**.
+
+## Applications of Divide and Conquor (FOR GATE)
+
+1) Finding max and min
+2) Power of an element
+3) Binary Search
+4) Merge sort
+5) Quick sort
+6) Selection procedure(Not selection sort)
+7) Maximum contigious sub-array sum
+8) Finding no. of inversions
+9) Strassen's matrix multiplication
+
+> All of them use, **same** algorithm. The **4** function's code will **differ**.
+
+![image](https://user-images.githubusercontent.com/54589605/235299034-9beb8c48-f4ff-42de-b0bc-0de205ca89d3.png)
+![image](https://user-images.githubusercontent.com/54589605/235299189-d20e2a66-3040-4d43-87d3-07d8ce6b72b6.png)
+
+> All of the applications are having the **same** format but the **4** function's code will **differ**.
+
+> **Small()** function code will take **O(1) or constant** time, as there is **no loop**. Code may change but **no loop**.
+
+> **Solution()** function code will take **O(1) or constant** time, as there is **no loop**. Code may change but **no loop**.
+
+* So, total **if** part is **O(1) or constant** time.
+
+![image](https://user-images.githubusercontent.com/54589605/235299290-638114ac-a162-48ae-9da0-ae3fbe21c3d4.png)
+
+> **Divide()** function time is **dependent** on how the problem is being **divided**, it can be in **constant** or in **some loop**. Some divisions are **easy** and some are **difficult**. Some divisions will take **exponential**.
+
+> Until and unless we see the **code**, we cannot say **anything**. So, we can say **some function**, which is **f1(n)**.
+
+> **Divide()** function time is **dependent** on how the problem is being **combined**, it can be in **constant** or in **some loop**. Some combinations are **easy** and some are **difficult**. Some combinations will take **exponential**.
+
+> Until and unless we see the **code**, we cannot say **anything**. So, we can say **some function**, which is **f2(n)**.
+
+![image](https://user-images.githubusercontent.com/54589605/235299559-e55ae7ef-6212-4337-857d-3130b64961ea.png)
+
+> **Divide and conquor** algorithm for **n** elements, will take time complexity of **T(n)** time.
+
+> **Divide and conquor** algorithm for **n/2** elements, will take time complexity of **T(n/2)** time.
+
+![image](https://user-images.githubusercontent.com/54589605/235299615-ae97f2ba-3347-453b-a49b-f2982bd073c7.png)
+![image](https://user-images.githubusercontent.com/54589605/235299643-db0fed28-e3a6-4191-a363-1582f42f4bc4.png)
+
+
+> If we **add**, divide(f1(n)) and combine time(f2(n)), then we will get **f(n)**.
+
+![image](https://user-images.githubusercontent.com/54589605/235301419-fadb05a1-3c35-4bf3-af80-b01f5aefb811.png)
+
+> First **two** indicate **how many sub-problems** we have, which is **two**. One **sub-problem** size is **n/2**. **T(n/2)** is one **sub-problem** cost. To solve one **sub-problem**, cost is **T(n/2)**.
+
+> **2T(n/2)** represent **cost of all sub-problems**, which means **conquor** time.
+
+> So the **conquor** time is **T(n/2) + T(n/2) -> 2 * T(n/2)**.
+
+![image](https://user-images.githubusercontent.com/54589605/235299747-1b99b465-8250-47ce-bc97-3534da3c5d72.png)
+![image](https://user-images.githubusercontent.com/54589605/235299892-9218d271-bafb-436a-9a4a-cc1410ba0f2a.png)
+
+> So, **f(n)** is the time required for both **divide and combine**.
+
+> In general someone can make **a** sub-problems, each of size, **n/b**.**F(n)** is the time required for both **divide and combine**.
+ 
+> It is the **recurrence relation** of **master's theorem**.
+
+![image](https://user-images.githubusercontent.com/54589605/235302085-f152f4f5-3df8-420b-8d51-567198ac5069.png)
+
+> **Master theorem** was invented to solve **divide and conquor** recurrence relations.
+
+> All **divide and conquor** recurrence relation problem will look like the **above** format.
+
+* a -> No. of sub-problems. a >= 1
+* n/b -> Size of sub-problems
+* f(n) -> Time required for both divide and conquor.
+* T(n/b) -> Time/cost of one sub-problem
+* b -> b > 1. Otherwise no divide.
+
+![image](https://user-images.githubusercontent.com/54589605/235302268-10f7e1b9-9ffd-4cb5-a45f-279e802f717a.png)
+![image](https://user-images.githubusercontent.com/54589605/235302476-d7763c45-8ee3-44e5-955b-db09222ace0c.png)
+![image](https://user-images.githubusercontent.com/54589605/235302482-da41f881-ee70-4d3c-8a77-59921acae81a.png)
+
+* **a >= 1**, which means that **a=1** also possible. If we keep **a > 1**, then **binary search** is gone. In **binary search**, **a=1**. If **a > 1**, then we have to remove **binary search**.
+
+## Finding Max and min
+
+* Input -> An array of **n** distinct elements
+* Output -> Returns max and min elements.
+
+![image](https://user-images.githubusercontent.com/54589605/235302838-8b05b2bb-e0c5-4206-993d-bcaa61ee6604.png)
+![image](https://user-images.githubusercontent.com/54589605/235302889-26c0e21a-cc94-4885-a6cd-2a63aa53532a.png)
+
+> **One scan** is required, which means **O(n)** times.
+
+![image](https://user-images.githubusercontent.com/54589605/235303058-8e167b98-d455-4044-9934-d68c3d6b2ecd.png)
+
+> Finding max, **one scan** is required.
+
+> Finding min, **one scan** is required.
+
+![image](https://user-images.githubusercontent.com/54589605/235303087-8261ec28-9f8c-4120-b018-ca1053a23a9a.png)
+
+> **Loop** will repeat, approximately **n** times.
+
+![image](https://user-images.githubusercontent.com/54589605/235303141-d4d21ab5-9ef0-498d-9ee0-c921151f51e1.png)
+![image](https://user-images.githubusercontent.com/54589605/235303170-a0df633d-bca8-405b-a646-45226ad38d65.png)
+
+> Left to right, we went **one** time only, which is **one** scan.
+
+> Within **one** scan, we managed **two** people.
+
+> Within **one** scan, we can manage **two** max people.
+
+![image](https://user-images.githubusercontent.com/54589605/235303274-2076cadf-7700-48e2-a8b5-254b2b41118c.png)
+![image](https://user-images.githubusercontent.com/54589605/235303395-a617251e-524f-495a-92ac-0bd8f0145d18.png)
+
+> The above code is **without** **divide and conquor** strategies.
+
+> This is called as **straight max, min** algorithm. The time complexity is **O(n) or theta(n)**, **one scan** is mandatory.
+
+![image](https://user-images.githubusercontent.com/54589605/235303491-c483af10-6e42-4275-96b0-0941a9b25c2c.png)
+![image](https://user-images.githubusercontent.com/54589605/235303514-8702190c-9346-4ac2-9e92-6bef1ecc2226.png)
+![image](https://user-images.githubusercontent.com/54589605/235303538-ea7a43ef-75df-4460-ba7f-203060dd91b6.png)
+
+> More coming, **change**, less coming, **no change**.
+
+![image](https://user-images.githubusercontent.com/54589605/235303745-96c58d18-3b3d-48cb-a3a6-1ed21bf0a201.png)
+![image](https://user-images.githubusercontent.com/54589605/235303758-f359ecb7-42d5-40cc-b14e-2419dd78ec4d.png)
+
+> **Topper** can be at **any place**. If we like it or not, we have to **compare** all of them.
+
+* ECE -> Every Case
+
+![image](https://user-images.githubusercontent.com/54589605/235304033-73116b6a-1a6f-4355-9357-f9caa6ef04b2.png)
+
+> In a given array, finding **max**, **best case** time is, **O(n)** which is **one scan** and it is mandatory.
+
+* Best, Worst, Average -> **O(n)**
+
+> All of them are **O(n)**. **O(n)** is for **every case**.
+
+> The above program is **without** divide and conquor strategies.
+
+![image](https://user-images.githubusercontent.com/54589605/235329777-a8239654-36b2-4e23-822b-049fabd3796c.png)
+![image](https://user-images.githubusercontent.com/54589605/235329781-146dd7f8-88b6-4758-8eca-0b48d459395c.png)
+![image](https://user-images.githubusercontent.com/54589605/235329784-41056e0f-0741-4cfa-997f-1a1514b97278.png)
+![image](https://user-images.githubusercontent.com/54589605/235329786-bbe1c33e-9a44-44e2-9926-0dceb46a7979.png)
+![image](https://user-images.githubusercontent.com/54589605/235329789-5430133a-ba53-44ed-a00a-f947dd0ce412.png)
+![image](https://user-images.githubusercontent.com/54589605/235329791-6b0d7d32-fc84-412a-827c-6b194c7a0032.png)
+![image](https://user-images.githubusercontent.com/54589605/235329794-88d03559-c2c7-4c3c-ae81-d0ee18c9b6bf.png)
+![image](https://user-images.githubusercontent.com/54589605/235329795-4bd32e56-7bf4-4529-bcb0-275f4d8376d1.png)
+
+
+## DP-II (21) [29th April 2023]
+
+## Finding Max and min using divide and conquor strategies
+
+![image](https://user-images.githubusercontent.com/54589605/235304200-710be72b-6ea4-437d-9626-7e8c0a073106.png)
+
+> Compulsory **one scan** needed. This will also give, **O(n)**.
+
+> Yesterday's algorithm of **Finding Max and min** is without using **divide and conquor strategies**.
+
+* **divide and conquor** abstract algorithm steps:
+
+1) Check for the problem is small or not in the if condition.
+2) 
+
+> Time complexity is decided by **else** part. **If** is for **stopping/termination** purpose.
+
+![image](https://user-images.githubusercontent.com/54589605/235329958-30b33d1d-c975-40e6-b448-4c3fa142112b.png)
+
+> **1-element** is small, **2-element** is also **small**.
+
+> If **1-element** is there in the array, then that element is **max** as well as **min** element of the array. **No comparions** needed.
+
+> If **1-element** is there in the array, then compare once, one element is **max** and one element is **min**. **Only one** comparison needed.
+
+![image](https://user-images.githubusercontent.com/54589605/235330086-1af48ca8-d8a9-49c4-86c4-1e0d0015d29b.png)
+
+> Array containing **7** elements, it is **big**.
+
+> Bigger one is solved in terms of smaller one, it is **recursion**.
+
+> When calculating **mid** value, we need to take **floor** value.
+
+> **1 and 2-elements** mean **small**, stop it.
+
+![image](https://user-images.githubusercontent.com/54589605/235330189-3169745a-99c1-4e1f-8435-523957fc9025.png)
+![image](https://user-images.githubusercontent.com/54589605/235330196-f87a4616-4a3a-4e79-8257-e787757980f9.png)
+
+> **Divides** happened, **combines** will start.
+
+> **3** divides have happened, one that (1,7), another at (1,4) and last at (5,7).
+
+> **3** divides mean compulsory **3** combines will happen or required, otherwise system will not be stabilized.
+
+> Leaf nodes or last level nodes are all **small** problems.
+
+> A node with **zero** children is **leaf** node.
+
+![image](https://user-images.githubusercontent.com/54589605/235330460-a410c9eb-a6a1-4f03-bc17-6225ade77839.png)
+
+> A node with **atleast one** child is **internal** node.
+
+![image](https://user-images.githubusercontent.com/54589605/235330473-62eb73b4-5a8b-4816-a9bc-ddedd67bbaa9.png)
+![image](https://user-images.githubusercontent.com/54589605/235330375-64a67ce4-efd9-465e-848f-b755e9202a46.png)
+
+* YES
+
+![image](https://user-images.githubusercontent.com/54589605/235330521-993d717a-c25e-4613-9ac8-6f9e55c1a203.png)
+
+> Every node is a function call.
+
+> Left child(**c1**) is called **first**. Left is over, then only right child is called.
+
+> To completed **c1**, we need **c2 and c5**.
+
+> To complete **c2**, **c3 and c4** are required. 
+
+> To complete **c3 and c4**, **none or no one** is required.
+
+> To complete **c2**, **c3 and c4** are required and they are available. So, **c2** is completed.
+
+> Then it goes to **c5**. To completed **c5**, **c6 and c7** are needed.
+
+> When **c6 and c7** are over, then **c5** is also over.
+
+> Childern over, then **parents** also over.
+
+![image](https://user-images.githubusercontent.com/54589605/235330811-4ada59a7-543d-4e4e-bdf2-e0a72cce6c50.png)
+
+* First and last line in code. There is no left and right in code.
+
+![image](https://user-images.githubusercontent.com/54589605/235330876-47bdf68b-854b-465b-9801-c8cf2db03988.png)
+![image](https://user-images.githubusercontent.com/54589605/235330914-73c3d458-9da4-4a41-8e8a-583a4fef6003.png)
+
+* c1 -> c2 -> c3 -> c4 -> c5 -> c6 -> c7.
+
+> This ordering is function **calling**.
+
+![image](https://user-images.githubusercontent.com/54589605/235331041-4e8060ad-7283-4b2e-a210-9bc0861eae6a.png)
+
+> **c1** will finish **last**, even though **c1** started **first**, until and unless, rest of them are **finished/over**. **c1** is based on all of the people. If all over, then only **c1** is over.
+
+![image](https://user-images.githubusercontent.com/54589605/235330987-4393c2ed-58d8-4460-b13c-ffabaa032300.png)
+
+> **Left** means **first**.
+
+* Who will complete first?
+
+> **c3**. Leftmost element of the tree, which is a **leaf** node.
+
+![image](https://user-images.githubusercontent.com/54589605/235331075-543225f9-304a-4c7b-a16d-c67bd39dea56.png)
+
+* c3 -> c4 -> c2 -> c6 -> c7 -> c5 -> c1
+
+> This is the ordering of **function execution**.
+
+![image](https://user-images.githubusercontent.com/54589605/235331095-292bfbfa-d45d-4041-a506-e8e42bc1d3be.png)
+
+* Left -> Right -> Root 
+
+> This is called as **post-order**. It is also called as **bottom-up** approach.
+
+![image](https://user-images.githubusercontent.com/54589605/235331137-f407e73f-3075-40d4-9208-876bf9dc5070.png)
+![image](https://user-images.githubusercontent.com/54589605/235331172-aa4cd098-e541-452b-b207-ce2e2ece5610.png)
+![image](https://user-images.githubusercontent.com/54589605/235331193-4b2e0b32-ef9c-4b37-9a3d-d99a05a6061a.png)
+
+* Root -> Left -> Right
+
+> This is called as **pre-order**.
+
+![image](https://user-images.githubusercontent.com/54589605/235331248-9adaf6c1-7fd7-4156-bfdb-e27c165b7569.png)
+![image](https://user-images.githubusercontent.com/54589605/235331369-0317803f-164a-4e87-a4d9-482763893596.png)
+
+> Every programming language uses **pre-order** for function calling.
+
+> Every programming language uses **post-order** for function execution.
+
+![image](https://user-images.githubusercontent.com/54589605/235331413-ab3dae08-c6d2-46f9-946e-8e1508379b38.png)
+
+* Array is contiguous.
+* Linked list may not be contiguous.
+
+![image](https://user-images.githubusercontent.com/54589605/235331531-9c8576d2-9862-4a84-afde-3d3b7c1861d0.png)
+
+* Function call is a **push operation**.
+
+> At **c3**, **c3** can complete directly and call none or no one. As **c3** is a **small** problem.
+
+> At **stack**, **stack-top** will execute.
+
+![image](https://user-images.githubusercontent.com/54589605/235331663-c2dcb91b-132c-4ea7-a8d1-5ae9759698f0.png)
+
+> Completed means **POP**, before **POP**, it returned to it's **parent**. 
+
+* **Siblings** are at the **same** level.
+
+* **Parents and children** differ by **1-level**.
+
+> All children will not come at the same time. One after another, they will come.
+
+![image](https://user-images.githubusercontent.com/54589605/235331828-3a14a05c-b9d7-49cd-8d86-c7102616a35b.png)
+![image](https://user-images.githubusercontent.com/54589605/235331918-2b41545e-7440-4012-ae4a-edd69edba6c3.png)
+![image](https://user-images.githubusercontent.com/54589605/235331933-ff054891-762b-468d-b6e3-0856d240f21d.png)
+![image](https://user-images.githubusercontent.com/54589605/235332042-1a2cc9c5-9607-4e20-9ca1-7f81a4a3c953.png)
+![image](https://user-images.githubusercontent.com/54589605/235332056-cee4950a-33eb-4316-a3f8-6bc32e5d60ae.png)
+![image](https://user-images.githubusercontent.com/54589605/235332100-d6eef294-458a-4ec7-8c77-8494b25aebc4.png)
+![image](https://user-images.githubusercontent.com/54589605/235332129-a71708f4-1a19-446f-b0d2-7ef66759969c.png)
+![image](https://user-images.githubusercontent.com/54589605/235332134-1b2d41f1-5bff-45e3-97bc-e5b48f5ae17c.png)
+
+* How many places divide?
+
+> **3**.
+
+> In those **3** places, **Combine()** also happened. Those many places **divide** happened, those many places, **Combine()** also happened.
+
+> How many times, we **divide**, those many times, we **combine**.
+
+* In the above tree, how many levels?
+
+> **3**.
+
+> Whenever we are dividing, we are **dividing by 2**. Middle means by 2. If we always do by 2, then it is **log n** levels. So, there are **7** elements, then **log 7 base 2** levels. So more than **2** levels, which is **3** levels.
+
+> So, if we always do by 2, then **log n base 2** levels will come. 
+
+> So, if we always do by 3, then **log n base 3** levels will come. 
+
+> So, if we always do by 5, then **log n base 5** levels will come. 
+
+> We are always dividing into two **equal** parts, when **dividing by 2**. Half on the left and half on the right. It is **log n base 2** levels.
+
+![image](https://user-images.githubusercontent.com/54589605/235332367-2d396de6-41d5-4c6c-99f2-c8c5b91bfa44.png)
+![image](https://user-images.githubusercontent.com/54589605/235332378-31ed566c-d057-4f28-b7b6-bf600fe8d19e.png)
+
+> In algo, **floor and ceil** doesn't matter.
+
+* How many levels, in the above tree?
+
+> Asymptotically, **log n** levels.
+
+![image](https://user-images.githubusercontent.com/54589605/235332398-9ad559f6-4374-46fa-9a1d-f5503320096f.png)
+
+> Always dividing by 2, so **3** level tree came. what is that tree? **log n base 2**.
+
+![image](https://user-images.githubusercontent.com/54589605/235332428-63a21fc5-9116-4326-a959-adbc4e64a334.png)
+![image](https://user-images.githubusercontent.com/54589605/235332429-bf86513a-7702-4589-ac19-e14993537d64.png)
+
+> **Tree** and **stack** both are **same**. **YES**.
+
+> In the **stack**, **c1** will be at the **bottom**, but in the **tre**, **c1** will be at the **top**.
+
+> Rotate the tree, **180 degrees** and we will get **stack**.
+
+> In-side, computer **stack** will be there. **Tree** is for **our/human's** purpose.
+
+* Computer -> Stack
+* Humans -> Tree
+
+> Computer never contains **tree**. It contains **stack**.
+
+![image](https://user-images.githubusercontent.com/54589605/235332560-4e0d0da3-3957-49b4-9157-c37e8980a0d5.png)
+
+* How many levels, stack has?
+
+> Stack contains as many levels as tree does, because **stack and tree** are **same** only.
+
+> So, it is **log n**.
+
+![image](https://user-images.githubusercontent.com/54589605/235332615-25306161-d87f-4ea7-9947-a47201ad0f3d.png)
+![image](https://user-images.githubusercontent.com/54589605/235332631-de0cc2e3-800b-42c9-be18-5b25a334bab8.png)
+
+> Since dividing by 2, so **base 2**.
+
+> Those many **divides**, those many **combines**.
+
+> The tree level is **log n**.
+
+![image](https://user-images.githubusercontent.com/54589605/235332656-04008c96-73b9-4204-bcb0-105d6bef90dc.png)
+
+> Everywhere is **divide by 2**. So, **log n base 2**.
+
+![image](https://user-images.githubusercontent.com/54589605/235332734-88722cea-ddc1-462d-8cc6-3f1e03ff3ed1.png)
+![image](https://user-images.githubusercontent.com/54589605/235332774-06e7eadc-ffd8-4f9e-aa11-0bde1566e59a.png)
+
+* Done, after **divide**.
+
+> Using **Divide and comquor** technique.
+
+![image](https://user-images.githubusercontent.com/54589605/235332851-f58f6b04-0263-46ba-bd70-cd03ba5077e0.png)
+![image](https://user-images.githubusercontent.com/54589605/235332869-f26d26e1-0de4-4e45-9a40-e955587a068b.png)
+
+* Divided into **3** parts. **Log n base 3**.
+
+![image](https://user-images.githubusercontent.com/54589605/235332960-6ddac40a-60bd-4ab0-96cf-b0669abbcbc1.png)
+![image](https://user-images.githubusercontent.com/54589605/235332964-b949882f-1bd0-47c4-ac1e-8e0f03ec605d.png)
+![image](https://user-images.githubusercontent.com/54589605/235332997-091e5737-fb3b-4459-ac18-edba19eb5dfe.png)
+  
+> Recursive program **running** is time consuming.
+
+![image](https://user-images.githubusercontent.com/54589605/235333370-818d6c6d-7325-43e1-a298-3a3be5a8cc4e.png)
+![image](https://user-images.githubusercontent.com/54589605/235333376-7e26ca05-9021-4216-a865-04f6a1565816.png)
+![image](https://user-images.githubusercontent.com/54589605/235333432-a43ed770-407c-40fd-a2bb-fa630e366756.png)
+![image](https://user-images.githubusercontent.com/54589605/235333446-a4419c18-34b4-4be1-894c-20be1e16d84e.png)
+
+* Small and solution(if part). **If** part is **small** problem.
+
+![image](https://user-images.githubusercontent.com/54589605/235333459-25c9f165-633c-43b8-b1ee-19d1d1e3ba07.png)
+
+> **else** part is **big** problem.
+
+![image](https://user-images.githubusercontent.com/54589605/235333496-17f04f9c-e96a-47b4-ac0e-992d9c44e458.png)
+![image](https://user-images.githubusercontent.com/54589605/235333543-6db1826d-b4ff-4b12-9612-d53a10d97a80.png)
+![image](https://user-images.githubusercontent.com/54589605/235333573-c5631669-157f-4d4a-999c-b017c5043f06.png)
+
+> Conquor completed successfully, we got **left and right** answer. Now, we can go for **Combine()**.
+
+> Inputs of **Combine()** are the **outputs** of **Conquor()**.
+
+![image](https://user-images.githubusercontent.com/54589605/235333643-5b0c6476-52c5-477a-aa4b-f6d232ad7587.png)
+![image](https://user-images.githubusercontent.com/54589605/235333661-ae5430a3-ffe3-4ddb-a53d-318df7e09b01.png)
+
+> So, the **Combine()** algo will take **4** things as inputs, it will **return**, **2** things as **output**.
+
+> **Conquor** over means we have **4** things, **max1, min1, max2 and min2**.
+
+![image](https://user-images.githubusercontent.com/54589605/235333741-8da99b61-8d0a-45e9-8173-f8067d7ad5b9.png)
+![image](https://user-images.githubusercontent.com/54589605/235333763-5b588eea-dc0f-41ae-875d-bc1bf540e7d0.png)
+
+> Just take both the **max** and find out which is the real **max**.
+
+> Just take both the **min** and find out which is the real **min**.
+
+> Now, we got **overall**, **max and min**.
+
+![image](https://user-images.githubusercontent.com/54589605/235333798-1eb2f0f8-314f-48b1-8b5c-b4cbcc15cb7b.png)
+![image](https://user-images.githubusercontent.com/54589605/235333803-af2e4315-99cd-49e0-bf93-ac46ab30c48c.png)
+![image](https://user-images.githubusercontent.com/54589605/235333812-21c5d850-4307-480e-ae06-2b0de524bf77.png)
+
+> We are dividing into **2** parts.
+
+> If we divide into **3** parts, then we will get **3** maximums(max1, max2 and max3).
+
+![image](https://user-images.githubusercontent.com/54589605/235333879-aeb39ca3-069b-4199-859c-28ac0e174ca0.png)
+
+* Recursion will take care.
+
+![image](https://user-images.githubusercontent.com/54589605/235333890-8d0621df-b19c-47bc-a2dc-e9d20f43df62.png)
+
+* Conquor. Solving **sub-problems** is **conquor**.
+
+> **Conquor** step is over means, we got the **answers/solutions** for the **sub-problems**. Now, we can **combine**.
+
+> In **combine**, we are **comparing**.
+
+* Steps:
+
+1) First **Divide()**.
+2) Then **sub-problems** came.
+3) Solve **sub-problems**, that is **recursion**. This is **Conquor()**.
+4) Then **Combine()**.
+
+![image](https://user-images.githubusercontent.com/54589605/235333979-6fd8195c-d858-42da-8b47-364a4b447393.png)
+![image](https://user-images.githubusercontent.com/54589605/235334007-7b503264-c55b-42b0-8cba-63e066321e0a.png)
+
+> We have **divided** the problem into **two** equal parts.
+
+![image](https://user-images.githubusercontent.com/54589605/235334035-667cde01-b2cc-458c-b8d5-58f5074c3f7b.png)
+![image](https://user-images.githubusercontent.com/54589605/235334042-bff17a76-8391-47c6-ba03-a358407e3c05.png)
+
+> Divde and conquor, max-min for **n** people is **T(n)**.
+
+> Divde and conquor, max-min for **n/2 or half people** people is **T(n/2)**.
+
+![image](https://user-images.githubusercontent.com/54589605/235334083-26e7a201-e1b3-450b-a125-218befe15e4b.png)
+
+> After getting both the solutions, we will **Combine()**. Inside, **Combine()**, there is no **for** loop. So, it is **constant or O(1)**.
+
+![image](https://user-images.githubusercontent.com/54589605/235334100-37c99ad4-3e1f-4762-a788-09cbf54adfc4.png)
+
+> For **Divide()**, there is no **for** loop. So, it is **constant or O(1)**.
+
+![image](https://user-images.githubusercontent.com/54589605/235334114-2d76889b-91c7-4a9b-ad6e-b38d2a7f5316.png)
+
+> For **Small() and Solution()**, there is no **for** loop. So, it is **constant or O(1)**.
+
+![image](https://user-images.githubusercontent.com/54589605/235334137-89a95080-6508-432b-bfda-aea86fc23f58.png)
+
+## Time complexity of above program.
+
+* Write Recurrence relation for **time**.
+
+![image](https://user-images.githubusercontent.com/54589605/235334180-d733189f-c138-46d8-bab8-7a76d7430dac.png)
+
+* **T(n)** = 2 * T(n/2) + C
+
+> **C** is the amount of time required for **both**, **Divide() and Combine()** functions. Amount of time is for **first level** only.
+
+![image](https://user-images.githubusercontent.com/54589605/235334216-f1cf7348-0114-4319-9ceb-ca1e74381a91.png)
+![image](https://user-images.githubusercontent.com/54589605/235334235-2cae9fdd-d7b3-42c8-8996-1bdc826da9a4.png)
+
+> In the **first level**, we have done **Divide() and Combine()** function both.
+
+![image](https://user-images.githubusercontent.com/54589605/235334253-a068872a-b5c5-4b7c-a172-e4fe2179fbae.png)
+![image](https://user-images.githubusercontent.com/54589605/235334264-7cab0f89-45e3-472c-b47c-6d6816618ade.png)
+![image](https://user-images.githubusercontent.com/54589605/235334271-8691b04b-dd44-4ca2-8aa0-ae1098c25e20.png)
+![image](https://user-images.githubusercontent.com/54589605/235334278-c8a0a676-2684-4a30-ac52-68c65fb5c80d.png)
+
+> **n** is **bigger** than **c**. We have to **divide** right side **n** with **n**, so that both the sides are **equal**. So, we are **dividing** by **polynomial**, means **n** is **polynomial** times **bigger** than the left side person.
+
+> Hence, **Case 1 and 3** are allowed, so, whoever is **bigger** is the **answer**.
+
+> So, **n** is **bigger**, hence **Theta(n)**.
+
+![image](https://user-images.githubusercontent.com/54589605/235334306-e54b6192-c0a0-4415-b69e-67133d4bee8b.png)
+![image](https://user-images.githubusercontent.com/54589605/235334349-a7b1ccc1-839b-4478-9f90-09b74f530e9d.png)
+![image](https://user-images.githubusercontent.com/54589605/235334397-66ac5de9-0b5c-464d-a364-68f9679ea257.png)
+
+> **Log n** time in **substitution** method is called as **stack space**, which is **how many times we have substituted**. 
+
+![image](https://user-images.githubusercontent.com/54589605/235334426-369ebf65-23c0-4b70-99d4-0870ca43a69f.png)
+![image](https://user-images.githubusercontent.com/54589605/235334454-a0b80248-3113-49ba-9698-0c7f49d8f462.png)
+
+> **Divide()** time is **constant** because there are **no loops** in the **Divide()** code.
+
+> **Combine()** time is **constant** because there are **no loops** in the **Combine()** code.
+
+> In the **if** condition, there are **no loops** so, the **Small() and Solution()** functions have **constant** time.
+
+![image](https://user-images.githubusercontent.com/54589605/235334487-e3e80ccc-fb43-4a21-bee3-3f008c3d7c6c.png)
+
+> In **Conquor()**, it is always **same**, because **recursion** is always **same**.
+
+> **Master's theorem** doesn't give any clarity about, no. of **levels** in the tree. **NO**. **Master's theorem** purpose is only **answer**.
+
+![image](https://user-images.githubusercontent.com/54589605/235334584-08b2bb9d-dcb7-4577-980b-0e5a123c87d5.png)
+
+* Continuing **substituiton** method.
+
+> We can **stop** at **1 or 2**.
+
+![image](https://user-images.githubusercontent.com/54589605/235334637-e88c5a0d-ce87-41b1-bb0e-5bbed6eb9920.png)
+![image](https://user-images.githubusercontent.com/54589605/235334640-f63e1778-3318-43b9-ab7a-41c344096401.png)
+
+> Last level is **n/2** people.
+
+![image](https://user-images.githubusercontent.com/54589605/235334661-e13091ec-ecdc-4605-8a57-23e4abf00045.png)
+![image](https://user-images.githubusercontent.com/54589605/235334669-2c35189f-90ac-4b0b-b251-28bac7347418.png)
+
+> Leave it. Approximated is **OK**.
+
+![image](https://user-images.githubusercontent.com/54589605/235334704-8b0321b8-57c2-4369-8e6b-c4a4786e08d9.png)
+
+## Slide Numebrs
+
+![image](https://user-images.githubusercontent.com/54589605/235334713-39cfdf93-424a-4f60-96f4-101481842865.png)
+![image](https://user-images.githubusercontent.com/54589605/235334722-7a43162f-f208-4285-ad00-257e60c02a20.png)
+![image](https://user-images.githubusercontent.com/54589605/235334724-db886526-7376-4544-a0dc-d95de6be68ea.png)
+![image](https://user-images.githubusercontent.com/54589605/235334731-c7ec2897-f3af-4a0f-af85-bcf16f783580.png)
+![image](https://user-images.githubusercontent.com/54589605/235334735-bb5dc137-844b-4c9e-90c5-c69e1661fb4f.png)
+
+![image](https://user-images.githubusercontent.com/54589605/235334740-6117952d-2f5f-4e87-89d1-bbbdfa179550.png)
+
+* Same only
+
+* Space Complexity -> Stack Space -> O(log n).
+
+![image](https://user-images.githubusercontent.com/54589605/235334755-20f77e46-d568-42f5-8f40-5d294a282736.png)
+
+> Master's theorem will not give **stack space**. It will only give **answer**.
+
+## Doubt_Clearing_Session (22) [30th April 2023]
+
+* Time complexity recurrence relation  -> 2T(n/2) + C. -> Theta(n)
+
+![image](https://user-images.githubusercontent.com/54589605/235347534-bb76b52b-3865-4064-a7c2-8ceb4d3d567c.png)
+
+> **Else** is **more** valuable.
+
+> The **time complexity** to find max-min is **O(n)** for **every case**. We cannot stop in-between. It is **every case**.
+
+![image](https://user-images.githubusercontent.com/54589605/235347626-ccfd578d-fd1b-4fa4-90cb-3c9cf63c5c22.png)
+
+> Recursive program's **space** is based on **no. of levels**.
+
+> Stack space is based on **no. of levels**.
+
+* c1 push -> c2 push -> c3 push -> c3 pop -> c4 push -> c4 pop -> c2 pop -> c5 push -> c6 push -> c6 pop -> c7 push -> c7 pop -> c5 pop -> c1 pop
+
+> If completed, then only **popped**.
+
+> **Function calling and function execution**, both are done **simultaneously**, if possible, **immediately** done.
+
+> **c2 and c5** are **sibling**, once **c2** is **popeed**, then only **c5** is **pushed**.
+
+> Whenever recursive programming is executing, **stack space** is based on **no. of levels**. [**IMPORTANT**]
+
+> Recursive programs, create a recursive **tree**, which is nothing but a **stack**. In the stack, **how many levels are there** is called as **stack space**.
+
+> If we want **time complexity**, then solve recurrence relation for **time**.
+
+> We have substituted **log n** times as there are **log n** no. of levels in the tree, that's why **stack space or space complexity** is **log n**.
+
+![image](https://user-images.githubusercontent.com/54589605/235350123-6554d3dd-dcae-4d29-ae80-b9fd3dd97ea2.png)
+![image](https://user-images.githubusercontent.com/54589605/235350157-137efd8a-6b4d-45b3-8a2d-0312175f65b6.png)
+
+> **Array** is fixed space only.
+
+> Finding **max-min**, **else** part is **important**.
+
+* Divide -> O(1)  [No loop]
+* Left part(sub-problem) -> T(n/2)
+* Right part(sub-problem) -> T(n/2)
+* Combine -> O(1) [No loop]
+
+![image](https://user-images.githubusercontent.com/54589605/235350314-3f1234f9-6c3f-4bde-a949-61fee2af118a.png)
+
+> From problem to problem, those **4** functions(Divide, 2 * Conquor, Combine) will **change**. Whenever **code** changes, **time complexity** will also change.
+
+> The above problem's **time complexity** is **O(n)**.
+
+> Conquor is always **recursion** and there are **two** function calls, so **2 * T(n/2)**.
+
+![image](https://user-images.githubusercontent.com/54589605/235350451-2eea791b-7d0b-4fa6-93cb-486e7a416d8d.png)
+
+> Less function calls **less time**. 
+
+> More function calls **more time**. 
+
+> If we divide **one element**, each level, then the **no. of levels** is **n**. **n** level stack required. Stack size increasing.
+
+> Time complexity is **same** which is **n** only but **space** is **increasing**.
+
+> Unnecessarily **space is increasing**.
+
+![image](https://user-images.githubusercontent.com/54589605/235350855-6b9c28ac-f4f9-41ee-bd4c-54d40af343a7.png)
+
+* Let c(n) be the no. of comparisons between the elements in the above algorithm on **n-elements* array.
+
+> Divide and conquor for **max-min** for **n** elements is **c(n)** comparisons.
+
+> Divide and conquor for **max-min** for **n/2** elements is **c(n/2)** comparisons.
+
+![image](https://user-images.githubusercontent.com/54589605/235350997-88db70a5-44ac-4feb-889f-166c98c4c7f1.png)
+
+> For **1-element**, no comparisons.
+
+> For **2-elements**, one(1) comparison is there.
+
+> **Divide()** has no comparisons.
+
+> In **Combine()**, there are **2** comparisons.
+
+![image](https://user-images.githubusercontent.com/54589605/235351070-dd839421-61fb-4f11-9d30-7fc00960e949.png)
+
+* We are calculating **comparisons**.
+
+> Don't write **constants**, write the exact **numbers**, we are not calculating **time complexity** here.
+
+> For **if** purpose, bring **n** value, in **else** don't bring **n** value. It is **very big**.
+
+> Don't give number for **conquor**, it is **recursion**.
+
+> For **non-recursion**, we can give number.
+
+![image](https://user-images.githubusercontent.com/54589605/235351426-0ed45197-94dc-4600-985f-1faf1c4361b9.png)
+
+> a[i] and a[j] are comparison **between elements**, it will give **value**.
+
+> i and j are comparison **between positions**.
+
+![image](https://user-images.githubusercontent.com/54589605/235351469-12f1d902-106c-4cad-a2ab-9fbbe6920167.png)
+
+> Question asked, comparisons between it's elements.
+
+* Recurrence relation **comparisons**.
+
+> The goal is **else** part only and not **if** part.
+
+![image](https://user-images.githubusercontent.com/54589605/235351532-1e15a6b6-681e-4ef1-87cd-44666adf4366.png)
+
+* Exact number required. 
+
+> We have to do **substitution** method, because we want **exact** answer.
+
+> First and second level **non-recursive** term is **different**.
+
+![image](https://user-images.githubusercontent.com/54589605/235352402-086a493e-ca91-4d4f-bb1f-34f1742dfaec.png)
+
+> For first level, **Divide is zero(0)**, **Combine is 2**, so the overall is **2** for the **first level**.
+
+> For second level, **Divide is zero(0)**, **Combine is 2**, so the overall is **0 + 2 + 0 + 2 -> 4 -> 2^2** for the **second level**.
+
+> For third level, **Divide is zero(0)**, **Combine is 2**, so the overall is **0 + 2 + 0 + 2 + 0 + 2 -> 8 -> 2^3** for the **third level**.
+
+> For every level, **Divide and Combine** is going on.
+
+![image](https://user-images.githubusercontent.com/54589605/235352540-0cb57307-82ad-4369-83a3-f63ee20d767c.png)
+![image](https://user-images.githubusercontent.com/54589605/235352631-fda5d910-f340-4bc2-a941-bdf48dea1e4b.png)
+
+> We have **two** terminations, **1 and 2**, we can stop at **2** also.
+
+![image](https://user-images.githubusercontent.com/54589605/235352698-87b01b9d-7166-4a3c-a376-6822a54b8770.png)
+
+* c(2) -> 1.
+
+![image](https://user-images.githubusercontent.com/54589605/235352872-c6816f28-c8f0-4586-8230-ba3f52c5f062.png)
+
+* We did **exact**.
+
+> The algo to find **max-min** using divide and conquor, will take **1.5 * n - 2** comparisons.
+
+![image](https://user-images.githubusercontent.com/54589605/235352934-86964173-c7dc-4e0a-a72f-90e2f7a15334.png)
+
+* To find **max-min** using divide and conquor, how many comparisons needed?
+
+> **1.5 * n - 2** or **(3 * n)/2 - 2** comparisons.
+
+> Anything we can use for **asymptotic notations**. That should be **last line**, don't do anything in-between.
+
+* Actual answer is **1.5 * n - 2** or **(3 * n)/2 - 2** comparisons, which is **Theta(n)**.
+
+![image](https://user-images.githubusercontent.com/54589605/235353105-7db89912-0166-4d96-a8b5-8972dbb56193.png)
+
+* In **MSQ**, both are correct.
+
+> If **exact** is there, then why go for **approx** answer. [**IMPORTANT QUESTION**]
+
+* **1.5 * n - 2** or **(3 * n)/2 - 2** comparisons is for **n > 2**.
+
+![image](https://user-images.githubusercontent.com/54589605/235353172-ebe9b70f-5b15-49d5-a5b1-e09c39b922e9.png)
+
+* What is the prodecure to find **1.5 * n - 2** or **(3 * n)/2 - 2** comparisons? [**IMPORTANT QUESTION**]
+
+> Write the recurrence relation and solve it using substitution method.
+
+![image](https://user-images.githubusercontent.com/54589605/235353249-d0a40b63-b1ec-4c91-9610-080a74bdd1a6.png)
+![image](https://user-images.githubusercontent.com/54589605/235353268-631ef632-792e-47c8-bee8-f61d7ef03075.png)
+
+> One is **left max and right max** comparion. Another is **left min and right min** comparison. So that we get the overall **max and min**.
+
+![image](https://user-images.githubusercontent.com/54589605/235353341-4e0c5704-f034-4857-b27a-ead3096bf5ac.png)
+![image](https://user-images.githubusercontent.com/54589605/235353355-f920b907-cfa0-49f4-8b66-9e34515e6847.png)
+
+> **Total divide and conquor with every application** is having **similar** story.
+
+![image](https://user-images.githubusercontent.com/54589605/235353444-88caa4f8-6ac0-4a3d-a68d-0def85eae7b7.png)
+![image](https://user-images.githubusercontent.com/54589605/235353454-c5524c5e-2b40-4cf9-a89b-7c617eacb073.png)
+
+* Both are **similar**.
+
+> In recurrence relation for **time**, **c** is constant so we can write **O(1)**. It can be **anything**.
+
+![image](https://user-images.githubusercontent.com/54589605/235353498-5b54a3d1-23ec-48d0-b40b-888fe70c73d8.png)
+
+> In recurrence relation for **comparisons**, it is **2**, nothing more and nothing less.
+
+> The program had **two(2)** terminations(1 and 2), and we stopped at **2** element.
+
+> If we continue **one more level** till **1**, then **one more term** will **increase**. Automatically, **comparisions** will **increase**.
+
+> Then it will become **2 * n - 2**.
+
+![image](https://user-images.githubusercontent.com/54589605/235353679-7608c5ce-b28a-4d04-ba1e-4e77535d622e.png)
+
+> We have chance to end at **element 2**, then why we should go to **element 1**. Stop at **2**.
+
+> Stopped at **2** for **less comparisons**.
+
+> **2** will come first, so that we can **stop** one level. [**IMPORTANT**]
+
+![image](https://user-images.githubusercontent.com/54589605/235353872-f9feec3d-b506-425d-9123-ad8c4722cbd6.png)
+
+> Among **Divide and combine**, **Combine()** is take more **comparisons**.
+
+![image](https://user-images.githubusercontent.com/54589605/235353937-4c6cd2cd-149f-4266-82a0-d74917c14c50.png)
+
+> If we want **approximation**, then go to asymptotic notation.
+
+> In the **time complexity** recurrence relation, the final time we got was **Theta(n)**.
+
+> In the **comparisons** recurrence relation, the final comparisons we got was **Theta(n)**.
+
+> They are **same**.
+
+![image](https://user-images.githubusercontent.com/54589605/235354209-9f4586fb-1e4d-4ceb-853e-f4461bb84fcd.png)
+
+> They both will take same **time**. The **constant factor** in **stright max min** algo will take **more comparisons**.
+
+* Finding **max-min**, how many comparison?
+
+> **1.5 * n - 2** or **(3 * n)/2 - 2** comparisons.
+
+## Problem
+
+![image](https://user-images.githubusercontent.com/54589605/235354348-ce92beaa-2c13-48eb-a741-500f9ef60b26.png)
+
+* To find **max-min** in the array of 100 elements, comparisons needed?
+
+> 1.5 * n -2 -> 1.5 * 100 -2 -> 150 - 2 -> 148.
+
+> Remember the **comparisons**.
+
+![image](https://user-images.githubusercontent.com/54589605/235362471-443dc197-92f1-4254-8cd5-67e6c4bbfe62.png)
+![image](https://user-images.githubusercontent.com/54589605/235362567-c1cc2c63-c3e7-468d-9a34-77bbe5e71002.png)
+
+> When **no algo** mentioned, which ever **better**, go for that.
+
+> If mentioned, take that only.
+
+> If nothing mentioned, we have flexibility.
+
+![image](https://user-images.githubusercontent.com/54589605/235362949-de9e9bbf-49d4-49d1-9e62-a331d54a84db.png)
+![image](https://user-images.githubusercontent.com/54589605/235363531-d87122bd-3976-4c58-80b3-225b565812f1.png)
+
+> Repeatation not allowed. Sorted yes.
+
+![image](https://user-images.githubusercontent.com/54589605/235363598-8dd3b4a6-8576-460a-b250-38486e83a89a.png)
+
+* Time complexity is **O(1)**.
+
+> No comparisons.
+
+![image](https://user-images.githubusercontent.com/54589605/235363698-5e574f01-c34d-466d-ba8e-2d0ca3ae2a18.png)
+
+* Best Algo only -> O(1), constant time. Every case
+* return (2nd element)
+
+> Other than **first and last** element, return any element.
+
+![image](https://user-images.githubusercontent.com/54589605/235363763-def5f878-a83a-4349-b72a-0dde686b1a72.png)
+![image](https://user-images.githubusercontent.com/54589605/235363774-e8bc6041-6546-4a15-b240-011f1c798ee8.png)
+
+> To find **max-min**, we have a well known algo. Worst case is that we have to use that algo.
+
+> The question didn't mention, give **best algo** but also didn't say give **worst algo** as well. If nothing mentioned give **best algo** because there is no limit or limitation end of **worst algo**.
+
+![image](https://user-images.githubusercontent.com/54589605/235364025-2925cc08-b5b1-423c-ba93-d4b2b5ef0845.png)
+![image](https://user-images.githubusercontent.com/54589605/235364416-1ba5c70c-5e3d-4276-90c1-6039d54020eb.png)
+
+![image](https://user-images.githubusercontent.com/54589605/235364471-a4a061ef-accd-4fde-b487-48433d9cfa98.png)
+
+* Not sorted. No duplicates.
+
+> We have to scan the whole array **once** to find the **min and max** elements. Then only we can give an element which is neither max nor min.
+
+> So, time complexity is **O(n)**, which is the worst case. 
+
+> Let's try to find if any better time complexity is there or not.
+
+> Take first three elements and sort them. It will take **constant** time. **80** is the **answer** because he is either min nor max, as there is **10** which is a min element and there is **90** which is the max element.
+
+> So, **80** is either min nor max element.
+
+> As there is one element which is less than **80** and there is one element which is more than **80**. 
+
+> The entire process will take **constant or O(1)** time. [**Correct Answer**]
+
+![image](https://user-images.githubusercontent.com/54589605/235365208-28e63ada-526b-4cbb-b60c-d18b7edfd16a.png)
+![image](https://user-images.githubusercontent.com/54589605/235365311-3075240f-d1a1-4001-bee0-972f8463b1e6.png)
+
+> To find out **1 element** which is either max nor min, we don't need to scan the whole array.
+
+> Take first **3 elements**, sort them. Return **middle** person.
+
+> Middle person should be the **answer** because there is **one element more** than middle element and **one element less** than middle element.
+
+> Any **3 people** ok, sort them and return **middle** element.
+
+* Time Complexity -> O(1) [Best algo, Every case(EC)]
+
+![image](https://user-images.githubusercontent.com/54589605/235365548-379ab773-0ecb-4930-98fb-5704517e8023.png)
+![image](https://user-images.githubusercontent.com/54589605/235365657-efdf4e2b-857c-4ad8-8c88-c2df3fd199c0.png)
+
+* Straight max-min without divide conquor strategies -> (2 * n) - 1.
+* Max-min using divide conquor strategies -> (1.5 * (n)) - 2.
+
+> **Max-min using divide conquor strategies** is asymptotically **better** than **Straight max-min without divide conquor strategies**.
+
+> In both of them, we are doing **one scan**.
+
+> Both of the algos are the **same**. 
+
+## Required slides
+
+![image](https://user-images.githubusercontent.com/54589605/235366066-b5fd1e1b-3486-4359-aebc-4501852757bd.png)
+![image](https://user-images.githubusercontent.com/54589605/235366078-5515820b-6c36-4924-a5bd-bcd7122b29a3.png)
+![image](https://user-images.githubusercontent.com/54589605/235366083-a18fc524-a55d-4cf7-89e8-776f6ce54e53.png)
+![image](https://user-images.githubusercontent.com/54589605/235366085-1781cd70-723e-4341-b3f7-75f1fbc45baf.png)
+![image](https://user-images.githubusercontent.com/54589605/235366093-0f419529-7c81-4f72-93ce-a0b4a853af20.png)
+
+> In one problem, we don't know which one to apply, either **straight max-min** or **divide and conquor max-min**, then always apply **divide and conquor max-min**, that's the last one we have to see.
+
+![image](https://user-images.githubusercontent.com/54589605/235366190-ea367dc1-a1bb-48ce-ae92-cc539d30c011.png)
+
+* Not sorted but distinct is there.
+
+![image](https://user-images.githubusercontent.com/54589605/235366220-7e90a21b-8f55-4b34-aed9-a0614fed9834.png)
+![image](https://user-images.githubusercontent.com/54589605/235366275-e9115f16-1159-4d61-947f-8aa3770b563b.png)
+
+* Same as above problem but **not sorted** and **not distinct**.
+
+> Repetition is allowed.
+
+> We took first **3 elements**, sort them and returned the **middle** element. We cannot do this because of **non-distinct** elements. There is no gurantee now.
+
+> Worst case is we have to **scan array once**.
+
+> So, time complexity is **O(n)**.
+
+![image](https://user-images.githubusercontent.com/54589605/235366414-696dae23-67b5-4813-bef6-f2ebc8968ac3.png)
+
+> This is the **only algo** possible.
+
+* **Time complexity**  ->  **O(n)** [Best algo]
+* Worst Case -> **O(n)**.
+* Best Case -> **O(1)**.
+
+> We didn't get any doubt of **best, worst or best** case in the previous questions, because all of the **cases** were the same, that's why we wrote **Every Case(EC)**.
+
+> In the above question, we have different time complexities for different cases.
+
+![image](https://user-images.githubusercontent.com/54589605/235366568-57e5cd8b-0fca-4982-95b8-ad82054946bf.png)
+![image](https://user-images.githubusercontent.com/54589605/235366596-08295c0b-d2ad-4e47-8a0b-fe846b8d7526.png)
+
+## DAC-VII (23) [30th April 2023]
+
+## 2. Power of an element
+
+![image](https://user-images.githubusercontent.com/54589605/235367653-ac061971-cbab-4b98-94ec-1afc8cd71107.png)
+![image](https://user-images.githubusercontent.com/54589605/235367787-d770488a-fb89-45fb-957c-42cea190d597.png)
+
+> Everytime, **a** is **multiplied**.
+
+* Time complexity -> **O(n)**.
+
+> Above algo is **without** divide and conquor strategies, normal approach.
+
+![image](https://user-images.githubusercontent.com/54589605/235367988-2da2b21e-c34f-4eb5-a4e1-23d2c4fce11b.png)
+![image](https://user-images.githubusercontent.com/54589605/235368012-dc782af5-d3cf-4c75-a474-7f4c1acc4248.png)
+
+* Goal is with divide and conquor strategies, only.
+
+![image](https://user-images.githubusercontent.com/54589605/235368070-bbaaa982-f55c-4ab1-a094-96d8fa0e1862.png)
+![image](https://user-images.githubusercontent.com/54589605/235368182-7a91d2ae-7561-492e-a906-0a0717758e79.png)
+
+> With **divide and conquor** strategies, we will first **Divide()**. We have to **divide**.
+
+![image](https://user-images.githubusercontent.com/54589605/235368285-d87bee17-1cce-44d7-9fd5-da4bc5e2dbd6.png)
+
+> Calculate **both** and **multiply**.
+
+> We have to define, **small problems**.
+
+![image](https://user-images.githubusercontent.com/54589605/235368328-80a53cec-8852-4ba7-959f-3efe40b6d976.png)
+![image](https://user-images.githubusercontent.com/54589605/235368392-54dad1ee-1f8a-415c-a3d9-8830549f0569.png)
+
+> One time, we have **saved**, we can further use it. It is the **power of loops**.
+
+> According to problem, we have to take care.
+
+> **Always by 2**, so, **log n** levels.
+
+> We divided **32**, 5 times.
+
+* log n base 2 -> log 32 base 2 -> log 2^5 base 2 -> 5 [**Answer**]
+
+> Afte getting **sub-problem** answer. **b and b**.
+
+> Our goal is **algorithm**.
+
+> We already got **half answer**.
+
+![image](https://user-images.githubusercontent.com/54589605/235369154-cb8ad9ad-4d8c-4eea-933a-d9c35e526164.png)
+![image](https://user-images.githubusercontent.com/54589605/235369206-fd5c1c53-9cce-430c-b1c5-7642fd070683.png)
+
+> So many **recursive calls** are there.
+
+![image](https://user-images.githubusercontent.com/54589605/235369242-0b01ef4b-bdad-4d81-8478-4108540b883d.png)
+
+* Recursion.
+
+> While **execution** going on, so many **recursive calls**.
+
+> We will write the code, **only once**.
+
+> If we write it many times, then no point of **Recursion**.
+
+![image](https://user-images.githubusercontent.com/54589605/235369506-62d697c1-9297-4ad1-a66c-7ff083756026.png)
+
+> Recursive program writting, we will just give **path**.
+
+![image](https://user-images.githubusercontent.com/54589605/235370084-7239a499-0cc4-413c-aad0-57a0969f524e.png)
+![image](https://user-images.githubusercontent.com/54589605/235370116-bf21279a-1da5-4677-8a9a-36588aea9ee1.png)
+
+> All divide and conquor strategies have these **4** functions only.
+
+> **Small, Solutions, Divide and Combine** have **no loops**, so their **time complexity** is **O(1)**.
+
+![image](https://user-images.githubusercontent.com/54589605/235370256-5d2cb2f0-36d2-4469-9256-fdffb98a8e20.png)
+![image](https://user-images.githubusercontent.com/54589605/235370272-3cbf3adf-1be4-441b-91d6-592d27468835.png)
+
+* Let, **T(n)** be the time complexity of the above algo to find **a^n**.
+
+* **c** is **constant**, but it is the **amount of time** required for both **Divide() and Combine()** at **first** level.
+
+* It is a **unary** tree. Everywhere , **one(1) c**, because of **one function call**.
+
+![image](https://user-images.githubusercontent.com/54589605/235370477-bdef2196-8a48-45f6-9bdd-9996b55bc648.png)
+
+> Time complexity of **a^n** value after using divide and conquor strategies is **O(logn) or Theta(log n)**.
+
+![image](https://user-images.githubusercontent.com/54589605/235370627-a979479a-1dd5-41d3-adb7-f8ea7976d478.png)
+
+> If we repeat it, **log n** times, then we will get **log c**.
+
+![image](https://user-images.githubusercontent.com/54589605/235370660-1b5f7599-1d7f-42c4-bc2a-3a8abf0c43de.png)
+
+> **a^n, where n=1** is a **small** problem. So. it is **O(1)**.
+
+> Big problem cost is **log n**.
+
+> Overall cost is **small + big problem** cost which is **O(1) + O(log n)**. So the overall cost is **O(log n)**.
+
+![image](https://user-images.githubusercontent.com/54589605/235370790-1c56ffad-01ad-4a43-8ded-abcc7de123ab.png)
+![image](https://user-images.githubusercontent.com/54589605/235370827-ff1491a5-e42e-41d2-bb3d-338131907804.png)
+
+> Left and right side, **bigger** function **same**, so we can write **theta** also.
+
+![image](https://user-images.githubusercontent.com/54589605/235370863-b12c1ca5-01fa-4607-ab16-9ad0a7052da2.png)
+
+* Stack space -> **O(log n)**.
+
+![image](https://user-images.githubusercontent.com/54589605/235370874-bc3cb3ff-0ac2-4daf-87eb-60bfee2a50b4.png)
+![image](https://user-images.githubusercontent.com/54589605/235370910-b7d2f6ec-778b-4b0b-88b1-6bbee74d2ad1.png)
+![image](https://user-images.githubusercontent.com/54589605/235370926-45234910-3993-4faf-97b0-f01d3b15fba4.png)
+
+* Final answer what we got is for **time** which is **Theta(log n)**.
+
+![image](https://user-images.githubusercontent.com/54589605/235370964-2d6fcdb5-6c6b-4613-ae87-3c10b420d018.png)
+
+> We can also solve it using **master's theorem**. Both sides are **c or constant**, which means we got **case 2**. So we can add **(log n)^0** to the right side, so that both the sides are sill **equal**.
+
+* The time complexity  -> O((log n)^(0+1)) -> **O(log n)**.
+
+![image](https://user-images.githubusercontent.com/54589605/235371085-28064939-72a2-47ef-ac34-8b68f3c2714a.png)
+
+* Master theorem will give **last answer**.
+
+* Substitution method will say, **how it came**.
+
+![image](https://user-images.githubusercontent.com/54589605/235371133-329e5da1-55ea-46e1-9698-5f7349a33e71.png)
+
+* Time and space complexity  ->  **O(log n)**.
+
+## Slides
+
+![image](https://user-images.githubusercontent.com/54589605/235371261-ce3bc440-162f-4cd9-99fc-d9da9392831e.png)
+![image](https://user-images.githubusercontent.com/54589605/235371272-7fec20f7-aef7-45bb-85e5-167d570e1da1.png)
+![image](https://user-images.githubusercontent.com/54589605/235371279-8ac20799-0791-4122-b289-146378a7df80.png)
+
+* Recursive program, stack space is based on **no. of levels**.
+
+> If **n** value is **even**, then **no problem** and also we can **directly** return **c**.
+
+> **Else** means **odd** numebr, then return **a * c**.
+
+![image](https://user-images.githubusercontent.com/54589605/235371603-d5063120-e53c-40ed-8453-3dc9150338a3.png)
+
+> While **returning** check if the numbers are **even or odd** numbers.
+
+> By doing **small adjustment**, we can handle **odd numbers** also.
+ 
+![image](https://user-images.githubusercontent.com/54589605/235371780-cdb157e0-7f7b-4478-8f19-1027c379e849.png)
+
+> **No loop** is there, so **time complexity** is **O(1)**.
+
+![image](https://user-images.githubusercontent.com/54589605/235371828-dd4372a3-c3bb-4279-975f-52d6d57344b8.png)
+
+> If we repeat **3** times, then **T(n/2^3)**.
+
+> If we repeat **2** times, then **T(n/2^2)**.
+
+> If we repeat for **k** times, then **n/2^k**.
+
+![image](https://user-images.githubusercontent.com/54589605/235371986-d206645d-de14-43be-ac96-0837db2f82c3.png)
+
+> To terminate the above program, the condition we would take is that, **n = 2^k**.
+
+> Remember, **n** cannot be **odd** number. **n** should be **even** number. **n** should be **powers** of 2 only.
+
+![image](https://user-images.githubusercontent.com/54589605/235372112-f008bbe1-3ad5-4bc1-8f5c-6e43363ae7ae.png)
+
+> When it comes to divide and conquor, we will always divide by 2.
+
+> In the total divide and conquor strategy, we are assuming that **n** is powers  of 2.
+
+> When we always divide by 2 and **n** is powers  of 2, then the story is **quite simple**.
+
+> If not powers of 2, then also divide and conquor strategy will work.
+
+
+* If anyone asked that if **n** is **odd** than the above code will work or not?
+
+> Because of divide and conquor, we are assuming **n** is powers of 2, then **odd** numbers will not come into the picture.
+
+![image](https://user-images.githubusercontent.com/54589605/235372329-d17b8bc6-a6a0-4d86-8bc1-01b5b7496284.png)
+
+> We have done it in **two** parts, because of **dividing by 2**.
+
+> If there are **three** parts, that is because of **dividing by 3**.
+
+![image](https://user-images.githubusercontent.com/54589605/235372417-b5903a8d-272c-4f6c-862d-c570e1b0c765.png)
+
+> If we divide by 3, then **n** is in the powers of **3**.
+
+![image](https://user-images.githubusercontent.com/54589605/235372462-d0402823-78db-44ee-9244-f4c8246999d9.png)
+![image](https://user-images.githubusercontent.com/54589605/235372492-22ab7781-3aa5-4b02-ad39-481abcd3f25c.png)
+
+> Without divide and conquor we had done and got **time complexity** of **O(n)**, because of **1 loop**.
+
+![image](https://user-images.githubusercontent.com/54589605/235372550-c9a819bf-14f3-454a-bcfb-f223d6114ec6.png)
+
+> With divide and conquor we had done and got **time complexity** of **O(log n)**.
+
+![image](https://user-images.githubusercontent.com/54589605/235372578-387e5b20-5612-4bef-8f1c-119749de8535.png)
+
+> The loop is repeating **log n** time.
+
+![image](https://user-images.githubusercontent.com/54589605/235372698-e14fc402-bf9b-4407-abba-2dff9941ad49.png)
+
+> Here also, without divide and conquor. We got **log n** time.
+
+> Time complexity is determined by **logic** and not by **divide and conquor** techniques.
+
+> divide and conquor doesn't mean better one.
+
+* With or without, divide and conquor, **log n** time is possible.
+* With or without, divide and conquor, **n** time is possible.
+
+> It is **dependent** on how we write it. Differ by **constants** but both are **same**.
+
+> Recursion something possible, non-recursion also possible.
+
+> Non-recursion something possible, recursion  also possible.
+
+* The **only difference** is that in **recursion**, because of so many **function calls**, stack space maybe **more**. From **time** point of view, both are **same**.
+
+> It is **dependent** on what type of **logic** we write**.
+
+![image](https://user-images.githubusercontent.com/54589605/235373007-938f1054-3e28-45fc-8811-9af7e5c3fcb7.png)
+
+* Maybe in terms of **space**.
+
+![image](https://user-images.githubusercontent.com/54589605/235373028-b2606984-6940-476b-8893-4c8522c7e640.png)
+
+* Only **one** function call. So, **one** unit of stack.
+* But the other one is having **log n** function calls. So, **log n** units of stack.
+
+> They will both take **one** stack only, but stack units is different.
+
+* Non-recursion is **better** in terms of or from the point of view of **space** compared to **recursions**.
+* From the point of view of **time**, they would be **similar**.
+
+![image](https://user-images.githubusercontent.com/54589605/235373165-710b22c4-7817-4131-b8a9-afc79d6af7d1.png)
+
+* For understanding purpose.
+
+> If we write **better logic**, even **better time** will come.
+
+> If we write **worse logic**, even **worse time** will come.
+
+* Time complexity depends on **logic**, how we have written the logic.
+
+* If we want to calculate **a^n**, how much time?
+
+> **O(log n)**.
+
+![image](https://user-images.githubusercontent.com/54589605/235373337-320f88f5-38c6-4afd-afd5-1b333ef11b5d.png)
+
+> With or without recursion, anything is fine.
+
+![image](https://user-images.githubusercontent.com/54589605/235373374-16f47694-0c54-4bc4-b37d-3657eb12d041.png)
+![image](https://user-images.githubusercontent.com/54589605/235373403-48fb2260-a2a2-4221-9a38-3172a7539919.png)
+
+> No requirement for doing all **three**. **One(1)** is enough.
+
+![image](https://user-images.githubusercontent.com/54589605/235373418-8077d734-947d-4b2c-aa5c-bede0ed9b426.png)
+
+> How we have **divided**, **combination** will also **change** accordingly.
+
+## DP-IV (24) [1st May 2023]
+
+![image](https://user-images.githubusercontent.com/54589605/235411253-69b0883a-0f54-40c3-9e69-1986acf1b340.png)
+
+## Searching
+
+## Linear Search
+
+1) Linear Search -> * Input -> An array of **n-elements** and an **element 'x'**.
+                    * Output -> Returns position of x, else return '-1'. If found then return position of 'x', else                                     return '-1'.
+
+> 'x' is the element we are searching and return the position of 'x' if found, then return '-1'.
+
+![image](https://user-images.githubusercontent.com/54589605/235412170-a0766aea-3c5b-4d7e-ac79-df11aac56e4f.png)
+![image](https://user-images.githubusercontent.com/54589605/235412178-65f2ba5e-8b76-42d8-92bf-17b74166892f.png)
+
+> We are **searching** for **one element**. As soon as we get that element we will stop.
+
+> This is called as **Best case**, which is **O(1)**.
+
+* **Best case** -> **O(1)** [Minimum time to solve the problem]
+* **Worst case** -> **O(n)** [When last element is the element we want or the element is not present only]
+
+![image](https://user-images.githubusercontent.com/54589605/235412975-c66f26f4-ed0f-4b12-86f6-ed610cc32905.png)
+
+> Finding element x, **best case** is **O(1)**.
+
+> Finding maximum, **one scan** is required, **best case**  is **O(n)**.
+
+* Maximum means **we have to compare all**.
+
+> Best case to find **x** is **O(1)**.
+
+> Best case to find **max or larger** than the others is **O(n)**. We have to compare with the rest of them and do **one scan**.
+
+> Best case doesn't always mean **O(1)**, we have to **adapt and change** according to the problem and then verify.
+
+![image](https://user-images.githubusercontent.com/54589605/235415148-a93fe6eb-b124-43a7-b9cb-ed5903a939d0.png)
+
+* Best case -> O(1) [Minimum time to solve the problem. When first element is the element, we are finding]
+* Worst case -> O(n) [Maximum time to solve the problem. When last element is the element we want or the element is not present only]
+
+> **Best case** to finding an element in a array is **O(n)** and the **worst case** is also **O(n)**. So, the **average case** will also be **O(n)**.
+
+> When **best and worst** are the **same**, then **average** case is also **same**. 
+
+> Starting matching is **best case** and ending matching is **worst case**.
+
+> To calculate **average** case, we have to take everyone or every case into consideration.
+
+> Average matters. It is based on **everyone or every case**.
+
+![image](https://user-images.githubusercontent.com/54589605/235416549-cebe08ba-765a-4603-837f-343ee8804c2d.png)
+
+* Calculating **average case**.
+
+![image](https://user-images.githubusercontent.com/54589605/235416950-6a54a53f-6d3a-4be1-89b5-475a7260f26c.png)
+![image](https://user-images.githubusercontent.com/54589605/235417027-db994a32-7700-4a80-981c-77a6abd87a88.png)
+
+> We cannot say that **60 and 100** are **average case** values, because we cannot just take **min and max** values and divide them by 2. That doesn't give **average**.
+
+> We have to use the **upper or first image** steps to calculate average. We have to take all of the values into consideration and then find **average**.
+
+> **Average** is not based on **two** scores which are **min and max** values. **It is values on all of the scores.**
+
+![image](https://user-images.githubusercontent.com/54589605/235417315-5ca86418-fdf3-4e98-98ea-5b4005837629.png)
+
+> All the **(people/scores) by n** is **more** accurate than **two people/2**.
+
+
+ ## Linear search time complexity
+
+* Best case -> O(1)
+* Worst case -> O(n)
+* Average case -> (n+1)/2 -> O(n).
+
+* Assume, Linear search time complexity -> **T(n)**.
+
+> **T(n)** having **three** choices. For these **three**, we can write time complexity as **O(n)**. Everyone should satisfy.
+
+* 1 = O(n)
+* n = O(n)
+* (n + 1)/2 = O(n)
+
+> All are satisfied.
+
+> We cannot write, **theta(n)**, because in **theta**, both sides should be **equal** but they are not. So, **1** is not satisfied with **theta(n)**. So, **theta(n)** not possible.
+
+![image](https://user-images.githubusercontent.com/54589605/235417903-a2b449c0-e2c9-4a97-9ed6-f0dabc7e53b4.png)
+
+> We can write, **omega(1)**, because when comparing **left and right**, **left** should be **bigger or equal to** right side. 
+
+* 1 = Omega(1)
+* n = Omega(1)
+* (n + 1)/2 = Omega(1)
+
+> All are satisfied. For **1**, **left side** is **bigger or equal to** right side that's why.
+
+![image](https://user-images.githubusercontent.com/54589605/235418304-dfd344af-554a-4d21-bb85-935200df147f.png)
+
+> **T(n)** having **three** possibilities.
+
+> **Theta(1)** is also not possible because only **1** is happy but **n and (n+1)/2** are not happy, as they are not **equal** on both the sides.
+
+![image](https://user-images.githubusercontent.com/54589605/235418552-dd5b309d-7ac6-4d31-a237-088888f422bc.png)
+![image](https://user-images.githubusercontent.com/54589605/235418578-6c2ca10d-086c-428a-9e59-57d360b1dedd.png)
+
+> Linear search time complexity **T(n)**, then,
+
+* T(n) = O(n)
+* T(n) = Omega(1)
+
+![image](https://user-images.githubusercontent.com/54589605/235418705-71b0a4d7-37b3-41a6-8ff8-9029ad68858d.png)
+
+* Assume linear search worst case time complexity is **T(n)**.
+
+> So **T(n)** is **worst case time complexity**.
+
+![image](https://user-images.githubusercontent.com/54589605/235418947-c2a97031-eaf6-4a4b-9f14-e38d998a05c5.png)
+
+> So, **T(n)** is having only **one** possibility.
+
+* **T(n)** -> O(n)
+* **T(n)** -> Omega(n)
+* **T(n)** -> Theta(n)
+
+![image](https://user-images.githubusercontent.com/54589605/235419136-3d56b875-bb06-4aed-b669-da462adebc74.png)
+
+> In the above one, they have not mentioned if **T(n)** is **best, worst or average**. They have just mentioned that **T(n)** is time complexity of linear search. That's why we had **three** options there.
+
+> Time complexity of linear search  is **three** options or possibilities. It didn't mention **best, worst or average**.
+
+> If not mentioned, then we have to take **all possibilities**. With respect to **all**, we have to give.
+
+> When mentioned **worst** case, then respect to **worst** case, we have to give.
+
+![image](https://user-images.githubusercontent.com/54589605/235419488-03314188-f84d-4f29-a7bf-31245aa681ee.png)
+![image](https://user-images.githubusercontent.com/54589605/235419503-4c3d2c48-64cc-4d38-99bf-3774f2f7acf5.png)
+
+* Assume linear search Best case time complexity is **T(n)**.
+
+> There is only one possibility that is **O(1)**.
+
+![image](https://user-images.githubusercontent.com/54589605/235425369-a435fe60-f038-4afe-ad7e-e8ac27615b2a.png)
+
+* 1 -> Theta(1)
+
+![image](https://user-images.githubusercontent.com/54589605/235425454-02bcce26-866b-4b63-bcaa-f457d59ff896.png)
+
+* In linear search time complexity, **theta** possible?
+
+> It depends on how we define **T(n)**. **T(n)** is simply time complexity.
+
+> If **T(n)** is simply time complexity, then we have to consider **every case** which is **best, worst, average**.
+
+![image](https://user-images.githubusercontent.com/54589605/235425779-4f5e6c69-8a9a-4396-8314-edb9db465b05.png)
+
+* Best case -> Minimum time to solve the problem(correct answer).
+* Worst case -> Maximum time to solve the problem(correct answer).
+
+> If **min and max** time are **same**, then **average** time is also **same**.
+
+> If **min and max** time are **different**, then **average** time is **in-between** of **min and max** time.
+
+> If **min= O(1) and max= O(n)**, then average is **(n + 1)/2**, which is **in-between**.
+
+![image](https://user-images.githubusercontent.com/54589605/235426361-91e02ece-7e42-4dc5-8382-cb7c66ef84ba.png)
+
+> There is **no change** that **average** will go **more** than **worst** case and there is **no change** that **average** will go **less** than **best** case.
+
+> Either **all three** will be **same/equal** or **average** is **in-between**.
+
+* Arrange **best, average and worst** cases asymptotically?
+
+> **Best -> Average -> Worst**. Arranged from **less to more**.
+
+> **Best <= Average <= Worst**. 
+
+* **Best** less than **average**
+* **Average** less than **worst**.
+
+![image](https://user-images.githubusercontent.com/54589605/235426786-35d2c031-603f-4ab1-9d05-378891874d86.png)
+
+* In-general relation
+
+* Remember how to find out **average case**.
+
+> Average is based on **all person** and not on **two people or two scores**.
+
+![image](https://user-images.githubusercontent.com/54589605/235427017-c31fe845-7631-45dc-ba50-fd0efbe0023a.png)
+
+## Binary Search
+
+* Input -> An **array of sorted** which has **n-elements** and an **element, 'x'**.
+* Output -> Returns position of x, else return '-1'. If found then return position of 'x', else return '-1'.
+
+> If we want **efficient** algo, then the **input** should be **efficient** as well.
+
+> In **linear search**, the **numbers** are **random**.
+
+![image](https://user-images.githubusercontent.com/54589605/235428388-84ace385-eb12-460c-9402-a2a4a08eb5a1.png)
+
+> In **Binary search**, the **numbers** are in **increasing order**.
+
+![image](https://user-images.githubusercontent.com/54589605/235428441-095feaaa-1fd6-43ba-b036-4098fbc32d33.png)
+![image](https://user-images.githubusercontent.com/54589605/235428545-d5c9f73b-ba8b-440f-a01f-acd2a999f067.png)
+
+* Binary Search
+
+> We are doing **one side** everytime, either it is **left side** or it is **right side**. We are not going at **both** the sides at the **same time**.
+
+> Everytime, it will be **half** of the previous one.
+
+![image](https://user-images.githubusercontent.com/54589605/235429672-eda47c2f-f966-41ca-b65f-e670c16bb7c9.png)
+
+> Algorithm is **deterministic** in nature.
+
+* Best case -> O(1) [The first middle element is the element to be searched]
+
+![image](https://user-images.githubusercontent.com/54589605/235430074-88e7b257-036f-4a80-8467-43b3c8fb2988.png)
+![image](https://user-images.githubusercontent.com/54589605/235430188-c26df3f3-6eda-46a1-858e-fc2dcfdaefaf.png)
+![image](https://user-images.githubusercontent.com/54589605/235430164-7ddf0364-852e-407c-9150-b8f730fdb605.png)
+
+> As **mid(40)** is less than **10** that's why we have to go **left**.
+
+> **1 element** is a **small** problem.
+
+![image](https://user-images.githubusercontent.com/54589605/235430438-2a847550-2d2a-4dd6-a237-cd6378b79153.png)
+
+> So, we **returned**, the position of 'x' as **1**. 
+
+> If we divide the **n**, everytime by 2, then we will get **n/2**, until one element comes. It is **O(log n)**.
+
+![image](https://user-images.githubusercontent.com/54589605/235430675-bb500cea-ab55-4428-ab15-7a270171dab6.png)
+
+* Best case -> O(1)
+
+![image](https://user-images.githubusercontent.com/54589605/235430732-3bbccbb1-c89e-4fd7-a1f9-513b77b36d09.png)
+
+* Worst case -> O(log n)
+
+![image](https://user-images.githubusercontent.com/54589605/235430942-867ddd98-e1ef-4502-84e7-71dab4c64f1c.png)
+
+> At **7** position, it is **one element** only, so, **small problem**. One element is there, if that's 'x', which we are searching. As it is **70** and we are finding **69**, which means we diidn't find 'x'. So, return **-1**.
+
+> **Not found** is **max** work done and **worst case**.
+
+![image](https://user-images.githubusercontent.com/54589605/235431255-40f01206-268b-4b45-b2f8-918ae866136a.png)
+![image](https://user-images.githubusercontent.com/54589605/235431359-33ee1921-1b66-4f21-bd11-1e5daec63b71.png)
+
+* Return **-1**, **41** not possible.
+
+![image](https://user-images.githubusercontent.com/54589605/235431404-fdde0454-426b-4c96-b2f3-c8738c524984.png)
+![image](https://user-images.githubusercontent.com/54589605/235431633-0077e058-bdd7-4895-ba2a-4054bec03c97.png)
+
+* i -> First element index
+* j -> Last element index
+* j - i + 1 -> Array size.
+
+![image](https://user-images.githubusercontent.com/54589605/235432227-598e9b9c-d1c2-4134-8087-83a82a044c6c.png)
+
+> The element we are finding(x) is on the **left** side. So, it will be from **i to mid - 1**.
+
+![image](https://user-images.githubusercontent.com/54589605/235432421-07e6a213-2316-4e71-9974-1f0838ec7abd.png)
+
+> The element we are finding(x) is on the **right** side. So, it will be from **mid + 1 to j**.
+
+![image](https://user-images.githubusercontent.com/54589605/235432441-e52a1c38-aef7-4778-8e95-83466a76eded.png)
+![image](https://user-images.githubusercontent.com/54589605/235432504-8069c893-e6fc-4804-9bbb-792c0ed83113.png)
+![image](https://user-images.githubusercontent.com/54589605/235432530-fb9470ea-f501-48c8-afff-53513d591a99.png)
+
+* Will come eventually. Wait.
+
+> In the **else** part we have **two** function calls. Only one function call will execute at a time, because of in-between **else** there. 
+
+> Only one will execute, we don't know which one, whether it is **left or right** one, no idea.
+
+> Because **only one(1)** will execute, so the **conquor** time will be **T(n/2)**.
+
+> In the **min-max** divide conquor algo, **two** of the functions calls were executed simultaneously to calculate the **left and right** values, that why it was **2 * T(n/2)** there and here it is only **T(n/2)**, as only **one(1)** function call is executed.
+
+> If **n** elements is **T(n)**, then **n/2** elements is **T(n/2)**.
+
+![image](https://user-images.githubusercontent.com/54589605/235433154-7955f406-37bd-4ab4-a4ad-4ca875c56502.png)
+
+* **Only one** will execute.
+
+* In **conquor**, there are **two** function calls but **only one** is executed because of the **else** in-between so it is **T(n/2)** and not **2 * T(n/2)**.
+
+![image](https://user-images.githubusercontent.com/54589605/235433426-68877642-4234-4423-b382-3cdcff620753.png)
+![image](https://user-images.githubusercontent.com/54589605/235433474-069a6c53-0c23-4b76-8c14-c6cb0fd16a6f.png)
+
+> As soon as we enter the **else** part, first we do **constant or O(1)** time, then we take **T(n/2)** time for **conquor**.
+
+> If we are lucky then we can stop at **constant or O(1)** time only, as there is a **return** statement there.
+
+> Without function call also, we can **stop**, as there is a **return** statement there.
+
+* In the **else** part of the program, we can stop in-between?
+
+> **YES**.
+
+> At the staring only of the **else** part, we can **stop**. That is the **best case**.
+
+* In a recursive program, which is more valuable, if or else part?
+
+> **Else** part.
+
+* In a recursive program, how will give better **case**, if or else part?
+
+> **Else** part. [**Correct answer**]
+
+> **If** part. [**JOKE ONLY**]
+
+> If anyone says that **If** part gives the **best** case, then the **best case** always becomes **1 or O(1)**.
+
+> This will be a **joke** only.
+
+* In a recursive program, how is powerful, if or else part?
+
+> **Else** part.
+
+> **Powerful** means **best, worst, average case** from that area. All cases from that area only.
+
+> Everything will come from **else** only.
+
+![image](https://user-images.githubusercontent.com/54589605/235434451-924d0226-0475-4e2c-bedb-7ae74833e274.png)
+![image](https://user-images.githubusercontent.com/54589605/235434543-1816feba-4520-4411-a77e-11384a5d80c4.png)
+
+> If **lucky**, we will get **c or constant** only. 
+
+> If **not lucky**, we will get **c + T(n/2)**. We have to do some extra work also.
+
+* Let, **T(n)** be the time complexity of above algo.
+
+* Reccurence relation for **time** or time complexity for **worst case(wc)**.
+
+![image](https://user-images.githubusercontent.com/54589605/235434745-11b577cd-774e-4614-914e-d965cad5c285.png)
+
+* Reccurence relation for **time** or time complexity for **best case(wc)**.
+
+![image](https://user-images.githubusercontent.com/54589605/235434818-c968b408-f113-42f6-93c1-d70f26ca2733.png)
+![image](https://user-images.githubusercontent.com/54589605/235434873-348082d6-033f-4d6e-9047-10d331921f81.png)
+![image](https://user-images.githubusercontent.com/54589605/235434972-0445ab7e-d9be-43a6-969e-a9cce75c25e9.png)
+
+* Function calls mean **conquor**.
+
+![image](https://user-images.githubusercontent.com/54589605/235435281-ca411995-7f95-429c-86ff-d7df225f96e0.png)
+
+* **Divide and conquor** but **no combine**. No need/requirement for **combine**.
+
+* **Binary Search** is a partial application of **divide and conquor** strategy, as there is need/requirement for **combine**.
+
+![image](https://user-images.githubusercontent.com/54589605/235435541-c708dead-ce1d-40df-a610-cfcecfd7f269.png)
+
+* What is the **c** here?
+
+> **c** is the **Divide** time only, as there is no **combine*. It is for **first** level.
+
+![image](https://user-images.githubusercontent.com/54589605/235435727-4d0d7b77-b173-4aaf-8782-28bf27b7fa6e.png)
+
+> The above recurrence relation is for **worst case** and we will get **worst case** only. We will not get **best case**. It is for **worst case** only.
+
+![image](https://user-images.githubusercontent.com/54589605/235435959-efd722a9-69de-4999-ad51-8090450b3b7e.png)
+![image](https://user-images.githubusercontent.com/54589605/235436057-ad941954-7fa8-4668-a9a4-4a84877f2cf2.png)
+![image](https://user-images.githubusercontent.com/54589605/235436072-653b2627-c175-45a8-903e-e3320ae8cac4.png)
+
+> Left and right side are **same**, so we can write **theta**, which is **theta(log n)**.
+
+> We can write **O(n)** as well.
+
+> We can write **Omega(1)** as well.
+
+> We cannot write **theta(1)** because **left and right** side are not **same**.
+
+> We cannot write **theta(n)** because **left and right** side are not **same**.
+
+* This is for **worst case**.
+
+* Reccurence relation for **time** or time complexity for **best case(bc)**.
+
+> In the starting of **else** part there is a **return** statement. So, we can **stop** it there.
+
+* Best case -> Theta(1).
+* Best case -> O(1).
+
+![image](https://user-images.githubusercontent.com/54589605/235436439-be58a046-fefc-4d3a-907b-94e164d3244a.png)
+![image](https://user-images.githubusercontent.com/54589605/235436606-3ea8f30c-f569-4bf2-90ea-bf0c9fc2bfde.png)
+
+> Best case recurrence relation is **not possible** because we are either going **left or right** side. We are stopping at the **middle** only.
+
+* In the **else** part, if we stop at the **starting** only then that is the **best case**.
+
+* When someone doing **binary search**, the **left(worst case)** one will happen **more frequently** compared to **right(best case)**.  
+
+* The worst case of **binary search** is also **average** case only.
+
+![image](https://user-images.githubusercontent.com/54589605/235436912-5210806b-825c-4ccf-9056-102b3d8a7c6f.png)
+
+* Most of the time, **worst case** will happen for **binary search**.
+* Whichever will happen, **most of the time**, that will decide **average case**.
+* Most of the time, **binary search** will behave as **worst case**.
+
+* Why sachin's average is 60?
+
+![image](https://user-images.githubusercontent.com/54589605/235437139-6fc1a7bc-be4a-4447-917e-cd24adf86cef.png)
+![image](https://user-images.githubusercontent.com/54589605/235437162-fe17ad6e-4bf9-4de0-bab2-22f121b3c9a4.png)
+
+* For **best case** of **binary search**, there is **no recurrence relation** because at the **entrance** only we got the **answer**.
+
+* **T(n)** is time complexity. Every case we have to **cover**.
+
+* log n = O(log n)
+* 1 = O(log n)
+
+> All are **satisfied**.
+
+![image](https://user-images.githubusercontent.com/54589605/235437735-b0a7a064-8c25-47c7-aaf0-dcc8808a0605.png)
+
+* log n = Omega(1)
+* 1 = Omega(1)
+
+> All are **satisfied**.
+
+* log n = Theta(log n)
+* 1 = Theta(log n)
+
+> **1** is opposing because **left and right** sides are not the **same**. Hence, **theta(log n)** not possible.
+
+* log n = Theta(1)
+* 1 = Theta(1)
+
+> **log n** is opposing because **left and right** sides are not the **same**. Hence, **theta(1)** not possible.
+
+![image](https://user-images.githubusercontent.com/54589605/235437980-24c04e8c-6650-4f24-9d39-dd275b676dbe.png)
+
+* In **T(n)** we have to **cover** everything. **T(n)** has **two** choices, it has to consider both **log n and 1**.
+
+![image](https://user-images.githubusercontent.com/54589605/235438094-10e8d770-7d2a-4642-a3fa-35f4f9a992a0.png)
+
+* what is **Binary search** time complexity?
+
+> O(log n) OR Omega(1). Anyone is **correct**.
+
+![image](https://user-images.githubusercontent.com/54589605/235438311-83744372-880c-4e9e-94cd-52cc6171ed06.png)
+
+* what is **Binary search** time complexity for best case?
+
+> They are asking only **one case**. So, it is **O(1)**. We can also use **theta(1)**, no problem.
+
+> In **best case**, **T(n)** having **only one** choice.
+
+
+* what is **Binary search** time complexity for worst case?
+
+> They are asking only **one case**. So, it is **O(log n)**. We can also use **theta(log n)**, no problem.
+
+> In **worst case**, **T(n)** having **only one** choice.
+
+* In **one** case, we don't have **any problem**, because **only one** answer.
+
+![image](https://user-images.githubusercontent.com/54589605/235438574-364ca8ad-0384-40be-9f46-0e6c6329e17c.png)
+
+* When asking for **binary search** time complexity?
+
+> Take all of the **cases**. Give **O(log n) or Omega(1)** as the **answer**.
+
+* In **binary search**, we will go **one side**.
+
+![image](https://user-images.githubusercontent.com/54589605/235438716-cc4253d6-1740-444f-8611-79645b4aa055.png)
+
+* Sometimes, we don't go **one side** also, it is the **Best case**.
+
+![image](https://user-images.githubusercontent.com/54589605/235438799-23a1da7f-f4a5-4f94-93b8-86725540cede.png)
+
+* If we are **lucky**, then we don't have to go **any sides**.
+* If we are **not lucky**, then we have to go in **one of the sides**.
+
+* In specific case, we can use **theta**. We have **only one answer**.
+
+![image](https://user-images.githubusercontent.com/54589605/235438970-7f1f5b81-1ece-4f77-a3bf-7522b997d7ce.png)
+
+* Time complexity of **binary search**.
+
+*  Best case -> O(1)
+*  Average case -> O(log n) [Most of the time, **worst case** will happen]
+*  Worst case -> O(log n)
+
+* Why the time complexity of **binary search** in **average case** is **O(log n)**?
+
+> Average means we have to **consider all**. When considering all, most of the time, it is behaving like **worst case**.
+
+> So, **average and worst** case is **same**.
+
+> **Best case** is **very rare** incident, happening very less amount of time.
+
+![image](https://user-images.githubusercontent.com/54589605/235439276-45d2f61a-656a-4cbb-8b9f-3deb424a3223.png)
+![image](https://user-images.githubusercontent.com/54589605/235439535-7c4e8c43-602f-4961-8cd3-e8424ef5ca71.png)
+
+* Stack space is **log n**, which is **average and worst case**.
+* If we are lucky, then **once divide** then **stop**, which is **best case**.
+
+![image](https://user-images.githubusercontent.com/54589605/235439722-bf443e7e-79ad-4794-913f-061b49e56e7c.png)
+
+* Recursive program performance is based on  -> **Else** part.
+* If we want **best case** -> **Else** part.
+* Everything thing or every case -> **Else** part.
+* Binary search time complexity(In general) -> O(log n) OR Omega(1).
+
+![image](https://user-images.githubusercontent.com/54589605/235440167-f4e44894-2849-405a-a586-14cda8b9ecd9.png)
+![image](https://user-images.githubusercontent.com/54589605/235440205-aab3f28a-9774-4e68-90ea-6e4bd6410336.png)
+
+* Binary search time complexity best case -> O(1) OR theta(1) -> 1
+* Binary search time complexity worst case -> O(log n) OR theta(log n) -> log n
+* Binary search time complexity average case -> O(log n) OR theta(log n) -> log n
+
+> For **one case**, we can give **any symbol** as there is **only one** answer. So better don't give **any symbols**.
+
+* Binary search time complexity(In general) -> O(log n) OR Omega(1).
+
+![image](https://user-images.githubusercontent.com/54589605/235440604-5ea28d0f-7079-438b-8351-f592e2e526a0.png)
+
+* Not needed [**EXTRA**]
+
+![image](https://user-images.githubusercontent.com/54589605/235440697-4664b646-5094-49ea-8cb6-d95579b3da93.png)
+![image](https://user-images.githubusercontent.com/54589605/235440714-f901763c-9336-4a91-b5c9-6f2da1a845c6.png)
+![image](https://user-images.githubusercontent.com/54589605/235440974-5c938bf1-aacc-403a-8eb3-aa2fd3a52afa.png)
+![image](https://user-images.githubusercontent.com/54589605/235441087-29adb420-175c-465b-ae03-8d811d2925c0.png)
+![image](https://user-images.githubusercontent.com/54589605/235441124-95ce8765-9b2a-4a23-b751-0a6168afc193.png)
+
+* Non-recursive program. Only **i and j** are updated.
+* Because of non-recursive program, the **Stack space** is **1**, because of **1 function call**.
+* Time complexity is **same**.
+* Other than **recursion**, both the codes are **same**.
+* In place of **recursion**, the above program used **while** loop.
+* Everything **same**, except **space**.
+
+![image](https://user-images.githubusercontent.com/54589605/235441399-235e33c7-229b-4d37-bf2e-fd0a10d12874.png)
+
+* Binary search time complexity best case -> O(1) OR theta(1) -> 1
+* Binary search time complexity worst case -> O(log n) OR theta(log n) -> log n
+* Binary search time complexity average case -> O(log n) OR theta(log n) -> log n
+* Binary search time complexity(In general) -> O(log n) OR Omega(1).
+
+![image](https://user-images.githubusercontent.com/54589605/235441543-16d1d628-30f5-4b16-a97d-aac46caf1859.png)
+
+> Because of **non-recursion**, **space** is **saved**.
+
+* Space complexity -> **Theta(1)** or constant.
+
+* If above program(non-recursion) given, how much **space complexity** needed?
+
+> **1**.
+
+![image](https://user-images.githubusercontent.com/54589605/235441646-f0c87257-0b54-425f-975c-9916818666ce.png)
+
+* If above program(recursion) given, how much **space complexity** needed?
+
+> **log n**.
+
+* Depending on how we write the program, **space complexity** will **change**.
+* Recursion means **more space**.
+
+* If **space complexity** asked then **program** will be given. Without program, how we will calculate **space complexity**.
+
+* **Time complexity** is **same** as **logic** is **same** for **recursive** as well as **non-recursive** program.
+* Depending on **how we write the program**, **space complexity** will **change**.
+
+![image](https://user-images.githubusercontent.com/54589605/235442352-6cedcefa-bce6-47f5-ad40-37d3ac1878bc.png)
+
+## DP-V (25) [1st May 2023]
+
+* Binary search is **partial** divide and conquor strategy, because there is **no combine()**.
+
+## Application of Binary Search
+
+![image](https://user-images.githubusercontent.com/54589605/235458815-ccc456f8-a50b-454d-b322-b323cacdebbf.png)
+![image](https://user-images.githubusercontent.com/54589605/235459243-38929151-ef77-42d8-b96a-9d0e2b4be7f6.png)
+
+* Sorted and no-repetation allowed.
+
+> If we want to give **best algo**, then first we have to give **some algo**.
+
+> Any problem is given, first we can try **linear search**.
+
+> Linear searching is working. The problem has asked for **worst case**.
+
+> Linear search is possible with time complexity of **O(n)**, which is the **worst case**.
+
+> When mentioning specific case(worst case here), then **one** possibility. So, we can use **theta(n)** because left and right side are **same**.
+
+![image](https://user-images.githubusercontent.com/54589605/235463280-520cd040-adb9-4545-ae3c-bc2bca1c513e.png)
+
+* Linear Search -> Worst case -> **O(n)** -> n.
+
+> If asked for **worst case** in the problem, find **worst case**.
+
+> If nothing mentioned in the problem, then we will have to find **everything or every case**. If nothing mentioned, then find **every case**.
+
+> If asked for **best case** in the problem, then there is a twist in the problem. **Best case** is not asked normally in problems/questions.
+
+![image](https://user-images.githubusercontent.com/54589605/235465983-1090f20e-2386-427d-81ab-27cbfd849f1f.png)
+
+> In **binary search**, the **middle** is the **mid element**. The middle element is **9** so **i=9**, then **a[9] == 9 -> 6 == 9**, **NO**. Now, we are at a **dilemma**, which side to go? If we go to the left then we are at **8th position** and at **i=8** will have **less than 6** element as **i=9** had **6** and it is an **increasing sorted** array. But we wanted **8** at **i=8** which is **not possible**, so we cannot go **left**.
+
+> In **i=9** we had **6**, so at **i=10**, we will have **greater/more than 6**, which could be **10** that's what we are looking for which is **a[i] == i**. So it is **possible, that's why we went **right**.
+
+![image](https://user-images.githubusercontent.com/54589605/235468922-2a5cf513-cfc2-4fb2-b226-c06acf7d7905.png)
+
+> The middle is **10 + 17/2 -> 27/2 -> 13**. So **i=13** and it has **70**. We want **a[13] == 13 -> 70 == 13**, **NO**.  If we go to the **right** then **i=14** and the value will be **more than 70**, which is not possible, so we cannot go **right**. If we go to the **left** then **i=12** and the value is **less than 70**, which is possible, so we got **left**.
+
+![image](https://user-images.githubusercontent.com/54589605/235469714-1775365a-d82f-4e66-87f3-ebddf63c6179.png)
+
+> The middle is **10 + 12/2 -> 22/2 -> 11**. So in **i=11**, the value is **15** and it is not **a[i] == i**. If we go to the **right**, then **i=12** and value is **more than 15**, then it is not possible. If we go to the **left**, then **i=10** and the value is **less than 15**, possible, so we have to go **left**.
+
+![image](https://user-images.githubusercontent.com/54589605/235470371-9fb9ddb8-aabe-4810-ad35-d22ccf3d234a.png)
+
+> The middle is **10 + 10/2 -> 20/2 -> 10**, we have only **one** element which is **10** only so, it is a **small** problem. So for **i=10**, the value is **10** and it satisfies the condition which is **a[i] == i -> a[10] == 10 -> 10 == 10**, **YES**. The condition is **satisfied**. So, we will **return** the **index** which is **10**, **return index -> return 10**.
+
+* Worst case -> log n
+* Best Case -> 1
+
+![image](https://user-images.githubusercontent.com/54589605/235471189-b780eb15-959f-4371-ae07-0b1f3b161d04.png)
+
+* If we can decide, which side, we want to go, **left or right*** then **binary search** is possible.
+
+> If **9th person's** value is **6**, then **10th person's** value is **more than 6** as it is an **increasing sorted** array. So, there is **hope**. For **8th person's** value is **less than 6**, so, **no hope**.
+
+![image](https://user-images.githubusercontent.com/54589605/235472005-399de7f7-78ce-4cbb-a586-a771eea43aed.png)
+
+* Using the above logic we can decide, which side, we want to go, **left or right** then **binary search** is possible.
+
+* If we are at the **middle** and we can't decide which side to go, then **binary search** is **not possible**.
+
+* If we are at the **middle** and are able to decide which side to go, then **binary search** is  **possible**.
+
+> If **9th person's** value is **6**, then **10th person's** value can be **anything**, if the array is **not sorted**. For **8th person's**  value also, it can be **anything**, as the array is **not sorted**. 
+
+> We cannot say clearly that if the element is present on the **left or right** side. Then, we have to **verify**, both the sides, this is called as **dilemma**.
+
+* If array is **not sorted**, then **binary search** is not possible.
+* If the array is **not sorted**, then we can't take decision to go either **left or right** side, when we are at the **middle**, it is called  as **dilemma**. Both the side people are saying **maybe**. So, we cannot go blindly to either one of the sides. Both the side,**maybe**, so **binary search** is not possible.
+
+* How to decide, if binary search is possible or not?
+
+> Go to the **middle**, if we can go to the **left** only or to the **right** only, then **binary search** is possible, otherwise, if go either **left or right**, it is **dilemma** and **binary search** is not possible.
+
+> When we are in the **middle** and unable to decide which side to go, either **left or right**, dilemma happens, that's why **binary search** is not possible.
+
+> If we try both the sides, then it is called as **linear search**. **Linear search** means covering everyone.
+
+> **Binary search** means **covering only one side**.
+
+![image](https://user-images.githubusercontent.com/54589605/235477934-61c6234b-c281-497d-9232-296c278695e6.png)
+![image](https://user-images.githubusercontent.com/54589605/235478189-9d6c3c10-c270-48e5-8f8d-5dc6689c633f.png)
+![image](https://user-images.githubusercontent.com/54589605/235478499-28e9c8fb-ff25-4cd1-8574-7034c0627d4f.png)
+![image](https://user-images.githubusercontent.com/54589605/235478803-1e5d78ae-1861-4f79-97bb-726c4de169b8.png)
+
+> If we should be able to resolve otherwise we will not be able to proceed further.
+
+* In the above problem, if **sorted** keyword is not there, then only **linear search** is **possible**, **binary search** is **not possible**.
+
+* In the above program, if **sorted** keyword is not there, then time complexity is **n** because only **linear search** is **possible**.
+
+![image](https://user-images.githubusercontent.com/54589605/235479676-3b34bb92-499d-48c7-b1f7-4c43003f5ff4.png)
+
+* In the above problem, if **distinct** keyword is not there, but **sorted** keyword is there then?
+
+> So, if **sorted** is there but **distinct** is not there, then **binary search** is not possible. [**Answer, explained below**]
+
+> If **10th person** is **13**, then **11th person** is **greater than equal to 13**. **12th person** is **greater than equal to 13**. **13th person** is **greater than equal to 13**, there is a change that **13th person** is **13**.
+
+> If **10th person** is **13**, then **repetation** is possible on the **right** side.
+
+![image](https://user-images.githubusercontent.com/54589605/235480051-66b39c69-1bad-41a1-8b58-f4e51a78b35d.png)
+
+> If **10th person** is **13**, then **10th person** is **less than equal to 13**. Then, **left** is also possible.
+
+* If **distinct** is not there, then both the **sides** are possible.
+* So, if **sorted** is there but **distinct** is not there, then **binary search** is not possible.
+
+![image](https://user-images.githubusercontent.com/54589605/235480483-a721337d-4f82-46a6-876f-d809e21f9ca6.png)
+
+* If array is **sorted**, then **binary search** is guranteed possible?
+
+> **NO**. See the above example only. **Sorted** array but **non-distinct**, binary search was not possible.
+
+* If array is **sorted**, then **binary search** is **maybe**. No gurantee.
+
+* If array is **not sorted**, then there is **no change** of **binary search** is there. Confirmed, no way.
+
+![image](https://user-images.githubusercontent.com/54589605/235481448-149da0f4-9cd7-44fd-ba8d-1d3bed8f6ab2.png)
+![image](https://user-images.githubusercontent.com/54589605/235482179-44a25af0-1f6b-4708-ac69-a1905f9e0571.png)
+![image](https://user-images.githubusercontent.com/54589605/235482290-3896850c-63a0-4295-a77a-9a0e76a918d6.png)
+
+* For the above program.
+* Not sorted, then **binary search** is **not possible**. 
+* Sorted but distinct is not there, then also **binary search** is **not possible**
+
+## DAC-V (26) [1st May 2023]
+
+![image](https://user-images.githubusercontent.com/54589605/235490799-cdfa5077-10f8-4c15-877c-bbb7ae424059.png)
+![image](https://user-images.githubusercontent.com/54589605/235491405-fea5df5a-37d0-47a6-9b70-dffdd6316ec0.png)
+
+* **n^(log a base b)** is **bigger**. It is **bigger** by **log n/ root(n) -> log n/n^(1/2)**. Because there is **roo(n) or n^(1/2)** also, that's why it is **bigger** by **polynomial** times, as we are **dividing** by **polynomial** times.
+
+> As, **polynomial** time **bigger**, so **case 1 and 2** of master's theore, which means whoever is **bigger** is the **answer**. So **O(root(n)) -> O(n^(1/2))** is the **answer**.
+
+* If only **log n** was there then we would have to go to **case 2** of master's theorem. 
+
+![image](https://user-images.githubusercontent.com/54589605/235491973-26d362e1-a65d-4f54-8e77-d0eaa8fd5753.png)
+![image](https://user-images.githubusercontent.com/54589605/235492021-4c239588-b9ab-4762-a56e-65da2ca8e475.png)
+![image](https://user-images.githubusercontent.com/54589605/235492337-a78c1cfc-1a25-46bd-987e-b3d84b6faaf4.png)
+
+* Both the **side**, it can be possible. So, **binary search** is not possible.
+
+![image](https://user-images.githubusercontent.com/54589605/235492963-89d0ff7d-5523-429d-8085-2ff0092c64fb.png)
+
+* Input -> An array of 'n' elements in which, until some position all are integers and afterwards all are infinite.
+
+* Array is not sorted. No mention of positive numbers.
+
+![image](https://user-images.githubusercontent.com/54589605/235494294-77f5b16d-aefa-4941-b0f8-69cd4ec2bc43.png)
+
+* Until which position, integers are there?
+
+> Still **16th** index. 
+
+* What will be the **output**?
+
+![image](https://user-images.githubusercontent.com/54589605/235494790-0ab4f385-d72d-4b11-a474-fdb668109590.png)
+
+1) First try linear search
+2) See the best and worst case of linear search
+3) Applications/improvement of linear search. Try to improve it. Binary search possible or not.
+
+![image](https://user-images.githubusercontent.com/54589605/235565953-561e8a3c-e7e1-4115-96e0-d47cdeda79c6.png)
+![image](https://user-images.githubusercontent.com/54589605/235565972-34ddd544-65f1-4db8-8b00-1d1418eefe17.png)
+![image](https://user-images.githubusercontent.com/54589605/235566080-5d3cb86a-9aeb-4a64-b85b-7298715f72bc.png)
+
+1) First algo is linear search.
+2) Worst case is **n** and best case is **1**, for linear search. Worst case is mentioned so we will consider **n** only. If nothing mentioned then consider/find out all and we will use **O(n) or Omega(1)** in that case, as all cases agree to **O(n) or Omega(1)**.
+
+![image](https://user-images.githubusercontent.com/54589605/235566682-1eb61338-82e3-45c6-963f-4df5b4f9a38a.png)
+
+> As mentioned in the question, **worst case**, so we only have **n** and we can say **any symbol(O,omega, theta)**.
+
+![image](https://user-images.githubusercontent.com/54589605/235566999-f9a661e7-8533-4959-a877-7931f45cb73e.png)
+![image](https://user-images.githubusercontent.com/54589605/235567066-b244f1e7-458a-4a0e-8862-7b7b7e7f7d94.png)
+
+> See the options for the **question**, if **n** is there and **less than n**, no one or not there. Then **n** is the **answer** and we can stop.
+
+> If **less than n** there in the **options**, then we can to **continue**. If **log n** there, then **signal came**, **binary search** possible. Could be a trap a well.
+
+![image](https://user-images.githubusercontent.com/54589605/235569536-a323ae42-ffcc-4493-9c06-1ae2ba51ea7c.png)
+
+3) Try binary search. Array is not sorted. Go to the middle element, which is **1+30/2 -> 31/2-> 15**. Ask if **15** is **integer or infinite**. **15** is **integer**, but we want **infinite**, we should go to **right**, as mentioned in the question that **after some integer, all are **infinite**. There is no **dilemma**.
+
+![image](https://user-images.githubusercontent.com/54589605/235570524-05caa5d9-6141-4439-871c-73e6749fe39c.png)
+
+> Again go to the **middle**. The middle is **16+30/2 -> 23**. **23** is **infinite**, now ask if **before** is **infinite** or not. We will get to know if it is the **first, middle or last infinite**. We got to know that it is the **middle** infinite as there are **infinites** to the **left** as well. We want the **first infinite**, so we **go left**, to find the **first infinite**.
+
+![image](https://user-images.githubusercontent.com/54589605/235571247-75a53016-9dfa-436c-bb76-95f9f8213592.png)
+
+> Again go to the **middle**. The middle is **16+22/2 -> 19**. **19** is **infinite**, now ask if **before** is **infinite** or not. We will get to know if it is the **first, middle or last infinite**. We got to know that it is the **middle** infinite as there are **infinites** to the **left** as well. We want the **first infinite**, so we **go left**, to find the **first infinite**.
+
+> Again go to the **middle**. The middle is **17** only, as there is only one element, which is a **small problem**. **17** is **infinite**, now ask if **before** is **infinite** or not. We will get to know if it is the **first, middle or last infinite**. We got to know that it is the **first** infinite as there are no **infinites** to the **left**. We got the **first infinite**. So, stop and **return** the **position** of the **first infinite**.
+
+![image](https://user-images.githubusercontent.com/54589605/235571706-14c7ffe1-483a-479e-b8e3-b0e9bba4686e.png)
+
+> Whenever **infinite** came, we will check if it is the **middle** person or not, by checking if there are **any infinites** to the **left**. If there are **infinites** to the **left**, then it is the **middle** infinite and we have to go **left**.
+
+> If the **middle** is **infinite**, and the **left** is **not infinite**, then stop it. We found the  **first infinite**.
+
+> If the **middle** is **integer**, then go to the **right**.
+
+![image](https://user-images.githubusercontent.com/54589605/235572148-db01b9d8-b529-47d0-b2a2-3e1062a80228.png)
+
+> Worst is maximum we **divide by 2** and get the **last element**.
+
+![image](https://user-images.githubusercontent.com/54589605/235569922-e7d0953a-f2a2-42b7-ac7c-77f9f63bb5e8.png)
+
+* Array is **sorted**, **according to the requirements** of the question/problem. Physically not sorted but logically sorted.
+* Don't judge, **sorted or not** from outside.
+* Array **not sorted**, we will not apply **binary search** -> **JUST SHUT UP**. It is logically sorted, **according to the requirements** of the question/problem.
+* We have to go **inside** and verify if the array is **sorted or not**. Don't judge from **outside**.
+
+* Worst case for bianry search -> log n
+* Best case for bianry search -> 1
+
+![image](https://user-images.githubusercontent.com/54589605/235572966-31593503-a0e1-4aea-bfa3-ebc6723acef4.png)
+
+* Best case example.
+* We are not interested in **Best case**, as worst case is asked in the question.
+
+![image](https://user-images.githubusercontent.com/54589605/235573110-511469f9-c1a2-434a-8245-275dfde386a2.png)
+
+* Both, **theta(log n) and theta(n)** both are given in the options. Then we should select **theta(log n)** as it is the **best algorithm** and the **worst case time complexity** as **asked/mentioned** in the question.
+
+* We can use **theta** because only **worst case** asked so **one case** and **one choice** only. 
+* From **outside** it looked like **binary search** is not possible. Go inside and verify.
+* Array sorted according to problem.
+
+![image](https://user-images.githubusercontent.com/54589605/235573600-a3a73c19-c9db-42cf-bd0d-757f4972448b.png)
+![image](https://user-images.githubusercontent.com/54589605/235573623-ad60401d-4fd9-4068-a1bc-68cf9ee022ef.png)
+![image](https://user-images.githubusercontent.com/54589605/235573656-3b05c1d0-eb72-4e14-ba0a-3d6a307a58b7.png)
+![image](https://user-images.githubusercontent.com/54589605/235573684-993312e3-178a-4829-9097-48d12964e3a6.png)
+
+* We want the **last integer**.
+
+> Middle element is **12**, ask if it is **integer**. It is **integer**. We asked, **right** if it is **integer** or not, it is **integer**. So, we go to the **right**.
+
+> Middle element is **22**, ask if it is **integer**. It is **infinite**. So, we go **left**.
+
+> Middle element is **17**, ask if it is **integer**. It is **infinite**. So, we go **left**.
+
+> Middle element is **15**, ask if it is **integer**. It is **infinite**. So, we go **left**.
+
+> Middle element is **13**, ask if it is **integer**. It is **integer**. We asked, **right** if it is an **integer** or not, it is **integer**. So, we go to the **right**.
+
+> Middle element is **14**, it is the **only one element**, so it is a **small problem**. Ask if it is an **integer**. It is an **integer**. We asked, **right** if it is an **integer** or not, it is **infinite**. So, we found the **last integer**. Now stop, and return the **position** of the **last integer**.
+
+![image](https://user-images.githubusercontent.com/54589605/235574145-a9de34d4-2080-46ce-95b6-0b99e86491bf.png)
+![image](https://user-images.githubusercontent.com/54589605/235574289-bbf9ce06-4d59-4c41-9de2-84b91f29ca27.png)
+![image](https://user-images.githubusercontent.com/54589605/235574796-869d1555-32cf-4538-ae34-78cef9012f7f.png)
+
+* **n** becomes **log n** is great achievement. This is the meaning of **making apps faster**.
+
+![image](https://user-images.githubusercontent.com/54589605/235574865-d2beee24-f16c-4398-b44b-f141bacdb9f9.png)
+![image](https://user-images.githubusercontent.com/54589605/235575007-40b3853e-526b-4cc7-bde8-4c482b9b064f.png)
+
+* If we write **n distinct elements**, then how we will write that many **infinites**.
+
+![image](https://user-images.githubusercontent.com/54589605/235576074-bfc40379-1fda-46f0-ab8f-d90d48b36c00.png)
+
+* Assume 'n' is unknown and after array, all the symbols in memory are '#'.
+
+* If **size** is **unknown**, how we will know that **array** is over.
+
+![image](https://user-images.githubusercontent.com/54589605/235576177-09849ad4-9ab7-4634-a13e-27e99b7df573.png)
+
+* Array having size but we don't know the **size**. We cannot tell when the array is over.
+* We cannot use **n**. Be careful.
+* Linear search is possible because we will take a **loop** and **search** until we find an **#**, then we stop.
+
+![image](https://user-images.githubusercontent.com/54589605/235576489-658f58eb-e957-4ccd-b437-f18493bf0bb1.png)
+
+> When we see the **first #**, it indicates that the array is over. Stop it and say not there. If we are lucky then we will find the **first infinite** in the array.
+
+> We haven't used **n** anywhere.
+
+![image](https://user-images.githubusercontent.com/54589605/235576686-e5224527-f96b-4ab1-a086-4ec55622e227.png)
+![image](https://user-images.githubusercontent.com/54589605/235576779-d0bbe87e-63c8-44b2-8104-003d6cab6b58.png)
+![image](https://user-images.githubusercontent.com/54589605/235577263-4d63ca6a-b539-46a3-a980-105fd975561b.png)
+
+* We haven't used **n** anywhere in the code.
+* Worst case -> n.
+
+![image](https://user-images.githubusercontent.com/54589605/235577381-9c77b9a3-77fe-427c-be2f-a52a625f2294.png)
+
+* Binary search is not possible because we can't go to the **middle** element or find the **middle** element because we don't know the value of **n**, it is **unknown** or not given in the question.
+
+* As **binary search** is not possible, so, **linear search** is the **best algo**.
+
+![image](https://user-images.githubusercontent.com/54589605/235577644-66a7c918-03d7-4ece-994c-88ce8dc968c5.png)
+![image](https://user-images.githubusercontent.com/54589605/235578150-4be90167-e7d6-41d6-be3b-05437711bd0d.png)
+
+* Binary Search.
+
+* We are doing **i * 2**. We are jumping by **double**.
+
+![image](https://user-images.githubusercontent.com/54589605/235578381-98737b4e-3dc1-4eef-8a09-044e8181f8d2.png)
+
+* If we know **n** value then do **divide by 2**.
+* If we don't know **n** value then do **multiply by 2**. [**IMPORTANT**]
+
+![image](https://user-images.githubusercontent.com/54589605/235578531-7a137400-d16d-40c6-9e4e-93fc920eb274.png)
+
+* We still want to find the **first infinite**.
+
+> We are starting from **first**. We are asking if the first element is **infinite** or not. It is an **integer**, so, we will go to the **right**. We are **multiplying**, **i * 2**, every time we more to the **right**. Now, after **3-4** jumps, we have reached/entered to the **infinites**. Now, in the given area from **start or 1st index** to the currenct index which is **16**. So the **first index** is **1** and the **last index** which is **n** is **16**. So, now we can  do **binary search** in that area as **n** value is **known** now and also the **answer** is there in that area only.
+
+* **Binary Search** steps:
+
+1) We took **log n** time to find the **infinite** at the **16th** index, as we did **double** by **multiplying**, **i * 2**.
+2) **One binary search** for finding **n** value is **log n**.
+
+* We took **log n** time to find the **n** value.
+
+3) Now do normal, binary search to find the **first infinite**. 
+
+> Middle element is **8**. It is an **integer**, go to the right.
+
+> Middle element is **9 + 16/2 -> 12**. It is an **integer**, go to the right.
+
+> Middle element is **13 + 16/2 -> 14**. It is an **integer**, go to the right.
+
+> Middle element is **15 + 16/2 -> 15**. It is **infinite**. Check **before**, it is **not infinite**, then this is the **first infinite**. Now, stop and return the **position** of the **first infinite**.
+
+![image](https://user-images.githubusercontent.com/54589605/235581015-b64dc29a-6f24-4b32-93bd-3d8afe832d18.png)
+
+* First find **n** value, for that apply **binary search**.
+* So **log n + log n -> 2 * log n -> log n**.
+* Binary search **possible**.
+
+![image](https://user-images.githubusercontent.com/54589605/235581221-89ae1e7f-5d57-463f-badf-07dfd5817ff5.png)
+
+* Binary search means **divide by 2** as well as **multiply by 2**, both meaning are **same** they are coming from **two** different directions/angles. [**IMPORTANT**]
+
+* So, binary search is possible in the **above problem**.
+
+![image](https://user-images.githubusercontent.com/54589605/235579802-3471c931-86ac-4f9b-86e8-dfc2552b8fd9.png)
+
+* Previous problem and the above(current) problem is the **n**value. It was known in the **previous problem** but it is unknown in the **above(current) problem**.
+
+* Algo means **logics**. Learn logics.
+
+![image](https://user-images.githubusercontent.com/54589605/235581307-25f6650f-91bc-414b-9943-8cf30d6e1ab0.png)
+![image](https://user-images.githubusercontent.com/54589605/235578703-819a8e6d-b532-4d4e-aa22-036abadfa317.png)
+
+* Practice like **sir**.
+
+![image](https://user-images.githubusercontent.com/54589605/235581640-5639bf85-cf90-4823-9ea1-c5ac94fe9af6.png)
+![image](https://user-images.githubusercontent.com/54589605/235581801-0831236a-fde7-49df-8be6-d1d50bbc325d.png)
+
+* We are multiplying **i * 2**, because we want to find the value of **n** as it is **unknown** in the **above** question.
+* If we go **slowly**, **i**, then it will be **linear search** only and time complexity will be **n**.
+* If we go **fast**, multiplying **i * 2**, then it will be **binary search** only and time complexity will be **log n**.
+
+![image](https://user-images.githubusercontent.com/54589605/235582255-7ee952f2-581b-493a-b0cb-4e70d8eabe7e.png)
+
+> We went to **16th person** and it said it is an **integer**. Now we jumped to **32nd** person. **32nd** person said **#**. We crossed the array. Keep the **marker** at **32** only.
+
+> Now, apply **binary search** from **1st to 32nd** person. The **n** value is **32** only. 
+
+> Find the middle element, it is **1 + 32/2 -> 17/2 -> 16**. It is **integer**, go to the **right**.
+
+> Find the middle element, it is **17 + 32/2 -> 49/2 -> 24**. It is **infinite**, check before, if it is an **integer** or not. It is **infinite**, go to the **left**.
+
+> Find the middle element, it is **17 + 23/2 -> 40/2 -> 20**. It is **infinite**, check before, if it is an **integer** or not. It is **infinite**, go to the **left**.
+
+> Find the middle element, it is **17 + 19/2 -> 36/2 -> 18**. It is **infinite**, check before, if it is an **integer** or not. It is **infinite**, go to the **left**.
+
+> Find the middle element, it is **17 + 17/2 -> 34/2 -> 17**, there is only **one element**, which is a **small problem**. It is **infinite**, check before, if it is an **integer** or not. It is an **integer**. So, we found the **first infinite**. Now, stop and return the position of the **first infinite**.
+
+![image](https://user-images.githubusercontent.com/54589605/235583251-a5f2980c-694d-4ada-83ac-8ec6afc6b641.png)
+
+* **log n** for finding unknown **n** value and another **log n** to find the **first infinite** or the **required** thing from the **question**.
+'
+* **log n + log n -> 2 * log n -> log n**. **log n** only.
+* So, for the **above problem**, **binary search** is **possible**.
+
+![image](https://user-images.githubusercontent.com/54589605/235583441-5e217b66-5841-4afc-a39d-a72d09a69156.png)
+
+* When we are multiplying **i * 2**, to find the **n** value, if we cross the array, there is **no problem**.
+* If nothing mentioned about **no #** present after **array** is over, then it is a **serious issue**. There should be some marker to say that **array** is over. Use that market and stop it.
+
+* If **integers and infinites** are **randomly** there in the **array** then we can apply **binary search**?
+
+> **NO**.
+
+![image](https://user-images.githubusercontent.com/54589605/235583966-2c65a799-dabe-49a9-a74c-c29e4090c1ec.png)
+![image](https://user-images.githubusercontent.com/54589605/235584031-74f2c733-f7b7-4fdc-b6b5-582c88581c6b.png)
+
+* We will not know, if **array** is over or not. Continued to **infinite**.
+
+![image](https://user-images.githubusercontent.com/54589605/235584315-e811343c-a168-48bc-a5db-cf4574ea3c5c.png)
+
+### Next Question
+
+![image](https://user-images.githubusercontent.com/54589605/235584910-76752a6b-fc8b-4bb0-84e6-2f3eb783553c.png)
+
+* Input -> Sorted array of n-distinct positive integers.
+* Output -> Find any 2 elements a and b such that a + b > 1000.
+
+![image](https://user-images.githubusercontent.com/54589605/235585567-d5cc6ff3-aafb-4a51-8a86-24a55c4b071d.png)
+
+* Find time complexity. [Best Algo and worst case]
+
+* We have to find out **2** elements, **a and b**.
+
+* Steps:
+
+1) First apply linear Search.  
+
+![image](https://user-images.githubusercontent.com/54589605/235585768-5c40b646-9c03-45ee-8402-01813d2fd9cc.png)
+
+* If **a + b > 100**. Otherwise increment **b** or go to the next **b**.
+
+> We are asking **one by one** and **a** is **asking**, every other person. It is asking, I am **a** is confirmed, if you are **b** or not. 
+
+> If anyone satisfied then stop it, otherwise continue.
+
+![image](https://user-images.githubusercontent.com/54589605/235586603-4222b10e-4fbd-4747-af93-bc2c19f40073.png)
+![image](https://user-images.githubusercontent.com/54589605/235586885-daf8a61e-e7f4-403f-895a-5ab45c5b2244.png)
+![image](https://user-images.githubusercontent.com/54589605/235586905-6cd330d4-d516-43e8-8b85-e5e7ea1f5732.png)
+
+* We need **two** for loops here.
+
+![image](https://user-images.githubusercontent.com/54589605/235587089-cc9a0c27-ecd2-4704-8a9f-cc39b028ee7d.png)
+
+* Fix **a** value and rotate **b** value.
+* Using **linear search** we know how to find **one element or value**.
+* **n** time linear search happening.
+* Two inner loops, we have to **multiply**.
+
+![image](https://user-images.githubusercontent.com/54589605/235587629-2362451f-cbfd-4842-8015-da0ca82c6934.png)
+
+* For finding **3 elements or people**, we need **3 loops**.
+
+![image](https://user-images.githubusercontent.com/54589605/235587762-bfc45508-4589-40a1-b54d-f49ffc16a3b4.png)
+![image](https://user-images.githubusercontent.com/54589605/235587913-d94123cb-2905-4513-a16b-03406e34d839.png)
+![image](https://user-images.githubusercontent.com/54589605/235588181-fb3eceb3-3a16-497a-b954-cad88aef9815.png)
+![image](https://user-images.githubusercontent.com/54589605/235588203-8715a07d-2666-42da-8a1d-0f85bccd17e4.png)
+![image](https://user-images.githubusercontent.com/54589605/235588407-a3a601ed-9d09-4248-b29a-cf4b1aa12abf.png)
+
+* For finding **two** people, **time complexity** is **n * n -> n^2**.
+
+* **LINEAR SEARCH**
+
+* One time **linear search** -> **n**.
+* So for **n** times **linear search** -> **n * n -> n^2**
+
+
+* Array is sorted. So, why applying **linear search**, we can apply **binary search**.
+
+> Fix **a** and the for **remaining** people, for **b** purpose, apply **binary search**.
+
+> **a** will ask the **middle** person, are you **b**, so that the **sum** is more than 1000? **No**. We want **more**, and as it is a **sorted** array, we go to the **right** side.
+
+![image](https://user-images.githubusercontent.com/54589605/235588903-e124da34-ec87-4944-afad-16a79224915b.png)
+
+> **a** will ask the **middle** person, are you **b**, so that the **sum** is more than 1000? **No**. We want **more**, and as it is a **sorted** array, we go to the **right** side.
+
+![image](https://user-images.githubusercontent.com/54589605/235589154-7c11124d-cc5b-4061-8c73-f9d0f45eb648.png)
+
+* Everytime we are doing **divide by 2**, so it is **binary search**. **a** asking for **b** purpose of **binary search**.
+
+* How much time is over till now?
+
+> **log n** time, as we did **one** binary search.
+
+> Unfortunately, it failed, so **a** will move/increment one position to the **right**.
+
+![image](https://user-images.githubusercontent.com/54589605/235589571-2c70a554-5df2-4e1b-b5dd-a5808362fea1.png)
+
+> Again fix **a** and for the purpose of **b**, apply **binary search**. 
+
+![image](https://user-images.githubusercontent.com/54589605/235589712-a3f78808-0399-4b0b-b578-8dd36f0c83f8.png)
+
+**BINARY SEARCH**
+
+* One time **binary search** -> **log n**.
+* So for **n** times **binary search** -> **n * log n**
+
+![image](https://user-images.githubusercontent.com/54589605/235590397-605ab86c-c793-4ac0-b368-38c28a20fb37.png)
+
+* We are finding **two** people.
+* Binary search is going for **b** purpose.
+
+![image](https://user-images.githubusercontent.com/54589605/235590482-5f19bbf1-a349-487b-95c4-bc27f76bb59d.png)
+
+* For **three** people, we will apply **binary search** for **c** purpose. Only on **last** element, we apply **binary search**.
+
+> For **a and b** there are **two** loops. So, **n^2**, but for **c** loop it is not **linear search**, it is **binary search**, so it is **log n**.
+
+* For **three** elements it is **(n^2) * log n**.
+
+![image](https://user-images.githubusercontent.com/54589605/235590559-fdf5e9f9-2f15-4834-ac7f-6c6eb63ef9ad.png)
+
+* For **ten** elements it is **(n^9) * log n**.
+
+![image](https://user-images.githubusercontent.com/54589605/235590993-7319db9b-3155-4dd4-b4fc-3e4dfcff9490.png)
+![image](https://user-images.githubusercontent.com/54589605/235591024-1c4f06a8-052f-4d48-b92b-2e18bd3f6cd0.png)
+
+* For **two** people.
+
+![image](https://user-images.githubusercontent.com/54589605/235591080-d5d031ad-0bb4-4986-9e96-6a83393a8434.png)
+![image](https://user-images.githubusercontent.com/54589605/235591100-0180f29f-c075-4268-9f61-373419e0d75a.png)
+
+> In the above question, first try **linear search**, if in the **options**, **n^2** is there and **less than n^2** is not there, then stop it and select **n^2** as the **answer**.
+
+> Suppose **n^2** is there and **n * log n** is also there in the **options**, then by seeing **n * log n**, we got the clarity that **binary search** is there. Now, just check if **binary search** is **possible or not**.
+
+![image](https://user-images.githubusercontent.com/54589605/235591825-d27e4aac-d427-47a2-a688-089321af84ae.png)
+
+* **log n** -> One **binary search**
+* **n * log n** -> **n** number of **binary search** are possible.
+
+> **n * log n** is there but **less than (n * log n)** is not there, then stop and select **n * log n** as the **answer** only.
+
+> **n * log n** is there and **less than (n * log n)** is also there, then we have to **try** further. **YES**.
+
+![image](https://user-images.githubusercontent.com/54589605/235592070-9cc4f06f-5a19-42ad-9389-bbf7be4a36b6.png)
+
+* **Sorted array and increasing**.
+
+## 3rd Algo
+
+![image](https://user-images.githubusercontent.com/54589605/235592219-534a78fd-15bf-43db-af60-482e861dcc09.png)
+![image](https://user-images.githubusercontent.com/54589605/235592443-e7c5d9a2-861b-4c23-a374-d2eadb044ac5.png)
+
+> It is a **Sorted array and increasing**, so if the **last two** elements don't give **greater than 1000**, then no one can give.
+
+> Either they will give or none or no one will give.
+
+![image](https://user-images.githubusercontent.com/54589605/235592493-6df09d69-c4e2-45fe-bbaa-ace5f9922285.png)
+
+* Return **last two elements**.
+* Time complexity is O(1), since **no loops**.
+
+> If **n^2, (n * log n) and O(1)** there, then **O(1)** is the **correct** answer.
+
+![image](https://user-images.githubusercontent.com/54589605/235592721-08e64a4f-cf4a-4459-bde3-5b2a5947b06b.png)
+
+* For the above problem, **3rd algo** is **better**.
+* We want **best algo** and **worst case time complexity**.
+
+![image](https://user-images.githubusercontent.com/54589605/235592961-62827eef-1316-4f54-8363-8b6fa0292c07.png)
+![image](https://user-images.githubusercontent.com/54589605/235593055-9d27d842-00d3-4b9e-896e-c65245f7afe2.png)
+
+* For the **3rd algo**, **every case(EC)** is **1**.
+* **3rd algo** came from **common sense**.
+
+![image](https://user-images.githubusercontent.com/54589605/235593121-8854053a-196e-4e93-974b-97bc9475d755.png)
+
+* The **3rd algo** will work out for **three** people also.
+
+![image](https://user-images.githubusercontent.com/54589605/235593261-2ae0fef0-9dac-4e0a-9ad8-3467bd559c9d.png)
+
+* All of them will give **correct** answer.
+* Only thing is **3rd algo** will take **less time**.
+* Best algo is **3rd algo**.
+
+![image](https://user-images.githubusercontent.com/54589605/235593390-359eabfe-f686-4644-bd67-ca1eda33f113.png)
+![image](https://user-images.githubusercontent.com/54589605/235593406-8342c39c-1f09-41be-8516-947fa4294302.png)
+
+* Worst Case only and if **array** is **un-sorted**. 
+
+![image](https://user-images.githubusercontent.com/54589605/235593579-c597f98c-326b-4aff-ad95-ff36432cb7dc.png)
+![image](https://user-images.githubusercontent.com/54589605/235593895-c0241ae2-4786-4c4a-bb23-b601dc497d91.png)
+![image](https://user-images.githubusercontent.com/54589605/235593930-70d1f0f8-eb97-4405-ba5f-36168aac4742.png)
+
+## Doubt_Clearing_Session (27) [2nd May 2023]
+
+![image](https://user-images.githubusercontent.com/54589605/235653584-3dfbf039-5606-410f-9749-f2847f5ebfc4.png)
+
+### Sorted
+
+* Sorted(2-elements)
+
+1) Linear Search -> n^2
+2) Binary Search -> n * log n
+3) Short-cut -> O(1)
+
+* Sorted(3-elements)
+
+1) Linear Search -> n^3
+2) Binary Search -> (n^2) * log n
+3) Short-cut -> O(1)
+
+* Sorted(4-elements)
+
+1) Linear Search -> n^4
+2) Binary Search -> (n^3) * log n
+3) Short-cut -> O(1)
+
+### Unsorted
+
+* Unsorted(2-elements)
+
+1) Linear Search -> n^2
+2) Binary Search -> 1) Sort array -> n * log n.
+                    2) Binary search ->  n * log n.    
+
+* Together -> n * log n + n * log n -> 2 * (n * log n) -> n * log n.
+
+3) Short-cut -> 1) Sort array -> n * log n.
+                2) Short-cut ->  O(1).   
+
+* Together -> n * log n + O(1) -> n * log n.
+
+> In **unsorted array**, between **binary search and short-cut**, **short-cut** is **better** because it is **n * log n + O(1)** but **binary search** is **2 * (n * log n)**. 
+
+* **n * log n + O(1)** <= **2 * (n * log n)**
+
+## 4th Algo
+
+> In array, we know how to find **max** element. We can **scan once** and find the **max** element.
+
+> In **one scan**, we can find **first max and first min**.
+
+* Using **one scan**, we can find **first two max** and return them. It will take **O(n)** time complexity.
+* Time complexity -> O(n).
+
+* If we want **two** maximum, then **no need/requirement** of **sorting** the total array. Find them **directly** only.
+
+* **STEPS**:
+
+1) Find **first two max** directly using only **one scan**.
+2) Return them.
+
+![image](https://user-images.githubusercontent.com/54589605/235658515-92173649-9703-49c8-9842-a5059964dba8.png)
+![image](https://user-images.githubusercontent.com/54589605/235658435-2e85992e-2e49-4007-9234-e6d27808a06e.png)
+
+* **Best Answers/Best Algo**:-
+
+* If array **not sorted or un-sorted** -> O(n).
+* If array **sorted** -> O(1).
+
+![image](https://user-images.githubusercontent.com/54589605/235658691-516f8db2-9584-4a5d-86b8-06f65c71a174.png)
+
+![image](https://user-images.githubusercontent.com/54589605/235659065-c435a38c-3fdf-47fb-b783-21d10153c604.png)
+
+* No **hashmap** in **algo**. Don't use it, unless mentioned in question.
+
+![image](https://user-images.githubusercontent.com/54589605/235659294-bf662fdf-cf86-4c40-a2de-c7139d5e4f56.png)
+
+* **YES**.
+
+![image](https://user-images.githubusercontent.com/54589605/235659399-adda0893-2c51-4011-bcb6-dfdd752271b4.png)
+
+* **O(n)**. Use **4th algo**, as it is an **unsorted array**.
+
+![image](https://user-images.githubusercontent.com/54589605/235660688-c79380be-c3c6-4c3f-80cb-dd236e7f9ad0.png)
+![image](https://user-images.githubusercontent.com/54589605/235660717-5958b163-0b19-4539-82e5-3048f5b86e0e.png)
+
+* For sorted array.
+
+![image](https://user-images.githubusercontent.com/54589605/235661051-ae20e576-ea3a-4dd3-b2b8-47141346cd9a.png)
+
+* In the previous question it was **max** elements.
+* In the above question it is **min** elements.
+
+![image](https://user-images.githubusercontent.com/54589605/235661275-240df8ab-50b9-4f2a-a96d-7df20ae1a05c.png)
+
+### Next question
+
+* Input -> Sorted array of n distinct elements
+* Output -> Find any 2-elements(a and b) such that a + b == 1000.
+
+* Sorted -> O(n * log n) 
+* Unsorted -> O(n * log n)
+
+* **Binary Search** in **both cases**.
+* We can see that **linear and binary** search both are possible on the **above** question.
+
+![image](https://user-images.githubusercontent.com/54589605/235662843-c3653062-3aaf-423b-bc99-5b99ae7bf053.png)
+
+* Wait sirji.
+
+
+## 3rd Algo
+
+* If we want **more** then **increment/move**, 'a'  to the **right**.
+* If we want **less** then **decrement/move**, 'b'  to the **left**.
+
+![image](https://user-images.githubusercontent.com/54589605/235670313-5b15f9ea-5af3-4177-bdc4-072f2b14715b.png)
+![image](https://user-images.githubusercontent.com/54589605/235670401-8589f5e4-6ee8-41f7-a1b9-56ab5d7ad283.png)
+
+* We got it with **one scan**. **a** is **increment/moving** every time because we want **more**. 
+
+* In the **algo**, how will change, a or b?
+
+> Depending on the **requirement**, sometimes **a** will change, sometimes **b** will change.
+
+![image](https://user-images.githubusercontent.com/54589605/235670993-ae7bebc1-8fc5-4f05-b469-9175a990f4fa.png)
+![image](https://user-images.githubusercontent.com/54589605/235671071-6296e61d-a0b9-4823-a4d7-519fec107461.png)
+
+* It is also **one scan**. Right most **b**, moved to the **left** because we want **less**.
+* **One scan** means **one loop**, so it is **O(n)**.
+
+![image](https://user-images.githubusercontent.com/54589605/235671660-f2b43bdf-6c7d-4414-ac7d-ede21715f0be.png)
+
+> We are getting **a + b -> 100 + 700 -> 800**, which is **less than 950**, which we want. Hence, we want **more**. We **moved** 'a' to the **right**.
+
+![image](https://user-images.githubusercontent.com/54589605/235672198-d50fc773-00c4-47eb-a1dd-c491066162c0.png)
+
+> We are getting **a + b -> 200 + 700 -> 900**, which is **less than 950**, which we want. Hence, we want **more**. We **moved** 'a' to the **right**.
+
+![image](https://user-images.githubusercontent.com/54589605/235672250-f8b1cbe3-329e-40bc-ab79-934d05a17d6f.png)
+
+> We are getting **a + b -> 300 + 700 -> 1000**, which is **more than 950**, which we want. Hence, we want **less**. We **moved** 'b' to the **left**.
+
+![image](https://user-images.githubusercontent.com/54589605/235672881-6ec968a7-a50d-4458-a5e9-ece4b807f6ca.png)
+
+> We are getting **a + b -> 300 + 600 -> 900**, which is **less than 950**, which we want. Hence, we want **more**. We **moved** 'a' to the **right**.
+
+![image](https://user-images.githubusercontent.com/54589605/235673053-47d33cd6-b9ec-4746-b79a-5b0a633a2a2a.png)
+
+> We are getting **a + b -> 450 + 600 -> 1050**, which is **more than 950**, which we want. Hence, we want **less**. We **moved** 'b' to the **left**.
+
+![image](https://user-images.githubusercontent.com/54589605/235673270-3c5268e1-b587-4cd0-9cae-3acaf07888b8.png)
+
+> We are getting **a + b -> 450 + 500 -> 950**, which is **equal than 950**, which we want. We got what we wanted, which is **950**. Return **a and b**.
+
+![image](https://user-images.githubusercontent.com/54589605/235673581-5a3b47be-b220-4248-af4b-621291c9c923.png)
+
+* Sometimes, **left** will move, sometimes, **right** will move and sometimes **both** will move.
+
+![image](https://user-images.githubusercontent.com/54589605/235673783-1c46d6ff-f444-4dab-8dcf-52dc5c5d918f.png)
+
+* Simply **one scan**, which is **one loop**.
+
+![image](https://user-images.githubusercontent.com/54589605/235674434-f458ea66-0dda-44ae-a6dc-a9bbcad36040.png)
+![image](https://user-images.githubusercontent.com/54589605/235674685-ea6a27ac-997c-4ce3-a733-22afbcfff4a6.png)
+
+* If **not equal** in the **while** loop, then come **inside**.
+
+![image](https://user-images.githubusercontent.com/54589605/235675512-97b4d567-1f0d-4f9a-8cd9-581e21d42536.png)
+![image](https://user-images.githubusercontent.com/54589605/235675551-628cfe96-845f-404f-9f70-16d79f1ebac5.png)
+
+* Elements **not found**. They are not possible.
+* Time Complexity -> **O(n)**.
+
+![image](https://user-images.githubusercontent.com/54589605/235675817-d272a7ca-94d0-4ea4-ac77-418b8814c483.png)
+
+* Loop is **n** time, only **one scan** required.
+* The options are **n^2, (n * log n) and O(n)**, then the **answer** is **O(n)**.
+* Sorted array and **equal asked**, answer is **O(n)**.
+* Same problem, un-sorted array and **equal asked**, answer is **(n * log n) + O(n) -> (n * log n)**. First we have to sort the **un-sorted array** which will take **(n * log n**, then apply **3rd algo**, which will take **O(n)**.
+
+* **3rd Algo** is **not possible** if the array is **not sorted**. We have to **sort** the array first then apply **3rd algo**.
+
+
+* Same problem, un-sorted array and **equal asked**, answer:
+
+* Linear Search -> n^2
+* Binary search -> (n * log n) -> (n * log n) + (n * log n)  => 2 * (n * log n).
+* 3rd algo -> **(n * log n) + O(n) -> (n * log n)** [Since, we have to do sorting first]
+
+* 2 * (n * log n) > (n * log n) + O(n) -> That's why **3rd algo** is **better**.
+
+![image](https://user-images.githubusercontent.com/54589605/235678607-c063a01a-12e2-4e42-98c0-2abe06429200.png)
+
+* Another name of **greedy** technique is **short-cut**.
+
+![image](https://user-images.githubusercontent.com/54589605/235679019-3010d6f1-1fb0-4de7-8a17-2154b6906c2d.png)
+![image](https://user-images.githubusercontent.com/54589605/235679307-20d3a15b-c603-485e-9ea4-d043959c510c.png)
+![image](https://user-images.githubusercontent.com/54589605/235679391-69525277-6d5c-41d4-909b-c8ba8f925107.png)
+![image](https://user-images.githubusercontent.com/54589605/235679773-493b0eee-fe90-4363-bf82-780fff7de074.png)
+
+## Process
+
+1) First try **linear search**, it will give some ideal.
+2) Improvement of **linear search** is **binary search**.
+3) Now try the **greedy or short-cut** algos from above to get improvement from **binary search**.
+
+![image](https://user-images.githubusercontent.com/54589605/235680815-e86cb7f6-6ca4-4191-ae33-1ebbcaeabfad.png)
+
+* Greedy Approach.
+
+![image](https://user-images.githubusercontent.com/54589605/235681211-3aba41b5-a8de-4a01-bb50-cac1665e70f2.png)
+
+* BRO. DEAD.
+
+## Merge Sort
+
+* Sorting Technique.
+
+![image](https://user-images.githubusercontent.com/54589605/235688721-7c5e308e-df29-4f7e-b57a-bf09c32b9547.png)
+![image](https://user-images.githubusercontent.com/54589605/235688750-d498ad3c-5882-44e3-a90e-92a0524de50f.png)
+
+* They are **different**.
+* Merge sort -> Given array is converted into sorted array.
+
+![image](https://user-images.githubusercontent.com/54589605/235714001-13edf355-f8eb-48e9-a968-8d92366a9c2f.png)
+![image](https://user-images.githubusercontent.com/54589605/235715070-f6551a30-c7a1-434b-87b0-5bcbd21aa1a0.png)
+
+* Merge sort is application of **divide and conquor**.
+* One element is a **small problem**, return that element.
+
+![image](https://user-images.githubusercontent.com/54589605/235717142-46ea5492-cece-47fe-a2d1-d68fa363f93b.png)
+
+* Every circle is a **function** call.
+* Space complexity of recursive programs depends on **no. of levels**. The **no. of levels** is **log n**.
+
+![image](https://user-images.githubusercontent.com/54589605/235718116-65631ec8-0a8c-4cd0-af34-c1aa9fa52c49.png)
+
+* For function calling.
+
+![image](https://user-images.githubusercontent.com/54589605/235731650-9f9c8ec8-60d1-4b8a-90d0-9fb2e3684b62.png)
+
+* At every **divide**, **combine** should take place.
+* To do **c3**, **c4 and c5** are required. **c4** is required first then **c5**.
+* c4 is a **small** problem, so return that element.
+* As both **c4 and c5** are **available**, we can **combine**.
+* Left is **1** element and right also **1** element. So, if we **combine**, we will get **2** elements but in **sorted** order.
+
+![image](https://user-images.githubusercontent.com/54589605/235734816-8b28a258-20e8-4814-9732-11b8cfdf6783.png)
+
+* Left and right person become **two** people in the **sorted** order, then that process is called as **combine**. It is also called as **merge**. **Combine** is nothing but **merge**.
+
+![image](https://user-images.githubusercontent.com/54589605/235735271-fe946e06-9c9a-4732-b19b-92b380604039.png)
+![image](https://user-images.githubusercontent.com/54589605/235736405-b7acf89e-9bb9-4579-9bda-72530a474bfe.png)
+![image](https://user-images.githubusercontent.com/54589605/235736425-1e8b756e-16dd-4629-92aa-b11b7a4bede7.png)
+
+![image](https://user-images.githubusercontent.com/54589605/235738628-f7c0e5dc-7f18-49d5-b354-ba80cfd9cc7b.png)
+
+* Top of the **stack** is **c1**.
+
+* For **c9**, **c10 and c13** are available. Because both are available, we have to **combine**. **c9** has **2** elements and **c13** has **1** element. So, total is **2 + 1 -> 3** people in the sorted order.
+
+![image](https://user-images.githubusercontent.com/54589605/235739072-b0b0072d-521a-4cc2-8bb7-5ee5ab0afd40.png)
+![image](https://user-images.githubusercontent.com/54589605/235739102-f5eb29a1-6d77-4166-b680-e6dd3577004e.png)
+
+* Top of the **stack** is **c1**.
+* For **c1**, **c2 and c9** are needed and they are available. **c2** has **4** elements, **c9** has **3** elements. So, total is **4 + 3 -> 7** people in the sorted order.
+
+![image](https://user-images.githubusercontent.com/54589605/235739428-f597d84b-d699-4717-960d-d7c17a5e0eeb.png)
+![image](https://user-images.githubusercontent.com/54589605/235739477-4a9ccedd-6a37-408b-87f7-6cedb7498ca1.png)
+
+* We got **sorted order**.
+* There is **Divide(), small(), solution(), combine()** within **merge sort**. The **combine()** is called as **merge** in merge sort.
+* **6** times divide, means **6** times combine.
+* **1** divide time or simply divide time is **constant**.
+* **1** combine time is not **constant**.
+
+> If total elements is **n**, then the **left side**, is **n/2** and right side is also **n/2**.
+
+> To **combine** both the **n/2** elements from **left and right**, it would take **n** time. One **merge or combine** will take **n** time.
+
+* **merge or combine** is costlier than **divide**.
+
+![image](https://user-images.githubusercontent.com/54589605/235741242-c791a2a9-9462-4dd0-a3fc-a75bb6d0154b.png)
+![image](https://user-images.githubusercontent.com/54589605/235741301-2df2447b-e916-433e-8b9c-4c07e017ca3c.png)
+![image](https://user-images.githubusercontent.com/54589605/235741409-a59a670e-4c8f-41f5-a66e-58745ff37563.png)
+
+* All are **same**.
+* We are dividing at every level.
+* Dominator is **combine** time.
+
+* At every level, we are doing **merging**. At every level it will take **n** time, we have **log n** levels, so it is **n * log n**.
+ 
+## DP-VI (28) [3rd May 2023]
+
+* **Log n** levels in the tree. Because we are always **dividing by 2**.
+* First level, we have **1** divide. Every function call, we will **divide**.
+* At every division, there is **combine** also.
+
+![image](https://user-images.githubusercontent.com/54589605/235836634-fe00da11-8fc1-406a-a589-55fd34760280.png)
+
+* In the bottom level, there are **n** groups. Every group contains **1 element**.
+* In the 2nd last level, there are **n/2** groups. Every group contains **2 element**. So, it is **n/2 * 2 -> n**. So at the end of the day, it is **n** people only.
+* Groups are **compressing/decreasig** but the **no. of elements** remain the **same**.
+* First level has **1 group**, containing **n**  people/elements. 
+* Every level, containing **n** people/elements.
+
+![image](https://user-images.githubusercontent.com/54589605/235839600-4b022af9-3979-4292-928d-4c87b1bcbb5d.png)
+![image](https://user-images.githubusercontent.com/54589605/235839698-17eaab75-5bd6-4b61-95b9-897b6ee5a54b.png)
+![image](https://user-images.githubusercontent.com/54589605/235839863-a0cd1c29-43b5-4656-b416-09ae0ac52d53.png)
+
+## Merge() or combine()
+
+* Merge is **two sorted sub-arrays**. Merge is the other name for **combine()**. It is different from **merge sort**. Merge sort is superset of **merge**.
+* Even if we have **two sub-arrays**, then also we cannot go to **merger**, we need **two sorted sub-arrays**.
+
+![image](https://user-images.githubusercontent.com/54589605/235840746-1a45ee71-1f2b-46fa-b981-c757df0978de.png)
+
+* **One(1) sorted sub-array**,apply **binary search**.
+
+* If in any problem, more than **one** sorted array given?
+
+> Apply **merge algorithm** not **merge sort**.
+
+* If in any problem, only **one** sorted array given?
+
+> Apply **binary search**.
+
+## Summary
+
+* **Merge algorithm** input -> **two sorted sub arrays**
+* **Merge sort** input -> **One array**.
+
+![image](https://user-images.githubusercontent.com/54589605/235844003-421a3acf-17d7-4ebf-a433-83d483893e89.png)
+
+* After every comparison is over, **move** or do assignment, whoever is **winner**, **move** them.
+* As only **41** is left, as there are **no elements** to fight with, it, cannot fight further.
+* No change of **comparison** further, so we just simply **copy 41** to the **last place**. 
+
+![image](https://user-images.githubusercontent.com/54589605/235844552-7585b3c4-6ec4-401c-b90d-7cb1d968941b.png)
+
+* If there are **m** elements in first arrray, **n** elements in second array then the **no of comparisons** is **m + n -1**.
+* No. of moves is **m + n**.
+* Time complexity of **merge algorithm** is **moves** only, as somethings **comparisions** may not be there, but every element **move** is there.
+
+![image](https://user-images.githubusercontent.com/54589605/235845103-e9c40ded-23f5-4a2f-9a3e-f5209d0948a7.png)
+
+* Time complexity of **merge algorithm** -> O(n).
+
+![image](https://user-images.githubusercontent.com/54589605/235845540-8c9b84aa-0fe9-4e2e-9a08-0677ce2a2741.png)
+
+* In the **A** group, the two arrays are **individually** sorted.
+* In the **B** group, the array is **completely** sorted.
+
+![image](https://user-images.githubusercontent.com/54589605/235846602-3f181c36-0c8e-42e2-b4f7-a272f07da25c.png)
+![image](https://user-images.githubusercontent.com/54589605/235846690-71643961-f131-4bf9-a5c7-3675391ecce6.png)
+ 
+* Elements are always going from **same** group, that is also **small group**. Here, **n=3** and **m=6**, so **n** is **smaller**.
+
+![image](https://user-images.githubusercontent.com/54589605/235884820-740f3ec3-e629-40eb-bc92-a0ce58864d4f.png)
+![image](https://user-images.githubusercontent.com/54589605/235885295-c62c9b63-23dc-4b58-8603-0247fcd8c039.png)
+
+* This is an example of **merge algorithm** with **best case**.
+
+![image](https://user-images.githubusercontent.com/54589605/235885442-4bb10575-676f-4bce-8b46-ca703091fae4.png)
+
+* This is an example of **merge algorithm** with **worst case**.
+* It will take much more time.
+
+* Whether it is **best or worst** case, **time complexity** is the **same** which is the **no. of moves**. Moves are **same** only **m + n**.
+* From **best to worst** case, the **no. of comparisions** are **changing(increasing or decreasing)** instead of **no. of moves**.
+
+![image](https://user-images.githubusercontent.com/54589605/235886337-8d8e49f2-9f9f-497c-84d8-740209a8d4d8.png)
+![image](https://user-images.githubusercontent.com/54589605/235886414-0cca4378-dfaf-4920-ae77-37d5af40df5c.png)
+
+* If we are asked any algo's **best and worst** case time complexity, shpuld we bother about **input order or input size**?
+
+> **Input order**. Don't think about **input size**. We are bothered about **logic** and not **size** here.
+
+* **Any case**, the **no. of elements** is **same(n)**.
+ 
+> Whenever **merge algo** is going on, we are taking **another array**, where the **merge algo** is happening. **YES**. We are taking some **extra space** from outside. That's why **merge algo**, happens on the **outside/outplace**.
+
+![image](https://user-images.githubusercontent.com/54589605/235890040-0cc7b7c2-c083-4302-b741-f99851da584e.png)
+![image](https://user-images.githubusercontent.com/54589605/235890066-a24fcd88-bba9-427f-a777-235621158521.png)
+
+* We can take **max** of **log n** extra space. We have taken an extra array of size **n**. As, **n** is greater than **log n**, so it is considered to be **outplace**.
+
+* Why **merge sort** is **outplace**?
+
+> When doing **merge sort**, we are taking **extra space**. We are taking **more than log n**, which is **n**. As we took an array of size **n**.
+
+> We want to say that we have taken **more space**. If really needed then take.
+
+## Note[**IMPORTANT**]
+
+![image](https://user-images.githubusercontent.com/54589605/235892745-0e273ddb-c59f-464b-a8c2-c7801b9ebc5c.png)
+
+* Merging 2-sorted sub-arrays each of size **m and n** will take **O(m + n)**.
+
+> It is for **every case(EC)**, because **moves** are always **m + n**. It is called as **outplace** algorithm. **Outplace** means we have take **more space** than **log n**.
+
+* To save **time**, we have take **extra space**.
+
+* Moves are always **bigger** than comparisions.
+
+* If we won't want to take **more space**?
+
+> If we take **less space**, then the time complexity of **merge algo** will be **O(m * n)**.
+
+> It is **worst case** and it is **in-place** algorithm because we have not take any **extra space**.
+
+![image](https://user-images.githubusercontent.com/54589605/235895186-c0bdbd23-6572-45a3-95fc-8c565889e1c0.png)
+
+* In-place -> **Less space**, so time is **more**. Time is **m * n** more.
+* Out-place -> **More space**, so time is **less/decreased**. 
+
+* If **m=10 and n=20**, then for **In-place** algo, where **more** space is taken, time complexity is **O(m + n) -> 20 + 10 -> 30**.
+
+* If **m=10 and n=20**, then for **out-place** algo, where **less** space is taken, time complexity is **O(m * n) -> 20 * 10 -> 200**.
+
+* **Time and space** both are important. But **time** is **more important** than **space**.
+
+![image](https://user-images.githubusercontent.com/54589605/235895899-03b02476-7401-4052-909f-b46dca5a6552.png)
+
+> We don't discuss **in-place** because it takes **more time** than **out-place**.
+
+![image](https://user-images.githubusercontent.com/54589605/235896011-6e27fdd8-46a2-48e7-93ad-4e38fd4c15a4.png)
+![image](https://user-images.githubusercontent.com/54589605/235896598-7dbb23df-b551-443d-b96a-bd26a911b77e.png)
+
+* **Inplace** algo.
+
+![image](https://user-images.githubusercontent.com/54589605/235897012-91684108-82c2-4a05-8a47-661a9ab522e7.png)
+![image](https://user-images.githubusercontent.com/54589605/235897626-4d9f0d16-3e5f-4b9d-be45-ce688b932010.png)
+![image](https://user-images.githubusercontent.com/54589605/235897995-af4c86d4-1c01-4c47-b067-48ab047af1c5.png)
+
+* Not required.
+
+* Inside **merge sort**, **merge** is there then it is **out-place**.
+* If we try to **decrease space**, **time** is **increasing**. 
+
+![image](https://user-images.githubusercontent.com/54589605/235898022-cfa22261-1592-4559-884c-b5d212803a63.png)
+
+* Meaningful **merge**.
+* In **merge sort**, **combine** is **careful** but **divide** is **blind divide**, as we have not done any **comparisions**.
+* Blind division is **O(1) or constant**, **advantage** is that they are **fast** or take less time.
+
+* Who is rectfying **blind divide's** mistakes?
+
+> **Combine()**.
+
+* **Combine()** is meaningful combine.
+
+![image](https://user-images.githubusercontent.com/54589605/235899146-388ad5a0-836d-4e19-830c-071a8e09938a.png)
+
+* Above is **VERY IMPORTANT**.
+
+![image](https://user-images.githubusercontent.com/54589605/235899294-8b1e7333-53e8-4c30-bd00-ea76e5aef5c6.png)
+
+* For **min** comparisions, one group only, which is **smaller**.
+
+![image](https://user-images.githubusercontent.com/54589605/235899432-cb39e89b-9283-4a02-bfd0-9721cdc9ad12.png)
+
+* For **min** comparisions, both group will come, which is **m + n -1**. Last element is **excluded**.
+
+![image](https://user-images.githubusercontent.com/54589605/235899658-dd79c0fd-2138-4e46-9930-28c640eaf344.png)
+
+* **Moves** is always **bigger** and it is the **time complexity**.
+
+![image](https://user-images.githubusercontent.com/54589605/235899734-7c0381a1-9cbc-4994-9fd7-b5e0523c5c34.png)
+![image](https://user-images.githubusercontent.com/54589605/235899899-83ea5e82-441f-47f6-a8df-cd9ea1184083.png)
+
+## Doubt by student
+
+![image](https://user-images.githubusercontent.com/54589605/235900221-152271f4-f186-4531-8070-8d0d7e8b927c.png)
+![image](https://user-images.githubusercontent.com/54589605/235900258-7f0c63f2-9a85-4dc4-907c-84d4f9eceee9.png)
+![image](https://user-images.githubusercontent.com/54589605/235900633-5436c3fc-0860-4b2c-9a46-134f364b9e49.png)
+
+> He's comparing **last element** of **first** array and **first element** of **second** array. Which is **incorrect** or **wrong**.
+> It should be comparing **first element** of **first** array with **first element** of **second** array. This is **correct**.
+
+![image](https://user-images.githubusercontent.com/54589605/235900806-9c300e68-b185-4e8f-88dc-1edbf85b1d94.png)
+
+* This is possible if they ask in the question to modify the **merge sort** algo in such a way that it gives certain time complexity?
+
+> We can try then, the above one.
+
+* Worst case matters.
+
+![image](https://user-images.githubusercontent.com/54589605/235901198-9ba98e83-65f5-438f-823f-60500a920e6c.png)
+
+* Algo is **fixed**. We can change the **input**.
+* Without touching the algo, change the **input** and see which **input** matches the **best, worst or average** cases.
+
+## Merge Sort Algorithm
+
+* **One** array.
+
+* merge(a, i, mid); -> Sorts the **left** part.
+* merge(a, mid + 1, j); -> Sorts the **right** part.
+* **Left and right** part are **individually** sorted.
+* merge(a, i, mid, j); -> **Merge** algo. It is the **combine** part.
+
+* **Merge algo**, time complexity is **moves** only.
+
+![image](https://user-images.githubusercontent.com/54589605/235902699-cefce45b-cb31-4afc-ae92-34b485bb41ee.png)
+![image](https://user-images.githubusercontent.com/54589605/235902936-e878b4ce-6453-465e-9299-4a00ee80ddea.png)
+
+* Time complexity of **merge algo** is **O(n)** for **every case(EC)**.
+* Merge algo is over, now the **total array** is **sorted**.
+
+![image](https://user-images.githubusercontent.com/54589605/235903140-e5fc55b3-4fa9-478e-85f8-f70bab1a1d76.png)
+
+* Time complexity of **divide** time  -> O(1) or constant
+* The total is **T(n)**.
+* Time complexity of **conquor** time -> T(n/2) + T(n/2) -> **2 * T(n/2)*
+
+![image](https://user-images.githubusercontent.com/54589605/235903429-23e86a93-c78a-4963-8710-93be3237ad10.png)
+![image](https://user-images.githubusercontent.com/54589605/235903707-05e9aa94-fe6b-44e6-8a9d-dbc60ae1bd93.png)
+
+* **Combine** time is **more** compared to **divide** time.
+* **Combine + divide** time, combined time is **O(n) + O(1) -> O(n)**.
+
+* Inside **merge sort**, **merge** is there. The **merge** is **out-place** because it has take **more space** than **log n**.
+* As **merge** is **out-place**, so the whole **merge sort** algorithm is **out-place** now.
+
+![image](https://user-images.githubusercontent.com/54589605/235904484-0b40c9ab-8974-411e-8f2e-a90599e28374.png)
+![image](https://user-images.githubusercontent.com/54589605/235904559-e86fd205-bd41-470e-9807-3cdd06e8af61.png)
+
+### Time complexity of Merge Sort
+
+![image](https://user-images.githubusercontent.com/54589605/235905485-17c45566-9721-41d7-9c0a-caaf2f3c98e7.png)
+
+* It is **log n** level tree, or **no. of levels** is **log n**.
+
+* Time complexity of Merge Sort -> **Theta(n * log n)**. [For every case, as **moves** are always **same**]
+* Space complexity of Merge Sort -> log n + n -> **O(n)**.
+
+> In the **space complexity**, **log n** is for the **stack**, as it is a **recursive** function. When the **merge** function is running it is taking **extra space** by using another array of size **n**. So it is **log n + n -> O(n)**.
+
+> If the extra array is not taken of size **n**, then it is an **in-place** algo.
+
+![image](https://user-images.githubusercontent.com/54589605/235906380-8056c6b3-6c83-43f0-aef2-864c2a83da28.png)
+![image](https://user-images.githubusercontent.com/54589605/235906520-6739537b-e432-42e8-a0a9-42459c6ec545.png)
+![image](https://user-images.githubusercontent.com/54589605/235906574-fba25ae1-a87a-4d5f-b1e7-e7168e226539.png)
+![image](https://user-images.githubusercontent.com/54589605/235906971-086e091d-2166-4e1d-9e50-b483d8807cfe.png)
+![image](https://user-images.githubusercontent.com/54589605/235907094-dfa54c4d-560f-4ee7-afb7-631a3cc1a66a.png)
+
+## DAC-VI (29) [3rd May 2023]
+
+![image](https://user-images.githubusercontent.com/54589605/235924629-f1a3dacf-59e7-4715-b0e8-db943fee3c3d.png)
+
+* Time complexity of Merge Sort -> **Theta(n * log n)**. [For every case, as **moves** are always **same**]
+* Best case(Min time) in **divide and conquor** techniques -> **else** part
+
+![image](https://user-images.githubusercontent.com/54589605/235939111-0a32df21-47e9-4ecb-994f-f3476891eb4c.png)
+
+* Whenever an array is given to **merge sort**, then **divide, conquor and combine/merge** will always happen as there is no **return** in the **middle**. The **return** statemenet is there at the **end** only.
+* We cannot stop in-between a **merge sort**, because there is no **return** in the **middle**. The **return** statemenet is there at the **end** only.
+
+* Why merge sort time complexity is **O(n *  log n)**?
+
+>  As there is no **return** in the **middle**, the program has to execute till the end everytime. The **return** statemenet is there at the **end** only. That's it is always **O(n *  log n)** only.
+
+![image](https://user-images.githubusercontent.com/54589605/235940217-17f04c30-90eb-4a08-9354-5cacfad26e39.png)
+
+> If both the sides are **equal**, then we can apply master theorem's **case 2** there and multiply right side with **(log n)^0**. So that both the sides are still **equal**.
+
+> Left and right side person **no difference** at all or **difference** by **log n**.
+
+* **Binary search** is the only algo as of now, where we can stop at the **middle** only. Other algos stop at the end only.
+
+* Time complexity of **merge sort** having **only one** value which is **O(n *  log n)**.
+
+![image](https://user-images.githubusercontent.com/54589605/235944350-593053f9-4017-42dd-ad3a-9cbb83738d98.png)
+
+### Problems
+
+![image](https://user-images.githubusercontent.com/54589605/235944435-40a9179d-2597-4ba5-93b7-44ba8767b00a.png)
+
+* Merge sort input -> It can be anything, sorted, unsorted etc array.
+* Merge sort output -> Sorted array.
+
+* Merge algo input -> 2 sorted arrays.
+* Merge algo output -> 1 Sorted array.
+
+* One sorted array -> Binary search
+* More than One sorted array -> Merge algo [Multiple arrays become one array]
+
+* Total element is **n** elements.
+
+![image](https://user-images.githubusercontent.com/54589605/235949456-ad7c92cb-d2d6-452b-ae1a-af5f64e46579.png)
+
+* From **bottom to top**, **groups** are decreasing, as we are merging groups.
+* For **merge algo**, **moves** is important.
+
+![image](https://user-images.githubusercontent.com/54589605/235951433-16f63bbe-6fe3-44e7-aaa2-8e605238420d.png)
+
+* Until and unless they mention **merge sort**, don't go to **n * log n**.
+* Normal merge sort contain **divide, cconquor, combine**. In **merge also** there is no **divide or conquor**, there is only **combine**.
+
+![image](https://user-images.githubusercontent.com/54589605/235952347-e2c20387-70f9-4488-bd6b-e9db68a19bb7.png)
+
+* Input -> log n sorted sub-array each of size **n/log n**.
+* Output -> Find single sorted array. 
+* Find time complexity. [Best algo and worst case]
+
+> We want **1** group only.
+
+* Whenver we are doing recurrence relation, when the first and second level values are **same**, then all of the level value are **same** as well.
+* Whenver we are doing recurrence relation, when the first and second level values are **different**, then all of the level value are **different** which means **series** coming.
+
+![image](https://user-images.githubusercontent.com/54589605/235953624-8dba2347-e245-46e7-8359-e81033535dce.png)
+![image](https://user-images.githubusercontent.com/54589605/235954648-3ec12bd4-3689-4ae9-8ebd-fd33767eb6b0.png)
+
+* If we have **n** elements and we divide by 2 everytime, then it is **log n** levels.
+* If we have **a** elements and we divide by 2 everytime, then it is **log a** levels.
+* If we have **k** elements and we divide by 2 everytime, then it is **log k** levels.
+* If we have **log n** elements and we divide by 2 everytime, then it is **log(log n)** levels.
+
+> We have **log n** elements and we divide by 2 everytime, that's why we got **log(log n)** levels. When we had **n** elements and we divide by 2 everytime, we got **log n**.
+
+* Every level cost is **n**. **No. of levels** is **log(log n)**. So, the **total cost** is **n * log(log n)** 
+
+![image](https://user-images.githubusercontent.com/54589605/235955822-66d0a27b-46f1-4bf5-b45b-1662da505e08.png)
+
+> We have **log n** groups, every group is **n/log n**. Bottom level has **log n** groups. Next level(2nd last level) has **log n/2** groups. Every level, total elements is **n**. At the bottom level, the one group contain how many elements, **n/log n** elements. Bottom level cost is **nothing** as input given.
+
+> Levels became **log(log n)**, because we are always dividing **log n** by 2. 
+
+![image](https://user-images.githubusercontent.com/54589605/235972957-441d5d47-a368-4c69-94ef-95a513a31036.png)
+  
+> Inputs groups are **log n**. 
+
+* In the exam, they will give like "Inputs groups are **k**", instead of **log n**.
+
+> How many levels? **log k**.
+> Groups? **k**
+> Sorted arrays? **k**
+
+![image](https://user-images.githubusercontent.com/54589605/235975922-7f3144f2-d922-4659-99ee-ed561d1b5703.png)
+
+> Normal merge sort contains **n** groups, where each group contains **1 element**. Normal merge sort input is **n element** array.
+
+> In the **2nd last level**, **n** is the **no. of elements**, **n/2** groups. Total cost is **n**.
+
+> Groups are **compressed**.
+
+![image](https://user-images.githubusercontent.com/54589605/235976223-95d1dfcc-76f3-4ce5-9ea3-d74fa8ce235d.png)
+![image](https://user-images.githubusercontent.com/54589605/235976627-e341babd-dd36-4d82-b7c8-3e2da2652fdf.png)
+
+* We will see **log n** groups.
+* From the **bottom to top**, the total time is **n * log n**. It is **log n** level and every level cost is **n**.
+* In the given problem, it is given from **middle to top**, **log n** groups to **1** group. Actual problem is **n** groups to **1** group how? but the problem has given from **middle to top**.
+* They can **ask** any part.
+
+* **bottom to top** -> **n * log n**. [Normal merge sort]
+* **middle to top**
+
+![image](https://user-images.githubusercontent.com/54589605/235978343-dabd3678-6b97-47f5-bfb1-b8a1ed113daa.png)
+![image](https://user-images.githubusercontent.com/54589605/235979375-3bd6d31e-12a3-4f34-a494-fd1b8dc72ee4.png)
+ 
+> We continued for **k** times. We got **n/2^k** groups. **k** value is **log(log n)**.
+
+![image](https://user-images.githubusercontent.com/54589605/235979712-a3aa79fd-bc91-4356-a58c-a4e8aa693063.png)
+
+* input ->'n' sorted sub-array each of size **1**.
+* Output -> Find single sorted array.
+
+> 'n' sorted sub-array each of size **1** means **one array**. Finally want **sorted array**. It is **merge sort**.
+
+* Total time is -> **n * logn**. [Answer]
+
+![image](https://user-images.githubusercontent.com/54589605/235980606-3ab68e51-e87d-4888-9b71-96fe62d29c45.png)
+
+* input -> 'n' sorted sub-array each of size **1**.
+* Output -> Find **log n** sorted array.
+
+> 'n' sorted sub-array each of size **1**, that is the **input**. Output is gonna be **log n** sorted sub-arrays. We only want **log n** sorted sub-array.
+
+![image](https://user-images.githubusercontent.com/54589605/235981448-8a9789c5-3969-4974-9dda-acc70aa52bdf.png)
+
+> In the question, they can start from anywhere and end at anywhere.
+
+> 'n' sorted sub-array each of size **1**. It is **n** elements sub-array. Start from the **bottom** and do it till the **middle**. Time complexity is gonna be **n * logn - log(log n)**. Asymptotically it is **n * log n**.
+
+* Total time is -> **n * log(logn)**. [Answer]
+
+![image](https://user-images.githubusercontent.com/54589605/235982960-136cadb4-2c40-41c4-9bac-c3b51168acb3.png)
+
+* input -> '80' sorted sub-array each of size **1**.
+* Output -> Find **log n** sorted array.
+
+> '80' sorted sub-array each of size **1** means the program has done some portion/work. In the **below**, there are **n** sorted sub-array but now we have **80** sorted sub-array.
+
+> Major portion of work is done from **n to 80**. Now, he wants **4** sorted sub-arrays.
+
+![image](https://user-images.githubusercontent.com/54589605/235984152-2fa78d1d-ca49-4fd5-ae35-ca51308626c8.png)
+
+* They will ask the portion how they got from **80 to 4**. We will **divide 80 by 2** to reach 4.
+
+> So for **k** times, it is **80/(2^K) = 4**.
+
+* We got the value of **k** which is **k = log 20 base 2**.
+
+![image](https://user-images.githubusercontent.com/54589605/235984815-cd137eab-67d3-47a7-baa3-9181c6b05384.png)
+
+* No. of levels from **80 to 4** is **log 20 base 2**.
+
+![image](https://user-images.githubusercontent.com/54589605/235985658-9585f956-c505-48c6-b038-69b6347df877.png)
+
+* Time complexity -> **n * O(1) -> O(n)**.
+
+![image](https://user-images.githubusercontent.com/54589605/235988538-f418334f-aee4-4de1-a6e4-c609f5038fef.png)
+
+* input -> n-sorted sub-arrays each of size **n^2/n**.
+* Output -> Find **log n** sorted subarrays.
+
+* Total elements -> **n * (n^2/n) -> n^2**. 
+
+![image](https://user-images.githubusercontent.com/54589605/235989078-0aa3b1ad-c624-4764-9ce3-62cad19765b8.png)
+
+> **n** sorted sub-arrays each containing **n** element. Total people is **n^2**. 
+
+> If **n^2** elements are there, then at the bottom level, there are **n^2** groups each containing **1** element. This is **normal merge sort** behaviour.
+
+> What is the problem here? Not **n^2** groups, but **n** groups only., where every group contain **n** people, who are already sorted. So he done a lot of work, **n^2** groups became **n** groups.
+
+> Follow the **procedure**.
+
+![image](https://user-images.githubusercontent.com/54589605/235990899-e5735eab-56f9-4bb9-a976-13403e61a4ba.png)
+
+* There are **n** groups. Each group size is **n^2/n**.
+
+* How many people/elements at the given level?
+
+> **n** groups and every group is **n^2/n**. So **n * n^2/n -> n^2**. The **no. of people** in the given level is **n^2**.
+
+> We have **n^2** **no. of elements**, **n** groups and group size is **n**, for the given level. Total is **n^2**.
+
+![image](https://user-images.githubusercontent.com/54589605/235991285-4b7e4ed1-a269-40b3-a857-246f33386c6c.png)
+
+> **Two** groups become **one** group. So it is **n/2** groups. 
+
+> Cost of every group is **n^2/n * n^2/n -> (2 * (n^2))/n**.
+
+> **No. of moves** is **n/2 * (2 * (n^2))/n -> n^2**.
+
+![image](https://user-images.githubusercontent.com/54589605/235993672-ae09beda-6eb6-4775-8df9-f9b7243e42b5.png)
+
+> **n^2** elements are moving from **one** level to another level. Definitely moves becomes **n^2**.
+
+* Time complexity of **merge algo** is **moves** only.
+
+![image](https://user-images.githubusercontent.com/54589605/235994432-bdb15fdb-d409-4e06-a217-4845c2914eb2.png)
+
+* First and second level values are **same**, so rest of the levels are **same** as well.
+* Every level is **n^2**.
+* **No. of groups** is **n/2^k**. The question is expecting **log n** groups.
+
+![image](https://user-images.githubusercontent.com/54589605/235995281-cc513e2f-82f8-475a-b7f6-53247931a798.png)
+
+* n/2^k = log n
+* n= 2^k * log n
+* log n = k* 1 + log(log n)
+* k= log n - log(log n).
+
+* **log n - log(log n)** is asymptotically equal to **log n**.
+* k = **log n**.
+
+* There are **log n** groups.
+* No. of levels -> log n
+* Every level -> n^2
+* Total cost -> **log n * (n^2) -> (n^2) * log n**.
+
+![image](https://user-images.githubusercontent.com/54589605/235996828-ba197251-abb9-4a1c-be27-b486621e487a.png)
+![image](https://user-images.githubusercontent.com/54589605/236000106-89481ea9-2f40-45db-9c43-ec6301653e10.png)
+
+* input -> K-sorted sub-arrays each of size 'm'
+* Output -> Find single sorted array with all elements.
+
+* No. of elements -> k * m.
+
+> **k-sorted arrays**, if we **divide by 2**, then the **no. of levels** is **log k**.
+
+* Every level cost is -> k * m.
+* Total cost -> O(k * m * log k). [**Answer**]
+
+![image](https://user-images.githubusercontent.com/54589605/236000872-c6019d8b-7053-4bfd-ba50-a6948792cb5b.png)
+
+* Decreasing series question example.
+
+![image](https://user-images.githubusercontent.com/54589605/236001354-70fe4309-da92-4329-b3dc-e4e128803a15.png)
+![image](https://user-images.githubusercontent.com/54589605/236001446-02245ded-9908-47a4-9bb9-49088f85b636.png)
+
+* Minimum do **2-3** levels.
+
+![image](https://user-images.githubusercontent.com/54589605/236001792-e2fe80b0-208f-4b64-9dfa-ec5ea1e5726f.png)
+![image](https://user-images.githubusercontent.com/54589605/236002107-8f629806-efa9-4af4-bfd7-c8eff979f1e0.png)
+
+* Input -> K-sorted sub-arrays each of size 'm', where every sub-array sorted individually using insertion sort
+* Output -> Find single sorted array.
+
+* If we want to apply **merge algo**, we need **sorted sub-arrays**.
+
+> In the previous problem, **k** sorted sub-arrays was given directly. In the above question, sub-arrays are not sorted but explained how to sort. Sorting level cost we also have to take care.
+
+* First and second level have **same** cost, so it will be **same** for the rest of the levels.
+* No. of levels -> log k
+* Every level cost -> m * k
+* Total cost -> m * k * log k.
+
+> For the, first level it is **k** groups. They are **not sorted**, so for each group we are applying **insertion sort**. For **m** elements time complexity is **m^2**. One group contains **m** elements so it is **m^2**. On group sorting is **m^2** amd we have **k** groups, so it is **k * m^2**.
+
+* Insertion sort, worst case for **n** elements -> **n^2**
+* Insertion sort, best case for **n** elements -> **n**
+
+![image](https://user-images.githubusercontent.com/54589605/236004260-793b3e85-7f0f-4605-a5b2-69dee28072d4.png)
+![image](https://user-images.githubusercontent.com/54589605/236004464-d15512fd-1e23-44a4-aa7b-bffd960a26d6.png)
+
+* Total time -> **k * m^2** + **m * k * log k**. [**Answer**]
+
+![image](https://user-images.githubusercontent.com/54589605/236004616-e0836d57-6677-4446-914b-ff5f33e6a806.png)
+
+* **k * m** is **common** part. The comparision is between **m and log k**.
+
+* Both are **possible**. If we can't decide which is **bigger** then keep **both**.
+
+![image](https://user-images.githubusercontent.com/54589605/236005136-b5ddd688-182d-49a8-a68f-a63494ef6145.png)
+
+* **k * m^2** is the cost of **first level** only.
+* In the first level, how many groups, **k** groups.
+* In the question, mentioned how to sorted, not sorted array given.
+
+![image](https://user-images.githubusercontent.com/54589605/236005617-e235fed0-581b-470e-b394-f017f137d67f.png)
+
+* If algo not mentioned for sorting, we can take any algo we want. **YES**.
+* Normally in the **bottom part**, it is **small** problems. Groups maybe **more**, but every group size is **m**.
+* Group size**small** means **small** problem.
+
+* **Merging** required **sorted sub-arrays**.
+* If **sorted sub-arrays** not given, we will **sort** the array ourselves only.
+* In the **merge sort**, bottom level, so many sub-problems are there, every sub-problem size is **small**.
+
+## Note
+
+* It is a well known fact that for **small arrays**, **insertion** sort is preferred.
+* **Merge sort** is preferred if array is **large**.
+
+![image](https://user-images.githubusercontent.com/54589605/236007242-db9d396d-6119-45ac-ab3a-6989fc5b3a1b.png)
+
+* Smaller array -> Insetion sort
+* Larger array -> Merge sort
+
+![image](https://user-images.githubusercontent.com/54589605/236007422-1a0a0767-b73d-4774-984f-c925b21383c4.png)
+![image](https://user-images.githubusercontent.com/54589605/236007491-6d3d483e-82ab-4227-825f-d440e1253342.png)
+
+* Except **first level** everything else is **merge sort**.
+* In first level, every group is **small**, there we have applied **insertion sort**, rest we have applied **merge sort**.
+
+* Combination of merge and insertion sort will lead to **better** results/performance.
+
+![image](https://user-images.githubusercontent.com/54589605/236007932-96ab0cfd-13f6-41ba-87eb-b59686970937.png)
+ 
+* Smaller size **insertion** sort is preferred.
+
+![image](https://user-images.githubusercontent.com/54589605/236008461-5df4f494-f315-4b34-b727-555edec73eda.png)
+
+* Selection sort
+
+* We need to study all **sorting algorithms**.
+
+![image](https://user-images.githubusercontent.com/54589605/236008587-44c92908-eea0-4a11-9bfb-242c0de01666.png)
+
+* Merge sort.
+
+![image](https://user-images.githubusercontent.com/54589605/236008789-4fb2b885-92ab-4eea-b590-ffcc6323f5d9.png)
+
+* Smaller size **insertion** sort is preferred.
+
+* Sorting array is **many ways**.
+* Sorted array is very **large**, so **merge sort** is preferred.
+
+![image](https://user-images.githubusercontent.com/54589605/236009071-a90afecc-da29-446a-949a-1ca95adbc543.png)
+
+* Sorted array is very **smaller**, so **insertion sort** is preferred.
+
+* input -> k-subarrays each of size m, where 'm' is very **small**.
+
+> Insertion sort.
+
+
+* Merge sort on sorted array ->  n * log n
+* Merge sort on un-sorted array ->  n * log n
+
+> Every time **n * log n**.
+
+## Summary
+
+* Nothing mentioned then **merge sort**.
+* For **un-sorted** array, always use **quick sort**.
+* To be same, use **merge sort**.
+* For **small arrays** use **insertion sort**.
+* Random array -> **quick sort**.
+* **Large array** -> **merge sort**
+
+![image](https://user-images.githubusercontent.com/54589605/236011760-38228055-d5a0-4b06-8f70-0b5155b37abe.png)
+
+* By **default**, **merge sort** is **out-place**. Don't bother about **in-place**.
+
+* For **merge algo** time:
+* in-place -> n^2
+* out-place ->  n
+
+## Doubt_Clearing_Session (30) [4th May 2023]
+
+> **Merge sort** is better for **larger problems**, **insertion sort** is better for **smaller problems**. When doing merge sort, we **divided-divide** the array, at the bottom we will see **small problem**, there apply **insertion sort**. Then, it will be **better performance**.
+
+* Un-sorted array -> Quick sort
+* Any array, nothing mentioned -> Merge sort.
+
+## Straight 2-way merge sort
+
+![image](https://user-images.githubusercontent.com/54589605/236106222-2d229c55-e21b-45cd-94cf-6a81b0fae5ea.png)
+
+> From the **bottom**, first level is given array. **Second** level is, **output** after **first pass**.
+
+![image](https://user-images.githubusercontent.com/54589605/236106356-877fc6a9-3925-4d76-80ce-e746c4317e43.png)
+
+> On the given array, we are not **dividing**, we are directly **merging**.
+
+![image](https://user-images.githubusercontent.com/54589605/236106452-afdfe1df-5cc8-424b-8d29-5093290464c6.png)
+
+* This is not the **divide and conquor** technique, **merge sort**. It is called as **straight 2-way merge sort**. 
+
+![image](https://user-images.githubusercontent.com/54589605/236106795-4daf222d-a7e0-4325-840d-b1b067c1a87d.png)
+![image](https://user-images.githubusercontent.com/54589605/236106823-c9f79d3d-d6d8-4dd4-9a53-88f9b60ceb91.png)
+
+* 1st pass.
+
+### Question
+
+* In a **straight two way merge sort** algo, what is the ouput after **2nd pass**?
+
+> 13,28,36,80,15,19,42,75,3,7.
+
+* **Straight two way merge sort** algo is **pass wise** output. This is the way.
+
+![image](https://user-images.githubusercontent.com/54589605/236107906-bf0443a1-63cf-44cb-bdf9-6051131fa4a9.png)
+
+* Divide and conquor technique, **merge sort** will start from **top**. Given array **divide** it into **two** parts. We **divide** equally. At the **last level**, we see **1** element each. It follows **post order** traversal.
+
+* There is no output nothing after each pass, because it doesn't go **level by level**.
+
+![image](https://user-images.githubusercontent.com/54589605/236108373-675a5fa1-755a-4b34-a054-e138b916f86a.png)
+![image](https://user-images.githubusercontent.com/54589605/236108359-e519e166-c35b-4355-9d4d-dc84f929c5d2.png)
+
+* In **straight two way merge sort** algo only, we have to do **level by level**.
+
+> **Pass wise** output will come from **straight two way merge sort** algo only.
+
+![image](https://user-images.githubusercontent.com/54589605/236108777-2574072d-6e7d-4486-990b-35c772799e72.png)
+
+* Why levels came **4**?
+
+> It is also **divide by 2**. So, **log n** levels will come and **log n** passes. It contains **log n base 2** passes.
+
+* At the **bottom** level, we are **combining** two elements, so **two moves** required. So the **total move** is **10** only. The **10** elements we have, are moving from **first to second** level. So, the moves are **10**.
+
+![image](https://user-images.githubusercontent.com/54589605/236110181-c12071f4-440d-455b-ab80-cc78c50ebe5d.png)
+
+* At every level, moves are **n**, **n=10** in the above example.
+* No. of passes -> log n base 2 -> log 10 base 2.
+* No. of moves for every pass -> n -> 10
+* Time complexity -> O(10 * (log 10 base 2)) -> O(n * (log n base 2))
+
+![image](https://user-images.githubusercontent.com/54589605/236110613-dbdf13b7-c66a-40df-aa73-a14db0bc15b8.png)
+![image](https://user-images.githubusercontent.com/54589605/236110668-f25217fd-dd55-44fc-9c60-641299485ed3.png)
+
+* Normal **merge sort** time complexity is also **same**.  The difference is that it is having some **different behaviour** as it is a **recursive program**.
+
+![image](https://user-images.githubusercontent.com/54589605/236110867-43bc60d2-75e6-4944-be63-c054662fd31b.png)
+
+* It is a **straing 2-way merge sort**.
+* If it was a **straing 3-way merge sort**. Then we had to **merge** 3 elements, which would have given **O(n * (log n base 3)).
+* No. of passes is **log n base 2** because we are **dividing by 2** from the bottom.
+* Every pass cost is **n**, as there are **n** elements in every level.
+* No. of levels is **log n**, which means **no. of passes** is **log n**.
+* Every pass, contains **n** moves.
+* So, it is **O(n * log n)**.
+
+![image](https://user-images.githubusercontent.com/54589605/236111284-3a34c08f-5f69-4e7b-b20f-fc986108e833.png)
+
+* Little bit variation but it is still **merge sort**. In the divide and conquor technique, merge sort, we **divide-divide** and divide. We are doing by **post order** traversal.
+
+* In straight 2-way merge sort, we take **two** people and **merge** them. Level by level we are doing.
+
+![image](https://user-images.githubusercontent.com/54589605/236111544-d62fe566-1ddb-41dc-aeea-3ae3779a1745.png)
+![image](https://user-images.githubusercontent.com/54589605/236111700-d4185a6e-9b90-4eaa-bdbc-91046eb5c7b0.png)
+
+* Divide and conquor technique, merge sort example. How it works. 
+
+## Merge sort space complexity
+
+![image](https://user-images.githubusercontent.com/54589605/236112623-0ddc6666-dbb9-4d4f-8d8b-1168e358f4aa.png)
+
+* Extra space we have taken **more** than **log n**.
+* Space complexity of merge sort -> O(n).
+
+* Space complexity means **extra only**. The extra space we have taken, more than **log n**. Asymptotically, the extra space we have taken more than **log n**, that's why it is **out-place**.
+
+![image](https://user-images.githubusercontent.com/54589605/236112861-08c18083-4ce1-42f0-9078-7cdc6960717f.png)
+
+* All the other algos, we have seen so far, they have not used any **extra space**. Other than the **stack space**, nothing extra. 
+* In **Merge sort**, other than **stack space*, there is **merge algo** which is taking **n** space.
+
+* From Merge sort only, sorting algos are divided into **two** parts, how?
+
+1) In-place
+2) Out-place
+
+![image](https://user-images.githubusercontent.com/54589605/236113547-9e6c382d-417c-41c6-b1f0-d64ecffa4cdf.png)
+![image](https://user-images.githubusercontent.com/54589605/236113703-1c63f063-4d80-4842-b90c-f97d49e6b897.png)
+
+* It is **n** because it is **out-place**.
+* It is **n^2** because it is **in-place**.
+
+![image](https://user-images.githubusercontent.com/54589605/236113813-c5dd45f1-92c1-4a38-9426-b309e873fef3.png)
+
+* In both(in-place and out-place), the **stack space** is **log n**. Extra array(B) required in **out-place** and it is not required in **in-place**.
+
+![image](https://user-images.githubusercontent.com/54589605/236114034-3ef07b5f-edd5-4123-8ed3-baf91410239e.png)
+
+* Reuse the **same** array.
+
+![image](https://user-images.githubusercontent.com/54589605/236114227-f5200345-b8ca-46af-9236-d1d0c12a6325.png)
+
+* Straight 2-way merge sort is for **output** purpose, as we can get the **output** after **each and every** pass.
+* When they are asking for **output** pass-wise, we will directly **merge**. **2-2** elements we will **merge**.
+* Time complexity is **same**, no variation, doesn't matter if we do **Straight 2-way merge sort** or we do **divide and conquor technique merge sort**.
+
+* In the **merge sort**, will be use another sorting algo also at the bottom?
+
+> Because of **small** problems at the bottom, we will use **insertion sort** for most of the **cases**.
+
+* Two sorting algos can be combined/merged and asked in the question. What will be the time complexity?
+
+* Start from **45mins**.
 
 
 
@@ -3237,8 +7572,7 @@ A) Infinite loop -> **NO**. Space is **limited**. Not possible.
 
 
 
-
-
+ 
 
 
 # Practice Videos (27th April 2023)
@@ -3294,23 +7628,6 @@ A) Infinite loop -> **NO**. Space is **limited**. Not possible.
 ![image](https://user-images.githubusercontent.com/54589605/234864089-e3a92b6b-1f36-4573-a554-333420c6882a.png)
 ![image](https://user-images.githubusercontent.com/54589605/234865925-f6faa930-f803-4325-9278-b0e0f2f9f561.png)
 ![image](https://user-images.githubusercontent.com/54589605/234870341-b33d9ff1-182d-4029-aeba-a624af30f9e2.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ## Revision
@@ -3407,6 +7724,7 @@ A) Infinite loop -> **NO**. Space is **limited**. Not possible.
 * YES.
 
 > **Big-O, omega and theta** are applicable for **anything**.
+
 
 
 

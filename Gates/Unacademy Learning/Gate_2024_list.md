@@ -21,4 +21,8 @@
 ![image](https://user-images.githubusercontent.com/54589605/232383267-8e0dbaa7-1a7b-499f-916a-5a6ba2f4d27a.png)
 ![image](https://user-images.githubusercontent.com/54589605/232383643-ce0e2b8b-a9f7-4142-83fd-cf7607d2bcf2.png)
 
+## Problems
+
+![image](https://user-images.githubusercontent.com/54589605/235130836-8ad78d01-bc2e-451c-8d63-59fedf6a3b20.png)
+
 
