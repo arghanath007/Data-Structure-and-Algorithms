@@ -7508,8 +7508,52 @@ A) Infinite loop -> **NO**. Space is **limited**. Not possible.
 
 * Divide and conquor technique, merge sort example. How it works. 
 
-* Start from **35mins**.
+## Merge sort space complexity
 
+![image](https://user-images.githubusercontent.com/54589605/236112623-0ddc6666-dbb9-4d4f-8d8b-1168e358f4aa.png)
+
+* Extra space we have taken **more** than **log n**.
+* Space complexity of merge sort -> O(n).
+
+* Space complexity means **extra only**. The extra space we have taken, more than **log n**. Asymptotically, the extra space we have taken more than **log n**, that's why it is **out-place**.
+
+![image](https://user-images.githubusercontent.com/54589605/236112861-08c18083-4ce1-42f0-9078-7cdc6960717f.png)
+
+* All the other algos, we have seen so far, they have not used any **extra space**. Other than the **stack space**, nothing extra. 
+* In **Merge sort**, other than **stack space*, there is **merge algo** which is taking **n** space.
+
+* From Merge sort only, sorting algos are divided into **two** parts, how?
+
+1) In-place
+2) Out-place
+
+![image](https://user-images.githubusercontent.com/54589605/236113547-9e6c382d-417c-41c6-b1f0-d64ecffa4cdf.png)
+![image](https://user-images.githubusercontent.com/54589605/236113703-1c63f063-4d80-4842-b90c-f97d49e6b897.png)
+
+* It is **n** because it is **out-place**.
+* It is **n^2** because it is **in-place**.
+
+![image](https://user-images.githubusercontent.com/54589605/236113813-c5dd45f1-92c1-4a38-9426-b309e873fef3.png)
+
+* In both(in-place and out-place), the **stack space** is **log n**. Extra array(B) required in **out-place** and it is not required in **in-place**.
+
+![image](https://user-images.githubusercontent.com/54589605/236114034-3ef07b5f-edd5-4123-8ed3-baf91410239e.png)
+
+* Reuse the **same** array.
+
+![image](https://user-images.githubusercontent.com/54589605/236114227-f5200345-b8ca-46af-9236-d1d0c12a6325.png)
+
+* Straight 2-way merge sort is for **output** purpose, as we can get the **output** after **each and every** pass.
+* When they are asking for **output** pass-wise, we will directly **merge**. **2-2** elements we will **merge**.
+* Time complexity is **same**, no variation, doesn't matter if we do **Straight 2-way merge sort** or we do **divide and conquor technique merge sort**.
+
+* In the **merge sort**, will be use another sorting algo also at the bottom?
+
+> Because of **small** problems at the bottom, we will use **insertion sort** for most of the **cases**.
+
+* Two sorting algos can be combined/merged and asked in the question. What will be the time complexity?
+
+* Start from **45mins**.
 
 
 
