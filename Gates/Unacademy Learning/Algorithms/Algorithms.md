@@ -7952,6 +7952,285 @@ Steps:
 
 ![image](https://user-images.githubusercontent.com/54589605/236381855-1da351a9-613f-49ab-b26c-f2efc2bc006a.png)
 
+## DP-VII (31) [5th May 2023]
+
+## Partition Algorithm
+
+* Input -> It is an **array**.
+
+> It can be an **unsorted array**, which will give the **best performance**. If the array is **sorted** then, it will give it's **worst performance**.
+
+* Partition algo contains an array **a** which contains elements from **p(first element index) to q(last element index)**.
+* Output -> It will divide the given array into some **smaller** parts. It will divide meaningfully. 
+
+> Quick sort is the **super-set** of **partition algo**.
+
+* Meaningfully means we have to **ask every person**, which side they want to go, either left or right side. If we want **meaningful division**, then everyone should participate.
+
+* To make **meaningful division**, we have to **ask every person**.
+
+> The purpose of **partition** algo is **dividing** the given array, with respect to **first element**. Select **first element** and compare **other elements** with **first element**. **First element** will ask the **second element**, compared to **first element** is the **second element** smaller or greater.
+
+> If it is **smaller**, then go to the **left** side.
+
+> If it is **greater**, then go to the **right** side.
+
+![image](https://user-images.githubusercontent.com/54589605/236450720-e386569f-be50-4d45-bd0e-7b5a18b10a18.png)
+
+* In-side quick sort, **partition algo** is major. **Partition's** another name is **divide**.
+*  There is **no combine** also.
+
+* The **first element** we have **selectd** and which is compared with rest of the elements is called as **pivot element**.
+
+* In partition algo, what will be the first step? [**Partition algo steps**]
+
+1) Select an element which is called as the **pivot** element. Normally the **first** element in the array is **selected** as the **pivot** element, but we can **select** anyone of the elements.
+2) The **pivot** element will be compared with all the other elements.
+3) When comparing elements with **pivot** element, some elements will be **small** and some elements will be **big**. Accoring to that **swap** them. **Smaller** ones will go to the **left** side, and the **bigger** ones will go to the **right** side. That's the purpose of **swap**.
+
+* Second swap is out of the **for loops**.
+
+![image](https://user-images.githubusercontent.com/54589605/236455434-0059214f-4e85-4d58-92d5-ad7545fb091b.png)
+![image](https://user-images.githubusercontent.com/54589605/236455509-0f58d1b2-e512-43fb-8bce-2469bf84995c.png)
+
+* The purpose of the **second or last swap** is that the **pivot** elements goes to the **middle**.
+* After **partition** algo is done, at the **left** side, **smaller people** are there. In the **middle**, the **pivot** element is there. At the **right** side, the **larger people** are there.
+
+> After **partition** algo is done, the array is broken into **two** parts, **left** side is **smaller** elements, **right** side is **larger** elements and at the **middle** is the **pivot** element.
+
+![image](https://user-images.githubusercontent.com/54589605/236456077-727977cd-0e99-47bd-8565-0c01bb62095a.png)
+
+> The loop is repeating for **n-1** times.
+
+* The time complexity -> Theta(n).
+
+> It is **n** because we have to ask **every person** and for that **one loop** is required.
+
+* In all of the **previous** algos, the **divide** time is always **constant**, because there was **no loops**. In **partition** algo, **loop** is there, so it is **not constant** and it is **n**.
+
+![image](https://user-images.githubusercontent.com/54589605/236456858-a7a6fb96-b7fb-47aa-9ac2-0aa48b0b7e8d.png)
+
+> The **divide** time is **n** is for **every case(EC)** because there is **no breaks or return** statements within the loops. We have to continue **n** times.
+
+* The time complexity of **partition** algo -> Theta(n). [Loop is there for **n-1** times and it is for **every case(EC)**].
+
+![image](https://user-images.githubusercontent.com/54589605/236458104-ff644cd3-129c-4843-bed1-884344e15d07.png)
+
+* The purpose of **partition** algo is that we have to **ask everyone** and why we want to do **meaningful division**.
+
+> **Partition** algo compulsorily needs **one loop**, because we are **asking everyone**.
+
+![image](https://user-images.githubusercontent.com/54589605/236461089-a0b121c3-6dd6-4dc5-82a6-10af44a560ca.png)
+
+> Whichever element we have take as **pivot**, keep **i** also.
+
+> From **j** position, the comparisions between **pivot(x)** and the other elements will start.
+
+* 'P' is the **first** element index
+* 'Q' is the **last** element index
+* 'x' is the **pivot** element
+* 'i' is for the for loop
+* 'j' is for the comparision elements.
+
+> We cannot change **P and q** as they are **first and last index** of elements
+
+> We can change **i and j** as they are normal variables.
+
+> We can algo is running **P and Q** will **not change** but **i and j** will **change**.
+
+![image](https://user-images.githubusercontent.com/54589605/236462739-c80d931b-91a4-4a9d-b7ff-1c50c6062869.png)
+
+> Left side is **i** and right side is **j**. Whenever **partitionon** is going on and at the **end**, we want **smaller** elements to the **left** and **larger** elements to the **right**. It means that **i** is expecting **smaller** people and for **j** we are expecting **larger** people.
+
+> Intially between **i and j**, both want to **move**. The final compromise is that **j** only will **move**. So, **j** will take the **larger** ones and give the **smaller** ones to **i**. So, finally **j** is moving, as the loop is on **j** only.
+
+![image](https://user-images.githubusercontent.com/54589605/236464568-02c23d90-84bf-4d3b-86ff-9b59d651e295.png)
+
+* **i** is expecting **smaller** elements and **j** is expecting **larger** elements. Wherever **greater**, **j** will take. Wherever **smaller**, **i** will take.
+
+* We don't have to worry that much about **P and Q** they are **fixed**.
+
+> **J** will start from **2nd** place. **J=2** and **a[j] = 150**. Everytime, we have to **compare** with **pivot(80)**. **150** is greater than **pivot**? **YES**. As it is **greater** than **pivot** and **j** wanted **greater** so, **j** will **increment/move to the right**.
+
+![image](https://user-images.githubusercontent.com/54589605/236478653-ccb1c52a-3329-4820-b1b6-47927da20f38.png)
+![image](https://user-images.githubusercontent.com/54589605/236478865-dc9fac16-849f-4fe0-a7aa-7cfa2eb2f39e.png)
+
+> **J=3** and **a[j] = 200**. Everytime, we have to **compare** with **pivot**. **200** is greater than **pivot(80)**? **YES**. As it is **greater** than **pivot** and **j** wanted **greater** so, **j** will **increment/move to the right**.
+
+> **J=4** and **a[j] = 70**. Everytime, we have to **compare** with **pivot**. **70** is greater than **pivot(80)**? **NO**. As it is **lesser** than **pivot** and **j** wanted **greater** but got **lesser** so, **j** will **stop/wait**. **J** will say to **i**, he found **lesser**. So, now **i** will **increment/move to the right**. So **exchange/swap** both **a[i] and a[j]**. After **swap** is over, now **j** will **increment/move to the right**.
+
+> **J=5** and **a[j] = 30**. Everytime, we have to **compare** with **pivot**. **30** is greater than **pivot(80)**? **NO**. As it is **lesser** than **pivot** and **j** wanted **greater** but got **lesser** so, **j** will **stop/wait**. So, now **i** will **increment/move to the right**. Now, swaps happens between **a[i] and a[j]**. After **swap** is over, now **j** will **increment/move to the right**.
+
+![image](https://user-images.githubusercontent.com/54589605/236481615-8663e02d-ba0a-4ebb-9112-a21f3191ceda.png)
+
+> **J=5** and **a[j] = 30**. Everytime, we have to **compare** with **pivot**. **30** is greater than **pivot(80)**? **NO**. As it is **lesser** than **pivot** and **j** wanted **greater** but got **lesser** so, **j** will **stop/wait**. So, now **i** will **increment/move to the right**. Now, swaps happens between **a[i] and a[j]**. After **swap** is over, now **j** will **increment/move to the right**.
+
+> **J=6** and **a[j] = 250**. Everytime, we have to **compare** with **pivot**. **250** is greater than **pivot(80)**? **YES**. As it is **greater** than **pivot** and **j** wanted **greater** so, **j** will **increment/move to the right**. 
+
+> **J=7** and **a[j] = 75**. Everytime, we have to **compare** with **pivot**. **75** is greater than **pivot(80)**? **NO**. As it is **lesser** than **pivot** and **j** wanted **greater** but got **lesser** so, **j** will **stop/wait**. So, now **i** will **increment/move to the right**. Now, swaps happens between **a[i] and a[j]**. After **swap** is over, now **j** will **increment/move to the right**.
+
+![image](https://user-images.githubusercontent.com/54589605/236482847-897f06b4-57c4-4e89-a640-ac4795c41bdf.png)
+
+> **J=8** and **a[j] = 45**. Everytime, we have to **compare** with **pivot**. **45** is greater than **pivot(80)**? **NO**. As it is **lesser** than **pivot** and **j** wanted **greater** but got **lesser** so, **j** will **stop/wait**. So, now **i** will **increment/move to the right**. Now, swaps happens between **a[i] and a[j]**. After **swap** is over, now **j** will **increment/move to the right**.
+
+> **J=9** and **a[j] = 180**. Everytime, we have to **compare** with **pivot**. **180** is greater than **pivot(80)**? **YES**. As it is **greater** than **pivot** and **j** wanted **greater** so, **j** will **increment/move to the right**. 
+
+![image](https://user-images.githubusercontent.com/54589605/236483075-02d6b441-a078-4365-b912-4d28218f68df.png)
+
+> **J=10** and **a[j] = 90**. Everytime, we have to **compare** with **pivot**. **90** is greater than **pivot(80)**? **YES**. As it is **greater** than **pivot** and **j** wanted **greater** so, **j** will **increment/move to the right**. 
+
+![image](https://user-images.githubusercontent.com/54589605/236483219-de583818-d87a-41d3-b06b-dfcab4073caa.png)
+
+> Total array is over, means **for loop** over. **J** crosses, **q**.
+
+> When we are out of the **for loop**, all elements are **completed**.
+
+> After array is **over**, first element is **pivot**. **I** is incremented **4** times. **I** will be incremented by **1** if **small** elements came.
+
+> **I=5** means, **4** times we have **incremented**, which means **4** small people are there.
+
+> Comparing with pivot element, the **4** elements are **smaller**.
+
+> At the end of the **for loop**, **i** is there at the **5th** place. **2nd to 5th** are **small**. Wherever **i** is there, until that place, **small** people are there.
+
+> After **i** remaining people are **greater**.
+
+* First element is **pivot**.
+* Until **i**, they are **small**.
+* After **i**, they are **big**.
+
+![image](https://user-images.githubusercontent.com/54589605/236485636-6dca46dc-c8c9-4d90-8937-fe3198341d97.png)
+
+* If **small** comes then we enter into the **if** statement. If **small** comes, then the first thing we do is we **increment i**. 
+* We have to continue until the array is over, we have to **ask everyone**.
+
+* After **i** all remaining things are **greater**. Wherever **i** is there, until that place, **small** people are there.
+
+![image](https://user-images.githubusercontent.com/54589605/236474872-45b9aa7c-3a32-4f15-963c-88bd7eda8111.png)
+
+> First element is **pivot** element. Until **i**, elements are **small**. After **i**, elements are **big**.
+
+* Until which place **small**?
+
+> **i**.
+
+* Where is the last **small** element?
+
+> At **i**.
+
+* Where is the first **smallest** element?
+
+> After **P**, which is **P + 1**. **P + 1** is the first **smallest** element.
+
+* What is **i** as of now?
+
+> 5th position. a[i] = 45
+
+* At what index is the last **smallest** element there?
+
+> **ith** index.
+
+> At the end of the **for loop**, last smallest element is there at the **ith** place, where **i=5** and **a[i]=45** and a[P]=80. So, **a[i] and a[P]** are **swaped**. Pivot element will go to **ith** place  and **ith** place element will go to **pivot** element.  
+
+* It shows that **pivot** element is going to the **middel**.
+
+* What is **partition** algo doing?
+
+> At the end of the **partition** algo, it will divide the array into **two** parts.
+
+* Before pivot on the left side are **smaller** and on the **right** are **larger**.
+* **Partition** algo will **divide** the array only and not sort.
+
+* Total array is not **soted** but the **pivot** element is sorted.
+* After **partition algo** over, only **pivot** element is sorted.
+* Left and right people ordering is not perfect. Left and right people are nor **sorted**.
+* After **partition algo** over, **pivot** element when to it's correct place, it means that **pivot** element is  sorted.
+* Left and right position elements will change.
+ 
+![image](https://user-images.githubusercontent.com/54589605/236489639-64995884-2d0a-41d9-bd9e-4ff09b8cfa35.png)
+
+* After **partition algo** over, how many elements are **sorted**?
+
+> **Pivot** element is only sorted.
+
+![image](https://user-images.githubusercontent.com/54589605/236491080-da4ef7bd-e9b2-4011-a664-92317e96f2ff.png)
+
+* **Only one** scan required to get all the work done.
+* After **partition algo or for loop over**, **pivot** is at the **first place**. 
+* After, **second swap statement, is over, **pivot** is at the **middle place**. 
+
+![image](https://user-images.githubusercontent.com/54589605/236492339-41c5955f-6683-4e06-b3b3-3c5f1dc0eb15.png)
+
+* **Pivot** will also return the position.
+
+![image](https://user-images.githubusercontent.com/54589605/236492857-d9dbcd72-299a-4b5b-bc9c-d8e53aea9da8.png)
+
+> when we go inside the **if condition**, then only **i** is increased. We go to **if condition** when **small** coming.
+
+> **J** will increase everytime.
+
+> When **big** coming, we will go outside of **if condition**, which means **j= j+1**.
+
+* **i** will increment when **small** coming.
+* **j** will increment everytime/always.
+
+* By default, the pivot element is the  First element.
+
+![image](https://user-images.githubusercontent.com/54589605/236497689-af4a0de0-cd54-4a66-be35-0a71e64823aa.png)
+
+> On the given array if we do **partition**, then the array is **divided** into **two** parts.
+
+* Time complexity of **partition** algo -> O(n).
+
+![image](https://user-images.githubusercontent.com/54589605/236497972-782b30e3-c200-4361-af3b-6ed3634690d0.png)
+
+> Quick sort algo on **10** people. Inside quick sort, we will apply **partition** algo. First we will apply **partition** algo and it will take **n** time. **Partition** algo divided the array. On the **left** side, apply **quick sort**. On the **right** side also, apply **quick sort**.
+
+![image](https://user-images.githubusercontent.com/54589605/236498614-2cd70c39-4139-4a40-91d1-29fd6268b7e7.png)
+![image](https://user-images.githubusercontent.com/54589605/236498936-fa192b84-a226-4d09-a718-1812d6e42aae.png)
+
+* Big sorting equals to **small sortings**. Big quick sort equals to smaller quick sorts.
+* Inside, quick sort, **partition** algo is there.
+
+* After **partition algo** over, only **pivot** element is **sorted**.
+
+> If the **pivot** is **5** then **1 to 4** should be sorted.
+
+> If the **pivot** is **5** then **6 to 10** should be sorted.
+
+> By seeing the **5** we can tell how many are the **left** side people and how many are the **right** side people.
+
+> If **pivot** element position is not returned then we cannot say  how many are the **left** side people and how many are the **right** side people.
+
+![image](https://user-images.githubusercontent.com/54589605/236500645-cf96455d-5c42-4800-80dc-f39f5a3b4280.png)
+![image](https://user-images.githubusercontent.com/54589605/236519612-e7c20eaa-836b-4209-b44a-4b4192df0da5.png)
+![image](https://user-images.githubusercontent.com/54589605/236519859-32eb3e1b-9e6b-4561-9063-f3bf5dd9ac4f.png)
+
+* In the **if condition**, **less than and equal too**, so the **small** and the **equals** also come inside.
+* If **small** coming then **increment i**, if **equal** coming then also **increment i**.  
+
+![image](https://user-images.githubusercontent.com/54589605/236520256-28bcca8b-c5a2-4acd-968e-6caa678bf79a.png)
+
+> For loop is over. There are **three** parts. **Pivot element**, the **smaller or equal** elements are there, till **i** and the **bigger** elements are there from greater than **i**.
+
+![image](https://user-images.githubusercontent.com/54589605/236520625-3a6b660b-df59-4689-80f0-eb18039401e4.png)
+
+> We want **pivot** at the **middle** place. The last small is **i**. **Small and equal** also, we are swapping.
+
+* Left side is **smaller or equal too**.
+* Right side is **greater**.
+* Repeatative elements are Possioning r not.
+
+![image](https://user-images.githubusercontent.com/54589605/236521884-81bde18e-ac34-449e-84e8-13a6d920fa05.png)
+
+* Start from 2hrs 20mins.
+
+
+
+
+
+
+
 
 
 
