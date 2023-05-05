@@ -7553,11 +7553,404 @@ A) Infinite loop -> **NO**. Space is **limited**. Not possible.
 
 * Two sorting algos can be combined/merged and asked in the question. What will be the time complexity?
 
-* Start from **45mins**.
+### Fibonacci series type questions [Fibonacci merge sort]
 
+![image](https://user-images.githubusercontent.com/54589605/236353679-548f7c02-a83b-48ae-83b5-4a20563894e7.png)
 
+* **n** elements are there, we want to apply merge sort, time complexity will be?
 
+> **n * log n**. There will be **log n** no. of levels(stack space).
 
+* n=6, then fibonacci value of **n** is **8**.
+* Fibonacci, f(6), of **6** means **8**.
+
+> Fibonacci of **6** elements I have, f(6), means we have **8** elements. Which means the array contains **8** elements.
+
+> Instead of saying "the array contains **8** elements", we can say that the "the array contains Fibonacci of **6** elements elements".
+
+* Fibonacci of **6** -> **8** only.
+
+![image](https://user-images.githubusercontent.com/54589605/236354194-34f28ef1-7d1d-406a-afe0-7858dd696e97.png)
+
+* In normal **merge sort**, we divide elements **50-50** or **equally**. So, **8** elements will be divided **4-4** only.
+* But here, we are **dividing** the **no. of elements** in **fibonacci series** manner. We are not dividing, **8** into **4-4** or **50-50** manner, we are diving into **fibonacci series** manner.
+
+![image](https://user-images.githubusercontent.com/54589605/236354678-7948e8e2-8d50-4f28-8aba-5ff605305448.png)
+
+* **5** elements on the **left** side and **3** elements on the **right** side. So, the total is **5 + 3 -> 8**. There is **no change** in the **combination or merge algo**.
+* In here, for the merge sort, the **divide** procedure changed. **Combine or merge algo** remained the **same**.
+
+![image](https://user-images.githubusercontent.com/54589605/236355010-7636f4f6-ef99-4e01-91d6-189ddbf31c85.png)
+
+* At the end of the day, all elements are moving from one level to another level.
+* **Divide** time is **changing**, because we are dividing using **fibonacci series** manner, instead of **50-50** manner.
+
+![image](https://user-images.githubusercontent.com/54589605/236355201-9fcda1df-4d81-4a2e-bf62-a26c500611cd.png)
+![image](https://user-images.githubusercontent.com/54589605/236355238-2ed1bace-f55c-4615-a907-817147b6231f.png)
+
+> In the above **merge sort**, we are **dividing** by **fibonacci series** manner, that why this **merge sort** is called as **fibonacci merge sort**.
+
+![image](https://user-images.githubusercontent.com/54589605/236355354-6e771201-22d8-4375-ad3d-39d92047017e.png)
+
+* **Fibonacci series** manner, we are **dividing**.
+* Divide only change, combine no-change.
+
+> **f(1) and f(0)** are **small** problems so stop it.
+
+![image](https://user-images.githubusercontent.com/54589605/236355537-461916a4-b8c1-4363-bf94-d5e15330a180.png)
+
+> If we observe the tree clearly, **left side**, we are **substracting one(1)**, every level. **Left most** part. [6->5->4->3->2->1]
+
+> If we observe the tree clearly, **right side**, we are **substracting two(2)**. **Right most** part. [6->4->2->0]
+
+* f(6) or fibonacci of **6** means **6 levels**.
+* If it is f(k) or fibonacci of **k** means **'k' levels**, on the **left most** part. So it is **6** levels.
+* If it is f(k) or fibonacci of **k** means **'k/2' levels**, on the **right most** part. So it is **6/2** levels.
+
+![image](https://user-images.githubusercontent.com/54589605/236356028-3315b9c2-7446-433a-9558-0e67e9dce2ee.png)
+
+* It is an **un-balanced** tree.
+
+> In **normal merge sort**, the no. of levels is **log n**. **Log n** is on **both** the sides. We are always **dividing by 2**.
+> In the above **fibonacci merge sort**, in the **left side** we are **substracting by 1** and on the **right side**, we are **substracting by 2**.
+
+> We are doing **differently** on the left and right sides, so **different heights** are coming. Left height is **6** and right side is **6/2**.
+
+* If it is f(k) or fibonacci of **k**, then the **left height** is **k** levels. As for the **right height**, it is **k/2** levels.
+
+![image](https://user-images.githubusercontent.com/54589605/236356470-57e0da22-384c-47a0-98b4-26e3128bd1ce.png)
+
+* Every level cost is **8**. We can say the **8** as f(6) or fibonacci of **6**.
+* No. of levels -> 6 -> K.
+* Every level cost -> f(6) -> F(K). [f(6) means **8** only. **8** is the **no. of elements** moving from one level to another] 
+* Total time complexity -> 6 * f(6) -> 6 * 8 -> O(K * f(K)).
+
+![image](https://user-images.githubusercontent.com/54589605/236356696-79c82ab1-6717-45cb-b598-e1f81f7c6e6d.png)
+![image](https://user-images.githubusercontent.com/54589605/236356937-8b58f328-5710-497c-b9df-e0272d52821c.png)
+
+> Every level **8** elements are coming. If we observe the **bottom** then **less than 8** elements will come.
+
+> Every level **8** elements are coming, but if we go down, then gaps are there, we are not getting **8**. We will get **less than 8**.
+
+* Even though we are getting **less than 8** as we move down to th bottom, we have take **8**, which means **upper bound**.
+
+![image](https://user-images.githubusercontent.com/54589605/236357117-b345ad0a-0095-4a64-bab6-1c61617ae729.png)
+
+* Upper bound -> O(K * f(K)
+* Lower bound -> Omega((K/2) * f(k)
+* Actual answer -> T(K) 
+* Omega((K/2) * f(k) <= T(K) <= O(K * f(K)
+
+![image](https://user-images.githubusercontent.com/54589605/236357696-4fd35f32-4a91-4fb2-9f84-d606f1926b7d.png)
+
+> As they differ by **constansts** only, we can say **theta** possible.
+
+* Equal or theta bound -> Theta(K * f(k)).
+
+> **Merge(Combine) also** is **same**, **divide** also is **changed** from **50-50** form to **fibonacci series** form.
+
+> **Merge** means **moves** only. So for every level , **merge** is **8** only.
+
+![image](https://user-images.githubusercontent.com/54589605/236358106-53ff5090-a12e-4b32-8bdf-9883548d3664.png)
+![image](https://user-images.githubusercontent.com/54589605/236358361-933a75fe-6513-48ff-b16f-3c506a1655e4.png)
+
+### Problems
+
+* Input -> 2-sorted arrays, 'A' is m-distinct elements and 'B' is n-distinct elements.
+* Output -> Find 'A' Union 'B' and 'A'  intersection 'B'.
+* Time complexity? [Best Algo and worst case]
+
+![image](https://user-images.githubusercontent.com/54589605/236358804-6df6d60f-c27c-4d0c-abca-fd9e00713c7c.png)
+![image](https://user-images.githubusercontent.com/54589605/236358883-ed2b265f-99c5-404b-8030-dace7549f641.png)
+
+Steps:
+
+1) First we are doing **linear search**. 
+
+![image](https://user-images.githubusercontent.com/54589605/236360110-948cb067-28d0-4a77-84d7-e5e8d359a10a.png)
+
+* Linear Search(L) worst case -> n * LS(n) -> n * n -> O(n^2).
+
+![image](https://user-images.githubusercontent.com/54589605/236360214-32cfc807-acb1-496c-b25c-c494d3a965ff.png)
+
+2) Improving linear search by doing **binary search**.
+
+* Binary Search(BS) worst case -> m * BS(n) -> m * log n -> O(m * log n). [If m=n, then we can right O(n * log n)]
+
+![image](https://user-images.githubusercontent.com/54589605/236360434-e9afcb1a-1ed9-4e54-bc3e-ab5182b9f6a4.png)
+
+> We can see that **binary search** is clearly better than **linear search**, so we will use **binary search** to find the **A intersection B**.
+
+> The **searches** wheather they it is **linear or binary** they are applied on the **B** array. It doesn't matter if **A** array is **sorted or not**, as long as **B** array is **sorted**, we can apply **binary** search.
+
+![image](https://user-images.githubusercontent.com/54589605/236361718-0b9ae615-9a5d-4935-b47f-458e1a426419.png)
+
+> If **A** is sorted but **B** is not sorted, then apply **binary** search on **A** and not on **B**.
+
+![image](https://user-images.githubusercontent.com/54589605/236361818-3b8b04ca-a06a-4614-9774-e1a2b0c71fd3.png)
+
+* If atleast any one of the arrays is **sorted**, then **binary** search is possible.
+
+* More than **one** array is **sorted**, then we can try **merge algo**. 
+
+![image](https://user-images.githubusercontent.com/54589605/236362166-cf50b63e-d7c7-45f1-82ae-e9256ae10f01.png)
+
+> If we have **m** element on the left and **n** element on the **right** then we will have exactly **m + n** comparisions.
+
+> If we have **40** on the right and another **40** on the right, like the **above image**, then we have to **take both 40s** because in **merge algo**, it is exactly **m + n**.
+
+> **Merge algo** doesn't bother about repeatation. It is bothered about **m + n** element after merging.
+
+> **Merge algo** means **everything** required.
+
+### Union and Intersection
+
+![image](https://user-images.githubusercontent.com/54589605/236363441-f2a6ad6f-da98-4b13-8252-3e4d9b01705d.png)
+
+* Union -> Different elements.
+* Intersection -> Different elements but common people required.
+
+![image](https://user-images.githubusercontent.com/54589605/236363689-7d1cad3c-f55f-4fbe-9ee2-dd9b5d055d0b.png)
+
+> If we **merge**, 'm' and 'n' elements then it is **m + n**. It is **everytime**.
+
+> Repeatation is allowed in **merge algo**.
+
+![image](https://user-images.githubusercontent.com/54589605/236364203-5aa7a31d-62d5-4e74-a520-ffac6aee4142.png)
+
+> If we have **40** on the right and another **40** on the right, like the **above image**, then we have to **take both 40s** but the **left 40** will come **first** and then the **right 40** will come, because in the **array**, between the **left and right** people, **left** people came **first**.
+
+![image](https://user-images.githubusercontent.com/54589605/236364519-7a69a2f5-aa0b-4db3-9bbb-bb7496ffaa3d.png)
+![image](https://user-images.githubusercontent.com/54589605/236364601-70226a4e-4c47-40d3-bb74-edb91030977f.png)
+![image](https://user-images.githubusercontent.com/54589605/236364709-e8f2e78a-77be-4fde-a8bd-c832acd224f8.png)
+
+* Merge sort is **stable** sorting technique. 
+* **Stable** sorting technique means **repeated element's order** will not change before and after sorting.
+* **Stable** sorting technique is related to **repeatative** people.
+
+![image](https://user-images.githubusercontent.com/54589605/236364903-0119fa61-1764-4d11-a2af-a04f00cbb2e9.png)
+
+* **Stable** sorting technique.
+
+![image](https://user-images.githubusercontent.com/54589605/236364937-19f9ab82-c8a1-4e2a-9c7d-1f191ddcbc5b.png)
+
+* **Not stable** sorting technique.
+
+![image](https://user-images.githubusercontent.com/54589605/236365004-c8c3059b-65e3-418c-a9f5-7d3e32514d9b.png)
+
+* If it doesn't matter then why we would change it.
+
+![image](https://user-images.githubusercontent.com/54589605/236365418-4815f624-eee0-4e34-b739-f6d4593d5e96.png)
+
+3) Using **merge algo**.
+
+### Intersection part
+
+> The **first** element from both the arrays are taken, it is **10 and 5**. Whoever is **smaller**, cancel it or skip it. Don't print it. We want to find out **intersection** and not **everyone**. Print only the **common** things, don't print the others. So we **remove 5**.
+
+> Now we take **10 and 10**. They are **equal**. Print **10** and skip both. Whenever **equal** came, print **once** and skip both. It is **intersection** and not **merge algo**.
+
+> It is **20 and 15**. **15** is **smaller**, so we skip it.
+
+> It is **20 and 20**. They are **equal**. So we print **20** once and skip both.
+
+> It is **30 and 25**. **25** is **smaller**, so we skip it.
+
+> It is **30 and 30**. They are **equal**. So we print **30** once and skip both.
+
+> It is **40 and 35**. **35** is **smaller**, so we skip it.
+
+> It is **40 and 60**. **40** is **smaller**, so we skip it.
+
+> It is **50 and 60**. **50** is **smaller**, so we skip it.
+
+> It is **60 and 60**. They are **equal**. So we print **60** once and skip both.
+
+> It is **70 and 80**. **70** is **smaller**, so we skip it.
+
+> After some point of time, one of the arrays is **over**. **NO**, we will not **continue** as we are finding **intersection/common** elements.
+
+* We are using **merge algo**. We are using with **some change**.
+
+> Compare both, if it is **smaller** then **skip it or don't print it**. If they are **equal**, then **print once** and **skip both of them**, as **intersection** allows only one person.
+
+![image](https://user-images.githubusercontent.com/54589605/236367731-972a63fc-a9d1-4ad8-9fbc-38900e3ec38f.png)
+![image](https://user-images.githubusercontent.com/54589605/236367773-49052b52-ca81-4cd7-941b-3ab1a02f192e.png)
+
+* **Modified merge algo**.
+* Time complexity for **modified merge algo** for **A intersection B** [Worst Case] -> O(m + n) [If m=n, then it is O(2 * n) -> O(n)]
+
+![image](https://user-images.githubusercontent.com/54589605/236368066-d8793afd-6345-4c13-8fb2-0d9a3033a5fc.png)
+![image](https://user-images.githubusercontent.com/54589605/236368147-7f83f7c7-ff30-4f67-9efd-c55436d9cd87.png)
+
+* **Modified merge algo** is the **correct** answer for the **above** question for the **intersection of A and B**.
+
+### Union Part
+
+1) Linear search.
+
+> First take the **A** array elements as it is. For the **B** array elements, first is **5**, before adding **5** to the answer, ask the available people that if **5** is already there or not. If not there, then **add** 5. Do the same for the rest of the elements of **B**. For **10**, as **10** is already present in the **answer** that why we didn't add **10**.
+
+![image](https://user-images.githubusercontent.com/54589605/236369869-d25e66ce-773f-410f-ba51-c3ba9780f373.png)
+
+* **Sorted or not sorted** doesn't matter.
+
+* First take all of the **A** array elements as it is. While writing **B** people, please **check/verify** with the **A people** if they are already there or not. If not there then **add** them otherwise don't **add** them.
+
+* It is called as **linear search**, so it is **n^2**.
+
+2) Binary search is **n * log n**.
+3) Modified Merge algo.
+
+> First take first element from both the arrays. If it is **smaller** then **print it**. **Union** means **everyone required** but **repeatation** not allowed. If it is **equal**, then **print once** and skip both. When one of the **arrays** is over, we will **continue** and **copy** rest of the elements from the **other array** as **everyone required**.
+
+![image](https://user-images.githubusercontent.com/54589605/236370706-752bcf04-a00e-4d19-9794-859ded897ef3.png)
+
+> For **10 and 5**, print **5**.
+
+> For **10 and 8**, print **8**.
+
+> For **10 and 9**, print **9**.
+
+> For **10 and 10**, print **10** once and skip both.
+
+> For **20 and 15**, print **15**.
+
+> For **20 and 20**, print **20** once and skip both.
+
+> For **30 and 50**, print **30**.
+
+> After some point of time, one of the arrays is **over**. **YES**, we will **continue** and **copy** rest of the elements from the **other array** as **everyone required** for findining **union**.
+
+* **Modified merge algo**.
+* Time complexity for **modified merge algo** for **A union B** [Worst Case] -> Theta(m + n) -> Theta(n) [If m=n, then it is Theta(2 * n) -> Theta(n)]
+
+> **Theta** is possible as for **every case** wheather it is **best, worst and average**, we will always get **(m + n)**. 
+
+![image](https://user-images.githubusercontent.com/54589605/236371313-55b18094-996b-4f98-b944-45fc8cf0d380.png)
+![image](https://user-images.githubusercontent.com/54589605/236371411-0beb35ca-78a5-4a0c-8f40-ada6f7dcc8da.png)
+
+* By seeing **two** sorted sub-arrays in the **input**, we got the signal that **merge algo** is possible.
+* Merge sort is **stable**, which means that **repeatative** element's orders, before and after are **same**.
+
+![image](https://user-images.githubusercontent.com/54589605/236371872-d74dcae0-7a3b-4542-b904-f6d790e6179d.png)
+
+* For the **given problem**, to do **union and intersection**, which is the best algo possible?
+
+> **Merge algo** with time complexity of **O(m + n) -> O(n)**.
+
+![image](https://user-images.githubusercontent.com/54589605/236371968-75937e8b-7610-472c-a643-50b79b6364dc.png)
+
+* Same problem, but **not sorted arrays**.
+
+1) Linear search possible.
+
+* Time complexity -> O(n^2)
+
+2) Binary search not possible. To make it possible, first we **sort the arrays**, which will make it **n * log n** and then we apply **binary search**, which will make it another **n * log n**. So the overall. is **O(n * log n)**.
+
+* Time complexity -> **O(2 * (n * log n)) -> O(n * log n)**.
+
+3) Merge sort is not possible. If we want to apply **merge algo**, we need sorted arrays. First we **sort the arrays**, which will make it **n * log n** and then we apply **modified merge algo**, which will make it **n**. So, it is **O(n * log n)**.
+
+* Time complexity -> **O(n + (n * log n)) -> O(n * log n)**.
+
+![image](https://user-images.githubusercontent.com/54589605/236375237-2f6b7448-1dc4-49cf-93b2-ea5184e3bf0d.png)
+![image](https://user-images.githubusercontent.com/54589605/236375281-0dbc157f-79e4-4b58-bf73-423bccb7e4d7.png)
+
+## Quick Sort
+
+1) Merge sort is **stable**. Quick sort is **not stable**. 
+2) Merge sort is **out-place**. Quick sort is **in-place**(Taking max space upto **log n**).
+
+* **In-place** doesn't mean that the algo will not take any extra space. The algo can take up **log n**. If the algo takes upto **log n** or **less than log n** then it is an **in-place** algo.
+* **Out-place** means that the algo will take more extra space. The algo will take more than **log n**. If the algo takes more than **log n** then it is an **out-place** algo.
+
+3) Merge sort time complexity is **O(n * log n)**. Quick sort time complexity is also **O(n * log n)**. As the time complexities are **same** then we will take **space complexity** into consideration. From **point 2**, we can see that quick sort is **in-place** algo and merge sort is **out-place** algo. So, we will take **merge sort** over **quick sort**.
+
+![image](https://user-images.githubusercontent.com/54589605/236376630-ff31a30e-ca52-4345-a84b-c882671cfbda.png)
+
+4) Quick sort is a **practical sorting algorithm**. If we don't need **sorting**, then **quick sort** will not keep quite. If we give a **sorted array** to quick sort then it will take time complexity of **O(n^2)**, which is **more**.
+
+* Quick sort is a **practical sorting algorithm**, which means that if **really needed** then only go to **quick sort**.
+
+* Array maybe sorted or may not be sorted, it is a dilemma/doubt -> Merge sort.
+* Confirmed that the array is **not sorted** -> Quick sort.
+* Array sorted, then which algo we will **not prefer** -> Quick sort.
+* Array almost sorted, then which algo we will **not prefer** -> Quick sort.
+
+> Time complexity is decided by **majority** of the people.
+
+![image](https://user-images.githubusercontent.com/54589605/236377468-3927cbb2-5aa7-430c-ac9f-b31a210281ab.png)
+![image](https://user-images.githubusercontent.com/54589605/236377549-d26ea083-ec59-4d58-b219-6b1fe33dcacd.png)
+
+* Quick sort is **not preferred** but **insertion sort** is **preferred**.
+* Array is **small** -> Insertion sort.
+* Array is **sorted or almost sorted** -> Insertion sort
+
+![image](https://user-images.githubusercontent.com/54589605/236378193-276cef80-3dec-4a43-b000-3293db890f15.png)
+
+* Quick sort is also an application of **Divide and conquor** technique.
+* Both **merge and quick** sort divide the array.
+* Merge sort will **divide blindly**. As it has **divided blindly**, **one mistake** has happened. 
+
+> The mistake is that the **smallest** element is on the **right** side and the **biggest** element is on the **left** side. It should be the **opposite**, the **biggest** element should be on the **right** side and the **smallest** element should be on the **left** side.
+
+> We need **combine** because of the **divide blindly**, there was **one mistake** and to fix/rectify that mistake, we have to do **combine** at the end. 
+
+![image](https://user-images.githubusercontent.com/54589605/236379158-4f16417c-8354-45d8-b96c-d601da3b3199.png)
+
+* The mistake we did when doing **divide blindly**, it has been fixed/rectified by the **combine** only.
+
+> **Blind division** takes **'c' or constant** time. **Combine** take **n + c -> n** time and it is for **one level**. So there are **log n** level, which means **n *  log n -> O(n * log n)** time complexity for merge sort.
+
+![image](https://user-images.githubusercontent.com/54589605/236379555-7444b2e6-9d48-4061-aeaa-83f103e0f14a.png)
+
+> Quick sort will **divide**, **YES**. It is not **divide blindly**, it is **dividing meaningfully**. With respect to **500**, quick sort **divided**. **More from first person(500)** keep on the **right** side. **Less from first person(500)** keep on the **left** side.
+
+* Division in **quick sort**.
+
+![image](https://user-images.githubusercontent.com/54589605/236379840-839f7b2b-08d9-4c4c-a2e6-2e7ceb80175b.png)
+
+> After **division** is over, **left** people sort using **recursion**, **right** people sort using **recursion**. Divide is over, **conquor** is completed, left and right people are **sorted**. Without **combine**, the array is **totally sorted** only.
+
+![image](https://user-images.githubusercontent.com/54589605/236380273-28afb589-103a-49b2-aaee-164e8a771a46.png)
+
+> In quick sort, first we did **meaningful division**, then **left** people sorted, **right** people sorted. Now, we verify if the **total array** is sorted or not.
+
+* If we do **meaningful division**, then no need of **combine**.
+
+![image](https://user-images.githubusercontent.com/54589605/236380497-4fb18826-3e4a-463b-9829-48a71a71c38e.png)
+![image](https://user-images.githubusercontent.com/54589605/236380553-fc059d95-1b50-4858-b9d7-39c5ab7dc5dc.png)
+
+* In **merge sort**, **three** steps are involved which is **divide, conquor, combine**.
+* In **quick sort**, **two** steps are involved which is **divide, conquor**. No need of **combine** step.
+
+![image](https://user-images.githubusercontent.com/54589605/236380640-6ef97f2a-e9cf-4e69-8c1f-073abeba498d.png)
+
+* Merge sort is **careful** at then ending. At the **merge time**, it is **careful**. It is **not careful** at the **divide** time.
+
+* Quick sort is **careful** from **start to end**. While **divide** time only, quick sort is **careful**.
+
+![image](https://user-images.githubusercontent.com/54589605/236381286-2ffd32cb-f2f6-4291-8741-aae99d63f3dc.png)
+
+* Why is **quick sort** "quick"? ["quick" -> Quote and un-quote quick, as in meaning quick, not quick sort].
+
+> It is wasting anything? **NO**. It is **careful** at the **starting only**. **YES**.
+
+> For **merge sort**, it is **careful** at the **ending only**. At the **starting only**, it wasted **something** only. So, it is **OK**, but not "quick".
+
+## Notes
+
+* For **meaningful division** -> **Partition algo** [Divide part of Quick sort]
+* For **meaningful combine** -> **Merge algo** [Combine part of Merge sort]
+* For **searching** -> **Binary searching**.
+* Sorted array -> Binary search.
+* Not sorted array -> Linear search.
+* More than one sorted array -> Merge algo.
+* One array and we want to make it into two parts? -> Partition algo.
+
+![image](https://user-images.githubusercontent.com/54589605/236381855-1da351a9-613f-49ab-b26c-f2efc2bc006a.png)
 
 
 
