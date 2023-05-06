@@ -8384,6 +8384,150 @@ Steps:
 
 ![image](https://user-images.githubusercontent.com/54589605/236589680-6e714595-2bf9-48ab-a391-b3e86f21fb54.png)
 
+## Recursion-II (32) [6th May 2023]
+
+![image](https://user-images.githubusercontent.com/54589605/236602353-75deaa3d-eef0-4de7-9eb5-5ab165fc914b.png)
+
+* After completion of the above code, who is sorted?
+
+> The element we have choosen as **pivot** is **sorted**. The element at the **mth** position is already **sorted**. **m** is the index of the **pivot** element after keeping it at the **correct/sorted** place, means element at the **mth** place is already sorted.
+
+![image](https://user-images.githubusercontent.com/54589605/236602734-e6593ceb-9aa8-489c-b568-c70d9d57cf58.png)
+
+* Qs(a, P, m-1) -> Left side elements, before **m**, **P to (m-1)** elements we should sort.
+* Qs(a, m+1, q) -> Right side elements, after **m**, **(m+1) + q** elements we should sort.
+
+![image](https://user-images.githubusercontent.com/54589605/236602860-0560bfc4-94ba-4ecd-b9fa-12a6c2134c4e.png)
+![image](https://user-images.githubusercontent.com/54589605/236602919-d33b3fe1-8d44-4587-9e80-8638c192fb04.png)
+
+* Time complexity for **quick sort** of **n** elements is **T(n)**. **n = (q - p + 1)**. That is the value of **n**.
+
+![image](https://user-images.githubusercontent.com/54589605/236603070-73a8a1f9-049d-49a7-a8ec-8b041018c024.png)
+
+* For the whole quick sort algo, it is **T(n)** -> T(q-p-1).
+* In the **if** part as there are **no loops**, so it is **constant or O(1)**.
+* We know that **partition algo** takes **n** times as there is **one loop**.
+* For the first recursive call, it is -> T(m-1-p+1) -> **T(m-p)**.
+* For the second recursive call, it is -> T(q-(m+1)+1) -> T(q-m-1+1) -> **T(q-m)**.
+
+> If we take **110** as the pivot element. It went to exact the **middle**.
+
+![image](https://user-images.githubusercontent.com/54589605/236603984-26eb8701-3cbc-4d19-bc76-c9520968aa5b.png)
+
+> If we take **70** which is the **first** element as **pivot**. All of the elements went to the **left** side as they were all **smaller** than **70** and none of them went to the **right** side, as none of them were **greater/bigger** than **70** so the **right** side is **empty**.
+
+* In which position, did the pivot element(70) go?
+
+> It went to the **last** position.
+
+![image](https://user-images.githubusercontent.com/54589605/236604635-d7fe8094-47e2-439c-b4a8-f283b9ec650c.png)
+![image](https://user-images.githubusercontent.com/54589605/236605133-e370b737-9884-42d9-b200-9f0b8634e42d.png)
+
+> If we take **20** as the pivot element. If not all but most of the elements went to the **right** side as they were all **greater/bigger** than **20** and only **10** went to the **left** side, as **10** is **smaller** than **20** so the **left** side has **only one element**.
+
+* In which position, did the pivot element(70) go?
+
+> It went to the **second** position/place.
+
+![image](https://user-images.githubusercontent.com/54589605/236605865-e2844b55-844b-4128-a1e3-855023ec2a98.png)
+
+> After **partition** algo is over, pivot element will go **exactly to the middle**, we cannot give any **gurantee**.
+
+* It can go **anywhere**.
+
+![image](https://user-images.githubusercontent.com/54589605/236605939-8468f6a3-4071-4c4c-bdc5-c0b63ee35d30.png)
+
+> If we are **lucky** then it will go exactly to the **middle**.
+
+> If we are **unlucky**, then it will go in the **extreme** direction of the **left or the right** side.
+
+![image](https://user-images.githubusercontent.com/54589605/236606115-66681946-2784-4564-8636-e2841750d664.png)
+
+> We cannot give gurantee that the **recursive** call will go to the **half/middle**. That's why we cannot write **T(n/2)**.
+
+* There is **no gurantee** that it will always be **half/middle**. 
+* Sometimes it is possible that we will get **T(n/2)**.
+
+* Between T(m-p) and T(n/2), which is always correct?
+
+> The first one which is **T(m-p)** is **always correct**.
+
+![image](https://user-images.githubusercontent.com/54589605/236606315-250384cf-dfbb-4b38-b912-721eaf1cd6a8.png)
+
+* **T(m-p) and T(q-m)** are **exact** values.
+
+![image](https://user-images.githubusercontent.com/54589605/236606436-3caae433-d26b-4723-9f9d-06aabc58761d.png)
+![image](https://user-images.githubusercontent.com/54589605/236606446-d6a244c1-4c53-4215-8675-2e059a32dce6.png)
+
+* In **partition** algo, **(n-1)** is asymptotically **equal** to **n** only.
+
+### Quick sort problem
+
+![image](https://user-images.githubusercontent.com/54589605/236607341-24d6ede2-f51a-4f6f-beb2-1cda32b568a9.png)
+
+* Let **T(n)** be the time complexity of the above algorithm(Quick sort).
+* If we are **lucky** which means **Best case**.
+* If we are **un-lucky** which means **worst case**.
+
+#### Best Case(Lucky)
+
+> If we are lucky, then **n** is for **partition** algo. We will also get **50-50** divide, which means it will be **T(n/2) + T(n/2) -> 2 * T(n/2)**.
+
+* T(n) -> 2 * T(n/2) + n.
+
+> Solved using **substitution method**, we will get **O(n * log n)**.
+
+* T(n) -> 2 * T(n/2) + n -> **O(n * log n)**. [**Best Case**]
+
+* This is the **recurrence relation** for **best case time complexity** of **quick sort**.
+
+> **50-50** is the **balanced behaviour**. Life will be **lucky** if we have **balanced behaviour**.
+
+![image](https://user-images.githubusercontent.com/54589605/236607861-7b140529-8d31-45d5-9896-f31f03558338.png)
+
+* Equal priority. Body requires everything.
+
+![image](https://user-images.githubusercontent.com/54589605/236607947-602a93f8-8c97-4de7-a4dc-bd8454c98b42.png)
+
+* Don't eat like **PIG**.
+
+#### Worst Case(Un-lucky)
+
+> First apply **partition** algo which is **n**. After applying **partition** algo, if we are **un-lucky** then all of the elements except the **pivot** element will go to **one side** wheather it is **left or right** side. After **partition** algo is over, **pivot** element went to the **correct** place. Remaining elements are **(n-1)**.
+
+> All(n-1) will go to **one side**, other side, no one.
+
+![image](https://user-images.githubusercontent.com/54589605/236608359-35aad3c3-1ab7-4d38-b1ae-a75d6eb85b2f.png)
+
+> After **partition** algo is over, **pivot** element went to the **correct** place. Remaining is **n-1** elements, all of the **n-1** elements that are left out, they will go to **one side**, other side, no one.
+
+* This is **un-balanced** behaviour.
+
+![image](https://user-images.githubusercontent.com/54589605/236608467-81699633-132b-4c79-999a-4d727119ee0e.png)
+
+* T(n) = n + T(n-1) + T(0)
+* T(n) = T(n-1) + n + 1
+* T(n) = T(n-1) + n
+
+> After doing **substitution method**, we got **O(n^2)**, which is the **worst case**.
+
+* T(n) = T(n-1) + n -> **O(n^2)** [**Worst case**]
+
+* This is the **recurrence relation** for **worst case time complexity** of **quick sort**. 
+
+![image](https://user-images.githubusercontent.com/54589605/236608562-dc5aa47f-ce6b-4daf-a49a-2be1495ce567.png)
+
+* Quick sort will give **worst case** performance if **partition algo** behave **best way or worst way**?
+
+> **Worst Way**. Worst Way means **un-balanced** behaviour.
+
+![image](https://user-images.githubusercontent.com/54589605/236608757-7ed04537-40fc-4927-994e-b15b081e27b8.png)
+
+* Start from 50mins.
+
+
+
+
 
 
 
