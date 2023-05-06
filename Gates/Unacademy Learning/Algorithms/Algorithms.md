@@ -8519,17 +8519,174 @@ Steps:
 
 * Quick sort will give **worst case** performance if **partition algo** behave **best way or worst way**?
 
-> **Worst Way**. Worst Way means **un-balanced** behaviour.
+> **Worst Way**. Worst Way means **un-balanced** behaviour. It is recursion, so **partition** algo behaving like this all of the time. Everytime it is **un-balanced** partition.
+
+> When quick sort is going on, **partition** algo runs many time.
+
+* Quick sort will give **worst case behaviour/performance** if **partition** algo behaves like **worst way** everytime.
+* Quick sort will give **best case behaviour/performance** if **partition** algo behaves like **best way** everytime.
 
 ![image](https://user-images.githubusercontent.com/54589605/236608757-7ed04537-40fc-4927-994e-b15b081e27b8.png)
+![image](https://user-images.githubusercontent.com/54589605/236619436-198c21db-2b2c-4e48-981d-6657d046fe7d.png)
 
-* Start from 50mins.
+* Merge sort is similar to **quick sort's**, best case.
+* Merge sort is always **50-50**.
+* Merge sort having **only one varition** which is **50-50** to find the **middle** element.
 
+![image](https://user-images.githubusercontent.com/54589605/236628622-1836259d-5b4f-4c0a-9950-f139d9699ff7.png)
+![image](https://user-images.githubusercontent.com/54589605/236628722-8cd64172-b166-4c7d-8a8a-08e7701c4e3e.png)
 
+* Quick sort **worst case** is giving **unbalanced tree**. The no. of levels is **n**, as **only one element** is going.
+* Quick sort **best case** is giving **balanced tree**.
 
+* Quick sort **best case** time complexity -> O(n * log n).
 
+> The recurrence relation is **50-50**, after partition it is **50-50**, which is **2 * T(n/2)**.
 
+* Quick sort **worst case** time complexity -> O(n * 2).
 
+> After partition, all of the **n-1** elements will go to **one side** and the other side is **empty**. So, it is **T(n-1)**.
+
+* Recurrence relation for quick sort best case time complexity?
+
+> 2 * T(n/2) + n. Because it is **50-50**.
+
+* Recurrence relation for quick sort worst case time complexity?
+
+> T(n-1) + n. Because all the elements go to **one side**.
+
+> Quick sort's worst behaviour is **n^2** and it will come when **partition** algo is at it's **worst case** and behaving like **un-balanced**.
+
+![image](https://user-images.githubusercontent.com/54589605/236629141-0f076cb6-929c-4932-a4e1-c31b6587bf37.png)
+
+* Left side is **balanced behaviour**.
+* Right side is **un-balanced behaviour**.
+
+* Balanced or un-balanced which will happen **more**?
+
+> Balanced.
+
+* Balanced happens **more** that's why the **best case** for quick sort is the **average** case also.
+
+* Quick sort **best case** time complexity -> O(n * log n). **Balanced behaviour**.
+* Quick sort **average case** time complexity -> O(n * log n).
+* Quick sort **worst case** time complexity -> O(n * 2). **Un-balanced behaviour**.
+
+![image](https://user-images.githubusercontent.com/54589605/236629757-9ae3b47a-3bc9-464a-802e-f06601921955.png)
+![image](https://user-images.githubusercontent.com/54589605/236629923-7bf16a74-3e3e-4c29-b41b-723d700aa442.png)
+![image](https://user-images.githubusercontent.com/54589605/236630000-bf14471a-65f6-4b37-83b4-ef4b41d00b58.png)
+
+* The above **recurrence relation** for quick sort is for **every case**.
+* Quick sort **best case**, stack size -> **log n**.
+* Quick sort **worst case**, stack size -> **n**.
+
+> In  Quick sort **worst case**, the stack size is more than **log n** and it is actual **n**. So it will be **out-place**.
+
+* Quick sort is **in-place**. The **recursive** program is converted into a **better way**, something like **non-recursion**. 
+* Time complexities are **same** only.
+* Best case, stack space -> O(1)
+* Worst case, stack space -> O(log n).
+
+> Using better programming, stack space will be **decreased** to **bast case** which is **O(1)**. Because of that reason, **quick sort** is **in-place**.
+
+![image](https://user-images.githubusercontent.com/54589605/236630667-76e9d51e-b335-410a-bc70-aa2ea8276fb7.png)
+![image](https://user-images.githubusercontent.com/54589605/236630762-acd07851-e619-444a-a360-5f9741cb1236.png)
+
+* It is for **modified** program. [**NOT NEEDED**]
+
+![image](https://user-images.githubusercontent.com/54589605/236631119-2f04f4d7-de78-4da7-8661-b92c907bdae3.png)
+
+* For the **Recursive** program.
+* Best case, stack space -> O(log n).
+* Worst case, stack space -> O(n).
+
+* Even though **worst case** stack space is **n** for quick sort, then also it is **in-place** why?
+
+> We can save the space by using **non-recursive** programs.
+
+![image](https://user-images.githubusercontent.com/54589605/236631292-257df664-9c92-4bec-b20b-38cd4881dbe4.png)
+
+* Quick sort **best case** time complexity -> o(n * log n)
+* Quick sort **average case** time complexity -> o(n * log n)
+* Quick sort **worst case** time complexity -> o(n * 2)
+
+* When, quick sort gives **best case** -> Partition algo is in balanced behaviour or in best case.
+* When, quick sort gives **average case** -> Partition algo is in balanced behaviour or in best case.
+* When, quick sort gives **worst case** -> Partition algo is in un-balanced behaviour or in worst case.
+
+![image](https://user-images.githubusercontent.com/54589605/236631812-00afeea5-7a78-4df9-bb83-c993056324ea.png)
+
+* Merge sort is always **left** diagram. Always **n * log n**.
+
+### Quick sort problems
+
+![image](https://user-images.githubusercontent.com/54589605/236632211-92525f30-968d-4018-a681-f7528030799d.png)
+![image](https://user-images.githubusercontent.com/54589605/236633343-347fea1d-a0bd-443c-9ac7-2ab5683d7b9c.png)
+
+1) Increasing order sequence
+2) Decreasing order sequence
+3) Same elements.
+
+* Any **quick sort** question came, directly or in-directly it belongs to **partition** algo. [**IMPORTANT**]
+
+* What  is the **relationship** between **c1, c2 and c3** that we have to calculate?
+* Comparisions and swaps are almost **same**. 
+
+#### (1)
+
+> First input is **increasing/ascending** order. For quick sort, the **no. of comparisions** we meed to calculate, quick sort is directly or in-directly **partition** algo. First element is **pivot**. **J** completed the whole loop and **i** didn't move at all. Comparing any element with pivot, no small element came, that's the reason **j** never stopped.
+
+> In partition alog, **for loop** is over now, as **j** has crossed the boundary. Lastly, **one swap** is there before the program terminates. We have to swap a[i] with a[p]. Now, return **i**.
+
+> The pivot element we selected is **10**, after the **partition** algo is over, the pivot element went to **one place** that is **first place**. More than **pivot**, all elements. Less than **pivot**, no one.
+
+> If we select the **smallest** element as the **pivot** element then no one will go to the  **left** of the **pivot** element as it is already **smallest**. Input is **increasing/ascending** order, which means **first** place is **smallest** person. Already input is **increasing/ascending** order, we are taking the first element as **pivot**.
+
+> **smaller** than him, no one will come. Everyone will come to the **right side** of **pivot**.
+
+> Partiiont algo, we applied on **7** people, then **no. of comparisions** will be **6**. 
+
+> Partiiont algo, we applied on **7** people, then **no. of swaps** will be **1**. As it is in **ascending** order, there are **no swaps**. The only swap is at the end of the program between a[i] and a[p].
+
+![image](https://user-images.githubusercontent.com/54589605/236633976-7d15f7f2-7897-49f5-a5da-deda98930edd.png)
+
+> When we say quick sort, all elements should be **sorted**.
+
+* We have to complete all.
+
+![image](https://user-images.githubusercontent.com/54589605/236634168-e77d113e-13ba-4ac1-b9ee-3bcd5f26423e.png)
+![image](https://user-images.githubusercontent.com/54589605/236634194-4ca82f33-31cc-4286-ac65-37c658b8851f.png)
+
+* Total comparisions -> 6 + 5 + 4 + 3 + 2 + 1 -> 1 + 2 + 3 + 4 + 5 + 6 -> (n * (n-1))/2 -> O(n^2).
+
+![image](https://user-images.githubusercontent.com/54589605/236634399-fa396023-cec6-4139-8a56-fda993607ecc.png)
+![image](https://user-images.githubusercontent.com/54589605/236634833-6dc8b405-8b76-4f95-9749-86dbbd134ec9.png)
+
+* No. of passes -> **n-1** -> **O(n)**.
+* Total swaps -> **n-1** -> **O(n)**.
+
+> Ascending order input and we apply quick sort on it, **no. of comparision** is **O(n^2)**.
+
+* **No. of comparision** is **O(n^2)**.
+* **No. of swaps** is **O(n-1)**
+
+![image](https://user-images.githubusercontent.com/54589605/236634971-977af5b2-adb5-4ab0-9430-435597d55634.png)
+
+> Because of **ascending order**, there is a **left gap** that why **time complexity** of **quick sort** is **O(n^2)**.
+
+* **Left gap** is always, that why quick sort is giving **worst case**.
+
+* Quick sort will give **best or worst** case when elements are arranged in **ascending order**?
+
+> **Worst case**, unbalanced behaviour we get.
+
+#### (2)
+
+![image](https://user-images.githubusercontent.com/54589605/236635209-0393f467-1163-4f9b-9cbc-2a901c9a9586.png)
+
+* By default, **first** element is the **pivot**. On the second input we have to apply **partition**.
+
+* Start from **1hr 47mins**.
 
 
 
