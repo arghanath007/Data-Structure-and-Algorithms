@@ -8207,26 +8207,178 @@ Steps:
 ![image](https://user-images.githubusercontent.com/54589605/236519859-32eb3e1b-9e6b-4561-9063-f3bf5dd9ac4f.png)
 
 * In the **if condition**, **less than and equal too**, so the **small** and the **equals** also come inside.
-* If **small** coming then **increment i**, if **equal** coming then also **increment i**.  
+* If **small** coming then **increment i**, if **equal** coming then also **increment i**. Now, **swap**.
 
 ![image](https://user-images.githubusercontent.com/54589605/236520256-28bcca8b-c5a2-4acd-968e-6caa678bf79a.png)
 
-> For loop is over. There are **three** parts. **Pivot element**, the **smaller or equal** elements are there, till **i** and the **bigger** elements are there from greater than **i**.
+> For loop is over. There are **three** parts. **Pivot element**, the **smaller or equal** elements are there, until **i** and the **bigger** elements are there from greater than **i**.
 
 ![image](https://user-images.githubusercontent.com/54589605/236520625-3a6b660b-df59-4689-80f0-eb18039401e4.png)
 
-> We want **pivot** at the **middle** place. The last small is **i**. **Small and equal** also, we are swapping.
+> We want **pivot** at the **middle** place. The last **small or equal** element is **i**. **Small and equal** also, we are swapping.
 
-* Left side is **smaller or equal too**.
+* Left side is not **only smaller** but **equal** also. For both we are **swapping**. Left side is **smaller or equal too**.
 * Right side is **greater**.
-* Repeatative elements are Possioning r not.
+
+![image](https://user-images.githubusercontent.com/54589605/236584205-986cdda9-182d-419a-b3bc-7c7df4b90bdf.png)
+
+* Repeatative element's position is **changing**, that's the reason why **quick sort** is not **stable**. Unnecessarily swapping the position of repeatative elements.
+
+> After swapping is over, quick sort will return the position of **i** which is **6** here.
 
 ![image](https://user-images.githubusercontent.com/54589605/236521884-81bde18e-ac34-449e-84e8-13a6d920fa05.png)
+![image](https://user-images.githubusercontent.com/54589605/236584524-c42fd2ba-18a9-404b-820f-a5b10d864fa1.png)
 
-* Start from 2hrs 20mins.
+> Don't worry about **a,b and c**.
+
+> Before doing **partition**, **70a** was at the **first place**. 
+
+> After **partition** over, **70a** went to the **6th place**.
+
+> **6th place** person came to the **first place**.
+
+* Repetative element's position in the quick sort, before and after sorting may change or may not change.  
+* In merge sort, it never changes
+* In Quick sort, it may change or may not change. Once fail means fail only, that's the reason **quick sort** is not **stable**. 
+
+![image](https://user-images.githubusercontent.com/54589605/236584872-c6439ce7-f9d7-4397-9f19-e19247afd87d.png)
+
+> After **partition** algo is over, the **pivot** element is only sorted. The position of the **pivot** element will not change.
+
+* Time Complexity of **partition** algo -> O(n)
+
+> Left and right people sorting will be taken care of by **conquor** using recursion.
+
+> Because of **partition** algo **middle or pivot** element is sorted. Left and right element are sorted using **conquor**.
+
+> All of the them, **left, middle or pivot and right** are sorted. So no need of **combine**.
+
+* Just do **partition** algo **middle or pivot** element is sorted. Use **conquor** to sort the left and right element. So no need of **combine**.
+
+> No need of **combine** because left people are not interested to go to the **right** side.
+
+> No need of **combine** because right people are not interested to go to the **left** side.
+
+> Left and right solving/sorting takes **T(n/2)** time individually. So the total is **2 * T(n/2)**.
+
+* Recurrence relation -> 2 * T(n/2) +  n 
+
+> By using master's theorem we will get **O(n * log n)**.
+
+> We are solving **both** the sides.
+
+![image](https://user-images.githubusercontent.com/54589605/236585705-b875fc5e-519e-4604-8b32-ac641d4b97b8.png)
+
+### Example 3 of quick sort
+
+![image](https://user-images.githubusercontent.com/54589605/236585841-1dcba6e5-56fb-4427-abe5-3c6aa50cc468.png)
+![image](https://user-images.githubusercontent.com/54589605/236585976-c854560a-225b-49b8-9516-87c3ae17e1b7.png)
+
+> After for loop over, array is divided into **3** parts.
+
+![image](https://user-images.githubusercontent.com/54589605/236586013-3f319f25-cf6e-4c69-b4a0-9ae9a7f790f2.png)
+
+* **i** is the last small element.
+
+* The **partition algo** will return **7** as it is the **middle/pivot** element.
+
+> **Less than and equal too** pivot is on the **left** side. **Greater than** pivot is on the **right** side.
+
+* **Partition algo** time is **O(n)** is for **every case(EC)**.
+* **One time partition**, one element is sorted.
+
+![image](https://user-images.githubusercontent.com/54589605/236586320-e5b1a8fc-8031-4a79-a593-a9de8615f6d1.png)
+
+* Binary tree is coming.
+
+> The **no. of levels** in the tree is **log n**. 
+
+> Every level cost is partition time only which is **O(n)** time.
+
+* Whenever a **quick sort** algo is running, we will call **partition** algo again and again. Quick sort is recursion, so for every quick sort there is a **partition** algo called.
+* Many time quick sort is called, **partition** algo is also called many times.
+* **Quick sort** algo is running means inside also **partition** algo is running many time.
+
+> If **Quick sort** algo is called **50** times then,
+
+* Every function call of **quick sort** algo is **one partition**.
+* As many times we have called **quick sort** that many times **partition** occurs.
+* One time quick sort, **one time partition**.
+
+> Top level quick sort is **one partition**, left side quick sort is **one partition**, right side quick sort is also **one partition**.
+
+* Quick sort is a **recursive program**, so if quick sort is called many times then **partition** algo will also be called many times.
+
+* If quick sort is many times, then partition is also many times. Every partition needed **pivot** element selection.
+* When we say **partition is applied** which means **pivot** element is selected.
+
+![image](https://user-images.githubusercontent.com/54589605/236587363-91e85f1d-f99c-4271-b557-01a1dcfaefd4.png)
+
+* How many times **partition** those many times, **pivot** element is selected.
+* Quick sort is running many time, partition is running many time, which means **pivot** selection is also going on **many time**. Everytime, we are selecting the **first** element.
+
+> * Quick sort is running many time, partition is running many time, which means **pivot** selection is also going on **many time**. Everytime, we are selecting the **any** element we want, generally people select the **first** element. We can select **any element**.
+
+> Everytime we have the **middle** element, that is also **quick sort**.
+
+> Everytime we have the **first** element, that is also **quick sort**.
+
+> Everytime we have the **last** element, that is also **quick sort**.
+
+> First time quick sort, in the **partition** we take the **middle** element as the **pivot**. Second time, we will take the **middle** element as the pivot. Third time we took the **last** element as pivot. 
+
+> Pivot selection we keep changing. Whenever recursion going on and in every recursive call, partition comes and in every partition, pivot required. Sometimes we will select **first** element as pivot, sometimes we will select the **last** element as pivot and sometimes we will select the **middle* element also. Then also **quick sort** works and it is called as **randomized quick sort**.
+
+> **Randomized quick sort** means that we are **randomly** changing the **pivot** element selection. Every recursive call, we are taking some **random** element as **pivot** element.
+
+* If we change **randomly**, performance will **increase** or not?
+
+![image](https://user-images.githubusercontent.com/54589605/236588701-a5f7e823-1685-475d-8108-26046d010805.png)
+
+> Better to have **more than one** possibility.
+
+> If **same** possibility, then there is higher change of **death**, as all **enemies** will be at the **same** place.
 
 
+* Quick sort performance will increase for **normal quick sort** or **randomized quick sort**?
 
+> **Randomized quick sort** performance will **improve**.
+
+![image](https://user-images.githubusercontent.com/54589605/236588930-ac10c250-f27a-4aca-af9f-8259455103be.png)
+
+* Selecting pivot element randomly is known as **randomized quick sort**.
+* In **Randomized quick sort**, **performance** of the **quick sort** will **improve**.
+
+> Wheather we take **first, last, middle or any other element**, as the **pivot**, it doesn't matter, **pivot** element will go to it's **correct** place.
+
+> We can take whatever we want as **pivot**, it is **same** only.
+
+* Inside, quick sort, we have **partition** algo.
+
+![image](https://user-images.githubusercontent.com/54589605/236589149-8aeeafcc-3ea7-4437-b167-b8660e4ae984.png)
+
+> When we come to the **else** part, problem is **big**.
+
+![image](https://user-images.githubusercontent.com/54589605/236589303-af053261-9bea-4b5b-a1c9-64c96843b0e0.png)
+![image](https://user-images.githubusercontent.com/54589605/236589235-f75a7959-bf36-48a0-8302-9ca9221e50ed.png)
+
+> At the end of the **partition** algo, the **pivot** element will go to it's **correct** place. It will return the **pivot** element position. The position **partition** returned is stored in **m** variable. **Pivot** element is there at the **m** position.
+
+> **mth** element is already **sorted**.
+
+![image](https://user-images.githubusercontent.com/54589605/236589486-a77002ec-901a-4af0-ac08-60e21da4ef04.png)
+
+* Because of **partition** algo, middle element is **sorted**. 
+* Because of **left side quick sort recursive** call, left elements are **sorted**. 
+* Because of **right side quick sort recursive** call, right elements are **sorted**. 
+
+> Everyone is **sorted**.
+
+![image](https://user-images.githubusercontent.com/54589605/236589569-cd405c36-7e17-4cee-a6f8-63bcea5f57c3.png)
+
+* All are there in the **same** array, as it is **in-place**. Now simply return the array(a).
+
+![image](https://user-images.githubusercontent.com/54589605/236589612-5f66c7ad-cbea-4367-ba5d-9cc255b62abe.png)
 
 
 
