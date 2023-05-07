@@ -9072,6 +9072,108 @@ Steps:
 
 * 8hrs more needed. 8 more classes needed.
 
+## DP-VIII (33) [7th May 2023]
+
+* r = randomgenerator(a, p, q)
+* Swap(a[p], a[r])
+
+![image](https://user-images.githubusercontent.com/54589605/236671227-cb9bfa3e-ecf0-4178-8889-6c8a2ff86346.png)
+
+* p=1 and q=10. a[p]=80, a[7]=40.
+
+> randomgenerator(), choose **7**. Now swap **a[p] and a[r]**. We got **a[p]=40** and **a[r]=80**. Now apply **partition**. **7th** element is taken as the **pivot** now. This is the way, on how to take a particular element as  **pivot** element.
+
+> Earlier we learned, how to take the **first** element as the pivot element. If we want to take someone else then don't change the algorithm. Just **add** a few lines extra before the algorithm starts to choose some other element.
+
+> If we want to take the **4th** element as the pivot element now. We have to swap(a[p], a[4]). We have to swap, a[4] with the **first element**. Now, at the **first** place **4th element** is there. Now, apply **partition**. That's it, no need to change the algorithm.
+
+![image](https://user-images.githubusercontent.com/54589605/236671729-65772b6b-c760-40d6-8ccc-cd94b54bbe82.png)
+
+> If we want to take the **8th** element as the pivot element now. We have to swap(a[p], a[8]). We have to swap, a[8] with the **first element**. Now, at the **first** place **8th element** is there. Now, apply **partition**. That's it, no need to change the algorithm.
+
+![image](https://user-images.githubusercontent.com/54589605/236671848-1a289999-ed1a-4ac4-bb5e-1caf71bda45c.png)
+
+* When we called quick sort for the **first time**, **randomgenerator()** returned some **random number(k)**, so we have take **kth** element as **pivot** elements. This is **randomized quick sort**.
+
+![image](https://user-images.githubusercontent.com/54589605/236672024-c64c76ad-785e-4dfe-83c3-a93695ff9dac.png)
+
+* **Randomized quick sort*
+
+> If we **remove** the lines written with **red color**, then the sorting algo is called as **normal quick sort or just quick sort**. 
+
+* Time complexity of **Randomized quick sort** for **best and average case** -> **O(n * log n)**
+* Time complexity of **Randomized quick sort** for **worst case** -> **O(n^2)**.
+
+> The **performance** is improved as well. The **worst case** was **more** previous but with the **randomized quick sort**, the **worst case** is also **less** than before.
+
+![image](https://user-images.githubusercontent.com/54589605/236672286-e8b95c32-e20e-4779-825a-552247abb2b8.png)
+![image](https://user-images.githubusercontent.com/54589605/236672464-76ae92ff-9ee5-4a61-8085-37cd399d9c02.png)
+
+> If we want to take the **last** element as the pivot element now. Then we don't need the **randomgenerator()**, remove that. **Q** stores the **last** element. We have to swap(a[p], a[q]). We have to swap, a[q] with the **first element**. Now, at the **first** place, **last element** is there. Now, apply **partition**. That's it, no need to change the algorithm.
+
+* If we want **random** pivot elements then also the **quick sort algo** will work out.
+
+> By doing **randomized quick sort** algo, we cannot completely neglect the **worst case** of quick sort, but we can **improve** the **performance** of **worst** case by lowering the **amount or percentage** of **worst** case. If in normal quick sort algo, the **amount or percentage** of **worst** case was **10%** then in **randomized quick sort** algo, **worst** case is **reduced/lowered** down to **5%**.
+
+* In **randomized quick sort** algo, **worst case** performance **probability** is **less or lesser**.
+
+![image](https://user-images.githubusercontent.com/54589605/236672916-ddbe2e97-6c9b-44d6-8e01-66705529a3aa.png)
+![image](https://user-images.githubusercontent.com/54589605/236673046-145299b0-2a34-4674-ad36-b817429e3bb8.png)
+
+* It is **right** side gapped. 
+
+> All are **10** so they are **less than or equal** to pivot, so they will all be in the **left** side and **right** side is empty or **right** side gapped.
+
+* In normal quick sort, **first element** is pivot element.
+
+![image](https://user-images.githubusercontent.com/54589605/236673084-9fee8bc7-48eb-4e49-b8b6-82a7154650b7.png)
+![image](https://user-images.githubusercontent.com/54589605/236673131-d6baeeba-2060-45d3-9c62-71cbbd1d44bd.png)
+
+* Normal quick sort.
+
+![image](https://user-images.githubusercontent.com/54589605/236673181-9b559d91-b184-4454-aff5-140719c596eb.png)
+
+* Even if we **randomly** choose the **pivot** element using a **random_generator**, then also all of the elements are going to **left side** only and the **right** side is **empty**.
+* **Time complexity** is **same** as **normal quick sort** which is **O(n^2)**.
+
+![image](https://user-images.githubusercontent.com/54589605/236673328-53f60a66-bfac-4063-898d-eefefc39db0a.png)
+
+* In **normal** quick sort algo, if the array is **ascending order** then all the elements go to the **right** side and the **left** side is **gapped**.
+* **Time complexity** is **O(n^2)**.
+
+> **Randomized quick sort** algo can take any element as pivot. If it takes **40** then it is the **best case** partition. **Randomized quick sort** can take any possibility.
+
+> Sometimes **randomized quick sort** will take the **first** element as pivot.
+
+> Sometimes **randomized quick sort** will take the **middle** element as pivot.
+
+> So it is sometimes **first** and sometimes **middle**. It is **50-50**. It is sometimes, **half or 50% best partition** and sometimes, **half or 50% worst partition**. If it is **everytime** worst, then it is **worst**. 
+
+> It is **half or 50% best partition** and it is **half or 50% worst partition**. So **half best** and **half worst** will **lead** to, **best case** only which is **O(n * log n)**.
+
+> Sometimes **randomized quick sort** will take the **middle** element as pivot.
+
+![image](https://user-images.githubusercontent.com/54589605/236673707-af805a17-9072-4946-b73b-88c9117811c8.png)
+
+> Previously ascending order **best case** for **normal quick sort** algo has now been **worst** case for **randomized quick sort**.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
