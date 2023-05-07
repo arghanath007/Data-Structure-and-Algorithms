@@ -9151,23 +9151,246 @@ Steps:
 
 > It is **half or 50% best partition** and it is **half or 50% worst partition**. So **half best** and **half worst** will **lead** to, **best case** only which is **O(n * log n)**.
 
-> Sometimes **randomized quick sort** will take the **middle** element as pivot.
+> Sometimes **randomized quick sort** will take the **middle** element as pivot and we will get **best case** only which is **O(n * log n)**.
+
+> Sometimes **randomized quick sort** will take the **first** element as pivot and we will get **worst case** only which is **O(n ^ 2)**.
 
 ![image](https://user-images.githubusercontent.com/54589605/236673707-af805a17-9072-4946-b73b-88c9117811c8.png)
 
 > Previously ascending order **best case** for **normal quick sort** algo has now been **worst** case for **randomized quick sort**.
 
+> Performance improved but **worst case** we cannot completely ignore. Previously whatever was the **percentage** of **worst case**, it is not **reduced** and **few** maybe there and **few** are eliminated.
+
+> Performance improved but we cannot give **100%** efficiency.
+
+* Randomized quick sort worst case time complexity -> **O(n^2)**.
+* If we have given **sorted** array to  **randomized quick sort**, then time complexity maybe it is **O(n * log n)** or maybe it is **O(n^2)**. Previously it was **O(n^2)** but now it maybe **O(n * log n)** or maybe **O(n^2)**, because it will **pick** elements at **random**, it will pick whatever it wants. We don't know what exactly it will pick.
+
+* It is a **random_generator** but performance improved. Previously **worst case** guranteed for the **sorted arrays** but now, it is **not guranteed**, it is maybe **O(n * log n)** or maybe **O(n^2)** because it will **pick** elements at **random**. **Best** performance can also come.
+
+* Previously it was **100%** to be **O(n^2)** but now it is **50%** to be **O(n * log n)** which is the **best case** and **50%** to be **O(n^2)** which is the **worst case**. So performance **improved**.
+
+* Previously probability of getting **worst case** was more, now it is **less**.
+
+* We have an **ascending order** array, normal quick sort time complexity, by default **first** element is the **pivot**, then it is **O(n^2)**, which is the **worst case**.
+*  We have an **ascending order** array, normal quick sort time complexity if the **middle** element is the **pivot**, then it is **O(n * log n)**.
+
+> As it is alrady sorted and we took the **middle element** as pivot, it will **divide the array** into **50-50**.
+
+* **Randomized quick sort** increases performance. **YES**.
+* **Randomized quick sort** cannot give gurantee that **worst case** for **randomized quick sort** which is **O(n^2)** is never possible. **NO**.
+* Improvement is done, still **best and average case** is **O(n * log n)** and **worst case** is **O(n^2)**.
+
+![image](https://user-images.githubusercontent.com/54589605/236680914-008444ed-a1a7-426d-af47-7ac379c0035e.png)
+
+* Yes. For un-sorted array, we don't know what's in the **middle** also.
+* If the array is un-sorted then any use of taking the **middle** element?
+
+> **NO**. Take anyone, any how it is **un-sorted** array.
+
+![image](https://user-images.githubusercontent.com/54589605/236681031-58c0ea11-ade6-49c8-b36e-712fc1b5f817.png)
+
+> For **sorted** arrays, we don't need any special preperation because if it is **already sorted**, then why are we **sorting** it again.
+
+* Randomization in **randomized quick sort** will improve performance but there is **no gurantee** that it will go to **O(n * log n)** everytime.
+* Just say performance improved.
+
+* In **normal binary search**, we always go to the **middle** and check if the **middle** is the element we are looking for.
+* In **randomized binary search**, why are we always going to the **middle** everytime. why don't we sometimes go to **n/2**, sometimes **n/3**, sometimes **n/10**. Why don't we go **randomly**. Concept is **same**, go **randomly**.
+
+> If we do **randomized binary search**, performance will **improve**, comparing with always **dividing by 2** and getting **half-half**, performance will **improve** a little.
+
+## Problems (Quick sort)
+
+![image](https://user-images.githubusercontent.com/54589605/236682075-15e7ce17-c8d4-43bc-a39e-aff01983edcc.png)
+
+* In quick sort, the sorting of n-elements the **n/5th smallest element** selected as pivot using **O(n)** time complexity algo. Then what will be the **worst case time complexity of quick sort**?
+
+1) Theta(n * log n)
+2) Theta(n^2)
+3) Theta(n)
+4) Theta(n^3)
+
+> In normal quick sort, by default we select the **first** element as the pivot element. Pivot selection is **O(1) or constant** time. In the question, **n/5th** element is selected as the pivot element using **O(n)** time complexity algo.
+
+> For **n** elements we have to select **n-1** pivot elements, so we know **worst case time complexity of quick sort** is **O(n^2)** and we are selection pivot element **n** times.
+
+* **Worst case time complexity of quick sort** for the **above** problem -> **n * (n^2) -> n^3** -> **O(n^3)**.
+* Option(d) or Option(4) which is **Theta(n^3)** is the **correct** answer. 
+
+* [**WORST answer**]. Check below for **correct** answer. It is **O(n * log n)**.
+
+> When quick sort is going on, we are applying **partition** algo **many times**. It means **pivot** selection is also **many times**. Everytime, **pivot** selection is **O(n)** time. So it is **many times 'n'**.
+
+> **Pivot** selection is not **one** time work. How many times, we are calling **quick sort**, because of **recursion** those many times **partition**. How many times, we are calling **partition**, those many times **pivot selection**. So, those many times it is **O(n)**.
+
+* Partition algo is not **one time** inside quick sort, it runs many times. It is the **recursion**.
+
+![image](https://user-images.githubusercontent.com/54589605/236683042-4a6263a9-997a-4282-bec1-cbcca090693b.png)
+
+* Normal quick sort. The pivot element can go anywhere, it can go to the **middle** or to the **end**. We don't know. It can be anywhere.
+
+* PS -> Pivot selection
+* PA -> Partition Algo
+* 
+
+> If we take the **7th** smallest element as the pivot and after partition then it will go to the **7th** place.
+
+> If we take the **4th** smallest element as the pivot and after partition then it will go to the **4th** place.
+
+> If we take the **1st** smallest element as the pivot and after partition then it will go to the **1st** place.
+
+> If we take the **1st** smallest element as the pivot and after partition then it will go to the **1st** place.
+
+> If we take the **n/5th** smallest element as the pivot and after partition then it will go to the **n/5th** place.
+
+![image](https://user-images.githubusercontent.com/54589605/236683466-1f6c491e-50b1-4b33-a8d4-8f0c108146e6.png)
+![image](https://user-images.githubusercontent.com/54589605/236683523-f5b35a28-aa5a-4213-b125-703673e26a82.png)
+
+* Constant term for **recursive** terms is **important**. Don't neglect.
+* Constant term for **non-recursive** terms is ** not important**. We can neglect.
+
+ 
+* If we take **first** element as the pivot, after partition algo, it will go to **anywhere**.
+* If we take **first** smallest element as the pivot, after partition algo, it will go to **first place**.
+* If we take **n/5th** smallest element as the pivot, after partition algo, it will go to **n/5th place**. So, the **left** side elements is **n/5-1**, **right** side elements is **n - n/5 -> (4 * n)/5**.
+
+![image](https://user-images.githubusercontent.com/54589605/236687387-2a4310bd-c39d-4d18-b911-4814891cf6a8.png)
+
+> This is the **only** division possible. So, **worst, best and average** case, it is the **same** time which is **O(n * log n)**.
+
+* If **different** divisions are possible, then **different** time complexities will come.
+
+> **O(n * log n)** will be the **same** answer for **worst, best and average** case.
+
+![image](https://user-images.githubusercontent.com/54589605/236687511-e6027b47-2575-4dde-840d-9535abd1a30c.png)
+![image](https://user-images.githubusercontent.com/54589605/236687516-d642e10f-7a57-4f9f-a227-29d42ca219f5.png)
+
+* Only **one** division possible, so **one** answer is possible which is **O(n * log n)**.
+
+![image](https://user-images.githubusercontent.com/54589605/236687558-8d6fb9ea-8f6b-4fbb-a21b-4cdcf65da779.png)
+
+* In normal quick sort, **many divisions** are possible, so **many answers**.
+
+![image](https://user-images.githubusercontent.com/54589605/236687819-8a9c3a04-c0dc-4727-b1d0-c5fd5e6cebb4.png)
+
+* In quick sort, the sorting of 'n' numbers, the **n/10th** element is selected as pivot, with time complexity of **O(n^2) time algo. Find what is the **worst case ** time complexity of quick sort?
+
+1) Theta(n^2)
+2) Theta(n * log n)
+3) Theta(n^3)
+4) Theta(n)
+
+* If we take **n/10th** element as the pivot, after partition algo, it will go **anywhere**. No clarity.
+* **Anywhere** means **multiple possibilies**. The question wants **worst case** so it went to the **extreme**.
+* The question wanted **worst case**, so that **worst possibility**.
+
+> Normally, to select **n/10th** element, it is **constant**.
+
+![image](https://user-images.githubusercontent.com/54589605/236688246-34cba6b9-c78f-4e6b-9e2d-36f240c68102.png)
+
+* Worst case.
+
+![image](https://user-images.githubusercontent.com/54589605/236688262-1ead9b5b-b803-44a9-b0b2-945d90cd4171.png)
+
+* Not true. For the above question. Asymptotically it is **correct** but sir is better .
+
+* Smallest element is **different**.
+* **N/10th** smallest element can go to **N/10th** place.
+* **N/10th** element can go to **anywhere** place.
+
+![image](https://user-images.githubusercontent.com/54589605/236688520-d95085f3-8cd3-42bb-86b8-1a7f5392a413.png)
+
+* In quick sort, the sorting of 'n' numbers the **n/5th** **largest element** is selected as pivot using **O(log n)** time complexity algo. Find best case time complexity of quick sort?
+
+1) Theta(n * log n)
+2) Theta(n^2)
+3) Theta(n^3)
+4) Theta(n)
 
 
+* Largest element is **different**.
+* **N/10th** smallest element can go to **N/10th** place.
 
+> If we have **n** elements, and we take **nth** smallest element as the pivot then it will go the **nth** place. So, **nth** smallest is nothing but **1st largest**. It is from **right** hand side.
 
+![image](https://user-images.githubusercontent.com/54589605/236689180-8b875383-49a2-4393-89b2-6ed082c9883c.png)
+![image](https://user-images.githubusercontent.com/54589605/236689303-9912fa5c-d91b-4c94-8d2d-20e9d3992cac.png)
 
+* If we take the **first** largest as the pivot, then it will go to **first place** from last.
+* If we take the **second** largest as the pivot, then it will go to **second place** from last.
+* If we take the **10th** largest as the pivot, then it will go to **10th place** from last.
 
+* **N/5th** largest element, after partition, it will go to **N/5th** place from the **last**.
+* **N/5th** element can go to **anywhere** place.
 
+* For the **above** question, **only one** division is possible. So, it is **one** answer only.
 
+![image](https://user-images.githubusercontent.com/54589605/236689555-31963a54-919b-4605-b3e6-bbf30dd27e89.png)
 
+* Option(A) or Option(1) is **corret** which is **O(n  * log n)**.
 
+[**IMPORTANT**]
 
+* **n/2th** element is taken as pivot element, the **worst case** is **O(n^2)**. It can go **anywhere**.
+* **n/2th** smallest element is taken as pivot element, the **best case** is **O(n * log n)**. It can go to **n/2th** place.
+* **n/2th** largest element is taken as pivot element, the **best case** is **O(n * log n)**. It can go to **n/2th** place from last.
+
+* **Element, smallest and largest** matters and not **n/2th**.
+
+![image](https://user-images.githubusercontent.com/54589605/236690229-c6a9cdb1-9294-4dae-87e1-37b7c01d1f56.png)
+
+* In quick sort, the sorting of 'n' numbers, **300th** largest element is selected as pivot element with **O(n^2)** time complexity. Find best case time complexity of quick sort?
+
+* It is **every case**, because there is only **one** possibility. So there is only **one** answer.
+
+![image](https://user-images.githubusercontent.com/54589605/236690768-68a2b340-3349-41a7-a61e-9811289e0964.png)
+
+* If there are **many** possibilities then there are **many** answers.
+
+## Summary
+
+* N/2 element
+* N/2 smallest element
+
+> They are **different**.
+
+* N/2 element is known as **middle** element.
+* N/2 smallest element is also known as **median** element. 
+* **Median** means in a **sorted array**, the **middle** element.
+
+* If we take the **middle** element as the **pivot** then the **worst case** time complexity is **O(n^2)**.
+* If we take the **median** element as the **pivot** then the **worst case** time complexity is **O(n * log n)**.
+
+![image](https://user-images.githubusercontent.com/54589605/236691005-208eb883-0e3d-40ff-bf32-abd1e20604c2.png)
+
+* If any question of **quick sort** comes then, directly or in-directly, it is **partition** algo. **YES**.
+* If any question of **merge sort** comes then, directly or in-directly, it is **merge** algo. **YES**.
+
+![image](https://user-images.githubusercontent.com/54589605/236691303-06584c54-3089-43a2-8a89-1ca0b42d7d18.png)
+![image](https://user-images.githubusercontent.com/54589605/236691316-3271441d-230e-42d8-981d-eb3f0a2647f2.png)
+
+* Worst partition, so **worst case**. Only on one side, all the elements are going.
+* Normally, worst case is **O(n^2)** but it is **O(n^3)** in the above example question, because to find out **300th** largest element it took **O(n^2)**. That's why it is **increased**.
+
+* To the above problem, **every case** is **same**.
+
+## Selection Procedure
+
+* It is not **selection sort**, it is **selection procedure**.
+
+* Input -> An array of 'n' elements and an integer 'k'.
+
+> Total inputs to the **selection procedure** is **n + 1** elements.
+
+* Output -> Find **Kth** smallest element in array.
+
+> If the given array is **sorted** in **ascending**, then the problem is **very easy**. At **Kth** place we have **Kth** smallest element, return a[k].
+
+![image](https://user-images.githubusercontent.com/54589605/236692429-9f18aad0-3a06-4372-87ea-b1492459ef2e.png)
+![image](https://user-images.githubusercontent.com/54589605/236692436-983ecadb-d7b3-4319-be77-daf9b26fe37e.png)
+
+* Start from **2hrs 10mins**.
 
 
 
