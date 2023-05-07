@@ -8680,13 +8680,397 @@ Steps:
 
 > **Worst case**, unbalanced behaviour we get.
 
+* Here, it was **ascending** order, so **no swaps**, as everytime **greater** coming. Only one swap at the end.
+* It was **left** grapped.
+
 #### (2)
+
+##### Pass 1
 
 ![image](https://user-images.githubusercontent.com/54589605/236635209-0393f467-1163-4f9b-9cbc-2a901c9a9586.png)
 
 * By default, **first** element is the **pivot**. On the second input we have to apply **partition**.
 
-* Start from **1hr 47mins**.
+> As it is a **descending order**, so whatever comes after **pivot** element will be **smaller**. So, eveytime **swap** as everytime it is **smaller**. **J** crossed border, so **loop** over. Now swap **a[i] and a[p]**.We returned **7** as it the **index** of the pivot element which went to the **correct** place.
+
+> All are **less** than pivot, so they all came to the **left** side. No one on the right side, as no one is **more** than pivot.
+
+* In this problem, it is **right** gapped.
+* It looks like **un-balanced** behaviour.
+
+> If the first two rounds are **un-balanced** behaviour but the rest are **balanced** behaviour, then it is **best case**.
+
+> That's why with **1 or 2** round we cannot say anything, until we are **confirmed** we have to **continue**.
+
+![image](https://user-images.githubusercontent.com/54589605/236652132-5713af69-572c-495b-b5ff-ef04a336628a.png)
+
+> For **n** elements, partition will take **n-1** comparisions. Time complexity is **n**.
+
+> For **7** elements, partition will take **6** comparisions. 
+
+> For **7** elements, partition will take **6 + 1 -> 7** swaps. **6** swaps for **6** comparisions and lastly **one more** swap.
+
+![image](https://user-images.githubusercontent.com/54589605/236652380-0a2bdc2b-237a-42ca-86b8-94bd40f345ac.png)
+![image](https://user-images.githubusercontent.com/54589605/236652878-fe22dc17-5bad-463e-9f3a-a37fa0518f4f.png)
+
+* Time complexity -> Comparisions + swaps -> O(n^2)
+
+##### Pass 2
+
+![image](https://user-images.githubusercontent.com/54589605/236652274-20c3f83a-4e8c-4e98-96b0-eead76f95c5e.png)
+
+> The pivot is the first element which is **10**. **J** crosses boundary and there are **zero(0)** swaps. **I** didn't move at all. Now swap **a[i] and a[p]**.We returned **1** as it the **index** of the pivot element which went to the **correct** place.  
+
+> Less than **pivot** no one and everyone is more than pivot. 
+
+* It is **left** gapped now.
+
+> In the **Pass 1** it was **right** gapped and now in **Pass 2**, it is **left** gapped.
+
+* Just by seeing **Pass 1**, don't conclude the behaviour. Observe what is going on.
+
+> In **Pass 1**, last element came to **first** place and first element when to **last** place. Which means in **Pass 2**, pivot element is **small** element.
+
+* It is behaving like **alternative gap**. One time it is **left** gap, one time it is **right** gap.
+
+![image](https://user-images.githubusercontent.com/54589605/236652559-eac63e39-38da-4415-a763-bd9f3396c4d9.png)
+
+> In **Pass 1**, there are **6** comparisions and we will **7** swaps.
+
+> In **Pass 2**, there are **5** comparisions and we will **1** swaps.
+
+> In **Pass 3**, there are **4** comparisions and we will **5** swaps.
+
+> In **Pass 4**, there are **3** comparisions and we will **1** swaps.
+
+> In **Pass 5**, there are **2** comparisions and we will **3** swaps.
+
+* **More** no. of swaps are coming in **right** gapped. [**IMPORTANT**]
+* **Left** gapped means **one(1)** swap only. [**IMPORTANT**]
+* **Right** gapped means, **n** element, then **n** swaps only. [**IMPORTANT**]
+
+![image](https://user-images.githubusercontent.com/54589605/236652695-ecbc138e-f330-4d31-a2ab-05b4ecb12884.png)
+
+* Alternative gapes.
+
+* Total comparisions -> 6 + 5 + 4 + 3 + 2 + 1 -> n-1 + n-2 + n-3 + n-4 + n-5 + n-6 + .... + 2 + 1 -> ((n-1) * n)/2 -> O(n^2).
+* Total swaps -> n + 1 + (n-2) + 1 + (n-4) + 1 -> (n(n+1))/(2 * 2) -> (n(n+1))/4 ->O(n^2)
+
+> We are dividing by **4** because we want either **even** or **odd** numbers. **Dividing by 2**, gives sum of all natural numbers.
+
+![image](https://user-images.githubusercontent.com/54589605/236652857-d1cbbebe-f72b-43f5-8d89-6c3b0f735c45.png)
+
+* Time complexity -> Comparision + swaps -> n^2 + n^2 -> 2 * (n^2) -> O(n^2).
+
+![image](https://user-images.githubusercontent.com/54589605/236652871-48893815-8710-451c-a14a-ef231caba1e9.png)
+
+* If we apply quick sort on **ascending order**, time complexity?
+
+> **O(n^2)**.
+
+* If we apply quick sort on **ascending order**, time complexity?
+
+> **O(n^2)**.
+
+> For both **increasing and decreasing** we are getting **un-balanced** tree, because all of the elements are goint to **one side** only and the other side is **empty**. Swaps may comes or may not come, but the **no. of comparisions** are the **same** only, which is **n^2**.
+
+![image](https://user-images.githubusercontent.com/54589605/236653262-cc5a2256-e784-49fa-a7cd-647e38338657.png)
+
+#### (3)
+
+![image](https://user-images.githubusercontent.com/54589605/236653251-a5aeccfb-6fba-47b4-84f7-3a68f17c10bc.png)
+
+> One pass is **enough**. All elements are **same** only.
+
+![image](https://user-images.githubusercontent.com/54589605/236653279-2950aae6-704b-4ae3-8cd1-64f6500ecef5.png)
+
+> First element is the pivot element only, which is **10**. **J** closes boundary. **I** is at the **7th** position. Now swap **a[i] and a[p]**.We returned **7** as it the **index** of the pivot element which went to the **correct** place. 
+
+![image](https://user-images.githubusercontent.com/54589605/236653348-050c0ad6-a4d0-4195-a57d-c9d07f2354f3.png)
+
+> **10a** was there at the **first** place, now it is at the **last** place. **More** than **10**, no one. All of the elements are **less than or equal to 10**.  
+
+![image](https://user-images.githubusercontent.com/54589605/236653394-c851a9cc-9ff5-48ab-9957-58fc0139746b.png)
+
+* It is **right** side gapped everytime.
+
+> For **7** elements, there are **6** comparisions, so the **no of swaps** are **6 + 1 -> 7**.
+
+> No more **rounds** needed, because we got to know, that it will be always **right** gapped.
+
+* **10a** was there at the **first** place and after sorting, it went to the **last** place. It is not **stable**.
+
+> Repetative order of elements are **changing**. It is not **stable*
+
+![image](https://user-images.githubusercontent.com/54589605/236653736-10728ebd-2bb9-47a4-9c7f-fbf78a500c1a.png)
+
+* Total comparision -> O(n^2)
+* Total swaps -> O(n^2)
+* Time complexity -> Comparision + swaps -> n^2 + n^2 -> 2 * n^2 -> O(n^2).
+
+![image](https://user-images.githubusercontent.com/54589605/236653782-d5b90364-c431-40e9-b531-62281021ef55.png)
+
+## Summary
+
+* 3rd question -> Right gapped
+* 2nd Question -> Alternative gapped
+* 1st question -> Left gapped.
+
+> In all of the **three** question's inputs, **no. of comparisions** are **same**, which is **n^2** everytime.
+
+> If we apply quick sort on the given three question's inputs, **no. of comparisions** are **n^2** everytime. For the first question's input it is **c1= n^2**.  For the second question's input it is **c2= n^2**.  For the third question's input it is **c3= n^2**.
+
+> All **three(c1, c2 and c3)** are **equal**.
+
+![image](https://user-images.githubusercontent.com/54589605/236653890-f47c1812-de07-438b-ac22-f2d7a3a868b6.png)
+
+* c1 = c2 = c3 = **O(n^2)**.
+
+## Note [**IMPORTANT**]
+
+* Quick sort will give **worst case performance**, if the **array** is already **sorted or almost sorted**.
+
+![image](https://user-images.githubusercontent.com/54589605/236653978-fe20c9ca-cb14-40eb-bb38-7c7fa8462b35.png)
+
+* Quick sort will give **best case or average case performance**, if the **array** is **unsorted or not sorted**.
+
+> Quick sort is the hero for **unsorted or not sorted** arrays.
+
+> Swaps maybe **increasing or decreasing** but **no. of comparisions** are **same** which is **n^2**.
+
+* Normally, time complexity of **quick sort** is **no. of comparisions** only which is **O(n^2)** only.
+
+> **O(n^2)** came because in all of the trees, there are **n** levels. Every level partition is **n** time. So, the time complexity becomes **n * n -> n * 2 -> O(n * 2)**.
+
+> Forget about **swaps**, the goal is **comparisions** only.
+
+> **c1, c2 and c3** are all **O(n^2)** because they have all given **un-balanced** tree. So, it is **O(n^2)**.
+
+* Quick sort behaviour when **ascending** order array given -> **un-balanced** behaviour -> **O(n^2)**.
+* Quick sort behaviour when **descending** order array given -> **un-balanced** behaviour -> **O(n^2)**.
+* Quick sort will give **best performance** on what type of array?
+
+> **Unsorted or not sorted** arrays.
+
+* For **merge sort** algo, anything is **OK**, give **ascending, descending, sorted, un-sorted** doesn't matter. Everytime it is **n * log n**.
+* Quick sort encouraged with **good inputs** i.e **unsorted or not sorted** arrays.
+
+![image](https://user-images.githubusercontent.com/54589605/236654521-5cf69c65-440c-4df9-8e08-498ac2d73e17.png)
+
+* What will be the **stack space** for these **inputs**?
+
+> **Stack space** means program should be given. If program not given, then we have to **assume** the **best program/algo**. **Worst case** it is **n** and for **best case** it is **log n**. We have to assume the **best case** which is **log n**.
+
+* Recursive or non-recursive program, time complexity is **same**.
+
+* Time complexity of **quick sort** is **O(n^2)**, everytime or when sorted array given?
+
+> When sorted arrays given. 
+
+> For **un-sorted** arrays it is **n * log n**.
+
+## Conclusions
+
+![image](https://user-images.githubusercontent.com/54589605/236655026-31cb042f-aa6e-4319-9ce1-bd84a9d47e71.png)
+![image](https://user-images.githubusercontent.com/54589605/236655052-5c1177a2-9104-4069-9795-3c8c48a127ea.png)
+
+* TIme complexity is **O(n * log n)**.
+* T(n) = T(n/2) + T(n/2) + n -> **O(n * log n)**
+
+> After **partition** algo is over, **n** times is completed. Now, array is divided, **un-equally** and not **un-balanced**.
+
+![image](https://user-images.githubusercontent.com/54589605/236655112-f5664146-c03a-4c5d-b2e8-264ecaa1b04b.png)
+
+* T(n/3) -> log n base 3
+* T((2 * n)/3) -> log n base 3/2
+
+> First level cost is **n**. Second level cost is also **n**. As it is a **recursive** program, so rest of the levels will also be **n** only.
+
+* T(n) = T(n/3) + T((2 * n)/3) + n -> **O(n * (log n base (3/2)))**.
+
+> As we have used base **3/2 -> 1.5** as it **smaller** compared to **3**, which means we took **upper bound**, so we took **Big-O**.
+
+![image](https://user-images.githubusercontent.com/54589605/236655222-928aae65-955d-42be-8a56-c9ad19a393d1.png)
+
+> Both **differ** by **constants** only, as one base is **3** and other base is **3/2**. So we can write **O(n * log n)**. 
+
+* T(n) = T(n/3) + T((2 * n)/3) + n -> **O(n * (log n base (3/2)))** -> **O(n * log n)**.
+
+> We can write **theta** also.
+
+![image](https://user-images.githubusercontent.com/54589605/236655271-c06bcc35-15fd-4913-9c37-98c4d510a2bc.png)
+
+> Quick sort algo will give **best case performance** of **O(n * log n)**, not only in **50-50** equal division, but in **1:2** also. 
+
+> Just make the total as **three** parts, keep **one part** to the **left**, keep **two parts** to the **right**. **Un-equal** division also leads to **best performance**.
+
+![image](https://user-images.githubusercontent.com/54589605/236655421-ea389021-c86f-4ee7-88f8-1d8e03cb435e.png)
+![image](https://user-images.githubusercontent.com/54589605/236655439-d8d58130-a5e5-47d3-8f44-d3da5be763e6.png)
+
+* T(n/5) -> log n base 5
+* T((4n)/5 -> log n base 5/4.
+
+> Every level cost is **n**. We have **log n base 5/4 levels**.
+
+* T(n) =  T(n/5) + T((4n)/5) + n -> **O(n * log n base 5/4)**.
+
+> For **100** people, **20** people on the **left** side and **80** people on the **right** side. Then also **best performance**.
+
+* Mostly **quick sort** will give **best performance**, which means for **average case**, quick sort gives **best performance**.
+
+![image](https://user-images.githubusercontent.com/54589605/236655566-1a7d3092-9d8b-48cd-9188-007a0fef0c72.png)
+![image](https://user-images.githubusercontent.com/54589605/236655581-b61672e3-536c-4d7f-a834-06e8f44abd35.png)
+
+* Using **recursive** tree method, we can solve all of them.
+* The above ones are **best and average** case performances.
+
+* Quick sort will give **best or average** case performance if:
+
+* T(n) = T((alpha) * n) + T((1 - (alpha)) * n) + n
+
+> All of the **alpha** elements are on **one side** and the remaining **(1 - (alpha)) * n)** elements on the **other side**. If the **partition** algo dividing like this, then quick sort will give **best case** performance, which is **O(n * log n)**.
+
+* 0 < (alpha) < 1. [Alpha is more than 0 but less than 1]
+
+![image](https://user-images.githubusercontent.com/54589605/236655754-9908f53f-83b3-473f-8f60-857684ad09e9.png)
+![image](https://user-images.githubusercontent.com/54589605/236655795-507184ad-0885-4323-8f5d-2e811a6b3121.png)
+
+* (alpha) = 1/2 [**O(n * log n)**] [1st example]
+* (alpha) = 1/3 [**O(n * log n)**] [2nd example]
+* (alpha) = 1/5 [**O(n * log n)**] [3rd example]
+* (alpha) = 1/5 [**O(n * log n)**] [4th example]
+
+> We can take **(alpha)** as anything as long as it is **less than 1** and **more than 0**.
+
+* If, (alpha) = 1/2, then the time complexity is **log n base (1 / alpha) -> log n base (1/(1/2)) -> log n base 2**.
+* If, (alpha) = 1/2, then time complexity is **log n base 2**.
+
+* T((alpha) * n) -> log n base (1/ (alpha)).
+* T((1 - (alpha)) * n) -> log n base (1 / (1 - alpha))
+
+![image](https://user-images.githubusercontent.com/54589605/236656017-62de2f1b-98cb-49b6-89ca-457a6e37c70a.png)
+
+> Comparing **left and right** heights, we cannot say who is **bigger**, because we can **inter-change**.
+
+![image](https://user-images.githubusercontent.com/54589605/236656069-15cdd27d-07be-43bc-bbba-ad8be4fd0f44.png)
+
+* If (alpha)=2/3, then **1 - (alpha)** is **1 - (2/3) -> 1/3**. 
+* f (alpha)=1/3, then **1 - (alpha)** is **1 - (1/3) -> 2/3**. 
+
+> We can **inter-change** that's the reason why we cannot say **clearly** who or which one is **bigger**. It is **dependent** on what **(alpha)** we will take. That's why we cannot say who is **bigger**.
+
+![image](https://user-images.githubusercontent.com/54589605/236656215-bb5934ae-38d9-46bf-80ad-875c1623dae6.png)
+
+* If array is **unsorted** then what type of recurrence relation for time complexity we will see for quick sort?
+
+![image](https://user-images.githubusercontent.com/54589605/236656253-69299b95-bb79-416a-812f-57d1e2383402.png)
+
+* These kind of things.
+* If array is **unsorted** then time complexity will be **one** of the above recurrence relation for time complexity will come?
+
+> **One of the above** recurrence relations for time complexity will **come**.
+
+![image](https://user-images.githubusercontent.com/54589605/236656315-7b64123c-dc37-47fe-823b-e5f55ecf8383.png)
+![image](https://user-images.githubusercontent.com/54589605/236656332-520e76cd-3864-4f75-b3eb-dddcea1e94d3.png)
+
+> Between **0 and 1** there are **infinite** possibilities.
+
+* Mostly **quick sort** will give **best or average** case.
+
+![image](https://user-images.githubusercontent.com/54589605/236656381-5a912d89-9bb0-4c6f-af0d-aa50cb4d3b07.png)
+
+> Partition algo is dividing the array in such a way that **fraction of n** is on **one side** and **remaining** is on **another** side.
+
+![image](https://user-images.githubusercontent.com/54589605/236656426-6df2bf3f-f342-4dd6-aa62-248e91b58d27.png)
+
+* **Fraction of n** -> n/5, n/10, n/2, n/3.
+* **Remaining** is on **another** side -> (1 - (1/5)), (1 - (1/10)), (1 - (1/2)), (1 - (1/3)).
+
+![image](https://user-images.githubusercontent.com/54589605/236656517-ac7924b6-5168-40f9-aec4-cd7cea048d45.png)
+
+> **max** is written because **it depends on (alpha)**. (alpha) maybe **1/5**, (alpha) maybe **4/5**. If **(alpha) = 4/5** then **1 - (alpha) -> 1 - 4/5 -> 1/5**. I f **(alpha) = 1/5** then **1 - (alpha) -> 1 - 1/5 -> 4/5**. It is **dependent on (alpha)**. **Reverse** also possible. **TRUE**.
+
+![image](https://user-images.githubusercontent.com/54589605/236656572-e92e9871-3143-49e6-87df-b781bf4f01de.png)
+
+* Quick sort **best case** is **infinite**, that means **everytime**, **best case** only will happen. Mostly it is **best or average** case only.
+
+![image](https://user-images.githubusercontent.com/54589605/236656618-89c33198-33fc-4183-b2b9-9d2df6a260a7.png)
+
+* Quick sort.
+
+![image](https://user-images.githubusercontent.com/54589605/236656853-2205609e-0320-4c2c-8461-7133de75737c.png)
+
+> After **partition** algo is over, quick sort divided the given array into **two** parts, no one came to the **left** side and on the **right** side, remaining everyone(n-1) elements came. **One more** elements is the **pivot element** and it is placed in the **correct** position/index.
+
+> We can neglect **T(0)**.
+
+> All elements(n-1) are going to **one side**. It will lead to **n** level tree. Everywhere **partition** cost is **n**. So, **n * n -> n^2**.
+
+![image](https://user-images.githubusercontent.com/54589605/236656912-ba900039-e997-4357-ad58-43083e1a1c39.png)
+
+> After **partition** algo is over, quick sort divided the given array into **two** parts, only **one element** came to the **left** side and on the **right** side, remaining everyone(n-2) elements came. **One more** elements is the **pivot element** and it is placed in the **correct** position/index.
+
+> Every time **n-2** means **n/2** level. Everywhere **partition** cost is **n**
+
+* T(1) -> Constant time.
+
+* T(n) = **(n/2) * n** -> **n^2**.
+
+![image](https://user-images.githubusercontent.com/54589605/236657346-87621a58-264c-4458-a51c-ff518be3fda2.png)
+
+* **Partition** time is **n** time. **Left** hand side is **constant(c)** elements. **Right** hand side is **remaining** elements. **One element** is pivot element.
+
+![image](https://user-images.githubusercontent.com/54589605/236657393-cb3da1a4-be21-4a92-b5ef-a8873a537014.png)
+
+* Where **c** is **constant** and **c >= 0**.
+
+![image](https://user-images.githubusercontent.com/54589605/236657421-09f0b23b-5b6b-4f1f-9e60-ac3874c0ce4f.png)
+
+* If **left** is **zero(0)** then **right** is **n-1** elements. **First** recurrence relation will come from **above**.
+
+* If **left** is **one(1)** then **right** is **n-2** elements. **Second** recurrence relation will come from **above**.
+
+* If **left** is **five(5)** then **right** is **n-6** elements. **Third** recurrence relation will come from **above**.
+
+* We can take any value of **c** as **constant**.
+* **Worst case** of **quick sort** is many **possibilities**, but the **only condition** is **one side is constant(c)** elements, other side is **remaining elements**.  
+
+![image](https://user-images.githubusercontent.com/54589605/236657520-61d38e67-6fe8-4cdf-af50-e0a1938c660f.png)
+
+* Partition algo behaving like, **one side is constant(c)** elements and on the other side is **remaining elements**. Quick sort will give **worst case** performance of **O(n^2)**.
+* Quick sort will give **worst case** performance for, **sorted or almost sorted** arrays.
+* **Almost sorted** means **constant(c) people** not sorted. **Constant(c) people** will go to **one side** and the **remaining** on the **other** side. 
+
+![image](https://user-images.githubusercontent.com/54589605/236658408-4f2ccfdf-0951-4b3b-b432-b44c37716fc8.png)
+![image](https://user-images.githubusercontent.com/54589605/236659514-25b45350-e91f-4cde-a469-dfe7c7bc2573.png)
+
+* Worst Case. All of them are quick sort worst cases.
+* Numbers mean **constant only**.
+
+![image](https://user-images.githubusercontent.com/54589605/236659762-75f1b3f6-c6e0-43cf-8af9-795be1c2218e.png)
+
+* Best and average case -> **Unsorted arrays**.
+
+> In the **best or average case** of quick sort, **not constant** but **fraction of 'n'** on **one side** and the **remaining elements** on the other side.
+
+* It is **n/2 -> n/4 -> n/8**. 
+
+### Question
+
+* While doing quick sort algo, partition algo always dividing the array in such a way that **300** elements are on **one side** and the **remaining** elements are on the **other** side?
+
+> **O(n^2)**.
+
+* Numbers(300, 10, 1, 5, 2) mean **constant only**.
+* In-terms of **n**, then it is **not constant**.
+
+![image](https://user-images.githubusercontent.com/54589605/236659675-35f5e1c1-5427-47d1-913d-2399ca7523f0.png)
+
+### Doubt
+
+![image](https://user-images.githubusercontent.com/54589605/236659811-0498da05-5794-4978-9776-db01f73fde92.png)
+
+* 8hrs more needed. 8 more classes needed.
 
 
 
@@ -8701,7 +9085,10 @@ Steps:
 
 
 
- 
+
+
+
+  
 
 
 # Practice Videos (27th April 2023)
