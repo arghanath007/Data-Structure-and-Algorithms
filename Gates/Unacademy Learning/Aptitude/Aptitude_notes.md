@@ -3,6 +3,7 @@
 ## Playlist
 
 * https://unacademy.com/course/complete-course-on-general-aptitude-for-gate-2023-24-585/PMW1DF4L
+* (Newer course)  ->  https://unacademy.com/course/complete-course-on-general-aptitude-gate-ese-2024-2025/8WWZC9JD?_branch_referrer=H4sIAAAAAAAAA8soKSkottLXL81LTE5MSc2t1EssKNDLyczL1vcwSinPyinNi6xIAgBCSkd5JgAAAA%3D%3D 
 
 
 ## Next
