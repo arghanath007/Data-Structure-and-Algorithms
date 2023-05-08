@@ -2,7 +2,8 @@
 
 ## Course Link
 
-* Link -> https://unacademy.com/course/complete-course-on-algorithm-768/MKL1PBOY
+* Link -> https://unacademy.com/course/complete-course-on-algorithm-768/MKL1PBOY (**COMPLETEd**)
+* Remaining Videos -> https://unacademy.com/course/full-course-on-algorithms/XX14HTSO
 
 ## Syllabus
 
@@ -9576,17 +9577,92 @@ Steps:
 
 ## Counting no. of inversions
 
+* Input -> Array of n-distinct elements
+* Output -> Count inversions
+
+* Between position **3 and 4** who is **greater?
+
+> Positions are normally **increasing** order. So **3 < 4**, but when we **compare** the values with **a[3] and a[4]**, we see that **a[3] > a[4] -> 50 > 40**.
+
+![image](https://user-images.githubusercontent.com/54589605/236725744-6c3047ba-4319-4cd5-801e-e4cd347c165b.png)
+
+* If we take **two** indexes(i and j), and **i < j** and then **a[i] > a[j]**. This is called as **inversion**. [**IMPORTANT**]
+* Positions are **less than** then the **values** should be **greater than**.
+
+> Given an array a[]. The task is to find the inversion count of a[]. Where two elements a[i] and a[j] form an inversion if a[i] > a[j] and i < j.
 
 
+> In the **given** array, how many people have **inversion** behaviour, we have to **calculate**. We have to **count** the **no. of inversions** in the given array.
+
+> We take two **indexes** which are **1 and 6**. So, **1 < 6**, but when we **compare** the values with **a[1] and a[6]**, we see that **a[1] > a[6] -> 10 > 60**. **a[1]** is **not greater than a[6]**. So this is **not an inversion**. As, **1 < 6**, so to be an counted as an  **inversion** it would have been **a[1] > a[6]** but that didn't happen. So **not an inversion**.
+
+![image](https://user-images.githubusercontent.com/54589605/236727171-1f6ed69a-c191-41fe-a8be-3c5207e4d750.png)
+
+> We take two **indexes** which are **2 and 5**. So, **2 < 5**, but when we **compare** the values with **a[2] and a[5]**, we see that **a[2] > a[5] -> 200 > 100**. Positions are **less than** then the **values** should be **greater than**. So it is an **inversion**.
+
+![image](https://user-images.githubusercontent.com/54589605/236727382-42afef3d-4a03-4648-a172-cabff29c5c58.png)
 
 
+### Inversion examples
 
+![image](https://user-images.githubusercontent.com/54589605/236727582-30d09a6d-a190-4a9b-bc7f-26d4c9b06e86.png)
 
+* If we take **50** which has position of **1**. We have to find **inversions** from the given array.
 
+1) Position -> **1 < 2**. Values -> **50 > 10**.
+2) Position -> **1 < 5**. Values -> **50 > 11**.
+3) Position -> **1 < 6**. Values -> **50 > 21**.
+4) Position -> **1 < 7**. Values -> **50 > 31**.
+5) Position -> **1 < 10**. Values -> **50 > 3**.
 
+> We also could get by **without counting positions**, as the **positions** are in **increasing** order only.
 
+* No. of inversions -> **5**.
 
+![image](https://user-images.githubusercontent.com/54589605/236728131-18c4c91a-fc8c-43bb-bb74-1a2784027a55.png)
 
+* If we take **10** which has position of **2**. We have to find **inversions** from the given array.
+
+* Position -> **2 < 1**. Values -> **10 > 50**. 
+
+> For **50**, **10** was an **inversion**. Now in **10**, don't count **50** as the **inversion**, we have already **counted** that in **50** only. Don't count **twice**. It will **increase** the number.
+
+* Don't go **back**. Go **forward**. Previous things are **already** counted.
+
+1) Position -> **2 < 10**. Values -> **10 > 3**.
+
+* No. of inversions -> **1**.
+
+* If we take **60** which has position of **3**. We have to find **inversions** from the given array.
+
+1) Position -> **3 < 5**. Values -> **60 > 11**.
+2) Position -> **3 < 6**. Values -> **60 > 21**.
+3) Position -> **3 < 7**. Values -> **60 > 31**.
+4) Position -> **3 < 10**. Values -> **60 > 3**.
+
+* No. of inversions -> **4**.
+
+* If we take **70** which has position of **4**. We have to find **inversions** from the given array.
+
+1) Position -> **4 < 5**. Values -> **70 > 11**.
+2) Position -> **4 < 6**. Values -> **70 > 21**.
+3) Position -> **4 < 7**. Values -> **70 > 31**.
+4) Position -> **4 < 10**. Values -> **70 > 3**.
+
+* No. of inversions -> **4**.
+
+![image](https://user-images.githubusercontent.com/54589605/236730331-89f1f29f-cb88-4c0a-8867-a8e7061f25c1.png)
+
+* Total **no. of inversions** -> 19.
+* Same thing, don't count **twice**. Don't **count** before. **Count** after.
+
+![image](https://user-images.githubusercontent.com/54589605/236730617-bef7e653-efd5-451b-9057-85209d1147cc.png)
+![image](https://user-images.githubusercontent.com/54589605/236730792-ec35f466-334c-4448-b80b-1c654709149f.png)
+
+* Watch **recording**.
+
+![image](https://user-images.githubusercontent.com/54589605/236730943-40a73941-ddbe-4da9-93e2-646acb3d253d.png)
+![image](https://user-images.githubusercontent.com/54589605/236731308-6648f172-7e22-463c-a08a-165b7160935a.png)
 
 
 
