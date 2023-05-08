@@ -9664,6 +9664,7 @@ Steps:
 ![image](https://user-images.githubusercontent.com/54589605/236730943-40a73941-ddbe-4da9-93e2-646acb3d253d.png)
 ![image](https://user-images.githubusercontent.com/54589605/236731308-6648f172-7e22-463c-a08a-165b7160935a.png)
 
+## Dynamic Programming-III (34) [8th May 2023]
 
 ## Remaining Syllabus
 
