@@ -9390,7 +9390,210 @@ Steps:
 ![image](https://user-images.githubusercontent.com/54589605/236692429-9f18aad0-3a06-4372-87ea-b1492459ef2e.png)
 ![image](https://user-images.githubusercontent.com/54589605/236692436-983ecadb-d7b3-4319-be77-daf9b26fe37e.png)
 
-* Start from **2hrs 10mins**.
+> To solve the above problem, one way is to use **merge sort** to sort the array first and then find the **Kth** smallest element in the arraay. Return it. The time complexity will be **O(n * log n + O(1)) -> O(n * log n)**. Returning **Kth** element is **constant**.
+
+* The **best algo** for the above problem.
+
+![image](https://user-images.githubusercontent.com/54589605/236709564-e50da8c5-1e93-4a24-8bac-3d18b367ca2c.png)
+![image](https://user-images.githubusercontent.com/54589605/236709655-c24b9476-baa2-4be3-a4a7-bc958dfd1bb4.png)
+
+* First **min** is **30**.
+
+> We want to find **Kth** smallest element and **k=6**.
+
+> We are applying **partition** algo on the above given array. For **n** elements, time complexity of **partition** algo is **O(n)**. The pivot element is the first element which is **80**. 
+
+> The behaviour of **partition** algo is that **less than** pivot elements will go to **left** side and **more than** pivot elements will go to the **right** side. Any order we write, no issues.
+
+![image](https://user-images.githubusercontent.com/54589605/236709928-71936fcc-af98-4b40-9265-d2a099b8860a.png)
+
+> We applied **partition** algo and we got approximate output. The pivot element will go to the **correct** place and it will return the **position/index** of iteself.
+
+![image](https://user-images.githubusercontent.com/54589605/236710068-2f287d66-8820-4c48-be0e-733d73f03ade.png)
+
+> After **partition** algo is over, if the pivot element is returning something **6**, then we know what is the **6th smallest element** in the array.
+
+> After **partition** algo is over, pivot element will go to it's **correct** place. After sorting also, pivot element's position is the **same**, which is **6th** position. It means that the pivot element is the **6th** smallest element in the array.
+
+> After sorting, **6th** smallest element is there at the **6th** place.
+
+* After **partition** algo is over, it returned **6**. what does it mean?
+
+> It means that at the **6th** place, there is the **6th** smallest element in the array.
+
+> After **partition** algo is over, we are expecting the **Kth** smallest element, but we got the **mth** smallest element which is **6**. **m=6** means **6th** smallest element. **k=6** means **6th** smallest element. 
+
+> Let's **verify** if the **Kth and mth** elements are **same** or not. We are checking if **K == m** or not. If **m and K** both are **same** or not. After checking they both are **same** as **m** is returning the **6th** smallest element and **K** also want the **6th** smallest element. So, **a[m] = 80**, which is the **6th** smallest element and which is the **answer**.
+
+* Simply apply **partition** algo, verify if **m == k** or not. If it is **True** then **stop**. We should return **a[m] or a[k]**, as **m == k**. Until now, **n** times is over. 
+
+* Finding **Kth** element if we follow the **above procedure** then it will take **time complexity** of **O(n)**. It is the **best case**.
+* Time complexity -> **O(n)**
+* If **not matching** then we have to go **either left or right**.
+
+![image](https://user-images.githubusercontent.com/54589605/236711393-51314d47-92c1-4a93-8fc4-f60f60e413ea.png)
+
+* Now, we want **5th** smallest element. 
+
+> After applying partition we got **m=6** but we want **k=5**. The pivot element is the **6th** element but we want **5th**, which is **smaller** than **6th**, that why we go to the **left**. Apply **recursion** on the **left** side.
+
+* Now, we want **8th** smallest element. 
+
+> After applying partition we got **m=6** but we want **k=8**. The pivot element is the **6th** element but we want **8th**, which is **greater** than **6th** so we go to the **right**. Apply **recursion** on the **left** side.
+
+![image](https://user-images.githubusercontent.com/54589605/236711815-ade8a5b8-1066-4d02-9f5f-13dedd64abef.png)
+
+* Example
+
+> We applied **selection procedure** on the total array, which is **sp(1,11)**. After applying partition we got **m=6** but we want **k=8**. The pivot element is the **6th** element but we want **8th**, which is **greater** than **6th** so we go to the **right**. 
+
+> On the right hand side, apply **selection procedure**, which is **sp(7,11)**. After applying partition we got **m=8** but we want **k=8**. The pivot element is the **8th** element and we want **8th** element, so **m == k**. Now return **a[m] or a[k]**.
+
+* It is **similar** to **binary search**, we will do **one side**. 
+* In **binary search** it is **blind division**. 
+* In **selection procedure**, the division is **meaningful division**. Partition means **meaningful division**.
+* In **binary search**, we didn't go **partition** that why it is **blind division**.
+* Calling **selection procedure** means we are calling **partition()** algo.
+* In **selection procedure**, there is **partition()** algo.
+
+![image](https://user-images.githubusercontent.com/54589605/236713149-63c472b9-f6e3-41e1-b92b-ae9efc3facec.png)
+
+* Now, we want **7th** smallest element. **m=8**, so we will go **left**.
+
+> On the left hand side, we got only **one** element which is **7**, so we can't apply **partition**. So we stop. We got **m=7** but we want **k=7**. We have the **7th** element, so **m == k**. Now return **a[m] or a[k]**.
+
+![image](https://user-images.githubusercontent.com/54589605/236713441-78848f42-8aad-4d15-b7f2-6fd2179dd593.png)
+
+* Now, we want **11th** smallest element. **m=8**, so we will go **right**.
+
+> On the right hand side, apply **selection procedure**, which is **sp(9,11)**. After applying partition we got **m=10** but we want **k=11**. The pivot element is the **10th** element and we want **11th** element, so **m != k**. As **m < k**, we go to **right**.
+
+![image](https://user-images.githubusercontent.com/54589605/236713880-4e841c2d-4939-4a38-9ab0-3f100d125257.png)
+
+> On the right hand side, we got only **one** element which is **11**, so we can't apply **partition**. So we stop. We got **m=11** but we want **k=11**. We have the **11th** element, so **m == k**. Now return **a[m] or a[k]**.
+
+![image](https://user-images.githubusercontent.com/54589605/236714080-06a9bac5-754c-4a60-ae2a-f0de0089cacb.png)
+
+* Quick sort and selection procedure are same or not?
+
+1) We will go **both sides** on **quick sort** but in **selection procedure** we only go to **one side**.
+2) In both **quick sort** and **selection procedure**, we use **partition** algo.
+
+![image](https://user-images.githubusercontent.com/54589605/236714310-25492691-c8ec-412c-b0e5-056a46ed1696.png)
+![image](https://user-images.githubusercontent.com/54589605/236714367-78f4fa8b-1731-4e31-b93b-b978d68a319f.png)
+
+* If **m == k**, then stop it. It is **best case**, because we can **stop** in the **middle or in-between** as there is a **return** statement in the **else** part. Partition is over, so it is **n** times.
+
+* **m** is the **position/index** of the pivot element we returned.
+* **k** is the **position/index** of the element we are **finding/want**.
+
+* If **k < m** then we have to go to the **left**.
+* If **k > m** then we have to go to the **right**.
+
+![image](https://user-images.githubusercontent.com/54589605/236714787-fbac3969-bfd0-4a26-91ea-da3d368e5581.png)
+
+* If we are **lucky** then we can stop at the **nth** position.
+* If we are **un-lucky** then we have to go either to the **left or right** of **nth** position.
+* We will go **one** side, either **left** or **right**. Not both.
+
+* Selection procedure on **n** people is **T(n)** time.
+* Selection procedure on **m-1** people is **T(m-p)** time.  
+* Selection procedure on **q** people is **T(q-m)** time.
+
+> For **partition** it is **n**. After **partition** is over, if we are procceding further than **n** then it is **worst case**.
+
+> For **partition** it is **n**. After **partition** is over, we will **stop**. That is **best case**.
+
+* Recurrence Relation for **selection sort worst case**:
+
+* We will go **one side**. Either we will go to **T(m-p)** which is the **left** side or we go to the **right** side which is **T(q-m)**. We are going going to **both**. So, **OR** is there.
+
+* After partition is over, which is **n**, either go **left or right**, don't go **both** and don't write **both** in the recurrence relation.
+
+![image](https://user-images.githubusercontent.com/54589605/236715631-7928a452-d1ac-466c-8d9a-3284c2276694.png)
+![image](https://user-images.githubusercontent.com/54589605/236715782-6621a66e-24aa-42e3-ae8e-1d38448a9d6d.png)
+
+* Selection sort worst case -> **O(n^2)**.
+* Selection sort best case -> **O(n)**.
+
+* We are going **one side**.
+* If we are **lucky** then it is **best partition** which is **n/2**.
+* If we are **un-lucky** then it is the **worst partition** and all the elements(n-1) came to that **one side** only.
+
+![image](https://user-images.githubusercontent.com/54589605/236715992-82605758-d4f7-409b-b203-fe989806969f.png)
+
+* When will the **selection procedure** give **best case**?
+
+> 1)**Best partition** happened.
+
+> 2) If we are **lucky** then we don't have to go **left or right** side, we can stop after **partition** algo over. That is also **best case** for **selection procedure**.
+
+![image](https://user-images.githubusercontent.com/54589605/236716307-103bc6ec-904e-453a-bc84-294f5ffcc2e4.png)
+
+* **Best case** is possible, **two** times. Forget about which partition. If we are **lucky** then **middle** element. Partition algo is **one time**, check **m == k**.
+
+* **Best case** is possible, **two** times.
+
+1) After partition is over, check **m == k** and then **stop**.
+2) If **m == k** failed but **best partition** happened then also, **O(n)** time complexity will come.
+
+![image](https://user-images.githubusercontent.com/54589605/236716756-3daff996-e587-47ab-9352-0656aa6ccd4b.png)
+
+* This is **possible** for **every case(EC)**. 
+
+* Selection procedure **best case** time complexity -> **O(n)**.
+* Selection procedure **average case** time complexity -> **O(n)**.
+* Selection procedure **worst case** time complexity -> **O(n^2)**.
+
+* Selection procedure **worst case** time complexity will come when the **partition** is **worst case** or **worst**.
+* Selection procedure **best case** time complexity will come when:
+
+1) After partition over, check **m == k** and we **stop**.
+2) If **m == k** failed, then we got **best partition** then also **O(n)** possible.
+
+![image](https://user-images.githubusercontent.com/54589605/236717273-81a12857-939e-42bb-b9f9-24a632e30f26.png)
+
+* Same story happened for **quick sort** also.
+* Quick sort **best case**, we go to **both sides** then time complexity -> **O(n * log n)**.
+* Worst case is **same** for both **quick sort and selection procedure**.
+
+* Most of the **time**, **best partition** will happen, so the **best case** of **selection procedure** is also it's **average case**.
+
+![image](https://user-images.githubusercontent.com/54589605/236717580-b2facf7e-100c-4fe4-a562-23a2cfe49c14.png)
+
+* Half **best partition** and half **worst partition** will lead to **average case** which is **best case** only.
+* Exactly like **quick sort**.
+
+* Selection procedure is **like**, **quick sort**.
+
+1) We apply **partition** in both the algos.
+2) In case of **quick sort**, we go to **both** the sides. In case of **selection procedure**, we go **only one** side.
+3) In both, for **best partition**, **best case** will come. For **worst partition**, **worst case** will come.
+
+* Purpose of **selection procedure** -> Finding the **Kth** smallest element in the given array.
+
+![image](https://user-images.githubusercontent.com/54589605/236718208-90fa945b-322b-4c5b-a0c5-68577fe5b7c5.png)
+
+## Counting no. of inversions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
