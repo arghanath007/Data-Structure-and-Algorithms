@@ -5,6 +5,7 @@
 2) Aptitude -> Going on
 3) Digital Logic -> Completed[25th March 2023]  [Do practice question while revision]
 4) COA -> Started
+5) Algorithms-> Going on
 
 ## RoadMap
 
