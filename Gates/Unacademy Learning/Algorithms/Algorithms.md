@@ -2,7 +2,9 @@
 
 ## Course Link
 
-* Link -> https://unacademy.com/course/complete-course-on-algorithm-768/MKL1PBOY
+* Link -> https://unacademy.com/course/complete-course-on-algorithm-768/MKL1PBOY (**COMPLETEd**)
+* Remaining Videos -> https://unacademy.com/course/full-course-on-algorithms/XX14HTSO (Start from **Video 40**, Dynamic Programming-III)
+* Live class playlist -> https://unacademy.com/course/complete-course-on-algorithms-gate/K8EKOMCE
 
 ## Syllabus
 
@@ -7553,26 +7555,2357 @@ A) Infinite loop -> **NO**. Space is **limited**. Not possible.
 
 * Two sorting algos can be combined/merged and asked in the question. What will be the time complexity?
 
-* Start from **45mins**.
+### Fibonacci series type questions [Fibonacci merge sort]
+
+![image](https://user-images.githubusercontent.com/54589605/236353679-548f7c02-a83b-48ae-83b5-4a20563894e7.png)
+
+* **n** elements are there, we want to apply merge sort, time complexity will be?
+
+> **n * log n**. There will be **log n** no. of levels(stack space).
+
+* n=6, then fibonacci value of **n** is **8**.
+* Fibonacci, f(6), of **6** means **8**.
+
+> Fibonacci of **6** elements I have, f(6), means we have **8** elements. Which means the array contains **8** elements.
+
+> Instead of saying "the array contains **8** elements", we can say that the "the array contains Fibonacci of **6** elements elements".
+
+* Fibonacci of **6** -> **8** only.
+
+![image](https://user-images.githubusercontent.com/54589605/236354194-34f28ef1-7d1d-406a-afe0-7858dd696e97.png)
+
+* In normal **merge sort**, we divide elements **50-50** or **equally**. So, **8** elements will be divided **4-4** only.
+* But here, we are **dividing** the **no. of elements** in **fibonacci series** manner. We are not dividing, **8** into **4-4** or **50-50** manner, we are diving into **fibonacci series** manner.
+
+![image](https://user-images.githubusercontent.com/54589605/236354678-7948e8e2-8d50-4f28-8aba-5ff605305448.png)
+
+* **5** elements on the **left** side and **3** elements on the **right** side. So, the total is **5 + 3 -> 8**. There is **no change** in the **combination or merge algo**.
+* In here, for the merge sort, the **divide** procedure changed. **Combine or merge algo** remained the **same**.
+
+![image](https://user-images.githubusercontent.com/54589605/236355010-7636f4f6-ef99-4e01-91d6-189ddbf31c85.png)
+
+* At the end of the day, all elements are moving from one level to another level.
+* **Divide** time is **changing**, because we are dividing using **fibonacci series** manner, instead of **50-50** manner.
+
+![image](https://user-images.githubusercontent.com/54589605/236355201-9fcda1df-4d81-4a2e-bf62-a26c500611cd.png)
+![image](https://user-images.githubusercontent.com/54589605/236355238-2ed1bace-f55c-4615-a907-817147b6231f.png)
+
+> In the above **merge sort**, we are **dividing** by **fibonacci series** manner, that why this **merge sort** is called as **fibonacci merge sort**.
+
+![image](https://user-images.githubusercontent.com/54589605/236355354-6e771201-22d8-4375-ad3d-39d92047017e.png)
+
+* **Fibonacci series** manner, we are **dividing**.
+* Divide only change, combine no-change.
+
+> **f(1) and f(0)** are **small** problems so stop it.
+
+![image](https://user-images.githubusercontent.com/54589605/236355537-461916a4-b8c1-4363-bf94-d5e15330a180.png)
+
+> If we observe the tree clearly, **left side**, we are **substracting one(1)**, every level. **Left most** part. [6->5->4->3->2->1]
+
+> If we observe the tree clearly, **right side**, we are **substracting two(2)**. **Right most** part. [6->4->2->0]
+
+* f(6) or fibonacci of **6** means **6 levels**.
+* If it is f(k) or fibonacci of **k** means **'k' levels**, on the **left most** part. So it is **6** levels.
+* If it is f(k) or fibonacci of **k** means **'k/2' levels**, on the **right most** part. So it is **6/2** levels.
+
+![image](https://user-images.githubusercontent.com/54589605/236356028-3315b9c2-7446-433a-9558-0e67e9dce2ee.png)
+
+* It is an **un-balanced** tree.
+
+> In **normal merge sort**, the no. of levels is **log n**. **Log n** is on **both** the sides. We are always **dividing by 2**.
+> In the above **fibonacci merge sort**, in the **left side** we are **substracting by 1** and on the **right side**, we are **substracting by 2**.
+
+> We are doing **differently** on the left and right sides, so **different heights** are coming. Left height is **6** and right side is **6/2**.
+
+* If it is f(k) or fibonacci of **k**, then the **left height** is **k** levels. As for the **right height**, it is **k/2** levels.
+
+![image](https://user-images.githubusercontent.com/54589605/236356470-57e0da22-384c-47a0-98b4-26e3128bd1ce.png)
+
+* Every level cost is **8**. We can say the **8** as f(6) or fibonacci of **6**.
+* No. of levels -> 6 -> K.
+* Every level cost -> f(6) -> F(K). [f(6) means **8** only. **8** is the **no. of elements** moving from one level to another] 
+* Total time complexity -> 6 * f(6) -> 6 * 8 -> O(K * f(K)).
+
+![image](https://user-images.githubusercontent.com/54589605/236356696-79c82ab1-6717-45cb-b598-e1f81f7c6e6d.png)
+![image](https://user-images.githubusercontent.com/54589605/236356937-8b58f328-5710-497c-b9df-e0272d52821c.png)
+
+> Every level **8** elements are coming. If we observe the **bottom** then **less than 8** elements will come.
+
+> Every level **8** elements are coming, but if we go down, then gaps are there, we are not getting **8**. We will get **less than 8**.
+
+* Even though we are getting **less than 8** as we move down to th bottom, we have take **8**, which means **upper bound**.
+
+![image](https://user-images.githubusercontent.com/54589605/236357117-b345ad0a-0095-4a64-bab6-1c61617ae729.png)
+
+* Upper bound -> O(K * f(K)
+* Lower bound -> Omega((K/2) * f(k)
+* Actual answer -> T(K) 
+* Omega((K/2) * f(k) <= T(K) <= O(K * f(K)
+
+![image](https://user-images.githubusercontent.com/54589605/236357696-4fd35f32-4a91-4fb2-9f84-d606f1926b7d.png)
+
+> As they differ by **constansts** only, we can say **theta** possible.
+
+* Equal or theta bound -> Theta(K * f(k)).
+
+> **Merge(Combine) also** is **same**, **divide** also is **changed** from **50-50** form to **fibonacci series** form.
+
+> **Merge** means **moves** only. So for every level , **merge** is **8** only.
+
+![image](https://user-images.githubusercontent.com/54589605/236358106-53ff5090-a12e-4b32-8bdf-9883548d3664.png)
+![image](https://user-images.githubusercontent.com/54589605/236358361-933a75fe-6513-48ff-b16f-3c506a1655e4.png)
+
+### Problems
+
+* Input -> 2-sorted arrays, 'A' is m-distinct elements and 'B' is n-distinct elements.
+* Output -> Find 'A' Union 'B' and 'A'  intersection 'B'.
+* Time complexity? [Best Algo and worst case]
+
+![image](https://user-images.githubusercontent.com/54589605/236358804-6df6d60f-c27c-4d0c-abca-fd9e00713c7c.png)
+![image](https://user-images.githubusercontent.com/54589605/236358883-ed2b265f-99c5-404b-8030-dace7549f641.png)
+
+Steps:
+
+1) First we are doing **linear search**. 
+
+![image](https://user-images.githubusercontent.com/54589605/236360110-948cb067-28d0-4a77-84d7-e5e8d359a10a.png)
+
+* Linear Search(L) worst case -> n * LS(n) -> n * n -> O(n^2).
+
+![image](https://user-images.githubusercontent.com/54589605/236360214-32cfc807-acb1-496c-b25c-c494d3a965ff.png)
+
+2) Improving linear search by doing **binary search**.
+
+* Binary Search(BS) worst case -> m * BS(n) -> m * log n -> O(m * log n). [If m=n, then we can right O(n * log n)]
+
+![image](https://user-images.githubusercontent.com/54589605/236360434-e9afcb1a-1ed9-4e54-bc3e-ab5182b9f6a4.png)
+
+> We can see that **binary search** is clearly better than **linear search**, so we will use **binary search** to find the **A intersection B**.
+
+> The **searches** wheather they it is **linear or binary** they are applied on the **B** array. It doesn't matter if **A** array is **sorted or not**, as long as **B** array is **sorted**, we can apply **binary** search.
+
+![image](https://user-images.githubusercontent.com/54589605/236361718-0b9ae615-9a5d-4935-b47f-458e1a426419.png)
+
+> If **A** is sorted but **B** is not sorted, then apply **binary** search on **A** and not on **B**.
+
+![image](https://user-images.githubusercontent.com/54589605/236361818-3b8b04ca-a06a-4614-9774-e1a2b0c71fd3.png)
+
+* If atleast any one of the arrays is **sorted**, then **binary** search is possible.
+
+* More than **one** array is **sorted**, then we can try **merge algo**. 
+
+![image](https://user-images.githubusercontent.com/54589605/236362166-cf50b63e-d7c7-45f1-82ae-e9256ae10f01.png)
+
+> If we have **m** element on the left and **n** element on the **right** then we will have exactly **m + n** comparisions.
+
+> If we have **40** on the right and another **40** on the right, like the **above image**, then we have to **take both 40s** because in **merge algo**, it is exactly **m + n**.
+
+> **Merge algo** doesn't bother about repeatation. It is bothered about **m + n** element after merging.
+
+> **Merge algo** means **everything** required.
+
+### Union and Intersection
+
+![image](https://user-images.githubusercontent.com/54589605/236363441-f2a6ad6f-da98-4b13-8252-3e4d9b01705d.png)
+
+* Union -> Different elements.
+* Intersection -> Different elements but common people required.
+
+![image](https://user-images.githubusercontent.com/54589605/236363689-7d1cad3c-f55f-4fbe-9ee2-dd9b5d055d0b.png)
+
+> If we **merge**, 'm' and 'n' elements then it is **m + n**. It is **everytime**.
+
+> Repeatation is allowed in **merge algo**.
+
+![image](https://user-images.githubusercontent.com/54589605/236364203-5aa7a31d-62d5-4e74-a520-ffac6aee4142.png)
+
+> If we have **40** on the right and another **40** on the right, like the **above image**, then we have to **take both 40s** but the **left 40** will come **first** and then the **right 40** will come, because in the **array**, between the **left and right** people, **left** people came **first**.
+
+![image](https://user-images.githubusercontent.com/54589605/236364519-7a69a2f5-aa0b-4db3-9bbb-bb7496ffaa3d.png)
+![image](https://user-images.githubusercontent.com/54589605/236364601-70226a4e-4c47-40d3-bb74-edb91030977f.png)
+![image](https://user-images.githubusercontent.com/54589605/236364709-e8f2e78a-77be-4fde-a8bd-c832acd224f8.png)
+
+* Merge sort is **stable** sorting technique. 
+* **Stable** sorting technique means **repeated element's order** will not change before and after sorting.
+* **Stable** sorting technique is related to **repeatative** people.
+
+![image](https://user-images.githubusercontent.com/54589605/236364903-0119fa61-1764-4d11-a2af-a04f00cbb2e9.png)
+
+* **Stable** sorting technique.
+
+![image](https://user-images.githubusercontent.com/54589605/236364937-19f9ab82-c8a1-4e2a-9c7d-1f191ddcbc5b.png)
+
+* **Not stable** sorting technique.
+
+![image](https://user-images.githubusercontent.com/54589605/236365004-c8c3059b-65e3-418c-a9f5-7d3e32514d9b.png)
+
+* If it doesn't matter then why we would change it.
+
+![image](https://user-images.githubusercontent.com/54589605/236365418-4815f624-eee0-4e34-b739-f6d4593d5e96.png)
+
+3) Using **merge algo**.
+
+### Intersection part
+
+> The **first** element from both the arrays are taken, it is **10 and 5**. Whoever is **smaller**, cancel it or skip it. Don't print it. We want to find out **intersection** and not **everyone**. Print only the **common** things, don't print the others. So we **remove 5**.
+
+> Now we take **10 and 10**. They are **equal**. Print **10** and skip both. Whenever **equal** came, print **once** and skip both. It is **intersection** and not **merge algo**.
+
+> It is **20 and 15**. **15** is **smaller**, so we skip it.
+
+> It is **20 and 20**. They are **equal**. So we print **20** once and skip both.
+
+> It is **30 and 25**. **25** is **smaller**, so we skip it.
+
+> It is **30 and 30**. They are **equal**. So we print **30** once and skip both.
+
+> It is **40 and 35**. **35** is **smaller**, so we skip it.
+
+> It is **40 and 60**. **40** is **smaller**, so we skip it.
+
+> It is **50 and 60**. **50** is **smaller**, so we skip it.
+
+> It is **60 and 60**. They are **equal**. So we print **60** once and skip both.
+
+> It is **70 and 80**. **70** is **smaller**, so we skip it.
+
+> After some point of time, one of the arrays is **over**. **NO**, we will not **continue** as we are finding **intersection/common** elements.
+
+* We are using **merge algo**. We are using with **some change**.
+
+> Compare both, if it is **smaller** then **skip it or don't print it**. If they are **equal**, then **print once** and **skip both of them**, as **intersection** allows only one person.
+
+![image](https://user-images.githubusercontent.com/54589605/236367731-972a63fc-a9d1-4ad8-9fbc-38900e3ec38f.png)
+![image](https://user-images.githubusercontent.com/54589605/236367773-49052b52-ca81-4cd7-941b-3ab1a02f192e.png)
+
+* **Modified merge algo**.
+* Time complexity for **modified merge algo** for **A intersection B** [Worst Case] -> O(m + n) [If m=n, then it is O(2 * n) -> O(n)]
+
+![image](https://user-images.githubusercontent.com/54589605/236368066-d8793afd-6345-4c13-8fb2-0d9a3033a5fc.png)
+![image](https://user-images.githubusercontent.com/54589605/236368147-7f83f7c7-ff30-4f67-9efd-c55436d9cd87.png)
+
+* **Modified merge algo** is the **correct** answer for the **above** question for the **intersection of A and B**.
+
+### Union Part
+
+1) Linear search.
+
+> First take the **A** array elements as it is. For the **B** array elements, first is **5**, before adding **5** to the answer, ask the available people that if **5** is already there or not. If not there, then **add** 5. Do the same for the rest of the elements of **B**. For **10**, as **10** is already present in the **answer** that why we didn't add **10**.
+
+![image](https://user-images.githubusercontent.com/54589605/236369869-d25e66ce-773f-410f-ba51-c3ba9780f373.png)
+
+* **Sorted or not sorted** doesn't matter.
+
+* First take all of the **A** array elements as it is. While writing **B** people, please **check/verify** with the **A people** if they are already there or not. If not there then **add** them otherwise don't **add** them.
+
+* It is called as **linear search**, so it is **n^2**.
+
+2) Binary search is **n * log n**.
+3) Modified Merge algo.
+
+> First take first element from both the arrays. If it is **smaller** then **print it**. **Union** means **everyone required** but **repeatation** not allowed. If it is **equal**, then **print once** and skip both. When one of the **arrays** is over, we will **continue** and **copy** rest of the elements from the **other array** as **everyone required**.
+
+![image](https://user-images.githubusercontent.com/54589605/236370706-752bcf04-a00e-4d19-9794-859ded897ef3.png)
+
+> For **10 and 5**, print **5**.
+
+> For **10 and 8**, print **8**.
+
+> For **10 and 9**, print **9**.
+
+> For **10 and 10**, print **10** once and skip both.
+
+> For **20 and 15**, print **15**.
+
+> For **20 and 20**, print **20** once and skip both.
+
+> For **30 and 50**, print **30**.
+
+> After some point of time, one of the arrays is **over**. **YES**, we will **continue** and **copy** rest of the elements from the **other array** as **everyone required** for findining **union**.
+
+* **Modified merge algo**.
+* Time complexity for **modified merge algo** for **A union B** [Worst Case] -> Theta(m + n) -> Theta(n) [If m=n, then it is Theta(2 * n) -> Theta(n)]
+
+> **Theta** is possible as for **every case** wheather it is **best, worst and average**, we will always get **(m + n)**. 
+
+![image](https://user-images.githubusercontent.com/54589605/236371313-55b18094-996b-4f98-b944-45fc8cf0d380.png)
+![image](https://user-images.githubusercontent.com/54589605/236371411-0beb35ca-78a5-4a0c-8f40-ada6f7dcc8da.png)
+
+* By seeing **two** sorted sub-arrays in the **input**, we got the signal that **merge algo** is possible.
+* Merge sort is **stable**, which means that **repeatative** element's orders, before and after are **same**.
+
+![image](https://user-images.githubusercontent.com/54589605/236371872-d74dcae0-7a3b-4542-b904-f6d790e6179d.png)
+
+* For the **given problem**, to do **union and intersection**, which is the best algo possible?
+
+> **Merge algo** with time complexity of **O(m + n) -> O(n)**.
+
+![image](https://user-images.githubusercontent.com/54589605/236371968-75937e8b-7610-472c-a643-50b79b6364dc.png)
+
+* Same problem, but **not sorted arrays**.
+
+1) Linear search possible.
+
+* Time complexity -> O(n^2)
+
+2) Binary search not possible. To make it possible, first we **sort the arrays**, which will make it **n * log n** and then we apply **binary search**, which will make it another **n * log n**. So the overall. is **O(n * log n)**.
+
+* Time complexity -> **O(2 * (n * log n)) -> O(n * log n)**.
+
+3) Merge sort is not possible. If we want to apply **merge algo**, we need sorted arrays. First we **sort the arrays**, which will make it **n * log n** and then we apply **modified merge algo**, which will make it **n**. So, it is **O(n * log n)**.
+
+* Time complexity -> **O(n + (n * log n)) -> O(n * log n)**.
+
+![image](https://user-images.githubusercontent.com/54589605/236375237-2f6b7448-1dc4-49cf-93b2-ea5184e3bf0d.png)
+![image](https://user-images.githubusercontent.com/54589605/236375281-0dbc157f-79e4-4b58-bf73-423bccb7e4d7.png)
+
+## Quick Sort
+
+1) Merge sort is **stable**. Quick sort is **not stable**. 
+2) Merge sort is **out-place**. Quick sort is **in-place**(Taking max space upto **log n**).
+
+* **In-place** doesn't mean that the algo will not take any extra space. The algo can take up **log n**. If the algo takes upto **log n** or **less than log n** then it is an **in-place** algo.
+* **Out-place** means that the algo will take more extra space. The algo will take more than **log n**. If the algo takes more than **log n** then it is an **out-place** algo.
+
+3) Merge sort time complexity is **O(n * log n)**. Quick sort time complexity is also **O(n * log n)**. As the time complexities are **same** then we will take **space complexity** into consideration. From **point 2**, we can see that quick sort is **in-place** algo and merge sort is **out-place** algo. So, we will take **merge sort** over **quick sort**.
+
+![image](https://user-images.githubusercontent.com/54589605/236376630-ff31a30e-ca52-4345-a84b-c882671cfbda.png)
+
+4) Quick sort is a **practical sorting algorithm**. If we don't need **sorting**, then **quick sort** will not keep quite. If we give a **sorted array** to quick sort then it will take time complexity of **O(n^2)**, which is **more**.
+
+* Quick sort is a **practical sorting algorithm**, which means that if **really needed** then only go to **quick sort**.
+
+* Array maybe sorted or may not be sorted, it is a dilemma/doubt -> Merge sort.
+* Confirmed that the array is **not sorted** -> Quick sort.
+* Array sorted, then which algo we will **not prefer** -> Quick sort.
+* Array almost sorted, then which algo we will **not prefer** -> Quick sort.
+
+> Time complexity is decided by **majority** of the people.
+
+![image](https://user-images.githubusercontent.com/54589605/236377468-3927cbb2-5aa7-430c-ac9f-b31a210281ab.png)
+![image](https://user-images.githubusercontent.com/54589605/236377549-d26ea083-ec59-4d58-b219-6b1fe33dcacd.png)
+
+* Quick sort is **not preferred** but **insertion sort** is **preferred**.
+* Array is **small** -> Insertion sort.
+* Array is **sorted or almost sorted** -> Insertion sort
+
+![image](https://user-images.githubusercontent.com/54589605/236378193-276cef80-3dec-4a43-b000-3293db890f15.png)
+
+* Quick sort is also an application of **Divide and conquor** technique.
+* Both **merge and quick** sort divide the array.
+* Merge sort will **divide blindly**. As it has **divided blindly**, **one mistake** has happened. 
+
+> The mistake is that the **smallest** element is on the **right** side and the **biggest** element is on the **left** side. It should be the **opposite**, the **biggest** element should be on the **right** side and the **smallest** element should be on the **left** side.
+
+> We need **combine** because of the **divide blindly**, there was **one mistake** and to fix/rectify that mistake, we have to do **combine** at the end. 
+
+![image](https://user-images.githubusercontent.com/54589605/236379158-4f16417c-8354-45d8-b96c-d601da3b3199.png)
+
+* The mistake we did when doing **divide blindly**, it has been fixed/rectified by the **combine** only.
+
+> **Blind division** takes **'c' or constant** time. **Combine** take **n + c -> n** time and it is for **one level**. So there are **log n** level, which means **n *  log n -> O(n * log n)** time complexity for merge sort.
+
+![image](https://user-images.githubusercontent.com/54589605/236379555-7444b2e6-9d48-4061-aeaa-83f103e0f14a.png)
+
+> Quick sort will **divide**, **YES**. It is not **divide blindly**, it is **dividing meaningfully**. With respect to **500**, quick sort **divided**. **More from first person(500)** keep on the **right** side. **Less from first person(500)** keep on the **left** side.
+
+* Division in **quick sort**.
+
+![image](https://user-images.githubusercontent.com/54589605/236379840-839f7b2b-08d9-4c4c-a2e6-2e7ceb80175b.png)
+
+> After **division** is over, **left** people sort using **recursion**, **right** people sort using **recursion**. Divide is over, **conquor** is completed, left and right people are **sorted**. Without **combine**, the array is **totally sorted** only.
+
+![image](https://user-images.githubusercontent.com/54589605/236380273-28afb589-103a-49b2-aaee-164e8a771a46.png)
+
+> In quick sort, first we did **meaningful division**, then **left** people sorted, **right** people sorted. Now, we verify if the **total array** is sorted or not.
+
+* If we do **meaningful division**, then no need of **combine**.
+
+![image](https://user-images.githubusercontent.com/54589605/236380497-4fb18826-3e4a-463b-9829-48a71a71c38e.png)
+![image](https://user-images.githubusercontent.com/54589605/236380553-fc059d95-1b50-4858-b9d7-39c5ab7dc5dc.png)
+
+* In **merge sort**, **three** steps are involved which is **divide, conquor, combine**.
+* In **quick sort**, **two** steps are involved which is **divide, conquor**. No need of **combine** step.
+
+![image](https://user-images.githubusercontent.com/54589605/236380640-6ef97f2a-e9cf-4e69-8c1f-073abeba498d.png)
+
+* Merge sort is **careful** at then ending. At the **merge time**, it is **careful**. It is **not careful** at the **divide** time.
+
+* Quick sort is **careful** from **start to end**. While **divide** time only, quick sort is **careful**.
+
+![image](https://user-images.githubusercontent.com/54589605/236381286-2ffd32cb-f2f6-4291-8741-aae99d63f3dc.png)
+
+* Why is **quick sort** "quick"? ["quick" -> Quote and un-quote quick, as in meaning quick, not quick sort].
+
+> It is wasting anything? **NO**. It is **careful** at the **starting only**. **YES**.
+
+> For **merge sort**, it is **careful** at the **ending only**. At the **starting only**, it wasted **something** only. So, it is **OK**, but not "quick".
+
+## Notes
+
+* For **meaningful division** -> **Partition algo** [Divide part of Quick sort]
+* For **meaningful combine** -> **Merge algo** [Combine part of Merge sort]
+* For **searching** -> **Binary searching**.
+* Sorted array -> Binary search.
+* Not sorted array -> Linear search.
+* More than one sorted array -> Merge algo.
+* One array and we want to make it into two parts? -> Partition algo.
+
+![image](https://user-images.githubusercontent.com/54589605/236381855-1da351a9-613f-49ab-b26c-f2efc2bc006a.png)
+
+## DP-VII (31) [5th May 2023]
+
+## Partition Algorithm
+
+* Input -> It is an **array**.
+
+> It can be an **unsorted array**, which will give the **best performance**. If the array is **sorted** then, it will give it's **worst performance**.
+
+* Partition algo contains an array **a** which contains elements from **p(first element index) to q(last element index)**.
+* Output -> It will divide the given array into some **smaller** parts. It will divide meaningfully. 
+
+> Quick sort is the **super-set** of **partition algo**.
+
+* Meaningfully means we have to **ask every person**, which side they want to go, either left or right side. If we want **meaningful division**, then everyone should participate.
+
+* To make **meaningful division**, we have to **ask every person**.
+
+> The purpose of **partition** algo is **dividing** the given array, with respect to **first element**. Select **first element** and compare **other elements** with **first element**. **First element** will ask the **second element**, compared to **first element** is the **second element** smaller or greater.
+
+> If it is **smaller**, then go to the **left** side.
+
+> If it is **greater**, then go to the **right** side.
+
+![image](https://user-images.githubusercontent.com/54589605/236450720-e386569f-be50-4d45-bd0e-7b5a18b10a18.png)
+
+* In-side quick sort, **partition algo** is major. **Partition's** another name is **divide**.
+*  There is **no combine** also.
+
+* The **first element** we have **selectd** and which is compared with rest of the elements is called as **pivot element**.
+
+* In partition algo, what will be the first step? [**Partition algo steps**]
+
+1) Select an element which is called as the **pivot** element. Normally the **first** element in the array is **selected** as the **pivot** element, but we can **select** anyone of the elements.
+2) The **pivot** element will be compared with all the other elements.
+3) When comparing elements with **pivot** element, some elements will be **small** and some elements will be **big**. Accoring to that **swap** them. **Smaller** ones will go to the **left** side, and the **bigger** ones will go to the **right** side. That's the purpose of **swap**.
+
+* Second swap is out of the **for loops**.
+
+![image](https://user-images.githubusercontent.com/54589605/236455434-0059214f-4e85-4d58-92d5-ad7545fb091b.png)
+![image](https://user-images.githubusercontent.com/54589605/236455509-0f58d1b2-e512-43fb-8bce-2469bf84995c.png)
+
+* The purpose of the **second or last swap** is that the **pivot** elements goes to the **middle**.
+* After **partition** algo is done, at the **left** side, **smaller people** are there. In the **middle**, the **pivot** element is there. At the **right** side, the **larger people** are there.
+
+> After **partition** algo is done, the array is broken into **two** parts, **left** side is **smaller** elements, **right** side is **larger** elements and at the **middle** is the **pivot** element.
+
+![image](https://user-images.githubusercontent.com/54589605/236456077-727977cd-0e99-47bd-8565-0c01bb62095a.png)
+
+> The loop is repeating for **n-1** times.
+
+* The time complexity -> Theta(n).
+
+> It is **n** because we have to ask **every person** and for that **one loop** is required.
+
+* In all of the **previous** algos, the **divide** time is always **constant**, because there was **no loops**. In **partition** algo, **loop** is there, so it is **not constant** and it is **n**.
+
+![image](https://user-images.githubusercontent.com/54589605/236456858-a7a6fb96-b7fb-47aa-9ac2-0aa48b0b7e8d.png)
+
+> The **divide** time is **n** is for **every case(EC)** because there is **no breaks or return** statements within the loops. We have to continue **n** times.
+
+* The time complexity of **partition** algo -> Theta(n). [Loop is there for **n-1** times and it is for **every case(EC)**].
+
+![image](https://user-images.githubusercontent.com/54589605/236458104-ff644cd3-129c-4843-bed1-884344e15d07.png)
+
+* The purpose of **partition** algo is that we have to **ask everyone** and why we want to do **meaningful division**.
+
+> **Partition** algo compulsorily needs **one loop**, because we are **asking everyone**.
+
+![image](https://user-images.githubusercontent.com/54589605/236461089-a0b121c3-6dd6-4dc5-82a6-10af44a560ca.png)
+
+> Whichever element we have take as **pivot**, keep **i** also.
+
+> From **j** position, the comparisions between **pivot(x)** and the other elements will start.
+
+* 'P' is the **first** element index
+* 'Q' is the **last** element index
+* 'x' is the **pivot** element
+* 'i' is for the for loop
+* 'j' is for the comparision elements.
+
+> We cannot change **P and q** as they are **first and last index** of elements
+
+> We can change **i and j** as they are normal variables.
+
+> We can algo is running **P and Q** will **not change** but **i and j** will **change**.
+
+![image](https://user-images.githubusercontent.com/54589605/236462739-c80d931b-91a4-4a9d-b7ff-1c50c6062869.png)
+
+> Left side is **i** and right side is **j**. Whenever **partitionon** is going on and at the **end**, we want **smaller** elements to the **left** and **larger** elements to the **right**. It means that **i** is expecting **smaller** people and for **j** we are expecting **larger** people.
+
+> Intially between **i and j**, both want to **move**. The final compromise is that **j** only will **move**. So, **j** will take the **larger** ones and give the **smaller** ones to **i**. So, finally **j** is moving, as the loop is on **j** only.
+
+![image](https://user-images.githubusercontent.com/54589605/236464568-02c23d90-84bf-4d3b-86ff-9b59d651e295.png)
+
+* **i** is expecting **smaller** elements and **j** is expecting **larger** elements. Wherever **greater**, **j** will take. Wherever **smaller**, **i** will take.
+
+* We don't have to worry that much about **P and Q** they are **fixed**.
+
+> **J** will start from **2nd** place. **J=2** and **a[j] = 150**. Everytime, we have to **compare** with **pivot(80)**. **150** is greater than **pivot**? **YES**. As it is **greater** than **pivot** and **j** wanted **greater** so, **j** will **increment/move to the right**.
+
+![image](https://user-images.githubusercontent.com/54589605/236478653-ccb1c52a-3329-4820-b1b6-47927da20f38.png)
+![image](https://user-images.githubusercontent.com/54589605/236478865-dc9fac16-849f-4fe0-a7aa-7cfa2eb2f39e.png)
+
+> **J=3** and **a[j] = 200**. Everytime, we have to **compare** with **pivot**. **200** is greater than **pivot(80)**? **YES**. As it is **greater** than **pivot** and **j** wanted **greater** so, **j** will **increment/move to the right**.
+
+> **J=4** and **a[j] = 70**. Everytime, we have to **compare** with **pivot**. **70** is greater than **pivot(80)**? **NO**. As it is **lesser** than **pivot** and **j** wanted **greater** but got **lesser** so, **j** will **stop/wait**. **J** will say to **i**, he found **lesser**. So, now **i** will **increment/move to the right**. So **exchange/swap** both **a[i] and a[j]**. After **swap** is over, now **j** will **increment/move to the right**.
+
+> **J=5** and **a[j] = 30**. Everytime, we have to **compare** with **pivot**. **30** is greater than **pivot(80)**? **NO**. As it is **lesser** than **pivot** and **j** wanted **greater** but got **lesser** so, **j** will **stop/wait**. So, now **i** will **increment/move to the right**. Now, swaps happens between **a[i] and a[j]**. After **swap** is over, now **j** will **increment/move to the right**.
+
+![image](https://user-images.githubusercontent.com/54589605/236481615-8663e02d-ba0a-4ebb-9112-a21f3191ceda.png)
+
+> **J=5** and **a[j] = 30**. Everytime, we have to **compare** with **pivot**. **30** is greater than **pivot(80)**? **NO**. As it is **lesser** than **pivot** and **j** wanted **greater** but got **lesser** so, **j** will **stop/wait**. So, now **i** will **increment/move to the right**. Now, swaps happens between **a[i] and a[j]**. After **swap** is over, now **j** will **increment/move to the right**.
+
+> **J=6** and **a[j] = 250**. Everytime, we have to **compare** with **pivot**. **250** is greater than **pivot(80)**? **YES**. As it is **greater** than **pivot** and **j** wanted **greater** so, **j** will **increment/move to the right**. 
+
+> **J=7** and **a[j] = 75**. Everytime, we have to **compare** with **pivot**. **75** is greater than **pivot(80)**? **NO**. As it is **lesser** than **pivot** and **j** wanted **greater** but got **lesser** so, **j** will **stop/wait**. So, now **i** will **increment/move to the right**. Now, swaps happens between **a[i] and a[j]**. After **swap** is over, now **j** will **increment/move to the right**.
+
+![image](https://user-images.githubusercontent.com/54589605/236482847-897f06b4-57c4-4e89-a640-ac4795c41bdf.png)
+
+> **J=8** and **a[j] = 45**. Everytime, we have to **compare** with **pivot**. **45** is greater than **pivot(80)**? **NO**. As it is **lesser** than **pivot** and **j** wanted **greater** but got **lesser** so, **j** will **stop/wait**. So, now **i** will **increment/move to the right**. Now, swaps happens between **a[i] and a[j]**. After **swap** is over, now **j** will **increment/move to the right**.
+
+> **J=9** and **a[j] = 180**. Everytime, we have to **compare** with **pivot**. **180** is greater than **pivot(80)**? **YES**. As it is **greater** than **pivot** and **j** wanted **greater** so, **j** will **increment/move to the right**. 
+
+![image](https://user-images.githubusercontent.com/54589605/236483075-02d6b441-a078-4365-b912-4d28218f68df.png)
+
+> **J=10** and **a[j] = 90**. Everytime, we have to **compare** with **pivot**. **90** is greater than **pivot(80)**? **YES**. As it is **greater** than **pivot** and **j** wanted **greater** so, **j** will **increment/move to the right**. 
+
+![image](https://user-images.githubusercontent.com/54589605/236483219-de583818-d87a-41d3-b06b-dfcab4073caa.png)
+
+> Total array is over, means **for loop** over. **J** crosses, **q**.
+
+> When we are out of the **for loop**, all elements are **completed**.
+
+> After array is **over**, first element is **pivot**. **I** is incremented **4** times. **I** will be incremented by **1** if **small** elements came.
+
+> **I=5** means, **4** times we have **incremented**, which means **4** small people are there.
+
+> Comparing with pivot element, the **4** elements are **smaller**.
+
+> At the end of the **for loop**, **i** is there at the **5th** place. **2nd to 5th** are **small**. Wherever **i** is there, until that place, **small** people are there.
+
+> After **i** remaining people are **greater**.
+
+* First element is **pivot**.
+* Until **i**, they are **small**.
+* After **i**, they are **big**.
+
+![image](https://user-images.githubusercontent.com/54589605/236485636-6dca46dc-c8c9-4d90-8937-fe3198341d97.png)
+
+* If **small** comes then we enter into the **if** statement. If **small** comes, then the first thing we do is we **increment i**. 
+* We have to continue until the array is over, we have to **ask everyone**.
+
+* After **i** all remaining things are **greater**. Wherever **i** is there, until that place, **small** people are there.
+
+![image](https://user-images.githubusercontent.com/54589605/236474872-45b9aa7c-3a32-4f15-963c-88bd7eda8111.png)
+
+> First element is **pivot** element. Until **i**, elements are **small**. After **i**, elements are **big**.
+
+* Until which place **small**?
+
+> **i**.
+
+* Where is the last **small** element?
+
+> At **i**.
+
+* Where is the first **smallest** element?
+
+> After **P**, which is **P + 1**. **P + 1** is the first **smallest** element.
+
+* What is **i** as of now?
+
+> 5th position. a[i] = 45
+
+* At what index is the last **smallest** element there?
+
+> **ith** index.
+
+> At the end of the **for loop**, last smallest element is there at the **ith** place, where **i=5** and **a[i]=45** and a[P]=80. So, **a[i] and a[P]** are **swaped**. Pivot element will go to **ith** place  and **ith** place element will go to **pivot** element.  
+
+* It shows that **pivot** element is going to the **middel**.
+
+* What is **partition** algo doing?
+
+> At the end of the **partition** algo, it will divide the array into **two** parts.
+
+* Before pivot on the left side are **smaller** and on the **right** are **larger**.
+* **Partition** algo will **divide** the array only and not sort.
+
+* Total array is not **soted** but the **pivot** element is sorted.
+* After **partition algo** over, only **pivot** element is sorted.
+* Left and right people ordering is not perfect. Left and right people are nor **sorted**.
+* After **partition algo** over, **pivot** element when to it's correct place, it means that **pivot** element is  sorted.
+* Left and right position elements will change.
+ 
+![image](https://user-images.githubusercontent.com/54589605/236489639-64995884-2d0a-41d9-bd9e-4ff09b8cfa35.png)
+
+* After **partition algo** over, how many elements are **sorted**?
+
+> **Pivot** element is only sorted.
+
+![image](https://user-images.githubusercontent.com/54589605/236491080-da4ef7bd-e9b2-4011-a664-92317e96f2ff.png)
+
+* **Only one** scan required to get all the work done.
+* After **partition algo or for loop over**, **pivot** is at the **first place**. 
+* After, **second swap statement, is over, **pivot** is at the **middle place**. 
+
+![image](https://user-images.githubusercontent.com/54589605/236492339-41c5955f-6683-4e06-b3b3-3c5f1dc0eb15.png)
+
+* **Pivot** will also return the position.
+
+![image](https://user-images.githubusercontent.com/54589605/236492857-d9dbcd72-299a-4b5b-bc9c-d8e53aea9da8.png)
+
+> when we go inside the **if condition**, then only **i** is increased. We go to **if condition** when **small** coming.
+
+> **J** will increase everytime.
+
+> When **big** coming, we will go outside of **if condition**, which means **j= j+1**.
+
+* **i** will increment when **small** coming.
+* **j** will increment everytime/always.
+
+* By default, the pivot element is the  First element.
+
+![image](https://user-images.githubusercontent.com/54589605/236497689-af4a0de0-cd54-4a66-be35-0a71e64823aa.png)
+
+> On the given array if we do **partition**, then the array is **divided** into **two** parts.
+
+* Time complexity of **partition** algo -> O(n).
+
+![image](https://user-images.githubusercontent.com/54589605/236497972-782b30e3-c200-4361-af3b-6ed3634690d0.png)
+
+> Quick sort algo on **10** people. Inside quick sort, we will apply **partition** algo. First we will apply **partition** algo and it will take **n** time. **Partition** algo divided the array. On the **left** side, apply **quick sort**. On the **right** side also, apply **quick sort**.
+
+![image](https://user-images.githubusercontent.com/54589605/236498614-2cd70c39-4139-4a40-91d1-29fd6268b7e7.png)
+![image](https://user-images.githubusercontent.com/54589605/236498936-fa192b84-a226-4d09-a718-1812d6e42aae.png)
+
+* Big sorting equals to **small sortings**. Big quick sort equals to smaller quick sorts.
+* Inside, quick sort, **partition** algo is there.
+
+* After **partition algo** over, only **pivot** element is **sorted**.
+
+> If the **pivot** is **5** then **1 to 4** should be sorted.
+
+> If the **pivot** is **5** then **6 to 10** should be sorted.
+
+> By seeing the **5** we can tell how many are the **left** side people and how many are the **right** side people.
+
+> If **pivot** element position is not returned then we cannot say  how many are the **left** side people and how many are the **right** side people.
+
+![image](https://user-images.githubusercontent.com/54589605/236500645-cf96455d-5c42-4800-80dc-f39f5a3b4280.png)
+![image](https://user-images.githubusercontent.com/54589605/236519612-e7c20eaa-836b-4209-b44a-4b4192df0da5.png)
+![image](https://user-images.githubusercontent.com/54589605/236519859-32eb3e1b-9e6b-4561-9063-f3bf5dd9ac4f.png)
+
+* In the **if condition**, **less than and equal too**, so the **small** and the **equals** also come inside.
+* If **small** coming then **increment i**, if **equal** coming then also **increment i**. Now, **swap**.
+
+![image](https://user-images.githubusercontent.com/54589605/236520256-28bcca8b-c5a2-4acd-968e-6caa678bf79a.png)
+
+> For loop is over. There are **three** parts. **Pivot element**, the **smaller or equal** elements are there, until **i** and the **bigger** elements are there from greater than **i**.
+
+![image](https://user-images.githubusercontent.com/54589605/236520625-3a6b660b-df59-4689-80f0-eb18039401e4.png)
+
+> We want **pivot** at the **middle** place. The last **small or equal** element is **i**. **Small and equal** also, we are swapping.
+
+* Left side is not **only smaller** but **equal** also. For both we are **swapping**. Left side is **smaller or equal too**.
+* Right side is **greater**.
+
+![image](https://user-images.githubusercontent.com/54589605/236584205-986cdda9-182d-419a-b3bc-7c7df4b90bdf.png)
+
+* Repeatative element's position is **changing**, that's the reason why **quick sort** is not **stable**. Unnecessarily swapping the position of repeatative elements.
+
+> After swapping is over, quick sort will return the position of **i** which is **6** here.
+
+![image](https://user-images.githubusercontent.com/54589605/236521884-81bde18e-ac34-449e-84e8-13a6d920fa05.png)
+![image](https://user-images.githubusercontent.com/54589605/236584524-c42fd2ba-18a9-404b-820f-a5b10d864fa1.png)
+
+> Don't worry about **a,b and c**.
+
+> Before doing **partition**, **70a** was at the **first place**. 
+
+> After **partition** over, **70a** went to the **6th place**.
+
+> **6th place** person came to the **first place**.
+
+* Repetative element's position in the quick sort, before and after sorting may change or may not change.  
+* In merge sort, it never changes
+* In Quick sort, it may change or may not change. Once fail means fail only, that's the reason **quick sort** is not **stable**. 
+
+![image](https://user-images.githubusercontent.com/54589605/236584872-c6439ce7-f9d7-4397-9f19-e19247afd87d.png)
+
+> After **partition** algo is over, the **pivot** element is only sorted. The position of the **pivot** element will not change.
+
+* Time Complexity of **partition** algo -> O(n)
+
+> Left and right people sorting will be taken care of by **conquor** using recursion.
+
+> Because of **partition** algo **middle or pivot** element is sorted. Left and right element are sorted using **conquor**.
+
+> All of the them, **left, middle or pivot and right** are sorted. So no need of **combine**.
+
+* Just do **partition** algo **middle or pivot** element is sorted. Use **conquor** to sort the left and right element. So no need of **combine**.
+
+> No need of **combine** because left people are not interested to go to the **right** side.
+
+> No need of **combine** because right people are not interested to go to the **left** side.
+
+> Left and right solving/sorting takes **T(n/2)** time individually. So the total is **2 * T(n/2)**.
+
+* Recurrence relation -> 2 * T(n/2) +  n 
+
+> By using master's theorem we will get **O(n * log n)**.
+
+> We are solving **both** the sides.
+
+![image](https://user-images.githubusercontent.com/54589605/236585705-b875fc5e-519e-4604-8b32-ac641d4b97b8.png)
+
+### Example 3 of quick sort
+
+![image](https://user-images.githubusercontent.com/54589605/236585841-1dcba6e5-56fb-4427-abe5-3c6aa50cc468.png)
+![image](https://user-images.githubusercontent.com/54589605/236585976-c854560a-225b-49b8-9516-87c3ae17e1b7.png)
+
+> After for loop over, array is divided into **3** parts.
+
+![image](https://user-images.githubusercontent.com/54589605/236586013-3f319f25-cf6e-4c69-b4a0-9ae9a7f790f2.png)
+
+* **i** is the last small element.
+
+* The **partition algo** will return **7** as it is the **middle/pivot** element.
+
+> **Less than and equal too** pivot is on the **left** side. **Greater than** pivot is on the **right** side.
+
+* **Partition algo** time is **O(n)** is for **every case(EC)**.
+* **One time partition**, one element is sorted.
+
+![image](https://user-images.githubusercontent.com/54589605/236586320-e5b1a8fc-8031-4a79-a593-a9de8615f6d1.png)
+
+* Binary tree is coming.
+
+> The **no. of levels** in the tree is **log n**. 
+
+> Every level cost is partition time only which is **O(n)** time.
+
+* Whenever a **quick sort** algo is running, we will call **partition** algo again and again. Quick sort is recursion, so for every quick sort there is a **partition** algo called.
+* Many time quick sort is called, **partition** algo is also called many times.
+* **Quick sort** algo is running means inside also **partition** algo is running many time.
+
+> If **Quick sort** algo is called **50** times then,
+
+* Every function call of **quick sort** algo is **one partition**.
+* As many times we have called **quick sort** that many times **partition** occurs.
+* One time quick sort, **one time partition**.
+
+> Top level quick sort is **one partition**, left side quick sort is **one partition**, right side quick sort is also **one partition**.
+
+* Quick sort is a **recursive program**, so if quick sort is called many times then **partition** algo will also be called many times.
+
+* If quick sort is many times, then partition is also many times. Every partition needed **pivot** element selection.
+* When we say **partition is applied** which means **pivot** element is selected.
+
+![image](https://user-images.githubusercontent.com/54589605/236587363-91e85f1d-f99c-4271-b557-01a1dcfaefd4.png)
+
+* How many times **partition** those many times, **pivot** element is selected.
+* Quick sort is running many time, partition is running many time, which means **pivot** selection is also going on **many time**. Everytime, we are selecting the **first** element.
+
+> * Quick sort is running many time, partition is running many time, which means **pivot** selection is also going on **many time**. Everytime, we are selecting the **any** element we want, generally people select the **first** element. We can select **any element**.
+
+> Everytime we have the **middle** element, that is also **quick sort**.
+
+> Everytime we have the **first** element, that is also **quick sort**.
+
+> Everytime we have the **last** element, that is also **quick sort**.
+
+> First time quick sort, in the **partition** we take the **middle** element as the **pivot**. Second time, we will take the **middle** element as the pivot. Third time we took the **last** element as pivot. 
+
+> Pivot selection we keep changing. Whenever recursion going on and in every recursive call, partition comes and in every partition, pivot required. Sometimes we will select **first** element as pivot, sometimes we will select the **last** element as pivot and sometimes we will select the **middle* element also. Then also **quick sort** works and it is called as **randomized quick sort**.
+
+> **Randomized quick sort** means that we are **randomly** changing the **pivot** element selection. Every recursive call, we are taking some **random** element as **pivot** element.
+
+* If we change **randomly**, performance will **increase** or not?
+
+![image](https://user-images.githubusercontent.com/54589605/236588701-a5f7e823-1685-475d-8108-26046d010805.png)
+
+> Better to have **more than one** possibility.
+
+> If **same** possibility, then there is higher change of **death**, as all **enemies** will be at the **same** place.
 
 
+* Quick sort performance will increase for **normal quick sort** or **randomized quick sort**?
 
+> **Randomized quick sort** performance will **improve**.
 
+![image](https://user-images.githubusercontent.com/54589605/236588930-ac10c250-f27a-4aca-af9f-8259455103be.png)
 
+* Selecting pivot element randomly is known as **randomized quick sort**.
+* In **Randomized quick sort**, **performance** of the **quick sort** will **improve**.
 
+> Wheather we take **first, last, middle or any other element**, as the **pivot**, it doesn't matter, **pivot** element will go to it's **correct** place.
 
+> We can take whatever we want as **pivot**, it is **same** only.
 
+* Inside, quick sort, we have **partition** algo.
 
+![image](https://user-images.githubusercontent.com/54589605/236589149-8aeeafcc-3ea7-4437-b167-b8660e4ae984.png)
 
+> When we come to the **else** part, problem is **big**.
 
+![image](https://user-images.githubusercontent.com/54589605/236589303-af053261-9bea-4b5b-a1c9-64c96843b0e0.png)
+![image](https://user-images.githubusercontent.com/54589605/236589235-f75a7959-bf36-48a0-8302-9ca9221e50ed.png)
 
+> At the end of the **partition** algo, the **pivot** element will go to it's **correct** place. It will return the **pivot** element position. The position **partition** returned is stored in **m** variable. **Pivot** element is there at the **m** position.
 
+> **mth** element is already **sorted**.
 
+![image](https://user-images.githubusercontent.com/54589605/236589486-a77002ec-901a-4af0-ac08-60e21da4ef04.png)
 
+* Because of **partition** algo, middle element is **sorted**. 
+* Because of **left side quick sort recursive** call, left elements are **sorted**. 
+* Because of **right side quick sort recursive** call, right elements are **sorted**. 
 
+> Everyone is **sorted**.
 
+![image](https://user-images.githubusercontent.com/54589605/236589569-cd405c36-7e17-4cee-a6f8-63bcea5f57c3.png)
+
+* All are there in the **same** array, as it is **in-place**. Now simply return the array(a).
+
+![image](https://user-images.githubusercontent.com/54589605/236589612-5f66c7ad-cbea-4367-ba5d-9cc255b62abe.png)
+
+### Doubt
+
+![image](https://user-images.githubusercontent.com/54589605/236589680-6e714595-2bf9-48ab-a391-b3e86f21fb54.png)
+
+## Recursion-II (32) [6th May 2023]
+
+![image](https://user-images.githubusercontent.com/54589605/236602353-75deaa3d-eef0-4de7-9eb5-5ab165fc914b.png)
+
+* After completion of the above code, who is sorted?
+
+> The element we have choosen as **pivot** is **sorted**. The element at the **mth** position is already **sorted**. **m** is the index of the **pivot** element after keeping it at the **correct/sorted** place, means element at the **mth** place is already sorted.
+
+![image](https://user-images.githubusercontent.com/54589605/236602734-e6593ceb-9aa8-489c-b568-c70d9d57cf58.png)
+
+* Qs(a, P, m-1) -> Left side elements, before **m**, **P to (m-1)** elements we should sort.
+* Qs(a, m+1, q) -> Right side elements, after **m**, **(m+1) + q** elements we should sort.
+
+![image](https://user-images.githubusercontent.com/54589605/236602860-0560bfc4-94ba-4ecd-b9fa-12a6c2134c4e.png)
+![image](https://user-images.githubusercontent.com/54589605/236602919-d33b3fe1-8d44-4587-9e80-8638c192fb04.png)
+
+* Time complexity for **quick sort** of **n** elements is **T(n)**. **n = (q - p + 1)**. That is the value of **n**.
+
+![image](https://user-images.githubusercontent.com/54589605/236603070-73a8a1f9-049d-49a7-a8ec-8b041018c024.png)
+
+* For the whole quick sort algo, it is **T(n)** -> T(q-p-1).
+* In the **if** part as there are **no loops**, so it is **constant or O(1)**.
+* We know that **partition algo** takes **n** times as there is **one loop**.
+* For the first recursive call, it is -> T(m-1-p+1) -> **T(m-p)**.
+* For the second recursive call, it is -> T(q-(m+1)+1) -> T(q-m-1+1) -> **T(q-m)**.
+
+> If we take **110** as the pivot element. It went to exact the **middle**.
+
+![image](https://user-images.githubusercontent.com/54589605/236603984-26eb8701-3cbc-4d19-bc76-c9520968aa5b.png)
+
+> If we take **70** which is the **first** element as **pivot**. All of the elements went to the **left** side as they were all **smaller** than **70** and none of them went to the **right** side, as none of them were **greater/bigger** than **70** so the **right** side is **empty**.
+
+* In which position, did the pivot element(70) go?
+
+> It went to the **last** position.
+
+![image](https://user-images.githubusercontent.com/54589605/236604635-d7fe8094-47e2-439c-b4a8-f283b9ec650c.png)
+![image](https://user-images.githubusercontent.com/54589605/236605133-e370b737-9884-42d9-b200-9f0b8634e42d.png)
+
+> If we take **20** as the pivot element. If not all but most of the elements went to the **right** side as they were all **greater/bigger** than **20** and only **10** went to the **left** side, as **10** is **smaller** than **20** so the **left** side has **only one element**.
+
+* In which position, did the pivot element(70) go?
+
+> It went to the **second** position/place.
+
+![image](https://user-images.githubusercontent.com/54589605/236605865-e2844b55-844b-4128-a1e3-855023ec2a98.png)
+
+> After **partition** algo is over, pivot element will go **exactly to the middle**, we cannot give any **gurantee**.
+
+* It can go **anywhere**.
+
+![image](https://user-images.githubusercontent.com/54589605/236605939-8468f6a3-4071-4c4c-bdc5-c0b63ee35d30.png)
+
+> If we are **lucky** then it will go exactly to the **middle**.
+
+> If we are **unlucky**, then it will go in the **extreme** direction of the **left or the right** side.
+
+![image](https://user-images.githubusercontent.com/54589605/236606115-66681946-2784-4564-8636-e2841750d664.png)
+
+> We cannot give gurantee that the **recursive** call will go to the **half/middle**. That's why we cannot write **T(n/2)**.
+
+* There is **no gurantee** that it will always be **half/middle**. 
+* Sometimes it is possible that we will get **T(n/2)**.
+
+* Between T(m-p) and T(n/2), which is always correct?
+
+> The first one which is **T(m-p)** is **always correct**.
+
+![image](https://user-images.githubusercontent.com/54589605/236606315-250384cf-dfbb-4b38-b912-721eaf1cd6a8.png)
+
+* **T(m-p) and T(q-m)** are **exact** values.
+
+![image](https://user-images.githubusercontent.com/54589605/236606436-3caae433-d26b-4723-9f9d-06aabc58761d.png)
+![image](https://user-images.githubusercontent.com/54589605/236606446-d6a244c1-4c53-4215-8675-2e059a32dce6.png)
+
+* In **partition** algo, **(n-1)** is asymptotically **equal** to **n** only.
+
+### Quick sort problem
+
+![image](https://user-images.githubusercontent.com/54589605/236607341-24d6ede2-f51a-4f6f-beb2-1cda32b568a9.png)
+
+* Let **T(n)** be the time complexity of the above algorithm(Quick sort).
+* If we are **lucky** which means **Best case**.
+* If we are **un-lucky** which means **worst case**.
+
+#### Best Case(Lucky)
+
+> If we are lucky, then **n** is for **partition** algo. We will also get **50-50** divide, which means it will be **T(n/2) + T(n/2) -> 2 * T(n/2)**.
+
+* T(n) -> 2 * T(n/2) + n.
+
+> Solved using **substitution method**, we will get **O(n * log n)**.
+
+* T(n) -> 2 * T(n/2) + n -> **O(n * log n)**. [**Best Case**]
+
+* This is the **recurrence relation** for **best case time complexity** of **quick sort**.
+
+> **50-50** is the **balanced behaviour**. Life will be **lucky** if we have **balanced behaviour**.
+
+![image](https://user-images.githubusercontent.com/54589605/236607861-7b140529-8d31-45d5-9896-f31f03558338.png)
+
+* Equal priority. Body requires everything.
+
+![image](https://user-images.githubusercontent.com/54589605/236607947-602a93f8-8c97-4de7-a4dc-bd8454c98b42.png)
+
+* Don't eat like **PIG**.
+
+#### Worst Case(Un-lucky)
+
+> First apply **partition** algo which is **n**. After applying **partition** algo, if we are **un-lucky** then all of the elements except the **pivot** element will go to **one side** wheather it is **left or right** side. After **partition** algo is over, **pivot** element went to the **correct** place. Remaining elements are **(n-1)**.
+
+> All(n-1) will go to **one side**, other side, no one.
+
+![image](https://user-images.githubusercontent.com/54589605/236608359-35aad3c3-1ab7-4d38-b1ae-a75d6eb85b2f.png)
+
+> After **partition** algo is over, **pivot** element went to the **correct** place. Remaining is **n-1** elements, all of the **n-1** elements that are left out, they will go to **one side**, other side, no one.
+
+* This is **un-balanced** behaviour.
+
+![image](https://user-images.githubusercontent.com/54589605/236608467-81699633-132b-4c79-999a-4d727119ee0e.png)
+
+* T(n) = n + T(n-1) + T(0)
+* T(n) = T(n-1) + n + 1
+* T(n) = T(n-1) + n
+
+> After doing **substitution method**, we got **O(n^2)**, which is the **worst case**.
+
+* T(n) = T(n-1) + n -> **O(n^2)** [**Worst case**]
+
+* This is the **recurrence relation** for **worst case time complexity** of **quick sort**. 
+
+![image](https://user-images.githubusercontent.com/54589605/236608562-dc5aa47f-ce6b-4daf-a49a-2be1495ce567.png)
+
+* Quick sort will give **worst case** performance if **partition algo** behave **best way or worst way**?
+
+> **Worst Way**. Worst Way means **un-balanced** behaviour. It is recursion, so **partition** algo behaving like this all of the time. Everytime it is **un-balanced** partition.
+
+> When quick sort is going on, **partition** algo runs many time.
+
+* Quick sort will give **worst case behaviour/performance** if **partition** algo behaves like **worst way** everytime.
+* Quick sort will give **best case behaviour/performance** if **partition** algo behaves like **best way** everytime.
+
+![image](https://user-images.githubusercontent.com/54589605/236608757-7ed04537-40fc-4927-994e-b15b081e27b8.png)
+![image](https://user-images.githubusercontent.com/54589605/236619436-198c21db-2b2c-4e48-981d-6657d046fe7d.png)
+
+* Merge sort is similar to **quick sort's**, best case.
+* Merge sort is always **50-50**.
+* Merge sort having **only one varition** which is **50-50** to find the **middle** element.
+
+![image](https://user-images.githubusercontent.com/54589605/236628622-1836259d-5b4f-4c0a-9950-f139d9699ff7.png)
+![image](https://user-images.githubusercontent.com/54589605/236628722-8cd64172-b166-4c7d-8a8a-08e7701c4e3e.png)
+
+* Quick sort **worst case** is giving **unbalanced tree**. The no. of levels is **n**, as **only one element** is going.
+* Quick sort **best case** is giving **balanced tree**.
+
+* Quick sort **best case** time complexity -> O(n * log n).
+
+> The recurrence relation is **50-50**, after partition it is **50-50**, which is **2 * T(n/2)**.
+
+* Quick sort **worst case** time complexity -> O(n * 2).
+
+> After partition, all of the **n-1** elements will go to **one side** and the other side is **empty**. So, it is **T(n-1)**.
+
+* Recurrence relation for quick sort best case time complexity?
+
+> 2 * T(n/2) + n. Because it is **50-50**.
+
+* Recurrence relation for quick sort worst case time complexity?
+
+> T(n-1) + n. Because all the elements go to **one side**.
+
+> Quick sort's worst behaviour is **n^2** and it will come when **partition** algo is at it's **worst case** and behaving like **un-balanced**.
+
+![image](https://user-images.githubusercontent.com/54589605/236629141-0f076cb6-929c-4932-a4e1-c31b6587bf37.png)
+
+* Left side is **balanced behaviour**.
+* Right side is **un-balanced behaviour**.
+
+* Balanced or un-balanced which will happen **more**?
+
+> Balanced.
+
+* Balanced happens **more** that's why the **best case** for quick sort is the **average** case also.
+
+* Quick sort **best case** time complexity -> O(n * log n). **Balanced behaviour**.
+* Quick sort **average case** time complexity -> O(n * log n).
+* Quick sort **worst case** time complexity -> O(n * 2). **Un-balanced behaviour**.
+
+![image](https://user-images.githubusercontent.com/54589605/236629757-9ae3b47a-3bc9-464a-802e-f06601921955.png)
+![image](https://user-images.githubusercontent.com/54589605/236629923-7bf16a74-3e3e-4c29-b41b-723d700aa442.png)
+![image](https://user-images.githubusercontent.com/54589605/236630000-bf14471a-65f6-4b37-83b4-ef4b41d00b58.png)
+
+* The above **recurrence relation** for quick sort is for **every case**.
+* Quick sort **best case**, stack size -> **log n**.
+* Quick sort **worst case**, stack size -> **n**.
+
+> In  Quick sort **worst case**, the stack size is more than **log n** and it is actual **n**. So it will be **out-place**.
+
+* Quick sort is **in-place**. The **recursive** program is converted into a **better way**, something like **non-recursion**. 
+* Time complexities are **same** only.
+* Best case, stack space -> O(1)
+* Worst case, stack space -> O(log n).
+
+> Using better programming, stack space will be **decreased** to **bast case** which is **O(1)**. Because of that reason, **quick sort** is **in-place**.
+
+![image](https://user-images.githubusercontent.com/54589605/236630667-76e9d51e-b335-410a-bc70-aa2ea8276fb7.png)
+![image](https://user-images.githubusercontent.com/54589605/236630762-acd07851-e619-444a-a360-5f9741cb1236.png)
+
+* It is for **modified** program. [**NOT NEEDED**]
+
+![image](https://user-images.githubusercontent.com/54589605/236631119-2f04f4d7-de78-4da7-8661-b92c907bdae3.png)
+
+* For the **Recursive** program.
+* Best case, stack space -> O(log n).
+* Worst case, stack space -> O(n).
+
+* Even though **worst case** stack space is **n** for quick sort, then also it is **in-place** why?
+
+> We can save the space by using **non-recursive** programs.
+
+![image](https://user-images.githubusercontent.com/54589605/236631292-257df664-9c92-4bec-b20b-38cd4881dbe4.png)
+
+* Quick sort **best case** time complexity -> o(n * log n)
+* Quick sort **average case** time complexity -> o(n * log n)
+* Quick sort **worst case** time complexity -> o(n * 2)
+
+* When, quick sort gives **best case** -> Partition algo is in balanced behaviour or in best case.
+* When, quick sort gives **average case** -> Partition algo is in balanced behaviour or in best case.
+* When, quick sort gives **worst case** -> Partition algo is in un-balanced behaviour or in worst case.
+
+![image](https://user-images.githubusercontent.com/54589605/236631812-00afeea5-7a78-4df9-bb83-c993056324ea.png)
+
+* Merge sort is always **left** diagram. Always **n * log n**.
+
+### Quick sort problems
+
+![image](https://user-images.githubusercontent.com/54589605/236632211-92525f30-968d-4018-a681-f7528030799d.png)
+![image](https://user-images.githubusercontent.com/54589605/236633343-347fea1d-a0bd-443c-9ac7-2ab5683d7b9c.png)
+
+1) Increasing order sequence
+2) Decreasing order sequence
+3) Same elements.
+
+* Any **quick sort** question came, directly or in-directly it belongs to **partition** algo. [**IMPORTANT**]
+
+* What  is the **relationship** between **c1, c2 and c3** that we have to calculate?
+* Comparisions and swaps are almost **same**. 
+
+#### (1)
+
+> First input is **increasing/ascending** order. For quick sort, the **no. of comparisions** we meed to calculate, quick sort is directly or in-directly **partition** algo. First element is **pivot**. **J** completed the whole loop and **i** didn't move at all. Comparing any element with pivot, no small element came, that's the reason **j** never stopped.
+
+> In partition alog, **for loop** is over now, as **j** has crossed the boundary. Lastly, **one swap** is there before the program terminates. We have to swap a[i] with a[p]. Now, return **i**.
+
+> The pivot element we selected is **10**, after the **partition** algo is over, the pivot element went to **one place** that is **first place**. More than **pivot**, all elements. Less than **pivot**, no one.
+
+> If we select the **smallest** element as the **pivot** element then no one will go to the  **left** of the **pivot** element as it is already **smallest**. Input is **increasing/ascending** order, which means **first** place is **smallest** person. Already input is **increasing/ascending** order, we are taking the first element as **pivot**.
+
+> **smaller** than him, no one will come. Everyone will come to the **right side** of **pivot**.
+
+> Partiiont algo, we applied on **7** people, then **no. of comparisions** will be **6**. 
+
+> Partiiont algo, we applied on **7** people, then **no. of swaps** will be **1**. As it is in **ascending** order, there are **no swaps**. The only swap is at the end of the program between a[i] and a[p].
+
+![image](https://user-images.githubusercontent.com/54589605/236633976-7d15f7f2-7897-49f5-a5da-deda98930edd.png)
+
+> When we say quick sort, all elements should be **sorted**.
+
+* We have to complete all.
+
+![image](https://user-images.githubusercontent.com/54589605/236634168-e77d113e-13ba-4ac1-b9ee-3bcd5f26423e.png)
+![image](https://user-images.githubusercontent.com/54589605/236634194-4ca82f33-31cc-4286-ac65-37c658b8851f.png)
+
+* Total comparisions -> 6 + 5 + 4 + 3 + 2 + 1 -> 1 + 2 + 3 + 4 + 5 + 6 -> (n * (n-1))/2 -> O(n^2).
+
+![image](https://user-images.githubusercontent.com/54589605/236634399-fa396023-cec6-4139-8a56-fda993607ecc.png)
+![image](https://user-images.githubusercontent.com/54589605/236634833-6dc8b405-8b76-4f95-9749-86dbbd134ec9.png)
+
+* No. of passes -> **n-1** -> **O(n)**.
+* Total swaps -> **n-1** -> **O(n)**.
+
+> Ascending order input and we apply quick sort on it, **no. of comparision** is **O(n^2)**.
+
+* **No. of comparision** is **O(n^2)**.
+* **No. of swaps** is **O(n-1)**
+
+![image](https://user-images.githubusercontent.com/54589605/236634971-977af5b2-adb5-4ab0-9430-435597d55634.png)
+
+> Because of **ascending order**, there is a **left gap** that why **time complexity** of **quick sort** is **O(n^2)**.
+
+* **Left gap** is always, that why quick sort is giving **worst case**.
+
+* Quick sort will give **best or worst** case when elements are arranged in **ascending order**?
+
+> **Worst case**, unbalanced behaviour we get.
+
+* Here, it was **ascending** order, so **no swaps**, as everytime **greater** coming. Only one swap at the end.
+* It was **left** grapped.
+
+#### (2)
+
+##### Pass 1
+
+![image](https://user-images.githubusercontent.com/54589605/236635209-0393f467-1163-4f9b-9cbc-2a901c9a9586.png)
+
+* By default, **first** element is the **pivot**. On the second input we have to apply **partition**.
+
+> As it is a **descending order**, so whatever comes after **pivot** element will be **smaller**. So, eveytime **swap** as everytime it is **smaller**. **J** crossed border, so **loop** over. Now swap **a[i] and a[p]**.We returned **7** as it the **index** of the pivot element which went to the **correct** place.
+
+> All are **less** than pivot, so they all came to the **left** side. No one on the right side, as no one is **more** than pivot.
+
+* In this problem, it is **right** gapped.
+* It looks like **un-balanced** behaviour.
+
+> If the first two rounds are **un-balanced** behaviour but the rest are **balanced** behaviour, then it is **best case**.
+
+> That's why with **1 or 2** round we cannot say anything, until we are **confirmed** we have to **continue**.
+
+![image](https://user-images.githubusercontent.com/54589605/236652132-5713af69-572c-495b-b5ff-ef04a336628a.png)
+
+> For **n** elements, partition will take **n-1** comparisions. Time complexity is **n**.
+
+> For **7** elements, partition will take **6** comparisions. 
+
+> For **7** elements, partition will take **6 + 1 -> 7** swaps. **6** swaps for **6** comparisions and lastly **one more** swap.
+
+![image](https://user-images.githubusercontent.com/54589605/236652380-0a2bdc2b-237a-42ca-86b8-94bd40f345ac.png)
+![image](https://user-images.githubusercontent.com/54589605/236652878-fe22dc17-5bad-463e-9f3a-a37fa0518f4f.png)
+
+* Time complexity -> Comparisions + swaps -> O(n^2)
+
+##### Pass 2
+
+![image](https://user-images.githubusercontent.com/54589605/236652274-20c3f83a-4e8c-4e98-96b0-eead76f95c5e.png)
+
+> The pivot is the first element which is **10**. **J** crosses boundary and there are **zero(0)** swaps. **I** didn't move at all. Now swap **a[i] and a[p]**.We returned **1** as it the **index** of the pivot element which went to the **correct** place.  
+
+> Less than **pivot** no one and everyone is more than pivot. 
+
+* It is **left** gapped now.
+
+> In the **Pass 1** it was **right** gapped and now in **Pass 2**, it is **left** gapped.
+
+* Just by seeing **Pass 1**, don't conclude the behaviour. Observe what is going on.
+
+> In **Pass 1**, last element came to **first** place and first element when to **last** place. Which means in **Pass 2**, pivot element is **small** element.
+
+* It is behaving like **alternative gap**. One time it is **left** gap, one time it is **right** gap.
+
+![image](https://user-images.githubusercontent.com/54589605/236652559-eac63e39-38da-4415-a763-bd9f3396c4d9.png)
+
+> In **Pass 1**, there are **6** comparisions and we will **7** swaps.
+
+> In **Pass 2**, there are **5** comparisions and we will **1** swaps.
+
+> In **Pass 3**, there are **4** comparisions and we will **5** swaps.
+
+> In **Pass 4**, there are **3** comparisions and we will **1** swaps.
+
+> In **Pass 5**, there are **2** comparisions and we will **3** swaps.
+
+* **More** no. of swaps are coming in **right** gapped. [**IMPORTANT**]
+* **Left** gapped means **one(1)** swap only. [**IMPORTANT**]
+* **Right** gapped means, **n** element, then **n** swaps only. [**IMPORTANT**]
+
+![image](https://user-images.githubusercontent.com/54589605/236652695-ecbc138e-f330-4d31-a2ab-05b4ecb12884.png)
+
+* Alternative gapes.
+
+* Total comparisions -> 6 + 5 + 4 + 3 + 2 + 1 -> n-1 + n-2 + n-3 + n-4 + n-5 + n-6 + .... + 2 + 1 -> ((n-1) * n)/2 -> O(n^2).
+* Total swaps -> n + 1 + (n-2) + 1 + (n-4) + 1 -> (n(n+1))/(2 * 2) -> (n(n+1))/4 ->O(n^2)
+
+> We are dividing by **4** because we want either **even** or **odd** numbers. **Dividing by 2**, gives sum of all natural numbers.
+
+![image](https://user-images.githubusercontent.com/54589605/236652857-d1cbbebe-f72b-43f5-8d89-6c3b0f735c45.png)
+
+* Time complexity -> Comparision + swaps -> n^2 + n^2 -> 2 * (n^2) -> O(n^2).
+
+![image](https://user-images.githubusercontent.com/54589605/236652871-48893815-8710-451c-a14a-ef231caba1e9.png)
+
+* If we apply quick sort on **ascending order**, time complexity?
+
+> **O(n^2)**.
+
+* If we apply quick sort on **ascending order**, time complexity?
+
+> **O(n^2)**.
+
+> For both **increasing and decreasing** we are getting **un-balanced** tree, because all of the elements are goint to **one side** only and the other side is **empty**. Swaps may comes or may not come, but the **no. of comparisions** are the **same** only, which is **n^2**.
+
+![image](https://user-images.githubusercontent.com/54589605/236653262-cc5a2256-e784-49fa-a7cd-647e38338657.png)
+
+#### (3)
+
+![image](https://user-images.githubusercontent.com/54589605/236653251-a5aeccfb-6fba-47b4-84f7-3a68f17c10bc.png)
+
+> One pass is **enough**. All elements are **same** only.
+
+![image](https://user-images.githubusercontent.com/54589605/236653279-2950aae6-704b-4ae3-8cd1-64f6500ecef5.png)
+
+> First element is the pivot element only, which is **10**. **J** closes boundary. **I** is at the **7th** position. Now swap **a[i] and a[p]**.We returned **7** as it the **index** of the pivot element which went to the **correct** place. 
+
+![image](https://user-images.githubusercontent.com/54589605/236653348-050c0ad6-a4d0-4195-a57d-c9d07f2354f3.png)
+
+> **10a** was there at the **first** place, now it is at the **last** place. **More** than **10**, no one. All of the elements are **less than or equal to 10**.  
+
+![image](https://user-images.githubusercontent.com/54589605/236653394-c851a9cc-9ff5-48ab-9957-58fc0139746b.png)
+
+* It is **right** side gapped everytime.
+
+> For **7** elements, there are **6** comparisions, so the **no of swaps** are **6 + 1 -> 7**.
+
+> No more **rounds** needed, because we got to know, that it will be always **right** gapped.
+
+* **10a** was there at the **first** place and after sorting, it went to the **last** place. It is not **stable**.
+
+> Repetative order of elements are **changing**. It is not **stable*
+
+![image](https://user-images.githubusercontent.com/54589605/236653736-10728ebd-2bb9-47a4-9c7f-fbf78a500c1a.png)
+
+* Total comparision -> O(n^2)
+* Total swaps -> O(n^2)
+* Time complexity -> Comparision + swaps -> n^2 + n^2 -> 2 * n^2 -> O(n^2).
+
+![image](https://user-images.githubusercontent.com/54589605/236653782-d5b90364-c431-40e9-b531-62281021ef55.png)
+
+## Summary
+
+* 3rd question -> Right gapped
+* 2nd Question -> Alternative gapped
+* 1st question -> Left gapped.
+
+> In all of the **three** question's inputs, **no. of comparisions** are **same**, which is **n^2** everytime.
+
+> If we apply quick sort on the given three question's inputs, **no. of comparisions** are **n^2** everytime. For the first question's input it is **c1= n^2**.  For the second question's input it is **c2= n^2**.  For the third question's input it is **c3= n^2**.
+
+> All **three(c1, c2 and c3)** are **equal**.
+
+![image](https://user-images.githubusercontent.com/54589605/236653890-f47c1812-de07-438b-ac22-f2d7a3a868b6.png)
+
+* c1 = c2 = c3 = **O(n^2)**.
+
+## Note [**IMPORTANT**]
+
+* Quick sort will give **worst case performance**, if the **array** is already **sorted or almost sorted**.
+
+![image](https://user-images.githubusercontent.com/54589605/236653978-fe20c9ca-cb14-40eb-bb38-7c7fa8462b35.png)
+
+* Quick sort will give **best case or average case performance**, if the **array** is **unsorted or not sorted**.
+
+> Quick sort is the hero for **unsorted or not sorted** arrays.
+
+> Swaps maybe **increasing or decreasing** but **no. of comparisions** are **same** which is **n^2**.
+
+* Normally, time complexity of **quick sort** is **no. of comparisions** only which is **O(n^2)** only.
+
+> **O(n^2)** came because in all of the trees, there are **n** levels. Every level partition is **n** time. So, the time complexity becomes **n * n -> n * 2 -> O(n * 2)**.
+
+> Forget about **swaps**, the goal is **comparisions** only.
+
+> **c1, c2 and c3** are all **O(n^2)** because they have all given **un-balanced** tree. So, it is **O(n^2)**.
+
+* Quick sort behaviour when **ascending** order array given -> **un-balanced** behaviour -> **O(n^2)**.
+* Quick sort behaviour when **descending** order array given -> **un-balanced** behaviour -> **O(n^2)**.
+* Quick sort will give **best performance** on what type of array?
+
+> **Unsorted or not sorted** arrays.
+
+* For **merge sort** algo, anything is **OK**, give **ascending, descending, sorted, un-sorted** doesn't matter. Everytime it is **n * log n**.
+* Quick sort encouraged with **good inputs** i.e **unsorted or not sorted** arrays.
+
+![image](https://user-images.githubusercontent.com/54589605/236654521-5cf69c65-440c-4df9-8e08-498ac2d73e17.png)
+
+* What will be the **stack space** for these **inputs**?
+
+> **Stack space** means program should be given. If program not given, then we have to **assume** the **best program/algo**. **Worst case** it is **n** and for **best case** it is **log n**. We have to assume the **best case** which is **log n**.
+
+* Recursive or non-recursive program, time complexity is **same**.
+
+* Time complexity of **quick sort** is **O(n^2)**, everytime or when sorted array given?
+
+> When sorted arrays given. 
+
+> For **un-sorted** arrays it is **n * log n**.
+
+## Conclusions
+
+![image](https://user-images.githubusercontent.com/54589605/236655026-31cb042f-aa6e-4319-9ce1-bd84a9d47e71.png)
+![image](https://user-images.githubusercontent.com/54589605/236655052-5c1177a2-9104-4069-9795-3c8c48a127ea.png)
+
+* TIme complexity is **O(n * log n)**.
+* T(n) = T(n/2) + T(n/2) + n -> **O(n * log n)**
+
+> After **partition** algo is over, **n** times is completed. Now, array is divided, **un-equally** and not **un-balanced**.
+
+![image](https://user-images.githubusercontent.com/54589605/236655112-f5664146-c03a-4c5d-b2e8-264ecaa1b04b.png)
+
+* T(n/3) -> log n base 3
+* T((2 * n)/3) -> log n base 3/2
+
+> First level cost is **n**. Second level cost is also **n**. As it is a **recursive** program, so rest of the levels will also be **n** only.
+
+* T(n) = T(n/3) + T((2 * n)/3) + n -> **O(n * (log n base (3/2)))**.
+
+> As we have used base **3/2 -> 1.5** as it **smaller** compared to **3**, which means we took **upper bound**, so we took **Big-O**.
+
+![image](https://user-images.githubusercontent.com/54589605/236655222-928aae65-955d-42be-8a56-c9ad19a393d1.png)
+
+> Both **differ** by **constants** only, as one base is **3** and other base is **3/2**. So we can write **O(n * log n)**. 
+
+* T(n) = T(n/3) + T((2 * n)/3) + n -> **O(n * (log n base (3/2)))** -> **O(n * log n)**.
+
+> We can write **theta** also.
+
+![image](https://user-images.githubusercontent.com/54589605/236655271-c06bcc35-15fd-4913-9c37-98c4d510a2bc.png)
+
+> Quick sort algo will give **best case performance** of **O(n * log n)**, not only in **50-50** equal division, but in **1:2** also. 
+
+> Just make the total as **three** parts, keep **one part** to the **left**, keep **two parts** to the **right**. **Un-equal** division also leads to **best performance**.
+
+![image](https://user-images.githubusercontent.com/54589605/236655421-ea389021-c86f-4ee7-88f8-1d8e03cb435e.png)
+![image](https://user-images.githubusercontent.com/54589605/236655439-d8d58130-a5e5-47d3-8f44-d3da5be763e6.png)
+
+* T(n/5) -> log n base 5
+* T((4n)/5 -> log n base 5/4.
+
+> Every level cost is **n**. We have **log n base 5/4 levels**.
+
+* T(n) =  T(n/5) + T((4n)/5) + n -> **O(n * log n base 5/4)**.
+
+> For **100** people, **20** people on the **left** side and **80** people on the **right** side. Then also **best performance**.
+
+* Mostly **quick sort** will give **best performance**, which means for **average case**, quick sort gives **best performance**.
+
+![image](https://user-images.githubusercontent.com/54589605/236655566-1a7d3092-9d8b-48cd-9188-007a0fef0c72.png)
+![image](https://user-images.githubusercontent.com/54589605/236655581-b61672e3-536c-4d7f-a834-06e8f44abd35.png)
+
+* Using **recursive** tree method, we can solve all of them.
+* The above ones are **best and average** case performances.
+
+* Quick sort will give **best or average** case performance if:
+
+* T(n) = T((alpha) * n) + T((1 - (alpha)) * n) + n
+
+> All of the **alpha** elements are on **one side** and the remaining **(1 - (alpha)) * n)** elements on the **other side**. If the **partition** algo dividing like this, then quick sort will give **best case** performance, which is **O(n * log n)**.
+
+* 0 < (alpha) < 1. [Alpha is more than 0 but less than 1]
+
+![image](https://user-images.githubusercontent.com/54589605/236655754-9908f53f-83b3-473f-8f60-857684ad09e9.png)
+![image](https://user-images.githubusercontent.com/54589605/236655795-507184ad-0885-4323-8f5d-2e811a6b3121.png)
+
+* (alpha) = 1/2 [**O(n * log n)**] [1st example]
+* (alpha) = 1/3 [**O(n * log n)**] [2nd example]
+* (alpha) = 1/5 [**O(n * log n)**] [3rd example]
+* (alpha) = 1/5 [**O(n * log n)**] [4th example]
+
+> We can take **(alpha)** as anything as long as it is **less than 1** and **more than 0**.
+
+* If, (alpha) = 1/2, then the time complexity is **log n base (1 / alpha) -> log n base (1/(1/2)) -> log n base 2**.
+* If, (alpha) = 1/2, then time complexity is **log n base 2**.
+
+* T((alpha) * n) -> log n base (1/ (alpha)).
+* T((1 - (alpha)) * n) -> log n base (1 / (1 - alpha))
+
+![image](https://user-images.githubusercontent.com/54589605/236656017-62de2f1b-98cb-49b6-89ca-457a6e37c70a.png)
+
+> Comparing **left and right** heights, we cannot say who is **bigger**, because we can **inter-change**.
+
+![image](https://user-images.githubusercontent.com/54589605/236656069-15cdd27d-07be-43bc-bbba-ad8be4fd0f44.png)
+
+* If (alpha)=2/3, then **1 - (alpha)** is **1 - (2/3) -> 1/3**. 
+* f (alpha)=1/3, then **1 - (alpha)** is **1 - (1/3) -> 2/3**. 
+
+> We can **inter-change** that's the reason why we cannot say **clearly** who or which one is **bigger**. It is **dependent** on what **(alpha)** we will take. That's why we cannot say who is **bigger**.
+
+![image](https://user-images.githubusercontent.com/54589605/236656215-bb5934ae-38d9-46bf-80ad-875c1623dae6.png)
+
+* If array is **unsorted** then what type of recurrence relation for time complexity we will see for quick sort?
+
+![image](https://user-images.githubusercontent.com/54589605/236656253-69299b95-bb79-416a-812f-57d1e2383402.png)
+
+* These kind of things.
+* If array is **unsorted** then time complexity will be **one** of the above recurrence relation for time complexity will come?
+
+> **One of the above** recurrence relations for time complexity will **come**.
+
+![image](https://user-images.githubusercontent.com/54589605/236656315-7b64123c-dc37-47fe-823b-e5f55ecf8383.png)
+![image](https://user-images.githubusercontent.com/54589605/236656332-520e76cd-3864-4f75-b3eb-dddcea1e94d3.png)
+
+> Between **0 and 1** there are **infinite** possibilities.
+
+* Mostly **quick sort** will give **best or average** case.
+
+![image](https://user-images.githubusercontent.com/54589605/236656381-5a912d89-9bb0-4c6f-af0d-aa50cb4d3b07.png)
+
+> Partition algo is dividing the array in such a way that **fraction of n** is on **one side** and **remaining** is on **another** side.
+
+![image](https://user-images.githubusercontent.com/54589605/236656426-6df2bf3f-f342-4dd6-aa62-248e91b58d27.png)
+
+* **Fraction of n** -> n/5, n/10, n/2, n/3.
+* **Remaining** is on **another** side -> (1 - (1/5)), (1 - (1/10)), (1 - (1/2)), (1 - (1/3)).
+
+![image](https://user-images.githubusercontent.com/54589605/236656517-ac7924b6-5168-40f9-aec4-cd7cea048d45.png)
+
+> **max** is written because **it depends on (alpha)**. (alpha) maybe **1/5**, (alpha) maybe **4/5**. If **(alpha) = 4/5** then **1 - (alpha) -> 1 - 4/5 -> 1/5**. I f **(alpha) = 1/5** then **1 - (alpha) -> 1 - 1/5 -> 4/5**. It is **dependent on (alpha)**. **Reverse** also possible. **TRUE**.
+
+![image](https://user-images.githubusercontent.com/54589605/236656572-e92e9871-3143-49e6-87df-b781bf4f01de.png)
+
+* Quick sort **best case** is **infinite**, that means **everytime**, **best case** only will happen. Mostly it is **best or average** case only.
+
+![image](https://user-images.githubusercontent.com/54589605/236656618-89c33198-33fc-4183-b2b9-9d2df6a260a7.png)
+
+* Quick sort.
+
+![image](https://user-images.githubusercontent.com/54589605/236656853-2205609e-0320-4c2c-8461-7133de75737c.png)
+
+> After **partition** algo is over, quick sort divided the given array into **two** parts, no one came to the **left** side and on the **right** side, remaining everyone(n-1) elements came. **One more** elements is the **pivot element** and it is placed in the **correct** position/index.
+
+> We can neglect **T(0)**.
+
+> All elements(n-1) are going to **one side**. It will lead to **n** level tree. Everywhere **partition** cost is **n**. So, **n * n -> n^2**.
+
+![image](https://user-images.githubusercontent.com/54589605/236656912-ba900039-e997-4357-ad58-43083e1a1c39.png)
+
+> After **partition** algo is over, quick sort divided the given array into **two** parts, only **one element** came to the **left** side and on the **right** side, remaining everyone(n-2) elements came. **One more** elements is the **pivot element** and it is placed in the **correct** position/index.
+
+> Every time **n-2** means **n/2** level. Everywhere **partition** cost is **n**
+
+* T(1) -> Constant time.
+
+* T(n) = **(n/2) * n** -> **n^2**.
+
+![image](https://user-images.githubusercontent.com/54589605/236657346-87621a58-264c-4458-a51c-ff518be3fda2.png)
+
+* **Partition** time is **n** time. **Left** hand side is **constant(c)** elements. **Right** hand side is **remaining** elements. **One element** is pivot element.
+
+![image](https://user-images.githubusercontent.com/54589605/236657393-cb3da1a4-be21-4a92-b5ef-a8873a537014.png)
+
+* Where **c** is **constant** and **c >= 0**.
+
+![image](https://user-images.githubusercontent.com/54589605/236657421-09f0b23b-5b6b-4f1f-9e60-ac3874c0ce4f.png)
+
+* If **left** is **zero(0)** then **right** is **n-1** elements. **First** recurrence relation will come from **above**.
+
+* If **left** is **one(1)** then **right** is **n-2** elements. **Second** recurrence relation will come from **above**.
+
+* If **left** is **five(5)** then **right** is **n-6** elements. **Third** recurrence relation will come from **above**.
+
+* We can take any value of **c** as **constant**.
+* **Worst case** of **quick sort** is many **possibilities**, but the **only condition** is **one side is constant(c)** elements, other side is **remaining elements**.  
+
+![image](https://user-images.githubusercontent.com/54589605/236657520-61d38e67-6fe8-4cdf-af50-e0a1938c660f.png)
+
+* Partition algo behaving like, **one side is constant(c)** elements and on the other side is **remaining elements**. Quick sort will give **worst case** performance of **O(n^2)**.
+* Quick sort will give **worst case** performance for, **sorted or almost sorted** arrays.
+* **Almost sorted** means **constant(c) people** not sorted. **Constant(c) people** will go to **one side** and the **remaining** on the **other** side. 
+
+![image](https://user-images.githubusercontent.com/54589605/236658408-4f2ccfdf-0951-4b3b-b432-b44c37716fc8.png)
+![image](https://user-images.githubusercontent.com/54589605/236659514-25b45350-e91f-4cde-a469-dfe7c7bc2573.png)
+
+* Worst Case. All of them are quick sort worst cases.
+* Numbers mean **constant only**.
+
+![image](https://user-images.githubusercontent.com/54589605/236659762-75f1b3f6-c6e0-43cf-8af9-795be1c2218e.png)
+
+* Best and average case -> **Unsorted arrays**.
+
+> In the **best or average case** of quick sort, **not constant** but **fraction of 'n'** on **one side** and the **remaining elements** on the other side.
+
+* It is **n/2 -> n/4 -> n/8**. 
+
+### Question
+
+* While doing quick sort algo, partition algo always dividing the array in such a way that **300** elements are on **one side** and the **remaining** elements are on the **other** side?
+
+> **O(n^2)**.
+
+* Numbers(300, 10, 1, 5, 2) mean **constant only**.
+* In-terms of **n**, then it is **not constant**.
+
+![image](https://user-images.githubusercontent.com/54589605/236659675-35f5e1c1-5427-47d1-913d-2399ca7523f0.png)
+
+### Doubt
+
+![image](https://user-images.githubusercontent.com/54589605/236659811-0498da05-5794-4978-9776-db01f73fde92.png)
+
+* 8hrs more needed. 8 more classes needed.
+
+## DP-VIII (33) [7th May 2023]
+
+* r = randomgenerator(a, p, q)
+* Swap(a[p], a[r])
+
+![image](https://user-images.githubusercontent.com/54589605/236671227-cb9bfa3e-ecf0-4178-8889-6c8a2ff86346.png)
+
+* p=1 and q=10. a[p]=80, a[7]=40.
+
+> randomgenerator(), choose **7**. Now swap **a[p] and a[r]**. We got **a[p]=40** and **a[r]=80**. Now apply **partition**. **7th** element is taken as the **pivot** now. This is the way, on how to take a particular element as  **pivot** element.
+
+> Earlier we learned, how to take the **first** element as the pivot element. If we want to take someone else then don't change the algorithm. Just **add** a few lines extra before the algorithm starts to choose some other element.
+
+> If we want to take the **4th** element as the pivot element now. We have to swap(a[p], a[4]). We have to swap, a[4] with the **first element**. Now, at the **first** place **4th element** is there. Now, apply **partition**. That's it, no need to change the algorithm.
+
+![image](https://user-images.githubusercontent.com/54589605/236671729-65772b6b-c760-40d6-8ccc-cd94b54bbe82.png)
+
+> If we want to take the **8th** element as the pivot element now. We have to swap(a[p], a[8]). We have to swap, a[8] with the **first element**. Now, at the **first** place **8th element** is there. Now, apply **partition**. That's it, no need to change the algorithm.
+
+![image](https://user-images.githubusercontent.com/54589605/236671848-1a289999-ed1a-4ac4-bb5e-1caf71bda45c.png)
+
+* When we called quick sort for the **first time**, **randomgenerator()** returned some **random number(k)**, so we have take **kth** element as **pivot** elements. This is **randomized quick sort**.
+
+![image](https://user-images.githubusercontent.com/54589605/236672024-c64c76ad-785e-4dfe-83c3-a93695ff9dac.png)
+
+* **Randomized quick sort*
+
+> If we **remove** the lines written with **red color**, then the sorting algo is called as **normal quick sort or just quick sort**. 
+
+* Time complexity of **Randomized quick sort** for **best and average case** -> **O(n * log n)**
+* Time complexity of **Randomized quick sort** for **worst case** -> **O(n^2)**.
+
+> The **performance** is improved as well. The **worst case** was **more** previous but with the **randomized quick sort**, the **worst case** is also **less** than before.
+
+![image](https://user-images.githubusercontent.com/54589605/236672286-e8b95c32-e20e-4779-825a-552247abb2b8.png)
+![image](https://user-images.githubusercontent.com/54589605/236672464-76ae92ff-9ee5-4a61-8085-37cd399d9c02.png)
+
+> If we want to take the **last** element as the pivot element now. Then we don't need the **randomgenerator()**, remove that. **Q** stores the **last** element. We have to swap(a[p], a[q]). We have to swap, a[q] with the **first element**. Now, at the **first** place, **last element** is there. Now, apply **partition**. That's it, no need to change the algorithm.
+
+* If we want **random** pivot elements then also the **quick sort algo** will work out.
+
+> By doing **randomized quick sort** algo, we cannot completely neglect the **worst case** of quick sort, but we can **improve** the **performance** of **worst** case by lowering the **amount or percentage** of **worst** case. If in normal quick sort algo, the **amount or percentage** of **worst** case was **10%** then in **randomized quick sort** algo, **worst** case is **reduced/lowered** down to **5%**.
+
+* In **randomized quick sort** algo, **worst case** performance **probability** is **less or lesser**.
+
+![image](https://user-images.githubusercontent.com/54589605/236672916-ddbe2e97-6c9b-44d6-8e01-66705529a3aa.png)
+![image](https://user-images.githubusercontent.com/54589605/236673046-145299b0-2a34-4674-ad36-b817429e3bb8.png)
+
+* It is **right** side gapped. 
+
+> All are **10** so they are **less than or equal** to pivot, so they will all be in the **left** side and **right** side is empty or **right** side gapped.
+
+* In normal quick sort, **first element** is pivot element.
+
+![image](https://user-images.githubusercontent.com/54589605/236673084-9fee8bc7-48eb-4e49-b8b6-82a7154650b7.png)
+![image](https://user-images.githubusercontent.com/54589605/236673131-d6baeeba-2060-45d3-9c62-71cbbd1d44bd.png)
+
+* Normal quick sort.
+
+![image](https://user-images.githubusercontent.com/54589605/236673181-9b559d91-b184-4454-aff5-140719c596eb.png)
+
+* Even if we **randomly** choose the **pivot** element using a **random_generator**, then also all of the elements are going to **left side** only and the **right** side is **empty**.
+* **Time complexity** is **same** as **normal quick sort** which is **O(n^2)**.
+
+![image](https://user-images.githubusercontent.com/54589605/236673328-53f60a66-bfac-4063-898d-eefefc39db0a.png)
+
+* In **normal** quick sort algo, if the array is **ascending order** then all the elements go to the **right** side and the **left** side is **gapped**.
+* **Time complexity** is **O(n^2)**.
+
+> **Randomized quick sort** algo can take any element as pivot. If it takes **40** then it is the **best case** partition. **Randomized quick sort** can take any possibility.
+
+> Sometimes **randomized quick sort** will take the **first** element as pivot.
+
+> Sometimes **randomized quick sort** will take the **middle** element as pivot.
+
+> So it is sometimes **first** and sometimes **middle**. It is **50-50**. It is sometimes, **half or 50% best partition** and sometimes, **half or 50% worst partition**. If it is **everytime** worst, then it is **worst**. 
+
+> It is **half or 50% best partition** and it is **half or 50% worst partition**. So **half best** and **half worst** will **lead** to, **best case** only which is **O(n * log n)**.
+
+> Sometimes **randomized quick sort** will take the **middle** element as pivot and we will get **best case** only which is **O(n * log n)**.
+
+> Sometimes **randomized quick sort** will take the **first** element as pivot and we will get **worst case** only which is **O(n ^ 2)**.
+
+![image](https://user-images.githubusercontent.com/54589605/236673707-af805a17-9072-4946-b73b-88c9117811c8.png)
+
+> Previously ascending order **best case** for **normal quick sort** algo has now been **worst** case for **randomized quick sort**.
+
+> Performance improved but **worst case** we cannot completely ignore. Previously whatever was the **percentage** of **worst case**, it is not **reduced** and **few** maybe there and **few** are eliminated.
+
+> Performance improved but we cannot give **100%** efficiency.
+
+* Randomized quick sort worst case time complexity -> **O(n^2)**.
+* If we have given **sorted** array to  **randomized quick sort**, then time complexity maybe it is **O(n * log n)** or maybe it is **O(n^2)**. Previously it was **O(n^2)** but now it maybe **O(n * log n)** or maybe **O(n^2)**, because it will **pick** elements at **random**, it will pick whatever it wants. We don't know what exactly it will pick.
+
+* It is a **random_generator** but performance improved. Previously **worst case** guranteed for the **sorted arrays** but now, it is **not guranteed**, it is maybe **O(n * log n)** or maybe **O(n^2)** because it will **pick** elements at **random**. **Best** performance can also come.
+
+* Previously it was **100%** to be **O(n^2)** but now it is **50%** to be **O(n * log n)** which is the **best case** and **50%** to be **O(n^2)** which is the **worst case**. So performance **improved**.
+
+* Previously probability of getting **worst case** was more, now it is **less**.
+
+* We have an **ascending order** array, normal quick sort time complexity, by default **first** element is the **pivot**, then it is **O(n^2)**, which is the **worst case**.
+*  We have an **ascending order** array, normal quick sort time complexity if the **middle** element is the **pivot**, then it is **O(n * log n)**.
+
+> As it is alrady sorted and we took the **middle element** as pivot, it will **divide the array** into **50-50**.
+
+* **Randomized quick sort** increases performance. **YES**.
+* **Randomized quick sort** cannot give gurantee that **worst case** for **randomized quick sort** which is **O(n^2)** is never possible. **NO**.
+* Improvement is done, still **best and average case** is **O(n * log n)** and **worst case** is **O(n^2)**.
+
+![image](https://user-images.githubusercontent.com/54589605/236680914-008444ed-a1a7-426d-af47-7ac379c0035e.png)
+
+* Yes. For un-sorted array, we don't know what's in the **middle** also.
+* If the array is un-sorted then any use of taking the **middle** element?
+
+> **NO**. Take anyone, any how it is **un-sorted** array.
+
+![image](https://user-images.githubusercontent.com/54589605/236681031-58c0ea11-ade6-49c8-b36e-712fc1b5f817.png)
+
+> For **sorted** arrays, we don't need any special preperation because if it is **already sorted**, then why are we **sorting** it again.
+
+* Randomization in **randomized quick sort** will improve performance but there is **no gurantee** that it will go to **O(n * log n)** everytime.
+* Just say performance improved.
+
+* In **normal binary search**, we always go to the **middle** and check if the **middle** is the element we are looking for.
+* In **randomized binary search**, why are we always going to the **middle** everytime. why don't we sometimes go to **n/2**, sometimes **n/3**, sometimes **n/10**. Why don't we go **randomly**. Concept is **same**, go **randomly**.
+
+> If we do **randomized binary search**, performance will **improve**, comparing with always **dividing by 2** and getting **half-half**, performance will **improve** a little.
+
+## Problems (Quick sort)
+
+![image](https://user-images.githubusercontent.com/54589605/236682075-15e7ce17-c8d4-43bc-a39e-aff01983edcc.png)
+
+* In quick sort, the sorting of n-elements the **n/5th smallest element** selected as pivot using **O(n)** time complexity algo. Then what will be the **worst case time complexity of quick sort**?
+
+1) Theta(n * log n)
+2) Theta(n^2)
+3) Theta(n)
+4) Theta(n^3)
+
+> In normal quick sort, by default we select the **first** element as the pivot element. Pivot selection is **O(1) or constant** time. In the question, **n/5th** element is selected as the pivot element using **O(n)** time complexity algo.
+
+> For **n** elements we have to select **n-1** pivot elements, so we know **worst case time complexity of quick sort** is **O(n^2)** and we are selection pivot element **n** times.
+
+* **Worst case time complexity of quick sort** for the **above** problem -> **n * (n^2) -> n^3** -> **O(n^3)**.
+* Option(d) or Option(4) which is **Theta(n^3)** is the **correct** answer. 
+
+* [**WORST answer**]. Check below for **correct** answer. It is **O(n * log n)**.
+
+> When quick sort is going on, we are applying **partition** algo **many times**. It means **pivot** selection is also **many times**. Everytime, **pivot** selection is **O(n)** time. So it is **many times 'n'**.
+
+> **Pivot** selection is not **one** time work. How many times, we are calling **quick sort**, because of **recursion** those many times **partition**. How many times, we are calling **partition**, those many times **pivot selection**. So, those many times it is **O(n)**.
+
+* Partition algo is not **one time** inside quick sort, it runs many times. It is the **recursion**.
+
+![image](https://user-images.githubusercontent.com/54589605/236683042-4a6263a9-997a-4282-bec1-cbcca090693b.png)
+
+* Normal quick sort. The pivot element can go anywhere, it can go to the **middle** or to the **end**. We don't know. It can be anywhere.
+
+* PS -> Pivot selection
+* PA -> Partition Algo
+* 
+
+> If we take the **7th** smallest element as the pivot and after partition then it will go to the **7th** place.
+
+> If we take the **4th** smallest element as the pivot and after partition then it will go to the **4th** place.
+
+> If we take the **1st** smallest element as the pivot and after partition then it will go to the **1st** place.
+
+> If we take the **1st** smallest element as the pivot and after partition then it will go to the **1st** place.
+
+> If we take the **n/5th** smallest element as the pivot and after partition then it will go to the **n/5th** place.
+
+![image](https://user-images.githubusercontent.com/54589605/236683466-1f6c491e-50b1-4b33-a8d4-8f0c108146e6.png)
+![image](https://user-images.githubusercontent.com/54589605/236683523-f5b35a28-aa5a-4213-b125-703673e26a82.png)
+
+* Constant term for **recursive** terms is **important**. Don't neglect.
+* Constant term for **non-recursive** terms is ** not important**. We can neglect.
 
  
+* If we take **first** element as the pivot, after partition algo, it will go to **anywhere**.
+* If we take **first** smallest element as the pivot, after partition algo, it will go to **first place**.
+* If we take **n/5th** smallest element as the pivot, after partition algo, it will go to **n/5th place**. So, the **left** side elements is **n/5-1**, **right** side elements is **n - n/5 -> (4 * n)/5**.
+
+![image](https://user-images.githubusercontent.com/54589605/236687387-2a4310bd-c39d-4d18-b911-4814891cf6a8.png)
+
+> This is the **only** division possible. So, **worst, best and average** case, it is the **same** time which is **O(n * log n)**.
+
+* If **different** divisions are possible, then **different** time complexities will come.
+
+> **O(n * log n)** will be the **same** answer for **worst, best and average** case.
+
+![image](https://user-images.githubusercontent.com/54589605/236687511-e6027b47-2575-4dde-840d-9535abd1a30c.png)
+![image](https://user-images.githubusercontent.com/54589605/236687516-d642e10f-7a57-4f9f-a227-29d42ca219f5.png)
+
+* Only **one** division possible, so **one** answer is possible which is **O(n * log n)**.
+
+![image](https://user-images.githubusercontent.com/54589605/236687558-8d6fb9ea-8f6b-4fbb-a21b-4cdcf65da779.png)
+
+* In normal quick sort, **many divisions** are possible, so **many answers**.
+
+![image](https://user-images.githubusercontent.com/54589605/236687819-8a9c3a04-c0dc-4727-b1d0-c5fd5e6cebb4.png)
+
+* In quick sort, the sorting of 'n' numbers, the **n/10th** element is selected as pivot, with time complexity of **O(n^2) time algo. Find what is the **worst case ** time complexity of quick sort?
+
+1) Theta(n^2)
+2) Theta(n * log n)
+3) Theta(n^3)
+4) Theta(n)
+
+* If we take **n/10th** element as the pivot, after partition algo, it will go **anywhere**. No clarity.
+* **Anywhere** means **multiple possibilies**. The question wants **worst case** so it went to the **extreme**.
+* The question wanted **worst case**, so that **worst possibility**.
+
+> Normally, to select **n/10th** element, it is **constant**.
+
+![image](https://user-images.githubusercontent.com/54589605/236688246-34cba6b9-c78f-4e6b-9e2d-36f240c68102.png)
+
+* Worst case.
+
+![image](https://user-images.githubusercontent.com/54589605/236688262-1ead9b5b-b803-44a9-b0b2-945d90cd4171.png)
+
+* Not true. For the above question. Asymptotically it is **correct** but sir is better .
+
+* Smallest element is **different**.
+* **N/10th** smallest element can go to **N/10th** place.
+* **N/10th** element can go to **anywhere** place.
+
+![image](https://user-images.githubusercontent.com/54589605/236688520-d95085f3-8cd3-42bb-86b8-1a7f5392a413.png)
+
+* In quick sort, the sorting of 'n' numbers the **n/5th** **largest element** is selected as pivot using **O(log n)** time complexity algo. Find best case time complexity of quick sort?
+
+1) Theta(n * log n)
+2) Theta(n^2)
+3) Theta(n^3)
+4) Theta(n)
+
+
+* Largest element is **different**.
+* **N/10th** smallest element can go to **N/10th** place.
+
+> If we have **n** elements, and we take **nth** smallest element as the pivot then it will go the **nth** place. So, **nth** smallest is nothing but **1st largest**. It is from **right** hand side.
+
+![image](https://user-images.githubusercontent.com/54589605/236689180-8b875383-49a2-4393-89b2-6ed082c9883c.png)
+![image](https://user-images.githubusercontent.com/54589605/236689303-9912fa5c-d91b-4c94-8d2d-20e9d3992cac.png)
+
+* If we take the **first** largest as the pivot, then it will go to **first place** from last.
+* If we take the **second** largest as the pivot, then it will go to **second place** from last.
+* If we take the **10th** largest as the pivot, then it will go to **10th place** from last.
+
+* **N/5th** largest element, after partition, it will go to **N/5th** place from the **last**.
+* **N/5th** element can go to **anywhere** place.
+
+* For the **above** question, **only one** division is possible. So, it is **one** answer only.
+
+![image](https://user-images.githubusercontent.com/54589605/236689555-31963a54-919b-4605-b3e6-bbf30dd27e89.png)
+
+* Option(A) or Option(1) is **corret** which is **O(n  * log n)**.
+
+[**IMPORTANT**]
+
+* **n/2th** element is taken as pivot element, the **worst case** is **O(n^2)**. It can go **anywhere**.
+* **n/2th** smallest element is taken as pivot element, the **best case** is **O(n * log n)**. It can go to **n/2th** place.
+* **n/2th** largest element is taken as pivot element, the **best case** is **O(n * log n)**. It can go to **n/2th** place from last.
+
+* **Element, smallest and largest** matters and not **n/2th**.
+
+![image](https://user-images.githubusercontent.com/54589605/236690229-c6a9cdb1-9294-4dae-87e1-37b7c01d1f56.png)
+
+* In quick sort, the sorting of 'n' numbers, **300th** largest element is selected as pivot element with **O(n^2)** time complexity. Find best case time complexity of quick sort?
+
+* It is **every case**, because there is only **one** possibility. So there is only **one** answer.
+
+![image](https://user-images.githubusercontent.com/54589605/236690768-68a2b340-3349-41a7-a61e-9811289e0964.png)
+
+* If there are **many** possibilities then there are **many** answers.
+
+## Summary
+
+* N/2 element
+* N/2 smallest element
+
+> They are **different**.
+
+* N/2 element is known as **middle** element.
+* N/2 smallest element is also known as **median** element. 
+* **Median** means in a **sorted array**, the **middle** element.
+
+* If we take the **middle** element as the **pivot** then the **worst case** time complexity is **O(n^2)**.
+* If we take the **median** element as the **pivot** then the **worst case** time complexity is **O(n * log n)**.
+
+![image](https://user-images.githubusercontent.com/54589605/236691005-208eb883-0e3d-40ff-bf32-abd1e20604c2.png)
+
+* If any question of **quick sort** comes then, directly or in-directly, it is **partition** algo. **YES**.
+* If any question of **merge sort** comes then, directly or in-directly, it is **merge** algo. **YES**.
+
+![image](https://user-images.githubusercontent.com/54589605/236691303-06584c54-3089-43a2-8a89-1ca0b42d7d18.png)
+![image](https://user-images.githubusercontent.com/54589605/236691316-3271441d-230e-42d8-981d-eb3f0a2647f2.png)
+
+* Worst partition, so **worst case**. Only on one side, all the elements are going.
+* Normally, worst case is **O(n^2)** but it is **O(n^3)** in the above example question, because to find out **300th** largest element it took **O(n^2)**. That's why it is **increased**.
+
+* To the above problem, **every case** is **same**.
+
+## Selection Procedure
+
+* It is not **selection sort**, it is **selection procedure**.
+
+* Input -> An array of 'n' elements and an integer 'k'.
+
+> Total inputs to the **selection procedure** is **n + 1** elements.
+
+* Output -> Find **Kth** smallest element in array.
+
+> If the given array is **sorted** in **ascending**, then the problem is **very easy**. At **Kth** place we have **Kth** smallest element, return a[k].
+
+![image](https://user-images.githubusercontent.com/54589605/236692429-9f18aad0-3a06-4372-87ea-b1492459ef2e.png)
+![image](https://user-images.githubusercontent.com/54589605/236692436-983ecadb-d7b3-4319-be77-daf9b26fe37e.png)
+
+> To solve the above problem, one way is to use **merge sort** to sort the array first and then find the **Kth** smallest element in the arraay. Return it. The time complexity will be **O(n * log n + O(1)) -> O(n * log n)**. Returning **Kth** element is **constant**.
+
+* The **best algo** for the above problem.
+
+![image](https://user-images.githubusercontent.com/54589605/236709564-e50da8c5-1e93-4a24-8bac-3d18b367ca2c.png)
+![image](https://user-images.githubusercontent.com/54589605/236709655-c24b9476-baa2-4be3-a4a7-bc958dfd1bb4.png)
+
+* First **min** is **30**.
+
+> We want to find **Kth** smallest element and **k=6**.
+
+> We are applying **partition** algo on the above given array. For **n** elements, time complexity of **partition** algo is **O(n)**. The pivot element is the first element which is **80**. 
+
+> The behaviour of **partition** algo is that **less than** pivot elements will go to **left** side and **more than** pivot elements will go to the **right** side. Any order we write, no issues.
+
+![image](https://user-images.githubusercontent.com/54589605/236709928-71936fcc-af98-4b40-9265-d2a099b8860a.png)
+
+> We applied **partition** algo and we got approximate output. The pivot element will go to the **correct** place and it will return the **position/index** of iteself.
+
+![image](https://user-images.githubusercontent.com/54589605/236710068-2f287d66-8820-4c48-be0e-733d73f03ade.png)
+
+> After **partition** algo is over, if the pivot element is returning something **6**, then we know what is the **6th smallest element** in the array.
+
+> After **partition** algo is over, pivot element will go to it's **correct** place. After sorting also, pivot element's position is the **same**, which is **6th** position. It means that the pivot element is the **6th** smallest element in the array.
+
+> After sorting, **6th** smallest element is there at the **6th** place.
+
+* After **partition** algo is over, it returned **6**. what does it mean?
+
+> It means that at the **6th** place, there is the **6th** smallest element in the array.
+
+> After **partition** algo is over, we are expecting the **Kth** smallest element, but we got the **mth** smallest element which is **6**. **m=6** means **6th** smallest element. **k=6** means **6th** smallest element. 
+
+> Let's **verify** if the **Kth and mth** elements are **same** or not. We are checking if **K == m** or not. If **m and K** both are **same** or not. After checking they both are **same** as **m** is returning the **6th** smallest element and **K** also want the **6th** smallest element. So, **a[m] = 80**, which is the **6th** smallest element and which is the **answer**.
+
+* Simply apply **partition** algo, verify if **m == k** or not. If it is **True** then **stop**. We should return **a[m] or a[k]**, as **m == k**. Until now, **n** times is over. 
+
+* Finding **Kth** element if we follow the **above procedure** then it will take **time complexity** of **O(n)**. It is the **best case**.
+* Time complexity -> **O(n)**
+* If **not matching** then we have to go **either left or right**.
+
+![image](https://user-images.githubusercontent.com/54589605/236711393-51314d47-92c1-4a93-8fc4-f60f60e413ea.png)
+
+* Now, we want **5th** smallest element. 
+
+> After applying partition we got **m=6** but we want **k=5**. The pivot element is the **6th** element but we want **5th**, which is **smaller** than **6th**, that why we go to the **left**. Apply **recursion** on the **left** side.
+
+* Now, we want **8th** smallest element. 
+
+> After applying partition we got **m=6** but we want **k=8**. The pivot element is the **6th** element but we want **8th**, which is **greater** than **6th** so we go to the **right**. Apply **recursion** on the **left** side.
+
+![image](https://user-images.githubusercontent.com/54589605/236711815-ade8a5b8-1066-4d02-9f5f-13dedd64abef.png)
+
+* Example
+
+> We applied **selection procedure** on the total array, which is **sp(1,11)**. After applying partition we got **m=6** but we want **k=8**. The pivot element is the **6th** element but we want **8th**, which is **greater** than **6th** so we go to the **right**. 
+
+> On the right hand side, apply **selection procedure**, which is **sp(7,11)**. After applying partition we got **m=8** but we want **k=8**. The pivot element is the **8th** element and we want **8th** element, so **m == k**. Now return **a[m] or a[k]**.
+
+* It is **similar** to **binary search**, we will do **one side**. 
+* In **binary search** it is **blind division**. 
+* In **selection procedure**, the division is **meaningful division**. Partition means **meaningful division**.
+* In **binary search**, we didn't go **partition** that why it is **blind division**.
+* Calling **selection procedure** means we are calling **partition()** algo.
+* In **selection procedure**, there is **partition()** algo.
+
+![image](https://user-images.githubusercontent.com/54589605/236713149-63c472b9-f6e3-41e1-b92b-ae9efc3facec.png)
+
+* Now, we want **7th** smallest element. **m=8**, so we will go **left**.
+
+> On the left hand side, we got only **one** element which is **7**, so we can't apply **partition**. So we stop. We got **m=7** but we want **k=7**. We have the **7th** element, so **m == k**. Now return **a[m] or a[k]**.
+
+![image](https://user-images.githubusercontent.com/54589605/236713441-78848f42-8aad-4d15-b7f2-6fd2179dd593.png)
+
+* Now, we want **11th** smallest element. **m=8**, so we will go **right**.
+
+> On the right hand side, apply **selection procedure**, which is **sp(9,11)**. After applying partition we got **m=10** but we want **k=11**. The pivot element is the **10th** element and we want **11th** element, so **m != k**. As **m < k**, we go to **right**.
+
+![image](https://user-images.githubusercontent.com/54589605/236713880-4e841c2d-4939-4a38-9ab0-3f100d125257.png)
+
+> On the right hand side, we got only **one** element which is **11**, so we can't apply **partition**. So we stop. We got **m=11** but we want **k=11**. We have the **11th** element, so **m == k**. Now return **a[m] or a[k]**.
+
+![image](https://user-images.githubusercontent.com/54589605/236714080-06a9bac5-754c-4a60-ae2a-f0de0089cacb.png)
+
+* Quick sort and selection procedure are same or not?
+
+1) We will go **both sides** on **quick sort** but in **selection procedure** we only go to **one side**.
+2) In both **quick sort** and **selection procedure**, we use **partition** algo.
+
+![image](https://user-images.githubusercontent.com/54589605/236714310-25492691-c8ec-412c-b0e5-056a46ed1696.png)
+![image](https://user-images.githubusercontent.com/54589605/236714367-78f4fa8b-1731-4e31-b93b-b978d68a319f.png)
+
+* If **m == k**, then stop it. It is **best case**, because we can **stop** in the **middle or in-between** as there is a **return** statement in the **else** part. Partition is over, so it is **n** times.
+
+* **m** is the **position/index** of the pivot element we returned.
+* **k** is the **position/index** of the element we are **finding/want**.
+
+* If **k < m** then we have to go to the **left**.
+* If **k > m** then we have to go to the **right**.
+
+![image](https://user-images.githubusercontent.com/54589605/236714787-fbac3969-bfd0-4a26-91ea-da3d368e5581.png)
+
+* If we are **lucky** then we can stop at the **nth** position.
+* If we are **un-lucky** then we have to go either to the **left or right** of **nth** position.
+* We will go **one** side, either **left** or **right**. Not both.
+
+* Selection procedure on **n** people is **T(n)** time.
+* Selection procedure on **m-1** people is **T(m-p)** time.  
+* Selection procedure on **q** people is **T(q-m)** time.
+
+> For **partition** it is **n**. After **partition** is over, if we are procceding further than **n** then it is **worst case**.
+
+> For **partition** it is **n**. After **partition** is over, we will **stop**. That is **best case**.
+
+* Recurrence Relation for **selection sort worst case**:
+
+* We will go **one side**. Either we will go to **T(m-p)** which is the **left** side or we go to the **right** side which is **T(q-m)**. We are going going to **both**. So, **OR** is there.
+
+* After partition is over, which is **n**, either go **left or right**, don't go **both** and don't write **both** in the recurrence relation.
+
+![image](https://user-images.githubusercontent.com/54589605/236715631-7928a452-d1ac-466c-8d9a-3284c2276694.png)
+![image](https://user-images.githubusercontent.com/54589605/236715782-6621a66e-24aa-42e3-ae8e-1d38448a9d6d.png)
+
+* Selection sort worst case -> **O(n^2)**.
+* Selection sort best case -> **O(n)**.
+
+* We are going **one side**.
+* If we are **lucky** then it is **best partition** which is **n/2**.
+* If we are **un-lucky** then it is the **worst partition** and all the elements(n-1) came to that **one side** only.
+
+![image](https://user-images.githubusercontent.com/54589605/236715992-82605758-d4f7-409b-b203-fe989806969f.png)
+
+* When will the **selection procedure** give **best case**?
+
+> 1)**Best partition** happened.
+
+> 2) If we are **lucky** then we don't have to go **left or right** side, we can stop after **partition** algo over. That is also **best case** for **selection procedure**.
+
+![image](https://user-images.githubusercontent.com/54589605/236716307-103bc6ec-904e-453a-bc84-294f5ffcc2e4.png)
+
+* **Best case** is possible, **two** times. Forget about which partition. If we are **lucky** then **middle** element. Partition algo is **one time**, check **m == k**.
+
+* **Best case** is possible, **two** times.
+
+1) After partition is over, check **m == k** and then **stop**.
+2) If **m == k** failed but **best partition** happened then also, **O(n)** time complexity will come.
+
+![image](https://user-images.githubusercontent.com/54589605/236716756-3daff996-e587-47ab-9352-0656aa6ccd4b.png)
+
+* This is **possible** for **every case(EC)**. 
+
+* Selection procedure **best case** time complexity -> **O(n)**.
+* Selection procedure **average case** time complexity -> **O(n)**.
+* Selection procedure **worst case** time complexity -> **O(n^2)**.
+
+* Selection procedure **worst case** time complexity will come when the **partition** is **worst case** or **worst**.
+* Selection procedure **best case** time complexity will come when:
+
+1) After partition over, check **m == k** and we **stop**.
+2) If **m == k** failed, then we got **best partition** then also **O(n)** possible.
+
+![image](https://user-images.githubusercontent.com/54589605/236717273-81a12857-939e-42bb-b9f9-24a632e30f26.png)
+
+* Same story happened for **quick sort** also.
+* Quick sort **best case**, we go to **both sides** then time complexity -> **O(n * log n)**.
+* Worst case is **same** for both **quick sort and selection procedure**.
+
+* Most of the **time**, **best partition** will happen, so the **best case** of **selection procedure** is also it's **average case**.
+
+![image](https://user-images.githubusercontent.com/54589605/236717580-b2facf7e-100c-4fe4-a562-23a2cfe49c14.png)
+
+* Half **best partition** and half **worst partition** will lead to **average case** which is **best case** only.
+* Exactly like **quick sort**.
+
+* Selection procedure is **like**, **quick sort**.
+
+1) We apply **partition** in both the algos.
+2) In case of **quick sort**, we go to **both** the sides. In case of **selection procedure**, we go **only one** side.
+3) In both, for **best partition**, **best case** will come. For **worst partition**, **worst case** will come.
+
+* Purpose of **selection procedure** -> Finding the **Kth** smallest element in the given array.
+
+![image](https://user-images.githubusercontent.com/54589605/236718208-90fa945b-322b-4c5b-a0c5-68577fe5b7c5.png)
+
+## Counting no. of inversions
+
+* Input -> Array of n-distinct elements
+* Output -> Count inversions
+
+* Between position **3 and 4** who is **greater?
+
+> Positions are normally **increasing** order. So **3 < 4**, but when we **compare** the values with **a[3] and a[4]**, we see that **a[3] > a[4] -> 50 > 40**.
+
+![image](https://user-images.githubusercontent.com/54589605/236725744-6c3047ba-4319-4cd5-801e-e4cd347c165b.png)
+
+* If we take **two** indexes(i and j), and **i < j** and then **a[i] > a[j]**. This is called as **inversion**. [**IMPORTANT**]
+* Positions are **less than** then the **values** should be **greater than**.
+
+> Given an array a[]. The task is to find the inversion count of a[]. Where two elements a[i] and a[j] form an inversion if a[i] > a[j] and i < j.
+
+
+> In the **given** array, how many people have **inversion** behaviour, we have to **calculate**. We have to **count** the **no. of inversions** in the given array.
+
+> We take two **indexes** which are **1 and 6**. So, **1 < 6**, but when we **compare** the values with **a[1] and a[6]**, we see that **a[1] > a[6] -> 10 > 60**. **a[1]** is **not greater than a[6]**. So this is **not an inversion**. As, **1 < 6**, so to be an counted as an  **inversion** it would have been **a[1] > a[6]** but that didn't happen. So **not an inversion**.
+
+![image](https://user-images.githubusercontent.com/54589605/236727171-1f6ed69a-c191-41fe-a8be-3c5207e4d750.png)
+
+> We take two **indexes** which are **2 and 5**. So, **2 < 5**, but when we **compare** the values with **a[2] and a[5]**, we see that **a[2] > a[5] -> 200 > 100**. Positions are **less than** then the **values** should be **greater than**. So it is an **inversion**.
+
+![image](https://user-images.githubusercontent.com/54589605/236727382-42afef3d-4a03-4648-a172-cabff29c5c58.png)
+
+
+### Inversion examples
+
+![image](https://user-images.githubusercontent.com/54589605/236727582-30d09a6d-a190-4a9b-bc7f-26d4c9b06e86.png)
+
+* If we take **50** which has position of **1**. We have to find **inversions** from the given array.
+
+1) Position -> **1 < 2**. Values -> **50 > 10**.
+2) Position -> **1 < 5**. Values -> **50 > 11**.
+3) Position -> **1 < 6**. Values -> **50 > 21**.
+4) Position -> **1 < 7**. Values -> **50 > 31**.
+5) Position -> **1 < 10**. Values -> **50 > 3**.
+
+> We also could get by **without counting positions**, as the **positions** are in **increasing** order only.
+
+* No. of inversions -> **5**.
+
+![image](https://user-images.githubusercontent.com/54589605/236728131-18c4c91a-fc8c-43bb-bb74-1a2784027a55.png)
+
+* If we take **10** which has position of **2**. We have to find **inversions** from the given array.
+
+* Position -> **2 < 1**. Values -> **10 > 50**. 
+
+> For **50**, **10** was an **inversion**. Now in **10**, don't count **50** as the **inversion**, we have already **counted** that in **50** only. Don't count **twice**. It will **increase** the number.
+
+* Don't go **back**. Go **forward**. Previous things are **already** counted.
+
+1) Position -> **2 < 10**. Values -> **10 > 3**.
+
+* No. of inversions -> **1**.
+
+* If we take **60** which has position of **3**. We have to find **inversions** from the given array.
+
+1) Position -> **3 < 5**. Values -> **60 > 11**.
+2) Position -> **3 < 6**. Values -> **60 > 21**.
+3) Position -> **3 < 7**. Values -> **60 > 31**.
+4) Position -> **3 < 10**. Values -> **60 > 3**.
+
+* No. of inversions -> **4**.
+
+* If we take **70** which has position of **4**. We have to find **inversions** from the given array.
+
+1) Position -> **4 < 5**. Values -> **70 > 11**.
+2) Position -> **4 < 6**. Values -> **70 > 21**.
+3) Position -> **4 < 7**. Values -> **70 > 31**.
+4) Position -> **4 < 10**. Values -> **70 > 3**.
+
+* No. of inversions -> **4**.
+
+![image](https://user-images.githubusercontent.com/54589605/236730331-89f1f29f-cb88-4c0a-8867-a8e7061f25c1.png)
+
+* Total **no. of inversions** -> 19.
+* Same thing, don't count **twice**. Don't **count** before. **Count** after.
+
+![image](https://user-images.githubusercontent.com/54589605/236730617-bef7e653-efd5-451b-9057-85209d1147cc.png)
+![image](https://user-images.githubusercontent.com/54589605/236730792-ec35f466-334c-4448-b80b-1c654709149f.png)
+
+* Watch **recording**.
+
+![image](https://user-images.githubusercontent.com/54589605/236730943-40a73941-ddbe-4da9-93e2-646acb3d253d.png)
+![image](https://user-images.githubusercontent.com/54589605/236731308-6648f172-7e22-463c-a08a-165b7160935a.png)
+
+## Dynamic Programming-III (34) [8th May 2023]
+
+## Remaining Syllabus
+
+* Video 40 -> https://unacademy.com/class/dynamic-programming-iii/CE4EZGLY
+* Time  -> **1hr 4mins**
+
+## Counting no. of inversions (Continued)
+
+![image](https://user-images.githubusercontent.com/54589605/236741367-7f7aa5d5-7c0e-44f4-b772-2982cf4d4298.png)
+
+* Index/Positions -> 5 < 8
+* Values -> a[5] > a[8]
+
+* If we take **two** indexes(i and j), and **i < j** and then **a[i] > a[j]**. This is called as **inversion**. [**IMPORTANT**]
+* Positions/indexes are **less than** then the **values** should be **greater than**.
+
+> Given an array a[]. The task is to find the inversion count of a[]. Where two elements a[i] and a[j] form an inversion if a[i] > a[j] and i < j.
+
+![image](https://user-images.githubusercontent.com/54589605/236741731-85d161d5-600c-4e66-ac1f-c45718d03ef3.png)
+![image](https://user-images.githubusercontent.com/54589605/236741783-5acbc128-fbd5-47c0-9a84-26efeaa51da5.png)
+
+* No **reverse** nothing.
+
+> For the element **80**, **no. of invertions** is **8**.
+
+> For the element **15**, **no. of invertions** is **4**.
+
+> For the element **10**, invertions are **1, 3**, so the **no. of invertions** is **2**.
+
+> For the element **1**, **no invertions** are possible, so the **no. of invertions** is **zero(0)**.
+
+![image](https://user-images.githubusercontent.com/54589605/236742350-2b517dce-99f8-46d0-92d6-616b6c62c71f.png)
+![image](https://user-images.githubusercontent.com/54589605/236742707-4161fb8e-4aba-4dde-953b-d0fd9ac15887.png)
+
+* For every element to find the **no invertions**, it is taking only **one scan**, so it is **n** times only. For **n** elements, it is **n * n -> n ^ 2** times.
+
+* Time complexity of **counting no. of inversions** -> **O(n^2)**. Using **Linear Search**, also called as **brute force** method.
+
+![image](https://user-images.githubusercontent.com/54589605/236743265-79078297-a631-412b-b336-ed6aba59a5b9.png)
+![image](https://user-images.githubusercontent.com/54589605/236743467-4b07aa6a-6ee4-4c09-b27c-45221596de41.png)
+![image](https://user-images.githubusercontent.com/54589605/236743669-8e4b8321-b9fa-4960-8d1f-16cc904f04ac.png)
+
+* True.
+
+* The above problem is going to be a **small** problem when there is **only one** element left in the array.
+* When **one** element, **no. of invertions** is **zero(0)**.
+
+![image](https://user-images.githubusercontent.com/54589605/236744758-c68b6961-2348-4f8f-a84b-45f2407d62f5.png)
+![image](https://user-images.githubusercontent.com/54589605/236744775-445a03c1-7116-4785-993b-3528f4019c2e.png)
+
+* We are doing **blind division** . If we do **meaningful** division then all of the **smaller** elements will go to  the **left** side and the **larger** elements will go to the **right** side. Now, the element's order are **changing**  and we cannot calculate the **no. of invertions**. Then we will not get the expected **result**.
+
+> We have to find **no. of invertions** for **given array** and not **modified** array.
+
+> If we **change** the order, then the answer is also **changes**, which is **wrong**. So, don't **change the array**. 
+
+* **Meaningful** division -> **Smaller** elements will go to  the **left** side and the **larger** elements will go to the **right** side.
+* If really needed then only do **meaningful division**.
+
+![image](https://user-images.githubusercontent.com/54589605/236745909-5c6e8900-fbb4-4b3b-9d7c-52158b36568c.png)
+
+* We need to do **blind division**. Now, as **division** time is done **blindly**, we have to do **combine** time in **meaningful way**.
+* Somewhere we have to take care.
+
+![image](https://user-images.githubusercontent.com/54589605/236747857-60c8b6e5-f83b-4f81-95d7-3975ef8c3e7b.png)
+
+* Array element's ordered **not changed**. We are always **dividing by 2**. So the **stack size or no. of tree levels** is **log n**. The **divide time** is **constant or O(1)**, as we are doing **blind division**.
+
+* The no. of times we have **divided** those many times **combine** as well.
+* Combine will take **more** time compared to **divide** time.
+
+![image](https://user-images.githubusercontent.com/54589605/236749790-19d9abc1-c9a7-4888-9f24-e371f89a8bdb.png)
+![image](https://user-images.githubusercontent.com/54589605/236750232-a60ac4ba-a482-4d57-9a0e-0b410827b077.png)
+
+* Merge algo
+
+> Whoever is **smaller**, store that person in **b** array. After sometime, **one** array is **over** then **copy** remaining elements to **b** array.
+
+![image](https://user-images.githubusercontent.com/54589605/236750910-aed7d842-6085-4493-8eeb-86b93e4d309b.png)
+
+* Time complexity of merge sort -> **O(n)**, for **every case(EC)**, because of **moves**.
+
+* **Counting the no. of invertions**.
+
+* In **combine** time we are keeping the array in **sorted** order.
+
+![image](https://user-images.githubusercontent.com/54589605/236782556-d0e5f408-ffc2-488d-a0a9-e9a0fc1ec681.png)
+![image](https://user-images.githubusercontent.com/54589605/236783051-b5198058-b20f-4c7c-aea1-ff25c7095be1.png)
+
+> It is (a[1], 1, 1). The **first** element is **80**. As of now, the **no. of inversions** is **zero(0)**. The element we have is **80** but the **no. of inversions** is still **zero(0)**. (1, 1) means **first** index and the **no. of elements** is **1**. The element we have is only **80**.
+
+> Every element should be **compared**.
+
+> (2,2) means **2nd** index and there is **one** element. The elemenet is **15** but the **no. of inversions** is **zero(0)**.
+
+> As of now, **no. of inversions** in the **left** is **zero(0)** and on the **right** is **zero(0)** as well. Left no. of inversions is **zero(0)** and right no. of inversions is **zero(0)**, so at the **parent**, the **no. of inversions** is **equal** to the **no. of inversions** the **left** is having **plus** the **no. of inversions** the **right** is having **plus** the **no. of inversions** the **parent** is having.
+
+* **No. of inversions** of **parents** -> **No. of inversions** of **parents** + **No. of inversions** of **left** + **No. of inversions** of **right**.
+
+> Calculating the **No. of inversions** of **parents**, the **left** side element is **80**, the **right** side element is **50**. Compare **both** of them, who is **smaller**? **15** is **smaller**. Whoever is **smaller**, take him **first**. 
+
+> **Small** element came from **left or right** side? Came from **right** side. Right side people having **more** index, so **more** index and **value** less. It is called as **inversion**. So, **small** came from the **right** side. If it is **inversion** then **add + 1**. AS **15** was **inversion** so we **added +1** to the **parent**.
+
+> As **15** already moved to **top**, only **80** is left at the **below**. We cannot compare **80** with anything, so we copy **80** as it is to the **top**.
+
+![image](https://user-images.githubusercontent.com/54589605/236787079-f0b882d1-8928-4d2c-b614-636ac1e27202.png)
+![image](https://user-images.githubusercontent.com/54589605/236788537-15fb0d2a-752b-464f-8923-c15718b5bbb9.png)
+
+* Exactly. **Right** side means **inversion**.
+
+![image](https://user-images.githubusercontent.com/54589605/236789282-a75e4942-ec22-48e3-8e68-8b58079e5eaa.png)
+
+* Merge algo going on.
+* In **combine** time we are **careful**. We are keeping elements properly during **combine** time. We are keeping elements properly in **combine** time. 
+* We are keeping elements in **sorted** in **combine** time.
+
+* Elements are **sorted** means **no. of invertions** will **change** or not. **NO**, why **after** calculationg, we are **sorting** that why **no. of invertions** will not **change**.
+* First calculate, **no. of invertions** then **sort**.
+
+> There was **no inversion** at the **parent** of **80 and 15**. When we **sort** there is **no inversion**. Before sorting, there is **inversion**.
+
+![image](https://user-images.githubusercontent.com/54589605/236790815-f78ce260-bda0-428e-99b4-f4c65b533206.png)
+
+> If elements are there in the **proper order** then, **counting no. of inversions** in the further levels is **easier**.
+
+* Inside the **above** problem, we are using **merge algo**.
+
+![image](https://user-images.githubusercontent.com/54589605/236791452-ce292144-42e0-450d-85eb-b21701271fe4.png)
+
+> In (3, 3), there is **one** element whose index is **3rd**.  So, the element is **10**. **No. of inversions** till now is **zero(0)**. Left side has **'1' inversion** already, the right side has **'0' inversions**.
+
+> The **no. of inversions** at the **parent** is, **no. of inversions** on the **left** side + **no. of inversions** on the **right** side + **no. of inversions** of parent. Some **inversion** maybe come in the **parent's** level.Now, we can apply **merge algo**, as **left and right** are **sorted**.
+
+> On the **left** side we have **two** elements they are **15 and 80**. On the **right** side we have **one** elements which is **10**. Left and right, both are **sorted**. We can apply **merge algo**. First person from left and right are compared. **15 and 10** are compared. **10** is **smaller**. Whoever is **smaller** we will take, but the **smaller** came from **right** side. Right side means **inversion**. **15 and 10** is  **inversion**. Whenever **inversion** will come, don't write **one**, left side how many people are there? **two**. So, directly write **two** inversions.
+
+* Whenever **inversion** will come, don't write **one**, left side how many people are there? write that many people in **inversion** count. If we get **inversion** with first then we will get **inversion** with the rest people as well because it is **sorted** array. That's the reason why we are sorting.
+* With **one comparision** we got **two** inversions.
+
+![image](https://user-images.githubusercontent.com/54589605/236797498-fb700945-b8c3-429d-ae94-7b7aad945bec.png)
+
+> Between **10 and 15**, whoever is **smaller** keep it at the **parent**, **10** is **smaller** so it is at the parent. Whoever we store, cancel it from the below level as well. Elemenet came from **right** side so it is **inversion**. Whenever **inversion** will come, don't write **one**, count the **no. of elements** on the **left** side and **write that many count** as **inversion count**. One side is **over**, **copy** the rest.
+
+> All elements should move to the **top** level. Not only moving, we should **move** in **sorted** order. So that, further counting becomes **easy**.
+
+* We are **sorting** after **counting no. of inversions**.
+
+![image](https://user-images.githubusercontent.com/54589605/236798640-7d5610ff-dc85-45d6-b628-e5b2345fa3bd.png)
+
+> Comparing **1 and 75**, **smaller** came from **left** side, so **no inversions**. On the **left** side, index is **lesser** and the value is also **lesser**. At the Parent level also **no inversions**.
+
+![image](https://user-images.githubusercontent.com/54589605/236799229-187bde2b-ef7d-4f56-a01e-e38542845dec.png)
+
+> Left side has **1 and 75**, right side has **92**. Comparing **1 and 92**, **1** is **smaller**. As **smaller** came from the **left**, so **no inversion**. Whoever is **smaller**, **copy**, cancel it and move it to the **parent**.
+
+> Comparing **75 and 92**, **75** is **smaller**. As **smaller** came from the **left**, so **no inversion**. Whoever is **smaller**, **copy**, cancel it and move it to the **parent**.
+
+![image](https://user-images.githubusercontent.com/54589605/236800046-39dbdad2-536b-4060-ba8d-74bd057df611.png)
+
+> On the **left** side we have **three(3)** inversions and on the **right** we have **zero(0)** inversions. Left side has **3** elements and right side also has **3** elements.
+
+> We have **10,15 and 80** on the **left**. On the **right** we have **1, 75 and 92**. Compare **first** elements which are **10 and 1**. **1** is **smaller**, **smaller** came from **right**. So it is **inversion**. We have **3** elements on the **left**, so the **no. of inversions** is **3** only. 
+
+![image](https://user-images.githubusercontent.com/54589605/236800961-f771b251-ea28-482e-93f5-c9054e92cffb.png)
+
+> Copy **1** to the parent and then cancel it . Between **10 and 75**, **10** is **smaller**, copy **10** to the parent and cancel it. **10** is not **inversion** as it is from **left**. Between **15 and 75**, **15** is **smaller**, copy **15** to the parent and cancel it. **15** is not **inversion** as it is from **left**. Between **80 and 75**, **75** is **smaller**, copy **75** to the parent and cancel it. **75** is **inversion** as it is from **left**. There is only **one** element on the **left** only so add(+1) to the count of **inversions** in the parent. Between **80 and 92**, **80** is **smaller**, copy **80** to the parent and cancel it. **80** is not **inversion** as it is from **left**.
+
+> One group is over, copy the remaining elements. No. of inversions on the **left** is **7** now.
+
+* 1, 10, 15, 75, 80, 92
+
+![image](https://user-images.githubusercontent.com/54589605/236802713-ec26536b-5af7-4300-95d0-6c4a402bc98f.png)
+![image](https://user-images.githubusercontent.com/54589605/236802953-6da97695-4e5b-4526-bdcb-00d27cadf176.png)
+
+* Before **merging**, **no. of inversions** we have is **NI**. Between **a[i] and a[j]**, we can see that **i** elements are the **left** side elements, **j** are the **right** side people. Left means index less, right means index more. **i** has **less** index but value is **more**, so **invertions** possible. So, the **if** block is **invertions**. Whenever the **if** block is **true** it is **invertions**. 
+
+* So the **no. of invertions** is **NI = NI + (mid - i + 1)
+* **NI** -> **no. of invertions** which are already existing.
+* (mid - i + 1) -> No. of elements on the **left** side.
+
+![image](https://user-images.githubusercontent.com/54589605/236808363-9e8e46ba-d4f5-4e53-8a7a-0778e26c080f.png)
+![image](https://user-images.githubusercontent.com/54589605/236808387-8f7e9a7d-2398-48e7-b387-65bf6c4fe269.png)
+
+* It is doing **merging** and at the **same** time it will **update/count** the **no. of invertions** also.
+* NI finally contains the **total no. of invertions**.
+* At the end array is **sorted**.
+* If we **don't sort** then the **time complexity** will **increase**. Then, we have to compare **every left** element with **every right** element.
+* If **sorted** then with **one comparison**, we are able to find the **no. of inversions** at a time.
+* At the starting it is an **un-sorted** array. Because of **un-sorted** array, we have to compare **everyone** with **everyone**.
+* **Merge algo** done **many** time.
+
+![image](https://user-images.githubusercontent.com/54589605/236811857-97077b6d-be2f-447b-8841-1cd175ab502e.png)
+![image](https://user-images.githubusercontent.com/54589605/236811912-250d7585-a17c-41dc-9e9e-a337f349f7d0.png)
+![image](https://user-images.githubusercontent.com/54589605/236812188-967c7c54-f92b-4640-8d6d-2cfd88bd743e.png)
+![image](https://user-images.githubusercontent.com/54589605/236812289-a9012ff3-ddd9-489a-bc6a-0613ff04feb6.png)
+
+* Divide time is **constant**.
+* Combine time is **O(n)**, which is **merge algo**.
+
+* Time complexity of **no. of inversions** -> **O(1) + O(n) + T(n/2) + T(n/2)** -> **O(n) + 2 * T(n/2)** -> **O(n * log n)**.
+* It is **exactly merge sort** only. 
+
+![image](https://user-images.githubusercontent.com/54589605/236812879-a11c2121-5d5f-479b-8db3-3cf691e80faa.png)
+
+* No change at all.
+* The purpose is for **counting no. of inversions**.
+* Stack space is **log n**.
+
+* **Counting no. of inversions** == **Merge sort** only.
+* Everything **same**.
+
+![image](https://user-images.githubusercontent.com/54589605/236813336-f13cd11d-efa5-4f97-9783-bd68cce1c636.png)
+![image](https://user-images.githubusercontent.com/54589605/236813556-fad8f471-df19-4ca6-82b1-a9f6bd2e0dd6.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
 
 
 # Practice Videos (27th April 2023)
