@@ -9665,7 +9665,11 @@ Steps:
 ![image](https://user-images.githubusercontent.com/54589605/236731308-6648f172-7e22-463c-a08a-165b7160935a.png)
 
 
+## Remaining Syllabus
 
+* Video 40 -> https://unacademy.com/class/dynamic-programming-iii/CE4EZGLY
+
+> Time  -> **1hr 4mins**
 
 
 
