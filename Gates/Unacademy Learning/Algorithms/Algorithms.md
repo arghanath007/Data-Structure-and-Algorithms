@@ -9668,23 +9668,92 @@ Steps:
 ## Remaining Syllabus
 
 * Video 40 -> https://unacademy.com/class/dynamic-programming-iii/CE4EZGLY
+* Time  -> **1hr 4mins**
 
-> Time  -> **1hr 4mins**
+## Counting no. of inversions (Continued)
 
+![image](https://user-images.githubusercontent.com/54589605/236741367-7f7aa5d5-7c0e-44f4-b772-2982cf4d4298.png)
 
+* Index/Positions -> 5 < 8
+* Values -> a[5] > a[8]
 
+* If we take **two** indexes(i and j), and **i < j** and then **a[i] > a[j]**. This is called as **inversion**. [**IMPORTANT**]
+* Positions/indexes are **less than** then the **values** should be **greater than**.
 
+> Given an array a[]. The task is to find the inversion count of a[]. Where two elements a[i] and a[j] form an inversion if a[i] > a[j] and i < j.
 
+![image](https://user-images.githubusercontent.com/54589605/236741731-85d161d5-600c-4e66-ac1f-c45718d03ef3.png)
+![image](https://user-images.githubusercontent.com/54589605/236741783-5acbc128-fbd5-47c0-9a84-26efeaa51da5.png)
 
+* No **reverse** nothing.
 
+> For the element **80**, **no. of invertions** is **8**.
 
+> For the element **15**, **no. of invertions** is **4**.
 
+> For the element **10**, invertions are **1, 3**, so the **no. of invertions** is **2**.
 
+> For the element **1**, **no invertions** are possible, so the **no. of invertions** is **zero(0)**.
 
+![image](https://user-images.githubusercontent.com/54589605/236742350-2b517dce-99f8-46d0-92d6-616b6c62c71f.png)
+![image](https://user-images.githubusercontent.com/54589605/236742707-4161fb8e-4aba-4dde-953b-d0fd9ac15887.png)
 
+* For every element to find the **no invertions**, it is taking only **one scan**, so it is **n** times only. For **n** elements, it is **n * n -> n ^ 2** times.
 
+* Time complexity of **counting no. of inversions** -> **O(n^2)**. Using **Linear Search**, also called as **brute force** method.
 
+![image](https://user-images.githubusercontent.com/54589605/236743265-79078297-a631-412b-b336-ed6aba59a5b9.png)
+![image](https://user-images.githubusercontent.com/54589605/236743467-4b07aa6a-6ee4-4c09-b27c-45221596de41.png)
+![image](https://user-images.githubusercontent.com/54589605/236743669-8e4b8321-b9fa-4960-8d1f-16cc904f04ac.png)
 
+* True.
+
+* The above problem is going to be a **small** problem when there is **only one** element left in the array.
+* When **one** element, **no. of invertions** is **zero(0)**.
+
+![image](https://user-images.githubusercontent.com/54589605/236744758-c68b6961-2348-4f8f-a84b-45f2407d62f5.png)
+![image](https://user-images.githubusercontent.com/54589605/236744775-445a03c1-7116-4785-993b-3528f4019c2e.png)
+
+* We are doing **blind division** . If we do **meaningful** division then all of the **smaller** elements will go to  the **left** side and the **larger** elements will go to the **right** side. Now, the element's order are **changing**  and we cannot calculate the **no. of invertions**. Then we will not get the expected **result**.
+
+> We have to find **no. of invertions** for **given array** and not **modified** array.
+
+> If we **change** the order, then the answer is also **changes**, which is **wrong**. So, don't **change the array**. 
+
+* **Meaningful** division -> **Smaller** elements will go to  the **left** side and the **larger** elements will go to the **right** side.
+* If really needed then only do **meaningful division**.
+
+![image](https://user-images.githubusercontent.com/54589605/236745909-5c6e8900-fbb4-4b3b-9d7c-52158b36568c.png)
+
+* We need to do **blind division**. Now, as **division** time is done **blindly**, we have to do **combine** time in **meaningful way**.
+* Somewhere we have to take care.
+
+![image](https://user-images.githubusercontent.com/54589605/236747857-60c8b6e5-f83b-4f81-95d7-3975ef8c3e7b.png)
+
+* Array element's ordered **not changed**. We are always **dividing by 2**. So the **stack size or no. of tree levels** is **log n**. The **divide time** is **constant or O(1)**, as we are doing **blind division**.
+
+* The no. of times we have **divided** those many times **combine** as well.
+* Combine will take **more** time compared to **divide** time.
+
+![image](https://user-images.githubusercontent.com/54589605/236749790-19d9abc1-c9a7-4888-9f24-e371f89a8bdb.png)
+![image](https://user-images.githubusercontent.com/54589605/236750232-a60ac4ba-a482-4d57-9a0e-0b410827b077.png)
+
+* Merge algo
+
+> Whoever is **smaller**, store that person in **b** array. After sometime, **one** array is **over** then **copy** remaining elements to **b** array.
+
+![image](https://user-images.githubusercontent.com/54589605/236750910-aed7d842-6085-4493-8eeb-86b93e4d309b.png)
+
+* Time complexity of merge sort -> **O(n)**, for **every case(EC)**, because of **moves**.
+
+* **Counting the no. of invertions**.
+
+* In **combine** time we are keeping the array in **sorted** order.
+![image](https://user-images.githubusercontent.com/54589605/236752735-eafbd286-c702-4c7f-942e-b8f9784a5823.png)
+
+* Elements are **sorted** means **no. of invertions** will **change** or not. **NO**, why **after** calculationg
+
+* **2hrs**.
 
 
 
