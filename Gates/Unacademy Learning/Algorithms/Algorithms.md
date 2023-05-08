@@ -9880,6 +9880,12 @@ Steps:
 ![image](https://user-images.githubusercontent.com/54589605/236813556-fad8f471-df19-4ca6-82b1-a9f6bd2e0dd6.png)
 
 
+## Waiting for newer videos
+
+* Link -> https://unacademy.com/course/complete-course-on-algorithms-gate/K8EKOMCE
+
+* Counting no. of Inversions(DONE)
+* Selection Procedure(DONE)
 
 
 

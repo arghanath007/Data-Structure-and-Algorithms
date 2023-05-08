@@ -5,7 +5,8 @@
 2) Aptitude -> Going on
 3) Digital Logic -> Completed[25th March 2023]  [Do practice question while revision]
 4) COA -> Started
-5) Algorithms-> Going on
+5) Algorithms-> Going on [Waiting for next of the syllabus videos]
+6) OS -> Starting on 8th May 2023
 
 ## RoadMap
 
