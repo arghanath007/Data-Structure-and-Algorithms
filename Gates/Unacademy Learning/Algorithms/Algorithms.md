@@ -9749,11 +9749,149 @@ Steps:
 * **Counting the no. of invertions**.
 
 * In **combine** time we are keeping the array in **sorted** order.
-![image](https://user-images.githubusercontent.com/54589605/236752735-eafbd286-c702-4c7f-942e-b8f9784a5823.png)
 
-* Elements are **sorted** means **no. of invertions** will **change** or not. **NO**, why **after** calculationg
+![image](https://user-images.githubusercontent.com/54589605/236782556-d0e5f408-ffc2-488d-a0a9-e9a0fc1ec681.png)
+![image](https://user-images.githubusercontent.com/54589605/236783051-b5198058-b20f-4c7c-aea1-ff25c7095be1.png)
 
-* **2hrs**.
+> It is (a[1], 1, 1). The **first** element is **80**. As of now, the **no. of inversions** is **zero(0)**. The element we have is **80** but the **no. of inversions** is still **zero(0)**. (1, 1) means **first** index and the **no. of elements** is **1**. The element we have is only **80**.
+
+> Every element should be **compared**.
+
+> (2,2) means **2nd** index and there is **one** element. The elemenet is **15** but the **no. of inversions** is **zero(0)**.
+
+> As of now, **no. of inversions** in the **left** is **zero(0)** and on the **right** is **zero(0)** as well. Left no. of inversions is **zero(0)** and right no. of inversions is **zero(0)**, so at the **parent**, the **no. of inversions** is **equal** to the **no. of inversions** the **left** is having **plus** the **no. of inversions** the **right** is having **plus** the **no. of inversions** the **parent** is having.
+
+* **No. of inversions** of **parents** -> **No. of inversions** of **parents** + **No. of inversions** of **left** + **No. of inversions** of **right**.
+
+> Calculating the **No. of inversions** of **parents**, the **left** side element is **80**, the **right** side element is **50**. Compare **both** of them, who is **smaller**? **15** is **smaller**. Whoever is **smaller**, take him **first**. 
+
+> **Small** element came from **left or right** side? Came from **right** side. Right side people having **more** index, so **more** index and **value** less. It is called as **inversion**. So, **small** came from the **right** side. If it is **inversion** then **add + 1**. AS **15** was **inversion** so we **added +1** to the **parent**.
+
+> As **15** already moved to **top**, only **80** is left at the **below**. We cannot compare **80** with anything, so we copy **80** as it is to the **top**.
+
+![image](https://user-images.githubusercontent.com/54589605/236787079-f0b882d1-8928-4d2c-b614-636ac1e27202.png)
+![image](https://user-images.githubusercontent.com/54589605/236788537-15fb0d2a-752b-464f-8923-c15718b5bbb9.png)
+
+* Exactly. **Right** side means **inversion**.
+
+![image](https://user-images.githubusercontent.com/54589605/236789282-a75e4942-ec22-48e3-8e68-8b58079e5eaa.png)
+
+* Merge algo going on.
+* In **combine** time we are **careful**. We are keeping elements properly during **combine** time. We are keeping elements properly in **combine** time. 
+* We are keeping elements in **sorted** in **combine** time.
+
+* Elements are **sorted** means **no. of invertions** will **change** or not. **NO**, why **after** calculationg, we are **sorting** that why **no. of invertions** will not **change**.
+* First calculate, **no. of invertions** then **sort**.
+
+> There was **no inversion** at the **parent** of **80 and 15**. When we **sort** there is **no inversion**. Before sorting, there is **inversion**.
+
+![image](https://user-images.githubusercontent.com/54589605/236790815-f78ce260-bda0-428e-99b4-f4c65b533206.png)
+
+> If elements are there in the **proper order** then, **counting no. of inversions** in the further levels is **easier**.
+
+* Inside the **above** problem, we are using **merge algo**.
+
+![image](https://user-images.githubusercontent.com/54589605/236791452-ce292144-42e0-450d-85eb-b21701271fe4.png)
+
+> In (3, 3), there is **one** element whose index is **3rd**.  So, the element is **10**. **No. of inversions** till now is **zero(0)**. Left side has **'1' inversion** already, the right side has **'0' inversions**.
+
+> The **no. of inversions** at the **parent** is, **no. of inversions** on the **left** side + **no. of inversions** on the **right** side + **no. of inversions** of parent. Some **inversion** maybe come in the **parent's** level.Now, we can apply **merge algo**, as **left and right** are **sorted**.
+
+> On the **left** side we have **two** elements they are **15 and 80**. On the **right** side we have **one** elements which is **10**. Left and right, both are **sorted**. We can apply **merge algo**. First person from left and right are compared. **15 and 10** are compared. **10** is **smaller**. Whoever is **smaller** we will take, but the **smaller** came from **right** side. Right side means **inversion**. **15 and 10** is  **inversion**. Whenever **inversion** will come, don't write **one**, left side how many people are there? **two**. So, directly write **two** inversions.
+
+* Whenever **inversion** will come, don't write **one**, left side how many people are there? write that many people in **inversion** count. If we get **inversion** with first then we will get **inversion** with the rest people as well because it is **sorted** array. That's the reason why we are sorting.
+* With **one comparision** we got **two** inversions.
+
+![image](https://user-images.githubusercontent.com/54589605/236797498-fb700945-b8c3-429d-ae94-7b7aad945bec.png)
+
+> Between **10 and 15**, whoever is **smaller** keep it at the **parent**, **10** is **smaller** so it is at the parent. Whoever we store, cancel it from the below level as well. Elemenet came from **right** side so it is **inversion**. Whenever **inversion** will come, don't write **one**, count the **no. of elements** on the **left** side and **write that many count** as **inversion count**. One side is **over**, **copy** the rest.
+
+> All elements should move to the **top** level. Not only moving, we should **move** in **sorted** order. So that, further counting becomes **easy**.
+
+* We are **sorting** after **counting no. of inversions**.
+
+![image](https://user-images.githubusercontent.com/54589605/236798640-7d5610ff-dc85-45d6-b628-e5b2345fa3bd.png)
+
+> Comparing **1 and 75**, **smaller** came from **left** side, so **no inversions**. On the **left** side, index is **lesser** and the value is also **lesser**. At the Parent level also **no inversions**.
+
+![image](https://user-images.githubusercontent.com/54589605/236799229-187bde2b-ef7d-4f56-a01e-e38542845dec.png)
+
+> Left side has **1 and 75**, right side has **92**. Comparing **1 and 92**, **1** is **smaller**. As **smaller** came from the **left**, so **no inversion**. Whoever is **smaller**, **copy**, cancel it and move it to the **parent**.
+
+> Comparing **75 and 92**, **75** is **smaller**. As **smaller** came from the **left**, so **no inversion**. Whoever is **smaller**, **copy**, cancel it and move it to the **parent**.
+
+![image](https://user-images.githubusercontent.com/54589605/236800046-39dbdad2-536b-4060-ba8d-74bd057df611.png)
+
+> On the **left** side we have **three(3)** inversions and on the **right** we have **zero(0)** inversions. Left side has **3** elements and right side also has **3** elements.
+
+> We have **10,15 and 80** on the **left**. On the **right** we have **1, 75 and 92**. Compare **first** elements which are **10 and 1**. **1** is **smaller**, **smaller** came from **right**. So it is **inversion**. We have **3** elements on the **left**, so the **no. of inversions** is **3** only. 
+
+![image](https://user-images.githubusercontent.com/54589605/236800961-f771b251-ea28-482e-93f5-c9054e92cffb.png)
+
+> Copy **1** to the parent and then cancel it . Between **10 and 75**, **10** is **smaller**, copy **10** to the parent and cancel it. **10** is not **inversion** as it is from **left**. Between **15 and 75**, **15** is **smaller**, copy **15** to the parent and cancel it. **15** is not **inversion** as it is from **left**. Between **80 and 75**, **75** is **smaller**, copy **75** to the parent and cancel it. **75** is **inversion** as it is from **left**. There is only **one** element on the **left** only so add(+1) to the count of **inversions** in the parent. Between **80 and 92**, **80** is **smaller**, copy **80** to the parent and cancel it. **80** is not **inversion** as it is from **left**.
+
+> One group is over, copy the remaining elements. No. of inversions on the **left** is **7** now.
+
+* 1, 10, 15, 75, 80, 92
+
+![image](https://user-images.githubusercontent.com/54589605/236802713-ec26536b-5af7-4300-95d0-6c4a402bc98f.png)
+![image](https://user-images.githubusercontent.com/54589605/236802953-6da97695-4e5b-4526-bdcb-00d27cadf176.png)
+
+* Before **merging**, **no. of inversions** we have is **NI**. Between **a[i] and a[j]**, we can see that **i** elements are the **left** side elements, **j** are the **right** side people. Left means index less, right means index more. **i** has **less** index but value is **more**, so **invertions** possible. So, the **if** block is **invertions**. Whenever the **if** block is **true** it is **invertions**. 
+
+* So the **no. of invertions** is **NI = NI + (mid - i + 1)
+* **NI** -> **no. of invertions** which are already existing.
+* (mid - i + 1) -> No. of elements on the **left** side.
+
+![image](https://user-images.githubusercontent.com/54589605/236808363-9e8e46ba-d4f5-4e53-8a7a-0778e26c080f.png)
+![image](https://user-images.githubusercontent.com/54589605/236808387-8f7e9a7d-2398-48e7-b387-65bf6c4fe269.png)
+
+* It is doing **merging** and at the **same** time it will **update/count** the **no. of invertions** also.
+* NI finally contains the **total no. of invertions**.
+* At the end array is **sorted**.
+* If we **don't sort** then the **time complexity** will **increase**. Then, we have to compare **every left** element with **every right** element.
+* If **sorted** then with **one comparison**, we are able to find the **no. of inversions** at a time.
+* At the starting it is an **un-sorted** array. Because of **un-sorted** array, we have to compare **everyone** with **everyone**.
+* **Merge algo** done **many** time.
+
+![image](https://user-images.githubusercontent.com/54589605/236811857-97077b6d-be2f-447b-8841-1cd175ab502e.png)
+![image](https://user-images.githubusercontent.com/54589605/236811912-250d7585-a17c-41dc-9e9e-a337f349f7d0.png)
+![image](https://user-images.githubusercontent.com/54589605/236812188-967c7c54-f92b-4640-8d6d-2cfd88bd743e.png)
+![image](https://user-images.githubusercontent.com/54589605/236812289-a9012ff3-ddd9-489a-bc6a-0613ff04feb6.png)
+
+* Divide time is **constant**.
+* Combine time is **O(n)**, which is **merge algo**.
+
+* Time complexity of **no. of inversions** -> **O(1) + O(n) + T(n/2) + T(n/2)** -> **O(n) + 2 * T(n/2)** -> **O(n * log n)**.
+* It is **exactly merge sort** only. 
+
+![image](https://user-images.githubusercontent.com/54589605/236812879-a11c2121-5d5f-479b-8db3-3cf691e80faa.png)
+
+* No change at all.
+* The purpose is for **counting no. of inversions**.
+* Stack space is **log n**.
+
+* **Counting no. of inversions** == **Merge sort** only.
+* Everything **same**.
+
+![image](https://user-images.githubusercontent.com/54589605/236813336-f13cd11d-efa5-4f97-9783-bd68cce1c636.png)
+![image](https://user-images.githubusercontent.com/54589605/236813556-fad8f471-df19-4ca6-82b1-a9f6bd2e0dd6.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
