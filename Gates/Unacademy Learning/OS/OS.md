@@ -58,7 +58,102 @@
 * Single program cannot keep **CPU and I/O** devices busy simultaneously. 
 * Not every efficient CPU utilization.
 
-**Start from 1hr 15mins**.
+![image](https://user-images.githubusercontent.com/54589605/236962298-0c22d23e-82d5-405f-a39e-9530310130ac.png)
+
+## Multi-programming OS
+
+> This OS allows more than one program or multiple processes/programs at a time in RAM.
+
+![image](https://user-images.githubusercontent.com/54589605/236962434-f03db9de-52be-4854-b594-2f3f28d7a9fb.png)
+
+> The no. of processes the CPU can run at a time is **1** only.
+
+> If one process was running on CPU and that process has gone for **I/O** operations then another process can use the resources of CPU. Parallel work is going on. **YES**.
+
+> If want to use/utilize the CPU as much as possible then as many processes we have the better it is.
+
+![image](https://user-images.githubusercontent.com/54589605/236963168-7c94bfe0-cefe-4a45-9c60-ea9727c9da3a.png)
+
+* Better CPU utilization as compared to uni-porgramming OS, because if a process goes for **I/O** devices then other processes will be ready to run on the CPU. 
+
+### Degree of Multiprogramming
+
+* It tells at a time, how many no. of processes are there in the main memory.
+* At a time there are **5** processes in **main memory** then the **degree of multiprogramming** will be **5**.
+* As the **degree of multiprogramming** increases, CPU utilization also increases but upto a **certain limit**.
+
+### Types of Multiprogramming OS
+
+1) **Non-preemptive** -> A process can leave CPU only with it's own wish.
+
+* Cases:-
+
+* Either process completed
+* Or process wants to use **I\O**.
+
+> For whatever is the **external** reason, the process will never leave CPU. For any forceful reason as well, the process will never leave CPU. 
+
+* The design of the OS is in such a way that it cannot **preempt** any running processes from the CPU. Then that OS is called as **non-preemptive multiprogramming OS**.
+
+2) Preemptive -> A ruuning process can be taken out of CPU forcefully.
+
+
+## Multi-tasking OS(Time Sharing)
+
+> **Multi-tasking OS** is an **extension** of **preemptive multiprogramming OS**, in which processes are executed in **round-robin** manner. It is a **type** of **multiprogramming OS**.
+
+![image](https://user-images.githubusercontent.com/54589605/236966726-ee43b08b-f97a-4526-aa25-baed95d0dd09.png)
+
+* It is called as **Time Sharing OS** because the **time of CPU or CPU time** is being shared equally among **many processes**.
+
+## Multi-processing OS
+
+* It is used on computers having multiple CPUs.
+
+### Types of Multi-processing OS
+
+1) Tightly coupled or Shared Memory -> We have **multiple** CPUs and all of the CPUs will share a single **main memory**.
+2) Loosely coupled or Distributed system -> We have **multiple** CPUs here also but all of the CPUs have their own **main memory or RAM** now. All of the CPUs will represent a **single computer system**.
+
+![image](https://user-images.githubusercontent.com/54589605/236968395-661da22b-ace8-4fcb-9b23-3f9db94ae6ca.png)
+![image](https://user-images.githubusercontent.com/54589605/236968642-6737721e-6f8c-41c2-ad51-fe7cc660c21a.png)
+![image](https://user-images.githubusercontent.com/54589605/236968669-8a5c110f-87e3-46a7-b5ee-6e021060a51d.png)
+![image](https://user-images.githubusercontent.com/54589605/236968729-c0051294-9282-457f-bb8e-b8c3b57461ed.png)
+
+* NO. Cores and CPUs are **different**. Cores means a processing unit.
+
+## Multi-user OS
+
+* This OS allows multiple users to use one computer system simultaneously.
+
+![image](https://user-images.githubusercontent.com/54589605/236969366-bfac84b1-3507-4d2d-85d9-573c76a5afed.png)
+![image](https://user-images.githubusercontent.com/54589605/236969518-7cbdb781-c942-4adf-87c0-bc6fa26730e8.png)
+![image](https://user-images.githubusercontent.com/54589605/236969696-4556181d-ba9e-46c9-aed2-84c6b2672c2b.png)
+
+## Real-time OS
+
+* It runs on computer system which runs on real-time event or data.
+* Every process get a **deadline** and each process should complete within deadline.
+
+![image](https://user-images.githubusercontent.com/54589605/236970036-65c1049e-800d-46d8-b85f-6e1ea7449581.png)
+
+### Types of Real-time OS
+
+1) Hard
+2) Soft
+
+## Embedded OS
+
+* Used on embedded systems.
+
+## Hand-Held OS
+
+* OS used on devices like phones, tables, etc.
+
+
+
+
+
 
 
 
