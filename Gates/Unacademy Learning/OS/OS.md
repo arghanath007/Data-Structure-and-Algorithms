@@ -95,7 +95,9 @@
 
 * The design of the OS is in such a way that it cannot **preempt** any running processes from the CPU. Then that OS is called as **non-preemptive multiprogramming OS**.
 
-2) Preemptive -> A ruuning process can be taken out of CPU forcefully.
+2) **Preemptive** -> A ruuning process can be taken out of CPU forcefully.
+
+![image](https://user-images.githubusercontent.com/54589605/236982461-7d0a8087-f634-460d-8510-bde0d4250a95.png)
 
 
 ## Multi-tasking OS(Time Sharing)
@@ -149,6 +151,149 @@
 ## Hand-Held OS
 
 * OS used on devices like phones, tables, etc.
+
+## Dual_Mode_Operation (2) [9th May 2023]
+
+* Preemptive multi-programming -> Forcefully stopping one process running in the CPU.
+
+![image](https://user-images.githubusercontent.com/54589605/236982830-327226a3-37db-43b9-bda9-8cee2da6cbad.png)
+
+* Why is Preemptive programming only in multi-programming and not in uni-programming?
+
+> **Uni-programming** has only **one** process running in the CPU. If we forcefully stop that only one process then there is no one to run in-place of the process.
+
+* So, **uni-programming** OS is always **non-preemptive** OS only.
+
+![image](https://user-images.githubusercontent.com/54589605/236982559-0d152ec9-1603-48c1-9815-8e70387f160e.png)
+![image](https://user-images.githubusercontent.com/54589605/236983533-f6a17572-f82f-40d5-9984-a50d85981ae8.png)
+
+## Parts of OS
+
+![image](https://user-images.githubusercontent.com/54589605/236984880-b7b7f0e6-6f5b-4fca-ad97-1808e2270e44.png)
+
+* All of the codes/modules of the entire OS, they are **divided** into **two** categories.
+
+1) Kernel -> The **core** functionality of the OS, which are how the OS behaves, functions, works, stores data. All of the **core** functionality of the OS are **stored** within the **kernel** itself. All of the code, that belongs to the **core** functionality of the OS are **stored** within the **kernel** itself.
+2) Shell -> It stores the **interface** to use the **kernel**.
+
+![image](https://user-images.githubusercontent.com/54589605/236985605-55f9fd65-b15c-452e-9cac-929395179aba.png)
+![image](https://user-images.githubusercontent.com/54589605/236986108-8cf87cba-b666-4b94-978e-fea2cc1cce27.png)
+![image](https://user-images.githubusercontent.com/54589605/236986183-f096fc80-07b0-481c-8ade-39ec4c7d2510.png)
+![image](https://user-images.githubusercontent.com/54589605/236986407-023d39d6-fc13-4b6a-ae41-fb8d2d86e8cb.png)
+
+* YES.
+
+* Only OS can access/execute the **privilaged or protected** operations. Any other process running on the system wants to 
+access/execute the **privilaged or protected** operations but it can't. The other process will make a **request** to the OS, that do the **privilaged or protected** operations for that process. OS will finish that **privilaged or protected** operations and OS will tell to the other process that the operation is **completed**.
+
+* Any other process trying to these **privilaged or protected** operations, then the **process** has to **request** the OS and that **request** is done through **system call**.
+
+## System Call.
+
+* System Call -> It is a **request** to the OS from either an **user** or from another **process**, to perfrom any  **privilaged or protected** operations.
+
+![image](https://user-images.githubusercontent.com/54589605/236988288-2c0732fc-ba3e-439f-addf-0f8dc187768d.png)
+![image](https://user-images.githubusercontent.com/54589605/236991414-5a2998f7-d058-4b3a-9eba-ada40a6e9140.png)
+
+## Dual Mode of Operation
+
+1) User Mode -> Normal user mode.
+2) Kernel/System/Supervisor/Privileged Mode -> All of the **privilaged or protected** operations are **available/allowed** here.
+
+* When **OS** is running, the system is in **kernel** mode.
+* When **user processes** are running, then the system is in **user** mode.
+
+> A normal user process in running on the CPU, it required some **privilaged or protected** operations, but it cannot do it on it's own as it is in **user mode**. So, the process does a **system call**, then the mode of the system is **changed** to **kernel** mode. Now, the OS executes the **response** of the system call. The program written behind the system call is executed. System call is **executed**. **Privilaged or protected** operations is executed by the OS and returned, the mode of the system is again back to **user** mode.
+
+> Now the user process takes the result of the **privilaged or protected** operations and takes it forward into the user process.
+
+![image](https://user-images.githubusercontent.com/54589605/236993198-58a3028b-b8e6-4d55-9b56-d339c1f5c604.png)
+
+* Why dual mode of operation is used?
+
+> For **protection**.
+
+![image](https://user-images.githubusercontent.com/54589605/236993647-c7be7c2d-436f-4def-8daa-7aa4477ae489.png)
+
+* YES.
+
+## Process
+
+![image](https://user-images.githubusercontent.com/54589605/236993844-e3a0010b-67ec-435f-a0c9-316b57fa6d37.png)
+
+* Process -> Program under execution is called as **process**.
+* Program -> Bunch/Set of instructions that can be run on the CPU.
+* Process -> **Program** + **Runtime activity**.
+
+* Normal C code written by **user** is converted using **compiler** to **low level language code or binary or byte or machine level code**. 
+* Each and every statement in the **machine level code** is called as **instruction**.
+
+* c = a + b; -> Programming statement. Not an instruction as it cannot directly run on the CPU.
+
+![image](https://user-images.githubusercontent.com/54589605/236998465-b714fec7-e278-4ff6-92be-3c77b2cd1844.png)
+
+* **One** instruction of the program is taken into the CPU and then it is run on the CPU. After that instruction is **completed** then another instruction is taken into the CPU.
+* The whole program doesn't go. **Only one instruction** is sent at a time to the CPU.
+
+![image](https://user-images.githubusercontent.com/54589605/236998777-584dd599-7c34-4e9d-a41d-417d437b6a00.png)
+
+> Which **instruction** will be executed next is stored in the **main memory(RAM)** and the address of that instruction is maintained within the cpu itself, through **PC or program counter**.
+
+![image](https://user-images.githubusercontent.com/54589605/236999608-89617c10-509b-4e13-a1ae-e5d23f4b6aa3.png)
+![image](https://user-images.githubusercontent.com/54589605/236999774-c3b00620-89e2-412d-a30d-59f5707fa2df.png)
+
+* YES.
+
+![image](https://user-images.githubusercontent.com/54589605/237000189-b3f448c9-a1ce-4b18-a33e-ac3356cb214c.png)
+
+> A **program** when it starts running, then with that program, **runtime activity** is also attached to it. Then that **program** becomes a **process**.
+
+* **Runtime activity** comes from the OS, OS attaches **runtime activity** to the program , so that the program can be **controlled** and run.
+* Running program is a **process**.
+
+![image](https://user-images.githubusercontent.com/54589605/237001986-54b788f8-a255-4357-9e7f-c5a4ec86aa29.png)
+
+* In the perspective of the CPU, **process** is some unit which can be **scheduled** on the CPU and then run on the CPU.
+* One at a time, OS sends the **processes** to the CPU, so that the **processes** are run on the CPU.
+* If the OS wants to control the whole system, then it is done through **processes**.
+
+![image](https://user-images.githubusercontent.com/54589605/237002922-e9e3a40d-d9fd-4b56-86c1-c2d50a4aada3.png)
+![image](https://user-images.githubusercontent.com/54589605/237003120-74fa3960-e396-46b8-ac47-7c20421703db.png)
+
+* **Process**
+
+1) Definition -> Instructions(Program)
+2) Representation/Implementation in memory
+3) Operations
+4) Attributes
+
+## Representation of a Process
+
+* In the whole **OS** subject, we will be talking about **multi-programming** OS. More than **one** process is present in the main memory.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
