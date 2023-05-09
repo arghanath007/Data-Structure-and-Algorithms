@@ -9887,6 +9887,10 @@ Steps:
 * Counting no. of Inversions(DONE)
 * Selection Procedure(DONE)
 
+![image](https://user-images.githubusercontent.com/54589605/236865111-4f0dd4d4-153f-4129-92b6-0982aa62fe9b.png)
+
+
+
 
 
 
