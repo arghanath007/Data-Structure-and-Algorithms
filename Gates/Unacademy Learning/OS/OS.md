@@ -267,48 +267,126 @@ access/execute the **privilaged or protected** operations but it can't. The othe
 3) Operations
 4) Attributes
 
+![image](https://user-images.githubusercontent.com/54589605/237062152-bd82958d-4d83-4f7b-955c-c22805c8a05c.png)
+
 ## Representation of a Process
 
 * In the whole **OS** subject, we will be talking about **multi-programming** OS. More than **one** process is present in the main memory.
 
+> Whenever a programs becomes a **process** then the OS stores the **process** in main memory. Then that **storage** is being divided into **4** sections.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/676847a4-8f35-4a4a-898d-d8e8c1d80f37)
+
+* Code or Text section -> Instructions.
+* Stack, Heap and Data section -> Part of **Runtime activity**.
+* Data Section -> Global and static variables
+* Heap -> Dynamic Memory Allocation
+* Stack -> Activation Record which contains local variables, function parameters, return address.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5f0af3d9-75cd-4e4d-b1e8-cc9c0b3fb1d3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7edc96a-3ee7-49fc-80e3-ccbad0598d57)
+
+* **Representation of a Process** diagram is for each and every process. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a6ef6d06-ea6a-4f96-bfa7-08b9a4abdad8)
+
+* **1 process** but **2 instances** of it.
+
+* Who gives storage to the process in RAM?
+
+> OS
+
+* Where should the process get the storage in RAM?
+
+> OS.
 
 
+## Operations on a Process
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/953bc919-ffd7-43d9-af12-d93c4fbfc2f8)
 
+* All of the above operations are performed on a **Process**.
 
+* 1hr 10mins. Check the question.
 
+## Attributes of a Process
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/10155f5e-72cd-4f3a-8e29-ca20b975fe05)
 
+* NO. At a time only one process can use one I/O device.
+* Memory Limit -> From which address to which address process is stored in memory
+* All of the attributes of a **process** is stored in a box called as **PCB or Process Control Block(PCB)**. 
+* Every process has it own **unique PCB**.
+* Process related PCBs are stored with **OS** and not with the process iteself.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0a7aca8-78f7-461e-8ea7-7e6018ca70ce)
 
+* PC -> Program Counter.
+* GPR -> General Purpose Register.
 
+## PCB or Process Control Block(PCB)
 
+* Also known as **process descriptor**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32b8cb8c-310f-4d7a-aa66-d261cafe0d74)
 
+* As many processes that many PCBs are stored in the OS.
+* Whenever we have stopped a **process** then the values that are present in all of the **various registers** that the **process** has are being **copied** to the **process's PCB**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e63a3b9-cfbc-489a-abae-b467f244cb8c)
 
+* The OS has decided that the **P3** process is to be run on the CPU. So now the OS will take all of the values from the **P3 process's PCB** and check if all of the values are there or not, if there then all of the values of P3 process will be copied to the registers of P3.
 
+* The values that are coming from the registers of a particular process to the PCB of that process is called as **context of that process**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6c9560f-3de0-4b91-acc8-70fd9f131eaa)
 
+## Context
 
+* The register content of PCB of a process are collectively known as **Context** of that process.
+* If a process is stopped then the context of the process is copied by the OS and stored in the PCB of that process by the OS.
+* If a **new process** is to be run then the context of the process is taken/copied by OS from the PCB of that process and then loaded into the CPU. Now, the process runs.
 
+## Context Switch
 
+> Stop the currently running process, whatever is the context of that process, it is copied by the OS to the PCBs of that process. The next process we are about to run, take the context of that process from the PCB and load it ino the CPU. This is called as **context Switch**.
 
+* Context Save -> Contesxt of current running process is saved from CPU to it's PCB.
+* Context Load -> Context of another process is loaded to CPU from it's PCB
 
+* Both **Context Save and Context Load**, together is called as **Context Switch**.
 
+* What will be the values of a process who has come for the **first time**?
 
+> The values will be decided by the **OS** only.
 
+* Context Switch -> Taking out current process from CPU and sending another process in CPU to run.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc8f53c9-ca38-4970-9c2a-8e444b4cda29)
 
+* **Preemption or Preemtive process** may lead to **context switch**.
+* At every preemption, context switch is needed but for every context switch, preemption is not mandatory.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3216ac8a-3704-4472-bd50-becdc05d7e0d)
 
+* YES.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f60c490f-e8e4-45c7-9b22-cfd0dc299e7d)
 
+* YUP
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/797dcb3e-e8a5-44d4-8f7c-e1d05306c66b)
 
+* YES.
 
+## Questions
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/030b9c44-acab-4799-9cc3-918a1bcb75b8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d88bf9f2-31ad-4dd2-bc71-f01faa8db18e)
 
+* Only **OS** can access the PCB.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/adae13bf-68c5-411c-8337-e49e96324bf7)
 
-
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d53b1204-3439-423d-b5f3-32eae789ab1d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/049adb8b-23aa-466c-b08c-9716bf70a2cc)
