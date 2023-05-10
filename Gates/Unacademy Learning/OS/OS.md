@@ -742,6 +742,19 @@ access/execute the **privilaged or protected** operations but it can't. The othe
 
 * Not in control of **Long Term Scheduler**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/64453680-6846-4feb-9bd4-5260005a7bc6)
+
+* Not necessarily.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/553faabf-b304-4b3e-9ad2-0acfe720457d)
+
+* Decision making.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d03783f-52e4-4a67-a402-dee346c9cdbf)
+
+* ALGO Quiz.
+
+
 ## Questions
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c5618cb-7a95-4653-8cf3-fb20c3e386c6)
