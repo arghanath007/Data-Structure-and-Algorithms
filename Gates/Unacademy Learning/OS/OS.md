@@ -541,9 +541,211 @@ access/execute the **privilaged or protected** operations but it can't. The othe
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/11cdc391-fadf-4c13-8c17-5df23dbe4d94)
 
 * Each device has it's own queue.
+* The process waiting for the printer will be kept in **printer's queue**.
+* The process waiting for the webcam will be kept in **webcam's queue**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19a83e60-e556-4c6f-bffe-7219aa7600ea)
+
+* All of the process that are in **ready queue** their PCBs are taken by the OS made a queue like above.
+
+* The process is kept in **ready queue** means that the PCBs of that process are kept within the **ready queue**.
+
+* If a process is sent for **running** state via scheduling on the cpu then the process's PCB will be in ready queue or not?
+
+> NO. The status of the process has **changed**, it has gone to **running** state. So, PCB is taken out from **ready queue** and sent to **running**.
+
+* The PCB is still in main memory and in the part of the OS only but the PCB is not a part of the **ready queue** now. As the process state has changed from **ready** to **running** state.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b18256f6-03f6-4100-a24d-24984d32e2a0)
+
+* If the process is in **blocked** state, then the PCB will be added to the **device's queue** as the process is waiting for that particular device.
+
+## Types of schedulers
+
+1) Long-Term Scheduler(Job) -> It schedules processes from **new** state to **ready** state. It takes a process from **secondary memory(hard disk)** to **main memory**.
+2) Short-Term Scheduler(CPU) -> It selects one of the **ready** processes to run on the CPU next.
+3) Mid-Term Scheduler(Medium-term) -> 
+
+* They schedule **processes**.
+
+### Long-Term Scheduler(Job)
+
+* Degree of multi-programming -> No. of processes in main memory.
+* If a user schedules a process, so it comes to the **main memory**. Then, the **degree of multi-programming** is **increased**.
+* We can say that the **Long-Term Scheduler(Job)**, can increase the **degree of multi-programming**. **YES**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6889764d-34a6-41e4-9675-05d60b1430bf)
+
+* **Long-Term Scheduler(Job)** can only **increase** the **degree of multi-programming**, it cannot **decrease** it. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cbb983f0-064c-4063-b244-6e7abba35f6a)
+
+> **Long-Term Scheduler(Job)** controls the **degree of multi-programming**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/609c6bb0-7e3f-41cf-a01c-f6970dfe4157)
+
+### Short-Term Scheduler(CPU)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63134d7c-8ef2-4897-9dfa-cfc89771ffc6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e791f94b-c0d5-46c7-ab42-3d93398ebb10)
+
+* Ready to Running transition -> Dispatcher.
+* **Short-Term Scheduler(CPU)** will only select which process will go next to the cpu to run.
+* **Long-Term Scheduler(Job)** does **transition** but **Short-Term Scheduler(CPU)** doesn't do **transition**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35b1e44b-b629-4988-ab50-873a155dfc58)
+
+* If a process is in **ready** state then it is in **main memory** or not?
+
+> **YES**, it is in **main memory**.
+
+* If a process goes to the cpu for **running**, then it is in **main memory** or not?
+
+> **YES**, it is in **main memory**.
+
+* If any process was only selected to run on cpu next, then the **no. of processes** from **main memory** has not **increased or decreased**. It **remained** the same. No change in the **no. of processes** in **main memory** before or after.
+* No impact on **degree of multi-ptogramming**.
+* **Short-Term Scheduler(CPU)** does not affect the **degree of multi-ptogramming**.
+
+> **Short-Term Scheduler(CPU)** is being used/utilized in every few **nano-seconds** only. It is used very **frequently**.
+
+> **Long-Term Scheduler(JOB)** is used not that **frequently**. It is being used.utilized in every few **mili or micro** seconds, or after **few minutes** only. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30055ae0-cfc2-473c-99f3-e96bfdff6be6)
+
+* Long-term scheduler is needed **less** frequently.
+* Short-term scheduler is needed for **more** frequently
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a87b3d7d-2894-4a43-8b07-1b92aacd02e0)
+
+### Mid-Term Scheduler
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a7bddfd-60e7-494e-a3e8-7f22387f8a0d)
+
+> First we were playing a game on our phone, then a whatsapp message came asking for photos immediately. We decided to mail the photos as whatsapp will destroy the quality of the photos. When we we selecting the photos to be sent via mail, then we got a telegram message about the today's class being rescheduled. We also wanted to check that telegram message but the RAM was full.
+
+> The OS has no space in RAM to open the telegram app. The OS observed that there is no space in RAM to open the telegram app. OS noticed that the **game** we were playing earlier is sitting **in-active** for sometime now in the **background**.
+
+> For the OS able to open the telegram app and bring it to **main memory**. The OS will take the **game** application from the **main memory** and copy it to the **seconary memory**. Now, space is free in **main memory(RAM)**. So, we can now open the **telegram** app.
+
+> The PCBs of the **game** app are still with OS only in **main memory**. The content(code, data, etc) of the **game** app was copied to the **seconary memory**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a19c2055-de22-47f6-821c-73ad5b8f0073)
+
+> We have seen all of the **messages** we needed to see on the **telegram** app. We closed **telegram**. After that we mailed all the images, we closed **email** app. We also replied to the whatsapp messaged and closed **whatsapp** app. Now we wanted to continue with the **game** and when we are back to the **game** app, we have noticed that the **game** loads from the beginning. That is the game coming back from **seconary memory** into the **main memory**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b8c297d-7c96-4add-bec3-3af863c8d43f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d786f575-b9e1-48ed-801b-1a8248cb7698)
+
+> If there was not enough space in **main memory** for starting a new process then, the **OS** will have to **copy** one of the **in-active** processes from **main memory** to **seconary memory**.
+
+> The above process done by the **OS** is called as **swap out**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ef956e0-db31-446c-94d8-e908c786d38a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9a1476f1-9d0e-4bf5-8e3a-9fff3b35e118)
+
+* The **game** process which was running on **main memory** and was **in-active**, so the **OS** has **swap out** the **game** process to **seconary memory**, so that some **space** can be created in **main memory**. So, that we can open **telegram** app and view messages.
+
+* Whenever the **swap out** process in **seconary memory**, by **user's choice** or for **someother** reason, tries to go to **main memory** then the **OS** will take that process back to **main memory**. This is called as **swap in**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e28b2a26-7956-4cbe-9fd2-eaa870160894)
+
+* For the **swap out and swap in** operations, the OS has created **one** program within itself that program name is **Mid-Term scheduler**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/67bfaadf-da92-48a7-a9f4-3fc74f6a2d82)
+
+> Mid-term scheduler performs swapping(swap-out and swap-in) of process.
+
+* The **OS scheduler** will decide which **process** to **swap out** and which process to **swap in**.
+
+> If **swap out** and **swap in** are done based on **priority** of processes, then it is known as **roll-out, roll-in**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e0c3be7-a0c9-4a6e-9527-973bfa21e863)
+
+* The **no. of processes** is **decreased** in **main memory** when we did **swap out**.
+
+> So the **Mid-Term scheduler** will **decrease** the **no. of processes** in **main memory**.
+
+* The **no. of processes** is **increased** in **main memory** when we did **swap in**.
+
+> So the **Mid-Term scheduler** will **increase** the **no. of processes** in **main memory**.
+
+> Now, we can say that, **Mid-Term scheduler** can **increase as well as can decrease** the **degree of multi-programming**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dcf9cbc9-863e-49c2-a68e-9d2b035cea62)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57ea82c7-2c4c-47d5-95b7-4bbfe2ca3747)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c9883eb-fb3f-4530-8e9b-c83bc4638d0a)
+
+### Swap Space
+
+> Swapped-out processes are kept into secondary memory on the **swap-space**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e843d2d-5df6-416a-ba04-411725e34ea7)
+
+* If a process is **swapped out** then what will be it's state?
+
+> **Suspended** state.
+
+* **New** state processes are not in **main memory** so no need of **swap-out**.
+* **Termination** state process are not in **main memory** so no need of **swap-out**.
+* If a process is in **running** state, then they cannot be **swapped-out**, because they are in **running** state.
+* If a process is in **ready or waiting** state then that **processes** can be **swap-out**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/394ee0ac-2f8d-4065-8e52-8ebecfacf103)
+
+* If we have a **ready** state process and we **swap-out(suspend)** the process. It is kept in **suspended ready** state.
+* If we have a **suspend ready** state process and we **swap-in(resume)** the process. It is kept in **ready** state.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1adccd1-5e96-4024-83eb-e5693b257d67)
+
+* If we have a **waiting** state process and we **swap-out(suspend)** the process. It is kept in **suspended blocked** state.
+* If we have a **suspended blocked** state process and we **swap-in(resume)** the process. It is kept in **waiting** state.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/793eeb1f-4cc1-4b0a-9095-ee2bbc7e4108)
+
+> Some processes had **I/O** operations but they are **swapped-out** from **main memory** but the **I/O** in the **background** has been completed/done. If the **I/O** has been **completed/done** in the **background** then **process** will change state from **suspended blocked** state to **suspended ready** state.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12817e32-77a3-4bad-81a4-9b071703c6c8)
+
+* **Example** of **suspended blocked** state to **suspended ready** state:
+
+> In a **sport** there is a player who got **injured**. Because of the **injury** the player is **sitting out** and is in **blocked state**. When the player was in **injury**, the player got **suspended** because of **some misconduct** he had done earlier.
+
+> Now, the player is in **suspended blocked** state. The player has not fully recovered from the **injury** but the **suspension** put on the player is **over**. The player is in **blocked** state now. Another player is in **ready** state and waiting to play in the **next** season. 
+
+> The new player is **suspended** because of **some misconduct** he had done earlier. Now, the new player is in **suspend ready** state. The **suspension** that was put on the new player is **over**. So, the new player is in **ready** state now.
+
+> If a player has suffered injury then the player got **suspended** for **2 months**. The player recovered within **1 month** only but the player was still **suspended**. So, the player will be in **suspended ready** state as he has already recovered from **injury** and waiting for the **suspension** to be **over**. So, when the **2 months** suspension time is over, the player will be in **ready** state to be **picked**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2024a65f-ad3f-4a8e-bd0a-b9a7dcc9be70)
+
+## CPU scheduling
+
+> Ultimately, **process scheduling** and **CPU scheduling** are the **same** thing. The **process** in the CPU, or the **CPU** in the process. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/75ade2d9-db68-4454-8edb-43b4ae9ea31b)
+
+* Function -> Make a selection, which process will run next on CPU.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fca933bc-8bfb-4a68-949d-cf554d2a2639)
+
+* YES.
+
+## CPU Scheduling Types
+
+1) Preemptive
+2) Non-preemptive
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/25ff33dc-a4fc-4487-874b-ca04e439d57f)
 
 
-* Start from **1hr**.
+## Questions
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c5618cb-7a95-4653-8cf3-fb20c3e386c6)
+
+
+
+
 
 
 
