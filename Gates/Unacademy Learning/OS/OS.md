@@ -850,6 +850,119 @@ access/execute the **privilaged or protected** operations but it can't. The othe
 * NO. Because we use **interupt** now. **Non-preemptive** is not practical now.
 
 
+## CPU scheduling
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d96bd44-e023-44be-95e0-3ec9510faaac)
+ 
+## CPU Scheduling Types
+
+1) Non-preemptive 
+2) Preemptive
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/807ab3b4-4f3d-48c8-9912-8e138a769e69)
+
+## Scheduling Times
+
+1) Arrival Time(AT) -> The time at which a process is admitted. The process is coming from **new** state to **ready** state, that time is called as **arrival time**.
+2) Burst/Service Time(BT) -> The amount of time a process needs to run on CPU.
+3) Waiting Time(WT) -> The amount of time a process spends in waiting(in ready state).
+4) Completion Time(CT) -> The time at which process completes.
+5) Turn-Around Time(TAT) -> Total amount of time a process spends from arrival to completion.
+
+* Turn-Around Time(TAT) -> Completion Time(CT) - Arrival Time(AT).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/79d82259-881d-4258-84e6-02d549407802)
+
+* The those **45secs**, the process was not running on CPU for the total **45secs**, it was running on CPU for sometime but most of the **45secs** was spend on **waiting**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d1ca3c3-b365-4fff-9924-2b6615248023)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7cdf0dc-4db5-4a9a-83ec-4f1054014fc6)
+
+* IMPORTANT FORMULAS.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8412b03-617d-461d-8cb2-7538280932b4)
+
+* YES.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d5bdd132-2aee-4572-bd41-2fcb0ce552e5)
+
+6) Response Time(RT) -> Time from arrival to first response of process.
+7) Scheduling Length(L) -> max(CTi) - min(ATj) [i and j are processes]
+8) Throughput = **n/L**. No. of processes executed per unit of time.
+
+* 'n' = No. of processes executed in L.
+
+## Scheduling Algorithms
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1954d11a-ff2c-41aa-85fd-90b0ebcecb92)
+
+* **Scheduling Algorithms** work is that the **processes** that have **arrived** to the **main memory** and have the **ready** state, out of those **processes**, one of the **process** will be selected by the **scheduling Algorithms**, that will run next on the cpu.
+
+* The process which are in **ready** state only, those processes will only participate. The process who hasn't come yet, that processes we cannot **schedule**.
+* A process can be **scheduled** only after it arrives.
+
+### Consideration
+
+* No any requirement of **I/O** operations from processes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9b3f479-d4f8-4373-8b39-5a983fb5e4c0)
+
+### FCFS(Fime Come First Serve)
+
+> The process that arrives **first**, then that process is sent **first** to the CPU.
+
+* Criteria -> Smaller **Arrival time(AT)** first.
+* Mode -> Non-preemptive
+
+> If **two** process have their **arrival time(AT)** exactly same. Then we have to apply **tie-breaker**. The **tie-breaker** will be **smaller process-id** first.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83ca3618-77fb-4faa-bca8-9fe3da6c57c7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/429eba07-ab09-480f-8c31-724c7d745956)
+
+* P0, A and P are the **smallest**. That's how the **PID or process-ID** would be given in **questions**.   
+
+### Gantt Chart
+
+* Gantt Chart -> It always starts from **zero(0)**. It is a time line diagram which shows the process run from when to when.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a6cbb0a3-8e45-440f-8a45-6cac18fbc7cb)
+
+> We see that **P1, P2 and P3**, all arrive at time **zero(0)**. Now we can use **three** processes for **scheduling**. All of three process have same arrival time. We have to apply **tie breaker** and we have seen that the **smallest PID** will be give the **first scheduling**.
+
+> So the **P1** will run till **30**. Then **P2** will run till **36**. At the end, **P3** will run till **42**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4688b717-43bb-46ba-98ca-ec6e86efda40)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f45b5941-b915-4e22-9a92-887528db22d9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5029bef4-c5da-46e1-9bdd-f3308fc98bd2)
+
+* Criteria -> The process which comes **first**, schedule that process. We didn't see in the **critera** how much **burst time** the process was taking. We didn't see the **PID** of the process in the **critera** also.
+
+> If the **arrival time(AT)** of **two** processes is **same** then we are checking **PID** of the process to see who goes **first** for **scheduling**.
+
+* Response Time -> The first time, the process got the CPU and from the time the **process** arrived. That time is called as **response time**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb1cc66d-1a17-40b8-bfa0-a9fed7af3087)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d946fb4b-5c10-46fc-a61f-adcdf9e630f9)
+
+* Response Time(RT).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f005b6ff-d7fa-47a7-bf85-534457bd829a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3edaa9b0-c94b-4f84-94b8-125ae44f765f)
+
+### Problems
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/47c125a5-1917-40b7-9fd1-3af2765e7f58)
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -942,39 +1055,6 @@ access/execute the **privilaged or protected** operations but it can't. The othe
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a023935a-e076-4661-aca7-687236087d4d)
 
 * C
-
-## CPU scheduling
-
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d96bd44-e023-44be-95e0-3ec9510faaac)
- 
-## CPU Scheduling Types
-
-1) Non-preemptive 
-2) Preemptive
-
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/807ab3b4-4f3d-48c8-9912-8e138a769e69)
-
-* Start from **1hr 27mins**.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
