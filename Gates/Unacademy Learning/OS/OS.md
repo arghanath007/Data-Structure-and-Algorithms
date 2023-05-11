@@ -405,7 +405,7 @@ access/execute the **privilaged or protected** operations but it can't. The othe
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34343904-af5e-491c-abe8-2b6c3612c484)
 
-1) **New** -> The processes that are **installed**, present in the system but are not there for running. Some process that is there in the system, within the HDD also but have not here there for running purposes. They are called as **new** processes or the processes are in the **new** state.
+1) **New** -> The processes that are **installed**, present in the system but are not there for running. Some process that is there in the system, within the HDD also but are not there for running purposes. They are called as **new** processes or the processes are in the **new** state.
 
 > The **new** state processes are stored in **secondary memory**.
 
@@ -415,13 +415,13 @@ access/execute the **privilaged or protected** operations but it can't. The othe
 
 2) **Ready** -> All of the processes which are **ready** to run on the CPU are known to be in **ready** state.
 
-> All of the processes that are waiting for the CPU, whenever they get access to the CPU they will run themselves. SJust because they haven't been called and they are **waiting**. They are called as **ready* processes.
+> All of the processes that are waiting for the CPU, whenever they get access to the CPU they will run themselves. Just because they haven't been called and they are **waiting**. They are called as **ready* processes.
 
 * If **one** process is running on the CPU, then the **other** processors are in **ready** state.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a16b3df-ce5a-4a41-8c62-61bc9148e5c2)
 
-* If a process is in **ready** state then it is within the **main memory** guranteed.
+* If a process is in **ready** state then it is within the **main memory** guaranteed.
 
 3) Running -> A process which is running on CPU has it's state as running.
 
@@ -435,7 +435,7 @@ access/execute the **privilaged or protected** operations but it can't. The othe
 
 4) Terminated -> If a process was running and the execution of the process was **completed/finished**. If the **process** is **completed** then the process by itself only will take the transition to the **terminated** state. Then the state of the process is called as **terminated** state.
 
-5) Wating/blocked -> If a process running on the cpu and now it wants **I/O** operations. If a process wants **I/O** operations then that process's status will be changed into **waiting/blocked** state. 
+5) Waiting/blocked -> If a process running on the cpu and now it wants **I/O** operations. If a process wants **I/O** operations then that process's status will be changed into **waiting/blocked** state. 
 
 > The process is waiting for an **event** which is suppose to come from the **user's end** which could be **user's input**. If the **event** doesn't come, then the **process** will be stuck there only and not move forward.
 
@@ -445,26 +445,26 @@ access/execute the **privilaged or protected** operations but it can't. The othe
 
 6) When some process's **I/O** operations is complete then the **process** will go back to it's **ready** state.
 
-> Ready state has multiple processes. Out of theose many 
+> Ready state has multiple processes. Out of those many 
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24d198f7-35be-40e9-9ea0-e3078ea79db6)
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1201fa5b-ab4b-4dec-9fe0-94e309b21378)
  
  
-> If any process is stored but never brought to the main memory then it is **new** state. If the process was brought to the main memory then it is **ready** state. As soon as the process was send for running then it whent into **running state8*.
+> If any process is stored but never brought to the main memory then it is in **new** state. If the process was brought to the main memory then it is in **ready** state. As soon as the process was send for running then it when into **running state**.
 
 * Scheduler -> It decides from the multiple ready processes, which process should go to the running state. It will take the **decision**. All of the processes present in **ready** state, among them the OS will make the **decision** of sending the  **process** into **running** state. The decision making is done by the **dispatcher**.
-* Dispatch -> The decision making is done by the **dispatcher**. It does **context witching**.
+* Dispatch -> The decision making is done by the **dispatcher**. It does **context switching**.
 
-* Selection of **process** is done by the **scheduler**
+* Selection of **process** is done by the **scheduler**.
 * The work of the **dispatcher** is to take that **process** to **running** state.
 
 * The **context switch** is done by the **dispatcher**
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5146c5f3-4e00-42f3-84fb-1d7e5e01c60d)
 
-* In which states, the process is in main memory?
+* In which states, the process is in **main memory**?
 
 > Ready, running and waiting states.
 
@@ -474,12 +474,12 @@ access/execute the **privilaged or protected** operations but it can't. The othe
 * If the process is in **ready or running or in blocked state** then the process is in main memory.
 
 
-* There are **two** transitions that are taken **itself/voluntarily** by the **process**.
+* There are **two** transitions that are bing taken by the **process**  **itself or voluntarily**.
 
-1) Running -> Termination state
-2) Running -> Waiting/blocked state.
+1) Running to Termination state.
+2) Running to Waiting/blocked state.
 
-* Voluntarily -> Process can do with it's own wish.
+* Voluntarily meaning -> Process can do with it's own wish.
 
 > The rest of the **transitions** are decided by the **OS** and are not taken by the **process** itself.
 
@@ -487,20 +487,20 @@ access/execute the **privilaged or protected** operations but it can't. The othe
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/14b937ed-a956-4d6e-a040-8cc614e23570)
 
-* For **Preemptive systems**.
+* For **Preemptive systems** above.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7e88d1a-d391-4355-ac93-be52e625b231)
 
-> A running process cannot be forcefully stopped when it is running on the CPU. That why that **preemtive** line is not possible in **non-preemptive** systems.
+> A running process cannot be forcefully stopped when it is running on the CPU. That why that **preemptive** line is not possible in **non-preemptive** systems.
 
-* A processs can leave running state in **two** conditions only:
+* A processes can leave running state in **two** conditions only:
 
-1) The process has completed executed and has **exited** and taken the **termination** state.
+1) The process has completed execution and has **exited** and taken the **termination** state.
 2) The process has gone for **I/O** events.
 
 * The process cannot be forced to leave from the CPU, when the process is running on the CPU.
 
-* When a process goes to the cpu then only the context of the process goes to the cpu. Then we say that the **process is running on the cpu**. The context has only gone to the cpu. The process is still there in the **main memory** which means the **code, data, stack and heap** are there in **main memory**.
+* When a process goes to the cpu then only the **context of the process** goes to the cpu. Then we say that the **process is running on the cpu**. The context has only gone to the cpu. The process is still there in the **main memory** which means the **code, data, stack and heap** are there in **main memory**.
 
 * If the process has left **running** state and has changed to **ready** state, then the context of the process will leave the cpu, but the **content** of the process is still there in **main memory** only.
  
@@ -536,7 +536,7 @@ access/execute the **privilaged or protected** operations but it can't. The othe
 
 1) Job Queue -> All of the processes which are in **new state**, are kept in **job queue**.
 2) Ready Queue -> All of the processes which are in **ready state**, are kept in **ready queue**.
-3) Device Queue -> All of the processes which are waiting for a **specific device** are kept into it's device queue.
+3) Device Queue -> All of the processes which are waiting for a **specific device** are kept into it's device specific queue.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/11cdc391-fadf-4c13-8c17-5df23dbe4d94)
 
@@ -546,7 +546,7 @@ access/execute the **privilaged or protected** operations but it can't. The othe
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19a83e60-e556-4c6f-bffe-7219aa7600ea)
 
-* All of the process that are in **ready queue** their PCBs are taken by the OS made a queue like above.
+* All of the process that are in **ready queue** their PCBs are taken by the OS and is made into a queue like above.
 
 * The process is kept in **ready queue** means that the PCBs of that process are kept within the **ready queue**.
 
@@ -554,7 +554,7 @@ access/execute the **privilaged or protected** operations but it can't. The othe
 
 > NO. The status of the process has **changed**, it has gone to **running** state. So, PCB is taken out from **ready queue** and sent to **running**.
 
-* The PCB is still in main memory and in the part of the OS only but the PCB is not a part of the **ready queue** now. As the process state has changed from **ready** to **running** state.
+* The PCB is still in main memory and is a part of the OS only but the PCB is not a part of the **ready queue** now. As the process state has changed from **ready** to **running** state.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b18256f6-03f6-4100-a24d-24984d32e2a0)
 
@@ -589,7 +589,7 @@ access/execute the **privilaged or protected** operations but it can't. The othe
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63134d7c-8ef2-4897-9dfa-cfc89771ffc6)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e791f94b-c0d5-46c7-ab42-3d93398ebb10)
 
-* Ready to Running transition -> Dispatcher.
+* **Ready to Running** transition -> Dispatcher.
 * **Short-Term Scheduler(CPU)** will only select which process will go next to the cpu to run.
 * **Long-Term Scheduler(Job)** does **transition** but **Short-Term Scheduler(CPU)** doesn't do **transition**.
 
@@ -604,12 +604,12 @@ access/execute the **privilaged or protected** operations but it can't. The othe
 > **YES**, it is in **main memory**.
 
 * If any process was only selected to run on cpu next, then the **no. of processes** from **main memory** has not **increased or decreased**. It **remained** the same. No change in the **no. of processes** in **main memory** before or after.
-* No impact on **degree of multi-ptogramming**.
-* **Short-Term Scheduler(CPU)** does not affect the **degree of multi-ptogramming**.
+* No impact on **degree of multi-programming**.
+* **Short-Term Scheduler(CPU)** does not affect the **degree of multi-programming**.
 
-> **Short-Term Scheduler(CPU)** is being used/utilized in every few **nano-seconds** only. It is used very **frequently**.
+> **Short-Term Scheduler(CPU)** is being used/utilized every few **nano-seconds** only. It is used very **frequently**.
 
-> **Long-Term Scheduler(JOB)** is used not that **frequently**. It is being used.utilized in every few **mili or micro** seconds, or after **few minutes** only. 
+> **Long-Term Scheduler(JOB)** is used not that **frequently**. It is being used/utilized in every few **mili or micro** seconds, or after **few minutes** only. 
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30055ae0-cfc2-473c-99f3-e96bfdff6be6)
 
@@ -626,27 +626,27 @@ access/execute the **privilaged or protected** operations but it can't. The othe
 
 > The OS has no space in RAM to open the telegram app. The OS observed that there is no space in RAM to open the telegram app. OS noticed that the **game** we were playing earlier is sitting **in-active** for sometime now in the **background**.
 
-> For the OS able to open the telegram app and bring it to **main memory**. The OS will take the **game** application from the **main memory** and copy it to the **seconary memory**. Now, space is free in **main memory(RAM)**. So, we can now open the **telegram** app.
+> For the OS able to open the telegram app and bring it to **main memory**. The OS will take the **game** application from the **main memory** and copy it to the **secondary memory**. Now, space is free in **main memory(RAM)**. So, we can now open the **telegram** app.
 
-> The PCBs of the **game** app are still with OS only in **main memory**. The content(code, data, etc) of the **game** app was copied to the **seconary memory**.
+> The PCBs of the **game** app are still with OS only in **main memory**. The content(code, data, etc) of the **game** app was copied to the **secondary memory**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a19c2055-de22-47f6-821c-73ad5b8f0073)
 
-> We have seen all of the **messages** we needed to see on the **telegram** app. We closed **telegram**. After that we mailed all the images, we closed **email** app. We also replied to the whatsapp messaged and closed **whatsapp** app. Now we wanted to continue with the **game** and when we are back to the **game** app, we have noticed that the **game** loads from the beginning. That is the game coming back from **seconary memory** into the **main memory**.
+> We have seen all of the **messages** we needed to see on the **telegram** app. We closed **telegram**. After that we mailed all the images, we closed **email** app. We also replied to the whatsapp messaged and closed **whatsapp** app. Now we wanted to continue with the **game** and when we are back to the **game** app, we have noticed that the **game** loads from the beginning. That is the game coming back from **secondary memory** into the **main memory**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b8c297d-7c96-4add-bec3-3af863c8d43f)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d786f575-b9e1-48ed-801b-1a8248cb7698)
 
-> If there was not enough space in **main memory** for starting a new process then, the **OS** will have to **copy** one of the **in-active** processes from **main memory** to **seconary memory**.
+> If there was not enough space in **main memory** for starting a new process then, the **OS** will have to **copy** one of the **in-active** processes from **main memory** to **secondary memory**.
 
 > The above process done by the **OS** is called as **swap out**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ef956e0-db31-446c-94d8-e908c786d38a)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9a1476f1-9d0e-4bf5-8e3a-9fff3b35e118)
 
-* The **game** process which was running on **main memory** and was **in-active**, so the **OS** has **swap out** the **game** process to **seconary memory**, so that some **space** can be created in **main memory**. So, that we can open **telegram** app and view messages.
+* The **game** process which was running on **main memory** and was **in-active**, so the **OS** has **swap out** the **game** process to **secondary memory**, so that some **space** can be created in **main memory**. So, that we can open **telegram** app and view messages.
 
-* Whenever the **swap out** process in **seconary memory**, by **user's choice** or for **someother** reason, tries to go to **main memory** then the **OS** will take that process back to **main memory**. This is called as **swap in**.
+* Whenever the **swap out** process in **secondary memory**, by **user's choice** or for **some-other** reason, tries to go to **main memory** then the **OS** will take that process back to **main memory**. This is called as **swap in**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e28b2a26-7956-4cbe-9fd2-eaa870160894)
 
@@ -670,7 +670,7 @@ access/execute the **privilaged or protected** operations but it can't. The othe
 
 > So the **Mid-Term scheduler** will **increase** the **no. of processes** in **main memory**.
 
-> Now, we can say that, **Mid-Term scheduler** can **increase as well as can decrease** the **degree of multi-programming**.
+* Now, we can say that, **Mid-Term scheduler** can **increase as well as can decrease** the **degree of multi-programming**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dcf9cbc9-863e-49c2-a68e-9d2b035cea62)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57ea82c7-2c4c-47d5-95b7-4bbfe2ca3747)
