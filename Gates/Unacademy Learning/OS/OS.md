@@ -803,7 +803,164 @@ access/execute the **privilaged or protected** operations but it can't. The othe
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5beddebe-f2d3-4ded-a614-aa4d342ce967)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/10617947-978d-452f-9ece-d08b4249ee8d)
 
-* Will still in **main memory** only with OS. Only content of the **process** goes.
+* Will still be in **main memory** only with OS. Only content of the **process** goes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/46878b06-eb2c-4f64-ac04-9b27e3d0944c)
+
+* Not necessarily. Many processes are in **ready** state. There are very low priority processes as well which will run on cpu, they can be suspended.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a3254ba-5787-4e0b-b7ee-f8f5d7eddd6c)
+
+* Whenever a system call happens and the user process needs the service of OS, then the user mode changes to **kernel** mode.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0d1bec9-a561-427d-8079-7824a01848bc)
+
+* Many of the background processes needed by the OS.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe94cd87-ba94-4720-9151-e218abf05c19)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/84fbbe44-6b12-4d93-bc68-46824c6aaccf)
+
+* Hard -> Not leniant.
+* Soft -> Lenient
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9427acea-6777-4289-8c70-8a59ad39a924)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d29a2e53-51c1-44c3-8033-92bbe89306c3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65160486-72dc-4ad9-8a40-2f7d64630fb7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0e91bc1-27e8-4861-9794-210fe89b52d8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f9fef0d-cd2b-4b63-bb1f-710ad112d4ac)
+
+* When the process was allocated, then we got that **space(4 sections)**. **Space(4 sections)** is the block area that the process has already gotten.
+* If the process runs and executes **malloc() or calloc()** then the process doesn't have to ask for **extra space** from OS. It already has the **heap** section, which **OS** has given to the **process** before only. The process will itself go to the **heap** section and the amount of space needed for the **malloc() or calloc()** will be allocated by the **process** only.
+* So there is **no need of OS**. So, **no need of system call** as well.
+
+> So in **malloc() or calloc()**, there will be **no system call** for them.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0eec42a7-8992-4b81-84b0-3b5ad3cfb1f7)
+
+> Job queue are used by long term scheduler to select **one** process and bring it to **main memory**. **YES**.
+
+> Ready queue are used by short term scheduler to select **one** process and send it to **CPU**. **YES**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef7482e4-d938-4aad-b370-957122f3a44b)
+
+* Mid Term scheduler can take processes out from **ready queue** as well as from **device queue**. Can do **both**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/efe5a2c8-23b3-4738-9987-5710a19427d3)
+
+* NO. Because we use **interupt** now. **Non-preemptive** is not practical now.
+
+
+
+
+
+
+
+
+
+# DPPs
+
+## DPP 1 (Lecture -> 4)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/130e5b4d-1645-487a-a9cd-89e0cdf3692e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6adcd27c-1715-4534-9fe4-7b435491eb07)
+
+* **D** option.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f448e639-75e1-49af-b1ef-e092988eed58)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/268cadc9-6650-4322-9f8e-941a02a2f551)
+
+* Fatal Error -> Suicide of process.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8bfad7b0-bb48-437e-953f-005137f820d9)
+
+* NO.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a7c86339-f9ca-47a4-8037-e0e26bb30c70)
+
+* Could be **fatal error** or **killed by another process**, either is possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0536535f-38a4-4c1c-aee6-caf968322b90)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a44da0f2-bcd6-4e65-b015-8d8ec74fbf06)
+
+* Degree of multi-programming -> **n**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5378926-d4ff-47e3-a560-da56f654f644)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/141b790e-46f0-472a-837f-99364dccf19c)
+
+* Max -> 'm' [No. of cpus available as **one** cpu can only run **one** process at a time]
+* Min -> zero(0) [If all of the processes goes to the **blocked** state, then running states is zero(0)] 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5a7dd1c-9c91-4b40-8738-65d511be6133)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e264d705-8e10-4b43-abbf-e91c20ff3215)
+
+* True.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b461e55-50ec-4905-aee8-1dd7cf90e177)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/94e9719d-0912-48c7-9ebb-18c5aa5b2655)
+
+* n > m, should be in all **practical** scenarios. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/649244ff-2609-4be1-8d6c-6db087399009)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c4b522c4-9fe2-4757-b33d-564de422f5c6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50d37904-1756-4010-9edc-0b91a3f67418)
+
+* CPU is **idle**. All of the **two** processes went for **I/O** operations. So, the **no. of processes** in CPU is **zero(0)**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ad1e134-cbf7-4001-a09b-e4ed8c481aef)
+
+* OS not needed to be **preempted**. OS work is for **preemption** and not get **preempted**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/47dd6d95-ff26-4ba6-8c23-5931d7e0d257)
+
+* Multi-core CPU.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee8b15aa-9ae9-4cd4-b4f5-9b5e078f8861)
+
+* No.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b522ae3e-0f67-42bf-b177-900efa65b003)
+
+* Could be possible, but not necessary that **deadlock** will happen. Can't say that.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/157558ad-556b-499f-bf35-0733dbb9bf6a)
+
+* Multi core is **better**. Less cost.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c1a09d2-900f-4814-9107-1f20fa62cbe1)
+
+* n > m.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf1a180d-6450-41b9-abb0-72b9934f0978)
+
+* None of them are in **PCB**. These are **parts** of the **process**. The **content** of the **process**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d05c173-ac18-4533-85ef-607062e5c812)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86ee6e38-fbba-43d8-8ce6-9604d5fd6206)
+
+* D
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a023935a-e076-4661-aca7-687236087d4d)
+
+* C
+
+## CPU scheduling
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d96bd44-e023-44be-95e0-3ec9510faaac)
+ 
+## CPU Scheduling Types
+
+1) Non-preemptive 
+2) Preemptive
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/807ab3b4-4f3d-48c8-9912-8e138a769e69)
+
+
+
+
+
+
+
+
 
 
 
