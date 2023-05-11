@@ -7,6 +7,12 @@
 ![image](https://user-images.githubusercontent.com/54589605/236868120-bf5277d2-780d-4475-817e-22f568012381.png)
 ![image](https://user-images.githubusercontent.com/54589605/236868374-486883d7-fc31-4289-b294-906784259ad8.png)
 
+# Revision
+
+* 1 -> Done till Lecture-3. Start from Lecture 4.
+
+
+
 ## Introduction (1) [8th May 2023]
 
 > OS is another intermediate software which is **installed** on top of the hardware and with the help of the **OS** we can run various **processes** or **programs** and with the help of **OS** only, the whole computer system runs.
