@@ -960,6 +960,103 @@ access/execute the **privilaged or protected** operations but it can't. The othe
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/47c125a5-1917-40b7-9fd1-3af2765e7f58)
 
 
+## CPU_Scheduling (5) [11th May 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7049968a-6382-4999-8481-306fec6b2788)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/94556661-585e-4ccc-87ea-a92e50f51c03)
+
+* NO, if we have only one CPU. CPU can only run one process at a given time.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/885d9605-2c8e-4647-86a5-b54dfd4c0ebf)
+
+> So the **42** units, which is the **scheduling length**, means that in **42** units of time, we have **scheduled** all of the **processes**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/604a5637-3578-4cd2-bb48-6e33c299cdef)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3dd0fc85-b548-4096-b1be-797096c21640)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/08e8c594-8077-4c48-b118-50c8b1f0b193)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/772adc75-f2f9-4a57-8e47-448d77a95335)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3960264-6051-4d34-9cbb-412f687bdda3)
+
+* No issue.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d8d5055-fa4f-4a7e-9c9a-e9dbfd19d9d4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c90c2ce8-ff06-49cc-854d-4bfe830907af)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/720ca9d8-1569-488a-821f-865ec4adf397)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d2d80aa-247e-481d-bad6-58a1f77358c7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/841e333e-a39f-42f8-8655-bc3897a4760e)
+
+* Response time(RT) will be **same** as **waiting time(WT)** for right now. **WAIT** for the analysis.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80d2ad30-b1a2-47f8-8626-10f0e90d5708)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/904fc668-2358-4bcb-a015-6ebc829e1f13)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/73fc617c-6c24-4a56-8f10-f441c3b0e677)
+
+* Not the **idle** situation.
+
+* For how much time CPU is idle in the above question?
+
+> 2 + 2 + 3 -> **7** units of time.
+
+> From the total **21** units of time, only **21 - 7 -> 14** units of time are being used by the CPU.
+
+> CPU is idle for **7** units of time out of the total **21** units of time.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44144ea3-8c0f-459e-8e23-e09cfba2cf4c)
+
+## Convoy Effect
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/685fad26-04db-4117-92a9-70c21ed71602)
+
+* If a **big process** is schedules ahead of **small processes**, then **waiting time(WT)** of small processes will **increase**, and it will eventually **slow down the system**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3fcbceba-1da0-406b-9715-4adc8e113b53)
+
+* YES.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/675b5d78-00d2-4c63-89db-3db03cfea21f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8050b5bc-76f8-408e-8024-06857bc9dd7b)
+
+* Adavantages and disadvantages.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2244097-c23e-43bc-b051-da4fe69ed0d8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/953fb3d3-2e2c-482b-a208-54b6761223ad)
+
+* FIFO
+
+* FCFS is **not practical**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71253cb6-6de8-4bca-955c-b6e7cee9b0d5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92dc829b-5543-4a78-8585-35d5caa48985)
+
+* Fixes for mitigating or removing **convoy effect**.
+
+> Let's make a **new algo** where instead of using **FIFO**, we will **schedule the processes** based on **BT or burst time**. This is used is **SJK or Shortest Job First**.
+
+## SJK or Shortest Job First
+
+* Criteria -> We will take the **smaller** burst time(BT) process first. If **two** processes have the **same** burst time then,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
