@@ -1037,21 +1037,61 @@ access/execute the **privilaged or protected** operations but it can't. The othe
 
 ## SJK or Shortest Job First
 
-* Criteria -> We will take the **smaller** burst time(BT) process first. If **two** processes have the **same** burst time then,
+* Criteria -> We will take the **smaller** burst time(BT) process first. If **two** processes have the **same** burst time then, we have to use **tie breaker**. The **tie breaker** will be **FCFS** which means we have to find see which **process** has the **smaller** arrival time and if arrival time is also same then we have to see **PID** of the processes.
+
+* Mode -> Non-preemptive algo.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3284c46-b72f-4fb1-90a4-aa1ece6a4e12)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7e996cc-3ff5-4056-8309-979523381e6d)
+
+> In the **ready queue**, all of the **three** processes arrived at **zero(0)** time. We saw their **burst time**, **p2 and p3** had the **same** burst time. So we had to do **tie-breaker**, so we checked **arrival time** which was also **same** Now, we checked **PID**.  
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0aa2f06e-d2aa-4dae-be06-34aa5aba4bbd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/678d0e8f-2a0e-4d0a-b038-af72ed6d9657)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7cf3dab8-57cd-459e-8f28-06a61c6be3a2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/260daebb-21d9-41a5-af8d-ab140e833f24)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6f4fd18-9f71-4dfb-8b06-2834b07cffd3)
+
+* SJF, Advantages and disadvantages
+* Starvation happens in **SJF**.
+* **SJF** is not a **practical** implementation as well.
+* **Convoy effect** is only possible in **FCFS**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df9c9351-9beb-4a49-9cc0-36a66d4a8ed7)
+
+* This is the **problem** with **SJF**, we cannot **preempt**. It means that if a **big process** goes to the CPU  and then a **smaller process** comes then there is **no value/use** of the **smaller process**. It means that the **big process** cannot be **preempted**.
+
+> To solve the **problem**, there is a **preemtive** scheduling algorithm that was introduced.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/407e29f0-c30c-437d-bf25-1b15c1516a14)
 
 
+### Starvation
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f97e2b52-1315-4019-a645-0148bb9191be)
 
 
+* Starvation -> Infinite waiting
+
+## SRTF(Shortest Remaining Time First)
+
+* Criteria -> The smaller **Burst time(BT)** first. If **two** process have the **same** burst time, then we will have to use **tie breaker**. The **tie breaker** will be **FCFS**.
+
+> It is the **preemptive** version of **SJF**.
+
+* Mode -> Preemtive
+
+> If a process arrives and there are no options, we will **schedule** the process. If a **running process's** current remaining time is **more** than the **new process's** burst time then we will **preempt** the **current** running process.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b3f4d268-6be0-4c30-8921-11104f1fac13)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63a3eb1c-3533-459d-8368-2a43133ddc88)
+
+* **Preemption** will only happen:-
+
+1)
 
 
-
-
-
-
-
-
-
-
+* Start from **1hr 30mins**.
 
 
 
