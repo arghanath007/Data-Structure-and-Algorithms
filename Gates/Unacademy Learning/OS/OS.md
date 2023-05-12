@@ -1208,7 +1208,89 @@ access/execute the **privilaged or protected** operations but it can't. The othe
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e31d3949-c1a7-479f-b612-41f03109af96)
 
-* Criteria -> Largest **Burst time(BT)** available.
+* Criteria -> Largest **Burst time(BT)** available. If there is **tie-breaker** then use **FCFS** for **tie-breaker**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a277c711-1730-4b81-a3d0-9868a1c7ecb9)
+
+* Convoy effect is given only. It is always there as well are taking the **largest** process anyways.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/06f40bd7-d45e-4c23-8c23-a9f96b77e82d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33f29439-a59c-4c52-9f42-db90edc3eba8)
+
+## LRTF(Longest Remaining Time First)
+
+* Criteria -> Largest burst time first. 
+* Tie breaker -> FCFS
+* Mode -> Preemptive
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c5ca66be-534f-4279-ade4-00b802052397)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/79e74138-8345-49f0-9dc5-c408b5234581)
+
+* **No. of context switches** -> 17
+
+> Excluding before first process and after last process completion.
+
+> **Turn-Aroung-Time** is **same**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/08f90613-33c5-4c8e-a912-e31ca59c3c62)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c08a654f-2d00-4f60-b92b-4933cb90af78)
+
+* **LJF and LRTF** also suffer from **starvation**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f175338-ccb5-4166-9fcb-2f41dceaf2bc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44370e58-8a0f-419f-a8ad-614fb9f392d0)
+
+> The **four** processes, **P1, P2, P3 and P4** have ran for **8 + 5 + 3 + 1 -> 17** units of time. In whatever **sequence** they have ran, **we don't care**. Now, all of the **four** process each have only **1** unit of time left.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b80faf26-406a-45a6-92d6-dde24f2d9673)
+
+> We will run **P1 -> P2 -> P3 -> P4**, in this **order** only, for **each and every case**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e512480-4d2f-4d1b-aa58-a494b50d82f5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/570dea75-3136-4ff8-b365-83d2de9d17a9)
+
+> We don't have to make the **full gantt chart**, until and unless they ask for **count of context switch**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c23a2072-d0f0-4d97-9a76-861ec1e936ee)
+
+> No need of making the  **full gantt chart**. From there we can easy find **completion time(CT)** and get the **answers** from there only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef8a5ad4-afd0-4d6d-83ed-a6a8bc21bf49)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4eefc79c-c38b-4b67-a310-15d321dffa9f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a59c7189-b53f-4a5f-a35e-89c62c687c05)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9cca89e9-27ed-4c49-a7c0-36237a6f689a)
+
+* Barbar algorithm. No **advantage** of scheduling. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8e81e8f-d03e-4878-805a-57342c5da379)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/022d0b27-1e2e-4747-9006-0fed4ac7473f)
+
+> **Substracting 1** from the **burst times** of the **processes** so that we are left with only **1** unit of time for all of the processes. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/deec2240-a827-41c5-b0f3-dde44c496c11)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/87f6f97a-cf2d-4fc2-82b2-7469d7b2a11d)
+
+* When the **above trick** will not work:
+
+> Trick does not work when a person completes before any other process arrives.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6983ea6c-be2e-4a95-98af-0a76ab0ad544)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/539a2698-d9c5-4c4e-b69a-d39ba5f3d63d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5540ab9e-00c6-468b-a3eb-ef991313cef2)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/54a29729-8099-4be5-a749-5274d478825a)
+
+* The above trick will not work in these question because **P4** process came **very late**, after **two** process were already **finished**. Better to make a **gantt chat** here and solve it using that.
+
+> **SRTF and SJF** give favour to the **smaller** processes and because of that reason **starvation** happens. The **bigger** process have to wait for **longer**.
+
+## HRRN(Highest Response Ratio Next)
+
+Start from 1hrs 9mins
+
+
+
 
 
 
