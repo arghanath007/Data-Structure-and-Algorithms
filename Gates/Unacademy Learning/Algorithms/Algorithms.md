@@ -9879,6 +9879,156 @@ Steps:
 ![image](https://user-images.githubusercontent.com/54589605/236813336-f13cd11d-efa5-4f97-9783-bd68cce1c636.png)
 ![image](https://user-images.githubusercontent.com/54589605/236813556-fad8f471-df19-4ca6-82b1-a9f6bd2e0dd6.png)
 
+## Heap-sort-II (35) 
+
+* Link -> https://unacademy.com/class/heap-sort-ii/KAUOV2FP
+
+## Selection Procedure
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bac1ed2b-a9d4-40bf-abdd-cb1cca24d058)
+
+> If given array is already **sorted** then we will **find Kth smallest element** at **Kth** place. So, no need of **for** loop.
+
+> 1st smallest is **1st place**. 2nd smallest is that **2nd place**.
+
+> As there is **no loops**, so the **time complexity** will be **constant or O(1)** and return **a[k]**, where **a** is the **array**.
+
+> If given array is not **sorted**, then we can first do is **sort** the array and then **find Kth smallest element**  at **Kth** place. 
+
+> As we are applying **sorting algo**, so the **time complexity** will be **O(n * log n)** and return **a[k]**.
+
+* **Sorted** -> **O(1) or constant**
+* **Not sorted** -> **O(n * log n)  + O(1) -> O(n * log n)**.
+
+> If given array is not **sorted**, then we can first do is **sort** the array and then **find Kth smallest element**  at **Kth** place. 
+
+> As we are applying **selection sort algo**. In **selection sort**, **1st pass** over gives **1st minima or smallest element**. So, the time will be **n**. So, for the **Kth** element there will be **Kth pass**, so the time will be **K * n**.
+
+> So the **time complexity** when using **selection sort** will be **O(K * n)** and return **a[k]**.
+
+* Selection procedure is an **application** of **divide and conquor** algo.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44f1729a-63f4-400c-82f8-e7f3b5dd5540)
+
+* In the array we want to find **8th minimum**.
+
+> The **8th minimum** is **80**.
+
+* We want to find out **8th minimum** in the given array?
+
+> Steps: 
+
+1) Apply **Partition algo**.
+
+> **Partition algo** on **n** elements will take **O(n)** time.
+
+> We by default take the **first element** which is **80** as pivot. We will apply **Partition algo**, then the **smaller than 80** will go to **left** side and **greater than 80** will go to the **right** side. 
+
+> **Partition algo** is over, we will return **m** which is the **index** of the pivot element, which is at it's **correct place**.
+
+> After **Partition algo**, the **pivot** element is **sorted** which means pivot is at it's **correct place**, **left and right** not sorted.
+
+> **Pivot** is at **8th place**. It means that **pivot** which is **80** is the **8th smallest** element in the array. Guranteed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ccd370b6-cf80-450d-aa5f-0fcd28d8f052)
+
+* Partition algo is over, it returned **8th**?
+
+> It means that the **pivot** element which we have **choosen**, went to the **8th** place which is the **correct** place, that's why it is the **8th smallest** element in the array.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec825b34-99b6-45bb-9f1d-7e6d05e2740d)
+
+* Partition algo is over, it returned **m**?
+
+> It means that we know in the given array who is the **mth smallest element** in the array, which is **a[m]**.
+
+
+> * Partition algo is over, we know the **mth smallest element**. What we want is **Kth** smallest element in the array. If **m == K**, then it is **over**, the algo is **over**.
+
+> If we are **lucky** then we will stop in the **m == K** case only. So, the **time complexity** will be **m**. Kust apply **Partition algo** and it will be arrow.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ecc4822-a87e-4141-a208-af461dfac636)
+
+> It is like **binary search**, we are going only **one side**.
+
+* It case of **binary search**, it is **blind division**. In case of **selection procedure** it is **meaningful division**. 
+
+* In **quick sort**, we will go **both side**.
+* Partition followed by **both side**, it is **quick sort**.
+* Partition followed by **single side**, it is **selection procedure**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4eecdbf8-ef3c-4436-97d7-1ffb9aad3d95)
+
+> In quick sort, we are going **both side**. **More time**.
+
+> In **selection procedure**, we are going only **one side**. **Less time**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2e8dc277-e7a9-4d50-84c2-429d4732dff5)
+
+> When it is a **meaningful division** anything can happen. Hence we get **two** parts, **best partition** and **worst partition**. It is not **50-50** guranteed.
+
+* **Worst partition** -> When all elements are going to **one side** and on that side only, the element we are **finding** is there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d022cc95-b92e-4f51-8122-9b3c432702ed)
+
+> If only **one elemenent** is there then that **element itself** is the **answer**. If we are finding **Kth** element then, **K <= n**, 'n' is the size of the array.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c935390-9239-432a-a3fd-f14d8b5e1c9d)
+
+> Till now, we have done **one** partition and if **m == k**, then we return **a[k]**. So, it is **O(n)**. This is the **best case** for **selection procedure**.
+
+> As **return** is there in the **middle** of the program, **different cases** will come.
+
+> Normally, there is **only one** return and it is at the very end. So, **every case** is **same**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/67d5d8e4-55fd-4ab4-8fc9-e2a623105ec2)
+
+* If we are **lucky** and stop here, then the **time complexity** is **O(n)** only.
+
+* Selection Procedure **Best case** -> **O(n)**. [Apply **partition**, check **m == k** and then stop]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/17a03cfa-fcc0-4ca3-ae02-32ea54985367)
+
+* It is like **binary search** but in  **one direction** only.
+* In case of **binary search*, **blind division**. Then, we don't know which side is what. **Binary search** input is **sorted** array.
+
+> As it is already **sorted** that why we can go for **blind division**. Anyhow, **left** is **smaller** and **right** is **bigger**.
+
+ ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb470251-6a19-4ac2-b7f6-0b524bb71aea)
+
+> In **selection procedure** it is **un-sorted** array, so if we do **blind division**, then we won't know which side is what. We have to do **meaningful** division, depending on **requirement**.
+
+> In the **Divide** part we have **partition algo**, which takes **n** times. So the whole **divide** part takes **n** times.
+
+* If we are **lucky** after **n**, we can **stop**.
+* If we are **un-lucky** then **n** plus(+) the **else part time complexity**. After that we can **stop**.
+
+> It cannot be **both** as **else** there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a7820071-f1bb-46ff-ac18-798b386e7ea4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8eafbbec-ee1b-44c9-97e9-0ecd04f7c363)
+
+> **Best partition** is **50-50**, which leads to **best case**.
+
+> **Worst partition** is not **50-50**, which leads to **worst case**.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Waiting for newer videos
 
@@ -9890,32 +10040,6 @@ Steps:
 ![image](https://user-images.githubusercontent.com/54589605/236865111-4f0dd4d4-153f-4129-92b6-0982aa62fe9b.png)
 
 * Start from -> https://unacademy.com/class/heap-sort-ii/KAUOV2FP (Heap-sort-II)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
 
 
 # Practice Videos (27th April 2023)
