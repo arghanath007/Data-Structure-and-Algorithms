@@ -9879,6 +9879,300 @@ Steps:
 ![image](https://user-images.githubusercontent.com/54589605/236813336-f13cd11d-efa5-4f97-9783-bd68cce1c636.png)
 ![image](https://user-images.githubusercontent.com/54589605/236813556-fad8f471-df19-4ca6-82b1-a9f6bd2e0dd6.png)
 
+## Heap-sort-II (35) 
+
+* Link -> https://unacademy.com/class/heap-sort-ii/KAUOV2FP
+
+## Selection Procedure
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bac1ed2b-a9d4-40bf-abdd-cb1cca24d058)
+
+> If given array is already **sorted** then we will **find Kth smallest element** at **Kth** place. So, no need of **for** loop.
+
+> 1st smallest is **1st place**. 2nd smallest is that **2nd place**.
+
+> As there is **no loops**, so the **time complexity** will be **constant or O(1)** and return **a[k]**, where **a** is the **array**.
+
+> If given array is not **sorted**, then we can first do is **sort** the array and then **find Kth smallest element**  at **Kth** place. 
+
+> As we are applying **sorting algo**, so the **time complexity** will be **O(n * log n)** and return **a[k]**.
+
+* **Sorted** -> **O(1) or constant**
+* **Not sorted** -> **O(n * log n)  + O(1) -> O(n * log n)**.
+
+> If given array is not **sorted**, then we can first do is **sort** the array and then **find Kth smallest element**  at **Kth** place. 
+
+> As we are applying **selection sort algo**. In **selection sort**, **1st pass** over gives **1st minima or smallest element**. So, the time will be **n**. So, for the **Kth** element there will be **Kth pass**, so the time will be **K * n**.
+
+> So the **time complexity** when using **selection sort** will be **O(K * n)** and return **a[k]**.
+
+* Selection procedure is an **application** of **divide and conquor** algo.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44f1729a-63f4-400c-82f8-e7f3b5dd5540)
+
+* In the array we want to find **8th minimum**.
+
+> The **8th minimum** is **80**.
+
+* We want to find out **8th minimum** in the given array?
+
+> Steps: 
+
+1) Apply **Partition algo**.
+
+> **Partition algo** on **n** elements will take **O(n)** time.
+
+> We by default take the **first element** which is **80** as pivot. We will apply **Partition algo**, then the **smaller than 80** will go to **left** side and **greater than 80** will go to the **right** side. 
+
+> **Partition algo** is over, we will return **m** which is the **index** of the pivot element, which is at it's **correct place**.
+
+> After **Partition algo**, the **pivot** element is **sorted** which means pivot is at it's **correct place**, **left and right** not sorted.
+
+> **Pivot** is at **8th place**. It means that **pivot** which is **80** is the **8th smallest** element in the array. Guranteed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ccd370b6-cf80-450d-aa5f-0fcd28d8f052)
+
+* Partition algo is over, it returned **8th**?
+
+> It means that the **pivot** element which we have **choosen**, went to the **8th** place which is the **correct** place, that's why it is the **8th smallest** element in the array.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec825b34-99b6-45bb-9f1d-7e6d05e2740d)
+
+* Partition algo is over, it returned **m**?
+
+> It means that we know in the given array who is the **mth smallest element** in the array, which is **a[m]**.
+
+
+> * Partition algo is over, we know the **mth smallest element**. What we want is **Kth** smallest element in the array. If **m == K**, then it is **over**, the algo is **over**.
+
+> If we are **lucky** then we will stop in the **m == K** case only. So, the **time complexity** will be **m**. Kust apply **Partition algo** and it will be arrow.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ecc4822-a87e-4141-a208-af461dfac636)
+
+> It is like **binary search**, we are going only **one side**.
+
+* It case of **binary search**, it is **blind division**. In case of **selection procedure** it is **meaningful division**. 
+
+* In **quick sort**, we will go **both side**.
+* Partition followed by **both side**, it is **quick sort**.
+* Partition followed by **single side**, it is **selection procedure**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4eecdbf8-ef3c-4436-97d7-1ffb9aad3d95)
+
+> In quick sort, we are going **both side**. **More time**.
+
+> In **selection procedure**, we are going only **one side**. **Less time**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2e8dc277-e7a9-4d50-84c2-429d4732dff5)
+
+> When it is a **meaningful division** anything can happen. Hence we get **two** parts, **best partition** and **worst partition**. It is not **50-50** guranteed.
+
+* **Worst partition** -> When all elements are going to **one side** and on that side only, the element we are **finding** is there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d022cc95-b92e-4f51-8122-9b3c432702ed)
+
+> If only **one elemenent** is there then that **element itself** is the **answer**. If we are finding **Kth** element then, **K <= n**, 'n' is the size of the array.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c935390-9239-432a-a3fd-f14d8b5e1c9d)
+
+> Till now, we have done **one** partition and if **m == k**, then we return **a[k]**. So, it is **O(n)**. This is the **best case** for **selection procedure**.
+
+> As **return** is there in the **middle** of the program, **different cases** will come.
+
+> Normally, there is **only one** return and it is at the very end. So, **every case** is **same**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/67d5d8e4-55fd-4ab4-8fc9-e2a623105ec2)
+
+* If we are **lucky** and stop here, then the **time complexity** is **O(n)** only.
+
+* Selection Procedure **Best case** -> **O(n)**. [Apply **partition**, check **m == k** and then stop]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/17a03cfa-fcc0-4ca3-ae02-32ea54985367)
+
+* It is like **binary search** but in  **one direction** only.
+* In case of **binary search*, **blind division**. Then, we don't know which side is what. **Binary search** input is **sorted** array.
+
+> As it is already **sorted** that why we can go for **blind division**. Anyhow, **left** is **smaller** and **right** is **bigger**.
+
+ ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb470251-6a19-4ac2-b7f6-0b524bb71aea)
+
+> In **selection procedure** it is **un-sorted** array, so if we do **blind division**, then we won't know which side is what. We have to do **meaningful** division, depending on **requirement**.
+
+> In the **Divide** part we have **partition algo**, which takes **n** times. So the whole **divide** part takes **n** times.
+
+* If we are **lucky** after **n**, we can **stop**.
+* If we are **un-lucky** then **n** plus(+) the **else part time complexity**. After that we can **stop**.
+
+> It cannot be **both** as **else** there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a7820071-f1bb-46ff-ac18-798b386e7ea4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8eafbbec-ee1b-44c9-97e9-0ecd04f7c363)
+
+> **Best partition** is **50-50**, which leads to **best case**.
+
+> **Worst partition** is not **50-50**, which leads to **worst case**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee341e96-01fe-43c5-901b-cd6c91542e82)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e0caaefc-620c-49a8-b7c7-126e9c9e4355)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/194e2f3a-4e1b-4895-ac2f-6df27ab6de4a)
+
+* Selection procedure **best case** -> O(n)
+* Selection procedure **worst case** -> O(n^2)
+
+* Most of the time **best partition** will happen. So, the **average case** for **Selection procedure** is also **best case**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44efebf2-5994-4a84-ba1c-861196e32474)
+
+* Just go **one side**.
+* **Stack size** of **Selection procedure** is **log n**.
+* If array is sorted then only **worst case** comes.
+* For both **quick sort and selection procedure**, **worst case** is **n^2**.
+* For both **quick sort and selection procedure**, **best case** are different. It is **O(n * log n)** for **quick sort** as we are going to **both the sides**. It is **O(n)** for **selection procedure** as we are going to **one side** only.
+
+* When will **selection procedure** will give **best performance/case**, when the given array is **random**.
+* When will **selection procedure** will give **worst performance/case**, when the given array elements are going to **one side** only.
+
+
+* **Selection procedure** will give **best performance** in **two** cases:-
+
+1) Apply partition, array divided into **50-50**, which means **best partition** happened.
+2) Apply partition, then check **m == k**, then return **a[k]**.
+
+> In both the cases we got **O(n)**.
+
+* Best case **stack space** -> **O(1)**. [Not **O(log n)** because after **partition** over we can stop. Two best cases are possible]
+* Worst case **stack space** -> **O(n)**.
+* Average case **stack space** -> **O(log n)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05416822-5bad-4e26-b237-1ac1f055ac01)
+
+## With DAC, matrix-multiplication
+
+> With **DAC**,  matrix-multiplication will take **n^3** times. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e02ffc6-3ecd-4291-bad4-027fbe4d6b8c)
+
+> In the **matrix**, **divide by 2** means **half rows and half columns**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/332a62ba-f806-48d2-ae70-b51706c76cc1)
+
+> All are **2 X 2** in the matrix **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e551225-2829-46aa-87de-d8ba26249258)
+
+> **Divide and conquor** means we have to **divide it**. If we **divide**, **4 X 4** by 2, we got **2 X 2**. **4 X 4** matrix we are **multiplying** in-terms of **2 X 2**.
+
+> Now, matrix **A** has **two rows and two columns**. Row -> **A11 and A12**.
+
+> Now, matrix **B** has **two rows and two columns**. Row -> **B11 and B12**.
+
+> Now, matrix **C** has **two rows and two columns**. Row -> **CA11 and C12**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e254440-9d0a-4fd8-bc90-127aaf2482e3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fcc4efdc-b37e-435d-9b93-f3f46880a371)
+
+> If **2 X 2** or less than **2 X 2**, they are **small** problems.
+
+* At a time **4** elements are coming.
+* If we want to **divide by 2**, then the **matrix** size should be in the **powers of 2**, and not **even nos.** also.
+* Why we have taken **rows and columns** same?
+
+> Otherwise **multiplication** would be **complex**. There is a **condition** in matrix that, **no. of columns** in the **first matrix**, should be **equal/same** to the **no. of rows** in the **second matrix**.
+
+* Conditions
+
+1) Take only squared matrix.
+2) **n X n** should be **powers of 2**, so that division is easy. Add **zeros** if **one row** less. Add **zeroes** if **one column** less, we need in **powers of 2**.
+
+> We want to multiply **two**, **4 X 4** matrixes which are **A and B**. If we observe carefully in the inside, they are **multiplications** of **2 X 2**. There are **8**, **2 X 2** multiplications.
+
+> If we want to do **one 4 X 4 matrix** multiplication then, we are doing **8**, **2 X 2** multiplications in te inside. This is **divide and conquor algo**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/887cb3fb-37b2-4cf4-b550-1b987e8f7043)
+
+* Time complexity of **4 X 4 matrix multiplication** or T(4) -> 8 * T(4/2) + 4 * (2 ^ 2)
+* T(8) -> 8 * T(8/2) + 4 * (4 ^ 4)
+* T(64) -> 8 * T(64/2) + 4 * (32 ^ 32)
+
+* Recurrence relation of Time complexity:-
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2779003e-61bd-4314-bbb3-167dcb0a31f3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b6569cca-55f1-4a82-99ec-309cfc2073cb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6686e067-34ee-4e33-9a8a-64859feae6b2)
+
+* Stack space -> O(log n).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a6e69f3-60e6-43e4-bedd-1d5be1bd8156)
+
+* T(n) -> Time complexity to multiply **n X n** matrices. **8** came from the **8** multiplications and the **4** came from the **4** additions.
+* We can use **recursion** in multiplication.
+* We cannot use **recursion** in addition.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/faceb9f2-a700-48f4-a264-a9f26e6557fb)
+
+* Recurrence relation for multiplying **two** matrices using divide and conquor algo:-
+* T(n) = 8 * T(n/2) + n^2 -> **O(n^3)**.
+
+* Without divide and conquor algo -> **O(n^3)**.
+* With divide and conquor algo -> **O(n^3)**.
+* Stack place **increased a bit** in divide and conquor algo.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6204c4e-1043-403b-9718-ff2b0cd87878)
+
+> **Decreased** the **time complexity** in the **powers** and **powers** matters, we cannot **ignore** them.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b69cb49-c57f-44a4-bbee-581a4aa139fb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/077b3e5b-61c9-4b78-9ca1-db0d0490aecd)
+
+> Remember the time complexity values. **8** multiplications was replaced by **7** multiplications.
+
+> Everyone thinking **three for loops** are mandatory. **Strassen** proved that **less than 3** also **possible**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/891f4922-6c03-45bc-a9c5-32b6c2d46359)
+
+
+* **Strassen** matrix multiplication purpose?
+
+> Multiplying **two** matrices with **less time**, which is **O(n ^ (2.81))**.
+
+* Quick sort time complexity if we take **median** element as **pivot**?
+
+> **O(n * log n)**.
+
+* n/2th smallest element we take as **pivot**, after partition it will go to **n/2th** place.
+
+* Quick sort time complexity is **O(n * log n)** for **every case**, which element we have to take as **pivot**?
+
+> Take **Median** element as pivot.
+
+* Median element finding take **n** time only.
+
+> But anways we are taking **any element** as **pivot** because we know that, **Quick sort** time complexity will always give **O(n * log n)** if the array is **not sorted**.
+
+> If we don't want to take the risk, then always take, **median** element as pivot. It will give **O(n * log n)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef6ebcf8-24da-4d9a-83ba-5dcdd9ce315d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2f1cc83-ad43-4cd4-aefb-06e97ca39c12)
+
+* Doubt.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Waiting for newer videos
 
@@ -9889,33 +10183,7 @@ Steps:
 
 ![image](https://user-images.githubusercontent.com/54589605/236865111-4f0dd4d4-153f-4129-92b6-0982aa62fe9b.png)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
+* Start from -> https://unacademy.com/class/heap-sort-ii/KAUOV2FP (Heap-sort-II)
 
 
 # Practice Videos (27th April 2023)

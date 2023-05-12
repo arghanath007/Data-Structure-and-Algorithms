@@ -7,6 +7,15 @@
 ![image](https://user-images.githubusercontent.com/54589605/236868120-bf5277d2-780d-4475-817e-22f568012381.png)
 ![image](https://user-images.githubusercontent.com/54589605/236868374-486883d7-fc31-4289-b294-906784259ad8.png)
 
+# Revision
+
+* 1 -> Done till Lecture-3. Start from Lecture 4.
+
+# Next Video
+
+* Link -> https://unacademy.com/class/cpu-scheduling-algo-round-robin/UHQQ1T0Y (7)
+
+
 ## Introduction (1) [8th May 2023]
 
 > OS is another intermediate software which is **installed** on top of the hardware and with the help of the **OS** we can run various **processes** or **programs** and with the help of **OS** only, the whole computer system runs.
@@ -850,6 +859,488 @@ access/execute the **privilaged or protected** operations but it can't. The othe
 * NO. Because we use **interupt** now. **Non-preemptive** is not practical now.
 
 
+## CPU scheduling
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d96bd44-e023-44be-95e0-3ec9510faaac)
+ 
+## CPU Scheduling Types
+
+1) Non-preemptive 
+2) Preemptive
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/807ab3b4-4f3d-48c8-9912-8e138a769e69)
+
+## Scheduling Times
+
+1) Arrival Time(AT) -> The time at which a process is admitted. The process is coming from **new** state to **ready** state, that time is called as **arrival time**.
+2) Burst/Service Time(BT) -> The amount of time a process needs to run on CPU.
+3) Waiting Time(WT) -> The amount of time a process spends in waiting(in ready state).
+4) Completion Time(CT) -> The time at which process completes.
+5) Turn-Around Time(TAT) -> Total amount of time a process spends from arrival to completion.
+
+* Turn-Around Time(TAT) -> Completion Time(CT) - Arrival Time(AT).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/79d82259-881d-4258-84e6-02d549407802)
+
+* The those **45secs**, the process was not running on CPU for the total **45secs**, it was running on CPU for sometime but most of the **45secs** was spend on **waiting**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d1ca3c3-b365-4fff-9924-2b6615248023)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7cdf0dc-4db5-4a9a-83ec-4f1054014fc6)
+
+* IMPORTANT FORMULAS.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8412b03-617d-461d-8cb2-7538280932b4)
+
+* YES.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d5bdd132-2aee-4572-bd41-2fcb0ce552e5)
+
+6) Response Time(RT) -> Time from arrival to first response of process.
+7) Scheduling Length(L) -> max(CTi) - min(ATj) [i and j are processes]
+8) Throughput = **n/L**. No. of processes executed per unit of time.
+
+* 'n' = No. of processes executed in L.
+
+## Scheduling Algorithms
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1954d11a-ff2c-41aa-85fd-90b0ebcecb92)
+
+* **Scheduling Algorithms** work is that the **processes** that have **arrived** to the **main memory** and have the **ready** state, out of those **processes**, one of the **process** will be selected by the **scheduling Algorithms**, that will run next on the cpu.
+
+* The process which are in **ready** state only, those processes will only participate. The process who hasn't come yet, that processes we cannot **schedule**.
+* A process can be **scheduled** only after it arrives.
+
+### Consideration
+
+* No any requirement of **I/O** operations from processes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9b3f479-d4f8-4373-8b39-5a983fb5e4c0)
+
+### FCFS(Fime Come First Serve)
+
+> The process that arrives **first**, then that process is sent **first** to the CPU.
+
+* Criteria -> Smaller **Arrival time(AT)** first.
+* Mode -> Non-preemptive
+
+> If **two** process have their **arrival time(AT)** exactly same. Then we have to apply **tie-breaker**. The **tie-breaker** will be **smaller process-id** first.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83ca3618-77fb-4faa-bca8-9fe3da6c57c7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/429eba07-ab09-480f-8c31-724c7d745956)
+
+* P0, A and P are the **smallest**. That's how the **PID or process-ID** would be given in **questions**.   
+
+### Gantt Chart
+
+* Gantt Chart -> It always starts from **zero(0)**. It is a time line diagram which shows the process run from when to when.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a6cbb0a3-8e45-440f-8a45-6cac18fbc7cb)
+
+> We see that **P1, P2 and P3**, all arrive at time **zero(0)**. Now we can use **three** processes for **scheduling**. All of three process have same arrival time. We have to apply **tie breaker** and we have seen that the **smallest PID** will be give the **first scheduling**.
+
+> So the **P1** will run till **30**. Then **P2** will run till **36**. At the end, **P3** will run till **42**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4688b717-43bb-46ba-98ca-ec6e86efda40)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f45b5941-b915-4e22-9a92-887528db22d9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5029bef4-c5da-46e1-9bdd-f3308fc98bd2)
+
+* Criteria -> The process which comes **first**, schedule that process. We didn't see in the **critera** how much **burst time** the process was taking. We didn't see the **PID** of the process in the **critera** also.
+
+> If the **arrival time(AT)** of **two** processes is **same** then we are checking **PID** of the process to see who goes **first** for **scheduling**.
+
+* Response Time -> The first time, the process got the CPU and from the time the **process** arrived. That time is called as **response time**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb1cc66d-1a17-40b8-bfa0-a9fed7af3087)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d946fb4b-5c10-46fc-a61f-adcdf9e630f9)
+
+* Response Time(RT).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f005b6ff-d7fa-47a7-bf85-534457bd829a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3edaa9b0-c94b-4f84-94b8-125ae44f765f)
+
+### Problems
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/47c125a5-1917-40b7-9fd1-3af2765e7f58)
+
+
+## CPU_Scheduling (5) [11th May 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7049968a-6382-4999-8481-306fec6b2788)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/94556661-585e-4ccc-87ea-a92e50f51c03)
+
+* NO, if we have only one CPU. CPU can only run one process at a given time.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/885d9605-2c8e-4647-86a5-b54dfd4c0ebf)
+
+> So the **42** units, which is the **scheduling length**, means that in **42** units of time, we have **scheduled** all of the **processes**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/604a5637-3578-4cd2-bb48-6e33c299cdef)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3dd0fc85-b548-4096-b1be-797096c21640)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/08e8c594-8077-4c48-b118-50c8b1f0b193)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/772adc75-f2f9-4a57-8e47-448d77a95335)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3960264-6051-4d34-9cbb-412f687bdda3)
+
+* No issue.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d8d5055-fa4f-4a7e-9c9a-e9dbfd19d9d4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c90c2ce8-ff06-49cc-854d-4bfe830907af)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/720ca9d8-1569-488a-821f-865ec4adf397)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d2d80aa-247e-481d-bad6-58a1f77358c7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/841e333e-a39f-42f8-8655-bc3897a4760e)
+
+* Response time(RT) will be **same** as **waiting time(WT)** for right now. **WAIT** for the analysis.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80d2ad30-b1a2-47f8-8626-10f0e90d5708)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/904fc668-2358-4bcb-a015-6ebc829e1f13)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/73fc617c-6c24-4a56-8f10-f441c3b0e677)
+
+* Not the **idle** situation.
+
+* For how much time CPU is idle in the above question?
+
+> 2 + 2 + 3 -> **7** units of time.
+
+> From the total **21** units of time, only **21 - 7 -> 14** units of time are being used by the CPU.
+
+> CPU is idle for **7** units of time out of the total **21** units of time.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44144ea3-8c0f-459e-8e23-e09cfba2cf4c)
+
+## Convoy Effect
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/685fad26-04db-4117-92a9-70c21ed71602)
+
+* If a **big process** is schedules ahead of **small processes**, then **waiting time(WT)** of small processes will **increase**, and it will eventually **slow down the system**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3fcbceba-1da0-406b-9715-4adc8e113b53)
+
+* YES.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/675b5d78-00d2-4c63-89db-3db03cfea21f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8050b5bc-76f8-408e-8024-06857bc9dd7b)
+
+* Adavantages and disadvantages.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2244097-c23e-43bc-b051-da4fe69ed0d8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/953fb3d3-2e2c-482b-a208-54b6761223ad)
+
+* FIFO
+
+* FCFS is **not practical**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71253cb6-6de8-4bca-955c-b6e7cee9b0d5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92dc829b-5543-4a78-8585-35d5caa48985)
+
+* Fixes for mitigating or removing **convoy effect**.
+
+> Let's make a **new algo** where instead of using **FIFO**, we will **schedule the processes** based on **BT or burst time**. This is used is **SJK or Shortest Job First**.
+
+## SJK or Shortest Job First
+
+* Criteria -> We will take the **smaller** burst time(BT) process first. If **two** processes have the **same** burst time then, we have to use **tie breaker**. The **tie breaker** will be **FCFS** which means we have to find see which **process** has the **smaller** arrival time and if arrival time is also same then we have to see **PID** of the processes.
+
+* Mode -> Non-preemptive algo.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3284c46-b72f-4fb1-90a4-aa1ece6a4e12)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7e996cc-3ff5-4056-8309-979523381e6d)
+
+> In the **ready queue**, all of the **three** processes arrived at **zero(0)** time. We saw their **burst time**, **p2 and p3** had the **same** burst time. So we had to do **tie-breaker**, so we checked **arrival time** which was also **same** Now, we checked **PID**.  
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0aa2f06e-d2aa-4dae-be06-34aa5aba4bbd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/678d0e8f-2a0e-4d0a-b038-af72ed6d9657)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7cf3dab8-57cd-459e-8f28-06a61c6be3a2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/260daebb-21d9-41a5-af8d-ab140e833f24)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6f4fd18-9f71-4dfb-8b06-2834b07cffd3)
+
+* SJF, Advantages and disadvantages
+* Starvation happens in **SJF**.
+* **SJF** is not a **practical** implementation as well.
+* **Convoy effect** is only possible in **FCFS**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df9c9351-9beb-4a49-9cc0-36a66d4a8ed7)
+
+* This is the **problem** with **SJF**, we cannot **preempt**. It means that if a **big process** goes to the CPU  and then a **smaller process** comes then there is **no value/use** of the **smaller process**. It means that the **big process** cannot be **preempted**.
+
+> To solve the **problem**, there is a **preemtive** scheduling algorithm that was introduced.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/407e29f0-c30c-437d-bf25-1b15c1516a14)
+
+
+### Starvation
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f97e2b52-1315-4019-a645-0148bb9191be)
+
+
+* Starvation -> Infinite waiting
+
+## SRTF(Shortest Remaining Time First)
+
+* Criteria -> The smaller **Burst time(BT)** first. If **two** process have the **same** burst time, then we will have to use **tie breaker**. The **tie breaker** will be **FCFS**.
+
+> It is the **preemptive** version of **SJF**.
+
+* Mode -> Preemtive
+
+> If a process arrives and there are no options, we will **schedule** the process. If a **running process's** current remaining time is **more** than the **new process's** burst time then we will **preempt** the **current** running process.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b3f4d268-6be0-4c30-8921-11104f1fac13)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63a3eb1c-3533-459d-8368-2a43133ddc88)
+
+* **Example** -> We will **preempt** P1 player, when a **better** player than **P1** comes to the ground. If **P4** player is better than **P1** player then we will **preempt** P1 player and let **P4** player play on the ground. If **P4** player is not **better** than **P1** player, then let **P1** player, continue playing on the ground until **P1** player is **out**.
+
+* **Preemption** will happen when a **new** process arrives and the **new** process has **lesser burst time(BT)** than the **current** running process's **remaining** time.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3afd2627-dc4c-402b-9b45-d6d4c8c6d818)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b38b0e05-874b-4521-8982-969c8615a642)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4245338d-a6a6-438d-8bc9-7101f0482761)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a32bf091-9d4b-49ae-8910-b228504961d0)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/04354347-2c87-4d44-b924-72090d5d16e7)
+
+* Gantt chat using **SJF** scheduling.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95e1a3a3-3318-4d3f-adbb-ce5a37f3f077)
+
+* SRTF
+
+> At **4** units of time, we have **P1, P2, P4 and P5**. Their **burst times** were, **7, 4, 1, 1**. **P4 and P5** have the **same** burst time. We would **continue** P4. If the **remaining burst time** of **process** are **same** then we will check out, **arrival time**, whose's **arrival time** is **smaller**.
+
+> There is **no new process** after **5** units of time. If **no new process** are coming which means that there will be **no possibility of preemption**. Then, run the **remaining processes** like **SJF**. The **remaining time** of **P2 and P6** are **same**, so we will see **arrival time**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2fec5ed-9bd8-4f0f-b14f-628472d8b917)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c4dc8cb3-70a9-4271-85b0-d902473d46d7)
+
+* We will give some **respect** to **response time** now.
+* If the **algo** is a **preemptive** algo, then the **response time and waiting time** for the **various** process will be **different**.
+* If the **algo** is a **non-preemptive** algo, then the **response time and waiting time** for the **various** process will be **same** because when a **process** gets the CPU, the whole process is **completed** at that time only, **no preemption** happens. There is no **waiting**, so whatever was the **waiting time** at the **start** was the **response time** as well.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50922ed4-1f5c-4688-b762-4ac15b4c6714)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f61b6f49-0cff-4b87-9d98-9341b3cc7b14)
+
+* Response Time = (When the process got CPU for the first time) - Arrival Time(AT)
+* Avg response time =  (0 + 0+0+0+1+5)/6 = 6/6 = 1
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b798a5b-5cbf-4540-b030-4eaae47f439a)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e91ac02d-6abe-49ef-8288-6b493c9668ce)
+
+> Arrival time of **P6** was **5**. **P6** got cpu first at **10** units of time. The time from it's **arrival** to the time **P6** got the cpu for the **first time**, it had to wait for **10 - 5 = 5** units of time. So, **5** is **P6** response time.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58920a2d-a33c-41b1-9385-31de25610648)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef3e0788-07ec-41a3-846a-b343328d7419)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a36b580-aa66-4ab5-b97c-17853d5dfb07)
+
+* No questions have come as of it in **GATE** exam. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19783656-81a7-4cd9-8d98-fbff9aea8aad)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/399ca39b-8601-4513-8f46-fbbb1ab6b73c)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a133f2bc-f51a-46d9-9727-0dfaa15c73c9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/03957dea-d144-4345-9097-81177ad827bd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/713ffad7-c2ea-4f2e-8bfb-8864cd7c282b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f4c426e-70b4-4916-af7f-5d6a5cc85ff7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/51955819-1051-44a5-9b63-da8d055ccc20)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f044ec8-db69-4bad-9d02-86754661a88e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/993aeb9a-9da7-4917-97a0-0bf498a0e811)
+
+
+## CPU_scheduling_algo_SRTF (6) [12th May 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72599a85-f79f-4829-bcb5-ed92672809ed)
+
+* Doubt.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/47e8e98e-465a-41a8-a96e-9f33c61c1be2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/39ee938a-42b4-46ae-8966-df87dea66720)
+
+* Waiting Time(WT) **not equals to** response time(RT)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/04676eb4-8b6e-4d2c-a32d-ada169cc12e2)
+
+* SRTF, advantages and disadvantages.
+
+* If asked in a question that for a given process what will be the **min average waiting time**?
+
+> Indirectly asking for **SRTF** algo, as it has the **min avg waiting time** among all **scheduling algos**, preemtive or not.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8e6f2c6-29f7-4ec0-8905-a1082591983d)
+
+* If asked in a question that for a given process what will be the **min average waiting time** for **non-preemtive** algos only?
+
+> Indirectly asking for **SJF** algo.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f3633348-163e-46fc-9cca-6c85d15c900c)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/87be7521-4c8c-474f-a5c0-391867387942)
+
+* AS **SRTF** has **starvation** we can say that the algo is not **fair** or **no fairness** in the algo. It is a **biased** algo towards **smaller/shorted jobs/processes**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3af4bca8-234b-417d-9051-aa58db75ce79)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ddb5bb9-c660-40fb-a6ca-efac9a11ed81)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27fe9f5a-e3d7-49db-b1d4-4a17d25ddba6)
+
+* SRTF and SJF are **benchmarks**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d74fdaaf-3376-4d8f-a5b8-36e01e75dba6)
+
+* YES.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91f598cf-d576-4da0-87e2-efed441a44f0)
+
+* If asked for a given process scenario, **what will be the min. avg. waiting time?**
+
+> Apply **SRTF**.
+
+* If asked, **what will be the min. avg. waiting time**, for **non-preemptive execution of processes?
+
+> Apply **SJF**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e4b4e300-2001-440d-83af-4883945c917d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/488a36b0-dffd-4475-b3a7-0fd18ee0a981)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9341ae00-70fe-4dec-9cd9-71b1265567fb)
+
+* Only happens in **FCFS** only.
+
+## LJF(Longest Job First)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e31d3949-c1a7-479f-b612-41f03109af96)
+
+* Criteria -> Largest **Burst time(BT)** available. If there is **tie-breaker** then use **FCFS** for **tie-breaker**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a277c711-1730-4b81-a3d0-9868a1c7ecb9)
+
+* Convoy effect is given only. It is always there as well are taking the **largest** process anyways.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/06f40bd7-d45e-4c23-8c23-a9f96b77e82d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33f29439-a59c-4c52-9f42-db90edc3eba8)
+
+## LRTF(Longest Remaining Time First)
+
+* Criteria -> Largest burst time first. 
+* Tie breaker -> FCFS
+* Mode -> Preemptive
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c5ca66be-534f-4279-ade4-00b802052397)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/79e74138-8345-49f0-9dc5-c408b5234581)
+
+* **No. of context switches** -> 17
+
+> Excluding before first process and after last process completion.
+
+> **Turn-Aroung-Time** is **same**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/08f90613-33c5-4c8e-a912-e31ca59c3c62)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c08a654f-2d00-4f60-b92b-4933cb90af78)
+
+* **LJF and LRTF** also suffer from **starvation**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f175338-ccb5-4166-9fcb-2f41dceaf2bc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44370e58-8a0f-419f-a8ad-614fb9f392d0)
+
+> The **four** processes, **P1, P2, P3 and P4** have ran for **8 + 5 + 3 + 1 -> 17** units of time. In whatever **sequence** they have ran, **we don't care**. Now, all of the **four** process each have only **1** unit of time left.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b80faf26-406a-45a6-92d6-dde24f2d9673)
+
+> We will run **P1 -> P2 -> P3 -> P4**, in this **order** only, for **each and every case**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e512480-4d2f-4d1b-aa58-a494b50d82f5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/570dea75-3136-4ff8-b365-83d2de9d17a9)
+
+> We don't have to make the **full gantt chart**, until and unless they ask for **count of context switch**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c23a2072-d0f0-4d97-9a76-861ec1e936ee)
+
+> No need of making the  **full gantt chart**. From there we can easy find **completion time(CT)** and get the **answers** from there only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef8a5ad4-afd0-4d6d-83ed-a6a8bc21bf49)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4eefc79c-c38b-4b67-a310-15d321dffa9f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a59c7189-b53f-4a5f-a35e-89c62c687c05)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9cca89e9-27ed-4c49-a7c0-36237a6f689a)
+
+* Barbar algorithm. No **advantage** of scheduling. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8e81e8f-d03e-4878-805a-57342c5da379)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/022d0b27-1e2e-4747-9006-0fed4ac7473f)
+
+> **Substracting 1** from the **burst times** of the **processes** so that we are left with only **1** unit of time for all of the processes. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/deec2240-a827-41c5-b0f3-dde44c496c11)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/87f6f97a-cf2d-4fc2-82b2-7469d7b2a11d)
+
+* When the **above trick** will not work:
+
+> Trick does not work when a person completes before any other process arrives.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6983ea6c-be2e-4a95-98af-0a76ab0ad544)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/539a2698-d9c5-4c4e-b69a-d39ba5f3d63d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5540ab9e-00c6-468b-a3eb-ef991313cef2)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/54a29729-8099-4be5-a749-5274d478825a)
+
+* The above trick will not work in these question because **P4** process came **very late**, after **two** process were already **finished**. Better to make a **gantt chat** here and solve it using that.
+
+> **SRTF and SJF** give favour to the **smaller** processes and because of that reason **starvation** happens. The **bigger** process have to wait for **longer**. This **problem/issue** is fixed by **HRRN**.
+
+## HRRN(Highest Response Ratio Next)
+
+* Response Ratio -> It is dependent on **waiting time(W) and burst time(S)**. If the **waiting time** of the process is **increased** then **response time** will **increase**. If the **burst/service time(S)** is **small** then also the **response time** will **increase**. 
+
+* Criteria -> Among all of the processes, whoever has the **highest** response ration will be **scheduled**. If there is any **tie breaker** for some reason then we have to resolve the **tie breaker** using **SJF** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b4d8ec0c-7ec1-4725-b797-efaf8a72e146)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d7bd06d1-605a-47ae-baae-5a8ab303edb6)
+
+* Non-preemtive **SJF**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16424ba8-7258-433c-bc26-3fdf55cf3845)
+
+> We haven't checked the **response ratio** because there is only **one process** in the algo, and with **one process**, which ever algo we apply, it will give the **same** result. That's why we didn't calculate **response ratio** for **P1 and P2**. **P1 and P2** where running **alone** on their own.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c073c957-5569-4803-949c-41ef2873257b)
+
+> There is **no choice**, only **one process** is there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d7c2beb-5832-442f-a250-de3436465b74)
+
+* P3's waiting time = 9-4 = 5
+* P4's waiting time = 9-6 = 3
+* P5's waiting time = 9-8 = 1
+
+* Response ratio(P3) = (5 + 4)/4 = 9/4 = 2.25
+* Response ratio(P4) = (3 + 6)/6 = 9/6 = 1.6
+* Response ratio(P5) = (1 + 2)/2 = 3/2 = 1.5
+
+> So, **P3** process has the **highest** burst time.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db7f7f6d-6291-4b9a-8f75-ee78a0509085)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9bce17e9-7b2d-454c-b964-6f647cc1904e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/08145feb-4e20-4b82-b856-9b400dd078f1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f93c8319-f5d9-47f1-8ce2-c061325b7aca)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7837b586-c9aa-4ccb-abc4-78b6a6ee44ea)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -943,25 +1434,21 @@ access/execute the **privilaged or protected** operations but it can't. The othe
 
 * C
 
-## CPU scheduling
+## DPP 2 (Lecture -> 5)
 
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d96bd44-e023-44be-95e0-3ec9510faaac)
- 
-## CPU Scheduling Types
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c659b1a0-e29f-455d-bf3f-9b9c49f66d8a)
 
-1) Non-preemptive 
-2) Preemptive
+* True.
+* After waiting for CPU initially, process runs and completes. Hence afterwards no any waiting of process.
 
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/807ab3b4-4f3d-48c8-9912-8e138a769e69)
-
-* Start from **1hr 27mins**.
-
-
-
-
-
-
-
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba5537ae-68e6-40db-ad10-9eaa7e68a8a9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e418045-e9bd-4e89-81d8-58221e0c0b79)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/696b9eac-9400-455a-a13e-88203df860b7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/375aebc9-71c5-48ca-8ae4-871d59300abb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8001acf1-d41b-4da9-9770-d173ff59bf09)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e90a29c1-8b7a-49b4-bdf2-aade768e722d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f939332-32ad-4fa7-ac63-e155cfae7829)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e4720b33-2b41-49a0-adbd-5488278bdced)
 
 
 
