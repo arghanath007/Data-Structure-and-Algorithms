@@ -1138,6 +1138,14 @@ access/execute the **privilaged or protected** operations but it can't. The othe
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19783656-81a7-4cd9-8d98-fbff9aea8aad)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/399ca39b-8601-4513-8f46-fbbb1ab6b73c)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a133f2bc-f51a-46d9-9727-0dfaa15c73c9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/03957dea-d144-4345-9097-81177ad827bd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/713ffad7-c2ea-4f2e-8bfb-8864cd7c282b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f4c426e-70b4-4916-af7f-5d6a5cc85ff7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/51955819-1051-44a5-9b63-da8d055ccc20)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f044ec8-db69-4bad-9d02-86754661a88e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/993aeb9a-9da7-4917-97a0-0bf498a0e811)
+
 
 
 
@@ -1241,10 +1249,23 @@ access/execute the **privilaged or protected** operations but it can't. The othe
 
 * C
 
-## DPP 2(5)
+## DPP 2 (Lecture -> 5)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c659b1a0-e29f-455d-bf3f-9b9c49f66d8a)
 
 * True.
 * After waiting for CPU initially, process runs and completes. Hence afterwards no any waiting of process.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba5537ae-68e6-40db-ad10-9eaa7e68a8a9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e418045-e9bd-4e89-81d8-58221e0c0b79)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/696b9eac-9400-455a-a13e-88203df860b7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/375aebc9-71c5-48ca-8ae4-871d59300abb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8001acf1-d41b-4da9-9770-d173ff59bf09)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e90a29c1-8b7a-49b4-bdf2-aade768e722d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f939332-32ad-4fa7-ac63-e155cfae7829)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e4720b33-2b41-49a0-adbd-5488278bdced)
+
+
 
 
 
