@@ -1086,15 +1086,57 @@ access/execute the **privilaged or protected** operations but it can't. The othe
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b3f4d268-6be0-4c30-8921-11104f1fac13)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63a3eb1c-3533-459d-8368-2a43133ddc88)
 
-* **Preemption** will only happen:-
+* **Example** -> We will **preempt** P1 player, when a **better** player than **P1** comes to the ground. If **P4** player is better than **P1** player then we will **preempt** P1 player and let **P4** player play on the ground. If **P4** player is not **better** than **P1** player, then let **P1** player, continue playing on the ground until **P1** player is **out**.
 
-1)
+* **Preemption** will happen when a **new** process arrives and the **new** process has **lesser burst time(BT)** than the **current** running process's **remaining** time.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3afd2627-dc4c-402b-9b45-d6d4c8c6d818)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b38b0e05-874b-4521-8982-969c8615a642)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4245338d-a6a6-438d-8bc9-7101f0482761)
 
-* Start from **1hr 30mins**.
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a32bf091-9d4b-49ae-8910-b228504961d0)
 
+* Question
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/04354347-2c87-4d44-b924-72090d5d16e7)
 
+* Gantt chat using **SJF** scheduling.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95e1a3a3-3318-4d3f-adbb-ce5a37f3f077)
+
+* SRTF
+
+> At **4** units of time, we have **P1, P2, P4 and P5**. Their **burst times** were, **7, 4, 1, 1**. **P4 and P5** have the **same** burst time. We would **continue** P4. If the **remaining burst time** of **process** are **same** then we will check out, **arrival time**, whose's **arrival time** is **smaller**.
+
+> There is **no new process** after **5** units of time. If **no new process** are coming which means that there will be **no possibility of preemption**. Then, run the **remaining processes** like **SJF**. The **remaining time** of **P2 and P6** are **same**, so we will see **arrival time**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2fec5ed-9bd8-4f0f-b14f-628472d8b917)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c4dc8cb3-70a9-4271-85b0-d902473d46d7)
+
+* We will give some **respect** to **response time** now.
+* If the **algo** is a **preemptive** algo, then the **response time and waiting time** for the **various** process will be **different**.
+* If the **algo** is a **non-preemptive** algo, then the **response time and waiting time** for the **various** process will be **same** because when a **process** gets the CPU, the whole process is **completed** at that time only, **no preemption** happens. There is no **waiting**, so whatever was the **waiting time** at the **start** was the **response time** as well.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50922ed4-1f5c-4688-b762-4ac15b4c6714)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f61b6f49-0cff-4b87-9d98-9341b3cc7b14)
+
+* Response Time = (When the process got CPU for the first time) - Arrival Time(AT)
+* Avg response time =  (0 + 0+0+0+1+5)/6 = 6/6 = 1
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b798a5b-5cbf-4540-b030-4eaae47f439a)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e91ac02d-6abe-49ef-8288-6b493c9668ce)
+
+> Arrival time of **P6** was **5**. **P6** got cpu first at **10** units of time. The time from it's **arrival** to the time **P6** got the cpu for the **first time**, it had to wait for **10 - 5 = 5** units of time. So, **5** is **P6** response time.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58920a2d-a33c-41b1-9385-31de25610648)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef3e0788-07ec-41a3-846a-b343328d7419)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a36b580-aa66-4ab5-b97c-17853d5dfb07)
+
+* No questions have come as of it in **GATE** exam. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19783656-81a7-4cd9-8d98-fbff9aea8aad)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/399ca39b-8601-4513-8f46-fbbb1ab6b73c)
 
 
 
@@ -1198,6 +1240,22 @@ access/execute the **privilaged or protected** operations but it can't. The othe
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a023935a-e076-4661-aca7-687236087d4d)
 
 * C
+
+## DPP 2(5)
+
+* True.
+* After waiting for CPU initially, process runs and completes. Hence afterwards no any waiting of process.
+
+
+
+
+
+
+
+
+
+
+
 
 
 
