@@ -1147,6 +1147,78 @@ access/execute the **privilaged or protected** operations but it can't. The othe
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/993aeb9a-9da7-4917-97a0-0bf498a0e811)
 
 
+## CPU_scheduling_algo_SRTF (6) [12th May 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72599a85-f79f-4829-bcb5-ed92672809ed)
+
+* Doubt.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/47e8e98e-465a-41a8-a96e-9f33c61c1be2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/39ee938a-42b4-46ae-8966-df87dea66720)
+
+* Waiting Time(WT) **not equals to** response time(RT)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/04676eb4-8b6e-4d2c-a32d-ada169cc12e2)
+
+* SRTF, advantages and disadvantages.
+
+* If asked in a question that for a given process what will be the **min average waiting time**?
+
+> Indirectly asking for **SRTF** algo, as it has the **min avg waiting time** among all **scheduling algos**, preemtive or not.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8e6f2c6-29f7-4ec0-8905-a1082591983d)
+
+* If asked in a question that for a given process what will be the **min average waiting time** for **non-preemtive** algos only?
+
+> Indirectly asking for **SJF** algo.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f3633348-163e-46fc-9cca-6c85d15c900c)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/87be7521-4c8c-474f-a5c0-391867387942)
+
+* AS **SRTF** has **starvation** we can say that the algo is not **fair** or **no fairness** in the algo. It is a **biased** algo towards **smaller/shorted jobs/processes**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3af4bca8-234b-417d-9051-aa58db75ce79)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ddb5bb9-c660-40fb-a6ca-efac9a11ed81)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27fe9f5a-e3d7-49db-b1d4-4a17d25ddba6)
+
+* SRTF and SJF are **benchmarks**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d74fdaaf-3376-4d8f-a5b8-36e01e75dba6)
+
+* YES.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91f598cf-d576-4da0-87e2-efed441a44f0)
+
+* If asked for a given process scenario, **what will be the min. avg. waiting time?**
+
+> Apply **SRTF**.
+
+* If asked, **what will be the min. avg. waiting time**, for **non-preemptive execution of processes?
+
+> Apply **SJF**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e4b4e300-2001-440d-83af-4883945c917d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/488a36b0-dffd-4475-b3a7-0fd18ee0a981)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9341ae00-70fe-4dec-9cd9-71b1265567fb)
+
+* Only happens in **FCFS** only.
+
+## LJF(Longest Job First)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e31d3949-c1a7-479f-b612-41f03109af96)
+
+* Criteria -> Largest **Burst time(BT)** available.
+
+
+
+
+
+
+
+
+
+
 
 
 
