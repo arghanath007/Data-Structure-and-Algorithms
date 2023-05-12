@@ -11,6 +11,9 @@
 
 * 1 -> Done till Lecture-3. Start from Lecture 4.
 
+# Next Video
+
+* Link -> https://unacademy.com/class/cpu-scheduling-algo-round-robin/UHQQ1T0Y (7)
 
 
 ## Introduction (1) [8th May 2023]
