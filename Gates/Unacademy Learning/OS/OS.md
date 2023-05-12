@@ -1283,16 +1283,44 @@ access/execute the **privilaged or protected** operations but it can't. The othe
 
 * The above trick will not work in these question because **P4** process came **very late**, after **two** process were already **finished**. Better to make a **gantt chat** here and solve it using that.
 
-> **SRTF and SJF** give favour to the **smaller** processes and because of that reason **starvation** happens. The **bigger** process have to wait for **longer**.
+> **SRTF and SJF** give favour to the **smaller** processes and because of that reason **starvation** happens. The **bigger** process have to wait for **longer**. This **problem/issue** is fixed by **HRRN**.
 
 ## HRRN(Highest Response Ratio Next)
 
-Start from 1hrs 9mins
+* Response Ratio -> It is dependent on **waiting time(W) and burst time(S)**. If the **waiting time** of the process is **increased** then **response time** will **increase**. If the **burst/service time(S)** is **small** then also the **response time** will **increase**. 
 
+* Criteria -> Among all of the processes, whoever has the **highest** response ration will be **scheduled**. If there is any **tie breaker** for some reason then we have to resolve the **tie breaker** using **SJF** only.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b4d8ec0c-7ec1-4725-b797-efaf8a72e146)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d7bd06d1-605a-47ae-baae-5a8ab303edb6)
 
+* Non-preemtive **SJF**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16424ba8-7258-433c-bc26-3fdf55cf3845)
 
+> We haven't checked the **response ratio** because there is only **one process** in the algo, and with **one process**, which ever algo we apply, it will give the **same** result. That's why we didn't calculate **response ratio** for **P1 and P2**. **P1 and P2** where running **alone** on their own.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c073c957-5569-4803-949c-41ef2873257b)
+
+> There is **no choice**, only **one process** is there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d7c2beb-5832-442f-a250-de3436465b74)
+
+* P3's waiting time = 9-4 = 5
+* P4's waiting time = 9-6 = 3
+* P5's waiting time = 9-8 = 1
+
+* Response ratio(P3) = (5 + 4)/4 = 9/4 = 2.25
+* Response ratio(P4) = (3 + 6)/6 = 9/6 = 1.6
+* Response ratio(P5) = (1 + 2)/2 = 3/2 = 1.5
+
+> So, **P3** process has the **highest** burst time.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db7f7f6d-6291-4b9a-8f75-ee78a0509085)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9bce17e9-7b2d-454c-b964-6f647cc1904e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/08145feb-4e20-4b82-b856-9b400dd078f1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f93c8319-f5d9-47f1-8ce2-c061325b7aca)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7837b586-c9aa-4ccb-abc4-78b6a6ee44ea)
 
 
 
