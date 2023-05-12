@@ -10135,14 +10135,26 @@ Steps:
 
 > Multiplying **two** matrices with **less time**, which is **O(n ^ (2.81))**.
 
+* Quick sort time complexity if we take **median** element as **pivot**?
 
+> **O(n * log n)**.
 
+* n/2th smallest element we take as **pivot**, after partition it will go to **n/2th** place.
 
+* Quick sort time complexity is **O(n * log n)** for **every case**, which element we have to take as **pivot**?
 
+> Take **Median** element as pivot.
 
+* Median element finding take **n** time only.
 
+> But anways we are taking **any element** as **pivot** because we know that, **Quick sort** time complexity will always give **O(n * log n)** if the array is **not sorted**.
 
+> If we don't want to take the risk, then always take, **median** element as pivot. It will give **O(n * log n)**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef6ebcf8-24da-4d9a-83ba-5dcdd9ce315d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2f1cc83-ad43-4cd4-aefb-06e97ca39c12)
+
+* Doubt.
 
 
 
