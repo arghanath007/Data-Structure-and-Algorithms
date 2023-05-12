@@ -10012,6 +10012,135 @@ Steps:
 
 > **Worst partition** is not **50-50**, which leads to **worst case**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee341e96-01fe-43c5-901b-cd6c91542e82)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e0caaefc-620c-49a8-b7c7-126e9c9e4355)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/194e2f3a-4e1b-4895-ac2f-6df27ab6de4a)
+
+* Selection procedure **best case** -> O(n)
+* Selection procedure **worst case** -> O(n^2)
+
+* Most of the time **best partition** will happen. So, the **average case** for **Selection procedure** is also **best case**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44efebf2-5994-4a84-ba1c-861196e32474)
+
+* Just go **one side**.
+* **Stack size** of **Selection procedure** is **log n**.
+* If array is sorted then only **worst case** comes.
+* For both **quick sort and selection procedure**, **worst case** is **n^2**.
+* For both **quick sort and selection procedure**, **best case** are different. It is **O(n * log n)** for **quick sort** as we are going to **both the sides**. It is **O(n)** for **selection procedure** as we are going to **one side** only.
+
+* When will **selection procedure** will give **best performance/case**, when the given array is **random**.
+* When will **selection procedure** will give **worst performance/case**, when the given array elements are going to **one side** only.
+
+
+* **Selection procedure** will give **best performance** in **two** cases:-
+
+1) Apply partition, array divided into **50-50**, which means **best partition** happened.
+2) Apply partition, then check **m == k**, then return **a[k]**.
+
+> In both the cases we got **O(n)**.
+
+* Best case **stack space** -> **O(1)**. [Not **O(log n)** because after **partition** over we can stop. Two best cases are possible]
+* Worst case **stack space** -> **O(n)**.
+* Average case **stack space** -> **O(log n)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05416822-5bad-4e26-b237-1ac1f055ac01)
+
+## With DAC, matrix-multiplication
+
+> With **DAC**,  matrix-multiplication will take **n^3** times. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e02ffc6-3ecd-4291-bad4-027fbe4d6b8c)
+
+> In the **matrix**, **divide by 2** means **half rows and half columns**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/332a62ba-f806-48d2-ae70-b51706c76cc1)
+
+> All are **2 X 2** in the matrix **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e551225-2829-46aa-87de-d8ba26249258)
+
+> **Divide and conquor** means we have to **divide it**. If we **divide**, **4 X 4** by 2, we got **2 X 2**. **4 X 4** matrix we are **multiplying** in-terms of **2 X 2**.
+
+> Now, matrix **A** has **two rows and two columns**. Row -> **A11 and A12**.
+
+> Now, matrix **B** has **two rows and two columns**. Row -> **B11 and B12**.
+
+> Now, matrix **C** has **two rows and two columns**. Row -> **CA11 and C12**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e254440-9d0a-4fd8-bc90-127aaf2482e3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fcc4efdc-b37e-435d-9b93-f3f46880a371)
+
+> If **2 X 2** or less than **2 X 2**, they are **small** problems.
+
+* At a time **4** elements are coming.
+* If we want to **divide by 2**, then the **matrix** size should be in the **powers of 2**, and not **even nos.** also.
+* Why we have taken **rows and columns** same?
+
+> Otherwise **multiplication** would be **complex**. There is a **condition** in matrix that, **no. of columns** in the **first matrix**, should be **equal/same** to the **no. of rows** in the **second matrix**.
+
+* Conditions
+
+1) Take only squared matrix.
+2) **n X n** should be **powers of 2**, so that division is easy. Add **zeros** if **one row** less. Add **zeroes** if **one column** less, we need in **powers of 2**.
+
+> We want to multiply **two**, **4 X 4** matrixes which are **A and B**. If we observe carefully in the inside, they are **multiplications** of **2 X 2**. There are **8**, **2 X 2** multiplications.
+
+> If we want to do **one 4 X 4 matrix** multiplication then, we are doing **8**, **2 X 2** multiplications in te inside. This is **divide and conquor algo**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/887cb3fb-37b2-4cf4-b550-1b987e8f7043)
+
+* Time complexity of **4 X 4 matrix multiplication** or T(4) -> 8 * T(4/2) + 4 * (2 ^ 2)
+* T(8) -> 8 * T(8/2) + 4 * (4 ^ 4)
+* T(64) -> 8 * T(64/2) + 4 * (32 ^ 32)
+
+* Recurrence relation of Time complexity:-
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2779003e-61bd-4314-bbb3-167dcb0a31f3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b6569cca-55f1-4a82-99ec-309cfc2073cb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6686e067-34ee-4e33-9a8a-64859feae6b2)
+
+* Stack space -> O(log n).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a6e69f3-60e6-43e4-bedd-1d5be1bd8156)
+
+* T(n) -> Time complexity to multiply **n X n** matrices. **8** came from the **8** multiplications and the **4** came from the **4** additions.
+* We can use **recursion** in multiplication.
+* We cannot use **recursion** in addition.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/faceb9f2-a700-48f4-a264-a9f26e6557fb)
+
+* Recurrence relation for multiplying **two** matrices using divide and conquor algo:-
+* T(n) = 8 * T(n/2) + n^2 -> **O(n^3)**.
+
+* Without divide and conquor algo -> **O(n^3)**.
+* With divide and conquor algo -> **O(n^3)**.
+* Stack place **increased a bit** in divide and conquor algo.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6204c4e-1043-403b-9718-ff2b0cd87878)
+
+> **Decreased** the **time complexity** in the **powers** and **powers** matters, we cannot **ignore** them.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b69cb49-c57f-44a4-bbee-581a4aa139fb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/077b3e5b-61c9-4b78-9ca1-db0d0490aecd)
+
+> Remember the time complexity values. **8** multiplications was replaced by **7** multiplications.
+
+> Everyone thinking **three for loops** are mandatory. **Strassen** proved that **less than 3** also **possible**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/891f4922-6c03-45bc-a9c5-32b6c2d46359)
+
+
+* **Strassen** matrix multiplication purpose?
+
+> Multiplying **two** matrices with **less time**, which is **O(n ^ (2.81))**.
+
+
+
+
+
+
+
 
 
 
