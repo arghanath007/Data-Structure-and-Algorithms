@@ -10046,7 +10046,7 @@ Steps:
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05416822-5bad-4e26-b237-1ac1f055ac01)
 
-## Strassein's matrix multiplication
+## Strassen's matrix multiplication
 
 * No questions have come yet from this.
 
