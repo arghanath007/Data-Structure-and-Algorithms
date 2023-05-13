@@ -4258,7 +4258,7 @@ A) Infinite loop -> **NO**. Space is **limited**. Not possible.
 
 * **a >= 1**, which means that **a=1** also possible. If we keep **a > 1**, then **binary search** is gone. In **binary search**, **a=1**. If **a > 1**, then we have to remove **binary search**.
 
-## Finding Max and min
+## 1. Finding Max and min
 
 * Input -> An array of **n** distinct elements
 * Output -> Returns max and min elements.
