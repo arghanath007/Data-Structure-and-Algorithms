@@ -4178,14 +4178,14 @@ A) Infinite loop -> **NO**. Space is **limited**. Not possible.
 
 ## Applications of Divide and Conquor (FOR GATE)
 
-1) Finding max and min
-2) Power of an element
-3) Binary Search
-4) Merge sort
-5) Quick sort
-6) Selection procedure(Not selection sort)
+1) Finding max and min (DONE)
+2) Power of an element (DONE)
+3) Binary Search (DONE)
+4) Merge sort (DONE)
+5) Quick sort (DONE)
+6) Selection procedure(Not selection sort) (DONE)
 7) Maximum contigious sub-array sum
-8) Finding no. of inversions
+8) Finding no. of inversions (DONE)
 9) Strassen's matrix multiplication
 
 > All of them use, **same** algorithm. The **4** function's code will **differ**.
@@ -5558,7 +5558,7 @@ A) Infinite loop -> **NO**. Space is **limited**. Not possible.
 
 ![image](https://user-images.githubusercontent.com/54589605/235427017-c31fe845-7631-45dc-ba50-fd0efbe0023a.png)
 
-## Binary Search
+## 3. Binary Search
 
 * Input -> An **array of sorted** which has **n-elements** and an **element, 'x'**.
 * Output -> Returns position of x, else return '-1'. If found then return position of 'x', else return '-1'.
@@ -6723,7 +6723,7 @@ A) Infinite loop -> **NO**. Space is **limited**. Not possible.
 
 * BRO. DEAD.
 
-## Merge Sort
+## 4. Merge Sort
 
 * Sorting Technique.
 
@@ -7408,10 +7408,10 @@ A) Infinite loop -> **NO**. Space is **limited**. Not possible.
 ## Summary
 
 * Nothing mentioned then **merge sort**.
-* For **un-sorted** array, always use **quick sort**.
+* For **un-sorted** array, always use **Quick sort**.
 * To be same, use **merge sort**.
 * For **small arrays** use **insertion sort**.
-* Random array -> **quick sort**.
+* Random array -> **Quick sort**.
 * **Large array** -> **merge sort**
 
 ![image](https://user-images.githubusercontent.com/54589605/236011760-38228055-d5a0-4b06-8f70-0b5155b37abe.png)
@@ -7860,7 +7860,7 @@ Steps:
 ![image](https://user-images.githubusercontent.com/54589605/236375237-2f6b7448-1dc4-49cf-93b2-ea5184e3bf0d.png)
 ![image](https://user-images.githubusercontent.com/54589605/236375281-0dbc157f-79e4-4b58-bf73-423bccb7e4d7.png)
 
-## Quick Sort
+## 5. Quick Sort
 
 1) Merge sort is **stable**. Quick sort is **not stable**. 
 2) Merge sort is **out-place**. Quick sort is **in-place**(Taking max space upto **log n**).
@@ -9377,7 +9377,7 @@ Steps:
 
 * To the above problem, **every case** is **same**.
 
-## Selection Procedure
+## 6. Selection Procedure
 
 * It is not **selection sort**, it is **selection procedure**.
 
@@ -9576,7 +9576,7 @@ Steps:
 
 ![image](https://user-images.githubusercontent.com/54589605/236718208-90fa945b-322b-4c5b-a0c5-68577fe5b7c5.png)
 
-## Counting no. of inversions
+## 8. Counting no. of inversions or Finding no. of inversions
 
 * Input -> Array of n-distinct elements
 * Output -> Count inversions
