@@ -10046,7 +10046,77 @@ Steps:
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05416822-5bad-4e26-b237-1ac1f055ac01)
 
-## With DAC, matrix-multiplication
+## Strassein's matrix multiplication
+
+* No questions have come yet from this.
+
+### Without DAC, matrix addition
+
+> If we want to **add** two matrices then the **two** matrices should have **same** size. Addition means both should be of **same** size.
+
+> There are **two** loops. So, the time complexity is **O(n^2)**.
+
+> Resultant **matrix, 'C'** contains **n ^ 2**, no. of elements only. As **A** contains **n ^ 2** and **B** also contains **n ^ 2*, so matrix, 'C' contains **n ^ 2** elements. Adding two **n X n** matrices gives **n X n** matrix only.
+
+* Matrix addition time complexity?
+
+> **O(n^2)**, because resultant matrix contains **n ^ 2** elements. Every element requires **one addition**. So **O(n ^ 2) * O(1) -> O(n^2)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9eb08cf6-ac4f-4b07-aff2-6a9ecafd5506)
+
+> If we want to get **one element**, **one addition** is required.
+
+* Time complexity is taken up by **loops** only. **Two loops**, so **O(n ^ 2)** only.
+
+> When we **add or do addition** with the **A's first person** with the **B's first person**, then we get **C's first person**. 
+
+> So, it is **normal addition**, which will take **constant time**, we have **n ^ 2** people in **C matrix**. So, **n ^ 2** people and each addition takes **constant time**, which means **n ^ 2 * O(1) -> O(n ^ 2)** times.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/06186728-d59c-4fda-a14e-4f0b70037916)
+
+### Matrix multiplication
+
+* Matrix multiplication requires **3 loops**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c5121ae7-fea2-4178-ac2b-b1f94635ca6f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b2f7fab9-70c9-4b20-bebf-febf3337681b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8dc3670c-bd56-430b-9ae1-bece17dfd79d)
+
+> We have **n ^ 2** elements, for **each element** we have to do **n** times, which means for **n ^ 2** elements we have to do **(n ^ 2) * n -> n ^ 3** times.
+
+* Time complexity -> **O(n^3)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/45ead164-fad8-479e-9c5f-80e25e27a174)
+
+* 3 inner loops(i, j and k).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e05bb24f-5f3b-48b5-8f36-b156eac4afc7)
+
+* For **each element** we have to do **n** times.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1019b7a0-d4f7-440a-91fd-dadded4da9df)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d218fb10-6b8c-4dc2-a19d-4f462f236a09)
+
+* The **initial values** of **C[i][j]** is **zeros(0)**. The resultant matrix(c), initial contains **zeros(0)**, as it is **needed** otherwise some problems will come.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a516a74a-0dfd-425f-96ad-2ea07b5c096c)
+
+* Addition -> **O(n ^ 2)**.
+* Multiplication -> **O(n ^ 3)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f30cc62-272d-4345-ab8f-d0ff9c49b5fb)
+
+* If the **sizes** of the matrix are **not equal**, then **multiplication of matrix** is also not **possible**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e206811-94de-49f4-8fb3-8e74eed8a8fa)
+
+* (m X n) * (n X p) -> m X p [Matrix sizes after multiplication] 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33139d14-f19a-4985-8789-93cb30238c49)
+
+* The **above** is **Matrix multiplicatio** without **divide and conquor algo(DAC)**.
+
+## With DAC, Matrix multiplication
 
 > With **DAC**,  matrix-multiplication will take **n^3** times. 
 
@@ -10163,6 +10233,7 @@ Steps:
 ## Bubble_Sort (36) [13thMay 2023]
 
 * Link -> https://unacademy.com/class/bubble-sort/P3ZX3ZNU
+
 
 
 
