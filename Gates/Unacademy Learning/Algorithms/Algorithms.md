@@ -4186,7 +4186,7 @@ A) Infinite loop -> **NO**. Space is **limited**. Not possible.
 6) Selection procedure(Not selection sort) (DONE)
 7) Maximum contigious sub-array sum
 8) Finding no. of inversions (DONE)
-9) Strassen's matrix multiplication
+9) Strassen's matrix multiplication (DONE)
 
 > All of them use, **same** algorithm. The **4** function's code will **differ**.
 
