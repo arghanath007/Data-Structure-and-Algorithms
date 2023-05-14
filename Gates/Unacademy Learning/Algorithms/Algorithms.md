@@ -10046,6 +10046,8 @@ Steps:
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05416822-5bad-4e26-b237-1ac1f055ac01)
 
+![image](https://user-images.githubusercontent.com/54589605/236865111-4f0dd4d4-153f-4129-92b6-0982aa62fe9b.png)
+
 ## Strassen's matrix multiplication
 
 * No questions have come yet from this.
@@ -10493,7 +10495,7 @@ Steps:
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/192a9382-2edc-4301-aa12-50508c8c1620)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6eac86f7-1b24-4101-baa2-3181750f5cab)
-![Uploading image.png…]()
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5579a052-aad6-4dd2-b46c-65cb67b1d337)
 
 
 
@@ -10520,9 +10522,7 @@ Steps:
 * Counting no. of Inversions(DONE)
 * Selection Procedure(DONE)
 
-![image](https://user-images.githubusercontent.com/54589605/236865111-4f0dd4d4-153f-4129-92b6-0982aa62fe9b.png)
-
-* Start from -> https://unacademy.com/class/heap-sort-ii/KAUOV2FP (Heap-sort-II)
+* Started from -> https://unacademy.com/class/heap-sort-ii/KAUOV2FP (Heap-sort-II)
 
 
 # Practice Videos (27th April 2023)
