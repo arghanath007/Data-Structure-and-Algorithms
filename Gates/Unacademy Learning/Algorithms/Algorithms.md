@@ -10492,6 +10492,8 @@ Steps:
 * So, **min and max** heaps are also stored in the computer using **array representation** only.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/192a9382-2edc-4301-aa12-50508c8c1620)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6eac86f7-1b24-4101-baa2-3181750f5cab)
+![Uploading image.png…]()
 
 
 
