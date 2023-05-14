@@ -4184,7 +4184,7 @@ A) Infinite loop -> **NO**. Space is **limited**. Not possible.
 4) Merge sort (DONE)
 5) Quick sort (DONE)
 6) Selection procedure(Not selection sort) (DONE)
-7) Maximum contigious sub-array sum  [Find it in the new hybrid course]
+7) Maximum contigious sub-array sum  [Find it in the new hybrid course] [To me done in Special Class]
 8) Finding no. of inversions (DONE)
 9) Strassen's matrix multiplication (DONE)
 
@@ -10234,6 +10234,264 @@ Steps:
 
 * Link -> https://unacademy.com/class/bubble-sort/P3ZX3ZNU
 
+## Heap Sort
+
+* Every year, **one question** comes from **Heap sort**.
+* Heap sort is not **application** of divide and conquor algo.
+
+### Binary Tree
+
+* **Max** of **two** children.
+* **Empty binary tree** with **zero** nodes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2476309-1789-4dde-bdc8-c172e2e1ede5)
+
+### Almost Complete Binary Tree(ACBT)
+
+* Binary Tree means **no conditions**, max of **two** children. We can go any no. of levels, no objection at all.
+* In **almost complete binary tree**, not only **binary tree** but the condition is that if **above levels** are **free** then use them.
+
+> Condition of **almost complete binary tree** is that if **current level** is **free** then don't go to the **next level**, don't unnecessarily **increase** levels. 
+
+> Without **completing** left, don't go to the **right**.
+
+* Rules of **almost complete binary tree**:-
+
+1) Without **completing** left child at **every node**, don't go to the **right**.
+2) Without completing **current/present level** fully, don't go to the **next level**.
+
+> Any **binary tree** that satisfies the above **two** conditions is called as **almost complete binary tree**. 
+
+### Complete Binary Tree(CBT)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d18a407-43f1-4ac7-8448-42e144be54fd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e6c812fa-ddc8-47f1-9557-66922bcba580)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ae85a73-f62b-4c1c-a821-4f227d969b76)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8452e560-8a5a-44d7-b8ac-78304bf6873a)
+
+> **CBT or Complete Binary Tree** is a special condition of **ACBT** where there is **no gap** in the tree. 
+
+* In **ACBT** gaps can be there, in the **last level** but at the **right-left** side only.
+* In **ACBT**, a **few gaps** are allowed, in the **last level** but at the **right-left** side only. If there are **no gaps** then it is **CBT or Complete Binary Tree**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ebc49d70-de5b-4efc-a76e-0b4855796c8f)
+
+> Every **CBT** is **ACBT**, but not every **ACBT** is **CBT**.
+
+* **4-level** CBT contains -> (2^4) - 1.
+* **K-level** CBT contains -> (2^K) - 1.
+* **N-level** CBT contains -> (2^N) - 1.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ddc0d5cc-f104-4515-bfbc-cba93154be0d)
+
+* It is the **CBT**, max and min are the **same** only. So, for **N-level** CBT contains **(2^N) - 1** nodes which is **min as well as max**. Every time it is **same** for **every case**.
+* There is **no gap** in **CBT**, so **same** will come. 
+* In **ACBT** there are **gaps** so, **max and min** will come.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7fa3c7a9-16c3-49d1-9aaa-ab3f9df9b183)
+
+* There are **4** levels. We cannot leave the last level which is the **4th** level empty then how is the tree **4** levels, that why we putting **one node** as the last level to make it into a **ACBT**.
+
+> So to find the **ACBT min** for **4** levels, what are we are doing is we are finding **max of ACBT** for **3** levels which is **2 ^ 3 - 1** and we have **one node** at the **4th level**. So, it is **2 ^ 3 - 1 + 1 -> 2 ^ 3**.
+
+* **ACBT min** for **4 levels** -> **2 ^ 3**.
+* **ACBT max** for **4 levels** -> **2 ^ 4 -1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9565c795-97c0-4940-bcad-5620fcb78060)
+
+> **Max and min** conditions are coming from **ACBT**, as **ACBT** has gaps.
+
+* In **K** level, how many nodes are there in an **ACBT**?
+
+> **2 ^(k-1) - 1 + 1 -> 2^(k-1)**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24010305-0722-4eec-84c6-780b7c94b23d)
+
+> It doesn't matter from where we start, at the end of the day, **how many levels**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0576873f-22de-4413-9e73-3f4e9def6144)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ed691c2-e4da-4998-a5ab-a1aa7f5c3e47)
+
+* If asked that **n** nodes **CBT** contains how many levels?
+
+> **K = log(n + 1) base 2**. Where **K** is the **no. of levels**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee7ecb61-3e98-4213-b38e-c9925453e135)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44d52e6b-fc9e-4c50-9894-ad42af91bc52)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/043ec2b7-35f0-4945-922d-85e30835eac7)
+
+> We have **4** levels, so the **total no. of nodes** is **(2 ^ 4) - 1 -> 15**. If we do **15/2 -> 7.5**, which gives **7.5**. Take the **ceil(7.5) -> 8**. So, **8** is the **no. of leaf nodes** in the **4 level** tree.
+
+* Leaf node is **zero child or children**. In **CBT**, leaf node is **last level** only.
+> In a **CBT**, there are **n** nodes, so there are **n/2 or half** leaf nodes and **n/2 or half** are **non-leaf** nodes. If **fractions** came then take the **bigger** one, which is **ceil()** or ceil value, as the **leaf nodes**.
+
+> We have **4** levels, so the **total no. of nodes** is **(2 ^ 4) - 1 -> 15**. If we do **15/2 -> 7.5**, which gives **7.5**. Take the **floor(7.5) -> 7**. So, **7** is the **no. of non-leaf nodes** in the **4 level** tree.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff1739c9-8bdc-4fd3-8b82-45f0747828ed)
+
+* Every formula is for **CBT** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f240c824-7afc-4479-981c-fc46438c92fb)
+
+* CBT contains **n-nodes**.
+* No. of **leaf nodes** -> Ceil(n/2)
+* No. of **non-leaf nodes** -> floor(n/2)
+
+> The **above** formula are meant for **CBT** only but they work for **both**, **ACBT and CBT**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ad1dcf5-ff05-43c1-8300-c8119ba172e6)
+
+* **Heap sort** is **ACBT**.
+
+### Binary Tree representations
+
+1) Array representation
+2) Linked List representation
+
+* Computer cannot see a **tree**, **tree** representation is for humans.
+* So computer, uses the **above** representations. It is for any **tree**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e7eb24d4-0c38-4336-90b5-86f335a9ea4c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92c66919-9f0b-4ed4-8f69-8f78eda25b3d)
+
+* In **linked list** if **both** the **address or pointers** are **null** then it is a **leaf node**.
+
+> The **original diagram** has **7** nodes, and everyone is a **character**, so **each** is **1 byte**. So, in total for **7** node, it has **7 * 1 byte -> 7 bytes**.
+
+> In **array representation** for **7** node, the total size is **7 bytes** only.
+
+> In **linked list representation**, there are **3 parts** in every **node** of the linked list. So, **each node** has **3 parts** which means **1 bytes * 3 -> 3 bytes**. So, for the total of **7** node it is **7 * 3 bytes -> 21 bytes**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f2847c0-07f1-4894-a9b9-fd6cf26758cb) 
+
+> There are **two** binary tree representation but **depending on the situation**, **one** is better than the **other**.
+
+> The **greater** advantage of **array representation** is that **random access** is possible but in **linked list representation**, **random access** is not possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fad3819c-1315-4a7b-bd07-a7406c031632)
+
+* In Array representation, **n** is a node.
+* Find **Parent** -> floor(n/2)
+* Find **Left child**, next generation -> 2 * n.
+* Find **Right child**, next generation -> 2 * n + 1.
+
+> When the **calculation** is **crossing boundary** it is **leaf node**.
+
+* Linked List representation does not have **formulas**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df3b2ea0-df9f-42da-bb3a-ad33124865b7)
+
+* In Array representation, **nth** place is a node.
+* Find **Parent** -> floor(n/2)
+* Find **Left child**, next generation -> 2 * n.
+* Find **Right child**, next generation -> 2 * n + 1.
+
+> This will work for **any binary tree representation**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e33ff6a7-76ec-4f97-aec7-0f4611faaabb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/adf7ec3f-96aa-45d7-a59d-3e8b52eb451f)
+
+> In there as we can see that **B** node, doesn't have any **child** nodes. So we have to **leave gaps** in the **array representation** for the **children** of **B**. That why we have given **two gaps** after **C** as **B** doesn't have **any children**. After that put the **children ** of **node C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f18e2fa-d9f0-4873-b967-b1383ce9b803)
+
+> Check the **answer** with the **formula** to see if the **answer** is  **right or wrong**.
+
+* Binary Tree having **5 nodes** but in the **array representation** of the **binary tree**, we have **7** nodes/indexes. So, if we are **unlucky** then **more slotes** we have to take in **array representation**.
+
+> Array represenation is not **always** better, it is **dependent** on the **situation**.
+
+* In **Array represenation** we have to keep **gaps** for the **missing children** but in **linked list represenation**, we are simply putting **NULL(N)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31f47338-6b6a-497e-96b5-3e227627b6fa)
+
+> Tree has **5** nodes, so it should take **5** slots. In **Array represenation**, it took **7** slots as **two** gapes were there. In **linked list represenation**, we are doing **5** nodes only but each node is **3 bytes**. So it is **15 bytes** which is still **smaller** than the **7 bytes** which was taken by **Array represenation**.
+
+* For the **above** formula to work, **array index** starting from **1** only. 
+* Array index starting with **0** it will work with some other formula.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc7874a6-394a-48c2-b518-0fbec49efe1e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/099f9cb5-cb94-4717-a793-473b0ba149d7)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9e11c8d-1bc4-4dde-b4d5-03674394ec22)
+
+> In the **array representation**, for the **4** nodes, it took **15** slots. For the **linked list represenation**, it took **4** slots only but **each slot** is **3 bytes** which means in total **4 * 3 -> 12 bytes**. Here, **linked list represenation** is **better** than **array representation** for the **given above problem*.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e92e6c10-9e21-48e7-aa61-f3e3467bdd9e)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3742cfd-953c-45d4-a88f-8c01af40b52d)
+
+> We will finish the **array representation** as soon as we get the **last element** into the **array**. As we got **D** in the array, we finished the **array representation**, no need of that **gap** after **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/faa57e97-7e17-4ee0-9f5a-42bdb336b8be)
+
+* Array representation is **better** for **CBT and ACBT**.
+* Linked list representation is **better** for other than **CBT and ACBT**.
+* Binary tree means **Linked list representation**.
+* By default if those two, **CBT and ACBT* are **not mentioned** then go for **linked list representation**.
+* Heap sort means **CBT and ACBT**. So, **heap sort** is representation inside the **computer** by the **array representation**.
+
+## Heap Tree
+
+1) Min Heap
+2) Max Heap
+
+* Heap's final goal is **sorting** only which is **heap sort**.
+* CBT is also ACBT, so it is better to write **ACBT**.
+* In **min-heap**, **root/parent** is **minimum** when comparing **children**. **Equal** also **no problem**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/42a0f83b-5901-4d01-be64-257fa423c2f5)
+
+* Min Heap
+
+1) ACBT
+2) In ACBT, **root** is **minimum or equal** also when comparing **children** at every node. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bcca6137-be0d-4471-9310-4d59b725a9dc)
+
+> We don't care in **min-heap tree**, left or right child is **bigger**. Comparing **root**, how **children** look like. Comparing **child and parent**, parent is **minimum**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8378c1e0-fbd4-49ac-bb91-20fdd1ccd462)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e5651d2-cc70-47b3-8e95-8baeb376e893)
+
+
+## Max Heap
+
+* **Root** is **more or equal too** when comparing with **children**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aeede4a6-8a0d-4014-ad32-49bbaf9b59f3)
+
+* ACBT and CBT contains **n** nodes, then the **no. of levels** is **K = log(n + 1) base 2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c004348f-a527-4eb4-903c-e9dcb22103a3)
+
+* Max Heap
+
+1) ACBT
+2) At every node, **root** is **max or equal too** compared with it's **children**. Then it is known as **Max-Heap**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2bdd8e19-33b1-41c8-8e56-2f47a810c723)
+ 
+> In **both** the trees, all of the elements are the **same**, then it is **both, min as well as max** heap.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f100743-2daa-458a-957b-ba815a081472)
+
+* In a given tree, all of the elements are **same** then the tree will be **both, min as well as max** heap also. The tree will give **both ascending as well as descending** order. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/780ca3db-d5dd-4c92-aced-9259b60b1014)
+
+
+* In **min-heap**, it is guranteed that the **root** contains the **min. element**.
+* In **max-heap**, it is guranteed that the **root** contains the **max. element**.
+
+* If a **min-heap** is given and we are asked to find **min element**?
+
+> It will take **constant or O(1)** time as the **root** contains the **min. element**.
+
+* ACBT is stored in the computer using **array representation**.
+* So, **min and max** heaps are also stored in the computer using **array representation** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/192a9382-2edc-4301-aa12-50508c8c1620)
 
 
 
