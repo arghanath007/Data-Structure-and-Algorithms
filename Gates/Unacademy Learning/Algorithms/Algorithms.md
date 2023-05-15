@@ -10982,6 +10982,29 @@ Steps:
 
 > **O(n * log n)** for **every case**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2efbef4c-36ab-408b-b075-0dffce4b0a8a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef89b7af-9355-4a4a-bb5d-82c1c22ebc17)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
