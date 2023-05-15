@@ -10990,14 +10990,160 @@ Steps:
 ## Greedy Technique
 
 * Also called as **short-cut** technique.
+* Notes -> Most of the problems in **greedy** contain **n** inputs and the **objective** is finding a **subset** which will satisfy the conditions and maximizes the **goal**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/39e2a1f5-0e67-440e-9e66-6520859e2add)
+
+* Input -> **n** inputs
+* Output -> The **objective** is finding a **subset** which will satisfy the conditions and maximizes the **goal**
+
+* In **sorting**, we cannot go for **greedy** technique.
+* In **searching**, we cannot go for **greedy** technique.
 
 
+* Out of **300** people, taking **5** people in a **group** in how many ways?
+
+> No. of Groups possible = **300c5**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/caafeaf1-d2ca-433d-ab23-24ce4ba246df)
+
+* Every group contains **5** people. Between **two** groups **atleast one difference** should be there.
+
+* **All possible solutions**, out of **300** only selecting **5**, how many possibilities? **300c5**, those many possibilities -> **Solution space**.
+* **Those solutions, satisfying the condition**, Out of the **300c5** groups, how many groups are satisfying the condition?  -> **Feasable solutions**.
+* **Best One**, Out of the **feasable solutions**, which one is **optimizing** the **goal**? **Maximum Average**  -> **Optimal Solution**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/baf32b84-af7e-4f55-88de-24eefc025e77)
+
+* **Solution space** -> Set of all possible solutions, over the given **n** no. of inputs, is known as **solution space**. It is **300c5**
+* **Feasable solutions** -> Those solutions which will **satisfy the conditions**, are known as **feasable solutions**. It is **50c5**.
+* **Optimal Solution** -> It is **one** of the **feasable solutions**, which will **optimize/maximize the goal**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/873ae092-5f86-498a-92bd-4001d6196ee7)
+
+* **Optimal Solution** need not be **unique**. More than **one** possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/993ca3fb-f26c-4327-a7ec-95adbbe19b10)
+
+## Application of Greedy Technique
+
+1) Knapsack problem
+2) Job Sequencing with deadlines
+3) Huffman coding
+4) Optimal merge pattern
+5) minimum cost spanning tree((MST) [**IMPORTANT**]
+ A) Prims
+ B) Kruskal
+6) Single Souce Shortest Path(SSSP) -> **One To Many** path.
+ A) Dijkstra's -> **Positive edge weight only**.
+ B) Bellman-ford -> **Positive and negative edge weights**.
+ C) Breath first search/traversal -> **No Edge Weight**. 
 
 
+* Single Souce Shortest Path(SSSP) 's input -> **One Graph and single source**.
+* Output -> From **source to every other person** we have to find **shortest** path.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea86c24f-cc53-4315-ae64-ed451a9d5231)
+
+* Out of the **three** algos in **Single Souce Shortest Path(SSSP)**, only **Dijkstra's** is **practical**.
+
+## Knapsack Problem
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22c0f753-c898-447b-9c6d-c81a66701faa)
+
+* Knapsack -> Bag
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d36aaa1-24de-4a6a-8c6e-25e344465625)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c6f15e6d-e0fe-4c1a-a631-75aed6814a0b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/895a3d62-3e11-44a1-ba68-a27bf40cea7d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/67166877-9d3e-46f9-9f2b-4354ed1e661f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b4e452b2-5dc3-47dd-8d12-a936219a652c)
+
+* Sum of all the weights = 25kgs.
+* The **max capacity** of the **thief's bag** -> 20Kgs.
+* **Fractions** are also **allowed**.
+* Knapsack is also called as **fractional knapsack** as **fractions** are **allowed**.
+* Taking object **half** means **multiplying weight with 1/2** and also **multiplying value with 1/2** also.
+* Taking object **full** means **multiplying weight with 1** and also **multiplying value with 1** also.
+* Not Taking object means **multiplying weight with zero(0)** and also **multiplying value with zero(0)** also.
+* **Greedy** means **we cannot take all**, we have to take a **subset**.
+
+* Conditions of **Knapsack problem**:
+
+1) Take whatever object we can but do not cross the **limit/capacity** of the **bag/knapsack**. This is called as **peaceful** solution.
+2) Out of all the **peaceful** solution we have, the solution which gives the **max profit**, that is the **optimal solution**.
+
+> For the **knapsack** some **damange** happened because we **kept more**, then that solution is not a **peaceful** solution.
+
+> When we can say the solution is **peaceful** when there is **no damage** to the **knapsack** and we taking between **0 to 1**, including **0 and 1**. 
+
+> Out of all the **peaceful** solution we have, the **best solution**, which gives the **max profit**, that is the **optimal solution**
+
+> For **1 unit**, **object 2** is giving the **best profit**, so take **object 2** as much as possible. So, we will **first** take **object 2**. As **object 2** is the **best one**, we are taking it **fully**, so we have put **1** in **x2**. 
+
+> After taking **5** units of **object 2**, we have remaining storage of **20-5 -> 15** units of space in the **knapsack**. Now, **object 3** is giving the **2nd best profit**. So we will take **object 3** fully as it has **8 units** but we can still take **15 units**.
+
+> After adding more **8** units of **object 3**  we have remaining storage of **15-8 -> 7** units of space in the **knapsack**. Now, we are left with **object 1**. It has **12** units but we only have **7** units. So, we cannot take **fully**. So we will take **7/12** units only of **object 1**. Now the **knapsack** is **full**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f9f01056-998a-4689-8f69-453a88231741)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8d85fb4-086f-4297-8b3c-a38c1641277d)
+
+> While giving **answer** we have considered both **profit as well as weight** here.
+
+* Knapsack will give **best answer** when we have given **priority** to both **profit as well as weight** here.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0324cefe-b6b4-414f-869a-034b4509e687)
+
+> We have taken the **objects** using **some calculations** and not **blindly**.
+
+> We have given **importance** to the **best** person because for **1 unit** weight it is giving **max profit**.
+
+> So finally **625** is the **max profit**, we will get.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6f5b235-e04a-4d78-8eb4-e438b4cbc9b7)
+
+* Steps for **knapsack** problem:-
+
+1) For every object, find out their **1 unit** weight and their **profit**.
+2) Whoever is **best** after calculations, take that **one** then **2nd best** and on and on until **capacity** is **zero(0)**.
+3) Whatever **fraction** we have **take**, that **fraction** of **profit** we will get. Add of the **them** and we will get the **max profit**.
 
 
+* What is the **Optimal soution**? It means in **which fractions** we have to take the **objects**?
 
+> **7/12, 1, 1**. The **max profit** is **625** as it came from **optimal solution**.
 
+* **Optimal soution** -> **(7/12, 1, 1)**.
+* **Feasible solution** -> **(7/12, 1, 1)**.
+* **Feasible solution** but not **Optimal soution** -> **(7/12, 1, 0)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bec56a03-a08a-4908-b0e1-4ec89e1e3705)
+
+* **No damage** to **knapsack** in both the **cases**.
+
+> **1 and 0** both are **feasible**, so between **1 and 0** we can write **infinite feasible** solutions. As **fractions** are **allowed**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/049e8f51-d691-4b8c-a7f0-796bf34c7cc1)
+
+* What are the things really required for the **problem**?
+
+1) **How many objects? -> 'n'**. Here we have **n = 3** objects.
+2) For every object, the question should give **two** things, they are **weight and profit**.
+3) Capacity of **knapsack** should be given.
+4) The twist is that **sum of all the weights** of the **objects** should be **more/cross** the **limit/capacity** of the **knapsack**.
+5) We can take **fractions**. That's why it is called as **fractional knapsack problem**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9721f4a-5d90-4728-8adc-484cb2367c9c)
+
+* **Fractional knapsack problem** -> Greedy Technique
+* **No fractions** allowed, **knapsack problem**. Also called as **0-1 knapsack** problem -> Dynamic programming.
+
+> **Greedy** cannot give answer to **0-1 knapsack** problem.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5df6f462-a76c-4480-8139-75f2fe0fd57e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bdfa4dad-422b-49b5-b71f-f6a2f4fadecd)
+
+* Home work.
 
 
 
