@@ -10638,16 +10638,96 @@ Steps:
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3caca8a1-dbe7-4990-9033-6517082c5137)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5fb50f4-e67f-43ee-a776-d234217ebbf6)
+
+* YES. Only if the **new element** is bigger than it's parent. So no **swapping** neded which is the **best case**.
+
 ### Deletion
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/683917d5-d41b-46a2-87e4-7bbbb5f117e4)
 
+* Elements will **decrease** in **deletion**.
+* n = 20 [array size]
+* m = 20 [Last element position]
 
+* Who will change among **n and m** in **deletion**?
 
+> **m** will **change**. **n** is size of the array, it is **fixed**, we cannot **change** it.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1700760-8a92-4fb0-b34c-765e5c8e1e5c)
 
+> In stack, if we say **pop**, the **last element(LIFO)** is deleted. In queue, if we say **delete**, the **first element(FIFO)** is deleted.
 
+> In case of stack, **last element(LIFO)** is deleted. In case of queue, **first element(FIFO)** is deleted. 
 
+> In case of min-heap, if we say **delete**, then **root** element is deleted, because **root** is the **min** element.
 
+* If we are asked to get the **min element** out from a **min-heap** tree?
+
+> Perform **Deletion** once. Root will be **deleted**.
+
+* If mentioned in the question, **delete** some specific element, then delete that element only. If nothing mentioned then delete the **root** element.
+
+> When deleting **first element(root)**, store it in some variable, **x= a[1]**. Deleting the **first element(root)** is nothing but **replacing** it with the **last element**. It is not **ACBT**. It not **min-heap** now. So, we have to do **adjustments**, the **new element** in the **rott** should ask the **childrens**.
+
+> Parent is compared with **two** children, **best one** is swapped with the **parent**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a2bd8cd-edb3-4920-b746-85a78243561c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dee7b68a-ec6d-4e7c-bca4-e8f737d7dbd8)
+
+> The root element is **deleted** and it is **replaced** with the **last element**. Now we are **comparing** the **parent** with it's children. Whoever is **smaller** is swapped with the **parent**. This goes on, until we get **min-heap** again.
+
+> Adjustment going on from **top to bottom**. **Parent** is **asking** children. Everytime we are coming down, we are doing **two comparisions** and **one swap**. We have **log n** levels. The **path length** is **log n**.
+
+> So, we are doing **2 comparisiona and 1 swap** at **each level** and we have **log n** levels.
+
+* Time complexity -> **2 * log n + log n -> 3 * log n -> O(log n)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/499d1670-c577-40e1-aae6-e2b52ad25814)
+
+* Time complexity of deletion for **worst case** -> **O(log n)**.
+* Time complexity of deletion for **average case** -> **O(log n)**.
+* Time complexity of deletion for **best case** -> **O(1)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/166471be-d4b5-48e7-a708-b2ff3f404db7)
+
+> **Insertion and deletion** time is **same**. In **insertion** we are going from **bottom to top** and in **deletion**, we are going from **top to bottom**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d08d720d-6c17-4bc2-8fe9-30ace9abedeb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f45ba749-fc7f-45a7-a7fe-006ead79c4ac)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f781df5b-2e0b-4119-8801-f0d75ef746ee)
+
+* **Root** element is **deleted** by default. First **store** then **delete** because we want the **min element**.
+
+* In **min heap** tree, how much time for **deleting**?
+
+> **log n** time is **average worst case**. **O(1)** for **best case**.
+
+* In **min heap** tree, how much time for **finding**?
+
+> **O(1)** for **every case**. Finding means **just return** over.
+
+* Finding and deleting is **different**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b29c90e-a852-45a0-a454-16a9cb5b577f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b2fe448-8943-4033-8f8b-c00531ddcc1d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89c77b3a-afbf-440f-88be-0a8638e0e048)
+
+> **Deletion** is **root** element deleting. First store the element to be deleted. Deletion is nothing but **ignoring**. So, the **first element** which is **10** is being **replaced** by the **last element(m)** which is **160**. Now, we have **two** instances of **160**, so we do **m=m-1**, so **remove/ignore** the **last instance** of **160**.
+
+> So the **gap** is at the **last place**, now the **no. of elemenets** is from **20** to **19**. So, **160** is at the **root**. Now **parent** is **comparing** with **children** to see if **children** are **smaller** than **parent** or not.
+
+> If **smaller** then the **parent and child** are **swapped**. We do the same thing in the next level also. We do this until we find that the **parent** is **smaller** than the **childen** then we stop, which is the **condition** of **min-heap**.
+
+* **Insertion and deletion**, **Both** are **adjusting**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/efb27cf1-d40d-403a-ac49-aa16fa775c88)
+
+* Min heapify procedure from **top** -> **Deletion**
+* Min heapify procedure from **bottom** -> **Insertion**
+
+* Deletion is over, **one gap** came at the **last** and **one minimum** also came.
+* **Min-heap** tree **first time** deleted, **one min** element came.
 
 
 
