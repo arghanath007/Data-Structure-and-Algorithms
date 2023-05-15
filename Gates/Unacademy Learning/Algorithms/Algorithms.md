@@ -10498,6 +10498,166 @@ Steps:
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5579a052-aad6-4dd2-b46c-65cb67b1d337)
 
 
+## Greedy-Techniques (37) [15th May 2023]
+
+## Min-Heap
+
+* Min-Heap tree with **n** people, how many levels?
+
+> **O(log n)**. **Every case** is **log n** levels as it is a **balanced tree**.
+
+* Binary tree with **n** people, how many levels?
+
+> Max is **n** levels, min is **log n** levels.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f1ca054f-3a99-48c3-ba23-9e849d7c6106)
+
+* Min-Heap tree **min element** as the **first level**.
+* Min-Heap tree **max element** as the **leaf node**.
+
+* Min-Heap tree containing **n** elements, finding **min element** is **O(1)**.
+* Min-Heap tree containing **n** elements, finding **max element** is **O(n)**. We don't need to scan the entire tree, we can just scan the **leaf nodes** and we know leaf nodes is **n/2**. We can do **one scan** and found out.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2e46d0aa-2bd8-43da-988c-8e7e7b0eddfa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4bf0dbca-7d7e-448e-b206-9338ca2f55a2)
+
+> Half is **leaf** and half is **non-leaf**. Find **middle element** and from **mid + 1**, we can find the **leaf nodes**. 
+
+* In the **min heap** tree there are **1024** elements in total. We need to find the **max element**. How many comparisions.
+
+> n/2 -> 1024/2 -> 512. So  **512** leaf and **512** non-leaf elements. So **no. of comparisions** to find **max element**, **n - 1 -> 512 - 1 -> 511**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/054c8c8a-a22f-456f-8842-b4a38822fc6d)
+
+* Min-heap tree, finding **min elememnt**, how much time? How many comparisions?
+
+> O(1) or constant. **No comparisions** as **root** is the **min element** only.
+
+* Min-heap tree, finding **max elememnt**, how much time? How many comparisions?
+
+> O(n) times . **(n/2) - 1** comparisions as **n/2** elements is the **leaf nodes**.
+
+* Formula to find **leaf nodes**?
+
+> **(n/2) + 1** still **n** are the **leaf nodes**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fafc37cb-b6bf-40b8-aded-ce371f15de18)
+
+* n/2 -> 21/2 -> 10.5 -> Ceil(10.5)
+* n/2 -> 20/2 -> 10 -> 10 + 1 -> 11
+
+> If **fraction** comes as the **mid** element then do **Ceil()**. If **whole numbers** come then do **plus 1(+1)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c14782e4-2576-4ca6-91ab-31d227c4234f)
+
+* Normal array max is **anywhere** we have to do **one scan**. It takes **n** times.
+* Normal array min is **anywhere** we have to do **one scan**. It takes **n** times.
+* Min and Max heap tree are **arrays**, but every array is not **min or max** heap.
+* In **Min heap** array representation, min element is the **first element**, no scan needed. It takes **constant time**.
+* In **Min heap** array representation, max element is the **leaf nodes**. It takes **n** times.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/20708968-bbfa-4412-a852-f592ea27665e)
+
+* Min-heap advantage is **min** element.
+* In **Max heap** array representation, max element is the **first element**, no scan needed. It takes **constant time**.
+* In **Max heap** array representation, min element is the **leaf nodes**. It takes **n** times.
+* Max-heap advantage is **max** element.
+
+* In a min-heap, it has **n** elements, how much time to find the **max** element?
+
+> O(n). One scan.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ee2ac4e-cc95-4dec-836b-3ae415e59f41)
+
+* Min-heap **first min** -> O(1)
+* Min-heap **2nd min** -> O(1)
+* Min-heap **3rd min** -> O(1)
+* Min-heap **100th min** -> O(1)
+* Min-heap is meant for **min** elements.
+* It is good for **constant** minimum. If we use **functions** then problem will come.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5edab875-a523-4445-a253-5b786c51fa6a)
+
+> Random access possible in **array** so we went to the last place and inserted the element. It will take **O(1)** time and after insertion is over, ask the **parent** if everything is OK. We check **min-heap** property where the **parent** is **smaller** than child.
+
+> So, **80 > 5**, and we **swap**. **5** will ask parent, if everything is OK. So, **50 > 5**, **swap**. **5** will ask parent, if everything is OK. So, **30 > 5**, **swap**. **5** will ask parent, if everything is OK. So, **10 > 5**, **swap**.
+
+> It is **min-heap**, so the **smaller** elements will go to the **top**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cea588f9-4868-456d-9b9b-e9e090a36d9f)
+
+> When the **min** element is going up, then it is following one **specific path**. The **path length** is **log n**, as we are going on **one specific path** only.
+
+* It is **log n** comparisions and **log n** swaps. So, **log n + log n -> 2 * log n -> O(log n)**.
+
+> We have **log n** levels. So, we are **first comparing** the **parent with the child** and then **swapping** the parent with the child. We are doing **both** comparisions and swaps all of the time.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d9dc3b72-a1c9-4c2d-996d-1dc8ce63e037)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b1e0f463-3a2d-4d96-9934-46e39f8c1e53)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6fbefe2e-86c1-4d13-aca9-16510ba85762)
+
+* The process is called as **heapify** method.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3357a4f-d4d1-4a6f-874b-8571bc5715b0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b1bb07a7-4fbd-4988-a32b-04a040dd27b2)
+
+* Time complexity of **min heapify** procedure -> **log n + log n -> 2 * log n -> O(log n)**
+* We are **inserting** the **new element** at the **bottom level** because we have **gap** at the **bottom** level only.
+
+* Insertion Algo **best case** for min-heap -> O(1).
+* Insertion Algo **worst case** for min-heap -> O(log n).
+* Insertion Algo **average case** for min-heap -> O(log n).
+
+> When we inserted the element at the bottom and the element asked the parent if the element is OK. We are checking if the parent is smaller than the child. If parent is smaller than child, then we **stop**, which is the **best case**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7bbd2a94-3d0e-46a1-a90f-f3b9b381fa81)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2dc7ee3b-4c0d-4d4d-9ded-c14175837943)
+
+* NO. **Maximum level**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0943644c-3df1-4d53-b1a5-2442a45006e8)
+
+* Min heap tree to **insert** one element, how much time?
+
+> **log n** for **worst and average** case. **O(1)** for **best case**.
+
+* For **n** people to create **min-heap**, how much time?
+
+> **O(n * log n)**. [Inserting one element at a time]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b15cfa6-ef0b-4021-8540-e183f6dae3c4)
+
+* For **n** people to create **min-heap**, how much time [All elements are present in the array at a time]?
+
+> **O(n)**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/15bae352-7df5-4ea4-a1c4-6213e2cd9148)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e46840e-95ee-4b48-8230-a1d2b769ce1f)
+
+> **Insertion** is at the last place because **gap** is at the last only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3caca8a1-dbe7-4990-9033-6517082c5137)
+
+### Deletion
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
