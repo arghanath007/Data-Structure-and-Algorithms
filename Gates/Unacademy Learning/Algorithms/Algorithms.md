@@ -10729,15 +10729,258 @@ Steps:
 * Deletion is over, **one gap** came at the **last** and **one minimum** also came.
 * **Min-heap** tree **first time** deleted, **one min** element came.
 
+## Greedy Techniques-IX (38) [15th May 2023]
+
+* No. of levels is **log n base 2** for **every case** as it is a balanced tree.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b57f3761-d78a-4728-b02c-ee4ed5459418)
+
+* Because of **deletion**, elements are **decreasing**.
+
+* n = 9(Array size)
+* m = 9(Last element size)
+
+> **m** will only **change**, it will keep on **increasing or decreasing**. Array size which is **n** is **fixed** only, it cannot be **changed**.
+
+> By default, **first elemenent** is **deleted**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8864c5bf-3fb2-46f0-a8e0-a3822090c800)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/68139825-e012-4c9c-b471-84e61959e8c6)
+
+* Deletion **best** case -> O(1)
+* Deletion **worst and average** case -> O(log n).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/072159e7-9d3f-49ba-9263-ae85f06d60b6)
+
+ * After **deletion**, the last element comes to the **top** and now **min heapify** procedure happens to make the **min-heap**. The **parent** is asking the **children** if it is the **correct** place for the parent or not. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/51a88182-c867-4c78-a25a-78eb39a71aff)
+
+* Every deletion worst case -> O(log n)
+* Time complexity of **Heap sort** -> O(n * log n).  [There are **n** elements, so **deletion** happening **n** times]
+
+* Deletion -> Parent ask children.
+* Insertion -> Children ask parent.
+* Heap sort is **in-place**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/42dfe5ed-b2ee-4724-afe9-66e4160ebbde)
+
+* We are **deleting** because we want the **min element**and it is for **sorting** purpose.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4a4fe29-7387-416a-b237-9d5c2648b62c)
 
 
+> We can **delete** anywhere not only **root** element only but can't give gurantee that it is **min or max** from the tree. 
+
+> In **min-heap** we can only talk about **root** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d68630c-7f32-4eb8-9af3-54e39fba195b)
+
+* Simply delete. It is always **O(1)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22deddd5-a284-4e73-abaa-50c1e19a17df)
+
+* In **min-heap** tree, how much time to **find** the **max** element?
+
+> **Max** element is with the **leaf nodes** and we have **n/2** leaf nodes. It will take **n/2 - 1** comparisions. So it will be **O(n)** times.
+
+> It is **finding**.
+
+* In **min-heap** tree, how much time to **delete** the **max** element?
+
+> For **finding** it took **n** times. After **finding**, delete the element and replace it with the **last** element. Now adjust so that it is **min-heap**. The adjusting will take **log n** time. 
+
+> For **deleting** it is **n + log n -> O(n)** only
+
+* For both **deleting and finding**, it is **O(n)** only.
+
+* **Min-heap** is for **min** element only. **Min-heap** for **max** is of **no use**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7624d9b-0487-4411-af43-031a83661cc9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d41a72d-72ff-4b9e-a163-a00748ab8f83)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc9fcc67-440a-4055-875a-68cc6d33023b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72f1b9cc-a20c-4b3e-a69a-18b31ef41086)
+
+> We have **random access** in **array** so go to the middle which is **n/2** which will take **constant or O(1)**, then **replace** the element with the **last** element and then adjust accordingly. The **adjustment** will take **log n**.
+
+* Time complexity for **deleting** middle element, **worst case** -> O(1) + O(log n) -> **O(log n)**.
+* Time complexity for **deleting** middle element, **best case** -> O(1)
+
+* **Deleting/finding 'n/3'** mininum in **min-heap** -> Sum of **n/3** natural numbers -> O(n^2) [One way]
+* **Deleting/finding 'n/3'** mininum in **min-heap** -> Delete **n/3** times -> O((n/3) * log n) -> **O(n * log n)**. [Better way]
+
+> Every **deletion** is **log n** and we are deleting **n/3** times so it is **O(n * logn)**.
+
+> **O(n * logn)** is way better than **O(n^2)**.
+
+* Min-heap and maximum, any relation?
+
+> **NO**. **One scan** required like in **array**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d984737b-60aa-4a19-b514-7c11c9c88050)
+
+* Min heap, **first max** finding, how much time?
+
+> **O(n)**.
+
+* Min heap, **second max** finding, how much time?
+
+> **O(2 * n) -> O(n)**.
+
+* Min heap, **third max** finding, how much time?
+
+> **O(3 * n) -> O(n)**.
+
+> **Normal array** story. **One scan** required.
+
+* We have **normal array** and not **min-heap** array, first minimum finding -> One Scan -> O(n)
+* We have **normal array** and not **min-heap** array, second minimum finding -> One Scan -> O(n)
+* We have **normal array** and not **min-heap** array, third minimum finding -> One Scan -> O(n)
+
+* We have **min-heap** array, first minimum finding -> O(1)
+* We have **min-heap** array, second minimum finding -> O(1)
+* We have **min-heap** array, third minimum finding -> O(1)
+
+* We have **min-heap** array, first minimum deleting -> O(log n)
+* We have **min-heap** array, second minimum deleting -> O(log n)
+* We have **min-heap** array, third minimum deleting -> O(log n)
+
+* We have **normal array**, first max finding -> One Scan -> O(n)
+* We have **normal array**, second max finding -> One Scan -> O(n)
+* We have **normal array**, third max finding -> One Scan -> O(n)
+
+* We have **normal array**, finding **n/2** minumum -> Delete **n/2** times -> **O(n * log n)**.
+
+## Build heap method
+
+* Constructing a **heap** tree. By default, if nothing mentioned then go for **max heap**.
+* Creating min-heap with **O(n)** times for **every case**. One condition is there that **all elements** should be **present** at a time.
+* For **one after another** element comes, we cannot apply **build heap** we have to use **insertion** one by one.
+
+* If we have **n** elements and we want to create **min-heap**, how much time?
+
+> **O(n)** and **O(n * log n)** both are **possible** but **O(n)** is **better** in terms of **time complexity**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f910ec75-4e0d-4473-aaa5-fc278c80f675)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1284210a-ba1d-490c-a186-8186aed1561b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7139131d-fb45-40c9-8ace-25a44d595978)
+
+* Build Heap Algo
+
+* Build-minHeap();
+* for(i=n; i >=1; i--)
+*  parent-minheapify(i);
+
+* **Build Heap** steps:-
+
+1) First build/create **ACBT**. It took **no time**. We just draw the tree for **convenience**.
+2) Now run the **algo** for **build-heap**.
+
+> In the **loop** we are starting from the **nth** or **last element** of the tree, and we are asking if the element has **any children or not**? If no children, then we can go to the **next element**.
+
+* Leaf nodes, don't have any work. 
+* We have to start from **basement** because we have to build the **foundation** first.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c8d4696-c538-4cd5-a691-a170d31b245b)
+
+> The **real algo** will start from **n/2**.
+
+* i =floor(n/2) -> It indicates the first **non-leaf** node from the **bottom**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ce0a374-5f11-4e3b-8d58-ff6d3b20330f)
+
+* Build heap will start from **bottom** because we are building and building starts from **basement**. We should do **parent-minheapify**. Leaf nodes have **no children**, so **real work** will start from **floor(n/2)** which is the **first non-leaf** element from the **bottom**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c8da1424-a366-4fa8-b224-e6e1ed5cd483)
+
+* **Min-heapify** means we will go from **bottom to top**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/677dca0e-e855-4f91-a3a9-24017559b971)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/96bdd59e-0bfe-489d-a896-878ce92aaae9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/87d72b98-2372-441a-a6c6-be6279ad182d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3f46e28-5eba-4326-a6d8-706fc231a86b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7559a01-a5e9-4565-b395-8edce5780b25)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5583fd14-d00f-490f-9d5a-4e10a223b491)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69f515bc-eabe-45d4-896b-8f4615c53df5)
+
+* From the bottom, find the **first non-leaf** element and start from there. Now ask the elements, **parent_min_heap()**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b570f39a-9c20-4bc9-a323-03f769f1f71e)
+
+* Time complexity -> **O(n)**.
+
+> Half of the people, **no work** and the remianing is **n/2** elements. Everywhere we are applying **min_heapify** procedure which will take **log n**. So, it should be **(n/2) * log n -> O(n * logn)**. Because we are doing **at a time**, some work will be **decreased** and it became **n** only.
+
+> If the **total nodes** is **n**, then the **no. of leaf nodes** is **floor(n/2)** which we have taken as **m**. So, **m = floor(n/2)**.
+
+* (m/2^(log m base 2)) -> (m/m ^ 1) -> m/m = 1.
+
+> So, at the **first level** we have **1** element.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f40c884a-5c80-49c2-bcbf-3e383a3fbb98)
+
+> At the **last level**, the **no. of swaps** is **zero(0)**, as the real work starts from **non-leaf** elements.
+
+* If **swaps** are **1** then the **no. of comparisions** is **two**, it is **double**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f2a41499-84fa-4956-a4a6-1e80f214fe57)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ff8cdf8-a50a-4f67-9749-0b34df0aa6f2)
+
+* Total swaps = n/2 = m
+* Total comparisions = 2 * n/2 = n
+* Time Complexity = n + n/2 = (3 * n)/2 -> **O(n)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a40f91f7-1b00-4b5b-840a-3774256d8b09)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f19fd71b-b089-4bb4-9622-0b2476692ff1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e431b540-c581-4c40-a5f5-d90aa583d87e)
+
+* Last level, how many nodes?
+
+> **n/2** or **m** nodes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8082a1df-4fac-4b14-9216-340883c5aea0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cfa1743c-cae1-47cb-9f4b-50475ccd5472)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c84e9f8a-1e62-4652-98f3-1b2c820bb8b6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6fa3aa97-f62c-404a-9d68-b5b05725e7c0)
+
+* The **proof** is not needed in **GATE exam**.
+
+* Build heap, time complexity, for **every case** -> **O(n)**  [Only one for loop required]
+
+> The reason is because of **decreasing GP series**.
+
+* Heap sort input -> **One** array.
+* Heap sort output -> **One** sorted array.
 
 
+## Heap Sort Algo
 
+1) Create **max-heap** using **build heap**. It will take **O(n)** because of **one** for loop.
+2) Delete every element and store it from **right-most** place. Repeat **n** times. Deletion takes **log n** for **wost case**, so it is **n * log n -> O(n * log n)**.
 
+* Time complexity of **Heap sort** for **every case** -> **n + (n * log n) -> O(n * log n)**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ecfed973-2316-479a-8091-f1227eb87149)
 
+3) We are **storing** in the **same array**, so it is **in-place**.
+4) Not stable
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50529122-d0eb-46a9-b322-b5f24e178984)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/46b7e096-548d-4b75-a16a-af3bc7ef5fa9)
+
+* Deleting **one** element **best case** -> O(1)
+* Deleting **one** element **worst case** -> O(log n)
+
+* Heap sort algo is for **distinct elements**. If **elements** are **same** then it is a **special** case.
+
+* Time complexity of **heap sort** if all elements are **same** ?
+
+> **n * 1 -> O(n)**, it is a **special case**. Build heap is **n** and every deletion is **O(1)**.
+
+* Time complexity of **heap sort** for **best case**?
+
+> **O(n * log n)** for **every case**.
 
 
 
