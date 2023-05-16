@@ -10984,6 +10984,8 @@ Steps:
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2efbef4c-36ab-408b-b075-0dffce4b0a8a)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef89b7af-9355-4a4a-bb5d-82c1c22ebc17)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d18ceaf5-c332-49ca-8ebe-45baed45f7cb)
+
 
 ## Greedy Techniques-X (39) [15th May 2023]
 
@@ -11478,25 +11480,190 @@ Steps:
 
 * Yes, that is the **best case**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/672ef392-eafd-4f9b-be3f-8734778da964)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3da83ae3-e04e-429c-a48c-774a01dae955)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5655e87-f329-4efe-8ff8-911c277d1d69)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/683b519a-aa6d-4c52-a3e5-d2ea002b5e5b)
+
+
+## Greedy-Techniques-XII (41) [16th May 2023]
+
 ## Huffman Coding
 
+1) Data Encoding Technique
+2) Data Compression Technique
 
+> One message(m) going from **sender(S)** to **receiver(D)**. The **message size** is **100 characters**. The **distinct characters** are **6** only.
 
+* Some characters are **repeating** they are called as **frequency**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dcdb27e3-4c31-40f5-868f-0ec52f5fa113)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6126a584-42b1-4f2b-93ac-9a19d43935b0)
 
+* In ASCII format/representation, for every **character** it is **8 bits**. So **100 characters** is **8 * 100 -> 800 bits**.
+* 1-character, how many bits?
 
+> **800/100 -> 8bits** per **character**. It is also called as **average no. of bits**.
 
+* Without **huffman coding** we have to send **800 bits**.
+* With **huffman coding** we have to send maybe **300 bits**. It is a **data compression technique**.
 
+* Can you compress?
 
+* How many **distinct characters** we have?
 
+> **6** there.
 
+* For **6** people to give **different** numbers, how many **bits** required?
 
+> **3** bits required. With **3 bits** we can have **8** possibilities, which are from **0 to 7**.
 
-
-
+> So, for **6** people to give **different** numbers, **3** bits are more than enough.
  
+> Now for **100** characters, we require **300 bits**.
+> So for **1** character or **on average**, we require **3 bits**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/763516d9-81fe-4250-84a0-c456a1c9ed68)
+
+* Huffman coding **purpose** is **data compression** and **data encoding**. **800** bits is **compressed** to **300** bits, that is **data compression**.
+
+> We will require to represent **a** with **8 bits** when we have **2^8= 256** distinct characters.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d33854af-2c03-472d-a6ab-58ed3a4db0b9)
+
+> We are not sending **a** as **a** but in **some other** format, which is **a=000**. That is called as **data encoding**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4998eec1-4d43-47b8-b32b-ea91f6ff6465)
+
+* In computer, to represent **a**, how many **bits**?
+
+> **8 bits**, because in computer's keyboard there are **many characters**.
+
+> For the **above problem**, we have only **6** distinct characters, so **2 ^ 3 >= 6**, that's why **3** bits is more than enough for **6** distinct characters.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eed1edbe-23fb-4bab-b6aa-a622b7ea1b17)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d5c0f81-8b62-43fb-bc5d-ed27368b8e76)
+
+* Can we compress further? [Direct approach] [Huffman Coding]
+
+* **Huffman Coding** points:
+
+1) It is **non-uniform**. If it is **more frequency** then give **less bits**. The **side-effect** is that with **less frequency** then give **more bits**.
+2) In all of the **distinct** elements who is the **first minimum**? It is **C** as **C=1**. Take **second min**. Take the these **two** mins. first. **Add** them up and we got **1 + 2 = 3**. Whatever result came, keep that **inside**. So, now it is **5** people from the **6** people we **initially** had.
+
+> Do the above story again, take the **first two minimums** from the **available people**. Check that the **first min** is always on the **left** and the **next min** is on the **right**. Now, **add** and we got **3 + 5 =8**. Keep the result **inside**.
+
+> Do the above story again, take the **first two minimums** from the **available people**. Check that the **first min** is always on the **left** and the **next min** is on the **right**. Now, **add** and we got **8 + 17 =25**. Keep the result **inside**.
+
+> Do the above story again, take the **first two minimums** from the **available people**. Check that the **first min** is always on the **left** and the **next min** is on the **right**. Now, **add** and we got **25 + 30 =55**. Keep the result **inside**.
+
+> Do the above story again, take the **first two minimums** from the **available people**. Check that the **first min** is always on the **left** and the **next min** is on the **right**. Now, **add** and we got **45 + 55 =100**. Keep the result **inside**.
+
+> After **tree** construction is over, go to the **top** of the tree, **left side** person keep **zero(0)** and **right side** person keep **one(1)**. It means that the **left** is labelled with **zero(0)** and **right** is labelled with **one(1)** 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/843e0f72-9bb9-494f-9e10-24fb9119df9d)
 
 
+> So, the total is **100**. The tree with **red** color is **Huffman coding**. The **tree** is called as **Huffman encoded tree**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ab24f00-e7eb-4617-85d3-3ee5a11b12cd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dedf068b-1938-404b-b2ab-69f754e1b9cf)
+
+> Huffman coding purpose is data encoding and data compression. They are do by **non-uniform** coding. **Non-uniform** means **more frequency** then give **less bits** and the **side-effect** is that with **less frequency** then give **more bits**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3398703-3625-4d21-b570-8482bcb6b87d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3aac8973-f2a9-4775-b5c1-a7e7b1617b64)
+
+* **Huffman coding** directly approach. Do this part only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d8cd543-690a-4d7b-be78-12b262fcc387)
+
+* In exam, if asked that assume in **Huffman coding** that the left is **1** and right is **0**, assume that only. Whatever said in the question, assume that only.
+
+* If nothing mentioned then do like **above**, left is **0** and right is **1**.
+
+> We have to find out the **paths** in the tree, required to reach the **characters** from the **top/root**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/abdfd11f-fc95-46cf-9a5e-d6d1208c529d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5bb8ee35-cdd0-489f-b6d1-fc81cb1d23f9)
+
+* Like these give the **codes** to the **characters**.
+
+* In the **above** tree who is the **bottom**?
+
+> **C and B** because they are **first two min**.
+
+> The **two mins** are at the **bottom**.
+
+* The **min** people are at the **bottom**.
+* The **max** people are close to the **root/top**.
+
+> As the **min** elements are at the **bottom** and so far away from the **root**. We are starting from the **root**, when writing **codes** for the **characters**, that why **min** elements are getting **more codes**.
+
+> As the **max** elements are at the **root/top** and they are close to the **root**. We are starting from the **root**, when writing **codes** for the **characters**, that why **max** elements are getting **less codes**.
+
+* If we want to do **reverse** which means **more frequency -> more bits** and **less frequency -> less bits** required?
+
+> While **construction** tree instead of taking **two min**, now take **two max**. Close to **root** is **min elements** and they will get **less bits** and at the **bottom** are **max elements** which will get **more bits**.
+
+
+* Steps of **Huffman coding**:-
+
+1) Take **two** min, take **two** min and so on. Lastly **max people** close to **root** and **min people** at the **bottom**. Take **two mins** everytime and **construct** a tree.
+2) Code is from **top**, whoever is at the **top** has **less bits**.
+3) After tree construction is done, give **left side** labelled as **zero(0)** and on the **right side** label it as **one(1)**. **OR** do whatever is mentioned in the **question** do that.
+4) Start from **root** and every **character** name is **leaf node**. From the **root**, until the **leaf node** come what **labels** we have to **read**. Write every code.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c8c5882-b9f5-4b38-8e67-4d6aad3636e7)
+
+* **191** bits is for **100** characters.
+* For **1** character or **on average**, it is **191/100 -> 1.91** bits.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/45ba530f-f627-46d2-ad40-dde3f018e445)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c16b26e8-3f0c-4c9c-92f5-a38b8e4717cd)
+
+> We cannot do less than **huffman coding**, because **less than this** will cause **data damage**.
+
+> The **more frequency** will have **less bits** and the **less frequency** will have **more bits**, but there will be **no problem** as the **show** is run by the, **more frequency** will have **less bits** people.
+
+* **Two** expected questions from **huffman coding**.
+
+1) What is the **average** no. of **bits** per character? [1.91 bits per character, as in the above question]
+2) What is the **Huffman code** for **every character**? [The characters when coded]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a7547026-f20f-45c8-9416-5846e8c551c5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/353c42da-fe3d-4a4b-8b8b-cb0d65cd9c11)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1e70033-d8f3-4644-92bb-7c5c178960ff)
+
+* Build heap takes **O(n)** times.
+* We are constructing **min-heap** because algo saying take **two min** everytime.
+* We are creating **min-heap** using **build heap**. 
+* One deletiong taking **log n** time.
+* One insertion taking **log n** time.
+* Everytime **2 people** going out and **1 person** coming in. So, total is **log n + log n + log n -> 3 * log n**. So, everytime it is **3 * log n**.
+* Everytime **one person** is **missing**.
+* Taking **min** from **normal array** is **n** times but taking **min** from **min heap array representation** is **log n** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91309f3a-02d6-43a0-8a07-977bb6269509)
+
+* Only **one** left, so **stop it**.
+* For **7** people to make into **1** people, we need **6** rounds.
+* For **10** people to make into **1** people, we need **9** rounds.
+* For **n** people to make into **1** people, we need **n-1** rounds.
+* Every round time is **3 * log n**.
+* Time complexity of **Huffman coding** -> **n + n * log n -> n * log n**.
+
+ [Class ended in the middle only]
+
+
+
+
+
+
+
+## Sorting Algorithms
+
+* Link -> https://unacademy.com/class/sorting-algorithms/V5GBW26Y
 
 
 
