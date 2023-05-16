@@ -11245,6 +11245,240 @@ Steps:
 * All preemptive algo also gone.
 * Round Robin is **preemptive** algo.
 
+> Existing algos have **failed**, so we need a new algo which is **Job sequencing with deadlines**.
+
+* n=4, means **4** jobs are there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/13b54970-ab16-4a8e-ae6f-5df1273735d0)
+
+* Running time of **each job** is **1 unit**.
+* Running time and deadline are **different**, be careful.
+* Compared between **running time and deadline**, **deadline** is **more**.
+* Running time is **6months** but the deadline is **9 months**.
+* Running and deadline time may be **same** but **deadline** time cannot be **less than** running time.
+
+> As there are **4** jobs and every job required **1 month** because of **1 person** there, so **total time** required to complete **4** jobs is **1 + 1 + 1 + 1 -> 4 months**. None can wait **4 months**. To complete **1 job**, **1 month** is required.
+
+> So, for **4** jobs, each taking **1 month**, so the total time is **4 months** and none is waiting for **4 months**. We have to leave some people, whom we will **take** and whom we will **leave**. 
+
+> There is only **1 developer** and **4 jobs** are there and each jobs requires **1 month**. So the total time is **1 * 4 -> 4 months**. None can wait **4 months**. Max they can wait is **2 months**.
+
+* No job will take **more than 1 month**. It is **running time** and not **deadline**.
+* No job is **bigger or smaller** as the **running time** for **each job** is **1 month** only. No-preemption is not allowed. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c59e3d5-d70e-47d2-8c61-d0c48d488fd0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/221306be-c3a1-4059-bdac-a5d8a90bd59a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85dfa8c6-853b-42d8-88eb-be935a854fd6)
+
+* If we don't cross **deadline** then it is **feasible** solution.
+* Deadline is **2 months** means we can **complete in first month**, **YES**, can we complete it in **second month**, **YES**, **3months** not allowed. More than **2** not allowed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c6e5b667-c2fb-4339-901d-5db500724797)
+
+* Sequence is **more important** here.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f8112148-c16b-45e9-b262-c352e6afa014)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50a10811-4046-4344-9849-2da3e94711d8)
+
+* YES
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/61d8c86b-79ce-4a35-b5a1-13599df93bc0)
+
+* Optimal solution is **J4, J3** which gives **profit** of **300 + 150 -> 450**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6dca4af2-c0ba-46e7-b2d4-1d42230eb532)
+
+* We can do **two** jobs and we have to **arrange properly**. **Less deadline** job do **first** and then do the **more deadline** job in **second**, as the **more deadline** job has **more time**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/471bc8af-dc12-4ee2-98e8-2bdbbeb81e5f)
+
+* **9** feasible solutions. Among them, the **best one** is **optimal solution**.
+* **J4, J3** is the **optimal solution** with **profit** of **450**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d1fc08c-68a2-4e0f-b056-40311e409324)
+
+* Wait.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6164f790-6d4d-434a-9d60-c3757a46a940)
+
+* From the above problem, expect **two** types of questions. 
+1) What is the **max profit**?  [450 answer for the above question]
+2) what is the **optimal solution**? [**J4, J3** answer for the above question]
+
+* Sequence is **important**.
+
+* Shortcut method steps:-
+
+1) Go to the problem and see only the **deadline** first. In the **deadline**, which is **bigger/max**? Take an array with **max** slots. Start from the **right** side and see whoever is giving **more profit** take that.
+2) From the **rest** of the remaining job, whoever is giving **max profit** take that.
+
+
+> In **more deadline** we have more **options** we can do it in **first month** or in **second month**. **Less deadline** people begging for **first month**.
+
+> See all the **jobs** and see who are fighting for **first month**. All are fighting but **J2 and J4** are begging.
+
+> If we start from **second month** then we have **less fightining** because **1 month** deadline jobs can't come and only **J1 and J3** are **2 month** deadline jobs. So between **J1 and J3**, whoever is giving **more profit** take that in **second month**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/288ec17b-ce2f-49c5-8d9a-c5835f4e02d3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6786c44f-3e67-4535-8577-e76f11564beb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5d72c4d-5d9c-4d32-9c50-a95c5f018b59)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f3dca4f-f44f-4f5f-bae8-60c1e67da889)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed7e8074-4e5a-4fe8-a6b4-0b714943bec4)
+
+* Who can come in the **ith** month?
+
+> Those jobs who have **deadlines** as **ith** or **more than** ith month.
+
+* Who can fight for **5th month**?
+
+> The jobs that have **deadlines** as **5th** or **more than** 5th month.
+
+> For the **5th** slot and to find the **correct** job for that **slot** we need **one scan**. So, time complexity is **n**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/034d2a3f-156e-4f29-a499-efceff23d3ab)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c72a62a-075a-4614-8d18-754a3a8d16bc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1ae5f63-14a7-4ca2-9a6d-a496a330ff03)
+ ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69d182cd-8b19-4c8f-a90e-76b725750540)
+
+* YES
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc7c4f5e-fd1a-457f-b7d3-c0b5c0198179)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ceb41539-2025-4dea-94bf-0f08ea1d8796)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57d5153a-6755-4c02-bbd6-9d48267a8bbd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4706e333-e8b2-4762-ad10-b8aa92be4ef8)
+
+* It is not **n** everytime, it is **decreasing by 1** as we are taking/selecting **one job** everytime. Approximately we are taking as **n**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a3ab6d0-b7d1-457f-8c18-6bab06f2deb1)
+
+> For every slot, time is approximately **n** and we have **n** slots. 
+
+* Time complexity -> **n * n -> O(n ^ 2)**.
+
+> In the **next question** so change in **time complexity** there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d32e4e0-0f25-4328-9a87-257269a2af05)
+
+* What jobs we were unable to finish or what are the jobs that are **left out**? [Same Question]
+
+> **J5 and J6**.
+
+* What is the **penalty** or what is the amount of **profit** we **lost**? [Same Question]
+
+> **J5 is 70** and **J6 is 180**. So, **70 + 180 -> 250**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/408f2535-d448-48a3-852e-ebfe717799a7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1fc4652b-44d6-46fb-8691-520c7fa31eb8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6637a0a7-7b25-4e89-ae7d-a1d228da3511)
+
+> Ever though **J1** has **less deadline** it came in the **answer** because **J1** has the **highest/max profit** when we came for **first month** slot.
+
+* Who is the **less or least profit** job?
+
+> **J5**. 
+
+> **J5** has a deadline of **5** units. Even though it has **more deadline** it didn't came in the **answer** because there is **J3** with same deadline of **5** units but **J3** has **more profit** has **J5**. That's **J5** was not taken.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65fece9b-cd43-45e0-a1c2-6d801a92600e)
+
+> **J5** has a deadline of **5** units. If **J3** had deadline of **4** units, then **J5** would have been came to the **answer** as there was no one **fightining** with **J5** for **5th month slot**.
+
+* There is only **one array** called as the **structure array**. Structure means **group**. Every element has **group of data**. Every group contain **3 people**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c276bf91-5eda-4baf-a835-ef5b68d5fec9)
+
+* Steps to solve the above problem:
+
+1) Arrange all jobs in **decreasing order** of **profits**. We are **sorting** using **merge sort** so the time is **O(n * log n)**.
+2) Now do whatever we were doing **previously** on the **sorted** array.
+
+> Without **sorting** for **each slot** the time was **n** as we were applying **linear search** and it is for **every case**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/664b9b7c-8808-44ed-9603-167dd152bdcc)
+
+> With **sorting** for **each slot** the **min** time is **constant or O(1)**, first case can match which is the **best case**. The worst case is **n** times.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d592c417-861b-45ee-8a59-d89469c30b3c)
+
+* No one fightining for **6th month**. The jobs who have deadline of **6 or more than 6** can fight for **6th month** slot.
+
+* **Right people** can **move** to **left side** but **left people** cannot move to right side.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/40d10685-5914-43a5-afc9-4b7e89e45e58)
+
+* We went to the **last place** very less time.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/453b5092-a849-478f-9ea2-9be7a047b779)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8221a3ac-d4df-4a2c-9802-45b2e57c25c2)
+
+* More deadline people we can do before?
+
+> **YES**.
+
+* Less deadline people we can do after?
+
+> **NO**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a824ef2f-f578-42a7-b165-ec48c167727c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bdc433b1-f3f2-4a90-a9ae-70fad05a4213)
+
+* Every slot is **n** times for **worst case**. We have **n** elements so, time is **n * n -> n^2**.
+* Every slot is **constant or O(1)** for **best case**. We have **n** elements so, time is **n * 1 -> n**
+* The time for **sorting** is **n * log n**.
+
+* Time complexity for **worst case** -> **n ^ 2 + (n * log n) -> O(n ^ 2)**.
+* Time complexity for **best case** -> **n + (n * log n) -> O(n * log n)**.
+* Average case not needed. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c40e3bbe-e44b-4edb-94dd-e37e76bd509b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef166b05-d20f-47a7-987c-ff40fa37aa15)
+
+* We started filling the **jobs** from the **right to left** side.
+* If we start filling the **jobs** from the **left** side then **all/everyone** of the jobs will be **fighting** for the **first month** slot.
+
+* By starting from **right to left side** there are **two** advantages:
+
+1) Less comparisions.
+2) **More deadline** people are **giving change** to **less deadline** people.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf832d58-3e06-464a-9520-80cb4a139da4)
+
+> **Gap** is at **6th or 7th** place, simply read the sequence, no one will ask for **gap** and all.
+
+* J2 -> 3 [Deadlines]
+* J8 -> 3 [Deadlines]
+* J1 -> 5 [Deadlines]
+* J4 -> 4 [Deadlines]
+
+> **Swapping** is possible between **J4 and J1** as they have **5 and 4** units of **deadline**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8804142a-f299-41ff-8b9b-a60fbbee9c74)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c12867b-11de-4188-a356-a63490eff2a3)
+
+> **J5** has **6** deadline and **J1** has **4** deadline. **J5** can definitely go to **J1's** place but **J1** cannot go because it is **4** units and it is between **1 to 4** and for **J5** it is **6** so it is between **1 and 6**.
+
+* If **both** agree then only **swapping** possible, otherwise **no swapping** possible. If **one person** doesn't agree then don't do **swapping**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bda9de06-5119-40ee-8b44-8efecaf3f241)
+
+* If the **answer** what we got is not there in the **options** then some **swapping** maybe done.
+* If more jobs are given then don't do **directly**, first do **sorting**, it will reduce significant amount of time to find the **answer**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/962133ac-efd5-4f7b-b40f-66a89b2d3bf0)
+
+> After **sorting**, instead of **linear search**, do **binary search** but we cannot do **binary search** because **sorting** done on **profit** and **searching** is done on **deadlines**, we have two **different** parameters that's why **binary search** not possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97a43292-3c8f-4d45-bcef-6c472da8b4df)
+
+* True.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/64d254e7-319d-4939-a0b2-ea584626269c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d341717-0e7d-4420-889f-6034e30a2dd0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/242a59df-c750-4cb1-aa3c-0114cc2d39e7)
+
+* Yes, that is the **best case**.
+
+## Huffman Coding
 
 
 
@@ -11255,6 +11489,12 @@ Steps:
 
 
 
+
+
+
+
+
+ 
 
 
 
