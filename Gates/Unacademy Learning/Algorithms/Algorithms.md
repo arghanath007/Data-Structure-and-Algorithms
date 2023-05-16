@@ -11145,16 +11145,105 @@ Steps:
 
 * Home work.
 
+## Greedy-Techniques-XI (40) [16th May 2023]
+
+* **First step** took **one for loop** which is **n** times.
+* **Second step** required **sorting** which took **n * log n** times.
+* Taking an object means **two** operations which are **addition** to the **profits** and **substraction** from the **knapsack capacity**.
+
+* **Step three** also requires **one for loop**, which is **n** times.
+* **Step three**, **best case** is that we have taken the **obj 1** completely and **capacity** is **full**. Stop it.
+* **Step three**, **worst case** is that we have to go till the **last object** and take **some fractions** from it.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d780fe7c-7521-4ba4-80f0-43c94f524910)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a268f377-1ecc-49f3-90a7-53ff2350ba9b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c044450a-7a98-45d6-bb2b-91e22612b2c5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44c00acb-4af9-4c68-bcfe-08afaa018ffd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2041b71d-ae7f-4730-9b83-3c1178b8e8cb)
+
+* So the **total time** is **n + (n * log n) + n -> O(n * log n)**.
+
+* If asked why doing **knapsack** problem using **Quick sort** worst case, what is the time complexity?
+
+> **n + n ^ 2 + n -> O(n ^ 2)**.
+
+* If asked why doing **knapsack** problem using **Heap sort** worst case, what is the time complexity?
+
+> **n + (n * log n) + n -> O(n * log n)**
+
+* what is the time complexity of a **knapsack** problem if all of the objects are already in the **decreasing** order of **Pi/Wi ratio**?
+
+> **n + n + n -> O(n)**. Since we don't have to do the **sorting** step, time complexity of **step 2** is **O(n)**, as they are **already sorted** as mentioned in the question, we just need **one for loop**.
+
+* If nothing is given and **standard** time complexity of **knapsack** problem is asked?
+
+> O(n * log n).
+
+* If **conditions** are given and then asked for time complexity of **knapsack** problem?
+
+> We cannot use **standard knapsack** problem. We have to design it **differently** as per the **conditions**.
+
+* what is the time complexity of a **knapsack** problem if all of the objects are already in the **increasing** order of **Pi/Wi ratio**?
+
+> **n + n + n -> O(n)**. Since we don't have to do the **sorting** step, time complexity of **step 2** is **O(n)**, as they are **already sorted** as mentioned in the question, we just need **one for loop** and start from the **last** side. Last one is the **bigger** one.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7602f11a-28f6-40ea-a12b-711e39da361b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d7f68a1-f035-4c9c-a9d5-72796db22fe6)
+
+* **n * log n** is the **answer** if **no conditions** are mentioned.
+* **Array** means **continuous**, after **index 1**, **index 2**, **index 3** and so on will come. Not index coming in between. **Array** also means **similar**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eba477c7-ace8-466e-ab9e-b35cfbae699a)
+
+* Structure -> Custom datatype.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/972b205f-74ba-4de9-985e-1206ff04e4f0)
+
+* In **Knapsack** we are using only **one array**, but **every element** contains **three(3) parts**. **First part** name is **object**. **Second part** name is **profit**. **Third part** name is **weight**.
+* It is called as **structure array**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30deac09-fe32-43e8-96e9-898377c42b72)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3347d20c-9314-40a0-be00-f48573ce09aa)
+
+> **One group** is **6 bytes** as there are **3 integer** numbers each of **2 bytes** and there are **7 groups** in total. Continuously, **7** groups are there.
+
+* What is the time complexity of a knapsack problem, if we use an algo for sorting purpose which will always take **n** time?
+
+> **n + n + n -> 3 * n -> O(n)** is the time complexity of a knapsack problem.
+
+## Job Sequencing With Deadlines
+
+1) Single CPU
+2) Arrival time of each job same
+3) Running time of each job is 1-unit
+4) No-preemption
+5) 
+
+* Preemtion -> Forcefully taken out from CPU.
+* CPU scheduling -> Only **one cpu** available but **many jobs/process** want that cpu.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a53f6179-e161-4af9-b76d-177da9e9690f)
 
 
+* Where **preemption** possible?
 
+> **Round Robin**.
 
+* CPU scheduling came because of which reason?
 
+* When 20 jobs are running, then which algo is running?
 
+> **Round Robin**.
 
+* By seeing, **Single CPU**, we understood that, **CPU scheduling** is required because we have only **one or single cpu** and many processes are going on inside the computer.
+* **Arrival time of each job same** means that all of the **process** came at the **same time**. So we cannot use **FCFS** as it is **First come First Serve**, so it will not work, as all of the **process** came at the **same time**. **FCFS** has **failed**. 
+* **Running time of each job is 1-unit** means every **process** required **1-unit**, so there is **no small and no big**, every process is the **same**.**SJF** means the **smaller** process get **first** chance. So, **SJF** also failed.
+* **No-preemption** means **one process** is running on the cpu and in the middle another process came but we cannot stop the already running process on the cpu and run another process. So, **Round Robin** not possible.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d99cc5be-10e4-4b40-8dd0-1627cd445f12)
 
-
+* All preemptive algo also gone.
+* Round Robin is **preemptive** algo.
 
 
 
