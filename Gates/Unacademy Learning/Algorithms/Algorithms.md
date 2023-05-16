@@ -11708,10 +11708,18 @@ Steps:
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/edb7a18c-7a5f-4035-88da-663f69f33dbb)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6103ea5-e028-4b78-9f64-ad9ce08ce1d6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ad67a0d-7311-4e3c-a56e-bf57bda9251a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b2422c7a-a691-4ab0-86c6-cb4f319d6e78)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff7bd392-814c-40a0-8138-5fcbc1887d1c)
+![Uploading image.png…]()
+
+
 
 ## Optimal Merge Pattern
 
 * Start from **55mins**.
+
 
 
 
