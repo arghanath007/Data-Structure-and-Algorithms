@@ -11655,6 +11655,84 @@ Steps:
 
  [Class ended in the middle only]
 
+## Dynamic Programming-IX (42) [16th May 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c95ff68-9cfa-44ca-afcf-7d441e83961a)
+
+* Answer of **previous class question**.
+
+* If we want **min** everytime, then go for **min-heap**.
+* Creating **min-heap** using **build heap** for **n** elements is **n** times.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2d2dba65-5f3e-4f51-809f-3e2a49c326dd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c0fd5e2-d4d0-498d-9cf3-072a7ada12df)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a65e7b2-7d8f-491a-b794-1a668c93cfbc)
+
+* Time complexity of **Huffman coding** -> **n + (n -1) * (3 * log n) -> O(n * log n)**.
+* Time complexity of **Huffman coding** -> **O(n * log n)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/39d162b3-cf7a-4a6f-80f3-20b49c04ba65)
+
+> **log n** is given by only **three** people, **min-heap, max-heap and binary search**.
+
+> **Binary search** and **Hauffman** have **no relation**, so the **log n** came from **min-heap** only.
+
+* If we don't use **min-heap** and instead use **normal array** then the **time complexity** will be **O(n ^ 2)**.
+
+* What is the **Hauffman** code for **every character**?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65e87c75-6a38-4a1a-91ae-7be3b417ee7c)
+
+> The tree we have created finally, it is the **Hauffman encoded tree** and not **min-heap**. To create the tree we are using **min-heap**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd911d7d-96f7-4c29-aa26-dc60bec4518f)
+
+* Almost balanced tree.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d73ecb9-dc0b-436a-af0d-a040413af776)
+
+* Encoded message is : 1011100100101000100111100, Find the **decoded** message?
+
+> Start reading the **encoded message** from **left to right**.
+
+* The **Huffman encoded tree** is with the **sender or receiver**?
+
+> **Sender or receiver** doesn't matter. Team created it. On both the **sender and receiver**, **same** tree is there. So, it is see by **both** the **sender and receiver** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ecffa4fc-7d1e-45f0-98be-aee791169c88)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66973705-77f8-4102-b5db-9f4c4d91cc17)
+
+* Time Complexity -> **O(n * log n)**.
+
+> **Log n** came from **min heap**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/edb7a18c-7a5f-4035-88da-663f69f33dbb)
+
+
+## Optimal Merge Pattern
+
+* Start from **55mins**.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -11664,8 +11742,6 @@ Steps:
 ## Sorting Algorithms
 
 * Link -> https://unacademy.com/class/sorting-algorithms/V5GBW26Y
-
-
 
 
 ## Waiting for newer videos
