@@ -12077,18 +12077,113 @@ Steps:
 1) Adjacency Matrix
 2) Adjacency List
 
-> Between **two** vertices there is an **edge** then those two vertices are **adjacent** to each other.
+> Between **two** vertices there is an **edge** there then those two vertices are **adjacent** to each other.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec0d07a7-b465-42f2-9018-000e944afa5c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/21d6b2bf-a691-4ccd-9619-77693a55b73e)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/61de2fd8-2f82-4796-b412-eb9e9d8b3f13)
+
+* Adjancy -> Between **two** people, edge there.
+
+> Graph contains **4** vertices, so the **size** of the matrix is **4 rows and 4 columns**, so it is **4 X 4**.
+
+> Graph contains **10** vertices, so the **size** of the matrix is **10 rows and 10 columns**, so it is **10 X 10**.
+
+> Graph contains **n** vertices, so the **size** of the matrix is **n rows and n columns**, so it is **n X n**.
+
+* **Space complexity** to represent a **n** vertex graph using **adjacency matrix** is **n X n -> O(n ^ 2)**. It is for **every case**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1387fffc-e4db-4cfe-998b-dfb52bf46fa7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec95be20-e8f7-4901-a954-5b2c0c358c8a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e507948a-2cb6-4772-b37e-059c63381117)
+
+> The **adjacency matrix** representation doesn't care about **edges**. In the **2nd graph only** there are **4** vertices and only **one edge** but the size is still is **n rows and n columns** which is **n X n -> O(n ^ 2)**.
+
+> If **no edges** there then also **O(n ^ 2)** and if **more edges** are there then also **O(n ^ 2)**.
+
+* It is giving important to **vertices** than edges. It doesn't care about **edges**.
+* So **adjacency matrix** is better idea if we have **more edges** as anyhow the **space complexity** will be **O(n ^ 2)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7dccd0cb-c600-4783-bf53-7131ace26da1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/93095a40-f534-4c6c-b094-4e6bb6277def)
+
+* **Adjacency matrix** is better idea for **complete graph**, as it has **more edges**.
+* **Adjacency list** is better idea for **less edges**.
+
+### Adjacency List
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d7dc383f-805b-4919-81d7-8b5723bbad72)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/557080ef-3c62-4efe-ad26-65e30233e158)
+
+* Adjacency List
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fea4d036-05e4-4228-8c20-a818e9ca44aa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e36e0f0b-9f3e-4622-bee2-f5dcb923db50)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9177d8d6-95bc-4d22-9226-c852cf1411e0)
+
+* Un-directed graph. As **three** people are coming to **vertex 2**, so the **degree** is **3**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e6ebb10-5b8c-4cb4-9502-63eb151a53d0)
+
+* **Directed graph**
+
+> So in **vertex 3**, only **one edge** is coming inside. It is called as **in-degree** and specifically as **one in-degree**. No **degrees** in **Directed graph**.
+
+> So in **vertex 4**, **none or no** edge is coming inside.
+
+> So in **vertex 2**, **three** edges are coming inside. So it is **3 in-degree**.
+
+* Incoming is **d+ or degree plus**.
+* Outgoing is **d- or degree minus**.
+* d+(2) = 3
+* d-(2) = 0
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df4f736a-4a4b-403a-85e0-4ac29a8b95ab)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2720c4b5-38fb-415b-a79f-73538e7f3b5f)
+
+* d-(3) = 2
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/388c43df-c778-4a00-99de-df8fcaa54b04)
 
 * Start from **40mins**.
 
+* Adjacency matrix -> More edges -> Dense graph -> O(V ^ 2)
+* Adjacency list -> Less edges -> Sparse graphs -> O(V + E), **every case**
+
+* Time Complexity:-
+
+1) To find degree of a particular vertex?
+
+* O(V), it is **every case** for **matrix**.
+* O(V - 1) or O(V), it is **worst case** for **list**. For **best case** it is **O(1)** for **list**.
+
+> In Matrix, there is **zero** adjacent then also we are writing all.
+
+> In **list**, if there are **adjacents** then they are written otherwise they are not written and left empty or NULL. The **advantage** is that if **not there** then not written.
+
+2) To count no. of edges?
+
+* Matrix -> O(V ^ 2) -> Find **sum of degrees** and then do **divide by 2**. **One person degree** is **V** and we have **V** people.
+* List -> Min, one person degree is **O(1)** and max is **O(V)**. So it is **O(1 * V) -> O(V)** times for **best case** and for **worst case** it is **V * V -> O(V ^ 2)**.
+
+* Sum of degrees is **50**, then how many edges?
+
+> **50/2 -> 25** edges.
+
+3) To know, given **two** vertices are adjacent or not?
+
+* Matrix -> **O(1)** -> Random access possible so it is **O(1)** time. For **Every case**.
+* List -> **Best case** is **O(1)**, **worst case** is **O(V)**.
+
+## Minimum Cost Spanning Tree
+
+### Spanning Tree
+
+> A graph is a **connected graph** because between every two people there is a **path**, edge may or may not be there.
 
 
-
-
-
-
+* Start from **1hr 50mins**.
 
 
 
