@@ -11697,7 +11697,7 @@ Steps:
 
 * The **Huffman encoded tree** is with the **sender or receiver**?
 
-> **Sender or receiver** doesn't matter. Team created it. On both the **sender and receiver**, **same** tree is there. So, it is see by **both** the **sender and receiver** only.
+> **Sender or receiver** doesn't matter. Team created it. On both the **sender and receiver**, **same** tree is there. So, it is seen by **both** the **sender and receiver** only.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ecffa4fc-7d1e-45f0-98be-aee791169c88)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66973705-77f8-4102-b5db-9f4c4d91cc17)
@@ -11712,13 +11712,115 @@ Steps:
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ad67a0d-7311-4e3c-a56e-bf57bda9251a)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b2422c7a-a691-4ab0-86c6-cb4f319d6e78)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff7bd392-814c-40a0-8138-5fcbc1887d1c)
-![Uploading image.png…]()
-
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a83ba580-a2f0-4773-a6e0-2046d106121b)
 
 
 ## Optimal Merge Pattern
 
-* Start from **55mins**.
+* **Files** is nothing but **collection of records**. **Every record** is written in some **format** only. If written **randomly** then **searching** is very difficult.
+* We have **3 files** which are **x, y and z**.
+* We are trying to **merge** the **3 files** into **one file**.
+* Merging **two** files of **80 and 100** records, what is the **best case** for comparisions?
+
+> **80** comparisions because all the elements moved from the **smaller** files.
+
+* Merging **two** files of **80 and 100** records, what is the **worst case** for comparisions?
+
+> **80 + 100 -1 -> 179** comparisions every element of one file is compared with another element of different files.
+
+* How many moves?
+
+> **80 + 100 -> 180**. Moves are **same** for **every case**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/635d59f9-460c-4d08-9a49-1efdae0f6514)
+
+> Finally we got **1 single file** with all of the records.
+* **Merging** is **done properly** or **meaningfully**.
+
+> To construct the **diagram**, we did in total of **2 mergings**. 
+
+> When we did the **first merging**, then **total no. of moves** is **80 + 100 -> 180**.
+
+> When we did the **second merging**, then **total no. of moves** is **180 + 60 -> 240**.
+
+* So the **total moves** is **180 + 240 -> 420** moves.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2bb26d6b-d158-4b9c-bad3-ff88988fcaba)
+
+* Three different files become one single file, it is done using **420** moves.
+
+> We did **merging** of x and y files **first**. Then with the **result of x and y**, we **merged** it with 'z' file.
+
+> Not only **merging** but in which **order** we are **merging** that also matters.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dca6a4ee-a6f4-493a-96a4-2ee5a55bfbe7)
+
+> All of them will **merge** the three files into **one file**.
+
+> **m3** is taking the **least/less no. of moves** to **merge** the three files into **one file**. That's why **m3** is called as the **optimal merge pattern**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7153f44-bc0e-4b74-a2a8-47f1d99b47ce)
+
+> Three different files to **merge** into **one file**. There are so **many ways**. Whichever one having **less moves**, that is the **best optimal merge pattern**.
+
+* In terms of **profit** we have to see **more** and in terms of **cost** we have to see **less**. If **moves** are less then **less cost**.
+
+> In profit's point of view, optimal means **more profit** but in **cost** point of view, optimal means **less cost**.
+
+> The **above one** is a **two-way merge pattern** because we are taking **two** files at a time to **merge**.
+
+> For **three-way merge pattern** we would be taking **three** files at a time to **merge**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69ba9acf-30ae-459e-86ae-275d6c260dc8)
+
+> To **merge** given **3 files** into **single file**, we have **three** merge patterns **m1, m2 and m3**. Out of them **m3** is the **optimal merge pattern** because **less moves**.
+
+> This is the **brute** force approach.
+
+* Greedy Apporach:-
+
+> Take **first two mins** everytime. We want **min** everytime, that's why we are going to use **min-heap**. We will use like **exact previous** we did in **Hauffman** coding examples.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69f44332-7623-4699-96c1-c37519219ec4)
+
+> In **optimal merge pattern** we just need to **draw** the tree and we got the **answer**. We don't need to do the **codes**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d75c79b-2b1e-4df9-8996-674a5ba69503)
+
+* Time Complexity -> **n + (n-1) * (3 * log n) -> O(n * log n)**.
+* Building the **min-heap** took **n** time.
+* **Two deletion and one insertion** is taking **3 * log n** time.
+* We are going for or looping for **n-1** times.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7bd7441e-92fd-41e4-9f1c-98e1904f7123)
+
+* The tree is called as **2-way optimal merge tree**.
+
+> The **70** came after **merging, B =60 and F =40**. **70** is a **non-leaf** node.
+
+* So **70** came after **merging** and it is a **non-leaf** node.
+* So, **non-leaf** node is a node which we got after **merging**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e40e34dc-991b-4986-a328-3cd7c43549ad)
+
+* What is the **sum** of **internal nodes or non-leaf nodes**? [Same thing]
+
+> **70 + 115 + 145 + 169 + 260 + 429 -> 1188**. This is the **min** moves.
+
+* **Min** no. of moves =(equals to) **Sum** of **internal nodes or non-leaf nodes**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8534aeb3-b738-4076-bcc5-76aa6a9cc01e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4133de5e-f1ca-4618-89cc-abd9b5865e58)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5bc02516-9f09-4a79-bd84-168467331577)
+
+* We are not doing **merging** here. After **merging** how many files, we are just calculating the **moves**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a5f6d5a-8e60-4212-9d5a-4434a655a0df)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27173d6a-a57a-41b0-aac9-614467784c16)
+
+> **Non leaf nodes** came **after merging**, which means **moves**.
+
+> We are using **merging** and not doing **merging**, because elements not there. Simply calculating **how many moves**.
 
 
 
@@ -11744,6 +11846,8 @@ Steps:
 
 
 
+
+ 
 
 
 
