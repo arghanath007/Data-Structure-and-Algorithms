@@ -12144,14 +12144,76 @@ Steps:
 
 * d-(3) = 2
 
+> In **adjancy list** there is **no rows and columns**.
+* Array means **continuous**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/972d1417-db73-495d-a2cd-c7d536902485)
+
+* Linked List means **give first node address**.
+
+> Graph contains **4** vertices(V) and there are **1** edge(E) only, but in the **list** there are **two**, it is **doubled**.
+
+* Vertex -> V
+* Edge -> E
+* Total Space -> V + 2 * E -> O(V + E)
+* Space Complexity for **adjacent list** -> **(V + E)**.
+* If, **E=0** for **null graph**, the **space complexity** in **list** -> O(V).
+* If, **E=0** for **null graph**, the **space complexity** in **matrix** -> O(V ^ 2).
+
+> As anyhow, **matrix** will give **O(V ^ 2)**, so give **complete graph** to **matrix**, it will give **O(V ^ 2)** even if the **no. of edges** is **more**. As **no. of edges** is **more**, the **time complexity** is **more**.
+
+> Give **null graph** to **list**, as there are **less no. of edges** so the **space complexity** will be **less** as well which is **O(V + E)**.
+
+* If not mentioned anything, in the question, then go for **adjancy list**, it is **better** for both **complete and null graphs**.
+
+* Adjacency matrix -> More edges -> Dense/Complete graph -> O(V ^ 2)
+* Adjacency list -> Less edges -> Sparse/Null graphs -> O(V + E).
+
+> For **list** if it is a **null graph** then **E=0**, so the **space complexity** is **O(V)**.
+
+> For **list** if it is a **complete graph** then **E= V ^ 2**, so the **space complexity** is **O(V + V ^ 2) -> O(V ^ 2**.
+
+> **Matrix** will work for **all**. **Matrix** is specially designed for **more edges**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/497d6c7d-9e77-4b9d-97e6-ede53175d20f)
+
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b3d76ccb-c24a-40d9-b317-8e5a510ed291)
+
+> For **complete graph**, **array and list** is taking **O(V ^ 2)** as the **space complexity** asymptotically. In **list** it is **V ^ 2** nodes which is **(V ^ 2) * 32bits** but in **matrix** it is **V ^ 2** bits, which is **(V ^ 2) * 1**.
+
+> Everyone is **1 bit** in **matrix** but in **list** everyone is **32bits**.
+
+> Asymptotically they are **same** but **mathematically** they are **not same**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/047d5cc2-b456-4967-a9f5-432e6dc25c10)
+
+* Complete/Dense Graph -> Matrix
+* Less Edges -> List
+
+> If it is a **null graph** then we don't have to **represent** anything in the **nodes**, just keep **NULL**. So, **no. of edges** is **0**. 
+
+> In **matrix** even though it is a **null graph**, it still takes **n ^ 2** bits. So, **no. of edges** is **n ^ 2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/211dd2c8-fa49-41ab-92e6-b450f6290ce7)
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/388c43df-c778-4a00-99de-df8fcaa54b04)
 
-* Start from **40mins**.
+> With the help of **list and matrix** we can find out if **two** vertices are **adjacent** or not.
 
-* Adjacency matrix -> More edges -> Dense graph -> O(V ^ 2)
-* Adjacency list -> Less edges -> Sparse graphs -> O(V + E), **every case**
+* Matrix doesn't care if the graph is a **complete or a null** graph. It always gives **O(V ^ 2)**.
 
-* Time Complexity:-
+> **List** representation for **Vertices(V)** and **Edges(E)**, what is thair **space complexity**?
+
+* **O(V + E)** is for **every case** of **list** depending upon **E** only.
+* **O(V ^ 2)** is for **every case** of **matrix**.
+
+* **V** is for the **linked list** we have created for the **vertices*.
+*  **2 * E** because we are **doubling** the **no. of edges** from the graph. **E** is the nodes in the list.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41181987-4126-47a1-9e68-70fc7f1677c0)
+
+* Find out **Time Complexity** in the **below questions**:-
 
 1) To find degree of a particular vertex?
 
