@@ -11825,7 +11825,98 @@ Steps:
 
 * We have to count the **no. of moves** in the **last one** or in all of them?
 
-> We have to **count** in **all of them**. **429** is the **no. of moves** in the last one, but **1182** is the **total no. of moves** from all of them.
+> We have to **count** for **all of them**. **429** is the **no. of moves** in the last one, but **1188** is the **total no. of moves** from all of them.
+
+* We have to **count** all of the **merging moves** and not the **last one**.
+
+* No. of merging is **6** times and we have in total of **7** people.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab993851-3f78-4865-a5a5-99318a30d0ab)
+
+* If asked for **3-way merging** then take **3 min elements** at a time for **merging**.
+* Unless asked for **3-way merging**, don't do it. Do **2-way merging** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b9bab35d-3bb6-4558-8994-dc7e36466030)
+
+## Minimum Cost Spanning Tree (MCST) [**IMPORTANT**]
+
+* Graph 'G' is a combination of **vertices(V) and edges(E)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34bb1092-9df4-4876-b5a3-857c2dfa8c7a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5340ebcc-41d4-4364-a470-5009d3106cc0)
+
+* e1 = AB
+* e2 = BC
+
+> There is **no starting** point in the **graph**, as it is not a machine. We can **start** from **anywhere**.
+
+> When we say a **tree** there is a **starting** point called as **root**.
+
+> In a **C-program**, the starting point is the **main()**.
+
+> **Programs** should have a **root**.
+
+> Whenever it is not a program, it has **no root**.
+
+> From **A to B** there is an edge(e1), which means there is a **road** there. When **road** is there and to go from **A to B**, there is some **cost**, that **cost** is called as **edge weight**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cbea34cc-aba7-4ded-bd78-7f96239d5d9d)
+
+* If **no edge weight** there then it is called as **un-weighted** graphs.
+* If **edge weight** there then it is called as **weighted** graphs.
+
+> These **two** graphs are only possible, **mixed** is not possible.
+
+* If we give **direction** to the **edges** then they are called as **directed graphs**.
+
+> **D to C** we can go but **C to D** we cannot go.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/340b65f5-d507-4410-90aa-e579953b1bee)
+
+* If **directions and weights** both are there, then it is called as **directed weighted graph**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7bcac434-6132-410c-b3d8-7b4a860aa219)
+
+* No **mixture** possible. 
+
+> If out of all the **edges**, one of the edges, doesn't have weight for **some reason** then **by default** assume **1** weight for tha edge. It will not happen but just in case.
+
+> If **directions** not there, then we can go **both** the sides, **YES**. It is the meaning of **un-directed** graph.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6808055a-869e-4b33-9499-2a9438bcedf3)
+
+* No self loop.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e1508f5-c322-4d5c-8f75-6ef4202081c2)
+
+* Self loop.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb44e8a2-0bb0-45af-aee8-edf1ce0d55e2)
+
+* Parallel edges and not parallel paths.
+
+* If a graph contains a **self loop or Parallel edges or both**, then that graph is called as **multi** graph.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c99b742-0c1a-400c-a52c-99df6229c078)
+
+* Simple Graph -> In the given graph, no self loop and no parallel edge, both cannot be there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e495ccce-afee-4b53-9251-06dcf5630ad8)
+
+> We will only **discuss** about **simple graph**.
+
+> Multi graph has **4** vertices and **infinite** edges. As **Multi graph** has **infinite** edges, so **no questions** will be asked from **Multi graph**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5aff386-33cb-4295-9868-2c6016442dcf)
+
+* How many people are **associated** with vertice A?
+
+> **2** people **associated**, because there is an **edge** between them. So it is called as **degree of A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a3ae8f6-497e-4101-89bc-096b1ea60c92)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bec68f3c-ffa4-4aec-93cf-b6671bac1303)
+
+
 
 
 
