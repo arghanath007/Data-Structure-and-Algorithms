@@ -11816,13 +11816,16 @@ Steps:
 * We are not doing **merging** here. After **merging** how many files, we are just calculating the **moves**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a5f6d5a-8e60-4212-9d5a-4434a655a0df)
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27173d6a-a57a-41b0-aac9-614467784c16)
 
 > **Non leaf nodes** came **after merging**, which means **moves**.
 
 > We are using **merging** and not doing **merging**, because elements not there. Simply calculating **how many moves**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27173d6a-a57a-41b0-aac9-614467784c16)
 
+* We have to count the **no. of moves** in the **last one** or in all of them?
+
+> We have to **count** in **all of them**. **429** is the **no. of moves** in the last one, but **1182** is the **total no. of moves** from all of them.
 
 
 
