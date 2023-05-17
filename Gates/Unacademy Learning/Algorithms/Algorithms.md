@@ -11920,16 +11920,168 @@ Steps:
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91ddd968-e754-486c-beb7-046d0cb94d23)
 
 
+## Dynamic Programming-X (43) [17th May 2023]
+
+## Simple Graph
+
+> The **first graph** has **4 vertices** and **0 edges**. It has **no self loop and no parallel edges**. So, it is a **simple graph**. **0 edges** means **degree of each vertice** is **zero(0)**.
+
+> A graph with **4 vertices** and **0 edges** is called as **4-vertex null graph**.
+
+> A graph with **n vertices** and **0 edges** is called as **n-vertex null graph**.
+
+* **Null graph** -> **0 edges**. Any number of **vertices** possible. We don't know how many **vertices** will be there.
+
+> The **degree** of every vertex is **zero(0)** in a **Null graph**.
+
+> The **second graph** has **4 vertices** and **6 edges**. It has **no self loop and no parallel edges**. So, it is a **simple graph**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2877439-63a0-4f96-b35a-0048210b25fd)
+
+* There is a **4 vertices** **simple graph**, what is the **max degree** of any vertex?
+
+> **Max degree** is **3**.
+
+> For a **4 vertices** **simple graph**, the **max degree** of any vertex is **3** only.
+
+> For a **n vertices** **simple graph**, the **max degree** of any vertex is **n-1** only.
+
+* Max is **3**.
+* Min is **zero(0)**.
+
+> For a **4 vertices** **simple graph**, the **min degree** of any vertex is **zero(0)** only.
+
+* Max is **4** and min is **0**, there is change of in-between **0 to 4** as well.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d034bc2-5e1f-4d66-bd18-8d0e5e7ec5f2)
+
+* In-between with **degree = 2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df563979-66f1-4ee6-9783-2b9551c0a8ef)
+
+* In-between with **degree = 1**.
+
+> For a **4 vertices** **simple graph**, **max degree** is **3** and **min** is **0**. In-between **3 and 0**, anything is **possible**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/974bd5fd-af62-4de9-8abf-8246c66f4148)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa7a7313-87dd-45c8-86bd-72c83e55640f)
+
+* In the above **simple graph**, we kept **max degree** everywhere. Everywhere we kept **3**. It is called as **complete graph**. No gap there. Max usage done. 
+* If we **add** another edge then it will become **multi graph**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b1e6660-e3b1-4f83-971b-2edaae748ef1)
+
+> A simple graph with **50** vertices, then the **min** degree is **0** and the **max** degree is **n-1 -> 50-1 -> 49**.
+
+> For **multi graph** degree of vertex is **infinite**.
+
+* In **Simple graph**, with **n** vertices, the **min** degree of any vertex is **0** and the **max** degree is **n-1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ead9f4da-fa0b-454b-9bc2-5682ae6d3954)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3bdbf3ef-30a3-49cc-969b-16456561ab1b)
+
+* **Sum of degrees** will always be **even**.
+* **Sum of degrees** -> **12 -> 3 * 4 -> 2 * 6** -> 2 * E. **6** is nothing but **no. of edges**. **E** is the **no. of edges**.
+* **Sum of degrees** is **odd**, not possible. It is a **ghost graph**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ffcfbe5-8887-4bab-9feb-a17ca010a6a7)
+
+* In a given graph, how many **edges** are there, how we will calculate?
+
+> **Sum of degrees** we calculate first then we **divide by 2** the **Sum of degrees**. This will give the **no. of edges** which the graph has. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/28013a5e-6ffc-489f-99a2-21f88efd81c7)
+
+* As it has **4** vertices, so it is called as **K4**, which means **complete graph with 4 vertices**.
+* **C4** is cycllic graph with **4** vertices
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c51e498-d2f8-43a2-b301-b22617d223e9)
+
+* Edges(E) of K4 = (4 * 3)/2 -> 6
+* Edges(E) of K50 = (50 * 49)/2 -> 1225
+* Edges(E) of Kn = (n * (n-1))/2.
+* **Sum of degrees** -> **n * (n-1)**
+* 'n' vertices and 'n-1' edges there.
+
+* **Complete graph** with **n** vetices contains **(n * (n-1))/2** edges.
+* **Null graph** with **n** vetices contains **0** edges.
+* In simple graph who is the **smallest graph**?
+
+> Null graph. **Zero** edges.
+
+* In simple graph who is the **largest graph**?
+
+> Complete Graph. **(n * (n-1))/2** edges.
+
+* **No. of edges** decides if the graph is **bigger or smaller**. No **vertices** but **edges** decide.
+
+> In-between **null and complete** graph there are **so many** graphs.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2212eead-dc34-46a7-a02c-319693657a6a)
+
+* If **simple graph** contains **10** vertices, then **null graph** contains **zero** edges and the **complete graph** contains **(10 * 9)/2 -> 45** edges.
+* In **simple graph**, the **largest graph** is the **complete graph**.
+* In **simple graph**, the **smallest graph** is the **null graph**.
+
+* A **complete graph** with **10** vertices, the **min** no. of edges is **(10 * 9)/2 -> 45** edges only. For **complete graph** there is **no min or max**. Everything is **45** edges only.
+
+> We cannot **increase or decrease** in **complete graph**.
+
+* A **null graph** with **10** vertices, the **min** no. of edges is **0** edges only. For **null graph** there is **no min or max**. Everything is **0** edges only. 
+
+> When there is **null graph** everything is **0** edges only.
+
+> When there is **complete graph** everything is **45** edges only.
+
+* No min or No max. 
+* If it is **simple graph** then there is **two** choices. **Min** is **0** edges and **Max** is **45** edges only.
+
+* **5** vertex **simple graph**, min edges is **0** edges, max edges is **(5 * 4)/2 -> 10** edges.
+* **5** vertex **complete graph**, min edges is **(5 * 4)/2 -> 10** edges, max edges is **(5 * 4)/2 -> 10** edges.
+* **5** vertex **null graph**, min edges is **0** edges, max edges is **0** edges.
+* **50** vertex **complete graph**, max edges is **(50 * 49)/2 -> 1225** edges, min edges is **(50 * 49)/2 -> 1225** edges.
+* **50** vertex **simple graph**, max degree is **49** edges, min edges is **0** edges.
+* **50** vertex **null graph**, min degree is **0** edges, max edges is **0** edges.
+* **50** vertex **complete graph**, max degree is **49** edges, min edges is **49** edges.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76555393-4824-4eb4-867e-c1c53f925e52)
+
+> In a given graph, between every **two** people, there is a **path**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0a1b0f9-1633-4951-b790-6b60554f4e9c)
 
 
+* **D to B** -> DCAB
+* **C to B** -> CAB
+* **A to D** -> ACD.
 
+> From these we can get **two** more types of graphs, **connected and dis-connected** graphs.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7723f545-4df2-4517-88ce-905493cf2492)
 
+* **Connected** graph -> In a given graph, between every **two** people, there is a **path**. Edge maybe there or may not be there. Path should be there.
 
+> Otherwise it is **dis-connected** graph.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8182cfbe-7ce8-4871-86e7-844c293ccce4)
 
+* **Dis-connected** graph
 
+* Null graph -> **Dis-connected** graph.
+* Complete graph -> **Connected** graph.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c5f657ce-9fb6-4118-8515-cf4448331f1c)
+
+### Representation of Graph inside computer
+
+1) Adjacency Matrix
+2) Adjacency List
+
+> Between **two** vertices there is an **edge** then those two vertices are **adjacent** to each other.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec0d07a7-b465-42f2-9018-000e944afa5c)
+
+* Start from **40mins**.
 
 
 
