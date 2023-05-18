@@ -12567,6 +12567,7 @@ Steps:
 ## Prim's [Greedy Technique for MST]
 
 * Prim's algo is based on **vertices**. It goes **vertex by vertex**.
+* Prim's algo other name is **Dijkstra's algo** in **Dynamic Programming**.
 
 * A to B -> 10
 * A to D -> 20
@@ -12585,26 +12586,90 @@ Steps:
 
 * Steps:-
 
-1) **Take any vertex** and find **adjacent** of that vertex.
+1) **Take any vertex** and find **adjacent** of that vertex and from them take the **min**.
 
 > **Take any vertex** because in the **last answer** every vertex is there. Every edge cannot be but every **vertex** has to be there.
 
 > We were taking **min** edge is **Kruskal's** because all of the **vertex** will not be coming the **final answer**.
 
-> We have take **D** vertex and the **adjacent** vertex to **D** are **A, B and C**. So the **adjacency finding** took **O(V)** in **matrix** and in **list** for **best case** it is **O(1)** and **worst case** is **O(V - 1)**.
+> We have take **D** vertex and the **adjacent** vertex to **D** are **A, B and C**. So the **adjacency finding** took **O(V)** in **matrix** and in **list** for **best case** it is **O(1)** and **worst case** is **O(V - 1) or O(V)**.
 
+> The **advantage** with the **list** is that whoever are **adjacent** they only are available, if no one **adjacent** then the **list** is **NULL** for that **vertex**. Unlike **matrix** wheather **adjacent or not**, we are **writing all**.
 
+> If nothing mentioned then we have to go for **list** only, because it doesn't take more or less, it takes the **exact** amount. No need to **upper or lower** bound, just say **exact**.
 
+> For **V** vertices, we were finding **adjacency** for **D**, in **matrix** it is **O(V)** and in **list** it is **O(3)**.
 
+* In case of **graph algos**, the time complexity of any algo is based on **how we represent the graph**. 
 
+> If **two** people are **adjacent** or not, time taken in **matrix** is **O(1)** and in **list**, **worst case** is **O(V)** and **best case** is **O(1)**.
 
+* Everytime we will be taking **min**, so we need **min-heap**.
 
+> After **round 1** over, we got **C** vertex.
 
+2) Find **adjacent** of the **new vertex**. Ignore the **C to D** because we have done that in **round 1** only. We are comparing from both the **adjacents of D and adjacents of C**, whichever is **min** take that.
 
+* Do the **same** thing everytime until **all vertex** are taken.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b959adb-b24c-4146-8e50-33be7b972a00)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b0f7ed9-a994-4759-863a-433bcd6cc150)
 
+> Now, remove the **D to A** edge.
 
+> So after **2 rounds** are **over**, **3 vertices** came because in the **first round** we got **2 vertices**, we choose **D** and **C** was the **adjacent** of D, which was **min** among all the **adjacents**.
 
+* So, we have to do **V - 1** rounds only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/02727049-88d4-43da-a9a6-6166c3766552)
+
+3) Repeat previous step -> Find **adjacent** of the **new vertex** and take **min** from all.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d06e2c83-e362-4051-9c5d-d703af64173c)
+
+* We are taking **A to B** as it is the **min** among all.
+
+4) Repeat previous step. 
+
+> **B** doesn't have any **edges** which have not been used yet. So among all, **C to B** is **30** but that **creates** a **cycle** so **delete** it and go next. **Log E** time for **C to B** over but **cycle**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63d6f58d-fe14-46ba-a2cd-2bae6218174b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a7e7793-7d24-440e-91df-f4d51d97e0b3)
+
+> Next is **D to B** which is also **cycle** so **delete** it and go next.
+
+> Next is **C to A** which is also **cycle** so **delete** it and go next.
+
+> Next is **A to E** which is not **cycle**, so we take it. We had to take **A to E** which is **60** and **bigger** because the **smaller** ones were **creating cycles**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6ba63c4-84bb-41dd-9c88-3354cb693aa0)
+
+* All **vertices** came after **V - 1 -> 5 - 1 -> 4** rounds.
+* Total cost -> 105.
+* Same as **Kruskal**, **total cost** is **same**.
+* Cycles don't take.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24ceb893-3601-4921-a4b3-b562248cd52e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2fcf4738-49d2-4b02-a875-4fb112457fac)
+
+* Every round **cycle checking** takes **constant or O(1)** time.
+* Kruskal's -> Take min, Take min.
+* Prim's -> Take adjacent min, Take adjacent min.
+* **Advantage** of **Prim's** is that at **every step/round** we got **connected graph**.
+* Finally the **cost** is **same**, **tree** may or may not be **same**, we cannot say.
+
+* **NOTES**:
+
+* When we are **continuously jumping** here and there, then **cycle checking** is **difficult**.
+
+> In **Kruskal's**, **AB** is in the **first round** then in **second round** we got **DE** and they are **disconnected** which makes cycle checking difficult.
+
+* When it is **continuous** then **cycle checking** is **easy**. 
+
+> When we are **constructing the tree**, we are choosing them **vertices** in such a way that **one point** is aleady there on the tree and other point is **new**. If both **points** are **old** then **cycle** coming, if **both new** then **disconnected** which is not possible in **prim's**.
+
+* In **Kruskal's** in the **middle** we may get **disconnected** graphs. In **Kruskal's** in **every step** it need not be a **connected** graph.
+* In **prim's** in **every step** we always get **connected** graph.
 
 
 * Finally both **Kruskal and Prim's** will give **MST** and **connected** answer only.
@@ -12614,6 +12679,208 @@ Steps:
 * Why in **kruskal** algo, **in-between** or in the **middle** of the procedure it is **disconnected**?
 
 > It is **greedy**. Where ever there is **min**, it will go.
+
+> So in the **5th round** of **Kruskal's** we have the **min** of **6** cost but there are **3** different edges with **6** cost. We can take **any**. Random **6** will come, **computer** got no **emotion**.
+
+> **A to D** came but it was **creating** cycle so **delete** it and go **next**.  
+
+> **C to D** came but it was **creating** cycle so **delete** it and go **next**.
+
+> **B to C** came and there was no cycle so we added it.  
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/430e2a83-9c8e-4b8d-be97-7db7737d709f)
+
+* Total cost -> 20.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/719aa153-db91-4cf0-8039-4137bee34516)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c202570f-0564-497b-a9d5-e12b5b0048df)
+
+* YES. 
+
+* Let assume that by **adding all 6** there are **no cycles** and all are possible, which means that **multiple MST** are possible for the **above problem**.
+
+
+* One graph given and asked to find what is the **MST** for that graph? Not mentioned if use **Prim's or kruskal**?
+
+> Use **Kruskal's** it is easier, just **take min** everytime.
+
+> In **Prim's** take **adjacent** and then take **min** of those adjacents. **Two** conditions there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/088f55b9-d30c-4cde-872a-5363aa70c1bf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ef128b4-ad38-463e-91d0-ba163c676a20)
+
+* Sometime is it the **same** tree and sometimes they are **different** trees.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1540a986-86da-4782-bc3c-57d8a6970a93)
+
+* For the **given graph** if only **one MST** possible then the **trees** given by **prim's and kruskal's** are **same**.
+* If **multiple MST** there then **different** trees came possible.
+
+* **E** is for **min-heap** creation.
+* Kruskal's **worst and average** case time complexity -> **E * log E + E -> **E * log E**.
+* For Average it is -> **(E/2) * log E + E -> **E * log E**. **Same** as **worst case** only.
+
+> Atleast **E/2** or **half edges** we have to **delete**.
+
+* Kruskal's **best case time complexity -> **(V - 1) * log E + E -> **V * log E + E**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/29874830-abf9-46d5-bb75-2afa718838c2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b3acfdbf-0195-4e45-96ea-0e9767c15f01)
+
+* Kruskal's edge sequence -> They don't ask in questions.
+* Prim's edge sequence ->  They ask.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3cdf53b4-80f5-41bf-81ff-e3b528962216)
+
+* If we do **Prim's** for the **above graph** what will be the **edge sequence**?
+
+> Don't draw diagrams for the **options**. Just check **adjacency property** if **adjacent** then check for **min**.
+
+> It gives connected graph **every step**.
+
+> In **option D**, **B** was common between the **first two** edges, in the **3rd** option there was **no common** edge, so it is **disconnected**. So **wrong option**. Prim's never generates **disconnected** graph.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4294a63d-934f-4d1c-8103-93c75615b998)
+
+* Now, checking for **min property** in **options A and B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/45a0cb6c-efd7-435d-9718-7669cf5fa578)
+
+* **CA** is **2** and **CF** is **5** as **min** is available which is **CA** we cannot take **CF**, that's why **option 2** failed in **min property**.
+
+* **Prim's edge sequence steps**:-
+
+1) First find/check **adjacent property** for **all options**.
+2) Then go for **min property** check which is **prim's algo**.
+
+> **Prim's** algo can start from **anywhere**. So, **multiple/many** answers are **possible**.
+
+> **AD** both are old so **cylce**.
+
+> **CD** both are old so **cylce**.
+
+> **BC** 'C' is old but 'B' is **new** so no **cylce**. We are taking **BC** next after **FD**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d7a74de-93ae-4c42-9ee1-bb02d941c82f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a49d6d3-b47b-4d99-88a3-a1a28cbb5775)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dca2fd97-c1b1-42a2-a785-a531630fd7cf)
+
+* No backtracking nothing here.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a33cab90-b4d6-4f8c-a4cf-28dab7ca2969)
+
+* We doing **Kruskal's** algo here.
+
+> Next is **40** which is **BD** and it is **cycle**.
+
+> Next is **50** which is **BE** and it is not a **cycle**. Take it.
+
+> Here, **two** options possible as there are **two** 50s which are **BE and DE** and either of them are causing any **cycles**, so **2 MST** possible here.
+
+* So for a **given graph**, **multiple MSTs** maybe possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e64ec8b6-18ca-437d-885c-70d41fd4f8b3)
+
+* Different **trees**.
+* **Total cost** should be **same** for all of the **multiple MST** that are possible.
+
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b578c61-b6ed-460f-85ae-18581527ee55)
+
+* **NOTE**:-
+
+* So for a **given graph**, **multiple MSTs** maybe possible but **total cost** should be **same**, which is **110** for **both**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1dcc082-12a6-48ef-a2ed-b6da6e019d03)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1313084f-5478-4aa8-bbb8-1ff160141c42)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f5d0cbc-872c-42eb-b0fe-d3023a603437)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc99814c-10f6-42b8-bce1-ee3c0fc38aa0)
+
+> We cannot take **40** which is **BD** as it is a **cycle**.
+
+> We can take **40** which is **BE** as it is not a **cycle**.
+
+* If graph contains some edge weights **repeated values** then multiple MST possible?
+
+* Need not be. Maybe possible. No gurantee.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb03a6dc-5221-44f1-b9ce-17d7a07e4446)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57dac69f-bb98-4025-abf6-d95154895376)
+
+* **NOTE**:-
+
+> If at all for the **given graph**, **multiple MSTs possible**, then in that graph, some **edge weights** should **repeat**.
+
+> If the graph contains, some **edge weights repeated** then we may get **multiple MSTs**.
+
+> We have a graph that is **connected**, if at all it is a **connected** graph surely **MST** possible. Every **connected** graph will get **MST**, guranteed.
+
+* Definitely **connected** graph will have **MST** but **how many possible**?
+
+> **Connected** graph is where all the **edge weights** are **distinct**. So, exactly **one** MST possible.
+
+* **Connected** graph -> Atleast one MST possible.
+* Distinct edge weights -> **No choice** available
+* 
+> Distinct edge weights -> Nowhere **choice** available. If two **50** available and we can **choose any 50**, which means **choice available**. All are **distinct** so **no choice** available.
+
+* If graph is a **Connected** graph and having **distinct edge weights** then **unique MST** possible.
+
+* **Connected** graph but  not distinct edge weights ->  Because of **Connected** graph, atleast one MST is possible, as no **distinct** edge weights there so, **multiple MST** or **alteast one MST**  possible. 
+
+* Only **Connected** graph -> Atleast one MST is possible.
+* Not **Connected** graph but distinct edge weights -> MST may or may not be possible because **Connected** graph not there. Because of **distinct** if at all possible then **one only**, so **atmost** one MST possible.
+
+* **Connected** graph and distinct edge weights  -> Exactly one MST.
+
+> The only place where **MST** is **not possible** when if at all **connectivity** is not given clearly. We cannot give **gurantee**.
+
+* If a graph is **disconnected** -> Zero(0) MST possible.
+* If a graph and we have dilemma with the graph, maybe connected or disconnected -> Almost 1 MST possible.
+
+* For any graph if **MST** possible then compulsory **min** edge weights should be there or not?
+
+* Every **MST** must contain **first and second** minimums.
+
+* **NOTE**:-
+
+1) For the given, **connected and distinct** edge weight graph, **unique MST** possible. **First two min** edge weights must be there.
+
+* Whenever we are taking **1st and 2nd min** edge weights also, graph should contain how many vertices?
+
+> We have take **two** people compulsorily then **minimum 3** vertices. So, **n** value should be **greater than equal to 3**, then only possible.
+
+* If mentioned that the graph is **disconnected** then **MST** is not possible. Guranteed.
+
+2) No MST contain max edge weight. right or wrong?
+
+> **Wrong**. Sometimes we have to take larger one because of **cycles** happening with the **smaller** ones.
+
+* Some MST may contain max edge weight, right or wrong?
+
+> **Right**.
+
+* Every MST contains max edge weight, right or wrong?
+
+> **Wrong**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0a98d47-3462-49e0-991e-dedc2756d205)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea1ed18f-cead-4781-a6b6-fb4b8e634338)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c36182a9-74c3-4f7b-9a8d-f10b72593762)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f3298fe8-37b2-4ad4-bb4b-c5dda758ab75)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
