@@ -12869,6 +12869,39 @@ Steps:
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c36182a9-74c3-4f7b-9a8d-f10b72593762)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f3298fe8-37b2-4ad4-bb4b-c5dda758ab75)
 
+* The **above graph** is stored in the computer in **adjacent matrix** because it is a **complete graph** and **complete graph** have **more edges**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/939e9b5d-7da6-4772-bdf4-bc622ea878cd)
+
+* Cost Adjacency Matrix. Keep **weight** now instead of **1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/568bd9f3-a95e-4286-86e9-d090b66d9e44)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e2bb298c-7cfc-416e-b2f1-66930b1f89ae)
+
+* Un-directed graph.
+
+> In an **un-directed** graph, a person is said to be **leaf node** if it's **degree is 1**.
+
+> If **degree is 0** then it is a **disconnected** graph.
+
+> In a **directed** graph, a person is said to be **leaf node** if it's **out-degree is 0**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9659621b-fdd5-4b04-b4fd-95021bf4ab70)
+
+> We are doing **kruskal's** algo here. We got **min 10** from **AB**. The next 3 mins are **10 also** which are **AC, AE and AD**, we cannot **add** them because if we **add** them then the **degree of A** is **increased to 2** and **A** will not be a **leaf node** at that point. So, we have to take **11** which is **BC**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/358700f6-3893-41e8-a971-3c2e84a48ad2)
+
+* Because of the **leaf node** condition, **cost** of MST is **increased**.
+* Total Cost -> **45**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b82b1709-8cb2-4fe1-a3f3-a8bb9fd87a83)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab2b9783-98af-4c25-a663-eb2092dba1dc)
+
+* Prim's algo time complexity -> 
+
+
+
 
 
 
