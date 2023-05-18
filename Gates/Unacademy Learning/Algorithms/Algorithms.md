@@ -12213,21 +12213,33 @@ Steps:
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41181987-4126-47a1-9e68-70fc7f1677c0)
 
-* Find out **Time Complexity** in the **below questions**:-
+* The **vertices** list in the **adjacency list** is an **array**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/55bbc853-6efb-4334-af38-7700718b0501)
+
+* Array
+
+* Find out **Time Complexity** in the **below questions**:- [**IMPORTANT**]
 
 1) To find degree of a particular vertex?
 
-* O(V), it is **every case** for **matrix**.
-* O(V - 1) or O(V), it is **worst case** for **list**. For **best case** it is **O(1)** for **list**.
+* Matrix -> **O(V)**, it is **every case**. To find the **degree** we have to do **one scan** and **count** the **no. of 1s** in the **row**. We can directly go to the **particular row** as in array **random access** possible.
+* List -> **O(V - 1) or O(V)**, it is **worst case** for **list**. For **best case** it is **O(1)** for **list**. As the **vertex list** is an array directly go to that **particular vertex** and there is a **linked list** and **scan once** in the linked list to find the **degree**. Only **one scan** required.
 
-> In Matrix, there is **zero** adjacent then also we are writing all.
+> For **one vertex**, max degree can be **V - 1** or **O(V)** and that is the **worst case**. In **worst case** we have to do **one scan**. The min degree is **zero(0) or NULL** which means it is **O(1)** which is the **best case**.
 
-> In **list**, if there are **adjacents** then they are written otherwise they are not written and left empty or NULL. The **advantage** is that if **not there** then not written.
+> The necessary things only are writing in **adjacent list**.
+
+> In Matrix, there is **zero** adjacent then also we are **writing all**. For **matrix**, it is everytime **O(V)**, we have to do **one scan** always, no matter what adjacent vertex there or not.
+
+> In **list**, if there are **adjacents** then they are written otherwise they are not written and **left empty or NULL**. The **advantage** is that if **not there** then not written also. 
 
 2) To count no. of edges?
 
-* Matrix -> O(V ^ 2) -> Find **sum of degrees** and then do **divide by 2**. **One person degree** is **V** and we have **V** people.
-* List -> Min, one person degree is **O(1)** and max is **O(V)**. So it is **O(1 * V) -> O(V)** times for **best case** and for **worst case** it is **V * V -> O(V ^ 2)**.
+* To count no. of edges **formula** -> Find **sum of degrees** and **divide by 2**.
+
+* Matrix -> O((V ^ 2)/2) -> O(V ^ 2) -> Find **sum of degrees** and then do **divide by 2**. **One person degree** is **V** and we have **V** people.
+* List -> **Min**, one person degree is **O(1)** and max is **O(V)**. So it is **O(1 * V) -> O(V)** times for **best case** and for **worst case** it is **V * V -> O(V ^ 2)**.
 
 * Sum of degrees is **50**, then how many edges?
 
@@ -12235,17 +12247,80 @@ Steps:
 
 3) To know, given **two** vertices are adjacent or not?
 
-* Matrix -> **O(1)** -> Random access possible so it is **O(1)** time. For **Every case**.
-* List -> **Best case** is **O(1)**, **worst case** is **O(V)**.
+* Matrix -> **O(1)** for **Every case**  -> Random access possible so it is **O(1)** time. For **Every case**. Adjacency can be found out **directly** using random access as it an **array**, just go to the specific vertices and check.
+
+> **4 and 3** are adjacent or not in the matrix? It is giving **1**, so they are **adjacent**. If it is **0** then they are **not adjacent**.
+
+* List -> **Best case** is **O(1)** as it is **empty or NULL**, **worst case** is **O(V)** as we have to do **one scan** in the **adjacency list**.
+
+> **4 and 3** are adjacent or not in the **list? Go to the **4th** vertex first and in that **adjacency list**, we have to do **one scan** to find out that **3** is there or not. Whoever is in the **adjacency list** are **adjacent** to tha **vertex**. If **3** found then **4 and 3** are **adjacent** otherwise they are **not adjacent**.
+
+> Random access not possible because of **linked list**.
 
 ## Minimum Cost Spanning Tree
 
 ### Spanning Tree
 
+* It is a **Sub-graph**.
+* All vertices must be there.
+* All vertices minus **1** is the no. of edges which must be there.
+* It is a **connected graph** but with **min** no. of edges.
+* It never contains **any cycle**. We are wasting **one edge**, connections increasing and cost also increasing.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c278a876-18ab-4577-897a-0d9098adb784)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a9902afd-db48-4395-bcad-8ec072830c96)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76850fc2-78a3-46d6-9f74-d4297249aa86)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/121779d6-7907-48fd-bf0e-965973c70425)
+
 > A graph is a **connected graph** because between every two people there is a **path**, edge may or may not be there.
 
+* Spanning tree is a **sub-graph** with a condition that **all or every vertices** should be there.
+* If all vertices not there it is just a **sub-graph** and not a **spanning tree**.
 
-* Start from **1hr 50mins**.
+> We have **4** vertices and **5** edges. We are taking a **sub-graph** of that. **Sub-graph** mean **vertices** are less, edges maybe are less.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50b592d4-e11d-4f16-8334-8a8c3f939871)
+
+* Not a 
+
+* A **sub-graph(S)** of it's given graph(G) is said to be **spanning tree** if and only if:-
+
+1) 'S' should contain all vertices(V) of 'G'.
+2) 'S' should contain (V-1) edges without **cycle**. Indirect way of saying **connected graph**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e1644cd-53fe-485a-a51e-dd8460087418)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/724323a6-ef93-4cf8-adb8-353b0da4281f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4355e216-517d-43bd-bf12-86f99cc85f74)
+
+* To connect **V** vertices, we need **V - 1** edges.
+* To connect **V** vertices, we used **V - 1** edges but they are still not **connected** which means **cycle** has been created, edge wasted.
+* **One graph** contains **many spanning trees**.
+
+* Find the **no. of spanning trees** for the following graph?
+
+> We have **4 vertices and 4 edges**. We need only **V-1** edges which is **4-1 = 3** edges. Out of **4** edges we have to select **3** edges. So it is **4c3** ways.
+
+* 4c3 -> 4 ways.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c335cdff-e11e-4489-8db1-b74981fc23aa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c8a7aa6-a40e-4ec0-b6c6-958c59ca7177)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e7b6a5c-8858-41c8-b136-1bb54ac6279a)
+
+* Formula gives sometimes, **wrong answers** when the **no. of edges** is **more**. **Try to draw them to check**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1fccd7e4-e20a-40d2-a912-671bdc43fa5c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41ad791f-ff28-444e-b5a9-1e49b2c930f4)
+
+> From the **formula** we got **10** as the **answer**. While drawing roughly we saw **2** were creating **cycles** so we removed them. Now the **correct** answer is **8** spanning trees. 
+
+* How many cycles possible of **length 3**?
+
+> **2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5976b29c-72d4-486c-a8be-99cd596a9ffa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/561995be-b44d-413d-9732-cb5a76928637)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/639c533c-b811-41f6-a163-99f6ba0c47f8)
+
 
 
 
