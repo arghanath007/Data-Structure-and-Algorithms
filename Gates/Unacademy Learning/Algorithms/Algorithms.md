@@ -12321,6 +12321,254 @@ Steps:
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/561995be-b44d-413d-9732-cb5a76928637)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/639c533c-b811-41f6-a163-99f6ba0c47f8)
 
+## Dynamic Programming-XI (44) [18th May 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/133f03b1-b007-4814-8f3b-4e17c48529e4)
+
+* We are finding for **3** length trees. So we will only be removing **3** length cycles only and not the others.
+* As the **above** is a **complete graph**, we have a formula for it.
+
+* Spanning tree for **K4** -> 4 ^ (4-2) -> 4 ^ 2 -> 16.
+* Spanning tree for **Kn** -> n ^ (n-2).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dfe01782-c294-4f3d-a32a-4c9afa6f8d86)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/683e9ed7-875a-49d1-b87d-b83fddab2a34)
+
+* In **normal graph** we have to do like **previous class or yesterday's class way**.
+
+* Spanning Tree -> Start from **anywhere**. It is possible in **un-directed** graphs.
+* Rooted Spanning Tree -> Start from **some specific** position/point. It is possible in **directed** graphs. Root is **fixed**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35e4efdf-c7cb-4afd-bc1d-d7136653cc41)
+
+* Directed graph
+
+> In a **directed** graphs we cannot go where ever we want. That's why we have to start from **some specific** position/point from where we can cover every person. From the **root** everyone is **reachable**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72b8677d-4382-4841-b705-22b5ac433466)
+
+* 'C' is the **root**. Rooted spanning tree.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/467ea7cc-e07a-4acc-89ca-172fe9df55e7)
+
+* **K4** contains **16** spanning trees. We can start from **anywhere**.
+* Suppose we start from **A**, and from **A** to everywhere, we keep directions, then we are making **A** as **root**.
+
+> As we can start from **anywhere**, we started from **A**, in all those **16** spanning trees, starting from **A**, then **A** as the **root**, we get a **spanning tree** called as **Rooted spanning tree**.
+
+* With **A** as the root, we will get **16** spanning trees.
+* With **B** as the root, we will get **16** spanning trees.
+* With **C** as the root, we will get **16** spanning trees.
+
+> We have **4** vertices so, **4 * 16 -> 64** **Rooted spanning tree** we will get.
+
+> Every person as **root**, we can fix.
+
+> Without considering **root**, we got **16** spanning trees.
+
+> Let's consider **root** for all of the **16** spanning trees, starting from **A** only.
+
+* **Rooted spanning tree** means **root** required.
+* In **un-directed** graph we have **chance** of starting from **anywhere**.
+* In **directed** graph we have **no chance** of starting from **anywhere**, we have to start from **root** only.
+
+* **Rooted spanning tree** for **Kn** -> **(n ^ (n-2)) * n) -> (n ^ (n-2 +1)) -> n ^(n-1)**. [Not required]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33887257-0a81-45ac-a0d9-f6106ed81fcd)
+
+* We cannot go from **everywhere to everywhere** in **Rooted spanning tree**. So, from a **specific point** we can reach **everyone** or not. That is **Rooted spanning tree**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32f0d847-6a78-4776-b63c-472b360bd5fe)
+
+* Un-directed graph.
+* Spanning trees -> 16
+* **Rooted spanning tree** -> 4 * 16 -> 64 [Since **4** vertices that's why multiply with 4]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/546b87e1-0d52-4f79-b935-1ea5065abd92)
+
+* In **directed graph**, what is the meaning of **Rooted spanning tree**?
+
+> From **one person** we can reach **everywhere**. That person is **root**. Then, we will get **one spanning tree**.
+
+> Actual meaning of **spanning tree** is changing in **directed graph**, as the actual meaning of **spanning tree** is that **between every two people path should be there**. As it is a **directed graph**, is not possible. From the **root** everyone is **reachable** or not verify. That is **Rooted spanning tree**.
+
+* Find out no. of **spanning tree**? [Two Ways]
+
+1) From **total** remove **cycles**.
+2) If it a **complete graph** then **formula** there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c53860b4-c744-4997-9e21-99e9580f30e0)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63ec9673-b4e6-46e1-a4e9-72013f5ad87e)
+
+* Not there.
+
+* What is the meaning of **directed graph spanning tree**?
+
+> **Rooted spanning tree**, from **one person** we can go to **everyone** possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ae5572b-3398-4f25-8c17-2a93a329e10c)
+
+> We are seleting **4** length edges. So we have to remove cycles of length **4 as well as 3** but not **5**. In the **3** edge cycle we have to see where the **4th** edge is going.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b3e0796f-b9d0-407e-a731-fc27a787af1f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a4e020cf-92c6-4a64-8e94-1f6d690960c3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0777383b-9dc9-45eb-98fb-014bd0e7485e)
+
+* Spanning Tree -> Covering all people(vertices) with min connections(edges). 
+* Complete Graph -> Covering all people(vertices) with max connections(edges). 
+
+* For **complete graph** with **10** vertices, we need **(n * (n-1))/2 -> (10 * 9)/2 -> 45** connections(edges).
+* For **spanning tree** with **10** vertices, we need **V - 1 -> 10 - 1 -> 9** connections(edges) is enough. No cycles should be there.
+
+> The **problem** of **spanning tree** is that, if **one connection(edge)** is gone, then the whole **spanning tree** or connections are **disconnected**.
+
+
+## Minimum Cost Spanning Tree(MST)
+
+* Cost is there, so **weighted graphs** is there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/06e9d80e-6387-485c-bda5-7de8bced2cbd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33a4e747-c6c2-49e2-94e7-5a850a79564b)
+
+> As it is a **complete graph** so the **no. of spanning tree** is **n ^(n-2) -> 4 ^ (4-2) -> 4 ^ 2 -> 16**. We have **4** vertices so we need **min of 3 edges** for **spanning trees**. Among all of the **edges**, the **3 edges** they also should be **min** to get the **Minimum Cost Spanning Tree**.
+
+> Any of the **3** edges we take is called as **spanning trees**. The best **3 min edges** we take is called as **Minimum Cost Spanning Tree**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e0dbfee7-f3d5-4972-96a0-e7ffee26cdbd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b54c8ece-f46f-42e9-8dc7-d4f803bbdb4e)
+
+> For the given problem, there are **16** spanning trees, out of the **16** spanning trees there is **only one** spanning tree which is **Minimum Cost Spanning Tree**.
+
+* **Minimum Cost Spanning Tree** cost -> 10 + 30 + 20 -> 60.
+* **Minimum Cost Spanning Tree** means **spanning tree** where the **cost** should be **minimum**.
+
+* What matters in **Minimum Cost Spanning Tree**?
+
+1) No. of edges should be **less or min**. [Since Spanning tree]
+2) Min Cost.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35e0ca61-3465-44df-978f-eb928ecca496)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5451b1f-119a-4d8b-9799-204199c9c67e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fccb2a05-8d75-4d01-ace7-c1bc6f0b5d62)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f11f64a-b730-416e-a454-b2e834b52638)
+
+* Yes, take whatever we want.
+
+## Kruskal's [Greedy Technique for MST]
+
+* A to B -> 10
+* A to D -> 20
+* A to C -> 50
+* A to E -> 60
+* B to D -> 40
+* B to C -> 30
+* D to C -> 15
+
+* Vertices -> 5
+* Edges -> 7
+* Edges we want for Spanning Tree -> V - 1 -> 5 - 1 -> 4. 
+
+* Kruskal's algo is based on **edges**. It goes **edge by edge**
+
+* Steps:-
+
+>  Take **min** edge weight and add to **MST**. Initially **MST** is empty. Every step, new **edge** will come. Everytime we are getting the **min** edge weight.So, we have to use **min-heap**.
+
+> We have to **create** min-heap using **build-heap** and it took **O(n) or O(E)** time. As **kruskal** is based on **edges** we have to **create** min-heap for **edges**.
+
+1) Take **min** edge weight and add to **MST**. Do it everytime.
+2) Take next **min** edge weight and add to **MST**. Do it everytime take **min** edge.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d9fcaa24-2b9b-42cb-891a-b280df6c827d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/43762626-46e5-4e58-9c0f-e28ae1b4cb90)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/765fdc60-8d71-4788-b82a-567733dd0739)
+
+* First step is **costly** as **min-heap** not there that why we added, **E + log E**. From **next step**, the cost for **each** step is **log E** only which is **deletion** in min-heap cost.
+
+> In first **two** steps, **no cycles** are possible as **no cycle** is possible with only **one or two** edges. We need atleast **3 edges** for a **cycle**.
+
+* Every **MST** must contain, the **min** edge. Will we agree?
+
+> **YES**.
+
+> **First Min** edge and **second min** edge must contain in every **MST** as **no cycles** are possible with **one or two** edges. After that we cannot give gurantee that **3rd min** edges will come, because from **3rd step** cycles are possible as we will have **three** edges for cycle.
+
+
+* First two min -> No Doubt, will be there. Guranteed
+* From Third min onwards -> Doubtfull, as cycles are possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7316d78-23b4-4491-a7e9-703bad509f9d)
+
+> **Two** rounds over and we got **two** edges. We want **V-1 -> 5 - 1 -> 4** edges, so there will be **4** rounds only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/664f5836-ad1e-4a09-b372-4c6b9664dc99)
+
+* Every **deletion** step from **min-heap** takes **log E** time.
+* Cycle checking will take **constant or O(1)** time.
+
+* If we are **un-lucky** then we have to **delete** all **edges**.
+* If we are **lucky** then we will take **only one more edge** further, as we need **4** edges and we have got **3** already from **3 steps**.
+* If we are **lucky** then we will **delete** only **V - 1** edges.
+
+
+* Time Complete of **Kruskal's** for **best case** -> **(V - 1) * log E -> O(V * log E)**.
+* Time Complete of **Kruskal's** for **worst case** -> **(E) * log E -> O(E * log E)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5a21815-1499-4655-b384-0f2585d7bad4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8654a822-f642-4d94-8eee-5b7fdbbef7d1)
+
+* All **edges** are deleted.
+* Every deletion is **log E** time. 
+* For **E** edges, deletion time is **E * log E**, which is the **worst case**.
+* or **V - 1** edges, deletion time is **(V - 1) * log E -> O(V * log E)**, which is the **best case**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f126f429-c721-4a79-af4b-b2c1ffb9968c)
+
+* Total cost of **MST**  -> 105.
+* **log** comes from **min, max heaps and binary search**. As there is **no binary search** here, so the **log** is coming from **min-heap**.
+* Everywhere **E** came because the **kruskal's** algo is based on **edges(E)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b806077-594c-4a39-afa1-41b06a7dfd7c)
+
+* Every round from **3rd round** onwards, **cycle checking** will take place and it takes **constant or O(1)** time.
+* **Min-heap** creation takes **E** time.
+* Lower bound of **E** is **0**. Upper bound of **E** is **V ^ 2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a33a0ff-c4d7-4ea5-9a2c-03c774298f3e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/88656eca-edbc-49ca-8681-d95452840ed3)
+
+* log E = O(log V).
+* **E * log E** -> O(E * log V) -> O(v ^ 2 * log v)
+
+> In the **worst case** of **kruskal's** algo we got time complexity as **E * log E**. From that we can get **O(E * log V) and O(v ^ 2 * log v)**. If in the option **E * log E** is not there then chose from **O(E * log V) and O(v ^ 2 * log v)**. If original also there with them then choose **original**, if it is an **MCQ**.
+
+> If **original** not there, then we can **select** the **upper bounds**.
+
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec38e137-7b44-4c98-ab5a-d1925786828e)
+
+> If **Null graph** then **E = 0**, so, **V * log V** is **bigger**. If it is **complete graph** then **E = V ^ 2** then **E** is **bigger**.
+
+> If **dilemma** then keep both.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b31361b1-2253-4490-ab0b-7a51c0f3d175)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5a0e0d5-116f-4c0a-98e4-4ec51cb459d6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0fc7bcb-ebd9-4ba9-9629-34b5bb4d2da6)
+
+* We are **lucky** and got the **best case**, **no cycles** came.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/18739f66-4b75-4170-88f0-67c7176c2496)
+
+* Ask in group.
+
+
+## Prim's [Greedy Technique for MST]
+
+* Prim's algo is based on **vertices**. It goes **vertex by vertex**.
+* Vertices -> 5
+* Edges -> 7
+* Edges we want for Spanning Tree -> V - 1 -> 5 - 1 -> 4. 
 
 
 
@@ -12333,7 +12581,14 @@ Steps:
 
 
 
- 
+
+* Finally both **Kruskal and Prim's** will give **MST** and **connected** answer only.
+* In **kruskal** algo, the problem is **in-between** or in the **middle** of the procedure, it may give **not conntected or disconnected** graph.
+* In **Prim's** algo, every step is **connected**. It will always check **neighbours** only.
+
+* Why in **kruskal** algo, **in-between** or in the **middle** of the procedure it is **disconnected**?
+
+> It is **greedy**. Where ever there is **min**, it will go.
 
 
 
