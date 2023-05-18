@@ -12562,13 +12562,38 @@ Steps:
 
 * Ask in group.
 
+## Dynamic Programming-XII (45) [18th May 2023]
 
 ## Prim's [Greedy Technique for MST]
 
 * Prim's algo is based on **vertices**. It goes **vertex by vertex**.
+
+* A to B -> 10
+* A to D -> 20
+* A to C -> 50
+* A to E -> 60
+* B to D -> 40
+* B to C -> 30
+* D to C -> 15
+
+
 * Vertices -> 5
 * Edges -> 7
 * Edges we want for Spanning Tree -> V - 1 -> 5 - 1 -> 4. 
+
+> We are using the **exact same graph** as from **Kruskal's** algo.
+
+* Steps:-
+
+1) **Take any vertex** and find **adjacent** of that vertex.
+
+> **Take any vertex** because in the **last answer** every vertex is there. Every edge cannot be but every **vertex** has to be there.
+
+> We were taking **min** edge is **Kruskal's** because all of the **vertex** will not be coming the **final answer**.
+
+> We have take **D** vertex and the **adjacent** vertex to **D** are **A, B and C**. So the **adjacency finding** took **O(V)** in **matrix** and in **list** for **best case** it is **O(1)** and **worst case** is **O(V - 1)**.
+
+
 
 
 
