@@ -13054,10 +13054,71 @@ Steps:
 
 * YES.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c635c1c1-3b55-4044-b414-e276303c0007)
 
+> Whoever we take as **starting vertex** keep it's **min = 0**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1dfffff8-8164-4693-abf2-a12c50a0bbba)
 
+* We are keeping **vertex** info in the **min-heap**.
+* We are taking **C** as the **starting vertex**, so **C.min =0**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b252954e-582e-494e-b26f-fec9050c379c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bd52b15e-eb1a-469f-ac78-b25692d5d583)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb8318ee-d71e-43f5-95d1-7f8de7ffb120)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58bcad86-d61c-4f04-b498-91cd63cfcfae)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d57a2b2-5755-4bae-945b-451ca81bbace)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fab56498-eec7-43f6-bb15-746b6b213816)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f2cce5c-a9f3-43b7-afbe-88b46f630cb9)
+
+* 'E' equal or better, so both sides are **same**, we can write **theta**.
+
+* If the graph is **not connected** then we cannot write **E * log V** first of all, forget about symbol.
+* Between **V and E**, because of **connected**, **E** is **always bigger**.
+* if **not-connected**, we cannot take **E** only as the graph can be **null graph** then **E = 0**. We have to take **V + E**.
+* In **connected** there is **no dilemma**.
+* In **not-connected** or **disconnected** there is **dilemma** so take **V + E** both.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3fadb2db-89ca-42c8-9f2f-eefc2d459672)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0ab4366-0ba1-49fd-ad19-396af0ceab1c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0acb9ef6-3d47-4ceb-af88-69617adba29f)
+
+* In the **answer**, **logs or log** are coming because **log** come when we use **min, max heap and binary search**. **Binary search** is not possible here, as we are using **min-heap**,  that's why we are getting **log** in the **answer**.
+* In Matrix -> V  + (V ^ 2) + (E * log V)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/52092af8-f32b-4ab5-b1b9-3c37e96fb4cf)
+
+* Using **Matrix** instead of **list**.
+* In **adjacency** finding only, the **time** differs in **matrix**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/54195cc3-d205-45a9-a433-0582507ca5fd)
+
+* **(E * log V)** is **bigger** when **E = (V ^ 2)** and the graph is a **complete graph**.
+* **(E * log V)** is **smaller** when **E = (V - 1)** and the graph has **lesser no. of edges**, which is **E = (V -1)** no. of edges.
+* This is also **Time complexity** of **prim's algo**, when the graph is given in the form of a **matrix** and it is used inside of a **min-heap**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2dabd7f-f594-44b7-b211-4d63c0f7927f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1bb28409-4ceb-425e-96bc-808187a29385)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f4793e34-adec-4d8b-9a80-a8549ebb8e86)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e64133a-ec27-4c21-a443-2e578448c41b)
+
+* Prim's in **normal array** and not in **min-heap**.
+* Left side -> (V ^ 2)
+* Right side -> ((V ^ 2) + (E * O(1)))
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1281e553-1954-4c16-bd1a-db61cc97eff2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/feb1bda7-0fee-4ebc-be7c-07a875c86f3d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8594cfa3-d457-475a-876d-0f01fa5091eb)
+
+* Here, we have **no logs** because we are not using **any min-heaps** we are using **normal arrays**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/77722cdd-e650-48d4-ae53-48ac9406f17b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7f6169b-b54e-46f0-9ae8-b96e1f01bed2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0081f038-83c5-4ba9-b5c3-e7ad7c6fbba0)
+
+* Prim's algo **time complexity** using **Adjacency matrix and sorted array**.
+
+> In **sorted array**, **min** is at the **first place**. Finding **min** is **constant or O(1)**. So, **V * O(1) -> V**. The **left** cost is **O(V)**, because **left** is **decreasing**, a lot of work is **pending** on the **right** side only.
 
 ### Increase and Decrease key
 
