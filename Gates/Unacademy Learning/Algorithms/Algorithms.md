@@ -12898,7 +12898,195 @@ Steps:
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b82b1709-8cb2-4fe1-a3f3-a8bb9fd87a83)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab2b9783-98af-4c25-a663-eb2092dba1dc)
 
-* Prim's algo time complexity -> 
+## Dynamic_Programmin-XIII (46) [20th May 2023]
+
+
+### Prim's algo time complexity
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a7467728-57c9-4303-b82c-4ae365f644e7)
+
+* F.min = 3 [Min Edge Weight]
+* F.Parent = D [Min Edge weight connecting to which vertex]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9edb5b9a-274a-4209-a879-5be4d64aade1)
+
+> Prim's also is nothing but finding the **adjacent edge which has min weight** and the **parent where the edge is connecting too**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1af3ecc-46e5-424c-836a-bd1417135664)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b02ec78a-5de1-4b5d-bc19-3e6af314bfad)
+
+> **D** vertex was already covered from **F**, so we don't need to take it again. One person we don't have to take, rest we have to take.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d12e103c-ba41-4965-9aeb-32e5b1f02965)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/62f1676c-2615-4bec-bde3-0681bd500f9c)
+
+* This is when we are finding **time complexity**, don't do this in numericals.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4dac9e3-7f1f-4ef2-8bc6-bbdeba6fc798)
+
+* Initial State of Prim's algo
+
+> Time complecity of **prim's algo** initially where **m and p** of every node is going to be **m= infinite and p=NULL**.
+
+> Every **vertex** information we took and kept in **min-heap**. Every **vertex** having **two values** so it is **structure array**.
+
+* Build heap time for **'V' no. of vertex** for **min-heap** creation is **O(V)** time.
+
+> Whom we want to take as **starting** vertex keep their **vertex.min = 0**. We took 'A', so **A.min=0**.
+
+> When we delete from **min-heap**, **min** element comes out. So, **A** will come out. 
+
+* We have **V** vertices in the **min-heap**, so **one deletion** will take **log V** time.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/814f99f6-bd67-4c43-a8ac-e8dbeb4b2b57)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d2f873b9-c224-4313-a7a8-179afd1cfd03)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c6dce09-18e9-4bc7-b60d-9284ebe2a22c)
+
+> After **A** is **deleted**, we will see the **adjacents** of **A** in the graph.
+
+* To find **A adjacents** in a **matrix** we need **V** time because we have to do **one scan** on **A** row. It is for **every case**.
+* To find **A adjacents** in a **list** we need as many time as the **no. of adjacents** of that vertex. If **3** adjacents then time is **O(3)** if **no adjacents** then it is **O(1)** time. For **worst case** is it **O(V)** and for **best case** it is **O(1)**.
+
+> We are assumung that the above graph is **represented** in **adjacent list**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b8abe56-7cd1-463b-a72c-6e2bc02c9e84)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/adb9488e-2f6f-44f0-9cab-85809e673fe6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d357aa7-2976-4594-b4fa-fd827da51fe4)
+
+> First we are finding who are **adjacent** to **A**. **3** vertex are adjacent so it took **3 units of time**. In the **adjacent** places, do **decrease key**.
+
+* We are **changing** the **min-heap**, we cannot change the **graph**, as it is the **input**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aee3cf95-94ff-4322-b474-67b7383b41ac)
+
+> The **min** was **C** so, **C** was **deleted** and **C** was adjacent to **A**. **C** has **5** adjacent vertex but **A** is deleted already so **C** will only **decrease key** in **4** vertex which is **4 * log V**.
+
+* In **first row** we have **adjacents of A**.
+* In **second row** we have **adjacents of A and C** but the **best ones**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bfad9985-9884-45ad-b97a-6baec1955316)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c64db2ef-a85a-4b4c-bcf0-19861e0181bf)
+
+> As soon as **E** came out, none left and everyone is out of the **min-heap**, which means **everyone** is covered by **best person** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/64e86f9b-5743-4f46-bf90-67a9974751eb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/843bd6b3-5ef7-46a8-b11d-275fa9c332f6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ee99427-0a91-4fae-ae9c-b7c07adab65b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a599af90-531a-48ad-9e6c-d0b9321b76f8)
+
+* All are **connected**. We got **MST**. This is for **time complexity** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/175ac72f-8e67-43cc-839c-63c6abaade79)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/836c5e66-75e5-44e8-b6b6-c945bcd9a2fd)
+
+* For finding **one element** in **adjacent list**.
+* Best case is **O(1)**.
+* Worst case is **O(V)**.
+
+> For **list** no need to find out **best and worst case**, **how many people are there**, that much only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af9aac15-ee30-4614-aa3f-df6fda289bde)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1585be70-0f78-4aa8-b570-99c5bf689b97)
+ 
+* E -> Edges
+* V -> Vertices
+* **Min value and parent**, **structure array**.
+* Sum of **Degree** -> **2 * E**.
+* Time for creating min-heap is **V**.
+* Time Complexity of **Prim's algo** -> (V * log V) + V + 2 * E + (E * log V).
+
+* (2 * E) -> To find **adjacent**.
+* (E * log V) -> Decrease key operations.
+* V -> Min-Heap creation
+* (V * log V) -> Deletion Time.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5cf07544-d350-4fb6-86af-7a7eb1189f5b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/96205ce6-aa25-4dcd-970b-ae8cfb46be8b)
+
+* Time Complexity of **Prim's algo** -> (V * log V) + V + 2 * E + (E * log V) -> (V * log V) + (E * log V) -> (V + E) * log V -> **O((V + E) * log V)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12322058-64d2-49a1-b38d-260f811ce823)
+
+* Between **V and E**, for **complete graph**, **E** is **bigger** as **E= V ^ 2**. For **null graph**, **E** is **smaller** as **E = 0**.
+
+> If the graph is **null graph**, **spanning tree** is not possible.
+> For **spanning tree** to be possible, a graph should contain **V - 1** edges as **minimum**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a14b9955-6bd7-45da-a9ec-72e0f059fd23)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba61cd78-3615-454d-8683-889f58f93fc3)
+
+* If graph **G** is **connected**.
+
+* **Spanning tree** is possible for **connected graphs** only. For **connected graphs**, **V - 1** edges are **required**. So, **min value of E** is **E = (V - 1)** and **max** value is **E = (V ^ 2)**.
+
+> From comparing **E and V**, we can **confirm** that either **E** is **bigger** or **both are equal** which is **E = (V - 1) -> E = V**.
+
+> So, we can write **O(E * log v)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/18803bea-8139-4eaa-afcc-f500d9828c72)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b4605ff-cc29-4292-b4be-3950a892101e)
+
+* If the **given graph** is a **connected graph**, then, **min value of E** is **E = (V - 1)** and **max value of E** is **E =(V ^ 2)**.
+
+> So it **every case**, **E** is the **dominator**. That's why we can wrtie **O(E * log v)** instead of **O((V + E) * log V)**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9da348a0-c7ea-4f91-8bd7-91b7e2de860d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ad86d1e-e4b5-47c8-a558-b4049e06a175)
+
+* As it a **complete graph** so **E = (V ^ 2)**, so the **time complexity** will be **O((V ^ 2) * log V)**.
+* **Connected & complete graph** -> **O((V ^ 2) * log V)**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f4e1437d-bb73-4023-b902-f49e7e080d6b)
+
+* This is for **time complexity** purpose only and not for **numericals**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/08bf0409-45aa-4125-9ea6-cbdafafdbce0)
+
+* YES.
+
+
+
+
+
+
+### Increase and Decrease key
+
+* Levels is **log n** and the tree is a **min-heap** tree. It is a **balanced tree**.
+
+> As it is an **ACBT**, gaps not there in the **middle**, they are at the **end** so the **new nodes** are **inserted** at the gaps only.
+
+* **Insertion** best case is **O(1)** and **worst and average case** is **log n**.
+* **Deletion** best case is **O(1)** and **worst and average case** is **log n**.
+* **Min-heap** is represented in **array format** inside the computer, so random access possible.
+* Decrease key operation -> No new element comes but the existing value will **decrease**.
+* Insertion -> New element comes.
+* Increase key operation -> No new element comes but the existing value will **increase**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36491aff-6020-4df7-a539-a4f9441bfc6e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76385840-abc6-40cc-b73d-005cdb311778)
+
+* **Decrease key operation** takes **log n** time in **min-heap** which is the **worst case** and for **best case** it is **O(1)**.
+* (a, 10, 7) -> 'a' array name. '10' is the **10th** position in the array. '7' value to be replaced with at **10th** position.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/51247c69-d4aa-4769-9073-0c3f47f20763)
+
+* Best case. 
+
+* **Increase key operation** takes **log n** time in **min-heap** which is the **worst case** and for **best case** it is **O(1)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b47a1da-d309-4639-89ca-fe1141a84acd)
+
+> In **min and max heap trees** which already contain **n** elements and the **levels** is **log n**. So the **insertion, deletion, increase key and decrease key**, all **four** of the operations will take **log n** time in **worst and average case** and **O(1)** time in **best case**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7fa0f112-fc50-466d-a3bd-19422ab2ec78)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1bdc109c-04e2-43ee-931f-6e6267ba3100)
+
+* If we do **increase key** at the **bottom** of the **min-heap** then we will get **best case** which is **O(1)**.
+* If we do **decrease key** at the **top/root** of the **min-heap** then we will get **best case** which is **O(1)**.
+
+> We can do **increase and decrease key** where ever in the **trees**, they are not **restricted** to **bottom or top** only.
+
+> In a **random array** if we change any person any problem? **NO**. There is no proper order.
 
 
 
