@@ -13159,6 +13159,55 @@ Steps:
 
 > In a **random array** if we change any person any problem? **NO**. There is no proper order.
 
+## Dynamic Programming-XIV (47) [21st may 2023]
+
+## Single Source Shortest Path
+
+1) Dijkastra's -> Positive values only
+2) Bellman-Ford -> Both positive and negative values
+3) BFT -> No edge weight.
+
+> Only **Dijkastra's** is **practical**. Just study **Dijkastra's** and whatever taught in **Bellman-Ford**.
+
+* Input -> Graph and single source.
+* Output -> From the **source** to other people, what will be the **shortest** path.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb7ba130-1a57-48b7-940e-5cc92e9689b7)
+
+> **Prim's and single source shortest path**, both algos are **similar**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2017d311-f1b7-4351-8b7e-18a1c960d5e5)
+
+## Dijkastra's
+
+* We want **shortest** path.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3008119-7b12-49f3-a4c8-a16bcf9deda3)
+
+* **A** is the **source**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fcce4798-7560-4040-a7bd-c63fa547770b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d47261b6-1cc4-47e4-8892-8ce5e5f374a2)
+
+* Weight
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef7cc9e5-e037-41f0-95e8-13d503f3af54)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/033f524d-83ce-4671-a4d9-8d53fe4a74b0)
+
+* We are finding **shortest path** and not like in **prim's** algo we are finding the **min cost** from the adjacent edge. No adjacency nothing here. We are finding the **shortest path** from the **starting/source** to that**particular vertex**.
+* E.min -> It is the **min cost** required to go from **starting/source** to **E**. It is **21** here.
+* The Path -> A-B-D-E.
+* E.parent -> Whoever is **before E** in the path, is the **parent** of **E**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/52d0df33-029a-4c03-946d-a5c09e82f270)
+
+* F.min -> 18
+* The Path -> A-B-F.
+* F.parent -> Whoever is **before F** in the path, is the **parent** of **F**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8b2ade3-d436-4b9d-994c-51b2b080c999)
+
+
 
 
 
