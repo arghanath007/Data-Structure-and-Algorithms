@@ -13206,6 +13206,99 @@ Steps:
 * F.parent -> Whoever is **before F** in the path, is the **parent** of **F**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8b2ade3-d436-4b9d-994c-51b2b080c999)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c65ae68c-2cb4-41b7-bd41-d83846390761)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35b34f35-a337-4793-bca3-25d9470fe196)
+
+* Initial value is **F.min = infinite** and **F.parent= NULL(N)**.
+* Source is **A**, so **A.min = 0** and **A.parent=NULL(N)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a29f917e-1351-4023-bfef-efc4b9b77cc3)
+
+* **Vertex.min** meaning
+* **Min-heap** creation took **O(V)** time.
+* We are using **adjacency list**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0743aa2b-b68d-4dd6-b2db-da28b9e83762)
+
+* We **deleted**, the source vertex which is **A** from the **min heap**. It immediately found out the **adjacent vertex** and starting doing **decrease key** operations.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5a2ea66-a938-435c-b8ec-d5b49e805f77)
+
+> The **only difference** between **Prim's and Dijkstra's** is that in case of **Dijkstra's**, **previous cost plus current cost** we have to **add**. In case of **Prim's**, neglect the **previous costs** and just take the **current cost**. 
+
+> Just **one extra addition** in **Dijkastra's** algo.
+
+* We don't have any **partiality**, direct or in-direct. We just want **shortest** path.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4871b37f-c5d2-4c57-8b2f-99d0ccd6c4e9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31737056-dc80-460e-926c-8f46c703886d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3e5ed91-a87b-492c-aa3f-e671a0459601)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/73c9251c-d7f9-4d94-9baa-60d10a6eea1b)
+
+* For **Time complexity** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1f7a071-9b32-4d4e-a70b-0b86971b662e)
+
+* For **shortest path**. If don't know if **connected or disconnected**.
+* If they say **connected** then ignore **V** and time **time complexity** as **O(E * log V)**.
+* If nothing mentioned then write the whole **time complexity** only, which is **O((V + E) * log V)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86f3e18d-760e-4821-afe3-5b91e67aec78)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee475254-68d9-4a46-9e19-b626c8131f7a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d410ee8-ae7b-4b7d-b840-9badc3142671)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/577cfd24-2df5-4d6a-8d18-30c4e6f008f2)
+
+* After doing **decrease key** everytime, we have to **sort** the array in-order to get the **sorted array**.
+* Because of **sorted** array, **left** becomes **easy**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/67f4d331-b254-4c40-a45f-5c519f2e1218)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/42468053-db12-4a94-8013-8b4b0008a36f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e55db7e4-25d6-4025-aee4-e1900babe57c)
+
+> From **A to E**, **min** cost is **21**. The source is **A** and the destination is **E**. From destination, ask **parent-parent** and back-track to the **source**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e37b66a-9369-41c8-90ca-2e1bccdd6152)
+
+* So the **path** will be **A-B-D-E**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a690f657-52e9-4fa7-93aa-4a2b66521d6c)
+
+* Question, will ask to find min **cost** from **one vertex to another**. Apply **Dijkstra's**.
+* Time Complexities
+* Sequence of vertex selected when applying **Dijkstra's** algo in the given graph.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41815b56-beaa-4138-8d27-8f0ea68b103d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6acc0c95-01a4-4c61-8999-af11910cf654)
+
+> In **linked list**, random access is possible, if the **address** of the **node** is given.
+
+> In **array**, random access is possible, if the **index** of the **element** is given.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9b84516-a313-45bf-8e1f-e78e08ad0824)
+
+> **Unsorted** linked list will be **un-sorted** array, in terms of **time complexity**. 
+
+> **Sorted** linked list will be **sorted** array, in terms of **time complexity**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/066dda8a-36eb-44ec-86c7-c6a881234f28)
+
+> It is **same** as using **adjacent matrix and array**, in terms of **time complexity**. 
+
+* **Sorted array** is **equal too** or **equals too**, **sorted linked list**.
+* **Un-sorted array** is **equal too** or **equals too**, **un-sorted linked list**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/299c8649-1be5-439c-a38c-a3a434d8c269)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0a5587b-b26e-40e4-a8eb-a275c97e7653)
+
+* We are using **double linked list** here because after **decrease key** operation we have to go back. In **single linked list**, we cannot go back, after performing **decrease key** operation, and we can go back in  **double linked list**, that's why **double linked list** is being used here.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e85ccda-e816-4e78-8d79-8c81a8207165)
+
+* **Using Adjacency list and array** is **equal or equals too**, **adjacent list** and **not sorted doubly linked list**.
+* **Using Adjacency list and sorted array** is **equal or equals too**, **adjacent list and sorted doubly linked list**.
+
+
+
 
 
 
