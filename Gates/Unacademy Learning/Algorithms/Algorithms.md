@@ -13427,6 +13427,158 @@ Steps:
 
 > That's the **only problem**.
 
+* Graph has positive values only -> **Dijkastra's** and **Bellman-ford** both.
+
+> **Dijkastra's** is beneficial because it was designed for **positive values only** whereas **Bellman-ford** was designed for **negative values**. It can work on both **positive and negative values**. So, **Bellman-ford** will do more work on **positive values** compared to **Dijkastra's**.
+
+> So, **Dijkastra's** is **cheaper** than **Bellman-ford** in **positive values**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f1fad5a3-0f92-43e0-a3ec-b4b8c6c7d251)
+
+### Notations
+
+* Vertex-A-relaxed: At 'A' adjacent vertices perform **decrease key** operations.
+
+* The vertex's relaxation is equal to the vertex's adjacent people, i.e it's **degree** which is **log V**. Sum of degrees is **E** because it is **directed graph**. So it is **E * log V**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ae13de9-c72f-495a-a15f-8cd92091980f)
+
+> In case of **Dijkastra's** every vertex is relaxed **once** only. **A** cannot come again and again.
+
+> When **relaxation** over, **A** will be **deleted**. When **A** has done **decrease key** operations on it's adjacent vertex then **A** is **deleted**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8eff9583-fb7e-4f45-9061-af3fa98fafaa)
+
+* So the **right side**, time complexity of **Dijkastra's** is **O(E * log V)**. **Right side** is **relaxation**.
+* So the **left side**, time complexity of **Dijkastra's** is **O(V * log V)**.  **Left side** is **deleting**.
+* Overall is **O((V + E) * log V)**.
+
+* In **Bellman-ford**, **every edge** will be **relaxed**, **V** times.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/547ef646-418d-4533-aaa4-144ff4414c05)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d0229d5-fffb-4fa0-b5cc-e2749d64b065)
+
+* In case of **Bellman-ford**, there are **V** no. of vertex, for **each vertex**, we will do **V** rounds of relaxation.
+
+> **In case of Dijkastra's every vertex is relaxed once only** means that **how many no. of edges, we have done decrease key?**. Total is **E * log V**. **Decrease key** is **log V** and we have **E** edges. **One time** relaxation of **all over** means **E** edges we have covered.
+
+> In case of **Bellman-ford**, when **round 1** is over, on all edges we have done **decrease key** operations **one time or once**.
+
+* **Dijkastra's** will go by **vertices**.
+* **Bellman-ford** will go by **edges**.
+
+> **Dijkastra's** algo is completed, **how many edges covered?**. We have covered **E** edges. In other words, **every vertex** is **relaxed** once. All edges are covered once.
+
+* Who will go **edge by edge**, **Dijkastra's** or **Bellman-ford**?
+
+> **Bellman-ford** will go **edge by edge**.
+
+> **Dijkastra's** will go **vertex by vertex**.
+
+* **Dijkastra's** saying that **every vertex is relaxed once only**, it means **all edges** are over.
+* **Bellman-ford** will **directly** say that **all edges** are over.
+
+> **Round 1** in **Bellman-ford** means that **all vertex is relaxed once only** means **all edges** we have done.
+
+> **Round 1** in **Bellman-ford** means that **all vertex are relaxed again** means **all edges** we have done.
+
+
+* Steps for **Bellman-ford*:-
+
+1) Go to graph and check **no. of edges**. Give edge nos., just cover all edges.
+
+* Source is **A** vertex.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e0d220ec-c09b-4321-8e3b-c4c396f756ff)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/11c14f87-2873-4f6b-9316-17fd46034653)
+
+* The **Bellman-ford** graph is present in **array**.
+* Why not **min-heap**?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed1027af-41b5-432e-b688-807f16881f04)
+
+
+* In the **round 1**, how many **decrease key** operations we have done?
+
+> We have tried **E** edges. So, **E** **decrease key** operations we have done. In array, **decrease key** operations time is **constant or O(1)**. So the time is **E * 1 -> O(E)**.
+
+* Every round we are covering **E** edges in **Bellman-ford**. We are covering **E** edges, **V** times.
+* Every round we are covering **E** edges in **Dijkastra's**. We are covering **E** edges, **1** time.
+
+> **Round 1** indicates, **1 length** path.
+
+> **Round 2** indicates, **2 length** paths will come.
+
+
+* Why **array** and why not **min-heap**?
+
+> If we want to delete **min** everytime, then we will use **min-heap**. We don't want to **delete** anyone.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c5202b1-1256-4697-a83e-cb701f001614)
+
+> Acutally **V - 1** rounds required. So **3 rounds** are required as we have **V=4**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89e6dce9-4db8-488a-98e8-2bebb95f3b8b)
+
+* So we have **O(V)** rounds in **Bellman-ford**.
+* Every round is **E** time.
+* Overall time complexity of **Bellman-ford** -> **O(V * E)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32b0a457-660d-4c20-9882-da5f5f8bd36c)
+
+> We have to do **V** rounds because of **negative** values.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1548f4f8-990c-446b-9d9b-4332e9a78aaa)
+
+* Time complexity of **Bellman-ford**, where the graph is **complete graph**, so **E = (V ^ 2)** -> O(V * (V ^ 2)) -> **O(V ^ 3)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c87e2de-a9bc-472a-9447-b12d4d4fdd57)
+
+> After completion of one round, all **edges** are over, then write the answer.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/79a9de59-587a-4adf-8b68-6a5af299708e)
+
+> We have **4** vertices, we need **V - 1 -> 4 -1 -> 3** rounds.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae12ed71-8999-4bb8-af8a-00ef37639d0e)
+
+* If we don't mention anything, then **by default** it is **list**. There are **advantages** of **list**. No requirement of showing extra.
+
+* In **Bellman-ford**, we are using **normal array** instead of **min-heap** and in place of **adjacency matrix** we are using **adjacency list**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a300f1d2-8570-4043-9d3f-a0995c3bc275)
+
+* Spanning tree always contain **V - 1** edges.
+* In graph if we apply **Bellman-ford** what will be the time complexity, where the graph is a **tree**?
+
+> Tree means **V - 1** edges. So, **E = (V - 1)**.
+
+> Time complexity -> **O(V * (V - 1)) -> O(V * V) -> O(V ^ 2)**.
+
+* In graph if we apply **Bellman-ford** what will be the time complexity, where the graph is a **complete graph**?
+
+> Complete graph means **V ^ 2** edges. So, **E = (V ^ 2)**.
+
+> Time complexity -> **O(V * (V ^ 2) -> O(V * (V ^ 2)) -> O(V ^ 3)**.
+
+* Start from **1hr 55mins**.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
