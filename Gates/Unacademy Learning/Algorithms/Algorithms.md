@@ -13298,16 +13298,134 @@ Steps:
 * **Using Adjacency list and sorted array** is **equal or equals too**, **adjacent list and sorted doubly linked list**.
 
 
+## Miscellaneous-I (48) [21st May 2023]
+
+> In **directed** graph there is **no sum of degrees**, there is **in or out degree in graph**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ce12bc0-345f-4222-b4f3-a56abe96b318)
+
+* For **Directed** graph.
+* Sum of In-degree = Sum of Out-degree = No. of Edges.
+
+> If we have **10 in-degrees** then we have **10 out-degrees** and we have **10 edges**.
+
+* In-degree Counting
+* A= 3
+* B= 2
+* C= 3
+* D= 2
+* E= 2
+* F= 2
+
+* No. of edges = 14
+
+> Forget about the **directions**. It will become **degree**.
+
+* Sum of degrees = 2 * E.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c7646c6-13d0-48a1-97d0-6be2e860d8c4)
+
+1) Output the sequence of vertices identified by the **Djikstra's** algo when starting from vertex **B**.
+2) What will be the **shortest** path from **B to E**?
+3) What will be the **cost** of the **shortest** path from **B to E**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/29f707d2-6335-4e5a-8a54-5587f067751a)
+
+> **B** is the source, so it was deleted **first** and it starting findout it's adjacency. As it is **directed** so we have to see which **edges** are going from **B** to someother vertex. We can see **A, C and F** as adjacent vertex of **B**. We have done **decrease key operation** on the adjacent vertex of **B**.
+
+* The adjacency finding took -> **3 units** of time [As we have **3** adjacent vertex]
+* The decrease key operation -> **3 * log V** units of time. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/08cf3b39-f76e-43dc-969d-eceb456e9361)
+
+> After **B**, we will get **A**. Adjacent of **A** is **only 'D'**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e7d7da09-ec94-4c5a-9b8c-18bdc4fbd19d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e0e2a8f9-08db-4e24-91ec-f8ffe09d9b79)
+
+> So, **73** indicates **E.min = 73**. This is the **min** cost required to go from **source to E**.
+
+* **Shortest** path of **B-E** -> B-A-D-C-F-E
+
+> Go to **E** first and ask who is the **parent E**. Do it for all of them. That's how we will find the **Shortest** path.
+
+> The **Shortest** path of **B-E** and the **Output the sequence of vertices** by the algo are the **same** but there is **no relation** between them.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d5668970-be23-44e6-b5c4-0db1a408bf81)
+
+* In this **directed** graph problem, we have **many** destinations
+* In the **previous** problem there was **one** destination.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a849e1e-11ac-4a13-9922-59eb39f1983c)
+
+* Shortest path means **we do not care** if it is **one length or two length** paths, we want the **min** cost.
+
+* Any relation between MST and shortest path? [**IMPORTANT**]
+
+> Both the **Prim's and dijkstra's** have created a **similar** kind of algo> There might be some **small** relation, but they are **different** stories.
+
+* MST means **every vertex** is covered. There is **no best or worst**, every **vertex** should be covered and in there **best** are taken.
+* **Shortest** path, maybe one length is **better**, we will take that. If **two** length is **better**, we will take that. We don't have any condition, of taking this or that. **Best one** we will take, whichever is **better**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f2849e4-5c3e-4ce1-8537-9d7cf484d1f5)
+
+* We are using **adjacency list and min-heap** only.
+
+> We have to check **adjacency** everywhere and we are using **adjacency list**, so the **degree** should be **2 * E** but as it is a **directed** graph, so the **degree** is **E** only. We have **E** in-degrees and **E** out-degrees, take either.
+
+> Because of **directed** graph, **double edge** or **2 * E** will not come. It will be just **E**.
+
+> In **un-directed** graph, **double edge** or **2 * E** will come.
+
+* That's the **only difference**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e504c080-decc-4058-889e-5a448cf114b4)
+
+* Time Complexity -> **O((E + V) * log V)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/de71b338-e4d0-4054-bce3-5f216c4395d8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c882ef7-d781-4280-a0f3-8baec6394dfb)
 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63464a7e-c1b3-470f-ad29-5c3bc3e31d00)
 
+* It is a **directed** graph and the source is **A**.
+* If we want to go from **A to B**, **directly** it is **10** units.
+* If we want to go from **A to B**, **indirectly** it is **50 + something** units.
 
+* Purpose -> **Dijkastra's** algo failed for **negative** values.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b2d76f3-7fa7-43b2-8bd6-a115832ee57e)
 
+* **A** is the source vertex.
 
+> **Dijkastra's** will never bother about **negatives**. He will consider it as **normal**. It is the only blunder that  **Dijkastra's** has done. The blunder is that **50 + something**, he will always think that it is **always bigger than 50**. He will never think about the **negatives**. That's why it will end up with **wrong** answer.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/23c3795b-8f79-40de-a4da-78dbe7eaf20f)
 
+> As of now, **Dijkastra's** has seen only **two** values which are **10 and 50**. Direct path is **10** and indirect is **50**. He has taken **10** only because one is only **10** and other is **50 + something**. He thought **50 + something** is more than 50. There is **no chance** of **10** so he will happily take **10**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf3517c1-6263-4164-b241-ff6e5695b299)
+
+* **Dijkastra's**. It is saying if **already done** then don't touch.
+* If graph contains **negative edge weights** then **Dijkastra's** may fail.
+* If graph contains **positive edge weights only** then **Dijkastra's** will always **pass**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/975fae71-0de1-4e4a-bbc6-b76786a9773c)
+
+* Manual and **Dijkastra's** are **different** that why **fail**.
+* Even if we see **one negative value** also then **Dijkastra's** may fail, we have **doubts** on **Dijkastra's**.
+* **Dijkastra's** with **negatives** means **dilemma**.
+
+* Between **Dijkastra's** and **bellman-form**, **bellman-ford** is working **more**, so that **no mistake** will happen for **both**, **positive and negatives** as well.
+
+> **Bellman-ford** is taking **more time** because it is working for **both**, **positive and negatives** as well.
+
+> **Dijkastra's** is saying that he will do with **cheaper** cost.
+
+> **Bellman-ford** is saying that it is meant for **negative** and if is being used for **positive**, so it will take **more time**.
+
+> That's the **only problem**.
 
 
 
