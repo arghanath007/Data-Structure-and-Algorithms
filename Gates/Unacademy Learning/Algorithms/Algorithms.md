@@ -13559,24 +13559,134 @@ Steps:
 
 > Complete graph means **V ^ 2** edges. So, **E = (V ^ 2)**.
 
-> Time complexity -> **O(V * (V ^ 2) -> O(V * (V ^ 2)) -> O(V ^ 3)**.
+> Time complexity for complete graph -> **O(V * (V ^ 2) -> O(V * (V ^ 2)) -> O(V ^ 3)**.
 
-* Start from **1hr 55mins**.
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6bba1a23-7ec9-4d89-957e-2b1d68c80557)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/748a0179-ea33-43c2-9c52-f93371fe478d)
 
+* Directed or not, doesn't matter. It will work for **both**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe90e2c2-9520-4dfe-ae74-0f09bf72d81a)
 
+* Every round, **decreasing by 2**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6f28784-bd37-4fb7-8221-17b368ba2667)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a950339b-64c0-4703-bd07-ee8f68be37c3)
 
+> **A to B** cost is **infinite** means that there is **no path**.
 
+> **A to B** cost is **nwegative infinite** means that there is a **negative edge weight cycle** exists. 
 
+> In the cycle **total sum** is **-2**. It means after **every round**, it will **decrease by 2**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/404aeb2e-2376-4df9-a176-b7ed0aefe83d)
 
+* **Negative edge weight cycle** -> After every round, cost will **decrease**.
 
+> We want **less** and everytime it is giving **less**, so we will repeat it **many time**.
 
+> **D** vertex is not a part of the **negative edge weight cycle** but it is **dependent** on it as **D** vertex is coming after it only.
 
+> **B and C** are a part of the **negative edge weight cycle**.
 
+* What is the difference between **positive edge weight cycle** and **negative edge weight cycle**?
 
+> **Positive edge weight cycles** means **sum** of all **edge weights** in the **cycle** is **positive**.
 
+> Positive means after every round, **cost** will **increase**.
+
+> **Negative edge weight cycle** means **sum** of all **edge weights** in the **cycle** is **negative**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f3993a23-8581-4d11-b36f-406549bc8bb4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb99d315-540e-427f-9607-3956c3830c25)
+
+* Graph containing **negative edge weight cycles**?
+
+> **Dijkastra's** algo will **always fail**.
+
+* Graph containing **negative edge weight**?
+
+> **Dijkastra's** algo may **fail**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2a1f8ff-88ce-497f-b9cd-6b860bd496d9)
+
+* **Positive edge weight cycle** as **60-48 -> 12**. That's why we are not concentrated that much because every round, **cost** will **increase**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d332dc1c-ee56-434d-901d-1ad2640abbff)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/722fa6c1-42a6-4d5f-9261-5e255ae57175)
+
+* For **manual** purpose.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c7f4c6e-852c-44cd-a226-d877fb5203e6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98555fe4-b419-4ad5-a203-b98e06359475)
+
+* We actuall require **V - 1** rounds which is **4 - 1 = 3** rounds here. 4th round is for **verification**.
+* We are using **normal array** that's why **decrease key** operation is taking **O(1)** time.
+* Last **two** round should be **same**, but they are **different** in the **below question**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27cf5f54-1d24-4460-9ea3-63fcccd89a5d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4caa0592-64de-42d8-b1e3-f28ee75c96c9)
+
+* **B, C and D** are **different**.
+* In the **Vth** round, they cannot **change**. If they **change** or whoever **changed** they are part of the **negative edge weight cycle** because they will **change** everytime.
+
+> In the **last round** or **Vth** round, whoever **changed**, they will **change** everytime. **Stop** and say they are part of the **negative edge weight cycle**. So their values are **negative infinites**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/418b8e69-8f3a-4427-925d-ac2d30fc656c)
+
+* **Last round** or **Vth** round is for **verification**. It is for **negative edge weight cycle** verification. **Negative edge weight cycle** exists in the graph or not, this gives some **clarity**.
+
+* **Negative infinites** means **un-defined**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c2e9fcf-6e48-4176-a437-7493ab39bcca)
+
+* **Negative edge weight cycle** is not there as **V-1** and **Vth** rounds have **same** values.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65777143-9079-4bbe-8064-8c029538f3b5)
+
+> If a graph contains **4** vertices then the **max length** possible is **3**. That's why we are using **V - 1** rounds.
+
+* We have a graph and and in that graph, **Negative edge weight cycle** exist or not  we want to know, how much time complexity?
+
+> Apply **bellman-form** for **V** times. **Last round changes** then **Negative edge weight cycle** is there. If **no changes** in the last round, then no **Negative edge weight cycle** is there.
+
+* **NOTES**:-
+
+1) If graph contain, negative edge weight or positive edge weight or both(but no negative edge weight cycle) then **bellman-ford** algo will always give the **correct answer**.
+
+2) While performing **bellman-ford**, in the last round **BCD** vertices answers are **changed** then we can confirm that **BCD** vertices are related to **negative edge weight cycle** and their **answer** is **negative infinite(un-defined)**.
+
+3) **Other vertices** which are **not part** of the **negative edge weight cycle**, it will give **correct answer** which means their **answer** is **defined**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1daff0e0-d60a-48a0-a1e7-cbda307f2463)
+
+* Dis-connected graph.
+
+> Even though **3** negative edge weight cycles, **Bellman-ford** is able to catch **only one** negative edge weight cycle.
+
+* Which one of the **following** is **True** for **Bellman-ford**?
+
+1) **Bellman-ford** will find out all **negative edge weight cycles** present in the given graph.
+2) **Bellman-ford** will find out all **negative edge weight cycles** present in the given graph if they are **recheable** from **source.
+
+> **Statement 2 or (2)** is **correct**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/00959722-5918-43fc-a4b5-c0ac080ca311)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7434b146-80d8-430a-9deb-c1b585df28c8)
+
+* **NOTES**:-
+
+> **Bellman-ford** will find out all **negative edge weight cycles** present in the given graph if they are **recheable(connected)** from **source. **TRUE**.
+
+* All Edge weights are positive -> Dijkastra's and Bellman-ford
+
+> Dijkastra's has **better** time complexity than Bellman-ford. Dijkastra's **max** time is when **E = (V ^ 2)** which gives **(V ^ 2) * log V**. For Bellman-ford **max** time is when **E = (V ^ 2)** which gives **V ^ 3**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d447152e-6f5c-4b66-86b8-1f71e3b039a3)
+
+* Negative Values -> **Bellman-ford**.
+
+## Dynamic Programming
 
 
 
