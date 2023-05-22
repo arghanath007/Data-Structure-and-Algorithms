@@ -13686,7 +13686,33 @@ Steps:
 
 * Negative Values -> **Bellman-ford**.
 
+## Miscellaneous-II (49) [22nd May 2023]
+
 ## Dynamic Programming
+
+* Greedy programming  is **short-cut** among **dynamic and greedy** programming.
+* Dynamic Programming will give **optimal** answer for **every problem**, **YES**.
+* Dynamic Programming is not a **short-cut**. It is more like **intelligent brute force**.
+
+* **Knapsack** problem will be solved by **both** **dynamic and greedy** programming. Greedy programming  is **short-cut**.
+
+> If any **problem** solved by **Greedy**, we don't need to go to **dynamic** programming because **dynamic** programming mostly will take **more time** than **Greedy**, as it is not a **short-cut**.
+
+> **Greedy** said he can't help, then go to **dynamic** programming. He may help but will take **more time**. It is like **intelligent brute force**.
+
+> If a problem can be solved by both greedy and dynamic, we will use **greedy**.
+
+> If some problem or little bit dilemma with **greedy** then simply go to **dynamic** as **dynamic** is possible for all.
+
+
+
+
+
+
+
+
+
+
 
 
 
