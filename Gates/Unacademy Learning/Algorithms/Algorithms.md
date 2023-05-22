@@ -13825,17 +13825,146 @@ Steps:
 
 > **Both** will solve but **every** problem, **one time** only, that is **Intelligent brute force**.
 
-* **Every** problem, **every time** ->  **brute force**.
+* **Every** problem, **every time** ->  **brute force** -> Brute force programming.
 
-* **Every** problem, **one time** only -> **Intelligent brute force**.
+* **Every** problem, **one time** only -> **Intelligent brute force** -> Dynamic Programming.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bebd40eb-299e-48ba-b7ca-1e2613703af3)
 
+* Who will solve **distinct only**? **OR** 
+* who will solve **only distinct**?
 
+> **Dynamic Programming**.
 
+* **Fib(n)** solved by **brute force** will take **O(2 ^ n)** times. 
+* **Fib(n)** solved by **Dynamic Programming** will take **O(n + 1) -> O(n)** times, which is **function calls**. 
+* **Fib(n)** solved by **Dynamic Programming** contains **(n + 1)** function calls that are **distinct function calls**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/04445421-067d-44a5-aee5-26376e666de7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/10945a3a-fe59-48a5-82d4-626e8d97dd03)
 
+* If we solve **everyone** and **everytime**, then it is **normal programming/brute force**.
+* If we solve **everyone** and **only once/distinct**, then it is **dynamic programming**.
 
+> In **dynamic programming**, if anyone comes then we will check if it is **new or old**, if at all **new** then solve, if at all **old** then we will **not solve**. We have to check the **condition**.
 
+> In **brute force**, if anyone comes then simply **solve directly** without asking or checking any conditions. Just solve.
+
+* **Dynamic programming and brute force** both are **recursions**.
+* **Dynamic programming** is **conditional recursion**.
+
+* With or without dynamic programming, which is **more** time?
+
+> **Without dynamic programming** is **more** time but **less** space.
+
+> **With dynamic programming** is **less** time but **more** space. **More** space because as soon as we **compute** we will have to **store**.
+
+> With **Fib(6)** we have **n + 1 -> 6 + 1 -> 7** distinct function calls. They are **Fib(6), Fib(5), Fib(4), Fib(3), Fib(2), Fib(1), Fib(0)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df2a1a33-6fb5-4c45-9e81-62ecc1902afe)
+
+> Whenever we are solving **Fib(6)**, distinct function calls are **7** which are from **6 to 0** or **0 to 6**. Take **one array** with **7** slots.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a813e49-ac4d-4fa0-9caa-f08d2b0920c2)
+
+> How many **distinct elements** will come, take that much table(T, array name).
+
+> First we calculated **Fib(3)** and that data will be stored in **table[3]**.
+
+> First we calculated **Fib(6)** and that data will be stored in **table[6]**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a19630a7-dd48-477b-8de6-3a00d31593c8)
+
+* Initially **table** is initialized with **NULL*** only. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7746a579-dd55-4cd0-8bcb-69d34e20852a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/385c1373-1f0c-4c17-a83c-5c544d1a07c3)
+
+> One more time, **Fib(3)** came. First we will check that if **table[3]** is **NULL** or not. If **NULL** which means **not available**, if **not NULL** then **available**.
+
+> If **NULL** then we **compute/call**, if **not NULL** then **don't compute**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3afe7c6e-93ee-4de3-8f02-e894a285250c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/61c0f0f5-14f4-47da-bcab-4a598ba3b673)
+
+> In **normal/brute force** after **computing**, we are **not storing**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27c89f37-d4eb-49e6-9015-de01e0d4662f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1fde1653-8d32-4cc8-a253-5d3024a5085f)
+
+* **NOTES**:-
+
+1) In the above **recursive tree**, many function calls are **repeating**, also called as **over-lapping sub-problems**.
+
+2) What is the need of **computing** the same function again and again?
+
+3) In **dynamic programming**, we will only computer **distinct function calls** because as soon as we computer **any function**, we will store it's value in the **table(array)**, so that we can **re-use** it afterwards if it is needed.
+
+4) How many **distinct function calls** in **Fib(n)**?
+
+> **Fib(n)** required **n + 1** function calls which are **distinct function calls**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e32287d-6eaf-46aa-80cd-b3d4f6268f0d)
+
+* **One distinct function call** is **constant(c)** time.
+* Time Complexity of **fibonacci series** using **Dynamic Programming** -> **(n + 1) * c -> O(n)**.
+
+> Extra **table size** is **distinct function calls**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cafbeebb-a70c-46cb-9b7f-7ea0951f1c78)
+
+> If we have **(n + 1) distinct function calls** then the **table size** is **(n + 1)** only because for **every function call** we have **one slot**.
+
+> Before going to **call**, we will verify the **table**.
+
+> We want to find **FIB(5)**, we will verify at **table[5]**. If **table[5]** is **NULL**, then **no value** is **available** and hence **compute** and **store**.
+
+> We want to find **FIB(4)**, we will verify at **table[4]**. If **table[4]** is **not NULL**, then **value** is **available** and hence **don't compute**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe6bf01f-bded-4bd5-9429-d53996e4b448)
+
+* 'T' -> It is the **table array** where we are **storing** the **newly computed values**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c6f13da-4600-40df-a31b-33942efca5d2)
+
+* **1 and 3** lines are **extra**.
+* If we **remove** lines **1 and 3** then the **time complexity** is **O(2 ^ n)**.
+* If we **keep** lines **1 and 3** then the **time complexity** is **(n + 1) -> O(n)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e44848ee-6be5-447a-ba83-deabf907f59e)
+
+* **Both**, dynamic and brute force are **recursion**. So, both will take **stack space**.
+* In brute force, **stack space** is **O(n)**. There is **no table(array)**.
+* In dynamic programming, **stack space** is **O(n)** also.
+
+> Because of **recursion**, both will take **stack space** of **O(n)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5dc5d15b-8aa4-4996-8328-a5518a02ee87)
+
+* **Time complexity** of **fibonacci series** using **dynamic programming** -> **(n + 1) -> O(n)**
+* **Space complexity** of **fibonacci series** using **dynamic programming** -> **(n + (n +1)) -> O(n)**
+
+> **n** is the **stack space** as it is a **recursive** program. **(n + 1)** because we are using an **extra table array**. 
+
+* What is the **drawback** of **dynamic programming**?
+
+> Little bit extra space used/taken. As soon as we **computer**, we have to store the **computed** value.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e79954c-00f1-464c-91f7-1aab9fcfe84c)
+
+* How stack size is **n** here also?
+
+> Initially **nothing** is available.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b924fa5-0875-4cf5-98b6-2eec42376d72)
+
+* **dynamic programming** is **slow** at the **starting** because at the **starting**, nothing is **available**.
+
+> In the **dynamic programming** **stack** only **distinct function calls** will only go.
+
+> In the **brute force** stack, **everyone** will go.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c5ad7c78-687f-4578-98a8-40755e740841)
 
 
 
