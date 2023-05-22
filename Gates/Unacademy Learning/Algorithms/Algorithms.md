@@ -13700,9 +13700,134 @@ Steps:
 
 > **Greedy** said he can't help, then go to **dynamic** programming. He may help but will take **more time**. It is like **intelligent brute force**.
 
-> If a problem can be solved by both greedy and dynamic, we will use **greedy**.
+> If a problem can be solved by **both greedy and dynamic**, we will use **greedy**.
 
-> If some problem or little bit dilemma with **greedy** then simply go to **dynamic** as **dynamic** is possible for all.
+> If some problem or little bit dilemma with **greedy** or sometimes, **greedy** is failing,  then simply go to **dynamic** as **dynamic** is **possible for all**.
+
+> Greedy will give sometimes **correct answer** for **some problem(Knapsack, MST, Hauffman, Job sequencing)**.
+
+> Dynamic will give always **correct answer** for **all problems**, maybe **more time**.
+
+> We cannot give **short-cut** for **all problems**.
+
+> Dynamic is possible for **all problems**.
+
+## Applications of Dynamic Programming
+
+1) Fibonacci Series  [**IMPORTANT**]
+2) Longest Common Sub-sequence(LCS)  [**IMPORTANT**]
+3) Matrix Chain Multiplication(MCM)  [**IMPORTANT**]
+4) 0/1 Knapsack(Fractions not allowed)
+5) All pairs shortest path
+6) Sum of subsets problem
+7) Optimal cost BST
+8) Travelling sellsman problem.
+
+## Fibonacci Series
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/67e56140-0887-43d0-978a-8798f736e28b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2d16910c-a4f7-434f-9dab-4285de74886d)
+
+* Recurrence Relation for **fibonacci** time complexity:-
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd26af59-c90a-42f1-9244-09124ae458c8)
+
+> **Recursive** program **stack space** is based on the **no. of levels** in the tree. As, **n** levels tree, so **n** stack space.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76826867-af80-4008-b62f-c764875ca89b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09c8064b-2750-42e2-9360-380c85f38a22)
+
+* **Space Complexity** of a **recursive program** -> Extra space, other than **input**.
+
+> Normally in **recursive programs**, the extra space is **stack**.
+
+> Normally in **non-recursive programs**, the extra space is **constant** and the **stack size is '1'** as no function call nothing.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ecc3d18-756f-469c-a061-2d90eb3e6187)
+
+> Both **recursive and non-recursive programs** take **stack** space but **recursive** programs take **more** than **non-recursive programs**.
+
+* What is the **stack space** of **fibonacci series**?
+
+> It is another way of asking for **space complexity**. It is **n** here.
+
+* Time Complexity  -> **O(2 ^ n)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c30a32e6-d2e5-4c12-ad2a-7612945d5142)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63a74386-6fe4-44f3-8472-a99cd3f6d628)
+
+> **Fib(6)** we want to **calculate**, **Fib(5) and Fib(4)**, these **two** are enough but how we will get **Fib(5) and Fib(4)**? Internally they will call **two more** functions.
+
+> To **calculate** the **Fib(6)**, internally **2 ^ 6** function calls are **required**. Every function call will take **constant** time.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/228fa430-edd8-4168-87a5-3473afb1e81e)
+
+> **a and b** will give **function calls** and **c** will give **one function call** cost. **One function call** cost is **c** after getting **a and b**. **a and b** will be taken care by **2 ^ n** function calls.
+
+* To solve **f(n)** problem, how much time required?
+
+> **c** time required after **a and b** functions are done. **a and b** functions will take **2 ^ n** function calls. So it is **(2 ^ n) * c**
+
+> So, the  **f(n)** problem is taking **(2 ^ n) * c** time. **c** is the **one function** cost. While solving the **problem**, **(2 ^ n)** function calls are needed.
+
+> So, **(2 ^ n)** function calls means **(2 ^ n)** and **one function call** cost is **constant(c)**, so it is **(2 ^ n) * c**.
+
+* Recursive program, time complexity we have to calculate -> Write **Recurrence relation** and solve it.
+
+> It is a **complete binary tree** with **six levels**.
+
+* **Fib(6)** contains **(2 ^ 6) - 1** nodes. It is **upper bound**. **Every node** is a **function call**. So, we have **2 ^ 6** function calls. We know that **function call** cost is **constant(c)**.
+
+* **Fib(6)** -> **(2 ^ 6) * c**.
+* **Fib(n)** -> **(2 ^ n) * c** -> **O(2 ^ n)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed4b4e24-b91d-4903-be50-3c2a64512820)
+
+> **Fib(6)** contains approximately **2 ^ 6** function calls, which means **2 ^ 6** nodes.
+
+* Time complexity of **Fib(n)** -> **O(2 ^ n)**.
+
+> Because we have approximately **2 ^ n** function calls and **every function call** is **constant** only.
+
+> If we want to calculate **Fib(6)**, then **Fib(7)** is not required. We require **Fib(5) and Fib(4)**.
+
+> If we want to calculate **Fib(6)**, then **including** himself, how many people required? **7** people are required.
+
+> If we want to calculate **Fib(6)**, then **including** himself, we require **6 + 1 = 7** function calls are required.
+
+> If we want to calculate **Fib(n)**, then **including** himself, we require **n + 1** function calls are required.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44000354-7abb-414e-a893-713ed2ea888a)
+
+* If we want to calculate **Fib(6)**, then **7** only function calls are **required**.
+* If we want to calculate **Fib(n)**, then **(n + 1)** only function calls are **required**.
+
+* Unfortunately inside the **system**, to calculate **Fib(6)** we require approximately **2 ^ 6** function calls.
+* Unfortunately inside the **system**, to calculate **Fib(n)** we require approximately **2 ^ n** function calls.
+
+* **Acutally** to calculate **Fib(6)**, **7** only function calls are **required**
+* **Acutally** to calculate **Fib(n)**, **(n + 1)** function calls are **required**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/78cb70d0-d816-4cc9-ac5a-983ad89d81fc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d17376d1-f2ef-4958-93c0-60a314022dfc)
+
+> Actually in the **diagram** a lot of **repeatation** is there.
+
+> **Acutally** to calculate **Fib(6)**, **7** only function calls are **required** but because of so many **repeatation** going on inside, function calls are **increased** from **7** to **2 ^ 6 = 64** function calls.
+
+> **Acutally** to calculate **Fib(n)**, **(n + 1)** only function calls are **required** but because of so many **repeatation** going on inside, function calls are **increased** from **(n + 1)** to **2 ^ n** function calls.
+
+> Recursive program inside the computer is suffering from one **disease**, it is called as **repeatation**.
+
+> **Repeatation** is also called as **over-lapping sub-problems**.
+
+* **Intelligent brute force** and **brute force**, who will solve every problems?
+
+> **Both** will solve but **every** problem, **one time** only, that is **Intelligent brute force**.
+
+* **Every** problem, **every time** ->  **brute force**.
+
+* **Every** problem, **one time** only -> **Intelligent brute force**.
 
 
 
