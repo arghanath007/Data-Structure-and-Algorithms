@@ -14643,27 +14643,135 @@ Steps:
 
 ## Insertion Sort [**IMPORTANT**]
 
-* Purpose -> 
+* Purpose -> **Best case**, it is the **hero**.
+ 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dbfbc0b2-8bbb-493a-96b6-786339d3a867)
+
+> In **pass 1**, take the **first two** elements.
+
+* New person is **inserted** at the end.
+
+* Inversion -> Position **increasing** and value **decreasing**.
+
+> Inversion means **not correct** so we will **swap**. As we have done **swapping**, we have to check with the **previous values** also.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89c72146-7608-4ee3-b5b5-709f3efe0483)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc640251-4f38-4102-a2cf-a00902226cb6)
+
+> We we added **100**, we didn't have to do **swapping** as already **100** which is **bigger** and is on the right and **left** side is is smaller.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eca5a29b-e681-4a65-b944-5e55a8a97642)
+
+* **Best case** will happen in **ascending order**.
+
+* **Time complexity** of **insertion sort** for **best case** -> (n - 1) + 0 -> **O(n)**.
+* **(n - 1)** is the **total no. of comparisions**.
+* **0** is the **total no. of swaps**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e57024c-5100-44af-95fb-15df1af445e5)
+
+* If array already **sorted** then come to **insertion sort**.
+* **Sorted** actually means both **ascending or descending** order.
+* By default, **Sorted** meant **ascending order**.
+
+* **Insertion sort** will give **best case** when the **array is in ascending order**.
+
+* What is the greatest thing about **insertion sort**?
+
+> **Ascending order** will give **best case**.
+
+> **Best case** algo purpose, **insertion sort** is the **hero**.
+
+* **Quick, merge, heap** will give **n * log n** time as their **best case**. **Insertion sort** is the **hero** in **sorting** algos as it gives the **O(n)** times in **best case**. 
+
+* Sorting algo **best case**, no specific algo was mentioned. Which one is it?
+
+> Use **Insertion sort**.
+
+* **Insertion sort's** greatness lies in it's **best case** time complexity.
+
+* **Descending order** will give **worst case**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff19a607-53b3-4fec-b54e-e94de4f7e00d)
+
+* **Time complexity** of **insertion sort** for **worst case** -> (n ^ 2) + (n ^ 2) -> **O(n ^ 2)**.
+* **(n ^ 2)** is the **total no. of comparisions**.
+* **(n ^ 2)** is the **total no. of swaps**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8c64ec42-2ec6-45ae-97e6-c88be821d5d6)
+
+* Average Case
+
+> For **worst case**, every pass is **n** time and we have **n** passes. So it is **n * n -> O(n ^ 2)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d984c0de-8ccc-4c35-a831-b23350765e10)
+
+> Half time it is **best case** and half time it is **worst case**. Half time it is in **increasing** order  **decreasing order**.
+
+> Half time it is **best case** and half time it is **worst case**. Half time it is in **decreasing order**.
 
 
+* **Notes**:-
+
+> The **no. of swap** operations in an **inserted** sort is equal too.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b3da84a-1f12-4b62-96f1-a4bd261323fc)
+
+* One comparision and one swap.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6e3653a2-491e-4e2a-8150-876740fb9607)
+
+* Almost sorted.
 
 
+* In a given array, except **1 lakh** people everyone is sorted. How much time?
+
+> **O(n)**.
+
+* **No. of swaps** == **No. of inversions**.
+* If array already sorted or **almost sorted**, then **insertion sort** algo will take **best case** **O(n)** time, but **quick sort** will take **worst case** which is **O(n ^ 2)**.
+
+> Then also **quic sort** is **better** because when the array is **not sorted**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/922351d8-8a5d-42bd-8685-4468b21891ac)
 
 
+* **Insertion sort** will give
+* Sorted means **ascending order**.
 
 
+* **NOTES**:- [**IMPORTANT**]
 
+1) **No. of swaps** == **No. of inversions**.
+2) If array already sorted or **almost sorted**, then **insertion sort** algo will take **best case** **O(n)** time, but **quick sort** will take **worst case** which is **O(n ^ 2)**.
 
+> Then also **quic sort** is **better** because when the array is **not sorted** then it is giving **O(n ^ 2)**.
 
+> **Insertion sort** is giving better time than **quick sort** because it is giving better time on **already sorted or almost sorted** arrays. No one will give **sorted** arrays. It is for **Exam** purposes.
 
+3) Elements are **6**. So, the **no. of inversions** is **5**. So it is **(n - 1)** inversions.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ffb9075e-8a27-4000-ad9a-e44fae17e1c9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/950d0aa5-31e7-44cb-8562-2eaef03bd835)
 
+> If array contain, **max 'n'** inversions which means **array** is already sorted. Except **1 or 2** people, all are **sorted**.
 
+* If array contain atmost **n** inversions then insertion sort will take **O(n)** time to sort because array is almost sorted.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f2be6934-333b-413b-8ef1-4092b26c3b22)
 
+> As for **quick sort** it is **O(n ^ 2)** time.
 
+4) It is **in-place** and **Stable**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f565016-2319-4c81-bb21-1bac9183b4d9)
 
+## NEXT TOPICS
+
+## Counting Sort
+## Radix Sort
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c8685286-df13-4d90-97e6-d397a9965a7b)
 
 
 
@@ -14672,6 +14780,7 @@ Steps:
 * Link -> https://unacademy.com/course/complete-course-on-algorithms-gate/K8EKOMCE
 
 * Counting no. of Inversions(DONE)
+
 * Selection Procedure(DONE)
 
 * Started from -> https://unacademy.com/class/heap-sort-ii/KAUOV2FP (Heap-sort-II)
