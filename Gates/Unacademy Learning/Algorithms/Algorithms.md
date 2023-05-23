@@ -13960,11 +13960,401 @@ Steps:
 
 * **dynamic programming** is **slow** at the **starting** because at the **starting**, nothing is **available**.
 
-> In the **dynamic programming** **stack** only **distinct function calls** will only go.
+> In the **dynamic programming stack**, only **distinct function calls** will only go.
 
 > In the **brute force** stack, **everyone** will go.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c5ad7c78-687f-4578-98a8-40755e740841)
+
+## Miscellaneous-II (50) [23rd May 2023]
+
+* How do we find the time complexity of a normal recursive program?
+
+> Write **recurrence relation** for time and solve it.
+
+* How do we find the time complexity of dynamic programming?
+
+> Don't Write **recurrence relation** for time. It is not possible as it is a **conditional recursion**. Calculate **distinct function calls**.
+
+* Time complexity of **Fibonacci series** for **dynamic programming** -> **O(n)**.
+* Both **brute force and dynamic programming** uses **stack**.
+* Both **stack size** is **n**. As **stack size** is based on **no. of levels**.
+* Dynamic programming uses the **table(array)** whose size is **no. of distinct function calls**.
+* In **normal recursive program**, the **stack** is used **more** because everyone is going into the **stack**.
+* Dynamic programming is slow at the **starting**.
+* Dynamic programming is a **great** idea if **repetition** there.
+* Dynamic programming is a **worst** idea if **no repetition** there.
+* Brute force is sometimes **better** when there is **no repeatations**.
+* Dynamic programming is sometimes **better** when there is **more repetition**.
+* Dynamic programming will take **less time** if **repetitions** are there.
+* If **no repetitions** are there, then **brute force** is **better** as we are wasting **extra space** in **dynamic programming** with the **table(array)**, anyways we have to do all.
+
+## Longest Common Sub-sequence(LCS)
+
+* NP Complete problem.
+
+* **Sub-sequence** of a given sequence is just the given sequence only in which **0 or more** symbols are left out.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/826c5f78-7e8e-4f6b-8a06-b05b5cf9a502)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95fac825-f0bf-4c4b-ba63-eef8a0a95204)
+
+> Don't try and change the order.
+
+> As the sequence(S) is in the **ascending** order, the **sub-sequences** need to be in **ascending** order also.
+
+* **Common sub-sequence** means the **sub-sequence** is **common** to both of the **sequences**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a59f30eb-97b5-4d25-a8cd-22f88af01129)
+
+> **(A B A B) and (B A B A)** are not common subsequences.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c8332223-32dc-4541-a44a-ffec21252937)
+
+> **Four(4) length subsequence** is not possible. So, among the **0,1, 2 and 3** length subsequences that are possible, **longest** is the **3 length subsequence**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/950c33d8-d2b4-4914-adff-6d1b549a97d6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e68e7542-4678-4e0f-a937-fec1f42c1c4c)
+
+* **3 length subsequence** is called as the **Longest Common Sub-sequence(LCS)**. Among all of the **subsequence**, **3** is the **longest one**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0cd9abe3-55a5-441b-b3e1-0e8ea8fb4b40)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac85d515-91f9-41f5-bf6b-d5195ae38133)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a4e856dd-bf90-49a8-928a-ea46c1f82c77)
+
+* The **Longest Common Sub-sequence(LCS)** is **5 length sub-sequence** here.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e0c13d2-14c8-4079-92d4-dc133c847742)
+
+> Multiple **sub-sequences** are possible for **every length**, just give **one sequence** for **every length**.
+
+* 'm' is the length of the **Longest Common Sub-sequence(LCS)** which is **5** here.
+* 'n' is the **no. longest Common Sub-sequence(LCS)** which is **2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e44e6d3-da87-46c7-bee3-e51b74aa9fd9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ee20f1f-aebc-4a63-a447-35a5233c5f21)
+
+* **Longest Common Sub-sequence(LCS)** input -> 2 sequences(x and Y)
+* X's length -> m
+* Y's length -> n
+
+> 'X' contains **m** symbols. 'Y' contains **n** symbols. For both of them, we are trying to find out **Longest Common Sub-sequence(LCS)**.
+
+* Let LCS(m,n) -> The **length** of the **Longest Common Sub-sequence(LCS)** of **2-sequences(X and Y)** where 'X' contains **m** symbols and 'Y' contains **n** symbols.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf11c84e-2116-42b6-9379-01eb594ccfd7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d89c1cf-8539-4a8c-922f-81d4019b62e1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/47271de8-ee2f-43bc-9704-b0bc641fdfd8)
+
+* **LCS= 0** if any **one** of the **sequence's length** is **zero**. 
+* **LCS(5,0) = 0**.
+* **LCS(0,5) = 0**.
+* **LCS(0,0) = 0**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09d2d16a-c0c2-456f-a155-50543836f19c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a9abef8-37f2-423d-b69d-0fe667da05cb)
+
+* **LCS(X,Y) -> LCS(5,4) -> 3.
+
+> So the **Longest Common Sub-sequence(LCS)** is **3**.
+
+* In **short-cut** order matters.
+* If we are taking all anyways then ordering doesn't matter.
+* Order matters in **greedy**. We cannot take all.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a998c7a-9dad-401c-b345-d69dd0927865)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b31b05e-0118-43d0-ab69-77f2fc170953)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/579fd84b-f11b-4452-bed2-cc08886362dc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80c47b2f-37ac-431b-aefc-45bc7ac70243)
+
+> In **LCS(3,2)** it is **not matching**. We should **decrement** both or just one sequence? 
+
+> We don't know if **decrementing** first one is **better** or **decrementing** second one is **better**. So **do both**. Whichever is **better** take.
+
+> We could try **LCS(2,2) or LCS(3,1)**, maybe they will have the **answer**.
+
+* Max(LCS(2,2), LCS(3,1))
+
+* If **match or matching** then we are doing **+ 1 or One(1) plus**.
+* If **no match or not matching** then don't **add** anything.
+
+> If **no match or not matching** and if we **decrement** both then **worst** answer will come which is **zero(0)**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24e19a22-9156-4dad-92e9-efdecd5a1690)
+
+* If **not matching**, then **brute force** came and cover **all possibilities**.
+* More work required in **not matching** case.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9710f997-56e5-4a6b-bf73-b1e52e348e05)
+
+* Max(LCS(2,2), LCS(3,1)) -> Max(1, 1) -> 1
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d66dc39b-94c8-42e2-996d-db0d79f9f831)
+
+* LCS(5,4) = 3, using **dynamic programming**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a48719e2-2ca2-440a-bf9a-fb1bb1437f03)
+
+* If **no matching** and we **decrement** both then we get **LCS= 0** but the **actual answer** is **LCS= 5**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b482a60-59d8-4995-b0c7-8c42d349177f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f29dcb54-beea-43ff-af1b-ddf20b4874fd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8338a59-4d61-4406-b7ee-25053d910334)
+
+> If **no matching** then **decrement** first one and try then **decrement** second one and try. Check, whichever is better, take that.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aadf65d8-21f3-488e-a652-9430b2cbe5d4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b207fd7b-10a4-463b-b17b-36d3074877d5)
+
+* For **small problems** also, same story of **dynamic programming** will happen.
+* If **not matching**, which is the **real problem**. 
+* Brute force is in **not matching** case.
+
+### Algo
+
+* Recursive program.
+
+> When we come to the **else** part means **X and Y** sequences have some **symbols** to compare.
+
+> The **second else** means **no matching** case. Real problem is in **no matching**. We will **decrementing anyone**. We don't know which will give **best**, so we have to do **both** and see which is giving **better** result.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b377f7b-3916-4558-aca4-aa36e0e48972)
+
+> **Termination** case doesn't give **best or worst** case.
+
+> Everything in the **Recursive program** is given by **else** part.
+
+* **First else** will give **best case** because only **one function** call.
+* **Second else** will give **worst case** because **two function** calls. 
+
+> More function calls, more cost.
+
+> Less function calls, less cost.
+
+> Brute force area or Dilemma area is **second else** which is **more cost** as **more function calls**.
+
+* Everytime **matching**, then **best case** will come.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3bba8eee-906d-44e7-938f-49ed46c895c6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eaf6624e-b9ea-4426-9f6c-1cfa087e6786)
+
+* Time complexity of **LCS** for **best case** -> **O(min(m,n))**. [First else will give **best case**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0d9569c-c28f-45ff-ad3d-7a3b55c39a5b)
+
+* Best case
+
+> **Worst case** is **everytime** there is **no matching**, it is a **binary tree** tree as there are **two** function calls everytime.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fddae3b5-0ca5-4d65-8fb7-d7a74b4e8f4b)
+
+* Brute Force
+* What extra we have to do to make it into **dynamic programming**?
+* Before every function call, check.
+* **Conditional calling** is called as **dynamic programming**.
+* **Blindly calling** is **brute force**.
+
+> If **repetitions** are coming then only we will check **conditions** and go for **dynamic programming**.
+
+> If **repetitions** are coming then **dynamic programming** otherwise **no dynamic programming**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b990a30-82f4-4c5d-9c80-c4d6e42d3c10)
+
+* LCS(4,3)
+
+> If we see **repetitions** in the **top** level, then we are sure that there is a lot of **repetitions**.
+
+> We have **4 + 3 -> 7** and we have **7** levels.
+
+* It means **tree height** also matters.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a541388a-e8d9-4700-8696-452913b84536)
+
+* If we want to find **time complexity** then **tree height** also matters.
+* Left height =7.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f7d1b51-fe98-48de-85dd-ee3af002e714)
+
+* Left and right height is **same** which is **m + n -> 4 + 3 -> 7**. 
+* So, **m + n** level tree came.
+
+* Purpose of drawing the tree?
+
+> In dynamic programming, we have to draw the tree. Reasons:- [**IMPORTANT**]
+
+1) Repetitions there or not there, we have to check.
+2) Tree height also we want to know.
+
+> Dynamic programming doesn't go blindly. It will only go if **repetitions** is there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f3d82ca-5c96-4c1a-b4a6-ef567247b895)
+
+* Tree level -> (m + n).
+
+> **Repetitions** is there, so we go to **dynamic programming**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a507bcbe-75a6-443e-9722-9e6ce9a2fa3a)
+
+* T(m,n) -> Time complexity of **LCS(m,n)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ee34f1b-988b-4582-a7eb-07da16ddacd0)
+
+> Because of **Repetitions** only, we are getting some much higher **function calls** and higher time complexity.
+
+> **One function cost** is **constant(c)** only.
+
+> Function calls -> ((2 ^ m) * (2 ^ n)).
+
+* Without **dynamic programming**.
+* Tree level -> (m + n).
+* Time complexity for **brute force** of **LCS** for **worst case** -> **O((2 ^ m) * (2 ^ n))**.
+* Time complexity for **brute force** of **LCS** for **best case** -> **O(min(m,n))**.
+* Stack Space -> No. of levels -> (m + n).
+* Space Complexity -> Stack size -> **O(m + n)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/61d73d0d-e55f-46dc-81a2-0a7c52b94a2d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31279460-397e-4f3a-a8b7-57f9adbb0244)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/703c6aea-06bd-4906-a381-c1bad338ae8e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/555390ed-1864-458f-a48c-933820eff000)
+
+* Without drawing tree, we don't know **repetition** there or not there.
+
+> In the above **recursive** tree many function calls are **repeatating**, so we will go to **dynamic programming** for **distinct function calls**.
+
+* In **LCS(m,n)**,  how many **distinct function calls**?
+
+> (m * n), distinct function calls.
+
+* **LCS(m,n)** -> **LCS(4,3)** -> One work will be done in **m** ways and another work will be done in **n** ways. Both can be done in **((m + 1) * (n + 1)) -> (m * n)** ways.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/345e3f41-2b1e-4c4e-8b89-96ff39550c1a)
+
+* **LCS(4,3)** -> (4 + 1) * (3 + 1)
+* **LCS(m,n)** -> (m * n)
+
+* Time Complexity of **LCS(m,n)** with **dynamic programming** for **worst case** -> **O(m * n)**.
+* Time Complexity of **LCS(m,n)** with **dynamic programming** for **best case** -> **O(min(m,n))**.
+* **Distinct function calls** with **dynamic programming** for **worst case** -> **O(m * n)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f46cd83-3073-471b-af4b-796901e480a8)
+
+* The **storage** is a **table which is a 2D-array**, because we have **two** parameters here which are **m and n**. **'m' is the rows** and **'n'** is the **columns**.
+* **Fib(n)** is a **1-D array** because only **one parameter** whic is **n**.
+
+* table[1][5] stored in **1st row and 5th column**.
+* **One distinct function call** is also **constant(c)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5cae30e8-a452-45b3-a8ac-25f6fc8b8cbf)
+
+> **No. of function calls** matter, the cost of **function calls** is **same** only.
+
+* The **table size(storage)** is based on the **no. of function calls**.
+* **Stack size** is **same** as **brute force** approach which is **O(m + n)** but in **dynamic programming** we have a **table**.
+
+* Stack size -> **O(m + n)**
+* Table size -> **O(m * n)**
+* Space Complexity of **LCS(m,n)** with **dynamic programming** -> **O(m + n) + O(m * n) -> O(m * n)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fda22ceb-4fd8-4284-a72a-63ac29ee808f)
+
+* Space Complexity of **LCS(m,n)** without **dynamic programming** or using **brute force** -> **O(m + n)**.
+
+> In **dynamic programming**, **space increase**  a little bit from **O(m + n)** in **brute force** to **O(m * n)**, but the **time complexity** has **decreased** a lot from **O((2 * m) * (2 * n))** in **brute force**  to **O(m * n)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/45fdc732-1e47-44f8-9743-4906a2938fc6)
+
+* **2D-array** because in **LCS(m,n)** we have **two** parameters which are **m and n**.
+* **One** parameter then **1D-array**.
+* **Three** parameter then **3D-array**.
+
+> To **decrease** the **time complexity** we have to **increase** the **space**, **not necessarily**.
+
+> Normally, to **decrease** the **time complexity** or time, we have to **increase** the **space** a little bit.
+
+> Whenever we are **drawing** the tree we are doing **minus by one(1) or substraction with one(1)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d944417-add3-4680-806f-c1a4c7dae051)
+
+> One side **decrementing 'm'** and another side **decrementing 'n'**, which will lead to **m + n**.
+
+> Left side we are **decrementing 'm'** and **n** is not **decrementing**. Whenever **m =0**, which becomes **m** levels, then from that level onwards, **n** will **decrease/decrement**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bcfa1643-1789-484d-866a-bbcd090fe07c)
+
+* Dynamic programming time complexity means we will write **distinct function calls** because it is a **conditional recursion**. We cannot write **recurrence relation**.
+
+> Dynamic programming uses the **table** and the **table size** is based on **no. of distinct function calls** which is **(m * n).
+
+* **Table size**  -> (m * n)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4cd54be4-8621-4b1a-8072-a1b673a7270a)
+
+* Normal, **distinct** people will be there on the **left** side but sometimes they are on the **right** side also.
+* In **Fibonacci**, the **distinct** people were on the **left** side.
+* In the **LCS**, the **distinct** people are on the **right** side also.
+
+> We don't care if the **distinct** people are on the **left or right** side, if **distinct** people are there then we use **dynamic programming**.
+
+> Both **brute and dynamic** both use **stack**, the **stack size** is also **same**. In the **brute force**, everyone came but in **dynamic programming**, **only distinct** people came or **repeated** people don't come.
+
+> In **dynamic programming's** stack only **new people** come, **repeated** people don't come. 
+
+> Normally **new people** will be on the **left side**, sometimes, **right** also. Sometimes **everywhere**.
+
+* This is called as **NP Complete problem**.
+
+> Not only **left and right side** new, but the **middle** also **new** people also there. Everyone is **new**. So, we cannot go to **dynamic programming**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a402ca66-a888-4be6-942f-a2709d32b52a)
+
+* In the **tree** if all **elements** are **distinct** we will apply **dynamic programming**?
+
+> **NO**.
+
+> Example -> **Travelling Salesman Problem**
+
+> Everywhere **distinct**.
+
+* **Travelling Salesman Problem** time complexity without **dynamic programming** -> **O(n ^ n)**
+* **Travelling Salesman Problem** time complexity with **dynamic programming** -> **O(n ^ n)**
+
+> It means all are **distinct**. It is one of the **NP complete problem**.
+
+* **Dynamic programming** algo is **recursion**, so **stack** required and we require **one table**.
+* Normal recursions, **stack** only required.
+
+* If we solve **LCS** problem using **dynamic programming**, then how many **distinct function calls**?
+
+> **O(m * n)**.
+
+* Extra **table size** we have taken?
+
+> **O(m * n)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa35c82e-8ff1-4dde-8413-f8301809b689)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a21a4903-3745-4b80-bf5d-a35c8ce6fecf)
+
+> In **dynamic programming**, as soon as we **compute** the value, we will store it in the **table**. So that we don't need to **re-compute** again and again. We can use it again and again.
+
+* Because of the **conditions** in **dynamic programming**, it is saving a lot of **time**.
+* For **every recursive program** a non-recursive program is possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c7657f8-da54-4789-87c4-39ce66c52cb8)
+
+* In normal recursive program stack, everyone will go.
+* In dynamic programming's stack, whoever is **new** from the **left, right, middle**, they can go to the **stack**.
+* **Stack size** is **same** for **both**.
+
+> Greatest advantage of **dynamic programming** is that there is **no short-cuts**. Everytime **same** model. Problem to problem, **minor** changes. Everything almost **same**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec7da175-ab73-4cbb-b80b-c28e833eb491)
+
+* Un-necessarily don't call.
+
+* Name of the **program** with **condition** -> LCS with Dynamic Programming or DP_LCS.
+
+## 0/1 Knapsack problem
+
+
 
 
 
