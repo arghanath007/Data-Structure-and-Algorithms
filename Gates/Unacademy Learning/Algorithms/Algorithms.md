@@ -14368,9 +14368,303 @@ Steps:
 
 
 
-## Sorting Algorithms
+## Sorting Algorithms (51) [23rd May 2023]
 
 * Link -> https://unacademy.com/class/sorting-algorithms/V5GBW26Y
+
+## Bubble Sort
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12cf656b-db19-48ba-9fd7-6b0b2bd59820)
+
+> First pass of **bubble sort** is over, **larger element** goes to the **last place**.
+
+> Comparing **left and right** side, **right** side is expected to have **larger element**
+
+* Left -> **Smaller element**
+* Right -> **Larger element**
+
+> Comparing **left and right** side, **right** side is **more**, then **don't swap**.
+
+> Comparing **left and right** side, **right** side is **less**, then **swap**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3cc1ec31-066f-48eb-b6a3-74586955b36f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d6611c5-3ac6-430a-889e-94ca60017e79)
+
+> **'i' loop** started from **1**. It did **n - 1** comparisions, **n** is **7** here, so we did **n - 1 -> 7 - 1 -> 6** comparisions.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a8bdebf-e04b-42e3-92d7-8320ad98e32e)
+
+* Worst case of **swap** -> **n - 1**
+* Best case of **swap** -> **0**.
+
+> There is **no best or worst** case in **comparisions**, we have to compare because without comparing all how we will say which is **bigger**.
+
+* First pass of **bubble sort** is over, **larger element** goes to the **last place**.
+
+> Remaining people will sort.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef0d44ba-1053-4ad4-a2bd-f9dca3c7755e)
+
+> In **2nd round** we have **n =6**, so **no. of comparisions = n -1**, 
+
+* Worst case of **swap** -> **n - 1**
+* Best case of **swap** -> **0**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f1163b7-e3fc-4106-bd70-1663329ec511)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1c05176-0203-4ddc-a58a-78fa2ead538d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ca4231c-af8f-4caa-8cb9-79f043ec5fc4)
+
+* No. of loops in **bubble sort**?
+
+> **Two** loops.
+
+> **i** loop is giving **pass no.**.
+
+> First pass, no. of comparisions -> **n - 1 -> 7 - 1**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/74044715-3cb8-400f-a153-65361ce90acc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4340cbed-6836-41c8-a503-5906de7072e2)
+
+* **Total Comparision** for bubble sort -> O(n ^ 2)
+
+> Bubble sort has **(n - 1)** passes.
+
+* Total swaps for bubble sort, **best case** -> **0** 
+* Total swaps for bubble sort, **worst case** -> **O(n ^ 2)** 
+
+* **Time Complexity** of **bubble sort** for **every case** -> comparisions + swaps -> **O(n ^ 2)** + **O(0) OR O(n ^ 2)** -> **O(n ^ 2)** 
+
+> Because of **comparisions**, it is **O(n ^ 2)** for **every case**. **Comparisions** also **O(n ^ 2)** for **every case**, unlike swaps.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b11ae2c6-6918-4802-a8c5-24aba7a8e208)
+
+> All of the **swaps** happening in **bubble sort** is within the **same** array only. So it is **in-place**.
+
+> If **left** element is **more** than **right** element then only **swap**. If **equal** only, no need to swap.
+
+> If **10** is on the **left** and another **10** on the **right** then no need to swap.
+
+* Bubble sort is **stable and in-place**.
+* Stable -> We don't swap **same** elements.
+
+**Space Complexity** of **bubble sort** for -> **Stack space** -> **O(1)**.
+
+> Bubble sort has no **recursion**. There is **no stack**, only **one** function call, so **constant** space complexity.
+
+> **Non-recursion** program is not **everytime** with space complexity of **constant or O(1)**. It is **dependent** on the problem.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c35504d4-7221-4142-b685-9853482feef5)
+
+> Mostly **recursion** will take **more stack space**.
+
+> Mostly **non-recursion** will take **less stack space**.
+
+> Sometimes, **both** will be **equal**.
+
+* We want **first max** in the given array?
+
+> Apply **bubble sort**, **pass/round 1**.
+
+* Time complexity of **1 pass** is **n** and **'n' passes** is **n ^ 2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5cd313f7-24d4-4a29-a7df-d14aec498fc7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f5ce5e0-8a39-4b17-bf26-1ee404563d73)
+
+* Time complexity of **bubble sort** is **O(n ^ 2)** for **every case**, it is because of **comparisions** as **comparisions** are always **O(n ^ 2)**.
+
+* If we give **ascending order** array to **bubble sort**, what is the Time complexity?
+
+> It is still **O(n ^ 2)**.
+
+* If we give **descending order** array to **bubble sort**, what is the Time complexity?
+
+> It is still **O(n ^ 2)**.
+
+* Bubble sort doesn't care what **order** we have given the elements.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c4622bd-44b4-4873-875f-2489a2d955f9)
+
+* In the **first pass** only **worst case** for **swaps** happened we got **n - 1 = 5 - 1 = 4** swaps.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/874b7918-c40e-4bb0-8ba0-504fbe0592c1)
+
+* Comparisions will always be **n - 1** for **every pass**, we cannot **increase or decrease** them. 
+* In the **second pass** only we got **best case** for **swaps** happened we got **0** swaps.
+
+* Pass wise, we want to know how many swaps?
+
+> Before **second pass**, swaps were **0** and after **second pass**, swaps are **0**. That's the **reason** why **0** swaps came in  **second pass**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4e1a017-f4bd-49ca-aa92-5d385726ffe9)
+
+* In **bubble sort**, how we will calculate **Swaps**?
+
+> Before **starting** of every pass, keep a variable named **swap** set to **zero(0)**, which is **swap=0 or s=0**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/430d4f53-cf05-400a-8392-eade3390ed08)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/17ff6417-201f-4df4-bd64-e737ac395dab)
+
+> After doing the **swapping** just **increment** the count of the **swap** variable.
+
+* Before **starting** of every pass, **s = 0**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f139e360-e24c-498e-b8de-35937d3bd6c4)
+
+* if (s == 0)
+*  *Stop bubble sort*
+
+> It is because if **s=0** which means there was **zero(0)** swaps in that **pass**. So, **no swaps or zero swaps** in **any pass**, means that the **array** given to the **bubble sort** is already **sorted**. So, **stop the algorithm**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2e3e03cc-23d7-45fd-a99a-c2daa70350bd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bcded0ff-c453-4d87-93e8-3e40794014f4)
+
+* **Zero swaps** happened which means the **array** is already **sorted**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c424e63b-53f4-4d90-84cf-a0fb708edd0a)
+
+> In the **standard bubble sort** algo, the lines/codes with **yellow color** are **not there**.
+
+* Bubble sort time complexity for **best case** -> **O(n)**. [Using some minor changes, for GATE and competitive programming only]
+
+> It is a **special case**.
+
+> It is **O(n)**, because we have to do **atleast one pass** to find out that swaps is **zero** or **swaps = 0**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f091c173-44e0-4ff1-a62a-4b0bbfbb2036)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e89f4d7-80f3-4c18-b7be-fef74eae204c)
+
+* **NOTE**:-
+
+> While performing bubble sort, in any pass **no. of swaps* is **zero(0)** then stop the algo as the array is already sorted.
+
+* With the **above condition**
+* Bubble sort **best case** time complexity -> **O(n)**.
+* Bubble sort **worst and average case** time complexity -> **O(n ^ 2)*
+
+> For **GATE and competitive** exam.
+
+## Selection Sort
+
+* What is the **pass 1** goal of **selection sort**?
+
+> **First Min** element should come to **first** place.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98451519-4e41-451c-b8da-2bfb2cb89525)
+
+> Let's assume **first element** is **min**. First do a **full scan** and find out the **first min**. Swap them uing **Swap(a[i], a[min])**.
+
+* Swap(a[i], a[min])
+
+> So now the **First Min** element is at the **first place**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5d31c87-b6d9-46a8-9baf-9906ca17a7b9)
+
+* We did **6** comparisions and **one swap** only. The swap was done at the end only.
+
+> In **bubble sort**, we were **un-necessarily** swapping.
+
+> **Selection sort** learned form **bubble sort**. It said let's find the **First Min** element first and then finally do a **swapping** at the end.
+
+> **Bubble sort** is not meant for **performance**, it is meant for **starting** purpose. Don't make any condition inside **bubble sort**.
+
+* **Selection sort** is meant for very **less swaps**. For **one swap** only.
+* Selection sort is meant for **swaps** only. It's goal is to **minimize** swaps.
+
+> No algo having these kind of behaviour.
+
+* If we want **less swaps** in **worst case**?
+
+> Then go to **Selection sort**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f3b855bc-be48-4188-afff-44fc35965b14)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df9b458b-1e2e-4c12-9432-ae561cd6b307)
+
+* Easiest sorting algo?
+
+> Bubble sort.
+
+> **Second pass** means **i=2** and it is informing to **j** that **i** wants **second place second min** element.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ad8ddd60-e658-4fb6-bce6-d7d0d5f15350)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a0d383b-7095-45d6-971e-565afc14779a)
+
+> **Comparisions** are like **bubble sort**, they are **same**, they do not change but there is **only one** swap at the end.
+
+* Selection sort is meant for **swaps** only. It's goal is to **minimize** swaps.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/04c2111b-8dcb-44a0-b175-ae615dda3c96)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/77b1bcef-7939-490e-b5eb-36ec7a2b5a04)
+
+> At the **last place**, only **one** element is left which is the **larger** element. It is going to the **last place**, so **no problem**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8edc141-a510-4bde-9964-778056072d7d)
+
+> Totally is **7** elements and **6** passes are over, so **6** elements are at the **correct place**. One element is help out which is the **larger** element and it is at the **last place**, so **no problem**.
+
+* **n - 1 = 7 - 1 =6** passes are enough.
+* **Bubble sort** is meant for **max** element.
+* **Selection sort** is meant for **min** element.
+* **Bubble sort** doesn't care about **stack**.
+* **Selection sort** cares about **stack*. His goals is **swaps** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/586716ea-54a0-4e61-908a-dc1d6b6689e6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eca7e76f-fe84-4591-8358-c9b82930c379)
+
+* Selection sort, **3rd pass** is over, what is the **output**?
+
+> After **3rd pass** is over, the question really wants to know, if we know **selection sort** or not.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a110ddf-47cb-47c8-b541-8e97338de90d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/feca52e5-b242-4349-adf8-a16d1aafd684)
+
+* Selection sort takes **n - 1** passes.
+* Selection sort, total no. of comparisions for **every case** -> **O(n ^ 2)**.
+* Selection sort, total no. of swaps for **every case** -> **O(n)**.
+* **Time complexity** of Selection sort for **every case** -> comparisions + swaps -> O(n ^ 2) + (n - 1) -> **O(n ^ 2)**.
+* **Space complexity** of Selection sort for **every case** -> **O(1)**
+
+> **O(1)** since only **two** for loops used and no extra space taken.
+
+* What is the **greatness** of **selection sort** algo?
+
+> In **worst case**, it has **less swaps**. Not for **best case**. For every case it is **n - 1**, it is not good for **best case**.
+
+* Less swap operations in **worst case**?
+
+> **Selection sort**.
+
+> No algo is better than **Selection sort** in **swap** operations for **worst case**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1eb9d536-2305-4fd5-8690-b07edd8e612b)
+
+> It is **in-place** because all **comparisions and swapping** are done on the given array only. 
+
+> It is **not stable**.
+
+## Insertion Sort [**IMPORTANT**]
+
+* Purpose -> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ## Waiting for newer videos
