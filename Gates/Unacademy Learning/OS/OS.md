@@ -1293,6 +1293,8 @@ access/execute the **privilaged or protected** operations but it can't. The othe
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6983ea6c-be2e-4a95-98af-0a76ab0ad544)
 
+* Examples where the **trick** doesn't work.
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/539a2698-d9c5-4c4e-b69a-d39ba5f3d63d)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5540ab9e-00c6-468b-a3eb-ef991313cef2)
 
@@ -1323,15 +1325,30 @@ access/execute the **privilaged or protected** operations but it can't. The othe
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d7c2beb-5832-442f-a250-de3436465b74)
 
-* P3's waiting time = 9-4 = 5
-* P4's waiting time = 9-6 = 3
-* P5's waiting time = 9-8 = 1
+* This is for when **time or t=9**.
 
-* Response ratio(P3) = (5 + 4)/4 = 9/4 = 2.25
-* Response ratio(P4) = (3 + 6)/6 = 9/6 = 1.6
+* P3's **waiting time(w)** = 9-4 = 5
+* P4's **waiting time(w)** = 9-6 = 3
+* P5's **waiting time(w)** = 9-8 = 1
+
+* s -> Burst time.
+* **Response Ration formula** = (w + s)/s.
+
+* Response ratio(P3) = (5 + 4)/4 = 9/4 = 2.25 (Highest)
+* Response ratio(P4) = (3 + 5)/5 = 8/5 = 1.6
 * Response ratio(P5) = (1 + 2)/2 = 3/2 = 1.5
 
 > So, **P3** process has the **highest** burst time.
+
+* This is for when **time or t=13**.
+
+* P4's **waiting time(w)** = 13-6 = 7
+* P5's **waiting time(w)** = 13-8 = 5
+
+* Response ratio(P4) = (7 + 5)/5 = 12/5 = 2.4
+* Response ratio(P5) = (5 + 2)/2 = 7/2 = 3.5 (Highest)
+
+> So, **P5** process has the **highest** burst time.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db7f7f6d-6291-4b9a-8f75-ee78a0509085)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9bce17e9-7b2d-454c-b964-6f647cc1904e)
