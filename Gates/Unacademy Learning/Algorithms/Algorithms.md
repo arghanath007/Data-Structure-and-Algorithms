@@ -4184,7 +4184,7 @@ A) Infinite loop -> **NO**. Space is **limited**. Not possible.
 4) Merge sort (DONE)
 5) Quick sort (DONE)
 6) Selection procedure(Not selection sort) (DONE)
-7) Maximum contigious sub-array sum  [Find it in the new hybrid course]
+7) Maximum contigious sub-array sum  [Find it in the new hybrid course] [To me done in Special Class]
 8) Finding no. of inversions (DONE)
 9) Strassen's matrix multiplication (DONE)
 
@@ -10046,6 +10046,8 @@ Steps:
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05416822-5bad-4e26-b237-1ac1f055ac01)
 
+![image](https://user-images.githubusercontent.com/54589605/236865111-4f0dd4d4-153f-4129-92b6-0982aa62fe9b.png)
+
 ## Strassen's matrix multiplication
 
 * No questions have come yet from this.
@@ -10234,23 +10236,5121 @@ Steps:
 
 * Link -> https://unacademy.com/class/bubble-sort/P3ZX3ZNU
 
+## Heap Sort
+
+* Every year, **one question** comes from **Heap sort**.
+* Heap sort is not **application** of divide and conquor algo.
+
+### Binary Tree
+
+* **Max** of **two** children.
+* **Empty binary tree** with **zero** nodes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2476309-1789-4dde-bdc8-c172e2e1ede5)
+
+### Almost Complete Binary Tree(ACBT)
+
+* Binary Tree means **no conditions**, max of **two** children. We can go any no. of levels, no objection at all.
+* In **almost complete binary tree**, not only **binary tree** but the condition is that if **above levels** are **free** then use them.
+
+> Condition of **almost complete binary tree** is that if **current level** is **free** then don't go to the **next level**, don't unnecessarily **increase** levels. 
+
+> Without **completing** left, don't go to the **right**.
+
+* Rules of **almost complete binary tree**:-
+
+1) Without **completing** left child at **every node**, don't go to the **right**.
+2) Without completing **current/present level** fully, don't go to the **next level**.
+
+> Any **binary tree** that satisfies the above **two** conditions is called as **almost complete binary tree**. 
+
+### Complete Binary Tree(CBT)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d18a407-43f1-4ac7-8448-42e144be54fd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e6c812fa-ddc8-47f1-9557-66922bcba580)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ae85a73-f62b-4c1c-a821-4f227d969b76)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8452e560-8a5a-44d7-b8ac-78304bf6873a)
+
+> **CBT or Complete Binary Tree** is a special condition of **ACBT** where there is **no gap** in the tree. 
+
+* In **ACBT** gaps can be there, in the **last level** but at the **right-left** side only.
+* In **ACBT**, a **few gaps** are allowed, in the **last level** but at the **right-left** side only. If there are **no gaps** then it is **CBT or Complete Binary Tree**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ebc49d70-de5b-4efc-a76e-0b4855796c8f)
+
+> Every **CBT** is **ACBT**, but not every **ACBT** is **CBT**.
+
+* **4-level** CBT contains -> (2^4) - 1.
+* **K-level** CBT contains -> (2^K) - 1.
+* **N-level** CBT contains -> (2^N) - 1.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ddc0d5cc-f104-4515-bfbc-cba93154be0d)
+
+* It is the **CBT**, max and min are the **same** only. So, for **N-level** CBT contains **(2^N) - 1** nodes which is **min as well as max**. Every time it is **same** for **every case**.
+* There is **no gap** in **CBT**, so **same** will come. 
+* In **ACBT** there are **gaps** so, **max and min** will come.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7fa3c7a9-16c3-49d1-9aaa-ab3f9df9b183)
+
+* There are **4** levels. We cannot leave the last level which is the **4th** level empty then how is the tree **4** levels, that why we putting **one node** as the last level to make it into a **ACBT**.
+
+> So to find the **ACBT min** for **4** levels, what are we are doing is we are finding **max of ACBT** for **3** levels which is **2 ^ 3 - 1** and we have **one node** at the **4th level**. So, it is **2 ^ 3 - 1 + 1 -> 2 ^ 3**.
+
+* **ACBT min** for **4 levels** -> **2 ^ 3**.
+* **ACBT max** for **4 levels** -> **2 ^ 4 -1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9565c795-97c0-4940-bcad-5620fcb78060)
+
+> **Max and min** conditions are coming from **ACBT**, as **ACBT** has gaps.
+
+* In **K** level, how many nodes are there in an **ACBT**?
+
+> **2 ^(k-1) - 1 + 1 -> 2^(k-1)**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24010305-0722-4eec-84c6-780b7c94b23d)
+
+> It doesn't matter from where we start, at the end of the day, **how many levels**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0576873f-22de-4413-9e73-3f4e9def6144)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ed691c2-e4da-4998-a5ab-a1aa7f5c3e47)
+
+* If asked that **n** nodes **CBT** contains how many levels?
+
+> **K = log(n + 1) base 2**. Where **K** is the **no. of levels**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee7ecb61-3e98-4213-b38e-c9925453e135)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44d52e6b-fc9e-4c50-9894-ad42af91bc52)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/043ec2b7-35f0-4945-922d-85e30835eac7)
+
+> We have **4** levels, so the **total no. of nodes** is **(2 ^ 4) - 1 -> 15**. If we do **15/2 -> 7.5**, which gives **7.5**. Take the **ceil(7.5) -> 8**. So, **8** is the **no. of leaf nodes** in the **4 level** tree.
+
+* Leaf node is **zero child or children**. In **CBT**, leaf node is **last level** only.
+> In a **CBT**, there are **n** nodes, so there are **n/2 or half** leaf nodes and **n/2 or half** are **non-leaf** nodes. If **fractions** came then take the **bigger** one, which is **ceil()** or ceil value, as the **leaf nodes**.
+
+> We have **4** levels, so the **total no. of nodes** is **(2 ^ 4) - 1 -> 15**. If we do **15/2 -> 7.5**, which gives **7.5**. Take the **floor(7.5) -> 7**. So, **7** is the **no. of non-leaf nodes** in the **4 level** tree.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff1739c9-8bdc-4fd3-8b82-45f0747828ed)
+
+* Every formula is for **CBT** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f240c824-7afc-4479-981c-fc46438c92fb)
+
+* CBT contains **n-nodes**.
+* No. of **leaf nodes** -> Ceil(n/2)
+* No. of **non-leaf nodes** -> floor(n/2)
+
+> The **above** formula are meant for **CBT** only but they work for **both**, **ACBT and CBT**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ad1dcf5-ff05-43c1-8300-c8119ba172e6)
+
+* **Heap sort** is **ACBT**.
+
+### Binary Tree representations
+
+1) Array representation
+2) Linked List representation
+
+* Computer cannot see a **tree**, **tree** representation is for humans.
+* So computer, uses the **above** representations. It is for any **tree**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e7eb24d4-0c38-4336-90b5-86f335a9ea4c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92c66919-9f0b-4ed4-8f69-8f78eda25b3d)
+
+* In **linked list** if **both** the **address or pointers** are **null** then it is a **leaf node**.
+
+> The **original diagram** has **7** nodes, and everyone is a **character**, so **each** is **1 byte**. So, in total for **7** node, it has **7 * 1 byte -> 7 bytes**.
+
+> In **array representation** for **7** node, the total size is **7 bytes** only.
+
+> In **linked list representation**, there are **3 parts** in every **node** of the linked list. So, **each node** has **3 parts** which means **1 bytes * 3 -> 3 bytes**. So, for the total of **7** node it is **7 * 3 bytes -> 21 bytes**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f2847c0-07f1-4894-a9b9-fd6cf26758cb) 
+
+> There are **two** binary tree representation but **depending on the situation**, **one** is better than the **other**.
+
+> The **greater** advantage of **array representation** is that **random access** is possible but in **linked list representation**, **random access** is not possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fad3819c-1315-4a7b-bd07-a7406c031632)
+
+* In Array representation, **n** is a node.
+* Find **Parent** -> floor(n/2)
+* Find **Left child**, next generation -> 2 * n.
+* Find **Right child**, next generation -> 2 * n + 1.
+
+> When the **calculation** is **crossing boundary** it is **leaf node**.
+
+* Linked List representation does not have **formulas**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df3b2ea0-df9f-42da-bb3a-ad33124865b7)
+
+* In Array representation, **nth** place is a node.
+* Find **Parent** -> floor(n/2)
+* Find **Left child**, next generation -> 2 * n.
+* Find **Right child**, next generation -> 2 * n + 1.
+
+> This will work for **any binary tree representation**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e33ff6a7-76ec-4f97-aec7-0f4611faaabb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/adf7ec3f-96aa-45d7-a59d-3e8b52eb451f)
+
+> In there as we can see that **B** node, doesn't have any **child** nodes. So we have to **leave gaps** in the **array representation** for the **children** of **B**. That why we have given **two gaps** after **C** as **B** doesn't have **any children**. After that put the **children ** of **node C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f18e2fa-d9f0-4873-b967-b1383ce9b803)
+
+> Check the **answer** with the **formula** to see if the **answer** is  **right or wrong**.
+
+* Binary Tree having **5 nodes** but in the **array representation** of the **binary tree**, we have **7** nodes/indexes. So, if we are **unlucky** then **more slotes** we have to take in **array representation**.
+
+> Array represenation is not **always** better, it is **dependent** on the **situation**.
+
+* In **Array represenation** we have to keep **gaps** for the **missing children** but in **linked list represenation**, we are simply putting **NULL(N)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31f47338-6b6a-497e-96b5-3e227627b6fa)
+
+> Tree has **5** nodes, so it should take **5** slots. In **Array represenation**, it took **7** slots as **two** gapes were there. In **linked list represenation**, we are doing **5** nodes only but each node is **3 bytes**. So it is **15 bytes** which is still **smaller** than the **7 bytes** which was taken by **Array represenation**.
+
+* For the **above** formula to work, **array index** starting from **1** only. 
+* Array index starting with **0** it will work with some other formula.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc7874a6-394a-48c2-b518-0fbec49efe1e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/099f9cb5-cb94-4717-a793-473b0ba149d7)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9e11c8d-1bc4-4dde-b4d5-03674394ec22)
+
+> In the **array representation**, for the **4** nodes, it took **15** slots. For the **linked list represenation**, it took **4** slots only but **each slot** is **3 bytes** which means in total **4 * 3 -> 12 bytes**. Here, **linked list represenation** is **better** than **array representation** for the **given above problem*.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e92e6c10-9e21-48e7-aa61-f3e3467bdd9e)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3742cfd-953c-45d4-a88f-8c01af40b52d)
+
+> We will finish the **array representation** as soon as we get the **last element** into the **array**. As we got **D** in the array, we finished the **array representation**, no need of that **gap** after **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/faa57e97-7e17-4ee0-9f5a-42bdb336b8be)
+
+* Array representation is **better** for **CBT and ACBT**.
+* Linked list representation is **better** for other than **CBT and ACBT**.
+* Binary tree means **Linked list representation**.
+* By default if those two, **CBT and ACBT* are **not mentioned** then go for **linked list representation**.
+* Heap sort means **CBT and ACBT**. So, **heap sort** is representation inside the **computer** by the **array representation**.
+
+## Heap Tree
+
+1) Min Heap
+2) Max Heap
+
+* Heap's final goal is **sorting** only which is **heap sort**.
+* CBT is also ACBT, so it is better to write **ACBT**.
+* In **min-heap**, **root/parent** is **minimum** when comparing **children**. **Equal** also **no problem**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/42a0f83b-5901-4d01-be64-257fa423c2f5)
+
+* Min Heap
+
+1) ACBT
+2) In ACBT, **root** is **minimum or equal** also when comparing **children** at every node. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bcca6137-be0d-4471-9310-4d59b725a9dc)
+
+> We don't care in **min-heap tree**, left or right child is **bigger**. Comparing **root**, how **children** look like. Comparing **child and parent**, parent is **minimum**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8378c1e0-fbd4-49ac-bb91-20fdd1ccd462)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e5651d2-cc70-47b3-8e95-8baeb376e893)
+
+
+## Max Heap
+
+* **Root** is **more or equal too** when comparing with **children**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aeede4a6-8a0d-4014-ad32-49bbaf9b59f3)
+
+* ACBT and CBT contains **n** nodes, then the **no. of levels** is **K = log(n + 1) base 2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c004348f-a527-4eb4-903c-e9dcb22103a3)
+
+* Max Heap
+
+1) ACBT
+2) At every node, **root** is **max or equal too** compared with it's **children**. Then it is known as **Max-Heap**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2bdd8e19-33b1-41c8-8e56-2f47a810c723)
+ 
+> In **both** the trees, all of the elements are the **same**, then it is **both, min as well as max** heap.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f100743-2daa-458a-957b-ba815a081472)
+
+* In a given tree, all of the elements are **same** then the tree will be **both, min as well as max** heap also. The tree will give **both ascending as well as descending** order. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/780ca3db-d5dd-4c92-aced-9259b60b1014)
+
+
+* In **min-heap**, it is guranteed that the **root** contains the **min. element**.
+* In **max-heap**, it is guranteed that the **root** contains the **max. element**.
+
+* If a **min-heap** is given and we are asked to find **min element**?
+
+> It will take **constant or O(1)** time as the **root** contains the **min. element**.
+
+* ACBT is stored in the computer using **array representation**.
+* So, **min and max** heaps are also stored in the computer using **array representation** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/192a9382-2edc-4301-aa12-50508c8c1620)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6eac86f7-1b24-4101-baa2-3181750f5cab)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5579a052-aad6-4dd2-b46c-65cb67b1d337)
+
+
+## Greedy-Techniques (37) [15th May 2023]
+
+## Min-Heap
+
+* Min-Heap tree with **n** people, how many levels?
+
+> **O(log n)**. **Every case** is **log n** levels as it is a **balanced tree**.
+
+* Binary tree with **n** people, how many levels?
+
+> Max is **n** levels, min is **log n** levels.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f1ca054f-3a99-48c3-ba23-9e849d7c6106)
+
+* Min-Heap tree **min element** as the **first level**.
+* Min-Heap tree **max element** as the **leaf node**.
+
+* Min-Heap tree containing **n** elements, finding **min element** is **O(1)**.
+* Min-Heap tree containing **n** elements, finding **max element** is **O(n)**. We don't need to scan the entire tree, we can just scan the **leaf nodes** and we know leaf nodes is **n/2**. We can do **one scan** and found out.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2e46d0aa-2bd8-43da-988c-8e7e7b0eddfa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4bf0dbca-7d7e-448e-b206-9338ca2f55a2)
+
+> Half is **leaf** and half is **non-leaf**. Find **middle element** and from **mid + 1**, we can find the **leaf nodes**. 
+
+* In the **min heap** tree there are **1024** elements in total. We need to find the **max element**. How many comparisions.
+
+> n/2 -> 1024/2 -> 512. So  **512** leaf and **512** non-leaf elements. So **no. of comparisions** to find **max element**, **n - 1 -> 512 - 1 -> 511**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/054c8c8a-a22f-456f-8842-b4a38822fc6d)
+
+* Min-heap tree, finding **min elememnt**, how much time? How many comparisions?
+
+> O(1) or constant. **No comparisions** as **root** is the **min element** only.
+
+* Min-heap tree, finding **max elememnt**, how much time? How many comparisions?
+
+> O(n) times . **(n/2) - 1** comparisions as **n/2** elements is the **leaf nodes**.
+
+* Formula to find **leaf nodes**?
+
+> **(n/2) + 1** still **n** are the **leaf nodes**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fafc37cb-b6bf-40b8-aded-ce371f15de18)
+
+* n/2 -> 21/2 -> 10.5 -> Ceil(10.5)
+* n/2 -> 20/2 -> 10 -> 10 + 1 -> 11
+
+> If **fraction** comes as the **mid** element then do **Ceil()**. If **whole numbers** come then do **plus 1(+1)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c14782e4-2576-4ca6-91ab-31d227c4234f)
+
+* Normal array max is **anywhere** we have to do **one scan**. It takes **n** times.
+* Normal array min is **anywhere** we have to do **one scan**. It takes **n** times.
+* Min and Max heap tree are **arrays**, but every array is not **min or max** heap.
+* In **Min heap** array representation, min element is the **first element**, no scan needed. It takes **constant time**.
+* In **Min heap** array representation, max element is the **leaf nodes**. It takes **n** times.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/20708968-bbfa-4412-a852-f592ea27665e)
+
+* Min-heap advantage is **min** element.
+* In **Max heap** array representation, max element is the **first element**, no scan needed. It takes **constant time**.
+* In **Max heap** array representation, min element is the **leaf nodes**. It takes **n** times.
+* Max-heap advantage is **max** element.
+
+* In a min-heap, it has **n** elements, how much time to find the **max** element?
+
+> O(n). One scan.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ee2ac4e-cc95-4dec-836b-3ae415e59f41)
+
+* Min-heap **first min** -> O(1)
+* Min-heap **2nd min** -> O(1)
+* Min-heap **3rd min** -> O(1)
+* Min-heap **100th min** -> O(1)
+* Min-heap is meant for **min** elements.
+* It is good for **constant** minimum. If we use **functions** then problem will come.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5edab875-a523-4445-a253-5b786c51fa6a)
+
+> Random access possible in **array** so we went to the last place and inserted the element. It will take **O(1)** time and after insertion is over, ask the **parent** if everything is OK. We check **min-heap** property where the **parent** is **smaller** than child.
+
+> So, **80 > 5**, and we **swap**. **5** will ask parent, if everything is OK. So, **50 > 5**, **swap**. **5** will ask parent, if everything is OK. So, **30 > 5**, **swap**. **5** will ask parent, if everything is OK. So, **10 > 5**, **swap**.
+
+> It is **min-heap**, so the **smaller** elements will go to the **top**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cea588f9-4868-456d-9b9b-e9e090a36d9f)
+
+> When the **min** element is going up, then it is following one **specific path**. The **path length** is **log n**, as we are going on **one specific path** only.
+
+* It is **log n** comparisions and **log n** swaps. So, **log n + log n -> 2 * log n -> O(log n)**.
+
+> We have **log n** levels. So, we are **first comparing** the **parent with the child** and then **swapping** the parent with the child. We are doing **both** comparisions and swaps all of the time.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d9dc3b72-a1c9-4c2d-996d-1dc8ce63e037)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b1e0f463-3a2d-4d96-9934-46e39f8c1e53)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6fbefe2e-86c1-4d13-aca9-16510ba85762)
+
+* The process is called as **heapify** method.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3357a4f-d4d1-4a6f-874b-8571bc5715b0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b1bb07a7-4fbd-4988-a32b-04a040dd27b2)
+
+* Time complexity of **min heapify** procedure -> **log n + log n -> 2 * log n -> O(log n)**
+* We are **inserting** the **new element** at the **bottom level** because we have **gap** at the **bottom** level only.
+
+* Insertion Algo **best case** for min-heap -> O(1).
+* Insertion Algo **worst case** for min-heap -> O(log n).
+* Insertion Algo **average case** for min-heap -> O(log n).
+
+> When we inserted the element at the bottom and the element asked the parent if the element is OK. We are checking if the parent is smaller than the child. If parent is smaller than child, then we **stop**, which is the **best case**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7bbd2a94-3d0e-46a1-a90f-f3b9b381fa81)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2dc7ee3b-4c0d-4d4d-9ded-c14175837943)
+
+* NO. **Maximum level**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0943644c-3df1-4d53-b1a5-2442a45006e8)
+
+* Min heap tree to **insert** one element, how much time?
+
+> **log n** for **worst and average** case. **O(1)** for **best case**.
+
+* For **n** people to create **min-heap**, how much time?
+
+> **O(n * log n)**. [Inserting one element at a time]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b15cfa6-ef0b-4021-8540-e183f6dae3c4)
+
+* For **n** people to create **min-heap**, how much time [All elements are present in the array at a time]?
+
+> **O(n)**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/15bae352-7df5-4ea4-a1c4-6213e2cd9148)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e46840e-95ee-4b48-8230-a1d2b769ce1f)
+
+> **Insertion** is at the last place because **gap** is at the last only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3caca8a1-dbe7-4990-9033-6517082c5137)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5fb50f4-e67f-43ee-a776-d234217ebbf6)
+
+* YES. Only if the **new element** is bigger than it's parent. So no **swapping** neded which is the **best case**.
+
+### Deletion
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/683917d5-d41b-46a2-87e4-7bbbb5f117e4)
+
+* Elements will **decrease** in **deletion**.
+* n = 20 [array size]
+* m = 20 [Last element position]
+
+* Who will change among **n and m** in **deletion**?
+
+> **m** will **change**. **n** is size of the array, it is **fixed**, we cannot **change** it.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1700760-8a92-4fb0-b34c-765e5c8e1e5c)
+
+> In stack, if we say **pop**, the **last element(LIFO)** is deleted. In queue, if we say **delete**, the **first element(FIFO)** is deleted.
+
+> In case of stack, **last element(LIFO)** is deleted. In case of queue, **first element(FIFO)** is deleted. 
+
+> In case of min-heap, if we say **delete**, then **root** element is deleted, because **root** is the **min** element.
+
+* If we are asked to get the **min element** out from a **min-heap** tree?
+
+> Perform **Deletion** once. Root will be **deleted**.
+
+* If mentioned in the question, **delete** some specific element, then delete that element only. If nothing mentioned then delete the **root** element.
+
+> When deleting **first element(root)**, store it in some variable, **x= a[1]**. Deleting the **first element(root)** is nothing but **replacing** it with the **last element**. It is not **ACBT**. It not **min-heap** now. So, we have to do **adjustments**, the **new element** in the **rott** should ask the **childrens**.
+
+> Parent is compared with **two** children, **best one** is swapped with the **parent**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a2bd8cd-edb3-4920-b746-85a78243561c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dee7b68a-ec6d-4e7c-bca4-e8f737d7dbd8)
+
+> The root element is **deleted** and it is **replaced** with the **last element**. Now we are **comparing** the **parent** with it's children. Whoever is **smaller** is swapped with the **parent**. This goes on, until we get **min-heap** again.
+
+> Adjustment going on from **top to bottom**. **Parent** is **asking** children. Everytime we are coming down, we are doing **two comparisions** and **one swap**. We have **log n** levels. The **path length** is **log n**.
+
+> So, we are doing **2 comparisiona and 1 swap** at **each level** and we have **log n** levels.
+
+* Time complexity -> **2 * log n + log n -> 3 * log n -> O(log n)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/499d1670-c577-40e1-aae6-e2b52ad25814)
+
+* Time complexity of deletion for **worst case** -> **O(log n)**.
+* Time complexity of deletion for **average case** -> **O(log n)**.
+* Time complexity of deletion for **best case** -> **O(1)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/166471be-d4b5-48e7-a708-b2ff3f404db7)
+
+> **Insertion and deletion** time is **same**. In **insertion** we are going from **bottom to top** and in **deletion**, we are going from **top to bottom**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d08d720d-6c17-4bc2-8fe9-30ace9abedeb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f45ba749-fc7f-45a7-a7fe-006ead79c4ac)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f781df5b-2e0b-4119-8801-f0d75ef746ee)
+
+* **Root** element is **deleted** by default. First **store** then **delete** because we want the **min element**.
+
+* In **min heap** tree, how much time for **deleting**?
+
+> **log n** time is **average worst case**. **O(1)** for **best case**.
+
+* In **min heap** tree, how much time for **finding**?
+
+> **O(1)** for **every case**. Finding means **just return** over.
+
+* Finding and deleting is **different**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b29c90e-a852-45a0-a454-16a9cb5b577f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b2fe448-8943-4033-8f8b-c00531ddcc1d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89c77b3a-afbf-440f-88be-0a8638e0e048)
+
+> **Deletion** is **root** element deleting. First store the element to be deleted. Deletion is nothing but **ignoring**. So, the **first element** which is **10** is being **replaced** by the **last element(m)** which is **160**. Now, we have **two** instances of **160**, so we do **m=m-1**, so **remove/ignore** the **last instance** of **160**.
+
+> So the **gap** is at the **last place**, now the **no. of elemenets** is from **20** to **19**. So, **160** is at the **root**. Now **parent** is **comparing** with **children** to see if **children** are **smaller** than **parent** or not.
+
+> If **smaller** then the **parent and child** are **swapped**. We do the same thing in the next level also. We do this until we find that the **parent** is **smaller** than the **childen** then we stop, which is the **condition** of **min-heap**.
+
+* **Insertion and deletion**, **Both** are **adjusting**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/efb27cf1-d40d-403a-ac49-aa16fa775c88)
+
+* Min heapify procedure from **top** -> **Deletion**
+* Min heapify procedure from **bottom** -> **Insertion**
+
+* Deletion is over, **one gap** came at the **last** and **one minimum** also came.
+* **Min-heap** tree **first time** deleted, **one min** element came.
+
+## Greedy Techniques-IX (38) [15th May 2023]
+
+* No. of levels is **log n base 2** for **every case** as it is a balanced tree.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b57f3761-d78a-4728-b02c-ee4ed5459418)
+
+* Because of **deletion**, elements are **decreasing**.
+
+* n = 9(Array size)
+* m = 9(Last element size)
+
+> **m** will only **change**, it will keep on **increasing or decreasing**. Array size which is **n** is **fixed** only, it cannot be **changed**.
+
+> By default, **first elemenent** is **deleted**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8864c5bf-3fb2-46f0-a8e0-a3822090c800)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/68139825-e012-4c9c-b471-84e61959e8c6)
+
+* Deletion **best** case -> O(1)
+* Deletion **worst and average** case -> O(log n).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/072159e7-9d3f-49ba-9263-ae85f06d60b6)
+
+ * After **deletion**, the last element comes to the **top** and now **min heapify** procedure happens to make the **min-heap**. The **parent** is asking the **children** if it is the **correct** place for the parent or not. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/51a88182-c867-4c78-a25a-78eb39a71aff)
+
+* Every deletion worst case -> O(log n)
+* Time complexity of **Heap sort** -> O(n * log n).  [There are **n** elements, so **deletion** happening **n** times]
+
+* Deletion -> Parent ask children.
+* Insertion -> Children ask parent.
+* Heap sort is **in-place**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/42dfe5ed-b2ee-4724-afe9-66e4160ebbde)
+
+* We are **deleting** because we want the **min element**and it is for **sorting** purpose.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4a4fe29-7387-416a-b237-9d5c2648b62c)
+
+
+> We can **delete** anywhere not only **root** element only but can't give gurantee that it is **min or max** from the tree. 
+
+> In **min-heap** we can only talk about **root** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d68630c-7f32-4eb8-9af3-54e39fba195b)
+
+* Simply delete. It is always **O(1)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22deddd5-a284-4e73-abaa-50c1e19a17df)
+
+* In **min-heap** tree, how much time to **find** the **max** element?
+
+> **Max** element is with the **leaf nodes** and we have **n/2** leaf nodes. It will take **n/2 - 1** comparisions. So it will be **O(n)** times.
+
+> It is **finding**.
+
+* In **min-heap** tree, how much time to **delete** the **max** element?
+
+> For **finding** it took **n** times. After **finding**, delete the element and replace it with the **last** element. Now adjust so that it is **min-heap**. The adjusting will take **log n** time. 
+
+> For **deleting** it is **n + log n -> O(n)** only
+
+* For both **deleting and finding**, it is **O(n)** only.
+
+* **Min-heap** is for **min** element only. **Min-heap** for **max** is of **no use**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7624d9b-0487-4411-af43-031a83661cc9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d41a72d-72ff-4b9e-a163-a00748ab8f83)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc9fcc67-440a-4055-875a-68cc6d33023b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72f1b9cc-a20c-4b3e-a69a-18b31ef41086)
+
+> We have **random access** in **array** so go to the middle which is **n/2** which will take **constant or O(1)**, then **replace** the element with the **last** element and then adjust accordingly. The **adjustment** will take **log n**.
+
+* Time complexity for **deleting** middle element, **worst case** -> O(1) + O(log n) -> **O(log n)**.
+* Time complexity for **deleting** middle element, **best case** -> O(1)
+
+* **Deleting/finding 'n/3'** mininum in **min-heap** -> Sum of **n/3** natural numbers -> O(n^2) [One way]
+* **Deleting/finding 'n/3'** mininum in **min-heap** -> Delete **n/3** times -> O((n/3) * log n) -> **O(n * log n)**. [Better way]
+
+> Every **deletion** is **log n** and we are deleting **n/3** times so it is **O(n * logn)**.
+
+> **O(n * logn)** is way better than **O(n^2)**.
+
+* Min-heap and maximum, any relation?
+
+> **NO**. **One scan** required like in **array**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d984737b-60aa-4a19-b514-7c11c9c88050)
+
+* Min heap, **first max** finding, how much time?
+
+> **O(n)**.
+
+* Min heap, **second max** finding, how much time?
+
+> **O(2 * n) -> O(n)**.
+
+* Min heap, **third max** finding, how much time?
+
+> **O(3 * n) -> O(n)**.
+
+> **Normal array** story. **One scan** required.
+
+* We have **normal array** and not **min-heap** array, first minimum finding -> One Scan -> O(n)
+* We have **normal array** and not **min-heap** array, second minimum finding -> One Scan -> O(n)
+* We have **normal array** and not **min-heap** array, third minimum finding -> One Scan -> O(n)
+
+* We have **min-heap** array, first minimum finding -> O(1)
+* We have **min-heap** array, second minimum finding -> O(1)
+* We have **min-heap** array, third minimum finding -> O(1)
+
+* We have **min-heap** array, first minimum deleting -> O(log n)
+* We have **min-heap** array, second minimum deleting -> O(log n)
+* We have **min-heap** array, third minimum deleting -> O(log n)
+
+* We have **normal array**, first max finding -> One Scan -> O(n)
+* We have **normal array**, second max finding -> One Scan -> O(n)
+* We have **normal array**, third max finding -> One Scan -> O(n)
+
+* We have **normal array**, finding **n/2** minumum -> Delete **n/2** times -> **O(n * log n)**.
+
+## Build heap method
+
+* Constructing a **heap** tree. By default, if nothing mentioned then go for **max heap**.
+* Creating min-heap with **O(n)** times for **every case**. One condition is there that **all elements** should be **present** at a time.
+* For **one after another** element comes, we cannot apply **build heap** we have to use **insertion** one by one.
+
+* If we have **n** elements and we want to create **min-heap**, how much time?
+
+> **O(n)** and **O(n * log n)** both are **possible** but **O(n)** is **better** in terms of **time complexity**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f910ec75-4e0d-4473-aaa5-fc278c80f675)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1284210a-ba1d-490c-a186-8186aed1561b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7139131d-fb45-40c9-8ace-25a44d595978)
+
+* Build Heap Algo
+
+* Build-minHeap();
+* for(i=n; i >=1; i--)
+*  parent-minheapify(i);
+
+* **Build Heap** steps:-
+
+1) First build/create **ACBT**. It took **no time**. We just draw the tree for **convenience**.
+2) Now run the **algo** for **build-heap**.
+
+> In the **loop** we are starting from the **nth** or **last element** of the tree, and we are asking if the element has **any children or not**? If no children, then we can go to the **next element**.
+
+* Leaf nodes, don't have any work. 
+* We have to start from **basement** because we have to build the **foundation** first.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c8d4696-c538-4cd5-a691-a170d31b245b)
+
+> The **real algo** will start from **n/2**.
+
+* i =floor(n/2) -> It indicates the first **non-leaf** node from the **bottom**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ce0a374-5f11-4e3b-8d58-ff6d3b20330f)
+
+* Build heap will start from **bottom** because we are building and building starts from **basement**. We should do **parent-minheapify**. Leaf nodes have **no children**, so **real work** will start from **floor(n/2)** which is the **first non-leaf** element from the **bottom**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c8da1424-a366-4fa8-b224-e6e1ed5cd483)
+
+* **Min-heapify** means we will go from **bottom to top**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/677dca0e-e855-4f91-a3a9-24017559b971)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/96bdd59e-0bfe-489d-a896-878ce92aaae9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/87d72b98-2372-441a-a6c6-be6279ad182d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3f46e28-5eba-4326-a6d8-706fc231a86b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7559a01-a5e9-4565-b395-8edce5780b25)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5583fd14-d00f-490f-9d5a-4e10a223b491)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69f515bc-eabe-45d4-896b-8f4615c53df5)
+
+* From the bottom, find the **first non-leaf** element and start from there. Now ask the elements, **parent_min_heap()**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b570f39a-9c20-4bc9-a323-03f769f1f71e)
+
+* Time complexity -> **O(n)**.
+
+> Half of the people, **no work** and the remianing is **n/2** elements. Everywhere we are applying **min_heapify** procedure which will take **log n**. So, it should be **(n/2) * log n -> O(n * logn)**. Because we are doing **at a time**, some work will be **decreased** and it became **n** only.
+
+> If the **total nodes** is **n**, then the **no. of leaf nodes** is **floor(n/2)** which we have taken as **m**. So, **m = floor(n/2)**.
+
+* (m/2^(log m base 2)) -> (m/m ^ 1) -> m/m = 1.
+
+> So, at the **first level** we have **1** element.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f40c884a-5c80-49c2-bcbf-3e383a3fbb98)
+
+> At the **last level**, the **no. of swaps** is **zero(0)**, as the real work starts from **non-leaf** elements.
+
+* If **swaps** are **1** then the **no. of comparisions** is **two**, it is **double**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f2a41499-84fa-4956-a4a6-1e80f214fe57)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ff8cdf8-a50a-4f67-9749-0b34df0aa6f2)
+
+* Total swaps = n/2 = m
+* Total comparisions = 2 * n/2 = n
+* Time Complexity = n + n/2 = (3 * n)/2 -> **O(n)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a40f91f7-1b00-4b5b-840a-3774256d8b09)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f19fd71b-b089-4bb4-9622-0b2476692ff1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e431b540-c581-4c40-a5f5-d90aa583d87e)
+
+* Last level, how many nodes?
+
+> **n/2** or **m** nodes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8082a1df-4fac-4b14-9216-340883c5aea0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cfa1743c-cae1-47cb-9f4b-50475ccd5472)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c84e9f8a-1e62-4652-98f3-1b2c820bb8b6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6fa3aa97-f62c-404a-9d68-b5b05725e7c0)
+
+* The **proof** is not needed in **GATE exam**.
+
+* Build heap, time complexity, for **every case** -> **O(n)**  [Only one for loop required]
+
+> The reason is because of **decreasing GP series**.
+
+* Heap sort input -> **One** array.
+* Heap sort output -> **One** sorted array.
+
+
+## Heap Sort Algo
+
+1) Create **max-heap** using **build heap**. It will take **O(n)** because of **one** for loop.
+2) Delete every element and store it from **right-most** place. Repeat **n** times. Deletion takes **log n** for **wost case**, so it is **n * log n -> O(n * log n)**.
+
+* Time complexity of **Heap sort** for **every case** -> **n + (n * log n) -> O(n * log n)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ecfed973-2316-479a-8091-f1227eb87149)
+
+3) We are **storing** in the **same array**, so it is **in-place**.
+4) Not stable
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50529122-d0eb-46a9-b322-b5f24e178984)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/46b7e096-548d-4b75-a16a-af3bc7ef5fa9)
+
+* Deleting **one** element **best case** -> O(1)
+* Deleting **one** element **worst case** -> O(log n)
+
+* Heap sort algo is for **distinct elements**. If **elements** are **same** then it is a **special** case.
+
+* Time complexity of **heap sort** if all elements are **same** ?
+
+> **n * 1 -> O(n)**, it is a **special case**. Build heap is **n** and every deletion is **O(1)**.
+
+* Time complexity of **heap sort** for **best case**?
+
+> **O(n * log n)** for **every case**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2efbef4c-36ab-408b-b075-0dffce4b0a8a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef89b7af-9355-4a4a-bb5d-82c1c22ebc17)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d18ceaf5-c332-49ca-8ebe-45baed45f7cb)
+
+
+## Greedy Techniques-X (39) [15th May 2023]
+
+## Greedy Technique
+
+* Also called as **short-cut** technique.
+* Notes -> Most of the problems in **greedy** contain **n** inputs and the **objective** is finding a **subset** which will satisfy the conditions and maximizes the **goal**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/39e2a1f5-0e67-440e-9e66-6520859e2add)
+
+* Input -> **n** inputs
+* Output -> The **objective** is finding a **subset** which will satisfy the conditions and maximizes the **goal**
+
+* In **sorting**, we cannot go for **greedy** technique.
+* In **searching**, we cannot go for **greedy** technique.
+
+
+* Out of **300** people, taking **5** people in a **group** in how many ways?
+
+> No. of Groups possible = **300c5**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/caafeaf1-d2ca-433d-ab23-24ce4ba246df)
+
+* Every group contains **5** people. Between **two** groups **atleast one difference** should be there.
+
+* **All possible solutions**, out of **300** only selecting **5**, how many possibilities? **300c5**, those many possibilities -> **Solution space**.
+* **Those solutions, satisfying the condition**, Out of the **300c5** groups, how many groups are satisfying the condition?  -> **Feasable solutions**.
+* **Best One**, Out of the **feasable solutions**, which one is **optimizing** the **goal**? **Maximum Average**  -> **Optimal Solution**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/baf32b84-af7e-4f55-88de-24eefc025e77)
+
+* **Solution space** -> Set of all possible solutions, over the given **n** no. of inputs, is known as **solution space**. It is **300c5**
+* **Feasable solutions** -> Those solutions which will **satisfy the conditions**, are known as **feasable solutions**. It is **50c5**.
+* **Optimal Solution** -> It is **one** of the **feasable solutions**, which will **optimize/maximize the goal**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/873ae092-5f86-498a-92bd-4001d6196ee7)
+
+* **Optimal Solution** need not be **unique**. More than **one** possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/993ca3fb-f26c-4327-a7ec-95adbbe19b10)
+
+## Application of Greedy Technique
+
+1) Knapsack problem
+2) Job Sequencing with deadlines
+3) Huffman coding
+4) Optimal merge pattern
+5) minimum cost spanning tree((MST) [**IMPORTANT**]
+ A) Prims
+ B) Kruskal
+6) Single Souce Shortest Path(SSSP) -> **One To Many** path.
+ A) Dijkstra's -> **Positive edge weight only**.
+ B) Bellman-ford -> **Positive and negative edge weights**.
+ C) Breath first search/traversal -> **No Edge Weight**. 
+
+
+* Single Souce Shortest Path(SSSP) 's input -> **One Graph and single source**.
+* Output -> From **source to every other person** we have to find **shortest** path.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea86c24f-cc53-4315-ae64-ed451a9d5231)
+
+* Out of the **three** algos in **Single Souce Shortest Path(SSSP)**, only **Dijkstra's** is **practical**.
+
+## Knapsack Problem
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22c0f753-c898-447b-9c6d-c81a66701faa)
+
+* Knapsack -> Bag
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d36aaa1-24de-4a6a-8c6e-25e344465625)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c6f15e6d-e0fe-4c1a-a631-75aed6814a0b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/895a3d62-3e11-44a1-ba68-a27bf40cea7d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/67166877-9d3e-46f9-9f2b-4354ed1e661f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b4e452b2-5dc3-47dd-8d12-a936219a652c)
+
+* Sum of all the weights = 25kgs.
+* The **max capacity** of the **thief's bag** -> 20Kgs.
+* **Fractions** are also **allowed**.
+* Knapsack is also called as **fractional knapsack** as **fractions** are **allowed**.
+* Taking object **half** means **multiplying weight with 1/2** and also **multiplying value with 1/2** also.
+* Taking object **full** means **multiplying weight with 1** and also **multiplying value with 1** also.
+* Not Taking object means **multiplying weight with zero(0)** and also **multiplying value with zero(0)** also.
+* **Greedy** means **we cannot take all**, we have to take a **subset**.
+
+* Conditions of **Knapsack problem**:
+
+1) Take whatever object we can but do not cross the **limit/capacity** of the **bag/knapsack**. This is called as **peaceful** solution.
+2) Out of all the **peaceful** solution we have, the solution which gives the **max profit**, that is the **optimal solution**.
+
+> For the **knapsack** some **damange** happened because we **kept more**, then that solution is not a **peaceful** solution.
+
+> When we can say the solution is **peaceful** when there is **no damage** to the **knapsack** and we taking between **0 to 1**, including **0 and 1**. 
+
+> Out of all the **peaceful** solution we have, the **best solution**, which gives the **max profit**, that is the **optimal solution**
+
+> For **1 unit**, **object 2** is giving the **best profit**, so take **object 2** as much as possible. So, we will **first** take **object 2**. As **object 2** is the **best one**, we are taking it **fully**, so we have put **1** in **x2**. 
+
+> After taking **5** units of **object 2**, we have remaining storage of **20-5 -> 15** units of space in the **knapsack**. Now, **object 3** is giving the **2nd best profit**. So we will take **object 3** fully as it has **8 units** but we can still take **15 units**.
+
+> After adding more **8** units of **object 3**  we have remaining storage of **15-8 -> 7** units of space in the **knapsack**. Now, we are left with **object 1**. It has **12** units but we only have **7** units. So, we cannot take **fully**. So we will take **7/12** units only of **object 1**. Now the **knapsack** is **full**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f9f01056-998a-4689-8f69-453a88231741)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8d85fb4-086f-4297-8b3c-a38c1641277d)
+
+> While giving **answer** we have considered both **profit as well as weight** here.
+
+* Knapsack will give **best answer** when we have given **priority** to both **profit as well as weight** here.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0324cefe-b6b4-414f-869a-034b4509e687)
+
+> We have taken the **objects** using **some calculations** and not **blindly**.
+
+> We have given **importance** to the **best** person because for **1 unit** weight it is giving **max profit**.
+
+> So finally **625** is the **max profit**, we will get.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6f5b235-e04a-4d78-8eb4-e438b4cbc9b7)
+
+* Steps for **knapsack** problem:-
+
+1) For every object, find out their **1 unit** weight and their **profit**.
+2) Whoever is **best** after calculations, take that **one** then **2nd best** and on and on until **capacity** is **zero(0)**.
+3) Whatever **fraction** we have **take**, that **fraction** of **profit** we will get. Add of the **them** and we will get the **max profit**.
+
+
+* What is the **Optimal soution**? It means in **which fractions** we have to take the **objects**?
+
+> **7/12, 1, 1**. The **max profit** is **625** as it came from **optimal solution**.
+
+* **Optimal soution** -> **(7/12, 1, 1)**.
+* **Feasible solution** -> **(7/12, 1, 1)**.
+* **Feasible solution** but not **Optimal soution** -> **(7/12, 1, 0)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bec56a03-a08a-4908-b0e1-4ec89e1e3705)
+
+* **No damage** to **knapsack** in both the **cases**.
+
+> **1 and 0** both are **feasible**, so between **1 and 0** we can write **infinite feasible** solutions. As **fractions** are **allowed**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/049e8f51-d691-4b8c-a7f0-796bf34c7cc1)
+
+* What are the things really required for the **problem**?
+
+1) **How many objects? -> 'n'**. Here we have **n = 3** objects.
+2) For every object, the question should give **two** things, they are **weight and profit**.
+3) Capacity of **knapsack** should be given.
+4) The twist is that **sum of all the weights** of the **objects** should be **more/cross** the **limit/capacity** of the **knapsack**.
+5) We can take **fractions**. That's why it is called as **fractional knapsack problem**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9721f4a-5d90-4728-8adc-484cb2367c9c)
+
+* **Fractional knapsack problem** -> Greedy Technique
+* **No fractions** allowed, **knapsack problem**. Also called as **0-1 knapsack** problem -> Dynamic programming.
+
+> **Greedy** cannot give answer to **0-1 knapsack** problem.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5df6f462-a76c-4480-8139-75f2fe0fd57e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bdfa4dad-422b-49b5-b71f-f6a2f4fadecd)
+
+* Home work.
+
+## Greedy-Techniques-XI (40) [16th May 2023]
+
+* **First step** took **one for loop** which is **n** times.
+* **Second step** required **sorting** which took **n * log n** times.
+* Taking an object means **two** operations which are **addition** to the **profits** and **substraction** from the **knapsack capacity**.
+
+* **Step three** also requires **one for loop**, which is **n** times.
+* **Step three**, **best case** is that we have taken the **obj 1** completely and **capacity** is **full**. Stop it.
+* **Step three**, **worst case** is that we have to go till the **last object** and take **some fractions** from it.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d780fe7c-7521-4ba4-80f0-43c94f524910)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a268f377-1ecc-49f3-90a7-53ff2350ba9b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c044450a-7a98-45d6-bb2b-91e22612b2c5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44c00acb-4af9-4c68-bcfe-08afaa018ffd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2041b71d-ae7f-4730-9b83-3c1178b8e8cb)
+
+* So the **total time** is **n + (n * log n) + n -> O(n * log n)**.
+
+* If asked why doing **knapsack** problem using **Quick sort** worst case, what is the time complexity?
+
+> **n + n ^ 2 + n -> O(n ^ 2)**.
+
+* If asked why doing **knapsack** problem using **Heap sort** worst case, what is the time complexity?
+
+> **n + (n * log n) + n -> O(n * log n)**
+
+* what is the time complexity of a **knapsack** problem if all of the objects are already in the **decreasing** order of **Pi/Wi ratio**?
+
+> **n + n + n -> O(n)**. Since we don't have to do the **sorting** step, time complexity of **step 2** is **O(n)**, as they are **already sorted** as mentioned in the question, we just need **one for loop**.
+
+* If nothing is given and **standard** time complexity of **knapsack** problem is asked?
+
+> O(n * log n).
+
+* If **conditions** are given and then asked for time complexity of **knapsack** problem?
+
+> We cannot use **standard knapsack** problem. We have to design it **differently** as per the **conditions**.
+
+* what is the time complexity of a **knapsack** problem if all of the objects are already in the **increasing** order of **Pi/Wi ratio**?
+
+> **n + n + n -> O(n)**. Since we don't have to do the **sorting** step, time complexity of **step 2** is **O(n)**, as they are **already sorted** as mentioned in the question, we just need **one for loop** and start from the **last** side. Last one is the **bigger** one.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7602f11a-28f6-40ea-a12b-711e39da361b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d7f68a1-f035-4c9c-a9d5-72796db22fe6)
+
+* **n * log n** is the **answer** if **no conditions** are mentioned.
+* **Array** means **continuous**, after **index 1**, **index 2**, **index 3** and so on will come. Not index coming in between. **Array** also means **similar**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eba477c7-ace8-466e-ab9e-b35cfbae699a)
+
+* Structure -> Custom datatype.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/972b205f-74ba-4de9-985e-1206ff04e4f0)
+
+* In **Knapsack** we are using only **one array**, but **every element** contains **three(3) parts**. **First part** name is **object**. **Second part** name is **profit**. **Third part** name is **weight**.
+* It is called as **structure array**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30deac09-fe32-43e8-96e9-898377c42b72)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3347d20c-9314-40a0-be00-f48573ce09aa)
+
+> **One group** is **6 bytes** as there are **3 integer** numbers each of **2 bytes** and there are **7 groups** in total. Continuously, **7** groups are there.
+
+* What is the time complexity of a knapsack problem, if we use an algo for sorting purpose which will always take **n** time?
+
+> **n + n + n -> 3 * n -> O(n)** is the time complexity of a knapsack problem.
+
+## Job Sequencing With Deadlines
+
+1) Single CPU
+2) Arrival time of each job same
+3) Running time of each job is 1-unit
+4) No-preemption
+5) 
+
+* Preemtion -> Forcefully taken out from CPU.
+* CPU scheduling -> Only **one cpu** available but **many jobs/process** want that cpu.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a53f6179-e161-4af9-b76d-177da9e9690f)
+
+
+* Where **preemption** possible?
+
+> **Round Robin**.
+
+* CPU scheduling came because of which reason?
+
+* When 20 jobs are running, then which algo is running?
+
+> **Round Robin**.
+
+* By seeing, **Single CPU**, we understood that, **CPU scheduling** is required because we have only **one or single cpu** and many processes are going on inside the computer.
+* **Arrival time of each job same** means that all of the **process** came at the **same time**. So we cannot use **FCFS** as it is **First come First Serve**, so it will not work, as all of the **process** came at the **same time**. **FCFS** has **failed**. 
+* **Running time of each job is 1-unit** means every **process** required **1-unit**, so there is **no small and no big**, every process is the **same**.**SJF** means the **smaller** process get **first** chance. So, **SJF** also failed.
+* **No-preemption** means **one process** is running on the cpu and in the middle another process came but we cannot stop the already running process on the cpu and run another process. So, **Round Robin** not possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d99cc5be-10e4-4b40-8dd0-1627cd445f12)
+
+* All preemptive algo also gone.
+* Round Robin is **preemptive** algo.
+
+> Existing algos have **failed**, so we need a new algo which is **Job sequencing with deadlines**.
+
+* n=4, means **4** jobs are there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/13b54970-ab16-4a8e-ae6f-5df1273735d0)
+
+* Running time of **each job** is **1 unit**.
+* Running time and deadline are **different**, be careful.
+* Compared between **running time and deadline**, **deadline** is **more**.
+* Running time is **6months** but the deadline is **9 months**.
+* Running and deadline time may be **same** but **deadline** time cannot be **less than** running time.
+
+> As there are **4** jobs and every job required **1 month** because of **1 person** there, so **total time** required to complete **4** jobs is **1 + 1 + 1 + 1 -> 4 months**. None can wait **4 months**. To complete **1 job**, **1 month** is required.
+
+> So, for **4** jobs, each taking **1 month**, so the total time is **4 months** and none is waiting for **4 months**. We have to leave some people, whom we will **take** and whom we will **leave**. 
+
+> There is only **1 developer** and **4 jobs** are there and each jobs requires **1 month**. So the total time is **1 * 4 -> 4 months**. None can wait **4 months**. Max they can wait is **2 months**.
+
+* No job will take **more than 1 month**. It is **running time** and not **deadline**.
+* No job is **bigger or smaller** as the **running time** for **each job** is **1 month** only. No-preemption is not allowed. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c59e3d5-d70e-47d2-8c61-d0c48d488fd0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/221306be-c3a1-4059-bdac-a5d8a90bd59a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85dfa8c6-853b-42d8-88eb-be935a854fd6)
+
+* If we don't cross **deadline** then it is **feasible** solution.
+* Deadline is **2 months** means we can **complete in first month**, **YES**, can we complete it in **second month**, **YES**, **3months** not allowed. More than **2** not allowed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c6e5b667-c2fb-4339-901d-5db500724797)
+
+* Sequence is **more important** here.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f8112148-c16b-45e9-b262-c352e6afa014)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50a10811-4046-4344-9849-2da3e94711d8)
+
+* YES
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/61d8c86b-79ce-4a35-b5a1-13599df93bc0)
+
+* Optimal solution is **J4, J3** which gives **profit** of **300 + 150 -> 450**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6dca4af2-c0ba-46e7-b2d4-1d42230eb532)
+
+* We can do **two** jobs and we have to **arrange properly**. **Less deadline** job do **first** and then do the **more deadline** job in **second**, as the **more deadline** job has **more time**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/471bc8af-dc12-4ee2-98e8-2bdbbeb81e5f)
+
+* **9** feasible solutions. Among them, the **best one** is **optimal solution**.
+* **J4, J3** is the **optimal solution** with **profit** of **450**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d1fc08c-68a2-4e0f-b056-40311e409324)
+
+* Wait.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6164f790-6d4d-434a-9d60-c3757a46a940)
+
+* From the above problem, expect **two** types of questions. 
+1) What is the **max profit**?  [450 answer for the above question]
+2) what is the **optimal solution**? [**J4, J3** answer for the above question]
+
+* Sequence is **important**.
+
+* Shortcut method steps:-
+
+1) Go to the problem and see only the **deadline** first. In the **deadline**, which is **bigger/max**? Take an array with **max** slots. Start from the **right** side and see whoever is giving **more profit** take that.
+2) From the **rest** of the remaining job, whoever is giving **max profit** take that.
+
+
+> In **more deadline** we have more **options** we can do it in **first month** or in **second month**. **Less deadline** people begging for **first month**.
+
+> See all the **jobs** and see who are fighting for **first month**. All are fighting but **J2 and J4** are begging.
+
+> If we start from **second month** then we have **less fightining** because **1 month** deadline jobs can't come and only **J1 and J3** are **2 month** deadline jobs. So between **J1 and J3**, whoever is giving **more profit** take that in **second month**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/288ec17b-ce2f-49c5-8d9a-c5835f4e02d3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6786c44f-3e67-4535-8577-e76f11564beb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5d72c4d-5d9c-4d32-9c50-a95c5f018b59)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f3dca4f-f44f-4f5f-bae8-60c1e67da889)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed7e8074-4e5a-4fe8-a6b4-0b714943bec4)
+
+* Who can come in the **ith** month?
+
+> Those jobs who have **deadlines** as **ith** or **more than** ith month.
+
+* Who can fight for **5th month**?
+
+> The jobs that have **deadlines** as **5th** or **more than** 5th month.
+
+> For the **5th** slot and to find the **correct** job for that **slot** we need **one scan**. So, time complexity is **n**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/034d2a3f-156e-4f29-a499-efceff23d3ab)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c72a62a-075a-4614-8d18-754a3a8d16bc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1ae5f63-14a7-4ca2-9a6d-a496a330ff03)
+ ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69d182cd-8b19-4c8f-a90e-76b725750540)
+
+* YES
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc7c4f5e-fd1a-457f-b7d3-c0b5c0198179)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ceb41539-2025-4dea-94bf-0f08ea1d8796)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57d5153a-6755-4c02-bbd6-9d48267a8bbd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4706e333-e8b2-4762-ad10-b8aa92be4ef8)
+
+* It is not **n** everytime, it is **decreasing by 1** as we are taking/selecting **one job** everytime. Approximately we are taking as **n**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a3ab6d0-b7d1-457f-8c18-6bab06f2deb1)
+
+> For every slot, time is approximately **n** and we have **n** slots. 
+
+* Time complexity -> **n * n -> O(n ^ 2)**.
+
+> In the **next question** so change in **time complexity** there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d32e4e0-0f25-4328-9a87-257269a2af05)
+
+* What jobs we were unable to finish or what are the jobs that are **left out**? [Same Question]
+
+> **J5 and J6**.
+
+* What is the **penalty** or what is the amount of **profit** we **lost**? [Same Question]
+
+> **J5 is 70** and **J6 is 180**. So, **70 + 180 -> 250**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/408f2535-d448-48a3-852e-ebfe717799a7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1fc4652b-44d6-46fb-8691-520c7fa31eb8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6637a0a7-7b25-4e89-ae7d-a1d228da3511)
+
+> Ever though **J1** has **less deadline** it came in the **answer** because **J1** has the **highest/max profit** when we came for **first month** slot.
+
+* Who is the **less or least profit** job?
+
+> **J5**. 
+
+> **J5** has a deadline of **5** units. Even though it has **more deadline** it didn't came in the **answer** because there is **J3** with same deadline of **5** units but **J3** has **more profit** has **J5**. That's **J5** was not taken.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65fece9b-cd43-45e0-a1c2-6d801a92600e)
+
+> **J5** has a deadline of **5** units. If **J3** had deadline of **4** units, then **J5** would have been came to the **answer** as there was no one **fightining** with **J5** for **5th month slot**.
+
+* There is only **one array** called as the **structure array**. Structure means **group**. Every element has **group of data**. Every group contain **3 people**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c276bf91-5eda-4baf-a835-ef5b68d5fec9)
+
+* Steps to solve the above problem:
+
+1) Arrange all jobs in **decreasing order** of **profits**. We are **sorting** using **merge sort** so the time is **O(n * log n)**.
+2) Now do whatever we were doing **previously** on the **sorted** array.
+
+> Without **sorting** for **each slot** the time was **n** as we were applying **linear search** and it is for **every case**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/664b9b7c-8808-44ed-9603-167dd152bdcc)
+
+> With **sorting** for **each slot** the **min** time is **constant or O(1)**, first case can match which is the **best case**. The worst case is **n** times.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d592c417-861b-45ee-8a59-d89469c30b3c)
+
+* No one fightining for **6th month**. The jobs who have deadline of **6 or more than 6** can fight for **6th month** slot.
+
+* **Right people** can **move** to **left side** but **left people** cannot move to right side.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/40d10685-5914-43a5-afc9-4b7e89e45e58)
+
+* We went to the **last place** very less time.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/453b5092-a849-478f-9ea2-9be7a047b779)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8221a3ac-d4df-4a2c-9802-45b2e57c25c2)
+
+* More deadline people we can do before?
+
+> **YES**.
+
+* Less deadline people we can do after?
+
+> **NO**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a824ef2f-f578-42a7-b165-ec48c167727c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bdc433b1-f3f2-4a90-a9ae-70fad05a4213)
+
+* Every slot is **n** times for **worst case**. We have **n** elements so, time is **n * n -> n^2**.
+* Every slot is **constant or O(1)** for **best case**. We have **n** elements so, time is **n * 1 -> n**
+* The time for **sorting** is **n * log n**.
+
+* Time complexity for **worst case** -> **n ^ 2 + (n * log n) -> O(n ^ 2)**.
+* Time complexity for **best case** -> **n + (n * log n) -> O(n * log n)**.
+* Average case not needed. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c40e3bbe-e44b-4edb-94dd-e37e76bd509b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef166b05-d20f-47a7-987c-ff40fa37aa15)
+
+* We started filling the **jobs** from the **right to left** side.
+* If we start filling the **jobs** from the **left** side then **all/everyone** of the jobs will be **fighting** for the **first month** slot.
+
+* By starting from **right to left side** there are **two** advantages:
+
+1) Less comparisions.
+2) **More deadline** people are **giving change** to **less deadline** people.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf832d58-3e06-464a-9520-80cb4a139da4)
+
+> **Gap** is at **6th or 7th** place, simply read the sequence, no one will ask for **gap** and all.
+
+* J2 -> 3 [Deadlines]
+* J8 -> 3 [Deadlines]
+* J1 -> 5 [Deadlines]
+* J4 -> 4 [Deadlines]
+
+> **Swapping** is possible between **J4 and J1** as they have **5 and 4** units of **deadline**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8804142a-f299-41ff-8b9b-a60fbbee9c74)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c12867b-11de-4188-a356-a63490eff2a3)
+
+> **J5** has **6** deadline and **J1** has **4** deadline. **J5** can definitely go to **J1's** place but **J1** cannot go because it is **4** units and it is between **1 to 4** and for **J5** it is **6** so it is between **1 and 6**.
+
+* If **both** agree then only **swapping** possible, otherwise **no swapping** possible. If **one person** doesn't agree then don't do **swapping**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bda9de06-5119-40ee-8b44-8efecaf3f241)
+
+* If the **answer** what we got is not there in the **options** then some **swapping** maybe done.
+* If more jobs are given then don't do **directly**, first do **sorting**, it will reduce significant amount of time to find the **answer**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/962133ac-efd5-4f7b-b40f-66a89b2d3bf0)
+
+> After **sorting**, instead of **linear search**, do **binary search** but we cannot do **binary search** because **sorting** done on **profit** and **searching** is done on **deadlines**, we have two **different** parameters that's why **binary search** not possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97a43292-3c8f-4d45-bcef-6c472da8b4df)
+
+* True.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/64d254e7-319d-4939-a0b2-ea584626269c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d341717-0e7d-4420-889f-6034e30a2dd0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/242a59df-c750-4cb1-aa3c-0114cc2d39e7)
+
+* Yes, that is the **best case**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/672ef392-eafd-4f9b-be3f-8734778da964)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3da83ae3-e04e-429c-a48c-774a01dae955)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5655e87-f329-4efe-8ff8-911c277d1d69)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/683b519a-aa6d-4c52-a3e5-d2ea002b5e5b)
+
+
+## Greedy-Techniques-XII (41) [16th May 2023]
+
+## Huffman Coding
+
+1) Data Encoding Technique
+2) Data Compression Technique
+
+> One message(m) going from **sender(S)** to **receiver(D)**. The **message size** is **100 characters**. The **distinct characters** are **6** only.
+
+* Some characters are **repeating** they are called as **frequency**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dcdb27e3-4c31-40f5-868f-0ec52f5fa113)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6126a584-42b1-4f2b-93ac-9a19d43935b0)
+
+* In ASCII format/representation, for every **character** it is **8 bits**. So **100 characters** is **8 * 100 -> 800 bits**.
+* 1-character, how many bits?
+
+> **800/100 -> 8bits** per **character**. It is also called as **average no. of bits**.
+
+* Without **huffman coding** we have to send **800 bits**.
+* With **huffman coding** we have to send maybe **300 bits**. It is a **data compression technique**.
+
+* Can you compress?
+
+* How many **distinct characters** we have?
+
+> **6** there.
+
+* For **6** people to give **different** numbers, how many **bits** required?
+
+> **3** bits required. With **3 bits** we can have **8** possibilities, which are from **0 to 7**.
+
+> So, for **6** people to give **different** numbers, **3** bits are more than enough.
+ 
+> Now for **100** characters, we require **300 bits**.
+> So for **1** character or **on average**, we require **3 bits**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/763516d9-81fe-4250-84a0-c456a1c9ed68)
+
+* Huffman coding **purpose** is **data compression** and **data encoding**. **800** bits is **compressed** to **300** bits, that is **data compression**.
+
+> We will require to represent **a** with **8 bits** when we have **2^8= 256** distinct characters.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d33854af-2c03-472d-a6ab-58ed3a4db0b9)
+
+> We are not sending **a** as **a** but in **some other** format, which is **a=000**. That is called as **data encoding**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4998eec1-4d43-47b8-b32b-ea91f6ff6465)
+
+* In computer, to represent **a**, how many **bits**?
+
+> **8 bits**, because in computer's keyboard there are **many characters**.
+
+> For the **above problem**, we have only **6** distinct characters, so **2 ^ 3 >= 6**, that's why **3** bits is more than enough for **6** distinct characters.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eed1edbe-23fb-4bab-b6aa-a622b7ea1b17)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d5c0f81-8b62-43fb-bc5d-ed27368b8e76)
+
+* Can we compress further? [Direct approach] [Huffman Coding]
+
+* **Huffman Coding** points:
+
+1) It is **non-uniform**. If it is **more frequency** then give **less bits**. The **side-effect** is that with **less frequency** then give **more bits**.
+2) In all of the **distinct** elements who is the **first minimum**? It is **C** as **C=1**. Take **second min**. Take the these **two** mins. first. **Add** them up and we got **1 + 2 = 3**. Whatever result came, keep that **inside**. So, now it is **5** people from the **6** people we **initially** had.
+
+> Do the above story again, take the **first two minimums** from the **available people**. Check that the **first min** is always on the **left** and the **next min** is on the **right**. Now, **add** and we got **3 + 5 =8**. Keep the result **inside**.
+
+> Do the above story again, take the **first two minimums** from the **available people**. Check that the **first min** is always on the **left** and the **next min** is on the **right**. Now, **add** and we got **8 + 17 =25**. Keep the result **inside**.
+
+> Do the above story again, take the **first two minimums** from the **available people**. Check that the **first min** is always on the **left** and the **next min** is on the **right**. Now, **add** and we got **25 + 30 =55**. Keep the result **inside**.
+
+> Do the above story again, take the **first two minimums** from the **available people**. Check that the **first min** is always on the **left** and the **next min** is on the **right**. Now, **add** and we got **45 + 55 =100**. Keep the result **inside**.
+
+> After **tree** construction is over, go to the **top** of the tree, **left side** person keep **zero(0)** and **right side** person keep **one(1)**. It means that the **left** is labelled with **zero(0)** and **right** is labelled with **one(1)** 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/843e0f72-9bb9-494f-9e10-24fb9119df9d)
+
+
+> So, the total is **100**. The tree with **red** color is **Huffman coding**. The **tree** is called as **Huffman encoded tree**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ab24f00-e7eb-4617-85d3-3ee5a11b12cd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dedf068b-1938-404b-b2ab-69f754e1b9cf)
+
+> Huffman coding purpose is data encoding and data compression. They are do by **non-uniform** coding. **Non-uniform** means **more frequency** then give **less bits** and the **side-effect** is that with **less frequency** then give **more bits**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3398703-3625-4d21-b570-8482bcb6b87d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3aac8973-f2a9-4775-b5c1-a7e7b1617b64)
+
+* **Huffman coding** directly approach. Do this part only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d8cd543-690a-4d7b-be78-12b262fcc387)
+
+* In exam, if asked that assume in **Huffman coding** that the left is **1** and right is **0**, assume that only. Whatever said in the question, assume that only.
+
+* If nothing mentioned then do like **above**, left is **0** and right is **1**.
+
+> We have to find out the **paths** in the tree, required to reach the **characters** from the **top/root**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/abdfd11f-fc95-46cf-9a5e-d6d1208c529d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5bb8ee35-cdd0-489f-b6d1-fc81cb1d23f9)
+
+* Like these give the **codes** to the **characters**.
+
+* In the **above** tree who is the **bottom**?
+
+> **C and B** because they are **first two min**.
+
+> The **two mins** are at the **bottom**.
+
+* The **min** people are at the **bottom**.
+* The **max** people are close to the **root/top**.
+
+> As the **min** elements are at the **bottom** and so far away from the **root**. We are starting from the **root**, when writing **codes** for the **characters**, that why **min** elements are getting **more codes**.
+
+> As the **max** elements are at the **root/top** and they are close to the **root**. We are starting from the **root**, when writing **codes** for the **characters**, that why **max** elements are getting **less codes**.
+
+* If we want to do **reverse** which means **more frequency -> more bits** and **less frequency -> less bits** required?
+
+> While **construction** tree instead of taking **two min**, now take **two max**. Close to **root** is **min elements** and they will get **less bits** and at the **bottom** are **max elements** which will get **more bits**.
+
+
+* Steps of **Huffman coding**:-
+
+1) Take **two** min, take **two** min and so on. Lastly **max people** close to **root** and **min people** at the **bottom**. Take **two mins** everytime and **construct** a tree.
+2) Code is from **top**, whoever is at the **top** has **less bits**.
+3) After tree construction is done, give **left side** labelled as **zero(0)** and on the **right side** label it as **one(1)**. **OR** do whatever is mentioned in the **question** do that.
+4) Start from **root** and every **character** name is **leaf node**. From the **root**, until the **leaf node** come what **labels** we have to **read**. Write every code.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c8c5882-b9f5-4b38-8e67-4d6aad3636e7)
+
+* **191** bits is for **100** characters.
+* For **1** character or **on average**, it is **191/100 -> 1.91** bits.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/45ba530f-f627-46d2-ad40-dde3f018e445)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c16b26e8-3f0c-4c9c-92f5-a38b8e4717cd)
+
+> We cannot do less than **huffman coding**, because **less than this** will cause **data damage**.
+
+> The **more frequency** will have **less bits** and the **less frequency** will have **more bits**, but there will be **no problem** as the **show** is run by the, **more frequency** will have **less bits** people.
+
+* **Two** expected questions from **huffman coding**.
+
+1) What is the **average** no. of **bits** per character? [1.91 bits per character, as in the above question]
+2) What is the **Huffman code** for **every character**? [The characters when coded]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a7547026-f20f-45c8-9416-5846e8c551c5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/353c42da-fe3d-4a4b-8b8b-cb0d65cd9c11)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1e70033-d8f3-4644-92bb-7c5c178960ff)
+
+* Build heap takes **O(n)** times.
+* We are constructing **min-heap** because algo saying take **two min** everytime.
+* We are creating **min-heap** using **build heap**. 
+* One deletiong taking **log n** time.
+* One insertion taking **log n** time.
+* Everytime **2 people** going out and **1 person** coming in. So, total is **log n + log n + log n -> 3 * log n**. So, everytime it is **3 * log n**.
+* Everytime **one person** is **missing**.
+* Taking **min** from **normal array** is **n** times but taking **min** from **min heap array representation** is **log n** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91309f3a-02d6-43a0-8a07-977bb6269509)
+
+* Only **one** left, so **stop it**.
+* For **7** people to make into **1** people, we need **6** rounds.
+* For **10** people to make into **1** people, we need **9** rounds.
+* For **n** people to make into **1** people, we need **n-1** rounds.
+* Every round time is **3 * log n**.
+* Time complexity of **Huffman coding** -> **n + n * log n -> n * log n**.
+
+ [Class ended in the middle only]
+
+## Dynamic Programming-IX (42) [16th May 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c95ff68-9cfa-44ca-afcf-7d441e83961a)
+
+* Answer of **previous class question**.
+
+* If we want **min** everytime, then go for **min-heap**.
+* Creating **min-heap** using **build heap** for **n** elements is **n** times.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2d2dba65-5f3e-4f51-809f-3e2a49c326dd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c0fd5e2-d4d0-498d-9cf3-072a7ada12df)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a65e7b2-7d8f-491a-b794-1a668c93cfbc)
+
+* Time complexity of **Huffman coding** -> **n + (n -1) * (3 * log n) -> O(n * log n)**.
+* Time complexity of **Huffman coding** -> **O(n * log n)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/39d162b3-cf7a-4a6f-80f3-20b49c04ba65)
+
+> **log n** is given by only **three** people, **min-heap, max-heap and binary search**.
+
+> **Binary search** and **Hauffman** have **no relation**, so the **log n** came from **min-heap** only.
+
+* If we don't use **min-heap** and instead use **normal array** then the **time complexity** will be **O(n ^ 2)**.
+
+* What is the **Hauffman** code for **every character**?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65e87c75-6a38-4a1a-91ae-7be3b417ee7c)
+
+> The tree we have created finally, it is the **Hauffman encoded tree** and not **min-heap**. To create the tree we are using **min-heap**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd911d7d-96f7-4c29-aa26-dc60bec4518f)
+
+* Almost balanced tree.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d73ecb9-dc0b-436a-af0d-a040413af776)
+
+* Encoded message is : 1011100100101000100111100, Find the **decoded** message?
+
+> Start reading the **encoded message** from **left to right**.
+
+* The **Huffman encoded tree** is with the **sender or receiver**?
+
+> **Sender or receiver** doesn't matter. Team created it. On both the **sender and receiver**, **same** tree is there. So, it is seen by **both** the **sender and receiver** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ecffa4fc-7d1e-45f0-98be-aee791169c88)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66973705-77f8-4102-b5db-9f4c4d91cc17)
+
+* Time Complexity -> **O(n * log n)**.
+
+> **Log n** came from **min heap**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/edb7a18c-7a5f-4035-88da-663f69f33dbb)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6103ea5-e028-4b78-9f64-ad9ce08ce1d6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ad67a0d-7311-4e3c-a56e-bf57bda9251a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b2422c7a-a691-4ab0-86c6-cb4f319d6e78)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff7bd392-814c-40a0-8138-5fcbc1887d1c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a83ba580-a2f0-4773-a6e0-2046d106121b)
+
+
+## Optimal Merge Pattern
+
+* **Files** is nothing but **collection of records**. **Every record** is written in some **format** only. If written **randomly** then **searching** is very difficult.
+* We have **3 files** which are **x, y and z**.
+* We are trying to **merge** the **3 files** into **one file**.
+* Merging **two** files of **80 and 100** records, what is the **best case** for comparisions?
+
+> **80** comparisions because all the elements moved from the **smaller** files.
+
+* Merging **two** files of **80 and 100** records, what is the **worst case** for comparisions?
+
+> **80 + 100 -1 -> 179** comparisions every element of one file is compared with another element of different files.
+
+* How many moves?
+
+> **80 + 100 -> 180**. Moves are **same** for **every case**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/635d59f9-460c-4d08-9a49-1efdae0f6514)
+
+> Finally we got **1 single file** with all of the records.
+* **Merging** is **done properly** or **meaningfully**.
+
+> To construct the **diagram**, we did in total of **2 mergings**. 
+
+> When we did the **first merging**, then **total no. of moves** is **80 + 100 -> 180**.
+
+> When we did the **second merging**, then **total no. of moves** is **180 + 60 -> 240**.
+
+* So the **total moves** is **180 + 240 -> 420** moves.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2bb26d6b-d158-4b9c-bad3-ff88988fcaba)
+
+* Three different files become one single file, it is done using **420** moves.
+
+> We did **merging** of x and y files **first**. Then with the **result of x and y**, we **merged** it with 'z' file.
+
+> Not only **merging** but in which **order** we are **merging** that also matters.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dca6a4ee-a6f4-493a-96a4-2ee5a55bfbe7)
+
+> All of them will **merge** the three files into **one file**.
+
+> **m3** is taking the **least/less no. of moves** to **merge** the three files into **one file**. That's why **m3** is called as the **optimal merge pattern**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7153f44-bc0e-4b74-a2a8-47f1d99b47ce)
+
+> Three different files to **merge** into **one file**. There are so **many ways**. Whichever one having **less moves**, that is the **best optimal merge pattern**.
+
+* In terms of **profit** we have to see **more** and in terms of **cost** we have to see **less**. If **moves** are less then **less cost**.
+
+> In profit's point of view, optimal means **more profit** but in **cost** point of view, optimal means **less cost**.
+
+> The **above one** is a **two-way merge pattern** because we are taking **two** files at a time to **merge**.
+
+> For **three-way merge pattern** we would be taking **three** files at a time to **merge**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69ba9acf-30ae-459e-86ae-275d6c260dc8)
+
+> To **merge** given **3 files** into **single file**, we have **three** merge patterns **m1, m2 and m3**. Out of them **m3** is the **optimal merge pattern** because **less moves**.
+
+> This is the **brute** force approach.
+
+* Greedy Apporach:-
+
+> Take **first two mins** everytime. We want **min** everytime, that's why we are going to use **min-heap**. We will use like **exact previous** we did in **Hauffman** coding examples.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69f44332-7623-4699-96c1-c37519219ec4)
+
+> In **optimal merge pattern** we just need to **draw** the tree and we got the **answer**. We don't need to do the **codes**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d75c79b-2b1e-4df9-8996-674a5ba69503)
+
+* Time Complexity -> **n + (n-1) * (3 * log n) -> O(n * log n)**.
+* Building the **min-heap** took **n** time.
+* **Two deletion and one insertion** is taking **3 * log n** time.
+* We are going for or looping for **n-1** times.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7bd7441e-92fd-41e4-9f1c-98e1904f7123)
+
+* The tree is called as **2-way optimal merge tree**.
+
+> The **70** came after **merging, B =60 and F =40**. **70** is a **non-leaf** node.
+
+* So **70** came after **merging** and it is a **non-leaf** node.
+* So, **non-leaf** node is a node which we got after **merging**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e40e34dc-991b-4986-a328-3cd7c43549ad)
+
+* What is the **sum** of **internal nodes or non-leaf nodes**? [Same thing]
+
+> **70 + 115 + 145 + 169 + 260 + 429 -> 1188**. This is the **min** moves.
+
+* **Min** no. of moves =(equals to) **Sum** of **internal nodes or non-leaf nodes**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8534aeb3-b738-4076-bcc5-76aa6a9cc01e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4133de5e-f1ca-4618-89cc-abd9b5865e58)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5bc02516-9f09-4a79-bd84-168467331577)
+
+* We are not doing **merging** here. After **merging** how many files, we are just calculating the **moves**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a5f6d5a-8e60-4212-9d5a-4434a655a0df)
+
+> **Non leaf nodes** came **after merging**, which means **moves**.
+
+> We are using **merging** and not doing **merging**, because elements not there. Simply calculating **how many moves**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27173d6a-a57a-41b0-aac9-614467784c16)
+
+* We have to count the **no. of moves** in the **last one** or in all of them?
+
+> We have to **count** for **all of them**. **429** is the **no. of moves** in the last one, but **1188** is the **total no. of moves** from all of them.
+
+* We have to **count** all of the **merging moves** and not the **last one**.
+
+* No. of merging is **6** times and we have in total of **7** people.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab993851-3f78-4865-a5a5-99318a30d0ab)
+
+* If asked for **3-way merging** then take **3 min elements** at a time for **merging**.
+* Unless asked for **3-way merging**, don't do it. Do **2-way merging** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b9bab35d-3bb6-4558-8994-dc7e36466030)
+
+## Minimum Cost Spanning Tree (MCST) [**IMPORTANT**]
+
+* Graph 'G' is a combination of **vertices(V) and edges(E)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34bb1092-9df4-4876-b5a3-857c2dfa8c7a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5340ebcc-41d4-4364-a470-5009d3106cc0)
+
+* e1 = AB
+* e2 = BC
+
+> There is **no starting** point in the **graph**, as it is not a machine. We can **start** from **anywhere**.
+
+> When we say a **tree** there is a **starting** point called as **root**.
+
+> In a **C-program**, the starting point is the **main()**.
+
+> **Programs** should have a **root**.
+
+> Whenever it is not a program, it has **no root**.
+
+> From **A to B** there is an edge(e1), which means there is a **road** there. When **road** is there and to go from **A to B**, there is some **cost**, that **cost** is called as **edge weight**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cbea34cc-aba7-4ded-bd78-7f96239d5d9d)
+
+* If **no edge weight** there then it is called as **un-weighted** graphs.
+* If **edge weight** there then it is called as **weighted** graphs.
+
+> These **two** graphs are only possible, **mixed** is not possible.
+
+* If we give **direction** to the **edges** then they are called as **directed graphs**.
+
+> **D to C** we can go but **C to D** we cannot go.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/340b65f5-d507-4410-90aa-e579953b1bee)
+
+* If **directions and weights** both are there, then it is called as **directed weighted graph**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7bcac434-6132-410c-b3d8-7b4a860aa219)
+
+* No **mixture** possible. 
+
+> If out of all the **edges**, one of the edges, doesn't have weight for **some reason** then **by default** assume **1** weight for tha edge. It will not happen but just in case.
+
+> If **directions** not there, then we can go **both** the sides, **YES**. It is the meaning of **un-directed** graph.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6808055a-869e-4b33-9499-2a9438bcedf3)
+
+* No self loop.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e1508f5-c322-4d5c-8f75-6ef4202081c2)
+
+* Self loop.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb44e8a2-0bb0-45af-aee8-edf1ce0d55e2)
+
+* Parallel edges and not parallel paths.
+
+* If a graph contains a **self loop or Parallel edges or both**, then that graph is called as **multi** graph.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c99b742-0c1a-400c-a52c-99df6229c078)
+
+* Simple Graph -> In the given graph, no self loop and no parallel edge, both cannot be there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e495ccce-afee-4b53-9251-06dcf5630ad8)
+
+> We will only **discuss** about **simple graph**.
+
+> Multi graph has **4** vertices and **infinite** edges. As **Multi graph** has **infinite** edges, so **no questions** will be asked from **Multi graph**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5aff386-33cb-4295-9868-2c6016442dcf)
+
+* How many people are **associated** with vertice A?
+
+> **2** people **associated**, because there is an **edge** between them. So it is called as **degree of A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a3ae8f6-497e-4101-89bc-096b1ea60c92)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bec68f3c-ffa4-4aec-93cf-b6671bac1303)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc2ed4c3-ece4-49be-a6fe-3fd05ee9a3cf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91ddd968-e754-486c-beb7-046d0cb94d23)
+
+
+## Dynamic Programming-X (43) [17th May 2023]
+
+## Simple Graph
+
+> The **first graph** has **4 vertices** and **0 edges**. It has **no self loop and no parallel edges**. So, it is a **simple graph**. **0 edges** means **degree of each vertice** is **zero(0)**.
+
+> A graph with **4 vertices** and **0 edges** is called as **4-vertex null graph**.
+
+> A graph with **n vertices** and **0 edges** is called as **n-vertex null graph**.
+
+* **Null graph** -> **0 edges**. Any number of **vertices** possible. We don't know how many **vertices** will be there.
+
+> The **degree** of every vertex is **zero(0)** in a **Null graph**.
+
+> The **second graph** has **4 vertices** and **6 edges**. It has **no self loop and no parallel edges**. So, it is a **simple graph**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2877439-63a0-4f96-b35a-0048210b25fd)
+
+* There is a **4 vertices** **simple graph**, what is the **max degree** of any vertex?
+
+> **Max degree** is **3**.
+
+> For a **4 vertices** **simple graph**, the **max degree** of any vertex is **3** only.
+
+> For a **n vertices** **simple graph**, the **max degree** of any vertex is **n-1** only.
+
+* Max is **3**.
+* Min is **zero(0)**.
+
+> For a **4 vertices** **simple graph**, the **min degree** of any vertex is **zero(0)** only.
+
+* Max is **4** and min is **0**, there is change of in-between **0 to 4** as well.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d034bc2-5e1f-4d66-bd18-8d0e5e7ec5f2)
+
+* In-between with **degree = 2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df563979-66f1-4ee6-9783-2b9551c0a8ef)
+
+* In-between with **degree = 1**.
+
+> For a **4 vertices** **simple graph**, **max degree** is **3** and **min** is **0**. In-between **3 and 0**, anything is **possible**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/974bd5fd-af62-4de9-8abf-8246c66f4148)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa7a7313-87dd-45c8-86bd-72c83e55640f)
+
+* In the above **simple graph**, we kept **max degree** everywhere. Everywhere we kept **3**. It is called as **complete graph**. No gap there. Max usage done. 
+* If we **add** another edge then it will become **multi graph**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b1e6660-e3b1-4f83-971b-2edaae748ef1)
+
+> A simple graph with **50** vertices, then the **min** degree is **0** and the **max** degree is **n-1 -> 50-1 -> 49**.
+
+> For **multi graph** degree of vertex is **infinite**.
+
+* In **Simple graph**, with **n** vertices, the **min** degree of any vertex is **0** and the **max** degree is **n-1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ead9f4da-fa0b-454b-9bc2-5682ae6d3954)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3bdbf3ef-30a3-49cc-969b-16456561ab1b)
+
+* **Sum of degrees** will always be **even**.
+* **Sum of degrees** -> **12 -> 3 * 4 -> 2 * 6** -> 2 * E. **6** is nothing but **no. of edges**. **E** is the **no. of edges**.
+* **Sum of degrees** is **odd**, not possible. It is a **ghost graph**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ffcfbe5-8887-4bab-9feb-a17ca010a6a7)
+
+* In a given graph, how many **edges** are there, how we will calculate?
+
+> **Sum of degrees** we calculate first then we **divide by 2** the **Sum of degrees**. This will give the **no. of edges** which the graph has. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/28013a5e-6ffc-489f-99a2-21f88efd81c7)
+
+* As it has **4** vertices, so it is called as **K4**, which means **complete graph with 4 vertices**.
+* **C4** is cycllic graph with **4** vertices
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c51e498-d2f8-43a2-b301-b22617d223e9)
+
+* Edges(E) of K4 = (4 * 3)/2 -> 6
+* Edges(E) of K50 = (50 * 49)/2 -> 1225
+* Edges(E) of Kn = (n * (n-1))/2.
+* **Sum of degrees** -> **n * (n-1)**
+* 'n' vertices and 'n-1' edges there.
+
+* **Complete graph** with **n** vetices contains **(n * (n-1))/2** edges.
+* **Null graph** with **n** vetices contains **0** edges.
+* In simple graph who is the **smallest graph**?
+
+> Null graph. **Zero** edges.
+
+* In simple graph who is the **largest graph**?
+
+> Complete Graph. **(n * (n-1))/2** edges.
+
+* **No. of edges** decides if the graph is **bigger or smaller**. No **vertices** but **edges** decide.
+
+> In-between **null and complete** graph there are **so many** graphs.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2212eead-dc34-46a7-a02c-319693657a6a)
+
+* If **simple graph** contains **10** vertices, then **null graph** contains **zero** edges and the **complete graph** contains **(10 * 9)/2 -> 45** edges.
+* In **simple graph**, the **largest graph** is the **complete graph**.
+* In **simple graph**, the **smallest graph** is the **null graph**.
+
+* A **complete graph** with **10** vertices, the **min** no. of edges is **(10 * 9)/2 -> 45** edges only. For **complete graph** there is **no min or max**. Everything is **45** edges only.
+
+> We cannot **increase or decrease** in **complete graph**.
+
+* A **null graph** with **10** vertices, the **min** no. of edges is **0** edges only. For **null graph** there is **no min or max**. Everything is **0** edges only. 
+
+> When there is **null graph** everything is **0** edges only.
+
+> When there is **complete graph** everything is **45** edges only.
+
+* No min or No max. 
+* If it is **simple graph** then there is **two** choices. **Min** is **0** edges and **Max** is **45** edges only.
+
+* **5** vertex **simple graph**, min edges is **0** edges, max edges is **(5 * 4)/2 -> 10** edges.
+* **5** vertex **complete graph**, min edges is **(5 * 4)/2 -> 10** edges, max edges is **(5 * 4)/2 -> 10** edges.
+* **5** vertex **null graph**, min edges is **0** edges, max edges is **0** edges.
+* **50** vertex **complete graph**, max edges is **(50 * 49)/2 -> 1225** edges, min edges is **(50 * 49)/2 -> 1225** edges.
+* **50** vertex **simple graph**, max degree is **49** edges, min edges is **0** edges.
+* **50** vertex **null graph**, min degree is **0** edges, max edges is **0** edges.
+* **50** vertex **complete graph**, max degree is **49** edges, min edges is **49** edges.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76555393-4824-4eb4-867e-c1c53f925e52)
+
+> In a given graph, between every **two** people, there is a **path**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0a1b0f9-1633-4951-b790-6b60554f4e9c)
+
+
+* **D to B** -> DCAB
+* **C to B** -> CAB
+* **A to D** -> ACD.
+
+> From these we can get **two** more types of graphs, **connected and dis-connected** graphs.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7723f545-4df2-4517-88ce-905493cf2492)
+
+* **Connected** graph -> In a given graph, between every **two** people, there is a **path**. Edge maybe there or may not be there. Path should be there.
+
+> Otherwise it is **dis-connected** graph.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8182cfbe-7ce8-4871-86e7-844c293ccce4)
+
+* **Dis-connected** graph
+
+* Null graph -> **Dis-connected** graph.
+* Complete graph -> **Connected** graph.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c5f657ce-9fb6-4118-8515-cf4448331f1c)
+
+### Representation of Graph inside computer
+
+1) Adjacency Matrix
+2) Adjacency List
+
+> Between **two** vertices there is an **edge** there then those two vertices are **adjacent** to each other.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec0d07a7-b465-42f2-9018-000e944afa5c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/21d6b2bf-a691-4ccd-9619-77693a55b73e)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/61de2fd8-2f82-4796-b412-eb9e9d8b3f13)
+
+* Adjancy -> Between **two** people, edge there.
+
+> Graph contains **4** vertices, so the **size** of the matrix is **4 rows and 4 columns**, so it is **4 X 4**.
+
+> Graph contains **10** vertices, so the **size** of the matrix is **10 rows and 10 columns**, so it is **10 X 10**.
+
+> Graph contains **n** vertices, so the **size** of the matrix is **n rows and n columns**, so it is **n X n**.
+
+* **Space complexity** to represent a **n** vertex graph using **adjacency matrix** is **n X n -> O(n ^ 2)**. It is for **every case**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1387fffc-e4db-4cfe-998b-dfb52bf46fa7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec95be20-e8f7-4901-a954-5b2c0c358c8a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e507948a-2cb6-4772-b37e-059c63381117)
+
+> The **adjacency matrix** representation doesn't care about **edges**. In the **2nd graph only** there are **4** vertices and only **one edge** but the size is still is **n rows and n columns** which is **n X n -> O(n ^ 2)**.
+
+> If **no edges** there then also **O(n ^ 2)** and if **more edges** are there then also **O(n ^ 2)**.
+
+* It is giving important to **vertices** than edges. It doesn't care about **edges**.
+* So **adjacency matrix** is better idea if we have **more edges** as anyhow the **space complexity** will be **O(n ^ 2)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7dccd0cb-c600-4783-bf53-7131ace26da1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/93095a40-f534-4c6c-b094-4e6bb6277def)
+
+* **Adjacency matrix** is better idea for **complete graph**, as it has **more edges**.
+* **Adjacency list** is better idea for **less edges**.
+
+### Adjacency List
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d7dc383f-805b-4919-81d7-8b5723bbad72)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/557080ef-3c62-4efe-ad26-65e30233e158)
+
+* Adjacency List
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fea4d036-05e4-4228-8c20-a818e9ca44aa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e36e0f0b-9f3e-4622-bee2-f5dcb923db50)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9177d8d6-95bc-4d22-9226-c852cf1411e0)
+
+* Un-directed graph. As **three** people are coming to **vertex 2**, so the **degree** is **3**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e6ebb10-5b8c-4cb4-9502-63eb151a53d0)
+
+* **Directed graph**
+
+> So in **vertex 3**, only **one edge** is coming inside. It is called as **in-degree** and specifically as **one in-degree**. No **degrees** in **Directed graph**.
+
+> So in **vertex 4**, **none or no** edge is coming inside.
+
+> So in **vertex 2**, **three** edges are coming inside. So it is **3 in-degree**.
+
+* Incoming is **d+ or degree plus**.
+* Outgoing is **d- or degree minus**.
+* d+(2) = 3
+* d-(2) = 0
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df4f736a-4a4b-403a-85e0-4ac29a8b95ab)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2720c4b5-38fb-415b-a79f-73538e7f3b5f)
+
+* d-(3) = 2
+
+> In **adjancy list** there is **no rows and columns**.
+* Array means **continuous**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/972d1417-db73-495d-a2cd-c7d536902485)
+
+* Linked List means **give first node address**.
+
+> Graph contains **4** vertices(V) and there are **1** edge(E) only, but in the **list** there are **two**, it is **doubled**.
+
+* Vertex -> V
+* Edge -> E
+* Total Space -> V + 2 * E -> O(V + E)
+* Space Complexity for **adjacent list** -> **(V + E)**.
+* If, **E=0** for **null graph**, the **space complexity** in **list** -> O(V).
+* If, **E=0** for **null graph**, the **space complexity** in **matrix** -> O(V ^ 2).
+
+> As anyhow, **matrix** will give **O(V ^ 2)**, so give **complete graph** to **matrix**, it will give **O(V ^ 2)** even if the **no. of edges** is **more**. As **no. of edges** is **more**, the **time complexity** is **more**.
+
+> Give **null graph** to **list**, as there are **less no. of edges** so the **space complexity** will be **less** as well which is **O(V + E)**.
+
+* If not mentioned anything, in the question, then go for **adjancy list**, it is **better** for both **complete and null graphs**.
+
+* Adjacency matrix -> More edges -> Dense/Complete graph -> O(V ^ 2)
+* Adjacency list -> Less edges -> Sparse/Null graphs -> O(V + E).
+
+> For **list** if it is a **null graph** then **E=0**, so the **space complexity** is **O(V)**.
+
+> For **list** if it is a **complete graph** then **E= V ^ 2**, so the **space complexity** is **O(V + V ^ 2) -> O(V ^ 2**.
+
+> **Matrix** will work for **all**. **Matrix** is specially designed for **more edges**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/497d6c7d-9e77-4b9d-97e6-ede53175d20f)
+
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b3d76ccb-c24a-40d9-b317-8e5a510ed291)
+
+> For **complete graph**, **array and list** is taking **O(V ^ 2)** as the **space complexity** asymptotically. In **list** it is **V ^ 2** nodes which is **(V ^ 2) * 32bits** but in **matrix** it is **V ^ 2** bits, which is **(V ^ 2) * 1**.
+
+> Everyone is **1 bit** in **matrix** but in **list** everyone is **32bits**.
+
+> Asymptotically they are **same** but **mathematically** they are **not same**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/047d5cc2-b456-4967-a9f5-432e6dc25c10)
+
+* Complete/Dense Graph -> Matrix
+* Less Edges -> List
+
+> If it is a **null graph** then we don't have to **represent** anything in the **nodes**, just keep **NULL**. So, **no. of edges** is **0**. 
+
+> In **matrix** even though it is a **null graph**, it still takes **n ^ 2** bits. So, **no. of edges** is **n ^ 2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/211dd2c8-fa49-41ab-92e6-b450f6290ce7)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/388c43df-c778-4a00-99de-df8fcaa54b04)
+
+> With the help of **list and matrix** we can find out if **two** vertices are **adjacent** or not.
+
+* Matrix doesn't care if the graph is a **complete or a null** graph. It always gives **O(V ^ 2)**.
+
+> **List** representation for **Vertices(V)** and **Edges(E)**, what is thair **space complexity**?
+
+* **O(V + E)** is for **every case** of **list** depending upon **E** only.
+* **O(V ^ 2)** is for **every case** of **matrix**.
+
+* **V** is for the **linked list** we have created for the **vertices*.
+*  **2 * E** because we are **doubling** the **no. of edges** from the graph. **E** is the nodes in the list.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41181987-4126-47a1-9e68-70fc7f1677c0)
+
+* The **vertices** list in the **adjacency list** is an **array**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/55bbc853-6efb-4334-af38-7700718b0501)
+
+* Array
+
+* Find out **Time Complexity** in the **below questions**:- [**IMPORTANT**]
+
+1) To find degree of a particular vertex?
+
+* Matrix -> **O(V)**, it is **every case**. To find the **degree** we have to do **one scan** and **count** the **no. of 1s** in the **row**. We can directly go to the **particular row** as in array **random access** possible.
+* List -> **O(V - 1) or O(V)**, it is **worst case** for **list**. For **best case** it is **O(1)** for **list**. As the **vertex list** is an array directly go to that **particular vertex** and there is a **linked list** and **scan once** in the linked list to find the **degree**. Only **one scan** required.
+
+> For **one vertex**, max degree can be **V - 1** or **O(V)** and that is the **worst case**. In **worst case** we have to do **one scan**. The min degree is **zero(0) or NULL** which means it is **O(1)** which is the **best case**.
+
+> The necessary things only are writing in **adjacent list**.
+
+> In Matrix, there is **zero** adjacent then also we are **writing all**. For **matrix**, it is everytime **O(V)**, we have to do **one scan** always, no matter what adjacent vertex there or not.
+
+> In **list**, if there are **adjacents** then they are written otherwise they are not written and **left empty or NULL**. The **advantage** is that if **not there** then not written also. 
+
+2) To count no. of edges?
+
+* To count no. of edges **formula** -> Find **sum of degrees** and **divide by 2**.
+
+* Matrix -> O((V ^ 2)/2) -> O(V ^ 2) -> Find **sum of degrees** and then do **divide by 2**. **One person degree** is **V** and we have **V** people.
+* List -> **Min**, one person degree is **O(1)** and max is **O(V)**. So it is **O(1 * V) -> O(V)** times for **best case** and for **worst case** it is **V * V -> O(V ^ 2)**.
+
+* Sum of degrees is **50**, then how many edges?
+
+> **50/2 -> 25** edges.
+
+3) To know, given **two** vertices are adjacent or not?
+
+* Matrix -> **O(1)** for **Every case**  -> Random access possible so it is **O(1)** time. For **Every case**. Adjacency can be found out **directly** using random access as it an **array**, just go to the specific vertices and check.
+
+> **4 and 3** are adjacent or not in the matrix? It is giving **1**, so they are **adjacent**. If it is **0** then they are **not adjacent**.
+
+* List -> **Best case** is **O(1)** as it is **empty or NULL**, **worst case** is **O(V)** as we have to do **one scan** in the **adjacency list**.
+
+> **4 and 3** are adjacent or not in the **list? Go to the **4th** vertex first and in that **adjacency list**, we have to do **one scan** to find out that **3** is there or not. Whoever is in the **adjacency list** are **adjacent** to tha **vertex**. If **3** found then **4 and 3** are **adjacent** otherwise they are **not adjacent**.
+
+> Random access not possible because of **linked list**.
+
+## Minimum Cost Spanning Tree
+
+### Spanning Tree
+
+* It is a **Sub-graph**.
+* All vertices must be there.
+* All vertices minus **1** is the no. of edges which must be there.
+* It is a **connected graph** but with **min** no. of edges.
+* It never contains **any cycle**. We are wasting **one edge**, connections increasing and cost also increasing.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c278a876-18ab-4577-897a-0d9098adb784)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a9902afd-db48-4395-bcad-8ec072830c96)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76850fc2-78a3-46d6-9f74-d4297249aa86)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/121779d6-7907-48fd-bf0e-965973c70425)
+
+> A graph is a **connected graph** because between every two people there is a **path**, edge may or may not be there.
+
+* Spanning tree is a **sub-graph** with a condition that **all or every vertices** should be there.
+* If all vertices not there it is just a **sub-graph** and not a **spanning tree**.
+
+> We have **4** vertices and **5** edges. We are taking a **sub-graph** of that. **Sub-graph** mean **vertices** are less, edges maybe are less.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50b592d4-e11d-4f16-8334-8a8c3f939871)
+
+* Not a 
+
+* A **sub-graph(S)** of it's given graph(G) is said to be **spanning tree** if and only if:-
+
+1) 'S' should contain all vertices(V) of 'G'.
+2) 'S' should contain (V-1) edges without **cycle**. Indirect way of saying **connected graph**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e1644cd-53fe-485a-a51e-dd8460087418)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/724323a6-ef93-4cf8-adb8-353b0da4281f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4355e216-517d-43bd-bf12-86f99cc85f74)
+
+* To connect **V** vertices, we need **V - 1** edges.
+* To connect **V** vertices, we used **V - 1** edges but they are still not **connected** which means **cycle** has been created, edge wasted.
+* **One graph** contains **many spanning trees**.
+
+* Find the **no. of spanning trees** for the following graph?
+
+> We have **4 vertices and 4 edges**. We need only **V-1** edges which is **4-1 = 3** edges. Out of **4** edges we have to select **3** edges. So it is **4c3** ways.
+
+* 4c3 -> 4 ways.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c335cdff-e11e-4489-8db1-b74981fc23aa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c8a7aa6-a40e-4ec0-b6c6-958c59ca7177)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e7b6a5c-8858-41c8-b136-1bb54ac6279a)
+
+* Formula gives sometimes, **wrong answers** when the **no. of edges** is **more**. **Try to draw them to check**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1fccd7e4-e20a-40d2-a912-671bdc43fa5c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41ad791f-ff28-444e-b5a9-1e49b2c930f4)
+
+> From the **formula** we got **10** as the **answer**. While drawing roughly we saw **2** were creating **cycles** so we removed them. Now the **correct** answer is **8** spanning trees. 
+
+* How many cycles possible of **length 3**?
+
+> **2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5976b29c-72d4-486c-a8be-99cd596a9ffa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/561995be-b44d-413d-9732-cb5a76928637)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/639c533c-b811-41f6-a163-99f6ba0c47f8)
+
+## Dynamic Programming-XI (44) [18th May 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/133f03b1-b007-4814-8f3b-4e17c48529e4)
+
+* We are finding for **3** length trees. So we will only be removing **3** length cycles only and not the others.
+* As the **above** is a **complete graph**, we have a formula for it.
+
+* Spanning tree for **K4** -> 4 ^ (4-2) -> 4 ^ 2 -> 16.
+* Spanning tree for **Kn** -> n ^ (n-2).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dfe01782-c294-4f3d-a32a-4c9afa6f8d86)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/683e9ed7-875a-49d1-b87d-b83fddab2a34)
+
+* In **normal graph** we have to do like **previous class or yesterday's class way**.
+
+* Spanning Tree -> Start from **anywhere**. It is possible in **un-directed** graphs.
+* Rooted Spanning Tree -> Start from **some specific** position/point. It is possible in **directed** graphs. Root is **fixed**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35e4efdf-c7cb-4afd-bc1d-d7136653cc41)
+
+* Directed graph
+
+> In a **directed** graphs we cannot go where ever we want. That's why we have to start from **some specific** position/point from where we can cover every person. From the **root** everyone is **reachable**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72b8677d-4382-4841-b705-22b5ac433466)
+
+* 'C' is the **root**. Rooted spanning tree.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/467ea7cc-e07a-4acc-89ca-172fe9df55e7)
+
+* **K4** contains **16** spanning trees. We can start from **anywhere**.
+* Suppose we start from **A**, and from **A** to everywhere, we keep directions, then we are making **A** as **root**.
+
+> As we can start from **anywhere**, we started from **A**, in all those **16** spanning trees, starting from **A**, then **A** as the **root**, we get a **spanning tree** called as **Rooted spanning tree**.
+
+* With **A** as the root, we will get **16** spanning trees.
+* With **B** as the root, we will get **16** spanning trees.
+* With **C** as the root, we will get **16** spanning trees.
+
+> We have **4** vertices so, **4 * 16 -> 64** **Rooted spanning tree** we will get.
+
+> Every person as **root**, we can fix.
+
+> Without considering **root**, we got **16** spanning trees.
+
+> Let's consider **root** for all of the **16** spanning trees, starting from **A** only.
+
+* **Rooted spanning tree** means **root** required.
+* In **un-directed** graph we have **chance** of starting from **anywhere**.
+* In **directed** graph we have **no chance** of starting from **anywhere**, we have to start from **root** only.
+
+* **Rooted spanning tree** for **Kn** -> **(n ^ (n-2)) * n) -> (n ^ (n-2 +1)) -> n ^(n-1)**. [Not required]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33887257-0a81-45ac-a0d9-f6106ed81fcd)
+
+* We cannot go from **everywhere to everywhere** in **Rooted spanning tree**. So, from a **specific point** we can reach **everyone** or not. That is **Rooted spanning tree**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32f0d847-6a78-4776-b63c-472b360bd5fe)
+
+* Un-directed graph.
+* Spanning trees -> 16
+* **Rooted spanning tree** -> 4 * 16 -> 64 [Since **4** vertices that's why multiply with 4]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/546b87e1-0d52-4f79-b935-1ea5065abd92)
+
+* In **directed graph**, what is the meaning of **Rooted spanning tree**?
+
+> From **one person** we can reach **everywhere**. That person is **root**. Then, we will get **one spanning tree**.
+
+> Actual meaning of **spanning tree** is changing in **directed graph**, as the actual meaning of **spanning tree** is that **between every two people path should be there**. As it is a **directed graph**, is not possible. From the **root** everyone is **reachable** or not verify. That is **Rooted spanning tree**.
+
+* Find out no. of **spanning tree**? [Two Ways]
+
+1) From **total** remove **cycles**.
+2) If it a **complete graph** then **formula** there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c53860b4-c744-4997-9e21-99e9580f30e0)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63ec9673-b4e6-46e1-a4e9-72013f5ad87e)
+
+* Not there.
+
+* What is the meaning of **directed graph spanning tree**?
+
+> **Rooted spanning tree**, from **one person** we can go to **everyone** possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ae5572b-3398-4f25-8c17-2a93a329e10c)
+
+> We are seleting **4** length edges. So we have to remove cycles of length **4 as well as 3** but not **5**. In the **3** edge cycle we have to see where the **4th** edge is going.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b3e0796f-b9d0-407e-a731-fc27a787af1f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a4e020cf-92c6-4a64-8e94-1f6d690960c3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0777383b-9dc9-45eb-98fb-014bd0e7485e)
+
+* Spanning Tree -> Covering all people(vertices) with min connections(edges). 
+* Complete Graph -> Covering all people(vertices) with max connections(edges). 
+
+* For **complete graph** with **10** vertices, we need **(n * (n-1))/2 -> (10 * 9)/2 -> 45** connections(edges).
+* For **spanning tree** with **10** vertices, we need **V - 1 -> 10 - 1 -> 9** connections(edges) is enough. No cycles should be there.
+
+> The **problem** of **spanning tree** is that, if **one connection(edge)** is gone, then the whole **spanning tree** or connections are **disconnected**.
+
+
+## Minimum Cost Spanning Tree(MST)
+
+* Cost is there, so **weighted graphs** is there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/06e9d80e-6387-485c-bda5-7de8bced2cbd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33a4e747-c6c2-49e2-94e7-5a850a79564b)
+
+> As it is a **complete graph** so the **no. of spanning tree** is **n ^(n-2) -> 4 ^ (4-2) -> 4 ^ 2 -> 16**. We have **4** vertices so we need **min of 3 edges** for **spanning trees**. Among all of the **edges**, the **3 edges** they also should be **min** to get the **Minimum Cost Spanning Tree**.
+
+> Any of the **3** edges we take is called as **spanning trees**. The best **3 min edges** we take is called as **Minimum Cost Spanning Tree**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e0dbfee7-f3d5-4972-96a0-e7ffee26cdbd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b54c8ece-f46f-42e9-8dc7-d4f803bbdb4e)
+
+> For the given problem, there are **16** spanning trees, out of the **16** spanning trees there is **only one** spanning tree which is **Minimum Cost Spanning Tree**.
+
+* **Minimum Cost Spanning Tree** cost -> 10 + 30 + 20 -> 60.
+* **Minimum Cost Spanning Tree** means **spanning tree** where the **cost** should be **minimum**.
+
+* What matters in **Minimum Cost Spanning Tree**?
+
+1) No. of edges should be **less or min**. [Since Spanning tree]
+2) Min Cost.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35e0ca61-3465-44df-978f-eb928ecca496)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5451b1f-119a-4d8b-9799-204199c9c67e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fccb2a05-8d75-4d01-ace7-c1bc6f0b5d62)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f11f64a-b730-416e-a454-b2e834b52638)
+
+* Yes, take whatever we want.
+
+## Kruskal's [Greedy Technique for MST]
+
+* A to B -> 10
+* A to D -> 20
+* A to C -> 50
+* A to E -> 60
+* B to D -> 40
+* B to C -> 30
+* D to C -> 15
+
+* Vertices -> 5
+* Edges -> 7
+* Edges we want for Spanning Tree -> V - 1 -> 5 - 1 -> 4. 
+
+* Kruskal's algo is based on **edges**. It goes **edge by edge**
+
+* Steps:-
+
+>  Take **min** edge weight and add to **MST**. Initially **MST** is empty. Every step, new **edge** will come. Everytime we are getting the **min** edge weight.So, we have to use **min-heap**.
+
+> We have to **create** min-heap using **build-heap** and it took **O(n) or O(E)** time. As **kruskal** is based on **edges** we have to **create** min-heap for **edges**.
+
+1) Take **min** edge weight and add to **MST**. Do it everytime.
+2) Take next **min** edge weight and add to **MST**. Do it everytime take **min** edge.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d9fcaa24-2b9b-42cb-891a-b280df6c827d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/43762626-46e5-4e58-9c0f-e28ae1b4cb90)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/765fdc60-8d71-4788-b82a-567733dd0739)
+
+* First step is **costly** as **min-heap** not there that why we added, **E + log E**. From **next step**, the cost for **each** step is **log E** only which is **deletion** in min-heap cost.
+
+> In first **two** steps, **no cycles** are possible as **no cycle** is possible with only **one or two** edges. We need atleast **3 edges** for a **cycle**.
+
+* Every **MST** must contain, the **min** edge. Will we agree?
+
+> **YES**.
+
+> **First Min** edge and **second min** edge must contain in every **MST** as **no cycles** are possible with **one or two** edges. After that we cannot give gurantee that **3rd min** edges will come, because from **3rd step** cycles are possible as we will have **three** edges for cycle.
+
+
+* First two min -> No Doubt, will be there. Guranteed
+* From Third min onwards -> Doubtfull, as cycles are possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7316d78-23b4-4491-a7e9-703bad509f9d)
+
+> **Two** rounds over and we got **two** edges. We want **V-1 -> 5 - 1 -> 4** edges, so there will be **4** rounds only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/664f5836-ad1e-4a09-b372-4c6b9664dc99)
+
+* Every **deletion** step from **min-heap** takes **log E** time.
+* Cycle checking will take **constant or O(1)** time.
+
+* If we are **un-lucky** then we have to **delete** all **edges**.
+* If we are **lucky** then we will take **only one more edge** further, as we need **4** edges and we have got **3** already from **3 steps**.
+* If we are **lucky** then we will **delete** only **V - 1** edges.
+
+
+* Time Complete of **Kruskal's** for **best case** -> **(V - 1) * log E -> O(V * log E)**.
+* Time Complete of **Kruskal's** for **worst case** -> **(E) * log E -> O(E * log E)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5a21815-1499-4655-b384-0f2585d7bad4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8654a822-f642-4d94-8eee-5b7fdbbef7d1)
+
+* All **edges** are deleted.
+* Every deletion is **log E** time. 
+* For **E** edges, deletion time is **E * log E**, which is the **worst case**.
+* or **V - 1** edges, deletion time is **(V - 1) * log E -> O(V * log E)**, which is the **best case**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f126f429-c721-4a79-af4b-b2c1ffb9968c)
+
+* Total cost of **MST**  -> 105.
+* **log** comes from **min, max heaps and binary search**. As there is **no binary search** here, so the **log** is coming from **min-heap**.
+* Everywhere **E** came because the **kruskal's** algo is based on **edges(E)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b806077-594c-4a39-afa1-41b06a7dfd7c)
+
+* Every round from **3rd round** onwards, **cycle checking** will take place and it takes **constant or O(1)** time.
+* **Min-heap** creation takes **E** time.
+* Lower bound of **E** is **0**. Upper bound of **E** is **V ^ 2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a33a0ff-c4d7-4ea5-9a2c-03c774298f3e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/88656eca-edbc-49ca-8681-d95452840ed3)
+
+* log E = O(log V).
+* **E * log E** -> O(E * log V) -> O(v ^ 2 * log v)
+
+> In the **worst case** of **kruskal's** algo we got time complexity as **E * log E**. From that we can get **O(E * log V) and O(v ^ 2 * log v)**. If in the option **E * log E** is not there then chose from **O(E * log V) and O(v ^ 2 * log v)**. If original also there with them then choose **original**, if it is an **MCQ**.
+
+> If **original** not there, then we can **select** the **upper bounds**.
+
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec38e137-7b44-4c98-ab5a-d1925786828e)
+
+> If **Null graph** then **E = 0**, so, **V * log V** is **bigger**. If it is **complete graph** then **E = V ^ 2** then **E** is **bigger**.
+
+> If **dilemma** then keep both.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b31361b1-2253-4490-ab0b-7a51c0f3d175)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5a0e0d5-116f-4c0a-98e4-4ec51cb459d6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0fc7bcb-ebd9-4ba9-9629-34b5bb4d2da6)
+
+* We are **lucky** and got the **best case**, **no cycles** came.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/18739f66-4b75-4170-88f0-67c7176c2496)
+
+* Ask in group.
+
+## Dynamic Programming-XII (45) [18th May 2023]
+
+## Prim's [Greedy Technique for MST]
+
+* Prim's algo is based on **vertices**. It goes **vertex by vertex**.
+* Prim's algo other name is **Dijkstra's algo** in **Dynamic Programming**.
+
+* A to B -> 10
+* A to D -> 20
+* A to C -> 50
+* A to E -> 60
+* B to D -> 40
+* B to C -> 30
+* D to C -> 15
+
+
+* Vertices -> 5
+* Edges -> 7
+* Edges we want for Spanning Tree -> V - 1 -> 5 - 1 -> 4. 
+
+> We are using the **exact same graph** as from **Kruskal's** algo.
+
+* Steps:-
+
+1) **Take any vertex** and find **adjacent** of that vertex and from them take the **min**.
+
+> **Take any vertex** because in the **last answer** every vertex is there. Every edge cannot be but every **vertex** has to be there.
+
+> We were taking **min** edge is **Kruskal's** because all of the **vertex** will not be coming the **final answer**.
+
+> We have take **D** vertex and the **adjacent** vertex to **D** are **A, B and C**. So the **adjacency finding** took **O(V)** in **matrix** and in **list** for **best case** it is **O(1)** and **worst case** is **O(V - 1) or O(V)**.
+
+> The **advantage** with the **list** is that whoever are **adjacent** they only are available, if no one **adjacent** then the **list** is **NULL** for that **vertex**. Unlike **matrix** wheather **adjacent or not**, we are **writing all**.
+
+> If nothing mentioned then we have to go for **list** only, because it doesn't take more or less, it takes the **exact** amount. No need to **upper or lower** bound, just say **exact**.
+
+> For **V** vertices, we were finding **adjacency** for **D**, in **matrix** it is **O(V)** and in **list** it is **O(3)**.
+
+* In case of **graph algos**, the time complexity of any algo is based on **how we represent the graph**. 
+
+> If **two** people are **adjacent** or not, time taken in **matrix** is **O(1)** and in **list**, **worst case** is **O(V)** and **best case** is **O(1)**.
+
+* Everytime we will be taking **min**, so we need **min-heap**.
+
+> After **round 1** over, we got **C** vertex.
+
+2) Find **adjacent** of the **new vertex**. Ignore the **C to D** because we have done that in **round 1** only. We are comparing from both the **adjacents of D and adjacents of C**, whichever is **min** take that.
+
+* Do the **same** thing everytime until **all vertex** are taken.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b959adb-b24c-4146-8e50-33be7b972a00)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b0f7ed9-a994-4759-863a-433bcd6cc150)
+
+> Now, remove the **D to A** edge.
+
+> So after **2 rounds** are **over**, **3 vertices** came because in the **first round** we got **2 vertices**, we choose **D** and **C** was the **adjacent** of D, which was **min** among all the **adjacents**.
+
+* So, we have to do **V - 1** rounds only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/02727049-88d4-43da-a9a6-6166c3766552)
+
+3) Repeat previous step -> Find **adjacent** of the **new vertex** and take **min** from all.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d06e2c83-e362-4051-9c5d-d703af64173c)
+
+* We are taking **A to B** as it is the **min** among all.
+
+4) Repeat previous step. 
+
+> **B** doesn't have any **edges** which have not been used yet. So among all, **C to B** is **30** but that **creates** a **cycle** so **delete** it and go next. **Log E** time for **C to B** over but **cycle**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63d6f58d-fe14-46ba-a2cd-2bae6218174b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a7e7793-7d24-440e-91df-f4d51d97e0b3)
+
+> Next is **D to B** which is also **cycle** so **delete** it and go next.
+
+> Next is **C to A** which is also **cycle** so **delete** it and go next.
+
+> Next is **A to E** which is not **cycle**, so we take it. We had to take **A to E** which is **60** and **bigger** because the **smaller** ones were **creating cycles**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6ba63c4-84bb-41dd-9c88-3354cb693aa0)
+
+* All **vertices** came after **V - 1 -> 5 - 1 -> 4** rounds.
+* Total cost -> 105.
+* Same as **Kruskal**, **total cost** is **same**.
+* Cycles don't take.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24ceb893-3601-4921-a4b3-b562248cd52e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2fcf4738-49d2-4b02-a875-4fb112457fac)
+
+* Every round **cycle checking** takes **constant or O(1)** time.
+* Kruskal's -> Take min, Take min.
+* Prim's -> Take adjacent min, Take adjacent min.
+* **Advantage** of **Prim's** is that at **every step/round** we got **connected graph**.
+* Finally the **cost** is **same**, **tree** may or may not be **same**, we cannot say.
+
+* **NOTES**:
+
+* When we are **continuously jumping** here and there, then **cycle checking** is **difficult**.
+
+> In **Kruskal's**, **AB** is in the **first round** then in **second round** we got **DE** and they are **disconnected** which makes cycle checking difficult.
+
+* When it is **continuous** then **cycle checking** is **easy**. 
+
+> When we are **constructing the tree**, we are choosing them **vertices** in such a way that **one point** is aleady there on the tree and other point is **new**. If both **points** are **old** then **cycle** coming, if **both new** then **disconnected** which is not possible in **prim's**.
+
+* In **Kruskal's** in the **middle** we may get **disconnected** graphs. In **Kruskal's** in **every step** it need not be a **connected** graph.
+* In **prim's** in **every step** we always get **connected** graph.
+
+
+* Finally both **Kruskal and Prim's** will give **MST** and **connected** answer only.
+* In **kruskal** algo, the problem is **in-between** or in the **middle** of the procedure, it may give **not conntected or disconnected** graph.
+* In **Prim's** algo, every step is **connected**. It will always check **neighbours** only.
+
+* Why in **kruskal** algo, **in-between** or in the **middle** of the procedure it is **disconnected**?
+
+> It is **greedy**. Where ever there is **min**, it will go.
+
+> So in the **5th round** of **Kruskal's** we have the **min** of **6** cost but there are **3** different edges with **6** cost. We can take **any**. Random **6** will come, **computer** got no **emotion**.
+
+> **A to D** came but it was **creating** cycle so **delete** it and go **next**.  
+
+> **C to D** came but it was **creating** cycle so **delete** it and go **next**.
+
+> **B to C** came and there was no cycle so we added it.  
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/430e2a83-9c8e-4b8d-be97-7db7737d709f)
+
+* Total cost -> 20.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/719aa153-db91-4cf0-8039-4137bee34516)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c202570f-0564-497b-a9d5-e12b5b0048df)
+
+* YES. 
+
+* Let assume that by **adding all 6** there are **no cycles** and all are possible, which means that **multiple MST** are possible for the **above problem**.
+
+
+* One graph given and asked to find what is the **MST** for that graph? Not mentioned if use **Prim's or kruskal**?
+
+> Use **Kruskal's** it is easier, just **take min** everytime.
+
+> In **Prim's** take **adjacent** and then take **min** of those adjacents. **Two** conditions there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/088f55b9-d30c-4cde-872a-5363aa70c1bf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ef128b4-ad38-463e-91d0-ba163c676a20)
+
+* Sometime is it the **same** tree and sometimes they are **different** trees.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1540a986-86da-4782-bc3c-57d8a6970a93)
+
+* For the **given graph** if only **one MST** possible then the **trees** given by **prim's and kruskal's** are **same**.
+* If **multiple MST** there then **different** trees came possible.
+
+* **E** is for **min-heap** creation.
+* Kruskal's **worst and average** case time complexity -> **E * log E + E -> **E * log E**.
+* For Average it is -> **(E/2) * log E + E -> **E * log E**. **Same** as **worst case** only.
+
+> Atleast **E/2** or **half edges** we have to **delete**.
+
+* Kruskal's **best case time complexity -> **(V - 1) * log E + E -> **V * log E + E**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/29874830-abf9-46d5-bb75-2afa718838c2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b3acfdbf-0195-4e45-96ea-0e9767c15f01)
+
+* Kruskal's edge sequence -> They don't ask in questions.
+* Prim's edge sequence ->  They ask.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3cdf53b4-80f5-41bf-81ff-e3b528962216)
+
+* If we do **Prim's** for the **above graph** what will be the **edge sequence**?
+
+> Don't draw diagrams for the **options**. Just check **adjacency property** if **adjacent** then check for **min**.
+
+> It gives connected graph **every step**.
+
+> In **option D**, **B** was common between the **first two** edges, in the **3rd** option there was **no common** edge, so it is **disconnected**. So **wrong option**. Prim's never generates **disconnected** graph.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4294a63d-934f-4d1c-8103-93c75615b998)
+
+* Now, checking for **min property** in **options A and B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/45a0cb6c-efd7-435d-9718-7669cf5fa578)
+
+* **CA** is **2** and **CF** is **5** as **min** is available which is **CA** we cannot take **CF**, that's why **option 2** failed in **min property**.
+
+* **Prim's edge sequence steps**:-
+
+1) First find/check **adjacent property** for **all options**.
+2) Then go for **min property** check which is **prim's algo**.
+
+> **Prim's** algo can start from **anywhere**. So, **multiple/many** answers are **possible**.
+
+> **AD** both are old so **cylce**.
+
+> **CD** both are old so **cylce**.
+
+> **BC** 'C' is old but 'B' is **new** so no **cylce**. We are taking **BC** next after **FD**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d7a74de-93ae-4c42-9ee1-bb02d941c82f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a49d6d3-b47b-4d99-88a3-a1a28cbb5775)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dca2fd97-c1b1-42a2-a785-a531630fd7cf)
+
+* No backtracking nothing here.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a33cab90-b4d6-4f8c-a4cf-28dab7ca2969)
+
+* We doing **Kruskal's** algo here.
+
+> Next is **40** which is **BD** and it is **cycle**.
+
+> Next is **50** which is **BE** and it is not a **cycle**. Take it.
+
+> Here, **two** options possible as there are **two** 50s which are **BE and DE** and either of them are causing any **cycles**, so **2 MST** possible here.
+
+* So for a **given graph**, **multiple MSTs** maybe possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e64ec8b6-18ca-437d-885c-70d41fd4f8b3)
+
+* Different **trees**.
+* **Total cost** should be **same** for all of the **multiple MST** that are possible.
+
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b578c61-b6ed-460f-85ae-18581527ee55)
+
+* **NOTE**:-
+
+* So for a **given graph**, **multiple MSTs** maybe possible but **total cost** should be **same**, which is **110** for **both**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1dcc082-12a6-48ef-a2ed-b6da6e019d03)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1313084f-5478-4aa8-bbb8-1ff160141c42)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f5d0cbc-872c-42eb-b0fe-d3023a603437)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc99814c-10f6-42b8-bce1-ee3c0fc38aa0)
+
+> We cannot take **40** which is **BD** as it is a **cycle**.
+
+> We can take **40** which is **BE** as it is not a **cycle**.
+
+* If graph contains some edge weights **repeated values** then multiple MST possible?
+
+* Need not be. Maybe possible. No gurantee.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb03a6dc-5221-44f1-b9ce-17d7a07e4446)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57dac69f-bb98-4025-abf6-d95154895376)
+
+* **NOTE**:-
+
+> If at all for the **given graph**, **multiple MSTs possible**, then in that graph, some **edge weights** should **repeat**.
+
+> If the graph contains, some **edge weights repeated** then we may get **multiple MSTs**.
+
+> We have a graph that is **connected**, if at all it is a **connected** graph surely **MST** possible. Every **connected** graph will get **MST**, guranteed.
+
+* Definitely **connected** graph will have **MST** but **how many possible**?
+
+> **Connected** graph is where all the **edge weights** are **distinct**. So, exactly **one** MST possible.
+
+* **Connected** graph -> Atleast one MST possible.
+* Distinct edge weights -> **No choice** available
+* 
+> Distinct edge weights -> Nowhere **choice** available. If two **50** available and we can **choose any 50**, which means **choice available**. All are **distinct** so **no choice** available.
+
+* If graph is a **Connected** graph and having **distinct edge weights** then **unique MST** possible.
+
+* **Connected** graph but  not distinct edge weights ->  Because of **Connected** graph, atleast one MST is possible, as no **distinct** edge weights there so, **multiple MST** or **alteast one MST**  possible. 
+
+* Only **Connected** graph -> Atleast one MST is possible.
+* Not **Connected** graph but distinct edge weights -> MST may or may not be possible because **Connected** graph not there. Because of **distinct** if at all possible then **one only**, so **atmost** one MST possible.
+
+* **Connected** graph and distinct edge weights  -> Exactly one MST.
+
+> The only place where **MST** is **not possible** when if at all **connectivity** is not given clearly. We cannot give **gurantee**.
+
+* If a graph is **disconnected** -> Zero(0) MST possible.
+* If a graph and we have dilemma with the graph, maybe connected or disconnected -> Almost 1 MST possible.
+
+* For any graph if **MST** possible then compulsory **min** edge weights should be there or not?
+
+* Every **MST** must contain **first and second** minimums.
+
+* **NOTE**:-
+
+1) For the given, **connected and distinct** edge weight graph, **unique MST** possible. **First two min** edge weights must be there.
+
+* Whenever we are taking **1st and 2nd min** edge weights also, graph should contain how many vertices?
+
+> We have take **two** people compulsorily then **minimum 3** vertices. So, **n** value should be **greater than equal to 3**, then only possible.
+
+* If mentioned that the graph is **disconnected** then **MST** is not possible. Guranteed.
+
+2) No MST contain max edge weight. right or wrong?
+
+> **Wrong**. Sometimes we have to take larger one because of **cycles** happening with the **smaller** ones.
+
+* Some MST may contain max edge weight, right or wrong?
+
+> **Right**.
+
+* Every MST contains max edge weight, right or wrong?
+
+> **Wrong**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0a98d47-3462-49e0-991e-dedc2756d205)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea1ed18f-cead-4781-a6b6-fb4b8e634338)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c36182a9-74c3-4f7b-9a8d-f10b72593762)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f3298fe8-37b2-4ad4-bb4b-c5dda758ab75)
+
+* The **above graph** is stored in the computer in **adjacent matrix** because it is a **complete graph** and **complete graph** have **more edges**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/939e9b5d-7da6-4772-bdf4-bc622ea878cd)
+
+* Cost Adjacency Matrix. Keep **weight** now instead of **1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/568bd9f3-a95e-4286-86e9-d090b66d9e44)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e2bb298c-7cfc-416e-b2f1-66930b1f89ae)
+
+* Un-directed graph.
+
+> In an **un-directed** graph, a person is said to be **leaf node** if it's **degree is 1**.
+
+> If **degree is 0** then it is a **disconnected** graph.
+
+> In a **directed** graph, a person is said to be **leaf node** if it's **out-degree is 0**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9659621b-fdd5-4b04-b4fd-95021bf4ab70)
+
+> We are doing **kruskal's** algo here. We got **min 10** from **AB**. The next 3 mins are **10 also** which are **AC, AE and AD**, we cannot **add** them because if we **add** them then the **degree of A** is **increased to 2** and **A** will not be a **leaf node** at that point. So, we have to take **11** which is **BC**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/358700f6-3893-41e8-a971-3c2e84a48ad2)
+
+* Because of the **leaf node** condition, **cost** of MST is **increased**.
+* Total Cost -> **45**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b82b1709-8cb2-4fe1-a3f3-a8bb9fd87a83)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab2b9783-98af-4c25-a663-eb2092dba1dc)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/440e51ed-856b-4ff4-9146-08c6794478eb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b346df25-9924-4b38-ae2e-d2584f70c222)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2320967a-8f1c-47f3-898c-68bb926060a5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a36d2e71-7f2b-42cb-9815-20e598b72324)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b4921077-ef19-41a2-9ca2-94893d351def)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50254ab7-e494-4f35-ac3c-33c937c68fa8)
 
 
 
 
+## Dynamic_Programmin-XIII (46) [20th May 2023]
+
+
+### Prim's algo time complexity
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a7467728-57c9-4303-b82c-4ae365f644e7)
+
+* F.min = 3 [Min Edge Weight]
+* F.Parent = D [Min Edge weight connecting to which vertex]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9edb5b9a-274a-4209-a879-5be4d64aade1)
+
+> Prim's also is nothing but finding the **adjacent edge which has min weight** and the **parent where the edge is connecting too**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1af3ecc-46e5-424c-836a-bd1417135664)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b02ec78a-5de1-4b5d-bc19-3e6af314bfad)
+
+> **D** vertex was already covered from **F**, so we don't need to take it again. One person we don't have to take, rest we have to take.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d12e103c-ba41-4965-9aeb-32e5b1f02965)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/62f1676c-2615-4bec-bde3-0681bd500f9c)
+
+* This is when we are finding **time complexity**, don't do this in numericals.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4dac9e3-7f1f-4ef2-8bc6-bbdeba6fc798)
+
+* Initial State of Prim's algo
+
+> Time complecity of **prim's algo** initially where **m and p** of every node is going to be **m= infinite and p=NULL**.
+
+> Every **vertex** information we took and kept in **min-heap**. Every **vertex** having **two values** so it is **structure array**.
+
+* Build heap time for **'V' no. of vertex** for **min-heap** creation is **O(V)** time.
+
+> Whom we want to take as **starting** vertex keep their **vertex.min = 0**. We took 'A', so **A.min=0**.
+
+> When we delete from **min-heap**, **min** element comes out. So, **A** will come out. 
+
+* We have **V** vertices in the **min-heap**, so **one deletion** will take **log V** time.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/814f99f6-bd67-4c43-a8ac-e8dbeb4b2b57)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d2f873b9-c224-4313-a7a8-179afd1cfd03)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c6dce09-18e9-4bc7-b60d-9284ebe2a22c)
+
+> After **A** is **deleted**, we will see the **adjacents** of **A** in the graph.
+
+* To find **A adjacents** in a **matrix** we need **V** time because we have to do **one scan** on **A** row. It is for **every case**.
+* To find **A adjacents** in a **list** we need as many time as the **no. of adjacents** of that vertex. If **3** adjacents then time is **O(3)** if **no adjacents** then it is **O(1)** time. For **worst case** is it **O(V)** and for **best case** it is **O(1)**.
+
+> We are assumung that the above graph is **represented** in **adjacent list**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b8abe56-7cd1-463b-a72c-6e2bc02c9e84)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/adb9488e-2f6f-44f0-9cab-85809e673fe6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d357aa7-2976-4594-b4fa-fd827da51fe4)
+
+> First we are finding who are **adjacent** to **A**. **3** vertex are adjacent so it took **3 units of time**. In the **adjacent** places, do **decrease key**.
+
+* We are **changing** the **min-heap**, we cannot change the **graph**, as it is the **input**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aee3cf95-94ff-4322-b474-67b7383b41ac)
+
+> The **min** was **C** so, **C** was **deleted** and **C** was adjacent to **A**. **C** has **5** adjacent vertex but **A** is deleted already so **C** will only **decrease key** in **4** vertex which is **4 * log V**.
+
+* In **first row** we have **adjacents of A**.
+* In **second row** we have **adjacents of A and C** but the **best ones**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bfad9985-9884-45ad-b97a-6baec1955316)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c64db2ef-a85a-4b4c-bcf0-19861e0181bf)
+
+> As soon as **E** came out, none left and everyone is out of the **min-heap**, which means **everyone** is covered by **best person** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/64e86f9b-5743-4f46-bf90-67a9974751eb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/843bd6b3-5ef7-46a8-b11d-275fa9c332f6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ee99427-0a91-4fae-ae9c-b7c07adab65b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a599af90-531a-48ad-9e6c-d0b9321b76f8)
+
+* All are **connected**. We got **MST**. This is for **time complexity** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/175ac72f-8e67-43cc-839c-63c6abaade79)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/836c5e66-75e5-44e8-b6b6-c945bcd9a2fd)
+
+* For finding **one element** in **adjacent list**.
+* Best case is **O(1)**.
+* Worst case is **O(V)**.
+
+> For **list** no need to find out **best and worst case**, **how many people are there**, that much only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af9aac15-ee30-4614-aa3f-df6fda289bde)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1585be70-0f78-4aa8-b570-99c5bf689b97)
+ 
+* E -> Edges
+* V -> Vertices
+* **Min value and parent**, **structure array**.
+* Sum of **Degree** -> **2 * E**.
+* Time for creating min-heap is **V**.
+* Time Complexity of **Prim's algo** -> (V * log V) + V + 2 * E + (E * log V).
+
+* (2 * E) -> To find **adjacent**.
+* (E * log V) -> Decrease key operations.
+* V -> Min-Heap creation
+* (V * log V) -> Deletion Time.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5cf07544-d350-4fb6-86af-7a7eb1189f5b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/96205ce6-aa25-4dcd-970b-ae8cfb46be8b)
+
+* Time Complexity of **Prim's algo** -> (V * log V) + V + 2 * E + (E * log V) -> (V * log V) + (E * log V) -> (V + E) * log V -> **O((V + E) * log V)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12322058-64d2-49a1-b38d-260f811ce823)
+
+* Between **V and E**, for **complete graph**, **E** is **bigger** as **E= V ^ 2**. For **null graph**, **E** is **smaller** as **E = 0**.
+
+> If the graph is **null graph**, **spanning tree** is not possible.
+> For **spanning tree** to be possible, a graph should contain **V - 1** edges as **minimum**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a14b9955-6bd7-45da-a9ec-72e0f059fd23)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba61cd78-3615-454d-8683-889f58f93fc3)
+
+* If graph **G** is **connected**.
+
+* **Spanning tree** is possible for **connected graphs** only. For **connected graphs**, **V - 1** edges are **required**. So, **min value of E** is **E = (V - 1)** and **max** value is **E = (V ^ 2)**.
+
+> From comparing **E and V**, we can **confirm** that either **E** is **bigger** or **both are equal** which is **E = (V - 1) -> E = V**.
+
+> So, we can write **O(E * log v)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/18803bea-8139-4eaa-afcc-f500d9828c72)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b4605ff-cc29-4292-b4be-3950a892101e)
+
+* If the **given graph** is a **connected graph**, then, **min value of E** is **E = (V - 1)** and **max value of E** is **E =(V ^ 2)**.
+
+> So it **every case**, **E** is the **dominator**. That's why we can wrtie **O(E * log v)** instead of **O((V + E) * log V)**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9da348a0-c7ea-4f91-8bd7-91b7e2de860d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ad86d1e-e4b5-47c8-a558-b4049e06a175)
+
+* As it a **complete graph** so **E = (V ^ 2)**, so the **time complexity** will be **O((V ^ 2) * log V)**.
+* **Connected & complete graph** -> **O((V ^ 2) * log V)**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f4e1437d-bb73-4023-b902-f49e7e080d6b)
+
+* This is for **time complexity** purpose only and not for **numericals**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/08bf0409-45aa-4125-9ea6-cbdafafdbce0)
+
+* YES.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c635c1c1-3b55-4044-b414-e276303c0007)
+
+> Whoever we take as **starting vertex** keep it's **min = 0**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1dfffff8-8164-4693-abf2-a12c50a0bbba)
+
+* We are keeping **vertex** info in the **min-heap**.
+* We are taking **C** as the **starting vertex**, so **C.min =0**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b252954e-582e-494e-b26f-fec9050c379c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bd52b15e-eb1a-469f-ac78-b25692d5d583)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb8318ee-d71e-43f5-95d1-7f8de7ffb120)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58bcad86-d61c-4f04-b498-91cd63cfcfae)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d57a2b2-5755-4bae-945b-451ca81bbace)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fab56498-eec7-43f6-bb15-746b6b213816)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f2cce5c-a9f3-43b7-afbe-88b46f630cb9)
+
+* 'E' equal or better, so both sides are **same**, we can write **theta**.
+
+* If the graph is **not connected** then we cannot write **E * log V** first of all, forget about symbol.
+* Between **V and E**, because of **connected**, **E** is **always bigger**.
+* if **not-connected**, we cannot take **E** only as the graph can be **null graph** then **E = 0**. We have to take **V + E**.
+* In **connected** there is **no dilemma**.
+* In **not-connected** or **disconnected** there is **dilemma** so take **V + E** both.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3fadb2db-89ca-42c8-9f2f-eefc2d459672)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0ab4366-0ba1-49fd-ad19-396af0ceab1c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0acb9ef6-3d47-4ceb-af88-69617adba29f)
+
+* In the **answer**, **logs or log** are coming because **log** come when we use **min, max heap and binary search**. **Binary search** is not possible here, as we are using **min-heap**,  that's why we are getting **log** in the **answer**.
+* In Matrix -> V  + (V ^ 2) + (E * log V)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/52092af8-f32b-4ab5-b1b9-3c37e96fb4cf)
+
+* Using **Matrix** instead of **list**.
+* In **adjacency** finding only, the **time** differs in **matrix**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/54195cc3-d205-45a9-a433-0582507ca5fd)
+
+* **(E * log V)** is **bigger** when **E = (V ^ 2)** and the graph is a **complete graph**.
+* **(E * log V)** is **smaller** when **E = (V - 1)** and the graph has **lesser no. of edges**, which is **E = (V -1)** no. of edges.
+* This is also **Time complexity** of **prim's algo**, when the graph is given in the form of a **matrix** and it is used inside of a **min-heap**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2dabd7f-f594-44b7-b211-4d63c0f7927f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1bb28409-4ceb-425e-96bc-808187a29385)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f4793e34-adec-4d8b-9a80-a8549ebb8e86)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e64133a-ec27-4c21-a443-2e578448c41b)
+
+* Prim's in **normal array** and not in **min-heap**.
+* Left side -> (V ^ 2)
+* Right side -> ((V ^ 2) + (E * O(1)))
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1281e553-1954-4c16-bd1a-db61cc97eff2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/feb1bda7-0fee-4ebc-be7c-07a875c86f3d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8594cfa3-d457-475a-876d-0f01fa5091eb)
+
+* Here, we have **no logs** because we are not using **any min-heaps** we are using **normal arrays**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/77722cdd-e650-48d4-ae53-48ac9406f17b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7f6169b-b54e-46f0-9ae8-b96e1f01bed2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0081f038-83c5-4ba9-b5c3-e7ad7c6fbba0)
+
+* Prim's algo **time complexity** using **Adjacency matrix and sorted array**.
+
+> In **sorted array**, **min** is at the **first place**. Finding **min** is **constant or O(1)**. So, **V * O(1) -> V**. The **left** cost is **O(V)**, because **left** is **decreasing**, a lot of work is **pending** on the **right** side only.
+
+### Increase and Decrease key
+
+* Levels is **log n** and the tree is a **min-heap** tree. It is a **balanced tree**.
+
+> As it is an **ACBT**, gaps not there in the **middle**, they are at the **end** so the **new nodes** are **inserted** at the gaps only.
+
+* **Insertion** best case is **O(1)** and **worst and average case** is **log n**.
+* **Deletion** best case is **O(1)** and **worst and average case** is **log n**.
+* **Min-heap** is represented in **array format** inside the computer, so random access possible.
+* Decrease key operation -> No new element comes but the existing value will **decrease**.
+* Insertion -> New element comes.
+* Increase key operation -> No new element comes but the existing value will **increase**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36491aff-6020-4df7-a539-a4f9441bfc6e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76385840-abc6-40cc-b73d-005cdb311778)
+
+* **Decrease key operation** takes **log n** time in **min-heap** which is the **worst case** and for **best case** it is **O(1)**.
+* (a, 10, 7) -> 'a' array name. '10' is the **10th** position in the array. '7' value to be replaced with at **10th** position.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/51247c69-d4aa-4769-9073-0c3f47f20763)
+
+* Best case. 
+
+* **Increase key operation** takes **log n** time in **min-heap** which is the **worst case** and for **best case** it is **O(1)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b47a1da-d309-4639-89ca-fe1141a84acd)
+
+> In **min and max heap trees** which already contain **n** elements and the **levels** is **log n**. So the **insertion, deletion, increase key and decrease key**, all **four** of the operations will take **log n** time in **worst and average case** and **O(1)** time in **best case**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7fa0f112-fc50-466d-a3bd-19422ab2ec78)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1bdc109c-04e2-43ee-931f-6e6267ba3100)
+
+* If we do **increase key** at the **bottom** of the **min-heap** then we will get **best case** which is **O(1)**.
+* If we do **decrease key** at the **top/root** of the **min-heap** then we will get **best case** which is **O(1)**.
+
+> We can do **increase and decrease key** where ever in the **trees**, they are not **restricted** to **bottom or top** only.
+
+> In a **random array** if we change any person any problem? **NO**. There is no proper order.
+
+## Dynamic Programming-XIV (47) [21st may 2023]
+
+## Single Source Shortest Path
+
+1) Dijkastra's -> Positive values only
+2) Bellman-Ford -> Both positive and negative values
+3) BFT -> No edge weight.
+
+> Only **Dijkastra's** is **practical**. Just study **Dijkastra's** and whatever taught in **Bellman-Ford**.
+
+* Input -> Graph and single source.
+* Output -> From the **source** to other people, what will be the **shortest** path.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb7ba130-1a57-48b7-940e-5cc92e9689b7)
+
+> **Prim's and single source shortest path**, both algos are **similar**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2017d311-f1b7-4351-8b7e-18a1c960d5e5)
+
+## Dijkastra's
+
+* We want **shortest** path.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3008119-7b12-49f3-a4c8-a16bcf9deda3)
+
+* **A** is the **source**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fcce4798-7560-4040-a7bd-c63fa547770b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d47261b6-1cc4-47e4-8892-8ce5e5f374a2)
+
+* Weight
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef7cc9e5-e037-41f0-95e8-13d503f3af54)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/033f524d-83ce-4671-a4d9-8d53fe4a74b0)
+
+* We are finding **shortest path** and not like in **prim's** algo we are finding the **min cost** from the adjacent edge. No adjacency nothing here. We are finding the **shortest path** from the **starting/source** to that**particular vertex**.
+* E.min -> It is the **min cost** required to go from **starting/source** to **E**. It is **21** here.
+* The Path -> A-B-D-E.
+* E.parent -> Whoever is **before E** in the path, is the **parent** of **E**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/52d0df33-029a-4c03-946d-a5c09e82f270)
+
+* F.min -> 18
+* The Path -> A-B-F.
+* F.parent -> Whoever is **before F** in the path, is the **parent** of **F**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8b2ade3-d436-4b9d-994c-51b2b080c999)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c65ae68c-2cb4-41b7-bd41-d83846390761)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35b34f35-a337-4793-bca3-25d9470fe196)
+
+* Initial value is **F.min = infinite** and **F.parent= NULL(N)**.
+* Source is **A**, so **A.min = 0** and **A.parent=NULL(N)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a29f917e-1351-4023-bfef-efc4b9b77cc3)
+
+* **Vertex.min** meaning
+* **Min-heap** creation took **O(V)** time.
+* We are using **adjacency list**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0743aa2b-b68d-4dd6-b2db-da28b9e83762)
+
+* We **deleted**, the source vertex which is **A** from the **min heap**. It immediately found out the **adjacent vertex** and starting doing **decrease key** operations.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5a2ea66-a938-435c-b8ec-d5b49e805f77)
+
+> The **only difference** between **Prim's and Dijkstra's** is that in case of **Dijkstra's**, **previous cost plus current cost** we have to **add**. In case of **Prim's**, neglect the **previous costs** and just take the **current cost**. 
+
+> Just **one extra addition** in **Dijkastra's** algo.
+
+* We don't have any **partiality**, direct or in-direct. We just want **shortest** path.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4871b37f-c5d2-4c57-8b2f-99d0ccd6c4e9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31737056-dc80-460e-926c-8f46c703886d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3e5ed91-a87b-492c-aa3f-e671a0459601)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/73c9251c-d7f9-4d94-9baa-60d10a6eea1b)
+
+* For **Time complexity** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1f7a071-9b32-4d4e-a70b-0b86971b662e)
+
+* For **shortest path**. If don't know if **connected or disconnected**.
+* If they say **connected** then ignore **V** and time **time complexity** as **O(E * log V)**.
+* If nothing mentioned then write the whole **time complexity** only, which is **O((V + E) * log V)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86f3e18d-760e-4821-afe3-5b91e67aec78)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee475254-68d9-4a46-9e19-b626c8131f7a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d410ee8-ae7b-4b7d-b840-9badc3142671)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/577cfd24-2df5-4d6a-8d18-30c4e6f008f2)
+
+* After doing **decrease key** everytime, we have to **sort** the array in-order to get the **sorted array**.
+* Because of **sorted** array, **left** becomes **easy**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/67f4d331-b254-4c40-a45f-5c519f2e1218)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/42468053-db12-4a94-8013-8b4b0008a36f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e55db7e4-25d6-4025-aee4-e1900babe57c)
+
+> From **A to E**, **min** cost is **21**. The source is **A** and the destination is **E**. From destination, ask **parent-parent** and back-track to the **source**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e37b66a-9369-41c8-90ca-2e1bccdd6152)
+
+* So the **path** will be **A-B-D-E**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a690f657-52e9-4fa7-93aa-4a2b66521d6c)
+
+* Question, will ask to find min **cost** from **one vertex to another**. Apply **Dijkstra's**.
+* Time Complexities
+* Sequence of vertex selected when applying **Dijkstra's** algo in the given graph.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41815b56-beaa-4138-8d27-8f0ea68b103d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6acc0c95-01a4-4c61-8999-af11910cf654)
+
+> In **linked list**, random access is possible, if the **address** of the **node** is given.
+
+> In **array**, random access is possible, if the **index** of the **element** is given.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9b84516-a313-45bf-8e1f-e78e08ad0824)
+
+> **Unsorted** linked list will be **un-sorted** array, in terms of **time complexity**. 
+
+> **Sorted** linked list will be **sorted** array, in terms of **time complexity**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/066dda8a-36eb-44ec-86c7-c6a881234f28)
+
+> It is **same** as using **adjacent matrix and array**, in terms of **time complexity**. 
+
+* **Sorted array** is **equal too** or **equals too**, **sorted linked list**.
+* **Un-sorted array** is **equal too** or **equals too**, **un-sorted linked list**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/299c8649-1be5-439c-a38c-a3a434d8c269)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0a5587b-b26e-40e4-a8eb-a275c97e7653)
+
+* We are using **double linked list** here because after **decrease key** operation we have to go back. In **single linked list**, we cannot go back, after performing **decrease key** operation, and we can go back in  **double linked list**, that's why **double linked list** is being used here.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e85ccda-e816-4e78-8d79-8c81a8207165)
+
+* **Using Adjacency list and array** is **equal or equals too**, **adjacent list** and **not sorted doubly linked list**.
+* **Using Adjacency list and sorted array** is **equal or equals too**, **adjacent list and sorted doubly linked list**.
+
+
+## Miscellaneous-I (48) [21st May 2023]
+
+> In **directed** graph there is **no sum of degrees**, there is **in or out degree in graph**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ce12bc0-345f-4222-b4f3-a56abe96b318)
+
+* For **Directed** graph.
+* Sum of In-degree = Sum of Out-degree = No. of Edges.
+
+> If we have **10 in-degrees** then we have **10 out-degrees** and we have **10 edges**.
+
+* In-degree Counting
+* A= 3
+* B= 2
+* C= 3
+* D= 2
+* E= 2
+* F= 2
+
+* No. of edges = 14
+
+> Forget about the **directions**. It will become **degree**.
+
+* Sum of degrees = 2 * E.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c7646c6-13d0-48a1-97d0-6be2e860d8c4)
+
+1) Output the sequence of vertices identified by the **Djikstra's** algo when starting from vertex **B**.
+2) What will be the **shortest** path from **B to E**?
+3) What will be the **cost** of the **shortest** path from **B to E**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/29f707d2-6335-4e5a-8a54-5587f067751a)
+
+> **B** is the source, so it was deleted **first** and it starting findout it's adjacency. As it is **directed** so we have to see which **edges** are going from **B** to someother vertex. We can see **A, C and F** as adjacent vertex of **B**. We have done **decrease key operation** on the adjacent vertex of **B**.
+
+* The adjacency finding took -> **3 units** of time [As we have **3** adjacent vertex]
+* The decrease key operation -> **3 * log V** units of time. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/08cf3b39-f76e-43dc-969d-eceb456e9361)
+
+> After **B**, we will get **A**. Adjacent of **A** is **only 'D'**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e7d7da09-ec94-4c5a-9b8c-18bdc4fbd19d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e0e2a8f9-08db-4e24-91ec-f8ffe09d9b79)
+
+> So, **73** indicates **E.min = 73**. This is the **min** cost required to go from **source to E**.
+
+* **Shortest** path of **B-E** -> B-A-D-C-F-E
+
+> Go to **E** first and ask who is the **parent E**. Do it for all of them. That's how we will find the **Shortest** path.
+
+> The **Shortest** path of **B-E** and the **Output the sequence of vertices** by the algo are the **same** but there is **no relation** between them.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d5668970-be23-44e6-b5c4-0db1a408bf81)
+
+* In this **directed** graph problem, we have **many** destinations
+* In the **previous** problem there was **one** destination.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a849e1e-11ac-4a13-9922-59eb39f1983c)
+
+* Shortest path means **we do not care** if it is **one length or two length** paths, we want the **min** cost.
+
+* Any relation between MST and shortest path? [**IMPORTANT**]
+
+> Both the **Prim's and dijkstra's** have created a **similar** kind of algo> There might be some **small** relation, but they are **different** stories.
+
+* MST means **every vertex** is covered. There is **no best or worst**, every **vertex** should be covered and in there **best** are taken.
+* **Shortest** path, maybe one length is **better**, we will take that. If **two** length is **better**, we will take that. We don't have any condition, of taking this or that. **Best one** we will take, whichever is **better**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f2849e4-5c3e-4ce1-8537-9d7cf484d1f5)
+
+* We are using **adjacency list and min-heap** only.
+
+> We have to check **adjacency** everywhere and we are using **adjacency list**, so the **degree** should be **2 * E** but as it is a **directed** graph, so the **degree** is **E** only. We have **E** in-degrees and **E** out-degrees, take either.
+
+> Because of **directed** graph, **double edge** or **2 * E** will not come. It will be just **E**.
+
+> In **un-directed** graph, **double edge** or **2 * E** will come.
+
+* That's the **only difference**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e504c080-decc-4058-889e-5a448cf114b4)
+
+* Time Complexity -> **O((E + V) * log V)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/de71b338-e4d0-4054-bce3-5f216c4395d8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c882ef7-d781-4280-a0f3-8baec6394dfb)
+
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63464a7e-c1b3-470f-ad29-5c3bc3e31d00)
+
+* It is a **directed** graph and the source is **A**.
+* If we want to go from **A to B**, **directly** it is **10** units.
+* If we want to go from **A to B**, **indirectly** it is **50 + something** units.
+
+* Purpose -> **Dijkastra's** algo failed for **negative** values.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b2d76f3-7fa7-43b2-8bd6-a115832ee57e)
+
+* **A** is the source vertex.
+
+> **Dijkastra's** will never bother about **negatives**. He will consider it as **normal**. It is the only blunder that  **Dijkastra's** has done. The blunder is that **50 + something**, he will always think that it is **always bigger than 50**. He will never think about the **negatives**. That's why it will end up with **wrong** answer.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/23c3795b-8f79-40de-a4da-78dbe7eaf20f)
+
+> As of now, **Dijkastra's** has seen only **two** values which are **10 and 50**. Direct path is **10** and indirect is **50**. He has taken **10** only because one is only **10** and other is **50 + something**. He thought **50 + something** is more than 50. There is **no chance** of **10** so he will happily take **10**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf3517c1-6263-4164-b241-ff6e5695b299)
+
+* **Dijkastra's**. It is saying if **already done** then don't touch.
+* If graph contains **negative edge weights** then **Dijkastra's** may fail.
+* If graph contains **positive edge weights only** then **Dijkastra's** will always **pass**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/975fae71-0de1-4e4a-bbc6-b76786a9773c)
+
+* Manual and **Dijkastra's** are **different** that why **fail**.
+* Even if we see **one negative value** also then **Dijkastra's** may fail, we have **doubts** on **Dijkastra's**.
+* **Dijkastra's** with **negatives** means **dilemma**.
+
+* Between **Dijkastra's** and **bellman-form**, **bellman-ford** is working **more**, so that **no mistake** will happen for **both**, **positive and negatives** as well.
+
+> **Bellman-ford** is taking **more time** because it is working for **both**, **positive and negatives** as well.
+
+> **Dijkastra's** is saying that he will do with **cheaper** cost.
+
+> **Bellman-ford** is saying that it is meant for **negative** and if is being used for **positive**, so it will take **more time**.
+
+> That's the **only problem**.
+
+* Graph has positive values only -> **Dijkastra's** and **Bellman-ford** both.
+
+> **Dijkastra's** is beneficial because it was designed for **positive values only** whereas **Bellman-ford** was designed for **negative values**. It can work on both **positive and negative values**. So, **Bellman-ford** will do more work on **positive values** compared to **Dijkastra's**.
+
+> So, **Dijkastra's** is **cheaper** than **Bellman-ford** in **positive values**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f1fad5a3-0f92-43e0-a3ec-b4b8c6c7d251)
+
+### Notations
+
+* Vertex-A-relaxed: At 'A' adjacent vertices perform **decrease key** operations.
+
+* The vertex's relaxation is equal to the vertex's adjacent people, i.e it's **degree** which is **log V**. Sum of degrees is **E** because it is **directed graph**. So it is **E * log V**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ae13de9-c72f-495a-a15f-8cd92091980f)
+
+> In case of **Dijkastra's** every vertex is relaxed **once** only. **A** cannot come again and again.
+
+> When **relaxation** over, **A** will be **deleted**. When **A** has done **decrease key** operations on it's adjacent vertex then **A** is **deleted**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8eff9583-fb7e-4f45-9061-af3fa98fafaa)
+
+* So the **right side**, time complexity of **Dijkastra's** is **O(E * log V)**. **Right side** is **relaxation**.
+* So the **left side**, time complexity of **Dijkastra's** is **O(V * log V)**.  **Left side** is **deleting**.
+* Overall is **O((V + E) * log V)**.
+
+* In **Bellman-ford**, **every edge** will be **relaxed**, **V** times.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/547ef646-418d-4533-aaa4-144ff4414c05)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d0229d5-fffb-4fa0-b5cc-e2749d64b065)
+
+* In case of **Bellman-ford**, there are **V** no. of vertex, for **each vertex**, we will do **V** rounds of relaxation.
+
+> **In case of Dijkastra's every vertex is relaxed once only** means that **how many no. of edges, we have done decrease key?**. Total is **E * log V**. **Decrease key** is **log V** and we have **E** edges. **One time** relaxation of **all over** means **E** edges we have covered.
+
+> In case of **Bellman-ford**, when **round 1** is over, on all edges we have done **decrease key** operations **one time or once**.
+
+* **Dijkastra's** will go by **vertices**.
+* **Bellman-ford** will go by **edges**.
+
+> **Dijkastra's** algo is completed, **how many edges covered?**. We have covered **E** edges. In other words, **every vertex** is **relaxed** once. All edges are covered once.
+
+* Who will go **edge by edge**, **Dijkastra's** or **Bellman-ford**?
+
+> **Bellman-ford** will go **edge by edge**.
+
+> **Dijkastra's** will go **vertex by vertex**.
+
+* **Dijkastra's** saying that **every vertex is relaxed once only**, it means **all edges** are over.
+* **Bellman-ford** will **directly** say that **all edges** are over.
+
+> **Round 1** in **Bellman-ford** means that **all vertex is relaxed once only** means **all edges** we have done.
+
+> **Round 1** in **Bellman-ford** means that **all vertex are relaxed again** means **all edges** we have done.
+
+
+* Steps for **Bellman-ford*:-
+
+1) Go to graph and check **no. of edges**. Give edge nos., just cover all edges.
+
+* Source is **A** vertex.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e0d220ec-c09b-4321-8e3b-c4c396f756ff)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/11c14f87-2873-4f6b-9316-17fd46034653)
+
+* The **Bellman-ford** graph is present in **array**.
+* Why not **min-heap**?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed1027af-41b5-432e-b688-807f16881f04)
+
+
+* In the **round 1**, how many **decrease key** operations we have done?
+
+> We have tried **E** edges. So, **E** **decrease key** operations we have done. In array, **decrease key** operations time is **constant or O(1)**. So the time is **E * 1 -> O(E)**.
+
+* Every round we are covering **E** edges in **Bellman-ford**. We are covering **E** edges, **V** times.
+* Every round we are covering **E** edges in **Dijkastra's**. We are covering **E** edges, **1** time.
+
+> **Round 1** indicates, **1 length** path.
+
+> **Round 2** indicates, **2 length** paths will come.
+
+
+* Why **array** and why not **min-heap**?
+
+> If we want to delete **min** everytime, then we will use **min-heap**. We don't want to **delete** anyone.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c5202b1-1256-4697-a83e-cb701f001614)
+
+> Acutally **V - 1** rounds required. So **3 rounds** are required as we have **V=4**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89e6dce9-4db8-488a-98e8-2bebb95f3b8b)
+
+* So we have **O(V)** rounds in **Bellman-ford**.
+* Every round is **E** time.
+* Overall time complexity of **Bellman-ford** -> **O(V * E)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32b0a457-660d-4c20-9882-da5f5f8bd36c)
+
+> We have to do **V** rounds because of **negative** values.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1548f4f8-990c-446b-9d9b-4332e9a78aaa)
+
+* Time complexity of **Bellman-ford**, where the graph is **complete graph**, so **E = (V ^ 2)** -> O(V * (V ^ 2)) -> **O(V ^ 3)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c87e2de-a9bc-472a-9447-b12d4d4fdd57)
+
+> After completion of one round, all **edges** are over, then write the answer.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/79a9de59-587a-4adf-8b68-6a5af299708e)
+
+> We have **4** vertices, we need **V - 1 -> 4 -1 -> 3** rounds.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae12ed71-8999-4bb8-af8a-00ef37639d0e)
+
+* If we don't mention anything, then **by default** it is **list**. There are **advantages** of **list**. No requirement of showing extra.
+
+* In **Bellman-ford**, we are using **normal array** instead of **min-heap** and in place of **adjacency matrix** we are using **adjacency list**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a300f1d2-8570-4043-9d3f-a0995c3bc275)
+
+* Spanning tree always contain **V - 1** edges.
+* In graph if we apply **Bellman-ford** what will be the time complexity, where the graph is a **tree**?
+
+> Tree means **V - 1** edges. So, **E = (V - 1)**.
+
+> Time complexity -> **O(V * (V - 1)) -> O(V * V) -> O(V ^ 2)**.
+
+* In graph if we apply **Bellman-ford** what will be the time complexity, where the graph is a **complete graph**?
+
+> Complete graph means **V ^ 2** edges. So, **E = (V ^ 2)**.
+
+> Time complexity for complete graph -> **O(V * (V ^ 2) -> O(V * (V ^ 2)) -> O(V ^ 3)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6bba1a23-7ec9-4d89-957e-2b1d68c80557)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/748a0179-ea33-43c2-9c52-f93371fe478d)
+
+* Directed or not, doesn't matter. It will work for **both**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe90e2c2-9520-4dfe-ae74-0f09bf72d81a)
+
+* Every round, **decreasing by 2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6f28784-bd37-4fb7-8221-17b368ba2667)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a950339b-64c0-4703-bd07-ee8f68be37c3)
+
+> **A to B** cost is **infinite** means that there is **no path**.
+
+> **A to B** cost is **nwegative infinite** means that there is a **negative edge weight cycle** exists. 
+
+> In the cycle **total sum** is **-2**. It means after **every round**, it will **decrease by 2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/404aeb2e-2376-4df9-a176-b7ed0aefe83d)
+
+* **Negative edge weight cycle** -> After every round, cost will **decrease**.
+
+> We want **less** and everytime it is giving **less**, so we will repeat it **many time**.
+
+> **D** vertex is not a part of the **negative edge weight cycle** but it is **dependent** on it as **D** vertex is coming after it only.
+
+> **B and C** are a part of the **negative edge weight cycle**.
+
+* What is the difference between **positive edge weight cycle** and **negative edge weight cycle**?
+
+> **Positive edge weight cycles** means **sum** of all **edge weights** in the **cycle** is **positive**.
+
+> Positive means after every round, **cost** will **increase**.
+
+> **Negative edge weight cycle** means **sum** of all **edge weights** in the **cycle** is **negative**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f3993a23-8581-4d11-b36f-406549bc8bb4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb99d315-540e-427f-9607-3956c3830c25)
+
+* Graph containing **negative edge weight cycles**?
+
+> **Dijkastra's** algo will **always fail**.
+
+* Graph containing **negative edge weight**?
+
+> **Dijkastra's** algo may **fail**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2a1f8ff-88ce-497f-b9cd-6b860bd496d9)
+
+* **Positive edge weight cycle** as **60-48 -> 12**. That's why we are not concentrated that much because every round, **cost** will **increase**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d332dc1c-ee56-434d-901d-1ad2640abbff)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/722fa6c1-42a6-4d5f-9261-5e255ae57175)
+
+* For **manual** purpose.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c7f4c6e-852c-44cd-a226-d877fb5203e6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98555fe4-b419-4ad5-a203-b98e06359475)
+
+* We actuall require **V - 1** rounds which is **4 - 1 = 3** rounds here. 4th round is for **verification**.
+* We are using **normal array** that's why **decrease key** operation is taking **O(1)** time.
+* Last **two** round should be **same**, but they are **different** in the **below question**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27cf5f54-1d24-4460-9ea3-63fcccd89a5d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4caa0592-64de-42d8-b1e3-f28ee75c96c9)
+
+* **B, C and D** are **different**.
+* In the **Vth** round, they cannot **change**. If they **change** or whoever **changed** they are part of the **negative edge weight cycle** because they will **change** everytime.
+
+> In the **last round** or **Vth** round, whoever **changed**, they will **change** everytime. **Stop** and say they are part of the **negative edge weight cycle**. So their values are **negative infinites**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/418b8e69-8f3a-4427-925d-ac2d30fc656c)
+
+* **Last round** or **Vth** round is for **verification**. It is for **negative edge weight cycle** verification. **Negative edge weight cycle** exists in the graph or not, this gives some **clarity**.
+
+* **Negative infinites** means **un-defined**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c2e9fcf-6e48-4176-a437-7493ab39bcca)
+
+* **Negative edge weight cycle** is not there as **V-1** and **Vth** rounds have **same** values.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65777143-9079-4bbe-8064-8c029538f3b5)
+
+> If a graph contains **4** vertices then the **max length** possible is **3**. That's why we are using **V - 1** rounds.
+
+* We have a graph and and in that graph, **Negative edge weight cycle** exist or not  we want to know, how much time complexity?
+
+> Apply **bellman-form** for **V** times. **Last round changes** then **Negative edge weight cycle** is there. If **no changes** in the last round, then no **Negative edge weight cycle** is there.
+
+* **NOTES**:-
+
+1) If graph contain, negative edge weight or positive edge weight or both(but no negative edge weight cycle) then **bellman-ford** algo will always give the **correct answer**.
+
+2) While performing **bellman-ford**, in the last round **BCD** vertices answers are **changed** then we can confirm that **BCD** vertices are related to **negative edge weight cycle** and their **answer** is **negative infinite(un-defined)**.
+
+3) **Other vertices** which are **not part** of the **negative edge weight cycle**, it will give **correct answer** which means their **answer** is **defined**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1daff0e0-d60a-48a0-a1e7-cbda307f2463)
+
+* Dis-connected graph.
+
+> Even though **3** negative edge weight cycles, **Bellman-ford** is able to catch **only one** negative edge weight cycle.
+
+* Which one of the **following** is **True** for **Bellman-ford**?
+
+1) **Bellman-ford** will find out all **negative edge weight cycles** present in the given graph.
+2) **Bellman-ford** will find out all **negative edge weight cycles** present in the given graph if they are **recheable** from **source.
+
+> **Statement 2 or (2)** is **correct**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/00959722-5918-43fc-a4b5-c0ac080ca311)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7434b146-80d8-430a-9deb-c1b585df28c8)
+
+* **NOTES**:-
+
+> **Bellman-ford** will find out all **negative edge weight cycles** present in the given graph if they are **recheable(connected)** from **source. **TRUE**.
+
+* All Edge weights are positive -> Dijkastra's and Bellman-ford
+
+> Dijkastra's has **better** time complexity than Bellman-ford. Dijkastra's **max** time is when **E = (V ^ 2)** which gives **(V ^ 2) * log V**. For Bellman-ford **max** time is when **E = (V ^ 2)** which gives **V ^ 3**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d447152e-6f5c-4b66-86b8-1f71e3b039a3)
+
+* Negative Values -> **Bellman-ford**.
+
+## Miscellaneous-II (49) [22nd May 2023]
+
+## Dynamic Programming
+
+* Greedy programming  is **short-cut** among **dynamic and greedy** programming.
+* Dynamic Programming will give **optimal** answer for **every problem**, **YES**.
+* Dynamic Programming is not a **short-cut**. It is more like **intelligent brute force**.
+
+* **Knapsack** problem will be solved by **both** **dynamic and greedy** programming. Greedy programming  is **short-cut**.
+
+> If any **problem** solved by **Greedy**, we don't need to go to **dynamic** programming because **dynamic** programming mostly will take **more time** than **Greedy**, as it is not a **short-cut**.
+
+> **Greedy** said he can't help, then go to **dynamic** programming. He may help but will take **more time**. It is like **intelligent brute force**.
+
+> If a problem can be solved by **both greedy and dynamic**, we will use **greedy**.
+
+> If some problem or little bit dilemma with **greedy** or sometimes, **greedy** is failing,  then simply go to **dynamic** as **dynamic** is **possible for all**.
+
+> Greedy will give sometimes **correct answer** for **some problem(Knapsack, MST, Hauffman, Job sequencing)**.
+
+> Dynamic will give always **correct answer** for **all problems**, maybe **more time**.
+
+> We cannot give **short-cut** for **all problems**.
+
+> Dynamic is possible for **all problems**.
+
+## Applications of Dynamic Programming
+
+1) Fibonacci Series  [**IMPORTANT**]
+2) Longest Common Sub-sequence(LCS)  [**IMPORTANT**]
+3) Matrix Chain Multiplication(MCM)  [**IMPORTANT**]
+4) 0/1 Knapsack(Fractions not allowed)
+5) All pairs shortest path
+6) Sum of subsets problem
+7) Optimal cost BST
+8) Travelling sellsman problem.
+
+## Fibonacci Series
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/67e56140-0887-43d0-978a-8798f736e28b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2d16910c-a4f7-434f-9dab-4285de74886d)
+
+* Recurrence Relation for **fibonacci** time complexity:-
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd26af59-c90a-42f1-9244-09124ae458c8)
+
+> **Recursive** program **stack space** is based on the **no. of levels** in the tree. As, **n** levels tree, so **n** stack space.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76826867-af80-4008-b62f-c764875ca89b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09c8064b-2750-42e2-9360-380c85f38a22)
+
+* **Space Complexity** of a **recursive program** -> Extra space, other than **input**.
+
+> Normally in **recursive programs**, the extra space is **stack**.
+
+> Normally in **non-recursive programs**, the extra space is **constant** and the **stack size is '1'** as no function call nothing.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ecc3d18-756f-469c-a061-2d90eb3e6187)
+
+> Both **recursive and non-recursive programs** take **stack** space but **recursive** programs take **more** than **non-recursive programs**.
+
+* What is the **stack space** of **fibonacci series**?
+
+> It is another way of asking for **space complexity**. It is **n** here.
+
+* Time Complexity  -> **O(2 ^ n)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c30a32e6-d2e5-4c12-ad2a-7612945d5142)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63a74386-6fe4-44f3-8472-a99cd3f6d628)
+
+> **Fib(6)** we want to **calculate**, **Fib(5) and Fib(4)**, these **two** are enough but how we will get **Fib(5) and Fib(4)**? Internally they will call **two more** functions.
+
+> To **calculate** the **Fib(6)**, internally **2 ^ 6** function calls are **required**. Every function call will take **constant** time.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/228fa430-edd8-4168-87a5-3473afb1e81e)
+
+> **a and b** will give **function calls** and **c** will give **one function call** cost. **One function call** cost is **c** after getting **a and b**. **a and b** will be taken care by **2 ^ n** function calls.
+
+* To solve **f(n)** problem, how much time required?
+
+> **c** time required after **a and b** functions are done. **a and b** functions will take **2 ^ n** function calls. So it is **(2 ^ n) * c**
+
+> So, the  **f(n)** problem is taking **(2 ^ n) * c** time. **c** is the **one function** cost. While solving the **problem**, **(2 ^ n)** function calls are needed.
+
+> So, **(2 ^ n)** function calls means **(2 ^ n)** and **one function call** cost is **constant(c)**, so it is **(2 ^ n) * c**.
+
+* Recursive program, time complexity we have to calculate -> Write **Recurrence relation** and solve it.
+
+> It is a **complete binary tree** with **six levels**.
+
+* **Fib(6)** contains **(2 ^ 6) - 1** nodes. It is **upper bound**. **Every node** is a **function call**. So, we have **2 ^ 6** function calls. We know that **function call** cost is **constant(c)**.
+
+* **Fib(6)** -> **(2 ^ 6) * c**.
+* **Fib(n)** -> **(2 ^ n) * c** -> **O(2 ^ n)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed4b4e24-b91d-4903-be50-3c2a64512820)
+
+> **Fib(6)** contains approximately **2 ^ 6** function calls, which means **2 ^ 6** nodes.
+
+* Time complexity of **Fib(n)** -> **O(2 ^ n)**.
+
+> Because we have approximately **2 ^ n** function calls and **every function call** is **constant** only.
+
+> If we want to calculate **Fib(6)**, then **Fib(7)** is not required. We require **Fib(5) and Fib(4)**.
+
+> If we want to calculate **Fib(6)**, then **including** himself, how many people required? **7** people are required.
+
+> If we want to calculate **Fib(6)**, then **including** himself, we require **6 + 1 = 7** function calls are required.
+
+> If we want to calculate **Fib(n)**, then **including** himself, we require **n + 1** function calls are required.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44000354-7abb-414e-a893-713ed2ea888a)
+
+* If we want to calculate **Fib(6)**, then **7** only function calls are **required**.
+* If we want to calculate **Fib(n)**, then **(n + 1)** only function calls are **required**.
+
+* Unfortunately inside the **system**, to calculate **Fib(6)** we require approximately **2 ^ 6** function calls.
+* Unfortunately inside the **system**, to calculate **Fib(n)** we require approximately **2 ^ n** function calls.
+
+* **Acutally** to calculate **Fib(6)**, **7** only function calls are **required**
+* **Acutally** to calculate **Fib(n)**, **(n + 1)** function calls are **required**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/78cb70d0-d816-4cc9-ac5a-983ad89d81fc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d17376d1-f2ef-4958-93c0-60a314022dfc)
+
+> Actually in the **diagram** a lot of **repeatation** is there.
+
+> **Acutally** to calculate **Fib(6)**, **7** only function calls are **required** but because of so many **repeatation** going on inside, function calls are **increased** from **7** to **2 ^ 6 = 64** function calls.
+
+> **Acutally** to calculate **Fib(n)**, **(n + 1)** only function calls are **required** but because of so many **repeatation** going on inside, function calls are **increased** from **(n + 1)** to **2 ^ n** function calls.
+
+> Recursive program inside the computer is suffering from one **disease**, it is called as **repeatation**.
+
+> **Repeatation** is also called as **over-lapping sub-problems**.
+
+* **Intelligent brute force** and **brute force**, who will solve every problems?
+
+> **Both** will solve but **every** problem, **one time** only, that is **Intelligent brute force**.
+
+* **Every** problem, **every time** ->  **brute force** -> Brute force programming.
+
+* **Every** problem, **one time** only -> **Intelligent brute force** -> Dynamic Programming.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bebd40eb-299e-48ba-b7ca-1e2613703af3)
+
+* Who will solve **distinct only**? **OR** 
+* who will solve **only distinct**?
+
+> **Dynamic Programming**.
+
+* **Fib(n)** solved by **brute force** will take **O(2 ^ n)** times. 
+* **Fib(n)** solved by **Dynamic Programming** will take **O(n + 1) -> O(n)** times, which is **function calls**. 
+* **Fib(n)** solved by **Dynamic Programming** contains **(n + 1)** function calls that are **distinct function calls**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/04445421-067d-44a5-aee5-26376e666de7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/10945a3a-fe59-48a5-82d4-626e8d97dd03)
+
+* If we solve **everyone** and **everytime**, then it is **normal programming/brute force**.
+* If we solve **everyone** and **only once/distinct**, then it is **dynamic programming**.
+
+> In **dynamic programming**, if anyone comes then we will check if it is **new or old**, if at all **new** then solve, if at all **old** then we will **not solve**. We have to check the **condition**.
+
+> In **brute force**, if anyone comes then simply **solve directly** without asking or checking any conditions. Just solve.
+
+* **Dynamic programming and brute force** both are **recursions**.
+* **Dynamic programming** is **conditional recursion**.
+
+* With or without dynamic programming, which is **more** time?
+
+> **Without dynamic programming** is **more** time but **less** space.
+
+> **With dynamic programming** is **less** time but **more** space. **More** space because as soon as we **compute** we will have to **store**.
+
+> With **Fib(6)** we have **n + 1 -> 6 + 1 -> 7** distinct function calls. They are **Fib(6), Fib(5), Fib(4), Fib(3), Fib(2), Fib(1), Fib(0)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df2a1a33-6fb5-4c45-9e81-62ecc1902afe)
+
+> Whenever we are solving **Fib(6)**, distinct function calls are **7** which are from **6 to 0** or **0 to 6**. Take **one array** with **7** slots.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a813e49-ac4d-4fa0-9caa-f08d2b0920c2)
+
+> How many **distinct elements** will come, take that much table(T, array name).
+
+> First we calculated **Fib(3)** and that data will be stored in **table[3]**.
+
+> First we calculated **Fib(6)** and that data will be stored in **table[6]**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a19630a7-dd48-477b-8de6-3a00d31593c8)
+
+* Initially **table** is initialized with **NULL*** only. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7746a579-dd55-4cd0-8bcb-69d34e20852a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/385c1373-1f0c-4c17-a83c-5c544d1a07c3)
+
+> One more time, **Fib(3)** came. First we will check that if **table[3]** is **NULL** or not. If **NULL** which means **not available**, if **not NULL** then **available**.
+
+> If **NULL** then we **compute/call**, if **not NULL** then **don't compute**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3afe7c6e-93ee-4de3-8f02-e894a285250c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/61c0f0f5-14f4-47da-bcab-4a598ba3b673)
+
+> In **normal/brute force** after **computing**, we are **not storing**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27c89f37-d4eb-49e6-9015-de01e0d4662f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1fde1653-8d32-4cc8-a253-5d3024a5085f)
+
+* **NOTES**:-
+
+1) In the above **recursive tree**, many function calls are **repeating**, also called as **over-lapping sub-problems**.
+
+2) What is the need of **computing** the same function again and again?
+
+3) In **dynamic programming**, we will only computer **distinct function calls** because as soon as we computer **any function**, we will store it's value in the **table(array)**, so that we can **re-use** it afterwards if it is needed.
+
+4) How many **distinct function calls** in **Fib(n)**?
+
+> **Fib(n)** required **n + 1** function calls which are **distinct function calls**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e32287d-6eaf-46aa-80cd-b3d4f6268f0d)
+
+* **One distinct function call** is **constant(c)** time.
+* Time Complexity of **fibonacci series** using **Dynamic Programming** -> **(n + 1) * c -> O(n)**.
+
+> Extra **table size** is **distinct function calls**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cafbeebb-a70c-46cb-9b7f-7ea0951f1c78)
+
+> If we have **(n + 1) distinct function calls** then the **table size** is **(n + 1)** only because for **every function call** we have **one slot**.
+
+> Before going to **call**, we will verify the **table**.
+
+> We want to find **FIB(5)**, we will verify at **table[5]**. If **table[5]** is **NULL**, then **no value** is **available** and hence **compute** and **store**.
+
+> We want to find **FIB(4)**, we will verify at **table[4]**. If **table[4]** is **not NULL**, then **value** is **available** and hence **don't compute**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe6bf01f-bded-4bd5-9429-d53996e4b448)
+
+* 'T' -> It is the **table array** where we are **storing** the **newly computed values**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c6f13da-4600-40df-a31b-33942efca5d2)
+
+* **1 and 3** lines are **extra**.
+* If we **remove** lines **1 and 3** then the **time complexity** is **O(2 ^ n)**.
+* If we **keep** lines **1 and 3** then the **time complexity** is **(n + 1) -> O(n)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e44848ee-6be5-447a-ba83-deabf907f59e)
+
+* **Both**, dynamic and brute force are **recursion**. So, both will take **stack space**.
+* In brute force, **stack space** is **O(n)**. There is **no table(array)**.
+* In dynamic programming, **stack space** is **O(n)** also.
+
+> Because of **recursion**, both will take **stack space** of **O(n)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5dc5d15b-8aa4-4996-8328-a5518a02ee87)
+
+* **Time complexity** of **fibonacci series** using **dynamic programming** -> **(n + 1) -> O(n)**
+* **Space complexity** of **fibonacci series** using **dynamic programming** -> **(n + (n +1)) -> O(n)**
+
+> **n** is the **stack space** as it is a **recursive** program. **(n + 1)** because we are using an **extra table array**. 
+
+* What is the **drawback** of **dynamic programming**?
+
+> Little bit extra space used/taken. As soon as we **computer**, we have to store the **computed** value.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e79954c-00f1-464c-91f7-1aab9fcfe84c)
+
+* How stack size is **n** here also?
+
+> Initially **nothing** is available.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b924fa5-0875-4cf5-98b6-2eec42376d72)
+
+* **dynamic programming** is **slow** at the **starting** because at the **starting**, nothing is **available**.
+
+> In the **dynamic programming stack**, only **distinct function calls** will only go.
+
+> In the **brute force** stack, **everyone** will go.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c5ad7c78-687f-4578-98a8-40755e740841)
+
+## Miscellaneous-II (50) [23rd May 2023]
+
+* How do we find the time complexity of a normal recursive program?
+
+> Write **recurrence relation** for time and solve it.
+
+* How do we find the time complexity of dynamic programming?
+
+> Don't Write **recurrence relation** for time. It is not possible as it is a **conditional recursion**. Calculate **distinct function calls**.
+
+* Time complexity of **Fibonacci series** for **dynamic programming** -> **O(n)**.
+* Both **brute force and dynamic programming** uses **stack**.
+* Both **stack size** is **n**. As **stack size** is based on **no. of levels**.
+* Dynamic programming uses the **table(array)** whose size is **no. of distinct function calls**.
+* In **normal recursive program**, the **stack** is used **more** because everyone is going into the **stack**.
+* Dynamic programming is slow at the **starting**.
+* Dynamic programming is a **great** idea if **repetition** there.
+* Dynamic programming is a **worst** idea if **no repetition** there.
+* Brute force is sometimes **better** when there is **no repeatations**.
+* Dynamic programming is sometimes **better** when there is **more repetition**.
+* Dynamic programming will take **less time** if **repetitions** are there.
+* If **no repetitions** are there, then **brute force** is **better** as we are wasting **extra space** in **dynamic programming** with the **table(array)**, anyways we have to do all.
+
+## Longest Common Sub-sequence(LCS)
+
+* NP Complete problem.
+
+* **Sub-sequence** of a given sequence is just the given sequence only in which **0 or more** symbols are left out.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/826c5f78-7e8e-4f6b-8a06-b05b5cf9a502)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95fac825-f0bf-4c4b-ba63-eef8a0a95204)
+
+> Don't try and change the order.
+
+> As the sequence(S) is in the **ascending** order, the **sub-sequences** need to be in **ascending** order also.
+
+* **Common sub-sequence** means the **sub-sequence** is **common** to both of the **sequences**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a59f30eb-97b5-4d25-a8cd-22f88af01129)
+
+> **(A B A B) and (B A B A)** are not common subsequences.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c8332223-32dc-4541-a44a-ffec21252937)
+
+> **Four(4) length subsequence** is not possible. So, among the **0,1, 2 and 3** length subsequences that are possible, **longest** is the **3 length subsequence**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/950c33d8-d2b4-4914-adff-6d1b549a97d6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e68e7542-4678-4e0f-a937-fec1f42c1c4c)
+
+* **3 length subsequence** is called as the **Longest Common Sub-sequence(LCS)**. Among all of the **subsequence**, **3** is the **longest one**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0cd9abe3-55a5-441b-b3e1-0e8ea8fb4b40)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac85d515-91f9-41f5-bf6b-d5195ae38133)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a4e856dd-bf90-49a8-928a-ea46c1f82c77)
+
+* The **Longest Common Sub-sequence(LCS)** is **5 length sub-sequence** here.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e0c13d2-14c8-4079-92d4-dc133c847742)
+
+> Multiple **sub-sequences** are possible for **every length**, just give **one sequence** for **every length**.
+
+* 'm' is the length of the **Longest Common Sub-sequence(LCS)** which is **5** here.
+* 'n' is the **no. longest Common Sub-sequence(LCS)** which is **2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e44e6d3-da87-46c7-bee3-e51b74aa9fd9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ee20f1f-aebc-4a63-a447-35a5233c5f21)
+
+* **Longest Common Sub-sequence(LCS)** input -> 2 sequences(x and Y)
+* X's length -> m
+* Y's length -> n
+
+> 'X' contains **m** symbols. 'Y' contains **n** symbols. For both of them, we are trying to find out **Longest Common Sub-sequence(LCS)**.
+
+* Let LCS(m,n) -> The **length** of the **Longest Common Sub-sequence(LCS)** of **2-sequences(X and Y)** where 'X' contains **m** symbols and 'Y' contains **n** symbols.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf11c84e-2116-42b6-9379-01eb594ccfd7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d89c1cf-8539-4a8c-922f-81d4019b62e1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/47271de8-ee2f-43bc-9704-b0bc641fdfd8)
+
+* **LCS= 0** if any **one** of the **sequence's length** is **zero**. 
+* **LCS(5,0) = 0**.
+* **LCS(0,5) = 0**.
+* **LCS(0,0) = 0**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09d2d16a-c0c2-456f-a155-50543836f19c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a9abef8-37f2-423d-b69d-0fe667da05cb)
+
+* **LCS(X,Y) -> LCS(5,4) -> 3.
+
+> So the **Longest Common Sub-sequence(LCS)** is **3**.
+
+* In **short-cut** order matters.
+* If we are taking all anyways then ordering doesn't matter.
+* Order matters in **greedy**. We cannot take all.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a998c7a-9dad-401c-b345-d69dd0927865)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b31b05e-0118-43d0-ab69-77f2fc170953)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/579fd84b-f11b-4452-bed2-cc08886362dc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80c47b2f-37ac-431b-aefc-45bc7ac70243)
+
+> In **LCS(3,2)** it is **not matching**. We should **decrement** both or just one sequence? 
+
+> We don't know if **decrementing** first one is **better** or **decrementing** second one is **better**. So **do both**. Whichever is **better** take.
+
+> We could try **LCS(2,2) or LCS(3,1)**, maybe they will have the **answer**.
+
+* Max(LCS(2,2), LCS(3,1))
+
+* If **match or matching** then we are doing **+ 1 or One(1) plus**.
+* If **no match or not matching** then don't **add** anything.
+
+> If **no match or not matching** and if we **decrement** both then **worst** answer will come which is **zero(0)**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24e19a22-9156-4dad-92e9-efdecd5a1690)
+
+* If **not matching**, then **brute force** came and cover **all possibilities**.
+* More work required in **not matching** case.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9710f997-56e5-4a6b-bf73-b1e52e348e05)
+
+* Max(LCS(2,2), LCS(3,1)) -> Max(1, 1) -> 1
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d66dc39b-94c8-42e2-996d-db0d79f9f831)
+
+* LCS(5,4) = 3, using **dynamic programming**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a48719e2-2ca2-440a-bf9a-fb1bb1437f03)
+
+* If **no matching** and we **decrement** both then we get **LCS= 0** but the **actual answer** is **LCS= 5**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b482a60-59d8-4995-b0c7-8c42d349177f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f29dcb54-beea-43ff-af1b-ddf20b4874fd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8338a59-4d61-4406-b7ee-25053d910334)
+
+> If **no matching** then **decrement** first one and try then **decrement** second one and try. Check, whichever is better, take that.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aadf65d8-21f3-488e-a652-9430b2cbe5d4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b207fd7b-10a4-463b-b17b-36d3074877d5)
+
+* For **small problems** also, same story of **dynamic programming** will happen.
+* If **not matching**, which is the **real problem**. 
+* Brute force is in **not matching** case.
+
+### Algo
+
+* Recursive program.
+
+> When we come to the **else** part means **X and Y** sequences have some **symbols** to compare.
+
+> The **second else** means **no matching** case. Real problem is in **no matching**. We will **decrementing anyone**. We don't know which will give **best**, so we have to do **both** and see which is giving **better** result.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b377f7b-3916-4558-aca4-aa36e0e48972)
+
+> **Termination** case doesn't give **best or worst** case.
+
+> Everything in the **Recursive program** is given by **else** part.
+
+* **First else** will give **best case** because only **one function** call.
+* **Second else** will give **worst case** because **two function** calls. 
+
+> More function calls, more cost.
+
+> Less function calls, less cost.
+
+> Brute force area or Dilemma area is **second else** which is **more cost** as **more function calls**.
+
+* Everytime **matching**, then **best case** will come.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3bba8eee-906d-44e7-938f-49ed46c895c6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eaf6624e-b9ea-4426-9f6c-1cfa087e6786)
+
+* Time complexity of **LCS** for **best case** -> **O(min(m,n))**. [First else will give **best case**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0d9569c-c28f-45ff-ad3d-7a3b55c39a5b)
+
+* Best case
+
+> **Worst case** is **everytime** there is **no matching**, it is a **binary tree** tree as there are **two** function calls everytime.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fddae3b5-0ca5-4d65-8fb7-d7a74b4e8f4b)
+
+* Brute Force
+* What extra we have to do to make it into **dynamic programming**?
+* Before every function call, check.
+* **Conditional calling** is called as **dynamic programming**.
+* **Blindly calling** is **brute force**.
+
+> If **repetitions** are coming then only we will check **conditions** and go for **dynamic programming**.
+
+> If **repetitions** are coming then **dynamic programming** otherwise **no dynamic programming**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b990a30-82f4-4c5d-9c80-c4d6e42d3c10)
+
+* LCS(4,3)
+
+> If we see **repetitions** in the **top** level, then we are sure that there is a lot of **repetitions**.
+
+> We have **4 + 3 -> 7** and we have **7** levels.
+
+* It means **tree height** also matters.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a541388a-e8d9-4700-8696-452913b84536)
+
+* If we want to find **time complexity** then **tree height** also matters.
+* Left height =7.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f7d1b51-fe98-48de-85dd-ee3af002e714)
+
+* Left and right height is **same** which is **m + n -> 4 + 3 -> 7**. 
+* So, **m + n** level tree came.
+
+* Purpose of drawing the tree?
+
+> In dynamic programming, we have to draw the tree. Reasons:- [**IMPORTANT**]
+
+1) Repetitions there or not there, we have to check.
+2) Tree height also we want to know.
+
+> Dynamic programming doesn't go blindly. It will only go if **repetitions** is there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f3d82ca-5c96-4c1a-b4a6-ef567247b895)
+
+* Tree level -> (m + n).
+
+> **Repetitions** is there, so we go to **dynamic programming**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a507bcbe-75a6-443e-9722-9e6ce9a2fa3a)
+
+* T(m,n) -> Time complexity of **LCS(m,n)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ee34f1b-988b-4582-a7eb-07da16ddacd0)
+
+> Because of **Repetitions** only, we are getting some much higher **function calls** and higher time complexity.
+
+> **One function cost** is **constant(c)** only.
+
+> Function calls -> ((2 ^ m) * (2 ^ n)).
+
+* Without **dynamic programming**.
+* Tree level -> (m + n).
+* Time complexity for **brute force** of **LCS** for **worst case** -> **O((2 ^ m) * (2 ^ n))**.
+* Time complexity for **brute force** of **LCS** for **best case** -> **O(min(m,n))**.
+* Stack Space -> No. of levels -> (m + n).
+* Space Complexity -> Stack size -> **O(m + n)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/61d73d0d-e55f-46dc-81a2-0a7c52b94a2d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31279460-397e-4f3a-a8b7-57f9adbb0244)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/703c6aea-06bd-4906-a381-c1bad338ae8e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/555390ed-1864-458f-a48c-933820eff000)
+
+* Without drawing tree, we don't know **repetition** there or not there.
+
+> In the above **recursive** tree many function calls are **repeatating**, so we will go to **dynamic programming** for **distinct function calls**.
+
+* In **LCS(m,n)**,  how many **distinct function calls**?
+
+> (m * n), distinct function calls.
+
+* **LCS(m,n)** -> **LCS(4,3)** -> One work will be done in **m** ways and another work will be done in **n** ways. Both can be done in **((m + 1) * (n + 1)) -> (m * n)** ways.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/345e3f41-2b1e-4c4e-8b89-96ff39550c1a)
+
+* **LCS(4,3)** -> (4 + 1) * (3 + 1)
+* **LCS(m,n)** -> (m * n)
+
+* Time Complexity of **LCS(m,n)** with **dynamic programming** for **worst case** -> **O(m * n)**.
+* Time Complexity of **LCS(m,n)** with **dynamic programming** for **best case** -> **O(min(m,n))**.
+* **Distinct function calls** with **dynamic programming** for **worst case** -> **O(m * n)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f46cd83-3073-471b-af4b-796901e480a8)
+
+* The **storage** is a **table which is a 2D-array**, because we have **two** parameters here which are **m and n**. **'m' is the rows** and **'n'** is the **columns**.
+* **Fib(n)** is a **1-D array** because only **one parameter** whic is **n**.
+
+* table[1][5] stored in **1st row and 5th column**.
+* **One distinct function call** is also **constant(c)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5cae30e8-a452-45b3-a8ac-25f6fc8b8cbf)
+
+> **No. of function calls** matter, the cost of **function calls** is **same** only.
+
+* The **table size(storage)** is based on the **no. of function calls**.
+* **Stack size** is **same** as **brute force** approach which is **O(m + n)** but in **dynamic programming** we have a **table**.
+
+* Stack size -> **O(m + n)**
+* Table size -> **O(m * n)**
+* Space Complexity of **LCS(m,n)** with **dynamic programming** -> **O(m + n) + O(m * n) -> O(m * n)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fda22ceb-4fd8-4284-a72a-63ac29ee808f)
+
+* Space Complexity of **LCS(m,n)** without **dynamic programming** or using **brute force** -> **O(m + n)**.
+
+> In **dynamic programming**, **space increase**  a little bit from **O(m + n)** in **brute force** to **O(m * n)**, but the **time complexity** has **decreased** a lot from **O((2 * m) * (2 * n))** in **brute force**  to **O(m * n)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/45fdc732-1e47-44f8-9743-4906a2938fc6)
+
+* **2D-array** because in **LCS(m,n)** we have **two** parameters which are **m and n**.
+* **One** parameter then **1D-array**.
+* **Three** parameter then **3D-array**.
+
+> To **decrease** the **time complexity** we have to **increase** the **space**, **not necessarily**.
+
+> Normally, to **decrease** the **time complexity** or time, we have to **increase** the **space** a little bit.
+
+> Whenever we are **drawing** the tree we are doing **minus by one(1) or substraction with one(1)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d944417-add3-4680-806f-c1a4c7dae051)
+
+> One side **decrementing 'm'** and another side **decrementing 'n'**, which will lead to **m + n**.
+
+> Left side we are **decrementing 'm'** and **n** is not **decrementing**. Whenever **m =0**, which becomes **m** levels, then from that level onwards, **n** will **decrease/decrement**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bcfa1643-1789-484d-866a-bbcd090fe07c)
+
+* Dynamic programming time complexity means we will write **distinct function calls** because it is a **conditional recursion**. We cannot write **recurrence relation**.
+
+> Dynamic programming uses the **table** and the **table size** is based on **no. of distinct function calls** which is **(m * n).
+
+* **Table size**  -> (m * n)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4cd54be4-8621-4b1a-8072-a1b673a7270a)
+
+* Normal, **distinct** people will be there on the **left** side but sometimes they are on the **right** side also.
+* In **Fibonacci**, the **distinct** people were on the **left** side.
+* In the **LCS**, the **distinct** people are on the **right** side also.
+
+> We don't care if the **distinct** people are on the **left or right** side, if **distinct** people are there then we use **dynamic programming**.
+
+> Both **brute and dynamic** both use **stack**, the **stack size** is also **same**. In the **brute force**, everyone came but in **dynamic programming**, **only distinct** people came or **repeated** people don't come.
+
+> In **dynamic programming's** stack only **new people** come, **repeated** people don't come. 
+
+> Normally **new people** will be on the **left side**, sometimes, **right** also. Sometimes **everywhere**.
+
+* This is called as **NP Complete problem**.
+
+> Not only **left and right side** new, but the **middle** also **new** people also there. Everyone is **new**. So, we cannot go to **dynamic programming**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a402ca66-a888-4be6-942f-a2709d32b52a)
+
+* In the **tree** if all **elements** are **distinct** we will apply **dynamic programming**?
+
+> **NO**.
+
+> Example -> **Travelling Salesman Problem**
+
+> Everywhere **distinct**.
+
+* **Travelling Salesman Problem** time complexity without **dynamic programming** -> **O(n ^ n)**
+* **Travelling Salesman Problem** time complexity with **dynamic programming** -> **O(n ^ n)**
+
+> It means all are **distinct**. It is one of the **NP complete problem**.
+
+* **Dynamic programming** algo is **recursion**, so **stack** required and we require **one table**.
+* Normal recursions, **stack** only required.
+
+* If we solve **LCS** problem using **dynamic programming**, then how many **distinct function calls**?
+
+> **O(m * n)**.
+
+* Extra **table size** we have taken?
+
+> **O(m * n)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa35c82e-8ff1-4dde-8413-f8301809b689)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a21a4903-3745-4b80-bf5d-a35c8ce6fecf)
+
+> In **dynamic programming**, as soon as we **compute** the value, we will store it in the **table**. So that we don't need to **re-compute** again and again. We can use it again and again.
+
+* Because of the **conditions** in **dynamic programming**, it is saving a lot of **time**.
+* For **every recursive program** a non-recursive program is possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c7657f8-da54-4789-87c4-39ce66c52cb8)
+
+* In normal recursive program stack, everyone will go.
+* In dynamic programming's stack, whoever is **new** from the **left, right, middle**, they can go to the **stack**.
+* **Stack size** is **same** for **both**.
+
+> Greatest advantage of **dynamic programming** is that there is **no short-cuts**. Everytime **same** model. Problem to problem, **minor** changes. Everything almost **same**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec7da175-ab73-4cbb-b80b-c28e833eb491)
+
+* Un-necessarily don't call.
+
+* Name of the **program** with **condition** -> LCS with Dynamic Programming or DP_LCS.
+
+
+## Miscellaneous-IV (52) [24th May 2023] 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5875f9ef-16e6-4cd6-9807-21a055f1bc09)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19a55eba-9d7d-423c-b0c3-b0e5a5d8455c)
+
+> To calculate **LCS(4,3)** and we found **matching** and we **decreased*, 'm - 1' and 'n - 1'. So the next is **LCS(3,2)**.
+
+* Everywhere it is **matching** that's why we are moving **diagonally**. Best case is **diagonal**.
+* Best Case of **LCS** -> **O(min(m,n))**.
+* Worst case is **total table** we have to **cover/required**.
+* Worst Case of **LCS** -> **O(m * n)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ddf2b08c-9e12-46e3-bcb5-b8cbbc1961ab)
+
+> To calculate **LCS(4,3)** and  we didn't find **matching**. So we have to check **LCS(3,3) and LCS(4,2)**. Whoever is **max** we will put at **LCS(4,3)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f65cd35-eb38-42bc-a226-86dc1568ac27)
+
+* In **worst case**, whole **table** is covered.
+
+> To calculate **LCS(4,3)**, the **4th row** only required **3rd row** or **same row**. So, **adjacent people** only required.
+
+* i=0, 0th row
+* j=0, 0th column
+
+> Anyone is **0**, the **answer** is **0**. We know that they will be there by **default**.
+
+> To calculate **LCS(1,1)**, if **matching** there then we will go to **LCS(0,0)** and we will **add** **one plus to **LCS(0,0)**.
+
+* **LCS(1,1)** -> (1 + LCS(0,0)) [Matching]
+
+> To calculate **LCS(1,1)**, if no **matching** there then we will have to **check** the **max** between **LCS(0,1) and LCS(1,0)**. Whoever is **max** we will keep at **LCS(1,1)**.
+
+* **LCS(1,1)** -> (Max(LCS(0,1), LCS(1,0)))   [Not Matching]
+
+> To calculate the **first row**, we need the **0th row and the same row**.
+
+> To calculate the **second row**, we need the **1st row and the same row**.
+
+* We can fill the **table(matrix)** using **two** for loops also.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/78f42d2b-28b7-41bc-b6ad-d49fb4dc3791)
+
+* **i = 1**, which means **first row** going on.
+* **i = 2**, which means **second row** going on.
+* **i = 3**, which means **third row** going on.
+
+* How **table** will be filled?
+
+> If we write a **non-recursive** program with the help of **two** for loops, we can fill the table, **row by row** also.
+
+> If **i** is **column**, then also we can write a **non-recursive** program with the help of **two** for loops, we can fill the table, **column by column** also.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/45c6cd18-baca-458c-9606-bbfe53994de5)
+
+* While calculating **LCS**, how we are filling the table?
+
+> **Row by row** we can fill. **Column by column** also we can fill.
+
+> Whether we write **recursive or non-recursive** program doesn't matter, the **table** is **always needed/required**, because if table not there, then where we will **store** the **computed values**.
+
+> We can fill the **table** by **row major or column major** order.
+
+* In **LCS** calculation time, table will be filled how?
+
+A) Row Major
+B) Column Major
+C) Either Row Major or Column Major
+D) None of these.
+
+
+> So the **correct answer** is **option C** which is **Either Row Major or Column Major**. We can go **row wise also** and **column wise also**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/03958e02-a011-4846-9f73-cc73283f63b7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/daa66c90-7c1e-4359-a9ae-85ccfdd76c51)
+
+* Row Major
+* **Two** for loops as it a **2D-array**.
+
+* In **LCS(m,n)** calculation there  and **matching** then we will do **1 + LCS(m-1,n-1)**. Below **one** for both degrees.
+
+* In **LCS(m,n)** calculation there  and no **matching** there then we will do **Max(LCS(m-1,n), LCS(m,n-1))**. Whoever  is **max**, we are keeping it at **LCS(m,n)**. Surrounding only required. We do no **increase** we only **decrease/substract** by **1**.
+
+> So if we are on the **3rd row** then **2nd row** values are already available.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d2ca583-909d-4883-80c7-8fc32f11aa12)
+
+* **Best Case**, we fill the **diagonal only** as it is **always matching**, that's why it is **O(min(m,n))**.
+* **Worst Case**, we fill the **whole/total table** as it is **not matching**, that's why it is **O(m * n)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3eeec645-b65c-4d6d-86c0-b000ad1b0c30)
+
+* **LCS** table, how much size we are taking?
+
+> **(m * n)** table size we are taking.
+
+* If **space complexity** question comes they will give **program** and ask?
+
+> Different ways of writing program.
+
+* In, Space complexity questions they will give **program**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ad437f96-475c-4664-b95e-53972e6bc712)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bdfb42ab-f076-4eef-a0e9-6cefe269815b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bd5577dd-3aff-45d4-af19-1347dccb7a94)
+
+* **Table size* of **fibonacci** is **n**.
+* **Table size* of **LCS** is **m * n**.
+
+> If **possibility** there we can **compress**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f948e487-5197-41a3-ba01-c79de1797430)
+
+* For the above **fibonacci** program, the **table size** is **n**.
+* **Recursive program** for **binary search** took **log n** space and using **non-recursive** program, it took **O(1)** space. Sometimes both maybe **logn** space.
+
+* Dynamic programming requires a **table** and the **table size** is dependent on the program. For **fibonacci** program, **table size** is **n**. For **LCS(m,n)** program, the **table size** is **m * n**.
+
+## Matrix Chain Multiplication [**IMPORTANT**]
+
+* **Numerical problems** comes from it.
+
+* Dynamic programming means before **computing**, verify if it is already there or not, if there then don't compute if not there then compute.
+
+* In **LCS** without checking it was **O((2 ^ m) * (2 ^ n))** and after **checking means using dynamic programming** we got **O(m * n)**. We are taking an **table** whose size is **m * n**.
+
+* We want to **multiply two matrices**. What is the condition? 
+
+> The first matrix's **no. of columns** should be **equal** to the **second matrix's no. of rows**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f5c5f50-2e81-4b98-aba5-48ea6ec31282)
+
+* If **equal** then they cancel and we get the **resultant** matrix size.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6de20f67-5d65-4efe-b46f-7c83c60b640c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/016f07e0-da6f-4101-8c52-a6b782d1c5fd)
+
+* 2 X 4 -> **2 rows** and **4 columns**. It has **8** elements.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/29687dd9-fd53-42fb-964d-ff649e9a11ad)
+
+* To get the **first element**, how much work?
+
+> In a **matrix multiplication**, no. of elements maybe **n ^ 2** but to get **every element**, we need **n** time. **One element** cannot come easily, **one more** loop required.
+
+* Time Complexity of **matrix multiplication** -> **(n ^ 2) * n -> O(n ^ 3)**.
+
+> **Three** for loops required for **matrix multiplication**. **1** for **row**, **1** for **column** and **1** for **element**. So **three** loops which is **(n ^ 3)** time.
+
+* For **C11** -> 3 multiplications are required.
+
+> Every element requires **3 multiplications**.
+
+* Time Complexity is taken by **loops** and not by **add or multiplications**. **Add or multiplications** are **constants**.
+
+> **One multiplication** will take **constant** time.
+
+> So the total time is **8 * 3 -> 24** which is **2 * 4 * 3**. **(2 * 4)** is the **matrix size** and **3** is the **no. of multiplication** required for **each element**.
+
+> All **three(2,3 and 4)** came from the **A and B** matrix sizes.
+
+* Time Complexity of **matrix multiplication** -> **O(n ^ 3)**.
+
+> If all of the **matrix sizes** of **A and B** matrix and **n X n**.
+
+* A -> n X n
+* B -> n X n
+* C = A * B [Matrix multiplication]
+* C = (n X n) * (n X n) [Inner 'n' are cancelled]
+* C = n X n
+
+> So the size of **C** matrix which is the **resultant** matrix is **(n X n)** which is **matrix size** and for **each element** we need **n** multiplications.
+
+> So for **n ^ 2** elements we need **n** multiplcation for **each of them**. So, **(n ^ 2) * n -> (n ^ 3)**. This is how we are getting the Time Complexity of **matrix multiplication** which is **O(n ^ 3)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/29177a65-4f77-4686-a36f-0686461c89b3)
+
+* In **matrix chain multiplication** we are not discussing about **time complexity**, we are discussing **to multiply** **two matrices** how many **multiplications** needed.
+
+> So **24** multiplications need. Time Complexity for **every multiplication** is **O(1)**. So **24 * 1 -> 24** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/38ba0b08-7493-471b-bed2-0a262b1f3156)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8694b1ef-3aab-49a9-909b-31665501560d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f6ccfe4-34bc-4842-a208-d87835af36a7)
+
+* Every element requires **3 multiplication**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3373eda9-f1fd-4870-8ed1-08a180e4b50c)
+
+* 3 * 10 * 1 -> 30 multiplications needed.
+
+* In **matrix chain multiplication**, we are discussing **to multiply** **two matrices** how many **multiplications** needed, we are calculating.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c12d79a-194b-48fb-9a72-3c1f3647c8fb)
+
+
+* Where is the resultant matrix?
+
+> We are not **multiplying**.
+
+> Before **multiplying**, we are calculating **no. of multiplications** needed.
+
+* We can say **resultant matrix** size, but we cannot give **resultant matrix** as we do not have the **two** matrices.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fda862c4-a6c8-4068-a484-f053648e4e20)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6361cf8-ddc8-4f69-9ae7-9f2e922774bb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50d9674a-36bf-44ee-bf27-29ed47f9c7e8)
+
+* AB **not equal to** BA -> For **matrix** it is not possible. Matrix multiplication does't satisfy **commutative property**.
+* AB = BA = In **addition** possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/70b3c453-5c9c-4f49-a7d4-711b8d0392c8)
+
+* **One case** fail means **totally fail**.
+* **AB** possible doesn't mean **BA** is possible.
+* We cannot say **AB and BA** are **equal**.
+* First of all **not possible**, even though **possible**, **answer** may not be **same**.
+
+* Matrix multiplication does't satisfy **commutative property** but it will satisfy **associative property**.
+
+> In **associative property**, we can **change brackets**. We cannot change the order. We cannot write **AB** as **BA**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c3fbfe88-3fa1-4999-8c96-776dff244ba1)
+
+* Only **brackets** we can change.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/53f16671-46c1-4fad-8d03-5de0aca2253b)
+
+* We cannot multiply **3** matrix at a time. We know how to multiply **2** matrix at a time.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4597fe4b-c77f-481a-be08-07a0cc5fad71)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a15cdbc-0288-4ec6-ac80-8aafe986eda8)
+
+> We did **BC** and got **24 muls** but in **((AB) * C)** we got **in total** which is **14 muls**. If we go further with **BC**, the **no. of muls** will **increase**.
+
+* **Matrix chain multiplication** means because of **associative property**, to **multiply** the given matrix, there are **many ways**, whichever way will give **less**, that is the **best approach**.
+
+> That's the **reason** why we are **estimating**. **Estimation** is a **better** idea than **multiplying** blindly.
+
+> We are **estimating** because thare are **many ways**, we cannot do blindly whichever way we want.
+
+* First **estimate** like above and then whichever **approach** is **better** take/use that.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b5b1fac-15ad-484c-9aa9-fdbd9a75179d)
+
+* To do **D = A * B * C**, one approach is giving **14** and another approach is giving **36**. Obviously **14** approach is **better**.
+
+* That's the meaning of **matrix chain multiplication**, best one is **14**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/13366327-074c-4fd3-ba8f-74ddd5c322ba)
+
+* Because of **associative property** we are getting **many ways**.
+* Both apporaches will give **resultant matrix**.
+
+
+* What is the meaning of **matrix chain multiplication**?
+
+> To **multiply** chain of **n** matrices, because of **associative property**, many ways are there. Which is the **best way**, we are **computing/calculating**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa0b6a67-0601-48df-8f6e-fee27eca67d6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/edefcb2b-e977-4a51-97dc-e3e459f0e628)
+
+* We got **30** in **(A * (BCD))** which is the **min** as we calculated the others and saw that they are **more than 30**. 
+
+> Whenever we saw that it is going over **30**, just leave it. Go to the **next one**.
+
+> Total are **5** sub-problems. **4** matrix so **3** children at the **first** level. **Only one** then **only two** and **only three** at the end. Slowly **increase**.
+
+> If **5** matrices then **Only one** then **only two**, **only three** and **only four** at the end. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8126014f-10b9-4891-8fbd-553e41b8844e)
+
+
+* 4 matrix -> 3 Possibilites at the top level
+* 5 matrix -> 4 Possibilites at the top level
+* 10 matrix -> 9 Possibilites at the top level
+* n matrix -> (n - 1) Possibilites at the top level
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/06a5b998-3bd9-43b7-b4ec-c82e3e7101b9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/49be78c2-106b-4a33-9d22-e5446bd9f566)
+
+> The only **short-cut** we can apply here is that **don't repeat** the **same** thing again. That is the only **optimization** we can do.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d660a13-6f86-4c74-91ec-bc718b43767f)
+
+* **No. of levels** is also a **matrix**. So we have **4** matrix, so we will have **4** level tree. 
+* 4 -> 3 -> 2 -> 1.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ccb73e3a-b5f2-492a-a653-7dc813a441e3)
+
+* For **4** matrix we can have **3** children at the top level.
+* For **50** matrix we can have **49** children at the top level.
+* For **n** matrix we can have **n-1** children at the top level.
+* If we give **n** matrix then the tree will generate **(n - 1) or n** level tree of **n-ary tree**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4bd2d9d7-3517-47fe-bbac-4b04b8b8af76)
+
+> Out of **n** people, finding **min** is **n** time.
+
+> **One function** cost in **matrix multiplication** is **n** time. Previously in **fibonacci** it was **constant(c)**.
+
+* Min of n-elements -> **O(n)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef99534d-68f0-4d7d-b763-65069a22cc0f)
+
+> After **recursion**, when all of the top elements are **available**, to get **E** we have to find **min** among all of the **n** elements which is **O(n)** time. Here, the **function cost** is **O(n)**.
+
+> In **fibonacci**, to find the **fibonacci of one value** it was **Fib(n-1) + fib(n-2)**, **one addition** which is **one function cost** which is **constant**. Only **one add** required at the end.
+
+* In **matrix chain multiplication**, what is the cost of **one function**?
+
+> **O(n)**
+
+* In **fibonacci**, what is the cost of **one function**?
+
+> **O(1)**, in fibonacci, when we **add** two numbers we get the **result**. That's why function cost is **constant** in **fibonacci**.
+
+> In **LCS(m,n)**, out of **two** people which is **max** takes **O(1)** time. For **n** people **max and min**, take **O(n)** time, but for **two** people **max and min** take **O(1)** time. In the **LCS** tree, everywhere it is **constant** as **LCS(4, 3)** is **two** children, out of them **max one** is taken which is **constant** only.
+
+* **Max** of **two** people in **LCS(m,n)** -> **O(1) or constant**.
+* **Two** people **adding** in **recursion** -> **O(1) or constant**.
+* In **matrix chain multiplication**, **min** of **n** people -> **O(n)** time.
+
+* How many level tree?
+
+> **n** level tree. So it is an **n-ary** tree.
+
+* In **matrix chain multiplication** of **n** matrices, it will generate an **n** level tree which is an **n-ary** tree..
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6e818035-8a2a-478e-81ee-728a5ad902a9)
+
+* For **4** matrices it is **4** levels.
+* For **n** matrices it is **n** levels.
+
+* **Matrix chain multiplication** of **(1,n), which is 1 to n** matrices, will generate how many level tree?
+
+> **n** level and **n-ary** tree. It is actually **(n-1) ary tree** but same thing, **-1 and +1** forget about them.
+
+* What is the cost of **every function**?
+
+> **O(n)** because out of the **n** elements we are finding the **min** element.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4bb835a-82cf-4229-9036-07af88ac2814)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/247bdd03-d88b-42b4-985b-5683ede6089c)
+
+* What is the cost of **every function** in **fibonacci** series?
+
+> **O(1)** because everywhere there is **two** children and out of the **two** children we are adding, it takes **constant** time only.
+
+* **Matrix chain multiplication(mcm)** of **(1,n), which is 1 to n** matrices -> It means that the **min** no. of multiplications needed to multiply **1 to 'n'** matrices.
+
+* E = ABCD -> mcm(1, 4) -> It means that the **min** no. of multiplications needed to multiply **1 to 4** matrices.
+* E = BCD -> mcm(2,4) -> It means that the **min** no. of multiplications needed to multiply **2 to 4** matrices which is from **B to D**.
+* E = A -> mcm(1, 1) -> It means that the **min** no. of multiplications needed to multiply **1 to 1** matrices which is from **A to A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a06cd5e2-144d-472b-b7a5-6b1e8e22e3f2)
+
+* Repetition also there.
+* First level having **1** function call. [E=ABCD]
+* Second level having **n** function call.
+* Third level having **n ^ 2** function call.
+* Fourth level having **n ^ 3** function call.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9032a8b-b266-4dad-90a1-6c1e3d0cff86)
+
+* How many level tree?
+
+> For **3rd** level it is **n ^ 3**
+
+> So, for **n** level it is **n ^ n**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a9c7976f-4ab9-4250-87c0-db6e73391d08)
+
+> In the **second level** there is **n** nodes, and **every node** contains **n** people.
+
+> That why in the **next level** which is **third level** it is **n ^ 2**, because everyone is **n**. That's why **n * n -> n ^ 2**.
+
+* **One 'n'** will **increase** as we go down the **tree** in **each level**.
+
+* First level -> **n ^ 0**
+* Second level -> **n ^ 1**.
+* Third level -> **n ^ 2**.
+ 
+> It is an **n-ary** tree that why we are seeing **powers of n**. Here, **one function cost** is **O(n)**.
+
+> In **fibonacci and LCS** it was **powers of 2** because it was a **binary tree**. Here, **one function cost** is **O(1)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa422e0e-6966-4e58-9698-e68050a0ff28)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3461ff3b-d128-48c6-9d3d-4c774f0bfe74)
+
+* Time complexity of **mcm(1,n)** without **dynamic programming** -> **O(n ^ n)**
+* Time complexity of **fibonacci** without **dynamic programming** -> **O(2 ^ n)**.
+* **No. function calls** generated by **mcm(1,n)** without **dynamic programming** -> **O(n ^ n)**
+* **No. distinct function calls** generated by **mcm(1,n)** with **dynamic programming** -> **O(n ^ 2)**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a23c6d6-8d34-4729-b83f-8674493f62e2)
+
+> Remaining all are **repetitions**.
+
+* **First parameter** can change **'n' ways** and the **second parameter** can change **'n' ways**.
+
+* E = ABCD -> mcm(1,4)
+* BCD -> mcm(2,4)
+* CD -> mcm(3,4)
+* D -> mcm(4,4)
+* A -> mcm(1,1)
+* AB -> mcm(1,2)
+* ABC -> mcm(1,3)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4965d75d-3c4d-4f61-9d0f-c91ca67012c7)
+
+* **One function call** is **O(n)** time.
+* **O((n ^ 2)** is for **Distinct function calls** time complexity.
+
+* Time Complexity of **mcm** with **dynamic programming** -> **O((n ^ 2) * n -> O(n ^ 3)**.
+* Time Complexity of **mcm** with **dynamic programming** -> **O(n ^ 3)**.
+* Space Complexity of **mcm** with **dynamic programming** -> Stack + table -> **n + (n ^ 2)** -> **O(n ^ 2)**.
+
+* Size of tree -> **n**.
+* **O((n ^ 2)** is for **Distinct function calls**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c035b2ca-5d99-42a8-a8b3-de065e810ba4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ec9ae6a-ee09-4c0b-a977-6926b5b6c703)
+
+* 2 parameter -> 2D array
+* 1 parameter -> 1D array
+* n parameter -> nD array
+
+> Table size depends on the parameters.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4400560a-5230-4591-9ad7-68e8378e11b6)
+
+
+* Only **numerical** required here and **count no. of distinct function calls**.
+
+* Why **one function** cost is **n** here?
+
+> The function value came from **n** people. It is having **n** children and out of the **n** children, finding **min** takes **n** time.
+
+
+* Questions:-
+
+1) Find **min no. of multiplications** -> 26
+2) In which order we have done to get the **min no. of multiplications** -> **(AB)(C)(D)**.
+3) What is the **table size**?
+4) What is the **distinct function calls**? -> **O(n ^ 2)**.
+5) What is the **total function calls**? -> **O(n ^ n)**.
+6) Time complexity
+7) Numeriacls [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d186e47-3592-4fac-b61d-f8752f7e085e)
+
+* Find the **answer first** then build the path from there. We got the **answer** from **3rd path**.
+
+* (AB)(C)(D)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16cc3fdf-b669-4f37-8b69-10cdce15d5b5)
+
+* This order. Start from **top**, where we have got **min**, where we have got **min**. Go like that.
+
+## 0/1 Knapsack problem
+
+* Fractions not allowed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be0a4b67-57be-4fd9-b98e-2216548cc2a8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a52d02c-1b8b-4fe9-97c7-a0c156b0cc02)
+
+> The Feasible or the **best answer** is take **obj1 and obj2(110)** which will give a **profit** of **260**. This is done **manually**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/744d35fe-0ba1-4e32-bf52-3568c638481b)
+
+> Same **greedy** logics we applied but **fractions** are not allowed. We only got **200** as the **profit** as we cannot add more because **fractions** are not allowed. That's why **greedy or short-cut** method is not possible here, as it doesn't give the **best answer**.
+
+* 0/1 knapsack failed for **greedy or short-cut** method as **fractions** are not allowed.
+* 0/1 knapsack problem using **greedy or short-cut** method **fails**, so we have to go to **dynamic programming**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81e461a4-9e09-4f12-b553-f2f03ff88cf7)
+
+* If **fractions** are allowed then there is no doubt at all that **greedy** will give the **best answer**.
+
+### 0/1 Knapsack using dynamic programming
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d035b848-0f77-4697-a48a-692a8e59f03c)
+
+* 0/1 Knapsack problem -> knapsack(m,n) -> The **max** profit we will get in **knapsack** problem, where **capacity** is **m** and the **no. of objects** is **n**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff3f4169-0125-40d1-8169-28a1b14a873b)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6affbb65-4833-4f8c-8b93-9e1c5bbd9c20)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58ca4dc4-3165-4539-a943-6715fdca257d)
+
+* Knapsack(35,6)
+* Knapsack(35,6) -> Knapsack(35,5) if w[6] > m.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/181ab3f9-90dd-4d6e-afb3-07adc7c1ee5b)
+
+* What is the **max** profit we will get in **0/1 knapsack problem**, where **capacit=35** and **no. of objects= 0**?
+
+> As **no objects**, so the **max profit** is **zero(0)** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b13e9c8b-9080-454a-8222-ef768c53b6b1)
+
+* In **worst case** we will get **max profit** as **zero(0)** only. No object we can take, all objects are more than capcity.
+
+> The **termination** condition of **knapsack problem** is that if **knapsack(m,n) = 0** if **m=0** or **n=0**.
+
+* If **capacity** over the **max** profit we will get is **zero(0)** only.
+* If **capacity** is there but the **objects** are not there then also **zero(0)** only.
+
+> This are **base** conditions.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eceb4c7b-1b1c-41ef-965d-b2a96b7c1422)
+
+
+* Knapsack(m,n) -> Knapsack(35,6)
+
+> We are at the **6th object**. The weight of **6th object** is **8** and we have **capacity = 35**. We can take **6th object** but we cannot **give gurantee** that **6th object** will give **max profit**. We cannot try **Pi/Wi** ratio as **no short-cuts** are possible.
+
+> The **dilemma** is that we can take but we don't know if it wiil **lead** to the **best answer** which gives **max profit**.
+
+> If **dilemma** is then we can use **brute force** algo. Which means if **dilemma** is there then do **both**.
+
+> If **no dilemma** there, then do **one only**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fbc85a11-bbf8-4271-b097-cb349936e01c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/61ecc35d-1668-41e4-84d3-c706f34f27c6)
+
+> We are at the **6th object**. We have **35 capacity** and **6th object** is only **8**. We can take **6th object**. **One gurantee is missing** that **with taking or without taking**, which is **beneficial** we don't know.
+
+> We don't know if **taking or not taking** is **beneficial** or not. **Do both** i.e **once take and once do not take** and check which is **better**.
+
+> We have **two** choices here, which is **brute force**.
+
+* Everywhere we have **two** choices. All possibilites, which is **brute force** only.
+* Until **last point**, both **brute force and dynamic programming** are **same**. 
+
+* Taking is **1**
+* Not taking is **0**
+* That's why it is called as **0/1 knapsack problem**.
+* Every object is **two** choices.
+
+> As every object has **two** choices, so every possibility is **covered**. So all **zeroes to ones** are covered.
+
+> Whichever will give **max** that is the **answer**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5cc7c38b-323f-4a39-8fd9-f757a9fadec6)
+
+* Everywhere we have **two** choices. So the **total possibilities** is **O(2 ^ n)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/74f04fe7-5726-4013-8bdf-dcf90faa2a08)
+
+* How many **leaf nodes** lastly?
+
+> **2 ^ n** leaf nodes, as **every leaf node** is **one path**. **Every leaf node** is **one binary combination**. Every where **max** is there, so out of all of them, whoever is **max** will come as the **answer**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/da3ac8e3-f011-4324-9a1f-aae312eeb688)
+
+* Covering all **binary combinations**. This will lead to **2 ^ n** because **no. of leaf nodes** is **2 ^ n**.
+
+* How many **level tree**?
+
+> **n** level tree as it is a **brute force** and we have **n** elements. **One level** for **each element**.
+
+* Is it **max** of **two** people?
+
+> **YES**.
+
+> So the **cost of function calls** is **O(1)** or constant.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d169dd4-a89f-4c2c-832b-ebce5822f1e0)
+
+* We have **2 ^ n** function calls as we have **2 ^ n** leaf nodes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6fd47604-49c2-43f6-a84c-83142bcbc2c0)
+
+* It is a **recursive** program that leads to **n** level binary tree, which contains approximately **2 ^ n** function calls. Every **function calls** cost is **O(1)** or constant.
+
+* So it is **O((2 ^ n) * O(1)) -> O(n ^ 2)** time.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5508834e-a276-4809-b5d0-2d62dbc78ca6)
+
+* Ordering for writing in **program**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c410aa7-f9e8-4b31-bce3-45de394c6ee0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d4cc5d7-f448-4248-8c6a-8f0d5156559a)
+
+* Time Complexity of **0/1 knapsack problem** without **dynamic programming** -> **O(2 ^ n)**.
+
+> It is because **function calls** are **(2 ^ n)**.
 
 
 
+## Sorting Algorithms (51) [23rd May 2023]
+
+* Link -> https://unacademy.com/class/sorting-algorithms/V5GBW26Y
+
+## Bubble Sort
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12cf656b-db19-48ba-9fd7-6b0b2bd59820)
+
+> First pass of **bubble sort** is over, **larger element** goes to the **last place**.
+
+> Comparing **left and right** side, **right** side is expected to have **larger element**
+
+* Left -> **Smaller element**
+* Right -> **Larger element**
+
+> Comparing **left and right** side, **right** side is **more**, then **don't swap**.
+
+> Comparing **left and right** side, **right** side is **less**, then **swap**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3cc1ec31-066f-48eb-b6a3-74586955b36f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d6611c5-3ac6-430a-889e-94ca60017e79)
+
+> **'i' loop** started from **1**. It did **n - 1** comparisions, **n** is **7** here, so we did **n - 1 -> 7 - 1 -> 6** comparisions.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a8bdebf-e04b-42e3-92d7-8320ad98e32e)
+
+* Worst case of **swap** -> **n - 1**
+* Best case of **swap** -> **0**.
+
+> There is **no best or worst** case in **comparisions**, we have to compare because without comparing all how we will say which is **bigger**.
+
+* First pass of **bubble sort** is over, **larger element** goes to the **last place**.
+
+> Remaining people will sort.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef0d44ba-1053-4ad4-a2bd-f9dca3c7755e)
+
+> In **2nd round** we have **n =6**, so **no. of comparisions = n -1**, 
+
+* Worst case of **swap** -> **n - 1**
+* Best case of **swap** -> **0**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f1163b7-e3fc-4106-bd70-1663329ec511)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1c05176-0203-4ddc-a58a-78fa2ead538d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ca4231c-af8f-4caa-8cb9-79f043ec5fc4)
+
+* No. of loops in **bubble sort**?
+
+> **Two** loops.
+
+> **i** loop is giving **pass no.**.
+
+> First pass, no. of comparisions -> **n - 1 -> 7 - 1**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/74044715-3cb8-400f-a153-65361ce90acc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4340cbed-6836-41c8-a503-5906de7072e2)
+
+* **Total Comparision** for bubble sort -> O(n ^ 2)
+
+> Bubble sort has **(n - 1)** passes.
+
+* Total swaps for bubble sort, **best case** -> **0** 
+* Total swaps for bubble sort, **worst case** -> **O(n ^ 2)** 
+
+* **Time Complexity** of **bubble sort** for **every case** -> comparisions + swaps -> **O(n ^ 2)** + **O(0) OR O(n ^ 2)** -> **O(n ^ 2)** 
+
+> Because of **comparisions**, it is **O(n ^ 2)** for **every case**. **Comparisions** also **O(n ^ 2)** for **every case**, unlike swaps.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b11ae2c6-6918-4802-a8c5-24aba7a8e208)
+
+> All of the **swaps** happening in **bubble sort** is within the **same** array only. So it is **in-place**.
+
+> If **left** element is **more** than **right** element then only **swap**. If **equal** only, no need to swap.
+
+> If **10** is on the **left** and another **10** on the **right** then no need to swap.
+
+* Bubble sort is **stable and in-place**.
+* Stable -> We don't swap **same** elements.
+
+**Space Complexity** of **bubble sort** for -> **Stack space** -> **O(1)**.
+
+> Bubble sort has no **recursion**. There is **no stack**, only **one** function call, so **constant** space complexity.
+
+> **Non-recursion** program is not **everytime** with space complexity of **constant or O(1)**. It is **dependent** on the problem.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c35504d4-7221-4142-b685-9853482feef5)
+
+> Mostly **recursion** will take **more stack space**.
+
+> Mostly **non-recursion** will take **less stack space**.
+
+> Sometimes, **both** will be **equal**.
+
+* We want **first max** in the given array?
+
+> Apply **bubble sort**, **pass/round 1**.
+
+* Time complexity of **1 pass** is **n** and **'n' passes** is **n ^ 2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5cd313f7-24d4-4a29-a7df-d14aec498fc7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f5ce5e0-8a39-4b17-bf26-1ee404563d73)
+
+* Time complexity of **bubble sort** is **O(n ^ 2)** for **every case**, it is because of **comparisions** as **comparisions** are always **O(n ^ 2)**.
+
+* If we give **ascending order** array to **bubble sort**, what is the Time complexity?
+
+> It is still **O(n ^ 2)**.
+
+* If we give **descending order** array to **bubble sort**, what is the Time complexity?
+
+> It is still **O(n ^ 2)**.
+
+* Bubble sort doesn't care what **order** we have given the elements.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c4622bd-44b4-4873-875f-2489a2d955f9)
+
+* In the **first pass** only **worst case** for **swaps** happened we got **n - 1 = 5 - 1 = 4** swaps.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/874b7918-c40e-4bb0-8ba0-504fbe0592c1)
+
+* Comparisions will always be **n - 1** for **every pass**, we cannot **increase or decrease** them. 
+* In the **second pass** only we got **best case** for **swaps** happened we got **0** swaps.
+
+* Pass wise, we want to know how many swaps?
+
+> Before **second pass**, swaps were **0** and after **second pass**, swaps are **0**. That's the **reason** why **0** swaps came in  **second pass**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4e1a017-f4bd-49ca-aa92-5d385726ffe9)
+
+* In **bubble sort**, how we will calculate **Swaps**?
+
+> Before **starting** of every pass, keep a variable named **swap** set to **zero(0)**, which is **swap=0 or s=0**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/430d4f53-cf05-400a-8392-eade3390ed08)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/17ff6417-201f-4df4-bd64-e737ac395dab)
+
+> After doing the **swapping** just **increment** the count of the **swap** variable.
+
+* Before **starting** of every pass, **s = 0**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f139e360-e24c-498e-b8de-35937d3bd6c4)
+
+* if (s == 0)
+*  *Stop bubble sort*
+
+> It is because if **s=0** which means there was **zero(0)** swaps in that **pass**. So, **no swaps or zero swaps** in **any pass**, means that the **array** given to the **bubble sort** is already **sorted**. So, **stop the algorithm**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2e3e03cc-23d7-45fd-a99a-c2daa70350bd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bcded0ff-c453-4d87-93e8-3e40794014f4)
+
+* **Zero swaps** happened which means the **array** is already **sorted**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c424e63b-53f4-4d90-84cf-a0fb708edd0a)
+
+> In the **standard bubble sort** algo, the lines/codes with **yellow color** are **not there**.
+
+* Bubble sort time complexity for **best case** -> **O(n)**. [Using some minor changes, for GATE and competitive programming only]
+
+> It is a **special case**.
+
+> It is **O(n)**, because we have to do **atleast one pass** to find out that swaps is **zero** or **swaps = 0**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f091c173-44e0-4ff1-a62a-4b0bbfbb2036)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e89f4d7-80f3-4c18-b7be-fef74eae204c)
+
+* **NOTE**:-
+
+> While performing bubble sort, in any pass **no. of swaps* is **zero(0)** then stop the algo as the array is already sorted.
+
+* With the **above condition**
+* Bubble sort **best case** time complexity -> **O(n)**.
+* Bubble sort **worst and average case** time complexity -> **O(n ^ 2)*
+
+> For **GATE and competitive** exam.
+
+## Selection Sort
+
+* What is the **pass 1** goal of **selection sort**?
+
+> **First Min** element should come to **first** place.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98451519-4e41-451c-b8da-2bfb2cb89525)
+
+> Let's assume **first element** is **min**. First do a **full scan** and find out the **first min**. Swap them uing **Swap(a[i], a[min])**.
+
+* Swap(a[i], a[min])
+
+> So now the **First Min** element is at the **first place**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5d31c87-b6d9-46a8-9baf-9906ca17a7b9)
+
+* We did **6** comparisions and **one swap** only. The swap was done at the end only.
+
+> In **bubble sort**, we were **un-necessarily** swapping.
+
+> **Selection sort** learned form **bubble sort**. It said let's find the **First Min** element first and then finally do a **swapping** at the end.
+
+> **Bubble sort** is not meant for **performance**, it is meant for **starting** purpose. Don't make any condition inside **bubble sort**.
+
+* **Selection sort** is meant for very **less swaps**. For **one swap** only.
+* Selection sort is meant for **swaps** only. It's goal is to **minimize** swaps.
+
+> No algo having these kind of behaviour.
+
+* If we want **less swaps** in **worst case**?
+
+> Then go to **Selection sort**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f3b855bc-be48-4188-afff-44fc35965b14)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df9b458b-1e2e-4c12-9432-ae561cd6b307)
+
+* Easiest sorting algo?
+
+> Bubble sort.
+
+> **Second pass** means **i=2** and it is informing to **j** that **i** wants **second place second min** element.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ad8ddd60-e658-4fb6-bce6-d7d0d5f15350)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a0d383b-7095-45d6-971e-565afc14779a)
+
+> **Comparisions** are like **bubble sort**, they are **same**, they do not change but there is **only one** swap at the end.
+
+* Selection sort is meant for **swaps** only. It's goal is to **minimize** swaps.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/04c2111b-8dcb-44a0-b175-ae615dda3c96)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/77b1bcef-7939-490e-b5eb-36ec7a2b5a04)
+
+> At the **last place**, only **one** element is left which is the **larger** element. It is going to the **last place**, so **no problem**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8edc141-a510-4bde-9964-778056072d7d)
+
+> Totally is **7** elements and **6** passes are over, so **6** elements are at the **correct place**. One element is help out which is the **larger** element and it is at the **last place**, so **no problem**.
+
+* **n - 1 = 7 - 1 =6** passes are enough.
+* **Bubble sort** is meant for **max** element.
+* **Selection sort** is meant for **min** element.
+* **Bubble sort** doesn't care about **stack**.
+* **Selection sort** cares about **stack*. His goals is **swaps** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/586716ea-54a0-4e61-908a-dc1d6b6689e6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eca7e76f-fe84-4591-8358-c9b82930c379)
+
+* Selection sort, **3rd pass** is over, what is the **output**?
+
+> After **3rd pass** is over, the question really wants to know, if we know **selection sort** or not.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a110ddf-47cb-47c8-b541-8e97338de90d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/feca52e5-b242-4349-adf8-a16d1aafd684)
+
+* Selection sort takes **n - 1** passes.
+* Selection sort, total no. of comparisions for **every case** -> **O(n ^ 2)**.
+* Selection sort, total no. of swaps for **every case** -> **O(n)**.
+* **Time complexity** of Selection sort for **every case** -> comparisions + swaps -> O(n ^ 2) + (n - 1) -> **O(n ^ 2)**.
+* **Space complexity** of Selection sort for **every case** -> **O(1)**
+
+> **O(1)** since only **two** for loops used and no extra space taken.
+
+* What is the **greatness** of **selection sort** algo?
+
+> In **worst case**, it has **less swaps**. Not for **best case**. For every case it is **n - 1**, it is not good for **best case**.
+
+* Less swap operations in **worst case**?
+
+> **Selection sort**.
+
+> No algo is better than **Selection sort** in **swap** operations for **worst case**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1eb9d536-2305-4fd5-8690-b07edd8e612b)
+
+> It is **in-place** because all **comparisions and swapping** are done on the given array only. 
+
+> It is **not stable**.
+
+## Insertion Sort [**IMPORTANT**]
+
+* Purpose -> **Best case**, it is the **hero**.
+ 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dbfbc0b2-8bbb-493a-96b6-786339d3a867)
+
+> In **pass 1**, take the **first two** elements.
+
+* New person is **inserted** at the end.
+
+* Inversion -> Position **increasing** and value **decreasing**.
+
+> Inversion means **not correct** so we will **swap**. As we have done **swapping**, we have to check with the **previous values** also.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89c72146-7608-4ee3-b5b5-709f3efe0483)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc640251-4f38-4102-a2cf-a00902226cb6)
+
+> We we added **100**, we didn't have to do **swapping** as already **100** which is **bigger** and is on the right and **left** side is is smaller.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eca5a29b-e681-4a65-b944-5e55a8a97642)
+
+* **Best case** will happen in **ascending order**.
+
+* **Time complexity** of **insertion sort** for **best case** -> (n - 1) + 0 -> **O(n)**.
+* **(n - 1)** is the **total no. of comparisions**.
+* **0** is the **total no. of swaps**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e57024c-5100-44af-95fb-15df1af445e5)
+
+* If array already **sorted** then come to **insertion sort**.
+* **Sorted** actually means both **ascending or descending** order.
+* By default, **Sorted** meant **ascending order**.
+
+* **Insertion sort** will give **best case** when the **array is in ascending order**.
+
+* What is the greatest thing about **insertion sort**?
+
+> **Ascending order** will give **best case**.
+
+> **Best case** algo purpose, **insertion sort** is the **hero**.
+
+* **Quick, merge, heap** will give **n * log n** time as their **best case**. **Insertion sort** is the **hero** in **sorting** algos as it gives the **O(n)** times in **best case**. 
+
+* Sorting algo **best case**, no specific algo was mentioned. Which one is it?
+
+> Use **Insertion sort**.
+
+* **Insertion sort's** greatness lies in it's **best case** time complexity.
+
+* **Descending order** will give **worst case**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff19a607-53b3-4fec-b54e-e94de4f7e00d)
+
+* **Time complexity** of **insertion sort** for **worst case** -> (n ^ 2) + (n ^ 2) -> **O(n ^ 2)**.
+* **(n ^ 2)** is the **total no. of comparisions**.
+* **(n ^ 2)** is the **total no. of swaps**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8c64ec42-2ec6-45ae-97e6-c88be821d5d6)
+
+* Average Case
+
+> For **worst case**, every pass is **n** time and we have **n** passes. So it is **n * n -> O(n ^ 2)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d984c0de-8ccc-4c35-a831-b23350765e10)
+
+> Half time it is **best case** and half time it is **worst case**. Half time it is in **increasing** order  **decreasing order**.
+
+> Half time it is **best case** and half time it is **worst case**. Half time it is in **decreasing order**.
 
 
+* **Notes**:-
+
+> The **no. of swap** operations in an **inserted** sort is equal too.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b3da84a-1f12-4b62-96f1-a4bd261323fc)
+
+* One comparision and one swap.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6e3653a2-491e-4e2a-8150-876740fb9607)
+
+* Almost sorted.
 
 
+* In a given array, except **1 lakh** people everyone is sorted. How much time?
+
+> **O(n)**.
+
+* **No. of swaps** == **No. of inversions**.
+* If array already sorted or **almost sorted**, then **insertion sort** algo will take **best case** **O(n)** time, but **quick sort** will take **worst case** which is **O(n ^ 2)**.
+
+> Then also **quic sort** is **better** because when the array is **not sorted**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/922351d8-8a5d-42bd-8685-4468b21891ac)
 
 
+* **Insertion sort** will give
+* Sorted means **ascending order**.
 
 
+* **NOTES**:- [**IMPORTANT**]
 
+1) **No. of swaps** == **No. of inversions**.
+2) If array already sorted or **almost sorted**, then **insertion sort** algo will take **best case** **O(n)** time, but **quick sort** will take **worst case** which is **O(n ^ 2)**.
 
+> Then also **quic sort** is **better** because when the array is **not sorted** then it is giving **O(n ^ 2)**.
+
+> **Insertion sort** is giving better time than **quick sort** because it is giving better time on **already sorted or almost sorted** arrays. No one will give **sorted** arrays. It is for **Exam** purposes.
+
+3) Elements are **6**. So, the **no. of inversions** is **5**. So it is **(n - 1)** inversions.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ffb9075e-8a27-4000-ad9a-e44fae17e1c9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/950d0aa5-31e7-44cb-8562-2eaef03bd835)
+
+> If array contain, **max 'n'** inversions which means **array** is already sorted. Except **1 or 2** people, all are **sorted**.
+
+* If array contain atmost **n** inversions then insertion sort will take **O(n)** time to sort because array is almost sorted.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f2be6934-333b-413b-8ef1-4092b26c3b22)
+
+> As for **quick sort** it is **O(n ^ 2)** time.
+
+4) It is **in-place** and **Stable**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f565016-2319-4c81-bb21-1bac9183b4d9)
+
+## NEXT TOPICS (LEFT)
+
+## Counting Sort
+## Radix Sort
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c8685286-df13-4d90-97e6-d397a9965a7b)
 
 
 ## Waiting for newer videos
@@ -10258,12 +15358,14 @@ Steps:
 * Link -> https://unacademy.com/course/complete-course-on-algorithms-gate/K8EKOMCE
 
 * Counting no. of Inversions(DONE)
+
 * Selection Procedure(DONE)
 
-![image](https://user-images.githubusercontent.com/54589605/236865111-4f0dd4d4-153f-4129-92b6-0982aa62fe9b.png)
+* Started from -> https://unacademy.com/class/heap-sort-ii/KAUOV2FP (Heap-sort-II) [Done]
 
-* Start from -> https://unacademy.com/class/heap-sort-ii/KAUOV2FP (Heap-sort-II)
+* Link -> https://unacademy.com/class/miscellaneous-part-iv/J8F2D1GR (DONE)
 
+* Waiting for **newer videos**.
 
 # Practice Videos (27th April 2023)
 
