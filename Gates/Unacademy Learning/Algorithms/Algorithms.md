@@ -14945,6 +14945,21 @@ D) None of these.
 
 > It is because **function calls** are **(2 ^ n)**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c879c598-2613-4501-8ebe-ee91dd0dc49c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0aa106fd-b842-4d80-817a-73da6f9565d2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9483f9dd-3e4e-4d99-ac34-672f94399287)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/592b72b7-80ba-48cb-bd50-efcd6779de46)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6a52434-a5b7-4799-94cb-44ee8872fa14)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5880eae7-15d7-4dbd-afc7-f025f2304cfd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a65640b8-f1d4-4fd0-966d-cec9347e5ee1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b66a8f4d-c2c5-4d4e-a3c5-ba4b167d269d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8c07a74-b88e-447a-a345-54cd5af5f634)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fbb896be-71c2-45cb-9845-0f8ed83a172a)
+
+
+
+
+
 
 
 ## Sorting Algorithms (51) [23rd May 2023]
