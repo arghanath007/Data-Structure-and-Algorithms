@@ -1361,8 +1361,124 @@ access/execute the **privilaged or protected** operations but it can't. The othe
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f20656c-432e-4c30-80b2-d08bf4252f73)
 
 
+## CPU Scheduling-Round Robin (7) [24th May 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba6ba678-e7fa-41f2-a5a4-85124f43ae4c)
+
+* Yes
+
+## Priority Based Algorithms
+
+* Criteria -> Priority
+* Mode -> Preemptive or Non-preemptive.
+
+* Priority:-
+
+1) Static -> Priority cannot be **changed**.
+2) Dynamic -> Priority can be **changed**.
 
 
+> It will be mentioned in the **question** that **bigger nos.** are **higher** priority or **smaller nos.** are **higher** priority.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f115242e-5429-482b-ba4e-8359f7f04e16)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/afdb385f-2980-4c79-abd0-c618099c84f0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/354464bc-8280-4ce4-9d97-e80077deafa2)
+
+* Here it means **bigger nos.** have **higher** priority.
+* It will be mentioned in the **question** as well that we have to solve in **Preemptive or in Non-preemptive** matter.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/985e39a6-b533-4e0c-a1c5-92b4dba9e877)
+
+### Examples
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c18fe887-1cac-4559-8353-c5493bcf8779)
+
+* **Non-preemptive**.
+
+> When we have only **one process** available then we don't need to see the **priority**. We don't have any **options** only.
+
+> As we can see in **T=0** time, we have only **one process** which is **P1** that is **available**. So, we don't need to see the **priority** table, we can simply just run **P1** process.
+
+> As we are doing the **non-preemptive** one, the whole **P1** process will run fully.
+
+> At **T=4**, we have **P2, P3, P4 and P5** processes. As we have **options** now we have to check **priority** and see which process has the **highest priority**.
+
+> As mentioned in the question, **largest nos.** have **higher priority**, as in the **priority** column, **highest** is mentioned beside **10**, which means **highest priority** is **10**.
+
+> As **P4** has the **highest priority** of **10**, we will take **P4** process now.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/04777e29-da0a-451d-82b0-0ba82cd62b7e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c6be6c3-55bd-4eee-a3ae-74f1fa363fa3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/063eacf0-651a-4f0c-a90b-77803a2632f7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc166d76-2b3b-424f-be49-b98ef83b3c64)
+
+* If **tie-breaker** is there, then it will be mentioned in the question.
+* There is **no default** tie-breaker here.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c6d250f2-f096-4e42-87b0-3095d42dccfa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d73a122-58a9-42fa-87d6-ab114a3bf642)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f808b49-2f6b-4c9e-a712-236a94508402)
+
+* Preemptive.
+* Preemption is only possible when a **new process** arrives/comes.
+
+> We will run **P1** for **1 time** and we have **P2** process coming at **1 time**. So, we will check if **P2** has **higher priority** than **P1** or not. If **Yes**, then we will **preempt P1** and run **P2**. 
+
+> After **5** unit of time, **no new process** are coming.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5afa4f9-4c27-4160-8d1b-75d9b38c0053)
+
+* If **no new process** are coming then a **Preemption** algo and then it behaves like **non-Preemption** algo only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7eec2610-a823-49dc-a7e3-c8061f062d49)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bef7def2-df4e-4661-b90b-2ca80fa14f08)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5b72602-6130-42c8-92c3-f2c320837061)
+
+* Non-preemptive
+* **Smallest no.s** have **highest priority**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf8f104d-d53f-4918-9b3d-cb4c6c630739)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/081e1cb2-6386-45a7-8b5d-249d6f057ec7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb1f2742-9fc8-4b7e-9236-0ea845e49626)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d806ede9-c0c7-4a98-a5ad-af29ef2be5d9)
+
+* Preemptive
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/52f1e23a-d50c-46ac-8f37-aa2bd6f30080)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63ebacfa-7770-4f2a-a016-1b4d1a44d807)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b78580a-3d2f-48c0-8948-8b2908b104dd)
+
+ * Types of questions asked:-
+
+1) At what unit of time, the process **P5** was finished/completion time? -> **15**
+2) The **finishing** order of **processes**? **P4 -> P3 -> P5 -> P2 -> P6 -> P1**.
+3) What is the **turn around time** of **one** particular process?
+4) What is the **waiting time** of **one** particular process?
+5) What is the **avg waiting time and avg turn around time**?
+6) **Turn around time** of **P3** is greater than **P1** or not?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/82d7d739-f767-46d4-98a0-ecffc39e6155)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/795a500a-2d0f-423e-b37f-6646bd608ad7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/64528cfc-369b-401a-9afc-57a6d9a8d627)
+
+* If **OS** has **dynamic priority** then solution of **starvation** is possible, it is called as **aging**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b56a0b59-34df-4fd4-a161-3fa1133877aa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7df008d2-c50c-4258-8b15-6896c099e4e3)
+
+* It is possible in **preemption** only and not in **non-preemption**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4cf98fbd-e0e9-410d-a8d9-e33ec57d83ae)
+
+### Aging
+
+> If a process **waits** for a certain duration, then it's **priority** is **increased by 1**. After waiting for **long**, the process will become **highest priority** process.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db504149-cf0e-45cb-aee9-97cc6fe48cc3)
+
+## Round Robin
+
+* Start from **55mins**.
 
 
 
