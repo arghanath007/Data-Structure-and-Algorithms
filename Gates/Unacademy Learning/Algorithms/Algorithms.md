@@ -14352,7 +14352,471 @@ Steps:
 
 * Name of the **program** with **condition** -> LCS with Dynamic Programming or DP_LCS.
 
+
+## Miscellaneous-IV (52) [24th May 2023] 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5875f9ef-16e6-4cd6-9807-21a055f1bc09)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19a55eba-9d7d-423c-b0c3-b0e5a5d8455c)
+
+> To calculate **LCS(4,3)** and we found **matching** and we **decreased*, 'm - 1' and 'n - 1'. So the next is **LCS(3,2)**.
+
+* Everywhere it is **matching** that's why we are moving **diagonally**. Best case is **diagonal**.
+* Best Case of **LCS** -> **O(min(m,n))**.
+* Worst case is **total table** we have to **cover/required**.
+* Worst Case of **LCS** -> **O(m * n)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ddf2b08c-9e12-46e3-bcb5-b8cbbc1961ab)
+
+> To calculate **LCS(4,3)** and  we didn't find **matching**. So we have to check **LCS(3,3) and LCS(4,2)**. Whoever is **max** we will put at **LCS(4,3)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f65cd35-eb38-42bc-a226-86dc1568ac27)
+
+* In **worst case**, whole **table** is covered.
+
+> To calculate **LCS(4,3)**, the **4th row** only required **3rd row** or **same row**. So, **adjacent people** only required.
+
+* i=0, 0th row
+* j=0, 0th column
+
+> Anyone is **0**, the **answer** is **0**. We know that they will be there by **default**.
+
+> To calculate **LCS(1,1)**, if **matching** there then we will go to **LCS(0,0)** and we will **add** **one plus to **LCS(0,0)**.
+
+* **LCS(1,1)** -> (1 + LCS(0,0)) [Matching]
+
+> To calculate **LCS(1,1)**, if no **matching** there then we will have to **check** the **max** between **LCS(0,1) and LCS(1,0)**. Whoever is **max** we will keep at **LCS(1,1)**.
+
+* **LCS(1,1)** -> (Max(LCS(0,1), LCS(1,0)))   [Not Matching]
+
+> To calculate the **first row**, we need the **0th row and the same row**.
+
+> To calculate the **second row**, we need the **1st row and the same row**.
+
+* We can fill the **table(matrix)** using **two** for loops also.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/78f42d2b-28b7-41bc-b6ad-d49fb4dc3791)
+
+* **i = 1**, which means **first row** going on.
+* **i = 2**, which means **second row** going on.
+* **i = 3**, which means **third row** going on.
+
+* How **table** will be filled?
+
+> If we write a **non-recursive** program with the help of **two** for loops, we can fill the table, **row by row** also.
+
+> If **i** is **column**, then also we can write a **non-recursive** program with the help of **two** for loops, we can fill the table, **column by column** also.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/45c6cd18-baca-458c-9606-bbfe53994de5)
+
+* While calculating **LCS**, how we are filling the table?
+
+> **Row by row** we can fill. **Column by column** also we can fill.
+
+> Whether we write **recursive or non-recursive** program doesn't matter, the **table** is **always needed/required**, because if table not there, then where we will **store** the **computed values**.
+
+> We can fill the **table** by **row major or column major** order.
+
+* In **LCS** calculation time, table will be filled how?
+
+A) Row Major
+B) Column Major
+C) Either Row Major or Column Major
+D) None of these.
+
+
+> So the **correct answer** is **option C** which is **Either Row Major or Column Major**. We can go **row wise also** and **column wise also**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/03958e02-a011-4846-9f73-cc73283f63b7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/daa66c90-7c1e-4359-a9ae-85ccfdd76c51)
+
+* Row Major
+* **Two** for loops as it a **2D-array**.
+
+* In **LCS(m,n)** calculation there  and **matching** then we will do **1 + LCS(m-1,n-1)**. Below **one** for both degrees.
+
+* In **LCS(m,n)** calculation there  and no **matching** there then we will do **Max(LCS(m-1,n), LCS(m,n-1))**. Whoever  is **max**, we are keeping it at **LCS(m,n)**. Surrounding only required. We do no **increase** we only **decrease/substract** by **1**.
+
+> So if we are on the **3rd row** then **2nd row** values are already available.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d2ca583-909d-4883-80c7-8fc32f11aa12)
+
+* **Best Case**, we fill the **diagonal only** as it is **always matching**, that's why it is **O(min(m,n))**.
+* **Worst Case**, we fill the **whole/total table** as it is **not matching**, that's why it is **O(m * n)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3eeec645-b65c-4d6d-86c0-b000ad1b0c30)
+
+* **LCS** table, how much size we are taking?
+
+> **(m * n)** table size we are taking.
+
+* If **space complexity** question comes they will give **program** and ask?
+
+> Different ways of writing program.
+
+* In, Space complexity questions they will give **program**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ad437f96-475c-4664-b95e-53972e6bc712)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bdfb42ab-f076-4eef-a0e9-6cefe269815b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bd5577dd-3aff-45d4-af19-1347dccb7a94)
+
+* **Table size* of **fibonacci** is **n**.
+* **Table size* of **LCS** is **m * n**.
+
+> If **possibility** there we can **compress**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f948e487-5197-41a3-ba01-c79de1797430)
+
+* For the above **fibonacci** program, the **table size** is **n**.
+* **Recursive program** for **binary search** took **log n** space and using **non-recursive** program, it took **O(1)** space. Sometimes both maybe **logn** space.
+
+* Dynamic programming requires a **table** and the **table size** is dependent on the program. For **fibonacci** program, **table size** is **n**. For **LCS(m,n)** program, the **table size** is **m * n**.
+
+## Matrix Chain Multiplication [**IMPORTANT**]
+
+* **Numerical problems** comes from it.
+
+* Dynamic programming means before **computing**, verify if it is already there or not, if there then don't compute if not there then compute.
+
+* In **LCS** without checking it was **O((2 ^ m) * (2 ^ n))** and after **checking means using dynamic programming** we got **O(m * n)**. We are taking an **table** whose size is **m * n**.
+
+* We want to **multiply two matrices**. What is the condition? 
+
+> The first matrix's **no. of columns** should be **equal** to the **second matrix's no. of rows**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f5c5f50-2e81-4b98-aba5-48ea6ec31282)
+
+* If **equal** then they cancel and we get the **resultant** matrix size.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6de20f67-5d65-4efe-b46f-7c83c60b640c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/016f07e0-da6f-4101-8c52-a6b782d1c5fd)
+
+* 2 X 4 -> **2 rows** and **4 columns**. It has **8** elements.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/29687dd9-fd53-42fb-964d-ff649e9a11ad)
+
+* To get the **first element**, how much work?
+
+> In a **matrix multiplication**, no. of elements maybe **n ^ 2** but to get **every element**, we need **n** time. **One element** cannot come easily, **one more** loop required.
+
+* Time Complexity of **matrix multiplication** -> **(n ^ 2) * n -> O(n ^ 3)**.
+
+> **Three** for loops required for **matrix multiplication**. **1** for **row**, **1** for **column** and **1** for **element**. So **three** loops which is **(n ^ 3)** time.
+
+* For **C11** -> 3 multiplications are required.
+
+> Every element requires **3 multiplications**.
+
+* Time Complexity is taken by **loops** and not by **add or multiplications**. **Add or multiplications** are **constants**.
+
+> **One multiplication** will take **constant** time.
+
+> So the total time is **8 * 3 -> 24** which is **2 * 4 * 3**. **(2 * 4)** is the **matrix size** and **3** is the **no. of multiplication** required for **each element**.
+
+> All **three(2,3 and 4)** came from the **A and B** matrix sizes.
+
+* Time Complexity of **matrix multiplication** -> **O(n ^ 3)**.
+
+> If all of the **matrix sizes** of **A and B** matrix and **n X n**.
+
+* A -> n X n
+* B -> n X n
+* C = A * B [Matrix multiplication]
+* C = (n X n) * (n X n) [Inner 'n' are cancelled]
+* C = n X n
+
+> So the size of **C** matrix which is the **resultant** matrix is **(n X n)** which is **matrix size** and for **each element** we need **n** multiplications.
+
+> So for **n ^ 2** elements we need **n** multiplcation for **each of them**. So, **(n ^ 2) * n -> (n ^ 3)**. This is how we are getting the Time Complexity of **matrix multiplication** which is **O(n ^ 3)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/29177a65-4f77-4686-a36f-0686461c89b3)
+
+* In **matrix chain multiplication** we are not discussing about **time complexity**, we are discussing **to multiply** **two matrices** how many **multiplications** needed.
+
+> So **24** multiplications need. Time Complexity for **every multiplication** is **O(1)**. So **24 * 1 -> 24** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/38ba0b08-7493-471b-bed2-0a262b1f3156)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8694b1ef-3aab-49a9-909b-31665501560d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f6ccfe4-34bc-4842-a208-d87835af36a7)
+
+* Every element requires **3 multiplication**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3373eda9-f1fd-4870-8ed1-08a180e4b50c)
+
+* 3 * 10 * 1 -> 30 multiplications needed.
+
+* In **matrix chain multiplication**, we are discussing **to multiply** **two matrices** how many **multiplications** needed, we are calculating.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c12d79a-194b-48fb-9a72-3c1f3647c8fb)
+
+
+* Where is the resultant matrix?
+
+> We are not **multiplying**.
+
+> Before **multiplying**, we are calculating **no. of multiplications** needed.
+
+* We can say **resultant matrix** size, but we cannot give **resultant matrix** as we do not have the **two** matrices.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fda862c4-a6c8-4068-a484-f053648e4e20)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6361cf8-ddc8-4f69-9ae7-9f2e922774bb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50d9674a-36bf-44ee-bf27-29ed47f9c7e8)
+
+* AB **not equal to** BA -> For **matrix** it is not possible. Matrix multiplication does't satisfy **commutative property**.
+* AB = BA = In **addition** possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/70b3c453-5c9c-4f49-a7d4-711b8d0392c8)
+
+* **One case** fail means **totally fail**.
+* **AB** possible doesn't mean **BA** is possible.
+* We cannot say **AB and BA** are **equal**.
+* First of all **not possible**, even though **possible**, **answer** may not be **same**.
+
+* Matrix multiplication does't satisfy **commutative property** but it will satisfy **associative property**.
+
+> In **associative property**, we can **change brackets**. We cannot change the order. We cannot write **AB** as **BA**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c3fbfe88-3fa1-4999-8c96-776dff244ba1)
+
+* Only **brackets** we can change.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/53f16671-46c1-4fad-8d03-5de0aca2253b)
+
+* We cannot multiply **3** matrix at a time. We know how to multiply **2** matrix at a time.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4597fe4b-c77f-481a-be08-07a0cc5fad71)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a15cdbc-0288-4ec6-ac80-8aafe986eda8)
+
+> We did **BC** and got **24 muls** but in **((AB) * C)** we got **in total** which is **14 muls**. If we go further with **BC**, the **no. of muls** will **increase**.
+
+* **Matrix chain multiplication** means because of **associative property**, to **multiply** the given matrix, there are **many ways**, whichever way will give **less**, that is the **best approach**.
+
+> That's the **reason** why we are **estimating**. **Estimation** is a **better** idea than **multiplying** blindly.
+
+> We are **estimating** because thare are **many ways**, we cannot do blindly whichever way we want.
+
+* First **estimate** like above and then whichever **approach** is **better** take/use that.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b5b1fac-15ad-484c-9aa9-fdbd9a75179d)
+
+* To do **D = A * B * C**, one approach is giving **14** and another approach is giving **36**. Obviously **14** approach is **better**.
+
+* That's the meaning of **matrix chain multiplication**, best one is **14**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/13366327-074c-4fd3-ba8f-74ddd5c322ba)
+
+* Because of **associative property** we are getting **many ways**.
+* Both apporaches will give **resultant matrix**.
+
+
+* What is the meaning of **matrix chain multiplication**?
+
+> To **multiply** chain of **n** matrices, because of **associative property**, many ways are there. Which is the **best way**, we are **computing/calculating**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa0b6a67-0601-48df-8f6e-fee27eca67d6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/edefcb2b-e977-4a51-97dc-e3e459f0e628)
+
+* We got **30** in **(A * (BCD))** which is the **min** as we calculated the others and saw that they are **more than 30**. 
+
+> Whenever we saw that it is going over **30**, just leave it. Go to the **next one**.
+
+> Total are **5** sub-problems. **4** matrix so **3** children at the **first** level. **Only one** then **only two** and **only three** at the end. Slowly **increase**.
+
+> If **5** matrices then **Only one** then **only two**, **only three** and **only four** at the end. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8126014f-10b9-4891-8fbd-553e41b8844e)
+
+
+* 4 matrix -> 3 Possibilites at the top level
+* 5 matrix -> 4 Possibilites at the top level
+* 10 matrix -> 9 Possibilites at the top level
+* n matrix -> (n - 1) Possibilites at the top level
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/06a5b998-3bd9-43b7-b4ec-c82e3e7101b9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/49be78c2-106b-4a33-9d22-e5446bd9f566)
+
+> The only **short-cut** we can apply here is that **don't repeat** the **same** thing again. That is the only **optimization** we can do.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d660a13-6f86-4c74-91ec-bc718b43767f)
+
+* **No. of levels** is also a **matrix**. So we have **4** matrix, so we will have **4** level tree. 
+* 4 -> 3 -> 2 -> 1.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ccb73e3a-b5f2-492a-a653-7dc813a441e3)
+
+* For **4** matrix we can have **3** children at the top level.
+* For **50** matrix we can have **49** children at the top level.
+* For **n** matrix we can have **n-1** children at the top level.
+* If we give **n** matrix then the tree will generate **(n - 1) or n** level tree of **n-ary tree**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4bd2d9d7-3517-47fe-bbac-4b04b8b8af76)
+
+> Out of **n** people, finding **min** is **n** time.
+
+> **One function** cost in **matrix multiplication** is **n** time. Previously in **fibonacci** it was **constant(c)**.
+
+* Min of n-elements -> **O(n)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef99534d-68f0-4d7d-b763-65069a22cc0f)
+
+> After **recursion**, when all of the top elements are **available**, to get **E** we have to find **min** among all of the **n** elements which is **O(n)** time. Here, the **function cost** is **O(n)**.
+
+> In **fibonacci**, to find the **fibonacci of one value** it was **Fib(n-1) + fib(n-2)**, **one addition** which is **one function cost** which is **constant**. Only **one add** required at the end.
+
+* In **matrix chain multiplication**, what is the cost of **one function**?
+
+> **O(n)**
+
+* In **fibonacci**, what is the cost of **one function**?
+
+> **O(1)**, in fibonacci, when we **add** two numbers we get the **result**. That's why function cost is **constant** in **fibonacci**.
+
+> In **LCS(m,n)**, out of **two** people which is **max** takes **O(1)** time. For **n** people **max and min**, take **O(n)** time, but for **two** people **max and min** take **O(1)** time. In the **LCS** tree, everywhere it is **constant** as **LCS(4, 3)** is **two** children, out of them **max one** is taken which is **constant** only.
+
+* **Max** of **two** people in **LCS(m,n)** -> **O(1) or constant**.
+* **Two** people **adding** in **recursion** -> **O(1) or constant**.
+* In **matrix chain multiplication**, **min** of **n** people -> **O(n)** time.
+
+* How many level tree?
+
+> **n** level tree. So it is an **n-ary** tree.
+
+* In **matrix chain multiplication** of **n** matrices, it will generate an **n** level tree which is an **n-ary** tree..
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6e818035-8a2a-478e-81ee-728a5ad902a9)
+
+* For **4** matrices it is **4** levels.
+* For **n** matrices it is **n** levels.
+
+* **Matrix chain multiplication** of **(1,n), which is 1 to n** matrices, will generate how many level tree?
+
+> **n** level and **n-ary** tree. It is actually **(n-1) ary tree** but same thing, **-1 and +1** forget about them.
+
+* What is the cost of **every function**?
+
+> **O(n)** because out of the **n** elements we are finding the **min** element.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4bb835a-82cf-4229-9036-07af88ac2814)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/247bdd03-d88b-42b4-985b-5683ede6089c)
+
+* What is the cost of **every function** in **fibonacci** series?
+
+> **O(1)** because everywhere there is **two** children and out of the **two** children we are adding, it takes **constant** time only.
+
+* **Matrix chain multiplication(mcm)** of **(1,n), which is 1 to n** matrices -> It means that the **min** no. of multiplications needed to multiply **1 to 'n'** matrices.
+
+* E = ABCD -> mcm(1, 4) -> It means that the **min** no. of multiplications needed to multiply **1 to 4** matrices.
+* E = BCD -> mcm(2,4) -> It means that the **min** no. of multiplications needed to multiply **2 to 4** matrices which is from **B to D**.
+* E = A -> mcm(1, 1) -> It means that the **min** no. of multiplications needed to multiply **1 to 1** matrices which is from **A to A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a06cd5e2-144d-472b-b7a5-6b1e8e22e3f2)
+
+* Repetition also there.
+* First level having **1** function call. [E=ABCD]
+* Second level having **n** function call.
+* Third level having **n ^ 2** function call.
+* Fourth level having **n ^ 3** function call.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9032a8b-b266-4dad-90a1-6c1e3d0cff86)
+
+* How many level tree?
+
+> For **3rd** level it is **n ^ 3**
+
+> So, for **n** level it is **n ^ n**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a9c7976f-4ab9-4250-87c0-db6e73391d08)
+
+> In the **second level** there is **n** nodes, and **every node** contains **n** people.
+
+> That why in the **next level** which is **third level** it is **n ^ 2**, because everyone is **n**. That's why **n * n -> n ^ 2**.
+
+* **One 'n'** will **increase** as we go down the **tree** in **each level**.
+
+* First level -> **n ^ 0**
+* Second level -> **n ^ 1**.
+* Third level -> **n ^ 2**.
+ 
+> It is an **n-ary** tree that why we are seeing **powers of n**. Here, **one function cost** is **O(n)**.
+
+> In **fibonacci and LCS** it was **powers of 2** because it was a **binary tree**. Here, **one function cost** is **O(1)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa422e0e-6966-4e58-9698-e68050a0ff28)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3461ff3b-d128-48c6-9d3d-4c774f0bfe74)
+
+* Time complexity of **mcm(1,n)** without **dynamic programming** -> **O(n ^ n)**
+* Time complexity of **fibonacci** without **dynamic programming** -> **O(2 ^ n)**.
+* **No. function calls** generated by **mcm(1,n)** without **dynamic programming** -> **O(n ^ n)**
+* **No. distinct function calls** generated by **mcm(1,n)** with **dynamic programming** -> **O(n ^ 2)**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a23c6d6-8d34-4729-b83f-8674493f62e2)
+
+> Remaining all are **repetitions**.
+
+* **First parameter** can change **'n' ways** and the **second parameter** can change **'n' ways**.
+
+* E = ABCD -> mcm(1,4)
+* BCD -> mcm(2,4)
+* CD -> mcm(3,4)
+* D -> mcm(4,4)
+* A -> mcm(1,1)
+* AB -> mcm(1,2)
+* ABC -> mcm(1,3)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4965d75d-3c4d-4f61-9d0f-c91ca67012c7)
+
+* **One function call** is **O(n)** time.
+* **O((n ^ 2)** is for **Distinct function calls** time complexity.
+
+* Time Complexity of **mcm** with **dynamic programming** -> **O((n ^ 2) * n -> O(n ^ 3)**.
+* Time Complexity of **mcm** with **dynamic programming** -> **O(n ^ 3)**.
+* Space Complexity of **mcm** with **dynamic programming** -> Stack + table -> **n + (n ^ 2)** -> **O(n ^ 2)**.
+
+* Size of tree -> **n**.
+* **O((n ^ 2)** is for **Distinct function calls**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c035b2ca-5d99-42a8-a8b3-de065e810ba4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ec9ae6a-ee09-4c0b-a977-6926b5b6c703)
+
+* 2 parameter -> 2D array
+* 1 parameter -> 1D array
+* n parameter -> nD array
+
+> Table size depends on the parameters.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4400560a-5230-4591-9ad7-68e8378e11b6)
+
+
+* Only **numerical** required here and **count no. of distinct function calls**.
+
+* Why **one function** cost is **n** here?
+
+> The function value came from **n** people. It is having **n** children and out of the **n** children, finding **min** takes **n** time.
+
+
+* Questions:-
+
+1) Find **min no. of multiplications** -> 26
+2) In which order we have done to get the **min no. of multiplications** -> **(AB)(C)(D)**.
+3) What is the **table size**?
+4) What is the **distinct function calls**? -> **O(n ^ 2)**.
+5) What is the **total function calls**? -> **O(n ^ n)**.
+6) Time complexity
+7) Numeriacls [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d186e47-3592-4fac-b61d-f8752f7e085e)
+
+* Find the **answer first** then build the path from there. We got the **answer** from **3rd path**.
+
+* (AB)(C)(D)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16cc3fdf-b669-4f37-8b69-10cdce15d5b5)
+
+* This order. Start from **top**, where we have got **min**, where we have got **min**. Go like that.
+
 ## 0/1 Knapsack problem
+
+* Start from **2hr 25mins**.
+
 
 
 
