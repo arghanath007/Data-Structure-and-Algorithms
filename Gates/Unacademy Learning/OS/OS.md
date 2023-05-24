@@ -1252,9 +1252,23 @@ access/execute the **privilaged or protected** operations but it can't. The othe
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e512480-4d2f-4d1b-aa58-a494b50d82f5)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/570dea75-3136-4ff8-b365-83d2de9d17a9)
 
+> The **burst times** are **9, 6, 4 and 2** respectively given in the question for **p1, p2, p3 and p4**. 
+
+* **Steps**:-
+
+1) We will **subtract/deduct 1** from the **burst times** of the above processes.
+2) We will **add** the **new burst time**, which are **8, 5, 3, 1**. The total is **8 + 5 + 3 + 1 -> 17**. So, this **17** means the **end** of the processes. Only **one count** of **each process** is left.
+3) Starting from **17**, put down the **processes** one by one **like above**.
+
 > We don't have to make the **full gantt chart**, until and unless they ask for **count of context switch**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c23a2072-d0f0-4d97-9a76-861ec1e936ee)
+
+* Example 
+
+> **Subtracting 1** from the **burst times** of the **processes** so that we are left with only **1** unit of time for all of the processes. 
+
+* That's the **trick**.
 
 > No need of making the  **full gantt chart**. From there we can easy find **completion time(CT)** and get the **answers** from there only.
 
@@ -1263,12 +1277,12 @@ access/execute the **privilaged or protected** operations but it can't. The othe
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a59c7189-b53f-4a5f-a35e-89c62c687c05)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9cca89e9-27ed-4c49-a7c0-36237a6f689a)
 
-* Barbar algorithm. No **advantage** of scheduling. 
+* **Useless** algorithm. No **advantage** of scheduling. 
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8e81e8f-d03e-4878-805a-57342c5da379)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/022d0b27-1e2e-4747-9006-0fed4ac7473f)
 
-> **Substracting 1** from the **burst times** of the **processes** so that we are left with only **1** unit of time for all of the processes. 
+* GATE PYQ questions.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/deec2240-a827-41c5-b0f3-dde44c496c11)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/87f6f97a-cf2d-4fc2-82b2-7469d7b2a11d)
