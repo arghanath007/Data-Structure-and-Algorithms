@@ -14815,20 +14815,135 @@ D) None of these.
 
 ## 0/1 Knapsack problem
 
-* Start from **2hr 25mins**.
+* Fractions not allowed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be0a4b67-57be-4fd9-b98e-2216548cc2a8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a52d02c-1b8b-4fe9-97c7-a0c156b0cc02)
+
+> The Feasible or the **best answer** is take **obj1 and obj2(110)** which will give a **profit** of **260**. This is done **manually**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/744d35fe-0ba1-4e32-bf52-3568c638481b)
+
+> Same **greedy** logics we applied but **fractions** are not allowed. We only got **200** as the **profit** as we cannot add more because **fractions** are not allowed. That's why **greedy or short-cut** method is not possible here, as it doesn't give the **best answer**.
+
+* 0/1 knapsack failed for **greedy or short-cut** method as **fractions** are not allowed.
+* 0/1 knapsack problem using **greedy or short-cut** method **fails**, so we have to go to **dynamic programming**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81e461a4-9e09-4f12-b553-f2f03ff88cf7)
+
+* If **fractions** are allowed then there is no doubt at all that **greedy** will give the **best answer**.
+
+### 0/1 Knapsack using dynamic programming
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d035b848-0f77-4697-a48a-692a8e59f03c)
+
+* 0/1 Knapsack problem -> knapsack(m,n) -> The **max** profit we will get in **knapsack** problem, where **capacity** is **m** and the **no. of objects** is **n**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff3f4169-0125-40d1-8169-28a1b14a873b)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6affbb65-4833-4f8c-8b93-9e1c5bbd9c20)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58ca4dc4-3165-4539-a943-6715fdca257d)
+
+* Knapsack(35,6)
+* Knapsack(35,6) -> Knapsack(35,5) if w[6] > m.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/181ab3f9-90dd-4d6e-afb3-07adc7c1ee5b)
+
+* What is the **max** profit we will get in **0/1 knapsack problem**, where **capacit=35** and **no. of objects= 0**?
+
+> As **no objects**, so the **max profit** is **zero(0)** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b13e9c8b-9080-454a-8222-ef768c53b6b1)
+
+* In **worst case** we will get **max profit** as **zero(0)** only. No object we can take, all objects are more than capcity.
+
+> The **termination** condition of **knapsack problem** is that if **knapsack(m,n) = 0** if **m=0** or **n=0**.
+
+* If **capacity** over the **max** profit we will get is **zero(0)** only.
+* If **capacity** is there but the **objects** are not there then also **zero(0)** only.
+
+> This are **base** conditions.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eceb4c7b-1b1c-41ef-965d-b2a96b7c1422)
 
 
+* Knapsack(m,n) -> Knapsack(35,6)
 
+> We are at the **6th object**. The weight of **6th object** is **8** and we have **capacity = 35**. We can take **6th object** but we cannot **give gurantee** that **6th object** will give **max profit**. We cannot try **Pi/Wi** ratio as **no short-cuts** are possible.
 
+> The **dilemma** is that we can take but we don't know if it wiil **lead** to the **best answer** which gives **max profit**.
 
+> If **dilemma** is then we can use **brute force** algo. Which means if **dilemma** is there then do **both**.
 
+> If **no dilemma** there, then do **one only**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fbc85a11-bbf8-4271-b097-cb349936e01c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/61ecc35d-1668-41e4-84d3-c706f34f27c6)
 
+> We are at the **6th object**. We have **35 capacity** and **6th object** is only **8**. We can take **6th object**. **One gurantee is missing** that **with taking or without taking**, which is **beneficial** we don't know.
 
+> We don't know if **taking or not taking** is **beneficial** or not. **Do both** i.e **once take and once do not take** and check which is **better**.
 
+> We have **two** choices here, which is **brute force**.
 
+* Everywhere we have **two** choices. All possibilites, which is **brute force** only.
+* Until **last point**, both **brute force and dynamic programming** are **same**. 
 
+* Taking is **1**
+* Not taking is **0**
+* That's why it is called as **0/1 knapsack problem**.
+* Every object is **two** choices.
 
+> As every object has **two** choices, so every possibility is **covered**. So all **zeroes to ones** are covered.
+
+> Whichever will give **max** that is the **answer**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5cc7c38b-323f-4a39-8fd9-f757a9fadec6)
+
+* Everywhere we have **two** choices. So the **total possibilities** is **O(2 ^ n)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/74f04fe7-5726-4013-8bdf-dcf90faa2a08)
+
+* How many **leaf nodes** lastly?
+
+> **2 ^ n** leaf nodes, as **every leaf node** is **one path**. **Every leaf node** is **one binary combination**. Every where **max** is there, so out of all of them, whoever is **max** will come as the **answer**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/da3ac8e3-f011-4324-9a1f-aae312eeb688)
+
+* Covering all **binary combinations**. This will lead to **2 ^ n** because **no. of leaf nodes** is **2 ^ n**.
+
+* How many **level tree**?
+
+> **n** level tree as it is a **brute force** and we have **n** elements. **One level** for **each element**.
+
+* Is it **max** of **two** people?
+
+> **YES**.
+
+> So the **cost of function calls** is **O(1)** or constant.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d169dd4-a89f-4c2c-832b-ebce5822f1e0)
+
+* We have **2 ^ n** function calls as we have **2 ^ n** leaf nodes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6fd47604-49c2-43f6-a84c-83142bcbc2c0)
+
+* It is a **recursive** program that leads to **n** level binary tree, which contains approximately **2 ^ n** function calls. Every **function calls** cost is **O(1)** or constant.
+
+* So it is **O((2 ^ n) * O(1)) -> O(n ^ 2)** time.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5508834e-a276-4809-b5d0-2d62dbc78ca6)
+
+* Ordering for writing in **program**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c410aa7-f9e8-4b31-bce3-45de394c6ee0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d4cc5d7-f448-4248-8c6a-8f0d5156559a)
+
+* Time Complexity of **0/1 knapsack problem** without **dynamic programming** -> **O(2 ^ n)**.
+
+> It is because **function calls** are **(2 ^ n)**.
 
 
 
@@ -15230,13 +15345,12 @@ D) None of these.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f565016-2319-4c81-bb21-1bac9183b4d9)
 
-## NEXT TOPICS
+## NEXT TOPICS (LEFT)
 
 ## Counting Sort
 ## Radix Sort
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c8685286-df13-4d90-97e6-d397a9965a7b)
-
 
 
 ## Waiting for newer videos
@@ -15247,8 +15361,11 @@ D) None of these.
 
 * Selection Procedure(DONE)
 
-* Started from -> https://unacademy.com/class/heap-sort-ii/KAUOV2FP (Heap-sort-II)
+* Started from -> https://unacademy.com/class/heap-sort-ii/KAUOV2FP (Heap-sort-II) [Done]
 
+* Link -> https://unacademy.com/class/miscellaneous-part-iv/J8F2D1GR (DONE)
+
+* Waiting for **newer videos**.
 
 # Practice Videos (27th April 2023)
 
