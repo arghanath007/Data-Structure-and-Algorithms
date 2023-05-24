@@ -4184,7 +4184,7 @@ A) Infinite loop -> **NO**. Space is **limited**. Not possible.
 4) Merge sort (DONE)
 5) Quick sort (DONE)
 6) Selection procedure(Not selection sort) (DONE)
-7) Maximum contigious sub-array sum  [Find it in the new hybrid course] [To me done in Special Class]
+7) Maximum contigious sub-array sum  [Find it in the new hybrid course] [To be done in Special Class]
 8) Finding no. of inversions (DONE)
 9) Strassen's matrix multiplication (DONE)
 
