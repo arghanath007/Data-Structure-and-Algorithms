@@ -2245,6 +2245,65 @@ access/execute the **privilaged or protected** operations but it can't. The othe
 
 * Queue 1 having **higher priority**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31aa5abc-fb82-44d0-bfcf-33741c0360de)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/833b48a2-1a8d-41fd-ac77-87c171303ac8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7410730f-fc33-44e2-ac67-eb6b2d77aca3)
+
+### Disadvantages
+
+1) Some processes may starve for cpu if some higher priority queues are never becoming empty -> It is For **Fixed priority preemptive**.
+2) It is **inflexible** in nature. Processes cannot shift between the queues.
+
+> If a process is in Q2 then it cannot go to Q1.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22c52453-e865-45b6-9870-7a4ab481a38f)
+
+## Multi-level feedback queue scheduling
+
+> It is same as **multi-level queue scheduling** but here processes can be **upgraded** to higher queues or **degraded** to **lower priority queues** based on **some criteria**, it is an **implementation detail**. 
+
+> **Some criteria** will be given/mentioned in the question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa34e294-10a8-468b-8288-b4c7a8da5813)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22d25a97-c7b4-435b-ada8-42d32fe86cf9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc1eb294-e358-4408-af82-0466ed17a674)
+
+* Between **multi-level queue scheduling** and **multi-level feedback queue scheduling**, which is **preemptive** and which is not?
+
+> **Both** are **preemptive** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0a4bdfa-9a3e-48a7-849b-64fc2cf7fcac)
+
+### Questions
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed235fa9-6e09-406c-bfe0-3a905a06a381)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/158cc1ec-26aa-4268-8a16-196a464afe81)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33f78e06-8bcc-4362-a80c-64899038ab15)
+
+* In the **waiting time(wt)** of p2 process, the total was **14**, out of that **13** units of time was spend waiting in the **ready state** for cpu and **1** unit of time was spend in **blocked state** for IO operations.
+
+* What is the **overall waiting time(wt)** of **p2** process?
+
+> **14**.
+
+* What is the **waiting time(wt) in reddy state** of **p2** process?
+
+> **13**. The **IO** waiting time will be **removed**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/03c365e2-ea97-495e-9a3e-4d20064736c9)
+
+* Overall avg wt including wait for IO -> (7 + 14 + 3 + 12)/4 -> 36/4 -> 9
+* Avg wt only in ready state -> (7 + 13 + 3 + 12)/4 -> 35/4 -> 8.75
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a6dab87c-ef8b-43d7-91f8-0070b517414c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ebf58b5-8ac9-409e-bea5-3bae842b2d76)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5dd4bfff-a4f0-4474-b1a2-802f6208c5df)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ae0b041-eda3-422a-af0b-35127d4549d5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a390d8a5-d62e-4bfe-9ba0-7db3f38e6d7a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/03926998-0ce0-4b9f-9e19-c71d155db57c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b9cfe8a-a914-4845-8091-3c51958b5176)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31d9c45d-82dc-4f8c-8c00-121baaeab0e4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76a969ec-e4e5-4bc7-a5ac-58789fe8db14)
 
 
 
