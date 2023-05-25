@@ -1038,7 +1038,7 @@ access/execute the **privilaged or protected** operations but it can't. The othe
 
 > Let's make a **new algo** where instead of using **FIFO**, we will **schedule the processes** based on **BT or burst time**. This is used is **SJK or Shortest Job First**.
 
-## SJK or Shortest Job First
+## SJF or Shortest Job First
 
 * Criteria -> We will take the **smaller** burst time(BT) process first. If **two** processes have the **same** burst time then, we have to use **tie breaker**. The **tie breaker** will be **FCFS** which means we have to find see which **process** has the **smaller** arrival time and if arrival time is also same then we have to see **PID** of the processes.
 
