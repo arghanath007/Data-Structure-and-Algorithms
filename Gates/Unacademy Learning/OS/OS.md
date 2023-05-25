@@ -1484,7 +1484,231 @@ access/execute the **privilaged or protected** operations but it can't. The othe
 
 ## Round Robin
 
-* Start from **55mins**.
+* Criteria -> Arrival Time  + Quantum Time(Time Slice)
+* Mode -> Preemptive
+
+> **Quantum Time(Time Slice)** Will be mentioned in the question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57581aea-b431-470a-b11c-bef7f9a8e503)
+
+> Whenever one process comes to the CPU then for **max how much time** it runs on the cpu is dependent on the **Quantum Time(Time Slice)** .
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a60ca3f8-2fd1-4395-b738-3ddbac2bc001)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/06b97007-9499-4c95-a900-c6a2a3e70087)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c14cdf4a-080f-4533-b402-ab28a20711ef)
+
+* **Q=2** means that whenever one process comes to the CPU for running then it cannot run for more than **2** units of time on the CPU.
+
+* As all of the process arrive at **T=0** time i.e **arrival time** is **same** for all, so the process are arranged in the **ready queue** on the basis of their **P_ID or process ID**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0dd1f8d8-5761-4b32-926d-802670b190a3)
+
+* If the process was running on the CPU and it was **preempted** but the process had **burst time** left, then it went back to the **end** of the **ready queue**.
+
+* If the process running on the CPU is **finished/completed** which means that the process had **no burst time** left. So, the process was **terminated** and it never went back to the **ready queue** and instead went to **terminated** state.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c03408a-9848-42d2-b1af-692a2f42717e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0562b891-18bb-40f7-a061-4bbf4f3f0806)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a09ed12b-68a9-4e1f-b411-423b84d62d74)
+
+* No. of context switches = 9.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/68b23e88-72ce-47d5-b423-87f2271b86d4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb21e6eb-37b3-4939-8a50-b5f341029c1d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27d8f3d5-2654-4d60-a985-e91fa4d72e40)
+
+* Slide in parks.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb5bd016-155c-4224-866b-3301e021bb77)
+
+* New Kid, K5 entered the park. **K5** doesn't know that **K1** has already done **one round** of the **slide** only. That's why **K5** will be placed at the **end/last** after **K1** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/39faaec9-598c-47f4-8aea-277267875b00)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f8439c7b-d2a5-483c-b59d-48353e5cbe02)
+
+* Whoever kid comes later one, will stand at the **end/last** of the **queue** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6666b880-4c89-4328-9f06-f2d5d4e5f644)
+
+* Yes
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f72a4f20-35e6-4b8b-a2c5-26f88279d60e)
+
+* So when **one process** just finished running on the CPU and is coming back to the queue and at that time **new process** comes to the queue then the **new process** is placed **before** the **just preempted process** running on the CPU.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f99847f-8adc-4ed7-be1d-28ef865d3dd1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f7ac7b6-b2f4-444e-bcf1-b83f6b4b8394)
+
+* YES.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ffbd053c-ab3a-4360-b6fc-291d9188cf38)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f831762-3550-4a97-ab4c-3d8854ac52db)
+
+> At **T=2** unit of time, **P1** process is preempted from the CPU and at that time only, **P3** process has arrived at the **ready queue**. Between **P1 and P3**, **P3** is the **newer process** so it will get **more preference** and  put **before** P1 process.
+
+* **Newer process** is given **more preference*.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e813b1b3-a237-4c39-af40-5dbc8f8963e2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e28cd48f-8deb-45a0-b989-d14d600ebf36)
+
+* YES.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5e401e5-02aa-4002-9b87-75948a3edf8d)
+
+* Now, **no new process** are coming. So, run the **process** in the given sequence at **Time =4** as no new process are coming.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3121af13-c03f-49f3-8033-c4b782ac64ed)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37b1b35d-5b11-4ba9-b88b-6cd972a997ff)
+
+* Rule, follow it.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/08516108-b9da-49bb-aba6-cdf4d0013fe5)
+
+* Ofcourse
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aac890d1-f5aa-4e78-8c07-a41498536acd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c5714ad-641a-4b93-a74c-6396df603a94)
+
+* No never ever. We will count the context switches.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c6915783-0cc7-4a11-a5ba-257f4fff0a98)
+
+* Yes
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/badad813-6a5f-46df-824a-00c2d2fd750b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b9ca16f7-964d-4107-b4de-9fb2a2f33c8c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e22b020c-098c-40d9-a1a0-0d73aeeac5d5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/54ec031e-97e5-43bf-a1fc-4d543b5aea21)
+
+* If asked in the **round robin** question to find out only the **no. of context switches**?
+
+> We can solve directly, no need for **gant chat**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a9074b3c-9aab-49c7-a2ff-aad58a970629)
+
+* Quantum Time(Q) = 2
+* No of time some process **X** will go to CPU = Burst Time(B)/ Quantum Time(Q).
+* No of time process **P1** will go to CPU = 6/2 = 3. 
+* No of time process **P2** will go to CPU = 5/2 = 2 + 1 = 3. 
+* No of time process **P3** will go to CPU = 4/2 = 2. 
+* No of time process **P4** will go to CPU = 3/2 = 1 + 1 = 2. 
+* No of time process **P5** will go to CPU = 2/2 = 1. 
+* No of time process **P6** will go to CPU = 4/2 = 2. 
+
+* We can take the **upper bound or Ceil value** when we get **fractions**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/971425a7-1b0a-4f00-a39c-113f5e3a4b8f)
+
+* Total no. of times process ran on CPU = 3 + 3 + 2 + 2 + 1 + 2 = 13
+
+* We will do **(Total - 1)** because when **P1** process when to CPU for the **first time** for **running** we will **ignore** it.
+
+* Context Switch for the **above problem** = (Total - 1) = 13 - 1 = **12**. [Answer]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/49f7cbc9-8fd2-4e0f-9f21-6b5081cfac02)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e621ca4d-cef2-455e-aa8a-dd2888fa6008)
+
+* No process came.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9cd07a24-8dca-4f96-8825-7d2f8aade9b4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57c6030e-819b-43aa-88c7-7b52190415ec)
+
+* No. of context switch calculation without using **gant chat**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0b87072-b8b0-4a70-b335-403d087c1387)
+
+* General consideration.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86f27866-9280-473a-9a04-1ca507e4b037)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/214f0f85-dc1f-46d5-8d95-665cfde22f69)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c5e06295-ba73-4f3f-8010-51e4d1193a11)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f3fa0ea3-5ee3-42c4-82a1-58163fc88dfa)
+
+* Timeout.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6dfa303b-00d1-45d3-9fcf-8818404fe1b0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c97d3a1-cd79-4bf1-a6b9-5ae1591c34ca)
+
+* Context Switch = 11.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e59aca7c-68c7-45f9-ba32-92010075c47b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f87e3261-026b-4a89-b979-e1f12c5a2c0b)
+
+* Sequence Length(L)
+
+## Quantum Value
+
+* CS -> Context Switch
+* Q -> Quantum Time
+
+* We have taken a **very-very small** value of **Quantum Time(Q)** and in that process the **context switch time(CS)** is **very very bigger/greater** than **Quantum Time(Q)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e32e4d39-4e2f-4ad0-a6cc-ce68cd3ce271)
+
+> The CPU is taking very little time for running the process. The **context switch time** is **way bigger**.
+
+> **Context switch(CS)** is having way more times and  **context switch(CS)** is **way bigger** than **Quantum Time(Q)** then the **CPU efficiency** is approximately **equal to Phi**, **Phi** means **almost equal to zero(0)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a523c46f-4e97-40ba-bd49-2faad6c0ac6e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d5a40ff-376c-4008-9565-19c07575eef4)
+
+> It is because cpu spends **max time** in **context switch**.
+
+
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7fed9701-33fb-4461-9d40-7593fdfe983d)
+
+* In case the **Quantum time(Q)** is taken as **very-very large** then whatever **cpu scheduling** algo we will use, it will act as **FCFS** algo, no matter what.
+
+> If the **Quantum time(Q)** was set to **Q = 15**, then it will be **very-very large** than the **burst times** of the processes, so in the **below table** it will act as **FCFS** algo.
+
+> Which means the **Round Robin** algo will be **degraded** to **FCFS** algo.
+
+> All of the **processes** will be run **at once** and **completed/finished**. No need of **preemption**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d873454c-a2ff-481b-ba21-d20f2730f6c8)
+
+* No need of **preemption** because the **Quantum time(Q)** is **very-very large** than the **burst times** of the processes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab0ba3f7-aa51-4cb2-9cbc-3616e8da6dc4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d99683d-877c-493f-a25b-755cffdbbcd5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d259c1c7-ab06-45d0-abd0-8a8bf3253904)
+
+* Because we don't want the **round robin** algo to behave as **FCFS** algo.
+* As  **round robin** algo is **better** than **FCFS** algo.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c5b930f7-adc6-414b-985e-2c6a48b4bfab)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/45566ca1-662a-43f0-be18-c5955e57933e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5c74ead7-ae97-4bd2-8aaf-30bfd6d66435)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ab214bb-7dff-4be6-bf80-d63ce8a9ad6f)
+
+* When the **Quantum(Q)** is **smaller**, we are getting **response faster or faster responses** from the **same** processes.
+
+> We are able to see **faster responses** from the **processes**.
+
+* When the **Quantum(Q)** is **larger**, we are getting **response slower/delayed or slower responses** from the **same** processes.
+
+> We are able to see **slower responses** from the **processes**.
+
+* Interactive system -> The user thinks that he is able to **interact** with all of the processes and the CPU is giving **responses** from all the processes.
+* Interactive system means we are able to do things or see things happening **parallely** which is **multi-tasking**.
+
+* If the **Quantum(Q)** is **larger**, then we would get **quick responses** from **one of the process** and the **other process's** responses will be **delayed or takes more time**. That is a **less interactive** system.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44bdae7f-1460-4aaf-bfb2-f1b737e36e44)
+
+* BT -> Burst Time.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0085858-b1c7-4bc7-9012-005b7b69ef61)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6fa18490-c4ce-4ca1-80f4-d88f138b5705)
+
+* RR -> Round Robin.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/15d68231-6f32-44ec-b2f9-909f34ca7491)
+
+* Yup.
+
+
 
 
 
