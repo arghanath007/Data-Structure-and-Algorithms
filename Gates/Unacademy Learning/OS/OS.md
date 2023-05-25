@@ -1042,7 +1042,8 @@ access/execute the **privilaged or protected** operations but it can't. The othe
 
 * Criteria -> We will take the **smaller** burst time(BT) process first. If **two** processes have the **same** burst time then, we have to use **tie breaker**. The **tie breaker** will be **FCFS** which means we have to find see which **process** has the **smaller** arrival time and if arrival time is also same then we have to see **PID** of the processes.
 
-* Mode -> Non-preemptive algo.
+* Mode -> **Non-preemptive** algo.
+* SJF **preemptive** -> **SRTF**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3284c46-b72f-4fb1-90a4-aa1ece6a4e12)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7e996cc-3ff5-4056-8309-979523381e6d)
@@ -1080,9 +1081,9 @@ access/execute the **privilaged or protected** operations but it can't. The othe
 
 * Criteria -> The smaller **Burst time(BT)** first. If **two** process have the **same** burst time, then we will have to use **tie breaker**. The **tie breaker** will be **FCFS**.
 
-> It is the **preemptive** version of **SJF**.
+* It is the **preemptive** version of **SJF**.  [**IMPORTANT**]
 
-* Mode -> Preemtive
+* Mode -> Preemptive
 
 > If a process arrives and there are no options, we will **schedule** the process. If a **running process's** current remaining time is **more** than the **new process's** burst time then we will **preempt** the **current** running process.
 
