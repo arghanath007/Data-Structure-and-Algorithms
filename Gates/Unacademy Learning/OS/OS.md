@@ -1883,6 +1883,222 @@ access/execute the **privilaged or protected** operations but it can't. The othe
 * No sirji.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24ebdae6-25aa-4ab3-8575-e7c67828e234)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4dc0c377-fd36-4eaa-8d2f-c6a0844e328b)
+
+* If waiting time is **more** then **priority** is **more** as well.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a4aad91-e1b9-4ed7-b148-f2951eb2d560)
+
+* The algo is **round-robin** and **Quantum = T = 3**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f695515-8927-4f85-a3e7-41fbebcc0528)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7a81218-c3bb-465e-a2ee-c5085c8dfb8c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a67bbd3-5a20-4112-b0d4-376b4df09cc5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2beb0996-c02d-4328-9287-5eea1ebe2543)
+
+* Response time problem.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/13e1ac9b-4125-45e7-a2f6-1717dd69225d)
+
+* If all processes arrive together:-
+
+1) SJF and SRTF behave **same to same**.
+2) Preemptive and non-preemptive priority algo is **same to same**.
+
+> It is because in **SRTF and preemptive priority algo** preemption occurs only when later arriving process has better criteria (priority or burst time(BT)). 
+
+* In priority based algo -> priority is the criteria
+* In SRTF -> Burst time(BT)
+
+> The later arriving process has better criteria then **preemption may occur** otherwise **preemption** will not happen.
+
+* If **no process** is arriving **late or later** then **preemption** will not happen.
+* Because of this **above reason** only, **SRTF** will behave as **SJF** only and **preemption** algo will **behave** like **non-preemption** algo.
+
+> The same thing happens in **priority based algo** also. In **priority based algo** also there is **no preemption**.  
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e4498c1-249c-4aa2-9d37-c4689d1b9f40)
+
+* Why **preemption** happens in **round robin**?
+
+> **Preemption** happens when the **Quantum time(Q) or time quantum** is over.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ab15890-b750-477e-98ec-8e4f667a9810)
+
+* If all of the processes come at the **same time** in **round robin** algo then also **preemption** happens.
+
+> If the **Quantum value** is **not greater** than the **burst time** of all the processes then **preemption** is possible in **round robin**.
+
+* Why so many **preemption** happen in **LRTF**?
+
+> Even if all of the processes come at the **same time** in **LRTF** or at **different times** in **LRTF**, then also **preemption** is possible in **LRTF**.
+
+### SRTF -> Non preemptive case
+
+1) All processes arrive together
+2) Burst time(BT) of later arriving process is **greater than or equal to(>=)** the remaining time of the running process
+3) Process arrive with **non-decreasing burst time**.
+
+### Preemptive priority algo -> Non preemptive case
+
+1) All processes arrive together
+2) Priority of later arriving process is always lesser than current running process.
+3) Process arrive with **decreasing** order of priority.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d93932b8-a573-4259-8ed9-f794747d2787)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/640b233f-b8a8-4e4b-b26e-3b2afd77f5aa)
+
+> **SRTF** and **priority based algo** are **exactly same** thing only. In **priority based algo**, they have a separate **priority column**. In **SRTF**, the **priority** is **equal** to the **process's burst time**. **Lower burst time** then **highest priority**.
+
+* **SRTF and SJF** are also **priority based algo**, where **priority proportional to (1/BT)**.
+* BT-> Burst time.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c3dce7e-da2f-4370-9fc4-28097b3fde6b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea6c8ea8-f058-43cb-8dcd-bcd7196b78de)
+
+* YES.
+
+* When does the process go from **ready state** to **running state**?
+
+> When the process is **scheduled** by a **scheduler**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c420065b-7800-4e91-a95c-ab2d7a38b4eb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/68695015-8196-47e7-afd3-a70e1fb18240)
+
+* The **waiting time** we are calculating is not from **waiting or blocked state** but from **reddy state**.
+* We have **assumed** that the processes have **no requirements** of **I/O**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9df4077f-672d-408c-b2b9-16df89fb03a4)
+
+* Process -> CPU then termination
+* Process -> CPU then I/O then CPU then termination
+* Process -> CPU then I/O then CPU then I/O then termination
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a0a3fd18-cb89-4d3d-9d8e-d8b860c4645a)
+
+* Running -> Blocked -> Ready -> Running -> blocked -> on and on.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36ff89e8-2327-450b-8092-9e95c018c6bf)
+
+* Consider system has enough no. of resources to carry pit IO operations for all processes in parallel. What does this mean?
+
+> It means that if more than one process goes to the **blocked** state and starts performing their I/O operations then they will individually receive their IO devices and they will start performing their I/O operations parallely.
+
+> No one will wait for anyone. Everyone's IO operation can happen parallely. No **deadlock** and no waiting for IO as well.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8fa28424-5ac0-43ec-a77e-123bb8dec5cd)
+
+* There was **only one CPU** and all of the processes were **fightining** to run on the CPU. All of the process are waiting for their chance to get the CPU. IO operation is **different**. It is a **local thing**. Everyone has their own IO operation. 
+* **No process** will wait for **IO operation**. Whenever the process goes to **IO operation**, it immediately starts running.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3410772f-9e4a-4cdd-b589-f5689aa42416)
+
+* As all **arrival time** is **same**. We will look at **smallest burst time** of processes. As it is **SJF**.
+
+> So we will run **P1** on the cpu as it has the **smallest burst time**. As it is **non-preemptive**, so **P1** will run for **3** units of time on the cpu to completes it's **first burst time**. Now, **P1** will go for **IO** operations.
+
+> P1 will spend **9** units of time in **blocked state**. After that it will come back to it's **ready state**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/88a0137a-9afd-4693-b3c7-31558f616bcf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/402b466e-04dc-4f4a-a132-dc1a428bb57a)
+
+> We cannot schedule **P1** until it is back to it's **ready state**. At **3** units of time we have **P2, P3 and P4** and **P3** has the **smallest burst time**. So schedule **P3** now. It ran till **7** units of time. It will go for it **IO** operation now. 
+> **P1** is still running. As mentioned **IO** operations can run parallely, so **P1 and P3** will parallely run their IO operations.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09ae58b8-6357-4cc8-a820-fa1435bed186)
+
+* YES, **Needed** but not here as it is mentioned in the question they can run parallely.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/94cf8db6-a847-4b43-80a0-1884f9c1a146)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1da66d5b-12a7-466b-868e-469799ed6c14)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e9fe2b4-1504-45e4-8c21-dbe09360e806)
+
+> At **T=12**, **p2** is waiting for its **first burst time** whereas **p1 and p3** are waiting for their **2nd burst time**, they have completed their IO operations.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a479a43-0059-4978-9a5c-a871d5c42c0c)
+
+* Whoever has **less burst time** we will schedule that process.
+
+> As **p3** has **less burst time**, so schedule **p3**. It will run for **2** units of time and **p2** is **completely** finished.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed5820da-07ca-4da5-8962-055646bca55a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a0e4f0a9-f282-4005-ba69-d60a47e8bb3d)
+
+> As **p1** has **less burst time**, so schedule **p1**. It will run for **4** units of time and **p1** is **completely** finished.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44734820-c0f9-427d-a919-9eade88c8ad1)
+
+> At **T=18**, **p2** is waiting for it's **first burst time** and **p4** has returned from completing it's IO operations and waiting for **second burst time**.
+
+> As **p4** has **less burst time**, so schedule **p4**. It will run for **1** units of time and **p4** is **completely** finished.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1dd45c80-622a-4db6-a556-a6390083f22a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c4f5641-7c2d-417f-ae3d-c8ffe4c125e2)
+
+> Now finally **p2** runs. When **p2** goes for IO operations, then cpu is **idle** from **T=25 to T=29** units of time.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9635e56e-e015-44c1-83fd-a39db5960065)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4acdb5da-1e6c-4f52-9266-82ec72cfe7bc)
+
+* The questions mainly asked in these are:-
+* When was the **different processes** ended or **completion time**?
+
+> Answer.
+
+* P1 -> 18
+* P2 -> 36
+* P3 -> 14
+* P4 -> 19
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/654b0414-6635-4cf1-8248-63bcb212c9b2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e969a872-e7f3-4fe8-bb24-b836bdbb256b)
+
+* No process directly **terminates** from **blocked state**. They usually **terminate** from **running state**. Accoding to the below chart/drawing. That's the standard.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7011235e-ddb3-474e-901a-27e905e2f6ba)
+
+* When the process is doing it's IO operations, then the process is waiting at it's ready state for the CPU or not?
+
+> It is in **blocked/waiting** state but it is not waiting at ready state.
+
+> All of the questions we have **solved** previously, the waiting time we are finding is the waiting time of the process at it's ready state when the process is waiting for the cpu and not in the **blocked state**.
+
+> If a process is in **blocked state**, then the process is not waiting for cpu.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f179e83a-afa8-4d20-951f-36d05696e28f)
+
+> The **TAT or turn around time** for **p1** process is **18** and within that 18 unit of time, it had take **3** unit of time in it's first burst time on cpu and **4** unit of time in it's second burst time on cpu. It had run for **9** unit of time in IO but it didn't wait for that **9** unit of time. Wait in the sense, it didn't wait in **ready queue**. 
+> So, **total** is **3 + 4 + 9 -> 16**. So for **16** units of time, the **p1** process was **used** in **cpu or in IO operations**.
+
+* Waiting time of **p1** in **ready queue** -> TAT - total -> 18 - 16 -> **2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c3bb3d96-fd76-4997-b996-b5d0a3a6ff7f)
+
+* Waiting time of **process** in **ready queue or ready state** -> (TAT - (summation of CPU and IO burst times)).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f630ee4-6c77-410a-8735-a67722b34c13)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/763f2f06-42bf-4f56-acec-d1c4170d452e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/999c1d20-9c0b-4eb7-ad42-47c3a8560df5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a11c59d-ed9e-4f3d-989b-1a8f4f707617)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0980bf95-dfa2-4a67-9610-82b8ad5d786c)
+
+* What is the **CPU utilization** in the above question?
+
+> **4** time unit when **cpu was not used**. Overal was **36** time units.
+
+* **CPU utilization** = (36 - 4)/36 = 32/26
+
+* What is the **CPU idle period** in the above question?
+
+* **CPU idle period** = 4/36.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8e19ef8-b0f3-4e34-bd79-df9725b7651d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b25671d-551a-4ebb-a25c-1fd34a14a5fe)
+
+
+
+
+
 
 
 
