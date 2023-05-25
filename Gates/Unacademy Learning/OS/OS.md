@@ -1228,6 +1228,12 @@ access/execute the **privilaged or protected** operations but it can't. The othe
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c5ca66be-534f-4279-ade4-00b802052397)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/79e74138-8345-49f0-9dc5-c408b5234581)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76842b98-8ec5-4c59-95cf-8e690912966f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5528f5f9-7cb3-484c-b275-5d3a15c4e5d4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b6a698ee-8437-42ae-8536-a413500516a8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a54acb3e-889a-4c06-901f-3464a3dd2d26)
+
+* Don't count the **first and last** one. This will be mentioned in the **question** only.
 
 * **No. of context switches** -> 17
 
