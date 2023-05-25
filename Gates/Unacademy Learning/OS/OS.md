@@ -2095,6 +2095,158 @@ access/execute the **privilaged or protected** operations but it can't. The othe
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8e19ef8-b0f3-4e34-bd79-df9725b7651d)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b25671d-551a-4ebb-a25c-1fd34a14a5fe)
 
+## CPU_Scheduling_Algo_MLQ_MLFQ (9) [25th May 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/315bc473-c1e2-4698-9dce-d8978cf9be15)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f358bf45-0aca-4081-9c21-c4836f758a84)
+
+* If the process is in **blocked state** then the process is not **waiting in ready state** for cpu access. It is performing/using IO operations. After IO operations are done then it goes to **ready state** and waited for **2** unit of time then got access to cpu. It ran for **5** unit of time on the cpu. After that the process was **terminated** and went to **termination state**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/38e511bc-47ad-4868-976c-68ab9855a3c8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72b922bd-04f4-426a-9bb6-1b71b8cba313)
+
+> **Waiting time** meaning for these types of questions is that the process is **waiting** in the **ready state** for getting access to the cpu.
+
+* If the process is in **blocked state** then the process is **not in waiting state**. There is **no waiting** before the **IO operations starting**. As soon as the **first burst time** was over, the process started the **IO operations**.
+
+* TAT -> 3 + 5 + 7 + 2 -> 17
+* It **overall waiting time** -> 17 - (3 + 5 + 7) -> 17 - 15 -> **2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e7dc40bf-2241-4ddd-b551-f76449f5202f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aede29bf-cf03-4fb5-98d9-a45f590b675d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/918af9db-fe0c-42e4-8f34-85421c85c26e)
+
+* If **IO operations** doesn't have any **burst times** then:-
+* **Waiting time** -> (TAT - (CPU burst times)).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/475bd3bb-5027-4d31-9422-d1269598b510)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8e95b07-a85f-460b-be58-af300b6a76ba)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d69049b-6567-46c7-8578-8c381d3d3136)
+
+* If we have **one process**, whose **probability and time** both are included then with that **'p' fraction of time** with that same probability is a process which performs IO operations.
+
+* **'p' fraction of time** goes for IO operations.
+* One or single process only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c4b8f72-8a1c-410d-abdf-70af3c489363)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/383a71e6-17a5-413a-a232-158e6287c285)
+
+* CPU utilization for **1 process** -> 1 - p [1 shows 100%]
+* CPU utilization for **2 process** -> 1 - (p * p) -> 1 - (p ^ 2) [IO requirement -> (p * p)]
+* CPU utilization for **3 process** -> 1 - (p ^ 3)
+* CPU utilization for **'n' process** -> 1 - (p ^ n)
+
+* Remember the **formula**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cedf4561-eab1-4e49-a47f-f1f6e077dd14)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2c21e5d-5fdb-40fb-b28e-ad9aeb2fcb40)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/20f272c6-489f-473d-82b8-3e8d889e8dc6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba142a67-4f3c-4764-8177-e87215d4c811)
+
+* No. of processes = 256MB/4MB = 64
+* CPU utilization = 1 - ((0.15) ^ 64)
+
+## Multi-level Queue Scheduling
+
+* In a **single computer system**, **only one** algo can be used.
+* Multiple Reddy Queue.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f2d16e3-9a3c-4c60-b9aa-22eb1c120c98)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/154dba6f-609b-49c3-b728-2eab02af3842)
+
+> Depending on the **category or type or requirement** of process, we are **dividing** the processes into **various different queues**.
+
+> All processes in reddy state are distributed over multiple ready queues and to run the process of each queue, a different scheduling algo is used.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3082e2a9-82e2-41ee-8944-3191256bf579)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/60eff95f-e82b-4948-abcc-bb27c4312615)
+
+* One of the ways, not the **only way**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5ccf592-3731-4624-96e3-afff649896b0)
+
+* Different algos for every particular queue to run the various different processes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0be17a66-3b08-4ff0-8c41-1674b065d85e)
+
+1) **Fixed priority scheduling method** -> **Queues have priority**.
+
+> Once a higher priority queue is empty then only, process of next priority queue are executed.
+
+> A running process from lower priority queue is **preempted** when a new process arrives in higher priority queue.
+
+* Why is the preemption happening?
+
+> Because a process came to the **higher** priority queue.
+
+> If a new process came to the **foreground process** queue, then **preemption** will not happen as we are applying **FCFS** in the **foreground process** queue and no **preemption** happens in **FCFS** algo.
+
+* The **FCFS** process will also get **preempted** if a process came to the **higher** priority queue.
+
+> The **preemption** is not happening because of **FCFS** algo but we have **multiple priority queues**, and in the **higher priority queues** a process came to it that's why **preemption** happened.
+
+* It has **many problems**. The **main problem** is **starvation** problem.
+
+> Processes from lower priority queue suffer from **starvation**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69d27180-e0dc-4a64-8681-e686a1fd6843)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f9d299bf-5a97-427b-b507-bdede9706a1c)
+
+
+2) **Time Slicing** -> Don't give priority to queues.
+
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4db77723-ed46-42ed-aa88-012070566b0b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a5ca115-aa51-407e-afb4-381c73d4d256)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5c622bfc-5bcd-47ba-ae12-a5ebe9b2bf1c)
+
+* **Problem of starvation** due to priority of multiple queue is **solved**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d403ba87-c025-4a51-b9b3-5483a0e26011)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd71b20b-752e-4603-b07a-be967cecbc2d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37caddc4-5a83-4e87-9f58-47e3f5b72b34)
+
+* Then the processes in the other queues will not run or they will suffer from **starvation**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2c1efdc-7692-43ce-b864-bfeffe091f7c)
+
+* If not mentioned about **priority of queues** then we have to take **Queue 1 to have higher priority**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c784c93d-0258-49c6-ab62-211270eeb3b9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d726c723-9953-452a-ab61-51df70f7a7a4)
+
+> As mentioned that **Queue 1** has higher priority so it will run first. It has **p1 and p2** processes. They both ran till **7** units o time. As both **Queue 1** processes are done, now **Queue 1** is **empty**. So, we can now go to **queue 2**.
+
+> **p3** was already in queue 2, it ran for still **9** units of time because we can see that **p4** process is arriving at **T=9** time into queue 1 which has higher priority, so we have to **preempt** the process **p3**, it has **7** burst time left.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e32983d2-724c-4534-9a2d-900961d755a0)
+
+> As p4 process has come to queue 1, it doesn't matter what algo is in queue 2, the process run from queue 2 will be **preempted** because a new process arrived at queue 1 which has **highe priority** than queue 2.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/080c0f0a-ecb1-460e-834a-2bc7449bf0c9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd8d4b89-7937-4b41-8126-61246a33d870)
+
+> So **p4** will run completely and after **p4** process is completed then only **p3** process gets a chance to run again on the cpu and completes it's remaining **7** burst time left.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8613d1f6-d91d-4881-acb7-c87f3806471a)
+
+* Let' s say the algo used in queue 2 is **Round robin with q=5**.
+
+> Even though **Round robin with q=5** is used in queue 2, if a **new process** comes to **queue 1** which has **higher priority** than **queue 2**, then the **p3** process will be **preempted** after **2** units of time, even though the **quantum(q) = 5**. 
+
+* It doesn't matter what the algo is in queue 2, if a **new process** comes to **queue 1** then the currently running process from lower priority queues will be **preempted**.
+
+* The preemption reason is because of **new process** comes to **queue 1** which has **higher priority** than **queue 2** and not the **quantum(q) = 5** time. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dce5c618-a283-47ea-a9c3-e6f1accd510e)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/87e51393-6314-4de1-90bb-641aee31d74f)
+
+* Queue 1 having **higher priority**.
+
+
+
 
 
 
@@ -2222,6 +2374,9 @@ access/execute the **privilaged or protected** operations but it can't. The othe
 
 * Question **7** is half completed. Some doubts there.
 
+## DPP 3 (Lecture -> 7)
+
+* Solved in **Lecture -> 8**.
 
 
 
