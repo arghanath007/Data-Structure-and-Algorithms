@@ -15,6 +15,10 @@
 
 * Link -> https://unacademy.com/class/cpu-scheduling-algo-round-robin/UHQQ1T0Y (7)
 
+# PYQs Playlist
+
+* Link -> https://www.youtube.com/playlist?list=PLG9aCp4uE-s3klreqEhbzOBQDg5Ha0U38
+
 
 ## Introduction (1) [8th May 2023]
 
@@ -1711,12 +1715,174 @@ access/execute the **privilaged or protected** operations but it can't. The othe
 
 ## Doubt-Clearing_Session (8) [25th May 2023]
 
+### DPP 2 (Lecture -> 5) Solutions
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ca4bda1f-cda0-4dfa-ba91-7f82b2dc2406)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/150b0137-629a-4140-bab8-824322b487aa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5bd2b877-0c30-45c2-8b9e-eed479fc455b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ccaf15e7-3c04-4b84-b407-9d0b8e33cf49)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/962d1acc-4aba-4e6a-ab18-7dd029eb5c0c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/60968a0d-e1d5-4165-b258-1d88edb28488)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bfcc74f7-9cff-464e-abcf-5ab1124d1d5a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0eba6ca-913f-4893-8d6b-2366c76c2a30)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c89cfef1-8d43-43ff-8d4d-f02bba115638)
+
+* Correct solution added. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/75cc9c81-753b-4164-b51c-3844bdc8b778)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bcecd51c-8610-491c-8859-f60662adfa0d)
+
+* For **all algos**, **throughput** will be the **same** answer. As there is **no idle** period between **processes**.
+* If **idle** period is there then **answer** will be **different**.
+
+> It is because in **13** units of time, all the **processes** will be completed as the **total burst time** of all the process is **4 + 3 + 1 + 5 = 13**, which is the **scheduling length**. 
+
+* **Scheduling length** is between **0 to 13**.
+* We have **4** processes.
+
+> So **throughput** will always be **4/13** no matter what **algo** we have used for the **given problem**. It will be always **4/13*.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/42600cee-7fcb-4eb1-a9ec-0dc7115cfd3e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58ed628d-389a-469a-93d5-a0bce6772226)
+
+* There is **no idle** period in this above question also.
+* Min arrival time is **0**
+* Max Completion time is **19**
+* **Scheduling length** is between **0 to 19**.
+* We have **6** processes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d933d6c-9d7e-462b-a380-abf7e614edfa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5bdf3ef2-d35f-4ffe-9a89-73fa7539b16b)
+
+* Here also **same**.
+* Throughtput will be **6/19** for **all algos** as there is **no idle** period in between processes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b431370-8c25-41d6-b5ed-c5fd23da829f)
+
+* YES.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34f99937-a8b2-4008-96c3-1aae24edb929)
+
+* Correct.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a63170ea-4418-4d48-b41d-a3c5c5a4920d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c75dd14-8de5-41dc-a3ed-abaacba02194)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/940848de-8587-4836-be37-ba5e10bd0580)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/daffba50-5c67-4b4f-a88c-13a0e5693e55)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/410ffb3f-ba54-4e25-9a02-013164ad5118)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86945548-5b4f-4d32-8197-b4975f68c793)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95c3cf90-a165-4ffe-8c60-f9b7f3e0a21f)
+
+* SRTF method
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/15d0c6c7-587b-4356-8aac-78dc5fb3daca)
+
+### DPP 3 (Lecture -> 7) Solutions
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b1040a4-d018-4957-8c20-347bbce0bbaf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b13d1d7-e21f-479e-a87f-ff810fb4f17e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d464913-4bd4-41b7-b851-b27c662242eb)
+
+* It is beause of **same** arrival time. All the process are available at **T=0**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1f18204-a6f1-458b-9c71-ea9b3fea7cf2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a9ca4f9-efbb-4650-a3b3-fde398e0e42e)
+
+* If all processes arrive together, then **SJF and SRTF** will have **same process execution**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/baf5590f-0adf-4681-aa57-54fee0e8a7df)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32e7dd66-34ed-4e8d-86d7-465cca872a35)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34ea08e1-3808-4466-8723-1ac4d7fa3cc1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8cb308cd-68e5-4372-bd7c-52fc51603cdb)
+
+* YES.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/646f64f5-1434-4e32-a442-afd5a3c451d9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fec7bf7f-0772-4d9a-975c-055c14bd6987)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5caf3c8a-29c3-4e44-898b-ac45c25a5071)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b9b4b96-f77f-4dad-88bd-eaaf3102b610)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4fd4097f-52d4-4b4a-acde-765489b1e4e4)
+
+* Correct.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/228322dd-e174-4d5a-b05e-901cc1ba2dd9)
+
+* Correct
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb8fcf73-fe51-4c6e-95dc-7974b40f941a)
+
+* Correct
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9c5c10b9-ed77-4b25-80f5-a2eebabbf22d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2a515c2-bf90-40ae-b49a-105f2eb77b01)
+
+* It means we want a process which has **min arrival time(AT)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/146ac9d8-ff68-43b4-8459-63bf9d6f4889)
+
+* If the **pink circled** text is not given, then also the **answer** is **FCFS** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f9de4844-c9b9-43c9-9a04-42c0f8a4d7e1)
+
+* So, **only one** process will be there in the **ready queue** which can be **scheduled** at any time.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb87b7a0-7373-4403-8c86-d2d2e0d84317)
+
+* So the **answer** for the **above question(4)** is **all the options**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/56888ff3-e5e0-4e43-98ba-6e4c1be2c0ea)
+
+* YES. All **options/answers** are correct.
+* **All algos** will behave as **non-preemptive**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9027abb1-0470-4584-a510-d703f3b34469)
+
+* YES.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e04a0596-f820-4e35-8c34-6fcf66e94040)
+
+* If **A >= B** then it doesn't matter what is given in **point 2**. 
+* All **options/answers** are correct.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/926c06c0-d3d3-43a8-b1bb-9d4d5ad82ac8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e56dcfea-ea7f-42f8-b5e7-b49f4c536b57)
+
+### Doubt
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05df638f-27fa-490a-b7a6-e69da447f5f4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c87fc2e-2b73-47be-a9fc-3c4e55e66b4a)
+
+* Not compulsory
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4da7637c-341e-4810-a442-f33ae6e935bf)
+
+* Yes possible, no problem.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d96f88f-3cfe-4464-838f-f68ef78ffde6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/18ea5658-85c3-404b-9c4e-07e824e08005)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e41d8306-293b-464a-b228-feb6fdbc722c)
+
+* **II and III options** are **correct**, SO **C** is the correct option.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/127ad2b4-5594-4c1e-bb2f-8b86cd24afb4)
 
 
+* Uniprocessor -> Single processor, single CPU.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81a75ce1-8699-4b40-99f0-5fe5e248bb89)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/49156d48-e877-49c5-b437-20fc50826cef)
 
+* 43
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a56c4331-bce1-49c0-85b7-e312605459c3)
 
+* Not needed. Leave it.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/efe26d06-a875-41e9-a9d3-bca729921861)
+
+* No sirji.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24ebdae6-25aa-4ab3-8575-e7c67828e234)
 
 
 
@@ -1820,6 +1986,9 @@ access/execute the **privilaged or protected** operations but it can't. The othe
 * C
 
 ## DPP 2 (Lecture -> 5)
+
+* Solved in **Lecture 8**.
+* Link -> https://unacademy.com/class/doubt-clearing-session/6MF4H8JN
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c659b1a0-e29f-455d-bf3f-9b9c49f66d8a)
 
