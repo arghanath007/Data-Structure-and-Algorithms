@@ -2306,6 +2306,61 @@ access/execute the **privilaged or protected** operations but it can't. The othe
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76a969ec-e4e5-4bc7-a5ac-58789fe8db14)
 
 
+## Process Synchronization Introduction (10) [26th May 2023]
+
+### Process Management
+
+1) Process -> Program under execution
+2) Process implementation -> code, data, heap stack
+3) Process state transition diagram
+4) Scheduling
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d1cffe3-0f5d-4900-a169-b62fb339739c)
+
+> The **interaction** happening between **MS word and printer driver** is not done **directly** but done through **OS**. 
+
+> It is called as **inter-process communication**.
+
+* OS does communication between two processes it is called as **inter-process communication**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c6fc96cd-55f5-49fe-bb0a-39a06cb4c0f7)
+
+* The communication is done through **OS**.
+
+* If a process needs the **communication** or not, in that way, processes are **divided** two ways.
+
+### Process Types
+
+1) **Independent** -> Processes which do not require any communication with any other process.
+2) **Cooperating/Coordinating/Communicating** -> 
+
+ * Processes which require communication with other processes.
+ * Can affect or can be affected by other processes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/70e1af4b-7202-4e0e-873f-282620f3b6f7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a7cf6e5b-661b-4973-9847-2ffc9d8721cc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/885364d1-3511-4320-9d34-2e9851d454e1)
+
+* If two processes, p1 and p2, are communicating with each other, then they can **affect/impact** the **execution** of each other as well.
+
+## Need of synchronization
+
+* Synchronization -> When two or more communicating processes when they are running then their **total final result** after all executions are completed should be **expected**.
+
+* Between coordinating processes to get expected results.
+* It is done by **OS**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/60bd9bdc-4888-4271-bfc0-713138a4a388)
+
+## Problems without synchronization
+
+1) Inconsistency
+2) Loss of data
+3) Deadlock
+
+
+
+
 
 
 
