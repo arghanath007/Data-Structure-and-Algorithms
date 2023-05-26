@@ -2095,6 +2095,19 @@ access/execute the **privilaged or protected** operations but it can't. The othe
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8e19ef8-b0f3-4e34-bd79-df9725b7651d)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b25671d-551a-4ebb-a25c-1fd34a14a5fe)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ab3c972-4c51-482f-b9c5-b53414f8e001)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/edd23212-b2cc-443e-a536-d196bfdd0bd4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b7f98b30-1ef3-4fab-a44d-9c2c04a171f3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/87046db4-a17d-4c8e-87e8-3bbd9e47d26b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bab83585-3cb6-4a21-a5a1-d097dc77ffdb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/403232af-3ea1-48a7-ab9d-19eb61f31338)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/43950431-481f-4963-9826-ef76d08a852b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5dcdbd30-179b-4112-bc32-016f01b5859a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a29227b2-35fc-4171-b88c-7272a98344dd)
+
+
+
+
 ## CPU_Scheduling_Algo_MLQ_MLFQ (9) [25th May 2023]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/315bc473-c1e2-4698-9dce-d8978cf9be15)
@@ -2572,6 +2585,15 @@ access/execute the **privilaged or protected** operations but it can't. The othe
 
 * YES.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a129b68-83c0-4e2a-9a34-82c47fe7187b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/62f6f61a-2900-440a-a6dc-751dc5f3afdd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff88ab23-b670-4f8b-8048-5d8632aca275)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92b6f91e-924e-4bd7-a3dd-e994f14ff9c9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b60efd69-8cf2-469c-a86a-9ecc86f5bce5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d032837-fd3d-4514-b3ad-be9cd169a039)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a050b19-0bea-46bb-b343-b89e48eefb56)
+
+
 
 
 
@@ -2701,10 +2723,27 @@ access/execute the **privilaged or protected** operations but it can't. The othe
 
 * Solved in **Lecture -> 8**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f5122d0-9389-4c9c-a06a-f0464342e25d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/505b3cfb-aadb-45a2-b1b7-04607865bb51)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c65fe8c8-c43e-4fcc-9b7d-7f5dd4b57069)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e74054fe-8ede-45e1-91d7-9a7d13582aea)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9eddfa65-4d41-4998-8798-d23f72cebe79)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9228cbf3-f109-471d-a2e8-8e58949f96f5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3cb52824-045b-4941-ab47-8b4ec9ef3a0a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d1a76b9-4944-4be4-b2cf-764f2665c304)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8f75a14-2017-4bef-9f23-8095251851df)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5cc29142-4e59-4773-bb72-59cd27ec2df2)
+
 
 # Quizzes
 
 * Quiz 1 -> https://unacademy.com/quiz/quiz-i/KEUEBL97D4/attempts/SP_96IBDFZMKYZUNXERM
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e2ffbbec-68cd-46b8-becb-ca6d924bb220)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0059846b-0755-4fc1-a94c-30e69b798d8a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86414aa5-f517-4433-acb1-a870503fa49c)
+
+
 
 
 
