@@ -2438,8 +2438,9 @@ access/execute the **privilaged or protected** operations but it can't. The othe
 * Solved in **Lecture -> 8**.
 
 
+# Quizzes
 
-
+* Quiz 1 -> https://unacademy.com/quiz/quiz-i/KEUEBL97D4/attempts/SP_96IBDFZMKYZUNXERM
 
 
 
