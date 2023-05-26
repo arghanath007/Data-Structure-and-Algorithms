@@ -2358,10 +2358,219 @@ access/execute the **privilaged or protected** operations but it can't. The othe
 2) Loss of data
 3) Deadlock
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/951c34ae-d319-4e6c-b4f1-4d2776af9053)
 
+1) Parallel execution of process:-
 
+> We have more than **one CPU**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a41f99c-dc0f-44e3-9992-efe13b445c85)
 
+* All **p1, p2 and p3** run simultaneously.
+
+> Reddy sir at the same moment is teaching **Algo** in unacademy plus and vishvadeep sir is teaching **OS** in unacademy plus as well. This is **parallel run of two courses**.
+
+> At the **same time**, two process are running on two different CPUs. It is called as **Parallel execution**.
+
+* Not in **our syllabus**. As it a part of **distributed systems** and not in the **syllabus** now. [**IMPORTANT**]
+
+2) Concurrent execution of processes:-
+
+* One CPU
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b4845d4-c99b-46ff-9bae-ae6083d915a6)
+
+> It is the complete base of **synchronization**, where even we take **more than one process**, it will **assume/take into consideration** that they are running **concurrently**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a46be859-d9d0-4bcb-aaa8-047efd864e14)
+
+> Synchronization is **needed** at a **particular period of time** when the **processes** have to **meet or have to do some communication** and not all of the time.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dcf3522e-2b3f-4d13-bbc3-e674713ef4c9)
+
+> Some **select few** instructions are there, when they run and then **communication** happens.
+
+> The rest of the instructions, are a part of the process's instructions. They do not have any **dependency** on any other process.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91b7634a-3c3a-4e15-8b13-c622e8e31dbf)
+
+> A part of the process, where instructions are getting executed and where the **communication** between process happens. It is called as **critical section** of the proces.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d74f2ce1-4527-4230-9ca5-cc4ee3e52967)
+
+## Critical Section
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d42ea01f-909f-404f-9c1b-9b9ec52bce87)
+
+> It is called as **critical section** because this needs **synchronization**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ccf7762-9bd6-4407-8ff9-044a5a283fde)
+
+* There is a problem with **shared variables**. It is called as **Race condition**.
+
+## Race condition
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/120ee0ea-d557-4664-9334-87a4e292aab6)
+
+> The final race result will be **dependent** on the **sequence** in which the processes had reached the **finish line**.
+
+> The execution sequence of the processes and **dependent** on that the result comes out as **different-different**. Then it is called as **Race condition**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5daf0faa-4abf-4177-93b5-80d008403584)
+
+* YES.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cea7753d-e92f-42ed-93c0-19230a9b4306)
+
+* Is there some **common resource** between p1 and p2 process?
+
+> YES. 'x' variable.
+
+> As we have some **common resource** then **synchronization** should happen.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0327276b-e9d9-4dc8-9897-a99b0c4a79f3)
+
+* There is no changes in the 'x' variable.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/56007c40-e09d-4885-8971-d31df296446d)
+
+* R1 =  R1 + 3 = 8
+
+> After these there are **two** possibilities that could happen.
+
+* In **one** of the possibilities that **p1 finishes and then p2 finishes**. In that the **final value** of **x = 10**.
+* In the **other** possibility that **p2 finishes and then p1 finishes**. In that the **final value** of **x = 8**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f2b3c65-aec3-496a-b391-231d2a560b51)
+
+* The **final value** of **x** is **different** in the **two** possibilities.
+* This is called as **Race condition**.
+* **Race condition** means in which **sequence** the processes are finally **finished/completed**. If the **final result of execution** is **dependent** on that then **Race condition** is present.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/922a0591-6376-4b5f-9360-550201704f2c)
+
+* Yes **not desirable or un-expected** situation of results. The **results** which we don't want.
+* It is because of **preemption, concurrent run, common resources('x' here)**.
+* If p1 executed on 'x' and p2 executed on 'y' then there would have been **no problem**. If **no common resource or common variable** then it didn't matter.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/049d7c08-d26a-4ea9-99b3-c0c4e07af2f4)
+
+* Yes, because of **many factors/problems** then this **problem** occured.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57058a11-e547-49de-a9a8-c116bf4ca88e)
+
+* Some typical question asked:-
+
+1) Different-different values of 'x' come as the final result?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a46917d4-5884-477c-9152-23b1e935b2b3)
+
+* If p1 runs completely and then p2 runs completely, then **x =13**.
+* If we do **reverse** which is p2 runs completely and then p1 runs completely we will still get **x = 13** as the final value of **x**.
+
+> NO **difference** in this **case**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22424e0d-d53d-4093-a400-975e48cb432e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/56ea3e94-e8a1-4b2f-a45f-0bb26471bb74)
+
+* Possible values of **X** -> 9, 7, 14, 5
+* So we have **4** possible values of **X**.
+
+> We have to **run the processes**, we have no idea how many  **instructions** out of all **three instructions**  is going to be **executed/run**. They can be **executed/run** anytime.
+
+> Any process can be **scheduled, arrive and preempted after any no. of instructions** at any time. We have no idea which will happen, so we have to take **all possibilities** into **account**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1779e5ba-9624-40ce-b1a1-fecebb5e7d76)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2485dbc8-f696-4b77-b737-793f97c2ff31)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c260f91a-eaa8-4a99-beb3-62d785b2e50f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d7e2d41b-79ee-4ca2-8642-db03db152759)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9482c422-bf98-4c5f-9990-aa6394372cd1)
+
+> Different value of **x** came because the processes that were **executed** and they had **3 instructions** each and these **3 instructions** can be **executed** in **any different/various orders**.
+
+> We have seen all of the **different/various orders** possible where the **instructions** will run on the cpu and we will get **various/different** final values of **x**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4467e2d3-b09e-4d73-9c59-bf05e2c417ff)
+
+* NOPE, NO.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33267ee6-0c89-409f-a748-a1dc9ccfd8cd)
+
+* Will be given, we have to assume.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/59b0965f-cf9c-4e48-9a07-f4ef7a589152)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/17729538-6eb0-4ba5-8604-db185e9e0115)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c456ef9b-d2d8-4096-b6eb-1a518971f433)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/77a013b0-94a9-441b-a75e-f57bb8a5dc61)
+
+* Run them **individually or one-one** once.
+* Run them **concurrently** once.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c00cd307-dad7-40cb-ae69-26a9a8c8b653)
+
+* The **highlighted** statement means that process A and process B statements can run in **any order** and in **concurrent** manner.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6284e8e3-97b9-4d2a-aefa-18ed9a9ae5bc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b569b51-76d2-4572-810f-c9d59f7d0432)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b160b450-739a-4544-8a3c-c8fd779b8d98)
+
+> P1 took 'x' and completed all it's instructions. We got **x=8** now. Now, p2 and p3 both read the value of **x=8** concurrently. We got **x=6** from p2 and **x=10** from p3.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f9a67b2d-8107-40a7-a12a-79d19decd611)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e98c0e5-d49e-403e-ae26-ff05ef4bc3ed)
+
+> P2 took 'x' and completed all it's instructions. We got **x=14** now. Now, p1 and p3 both read the value of **x=14** concurrently.  We got **x=7** from p1 and **x=16** from p3. **x=7** is already recorded before, we are not writing it again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0eaf8ac8-3f0e-47eb-a71b-c415cf814240)
+
+> P3 took 'x' and completed all it's instructions. We got **x=18** now. Now, p1 and p2 both read the value of **x=18** concurrently. We got **x=9** from p1 and **x=16** from p2. **x=9 and x=16** are already recorded before, we are not writing it again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c59f3aee-3476-4898-818f-27ded8e22134)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69bc9339-dacf-41f2-923e-3ecf2d381bba)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c130884-ef6c-4eff-b80c-803ca4f52d0f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8875b870-1ce4-4bf4-8257-a63d1871b70a)
+
+* We have to see **distinct** values of **x** possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a677ec6e-36fe-4557-899c-7bd0842f9799)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b8da352-32c8-490f-a4d0-3eeb7c91d85c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/811ccd66-6600-434a-a0af-4366fefbb16f)
+
+* No formula possible here.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6fad6d20-3f73-4555-96b0-0174d0b3a8c5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/60e2f82d-f77b-4fa1-b3c6-0d4f3ff940ea)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ca668c6-702b-4e4b-a5f0-63aa39b0d092)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9315ff6c-7931-42e1-8096-b363fc2a6da4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3601b301-a3c6-48e7-8b9c-13607d496bbe)
+
+* This is for **max possible value of x**.
+
+> P1 and P3 took **x=16**. P1 completed all it's instructions and got **x= 16/2 = 8**, Now, p3 completed all it's instructions and got **x= 16 + 8 = 24**. Now P2 took the value of **x=24**. Now, P2 completed all it's instructions and got **x= 24 * 4 = 96**.
+
+* So the **max possible value** of **x** -> **96**.
+
+> We isolated the **value of p1** so that it doesn't impact the value of **P2 and P3**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/82501aca-a0c0-4fc5-8e37-ee416dabcce8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6dd76d1c-ba18-4a83-a9e6-04ab663828c5)
+
+* **Plus then multiply** to get the **max value**.
+* We wanted the **impact** of the **plus then multiplication** to get the **max value**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/79c5126c-1eb3-4218-a9dc-99c0c4c60594)
+
+* This is for **min possible value of x**.
+
+> First **p1, p2 and p3** all take the value of **x=16**. p3 runs completely and we got **x= (16+8) = 24**. Now, p2 runs completely and we got **x= (16 * 4) = 64**. Finally, p2 process runs and we had already stored the value of **x = 16** in the process. p1 runs completely and we got **x= (16 * 2) = 8**.
+
+* So the **min possible value** of **x** -> **8**.
+* We want the **impact** of the **division** now.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f46b2ee-db12-4640-8fff-6d9dc4bdc5d7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f8e6c63a-0194-479d-987f-a8647c744c82)
+
+* YES.
 
 
 
