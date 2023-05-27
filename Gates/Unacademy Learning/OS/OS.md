@@ -2911,6 +2911,9 @@ D) Not selected [True Statement]
 
 * Leave it. not needed.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e7672956-a56c-4284-9d19-d9ebaf1ddd53)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/de3e48ab-8524-4a2a-a56e-37ddf516aa2f)
+
 
 
 
