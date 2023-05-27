@@ -2701,6 +2701,231 @@ D) Not selected [True Statement]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb6e1c66-a2d9-46f4-b8f3-257febc4aa1e)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8474d492-a1e7-4712-ad28-3cbafe0381c6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/23621dc4-da5f-4b81-b3c3-2603463d8882)
+
+### Doubts
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/11369c36-246d-424c-b25e-0376bab927de)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a5157a6-29aa-4dd2-b90b-bb2bb715927d)
+
+* YES. **(1-p)** is the **amount of time** one process is running on the CPU.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f22b2449-6829-4d8e-bb55-d39f2bf919b6)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ee85fa7-1ce1-4997-88a5-cea955927136)
+
+* We have **10** inputs from **1 to 10**.
+* We have **two** instances of **Uf and Ug** which we can **use** parallely.
+
+> So we can run **two** inputs parallely as we have **two** instances of **Uf and Ug**
+
+> For **x1 and x2**, **G** took **3** secs and **F** took **3 + 5 -> 8** secs. It means that we got the answers of **x1 and x2** after **8 secs** only. **F** took **5** secs only. 
+
+> We have to implement **F(G(Xi))**, which means we have to run **G** first then **F** will run. That's why the total is **8 secs**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/053eaf57-3921-4827-a3ed-37106873dd92)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/88e128a1-0ac4-4cc3-bfbc-249bbf163edd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/29a95287-92ef-49b5-99ba-af4c95865b4e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0f0fe2b-4fbb-4767-bf4b-7f6b3dfc2794)
+
+* Answer -> **28**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8c9b7a46-8d2b-4e07-a85a-f0bcd01bff82)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/065cb1bb-376d-4222-99f4-f0a8e4d25a19)
+
+* Wrong question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e7952489-9a4e-4888-b0a2-554603b96857)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d88e07f-e4e0-4356-a3c5-4b652dcf3a2f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f547a1e6-8833-4315-9baf-b70cca2ff9c2)
+
+* Leave it. Half asked question. more details needed.
+* **b** programming is not in the syllabus also.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc7f653d-f44d-494a-a0a8-9ca57e37be92)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb07662f-ac26-427e-b203-744cfec0e853)
+
+* Get **50%** marks in quiz. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0dabcd9f-7532-46f8-8661-2063e338da34)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ebe7592-1a19-498f-8662-ffcb7d908ed0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34559e17-415a-4b5e-afd8-96c5b5dabdca)
+
+
+### DPP Discussion
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/04500b9a-b82d-434c-911b-770b60f91627)
+
+* Discussed in class.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3efffd2-4ceb-4020-9173-f2b14af9dce8)
+
+* Discussed in class.
+
+### Questions
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ca05423-bd45-42a6-8280-e78d11636087)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/94cf5260-a2b7-45d8-9f70-e4141df69f60)
+
+* We can maintain the **ready queue** in **sorted burst time**. One of the **implementations**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1865bdaa-802a-4994-9ed3-bfa02476956e)
+
+* **P4** will go for **execution** at **T=12** time unit.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f0cabac-1bcf-4955-9bec-27fcdd361a3d)
+
+> In **both** the case at **T=15** unit of time, the processes that are already present at the **ready queue** will get the **priority**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1e4e6fa-ae1d-44be-95ea-a94b6bbcfff5)
+
+* Why can't we use **Arrival time(AT)** here?
+
+> We would have taken **Arrival time(AT)** into consideration if the **processes** where in the **ready state** from the **starting** only until now.
+
+> But the **case** is **different** here, **one of the processes** have gone for the **IO** operations and after completion of the **IO** operations, came back to the **ready state**
+
+> In this case, we will see which process was there in the **ready state** for the **longest** from the **starting**. We will give **priority** to that process.
+
+> We have **p1, p2 and p3** in the **ready queue**. As **p3** was there in the **ready state** from the starting we would give **priority** to p3 over **p1 and p2** as they have gone for their  **IO** operations and came back to ready state.
+
+> If two processes having **equal burst time** then you need to take the process which **entered** first in the **ready queue**. [This should have been mentioned in the question]
+
+
+> P1 and P2 had gone for IO operations they will come to the ready state and join the ready queue at the back only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0bdd2fb6-eab7-4de6-87d5-4ece38b40696)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/74dec15d-9aab-4510-8a02-075cf9a99769)
+
+* Done in class
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/642895c3-ef8f-4f4f-b106-649bfd2bc32a)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ca10a303-bac0-4af8-adc3-9cf2a98535b3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4ac36e8e-1fdc-46f2-b2e5-3e04ac95ae0e)
+
+* Multiple ways possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e1e6f25-2d54-4541-9cf5-457d97af94cc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef0dce45-09c3-46df-9d53-c206c3ddfc6f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fdeb2ffa-e859-49ac-b46e-8d816c5fc0b8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9dc50833-5431-4e39-b9cb-828fd2ff62af)
+
+* No. of distinct values = 3
+ 
+ ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4acaba64-e2d2-4681-9a71-7997b2e77baa)
+
+* **80** is the answer.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f1498dc-d0a7-42e1-8ed4-819e05746752)
+
+* Rest is called as the **remainder section**.
+* Synchronization is only **required** at the **critical section**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab386d31-44f4-4f48-b649-371fbcc383e9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/879b82aa-bf1d-4246-8d09-e148fbe450b7)
+
+> One process which has **read** the **shared variable(B)** and the **execution** of the process is **not finished**. The process has only **read** the **shared variable(B)**. The process is **executing** it's **critical section** which is **reading** the **shared variable(B)** and it has **not finished** running it's **critical section**.
+
+* Then, **preemption** is possible?
+
+> **YES**, **preemption** is possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8132027e-42bc-47d9-8691-4bc3900d9a1a)
+
+* Yes. Right. **Preemption** can occur at any time but **preemption** will happen after **one instruction** is **executed** atleast. It cannot happen in the **middle** of **running one instruction**. It is the rule of **COA**.
+
+* We have to give a **solution** to the **critical section**. We have to provide **synchronization** at the **critical section**.
+
+### Critical Section Problems
+
+> Problems due to execution of **critical section**.
+
+> The **solution** provided is called as the **critical Section solution**.
+
+### Solution of critical section problem
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf61e5c5-de6b-4c14-81f1-d95b5a4888c6)
+
+* Next Class.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/75463e0f-379f-4070-bfe5-358af40e51cf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ca33480e-ac34-4268-8411-583c344ab5ce)
+
+### Doubts
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6bf4fae1-a838-411c-b6ae-b6c5ac23120e)
+
+* Implicit declaration of function -> Return Type is **int**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee5891a3-0042-4e28-90e3-7a11654e36b8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d1771a9-a61d-4312-984f-b950ae45bd80)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83cdc4ce-ca5a-41c9-81fe-26960e8fa371)
+
+* Return type of **foo()** will be taken as **int** because of **implicit** definition.
+* When **double** type value will be returned from the **bottom**, it will give **compilation error**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d25b6bf6-e5c5-40a0-b47a-db6ba071db37)
+
+* Yes.
+ 
+ ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe70d7ca-ef66-4cb5-b913-e414f62aa89c)
+
+* We have **unsigned int** so **option d** is gone. 
+
+> **Option a** is **not correct** because we have **3** multiplication and **n** value is **large** as mentioned in the **question**. If the **3** multiplications give a **very big/large** value which is more than **unsigned int** value or out of range of **unsigned int** then we might not get the correct answer.
+
+> **Option a** is not likely correct.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d501e800-b14e-4dff-8af1-96da976b57e7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1395478a-4928-4904-b509-a8b6bc929f56)
+
+> For **option c**, we are multiplying **n * (n-1)** then dividing by 3. If the **multiplication** gives an **even** no. then **division** will not be **accurate**. It can happen in the **next case** also when dividing by 2.
+
+> **Option c** not giving likely correct answer.
+
+
+* (n * (n-1) * (n-2)) -> It is **3** consecutive values. Among them, one of them is **divisible by 3**, one is **divisible by 2**.
+
+> So the **answer** will be **divisible by 2 and 3**.
+
+* So **option b** is **correct**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/590aa7dd-19e9-4786-94c6-08b73801b316)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8f0fb5e-23f0-4d2d-bb9e-a83b0245d684)
+
+* **option 'b'** is **correct**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea096be6-5398-4c73-90fc-e813b41c4f8d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6263e36a-1496-44ac-836e-4815d75d0536)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8057e200-0d91-4a64-8398-a0194c8a0335)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/88c4ae1b-e9b3-44a2-b599-4d1354621de0)
+
+* Leave it. not needed.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
