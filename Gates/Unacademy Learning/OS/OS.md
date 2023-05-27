@@ -2917,6 +2917,15 @@ D) Not selected [True Statement]
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9daebb59-ea28-4d66-8d3b-155cedee35a6)
 
 
+## Two process solution of critical section (12) [27th May 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c79d6d5d-4a96-4ace-bc5f-25a6687efff9)
+
+* In **critical section** only, **communication** is needed.
+* In **critical section** only, **synchronization** is needed.
+
+
+
 
 
 
