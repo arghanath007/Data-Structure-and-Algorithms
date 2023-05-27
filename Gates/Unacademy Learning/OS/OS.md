@@ -2924,18 +2924,96 @@ D) Not selected [True Statement]
 * In **critical section** only, **communication** is needed.
 * In **critical section** only, **synchronization** is needed.
 
+> If in the **critical section** part, **synchronization** is provided then it is called as the **critical section problem's solution**.
+
+* **critical section problem's solution** should have fullfilled all **3** requirements to make it **perfect**.
+
+> If one of the requirements is not fullfilled then the **critical section problem's solution** is not the **perfect** solution.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bd8b9349-270f-46d7-9820-8c4303051b31)
+
+* The requirements.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/787b9538-07fe-494e-aacc-b478a3a7584a)
+
+* Critical section access.
+
+## Critical section problem's solution
+
+1) Mutual exclusion
+2) Progress
+3) Bounded Waiting
+
+## 1. Mutual Exclusion
+
+* Mutual Exclusion -> It means **shared variable or shared resource** at a time can be **accessed** by **one process** only.
+
+> If one process is executing critical section, then other process should not be allowed to enter and execute the critical section.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33cd6796-9b99-4c17-844b-794a55b797a4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/760188b8-0504-47bc-8a0d-e03140017b30)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e16f2646-dac7-4240-8a19-6b267ee46f15)
+
+* Mutual Exclusion example
+
+> P1 is running on the cpu and performing it's **critical section**. We have preempted p1 and given p2 process to run on the cpu but p2 came to run on the cpu but we are stopping p2 from **executing** those **instructions** which belong to the **critical section**.
+
+> We are stopping p2 from executing the **instructions** that are belonging to the **critical section** because **p1** process is at the **critical section**.
+
+* This is the **motive** of **Mutual Exclusion**.
+
+> This is going to happen to p2 when p1 is already at the **critical section**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ebacb51d-b568-4849-a918-9d106c7ec43e)
+
+> If two process read the **same or common resource(x)** then there will be a lot of problems. There is **race condition** and many more. Inconsistent data comes in the system.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2fa41db4-ee50-4f66-9247-8ab98e183c85)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/da1391d2-7047-430b-ab2e-27971070e90a)
 
 
+## 2. Progress
 
+> If no process is at the **critical section** and **one process** puts forward it's wishes to go to the **critical section** then that process should be allowed to go to the **critical section**.
 
+> Progress is need in the solution.
 
+* If no any process is in critical section and a process wants to enter into critical section, then the process should be allowed to enter the critical section.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/01978e54-3ea3-4ee5-81b6-ba03cbc6bd21)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/26972f79-920e-431f-90e5-d1dd7b0c140e)
 
+* The one who wants too.
 
+> The process which wants to enter the critical section then that process is only allowed to enter the critical section.
 
+> Not everyone or every process is sent to the critical section. The process which wants to enter the critical section they are sent to the critical section.
 
+* The discussion is **mainly** around **2 process**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0edbc0d-09e9-4b88-93d8-336a81622521)
+
+* In a single process, multiple **critical solutions** are possible.
+
+## 3. Bounded-waiting
+
+* It means **fairness** which means **no or not biased**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ab0e180-c58b-40ed-b8f1-1505fc2ed7f1)
+
+* Scheduler can only schedule at the cpu. If a process got the cpu doesn't mean that the process will get the **critical section** as well.
+
+> The process can run on the cpu but cannot get under the **critical section** part.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a00647db-5787-4fe6-a21d-4537b3bceb6c)
+
+> If a process is in critical section and other process is waiting for critical section then the first process should not be allowed to enter into critical state again by keeping second process waiting for critical state.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1867f241-f733-4c87-94df-8f5fb1cd6a9a)
+
+> In **Bounded waiting**, remember that if p1 process is in **critical section** and p2 process wants to be in 
 
 
 
