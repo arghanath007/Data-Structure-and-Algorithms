@@ -2594,6 +2594,117 @@ access/execute the **privilaged or protected** operations but it can't. The othe
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a050b19-0bea-46bb-b343-b89e48eefb56)
 
 
+## Doubt-clearing-session (11) [27th May 2023]
+
+### Quiz- 1  Solutions
+
+#### Q1
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/075a99e3-4bf4-488e-8563-716528006f11)
+
+ * IO bound process -> The process which spends **more time** on **IO** devices.
+ * CPU bound process -> The process which spends or requires **more time** on **CPU** than **IO** devices.
+
+> If an **IO bound process** is scheduled to the **CPU** from it's ready state, then it will spend **less time** on CPU. Then for **IO** operations it will go to **blocked/waiting** state. Now we will schedule the **CPU bound process** to the CPU. It will run for a **long time** and the **IO bound process** will also run for a **long time** in it's **blocked/waiting** state.
+
+> It is better **cpu utilization** if we send the **IO bound process** first and then the **CPU bound process**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3181a801-bdad-41bb-96f8-7d3dd8f981a8)
+
+#### Q2
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e4b6181c-3d09-4b96-be25-4661c1b7adc5)
+
+>  "The scheduling happens only on arrival of a new process or on completion of a running process. Each scheduling overhead takes 0.1ms. Further note that scheduling is required only when at least one process is there in ready queue".
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed05c73d-f9d4-45ea-af62-6877f24d664f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/328ed8f4-76f3-4a5b-abd1-af54df6e697a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3787a163-dc2a-445f-bf29-9a01edb7d50f)
+
+> When **A** arrived we added **0.1**.
+
+> When **B** arrived we added **0.1**.
+
+> When **C** arrived we added **0.1**.
+
+> Even though **context switch** didn't happen but **C** arrived and we are continuing with **B** process.
+
+> When **D** arrived we added **0.1**.
+
+> **D** ran for **1** unit of time and **completed**. So **D** is terminated and we need **0.1** scheduling overhead for completion of a running process which is **D**. 
+
+> **B** ran for **2** unit of time and **completed** as no new process are coming. So **B** is terminated and we need **0.1** scheduling overhead for completion of a running process which is **B**. 
+
+> **C** ran for **3** unit of time and **completed** as no new process are coming. So **C** is terminated and we need **0.1** scheduling overhead for completion of a running process which is **C**. 
+
+> **A** ran for **5** unit of time and **completed** as no new process are coming. So **A** is terminated and we don't need **0.1** scheduling overhead as the **ready queue** is **empty**, for completion of a running process which is **A**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a6a05a6a-f0ba-4af7-b38c-4fa5d15b8619)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89953fa6-e5e8-4b54-aa00-c28ec063c316)
+
+* Scheduling Overhead -> (7 * 0.1) -> 0.7
+* Total time required -> 14 + 0.7 -> 14.7 [Answer]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/efb15442-2543-4ef8-bce0-49747f1b9c49)
+
+* Scheduler will also.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ec2a91f-6723-4a6d-9c30-d6534072d68d)
+
+* NOPE, no short-cuts.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/473d8dff-5591-47d8-a70c-e07c3493d813)
+
+* A's arrival time.  **Arrival of a new process**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4ad58df0-d66a-434c-91e2-8ae320767ecb)
+
+* YES.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c42bed52-ab1e-43d6-b231-ae28b438c3ea)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f1354c1-bd88-4ae0-8fa8-3758d033651c)
+
+* YES.
+
+#### Q3
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/68ecfde3-77f6-49ac-85f7-9fd07e4e6bbb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ca4b9b5-c5dc-4a1c-a47f-05a0d1c85f43)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a7b068a-8690-4835-9f79-cc6f95197033)
+
+#### Q4
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5cdb6b9-794b-4090-8256-ff3aacf73bb3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc8401c5-5843-4cb2-9fab-b9d874f44054)
+
+#### Q5
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/56c69ca4-bee9-45c1-980f-73bf01d2e81c)
+
+A) Should be selected
+B) Not selected [True Statement]
+C) Should be selected
+D) Not selected [True Statement]
+
+* **A and C** should be the **correct options**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/faa4b3bf-767a-4d49-a8ee-30f5748af970)
+
+* These on the **Left side**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb389caf-ae5a-453d-97f3-12c183c1fc17)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea79d033-a1a3-4ef1-8904-526e85404587)
+
+* multiprogramming doesn't imply that it is **preemptive or non-preemptive**. It can be **preemptive** and **it can be non-preemptive**.
+
+#### Q6
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb6e1c66-a2d9-46f4-b8f3-257febc4aa1e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8474d492-a1e7-4712-ad28-3cbafe0381c6)
+
+
+
+
 
 
 
@@ -2738,6 +2849,7 @@ access/execute the **privilaged or protected** operations but it can't. The othe
 # Quizzes
 
 * Quiz 1 -> https://unacademy.com/quiz/quiz-i/KEUEBL97D4/attempts/SP_96IBDFZMKYZUNXERM
+* Solved in (Lecture-11)
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e2ffbbec-68cd-46b8-becb-ca6d924bb220)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0059846b-0755-4fc1-a94c-30e69b798d8a)
