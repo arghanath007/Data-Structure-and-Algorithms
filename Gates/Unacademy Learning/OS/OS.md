@@ -3129,20 +3129,20 @@ D) Not selected [True Statement]
 
 > Now we are trying to preempt p2 and give another chance to p1. p1 leave the critical section and it immediately tries to go back into the critical section again.
 
-* We are checking if p1 can go to the critical section again or not?
+* We are checking if p1 can go to the critical section again or not? Why?
 
 > It is the condition of **bounded waiting**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d97e30d-37af-4b60-85b3-73ae5c6e2e28)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/46b2092b-48b9-48bc-bd6d-317dfe1fae9c)
 
-> P2 was stuck in the infinite loop. After sometime it was preempted. P1 got cpu again and it completely ran the critical section and set **lock =false**. As it was **while(True)** we went back to **while(lock)** condition. 
+> P2 was stuck in the infinite loop. After sometime it was preempted. P1 got cpu again and it completely ran the critical section and set **lock =false**. P1 ran the **remainder section**. As it was **while(True)** we went back to **while(lock)** condition. 
 
-> As, **lock =false** and we move forward and set **lock =True**. Now p1 is at the critical section.
+> As, **lock =false**, we move forward and set **lock =True**. Now p1 is at the critical section.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e2cbc8ae-4ed2-4214-b6cb-b776dd532e11)
 
-* P1 was critical section, it left and came back again to the critical section but p2 was **still waiting**. 
+* P1 was at critical section, it left and came back again to the critical section but p2 was **still waiting**. 
 * So it is **not bounded waiting**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/306f3a66-e27a-4b2d-8bd8-9a9588262b4f)
@@ -3151,9 +3151,232 @@ D) Not selected [True Statement]
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0abd7d72-07ee-47a4-a545-ddc9553ba8b6)
 
 
-### Mutual Exclusion
 
 
+
+## 2-Process Solution Flow with **Example**. [**VERY VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c3e3824d-b081-4918-94ea-f943e865ba01)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc7d2bc1-e8de-4883-9cbe-a67a7fd79717)
+
+> Entry and exit section are **same to same** for **p1 and p2**.
+
+> We are checking if the **solution** is **perfect** or not.
+
+* At a time only one process can enter the **critical section**.
+
+* Engineer's mind -> We will try to prove that **mutual exclusion** is not happening or **mutual exclusion** is failing.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f915bdd-803f-4a1d-8ab1-56e6db18319b)
+
+* Boolean lock= false; -> **Lock** checks if the **critical section** is **locked** or not.
+* lock = false: -> It means that no any process is in critical state.
+* lock = True: -> Some process in **critical section**.
+* while(condition);
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d307c36c-c513-4a8c-9a75-42f6886e53db)
+
+> No statemenets within the while loop. It will just run till the condition is **True**.
+
+> When **lock =True** then the **process** will be stuck in the **while** loop.
+
+> When **lock =False** then the **process** will not be stuck in the **while** loop and it will go forward.
+
+> If a process had entered the **critical section** then it has set the **lock =True** then another process trying to enter the **critical section** will be stuck at the **while(lock);** statement as **lock =True**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d59851f-e0f2-4a85-965e-f54f4357ca8d)
+
+> Before entering the **critical section**, the process has set the lock as **lock =True**. So, **lock =True** when the process had entered the **critical section**.
+
+> When leaving the **critical section**, the process at the **exit section** is setting the lock as **lock =False**. So that other processes can enter the **critical section**.
+
+> We know that p1 and p2 can be **run** at any time and they can be **preempted** at any time.
+
+* The goal is to try and violate **mutual exclusion**, if possible then in this example **mutual exclusion** is not possible or not holding.
+
+> We are trying to run the process/instructions in **one by one** manner as we have **one cpu** only, such that **both** process enter into the **critical section** at the **same time** which violates **mutual exclusion**. 
+
+### 1. Mutual Exclusion
+
+> We ran p1 process and **lock = False** initially. P1 will go forward from while loop. But p1 was **preempted** before it could run the next statement which is **lock=True**. 
+
+> P2 process ran and **lock = False** still. P2 will go forward from while loop. It ran **lock=True** statement and after that got preempted.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1f9ab40-6f32-4161-a72a-4618a50a3706)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b2f6fad5-5bf6-487a-bc02-ea53910db47d)
+
+> Now p1 process is ran and it ran the **lock=True** statement. Now P1 is at the **critical section**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa782cbd-4c5e-46a3-acaf-7db18b25cbe9)
+
+> After sometime P1 is preempted, then p2 will be at the **critical section**.
+
+* Both, p1 and p2 are at the **critical section** at the **same time**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a50812f-3c96-4501-ac83-f434fa6995c5)
+
+* It means that **mutual exclusion** is **not possible**. It is gone, it is **violated**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/baa69d29-b81b-459d-8a73-404634a51112)
+
+* If a situation/problem/questions comes then what we will do?
+
+> We will check at the **entry point**, some statement is there where the **process** can stop. The process will **wait**.
+
+> In the above example the **statement** where the process can **stop/wait** is the **while loop** statement.
+
+> The **trick is that**, whatever statement is there at the **entry point** where the **process** can **stop/wait**. We will try and run one process still that **statement**, run the statement as well. Then we  will preempt that process. We will try and bring the next process still that **statement** run the statement as well.
+
+> The statement in the **example** is the while loop and we will preempt the process after while loop is run. 
+
+> We will go to the next process and run it still the while loop is ran and we will also run the **next statement** which is **lock =True** and after that preempt the process.
+
+> Now P1 will run **lock =True** statement and enter the **critical section**. After sometime p1 get preemted.
+
+> Now P2 is ran and it is also at the **critical section**.
+
+* Both p1 and p2 are at the **critical section** at the **same time**, which means **mutual exclusion** is not possible and violated.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dae4c21d-8193-41e2-a1b7-7e98f1c17494)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/719c7894-de0b-48da-af35-36ed3084f508)
+
+* Yup. Do this in the code.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2bed55f0-68b3-41be-afe3-1492dc917605)
+
+* That's the main motive here.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d10d54f0-b9f6-49be-91c0-881ac585f668)
+
+* Yes
+
+* Why was mutual exclusion violated here?
+
+> One process read the **while(lock);** condition and lock was set to **lock = false**. and when it went to ran the next statement which is **lock = True** before that the process was **preempted**.
+
+* Preemption happened between the **two** entry section statements. That's why mutual exclusion was **violated** or not holding.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1df3266d-42a0-4838-bf52-be609fc3b126)
+
+* No, working as an infinite loop. Stopping another process from entering the critical section, if one process is already at the critical section.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/edcc8018-ef03-4a35-8d02-63ef17e9e007)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a87ecf10-b286-4e7d-a367-07c0b439c91c)
+
+* We are doing the **preemtion** at the **white arrow** in the above photo.
+
+### 2. Progress
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f76ae04a-7ea0-43dc-a3e7-e8e73d1c933d)
+
+> No one is at the critical section and one process comes which wants to go to the critical section then that process should be allowed to go to the critical section.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b3149bd8-c050-4f75-8900-d6b455d96372)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/06b20f1b-3814-41e1-bef0-15eac2d45a8b)
+
+* We will see if p1 alone can get into the critical section or not, p2 never arrived.
+
+> P1 ran and **lock= False**, we set **lock= True** and enterd the critical section.
+
+* p1 was able to enter the critical section alone when there was no other process available or wanting to go to the critical section. **YES** p1 was allowed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9ef7480-b24c-4b82-96c0-132127a4fdf4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef5188c1-e787-4823-b78f-844669f016d5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae90d175-07a2-4e1c-b8c6-e2dee919d509)
+
+* We will check for p2 now.
+* P1 process never came or arrive.
+
+* If P1 came alone, then also it was allowed to enter the critical section. 
+* If P2 came alone, then also it was allowed to enter the critical section. 
+
+> So both process individually, if no other process was there in the critical section, were allowed to **progress** further.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6df74b62-7ab3-4c17-bd97-585d39002a08)
+
+* So, for P1 and p2 process both, there is **individual** progress which is available.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9f1c436a-2c26-4dfb-8992-3e7db289093c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4996bdd-ce78-46d9-b440-830bfedd8429)
+
+* YES.
+
+* As soon as **lock =False** statement is **run**, the process is out of the **critical section**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b165521f-9f1f-41b3-bc98-0e0460eb9ee2)
+
+* We have to see the **progress** of **both** the **processes** that's why 2 cases.
+
+### 3. Bounded Waiting
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5bf7055-8d2a-4a0c-9fc8-8c64803e0da0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/180c68d4-16bb-43dd-9fa9-3400ca875288)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f13e1aec-a82e-4320-b7aa-73a55cd9ff31)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d4af5aa-91e7-4dca-a69c-20f784b9ddb8)
+
+> First the p1 was sent to the cpu it ran and **lock = false** so there was no infinite loop. It reached the critical section and we preempted it.
+
+> Now p2 goes to the cpu and now **lock = True** and it is stuck in **infinite while loop**. Till **lock = True**, p2 is stuck in the while loop.
+
+> It means we have **waited** p2 process for critical section because p1 is in critical section already.
+
+> Now we are trying to preempt p2 and give another chance to p1. p1 leave the critical section and it immediately tries to go back into the critical section again.
+
+* We are checking if p1 can go to the critical section again or not? Why?
+
+> It is the condition of **bounded waiting**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d97e30d-37af-4b60-85b3-73ae5c6e2e28)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/46b2092b-48b9-48bc-bd6d-317dfe1fae9c)
+
+> P2 was stuck in the infinite loop. After sometime it was preempted. P1 got cpu again and it completely ran the critical section and set **lock =false**. P1 ran the **remainder section**. As it was **while(True)** we went back to **while(lock)** condition. 
+
+> As, **lock =false**, we move forward and set **lock =True**. Now p1 is at the critical section.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e2cbc8ae-4ed2-4214-b6cb-b776dd532e11)
+
+* P1 was at critical section, it left and came back again to the critical section but p2 was **still waiting**. 
+* So it is **not bounded waiting**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31180197-32e9-41f6-8645-58583e7fa14b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a576c85f-1d00-4c14-8427-2e9db1016476)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/306f3a66-e27a-4b2d-8bd8-9a9588262b4f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab90b7fd-896a-4ff6-9a3e-cad709eb3ad1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/52eaffed-219b-40b9-9732-04572edc6a9c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0abd7d72-07ee-47a4-a545-ddc9553ba8b6)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/740a8504-8651-473c-adc8-327997466b20)
+
+* P1 came out but p1 was never preempted that's p2 never got a chance to run. P1 ran the code again to enter the critical section.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32e496cb-b9aa-42b5-b768-d7fa897430fe)
+
+* Yes. We have to try and make the conditions fail. If after many tries the conditions don't fail like in **progress condition** then we have to say that the condition is **met**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/11604770-b309-4ec8-800c-3287b1483f6c)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/711f10da-5c10-4933-af93-b44d56393460)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a4d5c7c0-0fd7-4c31-9a33-441475075c2c)
+
+* That's the **problem** here. We have not put **mutual exclusion** on the **lock** variable.
+
+* We don't need to change the code.
+* We need to check the **three** conditions which are **mutual exclusion, progress and bounded waiting** are **working/perfect** or not.
+* We need to check if the **solution** is correct or not.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cbf2b29d-e4de-49d2-8c01-998bd7228723)
+
+* Questions comes **differently** in gate.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bd823641-3cc2-4aff-83d1-f84b0e95ffd9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a581ced-0cf0-4094-8e67-08049cb4816a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a59d3ee-d223-4ddc-8c78-9c0c29e6f495)
 
 
 
