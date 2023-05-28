@@ -3151,9 +3151,6 @@ D) Not selected [True Statement]
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0abd7d72-07ee-47a4-a545-ddc9553ba8b6)
 
 
-
-
-
 ## 2-Process Solution Flow with **Example**. [**VERY VERY IMPORTANT**]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c3e3824d-b081-4918-94ea-f943e865ba01)
@@ -3378,11 +3375,349 @@ D) Not selected [True Statement]
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a581ced-0cf0-4094-8e67-08049cb4816a)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a59d3ee-d223-4ddc-8c78-9c0c29e6f495)
 
+## Synchronization hardware semaphore (13) [28th May 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ddafab19-bd59-4d39-b9b7-d08951fc1170)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7eff149b-b288-46d9-88a8-0f0801a69d51)
+
+* No stack-overflow, there is no stack.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe1c34b3-5507-4396-9510-fd15bad342e4)
+
+* Infinite loop.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e82ea215-4b21-4385-b24c-cf1043e5b9fd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d240e0c2-c0da-4243-bebf-afe8be3bfb2e)
+
+* Loop with no statements within it.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/06aa3d59-3231-4697-b2c3-19d8217bb7a7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a41993c-d425-4a8b-8df3-f455cc91fb6d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6624931f-54fc-4be5-9935-ad9f2d70f51e)
+
+* Quiz-II Syllabus.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3db1340-8c51-4833-a1ce-c2912c88d3c8)
+
+### Example 2(Solution 2)
+
+### 1. Mutual Exclusion
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a5c17a9-c6cb-4c7d-b2ce-c0f1418227bd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e12a32f-5131-4c32-8427-456c2b67499b)
+
+> We ran p1 process and **turn =0** initially. The while loop returned **false** so we moved forward and p1 was in the **critical section**. We preempted p1.
+
+> We ran P2 and as  **turn =0** still, the while loop returned **True** as **0 != 1** is **True** and hence the **p2** process is stuck at the **while loop**.
+
+> To move p2, we need to set **turn =1** and in-order to do that p1 has to **leave or come out** of the **critical section** and ran the statement **turn =1** and after that only p2 can move forward.
+
+> P2 cannot get a **false** condition and move forward from the while loop unless **turn =1** is set.
+
+* It means that p1 should run completely, run the **critical section** and set **turn =1**, then only **p2** can ran and move forward.
+
+> P1 and p2 couldn't enter the **critical section** at the **same** time.
+
+> The while condition is on the turn variable, either the value of **turn** variable will be **0 or 1**. It is only one variable. If **turn =0** then p1 condition is **false** and if **turn =1** then p2 condition is **false**
+
+> Both p1 and p2 are checking **different values** in their while conditions. At a time, **one variable** cannot have **two** values.
+
+* It means that one of the conditions will be **false** and the other cannot be **false**.
+
+> Both the conditions cannot be **false** at the **same time**. One of them will be **True**. Only one value is there and we are checking for **different values** in the conditions of while loop. 
+ 
+* It means **mutual exclusion** is possible/hold/satisfied. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97fa1131-5de1-4171-a525-5086e7aab88f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a559b745-fbc0-483c-838f-b020388066fd)
+
+> **Turn** variable can be either **0 or 1**.
+
+> Hence atleast one process will have while() condition as **True** and the other one will have **false**.
+
+> To make **Turn =1** in p2 while loop condition, when p1 process is over, it has left the **critical section** and in the **exit section** we have set **Turn=1**, then p2 process set the while loop condition as **false** and continue/move forward.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b6e0af5e-50fc-489c-9b9a-3f6d4c920c41)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a427d762-1e92-412e-a9a2-2c9c3dd7d20c)
+
+* Mutual exclusion
+
+### 2. Progress 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34dee93b-3dd6-44e5-a3b7-f8d040c055b5)
+
+> Initially the value of **turn=0**. We are checking for **p1** process first.
+
+> P1 process runs and in while we get **false** so p1 enters the **critical section**.
+
+* **P1 was allowed** to enter the **critical section** no problem.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1dbb0e89-86ad-4f53-9037-d63be9d1b7e1)
+
+* P1 can enter into **critical section**.
+
+> Initially the value of **turn=0**. We are checking for **p2** process now.
+
+> P2 process runs and in while we get **True**, as **0 != 1** is **True**, so p2 is stuck at the **while loop**.
+
+* **P2 was not allowed** to enter the **critical section**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b3bbc257-b7a5-44fb-9d5b-59729bd5b451)
+
+* P2 cannot enter into **critical section**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a806bc4-92be-4a69-811f-e7826db7a129)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1103499f-e9bc-4c76-8ba5-1e05523d2b7b)
+
+* If we had set **turn 1** initially, then P2 would have entered the **critical section** but p1 couldn't.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6538d239-9853-4a64-9d66-e2684b2d0d30)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6dbddac2-4eba-44f9-ba53-bbb561550815)
+
+* P1 and p2 are running in **alternation or alternate** matter. They are running **one by one** in an **alternate** manner. This is called as **strict alternation**.
+* P1 and p2 are running in **strict alternation** matter.
+* It is happening in this specific example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5f754566-58a5-4013-b48b-a462b367d484)
+
+* **critical section** of p1 and p2 is in (strict alternation).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/84a5fded-4378-4bb5-836a-be3e5abef0a1)
+
+* Left(Red) -> When **turn=0** p1 can enter into **critical section**.
+* Right(Green) -> When **turn=1** p2 can enter into **critical section**.
+
+### 3. Bounded Waiting
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fba3c37b-7d57-4a9b-93ff-7c87bcbedeaf)
+
+> P1 ran and in while we got **false** and p1 entered into the **critical section**. Now P2 run but in while we got **True** so, p2 is stuck at the while loop and is **waiting** for **critical section**.
+
+> Now p1 leaves the **critical section** and sets **turn = 1**. P1 tries to enter into the **critical section** again. It went to the while loop and we got **True** as **1 != 0** which is **True**, so **p1** is is stuck at the while loop and cannot enter into the **critical section** again.
+
+> P1 process couldn't enter the **critical section**.
+
+* It was **bounded waiting** for P1 process. As p2 was waiting, we **stopped/stuck** p1 process from entering into the **critical section** again. We would have **stopped** p1 process **anyways** if **p2** process was **waiting** or not.
+
+> P1 had dug a hole for himself only by setting **turn =1**, unless p2 goes to **critical section** and leaves the **critical section** and sets **turn = 0**, p1 cannot go forward and go to **critical section**.
+
+* This is what **strict alternation** means.
+
+> Only after p2, p1 runs.
+> Only after p1, p2 runs.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c32f417e-a016-447a-b2d2-e533d5e95433)
+
+* **strict alternation** implies that **bounded waiting** is there, it is **satisfied** here.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/79c92e84-3334-48e0-9a57-db136d0677c7)
+
+* Possible that P1 may starve or p2 may starve.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36478947-eaae-4d83-ac97-42f1932b8224)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97e3d2d7-8341-41e4-8b08-352feb8164ab)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1451dd11-bec0-451e-8cd2-cc0777041360)
+
+* Don't try to connect one with another.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/23671a73-f301-482b-a12f-6b2ed51c8d04)
+
+* If **turn =0**, then we will start from p1.
+* If **turn =1**, then we will start from p2.
+
+> As **turn=0** initially and p2 came alone, there was no p1. P2 ran but in the while loop we got **True** as **0 !=1** which is **True** and p2 process got stuck in the while loop. P2 couldn't reach the **critical section** even though p2 was alone.
+
+* This is why **progress condition** failed/violated in **solution 2** example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2cceb91e-b6cd-4b02-9148-c45fc815e980)
+
+* Yes ofcourse.
+* That's why we wrote **p1 and p2** may **Starve**.
+
+## (Example 3)  Solution 3
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df404e32-e7cc-421a-a09a-e9568437badf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd05876e-3e52-4b99-a536-c3148dfc001f)
+
+* Flag[i] -> It indicates the intension of a process to enter into **critical section**.
+* **i = false**, Not willing to enter into critical section.
+* **i = True**, Willing to enter into critical section.
+
+* **turn = 0**, process '0' gets priority to enter into the **critical section** if the process wants to.
+* **turn = 1**, process '1' gets priority to enter into the **critical section** if the process wants to.
+
+> If p0 process wants to enter the **critical section** then it will set **Flag[0] = True**. P0 set **turn= 1**, so that it can give **preference** to **p1** process. In the while loop, even if **one of the conditions** is **false**, we will get **false** and we will enter the **critical section**.
+
+* **Flag[0] = True** -> Process 0 wants to enter into **critical section**.
+* **Turn = 1** -> To give preference to process 1.
+
+> After p0 has come out of the **critical section**, p0 process has set **Flag[0] = False**. So, that it means p0's work in the **critical section** is done.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c966115a-d4c0-44b9-b919-b8259f1eb4aa)
+
+* **Flag[1] = True** -> Process 1 wants to enter into **critical section**.
+* **Turn = 0** -> To give preference to process 0.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0359659e-62af-400d-b02f-6a5bffc7a5e5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d05696c0-456c-46be-ab83-3d3d09f6c1b8)
+
+* Turn is a **shared variable**. It can be either **0 or 1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c56f51ee-6801-4cd3-abcc-a6f415b7962e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5daf283b-26d4-478d-86de-9765f1455da6)
+
+* My Analysis:-
+* ME possible
+* Progress possible
+* BA not possible
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e0757cb5-0b72-4bcf-8465-c6f051ebfa49)
+
+* Sir's analysis
+
+### 1. **Mutual exclusion**
+
+> The **turn** variable value is set by the processes. At a time, **turn** value will be either **0 or 1**. If **turn has some value** then, their individual **flag values** are **True**. In the while loop, the **flag condition** will be **True** but the process will try to set their **turn** values. 
+
+> If **turn = 0** then p0 will run
+
+> If **turn = 1** then p1 will run
+
+> But only one process can go forward/ahead because of **turn** variable value. Turn value cannot be **0 and 1** at the same time. Flag can be **True** for both, that is possible but **turn's** value cannot be changed.
+
+* It means **mutual exclusion** is possible.
+
+* Trying another case
+
+> P1 came first, ran and entered into **critical section**. P1 was preempted. Now run p0 and see if it is stuck in the while loop or not?
+
+> **YES**, p0 process got **stuck** in the while loop as **Flag[0]= Flag[1]=True** and **turn =1**. The while loop returned **true**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/392ddedb-0598-441f-aff8-b06bfcf11006)
+
+> If one process is at the **critical section** then another process cannot enter the **critical section**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ea8f049-5a32-46b5-b46c-6b35e1c214c9)
 
 
+### 2. Progress
 
+> For **p0** there is **progress** in **base case/condition**.
 
+> For **p1** there is **progress** in **base case/condition**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/258a22e3-fe43-4371-ae03-fd90e6d89140)
+
+### 3. Bounded Waiting
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a3e22f1-f56c-4f69-8e17-8d683588ecaa)
+
+* No **starvation** as all.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a3e0dfb-6001-499e-b376-f8d368dc3170)
+
+* If **bounded waiting** is there then **maybe** starvation or no staravation is possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6efaa4e3-7637-462e-9b9b-d921e8d2d06b)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd03711d-ca22-4419-b073-8d0497c810c8)
+
+* All **3** requirements are met.
+
+* Checking **bounded waiting** condition case.
+
+> We took p0, **Flag[0]=True and turn=1**. We got **false** in while loop and entered the **Critical section**. After that p0 was preempted.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a97e3cbe-323a-4b57-b8fe-e0e3bb250464)
+
+* Preempted at the **blue arrow**
+
+> P2 came and set it's **Flag[1]=True** value. After that p1 was preempted.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/656b148a-a9d4-4502-985f-4577a9530214)
+
+> Now P0 has left **Critical section** and set **Flag[0]=False**. It went up and set **Flag[0]=True and turn =1**. After that p0 was preempted.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9a52ccb-3887-4f5b-a13a-26db7a2df788)
+
+> P2 has set **turn=0** and on the while loop p2 got **True** which means p2 got stuck in the while loop.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a6a11c11-4ed4-4b8b-bc5a-a0d0a7a53e31)
+
+> Now p1 comes, we have **Flag[0]= flag[1]= True and turn=0**, so in the while loop, we got **false**, which means p1 entered into **critical section**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3c56a29-24e9-4028-87be-c35fc7061280)
+
+> So p0 left the **critical section** and set **Flag[0]= False**. p0 entered again. It set **Flag[0]=True and turn=1**, so in the while loop we got **True** and p0 got **stuck** in the **while loop**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3741795-8cc9-49c7-bfe5-8a0782be2092)
+
+> If a process's waiting is **bounded** only. If a process ran and went to the **critical section** and it left and joined again to go to the **critical section** then that process cannot go to **critical section**
+
+* Then also **bounded waiting** is satisfied.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8cab56d-bb96-4056-957d-8de107d4882e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db275eff-397e-49c2-80fa-15de5e4d1b46)
+
+* Both **processes** are stuck in their **respective** while loop conditions.
+* Both **processes** are at **deadlock**. They cannot move **forward** only.
+
+> Both processes will keep running the while loops. They cannot move **forward**, even if we do **preemptions**.
+
+* No **progress** condition is met.
+* Infinite waiting for both process.
+* There is no case of **Mutually exclusive** condition only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c4e329ce-2bc9-4b0f-a600-16d438d45efa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2bb2d767-3617-4f36-af92-dae8420951b1)
+
+* The conditions of the while loops are always **True**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ffce6a36-7699-4627-b121-cacc30feb3be)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/642699c2-2bd8-4501-8642-2efd9d1d81e7)
+
+* Useless code.
+* Just to show what we need to check.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aac847bb-9d3d-44f5-aa36-d385776eb72c)
+
+* My analysis
+* No mutual exclusion possible
+* Progress possible
+* Bounded waiting No
+
+* It is necessary that both processes will run their critical section one-one time and after that **both** processes will go into **deadlock**?
+
+> This is not **True**. It is not necessarily.
+
+> If one process came alone and the **turn =1** value was there and in the while loop we got **false**. p0 entered into the critical section and set **turn =0** value then the **another process(p1)** will never **move forward** and will never go to the **critical section**.
+
+* It can asked that if both the processes will **move forward** and go to **deadlock** or one process will **move forward** and go into **deadlock** ?
+
+> **One process**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57a2ee00-21b6-480a-ac2e-dd85627adfc4)
+
+* No mutual exclusion possible
+* Progress possible
+* 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/26d21441-f952-4533-9027-890440765f11)
+
+* Either p0 or p1 can go in the **base case**.
+
+> If P0 or p1 are fully run then both **p0 and p1** cannot work.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32eb67a2-1e15-454f-b7ae-f5cb3bca0db8)
+
+* Homework.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ae29d19-c110-4a2f-b8a6-6d5abed992dd)
+
+* Yes
 
 
 
