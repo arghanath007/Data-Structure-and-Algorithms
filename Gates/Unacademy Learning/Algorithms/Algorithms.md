@@ -15360,12 +15360,476 @@ D) None of these.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f565016-2319-4c81-bb21-1bac9183b4d9)
 
+## Radix Sort, Counting Sort (53) [29th May 2023]
+
+**Rest Sorting Algos** -> https://unacademy.com/class/radix-sort-counting-sort/LFE9FCBE
+
+## Max-continuous Sub-array Sum
+
+* Inputs:-
+
+* 13 -> -3 -> -25 -> 20 -> -3 -> -16 -> -23 -> 18 -> 20 -> -7 -> 12 -> -5 -> -22 -> 15 -> -4 -> 7
+* 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8 -> 9 -> 10 -> 11 -> 12 -> 13 -> 14 -> 15 -> 16
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7cb9decc-6041-4fa0-b1ce-e2c3aeae73b0)
+
+> If **continuous keyword is not** there then we can just take **all** of the **positive values** by doing **one scan** of the array.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf1c1b07-5f84-4cc3-96c1-0b83f0040b94)
+
+> if just sub-array then we can take like this.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f80d829c-cb89-419d-a56d-38dc668543a1)
+
+> We can take the **-7** because then we can take the **12** as well which means **12-7 =+5**. So we are **gaining/increasing** more. We are **net gaining**, **+5**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa051867-fb2d-4f24-b5ce-9b50c4918a4e)
+
+* we are gaining **43**, in between we are loosing **7**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5904eaa-2b33-43ee-a10f-1472f351d105)
+
+* We are getting **15 + 7 -4 = 18**. 
+
+> To gain the **18**, we have to spend **-22 + (-5) = -27**. We are **net loosing** as **18 - 27 = -9**. So, there is no point in getting **18**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/29a59f36-9b32-46c0-a225-c26e0b648e54)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c89b839-3b2f-4290-9fb8-b3c4428a4790)
+
+* We are ready to **loose** something, if we are **gaining** more.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d999650-faf1-4547-b37e-227c41c981e1)
+
+* What is the **entry and exit** day when we will **buy and sell** the stock respectively to get the max profit?
+
+> We will buy on **8th** day and sell it on the **11th** day. We will have a **profit** of **43** ruprees.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/587573ca-d7c7-4474-9cfd-62f7816a3050)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4527073a-9695-4afe-8908-5c10a1dba147)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd933bb3-56b1-4d43-a295-b00a58aff445)
+
+* Answer, circled with blue color.
+* We can use **divide and conquor**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7989b1c8-56dd-49a4-b1f3-47dcaf41cf95)
+
+> First we will **divide**. Division has taken **constant or O(1)** time. Division is simply finding **mid or middle element**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1fd4e61c-4bc5-43ca-a30a-e8a46cf6fec2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d96e30e-11cb-48f7-a199-776289670228)
+
+> Only one element is there, then itself that is the answer. It is a **small problem**. Forget about **small problem**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f803f1ee-812b-485b-90c8-bf41c1c4c4e5)
+
+> From the **left side** half, the best is **20** only because if we try to get **13** then we are looking **-28** which is more than we are gaining, so not going to 13. Same with **18** as well, if we go to 18, we will loose more than 18. 
+
+> From the **right side** half, the best is **25** because if we combine **20 - 7 + 12 =25**, we get **25**. We cannot take **15** because we will loose **-5 -22 = -27** which is more than 15. If we do **15 - 4 + 7 = 18** but **18** is smaller that **25**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1410bbb5-2c28-4dcb-9cb4-c3e538d6c825)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7cdb1584-6a2e-4c83-b3ed-4dd8bc5be226)
+
+> For the **halves** we are taking **T(n/2)** for each half.
+
+> So total time take is **(2 * T(n/2)) + O(1)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9f458b8f-54c8-4545-9559-265407a5955a)
+
+> Whenever **combine** is going on, we have to take care about the **white circled area** in the array. During **combine** time we also have to take care about the **middle** area also.
+
+> That's the **actual answer** but when doing **divide** some elements when to the **left** and some to the **right**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4dc34714-97c7-498a-9ae5-e5c777dcc7f2)
+
+* The best answer is the **middle area** which gives **43**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9685a1d7-eb56-4217-b939-379a85d17ee6)
+
+> Among **20, 43 and 25**, who is **better**? **43** is better.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c8da335-1c05-41ba-85f0-2ee3f9408891)
+
+* The white area circled is called as **cross sum or cross array sum**.
+* The only mistake we can do is, we are not doing **cross sum**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a368fa10-454c-4ad7-b428-02f601409159)
+
+* To take care of the **middle part** we will use **cross sum**. In the **combining** time we will do.
+* To get the **best person** from the **left half** we will use **recursion**.
+* To get the **best person** from the **right half** we will use **recursion**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97eda0f0-a373-47ee-a194-099eb8950be5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b3f1def-5b06-4fe2-b190-9412568d61c7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/90828e54-16a0-47bf-8dd6-a189a6d03d95)
+
+> On the **left side**, we got **ls =18** and the **max index(i)** is **8**.
+
+> On the **right side**, we got **rs =25** and the **max index(i)** is **11**.
+
+> So it is from **8th to 11th** position. We got **18 + 25 -> 43**.
+
+* This is called as **cross sum**.
+* **Cross sum** is giving **43** and it is from **8th to 11th** position.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a6013cc1-e4fe-404c-91d2-9e1a859a5bd3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd635400-3f0f-4974-9f55-391ef1118b45)
+
+* Cross sum
+
+> Left half is covered by **first for loop** and right half covered by **second for loop**. BOth loops are covered by **one loop**.
+
+* So it is simply **O(n)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8aa3c740-0bf6-4958-a9a9-853e67ea0d21)
+
+* Left is take care by **recursion**, **right side** is also covered by **recursion** and the **middle part** is covered by the **cross sum**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/39bd886f-9e7c-40d3-b92f-59162d6be0ee)
+
+* Time Complexity of **max continuous subaray sum** using **divide and conquor** algo:-
+*  T(n) = O(1) + (2 * T(n/2)) + O(n) -> (2 * T(n/2)) + O(n) -> **O(n * log n)**.
+
+* **O(1)** is the divide time.
+* ** (2 * T(n/2))** is for the **both** left and right halves **recursion** times, each half is **T(n/2)** time.
+* **O(n)** is the **cross-sum** function time.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/96f96061-6f4d-4af1-8787-f6ce9bb0f5a9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63c95f91-45a9-4442-a666-813b31f2b084)
+
+* yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aece8c84-6652-4400-9848-695478714e34)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ca9d91f-6d84-49d3-b952-32eb14bc057e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5f1e8f39-a582-4f5d-8008-04a60a908120)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e2df2509-26e5-403c-8d9f-41a3190c7e33)
+
+* Yes.
+
+## Counting Sort
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/219b9545-6cf5-4605-9b73-4038e9b3dedc)
+
+* It contains **8** elements.
+* All of the array elements are in the range of **array size** which is **8**.
+* Counting sort will come to the picture when **range** is given.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e09e98a-f4a2-4df0-b59b-095186121c7a)
+
+* **NOTES**:-
+
+* Every sorting algo, depending on what the algo is saying, accordingly we have to **select**.
+
+* Array not sorted -> Quick sort.
+* Array sorted -> Insertion sort.
+* Dilemma in array-> Merge sort.
+* We want **less swaps** -> Selection sort. [swap's 's' means selection sort.]
+* Easy Algo -> Bubble sort
+* Range given -> Counting sort
+
+
+* The **range** given in the above array is **array size**. The elements are between **0 to 5**.
+* It is not crossing **array size**. ELement's range is **array size**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e8c3711-3f83-41cf-896c-2e3fbb9104d8)
+
+* If **n-elements** are there in the **range** of **0 to n** then the time complexity of **counting sort** is **n**.
+* If **n-elements** are there in the **range** of **0 to n^2** then the time complexity of **counting sort** is **n^2**.
+* If **n-elements** are there in the **range** of **0 to n^3** then the time complexity of **counting sort** is **n^3**.
+* If **n-elements** are there in the **range** of **0 to k** then the time complexity of **counting sort** is **n + k**. 
+
+> If **k** is **bigger** then it is **O(k)**. If **k** is **smaller** then it is **O(n)**.
+
+* The for loop is repeating how many times?
+
+> **The range** that much only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a380b82-dfb2-487f-ac18-05c685d70cd7)
+
+* For(i=1 to n)
+* a[i] -> 2
+* C[a[i]] -> 0
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b00e5229-e0e3-42ae-a271-3bf3cde6bb1d)
+
+* What the **2nd for loop** is doing is that it is **counting** how many times **each element** has come.
+* It will **count or counting** the **frequency** of **each element**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a179bdcf-b305-4603-b221-ba978e4bfe7d)
+
+* The loop is running for **n** times.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ddca7df-3b01-48d6-bd9c-2269d835c3e7)
+
+* **First for loop**, will **initialize** the **array(c)** with **zero(0)** elements. It is for **k** time.
+* **Second for loop**, will **count** how many times **each element** has come in the **given array**. It is for **n** time.
+
+* **Second for loop** is counting how many times **each element** has come in the **given array**. That's why it is called as **counting sort**.
+
+* If **range** not given, then do **one scan** and find the **max range**. It will take **n** time.
+
+* Time Complexity of **counting sort** -> **O(n + k)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/18641d04-c95d-4c60-a960-68892153d104)
+
+> The purpose of **'c' array** is to store the **frequency** of **each element** in the array. Index 5 or **a[5]=1**  indicates that we have **1** 5 element in the array. It is **equal to**, in **a[5]=1**, **5** came **how many times**.
+
+* **a[4]=0** -> Indicates there are **zero(0) 4s**.
+* **a[3]=3** -> Indicates there are **three 3s**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85ab275e-9c3c-43b2-906f-afe6237032e4)
+
+> The purpose of **'c' array** is to check at **a[5]=8**, which means **count** of **how many** elements that are **less than or equal to 5** in the array.
+
+* **a[4]=7** -> **Counts** of **how many** elements that are **less than or equal to 4** in the array.
+* **a[3]=7** -> **Counts** of **how many** elements that are **less than or equal to 3** in the array.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/859472c2-812f-40f7-8ef4-37f03b3d72ef)
+
+* **Second loop** says, **5** came **how many times**, in **a[5]=1**.
+* **Third loop** says, **less than or equal to** how many times, in **a[5]=8**.
+
+* **Third loop** is also for **k** time only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3dfadd65-e53b-48d0-95f9-4eb64b789dd9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce4a47ca-e64f-49d8-a485-6805aa286d1c)
+
+* The loop is running from **n to 1**.
+* The size of the array is **8**.
+* The size of **array B** is same as **array A**.
+* The loop is **starting** from **n**.
+* We have **n=8**, so **i=8** initially.
+
+* B[C[A[i]]] = A[i]
+* A[i]= A[8] =3
+* C[A[i]] = C[3] = 7
+* B[C[A[i]]] = B[7]
+* B[7] = 3
+
+> After this we have **decremented** the value of **C[3]** by **1** as we have used **one element**. Now, **C[3] = 6**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b9a93695-608b-40fa-bd5d-70cde522e7db)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e008ebe3-d2ab-41b4-b6de-8500588f40f1)
+
+
+* i=7
+* A[7] =0
+* C[A[i]] = C[0] = 2
+* B[C[A[i]]] =  B[2]
+* B[2] = A[7]
+* B[2] = 0
+
+> After this we have **decremented** the value of **C[0]** by **1** as we have used **one element**. Now, **C[0] = 1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2ca490b-7dec-42ba-b699-6a58879e7a43)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/312b740f-8d0e-495e-8954-02d7ad79e7bb)
+
+* It is **decrementing** because of the **2nd line**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7af27c96-1d61-470b-af01-301fe7f518f9)
+
+* i=6
+* A[6] =3
+* C[A[i]] = C[3] = 6
+* B[C[A[i]]] =  B[6]
+* B[6] = A[6]
+* B[6] = 3
+
+> After this we have **decremented** the value of **C[3]** by **1** as we have used **one element**. Now, **C[3] = 5**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b38cc2fe-e1d1-435b-a4a0-5b2a39f6c31c)
+
+* The **last loop** is running from **n to 1**, which is **last to first**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f3f8d522-dcd0-40c6-aa75-4f26875bf8ec)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/788431f4-4481-48c6-acd8-1bc0c1a6629c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/46171b9a-89b1-4ad1-8885-be3ccdefbe71)
+
+> We are taking element **one by one** from the **last**.
+
+> As we have started from the **last** place and the **last 3** goes to the **last place** which is **7th**.
+
+> The **next 3** goes to the **next last place** and so on.
+
+* It means that **counting sort** is **stable**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7037c822-a9d4-4f07-831e-7e737b07e94a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/089aac8c-24ef-41ca-acc9-a35f40409596)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b9ab81d3-1669-43b3-a994-e8a1542d4bf6)
+
+* In the **array 'B'**, the elements are in **sorted array.
+
+* **Array (C)** is giving **positions** to where we have to store the elements.
+* **counting sort** is **stable** and **outplace** also.
+* It is **outplace** because to store the **resultant array** we are using another **array-B** of size **n** and not in **array-A**, that's why.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f45e81f-99f1-4e00-aeeb-cb1af2314ca6)
+
+* Time Complexity of **counting sort** -> **O(n + k)**.
+* Where **k** is **range**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/08b313cc-d8c4-4557-b3b7-aeed83ce2aa4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a4550450-b2c7-4cd3-a427-101e361a4317)
+
+
+### Example
+
+> **Array-A** is given. First take **Array-C**. The size of 'c' is based on **range**, largest element is **8**. So, the range is form **0 to 8**. Intially in 'c' all are **zeroes**.
+
+* 'c' -> Called as the **count array&&.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/54f3ba07-66ac-4188-b8ed-9cfe25f9de7f)
+
+> We have to **count** once again as well. To count the **less than equal to**. We will update the **c** array.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8784d498-ac01-4448-8f15-03ba010968d6)
+
+* Last should be **no. of elements**.
+
+* First count, individual elements repeating how many times.
+* Second count, **less than equal to** how many people.
+
+> The **resultant array, 'B'**, start from the **reverse order** from **n to 1**.
+
+> The last element is **5**, we want to know at what place does the **5** go in **B** array. To check that, go to **C** array, and ask **5th** person as we have **5** element, we got **9**. At the **9th** position in the **B** array we have to store the **5** and **decrement**, 5th place 9 by 1.
+
+> The 9th element is **8**, we want to know at what place does the **5** go in **B** array. To check that, go to **C** array, and ask **8th** person as we have **8** element, we got **10**. At the **10th** position in the **B** array we have to store the **8** and **decrement**, 8th place 10 by 1.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c540cef-8aa5-464b-94ec-c267e9e4f27a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0aa876f-84a5-49a2-9a31-ed83f2c265ce)
+
+> If any element is coming, we are keeping the **last index**, so that **stable** concept will be **maintained**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f3e4db1-b6bf-4508-ae9c-fb523fb3e00c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6cf930c3-f7d7-4906-b729-7b34477ddf47)
+
+* Sorted array came.
+* Time Complexity of **counting sort** -> **O(n + k)**.
+* **Counting sort** means **range** required.
+
+> Whenever the **counting sort** algo is going, we have never **compared** between **two** elements. We **counted** how many elements came. No where **two** elements are **compared**.
+
+* That's why it is called as **counting sort** or **Non-comparision based sorting** algo.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b58401d7-04fd-412a-a14b-e9935cc27ef9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a19d9e6-f0b6-4b24-a054-6304cd5ae85c)
+
+> Time complexity of **counting sort** will be **O(n)** for **every case**, if **range** is **less than or equal to 'n'** then **every case** possible.
+
+* Time complexity of **O(n)** is possible only for **non-comparision based sorting** algos.
+* **Non-comparision based sorting** algos -> **Counting sort**, **Radix sort** and **bucket sort**.
+* **Bucket sort** not required as **out of syllabus**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8224e26d-dda4-4207-b479-8bde2f3a86fe)
+
+* **Counting sort**, **Radix sort** and **bucket sort** all of them  will have Time complexity of **O(n)** for **every case** with some **limitations** for **Counting sort** which is **range** should be **given**.
+
+* Some other **limitations** for **Radix sort**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3736deeb-9283-4e55-a91d-39c3d6a00218)
+
+## Radix Sort
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a6c071a-51dd-4da4-9087-6adcd53d9a0c)
+
+* LSD -> Least Significant Digit. The **right most** digit of a number.
+
+> Check the **LSD** for all of the elements. Sort all of the elements according to **LSD**.
+
+> We took **840** as it's LSD had **0**. We have **481 and 381** with their LSD as **1**. We will take them in the **order** they came in the **list**. As **481** came first, we will write **481** first then 381. In whichever order, the elements came we will write in that order only.
+
+* **We are doing following the order in which the elements came**, so that we can get the **stable** solution.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e6f63f0-5589-44c9-81e6-fb09e0ed0e78)
+
+* Based on **LSD**, we **sorted** the 'n' elements.
+* **LSD** range is from **0 to 9**, which is nothing but **counting sort** we have done for **n** elements.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f8e40840-9d88-41a8-80b9-ce7e56467c08)
+
+* Based on the **second LSD** which is **middle** digit, sort the elements.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80fd3bbc-34d7-4315-964b-5979433a0e68)
+
+* Based on the **MSD** which is **left most** digit, sort the elements.
+* MSD -> Most significant Digit.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e631c8c1-1513-47e9-9d52-f20b6996b9a7)
+
+* Every pass time  -> (n + k)
+* 'k' is the range.
+* No. of passes is '3'.
+* No. of digits is 'd'.
+
+. The **3** indicates the **max no.**. The max no. is **904** and it has **3** digits that's why we have **3** passes here. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6afe5eff-11cb-46b2-90ec-369c82bf4c5f)
+
+* Time Complexity of **Radix Sort** -> 3 * (n + k) -> **O(d * (n + k))**.
+
+* 'd' bits means 'd' passes only.
+* Every pass time -> (n + k).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b80f52e1-21f7-4ce0-a8ee-e7a654310f5a)
+
+* In **radix sort** also, we have **not compared** any elements **directly**.
+* We are comparing the **digits**, and not the **elemets** directly.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1caadf1d-558f-4c3a-998b-d6b93cf76117)
+
+* For **every pass** apply **counting sort**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/202f1e87-83d5-47b1-811e-73dc6e786a3d)
+
+* Yes, **radix sort** is also **stable**.
+* **Radix sort** is also **out-place**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71ce115d-a5fa-4c4b-a54f-e497c5b2391d)
+
+## Bucket Sort
+
+* Homework.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/42e1b6a7-6211-4fc8-824b-4f33d2dff745)
+
+* Read it once to be in the **safe side**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e947843-654f-4463-aed2-568a0cf425c0)
+
+* both
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## NEXT TOPICS (LEFT)
 
 ## Counting Sort
 ## Radix Sort
 
-* Link Below
+* Link Below (DONE)
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c8685286-df13-4d90-97e6-d397a9965a7b)
 
