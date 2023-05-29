@@ -3800,7 +3800,7 @@ D) Not selected [True Statement]
 
 * Yes.
 
-### TestAndSet()
+### 1. TestAndSet()
 
 * Whatever is the **flag** value, we have to always **set** the **flag** value to **true**.
 
@@ -3932,6 +3932,247 @@ D) Not selected [True Statement]
 
 * We converted two programming statements, into **one or single** instruction, which the CPU supports.
 * No **deadlock** possible here.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d562aed2-c296-4dac-932f-5150e4781c1e)
+
+* NO.
+
+* Variable declaration possible in instructions?
+
+> NO.
+
+* No variable is declared while running an instruction or in-between when an instruction is running.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc71bd1f-7ad6-49e8-be44-0c57d5675f7b)
+
+* This is just implementation detail. It is not a variable. This will happend within an instruction only.
+* This is not a function or a program.
+* **TestAndSet()** is an instruction.
+* Sir has written it in c-program for easier understanding of the behind the scenes logic.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12e9634a-5e43-4c94-a6bb-45badaddc7f4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6cee3ad9-c833-4571-be3b-181063b558b3)
+
+### 2. Swap()
+
+* Interchanging values.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f2c5502a-74b5-4ef1-b3e4-a37b9c4d4810)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cdcd0cde-8b34-48fb-89d1-16bfedb019ab)
+
+* Boolean key; -> Local variable for **each process**.
+
+> Both processes will have their individual **key** variables.
+
+* Boolean Lock = False; -> Shared variable among all.
+
+> Both processes will have their common variable **lock**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c75dffa1-614e-459f-969f-66ea91c9204c)
+
+* **Lock=False** -> Critical section is free, no process in Critical section.
+* **Lock=True** -> Critical section is not free or occupied, one process is in Critical section.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e68acf51-d4cd-4e83-bf2e-e3fbeeb2109c)
+
+* In the **second** while loop, where **while(key == True)**, there is **no semicolon** at the end of the while loop, which means that, if while loop gives **True** then we will run the statement within the while loop which is the **swap()** statement. If while loop gives **False** then we will not run the statement within the while loop which is the **swap()** statement and go to the next statement which is the **critical section**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef8bc250-5082-4d82-9aa6-941c31417a25)
+
+* Both processes(p1 and p2) have their individual **key** variables and **lock** variable is their **shared variable**.
+
+> We are running p1 process. It has set it's own **key = True** and the **lock= False**. While loop returned **true**, so it ran the **swap()** and p1 process will **access** it's **own key** value. It swaped the values and new values are **key = False and lock= True**. It went to the while loop again and while returned **false** hence p1 is out of the while loop, so p1 will go forward and enter the **critical section**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/43c87a04-2339-4206-88fd-6a104121b7c1)
+
+> We are running p2 process. It has set it's own **key = True** and the **lock= True**. While loop returned **true**, so it ran the **swap()** and p2 process will **access** it's **own key** value. It swaped the values and new values are **key = True and lock= True**. It went to the while loop again and while returned **True** again. P2 is now stuck at the  while loop.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1118b7d-de57-4fb1-9c7b-69e919842353)
+
+> P2 can move forward when **key = False** and **false** will come to **key** when we have swapped the values of **lock and key**.
+
+> We will get **lock=False** when p1 process had left the **critical section** and entered the **exit section** and ran the statement, **lock =False**.
+
+* For **Mutual exclusion checking**:-
+
+P1 -> Key -> F/T/T
+P2 -> Key -> F/T/F
+Lock -> F/T/T
+
+> We ran p1 and it got preempted after running while loop condition but before it could run **swap** statement.
+
+P1 -> Key -> F/T
+P2 -> Key -> F
+Lock -> F
+
+> We ran p2 and it went into **critical section** and after sometime, it got preempted.
+
+P1 -> Key -> F/T
+P2 -> Key -> F/T/F
+Lock -> F/T
+
+> We ran p1 and it ran the **swap()** and we got **key=True and lock=True** and it went to the while loop and while returned **True**, which means **p1** process is stuck in the while loop.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/02bb26d1-3ff7-4b29-8e80-a84955bcc8c7)
+
+* **Mutual Exclusion** is **possible/holds/satisfied**.
+
+> At a time only **one process** can move forward and enter the **critical section**.
+
+* For **Progress checking**:-
+
+* P1 process is going alone.
+
+P1 -> Key -> T/F
+Lock -> F/T
+
+* P2 process is going alone.
+
+P1 -> Key -> T/F
+Lock -> F/T
+
+* Both the process can enter into the **critical section**.
+* So, **Progress** is **possible/holds/satisfied**.
+
+* For **Bounded Waiting checking**:-
+
+P1 -> Key -> T/F
+Lock -> F/T/T/F
+P2 -> Key -> T/T
+
+> When P1 process has entered the **critical section** and p1 got preempted after sometime. Then p2 process is trying to enter the **critical section** but p2 is stuck/waiting at the while loop. Now p1 has left the **critical section** and set **lock=False** and trying to enter the **critical section** again. As **Key=False**, so while returned **false** and p1 was able to enter the **critical section** again while p2 is still waiting. 
+
+P2 -> Key -> T/F
+Lock -> F/T/T/F
+P1 -> Key -> T/T
+
+> When P2 process has entered the **critical section** and p2 got preempted after sometime. Then p1 process is trying to enter the **critical section** but p1 is stuck/waiting at the while loop. Now p2 has left the **critical section** and set **lock=False** and trying to enter the **critical section** again. As **Key=False**, so while returned **false** and p2 was able to enter the **critical section** again while p1 is still waiting. 
+
+* Hence **bounded waiting** is not **possible/holds/satisfied**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f5e8b71-5b0c-4102-9436-d7a6bca5f6e1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22edb6c6-a272-41fa-8754-12a90dc2860b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80ddfae0-65cd-416d-9880-8635186d68e8)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f4b231f-4988-47c4-be0a-ede9f68e8d8a)
+
+* Yes. Not that imp. It works without bounded waiting(bw).
+
+## Synchronization Tools
+
+1) Semaphore -> In GATE syllabus
+2) Monitor -> Not in GATE syllabus
+
+* They are provided by the **OS**.
+* They are used to provide Synchronization.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0b10774-de41-4577-bf28-0404d5d14c94)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/13fd6db5-a1de-469c-b3fa-13834ac3b10a)
+
+### Semaphore
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/64d55589-f8ba-4885-bd3f-5ad16cbc9e7f)
+
+* Semaphore is an **unsigned integer value**.
+* If we have to take Semaphore's value as **negative** then it **should be given/mentioned in the question**, otherwise we cannot take it as **negative**.
+
+* Semaphore can be accessed with those **above functions** only when we want to access Semaphore otherwise not possible.
+* **wait()** -> Decreases Semaphore value by **1**.
+* **signal()** -> Increases Semaphore value by **1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5be02b95-8d85-439f-88ef-8a43d6c0b0d0)
+
+### Implementation of wait() and signal() in the background
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41c6e203-3b44-4d31-b20b-676ad0c51c06)
+
+* 'S' is the **semaphone** here.
+
+* In **wait()**, the decrement of 's' doesn't happen that easily. **S--** will only happen when **semaphone(S)** value is **greater** than **zero(0)**. 
+
+* If **S == 0** or **S < 0** then, **wait()** will never be **completed** and we will be stuck in the **while loop**.
+* If **S <= 0** then we have an **empty while loop** ending with a **Semicolon**, it is run **infinitely** and we will be **stuck** in the while loop.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/77337a60-364b-466f-9fa5-c8fa39fe3505)
+
+* Any process can be stuck in the **wait()**, when **semaphone(s)'s value** is **equal to or less than 0**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5a4e1d2-49e9-4088-b7b4-6a398c34e65b)
+
+> If **semaphone(s)'s value** is **greater than or equal to 1** then the while condition will be **false** and we will more forward and **decrease/decrement** the value of  **semaphone(s)**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97c4c590-81cc-4625-9411-99f8b58f1a2e)
+
+* Both **wait() and signal()** are **atomic** in nature.
+* **Atomic** means that either they will **run completely** or they will **not run at all** and when we will try to run them, they will start from the beginning only. They will not run from the **middle**.
+
+> They will **run completely** or if they get **preempted** in the **middle** then they will start from the **beginning** and not from the **middle**.
+
+## Types of Semaphone
+
+1) Binary Semaphone -> Value can be either **zero(0) or one(1)**
+2) Counting Semaphone -> Value can be any **positive or un-signed** integer.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0d2f9da-fc88-4631-b4bd-a06525e2268b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fafcc2a7-6bfa-43b6-b2ed-0669c93f3816)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e91f8856-df90-4418-b504-cd4afc03514c)
+
+* **Binary Semaphone** -> It is used to implement the solution of critical section problems with multiple processes. Where we want to **provide mutual exclusion**.
+* **Counting Semaphone** -> It is used to control access to a resouce that has multiple instances.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7740c61-f978-48c5-8c2e-c855ca56a845)
+
+> The **semaphore(s)** variable is not **created** by us or by our process. It is **created** using the **semaphore** tool provided by the **OS**.
+
+> We can create as many **semaphore(s)** variables we want but it will be **created** using the **semaphore** tool provided by the **OS**.
+
+> The **semaphore(s)** variable can be only accessed by those **two** functions only, which are **wait() and signal()**.
+
+### Characteristics of Semaphores
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b11200f-8120-408c-a6c6-0b43706f8c23)
+
+* Semaphores are **machine-independent** -> It means that it is not **dependent** on a CPU. If we run the OS on different CPU, then we can access the **semaphores**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/56a03e6a-17cc-4ac0-a836-7f1ddcf7c0d8)
+
+* How **semaphores** are used to provide **mutual exclusion**?
+
+> To provide **mutual exclusion**, we will use the **binary type semaphore** and it's **initial** value will be **one(1)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ccd5a0c-e78c-439b-baa8-fa63ee5b6353)
+
+> First, p1 process comes. P1 will run **wait(s)**. 'S' value is **1**, so we will move forward and do **s--** and get **s=0**. **wait(s)** ran successfully and **s=0**. After that p1 ran **wait(s)**, p1 went into **critical section**. P1  is preempted but p1 has not left **critical section**.
+
+> Now p2 run. P2 will run **wait(s)**. 'S' value is **0**, so p2 will be **stuck in the while loop** inside the **wait(s)** which is **while(s <=0);**.
+
+* **wait(s)**  -> It means we are testing if **s <= 0** or **'s' is less than equal to '0'**  or not.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/87efa463-5d5f-45f7-a620-6e0e4879231d)
+
+> P2 can only go forward when p1 process leaves the **critical section** and enters the **exit section** and runs the **signal(s)** which **increments** the value of **s** by **1**, so **s=1** now. P1 is preempted.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98e6b5b6-0da9-47f1-8b6b-dbc071c68fa0)
+
+> Now p2 will run the **wait(s)** condition as we know that **wait(s) and signal(s)** are **atomic functions** and they will always **run from the beginning**. So when p2 ran **wait(s)**, **s =1**, so it got **false** in the while loop and decremented **s** by **1** and now **s=0**. Now, p2 can enter the **critical section**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b495e9f-07c4-4e47-a6fb-6237aaa1f538)
+
+* Out of the **two** processes only one process can enter the **critical section** at a time.
+* That is **mutual exclusion**.
+* So **Mutual exclusion** is **possible/holds/satisfied**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8e2ed78-e9b4-4f96-b6f9-20276bcb2894)
+
+> In-fact, if we take **15** processes like p1 and p2 and they all have the **same** code, then out of all the **15** processes, only one process can enter the **critical section** at a time.
+
+* So **Mutual exclusion** is **possible/holds/satisfied** in these case also.
+
+> Whoever comes first, doesn't matter, **only one process** will be at the **critical section** at a time.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/164c66cf-acf2-4a2b-bfa6-91d8f43524b4)
+
+* Yes.
 
 
 
