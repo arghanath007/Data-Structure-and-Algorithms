@@ -2596,7 +2596,7 @@ access/execute the **privilaged or protected** operations but it can't. The othe
 
 ## Doubt-clearing-session (11) [27th May 2023]
 
-### Quiz- 1  Solutions
+### Quiz-1  Solutions
 
 #### Q1
 
@@ -4315,6 +4315,8 @@ P1 -> Key -> T/T
 
 # Quizzes
 
+## Quiz-1
+
 * Quiz 1 -> https://unacademy.com/quiz/quiz-i/KEUEBL97D4/attempts/SP_96IBDFZMKYZUNXERM
 * Solved in (Lecture-11)
 
@@ -4322,6 +4324,9 @@ P1 -> Key -> T/T
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0059846b-0755-4fc1-a94c-30e69b798d8a)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86414aa5-f517-4433-acb1-a870503fa49c)
 
+## Quiz-2
+
+* Link -> https://unacademy.com/quiz/quiz-ii/JJ6SJ7HLB3/solutions/SP_G8GL3S7HJESZHBT99
 
 
 
