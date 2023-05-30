@@ -15109,6 +15109,151 @@ D) None of these.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d147fb5e-dbdd-418d-831c-ad0b6d7b9977)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9668bc37-7f6e-467a-b0bc-20bea31c0a3b)
 
+### With-DP or Using DP
+
+* Distinct people or distinct function calls how many?
+* knapsack_01(m,n) contains how many function calls?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/641e7950-8ac8-40b1-b373-38ccbdb5592b)
+
+* The tree diagram is for **worst case** because we have **two functions calls** and **two functions calls** are in the **second else** which gives the **worst case**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c4134a8e-fe71-4d0c-a38a-b644ebdb2007)
+
+* Worst case
+* **n** is decrementing by **1** everytime.
+* **m** is decrementing by **1** everytime which suggests **worst case**.
+
+> Decrementing of **m** depends on the **weights or sizes**, so if the **weights** are **1 unit** each then that is the **worst case**.
+
+> Decrementing of **m** will be **best case** when the **first weight** is of size **m** only and it has taken the **whole capacity(m)** and we don't have to check the **next object's weight**. It is done, we can stop.
+
+* Time Complexity of **0/1 knapsack problem** using **Dynamic programming** -> **(m * n * 1) -> O(m  * n)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/78a03cb7-f66d-403f-a962-ed23a6679051)
+
+* With DP, not without-DP.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/82b5ff9b-e0ac-47a7-88f1-dc4e88da6e62)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09c5c992-de5d-4f3e-8935-2f26155fd289)
+
+* Both **m and n** are **decrementing**, for **worst case** they are **decrementing** slowly **one by one**.
+* One Function cost is **O(1)**, because **max of two** element we have to find out.
+
+* In the **tree** repetation there or not there?
+
+> Based on what **weights** are given. 
+
+* If **weights* are **repeated** then there will be **few** repetations.
+* If **no weights** are **repeated** then there maybe **no repetations**.
+
+* Space Complexity or Stack Space of **0/1 knapsack problem** using **Dynamic programming** -> Stack + Table -> n + (m* n) -> **O(m * n)**.
+* Time Complexity of **0/1 knapsack problem** using **Dynamic programming** -> **(m * n * 1) -> O(m  * n)**.
+
+* Table size is based on **distinct function calls(DFC)** -> **O(m * n)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec9d3e13-7a87-4219-b6bc-4dac94b975a1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76253be2-0aa6-465f-86fb-e2af42a10e99)
+
+* **Time and Space Complexity** for 0/1 knapsack problem** using **Dynamic programming** for **worst case** -> **O(m  * n)**.
+* **Time and Space Complexity** for 0/1 knapsack problem** using **without Dynamic programming** for **worst case** respectively -> **O(2 ^ n)** and **O(n)**.
+
+> 0/1 knapsack problem** using **Dynamic programming**, the **space complexity** has **increased** from **O(n)** to **O(m  * n)** whereas the **time complexity** has **decreased** from **O(2 ^ n)** to **O(m  * n)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a82fd6a-48f6-4a21-97aa-c973618b1bd5)
+
+* DP or dynamic programming means **distinct function calls(DFC)** we will calculate, **different** people we want.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0aa7c938-2c27-4cf4-af9b-a703930f60ee)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/62dcc981-c7e8-4961-88f9-dd6f965e794d)
+
+* Space Complexity -> Extra space
+* **0/1 knapsack** won't work for **greedy programming** as **no short-cut** there. So we came to **dynamic programming**.
+* In **dynamic programming**, no **no short-cut** there, it is covering all possibilities. Covering all possibilities we covered all **leaf nodes which are (2 ^ n)** and we don't bother about **repeated or not** then it is **brute force**.
+
+* If we bother about **repeated or not** then it is **dynamic programming**.
+
+* What is the **time complexity** of a **0/1 knapsack problem** using **Dynamic programming**? [**IMPORTANT**]
+
+> **O(m * n)**. 
+
+* Stack Space -> **O(n)**.
+* Table Space is based on **distinct function calls** -> **O(m * n)**. 
+* Total Space complexity -> **O(m * n)**. 
+
+* **NOTES**:-
+
+* Space complexity means **extra space** only.
+* DP -> Stack + Table required
+* Recursion -> Stack required
+* Without DP -> Stack required
+
+> Time Complexity of **0/1 knapsack problem** using **Dynamic programming** is **O(m * n)** is approximately **equal to**, **O(2 ^ n)** because of **less repetations**. So it is one of the **NP** complete or **NPC** problem.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b18f3992-27f5-420d-93c4-8bac491a397c)
+
+* Dynamic programming is a **great idea** if **more repetations** are there.
+* Dynamic programming is not a **good idea** if **less or no repetations** are there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b67bf24-eb72-4955-b3fc-262e011b9e57)
+
+* Time Complexity of **0/1 knapsack problem** with DP is **O(m * n)**, why is it **NPC** problem?
+
+> Actually it is **O(m * n)**, it is **NPC** problem because of the **very less repetations** this **O(m * n)** is approximately **equal to**, **O(2 ^ n)**.
+
+> This is why it is an **NPC** problem.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fffb7c3c-e554-4078-a552-0ac1f74d748b)
+
+* **NPC** problem -> It means completely toughest problems. There are some problems which are **tough**, those problems we solve anyway. They will be tough only. 
+* **Tough** means **O(2 ^ n)**. Other than **brute force** no other way.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5418360-0e01-47a9-84fb-dd1e27341e8a)
+
+* Easy problems are called as **P-class** problems. **P-class** means **polynomial** time algorithm. Ex -> Linear(**O(n)**).
+* Exponential time algos are called as **NPC** problems.
+
+* In **0/1 knapsack**, sometimes repetation or no repetation?
+
+> In few problem, no repetation at all.
+
+> If some weights are **repeated** then some repetations may come.
+
+> If in weights there is **no repetation** then there maybe **no repetation**.
+
+## Sum of Sub-sets Problem
+
+* Input -> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
