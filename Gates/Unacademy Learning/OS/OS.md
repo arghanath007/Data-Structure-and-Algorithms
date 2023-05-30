@@ -4174,6 +4174,256 @@ P1 -> Key -> T/T
 
 * Yes.
 
+## Semaphore questions classical synchronization problems (15) [30th May 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ad712e28-e555-48dd-955a-aa603e4b6867)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/79448632-ec2e-4ba7-96ca-27cf31569d61)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b11c7315-34a8-47e4-81d0-4704dc6587b2)
+
+* **S** is a **binary semaphore** so it values are **0 and 1**.
+* We have **S=1** and the next statement is **signal(s)**, if we run **signal(s)** then can we **increment** the value of **s**?
+
+> **NO**. Because it is a **binary semaphore** and no values comes after **1**.
+
+> If **s=1** and we ran **signal(s)** then **s** value will be **1** only and **signal(s)** will run **completely**. The process will not get **stuck** as **signal(s)** run **completely/successfully**.
+
+> If **s=0** and we ran **wait(s)** then **s** value will not **decrease/decrement** but **wait(s)** will not run **completely/successfully**, the process will get **stuck**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/769c63ed-c6a8-4fef-a2a1-af2782dfe889)
+
+* Note:-
+
+> If binary semaphore value is **1**. Then **signal(s)** will run successfully and value will remain same.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d4ad592-5859-47c1-9b1b-c07b824d8908)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a7f8f5f-4321-4796-94f4-8841d696f6dc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa742e2c-3360-4d8d-8b39-4d615ee89fdd)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec5d5db5-1829-4eec-b627-f9ba75bed4eb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3298cdb8-8570-4063-85d8-d06a3901d627)
+
+> If **s=1** and we ran **signal(S)** then what will be the value of **s**? It will depend on what **semaphore(s)** is.
+
+* If **s** is a **binary semaphore** then **s=1** only.
+* If **s** is a **counting semaphore** then **s=2** only.
+
+> **signal(S)** will run **successfully** and it will not get **stuck**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/adecc001-a40e-4aa1-8667-cbe170fefc88)
+
+* Dry Run.
+
+s = 1/0/1/0/1
+
+P1 = Completed
+P3 = Completed
+P2 = Completed
+P4 = Completed
+
+* Prints -> 1111
+
+> As it is mentioned in the question that **all processes run successfully**. So we have to run the processes in such a way that **all processes run successfully**.
+
+> So, **no processes** will be **stuck** in **wait()**.
+
+* No. of times **1** printed = **4** [Answer]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a829fb9c-d808-40f3-a7bc-3db7d65dde43)
+
+* Is it possible that all processes may not complete?
+
+> **YES**.
+
+* In the **given sequence**:- **p3 -> p4 -> p1 -> p2**
+
+> So, **P2** will be **stuck** and p2 will not complete.
+
+* **Max** one process will not complete, it will be between **p1 and p2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ac95f87-585c-4c75-aa7a-35dc76327e0c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/99b0c7f7-de2d-405c-88e9-221817b1bac8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/48090ce6-6a25-41ea-b2bf-15f11ff27356)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dbfd6516-02ce-4ac8-82ba-44e1e3b46cfc)
+
+* NO.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33e70c1f-a485-44eb-8655-6b3d9c208c48)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ba86b44-57f4-4ff1-aaa1-afc7bc3328ee)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f066de43-5289-4a2d-8644-cc4cc0edebcd)
+
+* S=0 and **s** is a **binary semaphore** still.
+* So, **max process** get stuck will be **1**. Out of **p1 and p2**, one of them will get **stuck**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1627bab7-88db-4c33-9ec2-3c6d2b507dd0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/74282281-1831-45f9-9efa-514f91e360ba)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f82af12-5795-41ff-9a1e-ed4c32bd94bb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb1c037e-31b8-45c7-9343-ab3095e95f73)
+
+* CS -> Critical Section
+
+* Dry Run
+
+S = 1/0/1/0
+
+P1 = CS
+P2 = No
+P3 = No
+P4 = No
+P5 = No
+P6 = No
+P7 = No
+P8 = No
+P10 = CS
+P9 = CS
+
+* Max no. of processes at the CS together -> 3.
+* The process should stay at **CS together**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ef71df3-8bae-45b8-833d-f54d5adbccd1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac9a101e-c5c0-46f0-b55a-b98312f8665d)
+
+* Max no. of processes at the CS together -> 3.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9759a8ba-96f2-475c-87c7-40b74fb7fdd9)
+
+* CS -> Critical Section
+
+* Dry Run
+
+S = 1/0/1/0
+
+P1 = CS
+P2 = No
+P3 = No
+P4 = No
+P5 = No
+P6 = No
+P7 = No
+P8 = No
+P10 = CS
+P9 = CS
+
+* Max no. of processes at the CS together -> 3. [**WRONG**]
+* The process should stay at **CS together**.
+
+> We have a **while(True)** statement. So, the **wait(), CS and signal()** will run **multiple times** for a **single process** yes.
+
+> We can run a **single process** as many times we want.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d78bd6d3-dfd1-4934-bc3b-885734c137a8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e02f6ff-b076-4ffd-bfa9-4fe065fbc762)
+
+* All of the process get entry into **critical section** which is **10**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/18a84d87-a49f-49c3-9fdd-55056978bd41)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8536dc17-c907-4079-aaee-bc80430e5c27)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3439d94b-051a-4a78-8c01-f10cfc7faafc)
+
+* All of the process get entry into **critical section** which is **10**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a433d952-572e-4cb1-9e19-566397c0a1e7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/291d5fd2-6664-41bc-b665-1c3b0a558266)
+
+* P1 and P2 will work in **strict alteration** manner.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4445497d-d8ac-4cb6-8567-8e06f98442da)
+
+* We have taken **3 semaphores**.
+* First P1 ran, then P0 ran and finally P2 ran.
+
+> As P1 should run first that's why **S1 =1** and the rest **S0= S2 =0**.
+
+> If we want the **same** sequence(P1, P0 and P2) to be repeated then in P2 process at the very end, write **signal(S1)**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76b3c101-98fc-4dc9-9aaf-88dacb513674)
+
+> If we want the processes to run once and finish, then don't write **signal(S1)** in the P2 process.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6eb700b6-bd4b-4c29-b72c-dbd43e7f24f2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72c81a07-06f2-4cb3-9973-fbb34174c067)
+
+* Min no. of semaphones = 3.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/68940ee9-d18a-4a07-b8de-1c1eec838e8e)
+
+* To get the given sequence we need **B** first. We can get **B** in **T2** process and for that we need **S1**. So, **s1=1, S2=0 and S3=0**. We need **C** and it is in **T1** and for that we need **S3**.
+
+* s1=1
+* S2=0
+* S3=0
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/46c1f987-e004-4461-ab6e-62dd14433b6a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3125690-34cb-4e14-8ae7-6453e06c383f)
+
+* Option **C** correct answer.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4969d92d-a66b-419e-a94f-c6cb50df701d)
+
+
+> We cannot run **P1 and P2** processes first because **s1=s2=0**. As **s0=1**, we can run **P0** only.
+
+> As **P1** has **executed/ran** already we will not run **P1** again. Now we will go to **P2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f4abe93e-1bf8-4a88-a553-5381d2bb1c6a)
+
+* **O** can be **printed** 3 times, that is one of the options.
+* P1 and p2 process ran only one.
+* Eithe **zeroes(0)** will be printed **3 times** or **2 times**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af78ba04-2e71-419f-bf8a-58ac0882318e)
+
+* Option **A** is correct which is **at least twice**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f4b899d1-8c16-4c99-bfa9-08f0eb41c01b)
+
+* 3 zeroes printed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6aff4de9-d4fe-4d96-8c25-154348df3c37)
+
+* 2 zeroes are printed. We have ran P1 and P2 one after another.
+* P1 and P2 will run **once** because they don't have any loops.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/62610ce7-f26c-4580-a4a0-f9f7c491ec4c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b816480-f812-49da-8c17-2dd2db85413c)
+
+* Release -> Signal().
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7550f2c-7a93-481c-99d3-5082b4bf93cc)
+
+* Option **A** is correct which is **at least twice**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ea3dd54-8bb4-45c6-a7b2-44c187783ef3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/189bc938-b568-475d-96b9-9f8f46e68570)
+
+* Final value of **x** would be **-2**.
+* How many processes can read **x** at the same time?
+
+> **2** processes.
+
+* So, we will have **race condition** here. Any two processes can read **x**.
+* We want **max value** of **x** so, we will do the **additions** at the end for **max effect** and nullify the **negatives**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d772e44-96ef-4181-b7e7-bd50d1a4356e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a6007622-6383-4961-9783-14fa0e96ce6d)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f8dc76ce-3442-4a13-8c6e-a3b0980e10f6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d5cc438b-3259-415d-91b3-7fa5878b6274)
+
+* How 3 processes are nullified?
+
+> **W and X** can go to the critical section together.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2fcac2e8-8e08-468e-a1ed-976e6f80cc2e)
+
+> What are we basically doing is that we are taking **W and X**, we are running **W** till **R1 = R1 + 1** and **w** get preemeted. Now X, Y and Z all three processes are one-by-one run one after another. Run them in any sequence. At the end **w** comes to run and w had **1** stored locally and it set that **1** as value of **x=1**.
+
+* This is how **only one process** impact comes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e071715-cdfe-45e2-9f72-d41956513f33)
+
+* No. of **distinct values** -> **7**.
 
 
 
@@ -4184,6 +4434,18 @@ P1 -> Key -> T/T
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+ 
 
 
 
