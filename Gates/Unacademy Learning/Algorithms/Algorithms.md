@@ -15401,7 +15401,68 @@ D) None of these.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd5ba3ec-e9ba-4ed0-835f-839012fff019)
 
-Start from **2hrs 24mins**.
+* Both will be **similar**.
+
+## 3 SAT problem, 3 variable satisfiable problem
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7510bea8-0ff8-4b28-a1d3-cbc39fa0065c)
+
+* It is an **NPC** problem.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7cfcf4ba-c26d-4364-b12a-423df54aad75)
+
+* Note:-
+
+> **SOS** is **polynomially converted** into **0/1 knapsack**.
+
+> Because **0/1 knapsack** is **NPC**, so **SOS** is also **NPC**.
+
+> Both are **similar**.
+
+> If we know, **SOS**, then we know **0/1 knapsack** and vice-versa.
+
+## All Pairs Shortest Path
+
+* Source to **every person** finding the **shortest path** is **single source shortest path**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/48a16d6e-87c9-4d53-9a83-0900df938a33)
+
+* **Single source shortest path**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34977268-c8a8-4999-848b-dd3d533c77ed)
+
+* Source -> Destination
+* All can be **souce** and all can be **destination**. It is **many-to-many**. **Many** means all, from everywhere to everywhere.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b48df82-ffe5-495c-bdd8-c1087589709b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/abfdf1b8-df1c-4ca8-a503-a0ea796d6f68)
+
+* If total vertices are **V** then the **total pairs** are **V ^ 2**.
+
+* Out of **n** people, taking **2-2** people, how many ways?
+
+> **nC2** ways which is nothing but **n ^ 2**. Forget about **-1 and +1**.
+
+> Out of **V** people, selecting **two** people -> **vC2** ways, which is **V ^ 2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a6992845-a56e-4a89-906d-b6e831ce670a)
+
+## Floyd Warshal's-algo
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fcc2281a-c5b4-44b9-bf88-164d2d112f80)
+
+* Time Complexity of **All pairs shortest path**, using **dynamic programming** which is **Floyd Warshal's algo** -> **O(v ^ 3)**.
+* We have **V ^ 2** pairs and for **every pair**, we will check via every other vertex. So, it is **(v ^ 2) * v** which is **O(v ^ 3)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/07ad573c-2c6a-4bd2-8ce4-52c476d17d39)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d57484f5-5243-476d-ad9f-29acb495d8ba)
+
+* No needed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7e68d8b-4d09-4a45-ba83-689742e818e6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b3285b1e-06eb-4900-aee4-6a69c4cfe953)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6010d814-cea0-4b17-88d7-6ef3b07cdb34)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff8b4edd-f78f-4e16-a686-d8d0906b9a65)
 
 
 
@@ -15416,6 +15477,11 @@ Start from **2hrs 24mins**.
 
 
 
+
+
+### BFT
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3b55583-f23f-4087-891d-840f2a0baf55)
 
 
 
@@ -16264,31 +16330,6 @@ Start from **2hrs 24mins**.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e947843-654f-4463-aed2-568a0cf425c0)
 
 * both
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ## NEXT TOPICS (LEFT) (DONE)
