@@ -4,7 +4,7 @@
 
 * Link -> https://unacademy.com/course/complete-course-on-algorithm-768/MKL1PBOY (**COMPLETEd**)
 * Remaining Videos -> https://unacademy.com/course/full-course-on-algorithms/XX14HTSO (Start from **Video 40**, Dynamic Programming-III)
-* Live class playlist -> https://unacademy.com/course/complete-course-on-algorithms-gate/K8EKOMCE
+* Live class playlist -> https://unacademy.com/course/complete-course-on-algorithms-gate/K8EKOMCE (Completed)
 
 ## Syllabus
 
