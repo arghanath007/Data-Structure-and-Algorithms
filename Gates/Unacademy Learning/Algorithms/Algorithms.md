@@ -15024,12 +15024,90 @@ D) None of these.
 
 * In the **above program**, in how many places we have written function call?
 
-> **3** places.
+> **3** places. Underlined with **purple line**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6e8d2a66-092e-42a7-a478-2e2488c60116)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eca1e4af-62e7-4bdc-8a1c-603bb968e97e)
 
+* 3 places function call, 3 places we have to **keep conditions**. It is to check if they are already **available or not**. If **available** then don't call, if **not available** then **call, compute and store compute value**. This is **dynamic programming**.
 
+* In normal recursion program, we don't have to give the **conditions**. Unconditional calling, brute force.
+* In dynamic programming, we have to give the **conditions**. Conditional calling, intelligent brute force called as dynamic programming.
 
+* At the **stars( * )** we have to write the **conditions**.
+* The table will be **2D array**, as we have **two** parameters which are **m and n**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/08210111-c92c-4a58-aeb4-dad5015f3b90)
+
+* **Every case** and time complexity is given by **else part**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a4eec499-510b-496c-a70d-a540bd963455)
+
+* We are at the **nth** object. 6th object weight is **8**. As **8** is less than **capacity(m) = 35**, so we are in the **second else**. We have **two** choices, we can either take the **profit** of **6th object** or not take **6th** object.
+
+> If we **take** then the **capacity** is **35-8 =27** and **n=6-1=5**. We are getting some **profit** here. We are storing it in **a** variable.
+
+> If we **don't take** then the **capacity** is **35** and **n=6-1=5**. We are not getting any **profit** here. We are storing it in **b** variable.
+
+> Between **both** whoever gives the **max profit** is the **better answer**. We are storing it in **c** variable.
+
+* c= max(a,b)
+* It takes **constant or O(1)** tome to find **max profit** and whoever has the **better answer**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/409988f3-c224-418d-97f2-2d6a01a3107e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/77d81d40-c868-4195-bea6-80180566f157)
+
+* Left-most part is **all zeroes(0)** means we are taking **all**.
+* Right-most part is **not all zeroes(0)** means we are not taking **anyone**.
+* Middle part is few taking and few not taking.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/604b31b6-a9de-4414-8fe1-6270ee6d75dd)
+
+> We took **3** as well. Now we are left with **m=5 and n=1**. The first object weight is **7**. We cannot take **7**. So it is falling under the **first else** condition. We have only **one** choice, which is **don't take**.
+
+> If we want to finally get the **best answer**, everywhere we should take **best**. Then only **overall best** will come. We cannot get **best** directly. Everywhere **best** needed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e41e08c-69a7-4db6-aea8-e86567b5b0ad)
+
+* **No. of levels** at the **left-most** path -> **n**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c99af530-460b-4314-8087-5c8c4628196f)
+
+> Every leaf node is one **binary sequence**, all **zeroes(0) to all ones(1)**.
+
+* How many **leaf nodes**?
+
+> **2 ^ n** leaf nodes. As **n** nos. are there and each has **two** combinations possible.
+
+* The tree is covering every **binary sequence**, hence this is **brute force method**.
+
+* If **no repetations** are there, then total function calls -> **2 ^ n**.
+* If **no repetations** are there, then total distinct function calls -> **2 ^ n**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b1ecb610-b9bb-4b3c-a8f3-4830ccd13661)
+
+* In, **0/1 knapsack**, a little bit of **repetation** is there, it is almost negligible.
+* The weights in the **0/1 knapsack** problem are not **repeated**.
+* If **weights** repeated a few then a few repetations would have been there in the **tree**.
+
+* Dynammic programming will do **distinct function calls** only and not everyone.
+* Brute force will do everyone.
+
+* **n** is **decrementing** every level we know. At the first level **n=6**, in the second level **n=5** and in the **third level** it is **n=4** and so no.
+* **n** from **6 to 0**, so **7** levels.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5c17e153-eb0d-4f33-a2cc-b3ca8afb5f35)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/570a412a-9621-42ac-aabe-541ea6e73ef2)
+
+* We have **(n + 1)** levels, as we have **0 to n** levels.
+* Every function cost is **O(1)**.
+
+* Time Complexity of **0/1 knapsack problem** without **dynamic programming** -> **c * (2 ^ n) -> O(2 ^ n)**.
+* Stack Space or **Space Complexity** without **dynamic programming**-> No. of levels -> **O(n + 1) -> O(n)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4510f831-dba3-47ca-9401-a892daae6ec8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d147fb5e-dbdd-418d-831c-ad0b6d7b9977)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9668bc37-7f6e-467a-b0bc-20bea31c0a3b)
 
 
 
