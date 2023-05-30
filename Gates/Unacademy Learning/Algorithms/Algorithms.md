@@ -14957,6 +14957,87 @@ D) None of these.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fbb896be-71c2-45cb-9845-0f8ed83a172a)
 
 
+## Miscellaneous-topics-V (54) [30th May 2023]
+
+*  **Miscellaneous-topics-part-v** -> https://unacademy.com/class/miscellaneous-topics-part-v/66QX7BXD
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1fc37d8-dd1e-425d-9f0b-deeba6af63b2)
+
+* knapsack_DP(m,n) = The max. profit we will get with capacity(m) and no. of objects(n).
+
+* knapsack_DP(m,n) -> knapsack_DP(0,20) -> knapsack_DP(13,0) -> knapsack_DP(0,0) -> They all give **zero(0)** as their **output**.
+
+* The **Termination** condition of **0/1 knapsack problem** is either **m or n** is **zero(0)** then the **output** or return is **zero(0)** as well.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b1e05d14-f5e3-4d37-ac1a-6ca329e7eff1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0bc41085-50c1-4395-99f2-5ff663717982)
+
+> If we come to the **else** part then we have **some capacity(m)** and **some no. of objects(n)** which are **both** greater than zero(0). It means **none** is zero(0), **some capacity(m)** and **some no. of objects(n)** are available.
+
+> If we come to **else** part then **none** is zero(0).
+
+* We are at the **nth** object.
+* In the example, we have **knapsack_DP(35,6)** which means that we have a **capacity(m) of 35** and we have **6** objects, wtih them we want to get **max. profit**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/094c0f0d-ae4f-4c3c-8c76-04db02d7e018)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7908faff-30fa-4e8a-b117-1d6af054d679)
+
+> We are at the **nth object** and it's weight is **80** but the knapsack capacity is **35** only. We cannot take it.
+
+* As we cannot take the **nth object**, just simply leave it. 
+
+> As we have come to the **second else** means we can **take** but the **dilemma** is that if we take something then we don't know if it will be **profitable** or not.
+
+> The **dilemma** is that **taking** will be  **profitable** or **not taking** will be  **profitable** we don't know.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ee16af0-7516-4ac7-8a8e-ca48141a0264)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6de0cb7-876d-4fc3-8e8a-4152406e4197)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12f6062c-b3d8-4d48-9aa7-76c32283c24a)
+
+* We have **2** else.
+* First **else** will give **best case**.
+* Second **else** will give **worst case**.
+* In recursive program, **best and worst** case decided by **else part** only.
+
+> Second **else** will give **worst case**, because it has **two** function calls.
+
+> First **else** will give **best case**, because it has **one** function call.
+
+> **One** function call takes **less time** than **two** function calls.
+
+* Every function call contains **two** parameters, **m and n**. **m** decreases further, as it is **m - w[n]**. **n** also **decreases** further, because everytime we are **doing (n-1)** in every function call.
+
+> Whether we **take or not**, we will **loose an object(n-1)**.
+
+> If we **take**, **capacity** we will **losse** and **profit** we will **gain**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a959555-8031-441c-9fee-64d44472344c)
+
+* Worst Case -> WC
+* Best Case -> BC 
+* Constant or O(1) -> C.
+
+* **Best Case** time complexity of **0/1 knapsack** problem -> **O(n)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57c8ddd7-768c-427d-a17e-b473d533af1b)
+
+* In the **above program**, in how many places we have written function call?
+
+> **3** places.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -15824,7 +15905,7 @@ D) None of these.
 
 
 
-## NEXT TOPICS (LEFT)
+## NEXT TOPICS (LEFT) (DONE)
 
 ## Counting Sort
 ## Radix Sort
@@ -15835,8 +15916,8 @@ D) None of these.
 
 ## Videos Left
 
-*  **Miscellaneous-topics-part-v** -> https://unacademy.com/class/miscellaneous-topics-part-v/66QX7BXD
-*  **Rest Sorting Algos** -> https://unacademy.com/class/radix-sort-counting-sort/LFE9FCBE
+*  **Miscellaneous-topics-part-v** -> https://unacademy.com/class/miscellaneous-topics-part-v/66QX7BXD (DONE)
+*  **Rest Sorting Algos** -> https://unacademy.com/class/radix-sort-counting-sort/LFE9FCBE (DONE)
 
 
 ## Waiting for newer videos
