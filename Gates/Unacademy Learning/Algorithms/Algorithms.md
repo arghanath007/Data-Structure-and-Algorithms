@@ -15223,22 +15223,185 @@ D) None of these.
 
 ## Sum of Sub-sets Problem
 
-* Input -> 
+* Input -> Set of **n** positive integers and an integer **m**.
+* Output -> Find any subset whose sum is **m**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9cda42d7-d6e0-478f-a10f-4ac7fd2e933b)
 
+* n=7 and m=200. All **7** are positive.
 
+* In the given set, there is a **sub-set** whose **sum** is **200**?
 
+> **30 + 25 + 45 + 100 -> 200**.
 
+* The purpose of the problem is in the **given set** is there any **sub-set**, whose **sum** is **m**.
+* There maybe multiple. Just give one.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/60b4e2b8-3ae7-4f0f-b3b0-0e619e3cd500)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57046f39-771e-4f85-bcb1-16bfd2468dd5)
 
+* The subset doesn't need to be **continuous**, we can take **anyone**.
+* The way to solve the problem is we have to check **all subsets**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/029beb47-5a7c-4693-a48e-e26c4ddac7bd)
 
+* **Worst case** for the problem is that we have to cover all of the **subsets**.
+* Sometimes, answer to the problem is **total set**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c014363-c47b-4b55-ae69-585083a01466)
 
+* If we take at any point of time any element, just **substract** that element from **m**. When **m =0** then stop it, because all of the **elements** we have **substracted** from **m**, if we **add** them up we will get **m**. 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aea94c1a-bfa6-40f7-ba77-6bc29e6938e6)
 
+* Worst case is that, **all subsets** we have to check.
+* Sum_of_Subsets(m,n) -> SOS(m,n) -> Find any subset from **n** element set, so that it's sum is **m**.
+* **m** is **sum**
+* **n** is the **set size**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea05d241-0b79-46d4-94ee-94dd31fb2484)
 
+### Example
+
+* n=6
+* m=35
+
+> In a given set of 6 people, we want to find any subset whose sum is 35. This is the **goal**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/96313dcc-8389-4223-8c5e-c1edc5457a0b)
+
+* SOS(m,n) -> SOS(200,7)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16cc5691-31be-4685-9bb4-8a703bacdc11)
+
+* Worst case we have to check all subsets. We don't have any option other than covering every subsets.
+* The order is not the problem here. The problem is here is **what is the size of the subset**?  That is the problem.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e047813-f294-4696-a864-77a1b674c35a)
+
+* As we have to cover all possibilites, we can start from any side.
+* **n=7** indicates, set contains **7** elements, not only that but we are at the **7th** element.
+* We can start from any side, so we are **starting** from the **right side**.
+* We are at the **7th** element now. **7th** element is **100**. 
+* How much **sum** we want?
+
+> **m=200**, so **200** sum we want.
+
+* **7th** element is **1000** and the **total sum** we want is **200** then we cannot take **7th element**, as **7th element** is **more than** the **total sum** which is 200.
+* Simply say we cannot take **7th element** and make **SOS(m,n-1)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e2283f86-5b05-4bb3-9baf-666331027ece)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f6da6aa-7b6c-4cf7-bcbd-7e83375ed69c)
+
+> We want to find a **sub-set** whose sum is **m=200** and the **no. of elements(n)** in the set is **0**. It is **not possible** and simply say **-1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/083b958c-f927-49ee-b014-ab04a30058ac)
+
+* This is the **best case**.
+* In the given set, everyone is **more than 200**, **YES** and we want to find out the **sub-set**, whose **sum** is **200**, how is it possible?
+
+> Every one is saying **NO-No-No**, so this is the **best case** and the time is **O(n)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6321bc4e-2ca2-458d-aaaa-42a542f5c311)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/832bb918-976f-45fb-b9d8-63b4bcc0cd86)
+
+* Best case time complexity -> **O(n)**.
+
+* SS -> Subset Sum.
+* SOS(m,n) -> SOS(0, 6) -> If we want **subset sum as 0** then don't take anyone. Then return **ss**. **SS = 0 or phi**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/370a36cc-dbb6-4c67-bd53-1dd632f1c035)
+
+* SOS(m,n) -> SOS(0, 6) -> This is the **termination** condition.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e57e876d-7934-4ee9-ab96-6b2e23ae2b8a)
+
+* SOS(m,n) -> SOS(200, 7)
+
+> We are at the **7th** element. **7th** element value is **100** and we want **sum=200**. There is **possibility** that we take the **7th** element. It is **less than sum**, we can take.
+
+> But **we cannot give gurantee** that by taking **7th** element we will always get the **sub-set sum of m**. Sometimes, without the **7th** element also possible.
+
+> There is **chance** of taking the **7th** element. Don't do **blindly**, just check before.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5f50b9e1-c808-4b61-9820-334b10961661)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/134f3a9b-06fb-4686-81e7-c5f65f2bffd6)
+
+* There is **no better or worst** here, whoever makes **m=0** is the **correct answer**.
+
+> At anytime **m=0** then return **ss**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58a1a7f8-a28a-42b5-9577-81e9f376510d)
+
+* Every element has **two(2)** choices/options.
+* Everytime, whatever we have **taken**, simply **add** it to the **ss**.
+* Lastly, **m=0** and we return **ss**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b34fe067-a9b4-4ace-9d6c-f7be02b2eacf)
+
+* In **0/1 knapsack**, **terminaiton condition** to leave, there are **two else** conditions. 
+* **0/1 knapsack** and ** Sum of Sub-sets(SOS)** are almost similar, except **small small things**, major things are the **same**. If we draw the **tree** also same thing will happen.
+
+* If we draw the **recursive tree** also, **less repetations** there. Everything is **same**, no other change.
+* **0/1 knapsack** and ** Sum of Sub-sets(SOS)** are **two** same problems, said in **different** ways.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f374de1b-4422-42cd-aa18-80f305947b1b)
+
+* **ss** is a **local variable**.
+* SS= phi(Q) or zero(0).
+
+> There is no meaning of **m=0**, these condition/case never arises or arrives.
+
+> In the **first else**, **m** is not **zero(0)**. As **m** is not **0**, we are at the **nth** element.  [m!=0]
+
+> When we come to the **second else**, it means that we can **take** but it is **not guranteed** that we will reach the **sum of sub-sets m**. We are in **dilemma** that we should **take** it or not. There is no **best one(max or min)** here, which ever gives **m=0** is the **correct answer**.
+
+* We can **take** but we have **two** choices.
+* When we take, **add/update** the **ss**.
+* If we don't take, then don't **add/update** the **ss**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9fad4669-0d56-4c56-a0c8-b317ede8cd7b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ef42b0f-f68a-43eb-a2c7-e59acdeb1cec)
+
+* **SS** will **update** whenever we **take** an element.
+* **First else** is **best case**.
+* **Second else** is **worst case**. It will lead to **binary tree**. It is an **n** level **binary tree**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/06f0cfd1-73f9-4771-b6b0-fc97ec7ab12c)
+
+* Whether we **take or not**, **n** value will change in **every level**.
+* Every level cost is **O(1)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c07de649-dc37-41a6-9511-3f2986ab8c0a)
+
+* Best Case -> **O(n)**
+* Worst case -> **O(2 ^ n)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe97afc9-ef70-48d7-8faf-6798da2362e9)
+
+### Without-DP
+
+* **Time Complexity** of **Sum of subsets(SOS)** without dynamic programming for **worst case** -> **O(2 ^ n)**.
+* **Space Complexity** of **Sum of subsets(SOS)** without dynamic programming for **worst case** -> **O(n)**.
+
+### With DP
+
+* **Time Complexity** of **Sum of subsets(SOS)** with dynamic programming for **worst case** -> **O(m * n)**.
+* **Space Complexity** of **Sum of subsets(SOS)** with dynamic programming for **worst case** -> **O(m * n)**.
+* The no. of **distinct function calls** -> **O(m * n)**.
+* Stack Size -> **O(n)**
+* Table size dependent on **distinct function calls** -> **O(m * n)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/28b74071-205d-4933-bd3d-93d54eaff85e)
+
+* AS **Sum of subsets(SOS)** is **equal to**, **0/1 knapsack problem**, because of **less repetation**, **Sum of subsets(SOS)** is also an **NPC** problem.
+
+* **SS** is **local variable**.
+* Dynamic programming **table** is **outside**, it is **global**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd5ba3ec-e9ba-4ed0-835f-839012fff019)
+
+Start from **2hrs 24mins**.
 
 
 
