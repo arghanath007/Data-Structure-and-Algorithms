@@ -14957,6 +14957,539 @@ D) None of these.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fbb896be-71c2-45cb-9845-0f8ed83a172a)
 
 
+## Miscellaneous-topics-V (54) [30th May 2023]
+
+*  **Miscellaneous-topics-part-v** -> https://unacademy.com/class/miscellaneous-topics-part-v/66QX7BXD
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1fc37d8-dd1e-425d-9f0b-deeba6af63b2)
+
+* knapsack_DP(m,n) = The max. profit we will get with capacity(m) and no. of objects(n).
+
+* knapsack_DP(m,n) -> knapsack_DP(0,20) -> knapsack_DP(13,0) -> knapsack_DP(0,0) -> They all give **zero(0)** as their **output**.
+
+* The **Termination** condition of **0/1 knapsack problem** is either **m or n** is **zero(0)** then the **output** or return is **zero(0)** as well.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b1e05d14-f5e3-4d37-ac1a-6ca329e7eff1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0bc41085-50c1-4395-99f2-5ff663717982)
+
+> If we come to the **else** part then we have **some capacity(m)** and **some no. of objects(n)** which are **both** greater than zero(0). It means **none** is zero(0), **some capacity(m)** and **some no. of objects(n)** are available.
+
+> If we come to **else** part then **none** is zero(0).
+
+* We are at the **nth** object.
+* In the example, we have **knapsack_DP(35,6)** which means that we have a **capacity(m) of 35** and we have **6** objects, wtih them we want to get **max. profit**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/094c0f0d-ae4f-4c3c-8c76-04db02d7e018)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7908faff-30fa-4e8a-b117-1d6af054d679)
+
+> We are at the **nth object** and it's weight is **80** but the knapsack capacity is **35** only. We cannot take it.
+
+* As we cannot take the **nth object**, just simply leave it. 
+
+> As we have come to the **second else** means we can **take** but the **dilemma** is that if we take something then we don't know if it will be **profitable** or not.
+
+> The **dilemma** is that **taking** will be  **profitable** or **not taking** will be  **profitable** we don't know.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ee16af0-7516-4ac7-8a8e-ca48141a0264)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6de0cb7-876d-4fc3-8e8a-4152406e4197)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12f6062c-b3d8-4d48-9aa7-76c32283c24a)
+
+* We have **2** else.
+* First **else** will give **best case**.
+* Second **else** will give **worst case**.
+* In recursive program, **best and worst** case decided by **else part** only.
+
+> Second **else** will give **worst case**, because it has **two** function calls.
+
+> First **else** will give **best case**, because it has **one** function call.
+
+> **One** function call takes **less time** than **two** function calls.
+
+* Every function call contains **two** parameters, **m and n**. **m** decreases further, as it is **m - w[n]**. **n** also **decreases** further, because everytime we are **doing (n-1)** in every function call.
+
+> Whether we **take or not**, we will **loose an object(n-1)**.
+
+> If we **take**, **capacity** we will **losse** and **profit** we will **gain**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a959555-8031-441c-9fee-64d44472344c)
+
+* Worst Case -> WC
+* Best Case -> BC 
+* Constant or O(1) -> C.
+
+* **Best Case** time complexity of **0/1 knapsack** problem -> **O(n)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57c8ddd7-768c-427d-a17e-b473d533af1b)
+
+* In the **above program**, in how many places we have written function call?
+
+> **3** places. Underlined with **purple line**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6e8d2a66-092e-42a7-a478-2e2488c60116)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eca1e4af-62e7-4bdc-8a1c-603bb968e97e)
+
+* 3 places function call, 3 places we have to **keep conditions**. It is to check if they are already **available or not**. If **available** then don't call, if **not available** then **call, compute and store compute value**. This is **dynamic programming**.
+
+* In normal recursion program, we don't have to give the **conditions**. Unconditional calling, brute force.
+* In dynamic programming, we have to give the **conditions**. Conditional calling, intelligent brute force called as dynamic programming.
+
+* At the **stars( * )** we have to write the **conditions**.
+* The table will be **2D array**, as we have **two** parameters which are **m and n**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/08210111-c92c-4a58-aeb4-dad5015f3b90)
+
+* **Every case** and time complexity is given by **else part**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a4eec499-510b-496c-a70d-a540bd963455)
+
+* We are at the **nth** object. 6th object weight is **8**. As **8** is less than **capacity(m) = 35**, so we are in the **second else**. We have **two** choices, we can either take the **profit** of **6th object** or not take **6th** object.
+
+> If we **take** then the **capacity** is **35-8 =27** and **n=6-1=5**. We are getting some **profit** here. We are storing it in **a** variable.
+
+> If we **don't take** then the **capacity** is **35** and **n=6-1=5**. We are not getting any **profit** here. We are storing it in **b** variable.
+
+> Between **both** whoever gives the **max profit** is the **better answer**. We are storing it in **c** variable.
+
+* c= max(a,b)
+* It takes **constant or O(1)** tome to find **max profit** and whoever has the **better answer**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/409988f3-c224-418d-97f2-2d6a01a3107e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/77d81d40-c868-4195-bea6-80180566f157)
+
+* Left-most part is **all zeroes(0)** means we are taking **all**.
+* Right-most part is **not all zeroes(0)** means we are not taking **anyone**.
+* Middle part is few taking and few not taking.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/604b31b6-a9de-4414-8fe1-6270ee6d75dd)
+
+> We took **3** as well. Now we are left with **m=5 and n=1**. The first object weight is **7**. We cannot take **7**. So it is falling under the **first else** condition. We have only **one** choice, which is **don't take**.
+
+> If we want to finally get the **best answer**, everywhere we should take **best**. Then only **overall best** will come. We cannot get **best** directly. Everywhere **best** needed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e41e08c-69a7-4db6-aea8-e86567b5b0ad)
+
+* **No. of levels** at the **left-most** path -> **n**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c99af530-460b-4314-8087-5c8c4628196f)
+
+> Every leaf node is one **binary sequence**, all **zeroes(0) to all ones(1)**.
+
+* How many **leaf nodes**?
+
+> **2 ^ n** leaf nodes. As **n** nos. are there and each has **two** combinations possible.
+
+* The tree is covering every **binary sequence**, hence this is **brute force method**.
+
+* If **no repetations** are there, then total function calls -> **2 ^ n**.
+* If **no repetations** are there, then total distinct function calls -> **2 ^ n**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b1ecb610-b9bb-4b3c-a8f3-4830ccd13661)
+
+* In, **0/1 knapsack**, a little bit of **repetation** is there, it is almost negligible.
+* The weights in the **0/1 knapsack** problem are not **repeated**.
+* If **weights** repeated a few then a few repetations would have been there in the **tree**.
+
+* Dynammic programming will do **distinct function calls** only and not everyone.
+* Brute force will do everyone.
+
+* **n** is **decrementing** every level we know. At the first level **n=6**, in the second level **n=5** and in the **third level** it is **n=4** and so no.
+* **n** from **6 to 0**, so **7** levels.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5c17e153-eb0d-4f33-a2cc-b3ca8afb5f35)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/570a412a-9621-42ac-aabe-541ea6e73ef2)
+
+* We have **(n + 1)** levels, as we have **0 to n** levels.
+* Every function cost is **O(1)**.
+
+* Time Complexity of **0/1 knapsack problem** without **dynamic programming** -> **c * (2 ^ n) -> O(2 ^ n)**.
+* Stack Space or **Space Complexity** without **dynamic programming**-> No. of levels -> **O(n + 1) -> O(n)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4510f831-dba3-47ca-9401-a892daae6ec8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d147fb5e-dbdd-418d-831c-ad0b6d7b9977)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9668bc37-7f6e-467a-b0bc-20bea31c0a3b)
+
+### With-DP or Using DP
+
+* Distinct people or distinct function calls how many?
+* knapsack_01(m,n) contains how many function calls?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/641e7950-8ac8-40b1-b373-38ccbdb5592b)
+
+* The tree diagram is for **worst case** because we have **two functions calls** and **two functions calls** are in the **second else** which gives the **worst case**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c4134a8e-fe71-4d0c-a38a-b644ebdb2007)
+
+* Worst case
+* **n** is decrementing by **1** everytime.
+* **m** is decrementing by **1** everytime which suggests **worst case**.
+
+> Decrementing of **m** depends on the **weights or sizes**, so if the **weights** are **1 unit** each then that is the **worst case**.
+
+> Decrementing of **m** will be **best case** when the **first weight** is of size **m** only and it has taken the **whole capacity(m)** and we don't have to check the **next object's weight**. It is done, we can stop.
+
+* Time Complexity of **0/1 knapsack problem** using **Dynamic programming** -> **(m * n * 1) -> O(m  * n)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/78a03cb7-f66d-403f-a962-ed23a6679051)
+
+* With DP, not without-DP.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/82b5ff9b-e0ac-47a7-88f1-dc4e88da6e62)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09c5c992-de5d-4f3e-8935-2f26155fd289)
+
+* Both **m and n** are **decrementing**, for **worst case** they are **decrementing** slowly **one by one**.
+* One Function cost is **O(1)**, because **max of two** element we have to find out.
+
+* In the **tree** repetation there or not there?
+
+> Based on what **weights** are given. 
+
+* If **weights* are **repeated** then there will be **few** repetations.
+* If **no weights** are **repeated** then there maybe **no repetations**.
+
+* Space Complexity or Stack Space of **0/1 knapsack problem** using **Dynamic programming** -> Stack + Table -> n + (m* n) -> **O(m * n)**.
+* Time Complexity of **0/1 knapsack problem** using **Dynamic programming** -> **(m * n * 1) -> O(m  * n)**.
+
+* Table size is based on **distinct function calls(DFC)** -> **O(m * n)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec9d3e13-7a87-4219-b6bc-4dac94b975a1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76253be2-0aa6-465f-86fb-e2af42a10e99)
+
+* **Time and Space Complexity** for 0/1 knapsack problem** using **Dynamic programming** for **worst case** -> **O(m  * n)**.
+* **Time and Space Complexity** for 0/1 knapsack problem** using **without Dynamic programming** for **worst case** respectively -> **O(2 ^ n)** and **O(n)**.
+
+> 0/1 knapsack problem** using **Dynamic programming**, the **space complexity** has **increased** from **O(n)** to **O(m  * n)** whereas the **time complexity** has **decreased** from **O(2 ^ n)** to **O(m  * n)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a82fd6a-48f6-4a21-97aa-c973618b1bd5)
+
+* DP or dynamic programming means **distinct function calls(DFC)** we will calculate, **different** people we want.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0aa7c938-2c27-4cf4-af9b-a703930f60ee)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/62dcc981-c7e8-4961-88f9-dd6f965e794d)
+
+* Space Complexity -> Extra space
+* **0/1 knapsack** won't work for **greedy programming** as **no short-cut** there. So we came to **dynamic programming**.
+* In **dynamic programming**, no **no short-cut** there, it is covering all possibilities. Covering all possibilities we covered all **leaf nodes which are (2 ^ n)** and we don't bother about **repeated or not** then it is **brute force**.
+
+* If we bother about **repeated or not** then it is **dynamic programming**.
+
+* What is the **time complexity** of a **0/1 knapsack problem** using **Dynamic programming**? [**IMPORTANT**]
+
+> **O(m * n)**. 
+
+* Stack Space -> **O(n)**.
+* Table Space is based on **distinct function calls** -> **O(m * n)**. 
+* Total Space complexity -> **O(m * n)**. 
+
+* **NOTES**:-
+
+* Space complexity means **extra space** only.
+* DP -> Stack + Table required
+* Recursion -> Stack required
+* Without DP -> Stack required
+
+> Time Complexity of **0/1 knapsack problem** using **Dynamic programming** is **O(m * n)** is approximately **equal to**, **O(2 ^ n)** because of **less repetations**. So it is one of the **NP** complete or **NPC** problem.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b18f3992-27f5-420d-93c4-8bac491a397c)
+
+* Dynamic programming is a **great idea** if **more repetations** are there.
+* Dynamic programming is not a **good idea** if **less or no repetations** are there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b67bf24-eb72-4955-b3fc-262e011b9e57)
+
+* Time Complexity of **0/1 knapsack problem** with DP is **O(m * n)**, why is it **NPC** problem?
+
+> Actually it is **O(m * n)**, it is **NPC** problem because of the **very less repetations** this **O(m * n)** is approximately **equal to**, **O(2 ^ n)**.
+
+> This is why it is an **NPC** problem.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fffb7c3c-e554-4078-a552-0ac1f74d748b)
+
+* **NPC** problem -> It means completely toughest problems. There are some problems which are **tough**, those problems we solve anyway. They will be tough only. 
+* **Tough** means **O(2 ^ n)**. Other than **brute force** no other way.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5418360-0e01-47a9-84fb-dd1e27341e8a)
+
+* Easy problems are called as **P-class** problems. **P-class** means **polynomial** time algorithm. Ex -> Linear(**O(n)**).
+* Exponential time algos are called as **NPC** problems.
+
+* In **0/1 knapsack**, sometimes repetation or no repetation?
+
+> In few problem, no repetation at all.
+
+> If some weights are **repeated** then some repetations may come.
+
+> If in weights there is **no repetation** then there maybe **no repetation**.
+
+## Sum of Sub-sets Problem
+
+* Input -> Set of **n** positive integers and an integer **m**.
+* Output -> Find any subset whose sum is **m**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9cda42d7-d6e0-478f-a10f-4ac7fd2e933b)
+
+* n=7 and m=200. All **7** are positive.
+
+* In the given set, there is a **sub-set** whose **sum** is **200**?
+
+> **30 + 25 + 45 + 100 -> 200**.
+
+* The purpose of the problem is in the **given set** is there any **sub-set**, whose **sum** is **m**.
+* There maybe multiple. Just give one.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/60b4e2b8-3ae7-4f0f-b3b0-0e619e3cd500)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57046f39-771e-4f85-bcb1-16bfd2468dd5)
+
+* The subset doesn't need to be **continuous**, we can take **anyone**.
+* The way to solve the problem is we have to check **all subsets**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/029beb47-5a7c-4693-a48e-e26c4ddac7bd)
+
+* **Worst case** for the problem is that we have to cover all of the **subsets**.
+* Sometimes, answer to the problem is **total set**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c014363-c47b-4b55-ae69-585083a01466)
+
+* If we take at any point of time any element, just **substract** that element from **m**. When **m =0** then stop it, because all of the **elements** we have **substracted** from **m**, if we **add** them up we will get **m**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aea94c1a-bfa6-40f7-ba77-6bc29e6938e6)
+
+* Worst case is that, **all subsets** we have to check.
+* Sum_of_Subsets(m,n) -> SOS(m,n) -> Find any subset from **n** element set, so that it's sum is **m**.
+* **m** is **sum**
+* **n** is the **set size**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea05d241-0b79-46d4-94ee-94dd31fb2484)
+
+### Example
+
+* n=6
+* m=35
+
+> In a given set of 6 people, we want to find any subset whose sum is 35. This is the **goal**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/96313dcc-8389-4223-8c5e-c1edc5457a0b)
+
+* SOS(m,n) -> SOS(200,7)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16cc5691-31be-4685-9bb4-8a703bacdc11)
+
+* Worst case we have to check all subsets. We don't have any option other than covering every subsets.
+* The order is not the problem here. The problem is here is **what is the size of the subset**?  That is the problem.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e047813-f294-4696-a864-77a1b674c35a)
+
+* As we have to cover all possibilites, we can start from any side.
+* **n=7** indicates, set contains **7** elements, not only that but we are at the **7th** element.
+* We can start from any side, so we are **starting** from the **right side**.
+* We are at the **7th** element now. **7th** element is **100**. 
+* How much **sum** we want?
+
+> **m=200**, so **200** sum we want.
+
+* **7th** element is **1000** and the **total sum** we want is **200** then we cannot take **7th element**, as **7th element** is **more than** the **total sum** which is 200.
+* Simply say we cannot take **7th element** and make **SOS(m,n-1)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e2283f86-5b05-4bb3-9baf-666331027ece)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f6da6aa-7b6c-4cf7-bcbd-7e83375ed69c)
+
+> We want to find a **sub-set** whose sum is **m=200** and the **no. of elements(n)** in the set is **0**. It is **not possible** and simply say **-1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/083b958c-f927-49ee-b014-ab04a30058ac)
+
+* This is the **best case**.
+* In the given set, everyone is **more than 200**, **YES** and we want to find out the **sub-set**, whose **sum** is **200**, how is it possible?
+
+> Every one is saying **NO-No-No**, so this is the **best case** and the time is **O(n)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6321bc4e-2ca2-458d-aaaa-42a542f5c311)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/832bb918-976f-45fb-b9d8-63b4bcc0cd86)
+
+* Best case time complexity -> **O(n)**.
+
+* SS -> Subset Sum.
+* SOS(m,n) -> SOS(0, 6) -> If we want **subset sum as 0** then don't take anyone. Then return **ss**. **SS = 0 or phi**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/370a36cc-dbb6-4c67-bd53-1dd632f1c035)
+
+* SOS(m,n) -> SOS(0, 6) -> This is the **termination** condition.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e57e876d-7934-4ee9-ab96-6b2e23ae2b8a)
+
+* SOS(m,n) -> SOS(200, 7)
+
+> We are at the **7th** element. **7th** element value is **100** and we want **sum=200**. There is **possibility** that we take the **7th** element. It is **less than sum**, we can take.
+
+> But **we cannot give gurantee** that by taking **7th** element we will always get the **sub-set sum of m**. Sometimes, without the **7th** element also possible.
+
+> There is **chance** of taking the **7th** element. Don't do **blindly**, just check before.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5f50b9e1-c808-4b61-9820-334b10961661)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/134f3a9b-06fb-4686-81e7-c5f65f2bffd6)
+
+* There is **no better or worst** here, whoever makes **m=0** is the **correct answer**.
+
+> At anytime **m=0** then return **ss**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58a1a7f8-a28a-42b5-9577-81e9f376510d)
+
+* Every element has **two(2)** choices/options.
+* Everytime, whatever we have **taken**, simply **add** it to the **ss**.
+* Lastly, **m=0** and we return **ss**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b34fe067-a9b4-4ace-9d6c-f7be02b2eacf)
+
+* In **0/1 knapsack**, **terminaiton condition** to leave, there are **two else** conditions. 
+* **0/1 knapsack** and ** Sum of Sub-sets(SOS)** are almost similar, except **small small things**, major things are the **same**. If we draw the **tree** also same thing will happen.
+
+* If we draw the **recursive tree** also, **less repetations** there. Everything is **same**, no other change.
+* **0/1 knapsack** and ** Sum of Sub-sets(SOS)** are **two** same problems, said in **different** ways.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f374de1b-4422-42cd-aa18-80f305947b1b)
+
+* **ss** is a **local variable**.
+* SS= phi(Q) or zero(0).
+
+> There is no meaning of **m=0**, these condition/case never arises or arrives.
+
+> In the **first else**, **m** is not **zero(0)**. As **m** is not **0**, we are at the **nth** element.  [m!=0]
+
+> When we come to the **second else**, it means that we can **take** but it is **not guranteed** that we will reach the **sum of sub-sets m**. We are in **dilemma** that we should **take** it or not. There is no **best one(max or min)** here, which ever gives **m=0** is the **correct answer**.
+
+* We can **take** but we have **two** choices.
+* When we take, **add/update** the **ss**.
+* If we don't take, then don't **add/update** the **ss**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9fad4669-0d56-4c56-a0c8-b317ede8cd7b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ef42b0f-f68a-43eb-a2c7-e59acdeb1cec)
+
+* **SS** will **update** whenever we **take** an element.
+* **First else** is **best case**.
+* **Second else** is **worst case**. It will lead to **binary tree**. It is an **n** level **binary tree**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/06f0cfd1-73f9-4771-b6b0-fc97ec7ab12c)
+
+* Whether we **take or not**, **n** value will change in **every level**.
+* Every level cost is **O(1)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c07de649-dc37-41a6-9511-3f2986ab8c0a)
+
+* Best Case -> **O(n)**
+* Worst case -> **O(2 ^ n)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe97afc9-ef70-48d7-8faf-6798da2362e9)
+
+### Without-DP
+
+* **Time Complexity** of **Sum of subsets(SOS)** without dynamic programming for **worst case** -> **O(2 ^ n)**.
+* **Space Complexity** of **Sum of subsets(SOS)** without dynamic programming for **worst case** -> **O(n)**.
+
+### With DP
+
+* **Time Complexity** of **Sum of subsets(SOS)** with dynamic programming for **worst case** -> **O(m * n)**.
+* **Space Complexity** of **Sum of subsets(SOS)** with dynamic programming for **worst case** -> **O(m * n)**.
+* The no. of **distinct function calls** -> **O(m * n)**.
+* Stack Size -> **O(n)**
+* Table size dependent on **distinct function calls** -> **O(m * n)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/28b74071-205d-4933-bd3d-93d54eaff85e)
+
+* AS **Sum of subsets(SOS)** is **equal to**, **0/1 knapsack problem**, because of **less repetation**, **Sum of subsets(SOS)** is also an **NPC** problem.
+
+* **SS** is **local variable**.
+* Dynamic programming **table** is **outside**, it is **global**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd5ba3ec-e9ba-4ed0-835f-839012fff019)
+
+* Both will be **similar**.
+
+## 3 SAT problem, 3 variable satisfiable problem
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7510bea8-0ff8-4b28-a1d3-cbc39fa0065c)
+
+* It is an **NPC** problem.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7cfcf4ba-c26d-4364-b12a-423df54aad75)
+
+* Note:-
+
+> **SOS** is **polynomially converted** into **0/1 knapsack**.
+
+> Because **0/1 knapsack** is **NPC**, so **SOS** is also **NPC**.
+
+> Both are **similar**.
+
+> If we know, **SOS**, then we know **0/1 knapsack** and vice-versa.
+
+## All Pairs Shortest Path
+
+* Source to **every person** finding the **shortest path** is **single source shortest path**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/48a16d6e-87c9-4d53-9a83-0900df938a33)
+
+* **Single source shortest path**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34977268-c8a8-4999-848b-dd3d533c77ed)
+
+* Source -> Destination
+* All can be **souce** and all can be **destination**. It is **many-to-many**. **Many** means all, from everywhere to everywhere.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b48df82-ffe5-495c-bdd8-c1087589709b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/abfdf1b8-df1c-4ca8-a503-a0ea796d6f68)
+
+* If total vertices are **V** then the **total pairs** are **V ^ 2**.
+
+* Out of **n** people, taking **2-2** people, how many ways?
+
+> **nC2** ways which is nothing but **n ^ 2**. Forget about **-1 and +1**.
+
+> Out of **V** people, selecting **two** people -> **vC2** ways, which is **V ^ 2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a6992845-a56e-4a89-906d-b6e831ce670a)
+
+## Floyd Warshal's-algo
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fcc2281a-c5b4-44b9-bf88-164d2d112f80)
+
+* Time Complexity of **All pairs shortest path**, using **dynamic programming** which is **Floyd Warshal's algo** -> **O(v ^ 3)**.
+* We have **V ^ 2** pairs and for **every pair**, we will check via every other vertex. So, it is **(v ^ 2) * v** which is **O(v ^ 3)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/07ad573c-2c6a-4bd2-8ce4-52c476d17d39)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d57484f5-5243-476d-ad9f-29acb495d8ba)
+
+* No needed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7e68d8b-4d09-4a45-ba83-689742e818e6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b3285b1e-06eb-4900-aee4-6a69c4cfe953)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6010d814-cea0-4b17-88d7-6ef3b07cdb34)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff8b4edd-f78f-4e16-a686-d8d0906b9a65)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### BFT
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3b55583-f23f-4087-891d-840f2a0baf55)
+
+
+
+
+
+
+
+
 
 
 
@@ -15360,19 +15893,458 @@ D) None of these.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f565016-2319-4c81-bb21-1bac9183b4d9)
 
-## NEXT TOPICS (LEFT)
+## Radix Sort, Counting Sort (53) [29th May 2023]
+
+**Rest Sorting Algos** -> https://unacademy.com/class/radix-sort-counting-sort/LFE9FCBE
+
+## Max-continuous Sub-array Sum
+
+* Inputs:-
+
+* 13 -> -3 -> -25 -> 20 -> -3 -> -16 -> -23 -> 18 -> 20 -> -7 -> 12 -> -5 -> -22 -> 15 -> -4 -> 7
+* 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8 -> 9 -> 10 -> 11 -> 12 -> 13 -> 14 -> 15 -> 16
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7cb9decc-6041-4fa0-b1ce-e2c3aeae73b0)
+
+> If **continuous keyword is not** there then we can just take **all** of the **positive values** by doing **one scan** of the array.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf1c1b07-5f84-4cc3-96c1-0b83f0040b94)
+
+> if just sub-array then we can take like this.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f80d829c-cb89-419d-a56d-38dc668543a1)
+
+> We can take the **-7** because then we can take the **12** as well which means **12-7 =+5**. So we are **gaining/increasing** more. We are **net gaining**, **+5**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa051867-fb2d-4f24-b5ce-9b50c4918a4e)
+
+* we are gaining **43**, in between we are loosing **7**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5904eaa-2b33-43ee-a10f-1472f351d105)
+
+* We are getting **15 + 7 -4 = 18**. 
+
+> To gain the **18**, we have to spend **-22 + (-5) = -27**. We are **net loosing** as **18 - 27 = -9**. So, there is no point in getting **18**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/29a59f36-9b32-46c0-a225-c26e0b648e54)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c89b839-3b2f-4290-9fb8-b3c4428a4790)
+
+* We are ready to **loose** something, if we are **gaining** more.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d999650-faf1-4547-b37e-227c41c981e1)
+
+* What is the **entry and exit** day when we will **buy and sell** the stock respectively to get the max profit?
+
+> We will buy on **8th** day and sell it on the **11th** day. We will have a **profit** of **43** ruprees.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/587573ca-d7c7-4474-9cfd-62f7816a3050)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4527073a-9695-4afe-8908-5c10a1dba147)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd933bb3-56b1-4d43-a295-b00a58aff445)
+
+* Answer, circled with blue color.
+* We can use **divide and conquor**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7989b1c8-56dd-49a4-b1f3-47dcaf41cf95)
+
+> First we will **divide**. Division has taken **constant or O(1)** time. Division is simply finding **mid or middle element**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1fd4e61c-4bc5-43ca-a30a-e8a46cf6fec2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d96e30e-11cb-48f7-a199-776289670228)
+
+> Only one element is there, then itself that is the answer. It is a **small problem**. Forget about **small problem**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f803f1ee-812b-485b-90c8-bf41c1c4c4e5)
+
+> From the **left side** half, the best is **20** only because if we try to get **13** then we are looking **-28** which is more than we are gaining, so not going to 13. Same with **18** as well, if we go to 18, we will loose more than 18. 
+
+> From the **right side** half, the best is **25** because if we combine **20 - 7 + 12 =25**, we get **25**. We cannot take **15** because we will loose **-5 -22 = -27** which is more than 15. If we do **15 - 4 + 7 = 18** but **18** is smaller that **25**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1410bbb5-2c28-4dcb-9cb4-c3e538d6c825)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7cdb1584-6a2e-4c83-b3ed-4dd8bc5be226)
+
+> For the **halves** we are taking **T(n/2)** for each half.
+
+> So total time take is **(2 * T(n/2)) + O(1)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9f458b8f-54c8-4545-9559-265407a5955a)
+
+> Whenever **combine** is going on, we have to take care about the **white circled area** in the array. During **combine** time we also have to take care about the **middle** area also.
+
+> That's the **actual answer** but when doing **divide** some elements when to the **left** and some to the **right**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4dc34714-97c7-498a-9ae5-e5c777dcc7f2)
+
+* The best answer is the **middle area** which gives **43**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9685a1d7-eb56-4217-b939-379a85d17ee6)
+
+> Among **20, 43 and 25**, who is **better**? **43** is better.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c8da335-1c05-41ba-85f0-2ee3f9408891)
+
+* The white area circled is called as **cross sum or cross array sum**.
+* The only mistake we can do is, we are not doing **cross sum**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a368fa10-454c-4ad7-b428-02f601409159)
+
+* To take care of the **middle part** we will use **cross sum**. In the **combining** time we will do.
+* To get the **best person** from the **left half** we will use **recursion**.
+* To get the **best person** from the **right half** we will use **recursion**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97eda0f0-a373-47ee-a194-099eb8950be5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b3f1def-5b06-4fe2-b190-9412568d61c7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/90828e54-16a0-47bf-8dd6-a189a6d03d95)
+
+> On the **left side**, we got **ls =18** and the **max index(i)** is **8**.
+
+> On the **right side**, we got **rs =25** and the **max index(i)** is **11**.
+
+> So it is from **8th to 11th** position. We got **18 + 25 -> 43**.
+
+* This is called as **cross sum**.
+* **Cross sum** is giving **43** and it is from **8th to 11th** position.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a6013cc1-e4fe-404c-91d2-9e1a859a5bd3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd635400-3f0f-4974-9f55-391ef1118b45)
+
+* Cross sum
+
+> Left half is covered by **first for loop** and right half covered by **second for loop**. BOth loops are covered by **one loop**.
+
+* So it is simply **O(n)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8aa3c740-0bf6-4958-a9a9-853e67ea0d21)
+
+* Left is take care by **recursion**, **right side** is also covered by **recursion** and the **middle part** is covered by the **cross sum**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/39bd886f-9e7c-40d3-b92f-59162d6be0ee)
+
+* Time Complexity of **max continuous subaray sum** using **divide and conquor** algo:-
+*  T(n) = O(1) + (2 * T(n/2)) + O(n) -> (2 * T(n/2)) + O(n) -> **O(n * log n)**.
+
+* **O(1)** is the divide time.
+* ** (2 * T(n/2))** is for the **both** left and right halves **recursion** times, each half is **T(n/2)** time.
+* **O(n)** is the **cross-sum** function time.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/96f96061-6f4d-4af1-8787-f6ce9bb0f5a9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63c95f91-45a9-4442-a666-813b31f2b084)
+
+* yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aece8c84-6652-4400-9848-695478714e34)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ca9d91f-6d84-49d3-b952-32eb14bc057e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5f1e8f39-a582-4f5d-8008-04a60a908120)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e2df2509-26e5-403c-8d9f-41a3190c7e33)
+
+* Yes.
+
+## Counting Sort
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/219b9545-6cf5-4605-9b73-4038e9b3dedc)
+
+* It contains **8** elements.
+* All of the array elements are in the range of **array size** which is **8**.
+* Counting sort will come to the picture when **range** is given.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e09e98a-f4a2-4df0-b59b-095186121c7a)
+
+* **NOTES**:-
+
+* Every sorting algo, depending on what the algo is saying, accordingly we have to **select**.
+
+* Array not sorted -> Quick sort.
+* Array sorted -> Insertion sort.
+* Dilemma in array-> Merge sort.
+* We want **less swaps** -> Selection sort. [swap's 's' means selection sort.]
+* Easy Algo -> Bubble sort
+* Range given -> Counting sort
+
+
+* The **range** given in the above array is **array size**. The elements are between **0 to 5**.
+* It is not crossing **array size**. ELement's range is **array size**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e8c3711-3f83-41cf-896c-2e3fbb9104d8)
+
+* If **n-elements** are there in the **range** of **0 to n** then the time complexity of **counting sort** is **n**.
+* If **n-elements** are there in the **range** of **0 to n^2** then the time complexity of **counting sort** is **n^2**.
+* If **n-elements** are there in the **range** of **0 to n^3** then the time complexity of **counting sort** is **n^3**.
+* If **n-elements** are there in the **range** of **0 to k** then the time complexity of **counting sort** is **n + k**. 
+
+> If **k** is **bigger** then it is **O(k)**. If **k** is **smaller** then it is **O(n)**.
+
+* The for loop is repeating how many times?
+
+> **The range** that much only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a380b82-dfb2-487f-ac18-05c685d70cd7)
+
+* For(i=1 to n)
+* a[i] -> 2
+* C[a[i]] -> 0
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b00e5229-e0e3-42ae-a271-3bf3cde6bb1d)
+
+* What the **2nd for loop** is doing is that it is **counting** how many times **each element** has come.
+* It will **count or counting** the **frequency** of **each element**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a179bdcf-b305-4603-b221-ba978e4bfe7d)
+
+* The loop is running for **n** times.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ddca7df-3b01-48d6-bd9c-2269d835c3e7)
+
+* **First for loop**, will **initialize** the **array(c)** with **zero(0)** elements. It is for **k** time.
+* **Second for loop**, will **count** how many times **each element** has come in the **given array**. It is for **n** time.
+
+* **Second for loop** is counting how many times **each element** has come in the **given array**. That's why it is called as **counting sort**.
+
+* If **range** not given, then do **one scan** and find the **max range**. It will take **n** time.
+
+* Time Complexity of **counting sort** -> **O(n + k)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/18641d04-c95d-4c60-a960-68892153d104)
+
+> The purpose of **'c' array** is to store the **frequency** of **each element** in the array. Index 5 or **a[5]=1**  indicates that we have **1** 5 element in the array. It is **equal to**, in **a[5]=1**, **5** came **how many times**.
+
+* **a[4]=0** -> Indicates there are **zero(0) 4s**.
+* **a[3]=3** -> Indicates there are **three 3s**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85ab275e-9c3c-43b2-906f-afe6237032e4)
+
+> The purpose of **'c' array** is to check at **a[5]=8**, which means **count** of **how many** elements that are **less than or equal to 5** in the array.
+
+* **a[4]=7** -> **Counts** of **how many** elements that are **less than or equal to 4** in the array.
+* **a[3]=7** -> **Counts** of **how many** elements that are **less than or equal to 3** in the array.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/859472c2-812f-40f7-8ef4-37f03b3d72ef)
+
+* **Second loop** says, **5** came **how many times**, in **a[5]=1**.
+* **Third loop** says, **less than or equal to** how many times, in **a[5]=8**.
+
+* **Third loop** is also for **k** time only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3dfadd65-e53b-48d0-95f9-4eb64b789dd9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce4a47ca-e64f-49d8-a485-6805aa286d1c)
+
+* The loop is running from **n to 1**.
+* The size of the array is **8**.
+* The size of **array B** is same as **array A**.
+* The loop is **starting** from **n**.
+* We have **n=8**, so **i=8** initially.
+
+* B[C[A[i]]] = A[i]
+* A[i]= A[8] =3
+* C[A[i]] = C[3] = 7
+* B[C[A[i]]] = B[7]
+* B[7] = 3
+
+> After this we have **decremented** the value of **C[3]** by **1** as we have used **one element**. Now, **C[3] = 6**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b9a93695-608b-40fa-bd5d-70cde522e7db)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e008ebe3-d2ab-41b4-b6de-8500588f40f1)
+
+
+* i=7
+* A[7] =0
+* C[A[i]] = C[0] = 2
+* B[C[A[i]]] =  B[2]
+* B[2] = A[7]
+* B[2] = 0
+
+> After this we have **decremented** the value of **C[0]** by **1** as we have used **one element**. Now, **C[0] = 1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2ca490b-7dec-42ba-b699-6a58879e7a43)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/312b740f-8d0e-495e-8954-02d7ad79e7bb)
+
+* It is **decrementing** because of the **2nd line**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7af27c96-1d61-470b-af01-301fe7f518f9)
+
+* i=6
+* A[6] =3
+* C[A[i]] = C[3] = 6
+* B[C[A[i]]] =  B[6]
+* B[6] = A[6]
+* B[6] = 3
+
+> After this we have **decremented** the value of **C[3]** by **1** as we have used **one element**. Now, **C[3] = 5**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b38cc2fe-e1d1-435b-a4a0-5b2a39f6c31c)
+
+* The **last loop** is running from **n to 1**, which is **last to first**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f3f8d522-dcd0-40c6-aa75-4f26875bf8ec)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/788431f4-4481-48c6-acd8-1bc0c1a6629c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/46171b9a-89b1-4ad1-8885-be3ccdefbe71)
+
+> We are taking element **one by one** from the **last**.
+
+> As we have started from the **last** place and the **last 3** goes to the **last place** which is **7th**.
+
+> The **next 3** goes to the **next last place** and so on.
+
+* It means that **counting sort** is **stable**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7037c822-a9d4-4f07-831e-7e737b07e94a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/089aac8c-24ef-41ca-acc9-a35f40409596)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b9ab81d3-1669-43b3-a994-e8a1542d4bf6)
+
+* In the **array 'B'**, the elements are in **sorted array.
+
+* **Array (C)** is giving **positions** to where we have to store the elements.
+* **counting sort** is **stable** and **outplace** also.
+* It is **outplace** because to store the **resultant array** we are using another **array-B** of size **n** and not in **array-A**, that's why.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f45e81f-99f1-4e00-aeeb-cb1af2314ca6)
+
+* Time Complexity of **counting sort** -> **O(n + k)**.
+* Where **k** is **range**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/08b313cc-d8c4-4557-b3b7-aeed83ce2aa4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a4550450-b2c7-4cd3-a427-101e361a4317)
+
+
+### Example
+
+> **Array-A** is given. First take **Array-C**. The size of 'c' is based on **range**, largest element is **8**. So, the range is form **0 to 8**. Intially in 'c' all are **zeroes**.
+
+* 'c' -> Called as the **count array&&.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/54f3ba07-66ac-4188-b8ed-9cfe25f9de7f)
+
+> We have to **count** once again as well. To count the **less than equal to**. We will update the **c** array.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8784d498-ac01-4448-8f15-03ba010968d6)
+
+* Last should be **no. of elements**.
+
+* First count, individual elements repeating how many times.
+* Second count, **less than equal to** how many people.
+
+> The **resultant array, 'B'**, start from the **reverse order** from **n to 1**.
+
+> The last element is **5**, we want to know at what place does the **5** go in **B** array. To check that, go to **C** array, and ask **5th** person as we have **5** element, we got **9**. At the **9th** position in the **B** array we have to store the **5** and **decrement**, 5th place 9 by 1.
+
+> The 9th element is **8**, we want to know at what place does the **5** go in **B** array. To check that, go to **C** array, and ask **8th** person as we have **8** element, we got **10**. At the **10th** position in the **B** array we have to store the **8** and **decrement**, 8th place 10 by 1.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c540cef-8aa5-464b-94ec-c267e9e4f27a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0aa876f-84a5-49a2-9a31-ed83f2c265ce)
+
+> If any element is coming, we are keeping the **last index**, so that **stable** concept will be **maintained**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f3e4db1-b6bf-4508-ae9c-fb523fb3e00c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6cf930c3-f7d7-4906-b729-7b34477ddf47)
+
+* Sorted array came.
+* Time Complexity of **counting sort** -> **O(n + k)**.
+* **Counting sort** means **range** required.
+
+> Whenever the **counting sort** algo is going, we have never **compared** between **two** elements. We **counted** how many elements came. No where **two** elements are **compared**.
+
+* That's why it is called as **counting sort** or **Non-comparision based sorting** algo.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b58401d7-04fd-412a-a14b-e9935cc27ef9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a19d9e6-f0b6-4b24-a054-6304cd5ae85c)
+
+> Time complexity of **counting sort** will be **O(n)** for **every case**, if **range** is **less than or equal to 'n'** then **every case** possible.
+
+* Time complexity of **O(n)** is possible only for **non-comparision based sorting** algos.
+* **Non-comparision based sorting** algos -> **Counting sort**, **Radix sort** and **bucket sort**.
+* **Bucket sort** not required as **out of syllabus**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8224e26d-dda4-4207-b479-8bde2f3a86fe)
+
+* **Counting sort**, **Radix sort** and **bucket sort** all of them  will have Time complexity of **O(n)** for **every case** with some **limitations** for **Counting sort** which is **range** should be **given**.
+
+* Some other **limitations** for **Radix sort**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3736deeb-9283-4e55-a91d-39c3d6a00218)
+
+## Radix Sort
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a6c071a-51dd-4da4-9087-6adcd53d9a0c)
+
+* LSD -> Least Significant Digit. The **right most** digit of a number.
+
+> Check the **LSD** for all of the elements. Sort all of the elements according to **LSD**.
+
+> We took **840** as it's LSD had **0**. We have **481 and 381** with their LSD as **1**. We will take them in the **order** they came in the **list**. As **481** came first, we will write **481** first then 381. In whichever order, the elements came we will write in that order only.
+
+* **We are doing following the order in which the elements came**, so that we can get the **stable** solution.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e6f63f0-5589-44c9-81e6-fb09e0ed0e78)
+
+* Based on **LSD**, we **sorted** the 'n' elements.
+* **LSD** range is from **0 to 9**, which is nothing but **counting sort** we have done for **n** elements.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f8e40840-9d88-41a8-80b9-ce7e56467c08)
+
+* Based on the **second LSD** which is **middle** digit, sort the elements.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80fd3bbc-34d7-4315-964b-5979433a0e68)
+
+* Based on the **MSD** which is **left most** digit, sort the elements.
+* MSD -> Most significant Digit.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e631c8c1-1513-47e9-9d52-f20b6996b9a7)
+
+* Every pass time  -> (n + k)
+* 'k' is the range.
+* No. of passes is '3'.
+* No. of digits is 'd'.
+
+. The **3** indicates the **max no.**. The max no. is **904** and it has **3** digits that's why we have **3** passes here. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6afe5eff-11cb-46b2-90ec-369c82bf4c5f)
+
+* Time Complexity of **Radix Sort** -> 3 * (n + k) -> **O(d * (n + k))**.
+
+* 'd' bits means 'd' passes only.
+* Every pass time -> (n + k).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b80f52e1-21f7-4ce0-a8ee-e7a654310f5a)
+
+* In **radix sort** also, we have **not compared** any elements **directly**.
+* We are comparing the **digits**, and not the **elemets** directly.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1caadf1d-558f-4c3a-998b-d6b93cf76117)
+
+* For **every pass** apply **counting sort**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/202f1e87-83d5-47b1-811e-73dc6e786a3d)
+
+* Yes, **radix sort** is also **stable**.
+* **Radix sort** is also **out-place**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71ce115d-a5fa-4c4b-a54f-e497c5b2391d)
+
+## Bucket Sort
+
+* Homework.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/42e1b6a7-6211-4fc8-824b-4f33d2dff745)
+
+* Read it once to be in the **safe side**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e947843-654f-4463-aed2-568a0cf425c0)
+
+* both
+
+
+## NEXT TOPICS (LEFT) (DONE)
 
 ## Counting Sort
 ## Radix Sort
 
-* Link Below
+* Link Below (DONE)
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c8685286-df13-4d90-97e6-d397a9965a7b)
 
 ## Videos Left
 
-*  **Miscellaneous-topics-part-v** -> https://unacademy.com/class/miscellaneous-topics-part-v/66QX7BXD
-*  **Rest Sorting Algos** -> https://unacademy.com/class/radix-sort-counting-sort/LFE9FCBE
+*  **Miscellaneous-topics-part-v** -> https://unacademy.com/class/miscellaneous-topics-part-v/66QX7BXD (DONE)
+*  **Rest Sorting Algos** -> https://unacademy.com/class/radix-sort-counting-sort/LFE9FCBE (DONE)
 
 
 ## Waiting for newer videos
