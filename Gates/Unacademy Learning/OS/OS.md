@@ -4425,6 +4425,466 @@ P9 = CS
 
 * No. of **distinct values** -> **7**.
 
+## Doubt clearing session classical synchronization problems (16) [31st May 2023]
+
+### Quiz-2 (Solutions)
+
+#### Q1
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c988928f-3b5c-4d60-80e0-17fcc03479eb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f5cbdb9-c36f-49bd-9640-a3ebf6590536)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86ea0681-f0ca-40ce-b65f-b12edb874b68)
+
+* Answer -> 2
+
+#### Q2
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/001519b0-5947-4c52-977f-3670a9d0a69b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/944e963f-9de8-4dc5-b9ea-4ddaa1666bf2)
+
+* Answer -> FCFS and SRTF
+
+> **SRTF** behaves like **SJF** when all processes come/arrive at the **same time** which is all process have their same **arrival time(AT)**.
+
+> In that case, **preemption** will never happen.
+
+#### Q3
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/601563db-616a-4d3d-8ae9-2cdc71ad6bed)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98553222-9a0e-4fab-b79a-5a33b8426aa1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24220f09-fb45-4d70-8238-243a96837b96)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/23f90e06-3a18-44df-8c0b-92b8cf8e9cb2)
+
+* Answer -> 89%
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24940284-f007-4525-9c9b-cb258d5d4a49)
+
+#### Q4
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f19b53db-f7f5-4ca2-8ca3-50f4750c203b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dbe29fb5-1378-4fec-9041-f81e98bddf6c)
+
+* Options A,C and D are correct
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a8ea76f-3d88-4f62-97c3-8d2dc59ae1c6)
+
+> This is **True** because in  **round robin**, when we run a process in round robin, all of the process are **waiting**. The process run for sometime then have to wait for sometime then they run again.
+
+> As a result the **waiting time** of the processes **increase**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/821b973c-1971-4dd8-8e88-d044a64fab19)
+
+* The **average waiting time(wt) and average turn aroung time(TAT)** comes **very very high** in **round robin** algo.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e169bce1-f5b9-467b-8381-52446e7cad64)
+
+* We can compare.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b4ab1c5-a511-479a-b174-031b5c8316bd)
+
+#### Q5
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e3f0ca5-147f-45b0-9d6d-dc76d41624c5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65e637c4-94d5-4168-b728-bbfb3c599c71)
+
+* **No process never preemptes itself**. Either the **timer or the OS** will preempt the process. For external reasons, preemption happens. From itself preemption doesn't happen. When a process goes for IO opration, it is not called as **premtion**, it is called as **process has goes for IO opration**.
+
+* Preemption is a **very specific** term used when a process in it's **running state** has been taken to the **ready state** for external reasons.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31aa4f58-01b9-4344-9624-b8bbc6162873)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27f6975a-e833-4b02-aaad-db16b0ab7a9f)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a215b54d-7289-449b-b4a7-1b138895308c)
+
+* Both **False**.
+* Option **D** is correct. **NONE**.
+
+### Secret
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9dffb654-6e20-4cf5-9dfc-6f9de744b3fc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b8bac30-f4db-4995-b36d-09e0e9b9625d)
+
+
+#### Q6
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7382eab3-962d-41ba-8ffb-b1cf9af47797)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/591d5f5e-c673-4aaf-b9df-41bed28c5fb2)
+
+* We are finding **incorrect** statements here.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b445358-fc30-427a-b6bb-a12bfd1388c2)
+
+> This is also **incorrect**, because if we take **lock=True** then all of the processes can be at **critical section** all at once.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7bfcb310-2736-49ee-80b9-493b3720ef2c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5c6b5a31-1632-4f85-bb7c-c968d6b983f0)
+
+* This is also **incorrect**, because if **lock=False**, then in the while we get **false**, so the process doesn't enter into the **critical section**. In that case, all of the processes doesn't enter into the **critical section**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8bdb7df-98f9-48a0-be90-ff5c4eebb1e7)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/10c8769b-b4ef-4054-ace1-7ef7afe14975)
+
+* This is also **incorrect**, because if **lock=True**, the processes will enter into the **critical section** but none of the processes can leave the **critical section** as **lock=True** and the while loop is running over and over. The processes get stuck inside the **while loop** which is the **critical section**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ee24102-6de2-4855-9b2f-7c9129f936a8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a233ac5-5627-4f6d-9728-ef64c8ca704b)
+
+* This is also **incorrect**, because if **lock=False** then the **first process** cannot enter into the **critical section** but the **first process** will set **lock=True**. Then the **next processes** coming after **first process** can enter into the **critical section**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3183f403-0954-49af-913f-891b1e44ad8f)
+
+* All **four** options are **incorrect** and they are asked to find **incorrect solutions**.
+* So all options should be **selected**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81b2249b-d639-4fa1-bc5a-941334f2b051)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2464a580-8816-457c-8910-27891dba38f5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/803c5c5a-90f6-4800-8a2d-93c5c870559c)
+
+
+### Doubts
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1a9f09b-ddc9-4d30-8651-1e72578d7a1c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/028e7b0b-cf53-45a5-af84-eb2bc9b82251)
+
+* This is **while(lock)**, no **semi-colon** at the **end**.
+
+```
+while(condition)
+{
+  // Some statements;
+}
+
+```
+* This is **while(lock);**, with **semi-colon** at the **end**.
+
+```
+while(condition)
+{
+  //Not statements, empty
+}
+
+```
+
+**OR**
+
+```
+while(condition);
+
+```
+
+* Both have **same** meaning.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9df1916c-8350-46f4-9c17-b363aee35f99)
+
+* That's the difference.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0718afd1-b95e-462a-ab4a-11d3e938b53c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9456a272-10d9-46ca-a252-31dc1f76ecce)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a73d9695-13d6-494e-acf6-510a5906b5c4)
+
+* We have to find the **ratio**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a5d72d6-54cf-449d-a5a1-a7589d9f6d89)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c400f41e-bd7f-4282-9354-b6c248814bde)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e54ca078-e9f6-4dff-8653-7fcb7a16ed99)
+
+* The execution is stopping, the code should stop. The solution stops then **bounded waiting** is there.
+
+### Questions
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b2c55e5e-e2f3-40d9-8cb3-25f4c7b0c7d3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf272c31-47bf-4c2f-923e-111f09d481f0)
+
+* No any process can go further ever than, they both get **stuck** at the **while loop** as **lock=0**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/73d8c72c-699d-46fa-9f2d-fdd07b522019)
+
+* Both process will run **while(!lock);** forever. They are **stuck**.
+* **Deadlock** -> It means that we can say with **complete surity** that both the processes will never move forward or go further in any sequence we try to run them. **YES**.
+
+> Two process have fallen into a **situation** where they cannot **move forward** from. Not at all possible to move forward from the **situation**. This **situation** is called as **Deadlock**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7cf7ccf6-dab7-4e98-89e3-03eb1790aa3a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9389053-ce28-40f6-b579-08deb55f02ff)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16d83dee-4587-4a1b-9454-bf741498e7d1)
+
+* Because both the process cannot enter the **critical section** at the **same time**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed8ddb78-7405-40aa-8b21-fe98cf1b8768)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2e96fdbb-2b96-4503-a216-6ab0b8ba1fc3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6b36cb3-c3f3-4d10-8e9d-1c50a314846e)
+
+> We already know that in **binary semaphores(s)**, **mutual exclusion** holds. Only **one** process can enter the **critical section** only. So, all the processes will run **one by one**. So, in **I-1** we got **12**.
+
+> As in **I-2**, it is a **counting semaphore(s)** and it value is **s=2**, so **2 processes** can enter the **critical section**.
+
+> As we want **min values of x**, we have to **nullify** the **effect** of the **increment/plus** processes. So, for **I-2** we got **7**.
+
+* **I-1** -> **12**
+* **I-2** -> **7**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee3080ee-3c59-41a2-8c87-6a880ace4147)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f88348ad-5142-437c-82c7-42825f415182)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d81a9abe-eeb6-4833-a205-1e3a363c0915)
+
+* We have to **nullify** the **impact**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2b87522-8664-45fc-a34a-00f787ded107)
+
+* Max = 4
+* Min = -6
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cbdd3878-d5d2-4a27-bc36-0894bfe12211)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ecfd6fd-cff6-4eee-87f2-1bc8a6f03970)
+
+
+* x= 2, 4, -3, -6, -2, -1, -4, 1.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee447290-ffcc-4326-981e-9037d14bcc6e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f58110d0-2266-41c4-9667-342d72ff0c05)
+
+* -1 = 2 - 3. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/de821e8d-cf13-4faa-958a-06fb1273747e)
+
+* Answer -> **8**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/74472409-fc4d-420d-b089-ac2af5c45e8f)
+
+* Semaphore(X)=0
+
+> If **P2** process run/comes **first** the p2 process will **wait** forever, as **x=0** so, **P(X)** will not happen.
+
+* P2 will **starve** guranteed.
+
+> If P1 process hasen't started executing and hasen't run **V(X)**, then P2 will **starve** forever.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/721f7380-13f7-49fa-9e53-6d648dc60d5f)
+
+* (II) -> It is possible for process P2 to starve.
+
+
+> P1 process ran and it runs **V(X)** which sets **X=1** and after that p1 got preemted.  Now P2 runs and it runs **P(X)** which sets **X=0**. P2 gets preempted . P1 continues and after **computation**, runs **P(X)** but as **X=0**, P1 is unable to run **P(X)**. So, **P1** is stuck at **P(X)**.
+
+* So it is possible that **P1** process can go for **Starvation**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc9ad670-f042-464f-b716-9f3bad382aae)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ade9a973-107f-4883-a8a2-cf1c8d73758b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/73f1fdce-15d2-4530-bada-f8f91957719c)
+
+* Both options, **I and II** are correct.
+* Repeat forever -> It means **while(True)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b18f583-c7bf-4bdf-8c4e-d81b1ce511bb)
+
+## Busy Waiting
+
+* Process runs on CPU and keeps it busy, but still can not proceed further.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd473d19-0f1d-4b96-832d-7ce4eb7305d1)
+
+> If condition is **True** then the process is **stuck** at the **while loop**, but the process will keep on running the **while(condition)** code. The process cannot move further. The process will keep running on the CPU. **YES**. We have not stopped the process from running on the CPU. The process will keep on running on the CPU. 
+
+> When the  process keeps on running on the CPU and cannot move forward, it is called as **busy waiting**. Also called as **spin lock**.
+
+> We have **locked** the **critical section**, when one process has entered the **critical section**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/415518ad-37e7-4651-af32-e681353a1b30)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/00b28892-c3c3-4fd5-b0a1-a654829589fa)
+
+## Solutions without Busy waiting
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/532856e7-2f57-42f6-a26f-41a8e512713f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/573aa235-4983-42da-a172-93709a4945c4)
+
+> P1 ran first and ran the **wait(s)**, and it set **s=0** and p1 entered into the **critical section** as **s=1** initially and it was **preempted**. Now p2 run and set **s=-1** and as **s <0** is **True**, so p2 process is **blocked** and added into a **queue**. Now P3 comes and same thing happends with P3 as well, p3 get **blocked** and added into a **queue**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f732e22-45bc-4fb1-838d-e87346d3dd38)
+
+> Now **P1** run again. It rain **signal(s)** and set **S=-1**. As **s** is **s <=0**, which is **True**, which means there are **processes** that are still in **blocked** state in the queue. When value of **S** is **less than equal to 0** then we will remove **one process** from the **queue**, which had arrived **earlier**.
+
+> As p2 came first so it was removed from the queue. So p2 is moved from blocked state to ready state. As the **wait()** of p2 has ended, now p2 can go forward and enter into the **critical section**. When p2 leaves the **critical section**, it will run **signal(s)** and set **s=0**, as **s <=0**, so we will remove **one process** from the **queue**, which had arrived **earlier**.
+
+> P3 got removed from the queue. Now P3 runs and moves forward and enters into the **critical section**. After p3 has left the critical section, p3 ran **signal(s)** and set **s=1**. As, **s <= 0** is **false** now which means **no process is in the blocked state and stored in the queue**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/17db34fa-caa3-43d0-a597-44dbbf8d9e1b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0d2a8c4-f303-4b4b-b033-043fcf4d85df)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7469f3a5-2a0d-4bb9-bde7-27030807978e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b2b8a180-503c-4bed-a656-6cc5454a825c)
+
+* When the process tries to run **wait(s)** and **s <= 0**, then we will **block** the process. The processes's **wait** will end when one process leaves the **critical section** and **wakes** up the process. Now the blocked process can run on the **critical section**.
+
+* **S<=0** means multiple processes are in the **waiting section**. When process leave the **critical section** one at a time, we will **increment/increase** the value of **s**.
+
+> When **s=1**, then all of the process are out of the **critical section** and none of the processes are in the **blocked state**.
+
+* It is mentioned in the **implementation** that the **semaphore(s)** can be **negative**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b06615e6-2ec4-42f3-9081-6dd48a8ddd53)
+
+* It is for this particular example only. Otherwise **semaphore(s)** cannot be **negative**.
+
+## Calssical Problems of Synchronization
+
+1) Producer-consumer problem (Bounded-buffer)
+2) Reader-writer problem
+3) Dining-philosopher problem
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8787b0f1-7c51-4d73-92d5-af89a2cee97f)
+
+## Bounded Buffer Problem
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97ef324e-2795-4b65-a219-13fdd96721e8)
+
+> When the **buffer** is shared, then we have to provide **mutual exclusion**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/abe767d6-8477-4140-b804-12d96038d87c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e017988-002c-4e6c-b5ec-7177539535a2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/227cd3c1-fc25-42fe-93ad-b940d36f63e9)
+
+1) No any space empty in buffer
+2) No any time in buffer
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9268dde0-2a15-4c7a-8a30-300d7233dc40)
+
+* If **buffer** is **empty** then **Full=0** and **empty=n**.
+* If **buffer** is **full** then **Full=n** and **empty=1**.
+
+> For **mutual exclusion**, **binary semaphore(mutex)** should be initialized with **1** which is **Mutex=1**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2adc5f9-a63f-4507-894f-c697c9191dcc)
+
+### Producer()
+
+> If **Empty=0**, then **wait(Empty)** cannot go further. **Empty=0** then **no slot** is **empty**.
+
+> If **Empty !=0**, then some slots are open, all are not full.
+
+> **Wait(Mutex)** means we have taken **lock** on the **buffer**. If some producer or consumer had already put **lock** on the **buffer** then **wait(Mutex)** will not run.
+
+> **Wait(Mutex)** ran successfully then we **add** an item to the **buffer**.
+
+> **signal(Mutex)** means the **lock** on the **buffer** is released.
+
+> If an item is already added to the buffer then the occupied space/slot's count will increase. We will run **signal(full)** so that in the **producer's end** the count of occupied space/slot will increase.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b24da072-9be1-4a5f-bd0b-6bbe60dc9871)
+
+* When does the **consumer process** should block?
+
+> When buffer is empty. None or zero(0) occupied slots, which means **Full=0**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f4d64cd-8061-40ca-9949-ee5b59bdf26d)
+
+
+### Consumer()
+
+> **wait(full)** means when **Full=0** then the **consumer** will stop.
+
+> If > **wait(full)** runs then it means that one item was there in the buffer.
+
+> **wait(Mutex)** to take **lock** on the buffer and to access the buffer.
+
+> After accessing buffer, we will **remove** one item from the buffer.
+
+> **signal(Mutex)** means to remove the **lock** on the buffer.
+
+> As we have emptied one slot above and to do that we have to do **signal(Empty)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af24f786-6579-42b9-8551-3d2f086b7220)
+
+### Producer and Consumer
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d39fdf2-3cfe-4490-acf9-dde980b9b820)
+
+* **Producer**:-
+
+> We have first checked if **producer** should move forward or not.
+
+
+
+
+* **Consumer**:-
+
+> We have first checked if **consumer** should move forward or not. We have **swapped** the first two statemenets, which means **wait(Mutex)** runs first and then **wait(Full)** runs. Then what will happen?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d08cf80-3991-4579-a9fa-937b8a890cbc)
+
+> Let, **Mutex=1 and buffer is completely empty**, then **Empty=n and Full=0**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/404f4802-3518-45db-ad71-0f3ad0034758)
+
+> One consumer came and it ran **wait(Mutex)** and **Mutex=0**. It ran **wait(Full)** but **Full=0**, so **wait(Full)** will **not run successfully**. As **buffer is empty**, so the **consumer** cannot consume anything. So, the **consumer** stopped.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3127974-e340-44c0-85dc-875453a60dfd)
+
+> Now, some **producer** comes, and it ran **wait(Empty)** and **Empty=n-1**. It ran **wait(Mutex)** but producer didn't get it because **wait(Mutex)** is with the **consumer**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/04f369b6-8556-44af-9cf2-bc17a40c7133)
+
+> So producer's **wait(Mutex)** will not run, the consumer's **wait(Full)** will not run. Producer's **wait(Mutex)** cannot run because **wait(Mutex)** is with the **consumer** only. Consumer's **wait(Full)** cannot run because **Full=0** but **Full** can be **1 or incremented** when **signal(Full)** is ran by the producer but the **producer** is stuck at the **wait(Mutex)** statement.
+
+> **Mutex** can be **1** when consumer run the **signal(Mutex)** statement but the **consumer** is stuck at the **wait(Full)** statement.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af6a8e44-844b-4c19-90c1-1f3fd26728ae)
+
+* So, **deadlock** happened.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d8e03c1-196d-42d3-9cd2-30dc357cdc08)
+
+* If first 2 statements(**wait()** statements) of consumer process are swapped, then there can be **deadlock** when the **buffer is empty**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/07ae29c8-58a1-43cd-9572-04bfccb7428e)
+
+* Now we have **Swapped** the first two statements of **producer**. First **wait(Mutex)** runs and then **wait(Empty)** runs.
+
+* In that case, when the **buffer is full**, then **deadlock** happens.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/009b88c7-0f61-4345-865c-2b4718d94029)
+
+> First the **wait(Mutex)** of producer runs and it has taken **lock** on the buffer and **Mutex=0**. Now, the **wait(Empty)** runs but **wait(Empty)** cannot run because **Empty=0**. So, the producer is stuck at **wait(Empty)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a23fc520-40b5-46e7-88d9-9ea7edaf3e23)
+
+> First the **wait(Full)** of consumer runs and **Full=n-1**. Now it has run **wait(Mutex)** but it cannot run because **Mutex=0** and lock is taken by the **producer**. So, **consumer** is stuck at  **wait(Mutex)**.
+
+* Consumer cannot go forward as **wait(Mutex)** lock is taken by the **producer**.
+* Producer cannot go forward as **Full= n** that's why. Producer is stuck at the **wait(Empty)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d49acf55-341f-4cf8-9cda-bcc61a1f2499)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5724867-a287-4f40-84e5-2e1b148c4e08)
+
+* If the first two statements of producer process are swapped, then there can be **deadlock** when **buffer is full**.
+
+
+* In normal scenario, when will be producer process stop/get blocked?
+
+> When buffer is full.
+
+* In normal scenario, when will be consumer process stop/get blocked?
+
+> When buffer is empty.
+
+* Types of questions coming from these:-
+
+1) Fill/find the missing statements. [3-4 questions have come]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bd7e4a35-9396-42a1-a53f-98f8a040c5b6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2e88b6c-83d7-4660-a485-c82d092e13a7)
+
+* Yes
+
+
+
+
+
+
+
+
 
 
 
