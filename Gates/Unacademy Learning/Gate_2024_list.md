@@ -8,6 +8,20 @@
 5) Algorithms-> Going on [Almost Completed] [Waiting for next of the syllabus videos] [Completed]
 6) OS -> Starting on 8th May 2023
 
+## Secret
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d6603b7-df1c-4379-ac5e-f02ab5dcd287)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/560daa89-64ab-4817-a270-8a36880f5d47)
+
+* Competition is **less** because of **covid**, In **GATE** and **PLACEMENTS**. Students are **lazy**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e10f442-f501-44ff-874f-aa5881494834)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8fed57ab-047b-416e-a984-4f7846404bcd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5dcb5be2-8655-4c17-843c-d467412c70ff)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81518bac-754e-4cf2-a935-a55518b6b1cd)
+
+
+
 ## RoadMap
 
 ![Gate_2024_roadmap](https://user-images.githubusercontent.com/54589605/231422967-f8b7118d-56d5-4064-8cf3-db569a468e4c.png)
