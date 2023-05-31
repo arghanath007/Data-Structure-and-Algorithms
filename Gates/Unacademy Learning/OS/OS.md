@@ -4878,20 +4878,132 @@ while(condition);
 
 * Yes
 
+## Deadlock introduction prevention (17) [31st May 2023]
 
+## Reader-Writer Problem
 
+* If a particular user who just wants to **read** is called as a **reader**.
+* If a particular user who wants to **read and write** is called as a **writer**.
 
+* If a **writer** comes, then we will allow only **one writer** at a time. No other **writer** will be allowed.
+* If **one reader** comes, then after that we can allow as many **readers** as we want but we will not allow any **writers or writing**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/28adb378-d096-4c74-a51d-01cc12004355)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb71eee0-fc15-449c-b38c-61a293de90c0)
 
+## Reader-Write Problem Solution
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a2d56c8-7552-4664-af6b-90e85e32690e)
 
+* Mutex =1 -> No Lock
+* Mutex=0 -> Lock taken
+* wrt=1 -> No lock in writing, writer can go for writing inside allowed
+* wrt=0 -> Lock taken, no writing allowed
+* readcount=0 -> No readers there.
 
+### Write() Process
 
+> If any **writer** comes then they will try and run **wait(wrt)**.
 
+> If **wait(wrt)** is successful means that the **first user** was a **writer** and no **writer or reader** came before it. That's why **wrt=1** still. As **wait(wrt)** is successful, so **wrt=0** now. Now it can go for writing.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f2f8c3c0-10d9-4d64-ad1b-213dc9128b06)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a01d2aba-f5e0-42cc-89e5-26195c7586dc)
 
+> Then writer will do it's **writing process** and after that writer has come out, it will **signal(wrt)**.
 
+* **wrt=1** means that a **writer** can go inside to perform a **writing** operation.
+* When **wrt=0** then **wait()** cannot run.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e2c5fb82-3d78-40cf-9c50-ffbd8efa916f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ec5acc1-5774-467c-991a-72554fde1607)
+
+### Reader() Process
+
+* Will a **reader** process stop another **reader** process?
+
+> **NO**.
+
+* Will a **reader** process stop **writer** process?
+
+> **YES**.
+
+> If a **reader** comes and the reader wants too **stop the writer**, then the **reader()** process has to run **wait(wrt)**.
+
+> Let's say a **reader** comes and the reader has run the **wait(wrt)**, initially there was **no writing** that's why **wrt=1**.
+
+* When there was **no reader or writer**, the initial value of **wrt=1**.
+
+> A reader came and ran **wait(wrt)**, so **wrt=0**. Now a **writer** process cannot run the **wait(wrt)** statement successfully.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d32613d9-8431-4108-ac7c-f723d5f8ed89)
+
+* All of the writers that come will be stuck in the **wait(wrt)** statement.
+
+> All of the **readers** that are coming will run the **wait(wrt)** statement, **No**. Only the **first reader** that comes has to run **wait(wrt)**. After that all of the **writers** that come will be stuck at the **wait(wrt)**.
+
+> If another reader comes after the **first reader** then all of the **readers** coming after the **first reader** are given **direct entry**. It is because **one reader** has enterted and has **blocked** all of the **writers**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e2f58c05-8482-4f44-883d-6a5ca0bfa1aa)
+
+* What we will doin the **reader()** process:-
+
+> If **no readers** are there then the **readcount=0**. If **new reader** coms then **readcount=1**.
+
+> We are doing a **comparision(if)** statement that, if the **reader** is the **first reader** then within the **if** statement we are running **wait(wrt)**.
+
+* We are running **wait(wrt)** when the **first reader** comes because we have to block all of the **writers**.
+
+> If the reader was not the **first reader** then the **readcount** would have been **2** and the reader process would have gotten **direct entry**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f252da3-1b7e-4d68-9d65-4f411d9934a4)
+
+> If a writer was already there and was writing then **wrt=0** because of the **wait(wrt)** run by the writer process. If a **reader** process would have come then reader would get **stuck** in the **wait(wrt)** within the **if** statement.
+
+> **readcount** is not a **semaphore** then multiple readers can access it. **YES**. The access of **readcount** we will make it **mutually exclusive**, so that the value of **readcount** is protected.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/045e2b61-ee16-4369-9fbd-0c72dc4c2754)
+
+* This is the **entry** logic.
+
+> If some reader has crossed the **entry** logic then the reader will start reading.
+
+* If a reader wants to **leave** then it will **decrease/decrement** readcount variable.
+
+> When the very last reader goes, then it will run **signal(wrt)**, which tells the **writers** that all **readers** have left.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1ed2043-c8db-4d92-b586-653b94ae39d7)
+
+> We are protecting **readcount** variable as it is a **normal variable** by using **wait(mutex) and signal(mutex)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5667669-1349-43f4-a9fd-777ecdca0c65)
+
+* We cannot directly access **semaphores**. We cann access only using **wait() and signal()**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b8752702-6da1-416d-85d5-1bb7d9607168)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0978c408-eabc-427f-adab-92ad076b4b85)
+
+* Scenario 1.
+
+> First the writer came and ran **wait(wtr)** and set **wrt=0**. It started writing. While writing it got **preempted**.
+
+> One reader process came and it ran **wait(mutex)**, and set **mutex=0**. Reader **incremented readcount=1**. Reader ran the **if** condition and it returned **True** which means reader has to ran **wait(wrt)**, but **wrt=0**. So, **reader** process is stuck within at **wait(wrt)**. it cannot go forward.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b910766-95c5-4991-a838-e93e91ca6726)
+
+> All of the subsequent **reader** process get stuck at the **wait(mutex)** because **mutex=0**. The reader processes cannot move forward.
+
+* The reader processes or process cannot move forward because a **writing** process is going on.
+
+> After sometime another **writer** came, writer tried to run **wait(wrt)** and the writer process got stuck at **wait(wrt)** because **wrt=0**. No **writer** can move forward as well.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97ce3853-4816-4ec6-9abe-61c25e24d398)
+
+### Scenario-2
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c39681fd-984e-4c50-b78a-aafbf1efd056)
+
+* Start from 33mins.
 
 
 
