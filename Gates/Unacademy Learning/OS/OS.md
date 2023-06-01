@@ -5449,6 +5449,351 @@ while(condition);
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44b517dd-a635-4481-9088-7fddfadb79db)
 
+## Deadlock avoidance (18) [1st June 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/931db2f5-ebd8-4880-b9fa-264be886e799)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b015765-3eee-4a5e-adce-8f83cff1ea6b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8301749b-2852-448e-b13f-1fb09589b885)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c9a401e-d09e-402c-8a50-68fceae85508)
+
+> If any **IO device** is there and that IO device has to use some process then the IO device cannot use the process without the permission of the OS.
+
+> Between process and OS there are a many operations that take place on a resource.
+
+## Operations on Resouces
+
+1) Request
+2) Use -> Allocated.
+3) Release
+
+> Between request and allocation, the **OS** is standing between them.
+
+> If any process request for a resouces to OS. The OS can allocate the resouces to process if it is available.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/56d82d97-bd0a-4684-9bac-acd7b92408f1)
+
+* The **release** of the resource will be said by the OS?
+
+> **NO**, the **release** is done by the **process** itself when the process is done with use of resource.
+
+* The resource cannot be forcefully taken away not by the **OS** also.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f441b59e-7f7a-4b60-98a9-335ddaca8817)
+
+> The **resource** we are talking about isn't **hardware** resource only, it is **software** resource also.
+
+* The **resource** can be **hardware as well as software** also.
+* Software -> Files.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5387b95a-d5aa-46f3-9976-88220ec0c75e)
+
+## Deadlock
+
+* If two or more processes are waiting for such an event which is never going to occur. Then it is called as **deadlock** situation.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6aa245bd-6e28-4cf0-aff2-365752362774)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df5a3c1f-1a3d-46dc-b6c1-2cf890276d28)
+
+* Yes, after task is completed.
+* Resource cannot be **preempted** by the OS until the task of the resource is completed.
+* Resource can be **allocated** by the OS.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a049ae9-8a0f-42dc-96f3-18ca0ece05ea)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e6e76e97-71b9-4925-81b0-9e76d7cdad21)
+
+* **Holds** means the resource is **allocated** already.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5fd4e630-f836-44a0-bb83-f420df81befa)
+
+* It is a **deadlock** for **P1, P2 and P3**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/49dc2d3b-1a63-4b1c-bed7-37456935d1db)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1d31cbf-2a60-4ba5-8407-69b14727bbff)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5149116e-4bb3-446f-a014-da5c454577aa)
+
+* Deadlock happened between the **you and sibling**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3624c792-3780-455d-aece-9fbd12834f6a)
+
+* Deadlock happened between **employeer and employee**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3363acc1-9ee6-4408-ba47-9f020295c215)
+
+* Deadlock happened between **engineering student and GATE score**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8cdc6a38-04ae-4beb-8e3d-1355abbf5f82)
+
+* Deadlock between **job and experience**.
+
+* What is the **difference** between **starvation** and **deadlock**?
+
+### Starvation
+
+1) **Indefinite waiting**. There is a chance that the wait will be over.
+
+
+### Deadlock
+
+1) **Permanent wait**. No chance that the wait will be over.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af17b7d4-1256-455e-9c86-223e2fadc5cd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a596f14a-c27a-4a18-a52b-f33c942459cb)
+
+## Necessary Conditions for deadlock
+
+* Deadlock can occur only when all following conditions are satisfied:-
+
+1) Mutual Exclusion -> We are talking about the **resouce use** for mutual exclusion. 
+
+> If a resource **at a time** is being used by a process, then another process at the **same time** cannot use the same resource. That is **Mutual Exclusion**.
+
+> If **two** processes at the **same time** can use the **same resource**, then **deadlock** will not happen.
+
+* A resource can be used by 1 process at a time.
+
+2) Hold and wait -> All of the **deadlocked** processes must/should **hold** atleast **one resource** and should/must **wait** for atleast **another resource**. If so then there is a possibility of **deadlock** otherwise not.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81de4f33-a455-4376-b1fe-65da5e11e4fa)
+
+> P3 will get **executed** as it has got **printer** and after execution p3 will release it's resource **printer**. Now P2 has got access to printer, p2 will execute and release it's resouces. After P1 will execute. Then there will be **no deadlock**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ca64f05c-2286-49ce-a24b-3af45e25b45f)
+
+> P2 will execute as no process had **printer**, then p1 will execute and at the end p3 will execute. Then also there is **no deadlock**.
+
+3) No-preemption -> Allocated resouces must not be **preempted** from the processes.
+
+> If a resource is there already at one of the process, then the OS cannot preempt those resources. Then **deadlock** may happen.
+
+> If the **OS** is given the power to do **preemption**, then **deadlock** will not happen.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc933541-848a-4c6b-8599-f51b14a07b52)
+
+* No one can **preempt** the resouces, not even the **OS**.
+
+4) Circular Wait -> All deadlocked processes must wait for each-other in circular manner.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2649f8a2-e4e6-4bbc-8ac7-1256e76d9653)
+
+> P1 is waiting for **HDD** and P2 has access to **HDD**, so we can say that P1 is waiting for P2. P2 is waiting for a resource which is with P3. So, P2 is waiting for P3. If P3 is waiting for P1 then there is **deadlock** otherwise there is **no deadlock**.
+
+> P3 wants **camera** but none of the other process have access to **camera**, so P3 is not waiting for any of the processes(P1 and P2). P3 will get **camera** and p3 will complete. Then P2 will complete and P1 will complete. So there is **no deadlock**.
+
+* All of the above **4** conditions should be satisfied for a **Deadlock** condition to occur.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/87a81f78-5670-41f6-9ab2-56da5f899767)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e6b3228-3f9f-4a26-a9cb-762089a28b0b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/886c7d8a-ccd1-4047-b970-11b78f0388fe)
+
+* Yes.
+
+## Resource Allocation Graph
+
+* Which **process** has **access** to which **resource**.
+* Which **process** is **waiting** for which **resource**.
+
+* The **nodes** can be of **two** type in the graph:-
+
+1) Process node -> It is represented by a **circle**.
+2) Resource Node ->  It is represented by a **rectange**.
+
+* The **edges** can be of **two** type in the graph:-
+
+1) Allocation -> Which resource or resource instance is allocated to which process. It is a **directed edge** from **resource to process**.
+2) Request -> Which process has requested for which resource. It is a **directed edge** from **process to resource**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aeceda29-cee5-40c2-a4e4-f293e49b4195)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7924037-fd50-4056-9ff5-68d6966c2af9)
+
+* One of the **resources** has **4** instances.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb934628-c051-4a36-8635-40b236a56a9a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac001624-f6fe-4abd-9194-71878218aba4)
+
+* Hold -> Allocation
+* Wait -> Request
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d6bbc70-2622-4231-ad27-28c93c7448f6)
+
+* Draw a **resource allocation graph** of the above table.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/753798dd-c378-4679-a630-4575621e8ece)
+
+* **Resource allocation graph**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/001859db-7eab-41b1-8fd1-d04305c028db)
+
+* Create a **table** for the **above graph**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d2281cb-dbad-4279-9003-1603dbd967e9)
+
+* Table.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/309ec7a6-a6dd-4c99-8def-850274aa55cc)
+
+* If needed, YES.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/915b85d8-54f5-4c6f-ac23-724d4748f1b7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8241bf60-c740-4f51-983f-783ca3a27d71)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/173d78fe-77dd-4b32-a58c-b9b538c985d8)
+
+* This is how.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/108d703c-c5d5-4f18-80da-1a81dc889503)
+
+* Total no. of resources we cannot get. It will be given separately.
+* From the **table** we cannot tell how many resources are **free**.
+
+## Recovery from Deadlock
+
+1) Make sure that deadlock never occurs
+
+* Prevent the system from deadlock or avoid deadlock. There are two types:-
+
+1) Deadlock prevention.
+2) Deadlock avoidance.
+
+> In both of the **cases** OS will make sure that **deadlock** never happens.
+
+2) Allow deadlock, detect and recover
+3) Pretend that there is no any deadlock.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f8d9ecf7-8f5f-49e5-98c8-9abdb583c3a8)
+
+## Deadlock prevention
+
+* Does not allow system to satisfy one of the four necessary conditions for deadlock.
+
+> If one of the conditions are not satisfied for deadlock, then there is **no deadlock**. All of the 4 conditions should be satisfied then **deadlock** happens. There is **AND(&&)** between the all four deadlock conditions.
+
+> If one of them is **false** then there is **no deadlock**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3503349-7d46-4957-a3cf-43cfdde7039f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/153301fe-f4b2-400d-ba16-77b2ba3844c7)
+
+* To fail **mutual exclusion**:-
+
+1) Make all processes independent -> It is **practically not possible**. The advantage is that there is **no sharing of resources**, so **mutual exclusion** is not needed. No two processes need communication between them.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/02682522-4da8-4bc0-b007-56a410ed0d9e)
+
+* Independent resouces. No shared resources.
+
+2) Increase no. of resources -> so that each process can have their own resource -> It is **practically not possible**.
+
+> To **dis-satisfy or not satisfy** mutual exclusion, it is becoming **not or non-practical**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f32d5f8-dfc4-404b-b45d-c91d99eb6c7a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af6327fa-a683-45c8-8d56-a9702d03db42)
+
+* To **fail** the **Hold and wait** condition:-
+
+> Either Hold or wait, but not **together**.
+
+> A process should either wait or hold but should not do both together.
+
+> To stop **Hold and wait** condition, the process should either wait or hold. The process should **hold** when the process gets all of the **resources** and then holds and uses the resources.
+
+> If the process has **no resources** then the process will **wait** for everyone.
+
+> A process needs 3 resources to work, only two resouces are available and one is not. Then the process will hold/aquire those **two** resources, **NO**. The process will **wait** when all 3 of the resources are available, until then the process will not **acquire** anything. The process will be in **waiting** only and not on hold.
+
+* A process must acquire all resources together if all are available, or else must wait for all.
+* Decreased resource utilization.
+* Possibility of starvation.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/711474fa-8784-4fba-acf9-ddc267fa1077)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a24ccad-64f3-4149-8494-6ab1a715a63b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/64fbcb08-9dcb-4aef-98d4-62f0938e7091)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/719d955a-64f6-4192-a815-f7d4881c986a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/62735a50-d539-4705-aae9-5c7f43b5532f)
+
+* YES.
+
+* **Hold and wait** situation will never happen.
+
+* To **fail**, the **No preemption** condition:-
+
+> OS tries to preempt resources from processes.
+
+> Process may be in unstable state after resource preempted.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d40361b8-2228-4ab5-bef5-387bca0debb7)
+
+* To **fail**, the **Circular wait** condition:-
+
+> Give **numbers** to **each resource**, R1, R2, R3,.... Rn.
+
+> A process can request a resource Ri, while holding a resource Rj, only when i > j.
+
+> If a process is **holding** R1 then the process can request higher resources.
+
+> A process can request for higher no. resources if the process is holding a smaller no. resource.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7dcefbac-9ad3-4a8a-87fd-40aed811a180)
+
+> If a process is holding **R3** resource then it cannot access **R1 and R2** resource.
+
+
+* So that **circular weight** doesnt come.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57f1e316-57f3-4def-82bb-6f0a2e8edbb2)
+
+> We can do **decrease order** communications.
+
+## Deadlock avoidance
+
+> The OS will allocate the resources in such a way that the OS will be in **safe test*. The system always stays in the **Safe state** which means that there is **no deadlock**.
+
+> **Safe state** is a condition, where the **deadlock possibility** is **zero(0)**.
+
+> If the system is in **un-safe** state, then there is a possibility that **deadlock** will happen.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2574e67-a9ee-4772-abed-261e9f89cd73)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df4b01d6-738b-439d-b011-934ff32ecc37)
+
+> Deadlock avoidance will not allow the OS to go to the **unsafe** states.
+
+> In Deadlock avoidance, the OS will do when a process requests for resources, the OS will check if the requested resources are given to the process then the system will be in **safe state or not**. 
+
+> If the system will be in **safe state** then the requested resources are allowed. othewise the request is not allowed because the system may go to **deadlock** condition, there is a possibility for that.
+
+* Before giving the resources to the process, the OS will check if the system will be in **safe state or not**. If in **safe state** then give, otherwise don't give. 
+
+* In **deadlock avoidance**, the request for any resource will be granted if the resulting state of the system doesn't cause deadlock in the system.
+
+> In **deadlock avoidance**, each process must declare to OS that for which resource how many instances at **max** the process will require. This is **not practical**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dbcd8497-e51a-4eff-8d26-670c5c059df2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d91b04da-0138-4bc8-affb-40031085b617)
+
+* They are all theoretical.
+* They are not practical.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e947536-eb87-433a-a7fe-119eb857c53d)
+
+## Banker's Algorithm
+
+* The banker's algorithm is a resource allocation and deadlock avoidance algorithm that tests for safety.
+
+1) Safety Algorithm -> Checks if system is in safe state or not.
+2) Resource Request algo -> When a request comes from process, then OS checks if the request can be granted or not. 
+
+> Granted means system will be in **safe state** after allocation.
+
+> **Resource Request algo** runs in the cases when a process requests the OS for the **various resources** it wants. The OS will check, if after giving the resources the system will be in **safe state or not**. If in **safe state** then OS will give the resources to the process, otherwise resources will not be given.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33ca2a5c-aba0-43cc-abef-1308cc952e6c)
+
+* Short-circuit condition.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33e873b6-e8fc-4160-a526-af1cbd93fe49)
+
+* **5** times printed.
 
 
 
@@ -5460,6 +5805,13 @@ while(condition);
 
 
 
+
+
+
+
+
+
+ 
  
 
 
