@@ -4983,7 +4983,7 @@ while(condition);
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b8752702-6da1-416d-85d5-1bb7d9607168)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0978c408-eabc-427f-adab-92ad076b4b85)
 
-* Scenario 1.
+### Scenario 1.
 
 > First the writer came and ran **wait(wtr)** and set **wrt=0**. It started writing. While writing it got **preempted**.
 
@@ -4998,15 +4998,454 @@ while(condition);
 > After sometime another **writer** came, writer tried to run **wait(wrt)** and the writer process got stuck at **wait(wrt)** because **wrt=0**. No **writer** can move forward as well.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97ce3853-4816-4ec6-9abe-61c25e24d398)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/64d21e5c-f0cd-4644-a7ab-9562d65c30c4)
 
 ### Scenario-2
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c39681fd-984e-4c50-b78a-aafbf1efd056)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aaef0351-ca96-4034-b250-967b56b045ee)
 
-* Start from 33mins.
+> First a **reader** came and it ran **wait(mutex)** and set **mutex=0**, then **readcount** was **incremented** to **readcount=1**. Reader ran the **if** condition and it got **True**, so reader can the **wait(wrt)** which sets **wrt=0**. It ran **signal(mutex)** and set **mutex=1**. Now the reader is **reading**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3bfd19cc-5122-484b-b365-26ba849ee95b)
 
+> Now a **writer** comes and it will get stuck at the **wait(wrt)** as **wrt=0**. Writer process is **blocked**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8453f16f-d8d4-49c1-86a1-d0624509045b)
+
+> Another reader came, it ran **wait(mutex)** and set **mutex=0**, then **readcount** was **incremented** to **readcount=2**. **readcount=2** means it is the **second reader** that has come and the **first reader** has already gone. Reader ran the **if** condition and it got **false**, so reader went out of the **if** condition. Then it ran **signal(mutex)** and set **mutex=1**. Now the second reader is **reading**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0c57626-6e69-4d07-8007-08a8e81dd98f)
+
+> Another reader came, it ran **wait(mutex)** and set **mutex=0**, then **readcount** was **incremented** to **readcount=3**. **readcount=3** means it is the **third reader** that has come and the **first reader** has already gone. Reader ran the **if** condition and it got **false**, so reader went out of the **if** condition. Then it ran **signal(mutex)** and set **mutex=1**. Now the third reader is **reading**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ca111466-35ba-4d2a-b268-09279758ec45)
+
+> In any sequence the **readers** come out or any readers comes out of all the readers, we don't have any problem and it doesn't matter.
+
+> One of the readers is leaving and has ran **wait(mutex)** and set **mutex=0**, **decremented** the **readcount** to **readcount=2**. It ran the **if** condition and got **false** so it comes out and runs **signal(mutex)** and set **mutex=1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97080048-1489-4525-ac34-cd72c9bf9a9a)
+
+> One of the readers is leaving and has ran **wait(mutex)** and set **mutex=0**, **decremented** the **readcount** to **readcount=1**. It ran the **if** condition and got **false** so it comes out and runs **signal(mutex)** and set **mutex=1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/59dfb47c-c94f-4477-af8b-9619f1eb9a32)
+
+> Now the last readers is leaving and has ran **wait(mutex)** and set **mutex=0**, **decremented** the **readcount** to **readcount=0**. It ran the **if** condition and got **True** and runs **signal(wrt)** and sets **wrt=1** for all of the upcoming **readers or writers**, so that when they come they can **move forward**. Now it runs **signal(mutex)** and set **mutex=1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e66872a-6df4-480c-b6ee-b8eb2bbd0f39)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ee6db73-e70e-4fad-8ac8-a25dea54138c)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3dbd772-e8b4-4219-99be-3e06fa460f21)
+
+* Yes, because we are controlling the access. We are controlling the access very much.
+
+> If a **reader** comes then the **writer** are **stuck/ blocked**.
+
+> If a **writer** comes then the **reader as well as the writer** are **stuck/ blocked**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4fdd5177-eda3-46a0-996a-483bd2faa546)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8fc8a54b-7def-4c65-be8d-c316d92c9e6c)
+
+* What will be the **difference** if we remove the **signal() and wait()** functions from the middle?
+
+> If we remove the **signal() and wait()** from the middle, then we are putting the **reading** in **mutual exclusion** as well. Which means that **only one reader** can enter at a time.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f824a8dc-8b98-47ba-9222-a7bb74846bf6)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d83a9f4-98dd-47f8-bdf2-d786414691c6)
+
+* If these 2 statements are removed then at a time only one reader will be allowed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2fdfe111-63f2-4498-bd5c-f3cd08d7c215)
+
+* Same questions have come in **reader-writer** problem as well:-
+
+1) Fill/find in the blanks
+2) Write missing code
+
+## Dining Philosopher Problem
+
+* Philosopher -> Process
+* Chopsticks -> Shared Resource
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/93ef2bed-8f8b-40d8-8b7f-d064038f7f1a)
+
+## Dining Philosopher Problem Solution
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c726f840-ffda-4269-9fbf-c151bd5ed0b5)
+
+* For every chopstick we will take **one semaphore**.
+* An array of **binary semaphores** of size 'k' to denote chopsticks
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac778878-07bb-402d-a7c2-73b7b7d3d5f6)
+
+* For chopstick availabilty -> **1**
+* For chopstick no availabilty -> **0**.
+
+> We have written **wait(chopstick[(i+1) % k]** because at the **last philosopher** we are doing a **wrap around, creating a circle**, so that the **last philosopher** can access the **last fork and the first fork**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95a8bebc-d23a-4b81-98ca-85db9ced64bb)
+
+* Yes.
+* The **no. of philosophers** we have, **same no. of chosticks** we have.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/21e17808-37ed-4496-9793-43acb2ce4da1)
+
+* Circular case
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e6ae5313-6d86-4ca6-ba28-b975ac53c1ed)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f422bf0e-5455-4a0d-813d-0811252efc0a)
+
+* The **dining philosopher problem's solution** is **prone** to **deadlock** situations.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ded93d85-6dcf-4585-951c-8d379b3ca4c4)
+
+* There is a possibility of deadlock.
+
+> P0 process ran first, then it ran **wait(chopstick[i])** after it was completed then it got **preempted**. Between **two** wait functions, **preemption** is possible. So, the **ch0** chopstick went to P0 and before P0 could take Ch1, p0 got preempted.
+
+> P1 took ch1 chopstick and got preempted.
+
+> P2 took ch2 chopstick and got preempted.
+
+> P3 took ch3 chopstick and got preempted.
+
+> P4 took ch4 chopstick and got preempted.
+
+> All of the **philosophers** ran the **wait(chopstick[i])** successfully and they have taken **one chopstick** each. For all of the **philosophers**, the statement **wait(chopstick[(i+1) % k])** is in **waiting**. The **waiting or wait()** statement cannot run because all of the **chopsticks** are acquired and each philosopher has **one chopstick** each. Everyone is waiting when the **right chopstick** is empty/free then they can **eat**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/40c5a924-a811-4ba6-b066-bd0ba642dbdd)
+
+> If this happens then the none of the **process/philosopher** can run **wait(chopstick[(i+1) % k])** statement and in that case, we will have **deadlock**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9570b1b-0bc4-41e2-929a-e27174c009ee)
+
+* When each philosopher picks one chopstick.
+
+### Some ways to avoid deadlock
+
+1) There should be at most **k-1** philosophers on the table, with **k** chopsticks.
+2) A philosopher should only be allowed to pick their chopsticks if both are available at the same time.
+
+> Any philosopher will be allowed to pick a chopstick or to start the **wait(chopstick[i])**, when **both or two** chopsticks are **available**.
+
+3) One Philosopher should pick the left chopstick first and then right chopstick next, while all others will pick the right one first then left one.
+
+> We will make one philosopher, asymmetric, which means we will run **wait(chopstick[(i+1) % k])** statement first for that philosopher and then we will run **wait(chopstick[i])**.
+
+> In that case, then **one chopstick** will be **free** and **no deadlock** will happen.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d086509-a431-47c8-adc8-64c258e85771)
+
+* They are **three** different solutions, we can **pick anyone** and implement it.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cab02938-fab2-4607-9fc9-2ee5bbfb7e18)
+
+* No.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/824f769a-a1ca-4c13-9438-71c13c5b96d4)
+
+* 3rd way or solution to remove deadlock.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/106a94ab-4d85-4bfd-8fbd-f5b50f591663)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a7e54d3b-fcf4-4de0-a663-9faee9e1dc1e)
+
+## Multi-threading
+
+* Thread -> Component of a process, or Lighweight process.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d012e783-1a2b-4884-9946-1baff8b222ea)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b98bee8-e8db-4121-aa0f-29ddb4c1a580)
+
+* Similar to this happens in **process execution** when we have to create **one type of process** for **multiple processes**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7eb667ba-aac4-4f5a-bcba-6b50e4ed087a)
+
+* Instead of making a **full copy** of the process, we will make **threads**. We will components of the process, many parts of the process will be **shared** with the **threads** and some parts will be **unique/own** to each thread.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f6ca277-a984-48c8-bce5-ba15ec795b3e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/671613ba-39b8-4d74-b09a-d9a117aa3b3c)
+
+* Thread:-
+
+1) Some parts of the process will be shared
+2) Some parts will be own.
+
+> The advantage is that rather than making a copy of a big process, we will make a thread separately which will be **lightweight**.
+
+* That is why **threads** can improve the performance of **parallelism**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e4ea7fde-1126-42ad-b402-3ae2fbfd3fa9)
+
+### Threads
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/78e99d1d-3ecc-4842-b52e-85a731a9ad6b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3ceb133-4f32-4ec9-8f8d-7787a270896a)
+
+* Thread is some piece of a process.
+* Register Set -> General Purpose Registers(GPRs)
+* Heap is **shared** among threads.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b35d4f0a-ef3c-43e2-aeb1-b013e200a2fd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d94b6ed-adf9-4ec3-8ef8-118f0ff95c9e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3822a240-aab7-4d87-977e-7acf26c737ee)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c33b068-83d4-439e-a9e3-c73df504f78e)
+
+* Yes
+* Instead of making **processes** again and again, we will make **threads** again and again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a0586882-7de3-421b-b22b-1c39748e05bc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/94abac47-2ac0-4a1c-961a-9c4649b0de28)
+
+* **Code, Data and files** are **shared** between the multiple threads.
+* **Registers and stack** are **unique/own** for individual threads.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c380baf-c312-4573-bf99-9a4eca2ae17c)
+
+* Single Process.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f85b482f-d31c-4796-b068-6763e11e2c43)
+
+## Types of Threads
+
+1) **User Level Thread** -> In some Java program which is a **user process**, we have implemented **multi-threading** then it is called as **user level thread**.
+2) **Kernel Level Thread** -> In some OS process had **multi-threading** then it is **kernel level thread**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0626e87a-d6a0-4662-b910-eac3ca63c3ef)
+
+* If there are **user level threads** then the **Kernel or OS** doesn't even know.
+* **Kernel or OS** doesn't have any idea.
+* If there are **Kernel level threads** then the **Kernel or OS** ofcourse knows.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6dfa0f3-6c3c-449c-895b-d85fe36855c0)
+
+> There is **multi-threading** in **user process** then **kernel** doesn't know that there is **multi-threading** in **user process**. If the kernel doesn't know then who will do **switching** between the **two** processes? The **user process** itself will do the **switching**. 
+
+> If the kernel doesn't have any intervention in the **context switches** between **two** threads, then the **time taken** for **context switches** will be **less** ofcourse. The **user process** can itself do the **context switches** between **two** threads, which will be **faster**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/49fd3797-880e-4817-97f7-ec5fb467f5a9)
+
+> For **kernel threads** the **context switching** is **slower** as **kernel** intervention is needed for **context switching**.
+
+* **One thread is blocked** means that when the thread is **running** and it required some **IO operations** then the thread went into **blocked state**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7da3e4ec-f9b2-4816-8a9a-da2687513e35)
+
+> The OS doesn't know about **user threads**. So, if **one thread** goes or the **whole process** goes, it is the **same** for the **OS** only.  The OS will think that the **whole process** has gone for **IO** operation and the entire process is in **blocked state**.
+
+> So if **one thread** is **blocked** then the **whole process** is **blocked**. The OS doesn't know it is **one thread** or **one process**. The process wants to go to **blocked state**, so the OS puts the process in **blocked state**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c06ec98a-c7dd-4688-822e-dd579239b2b4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f56927e7-769d-4e69-b8ca-cf0535c6b7f6)
+
+* Exactly.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6fcb8bde-740e-4605-8094-07f57543875f)
+
+* We need to remember all of the **points**, as questions have come from them. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71b4a7c7-7e7a-4c38-bb26-99055365ef2b)
+
+* Kernel knows about it's own **multi-threading**.
+
+* [**IMPORTANT**]
+
+* Question also comes from what is shared and what are not shared.
+* Questions mainly comes from multi-threading.
+* If other questions come from multi-threading then it is out of syllabus.
+* Multithreading Model is for **clg exams** only, not needed in GATE.
+
+## System Call
+
+* Programmatic way in which a **computer program or user process** requests a service from the kernel.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac06271f-d8b4-4e3a-a75f-c52fea4e9828)
+
+* Interrupt(Software Interrupt) request for kernel -> System Call.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc88acdb-7fda-4c72-9d30-15c2d10ff484)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb674a15-6f92-499e-9946-a4de644cb071)
+
+* Not needed for most part.
+
+## fork()
+
+* Fork system call is used for creating a new process, which is called as the child process of the current process.
+* We can create a **copy** of the current process. **Whole process's** copy will be created and not a thread.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/56f20d72-482a-4669-ba45-84a55aa265ae)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37d76f92-d47c-45a0-95d8-c26d27396440)
+
+> The **fork()** call, has created a new child process. The new process code is **same** as the parent process.
+
+>  The **fork()** call's result will be returned to the **parent process** so that the **parent process** knows if the **child process** was successfully created or not.
+
+> The **child process** will also **receive/get** a value, so that the **child process** knows that it is a **child process** and not the **parent process** or some **new process**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eab4265a-273a-419f-827f-aa6ae9cbe64f)
+
+> If the child process creation was **unsuccessful** for some reason then some **negative value** will be returned to the **fork()** in the **parent process**. The return value of the **fork()** will be **negative**. Ingeneral **-1** is returned.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1ba8d55-e05a-4c14-ba7e-f46196c67d66)
+
+> If the child process creation was **successful**, then the **child process** get/receives **zero(0)** and the **parent process** get a **positive value**.
+
+> The **positive value** is nothing but the **process ID** of the newly created child process.
+
+* We the child process is created then from where will the child process start running?
+
+> From the **start**? **NO**.
+
+> From the **fork()** call where the **child process** was created, after that **fork()** call, from the **next statemnet** the **child process** starts running.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30946209-fe1e-4deb-a884-3d06e10fd2c4)
+
+* The **child process** will not run the **parent process** statements from **before**.
+* The child process starts execution from statement after the **fork()** call which has created the child.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/720398f2-8302-446d-813c-af7689bf2318)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9c3b939-e285-47a1-a606-af47e2331342)
+
+* Yes, if we start from the **beginning**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31550231-3b0f-4f54-a34e-f381bbae48fb)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/808fa13b-38ed-4355-ada5-1a69e72b2a6b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9df1a65-0b3d-4c7f-aaaf-aa1234ca6ecc)
+
+* yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d7b69bec-1ad8-4251-9046-6e1b50fdadaf)
+
+> First we will do **fork()** and whatever value is returned from the **fork()** will be returned to **x**.
+
+> From the **parent** process we have make a **child** process. The Parent and child process are running parallely or concurrently.
+
+* From the **fork()** what will be parent process get?
+
+> **Posivite value** which is the **PID** of the child process that is created.
+
+> The **PID** of the child process will be copied into **x** variable.
+
+* From the **fork()** what will be child process get?
+
+> **Zero(0)**.
+
+* When the parent process printf statement runs then we will print **x= 10243**.
+* When the child process printf statement runs then we will print **x= 0**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/962a1179-7dbb-4e8e-af7b-82c0a7c626df)
+
+> We don't know if the child process's printf statement will run or the parent process's printf statement will run. We cannot **predict** it. We are not the **OS** that we will know who will run **first** whether it is **parent process or the child process** print statement.
+
+> Any process can run at anytime. They are **concurrent** process running and they can run at anytime.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3a02033-7d27-4f7c-bd61-28a27eaaffe3)
+
+* Not parallel but concurrent.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d20cab26-1a6d-4583-b3a8-50bc032b7e65)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1cf858ba-8199-4b4a-a015-3e387290d40d)
+
+* No. They are concurrent processes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a94fb280-8c94-462c-a5a7-a1f14f6a8dcb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c83b0374-e3fd-4482-97b3-ba865ad21498)
+
+* We don't know which will run first or earlier.
+
+* There is one process, which has called **fork()** two times.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f5e82af-074d-4163-920b-88cfaef23eb0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/809b6e7b-8be3-4705-86df-fd16317f992e)
+
+> The process(p) has run the **first fork()** and has created one child process(c1).
+
+> Now the process(p) and the new child process(c1), will run the **second fork()** individually on their own.
+
+> So process(p) on running **second fork()** created one child process(c2).
+
+> So child process(c1) on running **second fork()** created one child process(c11).
+
+* Total **no. of child** processes are -> c1, c2, c11 -> **3** processes. [**Answer**]
+* Total **no. of processes** are -> P, c1, c2, c11 -> **4** processes.
+
+> Total **no. of processes** are **4** if we include the **parent** process.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ed18f61-2890-46c5-adcc-2d16902c3e05)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/64c41634-3046-4645-b84d-68c85bee5c82)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1c3e4fa-90e8-4807-b527-ae2b0cf3b68c)
+
+* If **'n' no. of folk()** calls then,
+* Total **no. of child processes** -> **(2 ^ n) - 1**
+* Total **no. of processes** -> **(2 ^ n)**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/325d6d18-65b5-4106-8baf-ce482e5b336f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/781800da-9f75-4fd8-891b-29b0363290ba)
+
+* We don't know who will do the **printing** first.
+
+### Questions
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2792e757-088b-49c0-a7df-52cdf8f652f1)
+
+* 7
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a96b773a-d365-4597-8ac4-9cb3a576e374)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1025069b-ccd3-4439-86a4-bb4f6f0e177a)
+
+* (2 ^ n) - 1.
+
+> One time to remember is that if the **child process** hasen't **died/terminated** yet then the **parent process** cannot be **terminated**. [**IMPORTANT**]
+
+> Before terminating **parent process** , we have to terminate all of the **child processes** first. Otherwise **parent process** will not terminate.
+
+> If the **parent process** was **forcefully terminated** then the OS will terminate all of the **child processes**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d2e1f03-db55-4bba-b7ff-cf8cffc3f4bc)
+
+* They are processes, nothing is shared between them.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f822aa1-6970-4bd0-b16d-56c9399ed09d)
+
+* OS will do it.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df847673-95a6-4bb8-98df-fd88a17282d3)
+
+> The **fork()** return value for **parent process** is **positive value** and **if(positive value)** is **True**, so the **parent process** entered into the **if** condition. **Parent process** runs the **second fork()** and another **child process** is created.
+
+> The **fork()** return value for **child process** is **zero(0)** and **if(0)** is **False**, so the **child process** doesn't enter into the **if** condition.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/810a8a2b-5d6f-4872-bab3-c6d6de46a5b1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/84828c63-ee56-4000-a236-4eb359603a09)
+
+* 1's printed -> **3** times.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed899c0d-9421-4999-b2da-66947f0f7d2f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37628480-7507-4894-860c-443944957533)
+
+* We are assuming that **child creation** will not **fail**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b33bcb9-b774-467a-9a5d-533506fd38df)
+
+* Ofcourse
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/02207dbc-dbb0-4dfd-845f-5e03417ffc9b)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/777bd83e-3fda-4eb1-b366-35b3ed590645)
+
+* DPP homework.
 
 
 
