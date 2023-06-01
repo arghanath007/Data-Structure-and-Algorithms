@@ -5586,6 +5586,14 @@ while(condition);
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5cc29142-4e59-4773-bb72-59cd27ec2df2)
 
 
+## DPP-4
+
+* Lecture -> 17
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31c8cb9d-bc28-4644-8b24-b59712179589)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d2d325f8-546e-48b2-918c-20144517c560)
+
+
 # Quizzes
 
 ## Quiz-1
