@@ -18,6 +18,7 @@
 # PYQs Playlist
 
 * Link -> https://www.youtube.com/playlist?list=PLG9aCp4uE-s3klreqEhbzOBQDg5Ha0U38
+* Cpu-scheduling-pyq-discussion-part-i -> https://unacademy.com/class/cpu-scheduling-pyq-discussion-part-i/T8IWFUH3
 
 
 ## Introduction (1) [8th May 2023]
