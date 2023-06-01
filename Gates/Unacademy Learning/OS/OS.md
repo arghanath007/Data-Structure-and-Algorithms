@@ -5447,6 +5447,10 @@ while(condition);
 
 * DPP homework.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44b517dd-a635-4481-9088-7fddfadb79db)
+
+
+
 
 
 
@@ -5592,6 +5596,7 @@ while(condition);
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31c8cb9d-bc28-4644-8b24-b59712179589)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d2d325f8-546e-48b2-918c-20144517c560)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f72686e6-0c04-4bb3-824e-9b34aaa1f677)
 
 
 # Quizzes
@@ -5608,6 +5613,19 @@ while(condition);
 ## Quiz-2
 
 * Link -> https://unacademy.com/quiz/quiz-ii/JJ6SJ7HLB3/solutions/SP_G8GL3S7HJESZHBT99
+
+
+# Numericals
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d5852973-b8e8-460a-b061-a7ceb375fc8c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16acc848-3582-4001-b38e-a9324784b1b2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c0dca06-3bab-490a-a65e-f42aba3abf75)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fcc25cb3-c54b-4396-bf97-ba0b0b20553c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c68466d-2571-4737-8515-a2742290ef2c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/682a0d3b-f69c-405c-917f-74e52318e4aa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/171fabdd-b7e6-4935-9d3d-68df08b8ef4b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76b6e0b3-6504-4e4e-8049-4e0f95aa53d8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44f5eece-cb12-40ae-af5d-1c99a1540ef7)
 
 
 
