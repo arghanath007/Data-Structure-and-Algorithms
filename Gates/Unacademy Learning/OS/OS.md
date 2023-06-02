@@ -6087,6 +6087,60 @@ while(condition);
 
 * Homework.
 
+## Doubt clearing session questions on deadlock (20) [2nd June 2023]
+
+## Homeworks from last class
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5bab8b39-80af-4a22-b4c6-40ec77652f56)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d929ae5-bdf6-4f26-80bd-55937482d327)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37de8a56-bcee-49bb-b9c1-a3cbfd8a36c8)
+
+* We checked earlier that the request of **P0** was **granted**
+* Now the request of **P3** is **granted**.
+* So, both the request of processes **P0 and P3** are **granted**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/de8fe4b9-9cf3-4260-9249-48eccd0ae6fa)
+
+## Deadlock Detection
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/46d419ee-e0ee-40ce-bf60-98a7dde2f47c)
+
+### Single instance
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/309cd810-a650-4e0e-af67-171a6008f0e9)
+
+* Wait For Graph -> Construct from resource allocation graph.
+
+### Wait For Graph
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f8258b63-c81d-473a-b76d-46ffe94c8175)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0cc7bd9f-1596-44e1-80d0-3aea8c160402)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12c3a81b-912d-4d7f-be00-bf0a1469c03e)
+
+* It has only processes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/99a1c85e-4887-4373-be56-cebc31ac1cc6)
+
+* How does one process wait for another process?
+
+> For P1 process to run, P2 process has to end because P1 is waiting for **R1** which is taken by P2. When P2 finished then R1 is released and now P1 process can run.
+
+> P1 process is **waiting or waits** for P2. That's why we have made an **edge** from **P1 to P2** which is in **graph (b)**. **Wait For**, **Wait For** whom? That's how we will get the **edge** from **source to destination**.
+
+> After the **wait for graph**, we will check for **cycles** in the graph.
+
+* If there is **any cycle** in this graph then there is **deadlock**.
+
+### Example
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8411839a-4eab-476d-9517-c5970dc819e4)
+
+* Draw **wait for graph**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/854a197c-e7c4-4ff0-88ac-4e88882fa2ef)
+
+* Start from 25mins
+
 
 
 
