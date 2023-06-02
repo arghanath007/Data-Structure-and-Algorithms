@@ -18,7 +18,8 @@
 # PYQs Playlist
 
 * Link -> https://www.youtube.com/playlist?list=PLG9aCp4uE-s3klreqEhbzOBQDg5Ha0U38
-* Cpu-scheduling-pyq-discussion-part-i -> https://unacademy.com/class/cpu-scheduling-pyq-discussion-part-i/T8IWFUH3
+* Cpu-scheduling-pyq-discussion-part-I -> https://unacademy.com/class/cpu-scheduling-pyq-discussion-part-i/T8IWFUH3
+* cpu-scheduling-pyq-discussion-part-II -> https://unacademy.com/class/cpu-scheduling-pyq-discussion-part-ii/K4Y81I1H
 
 
 ## Introduction (1) [8th May 2023]
@@ -5795,6 +5796,296 @@ while(condition);
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33e873b6-e8fc-4160-a526-af1cbd93fe49)
 
 * **5** times printed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/014577d8-db8f-49c0-8a66-dd353682c5f1)
+
+* Quiz-3 syllabus
+
+## Deadlock detection recovery (19) [2nd June 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/acc581a8-d309-4e0c-8fa3-e7e7a24b7c07)
+
+## Banker's Algo
+
+1) Safety Algo
+2) Resource Request algo
+
+
+## Safety Algo
+
+> When we will run **safety algo**, it will check if the system is in **safe state or in un-safe state**.
+
+> Safety algo works on a simple fundamental that is from every process, the **max** requirement would be asked.
+
+* **Max** requirement -> Max. no. of resources needed to completely execute process.
+
+> Process P1, requires **1 R1, 1 R2, 1 R3** resource for complete execution of P1. It doesn't mean that when the process arrives, it will get all of the **three** resources. The process said it needs them, it will request when needed. The process will tell/request the OS when the resources are needed, at that time give the resources to the process.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aaa3378c-4cb4-4a05-a1ca-f683f4caf065)
+
+> At the starting, the OS will **allocate** nothing to the process. When needed, the process will request the OS.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3c92a40-e05b-4796-8fbf-4b35fa374666)
+
+> We know the **max** requirements of the process and the current allocation of the process. Now tell the state currently if the system is in **safe state or not**?
+
+> We will check that using **safety algorithm**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/500915dd-a143-4cdd-a49c-83d176b629e5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fcf03a4b-fa44-439f-a321-dd3aeb644514)
+
+> The need of **P3** is **less than or equal to** the **available** value. We can fullfil the need of **P3**. We are checking if the system is in **safe state or not**.
+
+> Let's say we fullfilled the need of P3 as it needed **1 resource** and we have **1 resource available** and gave it to p3. So, the execution of p3 is **completed**. If p3 execution is completed then p3 will release all it's resources.
+
+> When p3 has completed execution then we had **1 available resource**  and p3 will release it's **3** allocated resources. Then, we will have **4** available resources.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bbe23fbc-e68f-4e4b-9486-4ba142fb03d4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b4f49cf3-8af4-407e-94ad-642ab5cd3842)
+
+* For P3, needs **<= or less than equal to** available. After P3, **available = (available + p3's allocated)**.
+* P3 is completed. 
+* After p3 completed, we have **1 + 3 -> 4** available resources.
+
+> We need to find another process, where the **need <= available** like above. We are repeating the process.
+
+> We can take **P1 and p2**. We can take anyone between them. 
+
+> After p1 is completed, we have **4 + 1 ->5** available resources.
+
+> We can take **p2 and p4**, doesn't matter take anyone.
+
+> We took **p2** and after p2 completed execution, we have **5 + 5 -> 10** available resources.
+
+> We took **p4** and after p4 completed execution, we have **10 + 2 -> 12** available resources.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6e4895a-c938-4c97-bc78-f1b104994776)
+
+* Can we run processes one after another?
+
+> **YES**.
+
+> If all processes are **completed** which means that the system is in **safe state**.
+
+* All process can finish, hence system is in **safe state**.
+
+> From the **order of execution**, it is much more important that we have executed p3 process.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/11021f7b-e4c8-4af7-841d-a3cceb0b41dc)
+
+* Yes, good point.
+
+* In what sequence we will run the processes to get the **safe state**?
+
+> Safe sequence -> <P3, P1, P2, P4>
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/616c8ea3-e468-4621-9b07-62a346fe825f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69c8320f-d426-41c1-bdf4-65e135d9be77)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c10a93c-81f5-4b12-abd7-87356f8a4eba)
+
+* Many no. of **safe sequences** are possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b0b77a8-786d-4b8c-8d99-0687b26e736c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d115308-b958-453d-81bc-bab49d997d7e)
+
+* This types of questions usually come in **GATE exam**.
+* They will given **Safe sequences** in the options and we have to find the **safe sequence** or if the system is in **Safe state or not**.
+* The table will also be given in the question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eee23fa3-3ceb-459f-9678-dd503d7fb7ed)
+
+> First we find out the **need** for all of the processes.
+
+* Need -> (Max) - (Allocation)
+
+> Then we can with the **available resources** which **process's needs** we can fullfil.
+
+> After the **process's needs** are fullfilled then the process is executed and the **allocated resources** of the process are **released** and those resources are **added** to the **available** resources.
+
+> Now we repeat the above process.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/858b0a11-a7e1-45a5-8edf-26ff2c29f54d)
+
+> The available resources is **A=7, B=4 and C=3**, we can fullfil any of the **3** available processes(p0,p2 and p4), which means the system is in **safe state**.
+
+* **NOTE**:- [**IMPORTANT**]
+
+> If an **individual process's need** is **less than equal to** the **current available resources** then no need to **check further** and run the process in **any sequence** and complete it.
+
+> We can run the processes in **any sequence**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d9f38424-fe7a-4a3a-baa0-50e7a80ef48b)
+
+* Not Yet in GATE exam.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8dbf7e9d-98ec-44f6-93ae-df8b43e6e5cf)
+
+* Multiple safe sequences are possible.
+
+* At some point of time, **needi > available** for all **i**, then the system is in **unsafe state**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bba568ff-a020-4205-8d54-4d1c4d49ed1b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/43da63cb-f1f5-457e-9be0-09a2e438df94)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d922ac9-a8af-45eb-a662-de1c2880a5eb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ad40402-cc9e-48e7-a7ac-dd80fd05476a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33975a7e-4635-4473-a975-f4b21513f9fe)
+
+* Any process(p2, p4 and p5) we can run after **p3**. The **available resources** is more than all of the **individual needed resources** of the processes. 
+
+* (Available **>=** Need).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44c7a3fe-57dc-44bb-88ce-53115ec4786f)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/68500683-93e4-4e7b-ada2-906da785fab8)
+
+* System is in **safe state**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4805f135-64be-44af-9c78-57f0a270f937)
+
+* Multiple sequences are possible.
+
+* Sometimes, the **available resources** may not be given.
+* They could give **total resources** as **A=3, B=14, C=12 and D=12**.
+* To find the **available resources** we have to **substract**, (**total resources** - **Allocation resources**)
+* **Available resources** -> (**Total resources** - **Allocation resources of each process**)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/833dd065-6065-437e-9cbd-03ee5c4aaf60)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ffa174dd-38ae-4fa4-a2fc-55ea9b13a8f8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/886a1317-2144-4ac5-8326-e8346738db92)
+
+* Yes, we will check in the next algo.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e5ae05e-9703-4d72-ab30-97a3f31d608b)
+
+* We solved it earlier and found out that it is in **safe state**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2177a57-4001-47ac-9fdb-a766c8f6c886)
+
+> The OS will check that if after fulfilling the **request of P1**, the system will be in **state state or not**.
+
+> If the system is still in **state state** then fullfil the **request of P1**, othewise don't.
+
+> It is because the **deadlock avoidance** algo states that we will grant the **request** of any resource when the **resulting system** is in **safe state**, otherwise we will not grant it.
+
+> If any such type of requests comes from processes, then we will **first** check if the **request** made by the process is **even valid or not**.
+
+* Valid -> It means that
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7233e391-3e13-4b83-92c1-d713ed645ef6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85d6443b-bfef-48eb-8ffe-d05ecf58c8b6)
+
+* The **max** is **5** and we have allocated **3.5** and the person **need** is **1.5**. But suddenly the person came and **requested** for **1.7**. The limit of the person is **1.5** only.
+
+> If the **request** is **less than or equal to** the **need** of the **person/process** then the **request** is **fullfilled** otherwise **rejected/denied**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab60cc7d-8fee-445a-ae70-47c8e5884b32)
+
+> If **request** is **bigger** than **need** then we will say the request is going beyond the needs and we cannot fullfil it.
+
+* STEPS:-
+
+1) If the **request of the process(i)** is **less than equal to**, **need of the process(i)** then next **step**, otherwise **stop** as it is an **invalid request**.
+2) If **request of the process(i)** is **less than equal to**, **available resources** then next **step**, otherwise **stop** as not enought resources.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5525eafb-52bd-4872-99ae-4721c0cdfc18)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d5d4be1a-9041-461a-971c-fea28eac92a0)
+
+3) 1) Allocations of process(i) = Allocations of process(i) + Request of process(i)
+   2) Need of process(i) = Need of process(i) - Request of process(i)
+   3) Available of process(i) = Available of process(i) - Request of process(i)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf7143fb-5d09-44b8-8ce6-ba32aa5bc9c2)
+
+4) Run **safety algo**, if system is **safe** then request is granted, otherwise **request** is **rejected/denied**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8c36d5cb-463c-400c-bd32-58159eabc3a5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5f01348b-3b81-4ccf-a1bb-83edbcd8c5ee)
+
+* Let's run the **request** of P1 process.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7fde1ffe-e53c-41a3-a30b-05e587dca6ab)
+
+> We first find the **need** of the processes. Then we check to see if the **request** of P1 process is **less than equal to** the need of P1 process. So, it a **valid request**. 
+
+> Now we are checking if the **request** of P1 process is **less than equal to** the **available resources**. So, **resources are available**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9bc6c216-124a-4a46-8ef9-6efd5e4752a4)
+
+> Now we will **add** the **request** of P1 process to the **allocated/allocation resources column** of P1 process.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c9fe2d8-0947-4f47-848c-6d8f7fd57568)
+
+* Now the **allocation of p1 process** -> A=3, B=0 and C=2.
+
+> Decrease the **need of p1 process**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5805032-36ae-431b-bef7-b7aba43011a0)
+
+* Need of P1 process -> A=0, B=2 and C=0.
+
+> Now change the **available resources**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4aa48789-923d-4e15-8bda-06c18174faa8)
+
+* Available resources-> A=2, B=3 and C=0.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f44a0178-37b9-4015-8169-91a948893232)
+
+* On the **new table**, run the **safety algo**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d742543d-5063-4654-b888-c2f7f2d73345)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a9c88eef-6abc-4c4d-b2de-ab07d223b899)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89d95f8e-47a8-4901-a2d8-57d216eed02e)
+
+* System is in **safe state**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c064392-7b93-43e9-b71e-ce05dae28cb2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4436e089-e1a5-4514-922c-6ceba34ce543)
+
+* Request granted.
+* The **request** made by P1 process is **granted** as the system is in **safe state** still.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d73855d9-1f00-4ffe-9ab4-f3e9c8db3708)
+
+* Check if the **P0** request will be directed or not.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c4f05f61-431f-4089-8df4-8f1ccc40823f)
+
+* In this state.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dbab2676-c40e-49a6-bf5e-f997c1c4abd9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f360ca25-5fac-411c-a91a-a91b5699828c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f272a034-3849-45e0-b842-03985cb77a1a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/52b285f0-9d43-47d7-9bda-5d09e0bd35a8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e91562a-bc0b-4573-ba33-b370e635aebf)
+
+* Homework.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5045e938-850b-427c-846c-4d3974b0dded)
+
+> Now we will check individually that, if the request of p1 is **granted** or not. If we can **grant** the request then **grant** it. Do all of the changes.
+
+> On the **changed scenario**, now check the request of p3 that it can be **granted** or not. If we can **grant** the request then we can say that we can **fullfil** both of the **requests**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f2c2f1e-48d0-490e-ba7f-bdd62e721477)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f99e8478-8c9a-4b27-81c3-ca0fbb0a0512)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2e082240-e170-41b3-ba26-d727f2b6aa8c)
+
+* On the original table, then that is **option 2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36e5af84-b320-4e88-8ce2-d7a8eaabce02)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ce2d8a2-147f-4ef0-b44a-241f7b3d8d50)
+
+* **Option 5** means that the requests will be individually **granted** on the **original table** and not **one after another**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/28f47178-a437-4623-9999-db7d1e5cc1ef)
+
+* Homework.
 
 
 
