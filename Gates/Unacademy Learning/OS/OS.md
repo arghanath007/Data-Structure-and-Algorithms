@@ -6258,6 +6258,9 @@ while(condition);
 
 * Link -> https://unacademy.com/quiz/quiz-ii/JJ6SJ7HLB3/solutions/SP_G8GL3S7HJESZHBT99
 
+## Quiz-3
+
+* Link -> https://unacademy.com/quiz/quiz-iii/AVRIC22O5M/solutions/SP_D84HGTK6E9KKPI0F1
 
 # Numericals
 
