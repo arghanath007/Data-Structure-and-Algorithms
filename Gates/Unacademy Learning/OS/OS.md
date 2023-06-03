@@ -6264,8 +6264,59 @@ while(condition);
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d39de30f-924f-4bc6-ac56-fc072b2ed066)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/40ceeca3-dc70-4f2d-ba32-91989ba000f0)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44dd8070-6857-485e-b069-72084988c7da)
 
-* Start from 1hr 12mins
+## Quiz - 3 Solutions
+
+### Q1
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8d3ccdb-ab17-4b32-8089-13d29364bbbc)
+
+* All options are to be **selected**.
+
+### Q2
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5905d121-74c0-4539-b93f-1f1f66ddaa8d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/21bcfe7c-3243-4a76-84ff-fc6fc061114a)
+
+* As **S=1**, so **mutual exclusion** is possible and **only one process** can run at a time.
+
+### Q3
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/151d36fd-b0a7-4bfc-8d47-3ac6606a0ff7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05b32f2f-1a99-495a-92ec-979f9f36c9e1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f288b0e0-1f1a-4d10-be3f-1a13c91ce782)
+
+### Q4
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b44ed8c-b2f6-4e39-bd83-157638a2a3d8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9daf6119-640e-4d52-9ddb-c11806406bd9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/accdffec-5d1a-4cea-baee-1a5b440573fe)
+
+
+### Q5
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/87276541-efec-4d78-9593-cf0bbde90ab3)
+
+* **Option D** correct.
+
+### Questions
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7495dd03-bc3a-4a42-bdb0-6e2ce536110f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7899d5a8-0868-4dad-9081-cbcc55a0e678)
+
+### Doubts
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c4dd1f2-5ce5-458a-8031-d9c64f1a1474)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ca5e3d0e-8f9c-47df-bc74-aafd50786320)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/400c6187-a8f0-41e4-a5a6-815031bcd2ce)
+
+
+
+
+
+
+
 
 
 
