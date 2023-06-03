@@ -4685,6 +4685,7 @@ while(condition);
 
 ## Busy Waiting
 
+* **Busy waiting** is also called as **spin lock**.
 * Process runs on CPU and keeps it busy, but still can not proceed further.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd473d19-0f1d-4b96-832d-7ce4eb7305d1)
@@ -6311,7 +6312,25 @@ while(condition);
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ca5e3d0e-8f9c-47df-bc74-aafd50786320)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/400c6187-a8f0-41e4-a5a6-815031bcd2ce)
 
+## Memory management contiguous (21) [3rd June 2023]
 
+## Types of locks
+
+1) Spinlock -> Busy Waiting
+2) Livelock -> Two or more processes in busy waiting for each other forever.
+3) Deadlock -> Two or more processes blocked because of each other
+4) Semaphores -> 
+5) Reentrant locks -> 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aff9b7d7-20d7-4522-b396-5b642a4c6df0)
+
+* **P(Sy)** and **P(Sx)** cannot move forward as **Sx=Sy=0**.
+* This situation is called as **live lock**.
+* It is interchangeably called as **deadlock** also.
+
+> The **difference** between **livelock and deadlock** is that in **deadlock** the processes are in **blocked state** only.
+
+* Start from 12mins.
 
 
 
