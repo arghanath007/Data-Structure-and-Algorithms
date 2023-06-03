@@ -6138,13 +6138,134 @@ while(condition);
 * Draw **wait for graph**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/854a197c-e7c4-4ff0-88ac-4e88882fa2ef)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e6eb6dd4-5c1d-46c3-8b6d-2a8498f277ed)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6aa5aec3-b793-4f56-9644-fbbed7ac934c)
 
-* Start from 25mins
+* P2 and P3 are in **cycle**, so the **graph** is in **deadlock state**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3c8396c-b384-46a9-91c1-aee078fd2420)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7fa5b50c-3934-4867-bb23-a69da960cdd7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a5a2836-8197-4a5a-a765-c4e4d872003b)
+
+* **Wait For Graph** works when there is **only one instance** of resources in the graph. When we find a **cycle** in the graph then we can say **guranteed** that the graph is **deadlocked**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/64bf6f0d-0a40-420d-ae3f-f88ce906b497)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c974792-36b5-4f63-84a9-59a5a0cf1fad)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a628afd-1da7-45ed-8268-d52da20c73ad)
+
+> There is a **cycle** in the graph. It is **not guranteed** that it is in **deadlock** because we have **more than one or multiple instances** of a resource in the graph but we can see that p1 will run when p2 is over and p2 will run when p3 is over. P3 will run when one instance of **r3** resource is free from **p1 and p2** process. So it is in **deadlock** actually.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c4a62b71-53e9-4a65-ac01-1271469c9e16)
+
+* Yes
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ca19b74-03b6-4cd5-ab08-9dd03aeb2bc2)
+
+* Cycle is there in the wait for graph but there is no **deadlock**.
+
+> P2 is not waiting for anyone. P2 can finish and release one instance of R1 resource for P1 to run.
+
+> Similarly P4 is also not waiting for anyone. P4 can finish and then P3 can run.
+
+## Deadlock detection with multiple instances
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1104567c-c436-4987-b57c-adc12db6fb50)
+
+* Similar to banker's algo.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b6f3e7c-f698-4cf7-a161-7175b8ec460a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/875de069-5f37-4cd8-8e2e-fdb4894e14e4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/043d6f30-2386-419e-89dd-0422b2b99147)
+
+* Table of the **above graph**.
+
+> There is **no scenario** of **max and need table** as we don't want to avoid **deadlock**. We want to **detect deadlock**.
+
+* Allocation and Request -> Deadlock detection.
+* Allocation and Max -> Deadlock avoidance safe state.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c96cbad-704f-40d4-9bfe-f543ff9d5e43)
+
+> There is **no difference** like the **previous one**. Before we were looking at **need**, now we are looking at **requests**.
+
+* P0 and P2 processes have **no requests**. They can finish anytime.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16b00961-80b0-42c7-be40-26da8b979d13)
+
+* If for any process(Pi)
+* request of 'i' <= available, then
+* available = available + Allocation of 'i'. 
+
+* If all process are **completed** then **no deadlock**.
+
+* There is also no **safe sequence** as there is no talks of **safe state**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e215827-0346-4aa8-8af6-20b05bfcdbb8)
+
+* As all of the **processes** finished. So, there is **no deadlock**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/159faefc-f94a-4399-b2f2-7fc8288f37fc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66a7798c-82e0-4c6f-877e-0f9bb675631b)
+
+## Detection-Algorithm Usage
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/edb81313-d538-4e80-975f-ad913d58b02f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d9baa722-4e1b-441d-9985-62971745f47b)
+
+* Clue:-
+
+1) CPU utilization decreases
+2) Process inactivities
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a165c248-f4de-4feb-bc56-5d89ad13647d)
+
+## Recovery from Deadlock
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8a35f41-f7cf-4434-9086-c44a2650b969)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f1f3fc9-5448-4608-8853-6825c5071b53)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3ade6a9-ebf8-426e-8cd3-b36dc428fc96)
+
+* Factors not need.
+
+## Resouce Preemption
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/678f8e94-bb87-4d44-9c4b-db5faf910b4e)
+
+### Questions
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/734904f9-5176-4642-9cf1-fdd1f4dda18c)
+
+> Give **A,B and C** processes **max resources** such that they are still in **waiting state** and wants **1 more resource**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/90fb31ac-4513-4394-8694-d5ae2a6b9fe1)
+
+* All of the 3 processes are still waiting. So, **deadlock** possibility there.
+* So with **9 resources**, **deadlock** possibility there.
+* The question has asked to find **min no. of resources**.
+* If we keep **1 resource available** then it will be fine as we can fullfil the need of all 3 processes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f2c9eff7-2fbe-4003-b2ec-fc342bfddb6b)
+
+* For deadlock to never happen -> **Max of process 'i' - 1**.
+* Then **add** them up and at the end do **+1**.
+* So the **min resource needed** -> 3 + 3 + 3 + 1 -> 10
+* **10** is the **min resource needed** so that **deadlock** never occurs.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1f52507-4a37-48a5-bfae-29d852d3fbfe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2d0a97e-d3d7-4c1a-915e-6e00c9579aee)
+
+* For **n** processes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bfa634a7-defd-4ba8-92fa-bf5369bb69f6)
+
+* **Deadlock may occur** that's why we didn't do **20 + 1** because at **21** resources means **deadlock** will never occur, but instead we put **20** as the answer because we want **Deadlock may occur**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb098b6e-9fd7-436e-acbb-aa4a5f63784c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d39de30f-924f-4bc6-ac56-fc072b2ed066)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/40ceeca3-dc70-4f2d-ba32-91989ba000f0)
 
 
-
-
-
+* Start from 1hr 12mins
 
 
 
