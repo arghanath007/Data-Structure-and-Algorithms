@@ -6613,6 +6613,10 @@ while(condition);
 
 ## Paging address calculation (22) [4th June 2023]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/751a94a0-46f0-48c4-834a-9102df97d0f0)
+
+* No
+
 
 
 
