@@ -6617,11 +6617,358 @@ while(condition);
 
 * No
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/25962b0b-c965-495d-b9d8-a89dec4890b7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/14b371cd-0914-45a5-8113-449433a8a0dc)
+
+* Yes. You are right.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/15bd344c-ec72-4655-888b-7503c277ad89)
+
+* No, as we cannot combine two partitions in fixed partition.
+
+### Memory Management Technique
+
+1) Contiguous
+2) Non-contiguous
+
+## Non-contiguous Memory Management Technique
+
+1) Paging -> Each process divided into equal size partitions [**More IMPORTANT**]
+2) Segmentation -> Each process divided into variable size partitions
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a86d51e-0bfa-409a-b996-cfb3d8627379)
+
+## Paging
+
+> Equal size partition is called as **page**, the process's page.
+
+> Main memory is also called as **physical memory**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc86c0c7-17af-462f-9472-cc085c986a96)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/993027f1-8965-4282-a966-725ce280bcb5)
+
+* Frames -> Page frames -> memory frames -> physical new frames.
+* They all are different names of frames. They are the **same** thing only.
+
+### Example
+
+> Some process is coming and the process needs to be stored in main memory by the **OS**. The OS, will divide the process into **equal size** partitions. When **equal partitions** were done, we got **4** pages.
+
+> The main or physical memory is also divided into **equal size partitions** and we got **8** frames.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1e38308-76bf-4c89-b095-c0b72dc44bce)
+
+> When the OS got the process there was **no pages** made. The OS made the pages of the process. After that **each page** was **stored** where ever there was a **free frame**. It can be stored anywhere, doesn't have to be in **sequence**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c2a273e-9a67-44e4-a060-8635f0aae8f7)
+
+* On any **frame**, any **page** can come. This is the simple definition of **non-contiguous memory management technique**.
+
+> The process is divided into **partitions** and **different-different partition** is kept at **different places**.
+
+> When the process came, before that the process was divided into **different-different partition**. The **partitions** are kept anywhere in the **main memory**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc487cfa-9835-4240-86f1-21c252e601c2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2d284056-9aea-49ee-9811-10acd9bffd55)
+
+> When cpu runs the process and the cpu needs some content and it is stored in which **page** and that **page** is stored where in the main memory. For that **OS** maintains a **page table** for **every proces**.
+
+> **Page table** contains **frame nos.** in sequence.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d58e9c2-a931-4fc8-bcca-c4d5627d12e9)
+
+* Inside the **page table**, we are writing the **frame nos.**.
+* The **sequence** of the **table** outside is the **page nos.**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/997aeefd-62f1-4c51-80da-1a75ad971b4f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d459dfe0-019e-4153-b369-08b17fe90fdd)
+
+> The **no. of pages** in the process, that many entries we have to keep in the **page table**.
+
+* How many **entries** we have do in the **page table**?
+
+> The **no. of pages** for the process, that many **entries**.
+
+* If a process has **16 pages** then how many **entries** in the **page table**?
+
+> **16** entries.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8deb1e60-b1a5-48e1-b657-e27c0e13f84d)
+
+* How many **entries** we have to do in the **page table**?
+
+> The **no. of pages** for the process.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/053b6a9c-2596-411e-b715-7177c0477c7d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86adcd8a-e248-4b91-a0c0-3f0874219b66)
+
+* process is divided into pages.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6f7fe56-c48e-409d-8b7d-539ef1d5283f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/238de1be-73eb-4f6c-a203-7c47091ca3a8)
+
+> If we have **35** processes then each process will have their own **page table**. So, for **35** processes we will have **35** page tables.
+
+* No. of **page tables** == No. of **processes**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ca8f4412-383a-46a3-817b-1df862e5f9a9)
+
+> When CPU generates a request to access memory, **in COA**, we used to that cpu will generate the address of main memory. The content is in that address and the cpu wants it.
+
+> When CPU generates a request to access memory, **in OS**, actually the cpu doesn't know where each content is stored. The cpu will only see the process and will see that it wants to access that particular content of the process. Whenever the cpu generates the request, cpu cannot generate the address of main memory where the content is.
+
+> Cpu will generate some request by which it will tell that it wants access to that particular content. The content is at that process and at that page.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae1e4cad-1fb0-49ef-8b09-ac0c6d372b20)
+
+> Whenever cpu requests for main memory content, from there we will get the **content's** whatever information and we will know one thing that on **what page(page no)** is that **content** kept. We will ge the **page no.**.
+
+> We will take the **page no.** to the **page table** and from there we will get to know on **which frame(frame no)**, the content is kept. We will ge the **frame no.**.
+
+> We will take the **frame no.** and go to the main memory and from main memory, we will get the **frame** and on that frame, we will get the **page** which we wanted to **access**.
+
+> Finally, we reached the place, where the content is stored in the main memory. It is done with the help of the **page table**.
+
+> We are not able to go **directly**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b7d7be82-992b-4f4b-a5f3-ac6cbf52dbef)
+
+> Whenever the cpu requests and from that request we will get the **page no.** and with that **page no**, we will search the **page table**, and after searching, we will get the **frame no** and this is the **frame no.** where the **page** is stored in the main memory.
+
+> We went to that **frame no.** and on that **frame no.** we got the **page** where we wanted to **access** the content of the page.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/337116e8-f681-4da2-ad84-e7a7d02f9460)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cada42e9-7b38-42af-8ef6-2ce4fc0c68a1)
+
+### In Binary
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e31a6778-f8f0-4759-8005-98aabc215b2a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a96a159d-8904-47e8-9ddb-ad51aaa61cdf)
+
+* In the **page table** we have **4** entries.
+* Every entry in **binary** is of **3 bits**.
+* Total **page table** size -> 4 * 3 -> 12 bits.
+* **Page table** size -> ((no. of entries in **page table**) * (size of '1' entry)) -> ((no. of pages in process) * (size of '1' entry))
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5bdfb6c7-a723-4ef5-9ad0-b27125337d8b)
+
+* As an **example** we are taking **each page size** is **4 bytes** each. 
+* We have **4 pages** in the process.
+* Total size of process -> (4 pages) * (4 bytes) -> 16 bytes
+* **Frame size** and the **page size** are **same**.
+* Total size of main memory -> 8 frames -> (8 frames) * (4 bytes) -> 32 bytes.
+
+* We have to address **each bytes** according to **byte addressability**.
+* Total size of main memory -> 32 bytes -> main memory address -> (2 ^ 5) -> 5-bits.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/60cfd8fa-33c6-4d3d-8baa-c9446ac706d9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a0cf8e81-2612-4ce1-a796-0948af3bb262)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/59e1aaf9-a498-4fbd-aa92-93f0bc55481a)
+
+> The cpu can see the **sequence nos**. If cpu wants the **J** content then the **sequence nos** which is **1001** should be generated by the cpu.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0f01db8-3241-49b6-995a-6897264218b6)
+
+* This is the **view** seen by the cpu.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/61e34fa5-d801-4347-9b2e-f220c6564dbd)
+
+* Logical address.
+
+> If we know the **logcal address** then we can go and see the **list(page table)** and after that we know our seat.
+
+> The **logcal addresses** are with the **cpu only** as a **logical no**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/767a888c-70f1-4ce4-82fa-4940bcb2d4cf)
+
+* The address of the **main or physical memory** is called as **main memory address or physical address**. 
+* Whenever cpu wants some process's content then the cpu generates some **logical address**.
+* CPU always generates logical address(virtual address).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c5e3a08-646a-4484-b5d6-52c3e6ec2a2d)
+
+* How we will get **information** from the **logical addresses**?
+* Why we ware having **4 addresses** in a **single page**?
+
+> Because the **page size** is **4 bytes**.
+> One or single page has **4 bytes**.
 
 
+* If **address** is given by analyzing the **starting 2 bits**, we can observe from which **page** is the **logicial address** from?
 
+> **True**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ba3585b-70b1-4fa4-b098-4304919ae33e)
 
+* **Logicial address** which is **1010**, just notice the **first two bits** which are **10**, which means the **logical address** is from the **2nd page**.
+
+* Why we have seen **first two bits**?
+
+> Because the **page nos.** are of **two bits**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7bdc5884-0a34-4b5c-8921-f9f9f2663fe1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83c5a2ef-cbf9-4b59-a657-8f585547f1d2)
+
+* We would check the **first three bits** and get the **page no**.
+
+> Apart from the **first two bits** used to find the **page no**, the **rest bits** are used for **finding** out of the **4 bits**, which bit we are taking.
+
+* **0000** -> Page '0' and **zeroth** byte.
+* **0001** -> Page '0' and **first** byte.
+* **0011** -> Page '0' and **third** byte.
+* **0100** -> Page '1' and **zeroth** byte.
+* **0101** -> Page '1' and **first** byte.
+
+* Every page has **4 bytes(byte 1, byte 2, byte 3 and byte 3)**.
+
+* Like this, from the given **logical address** we can get **two** information:-
+
+1) To which **page** does the **logical address* belong.
+2) Within the **page**, which **byte** it is. 
+
+* Logical Address -> 1011
+* **10** -> Page no.
+* **11** -> Byte no.
+* Byte **11** of page **10**. [In binary]
+* Byte **3** of page **2**. [In decimal]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ae93835-3754-4b82-8f92-3e2660e8fb68)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0ed3981-e0a5-47cb-b2be-02afd9a7b438)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/373017cb-6019-445c-8744-522871a4d472)
+
+> When we got the **frame no**, we will attach the **byte no** at the end of the **frame no**, we will get the **physical address** where the **content** the kept.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5f726799-6728-4d71-b0f2-998a525f97c1)
+
+> The **logical address** we got, divided it into two parts, the first part was the **page no** and the second part was the **byte no**. We took the **page no** and went to the **page table** and did searching of the **page no** on the **page table** and got **frame no**, on which **frame** the **page** is kept.
+
+> We appended the **frame no** with the **byte no**, so we got **00011** which is the **physical addres** where the **content** we want is kept.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85e5a9c1-e2c6-4e87-b3a7-90f1267c9399)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e858bac3-47d2-494f-96db-f748134c2935)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c4d440b-118b-428f-9d13-d877c7f5b2cf)
+
+> If we have **page no =0** then we don't have to **leave** any entries. We will get **page no =0** at the top only.
+
+> If we have **page no =1**, then we have to **leave '1' entry** then we will get **page no =1** entry.
+
+> If we have **page no =2**, then we have to **leave '2' entries** then we will get **page no =2** entry.
+
+> If we have **page no =p**, then we have to **leave 'p' entries** then we will get **page no =p** entry.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ca986c1-8574-4e33-8cea-88ad20ba072e)
+
+* We have mentioned that only, we have to **leave 'p' entries**, so that we can get the **page no =p** entry.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7283ec45-390a-4585-b74d-afbc2b05e46b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/78c67b12-c781-47c7-8ea7-5343df4b7d69)
+
+* This is a **diagram** of a process called as **logical to physical address** translation.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/357bb287-6c67-46d3-a4b3-559c3ebe40b0)
+
+* The cpu can only see the **list**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f5f2a96-e879-47f9-bacb-1d464c2c3541)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/11cbd40f-86cb-40bd-8d28-725dca076067)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e900047c-393e-4cdc-8c65-c88a22c622e5)
+
+* Yup, but in general it is in **powers of 2**.
+
+* if **page size = 4bytes** then how many **bits** for **byte no** size?
+
+> **4 -> 2 ^ 2**, so **2** bits.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/96b7af06-0e95-4752-9d52-a909816ff126)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/79123601-9f90-4513-9f06-6980376a3339)
+
+> We could have found the **byte no** size from **process size** as well. As **process size** is **64 bytes -> 2 ^ 6 bits**, which means **logical address** is **6 bits**. We would that **page size** is **4 bits**, so the **byte no** in **bits** will be **6 - 4 = 2** bits.
+
+> From the **page size** we can find the **byte no** size. As **page size** is **4 bytes -> (2 ^ 2) bites -> 2 bits**. So, the **byte no** size is **2 bits**. We already know the **logical address** size is **6 bits**, so the **page size** is **6 - 2 = 4 bits**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/587670b4-9a3f-463e-8d4f-9e668203d863)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c6de6d88-1941-41d8-b535-a6585d04837c)
+
+* Directly find out the **logical address** and create the **logical address** diagram and find the **byte no and page size**. From there we can find anything.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d7efaab6-283e-4a90-b888-0c00f43dcaaa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/627e0c9d-e00d-41a4-bcb9-c1ff01f00bb5)
+
+* Will see later. Next step.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05c4c558-9500-4529-9b0f-cc54157c6484)
+
+* Page size == Frame size
+* Same thing.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/00905d78-ef65-4d75-b65c-5f070907e163)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d52302f-120c-4a84-afa6-69d99679e5c6)
+
+### Questions
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72ab12da-73e8-40ba-8309-cf7d88fd5a4f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7893b4f5-59e6-4f1d-b43e-c4909503b8a4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d43029fb-9f0f-4d3d-b2d5-2110c3a404a8)
+
+* What is **stored** in Page table entry?
+
+> **Frame no**.
+
+* In the above question, we got **no. of bits** for **frame** is **23 bits**. 
+* Page table entry is **4 bytes**. So it is **8 * 4 -> 32 bits**.
+* Each Page table entry is **32 bits** but the **frame no** is **23 bits**.
+* What's in the **remaining** 9-bits?
+
+> Some **extra bits** are kept in these **9-bits**.
+
+> Extra bits needed for **each page**.
+
+* In the **page table entry of 4bytes**, how much **extra bits** are kept?
+
+> **9-bits**.
+
+* How did the **9-bits** come?
+
+> It is **mandatory**. In every **page table entry**, there should be **frame nos** but some **extra bits** should be kept.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aab4c981-b4a8-4ef8-a55b-b12a6f5f680c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fef637c7-ba77-4395-939f-0f1be06c7694)
+
+* Will see later.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/11a2b33c-3a46-48d2-a746-e4dd88d07dba)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4710b04c-e49a-4bec-8ab7-ff76cc3c1048)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2dbf224b-9125-45e8-9fc6-0da2135eb8a2)
+
+* If in the above given question, **page table entry size = 4B** was not given then how would we find the **page table size**?
+
+> We would assume that in **page table entry size** there is **frame no** which is a **gurantee**. So for calculating **page table size** we would have done **no. of pages = (2 ^ 18)** and the **page table entry size = 20 bits**
+
+* **Page table entry size** -> **no. of pages** * **page table entry size** -> **(2 ^ 18)** * **20 bits**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/869a9496-18e6-414e-bd14-38e49144390e)
+
+* Each **page table** entry contains **frame nos. and extra bits**.
+* If  **extra bits** are **not mentioned** in the question then take **extra bits=0** and solve the question. So, the **min Page table entry size** equals to **frame nos**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a7da7ca8-75cd-48a5-a4c5-a4414954d1eb)
+
+* Yes 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/507cbdca-b1bc-4f80-81d3-4c6a84ef4795)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5487b43-a87f-4695-a041-2f944a5fe5ff)
+
+* Process size -> Logical address space
+* Memory size -> Physical address space.
+
+* DPPs given.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf098bdd-dfdf-44b4-8000-296467931289)
+
+### COA Doubt
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b77a070b-ee92-487f-95d8-c76ce02da157)
 
 
 
