@@ -6611,6 +6611,7 @@ while(condition);
 
 * **Option 'B'** is **correct**.
 
+## Paging address calculation (22) [4th June 2023]
 
 
 
