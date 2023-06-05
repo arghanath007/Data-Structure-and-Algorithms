@@ -7358,11 +7358,54 @@ while(condition);
 
 * Yes
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d8ada67-e13c-4767-89b3-1c224385e469)
 
+> **Only in increasing** or **only in decreasing** order because **circular wait** will never happen. Then, **YES,
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33373eaf-6bf4-4399-b1c2-49711f2a87aa)
 
+* No. Not in **syllabus** now.
 
+## TLB Mapping: Direct
 
+> If we bring the **page table entry of '0'** into the **TLB** then we will keep it as the **'00'** of **TLB**.
+
+> If we bring the **page table entry of '1'** into the **TLB** then we will keep it as the **'01'** of **TLB**.
+
+> If we bring the **page table entry of '2'** into the **TLB** then we will keep it as the **'10'** of **TLB**.
+
+> If we bring the **page table entry of '3'** into the **TLB** then we will keep it as the **'11'** of **TLB**.
+
+> If we bring the **page table entry of '4'** into the **TLB** then we will keep it as the **'00'** of **TLB**.
+
+> If we bring the **page table entry of '5'** into the **TLB** then we will keep it as the **'01'** of **TLB**.
+
+> If we bring the **page table entry of '6'** into the **TLB** then we will keep it as the **'10'** of **TLB**.
+
+> If we bring the **page table entry of '7'** into the **TLB** then we will keep it as the **'11'** of **TLB**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27d2ba5a-26e9-4703-93f2-1cddf9719cae)
+
+* The **decision** is according to **direct** mapping.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/70d34731-46a2-4c8b-8e8e-69ce5cbf7290)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e4e414ba-5c47-466c-8bb7-948c54398586)
+
+> When the cpu generates the **logical address**, the **page no = 001**. For **page no=01 or page no '1'** entry we went to the **TLB** table and the **01** entry according to **mapping**.
+
+* How we will know at the **01** entry that it is the entry of **1 or 5**?
+
+> We will not know. For that we need **extra tag**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c3e98978-c8eb-4e82-85e2-b44e1c2834e5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b237abc1-977a-4a6f-a572-a6083ed68fb6)
+
+> The **tag** is used to **identify** whether the entry is of **1** or the entry is of **5**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/636eb905-83b8-4473-890c-187b185d231f)
+
+* The **tag** which will come, how will that tag be **identified**?
+* Start from 19mins
 
 
 
