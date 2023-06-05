@@ -6970,6 +6970,299 @@ while(condition);
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b77a070b-ee92-487f-95d8-c76ce02da157)
 
+## Paging-performance-tlb (23) [5th June 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef83f4ee-08a0-46ac-adcc-27b91ee9b416)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76de4b96-4ce9-4fe8-ad3c-d58895d7ea39)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ee8ea9c-a9b0-40ed-94d1-9437793bcd3e)
+
+* Ofcourse.
+
+### Recall last class
+
+* Cpu generates **logical address**.
+* 'p' -> Page no
+* 'd' -> Offset or Byte no.
+
+* One process is running on the cpu and the cpu knows where all the pages of the process are stored in main memory?
+
+> **NO**.
+
+* CPU can see that there is a **process** which has **many pages** and the **logical addresses**.
+* CPU can see the **process** and it's **pages** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/536d447c-75dd-4877-ba91-39478eec3af0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2553bc34-71be-4bec-ba9d-4ba5ed691727)
+
+* CPU will see the **process's pages** and the **process** only. Where the **process's pages** are actually **stored**, it is not visible to the cpu.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a081b99b-fd86-4065-a93b-85b2fc449f30)
+
+* **Page table entry(PTE)** should at a **min** have the **frame nos**. **Extra bits** are possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b2d96678-402a-4ac6-80fc-d1f1d7ac2c97)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c24fb007-60ed-4d23-bf95-f189f4642da2)
+
+* **Page table size** -> **No. of pages in process** * **'1' entry size**.
+* **Page table size** -> **No. of entries in process** * **'1' entry size**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aba9ed37-51d6-48cb-90bf-4981f987674d)
+
+## Where is the **page table** stored?
+
+* **Page table** is stored in **main memory**.
+
+> If a process p1 is running on the cpu then how will p1 process know that **where** it's **page table** is stored in the **main memory**.
+
+> The **starting address** of the **page table** is stored in a **register**, the register is called as **PTBR(Page Table Based Register**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8f1f46c-76d4-40eb-a551-ea187f0664a9)
+
+* **PTBR(Page Table Based Register** is a **special purpose** register which stays in the cpu. Whichever process comes to the cpu for running, that **process's page table's base address or starting address** is **stored** in the **PTBR** register.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6d97ef2-14c1-4d53-85d9-1d88dc265b11)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f939ac38-3488-467d-919f-f30fe633a021)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72099257-d42e-4335-88a1-273f39784f31)
+
+* Inside CPU.
+
+* PTBR stores the **starting address** of page table of the current running process.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/753572b1-d3ea-4312-8382-a609c93e9532)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e2175b6-d8a6-4cbc-bfa9-4ad94ffbb519)
+
+* To implement **paging**, **hardware support** is required?
+
+> **Yes, True**. If inside the cpu there is no **PTBR reqister** then we couldn't implement **paging**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5826f1d1-d9fc-4525-afe9-d50d7a06f8cc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5965e707-37ca-40b7-a8b1-db7cd6cb147f)
+
+> **1 cpu time** is spent in **accessing** the **page table** for **address translation** to get the **physical address**. So, that the **content** we are **searching/finding**, we will get to know where the **content** is **actually stored** in the main memory.
+
+> **Another cpu time** is spent in **accessing** the **content** that we wanted actually.
+
+* We are accessing the main memory **2 times**. Once for **page table** and another time is for **content**.
+
+## Performance of paging
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/61ce851e-edaa-491d-a6fd-e6fb712216d5)
+
+* Effective memory access time(EMAT) -> 2 * tmm.
+* 'tmm' -> main memory access time.
+* **2 * tmm** because **one** is for **page table** and **one** is for **actual content**.
+
+ ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a67b38d5-ceb9-41d6-ac27-0fff597a5092)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f3824d1-2c99-482b-8a8c-79ae012a2f94)
+
+* When we try to access the main memory then we have to access the main memory **twice**.
+
+> Let's say a **very small process** has come. It has **only '2' pages**. So, it's **page table** has **two** entries.
+
+* If the **page table** is **very very small** then there is provision in the computer system that instead of keeping the **page table** in **main memory**, we can keep it in the **general purpose registers(GPR)** of the cpu. It is possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa61751f-2134-430a-8563-69b564485b13)
+
+* Effective memory access time(EMAT) -> Treg + tmm.
+* 'Treg' -> Time to access the cpu register or register access time.
+* 'Treg' because the **page table** is in the **register**.
+* 'tmm' is for **content**.
+* 'Treg' is **very-very small time**, almost **negligible** compared to the **tmm** or memory access time. We can **ignore it**.
+
+* Effective memory access time(EMAT) -> tmm.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9c744af9-6e17-4241-9d83-a3a4fc07a283)
+
+> Everytime the **page table** will not be **small**. Ofcourse not all processes are small. If processes are big then the **page table** is **bigger**. Then the **page table** cannot be stored fully in the **cpu registers**. Then how we will **save time**?
+
+* To save the time, there is a **hardware** it is called as **TLB(Translation lookaside buffer)**.
+
+## TLB(Translation lookaside buffer)
+
+* Why we use TLB(Translation lookaside buffer)?
+
+> It is used because in the **page table**, some entries are **recently used and frequency used**, those **entries** are kept in the **TLB(Translation lookaside buffer)**.
+
+> **Page table** has **thousands** of entries, we cannot keep all of them. We use a **separate hardware** called as **TLB**, where we store the  **page table**, some entries(page table entry) that are **most frequent**.
+
+> In **cache memory**, any and all content of **main memory** can be brought to **cache memory**.
+
+> Not all content of **main memory** can enter the **TLB**. **Main memory's page table content** can only come into the **TLB**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e77be73-11c7-43fc-8008-54b826459399)
+
+> We are only bringing the **page table entry** and not the **pages**. **Pages** are still in **main memory**. Process's content is still in **main memory**.
+
+> We are only bringing the **page table entries** into **TLB**.
+
+* The **advantage** is that when we wanted to access the **page table**, we went to the **main memory** but now we don't have to go.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/23dff760-d9f3-48a1-adb8-cc9ce0d02b61)
+
+* It is a **memory hardware** which is used to store a few page table entries.
+* Use of **TLB** improves the **performance of paging** interms of **EMAT**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d81eb51-da50-435b-888b-58afa3b6742b)
+
+* **YES** but it will be very less like 10-15% but 85-90% of the time, it will be in **TLB**.
+ 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1b2192c-cc5d-473f-b6fe-33f50af42502)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf9ef60f-b6f0-4e46-8f20-9cbe162fe18a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b791b7d8-60d1-403e-af5b-d775d7d6e9da)
+
+* TLB Hit -> The entry is in **TLB**.
+* **TLB access time** is **very very less** than **memory access time**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c10d0fd1-f775-49be-8370-c0fe5fcb7172)
+
+* Whole page table entry is there just for simplicity we have put **frame** in the **above diagram**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33ee96d1-416d-4e8d-9ea5-c05187d58160)
+
+* **TLB Hit** -> **1 TLB access** + **1 memory access**.
+* **TLB miss** -> **1 TLB access** + **2 memory access(1 for page table + 1 for content)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41a1579a-8918-496e-9bf0-943ef262f2a8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c41e653-e216-4142-b922-4c578db2b1a5)
+
+* **TLB Hit** -> The required page table entry is present in TLB.
+* **TLB miss** -> The required page table entry is not present in TLB.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a11b241-f290-4356-90f2-c5ba7062819b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/49098b2e-4daf-4b58-9139-e8c0c321fc80)
+
+* TLB Hit ratio(H) -> percentage(%) of time hit occurs in TLB.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35b11c8c-2dd9-4447-b92b-6c9eb9777145)
+
+* Ofcourse
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/28cd4a0e-372a-4a5d-8938-73dff8c6e51c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83b0415f-1958-4ddf-a08c-6f39e6d6ccde)
+
+* **100%** of the time, **10ns** time is taken.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7523c9b2-59f7-4dba-bbbc-8581d558ee5f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/760bfe34-726b-4d3e-83ae-4651ca323016)
+
+* Mathematics. Just shown to tell how the formula came.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/046cfa7d-a37b-46d5-bedc-c9d4bd130022)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee7b4214-86ee-40b3-9f65-1ddd3e54d078)
+
+[**IMPORTANT**]
+
+* If **TLB** used then,
+* **EMAT** -> H * (Ttlb + Tmm) + ((1 - H) * (Ttlb + 2 * (Tmm)))
+* **(1 - H** -> TLB **Miss ration/percentage**
+* **H** -> TLB Hit ratio
+* **EMAT** -> Ttlb + Tmm + (1 - H) * Tmm.
+
+> If **content switch** happens then a **new process** comes to run on the cpu. **YES**. The **TLB entries** will be of the **old/previous process**. So when the **new process** comes then the **TLB entries** will not be **accessible** to the **new process**.
+
+> So when the **content switch** happens then a **new process** comes then the **exisiting extries** of the **TLB** are made **invalid**. Remove them.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/13e5d03e-8b61-4029-b2f2-10675f90a1d0)
+
+* Yes. have a good understanding of it.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9be8aa7-4bdb-461d-93ae-a88b5e4b6d93)
+
+* When **context switch** happens all entries of **TLB** are made **invalid**.
+
+* In **TLB**, at a given time we can keep the entries of one process only?
+
+> **Yes**, one process only. That is the **basic case**.
+
+* PTE -> Page Table Entry.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f9528847-ef2d-4800-80ed-b6223eb517bb)
+
+* If multiple processes' page table entires are to be kept into **TLB** then along with page table entries **process ID** is also **stored**.
+
+> In this **case**, for **context switch**, we will not remove the **page table entries**. If a new process comes, then the **page table entries** of the **new process** will be kept here only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1c5b9af-28ab-48fd-a037-77aae389d506)
+
+* Multiple processes' page table entries can be kept.
+* It is a very high level concept/design.
+* Out of **GATE** syllabus.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32c5d624-9169-42ac-b06e-355c900a7ff0)
+
+* Different concept.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ea5c1fa-6227-4bbd-adc7-2e633cf4ab79)
+
+* Performance **increased** when we used **TLB**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/14823cbd-3bb9-4228-a8d1-ce32d37bf45b)
+
+* No.
+
+## How TLB stores entries?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ca7e96d-ffe7-4d96-8377-698659d121e4)
+
+* We have **mapping** here. **Mapping** of **TLB**.
+
+## TLB Mapping
+
+1) Fully Associative
+2) Direct Associative
+3) Set-Associative.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/112a3a37-dc0f-4ec5-b230-97502846f0a6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e540079-c561-40d8-b2de-9476473b3c13)
+
+* Which page table entry is bought to where on TLB.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2206021f-dbd4-4a0f-a82f-c9552ebfbebe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff310243-374c-4476-9e9a-040ff0b03acb)
+
+## Fully Associative Mapping:-
+
+> **TLB** has **parallel searching** power and we can put anywhere the **page table entry** of **TLB**.
+
+* **P** -> **Page no**.
+* **f** -> **Frame no**.
+
+> All **pages** and their **entries** are in the **front**. **Page no and frame no** will be there.
+
+> When cpu will generate **page no** in their **logical address**, then that **page no** we will **find/search** in the **memory** of the **TLB**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7430d7c0-1ab7-4ec5-b0aa-23ef4cbdde4f)
+
+> The **page no** is **searched** in every cell of the **memory** but the **search** is done **parallely** because the **TLB** is made of a specific hardware which is called as **associative memory**.
+
+* **Associative memory** -> Content addressable memory.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d67cf964-da24-4404-9433-f67ba91d7b9b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a928b444-1653-45c5-aaa8-cb563b5e37a7)
+
+* **Searching** in **TLB** is done with **page no** and **TLB** is implemented with **content addressable memory**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a4502b50-85c6-46df-bb44-8fe48f655eef)
+
+* DPPs given.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
