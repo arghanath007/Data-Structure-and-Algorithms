@@ -7345,6 +7345,24 @@ while(condition);
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e2938cf-9027-41af-b9fb-e92a9f736abd)
 
 
+## Tlb access and mapping(25) [5th June 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/584bdc9a-9939-423e-8bb7-b7d61428de49)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ee99e6a-397e-4946-a12b-7b222f8967d0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5ff1606-bb99-4f74-8d4a-8ad1ddf5eb56)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6e0e2403-2251-4a62-817a-d46e3fa2a089)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c429a288-0651-4162-b65c-0a57014241c2)
+
+* Yes
+
+
+
+
+
+
 
 
 
