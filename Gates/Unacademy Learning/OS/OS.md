@@ -7248,8 +7248,38 @@ while(condition);
 
 * DPPs given.
 
+## Doubt clearing session questions on paging(24) [5th June 2023]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35e08590-1d86-4b9c-ab0e-486579632dc2)
 
+* No, **OS** decision. Not the decision of architecture nor the organization.
+* Before **processes** are created, the **computer design** is done.
+
+## DPP discussion
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/01a2143c-95ae-4120-b32d-034332c91997)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33a5cec2-d2e8-45e5-8d61-080960e6c7f3)
+
+* Why the **worst fit** is needed?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c4492ce7-6625-4ea4-9bdb-84fa94811ea5)
+
+* We have **two** holes of size **500MB and 150MB**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8502102b-043b-42d2-8023-a79f5cf60769)
+
+* P1 process of size **120MB** comes then if we put it in the **150MB** hole then only **30MB** hole is **left** which is pretty useless as that much smaller size processes don't come. So that **30MB** hole is a **waste**. This is the **best fit** in **variable partition**. But if we put the **120MB** in the **500MB** hole then a **380MB** hole is **left** which can be used to store more processes. This is the **worst fit** in **variable partition**.
+
+> So the **worst fit** is useful in case of **variable partition**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85b5e50c-4aed-4da3-a76c-c810eb9679d6)
+
+* Fixed partition -> Best fit performs **best**.
+* Variable partition -> Worst fit performs well.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a35a47b-d08e-40c3-a967-680433ab2c5a)
+
+* Any space left in the **un-used** cannot be used. It is a **waste**.
 
 
 
