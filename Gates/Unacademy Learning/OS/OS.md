@@ -20,6 +20,8 @@
 * Link -> https://www.youtube.com/playlist?list=PLG9aCp4uE-s3klreqEhbzOBQDg5Ha0U38
 * Cpu-scheduling-pyq-discussion-part-I -> https://unacademy.com/class/cpu-scheduling-pyq-discussion-part-i/T8IWFUH3
 * cpu-scheduling-pyq-discussion-part-II -> https://unacademy.com/class/cpu-scheduling-pyq-discussion-part-ii/K4Y81I1H
+* cpu-scheduling-synchronization-pyq-discussion-part-i -> https://unacademy.com/class/cpu-scheduling-synchronization-pyq-discussion-part-i/RLE53AC9
+
 
 
 ## Introduction (1) [8th May 2023]
