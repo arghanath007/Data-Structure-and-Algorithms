@@ -7403,9 +7403,398 @@ while(condition);
 > The **tag** is used to **identify** whether the entry is of **1** or the entry is of **5**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/636eb905-83b8-4473-890c-187b185d231f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b53d4f2-d94b-46cf-827a-11a43f2e89de)
 
 * The **tag** which will come, how will that tag be **identified**?
-* Start from 19mins
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b483b6f5-de65-4f8b-9af8-1b1043dd4cf2)
+
+> On **00** in the **TLB**, we can store the **0 and 4** numbers from the page table.
+
+* 0 -> 000
+* 4 -> 100
+* **00** are common between **0 and 4**, so the **left most bit** are used to identify if the **number** is **1 or 4**. The **left most bit** is the **tag bit**.
+
+> So when the cpu generated **000**, **00** from the right, represented the **0th position** on the **TLB** and the **left most bit** is **0** which means it is the **0** number from page table.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc192ca2-30ff-48bd-903b-c880a8590957)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e60432b-c428-48c8-bcca-64102c240c4e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f2980b3-8814-4825-85f9-128eb5911f59)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/003a405b-62b0-43e4-94b9-36054a2ead60)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/200f603b-73f9-41d6-ab3b-d5e4d1ea309d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/03804a42-446d-4b23-83b9-288ecdc1fb46)
+
+* How many **entries** we can keep in the **TLB**?
+
+1) Would be directly given in the question.
+2) Have to find it, check the below question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a6ae185d-e8ef-4e23-bd1a-d25f3ef365e8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6e6a786-2e88-42f0-a0aa-137221c055be)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/293acf65-6f69-43d6-a025-582e769fdaf8)
+
+* Tag is not stored inside the **TLB**, the **TLB** chip which is a **hardware** beside it the **tag** is stored. Separate memory is required to **store** the tag which is not included with the size of **TLB**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7716cc3c-7f83-4fdc-b517-ca075f303d43)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bcf04cea-59c0-4124-8045-ad9db3099e4a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/67ed4930-7e3d-4e71-9701-1e50defee358)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/79bca2f0-12b0-40a6-80fb-4a852e750a6c)
+
+* No necessarily, it is coincidently **same** in the question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5213747e-0c30-4938-ad0b-01254361edb2)
+
+* Virtual Address = Logical Address.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae7ff5e3-69dc-4295-b2a9-80e0d6647c2c)
+
+## TLB Mapping: Set Associative 
+
+* Each **set** has **2 entries** in **2-way set associative mapping**.
+* Each **set** has **4 entries** in **4-way set associative mapping**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e2ba4f2b-d0f3-4f48-8488-55c6e1546fb3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71b4e70e-d993-4a35-a67a-b4cb7bccb89b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9549be54-863b-4e9c-8bb0-da4447703d1d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/961aa8cd-ad78-41ed-9381-c97e191a791c)
+
+* No. of sets in **TLB** = (**No. of entries**) / (**Set associativity**).
+
+* **Set associativity** -> Is it **2-way, 4-way or 8-way**. It will always be in the **power of '2'**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6284a7f1-5ac4-4ff3-bec3-a5beb900ad84)
+
+* Division of **p** will happen only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cef3d586-b592-48f3-b17c-70284c96898a)
+
+* There was no use of the **2-way set associative TLB** here as the **no. of sets** was already given.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/044aeca2-31f2-4ac7-8068-fce34767cd62)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/598226f9-bd3e-4b46-9bef-a1a13bd74f95)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1a5c6e4-67a8-4958-a140-61a4b9055239)
+
+## Paging
+
+* Paging suffers from **internal fragmentation**.
+
+> When we try to keep the **Page 2** in the main memory, then we will keep the **2KB size page 2** in a **4KB size frame** in the main memory.
+
+> The whole frame will be given to the **2KB size page 2**. The **page 2** is of **2KB** but it is getting a **frame** of **4KB**. We are giving the **whole** frame because the **page and frame** size is **fixed** and a  **whole** frame should be given to **page 2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/17926784-c344-4200-b05a-256b1c39d1ad)
+
+* So, **2KB** of extra space is allocated to **page 2**. Which is **internal fragmentation**. We should have given **2KB** size frame to **page 2** but **extra space** was given due to **memory management technique**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d802f2c9-8803-4f5e-a363-91f73f40758a)
+
+* Extra space allocated -> **Internal fragmentation**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5535fc79-a55a-4f05-8a93-c7875cbaf3f5)
+
+* Good point, **internal fragmentation** will be **reduced**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/10a5684a-993d-415a-b8f0-8c2ac373f0e4)
+
+* To reduce **internal fragmentation**, we will reduce the **page size**.
+* Due to this, the **no. of pages** will **increase**.
+* **No. of pages increase** will lead to **more entries** in the **page table**.
+* **More entries** in the **page table** will lead to **other problems**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd8b1ba4-6e50-48b8-ab15-23daf106b4e4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a4b26f74-597f-423f-9515-86174d98aa94)
+
+* Yes.
+
+* If , **TLB or Cache** are **used**, then **Average memory access time(Tavg) or EMAT** will be what?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37b859d1-a111-4c94-bc3f-6e4f264e97e7)
+
+* Cache -> Physicall addressed.
+* It means that for **searching** in **cache** we need **physical address or main memory address** required. Until we find the **main memory address**, we cannot **access** the **cache**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ada2bfdb-a5c3-4aac-ab77-0d9f0b199cb2)
+
+* Cache memory is accessed only using main memory address.
+* It means that we cannot use **logical address** to do **searching** in the **cache memory**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58af0df3-68a0-4a58-8eb0-a0eb41072584)
+
+* We can't search cache with logical address.
+* When we are combining **TLB and cache**, we can see that cpu is not directly generating **physical address**. 
+* CPU is not directly generating **main memory address or physical address**. CPU is generating **logical address**.
+* If cpu is generating **logical address** first then to do **searching** in **cache memory**, we need **physical address**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ef057cf-3501-42da-adf1-f244bb0059dc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/548f8758-a216-4d60-8b4d-d0d7cebe355d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c9967ed-84ae-4db3-87c1-9db0b6c94ae7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7f23d28-aedf-4ad4-bcf3-3f20558de44f)
+
+* CPU generates -> Logical Address -> Translation -> Physical Address -> Cache Search.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/45114e87-d972-4162-8bb6-0b4af34795ab)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/303483cb-3965-41dc-b8ad-9b690a556538)
+
+* Can we **directly** access the **cache memory** when the cpu has gone for **memory access**?
+
+> **NO**.
+
+* What do we need for **translation**?
+
+> We need **Page Table Entry** and the **Page Table Entry** is kept in **Page Table**. Page Table -> Page Table Entry.
+
+* If we use **TLB** then **TLB** is accessed first or **Page Table** is accessed from **main memory**?
+
+> **TLB** is accessed first.
+
+* First **translation** will happen and then for **translation**, **TLB** is accessed. 
+
+* Between **TLB and cache**, who is **accessed** first?
+
+> **TLB** because **translation** is needed **first**. After **translation** is done, then we will access **cache memory** for accessing the **content**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8110fdb6-244d-417e-a2a5-52c7b141f4cf)
+
+* **Cache memory** will not store **page table entries**.
+
+* Why **Cache memory** will not store **page table entries**?
+
+> Because the **page table entries** are in **page table**. **Page table** is in **main memory**. Until we access the **page table entries** from the **page table or TLB** to get the **physical address**, we cannot **search** in the **cache memory**.
+
+> Because if we keep the **page table entries** in **cache** then we cannot use the **logical address** to search the **cache memory**. We cannot do it then.
+
+> We use the **logical address** to **search** the **page table**.
+
+> **Page table entries** are stored in **page table**.
+
+> We can **search** in **cache memory** using **physical address** only.
+
+> We cannot **search** in **cache memory** using **logical address**.
+
+* Hence, we cannot keep the **page table entries** in **cache memory**, as we cannot **search** in **cache memory** using **logical address**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aca84dd9-8669-4684-a2f6-d58d5adc4631)
+
+> CPU generates **logical address**. Using **logical address** we will **search** in **TLB**. It is **not necessary** that we will get a **hit** in **TLB**. There is **two** possibilities, we will either get a **hit in TLB** or a **miss in TLB**.
+
+> If we get a **hit in TLB** then we will get the **frame no**. So we got the **physical address(PA)**. Now, from the **physical address(PA)**, we want the **content**. The **content** can be in **cache memory or in main memory**. To **save time**, we will check in **cache memory**.
+
+> We will take the **physical address(PA)** and **search** in **cache memory**. There is **two** possibilities, we will either get a **hit in cache** or a **miss in cache**.
+
+> If it is a **hit in cache**, then we will get **access to the content from cache**. CPU will read the **content** from the **cache** and we have found the **content**. **Finished**.
+
+> If it is a **miss in cache**, then we already have the **physical address(PA)**, then **access the content** from **main memory**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34bec58d-e5f4-4740-8161-10e3f40b257f)
+
+> If it was a **miss in TLB**, then we will **search** the **page table** in **main memory**. From there we will get the **physical address(PA)**. With the **physical address(PA)**, we will do the **same thing** as above. We will **search** in **cache memory**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58281c1a-3c70-4ba3-b9d6-1fa01e809753)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c847fa8-00c5-4231-b822-de9bf50791f3)
+
+* Hit -> Access content from Cache
+* Miss -> Access Content from main memory
+
+> Just written this if not **clearly visible** from the **image**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3abba882-bde3-4952-a874-831eed627c78)
+
+* Htlb -> Hit in TLB
+* Ttlb -> Search or access Time in TLB
+* Hcache -> Hit in cache
+* Tcm -> access Time in cache
+* (1 - Hcache) -> Miss in cache
+* Tmm -> Access time in main memory
+* (1 - Htlb) -> Miss in TLB
+ 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12cbade5-5a11-4de3-90a2-0c7d9341fe33)
+
+* EMAT =  (Htlb * ((Ttlb + (Hcache * Tcm)) + ((1 - Hcache) * (Tcm + Tmm)))) + ((1 - Htlb) * (Ttlb + Tmm + (Hcache * Tcm) + (1 - Hcache) * (Tcm + Tmm)))
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a8a104f-2f8c-4e94-a36b-30cc6778d303)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/75b02f22-c874-43dc-9056-c77dac8bdcd0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c284c0ad-b980-43aa-b4fe-a520ae8e64d1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ecc3848-5ba5-4559-af65-563345f1d021)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a873324f-18ad-43e3-8f68-6e591bf98c26)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/74ac42a7-be39-4f53-b382-2f7eaa120812)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/809b63da-7629-4433-9b0a-78b685845d89)
+
+## Segmentation
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f73a663-9fb9-4bb0-b2cf-b8cc96ae3ff2)
+
+* Segments -> Variable size process partitions.
+
+* If we are making **Variable size process partitions** then can we make **same/any** sized partition in main memory?
+
+> **NO**.
+
+* **No division** in **main memory**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e4de6615-0632-4372-ab7c-221451b98425)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35b71fa2-c423-431a-8ef0-e0bc579d4838)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65c879d3-33b5-4a3a-8a69-5bab2c63e29d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7ac1cd0-d1f2-4a57-a0f4-8deb699c3aae)
+
+* **4** segments of **different sizes** are **created**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/efca02be-10c5-4581-b038-b2d33f88a754)
+
+> The starting address which is the **actual address** of **main memory** is kept in the **segment table**.
+
+* The address of **main memory** is kept in the **segment table** as we don't have **frames**. The **actual address** of **main memory** is kept in the **segment table**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d390dc8b-b88a-4ebf-a1d0-1b021d5d4d70)
+
+> The addresses are the **base address** of the **segments** in main memory.
+
+> In the **segment table**, we have to write the **base address** of all the **segments** in main memory.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e7e3325-3994-45d8-95d8-781cca83b3db)
+
+* Yes, no **internal fragmentation** in this.
+* **Segmentation** will have **external fragmentation**
+
+* In **paging**, the size of all **pages** are fixed?
+
+> **YES**, the size of all **pages** are fixed.
+
+* In **segmentation**, the size of **each segment** is **not fixed**.
+
+* * In **paging**, one page size is **16Byte**. All **pages** will be of size **16Byte**. In the **byte no(d)**, **4 bites** should come as **16 = 2 ^ 4= 4 bits**.
+
+* If **16Byte** is in a **page no** then the byte numbering will be from **0 to 15**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36f992c0-7aad-4e8c-b3f0-e3d0e61f1dca)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/787215f9-6d85-4ce4-8269-a47d0b002aeb)
+
+* If **d = 0101**, then someone is trying to **access** the **5 byte** within the **page**. 
+
+* There is a **problem** in **segmentation**.
+
+> CPU generated an address where **d=10** which means it wants the **byte no =10**. The **byte no =10** is not present in **every segement**. The **byte no =10** is present in **segment 0, 1 and 3** but **byte no =10** is not present in **segment 2** as it has only **5 bytes**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/84d2ccc5-ff99-4f3c-a321-67077d58d3dd)
+
+> If a **byte** present in **one segment** could be **not present** in **another segment**. The **segment** is **smaller**.
+
+> By mistake, the cpu has generated one address where the **value of 'd'** is **bigger** than the **segment size**. The **offset size(d)** is **bigger** than the **segment size**, then that **byte no** will not come in the **segment**.
+
+* So, we have to keep **another information** in the **segment table**. Apart from the **base address** we have to keep the **limit** information.
+* **Limit** means tell the **size** of each and every **segment**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6e1ada3-4b2b-46ae-9b03-89f022711c60)
+
+* **Segment '0'** size is **200 bytes**. If for **Segment '0'**, **byte no(d)** is generated then the **byte no(d)** can be between **0 and 199** and **not more than that** is allowed. If **more than 199** comes then we will **deny** and say that much **byte no** we don't have in the **segment only**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a6296fa-3b9f-4145-bf2a-17f85871b014)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0fc3bb52-4bf5-4f52-a161-265de3613eda)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5865ee82-55af-40d5-b1a6-9eb1cfc56c5f)
+
+* We keep **two information** in the **segment table**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec9e0bbc-96d2-44fe-854a-900fc413abf7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec36829a-fcd2-4b99-b4c9-0ae7053049b7)
+
+* **Segment 0** is at **1100 address** in the main memory.
+
+* How **much/many** bytes in **Segment 0**?
+
+> **200Bytes**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f832ac5-6336-4b73-8a3b-44326e78d2a6)
+
+* There is a **condition applied** here that **d** should be **less or lesser than 200**, **d < 200**. As for **200 bytes** the range is from **0 to 199** bytes, so **no equal to**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5c32b839-dd85-4e98-89db-fe6e611a2994)
+
+> In the **same way** as in **paging**, the **logical address** is generated which is **divided** into two parts('p' and 'd'). In **segmentation**, it is **divided** into **two parts('S' and 'd')**.
+
+* S -> Segment No.
+* d -> offset or byte no. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a7f35edb-ae84-4d4e-bde4-e4a5bc42fe17)
+
+* **Segment no and offset** found in the **logical addres**. **Segment no** is used to do **searching** in the **segment table**. From the **segment table** we will get the **physical address(PA)**.
+
+> For getting the **physical address(PA)**, we are **adding** the **offset** value to that **segment's base address**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a9598b3-7ae8-4722-a201-e9560d85bac3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98cc9060-68ed-46a3-84ca-d21c4d4d6029)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c30c4dd-ecbe-478f-a18b-a610944203d1)
+
+* yes, before **adding** and getting the **physical address(PA)**, we will **check** if the **offset(d)** value is **less than** the **limit**. If **offset(d)** value is **less than** the **limit**, then only we will get the **physical address(PA)** otherwise **no physical address(PA)**, as it is out of **limit**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc913c9f-59be-4b2d-a385-0d8ffc54241b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83fca0d4-75c3-443e-b2b2-f3c4c6d64702)
+
+* **No question** has come from **segmentation** as of now in **GATE** exam. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f519c17c-b73e-43dc-a07f-b5268660f65b)
+
+* True.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/79297c5e-1ee9-4ada-90e2-f3ea3bd1440f)
+
+* 0 -> 194 < 200 -> Yes
+* 0 -> PA -> 1100 + 194 -> 1294
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5dc211c3-a054-444f-b7b4-d33685f55e80)
+
+* Solved in the **copy**.
+
+* How is **d** created?
+
+> **No. of bits in 'd'** is found out according to the **max. segment size**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a04a66b-05c7-4c13-9e27-90c8b274f498)
+
+* The **max. segment size** is **450**. More than **450 bytes** cannot be kept in **one segment**. 
+* One limit is **decided**, where **one segment** comes and it **segment size** is decided.
+* Every segment we create, that **segment size** should be **less than 450**.
+* The **d** will be **created** according to the **max. segment size** and how many **bits** will come in **d**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3e276d8-9af7-437e-91af-a88d2495b71e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e512db7e-695e-4475-a38e-a4c317f2ec1c)
+
+* No. of bits in **offset(d)** = (Log(max. allowed segment size) base 2) bits. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4197abde-beba-475b-8576-6eb0f8fee9d3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/54f28954-b713-4d08-9f63-ad6bd310dca1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/02418bec-cb02-42ab-89e1-9cc9ee055a10)
+
+* NO.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eafa88d3-497d-4b16-b65b-bf784c464d76)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89db5e4d-abbd-400c-b0c9-9a54870d5203)
+
+* **No**, Will be a problem. Hectic task. Not possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f5deb2b-d778-4190-ab4a-75728105470f)
+
+* Segmentation suffers from **external fragmentation**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0e415e9-354a-407f-a59e-8b12e4809a8d)
+
+* Deadlock prevention is **more stronger**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/49c849c8-bb5e-4f2d-b22e-efc042c91494)
+
+* Not deadlock detection, but **prevention and avoidance meh**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d5a56c89-e970-4de5-b75c-880922a45f21)
+
+* No.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3fcd59b-f684-4f29-9a16-31dd4bbd3e56)
+
+* yes
+
+
+
 
 
 
