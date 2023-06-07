@@ -8044,6 +8044,133 @@ while(condition);
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d7594961-0c1a-4d9d-8b49-d76ee53fd083)
 
 
+## Page replacement algorithm (27) [7th June 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e18828d1-086c-462f-882e-7dcc4f1c100c)
+
+* Effective Memory Access Time **formulae**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c5f7e54-350d-49e1-a88b-847d3e495b97)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fddf6986-2d6c-40e5-967c-56bc58e2a632)
+
+## Dirty-bit included without TLB
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ba7240c-b47c-4e41-8a32-83c394c3b43e)
+
+* **Hit in Page Table** -> PA -> Access memory for content
+* **Fault in Page Table** -> No replacement or not dirty page -> Direct bring page from **secondary memory** to **main memory**.
+* **Fault in Page Table** -> Replace dirty page -> Write back dirty page  + bring page to main memory
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f2c57979-ec2e-4adf-8654-de161e6ed356)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7713001a-2733-4375-9440-4562d0fa20f3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/04138119-57d8-43d0-9f9f-222096e01706)
+
+* Will be given in the **question**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8036f02d-258b-4ff7-b3ff-862d9d26c1ca)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0946496-b6e5-4878-bac4-d9c1c217e473)
+
+* Formula.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9fe550b3-0fb5-4fa6-b2a7-7541994df4ba)
+
+## Dirty bit with TLB
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98c5810b-713e-490a-88fd-a7825f261f45)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae3cc72d-29dc-40cd-bda2-27afcebb2874)
+
+* Formula.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea701f4d-bfc9-4608-a193-d8eabe485dd0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b8026ce8-67fe-4542-8f89-dca96613b6c6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b4d32533-b954-4ab3-8af2-6bb6c1ab294a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d16b9d1-c8c9-49a7-8b8f-9a7b7a25cc22)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d6b6709-3c5a-4d97-8a1a-3d8b80fc492e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a37e3f2-c937-4ac7-9015-25e6d93fc05d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5bc39f3-9a15-4b0e-b5e1-aadef222d360)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f44e42fc-809e-4ec5-9b4b-d95b3740372a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/196d6326-dc0a-442c-b277-b8f9cb8a7332)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e980e03-4d41-49ba-ad07-8feea8cfed1f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ca0f0700-d66d-499a-a185-ba276843b16f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e3e94c7-efae-4007-a770-b406d9ead421)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b479471-bd78-4b78-9278-036314614d16)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/601d6457-f420-45ae-9123-5ff623c52ba7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9779b48d-2c65-4312-ae87-6ea0a93872a8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58e241ca-8dce-43b2-a8ce-caf2462d6321)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e0ddfbcd-794b-4a4c-be93-6681d0e1d847)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1eae2bbd-5b14-43a1-aeeb-793a3029cfaf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cef687fc-64ef-4d5e-b617-280de1df2d8f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fbe03412-68e1-4974-86ac-762fb5c76f78)
+
+* Correct
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95f42b1d-713f-431b-8423-f4573fe75eb8)
+
+## Page Replacement
+
+### Algos
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/74f39253-15a7-40c7-8012-b61ddef13190)
+
+## FIFO
+
+* Replace the page which comes in main memory first.
+* All empty initially -> No pages are in **main memory** -> **Pure Demand Paging**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ddb2a90-52b9-446a-85a1-333dd659ee6d)
+
+* Tick mark(✓) -> Indicates **page fault**.
+* Cross(X) -> Indicates **no page fault**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c4bdc105-9753-4480-8698-65220fab53d2)
+
+* No replacements are required as of yet, as we have **empty frames**.
+> Now **page 4** comes, **page 4** is not in main memory so **page fault** will happen and we will have to bring **page 4** into main memory. We have **no frames** left and we have to replace one of the **3 pages** from **main memory**.
+
+> Now, in **replacement** algo we have to consider which one among **1,2 and 3** we want to **replace**. **1** came **first** so we will **replace 1** and bring **4** into the **main memory**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d5a0207-62be-4cca-ad20-f7f10c3046a4)
+
+> Whichever comes **first** in the main memory, **replace/remove** that **page** from main memory.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22226261-fcbd-4114-9a17-69d3f4f6dd7f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d24be8c-ccd2-411e-b48a-9e5dd3919352)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ffb7688d-180e-41db-a31f-73ea802bb51e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/93d79bda-7131-4e12-b893-66f44c5ba306)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4ad1e00f-397a-4768-a427-c0f6a4f63cc8)
+
+* Depends. We cannot say anything.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f9369b3d-7abc-4cff-bed0-70dc2e739304)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1dab5cf4-57de-44b4-b78d-3f28e748c84b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3296badc-7a9d-404d-8f60-bfb1631d0b70)
+
+## Belady's Analomy
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/550c4650-c99a-47c4-bda5-15a6571ca2c1)
+
+* For **some page reference sequence**, **increasing** no. of frames may increase no. of page faults.
+* Only **FIFO** suffers from **Belady's Analomy**.  
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af8b2e91-ac87-4e32-ab50-88ce2d4bda85)
+
+* Only **5** page faults.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cfa09dd1-b226-4a53-87e6-03c4d33cb900)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2bd4376-2c83-4480-b0e1-9be4ac61f6c3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f07c73f-9508-4653-9e05-94c2c421ca8a)
+
+* **FIFO** advantages and disadvantages.
+
+
+
+
 
 
 
