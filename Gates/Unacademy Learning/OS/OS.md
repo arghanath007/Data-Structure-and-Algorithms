@@ -7793,6 +7793,258 @@ while(condition);
 
 * yes
 
+## Segmentation virtual memory (26) [7th June 2023]
+
+## Virtual Memory
+
+> It is a concept and a feature of OS. It says that if the size of the **process** is **greater than** the **main memory** size then also we can **run the process**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a0d61452-4fdc-4245-a097-2e6b5f84a5a1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f83d7597-eb0a-4f55-a5e5-629c305cbdc3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8caa57ea-4f53-4153-b4c3-bee30ed0bb01)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/132c1ff4-7f51-4b0c-9e6a-f81f3dceab40)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91958e3b-5a39-466b-8d8d-64afe46bbe7a)
+
+* No. of enteries in page table = No. of pages in process.
+* Which ever **pages** are available those **entries** are kept in the page table.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f890c7c-3f25-4613-a173-26f2de0e334b)
+
+> The virtual memory says that the OS has the power, if the process is **bigger** and all of the pages of the process cannot come into the **main memory** then keep some of the pages in the **main memory** and keep the reset of the pages in the **secondary memory**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/48f33e12-486b-4423-bdf6-8a2b122473ba)
+
+* The above **process view** is visible to the cpu.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f2a8447-542a-426a-927d-ceb1a2eb20ce)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/26bcf37b-b1cc-422f-8839-a293abe6b121)
+
+* How does a cpu demand a page?
+
+> By generating a **logical address**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1399197-97b5-498b-8119-4782221d6868)
+
+* If the page that cpu wants is in main memory then it is called as **page hit**.
+* If the page that cpu wants is not in main memory then it is called as **page fault**.
+
+* A few pages of process kept in main memory and rest is secondary memory.
+* The page which are in secondary memory are brought into main memory.
+* Page Hit -> If cpu's demanded page is **available** in main memory.
+* Page fault -> If cpu's demanded page is not **available** in main memory.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bdc79bc9-4fbc-46d8-9aa3-b2c1ac0d5404)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5906c91f-b8db-4543-ac55-f3294a337ed1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6e5cc666-6614-4443-bbd5-dd3e900f3cbd)
+
+* We are talking about, Single processor, so no **two pages** can come together.
+
+## Demand Paging
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/912c66fb-7b8e-4649-b81e-7bb354030d91)
+
+* Don't bring the **page** into main memory unless there is a **demand** for it.
+* The **demand paging** concept is the **initial pages** that are needed for the process, those **initial pages** at the time of **process creation** are brought into the main memory and the rest pages are kept in **secondary memory**. When further **page's** demand comes then bring them into main memory. 
+* Some pages are already kept in main memory. This is **demand paging**.
+* **Demand paging** -> When a process arrives, a few pages are kept in main memory and rest are brought to main memory on demand.
+* **Pure Demand paging** -> When a process arrives, all it's pages will be in **secondary memory**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fdcfa733-133f-403b-a1dc-8c42262189b4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0fc7a37-df54-413c-94f3-023b66417d67)
+
+* Initially in **pure demand paging** all **frames** are empty.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/920c4a20-b5dc-49b3-9379-5c75efbf29e8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f56e65b8-9cb1-4655-8505-d3a7c870cb60)
+
+* **Pure demand paging and demand paging** are concepts that are **before/earlier** a **process** starts.
+
+* **OS performs page fault service** -> It means that the OS will bring the **demanded page** from the **secondary memory** to **main memory**. If there is an **empty frame** in the **physical or main memory** then the **upcoming/new page** will be kept there. If there is **no empty frame** then anyone of the **page** is **replaced** and copied to **secondary memory** after that only the **new page** comes into the **main memory**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6558c6bf-5e11-46ca-87ba-b97dc5b0d6dc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c1ab71c-0c9e-4f94-86d5-4121e31c76aa)
+
+* No **empty frame** here so one of the **page** is being **replaced** by the **new page** and copied into **secondary memory**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/095ed432-3e7f-4922-8fa5-f9077f8210b7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f962d6f6-6697-4e1f-a419-e0ea69167c43)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8b3e012-5e63-4010-9e00-946a76f94a24)
+
+* **OS** is doing everything.
+* OS performs **page fault service**.
+* OS brings **faulted page** into main memory and updates **page table**.
+* If a frame is **free** then keep new page into it or else replace a page and bring new page in place of it.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/887b9a54-7a06-42da-83ef-230b0b81fe0d)
+
+* Is there an **empty thing** in computer systems?
+
+> **No**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3a6aa01-39d2-4f8d-9e0b-e305d22ff3c5)
+
+* 'x' contains some **un-predictable** or **garbadge value**.
+
+* How we will know that **page 1** is in **main memory** or is in **page fault**?
+
+> For this, in **page table**, with the **page entries** we keep an **extra bit**. The **extra bit** is called as **valid/in-valid** bit.
+
+> In **page table entry**, we have the **frame nos** and with that we are keeping an **extra bit** and **one bit** is for **valid/in-valid** bit. 
+
+* Those **page table entries** we don't have currently we will keep **0** in the **valid/in-valid** bit. 
+* Those **page table entries** we have currently we will keep **1** in the **valid/in-valid** bit.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2d57b08-e72e-4087-8b4f-d4d794144326)
+
+* **Valid/In-valid bit = 0** -> page not available in main memory.
+* **Valid/In-valid bit = 1** -> page available in main memory.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/96ed6fe0-caf6-41f5-b1e5-7f6513bfcd72)
+
+> When the cpu generates the **logical address**, we went to the page table. We found out that **page fault** happened.
+
+> When **page fault** happens then an **internal interrupt** is generated for the OS. A **system call** happends and then OS performs **page fault service**.
+
+* This **internal interrupt** in the OS is called as **system call**.
+
+> Once the **page fault service** is done, the instruction which caused **page fault** will **restart** again and this time it will find the content in **main memory** and **page hit** will happen.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81316821-6e09-475b-a73c-1a888a4d778a)
+
+* From where we are copying the content during **page fault**?
+
+> From **secondary memory** to **main memory**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/54c05b3a-dfe4-445c-b42c-1be73716ecfa)
+
+* **page fault service** -> Copy page from seconday memory(I/O devices) to main memory(RAM). 
+* It means **service of DMA** needed.
+
+* Which of the following may need **DMA**, cache miss, TLB miss, page fault, etc etc?
+
+> **Page fault** because we have to bring the **content** from **secondary memory to main memory**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae4f774b-f4c6-4cb3-bb83-308a67f76477)
+
+> If we went to do **page fault service** and it takes a **very long time**. It is called as **page fault service time**.
+
+* Time needed to service page fault -> **Page fault service time**.
+
+> Everything comes within it. If we are copying **one page** from **secondary to main memory**, **updating the page table**, **replacing pages** everthing is included within it.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3064e850-0caf-4006-b6f1-94b4f44903bd)
+
+* Yes, everything.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e98f4f7f-f224-4ed4-ac33-c7cf25f79128)
+
+> If **page fault service time** is **less** then the **performance of the system** will be fine/good. If we have an **empty frame** in the **physical memory** then there is **no problem**. 
+
+> If we have to **replace one page**, then we will have to think **twice** that do we want to **replace** the page **directly** or we want to write the **page** in the **secondary memory**.
+
+> For that an idea was proposed that when we are bringing the pages into **main memory** then track every page where the cpu has performed a **write operation**. On the page where the cpu has performed the **write operation**, that page has been **changed** by the cpu. Another copy of the page will be kept in **secondary memory**.
+
+> We will check if the **content** of the **main and secondary** are **different**. If so before **replacing the pages**, we will copy the **page** in the **secondary memory** as we have **made changes** in the **frame** using cpu.
+
+> If the **content** of the **main and secondary** are **same**, as cpu has not done any changes to them. When we want to replace that **page** then we can **directly** replace it. **Yes**.
+
+* This same concept was in **cache memory**.
+
+## Page Swap Time 
+
+* For each page entry in page table, a diry bit is maintained.
+
+* 'M' -> Modified or dirty bit
+* If **M=0** -> Page not dirty
+* If **M=1** -> Page dirty.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/de53e114-a3ae-41fd-96cf-99e88209aa25)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6adc27aa-05e4-4836-be70-bd7852fa8235)
+
+* While replacing a page from main memory, only dirty pages are written back to **secondary memory**.
+
+> When we wanted to replace **page 0**. When replacing **page 0** we will check it's **page table entry** that infront of **0**, what is the **modified bit**. If the **modified bit(M) =0** then we took the **page 0** into main memory but we never modified anything so the **copy** in the secondary memory is same as the one in the main memory. So, we will **directly** replace **page 0**, we will not **write back page 0** to secondary memory. **Hugh amount** of time is saved as secondary memory is very slow.
+
+> If a **page is dirty** which means **M=1**, then we will **write back that page** to secondary memory.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6eb437cf-716c-41dd-86c6-0522a1d8f55f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b744a08-2ebf-433a-8c71-3f8587043883)
+
+* **YES**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/274ee89d-5004-4d33-94da-86b36107bc24)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ef990f9-3e00-46b5-8df8-503a31a5b405)
+
+> All pages are in **secondary memory**. When a demand of a page came then we have made a **copy of that page** in the **main memory**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3ba2a56-c2a1-4da0-8b84-bf4da65f5439)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b2cbb217-8423-49eb-9577-5b5a521f4327)
+
+* Many different cases will be created here.
+* Page fault time and **empty frame there** -> **First and second** times are **zero**. **3rd and 4th(Blue and yellow color)** time are **taken**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ea08a07-5639-48f0-bd3a-811be76f714e)
+
+* Page fault time and **no frame there** but the page to be **replaced** is **not dirty** -> **2nd time(Green color)** is not taken**. **First, third and 4th(Pink, blue and yellow colors)** times are **taken**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/016f99b8-f9e7-45ae-ba2c-fc07b1efa89a)
+
+* Page fault time and **no frame there** but the page to be **replaced** is also **dirty** -> **All four times are taken**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cfde1fd1-6cf9-42e7-97d0-51dbd10fb5eb)
+
+## Effective Memory access time
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2264022a-f0c7-4bf2-ba4c-a24e1c4d163e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ffc11e55-bb0f-409c-b6f3-edeae4fe6e9a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3f72a03-13dc-4e0b-88a8-628fd2d4ef23)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b967917-b014-41cb-926e-ee7560a1c6ab)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2d6d48e1-f8f0-48ed-a7e6-198eda196394)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/faece729-048e-4012-801d-ea948b89470b)
+
+* More **refined** formula.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6775e154-3fbb-4b74-b2e4-43a4d8c63aec)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69bda203-083f-4ff9-b19d-96c1e24949a2)
+
+* When **page fault** happens, **page fault service time** is needed.
+* When **page fault** doesn't happens then, **two times main memory access time(2 * Tmm)** is needed.
+
+## TLB and Virtual memory
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/26d29b30-b428-40a8-938b-7aee7e5c292f)
+
+> If **hit in TLB** then we will get **frame no** and in turn get the **physical address(PA)**. We got **physical address(PA)** means that **page** is within the **main memory** itself only. So, for **these page**, can there be **page fault**? **NO**. **Page fault** case will not happen.
+
+> Now go to **main memory** and access the content.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb5f3bba-e63a-4cdc-aa0e-637f27a7f274)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b766cd77-9572-4bad-8775-a0fc066baa9d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c3e5858-4b99-4dff-a6a2-67df21be4833)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f40e5e7-ec53-40f5-b417-380023ab625a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05f46ff1-26c6-49c3-ad8b-40caa819433f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4ff91e09-ab70-4a6b-ab98-5c28e71aa2b4)
+
+* P -> Page Fault
+* (1 - p) -> Page Hit.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ca95d9a-13c6-4589-ae7a-6095bb985050)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/93ea3fff-800b-4687-b6d3-804568a2bd14)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4ec9b589-8c42-4095-9643-9511ed291a37)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb3649fd-50d0-46f4-bf3c-e2c4bdf73595)
+
+* **GATE 2020 question**.
+* DPPs given.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf93dc84-0c06-4d51-b06f-ef101914a80f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9123ac8-711f-4845-82a7-3c684beb3fa5)
+
+* Will be broken down and given seperately and we have to find the **page fault serive time**. Like below.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d7594961-0c1a-4d9d-8b49-d76ee53fd083)
+
+
+
 
 
 
