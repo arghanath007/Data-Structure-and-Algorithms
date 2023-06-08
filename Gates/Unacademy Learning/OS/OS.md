@@ -21,6 +21,7 @@
 * Cpu-scheduling-pyq-discussion-part-I -> https://unacademy.com/class/cpu-scheduling-pyq-discussion-part-i/T8IWFUH3
 * cpu-scheduling-pyq-discussion-part-II -> https://unacademy.com/class/cpu-scheduling-pyq-discussion-part-ii/K4Y81I1H
 * cpu-scheduling-synchronization-pyq-discussion-part-i -> https://unacademy.com/class/cpu-scheduling-synchronization-pyq-discussion-part-i/RLE53AC9
+* synchronization-deadlock-pyq-discussion-part-i -> https://unacademy.com/class/synchronization-deadlock-pyq-discussion-part-i/6WEIBHH0
 
 
 
@@ -8360,6 +8361,85 @@ while(condition);
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d896d408-cb2b-439f-91ed-18fd20f3adea)
 
 * Apart from **optimal policy**, some other policy can give the **same no. of page faults** as **optimal policy** but less than **optimal policy** is not possible or will not happen.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e43f6c43-0a94-4a49-b7fe-735719aed90e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d19cb36-257b-44b2-bc0b-60d1a66b029a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27cda218-561f-40b5-b003-467f75523631)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/60513c15-b446-45f9-ba56-761ef4712620)
+
+## MRU
+
+* Most Recently Used
+* Replace the page which has beeen referred most recently.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f26abac7-1594-4250-89d5-c212a475aa50)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d4e9079-0c81-4efa-9a98-5bfb4e1e31c2)
+
+> For **2**, the **recently** referred one is **4**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33408195-a376-471d-b027-bd4b2fe94508)
+
+## Counting Algorithms
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f19a875a-0caf-4ac0-b511-fc9025d01624)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/42dfe9e6-1bbe-4e64-9d98-703e8267b5be)
+
+## LFU(Least Frequently Used)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c91b91f2-9c70-4c45-abcf-a3e9a2ab2234)
+
+## MFU(Most Frequently Used)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1be5c38f-66a7-4d1b-8ec8-18679f3a31dd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05ef4c0f-67eb-4793-9b76-4ca6f0d06852)
+
+> For **0**, we are checking who has the **highest frequency** amoong **3, 2 and 4**. We can see that **2 and 3** has the **highest** with **2**. So a **tie breaker**, and we will use **FIFO** to break the **tie** as **2** has come before **3** so, **2** will be **replaced** with **0**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e25c62fa-d3af-4982-b9c2-59d6761e4458)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b24b64c4-014b-4b30-82d3-e2ebff93883c)
+
+* Not **same** to **same** always. Not necessarily.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/940d489a-7d5c-45ad-ba9d-d758c8c26a73)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0efcb8af-abc8-46ac-8f19-eb3e6e30dbba)
+
+
+## LIFO(Last In First Out)
+
+* Replace a page which has been brought to main memory last.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/07b35661-77d7-450a-b2ca-896b62d8f9c8)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/188d5fe2-5ab8-405a-abae-8cf904fd9ce5)
+
+> For **5**, the **latest** bought to the main memory is **4**. So, we will **replace 4** and place **5** there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f2a536d-b659-4299-ae1c-85665cb8099d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b804d62a-188b-4fc8-a111-9f1b0523be5e)
+
+### Questions
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9c45c8aa-3f8f-4960-9169-194d0493e937)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d55dbf8-2d1d-4e33-b752-c905c49c0b1d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/650c86bc-e575-4cea-b1e1-4316f9cf9597)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8fd82f11-3f40-44df-aaf5-6f13587f6787)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab2e910f-53b9-4fbd-93f2-22b7f32ce2c1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a89e5fb9-2a1b-4b9e-be0f-7f4544511706)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c4ecc502-3526-4443-929b-409b3eb3db51)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7673204e-605e-47a7-9570-f0d9a764b5cd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b55a8828-68c5-4ede-bcab-180cf01490d5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6eab4df1-42ce-473e-8a0a-482d04e9917e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/486da4d8-9645-443f-a49c-2bd79ae90c65)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa69664c-ccae-4f6b-9e7c-dd9c8f3686a9)
+
+* Home-Work.
+* DPP also.
+
+
+
+
 
 
 
