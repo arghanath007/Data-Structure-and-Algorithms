@@ -8281,8 +8281,83 @@ while(condition);
 * Exactly **same**. **YES**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/703c3fff-9d41-4645-9425-fc2e9f36dbd0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e0294f47-41af-49fb-9e78-103e70c6e7cd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8be54622-f6b6-4eb0-b122-b8c55ec9f6e9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f5f7c7e-8b70-4423-80f2-0a021d87d1fb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c6682647-dc15-46bf-8b06-aad5e6c884ee)
 
+* Advantage -> Provides min. possible page faults.
+* Disadvantage -> Not Practical
+* Why **Time Consuming**?
 
+> Takes a lot of time to find a page to replace.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2675ac24-d797-420e-8e53-86614e19ac14)
+
+* If asked in a question and we are given the **sequence and no. of frames** then tell the **min. no. of page faults** for the **given sequence**?
+
+> If **some other policy** is not mentioned then we will apply **optimal policy**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b1e701b-3ddb-49ad-98fb-98daf59258c3)
+
+* Sometimes page reference sequence can be is like that some other policies are brining values **close or equal** to optimal policy but **not less than** that of **optimal policy**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec6109d8-1d48-4fb8-9af6-3d188db39177)
+
+* Optimal policy gives no. of page faults always less than all other policies' page faults?
+
+> **NO**.
+
+> All the page faults will be **min**. **YES** but the **min.** cannot come to others that is **not necessarily true**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1c9f890-3698-4cf0-9421-395c7a319c5d)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a6f5adeb-2d24-4275-8df0-2cbbea0be874)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b491372-d66e-40e5-b768-c064eb17cbf1)
+
+* As we can't see the **future**, let's try and see the **past**.
+
+## Least Recently Used(LRU)
+
+* Replace a page which has not been used since longest period of time.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2179340b-01a9-4ef4-9fb0-b531d895f3d0)
+
+> Now for **4**, we are checking which **pages** have been used **recently**. **1** was the **longest** which was **not used**. So we will replace **1** with **4**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a4cf2fd8-404e-40b9-84a0-4537a48cc26c)
+
+> Now for **1**, we are checking which **pages** have been used **recently**. **2** was the **longest** which was **not used**. So we will replace **2** with **1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0212e8fd-1730-4e15-ab0f-72ffcbd4412b)
+
+> Now for **2**, we are checking which **pages** have been used **recently**. **3** was the **longest** which was **not used**. So we will replace **3** with **2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be5280f0-c350-4fa7-b248-e9155bf24743)
+
+> This is the **difference** between **FIFO and LRU**. Now **3** came and according to **FIFO**, we would have removed **1** but in **LRU**, we are taking into consideration that **1 and 2** which had **no page faults** were also **used**. So in that case between **1, 2 and 5**, **5** was the longest which was not used. So, we will replace 5 with 3.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/20603fe2-bd1d-4020-ae00-0126d44aee9d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb71dd33-48bf-4726-9983-858b644b1a15)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41fb783a-1e25-44aa-8de4-04a507aefe4a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d4be9f5-1770-4815-b80f-f1904bb70dfa)
+
+* **No Tie breaker** or anything needed here.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5bffdb9b-1014-44ae-b106-ad763f536efa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b64b45d8-fa93-44c5-9c41-0ad7df5ebf55)
+
+* Depends, implementation detail. Complex implementation.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c838b0b-1a60-428e-b778-58f018ddf8cc)
+
+* LRU, **advantages and disadvantages**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/143d0b3d-5655-47d0-8c12-aea539696b81)
+
+* Start from 48mins
 
 
 
@@ -8314,7 +8389,8 @@ while(condition);
 
 * **D** option.
 
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f448e639-75e1-49af-b1ef-e092988eed58)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f448e639-75e1-49af-b1ef-
+e092988eed58)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/268cadc9-6650-4322-9f8e-941a02a2f551)
 
 * Fatal Error -> Suicide of process.
