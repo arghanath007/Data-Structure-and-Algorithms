@@ -8437,6 +8437,97 @@ while(condition);
 * Home-Work.
 * DPP also.
 
+## Multilevel paging (30) [8th June 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/516d84d4-c57c-450a-bb4b-16fbc7d4985c)
+
+* Pure Demand Paging -> Initially frames are empty.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d6c7490-ad67-4c1c-9104-255056e1a2c1)
+
+* Predefined division of pages is gone.
+* They are **addresses**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/da7d725a-2210-4f61-9302-54edd764a430)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/52640c47-1e6f-4020-8346-208f13f82e94)
+
+* CPU generates **logical address**, from that **logical address** we exact the **page no**.
+
+## Making Page reference Sequence
+
+* Assume CPU generates logical address in following order:-
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22cba8c3-a68e-4b46-91a5-b8f30caac059)
+
+* **Page reference sequence** -> 3,4,2,4,3,1.
+* If **consecutive** pages are being **referrenced** of similar type then we will write it **once only**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2501fcb1-573f-4c55-9c48-2d38e3cd3abb)
+
+* If a page referred consecutively then in page reference sequence, it is mentioned only once.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea0ef0ec-e586-4ac5-ac44-229041f0d6a5)
+
+* The **hit ratio** we calculate is of the **page reference sequence** and not the actual one.
+* It is actually not the **actual hit rate**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f37e108-34c7-4c5c-8e5c-4157cd1f0fa6)
+
+* p -> 1010101011 -> 1 + 2 + 8 + 32 + 128 + 512 -> 683
+* d -> 100000 -> 32
+
+* From the **page no**, what can we solve?
+
+1) Find **physical address**.
+2) Calculate **no. of faults**.
+3) Calculate **page reference sequence**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b2157d7b-e559-48b9-bf18-1b8db4e7c1ee)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6e5ff59f-722f-42c3-8290-ef227876e64d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36b6e16a-e4b1-4027-bef0-0f498b3310e9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa04106a-fb71-4a82-92c0-395806484fa6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/735852fc-322d-41be-b4cb-95dc8c46cfee)
+
+* To which page does the **logical address** belong?
+
+> We will use the **division** method when **logical address** is given in **decimal number system**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e053220f-0cc8-41b7-a569-8b80b923a47f)
+
+* When the **logical address** is given in **hexa or binary number system** then we will use the other method, which is **divide the bits**. 
+* If in **binary** then direct **division**.
+* If in **hexa**, converting to **binary** is easy.
+* Direct distribution of bits.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d010004-cbd9-4efe-b8b2-904a1acb268f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c993388f-e2b9-4571-a466-b1ce36a0da2e)
+
+* Ofcourse.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c02f934-fdb0-4a11-ab37-88db3841c203)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/90b5fcc1-b4bb-429e-9da0-3228fe8ff39e)
+
+## Frame Allocation
+
+* At one time, there is only one process in main memory or more?
+
+> **Multiple**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9afd5849-9f7a-49b2-84a4-fd7ae28eac9e)
+
+* Frame Allocation -> How many frames do we allocate per process? 
+* The OS allocates frames to the process.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b387710-1841-4ef4-b7d2-e97e354b0d47)
+
+1) Equal Allocation -> All processes get equal no. of frames.
+2) Proportional Allocation -> A process gets no. of frames allocated based on it's size.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db8b22cb-3a4b-4324-9632-dbe60cbe5dfc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/989126e0-212c-4d8b-a127-b3bb8f978d5b)
+
+* **Start from 56mins**
+
 
 
 
