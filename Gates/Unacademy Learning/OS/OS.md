@@ -8238,6 +8238,49 @@ while(condition);
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/236293ce-fa7b-4fef-9063-6ce0aea04528)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0dce9ff8-b0d1-48c4-ae63-81d50fc000bf)
 
+## Page replacement and frame allocation (29) [8th June 2023]
+
+* **Belady's Anomaly** definition -> In general when we **increase** the **no. of frames**, **no. of page fault** doesn't **increase**, it will either **remain the same or decrease**. But in **FIFO**, there are some **page reference sequences** where if we **increase the no. of frames** then the **no. of page faults** also **increases**. That is called as **Belady's Anomaly**.
+
+* To solve Belady's Anomaly, we will implement **optimal policy**.
+
+## Optimal Policy
+
+* Replace a page which will not be referred for **longest period of time**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7413226f-922a-4970-8d4d-bcb2849fb72e)
+
+> Now **4** comes, we have to check among **1,2 and 3** whose's not referenced for the **longest time** in the **future**.  
+
+> **3** is being used **way forward** in the **future** compared to **1 and 2**. So we will **replace 3** with **4**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16b4f227-89a9-4012-b017-aa476765a714)
+
+> Now **3** comes, we don't have any reference of **1 and 2** in the future but we have **reference of 5** in the future. So we are definitely not removing **5**. **Two pages(1 and 2)** who have **no reference** in their future. As they both(1 and 2) don't have **no reference** in the future, whom we will **remove**?
+
+* If multiple pages comes that don't have any reference in the future, then we will apply **FIFO**.
+* If **Tie** happens and to **break** the **tie**, we will apply **FIFO**. 
+* Whichever page has **come first** we will take that out **first**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a90aad65-911d-4a19-b053-feaaed26d6e7)
+
+* Out of **1 and 2**, **1** has come **first**. So, we will remove **1** first.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0dff8542-de92-4848-8efb-12cfdbe711ad)
+
+* There will be **no difference** but we have to implement something here.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d65b95aa-4e8d-43f4-abd6-fdaea3857b87)
+
+> Now **4** comes and **3 and 2** doesn't have **any reference** in the **future**. So, we will apply **FIFO** and we can see that **2** has come **first** than **3**, so we will **remove 2** and put **4** in.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e127d1a9-4d56-44f4-b611-53e81a127b41)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cff0a6f8-721b-43e5-88d8-0f108b0af053)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d6ee2ba-27f4-4fc0-ae2a-2834fab94479)
+
+* Exactly **same**. **YES**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/703c3fff-9d41-4645-9425-fc2e9f36dbd0)
 
 
 
