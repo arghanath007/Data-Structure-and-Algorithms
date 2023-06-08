@@ -8356,8 +8356,10 @@ while(condition);
 * LRU, **advantages and disadvantages**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/143d0b3d-5655-47d0-8c12-aea539696b81)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4865551c-8243-4cca-9f7f-87466ce31691)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d896d408-cb2b-439f-91ed-18fd20f3adea)
 
-* Start from 48mins
+* Apart from **optimal policy**, some other policy can give the **same no. of page faults** as **optimal policy** but less than **optimal policy** is not possible or will not happen.
 
 
 
