@@ -8168,6 +8168,76 @@ while(condition);
 
 * **FIFO** advantages and disadvantages.
 
+## Doubt clearing session page replacement algorithm (28) [8th June 2023] 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9fffc499-e1f7-4175-b981-2dedf413d303)
+
+* No. Not there.
+
+## Doubts
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7c34868-2ddc-4f13-8f1b-f3d619f0c751)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c88bc7c0-8758-4113-b7a1-495050ef1c7f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80982939-d2c9-4b5c-9001-1ef94129afe7)
+
+* Leave this type of questions. Will not come in GATE.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b412bcf-a49e-481c-bbbe-7946243b9792)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7739a250-7139-4d5f-b9d9-9155c3be3999)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7587a793-3140-4027-ae57-3c6b0089d13c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe17c39b-ac77-4e70-94be-a131b3a0c018)
+
+* No waiting will be there.
+* Starvation can happen for resources.
+* Live Lock could be possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b677b892-ed56-4240-aadb-3557e0579af2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fbca2e86-8427-4621-9321-7fe0605c4901)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/906dbdc9-4020-46c7-b58d-20d00482f45a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/984065a5-bd90-4339-bf24-b406605a5970)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b6872d7b-f794-4164-a935-f24f99a7c8e1)
+
+* EMAT or Effective Access Time is **inversely** proportional to **hit ration**. As **hit ration** is **increased/increases**, the EMAT time **decreases**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31efae6c-3f97-4f32-9080-9899c9732a41)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf4d5227-38ef-4b24-93ff-6269172d63a1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22a2e664-b713-47b6-8e1e-fa92cf0c3be1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b2808150-92a1-4317-82b3-ebc8734122cb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d7126157-2098-429e-906d-a11d73a5db70)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5cc7200-f3c2-4476-8da8-800638395b53)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/551880c6-d8d1-4c32-a529-ea99085995e2)
+
+* If we **increase or decrease** the **page size**, **virtual address** remains the **same**. 
+* If the **process size** remains the **same** then the **virtual address** remains the **same**. **Virtual address** will not change.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1081571b-b4c9-4ed2-bd4e-d6f4598282fb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4df8bb6c-4528-40fe-b36d-a8daeaa57bda)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1db82735-e277-40ee-bdfd-cc03e9f93111)
+
+* Yes. As **page size** is **bigger**, **internal fragmentation** can be **possible/maybe**, not confirmed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a139b61e-4f32-4afd-8ed1-d629388301d4)
+
+* Ofcourse, reverse will happen.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd3e4a85-a627-41b0-b1fb-8a70ec5e3e3c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09ff0d1f-9d05-4c37-a9e8-8ac38d9762ad)
+
+* When no page fault.
+* When page fault
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f52a8012-2b74-4543-9fc3-56314a8ca2c3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a90cdda7-4cc7-4ebe-95d0-0c3c1ca62685)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ee66f96-e54a-49ab-a522-11104f8d692c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a373ce8b-5867-4204-84ec-2232432ed525)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d73d31e-12c4-46f3-8ba8-44e2c5dee97e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/120d32f7-8aaf-4506-af1f-2cc36fdbb00a)
+
+* **Fetch and set** is like the **lock variable**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/236293ce-fa7b-4fef-9063-6ce0aea04528)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0dce9ff8-b0d1-48c4-ae63-81d50fc000bf)
+
 
 
 
