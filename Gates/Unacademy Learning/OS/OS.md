@@ -8792,6 +8792,9 @@ while(condition);
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/21fdb31e-6424-4d40-9eee-90f16427e1f3)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5541f388-81b4-40d9-a916-39fa5b801510)
+
+* Ofcourse. Total page table size will **increase** but we don't have to keep the **whole page table**.
 
 
 
