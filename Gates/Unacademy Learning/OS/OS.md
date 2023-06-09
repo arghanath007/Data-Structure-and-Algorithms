@@ -8796,7 +8796,109 @@ while(condition);
 
 * Ofcourse. Total page table size will **increase** but we don't have to keep the **whole page table**.
 
+## Inverted hashed page table (31) [9th June 2023]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b31e4512-7115-400b-8d9b-3a4e9e9597cb)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc35d63c-6e98-46e6-b9e5-5548a5d61ec4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7182a861-10c4-40fe-8971-ad94c79fa4e8)
+
+* PTBR.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2e4463a-ac95-4bd6-a788-1978a629e39b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a4c659e7-72e7-4622-bd95-d694d216181d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db6f461f-fae8-49ae-9310-b9aadebfb3cf)
+
+* As we are doing **multi-level** paging, we are dividing, **p** into **two** parts. **p1=1 and p2= 2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ce8e689-2920-4736-a59d-4097f1988cb6)
+
+* In the **original inner page table**, we can keep **4 entries** in a **page of the page table**. In total we have **8** entries. When we go for the second time to the **inner page table** for **searching**. We need **2 bits** among the **4 entries** to pick one of them. That's why **p2 = 2** bits.
+* The **outer page table** has **2 entries** only. That's why in the **outer page table** we are **searching** by **1 bit** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/226cf480-fd1c-47c0-a4fc-fb113a0e24e2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/46572598-e844-44e4-9db0-1dac5b5d191c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ead9e8f-98d6-4497-a3e3-02b574522d87)
+
+* Because in the **inner page table** we can keep **4** entries and to pick **one entry** among the 4 entries, we need **2 bits**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ecea60e-d598-45e8-91f8-b520152433d5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e0daab39-3228-4e5b-8423-2a79a62101fc)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/984e8798-7200-440f-b4ad-d4c35ca56d6e)
+
+* **No. of entries per page**, how do we calculate it?
+
+> **No. of entries per page** = (**Page Size**) / (**Page Table Entry Size**).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/065ed545-97ee-4ada-8134-65f0e9b69fbe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf747f99-cb71-443a-b597-8dd148214a00)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/153cfa75-c9c2-4f0a-becd-f99900cfeca5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0140443-9a42-4d6b-8853-b497a9185f66)
+
+* Depends on many things, including the logical address.
+
+* It is mandatory that the **no. of levels is 2** only?
+
+> **No**. Can be **3, 4 and 5 etc**.
+
+* If the **outer page table** doesn't come in **one page** then?
+
+> Levels will keep on **increasing**, until **one page tabale** is left at the **outer**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86bd6217-4051-4cf4-baec-027723d86797)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71740ec9-401e-4f1b-a4bf-b4c2f7c7340d)
+
+* No.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36eef8d2-eed7-4f70-bad2-2cecb650dc75)
+
+* At any level if page-table cannot fit into one page then, increase levels of paging, so that outermost page table can fit into one page.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/312b7a5b-1ba0-4f6c-b85d-2d2773edfc11)
+
+> **4** entries at the **outer page table** because **each entry** is  pointing/linked to **one of the pages** within the **inner page table**. 
+
+> As we have **4 bits**, so we will **search** using **4 -> 2 ^ 2 -> 2 bits**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/979533df-33c4-43ba-9f9e-bb78ad72a573)
+
+> In the **inner page table**, we have **8 entries**, so to **search** for **one entry** we need **8 -> 2 ^ 3 -> 3 bits**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c4de7026-1603-466b-8ebe-9cc5b5b3ea82)
+
+> **One outer page table** is there but it should have **min. of two entries**. **Max. entries is whatever no. of entries** possible.
+
+> **Min. of two entries** and why not **one entry** because **one entry** means that there is **only one page** as **one page** can hold the **whole page table**, so why we would need that **outer page table**.
+
+> When we split the **original page table** then only we will get the **outer page table**.
+
+> If we are not splitting the **original page table** then there is no need of the **outer page table**. There will be **no multi-level paging**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f4c45d3d-9e12-4940-b604-cc0a50c7875f)
+
+* Yes, multi-level will **increase** the main memory access but it will not **increase** the **changes of thrashing**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b9989c19-8c99-4b25-96ba-3b60b88e0a23)
+
+* We will search the **outer page table** using **P1** and we will search the **inner page table** with **P2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/79415254-2724-42f7-8d78-c1b0599b2b69)
+
+> We found **no. of entries per page**, which is **9 bits**. We had **29 bits** as **p**. So, we will start writing from the **right side**, so we put down **9 bits** of a level, we have **20 bits** left. We put another **9 bits**, we are left with **11 bits**. We put another **9 bits**, we are left with **2 bits**. So the **outer page table** is of **2 bits**.
+
+> Don't keep more than **9 bits** in **one level**. At the **last level**, **less than 9 bits** can come.
+
+* So the **level of paging** -> **4**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0849aa3-acf2-414e-acae-288b29ee3ddc)
+
+* One type of question can comes in **GATE**.
+* Start from **32mins**.
 
 
 
