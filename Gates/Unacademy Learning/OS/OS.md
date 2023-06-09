@@ -8525,8 +8525,273 @@ while(condition);
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db8b22cb-3a4b-4324-9632-dbe60cbe5dfc)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/989126e0-212c-4d8b-a127-b3bb8f978d5b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b92a1854-547f-40b4-94cc-b20811f1ff75)
 
-* **Start from 56mins**
+> In **proportional allocation**, calculate the **total no. of pages** in the processes. Here, we have **12 + 4 -> 16 pages**. Out of **16 pages**, what is the **fraction of p1 process**?
+
+* P1's fraction = 12/(12 + 4) -> 3/4
+* **No. of frames** for P1 -> P1's fraction * (no. of frames) -> (12/(12 + 4)) * 8 -> (3/4) * 8 ->  6 frames.
+* P2's fraction = 4/(12 + 4) -> 1/4
+* **No. of frames** for P1 -> P1's fraction * (no. of frames) -> 4/(12 + 4) * 8 -> (1/4) * 8 ->  2 frames.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2caca302-191b-4bd8-9ed6-eafdbd6c6170)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/638b43de-0182-4c8c-a1c8-d88065c644e1)
+
+* Equal allocation is not good because some big processes which have many pages will get less frames, then there will be **higher no. of page faults** in them.
+* The process which has less pages and got more frames, then they don't know how to use those frames properly.
+*  Equal allocation is not good idea.
+
+## Local VS Global Allocation
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f674da0-bb3e-4377-a86b-3f58b4000775)
+
+* Any process which has **fixed no. of frames** allocated to it from beforehand and **page fault** happens for this process, then a **new incoming page** coming to **main memory** then that page will **replace** this processes' page only everytime.
+* If this happens then it is called as **local allocation**.
+
+### Local Allocation
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f5ad1b8-cd1e-4731-afb4-512f3fccbe63)
+
+### Global Allocation
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76b1bb19-7add-4cfa-bd08-ae297d842004)
+
+## Thrashing
+
+* As we **increase** the **no. of process** in the main memory, **utilization** of the cpu **increases**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c6a1d24f-6d4a-4d56-ad17-509dfb0da47e)
+
+> CPU **utilization** has started **decreasing**. CPU is not being used to run processes, it is being used for **page fault services**. If cpu **utilization** has **decreased** then **long time scheduler** will think as the cpu **utilization** is **decreasing** it has to **increase the no. of processes**. When **no. of processes** are **increased** then **more page fault service** happens. 
+
+> This cycle of **increasing the no. of processes** and the cpu **utilization** is **decreasing** continues. At a certain point of time, there will be **alot alot of processes** that the cpu **utilization** suddendly drops and becomes **zero(0)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c6ee9f29-1a58-4f9e-8028-a14ee3168dcd)
+
+> Now, cpu only does **page fault services**.
+
+* When the cpu utilization **decreases** and it becomes **zero(0)** then that situation is called as **thrashing**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1545530-721c-4d44-baa2-4b7828bbc35a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6fb61cc7-9b81-4ba6-8e3a-1e4b48487c20)
+
+* High-level paging activity is called as **thrashing**.
+* When cpu spends more time on page fault service as compared to process execution.
+
+* **Two** models to control  **thrashing**.
+
+## Locality Model
+
+1) Working Set Model
+2) Page Fault Frequency
+
+## Working Set Model
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d675dfa-2332-4770-b225-008367299104)
+
+* Process's working set.
+* Keep min. no. of required pages of a process in main memory such that process experiences min. no. of faults.
+* **Keep min. no. of required pages** -> Working set.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a9b704d-8d6b-4426-83f6-12ec4ebb0fe3)
+
+## Page Fault Frequency
+
+* For example, 
+* **Upper bound** -> 18%
+* **Lower bound** -> 5%
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ddb3643-ed00-4560-ae46-2fd3af024260)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e62c474-76cc-45b2-827a-8af495845b7b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9f8e25f4-5ea4-4ddb-918e-58898fb9c0b5)
+
+* **64KB** is the page table size
+* Can we keep the whole **64KB** size page table into a **page** of size **1KB**?
+
+> **NO**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b70058d4-d900-4174-8ddf-db438910eba8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a1c75b8-38a8-4cbd-91c9-9cca2c947839)
+
+* 64KB/1KB = 64 pages.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/03f91f76-5d49-450c-836b-225bd2929481)
+
+* If not then how to access the specific entry?
+
+> When the process comes to main memory, then the **OS**, **reserves** some of the **starting space**, to store the **page table** completely.
+
+> The **remaining space** is **divided into equal size pages or frames**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/286a264c-6814-41cf-9a9c-a17efe68e0f0)
+
+* This is the **basic concept**, if we want to store the **whole page table** into main memory.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b7a1eb4f-ce89-473c-9a05-f5ad3a1eb6ff)
+
+* If entire page table to be stored together.
+
+> **Virtual memory** says that we don't have to bring **all of the pages** of the process into main memory because cpu don't need them all at the **same time**, why will we bring them.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/836d3a4f-d65b-4abd-be2c-ce23cc17e144)
+
+* The **concept** from this came out that we will do **paging** of the **page table**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b8c65041-ec62-41c2-aa45-6311d071cf26)
+
+* **Two advantages** of doing the **paging** of the **page table**:-
+
+1) To keep the whole **page table** together, we don't need to **reserve** the space. We can store them separately anywhere.
+2) We don't have to keep whole **page table** in main memory. Keep the ones needed in main memory.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/87028079-7ded-4660-9b92-1505561520a0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a808c6a9-91e3-4a51-b57b-6242918ec80d)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57951570-eb14-45fc-8db2-083580832d7c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c09e9454-38ee-4b13-8718-8a83ac0288d3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/073d7b7b-f221-4175-9d84-8b739c2ff2b7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a6b997c-c8b1-4278-8ac6-4c38edf70123)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff1a4e11-f0fd-42e5-b7fd-5030082c75ff)
+ 
+* We have made **two** parts of the **page table**.
+* **Page table** is of **8 bytes** and each page is of **4 bytes**. To keep the **8 bytes page table**, how many pages are needed?
+
+> **8/4 = 2** pages.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a4d7a088-f1cd-46b1-930b-baca46f501a6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/87c96e7f-2e31-4370-ac13-9841a9f2692c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/218dacdd-e4dc-4d69-8e85-1fa70e7ed6a3)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/56d3566a-dec6-433e-bde0-960826b456ff)
+
+* Here we will have the **page table entries**. **Page table entries** have **frame no and etc etc we know**.
+* Each page can have how many entries?
+* Each page size is **4 bytes**. Each entry is **1 byte**.
+* No. of entries per page = 4B/1B = 4 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/78e8ced9-a8d6-49c3-9762-db281a5b5780)
+
+* We can keep **4** entries.
+* We will have **2** pages.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e498bf48-b608-46d0-85d4-84a389a5f511)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ee8f63e-a84e-45a8-8b85-164150e86c32)
+
+* Page 0 and Page 1.
+* We have created **two** pages of the **page table** and kept them in **two** different frames in the **main or physical memory**.
+* let's assume we will store the **page table** in the **main or physical memory**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/679d07a0-bab3-43e1-afda-df5e7515eace)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35869fcd-5540-4a50-ba89-928175435eae)
+
+* later.
+
+* If cpu requested for the **page no = 011** and the entry in that page.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb6e6d50-06a3-47c7-88eb-73dc21f2746a)
+
+> The first question is that the **page no** generated is in which part of the **page table**?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66abc59e-af83-4d80-9ddd-fb61b9abeb86)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1d9eb86-8c56-4cd2-97b2-85a392cb8246)
+
+> There is another **table** here.
+
+> If we want to access the **page 0** of **page table** then we have to go to **frame 8**.
+
+> If we want to access the **page 1** of **page table** then we have to go to **frame 3**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b452e83e-2cc4-462d-a15e-80d206e7bb8e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fdbd8da8-30a7-4391-a3b0-425559f729bc)
+
+* Separately, we have to maintain **one small page/page-table** or whatever it is. It is saying that **page 0** of **page table** is stored in **frame 8** and **page 1** of **page table** is stored in **frame 3**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e41bcd0-49a6-43e0-8753-d5632f5990c9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9317936-3992-43a8-9c65-de161b9b7936)
+
+* Yes.
+
+* When have to found out the **page no = 011** of page table entry is in which page table page?
+
+> Page table page 0.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4af1104f-9391-45f8-bd9a-8b94274f994f)
+
+> We have to **search** in **page table of page table**. **Page table page 0** is in **frame 8**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/199918ff-1c8c-4a7e-8d4d-d4b434f63a28)
+
+> Got to **frame 8** and then search for the **entry**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80e0e233-c581-4943-8e2d-30fd32eafb78)
+
+* We got **page table enrty** for **page no =011**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd0d38d5-5845-47b0-b9e6-914314ff3efc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2cbd34d5-0320-4ed1-8171-5b91fefc8c64)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/84e0156f-be6d-463c-a0f7-5183953afd2d)
+
+* We have just extracted the **p** value.
+
+* By knowing the **starting one bit ** of **page no**, we can tell the **page no** generated by the cpu is from **which page** of the **page table**, is it from **page 0 or page 1** of the page table.
+
+> We will get to know that in **which page** we will get the **page table entry**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d630815-e0b3-4fb4-b9fd-610a5410f4d4)
+
+* Yes.
+
+* If in another example, page table was **divided** into **four pages**. Then how many **starting bits** we would see to find the **page**?
+
+> **Starting two bits**. **Two MSB** bits we would see.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac6afd8e-b7ad-4b9e-a348-d1ebb8ecd635)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/49a2c1c8-b777-4262-8dbf-11548eac5085)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1cf049d-0015-43f2-8d3c-91f3bd9d7041)
+
+> If we say that in the logical address of the cpu we got the **page no = 101**. It means that, we will see the **page table page 1** and it's entry of **01**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce2f1670-f2c7-41bb-ae21-7569b0d7a5a3)
+
+> First, **search** the **page table 1** on **page table of page table**. We will get **frame 3**. We have **4** entries in **frame 3**. We want **'01' entry**. So, goto **frame 3** and access the **entry '01'**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9b15fe3-32a9-45d6-8a8f-c49c280e0b4e)
+
+* We will get the **page table entry** where we will get the **frame no** of that **entry**.
+
+## Multi-level Paging
+
+* The **page table** of the **page table** is called as the **outer** page table.
+* The **page table** where the **frame nos** are kept is called as the **inner or actual** page table, where we will get the **frame no** of the **content**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/54fdc7c4-ab86-4ee6-aa9b-a4dbf369b32e)
+
+* We **paged** the **page table**.
+* We stored the **pages** of the **page table** in **different places**.
+* The **page table entry** we want to search which be in which page? For that we have created another **page table**, it is called as the **outer** page table.
+* The **outer** page table will be within the **main memory** and kept within a **frame** as well.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3209335d-73b7-4833-969b-e04eddc4fc0c)
+
+* After searching the **outer** page table, we will get the **page of the page table** where the **page table entry** we are searching is kept. After going to that **page**, we will get the original **page table entry**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/60152211-af12-4f00-a522-cf116b4e590f)
+
+* Inner page table's page.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66e95af9-c9e6-4e93-820a-dd6964f46667)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d98b1aba-6cab-4a50-b50c-0ad8554399da)
+
+* When we join **f and d** we will get the **physical address(PA)**. After gettting the **physical address(PA)**, we will get the desired page and and we will **add 'd'** and get the **content**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b386681d-f95a-4224-abe3-a42c50897eec)
+
+* **YES**. Now, **PTBT** will have the **address** of the **outer page table**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/21fdb31e-6424-4d40-9eee-90f16427e1f3)
+
 
 
 
