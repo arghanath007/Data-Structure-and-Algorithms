@@ -8896,10 +8896,139 @@ while(condition);
 * So the **level of paging** -> **4**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0849aa3-acf2-414e-acae-288b29ee3ddc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/612d78c9-622c-4944-a488-cca0b5ec9ef1)
 
-* One type of question can comes in **GATE**.
-* Start from **32mins**.
+* One type of question that can come in **GATE**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/435a71f6-f5c2-43ef-b464-7476c66b383a)
+
+* No linking.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ef137f6-d94a-4530-8b04-6f8f9ad78fc7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5bdf008e-a2da-467a-8c20-e7183e33a361)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a570af74-93e9-4fd7-8e09-aa85aee6dd73)
+
+* Inner page tables will use the full bits but not necessary in the **outer page table**.
+* **Outer page table** is the only one which will use less than **9 bits**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/17d95490-0854-4595-b25d-fd5d8e76bb27)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4df586ed-21c7-438a-bdbd-957c90e288b2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a41062c5-8dd2-42fc-8e04-72216fdd785b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ad1ec89-d0c8-4dd1-b698-f6621e50505c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7fb0774-3784-4896-9db4-b40c01e042a7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/68b667b5-8e4f-4825-b4fc-ed61e2f358cf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1de518ee-3dfc-4da3-9186-e61f1671228b)
+ 
+* In every level, how many bits required for **searching** in page table.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a20a7e1b-0441-44b1-ae71-d0dd494b4319)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8850a0b-e1a0-4685-8fe9-17a3f220c582)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a156776f-80f7-403d-b690-2f76132b7812)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/29b4a62e-3f1a-48c2-b84a-4e42a1476965)
+
+* Option **C** correct.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2bc821b2-e8a0-41f0-b46f-fe800e263b3e)
+
+* We cannot do **searching** in **physical address**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/02f06042-20f7-4545-96ca-7d76567f56ce)
+
+* It means that the **outer page table** has the **max bits** as the **inner page tables** have.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a003149-76ec-440c-9c0a-d30527ab0efe)
+
+* Context.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6738d98d-a44f-4eba-9efa-841c0031326e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/beb93427-3bdc-41ac-8a9c-7f5b2a0b6317)
+
+* **3 pages** needed to store the **entire page table**.
+* **1 page** for the **outermost page table** always.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6463ebe5-c78a-433e-b544-e6b432ba04f6)
+
+* **The **5 bytes** in p2 process means that, whenever we will go to an **inner page table**, we will do **searching** using the **5 bits**.
+* Everyone has **32 bit** entries but we don't care about it as we are **counting pages** and how many pages required for storing the **page table** entry.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0baf535a-e89b-4d53-8d18-eaa50a0d5636 )
+
+* No. of pages required to store page table acros all levels = 5.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/88030f22-903a-4f64-9824-a1dcbf7b5280)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9c249d7-26b2-46d2-9a5f-96f303e0fd85)
+
+* To store the **whole process**, how much space needed in the main memory?
+
+> **17 pages** and each page size is **1KB**. So, it total **17 * 1 -> 17kB** of space needed in main memory.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5bd8bc19-0080-4bc7-9e25-747fe4e36767)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec6e223c-06a4-46e6-8a24-58e95f1d1fe4)
+
+* Total no. of pages needed to store page table across all levels -> **17**
+* Total space needed to store page table across all levels = **17 * 1 -> 17kB**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2871332d-4fa5-43ca-8fd1-915510cb7b8b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/82751505-296b-41fc-90da-7d1079adab7f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9cedb4f5-a90c-49b3-bc59-b89cb1f5cc02)
+
+## 3-level paging
+
+* No. of pages to store **inner most** level page table = (Take the pages of the middle table) * (No. of bits we did searching).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2dc93367-84e8-4f94-b531-741701c135a5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8bc142dc-fc5a-403f-8cc2-eb49952e2427)
+
+* We will get **32 pages** on the **inner most** level page table.
+* Total pages = 35 pages.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1cae6acc-c342-48fc-b438-edd50e03650c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e9feab8-3d88-4927-a8be-f3e4927fac26)
+
+* Yes
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9249c8d7-e8f5-44d7-9142-459a7763fc32)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5c6d580d-0e29-4abd-92c6-65959eeba4ed)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e6f1dd95-af1d-44c1-829f-504c60cc8ef6)
+
+* If we multiple the **total no. of pages** with **page size**, then we will get the **total space/storage** needed in **main memory** to store the **whole process**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/02c6792b-a645-4ca4-9216-39377b874c8c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/968e7efc-e30d-492d-aa11-d76d11050183)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d278aa3-96db-4fc3-8b98-e7c1f23567df)
+
+* The size of **virtual address** max. allowed can be **very big**.
+* 64 Bits OS -> Max. virtual address possible for any process -> 64 bits.
+* The **max process** size allowed is **2 ^ 64** Bytes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b8eff79e-aacf-4191-93e5-4d598ff07148)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/55845efb-fe25-42a4-84bd-9325794e16ba)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/68ab150a-e912-48ed-8ada-71cf2aa8ed54)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85fb42a4-dc0f-4158-8a46-c64a6ab8f999)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb29d302-57a8-49d4-8826-35932d721d7a)
+
+* Basic paging -> Logical address.
+* Virtual memory -> That address is called as Virtual memory.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35207ae3-96f4-4c14-ba69-1fda99338bc2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3b6fe162-972b-47ad-83dd-657e6c9c7b71)
+
+* Later
+
+> When we try to access the **page table** from main memory then the **no. of levels paging** we have that **no. of main memory** access needed just to access the **page table**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d248cae-831e-424a-b70a-a992aaa4bb27)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0961637-bfd3-4b71-9a99-bd13feb36529)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b2a7061b-a937-404a-a8f4-bf7f4fea7b15)
+
+* **TLB** gives **direct** entry, **outer, inner** nothing. **TLB** gives **directly** the **frame no.** in which the **content** is kept. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f664df6f-5fa6-4f45-9426-8211e8c85f3e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5ff5635-32bc-4dd7-bc1a-97d194145110)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8159a0db-c334-4eb5-ad0c-731079825f14)
+
+* If **n-level paging**,
+* Time required to translate virtual address into physical address through page table in main memory -> **n * tmm**.
 
 
 
