@@ -9030,6 +9030,263 @@ while(condition);
 * If **n-level paging**,
 * Time required to translate virtual address into physical address through page table in main memory -> **n * tmm**.
 
+## Doubt clearing session questions on paging (32) [10th June 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce74401e-6b2f-4062-a029-7f2e95bb7544)
+
+> We have **2 ^ 20 pages** and out of them, only **2 ^ 8 = 256** pages are **available in the main memory**. Rest of the pages are not even available in the main memory. If only 256 pages in the main memory but in the **page table** we have to keep **2 ^ 20** entries for the **2 ^ 20 pages** pages. 
+
+> **Page table size** is unnecessarily **increasing**. It is very big. The page table size is forcefully **increasing** because we have to keep all of the **2 ^ 20** entries. Out of all the **2 ^ 20** entries, some of the **entries are valid** and the **rest are invalid** entries. They are not even in the  main memory.
+
+> Because of these, a lot of **space is wasted** in the page table.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9126fe27-ffc1-46a9-b738-946cc2264ba5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/55dd5566-0aeb-40f7-93e3-b565ba18ecb6)
+
+## Problem in Virtual Memory
+
+* Page table is too large and so many page table entries are invalid because all pages are not in main memory.
+* Wastage to space to store large page table.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9eaa6bdf-6154-4010-bb37-d660165d047a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6cbb85f8-90e6-40ff-8c22-33cc562bba72)
+
+## Inverted Page Table
+
+* In normal page table, we have many **entries** and the entries have **frame no + extra bits**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7b4f168-e838-4f07-ac6e-d59ad7694b3c)
+
+* Regular Page Table.
+* The problem says that we have **many processes**. Every process size is **very big**. Every process's page table is **very big**. Some of the **pages** are only in main memory and the rest of them are not in main memory. The rest of the pages that are not in main memory of every process those entries we have to keep in the page table.
+
+* If within the main memory we have **2 ^ 10** frames then max. how many page's entry we can keep which are valid?
+
+> **2 ^ 10**
+
+> Make the page table design in such a way that page table is created where **page table entries** are kept depending on the **frames** and not upon the **pages**.
+
+> The **advantage** of doing this is that, the **no. of frames** we have that many **no. of entries** we will keep in the **page table**.
+
+* Because of this, **inverted page table** came.
+
+* **Inverted page table** -> Page table will have total no. of entries for all processes included is **equal to** the no. of frames in main memory. So that there will not be any invalid entry(extra) for any process in page table.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83632f54-4bfb-48be-95d1-bf20d329deac)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5f7423d2-0b69-4993-ab4e-229bc95e4058)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b94fbf79-3f22-4b93-badc-f9ed2169979b)
+
+> The **inverted page table** says that we don't need to store **8 entries**, the **no. of pages** that many **entries**, **NO**. The **no. of frames** we have that many **entries**.
+
+* How we will keep the page table entries?
+
+> The page table entry, we will keep by keeping the **page no** on the **inside** and **indexing** will be done on the **frame no**. It is the **reverse**.
+
+> In **regular page table**, the **indexing** is done on **page no** and we store/keep the **frame nos** on the **inside**.
+
+* There is a **difference** between **page and page no**. **Page** means the **whole page** containing all of the content and all. **Page no** is just the **no. of the page**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/249636b9-597a-4ed3-b451-ed3cc074fa03)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ba6e947-4890-41bc-bec4-ae18bdf24ced)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c5d3452-55a4-43f0-b1cc-d642e1867a02)
+
+* No. of entries in inverted page table = No. of frames in main memory 
+* We need to **store** the **process ID** in the **inverted page table** because we are storing the **page nos** in **inverted page table** and how we will know which **processes' page no** is stored in the table. For that we need the **process ID**. 
+
+> We have a mixture of all the process's pages in the **main memory**.
+
+> **Process ID** will be stored along with the **page no** in the **inverted page table**.
+
+> When we are doing **searching** in the **inverted page table**, we have to see that the **current running process's**
+page is stored where?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f092eded-0f52-4f10-97fc-20990a341d18)
+
+* Why **process ID** is needed. Check Above.
+
+* If a **frame** is empty and no process's page are stored on the **frame 18**. On **frame 18**, in the **inverted page table**, we will put **invalid**.
+
+* To denote an **empty frame**, we will put **invalid**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/317c5317-ac54-4a18-b09d-fb92db10257f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1737de3a-39ef-4aba-ba1c-7de5aaa6343d)
+
+* How we do **searching** in **inverted page table**?
+
+> 
+
+* When cpu gives the logical address, we get the frame no. or page no?
+
+> **Page no**.
+
+* In **inverted page table** we don't have **indexing** on the **page nos**. We can't go to a specific page.
+* We have to do **linear search** here.
+* We have to do **searching** in the **content**. Whenever we found the **page nos**, we will get the **index** of that. The **index** gives us the **frame no**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/797a2245-ffbd-4b3c-8b94-2bf71c67a080)
+
+> We will do **searching** that where the **pid and p** is present.
+
+* **Searching** will take **more time**, ofcourse.
+* The **advantage** is that we don't have to maintain individual page table of every process. Only **one** page table will be there.
+* All processes will have the **same page table**. So, **only one** page table for all of the processes. All of the processes's page table entries are kept in that page table.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89700f14-7c06-46d9-9630-15bb4a4228d1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a9a6ee1-8a85-40fd-baaa-a6bac748ff6f)
+
+* Single page table for all processes is maintained.
+
+## Inverted page table advantages and disadvantages
+
+1) Reduced Memory Space -> As only one page table is maintained
+2) Loger lookup time -> Searching Time is **more** -> O(no. of frames in main memory)
+3) Difficult shared memory implementation
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af20be09-baef-49e9-835f-b56bb059e7ae)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5fbb6065-4c02-4419-a29d-571ff43760a7)
+
+* Hashed Page Table 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e02282f-d9d5-4dfa-bd7d-5ace4d54db57)
+
+* Ofcourse
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1d7a27f-f59a-4882-bfef-61607cb6f795)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/54982dd3-357c-4302-8ad5-80124769d640)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f1c34542-c552-4de9-a36a-ec25e733402d)
+
+## Hashed Page Table
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d5ab2a70-a4ce-49e6-8b28-59835ef937e0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3b888521-bbfe-4c6c-89d0-56a4d1d6a1f9)
+
+* We will get the **location** of where the **page table entry** is kept/stored.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2303c99e-6fad-42f0-9066-23378b58d72e)
+
+* Location where page table entry is stored.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb531ecb-a3be-4b13-811e-536cadf62707)
+
+* Page no. only
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8fb24919-eb6c-4687-b2ef-3b9b90ee2a3d)
+
+* Yes
+
+### Example
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bad4cc31-e5ed-4e6f-b568-817ad4118c26)
+
+* The **advantage** is that the **hash table of page table** is kept **small** only. We will not keep **invalid** entries, they are not needed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b529f106-c683-465e-942c-8af675522afb)
+
+* If the **chain length** is **bigger** then **more time** needed in **searching**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/380a4154-14b4-4441-b1ed-29828f050a42)
+
+* No need of **sorting**. We need **searching**.
+
+### Quiz-5 Solutions
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/10811f75-1970-401f-9d85-6c30bc806f5c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/73601057-c8a9-406e-92b6-c0be8d3f5599)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c3ff6fc8-5bb2-43ac-ad69-7884d2c75753)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ba581eb-1ef5-4c8d-ae80-621e3d478ec2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f4906ecd-6ab2-48f7-93d7-11f065cd17e7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/53ba1c81-4cc8-41aa-83cf-1c7d551a2879)
+
+* **Question-7** [**IMPORTANT**]
+
+### Doubts
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/864ab803-4fde-4d40-b9e0-030d5b357012)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aca43d2d-14e6-4c42-a536-c627e7423211)
+
+* Not needed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/99f49275-3726-4d80-9a06-a2847434f22d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8de58c2-a5fd-4b86-a293-6b76ddc40cd6)
+
+* My function call. No need of OS.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9c079eea-3d71-47e5-a4bd-1316f7125b72)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9173fa73-c28f-4ba9-88ee-8399e85132ea)
+
+* No need of OS.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/18502183-471c-4102-89f2-2e0390fbfaa0)
+
+* Not needed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3f86ea8-abed-484f-8581-d11810e06a1f)
+
+* Process address is **not True**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/acbf1463-794f-442d-aef2-28f2d0414662)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/75b6e23a-214a-4565-ab7c-960a67702a92)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e2fa1f7-014b-41df-931c-00018cf1e739)
+
+* We **delete** the contents of stack.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3ec78b8-aac9-4ec8-ba25-d214d3a54d80)
+
+* Not needed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19a8f16c-f152-4884-977f-9449ad738bc8)
+
+* Not needed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/73efb616-45eb-49a0-a385-8d791636627b)
+
+* **B, C and D** are **True**. Question has asked for **not True or False**.
+* So, **option A** is the correct answer.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8036a283-185a-475d-ad4e-43017cd73361)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/08d83c73-d617-40c4-843e-f0096f625755)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b7583ea0-abd6-42bc-b12d-cb71b040c56e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b03da7f6-9328-4d25-bb33-d821393ec2ee)
+
+* Option **A** is correct.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24d89e8b-fc5f-4a36-888b-190a8aed6aae)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b333b30-4808-4fb3-bb06-84c0e832243e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b515d40d-3c86-4101-834b-49766e605c4d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0937ddba-07fb-4b47-978d-633b034d4a8f)
+
+* Yes, Correct.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba50dc60-c070-4f92-8261-567ff74f9e24)
+
+* No tie breaker in LRU. Only in **optimal policy**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b6ca383-95d6-49ad-a85d-fe6a3ef9b54b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/96eb15b7-6f04-46e3-8eec-ad1b92dc13fe)
+
+* Put formula and get the answer.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/055060e6-d6a2-487e-aa1a-477f61e208db)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8dd679bd-b72d-40f8-9e93-57423248481c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d7879809-349f-4d56-9635-6411e016284d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a021a73-4d04-4fec-9b98-0de8ff339f96)
+
+* No answers will match.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7cba5e88-9150-4656-a24e-cf925a047e42)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e954a8e3-4cb7-4dd3-9487-33c69e102499)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ba4d7a5-2bd9-4d3f-90eb-e67c699b48c5)
+
+## File system disk blocks (33) [10th June 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d652e2c5-22f2-407b-aee9-33e2903fbc65)
+
+* Frequently questions don't come from **file system**.
+
+
 
 
 
@@ -9203,6 +9460,14 @@ e092988eed58)
 ## Quiz-3
 
 * Link -> https://unacademy.com/quiz/quiz-iii/AVRIC22O5M/solutions/SP_D84HGTK6E9KKPI0F1
+
+## quiz -4
+
+* Didn't happen.
+
+## Quiz -5
+
+* Link -> https://unacademy.com/quiz/quiz-v/CWTS3VALF6/attempts/SP_J3QAFYP1CL6ZPXNKL
 
 # Numericals
 
