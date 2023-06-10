@@ -9286,10 +9286,129 @@ page is stored where?
 
 * Frequently questions don't come from **file system**.
 
+### Doubt
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bfc77855-4c44-423c-a56c-ee9bf6fce7ca)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a94e11f-88b9-4514-bf1d-16afd9352e0b)
 
+* Ideally.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5c9bf6b-f743-4790-b056-009c73d83093)
 
+* yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b1edc388-23a8-4561-8fa2-0ddaab59e013)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/254c1cdc-8c06-40cc-a45e-98ad564cc739)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8530bfa9-527c-4e2f-8a74-6395ef619304)
+
+* Sir is blind.
+
+## File
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d5a4b57-2f59-4ccf-8185-f50244086319)
+
+## File Attributes
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c18e87d-406b-4517-b72d-609fe8b9a056)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d81de7e6-adf2-426b-a600-9ecfebd794e9)
+
+## File Directory
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63c8d209-56e1-424d-b482-40203443a914)
+
+## File System
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/48a7085f-fb7a-4373-901b-81464e64d658)
+
+* Module -> Collection of programs.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c635ca93-b354-4add-86f3-4111d5fc459e)
+
+## Types of File Systems
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12d7e27e-3ab5-4e58-9052-f74e0e5c9c08)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b85e409a-602a-4fd1-a65e-820b74cd6d7f)
+
+* Yes
+
+## File Directory Structure
+
+### 3. Tree Structure Directory
+
+* Root Directory -> No files in **root directory**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/242ab752-ad23-41e8-9d4f-353f8e9a8720)
+
+### 1. Single Level Directory
+
+* **Single directory** where all the files of the system are kept/there. 
+* No provision for **sub-folder**.
+* **2** files cannot have same name.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2e6653d1-4f83-4096-bb02-dc3c5afaae9d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/53dcb95e-3a01-48e6-8817-314c12fdb424)
+
+### 2. Two Level Directory
+
+* **Sub-directories** contains the **individual user's files**.
+* Every user has it's own **Sub-directories** according to multi-user system.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d3485ff-c772-404b-b777-01f7d4b5f82e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81c85382-930d-4024-be65-6dbbcfddd88c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/940360d6-c8c3-4b18-a946-45548442cb51)
+
+* Ofcourse.
+
+## Disk Formatting
+
+* Formatted in **two** ways:-
+
+1) Physical (Low-level) -> By manufacturer -> Making **tracks and sectors** on disk.
+2) Logical (High-level) -> Making drives(C:\>, E:\>) -> Putting up File system -> Making disk blocks.
+
+*  Link  for explaination -> https://www.youtube.com/watch?v=JZCBuVJGvcg
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/941658ec-1840-40ad-9919-b6a41f5375cc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac59964c-7d23-489b-b429-f0a6ff3a1774)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/59fafd92-33c5-49ac-b4e9-22e953efe1f7)
+
+* The drives we create are called as **partitions**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/29fe8c0a-f12c-4049-ad3b-924925d033d6)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e13fa854-97a7-44c6-a47c-59c7878c52d8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2430681a-9979-456a-aeed-28971165e55a)
+
+## Partition
+
+### Types of Partition
+
+1) Primary Partition -> OS  + user files.
+2) Extended Partition -> Only user files.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bbae6622-9fd9-42bf-be15-6ff0b3929e9e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5857c59-da91-4d86-b284-eae707267923)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fbce9a9f-2165-492a-a6fb-b588fb688cf2)
+
+* **A and B** are **reserved** for **floppy disks**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f2d428e8-2858-40fd-96bf-f871c071c129)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c11ed566-7dea-460f-a7c1-5fe7026ffec8)
+
+* If we change the **location** of a file within the **drive** then the **physical location** of the **file** doesn't change. Only the entry changes in the **file system**.
+
+* If we change the **location** of a file from **one drive** to another **drive** then the **physical location** of the **file** changes and it takes a lot of time for that change to happen. The physical address of the **files** changes to within the new **drive's** location.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/08ccaf91-0474-4e2e-8e80-1a38bee6e675)
+
+* Making disk blocks -> logically, Small-small blocks of disk.
+
+## Disk Blocks
+
+* Start from 50mins
 
 
 
