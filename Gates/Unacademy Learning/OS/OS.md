@@ -9525,15 +9525,95 @@ page is stored where?
 
 * Like **Compaction**.
 
+## File allocation methods (34) [10th June 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b4e06738-85e6-4893-a3e1-e600b6e3c56f)
+
+### Contiguous Allocation
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c950f91-408e-47d8-9793-39b3b56b3a7d)
 
 ## Linked Allocation
 
+* Need not to be stored in **contiguous/consecutive** memory locations.
+* It is not like **C-language pointer**. We are putting the **disk block no** at the **end**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b7fc4ca6-0cf0-4918-adbd-b0a3b83f7324)
 
+> At the **end** of **block-2**, we will put the **disk block no '7'**.
 
+> At the **end** of **block-7**, we will put the **disk block no '4'**.
 
+> At the **end** of **block-4**, we will put the **disk block no '3'**.
 
+> At the **end** of **block-3**, we will put the **disk block no '12'**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5784a119-f0db-45d5-bebb-014164ebfbff)
+
+> In the **same file**, we want to **add** another block to **extent** the file. We can take **any random block** which is **empty**, we can allocate. We have taken **block 10**. and from **block 12**, we have linked **block 10**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/79695ce2-1125-4704-b1d0-d4eff7fe9f56)
+
+* There is **no issue** of **inflexibility** when we try to **add more blocks** to a file.
+* There is **no problem**, if the blocks are **not consecutive**. We can make **any block**, the part of the file. So, there is **no external fragmentation**.  
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6133d382-dd5f-4d5a-aea7-93d9251b4b51)
+
+* There will be **internal fragmentation**.
+* We cannot go **random/directly** to any block within a file. We have to go **sequentially**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35afcbc0-b7f1-4bc7-bfff-2f788488af65)
+
+## Indexed Allocation
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27f47861-2278-4c3d-91f0-80c419ddc648)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/652fd3fc-0491-49c7-bd4b-b97fc927bd81)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3910cd76-f8bc-4614-a1db-5a838a204b76)
+
+* Multi-level indexing.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a112f9b7-9af6-42bb-8503-eb003bd7d48f)
+
+* If we want to access the **abc.docx** file then in total we have to access **6 blocks**. To access the whole file we have to access **6 blocks**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2224747e-c81a-42bc-938d-d383c3b9cfed)
+
+* yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d53bcc42-1d62-4ecd-acac-fdb0bdd6f09f)
+
+* Indexed allocation **performance**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d87823c-49c3-4b85-ba6a-cc3e706af8aa)
+
+* If one **block size** is **1KB**.
+* Total files space = 252 * 1KB = 252KB
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3965a1a8-9241-40e2-81e0-abe7c6eb983c)
+
+* The **no. of blocks** is there in the **disk** that much amount of **indexing** we have to do.
+
+* What are we keeping in the **index**?
+
+> **Block no**.
+
+* **One block no** is **16 bits =  2 Bytes**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76760458-c4ef-4b6c-b0a7-08adff8a8679)
+
+* **2 ^ 9** indexes we can keep in **one block**.
+* How many blocks for **2 ^ 16** space?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bce25372-f99d-442b-813d-86b1f1def5fe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0602261-c86a-4fe1-b6f3-e5a7e95a1c92)
+
+* In **one block** we can keep **2 ^ 9** indexes. So, for storing **2 ^ (16)) indexes, we need **128** blocks.
+* Total blocks we have is **2 ^ 16**, out of that we have **minus/substracted** the **no. of index blocks**. We got to know **how much/many** are required to store the file.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f3fa962e-ab44-438e-a5e2-48fa37c9e9bb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce95f680-ee26-46f6-a4cb-6be1d6979745)
+
+* Start from 36mins
 
 
 
