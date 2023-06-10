@@ -9408,7 +9408,131 @@ page is stored where?
 
 ## Disk Blocks
 
-* Start from 50mins
+* Disk Block -> A logical unit of the file system to denote sector.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9ab7788-21a4-44b2-916a-42e550524e53)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b37ee4aa-f500-440a-bf59-56877080cfbb)
+
+* 1 disk block -> 1 or 2 sectors.
+* 40GB -> So many tracks and sectors.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b247d20-03a8-4802-974b-828eb4a886ce)
+
+* For **easier** access.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0406f803-c7c7-49a6-8f6f-27ae2963db50)
+
+* As a **user** we cannot access the **file system**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/edc8187a-31bf-4b81-ace0-308efbbfa777)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58db6e66-53e9-48bc-aad7-527fba42dfe1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/13b87a2b-ddc5-4950-8980-0cfbff1f8ddc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6eeaf90e-0f0e-4f99-bd4f-1f1ab2582368)
+
+* In the question, we have **16 blocks**, and we have to no. them in **binary**. So, the numbering will be from **0 t0 15**. It will be done in **4 bits**.
+* The **4 bits** will be called as **disk block no or disk block address**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eafa9a43-5047-458a-a638-3a5f3e8ddfc1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4323bde0-3bd5-42e4-9a55-e0dbafb06c00)
+
+* Internall, the **OS** will have the **disk no in binary format** for all of the **disks**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f3287430-72db-4901-a183-62715aba1243)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c8495a7-059b-4991-9830-6f767267f309)
+
+* In the question, we have **32K or (2 ^ 15) blocks**, and we have to no. them in **binary**. **Disk block number address** should be of size **15 bits**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/29cc7efb-27d7-4728-95bd-cb304f23f79f)
+ 
+ * DBA -> Disk Block Address.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e5557e8-40b5-4cd6-9993-97959a8c19c7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab14ae82-e79b-48e3-aba1-334fbd695b7c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee46d6c5-feca-4b97-a5e2-5fd728afe75f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/362f28ea-52cd-4055-a1a1-34da908b30f7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/60c691f8-403f-4973-acd1-480810cf0a6a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a704a79a-2e89-48bd-b97e-6db96c69c83f)
+
+## File Allocation Methods
+
+* How a file must be stored on multiple blocks and how the directory entry should be made.
+* Directory entry -> On which-which block files are stored.
+
+> For every file, there are **directory entries** are made. On which-which block, a particular file is stored, those **entries** are made.
+
+* It is managed by the **file system** of the **OS**.
+
+## Types of File Allocation Methods
+
+1) Contiguous Allocation -> Like an **array**.
+2) Linked Allocation -> Like **linked-list**.
+3) Indexed Allocation -> 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb797741-769a-429d-860d-198d65224c9b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/751b3015-0288-41f7-990c-3839a840f4e3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/707cf4e9-60a4-4d83-b278-daa8cfe682de)
+
+## Contiguous Allocation
+
+* A file is stored on consecutive blocks.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/25cb7adc-67dc-481a-9f96-fb42aec9f3d8)
+
+* Different words, same meaning.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b001c58c-d824-4b2a-b4fd-b1ac1d31cd87)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ce6dd1f-286f-4a93-a6e6-a64e4a0c9456)
+
+* From the **starting block no**, how many blocks are required to store the file, that is the **no. of blocks**.
+* Can we randomly access any block within the file?
+
+> **Yes**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6e34c308-078f-4241-9fcc-17e7552d18fa)
+
+* Where can we store the **new file**?
+
+> We don't have **4 consecutive blocks**. We have more than **4 blocks** but they are not **contiguous**. This is called as **external fragmentation**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/de1d59c7-4434-495d-aa26-c32972659d8e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f50c0fb-694c-47b5-b1fb-36106ba267ae)
+
+* We can't store the **new file** because **4 consecutive blocks** not available.
+* It is called as **external fragmentation**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f03a9ccc-687e-42fc-884c-c8ca48398a41)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19d4d2ef-4b08-4b94-8784-16edf6d1ed75)
+
+* Contiguous Allocation **performance**.
+
+* **Solution** of **external fragmentation** -> **defragmentation**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/062787b8-3f56-4b06-8b26-a859628eb01e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dfbe8ef7-553e-4391-9360-bd271f124738)
+
+* A file of **3.5KB** came and each block size is **1KB**. How many blocks we will give?
+
+> **4 blocks**. We didnt use the **4 * 1KB -> 4KB** storage, we used only **3.5KB**, the **0.5KB** is left **unused** which will be **wasted**.
+
+> This is how **internal fragmentation** is happening.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6cd86c29-15fe-4de2-aeae-c292fecbc4bf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ee52d06-671d-4082-b921-92f0cb0dfaf7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7c21194-0c1a-486d-8486-55890390fcec)
+
+* Like **Compaction**.
+
+
+## Linked Allocation
+
+
+
+
+
+
 
 
 
