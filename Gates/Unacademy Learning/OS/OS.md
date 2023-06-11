@@ -9921,8 +9921,29 @@ page is stored where?
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/112395eb-2e68-49db-9db7-d73157271b5a)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a0aff86c-c785-4e2f-acc5-3d60be39408b)
 
+## Doubt clearing session (36) [11th June 2023]
 
+### OS Revision
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be2a34e4-ea60-428a-a980-7083366f8f7f)
+
+## SSTF(Shortest Seek Time First)
+
+* Serve the nearest cylinder request first.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/450d6fd8-89b9-452c-afb2-7cc54ee86230)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d2fb5581-930e-4672-ae6d-3dae74da4ed4)
+
+### SSTF(Shortest Seek Time First) Advantages and Disadvantages
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27cf5f2f-5545-41bc-99c0-7e3972381cbd)
+
+* Minimum possible head movements -> Advantage.
+* SSTF is **practical**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f9a101dc-7275-4b15-b009-38e8afcebadb)
+
+* Start from 20mins
 
 
 
