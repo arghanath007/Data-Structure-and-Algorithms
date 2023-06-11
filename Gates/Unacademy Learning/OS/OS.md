@@ -9613,7 +9613,320 @@ page is stored where?
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f3fa962e-ab44-438e-a5e2-48fa37c9e9bb)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce95f680-ee26-46f6-a4cb-6be1d6979745)
 
-* Start from 36mins
+* DBA -> Disk Block Address
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c635de1-8d86-4588-99c3-13d6317100da)
+
+* No. of blocks to store file.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cdb80d0e-b5f9-43ed-8117-1e2afdee69f5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/deda90f2-cd61-4d8c-bb21-59c7dedd1cb8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6541cfff-fbb1-4229-89f8-b53e9c93c964)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8884eab4-ee9c-4f2b-a1c2-98404a597cd4)
+
+* Increase the indexing, if it does not fit in the table/block.
+* If we have done **3-level indexing**, first we will get the **block**, from the block we will get **more blocks** and from each of those blocks, we will get **even more blocks**. From those last blocks, we will get the **file numberings**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/239955e5-f71d-4add-b83f-2c22ed1f7fdd)
+
+> If we have **single level indexing**, then how many index we can store within a block = 256 index.
+
+> Every **index** will take us to **one disk block** which is of size **1KB**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/07964217-1345-42f7-92e5-047abaafd546)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa84589e-e1cf-4947-927b-050a3ff82f4b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd7ceea1-306a-4b75-b47d-4549e13caab2)
+
+> In **2-level indexing**, the **innermost index block** has 256 indexes. The **2nd index block** on the **right side** has **256 indexes** as well and they are linking to **data blocks**. Each **index** is linked to a **data block**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6cb8f384-f898-45f2-9db6-80085a780dff)
+
+* **3-level indexing**
+
+* Which technique is good for storing **bigger file sizes**?
+
+> **Multi-level indexing**. If we take the **index allocation** to **Multi-level indexing**.
+
+* All of the problems faced by **contiguous and linked allocation** are solved in **index allocation**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/60a49862-4aed-4ba3-ae54-219e33fbbde5)
+
+## Master Boot Record
+
+> WHen we start the computer system, to bring the **OS** into the **RAM** is compulsory because if we don't bring the **OS** where stored in the disk into the RAM then the computer system will not turn on.
+
+>  Until **OS** runs, we cannot use the computer system.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/00826595-1b3c-4a97-a9f4-a713067cea94)
+
+## Unix I-node Structure
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c0822e4-261e-4019-bfa8-6406e5e37666)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81162271-2d8b-4bb0-8cb1-598af1535d1e)
+
+> If the **no. of Inode** are fixed then that many **files and folder** can be created.
+
+> **Inode** limits the **no. of files/folders**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2eb9b22b-fef2-479c-9bc5-eb7ad02f6ece)
+
+* **Inode** is within the the **OS and within the file system of the disk(disk's file system)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/771f826c-83ef-47e1-8d49-7d11b36459da)
+
+* **Yes**, **Inode** is for unix only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ca9c9d5e-8518-4075-aea0-2dc4af277a1e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86196e1c-45c7-4e56-b688-99af5eb40386)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/feff033c-f1a6-43db-a920-417d15cfc912)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b181d75-9c44-4eb4-9c1e-06870aacdfe5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e86a95bf-217c-4ea3-88be-dce1df097213)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5d70078-f696-4a51-80e1-788e22473f31)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd554e06-dab6-4525-b531-d6c358e40a32)
+
+* Max file size -> We will occupy everything.
+
+> We have **12 direct** pointers. From those **12 direct** pointers we got **12 blocks**.
+
+> **One single-indirect** pointer has **1K** blocks as well calculated that **no. of indexes** per block is **1K**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db4370ed-6620-44b0-9439-b08c93450c0b)
+
+* **One single-indirect** pointer
+
+> For the **one double-indirect** pointer has **1K * 1K** blocks because the **first 1K** indexes points to another **1K** blocks. That why **1K * 1K** blocks.
+
+* Total no. of blocks = 12 + 1K + (1K * 1K)
+* Every block size -> 4KB.
+
+* Max file size -> (Total no. of blocks) * Every block size -> (12 + 1K + (1K * 1K)) * 4KB -> 4.004048GB -> 4.0 GB
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/78da79ed-4ae2-431a-af64-08cf1118b2dd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b288725a-f1cd-44d3-a664-5a57b30f19f9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf2dfcb8-2231-4474-b1d6-c17fe4c6453f)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/579691b9-245b-40e8-98dd-daa57081cb94)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8d63915-400d-4b4a-8e1a-f022ec100b49)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/82794747-146a-4cfa-95a0-37ca69fef9d1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a0666bfe-9bed-479d-a5f7-64e4402cc46d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/13f9acdf-4cca-4c7a-9d00-c4947e0c48fb)
+
+* Not asked in the question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/94cf6cda-b3b4-4800-9eb0-be42465075b4)
+
+* Answer for **200 bytes** block size.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0b87e91-e8a6-4462-9dfe-1edac967fcae)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/badd31ac-efe6-4478-8810-eddda6d21c76)
+
+* No need, leave them.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6964869-82ba-44f0-922b-f0e6989a958d)
+
+* Yes, not needed
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd548941-ec45-41a1-80e2-5530720384ee)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f42feb4a-61de-4ef1-acc2-3da127558f61)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d3a04cf-81f1-432b-9d9e-6c3658935e9d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed2f75b1-8948-4f60-af4a-60dd32bc56c4)
+
+* Internal fragmentation in **contiguous allocation** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09b14974-037d-45d6-800e-b4fede4d552e)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0acde21e-e0d1-4f41-a0a5-044be10ba91c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/17d4930a-21de-4433-a7f1-d94833515c71)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf65891f-b27d-49fe-8c5f-041bce1c839e)
+
+* **0.4 * (10 ^ 6) bytes** of entries we have to store in the **file allocation table**.
+* From the total disk size remove **0.4 * (10 ^ 6) bytes**, we will get max file size.
+
+
+### Doubt
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a16e38e-341f-4811-88a8-859752873bb6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85956059-873d-4eb3-85f2-80c29aaaacc0)
+
+* It is not exactly **deadlock** it is kind of **livelock**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0966c64-d889-47a6-b245-9b86d51f03f0)
+
+* In this case, **yes**.
+* If **livelock** not mentioned then **livelock and deadlock** are **same** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/584dc841-c114-4761-a61e-0a7769cac950)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e3676ff-2852-48df-aeb4-4f39bc1b284e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/edce7888-16e0-48d1-8e2e-291755f722a2)
+
+* **Statement B** is **True**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe88d4a7-e08e-418c-8dd7-14f79d97a39f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b63e652-7f2f-4281-91dc-e789c38f0bb6)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/601cbb00-7585-4838-a189-1b467107c4fb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff7dcde9-ca8b-4935-9a94-b7e7758967b8)
+
+* File System -> HDD
+* Virtual Address Space(VAS) -> Virtual [Process size]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a479a401-1954-409b-ab7a-1cc2191b44c4)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/18a3cd89-6b14-4296-8a0f-5826001650b3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76bd0a1c-4c8a-4ef8-a46a-5e513a3315d9)
+
+* Leave it.
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91839a9b-7297-4ee6-9995-aad3b7885de4)
+
+* Try it.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a9958154-0732-48d6-94ee-0bae2b3d2fef)
+
+## Disk scheduling algorithm (35) [11th June 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/679cc47c-3e0c-4c12-b566-b6aaefcc1c8b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6fd340fd-eae6-4143-982e-1c56fd8da574)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b47fb170-6cb9-43dd-a797-6d3abb450451)
+
+ > Compared to **cpu access time**, which is **10-20 ns**, the **disk access time** is **10-20 msec**. The **difference** between **cpu and disk access time** is **10 ^ 6** times. It is means **cpu access time** is **10 ^ 6** time **faster** than **disk access time**.
+
+* ns -> 10 ^ (-3)
+* ms -> 10 ^ (-9)
+
+* The **access time** of **disk** has a lot of **support/help** from the **cylinder**.
+
+## Cylinder
+
+* Collection of tracks of same radius from all surfaces.
+* To **save seek time**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/07a48c5c-a90e-4df1-8a77-a3fb4c627c59)
+
+## Disk Scheduling
+
+* Done by OS(more specifically, **file system**) to schedule I/O requests arriving for the disk.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6181e88d-3e35-4ee9-b1b8-44936cf2496a)
+
+* Sector -> Disk block [According to file system]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9537ed22-4c79-41b3-a3f4-a94b0beaa1bf)
+
+* CPU
+
+> If any **address/request** goes to the **disk**, first the OS(file system) comes. The **file system** checks which file the **request** wants. Whatever is the file, **file system** opens it. 
+
+* In disk, **file system** is only thing which can access the **disk internally**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f5acc72-aea3-440d-bd75-f59cfe77c1dc)
+
+* CPU can generate address of sector where file is stored?
+
+> **False**. CPU doesn't know where the file is stored.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bbf91b78-4488-4a40-87a9-59f139d45ad0)
+
+* **Yes**, when we are talking in terms of **COA**.
+* **No** cpu can't even generate the address of main memory when we are talking in terms of the **OS**.
+
+> In **OS**, we talk about **logical address**. If **OS** generates **logical address** which is for main memory.
+
+> For convertion from **logical address** to **physical address**, we need **main memory unit**. 
+
+## Disk Scheduling Algos
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/226234b4-f2ca-429b-a9e1-1eba0454a15e)
+
+## FCFS
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/20cd4f13-7400-4a31-9616-7f77253a5569)
+
+> In the above question, it is not given, but in every question, we will **assume that** according to the given **request** that in **total** we have **200(0  to 199)** cylinders.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6cb06004-b806-4a7c-b0b5-69cc841003f7)
+
+* Inner most cylinder -> 0
+* Outer/last most cylinder -> 199
+
+* The **current position** of **read-write** head is at **50**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a69f1968-52a0-4ca1-9740-e39ffd22327e)
+
+> We know what **FCFS** algo does. In which **sequence the requests** have come, fullfil them according to that **sequence** only.
+
+* The **first request** to be **fullfilled** is **72**.
+* The read-write head is at **50**, we have to move it backwards to go to **72**, ofcourse, it will take **some time**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3710f84a-a5af-4e89-a984-4fa142e3639f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3476032a-22ac-4242-bdf0-93cefe1d246a)
+
+* I this way we are going to **fullful** the **requests**.
+* **Dot(.)** represents the location of the **particular cylinders** where we have **fullfilled/serviced** the **requests**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/29f57fde-8e9c-437b-b00b-8930f731dee8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80247acd-fd89-417e-aab0-7bd7cde58ac9)
+
+> In whichever sequence the requests have come, in that sequence we will fullfil the requests as we are using **FCFS**. We cannot see the **upcoming** requests in the **sequence**.
+
+> That's why we didn't **fullfil 130**.
+
+* **Question Asked**
+* What is the total **cylinder movement** or **read-write** head movements on the cylinder?
+
+> (72 -50) + (160 - 72) + (160 - 33) + (130 - 33) + (130 - 14) + (14 - 6) + (180 - 6) -> **632**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/59933880-b487-4609-94c4-661b26728c47)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1dc0b7c6-36ff-46a9-bb1e-11cc1925895f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ca1b207-39fc-4c82-bf69-44646c10d95a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae84b975-e91e-4ea6-9a5d-fcabb9e7f10a)
+
+* If one cylinder head movement takes **0.5ms**, then what is the **total seek time**?
+
+> (**No. of head movements**) * (one head movement time) -> 632 * (0.5ms) -> **316ms**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5bf2093-117b-42f7-bbd0-55382a1207bf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/38e43ef4-f3de-4483-9c3e-83fd0218a261)
+
+* If every time disk head changes direction, then additionally **1 ms** needed.
+* Total **seek time** = 632 * (0.5ms) + 4 * 1ms = **320ms**
+* **4** is the head changes directions which was **4** times.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed37a5ed-6c0d-4285-a28c-4c8cc74d5c6d)
+
+* In the previous question, if seek time per 100 cylinder head movement is 25ms.
+* Head direction change time = 2ms
+* Total seek time -> (632/100) * 25 ms + 4 * 2ms -> 158 ms + 8ms -> **166 ms**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8bc97213-03b2-42d3-9dc9-5baaa98a653c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/42994443-da4f-4d84-b29b-96c6c5eb2022)
+
+### FCFS advantages and disadvantages
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ee101bf-749a-4c9e-92ef-94b3dad7a8c4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/112395eb-2e68-49db-9db7-d73157271b5a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a0aff86c-c785-4e2f-acc5-3d60be39408b)
+
+
+
+
+
+
+
 
 
 
