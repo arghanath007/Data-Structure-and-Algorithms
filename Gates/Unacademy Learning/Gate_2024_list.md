@@ -6,7 +6,7 @@
 3) Digital Logic -> Completed[25th March 2023]  [Do practice question while revision]
 4) COA -> Started [Hault]
 5) Algorithms-> Completed [31st May 2023] 
-6) OS -> Starting on 8th May 2023
+6) OS -> Starting on 8th May 2023 [Completed]
 
 ## Secret
 
