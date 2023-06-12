@@ -20,11 +20,23 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5dcb5be2-8655-4c17-843c-d467412c70ff)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81518bac-754e-4cf2-a935-a55518b6b1cd)
 
+## Routine
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97035275-9608-4977-b50b-d77a790ca35a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36c40eb4-5023-40b6-9817-66055e3cec7b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8c918947-66ee-4753-bdfa-275e12e90e3a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ef5f12c-e5f4-4058-8b58-d739890125b9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/54cd3186-13b7-4704-9b4b-cbe57e21d861)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/854ea7ff-215e-4f4f-88c5-d65d21b3bc27)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e7576f5-3b50-43b8-a647-b96bcdd8280c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a82de7ff-3788-4d21-aae5-7df063d96e5f)
+
+
+
 ## Coverage
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ca9340fd-3fa6-4768-910c-71670b9adb90)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4ec5fa5d-c86f-4a6c-a183-d4dff1767795)
-
 
 ## RoadMap
 
