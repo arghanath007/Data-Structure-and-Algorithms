@@ -283,6 +283,86 @@
 
 * Link -> https://unacademy.com/class/operating-system-revision-part-3/3T5WWH7W
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a567d5c8-e0ed-4289-a6fd-144f1d48d863)
+
+* II only (Option B).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba988166-e13f-4638-ac3c-b94e1a7d5b8a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/723d2122-23e0-47b1-aa51-788c3b9b76ec)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa2a6f2b-d6a3-4203-b57b-db5449d41c49)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e4d5856f-ba92-4314-91ea-77aaa25ef5ad)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bcff5dec-c2e3-4a5c-abfb-08c1f1150765)
+
+> The result of the program depends whether the **parent or child** process finishes **first**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6fca885d-72a8-4962-9ea0-9b8527b0c79f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3760283-538f-4d8d-9489-68fe898c2c9c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/138f7960-2a86-4d6c-b92f-27b363cb9fdb)
+
+* Mutual Exclusion
+* First two, **Mutual Exclusion and Progress** are **mandatory**. If **Bounded waiting** is not there, then also it is OK.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2445da00-a381-46e7-8678-609067e17686)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e639db8-8163-4b7e-8d10-32c7943b3d73)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6363fb06-1269-4cc8-b28b-8a10655e140f)
+
+* Strict alternation or alternating
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc06df95-b40a-4e2d-be09-f574ae7fc7ba)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1853bc59-a45e-4dc2-9417-672a93d8455f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/64600795-5b98-4b01-9c1c-b39b2fe60ca0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ccc05223-8393-40a8-b57b-0c2fb06fb1f1)
+
+* 3 **Software** solutions
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3fbeb379-ba46-47fd-a79f-fad1ffb7cf95)
+
+* 3 **Hardware** solutions
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a1f5b25-b5db-4bb2-8b87-b2558579535d)
+
+* **No** page fault. Never.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ad226904-9c87-4d8f-b0d2-4894bac1dee1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b93e44d8-57ee-4c0a-a090-d30215edaf2a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91dbf7c1-127f-4387-a799-ee09a283c3bc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3212643-95f3-4109-8687-d8d5c9cf5405)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a2d5a1b-13c0-47eb-8a9d-282fb1e6fc4c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fcbfa967-8463-4c63-8df7-8774b7822ddc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0ea4807-2004-40ba-bd89-819d3f7168c4)
+
+* Yes, no issue in that.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2cbb5b92-7d3e-42ea-83d7-57113f3409c8)
+
+* Non-negative value.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/779241d8-e511-41f0-992c-e60b9a964013)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b53bc15-42da-47b8-bc6c-8ed2ae9a9627)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1200c386-c65c-475d-b423-e68c764c4208)
+
+* Atomicity -> **All** or **none**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/779125ca-ce43-48e3-a4b2-4d6ee4afdd80)
+
+* **Yes**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0cd5b9ef-ec70-497a-a31a-ab66c1f23160)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b238f4a-c06a-47f9-a910-3021033e8170)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/54cd9456-27b5-4ed5-af4e-00d6637c10c3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/025d42ee-d6b2-464d-bf55-414580cf08b0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1fb064a-3ab9-4daf-86b7-29de9e741a5f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e6865610-57d5-42d4-92d3-e0e5b4e12460)
+
+* For **max** possbile value -> Minimize/neglect the **impact** of **substractions**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/52fe14c5-2457-4ded-bf39-16f7c5e5c52c)
+
+
+
+
+
+
 
 
 
