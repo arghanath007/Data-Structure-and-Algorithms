@@ -31,6 +31,13 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e7576f5-3b50-43b8-a647-b96bcdd8280c)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a82de7ff-3788-4d21-aae5-7df063d96e5f)
 
+## Syllabus Coverage
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/49a3df51-b049-4fcd-aa24-d83941336a83)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c57b4316-2438-473e-a6f2-caa92e124454)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9079c778-c6d2-40b6-8db5-f70ccff86e10)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/39d5de81-bb24-43d0-afbb-dd56bd49fca3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b975b40f-729b-4521-beb8-960731add420)
 
 
 ## Coverage
