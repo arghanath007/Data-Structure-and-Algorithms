@@ -12,7 +12,7 @@
 
 ## Revision Links
 
-1) https://unacademy.com/class/operating-system-revision-part-1/CDI95D3S
+1) https://unacademy.com/class/operating-system-revision-part-1/CDI95D3S [**DONE**]
 2) https://unacademy.com/class/operating-system-revision-part-2/JCOGG3T3
 3) https://unacademy.com/class/operating-system-revision-part-3/3T5WWH7W
 4) https://unacademy.com/class/operating-system-revision-part-4/QCV24DU5
@@ -130,6 +130,45 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a826042-f4c2-42fa-88d2-da6b27b1848b)
 
 * Only **OS** can do it.
+
+## Revision-2
+
+* Link -> https://unacademy.com/class/operating-system-revision-part-2/JCOGG3T3
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e60ac248-9e25-42c6-8cb6-ee332b9f54c1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f460a59c-10a8-4ef5-83c2-c16ea4dfc0a8)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80bf7c65-ff9c-43b5-b554-2da62d1dde02)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/49b50cad-2409-4b2b-9211-e48dc2feb5de)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/080afd4a-7ab8-4b5b-80f2-9af4b2de4625)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d2e1d35-e7ad-4029-bb64-bba5627cb439)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Mega Quiz
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/84f99e28-ae01-4458-a7ca-2cecfb2cc56a)
 
 
 
