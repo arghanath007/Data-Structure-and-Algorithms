@@ -12,10 +12,10 @@
 
 ## Revision Links
 
-1) https://unacademy.com/class/operating-system-revision-part-1/CDI95D3S [**DONE**]
-2) https://unacademy.com/class/operating-system-revision-part-2/JCOGG3T3 [**DONE**]
-3) https://unacademy.com/class/operating-system-revision-part-3/3T5WWH7W
-4) https://unacademy.com/class/operating-system-revision-part-4/QCV24DU5
+1) https://unacademy.com/class/operating-system-revision-part-1/CDI95D3S [**DONE**] [12th June 2023]
+2) https://unacademy.com/class/operating-system-revision-part-2/JCOGG3T3 [**DONE**] [12th June 2023]
+3) https://unacademy.com/class/operating-system-revision-part-3/3T5WWH7W [**DONE**] [12th June 2023]
+4) https://unacademy.com/class/operating-system-revision-part-4/QCV24DU5 [**DONE**] [13th June 2023]
 5) https://unacademy.com/class/operating-system-revision-part-5/SPOP124J
 6) https://unacademy.com/class/operating-system-revision-part-6/I8O2SE3A
 
@@ -358,6 +358,9 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/52fe14c5-2457-4ded-bf39-16f7c5e5c52c)
 
+## Revision - 4 [13th June 2023]
+
+* Link -> https://unacademy.com/class/operating-system-revision-part-4/QCV24DU5 
 
 
 
