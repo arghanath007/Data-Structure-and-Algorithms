@@ -13,7 +13,7 @@
 ## Revision Links
 
 1) https://unacademy.com/class/operating-system-revision-part-1/CDI95D3S [**DONE**]
-2) https://unacademy.com/class/operating-system-revision-part-2/JCOGG3T3
+2) https://unacademy.com/class/operating-system-revision-part-2/JCOGG3T3 [**DONE**]
 3) https://unacademy.com/class/operating-system-revision-part-3/3T5WWH7W
 4) https://unacademy.com/class/operating-system-revision-part-4/QCV24DU5
 5) https://unacademy.com/class/operating-system-revision-part-5/SPOP124J
@@ -144,8 +144,144 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/49b50cad-2409-4b2b-9211-e48dc2feb5de)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/080afd4a-7ab8-4b5b-80f2-9af4b2de4625)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d2e1d35-e7ad-4029-bb64-bba5627cb439)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f2723e1-1cca-4c12-9c74-ff03bcd6c920)
 
+* SJF -> Preemption not possible -> Disadvantage
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a1cac9a-1a1f-430e-b4ea-3a8031855afe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b508626-60c2-4f9b-acbd-85f4dc6277c9)
+
+* No preemption when:-
+
+1) All processes arrive together
+2) When for two processes Pi and Pj, ATi > ATj and BTi >= BTj for all i,j and i not equals to j.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f182f113-69ce-4b3e-834d-837b20840c94)
+
+* True
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/327a3fb3-fab1-4b50-9b05-ae774c3b814a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/212f2c74-12bc-4efc-8f70-9b9c07d3df8b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c3e21f52-4b44-49c8-8f4a-20344ac03c36)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2d06fd01-159f-4b10-98e5-69ef3dff8f19)
+
+* If **n** processes, no preemption and no idle period then,
+* No. of **context switches** -> **n - 1**.
+ 
+ ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/15e0da62-f2c6-4df0-8b71-aae26466790a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9cd2e8ba-8b0a-4b75-aa71-5eb85375954e)
+
+* Should be mentioned in the question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/06be3291-42f6-4ac1-a29c-f95923116af9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e6a265cd-ff92-4505-bc00-c0417797d006)
+
+* If no. of context switch asked then we don't know using the **trick**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57d39fd0-208d-4ce4-9dfc-967ee171e726)
+
+* We have to solve completely.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/067fdf26-e12d-40da-a98b-ce24e453bcda)
+
+* Solving completely without the **trick**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a72ca55-ee53-4871-9617-49ae689c26fd)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cdbbc7ce-6b8a-4068-af31-4d33af15ef6a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34d3b651-d8b8-4f83-8ff5-c39b88eb61f8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8af7b284-3d24-4f02-97d8-77a463c8dc2b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91835c46-6145-40f8-a138-ed751473938f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/38abaf44-ae95-4202-9f56-5eaf85025907)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6e8ea57c-d36f-4a14-a045-987cebd25fd6)
+
+* Because **burst times** are not known in **advance**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc6975de-63b2-41b9-be47-ac20f7d8f932)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ad3a7895-5cec-4afc-8ec4-3e718c2947e4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b501c3c5-0d77-49e9-8380-e708d5d85e99)
+
+* Non-preemptive.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0359a8a8-640b-4793-8df1-653db55a1aca)
+
+* SJF and SRTF are also **priority base algos**, where priority of process **equals to** burst time of process. 
+* Small number means higher priority.
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a220f98-fc2c-4586-89f5-4136533583e8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ec50245-abde-4bab-a962-8ef957e117db)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8284b76b-681d-4564-b0ef-80d56e786edb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/11eaa599-c527-412a-bfaf-0187fb03fc99)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6bcb6d9f-cb43-47cb-83b4-b9e0f38f2030)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/70f51efd-647d-4e09-b943-a61b205215ac)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e74c1e4-a294-4dc1-b522-9d53267309e6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7afdfa41-e336-49e2-b4d8-260cf7649502)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57a589cb-aa16-4359-aa98-4c85d56eebb4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8489ac03-2573-49c7-8728-f601605ee28b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e51fb96e-08ee-4647-bfcc-42d839a39247)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/626aef61-99a2-4451-9a27-974209cecad2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f80a05d-5f69-420e-a709-73be621c0e0c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1294037-4702-4701-ba90-100bf763ee5c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/11e6d7db-334c-46ba-8917-42003b5ae22e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6572a667-e699-4c70-929d-3fd7845bd23c)
+
+* CPU utilization = (Q /(Q + S))
+* Q -> Quantum Time
+* S -> Context Switch Time(CS)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30632921-168f-42e4-8dc8-914b37d498a9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/977d2301-fc7d-4505-9e23-e2b9266da75d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/00dc19a7-7fb9-4680-85a4-3d272a4487aa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37b74747-6f1d-4deb-8456-868e086b24be)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c28ec42a-9c42-4d05-86f5-9008c93147c1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6e28a990-c6ec-453f-8efc-4c93076ddbe2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d39fabe-96e2-467c-8ae6-c26cb1a6b82d)
+
+* **It is not flexible in nature** -> The fix of this is **Multi-level Feedback Queue scheduling(MLFQ)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/38245fc4-d4b6-4508-b507-fae2d82ce551)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0a1e655-f4c9-416b-8fbc-64774063ebb5)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/094b97f7-1ccb-4e20-a6e3-70ddee5c8015)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/13e8e01a-cbac-4cfb-b2e8-185cb6662738)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/788eb220-d9cd-450b-816f-a56fea41b3a9)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98b6885f-fcbc-41ae-aa9f-8de8ecccd78d)
+
+* That is called as **livelock** which falls under **deadlock**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/08ffc9e2-50e0-495a-9515-febc12e5a8c1)
+
+> Where ever we have written **min avg. waiting time**, we will also get **min avg. turn around time(TAT)** as well.
+
+* Which algo is **non-preemptive and can give min avg. turn around time(TAT)**?
+
+> **SJF**.
+
+* which algo will give **min avg. turn around time(TAT)** whether preemptive or non-preemptive?
+
+> **SRTF**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6313cbab-ba1e-4ded-96bf-f4496d053cbb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a1ef424-4f56-490b-a6ec-0e7f840d31f3)
+
+* Interaction -> Response from the processes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c436509-c3b4-48a1-a02c-5a81287a1674)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71d736e6-d9fb-47da-8537-4e9310e8e5f8)
+
+* Overall **avg. waiting time** will be **more**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/25291f36-4d78-4952-9b51-5413596099e4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e6c1c7b9-47f8-491e-b987-b8f73c8eb21a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee2bd837-a394-4c69-bce5-62789d79bf58)
+
+## Revision -3
+
+* Link -> https://unacademy.com/class/operating-system-revision-part-3/3T5WWH7W
 
 
 
