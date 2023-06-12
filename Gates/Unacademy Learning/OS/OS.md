@@ -9942,8 +9942,164 @@ page is stored where?
 * SSTF is **practical**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f9a101dc-7275-4b15-b009-38e8afcebadb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0749b9e-89d8-447c-b8f5-1c9674cb355d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/25594593-8806-4197-98e7-62604a3b9aa9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05bcaab3-b455-4f63-ae65-7e454e511690)
 
-* Start from 20mins
+> From the **current position of 97**, we are getting a **tie** on **82 and 112**, the difference is the **same** which is **15**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5d4719d-ad7c-4894-8db4-99daf885e62b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8cf7f56-66a5-473c-a11b-d56be81467a7)
+
+> The **tie breaker** will be mentioned in the question only. What is the  **tie breaker** that will be mentioned in the question only.
+
+> The **tie breaker** would be like **always go to the right** or **always go to the left**. Something like that.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/145cd0a3-3d5b-4365-87a9-390250eb5620)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ae7e920-13a6-432b-ae22-0634bf67be91)
+
+* Another tie breaker.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4cd64599-5215-42eb-872b-74548749aa14)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7abac31b-7ba2-4128-b96c-35939e0fea54)
+
+* We are not guranteed to get **min. head movements**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32579976-aa41-4469-941c-ebda240bae5c)
+
+* We will remove it. We cannot give gurantee.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50499762-f0d7-4180-aa2c-181c0e4a827e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65407ca4-c37c-458d-bc3d-a3f56cf70307)
+
+## Scan(Elevator)
+
+* We will touch **199** as well, even though it is not in the sequence order. Till the **last one**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f564d5e-1a26-4a0b-9b6f-5694f568067a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb1917b4-09c4-44b5-ab44-62e48a6cee42)
+
+* The arm should move **towards the smaller value**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/26386fab-6cea-4ee6-8480-53b108ad338f)
+
+* We will go till **0** when asked to go **towards the smaller value**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c7916da-aecd-4679-9f97-684c31194b95)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f3737634-6f86-4615-b835-369039ba4733)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2362e5ab-32fa-44b6-8e2a-fe7dbc84587d)
+
+* When we have to **change direction** for **pending requestus** then only we have to go to the **corners**.
+* Direction change can happen only from the **first and the last** cylinder number.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/84044ad1-4a2c-452c-a451-bddd8ed01528)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3dd0042b-6924-43d4-b83a-cdfe6b0468bd)
+
+* No **starvation** here, **waiting time** is **definite** here.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c96e3f91-646b-4f42-b9be-05cbae3ade01)
+
+* Can't say for any **algo**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ff77b69-2cc8-4426-a71b-49d22bd3c8d2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eceff837-23b6-4095-9518-d203e3d972fa)
+
+## Circular-Scan or C-Scan
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/20935acb-eb5a-4750-a824-ba300aabc11c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f9a9d8d6-e184-4fb8-a801-a15571543634)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3b5fc0e0-5995-4f6d-9e9c-bcad2b476e64)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b95825ed-9c00-43af-ae39-184ae2a60ace)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5d1fe88-1df6-4bea-8bd1-8cf74ad54004)
+
+## Look
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/02e50f78-00b7-4d58-ac3a-e04cf8e93bbd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36efc80b-5759-4c40-990c-88f03d60dc6b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/adaffcfa-f11e-49cd-948a-50eeb4db6111)
+
+* Ofcourse
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ecf4119-9b67-4619-88aa-6d9fb68256e7)
+
+## C-look (Ciruclar Look)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76b94263-67d8-404c-8fbe-c9d52531681b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/049bf46a-158e-4209-bac3-8ba1573306cd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5860ea9-1bb1-4c4b-8c42-3463e9209596)
+
+### Questions
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b3605c8-040c-4bf8-953a-7379b5f400a1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1241b85-2c4b-4eb4-84b3-db1653265be7)
+
+* Disk is **IO** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5f3e700-2c6d-4ba9-aa76-3a9a967cdbcf)
+
+> Only one process is there and one process at a time can request for disk once. If there is only **one request**, then there is no need of scheduling. Any scheduling algo we run, the request will behave the same.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac14283a-69fd-4086-8160-cb8c820bd804)
+
+* Not a valid question. More info needed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0555364d-ecbb-4d17-a034-7bc47ac03028)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/93182aeb-7a8e-4556-a819-af070553ae9e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c2399e3-a309-43fe-8ad6-7d2bae9642aa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b4592a81-2d59-47ae-9597-9f5ef41dc0eb)
+
+
+### Quiz-6 Solutions
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/095f8599-179a-471a-95ab-f48c56c656f6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd0a657a-9048-4c4f-bbee-dc35ccf46564)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3bb22552-9d33-43d2-a896-24d5d543744b)
+
+* **Short-Trick**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/507571d6-a21d-4c6d-b1c5-e80a2415879a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/26d28b01-c3e8-498d-8adc-9f5fef1e01f0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/700fbbc0-b3ea-447d-bbdf-fcc5d3005abd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c01444b9-7a29-437f-bdb9-1931379ba797)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee6077f6-fd0c-45d6-9a69-2a84960e61a8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/427cd676-66b4-4d18-bac0-1356cc91552e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4895fb26-6189-4a36-93a5-aa9e0bc8ba5e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/395f876e-4757-43c6-902d-254cf4ec4e0d)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7aa1b8d-9724-44e2-84af-0a377cf6c6a4)
+
+* Explaining the solution again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6580f099-e3b6-451b-a0c6-64662d2fc822)
+
+* We cannot go any further than **1023**. It will be more than **2047**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa53acca-7b1f-4591-9d8b-eb3204c78494)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c485abf9-ae18-4d03-82fb-c79c8d227642)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fae86f29-5ad7-4a19-ab16-8b5a27d3d39f)
+
+* Instead of starting from **1024**, we are starting from **682**. Then we can go for **2047**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dfec2d31-466d-4bf7-b7dd-9c344a1a0079)
+
+* Then, we will get **11** as the **answer** instead of **10**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cafbc369-1a61-459a-b9ea-de082d62ac08)
+
+* Sir said take **11** as the **answer**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/55c54758-1ecc-48d0-9bd8-a5ed662ba0f0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/281733f5-ea23-4428-9ae1-bf00dc392b03)
+
+
+
+
 
 
 
