@@ -16,8 +16,8 @@
 2) https://unacademy.com/class/operating-system-revision-part-2/JCOGG3T3 [**DONE**] [12th June 2023]
 3) https://unacademy.com/class/operating-system-revision-part-3/3T5WWH7W [**DONE**] [12th June 2023]
 4) https://unacademy.com/class/operating-system-revision-part-4/QCV24DU5 [**DONE**] [13th June 2023]
-5) https://unacademy.com/class/operating-system-revision-part-5/SPOP124J
-6) https://unacademy.com/class/operating-system-revision-part-6/I8O2SE3A
+5) https://unacademy.com/class/operating-system-revision-part-5/SPOP124J [**DONE**] [13th June 2023] [No Class]
+6) https://unacademy.com/class/operating-system-revision-part-6/I8O2SE3A [**DONE**] [13th June 2023]
 
 ## Revision 1
 
@@ -362,12 +362,116 @@
 
 * Link -> https://unacademy.com/class/operating-system-revision-part-4/QCV24DU5 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/368175ce-9a9a-4ac4-8c35-7fd5aebe0644)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/817093fe-b750-4d7f-8f57-4eb6376268c5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1157fd1-fd0e-403e-bc3c-3b4a4228038d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2e305d39-b26d-4c2f-86d5-8747afa789c0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f053fa0d-58ba-4361-af62-6980eedfb2ab)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a205c552-424e-433c-8364-26d4073ab483)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9409aa2-2c8b-4c0e-9db4-70aaeec7eb09)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9d60bc3-0efb-40b8-9147-7278335ffd94)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/56bca9e9-3385-4907-8715-0fb547ed975c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8efd724f-5cd6-422f-a69e-d8cf4fd18cde)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/634fc939-4c13-4b96-a0c6-ccb8b38ea6f0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ff55695-f703-4930-983c-cf898092cf04)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37b2e978-657f-4b2a-94dc-58759951c63a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0299e0e6-b968-403a-af5d-9eb7db596207)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/905d904d-6930-4f01-ada0-29849057e9de)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bd830751-d461-4472-aae1-e6720afa1bb0)
 
+* If one of the four conditions are not met, then **deadlock** doesn't happen.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91d9be98-762a-41bb-9e64-8eae0994d8c5)
 
+* For **multiple instances** of the same **resource**, we will use **dots** to denote those **multiple instances**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d6fb61d-f460-491c-84df-33184a70562e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8c79133-4e9a-4744-99b8-4f90b14a177b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d7245ad-08bd-42dc-b01a-f074f27b902d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f699cab-3eea-40fb-842e-ce1a0ede74de)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9edb6bbc-e966-4ccb-bdcb-9a6ac786c972)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c3c9be18-4ea8-4277-878e-9ff33a1f37c4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f4fec94-daa5-4dfc-96ad-69a12572ab93)
 
+* Need -> Max - Allocation
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5c1c4135-7924-49d4-9001-5206ed80f0b1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f72a9369-5e92-46bc-abd6-c3666118af6d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ba9ce0c-a144-4a86-86d7-18572075e096)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/59277b3c-1e7d-43cf-8910-13d030850c94)
+
+4) Run Safety Algo.
+5) If Safe then **grant the resource allocation**. If not safe then **reject the resource allocation**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8cc7f350-2e24-44d1-80f6-7ed9ebbed103)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e2f31de7-bdd4-416b-a0be-0e5992921b80)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d97c1589-61f7-4b5e-9ef8-f1833dd80f15)
+
+* If there is a **cycle** in the **wait for graph** then there is **deadlock**. If not then **no deadlock**.
+* **Wait for graph** will only work when the **resources** have **single instances**.
+* If the **resources** have more than **single instances** then we cannot **gurantee** that **deadlock** will happen.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/629d7834-1652-421f-8e0e-9652eae9db02)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7fe2bc9c-9665-4a69-b913-d7ac8eda9dfa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e9e593f-0679-483b-adfe-9b0ba0d599d5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5701e4d4-b298-4baf-91bd-bfb2873523d4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/13e92f63-81fa-47bb-99f0-9e03ffbd3612)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b0613ed-2bb8-4cf7-9af1-ad8844ae6f0f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8cfafbe2-dd84-49f6-8275-47ce58bfae00)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/55b621a6-9b0e-496d-bd52-d6cd85d64961)
+
+## Revision - 6 [13th June 2023]
+
+* Link -> https://unacademy.com/class/operating-system-revision-part-6/I8O2SE3A
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/754596a7-08d9-4b03-86e8-006729264434)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dbaa733c-2493-452d-a826-0c9a5d364cc4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0d88b90-a78b-409e-bef7-84db1aef177f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1dd419c5-49ab-41e6-9080-f5e2f407cfe1)
+
+* **Option A** is correct because **insertion** at the end.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e30b1929-6c3c-42ae-9943-8fc33d5ac202)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/580b6d5d-e8f6-4748-b4b4-5757323fcb2f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d5e4a5b-a8f4-4213-b763-0e918531385f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ac44e2a-6120-4c4d-9faa-81694b01cbea)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e0fdd50-02f2-4ab0-b18a-704e5efc9aed)
+
+* Depends from OS to OS.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a0135976-969f-4494-b285-fea2b13b0bad)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d621618-8c47-4400-83dc-5c332ab3c372)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af67e400-a2da-4257-8595-ecb24c212ca6)
+
+* In **linked**, first reach **50th** block using **sequential access** then add the pointer of the **new block** to **51st** block and update the **pointer of 50th** block to the **new block**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/62856f0d-1a77-4816-98be-a6a65b61c260)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69170d07-10a9-4375-a5da-5a77063ac5c1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6e36a8a-904d-4754-b14c-0bf5876c6c62)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/53ca0c55-6b91-423f-b807-9b0e813dbefa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f647d9f-5359-449d-b355-bfdf49870254)
+
+* For **1-level** paging.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f4a1d7c0-bb04-48e5-aaa1-9f49d0b2d2ed)
+
+* No.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9af31f6e-2638-4482-8f8b-b170c1fa21eb)
+
+* All four processes are **stuck**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0746a39-2fe8-4274-b15d-e820412c6fe5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/666ef7d4-b1fc-4d15-b001-5b88fe03d8e7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f39c9e1-b33e-474d-90ff-21d341984798)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dec19ef9-5194-4c83-824c-19453b76aad8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9daae45a-b3db-4402-9c4e-f9fd34cea2ff)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2bb8267-69d0-43fe-b54c-eace6b1ad3b5)
+
+* Watched till **1hr 30mins**. Solving douts only. No revision done.
 
 
 
@@ -389,29 +493,3 @@
 ## Mega Quiz
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/84f99e28-ae01-4458-a7ca-2cecfb2cc56a)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
