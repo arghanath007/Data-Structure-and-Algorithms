@@ -1601,6 +1601,133 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b480d918-e1ed-41c3-8a68-e384f1dfd3d5)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a0552e7-c9a7-410f-a470-21e9164283a2)
 
+## Doubt clearing session (4) [13th June 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5aec60be-76b2-4252-a708-2b399055c1bc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58becc90-ffb3-44fc-bb65-7484d38204a6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed662fcf-f436-4f2b-a53f-9f4433a8196b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/06c23259-c102-4042-b19b-f0fa45655ea8)
+
+## Find **Last Two Digits**
+
+* To Find **Last Two Digits**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/28aced95-0c87-4719-aa0e-90e02d7fd5da)
+
+1) UDV = 1
+2) UDV **not equals to** 1.
+   * UDV = 3/9/7
+   * UDV = 2/4/8/6
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/643a53e4-c936-407d-a054-89c91cb552ce)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ae66acb-9a78-46ab-86de-434f368f0262)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/719e8091-b0c3-4f29-87b5-bcb2b607808e)
+
+## L2D, when UDV = 1.
+
+* Finding **last two digits** when **unit digit value(UDV) = 1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/02674042-f446-48e7-a69b-034c52db17ce)
+
+* How many **digits** are asked, focus on that.
+
+* **STEPS**:-
+
+1) Write the no. at the **unit's place** directly and take the **ten's place** of the no and **multiply** it with the no. at the **unit place of power**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97c54a5f-421b-4b57-af80-110cbdd4a963)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4fe818bf-a44c-4ded-a6ff-3b1d4da5d7a5)
+
+* (21) ^ 23 -> 61
+
+> Write the **1** at the **unit's place** directly and now **multiply** the **2** at the **ten's place** with the no. at the **unit place of power**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/78ced91f-e6a3-42fd-a40b-27d0f3bb78f4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/11a21c4b-bbac-44bc-86ce-4c5f8e0ac965)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2709596-3d09-4e31-b4b3-58861a3cf0fe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b98295d9-e40f-4bd9-ab3f-7167abfcc5ce)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e76d7a8-c793-4a03-924a-d302065a3027)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b890c5f-2cb2-4010-8298-adc45f52cd2d)
+
+* If **N! >= 5!** then **unit digit** is always **zero(0)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/73b3a318-5d15-48c9-9b5d-402b3b4b3ddb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7dd99b57-d97d-41fa-9beb-657a0ca7b379)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c54b53a-f313-442c-8984-92f0e0486319)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31401633-925b-496b-bf93-98b086450668)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/25c19006-0a6c-45a1-aa63-82720d4dfb95)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6bd301f3-d061-448a-afc4-29729977411a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b8bd486-062a-41bc-b253-ea7eefdd0e44)
+
+## L2D, when UDV not equals to 1
+
+* Finding **L2D** when **UDV not equals to 1**.
+* Where **UDV = 3/9/7**.
+* Objective -> **Make '1'**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa42ff8c-192b-426a-9b2e-e799500eae1c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/10dc74ae-8670-4363-87ba-85a261e887cc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c6d51fbc-a3f6-44ad-98ae-23da3a3af3f2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/40f36df0-6746-4fda-b0a0-6cf2cf9330c6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85085988-b2a5-499d-9a4e-6eff2dc0cb04)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1be0df5e-bcdf-46ef-88bd-d8a9804fab18)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/48d8c6ca-8886-482f-8042-f269a227cfd9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/040f146f-6964-4607-a287-cc85786231a0)
+
+* 3 ^ 4 = 81 = 1
+* 9 ^ 2 = 81 = 1
+* Make **1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e803bf6e-e6b5-4810-a7b4-05a4dc837d72)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4671797c-1d7a-45ef-b3b5-951fec9f2fed)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5b0bca5-1f51-45e9-b589-6bb54cbb776a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d5126abd-2fa7-4102-a316-b08dc7e49f58)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/771dd108-ed9f-43e6-9e0a-bb6803594d59)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a119029-cd81-4e86-a3d7-078bca89ce5a)
+
+* 7 ^ 4 = 2401 = 01
+* Make **1**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b47d8408-b817-4a56-8466-2b7af2af0831)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e3e2094-a6e2-4eea-815c-315e746344e5)
+
+* In case of **7** divide the **power by 4** and get the **remainder**.
+* See the **remainder**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d818ffa-c86e-4255-83be-c2d4be542ae0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c28ef85-0473-4690-a81b-4f620e836c40)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3e30990-4575-4ee4-91b9-adb4d2d70801)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/703bcbe8-1006-4b88-b1a5-6be679aa1e32)
+
+* **2/4/8/6**
+* 24 ^ (odd) -> 24
+* 24 ^ (even) -> 76
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/13c826ec-06ca-4a4e-b2e3-f1cc7b5f8007)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9f49b3ae-6b4e-490d-b0af-9ebae7c49de2)
+
+* We are dividing the **power of 2** with **10** and **2 ^ 10 -> 1024 -> 24**.
+* As we got **24 ^ 2 -> 24 ^ Even -> 76**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a0e9faa-d538-4c41-89a9-130dcf8ce2a4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72f2906f-1f66-448f-8eb7-fbeb9f4833aa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/15224493-3ab8-462b-a278-5c2eeac9c9eb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c303a04-9e02-4709-99cc-bd138f749382)
+
+* **4 and 8** are done **same** as **2** only.
+* Just convert the **4 and 8** into **2** form like **4 = 2 ^ 2** and **8 = 2 ^ 3**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/220382e4-9efa-42ac-8218-d1c2a3bf714b)
+
+## Note
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e0360093-5c55-4e0d-b889-269954c83bb4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/02c5e148-d2dd-4280-9e55-0708649cb0c3)
+
+* **5** gives **25** always.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2e2f45a-7c2b-4c7f-95da-23c77b3497b4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b5430bc-d873-44ca-bc0f-e09a7ed25400)
 
 
 
@@ -1614,6 +1741,30 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Words
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3df0bd6a-c299-478d-b63d-296b39eaad66)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/128f7436-c223-42dd-a6d1-43954a78b36a)
 
 
 
