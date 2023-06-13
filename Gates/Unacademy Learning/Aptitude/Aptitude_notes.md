@@ -1436,6 +1436,171 @@
 
 * HW.
 
+## Number system part-III (3) [13th June 2023]
+
+### Number system
+
+### **Unit Digit Value(UDV)**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb525d3a-bcb0-4066-a6f0-c8b3f6ea252b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3b1c281a-1da1-4232-a4c8-72973ab2893d)
+
+### Power Cycle
+
+* Whichever nos' **highest power** such that at the nos **unit place** there is **no repetition**.
+* It is the **highest power** of any no. such that there is **no repetition** at the **unit place**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d11c3703-7327-4929-9f67-a58fc96bd6cb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0282ec4c-0314-422d-9fc9-9e9675978e0c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d26ca237-cdec-4a1c-81a4-d7737f179b94)
+
+* 2 ^ 5 = 32 -> **2** is repeated. So **2 ^ 5** is rejected.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b715062d-d259-4bc1-a4fe-04374cba63e7)
+
+* 2's power cycle -> 4
+* 2's UDV -> 6
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b84a8a44-0685-4ede-9aaa-432a928db801)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1eb02503-f86a-4fc6-b396-0119a7d5cd0d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16900c84-f866-4a3c-8fec-09acc7edd97d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aba91643-cb2b-4f58-a1d0-af3000fa9c4c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b49637d0-c836-4549-b19d-efabca03de8a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc45e2ba-9779-420b-8075-2ef1cfa8881a)
+
+* **Power Cycle and UDV table** [**IMPORTANT**]
+
+### UDV = 2
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae17c4b0-9a0a-41b1-9ff6-5aba8e33ede1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8091909-fc08-4a52-8c65-1afb265816f1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bfdbbed2-a4db-4c68-9c72-80031c0a1130)
+
+* **STEPS**:-
+
+1) Whatever **power** is given, take it.
+2) Divide the power with the **power cycle**. As we have **2** here, and the **power cycle** of **2** is **4**. So we are dividing power by **4**.
+3) Get the **quotient and remainder**.
+4) Now calculate. UDV of **2 ^ 4 = 6**, that why we put **6 ^ 5** in the next line.
+5) **Any natural no. power of 5** gives **5** only. **Any natural no. power of 6** gives **6** only.
+6) That's why **6 ^ 5 = 6** only.
+7) Now we multiply **6 * 8 = 48** but we want **unit digit** only so we put **8** as the **answer**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cedb5a9d-0d15-4d8f-bae5-06db7eb7bd29)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5c78b5b5-f461-4fee-89e5-16d7ff5e53ad)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24eef27b-fa8e-4b9e-9b5a-c99d4b7e8a6c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ec37fc6-c147-4a2f-bc1f-fc49b9ca260a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f793af2f-aa83-432b-89b8-e7c71ef61456)
+
+* The **divisibility** rule of **4** is that the **last two digits** should be **divisible by 4**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3494dee-4e78-4927-94da-892955c8bb21)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b28753f6-80fc-4dc5-a6dc-8263b2286149)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76b1de64-afa4-4260-a427-b8f973a16c99)
+
+* Doesn't matter **any natural no. power of '6'** gives **6** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8486d876-f7a2-44da-a633-b1913441e334)
+
+* As, (2 ^ 4) = 6, we know **UDV of 2** is **6**.
+* (2 ^ 4) ^ (any natural no) -> 6 ^ (any natural no) -> **6** only.
+* (2 ^ 4)'s power regardless of **any value** will give **6** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af96ff30-0976-47df-aed4-292f9181517d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81671436-e7d0-43f9-9dd4-4a202d37c271)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6aa65982-636f-4132-babf-a3c8ce728359)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d98a9b0b-4831-488f-abd2-7e1163a59875)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cfef16ab-b285-4ba9-a64c-53b8c2675822)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d2cac1e9-320c-4b1b-920e-dd885946a6a1)
+
+* **Trick**.
+* Divide the **last two digits** with **4** and write the **remainder**, that's the **answer**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dfa04430-b5c4-4cda-9108-988e6e9aed65)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/79599df6-597a-4b8e-9feb-8a6e6ec7a025)
+
+* Solved using **trick**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b6e1f0b-fd72-4512-b9a9-8c06f69a116b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/25103407-03ba-4f5a-b78f-6ee8bf2070e7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec9833df-5f2b-41d6-a755-24f73244b7df)
+
+* Any **factorial no(N!)** which is **greater than '4!'** is always **divisible by 4** as it has **atleast one 4** already.  
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cec16807-776f-44d3-95d2-9287c33dd177)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e8f18a0-a2da-4391-994b-05dce1419e78)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a14bda81-6751-46a6-9812-97b22c650f48)
+
+### UDV = 8
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dfc6f0c1-e04c-4e13-a1f6-83586d3cebf5)
+
+* Power Cycle of **8** is **4** as well.
+* Same as **2**. **8** is the brother of **2**.
+
+* **STEPS**:-
+
+1) Divide the power by power cycle of **8** which is **4**.
+2) Get the **remainder**.
+3) Find the UDV.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3b1695c5-bafb-4045-ac5d-00d3c507d2e0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a9d1098-fe3c-4d73-b0e0-4de4cebf84d2)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d723ad4e-41c8-4453-8cf5-40ee4748d411)
+
+* **2 and 8**.
+* Brothers.
+
+### UDV = 3
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/baaa5403-656f-4af7-8118-923806e6e64f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d131bc53-c57b-4599-a441-3d5add68f279)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/314bb92e-0deb-4050-a688-e956d0c068ee)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/170c550d-39de-419f-83e4-00abc70a9974)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a2e2313-5bdd-4efa-8028-d1a19ed663ef)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8c3815b9-ab7d-4b68-a5ed-74fdd07c82a3)
+
+### UDV = 7 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c064202f-412e-4328-9eac-1963bc56548f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1474fed-bece-4108-9fac-a15e1f7a3b1d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fccff02e-77dd-4c44-83fb-58715d93d5c0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce5291f1-4ecf-4569-b537-cc316ea08a68)
+
+## UDV = 4 and UDV =9
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f835c64b-74d3-44bc-91ae-1253f9b35ccf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ea3b449-30f3-4950-b9fb-77e1039370a4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1632fa93-bffc-467f-8a5e-f4fcebd2e63e)
+
+### UDV = 4
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c4bede45-e0ff-46a9-ab11-65d1fff642d9)
+
+
+### UDV = 9
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7449e892-f8c2-4af2-98a7-a59ea224b65c)
+
+## Note:-
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4cc7a3fe-e010-4504-bc64-a018d3455600)
+
+* How many **digits** asked in the **question**, **focus on those many digits**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7cc3e0f6-1c59-4793-bf94-5ad57106a932)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/23d0a748-31a8-4cca-b589-904ff8bc8f34)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df62c3a4-2d4d-4a64-b670-e39c362b11a4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9150249-ee78-4e77-986d-b84f23bd3724)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c53bcc60-f58c-4628-be9b-23bd5b654f16)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/75b748dc-dba7-4113-9d25-d2bc94774e06)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6177887f-64ed-4c6d-9a9b-2f3fcf70671f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31c25649-e135-463e-98e7-fd1cd1abb900)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b480d918-e1ed-41c3-8a68-e384f1dfd3d5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a0552e7-c9a7-410f-a470-21e9164283a2)
+
 
 
 
@@ -1463,6 +1628,17 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/acc0748e-b2c4-4bdf-abba-fa8c7540bbcb)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76bd37eb-f685-46f0-beb8-fc2eb4dbd3e6)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1478aa32-000a-42b6-ad40-b37c6bc876b3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5cfa154c-976e-4572-ab42-31dc947f5b18)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/277dd135-0d76-4ec7-96c2-574789d2317d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d7acc75f-1f60-4d78-8245-d21e8ea370db)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e0b490e-f1b6-4f9b-870e-e7be3296ad81)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b9eb0c2-0f24-4000-aecb-db1ca844971e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/88710e24-c938-40c1-9eee-b0f46e91f26f)
+
+# One Liners.
+
+* The world is a drama, stagged in a dream, I am enjoying the show wake me up tomorrow.
+* We attract what we are ready for. [Law of Attraction]
 
 
 ## Scratch Board
