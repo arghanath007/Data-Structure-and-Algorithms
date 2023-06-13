@@ -1126,6 +1126,161 @@
 
 ![Last_two_digits_example_5](https://user-images.githubusercontent.com/54589605/215834474-b08955fc-05df-4fe0-9ccc-5618619f7547.jpeg)
 
+# Newer Courses
+
+## Number system part-I (1) [13th June 2023]
+
+## Prime and Composite
+
+* **1** is either **prime** nor **composite** number.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/da1f9b69-8eae-4b8c-9927-017c856a7f04)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/25a2e06e-9892-4742-a473-7c4b88de444a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72665492-436d-412e-ad8c-4a6bef211b8b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3086383c-c855-491d-8b06-31f16754adbe)    
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0928a572-f665-4bf1-b5b7-cf071516c76a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6fcf7c9d-9bb8-441b-b6a1-97fc093f731a)
+
+## Perfect Squares
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c171c9af-73f0-4515-b130-6fa327b5f114)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e76aff29-9a7a-4ff5-bbb7-0b110652a77c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0c00d79-0be1-402a-8d94-2c03f59a9abe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d4bcc3f-3129-42c2-91b5-b79341a89edb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/74a34d5f-3cc3-433e-bb76-2b1eceed7d4b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/468bbab4-4990-47af-a53c-8a8e422060c4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5fa4217a-6efd-4f07-972d-c1b1bf926368)
+
+## English Alphabets
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e738f26-d14b-4d53-812b-1f931cb38467)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db1f4ed1-c678-4a58-8631-ae9cd2bbc9e9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37170841-2b4b-4836-8b3a-33cdc0e9dec9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/01e07190-e114-49d5-a246-7224f17094ec)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/25808ae9-8cc3-4f08-a123-0ad7ad440c13)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b2fea510-32dd-4a8a-87ec-2dba910cfa63)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f696b97-6b20-47d3-aae4-e192dc15aed3)
+
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1237c43-b294-4355-98b7-7b1542c683bb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a098e6fd-6018-4b8f-88c3-4907ec84e758)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/770c88e9-dfd6-4bae-9b6e-ed6a17c45fe5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/67160190-0b46-402a-85b2-024f15e1019b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0c0a098-33b9-4530-80ad-f7d0a7c77f84)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/661c29db-7b38-4602-8a99-06555db81c07)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2bc0a13-cdf3-4fa3-a471-49544655d08d)
+
+* A -1
+* D - 4
+* C-3
+* G-7
+* F-6
+* K-11
+* J-10
+* P-16
+* o-15
+* v-22
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/979c92d7-a529-4f11-ac20-5890872887fd)
+
+* Option **A** -> **OV**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d16fd5b-d7b8-46cc-9704-5f82edf92672)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/17c905f5-a920-460c-8c10-3323bc270eb5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/355bfafd-182e-42fd-87d1-73a09a7de825)
+
+* (12345) / 3 -> (1 + 2 + 3 + 4 + 5)/ 3 -> 15/3 = 0 -> So **12345** is divisible by **3**.
+* If the **digit sum(DS)** is divisible by **3** then the **number** is also **divisible** by **3**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5c5f6be1-b3e9-4e72-bfc9-956c4a4e338e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6c0b345-6086-4201-919b-71b9eed19b96)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19874d54-0318-415a-a142-88518593a72e)
+
+* **98754237** is **divisible by 3** as the sum of the no. is **45** which is **divisible by 3**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b12ff2e2-c56f-4cc7-a0d7-44555d5d8f4f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/64021388-330f-43e7-b235-33b394e8a9db)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5bb610e3-4755-4ab9-926b-04c994059f03)
+
+* We are not adding the **digits sums**, we are removing the **numbers** which are adding to **3** or multiples of **3**, so that we don't have to find the **digit sums**. This is **better**.
+
+* The remainder is **7/3 = 1**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/345d588c-fc0a-4b2f-ac6e-737e70d9dcbf)
+
+* In the blank we have to find out, what number we can put so that the **no. is divisible by 3**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ae5c4ef-7156-4f38-bcac-ee3379dc0e89)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a655ec97-ab09-4ac8-8a16-89051829eaaf)
+
+* We need to **add '2'** so that the **no. is divisible by 3**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7dbb5f66-0c47-4a77-b191-2c1d75878bef)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c5bbcbc5-a9ab-4adf-a006-0634b2837b42)
+
+* Option **B**. **2** is the answer.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d379d11f-1089-4f4f-8acb-3614205d0515)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e6cd7bc-f1db-4a50-b838-92bb5f0043d6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/73e169bb-dbd1-4bf9-a642-61f15f739520)
+
+* Phony -> Sound
+* Eu -> Positive meaning.
+
+> **Eu** comes infront of whatever means it is saying something **positive**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aaa020c8-36c3-4e31-8ac8-77c6e79bd950)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b5625db-b46f-4b3b-9d82-c1e14b5789ee)
+
+* **Debauch** -> English work for **Tharki** people -> Somebody who has multiple affairs.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b3215d51-b66c-4b62-b28f-7a1773babb35)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/948cfb4d-e263-4d06-bf38-0ce1a17e1e03)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d414a1c-d2c7-459b-bf22-e7ffb5c43a28)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aee55ad9-efcd-4209-a3b1-3aaa58c9ef60)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0f8db55-8ac1-4158-967d-3c0de3fcbd51)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af14aa80-0c2a-420c-8e60-c1ddc60b8128)
+
+* Option **A** is correct.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab5fcf7d-38af-4bad-8807-0a9fd1288e08)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4fcce2d8-863b-415d-bd48-8118a5d1427d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/159d429d-7476-416a-a5d0-01e3bc7e4f30)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ca6f43c-016a-4b48-ad03-3b76c0783409)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/443fd843-566c-42cb-8ab0-cac226dd1577)
+
+* Fare -> Price of the car/service we booked.
+* Fair -> Fairness.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6edf484e-9d00-455b-9615-247d4945615a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/087f52e0-01d6-468d-a9a6-a08424389e36)
+
+* Option **B** is correct.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d772ef79-c952-49ac-8ff4-37192e63cd77)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d69a1bc8-b76d-4fd3-a8a8-8f8f7f5b0ebd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d9fe6f7-7acd-4962-a7a8-7d4d3d386e91)
+
+* Option **C** is correct.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/55690281-2898-4f2d-ba90-54762f145d6e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/258aba6d-f762-4a00-8d42-5221aa568833)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1a94a79-2fd5-4685-b8a3-b8ce02fd22c1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e96eb8fc-048d-42c1-9a37-91acc04009b8)
+
+## Number system part-II (2) [13th June 2023]
+
+
+
+
+
+
+
+
+
+
+
 
 
 
