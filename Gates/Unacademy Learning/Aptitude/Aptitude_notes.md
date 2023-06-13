@@ -1271,6 +1271,170 @@
 
 ## Number system part-II (2) [13th June 2023]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e801dfd0-9303-4c33-9f01-eaadc387c726)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f20c07b0-502a-4bb1-8e27-0c191b2ab56e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/486fd29f-a472-44ae-9528-030345e053e4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fef1a580-d3dd-42fc-8f7b-68f2655d93ff)
+
+* First find out that the **N** in the **N!** is a **prime or a composite** number.
+* What the **no. we want to find** in the **N!**. Whether the no. we are finding in the **N!** is a **prime or a composite** number. That's we are finding.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/282b8a56-c753-4373-af92-937c32068656)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0cad5acc-3086-417d-a1e1-817c0f2b29f5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf6e48a8-1632-4f82-b7d1-083cac5a2722)
+
+### When No. is a **Prime Number**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/834b482f-21f4-40bb-8a1c-ef62c0deee9f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/06073562-4dd0-47ed-91d7-2bee632ab8df)
+
+1) The no. we are asked to find should be a **prime no**. The no. we are starting the **division** should be a **prime no**.
+2) Now, with a **gradual increasing** power of the no., divide **N(10 here)**. We will continue till the **N >= D**.
+
+* D -> Denominator.
+* N -> Numerator
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1815b66a-9957-4a72-9f84-8566be431320)
+
+3) Take only the **integral** value.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e7bb1bd-ce39-4b58-b488-cc2c02390f92)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a18a5035-23d2-40af-9bf1-cca484ff5b3d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a6771d81-3a62-40cc-b97e-c5d5e951db87)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb3c8766-5383-444a-b5b5-20189783ed48)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0323864b-3735-4b11-830b-75279d8acc8b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a04d105a-0477-46b8-8c74-ee2322e80147)
+
+* **2 and 3** are **prime nos**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/20328ef7-434f-4273-a089-ad09c6f4401c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/382528f1-371c-45e5-89d6-2da28b923368)
+
+* 2's -> 26
+* 3's -> 14
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a305a44-ec88-4136-84e8-92543c02689d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d74bf9fe-6e18-4e61-b909-d2e6718f2f25)
+
+### Trick
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/168ee1c1-66a9-4869-96a7-6186f2ea2cd1)
+
+* Trick.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/639ab589-8efc-47aa-8917-70708e46fc6a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a1ac9e4-4ae2-4e1c-91ae-e8b843d25778)
+
+* Stop at **non-integral** value as we are taking the **integral** values.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33f04a4c-cd7d-4ee9-a252-b86ab9f6ca89)
+
+* 2's -> 97
+* 3's -> 48
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b1054ad-9935-4965-a3dc-2fdc6bce1e8c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e4f64f01-f944-478c-8031-8b127d16341d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb93c0c1-2ac8-494b-8662-2eae63267c58)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2db7e52f-29ea-4a05-a082-3bd5f113b278)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f966e670-d353-446b-ac95-ecde25209612)
+
+* 7's -> 3
+* 11's -> 2
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f4c34a76-483b-4aef-8ebb-4f46881d6c2c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e0549cd-ca6a-49eb-8225-a95a62c6f2db)
+
+* 7's -> 16
+* 11's -> 9
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b71df624-056e-42a8-b3f0-4bfd256d6d00)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b2aeb916-b039-49d3-8873-2e8e8800653d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c4adb72-cb8c-4f4e-80d3-0a9b8392c047)
+
+* **No. when they are prime**, **DONE**.
+
+### When No. is a **Composite Number**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2bf4f12f-3f11-4ff4-88df-e08c41a82b41)
+
+* When No. is a **Composite Number**.
+* When the **no** is a **non-prime no** then break the no. into **prime factors**. It is called as **factorization**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd6f0e9c-a79a-4882-864e-3846529a143e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c39d88ee-c797-40e4-bdba-2b08466e0a5a)
+
+* We are talking about the **power of 2**, which is **2** here as **2 ^ 2 = 4**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bdec6d8c-ab50-405e-8985-407e4def706b)
+
+* We are **dividing** with the **power of the prime no** we got from the **factorization**. **2, 3 and 4** are the powers of **2** as **2 ^ 2 = 4, 2 ^ 3 = 8, 2 ^ 4 = 16**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9395df49-5fd9-4149-8159-2565ac83f538)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d88bb7b1-022b-437f-a1d9-0745a2d6d6de)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3b2186d-ce32-463d-b993-bcd6446ec7cc)
+
+* This is why we are breaking the **nos** into **prime factors**.
+* **10/9** is taking the only **9** present. It is missing the **factors** of **3** which also make up **9**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/257fb956-c13c-47b0-b507-c192acb98edc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d84fe4e8-339f-4106-93f9-4600ac072038)
+
+* **STEPS**:-
+
+1) If the no. is a **non-prime/composite** number.
+2) Break the no. into it;s **prime factors**.
+3) Take the **powers** of the **prime factors** and **divide**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea505e8c-fb6a-40f3-9120-9e5e4a9a3bad)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35d96ff8-f081-455d-9a03-1c7f226b4a0f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0cc501a6-c3fe-4c6a-a863-7d27f7e58809)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a20e9aa-4835-435b-ae9f-d6022fbe5432)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b1abe0c0-16e1-44e1-ac02-7dab9473b400)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/564cffbd-af11-4cd2-92ae-e8af648064d8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8378ae13-bafc-47de-8a10-b6b54f361876)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/572bfe15-9dcb-44ce-b44a-524228207743)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd310623-3827-4a7d-ac70-43f720d15297)
+
+### Number = 6
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8c8aaa9c-4622-4d2f-b7ea-6f1226f50fcc)
+
+* We are taking **lesser** power of the **two** values.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/412d3a36-6edf-48e3-92d8-49a6186f2466)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/370fa388-2816-4a6a-b0e8-93b7f12ce4ef)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/17427d45-e98d-45df-a20e-9fd2ac3612f4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f19541f2-0799-4c73-939a-08e8e66277f4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f393c538-1957-4afb-a196-7a9fd52a2212)
+
+* In any **factorial** number, **no. of 5's** will always be **smaller** than **no. of 2's**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/79931042-ff7c-4168-b0a5-7fdd994b4753)
+
+* In any **factorial** number, **no. of 0's** at the end is as good as **no. of 5's** present.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66b30f6d-2c5b-4697-ac8e-23c7147afdb7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1789c888-9454-46ef-94a0-48edde43c451)
+
+> Starting from **1**, every **second(2nd)** number is **divisible by 2** and every **fifth(5th)** no. is **divisible by 5**. The sheer rate of occurance of those nos. **divisible by 5** are **always less than** the nos. **divisible by 2**.
+
+* No. of zeroes(0's) at the end = No. of **5's**.
+* To find the **No. of zeroes(0's) at the end** we just need to find the **No. of 5's**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7974e19a-22be-4b11-bbc5-c041b7441b52)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/14ba37c3-e658-4be9-ac81-9de9b8c275fb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4423c3f7-8a89-48c3-855e-912281e91db8)
+
+* **DONE**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f1a1214d-f664-47fa-8732-429bde8472d1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e51dfe6-3b76-4eee-920b-e1bdf255135d)
+
+* **No. of zeroes(0's) at the end** calculation.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b030ca0-a55c-46e3-ae99-5ea9277e1c5b)
+
+* HW.
 
 
 
@@ -1292,8 +1456,13 @@
 
 
 
+# Details
 
-
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4106831b-b367-48d8-bb03-352bdde7973f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5fd4b320-6b47-4b77-8b97-28a83210d123)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/acc0748e-b2c4-4bdf-abba-fa8c7540bbcb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76bd37eb-f685-46f0-beb8-fc2eb4dbd3e6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1478aa32-000a-42b6-ad40-b37c6bc876b3)
 
 
 ## Scratch Board
