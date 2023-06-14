@@ -79,9 +79,24 @@
 
 * Link -> https://unacademy.com/quiz/quiz-part-i/DM8044YYBG
 
+* 2 Doubts
+* **Question 2 and Question 10**.
 
+### Question 2
 
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/D8F2276B11
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cec72e81-f77a-43d7-8a3d-c86aea3b4b58)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa680948-e553-42ae-af12-08a065dc687b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5fe2f3ff-a175-4466-9cbd-95b332805798)
+
+### Question 10
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/D404D5439C
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0474275b-b2f0-4608-a773-743a9d3094ca)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22faff6c-7865-416c-9e68-4570f81cdedf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/778fadf7-d40f-4b37-a43a-f60072ce86b2)
 
 
 
