@@ -1977,9 +1977,152 @@ N -> No. Or Number
 
 * Product of Factors
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9a296626-c226-40a7-94eb-d2707220ff6f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f02e1f88-262f-4f47-88e1-19f96da94cec)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/10560298-0f2a-4078-b6da-5e8a42a713f0)
 
+### Sum of Factors(Sn)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8300cfa4-8c35-4d0b-a9c0-d784eda1141f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a7bd17b-f38b-4b3d-bd9e-2e9efff19219)
 
+* Sn.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ac33a12-ce3d-4a78-ad3f-3f5716abd5da)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2357b7dc-35f7-41d9-af59-7f88f2c1aad6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/53ae33b1-1957-43c2-a75b-43a524471f3b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ec8e78f-f615-4e53-9d9f-a8cace9d1f7a)
+
+* Done
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/90ce55b7-4e54-4a50-8858-baca6ca2820b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/584b3d85-215b-41d1-81be-632e63512ae5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a3841b2-462b-4f54-8613-553d1456f9b3)
+
+## Number system part-VI (7) [14th June 2023]
+
+## Concept of Remainder
+
+* Focus on the **remainder**. We can do **multiplication** anytime.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d7ee819e-4641-4625-9bbd-6e53add00e75)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d12fd916-c20a-43ee-b192-2c69a13272b1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/444e1a15-899d-4564-9e7f-fb98177cb108)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5f8982f-f244-4f27-afbb-fcef8c7cdb3e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34039074-9afe-4558-943f-183e739eca7c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/309f270f-0acd-493f-bd9d-90746f221a4d)
+
+* If we divide a no by **4**, then **4** remainders are possible **0, 1, 2 and 3**.
+* If we divide a no by **5**, then **5** remainders are possible **0, 1, 2, 3, 4**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/598a8fb9-0621-45b0-b47c-c94bb8de6e28)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d30dae54-a06c-4c6b-b95b-b5042f752eb1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c63a8f31-c6af-4429-ba02-44be7982c938)
+
+### Negative remainder
+
+* How **less is the remainder '3'** compared to the **divisor** which is **4** here.
+* So, **3 - 4 = -1**, which is **negative remainder**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ca1b1a0f-ecf0-41af-bf30-7c4762ba3bbc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1574cd3b-c341-497e-96ab-f5ce885f69b3)
+
+* Remainder = 1
+* Divisor = 3
+* So, **negative remainder** = 1 - 3 = - 2.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/871755df-6be9-488d-b21a-4bae1a55267b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85b49262-3394-4378-815c-c8e45632259e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/863706f8-13b0-49e1-acfb-c94fbb97f82c)
+
+* **Negative** means how much we are **short off**. It is just a **representation**.
+* If the **negative remainder** is **-1** which means if we give **1** to the no, then it is divisible by the **divisor**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5fd27dbc-5ac5-4e29-9b5e-ca9c6c5a820d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/18472991-b2f9-43d2-a710-b752c4258047)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae8ed12b-4ff7-4473-8850-f1482bfe7212)
+
+* Yes, way of writing.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb7e1216-074a-4f4e-8af5-5c59693713a4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f401f3b6-9735-4360-8bad-8dc4714b910d)
+
+* **63** is completely divisible by **9**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31350ee3-5d9e-47cf-b289-333f22d376af)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6fd8581d-72d1-472d-a7d1-a1552b1635fb)
+
+* Answer is **zero(0)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c7b8c40-1c4e-4ce7-aead-b223f8a8a34c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/da556be1-1dfa-4c32-9ba9-f94c8112ab3b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/67ae7848-fb20-401f-acd0-28b15d7dcaed)
+
+* Progressive power of the numerator.
+* 7/4 -> (7 ^ 2)/4 -> (7 ^ 3)/4 -> ......
+* Start dividing the **increasing power of numerator** with the **denominator** until we get **remainder as one(1)** or it keeps on **repeating itself** and we get a **pattern/cycle**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/64fe4db9-23c5-491b-b2de-9828b824fc64)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/634b98f5-3379-40db-8b6f-a90117aa67a9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3844b12c-325a-4c05-9c6f-a62f5c2273cf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc22440f-099d-4573-9b86-011797cf9e78)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c7ddfba-8d1f-45ac-b086-e77e7d9b538a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bdb5d925-0f37-4099-84b2-dfbc8b7e4031)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/387f5cad-48d5-4102-8444-dd4777a29483)
+
+* Regardless the value of **n**, we will get **1**.
+* ((a + 1) ^ n)/a = 1
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b51c9da-ed0b-4c68-8cbb-67ef547b4127)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/196e4b88-e9b4-4925-8ed9-38234521b2b6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a26b8058-bd8b-40d1-9ee0-34073794c63e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a591550-06d3-4139-91b9-65b927094ecf)
+
+* (a ^ odd)/(a + 1) -> No. itself(a)
+* (a ^ even)/(a + 1) -> 1
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f21d88d-c1ba-41e7-8c0c-ac919aaa2db1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f347c2a9-6e8e-4449-be84-2ce5021b7d61)
+
+* As long as there is **no factorial**, **2023** is **odd**.
+* (odd ^ (anything)) -> Odd.
+* As long as there is **factorial**, **2023!** is **even**, whatever the **power** is.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/472d386a-f9ee-42eb-be31-0c277b41ecbf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a170a6a1-a3d4-4a72-930c-65431d894769)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/177a5494-bc18-4749-bb12-a00475558bc2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/26781a12-5a5c-41e3-a103-c62b2591e7eb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5b31f08-69bb-40a0-a92f-3aa30999d969)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/96a28395-ad43-4c20-bbcb-b043a7d6474e)
+
+> When **two digit no. is reversed**, the **difference** between the **original** and the **reversed** is **45**.
+
+* How many such cases are possible?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee4b61f8-cd63-485a-b40c-f9aef19962f1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eee0519d-39ed-436d-bae9-b87f1b3a49e3)
+
+**05** is not a **two digit** no.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa2fc4db-8ddb-41fe-a6f2-6ba284078e2c)
+
+### No. of solutions
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1cdd182a-f6b1-4e88-92f2-72c690d801dc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2e8455ca-cbee-46fe-a725-edf05f05533c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/800f6fc1-6afd-4178-a76a-d116a8a9bdf7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/708dc000-8cab-4aef-8be8-61af9be41c06)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/950e6909-a1fa-48f4-9a1e-175bef2f06f8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3fa7fffc-969d-4349-9f0d-7bc7f623406e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/87a8bf55-ffd6-465f-9208-99416c255b42)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd1405dc-1b47-4d24-b84f-897fde3dbe41)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/28168ecb-61e1-41e7-8137-a00109982479)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f2cf7a45-0916-432b-8721-4544fdaa1c02)
+
+* We have added all the pages of the book and we have set the sum as **1000**. But the problem is when we have done that, we have **added** one particular page switch. Which is that particular page that has been added **twice**?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0557176-7c6b-4d47-a71a-7b660da93253)
 
 
 
