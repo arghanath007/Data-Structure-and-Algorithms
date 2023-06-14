@@ -73,6 +73,11 @@
 
 
 
+# Quizes
+
+## Quiz-1
+
+* Link -> https://unacademy.com/quiz/quiz-part-i/DM8044YYBG
 
 
 
