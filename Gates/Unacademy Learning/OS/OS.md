@@ -10282,6 +10282,10 @@ e092988eed58)
 
 * Link -> https://unacademy.com/quiz/quiz-v/CWTS3VALF6/attempts/SP_J3QAFYP1CL6ZPXNKL
 
+## Quiz-6
+
+* Link -> https://unacademy.com/quiz/quiz-vi/V24XEP9FTT/attempts/SP_9R57GWCFHTJZAGWXK
+
 # Numericals
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d5852973-b8e8-460a-b061-a7ceb375fc8c)
