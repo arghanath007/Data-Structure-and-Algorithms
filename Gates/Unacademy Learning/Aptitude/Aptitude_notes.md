@@ -1860,6 +1860,122 @@
 
 * Smallest Value -> (1/x) -> Option **B**.
 
+## Number system part-V (6) [14th June 2023]
+
+### Odd and Even factors
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5b464b8-be77-4198-ad40-9dd316931512)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f1d18d4-5419-40e5-9c05-4c8f134dbb50)
+
+* **a, b and c** are **prime factors**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c90b63d2-a50f-4927-ad73-694441494e72)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/687c1ab2-f916-403e-9e04-bfcac55685d8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3f2db4e-6e40-484f-885d-4795f56887da)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2dcb4b12-31d4-4ed5-b3f2-91c4cb062c00)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83739d22-5052-4f7c-8134-384449169a34)
+
+* n -> No. of factors.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ee3df5f-9fa8-4f6b-90ec-c6bbbe0226fa)
+
+* How many factors are **odd** and how many factors are **even**?
+* n_odd -> No. of **odd** factors.
+* n_even -> No. of **even** factors.
+* Factors = Divisors. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1f8c6fa-fb2d-43ff-8881-951e49822992)
+
+* What are **odd** factors?
+
+> **Odd** numbers. **1 and 3**. That's why **2** odd factors.
+
+* What are **even** factors?
+
+> **Even** numbers. **12, 2, 6 and 4**. That's why **4** even factors.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb9bacd8-8917-4416-8639-0aeb209dc0d6)
+
+* If we want to find **odd** factors then do exactly the **same thing** as we do when finding **no. of factors**. **Power + 1** then multiply. **YES**. But do it for **odd factors only**.
+
+* 12 -> 2 ^ 2 + 3 ^ 1
+
+> As **3** is an **odd no** and we are finding **odd factors**, so we will take **3** only. So the power of **3** is **1**, which means **odd factor = (1 + ) = 2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b535366-bf69-4308-a258-fc94842a49ca)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/380bf822-d3c2-466a-aa10-2e5bd96af1fe)
+
+* n_odd + n_even = n
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/119b5023-8d16-4a09-bd15-eb9b2e702c58)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2780be77-fc5b-4b0f-9038-5b66bad97922)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d726e6eb-0bd1-49b0-9a59-c5f77df8faff)
+
+* No. of factors(n) = 540.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ccae206-d8a4-4276-8fc5-a8fbfd3a16e5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34e2456b-2b59-4549-8140-7a5597f235c4)
+
+* n_odd = 3 * 3 * 4 * 5 = 180
+* n_even = n - n_odd = 540 - 180 = 360.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5e0d5a1-ee2d-4ae0-913f-1960665a8cdc)
+
+* We did **manually**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1700e1aa-d2c7-4fd0-aa01-248392c24477)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d368ca77-cd3f-40f2-839e-74d304b2c94e)
+
+* Prime Factors of 12 -> (2 ^ 2) * (3 ^ 1)
+
+> When we are **dividing by 2**, then we are taking out **2** from the **Prime Factors of 12** and we are left with **(2 ^ 1) * (3 ^ 1)**. So to find the **no. of factors of 2**, we will take the **powers** of the **prime factors** and **add + 1** to them. So, **(1 + 1) * (1 + 1) -> 2 * 2 -> 4**.
+
+* **No. of factors of 2** -> 04.
+
+> When we are **dividing by 3**, then we are taking out **3** from the **Prime Factors of 12** and we are left with **(2 ^ 2)**. So to find the **no. of factors of 3**, we will take the **powers** of the **prime factors** and **add + 1** to them. So, **(2 + 1) -> 3**.
+
+* **No. of factors of 3** -> 03.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5f4386da-1d37-4c5e-af8c-ce36ec3ec56b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ce1f53b-a8f7-44e2-ae09-14be2c3bf345)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92c5522a-d0ff-4876-b97e-be201d18fdd7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/43a7ad84-c0ba-4fff-999d-eca2db843958)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3fc21ef-bff4-49cf-884c-fc1497aa76d8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e33fdb3e-1928-4067-9744-0f8bd379c3be)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b9e14d7e-cffd-496d-8608-2251f6a573dc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f9f3ae5f-4c22-4b60-9f8e-013465008234)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/99a922c8-b279-4009-9a89-8dfa63c6c9c1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/04a944bd-dd1f-4918-a107-2fba7017ae59)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f46812d-ef90-4e52-88a2-28b38fc88295)
+
+* n_even -> /2 [Divide by 2]
+ 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd082a50-502a-4741-9f9a-de6d13447dbb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb099de6-844a-46e5-b03c-2a3ae91743dd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69000e43-94cb-42ee-a49b-9564c082fc62)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ca2c08d-ae31-4ad9-9d24-000112b80d68)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69651f2e-ab9e-484a-af58-9db79d9f91ca)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d166d87b-7e4c-4448-97e8-ce86af51c04d)
+
+* Done in class.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/01e302a4-2e57-4b6d-b0fd-294d3ab434c0)
+
+* Done in class.
+
+### Product of Factors
+
+n = No. of factors
+N -> No. Or Number
+* Pn = (N) ^ (n/2)
+
+* N = 12
+* n = 06
+* Pn = (N) ^ (n/2) -> 12 ^ (6/2) -> 12 ^ 3.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71e3c27b-9778-4434-bc1c-482dae2298c3)
+
+* Product of Factors
 
 
 
@@ -1913,9 +2029,8 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b9eb0c2-0f24-4000-aecb-db1ca844971e)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/88710e24-c938-40c1-9eee-b0f46e91f26f)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d3428e6-c05a-4f89-8e2a-8eeecc551c97)
-
-
-
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a631b152-7d37-418e-be67-73d14474a9d6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d171e4ff-de89-4567-bf6f-e05734a9c589)
 
 
 # One Liners.
