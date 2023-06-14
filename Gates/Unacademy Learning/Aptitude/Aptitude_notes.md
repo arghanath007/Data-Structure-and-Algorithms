@@ -1729,11 +1729,136 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2e2f45a-7c2b-4c7f-95da-23c77b3497b4)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b5430bc-d873-44ca-bc0f-e09a7ed25400)
 
+## Number system part-IV (5) [14th June 2023]
+
+### Factorization
+
+* Break any natural no into it's **prime factor's form**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b37b2c0-87e8-4dd1-a23a-87978a222793)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d509f7de-292b-4538-b89a-03448834c480)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/979f5393-3e3f-4d13-9371-9778150a7ea8)
+
+* n -> No. of factors.
+* Sn -> Sum of factors.
+* Pn -> Product of factors.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/121da960-1a15-4675-978f-d40103ff626b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b2a3be36-9658-437b-bf77-75d875d513b9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a69ba092-9c02-4b86-acfa-9180cc0dc6ba)
+
+* **a, b and c** are **prime factors**.
+* **p, q and r** are the **powers of the prime factors**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f3ab77c2-dba0-483a-b487-98c22c9e3388)
+
+* **STEPS**:-
+
+1) Factorization, find the prime factors.
+2) (p+1) * (q + 1) * (r + 1)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eef93f83-7579-43dd-bca9-4f2845d7e8be)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/acad5507-c791-4884-b4e9-48af1007aca7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/337363a9-9a87-487b-872b-57db8d28de91)
+
+* **Notes**:-
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e2c4b134-fe97-4533-a185-6dbcecd9c666)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e9a2cea-81d3-4cdb-b37e-7bcde3c2d834)
+
+1) Incase of **perfect squares**, the **power** of the **prime nos** are always **even**.
+2) In **perfect squares**, **power** is always **even**.
+3) In **perfect squares**, the **no. of factors(n)** is always **odd**.
 
 
+> The powers(p, q and r) are always **even** and adding **+1** gives **odd** only. We know **multiplying odd** nos gives **odd no** only.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69afe058-3d1f-4a26-9083-c74a0eeb4fbe)
 
+* If we see **odd factors** then we are talking about **perfect squares**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/949684b1-3b0d-4491-b194-f2cbbcf17e1f)
+
+* **Perfect square** means the **powers of the nos** should be **even**.
+* To make a **perfect squares**, we have to make the **powers even**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/062b0526-69fe-406c-bf73-d1e6c00a32d9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8cbb1a3a-a7e1-401c-97cb-9c1fe6f97a26)
+
+* Perfect Square -> Even Power or Power is Even.
+* Perfect Cube -> Power = 3, Power of 3, Multiple of 3 power. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b9e3fd59-eb7f-41f2-bc75-acf4e4676499)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c8e4dbb-a485-4b13-af70-3f5a78d055ad)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3b3dde4-a042-4cce-bf44-19033e405bb7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33c5f228-4a50-49df-9248-988b41a5a99a)
+
+* Perfect Cube.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3b7acc50-c95d-4adc-beb6-905d00db140e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/797a00c6-b7f2-4c34-9cf1-d450da20def4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b780423e-1679-46b8-bc3d-4094a41e298d)
+
+* For any **natural no(N)** find the **prime factors**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95a29593-c201-47b4-a63c-9c79c62de781)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/51b2a097-87ff-4040-9450-b073cfa084e9)
+
+* '~' -> Difference
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/496a5299-7d50-4099-a84e-d8102831876f)
+
+* 'E' -> Even
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/faee7fda-0033-493d-9d95-96f9fcfbc617)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a27bde7e-24e7-4ee5-8f0d-8b7d19899110)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce0c49ea-23e3-4ce0-9d0f-09058d573456)
+
+* **NOTE**:-
+
+* **Integers** -> 0, +- 1, +- 2, +- 3, .....
+* Even Integers -> 0, +- 2, +- 4, +- 6, .....
+* Odd Integers -> +- 1, +- 3, +- 5, +- 7, ......
+
+* **Integers** [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba8ebf59-d4e7-42a2-8680-53dfeae5b7e0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b7133dd-59ea-48f3-a039-05b4833a337b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d2742193-cdad-4870-96a3-a4a503af53b0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5581f845-d31c-4d05-9711-2290b1e515f6)
+
+* Never just say **integers** always say **positive or negative integers**.
+* **a - b = Even**, the **difference** of **two nos** is **even**.
+* **Must be True** -> Unconditionally True.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/126c30d6-d3ea-4456-ab2a-6a372be29095)
+
+* If asked in the question that **which of the following could/can** be even?
+
+> Then we could have also given option **A** along with option **C** as it was satisfying one of the **two** conditions where **a - b = Even**.
+
+> We are talk about **possibilities**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/865156d2-3d26-445c-89b2-63d81ec8d642)
+
+* **Can/could** -> Option **A and D** correct in that case.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2de31c0e-08a7-4605-af75-747fb63b7faa)
+
+* Must be true, except = **False**
+* Must be false, except = **True**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/21d10c77-5fe7-4a96-9cd7-8b70a54a5b10)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f2f0f4d-ac9b-430a-ae84-2ebf2feac857)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a394ccdd-e08c-463d-975c-621510d00533)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7747b8f-d70c-4994-ae09-7ba251901ed3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/02da1589-2a75-43ef-8b7e-966188c4b537)
+
+* Descending Order.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b83f351-ce1b-4316-8483-5fccdcb860ea)
+
+* Smallest Value -> (1/x) -> Option **B**.
 
 
 
@@ -1765,11 +1890,13 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3df0bd6a-c299-478d-b63d-296b39eaad66)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/128f7436-c223-42dd-a6d1-43954a78b36a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/29e34442-e624-453d-a49d-b335fe0828c5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/644486f7-333e-44fc-911f-02f0a172204f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/87a99669-3458-492e-b118-75d9ee4a3998)
 
-
-
-
-
+* Paradox -> Oxymoron.
+* Example -> The Great Depression.
+* Contradictory words.
 
 
 # Details
@@ -1785,6 +1912,11 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e0b490e-f1b6-4f9b-870e-e7be3296ad81)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b9eb0c2-0f24-4000-aecb-db1ca844971e)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/88710e24-c938-40c1-9eee-b0f46e91f26f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d3428e6-c05a-4f89-8e2a-8eeecc551c97)
+
+
+
+
 
 # One Liners.
 
