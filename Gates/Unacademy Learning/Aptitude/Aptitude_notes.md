@@ -2124,6 +2124,98 @@ N -> No. Or Number
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0557176-7c6b-4d47-a71a-7b660da93253)
 
+## Doubt clearing session (8) [14th June 2023]
+
+## Quiz- 1 solutions
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ecc5230c-c6d2-44d5-a576-85a2cebe4cf5)
+
+* 5.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b40dc2f5-d4f5-41e8-81e2-3a1aadc27644)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e65ebda9-c9fc-4f4e-b062-58841f1ef52f)
+
+* **STEPS**:-
+
+1) Break the **denominator** into **prime factors**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d7796ac-653a-411c-beed-f84b4184c432)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6608b1b1-a074-45d9-a8fc-a7405a27ed02)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb1b65be-b379-49fe-b57e-6922d088fa21)
+
+* Need Alteast **two 3's**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e11869b-c220-4b48-8ef7-fb4aa6e824d2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8585af4b-8eb4-45bb-a318-28639acdb7ea)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16cd3dd4-8df8-4339-8412-0dabcf4e9ee2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05f5fb66-fcf4-4e0c-bca5-c4192f8b73f0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5c67290b-e7d8-44d7-9714-10c3fe34a062)
+
+* Option C.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/74a4f640-db9f-494b-9977-baf971fda204)
+
+* Option A.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab8f1a73-618f-42af-bb1f-afd3d3b2f15a)
+
+* Option B.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce7e93b2-a31f-41b7-9e1f-d7b0cf1f9a5f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/004e84c1-2028-4663-aae3-d3c95cc9930b)
+
+* Option D.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c66bcad-9af3-4858-ac64-4a4cab07ac29)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d6ede85-f7d5-4413-8577-f8141b724183)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50fbd26c-439f-4412-8173-8728bdf526e6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c977f3f7-1042-4020-8a87-e712c2fdf846)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f1e6612-0655-4c59-be7e-0fd2de3bdf94)
+
+* Option **B**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/254abde3-0af2-4ad8-8d1c-aa4bae998695)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bea15b51-ca58-4346-ad3d-fdbbf225fa6d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/818161df-ad01-4472-9656-4ea18276a61f)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f9ee9933-d957-4bcd-8352-85094a3a1e43)
+
+* Option **B**.
+* Unit digit asked so **5!** onwards there is a **zero(0)** at the **unit digit place**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7bcab3e3-7371-4074-92a2-16d53a064e16)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/60fa466b-f791-495c-820c-a4af17c3b326)
+
+* **Last 2 digits** asked so **10!** onwards there is a **two zeros(0)** at the **unit and tenth digit place**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3fc80258-831d-4deb-b2eb-04beb60f1a19)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/958f8cc4-66c2-42de-92f4-a172478b48e1)
+
+* Find the **prime factors** of **168**.
+* Find from where the **remainder** of the **factorials** is **zero(0)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ebfab846-2df6-48e9-8ffc-7fa8dfef3037)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b3087a5-09e9-4d45-be0e-98bc7af5b454)
+
+* From **7!** onwards, **remainder = 0**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89c02bec-26ff-490a-a07a-43786f549a3f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1449eef6-7719-42ce-b9f6-a6eeab3f42f0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/68b445a9-1e23-4a9d-a922-9677cff818ad)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bab323d7-51cf-42f5-94c5-2c99f5f5d884)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d2a55035-a23b-49ee-94c7-4aa6de45c849)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d458743-4ad6-4889-95ff-3ee47b83b712)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/579dc259-a745-4287-bee5-19ed9a3fd1f2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/25cfcf49-1c00-438b-90db-d2cd43c99ba4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d06f2b86-decc-4b64-a8d9-e83eb1d890b2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c334f830-77c0-477d-a18c-ee34e00f8679)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a23a205-65d2-4572-9e41-7cf7491a4f12)
+
+
+
+
 
 
 
@@ -2174,6 +2266,10 @@ N -> No. Or Number
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d3428e6-c05a-4f89-8e2a-8eeecc551c97)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a631b152-7d37-418e-be67-73d14474a9d6)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d171e4ff-de89-4567-bf6f-e05734a9c589)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4cd3eb20-5524-4365-a896-fbcee4838b0d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d939b857-f2ab-4be6-a248-51e7c6909c52)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89ff32d9-3c1e-4316-9b13-82337bc72fd4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b11f953-0fc6-4735-8140-cc816c3c252f)
 
 
 # One Liners.
