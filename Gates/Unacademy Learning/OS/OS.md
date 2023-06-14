@@ -18,6 +18,11 @@
 # PYQs Playlist
 
 * Link -> https://www.youtube.com/playlist?list=PLG9aCp4uE-s3klreqEhbzOBQDg5Ha0U38
+* Cpu-scheduling-pyq-discussion-part-I -> https://unacademy.com/class/cpu-scheduling-pyq-discussion-part-i/T8IWFUH3
+* cpu-scheduling-pyq-discussion-part-II -> https://unacademy.com/class/cpu-scheduling-pyq-discussion-part-ii/K4Y81I1H
+* cpu-scheduling-synchronization-pyq-discussion-part-i -> https://unacademy.com/class/cpu-scheduling-synchronization-pyq-discussion-part-i/RLE53AC9
+* synchronization-deadlock-pyq-discussion-part-i -> https://unacademy.com/class/synchronization-deadlock-pyq-discussion-part-i/6WEIBHH0
+
 
 
 ## Introduction (1) [8th May 2023]
@@ -4174,6 +4179,5923 @@ P1 -> Key -> T/T
 
 * Yes.
 
+## Semaphore questions classical synchronization problems (15) [30th May 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ad712e28-e555-48dd-955a-aa603e4b6867)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/79448632-ec2e-4ba7-96ca-27cf31569d61)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b11c7315-34a8-47e4-81d0-4704dc6587b2)
+
+* **S** is a **binary semaphore** so it values are **0 and 1**.
+* We have **S=1** and the next statement is **signal(s)**, if we run **signal(s)** then can we **increment** the value of **s**?
+
+> **NO**. Because it is a **binary semaphore** and no values comes after **1**.
+
+> If **s=1** and we ran **signal(s)** then **s** value will be **1** only and **signal(s)** will run **completely**. The process will not get **stuck** as **signal(s)** run **completely/successfully**.
+
+> If **s=0** and we ran **wait(s)** then **s** value will not **decrease/decrement** but **wait(s)** will not run **completely/successfully**, the process will get **stuck**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/769c63ed-c6a8-4fef-a2a1-af2782dfe889)
+
+* Note:-
+
+> If binary semaphore value is **1**. Then **signal(s)** will run successfully and value will remain same.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d4ad592-5859-47c1-9b1b-c07b824d8908)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a7f8f5f-4321-4796-94f4-8841d696f6dc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa742e2c-3360-4d8d-8b39-4d615ee89fdd)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec5d5db5-1829-4eec-b627-f9ba75bed4eb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3298cdb8-8570-4063-85d8-d06a3901d627)
+
+> If **s=1** and we ran **signal(S)** then what will be the value of **s**? It will depend on what **semaphore(s)** is.
+
+* If **s** is a **binary semaphore** then **s=1** only.
+* If **s** is a **counting semaphore** then **s=2** only.
+
+> **signal(S)** will run **successfully** and it will not get **stuck**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/adecc001-a40e-4aa1-8667-cbe170fefc88)
+
+* Dry Run.
+
+s = 1/0/1/0/1
+
+P1 = Completed
+P3 = Completed
+P2 = Completed
+P4 = Completed
+
+* Prints -> 1111
+
+> As it is mentioned in the question that **all processes run successfully**. So we have to run the processes in such a way that **all processes run successfully**.
+
+> So, **no processes** will be **stuck** in **wait()**.
+
+* No. of times **1** printed = **4** [Answer]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a829fb9c-d808-40f3-a7bc-3db7d65dde43)
+
+* Is it possible that all processes may not complete?
+
+> **YES**.
+
+* In the **given sequence**:- **p3 -> p4 -> p1 -> p2**
+
+> So, **P2** will be **stuck** and p2 will not complete.
+
+* **Max** one process will not complete, it will be between **p1 and p2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ac95f87-585c-4c75-aa7a-35dc76327e0c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/99b0c7f7-de2d-405c-88e9-221817b1bac8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/48090ce6-6a25-41ea-b2bf-15f11ff27356)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dbfd6516-02ce-4ac8-82ba-44e1e3b46cfc)
+
+* NO.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33e70c1f-a485-44eb-8655-6b3d9c208c48)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ba86b44-57f4-4ff1-aaa1-afc7bc3328ee)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f066de43-5289-4a2d-8644-cc4cc0edebcd)
+
+* S=0 and **s** is a **binary semaphore** still.
+* So, **max process** get stuck will be **1**. Out of **p1 and p2**, one of them will get **stuck**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1627bab7-88db-4c33-9ec2-3c6d2b507dd0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/74282281-1831-45f9-9efa-514f91e360ba)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f82af12-5795-41ff-9a1e-ed4c32bd94bb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb1c037e-31b8-45c7-9343-ab3095e95f73)
+
+* CS -> Critical Section
+
+* Dry Run
+
+S = 1/0/1/0
+
+P1 = CS
+P2 = No
+P3 = No
+P4 = No
+P5 = No
+P6 = No
+P7 = No
+P8 = No
+P10 = CS
+P9 = CS
+
+* Max no. of processes at the CS together -> 3.
+* The process should stay at **CS together**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ef71df3-8bae-45b8-833d-f54d5adbccd1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac9a101e-c5c0-46f0-b55a-b98312f8665d)
+
+* Max no. of processes at the CS together -> 3.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9759a8ba-96f2-475c-87c7-40b74fb7fdd9)
+
+* CS -> Critical Section
+
+* Dry Run
+
+S = 1/0/1/0
+
+P1 = CS
+P2 = No
+P3 = No
+P4 = No
+P5 = No
+P6 = No
+P7 = No
+P8 = No
+P10 = CS
+P9 = CS
+
+* Max no. of processes at the CS together -> 3. [**WRONG**]
+* The process should stay at **CS together**.
+
+> We have a **while(True)** statement. So, the **wait(), CS and signal()** will run **multiple times** for a **single process** yes.
+
+> We can run a **single process** as many times we want.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d78bd6d3-dfd1-4934-bc3b-885734c137a8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e02f6ff-b076-4ffd-bfa9-4fe065fbc762)
+
+* All of the process get entry into **critical section** which is **10**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/18a84d87-a49f-49c3-9fdd-55056978bd41)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8536dc17-c907-4079-aaee-bc80430e5c27)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3439d94b-051a-4a78-8c01-f10cfc7faafc)
+
+* All of the process get entry into **critical section** which is **10**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a433d952-572e-4cb1-9e19-566397c0a1e7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/291d5fd2-6664-41bc-b665-1c3b0a558266)
+
+* P1 and P2 will work in **strict alteration** manner.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4445497d-d8ac-4cb6-8567-8e06f98442da)
+
+* We have taken **3 semaphores**.
+* First P1 ran, then P0 ran and finally P2 ran.
+
+> As P1 should run first that's why **S1 =1** and the rest **S0= S2 =0**.
+
+> If we want the **same** sequence(P1, P0 and P2) to be repeated then in P2 process at the very end, write **signal(S1)**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76b3c101-98fc-4dc9-9aaf-88dacb513674)
+
+> If we want the processes to run once and finish, then don't write **signal(S1)** in the P2 process.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6eb700b6-bd4b-4c29-b72c-dbd43e7f24f2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72c81a07-06f2-4cb3-9973-fbb34174c067)
+
+* Min no. of semaphones = 3.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/68940ee9-d18a-4a07-b8de-1c1eec838e8e)
+
+* To get the given sequence we need **B** first. We can get **B** in **T2** process and for that we need **S1**. So, **s1=1, S2=0 and S3=0**. We need **C** and it is in **T1** and for that we need **S3**.
+
+* s1=1
+* S2=0
+* S3=0
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/46c1f987-e004-4461-ab6e-62dd14433b6a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3125690-34cb-4e14-8ae7-6453e06c383f)
+
+* Option **C** correct answer.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4969d92d-a66b-419e-a94f-c6cb50df701d)
+
+
+> We cannot run **P1 and P2** processes first because **s1=s2=0**. As **s0=1**, we can run **P0** only.
+
+> As **P1** has **executed/ran** already we will not run **P1** again. Now we will go to **P2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f4abe93e-1bf8-4a88-a553-5381d2bb1c6a)
+
+* **O** can be **printed** 3 times, that is one of the options.
+* P1 and p2 process ran only one.
+* Eithe **zeroes(0)** will be printed **3 times** or **2 times**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af78ba04-2e71-419f-bf8a-58ac0882318e)
+
+* Option **A** is correct which is **at least twice**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f4b899d1-8c16-4c99-bfa9-08f0eb41c01b)
+
+* 3 zeroes printed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6aff4de9-d4fe-4d96-8c25-154348df3c37)
+
+* 2 zeroes are printed. We have ran P1 and P2 one after another.
+* P1 and P2 will run **once** because they don't have any loops.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/62610ce7-f26c-4580-a4a0-f9f7c491ec4c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b816480-f812-49da-8c17-2dd2db85413c)
+
+* Release -> Signal().
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7550f2c-7a93-481c-99d3-5082b4bf93cc)
+
+* Option **A** is correct which is **at least twice**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ea3dd54-8bb4-45c6-a7b2-44c187783ef3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/189bc938-b568-475d-96b9-9f8f46e68570)
+
+* Final value of **x** would be **-2**.
+* How many processes can read **x** at the same time?
+
+> **2** processes.
+
+* So, we will have **race condition** here. Any two processes can read **x**.
+* We want **max value** of **x** so, we will do the **additions** at the end for **max effect** and nullify the **negatives**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d772e44-96ef-4181-b7e7-bd50d1a4356e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a6007622-6383-4961-9783-14fa0e96ce6d)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f8dc76ce-3442-4a13-8c6e-a3b0980e10f6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d5cc438b-3259-415d-91b3-7fa5878b6274)
+
+* How 3 processes are nullified?
+
+> **W and X** can go to the critical section together.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2fcac2e8-8e08-468e-a1ed-976e6f80cc2e)
+
+> What are we basically doing is that we are taking **W and X**, we are running **W** till **R1 = R1 + 1** and **w** get preemeted. Now X, Y and Z all three processes are one-by-one run one after another. Run them in any sequence. At the end **w** comes to run and w had **1** stored locally and it set that **1** as value of **x=1**.
+
+* This is how **only one process** impact comes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e071715-cdfe-45e2-9f72-d41956513f33)
+
+* No. of **distinct values** -> **7**.
+
+## Doubt clearing session classical synchronization problems (16) [31st May 2023]
+
+### Quiz-2 (Solutions)
+
+#### Q1
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c988928f-3b5c-4d60-80e0-17fcc03479eb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f5cbdb9-c36f-49bd-9640-a3ebf6590536)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86ea0681-f0ca-40ce-b65f-b12edb874b68)
+
+* Answer -> 2
+
+#### Q2
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/001519b0-5947-4c52-977f-3670a9d0a69b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/944e963f-9de8-4dc5-b9ea-4ddaa1666bf2)
+
+* Answer -> FCFS and SRTF
+
+> **SRTF** behaves like **SJF** when all processes come/arrive at the **same time** which is all process have their same **arrival time(AT)**.
+
+> In that case, **preemption** will never happen.
+
+#### Q3
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/601563db-616a-4d3d-8ae9-2cdc71ad6bed)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98553222-9a0e-4fab-b79a-5a33b8426aa1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24220f09-fb45-4d70-8238-243a96837b96)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/23f90e06-3a18-44df-8c0b-92b8cf8e9cb2)
+
+* Answer -> 89%
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24940284-f007-4525-9c9b-cb258d5d4a49)
+
+#### Q4
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f19b53db-f7f5-4ca2-8ca3-50f4750c203b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dbe29fb5-1378-4fec-9041-f81e98bddf6c)
+
+* Options A,C and D are correct
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a8ea76f-3d88-4f62-97c3-8d2dc59ae1c6)
+
+> This is **True** because in  **round robin**, when we run a process in round robin, all of the process are **waiting**. The process run for sometime then have to wait for sometime then they run again.
+
+> As a result the **waiting time** of the processes **increase**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/821b973c-1971-4dd8-8e88-d044a64fab19)
+
+* The **average waiting time(wt) and average turn aroung time(TAT)** comes **very very high** in **round robin** algo.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e169bce1-f5b9-467b-8381-52446e7cad64)
+
+* We can compare.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b4ab1c5-a511-479a-b174-031b5c8316bd)
+
+#### Q5
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e3f0ca5-147f-45b0-9d6d-dc76d41624c5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65e637c4-94d5-4168-b728-bbfb3c599c71)
+
+* **No process never preemptes itself**. Either the **timer or the OS** will preempt the process. For external reasons, preemption happens. From itself preemption doesn't happen. When a process goes for IO opration, it is not called as **premtion**, it is called as **process has goes for IO opration**.
+
+* Preemption is a **very specific** term used when a process in it's **running state** has been taken to the **ready state** for external reasons.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31aa4f58-01b9-4344-9624-b8bbc6162873)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27f6975a-e833-4b02-aaad-db16b0ab7a9f)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a215b54d-7289-449b-b4a7-1b138895308c)
+
+* Both **False**.
+* Option **D** is correct. **NONE**.
+
+### Secret
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9dffb654-6e20-4cf5-9dfc-6f9de744b3fc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b8bac30-f4db-4995-b36d-09e0e9b9625d)
+
+
+#### Q6
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7382eab3-962d-41ba-8ffb-b1cf9af47797)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/591d5f5e-c673-4aaf-b9df-41bed28c5fb2)
+
+* We are finding **incorrect** statements here.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b445358-fc30-427a-b6bb-a12bfd1388c2)
+
+> This is also **incorrect**, because if we take **lock=True** then all of the processes can be at **critical section** all at once.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7bfcb310-2736-49ee-80b9-493b3720ef2c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5c6b5a31-1632-4f85-bb7c-c968d6b983f0)
+
+* This is also **incorrect**, because if **lock=False**, then in the while we get **false**, so the process doesn't enter into the **critical section**. In that case, all of the processes doesn't enter into the **critical section**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8bdb7df-98f9-48a0-be90-ff5c4eebb1e7)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/10c8769b-b4ef-4054-ace1-7ef7afe14975)
+
+* This is also **incorrect**, because if **lock=True**, the processes will enter into the **critical section** but none of the processes can leave the **critical section** as **lock=True** and the while loop is running over and over. The processes get stuck inside the **while loop** which is the **critical section**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ee24102-6de2-4855-9b2f-7c9129f936a8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a233ac5-5627-4f6d-9728-ef64c8ca704b)
+
+* This is also **incorrect**, because if **lock=False** then the **first process** cannot enter into the **critical section** but the **first process** will set **lock=True**. Then the **next processes** coming after **first process** can enter into the **critical section**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3183f403-0954-49af-913f-891b1e44ad8f)
+
+* All **four** options are **incorrect** and they are asked to find **incorrect solutions**.
+* So all options should be **selected**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81b2249b-d639-4fa1-bc5a-941334f2b051)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2464a580-8816-457c-8910-27891dba38f5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/803c5c5a-90f6-4800-8a2d-93c5c870559c)
+
+
+### Doubts
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1a9f09b-ddc9-4d30-8651-1e72578d7a1c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/028e7b0b-cf53-45a5-af84-eb2bc9b82251)
+
+* This is **while(lock)**, no **semi-colon** at the **end**.
+
+```
+while(condition)
+{
+  // Some statements;
+}
+
+```
+* This is **while(lock);**, with **semi-colon** at the **end**.
+
+```
+while(condition)
+{
+  //Not statements, empty
+}
+
+```
+
+**OR**
+
+```
+while(condition);
+
+```
+
+* Both have **same** meaning.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9df1916c-8350-46f4-9c17-b363aee35f99)
+
+* That's the difference.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0718afd1-b95e-462a-ab4a-11d3e938b53c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9456a272-10d9-46ca-a252-31dc1f76ecce)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a73d9695-13d6-494e-acf6-510a5906b5c4)
+
+* We have to find the **ratio**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a5d72d6-54cf-449d-a5a1-a7589d9f6d89)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c400f41e-bd7f-4282-9354-b6c248814bde)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e54ca078-e9f6-4dff-8653-7fcb7a16ed99)
+
+* The execution is stopping, the code should stop. The solution stops then **bounded waiting** is there.
+
+### Questions
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b2c55e5e-e2f3-40d9-8cb3-25f4c7b0c7d3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf272c31-47bf-4c2f-923e-111f09d481f0)
+
+* No any process can go further ever than, they both get **stuck** at the **while loop** as **lock=0**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/73d8c72c-699d-46fa-9f2d-fdd07b522019)
+
+* Both process will run **while(!lock);** forever. They are **stuck**.
+* **Deadlock** -> It means that we can say with **complete surity** that both the processes will never move forward or go further in any sequence we try to run them. **YES**.
+
+> Two process have fallen into a **situation** where they cannot **move forward** from. Not at all possible to move forward from the **situation**. This **situation** is called as **Deadlock**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7cf7ccf6-dab7-4e98-89e3-03eb1790aa3a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9389053-ce28-40f6-b579-08deb55f02ff)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16d83dee-4587-4a1b-9454-bf741498e7d1)
+
+* Because both the process cannot enter the **critical section** at the **same time**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed8ddb78-7405-40aa-8b21-fe98cf1b8768)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2e96fdbb-2b96-4503-a216-6ab0b8ba1fc3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6b36cb3-c3f3-4d10-8e9d-1c50a314846e)
+
+> We already know that in **binary semaphores(s)**, **mutual exclusion** holds. Only **one** process can enter the **critical section** only. So, all the processes will run **one by one**. So, in **I-1** we got **12**.
+
+> As in **I-2**, it is a **counting semaphore(s)** and it value is **s=2**, so **2 processes** can enter the **critical section**.
+
+> As we want **min values of x**, we have to **nullify** the **effect** of the **increment/plus** processes. So, for **I-2** we got **7**.
+
+* **I-1** -> **12**
+* **I-2** -> **7**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee3080ee-3c59-41a2-8c87-6a880ace4147)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f88348ad-5142-437c-82c7-42825f415182)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d81a9abe-eeb6-4833-a205-1e3a363c0915)
+
+* We have to **nullify** the **impact**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2b87522-8664-45fc-a34a-00f787ded107)
+
+* Max = 4
+* Min = -6
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cbdd3878-d5d2-4a27-bc36-0894bfe12211)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ecfd6fd-cff6-4eee-87f2-1bc8a6f03970)
+
+
+* x= 2, 4, -3, -6, -2, -1, -4, 1.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee447290-ffcc-4326-981e-9037d14bcc6e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f58110d0-2266-41c4-9667-342d72ff0c05)
+
+* -1 = 2 - 3. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/de821e8d-cf13-4faa-958a-06fb1273747e)
+
+* Answer -> **8**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/74472409-fc4d-420d-b089-ac2af5c45e8f)
+
+* Semaphore(X)=0
+
+> If **P2** process run/comes **first** the p2 process will **wait** forever, as **x=0** so, **P(X)** will not happen.
+
+* P2 will **starve** guranteed.
+
+> If P1 process hasen't started executing and hasen't run **V(X)**, then P2 will **starve** forever.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/721f7380-13f7-49fa-9e53-6d648dc60d5f)
+
+* (II) -> It is possible for process P2 to starve.
+
+
+> P1 process ran and it runs **V(X)** which sets **X=1** and after that p1 got preemted.  Now P2 runs and it runs **P(X)** which sets **X=0**. P2 gets preempted . P1 continues and after **computation**, runs **P(X)** but as **X=0**, P1 is unable to run **P(X)**. So, **P1** is stuck at **P(X)**.
+
+* So it is possible that **P1** process can go for **Starvation**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc9ad670-f042-464f-b716-9f3bad382aae)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ade9a973-107f-4883-a8a2-cf1c8d73758b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/73f1fdce-15d2-4530-bada-f8f91957719c)
+
+* Both options, **I and II** are correct.
+* Repeat forever -> It means **while(True)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b18f583-c7bf-4bdf-8c4e-d81b1ce511bb)
+
+## Busy Waiting
+
+* **Busy waiting** is also called as **spin lock**.
+* Process runs on CPU and keeps it busy, but still can not proceed further.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd473d19-0f1d-4b96-832d-7ce4eb7305d1)
+
+> If condition is **True** then the process is **stuck** at the **while loop**, but the process will keep on running the **while(condition)** code. The process cannot move further. The process will keep running on the CPU. **YES**. We have not stopped the process from running on the CPU. The process will keep on running on the CPU. 
+
+> When the  process keeps on running on the CPU and cannot move forward, it is called as **busy waiting**. Also called as **spin lock**.
+
+> We have **locked** the **critical section**, when one process has entered the **critical section**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/415518ad-37e7-4651-af32-e681353a1b30)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/00b28892-c3c3-4fd5-b0a1-a654829589fa)
+
+## Solutions without Busy waiting
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/532856e7-2f57-42f6-a26f-41a8e512713f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/573aa235-4983-42da-a172-93709a4945c4)
+
+> P1 ran first and ran the **wait(s)**, and it set **s=0** and p1 entered into the **critical section** as **s=1** initially and it was **preempted**. Now p2 run and set **s=-1** and as **s <0** is **True**, so p2 process is **blocked** and added into a **queue**. Now P3 comes and same thing happends with P3 as well, p3 get **blocked** and added into a **queue**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f732e22-45bc-4fb1-838d-e87346d3dd38)
+
+> Now **P1** run again. It rain **signal(s)** and set **S=-1**. As **s** is **s <=0**, which is **True**, which means there are **processes** that are still in **blocked** state in the queue. When value of **S** is **less than equal to 0** then we will remove **one process** from the **queue**, which had arrived **earlier**.
+
+> As p2 came first so it was removed from the queue. So p2 is moved from blocked state to ready state. As the **wait()** of p2 has ended, now p2 can go forward and enter into the **critical section**. When p2 leaves the **critical section**, it will run **signal(s)** and set **s=0**, as **s <=0**, so we will remove **one process** from the **queue**, which had arrived **earlier**.
+
+> P3 got removed from the queue. Now P3 runs and moves forward and enters into the **critical section**. After p3 has left the critical section, p3 ran **signal(s)** and set **s=1**. As, **s <= 0** is **false** now which means **no process is in the blocked state and stored in the queue**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/17db34fa-caa3-43d0-a597-44dbbf8d9e1b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0d2a8c4-f303-4b4b-b033-043fcf4d85df)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7469f3a5-2a0d-4bb9-bde7-27030807978e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b2b8a180-503c-4bed-a656-6cc5454a825c)
+
+* When the process tries to run **wait(s)** and **s <= 0**, then we will **block** the process. The processes's **wait** will end when one process leaves the **critical section** and **wakes** up the process. Now the blocked process can run on the **critical section**.
+
+* **S<=0** means multiple processes are in the **waiting section**. When process leave the **critical section** one at a time, we will **increment/increase** the value of **s**.
+
+> When **s=1**, then all of the process are out of the **critical section** and none of the processes are in the **blocked state**.
+
+* It is mentioned in the **implementation** that the **semaphore(s)** can be **negative**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b06615e6-2ec4-42f3-9081-6dd48a8ddd53)
+
+* It is for this particular example only. Otherwise **semaphore(s)** cannot be **negative**.
+
+## Calssical Problems of Synchronization
+
+1) Producer-consumer problem (Bounded-buffer)
+2) Reader-writer problem
+3) Dining-philosopher problem
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8787b0f1-7c51-4d73-92d5-af89a2cee97f)
+
+## Bounded Buffer Problem
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97ef324e-2795-4b65-a219-13fdd96721e8)
+
+> When the **buffer** is shared, then we have to provide **mutual exclusion**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/abe767d6-8477-4140-b804-12d96038d87c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e017988-002c-4e6c-b5ec-7177539535a2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/227cd3c1-fc25-42fe-93ad-b940d36f63e9)
+
+1) No any space empty in buffer
+2) No any time in buffer
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9268dde0-2a15-4c7a-8a30-300d7233dc40)
+
+* If **buffer** is **empty** then **Full=0** and **empty=n**.
+* If **buffer** is **full** then **Full=n** and **empty=1**.
+
+> For **mutual exclusion**, **binary semaphore(mutex)** should be initialized with **1** which is **Mutex=1**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2adc5f9-a63f-4507-894f-c697c9191dcc)
+
+### Producer()
+
+> If **Empty=0**, then **wait(Empty)** cannot go further. **Empty=0** then **no slot** is **empty**.
+
+> If **Empty !=0**, then some slots are open, all are not full.
+
+> **Wait(Mutex)** means we have taken **lock** on the **buffer**. If some producer or consumer had already put **lock** on the **buffer** then **wait(Mutex)** will not run.
+
+> **Wait(Mutex)** ran successfully then we **add** an item to the **buffer**.
+
+> **signal(Mutex)** means the **lock** on the **buffer** is released.
+
+> If an item is already added to the buffer then the occupied space/slot's count will increase. We will run **signal(full)** so that in the **producer's end** the count of occupied space/slot will increase.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b24da072-9be1-4a5f-bd0b-6bbe60dc9871)
+
+* When does the **consumer process** should block?
+
+> When buffer is empty. None or zero(0) occupied slots, which means **Full=0**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f4d64cd-8061-40ca-9949-ee5b59bdf26d)
+
+
+### Consumer()
+
+> **wait(full)** means when **Full=0** then the **consumer** will stop.
+
+> If > **wait(full)** runs then it means that one item was there in the buffer.
+
+> **wait(Mutex)** to take **lock** on the buffer and to access the buffer.
+
+> After accessing buffer, we will **remove** one item from the buffer.
+
+> **signal(Mutex)** means to remove the **lock** on the buffer.
+
+> As we have emptied one slot above and to do that we have to do **signal(Empty)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af24f786-6579-42b9-8551-3d2f086b7220)
+
+### Producer and Consumer
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d39fdf2-3cfe-4490-acf9-dde980b9b820)
+
+* **Producer**:-
+
+> We have first checked if **producer** should move forward or not.
+
+
+
+
+* **Consumer**:-
+
+> We have first checked if **consumer** should move forward or not. We have **swapped** the first two statemenets, which means **wait(Mutex)** runs first and then **wait(Full)** runs. Then what will happen?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d08cf80-3991-4579-a9fa-937b8a890cbc)
+
+> Let, **Mutex=1 and buffer is completely empty**, then **Empty=n and Full=0**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/404f4802-3518-45db-ad71-0f3ad0034758)
+
+> One consumer came and it ran **wait(Mutex)** and **Mutex=0**. It ran **wait(Full)** but **Full=0**, so **wait(Full)** will **not run successfully**. As **buffer is empty**, so the **consumer** cannot consume anything. So, the **consumer** stopped.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3127974-e340-44c0-85dc-875453a60dfd)
+
+> Now, some **producer** comes, and it ran **wait(Empty)** and **Empty=n-1**. It ran **wait(Mutex)** but producer didn't get it because **wait(Mutex)** is with the **consumer**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/04f369b6-8556-44af-9cf2-bc17a40c7133)
+
+> So producer's **wait(Mutex)** will not run, the consumer's **wait(Full)** will not run. Producer's **wait(Mutex)** cannot run because **wait(Mutex)** is with the **consumer** only. Consumer's **wait(Full)** cannot run because **Full=0** but **Full** can be **1 or incremented** when **signal(Full)** is ran by the producer but the **producer** is stuck at the **wait(Mutex)** statement.
+
+> **Mutex** can be **1** when consumer run the **signal(Mutex)** statement but the **consumer** is stuck at the **wait(Full)** statement.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af6a8e44-844b-4c19-90c1-1f3fd26728ae)
+
+* So, **deadlock** happened.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d8e03c1-196d-42d3-9cd2-30dc357cdc08)
+
+* If first 2 statements(**wait()** statements) of consumer process are swapped, then there can be **deadlock** when the **buffer is empty**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/07ae29c8-58a1-43cd-9572-04bfccb7428e)
+
+* Now we have **Swapped** the first two statements of **producer**. First **wait(Mutex)** runs and then **wait(Empty)** runs.
+
+* In that case, when the **buffer is full**, then **deadlock** happens.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/009b88c7-0f61-4345-865c-2b4718d94029)
+
+> First the **wait(Mutex)** of producer runs and it has taken **lock** on the buffer and **Mutex=0**. Now, the **wait(Empty)** runs but **wait(Empty)** cannot run because **Empty=0**. So, the producer is stuck at **wait(Empty)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a23fc520-40b5-46e7-88d9-9ea7edaf3e23)
+
+> First the **wait(Full)** of consumer runs and **Full=n-1**. Now it has run **wait(Mutex)** but it cannot run because **Mutex=0** and lock is taken by the **producer**. So, **consumer** is stuck at  **wait(Mutex)**.
+
+* Consumer cannot go forward as **wait(Mutex)** lock is taken by the **producer**.
+* Producer cannot go forward as **Full= n** that's why. Producer is stuck at the **wait(Empty)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d49acf55-341f-4cf8-9cda-bcc61a1f2499)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5724867-a287-4f40-84e5-2e1b148c4e08)
+
+* If the first two statements of producer process are swapped, then there can be **deadlock** when **buffer is full**.
+
+
+* In normal scenario, when will be producer process stop/get blocked?
+
+> When buffer is full.
+
+* In normal scenario, when will be consumer process stop/get blocked?
+
+> When buffer is empty.
+
+* Types of questions coming from these:-
+
+1) Fill/find the missing statements. [3-4 questions have come]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bd7e4a35-9396-42a1-a53f-98f8a040c5b6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2e88b6c-83d7-4660-a485-c82d092e13a7)
+
+* Yes
+
+## Deadlock introduction prevention (17) [31st May 2023]
+
+## Reader-Writer Problem
+
+* If a particular user who just wants to **read** is called as a **reader**.
+* If a particular user who wants to **read and write** is called as a **writer**.
+
+* If a **writer** comes, then we will allow only **one writer** at a time. No other **writer** will be allowed.
+* If **one reader** comes, then after that we can allow as many **readers** as we want but we will not allow any **writers or writing**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/28adb378-d096-4c74-a51d-01cc12004355)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb71eee0-fc15-449c-b38c-61a293de90c0)
+
+## Reader-Write Problem Solution
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a2d56c8-7552-4664-af6b-90e85e32690e)
+
+* Mutex =1 -> No Lock
+* Mutex=0 -> Lock taken
+* wrt=1 -> No lock in writing, writer can go for writing inside allowed
+* wrt=0 -> Lock taken, no writing allowed
+* readcount=0 -> No readers there.
+
+### Write() Process
+
+> If any **writer** comes then they will try and run **wait(wrt)**.
+
+> If **wait(wrt)** is successful means that the **first user** was a **writer** and no **writer or reader** came before it. That's why **wrt=1** still. As **wait(wrt)** is successful, so **wrt=0** now. Now it can go for writing.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f2f8c3c0-10d9-4d64-ad1b-213dc9128b06)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a01d2aba-f5e0-42cc-89e5-26195c7586dc)
+
+> Then writer will do it's **writing process** and after that writer has come out, it will **signal(wrt)**.
+
+* **wrt=1** means that a **writer** can go inside to perform a **writing** operation.
+* When **wrt=0** then **wait()** cannot run.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e2c5fb82-3d78-40cf-9c50-ffbd8efa916f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ec5acc1-5774-467c-991a-72554fde1607)
+
+### Reader() Process
+
+* Will a **reader** process stop another **reader** process?
+
+> **NO**.
+
+* Will a **reader** process stop **writer** process?
+
+> **YES**.
+
+> If a **reader** comes and the reader wants too **stop the writer**, then the **reader()** process has to run **wait(wrt)**.
+
+> Let's say a **reader** comes and the reader has run the **wait(wrt)**, initially there was **no writing** that's why **wrt=1**.
+
+* When there was **no reader or writer**, the initial value of **wrt=1**.
+
+> A reader came and ran **wait(wrt)**, so **wrt=0**. Now a **writer** process cannot run the **wait(wrt)** statement successfully.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d32613d9-8431-4108-ac7c-f723d5f8ed89)
+
+* All of the writers that come will be stuck in the **wait(wrt)** statement.
+
+> All of the **readers** that are coming will run the **wait(wrt)** statement, **No**. Only the **first reader** that comes has to run **wait(wrt)**. After that all of the **writers** that come will be stuck at the **wait(wrt)**.
+
+> If another reader comes after the **first reader** then all of the **readers** coming after the **first reader** are given **direct entry**. It is because **one reader** has enterted and has **blocked** all of the **writers**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e2f58c05-8482-4f44-883d-6a5ca0bfa1aa)
+
+* What we will doin the **reader()** process:-
+
+> If **no readers** are there then the **readcount=0**. If **new reader** coms then **readcount=1**.
+
+> We are doing a **comparision(if)** statement that, if the **reader** is the **first reader** then within the **if** statement we are running **wait(wrt)**.
+
+* We are running **wait(wrt)** when the **first reader** comes because we have to block all of the **writers**.
+
+> If the reader was not the **first reader** then the **readcount** would have been **2** and the reader process would have gotten **direct entry**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f252da3-1b7e-4d68-9d65-4f411d9934a4)
+
+> If a writer was already there and was writing then **wrt=0** because of the **wait(wrt)** run by the writer process. If a **reader** process would have come then reader would get **stuck** in the **wait(wrt)** within the **if** statement.
+
+> **readcount** is not a **semaphore** then multiple readers can access it. **YES**. The access of **readcount** we will make it **mutually exclusive**, so that the value of **readcount** is protected.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/045e2b61-ee16-4369-9fbd-0c72dc4c2754)
+
+* This is the **entry** logic.
+
+> If some reader has crossed the **entry** logic then the reader will start reading.
+
+* If a reader wants to **leave** then it will **decrease/decrement** readcount variable.
+
+> When the very last reader goes, then it will run **signal(wrt)**, which tells the **writers** that all **readers** have left.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1ed2043-c8db-4d92-b586-653b94ae39d7)
+
+> We are protecting **readcount** variable as it is a **normal variable** by using **wait(mutex) and signal(mutex)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5667669-1349-43f4-a9fd-777ecdca0c65)
+
+* We cannot directly access **semaphores**. We cann access only using **wait() and signal()**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b8752702-6da1-416d-85d5-1bb7d9607168)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0978c408-eabc-427f-adab-92ad076b4b85)
+
+### Scenario 1.
+
+> First the writer came and ran **wait(wtr)** and set **wrt=0**. It started writing. While writing it got **preempted**.
+
+> One reader process came and it ran **wait(mutex)**, and set **mutex=0**. Reader **incremented readcount=1**. Reader ran the **if** condition and it returned **True** which means reader has to ran **wait(wrt)**, but **wrt=0**. So, **reader** process is stuck within at **wait(wrt)**. it cannot go forward.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b910766-95c5-4991-a838-e93e91ca6726)
+
+> All of the subsequent **reader** process get stuck at the **wait(mutex)** because **mutex=0**. The reader processes cannot move forward.
+
+* The reader processes or process cannot move forward because a **writing** process is going on.
+
+> After sometime another **writer** came, writer tried to run **wait(wrt)** and the writer process got stuck at **wait(wrt)** because **wrt=0**. No **writer** can move forward as well.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97ce3853-4816-4ec6-9abe-61c25e24d398)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/64d21e5c-f0cd-4644-a7ab-9562d65c30c4)
+
+### Scenario-2
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c39681fd-984e-4c50-b78a-aafbf1efd056)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aaef0351-ca96-4034-b250-967b56b045ee)
+
+> First a **reader** came and it ran **wait(mutex)** and set **mutex=0**, then **readcount** was **incremented** to **readcount=1**. Reader ran the **if** condition and it got **True**, so reader can the **wait(wrt)** which sets **wrt=0**. It ran **signal(mutex)** and set **mutex=1**. Now the reader is **reading**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3bfd19cc-5122-484b-b365-26ba849ee95b)
+
+> Now a **writer** comes and it will get stuck at the **wait(wrt)** as **wrt=0**. Writer process is **blocked**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8453f16f-d8d4-49c1-86a1-d0624509045b)
+
+> Another reader came, it ran **wait(mutex)** and set **mutex=0**, then **readcount** was **incremented** to **readcount=2**. **readcount=2** means it is the **second reader** that has come and the **first reader** has already gone. Reader ran the **if** condition and it got **false**, so reader went out of the **if** condition. Then it ran **signal(mutex)** and set **mutex=1**. Now the second reader is **reading**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0c57626-6e69-4d07-8007-08a8e81dd98f)
+
+> Another reader came, it ran **wait(mutex)** and set **mutex=0**, then **readcount** was **incremented** to **readcount=3**. **readcount=3** means it is the **third reader** that has come and the **first reader** has already gone. Reader ran the **if** condition and it got **false**, so reader went out of the **if** condition. Then it ran **signal(mutex)** and set **mutex=1**. Now the third reader is **reading**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ca111466-35ba-4d2a-b268-09279758ec45)
+
+> In any sequence the **readers** come out or any readers comes out of all the readers, we don't have any problem and it doesn't matter.
+
+> One of the readers is leaving and has ran **wait(mutex)** and set **mutex=0**, **decremented** the **readcount** to **readcount=2**. It ran the **if** condition and got **false** so it comes out and runs **signal(mutex)** and set **mutex=1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97080048-1489-4525-ac34-cd72c9bf9a9a)
+
+> One of the readers is leaving and has ran **wait(mutex)** and set **mutex=0**, **decremented** the **readcount** to **readcount=1**. It ran the **if** condition and got **false** so it comes out and runs **signal(mutex)** and set **mutex=1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/59dfb47c-c94f-4477-af8b-9619f1eb9a32)
+
+> Now the last readers is leaving and has ran **wait(mutex)** and set **mutex=0**, **decremented** the **readcount** to **readcount=0**. It ran the **if** condition and got **True** and runs **signal(wrt)** and sets **wrt=1** for all of the upcoming **readers or writers**, so that when they come they can **move forward**. Now it runs **signal(mutex)** and set **mutex=1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e66872a-6df4-480c-b6ee-b8eb2bbd0f39)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ee6db73-e70e-4fad-8ac8-a25dea54138c)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3dbd772-e8b4-4219-99be-3e06fa460f21)
+
+* Yes, because we are controlling the access. We are controlling the access very much.
+
+> If a **reader** comes then the **writer** are **stuck/ blocked**.
+
+> If a **writer** comes then the **reader as well as the writer** are **stuck/ blocked**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4fdd5177-eda3-46a0-996a-483bd2faa546)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8fc8a54b-7def-4c65-be8d-c316d92c9e6c)
+
+* What will be the **difference** if we remove the **signal() and wait()** functions from the middle?
+
+> If we remove the **signal() and wait()** from the middle, then we are putting the **reading** in **mutual exclusion** as well. Which means that **only one reader** can enter at a time.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f824a8dc-8b98-47ba-9222-a7bb74846bf6)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d83a9f4-98dd-47f8-bdf2-d786414691c6)
+
+* If these 2 statements are removed then at a time only one reader will be allowed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2fdfe111-63f2-4498-bd5c-f3cd08d7c215)
+
+* Same questions have come in **reader-writer** problem as well:-
+
+1) Fill/find in the blanks
+2) Write missing code
+
+## Dining Philosopher Problem
+
+* Philosopher -> Process
+* Chopsticks -> Shared Resource
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/93ef2bed-8f8b-40d8-8b7f-d064038f7f1a)
+
+## Dining Philosopher Problem Solution
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c726f840-ffda-4269-9fbf-c151bd5ed0b5)
+
+* For every chopstick we will take **one semaphore**.
+* An array of **binary semaphores** of size 'k' to denote chopsticks
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac778878-07bb-402d-a7c2-73b7b7d3d5f6)
+
+* For chopstick availabilty -> **1**
+* For chopstick no availabilty -> **0**.
+
+> We have written **wait(chopstick[(i+1) % k]** because at the **last philosopher** we are doing a **wrap around, creating a circle**, so that the **last philosopher** can access the **last fork and the first fork**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95a8bebc-d23a-4b81-98ca-85db9ced64bb)
+
+* Yes.
+* The **no. of philosophers** we have, **same no. of chosticks** we have.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/21e17808-37ed-4496-9793-43acb2ce4da1)
+
+* Circular case
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e6ae5313-6d86-4ca6-ba28-b975ac53c1ed)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f422bf0e-5455-4a0d-813d-0811252efc0a)
+
+* The **dining philosopher problem's solution** is **prone** to **deadlock** situations.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ded93d85-6dcf-4585-951c-8d379b3ca4c4)
+
+* There is a possibility of deadlock.
+
+> P0 process ran first, then it ran **wait(chopstick[i])** after it was completed then it got **preempted**. Between **two** wait functions, **preemption** is possible. So, the **ch0** chopstick went to P0 and before P0 could take Ch1, p0 got preempted.
+
+> P1 took ch1 chopstick and got preempted.
+
+> P2 took ch2 chopstick and got preempted.
+
+> P3 took ch3 chopstick and got preempted.
+
+> P4 took ch4 chopstick and got preempted.
+
+> All of the **philosophers** ran the **wait(chopstick[i])** successfully and they have taken **one chopstick** each. For all of the **philosophers**, the statement **wait(chopstick[(i+1) % k])** is in **waiting**. The **waiting or wait()** statement cannot run because all of the **chopsticks** are acquired and each philosopher has **one chopstick** each. Everyone is waiting when the **right chopstick** is empty/free then they can **eat**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/40c5a924-a811-4ba6-b066-bd0ba642dbdd)
+
+> If this happens then the none of the **process/philosopher** can run **wait(chopstick[(i+1) % k])** statement and in that case, we will have **deadlock**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9570b1b-0bc4-41e2-929a-e27174c009ee)
+
+* When each philosopher picks one chopstick.
+
+### Some ways to avoid deadlock
+
+1) There should be at most **k-1** philosophers on the table, with **k** chopsticks.
+2) A philosopher should only be allowed to pick their chopsticks if both are available at the same time.
+
+> Any philosopher will be allowed to pick a chopstick or to start the **wait(chopstick[i])**, when **both or two** chopsticks are **available**.
+
+3) One Philosopher should pick the left chopstick first and then right chopstick next, while all others will pick the right one first then left one.
+
+> We will make one philosopher, asymmetric, which means we will run **wait(chopstick[(i+1) % k])** statement first for that philosopher and then we will run **wait(chopstick[i])**.
+
+> In that case, then **one chopstick** will be **free** and **no deadlock** will happen.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d086509-a431-47c8-adc8-64c258e85771)
+
+* They are **three** different solutions, we can **pick anyone** and implement it.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cab02938-fab2-4607-9fc9-2ee5bbfb7e18)
+
+* No.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/824f769a-a1ca-4c13-9438-71c13c5b96d4)
+
+* 3rd way or solution to remove deadlock.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/106a94ab-4d85-4bfd-8fbd-f5b50f591663)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a7e54d3b-fcf4-4de0-a663-9faee9e1dc1e)
+
+## Multi-threading
+
+* Thread -> Component of a process, or Lighweight process.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d012e783-1a2b-4884-9946-1baff8b222ea)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b98bee8-e8db-4121-aa0f-29ddb4c1a580)
+
+* Similar to this happens in **process execution** when we have to create **one type of process** for **multiple processes**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7eb667ba-aac4-4f5a-bcba-6b50e4ed087a)
+
+* Instead of making a **full copy** of the process, we will make **threads**. We will components of the process, many parts of the process will be **shared** with the **threads** and some parts will be **unique/own** to each thread.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f6ca277-a984-48c8-bce5-ba15ec795b3e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/671613ba-39b8-4d74-b09a-d9a117aa3b3c)
+
+* Thread:-
+
+1) Some parts of the process will be shared
+2) Some parts will be own.
+
+> The advantage is that rather than making a copy of a big process, we will make a thread separately which will be **lightweight**.
+
+* That is why **threads** can improve the performance of **parallelism**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e4ea7fde-1126-42ad-b402-3ae2fbfd3fa9)
+
+### Threads
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/78e99d1d-3ecc-4842-b52e-85a731a9ad6b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3ceb133-4f32-4ec9-8f8d-7787a270896a)
+
+* Thread is some piece of a process.
+* Register Set -> General Purpose Registers(GPRs)
+* Heap is **shared** among threads.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b35d4f0a-ef3c-43e2-aeb1-b013e200a2fd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d94b6ed-adf9-4ec3-8ef8-118f0ff95c9e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3822a240-aab7-4d87-977e-7acf26c737ee)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c33b068-83d4-439e-a9e3-c73df504f78e)
+
+* Yes
+* Instead of making **processes** again and again, we will make **threads** again and again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a0586882-7de3-421b-b22b-1c39748e05bc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/94abac47-2ac0-4a1c-961a-9c4649b0de28)
+
+* **Code, Data and files** are **shared** between the multiple threads.
+* **Registers and stack** are **unique/own** for individual threads.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c380baf-c312-4573-bf99-9a4eca2ae17c)
+
+* Single Process.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f85b482f-d31c-4796-b068-6763e11e2c43)
+
+## Types of Threads
+
+1) **User Level Thread** -> In some Java program which is a **user process**, we have implemented **multi-threading** then it is called as **user level thread**.
+2) **Kernel Level Thread** -> In some OS process had **multi-threading** then it is **kernel level thread**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0626e87a-d6a0-4662-b910-eac3ca63c3ef)
+
+* If there are **user level threads** then the **Kernel or OS** doesn't even know.
+* **Kernel or OS** doesn't have any idea.
+* If there are **Kernel level threads** then the **Kernel or OS** ofcourse knows.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6dfa0f3-6c3c-449c-895b-d85fe36855c0)
+
+> There is **multi-threading** in **user process** then **kernel** doesn't know that there is **multi-threading** in **user process**. If the kernel doesn't know then who will do **switching** between the **two** processes? The **user process** itself will do the **switching**. 
+
+> If the kernel doesn't have any intervention in the **context switches** between **two** threads, then the **time taken** for **context switches** will be **less** ofcourse. The **user process** can itself do the **context switches** between **two** threads, which will be **faster**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/49fd3797-880e-4817-97f7-ec5fb467f5a9)
+
+> For **kernel threads** the **context switching** is **slower** as **kernel** intervention is needed for **context switching**.
+
+* **One thread is blocked** means that when the thread is **running** and it required some **IO operations** then the thread went into **blocked state**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7da3e4ec-f9b2-4816-8a9a-da2687513e35)
+
+> The OS doesn't know about **user threads**. So, if **one thread** goes or the **whole process** goes, it is the **same** for the **OS** only.  The OS will think that the **whole process** has gone for **IO** operation and the entire process is in **blocked state**.
+
+> So if **one thread** is **blocked** then the **whole process** is **blocked**. The OS doesn't know it is **one thread** or **one process**. The process wants to go to **blocked state**, so the OS puts the process in **blocked state**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c06ec98a-c7dd-4688-822e-dd579239b2b4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f56927e7-769d-4e69-b8ca-cf0535c6b7f6)
+
+* Exactly.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6fcb8bde-740e-4605-8094-07f57543875f)
+
+* We need to remember all of the **points**, as questions have come from them. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71b4a7c7-7e7a-4c38-bb26-99055365ef2b)
+
+* Kernel knows about it's own **multi-threading**.
+
+* [**IMPORTANT**]
+
+* Question also comes from what is shared and what are not shared.
+* Questions mainly comes from multi-threading.
+* If other questions come from multi-threading then it is out of syllabus.
+* Multithreading Model is for **clg exams** only, not needed in GATE.
+
+## System Call
+
+* Programmatic way in which a **computer program or user process** requests a service from the kernel.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac06271f-d8b4-4e3a-a75f-c52fea4e9828)
+
+* Interrupt(Software Interrupt) request for kernel -> System Call.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc88acdb-7fda-4c72-9d30-15c2d10ff484)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb674a15-6f92-499e-9946-a4de644cb071)
+
+* Not needed for most part.
+
+## fork()
+
+* Fork system call is used for creating a new process, which is called as the child process of the current process.
+* We can create a **copy** of the current process. **Whole process's** copy will be created and not a thread.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/56f20d72-482a-4669-ba45-84a55aa265ae)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37d76f92-d47c-45a0-95d8-c26d27396440)
+
+> The **fork()** call, has created a new child process. The new process code is **same** as the parent process.
+
+>  The **fork()** call's result will be returned to the **parent process** so that the **parent process** knows if the **child process** was successfully created or not.
+
+> The **child process** will also **receive/get** a value, so that the **child process** knows that it is a **child process** and not the **parent process** or some **new process**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eab4265a-273a-419f-827f-aa6ae9cbe64f)
+
+> If the child process creation was **unsuccessful** for some reason then some **negative value** will be returned to the **fork()** in the **parent process**. The return value of the **fork()** will be **negative**. Ingeneral **-1** is returned.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1ba8d55-e05a-4c14-ba7e-f46196c67d66)
+
+> If the child process creation was **successful**, then the **child process** get/receives **zero(0)** and the **parent process** get a **positive value**.
+
+> The **positive value** is nothing but the **process ID** of the newly created child process.
+
+* We the child process is created then from where will the child process start running?
+
+> From the **start**? **NO**.
+
+> From the **fork()** call where the **child process** was created, after that **fork()** call, from the **next statemnet** the **child process** starts running.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30946209-fe1e-4deb-a884-3d06e10fd2c4)
+
+* The **child process** will not run the **parent process** statements from **before**.
+* The child process starts execution from statement after the **fork()** call which has created the child.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/720398f2-8302-446d-813c-af7689bf2318)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9c3b939-e285-47a1-a606-af47e2331342)
+
+* Yes, if we start from the **beginning**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31550231-3b0f-4f54-a34e-f381bbae48fb)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/808fa13b-38ed-4355-ada5-1a69e72b2a6b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9df1a65-0b3d-4c7f-aaaf-aa1234ca6ecc)
+
+* yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d7b69bec-1ad8-4251-9046-6e1b50fdadaf)
+
+> First we will do **fork()** and whatever value is returned from the **fork()** will be returned to **x**.
+
+> From the **parent** process we have make a **child** process. The Parent and child process are running parallely or concurrently.
+
+* From the **fork()** what will be parent process get?
+
+> **Posivite value** which is the **PID** of the child process that is created.
+
+> The **PID** of the child process will be copied into **x** variable.
+
+* From the **fork()** what will be child process get?
+
+> **Zero(0)**.
+
+* When the parent process printf statement runs then we will print **x= 10243**.
+* When the child process printf statement runs then we will print **x= 0**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/962a1179-7dbb-4e8e-af7b-82c0a7c626df)
+
+> We don't know if the child process's printf statement will run or the parent process's printf statement will run. We cannot **predict** it. We are not the **OS** that we will know who will run **first** whether it is **parent process or the child process** print statement.
+
+> Any process can run at anytime. They are **concurrent** process running and they can run at anytime.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3a02033-7d27-4f7c-bd61-28a27eaaffe3)
+
+* Not parallel but concurrent.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d20cab26-1a6d-4583-b3a8-50bc032b7e65)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1cf858ba-8199-4b4a-a015-3e387290d40d)
+
+* No. They are concurrent processes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a94fb280-8c94-462c-a5a7-a1f14f6a8dcb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c83b0374-e3fd-4482-97b3-ba865ad21498)
+
+* We don't know which will run first or earlier.
+
+* There is one process, which has called **fork()** two times.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f5e82af-074d-4163-920b-88cfaef23eb0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/809b6e7b-8be3-4705-86df-fd16317f992e)
+
+> The process(p) has run the **first fork()** and has created one child process(c1).
+
+> Now the process(p) and the new child process(c1), will run the **second fork()** individually on their own.
+
+> So process(p) on running **second fork()** created one child process(c2).
+
+> So child process(c1) on running **second fork()** created one child process(c11).
+
+* Total **no. of child** processes are -> c1, c2, c11 -> **3** processes. [**Answer**]
+* Total **no. of processes** are -> P, c1, c2, c11 -> **4** processes.
+
+> Total **no. of processes** are **4** if we include the **parent** process.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ed18f61-2890-46c5-adcc-2d16902c3e05)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/64c41634-3046-4645-b84d-68c85bee5c82)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1c3e4fa-90e8-4807-b527-ae2b0cf3b68c)
+
+* If **'n' no. of folk()** calls then,
+* Total **no. of child processes** -> **(2 ^ n) - 1**
+* Total **no. of processes** -> **(2 ^ n)**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/325d6d18-65b5-4106-8baf-ce482e5b336f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/781800da-9f75-4fd8-891b-29b0363290ba)
+
+* We don't know who will do the **printing** first.
+
+### Questions
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2792e757-088b-49c0-a7df-52cdf8f652f1)
+
+* 7
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a96b773a-d365-4597-8ac4-9cb3a576e374)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1025069b-ccd3-4439-86a4-bb4f6f0e177a)
+
+* (2 ^ n) - 1.
+
+> One time to remember is that if the **child process** hasen't **died/terminated** yet then the **parent process** cannot be **terminated**. [**IMPORTANT**]
+
+> Before terminating **parent process** , we have to terminate all of the **child processes** first. Otherwise **parent process** will not terminate.
+
+> If the **parent process** was **forcefully terminated** then the OS will terminate all of the **child processes**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d2e1f03-db55-4bba-b7ff-cf8cffc3f4bc)
+
+* They are processes, nothing is shared between them.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f822aa1-6970-4bd0-b16d-56c9399ed09d)
+
+* OS will do it.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df847673-95a6-4bb8-98df-fd88a17282d3)
+
+> The **fork()** return value for **parent process** is **positive value** and **if(positive value)** is **True**, so the **parent process** entered into the **if** condition. **Parent process** runs the **second fork()** and another **child process** is created.
+
+> The **fork()** return value for **child process** is **zero(0)** and **if(0)** is **False**, so the **child process** doesn't enter into the **if** condition.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/810a8a2b-5d6f-4872-bab3-c6d6de46a5b1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/84828c63-ee56-4000-a236-4eb359603a09)
+
+* 1's printed -> **3** times.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed899c0d-9421-4999-b2da-66947f0f7d2f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37628480-7507-4894-860c-443944957533)
+
+* We are assuming that **child creation** will not **fail**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b33bcb9-b774-467a-9a5d-533506fd38df)
+
+* Ofcourse
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/02207dbc-dbb0-4dfd-845f-5e03417ffc9b)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/777bd83e-3fda-4eb1-b366-35b3ed590645)
+
+* DPP homework.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44b517dd-a635-4481-9088-7fddfadb79db)
+
+## Deadlock avoidance (18) [1st June 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/931db2f5-ebd8-4880-b9fa-264be886e799)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b015765-3eee-4a5e-adce-8f83cff1ea6b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8301749b-2852-448e-b13f-1fb09589b885)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c9a401e-d09e-402c-8a50-68fceae85508)
+
+> If any **IO device** is there and that IO device has to use some process then the IO device cannot use the process without the permission of the OS.
+
+> Between process and OS there are a many operations that take place on a resource.
+
+## Operations on Resouces
+
+1) Request
+2) Use -> Allocated.
+3) Release
+
+> Between request and allocation, the **OS** is standing between them.
+
+> If any process request for a resouces to OS. The OS can allocate the resouces to process if it is available.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/56d82d97-bd0a-4684-9bac-acd7b92408f1)
+
+* The **release** of the resource will be said by the OS?
+
+> **NO**, the **release** is done by the **process** itself when the process is done with use of resource.
+
+* The resource cannot be forcefully taken away not by the **OS** also.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f441b59e-7f7a-4b60-98a9-335ddaca8817)
+
+> The **resource** we are talking about isn't **hardware** resource only, it is **software** resource also.
+
+* The **resource** can be **hardware as well as software** also.
+* Software -> Files.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5387b95a-d5aa-46f3-9976-88220ec0c75e)
+
+## Deadlock
+
+* If two or more processes are waiting for such an event which is never going to occur. Then it is called as **deadlock** situation.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6aa245bd-6e28-4cf0-aff2-365752362774)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df5a3c1f-1a3d-46dc-b6c1-2cf890276d28)
+
+* Yes, after task is completed.
+* Resource cannot be **preempted** by the OS until the task of the resource is completed.
+* Resource can be **allocated** by the OS.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a049ae9-8a0f-42dc-96f3-18ca0ece05ea)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e6e76e97-71b9-4925-81b0-9e76d7cdad21)
+
+* **Holds** means the resource is **allocated** already.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5fd4e630-f836-44a0-bb83-f420df81befa)
+
+* It is a **deadlock** for **P1, P2 and P3**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/49dc2d3b-1a63-4b1c-bed7-37456935d1db)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1d31cbf-2a60-4ba5-8407-69b14727bbff)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5149116e-4bb3-446f-a014-da5c454577aa)
+
+* Deadlock happened between the **you and sibling**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3624c792-3780-455d-aece-9fbd12834f6a)
+
+* Deadlock happened between **employeer and employee**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3363acc1-9ee6-4408-ba47-9f020295c215)
+
+* Deadlock happened between **engineering student and GATE score**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8cdc6a38-04ae-4beb-8e3d-1355abbf5f82)
+
+* Deadlock between **job and experience**.
+
+* What is the **difference** between **starvation** and **deadlock**?
+
+### Starvation
+
+1) **Indefinite waiting**. There is a chance that the wait will be over.
+
+
+### Deadlock
+
+1) **Permanent wait**. No chance that the wait will be over.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af17b7d4-1256-455e-9c86-223e2fadc5cd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a596f14a-c27a-4a18-a52b-f33c942459cb)
+
+## Necessary Conditions for deadlock
+
+* Deadlock can occur only when all following conditions are satisfied:-
+
+1) Mutual Exclusion -> We are talking about the **resouce use** for mutual exclusion. 
+
+> If a resource **at a time** is being used by a process, then another process at the **same time** cannot use the same resource. That is **Mutual Exclusion**.
+
+> If **two** processes at the **same time** can use the **same resource**, then **deadlock** will not happen.
+
+* A resource can be used by 1 process at a time.
+
+2) Hold and wait -> All of the **deadlocked** processes must/should **hold** atleast **one resource** and should/must **wait** for atleast **another resource**. If so then there is a possibility of **deadlock** otherwise not.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81de4f33-a455-4376-b1fe-65da5e11e4fa)
+
+> P3 will get **executed** as it has got **printer** and after execution p3 will release it's resource **printer**. Now P2 has got access to printer, p2 will execute and release it's resouces. After P1 will execute. Then there will be **no deadlock**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ca64f05c-2286-49ce-a24b-3af45e25b45f)
+
+> P2 will execute as no process had **printer**, then p1 will execute and at the end p3 will execute. Then also there is **no deadlock**.
+
+3) No-preemption -> Allocated resouces must not be **preempted** from the processes.
+
+> If a resource is there already at one of the process, then the OS cannot preempt those resources. Then **deadlock** may happen.
+
+> If the **OS** is given the power to do **preemption**, then **deadlock** will not happen.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc933541-848a-4c6b-8599-f51b14a07b52)
+
+* No one can **preempt** the resouces, not even the **OS**.
+
+4) Circular Wait -> All deadlocked processes must wait for each-other in circular manner.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2649f8a2-e4e6-4bbc-8ac7-1256e76d9653)
+
+> P1 is waiting for **HDD** and P2 has access to **HDD**, so we can say that P1 is waiting for P2. P2 is waiting for a resource which is with P3. So, P2 is waiting for P3. If P3 is waiting for P1 then there is **deadlock** otherwise there is **no deadlock**.
+
+> P3 wants **camera** but none of the other process have access to **camera**, so P3 is not waiting for any of the processes(P1 and P2). P3 will get **camera** and p3 will complete. Then P2 will complete and P1 will complete. So there is **no deadlock**.
+
+* All of the above **4** conditions should be satisfied for a **Deadlock** condition to occur.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/87a81f78-5670-41f6-9ab2-56da5f899767)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e6b3228-3f9f-4a26-a9cb-762089a28b0b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/886c7d8a-ccd1-4047-b970-11b78f0388fe)
+
+* Yes.
+
+## Resource Allocation Graph
+
+* Which **process** has **access** to which **resource**.
+* Which **process** is **waiting** for which **resource**.
+
+* The **nodes** can be of **two** type in the graph:-
+
+1) Process node -> It is represented by a **circle**.
+2) Resource Node ->  It is represented by a **rectange**.
+
+* The **edges** can be of **two** type in the graph:-
+
+1) Allocation -> Which resource or resource instance is allocated to which process. It is a **directed edge** from **resource to process**.
+2) Request -> Which process has requested for which resource. It is a **directed edge** from **process to resource**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aeceda29-cee5-40c2-a4e4-f293e49b4195)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7924037-fd50-4056-9ff5-68d6966c2af9)
+
+* One of the **resources** has **4** instances.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb934628-c051-4a36-8635-40b236a56a9a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac001624-f6fe-4abd-9194-71878218aba4)
+
+* Hold -> Allocation
+* Wait -> Request
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d6bbc70-2622-4231-ad27-28c93c7448f6)
+
+* Draw a **resource allocation graph** of the above table.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/753798dd-c378-4679-a630-4575621e8ece)
+
+* **Resource allocation graph**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/001859db-7eab-41b1-8fd1-d04305c028db)
+
+* Create a **table** for the **above graph**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d2281cb-dbad-4279-9003-1603dbd967e9)
+
+* Table.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/309ec7a6-a6dd-4c99-8def-850274aa55cc)
+
+* If needed, YES.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/915b85d8-54f5-4c6f-ac23-724d4748f1b7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8241bf60-c740-4f51-983f-783ca3a27d71)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/173d78fe-77dd-4b32-a58c-b9b538c985d8)
+
+* This is how.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/108d703c-c5d5-4f18-80da-1a81dc889503)
+
+* Total no. of resources we cannot get. It will be given separately.
+* From the **table** we cannot tell how many resources are **free**.
+
+## Recovery from Deadlock
+
+1) Make sure that deadlock never occurs
+
+* Prevent the system from deadlock or avoid deadlock. There are two types:-
+
+1) Deadlock prevention.
+2) Deadlock avoidance.
+
+> In both of the **cases** OS will make sure that **deadlock** never happens.
+
+2) Allow deadlock, detect and recover
+3) Pretend that there is no any deadlock.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f8d9ecf7-8f5f-49e5-98c8-9abdb583c3a8)
+
+## Deadlock prevention
+
+* Does not allow system to satisfy one of the four necessary conditions for deadlock.
+
+> If one of the conditions are not satisfied for deadlock, then there is **no deadlock**. All of the 4 conditions should be satisfied then **deadlock** happens. There is **AND(&&)** between the all four deadlock conditions.
+
+> If one of them is **false** then there is **no deadlock**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3503349-7d46-4957-a3cf-43cfdde7039f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/153301fe-f4b2-400d-ba16-77b2ba3844c7)
+
+* To fail **mutual exclusion**:-
+
+1) Make all processes independent -> It is **practically not possible**. The advantage is that there is **no sharing of resources**, so **mutual exclusion** is not needed. No two processes need communication between them.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/02682522-4da8-4bc0-b007-56a410ed0d9e)
+
+* Independent resouces. No shared resources.
+
+2) Increase no. of resources -> so that each process can have their own resource -> It is **practically not possible**.
+
+> To **dis-satisfy or not satisfy** mutual exclusion, it is becoming **not or non-practical**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f32d5f8-dfc4-404b-b45d-c91d99eb6c7a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af6327fa-a683-45c8-8d56-a9702d03db42)
+
+* To **fail** the **Hold and wait** condition:-
+
+> Either Hold or wait, but not **together**.
+
+> A process should either wait or hold but should not do both together.
+
+> To stop **Hold and wait** condition, the process should either wait or hold. The process should **hold** when the process gets all of the **resources** and then holds and uses the resources.
+
+> If the process has **no resources** then the process will **wait** for everyone.
+
+> A process needs 3 resources to work, only two resouces are available and one is not. Then the process will hold/aquire those **two** resources, **NO**. The process will **wait** when all 3 of the resources are available, until then the process will not **acquire** anything. The process will be in **waiting** only and not on hold.
+
+* A process must acquire all resources together if all are available, or else must wait for all.
+* Decreased resource utilization.
+* Possibility of starvation.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/711474fa-8784-4fba-acf9-ddc267fa1077)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a24ccad-64f3-4149-8494-6ab1a715a63b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/64fbcb08-9dcb-4aef-98d4-62f0938e7091)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/719d955a-64f6-4192-a815-f7d4881c986a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/62735a50-d539-4705-aae9-5c7f43b5532f)
+
+* YES.
+
+* **Hold and wait** situation will never happen.
+
+* To **fail**, the **No preemption** condition:-
+
+> OS tries to preempt resources from processes.
+
+> Process may be in unstable state after resource preempted.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d40361b8-2228-4ab5-bef5-387bca0debb7)
+
+* To **fail**, the **Circular wait** condition:-
+
+> Give **numbers** to **each resource**, R1, R2, R3,.... Rn.
+
+> A process can request a resource Ri, while holding a resource Rj, only when i > j.
+
+> If a process is **holding** R1 then the process can request higher resources.
+
+> A process can request for higher no. resources if the process is holding a smaller no. resource.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7dcefbac-9ad3-4a8a-87fd-40aed811a180)
+
+> If a process is holding **R3** resource then it cannot access **R1 and R2** resource.
+
+
+* So that **circular weight** doesnt come.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57f1e316-57f3-4def-82bb-6f0a2e8edbb2)
+
+> We can do **decrease order** communications.
+
+## Deadlock avoidance
+
+> The OS will allocate the resources in such a way that the OS will be in **safe test*. The system always stays in the **Safe state** which means that there is **no deadlock**.
+
+> **Safe state** is a condition, where the **deadlock possibility** is **zero(0)**.
+
+> If the system is in **un-safe** state, then there is a possibility that **deadlock** will happen.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2574e67-a9ee-4772-abed-261e9f89cd73)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df4b01d6-738b-439d-b011-934ff32ecc37)
+
+> Deadlock avoidance will not allow the OS to go to the **unsafe** states.
+
+> In Deadlock avoidance, the OS will do when a process requests for resources, the OS will check if the requested resources are given to the process then the system will be in **safe state or not**. 
+
+> If the system will be in **safe state** then the requested resources are allowed. othewise the request is not allowed because the system may go to **deadlock** condition, there is a possibility for that.
+
+* Before giving the resources to the process, the OS will check if the system will be in **safe state or not**. If in **safe state** then give, otherwise don't give. 
+
+* In **deadlock avoidance**, the request for any resource will be granted if the resulting state of the system doesn't cause deadlock in the system.
+
+> In **deadlock avoidance**, each process must declare to OS that for which resource how many instances at **max** the process will require. This is **not practical**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dbcd8497-e51a-4eff-8d26-670c5c059df2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d91b04da-0138-4bc8-affb-40031085b617)
+
+* They are all theoretical.
+* They are not practical.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e947536-eb87-433a-a7fe-119eb857c53d)
+
+## Banker's Algorithm
+
+* The banker's algorithm is a resource allocation and deadlock avoidance algorithm that tests for safety.
+
+1) Safety Algorithm -> Checks if system is in safe state or not.
+2) Resource Request algo -> When a request comes from process, then OS checks if the request can be granted or not. 
+
+> Granted means system will be in **safe state** after allocation.
+
+> **Resource Request algo** runs in the cases when a process requests the OS for the **various resources** it wants. The OS will check, if after giving the resources the system will be in **safe state or not**. If in **safe state** then OS will give the resources to the process, otherwise resources will not be given.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33ca2a5c-aba0-43cc-abef-1308cc952e6c)
+
+* Short-circuit condition.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33e873b6-e8fc-4160-a526-af1cbd93fe49)
+
+* **5** times printed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/014577d8-db8f-49c0-8a66-dd353682c5f1)
+
+* Quiz-3 syllabus
+
+## Deadlock detection recovery (19) [2nd June 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/acc581a8-d309-4e0c-8fa3-e7e7a24b7c07)
+
+## Banker's Algo
+
+1) Safety Algo
+2) Resource Request algo
+
+
+## Safety Algo
+
+> When we will run **safety algo**, it will check if the system is in **safe state or in un-safe state**.
+
+> Safety algo works on a simple fundamental that is from every process, the **max** requirement would be asked.
+
+* **Max** requirement -> Max. no. of resources needed to completely execute process.
+
+> Process P1, requires **1 R1, 1 R2, 1 R3** resource for complete execution of P1. It doesn't mean that when the process arrives, it will get all of the **three** resources. The process said it needs them, it will request when needed. The process will tell/request the OS when the resources are needed, at that time give the resources to the process.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aaa3378c-4cb4-4a05-a1ca-f683f4caf065)
+
+> At the starting, the OS will **allocate** nothing to the process. When needed, the process will request the OS.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3c92a40-e05b-4796-8fbf-4b35fa374666)
+
+> We know the **max** requirements of the process and the current allocation of the process. Now tell the state currently if the system is in **safe state or not**?
+
+> We will check that using **safety algorithm**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/500915dd-a143-4cdd-a49c-83d176b629e5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fcf03a4b-fa44-439f-a321-dd3aeb644514)
+
+> The need of **P3** is **less than or equal to** the **available** value. We can fullfil the need of **P3**. We are checking if the system is in **safe state or not**.
+
+> Let's say we fullfilled the need of P3 as it needed **1 resource** and we have **1 resource available** and gave it to p3. So, the execution of p3 is **completed**. If p3 execution is completed then p3 will release all it's resources.
+
+> When p3 has completed execution then we had **1 available resource**  and p3 will release it's **3** allocated resources. Then, we will have **4** available resources.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bbe23fbc-e68f-4e4b-9486-4ba142fb03d4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b4f49cf3-8af4-407e-94ad-642ab5cd3842)
+
+* For P3, needs **<= or less than equal to** available. After P3, **available = (available + p3's allocated)**.
+* P3 is completed. 
+* After p3 completed, we have **1 + 3 -> 4** available resources.
+
+> We need to find another process, where the **need <= available** like above. We are repeating the process.
+
+> We can take **P1 and p2**. We can take anyone between them. 
+
+> After p1 is completed, we have **4 + 1 ->5** available resources.
+
+> We can take **p2 and p4**, doesn't matter take anyone.
+
+> We took **p2** and after p2 completed execution, we have **5 + 5 -> 10** available resources.
+
+> We took **p4** and after p4 completed execution, we have **10 + 2 -> 12** available resources.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6e4895a-c938-4c97-bc78-f1b104994776)
+
+* Can we run processes one after another?
+
+> **YES**.
+
+> If all processes are **completed** which means that the system is in **safe state**.
+
+* All process can finish, hence system is in **safe state**.
+
+> From the **order of execution**, it is much more important that we have executed p3 process.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/11021f7b-e4c8-4af7-841d-a3cceb0b41dc)
+
+* Yes, good point.
+
+* In what sequence we will run the processes to get the **safe state**?
+
+> Safe sequence -> <P3, P1, P2, P4>
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/616c8ea3-e468-4621-9b07-62a346fe825f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69c8320f-d426-41c1-bdf4-65e135d9be77)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c10a93c-81f5-4b12-abd7-87356f8a4eba)
+
+* Many no. of **safe sequences** are possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b0b77a8-786d-4b8c-8d99-0687b26e736c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d115308-b958-453d-81bc-bab49d997d7e)
+
+* This types of questions usually come in **GATE exam**.
+* They will given **Safe sequences** in the options and we have to find the **safe sequence** or if the system is in **Safe state or not**.
+* The table will also be given in the question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eee23fa3-3ceb-459f-9678-dd503d7fb7ed)
+
+> First we find out the **need** for all of the processes.
+
+* Need -> (Max) - (Allocation)
+
+> Then we can with the **available resources** which **process's needs** we can fullfil.
+
+> After the **process's needs** are fullfilled then the process is executed and the **allocated resources** of the process are **released** and those resources are **added** to the **available** resources.
+
+> Now we repeat the above process.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/858b0a11-a7e1-45a5-8edf-26ff2c29f54d)
+
+> The available resources is **A=7, B=4 and C=3**, we can fullfil any of the **3** available processes(p0,p2 and p4), which means the system is in **safe state**.
+
+* **NOTE**:- [**IMPORTANT**]
+
+> If an **individual process's need** is **less than equal to** the **current available resources** then no need to **check further** and run the process in **any sequence** and complete it.
+
+> We can run the processes in **any sequence**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d9f38424-fe7a-4a3a-baa0-50e7a80ef48b)
+
+* Not Yet in GATE exam.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8dbf7e9d-98ec-44f6-93ae-df8b43e6e5cf)
+
+* Multiple safe sequences are possible.
+
+* At some point of time, **needi > available** for all **i**, then the system is in **unsafe state**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bba568ff-a020-4205-8d54-4d1c4d49ed1b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/43da63cb-f1f5-457e-9be0-09a2e438df94)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d922ac9-a8af-45eb-a662-de1c2880a5eb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ad40402-cc9e-48e7-a7ac-dd80fd05476a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33975a7e-4635-4473-a975-f4b21513f9fe)
+
+* Any process(p2, p4 and p5) we can run after **p3**. The **available resources** is more than all of the **individual needed resources** of the processes. 
+
+* (Available **>=** Need).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44c7a3fe-57dc-44bb-88ce-53115ec4786f)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/68500683-93e4-4e7b-ada2-906da785fab8)
+
+* System is in **safe state**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4805f135-64be-44af-9c78-57f0a270f937)
+
+* Multiple sequences are possible.
+
+* Sometimes, the **available resources** may not be given.
+* They could give **total resources** as **A=3, B=14, C=12 and D=12**.
+* To find the **available resources** we have to **substract**, (**total resources** - **Allocation resources**)
+* **Available resources** -> (**Total resources** - **Allocation resources of each process**)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/833dd065-6065-437e-9cbd-03ee5c4aaf60)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ffa174dd-38ae-4fa4-a2fc-55ea9b13a8f8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/886a1317-2144-4ac5-8326-e8346738db92)
+
+* Yes, we will check in the next algo.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e5ae05e-9703-4d72-ab30-97a3f31d608b)
+
+* We solved it earlier and found out that it is in **safe state**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2177a57-4001-47ac-9fdb-a766c8f6c886)
+
+> The OS will check that if after fulfilling the **request of P1**, the system will be in **state state or not**.
+
+> If the system is still in **state state** then fullfil the **request of P1**, othewise don't.
+
+> It is because the **deadlock avoidance** algo states that we will grant the **request** of any resource when the **resulting system** is in **safe state**, otherwise we will not grant it.
+
+> If any such type of requests comes from processes, then we will **first** check if the **request** made by the process is **even valid or not**.
+
+* Valid -> It means that
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7233e391-3e13-4b83-92c1-d713ed645ef6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85d6443b-bfef-48eb-8ffe-d05ecf58c8b6)
+
+* The **max** is **5** and we have allocated **3.5** and the person **need** is **1.5**. But suddenly the person came and **requested** for **1.7**. The limit of the person is **1.5** only.
+
+> If the **request** is **less than or equal to** the **need** of the **person/process** then the **request** is **fullfilled** otherwise **rejected/denied**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab60cc7d-8fee-445a-ae70-47c8e5884b32)
+
+> If **request** is **bigger** than **need** then we will say the request is going beyond the needs and we cannot fullfil it.
+
+* STEPS:-
+
+1) If the **request of the process(i)** is **less than equal to**, **need of the process(i)** then next **step**, otherwise **stop** as it is an **invalid request**.
+2) If **request of the process(i)** is **less than equal to**, **available resources** then next **step**, otherwise **stop** as not enought resources.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5525eafb-52bd-4872-99ae-4721c0cdfc18)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d5d4be1a-9041-461a-971c-fea28eac92a0)
+
+3) 1) Allocations of process(i) = Allocations of process(i) + Request of process(i)
+   2) Need of process(i) = Need of process(i) - Request of process(i)
+   3) Available of process(i) = Available of process(i) - Request of process(i)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf7143fb-5d09-44b8-8ce6-ba32aa5bc9c2)
+
+4) Run **safety algo**, if system is **safe** then request is granted, otherwise **request** is **rejected/denied**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8c36d5cb-463c-400c-bd32-58159eabc3a5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5f01348b-3b81-4ccf-a1bb-83edbcd8c5ee)
+
+* Let's run the **request** of P1 process.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7fde1ffe-e53c-41a3-a30b-05e587dca6ab)
+
+> We first find the **need** of the processes. Then we check to see if the **request** of P1 process is **less than equal to** the need of P1 process. So, it a **valid request**. 
+
+> Now we are checking if the **request** of P1 process is **less than equal to** the **available resources**. So, **resources are available**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9bc6c216-124a-4a46-8ef9-6efd5e4752a4)
+
+> Now we will **add** the **request** of P1 process to the **allocated/allocation resources column** of P1 process.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c9fe2d8-0947-4f47-848c-6d8f7fd57568)
+
+* Now the **allocation of p1 process** -> A=3, B=0 and C=2.
+
+> Decrease the **need of p1 process**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5805032-36ae-431b-bef7-b7aba43011a0)
+
+* Need of P1 process -> A=0, B=2 and C=0.
+
+> Now change the **available resources**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4aa48789-923d-4e15-8bda-06c18174faa8)
+
+* Available resources-> A=2, B=3 and C=0.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f44a0178-37b9-4015-8169-91a948893232)
+
+* On the **new table**, run the **safety algo**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d742543d-5063-4654-b888-c2f7f2d73345)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a9c88eef-6abc-4c4d-b2de-ab07d223b899)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89d95f8e-47a8-4901-a2d8-57d216eed02e)
+
+* System is in **safe state**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c064392-7b93-43e9-b71e-ce05dae28cb2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4436e089-e1a5-4514-922c-6ceba34ce543)
+
+* Request granted.
+* The **request** made by P1 process is **granted** as the system is in **safe state** still.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d73855d9-1f00-4ffe-9ab4-f3e9c8db3708)
+
+* Check if the **P0** request will be directed or not.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c4f05f61-431f-4089-8df4-8f1ccc40823f)
+
+* In this state.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dbab2676-c40e-49a6-bf5e-f997c1c4abd9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f360ca25-5fac-411c-a91a-a91b5699828c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f272a034-3849-45e0-b842-03985cb77a1a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/52b285f0-9d43-47d7-9bda-5d09e0bd35a8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e91562a-bc0b-4573-ba33-b370e635aebf)
+
+* Homework.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5045e938-850b-427c-846c-4d3974b0dded)
+
+> Now we will check individually that, if the request of p1 is **granted** or not. If we can **grant** the request then **grant** it. Do all of the changes.
+
+> On the **changed scenario**, now check the request of p3 that it can be **granted** or not. If we can **grant** the request then we can say that we can **fullfil** both of the **requests**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f2c2f1e-48d0-490e-ba7f-bdd62e721477)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f99e8478-8c9a-4b27-81c3-ca0fbb0a0512)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2e082240-e170-41b3-ba26-d727f2b6aa8c)
+
+* On the original table, then that is **option 2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36e5af84-b320-4e88-8ce2-d7a8eaabce02)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ce2d8a2-147f-4ef0-b44a-241f7b3d8d50)
+
+* **Option 5** means that the requests will be individually **granted** on the **original table** and not **one after another**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/28f47178-a437-4623-9999-db7d1e5cc1ef)
+
+* Homework.
+
+## Doubt clearing session questions on deadlock (20) [2nd June 2023]
+
+## Homeworks from last class
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5bab8b39-80af-4a22-b4c6-40ec77652f56)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d929ae5-bdf6-4f26-80bd-55937482d327)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37de8a56-bcee-49bb-b9c1-a3cbfd8a36c8)
+
+* We checked earlier that the request of **P0** was **granted**
+* Now the request of **P3** is **granted**.
+* So, both the request of processes **P0 and P3** are **granted**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/de8fe4b9-9cf3-4260-9249-48eccd0ae6fa)
+
+## Deadlock Detection
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/46d419ee-e0ee-40ce-bf60-98a7dde2f47c)
+
+### Single instance
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/309cd810-a650-4e0e-af67-171a6008f0e9)
+
+* Wait For Graph -> Construct from resource allocation graph.
+
+### Wait For Graph
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f8258b63-c81d-473a-b76d-46ffe94c8175)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0cc7bd9f-1596-44e1-80d0-3aea8c160402)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12c3a81b-912d-4d7f-be00-bf0a1469c03e)
+
+* It has only processes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/99a1c85e-4887-4373-be56-cebc31ac1cc6)
+
+* How does one process wait for another process?
+
+> For P1 process to run, P2 process has to end because P1 is waiting for **R1** which is taken by P2. When P2 finished then R1 is released and now P1 process can run.
+
+> P1 process is **waiting or waits** for P2. That's why we have made an **edge** from **P1 to P2** which is in **graph (b)**. **Wait For**, **Wait For** whom? That's how we will get the **edge** from **source to destination**.
+
+> After the **wait for graph**, we will check for **cycles** in the graph.
+
+* If there is **any cycle** in this graph then there is **deadlock**.
+
+### Example
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8411839a-4eab-476d-9517-c5970dc819e4)
+
+* Draw **wait for graph**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/854a197c-e7c4-4ff0-88ac-4e88882fa2ef)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e6eb6dd4-5c1d-46c3-8b6d-2a8498f277ed)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6aa5aec3-b793-4f56-9644-fbbed7ac934c)
+
+* P2 and P3 are in **cycle**, so the **graph** is in **deadlock state**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3c8396c-b384-46a9-91c1-aee078fd2420)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7fa5b50c-3934-4867-bb23-a69da960cdd7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a5a2836-8197-4a5a-a765-c4e4d872003b)
+
+* **Wait For Graph** works when there is **only one instance** of resources in the graph. When we find a **cycle** in the graph then we can say **guranteed** that the graph is **deadlocked**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/64bf6f0d-0a40-420d-ae3f-f88ce906b497)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c974792-36b5-4f63-84a9-59a5a0cf1fad)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a628afd-1da7-45ed-8268-d52da20c73ad)
+
+> There is a **cycle** in the graph. It is **not guranteed** that it is in **deadlock** because we have **more than one or multiple instances** of a resource in the graph but we can see that p1 will run when p2 is over and p2 will run when p3 is over. P3 will run when one instance of **r3** resource is free from **p1 and p2** process. So it is in **deadlock** actually.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c4a62b71-53e9-4a65-ac01-1271469c9e16)
+
+* Yes
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ca19b74-03b6-4cd5-ab08-9dd03aeb2bc2)
+
+* Cycle is there in the wait for graph but there is no **deadlock**.
+
+> P2 is not waiting for anyone. P2 can finish and release one instance of R1 resource for P1 to run.
+
+> Similarly P4 is also not waiting for anyone. P4 can finish and then P3 can run.
+
+## Deadlock detection with multiple instances
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1104567c-c436-4987-b57c-adc12db6fb50)
+
+* Similar to banker's algo.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b6f3e7c-f698-4cf7-a161-7175b8ec460a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/875de069-5f37-4cd8-8e2e-fdb4894e14e4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/043d6f30-2386-419e-89dd-0422b2b99147)
+
+* Table of the **above graph**.
+
+> There is **no scenario** of **max and need table** as we don't want to avoid **deadlock**. We want to **detect deadlock**.
+
+* Allocation and Request -> Deadlock detection.
+* Allocation and Max -> Deadlock avoidance safe state.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c96cbad-704f-40d4-9bfe-f543ff9d5e43)
+
+> There is **no difference** like the **previous one**. Before we were looking at **need**, now we are looking at **requests**.
+
+* P0 and P2 processes have **no requests**. They can finish anytime.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16b00961-80b0-42c7-be40-26da8b979d13)
+
+* If for any process(Pi)
+* request of 'i' <= available, then
+* available = available + Allocation of 'i'. 
+
+* If all process are **completed** then **no deadlock**.
+
+* There is also no **safe sequence** as there is no talks of **safe state**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e215827-0346-4aa8-8af6-20b05bfcdbb8)
+
+* As all of the **processes** finished. So, there is **no deadlock**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/159faefc-f94a-4399-b2f2-7fc8288f37fc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66a7798c-82e0-4c6f-877e-0f9bb675631b)
+
+## Detection-Algorithm Usage
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/edb81313-d538-4e80-975f-ad913d58b02f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d9baa722-4e1b-441d-9985-62971745f47b)
+
+* Clue:-
+
+1) CPU utilization decreases
+2) Process inactivities
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a165c248-f4de-4feb-bc56-5d89ad13647d)
+
+## Recovery from Deadlock
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8a35f41-f7cf-4434-9086-c44a2650b969)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f1f3fc9-5448-4608-8853-6825c5071b53)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3ade6a9-ebf8-426e-8cd3-b36dc428fc96)
+
+* Factors not need.
+
+## Resouce Preemption
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/678f8e94-bb87-4d44-9c4b-db5faf910b4e)
+
+### Questions
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/734904f9-5176-4642-9cf1-fdd1f4dda18c)
+
+> Give **A,B and C** processes **max resources** such that they are still in **waiting state** and wants **1 more resource**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/90fb31ac-4513-4394-8694-d5ae2a6b9fe1)
+
+* All of the 3 processes are still waiting. So, **deadlock** possibility there.
+* So with **9 resources**, **deadlock** possibility there.
+* The question has asked to find **min no. of resources**.
+* If we keep **1 resource available** then it will be fine as we can fullfil the need of all 3 processes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f2c9eff7-2fbe-4003-b2ec-fc342bfddb6b)
+
+* For deadlock to never happen -> **Max of process 'i' - 1**.
+* Then **add** them up and at the end do **+1**.
+* So the **min resource needed** -> 3 + 3 + 3 + 1 -> 10
+* **10** is the **min resource needed** so that **deadlock** never occurs.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1f52507-4a37-48a5-bfae-29d852d3fbfe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2d0a97e-d3d7-4c1a-915e-6e00c9579aee)
+
+* For **n** processes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bfa634a7-defd-4ba8-92fa-bf5369bb69f6)
+
+* **Deadlock may occur** that's why we didn't do **20 + 1** because at **21** resources means **deadlock** will never occur, but instead we put **20** as the answer because we want **Deadlock may occur**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb098b6e-9fd7-436e-acbb-aa4a5f63784c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d39de30f-924f-4bc6-ac56-fc072b2ed066)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/40ceeca3-dc70-4f2d-ba32-91989ba000f0)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44dd8070-6857-485e-b069-72084988c7da)
+
+## Quiz - 3 Solutions
+
+### Q1
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8d3ccdb-ab17-4b32-8089-13d29364bbbc)
+
+* All options are to be **selected**.
+
+### Q2
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5905d121-74c0-4539-b93f-1f1f66ddaa8d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/21bcfe7c-3243-4a76-84ff-fc6fc061114a)
+
+* As **S=1**, so **mutual exclusion** is possible and **only one process** can run at a time.
+
+### Q3
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/151d36fd-b0a7-4bfc-8d47-3ac6606a0ff7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05b32f2f-1a99-495a-92ec-979f9f36c9e1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f288b0e0-1f1a-4d10-be3f-1a13c91ce782)
+
+### Q4
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b44ed8c-b2f6-4e39-bd83-157638a2a3d8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9daf6119-640e-4d52-9ddb-c11806406bd9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/accdffec-5d1a-4cea-baee-1a5b440573fe)
+
+
+### Q5
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/87276541-efec-4d78-9593-cf0bbde90ab3)
+
+* **Option D** correct.
+
+### Questions
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7495dd03-bc3a-4a42-bdb0-6e2ce536110f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7899d5a8-0868-4dad-9081-cbcc55a0e678)
+
+### Doubts
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c4dd1f2-5ce5-458a-8031-d9c64f1a1474)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ca5e3d0e-8f9c-47df-bc74-aafd50786320)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/400c6187-a8f0-41e4-a5a6-815031bcd2ce)
+
+## Memory management contiguous (21) [3rd June 2023]
+
+## Types of locks
+
+1) Spinlock -> Busy Waiting
+2) Livelock -> Two or more processes in busy waiting for each other forever.
+3) Deadlock -> Two or more processes blocked because of each other
+4) Semaphores -> 
+5) Reentrant locks -> 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aff9b7d7-20d7-4522-b396-5b642a4c6df0)
+
+* **P(Sy)** and **P(Sx)** cannot move forward as **Sx=Sy=0**.
+* This situation actually is called as **live lock**.
+* It is interchangeably called as **deadlock** also.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/765fb7bf-f972-424f-9dda-ce8bb83c86ce)
+
+* **P(Sy)** and **P(Sx)** will get **CPU** but they cannot run on the CPU and move forward. They are in **busy waiting** because of **each other**. The **busy waiting** will be forever and they cannot move forward. So they didn't go to the **blocked state**. They are still in **running condition**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d3e3444-1318-4102-8ed0-87153bf0cf63)
+
+> The **difference** between **livelock and deadlock** is that in **deadlock** the processes are in **blocked state** only. In **deadlock**, because of some **IO operations**, the process didn't get any IO device that's why the process is in **blocked state**. The process cannot move forward as it is not getting any IO devices.
+
+> In **livelock**, the process run on the CPU and the process cannot move forward.
+
+* In both **livelock and deadlock**, processes cannot move forward because of processes depending on **each other**. 
+* **Livelock** is interchangebly termed as **deadlock** as well.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98fc8215-90d1-441c-b8f8-bc6e5cc4da10)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19854903-00e6-44ea-9b52-fe0ea903e4f5)
+
+* Spinlock -> 1 process is stuck. It is not a forever lock. When one process leaves then another process can go in.
+* Livelock -> Multiple processes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0eef326e-f173-4f0b-bf2c-8d9b5c91bdd2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95833698-55ff-43e3-88d2-767db25bc94d)
+
+* Livelock.
+* **Livelock** is interchangebly termed as **deadlock** as well.
+* In **computer science** people will use **deadlock** most of the time.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c672a437-d20a-4dda-94ee-cb75b5937079)
+
+* Ofcourse
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b2bd5992-9413-43b2-9903-0c63c70f3961)
+
+* Reentrant Lock -> A thread can enter(acquire) same lock again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/06d15f83-aef8-4f84-b939-9c24ade23d95)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85934e41-cf74-44d0-b8ef-02d6c39037e9)
+
+## Memory Management
+
+* Module of OS.
+* Managing main memory.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a497da2a-3259-4275-bd3d-09818af209a2)
+
+## Functions of Memory Management
+
+1) Memory Allocation -> Allocating space in main memory to a newly admitted process.
+2) Memory deallocation -> Deallocating space from main memory for a terminated process.
+3) Memory protection -> A process can access only that part of memory which has been allocated to it by OS.
+4) Free Space management -> It knows which spaces in memory are **free**.
+
+> To bring the process to main memory(RAM) we have to use **memory management** of OS.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a6a70a8f-53a1-4ed7-82c8-d737e69d9b33)
+
+* It creates the process.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7183acdb-658d-4b3c-a4ee-b56e7f61bfc3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/975ac134-bc08-4516-b0c1-3076cddc19a5)
+
+> P2 process is running on the cpu, when p2 runs then the memory address generated by the p2 process will be which one? The p2 process can access that much area of main memory  which is allocated to p2 process.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f457d934-084c-4f44-ad3e-8982747ccadd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4fa3a2c5-bda2-4220-949f-e63456357648)
+
+* NOPE, pcb is in **OS**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eee2fb8d-d16f-4844-afe1-7184e6682c14)
+
+* Yes
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/317df964-9749-491c-a10b-39060ad1b36f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0bc69282-55f6-408a-8074-56e4dcf0db61)
+
+## Goals of Memory Management
+
+1) Maximum utilization of space -> Minimum space wastage.
+2) Ability to run larger programs with limited space
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ece40b0-528e-4857-967b-f4ac6949e9ee)
+
+* Space Wastage -> Fragmentation
+
+1) Internal
+2) External
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/052a2bb7-e277-4807-a54f-bf49742f5c66)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19219438-0b43-47d1-8488-9cdff960223b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bda6ebaa-018e-4532-8662-3f3f2ed9d9d2)
+
+> If we want to use the **Heap space** then allocate the space and give it some name using **malloc()** and access it. If we want to **deallocate** it then **deallocate** it using **free()**.
+
+> The **Heap space** is still allocated to the process, it has not been **deallocated**.
+
+* For calling **malloc()** do we need the **OS**?
+
+> **NO** because the OS has already given us the **Heap**. We can create **another space** within the heap itself.
+
+* When **malloc()** is running, there will be a **system call**?
+
+> **NO**, because we don't need the **OS** for calling **malloc()**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f6fb99d-b0ce-4564-9558-38193d0a6a22)
+
+## Memory Management Technique
+
+1) Contiguous -> Entire process is stored in memory on consecutive memory locations
+2) Non-contiguous -> It is decided by the **OS**. Entire process is divided into partitions and each partition can be stored on memory anywhere.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34dd2b6c-adb3-46a9-8bde-19f91c83b14a)
+
+> The **OS** before storing the process in main memory, the process is **divided** into smaller parts/partitions and those smaller parts/partitions are stored in different places/parts of the main memory.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/49ccaac9-1b25-4698-ac8c-d4b1414ad775)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36fd3415-348e-4b58-affe-a7893d56af63)
+
+## Contiguous Memory Management Technique
+
+* **Contiguous** -> Entire process should be stored on consecutive memory locations.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc4334ca-c844-46c1-b5b0-595b5a7b200b)
+
+* Types:-
+
+1) Fixed partition contiguous memory management technique
+2) Variable partition contiguous memory management technique
+
+### 1. Fixed partition contiguous memory management technique
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf45d20e-647b-4989-8619-c09d64a080e4)
+
+* Only one process
+
+* OS divides the main memory into fixed no. of partitions. Each partition can be used to accomodate **only one process**.
+* Each partition size can be different-different.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/934825e7-738d-479c-a360-195f1d7105f9)
+
+> Different-different size partitions are made by the **OS** inside the main memory. When a process is needed to be stored in **main memory**, then **one partition** will be **allocated** to that process.
+
+> Whenever a new process arrives in memory management unit of OS provides it a **free partition**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/393cb8d4-f254-4aed-b2dc-b49bb1493143)
+
+> When a **new process** comes and we have to decide in which **partition** we want to keep the **new process**. Then in the **memory management** technique of OS, there is a small algo, called as **partition allocation policy**, which decides in which **partition** the **new process** will be **allocated/kept**.
+
+## Partition Allocation Policy
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eafbae19-7cb8-4995-b499-43be8d448603)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2345e29f-4525-4932-91c5-89c46eeeff7b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81ad2347-18ed-4f4b-9695-e6635ab69fd8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2365831a-4a3a-4f11-9786-add6dee4e6df)
+
+* Ofcourse.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dfac21e8-8ec0-4598-9455-980d0c1acd01)
+
+> We can keep only one process in each partition because of **protection**. When a process get it's partition, then the process can access that **partition** only and nothing else because of **protection**.
+
+> If we keep **two processes** in one partition, then the processes will **access** each other and there will be **no protection** that's why.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b0d7863-c3b7-43b8-b389-3b522c67f229)
+
+> When P1 process is stored in **125KB** partition, then **5KB** storage or memory is **wasted** as it cannot be used to **store** another process.
+
+* This is called as **fragmentation**. It is of **internal** type, so it is **internal fragmentation**.
+* **Internal** because **internally** we have given the partition to a process and that process cannot use it. Internally it is **wasted** and cannot be used to **store** another process.
+
+* This is **internal fragmentation**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd8763e0-407d-45d2-890d-eccd698bd913)
+
+* So, **Fixed partition contiguous memory management technique** suffers from **internal fragmentation**.
+
+* **Internal Fragmentation** -> The space allocated to the process is **more** than the **required space**, hence the **extra unused space** is known as **internal fragmentation**. 
+
+> **5KB** extra space is given to the P1 process even though it doesn't need it. That is **internal fragmentation**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/517fc2bc-3caf-4a68-8214-e3b44cbc4792)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2709da4d-a201-4866-b2cb-76f323042bdd)
+
+* Example:-
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f71449c-ab57-4426-a0b5-46cccfe886b7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63c37a73-dbba-4152-b70f-a7256b80f382)
+
+* A process of size **120KB** has been given a partition of size **130KB**. Then the size of the **internal fragmentation** is **10KB**.
+
+### 2. Variable partition contiguous memory management technique
+
+* No any partition is created before hand and whenever a new process arrives then a new partition is **created** equal to the size of the process and the process is stored in that partition.
+
+> The process is finished, the partition is also finished/released.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae30e372-898c-4896-9761-d1c5a509afec)
+
+* The **advantage** is that there is **no internal fragmentation**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f2a39ad5-4ac9-4997-b38f-590a20680d2c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2e976e8-0d3b-4c1d-8998-2e784f08bbb1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee80c88b-f25f-4b7f-a669-09c04e6c0585)
+
+> Process **P2** is **terminated** means that p2 process has finished running. So, the **partition** given to p2 process will be **deallocated**.
+
+> **150KB** size hole has been created between **P1 and P3** as p2 process partition has been **deallocated**..
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4aa72671-e8ec-4214-99b9-a82549371105)
+
+* They are called as **empty holes**.
+
+> A new process came of **100KB** and we will create a **partition of 100KB** from the **150KB hole or 125KB** hole. Which one will be use? It is **dependent** on the **partition allocation policy**, which **hole** we will use.
+
+> New process of p4 of size **170KB** came. We cannot keep it in neither **150KB or 125KB**. The **memory management** technique is **contiguous**, so we have to keep the whole process in **one place**. But we don't have **170KB** in either of the two holes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0df365e7-8281-4078-b6c1-aa7e2d88e80b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/79fc2ede-a09c-4ba1-b83f-6535eeb522a5)
+
+* We cannot keep the new process p4. This is called as **external fragmentation**.
+* **External fragmentation** -> Enough space is available in memory but not contiguous to store a process.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e7a46068-2050-440c-af16-55a404f7dc37)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/70544ea0-09b7-4b67-8276-f080c82e4186)
+
+* No.
+
+### Compaction
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e217d5e6-75d3-42f0-bd2a-6b756d5708fc)
+
+* There is a **solution** for **external fragmentation**. This is possible in **Variable partition contiguous memory management technique** because the **partitions** are created at **run-time**.  It is called as **compaction**.
+
+* **Compaction** -> We will gather all allocated spaces into one side of memory so that other side can have all empty spaces together.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/281e08b0-dc3d-40e0-a705-6f304a9ee78e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/17a30c03-51e0-4336-a2e7-885b43035b21)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19f33b20-95fa-42fe-8fc0-f94724b935da)
+
+* When we applied **compaction**, we will able to **add** the p4 process to the main memory, earlier we were not able to.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ab3c81c-fb38-4225-a744-d8cc4a031596)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b4eb716-59cf-4213-beb1-24065e653da5)
+
+* We got **two** spaces contiguously.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd488ed7-5f5c-44b1-af5e-e86d1ae68ef8)
+
+* In **non-contiguous**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b694793-1e2c-42e2-84d9-51131fabb86d)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/da6a0638-f0f1-4f89-8e95-bb44d432baaa)
+
+* None.
+
+### Questions
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6a5e4f3-6df2-44a2-a0cc-9182b1d0bf12)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7443e0f8-3aad-4b2f-a869-85d33c4d57ac)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ddbc0c3a-8fda-4ec9-9fec-04962689fcec)
+
+* If mentioned in the **questiom**, then only use **compaction** otherwise don't use it.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b8564285-06f0-442a-a068-afcea82b11f2)
+
+* First Fit
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f0faaba-d335-4f03-838e-3f60ca74dfa2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/277f53b1-89b5-4390-ab10-958a323176ef)
+
+* Best Fit.
+
+> Last process was **not stored** as there was no **50K** contiguous memory. So, **external fragmentation** happened.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff1d2f4c-7187-4507-b4e8-b50323374504)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ab16d3b-0f70-4306-ab2f-07c5635c03a5)
+
+* **Option 'B'** is **correct**.
+
+## Paging address calculation (22) [4th June 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/751a94a0-46f0-48c4-834a-9102df97d0f0)
+
+* No
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/25962b0b-c965-495d-b9d8-a89dec4890b7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/14b371cd-0914-45a5-8113-449433a8a0dc)
+
+* Yes. You are right.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/15bd344c-ec72-4655-888b-7503c277ad89)
+
+* No, as we cannot combine two partitions in fixed partition.
+
+### Memory Management Technique
+
+1) Contiguous
+2) Non-contiguous
+
+## Non-contiguous Memory Management Technique
+
+1) Paging -> Each process divided into equal size partitions [**More IMPORTANT**]
+2) Segmentation -> Each process divided into variable size partitions
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a86d51e-0bfa-409a-b996-cfb3d8627379)
+
+## Paging
+
+> Equal size partition is called as **page**, the process's page.
+
+> Main memory is also called as **physical memory**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc86c0c7-17af-462f-9472-cc085c986a96)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/993027f1-8965-4282-a966-725ce280bcb5)
+
+* Frames -> Page frames -> memory frames -> physical new frames.
+* They all are different names of frames. They are the **same** thing only.
+
+### Example
+
+> Some process is coming and the process needs to be stored in main memory by the **OS**. The OS, will divide the process into **equal size** partitions. When **equal partitions** were done, we got **4** pages.
+
+> The main or physical memory is also divided into **equal size partitions** and we got **8** frames.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1e38308-76bf-4c89-b095-c0b72dc44bce)
+
+> When the OS got the process there was **no pages** made. The OS made the pages of the process. After that **each page** was **stored** where ever there was a **free frame**. It can be stored anywhere, doesn't have to be in **sequence**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c2a273e-9a67-44e4-a060-8635f0aae8f7)
+
+* On any **frame**, any **page** can come. This is the simple definition of **non-contiguous memory management technique**.
+
+> The process is divided into **partitions** and **different-different partition** is kept at **different places**.
+
+> When the process came, before that the process was divided into **different-different partition**. The **partitions** are kept anywhere in the **main memory**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc487cfa-9835-4240-86f1-21c252e601c2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2d284056-9aea-49ee-9811-10acd9bffd55)
+
+> When cpu runs the process and the cpu needs some content and it is stored in which **page** and that **page** is stored where in the main memory. For that **OS** maintains a **page table** for **every proces**.
+
+> **Page table** contains **frame nos.** in sequence.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d58e9c2-a931-4fc8-bcca-c4d5627d12e9)
+
+* Inside the **page table**, we are writing the **frame nos.**.
+* The **sequence** of the **table** outside is the **page nos.**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/997aeefd-62f1-4c51-80da-1a75ad971b4f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d459dfe0-019e-4153-b369-08b17fe90fdd)
+
+> The **no. of pages** in the process, that many entries we have to keep in the **page table**.
+
+* How many **entries** we have do in the **page table**?
+
+> The **no. of pages** for the process, that many **entries**.
+
+* If a process has **16 pages** then how many **entries** in the **page table**?
+
+> **16** entries.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8deb1e60-b1a5-48e1-b657-e27c0e13f84d)
+
+* How many **entries** we have to do in the **page table**?
+
+> The **no. of pages** for the process.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/053b6a9c-2596-411e-b715-7177c0477c7d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86adcd8a-e248-4b91-a0c0-3f0874219b66)
+
+* process is divided into pages.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6f7fe56-c48e-409d-8b7d-539ef1d5283f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/238de1be-73eb-4f6c-a203-7c47091ca3a8)
+
+> If we have **35** processes then each process will have their own **page table**. So, for **35** processes we will have **35** page tables.
+
+* No. of **page tables** == No. of **processes**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ca8f4412-383a-46a3-817b-1df862e5f9a9)
+
+> When CPU generates a request to access memory, **in COA**, we used to that cpu will generate the address of main memory. The content is in that address and the cpu wants it.
+
+> When CPU generates a request to access memory, **in OS**, actually the cpu doesn't know where each content is stored. The cpu will only see the process and will see that it wants to access that particular content of the process. Whenever the cpu generates the request, cpu cannot generate the address of main memory where the content is.
+
+> Cpu will generate some request by which it will tell that it wants access to that particular content. The content is at that process and at that page.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae1e4cad-1fb0-49ef-8b09-ac0c6d372b20)
+
+> Whenever cpu requests for main memory content, from there we will get the **content's** whatever information and we will know one thing that on **what page(page no)** is that **content** kept. We will ge the **page no.**.
+
+> We will take the **page no.** to the **page table** and from there we will get to know on **which frame(frame no)**, the content is kept. We will ge the **frame no.**.
+
+> We will take the **frame no.** and go to the main memory and from main memory, we will get the **frame** and on that frame, we will get the **page** which we wanted to **access**.
+
+> Finally, we reached the place, where the content is stored in the main memory. It is done with the help of the **page table**.
+
+> We are not able to go **directly**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b7d7be82-992b-4f4b-a5f3-ac6cbf52dbef)
+
+> Whenever the cpu requests and from that request we will get the **page no.** and with that **page no**, we will search the **page table**, and after searching, we will get the **frame no** and this is the **frame no.** where the **page** is stored in the main memory.
+
+> We went to that **frame no.** and on that **frame no.** we got the **page** where we wanted to **access** the content of the page.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/337116e8-f681-4da2-ad84-e7a7d02f9460)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cada42e9-7b38-42af-8ef6-2ce4fc0c68a1)
+
+### In Binary
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e31a6778-f8f0-4759-8005-98aabc215b2a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a96a159d-8904-47e8-9ddb-ad51aaa61cdf)
+
+* In the **page table** we have **4** entries.
+* Every entry in **binary** is of **3 bits**.
+* Total **page table** size -> 4 * 3 -> 12 bits.
+* **Page table** size -> ((no. of entries in **page table**) * (size of '1' entry)) -> ((no. of pages in process) * (size of '1' entry))
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5bdfb6c7-a723-4ef5-9ad0-b27125337d8b)
+
+* As an **example** we are taking **each page size** is **4 bytes** each. 
+* We have **4 pages** in the process.
+* Total size of process -> (4 pages) * (4 bytes) -> 16 bytes
+* **Frame size** and the **page size** are **same**.
+* Total size of main memory -> 8 frames -> (8 frames) * (4 bytes) -> 32 bytes.
+
+* We have to address **each bytes** according to **byte addressability**.
+* Total size of main memory -> 32 bytes -> main memory address -> (2 ^ 5) -> 5-bits.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/60cfd8fa-33c6-4d3d-8baa-c9446ac706d9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a0cf8e81-2612-4ce1-a796-0948af3bb262)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/59e1aaf9-a498-4fbd-aa92-93f0bc55481a)
+
+> The cpu can see the **sequence nos**. If cpu wants the **J** content then the **sequence nos** which is **1001** should be generated by the cpu.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0f01db8-3241-49b6-995a-6897264218b6)
+
+* This is the **view** seen by the cpu.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/61e34fa5-d801-4347-9b2e-f220c6564dbd)
+
+* Logical address.
+
+> If we know the **logcal address** then we can go and see the **list(page table)** and after that we know our seat.
+
+> The **logcal addresses** are with the **cpu only** as a **logical no**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/767a888c-70f1-4ce4-82fa-4940bcb2d4cf)
+
+* The address of the **main or physical memory** is called as **main memory address or physical address**. 
+* Whenever cpu wants some process's content then the cpu generates some **logical address**.
+* CPU always generates logical address(virtual address).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c5e3a08-646a-4484-b5d6-52c3e6ec2a2d)
+
+* How we will get **information** from the **logical addresses**?
+* Why we ware having **4 addresses** in a **single page**?
+
+> Because the **page size** is **4 bytes**.
+> One or single page has **4 bytes**.
+
+
+* If **address** is given by analyzing the **starting 2 bits**, we can observe from which **page** is the **logicial address** from?
+
+> **True**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ba3585b-70b1-4fa4-b098-4304919ae33e)
+
+* **Logicial address** which is **1010**, just notice the **first two bits** which are **10**, which means the **logical address** is from the **2nd page**.
+
+* Why we have seen **first two bits**?
+
+> Because the **page nos.** are of **two bits**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7bdc5884-0a34-4b5c-8921-f9f9f2663fe1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83c5a2ef-cbf9-4b59-a657-8f585547f1d2)
+
+* We would check the **first three bits** and get the **page no**.
+
+> Apart from the **first two bits** used to find the **page no**, the **rest bits** are used for **finding** out of the **4 bits**, which bit we are taking.
+
+* **0000** -> Page '0' and **zeroth** byte.
+* **0001** -> Page '0' and **first** byte.
+* **0011** -> Page '0' and **third** byte.
+* **0100** -> Page '1' and **zeroth** byte.
+* **0101** -> Page '1' and **first** byte.
+
+* Every page has **4 bytes(byte 1, byte 2, byte 3 and byte 3)**.
+
+* Like this, from the given **logical address** we can get **two** information:-
+
+1) To which **page** does the **logical address* belong.
+2) Within the **page**, which **byte** it is. 
+
+* Logical Address -> 1011
+* **10** -> Page no.
+* **11** -> Byte no.
+* Byte **11** of page **10**. [In binary]
+* Byte **3** of page **2**. [In decimal]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ae93835-3754-4b82-8f92-3e2660e8fb68)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0ed3981-e0a5-47cb-b2be-02afd9a7b438)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/373017cb-6019-445c-8744-522871a4d472)
+
+> When we got the **frame no**, we will attach the **byte no** at the end of the **frame no**, we will get the **physical address** where the **content** the kept.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5f726799-6728-4d71-b0f2-998a525f97c1)
+
+> The **logical address** we got, divided it into two parts, the first part was the **page no** and the second part was the **byte no**. We took the **page no** and went to the **page table** and did searching of the **page no** on the **page table** and got **frame no**, on which **frame** the **page** is kept.
+
+> We appended the **frame no** with the **byte no**, so we got **00011** which is the **physical addres** where the **content** we want is kept.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85e5a9c1-e2c6-4e87-b3a7-90f1267c9399)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e858bac3-47d2-494f-96db-f748134c2935)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c4d440b-118b-428f-9d13-d877c7f5b2cf)
+
+> If we have **page no =0** then we don't have to **leave** any entries. We will get **page no =0** at the top only.
+
+> If we have **page no =1**, then we have to **leave '1' entry** then we will get **page no =1** entry.
+
+> If we have **page no =2**, then we have to **leave '2' entries** then we will get **page no =2** entry.
+
+> If we have **page no =p**, then we have to **leave 'p' entries** then we will get **page no =p** entry.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ca986c1-8574-4e33-8cea-88ad20ba072e)
+
+* We have mentioned that only, we have to **leave 'p' entries**, so that we can get the **page no =p** entry.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7283ec45-390a-4585-b74d-afbc2b05e46b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/78c67b12-c781-47c7-8ea7-5343df4b7d69)
+
+* This is a **diagram** of a process called as **logical to physical address** translation.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/357bb287-6c67-46d3-a4b3-559c3ebe40b0)
+
+* The cpu can only see the **list**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f5f2a96-e879-47f9-bacb-1d464c2c3541)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/11cbd40f-86cb-40bd-8d28-725dca076067)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e900047c-393e-4cdc-8c65-c88a22c622e5)
+
+* Yup, but in general it is in **powers of 2**.
+
+* if **page size = 4bytes** then how many **bits** for **byte no** size?
+
+> **4 -> 2 ^ 2**, so **2** bits.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/96b7af06-0e95-4752-9d52-a909816ff126)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/79123601-9f90-4513-9f06-6980376a3339)
+
+> We could have found the **byte no** size from **process size** as well. As **process size** is **64 bytes -> 2 ^ 6 bits**, which means **logical address** is **6 bits**. We would that **page size** is **4 bits**, so the **byte no** in **bits** will be **6 - 4 = 2** bits.
+
+> From the **page size** we can find the **byte no** size. As **page size** is **4 bytes -> (2 ^ 2) bites -> 2 bits**. So, the **byte no** size is **2 bits**. We already know the **logical address** size is **6 bits**, so the **page size** is **6 - 2 = 4 bits**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/587670b4-9a3f-463e-8d4f-9e668203d863)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c6de6d88-1941-41d8-b535-a6585d04837c)
+
+* Directly find out the **logical address** and create the **logical address** diagram and find the **byte no and page size**. From there we can find anything.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d7efaab6-283e-4a90-b888-0c00f43dcaaa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/627e0c9d-e00d-41a4-bcb9-c1ff01f00bb5)
+
+* Will see later. Next step.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05c4c558-9500-4529-9b0f-cc54157c6484)
+
+* Page size == Frame size
+* Same thing.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/00905d78-ef65-4d75-b65c-5f070907e163)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d52302f-120c-4a84-afa6-69d99679e5c6)
+
+### Questions
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72ab12da-73e8-40ba-8309-cf7d88fd5a4f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7893b4f5-59e6-4f1d-b43e-c4909503b8a4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d43029fb-9f0f-4d3d-b2d5-2110c3a404a8)
+
+* What is **stored** in Page table entry?
+
+> **Frame no**.
+
+* In the above question, we got **no. of bits** for **frame** is **23 bits**. 
+* Page table entry is **4 bytes**. So it is **8 * 4 -> 32 bits**.
+* Each Page table entry is **32 bits** but the **frame no** is **23 bits**.
+* What's in the **remaining** 9-bits?
+
+> Some **extra bits** are kept in these **9-bits**.
+
+> Extra bits needed for **each page**.
+
+* In the **page table entry of 4bytes**, how much **extra bits** are kept?
+
+> **9-bits**.
+
+* How did the **9-bits** come?
+
+> It is **mandatory**. In every **page table entry**, there should be **frame nos** but some **extra bits** should be kept.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aab4c981-b4a8-4ef8-a55b-b12a6f5f680c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fef637c7-ba77-4395-939f-0f1be06c7694)
+
+* Will see later.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/11a2b33c-3a46-48d2-a746-e4dd88d07dba)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4710b04c-e49a-4bec-8ab7-ff76cc3c1048)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2dbf224b-9125-45e8-9fc6-0da2135eb8a2)
+
+* If in the above given question, **page table entry size = 4B** was not given then how would we find the **page table size**?
+
+> We would assume that in **page table entry size** there is **frame no** which is a **gurantee**. So for calculating **page table size** we would have done **no. of pages = (2 ^ 18)** and the **page table entry size = 20 bits**
+
+* **Page table entry size** -> **no. of pages** * **page table entry size** -> **(2 ^ 18)** * **20 bits**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/869a9496-18e6-414e-bd14-38e49144390e)
+
+* Each **page table** entry contains **frame nos. and extra bits**.
+* If  **extra bits** are **not mentioned** in the question then take **extra bits=0** and solve the question. So, the **min Page table entry size** equals to **frame nos**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a7da7ca8-75cd-48a5-a4c5-a4414954d1eb)
+
+* Yes 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/507cbdca-b1bc-4f80-81d3-4c6a84ef4795)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5487b43-a87f-4695-a041-2f944a5fe5ff)
+
+* Process size -> Logical address space
+* Memory size -> Physical address space.
+
+* DPPs given.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf098bdd-dfdf-44b4-8000-296467931289)
+
+### COA Doubt
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b77a070b-ee92-487f-95d8-c76ce02da157)
+
+## Paging-performance-tlb (23) [5th June 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef83f4ee-08a0-46ac-adcc-27b91ee9b416)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76de4b96-4ce9-4fe8-ad3c-d58895d7ea39)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ee8ea9c-a9b0-40ed-94d1-9437793bcd3e)
+
+* Ofcourse.
+
+### Recall last class
+
+* Cpu generates **logical address**.
+* 'p' -> Page no
+* 'd' -> Offset or Byte no.
+
+* One process is running on the cpu and the cpu knows where all the pages of the process are stored in main memory?
+
+> **NO**.
+
+* CPU can see that there is a **process** which has **many pages** and the **logical addresses**.
+* CPU can see the **process** and it's **pages** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/536d447c-75dd-4877-ba91-39478eec3af0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2553bc34-71be-4bec-ba9d-4ba5ed691727)
+
+* CPU will see the **process's pages** and the **process** only. Where the **process's pages** are actually **stored**, it is not visible to the cpu.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a081b99b-fd86-4065-a93b-85b2fc449f30)
+
+* **Page table entry(PTE)** should at a **min** have the **frame nos**. **Extra bits** are possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b2d96678-402a-4ac6-80fc-d1f1d7ac2c97)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c24fb007-60ed-4d23-bf95-f189f4642da2)
+
+* **Page table size** -> **No. of pages in process** * **'1' entry size**.
+* **Page table size** -> **No. of entries in process** * **'1' entry size**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aba9ed37-51d6-48cb-90bf-4981f987674d)
+
+## Where is the **page table** stored?
+
+* **Page table** is stored in **main memory**.
+
+> If a process p1 is running on the cpu then how will p1 process know that **where** it's **page table** is stored in the **main memory**.
+
+> The **starting address** of the **page table** is stored in a **register**, the register is called as **PTBR(Page Table Based Register**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8f1f46c-76d4-40eb-a551-ea187f0664a9)
+
+* **PTBR(Page Table Based Register** is a **special purpose** register which stays in the cpu. Whichever process comes to the cpu for running, that **process's page table's base address or starting address** is **stored** in the **PTBR** register.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6d97ef2-14c1-4d53-85d9-1d88dc265b11)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f939ac38-3488-467d-919f-f30fe633a021)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72099257-d42e-4335-88a1-273f39784f31)
+
+* Inside CPU.
+
+* PTBR stores the **starting address** of page table of the current running process.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/753572b1-d3ea-4312-8382-a609c93e9532)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e2175b6-d8a6-4cbc-bfa9-4ad94ffbb519)
+
+* To implement **paging**, **hardware support** is required?
+
+> **Yes, True**. If inside the cpu there is no **PTBR reqister** then we couldn't implement **paging**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5826f1d1-d9fc-4525-afe9-d50d7a06f8cc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5965e707-37ca-40b7-a8b1-db7cd6cb147f)
+
+> **1 cpu time** is spent in **accessing** the **page table** for **address translation** to get the **physical address**. So, that the **content** we are **searching/finding**, we will get to know where the **content** is **actually stored** in the main memory.
+
+> **Another cpu time** is spent in **accessing** the **content** that we wanted actually.
+
+* We are accessing the main memory **2 times**. Once for **page table** and another time is for **content**.
+
+## Performance of paging
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/61ce851e-edaa-491d-a6fd-e6fb712216d5)
+
+* Effective memory access time(EMAT) -> 2 * tmm.
+* 'tmm' -> main memory access time.
+* **2 * tmm** because **one** is for **page table** and **one** is for **actual content**.
+
+ ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a67b38d5-ceb9-41d6-ac27-0fff597a5092)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f3824d1-2c99-482b-8a8c-79ae012a2f94)
+
+* When we try to access the main memory then we have to access the main memory **twice**.
+
+> Let's say a **very small process** has come. It has **only '2' pages**. So, it's **page table** has **two** entries.
+
+* If the **page table** is **very very small** then there is provision in the computer system that instead of keeping the **page table** in **main memory**, we can keep it in the **general purpose registers(GPR)** of the cpu. It is possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa61751f-2134-430a-8563-69b564485b13)
+
+* Effective memory access time(EMAT) -> Treg + tmm.
+* 'Treg' -> Time to access the cpu register or register access time.
+* 'Treg' because the **page table** is in the **register**.
+* 'tmm' is for **content**.
+* 'Treg' is **very-very small time**, almost **negligible** compared to the **tmm** or memory access time. We can **ignore it**.
+
+* Effective memory access time(EMAT) -> tmm.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9c744af9-6e17-4241-9d83-a3a4fc07a283)
+
+> Everytime the **page table** will not be **small**. Ofcourse not all processes are small. If processes are big then the **page table** is **bigger**. Then the **page table** cannot be stored fully in the **cpu registers**. Then how we will **save time**?
+
+* To save the time, there is a **hardware** it is called as **TLB(Translation lookaside buffer)**.
+
+## TLB(Translation lookaside buffer)
+
+* Why we use TLB(Translation lookaside buffer)?
+
+> It is used because in the **page table**, some entries are **recently used and frequency used**, those **entries** are kept in the **TLB(Translation lookaside buffer)**.
+
+> **Page table** has **thousands** of entries, we cannot keep all of them. We use a **separate hardware** called as **TLB**, where we store the  **page table**, some entries(page table entry) that are **most frequent**.
+
+> In **cache memory**, any and all content of **main memory** can be brought to **cache memory**.
+
+> Not all content of **main memory** can enter the **TLB**. **Main memory's page table content** can only come into the **TLB**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e77be73-11c7-43fc-8008-54b826459399)
+
+> We are only bringing the **page table entry** and not the **pages**. **Pages** are still in **main memory**. Process's content is still in **main memory**.
+
+> We are only bringing the **page table entries** into **TLB**.
+
+* The **advantage** is that when we wanted to access the **page table**, we went to the **main memory** but now we don't have to go.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/23dff760-d9f3-48a1-adb8-cc9ce0d02b61)
+
+* It is a **memory hardware** which is used to store a few page table entries.
+* Use of **TLB** improves the **performance of paging** interms of **EMAT**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d81eb51-da50-435b-888b-58afa3b6742b)
+
+* **YES** but it will be very less like 10-15% but 85-90% of the time, it will be in **TLB**.
+ 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1b2192c-cc5d-473f-b6fe-33f50af42502)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf9ef60f-b6f0-4e46-8f20-9cbe162fe18a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b791b7d8-60d1-403e-af5b-d775d7d6e9da)
+
+* TLB Hit -> The entry is in **TLB**.
+* **TLB access time** is **very very less** than **memory access time**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c10d0fd1-f775-49be-8370-c0fe5fcb7172)
+
+* Whole page table entry is there just for simplicity we have put **frame** in the **above diagram**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33ee96d1-416d-4e8d-9ea5-c05187d58160)
+
+* **TLB Hit** -> **1 TLB access** + **1 memory access**.
+* **TLB miss** -> **1 TLB access** + **2 memory access(1 for page table + 1 for content)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41a1579a-8918-496e-9bf0-943ef262f2a8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c41e653-e216-4142-b922-4c578db2b1a5)
+
+* **TLB Hit** -> The required page table entry is present in TLB.
+* **TLB miss** -> The required page table entry is not present in TLB.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a11b241-f290-4356-90f2-c5ba7062819b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/49098b2e-4daf-4b58-9139-e8c0c321fc80)
+
+* TLB Hit ratio(H) -> percentage(%) of time hit occurs in TLB.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35b11c8c-2dd9-4447-b92b-6c9eb9777145)
+
+* Ofcourse
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/28cd4a0e-372a-4a5d-8938-73dff8c6e51c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83b0415f-1958-4ddf-a08c-6f39e6d6ccde)
+
+* **100%** of the time, **10ns** time is taken.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7523c9b2-59f7-4dba-bbbc-8581d558ee5f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/760bfe34-726b-4d3e-83ae-4651ca323016)
+
+* Mathematics. Just shown to tell how the formula came.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/046cfa7d-a37b-46d5-bedc-c9d4bd130022)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee7b4214-86ee-40b3-9f65-1ddd3e54d078)
+
+[**IMPORTANT**]
+
+* If **TLB** used then,
+* **EMAT** -> H * (Ttlb + Tmm) + ((1 - H) * (Ttlb + 2 * (Tmm)))
+* **(1 - H** -> TLB **Miss ration/percentage**
+* **H** -> TLB Hit ratio
+* **EMAT** -> Ttlb + Tmm + (1 - H) * Tmm.
+
+> If **content switch** happens then a **new process** comes to run on the cpu. **YES**. The **TLB entries** will be of the **old/previous process**. So when the **new process** comes then the **TLB entries** will not be **accessible** to the **new process**.
+
+> So when the **content switch** happens then a **new process** comes then the **exisiting extries** of the **TLB** are made **invalid**. Remove them.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/13e5d03e-8b61-4029-b2f2-10675f90a1d0)
+
+* Yes. have a good understanding of it.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9be8aa7-4bdb-461d-93ae-a88b5e4b6d93)
+
+* When **context switch** happens all entries of **TLB** are made **invalid**.
+
+* In **TLB**, at a given time we can keep the entries of one process only?
+
+> **Yes**, one process only. That is the **basic case**.
+
+* PTE -> Page Table Entry.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f9528847-ef2d-4800-80ed-b6223eb517bb)
+
+* If multiple processes' page table entires are to be kept into **TLB** then along with page table entries **process ID** is also **stored**.
+
+> In this **case**, for **context switch**, we will not remove the **page table entries**. If a new process comes, then the **page table entries** of the **new process** will be kept here only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1c5b9af-28ab-48fd-a037-77aae389d506)
+
+* Multiple processes' page table entries can be kept.
+* It is a very high level concept/design.
+* Out of **GATE** syllabus.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32c5d624-9169-42ac-b06e-355c900a7ff0)
+
+* Different concept.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ea5c1fa-6227-4bbd-adc7-2e633cf4ab79)
+
+* Performance **increased** when we used **TLB**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/14823cbd-3bb9-4228-a8d1-ce32d37bf45b)
+
+* No.
+
+## How TLB stores entries?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ca7e96d-ffe7-4d96-8377-698659d121e4)
+
+* We have **mapping** here. **Mapping** of **TLB**.
+
+## TLB Mapping
+
+1) Fully Associative
+2) Direct Associative
+3) Set-Associative.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/112a3a37-dc0f-4ec5-b230-97502846f0a6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e540079-c561-40d8-b2de-9476473b3c13)
+
+* Which page table entry is bought to where on TLB.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2206021f-dbd4-4a0f-a82f-c9552ebfbebe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff310243-374c-4476-9e9a-040ff0b03acb)
+
+## Fully Associative Mapping:-
+
+> **TLB** has **parallel searching** power and we can put anywhere the **page table entry** of **TLB**.
+
+* **P** -> **Page no**.
+* **f** -> **Frame no**.
+
+> All **pages** and their **entries** are in the **front**. **Page no and frame no** will be there.
+
+> When cpu will generate **page no** in their **logical address**, then that **page no** we will **find/search** in the **memory** of the **TLB**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7430d7c0-1ab7-4ec5-b0aa-23ef4cbdde4f)
+
+> The **page no** is **searched** in every cell of the **memory** but the **search** is done **parallely** because the **TLB** is made of a specific hardware which is called as **associative memory**.
+
+* **Associative memory** -> Content addressable memory.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d67cf964-da24-4404-9433-f67ba91d7b9b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a928b444-1653-45c5-aaa8-cb563b5e37a7)
+
+* **Searching** in **TLB** is done with **page no** and **TLB** is implemented with **content addressable memory**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a4502b50-85c6-46df-bb44-8fe48f655eef)
+
+* DPPs given.
+
+## Doubt clearing session questions on paging(24) [5th June 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35e08590-1d86-4b9c-ab0e-486579632dc2)
+
+* No, **OS** decision. Not the decision of architecture nor the organization.
+* Before **processes** are created, the **computer design** is done.
+
+## DPP discussion
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/01a2143c-95ae-4120-b32d-034332c91997)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33a5cec2-d2e8-45e5-8d61-080960e6c7f3)
+
+* Why the **worst fit** is needed?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c4492ce7-6625-4ea4-9bdb-84fa94811ea5)
+
+* We have **two** holes of size **500MB and 150MB**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8502102b-043b-42d2-8023-a79f5cf60769)
+
+* P1 process of size **120MB** comes then if we put it in the **150MB** hole then only **30MB** hole is **left** which is pretty useless as that much smaller size processes don't come. So that **30MB** hole is a **waste**. This is the **best fit** in **variable partition**. But if we put the **120MB** in the **500MB** hole then a **380MB** hole is **left** which can be used to store more processes. This is the **worst fit** in **variable partition**.
+
+> So the **worst fit** is useful in case of **variable partition**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85b5e50c-4aed-4da3-a76c-c810eb9679d6)
+
+* Fixed partition -> Best fit performs **best**.
+* Variable partition -> Worst fit performs well.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a35a47b-d08e-40c3-a967-680433ab2c5a)
+
+* Any space left in the **un-used** cannot be used. It is a **waste**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3ce0942-0f40-4d07-a1e0-a8a3cc3b831b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/903dd085-ef53-4007-bc93-9bcebbc344e7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3e5fcda-5bdf-43b7-8b09-92ed0954535a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b3a248dd-3ec0-4bbf-ba06-a9169c20b02a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1747e83b-d546-4563-9376-fcaf374c3828)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65662b9e-2c94-4cd3-b4f9-ac8c87d0f33f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d55b454b-2aa1-466b-8de5-653cf7d4d0fe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/20b56ea5-fa01-41b7-ab12-e1802e375f6d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd9ee306-f671-418b-9ff4-d32c02ad15db)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0888e99f-a272-4556-ab7b-ab5f06dfd623)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a47ecd90-a301-4f0f-adab-1fb2a97f80b1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/837f0f2b-2a62-4caa-91a2-cb2282ba86c0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/817c630d-5170-4695-b237-8fa3a70a9cbc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f0c89ee-9a6b-4a25-ae6e-16317b10b304)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7668d6e3-7139-40a4-8822-1cc68d8eafbf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d058e487-bc39-432b-a134-e81359e4bfd5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f86ebff0-88f5-444f-a5fa-3c5576f1adef)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/002dd65e-8c54-4920-8741-8b2e916bd360)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/579e5458-cde6-4a28-81a5-9d921f1d43f1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ff4f269-5820-4ece-878c-c7cbfd2a0863)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b3bd6c66-8972-45af-9ff7-9a1b41f34b3e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1bb8fde9-d40b-4b15-8665-440a063d3303)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/efae878b-696a-4d67-9427-0d35923885b4)
+
+### Doubts
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44b72d7a-937a-4c83-8afd-eb9e21062147)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/18b1402b-1a5c-45af-9e75-ad762d500ab0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/61fd5606-7872-4024-8672-57e5e6db8130)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ebeb7177-be5e-4b8f-80d7-52672afa95b1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6447129f-c1fd-47ce-a925-66015fdd870d)
+
+* Exit() -> Exits from the current program.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba518451-a8fe-463b-8a64-793e02edc9ab)
+
+* Do we need **OS** for the **exit()**?
+
+> **NO**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7badb01-8ef8-48be-a5f5-b6df5b1b70d5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ef13bd1-ef31-403c-8a4e-69babc11f544)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8cc9eff0-8a31-4b00-a0a8-6a6d2e8758ed)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9758cb04-8f10-44c6-9f27-c0c8a5495160)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/745fd7b4-2001-43fd-9099-9b26dff9bfdf)
+
+* This is **wrong**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/026dda1d-55a4-4cad-af6b-2fd49036bcaf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f0ba0b5-6003-41cf-a119-59212d9f9325)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92877dce-1942-4734-9260-80f4c5f1abfe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aab95aac-c7d8-447c-9929-fe306a66bec6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f164092-01c6-47df-a469-41b9b1a031de)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d537211-79f9-4f98-9eef-f048be1d734f)
+
+#### COA Doubt
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dbdc2f56-3e07-430f-81c0-1195ba0474ea)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e2938cf-9027-41af-b9fb-e92a9f736abd)
+
+
+## Tlb access and mapping(25) [5th June 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/584bdc9a-9939-423e-8bb7-b7d61428de49)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ee99e6a-397e-4946-a12b-7b222f8967d0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5ff1606-bb99-4f74-8d4a-8ad1ddf5eb56)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6e0e2403-2251-4a62-817a-d46e3fa2a089)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c429a288-0651-4162-b65c-0a57014241c2)
+
+* Yes
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d8ada67-e13c-4767-89b3-1c224385e469)
+
+> **Only in increasing** or **only in decreasing** order because **circular wait** will never happen. Then, **YES,
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33373eaf-6bf4-4399-b1c2-49711f2a87aa)
+
+* No. Not in **syllabus** now.
+
+## TLB Mapping: Direct
+
+> If we bring the **page table entry of '0'** into the **TLB** then we will keep it as the **'00'** of **TLB**.
+
+> If we bring the **page table entry of '1'** into the **TLB** then we will keep it as the **'01'** of **TLB**.
+
+> If we bring the **page table entry of '2'** into the **TLB** then we will keep it as the **'10'** of **TLB**.
+
+> If we bring the **page table entry of '3'** into the **TLB** then we will keep it as the **'11'** of **TLB**.
+
+> If we bring the **page table entry of '4'** into the **TLB** then we will keep it as the **'00'** of **TLB**.
+
+> If we bring the **page table entry of '5'** into the **TLB** then we will keep it as the **'01'** of **TLB**.
+
+> If we bring the **page table entry of '6'** into the **TLB** then we will keep it as the **'10'** of **TLB**.
+
+> If we bring the **page table entry of '7'** into the **TLB** then we will keep it as the **'11'** of **TLB**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27d2ba5a-26e9-4703-93f2-1cddf9719cae)
+
+* The **decision** is according to **direct** mapping.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/70d34731-46a2-4c8b-8e8e-69ce5cbf7290)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e4e414ba-5c47-466c-8bb7-948c54398586)
+
+> When the cpu generates the **logical address**, the **page no = 001**. For **page no=01 or page no '1'** entry we went to the **TLB** table and the **01** entry according to **mapping**.
+
+* How we will know at the **01** entry that it is the entry of **1 or 5**?
+
+> We will not know. For that we need **extra tag**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c3e98978-c8eb-4e82-85e2-b44e1c2834e5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b237abc1-977a-4a6f-a572-a6083ed68fb6)
+
+> The **tag** is used to **identify** whether the entry is of **1** or the entry is of **5**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/636eb905-83b8-4473-890c-187b185d231f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b53d4f2-d94b-46cf-827a-11a43f2e89de)
+
+* The **tag** which will come, how will that tag be **identified**?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b483b6f5-de65-4f8b-9af8-1b1043dd4cf2)
+
+> On **00** in the **TLB**, we can store the **0 and 4** numbers from the page table.
+
+* 0 -> 000
+* 4 -> 100
+* **00** are common between **0 and 4**, so the **left most bit** are used to identify if the **number** is **1 or 4**. The **left most bit** is the **tag bit**.
+
+> So when the cpu generated **000**, **00** from the right, represented the **0th position** on the **TLB** and the **left most bit** is **0** which means it is the **0** number from page table.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc192ca2-30ff-48bd-903b-c880a8590957)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e60432b-c428-48c8-bcca-64102c240c4e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f2980b3-8814-4825-85f9-128eb5911f59)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/003a405b-62b0-43e4-94b9-36054a2ead60)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/200f603b-73f9-41d6-ab3b-d5e4d1ea309d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/03804a42-446d-4b23-83b9-288ecdc1fb46)
+
+* How many **entries** we can keep in the **TLB**?
+
+1) Would be directly given in the question.
+2) Have to find it, check the below question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a6ae185d-e8ef-4e23-bd1a-d25f3ef365e8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6e6a786-2e88-42f0-a0aa-137221c055be)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/293acf65-6f69-43d6-a025-582e769fdaf8)
+
+* Tag is not stored inside the **TLB**, the **TLB** chip which is a **hardware** beside it the **tag** is stored. Separate memory is required to **store** the tag which is not included with the size of **TLB**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7716cc3c-7f83-4fdc-b517-ca075f303d43)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bcf04cea-59c0-4124-8045-ad9db3099e4a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/67ed4930-7e3d-4e71-9701-1e50defee358)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/79bca2f0-12b0-40a6-80fb-4a852e750a6c)
+
+* No necessarily, it is coincidently **same** in the question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5213747e-0c30-4938-ad0b-01254361edb2)
+
+* Virtual Address = Logical Address.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae7ff5e3-69dc-4295-b2a9-80e0d6647c2c)
+
+## TLB Mapping: Set Associative 
+
+* Each **set** has **2 entries** in **2-way set associative mapping**.
+* Each **set** has **4 entries** in **4-way set associative mapping**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e2ba4f2b-d0f3-4f48-8488-55c6e1546fb3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71b4e70e-d993-4a35-a67a-b4cb7bccb89b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9549be54-863b-4e9c-8bb0-da4447703d1d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/961aa8cd-ad78-41ed-9381-c97e191a791c)
+
+* No. of sets in **TLB** = (**No. of entries**) / (**Set associativity**).
+
+* **Set associativity** -> Is it **2-way, 4-way or 8-way**. It will always be in the **power of '2'**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6284a7f1-5ac4-4ff3-bec3-a5beb900ad84)
+
+* Division of **p** will happen only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cef3d586-b592-48f3-b17c-70284c96898a)
+
+* There was no use of the **2-way set associative TLB** here as the **no. of sets** was already given.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/044aeca2-31f2-4ac7-8068-fce34767cd62)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/598226f9-bd3e-4b46-9bef-a1a13bd74f95)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1a5c6e4-67a8-4958-a140-61a4b9055239)
+
+## Paging
+
+* Paging suffers from **internal fragmentation**.
+
+> When we try to keep the **Page 2** in the main memory, then we will keep the **2KB size page 2** in a **4KB size frame** in the main memory.
+
+> The whole frame will be given to the **2KB size page 2**. The **page 2** is of **2KB** but it is getting a **frame** of **4KB**. We are giving the **whole** frame because the **page and frame** size is **fixed** and a  **whole** frame should be given to **page 2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/17926784-c344-4200-b05a-256b1c39d1ad)
+
+* So, **2KB** of extra space is allocated to **page 2**. Which is **internal fragmentation**. We should have given **2KB** size frame to **page 2** but **extra space** was given due to **memory management technique**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d802f2c9-8803-4f5e-a363-91f73f40758a)
+
+* Extra space allocated -> **Internal fragmentation**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5535fc79-a55a-4f05-8a93-c7875cbaf3f5)
+
+* Good point, **internal fragmentation** will be **reduced**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/10a5684a-993d-415a-b8f0-8c2ac373f0e4)
+
+* To reduce **internal fragmentation**, we will reduce the **page size**.
+* Due to this, the **no. of pages** will **increase**.
+* **No. of pages increase** will lead to **more entries** in the **page table**.
+* **More entries** in the **page table** will lead to **other problems**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd8b1ba4-6e50-48b8-ab15-23daf106b4e4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a4b26f74-597f-423f-9515-86174d98aa94)
+
+* Yes.
+
+* If , **TLB or Cache** are **used**, then **Average memory access time(Tavg) or EMAT** will be what?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37b859d1-a111-4c94-bc3f-6e4f264e97e7)
+
+* Cache -> Physicall addressed.
+* It means that for **searching** in **cache** we need **physical address or main memory address** required. Until we find the **main memory address**, we cannot **access** the **cache**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ada2bfdb-a5c3-4aac-ab77-0d9f0b199cb2)
+
+* Cache memory is accessed only using main memory address.
+* It means that we cannot use **logical address** to do **searching** in the **cache memory**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58af0df3-68a0-4a58-8eb0-a0eb41072584)
+
+* We can't search cache with logical address.
+* When we are combining **TLB and cache**, we can see that cpu is not directly generating **physical address**. 
+* CPU is not directly generating **main memory address or physical address**. CPU is generating **logical address**.
+* If cpu is generating **logical address** first then to do **searching** in **cache memory**, we need **physical address**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ef057cf-3501-42da-adf1-f244bb0059dc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/548f8758-a216-4d60-8b4d-d0d7cebe355d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c9967ed-84ae-4db3-87c1-9db0b6c94ae7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7f23d28-aedf-4ad4-bcf3-3f20558de44f)
+
+* CPU generates -> Logical Address -> Translation -> Physical Address -> Cache Search.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/45114e87-d972-4162-8bb6-0b4af34795ab)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/303483cb-3965-41dc-b8ad-9b690a556538)
+
+* Can we **directly** access the **cache memory** when the cpu has gone for **memory access**?
+
+> **NO**.
+
+* What do we need for **translation**?
+
+> We need **Page Table Entry** and the **Page Table Entry** is kept in **Page Table**. Page Table -> Page Table Entry.
+
+* If we use **TLB** then **TLB** is accessed first or **Page Table** is accessed from **main memory**?
+
+> **TLB** is accessed first.
+
+* First **translation** will happen and then for **translation**, **TLB** is accessed. 
+
+* Between **TLB and cache**, who is **accessed** first?
+
+> **TLB** because **translation** is needed **first**. After **translation** is done, then we will access **cache memory** for accessing the **content**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8110fdb6-244d-417e-a2a5-52c7b141f4cf)
+
+* **Cache memory** will not store **page table entries**.
+
+* Why **Cache memory** will not store **page table entries**?
+
+> Because the **page table entries** are in **page table**. **Page table** is in **main memory**. Until we access the **page table entries** from the **page table or TLB** to get the **physical address**, we cannot **search** in the **cache memory**.
+
+> Because if we keep the **page table entries** in **cache** then we cannot use the **logical address** to search the **cache memory**. We cannot do it then.
+
+> We use the **logical address** to **search** the **page table**.
+
+> **Page table entries** are stored in **page table**.
+
+> We can **search** in **cache memory** using **physical address** only.
+
+> We cannot **search** in **cache memory** using **logical address**.
+
+* Hence, we cannot keep the **page table entries** in **cache memory**, as we cannot **search** in **cache memory** using **logical address**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aca84dd9-8669-4684-a2f6-d58d5adc4631)
+
+> CPU generates **logical address**. Using **logical address** we will **search** in **TLB**. It is **not necessary** that we will get a **hit** in **TLB**. There is **two** possibilities, we will either get a **hit in TLB** or a **miss in TLB**.
+
+> If we get a **hit in TLB** then we will get the **frame no**. So we got the **physical address(PA)**. Now, from the **physical address(PA)**, we want the **content**. The **content** can be in **cache memory or in main memory**. To **save time**, we will check in **cache memory**.
+
+> We will take the **physical address(PA)** and **search** in **cache memory**. There is **two** possibilities, we will either get a **hit in cache** or a **miss in cache**.
+
+> If it is a **hit in cache**, then we will get **access to the content from cache**. CPU will read the **content** from the **cache** and we have found the **content**. **Finished**.
+
+> If it is a **miss in cache**, then we already have the **physical address(PA)**, then **access the content** from **main memory**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34bec58d-e5f4-4740-8161-10e3f40b257f)
+
+> If it was a **miss in TLB**, then we will **search** the **page table** in **main memory**. From there we will get the **physical address(PA)**. With the **physical address(PA)**, we will do the **same thing** as above. We will **search** in **cache memory**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58281c1a-3c70-4ba3-b9d6-1fa01e809753)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c847fa8-00c5-4231-b822-de9bf50791f3)
+
+* Hit -> Access content from Cache
+* Miss -> Access Content from main memory
+
+> Just written this if not **clearly visible** from the **image**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3abba882-bde3-4952-a874-831eed627c78)
+
+* Htlb -> Hit in TLB
+* Ttlb -> Search or access Time in TLB
+* Hcache -> Hit in cache
+* Tcm -> access Time in cache
+* (1 - Hcache) -> Miss in cache
+* Tmm -> Access time in main memory
+* (1 - Htlb) -> Miss in TLB
+ 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12cbade5-5a11-4de3-90a2-0c7d9341fe33)
+
+* EMAT =  (Htlb * ((Ttlb + (Hcache * Tcm)) + ((1 - Hcache) * (Tcm + Tmm)))) + ((1 - Htlb) * (Ttlb + Tmm + (Hcache * Tcm) + (1 - Hcache) * (Tcm + Tmm)))
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a8a104f-2f8c-4e94-a36b-30cc6778d303)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/75b02f22-c874-43dc-9056-c77dac8bdcd0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c284c0ad-b980-43aa-b4fe-a520ae8e64d1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ecc3848-5ba5-4559-af65-563345f1d021)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a873324f-18ad-43e3-8f68-6e591bf98c26)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/74ac42a7-be39-4f53-b382-2f7eaa120812)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/809b63da-7629-4433-9b0a-78b685845d89)
+
+## Segmentation
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f73a663-9fb9-4bb0-b2cf-b8cc96ae3ff2)
+
+* Segments -> Variable size process partitions.
+
+* If we are making **Variable size process partitions** then can we make **same/any** sized partition in main memory?
+
+> **NO**.
+
+* **No division** in **main memory**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e4de6615-0632-4372-ab7c-221451b98425)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35b71fa2-c423-431a-8ef0-e0bc579d4838)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65c879d3-33b5-4a3a-8a69-5bab2c63e29d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7ac1cd0-d1f2-4a57-a0f4-8deb699c3aae)
+
+* **4** segments of **different sizes** are **created**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/efca02be-10c5-4581-b038-b2d33f88a754)
+
+> The starting address which is the **actual address** of **main memory** is kept in the **segment table**.
+
+* The address of **main memory** is kept in the **segment table** as we don't have **frames**. The **actual address** of **main memory** is kept in the **segment table**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d390dc8b-b88a-4ebf-a1d0-1b021d5d4d70)
+
+> The addresses are the **base address** of the **segments** in main memory.
+
+> In the **segment table**, we have to write the **base address** of all the **segments** in main memory.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e7e3325-3994-45d8-95d8-781cca83b3db)
+
+* Yes, no **internal fragmentation** in this.
+* **Segmentation** will have **external fragmentation**
+
+* In **paging**, the size of all **pages** are fixed?
+
+> **YES**, the size of all **pages** are fixed.
+
+* In **segmentation**, the size of **each segment** is **not fixed**.
+
+* * In **paging**, one page size is **16Byte**. All **pages** will be of size **16Byte**. In the **byte no(d)**, **4 bites** should come as **16 = 2 ^ 4= 4 bits**.
+
+* If **16Byte** is in a **page no** then the byte numbering will be from **0 to 15**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36f992c0-7aad-4e8c-b3f0-e3d0e61f1dca)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/787215f9-6d85-4ce4-8269-a47d0b002aeb)
+
+* If **d = 0101**, then someone is trying to **access** the **5 byte** within the **page**. 
+
+* There is a **problem** in **segmentation**.
+
+> CPU generated an address where **d=10** which means it wants the **byte no =10**. The **byte no =10** is not present in **every segement**. The **byte no =10** is present in **segment 0, 1 and 3** but **byte no =10** is not present in **segment 2** as it has only **5 bytes**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/84d2ccc5-ff99-4f3c-a321-67077d58d3dd)
+
+> If a **byte** present in **one segment** could be **not present** in **another segment**. The **segment** is **smaller**.
+
+> By mistake, the cpu has generated one address where the **value of 'd'** is **bigger** than the **segment size**. The **offset size(d)** is **bigger** than the **segment size**, then that **byte no** will not come in the **segment**.
+
+* So, we have to keep **another information** in the **segment table**. Apart from the **base address** we have to keep the **limit** information.
+* **Limit** means tell the **size** of each and every **segment**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6e1ada3-4b2b-46ae-9b03-89f022711c60)
+
+* **Segment '0'** size is **200 bytes**. If for **Segment '0'**, **byte no(d)** is generated then the **byte no(d)** can be between **0 and 199** and **not more than that** is allowed. If **more than 199** comes then we will **deny** and say that much **byte no** we don't have in the **segment only**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a6296fa-3b9f-4145-bf2a-17f85871b014)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0fc3bb52-4bf5-4f52-a161-265de3613eda)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5865ee82-55af-40d5-b1a6-9eb1cfc56c5f)
+
+* We keep **two information** in the **segment table**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec9e0bbc-96d2-44fe-854a-900fc413abf7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec36829a-fcd2-4b99-b4c9-0ae7053049b7)
+
+* **Segment 0** is at **1100 address** in the main memory.
+
+* How **much/many** bytes in **Segment 0**?
+
+> **200Bytes**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f832ac5-6336-4b73-8a3b-44326e78d2a6)
+
+* There is a **condition applied** here that **d** should be **less or lesser than 200**, **d < 200**. As for **200 bytes** the range is from **0 to 199** bytes, so **no equal to**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5c32b839-dd85-4e98-89db-fe6e611a2994)
+
+> In the **same way** as in **paging**, the **logical address** is generated which is **divided** into two parts('p' and 'd'). In **segmentation**, it is **divided** into **two parts('S' and 'd')**.
+
+* S -> Segment No.
+* d -> offset or byte no. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a7f35edb-ae84-4d4e-bde4-e4a5bc42fe17)
+
+* **Segment no and offset** found in the **logical addres**. **Segment no** is used to do **searching** in the **segment table**. From the **segment table** we will get the **physical address(PA)**.
+
+> For getting the **physical address(PA)**, we are **adding** the **offset** value to that **segment's base address**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a9598b3-7ae8-4722-a201-e9560d85bac3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98cc9060-68ed-46a3-84ca-d21c4d4d6029)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c30c4dd-ecbe-478f-a18b-a610944203d1)
+
+* yes, before **adding** and getting the **physical address(PA)**, we will **check** if the **offset(d)** value is **less than** the **limit**. If **offset(d)** value is **less than** the **limit**, then only we will get the **physical address(PA)** otherwise **no physical address(PA)**, as it is out of **limit**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc913c9f-59be-4b2d-a385-0d8ffc54241b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83fca0d4-75c3-443e-b2b2-f3c4c6d64702)
+
+* **No question** has come from **segmentation** as of now in **GATE** exam. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f519c17c-b73e-43dc-a07f-b5268660f65b)
+
+* True.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/79297c5e-1ee9-4ada-90e2-f3ea3bd1440f)
+
+* 0 -> 194 < 200 -> Yes
+* 0 -> PA -> 1100 + 194 -> 1294
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5dc211c3-a054-444f-b7b4-d33685f55e80)
+
+* Solved in the **copy**.
+
+* How is **d** created?
+
+> **No. of bits in 'd'** is found out according to the **max. segment size**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a04a66b-05c7-4c13-9e27-90c8b274f498)
+
+* The **max. segment size** is **450**. More than **450 bytes** cannot be kept in **one segment**. 
+* One limit is **decided**, where **one segment** comes and it **segment size** is decided.
+* Every segment we create, that **segment size** should be **less than 450**.
+* The **d** will be **created** according to the **max. segment size** and how many **bits** will come in **d**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3e276d8-9af7-437e-91af-a88d2495b71e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e512db7e-695e-4475-a38e-a4c317f2ec1c)
+
+* No. of bits in **offset(d)** = (Log(max. allowed segment size) base 2) bits. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4197abde-beba-475b-8576-6eb0f8fee9d3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/54f28954-b713-4d08-9f63-ad6bd310dca1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/02418bec-cb02-42ab-89e1-9cc9ee055a10)
+
+* NO.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eafa88d3-497d-4b16-b65b-bf784c464d76)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89db5e4d-abbd-400c-b0c9-9a54870d5203)
+
+* **No**, Will be a problem. Hectic task. Not possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f5deb2b-d778-4190-ab4a-75728105470f)
+
+* Segmentation suffers from **external fragmentation**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0e415e9-354a-407f-a59e-8b12e4809a8d)
+
+* Deadlock prevention is **more stronger**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/49c849c8-bb5e-4f2d-b22e-efc042c91494)
+
+* Not deadlock detection, but **prevention and avoidance meh**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d5a56c89-e970-4de5-b75c-880922a45f21)
+
+* No.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3fcd59b-f684-4f29-9a16-31dd4bbd3e56)
+
+* yes
+
+## Segmentation virtual memory (26) [7th June 2023]
+
+## Virtual Memory
+
+> It is a concept and a feature of OS. It says that if the size of the **process** is **greater than** the **main memory** size then also we can **run the process**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a0d61452-4fdc-4245-a097-2e6b5f84a5a1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f83d7597-eb0a-4f55-a5e5-629c305cbdc3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8caa57ea-4f53-4153-b4c3-bee30ed0bb01)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/132c1ff4-7f51-4b0c-9e6a-f81f3dceab40)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91958e3b-5a39-466b-8d8d-64afe46bbe7a)
+
+* No. of enteries in page table = No. of pages in process.
+* Which ever **pages** are available those **entries** are kept in the page table.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f890c7c-3f25-4613-a173-26f2de0e334b)
+
+> The virtual memory says that the OS has the power, if the process is **bigger** and all of the pages of the process cannot come into the **main memory** then keep some of the pages in the **main memory** and keep the reset of the pages in the **secondary memory**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/48f33e12-486b-4423-bdf6-8a2b122473ba)
+
+* The above **process view** is visible to the cpu.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f2a8447-542a-426a-927d-ceb1a2eb20ce)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/26bcf37b-b1cc-422f-8839-a293abe6b121)
+
+* How does a cpu demand a page?
+
+> By generating a **logical address**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1399197-97b5-498b-8119-4782221d6868)
+
+* If the page that cpu wants is in main memory then it is called as **page hit**.
+* If the page that cpu wants is not in main memory then it is called as **page fault**.
+
+* A few pages of process kept in main memory and rest is secondary memory.
+* The page which are in secondary memory are brought into main memory.
+* Page Hit -> If cpu's demanded page is **available** in main memory.
+* Page fault -> If cpu's demanded page is not **available** in main memory.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bdc79bc9-4fbc-46d8-9aa3-b2c1ac0d5404)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5906c91f-b8db-4543-ac55-f3294a337ed1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6e5cc666-6614-4443-bbd5-dd3e900f3cbd)
+
+* We are talking about, Single processor, so no **two pages** can come together.
+
+## Demand Paging
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/912c66fb-7b8e-4649-b81e-7bb354030d91)
+
+* Don't bring the **page** into main memory unless there is a **demand** for it.
+* The **demand paging** concept is the **initial pages** that are needed for the process, those **initial pages** at the time of **process creation** are brought into the main memory and the rest pages are kept in **secondary memory**. When further **page's** demand comes then bring them into main memory. 
+* Some pages are already kept in main memory. This is **demand paging**.
+* **Demand paging** -> When a process arrives, a few pages are kept in main memory and rest are brought to main memory on demand.
+* **Pure Demand paging** -> When a process arrives, all it's pages will be in **secondary memory**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fdcfa733-133f-403b-a1dc-8c42262189b4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0fc7a37-df54-413c-94f3-023b66417d67)
+
+* Initially in **pure demand paging** all **frames** are empty.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/920c4a20-b5dc-49b3-9379-5c75efbf29e8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f56e65b8-9cb1-4655-8505-d3a7c870cb60)
+
+* **Pure demand paging and demand paging** are concepts that are **before/earlier** a **process** starts.
+
+* **OS performs page fault service** -> It means that the OS will bring the **demanded page** from the **secondary memory** to **main memory**. If there is an **empty frame** in the **physical or main memory** then the **upcoming/new page** will be kept there. If there is **no empty frame** then anyone of the **page** is **replaced** and copied to **secondary memory** after that only the **new page** comes into the **main memory**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6558c6bf-5e11-46ca-87ba-b97dc5b0d6dc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c1ab71c-0c9e-4f94-86d5-4121e31c76aa)
+
+* No **empty frame** here so one of the **page** is being **replaced** by the **new page** and copied into **secondary memory**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/095ed432-3e7f-4922-8fa5-f9077f8210b7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f962d6f6-6697-4e1f-a419-e0ea69167c43)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8b3e012-5e63-4010-9e00-946a76f94a24)
+
+* **OS** is doing everything.
+* OS performs **page fault service**.
+* OS brings **faulted page** into main memory and updates **page table**.
+* If a frame is **free** then keep new page into it or else replace a page and bring new page in place of it.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/887b9a54-7a06-42da-83ef-230b0b81fe0d)
+
+* Is there an **empty thing** in computer systems?
+
+> **No**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3a6aa01-39d2-4f8d-9e0b-e305d22ff3c5)
+
+* 'x' contains some **un-predictable** or **garbadge value**.
+
+* How we will know that **page 1** is in **main memory** or is in **page fault**?
+
+> For this, in **page table**, with the **page entries** we keep an **extra bit**. The **extra bit** is called as **valid/in-valid** bit.
+
+> In **page table entry**, we have the **frame nos** and with that we are keeping an **extra bit** and **one bit** is for **valid/in-valid** bit. 
+
+* Those **page table entries** we don't have currently we will keep **0** in the **valid/in-valid** bit. 
+* Those **page table entries** we have currently we will keep **1** in the **valid/in-valid** bit.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2d57b08-e72e-4087-8b4f-d4d794144326)
+
+* **Valid/In-valid bit = 0** -> page not available in main memory.
+* **Valid/In-valid bit = 1** -> page available in main memory.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/96ed6fe0-caf6-41f5-b1e5-7f6513bfcd72)
+
+> When the cpu generates the **logical address**, we went to the page table. We found out that **page fault** happened.
+
+> When **page fault** happens then an **internal interrupt** is generated for the OS. A **system call** happends and then OS performs **page fault service**.
+
+* This **internal interrupt** in the OS is called as **system call**.
+
+> Once the **page fault service** is done, the instruction which caused **page fault** will **restart** again and this time it will find the content in **main memory** and **page hit** will happen.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81316821-6e09-475b-a73c-1a888a4d778a)
+
+* From where we are copying the content during **page fault**?
+
+> From **secondary memory** to **main memory**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/54c05b3a-dfe4-445c-b42c-1be73716ecfa)
+
+* **page fault service** -> Copy page from seconday memory(I/O devices) to main memory(RAM). 
+* It means **service of DMA** needed.
+
+* Which of the following may need **DMA**, cache miss, TLB miss, page fault, etc etc?
+
+> **Page fault** because we have to bring the **content** from **secondary memory to main memory**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae4f774b-f4c6-4cb3-bb83-308a67f76477)
+
+> If we went to do **page fault service** and it takes a **very long time**. It is called as **page fault service time**.
+
+* Time needed to service page fault -> **Page fault service time**.
+
+> Everything comes within it. If we are copying **one page** from **secondary to main memory**, **updating the page table**, **replacing pages** everthing is included within it.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3064e850-0caf-4006-b6f1-94b4f44903bd)
+
+* Yes, everything.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e98f4f7f-f224-4ed4-ac33-c7cf25f79128)
+
+> If **page fault service time** is **less** then the **performance of the system** will be fine/good. If we have an **empty frame** in the **physical memory** then there is **no problem**. 
+
+> If we have to **replace one page**, then we will have to think **twice** that do we want to **replace** the page **directly** or we want to write the **page** in the **secondary memory**.
+
+> For that an idea was proposed that when we are bringing the pages into **main memory** then track every page where the cpu has performed a **write operation**. On the page where the cpu has performed the **write operation**, that page has been **changed** by the cpu. Another copy of the page will be kept in **secondary memory**.
+
+> We will check if the **content** of the **main and secondary** are **different**. If so before **replacing the pages**, we will copy the **page** in the **secondary memory** as we have **made changes** in the **frame** using cpu.
+
+> If the **content** of the **main and secondary** are **same**, as cpu has not done any changes to them. When we want to replace that **page** then we can **directly** replace it. **Yes**.
+
+* This same concept was in **cache memory**.
+
+## Page Swap Time 
+
+* For each page entry in page table, a diry bit is maintained.
+
+* 'M' -> Modified or dirty bit
+* If **M=0** -> Page not dirty
+* If **M=1** -> Page dirty.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/de53e114-a3ae-41fd-96cf-99e88209aa25)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6adc27aa-05e4-4836-be70-bd7852fa8235)
+
+* While replacing a page from main memory, only dirty pages are written back to **secondary memory**.
+
+> When we wanted to replace **page 0**. When replacing **page 0** we will check it's **page table entry** that infront of **0**, what is the **modified bit**. If the **modified bit(M) =0** then we took the **page 0** into main memory but we never modified anything so the **copy** in the secondary memory is same as the one in the main memory. So, we will **directly** replace **page 0**, we will not **write back page 0** to secondary memory. **Hugh amount** of time is saved as secondary memory is very slow.
+
+> If a **page is dirty** which means **M=1**, then we will **write back that page** to secondary memory.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6eb437cf-716c-41dd-86c6-0522a1d8f55f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b744a08-2ebf-433a-8c71-3f8587043883)
+
+* **YES**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/274ee89d-5004-4d33-94da-86b36107bc24)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ef990f9-3e00-46b5-8df8-503a31a5b405)
+
+> All pages are in **secondary memory**. When a demand of a page came then we have made a **copy of that page** in the **main memory**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3ba2a56-c2a1-4da0-8b84-bf4da65f5439)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b2cbb217-8423-49eb-9577-5b5a521f4327)
+
+* Many different cases will be created here.
+* Page fault time and **empty frame there** -> **First and second** times are **zero**. **3rd and 4th(Blue and yellow color)** time are **taken**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ea08a07-5639-48f0-bd3a-811be76f714e)
+
+* Page fault time and **no frame there** but the page to be **replaced** is **not dirty** -> **2nd time(Green color)** is not taken**. **First, third and 4th(Pink, blue and yellow colors)** times are **taken**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/016f99b8-f9e7-45ae-ba2c-fc07b1efa89a)
+
+* Page fault time and **no frame there** but the page to be **replaced** is also **dirty** -> **All four times are taken**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cfde1fd1-6cf9-42e7-97d0-51dbd10fb5eb)
+
+## Effective Memory access time
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2264022a-f0c7-4bf2-ba4c-a24e1c4d163e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ffc11e55-bb0f-409c-b6f3-edeae4fe6e9a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3f72a03-13dc-4e0b-88a8-628fd2d4ef23)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b967917-b014-41cb-926e-ee7560a1c6ab)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2d6d48e1-f8f0-48ed-a7e6-198eda196394)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/faece729-048e-4012-801d-ea948b89470b)
+
+* More **refined** formula.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6775e154-3fbb-4b74-b2e4-43a4d8c63aec)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69bda203-083f-4ff9-b19d-96c1e24949a2)
+
+* When **page fault** happens, **page fault service time** is needed.
+* When **page fault** doesn't happens then, **two times main memory access time(2 * Tmm)** is needed.
+
+## TLB and Virtual memory
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/26d29b30-b428-40a8-938b-7aee7e5c292f)
+
+> If **hit in TLB** then we will get **frame no** and in turn get the **physical address(PA)**. We got **physical address(PA)** means that **page** is within the **main memory** itself only. So, for **these page**, can there be **page fault**? **NO**. **Page fault** case will not happen.
+
+> Now go to **main memory** and access the content.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb5f3bba-e63a-4cdc-aa0e-637f27a7f274)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b766cd77-9572-4bad-8775-a0fc066baa9d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c3e5858-4b99-4dff-a6a2-67df21be4833)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f40e5e7-ec53-40f5-b417-380023ab625a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05f46ff1-26c6-49c3-ad8b-40caa819433f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4ff91e09-ab70-4a6b-ab98-5c28e71aa2b4)
+
+* P -> Page Fault
+* (1 - p) -> Page Hit.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ca95d9a-13c6-4589-ae7a-6095bb985050)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/93ea3fff-800b-4687-b6d3-804568a2bd14)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4ec9b589-8c42-4095-9643-9511ed291a37)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb3649fd-50d0-46f4-bf3c-e2c4bdf73595)
+
+* **GATE 2020 question**.
+* DPPs given.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf93dc84-0c06-4d51-b06f-ef101914a80f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9123ac8-711f-4845-82a7-3c684beb3fa5)
+
+* Will be broken down and given seperately and we have to find the **page fault serive time**. Like below.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d7594961-0c1a-4d9d-8b49-d76ee53fd083)
+
+
+## Page replacement algorithm (27) [7th June 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e18828d1-086c-462f-882e-7dcc4f1c100c)
+
+* Effective Memory Access Time **formulae**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c5f7e54-350d-49e1-a88b-847d3e495b97)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fddf6986-2d6c-40e5-967c-56bc58e2a632)
+
+## Dirty-bit included without TLB
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ba7240c-b47c-4e41-8a32-83c394c3b43e)
+
+* **Hit in Page Table** -> PA -> Access memory for content
+* **Fault in Page Table** -> No replacement or not dirty page -> Direct bring page from **secondary memory** to **main memory**.
+* **Fault in Page Table** -> Replace dirty page -> Write back dirty page  + bring page to main memory
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f2c57979-ec2e-4adf-8654-de161e6ed356)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7713001a-2733-4375-9440-4562d0fa20f3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/04138119-57d8-43d0-9f9f-222096e01706)
+
+* Will be given in the **question**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8036f02d-258b-4ff7-b3ff-862d9d26c1ca)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0946496-b6e5-4878-bac4-d9c1c217e473)
+
+* Formula.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9fe550b3-0fb5-4fa6-b2a7-7541994df4ba)
+
+## Dirty bit with TLB
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98c5810b-713e-490a-88fd-a7825f261f45)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae3cc72d-29dc-40cd-bda2-27afcebb2874)
+
+* Formula.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea701f4d-bfc9-4608-a193-d8eabe485dd0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b8026ce8-67fe-4542-8f89-dca96613b6c6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b4d32533-b954-4ab3-8af2-6bb6c1ab294a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d16b9d1-c8c9-49a7-8b8f-9a7b7a25cc22)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d6b6709-3c5a-4d97-8a1a-3d8b80fc492e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a37e3f2-c937-4ac7-9015-25e6d93fc05d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5bc39f3-9a15-4b0e-b5e1-aadef222d360)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f44e42fc-809e-4ec5-9b4b-d95b3740372a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/196d6326-dc0a-442c-b277-b8f9cb8a7332)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e980e03-4d41-49ba-ad07-8feea8cfed1f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ca0f0700-d66d-499a-a185-ba276843b16f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e3e94c7-efae-4007-a770-b406d9ead421)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b479471-bd78-4b78-9278-036314614d16)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/601d6457-f420-45ae-9123-5ff623c52ba7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9779b48d-2c65-4312-ae87-6ea0a93872a8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58e241ca-8dce-43b2-a8ce-caf2462d6321)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e0ddfbcd-794b-4a4c-be93-6681d0e1d847)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1eae2bbd-5b14-43a1-aeeb-793a3029cfaf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cef687fc-64ef-4d5e-b617-280de1df2d8f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fbe03412-68e1-4974-86ac-762fb5c76f78)
+
+* Correct
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95f42b1d-713f-431b-8423-f4573fe75eb8)
+
+## Page Replacement
+
+### Algos
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/74f39253-15a7-40c7-8012-b61ddef13190)
+
+## FIFO
+
+* Replace the page which comes in main memory first.
+* All empty initially -> No pages are in **main memory** -> **Pure Demand Paging**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ddb2a90-52b9-446a-85a1-333dd659ee6d)
+
+* Tick mark(✓) -> Indicates **page fault**.
+* Cross(X) -> Indicates **no page fault**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c4bdc105-9753-4480-8698-65220fab53d2)
+
+* No replacements are required as of yet, as we have **empty frames**.
+> Now **page 4** comes, **page 4** is not in main memory so **page fault** will happen and we will have to bring **page 4** into main memory. We have **no frames** left and we have to replace one of the **3 pages** from **main memory**.
+
+> Now, in **replacement** algo we have to consider which one among **1,2 and 3** we want to **replace**. **1** came **first** so we will **replace 1** and bring **4** into the **main memory**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d5a0207-62be-4cca-ad20-f7f10c3046a4)
+
+> Whichever comes **first** in the main memory, **replace/remove** that **page** from main memory.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22226261-fcbd-4114-9a17-69d3f4f6dd7f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d24be8c-ccd2-411e-b48a-9e5dd3919352)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ffb7688d-180e-41db-a31f-73ea802bb51e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/93d79bda-7131-4e12-b893-66f44c5ba306)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4ad1e00f-397a-4768-a427-c0f6a4f63cc8)
+
+* Depends. We cannot say anything.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f9369b3d-7abc-4cff-bed0-70dc2e739304)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1dab5cf4-57de-44b4-b78d-3f28e748c84b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3296badc-7a9d-404d-8f60-bfb1631d0b70)
+
+## Belady's Analomy
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/550c4650-c99a-47c4-bda5-15a6571ca2c1)
+
+* For **some page reference sequence**, **increasing** no. of frames may increase no. of page faults.
+* Only **FIFO** suffers from **Belady's Analomy**.  
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af8b2e91-ac87-4e32-ab50-88ce2d4bda85)
+
+* Only **5** page faults.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cfa09dd1-b226-4a53-87e6-03c4d33cb900)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2bd4376-2c83-4480-b0e1-9be4ac61f6c3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f07c73f-9508-4653-9e05-94c2c421ca8a)
+
+* **FIFO** advantages and disadvantages.
+
+## Doubt clearing session page replacement algorithm (28) [8th June 2023] 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9fffc499-e1f7-4175-b981-2dedf413d303)
+
+* No. Not there.
+
+## Doubts
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7c34868-2ddc-4f13-8f1b-f3d619f0c751)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c88bc7c0-8758-4113-b7a1-495050ef1c7f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80982939-d2c9-4b5c-9001-1ef94129afe7)
+
+* Leave this type of questions. Will not come in GATE.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b412bcf-a49e-481c-bbbe-7946243b9792)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7739a250-7139-4d5f-b9d9-9155c3be3999)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7587a793-3140-4027-ae57-3c6b0089d13c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe17c39b-ac77-4e70-94be-a131b3a0c018)
+
+* No waiting will be there.
+* Starvation can happen for resources.
+* Live Lock could be possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b677b892-ed56-4240-aadb-3557e0579af2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fbca2e86-8427-4621-9321-7fe0605c4901)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/906dbdc9-4020-46c7-b58d-20d00482f45a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/984065a5-bd90-4339-bf24-b406605a5970)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b6872d7b-f794-4164-a935-f24f99a7c8e1)
+
+* EMAT or Effective Access Time is **inversely** proportional to **hit ration**. As **hit ration** is **increased/increases**, the EMAT time **decreases**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31efae6c-3f97-4f32-9080-9899c9732a41)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf4d5227-38ef-4b24-93ff-6269172d63a1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22a2e664-b713-47b6-8e1e-fa92cf0c3be1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b2808150-92a1-4317-82b3-ebc8734122cb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d7126157-2098-429e-906d-a11d73a5db70)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5cc7200-f3c2-4476-8da8-800638395b53)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/551880c6-d8d1-4c32-a529-ea99085995e2)
+
+* If we **increase or decrease** the **page size**, **virtual address** remains the **same**. 
+* If the **process size** remains the **same** then the **virtual address** remains the **same**. **Virtual address** will not change.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1081571b-b4c9-4ed2-bd4e-d6f4598282fb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4df8bb6c-4528-40fe-b36d-a8daeaa57bda)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1db82735-e277-40ee-bdfd-cc03e9f93111)
+
+* Yes. As **page size** is **bigger**, **internal fragmentation** can be **possible/maybe**, not confirmed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a139b61e-4f32-4afd-8ed1-d629388301d4)
+
+* Ofcourse, reverse will happen.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd3e4a85-a627-41b0-b1fb-8a70ec5e3e3c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09ff0d1f-9d05-4c37-a9e8-8ac38d9762ad)
+
+* When no page fault.
+* When page fault
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f52a8012-2b74-4543-9fc3-56314a8ca2c3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a90cdda7-4cc7-4ebe-95d0-0c3c1ca62685)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ee66f96-e54a-49ab-a522-11104f8d692c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a373ce8b-5867-4204-84ec-2232432ed525)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d73d31e-12c4-46f3-8ba8-44e2c5dee97e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/120d32f7-8aaf-4506-af1f-2cc36fdbb00a)
+
+* **Fetch and set** is like the **lock variable**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/236293ce-fa7b-4fef-9063-6ce0aea04528)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0dce9ff8-b0d1-48c4-ae63-81d50fc000bf)
+
+## Page replacement and frame allocation (29) [8th June 2023]
+
+* **Belady's Anomaly** definition -> In general when we **increase** the **no. of frames**, **no. of page fault** doesn't **increase**, it will either **remain the same or decrease**. But in **FIFO**, there are some **page reference sequences** where if we **increase the no. of frames** then the **no. of page faults** also **increases**. That is called as **Belady's Anomaly**.
+
+* To solve Belady's Anomaly, we will implement **optimal policy**.
+
+## Optimal Policy
+
+* Replace a page which will not be referred for **longest period of time**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7413226f-922a-4970-8d4d-bcb2849fb72e)
+
+> Now **4** comes, we have to check among **1,2 and 3** whose's not referenced for the **longest time** in the **future**.  
+
+> **3** is being used **way forward** in the **future** compared to **1 and 2**. So we will **replace 3** with **4**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16b4f227-89a9-4012-b017-aa476765a714)
+
+> Now **3** comes, we don't have any reference of **1 and 2** in the future but we have **reference of 5** in the future. So we are definitely not removing **5**. **Two pages(1 and 2)** who have **no reference** in their future. As they both(1 and 2) don't have **no reference** in the future, whom we will **remove**?
+
+* If multiple pages comes that don't have any reference in the future, then we will apply **FIFO**.
+* If **Tie** happens and to **break** the **tie**, we will apply **FIFO**. 
+* Whichever page has **come first** we will take that out **first**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a90aad65-911d-4a19-b053-feaaed26d6e7)
+
+* Out of **1 and 2**, **1** has come **first**. So, we will remove **1** first.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0dff8542-de92-4848-8efb-12cfdbe711ad)
+
+* There will be **no difference** but we have to implement something here.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d65b95aa-4e8d-43f4-abd6-fdaea3857b87)
+
+> Now **4** comes and **3 and 2** doesn't have **any reference** in the **future**. So, we will apply **FIFO** and we can see that **2** has come **first** than **3**, so we will **remove 2** and put **4** in.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e127d1a9-4d56-44f4-b611-53e81a127b41)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cff0a6f8-721b-43e5-88d8-0f108b0af053)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d6ee2ba-27f4-4fc0-ae2a-2834fab94479)
+
+* Exactly **same**. **YES**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/703c3fff-9d41-4645-9425-fc2e9f36dbd0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e0294f47-41af-49fb-9e78-103e70c6e7cd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8be54622-f6b6-4eb0-b122-b8c55ec9f6e9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f5f7c7e-8b70-4423-80f2-0a021d87d1fb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c6682647-dc15-46bf-8b06-aad5e6c884ee)
+
+* Advantage -> Provides min. possible page faults.
+* Disadvantage -> Not Practical
+* Why **Time Consuming**?
+
+> Takes a lot of time to find a page to replace.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2675ac24-d797-420e-8e53-86614e19ac14)
+
+* If asked in a question and we are given the **sequence and no. of frames** then tell the **min. no. of page faults** for the **given sequence**?
+
+> If **some other policy** is not mentioned then we will apply **optimal policy**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b1e701b-3ddb-49ad-98fb-98daf59258c3)
+
+* Sometimes page reference sequence can be is like that some other policies are brining values **close or equal** to optimal policy but **not less than** that of **optimal policy**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec6109d8-1d48-4fb8-9af6-3d188db39177)
+
+* Optimal policy gives no. of page faults always less than all other policies' page faults?
+
+> **NO**.
+
+> All the page faults will be **min**. **YES** but the **min.** cannot come to others that is **not necessarily true**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1c9f890-3698-4cf0-9421-395c7a319c5d)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a6f5adeb-2d24-4275-8df0-2cbbea0be874)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b491372-d66e-40e5-b768-c064eb17cbf1)
+
+* As we can't see the **future**, let's try and see the **past**.
+
+## Least Recently Used(LRU)
+
+* Replace a page which has not been used since longest period of time.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2179340b-01a9-4ef4-9fb0-b531d895f3d0)
+
+> Now for **4**, we are checking which **pages** have been used **recently**. **1** was the **longest** which was **not used**. So we will replace **1** with **4**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a4cf2fd8-404e-40b9-84a0-4537a48cc26c)
+
+> Now for **1**, we are checking which **pages** have been used **recently**. **2** was the **longest** which was **not used**. So we will replace **2** with **1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0212e8fd-1730-4e15-ab0f-72ffcbd4412b)
+
+> Now for **2**, we are checking which **pages** have been used **recently**. **3** was the **longest** which was **not used**. So we will replace **3** with **2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be5280f0-c350-4fa7-b248-e9155bf24743)
+
+> This is the **difference** between **FIFO and LRU**. Now **3** came and according to **FIFO**, we would have removed **1** but in **LRU**, we are taking into consideration that **1 and 2** which had **no page faults** were also **used**. So in that case between **1, 2 and 5**, **5** was the longest which was not used. So, we will replace 5 with 3.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/20603fe2-bd1d-4020-ae00-0126d44aee9d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb71dd33-48bf-4726-9983-858b644b1a15)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41fb783a-1e25-44aa-8de4-04a507aefe4a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d4be9f5-1770-4815-b80f-f1904bb70dfa)
+
+* **No Tie breaker** or anything needed here.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5bffdb9b-1014-44ae-b106-ad763f536efa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b64b45d8-fa93-44c5-9c41-0ad7df5ebf55)
+
+* Depends, implementation detail. Complex implementation.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c838b0b-1a60-428e-b778-58f018ddf8cc)
+
+* LRU, **advantages and disadvantages**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/143d0b3d-5655-47d0-8c12-aea539696b81)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4865551c-8243-4cca-9f7f-87466ce31691)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d896d408-cb2b-439f-91ed-18fd20f3adea)
+
+* Apart from **optimal policy**, some other policy can give the **same no. of page faults** as **optimal policy** but less than **optimal policy** is not possible or will not happen.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e43f6c43-0a94-4a49-b7fe-735719aed90e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d19cb36-257b-44b2-bc0b-60d1a66b029a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27cda218-561f-40b5-b003-467f75523631)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/60513c15-b446-45f9-ba56-761ef4712620)
+
+## MRU
+
+* Most Recently Used
+* Replace the page which has beeen referred most recently.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f26abac7-1594-4250-89d5-c212a475aa50)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d4e9079-0c81-4efa-9a98-5bfb4e1e31c2)
+
+> For **2**, the **recently** referred one is **4**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33408195-a376-471d-b027-bd4b2fe94508)
+
+## Counting Algorithms
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f19a875a-0caf-4ac0-b511-fc9025d01624)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/42dfe9e6-1bbe-4e64-9d98-703e8267b5be)
+
+## LFU(Least Frequently Used)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c91b91f2-9c70-4c45-abcf-a3e9a2ab2234)
+
+## MFU(Most Frequently Used)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1be5c38f-66a7-4d1b-8ec8-18679f3a31dd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05ef4c0f-67eb-4793-9b76-4ca6f0d06852)
+
+> For **0**, we are checking who has the **highest frequency** amoong **3, 2 and 4**. We can see that **2 and 3** has the **highest** with **2**. So a **tie breaker**, and we will use **FIFO** to break the **tie** as **2** has come before **3** so, **2** will be **replaced** with **0**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e25c62fa-d3af-4982-b9c2-59d6761e4458)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b24b64c4-014b-4b30-82d3-e2ebff93883c)
+
+* Not **same** to **same** always. Not necessarily.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/940d489a-7d5c-45ad-ba9d-d758c8c26a73)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0efcb8af-abc8-46ac-8f19-eb3e6e30dbba)
+
+
+## LIFO(Last In First Out)
+
+* Replace a page which has been brought to main memory last.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/07b35661-77d7-450a-b2ca-896b62d8f9c8)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/188d5fe2-5ab8-405a-abae-8cf904fd9ce5)
+
+> For **5**, the **latest** bought to the main memory is **4**. So, we will **replace 4** and place **5** there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f2a536d-b659-4299-ae1c-85665cb8099d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b804d62a-188b-4fc8-a111-9f1b0523be5e)
+
+### Questions
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9c45c8aa-3f8f-4960-9169-194d0493e937)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d55dbf8-2d1d-4e33-b752-c905c49c0b1d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/650c86bc-e575-4cea-b1e1-4316f9cf9597)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8fd82f11-3f40-44df-aaf5-6f13587f6787)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab2e910f-53b9-4fbd-93f2-22b7f32ce2c1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a89e5fb9-2a1b-4b9e-be0f-7f4544511706)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c4ecc502-3526-4443-929b-409b3eb3db51)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7673204e-605e-47a7-9570-f0d9a764b5cd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b55a8828-68c5-4ede-bcab-180cf01490d5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6eab4df1-42ce-473e-8a0a-482d04e9917e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/486da4d8-9645-443f-a49c-2bd79ae90c65)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa69664c-ccae-4f6b-9e7c-dd9c8f3686a9)
+
+* Home-Work.
+* DPP also.
+
+## Multilevel paging (30) [8th June 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/516d84d4-c57c-450a-bb4b-16fbc7d4985c)
+
+* Pure Demand Paging -> Initially frames are empty.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d6c7490-ad67-4c1c-9104-255056e1a2c1)
+
+* Predefined division of pages is gone.
+* They are **addresses**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/da7d725a-2210-4f61-9302-54edd764a430)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/52640c47-1e6f-4020-8346-208f13f82e94)
+
+* CPU generates **logical address**, from that **logical address** we exact the **page no**.
+
+## Making Page reference Sequence
+
+* Assume CPU generates logical address in following order:-
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22cba8c3-a68e-4b46-91a5-b8f30caac059)
+
+* **Page reference sequence** -> 3,4,2,4,3,1.
+* If **consecutive** pages are being **referrenced** of similar type then we will write it **once only**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2501fcb1-573f-4c55-9c48-2d38e3cd3abb)
+
+* If a page referred consecutively then in page reference sequence, it is mentioned only once.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea0ef0ec-e586-4ac5-ac44-229041f0d6a5)
+
+* The **hit ratio** we calculate is of the **page reference sequence** and not the actual one.
+* It is actually not the **actual hit rate**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f37e108-34c7-4c5c-8e5c-4157cd1f0fa6)
+
+* p -> 1010101011 -> 1 + 2 + 8 + 32 + 128 + 512 -> 683
+* d -> 100000 -> 32
+
+* From the **page no**, what can we solve?
+
+1) Find **physical address**.
+2) Calculate **no. of faults**.
+3) Calculate **page reference sequence**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b2157d7b-e559-48b9-bf18-1b8db4e7c1ee)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6e5ff59f-722f-42c3-8290-ef227876e64d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36b6e16a-e4b1-4027-bef0-0f498b3310e9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa04106a-fb71-4a82-92c0-395806484fa6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/735852fc-322d-41be-b4cb-95dc8c46cfee)
+
+* To which page does the **logical address** belong?
+
+> We will use the **division** method when **logical address** is given in **decimal number system**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e053220f-0cc8-41b7-a569-8b80b923a47f)
+
+* When the **logical address** is given in **hexa or binary number system** then we will use the other method, which is **divide the bits**. 
+* If in **binary** then direct **division**.
+* If in **hexa**, converting to **binary** is easy.
+* Direct distribution of bits.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d010004-cbd9-4efe-b8b2-904a1acb268f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c993388f-e2b9-4571-a466-b1ce36a0da2e)
+
+* Ofcourse.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c02f934-fdb0-4a11-ab37-88db3841c203)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/90b5fcc1-b4bb-429e-9da0-3228fe8ff39e)
+
+## Frame Allocation
+
+* At one time, there is only one process in main memory or more?
+
+> **Multiple**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9afd5849-9f7a-49b2-84a4-fd7ae28eac9e)
+
+* Frame Allocation -> How many frames do we allocate per process? 
+* The OS allocates frames to the process.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b387710-1841-4ef4-b7d2-e97e354b0d47)
+
+1) Equal Allocation -> All processes get equal no. of frames.
+2) Proportional Allocation -> A process gets no. of frames allocated based on it's size.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db8b22cb-3a4b-4324-9632-dbe60cbe5dfc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/989126e0-212c-4d8b-a127-b3bb8f978d5b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b92a1854-547f-40b4-94cc-b20811f1ff75)
+
+> In **proportional allocation**, calculate the **total no. of pages** in the processes. Here, we have **12 + 4 -> 16 pages**. Out of **16 pages**, what is the **fraction of p1 process**?
+
+* P1's fraction = 12/(12 + 4) -> 3/4
+* **No. of frames** for P1 -> P1's fraction * (no. of frames) -> (12/(12 + 4)) * 8 -> (3/4) * 8 ->  6 frames.
+* P2's fraction = 4/(12 + 4) -> 1/4
+* **No. of frames** for P1 -> P1's fraction * (no. of frames) -> 4/(12 + 4) * 8 -> (1/4) * 8 ->  2 frames.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2caca302-191b-4bd8-9ed6-eafdbd6c6170)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/638b43de-0182-4c8c-a1c8-d88065c644e1)
+
+* Equal allocation is not good because some big processes which have many pages will get less frames, then there will be **higher no. of page faults** in them.
+* The process which has less pages and got more frames, then they don't know how to use those frames properly.
+*  Equal allocation is not good idea.
+
+## Local VS Global Allocation
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f674da0-bb3e-4377-a86b-3f58b4000775)
+
+* Any process which has **fixed no. of frames** allocated to it from beforehand and **page fault** happens for this process, then a **new incoming page** coming to **main memory** then that page will **replace** this processes' page only everytime.
+* If this happens then it is called as **local allocation**.
+
+### Local Allocation
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f5ad1b8-cd1e-4731-afb4-512f3fccbe63)
+
+### Global Allocation
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76b1bb19-7add-4cfa-bd08-ae297d842004)
+
+## Thrashing
+
+* As we **increase** the **no. of process** in the main memory, **utilization** of the cpu **increases**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c6a1d24f-6d4a-4d56-ad17-509dfb0da47e)
+
+> CPU **utilization** has started **decreasing**. CPU is not being used to run processes, it is being used for **page fault services**. If cpu **utilization** has **decreased** then **long time scheduler** will think as the cpu **utilization** is **decreasing** it has to **increase the no. of processes**. When **no. of processes** are **increased** then **more page fault service** happens. 
+
+> This cycle of **increasing the no. of processes** and the cpu **utilization** is **decreasing** continues. At a certain point of time, there will be **alot alot of processes** that the cpu **utilization** suddendly drops and becomes **zero(0)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c6ee9f29-1a58-4f9e-8028-a14ee3168dcd)
+
+> Now, cpu only does **page fault services**.
+
+* When the cpu utilization **decreases** and it becomes **zero(0)** then that situation is called as **thrashing**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1545530-721c-4d44-baa2-4b7828bbc35a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6fb61cc7-9b81-4ba6-8e3a-1e4b48487c20)
+
+* High-level paging activity is called as **thrashing**.
+* When cpu spends more time on page fault service as compared to process execution.
+
+* **Two** models to control  **thrashing**.
+
+## Locality Model
+
+1) Working Set Model
+2) Page Fault Frequency
+
+## Working Set Model
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d675dfa-2332-4770-b225-008367299104)
+
+* Process's working set.
+* Keep min. no. of required pages of a process in main memory such that process experiences min. no. of faults.
+* **Keep min. no. of required pages** -> Working set.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a9b704d-8d6b-4426-83f6-12ec4ebb0fe3)
+
+## Page Fault Frequency
+
+* For example, 
+* **Upper bound** -> 18%
+* **Lower bound** -> 5%
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ddb3643-ed00-4560-ae46-2fd3af024260)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e62c474-76cc-45b2-827a-8af495845b7b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9f8e25f4-5ea4-4ddb-918e-58898fb9c0b5)
+
+* **64KB** is the page table size
+* Can we keep the whole **64KB** size page table into a **page** of size **1KB**?
+
+> **NO**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b70058d4-d900-4174-8ddf-db438910eba8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a1c75b8-38a8-4cbd-91c9-9cca2c947839)
+
+* 64KB/1KB = 64 pages.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/03f91f76-5d49-450c-836b-225bd2929481)
+
+* If not then how to access the specific entry?
+
+> When the process comes to main memory, then the **OS**, **reserves** some of the **starting space**, to store the **page table** completely.
+
+> The **remaining space** is **divided into equal size pages or frames**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/286a264c-6814-41cf-9a9c-a17efe68e0f0)
+
+* This is the **basic concept**, if we want to store the **whole page table** into main memory.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b7a1eb4f-ce89-473c-9a05-f5ad3a1eb6ff)
+
+* If entire page table to be stored together.
+
+> **Virtual memory** says that we don't have to bring **all of the pages** of the process into main memory because cpu don't need them all at the **same time**, why will we bring them.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/836d3a4f-d65b-4abd-be2c-ce23cc17e144)
+
+* The **concept** from this came out that we will do **paging** of the **page table**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b8c65041-ec62-41c2-aa45-6311d071cf26)
+
+* **Two advantages** of doing the **paging** of the **page table**:-
+
+1) To keep the whole **page table** together, we don't need to **reserve** the space. We can store them separately anywhere.
+2) We don't have to keep whole **page table** in main memory. Keep the ones needed in main memory.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/87028079-7ded-4660-9b92-1505561520a0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a808c6a9-91e3-4a51-b57b-6242918ec80d)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57951570-eb14-45fc-8db2-083580832d7c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c09e9454-38ee-4b13-8718-8a83ac0288d3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/073d7b7b-f221-4175-9d84-8b739c2ff2b7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a6b997c-c8b1-4278-8ac6-4c38edf70123)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff1a4e11-f0fd-42e5-b7fd-5030082c75ff)
+ 
+* We have made **two** parts of the **page table**.
+* **Page table** is of **8 bytes** and each page is of **4 bytes**. To keep the **8 bytes page table**, how many pages are needed?
+
+> **8/4 = 2** pages.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a4d7a088-f1cd-46b1-930b-baca46f501a6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/87c96e7f-2e31-4370-ac13-9841a9f2692c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/218dacdd-e4dc-4d69-8e85-1fa70e7ed6a3)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/56d3566a-dec6-433e-bde0-960826b456ff)
+
+* Here we will have the **page table entries**. **Page table entries** have **frame no and etc etc we know**.
+* Each page can have how many entries?
+* Each page size is **4 bytes**. Each entry is **1 byte**.
+* No. of entries per page = 4B/1B = 4 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/78e8ced9-a8d6-49c3-9762-db281a5b5780)
+
+* We can keep **4** entries.
+* We will have **2** pages.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e498bf48-b608-46d0-85d4-84a389a5f511)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ee8f63e-a84e-45a8-8b85-164150e86c32)
+
+* Page 0 and Page 1.
+* We have created **two** pages of the **page table** and kept them in **two** different frames in the **main or physical memory**.
+* let's assume we will store the **page table** in the **main or physical memory**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/679d07a0-bab3-43e1-afda-df5e7515eace)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35869fcd-5540-4a50-ba89-928175435eae)
+
+* later.
+
+* If cpu requested for the **page no = 011** and the entry in that page.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb6e6d50-06a3-47c7-88eb-73dc21f2746a)
+
+> The first question is that the **page no** generated is in which part of the **page table**?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66abc59e-af83-4d80-9ddd-fb61b9abeb86)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1d9eb86-8c56-4cd2-97b2-85a392cb8246)
+
+> There is another **table** here.
+
+> If we want to access the **page 0** of **page table** then we have to go to **frame 8**.
+
+> If we want to access the **page 1** of **page table** then we have to go to **frame 3**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b452e83e-2cc4-462d-a15e-80d206e7bb8e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fdbd8da8-30a7-4391-a3b0-425559f729bc)
+
+* Separately, we have to maintain **one small page/page-table** or whatever it is. It is saying that **page 0** of **page table** is stored in **frame 8** and **page 1** of **page table** is stored in **frame 3**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e41bcd0-49a6-43e0-8753-d5632f5990c9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9317936-3992-43a8-9c65-de161b9b7936)
+
+* Yes.
+
+* When have to found out the **page no = 011** of page table entry is in which page table page?
+
+> Page table page 0.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4af1104f-9391-45f8-bd9a-8b94274f994f)
+
+> We have to **search** in **page table of page table**. **Page table page 0** is in **frame 8**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/199918ff-1c8c-4a7e-8d4d-d4b434f63a28)
+
+> Got to **frame 8** and then search for the **entry**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80e0e233-c581-4943-8e2d-30fd32eafb78)
+
+* We got **page table enrty** for **page no =011**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd0d38d5-5845-47b0-b9e6-914314ff3efc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2cbd34d5-0320-4ed1-8171-5b91fefc8c64)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/84e0156f-be6d-463c-a0f7-5183953afd2d)
+
+* We have just extracted the **p** value.
+
+* By knowing the **starting one bit ** of **page no**, we can tell the **page no** generated by the cpu is from **which page** of the **page table**, is it from **page 0 or page 1** of the page table.
+
+> We will get to know that in **which page** we will get the **page table entry**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d630815-e0b3-4fb4-b9fd-610a5410f4d4)
+
+* Yes.
+
+* If in another example, page table was **divided** into **four pages**. Then how many **starting bits** we would see to find the **page**?
+
+> **Starting two bits**. **Two MSB** bits we would see.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac6afd8e-b7ad-4b9e-a348-d1ebb8ecd635)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/49a2c1c8-b777-4262-8dbf-11548eac5085)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1cf049d-0015-43f2-8d3c-91f3bd9d7041)
+
+> If we say that in the logical address of the cpu we got the **page no = 101**. It means that, we will see the **page table page 1** and it's entry of **01**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce2f1670-f2c7-41bb-ae21-7569b0d7a5a3)
+
+> First, **search** the **page table 1** on **page table of page table**. We will get **frame 3**. We have **4** entries in **frame 3**. We want **'01' entry**. So, goto **frame 3** and access the **entry '01'**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9b15fe3-32a9-45d6-8a8f-c49c280e0b4e)
+
+* We will get the **page table entry** where we will get the **frame no** of that **entry**.
+
+## Multi-level Paging
+
+* The **page table** of the **page table** is called as the **outer** page table.
+* The **page table** where the **frame nos** are kept is called as the **inner or actual** page table, where we will get the **frame no** of the **content**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/54fdc7c4-ab86-4ee6-aa9b-a4dbf369b32e)
+
+* We **paged** the **page table**.
+* We stored the **pages** of the **page table** in **different places**.
+* The **page table entry** we want to search which be in which page? For that we have created another **page table**, it is called as the **outer** page table.
+* The **outer** page table will be within the **main memory** and kept within a **frame** as well.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3209335d-73b7-4833-969b-e04eddc4fc0c)
+
+* After searching the **outer** page table, we will get the **page of the page table** where the **page table entry** we are searching is kept. After going to that **page**, we will get the original **page table entry**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/60152211-af12-4f00-a522-cf116b4e590f)
+
+* Inner page table's page.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66e95af9-c9e6-4e93-820a-dd6964f46667)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d98b1aba-6cab-4a50-b50c-0ad8554399da)
+
+* When we join **f and d** we will get the **physical address(PA)**. After gettting the **physical address(PA)**, we will get the desired page and and we will **add 'd'** and get the **content**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b386681d-f95a-4224-abe3-a42c50897eec)
+
+* **YES**. Now, **PTBT** will have the **address** of the **outer page table**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/21fdb31e-6424-4d40-9eee-90f16427e1f3)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5541f388-81b4-40d9-a916-39fa5b801510)
+
+* Ofcourse. Total page table size will **increase** but we don't have to keep the **whole page table**.
+
+## Inverted hashed page table (31) [9th June 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b31e4512-7115-400b-8d9b-3a4e9e9597cb)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc35d63c-6e98-46e6-b9e5-5548a5d61ec4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7182a861-10c4-40fe-8971-ad94c79fa4e8)
+
+* PTBR.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2e4463a-ac95-4bd6-a788-1978a629e39b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a4c659e7-72e7-4622-bd95-d694d216181d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db6f461f-fae8-49ae-9310-b9aadebfb3cf)
+
+* As we are doing **multi-level** paging, we are dividing, **p** into **two** parts. **p1=1 and p2= 2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ce8e689-2920-4736-a59d-4097f1988cb6)
+
+* In the **original inner page table**, we can keep **4 entries** in a **page of the page table**. In total we have **8** entries. When we go for the second time to the **inner page table** for **searching**. We need **2 bits** among the **4 entries** to pick one of them. That's why **p2 = 2** bits.
+* The **outer page table** has **2 entries** only. That's why in the **outer page table** we are **searching** by **1 bit** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/226cf480-fd1c-47c0-a4fc-fb113a0e24e2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/46572598-e844-44e4-9db0-1dac5b5d191c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ead9e8f-98d6-4497-a3e3-02b574522d87)
+
+* Because in the **inner page table** we can keep **4** entries and to pick **one entry** among the 4 entries, we need **2 bits**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ecea60e-d598-45e8-91f8-b520152433d5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e0daab39-3228-4e5b-8423-2a79a62101fc)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/984e8798-7200-440f-b4ad-d4c35ca56d6e)
+
+* **No. of entries per page**, how do we calculate it?
+
+> **No. of entries per page** = (**Page Size**) / (**Page Table Entry Size**).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/065ed545-97ee-4ada-8134-65f0e9b69fbe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf747f99-cb71-443a-b597-8dd148214a00)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/153cfa75-c9c2-4f0a-becd-f99900cfeca5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0140443-9a42-4d6b-8853-b497a9185f66)
+
+* Depends on many things, including the logical address.
+
+* It is mandatory that the **no. of levels is 2** only?
+
+> **No**. Can be **3, 4 and 5 etc**.
+
+* If the **outer page table** doesn't come in **one page** then?
+
+> Levels will keep on **increasing**, until **one page tabale** is left at the **outer**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86bd6217-4051-4cf4-baec-027723d86797)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71740ec9-401e-4f1b-a4bf-b4c2f7c7340d)
+
+* No.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36eef8d2-eed7-4f70-bad2-2cecb650dc75)
+
+* At any level if page-table cannot fit into one page then, increase levels of paging, so that outermost page table can fit into one page.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/312b7a5b-1ba0-4f6c-b85d-2d2773edfc11)
+
+> **4** entries at the **outer page table** because **each entry** is  pointing/linked to **one of the pages** within the **inner page table**. 
+
+> As we have **4 bits**, so we will **search** using **4 -> 2 ^ 2 -> 2 bits**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/979533df-33c4-43ba-9f9e-bb78ad72a573)
+
+> In the **inner page table**, we have **8 entries**, so to **search** for **one entry** we need **8 -> 2 ^ 3 -> 3 bits**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c4de7026-1603-466b-8ebe-9cc5b5b3ea82)
+
+> **One outer page table** is there but it should have **min. of two entries**. **Max. entries is whatever no. of entries** possible.
+
+> **Min. of two entries** and why not **one entry** because **one entry** means that there is **only one page** as **one page** can hold the **whole page table**, so why we would need that **outer page table**.
+
+> When we split the **original page table** then only we will get the **outer page table**.
+
+> If we are not splitting the **original page table** then there is no need of the **outer page table**. There will be **no multi-level paging**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f4c45d3d-9e12-4940-b604-cc0a50c7875f)
+
+* Yes, multi-level will **increase** the main memory access but it will not **increase** the **changes of thrashing**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b9989c19-8c99-4b25-96ba-3b60b88e0a23)
+
+* We will search the **outer page table** using **P1** and we will search the **inner page table** with **P2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/79415254-2724-42f7-8d78-c1b0599b2b69)
+
+> We found **no. of entries per page**, which is **9 bits**. We had **29 bits** as **p**. So, we will start writing from the **right side**, so we put down **9 bits** of a level, we have **20 bits** left. We put another **9 bits**, we are left with **11 bits**. We put another **9 bits**, we are left with **2 bits**. So the **outer page table** is of **2 bits**.
+
+> Don't keep more than **9 bits** in **one level**. At the **last level**, **less than 9 bits** can come.
+
+* So the **level of paging** -> **4**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0849aa3-acf2-414e-acae-288b29ee3ddc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/612d78c9-622c-4944-a488-cca0b5ec9ef1)
+
+* One type of question that can come in **GATE**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/435a71f6-f5c2-43ef-b464-7476c66b383a)
+
+* No linking.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ef137f6-d94a-4530-8b04-6f8f9ad78fc7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5bdf008e-a2da-467a-8c20-e7183e33a361)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a570af74-93e9-4fd7-8e09-aa85aee6dd73)
+
+* Inner page tables will use the full bits but not necessary in the **outer page table**.
+* **Outer page table** is the only one which will use less than **9 bits**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/17d95490-0854-4595-b25d-fd5d8e76bb27)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4df586ed-21c7-438a-bdbd-957c90e288b2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a41062c5-8dd2-42fc-8e04-72216fdd785b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ad1ec89-d0c8-4dd1-b698-f6621e50505c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7fb0774-3784-4896-9db4-b40c01e042a7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/68b667b5-8e4f-4825-b4fc-ed61e2f358cf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1de518ee-3dfc-4da3-9186-e61f1671228b)
+ 
+* In every level, how many bits required for **searching** in page table.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a20a7e1b-0441-44b1-ae71-d0dd494b4319)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8850a0b-e1a0-4685-8fe9-17a3f220c582)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a156776f-80f7-403d-b690-2f76132b7812)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/29b4a62e-3f1a-48c2-b84a-4e42a1476965)
+
+* Option **C** correct.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2bc821b2-e8a0-41f0-b46f-fe800e263b3e)
+
+* We cannot do **searching** in **physical address**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/02f06042-20f7-4545-96ca-7d76567f56ce)
+
+* It means that the **outer page table** has the **max bits** as the **inner page tables** have.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a003149-76ec-440c-9c0a-d30527ab0efe)
+
+* Context.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6738d98d-a44f-4eba-9efa-841c0031326e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/beb93427-3bdc-41ac-8a9c-7f5b2a0b6317)
+
+* **3 pages** needed to store the **entire page table**.
+* **1 page** for the **outermost page table** always.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6463ebe5-c78a-433e-b544-e6b432ba04f6)
+
+* **The **5 bytes** in p2 process means that, whenever we will go to an **inner page table**, we will do **searching** using the **5 bits**.
+* Everyone has **32 bit** entries but we don't care about it as we are **counting pages** and how many pages required for storing the **page table** entry.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0baf535a-e89b-4d53-8d18-eaa50a0d5636 )
+
+* No. of pages required to store page table acros all levels = 5.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/88030f22-903a-4f64-9824-a1dcbf7b5280)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9c249d7-26b2-46d2-9a5f-96f303e0fd85)
+
+* To store the **whole process**, how much space needed in the main memory?
+
+> **17 pages** and each page size is **1KB**. So, it total **17 * 1 -> 17kB** of space needed in main memory.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5bd8bc19-0080-4bc7-9e25-747fe4e36767)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec6e223c-06a4-46e6-8a24-58e95f1d1fe4)
+
+* Total no. of pages needed to store page table across all levels -> **17**
+* Total space needed to store page table across all levels = **17 * 1 -> 17kB**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2871332d-4fa5-43ca-8fd1-915510cb7b8b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/82751505-296b-41fc-90da-7d1079adab7f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9cedb4f5-a90c-49b3-bc59-b89cb1f5cc02)
+
+## 3-level paging
+
+* No. of pages to store **inner most** level page table = (Take the pages of the middle table) * (No. of bits we did searching).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2dc93367-84e8-4f94-b531-741701c135a5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8bc142dc-fc5a-403f-8cc2-eb49952e2427)
+
+* We will get **32 pages** on the **inner most** level page table.
+* Total pages = 35 pages.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1cae6acc-c342-48fc-b438-edd50e03650c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e9feab8-3d88-4927-a8be-f3e4927fac26)
+
+* Yes
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9249c8d7-e8f5-44d7-9142-459a7763fc32)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5c6d580d-0e29-4abd-92c6-65959eeba4ed)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e6f1dd95-af1d-44c1-829f-504c60cc8ef6)
+
+* If we multiple the **total no. of pages** with **page size**, then we will get the **total space/storage** needed in **main memory** to store the **whole process**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/02c6792b-a645-4ca4-9216-39377b874c8c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/968e7efc-e30d-492d-aa11-d76d11050183)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d278aa3-96db-4fc3-8b98-e7c1f23567df)
+
+* The size of **virtual address** max. allowed can be **very big**.
+* 64 Bits OS -> Max. virtual address possible for any process -> 64 bits.
+* The **max process** size allowed is **2 ^ 64** Bytes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b8eff79e-aacf-4191-93e5-4d598ff07148)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/55845efb-fe25-42a4-84bd-9325794e16ba)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/68ab150a-e912-48ed-8ada-71cf2aa8ed54)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85fb42a4-dc0f-4158-8a46-c64a6ab8f999)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb29d302-57a8-49d4-8826-35932d721d7a)
+
+* Basic paging -> Logical address.
+* Virtual memory -> That address is called as Virtual memory.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35207ae3-96f4-4c14-ba69-1fda99338bc2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3b6fe162-972b-47ad-83dd-657e6c9c7b71)
+
+* Later
+
+> When we try to access the **page table** from main memory then the **no. of levels paging** we have that **no. of main memory** access needed just to access the **page table**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d248cae-831e-424a-b70a-a992aaa4bb27)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0961637-bfd3-4b71-9a99-bd13feb36529)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b2a7061b-a937-404a-a8f4-bf7f4fea7b15)
+
+* **TLB** gives **direct** entry, **outer, inner** nothing. **TLB** gives **directly** the **frame no.** in which the **content** is kept. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f664df6f-5fa6-4f45-9426-8211e8c85f3e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5ff5635-32bc-4dd7-bc1a-97d194145110)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8159a0db-c334-4eb5-ad0c-731079825f14)
+
+* If **n-level paging**,
+* Time required to translate virtual address into physical address through page table in main memory -> **n * tmm**.
+
+## Doubt clearing session questions on paging (32) [10th June 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce74401e-6b2f-4062-a029-7f2e95bb7544)
+
+> We have **2 ^ 20 pages** and out of them, only **2 ^ 8 = 256** pages are **available in the main memory**. Rest of the pages are not even available in the main memory. If only 256 pages in the main memory but in the **page table** we have to keep **2 ^ 20** entries for the **2 ^ 20 pages** pages. 
+
+> **Page table size** is unnecessarily **increasing**. It is very big. The page table size is forcefully **increasing** because we have to keep all of the **2 ^ 20** entries. Out of all the **2 ^ 20** entries, some of the **entries are valid** and the **rest are invalid** entries. They are not even in the  main memory.
+
+> Because of these, a lot of **space is wasted** in the page table.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9126fe27-ffc1-46a9-b738-946cc2264ba5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/55dd5566-0aeb-40f7-93e3-b565ba18ecb6)
+
+## Problem in Virtual Memory
+
+* Page table is too large and so many page table entries are invalid because all pages are not in main memory.
+* Wastage to space to store large page table.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9eaa6bdf-6154-4010-bb37-d660165d047a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6cbb85f8-90e6-40ff-8c22-33cc562bba72)
+
+## Inverted Page Table
+
+* In normal page table, we have many **entries** and the entries have **frame no + extra bits**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7b4f168-e838-4f07-ac6e-d59ad7694b3c)
+
+* Regular Page Table.
+* The problem says that we have **many processes**. Every process size is **very big**. Every process's page table is **very big**. Some of the **pages** are only in main memory and the rest of them are not in main memory. The rest of the pages that are not in main memory of every process those entries we have to keep in the page table.
+
+* If within the main memory we have **2 ^ 10** frames then max. how many page's entry we can keep which are valid?
+
+> **2 ^ 10**
+
+> Make the page table design in such a way that page table is created where **page table entries** are kept depending on the **frames** and not upon the **pages**.
+
+> The **advantage** of doing this is that, the **no. of frames** we have that many **no. of entries** we will keep in the **page table**.
+
+* Because of this, **inverted page table** came.
+
+* **Inverted page table** -> Page table will have total no. of entries for all processes included is **equal to** the no. of frames in main memory. So that there will not be any invalid entry(extra) for any process in page table.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83632f54-4bfb-48be-95d1-bf20d329deac)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5f7423d2-0b69-4993-ab4e-229bc95e4058)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b94fbf79-3f22-4b93-badc-f9ed2169979b)
+
+> The **inverted page table** says that we don't need to store **8 entries**, the **no. of pages** that many **entries**, **NO**. The **no. of frames** we have that many **entries**.
+
+* How we will keep the page table entries?
+
+> The page table entry, we will keep by keeping the **page no** on the **inside** and **indexing** will be done on the **frame no**. It is the **reverse**.
+
+> In **regular page table**, the **indexing** is done on **page no** and we store/keep the **frame nos** on the **inside**.
+
+* There is a **difference** between **page and page no**. **Page** means the **whole page** containing all of the content and all. **Page no** is just the **no. of the page**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/249636b9-597a-4ed3-b451-ed3cc074fa03)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ba6e947-4890-41bc-bec4-ae18bdf24ced)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c5d3452-55a4-43f0-b1cc-d642e1867a02)
+
+* No. of entries in inverted page table = No. of frames in main memory 
+* We need to **store** the **process ID** in the **inverted page table** because we are storing the **page nos** in **inverted page table** and how we will know which **processes' page no** is stored in the table. For that we need the **process ID**. 
+
+> We have a mixture of all the process's pages in the **main memory**.
+
+> **Process ID** will be stored along with the **page no** in the **inverted page table**.
+
+> When we are doing **searching** in the **inverted page table**, we have to see that the **current running process's**
+page is stored where?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f092eded-0f52-4f10-97fc-20990a341d18)
+
+* Why **process ID** is needed. Check Above.
+
+* If a **frame** is empty and no process's page are stored on the **frame 18**. On **frame 18**, in the **inverted page table**, we will put **invalid**.
+
+* To denote an **empty frame**, we will put **invalid**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/317c5317-ac54-4a18-b09d-fb92db10257f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1737de3a-39ef-4aba-ba1c-7de5aaa6343d)
+
+* How we do **searching** in **inverted page table**?
+
+> 
+
+* When cpu gives the logical address, we get the frame no. or page no?
+
+> **Page no**.
+
+* In **inverted page table** we don't have **indexing** on the **page nos**. We can't go to a specific page.
+* We have to do **linear search** here.
+* We have to do **searching** in the **content**. Whenever we found the **page nos**, we will get the **index** of that. The **index** gives us the **frame no**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/797a2245-ffbd-4b3c-8b94-2bf71c67a080)
+
+> We will do **searching** that where the **pid and p** is present.
+
+* **Searching** will take **more time**, ofcourse.
+* The **advantage** is that we don't have to maintain individual page table of every process. Only **one** page table will be there.
+* All processes will have the **same page table**. So, **only one** page table for all of the processes. All of the processes's page table entries are kept in that page table.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89700f14-7c06-46d9-9630-15bb4a4228d1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a9a6ee1-8a85-40fd-baaa-a6bac748ff6f)
+
+* Single page table for all processes is maintained.
+
+## Inverted page table advantages and disadvantages
+
+1) Reduced Memory Space -> As only one page table is maintained
+2) Loger lookup time -> Searching Time is **more** -> O(no. of frames in main memory)
+3) Difficult shared memory implementation
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af20be09-baef-49e9-835f-b56bb059e7ae)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5fbb6065-4c02-4419-a29d-571ff43760a7)
+
+* Hashed Page Table 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e02282f-d9d5-4dfa-bd7d-5ace4d54db57)
+
+* Ofcourse
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1d7a27f-f59a-4882-bfef-61607cb6f795)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/54982dd3-357c-4302-8ad5-80124769d640)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f1c34542-c552-4de9-a36a-ec25e733402d)
+
+## Hashed Page Table
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d5ab2a70-a4ce-49e6-8b28-59835ef937e0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3b888521-bbfe-4c6c-89d0-56a4d1d6a1f9)
+
+* We will get the **location** of where the **page table entry** is kept/stored.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2303c99e-6fad-42f0-9066-23378b58d72e)
+
+* Location where page table entry is stored.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb531ecb-a3be-4b13-811e-536cadf62707)
+
+* Page no. only
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8fb24919-eb6c-4687-b2ef-3b9b90ee2a3d)
+
+* Yes
+
+### Example
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bad4cc31-e5ed-4e6f-b568-817ad4118c26)
+
+* The **advantage** is that the **hash table of page table** is kept **small** only. We will not keep **invalid** entries, they are not needed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b529f106-c683-465e-942c-8af675522afb)
+
+* If the **chain length** is **bigger** then **more time** needed in **searching**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/380a4154-14b4-4441-b1ed-29828f050a42)
+
+* No need of **sorting**. We need **searching**.
+
+### Quiz-5 Solutions
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/10811f75-1970-401f-9d85-6c30bc806f5c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/73601057-c8a9-406e-92b6-c0be8d3f5599)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c3ff6fc8-5bb2-43ac-ad69-7884d2c75753)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ba581eb-1ef5-4c8d-ae80-621e3d478ec2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f4906ecd-6ab2-48f7-93d7-11f065cd17e7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/53ba1c81-4cc8-41aa-83cf-1c7d551a2879)
+
+* **Question-7** [**IMPORTANT**]
+
+### Doubts
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/864ab803-4fde-4d40-b9e0-030d5b357012)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aca43d2d-14e6-4c42-a536-c627e7423211)
+
+* Not needed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/99f49275-3726-4d80-9a06-a2847434f22d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8de58c2-a5fd-4b86-a293-6b76ddc40cd6)
+
+* My function call. No need of OS.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9c079eea-3d71-47e5-a4bd-1316f7125b72)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9173fa73-c28f-4ba9-88ee-8399e85132ea)
+
+* No need of OS.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/18502183-471c-4102-89f2-2e0390fbfaa0)
+
+* Not needed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3f86ea8-abed-484f-8581-d11810e06a1f)
+
+* Process address is **not True**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/acbf1463-794f-442d-aef2-28f2d0414662)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/75b6e23a-214a-4565-ab7c-960a67702a92)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e2fa1f7-014b-41df-931c-00018cf1e739)
+
+* We **delete** the contents of stack.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3ec78b8-aac9-4ec8-ba25-d214d3a54d80)
+
+* Not needed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19a8f16c-f152-4884-977f-9449ad738bc8)
+
+* Not needed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/73efb616-45eb-49a0-a385-8d791636627b)
+
+* **B, C and D** are **True**. Question has asked for **not True or False**.
+* So, **option A** is the correct answer.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8036a283-185a-475d-ad4e-43017cd73361)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/08d83c73-d617-40c4-843e-f0096f625755)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b7583ea0-abd6-42bc-b12d-cb71b040c56e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b03da7f6-9328-4d25-bb33-d821393ec2ee)
+
+* Option **A** is correct.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24d89e8b-fc5f-4a36-888b-190a8aed6aae)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b333b30-4808-4fb3-bb06-84c0e832243e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b515d40d-3c86-4101-834b-49766e605c4d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0937ddba-07fb-4b47-978d-633b034d4a8f)
+
+* Yes, Correct.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba50dc60-c070-4f92-8261-567ff74f9e24)
+
+* No tie breaker in LRU. Only in **optimal policy**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b6ca383-95d6-49ad-a85d-fe6a3ef9b54b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/96eb15b7-6f04-46e3-8eec-ad1b92dc13fe)
+
+* Put formula and get the answer.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/055060e6-d6a2-487e-aa1a-477f61e208db)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8dd679bd-b72d-40f8-9e93-57423248481c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d7879809-349f-4d56-9635-6411e016284d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a021a73-4d04-4fec-9b98-0de8ff339f96)
+
+* No answers will match.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7cba5e88-9150-4656-a24e-cf925a047e42)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e954a8e3-4cb7-4dd3-9487-33c69e102499)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ba4d7a5-2bd9-4d3f-90eb-e67c699b48c5)
+
+## File system disk blocks (33) [10th June 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d652e2c5-22f2-407b-aee9-33e2903fbc65)
+
+* Frequently questions don't come from **file system**.
+
+### Doubt
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bfc77855-4c44-423c-a56c-ee9bf6fce7ca)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a94e11f-88b9-4514-bf1d-16afd9352e0b)
+
+* Ideally.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5c9bf6b-f743-4790-b056-009c73d83093)
+
+* yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b1edc388-23a8-4561-8fa2-0ddaab59e013)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/254c1cdc-8c06-40cc-a45e-98ad564cc739)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8530bfa9-527c-4e2f-8a74-6395ef619304)
+
+* Sir is blind.
+
+## File
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d5a4b57-2f59-4ccf-8185-f50244086319)
+
+## File Attributes
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c18e87d-406b-4517-b72d-609fe8b9a056)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d81de7e6-adf2-426b-a600-9ecfebd794e9)
+
+## File Directory
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63c8d209-56e1-424d-b482-40203443a914)
+
+## File System
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/48a7085f-fb7a-4373-901b-81464e64d658)
+
+* Module -> Collection of programs.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c635ca93-b354-4add-86f3-4111d5fc459e)
+
+## Types of File Systems
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12d7e27e-3ab5-4e58-9052-f74e0e5c9c08)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b85e409a-602a-4fd1-a65e-820b74cd6d7f)
+
+* Yes
+
+## File Directory Structure
+
+### 3. Tree Structure Directory
+
+* Root Directory -> No files in **root directory**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/242ab752-ad23-41e8-9d4f-353f8e9a8720)
+
+### 1. Single Level Directory
+
+* **Single directory** where all the files of the system are kept/there. 
+* No provision for **sub-folder**.
+* **2** files cannot have same name.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2e6653d1-4f83-4096-bb02-dc3c5afaae9d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/53dcb95e-3a01-48e6-8817-314c12fdb424)
+
+### 2. Two Level Directory
+
+* **Sub-directories** contains the **individual user's files**.
+* Every user has it's own **Sub-directories** according to multi-user system.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d3485ff-c772-404b-b777-01f7d4b5f82e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81c85382-930d-4024-be65-6dbbcfddd88c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/940360d6-c8c3-4b18-a946-45548442cb51)
+
+* Ofcourse.
+
+## Disk Formatting
+
+* Formatted in **two** ways:-
+
+1) Physical (Low-level) -> By manufacturer -> Making **tracks and sectors** on disk.
+2) Logical (High-level) -> Making drives(C:\>, E:\>) -> Putting up File system -> Making disk blocks.
+
+*  Link  for explaination -> https://www.youtube.com/watch?v=JZCBuVJGvcg
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/941658ec-1840-40ad-9919-b6a41f5375cc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac59964c-7d23-489b-b429-f0a6ff3a1774)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/59fafd92-33c5-49ac-b4e9-22e953efe1f7)
+
+* The drives we create are called as **partitions**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/29fe8c0a-f12c-4049-ad3b-924925d033d6)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e13fa854-97a7-44c6-a47c-59c7878c52d8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2430681a-9979-456a-aeed-28971165e55a)
+
+## Partition
+
+### Types of Partition
+
+1) Primary Partition -> OS  + user files.
+2) Extended Partition -> Only user files.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bbae6622-9fd9-42bf-be15-6ff0b3929e9e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5857c59-da91-4d86-b284-eae707267923)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fbce9a9f-2165-492a-a6fb-b588fb688cf2)
+
+* **A and B** are **reserved** for **floppy disks**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f2d428e8-2858-40fd-96bf-f871c071c129)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c11ed566-7dea-460f-a7c1-5fe7026ffec8)
+
+* If we change the **location** of a file within the **drive** then the **physical location** of the **file** doesn't change. Only the entry changes in the **file system**.
+
+* If we change the **location** of a file from **one drive** to another **drive** then the **physical location** of the **file** changes and it takes a lot of time for that change to happen. The physical address of the **files** changes to within the new **drive's** location.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/08ccaf91-0474-4e2e-8e80-1a38bee6e675)
+
+* Making disk blocks -> logically, Small-small blocks of disk.
+
+## Disk Blocks
+
+* Disk Block -> A logical unit of the file system to denote sector.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9ab7788-21a4-44b2-916a-42e550524e53)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b37ee4aa-f500-440a-bf59-56877080cfbb)
+
+* 1 disk block -> 1 or 2 sectors.
+* 40GB -> So many tracks and sectors.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b247d20-03a8-4802-974b-828eb4a886ce)
+
+* For **easier** access.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0406f803-c7c7-49a6-8f6f-27ae2963db50)
+
+* As a **user** we cannot access the **file system**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/edc8187a-31bf-4b81-ace0-308efbbfa777)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58db6e66-53e9-48bc-aad7-527fba42dfe1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/13b87a2b-ddc5-4950-8980-0cfbff1f8ddc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6eeaf90e-0f0e-4f99-bd4f-1f1ab2582368)
+
+* In the question, we have **16 blocks**, and we have to no. them in **binary**. So, the numbering will be from **0 t0 15**. It will be done in **4 bits**.
+* The **4 bits** will be called as **disk block no or disk block address**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eafa9a43-5047-458a-a638-3a5f3e8ddfc1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4323bde0-3bd5-42e4-9a55-e0dbafb06c00)
+
+* Internall, the **OS** will have the **disk no in binary format** for all of the **disks**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f3287430-72db-4901-a183-62715aba1243)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c8495a7-059b-4991-9830-6f767267f309)
+
+* In the question, we have **32K or (2 ^ 15) blocks**, and we have to no. them in **binary**. **Disk block number address** should be of size **15 bits**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/29cc7efb-27d7-4728-95bd-cb304f23f79f)
+ 
+ * DBA -> Disk Block Address.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e5557e8-40b5-4cd6-9993-97959a8c19c7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab14ae82-e79b-48e3-aba1-334fbd695b7c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee46d6c5-feca-4b97-a5e2-5fd728afe75f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/362f28ea-52cd-4055-a1a1-34da908b30f7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/60c691f8-403f-4973-acd1-480810cf0a6a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a704a79a-2e89-48bd-b97e-6db96c69c83f)
+
+## File Allocation Methods
+
+* How a file must be stored on multiple blocks and how the directory entry should be made.
+* Directory entry -> On which-which block files are stored.
+
+> For every file, there are **directory entries** are made. On which-which block, a particular file is stored, those **entries** are made.
+
+* It is managed by the **file system** of the **OS**.
+
+## Types of File Allocation Methods
+
+1) Contiguous Allocation -> Like an **array**.
+2) Linked Allocation -> Like **linked-list**.
+3) Indexed Allocation -> 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb797741-769a-429d-860d-198d65224c9b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/751b3015-0288-41f7-990c-3839a840f4e3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/707cf4e9-60a4-4d83-b278-daa8cfe682de)
+
+## Contiguous Allocation
+
+* A file is stored on consecutive blocks.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/25cb7adc-67dc-481a-9f96-fb42aec9f3d8)
+
+* Different words, same meaning.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b001c58c-d824-4b2a-b4fd-b1ac1d31cd87)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ce6dd1f-286f-4a93-a6e6-a64e4a0c9456)
+
+* From the **starting block no**, how many blocks are required to store the file, that is the **no. of blocks**.
+* Can we randomly access any block within the file?
+
+> **Yes**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6e34c308-078f-4241-9fcc-17e7552d18fa)
+
+* Where can we store the **new file**?
+
+> We don't have **4 consecutive blocks**. We have more than **4 blocks** but they are not **contiguous**. This is called as **external fragmentation**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/de1d59c7-4434-495d-aa26-c32972659d8e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f50c0fb-694c-47b5-b1fb-36106ba267ae)
+
+* We can't store the **new file** because **4 consecutive blocks** not available.
+* It is called as **external fragmentation**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f03a9ccc-687e-42fc-884c-c8ca48398a41)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19d4d2ef-4b08-4b94-8784-16edf6d1ed75)
+
+* Contiguous Allocation **performance**.
+
+* **Solution** of **external fragmentation** -> **defragmentation**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/062787b8-3f56-4b06-8b26-a859628eb01e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dfbe8ef7-553e-4391-9360-bd271f124738)
+
+* A file of **3.5KB** came and each block size is **1KB**. How many blocks we will give?
+
+> **4 blocks**. We didnt use the **4 * 1KB -> 4KB** storage, we used only **3.5KB**, the **0.5KB** is left **unused** which will be **wasted**.
+
+> This is how **internal fragmentation** is happening.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6cd86c29-15fe-4de2-aeae-c292fecbc4bf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ee52d06-671d-4082-b921-92f0cb0dfaf7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7c21194-0c1a-486d-8486-55890390fcec)
+
+* Like **Compaction**.
+
+## File allocation methods (34) [10th June 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b4e06738-85e6-4893-a3e1-e600b6e3c56f)
+
+### Contiguous Allocation
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c950f91-408e-47d8-9793-39b3b56b3a7d)
+
+## Linked Allocation
+
+* Need not to be stored in **contiguous/consecutive** memory locations.
+* It is not like **C-language pointer**. We are putting the **disk block no** at the **end**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b7fc4ca6-0cf0-4918-adbd-b0a3b83f7324)
+
+> At the **end** of **block-2**, we will put the **disk block no '7'**.
+
+> At the **end** of **block-7**, we will put the **disk block no '4'**.
+
+> At the **end** of **block-4**, we will put the **disk block no '3'**.
+
+> At the **end** of **block-3**, we will put the **disk block no '12'**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5784a119-f0db-45d5-bebb-014164ebfbff)
+
+> In the **same file**, we want to **add** another block to **extent** the file. We can take **any random block** which is **empty**, we can allocate. We have taken **block 10**. and from **block 12**, we have linked **block 10**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/79695ce2-1125-4704-b1d0-d4eff7fe9f56)
+
+* There is **no issue** of **inflexibility** when we try to **add more blocks** to a file.
+* There is **no problem**, if the blocks are **not consecutive**. We can make **any block**, the part of the file. So, there is **no external fragmentation**.  
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6133d382-dd5f-4d5a-aea7-93d9251b4b51)
+
+* There will be **internal fragmentation**.
+* We cannot go **random/directly** to any block within a file. We have to go **sequentially**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35afcbc0-b7f1-4bc7-bfff-2f788488af65)
+
+## Indexed Allocation
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27f47861-2278-4c3d-91f0-80c419ddc648)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/652fd3fc-0491-49c7-bd4b-b97fc927bd81)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3910cd76-f8bc-4614-a1db-5a838a204b76)
+
+* Multi-level indexing.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a112f9b7-9af6-42bb-8503-eb003bd7d48f)
+
+* If we want to access the **abc.docx** file then in total we have to access **6 blocks**. To access the whole file we have to access **6 blocks**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2224747e-c81a-42bc-938d-d383c3b9cfed)
+
+* yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d53bcc42-1d62-4ecd-acac-fdb0bdd6f09f)
+
+* Indexed allocation **performance**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d87823c-49c3-4b85-ba6a-cc3e706af8aa)
+
+* If one **block size** is **1KB**.
+* Total files space = 252 * 1KB = 252KB
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3965a1a8-9241-40e2-81e0-abe7c6eb983c)
+
+* The **no. of blocks** is there in the **disk** that much amount of **indexing** we have to do.
+
+* What are we keeping in the **index**?
+
+> **Block no**.
+
+* **One block no** is **16 bits =  2 Bytes**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76760458-c4ef-4b6c-b0a7-08adff8a8679)
+
+* **2 ^ 9** indexes we can keep in **one block**.
+* How many blocks for **2 ^ 16** space?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bce25372-f99d-442b-813d-86b1f1def5fe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0602261-c86a-4fe1-b6f3-e5a7e95a1c92)
+
+* In **one block** we can keep **2 ^ 9** indexes. So, for storing **2 ^ (16)) indexes, we need **128** blocks.
+* Total blocks we have is **2 ^ 16**, out of that we have **minus/substracted** the **no. of index blocks**. We got to know **how much/many** are required to store the file.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f3fa962e-ab44-438e-a5e2-48fa37c9e9bb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce95f680-ee26-46f6-a4cb-6be1d6979745)
+
+* DBA -> Disk Block Address
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c635de1-8d86-4588-99c3-13d6317100da)
+
+* No. of blocks to store file.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cdb80d0e-b5f9-43ed-8117-1e2afdee69f5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/deda90f2-cd61-4d8c-bb21-59c7dedd1cb8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6541cfff-fbb1-4229-89f8-b53e9c93c964)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8884eab4-ee9c-4f2b-a1c2-98404a597cd4)
+
+* Increase the indexing, if it does not fit in the table/block.
+* If we have done **3-level indexing**, first we will get the **block**, from the block we will get **more blocks** and from each of those blocks, we will get **even more blocks**. From those last blocks, we will get the **file numberings**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/239955e5-f71d-4add-b83f-2c22ed1f7fdd)
+
+> If we have **single level indexing**, then how many index we can store within a block = 256 index.
+
+> Every **index** will take us to **one disk block** which is of size **1KB**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/07964217-1345-42f7-92e5-047abaafd546)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa84589e-e1cf-4947-927b-050a3ff82f4b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd7ceea1-306a-4b75-b47d-4549e13caab2)
+
+> In **2-level indexing**, the **innermost index block** has 256 indexes. The **2nd index block** on the **right side** has **256 indexes** as well and they are linking to **data blocks**. Each **index** is linked to a **data block**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6cb8f384-f898-45f2-9db6-80085a780dff)
+
+* **3-level indexing**
+
+* Which technique is good for storing **bigger file sizes**?
+
+> **Multi-level indexing**. If we take the **index allocation** to **Multi-level indexing**.
+
+* All of the problems faced by **contiguous and linked allocation** are solved in **index allocation**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/60a49862-4aed-4ba3-ae54-219e33fbbde5)
+
+## Master Boot Record
+
+> WHen we start the computer system, to bring the **OS** into the **RAM** is compulsory because if we don't bring the **OS** where stored in the disk into the RAM then the computer system will not turn on.
+
+>  Until **OS** runs, we cannot use the computer system.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/00826595-1b3c-4a97-a9f4-a713067cea94)
+
+## Unix I-node Structure
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c0822e4-261e-4019-bfa8-6406e5e37666)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81162271-2d8b-4bb0-8cb1-598af1535d1e)
+
+> If the **no. of Inode** are fixed then that many **files and folder** can be created.
+
+> **Inode** limits the **no. of files/folders**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2eb9b22b-fef2-479c-9bc5-eb7ad02f6ece)
+
+* **Inode** is within the the **OS and within the file system of the disk(disk's file system)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/771f826c-83ef-47e1-8d49-7d11b36459da)
+
+* **Yes**, **Inode** is for unix only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ca9c9d5e-8518-4075-aea0-2dc4af277a1e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86196e1c-45c7-4e56-b688-99af5eb40386)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/feff033c-f1a6-43db-a920-417d15cfc912)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b181d75-9c44-4eb4-9c1e-06870aacdfe5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e86a95bf-217c-4ea3-88be-dce1df097213)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5d70078-f696-4a51-80e1-788e22473f31)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd554e06-dab6-4525-b531-d6c358e40a32)
+
+* Max file size -> We will occupy everything.
+
+> We have **12 direct** pointers. From those **12 direct** pointers we got **12 blocks**.
+
+> **One single-indirect** pointer has **1K** blocks as well calculated that **no. of indexes** per block is **1K**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db4370ed-6620-44b0-9439-b08c93450c0b)
+
+* **One single-indirect** pointer
+
+> For the **one double-indirect** pointer has **1K * 1K** blocks because the **first 1K** indexes points to another **1K** blocks. That why **1K * 1K** blocks.
+
+* Total no. of blocks = 12 + 1K + (1K * 1K)
+* Every block size -> 4KB.
+
+* Max file size -> (Total no. of blocks) * Every block size -> (12 + 1K + (1K * 1K)) * 4KB -> 4.004048GB -> 4.0 GB
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/78da79ed-4ae2-431a-af64-08cf1118b2dd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b288725a-f1cd-44d3-a664-5a57b30f19f9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf2dfcb8-2231-4474-b1d6-c17fe4c6453f)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/579691b9-245b-40e8-98dd-daa57081cb94)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8d63915-400d-4b4a-8e1a-f022ec100b49)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/82794747-146a-4cfa-95a0-37ca69fef9d1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a0666bfe-9bed-479d-a5f7-64e4402cc46d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/13f9acdf-4cca-4c7a-9d00-c4947e0c48fb)
+
+* Not asked in the question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/94cf6cda-b3b4-4800-9eb0-be42465075b4)
+
+* Answer for **200 bytes** block size.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0b87e91-e8a6-4462-9dfe-1edac967fcae)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/badd31ac-efe6-4478-8810-eddda6d21c76)
+
+* No need, leave them.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6964869-82ba-44f0-922b-f0e6989a958d)
+
+* Yes, not needed
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd548941-ec45-41a1-80e2-5530720384ee)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f42feb4a-61de-4ef1-acc2-3da127558f61)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d3a04cf-81f1-432b-9d9e-6c3658935e9d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed2f75b1-8948-4f60-af4a-60dd32bc56c4)
+
+* Internal fragmentation in **contiguous allocation** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09b14974-037d-45d6-800e-b4fede4d552e)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0acde21e-e0d1-4f41-a0a5-044be10ba91c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/17d4930a-21de-4433-a7f1-d94833515c71)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf65891f-b27d-49fe-8c5f-041bce1c839e)
+
+* **0.4 * (10 ^ 6) bytes** of entries we have to store in the **file allocation table**.
+* From the total disk size remove **0.4 * (10 ^ 6) bytes**, we will get max file size.
+
+
+### Doubt
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a16e38e-341f-4811-88a8-859752873bb6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85956059-873d-4eb3-85f2-80c29aaaacc0)
+
+* It is not exactly **deadlock** it is kind of **livelock**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0966c64-d889-47a6-b245-9b86d51f03f0)
+
+* In this case, **yes**.
+* If **livelock** not mentioned then **livelock and deadlock** are **same** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/584dc841-c114-4761-a61e-0a7769cac950)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e3676ff-2852-48df-aeb4-4f39bc1b284e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/edce7888-16e0-48d1-8e2e-291755f722a2)
+
+* **Statement B** is **True**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe88d4a7-e08e-418c-8dd7-14f79d97a39f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b63e652-7f2f-4281-91dc-e789c38f0bb6)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/601cbb00-7585-4838-a189-1b467107c4fb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff7dcde9-ca8b-4935-9a94-b7e7758967b8)
+
+* File System -> HDD
+* Virtual Address Space(VAS) -> Virtual [Process size]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a479a401-1954-409b-ab7a-1cc2191b44c4)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/18a3cd89-6b14-4296-8a0f-5826001650b3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76bd0a1c-4c8a-4ef8-a46a-5e513a3315d9)
+
+* Leave it.
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91839a9b-7297-4ee6-9995-aad3b7885de4)
+
+* Try it.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a9958154-0732-48d6-94ee-0bae2b3d2fef)
+
+## Disk scheduling algorithm (35) [11th June 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/679cc47c-3e0c-4c12-b566-b6aaefcc1c8b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6fd340fd-eae6-4143-982e-1c56fd8da574)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b47fb170-6cb9-43dd-a797-6d3abb450451)
+
+ > Compared to **cpu access time**, which is **10-20 ns**, the **disk access time** is **10-20 msec**. The **difference** between **cpu and disk access time** is **10 ^ 6** times. It is means **cpu access time** is **10 ^ 6** time **faster** than **disk access time**.
+
+* ns -> 10 ^ (-3)
+* ms -> 10 ^ (-9)
+
+* The **access time** of **disk** has a lot of **support/help** from the **cylinder**.
+
+## Cylinder
+
+* Collection of tracks of same radius from all surfaces.
+* To **save seek time**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/07a48c5c-a90e-4df1-8a77-a3fb4c627c59)
+
+## Disk Scheduling
+
+* Done by OS(more specifically, **file system**) to schedule I/O requests arriving for the disk.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6181e88d-3e35-4ee9-b1b8-44936cf2496a)
+
+* Sector -> Disk block [According to file system]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9537ed22-4c79-41b3-a3f4-a94b0beaa1bf)
+
+* CPU
+
+> If any **address/request** goes to the **disk**, first the OS(file system) comes. The **file system** checks which file the **request** wants. Whatever is the file, **file system** opens it. 
+
+* In disk, **file system** is only thing which can access the **disk internally**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f5acc72-aea3-440d-bd75-f59cfe77c1dc)
+
+* CPU can generate address of sector where file is stored?
+
+> **False**. CPU doesn't know where the file is stored.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bbf91b78-4488-4a40-87a9-59f139d45ad0)
+
+* **Yes**, when we are talking in terms of **COA**.
+* **No** cpu can't even generate the address of main memory when we are talking in terms of the **OS**.
+
+> In **OS**, we talk about **logical address**. If **OS** generates **logical address** which is for main memory.
+
+> For convertion from **logical address** to **physical address**, we need **main memory unit**. 
+
+## Disk Scheduling Algos
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/226234b4-f2ca-429b-a9e1-1eba0454a15e)
+
+## FCFS
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/20cd4f13-7400-4a31-9616-7f77253a5569)
+
+> In the above question, it is not given, but in every question, we will **assume that** according to the given **request** that in **total** we have **200(0  to 199)** cylinders.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6cb06004-b806-4a7c-b0b5-69cc841003f7)
+
+* Inner most cylinder -> 0
+* Outer/last most cylinder -> 199
+
+* The **current position** of **read-write** head is at **50**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a69f1968-52a0-4ca1-9740-e39ffd22327e)
+
+> We know what **FCFS** algo does. In which **sequence the requests** have come, fullfil them according to that **sequence** only.
+
+* The **first request** to be **fullfilled** is **72**.
+* The read-write head is at **50**, we have to move it backwards to go to **72**, ofcourse, it will take **some time**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3710f84a-a5af-4e89-a984-4fa142e3639f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3476032a-22ac-4242-bdf0-93cefe1d246a)
+
+* I this way we are going to **fullful** the **requests**.
+* **Dot(.)** represents the location of the **particular cylinders** where we have **fullfilled/serviced** the **requests**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/29f57fde-8e9c-437b-b00b-8930f731dee8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80247acd-fd89-417e-aab0-7bd7cde58ac9)
+
+> In whichever sequence the requests have come, in that sequence we will fullfil the requests as we are using **FCFS**. We cannot see the **upcoming** requests in the **sequence**.
+
+> That's why we didn't **fullfil 130**.
+
+* **Question Asked**
+* What is the total **cylinder movement** or **read-write** head movements on the cylinder?
+
+> (72 -50) + (160 - 72) + (160 - 33) + (130 - 33) + (130 - 14) + (14 - 6) + (180 - 6) -> **632**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/59933880-b487-4609-94c4-661b26728c47)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1dc0b7c6-36ff-46a9-bb1e-11cc1925895f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ca1b207-39fc-4c82-bf69-44646c10d95a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae84b975-e91e-4ea6-9a5d-fcabb9e7f10a)
+
+* If one cylinder head movement takes **0.5ms**, then what is the **total seek time**?
+
+> (**No. of head movements**) * (one head movement time) -> 632 * (0.5ms) -> **316ms**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5bf2093-117b-42f7-bbd0-55382a1207bf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/38e43ef4-f3de-4483-9c3e-83fd0218a261)
+
+* If every time disk head changes direction, then additionally **1 ms** needed.
+* Total **seek time** = 632 * (0.5ms) + 4 * 1ms = **320ms**
+* **4** is the head changes directions which was **4** times.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed37a5ed-6c0d-4285-a28c-4c8cc74d5c6d)
+
+* In the previous question, if seek time per 100 cylinder head movement is 25ms.
+* Head direction change time = 2ms
+* Total seek time -> (632/100) * 25 ms + 4 * 2ms -> 158 ms + 8ms -> **166 ms**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8bc97213-03b2-42d3-9dc9-5baaa98a653c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/42994443-da4f-4d84-b29b-96c6c5eb2022)
+
+### FCFS advantages and disadvantages
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ee101bf-749a-4c9e-92ef-94b3dad7a8c4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/112395eb-2e68-49db-9db7-d73157271b5a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a0aff86c-c785-4e2f-acc5-3d60be39408b)
+
+## Doubt clearing session (36) [11th June 2023]
+
+### OS Revision
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be2a34e4-ea60-428a-a980-7083366f8f7f)
+
+## SSTF(Shortest Seek Time First)
+
+* Serve the nearest cylinder request first.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/450d6fd8-89b9-452c-afb2-7cc54ee86230)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d2fb5581-930e-4672-ae6d-3dae74da4ed4)
+
+### SSTF(Shortest Seek Time First) Advantages and Disadvantages
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27cf5f2f-5545-41bc-99c0-7e3972381cbd)
+
+* Minimum possible head movements -> Advantage.
+* SSTF is **practical**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f9a101dc-7275-4b15-b009-38e8afcebadb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0749b9e-89d8-447c-b8f5-1c9674cb355d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/25594593-8806-4197-98e7-62604a3b9aa9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05bcaab3-b455-4f63-ae65-7e454e511690)
+
+> From the **current position of 97**, we are getting a **tie** on **82 and 112**, the difference is the **same** which is **15**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5d4719d-ad7c-4894-8db4-99daf885e62b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8cf7f56-66a5-473c-a11b-d56be81467a7)
+
+> The **tie breaker** will be mentioned in the question only. What is the  **tie breaker** that will be mentioned in the question only.
+
+> The **tie breaker** would be like **always go to the right** or **always go to the left**. Something like that.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/145cd0a3-3d5b-4365-87a9-390250eb5620)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ae7e920-13a6-432b-ae22-0634bf67be91)
+
+* Another tie breaker.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4cd64599-5215-42eb-872b-74548749aa14)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7abac31b-7ba2-4128-b96c-35939e0fea54)
+
+* We are not guranteed to get **min. head movements**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32579976-aa41-4469-941c-ebda240bae5c)
+
+* We will remove it. We cannot give gurantee.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50499762-f0d7-4180-aa2c-181c0e4a827e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65407ca4-c37c-458d-bc3d-a3f56cf70307)
+
+## Scan(Elevator)
+
+* We will touch **199** as well, even though it is not in the sequence order. Till the **last one**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f564d5e-1a26-4a0b-9b6f-5694f568067a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb1917b4-09c4-44b5-ab44-62e48a6cee42)
+
+* The arm should move **towards the smaller value**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/26386fab-6cea-4ee6-8480-53b108ad338f)
+
+* We will go till **0** when asked to go **towards the smaller value**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c7916da-aecd-4679-9f97-684c31194b95)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f3737634-6f86-4615-b835-369039ba4733)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2362e5ab-32fa-44b6-8e2a-fe7dbc84587d)
+
+* When we have to **change direction** for **pending requestus** then only we have to go to the **corners**.
+* Direction change can happen only from the **first and the last** cylinder number.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/84044ad1-4a2c-452c-a451-bddd8ed01528)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3dd0042b-6924-43d4-b83a-cdfe6b0468bd)
+
+* No **starvation** here, **waiting time** is **definite** here.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c96e3f91-646b-4f42-b9be-05cbae3ade01)
+
+* Can't say for any **algo**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ff77b69-2cc8-4426-a71b-49d22bd3c8d2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eceff837-23b6-4095-9518-d203e3d972fa)
+
+## Circular-Scan or C-Scan
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/20935acb-eb5a-4750-a824-ba300aabc11c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f9a9d8d6-e184-4fb8-a801-a15571543634)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3b5fc0e0-5995-4f6d-9e9c-bcad2b476e64)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b95825ed-9c00-43af-ae39-184ae2a60ace)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5d1fe88-1df6-4bea-8bd1-8cf74ad54004)
+
+## Look
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/02e50f78-00b7-4d58-ac3a-e04cf8e93bbd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36efc80b-5759-4c40-990c-88f03d60dc6b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/adaffcfa-f11e-49cd-948a-50eeb4db6111)
+
+* Ofcourse
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ecf4119-9b67-4619-88aa-6d9fb68256e7)
+
+## C-look (Ciruclar Look)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76b94263-67d8-404c-8fbe-c9d52531681b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/049bf46a-158e-4209-bac3-8ba1573306cd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5860ea9-1bb1-4c4b-8c42-3463e9209596)
+
+### Questions
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b3605c8-040c-4bf8-953a-7379b5f400a1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1241b85-2c4b-4eb4-84b3-db1653265be7)
+
+* Disk is **IO** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5f3e700-2c6d-4ba9-aa76-3a9a967cdbcf)
+
+> Only one process is there and one process at a time can request for disk once. If there is only **one request**, then there is no need of scheduling. Any scheduling algo we run, the request will behave the same.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac14283a-69fd-4086-8160-cb8c820bd804)
+
+* Not a valid question. More info needed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0555364d-ecbb-4d17-a034-7bc47ac03028)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/93182aeb-7a8e-4556-a819-af070553ae9e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c2399e3-a309-43fe-8ad6-7d2bae9642aa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b4592a81-2d59-47ae-9597-9f5ef41dc0eb)
+
+
+### Quiz-6 Solutions
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/095f8599-179a-471a-95ab-f48c56c656f6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd0a657a-9048-4c4f-bbee-dc35ccf46564)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3bb22552-9d33-43d2-a896-24d5d543744b)
+
+* **Short-Trick**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/507571d6-a21d-4c6d-b1c5-e80a2415879a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/26d28b01-c3e8-498d-8adc-9f5fef1e01f0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/700fbbc0-b3ea-447d-bbdf-fcc5d3005abd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c01444b9-7a29-437f-bdb9-1931379ba797)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee6077f6-fd0c-45d6-9a69-2a84960e61a8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/427cd676-66b4-4d18-bac0-1356cc91552e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4895fb26-6189-4a36-93a5-aa9e0bc8ba5e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/395f876e-4757-43c6-902d-254cf4ec4e0d)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7aa1b8d-9724-44e2-84af-0a377cf6c6a4)
+
+* Explaining the solution again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6580f099-e3b6-451b-a0c6-64662d2fc822)
+
+* We cannot go any further than **1023**. It will be more than **2047**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa53acca-7b1f-4591-9d8b-eb3204c78494)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c485abf9-ae18-4d03-82fb-c79c8d227642)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fae86f29-5ad7-4a19-ab16-8b5a27d3d39f)
+
+* Instead of starting from **1024**, we are starting from **682**. Then we can go for **2047**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dfec2d31-466d-4bf7-b7dd-9c344a1a0079)
+
+* Then, we will get **11** as the **answer** instead of **10**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cafbc369-1a61-459a-b9ea-de082d62ac08)
+
+* Sir said take **11** as the **answer**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/55c54758-1ecc-48d0-9bd8-a5ed662ba0f0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/281733f5-ea23-4428-9ae1-bf00dc392b03)
 
 
 
@@ -4184,6 +10106,16 @@ P1 -> Key -> T/T
 
 
 
+
+
+
+
+
+
+
+
+ 
+ 
 
 
 
@@ -4199,7 +10131,8 @@ P1 -> Key -> T/T
 
 * **D** option.
 
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f448e639-75e1-49af-b1ef-e092988eed58)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f448e639-75e1-49af-b1ef-
+e092988eed58)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/268cadc9-6650-4322-9f8e-941a02a2f551)
 
 * Fatal Error -> Suicide of process.
@@ -4313,6 +10246,15 @@ P1 -> Key -> T/T
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5cc29142-4e59-4773-bb72-59cd27ec2df2)
 
 
+## DPP-4
+
+* Lecture -> 17
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31c8cb9d-bc28-4644-8b24-b59712179589)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d2d325f8-546e-48b2-918c-20144517c560)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f72686e6-0c04-4bb3-824e-9b34aaa1f677)
+
+
 # Quizzes
 
 ## Quiz-1
@@ -4327,6 +10269,34 @@ P1 -> Key -> T/T
 ## Quiz-2
 
 * Link -> https://unacademy.com/quiz/quiz-ii/JJ6SJ7HLB3/solutions/SP_G8GL3S7HJESZHBT99
+
+## Quiz-3
+
+* Link -> https://unacademy.com/quiz/quiz-iii/AVRIC22O5M/solutions/SP_D84HGTK6E9KKPI0F1
+
+## quiz -4
+
+* Didn't happen.
+
+## Quiz -5
+
+* Link -> https://unacademy.com/quiz/quiz-v/CWTS3VALF6/attempts/SP_J3QAFYP1CL6ZPXNKL
+
+## Quiz-6
+
+* Link -> https://unacademy.com/quiz/quiz-vi/V24XEP9FTT/attempts/SP_9R57GWCFHTJZAGWXK
+
+# Numericals
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d5852973-b8e8-460a-b061-a7ceb375fc8c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16acc848-3582-4001-b38e-a9324784b1b2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c0dca06-3bab-490a-a65e-f42aba3abf75)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fcc25cb3-c54b-4396-bf97-ba0b0b20553c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c68466d-2571-4737-8515-a2742290ef2c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/682a0d3b-f69c-405c-917f-74e52318e4aa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/171fabdd-b7e6-4935-9d3d-68df08b8ef4b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76b6e0b3-6504-4e4e-8049-4e0f95aa53d8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44f5eece-cb12-40ae-af5d-1c99a1540ef7)
 
 
 
