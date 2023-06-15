@@ -2380,6 +2380,153 @@ N -> No. Or Number
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/697eccdb-bce9-4f64-b123-344fcdb345b4)
 
+## Verbal reasoning part-I (10) [15th June 2023]
+
+## Verbal Reasoning
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6de7b509-497c-4985-aae4-ce0bb83bcbad)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fbeef951-d37d-4494-9f4b-97ae5ee80306)
+
+* Option **C**.
+* Whenever -> Whether.
+* If it rain, we shall get wet.
+* Whenever there is the use of the word **whether**, it is a **choice between two**.
+* I cannot able to understand **whether** to go for a or b. 
+* **If** -> Conditional clause.
+* **whether** -> Choice between two things.
+
+* When I saw the baby, it was crying. -> **Correct**.
+* We use **It** for **three** things:-
+
+1) Non-living things.
+2) When **gender** is not specified.
+3) Temporary Subject.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/94a0b0ac-0cb0-40b9-bf3a-3be886c958d0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d3cccb6-b62e-4bdf-b120-3be532f0737e)
+
+* **It** usage.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/679847ff-a0fb-4377-89ec-8681647ad9f1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dff25003-537a-427b-87b3-2bf115375fd5)
+
+* Option **B**, **False**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b013c503-4b76-422c-a05e-4272be81c020)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/00ee6657-2918-424d-a9c3-bfd42bef4c51)
+
+* Option **B**.
+* Schizophrenia -> hallucinations [Can't distinguish between the real and the virtual world]
+* Consequently -> As a result off of what.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66976464-aede-43af-a9bc-95f86845e5a5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36293992-ecfe-4b02-b10d-7302bf38894f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c4759550-0d8a-43d6-909a-74c8086eca3e)
+
+* Only -> Don't use **only** word that easily or so easily.
+* Option **D** -> **Opinion** not the **assumption**. Extreme Answer.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2988c0f0-5c77-44ab-9368-94cec4199c24)
+
+* Certain -> Some.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/28284e0b-d9e7-499b-87a7-a32c28a46b9d)
+
+* Option **B**. Correct answer.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/88a8d8dd-b6cb-432e-b61d-eaf546d285fe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f555f8fe-f53c-4aa6-a74a-94016661a020)
+
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed722ff5-282e-406b-bc9e-6acdb01e993a)
+
+* Conclusion -> What can we conclude.
+* Inference ->
+* Deduction ->  
+
+* CID
+* What can be infered from the above paragraph?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d258b396-85e6-450e-ab4d-171c9c88afc3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2044270b-b9ff-447d-9816-3361f5a47e90)
+
+* Verbal and Critical Reasoning:-
+
+1) CID [Most focussed on in GATE exam]
+2) If **True**, then which statements, **strengthens** the above argument. **Bolster, underpin**.
+3) If **True**, then which statements, **weakens** the above argument. **Undermine, undercut**.
+4) They will give a paragraph and they will **delete** the **last line**. It is will asked, **Which line is deleted?** from the above paragraph. **What is the center idea of the paragraph?**. Most **Miscellaneous** questions as well.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b577499-cf2f-4099-b4b8-b851ea3576e4)
+
+* There is **no difference** between **conclusion, inference and deduction**. All **three** words are the **same**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d61d2a33-d21b-43ae-9b95-a64a6ad88f33)
+
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a11db35-c336-4e0a-bc25-e69d93690baa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eed32c52-8ec6-4bec-8cbc-23848e4ea461)
+
+* **Colonization** -> Negative Word.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fdf52f87-5a01-4f8a-86b3-fcdabaeb8707)
+
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c974ca40-026c-418f-a55f-e80b2e3d1e4a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e07f9070-21d1-4c18-992c-287231ac64f7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dbe2905f-9b5f-4be1-8c95-6e0305e09bfd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1de64112-e58f-45b4-9b4a-e64b669e417a)
+
+* Option **B**. **II and III** are correct.  
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63f7cb4d-ec3a-41ce-82d5-17304a98616e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97731156-9b38-4103-82f1-ad9d05926d26)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a401805-c12d-4c24-a45f-21580784aece)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/84c877ad-c7ba-44a3-bbf0-fb31dd8d6b91)
+
+
+* **NOTE**:-
+
+* **180 degree words**:- [**IMPORTANT**]
+
+1) Though
+2) Although
+3) However
+4) Despite
+5) Inspite off
+6) But
+7) Yet
+8) Notwithstanding
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb044243-9bad-49f0-bf2f-7197aa83acbd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/085e7b97-619e-49ac-8107-58e606de648e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66768ef7-87e0-418c-b7a5-af44e7291fe2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2e978c2c-25bc-4c3a-bfb5-674f810b4466)
+
+* Option **D** is **correct**.
+* **Definitely** -> For **Spelling Correction**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e9a981f-3c2d-4cbf-9be2-4a9f97f7f63b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5176852-b2e8-4e71-b2e0-967963b8672b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72d6a55f-0078-49ba-b7bc-e2be002b36b1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4af53ad1-f825-4918-b6a8-a84fa4951293)
+
+*  Ab > S
+*  S < An
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f9226bc6-3008-47a1-9cec-a32c187a2ca9)
+
+* Option **D** is correct answer.
+* **A, B and C** option are possible. 
+* **No unique** solution.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/daa139f0-0eac-4ae7-bef6-25d6984fa17e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ae22e9b-96bd-426b-9d2b-a514e2a54f77)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0efc89b-cd78-4dcf-898c-7d92912deb1a)
+
+
 
 
 
@@ -2455,12 +2602,16 @@ N -> No. Or Number
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d939b857-f2ab-4be6-a248-51e7c6909c52)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89ff32d9-3c1e-4316-9b13-82337bc72fd4)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b11f953-0fc6-4735-8140-cc816c3c252f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f8cab88-7ae7-402b-9eb0-f821442cfa40)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5cc601f-2cf0-4181-a54e-f7c2611314d8)
+
 
 
 # One Liners.
 
 * The world is a drama, stagged in a dream, I am enjoying the show wake me up tomorrow.
 * We attract what we are ready for. [Law of Attraction]
+* Life is a disturbing episode in the blissful sleep of nothingness.
 
 
 ## Scratch Board
