@@ -1,5 +1,9 @@
 # Aptitude
 
+# Topic
+
+* Inequality Questions -> **IMPORTANT**
+
 ## Playlist
 
 * https://unacademy.com/course/complete-course-on-general-aptitude-for-gate-2023-24-585/PMW1DF4L
@@ -2526,9 +2530,161 @@ N -> No. Or Number
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ae22e9b-96bd-426b-9d2b-a514e2a54f77)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0efc89b-cd78-4dcf-898c-7d92912deb1a)
 
+## Verbal reasoning part-II (11) [15th June 2023]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a56316c7-ab90-47aa-8462-b680612aa365)
 
+* Option **D**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41e35a73-d7bc-45a8-a6f9-fde209b60c2e)
+
+* reimbursed -> 
+* Where ever **burse** word comes it is related to **purse(wallet)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58bc62e5-4158-4c31-8aec-9c37930d1c7e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8de6a9b7-017d-4cd7-a160-ad9d582b3cd1)
+
+* Xenophobic -> Fear of the unknown.
+* phobia/phobic -> Fear of something.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd38778f-df07-461b-a38e-cf9c07cfded6)
+
+* Som < R
+* Sh > An
+* Sh < R
+* Sh > Som
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1137f690-5bba-42e9-96d4-8ab88e625f6b)
+
+* Option **A**.
+* Reasoning -> We want **unique solutions(us)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f49c07e8-7b86-421a-a836-3676aa186239)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/52d191a1-4fd3-4d18-b5fe-8be5b39f2554)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/844c44db-a1ca-4398-9a26-3cf9b859a539)
+
+* If we choose **statemen 1** only then we are getting an **unique solution** of **Riaz(R)** as the eldest son.
+* If we choose **statemen 2** only then we are not getting an **unique solution** as both **Riaz(R) and Shiv** are coming as the eldest son.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef739238-ab69-4d28-a4b2-9b509fc12133)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a9db96f-3f4d-4f49-be1f-b8726ecdf88a)
+
+* G > R,L
+* L > S
+* M > G -> R, L
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb07a547-05c0-4e37-8777-cc7815aff690)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/219d0647-2a38-48d2-9c63-f464c32b4ad1)
+
+* **2 and 4**.
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe3da765-ce25-42e8-83b1-de409000b198)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85a1a65f-4798-4ba3-a476-6d8cf37f95b7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b839b802-597d-452a-a7d8-1bb52e559d0b)
+
+* Option **D**.
+* Nationalism -> Positive Word.
+* Jingoism -> Negative Word.
+* Secular/Communal -> Community.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5dcdf24a-40a9-4792-958a-624fb053597d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d93db6b9-a43e-4108-a97b-a52334cd98f8)
+
+* Heterogeneous -> Multiple Philosophies.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e59e864-fc48-430e-9d27-ff2cae0f7bdf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4644a903-ff2b-462a-912f-e5ddd978d596)
+
+* Option **D**.
+* Give in -> Surrender.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57e6dcc8-9193-498c-9704-ac0c75cd04ec)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ddfca01-cdf2-4337-80a9-fd55a3305d57)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e26606cc-557f-4742-a5c3-cc68a1ebba67)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b3e5b6f7-011c-496d-af2a-d2dba1623380)
+
+## Doubt clearing session (12) [15th June 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5d86194-ae0d-48fd-8f58-c203e3835789)
+
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6aaa5058-deb2-4a49-bb0d-4c24d7847e4d)
+
+* Euphemism -> Telling something in a way that the front person doesn't get hurt. [**IMPORTANT**]
+* **Eu** -> Positive meaning
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd88a5b4-e45f-4668-b27a-7846bc753df3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/509dbe11-7c32-42af-9af5-09ffd20c030b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ca91958-8311-4ba2-a46e-00dfef95474d)
+
+* Comes in Exams. Remember it.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a15824eb-2df8-41fa-899f-27ec1030eae4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4a8f42a-1f81-4d28-8ca4-05f06e2e5290)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c9c8ad5-4842-40be-9381-4e19b683b13d)
+
+P -> < 10
+R -> > 10
+S -> > 15
+Q -> < 8 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/54df0d37-1e28-4654-ad30-d89e14e262ab)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/54e3d1c9-5b5c-447a-8c27-e73de2b0fad8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa3baa5f-653b-4eb9-8246-8cd89c8feb43)
+
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/834ad0b5-cf7e-4cfd-a97a-f447e6fefac5)
+
+* **IV**, option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/336f2089-18db-47a9-8537-a23c39d31790)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72d2bdb9-1977-49d9-85ac-d0568f46c8b7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cbf9ffd6-48d2-40b6-94c3-31fdcddb622d)
+
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e23ca479-b0d7-4e3b-879a-5cf212be212e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/970ed274-aee0-4359-a17e-24c61f3e92db)
+
+* Option **D**.
+* Will discuss on next class.
+
+## Quiz-2 Discussion
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0768d646-d06f-4f28-8784-d3f74ac095c8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c4aae29-0cf4-4c11-a082-df07bd45f562)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7092961c-08d5-4d8a-8fce-845ef58836f2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5d05267-cf81-4bf0-ad7f-fb1ca995258b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe93004b-8b24-43d7-9bbe-abcc144d7a29)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41a08f23-0066-4043-80ca-e84a84645f33)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1b14480-c86b-4713-8109-5a05d0442f13)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9291a5fe-6f38-4cf9-9d4a-4043eaa89a36)
+
+* Cognitive -> Thought Process.
+* Cog -> Knowledge.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/638b4846-5f11-4a76-9e8e-cba3749cf849)
+
+* demonstrated
+* demo -> About people
+* democracy
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c6ad791d-9ab0-4d37-b000-c76a242ed99f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e12d9f19-7178-4787-bdee-ff39999174d8)
+
+* We have to change the **source**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2bba5611-8f55-46c1-afa2-b8eebea05351)
 
 
 
@@ -2604,7 +2760,13 @@ N -> No. Or Number
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b11f953-0fc6-4735-8140-cc816c3c252f)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f8cab88-7ae7-402b-9eb0-f821442cfa40)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5cc601f-2cf0-4181-a54e-f7c2611314d8)
-
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/68daf0e7-c1e5-458c-aa44-ce7bd63acb68)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e37b5e4-7c07-4a5a-9836-24b1425f1c45)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ece502ec-e7a5-4f06-ac6a-2929c8f0ea68)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b8f4e23a-adde-4082-a039-23558184be79)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2beda0f7-8fef-4b23-b21f-eed0d870dfa4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66334329-80d3-4434-8550-a734f3c69937)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e7ae7def-8547-4a49-a02a-e202f15f01d3)
 
 
 # One Liners.
@@ -2612,6 +2774,7 @@ N -> No. Or Number
 * The world is a drama, stagged in a dream, I am enjoying the show wake me up tomorrow.
 * We attract what we are ready for. [Law of Attraction]
 * Life is a disturbing episode in the blissful sleep of nothingness.
+* If I have failed in certain vertures of life then I have failed in those ventures and I am not a failure in life.
 
 
 ## Scratch Board
