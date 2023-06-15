@@ -98,6 +98,10 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22faff6c-7865-416c-9e68-4570f81cdedf)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/778fadf7-d40f-4b37-a43a-f60072ce86b2)
 
+## Quiz-2
+
+* Link -> https://unacademy.com/quiz/quiz-part-ii/VG1PAYODT1/solutions/SP_1MB12QGDYY5XM4JU8
+
 # Practice
 
 ## Number System Question
