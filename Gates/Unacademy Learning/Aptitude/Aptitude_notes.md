@@ -2213,6 +2213,175 @@ N -> No. Or Number
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c334f830-77c0-477d-a18c-ee34e00f8679)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a23a205-65d2-4572-9e41-7cf7491a4f12)
 
+## Number system part-VII (9) [15th June 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7925d59f-b84f-4e23-86e5-df0c2240f218)
+
+## Co-Prime Numbers
+
+* **NOTE**:-
+
+* **1** is neither **prime nor composite** number.
+* Prime No -> Divisible by **itself and 1**.
+* Composite No -> **Remove** prime nos and 1 -> Non-prime nos -> 2,4,6,8,10, .......
+* Co-prime/Relatively Prime -> When the **HCF(Highest Common Factor)** between two nos. is **1**. **HCF = 1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b726646f-0b0e-43b3-903a-345a0d4e7e8a)
+
+* For two nos. to be co-prime, is it a must for both the nos. to be prime? 
+
+> **False**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac37d85d-69f7-43bd-bdf5-310700b8d3ba)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58e01899-85ea-45c0-8a25-cd721cff5e44)
+
+* So, for the two nos to be **co-prime**, it is not at all a **mandate** that both the nos. must be prime numbers.
+* The condition for two nos to be **co-prime**, the **HCF** of the two nos. should be **1**, **HCF = 1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef7b6ef0-6039-4b18-a352-f06d83e290c0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b4cafa4-7069-4175-b9f7-e63463d1ef19)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/872eb90c-98e7-4bdf-bf56-84dbc51f9167)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85a9cda5-0d03-4a29-938d-4bbfe4ce3e6c)
+
+* **1, 3, 7 and 9** are **co-prime/relatively prime** to **10**.
+* 4 Nos.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5577c870-949c-4ff2-8541-af73b199947e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5622cd6-4d1b-4fda-886e-42eb7bb02484)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7fd406cf-6333-40dd-ba98-1dce3e4b0143)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a15f1040-271a-4f58-9c4d-233836295f51)
+
+* We are trying to find those nos which are **les than equal to 10** and **relatively prime** to **10**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81af15e0-0d2c-4bbe-b17c-22b8a463872a)
+
+* Factors of 10 -> 2 and 5.
+* All those natural nos which are **les than equal to 10** and they don't have **2 and 5** both. If anyone of **2 or 5** is there in a no., then it will show up in the HCF.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5460e8df-717e-45b4-8b82-0bf801c75646)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/449b2f3f-ee84-4908-b32b-679893bcc32e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb494ef6-b33d-4ab7-b765-d8cb23b4c47b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/45ff311d-81a8-409c-b8d6-987ba05cbea0)
+
+* Factor of **N** are **a, b and c**. So, **a, b and c** must not be there.
+* How many **natural nos** that are less than equal to 10 and are relatively prime to 10?
+
+> Factors of 10 -> 2 and 5.
+
+* So those nos, must not have **2 and 5**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a29ea6a-9e7a-4570-9e72-5a18973e4f8a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f3e6603d-a751-4aa2-9e7f-21aa64f5ec20)
+
+* **STEPS**:-
+
+1) Take the no. and break it down into it's **prime factors**.
+2) Use the **formula** above and we got the answer.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/23b0a4d4-dc04-466c-b6d9-a4cedac95694)
+
+* We want to consider all those nos. which are **less than equal to 21** and **relatively prime to 21**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98071416-055f-4993-bffe-d0cb79734373)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ccc0a619-9ef7-4ce3-915d-b0d115395201)
+
+* Natural nos, less than equal to **N** and are **relatively prime to 'N'.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/21d717ce-220e-4e94-86b0-74b8af863ea9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50061fd4-ab12-4cd7-b17c-5bbc50cffa19)
+
+* **N** -> Prime factors -> (Nos <= N) and (N * (1 - (1/a)) * (1 - (1/b)) * (1 - (1/c))
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22a67194-2cec-4ccb-8a7b-95cf957b711a)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/832949ea-ee0c-47eb-be5c-471772cc16eb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66714a3f-cb7a-4d89-927c-ee6563b9b319)
+
+### Sum of Factors
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/74af7e28-0aea-4c79-b51d-459013817d4b)
+
+### Trick
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e2bc677-df4b-4884-95da-82e5e8fa175a)
+
+* Finding the **sum**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1c557f9-e580-4671-89f9-8460b67c9265)
+
+* Example. Answer is **20**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fed31a2d-4790-4253-bb7a-ad1179e6f6ec)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95f336e7-6257-4d91-a885-5a8da53ec77a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f2df20e8-fd42-4648-a3aa-b273f7f5500c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/90950c6f-7cc0-423c-b134-4d30ff997b11)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/472475af-151b-4cfb-8df3-ccd128bfca2b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c10cd503-8fd9-4f4f-b418-56e25748644c)
+
+* Take **LCM**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/88adf7a7-f494-409b-a70e-e1bd578954ab)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a6a93af-9d46-4722-aa57-ebefc3dff227)
+
+* If we see **fractions** in **powers** then we can take **LCM** of the powers and then **compare** them, which is **greater or smaller**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9dacc3fa-d1c8-4818-a48f-afc135933fa0)
+
+* Inequality.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a268f325-51be-4909-81a0-6ae8100d266b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/887660e3-55d4-4be3-8c40-015de5f9c30a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bbd7ddc8-c297-47ac-a92a-cac50b1ab295)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e51aa007-3d75-45e4-86e3-8934807fce0a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8c592322-7db2-4e2d-a52c-561db12fe39e)
+
+### Spelling Corrections
+
+* Genuine
+* Vacuum
+
+### Finding LCM and HCF **trick**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9bfeb3c6-85ef-4a6f-83c8-7f916b195760)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c7dca52-da12-4113-9bdb-994bf9cbf749)
+
+* Take the nos and find their **prime factors**.
+* **HCF** -> **The common nos among all** the **prime factors**. **2** was common among **2, 2 ^ 2 and 2 ^ 3**. That's why **HCF = 2**.
+* **LCM** -> Take the **prime factor nos.** and put the **highest power of that no** on top of it. That's why **LCM =  2 ^ 3** as the **highest power of that '2'** is **3**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a6f48902-2320-4805-95a0-d7c980724d2f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f4d839f-9087-43a7-96e4-a7baa954f551)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/06fd5023-4ddd-4e0d-b7dc-5a3bf7057a2e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9f6b049-fe25-41c9-ad7c-7687c08b260c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c8e4d2cc-37b1-4a6d-845e-76b211de7853)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c223091b-b50d-4807-8da4-ad706e954cf5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b855157-9049-4204-9c3c-bc14bf095d44)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e8cb2cd-1f1e-4c52-9660-5055b78bc303)
+
+* There is a temple and there are **three** bells, if the **first bell rings** after every **10mins**, **second bell rings** after every **20mins** and the **third bell rings** after every **30mins**. when will the **three** bells **chime** together>
+
+> LCM(10, 20, 30) -> 60mins. [**Answer**]
+
+> We can clearly say **after every 60mins**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2e6bdc4-a941-4862-a7ef-4037d75238c3)
+
+* They will meet when their **time's LCM** meets.
+* They ring/chime together for the first time at **9AM**. From **9AM to 12PM**, at which times they have ring/chime together?
+
+> **10AM, 11AM, 12pm**. **3** times.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ddfb28b4-734e-4521-a151-612fa9bc47c5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4dcfd995-d319-4f63-966d-d905c88ee728)
+
+* **GATE 2023**, question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/697eccdb-bce9-4f64-b123-344fcdb345b4)
+
+
+
 
 
 
@@ -2248,6 +2417,22 @@ N -> No. Or Number
 * Paradox -> Oxymoron.
 * Example -> The Great Depression.
 * Contradictory words.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e7bf1d2-aa95-4af7-b1a4-35d0f8aa734c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d3a51ab-b3e1-4c55-b997-fbd6ed10a9f2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/306c6e71-1d3b-4ad6-acc7-8e14c30ff207)
+
+* **Necromancy**
+* Anywhere within a word, like **man, men, mal, male, mel**, it is always a **negative word**.
+* **Sorcery** -> Word related to **black magic**.
+* **Conjuring** -> To call up
+* Conjure.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d102ac24-2a47-4948-8994-ca85610a7cb0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/28d4b37e-2157-437f-9922-27d0a8f3b4f0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e35ba3bb-6147-48d4-b676-fdbc638a00dd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c48faf08-d69e-4e4a-a163-513b84483f84)
+
 
 
 # Details
