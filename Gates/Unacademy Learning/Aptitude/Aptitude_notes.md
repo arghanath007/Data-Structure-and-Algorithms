@@ -2934,6 +2934,129 @@ Q -> < 8
 
 * HW.
 
+## Permutation combination probability part-II (14) [16th June 2023]
+
+### Summary
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6621ca6e-7f8f-4e1c-92c2-cc084382683b)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4d76e9c-4823-41e2-a4c1-73e3a19d8179)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ca383712-2a92-43c2-b95d-f001df392565)
+ ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/14368a6f-8fc1-4c5b-a89d-767d7f67c247)
+
+* Exactly one **2**.
+* The **2** can come in the **unit's place** or at the **ten's place**. **Two cases**.
+* We are making sure by not considering any of the other **cases** where **2** can come any other place. To make sure we have **exactly one '2'**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/658b5115-00ff-4a69-b60c-7d53d428e536)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/560b951c-4fa8-4ca8-81bc-aec5ac5746b8)
+
+* Exactly one **2**.
+
+* **STEPS**:- [**IMPORTANT**]
+
+1) We make sure that there is **exactly one 2**. The **2** may come at unit's place or ten's place.
+2) We have also made sure that **2** must not come at any other place.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1cfca0f-77b4-482d-9199-f76d39608eba)
+
+* Exactly **one '5'**. Question.
+* The **5** may come at unit's place or ten's place.
+* We have also made sure that **5** must not come at any other place.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9c456f7-a81c-4356-82da-bbd2ada8f253)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/514ce555-8294-4197-9ecd-8b45806994f4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/154911dd-f4ca-4abf-95f3-ee79a2164dda)
+
+* If we have written **3-digit nos** and how many **3-digit nos** are there that have **exactly one '5'**?
+
+> All the **6** examples have **exactly one '5'**.
+
+* **Repetition allowed or not allowed** is not given/mentioned, usually it is not given/mentioned.
+* When they say **exactly one '5'** -> It means that other than **5**, do whatever. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f38a12d2-0cd9-4731-bdd4-248676a8498e)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22fbc155-556e-4ec8-9192-d947b567a775)
+
+* Question. Exactly one '5'.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ece8d9aa-9e8c-4f96-82b6-eb1d2253b0a5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a929ac8d-f5a2-43b8-916b-8a930da5b939)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8e1ff4e-e539-4dd2-a44c-c2bd7e88e98d)
+
+* Answer -> 48.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1fcafeca-011a-4b80-9f1d-f7c186b25c9d)
+
+* **TRICK**:-
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/21242554-aa3a-494d-8672-f5979a85ba86)
+
+1) Do for **one case**.
+2) Whatever no we got **multiply** it with the **no. of digits no.** is asked in the question.
+
+> Here, it was asked for a **3 digit no**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c847c686-d894-4dc3-978f-11f77ab04fd2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b3003e3-c06f-4ff6-bc88-b349e8ec76ed)
+
+* Exactly one **5**.  Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c6a7464d-6203-4ffa-8a66-95c4bc12e54e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/68f7187c-574d-4b8a-bcc3-f80d88cf69c9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e819758b-f8ae-4d15-b7b6-21551042de71)
+
+* Range from **1 to 5**, **3 digit no** and **exactly two '5s'**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1add0f1-0704-4fde-bde8-d3160d6acf00)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c6b7230-1a4a-43d8-afba-ac5d665a9298)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e7c4361f-5307-445e-a03f-df14946e3822)
+
+* **Exactly one '5s'** -> 48.
+* **Exactly two '5s'** -> 12.
+* **Exactly three '5s'** -> 1.
+* Total -> 48 + 12 + 1 -> 61
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0de353f-1b9d-4601-bd38-2e8294685620)
+
+* Using the digits **1/2/3/4/5**, how many **3-digit nos** can be formed which have **atleast one 5**? 
+
+> **61**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2245f04d-caaf-4efe-ae1a-b96b66709d48)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/48ddc9eb-7fc1-405c-8ffe-2b479deaeef7)
+
+### Atleast one '5'
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8bb4e79-d2a2-4958-974a-5f441021f792)
+
+* **Atleast one '5'** -> Total - (what is not required).
+* Total -> 5 * 5 * 5 -> 125
+* Not Required -> The cases, where there is **no '5'(1 - 4)**.
+* Not Required -> 4 * 4 * 4 -> 64
+* **Atleast one '5'** -> Total - (what is not required) -> 125 - 64 -> **61**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b8d8edf-c777-463e-8459-0a9204374b3f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32f1e381-a9dd-458d-9774-2d4e04c49032)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f3a5c25-acce-48b7-98e2-dd0b832bd664)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f45c7c9-f5f3-40f7-bb1d-001d74b16df5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5c5d5e4c-d237-42a0-9f08-3abb920ae99b)
+
+* Continue from **53mins**.
+
+
+
+
+
 
 
 
@@ -2979,6 +3102,16 @@ Q -> < 8
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/28d4b37e-2157-437f-9922-27d0a8f3b4f0)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e35ba3bb-6147-48d4-b676-fdbc638a00dd)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c48faf08-d69e-4e4a-a163-513b84483f84)
+
+* Wearty -> Exhausted
+* Wary -> Cautious.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2e53daaf-f52f-4c98-8bdd-88d6d6603abe)
+
+
+
+
+
 
 
 
