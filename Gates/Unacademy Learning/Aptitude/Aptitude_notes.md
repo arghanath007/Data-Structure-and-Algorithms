@@ -3150,8 +3150,105 @@ Q -> < 8
 
 * Answer -> **50**.
 
+## Permutation combination probability part-III (15) [16th June 2023]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2440e351-78ab-4a12-ae4b-350743075461)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/037ce7ba-ab5f-4681-8230-794cf59309ce)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a3d2849-ed86-4a73-8a6c-c8d7b477b67f)
 
+* **Repetition**:-
+* **Divisibility rule of 4** -> Last two digits -> 2 ^ 2 = 4.
+* That's why we **fixed** the **unit and tenth place** digits **together**.
+* So, we are taking the **unit and tenth place** digits **together**.
+* We have got **4 cases** among the range of **1/2/3/4** where **Divisibility rule of 4** matches. 
+* **Hundredth place** is **independent** of **conditions**. That's why we put **1-4** and **4**.
+* For the **unit and tenth place** digits **together**, we got **4 cases**, so we put **4**.
+* Total -> **4 * 4** -> **16**.
+ 
+ ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1b5de4d-b11a-4cbc-bc53-4fd363757793)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a09865e-62c4-4dc6-8628-d27f74ed308f)
+
+* **No Repetition**:-
+* We cannot take **44** as **4** is being **repeated**.
+* We got **3** cases for the **unit and tenth** place.
+* We have **1 non-zero(NZ)** value at the **unit place** and **1 non-zero(NZ)** value at the **tenth place**.
+* So, we have **4** conditions for the **Hundredth place** but **2 non-zero(NZ)** values are used in **unit and tenth** place, that why **4 - 2 = 2**.
+* Total -> **2 * 3 -> 6**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf66c83c-2e07-474b-b447-8327b66e4352)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b55379c0-5be8-4031-be11-f562c401a328)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0590b28e-59d7-449f-ac58-67a4bf7f281b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/20fa51fb-e246-46b8-ad97-ec56e67a2ed3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05508cab-9ec4-4ac1-b850-40c7a9c6b612)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30defa36-a775-426a-b602-247494a6e79f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9614ef9-53d8-4979-8486-17ecc2b14a91)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c29bdd98-b55a-48e0-86fa-974b0e4fdf7e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1a83246-76cc-47c8-8d1e-2e549064413d)
+
+* That's why we are fixing two digits.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a936109a-55a1-4480-88bd-5fe69016de62)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab5c220f-b1c7-42e8-8f89-15755e23d363)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d3fb003-d6e4-408a-8472-498b347806e5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ad74f71-a3cd-430b-a95b-6c54a1ccdf57)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/efac540d-f091-41c6-92b4-3a201c9da7dc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/07582906-e0f9-405d-b1de-d4fa60e3c36c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f162b8fa-49ec-46dc-8eb8-4b1b70149aeb)
+
+* Think in terms of **Zero and Non-zero(NZ)** values, it would be easier to solve the **questions**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd5f9cdb-f105-42a6-ad00-6525916e7543)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/191fa088-5ff4-4408-a683-1661c689608f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e8f1fe4-0de2-46b6-844f-d59f99e5e24e)
+
+* Always break into **zero and non-zero** cases.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f9d3c153-1809-4c24-8385-0674f5378c22)
+
+* HW.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/baa00459-65b5-44d6-9c78-028fad7207f7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/45d38c35-0b6c-457c-b0e4-9ce661af70f1)
+
+* **2 and 5** divisibility rule.
+* **5** is the **brother** of **2**.
+* **5** works same as **2** only.
+* **Divisibility rule** of **5**.
+
+* 5 ^ 1 = 5, as **power = 1**, so the **divisibility rule** is **last digit or last 1 digit**.
+* 5 ^ 2 = 25, as **power = 2**, so the **divisibility rule** is **last '2' digit**.
+* 5 ^ 3 = 125, as **power = 3**, so the **divisibility rule** is **last '3' digit**.
+* 5 ^ 4 = 625, as **power = 4**, so the **divisibility rule** is **last '4' digit**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1da1c468-f452-486f-b52b-5efc24d1ed57)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b7ab50b7-7e23-4349-87a1-6ff22b36c30a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dae27873-ff7e-44be-b0cc-09c53875f926)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65f57ab0-2a14-40d6-9525-8b01ca32b3ab)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/53200821-3b28-4c62-973d-caaac6f4e5a3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb37c7e8-25b6-43f8-8904-ec9a3a183fdf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/03726f62-f82a-4d64-a841-3ace415a8fa3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0604694b-5f59-4723-b134-b6dcf5f977c4)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9c2366ac-2e2d-4110-b3c3-542e097021e0)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c59678a1-39be-4ab2-929f-0bb70ca81530)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/894d90ec-11cf-4f1a-89aa-cd7ce20b87a3)
 
 
 
@@ -3227,7 +3324,13 @@ Q -> < 8
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f43e62c1-3f14-4c88-819a-a248600dfdd1)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a6382f39-9804-4d7d-a74f-5b224b187cad)
 
+* Few -> Negative word -> Almost none.
+* A few -> Positive word -> Some
+* The few -> Not many but all that I have -> The few friends Ajit has are all very loyal to him.
 
+* The **Few, A few, The few** are used for **countable** cases.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb7f45b0-e2f1-4411-8b0d-1d79929f887b)
 
 
 
