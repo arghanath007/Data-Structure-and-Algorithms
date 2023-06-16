@@ -2686,9 +2686,253 @@ Q -> < 8
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2bba5611-8f55-46c1-afa2-b8eebea05351)
 
+## Permutation combination probability part-I
 
+* Where ever there is a **choice**, we want to select two black markers **or** three red markers. We want to select three boys **or** four girls.
+* Where ever there is a **choice**, we say **OR**. In all such cases we use **plus(+)** and we use **union(U)** if we are studying **probability**.
 
+* When there is **no choice**, we want to select two black markers **and** three red markers. We want to select three boys **and** four girls.
+* When there is **no choice**, we use **multiplication( * )** and in probability we use **intersection(n)**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e06c033e-c255-4e0a-ba57-48f306248a7d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b64d580f-f530-43c1-9591-62c4d89ebf2d)
+
+* Using **1, 2 and 3**, we are asked to make **two digit nos**.
+
+### Repetition Allowed
+
+* **Two digit nos** means we want **unit digit and tens digit place** as well.
+* For **two digit nos** we need **both units place and tens place**. As **AND** that's why **multiply**. [**Point 2**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a60cecf1-fe6e-4cd3-aa24-165cef123e97)
+
+> As **Repetition allowed**, we are writing **1/2/3** in both **unit's and ten's place**. That's why **3 * 3**.
+
+* For **Repetition allowed**, the two digit no -> **3 * 3 -> 9**.
+
+### Repetition not allowed
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c27331a3-0f99-458a-911f-9d7995b95798)
+
+* In the **unit's place** we are writing **1/2/3** and we can put **3** there. 
+* For the **ten's place**, we are writing **1/2/3** as well but when writing the **ten's place**, we will **remove one no** or do **-1** as **one value** was already used in the **unit's place** as **repetition** not allowed, that's why putting **2** at the **ten's place**.
+* For **Repetition not allowed**, the two digit no -> **2 * 3 -> 6**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0584eba5-d211-4166-abd9-409d8c833bb6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/67cf27e1-bd36-44e1-b2e6-42bd2442a804)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff67b409-ed78-4d00-bab7-ce9bc170c5c3)
+
+* Repetition allowed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9f89c46d-92a0-4f77-a925-42420277dcee)
+
+* Repetition not allowed that why we got **6**. [**Point 1**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35b89486-5705-4928-9756-c57523e9bec5)
+
+> In **Repetition not allowed** case, allow the **events** to occur **equally**. That's why we wrote **1/2/3** in the **ten's place** of **Repetition not allowed**. [**Point 3**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34f7de1a-b41a-4d5f-ba4e-881befdc878f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e35d3c7-f79b-4f66-9dc4-04bd96257e31)
+
+* Repetition allowed.
+* In **three digit nos.**, we need all three **unit's place and ten's place and hundred's place** that's why **multiply**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8048a588-20ca-4671-b35c-f700c7121906)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/addff8bc-f55c-48eb-acb0-012a1fe361ac)
+
+* Repetition not allowed.
+* In **Repetition not allowed**, in the **ten's place** we are removing the unit's place no that's why **5 - 1 = 4**. At the **hundred's place** we are removing both the **unit and ten's** place no. that's why **5 - 2 = 3**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5467dca6-0e3e-49e6-be44-e3864114edb3)
+
+> In **Repetition allowed**, we don't have any use of **zero(0)** at the **tenth place** that why we use **1/2** at the **tenth place**, that's why it is **2 * 3 -> 6**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09811a19-aa9c-4cb8-973d-dcfffc45611c)
+
+> In **Repetition not allowed**, if we start filling from the **unit place** then we have **3** at the **unit place** and we are confused what to put at the **ten's place** as if **zero(0)** was taken in the **unit place** then we can put **2** in the **tenth place**. We will get **2 * 3 -> 6**.
+> If at the **unit place**, **1 or 2** was taken then we have to put **1** at the **tenth place**. We will get **1 * 3 -> 3**.
+
+> There is also another case that if people start from the **tenth place** then we can put **2** at the tenth place and **2** at the **unit place** because we are removing the no, we have put at the **tenth place**. We are getting **2 * 2 -> 4**.
+
+* We already know that at the **tenth place** we can put **1 or 2** only as we can't put **0** at the **tenth place**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d788365-9dd5-4391-97dd-12356ad1c10c)
+
+> When we are solving **permutation and combination**, always attack the **case** at the very **first** place. Attack the **condition** at the very first place.
+
+> The people who started from the **tenth place** got the **right/correct** answer because **zero(0)** must not come at the **tenth place**. As they have taken care of the **zero(0)** at the **very first place**, there is no doubt at the **unit's place**.
+> Which is **2 * 2 -> 4**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/192af0d5-fad6-4413-b914-443f45d2793f)
+
+> The people starting from the **unit's place** is that, based on what we are putting at the **unit's place**, the value at the **tenth place** is changing. We can either put **zero(0)** at the **unit's place** or put **non-zero** at the **unit's place**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/49a839ea-4335-4aa5-970e-933d480586de)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41a4f54c-4538-4fa6-af66-0249e949de62)
+
+> On the **left hand side**, where we have taken **zero(0)** at the **unit's place**, we have take either **1 or 2** at the **tenth place**, so we can put **2** at the tenth place as we have **two choices(1 or 2)** and **1** at the unit's place as we have take **zero(0)** at the **unit's place**. So, **2 * 1 = 2**.
+
+> > On the **right hand side**, where we have taken **non-zero(1 or 2)** at the **unit's place**, we have take either **1 or 2** at the **tenth place** whichever is not taken in the **unit's place**, so we can put **1** at the tenth place as we have **one choice(whichever not used in unit's place)** and **2** at the **unit's place** as we have take **1 or 2** at the **unit's place**, so we have **two choices**. So, **1 * 2 = 2**.
+
+* So, the overall is **2 + 2 = 4**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/25727718-5bb0-4005-8ed1-9626a86cf431)
+
+* **Law of Adding** and **law of multiplication**.
+
+> There are **two categories of people**, who started filling the **no repetition allowed**, one set of people started from the **tenth place** and another set started from the **unit place**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c02d1304-62ed-45c1-8f88-90ff65204c6c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf9d5d99-9921-4f46-83c3-956e79aaeff0)
+
+### Conclusion
+
+1) In **permutation and combination**, always attack the **condition** at the **first place**. 
+2) If condition is given, then **sort** the conditions and after **sorting** go to the **very first place**. If **repetition is allowed or not allowed**, if there is **zero or no zero**, once we are **done/satisfied** with the **condition**, we will go to the **very first place**.
+
+> If **zero(0)** is involved then there will be **one extra case**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f776d041-3781-4e4c-8466-198dd4734f90)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/04f0fd32-ee56-479e-aca1-3ad8d181083a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b129e42-361e-43ab-bb08-fbf07f900eae)
+
+> In **repetition allowed**, we attacked the **zero(0) condition** at the first place and after **condition satisfied**, we are going to the **first place** which is the **thousand** place and it has **6** and the rest has **7**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/60a187a3-1f03-4653-9703-a8c8c7da31ef)
+
+> In **repetition not allowed**, we attacked the **zero(0) condition** at the first place and as the **thousand** place has **6**, in the hundred, we also put **6**, as we are removing the one put at **thousand** place. For tenth place, we are removing both **thousand and hundred** place nos and as for the **unit place**, we are removing all three, **thousand, hundred and tenth** place numbers.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f28cd5d-8cb1-4a30-b1c6-bc998d5fb8ab)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/52780b40-85ac-41c8-b51e-b7d5e1224c0c)
+
+1) Satisfy the **condition** first, which is **even at tenth place**.
+2) Go to the **first place**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/903ed796-21e4-4fff-8bf6-207f01ef1ed0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/015e13fc-2739-4482-be2c-a8a484d71eba)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24162332-0e8c-434a-af0c-498882cba459)
+
+* Repetition -> 180
+* No Repetition  -> 100.
+* No Repetition -> Distinct Nos.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa70d2a0-4d52-408f-9e46-0ee20ded4f82)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/389081a6-0368-4e61-85df-be72c21eac26)
+
+1) How many **3-digit nos** can be formed such that all the three digits are **odd***. **Repetition and no repetition**, both.
+2) How many **3-digit nos** can be formed such that tenth place must be **even***. **Repetition and no repetition**, both.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec62c281-072a-4b63-af2b-1ee0c349bfc9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e587933-d7c4-47e6-97b8-7f3a813c3fe6)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b99b6d29-2507-459a-b890-052c4da7822a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3f2cff3-a2ff-4e6e-abe2-7fa3366628b9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/948a63c1-9e56-4917-95db-5f7f202c1e50)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/08311b6f-950b-40f2-afac-b72ce131fe26)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6fe88b66-ff52-40d4-a715-2f799b702e8b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1dc02205-d433-4d29-b18e-801883ba0498)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/17b83c8a-f7b8-4ae6-ac1f-746b9ada58c7)
+
+* Question of the above answer.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bcbdc9ad-1894-47f3-8410-3941358c15a4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd1883fb-f374-4c1a-8f3f-0dfab76f9ec2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/59a2ba01-3426-4d0a-bebc-1135d458ec88)
+
+* Normal Way
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c4ee924c-d0a6-4bfe-93aa-9335228a9517)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0236343a-01fb-4b7b-871a-5ba0e95c2627)
+
+* Sir's way. [**IMPORTANT**]
+
+* As **2 ^ 1 = 2**, so the divisibility rule of **2** is the **last digit** as the **power** is **1**.
+* As **2 ^ 2 = 4**, so the divisibility rule of **4** is the **last two digits** as the **power** is **2**.
+* As **2 ^ 3 = 8**, so the divisibility rule of **8** is the **last three digits** as the **power** is **3**.
+* As **2 ^ 4 = 16**, so the divisibility rule of **16** is the **last four digits** as the **power** is **4**.
+* As **2 ^ n**, so the divisibility rule of **2 ^ n** is the **last 'n' digits** as the **power** is **n**.
+
+> So the **divisibility rule of a no.**, depends on the **power**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e4364a9-e7e7-4d9b-ad8e-1c0a746bd084)
+
+* It is asking in the question to find **divisible by 2**?
+
+> So, the **unit digit** must be **even**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/61d9f647-1ca5-4f99-be85-1e82d2e981e6)
+
+* Using **1/2/3/4/5**, find **2-digit nos** that are **even**?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6c385b2-d241-40bb-88d1-e92803f5c053)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/67974be7-6359-4905-b0ab-8d7ff58bbe5b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e4d26951-5efc-468f-8f2d-ee3af4f9eab7)
+
+* How many **3-digit nos** divisible by **2**?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/adb401d4-e854-4588-9913-4cea459b877f)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1da95021-e078-4895-ab27-4277a001f1ac)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/224e2d9c-d826-4d5c-82b8-9bf6084a02ac)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b7bdd35-f32f-4e7b-88e7-a317e5c6c96b)
+
+* Zero(0) at the unit place.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/42050d84-e162-4002-92bc-d7cd45234adc)
+
+* Non-zero(0) at the unit place.
+*  We are adding **4 + 6 =10**, because either the **Zero(0) at the unit place** will come or the **Non-zero(0) at the unit place** will come. **OR** that's why we did **add**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d82f67d-835e-4bf7-ae3c-06135e4c3361)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4dd088bc-9a02-426a-9bff-b960c55b96f5)
+
+* Repetition, divisible by **2**, means **even** number.
+* **Z** -> **Zero(0) at the unit place**.
+* **NZ** -> **Non-zero(0) at the unit place**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2165e770-ea40-4edb-838b-11304237f4d5)
+
+* Number circled -> Fixed
+* Just the number, not circled -> No. of ways.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6db1d61d-427b-44f4-aed2-31c164f77931)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d63fc1ae-eb56-4b47-9ff7-84132d1fbfb4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/93dfb9c3-0c32-4d73-9c66-c6693854147c)
+
+* No-repetition.
+
+> In the **zero(0)** at the unit place, we are taking **zero(0)** at the unit place, so for the **hundred place**, we are going from **1 to 5** as **zero(0)** not allowed in **hundred place**. So, we are putting **5** at the **hundred place**.
+
+>  For the **tenth place**, we are having **0 to 5**, but we have to remove **unit and hundred place nos**, so it is **6 - 2 = 4**. 
+
+* It is **5 * 4 * 1** -> 20.
+
+> In the **non-zero(2/4)** at the unit place, we are taking **2** at the unit place as we have **2 choices(2/4)**, so for the **hundred place**, we are going from **1 to 5** as **zero(0)** not allowed in **hundred place**. So, we are putting **5 - 1 = 4** at the **hundred place**, as either **2 or 4** is used at the **unit place**.
+
+>  For the **tenth place**, we are having **0 to 5**, but we have to remove **unit and hundred place nos**, so it is **6 - 2 = 4**.
+
+* It is **4 * 4 * 2** -> 32.
+
+> As either **zero(0)** at the unit place** can occur **OR**, **non-zero(2/4)** at the unit place can occur. So we are doing **addition**.
+
+* It is **20 + 32 -> 52**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b1c9fd7a-92ba-47c8-bf61-b0761eb27901)
+
+* How many **4-digit** nos. can be formed from **1-9**, which are divisible by 2. **Repetition and no Repetition**.
+* How many **5-digit** nos. can be formed from **0-9**, which are divisible by 2. **Repetition and no Repetition**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/667e6d51-398f-43a0-9788-251ce402a280)
+
+* HW.
 
 
 
