@@ -18,6 +18,7 @@
 4) https://unacademy.com/class/operating-system-revision-part-4/QCV24DU5 [**DONE**] [13th June 2023]
 5) https://unacademy.com/class/operating-system-revision-part-5/SPOP124J [**DONE**] [13th June 2023] [No Class]
 6) https://unacademy.com/class/operating-system-revision-part-6/I8O2SE3A [**DONE**] [13th June 2023]
+7) https://unacademy.com/class/os-mega-quiz-discussion/251NW62A [Mega Quiz Discussion]
 
 ## Revision 1
 
