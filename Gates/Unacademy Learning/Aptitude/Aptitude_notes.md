@@ -3050,8 +3050,106 @@ Q -> < 8
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f45c7c9-f5f3-40f7-bb1d-001d74b16df5)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5c5d5e4c-d237-42a0-9f08-3abb920ae99b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4de540f0-b9b8-4d71-9f41-a91356019ca2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/56a3c6ac-91b3-45f5-8b87-8c132a770a5d)
 
-* Continue from **53mins**.
+* Question [**IMPORTANT, frequently asked questions from these pattern**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e9d59f7-ad35-4ba6-a751-5bf021e9ccdb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df1c0d2e-e355-43c1-9729-7fa9f2507ada)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b467653-bd7c-4d21-b479-0fbbac45b7b5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a81f3322-0655-43e8-aacf-506d98fe30ab)
+
+* How many nos can be formed using the digits **0/1/2** that must abide the range, **0 < N < 100**? 
+
+> **8** such cases.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc914f43-7fc0-4d32-b540-a39d441b320d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/697f082c-fbd0-4e0d-9d81-7bb49475ea47)
+
+> We are removing the **zero** cases because the range is **greater than '0'** that's why.
+
+> **100** is the smallest 3-digit number. So the highest digit we can get is **2-digits** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff61a4a2-1452-4a12-88ed-d5169990af66)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2ea9b3a-c742-45f5-ab5b-0310aa180447)
+
+* Total -> 3 * 3 * 3 -> 27
+* Not required -> 000 -> 1
+* Answer -> 27 - 1 -> 26.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f9b6562-6405-43a4-97a1-1da2be9c8a44)
+
+* Question
+* **10,000** -> 5 digits -> **10,000** smallest 5-digit no
+* Max digits is **4**.
+* Total -> 81
+* Not required -> 1
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/970dcd4b-7731-46ec-85a4-0955446129f8)
+
+* 1 Million(M) -> 10 Lakh -> 10 ^ 6
+* 1 Billion(B) -> 10 ^ 9
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9220f0c6-91e6-4a5a-b16a-31334973226d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4bc4fe4b-abb8-4b16-a0f8-8e43bec2da64)
+
+* Question. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/10f9049f-f72f-4065-a610-34e2e7c0d99a)
+
+* Between Means -> 0 < N < 10 ^ 6 [Excluding upper and lower limit]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34b5779e-883a-419a-9b0d-3100162b5cf5)
+
+* Answer  -> 728
+
+* Using the digits **1/2/3**, how many 2-digit nos., can be formed where **ten's place** must always be **greater** than **unit's place**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/112567c8-305c-457a-9264-2603626e12d6)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/990a3ee5-d39a-4df6-a431-dbd8faa07ce4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d355937b-cb12-422a-8eb1-9d48a3114e0f)
+
+* Find unit place's **min value**.
+* Find ten's place **min value**.
+* Find unit place's **max value**.
+* Find ten's place **max value**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c5caea53-692a-4a45-9afb-d9f70d3bddbb)
+
+> The **min value** at unit's place is **1** as **1** is the smallest no. in the range of **1/2/3**. The min value of tenth place is **2** as asked in the question that tenth place no. is **bigger than** unit place number.
+
+> The **max value** at tenth place is **3** as **3** is the largest no. in the range of **1/2/3**. The min value at unit  place is **2** as asked in the question that tenth place no. is **bigger than** unit place number.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/49c55fa8-5343-4a48-9d72-cae61f41e1da)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/247d0cbe-da76-4aef-8262-1602b504809c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7eb94592-ee82-4830-8a75-3eda625cc019)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/53b98a0e-4631-4fce-9d9e-8c4de91028da)
+
+* Question. Tenth > Unit
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0ece5ea-9976-4b70-9b18-f64b178768a9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/153dde18-08e3-4ab9-be75-a7af28c9df59)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6884bb20-fbcf-4837-8d1b-c9c7ec57905e)
+
+ * **Hundred's place** is **independent** of the **condition**, that's why we can put **1-4** in **Hundred's place**.
+ * Tenth and unit place was **same** as the question we did. 
+ * Answer -> 24.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b07f8a19-d00e-43e7-9801-21822d09d8a4)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/560415bf-fad4-4daa-9b74-546e6bd759fe)
+
+* Answer -> **50**.
+
 
 
 
@@ -3107,6 +3205,30 @@ Q -> < 8
 * Wary -> Cautious.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2e53daaf-f52f-4c98-8bdd-88d6d6603abe)
+
+* The -> Related to **God**.
+* Theist -> Believes in **God**.
+* Atheist -> Doesn't believe in **God**.
+* Agnostic/Deist -> Believes in **God** but with conditions applied.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ebebee8b-94ab-4af7-b078-e57aff73ed68)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/54c97de6-f141-46a3-b96d-5e575accfeca)
+
+* Theocracy -> God's Rule ->  IRAN.
+* cracy -> Rule
+* Theo -> God
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2806be27-230c-4e33-9d26-cf6daa23deea)
+
+* Yes.
+* Theology -> Study of God.
+* Logy -> Study
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f43e62c1-3f14-4c88-819a-a248600dfdd1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a6382f39-9804-4d7d-a74f-5b224b187cad)
+
+
+
 
 
 
