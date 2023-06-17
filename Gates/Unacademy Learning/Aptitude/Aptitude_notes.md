@@ -3730,6 +3730,189 @@ Q -> < 8
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/61e6b986-aa2e-4a4e-81e8-60ebd588522e)
 
+## Doubt clearing session (18) [17th June 2023]
+
+## Quiz-3 discussion
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/faee6fd2-74a2-4ad5-9fda-e307b603dd6d)
+
+* Between  -> Excluding lower and upper limit
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be6487db-5450-4b06-bcf4-f719295c69d9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9a173158-9587-401d-a805-fab75bd655d1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97841379-f260-4202-b473-9aac5ddf2972)
+
+* Option **A** -> 18.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/17c90bf1-e208-4b32-95ec-2f9efd149120)
+
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0fe826bb-1efa-46f1-9bb5-9af4bd2dfa0e)
+
+* Option **C**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ebcfe37f-1525-4c7d-907d-6db6bcf9d9ef)
+
+* Reverse -> Palindrome [**IMPORTANT**]
+* Reverse means whatever is in the **first place** that same no must be at the **last place**. Whatever no. is at the 2nd place that same no. must be at the 2nd last place.
+* That why at the **last and second last** place we have put **1**, which means only one case allowed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8ac63e6-72d7-4c61-805b-ea59cc93c17e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c136036-3bf1-427b-b83b-11a2dadfdd48)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/70393c32-3244-4c6f-9562-ab82a75a1f1c)
+
+* Yup.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1bc61188-ebd9-48d5-816c-dddbd4efeaf4)
+
+* Not divisible by 4 -> Total - (Divisible by 4) 
+* Much easier to do that just finding **Not divisible by 4** directly.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b7f8128a-a160-4e37-922a-d28723ed535b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ecb787e-25a6-43ac-86cb-4579b386eb7c)
+
+* Total -> 96
+* Divisibility -> 2 ^ 2 -> 4 -> Last two digits.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/43057509-17b7-4ebf-9983-1d4727f5c4d4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d820d1c2-ef48-44bc-895b-286b7a9cf33a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff962d1b-7eef-443f-8085-9521895bf746)
+
+* Option **D** -> 66.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab4849fe-6e69-4095-947a-4b5e7ba6e7b1)
+
+* Divisibility rule of **6**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/efcda0a5-b9e9-4601-a6b5-092bf50b1c25)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c95c245-5bb4-493c-bf42-d7192bcee116)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e21b371-b571-48f7-a597-b316c22c0ca6)
+
+* Checking if nos. are **divisible by 3** or not.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/42e3b20e-e4b4-4f14-b3d3-5f77264e28ab)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9fd289b6-d461-49a4-9f0d-d1fe066b47b3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/397e011a-0113-4247-b315-1608b69cabb6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/79aeda76-03e1-423f-b0bc-c5bb93994f49)
+
+* Divisibility rule of 2 -> Unit Digit is **Even**.
+* Divisibility rule of 3 -> Digit Sum is 3 or multiple of 3.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a3b4e20-e435-41f3-99fb-ab79db638bdd)
+
+* Multiples of 3 -> 3,6,9,12,15,18,21, ......
+* Arrangement of 4-digit -> 4!
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9bc382b8-1927-48c5-a29b-fc0368d0d2c1)
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/C3B4FC6F5B
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2327e509-d90e-4933-a188-1e9ff36d1272)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e654859-36d3-424e-9b4c-09af8f02a9b6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c91568df-6b93-4d66-b677-606507c67574)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86b0ccce-2af4-4e7b-b92f-e30ccd98d968)
+
+* Correct answer is **60**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f97bc9b8-c88f-4e15-ba74-b10ee36e070e)
+
+* [**IMPORTANT**]
+* We have to take the cases manually here.
+* First take **cases of 2** then do **cases of 3**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb6f9139-1902-43d1-beff-29808cc760df)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d952e8f6-f400-49fb-a6a5-b924e0be7307)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85821b44-8dc1-4706-a2ff-b0098e3be06d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d0869d7-ed63-47c8-98fe-df8b60d9b816)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e7d1a3dd-0e31-4a6d-a3e4-b33d78f2a50c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c86b2a8-256c-4a84-930f-65568ee58749)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34a8df42-7ea5-4612-a744-93b621dba1ca)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3add9682-032b-4430-a477-a9aa321b58a3)
+
+* Divident(D)
+* Divisor(d)
+* Quotient(Q)
+* Remainder(r)
+* D = d * Q + r.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ade9d61f-de36-46ef-b424-e62842b6cb67)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a12ac0dc-a15f-483f-9d5b-451984f06b3d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1fba9d31-563c-4cc7-b25a-8528d2107da1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ae4966b-d346-489d-b289-07cd9a9bbcbf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36d3dd8f-9313-48cc-84dd-6a4bee0d3965)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e649c9e-bb49-4952-a9e3-7d27839d55c3)
+
+* 779 is completely divisible by 19.
+* When dividing 47 by 19, we did **19 * 2 = 38** and remainder is **9**
+* Option **D**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f78887e-fab6-473f-81e5-87297b4a730a)
+
+* Not necessary
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/11cbb316-5edb-4758-9399-4ef20e6188a8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/18fb85c0-9c93-45bf-8bb7-c686230fb57a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b16693d0-a8a6-41d5-bcc4-827c6e9024f9)
+
+* Question.
+* Consumer Centric paragraph.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33cdb4ad-3665-454f-8ca0-079a569090a1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6e293c0f-47fb-42bf-9f6f-adb53266f95b)
+
+* The consumers should have the advantage no matter what.
+* Too/Very -> [**IMPORTANT**]
+* Very Tasty -> Good.
+* Too tasty -> Irresistible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5118d610-9498-432f-baeb-78ff0f6bca9a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/13d959f9-473f-4c1e-98ed-d01e0dbed30a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a80eac0-ebff-4427-973d-2539925e88ed)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/21e9197a-54f7-41c9-8d40-6c6a86ccb36e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1914ee2-0f2c-4684-b0a1-a1c504dfe9ee)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1cc98815-6ca8-4fe4-98ac-9ce807e8bd98)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e01322e1-f3a8-4b9f-9eac-defa98073f06)
+
+* Question
+* Credibility -> the quality of being trusted and believed in 
+* Cred -> Incrediable India -> Unbeliable India -> Faith.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b80542e4-9248-4764-a8cd-551bad0c1502)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/394cf595-a5f8-4acd-9b4d-0f0e27da4576)
+
+* **Offset** -> Balance karna -> Offset the price
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8768b3fe-249b-4b91-bf09-11fbdff23f25)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19eb4d03-6f78-42d8-955a-821541eb4054)
+
+* In **option 'c'** we cannot use the **most** which is a **superlative** degree so casually.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9f7d292-a165-4e58-a88b-ff9fb5e845f4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b2536d02-9aab-4315-a19e-285aaa26eb3c)
+
+* Could be. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/23151de4-7318-49c5-b3b0-c4df958742a7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a15b1bd-905a-47b5-b26e-2f524a5a65ec)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/250df7aa-fdf5-43bb-8d07-1a65e699eade)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/307e0ca5-d8cd-4a6a-a3c2-af785d74a622)
+
+* Option **C** was close answer/option.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0e84078-73b2-483b-b04f-5f102ee72e57)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b4a09f9-5fff-4562-ab6e-bf2b8577a0e3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1c18315-735b-475e-84e6-18a5a58db640)
+
 
 
 
@@ -3826,9 +4009,20 @@ Q -> < 8
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb7f45b0-e2f1-4411-8b0d-1d79929f887b)
 
+* Exorbitant -> Price rise -> Spelling Correction.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/edaa8db6-7b9f-479b-8495-5e7528361fb6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb864747-0831-4e95-b284-57b587964c89)
 
+* Too/Very -> [**IMPORTANT**]
+* Very Tasty -> Good.
+* Too tasty -> Irresistible.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5118d610-9498-432f-baeb-78ff0f6bca9a)
+
+* Credibility -> the quality of being trusted and believed in 
+* Cred -> Incrediable India -> Unbeliable India -> Faith.
+* **Offset** -> Balance karna -> Offset the price
 
 
 
@@ -3864,6 +4058,16 @@ Q -> < 8
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2beda0f7-8fef-4b23-b21f-eed0d870dfa4)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66334329-80d3-4434-8550-a734f3c69937)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e7ae7def-8547-4a49-a02a-e202f15f01d3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4fa88128-fe42-4c77-bdc5-b95dda1e47ed)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e0c0b195-6e60-48ef-9d2b-06c47f9de473)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5115f5a4-e90f-4325-bf12-cd2ac51d064a)
+
+* Soft Currency -> Vavhar -> Relationships.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/96d13c17-2874-438b-9b78-278ca13108b7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/01f0a97f-8886-442c-85a6-8c8c699dd719)
+
+
 
 
 # One Liners.
