@@ -3250,6 +3250,256 @@ Q -> < 8
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c59678a1-39be-4ab2-929f-0bb70ca81530)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/894d90ec-11cf-4f1a-89aa-cd7ce20b87a3)
 
+## Permutation combination probability part-IV (16) [17th June 2023]
+
+## Permutation and combination
+
+## Combination
+
+1) Meaning -> Selection
+2) Example -> 
+
+* To select one person among 3 people -> **3 ways**
+* To select two person among 3 people -> **3 ways**
+* To select three person among 3 people -> **1 way**
+
+
+## Permutation 
+
+1) Meaning -> Selection followed by Arrangement (Selection + Arrangement)
+2) Example -> 
+
+* When arranging one person, then
+
+1) First we select. It is done in **3 ways**. 
+
+* When arranging two people, then
+
+1) First we select. It is done in **6 ways**. 
+ 
+* When arranging three people, then
+
+1) First we select. It is done in **6 ways**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12e7e6da-e429-4a42-99e7-5bee5b266174)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df5a5d03-edcc-46ad-815d-650035083c55)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/578d172f-6a7d-4107-93d9-dda5d168a1b2)
+
+* Formulas.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/413a849b-1f4d-443d-91a4-3bfc6004ab39)
+
+* nPr -> Permutation
+* nCr -> Combination/Selection
+* r! -> Arrangement
+* nPr = nCr + r! 
+* **Permutation** = Combination/Selection + Arrangement
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5430a0a6-ed07-4945-a7fa-84d6d4332515)
+
+* When we will do **permutation**?
+
+> First we will do **selection, which is combination** then we will do **arrangement**.
+
+> Without **selection**, how we will **arrange** or do **arrangement**.
+
+* That's why we will not be using **permutation(P)** rather we will use **combination(C)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/736bb91d-c18c-458d-9c68-0f1176d598be)
+
+* When selecting **one** person. It is words in **P and C** like this:-
+* 3C1 -> Out of the **three** people, select **anyone**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b70405d8-c000-4a82-a2f2-2495f904bf49)
+
+* When selecting **two** person. It is words in **P and C** like this:-
+* 3C2 -> Out of the **three** people, select **any two**.
+
+* When selecting **three** person. It is words in **P and C** like this:-
+* 3C3 -> Out of the **three** people, select **any three**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f87a0da-e7a1-42dc-9faa-956c97f4abb3)
+
+* Combination
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6a935f4-078d-4bfb-84ef-97f42fdf7f80)
+
+* Permutation
+
+* When selecting **one** person. It is words in **P and C** like this:-
+* 3p1 -> 3C1 * 1! -> Out of the **three** people, select **any one**. The person we have **selected**, **arrange** that person.
+
+* When selecting **two** person. It is words in **P and C** like this:-
+* 3p2 -> 3C2 * 2! -> Out of the **three** people, select **any two**. The person we have **selected**, **arrange** that person.
+
+* When selecting **three** person. It is words in **P and C** like this:-
+* 3p3 -> 3C3 * 3! -> Out of the **three** people, select **any three**. The person we have **selected**, **arrange** that person.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30f45ea4-5fea-4a91-b31d-1a388d730cd4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/84db11f8-7427-4c7c-87db-f2afc1843bee)
+
+* Out of the **5** people, we have selected **2** people -> **5C2**.
+* We have **two** seats and how we don't have to select **2** people, we have to **arrange two** people -> **5C2 * 2!**.
+* We are **arranging** the **selected** person, **OR**.
+* The person who are **selected**, **arrange** those people.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc19b1fa-7baf-47d1-9d8b-94d3773bbe9d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b386cfa-d372-4c73-b9b1-4397f118b528)
+
+* Out of the **5** people, we have selected **3** people -> **5C3**.
+* Out of the **5** people, we have selected **3** people and we have to **arrange** those **3** people -> **5C3 * 3!** -> **5P3**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/17c73dc9-ff89-4903-986e-a3e096407ae0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/943d01ee-e069-4d2c-9705-5d13d43d3404)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb2199e4-8653-4a78-93d9-e9fdd841a6ba)
+
+* Should be **60**.
+
+### Complementary Combination (Trick)
+
+* nCr = nC(n-r)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ae041c4-d264-492d-b77c-74f1ddbfbc6a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36a08387-c580-482b-a882-06d9899e4622)
+
+* Out of the **5** people, we have selected **all 5** people -> 5C5 -> 5C(5-5) -> 5C0 -> **1**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f00ef977-1e73-4b04-ba90-d71a786b10fc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c110796-e83f-4279-b634-73b132c300a3)
+
+* If we have **n** distinct objects and we want to **select** all of them -> nCn -> 1.
+* It is always **1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4249c700-2022-4495-ab0c-64b1ef75670f)
+
+* We want to **arrange** the **5** people -> First **select** the **5** people and then **arrage** the **selected** people -> 5C5 * 5! -> 1 * 120 -> **120**.
+
+* If we have **n** distinct objects and we want to **arrange** all of them -> nCn * n! -> 1 * n! -> **n!**.
+* It is always **n!**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc01a149-e48a-4437-ae08-b01bfbed0c76)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff2bdc43-c5f7-439a-a9d8-991091cb9ded)
+
+* Whenever we use **permunation and combination(p&c)**, there is always an **inherent** assumption that **repetition is not allowed** or **no repetition**.
+* That's why we say **n** distinct objects in **permunation and combination(p&c)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/120ce398-e2d0-4e53-b46e-87f0b4a3e119)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fce118d2-f51e-42f7-8766-0a994b03d8c4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f5f4ecc-d29d-4ad8-ac67-f14cecb7daeb)
+
+* Using the **4-letter** word, **PEAK**, we are creating a **4-leeter word**, which is **4C4 * 4! -> 1 * 4! -> 4! -> 24**.
+* Every single **letter** is **only used once**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cff58298-a772-4b61-9e00-e4fce1a7fd5d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/052bb076-b0ef-4785-9146-f2e4ccccd830)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12899d01-c96d-4058-add3-97d31ceb0841)
+
+* In all of the above three cases, we were asked to make **3-letter** words.
+* As we are asked **3-letter** words so, for the arrangement of **3-letter** word is **3!**.
+* For all the three cases, it is **3!**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2519e4b0-0bf5-4ed6-9356-7d851046ff00)
+
+* In the **first case**, where **A/B/C**, there is **no repetition** of any letter so **3C3 * 3! -> 6**.
+* In the **second case**, where **A/A/B**, there is **repetition** of letter **A** and it is coming **two** times, so **(3C3 * 3!)/ 2! -> 3!/2! -> 6/2 -> 3**.
+* In the **third case**, where **A/A/A**, there is **repetition** of letter **A** and it is coming **three** times, so **(3C3 * 3!)/ 3! -> 3!/3! -> 1**.
+
+* In **conclusion**, the no. of times, the **letter** is repeated, we are diving with that **nos's factorial**. If letter is repeated **two** times then **divide** by **2!**.
+* If letter is repeated **three** times then **divide** by **3!**.
+* If letter is repeated **n** times then **divide** by **n!**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/819c2fc3-ca28-42ff-8640-784492409fc1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d09d2c27-3aab-40e5-b683-cf432d3c58cc)
+
+* We are talking about **arrangement**. We are selecting **3 letters** and we are **arranging** those **three** selected letters.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e916e0d4-f53e-4e71-842f-c55dc938786e)
+
+* Permutation.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92de1f9d-97ac-409e-908d-9f973d610019)
+
+* For **AMAN**, as **4-letter** word, so we did **4!** but **letter 'A'** is repeated **two** times, so we are **dividing**, **4!** with **2!**, which is **4!/ 2! -> 24/2 -> 12**.
+
+* For **DURGESH**, as **7-letter** word, so we did **7!** and there is **no repetition** of **letters**, which is **7! -> 5040**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6832530-996f-4dc7-8234-e9cb7035e492)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/39fdfa52-e78e-4bb3-81c0-e408eeacf774)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/804d541b-b42e-41e0-ab2c-497c9bfb3ac2)
+
+* No condition -> 120
+* Letter 'H' must occupy the **first place**
+
+> We are **fixing** the **letter 'H'**, to the **first place** as stated in the **question**, then for the **next 4 places** we have **4!** cases. So it is **1! * 4! -> 4! -> 24**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/abeff015-3a58-4cc4-8152-84bef14f38fd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a7d4abac-350d-4dec-bfdb-db0c93ab9714)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e07297d0-b6b8-4e5f-86fe-a6fc576b0e98)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/84286580-0414-4dad-8818-49c6988b8e80)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b5ab96e-6e8d-4939-a64a-dcebc6b531e6)
+
+* Word **DEL** should be **together** -> **Tie them together**.  [**IMPORTANT**]
+* When we **tie them together**, it acts as **one single alphabet**. 
+* Arrangement of **DEL** letters within the **word**, which is **3-letters** so, **3!**.
+* **DEL, H and I** are **3-letters**, so we are using **3!**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e7084149-b5cc-4dde-98ec-3928af64ac9f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f674461b-5d98-4eba-a770-ff426ef844f1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f42a8c7-d039-42b3-a3d3-8aa69c31bf1d)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0aae0e84-5a6d-4ad2-afd5-9a0c5aaf08ef)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/957f222c-ba9f-4332-ae1f-2d0f70104876)
+
+* **Never Together** -> Total - **Not Needed**.
+* Total -> **5!**
+* **Not Needed** -> When **DEL** is together, **here**.
+
+* We have **n** things and the **arrangement** of the **n** things -> nCn * n! -> 1 * n! -> **n!*.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/59b71266-d27e-496d-b66c-8f8c2d68511a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5cd9e255-dc0e-449a-b833-fef973739d71)
+
+* When we are **fixing** letters, then we are putting down **1!** in that place.
+
+* **No condition** answer is **120** and when we divide the other answers with the **120**, **answers/120**, then we will get **probability**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f97bf8e7-eeca-448e-b3f2-49d6d022829d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86f80b25-945a-4eba-9e1e-1ee9efe9601d)
+
+* Will be **reverse**. **No condition** should be in **denominator**.
+* **Probability** -> **Condition's answers/ no condition**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c71e3eb5-795d-48b5-b804-f3634f367430)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/46594cd9-4929-4f24-aeb7-6419e53f24ec)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c31e3912-05bf-4611-a3d4-8f884a1c297a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c98f9d92-e8e5-4f5f-abd6-9d4b03670215)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1524caa8-761d-4689-96ed-333aafc97fb4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ae31e34-36ea-4f85-9a31-daae47386338)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/64ec3e96-6c16-4e53-a4ba-2dcdde8c16f2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a42c94c-ee02-4566-9578-4ca5257698cf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e072ef7-6de4-4418-81e9-7e69c1d83650)
+
+* 2nd option or calculation is **correct** -> **6C3 * 4C2 * 5!**.
+* There is no conditon for **consonents and vowels**, we can place them anywhere. That's why **5!**. It is like any **5-letter** word.
+* Let's create a **question** for the **first option** -> ((6C3 * 3!) * (4C2 * 2!)).
+* We had to create a **5-letter** word and the **3-consonants** should come at **3 odd** places? 
+
+> Here the **option 1** would make **sense**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b07b2cf-f149-4a0d-ae48-9c834e208734)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/494894b2-2f3e-48e4-8557-25ee82167c28)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/26d62ea8-74f3-45de-85b9-5fa45a2bdd09)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e2efffa-e5de-4340-a4fb-6a2224916962)
+
+
+
+
+
 
 
 
