@@ -3913,11 +3913,216 @@ Q -> < 8
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b4a09f9-5fff-4562-ab6e-bf2b8577a0e3)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1c18315-735b-475e-84e6-18a5a58db640)
 
+## Permutation combination probability part-VI (19) [17th June 2023]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a440729c-1589-4155-b00b-1da41db9f7f7)
 
+* Incase of **password**, **arrangement** matters. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7b5a014-7324-4207-bb8e-f3b683ab562c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b39a7e9e-30d4-4cc8-bde8-90696754d94a)
 
+* Case sensitive.
+* Password has **3** characters.
+* **3!** is for **arrangement** as **arrangement** matters in **passwords**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c190ee6-fbdb-40c6-9486-0b623837735e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/02914ed1-a8c2-4cda-846e-1d6b94721497)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6a00444-3573-4380-a798-e555b555d953)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd529bcd-996c-42d8-be67-f9f6dddfcaa2)
+
+* 4-letter password.
+* We can put **zero** at the **first place** as it is a **password** and not a **number**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5c8f5420-62b8-48da-a20f-1f053e381624)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bbfbda12-ba27-4a03-b680-007183a0c431)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b674926-5693-44fa-8e8b-ac0418a5d415)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a98a055a-8d2b-463c-9ede-dade915bfbdd)
+
+* Option **C**.
+
+* A teacher gave one **True or False** question to the class, such that every student gave the answer, and no two students gave the same answer, how many students are there in the class?
+
+> **Two** students.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2df121fe-07c1-4ab1-b244-1dc965ff9b33)
+
+* A teacher gave **two** question which are **True or False** question to the class, such that every student gave the answer, and no two students gave the same answer, how many students are there in the class?
+
+> **Four** students.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ad83712c-83b0-4af6-9718-10f732e2da13)
+
+> **Zero correct**, **One correct** and **2 correct**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7d2c7f9-6d5e-456b-9679-ad0b0729be3f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d1e12ca-1760-4d45-95bc-7072736109ad)
+
+* Two Choices -> True or False.
+* Exactly Two Choices  -> Binary Logic -> Binomial Theorem
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0bec860-d0ae-4e47-89e1-13d68daeff5f)
+
+* **n** -> The no. of questions.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57bfb44e-962e-4cbb-b27d-01b788b8bfde)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f3354f36-83c2-45f9-9013-e5f3ec852e74)
+
+* **4** questions given.
+* **n** -> No. of questions.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6006d091-2540-4fbc-9939-269c0d52db95)
+
+* Condition -> We have to atleast attempt one question.
+* Total -> 2 ^ 4 -> No conditions
+* Not required -> Zero questions attempted
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1fd15443-b4f3-4af4-91f9-e25d3a3e01d0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0bf83079-21c3-45dc-bbbd-80fd964e3d1d)
+
+* Condition -> We have to atleast attempt two question -> Atleast two questions.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5caa37c7-1800-4575-a1b1-f4afbbcac243)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/07c15393-d040-4d4a-a323-2394812ccbf3)
+
+* Atmost **3** questions.
+
+* Total no. of ways in which the question paper can be attempted?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50e95861-47f4-459f-b6c3-9b436c5139b5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b3cc618b-f0f6-4a85-9b74-8a4d3bddbb3d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3197efc2-75d6-4457-9cd8-d8b7d85741cf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/45a7a05b-6af7-434c-aefe-4c763224ff93)
+
+* Total no. of ways in which the question paper can be attempted?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e4904570-dbeb-4819-93a3-5af9dfb9bcba)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e40b42d-4632-4d7e-9dff-90bbe1b9ba2b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b3b4d8b-8155-4c48-b86e-a2bd3c5111e2)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2efa29e3-68fa-4efc-9042-4acd2965cd27)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9c72f658-354a-4c56-91d8-a1fe3e0a80e4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71f7c7a8-b3f6-48cb-99f0-cc2620deff33)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb18e037-e4e5-436b-88a2-e5c15ec29d5d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ece52b9-0823-4318-b71e-4097f8f8860a)
+
+* Linear arrangement or linear permutation.
+* Circular arrangement or circular permutation
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6acad45-530e-42ac-9922-3f9a5e95e10f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2faec1f8-8185-4b34-902b-e3017d2f2032)
+
+* In **circular arrangement** we cannot tell from where it is starting and where it is ending.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1496181-9939-4b86-8214-1c313d7c6412)
+
+* In **linear arrangement** for **n** elements it is **n!**.
+* For **circular arrangement** for **n** elements is **(n - 1)!**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8888a9f1-2b38-4cde-bcf8-c8eea3f1ea0f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dac0cf03-82a5-4ec3-b89a-1f5bfb779e9c)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a194fe7-8c7b-463d-8144-d74f4054a25f)
+
+* For **21** people, where **n = 21**.
+* In **linear arrangement** for **21** elements it is **21!**.
+* For **circular arrangement** for **n** elements is **(21 - 1)! -> 20!**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/043990d1-869e-4f8f-88af-a1b49f70c4b3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4322c5f8-683f-4ce9-8b73-bab0d296641f)
+
+* Out of **21** people we will select **15** people
+* So, **21C15 * 15!** -> 21C(21-15) * 21-15) ! -> 21C6 * 6! -> Linear Manner 
+
+* Out of **21** people we will select **6** people.
+* So, **6C6 * 6!**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/273c4207-5d9d-4b0d-a981-a4739337ff25)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f9d2933d-6b8b-4fc3-bfeb-f3770b629609)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bcfe71d5-65e1-4682-9034-a4eaf8ce50a1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae6019d8-e0c1-40f4-84d9-08563d17f74e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/349522f3-7723-4d0b-9e60-8704c367f918)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b044a07c-e7cb-465d-964d-d01d52f82818)
+
+* **One case**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc3d76b0-16dd-4c7c-94f2-0272b541c835)
+
+* **Second case**. When it was broken into two parts.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9870c83e-2c8b-4e9f-8f3e-d81e761f9a59)
+
+* **Third case**. Circular arrangement.
+
+> Out of the 21 people, we have selected 15 people, whether it was linear or circular, in **both cases** we got **21C15**. When we selected the **rest 6** we got **6C6** in both linear and circular.
+
+> In **selection**, it is not **dependent** on whether it is **linear or circular**. That's why we don't hear it is a **linear or a circular** selection.
+
+> In **arrangement**, it matters or is **dependent** that's why we say **linear or circular** arrangements.
+
+* **NOTE**:-
+
+* Two people
+* Three people
+* Max. value of **nCr**.
+* In the **two** people case, max. value of **nCr** is **2C1 -> 2**.
+* In the **three** people case, max. value of **nCr** is at **3C1 OR 3C2 -> 3**. Both have the **same** value which is **3**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91a18642-bded-48ce-a02e-eb91192c7bb0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd2e7298-e8c1-4e0e-b659-d94055d29030)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f852313f-6301-49b6-99aa-6e59ccedaad5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c6654cb7-9b57-4fb7-aaaf-9450bcf617da)
+
+* When **n** is **even**, then where we are getting **max of nCr**?
+
+> When **r > n/2**. 
+
+> **r > n/2** -> 2/2 -> 1. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/77ea9f38-96d8-477b-960f-f6b146092289)
+
+* When **n** is **odd**, then where we are getting **max of nCr**?
+
+> When **r > (n + 1)/2** OR **r > (n - 1)/2**.
+
+> **r > (n + 1)/2** -> (3 + 1)/2 -> 4/2 = 2.
+
+> **r > (n - 1)/2** -> (3 - 1)/2 -> 2/2 = 1.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/43205435-4b5d-4e80-9286-304f2769bb14)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/095a2965-4ccd-4a0a-a178-8096c38853b4)
+
+* Example
+
+* When **n = 21**, where we will find **nCr** max?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36971bde-29aa-4a78-87c3-79a1e724cbae)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d7a414cf-8b21-48a5-9b7e-457ce7f87828)
+
+* 4 girls, 4 places, so **4!**.
+* 6 boys, 6 places, so **6!**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/490bd680-7751-4f3d-b171-7a5f8e2069b5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cfd8ba8d-4b2a-4a8b-a542-42b8ae5b2306)
+
+* This is **linear**.
+* Circle is an **uninterrupted** loop. Circle has **infinite** no. of points.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8fcee1fc-a2e8-402f-b067-9143c628d2ff)
+
+> There are **7** distinct alphabets from **A to G**, each alphabet represents **distinct values**. Values ranging from **1 to 9**.
+
+> It is also said that, A * B * C = D * E * F = B * G * E, all are **equal**.
+
+* What is the value of **G**?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81f3483b-530c-4f27-a1fe-dcdb8733e4fb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c3f38650-1f9e-4cf3-a260-b533c6c19763)
+
+* **HW**.
 
 
 
@@ -4066,6 +4271,7 @@ Q -> < 8
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/96d13c17-2874-438b-9b78-278ca13108b7)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/01f0a97f-8886-442c-85a6-8c8c699dd719)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bd99a120-8537-43c3-ba1b-8bf6d42d3e1c)
 
 
 
@@ -4076,6 +4282,7 @@ Q -> < 8
 * We attract what we are ready for. [Law of Attraction]
 * Life is a disturbing episode in the blissful sleep of nothingness.
 * If I have failed in certain vertures of life then I have failed in those ventures and I am not a failure in life.
+* Only if you could count your blessings in the persuade of what we want, we should be thankful of what we have.
 
 
 ## Scratch Board
