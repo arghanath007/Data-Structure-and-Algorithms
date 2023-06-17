@@ -3496,6 +3496,239 @@ Q -> < 8
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/26d62ea8-74f3-45de-85b9-5fa45a2bdd09)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e2efffa-e5de-4340-a4fb-6a2224916962)
 
+## Permutation combination probability part-V (17) [17th June 2023]
+
+## Permutation and combination
+
+* Total no. of ways in which these **4** people can be arranged in a straight line?
+
+> **4C4 * 4! -> 4!**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f85abd77-4abc-4cdc-b810-b6007c9f16c6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27486981-ccb0-4e44-a847-464f8ae5f367)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/962a9bb2-3e31-4e18-9680-420d4e005f7f)
+
+* **Arrangement** for the **two** boys can be done in **2!** ways. **B1/B2** or **B2/B1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a0ed7f3-95d6-40f0-89ef-6fc91af747eb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/01aecc38-fb8e-446b-9860-68301edd4748)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58e6b493-4beb-4ec3-a4d4-32e46f80cc4a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27c631c0-6e7e-4606-8bf3-627e591cf05b)
+
+* Either the **first case** will come or the **second case** will come. As, **OR**, so **plus(+)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b906a514-7a8d-4b09-b0c2-84b82aa9f378)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/88705def-62ed-4c39-a259-a257bbfecba1)
+
+* The idea was **total how many cases can be formed such that the two boys must occupy alternate** places?
+
+> 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/113b4a16-0f18-474d-b9ff-be170e854c8a)
+
+> First case is when the two boys come at **1st and 3rd** place.
+
+> Second case is when the two boys come at **2nd and 4th** place.
+
+> There are **two choices** and out of two choices select **anyone** of them. So, we still have **two places**, so **two places** and **two boys**, which is **2!**. Boy's part is **done**. For the **two girls** we have **two places**, which is **2!**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4bce4ebf-04c8-47d1-a506-8d4dfd88910f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c95ea024-26d5-448f-aa00-497cab259b6a)
+
+* No **two boys** must sit together.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d6307ee-1e12-4322-944e-75b5461b3859)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/988cbc31-9905-4d85-b71d-820136b15303)
+
+* Boy's condition.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd1e4a10-4e80-429f-8ac9-64954a724dd5)
+
+> Although we have **two boys and two birls** and for the **two boys** we have **two** places, but it seems that we have **three** places for the **two** boys.
+
+* For the **extra** place we are using the word -> **Pseudogap**.
+* Whenever we come across these types of questions, **No two boys together**, then **select the other party**. The **other party** is girls here. We have **two girls**. The **arrangement of two girls** is **2!**. Girls are sorted.
+* How much the **other party**, **increase** the places by **1(+1)**.
+* For boys there is **three** places so, **3C2 * 2!** for **2 boy's** arrangement.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30118347-28c7-4b72-b8b2-cb908c86632c)
+
+* No **two** boys can sit together.
+* Boys -> 3, Girls -> 5.
+
+* **STEPS**:-
+
+1) Take the **other party first(Girls here)**.
+2) Find for **girls** -> **5!**.
+3) Place the boys at the gaps.
+4) Find for **boys** -> **6C3 * 3!**.
+
+> In the **6 gaps** we can place the **3 boys** so **6C3** and for the **arrangement** of the **3 boys**, it is **3!**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0599cfd6-c041-49d6-9480-c5aa4031469b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/96238438-996e-4b8d-a50b-19fce6e360e0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5c390233-7b21-4fda-9cb3-d914ad95d07a)
+
+* The **extra place** is the **pseudo gap**.
+* If we had **m** no. of boys and **n** no. of girls then total no. of arrangements such that no two boys can sit together.
+
+1) Pick the other party(Girls here) -> n!
+2) One more place than girls -> (n + 1)Cm * m!.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9f20ee2d-d7ab-4aea-a46d-e86621969062)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/03f7ca5a-5f1f-4710-9a73-edd3c7cc4796)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/79dc98e6-cd7b-43b3-995c-8017a1bf2962)
+
+* Question
+* No 2 boys can sit together.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bbf7e4da-cba9-4b49-b06f-8767fae47a31)
+
+* No Condition -> 15!
+* Probability.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36eda7b2-bc9c-46f7-bfa7-9d4df0b01a46)
+
+* No Condition -> Total
+* All vowels together -> Not required
+* All the vowels are never together -> 10! - (7! * 4!)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a25432c2-0ae5-47f8-944b-4b0751865e96)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f986d390-e897-4b26-8eff-3cdf8daf9411)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa93c35f-3dea-4e28-9e79-df8f46552c14)
+
+* How many among **1, 2, 3 and 4** are **valid examples** of **all vowels are never together**?
+
+> **2, 3 and 4**. Except **1** example, all are possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f42701c-59bd-429b-9fd7-41cd48ee770c)
+
+> **Example '4'** shows no **two vowels are together**. The **pseudo gap** question/example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7bd3f35d-0073-4363-9323-2b5810b26a29)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/11fcc788-1173-4c26-895d-185ca584a315)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b02889d-70fa-4a32-a030-dec9ad795769)
+
+* [**IMPORTANT**]
+* No two vowels are together -> (6!) * (7C4 * 4!)
+
+1) Take the other party (Consonants here) -> 6!
+2) Consonants done, now do for vowels 
+3) Calculate for vowels -> (7C4 * 4!)
+
+* No condition -> 10!
+* All vowels together -> 7! * 4!
+* All vowels never together -> Total(No condition) - Not required(All vowels together) -> 10! - (7! * 4!).
+* No two vowels are together -> (6!) * (7C4 * 4!)
+
+## Exactly, Atleast, Atmost
+
+* Team/Committee
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae360479-c289-48b9-af13-243c277f7480)
+
+* Form a team of 4-players? [Selection]
+
+> **7C4**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a1517cd-2a16-4b8d-a159-bf50d4768d2f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f46be9fd-778e-4524-8777-03ff1ef41bcf)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ad761a08-a32a-4f10-b69e-7675d36db6be)
+
+* **NOTE**:-
+
+* If nothing mentioned it is always **exactly**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9df9f8b2-ec5d-4a6e-bf2e-f562221d6da9)
+
+* Form a team of **4** with **atleast 2 boys** -> Min of **2** boys. We have to fill the rest with the **girls**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba8178c9-36f6-47dd-a7da-ec17e177838c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97682d44-2c3b-4d56-93d5-0ca0ad7b67c8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cecda55e-b73a-425b-b359-a0c8ac7e401f)
+
+* **Atleast 2 boys**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b3605a8-90c0-4334-a2fc-402f6a943f40)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69824ce5-f97d-4b34-9fd4-d3c28b5356a4)
+
+* Atleast -> Minimum -> Kam se Kam
+* Atmost -> Maximum -> Jyada se Jyada ->  Max to max.
+
+* Form a team of 4 people, with **atmost 2 girls**:-
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f45c4a2a-190e-4155-a64a-343be5182b93)
+
+* **Atmost 2 girls**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d2ec418-def6-47ab-8456-a578679333ef)
+
+* A **particular** boy must always be selected -> **Very particular specific no./person** -> 1C1
+* 4C1 -> Means anyone of the 4.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/38f44a32-4b90-4c28-940c-e05a98081ac1)
+
+* A **particular** boy must always be selected in a team of 4 people -> 1C1 * (3 + 3)C3 -> 1 * 6C3 -> **6C3**
+* (3 + 3)C3 -> Since we need one **particular one** and we have **3 boys and 3 girls** remaining and out of those **6** people we need the rest **3** people to form the team.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2d594b98-00fe-4677-a5aa-cb36bc71c963)
+
+* A **particular** boy name **Ajay** must always be selected in a team of 4 people -> **same answer** -> 1C1 * (3 + 3)C3.
+
+* A **particular** is as good as **jersey no**, so jersey no 5, a very specific one.
+* Selecting one particular named person is also **1C1** only.
+* What **1C1** represents that is **very important**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c12139a7-0087-476e-b17e-fbfe705c4556)
+
+* A **particular** person must never be selected?
+
+> **6C4**. As we have **4 boys and 3 girls** so, selecting **4** among **6** means we are **never selecting one person**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/feae73df-791f-4608-a3fb-040636373607)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0135b8e0-0839-4890-98b9-3c8da740a2e5)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1d773b8-2779-4087-adc5-f18e8f381719)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d55a700e-e1b2-4ab0-be78-c7b2a14598aa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4ad93c94-9575-4353-bac1-180a99d21c0e)
+
+* **Mr A** said if we are selecting **Mrs B** then don't select me(Mr A).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/48b2d6c5-7395-4779-85a6-a18ce4f5ecfd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9cce92cc-b930-436e-bc54-4c035538e1b4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b898d28-b942-4761-b85d-fae10353df02)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e509870b-6345-4287-8fae-d258006ee28d)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8632b7c-6b47-4c4a-a5c9-d10e10c33727)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/abeea118-2ea6-409c-bd7e-876385e09b3c)
+
+* When both **Mrs B and Mr A** are both **selected**.  [**WRONG**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7927ae38-970e-449c-9ef4-8b9bd1274c1a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff881129-f6dd-48ed-9ad1-8fb0cf5eff7d)
+
+* Correction
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f3ab66a-a949-4a83-932a-c1c12df294e1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4cc72d15-cc11-4b2d-b717-ac668bcc2cbb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63125132-0949-400a-8cb2-bfdaada64d2e)
+
+* Answer of the **doubt**.
+
+* Both selected case -> Total - (Both selected).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76543132-a20e-45b6-b954-72fc53090536)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/61e6b986-aa2e-4a4e-81e8-60ebd588522e)
 
 
 
@@ -3516,6 +3749,17 @@ Q -> < 8
 
 
 
+
+
+
+
+
+
+## Doubts
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8dbedf0-49ee-4a8e-a4e8-0e1221b3fe1a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b972359-b303-475a-95ca-4c8facaa7ff6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2104bdcf-2256-45ff-a541-18bf18807d91)
 
 
 
@@ -3581,6 +3825,7 @@ Q -> < 8
 * The **Few, A few, The few** are used for **countable** cases.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb7f45b0-e2f1-4411-8b0d-1d79929f887b)
+
 
 
 
