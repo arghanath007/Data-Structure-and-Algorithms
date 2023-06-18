@@ -4274,11 +4274,101 @@ Q -> < 8
 
 > **HW**.
 
+## Verbal reasoning part-III (21) [18th June 2023]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d80211a1-a2e3-4ea1-8efa-43c31158b5a5)
 
+* Question
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a7a040ff-3b3b-4f77-9303-68cedfef804e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bbf2d437-4a87-448d-b72b-a6a296d8ecb6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/395d1b55-f2a1-4806-b8f8-6a0867d073be)
 
+* Question.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/03121011-cc31-4e56-bb99-c412d272b4f5)
+
+* Image -> Visual Reasoning -> Spatial Aptitude [Since 2021]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/21f2f5e4-b37e-450c-bcc0-4f5d56ec04c7)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c9aa3bd-9c84-4926-89ef-a71c1107bc97)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8f7eed0-3409-44bc-b6b4-7fc43010d034)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/87b60af0-7f4b-4a99-9f6b-b7a91545696d)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/233a963c-d5a5-44ce-83eb-31bdc4a18e94)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85909867-22a6-47ab-86ad-277a105ab905)
+
+* When **Argha** sees outside of the window, it it **weather**.
+* **Weather** for an **extended duration of time** is **climate**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ca401cb-c06b-4c95-9715-79144a1e6bd9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/10de448b-1380-4144-a08f-165d65449611)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/18375c92-ba29-4509-8e0d-f97bbf1f0965)
+
+* Discussion on **How to prevent climate change**?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b1eba182-49e9-4949-893b-e052036eeda0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ec67676-7cb3-47cc-aa3d-86289f61c3ba)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d1e7810-9c94-4bdb-be1e-caf524f7457a)
+
+* Depends -> Could be positive or negative. It could be either.
+* In the paragraph it is writeen **contradictory**. So, **'D' option** incorrect.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fde57a6a-ac33-4034-bd77-574fc4f38fbd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0af0f9a5-213e-4b46-90d0-4ca8f24d5050)
+
+* Tik-Tak-Toe
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5f86fb92-b131-489a-9b19-672ce7fe6a5b)
+
+* Question. **Sudoku**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71386e8b-aeb4-4551-b33b-4f11af4ee0d6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f2b23ea1-8d30-432b-aeb2-d10d54ab52ff)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e96b554-37d8-44be-aa19-a3f981769b0b)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd04867b-1cc9-47e3-a908-328d9fb0558a)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fec96972-c761-47f4-aedd-265ff4caf202)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dfaef779-d41c-4374-b070-a4cf4271a88a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a0b87fc5-489a-42b7-8661-0a6867011a2a)
+
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e435561-5891-4d2d-98f7-0677f6f14ed5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/472e40bb-e67f-47e2-a04b-d538cae87534)
+
+* Question
+* Option **C**.
+
+* Policies:-
+
+* Fiscal Policy -> Policies that are a part of the mandate of the **Finance Minister** -> **Growth, less debt, Inclusion**.
+* Monetary Policy -> Monetary Policy Committee -> RBI -> **Control inflation, Exchange rate**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db6f787b-e4fe-4ace-af2f-31dea60be33d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b8c8edc-4f64-4208-9049-45622033f3b0)
+
+* Fiscal Policy -> Disciplinary actions.
+* Fiscal -> Discipline
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a162086a-0e86-43db-9ab5-a418d568501d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0639469-cb45-4b71-bbd3-6f18d57f9233)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/176e8407-c50e-45c5-8f13-ae7b879d6b7f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f20b537-932b-486d-bf2e-89d394c1490b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/663ef650-eda2-42f8-a24e-caba9031e7b7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d31c1cef-3b74-4d94-a61c-331db023d036)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2fbe3f33-20f6-436d-8f9f-61c4ba9e20a6)
 
 
 
@@ -4405,6 +4495,92 @@ Q -> < 8
 * Stairs -> Steps.
 * Stares -> Ghoorna/taarna -> Look fixedly or vacantly at someone or something with one's eyes wide open 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3b1b8fe0-1c32-440e-85c2-2ed1ce8903b9)
+
+* Hoard -> Hoarding
+* Horde -> Group of People -> Horde of zombies.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0713e253-4ba8-41c4-b00b-8556242b7864)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7e6500f-05b4-4c87-a4ba-659fafe13d48)
+
+* Principal -> Principal of the school/ College Principal.
+* Principle -> Philosophy, believe system.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a913f5c-9208-4097-9ea6-23bc2ff77ddc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea199c45-7268-43f6-9d12-bce8f74a6cc9)
+
+* Momento -> Not a word
+* Memento -> Souvenir -> To remember events.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71ce0bc4-4f63-426e-ac4c-97ca36abefac)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2e8ad2e6-feb8-4d8f-bec2-926a31674e81)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/de01e2a1-bdab-4a1f-bc67-5e34c6e767c9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f846fabf-3eeb-41b3-a146-eee170b8f28c)
+
+* Wrong spelling.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/de6e9f76-e977-4009-b379-f7be89b47e3a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1300d27d-ec26-400a-a330-edd3e0ab190d)
+
+* Confidence
+* fid -> Faith.
+* Confident
+* Confidant -> Close friend
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f9ce40b6-44c0-4b66-8c5b-fce8010a43a0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f940a7a0-f74b-4635-ac98-d27484cbbb5e)
+
+* Close Friend.
+* Bona Fides -> It is a **noun** -> Show me a few more Bona Fides.
+* Bona Fide -> **Adjective** -> He is a Bona Fide citizen of India -> Genuine citizen of India.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cbac7250-ef04-4c29-beef-83170eb48a57)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/49ad9077-1a64-4b1a-817c-a25a02145cd8)
+
+* Genuine
+* Sanguine -> Cheerful.
+* Practical
+* Pragmatic
+* optimistic
+* Pessimistic
+* Cyncial ->
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ea1dbe8-7341-427c-848c-0c6e011ea857)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/93137284-f395-4acc-8182-df65111071d9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aebfdd79-ca9a-4349-99e0-ed49ff7e9420)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3422df14-20f3-4fc6-a3f7-26a88803703e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/45318334-1154-4b77-b689-14f97a89b519)
+
+* Cub -> lion/tiger's kids.
+* Curb -> Control -> Curb inflation.
+* Kerb -> Kerb parking.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a450c72-f749-404e-944f-4c203d57d6cf)
+
+* Yes.
+* Inclusion -> Social Inclusion 
+
+* alleviate -> To make things better.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4452,6 +4628,22 @@ Q -> < 8
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/570ba7f1-9c13-4155-9aa1-fd3984281bbe)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/efc35356-f808-4774-9198-f98b6de1251b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5abe5f78-dd01-4313-b4cd-d646e720ad58)
+
+* Red Corridor.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41c4f0a2-bf72-4d2a-93f6-1a11e91d6e83)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e691f761-3331-4285-9b49-a04423f0fa38)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/23449749-026d-4df1-a225-718e885c8c81)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92fed9c1-4e2f-4461-998e-317cedb620d4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb0b3527-cec1-4bbb-b921-5cc0187be7c9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/458873f8-8ca8-498b-a664-d49f8c5f03e1)
+
+
+
+
+
+
 
 
 
