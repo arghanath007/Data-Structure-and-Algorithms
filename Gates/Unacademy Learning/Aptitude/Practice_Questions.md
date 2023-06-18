@@ -102,6 +102,15 @@
 
 * Link -> https://unacademy.com/quiz/quiz-part-ii/VG1PAYODT1/solutions/SP_1MB12QGDYY5XM4JU8
 
+## Quiz-3
+
+* Link -> https://unacademy.com/quiz/quiz-part-iii/AJH79WRIDU/attempts/SP_YJZY8YZSACQZDHY8S
+
+## Quiz -4
+
+* Link -> https://unacademy.com/quiz/quiz-part-iv/PNAEF19CL4/solutions/SP_UUMVKVFANAJDYOF1X
+
+
 # Practice
 
 ## Number System Question
