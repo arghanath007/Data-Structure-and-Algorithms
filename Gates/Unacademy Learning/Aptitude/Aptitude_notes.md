@@ -3979,6 +3979,8 @@ Q -> < 8
 * Condition -> We have to atleast attempt one question.
 * Total -> 2 ^ 4 -> No conditions
 * Not required -> Zero questions attempted
+* A >= 1 -> Atleast one question -> Min one question -> 1, 2, 3 ... 'n' cases -> **One question up to 'n'** questions -> **OR** Except **zero questions, 4C0, no question attempted** .
+* A >= 2 -> Atleast one question -> Min two questions -> 2, 3, ....'n' cases -> **Two questions up to 'n'** questions -> **OR** Except **zero or one question, 4C0 and 4C1, no question attempted and one question attempted**  .
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1fd15443-b4f3-4af4-91f9-e25d3a3e01d0)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0bf83079-21c3-45dc-bbbd-80fd964e3d1d)
@@ -3988,7 +3990,8 @@ Q -> < 8
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5caa37c7-1800-4575-a1b1-f4afbbcac243)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/07c15393-d040-4d4a-a323-2394812ccbf3)
 
-* Atmost **3** questions.
+* At most **4** questions.
+* A <= 4 -> At most **4** questions -> Max. of **4** questions -> **0, 1, 2, 3, 4** cases -> Up to **4** questions attempted.
 
 * Total no. of ways in which the question paper can be attempted?
 
@@ -4104,6 +4107,8 @@ Q -> < 8
 
 * 4 girls, 4 places, so **4!**.
 * 6 boys, 6 places, so **6!**.
+* 4 Girls were trying to sit on the **window seats** circled with **Blue** color.
+* The other places were for the **boys** to sit.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/490bd680-7751-4f3d-b171-7a5f8e2069b5)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cfd8ba8d-4b2a-4a8b-a542-42b8ae5b2306)
