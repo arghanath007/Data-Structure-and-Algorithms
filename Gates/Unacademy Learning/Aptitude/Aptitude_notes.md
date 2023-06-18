@@ -4129,6 +4129,163 @@ Q -> < 8
 
 * **HW**.
 
+## Doubt clearing session (20) [18th June 2023]
+
+## Permutation and Combination
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0eee310c-c595-4d11-bc70-4361aa80b6cd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/46b5b119-600f-4076-a1f4-df7981881875)
+
+* Hunderth place > Tenth place > Unit place
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/755da662-1092-4bcd-ba08-dc309fac2a54)
+
+* Wrong.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd8edce3-c4f7-405f-9ea9-267388f84699)
+
+* What we do in maths.
+
+## Double inequality
+
+* If we need **double inequality** then always attack the **question** from the **middle**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4518319f-bc7d-4df4-83e8-4d7bf0a351e8)
+
+> The basic philosophy is there was a **inequality** between the **tenth and unit's** place, so we solved it  and once we are sorted with it, we moved to the **hundredth** place. Then we solved the **inequality** between the **hundredth and tenth** place.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b78b5bbf-c380-48e0-a1a6-84dae5a0673c)
+
+* Total **no. of cases** would be -> **10**.
+* We have **two/double inequalities** that needs to be satisfied. That's why it is taking some time to solve.
+* If we need **double inequality** then always attack the **question** from the **middle**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/029ba592-d33a-40f6-a043-1b668134846f)
+
+* **STEPS**:-
+
+1) Find the range first.
+2) Fill the **middle(tenth place here)**
+3) Now fill the **left and right places** with the rest values.
+
+* When we are  doing the **middle** first, the **double inequalities** are taken care off at the **same time** or simultaneously.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36191d87-5200-474c-8873-e050bf2ebf7d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a6357f33-2fe0-406d-a24f-c51f9ee362d3)
+
+> When we are putting **3** in the **middle(tenth place)**, the **left and right** side places have the **same or consecutive value** which is **2**, then **mirroring** is happening in the other **two** cases.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f861dd96-3eaf-4aa6-90b0-c6c6e25e9929)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8639ece-0081-4f25-bdba-96c8d2cdcc5e)
+
+* Another example.
+
+> In the **4** value in the **middle(tenth place)**, we are getting **same or consecutive values** which is **3**. So, we will get **mirroring** values.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05d64d62-23c9-43d9-a055-dd664a438206)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66875b03-7d7c-412b-9095-8f61be38abdd)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e583c51e-a510-49ca-9c35-62318eea9cdf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1e9d41a-9b24-4e5b-ad4a-08b002c8653c)
+
+* Consecutive nos here are **5 and 4**, so **mirroring** happened.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9a2f85ed-caf1-4d14-8eb3-d1a08421f9a7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3afe7ff4-5ba7-48b9-8ab6-65c469421c17)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4be8077e-d595-4542-ae3c-7f96de83fc59)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/024afb86-142f-47f2-bed1-49968054c361)
+
+* Total cases -> 27.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f09d2c6c-3d9f-4877-a7d4-cef849a0f9a1)
+
+* Out of the **27** cases, we don't want those 3-digit nos, where to the **immediate right** of **2** there is a **1** or where **1** is on the **immediate right** of **2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ea05317-7cdf-4782-930a-51a3cbe4f532)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5406b3dc-8090-40d2-9a6b-edab6ebded34)
+
+* Cases, where **1** is on the **immediate right** of **2** which is **3 + 3 -> 6**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/192701df-e9e7-4226-bef5-1fb9007d617d)
+
+* Out of the **27** cases, We don't want those 3-digit nos where **1** is on the **immediate right** of **2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9381ea7-f90a-48cb-b7e8-51d72ff46f15)
+
+* Using **1/2/3**, how many **3-digit** nos can be formed?
+
+> **27**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/070fcdcf-6e75-4883-8b2f-9849e710b3df)
+
+* Total -> 27
+* Not required -> 3 + 3 -> 6
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c5b3e367-2487-4aef-a31a-7b0ed28076c0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9c0a7dfa-459d-408d-ad87-5191655afd97)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/14a09533-a123-486a-8e13-42ed2de78cde)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/46ccca01-4b61-4552-b108-0538af16bd0c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/20017954-e4f3-4dcd-9d95-b878619f3f04)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/28f76f3a-04f2-49da-9e12-8ce6b1ca8e98)
+
+* The person can take either **1 step or 2 steps**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ea1be04-9120-457d-a451-2f099be828a8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c24e2283-858f-4daf-a084-d540b9cebf32)
+
+* **No. of ways**.
+* Double Step -> D.
+* Single Step -> S.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ddd583cb-b242-407b-9021-92fde8b8ce7a)
+
+* **DD** -> 2!/2! -> 01
+
+> As two double steps so **2!** and **D** letter is repeated **twice** so **divided by 2!**.
+
+* **DSS** -> 3!/2! -> 03
+
+> As one double steps and two single steps which is **3!** and **S** letter is repeated **twice** so **divided by 2!**.
+
+* **SSSS** -> 4!/4! -> 01
+
+> As four single steps which is **4!** and **S** letter is repeated **four** times so **divided by 4!**.
+
+* Total no. of ways -> 1 + 3 + 1 -> **5 ways**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/027b8b5d-fda3-4be7-91b4-c3a7b2df0c97)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b04f8dfa-37e2-4bc6-b84a-db266e7c0f26)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2d6a85ed-18b8-4ed2-9e28-ab3a14911389)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1802844e-7046-42cc-89d5-d14d51296039)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0beacd96-66b6-45fa-955c-ceb02f521088)
+
+* How many **4-letter** words can be formed from the letters of the above word?
+
+> **HW**.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4234,7 +4391,19 @@ Q -> < 8
 * Cred -> Incrediable India -> Unbeliable India -> Faith.
 * **Offset** -> Balance karna -> Offset the price
 
+* Naive -> Innocent/immature
+* Naif
+* Novice
+* Tyro
+* Apprentice
+* Peurile
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/02cd81ec-1fc8-449e-add5-d1c5f5e563e3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c8c904d-224a-4a14-87b3-7b1030e56716)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/90e2f3ad-38d8-45ba-8fa2-07260ebcf6e3)
+
+* Stairs -> Steps.
+* Stares -> Ghoorna/taarna -> Look fixedly or vacantly at someone or something with one's eyes wide open 
 
 
 
@@ -4277,7 +4446,12 @@ Q -> < 8
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/96d13c17-2874-438b-9b78-278ca13108b7)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/01f0a97f-8886-442c-85a6-8c8c699dd719)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bd99a120-8537-43c3-ba1b-8bf6d42d3e1c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/46474d36-0f31-4649-b216-337ff02d8372)
 
+* Nice line.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/570ba7f1-9c13-4155-9aa1-fd3984281bbe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/efc35356-f808-4774-9198-f98b6de1251b)
 
 
 
@@ -4288,6 +4462,7 @@ Q -> < 8
 * Life is a disturbing episode in the blissful sleep of nothingness.
 * If I have failed in certain vertures of life then I have failed in those ventures and I am not a failure in life.
 * Only if you could count your blessings in the persuade of what we want, we should be thankful of what we have.
+* We are not human beings on a spiritual journey, we are the spiritual being on the human journey.
 
 
 ## Scratch Board
