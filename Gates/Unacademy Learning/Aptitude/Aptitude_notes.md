@@ -5049,9 +5049,244 @@ Q -> < 8
 
 * Option **C**.
 
+## Permutation combination probability part-VIII (25) [19th June 2023]
 
+## Permutation and combination
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/60054bde-725b-48be-bb97-961457f6ee97)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/abed697f-982d-4b4f-ac09-80e5f239aa1d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ceafc8c4-e7ac-405b-9ee7-fbfe52cd21a2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b7057f2c-a37c-483f-b6ba-abee3f3fdc3a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b7d84ed1-eaf8-440b-8493-8dcff99848db)
+
+* **Q** is **fixed** out.
+* No. of ways -> **7**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aea98ff3-b973-4027-8ef3-5d8fb1f50e65)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/94da6896-3d08-4090-883c-2cf62b666832)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba4b802a-35ab-4138-8ab4-127a49f8dbc7)
+
+* Answer -> 90 + 90 + 100 -> 280.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fed5d85b-11cc-435d-ae63-55b28f54b804)
+
+* We have **5 boys**, **n=5**.
+* We are arranging the **5 boys** in a straight line -> Linear Arrangement.
+* We are arranging the **5 boys** together -> Circular Arrangement.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c28e8d7-df30-4100-8db3-22d5acdaec56)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bdb5e79d-c9cf-4ad8-8163-650b26e3917f)
+
+> The condition is that out of the **7 husbands**, we have to select **two** husbands but **same** husband-wife pair should not be on the **same** set.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ebff1c3d-119b-425b-ab48-775bbe681094)
+
+* Selecting **two** husbands out of **7 husbands** -> 7C2.
+* Let's say we selected **H1 and H5** so, **W1 and W5** cannot come.
+* Let's select the **Wifes** now. We can select **2** out of the remaining **5** -> 5C2.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6fcfb976-5844-4c2d-974b-e9906e218f2c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ffc43577-b303-4616-afdf-78ae804e34bb)
+
+* Let's say **W3 and W7** are selected.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f941f5bd-477b-4ab6-b25e-645870a3d76d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89f92997-4cb9-47a6-84bc-2cbbcc5af631)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b0d73c5-1424-4332-9239-770efbdbf6ed)
+
+* There could be arrangements between either the **husbands or wifes** which is **H1** can play with either **W1 or W5**. So, we have to do **2!** multiplication to either **husbands or wives** not both. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bbb97a7b-a4e1-4df0-8bb8-1b098e4cbebd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f91d04fe-e6b6-421e-a6c9-5064000c6855)
+
+* Option **D** correct. All the above.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f1fd1a56-5fd1-47fa-9e6e-c927e40d1094)
+
+* 5 are **Hindi medium** and **5** are **English medium** students.
+* No condition and arranged in **straight line** with **linear arrangement** -> n! -> 10!
+* No condition and arranged in **circle** with **circular arrangement** -> (n-1)! -> 9!
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/14d15fe5-9551-4c93-81f5-f73f373051b8)
+
+* No two **hindi midium** students must sit together -> Pseudo gap.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1f5a689-4b89-403a-8471-dac65e75405a)
+
+* 5! -> English Students
+* 6C5 -> Hindi students
+* 5! -> English Student's arrangements.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5182112-38d8-47d9-9fb2-7653af2582ce)
+
+* If there is **one transaction** between two different people and for **n** different people we will use **nC2**. 
+* If there is **two transaction** between two different people and for **n** different people we will use **2 * nC2**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/47fc9e8d-f453-40f9-b3de-a3ab790e7af3)
+
+## Geometry
+
+* Whether it is a **side** or a **diagonal** it is **straight line**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ea1839d-cd53-4881-b2f0-55b6b01c96ff)
+
+* As many **sides** that many **vertices**.
+* If **n** sides then **n** no. of **vertices**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb35f44e-b97e-4cd2-ad5a-fbf5313f1d92)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/356748a0-e700-4461-bd1f-4dddcb27a034)
+
+* Total no. of **straight lines(S/L)** -> Sides + Diagonals.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/144360fe-09ac-407f-8f93-8b818ac8e605)
+
+* **NOTES**:-
+
+* Min. no. of points required to draw a **straight line** -> 02
+* Min. no. of points required to draw a **triangle** -> 03
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/edd318aa-2228-4643-9a27-7b6b9a431722)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/874e2057-f0ed-4e24-9d54-0283b8cd0e5c)
+
+* If **n** sides then **n** vertices.
+* n = sides = vertices.
+* Out of the **n** sides, we have **selected** 2 **vertices/points** which is **nC2**.
+* **Total no. of diagonals** -> (Total no. of straight lines(S/L)) -  (No. of sides) ->  nC2 - n.
+* **Total no. of points/vertices** we have is **n**.
+* **Total no. of straight lines(S/L)** -> nC2
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/250c1e08-8edc-4333-83f7-a4defb1aeb09)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eecf6fe3-8fc9-4d2e-8af0-ab4725a67826)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/18570619-82b0-4095-8ad9-271eb2c404d9)
+
+### Straight Line
+
+* Min. of **2** points/vertices required to draw a **straight line**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d36de65-0758-458a-84f7-2d0c5d512189)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8ded1ce-0ef1-47af-afad-9dcbc8dbbc8e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6495e23d-3f95-4106-a7d9-4edf20b05949)
+
+* In the **middle case**, the points can be created from either taking both the points from **A** which is **AA** or taking one from **A** and one from **B** which is **AB**  and the last is taking both the points from **B** which is **BB**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8681c42-e73c-45ff-9012-bdd942930cc2)
+
+* **AA** -> 6C2
+* **AB** -> 6C1 * 4C1 
+* **BB** -> 4C2
+* Total -> AA + AB + BB -> 6C2 + 6C1 * 4C1 + 4C2 -> 15 + 24 + 6 -> 45.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/875f7a5d-0ca7-48f5-ae94-a2a46b4a1547)
+
+* **Co-linear** -> 3 or more points/vertices are said to be **co-linear** if they come in the **same line**.
+* **3 or more** because **2 points/vertices** are required to make a **straight line**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/23f767ac-9508-4037-86f2-adf4065f767a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b33f2eb4-e16e-4a42-9818-c33dfda5a726)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1be0bffd-7ece-42cc-87b5-5c0fb4914ce7)
+
+* **7, 8, 9 and 10** are **Co-linear**.
+* All the four points, **7, 8, 9 and 10**, gives a **single straight line**.
+* So for **BB** as there is only one **single straight line**, so it's contribution is **1** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6384837a-a4d4-4c6b-ac45-80f3da921ff6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5272cad-1555-4d2b-9188-cc6aebf13d83)
+
+* **Total no. of straight lines** -> (Total no. of points and select any two points(pointsC2)) - ((colinearC2) + 1).
+* **Total no. of straight lines** -> (totalC2 - colinearC2) + 1.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a0c8a5b-33d7-4dda-8055-a84f476c18d5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e91676da-3741-433d-a9f0-f6f4e64a3042)
+
+* We have **20** points/vertices. Tell total no. of **straight lines(S/L)** -> 20C2.
+* Now, we **20** points/vertices but **5** are co-linear -> 20C2 - 5C2 + 1.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/270a8325-7313-44d4-9a89-b9bcdbaa64e3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2125b094-02c4-41f9-a8ac-436e19543ea7)
+
+* We have **100** points/vertices -> 100C2.
+* * We have **100** points/vertices but **10** are co-linear -> 100C2 - 10C2 + 1.  
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc74b6fb-05c7-4850-998b-1ec392ebe7fc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/793eb23b-90ff-45eb-baa5-907994be12af)
+
+### Triangle
+
+* If we remove **straight line** and talk about **triangle** only.
+
+* Triangle -> **nC3**
+* **3** is important for **Triangle**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e7aeb57e-643f-40bd-85c3-32af957f8b46)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5786833-f236-4ae7-8d94-bd29fc461b16)
+
+* Three points/vertices from **A** -> AAA -> 6C3 -> 20
+* Two points/vertices from **A** and one from **B** -> AAB -> 6C2 * 4C1 -> 15 * 4 -> 60
+* Two points/vertices from **B** and one from **A** -> ABB -> 6C1 * 4C2 -> 6 * 6 -> 36
+* Three points/vertices from **B** -> BBB -> 4C3 -> 4
+* Total -> 20 + 60 + 36 + 4 -> 120.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b1e9489c-fec8-453a-8bcb-e9137ea47ad9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7064e56e-af64-4ec1-b91f-4775ef199dc9)
+
+* In the **last case**, we cannot take all of the **three** points from **B** as in **B** we have **4 points/vertices** which are **co-prime** numbers. As **BBB** is not contributing anything. So we got, **116**.
+
+* Three points/vertices from **A** -> AAA -> 6C3 -> 20
+* Two points/vertices from **A** and one from **B** -> AAB -> 6C2 * 4C1 -> 15 * 4 -> 60
+* Two points/vertices from **B** and one from **A** -> ABB -> 6C1 * 4C2 -> 6 * 6 -> 36
+* Three points/vertices from **B** -> BBB -> 0
+* Total -> 20 + 60 + 36 + 0 -> 116.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d9c60281-50ff-498d-90f3-72c81a97e61a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d56ab22d-8d55-41d2-a4cc-5261a020722c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0deb8d68-a3e5-46f3-9371-c0d8e5920fd7)
+
+* **Total No. of triangles** -> totalC3 - colinearC3
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/764343c1-8759-4f51-b480-5a2e9aba48d1)
+
+* Question 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b5f1d7a-4222-40c3-b258-a3da3b31c5ed)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d42b4947-de55-4d03-a9ea-ceee19c4f504)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/60e459f0-d698-47bf-8d92-ba87415161eb)
+
+## Summary
+
+* Straight Lines -> nC2
+* Triangle -> nC3.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8141085b-c06c-436a-854a-83e779617aeb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd0a3b77-3a4b-4202-9cfe-dd93a5d2b38f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b816bf9f-b6a0-462a-9931-341592c23d62)
+
+* Question.
+* How many **triangles** we will get?
+
+> **1045** triangles.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c8d3eea-8b3e-467d-843e-adc6c612a77c)
+
+* We need **3** points for the **triangle**.
+* As all of the points are **co-linear** so **PPP and QQQ** will not work and will contribute **zero(0)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41c13a6e-dc6e-4672-897d-513864a41366)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb4ebb80-63f9-4c57-98a5-8bf3ce896d0f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ca0188e-44e5-4cbf-b50f-e202523c0389)
+
+* Total -> (10 + 11)C3 -> 21C3
+* Not required -> PPP + QQQ -> 10C3 + 11C3 
+* We want -> Total - Not required -> 21C3 - (10C3 + 11C3) -> 1045.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/99c5f10e-a4d8-414d-a975-f68b8d970613)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b6c09102-96b0-4b6e-b4bc-f4a978b5150b)
 
 
 
