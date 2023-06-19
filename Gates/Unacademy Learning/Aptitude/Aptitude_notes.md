@@ -4658,15 +4658,396 @@ Q -> < 8
 
 * Option **C**.
 
+## Verbal reasoning part-V (24) [19th June 2023]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f5bc259-772c-4f87-b0c8-2a4e46ce7a70)
 
+## Logical Connectives/Connectors
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/036a0caf-333d-4a0a-9acd-8794bb9c7719)
 
+* The statement might be **factually incorrect** but we are not concerned.
+* We are not concerned about the fact in which **direction the sun or the moon rises**. 
+* We are not concerned with the **factual truthfullness** of a statement.
+* What we are concerned about is **logical truthfullness**.
+* **factual truthfullness** -> **logical truthfullness**.
+* Whether the part of the statemenet, **the moon rises in the south**, depends upon, **the sun reises in the west**, statement or not.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/96fd3009-d9a3-4e31-abd8-605aceda3678)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cee3b8dd-4308-41dd-b771-39ee7939c7b5)
 
+### Simple Statements/Sentences
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3067e4b9-5818-4330-82ce-d8b9391bb6a2)
 
+> When we connect the **simple statements/sentences**, they are called as **compound statements**. 
 
+> The thing which is used to **connect** the **simple statements/sentences** are called as **connectors/logical connector**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/14988ba2-26e2-4822-a8f8-a5206cd49b21)
+
+### Compound Statements/Sentences
+
+* If the sun rises in the west, then the moon rises in the south -> **Compound statements**.
+
+* If then -> **connectors/logical connector**.
+* sun rises in the west -> the moon rises in the south -> Simple statements.
+
+* Either or -> **connectors/logical connector**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f21d87a3-80fa-44c8-a373-7ca47d588891)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/62eafe4b-6b67-418d-9a8e-a5bd31fc8253)
+
+* Logical Truthfulness
+* Simple Statements
+* Two or more Simple Statements -> compound statement.
+
+### Connectors/Connectives
+
+1) Either-or [or]
+2) If, then
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f236373d-ae73-47ea-8cc0-f85acbf8febc)
+
+### 1. Either-or [or]
+
+* Either **P** or **Q**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c14fd98-e9a5-4d66-bcb2-7859674922d0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f06a88af-aa01-476a-bc9c-c91e15f2622a)
+
+* Truth Table of **OR** operator.
+
+> For the **compound statement** to be **True**, **atleast one** of the statements must be **True**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/42df5b86-4e40-4c1d-839e-4dede20123b6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b66f9702-9174-4333-9672-6ab88f3bb8dd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/893042ac-ab2c-4194-9282-a23af9c0d00e)
+
+> The compound statement **ruptures/fails**, when both **p and q** statements are **false**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ece66b6b-35c6-47f3-8778-d0525a9d7260)
+
+* **p** is true or -> Dead
+* **q** is true or -> Alive
+* **p** and **q** are true -> Dead and alive
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5f2a61e9-feba-4312-9cd8-63825944b559)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bd50c66a-a717-46d3-9a36-05d3f3bc9b62)
+
+> For the compound statement to be **True**, **p** has to be **True** or **q** has to be **True** or **p and q** both statements are **True**.
+
+> Either **p** or **q** and we have been told that **p** is **True**.
+
+* P -> True
+* P' -> False
+* Q -> True
+* Q' -> False
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/575d0ba1-7677-4717-8bac-b3b9f18d41b3)
+
+* We want **unique solution**.
+
+1) If **p** is **True** then **q** can be **True or not True** for the compound statement to be **True**.
+
+* We have solution here but **no unique solution**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e71d07f9-2f25-4004-ae55-7ccac0462abb)
+
+2) Either **p or q** and we have been told that **p** is **not True** then **q** must be **True** for what?, for the **compound statement** to be **True**.
+
+* We have **unique solution** here which is **q** must be **True**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a08da74-feeb-46ef-b983-ced4a4897158)
+
+3) Either **p or q** and we have been told that **q** is **True**.
+
+* **p** can be **either True or False**. 
+* So, solution is there but **no unique solution**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a012d75d-2e42-4bf6-b389-cf11c9cc9f94)
+
+4) Either **p or q** and we have been told that **q** is **Not True** which means **p** must be **True** so that the **compound statement** is **True**.
+
+* We have **unique solution** here which is **p** is **True**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7283eda9-d1ad-41a6-ab79-4a5315181f02)
+
+## Summary
+
+1) Either **p** or **q** -> **p** or **q**.
+2) **p** is **not True**(p') -> **q**.
+3) **q** is **not True**(q') -> **p**.
+4) We are talking about **unique solutions** here as well.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe1da223-e226-42e5-919d-db02073f8190)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8b3c2fb-e5f7-4e2d-8523-9c9f775db656)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/70ecc49d-f2e5-4121-aeb2-d4283c7c3a24)
+
+* Question.
+* When **p** is **True** then **no unique solution** possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f3de373-e132-4917-9455-f297aa25d4a1)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9a16772a-e674-4c6a-a2ba-1bdeedc5bf17)
+
+* Question.
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e954519-e974-4aaf-a327-e7f42801694e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/87c8c412-e884-4745-a85f-b6008577f13e)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f8270292-aaec-409d-9266-14c5c7f28864)
+
+* Option **A**.
+
+### If, then
+
+* If **p** then **Q**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8205fd72-04be-4529-ab5f-df60804c56a1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b77b856c-5caa-41e0-9880-77d2f51a0420)
+
+* Whenever it rains, I wear the raincoat.
+* **If it doesn't rain** -> Beyond the scope -> Kuch keh nahi sakte
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/14ed72d9-50c7-426d-9ab3-9ab966e6055b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/43d847dd-584c-48e0-9692-8c161edfe4b5)
+
+* p -> raining
+* q -> Wearing raincoat
+
+1) p(raining) -> q(raincoat)
+
+* Unique solution available which is **I wear raincoat(q)**.
+
+2) p'(Not raining) 
+
+* q -> **I wear raincoat(q)**
+* q' -> **I do not wear raincoat(q)**
+
+* Solution available but **no unique solution** available.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/411e2789-a332-4800-ac63-feac524f7348)
+
+3) q(wear raincoat) 
+
+* p -> Raining
+* p' -> Not raining
+
+* Solution available but **no unique solution** available.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ad6ee72-a75b-4c50-84ad-695c48ea473e)
+
+4) q'(Not wearing raincoat) -> p'(Not raining)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cde46402-ff52-42db-856f-7c8514608ae5)
+
+## Summary
+
+* If **p** then **q**.
+
+1) p -> q
+2) q' -> p'
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d2667bb8-f31e-4ec8-8626-698501abfc67)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/acacbb9b-8e08-477d-9224-e6eca8efb2eb)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91f1d9e9-f240-47fe-9792-813078228a34)
+
+* If **p** then **q**. 
+* Sequence is **important**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db094d2d-fabe-4cb1-8b9c-9652325c3d51)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/64cd1990-fd84-427d-abc1-ddeb74cf51a9)
+
+* Whichever statement is is **attached** with **if** that statement is **p** and the other statement is **q**.  [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/334950b6-57ef-4096-98d7-89304e55d927)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5654d61b-f17f-4d83-819b-06cc3d53f1b6)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aeae5a97-3f07-4057-8a6e-b36c7f614de6)
+
+* Sequence important.
+* Outcome is the **same**.
+* Brother of **if** is **whenever/when**.
+
+### **Whenever/when**
+
+* Brother of **if** is **whenever/when**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58b27105-37da-4624-b344-560d7c68bf37)
+
+* Whenever **p**, then **q**.
+* **q**, whenever **p**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41e2ba30-3932-43eb-aa69-a5c24f7387b3)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/49696c4c-46e2-4847-ab02-9e1fe316964b)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4145f423-eec4-47a2-88f1-20992266d3be)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1496fab-27f8-4f79-9a28-c8a042eae5d6)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0977e9d6-9825-4cfd-91b3-0561c24112c8)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d219e871-38dc-4b14-a1e2-a87bb9b37944)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d5fa4917-2069-4b89-892c-b33ca4464ad0)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ec2d94c-fd4a-4bd2-81d0-cedbe17c4800)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc81bbe4-ab04-4b93-b057-fd7b655a4019)
+
+* Option **D**.
+
+* **NOTES**:- [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8218d54-5922-491e-b16c-d646cb66cd40)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f634ceb7-5be0-44f2-aa58-b51097489f63)
+
+* Either **p** or **q**
+* **p** or **q**
+* p, otherwise q
+* unless p, q
+* q, unless p
+
+* p' -> q
+* q' -> p  
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/477af446-aff2-4b2e-8266-d6748681c9bc)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a9d4f07-c353-407f-91a9-90c7bf87dcad)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b014e5d8-dfa8-4e48-90ec-e5805a3166d6)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f300e9f-38d9-4391-8e60-6b54965539ac)
+
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/15e6a759-ea9a-47f7-981a-4b2975df2e64)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bd67825e-9faa-47ff-9bfc-f69ea0f24924)
+
+* Option **D**.
+
+* **NOTE**:-
+
+* **AND** gate.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5ca05dc-916e-45a4-bec9-bf3f0cdcee5c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86204b4d-e49f-464c-8de5-d661fa680367)
+
+* When both **p and q** are **true** then only the **compound statement** is **True**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c4b43f2-c88a-4624-8239-7cfd213654e8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd31da0d-3d06-4652-81f0-9fcbbc5c622e)
+
+* De-morgan's law.
+* (p or q)' = p' and q'.
+* (p and q)' = p' or q'.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7607001f-921a-46f9-addd-e5c2ae74370d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30e1c4eb-1bb3-4fda-9682-aa5a2f13b7a7)
+
+* Question.
+* If, then.
+* Within **q** there are more statements.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ce3cd79-df94-45e8-a289-ac029d2f4219)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a2fea88-a718-4275-9b6f-d639e26e5e48)
+
+* For the compound statement to be **True** in **either, or**, **p' -> q** and **q' -> p**.
+* **q1' -> q2** and **q2' -> q1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c68cffa3-6e65-44ea-8bd4-6366756027d1)
+
+* As we got **q2' -> q1** which means **q** is **True**. So **p -> q** which is a unique solution for **if, then**. So, **option 'A'** is correct.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/940667b7-2569-455b-acbb-f7e1ba5522b4)
+
+* There is only **one way** where the **compound statement** ruptures, when both the statements are **false**.
+* The **AND** point of de-morgan's.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b903ceda-93f6-47f5-aa6d-00e8abf83660)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6379dcee-8f5d-4f23-9bb1-e576f684fd51)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a377a5f-6a13-4ffb-9f78-5d2375948f7a)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d721d3b-3cb3-49de-9df1-3a50368072f3)
+
+* [**IMPORTANT**]
+* Unique solution -> Logical Necessity (LN)
+* No unique solution -> Logical possibility(LP)
+* If anyone of them(not unique solutions) are given, thne they are **LP**.
+* Option **A** -> Logical possibility(LP) as it given **no unique solution**.
+* Option **B and D** gives **unique solutions** that's why they are Logical Necessity (LN)**.
+* **If, then** -> **p -> q** and **q' -> p'**.
+* Option **C** is **correct** answer.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d48a899b-e0f1-49bf-97ec-959f8ff32d9e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c36013f1-b133-4b5c-8e40-189dde63651c)
+
+* **NOTE**:-
+
+* If **p** then **q**
+* p -> q
+* q' -> q'
+
+* Whenever we see the word **only** with **If, then**, then do **180 degree** of the **unique solution** outcome cases.
+* Only if **p**, then **q**.
+* q -> p
+* p' -> q'
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/762dd714-fa9f-4305-8839-791033bba91d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a44bdee0-cf48-4468-abbc-e56f26c5f2d4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8383dfc8-df04-474d-8b62-7818027f1359)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c6500c6d-63ca-41a6-9eb8-bd642bb4f00b)
+
+* Option **C**.
 
 
 
