@@ -5258,7 +5258,7 @@ Q -> < 8
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/60e459f0-d698-47bf-8d92-ba87415161eb)
 
-## Summary
+## Summary [**IMPORTANT**]
 
 * Straight Lines -> nC2
 * Triangle -> nC3.
@@ -5287,6 +5287,62 @@ Q -> < 8
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/99c5f10e-a4d8-414d-a975-f68b8d970613)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b6c09102-96b0-4b6e-b4bc-f4a978b5150b)
+
+## Doubt clearing session (26) [19th June 2023]
+
+## Permutation and Combination
+
+* Only **one** exchange between two people -> **nC2**.
+* **Tne** exchange between two people -> **2 * (nC2)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c640dfa3-a790-4c8f-8fa0-34156145e002)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/658bfb7a-01e9-48e4-a687-7ec1d0e629d3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66fecd20-30ad-4c22-9d26-64e815ed24e7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/132e3af6-d3be-4274-b09c-2ba48a5a3dd3)
+
+* **NOTE**:-
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce898746-7434-46d9-933d-802cde854c9b)
+
+* AB and CD are **parallel**.
+* AD and BC are **parallel**.
+* When two lines are parallel and equal -> parallelogram.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3e3b2cd-5b79-4f39-87dc-28653a24bba9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16262da5-d2b2-4423-a115-46adeb6e2c4c)
+
+* Parallelogram 's Kid -> Rectangle
+* Parallelogram 's Kid -> Square.
+* Parallelogram 's Kid -> Rhombus.
+* Parallelogram 's Kid -> KITE.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3ffd1ae-12a3-41e5-99ae-0a5fccb4bd79)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
