@@ -5317,14 +5317,68 @@ Q -> < 8
 * Parallelogram 's Kid -> KITE.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3ffd1ae-12a3-41e5-99ae-0a5fccb4bd79)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/67bb7a3a-414f-474c-8391-2e243bc15d59)
+
+* Chess Board
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/49ccb78f-c11e-44bf-a0e7-5b3a8aacafcd)
+
+1) Squares(1 X 1) -> 8 ^ 2 -> 8 * 8
+2) Squares(2 X 2) -> 7 ^ 2 -> 7 * 7
+3) Squares(3 X 3) -> 6 ^ 2 -> 6 * 6
+
+* Total no. of **squares** in a chess board -> 1 ^ 2 + 2 ^ 2 + 3 ^ 2 + 4 ^ 2 + 5 ^ 2 + 6 ^ 2 + 7 ^ 2 + 8 ^ 2
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/49f33a68-7744-4e49-ad2e-ad3de6f40ae9)
+
+* Sum of **squares** of an **n** natural no ->  1/6 * (n * (n + 1)) * (2 * n + 1) = 1/6 * 8 * 9 * 17 = 204 [n=8]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e4c6b77b-c54b-4ef1-8368-d52651e59d1b)
+
+* Probability of getting **1 X 1** square in a chess board -> (8 ^ 2)/204 -> 64/204
+* Probability of getting **2 X 2** square in a chess board -> (7 ^ 2)/204 -> 49/204
+* Probability of getting **6 X 6** square in a chess board -> (3 ^ 2)/204 -> 9/204
+* Probability of getting **3 X 3** square in a chess board -> (3 ^ 2)/204 -> ((3 X 3) value) / (Sum of **squares** of an **n** natural no) -> (3 ^ 6)/204 -> 26/204.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d85fa5df-f5df-4a6b-9299-bc796715424b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/246a8f9d-c448-4d52-9884-f57cd5a7bc3e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d59463d-5ccc-4e8f-863c-21304429bd9b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5cd9e6fa-aa78-4884-a56d-ef73e7498ab8)
+
+* Grid
+* Rectangular Grid.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/70ea9584-968c-4fa2-a247-17655c4820dd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09a6929e-5309-4d93-aed3-a3d0cef437e5)
+
+* How a rectangle is formed?
+
+> (Horizontal)C2 * (Vertical)C2.
+
+* Horizontal(H)
+* Vertical(V)
+* **HC2 * VC2**.
+
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3e39a3e-4380-4a4d-8b9d-96338bc135c3)
+
+> We will talk about **Horizontal and Vertical**, when the lines are **90 degrees**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/13484bff-1fe3-4aad-8e38-109a6b6fae60)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/94a376ee-c7dd-41cb-9c22-db5bc20f1265)
+
+* We have **1-9** horizontal and vertical lines.
+* So, the **no. of rectangles** are -> 9C2 * 9C2.
+
+* **All squares** are **rectangles**.
+* **All rectanges** are **squares**, not necessarily.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af5b0dab-6b08-4431-a91d-157774aaaeeb)
 
 
 
 
 
-
-
-
+   
 
 
 
