@@ -6110,6 +6110,12 @@ efe4b05d9d09)
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3eb6f304-4351-4d3f-ba0e-43b015006b3c)
 
+## Verbal ability part-II (29) [20th June 2023]
+
+## Verbal Ability
+
+
+
 
 
 
