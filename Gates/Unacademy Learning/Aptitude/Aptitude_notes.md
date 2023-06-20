@@ -1,4 +1,4 @@
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8394cc5e-34b4-492d-8db7-dcfcf701a9ea)# Aptitude
+# Aptitude
 
 # Topic
 
@@ -5902,6 +5902,217 @@ efe4b05d9d09)
 
 * 50th word -> REFOF. 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8394cc5e-34b4-492d-8db7-dcfcf701a9ea)
+
+## Doubt-clearing-session (28) [20th June 2023]
+
+## Quiz- 4 Discussion
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3cf9dfbe-5f86-4317-94ff-7c348e700a34)
+
+* PLDR(EAE) -> 5! * (3!/2!)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4075416a-b21f-41b4-b7b7-2223206f710f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f122a0cf-3a5a-462a-a440-ef2f15a41dff)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9eee8bc6-0143-40cd-afbf-97ee8fd8b275)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/01d17540-4d1e-48c4-9d3c-6f28a9983977)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86030bf1-057e-4a6c-84a3-9dc1b7eeaf27)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/18a3cc17-6bbe-4740-95b7-ce7fc2f66455)
+
+* 50th -> NEFTO
+* 100th -> TENOF
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/763a19a7-0414-4adc-8f77-866409d83112)
+
+* Finding the **rank** of the word **SAHIL**.
+
+1) Arrange the letters in **ascending order**.
+2) Find the first letter **S**. It is at 96th position.
+3) Do it same as when finding the **50th, 100th** rank.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6e1ad439-3332-43cc-85fd-cdc202c423f9)
+
+* Find the **rank** of **OFMR**?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/394b1eb0-e968-49a2-ab97-58e11d80a4bf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd420349-5d9d-459f-a96b-286f7c038657)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fdeac6a2-8618-45ad-98b6-5fac48b42917)
+
+* **MOTHER**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/17b9585e-489d-4d6d-b2c3-4d30fcd42a08)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e1a9ef8-57f1-429a-bb23-8d064f2e66e2)
+
+* Option **B** -> 144.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97c543f1-d9e9-45f2-beaf-f85e1249a18a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33f9f1c7-a5fc-4ced-bbe6-e01d0d2a8e90)
+
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b608e2e-7f4e-4a95-b28f-802ed3d1d575)
+
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8135631-057f-4117-9cd8-896ae4523678)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f9bfeee-b914-40a8-ba66-9bf2eec6bca1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd9dcc28-3dae-4a30-9cdb-4f797d94d479)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f736e0ea-cd4c-414d-a0b3-67ad8522e201)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6521d1c9-7def-48d4-a9d8-d85695a3d5b2)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83ba52cc-3158-43b0-8f8d-d1389c146fc1)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a7a59fa1-d23b-46c8-a306-478a4274f354)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8608b849-7f0a-4957-9f8c-7528fa3b246d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b93924e1-8333-44d0-9e1b-05b867b9a16e)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d32e9256-3b43-43cd-ab1d-2365676f50cf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c39dbf93-da26-4372-b8e5-5a59a8f5d676)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/87448458-06c4-4b06-a02c-576809473e1e)
+
+* **5!** is for **5 letter** permutation and arrangement.
+* **8C3 * 3! * 5C2 * 2!** is when they have said that the **vowels** are in **odd place** or the **constants** are in the **even place** something along those lines, then we could have written thatn.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31e50d79-bd97-4159-b064-bf238434ad46)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0152894c-9718-4ec3-a702-41c1dff87549)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b19eb9b-6971-4bb9-b4eb-82b0acac77c4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c90776cb-bce7-49ad-a401-2fce0fea6628)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0e1f3c7-ebb8-424a-8f39-8291ae4a27cc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7806d55b-6037-4def-aef4-0be9b39f67ab)
+
+* Option **C** correct answer.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d2fc79c6-43ff-4b93-a613-fa9af72c02f5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1942f3d9-194b-4bad-8d7e-809568bb2e28)
+
+* **TRICK**:-
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/526618f6-b360-4c8b-94a8-79c12e285960)
+
+* **r** -> No. of variables
+* **n** -> Power.
+* **Formula** -> (n + (r-1))C(r-1)
+* (a + b) ^ 2
+* (a + b) ^ 3
+* (a + b) ^ 7
+* (a + b + c) ^ 2
+* (a + b + c) ^ 50
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9193d4fb-902d-449f-b3e3-c8f8d0699dd5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8b0dd04-e82c-4c5e-b560-b82d10ed6463)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a01ac526-eb20-4e94-94c5-a2caa24b8f94)
+
+* **(a + b) ^ 7** -> (n + (r-1))C(r-1) -> (7 + 2 - 1)C(2-1) -> 8C1 -> **8**.
+* n = 7, r = 2
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5bbdcdca-3626-4c85-bcd4-9b211d8fc577)
+
+* No. of terms in ((a + b + c +d) ^ 10)?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cdff50c2-819b-45e7-9b8d-2d2fd3733b06)
+
+* Question.
+
+> **(n + (r-1))C(r-1) -> (10 + 4 -1)C(4 - 1) -> 13C3 -> 286**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6505dc75-a881-4441-b191-fd4aa1b5a99a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/704b3c20-7912-4350-9717-7cc599f028c9)
+
+* Algebra. [**IMPORTANT**]
+* Main importance/imporant thing of **algebra** is **inequality**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba8409ec-2fc0-449d-ab93-3cdac9c3205f)
+
+* What is the **min** value of **X and Y**?
+
+> **X = Y = 0**, as **X >=0 and Y >= 0**.
+
+* X + Y = 4.
+
+> From **4** take out the **min. values of X and Y** from **4**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3b73668d-39bd-4d9b-b2a7-ecfbf74b1ac4)
+
+> Use the **(n + (r-1))C(r-1)** to get the **answer**.
+
+* Here, **n** is the value on the **right side** of the equation.
+* **r** is the **no. of variables**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b64f8d9-136e-4ad1-8836-c1c9035c76b7)
+
+* When **X > 0 and Y > 0**. **Min value of X an Y** is **X = 1 and Y = 1**.
+* Now, we will **substract**, the **min. value of X and Y** from **4**. So, the equation is **X + y = 4 - 1 - 1**.
+* **X + Y = 2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c559b28d-135d-4568-a332-d7b6769fff91)
+
+* We are finding **no. of solution**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/760e9837-a86b-4750-926d-b20b0b8c6913)
+
+* For **X >=0, Y >=0, Z>=0**, the **min values of X= Y = Z = 0**. So the **new equation** is **X + Y +z = 10**.
+* New expression -> **X + Y + Z = 10**.
+* We got **no. of solutions** as **66**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d7449f33-dd27-4d3a-b044-c5401e78adf9)
+
+* For **X >=0, Y >0, Z>0**, the **min values of X=0, Y = Z = 1**. So the **new equation** is **X + Y +z = 10 - 1 - 1**.
+* New expression -> **X + Y + Z = 8**.
+* We got **no. of solutions** as **45**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35cc06a0-c8ed-4d5d-b80e-3dbd9b24302b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aee245ad-cf04-42fc-89fc-12679d80846c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e22ee495-6f43-4b4c-bbc3-16ee0de6a72f)
+
+* For **X >0, Y > 1, Z > 2**, the **min values of X = 1, Y = 2, Z = 3**. So the **new equation** is **X + Y +z = 10 - 1 - 2 - 3** -> **X + Y + Z = 10 - 6**.
+* New expression -> **X + Y + Z = 4**.
+* We got **no. of solutions** as **15**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/39adb0bf-a74a-4e44-a30d-19c2a214a7e7)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8dd38441-4d27-4a36-b6c4-cfcf076677a5)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b370691c-5bc4-4d8b-9259-7f02bc2a4431)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16b1f1a0-6406-4a45-b4e5-3c2f43c1052e)
+
+* No. of terms.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f378112-6b58-497d-bb6c-9faa3a9e950b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d5a34eb-1ef5-4843-8927-9b85367dd06a)
+
+* Repeated words.
+* IAAMS.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb31943f-3d01-4a9e-a360-bf85bc89f0bb)
+
+* Critical Reasoning.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3eb6f304-4351-4d3f-ba0e-43b015006b3c)
+
+
+
+
 
 
 
@@ -5937,7 +6148,8 @@ efe4b05d9d09)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8dbedf0-49ee-4a8e-a4e8-0e1221b3fe1a)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b972359-b303-475a-95ca-4c8facaa7ff6)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2104bdcf-2256-45ff-a541-18bf18807d91)
-
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7e56c10-f093-4089-8e52-1216ef80c7aa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8171addf-b128-493c-82ec-126854e2967f)
 
 
 
