@@ -6557,33 +6557,215 @@ efe4b05d9d09)
 
 ## Probability
 
+* Experiment
+* The experiments where we already know the outcome are called as **deterministic experiments**.
+* The experiments where we don't know the outcome but we know a range of the outcome are called as **random or probabilistic experiments**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4caa4c09-82d8-4f47-96e6-3ee1eb00fccd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/893556e3-46ec-4c85-ac6f-0ac09f644169)
+
+* Trial -> When we throw a **coin**.
+* Event -> The moment we see the **outcome**.
+* Favourable Event -> Whatever we want
+* Unfavourable event -> Whatever we don't want.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae7e6869-b901-4a3d-97d1-03ffff9c7927)
+
+* Sample Space -> Total of whatever we want and whatever we don't want.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc237eb7-9df5-4486-829f-28a4858935f0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ad25dff-e112-4cfd-9f67-658438ef662a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b7c6f570-9ef2-4ca6-8af8-85014d07cb34)
+
+* Probability of occurance of an **event**, P(E) -> (favourable event(f/E)) / (sample space(s/s))
+* Probability Probability of occurance **range** of an **event** -> **0 <= P(E) <= 1**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/75864e2d-3b91-4d79-930f-9063fb093d3d)
+
+* What we need to make a **probability question**?
+
+1) Define the **event**.
+2) Find total **sample space**, how many cases possible.
+3) Find the **favourable events**, which will be subset of **sample space**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c96e3104-6b2b-4627-92a7-7d6e2c6d39b8)
+
+* If we throw **1 coins** -> sample space is **2 ^ 1 = 2**.
+* If we throw **2 coins** -> sample space is **2 ^ 2 = 4**.
+* If we throw **3 coins** -> sample space is **2 ^ 3 = 8**.
+* If we throw **'n' coins** -> sample space is **2 ^ n**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9676189b-5fe1-42ef-b25d-bcc498b817ee)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae0f320d-be89-43f8-9fed-63c441015349)
+
+* If we have thrown **3 coins simultaneously** or **1 coin three times**.
+* Sample space is basically whatever we are throwing, how many **faces** does it have. The **power** is **quantity or no. of throws**.
+
+## Coins
+
+* If we throw **2 coins**, sample space is **2 ^ 2 -> 4**.
+* Sample space of throwing **2 coins** -> HH, HT, TH, TT.
+
+* Probability of **HH** -> 1/4.
+* Probability of **HT** -> 2/4 -> 1/2.
+* Probability of **TT** -> 1/4.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/23746015-6d7f-4cf0-9ec6-8a902c7dc93b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/492ae03a-2b9d-403a-89a7-085d00ed3254)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/18c36ded-459f-4ea4-b58c-94ce7c7091b6)
+
+* For **n** different things is **n!**.
+* If I throw **2 coins**, sample space would be **2 ^ 2**.
+* Probability of getting a **head and a tail**, **P(HT)** ->  2! / (2 ^ 2) -> 2/ 4 -> 1/2
+* Two different albhabets arrangement is **2!**.
+* As **H and T** are two different alphabets so their arrangement is **2!**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69b825e0-8d68-4b26-bcfd-8ea611a0b001)
+
+* For **3 coins**, we want to find **P(HHT)**.
+* **P(HHT)** -> (3! / 2!)/ (2 ^ 3) -> 3/8
+* **3!** is for **3 letters** which are **HHT** and divide by **2!** since **H** is repeated **twice**.
+* Sample space -> 2 ^ 3.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f89393f-7932-4980-9f47-276b3d3b578e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3e9d41f-e6f3-4273-9f1b-54792f682a09)
+
+* We have make **no. of coins** irrevalent, as we are using **n!** which is for **n** different things.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9199dc21-b215-4b81-b4b9-0bfc9cb6cb80)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66b1db19-8ba7-4109-933e-236846448994)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63a2d824-5c77-498d-8520-884b39107352)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f513ab7-a76e-4d98-a0ae-9c0e3d1ddf92)
+
+* For **5-coins**, we are finding probability of **P(HHHTT)**.
+* Sample Space -> **2 ^ 5**
+* **5!** is for the **no. of letters(HHHTT)**.
+* Divide by **3! * 2!** because we have **H** repeated **3 times** so **3!** and **T** is repeated **2 twice** so **2!**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aec57764-ef03-46c2-9914-9f247e147d48)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ca9cf43d-5f1e-40d7-a15e-f59078a73f75)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b5004ee-be17-4951-91a1-8d8903d587ef)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7fc2452-32ce-4cfb-8268-2c90c7142463)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/911b2db7-5d74-401b-a596-9a9346fe1344)
+
+* Question.  
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2352f680-a1c5-468c-9da2-d481ffac3810)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b8c45389-70a8-4e59-97e8-f3531921f71d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d5dc5dd-ad79-4c5f-bd1f-61197a4d113e)
+
+* Fair -> Unbiased. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c87c58cf-73bf-4410-9f73-9ffdb7ee5036)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05320e1c-a036-4ef4-8f1c-a913fc708f69)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fdc656bf-cf7c-4c8e-a751-b5098efc95c0)
+
+* Probability of **Atleast one(1) Head(H)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b537421-364b-46ff-87f7-9c0205fb46a5)
+
+* Probability of **Atleast one(1) Tail(T)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3d8f26d-f999-48bb-837a-a1e841cd51ff)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/48b8f5c9-65e6-4af2-a2cd-7265e3fea1be)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e8ca092-6ed9-4da6-8bf4-5ce739273c3b)
+
+* Probability of **Atleast one(1) Tail(T) and Atleast one(1) Head(H)**. 
+* It means that we have to **remove** both **HHH and TTT**. 
+* That's why the probability is **6/8**.
+
+ ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/74ff473a-6d7f-4430-8aa4-6d81fdce25a4)
+
+* Atleast 1-H and Atleast 1-T.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3bef577d-23e1-431e-b96e-4e5c078993c6)
+
+* Atleast 3-H.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c8927ddf-d76e-4e4e-8f08-1e1dc5437ed3)
+
+* Atmost 2-H
+
+## Dice/Dices
+
+* 1 Dice -> Sample space is **6 ^ 1**.
+* 2 Dice -> Sample space is **6 ^ 2**.
+* 3 Dice -> Sample space is **6 ^ 3**.
+* 'n' Dice -> Sample space is **6 ^ n**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2decf86-4f42-4e1e-86a1-70d1bd036d35)
+
+* If we have thrown **two dices or thrown one dice twice**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/675ebff4-d7bd-49d9-804c-178fc978a48a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/166399e9-39aa-44ac-b1d6-33ccfbcdaf39)
+
+## S-Dice **Sum** [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff6c1e48-298f-4887-a1e2-4d9ce425aa0a)
+
+* Two dice **min. sum** is **1 + 1 -> 2**. As **1** is the **min. value** in  a **dice**.
+* Two dice **max. sum** is **6 + 6 -> 12**. As **6** is the **max. value** in  a **dice**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2588960-1409-4332-8849-30098d6c6ab3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32140f20-b542-462b-b9fd-2fc5944ce53b)
+
+* No. of ways.
+* We have thrown **two dices**.
+* What is the probability of P(sum =5) -> 4/36.
+* Found using the **triangle**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed990f48-9c98-40d0-9ef9-bb5024e31585)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/035d7e68-3aaa-474e-9879-84c6c06ce10b)
+
+* What is the probability of P(sum =8) -> 5/36.
+* What is the probability of P(sum = 9 or 11) -> 4/36 + 2/36 -> 6/36 -> 1/6.
+* What is the probability of P(sum <= 3) -> (1+ 2)/36 -> 3/36 -> 1/12
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3110a6a-c2b1-4f25-9be4-2ea1bc767566)
+
+* What is the probability of P(sum =8) -> 5/36.
+* What is the probability of P(sum = 8 or 3) -> (5 + 2)/36 -> 7/36
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a22e1ced-85bc-4e99-bd97-f199313d2dc5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b6c63fcf-e645-4b2c-9220-7446971d118b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/deb0838b-a2ec-4423-848e-06be05b9dfdd)
+
+* [**IMPORTANT**]
+* What is the probability of P(sum is either 8 or 3) -> 1 - P(sum = 8 or 3) -> 1 - (7/36) -> (36-7)/36 -> 29/36.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/52ecd7cb-820a-43c5-87e2-8ba66b647a62)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/585ff1f2-d89a-4b3a-9f13-14db3a206c80)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95b5bc28-a248-4d29-bcf8-b6625a72667a)
+
+* Question
+* P(Sum = Even Nos).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/afed90b0-e5c7-4b25-9b5c-8848fb7c8dbf)
+
+* Question
+* P(Sum = Prime Nos).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb72642e-478d-4a7d-9147-e7761eca1409)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/abcf207b-37dc-427e-8277-0b4ef1d63513)
+
+* Question
+* P(Sum >= 10)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7e65376-2716-40d3-b9e5-0c28901cb074)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1dac179-34b0-4ade-8efd-5b51b952e96f)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
 
 
 
@@ -6886,6 +7068,7 @@ efe4b05d9d09)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4806378-fd38-445f-a2cf-756c7e0a4b48)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8fd1eb2f-f17c-47ba-b4af-ac3833a61a83)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d152b83-00b4-4893-90f8-6cc9b90c18d2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8b34217-d633-48d1-932d-44ffaf69b007)
 
 
 
