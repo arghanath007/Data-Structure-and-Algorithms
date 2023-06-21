@@ -6114,6 +6114,233 @@ efe4b05d9d09)
 
 ## Verbal Ability
 
+1) Verbal Ability -> Vocabulary
+2) Verbal Reasoning -> 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a356b4df-95bb-4a86-aacb-677adda78572)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dcb2a503-0b89-4f44-8947-ba5942a77de5)
+
+## Questions
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb303bfc-13b9-425f-b96f-fef6feab2989)
+
+* Question
+* **Mock/Deride/Jeer** -> Ridicule someone
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ed48cb9-37c0-464f-8797-65b3acffa4df)
+
+* Ridiculous -> Adjective
+* **ous** -> The word becomes an adjective.
+* Absurd
+* Praise -> Tarif karna
+* Phony
+* Euphony ->
+* **Eu** -> positive word.
+* Cacophony
+* Euphoria -> Extreme happiness
+* Eulogy -> Praise
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2e8f2b7a-5cfe-499d-819d-0600f831872e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d633886d-530e-4193-84fe-a0d0120dce74)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/665111fd-e258-44c3-af73-dd1ea9ca2121)
+
+* Summit ->
+* Peak/pinacle/Apex/Summit/Acme
+* Peek ->
+* Epitomy -> 
+* Epitome ->
+* Apogee
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2e82f241-aa1e-4546-9563-afcf19c677b5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d4a27d9-720e-4109-a08c-d3488f2eef54)
+
+* Opposite words:-
+* Nadir ->
+* Abyss -> 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e4eb3c9a-7599-4e1b-bfa2-2efd336279f2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/175f4b69-6e02-411c-98a0-a38ec2935ac7)
+
+* Question.
+* Option **B**.
+* **Closest** -> [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50770236-f9bf-4a1c-92b7-633d40e272d9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63dcb6a9-a70e-446b-937d-8c952c011f00)
+
+* Question
+* Option **B**.
+* **Thorough** -> Up to date.
+* **Meticulous** -> Precise/Perfect/Diligent/Precision.
+* **Tenacious** -> Hardworking.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81a64138-aa57-4be8-92a0-dcb36e23fd41)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/56676591-761e-4e26-b7e9-e432f60a52fb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/487e1292-3bc3-4062-872d-397794b4b193)
+
+* **Beside** -> Next
+* **Besides** -> Except/Excluding.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa2dd7c0-66b3-46da-88f1-53e756c83ba2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf63a72a-6020-4c08-aa97-c5a461ccffcc)
+
+* Question.
+* Option **D**.
+* **Many** -> Used for **countable** things.
+* **Much** -> Used for **uncountable** things.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8bd73c10-daea-41f7-8b5b-87e9470865b7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/092248ab-5941-4ef4-ab81-79611c2b2d37)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7472d573-c794-42da-b5ff-e3e02dbb28bf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57dbce92-b2b9-4d77-9ba2-ab3cc28204fc)
+
+* **[IMPORTANT**]
+* Both are **correct**. Both are **plural**
+* People -> One nationality.
+* Peoples -> Different/Multiple nationalities.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/96e4c5cd-c2b1-434c-a31f-9523ad9865fe)
+
+* **Sleeping postures**.
+
+* **Prone**
+* **Supine**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e6bd3978-9d1e-40aa-99eb-d0d3b7c80ba8)
+
+* Question
+* Option **D**.
+* Prone
+* Prune
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6423b51b-a46d-416d-b9b7-d3035d028df5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57e81ac3-90d6-4371-ba16-8f87313a2249)
+
+* Option **D**.
+
+## **180 degree words**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc078e9c-fc5d-44e9-94df-1b972be3d912)
+
+* Though
+* Although
+* However
+* Inspite of
+* But
+* Despite
+* Yet
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a395b99-2bc9-4d2d-a998-0fab5355f188)
+
+* Question
+* Option **A**.
+* Although
+* Hardly
+* Bereft -> Void of ideas -> Bereft of ideas.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a33dfb2c-0faa-4f75-aab5-0d7f8a107d0a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/535deaa8-40d0-40cd-a33b-1a5d15f52008)
+
+## Analogies [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc622b3c-c545-420e-86ac-58098bb72d76)
+
+* Analogies
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9a8783aa-83ba-457a-bb15-688a20f41b0d)
+
+* Question
+* Option **B**.
+* Option **C and D** are wrong becuase **children** asked in the question, so, we need to find **categories**.
+* Gyne/Gyna -> Related to **females**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f63f4e6c-69f0-40ad-b215-cf53efd9e400)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cbf8f460-6fcc-47ca-858a-17ac110e3773)
+
+* Misogamy -> Hatred to marriage.
+* Miso/Mis -> Related to **Hatred**.
+* Misogyny -> Hatred to women.
+* Misandry -> Hatred to men.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6815e80-81fc-469f-8a69-58802b75538e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f065bd1-e8c4-4ad1-8dcf-a155787611a6)
+
+* Ortho -> Related to **BONE**.
+* No. of bones in Adult -> 206.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65d65bcf-e666-4289-8aec-664d65d1c147)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b29c7930-d7d4-4026-8f27-ccf7fcfd1dcd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/49b9e1a3-a46e-43da-8947-b5cec0e4da83)
+
+* Question.
+* Option **C**.
+* 1,2,3,4,5 ... -> Cardinal numbers.
+* Ordinals -> Position.
+* Exhilarating -> Jaw dropping.
+* Superb.
+* Medium.
+* Mediocre.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d11851f4-0c3e-403e-879c-b9e30a08de48)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41c385ab-d6ec-4f12-88d6-887632bea5e9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9204f2ed-8308-4e69-99a2-fd11fec32446)
+
+* Compliment -> 'i' means praise -> Tarif
+* Complement -> Perfectly Matches
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/835d3bb4-73a5-4a49-a346-6dd4441456ed)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2e513f5a-89df-4fa4-9e4e-8327b4ed6242)
+
+* Question
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/350bf355-2755-49cf-b7fa-3ad78982d513)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0be47625-703f-4b74-bea7-2c9507a57806)
+
+* Desert -> Ragistan -> Dry place -> Deserted piece of land -> Sahara 
+* Dessert -> The dessert was too sweet -> Sweet.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f980b7ef-89e1-4d04-a809-1173f3124ace)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb88c444-ff6a-4fe4-b3e7-ebb65c847ca5)
+
+* Insure -> Insurance
+* Ensure -> 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f00ce06-5e07-4cc4-8e6d-dd5b7e250d8d)
+
+* Question
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d5068e03-a753-4f66-a4ba-956bc3a8b1e1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e28b211-bae6-4f04-8e3b-648caaf406b3)
+
+* Question
+* Option **A**.
+* Etiquette
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91bfdcf8-aaf1-4dc5-a90e-47098fcd9413)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/276a43c9-3613-44ad-be45-7bd5cb3f67d6)
+
+* Question
+* Option **A**.
+
+* Pandemic
+* Pan -> Spreads in the Whole world -> Universal.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/acf39f54-429d-485b-b51c-be89ce38315f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3910bf3c-6070-43a4-89c3-49c15c137ba6)
+
+* Question
+* Option **A**
+* **Turned a deaf ear**
+* Twisted -> Fabrication
+* Appreciated
+* Returned
+* Ignored
+
 
 
 
@@ -6431,6 +6658,7 @@ efe4b05d9d09)
 * If I have failed in certain vertures of life then I have failed in those ventures and I am not a failure in life.
 * Only if you could count your blessings in the persuade of what we want, we should be thankful of what we have.
 * We are not human beings on a spiritual journey, we are the spiritual being on the human journey.
+* Casualness leads to casualties.
 
 
 ## Scratch Board
