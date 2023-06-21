@@ -6553,6 +6553,11 @@ efe4b05d9d09)
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/055e12f4-6e2f-4fc3-bf6d-44863f9704fc)
 
+## Permutation combination probability part-IX(31) [21st June 2023]
+
+## Probability
+
+
 
 
 
