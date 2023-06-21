@@ -110,6 +110,9 @@
 
 * Link -> https://unacademy.com/quiz/quiz-part-iv/PNAEF19CL4/solutions/SP_UUMVKVFANAJDYOF1X
 
+## Quiz- 5
+
+* Link -> https://unacademy.com/quiz/quiz-part-v/RHK96954WC/solutions/SP_VQXAUIFIKTXG5MA3M
 
 # Practice
 
