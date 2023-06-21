@@ -1,4 +1,4 @@
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2eb8f5b-3feb-4eb4-b130-86b5d4ab3545)# Aptitude
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b9a5d726-06d8-4b58-bf6a-57488a974e31)# Aptitude
 
 # Topic
 
@@ -6706,9 +6706,21 @@ efe4b05d9d09)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/675ebff4-d7bd-49d9-804c-178fc978a48a)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/166399e9-39aa-44ac-b1d6-33ccfbcdaf39)
 
-## S-Dice **Sum** [**IMPORTANT**]
+## 2-Dice **Sum** [**IMPORTANT**]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff6c1e48-298f-4887-a1e2-4d9ce425aa0a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a376b73-180a-4a65-a27d-43f37c7983d3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/73c27c7c-4303-4c0d-afbf-bcc5145d8945)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc2e6599-9ba0-41a8-9fba-099b621ed61d)
+
+* [**IMPORTANT**]
+* **Magic Triangle**.
+* Outside or above the line values are **sum**.
+* Inside or below the line values are **ways**.
+* There is a the way to calculate the **probability** of **sum** questions in **2-Dices**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e64c6785-618d-4b62-b54a-0766e596afe2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8f3a611-ab9d-47f8-a4ec-71bb3e5c1819)
 
 * Two dice **min. sum** is **1 + 1 -> 2**. As **1** is the **min. value** in  a **dice**.
 * Two dice **max. sum** is **6 + 6 -> 12**. As **6** is the **max. value** in  a **dice**.
@@ -6723,12 +6735,17 @@ efe4b05d9d09)
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed990f48-9c98-40d0-9ef9-bb5024e31585)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/035d7e68-3aaa-474e-9879-84c6c06ce10b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b2dc94ed-bafb-4bd6-81d9-82b9b09f3661)
 
+* What is the probability of P(sum =5) -> 4/36.
 * What is the probability of P(sum =8) -> 5/36.
 * What is the probability of P(sum = 9 or 11) -> 4/36 + 2/36 -> 6/36 -> 1/6.
 * What is the probability of P(sum <= 3) -> (1+ 2)/36 -> 3/36 -> 1/12
+* What is the probability of P(sum >= 9) -> P(sum=9) + P(sum=10) + P(sum=11) + P(sum=12)  -> (4 + 3 + 2 + 1)/36 -> 10/36
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c5fbc5f7-6b10-4eea-8754-17be17f8bb49)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3110a6a-c2b1-4f25-9be4-2ea1bc767566)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b6b8b089-8f1d-4c07-8b50-294cfb89cbae)
 
 * What is the probability of P(sum =8) -> 5/36.
 * What is the probability of P(sum = 8 or 3) -> (5 + 2)/36 -> 7/36
@@ -6764,6 +6781,9 @@ efe4b05d9d09)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7e65376-2716-40d3-b9e5-0c28901cb074)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1dac179-34b0-4ade-8efd-5b51b952e96f)
 
+* Probability of **P(Sum <= 3)** -> P(Sum = 2) + P(Sum = 3) -> (1 + 2)/36 -> 3/36 -> 1/12
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac843d65-4bb7-4d4c-8b60-9f520caa6b4f)
 
  
 
