@@ -1,4 +1,4 @@
-# Aptitude
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2eb8f5b-3feb-4eb4-b130-86b5d4ab3545)# Aptitude
 
 # Topic
 
@@ -6341,6 +6341,240 @@ efe4b05d9d09)
 * Returned
 * Ignored
 
+## Verbal ability part-I (30) [21st June 2023]
+
+## English Usage
+
+* Similar words.
+* Homonyms.
+
+## Verbal ability
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80427147-1a2c-416f-9d23-2c765d3a8d91)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b474dac-8a3d-4a6c-be9c-aed11dc35a34)
+
+* Question
+* Option **A**.
+* Enlightened -> Epiphany -> Nirvana
+* Enlightenment
+* Salvation
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0695421-568b-4992-a756-35f4af5447c7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a389b4ee-7722-457f-a615-53077deccac4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/439b28c0-8077-4bdc-871e-09016a9aa2b3)
+
+* Joy -> Happiness
+* Jovial -> Joyousness/Happiness
+* Jovian -> Related to planet **Jupiter**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c6f229f-5acd-4973-8f43-e0dc91746835)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/54b0b124-219c-4e74-9ed1-2bf84855e413)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e76a65a1-c699-456a-af40-6cc031cab178)
+
+* Option **A**.
+* Ineffable -> Ineffable happiness.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c3ae44e-3705-4df4-a1ae-d51125895f70)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed723db5-55bc-46d5-b1a2-ca2b435d6745)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/74f58345-ec88-4f15-b6be-c4b79efbdc2e)
+
+* Question.
+* Gladiator : Arena -> Professional Rivalry. [Key Word]
+* Option **D**.
+* Dance : Stage -> Could be a performance as well.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c826373-6f98-43d8-9de1-57c5c150bb52)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0a98222-6072-4f1b-9df4-69fc21c60579)
+
+* Performance.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4d1e37c-38c4-4715-8f44-dc478e3f7e41)
+
+* Lawyer : Courtroom -> Professional Rivalry.
+* **Nonchalance** -> Carelessness -> **Nonchalant** -> Insouciant.
+* Carefree -> Positive word
+* Careless -> Negative word -> Reckless.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58c9c338-b254-43c9-bd37-fe76fe43c1f0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/881a2387-042e-47a9-8511-a8091a76dfcb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e0506a3c-b84a-4cf3-9016-f770a24df362)
+
+* Insouciant
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce7c611b-3e19-4220-96de-704b2b0652ad)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/43a6f563-dfab-41c6-b7c0-7751da01a58f)
+
+* Question
+* Option **D**.
+* Calm.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d0a8f8a-50b2-43d9-8bbd-ad1eb5e072af)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce26f00a-d1b8-408d-97df-7d85e25cdfed)
+
+* Question
+* Option **B**.
+* Despite -> 180 degree word.
+* Delegations -> Delegates -> Group of representatives.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eac4c355-f2ee-4dc1-b15b-fbea4591e758)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/845e2e02-8aa3-4c4b-84db-1712f1831537)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b15da780-317f-444e-8971-803ed6b5a177)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df4f07ea-d17e-4351-b7c8-a8244579817b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/584c6aad-6837-4fed-9ea7-05d6f6db479d)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b029cbd9-2f39-4410-aac1-0b36712d65a7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2d1bfaf7-6eb7-47d6-8cf9-64a8c87c1b96)
+
+* Question.
+* Option **A**.
+* 1 -> S
+* 2 -> P
+* 3 -> Q
+* 4 -> R
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/61a6b1c6-110d-447b-ba56-09c68a822013)
+
+* Demolish -> Obliterate -> Annihilate
+* Exterminate
+* Uproot
+* Saborate
+* Nullify
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/896bede8-83b9-4282-bae3-f02b77f21457)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/96b1a207-9ba7-4f1f-827e-d7b521247773)
+
+* Option **A**.
+* Naive
+* Novice
+* Tyro
+* Callow
+* **Puerile** -> [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b50862e-94b2-4699-8cd7-1058d62ea761)
+
+* Childish -> Negative word
+* Childlike -> Positive Word
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/70b589a5-c4b3-4299-9f58-0113bb5dcf78)
+
+* Pupil -> One/Only.
+* Student -> Many 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24ab07ed-b219-46b4-bd83-07b097e42a73)
+
+* Green ->
+* Greenhorn -> Naive/Novice/Tyro/Callow/Apprentice.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d145ca17-16e4-4d00-913a-7ccb45cc71a7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95d69d93-18b0-46d6-b1d1-38abba3feb65)
+
+* Question
+* Option **C**.
+* **Whimsical** -> unpredictable -> Sudden change in mood -> Doing things on a **whim**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d18d03bd-0da3-4146-a1d7-104c27649d5e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e590a247-d944-40a2-8959-be1b73bb2d03)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ffbe9045-bf08-4972-870a-cb3016f4b712)
+
+* Moody
+* Whimsical -> Bitcoin/Economy/Weather
+* Vagary
+* Humorous -> Funny
+* Virtuous -> Moral
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5d3ce2c-8f73-4cc0-8bc5-8605185af11f)
+
+* **The** -> Related to **religion**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5500989-ebde-4e8c-a1e6-7723142080fe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab730af8-42be-4fd4-8c2c-2ebd03751887)
+
+* Question
+* Option **A**.
+* Demos/Dem -> People/Crowd
+* Demand
+* Democracy
+* Demography
+* Demagogue
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee70dac4-09e9-481d-8286-82ae52228535)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f02ac1d-bddb-408a-947b-a2a71818bf7d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/273af27a-c9f6-4a6a-aac6-735cdaf9ce13)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eefa04c9-abae-4d02-a159-fa44353a8382)
+
+* Eminent -> Important personality  [**IMPORTANT**]
+* Imminent -> Something which is about to happen -> Imminent danger. [**IMPORTANT**]
+* Forthcoming -> Near future -> Diwali is forthcoming.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/75822697-4c94-4440-bcd8-799a79c9721b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6127f97-f9ce-4918-a995-32fb24034bef)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0dda79b5-7e13-45a7-856d-bdb6d917e9a9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c078685d-ecb3-4b11-905c-5eb5f985bd5c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/919e9a5e-5cfa-4fb5-9579-eede7c8cfaf8)
+
+* Question.
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f15b44bd-1fa5-43c9-b670-cf5701443360)
+
+* Wet blanket -> 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b5d33f8-bb9c-41eb-84a3-7bfe21d61b79)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0e1795f-237a-47b6-bb71-5e363b3e4df1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05c7b562-64c7-4c38-902c-c2d30e16cc1a)
+
+* Question.
+* Option **B**.
+* Frequency
+* gradualness -> 'ness' -> Abstract noun.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/de6c48a4-9c82-40f0-873f-6e2b3fb4034f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac3c094e-c526-4ba5-a94d-332820eca710)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30d14dcc-1d73-457b-9c5b-d0f3213fbb4a)
+
+* Question
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a23100a-dcba-4133-992d-ea379c62f985)
+
+* **YES**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dfc808c7-0d83-4caa-9862-5232a03765eb)
+
+* Identified
+* Ascertained
+* Exacerbated
+* Analysed
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/055e12f4-6e2f-4fc3-bf6d-44863f9704fc)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -6641,6 +6875,12 @@ efe4b05d9d09)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92fed9c1-4e2f-4461-998e-317cedb620d4)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb0b3527-cec1-4bbb-b921-5cc0187be7c9)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/458873f8-8ca8-498b-a664-d49f8c5f03e1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f95cdac-c8ca-4630-a828-a3bd779877c1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4241a275-037d-465f-b095-76f329580aea)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c19f5e85-51fd-482a-b5cf-9fb0c862a3e9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4806378-fd38-445f-a2cf-756c7e0a4b48)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8fd1eb2f-f17c-47ba-b4af-ac3833a61a83)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d152b83-00b4-4893-90f8-6cc9b90c18d2)
 
 
 
@@ -6659,6 +6899,7 @@ efe4b05d9d09)
 * Only if you could count your blessings in the persuade of what we want, we should be thankful of what we have.
 * We are not human beings on a spiritual journey, we are the spiritual being on the human journey.
 * Casualness leads to casualties.
+* We become what we consume.
 
 
 ## Scratch Board
