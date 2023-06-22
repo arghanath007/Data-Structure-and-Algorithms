@@ -1,4 +1,4 @@
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b9a5d726-06d8-4b58-bf6a-57488a974e31)# Aptitude
+# Aptitude
 
 # Topic
 
@@ -6712,6 +6712,7 @@ efe4b05d9d09)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a376b73-180a-4a65-a27d-43f37c7983d3)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/73c27c7c-4303-4c0d-afbf-bcc5145d8945)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc2e6599-9ba0-41a8-9fba-099b621ed61d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b9a5d726-06d8-4b58-bf6a-57488a974e31)
 
 * [**IMPORTANT**]
 * **Magic Triangle**.
