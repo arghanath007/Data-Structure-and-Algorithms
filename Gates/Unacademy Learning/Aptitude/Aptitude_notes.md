@@ -7143,6 +7143,151 @@ efe4b05d9d09)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72905c81-cdf9-44f0-b390-ad97d2fd9da0)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb21d67c-676f-4602-bc3d-29c0558f8d01)
 
+## Time speed distance work and time part-II (34) [22nd June 2023]
+
+## Time, speed, distance and work
+
+* **Distance(D) -> Speed(S) * Time(T)**
+* D -> S * T
+* D -> Km -> m
+* S -> Km/hr -> m/sec
+* Time  -> Hr -> Sec
+* 1 km/hr -> m/sec -> 1000/ (60 * 60) -> 5/18 m/sec
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ec6d11c-1675-4475-a7fa-60ac700409ae)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/39a048fc-10f3-4bf5-8231-ae43586aca63)
+
+* Trains was running in **45 km/hr**.
+* 45km/hr * (5/18) -> 12.5 m/sec
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a9816eb0-6382-4d68-bda1-aa04b73aa8dc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef628c01-ec40-4a97-b8dd-b1dc037475fb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5b29a7b-3226-49c9-a31e-583e02065ce1)
+
+* Question.
+* 1 km/hr -> 5/18 m/sec
+* 1 m/sec -> 18/5 km/hr.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ee0e77a-6ef7-45be-9230-42f1141389ed)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/314bfaae-a725-45bf-b697-050f00912bd5)
+
+## Average Speed
+
+* **Average Speed -> Total Distace / Total Time travelled**.
+* Distance -> Speed * Time.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/547ae87e-41ce-4a53-812f-3c6f503235e2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae2f94e9-027b-4379-a1b2-16d74a8857ad)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/45f9e2da-8ff4-45fa-8909-b2d31c692086)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ca05ebe9-76ac-494c-b979-41f0f77c2e0d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d09af984-ab98-4838-8bd4-afce8bd3bd9f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9092fe07-9a68-41c2-81dd-2a1f8abc0124)
+
+* **Figure not drawn by scale**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b31861a5-b451-44c8-8947-e222f0e79f8b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a55fdd76-82ea-4eb9-bc38-a6abe0ff7d5f)
+
+> There is a factory that produces nuts, the rate of nut production is **100 nuts/min**. After it produces **1000** nuts, the machine needs to be cleaned for **5 mins**.
+
+* **Min time** taken to produces **9000** nuts?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2d29ed9e-bcdd-4e70-92c0-d663d15350a1)
+
+* Question.
+* In **1hr -> 60mins** nuts produced is **1000 * 4 -> 4000** nuts.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa17521b-5e6d-4f18-908f-4e8a5197f442)
+
+* Last **5** mins is for **cleaning** machine purpose. As **minimum** time taken asked.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a12b1fe3-26eb-485f-90f2-e23b18a89154)
+
+* **Min. time** to produce 9000 bolts.
+*  As **Min. time** asked we fill remove the last **cleaning time**.
+* **Min. time** to produce 9000 bolts -> 180 - 10 -> 170mins.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4aa398c1-0d6b-4520-ae7c-da1ba7e434f8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e14bbf0-fe4a-4e65-b79e-7c2a247a04e4)
+
+* Combining the **nuts and bolts** questions together.
+* **Min. time** to produce **9000 nuts and bolts**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0bb6833d-b461-4b63-b47f-a1425557c49b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9bfe873d-07c8-4fe2-a2ef-060568beb4b6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f644551a-1158-4f64-a104-01bb6360c160)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c3a31e86-ceb8-44d0-ada2-d0982fea1f3f)
+
+* **Min. time** of nuts -> 130mins
+* **Min. time** of bolts -> 170mins
+* **Min. time** to produce **9000 nuts and bolts** -> Max(**Min. time** of nuts, **Min. time** of bolts) -> Max(130mins, 170mins) -> **170** mins. 
+* we need both **nuts and bolts** to be completed in **min. time**. That's why we are taking the **max time** from both **nuts and bolt's minimum times**.
+
+### Questions 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/757406e9-2875-4c16-a99b-eaab92e1078e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9191db6b-fdf8-4337-bd0c-b8834479d42f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/de0df012-3d6a-4b8a-ae30-c3e6f40345ea)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12f4a050-c972-4cad-b011-891be9fd70b2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d7bcb4d7-8780-4d06-8d99-c9750ee75359)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd4b9965-69e8-49b9-97e0-340506b82da4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea234598-d26c-4931-83fe-bd74d128f667)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5f75c2a6-873e-409c-a853-3dabb07f33d2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/182d0f68-22e4-4f8b-8d08-e233d0d70f4c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31798ba1-2c76-485d-ac4c-c1d3ea106a50)
+
+* [**IMPORTANT**]
+* If we travelled from one particular point to another point and came back to that particular point then the **average speed** is,
+* **Average Speed** -> 2D/[(D/x) + (D/y)] -> 2 * x * y /(x + y)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab71c480-33c8-4ca7-a85c-b32d5672643e)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1739068f-e8af-44fd-af7e-b67b7889876c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e0c46fd-afd0-4b24-9a2b-e6440e8b32af)
+
+* Question.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b10c9957-7422-4c2b-adee-cb6ca06c4b3c)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
