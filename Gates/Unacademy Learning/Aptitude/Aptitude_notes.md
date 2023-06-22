@@ -6985,21 +6985,163 @@ efe4b05d9d09)
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7eeaee5b-aa3e-4c34-a5a6-8dd53fc516e5)
 
+## Doubt clearing session (33) [22nd June 2023]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/08c67ec1-db1e-42a1-8032-e5c04d55c561)
 
+* We have picked **10** thermistors. We don't have **3** defective thermistors. We are finding the probability of exactly **3** thermistors being **defective(D)**. 
+* P(Defective(D)) -> 0.1
+* P(3-D) -> DDDD'D'D'D'D'D'D'D' -> [(0.1 ^ 3) * (0.9 ^ 7)] * [(10!) / (3! * 7!)].
+* **[(10!) / (3! * 7!)]** for **arrangements** of **10** thermistors.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ed3c611-7362-4720-80e6-82f86e90a459)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe3b25ba-6443-4ad4-82b2-72c1f82515d8)
 
+* Probability of **6** coming when we throw **one dice** -> P(6) -> 1/6
+* Probability of **6** not coming(6') when we throw **one dice** -> P(6) -> 1 - 1/6 -> 5/6
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ebbcaef8-2f99-44d4-b427-9999c8278b67)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0cd4176e-4ac5-4631-bd87-4e29b4e4632e)
 
+* Question
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/00b21c0f-58bc-4036-b070-62521d877973)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c8109bff-21ee-4dba-b868-be1259230e2b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ceebdbf6-7474-4da4-890f-ee94cac83594)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4fae4988-00f8-433d-b347-970e15bd3e4e)
 
+* Yes.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5bfa8df0-4cea-4058-a06a-30de73fcd093)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e024f74a-732f-4af3-93e9-35bfbcac1938)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/249d3aca-c0f7-4431-8050-5875e6f96383)
 
+* P(Get '1' atleast 4 times)
 
+## Infinite no. of times
 
+* If a **coin** is thrown for **infinite no. of times**. Find the probability that the **3rd head** appears at the **fifth toss**.
+* What is the probability of getting the **3rd head** at the **fifth toss**?
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/79453107-cb2a-4a72-a2b0-22c0ec191ece)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af5ccc4f-12f5-446c-b24f-12cee515106e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9cfecd21-048c-4f12-87e8-7173eb4da2ce)
+
+* It means that the **fifth** toss must contain a **head**. Fix the **Head(H)** at the **fifth** toss. It is **fixed**.
+* Probability of getting the **head** is **1/2**. Not just a **head** but the **3rd** head.
+* It means in the prior **4 tosses**, we must get **2 more heads**.
+* So in the prior **4 tosses**, we are getting **2 Heads and 2 Tails**.
+* It is a must that at the **fifth** toss, **head** must come.
+* Attack the **condition** **first**.
+* Arragemet is **4!/(2! * 2!)**.
+* P(3rd Head at 5th Toss) -> [(1/2) ^ 2 * (1/2) ^ 2 * (4! / (2! * 2!)) * (1/2)] 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2012c8fd-8d42-473b-94fd-1705f0d47bec)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76845807-20d0-4680-939b-cdddbb6bc73f)
+
+* [**IMPORTANT**]
+
+### Unbiased Coin
+
+* Unbiased Coin is tossed for **Infinite no. of times**. What is the probability of **4th Head** appearing at the **10th toss**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3c2a2f5-5899-41f2-89f3-fd6b6ca66309)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b59d072-f53b-43dd-a865-5942d90e37be)
+
+* Question [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/78a4fd07-fd8c-4ec8-b531-a29a2f268a7e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a263e49-95fb-4aae-b417-2a19d96b3648)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a99b53a-7c3e-4633-8696-70cdb674f5a4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6801aeec-9248-4c78-af02-ba332ebe600b)
+
+* Toss for **infinite** times that is not **important**. The **infinite** point is **irrevalent**. They are giving the **infinite** point purposefully. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6059b45-c111-4e36-ac26-2d47195129e1)
+
+* Write the value. it would be **easier**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/898f6e34-f641-4a7e-b8ae-52526faef4e0)
+
+* 3 Head and 47 tails.
+
+## Conditional Probability
+
+* P(A/B) -> P(A intersection B) / P(B)
+* P(B) not equals to **zero(0)**.
+* Probability of occurence of an event **A**, when **B** already occured
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a94c4a84-0457-4acb-a693-debb81bdb2d7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c67de3b1-9a89-4e63-89af-43aaae28854e)
+
+* P(B/A) -> P(A intersection B) / P(A)
+* P(A) not equals to **zero(0)**.
+
+### Independent Events
+
+* When the events are not related to each other.
+* That's when we wrtie **P(A/B) -> P(A)**.
+* **P(A/B) -> P(A) * P(B)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/672e264c-c9c3-4e94-b2ae-71dbe25dd2bd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab23eb1a-dee1-4ad0-8b11-987f8889380e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/88403af8-e49f-4bbc-b1f2-0f5453d18009)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98025c18-3980-4f11-a3d3-2bc8787fc455)
+
+* P(Exactly '1' solved)
+* P(Solved) -> 1 - (Not solved)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a27660e-63ba-40f1-8cef-1864825d674b)
+
+* Set Theory.
+* P(A) -> Probability of **Ajit** solved the question
+* P(C) -> Probability of **Chatan** solved the question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/82183c21-c915-4170-8233-ec32caaa39c9)
+
+* P(AC) = 1 - A'C'
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d84d733-1a29-4b25-b09e-5cdba55c2785)
+
+* Question
+* Option B.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/afdfb0d2-65c7-4e51-afbe-4e622be65aa8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f295ffb-14eb-4e26-8aa4-bea706318c4a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/566f54b2-54f1-4de0-b2ab-642dc883e771)
+
+* High precision component
+* P(Atleast one meets the design specifications) -> 1 - P(None meets specifications)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b347c09-cd96-401d-a398-978e22a8e038)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/711b6b4d-630e-4236-8b67-53b8232c714b)
+
+* Question
+* P(operation is not successful) -> P(A'B'C')
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f719e56-ec54-4865-a8c0-9a7d9638ced1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89c51a6e-bbf5-4049-9323-813b4ab48f9a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f11ffc90-d644-45cf-908f-e925ada2ffe6)
+
+* Question
+* P(Question solved) ->  1 - P(A'B'C') -> 1 - P(Not Solved)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30cd2bf5-2ea5-45d2-a471-b26aec5e77ff)
+
+* 5 unbiased coins are tossed.
+* **Even no. of heads** -> 0, 2 and 4.
+
+* Integers -> 0, +-1, +-2, +-3, +- 4 ....
+* Odd Integers ->  +-1, +-3, +- 5,....
+* Even Integers -> 0, +-2, +- 4 ....
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/850578b4-2d7e-49e7-8d40-dcc237a2913a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72905c81-cdf9-44f0-b390-ad97d2fd9da0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb21d67c-676f-4602-bc3d-29c0558f8d01)
 
 
 
