@@ -6786,7 +6786,232 @@ efe4b05d9d09)
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac843d65-4bb7-4d4c-8b60-9f520caa6b4f)
 
- 
+
+## Time speed distance work and time part-I (32) [22nd June 2023]
+
+## Probability
+
+* For **n** different thing's **arrangement is **n!**.
+* 2-Dice **trick**.
+* If we have thrown two dice simultaneously or thrown one dice twice. The **sample space** will be **6 ^ 2 -> 36**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e27d69d-efaa-424e-9a77-2697168157f0)
+ ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/edd16671-3616-41e6-b067-9647941760f2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/03b347c1-7aee-43a5-9e5f-26bb675eeb0c)
+
+* Value coming in **Dice 1** is **smaller** than the value coming in **Dice 2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e4ce27aa-d8ed-41eb-a0ed-ae11b9f486c7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f865951-e1ee-4d0e-bd8e-63536a3c8f80)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e7c2da6-a58c-4938-9a2e-0c2481639f17)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9ba303a-e94e-4c30-8ed2-9bacd0e00331)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/882ecac9-3b80-4145-8f2e-5982b437c409)
+
+* Option **B**.
+* [**IMPORTANT**]
+
+## Coloured Balls/Socks
+
+* When nothing is mentioned then the **two balls** are drawn **together**.
+* Total **15** balls and **2-balls** are to be drawn so the **sample space** is **15C2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/996eb77e-7130-4ce2-8260-f3cd86f83bb3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/acf8b28c-8334-49e8-8229-7c46436f1865)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a886b357-de46-4591-804e-0782e5d64259)
+
+* For the **4th question**, **1 - 6C2/15C2** is **wrong** because we have substracted **both white condition**. There will be **2 cases**, which are **zero white and 1 white case**.
+* We have removed **both white case only**.
+* We wanted **P(None White)**, which means remove all **white balls**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37de0f6a-eeea-4388-a3d5-a57f4e8ff49c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dacd3714-f129-473f-bd5b-6ecaedb5025e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/110693d2-8c14-4ba4-8dcf-26fd4882ba84)
+
+* Correct answer is **9C2/15C2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c49ec045-fb43-4cad-afd6-51841d7b9659)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/731aad4e-4800-4e8c-8a1b-c4c99fc019bb)
+
+* **1-white as well as 2-white** both cases will not come.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f20c072f-b2c1-42fa-9a3f-a0622082c4e4)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34739e7c-3d19-4e8d-9cbd-cc1b293b5986)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1077dc8e-ab2a-483c-bf51-ebcf82c92bb0)
+
+## Playing Cards
+
+* It has total **52** cards.
+* Colors -> Black and Red -> 26 Cards each.
+* Suits -> Spade, Club, Heart and Diamond -> 13 cards each.
+* Face Cards/Picture Cards -> J/Q/K -> 03 cards each -> **03 * 4 -> 12** in total.
+* Honour Cards -> J/Q/K/A -> 04 cards each-> **04 * 4 -> 16** in total.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce999e20-0e5b-4587-b77e-d3f3a9df69ee)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/305c8ea8-95f5-42ac-9efb-89fe3f2ddc8e)
+
+* Playing cards [**IMPORTANT**]
+* If we pick **4 cards** and nothing is mentioned/said then it is **52C4** which means we are picking the **4 cards** simultaneously.
+* If we pick **4 cards** only by **one-by-one** or **succusively**. Then, there will be **two** cases:-
+
+1) **With replacement(R)** -> 52C1 * 52C1 * 52C1 * 52C1.
+2) **Without replacement(WR)** -> 52C1 * 51C1 * 50C1 * 49C1.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d72b1103-703c-40fb-b443-8566db673944)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/397baeaf-9544-46ec-a3e6-f8b3b316c25c)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/645e8c91-e45d-4e71-b2a9-65c8d9f0b3d4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97eb540e-5e40-4958-849e-3100d938bb48)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d72445e3-fc9a-48f2-91b9-a87ca67e6e84)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86c4d983-60da-4823-9917-0c68ce6d0687)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a16abbc4-39b5-4a73-a72c-311ae41cce32)
+
+* [**IMPORTANT**]
+
+* In **Question 1**, we are multiplying **2!/2!** because we have **two red balls** which means their **arrangement** is **2!** and as **red** is **repeated twice** so divide by **2!**.
+* In **Question 2**, we are multiplying **2!** because we have **one red and one blue balls** which means their **arrangement** is **2!** and as there is no **repettition** so no divide by **2!** here.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ccbf853b-dd61-4dda-ab5e-0a1b6acd7ee9)
+
+* Question.
+* P(Red =3)
+* P(Blue =3)
+* P(Red =2, Blue=1)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/73dff549-494a-485e-9226-833af0e2c624)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c2514ef-fb0f-4e86-9d86-0de751eeef1f)
+
+* Busket -> Bucket -> Urn -> Bag [Same Thing]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8898572e-c8e6-408f-88b0-b63372484a82)
+
+> We are drawing balls **one by one** without replacement. The **first ball** we have thrown without seeing it. The **second ball** probability of being **red**. The **second ball** should be **red** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5eb025d-7266-43ce-9c69-8e702ac8fead)
+
+* It is said that the **second card** is **red** only. Two cases are possible, either the first case is **blue** and the second card is **red** or the first case is **red** and the second card is **red** also.
+* BR + RR.
+* As we are fixing the **second ball** to be **red** only so there will be **no arrangements** here.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a047d2d-f0df-43a3-8362-2ab4d24d337f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/167b724d-fa77-418e-8d52-1e1b6e3813af)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/268ac52f-27f9-453c-b952-3838693f7530)
+
+* Arrangement yes, take cases would be easier.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7365ca64-8fc5-4b39-b706-c7c6e873770a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0bef3e85-700a-4aa8-8d6f-
+5b5574c1cc0e)
+
+* **Yes**, arrangement there.
+
+## Defective things
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c74ecda6-3af4-4c6d-9f4d-248d5c0f34aa)
+
+* Total Screws -> 10
+* Defective screws(D) -> 03
+* Not defective screws(D') -> 10 -3 -> 7 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d840488a-8535-4ff4-864d-f5617cacc042)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/952f72ee-95ea-4ab2-9234-4e2520a80d3f)
+
+* Defective(D)
+* Not-defective(D')
+* P(DD)
+* P(D'D')
+* P(D.D')
+* P(None - D)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb0178c8-06a5-4627-97f7-a088a0972822)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7bebbba6-0b02-4895-901a-3bb5b1071dbc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/40bc4c00-f28e-42f9-8242-67715ce3c222)
+
+* **Question 4** asked **with replacement(R)** then P(None are defective) ->[(7C1/10C1) * (7C1 * 10C1)]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5b0de81-9267-47f0-b2d8-7a4675aeeb91)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2fb8f530-353d-452f-914e-80a13aa043a1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/de412865-84b8-4e5f-b916-c7a60ed3a541)
+
+> There is a **couple** who have an **older boy** and they are having another child. The father wants a **girl**. What is the probability that the second child is a **girls** if the first child is a **boy**. The probability that the second child is a **girls** is **independent** of the fact that the first child is a **boy**.
+
+* **P(Second child is girl)** -> 1/ (B/G) -> 1/2
+* G -> Girl
+* B -> Boy
+* The second child could be either a **boy or a girl**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/976b3f47-b0cc-4069-8d9a-4c0f2789e94a)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ad9e5fcf-a8a0-447a-8612-718000d6e774)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/723e6a50-9e2a-476c-a6e5-bbb28ef799ef)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be11b225-fc72-4f4e-a13d-ee6b04edbeea)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4984526c-8114-46d4-bd94-06a68b4171bb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f23df13-a2b4-4096-82f3-05fafdab9103)
+
+* [**IMPORTANT**]
+
+## On an **average**
+
+* **On a average**, in the last **10yrs**, **floor** has happened for **4** times which is **4/10**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5fc01bf0-2044-4c5b-aff4-c06266bff01d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1911a2d4-4378-427f-bb9a-0d6f77854b17)
+
+* Question
+* 0.04 -> 4/100 -> 1/25
+* It means that on a average of **25yrs** there is **1** earthquate that has happened.
+* So, between **earthquakes** there is roughly a gap of **25yrs**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7eeaee5b-aa3e-4c34-a5a6-8dd53fc516e5)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
