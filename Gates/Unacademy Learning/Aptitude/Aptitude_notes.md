@@ -1,8 +1,16 @@
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0cc8349-0e28-4bf8-ba11-dadf67a34b83)![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92a52920-7cc2-4ddb-aab9-5033f23433e7)# Aptitude
+# Aptitude
 
 # Topic
 
 * Inequality Questions -> **IMPORTANT**
+
+# Marks Distribution
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/658b35b7-44c5-4a2a-94f9-35c696a188b7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ecb6698-5509-4f8c-a370-e5be3419f967)
+
+* 10 Questions -> 1 marks each
+* 
 
 ## Playlist
 
@@ -7532,9 +7540,8 @@ efe4b05d9d09)
 
 * [**IMPORTANT**]
 
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/658b35b7-44c5-4a2a-94f9-35c696a188b7)
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ecb6698-5509-4f8c-a370-e5be3419f967)
-
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0cc8349-0e28-4bf8-ba11-dadf67a34b83)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92a52920-7cc2-4ddb-aab9-5033f23433e7)
 
 
 
@@ -7788,6 +7795,7 @@ efe4b05d9d09)
 * Empathy -> Understanding the same emotion.
 * Sympathy -> Daya -> pittyness
 * Guilt 
+
 
 
 
