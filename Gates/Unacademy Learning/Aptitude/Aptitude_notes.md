@@ -1,4 +1,4 @@
-# Aptitude
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92a52920-7cc2-4ddb-aab9-5033f23433e7)# Aptitude
 
 # Topic
 
@@ -7252,27 +7252,186 @@ efe4b05d9d09)
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b10c9957-7422-4c2b-adee-cb6ca06c4b3c)
 
+## Time speed distance work and time-part-III (35) [23rd June 2023]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d92fa09-402a-4c98-9869-4c3d7dea414e)
 
+* Distance between home to clg and from clg to home is **same**.
+* Ideally **Ajit** takes **t** time.
+* We are doing **t + (5/60)** because he is taking **5 mins more** by being **5 mins late**.
+* We are doing **t - (5/60)** because he is taking **5 mins less** by being **5 mins early**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c236cc3-5f36-45da-9bd7-5a2e0dc09f7a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/04e63496-7a21-4779-80c7-d135bc9451d6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/88c86e29-c312-4d20-bebc-18ecccfd664b)
 
+## Time Difference[Tdiff]
 
+* Early
+* Late
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c545d59-342a-4ba4-9dbb-f5c2c5bdfdc4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4f8db23-b78a-4a55-adb5-3b086e906a5e)
 
+* Assign number. 
+* It gives fantastic leverage.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f34add9-486a-46cf-b53f-8178c7f6dd3d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b2b902fa-cd5c-417b-af33-d0ee1e900b00)
 
+* Most of the time, they have picked **early and late time**.
+* It is for **frame of reference**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c628939-6394-4923-be6f-e478daa438c7)
 
+* 09:10 - 08:45 -> 25/60
+* D/S1 - D/S1' -> 25/60.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d5b5b0d-415d-49bd-97a4-30a50aaecd27)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/02b19ae1-6c65-4d1e-a3c9-aeb0e793644a)
 
+* **5/7** is **less** because **5/7** is **less than 1**, (5/7) < 1.
+* So, **Chetan** is **late**, which is **16mins late**.
+* Find **Chetan's** usual time taken to reach clg?
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ac8dfda-eda8-446b-9a88-a3cb71e30e50)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ecd65f56-8201-4817-8df4-57fb38d030d3)
 
+* Walking at **5/7th** of chetan's usual speed, he is **16mins** late.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a798ece1-c72a-4615-a4d4-3f0bc63fc2ac)
 
+* Walking at **12/11th** of chetan's usual speed, he is **early** to **office** as **12/11** is **greater than 1**.
+* What is his usual time to reach office?
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4cc68e3e-8634-4d87-90d1-4c765503662f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/51a20e61-a29e-4c6d-9d84-1a53d3b5c8b8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/327ab124-e80c-4795-8349-d0fde4195ef3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d894d76-f3b1-4008-8fa6-73f2f82e81f5)
 
+* Both times are **late**. 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/07386a10-d88f-4d99-bee0-883fb1a83ddd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8c623f15-5514-4398-954a-8f9f745ee246)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9a2d1e36-38fa-44ab-8656-1a721e07ad74)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0fca5bb-eab6-4fca-8c83-a0495efdbb4a)
 
+* Total distance is **60Km**.
+* Speed 1 = 10km/hr
+* T = D/S -> 60km/(10km/hr) -> 6hr
+* So **chirag** started driving **6hrs** earlier. He reached at **1pm**, which means he started driving at **7AM**.
+* Speed 2 = 15km/hr
+* T = D/S -> 60km/(15km/hr) -> 4hr
+* So **chirag** started driving **4hrs** earlier. He reached at **11AM**, which means he started driving at **7AM**.
+* So for both the **speeds**, chirag has started driving from **7AM** only.
+
+> Chirag started his journey at **7AM** at the speed of **10 km/hr**, he reaches the destination at **1PM**.
+
+> Chirag started his journey at **7AM** at the speed of **15 km/hr**, then he reaches the destination at **11AM**.
+
+* At what speed he must drive to reach the destination at **12 NOON**?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/429696e5-64e3-4698-b41e-598062d510b8)
+
+* If **speed increases** then **timing** must reduce such that the **expenditure/Distance** must remain constant.
+* On the contrary if **speed decreases** then **timing** must **increase** such that the **expenditure/Distance** must remain constant.
+* When we are talking about **time difference**, **distance** is **constant**. Then, **speed and time** are **inversely** proportional.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/56915ea5-0164-417a-9e87-d740b0d51cda)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e370538a-bea5-43d2-8aad-8a4423744515)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1df84be-9efe-409c-9c03-3583c66d2366)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86793cf7-4cf1-4567-b595-ffb5483108e0)
+
+* D = (5/6S) * (6/5T)
+* 6/5T -> (1 + 5)/5T -> 1/5T + T
+* 1/5T -> 2mins
+* T -> 2 * 5 -> 10mins.
+
+* If speed is **5/7s**, then **Time** is **7/5T**.
+* **7/5T** -> (2 + 5)/5T -> 2/5T + T
+* 2/5T -> 16mins
+* T -> (16 * 5)/2 -> 40mins. 
+* Direct answer.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e36a0d82-af64-40bd-814f-fdd15abf9eda)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5b86ad5-97c0-4361-8019-0470e99fea03)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8382773-7d63-4c54-ba97-cc7bfe143c7e)
+
+* We can solve even if the person comes **early**. We just have to do **substraction**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fdcc044d-6885-42e2-b66f-834468cef0c6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b9bca624-5954-439e-a488-79b6bfd27de7)
+
+* **Early** time.
+* If speed is **12/11s** then time is **11/12T**.
+* **11/12T** -> (12 - 1)12T -> T - 1/12T
+* 1/12T -> 5 mins
+* T -> 5 * 12 -> 60mins.
+
+## Relative Speed
+
+* To use **Relative Speed** word, we have to make sure that the **frame of reference** must move.
+* When the **frame of reference** is in **resting** state, whatever it tells about the **speed**, it is their **absolute speed**.
+
+* When **two** bodies move in the **same** direction.
+* When **two** bodies move in the **opposite** direction.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d2b4d71-857a-486e-b193-89a9f329ce43)
+
+* When **two** bodies move in the **same** direction -> **(X ~ y) km/hr** ['~' -> difference].
+* When **two** bodies move in the **opposite** direction -> **(X + y) km/hr**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c0ff0b2-e8ed-4fa5-849b-fcb825cedee8)
+
+> The carriage was visible to me for **4mins** upto **100m**.
+
+* If he was **sitting/resting/standing** condition when he said the **above statement** then the **Distance of 100m** and the **Time of 4mins** would be of the **carriage**. Which means we can find the **speed** of the **carriage**.
+
+* **Speed** of the **carriage** when **man** is **sitting/resting/standing** condition(Sc) -> D/t -> (100/100) /(4/60) -> 1.5 Km/hr.
+
+* If he was in **moving** condition when he said the **above statement** then it will be the **speed of the carriage with respect to the man(M)** who is also **moving**. Both the **carriage and the man** are moving in the **same direction**.
+
+* **Speed** of the **carriage** when respect to the **man** who is in **moving** condition(Scm) -> (Sc ~ Sm) ->  D/t + 3km/hr -> (100/100) /(4/60) + 3kh/hr -> 1.5 + 3 Km/hr -> 4.5 kh/hr.
+* Speed of carriage -> Sc
+* Speed of Man -> Sm
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ffbfb995-0e3a-4fa2-87da-92f41f368cc1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b544324-4a21-4df7-b104-f6805a752197)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c5c66fa3-0c8a-4f50-8b12-45af75546f29)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3cdd48be-60eb-4a9e-ab32-8c131f2ab31a)
+
+* **Speed** of the **carriage** when respect to the **man** who is in **sitting/resting/standing** condition(Scm) -> (Sc ~ Sm) ->  D/t + 0km/hr -> (100/100) /(4/60) + 0kh/hr -> 1.5 + 0 Km/hr -> 1.5 kh/hr.
+
+> As the man is in **sitting/resting/standing** condition, the speed of the **man** is **0 km/hr**, which we have put to get the **speed of the cariage with respect to the resting man**.
+.
+> As the man is in **moving** condition, there is a speed of the **man** which we have put to get the **speed of the cariage with respect to the moving man**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5372676-6703-46b7-8d10-f255afcddf5f)
+
+## Train -> Human/Telegraph/Pole -> Platform
+
+* Cross
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b1b5d955-8bdb-4305-b942-7faee54153f7)
+
+* Time taken to cross the pole?
+* D -> S * T
+* T -> D/S -> Lt / St
+* **Length of the train(Lt)** -> Working as the **distance** value here.
+* **Speed of the Train(St)** -> Working as the **speed** value here.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2158a175-8355-49b9-8cd9-2a43e2059e1b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ad466dc-d565-450a-a524-f60a90e3cdc3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db4df503-8eae-4a98-9ac0-870a0435202d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa7de7eb-2d1a-48ed-affd-9f721a241fd4)
+
+* T -> 14secs [Answer]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f8476c2e-d79b-4dc1-90b2-f775490b5869)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/603f2c90-f8e6-4b11-87c6-5c4b3e5af297)
 
 
 
