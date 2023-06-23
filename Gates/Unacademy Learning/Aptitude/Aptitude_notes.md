@@ -1,4 +1,4 @@
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92a52920-7cc2-4ddb-aab9-5033f23433e7)# Aptitude
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0cc8349-0e28-4bf8-ba11-dadf67a34b83)![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92a52920-7cc2-4ddb-aab9-5033f23433e7)# Aptitude
 
 # Topic
 
@@ -7433,14 +7433,107 @@ efe4b05d9d09)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f8476c2e-d79b-4dc1-90b2-f775490b5869)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/603f2c90-f8e6-4b11-87c6-5c4b3e5af297)
 
+## Verbal reasoning part-VI (36) [23rd June 2023]
 
+## Verbal reasoning
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81067bc0-33ba-4c4b-824d-618ed2f8325e)
 
+* Question
+* Option **D**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/23f3d8e0-cff8-4dad-be24-e7341aad1aef)
 
+## Syllogism
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb10657b-b22c-4a02-832d-34eaee8ad429)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/94972b01-bfd8-4c70-985e-cb8a3f0bd1bf)
 
+* Either **Atleast one** will be **common** or they will be **dis-jointed**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3adb3a07-2c34-41b8-ac2d-9dfae9cc1886)
+
+* Question
+* Option **C**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85130b50-d52d-4990-9fa8-c0a367bb1d61)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f216b3d8-ad77-4075-9b6c-6e3923fd242c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4ea78932-d848-4ba6-8506-7b8102fac847)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/918f7b2f-5f81-485b-8419-77cc183879b2)
+
+* Option **C**.
+* Altruism -> Those people who thing 'u' before 'i' -> It is the human concern for the wellbeing of others.
+* 'ism' -> Related to **philosophy** -> It is an **noun**.
+* Communism -> Socialism -> Capitalism
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d439cd28-c3e5-4df5-9807-ba9d94704d08)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a5744e6-dfbd-421c-b679-196872c0d896)
+
+* Question
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9bf8f976-fb9a-4ee1-a45a-a91c95f5992d)
+
+* Altruism -> Those people who thing 'u' before 'i' -> It is the human concern for the wellbeing of others.
+* Social bonding -> Positive word
+* Familiarity
+* Belongingness
+* Empathy -> Understanding the same emotion.
+* Sympathy -> Daya -> pittyness
+* Guilt 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9387971c-2cb5-41f0-8e43-e2217f824e72)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/479c98b4-732e-4114-9d82-98d36efa7938)
+
+* Question
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed91bab3-42eb-4d6b-a787-3ca18ff2d2aa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a83ff3cd-77e8-44c9-91eb-9b9a7eeb2729)
+
+## Probability Colored Balls
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89a97e5e-8efe-4891-94eb-6ee6aadb317c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f8077742-4915-4e70-86dc-9b0961cd3ebd)
+
+* Question
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d5a0463-cad0-4809-9f00-666932b4ac90)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/26834897-8930-4977-8f78-962bd413855a)
+
+* 2 Cases possible.
+* Green and Orange(GO) **OR** Orange and Orange(OO)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5bf5bc5-b4e7-48a0-bb80-6e0f063a028a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/777c138b-accc-48e9-bf6c-d4828c54950a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e60b50e-4faa-4cd9-ba88-72a4a5403e41)
+
+* Question
+* Option **A**
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a89730e2-59d4-4085-8331-c7ffe3788de8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e68e302c-7448-4a0a-9f5b-9d10a8bedacc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30c97626-92a0-492f-acbd-b43b79e1e4e9)
+
+* Question.
+* Option **A**
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/caa80e12-fa45-472d-9450-b95704f147b3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e08b3feb-aab5-4143-981c-e1d6e6878c5d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed10dabe-fa9f-497f-8999-8c5e2da1532a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/634bbeb5-4c74-469d-9d1b-d70a87f7a27c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ecb09898-a5f8-4465-ae1e-d673b977dbac)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/162d429f-1181-41aa-b968-d573565291b7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb5d7ddb-14d8-420f-a967-ece445fdc12d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41263f66-2a78-4fc0-a1ba-1e43031801a2)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/658b35b7-44c5-4a2a-94f9-35c696a188b7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ecb6698-5509-4f8c-a370-e5be3419f967)
 
 
 
@@ -7681,7 +7774,20 @@ efe4b05d9d09)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c6502ac7-71ad-4d63-afbf-495e58e427ff)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5475def-de20-4895-b393-172abe40fc9f)
 
+* Altruism -> Those people who thing 'u' before 'i'.
+* 'ism' -> Related to **philosophy** -> It is an **noun**.
+* Communism -> Socialism -> Capitalism
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d439cd28-c3e5-4df5-9807-ba9d94704d08)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9bf8f976-fb9a-4ee1-a45a-a91c95f5992d)
+
+* Altruism -> Those people who thing 'u' before 'i' -> It is the human concern for the wellbeing of others.
+* Social bonding -> Positive word
+* Familiarity
+* Belongingness
+* Empathy -> Understanding the same emotion.
+* Sympathy -> Daya -> pittyness
+* Guilt 
 
 
 
@@ -7780,6 +7886,7 @@ efe4b05d9d09)
 * We are not human beings on a spiritual journey, we are the spiritual being on the human journey.
 * Casualness leads to casualties.
 * We become what we consume.
+* We are slaves of our symbols.
 
 
 ## Scratch Board
