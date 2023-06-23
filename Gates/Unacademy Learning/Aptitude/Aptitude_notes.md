@@ -9,8 +9,8 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/658b35b7-44c5-4a2a-94f9-35c696a188b7)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ecb6698-5509-4f8c-a370-e5be3419f967)
 
-* 10 Questions -> 1 marks each
-* 
+* 5 Questions -> 2 marks each
+* 5 questions -> 1marks each
 
 ## Playlist
 
