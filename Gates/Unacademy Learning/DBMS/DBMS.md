@@ -318,26 +318,134 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72582021-49e1-4622-98c7-6e9e6c9cca0b)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d3d047b-725f-4b49-b747-0d78444efe70)
 
+## Er modeling part-II (3) [24th June 2023]
+
+## Entity
+
+* Object in the real world that is distinguishable from another object.
+
+## Entity Set
+
+* A **collection** of similar entities is called as entity set.
+
+* 1 Teacher -> Entity
+* Collection of all teachers -> Entity-set
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d12417e0-ada2-4419-8cac-0359d2cf8e84)
+
+* An Entity set has multiple different entities.
+
+## Attribute
+
+* An **entity** is described using a set of attributes.
+* To **describe** students/student(entity).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/013f8ada-445c-4624-8ca8-864492211864)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34587d37-622d-4dba-aff3-cd095098456a)
+
+* Kind of yes.
+* Every **entity** will have it's **attributes**. Ultimately the **attributes** will become **attributes** of the **entity set** as well.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9a027654-640d-432d-8c00-b3b9ff716792)
 
 
+## Domain
 
+* A unique set of values permitted for an attribute.
+* The **permitted values** which can come to the **attribute** are called as **domains**.
 
+## Relationship
 
+* An association among two or more entities.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91c92e24-6905-4a21-ad45-09c81b71b779)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/306b86c1-0dcb-49e3-ae8b-6ae7f3b60611)
 
+## Relationship set
 
+* A set of similar relationships.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/558234e5-0e78-490f-a708-ad7064a5a8ea)
 
+## Key 
 
+* An attribute or set of attributes whose values can uniquely identify an entity in a set.
+* More than **one attribute** can come into a **key**. 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37c22372-76c0-4415-bd8c-7abb91ede666)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/552dd74a-69d3-4e28-b4f5-59123d66d487)
 
+* Name + fathername -> The combination is called as a **key**.
 
+## Prime Attribute/Key attribute
 
+* All attributes which are part of key.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12e70815-fe5d-418f-9028-3906e65eb965)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/acacafeb-a834-4f5a-8e28-9c4d155a635e)
 
+* Rno, name, fathername -> **Prime Attribute**
 
+* Is it compulsory that every entity set have keys?
 
+> **No**. If needed then we will make it, not compulsory.
 
+## ER diagram representation shapes
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cac79fff-d255-48b6-85ac-e6e5917e3450)
+
+1) Entity Set -> Square
+2) Relationship set -> Diamond
+3) Attributes -> Circle.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/49c3e020-85df-4051-956e-848c25c6b32a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/43e2acab-546b-4f82-a4e1-a69df97ae80c)
+
+* Entity Set diagram.
+* Entity Set -> Educator
+* Attributes -> Eid, Ename, Edob, Esalary
+* The Entity Set, Educator can have many educators. We don't know how many it has.
+
+## Types of relationships
+
+1) Unary -> Entities of only **one** entity set are involded in relationships. 
+2) Binary -> Entities of only **two** entity set are involded in relationships. 
+3) Ternary -> Entities of only **three** entity set are involded in relationships. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/afae91b5-3b50-4054-b82a-674bc89695f2)
+
+## Unary relationship
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f845a844-480e-41e4-88bd-f2d91b9f2ade)
+
+* Senior
+* Sub-ordinate
+
+## Binary relationship
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b63c1a8a-5145-44f4-a660-a0d17c5716e3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98236e67-cd2b-4eab-9077-69eb8680fc14)
+
+* Educators teaches courses.
+* Many educators are teaching many different courses.
+* Teaches -> Relationship.
+* Educator set's entities are participating in the **teaches** relationships with courses.
+* Which educator teaches which courses.
+* **Direction** is not needed, we can understand directly.
+
+* A educator is teaching a course, from which time the educator is teaching the course.
+* The information is **since**.
+* The information/attribute of **since** is only valid when the relationship, **Educator teachers a course**, is **made**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a01488e5-b673-4709-8592-8c9af69b6ff7)
+
+* Vishvadeep sir teaches **COA** since two thousand 11(2011).
+* Vishvadeep sir teaches **C-programming** since two thousand 7(2007).
+* The **since** attribute has come into **existance**, **when the relationship**, **Educator teachers a course**, is **made**.
+
+## Ternary Relationship
+
+* Start from 49mins.
 
 
 
