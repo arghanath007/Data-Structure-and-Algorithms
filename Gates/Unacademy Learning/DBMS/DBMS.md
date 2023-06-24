@@ -265,8 +265,80 @@
 1) Naive Users -> No idea that DB is there ->  Normal people
 2) Appliocation programmers -> Writing Application -> Developing softwares.
 3) Sophisticated users -> Use/write query to access DB.
-4) Specialized users -> Developes query language.
-5) Database Administrator -> DBA -> Any DBMS highest level person which manages database.
+4) Specialized users -> Developes query language or DBMS tool.
+5) Database Administrator -> DBA -> Any DBMS highest level person which manages database. Databae's admin.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f4aa4981-18ef-43d5-ac08-d686bb81c336)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0f0e61f-5f23-4a96-9f85-973379b234c2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db5d8ad3-bcf8-4ffc-b8e1-a166de73c6a4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c5082bf0-ea7a-44c1-aa61-b7713cd4bdc5)
+
+## Data Model
+
+* When we store the data in the **database**, the data is represented in which format. That is Data Model.
+* How do you reperesent the data when we create the **database**?
+
+> That is Data Model.
+
+1) ER modelling -> Entity-Relationship Model
+2) Relational Model 
+
+## The Entity-Relationship Model
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b384b173-ff55-476c-a00e-5abf920a9b60)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/06bb16de-5b7e-4c92-883f-417350a5abbd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/60ddf86c-461a-4cb7-a049-42d67b393aff)
+
+* Entity -> Just one teacher's information
+* Entity set -> Will become the table later on.
+
+## Relational Model
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f45eb35e-9ccd-4244-b36d-1552eaba7b5b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2be9c48a-217f-44cc-aff1-a44978d3d7aa)
+
+* DB based on relational model -> **RDBMS**
+* ER Modelling is the basic way to start database design. ER Modelling is the first step to database design even if the database is for **Relational Model**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2718836b-2f34-4942-ab3f-a7023b6854ac)
+
+## Database Design
+
+1) Requirement Analysis
+2) Conceptual Database Design -> ER- modeling
+3) Schema Refinement -> ER to relational and refinement
+4) Logical Database Design -> Use DB tool and make DB
+5) Physical Database Design -> Decisions related to physical level of DB (Example -> Indexing)
+6) Security Design -> Related to security.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/088f8770-8e1c-40ec-be25-12245a984d26)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72582021-49e1-4622-98c7-6e9e6c9cca0b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d3d047b-725f-4b49-b747-0d78444efe70)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
