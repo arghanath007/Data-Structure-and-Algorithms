@@ -858,6 +858,290 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/53640606-1fdd-4d96-ab4e-78105e2c79e9)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6248ade-35ae-4c0b-add7-a64157131634)
 
+## Keys and sql part-I (5) [25th June 2023]
+
+## Relational Model
+
+* The relational model uses a collection of tables to represent both data and the relationships among those data.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a81b0cc-1bef-45fd-b2d0-1c95473e8147)
+
+## Relation
+
+* The main construct for representing data in the relational model is a relation, which is table.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e4c17a66-ab36-4b04-a13b-218838a91404)
+
+* Relation -> Table.
+* There is a relation **Student** which means that there is a **student** table.
+
+## Attribute/Column/Filed
+
+* Attributes are used to describe relations
+* Columns of relations are attributes.
+* Table Name -> Relation(student)
+* Columns -> Attributes(Rno, name)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2fe7a188-91ac-484f-87e0-dd5dc6991ae8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/727f7969-b1cb-4b0a-99d2-e963a36ebda8)
+
+* Row
+* 4 rows, so we have **4 tuples/records** within the relation.
+
+## Tuple/Record
+
+* A row in a relation.
+* A row inside the table is called as **tuple**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a886321d-58d8-4bb8-8710-94d905011fbf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/10cf6673-59ba-4309-bb67-7302acaca560)
+
+## Relation example
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b620ac3-a053-4be1-9641-b7c55b8bcaea)
+
+* We have **7 rows**, so there are **7 tuples**.
+
+## Degree or Arity
+
+* Number of attributes in relation.
+* Column -> Degree or Arity
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8002975d-0e0d-49f5-bbc6-47851b726a97)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a25c9c8-9699-4dda-b874-a5780bec51be)
+
+* What is the **degree/arity** of the relation?
+
+> **3** as we have **3 columns** here.
+
+## Cardinality
+
+* No. of tuples in a relation.
+* No. of rows or records.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/de87732e-f717-4a31-807a-35c34fe6f305)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5fc8e098-1e8c-4ee5-a9c9-31f5e60e58b3)
+
+* What is the **cardinality** of the relation?
+
+> **7** as we have **7** rows.
+
+## Database Schema
+
+* Tool used.
+* Logical Design of database.
+* Table is not called as the schema.
+* All of the **constraints** that we have put and all of the database construct used to construct the database. All of them combined is called as the **Database Schema**.
+
+ ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32c5cc5e-7f6f-40da-b715-26e5d51c9af3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b7c2f57-1882-4cfe-b1fe-d42a4325de72)
+
+## Database Instance
+
+* Snapshot of the data in the datbase at a given instant in time.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ddd10f06-0754-48bd-9aa9-5d3660a5d697)
+
+* Snapshot of Database.
+* It will change.
+
+## Domain
+
+* It is not a **constraint**.
+* Domain means when some values comes **what type of value(int, varchar, char)** it will be. Kind of datatype.
+* A unique set of values permitted for an attribute.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/11bea98f-4fb8-488e-9f0d-2238f318673a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6deb0574-6bd0-4c49-8a3e-28c079fc9017)
+
+* Exactly
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1fa28fa0-7205-412a-9d58-8c5e43f8b304)
+
+* Difference between **Domain** and **constraint**:-
+
+* Domain -> What is the datatype of the value.
+* Constraint -> Even if the datatype of the value is correct, then also the value is **rejected/not allowed**.
+
+## Domain constraint
+
+* Specifies an important condition that we want each instance of relation to satisfy.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9bf6c53c-2964-4563-afa0-a0ce1243685e)
+
+## Keys
+
+* An attribute or set of attributes whose values can uniquely identify a tuple in a relation.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b68da71-412e-49e1-87ba-706cda29fcad)
+
+* For name **Neha**, we are getting **two rows**.
+* **Name** column cannot singly identify all rows. So, **Name** column cannot be the **key** of **student** table.
+* Key -> Rno, (name + fathername)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df210c59-299a-4156-b762-641346580c76)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8d1775b-1b33-41ba-8d6f-936fbb6e450c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b489278-bef2-488d-857a-ab44cfb6d0f9)
+
+* Yes.
+
+## Types of Keys
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8c27e0f5-8fab-4b3c-802a-1e4ae7eef6f6)
+
+### Super Key
+
+* All possible keys of a relation.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1033b8ef-cda7-4394-8f52-7981c9bf41bc)
+
+* All possible keys combination is making super keys.
+
+### Candidate key
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b03db404-fdc7-4793-a74b-50888728956d)
+
+* Minimal super key
+* A super key whose prope subset is not key
+* Example -> rno, name + fname
+* **name + fname** combination because the subset of them is **name and fname** and none of them are **keys** individually. That's why they are **candidate keys**.  
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/04231714-a55a-4c3d-a488-7358b3194828)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1918acd1-d5a0-410d-9f99-9006ee28ec5a)
+
+* If **ABC** is a **candidate key** then **A, B, C , AB, AC, BC** are not **keys**.
+* **ABCD** is a **super key** but not **candidate key**.
+
+#### Prime Attributes:-
+
+* Attributes of candidate keys.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dddff33d-d35e-4c2a-af17-7d3c8d675c16)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf4f4f35-4600-43bf-8efd-1a4f41baa6e6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f71fa7f1-85ee-4bd8-9fc3-7206d1d8da89)
+
+* Question.
+* Total no. of super keys which are not candidate keys?
+
+> **7**, except **ACD**, all of them.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/580a2093-9633-4964-b368-7d0d13ff1b35)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58b5eb87-31ca-495b-b75a-a4edf3bd7597)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c65f7e14-33d3-45a6-8499-5d6afe5b292e)
+
+* ACDB -> Not a candidate key as **ACD** alone is a key. **ACDB** can be a **super key**, yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6956597d-e749-42f1-9282-e5e98546051d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b7e4f22c-8301-4f54-8fa3-2fc636db8aa9)
+
+* possible.
+
+### Primary Key
+
+* One table has only one **primary key**.
+* Chosen candidate key for implementation.
+* Example -> rno, name + fname
+* Primary Key -> rno
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b4e2bf72-3f17-4fc9-81e9-982a6699f507)
+
+### Alternate key
+
+* All other candidate keys apart from primary key
+* Example -> name, fname
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd63e128-defe-4c53-a21a-165307be986a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dfccd1cc-a670-4771-affc-0007e9d1b3dc)
+
+### Foreign Key
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24c0f66b-5bdf-490b-8cf2-fbf345473b39)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/744680ed-f871-4b25-8058-84130c2d788e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea30e54b-1045-4d6f-92a0-1c2f3b3ce254)
+
+> The constraint put on the **Account.Branch_id** column is called as **Referencial Integrity constraint**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb927970-11e5-45f4-b214-1b024799faaf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6de4c11-a832-4a15-b0ec-a64c1e527452)
+
+* The value we are referring from should be a **primary key** of that table. **Compulsory**.
+* The one who is referring the value is called as **foreign key**.
+* Branch table -> Attribute which is **Branch_id** -> Primary Key.
+* Account table -> Attribute which is **Branch_id** -> Foreign Key.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d7968e9c-a739-4501-8f5e-329079f44265)
+
+* Ofcourse
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6cde2110-e6d6-47d7-9d89-42241286a098)
+
+* Not necessary but easier to remember if same name given.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e38f589d-f3b8-4ef0-a687-2c04e0c4e87f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30c0d2f6-d738-4f0a-b701-786cdb01193c)
+
+* Branch table is **parent** table.
+* The **FOREIGN KEY** constraint prevents invalid data from being inserted into the foreign key column, because it has to be one of the values contained in the parent table.
+
+### Referencial Integrity constraint
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8340c8cd-4938-416e-b14c-96c401fb472d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a739c618-7145-43e3-9d83-6ed4e94b5fe1)
+
+### Referencial Integrity Example
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3bb0a7f7-dea0-42a0-a411-022e6e4542ea)
+
+* Publisher.PublisherID -> Primary Key.
+* Book.PublisherID -> Foreign Key.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/14853a8f-8734-4700-8bb1-6063d454aaa7)
+
+* Foreign Key may not be **unique**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24e2d6c7-360e-4a85-ba9b-0f5c5976aaef)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a05db006-b8bf-4bdf-bad3-53c34d743ee4)
+
+* Integrity constraint is still maintained.
+* Foreign Key can have **NULL**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f89efb3-7e27-4d75-b7ee-c1e44960dd5a)
+
+## Cascading effect
+
+### On update cascade
+
+* It says that foreign key value refers to which ever parent table value, if there is **updation** at tha parent table then at the **foreign key** updation will also happen.
+* DBMS will do it **automatically**.
+* If parent table value updated then automatically foreign key values are also updated accordingly.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b87dadb2-cf5c-471f-8a21-f9b1e90ab50b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32f8e38e-0df6-4480-9bc1-e75d9ebbca2e)
+
+### On delete cascade
+
+* On delete cascade -> Careful implementation
+* On delete No action -> Makes no sense.
+* On delete set NULL -> Careful implementation -> Only foreign key set to **NULL**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d701439-6d34-4704-bc65-a6ad0a63b172)
+
+* More cascade options.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/75f8221a-85b9-4bc5-8c7e-b1e58c346e77)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae7c3ba6-16a7-497c-b1fc-9c27def8c3bb)
+
+* R1.A -> Primary Key
+* R2.X -> Primary Key
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6faf59b2-fa69-464c-b161-ae2f1ce8634f)
+
+* Set of attributes.
 
 
 
@@ -879,4 +1163,101 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Joke
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b8200b49-d63d-4027-88d0-29f087bc60e1)
 
