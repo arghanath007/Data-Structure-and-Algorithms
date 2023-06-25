@@ -7543,11 +7543,103 @@ efe4b05d9d09)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0cc8349-0e28-4bf8-ba11-dadf67a34b83)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92a52920-7cc2-4ddb-aab9-5033f23433e7)
 
+## Doubt clearing session (37) [25th June 2023]
 
+## Time, Speed and Distance.
 
+## Summary
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7fd15cf7-f187-443e-b588-a93f5f4019e9)
 
+* ~ -> Difference
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c04d3c69-a30a-4eca-a335-3861fe0a106e)
+
+## Train-Platform (Telegraph Pole)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/372b2a20-7ad0-4f31-89b2-d5b81b1e1faa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d88f08b1-c4e0-4b14-8478-c7e7d187dd12)
+
+* T = D/S = Lt/St
+* Lt -> Length of the train.
+* St -> Speed of the train.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d53e959-eede-4ced-97b4-0b1e3b147781)
+
+* Done in previous class.
+
+## Train-Platform
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1270a0cc-fa5a-4b1f-9c88-fabd1b0d8634)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d5365201-ad98-405a-b921-76806e9d3dc3)
+
+* Lp -> Length of the platform
+* Lt -> Length of the train.
+* St -> Speed of the train.
+* T = D/s = (Lt + Lp) / St 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f737057e-858c-4247-b7a7-e7771b70a5f7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b2db8d2-1c39-4c29-92f9-2180ed64517f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f836dc9f-1048-4624-b584-dce69d2898ba)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/899b0b9e-926f-474a-8c30-7564c6f7067b)
+
+* Train and Man moving towards each other:- [**IMPORTANT**]
+* T -> D/s -> Lt/(St + Sm)
+* Lt -> Length of train.
+* Sm -> Speed of Man
+
+* Train and Man Moving in same direction:-
+* T -> D/s -> Lt/(St ~ Sm)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e9fdd4b-b3d6-42b4-9ca2-8f4fac462994)
+
+* Question. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/46c5619b-be3b-456e-96fd-74baeb5f841d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f914130e-6e4a-41d2-a1b1-92a632cd13b0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a20059b2-bc5a-47ea-84db-d77ba8709f6f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5576b03-c123-42ec-82f3-a72d7e6dc93a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd334307-33a9-4e2c-ba63-5767a6b1d7a8)
+
+* Two bodies are moviong towards each other, so **add** the speeds. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ef3405e-5fa0-48df-ac09-dff8ce77a10a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f600c9b-d5a2-4bd7-b2a6-34725ae603dc)
+
+* Chirag takes **6KM** lead in **1hr**.
+* So, time taken is the time taken to take the lead which is **10 -4 -> 6**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b33cf22-4b98-42b5-a1bc-b680d685cae2)
+
+* Every **1 hour** we are taking a lead of **3 kms**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf28be02-3514-4516-a024-f1596efa5f15)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/acda2cfe-730c-49f9-a5f7-6d379900d654)
+
+* Question [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fda7759a-766c-41fb-9af2-5b7e8a7bfec4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e3efd64-ab28-4473-8d69-e7d2fb8e5678)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cce5b9d3-8f62-4e96-bc38-abfa5ff6b1fd)
+
+* Question [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b5aaac1-1f68-433b-817f-89308277a64f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d3c15ec-b979-48aa-b6d3-f6d0fb7fe128)
+
+* Question. [**IMPORTANT**]
+* Total time taken such that **chetan and Deepak** will meet?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/288bf24e-668c-46d2-b2f4-4a9c4337c00a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/204363bd-8dbb-43d7-be69-b5fb2d4cd156)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2561686e-1958-4b3f-ba96-fa4643d18e42)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4914becb-b48d-4999-90c8-7f9afba593b1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed1cc6d0-341d-490f-a62b-066f6373ce68)
+
+* 1hr 14mins
 
 
 
