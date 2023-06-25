@@ -1,4 +1,4 @@
-# DBMS
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3fd7637a-e534-4e2a-a92b-1356d4adf351)# DBMS
 
 # Course Structure
 
@@ -659,15 +659,202 @@
 
 * Examples.
 
+## Doubt clearing session relational modeling (4) [25th June 2023]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2e6a7437-bd47-4032-86b2-481930f59eda)
 
+* Total and partial participation.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/592c54ca-b7df-4618-aaf5-58cbc8a05a42)
 
+* Strong and weak entity set.
+* Weak entity set participation in a **relationship** will always be **total participation**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a0f2402d-d31b-48cf-9ff5-bed017c1869a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85e1499f-c2f2-4752-9726-0908aee22b4a)
 
+* Yes.
 
+## Weak or Strong Entity
 
+* Dominant Entity -> Entity of strong entity set
+* Subordinate Entity -> Entity of weak entity set.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ffbd310a-a91c-43fd-8086-edc04b3c23ec)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a455248-cb71-4fc6-b92a-33c1c7d96ce1)
+
+* If one **entity** of **Employee enity set** which is **strong entity set** then it is called as **Dominant Entity**.
+* If one **entity** of **dependents enity set** which is **weak entity set** then it is called as **Subordinate Entity**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af7fa60b-aa85-4c9b-b96a-fb7663918ea5)
+
+* Both the **Dominant and Subordinate** terms will come into **existance** when we are talking about the **above relationship** of **Employee and dependents** which is a relationship between a **strong entity set(Employee) and weak entity set(dependents).
+
+* If we take one **entity** and not the whole set from the **strong entity set(Employee)** then it is called as **Dominant entity**.
+* If we take one **entity** and not the whole set from the **weak entity set(Dependets)** then it is called as **subordinate entity**.
+
+## Types of Attributes
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e69b49c3-fb94-42a6-9993-a88026038068)
+
+### Single VS multivalued attribute
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e78e3c79-980c-4aac-ad81-a969d9b528d0)
+
+* More than **1** possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9800957-2c23-41f0-8d8a-50c9aeb6c8ec)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/06b6fb20-2bb1-4255-8306-9c45ce15c247)
+
+* Single Valued -> Single value possible for each entity(Rno, name, dob).
+* Multi valued -> Multiple values possible for on entity(Phone no).
+
+* To draw **Multi valued**, we need to put **double circle/ellipse** around the value in ER diagram.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa284105-aca8-4ed4-96f0-e31f2e341818)
+
+## Simple VS Composite/Compound attribute
+
+* Attributes we have that can be decomposed into more attributes then those attributes are called as **composite attributes**.
+* Simple -> Single attribute cannot be decomposed into further attributes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea6a73a8-cfb5-4c43-91bd-c214c7ddf33f)
+
+* Simple -> Cannot be decomposed
+* Composite/Compound -> Can be decomposed into other attributes(fullname).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce23930e-36de-472c-9a15-25c530a1dbe3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c42a89e-23c4-482c-8f35-ae59e51d5429)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/82f9b1a9-64a8-4b25-9781-080109c2388a)
+
+* We have **4** attributes here, **Rno, fullname, dob, address**.
+* **fullanme** is a **composite attribute** of **firstname, middlename, last name**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d72bc182-9a41-4f40-b9d3-3f9ff24bb076)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/88e0f6bf-1b3f-4402-be5d-5ad7236975f7)
+
+## Given VS Derived attributes
+
+* Given -> Given in entity set
+* Derived -> Derived from other attributes(age) -> Dotted lines.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d2a6a25f-6f7b-4710-a7fc-676fb67df251)
+
+* **Age** can be derived from **dob**.
+* **Age** is not a direct part of the database. We are showing that **age** can be derived from different attributes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a1fb2cd-9fd6-4012-915f-b8762eb74a03)
+
+## Prime VS Non-prime attributes
+
+* Prime -> Part of key
+* Non-prime -> Not part of key.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76e95124-54c4-4cb3-8a01-36aadd939b67)
+
+* To represent **prime attributes**, we will put an **underline** under the **prime attributes**. We have not said that theya are **keys**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/78326356-f31d-4fb9-b849-d01854b4f68d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aefee754-8c28-4bf8-b391-dc67b76c035e)
+
+* Rollno -> Prime attribute
+* fullname -> Composite attribute
+* Phoneno -> Multivalue attribute
+* dob -> Normal attribute
+* Age -> Derived attribute
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/893c4836-54f3-42ff-850c-e0edcd19dd5e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d42dae6c-454c-4a52-96ed-0d5239b6d18d)
+
+* No.
+
+## Entended ER features
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c5cfc8eb-82ac-4f5d-850a-14cbcb8bd21a)
+
+1) Specialization -> Specializing the information of an entity set.
+2) Generalization
+3) Higher and lower level entity sets
+4) Attribute inheritance
+5) Aggregation
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ccfdc497-89aa-4fed-8fd2-735315a1b54b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7cb0ee16-158e-4e1b-b3cd-194cdc9a7bf0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b9ce0269-1641-45d1-81d3-36a55bd5b7fc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92e16d2a-8369-428b-a65d-bad65ac32bfd)
+
+* Vehicle is a **2-wheeler** and **4-wheeler** -> **Specialization**
+* **2-wheeler** and **4-wheeler** are **vehicles** only -> **Generalization**.
+* In one **entity set**, we are specializing two different **special categories**.
+* When we are going towards **specilization**, we have to make the **special categories** when the **specialized entity sets** have some **special attributes**. 
+* If there is no **special attributes** for the **specialized entity sets** then there is no point in creating the **special categories**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32751aad-ec36-4ed6-952e-ad33af9a5e14)
+
+* Top to bottom is **specialization**
+* Bottom to Top is **generalization**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a0370f8-8ea8-4dfd-8ec0-0386c3620d8b)
+
+1) Disjoint set -> Any entity is **mutual exclusively** going to either one of the **specialized entity sets**.
+
+* One entity of higher-level entity set(**Vehicle**) is present in only one lower-level entity set(**2-wheeler** and **4-wheeler**).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0760679d-dac6-43d9-95ac-61caf3fb1427)
+
+* Vehicle will be either **2-wheeler** or **4-wheeler**.
+
+2) Overlapping -> Present in more than one.
+
+* One entity of higher-level entity(Musician) set can be present in more than one lower-level entity sets(**singler** and **guitarist**).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92d318d9-3926-411d-a1ea-c6df6d1379e0)
+
+* Musician can be **singler** and **guitarist** as well.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e40012d-a6e2-4fda-8e03-1ad74cae8229)
+
+* **Total Generalization or specialization** -> Each higher-level entity must belong to a lower-level entity set.
+* **Partial Generalization or specialization** -> Some higher-level entity may not belong to any lower-level entity set.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7fe7fa46-be30-425e-8694-02921c481446)
+
+## Attribute Inheritance
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0dc427c9-efbe-4ced-a3eb-64669335a48c)
+
+* Employee entity set -> 4 attributes -> Name, street, city, salary
+* Customer entity set -> 4 attributes -> name, street, city, credit_rating.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/befa2fad-8320-427c-bf72-20cda94b4178)
+
+* No.
+* Inheritance is **top to bottom** only.
+
+## Aggregation
+
+* Relationships is shown betweeen **entity sets**.
+* Relationships-set participating in relationship then aggregation is used.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7cbab4bd-b2d8-4af2-8d47-c4f9f7709cc5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5c94919a-f0b6-492d-bf0e-2194e0791b8b)
+
+* Example
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/25684711-a3de-41a9-83b5-d70ff8414bd7)
+
+* Wrong way.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19a01fbf-c886-48e8-b4d2-522e9ea16c33)
+
+* Correct way.
+
+* The manager is not **managing** individual job, employee or branch. **Manager** manages the already exisiting relationship.
+* We want to show a relationship of a relationship with a different entity set is called as **Aggregation**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/522c5427-e2eb-41e2-a6a0-42fdb18837a8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/53640606-1fdd-4d96-ab4e-78105e2c79e9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6248ade-35ae-4c0b-add7-a64157131634)
 
 
 
