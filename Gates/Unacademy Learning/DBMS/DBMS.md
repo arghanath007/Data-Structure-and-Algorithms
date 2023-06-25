@@ -418,8 +418,18 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f845a844-480e-41e4-88bd-f2d91b9f2ade)
 
+* Professor reports to other professor.
+* Relationship -> reports
 * Senior
-* Sub-ordinate
+* Sub-ordinate professor reports to which professor?
+
+> **Senior professor**.
+
+> Professor is connected to another professor in some relationship but the professor information is written in one table only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1638b45-2f00-4b51-aed3-679a53519a85)
+
+* One entity set and it creates **relationship** among the entities.
 
 ## Binary relationship
 
@@ -428,24 +438,235 @@
 
 * Educators teaches courses.
 * Many educators are teaching many different courses.
-* Teaches -> Relationship.
+* Teaches -> Relationship set.
 * Educator set's entities are participating in the **teaches** relationships with courses.
 * Which educator teaches which courses.
 * **Direction** is not needed, we can understand directly.
+* Some attributes are there that come after a relationship is formed. They are called as **relationship set attributes**.
 
 * A educator is teaching a course, from which time the educator is teaching the course.
 * The information is **since**.
-* The information/attribute of **since** is only valid when the relationship, **Educator teachers a course**, is **made**.
+* The information/attribute of **since** is only valid when the relationship, **Educator teachers a course**, is **made/shown**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a01488e5-b673-4709-8592-8c9af69b6ff7)
 
 * Vishvadeep sir teaches **COA** since two thousand 11(2011).
 * Vishvadeep sir teaches **C-programming** since two thousand 7(2007).
 * The **since** attribute has come into **existance**, **when the relationship**, **Educator teachers a course**, is **made**.
+* Any attribute which is a part of the **relationship set attribute** then they are called as **descriptive attribute**.
+
+### Descriptive Attribut
+
+* Attribute of relationship
+* **Since** in above relationship **example**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22b5fc4f-12a6-4591-97f2-59a9d35479bd)
+
+* There is no existance of **since** until the relationship between the **educator teaches courses**, shows.
+* If relationship is there then only **since** will come otherwise not.
 
 ## Ternary Relationship
 
-* Start from 49mins.
+* Relationship Set -> Teaches
+* 3 Entity sets are involved.
+* Vishvadeep teaches COA in CSE department.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85b2a187-93e3-4756-bd32-04898afdec63)
+
+* Vishvadeep teaches COA in ESE department since 2016.
+* Vishvadeep teaches COA in Electrical department since 2018.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/abd97474-4f14-414c-bb24-4f0c7c77e691)
+
+* If **three** entity sets are involved then it is a **ternary relationship**.
+* We can use **descriptive attributes** in **uninary relationship** as well.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e0b11b39-8fad-40a9-befb-abc62f5491d7)
+
+* **Uninary relationship**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ab821cf-f40e-4ce9-8e6a-19b10dcf70f3)
+
+* If we don't put **since** then we will not know from what time that educator is teaching that course.
+* We want to store some information but we don't know if it will be educator's info or the courses's info. The information is there because of the **relationship**.
+
+* Usually we read the ER diagram from **left to right** only.
+
+## Mapping cardinality
+
+* If two entity sets are in **relationship** then how many entities from the two entity sets are forming/showing one **relationship**.
+
+1) One to One
+2) One to Many
+3) Many to One
+4) Many to Many
+
+## One-To-One
+
+* One **cititzen** can **have** only one **driving license**.
+* One **driving license** can **have** only one **cititzen**.
+* Citizen having driving-license.
+* One To One relationship.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/11a261ab-1ce0-4ac4-a118-af963dce5a47)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8dec328c-fd4e-4098-9989-ec5bcd2bdd6c)
+
+* It is not necessary that all of the entities will participate in the **relationship**.
+
+## One-To-Many
+
+* One entity of **employee** can have **relationships** with **multiple entities** of **teams**. 
+* One employee can manage one team.
+* One emplyee can manage **more than one team**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df0a106b-c771-4eea-861d-2527c6b045da)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a9a50bc-b1dd-41bf-9a55-2ab24ce969bc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b89433c-ee2e-4b88-a1bc-0fc42db7d6ad)
+
+* If one entity in the relationship is showing relationship of more than one on the right side then it is **One to Many** relationship.
+
+* Towards the **one** side put an **arrow**. The other side is the **many**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/455264b6-24c4-42fb-913b-da8bdaf441b3)
+
+* Another way to represent **One to Many**.
+
+## Many-To-one
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff107233-f5a1-4df9-a14a-20d8e60a5002)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/79367e1a-9d6e-40b7-a23c-d0beba8c97c0)
+
+* Mirror/opposite of **One to Many**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69375a9d-27a2-4c07-b24f-7dd4595c07c1)
+
+* No.
+
+## Many to Many
+
+* Multiple educator can teach one course
+* One educator can teach multiple courses.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d5c9fc7-fe9a-46e7-a781-56bf141bf82d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1fca2c30-c5c9-48c0-8db3-1e6d4652dcec)
+
+* No.
+* It is not necessary to show the **entity** but we will show the **entity set's relationship** that's it.
+
+## Participation Constraints
+
+* Specifies the presence of an entity when it is related to another entity in a relationship type.
+
+1) Total participation -> All entities of an entity set are particiating in a relationship
+2) Partial participation -> Not all entities are participating.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e31113b5-2d87-4a74-b635-62de8b358da0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9a97bff3-328d-46aa-84c8-7dbab6e01449)
+
+* Customer's particiation will be **partial** here.
+* Credit card's particiation will be **total** here.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b7fb5d8-d8f2-4be0-988a-a8186ca389ae)
+
+* Where there is **total particiation**, we will put **double lines** on that side. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fbb14f66-0032-4c01-ad3e-625146227c06)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4803a7bd-9e6c-4f79-ae2e-55e5f48e326c)
+
+* **Departments** participation will be **total particiation** as every department must have a manager.
+* **Educator's** participation will be **partial particiation** as every educator will not manage a department, not necessarily.
+
+## Questions
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/541e6947-2a17-423e-885d-bf214bde6813)
+
+* Question
+* Option C.
+* **Rent payment** is not soly on **Person** because it is dependent on what room the person has booked. It is not solely on the **Hotel room** as well because the **rent price** of the **hotel rooms** chance from person to person.
+* So, **Rent payment** is an **description attribute** which is possible because of the **relationship** between the **Hotel room and Person**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/807cedbf-88c6-4f80-8594-5db0489d906d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9fa2d5e5-a5f0-4b7d-82da-bf81eac2705d)
+
+* Question.
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c66f9be5-2417-4597-9f6c-989553bd7935)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ea309ca-776d-4f27-992b-0a9cd1f1d889)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8fb099db-b0fd-48d7-bea9-db2f14c0a8de)
+
+* Drawing the **set diagram** will make the questions easier to solve.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2101be5b-6bb1-4a8e-a242-f14cda4d9086)
+
+* AND more than one also there.
+
+## Weak or Strong Entity
+
+* A weak entity is an entity that cannot be uniquely identified by it's attributes alone.
+* A weak entity set does not have **key**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bef6d83a-0c01-48b2-9933-1013b47f919b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dcc2517a-b8ce-4abb-8e85-96007edb9c57)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/73948681-bbe6-4131-b24d-d7a6c60f6a6c)
+
+* Weak entity set is marked with **double rectangular box** around it.
+* Every **dependent** doesn't need to be given a **new ID**. It doesn't have it's own **ID**.
+* Two weak entity set cannot make a **relationship**.
+* One is a strong entity set and one is a weak entity set then the **relationship** is **weak**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e088de0-0ac4-4fa8-a788-c8c8e62c7a1e)
+
+* **Weak relationship** -> Double Diamonds box.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be8e254f-10b4-4eff-a2be-911589c1681c)
+
+* True.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c6cfa3aa-e3c3-4ce6-9659-59c41539efaa)
+
+* One Singer can sing many songs.
+* In one song many singers possible
+* So, **Many to Many** relationship.
+* Songs has **total participation**, as songs cannot be created without singers.
+* Singer has **total participation**, as singer has sung songs that's why he is a singer.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e99b99d6-1990-4f96-8f01-45ab1af318f3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8cd0eb5c-259e-4aae-9bb9-22ab930ec04c)
+
+* One customer can buy many products
+* One product can be bought by many customers
+* That's why **many to many**.
+* Not necessary that all customers buys products, that's why **partial participation** in **customers** entity set.
+* Not necessary that all products are bought by customers, that's why **partial participation** in **products** entity set.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/214e3990-7572-42ed-b040-2ab58fcbb361)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ddc281a1-41e7-474a-bfa5-99189e94f88d)
+
+* Yes.
+
+* One children can go to many schools, different times(Secondary from one school, higher secondary from another school)
+* One School can have many children.
+* So, **many to many** relationship.
+* Not necessary that all children go to school, that's why **partial participation** in **children** entity set.
+* It is necessary that all schools have children, that's why **total participation** in **school** entity set. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9c5aa40a-6112-4686-a507-6529a227ed88)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2f9ae8d-3e07-4f9c-9682-589c0dec027d)
+
+* Examples.
+
+
+
+
+
+
+
+
+
 
 
 
