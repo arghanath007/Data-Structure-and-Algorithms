@@ -7682,6 +7682,140 @@ efe4b05d9d09)
 
 * Option **D**, answer.
 
+## Verbal ability part-III (38) [26th June 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab48f0ab-9413-4050-87b4-b91f92b10fed)
+
+* Happyness : Euphoria :: Sad : ___
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9f693bc-0014-4ba5-855c-c78fe7c3205f)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc130a36-4414-4e51-b710-cbc6a6d40c2d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/88dded54-1ad4-463e-9bd7-2166e2abe534)
+
+* Kindly -> Adverb
+* Type -> Synonym
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/99e516a6-a0f4-4b60-abba-d850f84d45ec)
+
+* Question
+* Option **D**. [**IMPORTANT**]
+* Henceforth -> Now and onwards.
+* Enforced -> Forcefully/mandatory -> Government backing.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f012cfe-58c9-41dc-b8b2-8bd91595caf6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d525367-65ff-4c1d-9af6-12f68b6c2a65)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d860b2a8-a284-4633-9a37-4040cc07080d)
+
+* Question
+* Option **D**.
+
+* unprecedented -> 
+* Odyssey
+* Epitaph -> 
+* Epithet ->
+* Sobriquet -> 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e7e210f-2534-464f-984b-825742dede22)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ebaf722c-b2cb-40aa-8845-e579ca019906)
+
+* Epitaph
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a610d62f-4d8f-44ef-83c1-7e75cf2bbc8b)
+
+* Sobriquet
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e515355-cef0-43f0-850d-70f53d2b431b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f445400-1f49-4f4f-ac3a-7f2faa5ef669)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d41b515d-32de-46cc-a36f-983ec426b438)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b295843f-2a9f-4cd6-9b0c-1213515d9dac)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/78208e5e-e2b1-4b31-ae2d-2bc591a3b585)
+
+* Question
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/910f8fb5-f359-41ad-a893-99e929c56e77)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/334978eb-545b-4a60-8202-a0265eb8c70c)
+
+* Done before.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/470cce0c-3145-4ad5-8ca6-548d7aa476aa)
+
+* Question
+* Option **D**
+
+* disinterest -> Hatred.
+* uninterest -> Out of interest range
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/085fe520-acfc-42af-9260-3db414c48d8f)
+
+* Yes, option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35043436-9222-4ccc-9a1a-d86d70cb0093)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8cbce7a5-6bd1-487d-875e-57b6c97b5e34)
+
+* Some -> Atleast one [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/02bafec3-0070-476c-a6e8-d6baa879ab93)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/52019570-6d77-49b9-b5ec-0a40e6ba1c05)
+
+* Protest
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a9d29ec-0083-4f3e-8af2-19044b564c81)
+
+* Question
+* Option **C**.
+
+* Pretext -> 
+* Commend -> Praise 
+* Command -> Order
+* Censor -> Censorship -> 
+* Censure -> Criticize
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2eb9d255-272b-426d-8e8a-8bd6585a713b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ef3f204-b502-4d26-ab97-579663b2edc9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/844c823e-4c86-4913-a255-f5d6c11ccee3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b60fa564-5b07-4a7c-bee5-4d2b31f4861f)
+
+* [**IMPORTANT**]
+
+* Torturous -> Pain and sufferings
+* Tortuous -> Puzzle/Twisted
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a4f431c-a305-44a3-aca2-b68f9dfe935e)
+
+* Question
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe5d1466-6e0a-43d7-9d41-f18b0b716b2c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8de71898-1ca7-4f0c-9795-29d143e30c30)
+
+* [**IMPORTANT**] 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0aa391e2-4cb2-4715-9d2b-8ebd5e073dfa)
+
+* Option **A**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92aa95d4-3b3f-441c-b664-baf2d706624d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/26803741-0e39-4d10-babd-33cb75dd510e)
+
+* Yore.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/93e244ed-26ab-4c8a-b9e9-4c0bb646b5e0)
+
+* Question [**IMPORTANT**]
+* Option **B**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba201f6e-540e-4277-87b2-847a9a227ff2)
+
+* you are -> you're -> Same thing.
+
+
 
 
 
