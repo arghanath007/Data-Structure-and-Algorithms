@@ -6,6 +6,10 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b389e5e-710f-4dcf-8de8-c19950d3dda3)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5451e501-452f-465a-b056-67a3d211d41d)
 
+# SQL Link
+
+* Link -> https://www.w3schools.com/sql/trysql.asp?filename=trysql_asc
+
 # Course Link
 
 * Link -> https://unacademy.com/course/complete-course-on-database-management-system-247/OBHXIW40
@@ -1142,6 +1146,380 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6faf59b2-fa69-464c-b161-ae2f1ce8634f)
 
 * Set of attributes.
+
+## SQL part-II (6) [26th June 2023]
+
+## Foreign Key
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3413aa74-193b-4350-87e4-0beb2d5c7ace)
+
+* On Update Cascade -> If we **update** the column **Branch.Bid** and the value of **B4** was updated to **B5** then the  column **Account.Bid** values which had **B4** will be updated to **B5**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/442c9283-e8af-4a89-aaac-6f606794a2bf)
+
+### On Delete
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cab57c81-6141-455f-bf3a-c2530cd29c19)
+
+1) **Cascade** -> If we **delete** the **B3** rows in **Branch.Bid**, then the **B3** values present in **Account.Bid**, their whole/entire **row** entry will also be **deleted**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44cb951b-2504-4f83-bed8-d51290342310)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c3bb9c6-ace0-4817-b1fc-f7ed85247226)
+
+* Not only the value is deleted, the whole row is **deleted**.
+
+2) **Set NULL** -> If we **delete** the **B1** row from the **Branch.Bid** then the values in **Accound.Bid**, their values will be set/updated to **NULL**. We will have **no value** there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b796944a-e98d-4eb5-8d9d-ad9649f055ee)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37fb0613-02b0-4a2b-b6ea-1c63da334604)
+
+> In **Account.Bid**, **NULL** values should be allowed otherwise **On Delete Set NULL** will not work.
+
+3) **No action** -> If we **delete** the **B2** row from the **Branch.Bid** then there will be **no changes** to the values in the **Accound.Bid** column.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1e21971-001f-4f58-bf03-54c1883e2105)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb2ceda7-2717-4548-9f05-7707a3fb9c9a)
+
+## SQL
+
+* Structured Query Language
+* Domain-specific language used in programming and designed for managing data held in a **RDBMS**.
+
+* Operations in SQL:-
+* Inserting data
+* Retrieving data
+* Updating data
+* Deleting data
+* and more ....
+
+* How we will access ER diagram data?
+
+> We do not store anything in **ER diagram**, it is just a **representation**. From **ER diagram**, we create a **table**, and we actually store that **table**.
+
+* ER diagram -> Paper thing(Representation).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b09b75e7-7f2a-4fd8-8291-864f1f127fc6)
+
+## SQL Datatypes
+
+* CHAR(size) -> A **fixed** length string.
+* VARCHAR(size) -> A **variable** length string.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/96da883f-1eeb-48ad-963b-2bece0a7834b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f1940b9-5710-4968-b8f0-d62ea55de4e2)
+
+* CHAR(10)
+* VARCHAR(15)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/613ac500-6b56-46ff-8a82-4a15e4a5c5d4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e336a8b-355e-4e74-80af-85a12046e769)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ebdeb067-fb44-4175-9e55-31d90944d718)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9305d1c7-c031-4786-b23f-2493a0c31d99)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/21cbe6fc-0dee-4c9e-85b4-67f8c19f877b)
+
+* Integer/Int
+* Float
+* Varchar
+* These **three** are mostly needed. 
+
+## Case Sensitivity
+
+* SQL is not **case sensitive**.
+* Only **DB** values are **case sensitive**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf74382a-91e6-4ebd-8cae-dcfe708fd1dc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa2db9be-4843-462c-b166-bd295f826224)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/23fdb997-e7bf-4cf4-9230-0365f2014d7b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6731e7e9-f49f-468e-8c67-9c3fa383a803)
+
+* Semicolon Mandatory? -> **NO**.
+* Run all queries together then after each query semicolon needed.
+
+## Retrieving Data
+
+### Select Command
+
+* Used to retrieve data from one or more tables.
+* **Syntax** -> Select * from tablename;
+* '*' means we are selecting everything(data) from the **table**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d91cb043-987b-4e3e-981a-c7edc4f3bcd7)
+
+* select * from Customers;
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a5e593b-e070-4109-a585-4ff30622514e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c688a2ea-7da7-4ab2-b4a7-916fc11f8457)
+
+### Selected Column
+
+* **Select** command is used for **column** filtering as well.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/26344a3f-e456-4658-88a1-6a344827d6fc)
+
+* select City from Customers -> All rows of column city.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ebb0d44-d3d9-4f04-9edb-950470e30052)
+
+### Selecting multiple columns
+
+* select City, Country from Customers
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/235f87b4-7ad6-437d-8eb5-7deb6fbd5229)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9a098fa2-40a0-442b-aba5-bfd71169b593)
+
+* select Country, City, CustomerName  from Customers
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95ad2701-cab5-429c-bc70-fa706079e7b0)
+
+### Distinct keyword
+
+* Need to be used with select, to fetch only unique values of designated columns(s)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/42294627-48f1-4f01-9a50-d1b9df5f7cb1)
+
+* select  Distinct(CustomerName) from Customers
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b86b4883-82ae-458f-9564-a154010f7571)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b7f911de-2498-45d5-a5a4-2c92554e059c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d210733a-e726-49a7-9553-69a3dfc34d1f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/127770d1-af2d-401d-942c-343bd307df21)
+
+* select distinct columnname from tablename
+* slect distinct country from customers
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/727d7235-f82a-4e80-96a9-43be3acf52a5)
+
+### Command with distinct
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a459259d-5189-4591-a551-6b1cbd86a06e)
+
+* select  distinct(Country), PostalCode from Customers
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/21a6f69f-da4d-4fe5-8a49-3fd71371e331)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a296088-02b9-4a77-8cb9-ded7df0a0b29)
+
+* Combination of **Country and Postalcode** are **unique** that are **selected**.
+* distinct combinations
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/48cde4c4-373d-4826-b8c5-830bf38325dd)
+
+* If **combination is unique** then it will come.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6392f7d2-9eae-4c77-803d-a458519f1939)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/20436b7e-9ac5-4300-8bc4-925cc36a84f4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27f3a02c-5033-44d3-945c-aae250a7bed3)
+
+* Error, not allowed.
+* We cannot write **distinct** in one column and not in the other.
+* If we write more than **one column** then **distinct** should be applied to all **columns**, or **none of the columns** should have **distinct**.
+* We have to put **distinct** on all of the columns we want to retrieve or none of the columns should have **distinct** keyword.
+
+### Command with distinct
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/68e77f7b-bee5-4656-a58f-28e1d4827b25)
+
+* select distinct itemp from itemmaster;
+* **3** distinct values -> 3 rows -> 2, 4 and NULL.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2949f983-72c4-44fa-89ce-39d307ed8080)
+
+* select distinct Rno from itemmaster;
+* **4** distinct values -> 4 rows
+
+## Where command
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec32c226-09e8-4e5f-8c89-5dbad2628b3b)
+
+* Used with select, update, delete, insert commands
+* Used to filter specific rows from table.
+* Syntax -> select columns from tablename where condition;
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/883a75cf-9657-4be9-9275-437f4dee783b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db727dee-5ea4-4d42-a57e-295128caba7e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2e39c31-f083-4675-9556-832b879ed322)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d89bb0ac-c765-48ee-8658-f82e497446dc)
+
+* select * from customers where country = 'Germany';
+* **Germany** is a database value, it is **case sensitive** unlike **SQL**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a7e73fb7-f963-425f-85c7-dbaf5402381b)
+
+* This comes under DML.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8a550a0-07a0-4edb-bbb2-80d51edea75e)
+
+* select * from customers where country = 'USA';
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c19a76f-5d0a-476d-80c4-f2a20b3dc4e1)
+
+* select * from customers where customerid = 3;
+* As **3** is **integer** so no need of **quotes**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c9b4f80-f167-4c6f-8e92-e06feea7d959)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a31845ae-87b5-4ada-8804-f330e5e73efb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c69bbda2-ab9f-4f2d-93cd-1c11ab34f9f2)
+
+* select customername from customers where customerid = 3;
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb830eea-ed41-4e6e-97a0-42719e99dcce)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d9824ee6-05de-437a-882a-c06221339990)
+
+* select city, country from customers where customerid = 3;
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69ec605b-2948-4413-8b7e-00449a8c0f4c)
+
+### operators with where
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/380afdaf-bfa9-4a9d-b3e7-42b7233ec34b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2d36fd20-3da7-4895-9d5d-6e8b13344fab)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6e9435a1-665a-4e25-bb01-a94436c3c90f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98427d11-9456-4c95-963a-701b7ae4d2f6)
+
+* Atleast 10 -> Min of 10 -> >= 10 -> Greater than equal to 10.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7712803b-5a25-43d4-8b60-91192c145c2c)
+
+* select * from orderdetails where quantity >= 10
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d94a537-709d-4370-a794-128de6184a77)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/77f28021-c724-4d96-8c60-98e8c62e51ec)
+
+*  Greater than 15
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e014c575-7533-4645-94e0-69df4cf589df)
+
+* select * from orderdetails where quantity <= 10
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cdcbaad1-792e-4e21-b51e-ed46940e18f3)
+
+* Less than equal to 10.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d32e888-a11d-4672-ae36-ae0a411e220e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8bb91b1-394e-43c6-9d81-b9396c7f5045)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86645205-64bb-435f-8ac9-42ca8d52c819)
+
+* Less than 15
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fdd02cb1-e6fe-4d8e-a639-02f7be414379)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/636465b1-b304-4f3e-8c7b-fd204c46f431)
+
+* Not equals to 10.
+
+ ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bfda6dd9-9548-4b00-9d11-eab35705384c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0fe0d5e4-0f0b-46a4-b9a7-67ed081ccfce)
+
+* select city,postal from suppliers where country <> 'USA:
+
+## Logical Operators
+
+1) AND -> True when conditiom 1 and condition both are true. 
+2) OR -> True when either of the conditions are true.
+3) NOT
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f3483701-8fa8-48be-a49c-6a33addb93e9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/90ce5c6a-7fba-48de-bc1c-97d67735637c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2aa23fb4-291d-48c4-ae4c-44084b55e3d0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/349c4682-5a8b-4a11-b852-3b2102ad9828)
+
+* Quantity is atleast **5** and atmost **30**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d1381fb-0221-489a-ad4a-e28f9e798263)
+
+## Between keyword
+
+* Between lowerbound(LB) and upperbound(UB).
+* lowerbound(LB) and upperbound(UB) are **inclusive(included)**.
+* Used to filter the records in the specific range.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd5efada-b218-4dc7-8f33-31a4eb39e290)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/428aa3bc-d628-45d2-8b9f-460405ff1b97)
+
+* select * from orderdetails where Quantity between 5 and 30.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/02658f80-c6e2-4c64-91bf-4f78928fdad0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8c49df39-25b7-4c01-9275-63f92224b077)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/007dcd70-6d4c-4823-b824-7896d050505f)
+
+* select * from orderdetails where quantity < 10 or quantity > 20
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33a1cc30-72bd-42ff-aba2-c15064d1c7d0)
+
+* less than 10 or greater than 20.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36742bc6-9fe1-41cb-a902-6007619cf520)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1924cc0b-1896-452b-86d3-9cc371a553e0)
+
+* Another way
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/900239d5-0fff-4333-8c94-13bd1511e885)
+
+* same
+* select * from orderdetails where quantity not between 10 and 20
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eea7a325-801d-4f24-bab6-d07ba1acb791)
+
+## NULL in RDBMS
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f926665-a75c-4579-b0d9-0aeeda0d9a61)
+
+* Will not work. **NULL** is representation of string and not **nothing**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8df50b7d-6720-45d3-a520-c3833d8f95a2)
+
+* We have to use the **is NULL** keyword here.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e9e9492-cbb0-4e6d-b16a-789ba96286d0)
+
+* Nothing because here in **=** operator, **NULL** is taken as a value.
+* To compare **NULL** values, or to find where **NULL** are there, we have to use **is NULL** keyword.
+* select * from itemmaster where itemp is NULL.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e075c017-a2d9-4778-bd9a-cb97e3dd7dd1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6bd42608-8a43-467e-b0da-f73c7a01e262)
+
+* If we want **NOT NULL**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d00b4c28-5713-4b86-a4f9-ad490b9d7553)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/94d62414-9b3e-4aa8-9c8d-d2bb5377b5c1)
+
+* Outputs from SQL query.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
