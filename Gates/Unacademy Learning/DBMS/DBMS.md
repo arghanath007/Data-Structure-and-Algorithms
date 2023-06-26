@@ -1487,55 +1487,313 @@
 
 * Outputs from SQL query.
 
+## sql part-III (7) [26th June 2023]
 
+* In a single table, two columns cannot have exact same name.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3e90137-a6f0-43c3-8ea0-71fecbebf1ea)
 
+* Access column using **dot(.)**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2181310c-72b1-4215-a825-a4891318e39c)
 
+* select student.name from student;
+* select student.name, student.address from student;
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b6b52fcb-ddad-4ec8-8a48-5cc63a834a1d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7fd0efc9-9ba0-4016-997e-6c67cd71bed7)
 
+* Why is **where** used?
 
+> For **filtering rows** or **filter** out some rows.
 
+> We are writing the **condition** so that we can **filter** out some rows which we need, to get the **specific rows**.
 
+* **= NULL** -> We are comparing with the string NULL or "NULL".
+* We have to write **is NULL** to compare with **NULL**, nothing value.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b954858e-5b56-4c31-a574-cf2e61c1cd0b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/38ffa0f9-30c8-46a7-82a0-a208ae4be6c1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/90759a6a-3485-4605-9cfd-fec7519303bd)
 
+* Is the table possible or not?
 
+> **NO**, the table is not possible.
+> As **Xyz** and **XYz** are both same as there is **no case sensitivity**. We also know that **same name columns** are also not possible.
 
+* Column name, table name, keyword are **not case sensitive**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92310db2-abd4-4ce7-8c25-33491b166f07)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85803a18-d054-4c9e-82d2-5d3c08f39b46)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e6fd5537-775b-4be7-a368-210e2c32c814)
 
+## Limit
 
+* Used to limit number of fetched records from a huge database table.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ad472c8-4f89-4d36-8168-7b4d3e7ab752)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19328153-6ce8-458a-a429-a9e75c69d4f7)
 
+* select * from customers limit 5;
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/160fdf98-b185-4821-be40-4d0e3510a928)
 
+* Fetch **4 records** after starting 5 records
+* limit x,y
+* leaves starting **x**  no. of records and fetches next **y** records.
+* select * from customers limit 5, 4
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba53f861-cdae-40ac-a0f0-e52620bca1ee)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a29f11da-5420-4e0d-90a9-5b09c04c2401)
 
+* select * from demo limit 8, 12;
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec746e8e-ce00-4880-a458-4d14f7dd8332)
 
+* select * from demo limit 5, 10;
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f08ffd5-a142-4990-8e2b-a4e5f62ba2bd)
 
+## Aggregate Functions
 
+* Performs a calculation on multiple values and returns a single value.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/25771cbc-c026-4248-a23e-69811a05b980)
 
+### min()
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a7e6f985-aa8b-4d56-992d-73913227abae)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12c7a821-33b4-4203-8c19-99aa4a57bf31)
 
+* SELECT min(price) FROM Products;
 
+### max()
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e6134877-8681-4d48-823d-620c973fe6fb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f18ab52c-6b17-4dc1-a4ff-31c12f12dda5)
 
+* SELECT max(price) FROM Products;
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c5561e9-5ec8-430c-a576-3d8646290afc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/79d5aac0-f29b-4706-920a-e8c63960733c)
 
+### sum()
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97ed8828-fa67-49ce-b167-09e1790e27ee)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/03395c6b-a2e5-49bb-9d22-793837703519)
 
+## avg()
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/94ee2a8f-af17-44ef-b724-94d1981ac203)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ab3a686-3d02-479e-9924-9f212b3f8473)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/14315cca-4bfb-4463-83d3-a55a7891b626)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a9f70e56-e15f-4e18-9bd1-7d975fdb7f36)
 
+* SELECT min(customername) FROM Customers;
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/793ac12a-4a28-4269-b951-e0d604e57a25)
 
+* Arrangement
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed2e525f-ae32-4e7c-bf12-2fa2fc65c9aa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d8e25f1-ad6a-4e28-b6bf-e7c4127d9530)
 
+* **min() and max()** -> Works both on char data and numbers. For char data it returns the first or last record according to **lexicographic order**.
 
+* **avg() and sum()** -> Will work only on numbers. Returns zero(0) for others.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98a88697-0f5a-4a60-8d73-38a764aa2b43)
 
+### Count()
 
+* SELECT count(price) from products
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e649bdd-efb0-4d5b-b62a-6e7aee5cfb62)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72cd5392-b652-41b4-ae7f-9feb66b33148)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/844e830e-837a-49c3-9885-712e8fb6593e)
+
+* Return how many customers are from USA?
+
+> select(customerID) from customers country= 'USA'.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2eb2a7fc-398e-4abe-8535-7bd9aa076411)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c24bca67-2d6f-45cf-8d44-c7908265e62e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6a192ba-78ba-4296-90b1-6b66c0c2363f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b970ecbb-9ed4-4409-8ad8-292eae527f80)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/23de4729-be9f-498b-b180-0bc9e5c23055)
+
+* Average -> Summation/Count -> (5 + 7 + 7 + 7)/4 -> 26/4 -> 6.5.
+* We will not count the **NULL** as there is nothing over there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b3bab3bf-748e-4994-b891-dfddbe88ce4c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/153b4984-ae12-4646-b112-27ef5f969eb4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f84a40a8-8240-4be7-9dbf-118b3dc00f17)
+
+* Select count(*) from itemmaster
+
+> **8 rows** will come.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5122d88-747f-4cc9-bdea-dadad74a9ec1)
+
+* Aggregate functions return a **number**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cdd1a52c-22ca-4c53-807f-c049494b81c0)
+
+* count(*) will look at **no. of rows** that's why it will be **8 rows**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e20939b4-45f7-406a-ac04-cb9362c496a3)
+
+* Yes.
+* create table itemmaster(item int, itemp int)
+* **Creating table**
+* insert into itemmaster values(1,2)
+* **Inserting values into the table**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c0f6080-56db-4589-922c-4e37cb35a30c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cdb90b81-9f51-4fcc-9a7c-02d8ebe0665d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c51cfd5-5a0c-4fab-9997-55e5aadf6a58)
+
+* NULL means **nothing**.
+* As it is **nothing**, so no need to include it when counting average. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/04c98ed6-5ef4-40f1-868e-c0f63fcdd01b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f3686df-e148-41cd-b486-1e0c6d02677b)
+
+* For sum we will take the score of students who have scores and ignore the **NULL** rows.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a6795585-8d94-4977-9096-7e8b58eb8315)
+
+* Question
+* select * from customers where country = 'USA' or country = 'Germany' or country = 'UK'; 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dca618b9-f9d4-4212-9904-ca7197a49a97)
+
+## IN operator
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d15cdab0-4795-46bf-b23c-32c6bb295dba)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/54fc79bd-c71b-45b2-b3aa-ba857bcb16c8)
+
+* select * from customers where country in ('USA', 'Germany', 'UK')
+* select * from customers where country in ('USA', 'UK', 'France')
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c13be76-b610-4304-88f1-1085d62aeb5f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e7990d7-a27e-4eaa-bd22-ed0997647aeb)
+
+* List of all customers which are not from **Mexico or Sweden**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a7290955-9ef7-4227-a3e4-07cbd6d206c5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fffba6f3-a2f5-4ccc-ac58-441646e96ed2)
+
+* select * from customers where country not in ('Mexico', 'Sweden')
+* **Not** is in the **full condition**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4bd49890-1acc-4368-b75b-c1e0ca118e52)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/64e7564e-0aac-4de0-a9b0-45d54acf520f)
+
+* Sign change
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34648a95-1a08-414c-b40a-2cb7f7269127)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/87d58641-b957-454f-a3c9-77ad8bc67321)
+
+* select * from customers where country != 'Mexico' and country != 'Sweden';
+* Different way of writing the above query.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd7402ab-6a7e-4f52-9292-5b702d2d7d6f)
+
+* Subqueries
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9cc91892-358a-4a29-a842-f6fe70c6d9e8)
+
+## Alias
+
+* Used to give a temporary name toa table, or a column in a table
+* No spaces allowed
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0585fd8-32f5-424c-bb94-a299ea3985a3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/769c0204-8335-4192-a00e-1587b08b6e66)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a0dbc3f3-4d3f-4f82-b01b-7325915cb2ed)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c446d5ee-2326-44a7-976d-12ea454ebeb6)
+
+* Alias should be unique.
+* select * from customers as cust
+* select * from customers cust
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ddab2b00-9c1a-400b-bad2-e248a027d653)
+
+* select cust.customerid ID from customers cust.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/613db393-bbb6-4e0c-9744-ce395341b813)
+
+* select avg(price) from products
+* select avg(price) as Average from products
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37c3f97e-2ab3-477d-8dd1-84501b5d722a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc768781-aeb3-4f94-b1a3-c991eeaa07e7)
+
+* If we give **keywords** in **single or double quotes** then they work as aliases.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3b62ae5e-bba2-4048-8e09-1b12a0dc2d81)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cbd8592d-ebfc-443c-a5c4-1a945abc56eb)
+
+## Query Summary
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24d7cae2-5ccd-4011-badb-d103fd5bcb63)
+
+* from -> where -> select
+* Limit runs at the end.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/805ad8b4-08b3-4b91-b851-22f8f9ad7682)
+
+## SQL Joins
+
+* Needed to retrieve records from more than one table collectively.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea690ee3-e864-4bea-a405-6989d761a81f)
+
+## Types of Join
+
+* Inner join -> As called as **natural join**.
+* Left Join
+* Right Join
+* Full Join
+* Self Join
+* Cartesian Product
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0e94386-ccdf-40c0-94a0-e212c8720481)
+
+## Cartesian Product
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/49c2eade-104f-4363-afcf-39f6ee88982a)
+
+* Cartesian Product will return the product of each row from one table to all of the other rows in the different table.
+* When we do **joins**, how many columns we have?
+
+> Left side table  + right side table combination is the **no. of columns*.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/628f410c-8434-46e0-8465-ae522353b099)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7152caec-7a5e-4ba4-a35f-f87ed3c2dd77)
+
+* It return combination of each row of student table .
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe40c317-1f63-4071-a408-eb1d86706e3b)
+
+* No. of rows -> 4 * 3 -> 12.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd14dc8f-af8f-4ae5-b6e2-f268c78b4661)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d926bd79-6582-4c70-93da-522c7f221634)
+
+* Cartesian Product between **customers and employees** table.
+* select customers.customername, employees.EmployeeID  from customers, employees 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/335315aa-7913-4165-a675-e54639416e38)
+
+* select customers.customername as CustomerName, employees.EmployeeID  from customers, employees
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c608afb6-9bab-47ea-8fd0-2614b47d4c05)
+
+* Cartesian Product is **costly operation**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41ca0082-6711-4af6-bced-d071258c5eca)
 
 
 
