@@ -7638,15 +7638,49 @@ efe4b05d9d09)
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4914becb-b48d-4999-90c8-7f9afba593b1)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed1cc6d0-341d-490f-a62b-066f6373ce68)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58db289d-753e-4134-a8cc-ad90f7245843)
 
-* 1hr 14mins
+* Question.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8bb24f2d-3e21-4bf6-8b14-e02886e90d63)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/96266692-6929-4c40-9cc5-3a3e0a148d53)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa369483-09f8-4be7-bbb7-455bf306a575)
 
+* AP series problem.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec8fcb32-0dbf-4088-a46f-59b048956814)
 
+* AP -> No. of terms.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a7594f44-3a0b-4773-92bb-f72e37cec0a6)
 
+* We need to find the no. of terms basically.
+* How long will it take them to meet? -> Duration
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95986533-5ad5-4053-8489-00272c338d35)
+
+* There is **no difference** between **The time taken to meet** and the **no. of terms**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41a1508c-9db1-40e8-8fb3-6668d383cca9)
+
+* t -> Time
+* n -> No. of terms.
+* a -> initial/starting value
+* d -> difference between 2nd and 1st value, 2nd value **minus(-)** first value.
+* t = n = 9hrs.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09ee5191-20e1-41a1-8e2a-ce6792d6b5d9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27e070c9-552d-4fee-83aa-f30b7892be2d)
+
+* [**IMPORTANT**]
+* Distance travelled by the **motorcycles(M1 and M2)**:-
+* D1(M1) -> S1 * T -> 4hr/hr * 9hr -> 36km
+* D2(M2) -> S2 * T -> Total Distance - D1 -> 72hr - 36hr -> 36hr.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ab7b0ed-55d2-4acf-8418-86ad36cbf30b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/576e42b1-3c5d-45ac-bd3d-1a2cbff25935)
+
+* Option **D**, answer.
 
 
 
