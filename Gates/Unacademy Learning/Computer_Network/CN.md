@@ -32,13 +32,35 @@
 
 * IP address is going to have **two** parts
 
-1) Network ID
-2) Host ID
+1) Network ID -> It is used to identify the **newtork**.
+2) Host ID -> It is used to identify the **host**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c4e7b73a-aa8f-4087-8e15-a370876e1bfb)
 
+* Socket No -> This is used to identify the **process**. 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c17cee17-eb7e-4c59-b5ac-435b3f271d48)
 
+* IP -> Internet Protocol.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff5c9d4a-58ee-4cee-ac75-834a0fa795b8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e0d8e11-65ea-4889-a636-773db6b9b3ad)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c5b599b3-22e6-4937-81a1-e26293dbad28)
+
+* Yes
+
+* What happens when we type **www.google.com**?
+
+> In my network, we have the ISP. It is the responsibility of your ISP to provide us with one more server network called as **DNS(Domain name server)**.
+
+* What is the purpose of DNS?
+
+> If we have to contact google servers.
+
+* ISP -> Internet Service Provider
+* DNS -> Domain name server.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9fac4f02-1671-4b5c-8096-49a09a5a4f65)
 
 
 
