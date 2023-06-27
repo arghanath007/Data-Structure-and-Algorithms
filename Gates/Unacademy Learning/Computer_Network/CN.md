@@ -70,6 +70,51 @@
 
 ## Binary System
 
+* With 1 bit -> 2 ^ 1 -> 2 Combinations
+* With 2 bits -> 2 ^ 2 -> 4 Combinations
+* With 3 bits -> 2 ^ 3 -> 8 Combinations
+* With 'n' bits -> 2 ^ n -> (2 ^ n) Combinations
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9f5f4fb9-ac2f-4758-90e8-eb9e59ee9457)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1e0bffe-2a51-4cd2-a33f-639d22cf8205)
+
+* If there is 'n' bit no and we are choosing 'k' bits. That menas we are dividing entire numbers in (2 ^ K) parts.
+* (2 ^ n) / (2 ^ k) -> 2 ^ (n -k)
+
+* We have a **n** bit number. If we choose **K** bits for **Network ID** and **n-k** bits for **Host ID**, then
+* How many networks are possible?
+
+> **2 ^ k** networks.
+
+* How many hosts are possible per network?
+
+> **2 ^ (n-k)** hosts.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/84cc1a7d-963b-4436-8e45-222d86b320b3)
+
+* If we have **n** bits and we choose **k** bits from **n** bits then **2 ^ k** groups are possible and size of each group is **2 ^ (n - k)**.
+
+ ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1fc9e88-385f-437a-aaa7-a5e66fad4347)
+
+## IP Address
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/965bad27-6ff2-4f16-8ddc-bfead938b115)
+
+* 32 Bits.
+* IP address is represented in decimal numbers.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
