@@ -55,14 +55,20 @@
 
 * What is the purpose of DNS?
 
-> If we have to contact google servers.
+> If we have to contact google, we need the IP address of google servers, but we don't know the IP address of google servers, we only know the domain name.
+> Before contacting google, we have to contact the **DNS** and **DNS** is going to us the IP address.
+> We are giving **domain name** to DNS and we are getting the IP address in return.
+> Before we actually communicate with the server, we communicate with the **DNS**.
+
+* For the communication between me sending the **domain name** and getting the IP address in return, this takes **some time**. This time is **wasted** and it is actually unnecessary. It is called as **DNS overhead**.   
 
 * ISP -> Internet Service Provider
 * DNS -> Domain name server.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9acc8e0a-fdcc-485d-bd63-0bead24525b7)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9fac4f02-1671-4b5c-8096-49a09a5a4f65)
 
-
+## Binary System
 
 
 
