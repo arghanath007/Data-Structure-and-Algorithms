@@ -1696,7 +1696,24 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/87d58641-b957-454f-a3c9-77ad8bc67321)
 
 * select * from customers where country != 'Mexico' and country != 'Sweden';
+* select * from demo where name <> 'Created by' AND name <> 'SQL Online' AND name != 'Twitter'
+* select * from demo where name != 'Created by' AND name != 'SQL Online' AND name != 'Twitter'
 * Different way of writing the above query.
+* != -> <>
+* Both give same output.
+* Link -> https://blog.sqlauthority.com/2013/07/08/sql-difference-between-and-operator-used-for-not-equal-to-operation/
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf7939b3-3aec-40da-8f02-460afa19e5b8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a8488b3-32c9-45c4-a4a7-d2d00ebd2846)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a535a7c-0267-4104-a744-dfba35b323bf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44a0e837-c8bf-46bd-b737-06fd003f09f6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/02d81a72-e6c2-4b4a-a5cc-641bb7443eec)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e027efe-2e70-4211-9437-a89144618781)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b3d8459-e431-4f49-a8e7-fc9ca90a5a1b)
+
+* Both give the **same output**.
+
+
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd7402ab-6a7e-4f52-9292-5b702d2d7d6f)
 
