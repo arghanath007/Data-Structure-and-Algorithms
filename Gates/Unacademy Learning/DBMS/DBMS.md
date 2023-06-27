@@ -1735,6 +1735,8 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3b62ae5e-bba2-4048-8e09-1b12a0dc2d81)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cbd8592d-ebfc-443c-a5c4-1a945abc56eb)
 
+* Alias examples, where can we use alias and where we cannot.
+
 ## Query Summary
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24d7cae2-5ccd-4011-badb-d103fd5bcb63)
