@@ -175,6 +175,88 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/25b3aac7-b2eb-4ae4-b073-6748d62e856d)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a4b0c604-93a9-4fd4-9d85-506e3d4cf5af)
 
+* The beauty of the concept is that if we take any IP address and we convert it into **binary number**, adn we look at the **first** few bits. We will be able to say what is the **class of the IP address**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b06d39dc-d194-411d-8096-4c94e0d45a80)
+
+* Totally we have -> 2 ^ 32 bits.
+* Total no. of IP addresses present in **Class A** -> Fix **1 bit(0)** -> 2 ^ 31.
+* Total no. of IP addresses present in **Class B** -> Fix **2 bits(10)** -> 2 ^ 30.
+* Total no. of IP addresses present in **Class C** -> Fix **3 bits(110)** -> 2 ^ 29.
+* Total no. of IP addresses present in **Class D** -> Fix **4 bits(1110)** -> 2 ^ 28.
+* Total no. of IP addresses present in **Class E** -> Fix **4 bits(1111)** -> 2 ^ 28.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/75912cf1-6be8-4e00-92bf-4a1fa8bad533)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/145b7aae-8431-40c3-8214-0511e30bb52b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c27d65ab-78d6-4958-a4d9-f721010a048e)
+
+* **Class A**:-
+* Min. value of 1st octet -> 00000000 -> 0
+* Max value of 1st octet -> 01111111 -> (2 ^ 7) - 1 -> 128 - 1 -> 127
+* Range of 1st octet -> [0, 127]
+
+* **Class B**:-
+* Min. value of 1st octet -> 10000000 -> 128
+* Max value of 1st octet -> 10111111 -> 2 ^ 7 + 2 ^ 6 - 1 -> 128 + 63 -> -> 191
+* Range of 1st octet -> [128, 191]
+
+* **Class C**:-
+* Min. value of 1st octet -> 11000000 -> 192
+* Max value of 1st octet -> 11011111 -> 223
+* Range of 1st octet -> [192, 223]
+
+* **Class D**:-
+* Min. value of 1st octet -> 11100000 -> 224
+* Max value of 1st octet -> 11101111 -> 239
+* Range of 1st octet -> [224, 239]
+
+* **Class E**:-
+* Min. value of 1st octet -> 11110000 -> 240
+* Max value of 1st octet -> 11111111 -> 255
+* Range of 1st octet -> [240, 255]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1c32b03-0b5c-4492-9b3a-71777d329825)
+
+* [**IMPORTANT**]
+
+* By looking at the **first octet** we will be able to say what **class** does the IP address belong to.
+* Class **A** starts with **0**.
+* In the **first octet how many bits are remaining**?
+ 
+> **7 bits**.
+
+* 1 -> 1 -> (2 ^ 1) - 1
+* 11 -> 3 -> (2 ^ 2) - 1
+* 111 -> 7 -> (2 ^ 3) - 1
+* 1111 -> 15 -> (2 ^ 4) - 1
+* 11111 -> 31 -> (2 ^ 5) - 1
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fbe471c2-348d-4d27-b2bb-bbd058d52fdd)
+
+* If the **decimal no** in the first octet is in the range of **0 to 127** then it is in **class A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/336870f6-6c25-4753-a94e-e99ad10d3c6e)
+
+* Class **B** starts with **10** bits and **6 bits** are remaining.
+* **10** bits are fixed and the **6 bits** can be from **000000** to **111111**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/48eb0ff3-3c57-4d24-91ae-e4f97f6f042c)
+
+* So the range is **10000000** to **10111111** -> 128 to 191  
+* **10111111** -> 2 ^ 7 + 2 ^ 6 - 1 -> 128 + 63 -> -> 191
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f29a404c-c34e-4865-9521-08a48fd3a2f6)
+
+
+
+
+
+
+
+
+
+
+
 
 
 
