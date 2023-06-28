@@ -101,10 +101,51 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/965bad27-6ff2-4f16-8ddc-bfead938b115)
 
 * 32 Bits.
-* IP address is represented in decimal numbers.
+* Even though IP address is **32 bit** number, we represented it in decimal numbers.
+* 20.1.2.3 -> **Dotted Decimal Representation**
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb0b55d3-6afc-4b88-8f3f-f0fd3ef460f1)
 
+* The **8 bits** are called as **Octets**.
+* Octa -> 8 bits
+* The Octets are divided into **2** componenets -> **Netword ID and Host ID**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5913b851-a160-4aef-84f8-a52be035c60f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a95ca84-3e9d-4a0b-8fb5-d3a70097588a)
+
+* Binary and Decimal Representation, both representation are given in exam
+* Network ID(NID) -> It represents the IP address of the network and is used to identify the network.
+* Host ID(HID) -> It represents the IP address of the host and is used to identify the host within the network.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09d6a68a-ce27-4992-ab21-c762b47ca0ff)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4372c77d-587f-48f3-be48-63d9fdd783a7)
+
+* 32 Bits -> 8 bits network ID and 24 bits Host ID -> This is called as **static division**.
+* 8 bits -> 2 ^ 8 -> 256 networks.
+* 24 bits -> 2 ^ 24 -> 16 Million hosts in one network.
+
+* Disadvantages of **static division**:-
+
+1) Networks are too low
+2) Too many hosts per network.  
+
+* So, **static division** doesn't work.
+* They have done dynamic division called as **classfull addressing**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/79e4ca6d-63f1-429c-88b8-5f9dd26e9408)
+
+## Classfull addressing
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e0c1aff2-0eb9-4de5-b5fb-2114af0a3186)
+
+* We have **2 ^ 32** bits. If we fix **one bit** then we will have **2 ^ 31** bits.
+* 2 ^ 31 = 2 ^ 32 / 2 ^ 1
+
+> So, 2 ^ 32 is divided into **two parts**, one is starting with **0** and the other part is starting with **1**.
+
+* The part is starting with **0** is called as the **class A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f2184a40-d076-4642-9796-8418ecb8a343)
 
 
 
