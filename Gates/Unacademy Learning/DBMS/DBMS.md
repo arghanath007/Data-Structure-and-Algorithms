@@ -1824,6 +1824,67 @@
 
 * Table design refinement.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/daf935ab-8ba3-4885-af22-f49bf07fc04e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6229d434-03db-45fb-826e-e8205720cdef)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22adf47c-a1c6-4c72-967f-f6711b49029d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a9fff723-ba8a-4097-b1fb-c938a818825a)
+
+* Independence -> We can store the data anywhere.
+* Flexibility
+* Data Integrity
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/690b2553-5a28-430b-ba6d-a5bf3b1f0e27)
+
+* Tuples -> Rows.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/250a38c7-7707-4b3e-96b7-c475aa9c20d5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ea94500-1dd4-43ed-8cef-6fc88bc28fd0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a68627f-b045-4122-9ed3-69098ff2856c)
+
+1) select * from customers where country IN ("Germany', 'Berlin');
+2) select customername, address, city, postalcode, country where contactname ='Yang Wang';
+3) select * from customers where customerID <= 19;
+4) select * from customers where country NOT IN ('Germany, 'UK', "USA');
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0163990e-9232-43b4-8d36-61af8a861bd7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/56284f5b-6bfb-4260-9b84-31e1e33ac8b3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/732c698f-cdf3-446a-9cd4-564c23b82fda)
+
+* We don't know if the table is sorted/ordered using customerID or not, it is bettter to write **customerID <= 19**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e38e4b01-9b50-41b3-9246-c2f1df314979)
+
+* Yes, limit could be wrong there as well.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/55f87089-80ab-43bc-8188-e3b9b399df29)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c94d946-2322-4fcf-8201-9a7d4161ea5f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8c863fe1-f1c2-4853-b38c-6c33b8ebc157)
+
+* Yes. All rows will come.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89e3785f-6b9e-49e4-b57d-d0cf0b9a7040)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ef2446f-bb8d-42b0-b5d2-1ecc5658cc47)
+
+1) select * from products where supplierid IN (1, 2, 3);
+2) select productname from products where price between 5 and 25;
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c5f94ca2-4444-472a-a2cd-3fe50089586b)
+
+* 24mins.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
