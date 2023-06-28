@@ -146,11 +146,34 @@
 * The part is starting with **0** is called as the **class A**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f2184a40-d076-4642-9796-8418ecb8a343)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58c55ac5-0d9e-42ce-9f72-743501085f29)
 
+* All the nos(2 ^ 31) starting with **1** are remaining.
 
+> So, 2 ^ 31 is divided into **two parts**, one is starting with **10** and the other part is starting with **11**.
 
+* The part is starting with **10** is called as the **class B**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98459a9d-8449-465f-9741-8d9b9ad7942e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/04f46374-c171-4613-9908-05e01cfd4b91)
 
+* All the nos(2 ^ 30) starting with **11** are remaining.
+
+> So, 2 ^ 30 is divided into **two parts**, one is starting with **110** and the other part is starting with **111**.
+
+* The part is starting with **110** is called as the **class C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/832932b8-0fc4-4046-af6a-4131e93f2ad3)
+
+* All the nos(2 ^ 29) starting with **111** are remaining.
+
+> So, 2 ^ 29 is divided into **two parts**, one is starting with **1110** and the other part is starting with **1111**.
+
+* The part starting with **1110** is called as the **class D**.
+* The part starting with **1111** is called as the **class E**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/25b3aac7-b2eb-4ae4-b073-6748d62e856d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a4b0c604-93a9-4fd4-9d85-506e3d4cf5af)
 
 
 
