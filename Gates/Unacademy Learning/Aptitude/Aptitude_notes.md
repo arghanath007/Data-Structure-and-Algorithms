@@ -7944,6 +7944,142 @@ efe4b05d9d09)
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9cdbdbb4-28fd-4b7d-8830-2f02e257168f)
 
+## Time speed distance work and time part-IV (40) [29th June 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b6c61dd9-355d-4ad9-b1a8-a4d8ed530017)
+
+* Revision
+
+## Boats/Streams
+
+* Speed of men/boat in still water.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3df78072-ed5d-4bd5-8b98-b86e0da8a70c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4edfe5ad-dce3-4f75-a009-75ee8247eb52)
+
+* Downstream -> (x + y) km/hr
+* Upstream -> (x - y) km/hr.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/08a2b6ee-5ce9-4981-9132-658dcdd345bc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/93ef6ac0-5642-46a2-bdf0-050f57753475)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f1ea19f3-ec3f-4c6e-b003-fb8a01775892)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ebe696c0-3a04-49c9-9bbd-5801bd51905a)
+
+* t_downstream(td)
+* t_upstream(tup)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b3af440d-cc9b-44f4-9e1c-9a68cb525b1e)
+
+* T = Total time Taken
+* T = td + tup
+* T = d/(x + y) + d/(x -y); [D = S *  T, T = D/s, D, d -> Distance]
+* x -> Speed of Human.
+* y -> Speed of stream.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0d1bb1e-8450-41b0-8a67-a0f074ad0a0f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44210526-470c-425f-ad90-0a00dba9854f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5bb4aea1-b6de-48db-b33b-0ee2bfbf4768)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9b01ec5-8a27-4664-
+b5da-42ddc3936df0)
+* Option **C**.
+* Find the distance travelled by the boat?
+
+> **18km**.
+
+* d -> S * T -> (x + y) * T ->(OR) (X - Y) * T.
+* Both give same answer.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/52ea139a-21f5-4f27-af0d-d40e0a34c727)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f34bc0f1-4c71-44d9-8f86-54ab826a6909)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c45c011b-5901-4038-8ddc-cb4382963340)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c907e27-fb2d-4aa2-8870-2d780d7f33c1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/944c6673-a0d4-483d-8268-353eeb5a9d2c)
+
+* If we are covering the **same distance(10km)**, between **downstream and upstream** who will take more time?
+
+> **Upstream** will take more time.
+
+* Time is **same**, then?
+
+> **Distance of downstream** will be **more** compared to **distance of upstream**.
+
+> **dd > dup**
+
+* dd -> **Distance of downstream**
+* dup -> **distance of upstream**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/51aa42bd-126c-4b83-82e5-467466c9d155)
+
+* Option C.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ad2e6d58-fa66-4096-bec4-e78280ffb2a1)
+
+* Example
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e62e3f0-99d7-4cb6-ab98-4a9712d7951d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/53c5a7d9-c8f4-47ad-afbd-db568424fb49)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5bbe1cb7-77c2-4a95-82ed-21374548771b)
+
+## Number System
+
+## HCF and LCM
+
+* **NOTE**:-
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5601303f-4b97-406b-b6a1-0b03c5d91f45)
+
+* Question
+* Factorization -> Find Prime factors.
+* HCF -> Common among all the numbers.
+* LCM -> Take the factors and put their highest powers.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ed0af41-d5e0-481b-9a26-e8e91513f889)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e2691907-f693-4245-a80f-7d9b24e032eb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b4ea407-1b1f-445d-ae74-0f1b7c8873c6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a60b6930-b737-4d37-b2cc-19bf43b9677d)
+
+* Examples.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c1655fe-dd57-4a2b-9827-c4265c65c1e0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/989e8671-f98a-44d8-a8e8-fa82331080a7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9120c54a-42c9-42fc-94ef-51dc07c6e02f)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a67600a7-e69b-4489-acc8-e4db2d98fe4c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c15a059c-0ba3-4aa1-bb43-533aa6db6a30)
+
+* If **fractions** are present.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ce82a1b-6e97-4929-897a-c73b1286135b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/965363c4-7b5c-43b6-ad4e-48efc467f020)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ec1ef8b-6267-40a1-8248-06c294a97913)
+
+* Question 'C".
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97d3cc65-bedb-4260-8962-1f0e43bbe086)
+
+* Calculating **HCF and LCM**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/753303c4-3218-45a5-a8e7-02efcaf0dfe7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ee65060-5c85-40dd-8035-9363176cd08b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37afbc54-1bdf-436a-99c5-7daf1bf7c297)
+
+* Arrange in **descending order**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f06b1b5f-072f-443e-ab3e-2cc98cc1f2bf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8873ed0-a371-45b0-9b2d-39f4df67eef4)
+
+* Largest -> 3 ^ (1/3) -> 3 ^ 4 -> 81
+
+
+
 
 
 
