@@ -2115,9 +2115,42 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27ce8c66-af25-4a97-bbc7-251ffa7485bd)
 
 * Point.
+* select name from employee where eno = managerid -> **Wrong **.
+* Find name of all such employees who are managers also.
+* We need to make a copy of the **table**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/25e32981-6ba5-46dd-8c50-9d90c8f558a9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/28d695f0-945a-4427-b73e-32333e682f0b)
 
+* If we have to do joining then we will do **joining** with the **same table**.  
+* But we don't have **two** tables.
+* We have to join the table with **itself** only. It is called as **self join**.
+* If we have to do join the table with **itself** then we will have to do **aliasing**. It is **compulsory**.
+* We have to assume they are **two different** tables and then do **aliasing**. 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a397491-2eca-4c5e-9cf3-c6f9051a3110)
+
+* Find name of all such employees who are managers also.
+* select distinct E1.name from employee E1, employee E2 where E1.Eno = E2.ManagerID
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/82515022-4eb1-4735-ba84-edd345f2a684)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6822cc53-f7dc-4344-8379-0575e5f00931)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33805d8e-5ac4-4f7a-a8e2-9ad38a0abcc2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e097efbf-20db-40ce-8741-d5c69f19e224)
+
+* Find name of all employees who are having managers?
+* select distinct ename from employee where managerid is not NULL. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c4ea76a9-d712-42ec-bf4a-a5bee5e6a7e2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eed3d727-70bc-4e8c-8f5d-c1b5ccf41926)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa58dc4c-6a1f-43b7-9514-e223f8404736)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/128bc20e-4f19-4f4e-b66c-5fbb431d489c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8547ba7d-3719-427e-bde6-23eef34dff5b)
+
+* No.
 
 
 
