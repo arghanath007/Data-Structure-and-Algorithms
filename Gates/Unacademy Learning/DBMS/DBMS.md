@@ -1922,24 +1922,79 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 
 * select * from student left join library on student.rno = library.rno
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5a6edda-7537-4c84-84a8-7f61a131a63d)
 
+* Result set
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/13f093f7-18ce-4971-a9ca-2720ac052d8d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/75b36336-2c3f-4af7-b840-d701efeff73d)
 
+* Not necessary
+* Min. no. of rows in result = no. of rows in left table.
 
+* In the left table we have **4** rows and **3 rows** in the right table. How many max rows we will have after **left outer join**?
 
+> We will have **12** rows max.
 
+> All **4 + 3 -> 7** rows from the two tables are all identical then **4 * 3 -> 12**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b4ce997-56b6-477f-a31d-3609d39ae92b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41a04455-141e-43f3-a0fc-7eb6d1edb5f4)
 
+* If all the values are **distinct**?
 
+> The no. of rows will be  -> No. of rows in left table
 
+* Min. no. of rows in result = no. of rows in left table
 
+* It is **true** when common column has unique values in both tables.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/06c5317f-b5ac-441c-b4c2-b9bda502ff94)
 
+## Right Join / Right Outer Join
 
+* Right Join / Right Outer Join -> All rows of right table and only matching rows from left table.
 
+* select * from student right join library on student.rno = libbrary.rno
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e82fb62d-8e6d-4d68-aefb-9970c1b8185a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/42d8644d-e1cd-4471-9b25-1bfaff75fa07)
 
+* Resultant set
 
+* Left and eight outer join are **complement** to each other. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/14f2ca0d-51e7-4688-9ee4-e1fc624a46f8)
+
+* Yes.
+
+## Full Join/ Full outer join
+
+* select * from student full outer join library on student.rno = library.rno
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/38d6e7f1-8bf3-48b3-bb8c-7d7b8f1111e6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b02061e-d61b-4449-8faf-5c42d32f194f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/11a1c06d-6722-410b-a1a0-24ddf7088414)
+
+* **Full Join/ Full outer join** -> We taking all the rows from left and right table and, whatever matching data left table has with right table we will write and if it is not there we will write **NULL**. We will take the matching data from right table which are matching with left table and if not there we will write **NULL**.
+
+* Inner Join -> Only the matching data we will get from the left and right tables from the **common column** between the two tables.
+
+> We can say that **Inner join** is a subset of **left and right** joins.
+
+* Left Join
+* Right Join
+* Full join -> It is the **superset** of **left and right** join.
+
+* They are **subsets** and not proper subsets.
+
+1) Result set of inner join ->(subset) -> Result of left outer join
+2) Result set of inner join ->(subset) -> Result of right outer join
+3) Result set of right join ->(subset) -> Result of full join
+4) Result set of left join ->(subset) -> Result of full join
+5) Result set of inner join ->(subset) -> Result of full join
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc33d274-c6d9-4f1a-9c18-0ad211a77e86)
 
 
 
