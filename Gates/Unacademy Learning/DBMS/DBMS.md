@@ -1996,9 +1996,30 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc33d274-c6d9-4f1a-9c18-0ad211a77e86)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e269146f-b0c6-45f5-b7e2-be0b5edf84a2)
 
+* Question
+* Option **D**
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/43486471-8f89-45a9-a204-8ba6745a25ca)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a70e037-d758-4135-8a67-24348aa3d824)
 
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a212c449-b350-4f9b-9e50-323afb61abcf)
+
+* Question
+* Option **D**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/39ef5f32-2482-48ce-b274-5257648cddf1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d36ced0-06fd-42be-a04d-3ab5287303be)
+
+* Cartesian Product.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd8b653e-8ac5-4309-a0da-b27893ca35d6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/881ce19e-caf8-4ee1-8091-608609e8fd34)
+
+* Yes.
 
 
 
