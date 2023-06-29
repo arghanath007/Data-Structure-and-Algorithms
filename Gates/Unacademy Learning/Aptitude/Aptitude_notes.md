@@ -7865,7 +7865,8 @@ efe4b05d9d09)
 
 * Simile -> Direct(DC) Comparision -> As/like -> As busy as bee.
 * Metaphor -> In-direct Comparision(IDC) -> My father is the light of my life.
-
+* Cancer -> Un-controlled cell division.
+* Abyss -> Hell/bottomless pit.
 
 
 
