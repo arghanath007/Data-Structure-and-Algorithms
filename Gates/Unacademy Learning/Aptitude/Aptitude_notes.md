@@ -7815,12 +7815,56 @@ efe4b05d9d09)
 
 * you are -> you're -> Same thing.
 
+## Verbal-ability-part-iv (39) [29th June 2023]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c9df264-de22-48c9-9d93-2ff716f58363)
 
+* Question
+* Option **D**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d3a717a-d2a6-4315-9e75-37d603b3aa2c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/353f5058-0ce1-461b-9b6c-303ead556dd2)
 
+* Almost all -> Some.
+* Always
+* All
+* None
+* **IMPORTANT words**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae3157c2-09b3-462b-ade1-f75ff1c0c353)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd1d6fb2-2f03-4f9b-bd66-bbc7fed53a81)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c11f48b-a729-4a6f-81d1-c8c75fe1eba4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b45bff2-dcd7-4559-a64f-7745b9a668d4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d9fa6c4f-48f3-4457-b91e-7d25be479ad7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a88ea1c7-e4ee-439e-8f6c-318ea84f9dcd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4aa221e8-0974-45ab-8600-7e022f627d44)
 
+* Done yesterday.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a4da326e-7527-4671-9d0e-498c7ed58e51)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81ea3a7f-8e4b-4108-8e7f-5ad38a65af23)
+
+* Question.
+* Option **A**.
+* Foster -> Rearing/Fostering/growth/nourish/
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/555efc03-6d2e-41be-8eca-1e3ad61c7a39)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e15f6490-588d-465d-92d6-95d863ba9a2b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c23b0331-a49f-4a09-af88-7ae3484e352b)
+
+* Childish -> Negative word
+* Childlike -> Positive word
+  
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f125739d-db53-4daf-b62d-13bd8583d6e6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5f0fce49-5e74-4cd4-9a64-33c2fbf77169)
+
+* Question
+* Option D.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5846c962-fb53-44fc-b30c-7da493077890)
+
+* Simile -> Direct(DC) Comparision -> As/like -> As busy as bee.
+* Metaphor -> In-direct Comparision(IDC) -> My father is the light of my life.
 
 
 
@@ -8156,6 +8200,9 @@ efe4b05d9d09)
 * We become what we consume.
 * We are slaves of our symbols.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cbbd6d3e-22bc-43b0-a083-7f26b35f7926)
+
+* You have to pay the  price , you have to pray the full price , you have to pay the full price in advance
 
 ## Scratch Board
 
