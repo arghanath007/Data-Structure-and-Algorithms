@@ -7867,10 +7867,82 @@ efe4b05d9d09)
 * Metaphor -> In-direct Comparision(IDC) -> My father is the light of my life.
 * Cancer -> Un-controlled cell division.
 * Abyss -> Hell/bottomless pit.
+* Quench -> Satisfy/extinguish/quenched.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a6e16cff-5838-475c-9352-117ae8c463d3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16025c72-4001-4b84-a688-1d94362f1aea)
 
+* Question.
+* Option B.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aab0b075-0a7f-4f48-a97a-0140474c14a4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce46cd90-b3cd-4a24-bf5c-540a3747ea01)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba5031de-37a2-4217-9f3f-4dda35a1e48c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f4723be9-68f1-48e8-b5e0-20873327cd6a)
 
+* Done earlier.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7749ba46-6056-44ab-86ab-2137bc4bc679)
+
+* Done earlier.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0eb54a65-c2e4-4a27-b346-87bf678f5652)
+
+* Question.
+* Option D.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f39f5ac-54c2-4510-90ef-8615c8094217)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb6c665c-3881-4d14-90cc-e087301232c9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97797b33-5511-4f47-a2f9-27834bde7169)
+
+* Question [**IMPORTANT**]
+* Option D.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3ce8959-3e54-4ab2-ae42-3777560d361c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a3a246c-0797-48c5-b585-422eb58a7317)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2e715e44-6e2d-47ef-a5fe-4272da5f69d6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa0d585c-b95a-45e2-ba8f-c0b19d904aed)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1d16077-f312-47e7-9f4a-30c695a5cea2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2fa73cf2-3186-414f-b446-d2df574eccae)
+
+* Question
+* Option D.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf25560f-b49d-45a3-aa8e-c1f3f7a9802c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b4c7e62-28b2-4cfe-ac55-f3ba303029ac)
+
+* Question.
+* Option B.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/68ddea3c-616b-4d7a-a74b-f9c6e5b1e674)
+
+* Adverse -> Can never be used for human beings -> Harsh climatic condition/Adverse weather. 
+* Averse -> Hatred -> Usually followed by **to** which is a **preposition** -> Hatred to something.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/67071107-ef70-4c58-9a65-645103901657)
+
+* Poses
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cbd86cdf-3498-4c30-bd93-00f79acb211d)
+
+* Question.
+* Option B.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ff5ef1a-c544-4bb8-8dd5-38079499664a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d928af35-320e-48e4-8108-0ffc10363f04)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/148cd6ad-b062-4257-882b-2868e7c53a6a)
+
+* Question.
+* Option B.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e290cc72-0576-49f0-893b-1b5dd561963c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/576deccf-2b1a-4c47-a8e7-ff4d961e45e4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63e90a21-eb13-4a01-b392-02ad3906b633)
+
+* Question.
+* Option D.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9cdbdbb4-28fd-4b7d-8830-2f02e257168f)
 
 
 
