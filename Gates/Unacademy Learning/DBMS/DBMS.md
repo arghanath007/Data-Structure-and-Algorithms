@@ -1867,17 +1867,60 @@
 
 1) select * from products where supplierid IN (1, 2, 3);
 2) select productname from products where price between 5 and 25;
+3) select supplierid from products where categoryid = 2;
+4) select * from products where supplierid =2 and price > 30;
+5) select * from products where price > 50 and supplierid != 6;
+6) select * from products where price < 30 and supplierid not in (2, 6);
+
+**OR**
+
+select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c5f94ca2-4444-472a-a2cd-3fe50089586b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/02028df2-30a9-4c90-8ad0-d81d8f74dbfb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0213b735-ce40-4a7d-b52e-73e8564e660c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2dae0f30-12b2-4c16-b57a-bc3ac49af27a)
 
-* 24mins.
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5785d4da-44dd-4884-9b41-9aefb44f3f13)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3955cb5f-b7fa-447b-b25a-082fc8bc2390)
 
+* Cartesian product.
 
+## Inner Join
 
+* We need **one** common column for **inner join** to work.
+* Inner Join -> It will give those records that are in the left table and are matching with the column records of the right table.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f6e05ed-78fc-4614-a464-298a78d41440)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/783f9aab-151a-4673-afa1-8aafbb8a5b4d)
 
+* select * from table 1 Inner Join table2 on table1.column = table2.column
+* select * from table1, table2 where table1.column = table2.column
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5543eee1-4f03-4459-a940-6164567e57b7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7cf8ea2-9e97-4686-ac29-13485dfb4b2b)
 
+* select * from student inner join library on student.rno = library.rno
+* SELECT * FROM products inner join suppliers on products.supplierid = suppliers.supplierid;
+* select * from products, suppliers where suppliers.supplierid = products.supplierid;
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eccc9e58-ce13-46cd-b656-d4b13e65671d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/78e9c1a1-cc8b-400b-b12c-8964557e95b6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/169486b3-9ca3-44b1-a1d1-9a0e71e8ecf4)
+
+* Cartesian Product -> Cross Product
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c6cd093e-5a00-4e47-9e43-e3985905b730)
+
+* select * from T1 inner join T2 on T1.A = T2.A
+
+## Left Join/ Left Outer Join
+
+* Left Join/ Left Outer Join -> Entire rows of left table adnd matching rows of right table.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/547ddfc3-bf20-44a9-8285-3605addbcce0)
+
+* select * from student left join library on student.rno = library.rno
 
 
 
