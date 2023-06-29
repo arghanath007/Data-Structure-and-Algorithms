@@ -2021,13 +2021,100 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 
 * Yes.
 
+## SQL part-IV (9) [29th June 2023]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0af94783-4409-48bb-ac7f-46f589b93a42)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76c59ce4-4b4c-481c-9b55-91d38b9ba4b7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a417778-44a7-4e9a-93b3-13d6efa90a35)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/339029e1-2f1c-4834-84f1-c3b05f7ccd57)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/715f2426-0e28-4449-942e-aa58a6917697)
 
+* Yes.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ba49c0d-113e-4953-9bde-1f58d9a3b2b4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e93a91f-7b5d-4297-9219-6c9aa752b566)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d274f37-9acd-40df-b0ce-405fb8a7a39d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2676943c-b345-43dc-a4e2-5defad2bb066)
 
+* select customername from customers inner join orders on customers.customerid = orders.customerid
 
+* select customername from customers, orders where customers.customerid = orders.customerid
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6469faf9-7f6d-4b44-b6f0-59525027fd98)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/da3a22eb-a612-4ab6-b2ef-b46bbdb19973)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/43f24558-1d97-47af-8405-3f1411cb36f7)
 
+* select distinct(customers.customerid), customername from customers, orders where customers.customerid = orders.customerid
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ffc3940-1eb9-4837-a448-50a8cbceaa8d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/982f51b2-cbd6-4c5b-9c02-227c8201b274)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a43d7f3-e0f2-4e57-b620-27542a2bd73f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cef2ffc8-6419-4077-b5c0-d2b2bbedf576)
+
+* select orderid from orders inner join employees on orders.employeeid = employees.employeeid where firstname= 'nancy'
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c82a3a23-ec42-42c5-93e5-4b42f6f6448f)
+
+* Join will be on the **filtered** data.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b2d4420-f6fa-414e-b522-3a593f5d780c)
+
+* Ordering.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d3e3147-9425-40bd-88f0-31ee7003e605)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/303499b2-7383-42eb-bdb8-31a38d615739)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0cbb3b5a-7c9e-46e8-9374-d66a663caf64)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d5b924ca-8472-4d14-b994-ee188bfb9404)
+
+* select dname from drivers inner join driver on drivers.did = drives.did; 
+* select distinct(dname) from drivers, driver where drivers.did = drives.did; 
+
+* We want those drivers, that are both in **drivers and drives** table. That's why we did **inner join**.
+* select drivers.did, dname from drivers, driver where drivers.did = drives.did; 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b76b8254-dd77-4380-99ed-4f2fd38bd0da)
+
+* Find name of all those students who have enrolled for atleast one course?
+* select student.sid, sname from student, enrolled where student.sid = enrolled.sid; 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe2561e5-c172-49bf-9bed-05dc3908199f)
+
+* Find name of all those students who have enrolled for course with id=5.
+* select distict student.sid, sname from student, enrolled where student.sid= enrolled.sid and courseid = 5;
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bae1c147-0dfe-48b2-9008-55d9170a1c56)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8bfdce2b-a9e1-406e-b5fd-41962e7579c1)
+
+* find name of all those students who have enrolled for atleast one course during 2022.
+* select distinct student.sid, sname from student, enrolled where student.sid = enrolled.sid and duration = 2022;
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19d8f11b-43e6-4f2f-ab31-49c76bec01ca)
+
+* Left Join
+* list out all student information and if they enrolled for any courses then those information also.
+* select * from student left join enrolled on student.sid = enrolled.sid;
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f2c0298f-2b44-4966-96be-8e2eb9fbef6e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb95c81e-cf64-45ed-8485-b2fec0e3b464)
+
+* find name of all students who have enrolled for course 'DBMS'.
+* select distinct student.sid, student.sname from student, course, enrolled where student.sid = enrolled.sid and course.courseid = enrolled.courseid and coursename = 'DBMS'; 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2688ae71-e46f-4fc5-a6db-8537b2861943)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86347681-4621-4b71-9d16-754c5eb6d3fd)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f4de693-ddab-436a-8277-2ad06d0efca0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e7040b31-908d-4918-ae93-798e3ae231fe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d92fdc00-72e6-4cac-b6a6-ff6d9e5d39d6)
+
+## Self Join
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0fb1506b-78e6-4e83-a087-8fbce02c9ae1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27ce8c66-af25-4a97-bbc7-251ffa7485bd)
+
+* Point.
 
 
 
