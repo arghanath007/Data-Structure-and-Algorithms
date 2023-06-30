@@ -506,11 +506,51 @@ The IP address is divided into two parts, **network ID part** and **Host ID part
 ## Direct Broadcasting
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/00850fe7-98a9-4a92-90d6-5cc702ae7475)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5f815388-8cfc-4a73-9480-8a7aa948e2b3)
 
+* Direct Broadcasting
+* 11111111 -> (2 ^ 8) -1 -> 255. 
+* For every network there will be a **different limited broadcast address(LBA)**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d390b12-4a7f-4df8-b8bd-2481d4c7fa89)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35153797-07da-4365-8f79-ecfeba7a6c76)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b49d01cd-c67d-4c61-99ad-81fac09e95a0)
 
+* **limited broadcast address(LBA)**  is **same** for all of the networks, which is all **1's** -> 255.255.255.255
+* Coming to **Directed broadcast address(DBA)**, it is going to vary from network to network.
+* **Directed Broadcast Address(DBA)** -> All 1's in the **Host ID part**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80473259-4161-499a-9b03-ca1e8bfcc136)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/45bc7f48-c4a6-4ae7-85b5-2385295386e8)
 
+* **limited broadcast address(LBA)** 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24387ca9-ba80-4b12-9ccd-53877335a85f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/926736c8-6d80-4944-b686-c9875b6e7a82)
+
+* Limited and Directed broadcasting **difference**.
+* In a network if a host wants to send a message to all other hosts, then it is called as **limited broadcast address(LBA)**. For these the **address** is going to be **all 1's** which is **255.255.255.255**.
+
+* If the broadcast is **limited** to a network then it is **limited broadcasting**.
+
+* In a network if there is a host and it wants to send a message to all other hosts in a **different network**, this is called as **Directed broadcasting**.
+
+* If the broadcast is **directed** to a network then it is **directed broadcasting**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ead97e27-7cf9-412d-a964-b699eee0008c)
+
+## Multicasting
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc88fd33-05d4-4b2a-8194-a2f9e77fd914)
+
+* Not All hosts but **some** hosts.
+* **Class D** is dedicated for **multicasting**.
+* There is no **network ID and host ID** id class **D**.
+* There is no networks in **Class D**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/52c1b4ac-9113-4fde-be7e-85e5ca7a589f)
+
+* All castings in a **table** format.
 
 
 
