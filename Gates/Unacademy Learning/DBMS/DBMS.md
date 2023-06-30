@@ -2331,6 +2331,68 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 
 * select customername from customers where country='USA'
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0cd92b00-60b9-49d7-98ac-b5f88cbce174)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6de69511-a602-4fd9-88fc-d0ee0ec63565)
+
+* If countryname was directly not given, and we had to find the country name and for that we had to write a query.
+* This is **subquery**.
+
+* Fetch the name of all customers which are from same country of customer name 'The Cracker Box'
+
+* select customername from customers where country = (select country from customers where customename = 'The Cracker Box')
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/204f6499-2338-4e3e-8e74-9452c5083aca)
+
+* Self Join.
+* Why not **self join** and why **subquery**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c6d32f7-7403-4954-ba3f-5032e64df8a1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/60f15616-c2a4-4aae-88e6-0d1cd5458066)
+
+* Find all such products which are having price less than price of product name 'Tofu'.
+* select * from products where price < (select price from products where productname = 'Tofu)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9f031ac-c6fd-49a1-b174-d9497725b3cd)
+
+* Multiple row subquery.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/55935455-4752-4901-9dcd-5c77c575613b)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ef9e163-4560-485c-95fa-942ddafed5ae)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/819c3158-2b02-4d54-8c32-8a732b32668d)
+
+* Highest product price -> max(price)
+* Find the product with second highest price.
+* select max(price) from product where price < (select max(price) from products)
+
+* (select max(price) from products) -> max(price)
+* select max(price) from product where price -> Except **max(price)** we will get the rest rows -> Out of those rows we will select the **max(price)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ff828d1-d78d-4b5b-811b-b58cb3c63f06)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/afd5963e-1ecf-44d0-b265-f5e4229be672)
+
+* Same Price products.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0dcf15d9-8a16-438d-8837-01e448246ba6)
+
+* Multiple ways possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/334d5d6e-254b-42f9-ba93-50199daef758)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0838a04-37aa-4007-a078-66516c0a00bd)
+
+* Find the product with third highest price.
+
+* select max(price) from product where price < (select max(price) from product where price < (select max(price) from products))
+
+
+
+
+
+
+
+
 
 
 
