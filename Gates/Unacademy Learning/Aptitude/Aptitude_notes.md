@@ -8078,6 +8078,221 @@ b5da-42ddc3936df0)
 
 * Largest -> 3 ^ (1/3) -> 3 ^ 4 -> 81
 
+## Doubt clearing session(41) [30th June 2023]
+
+## Linear Races
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/610d68c7-dc0c-49ba-bb8c-98cabd587b2e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f2742f3b-45ee-41e6-bad9-147406861fa0)
+
+* The time in which, **chetan(C)** finished the race, that is from **9 to 9:30** and in the **30mins**, **chetan(C)** finished the race.
+* Where was **Prabhas(P)**?
+* Where we come across **linear races** or talk about **linear races**, **time(T)** is **constant**.
+* **Time(T)** is **constant**
+
+* **Distance(D)** directly proportional to **speed(S)**.
+* Sc/Sp = Dc/Dp  [**IMPORTANT**]
+* Sc/Sp = Dc/Dp = 100/70 = 10/7 
+* Sc -> Speed of chetan
+* Sp -> Speed of Prabhas
+* Dc -> Distance travelled by Chetan.
+* Dp -> Distance travelled by prabhas.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/18eaa6f7-4a23-4643-b16a-84e584d118c6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bdd6363a-a28c-45a0-bc3c-6372daef38c8)
+
+* At the time **chetan** finished the race, where was **prabhas** at that time?
+* At the time when the first person finished the race, where was the second person?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/74d7a445-f3c2-4a75-a73c-f33340c3ac6e)
+
+* Now, **Chetan** is running **100m** and as **Prabhat** lost in the previous **100m** race by **30m**. This time, **Prabhat** gets a **30m** head start.
+
+* So **Prabhat** has to run **100 - 30 -> 70m** and **Chetan** is running **100m**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3237951-1240-439a-83ba-1533b67f695f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3d13004-d533-4c99-a7eb-9ed8ff5b023f)
+
+* In **linear races**, time is **constant** and **distance** is **directly** proportional to **speed**.
+
+* Dc/Dp = Sc/Sp
+* There are **two** ways of solving it:-
+
+1) Dc = (Sc/Sp) * Dp
+2) Dp= (Sp/Sc) * Dc
+
+* We know that **Sc/Sp = 10/7**, so **Sp/Sc = 7/10**.
+* DC  = 100m
+* Dp = 70m
+* So, it is **tie/draw**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5609263-c464-4b63-adef-6cb1173ed8c7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2064c61e-510d-41cd-8819-c046fdb436d1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/54fa5228-89c0-4a6e-97f1-a34382942b5b)
+
+* Now, **Chetan** is running **100m** and as **Prabhat** tied in the previous **100m** race by running for **70m**. This time, **Prabhat** gets a **20m** head start.
+
+* So **Prabhat** has to run **100 - 20 -> 80m** and **Chetan** is running **100m**.
+* Finally **chetan** won.
+
+* Dc/Dp = Sc/Sp
+
+1) Dc = (Sc/Sp) * Dp
+2) Dp= (Sp/Sc) * Dc
+
+* We know that **Sc/Sp = 10/7**, so **Sp/Sc = 7/10**.
+* DC  = 114m
+* Dp = 70m
+* So, **Chetan** won finally.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b7c2a18-944b-4a15-b9e6-0a8cc05ddbbf)
+
+* Time(T) is constant in **linear races**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2cf214c5-7663-48c1-a00f-675b57426388)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/024ce5ee-5afd-4c0b-a5cf-f475f440aea6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9925fae2-615e-43ad-8e05-a68406333c40)
+
+* **Sahil(S) and Arjun(A)** are running a **100m** race.
+
+1) In the **first race**, **Sahil** won and **Arjun** was short by **10m**.
+2) In the **second race**, **Sahil** will start running from **point C** which is **10m** back from **point A**. **Arjun** will run from **point A** only.
+
+* So, **Sahil** is running **110m** and **Arjun** is running **100m**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/99599d3a-902e-4396-a10c-e7737545c85b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb67bafd-2d33-44d4-9b1d-0e964a8a177a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/251faa93-9b16-4039-8ebd-9b13118f8983)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d534610b-e390-45c1-9d59-8336e2b8381f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f510119-da88-42ef-8231-fd65bfd9dace)
+
+* Three people, **A, B and C** are running on an **x meter** track. 
+* **A** completed the track. So, **A** ran for **x meters**. 
+
+* **B** was short by **12 m** from **A**. So, **B** ran for **(x - 12)m**. 
+
+* **C** was short by **18m** from **A**. So, **C** ran for **(x - 18)m**.
+
+* Distance between **B and C** is **x-18 - (x - 12) -> x - 18 - x + 12 -> -18 + 12 -> -6 -> 6 m**. The distance is **6 m**. 
+* Sa/Da = Sb/Db = Sc/Dc
+* Sa/x = Sb/(x - 12) = Sc/(x - 18)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/08b40580-f863-4fe0-aef1-ca9325fdd942)
+
+* Find the distance? 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85e5bb67-6148-4b8b-a9fd-d3fa8c90c39d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f9ae3c78-9810-4800-8ccf-aeb5deffdede)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/770b88a8-dfb5-4821-925d-1c87c194c044)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/53defad8-1aa8-4911-bdd3-de7bdac7907d)
+
+* Distance of track  -> 48m.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d93bcdc6-e669-4d91-9841-57e9630e7a39)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/64f20685-ec03-48c0-97bc-f2e2ea6d324f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65ee8f8a-52bd-4b16-91a7-577f6cf4a151)
+
+1) **Himanshu(H)** completed the **x meters** and was returning back and met **Abhishek(A)** at **M** point. **Abhishek(A)** was short by **420m**
+2) **Himanshu(H)** reached point **N** when **Abhishek(A)** completed the race(x meter). **Himanshu(H)** was **924 m** away from the **finish line(x meter)**.
+
+1) Sh/Sa = Dh/Da = (x + 420)/(x - 420)
+2) Sh/Sa = Dh/Da = (x + 924)/ x
+
+> Distance of **Abhishek(A)**, which is **Da** is **x** since **Abhishek(A)** comleted the race by the time **Himanshu(H)** reached **924 m** away from the **finish line(x meter)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6036ce2-5ee2-4532-9067-4f7a8dc4affd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f955db1c-c4dd-45b9-8c7b-0f5ccf118fb8)
+
+* Ratio of **Speed of Himanshu** by **speed of Abhishek** -> Sh/Sa ->
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e4b9fc9-f302-4e59-8d88-8f7b88de6840)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9dabc346-9379-4972-a2a9-41b2a7183c7a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/13bca868-2c25-4954-baf1-91051a53b852)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab061096-7256-461b-b449-199a32fdbc8d)
+
+* Time constant [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2d8bad78-27f8-4318-b001-da1f442568ed)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c01aff8d-8aa4-45bf-a48e-a141f1d49e58)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8bd1bba9-be1f-4330-b33b-8c2c80cf3cbe)
+
+* Linear Races.
+
+> By the time **Himanshu(H)** goes from **M to N** and reached **N**, and during that time **Abhishek(A)** went from **M to Q** and reached **Q**.
+
+* Time is **constant**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce7d31b5-9cc1-407e-87cf-429b82b9f311)
+
+* **Linear Races**.
+
+* D = S * T
+* Time is **constant**.
+* **Distance** is **directly proportional** to **Time**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f5df153-2ef4-455b-b420-4d32759d52e0)
+
+* Circumference of circle -> 2 * (pie) * r.
+* Circumference of semi-circle -> (1/2) * (2 * (pie) * r) -> (pie) * r .
+* Circumference of quarter-circle -> ((pie) * r)/2.
+* radius(r) of circle.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/73bed33c-f5ab-425b-8f2a-3ea51021d43b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1eecad65-b4d0-42cc-b189-7e06d3ad5235)
+
+* Geometric Progression
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec7bef26-a044-4a8e-92aa-0b121164866e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c1fd77d-bb57-4efb-81b3-791b0b3f12c4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d096152-dddf-4765-a0df-eea917a2b19b)
+
+* Ratio of **second/first round(t2/t1)**.
+* D = S * T
+
+* If **Distance(D)** is **constant** then if **speed(S)** is **decreasing/decreases** then **Time(T)** has to **increase**.
+
+* If **Distance(D)** is **constant** then if **speed(S)** is **increasing/increases** then **Time(T)** has to **decrease**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/90cfbd19-c7bf-41d1-a7b5-9526010028ce)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/508269e6-2d55-49b5-806d-581e3cc2d6b5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c5d6ce0-0aec-43f0-8060-35836aa222ee)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b774a17-9a9a-4db4-94ea-27560db63a3f)
+
+* We are taking **n =2**, to solve the question. We cannot take **n = 1** as we have to let the person run.
+* Tn / t(n-1)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50e3035c-116a-4f03-a772-84b533a0865f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9f9618fd-7a58-40a6-be57-073b99889c12)
+
+* Taking **LCM** of the **powers** and then multiplying the powers with the **LCM**, to remove the **fractional powers**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/daa0d3f5-b4fd-45bf-86dd-bfe35596363b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/54dc8b8b-141e-4e20-81a3-65e0a4819d21)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e96d3ad-b0c1-4af2-a307-ce3de91400f5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6e633a9-e520-4962-958f-27820224d74c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/82770980-1d01-44fc-a08f-2f5936dd8707)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc812a65-c2af-44e7-932a-3846e0a7f6da)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dea07040-029c-4827-ab54-11370a16eab1)
+
+* Using **log**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85516283-76cf-4bd4-889f-bdcaa13f89e8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd7f5ae8-5bf4-4485-aef1-ff158c938799)
+
+* Solved using **powers**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d7eb65dc-2cf4-4d20-b072-eea712888078)
+
+* Answer.
+
+
+
+
+
+
+
+
+
 
 
 
