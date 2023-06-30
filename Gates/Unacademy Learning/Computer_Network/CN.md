@@ -247,6 +247,292 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f29a404c-c34e-4865-9521-08a48fd3a2f6)
 
+## Ip addressing and type of casting (2) [30th June 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b795879e-23a6-487f-9e7b-ce192945027b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d99b1f0-31b0-4d0a-9cb6-dea6a913a81c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6987096b-062e-4db7-b7df-8fc859116f7f)
+
+* Range of **Class C** -> 192 to 223.
+* We have **8 bits**, 3 bits are fixed, so **5 bits** are left.
+* 3 bits are fixed -> 110
+* 11000000 -> 2^7 + 2 ^6 -> 128 + 64 -> 192
+* 11011111 -> 2^7 + 2 ^6 + 2 ^ 4 + 2 ^ 3 + 2 ^ 2 + 2 ^ 1 + 2 ^ 0 -> 128 + 64 + 16 + 8 + 4 + 2 + 1 -> 192 + 31 -> 223.
+* 11011111 -> 2^7 + 2 ^6 + (2 ^ 5 - 1) -> 128 + 64 + 31 -> 192 + 31 -> 223.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f89b516-4fa0-4616-98c2-7bd22ca8f463)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2d71fc37-249d-4a68-84f6-8e771ab8a2e4)
+
+* Range of **Class D** -> 224 to 239.
+* We have **8 bits**, 4 bits are fixed, so **4 bits** are left.
+* 4 bits are fixed -> 1110
+* 11100000 -> 2^7 + 2 ^6 + 2^5  -> 128 + 64 + 32 -> 224
+* 11101111 -> 2^7 + 2 ^6 + 2 ^ 5 + (2 ^ 4 - 1) -> 128 + 64 + 32  15 -> 224 + 15 -> 239.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6137e39c-0706-459b-9450-a5b34e6439ce)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b680f02c-97a8-42b1-b71e-0b19016fd377)
+
+* Range of **Class E** -> 240 to 255.
+* We have **8 bits**, 4 bits are fixed, so **4 bits** are left.
+* 4 bits are fixed -> 1111
+* 11110000 -> 2^7 + 2 ^6 + 2^5 + 2 ^ 4  -> 128 + 64 + 32 + 16 -> 240
+* 11111111 -> (2 ^ 8) -1 -> 256 - 1 -> 255.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/78801bef-98b9-4884-92fc-f2b98de1ecd8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1eb93517-24c0-4e69-88e4-2d5486efea5f)
+
+* Range of **Class A** -> 0 to 127.
+* Range of **Class B** -> 128 to 191.
+* Range of **Class C** -> 192 to 223.
+* Range of **Class D** -> 224 to 239.
+* Range of **Class E** -> 240 to 255.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76f3f9a2-14a6-4280-9088-a0ae1701b9a9)
+
+* How many total no. of addresses present?
+
+> In class **A**, starting bit is **0** which is **fixed**, so 31 bits are remaining. With **31 bits**, no. of combination possible is **2 ^ 31** bits.
+
+* Class **A** has how many addresses?
+
+> **2 ^ 31** addresses.
+
+> In class **B**, starting bit is **10** which is **fixed**, so 30 bits are remaining. With **30 bits**, no. of combination possible is **2 ^ 30** bits.
+
+* Class **B** has how many addresses?
+
+> **2 ^ 30** addresses.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9e84018-9bc7-405c-9caa-6e93d14480dd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a6e8641-2b43-4253-afa5-544208690ce1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af9cbfbb-2451-4122-b0f9-6bff343808c6)
+
+> In class **C**, starting bit is **110** which is **fixed**, so 29 bits are remaining. With **29 bits**, no. of combination possible is **2 ^ 29** bits.
+
+* Class **C** has how many addresses?
+
+> **2 ^ 29** addresses.
+
+> In class **D**, starting bit is **1110** which is **fixed**, so 28 bits are remaining. With **28 bits**, no. of combination possible is **2 ^ 28** bits.
+
+* Class **D** has how many addresses?
+
+> **2 ^ 28** addresses.
+
+> In class **E**, starting bit is **1111** which is **fixed**, so 28 bits are remaining. With **28 bits**, no. of combination possible is **2 ^ 28** bits.
+
+* Class **E** has how many addresses?
+
+> **2 ^ 28** addresses.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d2efd7aa-d5da-4d22-b121-3a33becd7f2f)
+
+* Total no. of IP addresses we haveis **2 ^ 32**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa6191cc-fbf5-41db-a3eb-3e028dcaef97)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d958b11d-817c-448a-8f01-9098a6f0636e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f6ebf62-8fe5-4e7a-aef9-c3cba1978db3)
+
+* Class **A**.
+* How many networks possible in **class A**?
+
+> We have **7 combinations**, **1 bit** is fixed which is **0**. So we have **2 ^ 7 -> 128** networks.
+
+* 128 networks range -> 0 to 127.
+
+> We are not going to use **0 and 127**. So we are not using **two** networks. 
+
+> Remaining networks -> 128 - 2 -> 126.
+
+* Total networks in **Class A** -> 126.
+
+* What about the no. of **Hosts** per network?
+
+> We have **24 bits**, so no. of combination is **2 ^ 24**. We are going to discard **two** combinations which is **all zeroes(24 zeroes) and all ones(24 ones)**. 
+
+* Total Hosts per network -> (2 ^ 24) - 2  -> 16 Million(Approx).
+* True Range of **Class A** -> 1 to 126.
+* Who are going to use **Class A** networks -> Pentagon, NASA, Google.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/428e8ecd-802c-4218-8926-f555d1ea1e76)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3170c646-d907-402f-a7fc-4a9898b6c35d)
+
+* Class **B**.
+* How many networks possible in **class B**?
+
+> We have **16 bits**. **2 bits** is fixed which is **10**. We will have **14  combinations**.  So we have **2 ^ 14** networks.
+
+> It is not possible to have **all zeroes or all ones** cases here.
+
+* Total networks in **Class B** -> **2 ^ 14**. [**IMPORTANT**]
+
+* What about the no. of **Hosts** per network?
+
+> We have **16 bits**, so no. of combination is **2 ^ 16**. We are going to discard **two** combinations which is **all zeroes(16 zeroes) and all ones(16 ones)**. 
+
+* Total Hosts per network -> (2 ^ 16) - 2  -> 64K(64000).
+* Who are going to use **Class B** networks -> TCS, Infosys
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/646121b3-34b0-43b7-905b-21f25fe7839c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/04cc29d6-dc6e-47d8-9ad7-9979dd30b7b9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/206c0174-a10d-44bf-b7e6-2da3d281bd67)
+
+* In **class A**, the total no. of hosts possible is **(2 ^ 24) - 2**.
+
+* If the questions is,
+* What are the total no. of IP addresses present in a network? [**IMPORTANT**]
+
+> **2 ^ 24** [Answer]
+
+* There is a **difference**, total no. of IP address present is **2 ^ 24** but we will only be able to configure **(2 ^ 24) - 2** hosts, as **2** of them are going to go **waste**.
+
+* In **class B**, the total no. of hosts possible is **(2 ^ 16) - 2**.
+* What are the total no. of IP addresses present in a network?
+
+> **2 ^16** IP addresses. [Answer]
+
+* There is a **difference**, total no. of IP address present is **2 ^ 16** but we will only be able to configure **(2 ^ 16) - 2** hosts, as **2** of them are going to go **waste**.
+
+* Two nos, which are going to waste are **all zeroes and all ones**. Both for **Class A and B**.
+* **All zeroes** 
+* **All ones**
+* Network ID and broadcast address.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c4a8a78c-acca-4121-a62e-2db0397e87e4)
+
+* Class **C**.
+* How many networks possible in **class C**?
+
+> We have **24 bits**. **3 bits** is fixed which is **110**. We will have **21  combinations**.  So we have **2 ^ 21** networks.
+
+> It is not possible to have **all zeroes or all ones** here.
+
+* Total networks in **Class C** -> 2 ^ 21. [**IMPORTANT**]
+
+* What about the no. of **Hosts** per network?
+
+> We have **8 bits**, so no. of combination is **2 ^ 8**. We are going to discard **two** combinations which is **all zeroes(8 zeroes) and all ones(8 ones)**. 
+
+* Total Hosts per network -> (2 ^ 8) - 2  -> 254.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f353e9d-d75e-4cea-83ae-9f6dbff79c40)
+
+* Class **D and E** are not divided into **networks and hosts**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5066a552-9dd7-4ed8-9852-e5275c672d3a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd728f90-c1a5-4213-ba33-af37daeae33c)
+
+* Range of **classes**.
+* For Class **D and E**, there is no **network ID or host ID**. That's why they are **not defined** 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3bd30887-b6d3-400f-96a4-4d054d08dd0d)
+
+* Questions.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/416d80c2-46ca-4539-abf6-5a029a9414c2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34ed167d-b6b9-41aa-a499-7ccaceaa1195)
+
+## Casting
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/90c2b1b5-d07e-47b6-bd91-e94e7420bfa1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ca6db24b-0f3c-4c2c-b95c-904d062dbe99)
+
+* Unicasting.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f1ebb9f-22e1-437c-b46f-16eaf8d7e034)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/13e280b8-7ae3-43d2-ad1a-5cc63b56374d)
+
+* No.
+
+## Subnet and type of casting-II (3) [30th June 2023]
+
+## Casting
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb375d43-3c83-46ce-bd9e-0e0d059d132e)
+
+* Multicast not in **syllabus**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7408fbf5-b822-4bc0-91ba-9d9f972db594)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f26d2a1-262e-4707-979b-6cee0be0f7f5)
+
+* Unicasting.
+* SA -> Source Address -> 11.1.2.3
+* DA -> Destination Address -> 20.1.2.3
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c6356fd-46c7-4673-824e-bf7f5f4ea78b)
+
+* Yes.
+
+## Broadcasting
+
+> Sending one packet to all of the other hosts in the network is called as **limited broadcasting**.
+
+* Limited Broadcast Address(LBA) -> 255.255.255.255 -> All 1's.
+* DA -> Destination Address -> 255.255.255.255
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8a8ccfa-05df-498f-ac2d-2435db283c33)
+
+* 255.255.255.255 -> All 1's -> It is **Limited Broadcast Address(LBA)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27561a78-93e3-4cf0-8583-0f9a68992441)
+
+* It is called as **limited broadcast** because we are limiting it to a specific/particular network.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b2a8bcd-9821-4fdc-893a-5700a420d0c5)
+
+* Destination address has to be **All 1's** then it is called as **limited broadcasting address**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/29bbe14c-b875-4744-b111-6044b06f9084)
+
+* Limited broadcasting
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f9595e08-6c30-4793-81a3-e0e34b0a35ee)
+
+> The network is divided into two parts, **network ID part** and **Host ID part**. We put **0's** in the **Host ID part** and a **valid no** in the **network ID part**.
+
+* Then also it is called as **network ID** even though some part of it is **network**.
+
+The IP address is divided into two parts, **network ID part** and **Host ID part** but still we have **one more no**, called as **network ID**, which is nothing but **all zeroes(0)** in the **Host ID part**.
+
+* 20.0.0.0 -> It represents the **network ID** of the **network '20'**. All zeroes in the **host ID part**.
+
+* 128.1.0.0 -> It represents the **network ID** of the **network called '128.1.0.0'**. All zeroes in the **host ID part**.
+
+* **All 1's** represent -> **limited broadcasting address**
+* **All 0's in the host ID part** represents -> **Network ID** of a **network**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd4b3d54-e0d2-46ce-94d0-86689290bc14)
+
+## Direct Broadcasting
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/00850fe7-98a9-4a92-90d6-5cc702ae7475)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
