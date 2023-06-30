@@ -546,21 +546,152 @@ The IP address is divided into two parts, **network ID part** and **Host ID part
 * Not All hosts but **some** hosts.
 * **Class D** is dedicated for **multicasting**.
 * There is no **network ID and host ID** id class **D**.
-* There is no networks in **Class D**. 
+* There is no networks in **Class D**.
+* 224.0.0.0 to 239.255.255.255 -> All these addresses are reserved for **multi-casting**.
+* Total no. of IP addresses in **Class D** -> 2 ^ 28 [4 bits are fixed, 32 - 4 -> 28]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/720a9993-17e0-4604-9c03-a5f7e7dea590)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2acf7971-0754-4889-81b3-d7ed7acab446)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/927bc9b9-15c2-4442-a9a2-e166c6aa6d12)
+
+* Disadvantage of **Class D**:-
+
+* 2 ^ 28 networks present in **Class D** and all are used for **multi-casting** but the problem is in the **entire world**, **2 ^ 28 -> 256 Million**, we don't have **256 Million** groups. So **class D** is mostly **wasted**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6fec483c-fd8e-40ba-91c4-83836487e36b)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/52c1b4ac-9113-4fde-be7e-85e5ca7a589f)
 
 * All castings in a **table** format.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3323cd14-4b4d-4e01-8e86-3d5a72919aaa)
 
+* Question.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c13fc92f-a987-496b-a677-a76c726afc1a)
 
+* Sir why limited address is 255.255.255.255?
 
+> In **limited broadcast address** it is **all 1's** which is 255.255.255.255, and there is **no reason** behind it. Why they have chosen, we don't know. 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32602a31-f033-4df1-a4ee-4fd72b0d97ec)
 
+* If IP address is **1.2.3.4**, what is the **network ID** of the network in which the IP address is present?
 
+> It is **1.0.0.0**, it is because, **1.2.3.4** is a **Class A** network and network ID is **one** and Host ID is **2.3.4**. So, in the **host ID**, we are putting **zeroes**.
 
+* If IP address is **1.2.3.4**, what is the **limited broadcast address** of the network, **1.0.0.0**?
 
+> **255.255.255.255**.
+
+* Directed broadcast address?
+
+> We have to keep the **network ID** part **same** and in the **host ID** part we are going to put **all 1's*.
+
+* 1.255.255.255
+
+* IP address, **1.2.3.4** belongs to **class A**. **First no** denotes the **network ID** and **remaining nos**, denote the **host ID**.
+
+> In order to get the **network ID** of the address, we have to put **all zeroes** in the **host ID** part.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22f7f4c9-8b3b-4611-893a-386ec1637147)
+
+* As **10.12.20.60** belongs to **class A**, so the **first part** belongs to **network ID** and the **second part** belongs to **Host ID**.
+
+* For any **network**, **limited broadcast address** is the **same** only, all **1's**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f8388a06-6d2b-42fb-a4f6-ac44eb8689d8)
+
+* As **130.1.2.3** belongs to **class B**, so the **first two bytes** belong to **network ID** part and rest belong to **host ID** part.
+
+* Network ID -> 130.1.0.0
+* Host ID -> 2.3 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/90ba3d41-91a0-43c1-af7d-8124a26ff7a0)
+
+* As **200.1.10.100** belongs to **class C**, so the **first three bytes** belong to **network ID** part and rest belong to **host ID** part.
+
+* Network ID -> 200.1.10.0
+* Host ID -> 100
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72bb912b-78c0-4f49-bbc3-e9e96f482469)
+
+* As **250.0.1.2** belongs to **class E**, so the **whole part** of the address is **reserved**.
+
+* **Class E** is **reserved**, it is not used.
+* It is **reserved** for **military applications**.
+
+* **Network ID, Limited broadcast address and directed broadcast address** is not applicable for **Class E**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57fae935-de5a-4dee-a0cd-dd89deeb3a3e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bbc7cac5-5b87-43b2-9c36-eaca17642605)
+
+* **300.1.2.3** is **invalid** doesn't belong to any **class**. Max. no. we can have in **8 bits** is **255**. That's why **300** is not possible.
+* Nothing is **valid** for it.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/690f4320-6568-4487-827a-7474117ca697)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2104976f-6966-4c30-85da-4debb46bc95a)
+
+* Table is **reversed**.
+* Limited Broadcast and directed broadcast address are **reversed**. The columns are interchanged. Check the previous table for correct values.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/84a05dc6-d928-481e-86e5-65ca8c3f6979)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f40def62-ae1f-4418-a9a3-f1789aad1899)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7258342b-db9d-44dd-9b65-7d374052c8d8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f2db6529-1cb1-4198-8f5a-2a0d8b4ed803)
+
+* In IP address there is **two** parts, **network ID part and host ID part**.
+
+* If we have **valid no** in the **network ID part** and all **0's** in the **host ID part**  then it is called as the **network ID** of a **network**.  
+
+> For a **network** we are going to have a **network ID**.
+> The **network ID part** and the **network ID of a network** are **different** things.
+
+* If we have **valid no** in the **network ID part** and all **1's** in the **host ID part**  then it is called as the **Direct broadcast address(DBA)** of that particular **network**.  
+
+* If we have all **1's** in the **network ID part** and all **1's** in the **host ID part**  then it is called as the **limited broadcast address(LBA)** of that particular **network**. 
+
+* If we have **valid no** in the **network ID part** and **valid no** in the **host ID part**  then it is called as the **valid IP address** of a **host**.
+
+## Subnetting
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0adaf639-e606-41b3-950d-a2a40d76626d)
+
+* If we have a **Class A** network which has **16 Million** hosts.
+
+1) For a Network administrator, it is very difficult to manage **16 million** hosts.
+
+* Management is very difficult.
+
+2) Security.
+
+* For these **two** reasons, we want to **divide** the network, into **many different networks**.
+
+* Dividing a network into **many different networks** is called as **sub-netting**.
+
+* Advantages of **sub-netting**:-
+
+1) Management is easy
+2) More security.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd2389b4-d91f-45e9-aabe-df1cb5c05a0a)
+
+* Disadvantages of **sub-netting**:-
+
+1) Earlier there was **three** steps to reach the **process**. Now, with **sub-netting**, we require **four** steps which are:-
+
+A) Identify the Network
+B) Identify the Subnet
+C) Identify the Host
+D) Identify the process
+
+* Still it is not a very big **disadvantage**.
+* The benefits outweighs the **disadvantages**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3927073e-25b7-4f04-aea3-360b19f54306)
+
+* That's why we go for sub-netting.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0077b655-712c-4c91-bf37-8caa3f2a4cbb)
 
 
 
