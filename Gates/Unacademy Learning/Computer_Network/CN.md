@@ -692,10 +692,50 @@ D) Identify the process
 * That's why we go for sub-netting.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0077b655-712c-4c91-bf37-8caa3f2a4cbb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7dbbc5f9-f04b-4668-97b4-cf9459f2b4d8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e16bec93-c2a5-441d-add5-fb7d79c40506)
 
+> Total no. of IP addresses in **class A** is **2 ^ 31**. Class A is divided into **networks**, and in each network in **class A*, the no. of IP addresses are **2 ^ 24**.
 
+> Class A starts with **0**, so remaining bits is **31 bits**. The total no. of IP address present in **class A** is **2 ^ 31**. It is divided into **two** parts, **8 bits** of **network ID** and **24 bits** of **host ID**. Out of the **8 bits**, **7 bits** are available as **0** is fixed in **class A**.  
 
+> We are dividing the entire space of **2 ^ 31** IP addresses into **2 ^ 7** networks and the size of each network is **2 ^ 24**.
 
+> Even if we take **2 ^ 31**, which is the **total no. of IP addresses** and we divide by **2 ^ 7** networks.
+
+* **Size of each network** will be -> (2 ^ 31)/ (2 ^ 7) -> 2 ^ 24.  
+
+* How many networks are there?
+
+> **2 ^ 7**.
+
+* So, **class A** has **2 ^ 7** networks and size of each network is **2 ^ 24**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f1de5dc0-a27c-443a-a2fe-abaf8fd62737)
+
+* **Class B** has totally **2 ^ 30** addresses. These **2 ^ 30** is divided into many networks, and the size of **each network** is **2 ^ 16**.
+* Total no. of networks present in **class B** is **2 ^ 14**.
+* 2 ^ 30 -> (2 * 16) * (2 * 14)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6df4e652-0171-4234-995b-6136a7577853)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f1087a71-191d-4816-966a-7915c438a22d)
+
+* **Class C** has totally **2 ^ 29** addresses. These **2 ^ 29** is divided into many networks, and the size of **each network** is **2 ^ 8**.
+* Total no. of networks present in **class C** is **2 ^ 21**.
+* 2 ^ 29 -> (2 * 8) * (2 * 21)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/03f6024a-74a8-4767-a858-e08af766ea8a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/67cd9438-382f-4d87-90da-9273e0470007)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e180832d-e875-4b5e-a63f-2a301b3680ba)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/21d6518f-c199-47e4-b3e1-b1f404bcbe9c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0fca4131-192d-4e3b-a306-442d0e0765f5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3af56747-9bd3-46e2-b829-83016c5ca577)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f3d5f431-8f1b-4b9f-a07c-b51765f89e35)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ba4ac49-ea5d-4210-94fb-3ca33217cb29)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/39a92ee3-e527-49db-9048-a28b7410b381)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ea9dea5-3bf6-4aa5-a88a-d7025ef211dd)
+
+* Correct
 
 
 
