@@ -2386,10 +2386,16 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 
 * select max(price) from product where price < (select max(price) from product where price < (select max(price) from products))
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/04b5a652-9099-47ec-8b71-e0f8ab07645b)
 
+## Multiple Row Subquery
 
+* returns multiple rows of a column
+* Inner query returns multiple values. So, **equal to(=), greater than (>), etc** they don't work.
+* We have to use some **keywords** like **In, any, all, exist**.
 
-
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6dc58168-371b-4a7f-8a3a-387d97afa74c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e0d6c930-7d16-4487-8c8a-afe186633618)
 
 
 
