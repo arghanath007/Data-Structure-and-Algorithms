@@ -2152,52 +2152,184 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 
 * No.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0764acbe-3a98-45ca-a326-3a92205f694d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d78fed66-3c21-43bc-ad91-0196d904dfc9)
 
+* Matched with **NULL**. If **matched** with **NULL** then **return**, otherwise **no return**.
 
+## Relational db design functional dependency(10) [30th June 2023]
 
+## Group By clause
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/640a6a43-2847-4203-ae82-d6a26bc49f69)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ca60d2e-c297-42be-8c7e-4de608ddfaf5)
 
+* Used in collaboration with the select statement to arrange identical data into groups.
+* Select information in **groups**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/82372002-5352-4ff0-9c52-1ef84904e3fe)
 
+* It will give all **rows and columns**. All records of the **student** table will be given.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/04f1c611-6519-4034-8ef1-3906de4456ff)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8d95687-43cb-4b32-89c5-c7d3d350ee04)
 
+* Select * from demo group by name;
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5706804-3e1c-463d-9384-871cf68ed7f2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e9f5c7b-0076-4c86-bee6-a1ea9408408d)
 
+* For all of the **unique values** of **dob** column, we are creating **separate** groups for them.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cec7a11e-26e4-4168-8cb3-14cb90328bbc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3cff86ee-b790-45b6-8c31-109ba28362e7)
 
+* select * from customers group by country;
+* select country, count(customersID) from customers group by country;
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33f02425-de2e-4934-bed7-7b8cee2a1088)
 
+* Yes.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86315cdb-34b1-42a3-a3c7-33f97d02a0bf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d986bc2a-4c75-45f5-8b04-a0203ecce4e7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b4c26c7-5d3a-45ac-a7b7-7cc55cf57c25)
 
+* Yes.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2f91a29-09ee-442b-9197-137769d833c8)
 
+* 4 rows are selected.
+* select * from student group by Rno;
 
+> **5 rows(1,2,3,4,5)** will come.
 
+* select * from student group by name;
 
+> **3 rows(A, C, D)** will come.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/583a9a9a-ab0e-4789-bae6-33c26fd1cdaf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86a77073-a0a6-4e5b-add2-bb2c48035a4c)
 
+* Automatically **distinct**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e6dec18a-0a00-47e0-a800-0d361cf0964e)
 
+* Syntax.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a30d75f1-037c-4483-9766-3a1fd66da8d9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a140c79d-a4bf-4206-899f-e68560b98fe9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/48131301-1ddd-42c7-aa3e-1500930e85df)
 
+* select categoryid, sum(price) from products group by categoryid;
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76790cde-db3c-46af-a5ff-038a29e0ee0f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a32c5316-43c2-4742-9fe2-f2a1ea07092e)
 
+* The column on which group by is done, that must be included in select. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb98ed73-6594-4b51-9f7e-e347e07806c7)
 
+* Yes.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/edfe86a3-df35-4f37-8c56-095757a31f06)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4331270d-251c-4ef6-aea7-32d2762b00f1)
 
+* select categoryid, min(price) from products where price > 20 group by categoryid;
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0e65b7a-3e95-4b3f-9313-f8f8b4269758)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f65cf106-144c-4404-896d-df8c2c85657b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/300aec39-70e9-422f-bfa1-0df464f4ac96)
 
+* select categoryid, sum(price) from products where sum(price) > 200 group by categoryid; [**Wrong query**]
 
+* We are putting the condition after the **group by** clause but **where clause** runs before **group by** clause. We need a new clause here, which is **Having** clause.
 
+## Having clause
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65ddb9fd-f58f-4cda-9c9f-2dc7aaf4ba5e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/11394bbd-ab0c-4d47-84fb-6ca328058562)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/38ac4cfe-46a6-4466-8d06-777daeda4c6b)
 
+* select categoryid, sum(price) from products group by categoryid having sum(price) > 200. 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/45993b89-a7f1-4432-b91d-e9bd93cdf62b)
 
+* **Where clause** gives the **condition** in which the rows are **filtered**, and on those **filtered** rows which matches the **where** condition, on them the **group by** clause runs.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/73998ef5-f875-4b4c-92ab-4758d262c1fb)
 
+* Having clause **sequence**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69bda08b-622d-4d80-9a7d-63c7fa3f3f2e)
 
+* Where VS Having clause **difference**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d86f711-5d82-477f-bcb9-aa67d167da60)
+
+* Yes, **having** cannot be written alone without **group by** clause.
+
+## Order By
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f77d326-31c5-4f65-a958-e4d6778499aa)
+
+* select * from customers order by country;
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc77a500-e82b-41e0-aafc-83c1158f7654)
+
+* select * from customers order by country desc.
+* select * from customers order by country, postalcode desc.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab2140f7-c14c-4e2b-a630-debb27a231b6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/06d33b8c-2c03-45ca-acf2-b40b2370e5fe)
+
+* Default ordering is **ascending** order.
+* Order by doesn't make any changes to the table.
+* Ordering the fetched data.
+* Order by runs after **select** clause.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d9dfa3c-5bdd-45ac-b54a-f16e36648c11)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c1b8faf-a7c5-4bb0-a578-e85dd476fef1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9a6fd757-a7e7-405e-bd7d-fa75f32b3e2a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0dbef429-e4a4-41c2-ba30-b805ba3cc637)
+
+* If two **country** names are **same/equal** then those rows are **sorted** using **postal code**, otherwise we are doing the sorting with **country** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c55d2fd1-ed13-49a6-8e54-9b01b6dbbfc9)
+
+* select categoryid, sum(price) from products group by categoryid having sum(price) > 200 order by sum(price) desc
+* select categoryid, sum(price) from products group by categoryid having sum(price) > 200 order by sum(price)
+
+## Subquery
+
+* Query in a Query
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/84a62c27-64f0-42d3-8981-44ba8443e004)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/55585763-4005-4674-ac11-11e48780e258)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/293da9a3-b941-4daa-8b44-ce33a5468e46)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d5a3bee4-6a4f-45d8-99dc-a3180442a7b6)
+
+* Subqueries can be within **select, where and from**.
+
+1) Single row subquery -> returns single row of one column(One value)
+2) Multiple row subquery -> returns multiple rows of a column(Multiple values)
+3) Corelated subquery
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7beb0fca-119a-447d-bb09-733f1e116400)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/665ce8cb-9154-44ae-858e-3ac4f4b3d3e0)
+
+## Single row subquery
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f8cfe20a-3093-4a54-8fb1-27d61f41a653)
+
+* .......... where (Inner query)
+
+1) Run Inner Query -> Return it's result
+2) Run outer query using result
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8e64619-135a-4fa1-8d76-f204be799fe5)
+
+* select customername from customers where country='USA'
 
 
 
