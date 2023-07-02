@@ -737,16 +737,154 @@ D) Identify the process
 
 * Correct
 
+## Subnetting problem solving (4) [2nd July 2023]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9957d13a-6020-4218-87ad-64510327187c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1022a82d-108d-4ec0-8d3f-8990a645e2a9)
 
+* How many IP addresses are present in a network of type Class B?
 
+> **2 ^ 16** is the answer and not **2 ^ 30**.
 
+* How many IP addresses are possible in class C?
 
+> **2 ^ 29**.
 
+* How many IP addresses are possible in one network of class C?
 
+> **2 ^ 8**.
 
+* **Class D** is used for **multi-casting**.
+* **Class E** is **reserved** for some organization(military).
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6591dec3-77ad-4894-bb6f-4b67b2584f75)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2311811b-19a3-4338-9da5-ebfb81ab712f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d20de73c-bb06-4637-9327-6d910a98e39c)
 
+* 200.1.2.0 -> Class C.
+* We are writing the host ID in **binary**.
+* We are choosing the first bit from host ID.
+* In **subnetting** we always borrow bits from **host ID part**.
+* Whenever we get a network we are not supposed to play with the **network ID**. We can play with **host ID** as much as we can.
+
+* For the **one bit** we have taken from host ID, it can be either **1 or 0**.
+* We are diving the address into **0 and 1** part.
+* 200.1.2.0 and 200.1.2.1
+* So in the **200.1.2.0** we got the range from **200.1.2.0 to 200.1.2.127**, which is from **0 to 127**.
+* So in the **200.1.2.1**, we got the range from **200.1.2.128 to 200.1.2.255** which is from **128 to 255**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c28412c2-759c-4949-9a87-c24790207449)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0cf69c0b-1b4a-402e-b2e5-e0c7f604a60a)
+
+* We had IP addresses from **0 to 255** and we are dividing it into **two** ranges, which are from **0 to 127** and the other is from **128 to 255**.
+* First IP address is equal to network ID(NID).
+* Last IP address is equal to Directed broadcast address(DBA)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b018d33-5c05-431e-8c5b-22c8c48025ab)
+
+* Before **subnetting**, in the actual network, what is the network ID?
+
+> NID -> **200.1.2.0**
+> DBA -> **200.1.2.255**.
+
+* After **subnetting**, in the actual network, what is the network ID?
+
+> NID of **200.1.2.0** which is **0 to 127** -> **200.1.2.0**
+> DBA of **200.1.2.0** which is **0 to 127**  -> **200.1.2.127**.
+
+> NID of **200.1.2.128** which is **128 to 255** -> **200.1.2.128**
+> DBA of **200.1.2.128** which is **128 to 255** -> **200.1.2.255**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f1f5440-285c-4fc9-aa4d-74a99a804a79)
+
+* Disadvantages:-
+
+1) Now, **4** IP addresses are lost(NID, DBA), instead of **2**. In **subnetting**, more IP addresses are wasted.
+
+> In the **original network before subnetting**, which was from **0 to 255**, only **2** IP addresses are wasted which are **NID, DBA**. So the IP addresses we are left with are **256 - 2 = 254**.
+
+> In the **original network after subnetting**, which was from **0 to 255** and it was divided into **two** parts. So, **4** IP addresses are wasted which are **2 of NID and 2 of DBA**. So the IP addresses we are left with are **256 - 4 = 252**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2bd5661d-fbbd-4499-a8a4-73beddce4736)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db2760f1-994f-4733-9473-d5577f9e3db8)
+
+* If we **divide** the network into **4 parts**, then for **every network part**, we have to provide **one NID and one DBA**. So for **4 network parts**, we will have **2 * 4 -> 8** IP address being wasted.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ab264df-edae-4062-9318-63575e77a255)
+
+* If we **divide** the network into **8 parts**, then for **every network part**, we have to provide **one NID and one DBA**. So for **8 network parts**, we will have **2 * 8 -> 16** IP address being wasted.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8277104f-21d1-4cf8-90c5-ab8faa8459bd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb2e8dc2-672b-4840-9cad-e144f08184c8)
+
+* How it is possible or how the things work?
+
+> We can see that, **DBA** of the whole network is **200.1.2.255** and for one of the **subnets** within the **same network** has **DBA** of **200.1.2.255**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8dc6410-c048-4c4c-a4da-084850df5686)
+
+* Depens on perspective.
+* The roouters are connected through **links or interfaces**.
+* From the outside the packet is coming inside and we are standing outsie of the network.
+* The router can see that the packet came from **outside** and it has the address of **200.1.2.255**, as it has come from outside(outsiders don't know we have subnetting inside), so the packet will be sent to the **DBA of the whole network** which means **all hosts** within the network will receive the packet.
+* The router can see that the packet came from **inside** and it has the address of **200.1.2.255**, as it has come from **inside**(insiders know we have subnetting inside), so the packet will be sent to the **DBA of the other subnet** which means **all hosts** within that **subnet** will receive the packet. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98bbea4c-2768-43f8-a4a6-abb10b19d098)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ea62b92-4d6f-4a5b-96f7-dabf041237c9)
+
+* **Security** is being provided by the **code** inside the router.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe8a1984-4b85-4d41-afc6-7afd7c97cda9)
+
+* Subnetting.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/274c67a4-c4a0-4d8d-ba76-961c4d055543)
+
+* Limited Broadcast Address -> 255.255.255.255
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a27b76f8-a99f-495d-9c5a-9af355a329ae)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd53c943-505e-4d3d-a0ca-1b2eca16bfbc)
+
+* For any network, **LBA** is the **same** which is **255.255.255.255**.
+
+* We are taking **2 bits** and with **2bits** we can have **4 combination**.
+* As we have **4 combination**, so we are dividing the network into **4 parts**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2628150c-e197-4793-a00a-ad939fb0aaea)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/680ba2d5-8615-4aec-9b93-b8dcdf22d4bf)
+
+* For **00** combination we got **200.1.2.0 to 200.1.2.63** which is from **0 to 63**.
+* For **01** combination we got **200.1.2.64 to 200.1.2.127** which is from **64 to 127**.
+* For **10** combination we got **200.1.2.128 to 200.1.2.191** which is from **128 to 191**.
+* For **11** combination we got **200.1.2.192 to 200.1.2.255** which is from **192 to 255**.
+
+* Never ever touch the **network ID** part.
+* If we want to make any **subnetting**, we have to play with **host ID** part.
+* **Subnetting** is the process of borrowing bits from host ID part.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7fa0e1d-e931-47c0-b562-60875b630ebb)
+
+* If we have nos from **0 to 255**.
+* How many total nos are there?
+
+> **256** total nos are there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09e05746-3645-410c-a458-d8f90e9adab8)
+
+* We have **divided** the **256 nos** into **4 parts**. First **64**, then **next 64**, then **next 64** and so on.
+* We have a **class C** network and we are dividing the network into **8 parts**.
+* The nos are from **0 to 255** which is **256** and we are dividing by **8** as we are making **8 parts**. Som, **256/8 -> 32**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5e97c39-010b-4d5a-b655-7ffd66e965f6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71165915-7cae-4c31-ba7a-216d0435ea27)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/593d30ba-a7fd-4945-ae1b-55be0e9c5b6b)
+
+* We keep adding **31** everytime.
+* 0 to 31 -> 32 to (31 + 32) = 32 to 63 -> 64 to (64 + 31) = 64 to 95 ....... so no.
+* 260.1.2 -> Network ID
+* 3 bits -> Subnet ID
+* 2 ^ 3 -> 8
+* 2 ^ 5 -> 32 -> Host ID.
 
 
 
