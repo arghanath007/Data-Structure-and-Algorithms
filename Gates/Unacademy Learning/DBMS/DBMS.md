@@ -2461,6 +2461,110 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 * **Query optimization**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8fc71b58-38a6-476c-85fb-952ba12b56a4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3fca109b-2439-4746-b748-ad75d4993623)
+
+* **IN** operator can only has **Equal to** comparision.
+* If we have to **lesser than, greater than** then **IN** operator will not work.
+* We have to use **Any/All** operator.
+
+## Any Operator.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/74f794c2-24fd-4e43-b58f-58b42f04678b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/53d83a83-e8ff-48ef-907e-949a78b1a77d)
+
+* Operators used with **ANY** keyword -> =, <>, !=, >=, >, <, <=.
+* Any means **anyone**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e112d68f-355d-4c75-b49a-abc03343481e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7cf7b058-32a1-4af7-925c-9e38aef97131)
+
+* Greater than **any** of those values in the **brackets**.
+* **= any** will work **same** as **IN** keyword.
+* If condition is **True** for one value also then result is **True**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d5a25e3e-67fb-4ab6-982a-7a79fed1c575)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/451d4b40-8ff9-4254-9107-c0baf352f898)
+
+* Find the productname of all those products which have their orders quantity larger than 50.
+* select productname from products where productid = any (select productid from orderdetails where quantity > 50)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aefe5971-9c79-437f-9594-72f84a7eea45)
+
+* Find the productname of all those products which have their productIDs less than any of the product having orders quantity equal to 1
+* select productname from products where productid < any (select productid from orderdetails where quantity = 1) 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19526bcf-3bd1-402f-9398-f22e4b56924e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/625294fd-e811-4e91-a48b-a727bf396fa3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c60e070e-8bb5-4468-9732-84bc8fd3a809)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b65f4626-7dc2-4dcf-b1e0-e997e9b0c9ae)
+
+* Another way of writing the query.
+* select productname from products where productid < (select max(productid) from orderdetails where quantity = 1)
+* We will directly get **one value** which is the **max(productid)** and we don't have to use the **any** keyword here.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf9b2b2b-7a56-455b-a197-ae5d8be81b1b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/921e3549-6a97-4d07-b122-0b874ee3b10e)
+
+* If it was **> any**, then we ould have used the **min()**, **min(productid)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/73b97dc3-ac77-40a5-a342-afd2fc6a5484)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a5b5116-dd42-4d7d-9d60-d25bab0b0ffb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7db5cbbd-75b4-43a3-9194-4b71d4d982af)
+
+## All subquery
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c05f6436-72e9-400c-9a3e-277830e5c657)
+
+* Start from 58mins
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
