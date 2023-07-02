@@ -2397,20 +2397,70 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6dc58168-371b-4a7f-8a3a-387d97afa74c)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e0d6c930-7d16-4487-8c8a-afe186633618)
 
+## Multiple row subquery
 
+* We have to use **keywords** here.
+* **=, <, >** don't work in **Multiple row subquery**.
 
+### Keywords
 
+1) In
+2) Any
+3) All
+4) Exist
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2fc31231-520c-4aa0-8743-3a50833bd3d4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf1470d7-3b73-41c0-9cbe-186ee5ca5c8b)
 
+* Find all customers that are from the same countries as the suppliers.
 
+* select * from customers where country IN (select distinct country from supplier)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a7ef7f2-33af-40c6-836a-a68667cc6dab)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a0a9bebf-fcdd-4ff4-a48f-a4e82969305d)
 
+* **=** is for comparision of **one value** but here we have **multiple copuntry names**.
+* So, **=** will not work.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c344903a-3f43-4168-a6b6-202dd605cc1a)
 
+* Will talk about it later.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ff15c09-f567-4e7d-b4cf-4b8f9aeb4b78)
 
+* As we are getting **multiple rows** as a **result set** from the **innere query**, we cannot use **=, <,>**, we have to use the **IN** keyword.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa1d90d3-2f7c-482b-bc14-676a32ea7adb)
 
+* In -> multiple OR.
+* Find all customers, that are from those countries where there is not any suppliers
+* select * from customers where country NOT IN (select country from suppliers) 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf162619-a48b-4c0f-8344-9c08beadb9cd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c549fc44-6887-4d06-9dd4-dd2a49c84ce5)
+
+* Find all customers, who have placed more than 2 orders.
+* (select customereid from orders 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c38d8443-7c56-4518-8732-b8876d630714)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc9be321-a568-445d-8c16-40c45c3c20e4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a0dabff2-d187-486f-94ea-1665eb1a9350)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc148722-a263-48e3-a7ed-073cadabf12f)
+
+* select * from customers where customerid IN (select customerid from orders group by customerid having count(customerid) > 2)
+* select * from customers where customerid IN (select customerid from orders group by customerid having count(orderid) > 2)
+
+* We can do this subquery using **inner join** as well but **inner join or joins** in general they are quite **costly operations**. That's why using **subquery** is better.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/041b508c-a0e5-4ef8-9299-52d04a4ed308)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/faf9c7c2-ca6b-4b5e-9b78-5b8d4e6d5b69)
+
+* Yes.
+* It is not always that **subqueries** are **always better** but in the above example, **yes** subquery was better there than **join**.
+* Subquery can be better sometimes.
+* **Query optimization**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8fc71b58-38a6-476c-85fb-952ba12b56a4)
 
 
 
