@@ -885,15 +885,164 @@ D) Identify the process
 * 3 bits -> Subnet ID
 * 2 ^ 3 -> 8
 * 2 ^ 5 -> 32 -> Host ID.
+* In the range, **0 to 31**, **0** is the **network ID** and **31** is the **DBA**.
+* This is same for all of then **ranges**, first is the **network ID** and the second is the **DBA**.
+
+## Subnet subnet mask and routing(5) [2nd July 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e5b4584-c318-46a4-aa19-8a6379a3d866)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30ecfbcd-87e2-4133-a5b1-baeb683ce39b)
+
+* **0, 64, 128, 192** are the **network ID**.
+* **63, 127, 191, 255** are **DBA**.
+* This is same for all of then **ranges**, first is the **network ID** and the second is the **DBA**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a06a8c0-5020-4f4b-97dc-7988fdb76df5)
+
+* The external router is sending a packet with address of *200.1.2.20**. As **20** falls in the range of **0 to 63** so the packet is going to **a** interface.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/26f05d69-595f-437d-ad98-4f202b8a4d41)
+
+## Subnet Mask(SM)
+
+* It is a **32 bit** number.
+* It is going to contain **0's and 1's**.
+* The **no. of 1's** is nothing but **network ID part plus(+) subnet ID part**.
+* The **no. of 0's** is nothing but **Host ID part**.
+
+* IP address -> 200.1.2.0
+* It is from **class C**.
+* Bits there for network ID part -> 24 bits.
+* In order to divide the network into **4 subnets**, we require **2 bits -> 2 ^ 2= 4** for Subnet ID part.
+* Subnet ID part -> 2 bits.
+* Network ID part and Subnet ID part put together we have **24 + 2 -> 26 bits**.
+* In a **subnet mark**, **no. of 1's** is **network ID part plus(+) subnet ID part**.
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ab0c8db-258d-43de-aeaa-469fd76a9e12)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/543078c4-2da6-43bd-9587-ae0ab6c69227)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2059c14d-2f65-4192-b68e-69a55601e314)
+
+* This is the **subnet mark** for the above **subnetting**.
+* Subnet mark of the above **subnetting** is **255.255.255.192**.
+
+* We have an IP address, **200.1.2.130**, we want to find out what is the **network ID** of the network to which the IP address belongs?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d860492-819b-4934-a4f8-5d0b644d0af9)
+
+> Convert the IP address into **binary format** and then do **bitwise AND**. After doing **bitwise AND**, convert into **decimal** numbers.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9f228ed1-20c0-49b3-bd67-72a82300ffba)
+
+* Bitwise AND.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/28ca0558-f8bb-43f6-b965-590a0d177958)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/338c4428-252f-444f-a0de-3303f7f3dcb5)
+
+* If we have to send a packet to address **100.1.2.130**, we found out that it belongs to **interface 'c'** and in the range of **128 to 191**. 
+
+* If we have any number and we do **bitwise ADD** with **255**, then we will get the **same number** back.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/56381393-aa20-4580-9d2c-c7e4648f17fd)
+
+* The **subnet mask** we are using is **255.255.255.192**.
+* We have an IP address, **200.1.2.20**, we want to find out what is the **network ID** of the network to which the IP address belongs?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ac922b1-0a1b-420b-ac46-6f5eae2d47ec)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/28d1d249-97cb-446a-8e9a-6894bbaaee0d)
+
+* It means that the IP address **200.1.2.20**, belongs to the **200.1.2.0** network.
+* We have an IP address, **200.1.2.68**, we want to find out what is the **network ID** of the network to which the IP address belongs?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f5aa958-02f3-465e-ab12-40f5ba888235)
+
+* The IP address,**200.1.2.68** belongs to the **200.1.2.64** network.
+* In the **subnet mask**, what is the no. of 0's present?
+
+> **6** 0's.
+
+* With **6 0's**, **2 ^ 6 -> 64** IP addresses are possible.
+* In each network, **64** IP addresses are present.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3b0aeae7-e20b-4a36-8710-f6c71c8baffb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/482b9e21-38f3-46d1-a6a7-cbf21e1806fb)
+
+* Why subnet mask is used?
+
+1)
 
 
+* Whenever size of all the **networks** is the **same**, then we have **same subnet mask**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/64747635-1d14-4f95-b1bd-da155384fe10)
 
+* This concept is called as **FLSM**, which is **Fixed Length Subnet masking**.
+* If the length of the subnet mask is the **same**, the **no. of 1's** in the subnet mask is **same**, we are going to call it as **Fixed Length Subnet masking**.
+* Every **subnet** is also a **network** by itself.
+* NID -> Network ID
+* SM -> Subnet Mask
+* Interface ->
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2cd69c0f-5fcf-45fd-9ea5-a8de72d62c8a)
 
+* Whenever the router(R1) get a packet like **below** then, the router is going to take the IP address 'X' and for every row it is going to take the subnet mask and it is going to do **bitwise ADD** between the **subnet mask(SM)** and the IP address 'X'. From the **bitwise ADD**, we are going to get the **network ID**.
 
+* If the **network ID** matches with the **network ID** in the **table**, then the **router** is going to send the **packet** into that **interface**. 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/99146fc9-83bc-4729-977b-7c1d7ca0b917)
 
+* Packet example, sent to router.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d44915c-1a75-4a15-91dc-2ed9039cabfc)
+
+* D -> DATA
+* SA -> Source Address
+* DA -> Destination Address.
+
+* If we get a packet with destination IP address as **200.1.2.200**.
+
+* **STEPS**:-
+
+1) It is going to do **bitwise ADD** between the **subnet mask** and the IP address which is **200.1.2.200**.
+2) We are going to get the **network ID**.
+3) Now comparing the **network ID** we got from the **bitwise ADD** with the **network ID** on the table and which ever **network ID** matches, the **packet** will be send to that **inferface**.
+
+* For **200.1.2.200**, we got **64** as the  **network ID** and so the packet was sent to **inferface 'b'**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4d04a3e-abf5-4a8c-899c-0ee91837a57b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b1ebd46c-2220-44f3-a5a8-c34e81f903be)
+
+* VLSM -> Variable Length subnet mask -> Will see later.
+* If we get a **packet** which doesn't match with any of the **networkd ID** then what should we do?
+
+> There is something called as **default entry**.
+
+* **Interface 'e'** says that if the packet is not for any of the networks then send the packet to the **outside(external router)** which is the **internet**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/02a9c78b-8df3-400a-98d6-7ba3d07ba637)
+
+* What is the order in which router should follow in order to check for the matching?
+
+> Generally, the router will choose the **first entry** then **second** then **third** and so on. Like this it will **check**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/181dec1b-22a4-48b9-8430-e5de85723003)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f51f3dd9-fee4-4cae-83d1-e1cc65b45bdd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/310e7512-a486-42c6-b95f-b046f221aaec)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35f5251e-6d86-40df-a4aa-e6e163a5615b)
+
+* Calculating the **subnet mask**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2179e27b-5c3c-4494-b3e7-19b3fa2b9237)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee7737c1-ebb5-4abb-a624-78a7afc57948)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34f00bd0-edfa-4bac-951a-cc205c6faf2e)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4bf5ff3e-d030-4dea-b38c-950989c47bd9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dad00e7d-3a82-466c-976b-b2b493ec405a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0567db1-27d3-4664-ab19-ea0d2bff6db0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63f6fcf9-6df7-4717-bba3-6f3a56d4a0f8)
+
+* According to the **subnet** mask, the machine **m** belongs to **100.10.5.0** network ID.
 
 
 
