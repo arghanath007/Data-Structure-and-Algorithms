@@ -2474,6 +2474,7 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 
 * Operators used with **ANY** keyword -> =, <>, !=, >=, >, <, <=.
 * Any means **anyone**.
+* Any -> **OR** operation.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e112d68f-355d-4c75-b49a-abc03343481e)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7cf7b058-32a1-4af7-925c-9e38aef97131)
@@ -2515,29 +2516,106 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c05f6436-72e9-400c-9a3e-277830e5c657)
 
-* Start from 58mins
+* Any -> Anyone one value.
+* All -> Comparing with everyone
+* All -> **AND** operation.
+* Operators used with **All** keyword -> =, <>, !=, >=, >, <, <=.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2afa32d7-f106-41bd-85d9-991f4547be0f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6e92ce53-d31d-42b3-9f08-167898edf549)
 
+* Find the productname of all those products which have their productsids less than all of the product have orders quantiy equal to 1.
+* select productname from products where productid < all (select productid from orderdetails where quantity = 1)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83089c3e-d23d-4329-a6b3-68a48059e1bb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/534f1c5b-0049-431a-9c59-778c81cf1928)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/59d066e8-6a9c-48f6-9681-9ff5cb50d964)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76c544ef-8475-4a32-86c0-136a1c655f3d)
 
+* **! All** -> Behaves like **Not In**.
 
+* Finds all employees whose salaries are greater than the salary of all the employees in the sales department with departmentID is 2.
+* select * from employee where salary > All (select salary from employee where departmentid = 2)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ab4fe48-69d8-4e2b-ae3a-5b65e8f882e8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e107ebcd-9f3c-40ab-9251-00b64d395ca2)
 
+* select * from employee where salary < any (select salary from employee where departmentid = 2)
+* select * from employee where salary < ANY (select salary from employee where department=2)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c00a955f-ab42-4fdd-bb83-387abe6e8e9e)
 
+## Exists subquery
 
+* Checking if the **result set** returned by the **inner query** is present or not.
+* If **Yes**, then we will get the result from the outer query.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f4a40ca8-d969-4524-bb07-884bde7cac6c)
 
+* select * from customers where customerID = 1 -> All details of customers where id is '1' -> Returns 1 tuple/row.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4555b19a-719f-4b30-b5fc-4dc75c0ab7a9)
 
+* We are checking if **result** coming from **inner query** or not.
+* **Existance** of output there in the **inner query**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dfe0f8b3-b1d4-4dbf-9fe7-84cb685bfa9e)
 
+* Yes.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c85fd42b-5ff7-4464-a3ac-35ee7d0c898f)
 
+* select * from orders where exists (select NULL)
+* (select NULL) -> It selects **NULL** as the **only one value**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d25d7efd-a74e-45c9-aaa4-04ef96684f27)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5381dbf-cc77-43dc-bccf-dff7426fa415)
 
+* In the **result set**, we are getting **NULL**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3548c0b-846d-4df6-b2fc-acd29ace65e3)
 
+## Co-related subquery
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/02103d69-08e6-405b-9daf-8009f230d4c6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3bdef26-fdda-4ae3-8e24-e63e0340a9ee)
+
+* For each row of outer query, either inner query runs again and again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f4d6211-97d4-4659-8a9d-8d0dd140726e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/183a6c4f-3575-49b7-b662-b4eef36aafda)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5acbed02-8030-411b-8cd5-4c58b74a8663)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/13adcd92-1116-4126-bca9-261216d48689)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e261b03-da56-4ae0-96a7-02a4ac59d917)
+
+* Yes, we are taking the **courseid** as well.
+* select Rno, name from student S where exist (select * from enrolled E where S.ro = E.rno);
+* With **corelated subqueries** we are doing a type of **inner join** in the above question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac2e11e9-1ff9-42fa-867c-9e67aad9b16e)
+
+* write a query to select all such customers record which have atleast one order placed. 
+* select * from customers C where exists (select * from order O where C.customerID = O.customerID)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50eae800-2be3-4e31-996c-d44129905c38)
+
+* select distinct C.* from customers C LEFT JOIN orders O ON C.customerID = O.customerID;
+* select distinct C.* from customers C, order O where O.customerID = C.customerID;
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed907a93-6830-452a-8ff9-32602f434e25)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/943533f9-182c-4717-accd-1320ba4cde13)
+
+* (customers.*) -> Prints the columns only from the **customer's table**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5900813d-78c0-4896-819b-78d2516715b2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36a19d5a-88f6-4493-9ab9-b8334c9d1442)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e832d52-047d-4b89-b99d-366894bb5644)
+
+* select distinct C.* from customers C, orders O  where O.customerID = C.customerID;
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b728555f-091e-4f9c-8da2-b0b3e9c3f578)
+
+* select distinct C.* from customers C LEFT JOIN orders O ON C.customerID = O.customerID;
 
 
 
