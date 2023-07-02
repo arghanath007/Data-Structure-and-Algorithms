@@ -1042,7 +1042,48 @@ D) Identify the process
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0567db1-27d3-4664-ab19-ea0d2bff6db0)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63f6fcf9-6df7-4717-bba3-6f3a56d4a0f8)
 
-* According to the **subnet** mask, the machine **m** belongs to **100.10.5.0** network ID.
+* According to the **subnet** mask, the machine **m** belongs to **100.10.5.0** network.
+* According to the **subnet** mask, the machine **n** belongs to **100.10.5.4** network.
+* According to the **subnet** mask, the machine **p** belongs to **100.10.5.4** network.
+
+* We can see that machine **n and p** belong to the **same network/subnet**.
+* Option **D** is **correct**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4967d3c6-0b2d-4ed6-a7ae-c1fd9d3f0ff6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30fb072a-aaeb-462a-a799-2ab80fd21e94)
+
+* Things provided by the **ISP**.
+* Sender -> Machine (N)
+* Receiver -> Machine(X)
+* IP address of Machine (N) -> IPn.
+* If the receiver **Machine(X)** is within the same network, then packet is directly sent to it.
+* If the receiver **Machine(X)** is on a **different** network, then packet is sent to the **router** and the router then sends the packet to **Machine(X)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/54651ae0-3472-447c-8a80-a948d17fb939)
+
+* In case **NIDn and NIDx** are **equal** what can we say?
+
+> It means that **both** the **hosts** are present in the **same network**, according to **machine(N)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/46cfac2a-34b0-4813-a962-3fafd2b3be75)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b9b405d0-c5e8-42ac-830f-a822f0f3a4cb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b6d2afd4-a311-47f2-8e9a-78b422fa2dae)
+
+* In case **NIDn and NIDx** are not **equal** what can we say?
+
+> Then the **machine(N)** is going to send the packet to the **router**.
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
