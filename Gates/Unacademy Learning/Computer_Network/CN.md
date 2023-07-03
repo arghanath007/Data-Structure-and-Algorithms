@@ -1251,13 +1251,49 @@ b75c-069f980307a2)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9a9004ff-5e37-4487-b11c-9874fe42673e)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97eebdad-f55f-48fb-9090-caf6f9cddbed)
 
+## Subnet masking ip address routing(7) [3rd July 2023]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c96740dc-ff36-446f-bad7-8c73ae4f3ef5)
 
+* Subnet Mask -> 255.0.0.0
+* The no. of 0's is -> 8 * 3 -> 24
+* No. of hosts possible is -> (2 ^ 24) - 2 
+* If the subnet mask is applied to a network of **class A** then we are literally not doing any subnetting because we didn't borrow any bits from the **host ID part**.
+* Subnets in Class A = 1 -> It means that no subnetting is done on the network.
+* **Subnet Mask -> 255.0.0.0** cannot be a subnet mask of class **B and C** because we need **16 1's for class B** and **24 1's for class C**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/247337f2-9875-4872-b11a-61401171b9f3)
 
+* For **224**, the binary form is **11100000**.
+* No. of hosts possible -> No. of 0's -> (2 ^ 5) - 2.
+* Even though IP addresses possible are -> 2 ^ 5.
+* If the subnet mask is applied to a **class A** network then,
+* No, of subnets -> 8 + 8 + 3 -> 19 -> 2 ^ 19
+* The first byte or 8 bits are taken in **class A**
 
+* If the subnet mask is applied to a **class B** network then,
+* No, of subnets -> 8 + 3 -> 11 -> 2 ^ 11
+* The first two bytes or 16 bits are taken in **class B**
 
+* If the subnet mask is applied to a **class C** network then,
+* No, of subnets -> 3 -> 3 -> 2 ^ 3
+* The first three bytes or 24 bits are taken in **class C**
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc8663f5-2ea5-4721-b876-21c7e9a3e209)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fdc09c5e-1996-4b60-aaa5-736c98729b03)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71d64b77-bbb8-455e-87c0-f8cb44b190d6)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fdee2fd8-c6f7-4034-968e-27534d5d01ef)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a205c461-8b9d-4e08-96f5-9de084a95c19)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea6cb5fc-ceff-4e70-81e8-55820a8ea03e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff899cc7-fedf-4271-9c2a-bf3591d7a03a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30f46999-049f-4a0f-8022-6ded263b5886)
+
+* Question
+* As subnet mask of **A** is **128**, so the network is divided into **2 parts**.
+* As subnet mask of **B** is **192**, so the network is divided into **4 parts**.
 
 
 
