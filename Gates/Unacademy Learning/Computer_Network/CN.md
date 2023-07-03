@@ -1,4 +1,4 @@
-# Computer Network
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/62e3bd2e-4498-4c70-8565-62c2f8fa0bc8)# Computer Network
 
 * Link -> https://unacademy.com/@ravula/courses?goal=NVLIA&type=plus
 
@@ -1294,8 +1294,114 @@ b75c-069f980307a2)
 * Question
 * As subnet mask of **A** is **128**, so the network is divided into **2 parts**.
 * As subnet mask of **B** is **192**, so the network is divided into **4 parts**.
+* According to **A**, both the hosts are in the **same network**.
+* According to **B**, both the hosts are in **different networks**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c223188-86ea-4f17-a3b2-d3771ead3fa4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/424006bf-5292-4791-835b-24b29e276d27)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee8473a6-e6b8-4a33-badb-e65bc4a0edb8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e7b5307-431b-449b-89a0-863976d831f6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bde28981-7f20-4b76-83bd-46847b4d39f6)
 
+## Variable Length Subnetting(VLSM)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/189b3121-d285-4062-b6f2-87678ef69e26)
+
+* Subnet masks -> 255.255.255.128 and  255.255.255.192
+* Size of all the subnets are **same**. All of the networks will have the **same** subnet mask.
+* This is called as **fixed length subnet masking**.
+* We use **fixed length** because for all the networks, the no. of 1's in the subnet mask, the length of the 1's is **same**.
+* If they ask, Length of subnet mask? It means how many 1's are there in the subnet mask?
+
+> Length of subnet mask for **255.255.255.128** network is **25** for both the **networks**.
+
+> Length of subnet mask for **255.255.255.192** network is **26** for all **4** networks.
+
+* As the **length of the subnet mask** is **fixed** for all of the **networks**,
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8fdf12ad-597e-4dc5-8ac0-61cafe40b603)
+
+* 3 companies are asking for **128, 64 and 64** no. of IP addresses respectively.
+* Into how many **subnets** we should divide the class into?
+
+> **Into 3 subnets**.
+
+* For **3 subnets**, how many **bits** we need?
+
+> We need **2 bits**, as **2 ^ 2 = 4**.
+
+> We have no way of getting **3**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1449a462-7574-473c-9764-7ef4e1f16b26)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d5071839-9da5-41b0-a12b-b512486e089c)
+
+* We are taking **1 bit** and dividing into **two** parts, one is starting with **0** and it ranges from **0 to 127** which is **128**. The address is **200.1.2.0**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/84814b3e-0bec-421c-a79d-9e778ed41734)
+
+* On the part starting with **1**, we are dividing the next bit into **two** parts, one part is starting with **10** and it ranges from **128 to 191**. The address is **200.1.2.128**. 
+
+* On the othaer part starting with **11** and it ranges from **192 to 255**. The address is **200.1.2.292**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b80c8414-a07a-4611-bfbd-8c2dd9b245fd)
+
+* Subnet mask of **A** -> 255.255.255.128 [ 1 bit we used, so 10000000, which is 128]
+* Length of subnet mask -> No. of 1's -> 8 * 3 + 1 -> 25.
+
+* Subnet mask of **B** -> 255.255.255.192 [ 2 bit we used, so 11000000, which is 192]
+* Length of subnet mask -> No. of 1's -> 8 * 3 + 2 -> 26.
+
+* Subnet mask of **C** -> 255.255.255.192 [ 2 bit we used, so 11000000, which is 192]
+* Length of subnet mask -> No. of 1's -> 8 * 3 + 2 -> 26.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb66ea90-dea6-4768-9009-27f6da36063a)
+
+* We can see that the **length of the subnet mask** is **variable**.
+* This is called as **VLSM** which is **variable length subnet mask**.
+
+* If length of **subnet mask increases** then, **network size decreases**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dde26fb4-ad51-4c94-b4d2-2b64b0528827)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ffb1cb9e-99ee-4384-9429-fcc436242ab2)
+
+* Subnet mask actually contains **1's**.
+
+> As the **length** of subnet mask **increases**, the no. of **1's** also **increases**. As the no. of **1's** are **increases**, so the **no. of 0's** are **decreasing**.
+
+* No. of 0's is nothing but no. of IP addresses in the subnet.
+
+> As the **no. of 0's** are **decreasing**, we can say that **size of network** is **decreasing**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cfa990cb-4dd9-4733-b5d6-604835bda872)
+
+* If the **subnet mark** of network **A** is **equal** to the **subnet mark** of network **B** then we can say that the **size** of the **networks** is the **same**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f3d677d-d729-4040-93d6-27a8dc065666)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1135765f-55aa-4231-b32d-75a03a952225)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f3fec42-c927-455e-9e3a-6df304a7ce60)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab955a72-48c3-42f3-84ef-c33a445f0412)
+
+* **0** is the **network ID** and **127** is the **DBA(Directed)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fdc102e5-2f19-47a7-91cc-8dbc3cfbdf3c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b02dc77b-4744-4174-a2c7-07fd0b177f7a)
+
+* Length of subnet mask -> NID to SID -> 24 + 2 -> 26.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c38affdd-066d-4ec9-ae3d-77cd4138a887)
+
+* As the **legnth of subnet mask** is **smaller** than **A and B**, that's why the **network 'C'** is **bigger**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/266c365d-c1ed-4b3d-8193-aa871a2ea5d0)
+
+* We have to do it in **both ways** to get the **correct** answer.
+* Taking **two bits** first or taking **1 bit** first.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/23a1b31e-0844-4960-a147-5115a3c3006d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f4a28133-1e8a-4d97-9a9d-743175e9464c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e886044-140c-40b4-ac25-6046236e3511)
+
+* 0-63,64-95,96-111,112-127,128-255
 
 
 
