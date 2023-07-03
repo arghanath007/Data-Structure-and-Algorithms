@@ -1073,14 +1073,31 @@ D) Identify the process
 
 > Then the **machine(N)** is going to send the packet to the **router**.
 
+## Lan technologies (6) [3rd July 2023]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4db5573a-8b11-4abd-a09f-bd0a101ed742)
 
+* Sometimes subnets are called as networks.
+* Sometimes subnet masks(sm) are called as network masks.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa79ce4c-6f95-48b9-b6b6-9b19c1c4bad1)
 
+* Subnet masking is very very helpful in case of a **router**.
+* We know a **router** requires a **subnet mask**.
+* Why does a **host** require a subnet mask?
 
+> IP address of **sender 'A'** is IPa and that of **receiver** is IPb. **A** will take it's IP address(IPa) and it's own subnet mask(SMa) and then it is going to compute what is the **network ID** in which **A** is present according to **A**.
 
+> If **A** has to send packet to **B**. It is going to take the IP address of **B**(IPb) and take the subnet mask of **A**(SMa). Machine **A** will not know the subnet mask of machine **B**. It is going to find out the **network ID** of **B** according to  host **A**.
 
+* If **NIDaa = NIDba** then both the machines **A and B** are in the **same network** according to machine **A**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f2242bf0-e399-4e62-8dfc-8f7a9939bfc0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be04b94c-ab20-4a06-8550-7acb1a600e6c)
+
+> It means machine **B** is present within the **same network** as **A**, so the message/packet can be sent **directly**.
+
+* If **NIDaa != NIDba** then both the machines **A and B** are present in **different networks** according to machine **A**. **A** is in one network and **B** is in some other network.
 
 
 
