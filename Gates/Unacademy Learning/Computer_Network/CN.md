@@ -1,4 +1,4 @@
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/62e3bd2e-4498-4c70-8565-62c2f8fa0bc8)# Computer Network
+# Computer Network
 
 * Link -> https://unacademy.com/@ravula/courses?goal=NVLIA&type=plus
 
@@ -1412,6 +1412,6 @@ b75c-069f980307a2)
 
 
 
-
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/62e3bd2e-4498-4c70-8565-62c2f8fa0bc8)
 
 
