@@ -2680,6 +2680,114 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a562f6c-b2ef-41d5-aa59-3982c8452e13)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1567e2b9-0866-4b27-a07d-4ebddbc35e05)
 
+* UNION -> Eliminates duplicates
+* Union All -> Duplicates are not eliminated. Shows all **tuples**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/51d952f2-c20e-44b6-98b5-1b7615c879e3)
+
+* Intersection -> Common
+* Intersect -> Gives common tuples.
+* Minus or Except -> It gives **set difference**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50d6205f-d7d7-45b3-8dd8-2d0146c03aa8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e09edda-4ef3-40a4-bd05-f9b2a33694ad)
+
+* select * from T1 except select * from T2 -> We will get those rows from T1 which are not in T2.
+* select * from T2 except select * from T1 -> We will get those rows from T2 which are not in T1.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed3120af-4396-4a07-9d6e-7a9463433201)
+
+* Find out those cities where we don't have customers but only suppliers.
+* select city from suppliers EXCEPT select city from customers.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0234fb2-778f-4fa0-afb2-9d5a5565c0cb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/74ac1073-ef67-479f-a8d2-f8345dc3d1d9)
+
+* No.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7bbc1e3e-0f95-478a-a11d-6bedefc212a9)
+
+* Create Table
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33066896-8463-46f1-87d6-20ea7a1dbb2a)
+
+* From another table.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/07aaa49b-e306-4f72-86bf-9d9d02451167)
+
+* Constraints
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d7245a9-2678-44c6-94e7-3e13d2fc3c70)
+
+* No value i. e NULL, it is fine
+* If it is **value** then it should be **unique**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b3c80c80-3c30-47b7-807b-f6cfb0d875be)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/847b80d3-4241-4b96-9e69-66683a5619fc)
+
+* Primary Key
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9ef641b-befa-4925-841a-0563857680f8)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3026a348-5c34-4911-90d4-3d9a8fb9734c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/04e7d9c7-2e1c-4a38-b219-c2cc0d9bd293)
+
+* Foreign Key
+
+### Doubts
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cbc8d888-f02d-4135-a16b-f22deef99b44)
+
+* Wrong question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b90013f3-9844-4efa-b1a4-f6f30003ad57)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/396e6b37-d314-4d9d-bfe3-e8ed718ca32c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb50e9b2-9500-4644-bf72-1bf35efeb014)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c1e8cad-06cd-49c0-a10f-438c7363053d)
+
+* Yes, with **IN** keyword.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4752d2c5-f9a1-4a09-99ff-cca8bf6d1692)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e2d3ab3d-eef2-47bc-9a9b-f0ef6a1824d9)
+
+* Correct.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76ebffe9-20a0-408d-80e7-79fbf25d94b1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b2c5f2c-0e58-48f2-9c89-6f8ed0bebcae)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a2929f6-c01a-4a45-982f-1cf01b112605)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
