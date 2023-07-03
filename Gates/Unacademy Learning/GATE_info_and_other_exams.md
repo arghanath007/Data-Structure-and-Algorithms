@@ -10,5 +10,33 @@
 2) DRDO
 3) IIIT Hyderabad
 4) ISI Kolkata
-5) 
+5) NIT
+6) IIIT
+7) BITs
+8) Private Universities
+9) RV clg of engineering
+10) Manipal
+11) Jadavpur
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c3a550b-705e-48dd-93d6-a05cf5ab061c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8544347e-e252-4b77-8f81-723e23a7ee01)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2cf3da62-ced6-407e-980f-3b6c625d856c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2574d12c-363a-4f34-b37f-00899cde1bbb)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
