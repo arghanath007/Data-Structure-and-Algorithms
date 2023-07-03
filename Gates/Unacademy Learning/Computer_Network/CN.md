@@ -1097,7 +1097,161 @@ D) Identify the process
 
 > It means machine **B** is present within the **same network** as **A**, so the message/packet can be sent **directly**.
 
-* If **NIDaa != NIDba** then both the machines **A and B** are present in **different networks** according to machine **A**. **A** is in one network and **B** is in some other network.
+* If **NIDaa != NIDba** then both the machines **A and B** are present in **different networks** according to machine **A**. **A** is in one network and **B** is in some other network. In that case, message/packet is sent to the **default gateway**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1049ef20-bccf-4ad1-85b8-7759096ab6bd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b056c57-422b-4e86-bdef-b94f2f82fe79)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/62564417-29ec-4d1d-9ee3-b758a2f8f368)
+
+> Every host is provided with a subnet mask, the host doesn't know anything about the network. The host will only believe what it's subnet mask says.
+
+> When the subnet mask was **255.255.255.128**, the network thought it was divided into **two** parts.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/146a9772-d7b9-44c6-b674-c8212d82eab3)
+
+> When the subnet mask was changed to **255.255.255.192**, the network thought it was divided into **four** parts.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b210e050-b644-4f04-8f13-9ed754bbbbbc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/74973fbd-5da6-4a01-bead-a113719d22d9)
+
+* When the destination IP address is **200.1.2.65** and the subnet mask is **255.255.255.128** which means the sender IP address, **200.1.2.35** and the destination IP address which is **200.1.2.64** within the **same network** as the network is divided into **two** parts.
+
+* When the destination IP address is **200.1.2.65** and the subnet mask is **255.255.255.192** which means the sender IP address, **200.1.2.35** and the destination IP address which is **200.1.2.64**. They are not within the **smae network**, so the **packet** from the sender IP address is send to the **router** and from there it goes to the **receiver's IP address**.
+
+* So, network mask or subnet mask is just an **illusion**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1f4617a-a475-4d82-97b7-75fde0bbba19)
+
+* subnet mask.
+* Why they have used a subnet mask of **all 1's**?
+
+>
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/adee44ee-9629-4996-
+b75c-069f980307a2)
+
+* Close
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/974c8da7-a792-41bc-be9f-2b1f55433fb6)
+
+* Close
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c43120dd-3b30-490b-b8be-5043af6aa41f)
+
+* Correct
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c8eceea9-e230-4b83-a954-6e7c7b76c3c3)
+
+* Correct
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d32e7887-a3dd-4242-a76d-0aaf5f7cf184)
+
+* Correct
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6068dd13-a044-438b-a0d4-54c07059af6a)
+
+* IPa != IPb, they will never **match**.
+* Everytime host **A** thinks that every other IP address is in a different network and therefore the host **A** is forced to send the message/packet to the **router**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0d4b753-80d9-49df-9ce5-8002c3026448)
+
+* [**IMPORTANT**]
+* We can actually **force** a **host** to send a message/packet to the **router**, even though the **destination IP address** is present within the **same network**, so that at the **router**, we can do some **security** checks and forward it.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1b65dc7-8445-498f-933e-39be53cd51e0)
+
+* We want the messages/packets to first come to the **router** and then the **router** will send it back. What is the **network mask** should we give to every host for these to happen?
+
+> **Network mask** should be **255.255.255.255**, all 1's**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b49de33-8754-4176-9241-4098b0b35e62)
+
+* From **1 to 126**, we don't want them to send messages directly to **128 to 254** range. THe network is not actually divided into subnets. We have to give an illusion that they cannot send it.
+* What is the **subnet mask** should I use?
+
+> **255.255.255.128**.
+
+* The host will think that the network is divided into **two parts**, one is from **0 to 127** and another is from **128 to 255**.
+
+> Even though they are not separated bu the **subnet mark** will give the **illusion** that the network is divided into **two** parts.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ce20a5e-5a85-4c43-8944-5516dfc14f89)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e53f3103-3744-44f1-8f24-ac98302ad3a8)
+
+* **Network 'A'** is divided into **4 parts**.
+* **Network 'B'** is divided into **2 parts**.
+
+* According to **A**, both the hosts are present in **different networks**.
+* According to **B**, both the hosts are present in the **same network**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0cc73d8e-9cfd-47bd-9b95-7a5dcc0bf141)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e6ff341-0700-400a-a7b5-9062c082f120)
+
+* If **A** has to send a packet to **B**, what will it do?
+
+> **A** will send the packet to the **router** and the router will forward the message to **B**. 
+
+* If **B** has to send a packet to **A**, what will it do?
+
+> As **B** things, **A and B** are in the **same network**, so **B** will **directly** send the packet to **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/473e20cc-fb3f-437f-a38f-cb79bc81342f)
+
+* **A** does **bitwise AND** between **IPa and SMa** and we get **200.1.2.0** which is **Network ID of A, according to A**.
+* **A** does **bitwise AND** between **IPb and SMa** and we get **200.1.2.64** which is **Network ID of B, according to A**.
+* As we are in **A**, we have information about **A** only, we don't know the **subnet mask of 'B'**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ffe40442-5e03-450e-a857-ee1dcd7b9f05)
+
+* According to **A**, both the hosts(A and B) are in **different networks**. 
+
+* **B** does **bitwise AND** between **IPb and SMb** and we get **200.1.2.0** which is **Network ID of B, according to B**.
+* **B** does **bitwise AND** between **IPa and SMb** and we get **200.1.2.0** which is **Network ID of A, according to B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3916c7b9-57e0-46c5-9826-9a8574cd40fd)
+
+* According to **B**, both the hosts(A and B) are in the **same networks**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/48d7bdde-ee4f-4a0d-bf7f-a7decad687a9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/15d0d53e-0c61-4650-8724-a5d86f098994)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5774c719-eafd-4d79-9438-9015ef75036a)
+
+* We have **7 zeroes(0)**.
+* We know, **no. of zeroes** is the **host ID** part.
+* THe toatl no. of IP addresses in a network is -> 2 ^ 7.
+* The no. of hosts -> (2 ^ 7) - 2
+* How many subnets are there?
+
+> 2 ^ 1 = 2. ['1' is the subnet ID, we calculated below]
+
+* No. of 1's -> 8 + 8 + 8 + 1 -> 25.
+* 25 = NID + SID
+* It is given that it is a **class C** network.
+* So, the **network ID** part of **class C** is **24**.
+* 25 = 24 + SID -> SID = 1 bit
+* If the **subnet mask** belongs to a network of **class C**, then the **no. of subnets** is **20**. 
+
+* If the **network** is **class B**.
+* We know that in **class B**, **NID** is **16**
+* 25 = NID + SID
+* 25 = 16 + SID
+* SID = 9.
+
+* How many subnets are there?
+
+> 2 ^ 9 = 512.
+
+* If the **network** is a **class A**.
+* The **network ID** is **8**
+* 25 = NID + SID -> 25 = 8 + SID -> SID = 17
+* How many subnets are there?
+
+> 2 ^ 17
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9a9004ff-5e37-4487-b11c-9874fe42673e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97eebdad-f55f-48fb-9090-caf6f9cddbed)
+
+
 
 
 
