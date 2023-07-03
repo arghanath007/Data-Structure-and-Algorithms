@@ -8411,6 +8411,78 @@ b5da-42ddc3936df0)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce5d16bb-950b-406f-ae38-8ada70b6e059)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31d68793-1188-4608-9684-2cb43eb4fcc2)
 
+## Time speed distance work and time part-VI (43) [3rd July 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc71f8a2-ed91-48e9-be0c-563f33fb915e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dae5e9f4-5df2-4fb6-b03b-f38758de6894)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df83a6ee-d8f7-41ba-a243-75b13f9bb405)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4fb9da9d-47fa-4605-958e-aed7d01ef97e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8ba9010-f14b-48f5-b95b-5c682ea92ebc)
+
+* 1/2 + 1/4 + 1/8 + 1/16 + 1/32 -> -> (last denominator - 1)/ (last denominator) -> (32 - 1)/32 -> 31/32 
+
+> Whatever is at the **last denominator** minus 1, gives the **numerator**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5aac567-10a5-4f0f-bbfd-8d1020503ee6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bee5126b-e314-48ea-bc56-378d09315e78)
+
+* Revolving Fraction.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1c6e174-5c4c-48e3-b0fc-f3854e733160)
+
+* **8 and 12** are brothers.
+* **9 and 11** are brothers.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41dc5a77-1a65-4b15-9e9e-f74f54f2dbf4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aaf4277e-19fe-4d1e-9257-d0c7fc9c407c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2bb9c8df-93f1-48bc-9e75-1fd137d2ddbd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bef74809-4902-41b7-89c7-c01d33462ba0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a9e33b9-3f3e-4ba4-ae10-3523c5ec3e10)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/73d2aa02-6a31-4014-b9db-4d588b9b4263)
+
+* **27 and 37** are brothers.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/efb41b1f-bba0-47eb-80dd-b386717ed28f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/94ecf4b6-9b92-48da-80b2-a39e05dbd11f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1f92898-ddde-4b8a-8d7b-95d496e34eda)
+
+## Work and Time
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6acabb6-0eba-4906-8eb1-cebe5fe79d40)
+
+* **1 work(w)** is completed in **12 days**.
+* In **1 day*, the work completed is **1/12** work
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a674e14-7899-4baf-aa64-63c880bbe1d5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33e690c6-c43f-4960-8ac0-d2180b2dbae5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/49012691-cdd2-49ae-b018-b039505a026e)
+
+* Work Done(WD)
+* Work Left(WL)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ca7f1278-5564-4682-b54e-fe80a4bbd0d5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/417b276b-6f22-49b1-b564-32a566027c85)
+
+* **When working together** -> 1/x + 1/y -> (x + y)/(x * y) -> This is **One day's work**.
+* **Total no. of days** -> (x * y)/(x + y)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0bbca3b1-5a15-41c4-acdc-c22557d1caa1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/929a8d86-fd49-437a-91de-11dbff1e6e67)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a471c3f-2a70-4037-96d1-56ed6ada4916)
+
+* Adding percentages to get **100%**
+* Addding fractions to get **1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b889a53-f02d-4f5a-b536-9dfcf6a6cc25)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ccd24832-9196-4a22-b1e6-b078d0365f64)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/204c1839-f6f7-4d41-9026-dac4f4a531e9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f7454c5-1a51-498b-aa45-eee17c59e27f)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9418a901-f4f0-4322-8b36-19550c607de7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d13af675-93fe-4799-8422-7adf84310603)
+
+* Option **B**.
 
 
 
@@ -8419,6 +8491,15 @@ b5da-42ddc3936df0)
 
 
 
+
+
+
+
+
+
+
+
+ 
 
 
 
