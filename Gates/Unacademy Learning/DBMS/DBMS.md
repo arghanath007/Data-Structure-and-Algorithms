@@ -2617,17 +2617,68 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 
 * select distinct C.* from customers C LEFT JOIN orders O ON C.customerID = O.customerID;
 
+## Doubt clearing session (12) [3rd July 2023]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/018ce811-22f5-4f20-accc-d41b0fa423ab)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b37170c8-da14-4ae2-a542-74250e46cd2f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed54ef66-35e3-48a8-bb62-af85e200d25e)
 
+1) select customername from customers where country = (select country from customers where customername = 'Around the Horn')
+2) select postalcode, count (*) Counter from customers group by postalcode.
+3) select country, max(Counter) from (select country, count(*) Counter from customers group by country);
+4) select country from customers group by country having count(customerid) = 1
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd184fd1-82ca-43d3-979f-d9f094c1218e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d294d412-2641-4a11-87d5-91a6facf451c)
 
+* Subquery's result set became a **table** for the **outer query**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d469e85-29ff-43a6-a5e9-4b9aafca6fa9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e5206e8-db30-44dd-b65e-243cc1599e83)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff2ecfc5-9f1c-4bbf-ad67-aa4abd1e99a7)
 
+* Question
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/10ec4755-cf0a-46cc-942d-37df88a1ccc6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/432ab264-4df2-412a-91eb-140f9e5e6a2d)
 
+* Tables.
 
+1) select * from product where price = (select price from products where productname = 'Aniseed Syrup')
+2) select suppliername from suppliers where supplierid IN (select supplierid from products where price > 20)
+3) select * fom products where productname != 'Tofu' and categoryid = (select categoryid from products where productname = 'Tofu')
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be157da9-6934-4eb2-be73-7beccb62a6d7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f65c63cd-a9a8-429d-bf33-c5550bdde6f6)
 
+## Set Operators
+
+* Set operators are used to combine results from two or more select statements
+* SQL rule -> Both the **result sets** from the **select statements**, **no. of columns** should be **equal**.
+* **Set operators** doesn't change the **columns**.
+* Same no. of columns as in left or right select statement.
+* **Set operators** is happening on the **data**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ec225bf-dfc9-4418-ba5a-487fa45a8efb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e696e936-5b4c-4195-908e-0453719e1e66)
+
+* In **union**, duplicates are **eliminated**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3b6eeb9-991c-46b2-955f-4cc99adaa294)
+
+* We have done **union** of the **rows**.
+* (select city from customers) UNION (select country from suppliers)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c16ff70f-42bb-4327-a274-cabfc42f70a2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/15f14fb9-5dfb-47f5-80f6-6cf87dab865a)
+
+* select 'customer', country from customers
+* select 'customer' as type, country from customers
+* (select 'customer' as type, city from customers) UNION (select 'supplier', city from suppliers).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b49ea912-619f-4d71-a442-a5988a4cbb59)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a562f6c-b2ef-41d5-aa59-3982c8452e13)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1567e2b9-0866-4b27-a07d-4ebddbc35e05)
 
 
 
