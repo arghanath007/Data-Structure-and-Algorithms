@@ -6,6 +6,10 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b389e5e-710f-4dcf-8de8-c19950d3dda3)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5451e501-452f-465a-b056-67a3d211d41d)
 
+# PYQ
+
+* Part- 1 -> https://unacademy.com/class/sql-pyq-discussion-part-1/FIVDGXH3
+
 # SQL Link
 
 * Link -> https://www.w3schools.com/sql/trysql.asp?filename=trysql_asc
