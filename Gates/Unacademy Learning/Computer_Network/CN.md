@@ -1403,6 +1403,142 @@ b75c-069f980307a2)
 
 * 0-63,64-95,96-111,112-127,128-255
 
+## Computer networks classless inter domain routing and problem solving(8) [4th July 2023]
+
+* Network ID or subnet ID of network **A** -> 0
+* Directed Broadcast Address(DBA) -> 63
+* It is **same** for the others as well. First is the **Network ID or subnet ID** of the network and the second is the **Directed Broadcast Address(DBA)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76e54826-32f6-4156-b8b1-52bb49ceb35b)
+
+* Length of subnet mask of Network **A** -> NID + SID -> 24 + 2 -> 26 [200.1.2 is used which is **8 * 3 -> 24**]
+* Subnet Mask -> 255.255.255.192 [192 -> 2 ^ 7 + 2 ^ 6 -> 11000000]
+
+* Length of subnet mask of Network **B** -> NID + SID -> 24 + 3 -> 27
+* Subnet Mask -> 255.255.255.224 [224 -> 2 ^ 7 + 2 ^ 6 + 2 ^ 5 -> 11100000]
+
+* Length of subnet mask of Network **C** -> NID + SID -> 24 + 4 -> 28
+* Subnet Mask -> 255.255.255.240 [240 -> 2 ^ 7 + 2 ^ 6 + 2 ^ 5 + 2 ^ 4 -> 11110000]
+
+* Length of subnet mask of Network **D** -> NID + SID -> 24 + 4 -> 28
+* Subnet Mask -> 255.255.255.240 [240 -> 2 ^ 7 + 2 ^ 6 + 2 ^ 5 + 2 ^ 4 -> 11110000]
+* Same as **C**
+
+* Length of subnet mask of Network **E** -> NID + SID -> 24 + 1 -> 25
+* Subnet Mask -> 255.255.255.128 [128 -> 2 ^ 7 -> 10000000]
+
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0903c9f0-71fe-447a-889d-d97be42db86d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89f5c54d-6cee-46f2-afb5-31251a318c6e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/49596591-124f-49b0-bcb7-581806a741c0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0dedd676-8536-46ce-8824-010688be0c5f)
+
+* Sizes of network **C and D** are **same**. Whenever two networks have the **same** size, they will have **same** subnet mask.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe7359f4-90e6-442b-9ec9-820b4d3b4312)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb650996-98a6-4eb5-b510-a03a63b4c8a1)
+
+* THe network with the least **subnet length**, the bigger the network is.
+* THe network with the highest **subnet length**, the smaller the network is.
+* As the **subnet mask size increases**, the **network size decreases**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8328e2bd-9e22-425d-b449-68ade588b15b)
+
+* Length of the Submet mask of **Network 'A'** -> 128
+* Size of the network -> NID + SID -> 8 + 1 -> 9. [10-> 10000000 -> 8 bits]
+* Host ID part -> 32 - 9 -> 23
+* No. of IP addresses we get -> (2 ^ 23) -2
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5606574f-3b01-4c32-843c-405d8b740a32)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ba6ae15-2e42-4739-b102-88ce5618b0c9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5bbc8bc9-f7cc-43ae-8682-d18fc8c0f815)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c6d88766-76f7-4339-8503-12ab3ffec623)
+
+* For **Network B**
+* Starting address is **10.10000000.0.0** which is **10.128.0.0**
+* Ending address is **10.10111111.255.255**which is **10.191.255.255**
+* Size of the network -> NID + SID -> 8 + 2 -> 10. [10-> 10000000 -> 8 bits]
+* Host ID part -> 32 - 10 -> 22
+* No. of IP addresses we get -> (2 ^ 22) -2
+
+
+* For **Network C**
+* Starting address is **10.11000000.0.0** which is **10.192.0.0**
+* Ending address is **10.11111111.255.255**which is **10.255.255.255**
+* Size of the network -> NID + SID -> 8 + 2 -> 10. [10-> 10000000 -> 8 bits]
+* Host ID part -> 32 - 10 -> 22
+* No. of IP addresses we get -> (2 ^ 22) -2
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9df4e72a-14a8-4522-a853-853fbbf56659)
+
+* What is the size of a network in **Class A** and not the network **A**?
+
+> **2 ^ 24**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27ce9ad4-da9a-40f3-8d4f-fb42a6ddf7c2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9102ad7a-e6b2-42b0-a5fa-1e69833b0f40)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0169b98-7276-4438-b85b-21017528efd6)
+
+* 00 -> 0 to 63 [00000000 to 00111111]
+* 01 -> 64 to 127 [01000000 to 01111111
+* 1 -> 128 to 255 [10000000 to 11111111]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e6efcc1-ce33-42b8-8dcd-89dd6ad67eee)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86ff15b6-4ab2-4b29-978e-d2cc96155ecb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec4df4c7-6c75-43ad-9567-5c677bdf8092)
+
+* Trick [47mins]
+
+* A -> 0 -> 0 - 127
+* B -> 10 -> 128 - 191
+* C ->  110 -> 192 - 223
+* D ->  1110 -> 224 - 239
+* E ->  1111 -> 240 - 255
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af7f8f33-559d-47bc-b463-1e241732a825)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0868ef23-3855-4e45-a2ee-83c7f7126599)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a9a188f-feb7-48d5-b6fd-906464e1d8aa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/56488687-17c7-473e-a885-2812b54db45b)
+
+* What is the length of the **subnet mask**?
+
+> **A** -> 8 + 1 -> 9 [10-> 10000000 -> 8 bits]
+
+> **B** -> 8 + 2 -> 10
+
+> **C** -> 8 + 3 -> 11
+
+> **D** -> 8 + 4 -> 12
+
+> **E** -> 8 + 4 -> 12
+
+* What is the size of the entire network? 
+
+> **32 - (length of the subnet mask of the network)** -> **Host ID part**
+
+* A -> 32 - 9 -> 23
+* Total no. of IP addresses -> 2 ^ 23
+
+* B -> 32 - 10 -> 22
+* Total no. of IP addresses -> 2 ^ 22
+
+* C -> 32 - 11 -> 21
+* Total no. of IP addresses -> 2 ^ 21
+
+* D -> 32 - 12 -> 20
+* Total no. of IP addresses -> 2 ^ 20
+
+* D -> 32 - 12 -> 20
+* Total no. of IP addresses -> 2 ^ 20
+
+* Size of the entire network -> 2 ^ 20 + 2 ^ 20 + 2 ^ 21 + 2 ^ 22 + 2 ^ 23 -> 2^ 21 + 2 ^ 21 + 2 ^ 22 + 2 ^ 23 -> 2 ^ 22 + 2 ^ 22 + 2 ^ 23 -> 2 ^ 23 + 2 ^ 23 -> **2 ^ 24**
+
+* Size of the entire network -> **2 ^ 24**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7bdcc35-ddac-42c7-9268-fa6a99faf1a1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cbd7cbe6-34e2-46ca-8f83-9f2188c0ea81)
+
+
 
 
 
@@ -1413,5 +1549,3 @@ b75c-069f980307a2)
 
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/62e3bd2e-4498-4c70-8565-62c2f8fa0bc8)
-
-
