@@ -1790,6 +1790,101 @@ b75c-069f980307a2)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/04e6ad24-2f37-4022-99d0-08cb30293d58)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/404e7047-d9df-4e84-902c-ac6234e482b6)
 
+## computer-networks-rules-of-creating-a-cidr-block-subnetting-and-vlsm-in-cidr(10) [4th July 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37e4fd99-c7ea-48b8-8dd4-b7005b9d05aa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bfd1eb2b-bdc5-44ea-9baf-09178142eec9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80ec04f3-0a8f-4880-9463-6d63019429d3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d165b4dc-d303-4320-ad8e-44338cb7b08a)
+
+* Remainder -> 1 -> 1
+* Quotient -> 7 -> 111 [4 + 2 + 1]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/59c54cd9-6426-4e45-a741-486534db209c)
+
+* Remainder -> 3 -> 11 [2 + 1]
+* Quotient -> 3 -> 11 [2 + 1]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/61a33cd5-56e5-4f9f-a55b-8c386dd3d1cd)
+
+* Remainder -> 7 -> 111 [4 + 2 + 1]
+* Quotient -> 1 -> 1 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a76a20a-f888-4f4d-9216-9fcad913f3fb)
+
+* Remainder -> 15 -> 1111 [8 + 4 + 2 + 1]
+* Quotient -> 0 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cdec460a-c430-4dbc-bf2a-10aaa2fd6cab)
+
+* If we have **n** bits and we divide it with **2 ^ k** then the **least significant 'k' significant** is going to be the **remainder** and the **most significant (n - k) bits** are going to be the **quotient**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a05084dc-db3d-403b-98a3-42ad5db17eb6)
+
+* **LSB(Least significant significant)** -> remainders
+* **MSB(Most significant significant)** -> quotient
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/edb3103a-233b-4213-ab56-2daf54df3676)
+
+* The size of the block should always be in **powers of 2**, which is **2 ^ n**. In that case, we can **divide**, 32 bits of the IP address into **two** parts, one is going to have **network ID or block ID** and another one is going to have **host ID**.
+
+* The size of the block is always in **2 ^ n**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/da12570d-e07b-4491-9259-9602ae8c3d06)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/831b75c4-589f-4752-b9b6-65c3efc0fcc5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5be2266-7877-49cb-8593-79a5e51e8847)
+
+* The size of the block is **2 ^ K**. What is the **remainder** when we divide the no with **2 ^ K**. **Remainder** is the **LSB** 'k' bits. The entire part has to be **all 0's**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97803737-fc85-4221-94f4-8d524aa3931f)
+
+* We always want the **first IP address** to be the **block ID**.
+* We know that the **block or network ID** should always have **all 0's** in the **host ID** part.
+* That is why the **first IP address** of the block must be evenly divisible by the size of the block.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/94f24574-4d6d-4e65-b971-723eb43473fd)
+
+* **Evenly divisible** means **remainder** should be **zero** which is **rem =0**, if we divide the **first IP address** of the block with the **size of the block**.
+* If **2 ^ k** is the **size of the block**, then **2 ^ k** should divide the no **evenly**.
+* If we have a block of **2 ^ k**, we are going to divide the entire IP address into **two** parts. One part is going to have **k bits** at the **host ID** part and the other part is going to have **(n - k)** bits in the **block ID** part.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ff84783-b2ed-4064-a3da-cd601ea34bdb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/acf141a7-ccfb-454f-827d-049035994bab)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e630716f-1f52-4154-9288-ee9a4ea3f7db)
+
+* How can be say it is **valid block** or not?
+
+> By satisfying the **rules**.
+
+1) All the IP addresses are **contiguous** [Rule 1 -> **Satisfied**]
+
+* Size of block = 47 - 32 + 1 -> 15 + 1 -> 16 -> 2 ^ 4
+2) BLock size is in **power of  2**. [Rule 2 -> **Satisfied**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e471b8e8-5f59-4958-a7a7-acb62bdae6e0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e6ca6e06-dd36-40d0-ac8c-908164484e40)
+
+* The no, **100.1.2.32 -> 100.1.2.00100000** and it should be **divisible** by the **size of the block** which **2 ^ 4 -> 16**.
+* If we take the **2 ^ 4** and divide the **32 bit** no, what is the remainder?
+
+ > The **LSB 4 bits** are **all 0's**, therefore the **first IP address** is **divisible** by the **size of the block** which is **2 ^4**,
+
+* Therefore, we can say that **100.1.2.32** is a **valid block**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57afd699-3c23-47a9-ba20-09292d298165)
+
+* What is the **CIDR** representation of the block? 
+
+> **100.1.2.32/28**
+
+* **/28** because the **size of the block** is **2 ^ 4**, which is **4 bits** for **host ID**.So the **network ID** is **32 - 4 -> 28**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dccde2de-448b-43d1-94b0-699826b4b642)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ba78038-fd85-4cae-ba2b-d0f16ad441f7)
+
+* We can actually have any no from the **block** and still this no will represent the **block** because from this no, we will be able to **derive the entire block**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d9cc4a23-00e7-452f-bc94-55296c75a462)
 
 
 
@@ -1797,33 +1892,7 @@ b75c-069f980307a2)
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
 
 
 
