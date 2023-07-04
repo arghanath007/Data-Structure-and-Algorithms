@@ -1538,6 +1538,302 @@ b75c-069f980307a2)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7bdcc35-ddac-42c7-9268-fa6a99faf1a1)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cbd7cbe6-34e2-46ca-8f83-9f2188c0ea81)
 
+## Computer networks arpanet and problem solving(9) [4th July 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65792071-1765-4a59-9f96-9bb7efb34fb1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30f9cae9-fa08-4969-8982-3f0943c4b948)
+
+* If we know the **subnet mask** and the **class** of the network then we can find out the **no. of subnets**.
+* If only **subnet mask** is given then, we can know the **no. of hosts** in the **subnet**.
+
+* How many IP addresses are present in the subnet mask **255.255.255.192**?
+
+> **No. of 0's** present.
+
+* 192 -> 11000000 -> 6 0's present
+* So **no. of IP address** present -> 2 ^ 6.
+
+* If the network is of **class A** then how many subnets are possible? 
+
+> **No. of 1's = NID + SID**
+
+> NID for **class A** = 8
+
+> No. of 1's = 8 * 3 + 2 = 26
+
+* No. of 1's = NID + SID -> 26 = 8 + SID -> SID = 18 bits
+* So, the **no. of subnets** possible is -> 2 ^ 18
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a844d7f-132b-47c4-b373-4ef4a69e9d6d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a55bbb3b-b6d6-4b46-83f9-c55c332eeb42)
+
+* Question [**IMPORTANT**]
+* No. of subnets:-
+* 1's = NID + SID
+* No. of 1's -> 8 * 3 + 1 -> 25
+* NID for **class C** -> 24
+* 1's = NID + SID -> 25 = 24 + SID -> SID = 1
+* No. of subnets -> 2 ^ 1 -> **2** [Answer **1**]
+* No. of IP addresses -> No. of 0's
+* 128 -> 10000000
+* No. of 0's -> 7
+* No. of IP addresses -> 2 ^ 7
+* No. of hosts -> (No. of IP addresses) - 2
+* No. of hosts in each subnet -> ((2 ^ 7) - 2) [Answer **2**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ef6dd93-aa17-4c18-aef4-020c87e83c4a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee9c2163-7db2-413c-bf63-0e03b7cb39c5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66db7b3c-0143-476a-a956-46b5a5b2447b)
+
+* Question
+* [**IMPORTANT**]
+
+* Class B
+* No. of IP addresses -> No. of 0's
+* No. of 1's -> 8 * 2 + 5 -> 21
+* No. of 0's -> 32 - 21 -> 11 [Can find no. of 0's using this way as well]
+* 248 -> 11111000.00000000
+* No. of 0's -> 3 + 8 -> 11.
+* No. of IP addresses -> 2 ^ 11
+* No. of hosts per subnet -> (2 ^ 11) - 2 -> (2 * 1024) - 2 -> 2048 - 2 -> **2046**.
+* As it was **class B** and we had **zeroes** after **248**, we have to add those zeroes as well to find the **no. of IP addresses**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b9b1379-7cd6-4dc0-af9a-341940e9adb4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e872c11-cb73-489c-973c-3cf547595ba7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e89eff82-04cb-4365-bfa4-ee309124bf29)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb8f789c-7605-4f42-921c-64c099b36210)
+
+* The range wont be continuous
+* Theoritically it is possible but practically we will not do that.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/353472ac-d8b9-4571-857d-c3097c11a55b)
+
+* The subnet mask is -> **255.255.255.15**
+* How many hosts per network are possible?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6cede44-33ec-48f0-8fc0-af58db8f27ce)
+
+* Question
+
+* 15 -> 00001111
+* No. of 0's -> 4
+* No. of IP addresses -> 2 ^ 4
+* No. of hosts per network -> (2 ^ 4) - 2 -> **14**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5caa420-ce97-4b48-9d13-507338b2316a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c0b880a-4fa0-44f7-84e5-ab53d6151dc1)
+
+* Size of network in **class A** -> 2 ^ 24
+* Size of network in **class B** -> 2 ^ 16
+* Size of network in **class C** -> 2 ^ 8
+
+* If I need **100 IP** addresses then I need a **class C** network.
+* We bought one network of **class C**.
+* How many IP addresses we will get in a network of **class C**?
+
+* No. of IP address -> (2 ^ 8) - 1 -> 255
+* We need **100** IP addresses and we got **255** which means **255 - 100 -> 155** IP addresses are **wasted**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0cc599b-fccf-46a2-b6c3-08e09d5d107f)
+
+* Class -> A, B, C, D, E
+* Called as **classful classification**.
+* It is not **flexible**.
+* So, we went for **classless**.
+* Practically, we don't have any classes.
+* **Classless** classification is called as **CIDR(Classless Inter-Domain Routing)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d1be0e5-955a-4f78-a34c-39c6702facf3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37d096a1-07c1-4490-9b33-74b087570dff)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71d6f228-9d2b-4979-b2ec-f8749fc73640)
+
+* We are **dynamically** cutting the cake.
+* Previously the cake was already cut.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c62001a6-7223-4bd0-936b-ca385983ae48)
+
+* We are going to make the **blocks** as per **demand**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a8113d8-6394-49e0-a0be-c597735b7127)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/67b50ba5-2185-4b31-acf0-5bb24955ecb7)
+
+* Previously we were able to tell the **class** of the network and the **size of the network** by looking at the first part of the network.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f4c2daab-d667-42af-99b6-214bffe7f762)
+
+* That is not possible in **CIDR**.  
+* We need to give a **slash(/)** after the network and a no after the slash to tell the **network ID(NID) or block ID** of the network.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ba21a17-678c-4ef9-8677-2aac8e35b1a3)
+
+* The **/20** clearly says that the **network ID(NID) or block ID** of the network is **20 bits**.
+* Host ID -> 32 - 20 -> **12 bits** -> (Total no. of bits(32)) - (Network ID(NID) or block ID in bits)
+* So, the **size of the block** -> (2 ^ 12) -> 4K or 4000 (approx)
+* **CIDR** representation -> a.b.c.d/n
+* **a,b,c and d** are dotted decimal representation of an **IP** address.
+* **/n** is the **network ID part(NID) or subnet ID part(SID)** of the network which is **n bits**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be9b9bf9-e8eb-4e00-a695-0b0f49f11a1e)
+
+* What is the **range** of the block?
+
+> As **20 bits** are for the **network ID** part. Therefore in order to get the **range**, we should not touch the **first 20 bits**. We should playt with the last **32 - 20 -> 12** bits.
+
+> **20th bits** is presnt in the **3rd octet**.
+
+* Don't touch the **network ID** part.
+* Remaining are **host ID part**, using them we can find the **range** of the block.
+* For the **starting range** put **all 0's**, then we will get **10.1.0.0**
+* For the **ending range** put **all 1's**, then we will get **10.1.15.255** [15 -> 00001111, 255 -> 11111111]
+* **Range of the block** ->  **10.1.0.0** to **10.1.15.255**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e75f2405-cb98-4bd5-8846-fd12b713bdc9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/73dc48ef-9c1a-4426-8343-561f9ed4009a)
+
+* The IP address, **10.1.0.0** is now the **block ID** or the **network ID** of the network.
+* Even though it is a **block**, it is also a **network**.
+* Even though it is a **subnet**, it is also a **network**.
+
+* The IP address, **10.1.15.255** is the **directed broadcast address(DBA)** of the **network or block or subnet**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1323f962-2f94-4735-a1ff-85493f11b605)
+
+* Given an IP address followed by a **/n**, which is **IP/n** we are able to say the **size of the network** and also the **range** of the network.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d724aa8c-959c-4154-9a5b-76d5130ec16e)
+
+* If any **random no** from the **block** is given to us, the **/n** no is given to me. We can actually **derive** the entire block.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a7d4cdc-8144-4995-ac2f-827d3019d119)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec5bfb3f-dc20-416d-a0b8-4af0c769ecee)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2771dfe-70b0-4bca-b04b-c574195b954c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f1a23ffa-c614-47b2-af72-5a4f4beee287)
+
+* IP address -> 20.12.1.2/12
+* NID -> 12 bits
+* host ID -> 32 - 12 -> 20 bits
+* We have to start from the **13th bit**.
+* 12 -> 8 + 4
+* 12th bit is in **2nd octet**
+* 20.0000 0000.00000000.00000000
+* Initial Address -> 20.0.0.0
+* FInal Address-> 20.0000 1111.11111111.11111111 -> 20.15.255.255
+* Range is from **20.0.0.0** to **20.15.255.255**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f54ab89f-754b-455f-9eb0-b559f4273906)
+
+* Block or network ID(BID) -> **20.0.0.0**
+* DBA -> **20.15.255.255**
+* Size of the block -> Host ID -> 2 ^ 20.
+* No. of hosts -> (2 ^ 20) - 2
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e39967d2-bd5d-4a5d-820e-87ea5e2874b7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c28dd56e-146c-4ec8-93a5-839226b5112e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e87b9cee-bc91-4475-8e0d-b771334331fd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27d4d82d-f812-482a-8133-d06dfbdd1d2f)
+
+* What should be the value of **n** such that, block size is **2 ^ 10**?
+
+> Size of Block -> 2 ^ (HID) -> 2 ^ 10 [Given]
+
+> HID -> 10 bits
+
+> NID = 32 - 10 -> NID = 22 bits
+
+* So, the value of **n** -> 22 bits.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd51e49d-ddf5-4113-8654-a617ece11e3b)
+
+* What should be the value of **n** such that, block size is **2 ^ 2**?
+
+> Size of block -> 2 ^(HID) -> 2 ^ 2
+
+> HID -> 2
+
+> NID = 32 - 2 -> NID = 30 bits
+
+* So, the value of **n** -> 30 bits.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b5bd514-5da4-46ff-9a55-f4959d2f2beb)
+
+* Tell all of the **four** IP addresses in the block?
+
+* 30 -> 8 + 8 + 8 + 6 -> 4th Octet.
+* NID -> 30
+* host ID -> 32 - 30 -> 2
+* So, the host IDs can be **00, 01, 10, 11**.
+* 4 IP addresses -> 10.1.2.0/30, 10.1.2.1/30, 10.1.2.2/30, 10.1.2.3/30
+* Block ID -> 10.1.2.0/30
+* DBA -> 10.1.2.3/30
+* So, only **two** IP addresses can be **used** as **host IDs**.
+* So, only **two hosts** are possible.
+
+> That is why the **max no. for 'n'** we can have is **30 or /30**.
+> We can go for **31 or 32** because, if we use **/31**, then we will get **two** IP addresses, and those **two** will be used as **BID and DBA**, no IP addresses left for **hosts**.
+> There is no point in buying **two** IP addresses. We will not be able to use **either of them**.
+
+> If we go with **/32** we will get **1** IP address which is also **meaningless**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f6da3d5-81c1-40b9-a181-bddea0d8a25e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ce6409d-6ce0-42f9-9721-91aaf18b3a47)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af88850d-480f-4bb0-8bda-f31dd730e608)
+
+* It is called a **block** because it has certain **no. of IP addresses** in it or inside it.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/56b37dbd-b0d4-426b-9758-cc241df673aa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fed825de-f413-4deb-9b64-4c402857cc11)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b16a44d2-aed6-4e14-b6f6-0480bb3ec666)
+
+## Rules of CIDR blocks
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b3a5d5d2-6164-4892-b32a-408bdd11270f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/04e6ad24-2f37-4022-99d0-08cb30293d58)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/404e7047-d9df-4e84-902c-ac6234e482b6)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
