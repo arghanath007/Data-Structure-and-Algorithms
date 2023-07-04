@@ -2964,7 +2964,74 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce6480fe-4022-4b2c-9829-7858c5e73d48)
 
-* If **ABC** is a **candidate key**,
+* If **ABC** is a **candidate key**, then **ABCD** cannot be a **candidate key**.
+* If **ABC** is a **candidate key** then we cannot attach attributes to **ABC** to make **candidate keys**. We will not **check them**.
+* **ADB** could be a **candidate key** as it is **different** from **ABC**. They are not **proper subsets** of eah other.
+* Key -> Uniquely identify **one single row**.
+* If **A** is a key then we can find **B, C and D**.
+* From **A** we can derive **B, C and D**, which is **A -> BCD**. Directly or indirectly.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/345255c2-8fa8-47bd-85a8-fa08b9678fba)
+
+* In closure of **A**(A+) -> {A, B, C, D}
+* If we find all of the attributes in closure of **A**(A+) then only we can say that **A** is a **key**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c564af8d-88f2-436f-a6a3-b43929d3bc59)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9086d51-d2ff-458e-bbaa-cb612ddcf619)
+
+* Question
+* In closure of **A**(A+), we found all of the **attributes** within it, so **A** is a **candidate key**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ed2d633-61c0-483f-8d4d-2c334d8bd399)
+
+* When we are finding **keys**, we will check on the **right hand side**, what we don't have. Whatever is not there, that will be coming in the **key**. [**TRICK**] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/361adc6b-6292-4ab8-8c04-21fe1c59c473)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/871ba4e6-66eb-4dac-87e6-a551de0cee4b)
+
+* A+ -> A, B, C, D
+* B+ -> B, C, D, A
+* C+ -> C, D, A, B
+* D+ -> D, A, B, C.
+
+* All of them have **all of the attributes** in their **closures**.
+* So, **A, B, C and D** are **candidate key**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ddee556e-b0ca-4601-87d7-03992e6aa384)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8a1d599-9977-49cd-8955-2c50d87e75fd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1609e260-a207-4391-9cdf-5246a8f2d281)
+
+* Question
+* Find Keys
+* B+ -> B, D,
+* A+ -> A
+* C+ -> C, E
+* D+ -> D
+* AB+ -> A, B, C, D, E, F
+* CD+ -> C, D, E, F.
+
+* Only **one** of them have **all of the attributes** in their **closures**.
+* So, **AB ** is the **candidate keys**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31bed794-6fc7-4a73-9895-d70733c1e7e0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9a50e026-3fdb-4881-a64b-7d622dab6d91)
+
+* Question
+* Find Keys
+
+* Attributes not in the **right hand side** -> A
+* A+ -> A
+* AB+ -> A, B, D, C, F, E
+* **B** can be replaced in **AB+**, which is **C**
+* AC+ -> A, C, B, D, F, E
+* **C** can be replaced in **AC+**, which is **D**
+* AD+ -> A, D, C, F, B, E
+
+* Only **three** of them have **all of the attributes** in their **closures**.
+* So, **AB, AC, AD** is the **candidate keys**.
+* We have to check if the values can be derives from other values or not **like above**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0536b8c6-e464-4819-a887-828767e4cd87)
 
 
 
@@ -2986,25 +3053,7 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+## Misplaced Images
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8c85c2c6-4175-4f9d-afec-62497852924e)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f0dd0f2-0158-4b53-8fef-40f439e627ee)
