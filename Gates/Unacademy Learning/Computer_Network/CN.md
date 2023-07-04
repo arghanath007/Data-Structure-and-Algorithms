@@ -1902,7 +1902,7 @@ b75c-069f980307a2)
 * We can only use the **last 4 bits**, which is **1000**.
 * The **first address** is **0000** which is **100.1.2.00100000 -> 100.1.2.32**
 * The **last address** is **1111** which is **100.1.2.00101111 -> 100.1.2.(32 + 15) -> 100.1.2.47**.
-* **100.1.2.32** which is the **first address** is the **Block od network ID**.
+* **100.1.2.32** which is the **first address** is the **Block or network ID**.
 * **100.1.2.47** which is the **last address** is the **DBA**.
 * No. of hosts is -> (2 ^ 4) - 2 -> 16 - 2 -> 14.
 
@@ -1958,6 +1958,50 @@ b75c-069f980307a2)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d4afdcc-aeb0-4978-9cfc-51d9a5143a70)
 
 * Question.
+
+* Network ID -> 20
+* Host ID -> 32 - 20 -> 12
+* Size of the block -> 2 ^ 12
+* 100.1.0000 0010.00100011
+* **First IP address** -> 100.1.0000 0000.00000000 -> 100.1.0.0 -> **Block or Network ID**
+* **Second IP address** -> 100.1.0000 1111.11111111 -> 100.1.15.255 -> **DBA**
+* The range of the **block** is **100.1.0.0** to **100.1.15.255**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b3b159d-3234-44f0-a2a9-f6c7bf576615)
+
+* To check if the **block** is **valid or not**, we have to **satisfy** the **3 rules**.
+* Size of the block is **2 ^ 12** which is a **power of 2**.
+* The **first IP address** is **divisible** by the **size of the block** as we are getting **all 0's in the last 12 bits**.
+ 
+* So the **block** from **100.1.0.0** to **100.1.15.255** is a **valid** block.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/43c00ca7-58eb-4d65-8bcd-e413ccd94c3c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/081eb315-91af-40f1-89d8-d298c76b116a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97b643f4-80ac-4d54-b4b4-d103cd60eee1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7636762d-4f92-4816-b7b8-eceaa6e3e676)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81e6894d-9cfd-41cb-8d9c-c30238fe3e1b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4ba8a4e2-b393-429a-be5e-e1fdfa56d347)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f9f3afa6-78ec-4f5b-b2f1-a76da9929932)
+
+* We don't have **classes** this is **classless** as **/n** is there.
+* Network ID -> 25
+* Host ID -> 32 - 25 -> 7 bits.
+* The range of the **block** is from **20.30,40.0** to **20.30.40.127**
+* Size of the block is **127 - 0 + 1 -> 128**.
+* Each half will get **128/2 -> 64**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57556b39-ee26-4f23-b991-f7db6d4a8e5c)
+
+* The range of the **first part** is from **20.30,40.0** to ***20.30,40.63/26**.
+* The range of the **second part** is from **20.30,40.64** to ***20.30,40.127/26**.
+* **/26** because earlier we have **/25** and we added **1 bit** as the **subnet ID(SID)** which is **25 + 1 -> 26**
+* That's why we are doing **/26**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/588377d3-8c8e-449c-85bf-65dced96b67d)
+
+* [((IMPORTANT**]
+
+
 
 
 
