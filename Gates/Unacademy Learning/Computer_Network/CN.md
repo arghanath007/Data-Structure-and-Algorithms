@@ -1885,14 +1885,80 @@ b75c-069f980307a2)
 * We can actually have any no from the **block** and still this no will represent the **block** because from this no, we will be able to **derive the entire block**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d9cc4a23-00e7-452f-bc94-55296c75a462)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f9d29a3-2647-4ab3-b2c7-a3fd57057087)
 
+* **/28** is the **network ID**. So, we cannot touch it.
+* We have to use the rest, which is **32 - 18 -> 4** which is the **host ID**.
+* If we are given a **IP/n**, slash no, we would be able to generate the **entire block**. 
+* In order to represent a **block**, we can use any IP address from the **block**. It need not be the **first IP** address.
+* The **first IP address** is going be the **block or network ID(BID)**.
+* The **last IP address** is going to be the **DBA**.
+* The remaining IP address are used for the **hosts**.
+* No. of hosts -> (Total no. of IP addresses) - 2
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a60b3fd-c605-4f8f-ad02-69f6bf2a4dfb)
 
+* 100.1.2.40/28 -> 100.1.2.00101000 -> -> 100.1.2.0010 1000
+* We can only use the **last 4 bits**, which is **1000**.
+* The **first address** is **0000** which is **100.1.2.00100000 -> 100.1.2.32**
+* The **last address** is **1111** which is **100.1.2.00101111 -> 100.1.2.(32 + 15) -> 100.1.2.47**.
+* **100.1.2.32** which is the **first address** is the **Block od network ID**.
+* **100.1.2.47** which is the **last address** is the **DBA**.
+* No. of hosts is -> (2 ^ 4) - 2 -> 16 - 2 -> 14.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cccdc739-ad65-41f8-bd35-1ea74598914b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/577295c6-e233-453d-a026-503a51ca84fd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6cc9ec13-1d14-43e1-8336-a6d0a73654da)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa95a65c-5846-4881-807b-17e201519aa0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b50c791f-5c27-4630-ab85-f0ea5cf8144b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92a74f3c-38fe-45fc-a3f2-c3a3532e975b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d21fce2-2f93-4b93-b1d7-27427d904906)
 
+* Question.
 
+1) From **64 to 127**, the **block** is **contiguous**.
 
- 
+* Size of Block -> 127 - 64 + 1 -> 64 -> 2 ^ 6 -> 2 ^ n
+* Size of Block -> Host ID -> 6
+
+2) Size of block is in the **power of 2**.
+
+* First IP address which is **150.10.20.64** should be **divisible** by **size of block** which **2 ^ 6**. 
+
+3)As it is completely **divisible** an we got **remainder** which is **000000**.
+
+* Network ID -> 32 - 6 -> 26
+* CIDR representation -> 150.10.20.64/26
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7075dd4c-29ae-49bc-8a97-36a1a6e69b65)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e6973889-72f6-495c-b764-2611b26e9e1b)
+
+* We can take any **IP address** from the **block** and put **/26** at the end of it. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7239565f-ab9f-4e82-9e18-9857b9130402)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/08a462cc-37cf-438a-8620-6e2c6f16764e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/900f66ff-f795-4638-9758-52992200ec92)
+
+* Question.
+* CIDR -> 20.10.30.35/27
+* Network ID -> 27
+* Host ID -> 32 - 27 -> 5
+* Size of the block -> 2 ^ 5 -> 32 -> 100000
+
+* **First IP address of the block*** should be **divisible** by the **size of the block**.
+* 27 -> 8 * 3 + 3
+* 20.10.30.35 -> 20.10.30.00100011 -> 20.10.30.001 00011
+* 20.10.30.00100000 -> 20.10.30.32 is completely **divisible** by **size of the block**.
+* First IP address is **20.10.30.32**
+* Last IP address is **20.10.30.(32 + 32 - 1) -> 20.10.30.63**
+* The **range** is **20.10.30.32** to **20.10.30.63**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f4983137-4667-4a19-86fc-18d8477336f0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9bbffed8-36a2-43d1-9e3b-e5c4666de3a6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d4afdcc-aeb0-4978-9cfc-51d9a5143a70)
+
+* Question.
+
 
 
 
