@@ -2912,6 +2912,62 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 
 ## Closure of a set of functional dependencies
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c919e31c-305a-4419-95ad-7e16dd063b3a)
+
+* In **F+**, we will use **transitivity rule** and we will get **A -> B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2d6ac792-120c-49c3-ae1e-6ca0a3ac2fba)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c062825c-060c-435d-aeb2-2d56f2154d28)
+
+* We have to **find** more **dependencies**.
+* Pseudo transitivity Rules.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a9b46635-5be0-42bc-bb35-f22db2fd2ebe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2888af25-977f-4938-b898-b01d7ae12e6d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/48457103-7d58-4557-ae70-af5d38a8213f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed62104e-2000-4003-998a-a38c908505e4)
+
+* Question, Find **FD+**.
+* FD+ -> {A -> B, B -> C, AB -> D, A -> C, A -> D}
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e0cf66a9-40fc-405c-a373-d52a400ef39e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e53e3e5-dd2d-4428-bd11-5249c1cd11c7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0bb295b9-f05f-4f32-ae71-7d1be28b84ce)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5832f1be-8442-4ad8-b9c8-1ff869c840ce)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5186916a-ea9d-4b50-9da4-03b693aae4b8)
+
+* Question
+* Option **B**.
+* [**IMPORTANT**]
+* Do it using **closures** better.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ecd7ea7-f61d-4ef2-bee7-a48759e9024a)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92b834a6-8bba-4bae-bd5d-52193eba5c63)
+
+* Question
+* FD+ ={AC -> XY, A -> C, BY -> XY, AY -> XY, A -> XY}
+* If **A -> B** holds then **AC -> BC** also holds.
+* If **AC -> BC** holds then **A -> B** also holds that is **not True or false**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a4f1a23-735a-4915-9a0e-6ea025aaae59)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/976e8964-640e-4d19-9bd3-d997ba4eaf5d)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc631168-42d6-4f8d-af8e-962df77437be)
+
+## Finding keys using FDs
+
+* Keys -> Candidate keys.
+* **Minimal super key** is **candidate key**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce6480fe-4022-4b2c-9829-7858c5e73d48)
+
+* If **ABC** is a **candidate key**,
+
+
+
 
 
 
