@@ -2758,6 +2758,159 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b2c5f2c-0e58-48f2-9c89-6f8ed0bebcae)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a2929f6-c01a-4a45-982f-1cf01b112605)
 
+## Normalization part-II (13) [4th July 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d164105e-7175-43e9-a207-b76451df6c48)
+
+* Completed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cebdf2d3-1fd7-4164-96f7-e3438c853e67)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/47b4cc73-b02b-4d5f-b859-1e952ca11b57)
+
+* Relational Model
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0bef48ce-ec62-4611-b735-a083a04c98b9)
+
+* Relation -> Table.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c4003ac6-60db-4b73-a57c-aeac998b6ea6)
+
+* Attributes
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/56e92fad-f0a4-45c5-9d82-7b500b8e0611)
+
+* Tuple
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b9803c7d-22c8-48a6-831a-dc5543dce250)
+
+* Relation example
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6423d2f5-7ef8-4eaf-bb85-665f931dfc0a)
+
+* DB Schema
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6032d5dc-c5a9-4b83-87bc-f118b21397a2)
+
+* DB Instance
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c524c38-1ba6-4a04-b43a-841f1ff36425)
+
+* Domain -> Datatype.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bdf31b8d-e4e6-4bbf-957c-639f7766fb05)
+
+* Domain Constraint
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fcc935ae-1dd1-4d46-9f0e-8ec79d53cb01)
+
+* Degree or Arity
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f68678a6-fd4c-4a46-8f4a-38219a1634ce)
+
+* Cardinality
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/923b24d9-9db0-430e-9a85-e54bc4ed1755)
+
+* Functional Dependency
+
+## Functional Dependency
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/00f483ec-f0f6-46c6-804c-6b32f72bfff3)
+
+* If we have **one value of 'A'** then give **one value of 'B'** and not **two values**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9bfb7a3e-dd01-4be4-a81f-caf17c99e30c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7305a393-37af-4092-aace-503937195746)
+
+* For **a1** value of **A** column we are getting **two different values** of **B** column which are **b1 and b3**. So **a1** is giving **not unique** values.
+* So, **A -> B** does not **hold**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0f7f758-0b8f-4de9-80bd-ae176635d325)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cdd74fcf-8645-4ded-ac1c-4a035cf340f1)
+
+* For **a1** value of **A** column we are getting **unique value** of **B** column which is **b1**. So **a1** is giving **unique** value.
+* For **a2** value of **A** column we are getting **unique value** of **B** column which is **b2**. So **a2** is giving **unique** value.
+* So, **A -> B** does **hold**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/373fdd53-074e-4faf-bd08-2717503545c5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f82732b-10bd-4f91-9dbe-b2775b951c0f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5153e525-7212-422b-b033-fa0abba0710a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c63aa487-e921-4392-9561-2580d9efbc1a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dfa88491-8aa2-4d75-9191-14359be408da)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e77c773e-aa5e-4d67-ac22-14efaafb3d22)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8535f50c-777f-4bad-84ed-49e6f6fe3380)
+
+* A -> B -> doesn't Hold
+* B -> C -> Holds
+* C -> A -> doesn't Hold
+* C -> B -> doesn't Hold
+* A -> C -> doesn't Hold
+* AB -> C -> Holds
+* Ac -> B -> Holds
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/137e406d-e00d-4283-9a50-c29727975a8e)
+
+## Closure of n Attribute
+
+* What all attributes we can derive from given attribute.
+* Closure of attribute **A**(A+) -> {A}
+* No dependency is given which can be derived from **A**.
+* Closure of attribute **B**(B+) -> {B, C}
+* Closure of attribute **C**(C+) -> {C}
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd8d081e-95d0-40c2-8561-65b0c3cf0e47)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86b3c17b-76ce-491c-a80a-529faa6551f5)
+
+* A+ -> {A, B}
+* B+ -> {B}
+* C+ -> {C, D}
+* D+ -> {D}.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d19e3a9b-9358-4103-8f5b-c4d58e9ea4f6)
+
+
+* A+ -> {A, B}
+* B+ -> {B}
+* C+ -> {C, D, A, B}
+* D+ -> {D, A, B}.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/692d87df-94a5-4c80-8e20-590b7ca79ba5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72b62baf-6e21-48b8-946c-ea55b4560a88)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9cf3d4f1-8a03-4032-82ec-86a3382405bb)
+
+* Trivial Functional Dependency
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b3d38d3f-269e-4fe0-8239-5d9990098c23)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16e82022-4222-45fa-9c64-4c2d578e7071)
+
+* Rules.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/43a39db3-fadd-4d5b-aaa9-e514e9e793d1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f8395abe-fc85-4f09-adbf-83224f49a6d4)
+
+* Reflexivity Rule
+* If **A to B** holds then **AC to BC** will also hold. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/70473b11-f847-44a6-8faf-d02c52e0af80)
+
+* Augmentation Rule.
+* If **E -> F** holds then **ABE to ABF** alos holds.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e295f0f-24ca-4ff2-82f2-6de5b48b8bd5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2705a23b-a494-42c0-97ac-5e08c0c43180)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27f83c71-60ef-4395-908a-d3eb920409ee)
+
+* Transitivity Rule
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/117b93e1-178f-4c18-98da-595a5eee0339)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1bef4ff8-00e9-4170-94d7-60faf2980088)
+
+* Addition Rule.
+
+## Closure of a set of functional dependencies
 
 
 
@@ -2797,20 +2950,8 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8c85c2c6-4175-4f9d-afec-62497852924e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f0dd0f2-0158-4b53-8fef-40f439e627ee)
 
 
 # Joke
