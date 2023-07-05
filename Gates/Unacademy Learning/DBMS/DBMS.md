@@ -9,6 +9,7 @@
 # PYQ
 
 * Part- 1 -> https://unacademy.com/class/sql-pyq-discussion-part-1/FIVDGXH3
+* Part- 2 -> https://unacademy.com/class/sql-pyq-discussion-part-2/USA9WKOY
 
 # SQL Link
 
@@ -3036,6 +3037,350 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 * We have to check if the values can be derives from other values or not **like above**. [**IMPORTANT**]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0536b8c6-e464-4819-a887-828767e4cd87)
+
+## ER diagram to relational model conversion (14) [5th July 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/588dd203-485a-4ad0-a68a-9ece355a61b5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eed3c7dc-f9ce-490c-a076-bff8cea4bbaf)
+
+* We are doing **union**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c73b4dc0-8574-43aa-9ed1-7ea126be12a1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8d45486-2e80-4acd-9f64-70df4dacb6c5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/88feacb7-f567-4879-ba25-bdda608157f7)
+
+* Question
+* AB+ -> A, B, D, F, E, C, G
+* GB+ -> G, B, A, D, F, E, C
+* AC+ -> A, C, B, D, F, E, G
+* GC+
+* AE+ -> A, E, C, B, D, F, G
+* GE+
+* These are the **6** keys.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eeffda2c-2860-47b4-a541-9036e6e42765)
+
+* AD+ -> A, D, E, G [Not possible, incomplete]
+* AB+ -> A, B, C, D, E, G
+* AC+ -> A, C, B, D, E, G
+* BC+ -> B, C, A, D, E, G
+
+* These **three** are the **keys**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/892e9ee3-bba3-4ea0-b0e5-39954d9ef2be)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f888410-7b86-4558-b279-2a0e27a31333)
+
+* E+ -> C
+* BC -> B, C, D, A,
+* AEG+ -> A, E, G, C, B, D
+* DEG+
+* BEG+
+
+* So, **three** keys are coming.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/17f9d2da-dbec-4857-bd60-9972950d61e3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a9537c8-cf65-464b-83db-1837abf42098)
+
+* **BCEG** not needed as we can get **C** from **E**
+* So, **BEG** will work.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f1fb6b7-3687-47ac-8420-1d67c59a4d0e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e4110dc-5244-4a6b-aba1-a7b4bb5333ad)
+
+* yEs.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a046663-cb01-4856-aa61-767bd1048894)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9af51c66-3578-4af1-87c0-327e131e8d73)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44f81a58-2617-41b1-9300-97b85dee6bc5)
+
+* Minimal Set.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ba430c1-2bd3-4263-b73c-04bab8e42b1b)
+
+* Exactly.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/abad736e-9e5d-44f4-aaa2-224e5bd551b6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/28e59cb4-2352-4166-a1c1-a69632d54612)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f731738-a949-43f1-bdee-aed14b627d9c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f5ac4bc-60da-45b6-b4b6-ff99562ddfd8)
+
+## Normalization
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/efe4639d-ebf1-46b1-b0a6-18f37f5d3e7d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc223766-5044-4d3c-88ae-922bdc1dfc1a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/47f11410-0553-4e15-ad2d-45c1375ceed0)
+
+* Normalizing the table **R** and decomposing table **R** into **R1 and **R2** table.
+* If we didn't allow **NULL** value in **P-Id, P_Name and P_Price**. They should be **Not NULL**.
+* There is an **anomoly** due to **insertion** into the table.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1be49c55-6e11-4286-a89e-60dd1fc684f5)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b5d4868-cd20-4958-ae24-63d3ce1f5fb7)
+
+* Insert anomaly.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af1b0614-eff6-482e-9b74-216c8d77cecb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7deefb3d-ffb2-414c-9c30-bb8939525add)
+
+* It is called as **insert anomaly**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e8388c1-8264-4dc9-b878-e646beb655d4)
+
+* **Update anomaly**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/edeada7d-bf5f-4c43-b309-965c03043f8a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9919299e-9524-4d9e-b7d2-35b09a01821f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/165c767e-58ed-4139-96a7-bb5f22bbcd95)
+
+*  Assuming product jeans price has been chnaged to 2500.
+*  Rencho purchased shirt in 2200 but now my DB shows in 2500.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3cc0cf5-90a5-4084-b56f-974176eb40a9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c6a0307f-8d0c-417d-a751-b76d2d3752f5)
+
+* Delete product jeans
+* Deletion Anomaly
+* Customer with id **c3** also deleted.
+* To **remove** the above anomalies we use **normalization**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/577524d5-c6f5-421b-b396-ceccf29ffd4f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09345e6c-4be5-40c7-9639-f54711df384a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/62da465b-a205-460f-a479-6fd0fe2ae547)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/01f2c9ec-7398-4887-88b3-1f3edd3605ad)
+
+* GATE syllabus till **BCNF**.
+* NFs -> 1NF, 2NF, 3NF, BCNF.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f81fd385-26f3-477b-a364-c563fc59afab)
+
+* Till **BCNF** is **needed**.
+* Remove multivalued attributes.
+
+## 1NF
+
+* A relation R is said to be in 1NF if there is no any multivalued attribute in R.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/941e56d7-e86f-4a0c-bf74-5e3e3bbaef14)
+
+* Phono is **multivalued** attribute
+* Eliminate **multivalued** attribute
+
+1) Increase rows.
+2) Increase columns.
+3) Decompose relation.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8fdf3be4-c0c1-40f9-96ad-3cc540f5c6ca)
+
+### 1) Increase rows.
+
+* Problems:-
+
+1) **Rno** column is no longer a primary key
+2) Too mcuh of redundent information.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e370bad9-09c3-4468-ba04-fff1764719ca)
+
+### 2) Increase columns.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9b43b63-a0ca-401a-9e53-921fc0734e02)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b5cce74-ac2e-46be-be42-5cccb1e9bb39)
+
+* This works perfectly fine.
+
+* Problems:-
+
+* Wastage of space if multiple NULL values in phno 2.
+* Wastage may increase if one row has 3 phone umbers.
+
+### 3) Decompose relation.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/306aebdb-3839-4653-b0e1-bb808e4a4434)
+
+* We removed the **Rno** column.
+* Keep multivalued attribute along with **primary key** of table in another table.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be5a0f96-8b51-4ce4-95e4-bbb40f6d619f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a41c3bef-ee74-476d-bfe5-80cea2e3a499)
+
+* This is also a **good solution**.
+
+## 2NF
+
+* If we have to normalize the DB table in **2NF** form, then they should be **normalized** in **1NF** form.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6407752d-e1f7-43ad-96b1-7f68a4fdbee0)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9a2d474-266f-4951-b632-9b0a5aa13de6)
+
+* No any non- prime or attribute.
+* There is **no any **, Non non-rprime attributes,
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1db0ee96-7874-4566-82c1-b440d22cf8b7)
+
+* Partial Dependency.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/acb597d3-ef1a-495b-a5ea-6058a9ddd8e6)
+
+* Prime and non-prime attribute.
+* if key is a **composite** key and from the **sub-part**. If the **sub-part** derives some **non-prime** attribute.
+* This is calle as **Partial Dependency**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7cb85b7-18c5-40c9-9c13-7b039a6cb904)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee49af49-9e99-45e9-ab13-574b1fe0dd23)
+
+* If **A** is a **composite** row then **no. of poossibilities of partial dependency**..
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab55e37c-5475-4125-8a7b-6769d7eac41e)
+
+* Ofcourse.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33d74be4-f1b6-4ad7-93a6-2d72faf2444d)
+
+* Example
+* Candidate Key is **AB**.
+* Prime attribute -> A, B
+* Non-prime attribute -> C, D
+
+* If **table's data** is not given, then we can assume that the **table** is in **1NF** form.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4860d8c8-0ce3-493c-a251-b93d53678a8b)
+
+* For the table to be in **2NF** form, there are **two** conditions:-
+
+1) Table should be in **1NF**.
+2) No partial dependency. 
+
+* **A or B** alone can derive any **non-prime** dependency?
+
+> **Yes**, **B** derives **D**.
+
+* It is a **partial dependency**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/07cb7034-8aef-4891-8540-725aa7cbc389)
+
+* Given relation **R** is not in **2NF**.
+* We have to get it to **2NF**.
+* To get the relation in **2NF**, we have to **decompose** the relation.
+* To bring **R** in 2NF, decompose **R** into **two** relations such that we remove **partially dependent** attribute from **R** and keep it in another relation.
+
+* We have to keep the **partially dependent** attribute with whom it is **dependent** on.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c09717b-19f4-4305-9ee4-fd9c7afde711)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/610d3b48-e781-4006-8811-5dcc987a41dc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee277bb6-654f-4392-91c5-2eab4ccddd9c)
+
+* Not with the **key**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/17833227-5d03-495c-8dec-ff53cb65e81a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72dc1d8b-9609-438d-ac21-151d22f25dbe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27c07db1-c6d9-4d67-a4a3-25a7f8710c55)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2e10a702-41d5-45e5-8e36-4593310b5343)
+
+* Key in **R1** tabel is **AB**.
+* Key in **R2** table is **B**.
+* So, there is **no partial dependency**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/28ddcd82-acfd-4835-838f-6d7f197dd2d1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a04eb922-f8da-4ff7-bd22-bed298e4a8b7)
+
+* Both **R1 and R2** are in **2NF**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27cab1ab-20f5-4c31-a3d5-5ad4aa9204fc)
+
+* Will see later.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec0e8c74-b6ef-471e-914f-75dd5b62fafc)
+
+* Very important.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d180b7eb-b5a9-4a7d-b5a9-93d093000e0b)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ca7d0fd5-6180-4ca9-959d-1a673a47bdfb)
+
+* Partial dependency
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf00fc77-358c-4ded-8b72-d71f4965e8c7)
+
+* Candidate Key -> AB
+* Prime attributes -> A, B
+* Non-prime attributes -> C, D, E
+* We have **two partial dependencies**.
+* A -> D and B -> E
+* We have to keep **each partial dependency** in separate tables.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4667cdfc-d8c9-499f-8fae-4adf724e88ca)
+
+* Now, **R, R1 and R2** are in **2NF**, **partial dependencies** are removed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b852a7a3-7f05-43fa-a3a3-0e082bbe0cbc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3bcb90d3-0d33-44d2-8537-31699eeeb8c1)
+
+* Question.
+* Option **C and D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/035c330c-b837-4fd8-bf3f-b8a5093bdeec)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5888d5e8-d273-4f0c-a83e-031ef39daa60)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
