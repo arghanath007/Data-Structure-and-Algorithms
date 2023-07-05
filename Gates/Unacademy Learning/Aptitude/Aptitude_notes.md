@@ -8484,10 +8484,45 @@ b5da-42ddc3936df0)
 
 * Option **B**.
 
+## Time speed distance work and time part-VII (44) [5th July 2023]
 
+* Total No. of days to complete the work together -> (X * Y) / (X + Y)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd3607fb-297f-41cc-b08e-62c9ba778a8f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/300bd8a6-4db2-45a7-93e2-06214b340294)
 
+* Question.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d7a5764-6cb0-460b-b5c4-74fd9c0ed3fc)
+
+* **A and B** work together but **Alternately**.
+* In that **Alternately**, let's start with **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0bb44e16-afa4-4289-82bc-6cffbdb92925)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c5b36ee2-728d-48b2-bfab-428d1126b950)
+
+* Previously **15%** of the work was done **per day**.
+* Now with working **alternately**, we are still get **15%** of the work done in **2 days** now.
+* Pattern -> 2-days 
+* So, in **12** days, **90%** of the work is **done**.
+* Work left(WL) = 100 - 90 -> 10 %.
+* As we are starting with **A**, so **A** is coming on **odd days**.
+* As **13** is a **odd day**, so **A** is coming to work on **day 13**.
+* Work Done by **A** on **day 13** -> Work left - 8.33 -> 10 - 8.33 -> 1.67
+* Work Left -> 1.67
+* **B** came on **day 14**.
+* Work Done by **B** on **day 14** -> Work left/6.67 -> 1.67/6.67 -> 0.25 -> **1/4**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/307fefc5-9cf1-4a9c-8125-d7fa1993257d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7cc04525-d56f-49fe-889d-baa9a21c897b)
+
+* Total no. of days -> 12 + 1 + 1/4 -> 13 * (1/4) days.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf2728fb-6f91-422f-9267-ee1af5f1890f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eec72f79-7ba7-44e8-875c-02133be4a9b3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97e266e8-ec6e-4357-9e79-edc6e43687f4)
+
+* Question.
 
 
 
