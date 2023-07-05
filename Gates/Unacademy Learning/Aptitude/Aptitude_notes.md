@@ -8524,12 +8524,75 @@ b5da-42ddc3936df0)
 
 * Question.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b348a0b-1b10-4d9f-a7fb-97f908e1a2c4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a5dd499-5512-4d02-af00-d9415aac5790)
 
+* Patterns.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a59ec1a9-1181-4c42-9f74-49021517dd21)
 
+* Question
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a07649d2-a180-401c-8137-32ae01adb9ff)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83426fd9-a657-4e85-87d6-be31e89e9d71)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5937797-b319-4547-8bcb-6b9f5f0d07a9)
 
+* 5 * (5/19) days.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89b80c84-f46c-4458-9f70-42348f5fbe4e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8bb800a-ee13-4d54-9a23-314edb9cb4b8)
+
+* 15.5 days.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65c2d8f2-1054-4f8b-90e1-57d0e4c5059f)
+
+* 10.5 days.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d5af1214-6257-418d-9e44-f3b09e64f861)
+
+* 8.26 days.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e69f7f23-85a7-4572-9ca3-c4726aef4edc)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b3cda423-d660-41d3-9653-ecfffb92eb5f)
+
+* Now **M, W and C** are working for **1/3** of the day. It means that first **M** are working for **1/3** then **W** is working for **1/3** then **C** is working for **1/3**.
+* Each day they are working for **8 hrs each**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f02dfd71-c000-4e78-9e35-04df2521e05a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b4cb7ef-54a6-47d4-b1e3-deb90f392a44)
+
+* Question
+* Option **B**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aeb08f20-2a4c-492f-a010-453e557e09ee)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e79846d0-a7cd-4072-9d71-7f396bf155e0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3dbcba35-6fdc-4aca-8344-7cb010dc2719)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc1b0ef1-bad1-4510-a01e-298c97753a69)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a4903d19-f31b-45ee-b4c3-97a316fdf294)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ac23d02-c624-49f0-86ef-a7e999e74a06)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b3d6679-157b-4482-868d-a0b0a5e99334)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e6a0adb-976a-460e-a6e6-054bf47f78de)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6111e1cc-eca0-4821-87f6-5a578eb6c5b8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44770191-1a19-44ee-8cfe-c1f859ff878f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33b3b2f2-c3cb-430f-b8e2-487710b40666)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/39cb490f-69a9-4d59-9777-488a6ce466e5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cfc44f08-b035-4b85-ad3e-e3c81b502e85)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8551dcb-2ebb-4e1c-b933-df93e95536f2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd4377ab-efa5-403e-8a7a-03048bff937a)
+
+* Question
+* Answer -> **11 more days** required by **B** to finish the work.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f02bb89d-ec4d-4344-b5b9-ae0f0cdc3991)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b9737d0-4620-40de-aa0f-31ec874f3ace)
 
 
 
