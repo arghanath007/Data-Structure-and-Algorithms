@@ -2138,18 +2138,73 @@ b75c-069f980307a2)
 ![Alt text](image-1.png)
 
 * Question
+* Find the **range**?
 
+* Address -> 10.10.10.10/12
+* Network ID -> 12
+* 10.000 0000.00000000.00000000/12 -> 10.0000 1010.0.0
+* 10.10.10.10 -> 10.0000 1010.10.10 -> 10.0000 0000.0.0 to 10.0000 1111.255.255 -> 10.0.0.0 to 10.15.255.255
+* Total -> 0 + 15 + 1 -> 16
+* We want **3** parts.
+* First half is **0 to 7** and the other half is **8 to 15**.
+* We are dividing the **second half** which is **8 to 15** into **two** parts as we require **3** parts in **total**.
+* We have **15 - 8 + 1 -> 7 + 1 -> 8**.
+* So, **8/2 -> 4**.
+* So the **second part** is from **8 to 11** and the **third part** is from **12 to 15**.
 
+* First part -> **10.0.0.0 to 10.7.255.255**.
+* Second part -> **10.8.0.0 to 10.11.255.255**.
+* Third part -> **10.12.0.0 to 10.15.255.255**.
+* We have two **different** subnet ID.
+* For the **first part**, we used only **1 bit**, so it is **12 + 1 -> 13**
+which is **/13**.
+* For the **second and third parts**, we used **2 bits**, so it is **12 + 2 -> 14**, which is **/14**
+* But we have **3 parts** only.
+* So, **12 + 2 -> 14** which is **/14**.
 
+* First part -> **10.0.0.0/13 to 10.7.255.255/13**.
+* Second part -> **10.8.0.0/14 to 10.11.255.255/14**.
+* Third part -> **10.12.0.0/14 to 10.15.255.255/14**.
 
+![Alt text](image-2.png)
 
+* VLSM
 
+![Alt text](image-3.png)
+![Alt text](image-4.png)
 
+* Question.
 
+* Address -> 10.10.10.10/12
+* We want 4 parts.
+* We have from **10.0.0.0 to 10.15.255.255**.
+* We have **0 + 15 + 1 -> 16**.
+* We divide into **two** parts.
+* **First part** is from **0 to 7** and the other part is from **8 to 15**.
+* The **other part** is divided into **two** more parts.
+* Length is **15 - 8 + 1 -> 8**.
+* So, **8/2 -> 4**.
+* So the **second** part is from **8 to 11** and the other part is from **12 to 15**.
+* The **other part** is divided into **two** more parts.
+* Length **15-12 + 1 -> 4**
+* So, **4/2 -> 2**
+* So the **third** part is from **12 to 13** and the **fourth part** is from **14 to 15**.
 
+* Subnet ID for **first part** -> 1 bit -> 12 + 1 -> 13 -> **/13**.
+* Subnet ID for **second part** -> 2 bits -> 12 + 2 -> 14 -> **/14**.
+* Subnet ID for **third part** -> 3 bit -> 12 + 3 -> 15 -> **/15**.
+* Subnet ID for **fourth part** -> 3 bit -> 12 + 3 -> 15 -> **/15**.
 
+* First part -> **10.0.0.0/13 to 10.7.255.255/13**.
+* Second part -> **10.8.0.0/14 to 10.11.255.255/14**.
+* Third part -> **10.12.0.0/14 to 10.13.255.255/15**.
+* Third part -> **10.14.0.0/14 to 10.15.255.255/15**.
 
-
+![Alt text](image-5.png)
+![Alt text](image-6.png)
+![Alt text](image-7.png)
+![Alt text](image-8.png)
+![Alt text](image-9.png)
 
 
 
