@@ -2206,6 +2206,22 @@ which is **/13**.
 ![Alt text](image-8.png)
 ![Alt text](image-9.png)
 
+## Routing_with_anno (12) [6th July 2023]
+
+## Supernetting/Aggregation
+
+* Aggregation -> Sum or Addition
+* Supernetting -> We are trying to add or we are trying to sum up all of the networks and make it into a **single network**.
+
+![Alt text](image-10.png)
+
+* Sum or add all of the networks(N1, N2, N3 and N4) and call it as one big network and we can have one **network ID** for all of them(N1, N2, N3 and N4). This process is called as **aggregating or supernetting**.
+
+![Alt text](image-11.png)
+
+* Can we add any **4** networks?
+
+> We all networks it is **not possible**.
 
 
 
