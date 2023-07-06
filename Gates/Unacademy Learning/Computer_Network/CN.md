@@ -2221,7 +2221,58 @@ which is **/13**.
 
 * Can we add any **4** networks?
 
-> We all networks it is **not possible**.
+> We cannot do it with all networks it is **not possible**.
+
+* There are some rules:-
+* Rules of Aggregation.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4dcd1d2d-1108-4180-8e5e-4f783739402d)
+
+* Similar to the rules of **CIDR**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/767b0736-dd09-411a-a775-17dbe6052ea1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9f2a1f1e-2b32-4a5a-9ea9-1a73f7fe2636)
+
+* Rule **1** is satisfied. They are **continuous**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5611c106-50a8-40c4-939a-417fd8fe2b9e)
+
+* Block Size -> 4 * 256 -> (2 ^ 2) * (2 ^ 8) -> 2 ^ 10.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c3475d4-4030-4ee7-96d6-be6737e8fedd)
+
+* We have to take the **network ID** of the **first network** which is the **first address** of the **frist network**.
+* It should be **divisible** by **2 ^ 10**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c39492ec-21ba-4bea-bca9-d6379885a4c1)
+
+* We have combined **A,B, C and D** network to form a new network.
+* What is the **network ID** of the **new network**?
+
+> The **network ID or the block ID** of a **block** is the **first IP address**, which is **200.1.0.0**.
+
+* THe block size is **2 ^ 10** which means the *host ID** is **10**.
+* Network ID -> 32 - 10 -> 22.
+* So the **network mask** -> **/22**.
+* **network ID or the block ID** -> 200.1.0.0/22
+* Supernet ID, Network ID, new block ID -> 200.1.0.0.
+* Network mask, supernet mask -> **/22**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ee16dfe-7212-4704-942e-d2bd13ecd903)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc2f77f3-bacb-493a-a8b3-6977aedaae2e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd1a44f0-f7ce-43a6-a3a6-526b44af4c5e)
+
+* Why supernet masking is used?
+
+> 
+
+
+
+
+
+
+
+
 
 
 
