@@ -2264,27 +2264,76 @@ which is **/13**.
 
 * Why supernet masking is used?
 
-> 
+> To simplyfy the routing table we use subnetting.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6569a2b7-31df-4e8b-8016-db8fc04f3638)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a9f4431b-05da-488c-8b32-fa9f58c8bbc4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d56749f7-1659-4dcd-8dd8-d0a949cfdd43)
 
+* When we are doing **subnetting**, what is happening to network mask?
 
+> **Increasing**.
 
+* In **subnetting**, we are dividing the network into **smaller networks**. Hence, the **size of the network** is **decreasing**. It means that **no. of hosts** are **decreasing**. So, the **host ID** is also **decreasing**. As, **host ID** is **decreasing**, so the **no. of 0's** are also **decreasing**,which means that **no. of 1's** are **increasing**. Hence, **network mask** is **increasing**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f99fce3-0c29-4cf0-8105-fb2d81dd32f4)
 
+* In **supernetting**, we have many networks, and we are actually combining them. Therefore, the **size of the network** is **increasing**. It measn that the **no. of hosts** are  **increasing**. So, the **host ID** is also **increasing**. As, **host ID** is **increasing**, so the **no. of 0's** are also **increasing**. So, the **no. of 1's** are **decreasing**. Hence, the size of the **network mask** is **decreasing**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dde15326-ef1b-46c6-bf53-f8121c372ba4)
 
+* While doing **subnetting**, we are **borrowing bits** from **host ID(HID)**.
+* While doing **supernetting**, we are **borrowing bits** from **network ID(NID)**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d56cbe8-e149-4db7-a337-3c58d9f9b81b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/62a42bd0-2176-4d30-bb4d-d89005360eb6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e57e4e95-040c-40fb-8504-b2f002f7c055)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/45d1cdef-2d49-46b4-8aa2-146fa910a77b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/589fc6ad-9508-460c-814b-d9ec8002d663)
 
+* Instead of **4** entries, we now have only **one entry**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb7042d0-d204-43e4-81a6-ab5ea042367e)
 
+* Size of each network -> 2 ^ 16.
+* Total size -> 4 * (2 ^ 16) -> 2 ^ 18.
+* 2 ^ 18 -> Host ID -> 18
+* Network ID -> 32 - 18 -> 14
+* Network ID -> 10.0.0.0/14
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d2e65d0-b9c2-4f15-8bfc-82738f097839)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb2b8818-0c39-4c63-8a5c-efc679ba08d1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c78028a-4f15-4393-9d6b-8b376dba07cc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/18bcbbdb-aa82-4bd0-a3a5-8eeda2af45fd)
 
+* [**IMPORTANT**]
 
+1) First generate the **ranges** of the addresses, to check if they are **continuous** or not.
 
+> We are having **/24** so we have **first 24** bit as **network ID**, so after that generate the **range**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6bc85c3-5247-4f76-9f28-5137bc69670c)
 
+* Rule **1** satisfied.
 
+2) Check if the **total size** of the network is in **power of 2** or not, which is **2 ^ K**.
 
+* Each network size is **2 ^ 8**.
+* We are getting **(2 ^ 8) * 4 -> 2 ^ 10**.
+* Rule **2** satisfied.
+
+3) **First address of the first network** should be **divisible** by the **network size** which is **2 ^ 10**.
+
+> We should get **10 0's** at the end of the **first address of the first network** then only that **address** is **divisible** by the **network size** which is **2 ^ 10**.
+
+* We are not getting **10 0's** at the end so **first address of the first network** is not **evenly divisible** by the **network size** which is **2 ^ 10**.
+* Rule **3** not satisfied.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9dea564f-58df-459c-bd18-6839de0fe71e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/45953847-41b7-4a94-aee9-249df4873aa9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b5a983b-2f09-4ca0-aea3-fdb4c3b7600e)
+
+* As, Rule **3** not satisfied.
 
 
 
