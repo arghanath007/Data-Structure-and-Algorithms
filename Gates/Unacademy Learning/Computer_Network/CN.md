@@ -2097,14 +2097,44 @@ b75c-069f980307a2)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/93b8bd41-8f60-41b1-b6d0-842ddbb1103a)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6e487ecc-cb6d-4607-932e-a58e2980cf71)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b73313a-59ed-4504-b5c3-5d1155dd77a0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4484eba6-5f87-4660-885c-2a68096ddbb6)
 
+* **/12** is the network ID.
+* Rest is **host ID**.
+* It from **0 to 15**, so we have **16 networks** of size **256 * 256**.
+* As we want **two** networks, we are dividing the original network which is **(16 * 256 * 256) / 2** which gives **8 * 256 * 256** sized networks.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/359659b2-7943-46c5-beb1-e4a259f64ad2)
 
+* The range is for the first part is from **10.0.0.0** to **10.7.255.255**
+* The range is for the second part is from **10.8.0.0** to **10.15.255.255**
+* Network ID was **12 bits**.
+* **1 bit** is used for **subnet ID**.
+* So **12 + 1 -> 13**, which is **/13**.
+* The range is for the first part is from **10.0.0.0/13** to **10.7.255.255/13**
+* The range is for the second part is from **10.8.0.0/13** to **10.15.255.255/13**
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3568f82a-caf2-4122-9aee-d85d87d84a03)
 
+* 4 parts
+* 10.10.10.10/12
+* We have **16 networks** and size is **256 * 256**.
+* We need **4 networks**, so **(16 * 256 * 256) / 4 -> 4 * 256 * 256**.
+* Network ID = 12 bits
+* Subnet ID -> 2 bits -> 2 ^ 2 -> 4
+* So it is **12 + 2 -> 14** which is **/14**.
+* The range is for the first part is from **10.0.0.0/14** to **10.3.255.255/14**
+* The range is for the second part is from **10.4.0.0/14** to **10.7.255.255/14**
+* The range is for the third part is from **10.8.0.0/14** to **10.11.255.255/14**
+* The range is for the fourth part is from **10.12.0.0/14** to **10.15.255.255/14**
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5538b0ea-36f0-42d3-85bc-890550576f52)
 
+* Question.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7eee21aa-0304-4618-93d6-0b9644ef35c2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/00066e45-154a-4cf5-b9c7-2e6a8fd5b057)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2dd31c85-5df7-445d-8989-dfba07bed960)
 
 
 
@@ -2164,8 +2194,7 @@ b75c-069f980307a2)
 
 
 
-
-
+### Misplaced Images
 
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/62e3bd2e-4498-4c70-8565-62c2f8fa0bc8)
