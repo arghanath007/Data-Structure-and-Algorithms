@@ -2001,6 +2001,151 @@ b75c-069f980307a2)
 
 * [**IMPORTANT**]
 
+## computer-networks-problem-solving-on-vlsm-in-cidr (11) [6th July 2023]
+
+* We have to divide a network which is **128** into **small networks** of size **32**.
+* Size of **each network** is **2 ^ 5 -> 32**.
+* So, **Host ID** is **5 bits**.
+* Network ID -> 32 - 5 -> 27
+* So, we have to write **/27** at the end of all the **ranges**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e78e6c15-d120-48f9-a7b2-0f01f4897e55)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a9af92a0-95ad-4e16-91d4-1de96ed64f35)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d61bffed-bf5e-4861-a09c-650a1f021965)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ddc3f4b1-218e-4032-860e-ed9a8aa4173f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a7e123b-86ee-4a21-9e29-afa8416d9a5f)
+
+* What is the subnet mask of the network?
+
+> **/25** which is **255.255.255.10000000 -> 255.255.255.128**.
+
+* It is also called as **network mask/subnet mask**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fcb065d3-2abc-46fb-89c7-b210aedfcab6)
+
+* We have already taken **25 bits** from the **network ID** part, and we have taken **1 bit** for **subnet ID part**. So we will put **25 + 1 -> 26**, which is **/26** at the end of the address.
+
+* Address -> 20.30.40.00______.
+
+* What is the subnet mask of the network?
+
+> **/26** which is **255.255.255.11000000 -> 255.255.255.192**.
+
+* What is the network ID?
+
+> **20.30.40.00______ -> 20.30.40.00000000/26 -> 20.30.40.0/26**.
+> Taking the **starting address** of the network.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b197367e-372b-4f48-992a-4e8b469ef84d)
+
+* Address -> 20.30.40.010_____.
+
+* What is the subnet mask of the network?
+
+> **/27** which is **255.255.255.11100000 -> 255.255.255.224**.
+
+* What is the network ID?
+
+> **20.30.40.010_____ -> 20.30.40.01000000/27 -> 20.30.40.0/64**.
+> Taking the **starting address** of the network.
+
+* Address -> 20.30.40.011_____.
+
+* What is the subnet mask of the network?
+
+> **/27** which is **255.255.255.11100000 -> 255.255.255.224**.
+
+* What is the network ID?
+
+> **20.30.40.011_____ -> 20.30.40.01100000/27 -> 20.30.40.0/96**. [64 + 32]
+> Taking the **starting address** of the network.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/78512ef3-2f33-4f55-9596-f32b93764279)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33cf82b9-2c53-489b-8ba8-b563efe162ca)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3fe00b8a-5802-4d32-bd32-0bef67c7e576)
+
+* Find the ranges? 
+
+* 0 to 127 -> 128/2 -> 64
+* 64/2 -> 32
+* Parts -> 32, 32, 64
+* A -> 32
+* B -> 32
+* C -> 64
+* Address for **A** -> 20.30.40.0 00_____
+* Network ID -> 20.30.40.0 0000000 to 20.30.40.0 0011111 -> 20.30.40.0 to 20.30.40.31
+* Subnet ID -> 2 bit -> 00
+* Total -> 25 + 2 -> 27
+* Subnet Mask -> 255.255.255.11100000 -> 255.255.255.224/27
+
+* Address for **B** -> 20.30.40.0 01_____
+* Network ID -> 20.30.40.0 0100000 to 20.30.40.0 0111111 -> 20.30.40.32 to 20.30.40.63
+* Subnet ID -> 2 bit -> 01
+* Total -> 25 + 2 -> 27
+* Subnet Mask -> 255.255.255.11100000 -> 255.255.255.224/27
+
+* Address for **C** -> 20.30.40.0 1______
+* Network ID -> 20.30.40.0 1000000 to 20.30.40.0 1111111 -> 20.30.40.64 to 20.30.40.127
+* Subnet ID -> 1 bit -> 1
+* Total -> 25 + 1 -> 26
+* Subnet Mask -> 255.255.255.11000000 -> 255.255.255.192/27
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8c38f4ae-8123-405c-8dc0-47ac0983dc51)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/93b8bd41-8f60-41b1-b6d0-842ddbb1103a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6e487ecc-cb6d-4607-932e-a58e2980cf71)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b73313a-59ed-4504-b5c3-5d1155dd77a0)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
