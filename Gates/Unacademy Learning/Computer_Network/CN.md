@@ -2333,7 +2333,7 @@ which is **/13**.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/45953847-41b7-4a94-aee9-249df4873aa9)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b5a983b-2f09-4ca0-aea3-fdb4c3b7600e)
 
-* As, Rule **3** not satisfied.
+* As, Rule **3** not satisfied, so **aggregation** failed.
 
 
 
