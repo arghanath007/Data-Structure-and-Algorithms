@@ -8595,6 +8595,156 @@ b5da-42ddc3936df0)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b9737d0-4620-40de-aa0f-31ec874f3ace)
 
 
+## Doubt clearing session(45) [6th July 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/114d1776-ddc2-46ce-ab9b-2b9123d1b1f8)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/56f40cbf-4736-4b26-b928-09cec9b83c1a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b580c6ce-79c2-448c-8fc7-a6159d20ec98)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4650222a-07ac-41fb-9663-2fcbb3f8a718)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/48dc073e-8011-441e-8007-d0ed603278cb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b6c8c58-a337-4981-936f-f500afe72a84)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f34ecf5-153b-42aa-9dd4-7988d0d4d14c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d3a09f7-0503-4bee-9825-50e896aff0da)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58f84d1a-2009-4bdc-8a1d-105dd1e5b1f4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/67580e1f-3613-4c09-ba53-ecb3f150bb5c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a49500d-4f91-403a-afe2-0286aa659407)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1226396c-6607-4b36-aae5-279ba8e88b36)
+
+* **7** days.
+* **Distribution of wages(money)** depends upon the **amount** of **work done**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f09b0219-3974-4e85-a092-a2fa9bc68577)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1756166-626f-4939-8811-903077a08f30)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a067cff3-1f63-4325-9c9d-3f62a49b39b4)
+
+* This is **better**.
+* Find the **ratio**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/242fe78b-b462-4af1-abd0-19d747307848)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6f721f2-a2df-4f3b-876f-d080a644078c)
+
+## Pipes and Cisterns
+
+* How long will it take to fill the whole thing when both **A and B** are running together? 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dce376a0-c7d6-4296-a61e-eadcbb8b5ed5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a672271-1b39-4289-b434-c2b68bcd318d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3afd692b-ed46-4bf6-bc75-5a170cf7465d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65d5730e-6aa4-4cfd-970a-64ba31892618)
+
+* 1/12 -> 0.0833 -> 0.08333 * 100 -> 8.33%
+* 1/15 -> 0.06666 -> 0.0666 * 100 -> 6.66%
+* Total -> 8.33% + 6.66% -> 14.99 -> 15%
+* 100/15 -> 6 *(2/3) hrs.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e7a5fd0c-a855-43b3-a384-acca9f2ecb98)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ec4f16e-8bac-4274-8bde-fa31c7322b15)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a9de18b3-6728-4047-b87b-60443f5d457a)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5581ddf-4935-4c2a-964a-a332965c324a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36d8afa9-ead3-45df-926e-7ec80884852f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ac5b1b2-14fb-4818-bb4c-480cdb158555)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d83046f1-494d-43c0-841d-1a5dfe384e8c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/150e01b4-b9bf-48c9-886d-0f429957e26f)
+
+* When was the **last pipe** started.
+* At **8AM**, the tank was filled by **24%**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1570964a-9747-4fe6-95a1-4abad6dfa2f0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa099a82-4917-44fd-837d-248956776c0d)
+
+* Question
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7518c81d-bf06-44f8-a8e3-acffb5f471b7)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
  
@@ -8939,8 +9089,10 @@ b5da-42ddc3936df0)
 * Casualness leads to casualties.
 * We become what we consume.
 * We are slaves of our symbols.
+* I am one step away from success.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cbbd6d3e-22bc-43b0-a083-7f26b35f7926)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7fece5d9-38fe-4178-97fa-937016011223)
 
 * You have to pay the  price , you have to pray the full price , you have to pay the full price in advance
 
