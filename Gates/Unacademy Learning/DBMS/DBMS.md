@@ -3839,6 +3839,15 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b90e1d14-a4cb-4edb-8804-5998e7d2dc8f)
 
 
+### Doubts
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/82062142-d550-41ea-b536-aef2926e41de)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/04bb2515-685c-4302-9357-3b159a843702)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae9ba7ef-86de-461a-99ae-2953c8c6ee67)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/52bec4c6-30a8-428f-8771-3b2f0bfd95a0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d7629e8f-8a94-40ac-8331-6003161d058e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35d0cd07-e62e-46dd-aa4e-e4f4b45268e8)
+
 
 
 
