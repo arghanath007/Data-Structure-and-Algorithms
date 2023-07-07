@@ -1,4 +1,4 @@
-# DBMS
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c22ab88f-5e8d-4d32-bf6a-4f9f85cab65a)# DBMS
 
 # Course Structure
 
@@ -3624,7 +3624,246 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 
 ## Lossy VS Lossless Decomposition.
 
-* Start from **27mins**.
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ce16a85-cd68-4179-a0de-1eb15f552412)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c70cf1ef-6705-4d77-89a6-03d70cc2776b)
+
+* We will do **inner join** and the **common column** is **sname**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d9ce057-c399-4bc8-aa21-a35b522bee7f)
+
+* select * from student_details S inner join s_department d on S.sname = d.sname;
+* We will get **4 columns** and **4 rows**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d42656f5-550a-485c-931b-3fdf219326cd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b71f7f3-965b-46a7-9036-bc261e32455a)
+
+* If we want the **department** of **roll 12 vishvadeep**, then the **query engine** will be **confused** as we have **two roll 12 vishvadeep**, one of them has **CSE** as their **department** and the other has **AI** as their **department**.
+
+* We didn't get the **correct** information, we wanted.
+* THis is **lossy decomposition**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/de45ed1f-0460-4265-a27a-0629faeb2fad)
+
+* It will be **lossy decomposition** when we do **inner join** on the **decomposition tables** and after doing **inner join** the **result set** that we will get. If the **result set** is **not equal** to the **original table** then it is **lossy decomposition**.
+
+* If the **result set** is **same to same** as the **original table** then it is **lossles decomposition**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa0f5d16-2335-4ae8-a5ed-1a984a57a278)
+
+* We don't know which is the **original data**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7525bbd-27a6-4280-9f97-2f02b1385707)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f3a4e3c-54c6-46f0-94d9-b039f2d2c7bc)
+
+* Lossy Join Decomposition
+* The join is **inner join**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ad342e9-25d2-430d-ab17-3e4fe6f4ce32)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/03e2ce19-3f1a-450f-9bb1-8b85be934dfa)
+
+* Lossless Join Decomposition
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d22f539d-5e8b-484f-a35b-6cf4c4045b79)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e85712f1-8855-4bc0-bda6-027917bde58b)
+
+* select * from student_details S, S_department d where S.rno = d.rno
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5aeeda57-e490-4a69-b387-df6a160a94a5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/74f0cf3d-5f28-4048-8165-7c99f2d18c3f)
+
+* Inner Join
+* R becomes a **subset** of the **result set** -> Lossy decomposition.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c80c6734-61b0-4504-b897-d5894f4e1cb9)
+
+* Question.
+* **Y** is the **common table**.
+* We will get **lossy decomposition** because **5** is there **two** times in **Y** column. We will get more columns than there was in the **original taable**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b151eec-b111-4676-9fe8-17a3d7d18fe3)
+
+* Good **observation**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44dfb87c-d483-456e-831c-dfae331be83b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dfa81e50-7a5e-4179-afbf-e43a0482b5ea)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c6eabe81-5bb9-4215-af52-685d4a6f7b21)
+
+* If the **common column(Rno)** is the **key** in **both the tables** then it should be**lossles**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2db03374-5b3a-47ed-b8a6-fb7397e8c648)
+
+* If the **common column(Sname)** is **not a key** in **both the tables** then it will be**lossy**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df65349e-dbe1-4a01-a61a-ad4e972dec12)
+
+* We are doing **intersection** between the **attributes** of **R1 and R2 table**.
+* If the **common attribute(D)** we got is a **candidate key** in anyone of **R1 or R2** -> **Lossless decomposition**.
+* **D** is **key** in **R2** hence it is **Lossless decomposition**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c55948d-82d1-4d88-bfa8-c9b58e9c024a)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5bd5b940-9e3d-4405-8c19-285999d358e4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/407cb8cc-b6dc-4312-963c-4f38688cc0df)
+
+* **R1 intersection R2**, between **R1(A, B, C) and R2(A, D, E)**. So, we have **A** as the **common attribute**.
+* Is **A** a key in **R1 or R2**?
+* As it is **yes**, so it is **lossles**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9bd1890-4ec5-4521-9b96-170a3a71c119)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d44b68c-7c8b-47b9-bed7-bcd44f5822ab)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e0ee71f-dae5-4d0f-8aff-b9c7a37e04f2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c81a715-f0e2-4cd6-8c33-3d937c8b8e09)
+
+* Lossy.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ffc82bad-577f-4fd5-a006-967977305d90)
+
+* Question.
+
+* Common between **R1 and R2** is **B, C**. **Two Attributes**.
+* If we have **more than one common attribute** then we have to write condition on all of the attributes.
+* We have to write **join condition** on all of the **attributes**.
+* We have to do **AND**.
+* R1's FDs, A -> BC, BC -> A
+* R2's FDs, B -> CD
+* R1's key -> A, BC
+* R2's Key -> B
+* As **BC** is a **key** in **R1**, so it is **lossless**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/17594bf9-e2d9-429f-8f29-4ab6f79205df)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3b27734f-9e4b-42ee-8214-d8641839a3e2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0a13dcc-64ce-4ed9-b2ed-1b445154cafd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/15c09d24-91d7-45b5-9449-7986e2f7d974)
+
+* lossless
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c3b32c45-5629-49ec-92d7-9fbdb55baeb3)
+
+* If **B** was alone then also **lossles**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/173f2c4d-7605-4758-a257-0027f7d7f77e)
+
+* Question.
+* If we do **inner join** of **three tables** then we have to write **two join conditions**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/199df87d-94d6-4deb-a468-cf9e35d9e250)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8bd3431d-ee01-4607-ad8d-222c1df9eee4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dec44e16-23c2-44e7-9f36-0b525303ab8e)
+
+* Combine **two-two** tables.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81b176f7-7838-490c-b2c3-c3785b2eabab)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4aaea5b-d661-4136-8f5a-e56b66123a4b)
+
+* Lossless.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/17d70ebf-468c-4a1f-ba14-79fde58f7b2f)
+
+* Question.
+* There is **no common attribute** between **R1 and R2**.
+* So, **lossy**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/588f3710-3fd6-4c57-bdf4-9e89638c35d3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c0921ba-4707-47c5-9dd8-1852906ff530)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/854a6023-e176-4027-a019-305af983a84d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1547083e-60f6-472d-80cb-e4796f39bcda)
+
+* **y** is the **partial dependency**, we **remove** it from the **original table**.
+* **y** was **dependent** on **x**.
+* **x** also goes to the **new table** with **y** and **x** becomes the **key** of that **table**.
+* **x** is also present in the **original table** also.
+* So, **x** is common in the **new as well as the original table** and **x** is **key** in **one of the tables**.
+* That's why **2NF and 3NF** always gives **lossless decomposition**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a7477c0-0640-4260-94d1-6295869d53ff)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e2af48a-73f6-4ae9-9c6b-71c780e0f267)
+
+> First we will check **common attributes**, then we will check if among them we have any **keys** or not.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7fed8730-5e8a-4544-9306-0c5f563d5d40)
+
+* **C** was the key in **R1**.
+* **AB** was the key in **R2**.
+* Common was **A**.
+* **A** was not a key in **R1 and R2**.
+* So, **Lossy** then.
+* Doesn't matter with **prime attributes**.
+
+## Dependency Preserving Decomposition
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a2d5626-abbd-4e6c-bbea-8a9abc2c729a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d42c7c1e-5808-4d8a-b10d-1fa30b9efee2)
+
+* So, **Dependency Preserving Decomposition** example.
+*From the **union** of the **FDs** of **R1 and R2**, we couldn't get **D -> A**. So it is a **not Dependency Preserving Decomposition** example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c4237fea-c83d-4857-9d55-0deb20a766f9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/279a7355-3336-4b5f-a94e-a8d81190c37b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3be8b4df-019e-4a0c-ab72-bda7cf46f729)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/da7c32db-9e10-4887-ba77-05bfbd3882e8)
+
+* Not
+* D -> C, lost
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0577fc14-865a-4367-98bf-e9d800722172)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dadf594b-b12d-42e1-a9b1-bc279f780000)
+
+* Question.
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3edc9e38-44ee-4a5e-a06b-24084730d754)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf9099cd-287a-4ccf-ab7e-ed1ce6b75f87)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/84e7a534-adba-4c6a-86dd-10f0b8e3ee23)
+
+* Question
+* Option **2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e67a6961-916f-4033-8f66-d49d925c58a4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ba5b0de-94b8-4eac-a7dd-e63d790d65ba)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e81e7c67-0b77-4c7f-bb43-5132a531e749)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b90e1d14-a4cb-4edb-8804-5998e7d2dc8f)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
