@@ -8663,23 +8663,132 @@ b5da-42ddc3936df0)
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7518c81d-bf06-44f8-a8e3-acffb5f471b7)
 
+## Time speed distance work and time part-VIII(46) [7th July 2023]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b2ff1546-2a51-410b-94df-772a55c670d8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cec690ce-2ee6-41e5-becf-d7df48af9fc7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d867e65d-fcf5-49b4-9f30-a5d9324aa9bb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b1109d34-e103-4396-b8e7-fb3e8c890948)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76311447-a62d-4d01-8c7c-da9a64365201)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f1bb0876-e4c1-491d-994a-322db738764b)
 
+* Question
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b31e875-4cc4-49b4-aaaf-4bfc3eee9134)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd72a9b8-c929-45e5-b711-6438c87e7088)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd5abfab-472d-49a2-a9ed-6b67e43ade3b)
 
+* Option **C**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae33cd7c-aec8-4767-9192-c8772714a8fe)
 
+* Question
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9868a382-a175-4e62-9a33-d458ef19a494)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f3450230-e2be-40a1-be4f-64713219ef5c)
 
+* **C** is **outlet** pipe.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/452e0dcf-1f3b-437d-b1ab-23b899ff9699)
 
+* Time -> 06:56PM.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19611040-a6ce-4a35-a21a-d05bae834392)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e396b72-115e-4df4-839f-461b3ac68813)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/94f3c41f-de98-4eb9-a189-0f01b9f52977)
 
+* Work Done **directly proportional** to the **no. of men**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4a11015-91a2-4cfe-8e03-98e79758c4c8)
 
+* W = D * M * T * E.
+* W -> Work
+* D -> No. of days
+* M -> Men/Women
+* T -> Time
+* E -> Efficiency.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6b3a9d0-bed3-423f-b6bb-391ee52a3bb5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e56c517b-6764-43c3-b149-e183299ddbcc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7bcf295d-d32d-4494-a8fe-99239b8e737e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc01c0ca-13ef-4595-9354-f21a874665a3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1281d107-2c76-4677-aa49-36fd1a3b1ff1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/871d1956-8988-4a9f-a472-3a6c3d06a98b)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9567d667-35a6-45ed-a17f-616009010798)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a3739a0-b4ef-403e-a0c2-8a54fd1b5f3e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0773ee18-8044-4f42-a5ee-12ff6df92291)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/82bf5f7c-9b2f-4db5-b0cb-18cb180ac8b9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/59c08e42-0f33-45d5-b3fc-109999a0dcf8)
+
+* **Work Done(W)** is sometimes defined in the form of **volume** as well.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd265f98-3d88-4707-9d30-9b67cf66c40e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7fdfc522-720a-4872-90c6-742ce1c7a2ed)
+
+* Question.
+* Days -> 6 days.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/021cefff-9e85-4e2f-a2a1-a08f752d69a0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ba3deef-a401-4e98-9291-20ce62a08a44)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/06827034-6d4d-4276-8747-7d910450bdcd)
+
+* Efficiency of **5 Men** = Efficiency of **8 Women**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2af5135d-826c-4dc6-8b50-8c98e5365791)
+
+* 5 M = 8 W
+* 1 M = 8/5 W
+* 1 W = 5/8 M.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ab7460c-7f0f-45c0-ae93-5f79f0c049e7)
+
+* Convert into **full Men** or into **full women** then calculate for the **no. of days**.
+* Here also use **W = DMTE**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80bed3af-5baf-4737-8072-7323c33f41ed)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a43ceb1c-d0c7-422e-aa14-0ac63cf48351)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/01a49f6b-c4e8-4dac-b44a-7e315b75ed60)
+
+* **P/S -> Pipes and Cisterns**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dda174ca-379a-433c-9b21-309cb948daf6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b47dc88-0617-4fb6-8890-ee38f9b83bb8)
+
+* We can also apply **W = DMTE** in **P/S -> Pipes and Cisterns** as well.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ca434d70-8e2b-4bdb-ad1d-38ab9dbac1c6)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34b8410c-54fa-4ad1-ac76-62d94cb2622b)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ed7fc5a-d4df-4cf7-92fb-7d3dc708b4aa)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e6418d8-384d-4f3e-b740-8b3fdce8d791)
+
+* Question
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d9034ce-2f11-4329-a585-d7cd5c2d1861)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ce54471-4173-4df5-a190-71b782122107)
 
 
 
@@ -8988,7 +9097,11 @@ b5da-42ddc3936df0)
 * Belongingness
 * Empathy -> Understanding the same emotion.
 * Sympathy -> Daya -> pittyness
-* Guilt 
+* Guilt
+* Non-chalant -> Casual/ Relaxed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0161b8a1-f8ea-4a1b-869b-353e68d7df71)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3733886d-a0bf-4c6d-9d0f-135df56e3008)
 
 
 
