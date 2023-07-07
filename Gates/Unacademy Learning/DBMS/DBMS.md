@@ -3569,16 +3569,62 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/382515b9-177b-49da-8628-407fb9e00b9c)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30a7411c-cb70-4bc3-9b3e-172a8835448e)
 
-
 ## Doubt clearing session(16) [7th July 2023]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c07ca70-51bb-4b21-8841-be24e27fc5e6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b4378d5b-acb6-4e1c-8fe9-56b1ad5a3ded)
 
+* Relation is already in **3NF**.
+* Also in **BCNF** because for each **FD**, the **LHS** is a **key**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32327a14-fa63-4b9e-981b-887cd8552037)
 
+* Yes.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1359acff-3862-4dd2-a691-214613b6801c)
 
+* Question.
+* Answer -> **a, b, c**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc78a731-4271-40b3-8ce9-0a7cf0122983)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ef86a96-aad7-4713-9ca6-bddcbea3af78)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e2ddf8c7-601a-48d3-9136-5831b80f1332)
 
+* BCNF
+* [**IMPORTANT**]
+* A -> B
+* No partial or transative dependencies
+* LHS is a **key**
+* So **BCNF**.
+* Same for **B -> A, AB -> AB**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cedb3ef2-ec2c-4639-ba87-6f11d50af119)
+
+* We said that if more than **2 attributes** are given then it is not possible to find **relation** without **FDs**.
+* If **2 attributes** are there then it is possible without **FDs**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3bca28b2-7618-4e6c-aae3-2ebcb9c8f0d1)
+
+* Question.
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be7e6f58-7a75-4784-9d07-8d07a352ed8d)
+
+* For **partial dependency**, all of the **above problems** happen.
+* To remove them we apply **normalization**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd1a6d1f-28ed-4e60-81fb-8e880c757396)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e39d97f-c316-492c-8f0f-3aa0357c4078)
+
+* **Inconsistency** comes because of **redundancy**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72b15f97-ba23-47df-9a95-b379d1374a01)
+
+* Yes.
+
+## Lossy VS Lossless Decomposition.
+
+* Start from **27mins**.
 
 
 
