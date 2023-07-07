@@ -3561,7 +3561,16 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e000ffd4-2123-4aee-bd37-9a5410240a5d)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72b845ff-90b1-4188-a98d-e8bc3f9954f2)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dae27d31-0110-44c0-b596-e25df7836b80)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e207028-2a6a-4a9f-b9a2-f6d1a430bdc0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b993ef4-5809-4c37-93f8-8f68bdb4e7ef)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/62efd41a-1125-4281-a9c6-c439595289a2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9be6958b-211a-4e7d-89d2-a5ab4c9ad008)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/497c97b8-2325-4094-95bc-a96a7c6e704c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/382515b9-177b-49da-8628-407fb9e00b9c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30a7411c-cb70-4bc3-9b3e-172a8835448e)
 
+
+## Doubt clearing session(16) [7th July 2023]
 
 
 
