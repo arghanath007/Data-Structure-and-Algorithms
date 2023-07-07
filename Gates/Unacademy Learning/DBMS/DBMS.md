@@ -3328,47 +3328,239 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/035c330c-b837-4fd8-bf3f-b8a5093bdeec)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5888d5e8-d273-4f0c-a83e-031ef39daa60)
 
+## Questions on relational modeling fd normalization (15) [7th July 2023]
 
+* Normalization -> To Remove **redundancy**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a2b7b8e-69a5-4963-ac8d-6c03334bcd7e)
 
+* **AB** is a **candidate key**.
+* **B -> C** is **possible**.
+* **C -> B** is **not possible**.
+* We have a **partial dependency**, as **AB** is a **candidate key** and **B -> C** is **possible**.
+* So, the **partial dependency** is **B -> C**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7180af91-8f02-43bd-8bba-3e0455458d1b)
 
+* In the **R2** table, why write the **same values** multiple times, write it **once**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba903be7-8d69-49e9-a0c2-e54ef7ddc745)
 
+* Reduced or reducing **redundancy** of **partial dependency**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91f53274-0199-4442-b299-8546348dae72)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/155e4210-f420-41e7-8e1d-568adc2dc1e2)
 
+* Question.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/45b49d67-c574-4bce-b856-1bfa1188e1cd)
 
+* Steps to get **2NF**, Method(Decompose into 2NF):-
 
+1) Find the **Candidate Key**.
+2) Find the **prime and non-prime attributes**.
+3) Check if **individual values** from the **Candidate Key** have **dependency** on **non-prime attributes**.
+4) If so, then they are **partial dependencies**.
 
+* As we found that **AB -> C** is causing **partial dependency**, so remove **C** from **R** table.
+* Keep **C** in a **separate** table with it's **dependency** which is **AB**, which is **R2** table.
 
+* As we found that **D -> C** is causing **partial dependency**, so remove **E** from **R** table.
+* Keep **E** in a **separate** table with it's **dependency** which is **D**, which is **R3** table.
+* Don't remove the **dependencies**, which are **AB and D** from the **original table(R)**.
+* Only remove **C and E** from the **original table(R)**.
 
+* R1(A, B, D) -> No Need of **FDs** as **ABD** together is making a **key**. No sense of **deriving** a fourth attribute.
+* R2(A,B, E)
+* R3(D -> E)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f1126ebc-21f0-4de0-b804-210ba7b42059)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a87b06c1-0aca-46d7-af61-026984f8597f)
 
+* For every **partial dependency** we will create a **separate table**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5f3358e8-dbfa-4caa-9354-a5b8688ce4a2)
 
+* Question
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a203d0a4-8d6e-4ee3-b706-533a7d35181b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a13e2aee-1021-4cd5-9fec-c2ecda2f4be3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05b1c9b9-65f4-45c3-97bf-6069f5856779)
 
+* In **2NF**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5f754768-7b97-43cf-b397-70245ba798f0)
 
+## 3NF
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a07132b-11c5-49a8-8650-da0bd312d796)
 
+* **No**. Not dependent on the **key**, it is dependent on **A**, whch is not the **key**.
+* Transitively dependent
+* Key -> Non-prime
+* Non-prime -> Non-prime
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1552441-9541-4195-b3c1-c5ac2cd5a2ae)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f3d5238b-9961-47a1-b871-3532ca059782)
 
+* Candidate key -> AB
+* Prime -> A, B
+* Non-prime -> C, D
+* Check for 2NF -> No partial dependency -> **2NF satisfied** -> It is in **2NF**..
 
+* AB -> C [Key -> non-prime]
+* C -> D [non-prime -> non-prime]
+* So, AB -> D [Transitively dependent]
+* **D** is **Transitively dependent** on the **key(AB)**.
+* So, **3NF** not satisfied.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22cb98d5-1b63-4f84-aee1-19d955c23b55)
 
+* **D** is **dependent**, **D** is the **issue/problem**.
+* If **D** is the **issue/problem**, then **remove 'D'**.
+* Keep **D** in a **separate table** with **C**.
+* We will do **decomposition** here.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dad465e2-985f-4bc9-823e-829de43da488)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/20de97a7-a8bf-47da-8e7e-1be9010b98c8)
 
+* Decompose **R** into **2 relations**.
+* Whoever is **Transitively dependent**, **D** here, we will remove that from the **original table**. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2e6da6ce-4f9d-44a0-891c-5d8722f5b5ff)
 
+* Yes rule of **3NF**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ce197a9-46d9-47bb-95a2-fca4bc51cafe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b0eb1d2-da37-4408-9d36-04c54d25fcbd)
 
+* To whom **D** is **directly dependent** on, that should go with **D**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/46503d93-b39a-4f77-9056-070275df4bdb)
 
+* If **D** is transitively dependent on **key** then, **remove 'D'** from the **original table** and keep it in **another table** along with the **attribute** with which **D** is **directly dependent**.
+* Don't remove **C** from the **original table**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8983e6ab-5b5f-4f99-8d05-86a3fa524b49)
 
+* Yes.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b60a18c0-2ea5-4d8c-a0d2-4264734f7e37)
+
+* There is **transitive dependency** as **A** is the **key**.
+* A -> C
+* C -> D
+* A -> D
+* **D** is **transitive dependency** on **A**.
+* So **3NF** not **satisfied**.
+* We have to **decompose** the **R3** table into more tables to satisfy **3NF**.
+
+* If the **candidate key** is a **single column key** then there is **no partial dependency**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89dc63df-d77d-4817-b16a-9a95757d0e88)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f6eeeb0-c4ff-4dcd-b879-0bc22a04921f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/887979fd-6753-43ad-afe1-fb1b0b233901)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf451d38-b572-43f7-8b54-082d15a5d136)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac6ea0c4-36e6-4902-91d3-9ea4b9655c79)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e39151ba-aace-4c01-9cde-6324e800fa06)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b961ef3f-324e-423b-9f12-7eebcf79e9f8)
+
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/273c8c50-80f9-482b-9062-b3db9d3871db)
+
+* np -> Non-prime to Non-prime
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b7ff8fb8-b0a7-4012-82ef-d12ab80c8a33)
+
+* So, there will be **transitive dependency**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b7118a50-9e9f-46ab-bb47-aa9a7cc7d60e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27c95ccc-45e6-47fe-aede-25ea330acfad)
+
+* [**IMPORTANT**]
+* 3NF.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bdf1a88a-6c9c-43f6-9a0a-9c9fcc079c0f)
+
+* Then also **3NF** is adequate.
+
+## BCNF
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/728498aa-4381-46f0-9fe5-637c7794f42f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb9048e1-a00b-47f4-917b-e4611c4a1c6b)
+
+* Candidate Keys -> AB and AD.
+* No any partial or transitive dependency. Hence already in **3NF**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3883e08e-ff2b-4308-8b0d-0879463f8e8d)
+
+* In the **FDs** or **functional dependency**, the **LHS** should be a **key** for it to be in **BCNF**. [**IMPORTANT**]
+* Not in **BCNF**.
+* The solution is to do **decomposition**.
+* Remove **B** from the original table.
+* Put **B** in another table with **D**.
+* Do not remove **D** from original table.
+* Remove **B** from the original table and keep it in another table with **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19d81cd2-70e0-48fa-95ee-a53276e7fff5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/96fe50c6-b0e8-45ba-a3ea-16936b6cf1ce)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3634723d-0722-484e-8fee-99f926645c8b)
+
+* There is so **data loss** as earlier the **FD** was **AB -> CD** in the original(R) table but in **R1** table it is **A -> CD**. 
+* This **decomposition** is called as **lossy decomposition**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5b0d861-50a8-4b68-a6dd-89d53e8b6fcb)
+
+* The **original FD**, **AB -> CD**, is not **preserved**. It is now **A -> CD**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30831bd6-4836-4af6-836d-3ce8ce6dfc71)
+
+* **BCNF** can create problems. There is **no any solution** for this.
+* When we do **decomposition** till **3NF**, everything is **fine**. **No data loss**, no **FDs** are lost as well.
+* When we go to **BCNF**, there is a **possibility/chance** that **FD** is **not preserved** or the **decomposition** that happened, causes **data loss**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/372ecc2a-6768-4f9b-b3c2-d7ba8cf40d81)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a23a810e-20cd-4205-bb50-dd2aa2e687d7)
+
+* Upto 3NF decomposition -> Definitely **lossless and dependency preserving** -> **Compulsory**.
+* BCNF decomposition -> Not necessarily -> **lossless and dependency preserving** -> **possibility/chance**.
+
+* BCNF **always provides** lossless and dependency preserving decomposition?
+
+> **False**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66bcb98a-d8d5-408c-80b3-5dc0757a484e)
+
+* BCNF **may provide** lossless and dependency preserving decomposition?
+
+> **True**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/de84b500-0ba5-4fed-9179-7a097b478c5d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7072851f-f177-4119-a6c9-52636017057b)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5916ba7c-da64-42d0-967f-e3254f13691d)
+
+* Solved in my copy.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a3ff8f5-8483-402f-91ae-89b40bb2d82b)
+
+* Question
+* Option **A**.
+* Partial Dependency are there -> A -> C and B -> D.
+* So it is not in **2NF**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16854bc4-ddc8-4cd7-bbd4-cbef2647d07b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7792e435-df29-4dfc-ba9c-55c9ab01dfdb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a5d5e35-5d15-4abb-8ae9-29ef934f0291)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e000ffd4-2123-4aee-bd37-9a5410240a5d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72b845ff-90b1-4188-a98d-e8bc3f9954f2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dae27d31-0110-44c0-b596-e25df7836b80)
 
 
 
