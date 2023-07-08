@@ -2616,13 +2616,119 @@ which is **/13**.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0a823b8-f1a0-498b-a66e-5fca45bb53fb)
 
 * Efficiency(n) = 1 /(1 + 2 * a) [**IMPORTANT**]
-* a = Tp / Tt.
+* a = Tp / Tt. [**IMPORTANT**]
 
   ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/735f7343-9f7e-464f-8e02-2b3cf12f5290)
 
 * **Effective bandwidth, throughput, bandwidth utilization**, all of them are **same**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bbc5ae54-c9dc-463d-accb-4b28c4853f82)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/993dad75-5b53-4309-9e8b-310bb1f90234)
+
+* We know, a = Tp / Tt.
+* We know, Efficiency(n) = 1 /(1 + 2 * a)
+* We are dividing **(Tt/(Tt + 2Tp)) * B** by **Tt**.
+* We got **(1/ (1 + 2 * a)) * B**. [a = Tp / Tt]
+* We got **n * B**. [Efficiency(n) = 1 /(1 + 2 * a)]
+* So, **Throughput OR Effective bandwidth OR Bandwidth utilization** is **Efficiency(n) * Bandwidth(B)**.
+
+* **Throughput OR Effective bandwidth OR Bandwidth utilization** -> **Efficiency(n) * Bandwidth(B)** -> **n * B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/daa6fb2a-c651-49a2-950e-7c895f12d1ab)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98542220-4bfe-4e71-a9c1-49971439c3e6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4b5eab5-f559-47b0-bf6c-54c582bc8a4e)
+
+* [**IMPORTANT**]
+* This is the **standard formula** we are going to use in all of the **protocols**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9f39e214-a003-4879-af3e-fe13d24e6737)
+
+* Summary [**IMPORTANT**]
+* **Tt and Tp, throughput** are **standard formula**.
+* **Efficiency(n)** formula is only **applicable** for **stop and wait**.
+* For other **protocols**, the **value** is going to **change**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/779dcca8-6bd3-402e-b0af-6be3f1113c6d)
+
+* **Round Trip Time(RTT)** -> What is the **time taken** for a **bit** to go from **one end to another end** and comeback from the **other end to the original end**.
+
+* **Round Trip Time(RTT)** -> 2 * Tp -> 2 * (Propagation delay).
+* In **Round Trip Time(RTT)**, we consider only **Propagation delay(Tp)** and not about **Tt**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/698956c8-5c0f-4d90-acb6-b5e9d3e95310)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8045dd55-98bf-480f-ac73-0fa3a8f6e4b8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/279f4f24-0293-4dab-9139-d7a2e76d7ee2)
+
+* **Round Trip Time(RTT)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb2e42f8-aa96-4eda-a4e8-b7194ca1e9d8)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
