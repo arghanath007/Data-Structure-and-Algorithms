@@ -2551,27 +2551,78 @@ which is **/13**.
 
 * Every **receiver** has to do **flow control**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d7f395f-313a-4657-ad87-393d00739a92)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fbbcdba5-8b16-4d72-b436-c8f39470e75d)
+
+* We are **not interested** in the time at which the **first bit** reaches the **receiver**. We are interested in the **time** at which the **last bit** reaches the **receiver**.
+
+* That's is why we see that the **entire packet** is **transmitted** and we see that the **last bit** travels to the other side.
+* That is why it is **(Tt + Tp)**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d742ce04-b6ef-4cfd-ae61-99eec156cb23)
+
+* What happens on the **other side**?
+
+> We are going to have **Queing delay(Tq) and processsing delay(Tpro)**.
+
+* We will consider them as **zero(0)** because they will not be given in the question.
+* If given then we will consider them otherwise we will not consider them. They are **not important**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57c9aecf-e449-4053-ad41-6748f19098f7)
+
+> **Sender** is sending the **data packet** and the **receiver** has received it. Then, the **receiver** has to send the **acknowledgement**  and for the **acknowledgement** packet also there will be **transmission delay**. For the **acknowledgement** packet also there will be **propagation delay**.
+
+* Therefore for the **acknowledgement** packet also we have **transmission and propagation delay**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a4336834-5b8d-4964-85c1-a9a9cb481a9a)
+
+* Generally, the **length of the data packet(L_Data)** will be **much more or very high** compared to the **length of acknowledgement packet**.
+
+* Therefore the **transmission delay** for the **packet(Tt)** is actually ***very high** compared to the **transmission delay** of the **acknowledgement** packet(T_ack).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9049f0b3-158e-48c8-a646-996fc486cf49)
 
 
+* **Transmission delay(Tt)** depends on the **size of the data**.
+* **Propagation delay(Tp)** doesn't depend on the **size of the data**. It is just the **last bit**.
 
+* It is either a **bit** in the data or a bit in the **acknowledgement packet***, both are travelling with the **same** speed. 
+* The **last bit** which is the **Propagation delay(Tp)** present in the **data packet** or the **acknowledgement packet**, they are **same**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/243468f4-141d-406e-b806-43e920be5b40)
 
+* **Transmission delay(Tt)** of the **data packet** is **much greater** than the **Transmission delay(Tt)** of the **acknowledgement packet**.
 
+* It is because generally the **acknowledgement packet** is **smaller**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab301a6a-9fe3-4e5a-9aeb-3879b02b4917)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d9846e70-61f4-4458-bb92-5930ee84d1ee)
 
+* **Propagation delay** is going to be **same** for **anything**.
+* **Total Time taken** in order to transfer **one packet** and get back the **acknowledgement** is:-
 
+* **Total Time taken** -> Tt + Tp + Tp -> **(Tt + 2 * Tp)** [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6e806b42-58f9-48a5-987a-95caa89c9fb2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/29e9e5bf-4b2e-4179-b086-f7a14d49f51f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d45e6b9-e81e-4c38-bdd8-c52300090788)
 
+* [**IMPORTANT**]
 
+### Efficiency
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4665a0f4-f5e4-46e2-a7f4-9d14bb6ae1b7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0a823b8-f1a0-498b-a66e-5fca45bb53fb)
 
+* Efficiency(n) = 1 /(1 + 2 * a) [**IMPORTANT**]
+* a = Tp / Tt.
 
+  ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/735f7343-9f7e-464f-8e02-2b3cf12f5290)
 
+* **Effective bandwidth, throughput, bandwidth utilization**, all of them are **same**.
 
-
-
-
-
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bbc5ae54-c9dc-463d-accb-4b28c4853f82)
 
 
 
@@ -2598,3 +2649,4 @@ which is **/13**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/62e3bd2e-4498-4c70-8565-62c2f8fa0bc8)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5cfada5-4035-4541-bed0-9dc30980ed72)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/872195d4-3921-41f3-94dc-7b2819922cab
