@@ -2468,6 +2468,95 @@ which is **/13**.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a42302e-e1f1-40e8-8672-c10ef63d4602)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d020e31-74df-49bf-ae1e-3a6c4951875e)
 
+## Computer-networks-transmission-delay-propagation-delay-queuing-delay-processing-delay-and-flow-control-method (14) [8th July 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f9d72c9-f32c-40ac-8151-b1ddc255ffce)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be100dbe-2bb2-4c00-8e31-d2680879bb78)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fcb54bfa-d85f-4102-a4bd-0e87ba5a4171)
+
+
+## Propagation Delay
+
+* Time taken for one bit to travel from sender to receiver end of the link is called as **propagation delay**.
+
+ ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/70a0364a-46b9-486a-99ad-0a49350bbf3c)
+
+* Propagation Delay **depends** on:-
+
+1) Distance of the link(d)
+
+* Propagation Delay(Tp) = (Distance of the link(d)) / Velocity(V)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6eec0d29-90d7-4f35-bb01-2d3eb9be21ce)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/734f07a7-fbcd-4c39-b010-db281d11f5d4)
+
+* d = 2.1 Km -> 2.1 * 1000 -> 2100 m
+* v = 2.1 * 10 ^ 8 m/s -> 21 * 10  * 7 m/s
+* Propagation Delay(Tp) = d / v -> 2100 / (21 * (10 ^ 7)) -> 10 ^ (-5) secs.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/247b8f59-3113-4d61-b7a6-6c56389f9b96)
+
+* 1 Micro sec -> 10 ^ (-6) secs
+* 1 mili sec -> 10 ^ (-3) secs.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/541658a3-c5d9-45b7-8e24-3b361fb13ff7)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/afedc54a-ea26-46c6-833c-74f8ff4ff73d)
+
+* Queuing Delay.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d728ce56-57c1-4dbb-b241-15061788dcdb)
+
+* Processing delay.
+
+* **Queuing and Processing delay** they **depend** on the **speed of the processor** at the **destination**. Therefore, it is not easy to compute **Queuing and Processing delay** times.
+
+* So, **Queuing and Processing delay** time sa re generally considered as **zero(0)** unless they are **given**.
+* In most of the cases, they will not be given.
+* We don't worry about  **Queuing and Processing delay**.
+* We worry about what the **Transition delay(Tt) and propagation delay(Tp)** are.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e08e99ad-e6ac-422c-b29c-3bdc6cf86df0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/15cc0807-873d-4b5c-a06b-b404cf21e78b)
+
+## Flow Control Methods
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32c7989b-3609-48c0-a08e-75bbb8429e9d)
+
+* Flow Control -> A fast sender should not overload the receiver. Stopping a **fast sender** so that the **receiver** can actually process the **packets**.
+* Basic **Flow Control** is **Stop and Wait**.
+* Every receiver will have it's own speed right.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/567cda18-d05e-462a-9ca9-4141f8d91d46)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3fe6eff6-252d-41a6-8fcc-6edad27afd08)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b4e2db60-2a49-4944-9254-45f293008e2a)
+
+* **Stop and Wait** -> The name itself says that the **sender** should send **one packet** and it should **stop** and it should **wait**.
+* **Wait** for what?
+
+> **Wait** for the **receiver** to send the **acknowledgement** that the **receiver** has received the **previous packet**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ca77bfbb-7487-444e-9694-30ace280c773)
+
+* The **sender** should always **send** the **packets** at a **rate** or at a **speed** in which the **receiver** can receive those **packets**.
+* This is why **flow control** is required.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/052c2bfb-038f-47cf-9cac-c78cc10592b4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/356f784d-4643-43a1-9c42-dbf6b1df1360)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c51aef1a-c60a-4800-9560-91342ad99811)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2969a8d1-2bba-432e-b928-56f61821d1ac)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2586e321-61aa-4b8d-98ee-feff7a5bd1e1)
+
+* Every **receiver** has to do **flow control**.
+
+
+
+
+
+
+
 
 
 
@@ -2508,3 +2597,4 @@ which is **/13**.
 
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/62e3bd2e-4498-4c70-8565-62c2f8fa0bc8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5cfada5-4035-4541-bed0-9dc30980ed72)
