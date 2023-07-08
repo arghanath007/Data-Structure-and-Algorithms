@@ -2786,7 +2786,7 @@ which is **/13**.
 
 > **In the packet itself**.
 
-> The **data packet** is going to have **data** and **header**. Inside **header** there is going to be some field, which is called as **sequence numbers**.
+> The **data packet** is going to have **data** and **header**. Inside **header** there is going to be some field,     which is called as **sequence numbers**.
 
 *  **Sequence number** is a **binary number**.
 * AS the **numbers** increase, the **seq number** field also **increases**.
@@ -2800,28 +2800,105 @@ which is **/13**.
 > **Sender** is going to sent **one packet** at a time. So, **sender** has to **save** one packet at a time.
 
 * This is called  as **buffer/window**.
-* Whenever a sender sends the data, it is suppose to save the data in it's **buffer**, till the **acknowledgement** comes back. Once the **acknowledgement** comes back,
+* Whenever a sender sends the data, it is suppose to save the data in it's **buffer**, till the **acknowledgement** comes back. Once the **acknowledgement** comes back, it can actually free up the **buffer** and it can store the **next packet** being transmitted.
 
+* In **Stop and wait**, anytime there will be **only one packet** outstanding, which is **outstanding = 1**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a46d915-de70-40f4-9485-077313f8372a)
 
+* Since, it is **stop and wait**, we are always going to send **one packet** and we are always going to **receive one packet**.
+* The packet which is to be **transmitted** is going to be stored in the **sender window**.
+* The packet which is **receive** by the **receiver** is going to be stored in the **receiver window**.
+* Once we get the **acknowledgement**, the sender will take the **next packet** and once the **packet** is taken for **processing**, the **receiver window** is going to wait for the **next package**.
+* So that there is **no confusion**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/42f2c3dd-3e40-43bf-b63c-26be3d21b4b7)
 
+* To distinguish between the **next and previous** packet, we just need **two nos(0 and 1)**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ad8bd11e-277c-4051-b5e7-aed191ac0507)
 
+* If we need **two sequencce nos**, then how many **bits** we require in the **sequence no** field?
 
+> **1 bit** -> 2 ^ 1 -> 2.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9666b7b3-868c-4361-b3c3-f2883c55dc98)
 
+#### 3) Acknowledgement Delayed
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5f265423-d772-42a4-8a0e-c83a028c1222)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a4eba2d0-12ab-4e0a-a893-3e84b1640983)
 
+* What will **sender** think?
 
+> **Sender** will think that **data packet 2** has been **received** by the **receiver** and the **acknowledgement** packet has been sent by the **receiver**.
 
+* THis is called as **Missing Packet problem**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ad5494a3-d7c7-4ec7-a8b3-1ee1bcbcd63b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/903abc01-ae4f-48fa-892b-2add9072284f)
 
+* Solution -> Give **sequence nos** to **acknowledment packages** as well.
+* **Acknowledment no** in all the **protocols** will always say **what is expected next**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1dae354a-603a-414a-8c6a-84cc20381506)
 
+* We are expecting **packet 1** next.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bacd0b32-fdf8-475f-bad6-d68cfde15bab)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b5b0880-9b06-4e89-923f-ca66753717f0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c47c6f7e-84d6-492d-9d78-871905c33f77)
 
+* If we sent **Data packet 0** and we got **Acknowledment no. 1(A1)** means that **receiver** is **expecting** **data packet 1**.
+* If we sent **Data packet 1** and we got **Acknowledment no. 1(A0)** means that **receiver** is **expecting** **data packet 0(D0)**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d812d4c-3c40-4ba9-bfcf-52b4ee9a5bb2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5e924da-9198-4594-98fe-9abebb4d7585)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f1dbb79f-1b3c-4cd7-bd7f-b47b9847ac90)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b370b853-e290-46dc-9eed-973390a71345)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b90f3ea6-c016-4b2b-bbdd-6db1896fa7a1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f9aa44e-3d89-42c8-a605-e68c112e2bd4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57ddbe19-af2c-4b42-b657-1ffd8886037d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e156987d-b27f-4593-8d0e-0d17e408a4a1)
+
+* **Infintie GP**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32cc4165-fc41-4c1c-a433-a17bffee468d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e58ec0f2-5a81-491e-a593-7dc5ba59fe3b)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86c799ee-80d4-4360-82e2-d4cef77445f9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a976511e-c032-4134-83af-0199737a0ae5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a8ffc4c-8c05-4b96-b1f9-0c4b099b838c)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4cd1bef4-f41c-4456-b72c-0e70c7f3f0aa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/484eb443-9c80-450c-a03f-ba4260349bc4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c72ba9b-f605-4a0a-b899-31b9535cfa92)
+
+* Total Time -> Tt + Tp + Tta + Tp
+* Efficiency -> Td / (Total Time).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a754ba0c-185c-4237-a0d9-b5169d4788ae)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f6bf0c0-0f82-4775-8be1-4db47be84bf6)
+
+* Throughput -> (Anything) / sec [Anything per sec]
+* Here **Throughput** means -> bits / sec [Bits per sec]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a7d39b24-cb82-4706-a2b4-b4910731f5d7)
+
+* Throughput -> **efficiency(n) * Bandwidth(B)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ad4ebee-d54e-4a31-b1c1-7013db010142)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d6fb5ba-7177-498b-bc5a-0091bfec88ea)
 
 
 
