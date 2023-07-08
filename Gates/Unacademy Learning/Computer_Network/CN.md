@@ -2777,17 +2777,30 @@ which is **/13**.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5afa1d2-f3d6-4b41-93d1-63557513590d)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a411e22-0ae4-49e8-950f-c760c4cbcbe5)
 
+## TCP (16) [8th July 2023]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35489012-3fa6-4c9b-939d-acf815a60e26)
 
+* We are adding **sequence no** to the **data packet**.
+* Where will be the **sequence no** stored?
 
+> **In the packet itself**.
 
+> The **data packet** is going to have **data** and **header**. Inside **header** there is going to be some field, which is called as **sequence numbers**.
 
+*  **Sequence number** is a **binary number**.
+* AS the **numbers** increase, the **seq number** field also **increases**.
+* **Seq number** size increases, the **header** size **increases**.
+* So, overall **data packet size** will **increase**, if we keep on **increasing** the **seq number**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df31e557-dc5b-4206-8053-d4b795b222fc)
 
+* Do we need so many nos?
 
+> **Sender** is going to sent **one packet** at a time. So, **sender** has to **save** one packet at a time.
 
-
-
+* This is called  as **buffer/window**.
+* Whenever a sender sends the data, it is suppose to save the data in it's **buffer**, till the **acknowledgement** comes back. Once the **acknowledgement** comes back,
 
 
 
