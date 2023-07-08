@@ -2665,37 +2665,117 @@ which is **/13**.
 
 ## Application protocol (15) [8th July 2023]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6aab98dd-ae2f-4d36-968b-3ca0f661fd4d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/043e8900-198a-4398-82ef-6d463eed7b5c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37e19233-1b19-4211-bd28-5633eb292859)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b3b1e10f-d7df-41a9-a417-4ce7916b9ef1)
 
+* If efficiency has to be **50% atleast** then **Tt and Tp** will be in the ratio of **Tt >= (2 * Tp)** for **stop and wait**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9cdfa35c-95af-4281-9e86-6e82bdabfe90)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e772a0e-ad86-49ac-b699-c6c7d6050b76)
 
+* If **efficiency** has to be **50% atleast**, then what is the **min. packet size**?
 
+> **L >= 2 * Tp * B** [Tt = L/B]
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f4aa688-1277-4514-9cde-3ece918c7feb)
 
+* Yes.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dfdd1ee2-5e44-44ce-a0a5-3781103afc58)
 
+* L = ?
+* L >= B * 2 * Tp
+* L = (4 * 10 ^ 6) * 2 * (1 * 10 ^(-3))
+* L = 8 * (10 ^ 3) = 8000 bits.
+* L = 8000/8 -> 1000 bytes.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c17f86a9-ffab-42ad-9070-c26944aa1d6d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0dd74ec-d835-4b67-9d82-ac42c7f768df)
 
+* 8 MB -> Mega Bytes
+* 8 Mb -> Mega bites.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3974b0a-3819-4ec1-98e2-f3f81c330e7a)
 
+* V -> Velocity -> Constant.
+* B -> Bandwidth.
+* d -> Distance
+* L -> Length of the packet.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/002f5500-75a9-47e4-bb7f-e73d04ebf2b6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/365f3db6-704a-485d-b469-1ec8619fbd66)
 
+* **Stop and Wait** is **more suitable for LANs**. It is **less suitable for WANs**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4feccb89-15b3-4550-aab8-7605bfc0ee58)
 
+* **Stop and Wait** is **efficient** for **big packets**. It is **less efficient** for **small packets**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a507a91-457a-4928-971a-dac6072efca1)
 
+### Problems with Stop and Wait.
 
+#### 1) Data Packet lost problem
 
+* Similar to **deadlock** in **OS**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eeab9f93-922a-4757-a128-03c6998291d4)
 
+* We are going to add a **Timeout Timer**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a061d8d5-a73e-44af-b981-3732af9583f7)
 
+* When we don't get the **reply**, we **transmit** the **data**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f91df07d-a5ad-4c30-bf80-f1296793e186)
 
+* What should be the size of the **timeout timer**?
 
+> **Timeout timer(T0)** should be **atleast size** of **T0 >= (2 * Tp)**.
 
+* If it is **less than (2 * Tp)** then even before the **acknowledgement** has arrived, the **timeout time** will occur and unnecessarily we transmit the data even though the **data** is **already received**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/776d346d-48c5-4bb8-9621-7eb0c7f79215)
 
+* If **Timeout timer(T0)** is **too small**, then we would have **unnecessary retransmission** of the **data**.
+* If **Timeout timer(T0)** is **too large**, then we would have **less efficiency or efficient** in sending  the **data**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5a4458b-8d2b-41fa-9d42-33d2b550bd11)
+
+#### 2) Acknowledgement lost problem
+
+* Retransmission will happen.
+* We will wait for **timeout time**.
+* After **timeout time** has happened, then we are going to send the **same data**.
+* From the **sender** side, **same** data is **transmitted**.
+* From the **receiver's** side, it will think that it is **new data**.
+* It is now called as **duplicate packet**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7dfd9ca1-2d64-4c97-a515-4064d71e40d1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a50ec912-40d5-489c-83cc-09fd606739d7)
+
+* When **Acknowledgement** is lost, we might end up in a situation called as **duplicate packet**.
+* How we can solve the **duplicate packet** problem?
+
+> **Sequence Numbers**.
+
+* To Timer -> Timeout Timer.
+* Even though a packet is sent and the **acknowledgement** is **lost**. Again, the **same packet** is being sent, the packet will be discarded by the **receiver** but still **acknowledgement** will be **sent**.
+
+* So, **acknowledgement** must be **sent**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/52b1939f-f2e3-4955-be19-0b14635c9cee)
+
+> As a **sender**, if we don't get the **acknowledgement**, we don't know whether the **data** is **lost** or the **acknowledgement** is **lost**. What is the safest thing, the **sender** can do? The best thing to assume is that the  **data is lost**.
+
+* **Data is lost** and we retransmit the **data**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5afa1d2-f3d6-4b41-93d1-63557513590d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a411e22-0ae4-49e8-950f-c760c4cbcbe5)
 
 
 
