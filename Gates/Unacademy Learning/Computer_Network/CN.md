@@ -2335,6 +2335,141 @@ which is **/13**.
 
 * As, Rule **3** not satisfied, so **aggregation** failed.
 
+## Computer-networks-network-address-translation-ip-address-flow-control-and-transmission-delay (13) [8th July 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce06a0c8-08ed-40ec-9e5d-90c2656ba7df)
+
+* **Yes**, **supernetting or aggregation** can be applied on **IP addresses** also, they need not to be **networks**.
+* What is the supernet mask?
+
+* Hosts ->  2 ^ 6
+* Host ID(HID) -> 6 bits
+* Network ID(NID) -> 32 - 6 -> 26
+
+> **supernet mask** -> **20.10.100.0/26**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb24ef0d-1e45-4d82-8c51-b6fa7d3072ed)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/049890c1-9577-46a0-87a1-a6d3aad9dc8b)
+
+* Basically Subnet, supernet, block, network everthing is the **same**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1308ee79-1780-45cd-b78a-ea992b121e66)
+
+* Continuos -> **Yes**
+* Size in power of 2 -> **No**
+
+> THe Size of the network is **32 - 0 + 1 -> 33**, which is not a **power of 2**. 
+
+* So, this network cannot be a **supernet**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89e1a143-17d1-4345-a214-5ea06eca1abd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3b108ada-5b95-4e2f-bfd7-c8332d70679f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/46ffe116-a13c-4e57-96d5-3ea7cd028dd1)
+
+* **Blocks** are not possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69caa18a-c738-439c-863a-9a40da06d8e3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b21d1779-ac81-4a22-a269-2bf69469370b)
+
+## Private addressing or Network Address Translation(NAT)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f2bed89-6e47-4e19-a7bb-2b402d4af5e4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/53b167f7-e1ff-4018-9a71-f48d61908b8b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f9173394-f811-4d8b-825f-7662112aa181)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc4ece84-a2e9-4e97-ac9c-bb254024f3a3)
+
+* **Class A** -> 2 ^ (24)
+* **Class B** -> 16 ^ (2 ^ 16) -> 2 ^ (20)
+* **Class C** -> (2 ^ 8) * (2 * 8) -> 2 ^ 16.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/314095bd-3f2e-49c5-b0ab-ea954933ea7d)
+
+* Taking an IP address and changing it is nothing but **Network Address Translation(NAT)**.
+* Network address because IP address is also called as **network address**.
+* **Network Address Translation(NAT)** is nothing but **changing the IP address**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bee8efa6-49dc-41da-9419-ccc8947b1899)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/18af2804-42c2-4d1e-9790-5b13fcc2f129)
+
+* The **disadvantage** of these is that, the **entire process** is going to be **slower**.
+* The **entire process** is **time taking** which is a **disadvantage**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12a6b700-2ff6-499e-9494-9f00ddf6ef1b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/00f74a32-7f7e-4278-9576-e9d8033846aa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/890d1089-1191-4eb4-b4a9-84e755cf6f2f)
+
+* **No public IP address** can be **same** for **two networks**.
+
+## Flow Control
+
+### Delays in Computer Network
+
+1) Transmission Delay(Tt)
+
+* The host is having a **packet**, now the **time taken** by the host to transfer the entire packet onto the wire is called as **transmission delay** of the **packet**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/016f2142-0c93-48ef-a7aa-cad9697086e8)
+
+* The **transmission delay** is for a **data packet** and not for the **host**.
+* We are trying to **transfer** the data.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e70139ee-23e5-4253-8f08-0d99a1b489f1)
+
+* What is the **bandwidth** of the link?
+
+> **1bps**
+
+* **1bps** means that in **1 sec** we can put **1 bit** on the link.
+
+ ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd85e697-baa1-434c-a91f-4f7b93623a54)
+
+* The bandwidth is **1bps** and we have **10 bits** as the packet size. How long will it take to send the packet?
+
+> 
+
+* L -> Length of the packet
+* B -> Bandwidth
+* Tt -> Transmission Delay
+* Tt = L / B secs [**IMPORTANT**]
+* **L and B** must have the **same units** so that we get the **correct answer**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/873614ce-7a6f-4f10-b4dd-7e008e5c18be)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ebb8b713-e8ba-40a4-b5b9-9563397ecaf4)
+
+* L = 1000 bits
+* BW or B = 1 kbps -> (1 * 1000) bps -> 1000 bps. [1 kbps -> 1000 bps]
+* Tt = L / B -> 1000 / 1000 -> 1 secs
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/683c1928-696e-493b-b9ec-8d8c17ba4415)
+
+* If in **Bandwidth** then:-
+
+* Derived from **speed** and it is in **decimal number* system so **base 10** is used.  
+
+1) K -> 1000
+2) m -> 10 ^ 6
+3) G -> 10 ^ 9
+
+* If in **Data** then:-
+
+* Derived from **bits** and it is in **binary number* system so **base 2** is used.  
+
+1) K -> 1024
+2) m -> 1024 * 1024
+3) G -> 1024 * 1024 * 1024
+
+
+* L = 1 kb -> 1 * 1024 -> 1024 bits
+* BW or B = 1 kbps -> (1 * 1000) bps -> 1000 bps. [1 kbps -> 1000 bps]
+* Tt = L / B -> 1024 / 1000 -> 1.024 secs
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d82a2a1-efec-48f5-a08d-09eba41bc66e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9267fed1-1b18-4e30-907f-74d31d5f2166)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a42302e-e1f1-40e8-8672-c10ef63d4602)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d020e31-74df-49bf-ae1e-3a6c4951875e)
+
+
+
 
 
 
