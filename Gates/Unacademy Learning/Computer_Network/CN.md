@@ -2930,6 +2930,165 @@ which is **/13**.
 * When the **capacity is high** then it is called as **thick pipe**.
 * When the **capacity is low** then it is called as **thin pipe**.
 * If we have to **increase the capacity**, we can **increase the bandwidth**.
+* If we **increase the bandwidth**, the **capacity** is going to **increase**.
+* B = 10 bps 
+* It means that we can put **10 bits** in **1 sec**.
+* If we **increase the propagation delay(Tp)**, the **capacity** is going to **increase**.
+* If we **increase the propagation delay(Tp)** is nothing but **increasing the length**.
+* We can thing of **bandwidth** as the **area of the cross-section**.
+* Capacity of pipe = (Area of cross-section) * length
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be47b622-9103-471e-bb3f-69b4f17b91cf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/87673799-44cf-4a34-b118-be36262dfdf8)
+
+* If the **capacity of the link** is **high** then **efficiency decreases**.
+* If the **capacity of the link** is **low** then **efficiency increases**.
+* So, in **stop and wait**, when the **capacity is very high** and we are using it for **1 packet** and all of the remaining space in the the **pipe** is not used then the **efficiency is low**.
+* So, in **stop and wait**, when the **capacity is small** and we are putting exactly **1 packet** and we are filling the **capacity** of the **pipe** then the **efficiency is high**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/257e0615-4c25-4914-9c91-dcd9cc04fd2e)
+
+* In order to **increase** the **efficiency**, we are going for something called as **pipelining**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f7fe9be-90d5-493a-b470-6dcced899d35)
+
+> **Pipelining** is nothing but in a **transmission delay(Tt)** we are sending **1 packet**. In **Tt secs, we are sending **1 packet**. It implies that in **1 sec**, we are sending **1 / Tt** packets.
+
+* In **stop and wait**, we are sending **1 packet** but **1 + 2 * a** packets can be sent.
+* Why don't we send **1 + 2 * a** packets?
+
+> This is called as **pipelining**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/edd3d644-e68a-4479-942d-ad44e95abe8e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a550723-3c25-484e-a803-df22944b1988)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/99765791-a41a-4a2c-b810-829c5552364d)
+
+* **Pipelining** is a theoritical concept. It is implemented in **CN** in **two** ways:-
+
+1) GBN.
+2) SR.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d731c449-ca66-4ffc-9e28-f6f79c1f358f)
+
+* Efficiency  -> 25%.
+* Filling the **pipe** is nothing but **Pipelining**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89df9ff0-1102-4869-b572-a0b424c684f0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1fd57d2c-9edc-487b-a3da-303e7e7e6a9c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/357711a3-c86f-4044-826b-2b859284f0cb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b7fa2f6-1e3a-4017-afdf-1d3cf4396a7e)
+
+* Acknowledgement of packet 1 came.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3873d55b-b793-4540-bfc8-9bafd6282fb9)
+
+* Acknowledgement of packet 2 came.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/53fc70e6-4559-4660-8381-693761915b2b)
+
+* Acknowledgement of packet 3 came.
+* In **theory**, it looks like the **window** is **sliding**.
+* That's why **pipelining** is called as **sliding window protocol(SWP)**.
+* In **practice**, there is **no concept** of **sliding window protocol(SWP)**.
+* It is implemented as a **linked list**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c759bf59-1b38-40e8-88f9-b0626188c515)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/531fcded-9cb3-4999-b8d3-1933ba9a69a4)
+
+* **Stop and Wait** is a **sliding window protocol(SWP)** where the **sliding window(SW) = 1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/93523199-067e-43e6-b944-c0d615a11176)
+
+* Sender Windows(SW) = Receiver Windows(RW) = 1 packet.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dde2af3e-e47b-4d6f-b7d2-d1e580847d59)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be2c1136-8f56-4420-a9cf-ec4c479c1b10)
+
+* If the **sender window** is having certain no. of packets which are **outstanding**.
+* Can we use **same no** with the **window again**? [Can two packets in the window, have the same no?]
+
+> **No**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/59a7d1ed-dd9f-463e-9ac3-24b83ca2f460)
+
+* The **sender** has got the **acknowledgement** that the **packet 0 is lost**. The **receiver** has **received** **0, 1, 2 and 0** packets no problem.
+* At the **sender side**, when it gets the message **packet 0 is lost**, **sender** is **confused** which **0 is lost**, first or the last **0**. **Sender** should retransmit the **first or the last '0'**.
+* It will not be able to **understand**.
+* That is why, always in the **sender window size**, all the nos, should be **distinct/unique**.
+* Therefore, if we have a **windows size of 4**, then we should have atleast **4 distinct numbers**.
+* We are talking about **sliding window protocol**. It is a **theoritical concept**. We are talking aboout the **sender side**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a23c0af6-2119-4509-902a-30d2a3e9580b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6331cd77-1978-4a37-8f1c-f80c179046ea)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c3b36f49-1288-486c-9fab-23076c8921e8)
+
+* So, we should have **atleast 4 sequence numbers** here.
+* In **stop and wait**, we have **Sender window(SW) = 1**, **Receiver window(RW) = 1**. We need **2 sequences**, as we are sending **1 bit** at a time. So we require only **1 bit**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc29c6f2-d2a4-4e0c-9d9f-38d609d76925)
+
+* In pipelining, the window size is **1 + 2 * a**. We are sending **1 + 2 * a** packets.
+* So the **sender window size(SW) is **1 + 2 * a**, or the **sliding window size** is **1 + 2 * a**.
+* Therefore, we need **1 + 2 * a** numbers.
+* So, if we need **1 + 2 * a** sequence of numbers then how many **bits** needed/required?
+
+> **No. of bits** -> Ceil(log(1 + 2 * a) base 2) [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/209cbf1f-1cbf-4b50-8fae-1efdcd45282c)
+
+* In order to have **10 sequence of numbers**, we need **4 bits**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b993679d-77b9-4218-b7db-fbe4df82da9d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d575853-7527-4f67-beba-bf7a56fa7c41)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/59ff24c9-5e04-4900-9a91-8b34df7f7408)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7515f4ee-6cd9-4495-863d-07325643a505)
+
+* We are talking about **sliding window protocol(SWP)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/743870cb-9e31-4f32-b20c-45c1b29731ee)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/03787735-7ee2-496c-a937-26651c8af1c4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b4a74f59-dcad-406f-8e8a-aaa63802ccc9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/185cb4c8-4d07-4135-bdbd-03d33ddc0678)
+
+> According to the sliding window protocol, we are able to send **100 packets** but we have only **6 bits** in the **sequence no** fields. What happens?
+
+* How many packets we can transmit in the window?
+
+> We are fill till **63** but after that we don't have the **sequence nos**. The **sequence nos** is already **fixed**. We have only **six(6) bits**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a911f45-c331-414b-84f5-b3141b0677da)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d793b7a1-47c3-4e06-965c-ce19abc2a0d7)
+
+* What is the **efficiency**?
+
+> **64%**.
+
+> We could sent **100** but we are able to send **64** so, the **efficiency** is **64/100 -> 64%**. As we don't have the **sequence nos**.
+
+* Sender window size(WS) -> min(1 + 2 * a, 2 ^ n) [n -> No. of bits in the Sequence No. field]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9d38fbd-f62f-450d-b939-3a6c01c71b9a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf9b940e-35c4-4bbf-8f3d-c2ba42ae7c1a)
+
+* Sequence no -> 10 bits -> 2 ^ 10 -> 1024.
+* Sequence no possible -> 2 ^ 10 -> 1024.
+* We have **100** packets and we can put **100** packets in the pipeline.
+* So, the Sender window size(WS) = min(1 + 2 * a, 2 ^ n)
+* Sender window size(WS) = min(1 + 2 * a, 2 ^ n) -> min(100, 2 ^ 10) -> min(100, 1024) -> 100.
+* Sender window size(WS) = 100.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5dabbe8b-eb9c-4a20-93e7-645bd5dbc522)
+
+* So, in a **sliding window protocol**, the Sender window size(WS) is **min** of **1 + 2 * a** and **2 ^ n**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6624d647-ce1d-4663-b0c0-33385b36a148)
+
 
 
 
