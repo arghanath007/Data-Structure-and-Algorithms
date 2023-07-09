@@ -2900,6 +2900,36 @@ which is **/13**.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ad4ebee-d54e-4a31-b1c1-7013db010142)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d6fb5ba-7177-498b-bc5a-0091bfec88ea)
 
+## Hardware-and-various-devices-used-in-networking (17) [9th July 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/03290471-9cef-4bcd-bf5b-d13e3dca5e25)
+
+* We call a link or channel as **pipe** also.
+* Bandwidth = 1bps
+* It means that we can put **1 bit** in the **pipe** in **1 sec**.
+* Tp(propagation delay) = 10 secs.
+* For the **first bit** to reach the other side, it will take **10secs**.
+* By the time **first bit** moves to the **next place**, we can put the **second bit**.
+* Therefore, in **10 secs** we can actually put **10 bits**.
+* The **pipe** itself is holding **10 bits**.
+* When someone is **holding** something we can call it as **capacity**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b53d85e-fd73-41e8-88c8-a1026afeb888)
+
+* So, the **capacity** here is **10 bits**.
+* Capacity = Bandwidth(B) * Propagation delay(Tp).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3af61adb-ad9b-47d6-a527-aff4fac805c5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d5e654f-58e1-466d-939a-44b5b5db5d16)
+
+* **Half Duplex** -> It means that **at anytime**, we can only send the **data** in **one direction** only.
+* **Full Duplex** -> It means that **at anytime**, we can send the **data** in **both the direction**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/181f65c4-01dc-4175-a6f6-c4862384f6bc)
+
+* When the **capacity is high** then it is called as **thick pipe**.
+* When the **capacity is low** then it is called as **thin pipe**.
+* If we have to **increase the capacity**, we can **increase the bandwidth**.
 
 
 
