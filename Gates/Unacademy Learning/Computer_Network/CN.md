@@ -3089,8 +3089,23 @@ which is **/13**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6624d647-ce1d-4663-b0c0-33385b36a148)
 
+## Problem-on-ip-addressing (18) [9th July 2023]
 
+* **Stop and Wait** is kind of a **sliding window protocol** where **sender window = 1** and **receiver window = 1**.
+* What is asked in **sliding window protocol**?
 
+> **Sender windows size**, **efficiency**, **throughput**, **sequence nos**, **no. of bits**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e93b1f06-5fdf-45cf-9a3b-ffcb2d8f4223)
+
+## Go Back N(GBN)
+
+* One of the implementations of **sliding window protocol**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1423799-fabc-4b70-8e24-d987b3ab64f4)
+
+* **sliding window protocol** -> Theoretical
+* Go Back N(GBN) -> Practical -> Actually used in **CN**.
 
 
 
