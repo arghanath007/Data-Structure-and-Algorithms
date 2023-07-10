@@ -3106,6 +3106,135 @@ which is **/13**.
 
 * **sliding window protocol** -> Theoretical
 * Go Back N(GBN) -> Practical -> Actually used in **CN**.
+* **sliding window protocol**:-
+
+1) **Sender windows size**
+2) **Receiver windows size**
+3) Sequence No
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/94a1b434-d612-4c0e-9a38-7108874397e6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2805278c-3799-4078-affb-16b9d00e9d34)
+
+* **N** in **GBN** represents **sender window size**.
+* **GB10** means that the **sender window size** is **10**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66c14c2a-a9d4-4578-bd01-e2789bba9e7e)
+
+* Efficiency in **GBN** -> (sender window size(Ws)) / (1 + 2 * a)
+* **Sender window size** in **GBN** is the **N**. [Point 1]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0003ec61-4ff0-4bfb-b3e4-aa7fa1a704a5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7fc424d0-edb6-4124-b876-5d83873b5417)
+
+* Receiver Window Size is **1** [Point 2]
+* In **GBN**, the **receiver window size is always '1'** and **sender window size is always 'greate than 1'**.
+* If **receiver and sender window size both are  '1'** then it is **stop and wait**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98542f12-a492-4dcb-bcf7-7c92b3ff988b)
+
+* Receiver window size is **1**.
+* Therefore the **receiver** will always receive **in-order** packet.
+* It expect the **packets** in **order**.
+* It will discard all of the out of order packets.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bbbd65b7-76b9-4a06-856c-6f76846d8e17)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c849bb2-1eab-4308-81f4-610da54d7f31)
+
+* **Packet 0** will also be **discarded**.
+* Sender will not receive **acknowledgement for packet 1**.
+* When a sender gets a timeout for a packet, the sender understands. Sender understand that the **packet is lost** and maybe all of the later packets are discarded.
+* Therefore, it will **retransmit** all of the outstanding packets. Which means it is **going back 'N'**.
+* That's why it is called as **GBN**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f285748-555b-4c5d-86d5-ae95a98dda60)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/94edab2c-e317-4ba2-82ac-90c3bfb5d989)
+
+* **GBN** is designed in such a way that if **one packet is lost** then the **entire window** is **re-transmitted**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63368980-796c-4da8-a857-64c846f7a5bb)
+
+* From the **lost packet** we are going back **N**. This is **wrong**.
+* From the **last packet**, we are going back **N**. This is **correct**.
+* Receiver will never receive **out of order** packets.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/90f5d8a5-70e4-4dbd-8f99-c137396331bd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6bcc8f51-9b74-4a0b-90e2-404c20a1e585)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f64f027e-8f0d-4404-9989-1fc475cee004)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a7d72195-0923-48d0-81d8-be22e2c6114e)
+
+* If we do it with **stop and wait** instead of **GB4**, we will get **11** transmissions.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/770b10fe-130d-4022-a67c-02cdfe0c0efa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/55e2c1c3-d8fe-4f52-95b0-fc9d8b8f3d7a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ac6f026-89a5-47cd-b02a-13a847d02e6a)
+
+* **Stop and wait** is **better** here as it has **less re-transmissions**.
+* But in terms of **efficiency**, **GBN** is **4 times** more **efficient** than **Stop and wait**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76647b9a-e802-4578-91f8-216a629c06b7)
+
+* GB3.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4544b1e7-dfb5-45fe-a36f-0e893b688634)
+
+* No. of **re-transmissions** in **GB3** for the **previous question** is **15 - 10 = 5**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c5dab9e-694d-4c42-83f8-34087c58465b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1275571d-851a-448a-8a3c-34fd05186b36)
+
+* For **GN5**, we got **21** total transmissions, **re-transmissions** were **21-10 = 11**.
+* We can see that as we **increase** the **windows size**, we can **increase the efficiency** and the **no. of re-transmissions** are also **increasing**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a15e956b-7733-43b5-8ec9-1d27a7f5865b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3dba38ba-9287-41b0-aecc-b3ab62373b85)
+
+## Types of Acknowledgements in **general**:-
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/474b1a7e-e602-4b14-b582-81948901244a)
+
+1) Cumulative
+2) Independent
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d80fc02e-4c74-4986-b282-b0f08997ca91)
+
+* **GBN** uses **Cumulative Acknowledgement**.
+* Why **Cumulative Acknowledgement** in **GBN**?
+
+> We are forced to use **Cumulative Acknowledgement** in **GBN** because of the way it is **designed**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4eba5237-645c-45bf-a9da-ed7463cfb724)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/90294c69-2172-4b7b-b066-a30c6d3153ba)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
