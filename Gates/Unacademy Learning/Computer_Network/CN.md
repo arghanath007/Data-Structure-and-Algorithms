@@ -3208,6 +3208,16 @@ which is **/13**.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4eba5237-645c-45bf-a9da-ed7463cfb724)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/90294c69-2172-4b7b-b066-a30c6d3153ba)
 
+## Doubt-clearing-session (19) [10th July 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e446a7c4-2f6d-4137-a809-06716a62059e)
+
+* Why **Cumulative Acknowledgement** in **GBN**?
+
+> Because **GBN** is accepting **in-order** packets.
+
+* If we get the **
+
 
 
 
