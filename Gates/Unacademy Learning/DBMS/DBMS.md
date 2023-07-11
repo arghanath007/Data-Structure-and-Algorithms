@@ -10,6 +10,7 @@
 
 * Part- 1 -> https://unacademy.com/class/sql-pyq-discussion-part-1/FIVDGXH3
 * Part- 2 -> https://unacademy.com/class/sql-pyq-discussion-part-2/USA9WKOY
+* Part- 3 -> https://unacademy.com/class/sql-pyq-discussion-part-3/9IHKNZVM
 
 # SQL Link
 
@@ -3857,18 +3858,203 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dfaaed53-daee-480d-98de-94606d231f81)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f7b4b84-e9de-4ea1-a10c-210f8bef74f8)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9e2191a-c922-47bd-a8ab-11672827ef6b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb969a0c-b02c-422b-9a76-7eca9b0fee1a)
+
+* Using **both Eid and Cid** together we can make a **composite key** for the **Teachers table**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a4de5671-30c4-4bb9-af7a-452c87f903ba)
+
+* Teaches.Eid -> Foreign Key referring to **Educators.Eid**
+* Teaches.Cid -> Foreign Key referring to **Courses.Cid**
+* **No partial dependency** present in **Educators, Courses and Teachers** tables.
+* So, all the **three** tables will be in **2NF**.
+* **No transitive dependency** present in **Educators, Courses and Teachers** tables.
+* So, all the **three** tables will be in **3NF**.
+* All **3 relations** are in **BCNF**.
+* Keys are in **LHS**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2379b0f8-47f5-465c-9a5b-595daa1c9040)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34641d9d-0c69-4c49-b93a-65c00eb7bc53)
+
+* Option 2 -> Keep relationship information along with an entity set
+* Relationship towards Educators -> 2 tables. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be4b25d9-9580-4bfc-b68a-397f8b13a711)
+
+* **Primary Key** in **Educators** table is **Eid Cid**, combination of both.
+* We will get **partial dependencies** because **Eid** alone can derive **non-prime** attributes **Ename and ESalary**.
+* If we do **decomposition** here to remove the **partial dependencies**, we will get a table with **Eid, Ename and ESalary** and another table with **Eid, Cid and Since** which is **same** as the earlier(option **1**) one we created.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/23e2b79d-f61b-480c-bca5-c348852e4960)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/28876d6e-02d0-4113-8e2b-9a9697b62351)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3b28f668-0541-4886-92a0-7aa262c0815c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/732d4d78-c118-49b2-97c1-ee4d20b823ae)
+
+* Problems:-
+
+1) Partial Dependency
+2) Cid -> Cname, Cfee 
+
+* The above one is a **many to many** relationship , so the ***option '1'** is the **correct answer**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/96fdb2e5-b66e-486d-bea0-2b687b38bf3e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f195887d-bb48-4b5c-a278-0896a7446bf8)
+
+* We have to keep **one stuent's information** only **once**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12459bdc-c944-4208-8673-02876a1971c0)
+
+* **Sid** is the **primary key** in **students** table.
+* **Eid** is the **primary key** in **Educators** table.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b43e68a1-2b2a-413d-967e-f001b8594d95)
+
+* **Eid** is not **primary key** and **too much redundancy**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c3efd3c6-7424-4de1-ae1f-1eb512ebf6b0)
+
+* So we will go towards **many**, which is **students**..
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9974363e-ace1-4502-b8de-9d24bcbbf29a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/70e2fac1-ff6d-404e-a8cb-26ba5f38683f)
+
+* There is **no point** of creating **three** tables when we can get the work done in **two** tables.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5bc1c752-2bb7-46d5-9a5d-735a0b4af887)
+
+* FDs.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/55350ab5-32ad-4a8f-8ac0-957cd9b0ed88)
+
+* **Sid** is the **primary key** in **student and Guides** tables.
+* So, we can keep them **together** and make **2 tables** instead of **3 tables**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/344d7abb-6354-4152-9ad5-412e8faa28c8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b85e1457-4155-4be5-b707-8308add369af)
+
+* **Sid** is **primary key**. So it is  better to keep it in same table.
+* **One to Many** and **Many to one** is **same thing**.
+
+### One to One Relationship
+
+* It is will be in **2 tables** only.
+* **3 tables** scenario comes when there is **Many** relationship.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/51952847-bf16-4012-8e94-99d6ff0c223e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a482b754-b0c9-4d42-847c-7eaee77bdebd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ffd9d3b7-4158-47a3-bc57-09a061025d41)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/643add7e-a490-4ce4-aa23-3aa5b86baaac)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/82a85115-70bf-4b16-84ef-9077ba151294)
+
+* Whichever side we will have **total participation**, we will keep the **relationship details** on that side only. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d276bd94-103f-4a72-b97e-0e51be1036a7)
+
+* **Option 2** is better because license has total participation in **relationship**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6bf8e840-4a2a-4af9-b2a1-820eaf79d493)
+
+* Keep **two tables** and set **guide_eid** as **Not NULL**.
+* So **student** table will be **total participation**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71953db9-c671-4b0e-bbdd-1688efc49a89)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/42ad1521-3119-4bcc-9bc7-61c0f27ac416)
+
+* There cannot be any **department** without any managers.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31fdee3c-60ec-4d5c-ae05-3944d26a102f)
+
+* Many TO Many -> 3 tables.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6b79876-7d1a-41e9-8781-38c33d23240a)
+
+* How to control participation in many to many?
+
+> **HW**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a8c7721-16c3-427b-9336-0829ae75d4d6)
 
 
+* If there is **overlapping** then it makes sense to go for **3 tables**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57326c7c-0af5-46af-bf80-5cc26dc3a0af)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/47a6807f-32e2-45b7-b75c-f8df4001a6c0)
 
+* Overlapping
+* Dis-joint.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e845a884-0d71-4e64-8de2-5d83d0ee97f4)
 
+* Thre can be **multiple dependents**.
+* The key can be a **summation** of all the attributes, **Eid Dname and Dbod** which is the &&key**.
+* **Eid** cannot be the **primary key** in **departments table**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3175b95f-8a2f-4482-8e5e-98017f211fe2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83966abd-346d-471a-9656-961e7ac49643)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/38e1d08d-fcdf-46cf-a9fb-cec9fd9864d2)
 
+## Relational Algebra
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/907e3137-701a-4858-b932-c587e8bf8686)
 
+* SQL -> Non-procedural query language
+* Relational Algebra -> Procedural query language
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a1e1ef6-882f-43a6-9a51-561a7495a973)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d597c546-d3e4-4ebd-8349-e6446dfc2949)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c8e4910-551a-4201-ad95-450b8e526dcf)
 
+* We will get all of the **rows and the columns**.
+* Which **columns** we want?
+
+> We want all of the **columns**. 
+
+* We have to use **project** here.
+* Without **project**, data will not be **fetched**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa929a82-9f45-482b-864b-fd74dd73432d)
+
+* We will get all of the **rows and the columns**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/749b0d21-c57b-408d-aeab-173544efcb85)
+
+### Select
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9f89f31-9215-4ddd-a897-58fb44b15e42)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/212f145b-47e2-42f5-bbbf-5d79f4a0dd2f)
+
+* Example
+* sigma(rating > 8) (sailors)
+* Sigma -> Filtering rows.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4bb1a122-194a-4236-9e8b-42cf56c2c8c4)
+
+* Find all sailors who haverating greater than 8 but age less than 25.
+* '^' -> AND symbol
+* 'V' -> OR symbol
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6adcd251-6d35-4de1-a4db-0394350f53d7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/93019435-b79f-456d-9b70-ddd180c2c742)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b5e4075-4074-44ee-8e3d-85be7993a398)
+
+* Comparison operators.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e6303554-7229-4110-b366-46a07d717baf)
+ ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/022e7c34-2d0d-44bb-a65c-387598e0a391)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e43f0553-584d-4d65-a974-1ef4662a834f)
+
+* We are **filtering** out the rows based on **conditions**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fdc64a40-389e-44db-8235-2f9d41786a36)
+
+### Doubt
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a9de2545-864e-4111-bcd0-136475c3bd75)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92de1b1e-dda8-43f7-8a55-d0128ca40af1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/73dd16fa-5411-4e63-add9-c6c397e746ad)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c5bd3142-100b-4e7c-8c57-9349e554a0eb)
+
+* To get **BCNF** or satisfy **BCNF**.
 
 
 
