@@ -8790,14 +8790,41 @@ b5da-42ddc3936df0)
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ce54471-4173-4df5-a190-71b782122107)
 
+## Time-speed-distance-work-and-time-part-ix(47) [11th July 2023]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ddafc6a7-4d39-490d-a4bf-58dee2894aa6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c560b6d7-2041-401c-a51a-7ff655497ddf)
 
+* For **5 people**, **one day's work** is **5%**. So for **one person**, **one day's work** is **5%/5 -> 1%**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2cae3422-9798-4b00-bbdf-99157e487cad)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a51a8d4d-7f4a-4bf9-a50a-5f922dc6c326)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a64cc74-a792-4b87-80ec-09b380a0ee8b)
 
+* Efficiency.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af225430-c649-4b48-bd46-ee0f6b1531a2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c94686c-5716-4023-b8b3-6e1bd6da9fed)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3fa2bd6b-e466-4f8a-a5b8-167f5a80d2d5)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1cfaff4f-680d-43c7-b12d-3662c71d3c66)
 
+* How many/much more men are needed to be deployed so that the work must be finished in **10 days**?
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/14a53330-aee1-4ac9-97e4-2c9f4a3e88cf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0dba7ef2-b6ee-40d4-aa00-b3f0edaf63dd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d45ab12-4e8e-4956-b925-675c132a0fa4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/42dee933-c157-4dfd-b82e-81d86fa437d6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a4f2ec88-5599-4290-b48e-2b10ccb5bf1f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f3ca43f0-7f03-435a-a0ad-6785c3d2f0fd)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3dcb36e2-e44e-48c0-ba9a-3b6025f2fb65)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/03e3275c-9f3c-42d6-a195-d591d92c433e)
+
+* Start from **30mins**.
 
 
 
