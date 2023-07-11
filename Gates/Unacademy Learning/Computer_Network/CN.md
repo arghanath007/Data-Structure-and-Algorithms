@@ -3216,20 +3216,249 @@ which is **/13**.
 
 > Because **GBN** is accepting **in-order** packets.
 
-* If we get the **
+* If we get the **acknowledgement no 3** means that **packet no 2** has been received and accepted. When we are sure that **packet no 2** has been received and accepted, so we can be very sure that **pacet 0 and 1** are also received and accepted.
+* It means that if **acknowledgement no 3** is received then **packets 0, 1 and 2** are received and accepted.
+* If **packets 0 or 1** were lost then as **receiver** only accepts **in-order** packets, it would have **discarded** packet no 2. 
+* If we receive one packet and we receive the acknowledgement for that packet, it means that all of the previous packets have all been received. Otherwise we will not receive the **current package**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/daffa550-fed3-4fb0-a738-e243d6c53364)
 
+* One acknowledgement for a packet is going to act as the acknowledgement for the **previous packets** as well.
+* For **many packets**, we send **one acknowledgement**. Then it is called as **cumulative acknowledgement**.
+* How many is many?
 
+> 
 
+* It is not like we are going to receive the whole/entire window at one time, we are going to receive one packet at one time.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/93aec008-d496-448c-944f-199fcf02e2ef)
 
+* What is acknowledgement timer?
 
+> When we receive **packet 0**, we are going to start a **timer** called as **Acknowledgement timer**. We are not going to send the **acknowledgement for packet 0**, we are goint to **wait** till the **Acknowledgement timer** is over. At the  end of the **Acknowledgement timer**, we are going to **retransmit** the **acknowledgement no 4**.
 
+> When the **packet 4** comes, we will start another **Acknowledgement timer**.
 
+* Timeout Timer > Acknowledgement timer
+* Timeout Timer >= 2 * Tp + Acknowledgement timer [Tp -> Propagation Delay]
 
+> By having the **Acknowledgement timer**, we are not worried about the **no. of packets**. We are just worried about the **Acknowledgement timer**. We will wait for a specific amount of time and it doesn't matter how many packets we receive during that time.
 
+> For all of the packets we receive during that time, we will send **one acknowledgement packet**. It is called as **Cumulative Acknowledgement**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e7b9a42a-cb33-4124-b953-36989c367f6b)
 
+* What happens if **acknowledgement time** is **very large**?
+
+> There will be unnecessary **timeouts** and there will be unnecessary **re-transmissions**.
+
+* What happens if **acknowledgement time** is **too small**?
+
+> For **every packet** we will be sending **one acknowledgement**.
+
+> It will reduce to the concept of **independent acknowledgements**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3acad53b-270f-47a1-b1ba-cf2d9c9a7cf0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf17d0fa-3c5f-4e9e-8c97-64dbb9ea6de6)
+
+* Points of **GBN**:- [**IMPORTANT**]
+
+1) Sender Window size(Ws) of **GBN** is **N**, Ws = N.
+2) Receiver Window size(Wr) of **GBN** is **1**, Wr = 1.
+3) **GBN** uses **cummulative acknowledgement**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/00b9307e-a6bc-49e8-89b8-dde249826f33)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0724a4b-bf9a-4f41-aefe-e95a5982560e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/46dd03a4-bf4b-474b-a061-ca50f0a37683)
+
+* Ws = N and Sequence No = N
+* We are going to have **duplicate packets** problem.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/77d10c3b-ff1b-41a8-b0ce-b7e4e296b02e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b25ffb8b-17d0-45d0-9381-4aa84efc104a)
+
+* Sequence nos should be **greater** but even **one no** is going to be **sufficient**.
+* **Available Sequence Nos(ASM)** >= Ws + Wr.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12b0afae-8611-493e-89f7-6abf417a1c54)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5e6e692-b527-48f8-8eac-0e3cde338900)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6206701-4a4a-418d-9029-05e23480d7bb)
+
+* They will give **sender window size(Ws) and receiver window size(Wr)** and ask for the **sequence nos**.
+* They can give **sequence nos** and ask for **sender window size(Ws) and receiver window size(Wr)**.
+* They can say the sequence no fields has **'k' bits** and ask for **sender window size(Ws) and receiver window size(Wr)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09c56b8a-ee3f-4613-8384-00d01facf90e)
+
+* **GBN** is over.
+
+## Selective Repeat(SR) protocol
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ecb171b3-383a-4130-b8a6-d33278638192)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f70bc2f4-d900-49c0-a5ab-70e96869fd32)
+
+1) Sender Window Size(Ws)  > 1.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/416280f7-7d58-41cf-ab34-735eff581753)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7852381d-ca61-4112-80cf-097fdff0730a)
+
+2) Sender Window Size(Ws) is **equal** to **receiver window size(Wr)**, Ws = Wr.
+
+* Unlike **GBN**, **receiver** accepts **out of order** packets as well.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5f08ed5e-ce6e-4270-ae9e-0100ead1a5f6)
+
+* In **selective repeat** protocol, it will only **re-transmit** packets that are **lost**.
+* That is why it is called as **selective repeat** protocol.
+* We are **selectively selecting** a packet and sending them.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b9cf1f4-37e4-4343-8984-04ecc95f44d3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f75062d-7254-445e-859f-9592c15cff9c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/235cb394-440b-4ad1-b093-3a3a73e56a88)
+
+* 1 2 3 4 5 5 6 7 8 9 9 10
+* Total transmissions is **12**.
+* **Re-transmissions** is **2**.
+* **SR** protocol is **same** as **Stop and wait** protocol in terms of **Re-transmissions**.
+* **SR** protocol is **same** as **GBN** protocol in terms of **efficiency**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6fb85b6-db24-4dc6-ace8-8415c5be21ff)
+
+## Problems-on-sliding-window-protocol (20) [11 July 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bebd8d1b-ece3-4db6-9580-5ef5181c86f0)
+
+* **Sender window size(Ws)** doesn't matter because whatever is the **window size**, we are always transmitting **only one packet** at a time.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b38f324-34d7-4b50-b6c2-2b2da7e3124c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f1c1e70-e167-4214-b987-9affc41fd367)
+
+* **SR** is faster than **GBN** because in **GBN** when a **packet** is **corrupted**, the **packet** will be **discarded silently**. Only after the **timeout timer**, the **packet** will be **re-transmitted**.
+
+* In **SR** protocol, when a packet is **transmitted** and if it is **corrupted**, then **immediately** a **negative acknowledge** is sent. Therefore, the **receiver** will understand the **packet** is **corrupted** and it will **re-transmit** the **same packet** without waiting for the **timeout timer**. Therefore, it is **faster**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ece2e624-bc32-4214-a4c5-3ec5dae8d4d1)
+
+* **Cummulative acknowledgement** is **better** than **independent acknowledgements**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/593c5f5f-ea01-49bc-83a2-a8559abaae0d)
+
+* **SR** should go with **Cummulative or independent acknowledgements**?
+
+> We should go with **independent acknowledgements**.
+
+* In **SR**, one acknowledgement is for **one packet** only. It does not talk about **previous packets**. Previous packets might be **lost**.
+* That why we use **independent acknowledgements** for **SR**.
+* **SR** uses **negative acknowledgements** when the **packet** is **corrupted**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf433e00-a3cb-4dbb-b45b-f447dc0457d2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/93f8f4fe-b653-4ab8-9bb1-4aa486836cec)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ebda79a-ea41-43fd-a1b3-55fd0b3be2a0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3455cdc6-2b0c-4c7f-89e8-f1f39e8dbc21)
+
+* [**IMPORTANT**]
+* Summary.
+
+* In order to implement **SR**, we need **'N' size buffer at the sender** and **'N' size buffer at the receiver**.
+* Therefore, the **memory requirement** is **more** in **SR** compared to **GBN**.
+* In **GBN**, the **memory requirement** is **N + 1**.
+
+* Sender Window size and Receiver Window size should be **less than equal to** the **Available Sequence Nos(ASN)**, in whichever protocol we are talking about.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/327f53af-f260-4a8c-9d98-faf5264efe8c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b50528c-90a8-4e3f-b1b3-9fcff4cd9148)
+
+* Stop and Wait -> Ws + Wr <= ASN
+*                  1 + 1       2
+*                  N + 1       N + 1
+*                  N + N       2 * N
+
+* In **sliding windows protocol**, which is a **theoritical concept**, where we only talk about **sender window size(Ws)**. Based on the **sender window size(Ws)**, we are going to talk about **Available Sequence Nos(ASN)**.
+* In **sliding windows protocol**, which is a **theoritical concept**, we generally don't worry about the **receiver window size(Wr)**.
+
+* When it comes to **practical** side we have to worry about the ***errors**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2efc785f-d1c4-4d2d-bd74-9f9b6678456d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1c19436-e8ea-46de-8d73-bba84b577618)
+
+* In case of **memory**, **GBN** is **better**.
+* In case of **sequence nos**, **GBN** is **better**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a423f2db-f0e4-4f5c-a9e2-0ba076f939fe)
+
+* In case of **re-transmissions**, **SR** is **better**.
+* **No. of re-transmissions** is **high** in **GBN**.
+* As the **No. of re-transmissions** is **high** in **GBN** so the **bandwidth requirement** would be **high** as well compared to **SR**.
+* So, **GBN's** **bandwidth requirement** is **higher** than **SR**.
+* In case of **bandwidth requirement**, **SR** is **better**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e203d7b-1c99-46b2-a096-68d9cb0c3bff)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/74f6dcde-b09c-4d7b-b1a3-d41baedeea27)
+
+* yes.
+* **Searching logic** has to be applied to the **sender** side when doing **re-transmissions**.
+* **Sorting logic** has to be applied to the **receiver** side as we are accepting **out-order** transmissions.
+* **Searching and Sorting** logics are very bad in **linked list**.
+* We need **Searching and Sorting** logics in **SR**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/719e9c1f-0056-47c4-baac-94f93e010602)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e891a8e-0693-4b15-807e-6c9e5e3769c0)
+
+* **No searching and sorting** required in **GBN**.
+* **GBN** is very **simple**.
+* So, **GBN** takes **less CPU**.
+* **GBN** takes **high bandwidth**.
+* If **CPU is less powerful** and the **bandwidth is high** then with which protocol should be use or go for/with?
+
+> **GBN**.
+
+* If **CPU is powerful** and the **bandwidth is moderate** then with which protocol should be use or go for/with?
+
+> **SR**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7953ca0a-999e-48a6-a1d2-d36a74b2b5d2)
+
+* In **SR**, we use **negative acknowledgements(NAK)** for **corrupted packets**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58a1b0ab-db47-4b13-b4e0-8bd6cb65c45b)
+
+* In case of **acknowledgements**, **SR** is **better**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dca02525-7b1a-4531-ab36-4c95b844f2f0)
+
+* Depending on the situation, either **SR or GBN** is **better**.
+* **Efficienty** is **not better** in **stop and wait**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/592537f5-434b-4fb5-8894-0781af2f393b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69b8be2c-c757-4433-a854-11fb535f1ec4)
+
+* Generally, in the **wireless connections**, the **error rate** is **high** and in **wired connections**, the **error rate** is **low**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/695a7251-5ade-4a41-84ef-a1a1a2f040f5)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/40c13fb3-e3dc-4e21-8339-b31fd71260ff)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b054407-4092-44fb-87fd-44e92d2a726a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3421ba79-4d51-468c-b60f-83d1aa8438b8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0dd1de31-afd3-479e-a56a-582b386ac18a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/02af2854-9a9f-4821-90e4-36cbf1626e4b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44732450-8570-49c6-a5da-8b9332f1e51b)
+
+* Question
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc0eb351-3d1e-4e3c-8380-c0aad73e3e03)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f4997786-8329-440e-92b4-b729c349b699)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/59aa1b6d-c1d6-4d7e-9f8d-b90ef4acdf05)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92dd22d5-49fb-4490-9376-353fefeb9177)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31580a5c-654f-4253-8949-e2177484b9d4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6023dc02-6071-4e4f-bc82-bad29040d012)
+
+* Question.
 
 
 
