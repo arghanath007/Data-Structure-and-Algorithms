@@ -3848,8 +3848,15 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d7629e8f-8a94-40ac-8331-6003161d058e)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35d0cd07-e62e-46dd-aa4e-e4f4b45268e8)
 
+## relational-algebra-part-i (17) [11 July 2023]
 
+## ER Diagram to relational model
 
+* 1 Entity Set -> 1 Table.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dfaaed53-daee-480d-98de-94606d231f81)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f7b4b84-e9de-4ea1-a10c-210f8bef74f8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9e2191a-c922-47bd-a8ab-11672827ef6b)
 
 
 
