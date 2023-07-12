@@ -3549,14 +3549,30 @@ which is **/13**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e7ee40ac-00d8-47d7-8ee8-f20046752e82)
 
+* Broadcast Link and broadcast are **different** things.
 
+## Access Cotrol Methods
 
+## Time Division Multiplexing
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c93b94b-d7ac-4a35-aace-669dee64c83e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9650e194-736e-443c-8a62-b1569af20813)
 
+* If **everyone** wants to **send data** in **every slot** then that is fine.
+* If **some stations** does not have **any data** and they if they are given a **slot** and other are having data and they are not able to send it. Then that's a **problem**.
+* The **problem** is **progress**.
+* **Progress** -> A particular station has **no data** to send but it is still stopping some other station which has **data to send**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ab162fa-edeb-4221-88d1-e09c8c2963da)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2d94057c-9c94-431c-917c-c77847153197)
 
+> We are going to have **time** and we are dividing it into **many slots**. We are giving **each slot** to **one station**. If the **station** wants to transmit then it is **fine**. If the **station** doesn't want to transmit then we are wasting **one slot**.
 
+* How much should be the duration of each slot?
 
+>
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a9465c7b-d092-4369-9f31-b4e14c706451)
 
 
 
