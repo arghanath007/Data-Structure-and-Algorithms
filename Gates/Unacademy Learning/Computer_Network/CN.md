@@ -3594,11 +3594,104 @@ which is **/13**.
 * T_slot = Tt + Tp.
 
 * Tt -> Time taken to transmit the data.
-* Each **Tt** is **same** for all the stations.
+* Tp -> Time Taken to propagate the bit from one end of the channel to another end of the channel.
+* Each **Tt** is **same** for all the stations?
+
+> We cannot say that. That depends on the **size of the data**.
+
+> We have to assume that **all the stations** have the **same amount of data**.
+
+> We come up with the **worst case size**. We are coming up with the **max size of the packet**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d4a4e1d-983d-44aa-a75d-318a642bf770)
 
 * yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e34f04e-b519-4073-9238-2fe3d5efd20f)
+
+> The **sender** wants to send a **very big packet**, which is **64KB** but there is a **limit** of **4KB**. So, we have to **divide** the packet into **64/4 -> 16** packets.
+
+> We cannot send all of the **divided** packets at the **same** time.
+
+> Even though **16 packets** will be sent, the packets will be sent when the **station** get a **chance to sent it** in the **round robin manner**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c0f7041-55ea-4852-97f6-801e7bcb238b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fff1754a-4d2c-4ea9-9652-39dad62d70b9)
+
+> If the packet size is **4KB** but the data we have is **1KB**, then no problem. Anything less than **4KB** can be transmitted.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c24c35c-f9eb-4a2e-8658-5b3ffe4ff99d)
+
+* Time Division Multiplexing
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e0f87ff-3e86-403f-8a68-92e3d64206c6)
+
+* It is a **simple solution** without **any collisions**.
+* When **many stations** don't have **data**, then **time slot** goes wasted.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aef683da-53ac-4dad-8a0d-bf2a24244a8c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a553f6e-1e3c-4e4e-848c-f162f9eba61b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/413d7374-9a20-4fb9-ad85-c9904f6c5e4b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c19ba144-adba-4618-85d8-fa12dc4ac7b5)
+
+* Efficiency formula
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb33f49f-cf1b-497f-83c5-a1127288a4d4)
+
+* Tt = L_max / B 
+* Tp= d_max / v.
+
+* Anything that **repeats** is a **cycle**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1aba7401-ad45-442a-af7c-d810fea77ec5)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4300e02e-255c-4ca6-9dcb-aa3007e45976)
+
+* Effective Bandwidth/ Bandwidth Utilization / Throughput = Efficiency(N) * Bandwidth(Bw)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e6352f83-d136-49fb-8f3a-59456058aad4)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8856506f-6f73-457a-b3c2-e2bcac77357f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89689801-c853-4936-b6e6-44a6505c0c0f)
+
+* Question.
+* We are using **bandwidth** for **half** of the time.
+* We are using **half** of the time for **transmitting** and **half** of the time for **propagating**.
+* The **2mbps** bandwidth has to be **shared** among **N** stations and **each station** need **2kbps**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff252c7e-5fba-4882-9086-a12de7c21aaf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/78cc225d-ddb3-4fa2-a26c-b45a491b1d09)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b807132-8055-435f-85c5-ba4cc4fe253c)
+
+## 2) Polling
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a637288e-be36-47e1-8e33-b0c968bafa82)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dff83018-3412-4b89-98d4-744fbbc10109)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ce98dc6-4ad8-491d-930e-5c94e465701e)
+
+* Yes.
+* The part is repeating again and again. That's why it is called as a **cycle**.
+* T_poll -> Polling factor or Polling Time.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d7c17eaf-4364-41e3-a404-5fe783e0b3a2)
+
+* Efficiency(n) = Tt / (Tt + Tp + T_poll). [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dfa5cb0b-0e47-421e-846b-41182ed7d64a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/730cb9fd-e21f-4048-bd7f-99014292bfa7)
+
+* Advantages and disadvantages.
+* Few stations might starve for sending the data as it is not in **round robin manner**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57dfad64-5f72-4459-9957-28a2e349be9e)
+
 
 
 
