@@ -8800,8 +8800,210 @@ b5da-42ddc3936df0)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2cae3422-9798-4b00-bbdf-99157e487cad)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a51a8d4d-7f4a-4bf9-a50a-5f922dc6c326)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a64cc74-a792-4b87-80ec-09b380a0ee8b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b9b755a7-dc18-48c0-bef9-f6a253e94351)
 
 * Efficiency.
+* We are multiplying the **no. of people** we are picking from **each team** with their **1 man's work**.
+* Example we have picked **2 people from Arjun's team** and their **1 person's work is 1%**.
+* So, **2 people from Arjun's team** work is **1% * 2 -> 2%** which is the **Efficiency**.
+* We picked **6 people from Chirag's team** and **5 people from Rishab's team**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/badd29b8-0903-48c4-b963-82cac903c3fe)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b06f9770-c819-439e-9922-629b236518cf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a4468b75-3ca2-49c5-ac0a-1e01959472a6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a7df631-864e-480b-bd42-28dd9a8cfac0)
+
+* Work and Time related questions. Days-Men, Days-Time.
+* We have **10 men(M) and 10 days(D)** to find those 10 men. These **two** are variable.
+* So, **Work Done** = 100 MD work [Men-Day Work]
+* 100 MD work -> 1 Work -> 100% of work
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/677b1d13-3da1-4d94-aade-b19b9cf66967)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9719e490-b8ad-4857-aab8-922ab0358e45)
+
+* Those who are **variable** write them as **units**.
+* After **2 days**, **5 People left**. 
+* So **Men** left are **10 - 5 = 5**.
+* After **5 days**, **3 more People left**. 
+* So **Men** left are **5 - 3 = 2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8aa2dce-7ad2-4108-8d7a-ead478c04833)
+
+* How many more men must be deployed so that the work is finished in **10 days**?
+
+* **2 days left**.
+* Men needed -> (2 + x)
+* Work Left = 59 MDW
+
+> 2 * (2 + x) = 59 [Find x]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a971b642-bc55-4381-8f66-12b4312b0e9d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b6f6bf0a-ee4c-4d30-b2ef-3981290ef51f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c22b8179-c517-4630-9244-f62365c4732e)
+
+* W = DMTE
+* How we are defining work, that's the trick/main part.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/486bd826-3e2f-4927-a92f-71b10ef51853)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8dc6a36b-98f0-4d0c-bd8f-7ca10b75415d)
+
+* They are going to add **one technician** every **hour**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3409ca05-3115-4156-b76e-97d413ff0901)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/61cda9df-f497-4d65-8d32-5981439fd08e)
+
+* Question. Solution Above.
+
+* 1st to 5th Day, Work = 5 * 90 = 450 MDW.
+* **10 Men** left the work.
+* 6th to 10th Day, Work = 5 * 80 = 400 MDW.
+* **10 Men** left the work.
+* 11th to 15th Day, Work = 5 * 70 = 350 MDW.
+* **10 Men** left the work.
+* 16th to 20th Day, Work = 5 * 60 = 300 MDW.
+* **10 Men** left the work.
+* 21th to 25th Day, Work = 5 * 50 = 250 MDW.
+* **10 Men** left the work.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5c978da5-a38f-4837-a26e-10f836b4c980)
+
+* 26th to 30th Day, Work = 5 * 40 = 200 MDW.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6e0b17c7-422f-4467-86b1-5aa80d3928a9)
+
+* **1/4** of **5 days** is **1 * (1/4)**.
+* 25 days * (1 * (1/4)) -> 26 * (1/4).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12b76e45-a5ef-4f0e-b19d-4d0c1a3b6175)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c5714ec-a988-46cd-8549-a1ed1966460a)
+
+* Question. Solution Above.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1329bf70-31b4-4f66-9c27-221fe295be8e)
+
+* Question. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b85107bb-e689-45cd-a0be-35f3f31e40a5)
+
+* T -> Total Time.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/82f0024c-faab-438b-8e27-078e21fd5c2b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf1c43c1-7ad1-49fc-9145-c8510e572fcb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/55071863-bb36-4479-b0db-75cb7478bd56)
+
+* Rishabh took total of **15mins** to go to the bank and come back to the **truck**.
+* In **1hr = 60mins**, Rishabh is able to take **60/ 15 -> 4** bags in **1 hr**.
+
+* **P** took **7.5mins** to go to the bank and come back to the **truck**.
+* So, **No. of bags** taken **60 / 7.5 -> 8** bags.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5bc0c2b6-6761-4fc9-8112-e41162d49967)
+
+* **S** took **5mins** to go to the bank and come back to the **truck**.
+* So, **No. of bags** taken **60 / 5 -> 12** bags.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b70e2bf-8639-4eef-ac14-8badf001350a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea21d179-7577-49b4-9db0-9b1cfdb0e360)
+
+* So, **No. of bags** taken if all **three** working at the **same time** -> 4 + 8 + 12 -> **24 bags**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9a9d5de-1c03-46e7-8d3c-1aa7799910b4)
+
+* Question
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22196649-450b-46cf-9572-a60e88692eac)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7462bbc9-1657-4fe8-8e34-bf21a7cef37e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3a9273a-469f-4aa3-9d7a-87121be375da)
+
+* ((a + 1) ^ n) / a -> Remainder is always **1**, which is **R = 1**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f3877b66-5c15-4468-9d97-443f8e36bf1e)
+
+* All of them Remainder is **1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf2c1844-19d6-44aa-8a80-282bd7da0c61)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e52725f-3a2a-48c8-b65e-fecc706099f1)
+
+* (a ^ n) / (a + 1) [**IMPORTANT**]
+* If **n** is **odd**, then we will get the **number itself(a)** as **remainder**.
+* If **n** is **even**, then we will get the **1** as **remainder**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2eab2a29-2d1c-467d-a826-7e57a14e7740)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95bdd6f8-b51b-4f17-9447-97001f0ffb12)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a7b2511-efe3-453c-92a0-6fd0beb28e8c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae060a71-f710-4545-9b24-3648f4064bcb)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/938e3e63-33b1-428e-b963-66b014a19bfe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f3e06d8-c276-4ece-aa33-308d82a0270a)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f3212dbf-a6b5-4b3e-b979-1748234ae7d8)
+
+* HW.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef94dc63-a65e-4fc8-985a-8d5c3ba0506f)
+
+* HW.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c55efa5-bc85-403c-96e1-e8d875fb8651)
+
+* Blood Relation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------
+
+* [Previous Done. Just for reference]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af225430-c649-4b48-bd46-ee0f6b1531a2)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c94686c-5716-4023-b8b3-6e1bd6da9fed)
@@ -8824,7 +9026,8 @@ b5da-42ddc3936df0)
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/03e3275c-9f3c-42d6-a195-d591d92c433e)
 
-* Start from **30mins**.
+------------------------------------------------------------------------------------------------------------------------
+
 
 
 
