@@ -3460,17 +3460,94 @@ which is **/13**.
 
 * Question.
 
+## Problems-on-lan-technologies (21) [12th July 2023]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d242fb74-aca9-4019-9baa-0ab18310c2c6)
 
+* When a **wireless communication** is given and the **speed** is not given, then we have to take **speed = 3 * (10 ^ 8) m/s**.
+* When a **wired communication(optic fibre)** is given and the **speed** is not given, then we have to take **speed = 2.1 * (10 ^ 8) m/s OR 2 * (10 ^ 8) m/s**.
 
+* **Channel utilization** is another name for **efficiency**, Channel utilization = Efficiency.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ec6ad46-0853-48ba-8fb3-29c8b0b8822b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32a68517-6ac4-445f-aea6-3d90d6d12270)
 
+* **a** is a **ratio**, it is simply just a number. It doesn't have **any units**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57771000-5f70-45f6-b57a-b9ee2173d692)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3dd93e92-612d-401c-a0a5-66f3d7dbfe53)
 
+* Question.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/892477d1-8351-4853-b86e-866f596e7eb0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6404bee4-0b9f-4cf0-8e9d-6e30033f463a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f866858-5b7b-4257-8994-799cd25ea8ce)
 
+* 3 bits are **not sufficient**, we are going for **4 bits**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/279967a0-8d3e-4af6-938c-fecd9ea75307)
 
+* When **propogation delay** is given directly, we don't have to do **anything** else.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/25c6881f-9cfc-4e45-a72d-bc35778180d9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d156a5b-eef5-4433-b47a-4bae2fbdcd99)
+
+* **Flow Control** is all about stopping a **fast sender** from sending **too many** packets to the **receiver**.
+* When we are computing **1 + 2 * a**. In **a** only, **Tp** is used. 
+* If **round trip time(RTT)** is give then we have to **divide RTT by 2** and we will get the **Tp**.
+* We have to use the **Tp** in **a**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f47cf585-1855-4b7c-b4e3-af5c6fd73056)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c4ebd5d-e562-4401-bedf-49dcc0ce1fa4)
+
+* Yes. But that is **wrong**.
+* **RTT** time is the time taken by a **bit** to go from **one end to another end and come back**.
+* **RTT** should not include **Transmission delay**.
+* **RTT** and **Transmission delay** have nothing to do with each other.
+* **RTT** is a **constant number**, it does not change.
+* **Transmission delay** is **not constant**, it changes from **packet to packet**.
+* **RTT** should not change depending on the **size of the packet**.
+* **RTT** is actually dependent on the **length of the network/link**, which is generally a **constant**.
+* If we include **Transmission delay**, it means that **RTT** is changing **everytime** with the **size of the packet**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bdae8810-d161-4787-afd5-4e318aba676e)
+
+## Access Control
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/434eca29-dc55-4442-b1fe-daffb6725d02)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bfb83539-b0ac-493b-ba5e-74fd13e1bcb2)
+
+* When **sender and receiver** are **connected**, they are either connected using **Point to Point Links** or they are connected using **Broadcast links**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/48f3bdb9-a013-4a95-8f26-777036436f17)
+
+* **Point to Point Links**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ec7f0ad-4c43-48da-b1d0-27d75023b70e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3ac1a14-0ac8-4402-9244-e4bf2bf287ac)
+
+* **Broadcast links**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86f3ac29-dc69-423c-9690-92b8a1db59e7)
+
+* When all of them are sharing the **common channel** then there is a **problem**.
+* The **problem** is that **collisions** can happen.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a113a3c4-d813-4e87-9ae5-d5cb0f19ee85)
+
+* Access Control -> We have a channel and we have to see that the access to this channel is given to a station and at that time, all of the other stations should stop communicating, otherwise there is **collision**. 
+
+> All of the **methods** are called as **access control** methods.
+
+* Flow Control -> We are stopping a sender from sending too many packets to the receiver.
+
+> All of the **methods** are called as **flow control** methods.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/566c4c96-7fd4-40a5-bdc4-fbeca0fd8093)
+
+* **Acces control** is generally required in **broadcast links**, when many stations are connected.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e7ee40ac-00d8-47d7-8ee8-f20046752e82)
 
 
 
