@@ -3574,6 +3574,34 @@ which is **/13**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a9465c7b-d092-4369-9f31-b4e14c706451)
 
+## tcpip-problems (22) [12th July 2023]
+
+* We are going to give **each slot** to **one station** in a **round robin** manner.
+* Everyone will get a chance in this way.
+* There is a **problem** in this **method**.
+* The **slots** are **alloted statically** and **not dynamically**.
+* The **slots** are also **fixed**.
+* If **one of the stations** doesn't want to **transmit** data or don't have the data. Then that **entire slot** is wasted. That's the **problem**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/854663f0-6f49-45dc-ad4e-e5449c5b7c67)
+
+* In terms of **OS**, the problem is called as **progress**. We are having **no progress** here.
+
+* How long should be the **time slot**? OR What should be the length of the **time slot**?
+
+> We have to thing about the **worst case**.
+
+* T_slot = Tt + Tp.
+
+* Tt -> Time taken to transmit the data.
+* Each **Tt** is **same** for all the stations.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d4a4e1d-983d-44aa-a75d-318a642bf770)
+
+* yes.
+
+
+
 
 
 
