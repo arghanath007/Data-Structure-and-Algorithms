@@ -3961,6 +3961,45 @@ which is **/13**.
 * P(B) -> 1/8 -> 12.5%
 
 * So let's say, **A has won**. So, **A** has **transmitted** it's **packet 2**.
+* No **priority** is given to **station B** and it's **packet 1**.
+
+* What is the **collision no** for **packet 3 of A**?
+
+> **n = 1**, as t is a **new packet**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98c6d0f3-4aea-44f5-b17f-4d23518d1a96)
+
+* What is the **collision no** for **packet 1 of B**?
+
+> **n = 3**, as t is a **new packet**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f38fdf83-a722-44c3-b550-cbe225288e67)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0400a536-532a-461d-b767-91949357d671)
+
+* **Back off** algorithm can be applied to **two stations** only.
+* 100 -> 50 -> 25 -> 12
+* The probability is **exponentially** decreasing.
+* That's why it is called as **Binary exponential back off** algorithm .
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35261d32-1e62-498a-b827-b00a91968976)
+
+* The probability of **A and B** winning are the **same** but **A** wins the **collision** for the **frist time** then the probability of **A** winning the **next collision** is **increased**. If **A** has won again then the the probability of **A** winning the **next collision** is also **increased** again.
+
+* It means that as the **station A** wins each time, the probablity of it's wining is actually **increasing**.
+* This leads to something called as **capture effect**.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
