@@ -4044,13 +4044,44 @@ which is **/13**.
 
 ## ipv6-wifi-doubt-clearing-session (25) [14th July 2023]
 
+* We are taking **average no. of collisions** as **C**.
+* Efficiency = (Useful) / (Cycle) -> Tt / (C * 2 * Tp + Tt + Tp).
+* We have to find the value of **C**.
+* It is **Binary algorithm**.
+* So, the algo is assuming that **2 stations** collide.
+* If **3 stations** collide then also **no-problem**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a9f6ffd-fc18-4d08-8c85-52870a5d5431)
 
+* We have to find the value of **C**.
+* We are going to do **probabilistic analysis**.
+* We are talking about an **average number**. We are not talking about the **exact number**.
+* Every station wants to transmit data with **probability(p)** assuming that there are **n** stations.
+* What is the **probability(p)** of success?
 
+> **Only one** station transmits the data and **(n-1)** stations does not transmit the data.
 
+* For the **one station** to transmit the data, the probability is **p**.
+* For the **remaining(n-1) stations**, the probability is **(1 - p) ^ (n - 1)**
+* The **one station** can be among many of the **n** stations, so we are **Choosing** using **NC1**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95af2352-539a-460b-9821-4e950818472e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f7df7ca-5cad-4854-8170-aa3b2e7c05a9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb3960b0-ec7f-41c8-a42e-7e130a11b351)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/74107f12-be3e-4b7a-8b81-ea877237050b)
 
+* All of the **assumption** so that we can say that on ***average** this is the case.
+* **Average Case**. 
+* **Limit n tends to infinity** means that they are **sufficiently large no. of stations**. We do not have **infinite** no. of stations.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bde7763d-f6e0-4e66-a444-38215113874e)
+
+* The probablity of successful transmission is **1 / e**.
+
+### Poisson distribution 
+
+* The probability of getting a **Head(H)** is **p**.
+* On **average**, how many times should we flip the coin, to get **first head**?
 
 
 
