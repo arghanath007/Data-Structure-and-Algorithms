@@ -4317,7 +4317,18 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 * Then, we have to **explicitely** write the **condition**.
 * Otherwise, we can write like **bnatural join**, no conditions needed.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/28c086be-44d7-4a21-8c24-9e20234a6cff)
 
+* Question.
+
+* pie cname(sigma shipperid = 3 (Customers natural join(damru) orders))
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d2fefbe7-c9ae-4ae1-aec9-c059167f41b5)
+
+* The **common column** which is **cid** has the **same** name.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/74700f0b-0cf6-448d-9865-3991f7a8cb79)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/68c6b02e-d101-4f0f-a92e-9c8573f34534)
 
 
 
