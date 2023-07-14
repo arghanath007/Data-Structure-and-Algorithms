@@ -3876,6 +3876,46 @@ which is **/13**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc61075b-b570-404c-b91e-396fc762e691)
 
+## network-security (24) [14th July 2023]
+
+* So after te **collision**, if both the channels are transmitting the data again and again without waiting then the **collision** is going to happen again and again. 
+* Solution -> Both the stations are going to wait for a **random amount of time**.
+* This **time** is called as **back off time**.
+* **Back off time** is when we are not transmitting any data.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f427d9c-bf8b-4573-bc16-0bd102ea3e12)
+
+## Back-off Time.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8638f755-9dc7-4232-bfcc-c5cce270f3b3)
+
+* WT -> Waiting Time.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df9695c8-4a75-4f47-97e4-e6577a5d15b1)
+
+* **B** can **transmit** without any problem.
+* **T_slot** is **configurable** and it can be set according to the **network**.
+* Everyone can have their own time slots.
+
+> If **A** is sending **packet 1** and **B** is sending **packet 1** and both of them collided. What is the **collision no** for **packet 1 of A**? It is **n = 1** What is the **collision no** for **packet 1 of B**? It is **n = 1**
+
+> Once we decide the **collision no** we are going to decide a **number**,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
