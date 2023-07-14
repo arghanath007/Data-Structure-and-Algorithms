@@ -3713,34 +3713,74 @@ which is **/13**.
 > Multiple access is also called as **broadcast link**.
 
 * The station will not be able to sense the entire carrier. It can only sense the point at which it is connected.
+* When the **collision** happens, the **collision signal** comes back and so the stations should also detect the **collision**. That is why it is called as **collision detection**.
+* Once the station detects the collision, it will understand that the **packet is lost** and it will **re-transmit**. 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e8ac896-6da7-4a78-a742-c0f9be97eb89)
 
+* There is **no acknowledgement** in most of **LANs**. That's why we need **collision detection**.
+* It is the responsibility of the **sender** to find out that the **packet is lost** in the **transmission**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/53610c6b-c0c7-4107-bbdc-7922e8a639bd)
 
+* Carrier sensing(CS) is misleading we are not sensing the **whole carrier** we are sensing only at that **point**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb14ce8a-5dfd-49bf-b93c-7292ab4c7406)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/860bd7f3-d555-46e6-80b5-c2ce6257c1dd)
 
+> Collision has occured and the collision signal will come back. If **A** has to understand that it's packet is lost then it should understand that it got the collision signal.
 
+> **A** has already transmitted the data and **A** is done with the **transmission**. Now, **A** does not see the **carrier**.
 
+> Any station(A) will keep sensing the carrier, when it wants to **send** the data or if it is **sending** the data.
 
+* Any station(A) will keep sensing the carrier or looking at the channel, when it is **transmitting** the data.
+* Any station(A) will not look at the channel/carrier, when it is **not transmitting** the data.
+* So, even though the collision signal is back **A** will not look at the collision signal because it's transmission is over and there is a chance that even if **A** looks at the collision signal, it might think that the collision signal is off someone else. The collision signal is from some other collision and it is not it's own data.
+* How are we going to solve the problem?
 
+> We don't have **any acknowledgements**. Any station can see the collision signal.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ed0f173-60c1-4d1b-bc4e-5931b61b9a72)
 
+* If there is a collision then the station should receive the collision signal while transmitting the data itself, then the station will be very sure that it's **packet is lost/corrupted/collided**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3232cf23-977f-4ad4-ba56-753583a0532b)
 
+* There is a collision and the collision signal goes back to **A or B**, while they are still **transmitting** the data. If they are getting the collision signal back then they(A or B) can say that they **packets are lost**. They can stop the **transmission** and **re-transmit** the packets later.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/07608ae4-6e69-4ee9-9a12-f2b712d572e5)
 
+* When the stations(A and B) are **transmitting** the data and during that time they receive **collision signal** then they are **sure** that their **packets are lost** in the **collision**. 
+* So, they should always send **big packets** in this protocol.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05eb055a-7beb-4a92-ae68-4529747ae4cb)
 
+* Yes.
+* If they send the complete packet and then **collision signal** comes then the **stations** are not able to **sense** the carrier and hence not able to detect the **collision signal**.
+* Even if they see/detect the **collision signal**, there is **no proof** that it is **their packet that is lost in the collision**
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bd34cb0b-3c52-4ea7-809f-03ebf3d9298b)
 
+* We need **big packets**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0882a2da-57e6-4c83-9fed-34c9f59e4b37)
 
+* If we send **small packets** then by the time collision happens and the **collision signal** reaches the **stations(A and B)**, the stations are done with their **transmission** and they will not be looking at their **carrier**.
+* Even if they detect the **collision signal**, the **collision signal** doesn't say which packets are collided, so the stations won't know if it was their packets or someone else's packets. 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ef35833-a564-44f1-ab4b-be1dc81e9b9b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31196eba-ba0e-46e8-bb31-1eae9d5509aa)
 
+* We should send **big packets**. We need **big packets**.
+* By the **time**, **collision signal** comes back the stations should still be **transmitting** the data.
 
+* How big should be the packets?
 
+* The **transmission time(Tt)** time taken to transmit the packages.
+* Tt >= (Collision return time)
 
-
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/96789021-c23c-445f-adf1-80228208d56b)
 
 
 
