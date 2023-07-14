@@ -4388,7 +4388,7 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8c85c2c6-4175-4f9d-afec-62497852924e)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f0dd0f2-0158-4b53-8fef-40f439e627ee)
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c22ab88f-5e8d-4d32-bf6a-4f9f85cab65a
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c22ab88f-5e8d-4d32-bf6a-4f9f85cab65a)
 
 # Joke
 
