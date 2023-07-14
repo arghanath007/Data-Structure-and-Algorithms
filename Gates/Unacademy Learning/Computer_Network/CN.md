@@ -3782,28 +3782,99 @@ which is **/13**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/96789021-c23c-445f-adf1-80228208d56b)
 
+* At what time there would be **collision**?
 
+> **9:30**. The **first bit** from the packets of **station(A and B)** have reached the **middle**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a9fdce8c-3958-4613-b582-63e726874bf8)
 
+* At what time would **A and B** see the **collision signal**?
 
+> **10:00**. Stations, **A and B** detect the **collision signal** at **10:00**. The **collision signal** is back.
 
+* If we start at **9:00** clock then we are able to **see/detect** the **collision signal** at **10:00** clock.
 
+* What should be the **transmission delay**?
 
+> **1hr**. It is nothing but **propagation delay**.
 
+* So, **transmission delay(Tt)** shuld be **atleast greater than equal** to **propagation delay(Tp)**, which is **Tt >= Tp**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5099efbf-9776-42f4-9d9c-7042cb5bfd2d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e41208b0-3191-4769-8385-36b9d7301127)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7532d48b-3f48-441f-b2dd-296a0cb01d11)
 
+* This is a **average case**.
+* Collision is happening at the **extreme end**.
+* **A** started at **9:00**.
+* **Almost at 10:00** which is **9:59:59**, **A** first bit almost reaches **B**.
+* At exactly **10:00**, **B** started.
+* So, **Collision** happened.
+* At what time **collision signal** will come back to **A**?
 
+> **11:00**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2ad83cf-c37d-4e6e-85bb-c74bdae5343a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/959888c8-137c-4144-bd7a-7c5162f1fff2)
 
+* **Transmission delay(Tt)** is **2hrs** here.
+* Tp = 1hr.
+* So, **Tt >= (2 * Tp)**. [Tp -> Propagation Delay]
+* [**IMPORTANT**]
+* What is the **min. packet length**?
 
+> **L_min >= 2 * Tp * B**. [**IMPORTANT**]
 
+* L_min / B >= 2 * Tp
+* L_min >= 2 * Tp * B
 
+* The **min. packet length** in **CSMS/CD** is **L_min** from the **above formula**.
+* L_min -> **min. packet length**
+* B -> Bandwidth
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/544ee3f2-d4a5-4a28-8c62-b2cfb91fa155)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b1bdbc5-279a-4f9a-9562-8b23c9fb80f1)
 
+* **L_max** -> **Max. packet length**
+* Later when we see **ethernet**.
 
+* Tp = 1ms, B= 1mbps
+* L_min = 2 * Tp * B -> 2 * 1 * 10 ^ (-3) * 10 ^ (6) -> 2 * 10 ^ (3) -> 2000 bits
 
+* Tp = 10ms, B= 1Bbps
+* L_min = 2 * Tp * B -> 2 * 10 ^ (-3) * 1 * 10 ^ (9) -> 2 * 10 ^ (6) bits
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3e03779-12c2-488d-b7bb-f4a60468c1fa)
 
+* Questions.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b3599cf6-f5a4-42fc-a945-ac3cf868879a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b9cd7d3e-e9be-458b-ad33-4cc2fc48b77f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/88f2660e-cf6e-4630-a64d-0c0a42667c5e)
+
+* Sometimes, **propagation delay(Tp)** is not given, we have to find it.
+* Tp = D/V.
+* D -> Distance
+* V -> propagation velocity
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b6c96b48-e108-4219-a8d8-a3a9a5a77504)
+
+* Jam Signal.
+* There is a **small exception**, it need not be only **transmitting stations**, any station that detects a **collision** can release the **jam signal**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b56d757-f822-46b2-bf28-9a7a145e3e5f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd35858d-b7d3-4bfd-9e8c-b25f806cf80d)
+
+* The collision will keep on **happening**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c3770c0b-3ac7-493e-b56a-6677e3663df5)
+
+* Yes.
+* Solution -> We are going to pick **random numbers** and we are going to play with the random numbers.
+* That is **Back Off** algorithm.
+* We pick a **random numbers** and wait.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc61075b-b570-404c-b91e-396fc762e691)
 
 
 
