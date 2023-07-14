@@ -4056,6 +4056,110 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 
 * To get **BCNF** or satisfy **BCNF**.
 
+## relational-algebra-part-II (18) [14th July 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/08e8f898-0dbf-4fd7-98be-16787281f2fb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9465eb9b-4003-4a4b-9afb-e39d392b5646)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f2778077-240b-48d3-be92-34665a2a3519)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/636ef0ce-fc79-49a2-923b-9a5531deeefb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/654aa1cd-fcd5-47d8-b65c-49365d643d0c)
+
+* **select** filters rows based on the condition.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5e37c7e-e83c-4b8c-a013-9452f9e9280e)
+
+* **Same** as **where clause** in **SQL**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81dd181a-207c-4c27-97ea-ca4ce6a4b9a9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1b03e55-fc99-469f-a529-01cdcf690e0d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a7246fba-0ecc-4871-bc3b-23bb08a6e362)
+
+* **select** is **commutative**.
+* **^** -> AND.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63f2919a-bd9a-4315-b71c-03810965c360)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/924309b3-a793-48b5-8767-b85d7a18d945)
+
+* Find all products with prices between **15 and 30**.
+* (Sigma) price >= 15 ^ price <= 30 (Products)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a650117-4b7e-471b-842e-16660f688437)
+
+## Project
+
+* It is like **select clause** of SQL.
+* It **eliminates** duplicate from tuples/rows.
+* It takes only **distinct** values from tuples/rows.
+* We do **project** at the **last/end**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f07c4ae-4e1f-4a1e-967a-956536066a96)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05ff3842-b965-4fad-84eb-cae2afa00d71)
+
+* pie cname (customers)
+* We will get **distinct names**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d401f6b-746b-4939-a067-45c1e60ab483)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0de83ae-97a0-4654-93c7-0643a0bc6a33)
+
+* The **project** operation results in a set of a distinct tuple as the project operation removes duplicate tuples.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3afeaf74-9081-40e7-86ab-c6c5aec6e5ed)
+
+* pie Ename, Salary (Employee)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2ae8910-9770-4b95-8a7a-35e3e465e920)
+
+* pie Salary (Employee)
+* We are getting **distinct salary** which are **3** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ca65d8fe-d874-42f3-994c-8551ea6f5bac)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65a4aaa7-ecba-4044-9d88-38bb5aee56e6)
+
+* pie A, B (R)
+* We got **combination** of the **distinct values**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a383973-aca4-4cfc-b9c2-9f5f485f1be5)
+
+* **Sequence** of **execution**.
+* pie Ename (sigma Dno = 2 ^ salary > 17000 (Employee))
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12b05b65-1eb0-4de3-aa6e-4c3de8e152c0)
+
+* Yes, fetching the records.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/67dd15ea-f87c-46ca-9b9c-746835d8bc71)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7809c449-9343-4c4d-8f3d-4dfb06375dd3)
+
+* Yes.
+* Fetch name and dno of all male employees who are having salary less than 30000.
+* pie ename, dno (sigma salary < 30000 ^ sex = 'M' (Employee))
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/048488a4-3a57-47db-8ea2-bbeccb9584e0)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5bded8e-3a39-4441-8c41-479326d0ab52)
+
+## Set Operations
+
+1) union
+2) Intersection
+3) Set-difference
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/197612ed-7da1-4978-9828-ec83de9eb7ae)
+
+* If we want to use a **set-operator** then we have to keep **two** things in mind:-
+
+1) No. of columns must be **same**.
+2) Data Types in the corresponding columns must be **same**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0ef63f1-d246-4fd0-92c7-ee884ae5ca0b)
+
+* No. of columns and data types of corresponding columns must be **same**.
+* If the **condition** are met then **any set operation** will work.
+
+
+
 
 
 
