@@ -4081,29 +4081,99 @@ which is **/13**.
 ### Poisson distribution 
 
 * The probability of getting a **Head(H)** is **p**.
-* On **average**, how many times should we flip the coin, to get **first head**?
+* How many times should we flip the coin, to get **first head** and **p** is the probability of getting a **Head(H)**?
 
+> On **average**, we have top flip the coin, **1/ p** times before we get the **first Head(H)**.
 
+> On **average** how many **Tails(T)** are we getting before the **Head(H)**.
 
+> According to **poisson distribution**, it is **1/p**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/910aa398-9487-4704-9fe1-73fc51517278)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cec98836-8549-4b31-9d7e-ad6ae7ad898b)
 
+* Probability of successful transmission(P_succ) -> 1/e
+* How many times should I try before I get the **first success**?
 
+> (1 / (1/e) -> **e** times.
 
+* We have to try for **e**times before we get the **frist success**.
+* All of the **e** times or tries are nothing but **failures**, which means **collision** have happened.
+* All the **e**times or **e** tries are nothing but **collisions**.
+* After **e** tries we are getting **successful transmission**. All **e** tries are **collisions**.
+* It is an **average number**.
+* It is going to happen when there are **sufficiently** large no. of stations.
+* We don't worry about **probability(p)** we have eliminated it.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5172063-e8f7-4960-bb1e-ee95ee78efc3)
 
+* Irrespective of **probability(p)**, if there are **sufficiently** large no. of stations, then we are going to have **e** collisions before there is a **successful transmission**.
 
+* What is the value of **C**?
 
+> It is **e**, which is **C = e**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4dad964b-cbe5-4b16-8f65-bace6cbfc061)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a78e451-c756-436d-a8d9-a426a3383997)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/859a8bdb-bc9a-4eb3-817c-831b70a4e753)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a3d8816-9fa4-40bb-b84c-e2caf47a6e66)
 
+* If **success** is **transmitting** then **failure** is **collision**.
+* We are saying that there are **e** no. of failures which means **e** no. of collisions.
+* Therefore, **no. of collisions(C) = e**, which is **C = e**
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e21a447-52d6-48e5-aca9-6d0a04e1f0c3)
 
+* In **efficiency**, we can substitite the value of **C = e**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7225e505-c3fb-45cb-868a-7019acf2a90a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/007d082e-6277-4221-a24e-526c2297e159)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6c31d2f-2ee9-4862-84c3-472b9c1f50ad)
 
+* Putting, **C = e**, which gives **efficiency**.
+* n = Tt / (2.71 * 2 * Tp + Tp + Tt).
+* **Efficiency** of **ethernet**:-
+* n = 1 / (1 + 6.44 * (d/v) * (B/L)) [**IMPORTANT**]
 
+* Whenever we buy the **channel/cable**, the **velocity(V) and Bandwidth(B)** are **fixed**.
+* We can play with **distance(d) and length of the packet(L)**.
+* If we **increase distance(d)**, then **efficiency(n) decreases**.
+* So, we can say the **CSMA/CD** are good for **LANs** but it is not good for **WANs**.
+* If the **length of the channel** is **very long** then **CSMA/CD** is not going to give **great efficiency**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/40e1d510-50e7-42a5-a2ce-523eeb04726c)
 
+* **CSMA/CD** is used in **ethernet** which is a **LAN** technology.
+* So, *CSMA/CD** is used in **LANs**.
+* **CSMA/CD** is a **access control method**.
+* **Ethernet** is a **network**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f2028d73-5b2e-4b35-91e4-e1d2c6b19ed7)
 
+* If we **increase the length of the packet(L)** then the **efficiency(n) increases**.
+* If the **length of the package** is high then the **transmission delay(Tt)** will be high, even for the **same**, price, which is **no. of collisions**.
+* We are going to get **same no. of collisions** but we can carry a lot of data. 
+* So whenever we **increase** the **length of the packet** in the **ethernet**, the **efficiency increases** because if we **increase** the **length of the packet** then **transmission delay(Tt)** is going to **increase**. That's why **efficiency increases**.
+* Therefore, we have to **increase** the **length of the packet** in order to **increase the efficiency**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cee673e1-178d-4d38-b87d-dc8af7be76ea)
+
+* On many networks there is a **limit** to the size of the packets.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98898216-c163-4122-aa96-dfe5f323a158)
+
+* Even though **efficiency increases** with the **increase** in the **length of the packet**, but we should not do it beyond a **certain limit**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6e7ddf68-7510-4b9f-8f1e-8fd05e367953)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a903fb5-1998-4842-964a-43f5c669ed25)
+
+* CSMA/CD
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/90df36ec-975e-4335-ba1c-720d276453cf)
+
+* **CSMA/CD** is just **collision detection(CD)**, it is not **collision prevention(CP)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e94eb4c-08ce-4af9-ae36-2c6baa680698)
 
 
 
