@@ -3899,28 +3899,68 @@ which is **/13**.
 
 > If **A** is sending **packet 1** and **B** is sending **packet 1** and both of them collided. What is the **collision no** for **packet 1 of A**? It is **n = 1** What is the **collision no** for **packet 1 of B**? It is **n = 1**
 
-> Once we decide the **collision no** we are going to decide a **number**,
+> Once we decide the **collision no** we are going to choose a **number** between **0 to ((2 ^ n) - 1)**, in the case of **A** we got the range from **0 to 1** as **n =1**. For **B** we got the range from **0 to 1** as **n =1**.
 
+> We got **4** combinations possible.
 
+* If **(1,0)** is choosen what is means?
+* It means that **A's** waiting time is **1 * T_slot -> T_slot**, which means **A** is going to **wait**.
+* It means that **B's** waiting time is **0 * T_slot -> 0**, which means **B** is **not going to wait** and **B** can **transmit**.
+* So, here, **B** won the race.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f66fac6-f6ea-462c-8abb-50772c420b54)
 
+* (0,0) -> Collision again
+* (0,1) -> **A** won
+* (1,0) -> **B* won
+* (1,1) -> Collision again
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee460357-cf08-4d5c-a930-fdb9b254cc47)
 
+* After the first collision, what is the **probability** of the second collision?
 
+> Out of **4** cases we have **2** cases of **collision**. So, **probability** is **2/4 -> 1/2**.
 
+* After the first collision, what is the **probability** of **A's winning**?
 
+> Out of **4** cases we have **1** cases of **A's winning**. So, **probability** is **1/4**.
 
+* After the first collision, what is the **probability** of **B's winning**?
 
+> Out of **4** cases we have **1** cases of **B's winning**. So, **probability** is **1/4**.
 
+* This are **conditional probability**. This is the **second probability** after what happened in the **frist probability**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0bf0049d-a63c-4717-92b7-54a1311a734e)
 
+* Let assume, **A has won**, which is **(0,1)**.
+* As **A** has won the race, so it as has transmitted **packet 1** and **A** is ready with **packet 2** and **station B** has **packet 1** only.
+* As **A** has transmitted **packet 1**, so **B** can now **transmit** it's **packet 1** but that's not the **case**.
+* There is a change that **station B** will **starve** as there is **no bounded waiting** here.
 
+* **A and B** stations, started **transmitting**. There is **collision** now.
+* What is the **collision no** for **packet 2** of **station A**?
 
+> **Packet 2** has just come and it is **colliding** for the **first time**, so it is **n = 1**.
 
+* **n** -> **Collision no**
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d0e1c51-864b-46ce-85e0-d43e9e1c4eca)
 
+* What is the **collision no** for **packet 1** of **station B**?
 
+> **n =2**, as it is the **2nd time** collision for the packet.
 
+* We are talking about the **collision no** of a **packet** and not the **station**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f73fbeea-b0f2-4e3a-88df-6f2f7d0a9789)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea7da264-f208-43e3-a342-8c36cee2ef61)
+
+* P(Collision(C)) -> 2/8 -> 1/4 -> 25%
+* P(A) -> 5/8 -> 62.5%
+* P(B) -> 1/8 -> 12.5%
+
+* So let's say, **A has won**. So, **A** has **transmitted** it's **packet 2**.
 
 
 
