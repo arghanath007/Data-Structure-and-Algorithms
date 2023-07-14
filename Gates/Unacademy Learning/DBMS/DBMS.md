@@ -1,4 +1,4 @@
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c22ab88f-5e8d-4d32-bf6a-4f9f85cab65a)# DBMS
+# DBMS
 
 # Course Structure
 
@@ -4288,11 +4288,34 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ee7ad5d-6b5f-4cf9-a605-5c642760c075)
 
-
 * We  will write it directly.
+* There will be **one common column**, the **column name** would be **same** as well..
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb154919-e97f-4abb-bc26-ec42a1ba3e6e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d20067ad-9945-4186-9628-4fe2303a7b1d)
 
+* The **Rollno** is the **common column** here.
+* The condition will be automatically applied on them(common column).
+* The **common column** name should be **same**.
+* If the **common column** name is not the **same** then we have to **explicitely** write it. Like below.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7ab5b99-f170-4bef-a481-2fd7f4152fe6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/980600a2-b4dd-465a-8ff8-4efdaf35d6bb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/334e9490-82be-4e98-9762-816296a2a9f5)
+
+* **Implicitely equi join** is used for all **common columns**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7dd5ec53-0b90-43c0-842a-8f3100660e4a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e738f533-2b94-4478-9bb1-b64f7133e946)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/39251b6e-8a78-4895-a387-dcf4e9ed31f3)
+
+* There are **two** common columns, **A and B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/64dac596-4d87-408d-a912-f121d99cef71)
+
+* Attribute/column name which is the **common column** does not have the **same name**.
+* Then, we have to **explicitely** write the **condition**.
+* Otherwise, we can write like **bnatural join**, no conditions needed.
 
 
 
@@ -4354,7 +4377,7 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8c85c2c6-4175-4f9d-afec-62497852924e)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f0dd0f2-0158-4b53-8fef-40f439e627ee)
-
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c22ab88f-5e8d-4d32-bf6a-4f9f85cab65a
 
 # Joke
 
