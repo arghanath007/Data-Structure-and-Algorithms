@@ -4042,6 +4042,21 @@ which is **/13**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e3006e1-401b-4115-b602-250254d896cb)
 
+## ipv6-wifi-doubt-clearing-session (25) [14th July 2023]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
