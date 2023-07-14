@@ -4090,6 +4090,8 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 
 
 
+
+
 ## Misplaced Images
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8c85c2c6-4175-4f9d-afec-62497852924e)
