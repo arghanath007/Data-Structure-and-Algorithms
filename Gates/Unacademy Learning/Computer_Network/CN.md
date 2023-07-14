@@ -3998,6 +3998,73 @@ which is **/13**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8983ab9b-75a6-4a9a-942c-97935354bf82)
 
+* The **above example** is that after the **collision**, **A has won** then **A has won** and **A has won**.
+* Try the **other examples**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe6ed173-b912-4071-894e-5f6f9e9eeea0)
+
+* We are talking about **collision no** of a **packet** and not the **station**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f236c79-6a81-4441-8ae2-86530d3b2d20)
+
+* [**IMPORTANT**]
+* Initially when we start, the **collision number** is **n = 0**. For the **first packet** there is **no collision**, so **n = 0**. 
+
+* **Inter Frame Gap** -> Between **two** packets, so gap is maintained. If we don't give the **gap** then the **two** packets will be merged and considered as **one packet** only.
+* **Collision No** for the **packet**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5f8ca657-6452-4320-87b4-4841ea8eb65f)
+
+* Entire process of **CSMA/CD** procedure.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f05593a-d4f7-4de7-b8c2-96a897a2d04c)
+
+* Efficiency of **CSMA/CD** -> (Useful Time) / (Cycle Time)
+* There are **some collision**, but we don't know the **no. of collisions**. Let's say **C** collisions.
+* Whenever there is a **collisions**, what is the amount of time wasted?
+
+> Roughly, **2 * Tp**. **2 * Tp** is the **time wasted** in **each collision**.
+
+* There is **no gurantee** that everytime there will be **same no. of collisions**. There can be **any no. of collisions**.
+* Useful Time -> Tt
+* Once we find the value of **C** we can find the **efficiency**.
+* **C** -> Average no. of collisions that might happen.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d5879654-0dbb-4bed-9a08-d16bdf805aa4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f98f21e-02ba-4d84-a9e7-e41dadbbd2dd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7b496b9-c3cb-4f9a-b64b-1607150c3ce6)
+
+* **C** = (No. of Contention Slots) / (Collision slots)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b942596-ddcd-4326-ad81-f4e60a6e4b24)
+
+## Probabilistic Analysis
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e3006e1-401b-4115-b602-250254d896cb)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
