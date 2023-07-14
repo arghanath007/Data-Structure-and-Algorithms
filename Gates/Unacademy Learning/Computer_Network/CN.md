@@ -4175,8 +4175,10 @@ which is **/13**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e94eb4c-08ce-4af9-ae36-2c6baa680698)
 
+## Part-I Completed
+# Part-II
 
-
+* Link -> https://unacademy.com/course/computer-networks-part-2/TVTQZZ6R
 
 
 
