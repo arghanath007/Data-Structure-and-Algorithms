@@ -3987,9 +3987,16 @@ which is **/13**.
 
 * It means that as the **station A** wins each time, the probablity of it's wining is actually **increasing**.
 * This leads to something called as **capture effect**.
+* In the **above example**, it means that the **station A** has captured the **link** which means there is a **monopoly** here.
+* So, **station A**, keeps on **winning**, as the probability of winning keeps on **increasing**.
+* So, there is **starvation for 'B'**.
+* **B** will try for some number of times and it will give up.
+* If **B** keeps on trying, **B** will keep on loosing.
+* It is better for **B** to give up completely and **restart** later to have **collision number(n) equal to '1'**, which is **n = 1**.
+* If the **collision number(n)** **increases** a lot upto **n = 10**, then it's **probability** is going to **decrease** a lot.
+* So, **B** will **restart** from **collision number(n) equal to '1'**, which is **n = 1**. So, it will go for **few number of collision** and it will again **start or restart** from **1**.
 
-
-
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8983ab9b-75a6-4a9a-942c-97935354bf82)
 
 
 
