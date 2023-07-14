@@ -11,6 +11,7 @@
 * Part- 1 -> https://unacademy.com/class/sql-pyq-discussion-part-1/FIVDGXH3
 * Part- 2 -> https://unacademy.com/class/sql-pyq-discussion-part-2/USA9WKOY
 * Part- 3 -> https://unacademy.com/class/sql-pyq-discussion-part-3/9IHKNZVM
+* Part- 4 -> https://unacademy.com/class/sql-pyq-discussion-part-4/EAQ4FZLP
 
 # SQL Link
 
