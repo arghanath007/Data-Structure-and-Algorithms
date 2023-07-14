@@ -3692,6 +3692,87 @@ which is **/13**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57dfad64-5f72-4459-9957-28a2e349be9e)
 
+## doubt-clearing-session () [12th July 2023
+
+## CSMA/CD
+
+* One of the accesss control methods.
+* It is used in **ethernet**.
+* **Ethernet** is **LAN**.
+* So, **ethernet** is a network.
+* In **ethernet**, **CSMA/CD** is used.
+* In the exam somtimes they will use **CSMA/CD** or they will use **ethernet**. Both are actually the **same**, when it comes to problems.
+* They are used **interchangebly** in questions, don't get confused. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/99fdab15-da22-4e97-ad24-b3365a8813e7)
+
+* Why is it called **multiple access**?
+
+> Many stations are accessing the channel. Many stations are connected to the same channel.
+
+> Multiple access is also called as **broadcast link**.
+
+* The station will not be able to sense the entire carrier. It can only sense the point at which it is connected.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
