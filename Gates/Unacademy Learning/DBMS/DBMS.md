@@ -4157,10 +4157,32 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 
 * No. of columns and data types of corresponding columns must be **same**.
 * If the **condition** are met then **any set operation** will work.
+* Operations is performed on **tuples**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b1f2178-0704-4d4c-a0a2-32e98116fba5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33ce46eb-51d3-48be-bbf0-91e464eba41a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/101736bd-e7e7-499b-97a9-1079f37dfd01)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f795ef2-e95d-4d2c-ba75-f2d6301b4e35)
 
+* The **whole tuple** needs to be **duplicate** otherwise we will write the **tuple** in the **union**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e64a619-c10c-4dff-8660-3496886cd57c)
 
+* We got the **distinct name** from **E1 union E2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d598f68b-86c4-4007-a9a4-99b131e28808)
+
+* We got the **distinct age** from **E1 union E2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/25221163-e788-4560-92ee-a85da4bd2e86)
+
+* Relational Algebra(RA) doesn't remove them automatically but **project** removes them automatically.
+* There is a **difference**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac519b62-886d-4118-bfe1-0543ac77d7ec)
+
+* Question.
+* (pie sname (sigma dob = '27-10-1988' (Students))) U (pie ename (sigma salary > 15000 (Students)))
 
 
 
