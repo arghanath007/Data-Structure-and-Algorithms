@@ -4182,7 +4182,139 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac519b62-886d-4118-bfe1-0543ac77d7ec)
 
 * Question.
-* (pie sname (sigma dob = '27-10-1988' (Students))) U (pie ename (sigma salary > 15000 (Students)))
+* (pie sname (sigma dob = '27-10-1988' (Students))) U (pie ename (sigma salary > 15000 (employees)))
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/54c5458c-5d4e-415f-9377-35999f9864ee)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fbae307e-1fba-41c6-a3b3-736f1495f26a)
+
+### Intersection
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76758c9b-0046-46f2-b175-5e0650b85c4f)
+
+* Common Only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f8b8291f-bf0b-47ac-b5a8-7e0a91f25cd5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/830082f3-a6a1-40dc-be01-3a8f3f0067a7)
+
+### set-difference
+
+* All those tuples of **E1** which are not present in **E2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a33be5f8-6730-43e7-a123-ecb30a8078b6)
+
+* E1 - E2.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e570fa1-3ebd-4820-bf12-cfb3f2762c55)
+
+* E2 - E1.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/251fc17e-565f-434f-8ce6-f26592e0869c)
+
+* Union and intersection are commutative and associative.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/673266d9-9ec3-4242-ad4b-f6eee5df494b)
+
+* **Set-difference** is not applicable.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9393eb1b-3191-4404-8154-b9275767d792)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27b92e0a-b368-41c6-855c-dea0e7d100c9)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/864e01d7-7cf2-4eb6-b242-6cbc9d536bf4)
+
+* **Yes**, they are **equivalent**.
+* **Project** is **distributive** over **union**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0cbc7512-595f-4a0c-9241-f3f04229c184)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0325e796-b2d4-4f7a-a827-325de0faca66)
+
+* **Project** is **not distributive** over **intersection**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/078c0313-ab73-4ce3-9c8a-324dd72c0659)
+
+* Both are **not equivalent**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e72b2d64-590a-45b0-ad3e-a7827f2bd3e4)
+
+* Question.
+* (pie eno, ename, dno (sigma gender = 'M' ^ salary > 20000 (Employee))) U (pie eno, ename, dno (sigma gender = 'F' ^ salary > 25000 (Employee)))
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/82fa8f90-0895-4427-934d-e817413f6649)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e14ee10e-8c25-4c1b-bb50-378d1a5f6be9)
+
+## Cartesian Product(Cross product)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd4d0522-4669-4577-87f3-6f483514a6c0)
+
+* Cartesian Product(Cross product) 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc317b2a-3fdb-4dc0-80f8-3763bdcca7f4)
+
+* Cartesian Product(Cross product)  -> pie A = D (R X S)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/67149430-829d-4e14-8460-4e0645bb4e3d)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/094ceb7c-af16-4109-81f7-705bd04b9801)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f04425e-f3e6-4c8b-aeb7-9e29745651d2)
+
+## Joins.
+
+* When we join **two tables** and we filtered out the result based on the condition.
+* This is called as **condition or conditional join**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/667e5df9-e8e7-41d7-bddd-7d95c1e71073)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69ecdf5a-0fde-425f-be2d-fa7800ebfabe)
+
+* In **conditional join**, the join condition would be **>=, >, <=, <**.
+* There will be **no equal too(=)** condition.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f1c96bd-0eaa-4491-bbcb-bb91590c58d5)
+
+* In **Equi join**, we are going to use **=** operator.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af322074-3221-4e29-bc36-1b7b5d898822)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a63a919b-da49-4a20-bc50-f36b48979458)
+
+* We will get **two** rows.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e35a6c14-dc43-4dd9-af94-834830e4a185)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e97fb0da-8574-4b37-860d-b6349f644293)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/da86550f-2d7b-4d98-9704-370d47306ceb)
+
+* In **natural join**, we don't have to write any conditions. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ee7ad5d-6b5f-4cf9-a605-5c642760c075)
+
+
+* We  will write it directly.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
