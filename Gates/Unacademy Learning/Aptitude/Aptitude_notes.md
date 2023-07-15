@@ -9188,6 +9188,168 @@ b5da-42ddc3936df0)
 * Let **ME** which is **passed in both** is **20**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb9e81ab-f8f2-4e7d-bf74-5781701e085a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ca6c3852-204d-457c-ac14-4ff647621e93)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b8bf2f7e-40de-4ee6-857d-d53bf3f24094)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b64d7e3-14ef-4603-ae14-69d5604c5f7c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0460b8de-3a51-40a9-904b-812c6aef4550)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/616c694d-7d4b-4d53-9e8c-385f756c5714)
+
+* SAMSUNG or SONY
+* SAMSUNG and SONY
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/51c16547-105c-4cc3-b5ef-d96c03e00696)
+
+* Question.
+* SAMSUNG or SONY but not DELL
+* SAMSUNG and SONY but not DELL
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af15e8c4-f1e5-4d0c-be2b-60153dc50c22)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f2e10e8-4b6c-4fe1-abc9-ab10579ce511)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8bd94776-22b6-423c-afed-baf28c988bc9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc331aa4-ceac-4aab-80ec-f700e9af9902)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc9059ca-634f-4688-a835-4d0dda52131a)
+
+* SAMSUNG and SONY but not DELL or HP
+* SAMSUNG and SONY but not DELL and HP
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd6e579e-19a2-4fab-8084-83cacbb6002b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76bdb92d-c5d9-41a5-8392-ef3505371256)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3064010c-5ea8-4311-8a20-64902433f202)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1dafba7-3efc-4c6e-9443-f6554c20109e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0723f728-80c7-434b-a237-02596c49cd63)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7138862e-f20a-45f0-aa1c-b6bc614d21c8)
+
+* 8.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/13b0725a-b881-43c5-874a-776e95f39297)
+
+* Question.
+* Option **D**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e95cb4ea-df67-4871-afdf-1ad8abdcee40)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7dc91669-312b-4ae9-9933-d307bb77aed7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0711de8-5f9e-40d1-a74a-3a01544560c3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/262fc082-a8b7-4688-abb4-b382e3f62537)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb429c04-72cf-423b-aad4-7e0e8d734033)
+
+* Question.
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bbad97e6-8435-4fde-8a6a-367db73c3340)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d93e213-d422-42ff-a833-70d4201606e3)
+
+* **change** means both **increase and decrease**.
+* **change** is a **neutral word**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5149e94c-0aff-4110-8da2-4326705807b6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32daf654-d1f2-4954-80de-7de7f9d7aef0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/10905983-75ff-4323-8839-71ce3568589d)
+
+* Successive percentage(%) change = (a + b + ((a * b) / 100)) % 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ca49588c-f3a9-40bf-90bc-32f546250a97)
+
+* [**IMPORTANT**]
+* If it is **increment** then it is **plus(+), positive**.
+* If it is **decrement** then it is **minus(-), negative**.
+* Formula -> (a + b + ((a * b) /100))
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b8fb1669-1fbe-4262-ba18-4740d0418769)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91972444-40d3-4d6d-b019-283d507340b5)
+
+* Successive percentage(%) change.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/572aef7f-8a83-476f-95d0-c954026b477f)
+
+* [**IMPORTANT**]
+* Increment of 20% -> 1 + 1 * (20/100) -> 1 + 0.2 -> 1.2
+* Increment of 30% -> 1 + 1 * (30/100) -> 1 + 0.3 -> 1.3
+* Decrement of 20% -> 1 - 1 * (20/100) -> 1 - 0.2 -> 0.8
+* Decrement of 30% -> 1 - 1 * (30/100) -> 1 - 0.3 -> 0.7
+* Less than **1** means **decrement**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/48e459ae-f8d3-4110-8d2b-42781aba2959)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1ea886c-1bfe-45de-be63-746493d6d736)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3d63db5-d428-4366-8c8c-41958c7d1b22)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9a29bb73-8837-412e-98da-295dbda8b9c3)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66c397a5-19e6-4830-9cb9-76354fa254e9)
+
+* CI
+* CAGR
+* Compounding.
+* Discounting.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/395c2ed2-73d2-4d51-bd53-fe353b04244d)
+
+* Circumference of circle(C) -> 2 * pie * r
+* C is **directly proportional** to **radius(r)**.
+* Area of circle(A) -> pie * (r ^ 2)
+* A is **directly proportional** to **(r ^ 2)**
+* There is a **30%** increment in the **radius(r)**.
+* There is a **80%** decrement in the **radius(r)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd0e3dce-235d-4710-b437-39f89ebdb2bc)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12395779-46fb-44e3-be9e-f09000b2d517)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d94b9b5b-c77b-43a1-a33a-3cb84310522d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7550f9f0-7960-4108-b765-71a9b3d28ac8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0a5d16e-d663-4bbb-88f7-b3bfb325c9e0)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e68603f-81ec-4cf2-87a3-45d484d2f6b5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/55706d33-fc85-4cab-8306-53ee3238dbd7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/187f50c5-095f-4c09-a770-af14d027f568)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44314584-12b6-40f9-9900-6e7101a4b9d9)
+
+* Square, 
+* Perimeter(P) and Area(A)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2516ae17-fe22-4d13-a285-1be41f6efac4)
+
+* In **geometry**, **height(h)** means **90 degree**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d2f4c6f9-825a-4f23-a1c5-8abf0cd62eff)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9c2b40ab-78cf-4551-8aca-ad23ad7b64a5)
+
+* Cone
+* Volumne.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91b3e6c5-2a21-40ec-9fab-f55fc4ace4d8)
+
+* 10% Increase in **r** -> (1.1) ^ 2 -> 1.21 -> 21% increase 
+* 20% Increase in **r** and 20% Increase in **h** -> (1.2) ^ 2 * (1.2) -> (1.2) ^ 3 -> 1.728 -> 72.8% increase 
+* 50% Increase in **r** and **constant** in **h** -> (1.5) ^ 2 -> 2.25 -> ((2.25 - 1) / 1 ) * 100% -> 1.25 * 100 -> 125 %
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b822891f-e81c-4803-9db8-a2c9862b1957)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f081f92-7140-4d01-9d67-462a38056939)
+
+* Question.
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a9fa4420-2744-4e3d-886a-3c1da4580c0e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e878e5de-4977-4968-8e99-179f09d7aaf1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee8e2229-5eaf-4c6c-b3fb-b132bdbbfceb)
+
+
+
+
+
+
+
+
+
+
+
 
 
 
