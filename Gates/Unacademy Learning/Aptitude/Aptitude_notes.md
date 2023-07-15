@@ -9158,8 +9158,36 @@ b5da-42ddc3936df0)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/329c7a94-127c-4c82-b3ac-0c2157fc6236)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc705ee1-4fdd-447f-ac23-ce45d48d724f)
 
+## doubt-clearing-session(49) [15th July 2023]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bfaf8590-6ee2-42e5-8294-d6991882c9fd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6790f4a8-ea65-450b-9dba-52ce363bb73e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd67276c-94f8-4033-a24e-8d09f7381a93)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8a318f8-11cb-46a1-b1c5-cb4bd9773ee0)
 
+* **a** -> People who passed in **Maths** only and not in **English**.
+* **a** -> ME'.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7bb569a5-fb3e-45e5-a400-377d5d56c5ec)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a7b99f7d-a095-4461-9809-dbaba00bf262)
+
+* **b** -> People who passed in **English** only and not in **Maths**.
+* **b** -> M'E.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/567c8700-adb7-401d-a52c-2aaee264159f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3deeb2e1-b854-449e-b47c-5101cbbbfecd)
+
+* **x** -> People who passed in both **English and Maths** only.
+* **x** -> ME
+* **n** -> People who didn't pass in both **English and Maths** only.
+* **n** -> M'E'.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f503766-c9c3-4031-b8fc-cc36819a5d56)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/387c00c2-9adc-4e13-aacc-d2c7e6eb246c)
+
+* Let **ME** which is **passed in both** is **20**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb9e81ab-f8f2-4e7d-bf74-5781701e085a)
 
 
 
