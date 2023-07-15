@@ -8993,26 +8993,170 @@ b5da-42ddc3936df0)
 
 ------------------------------------------------------------------------------------------------------------------------
 
+## percentage-and-di-part-i (48) [15th July 2023]
 
+## Percentage and DI
 
+* Graph -> **4** are important.
 
+1) Table.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6fd7d55d-0f88-4b43-bda0-ec1d78c5e8b3)
 
+* Graph can be shown in **two** ways:-
 
+1) Currency Form(Rupees, Dollar, pound) -> Value wise graph or Value basis graph
+2) Numbers form(Kg, Tons, Quintal) -> Volume wise graph or Volume basis graph
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e0809cde-405b-433a-91c3-536800b51ada)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d99db19-d697-4d6d-ae21-c91492099058)
 
+* Point **1**.
+* Initial Value(IV)
+* Final Value(FV)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/550d8481-995a-4a8f-b508-e1453412f7f3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d463207-cd19-4db6-966c-2f8af50b4613)
 
+* **% Change** = ((FV - IV) / IV ) * 100% -> ((120 -100) / 100) * 100% -> 20%.
+* YOY -> Year on Year **OR** Year to Year
+* QOQ -> Quarter on Quarter **OR** Quarter to Quarter
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6d82fd4-975c-4db4-9cb0-81f902930a53)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81b3cbb9-9a70-40b9-965e-8467862a0af3)
 
+* **Quarter** -> 12 * (1/4) -> 3 months.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c06d189a-8b85-466f-aa8c-3440c2061131)
 
+* Question.
+* Option **D**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a0d982b-f799-4bba-9a3a-90b841565deb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1de08dc3-8d9d-4f10-9335-4e3847263011)
 
+2) Pie Chart.
 
+* The **graph/chart** is representing **100%**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d378946-264b-4755-a8a5-77f69d728313)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d986edc3-6fcf-4e50-9b87-5c7034ce26c6)
 
+* The **graph/chart** can be represented in **degrees** as well.
+* So, **100% = 360degree**. 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/43305e52-9b75-4d83-a2ca-a50fede0901c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91a149d7-d313-4581-818c-ca36e0888c32)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e7c28bea-a52d-4f74-b705-071ea90ae0ae)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2bb93be6-65a7-45fc-8a8b-a953b48f645e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/623db595-3606-440e-8cdc-16ec88ce4b68)
+
+* Question.
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fef14e8d-7951-436d-b459-11c094dfd382)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/193efb3a-75c3-4023-ab3b-aaa46b9dc204)
+
+* Question.
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/68395d2b-35f0-4efe-b5f0-d17a5b080af2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e251039b-e834-4cbb-aae1-475c6d5707cb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5afc417-8bad-48bd-a97a-fdf9ad1be63a)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b292036-b052-4977-85b8-594e2726cc24)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12bccc81-1282-454d-9b74-e2314a29f110)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3da2971b-bc4e-452b-90d8-dd61662b8243)
+
+* Year -> 2002.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/425999e3-040a-4bf4-8fa0-5bb8722e23a1)
+
+* Year -> 2003.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d44c9a44-d579-4d99-9c56-5d38d9e8b330)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c21ad0b-9d4a-4ca0-8bf2-d12dc553f023)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c6ed2f0-0f83-4be3-ab6d-47a74d3fefdb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80f2f9c3-1f04-42db-b69e-9ccc0c7ab607)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/88acac5c-eb0a-4861-90d7-6f195605470d)
+
+* Graph.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c0a1038-3460-48e7-8e7b-ea2926e766b5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/07378553-1237-4d02-b775-f86894ea5e86)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e10aa476-1516-4acb-b4ed-da0ed633372c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c78df600-01f6-4f51-bc46-fbb16b658499)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b2180d7a-521c-4b85-8134-ead292964cd9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d9895f33-0e39-4cce-94ff-b61b3a3cdc69)
+
+* Others
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/68ce24ae-4035-4214-8f0c-1390e2531ac2)
+
+* Question.
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d60ec3f-23ed-4a45-9101-2026c09f4c5d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0dfce9f1-af06-46ff-b471-8e5e61a681e0)
+
+* If we calculate **10%** individually or take **10%** on the **total amount**, we get the same **66%** both of the times.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/79e06349-2e83-46c6-a414-d4ce534305cc)
+
+* Instead of doing **10%** individually, do the **10%** on the total **150Cr**, we get **15Cr**.
+* So, **10%** is **15Cr**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e2acc982-1607-4af8-b903-46d723caf94c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8994c4ae-334f-43dd-8fef-435c23558650)
+
+* Instead of doing **10%** individually, do the **10%** on the total **375Cr**, we get **37.5Cr**.
+* So, **10%** is **37.5Cr**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33c1c722-2993-4339-8a4c-0e92553b720e)
+
+* 480 * 50% + 50 * 480%  -> 240 + 240 -> 480.
+* 480 * 50% -> 240
+* 50 * 480% -> 240
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b1284a34-425c-4e54-ac30-ffd7fc1057cd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dafd8096-05c8-4a1d-8b71-deba54602da8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba7ec484-3c22-464b-bce6-b8f2f3e25d6d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/de33d0b6-3a02-4596-9659-3676d5003d79)
+
+* X% of Y = Y% of X [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f2e86b2-26d2-454b-994b-5c6dac72f0e5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/48c03b8f-8107-4313-9197-c435c9e7297b)
+
+* Question.
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c0381a1-88f6-45ce-a99e-4c2a8eb78df6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0acce06-c22b-4b2d-b145-a5b1756f189c)
+
+* Min and Max.
+* Product of elements having **max and min** value in the set. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/74ce111a-4e9c-4395-b4d4-74b634119dfa)
+
+* Question.
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1e467a8-88d9-483b-88ce-c0f1d944368d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c155112-d06d-49d4-8fbb-5b181607c31f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd6fd9dc-7d26-47b0-a774-54819b437ce9)
+
+* Question.
+* HW
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/329c7a94-127c-4c82-b3ac-0c2157fc6236)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc705ee1-4fdd-447f-ac23-ce45d48d724f)
 
 
 
@@ -9298,13 +9442,7 @@ b5da-42ddc3936df0)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0161b8a1-f8ea-4a1b-869b-353e68d7df71)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3733886d-a0bf-4c6d-9d0f-135df56e3008)
 
-## percentage-and-di-part-i (48) [15th July 2023]
 
-## Percentage and DI
-
-* Graph -> **4** are important.
-
-1) Table.
 
 
 
