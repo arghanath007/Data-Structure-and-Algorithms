@@ -9298,6 +9298,36 @@ b5da-42ddc3936df0)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0161b8a1-f8ea-4a1b-869b-353e68d7df71)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3733886d-a0bf-4c6d-9d0f-135df56e3008)
 
+## percentage-and-di-part-i (48) [15th July 2023]
+
+## Percentage and DI
+
+* Graph -> **4** are important.
+
+1) Table.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
