@@ -9610,6 +9610,85 @@ b5da-42ddc3936df0)
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/baeae7be-3180-49b6-a0a7-695f4a3a0b95)
 
+## verbal-reasoning-part-vii(52) [16th July 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85699fa7-e426-486b-95ca-9ad8fa764faf)
+
+* Question
+* Option **B**.
+* Eloquent
+* Loq/ loc
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ed3ddba-2f67-4193-a7a6-48387ab91935)
+
+* Could be any state.
+* Democracy -> Beyond Scope. [Option A]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6870e9c9-8644-4d73-936e-10839beeed2d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57c4c3a3-023e-4e77-ab53-8a1fc77d71d3)
+
+* Skill
+* Competence.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/79258393-14eb-44a8-b54c-ac5d7e194a82)
+
+* Question.
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e88215e7-61d2-4200-96d3-a07940be8b76)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/54a5ade0-7c75-4240-ae86-f79c3acb2686)
+
+* Question
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd98b172-7e1e-4704-b3ca-3459efb0f5d4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3fc3d36-937f-4d72-906d-481b4701f1c1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a807eaa-1b6f-49c9-bd76-05da1f8a9cda)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bd31252e-8c7d-4f50-bc0a-d3a9bc7d6129)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/75d526ce-d363-4a6e-9cf0-aee6618e7ed1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/637a5d0f-53cb-45e3-af87-064497f45d37)
+
+* Adjacent
+* Opposite.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1cffda5f-d23f-4624-87bf-040a62d7232a)
+
+* Question.
+* Option **C**.
+* In **circle/circular**, there will be **one gap** for **A** to sit between **E and D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ca1848a6-f380-48e1-ab62-f326869877aa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b7c8810b-712e-4a07-9de3-98141695ec0a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0061ebc-cb9e-4971-9f2e-ff7e4fd9d6b1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3227bcf-9f36-45dd-aa76-5b953f5804fc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a53f9814-6f1f-4bf9-912a-3798d5af1b63)
+
+* Demography.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea5b54c3-a9a1-4e7b-8d56-ef5990a61e75)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/49a3187b-2f4d-497b-b485-2acdf21a58cc)
+
+* Question. 
+* Option **B** (Only 2).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/84687b00-c0b7-468c-86b5-4889acf5a2fe)
+
+* Human Wave
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b7cc106f-fdef-4fce-a6c0-7f149c39b559)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f4692ce-311f-441a-985b-5f04ae5916b4)
+
+* [**IMPORTANT**]
+* Conversely.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/17291e69-f029-43da-bc82-a2c1a0c74d39)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a53a6cf7-12ef-442d-b41e-b789f1056763)
+
+
+
+
+
+
 
 
 
