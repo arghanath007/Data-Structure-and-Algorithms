@@ -9395,7 +9395,85 @@ b5da-42ddc3936df0)
 
 *[**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd52417c-7c91-479d-83f5-6fa468c76285)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb12c5ea-dd47-4c0c-9ba4-3cbf0574e8d9)
 
+* 10 Characters
+* 10 lines in each page
+* We need to fill **10 * 10 * 10** -> **(10 * 10 * 10) / 10 * 10 -> 10 pages**.
+* So, we need **10 pages**.
+
+* 20 Characters
+* 20 lines in each page
+* We need to fill **10 * 10 * 10** -> **(10 * 10 * 10) / 20 * 20 -> 10/4 -> 2.5 -> 3 pages**.
+* So, we need **3 pages**.
+* Initially it was **10 pages**.
+* Finally it is **3 pages**.
+* % change = ((F - I) / I) * 100 -> (3 - 10 / 10) * 100 -> -70% -> **Decreased by 70%**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83301ca9-e630-47e7-b2fc-4de3eae38db5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf7eec15-2fab-4d95-88fe-d93cd670b53a)
+
+* Question.
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/25a38972-c593-4adc-969c-927654858601)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57ffeebd-a8e2-45fe-a68b-b1b0284ac80c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aab265f2-0c2d-43b2-a07e-35f923287020)
+
+* We are not doing **round-off**. Even if we get **15.1** we will right **16 pages**. If we are writing one word or one sentence or half filling the page, we are using the page fully. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6707651d-89ec-43ed-835d-1d036dbe2a5d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5a9cef6-dbf7-4e5c-8adc-2b36eea37c46)
+
+* GDP -> Revenue of a company.
+* Government -> Company.
+* Fiscal Deficit(FD)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f4e7cf85-306d-4332-9ef3-df257d14c535)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/877433f6-9d4f-48dd-866c-fb6d9e6be46f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3977ee3c-8e7a-4ea4-a69a-d11825434fac)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/418290a7-3e05-4e1a-b9e5-f6b086dd0e4d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9f38f1c5-d364-4144-be53-d6eb60a28ebb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb8ddbcf-ac1b-44b8-b6d0-140ed4e1d5d5)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/229888b2-4955-4373-9643-0ba4178aaa40)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cdc00a5a-e680-4ffa-a409-092ebbc8bb69)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5f88934-6309-42f4-8238-b3f8c79ba2f7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/29f96bf2-764a-4e89-b5eb-19f7b3e2271e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/64d61e91-2aa7-422e-ba6b-07f8a7ba5719)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d304ed95-c5e7-465c-a733-cf0f280ebc19)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1d5dbb0-c4ff-45a0-bb20-e7acef7650d0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1763d1a-8cb5-4e7a-9050-5c9ddfd3f978)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7073272-8316-4c15-a6aa-ff1ee2103f99)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/de1d14f0-24e3-44eb-9536-6be62d902c8c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ca42cbe2-b0c7-43a5-ad61-c1f26fffa6f3)
+
+* 2006.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/64281ee6-8b7b-40f0-aeaa-a0cb0b36c195)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5c93c299-1129-4df7-86c6-0bc2733e33aa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c60aeaa6-4843-4e78-9c8c-f5fbe136f9c8)
+
+* Trade Deficit -> Export is less and Import is more. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83c9ba46-3fe0-48c7-8428-4e7849448f9f)
+
+* Question
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dfdbb116-84a4-4752-b1c3-509fd670e46b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f9b0241d-41ff-42d3-a85b-719decb7a881)
+
+* Answer -> **2006**
 
 
 
