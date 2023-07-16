@@ -9501,27 +9501,114 @@ b5da-42ddc3936df0)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c9dd232-378d-41f5-9c30-936991d69125)
 
 * [**IMPORTANT**]
+* 3 Steps:-
 
+1) If Increase then decrease and vice-versa.
+2) Convert the percentage(%) into fraction.
+3) Calculate. If **decrease** then **minux**, if **increase** then **plus**.
 
+* Decrease of 33.33%
 
+1) Increase 
+2) 33.33% -> 1/3
+3) As it is **decrease**, so we will do **minus**.
 
+* 1/3 -> 1/(3 - 1) -> 1/2 -> 50% increase
 
+* Decrease of 12.50%
 
+1) Decrese -> Increase
+2) 12.50% -> 1/8
+3) As it is **decrease**, so we will do **minus**.
 
+* 1/8 -> 1 /(8 - 1) -> 1/7 -> 14/28% increase
 
+* Increase of 5%
 
+1) Increase -> Decrease
+2) 5% -> 1/20
+3) As it is **Increase**, so we will do **plus**.
 
+* 1/20 -> 1/ (20 + 1) -> 1/21 -> 4.76% decrease.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5c1854f6-c9a0-436d-8d03-47a2125cf01b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9f69a1da-e355-4f38-99dc-1b0ae735d821)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/806f2d22-6980-4137-b85a-6db4bb6cef8f)
 
+* Question.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c92fe432-fb09-4951-a316-22fba8d89eeb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f1423040-360b-4c59-9de4-1201db004492)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24b47e67-86af-4bcd-8a74-c8f974de3b20)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8c4cec9c-d43e-46a1-8887-cb5e1885c8f3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b6488985-ca98-4b77-9cb1-50d30e1f0784)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a79e34f4-c9d3-4313-ab9f-2f073c90082b)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22c0484b-0923-47ce-907f-0c1f179f62f6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb0788e2-6f9f-4295-9a8f-7ae118b2f713)
 
+* R = P * S
+* Revenue(R)
+* Price(P)
+* Sale(S).
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a39f9484-cd3d-4996-9b9e-c83ec70b4636)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ddf58bcf-2cb4-4de8-b1f3-96c11f08f405)
 
+* Question.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c427246d-a2b2-4375-b7f6-4bbde6c45539)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/79afcdd5-32d3-4f14-b6ee-6226424bf2b5)
+
+* Aread(A) is constant.
+* Revenue(R) is constant.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/11c00be4-35cb-4966-bc45-888775ecdf56)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/06b28d47-749b-44a9-acd7-f2efc25da579)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b6305ec-d202-4f9d-9670-8dc1aed928ee)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0734afc7-d43c-4e62-b39a-26eecb319db6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05dac76d-1b91-4c30-a39a-7b85dde48224)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/20dd67b1-00ad-4a2c-a391-af98869b07d5)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c215e5d8-2502-4035-81da-d8ac0c92846f)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b81f5d28-daf5-4ecb-a975-d0091e7603fe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/326cc7bd-ac36-4cf2-87f7-ce10cc1e24cf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d921ca95-1075-4b5f-a9f9-8ce8585ecae8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/997dea06-0687-4a6c-89db-a7560025ecd0)
+
+* Successive increments.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a9f53a25-c3ee-49db-9ba9-c7f2ace36e1d)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ccec921-2313-40fc-84b7-d64699744805)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/74e20a98-ee53-4f9d-b460-deeaaf1e92aa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f4589a0-6134-44d2-a45e-ffa46e041ec5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5003fd06-4398-444a-9376-8332a97916f1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1ca03c9-3d72-40a7-b6ae-5d3d31df3917)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cae2ec1f-a624-4d20-a442-41e9e7295199)
+
+* Question
+* Different type.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/baeae7be-3180-49b6-a0a7-695f4a3a0b95)
 
 
 
