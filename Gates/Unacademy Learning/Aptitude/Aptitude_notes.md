@@ -9496,8 +9496,11 @@ b5da-42ddc3936df0)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22238c66-b477-43db-b0db-f597976fc44d)
 
 * [**IMPORTANT**]
+* **Expenditure(E)** must remain **constant**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c9dd232-378d-41f5-9c30-936991d69125)
 
+* [**IMPORTANT**]
 
 
 
