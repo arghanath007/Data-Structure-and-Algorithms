@@ -9340,15 +9340,60 @@ b5da-42ddc3936df0)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e878e5de-4977-4968-8e99-179f09d7aaf1)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee8e2229-5eaf-4c6c-b3fb-b132bdbbfceb)
 
+## percentage-and-di-part-ii (50) [16th July 2023]
 
+* Milk(M) : Water(W) -> 3 : 5.
+* Quantity of milk -> 3K
+* Quantity of water -> 5K
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/70ab11c4-46dd-427e-9455-59efc6d83037)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9bb9c300-6dfb-4af2-a07c-8d5497536764)
 
+* It is **37.50%** concentrated solution of milk.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f659c7a3-0fc4-4b32-b945-054049cdd0f4)
 
+* 3/8
+* 5/8
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/204f25b6-b7a0-4228-8a4e-1ba8d1c4a8f0)
 
+* Question.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41d8a5a6-68ad-4cad-a980-356f7a83ab91)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/238d6b7f-8f66-40b9-818d-d9521aa31158)
 
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89a1c999-6b2b-4d88-b87c-51b13f52878d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22590097-5660-4120-850c-962a2ecfbb62)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d53affe5-3afd-4ae6-a50b-247ad40adfc4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1fde415-2b05-489a-b7b6-771aac3ecfd2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/502cfb25-03ae-4d4f-90ab-e95e66f7d469)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3bfde5e-abc5-4afc-9b19-5ad2197681ca)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1e6fc44-e9e8-47ff-ac0f-cdb78f7aa849)
+
+* Income = Earn(Active) + Receive.
+* Income = Savings(S) + Expenditure(E).
+* Income = Disposible Income
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d7ecc8a5-491f-4e38-a61a-9a486c834dcb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/87e70bfe-8593-4292-8687-96db4027721d)
+
+* New Savings
+* New Savinga percentage change
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f1f548a-5b63-46f9-a305-8c05793c35db)
+
+* Income = Savings + Expenditure [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bdd1a758-2ff2-4878-bcf2-e2e9836ee017)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ecc55ffe-af1e-4237-b75e-a3404dcf1f9f)
+
+*[**IMPORTANT**]
 
 
 
