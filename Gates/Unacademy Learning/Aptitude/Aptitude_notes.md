@@ -9475,6 +9475,31 @@ b5da-42ddc3936df0)
 
 * Answer -> **2006**
 
+## percentage-and-di-part-iii (51) [16th July 2023]
+
+## Percentage and DI
+
+* E = P * C
+* E -> Expenditure
+* P -> Price
+* C -> Consumption.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e519435-b74c-4e84-9d69-37090f6341a9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71a27037-fde2-4cfb-b894-1ac6cc7de49d)
+
+* We have kept the **expenditure** constant.
+* When **price** increase, **consumption** decreased.
+* When **price** decreased, **consumption** increased.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/07bbf0a5-806b-49a0-b6ec-d5e6ddff6a61)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac57b44e-8f2c-4def-b291-03c420c56065)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22238c66-b477-43db-b0db-f597976fc44d)
+
+* [**IMPORTANT**]
+
+
+
+
 
 
 
