@@ -4331,16 +4331,44 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/74700f0b-0cf6-448d-9865-3991f7a8cb79)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/68c6b02e-d101-4f0f-a92e-9c8573f34534)
 
+## relational-algebra-part-iii (19) [16th July 2023]
 
+* Conditional Join -> <, >
+* Equi Join -> =
+* Natural Join -> No condition. [The tables have the common column with the same name on both tables]
 
+* In **natural join**, automatically the **common column** join condition is there. We don't have to write it. 
+* In **equi join**, we have to write the **common column** join condition. The **name** of the **common column** is **different**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0dbe7c99-a915-4686-b6b5-ed379308b086)
 
+* Question.
+* pie dname (sigma drivers.did = drives.did ^ cars.cid = drives.cid ^ ccolor = 'Blue' (Cars (Cross join) Drives (Cross join) Drivers))
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7985e12-b4e9-4e9f-b6da-ba52c281fbef)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f9d355c-29b5-4e84-a769-02b8aae70dd6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2065b931-710b-4b5c-bc4c-c7f575d34d97)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8c535634-47fe-4609-a855-7955a042f03b)
 
+* Question.
+* pie dname (sigma drivers.did = drives.did ^ cars.cid = drives.cid ^ (ccolor = 'Blue' V ccolor = 'Black') (Drivers X Cars X Drives))
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16f4ddbb-7dd8-42b0-a95d-5787ecd3e9bb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee7492af-fd4c-4066-a0b2-ee872a3a590c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dcf8ccfd-3f55-4e21-9ce5-e6e4de986e26)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2d7fa7fb-f61e-46b8-8d93-1c9782b89b53)
 
+* Question.
+* pie dname (sigma drivers.did = drives.did ^ cars.cid = drives.cid ^ ccolor = 'Blue' ^ ccolor = 'Black' (Drivers X Cars X Drives))
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0659fd5c-78fa-4ad5-a08c-cc8472fe03f7)
 
+* (pie dname (sigma drivers.did = drives.did ^ cars.cid = drives.cid ^ ccolor = 'Blue' (Drivers X Cars X Drives))) (Intersection(U)) pie dname (sigma drivers.did = drives.did ^ cars.cid = drives.cid ^ ccolor = 'Black' (Drivers X Cars X Drives))
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/245e7125-4bf5-4c30-a221-7b9da59e0a0a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/10032de9-4ab2-4838-bec5-1f95f449d2e4)
+
+* Start from **40mins**.
 
 
 
