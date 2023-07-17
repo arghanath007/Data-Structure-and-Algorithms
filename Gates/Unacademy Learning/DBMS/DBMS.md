@@ -4548,15 +4548,74 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 * The result is the attributes that are not in **R2** but are in **R1**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a0b24bb-6cde-4ad8-9424-81639615726f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9be66525-0c30-47bf-99f4-7f77d489555e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91a89c1a-9457-467f-a0c7-68e03dc792b8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57c92636-c7d5-472e-b269-ae109d751528)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8cef5b77-18a5-498b-9ba6-f311c863eb15)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5ffca06-39cf-490d-bd26-82b786803c7e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/96d3bf6e-aa55-489d-83b1-2e49f371c129)
 
+* Single value of **B column** associated with **A1 and A4** from the **R2** table's **A column**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e0b8488f-a241-4d5a-821f-2b1f10bd8862)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/28b36384-5609-4bff-9379-dd3b4b260e01)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d87fd0b-dec5-429b-a779-ec0d9cbbe8d1)
 
+* **Division** operator is **for all**.
+* After the **division** we will get **pid** but which **pid** we will get. The **pid** that are associated with every **prodid**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/25fc24b0-7b42-480d-90c6-93ab5b936e1e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f97a244-0885-4e46-9439-5b5ace6a84b6)
 
+* We want that **pid** which is infront of all the **prodid**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ef2d40e-413b-48d0-86d5-f0cf16b65db9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b8a6a9fc-7c88-4b3f-b96d-af7d73778dc8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b645c9bb-3260-4082-a6ee-ef6a1900e002)
 
+* Question.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa72f6a3-2a71-48a2-915c-3d2bca93f882)
 
+* Division is possible.
+* Result set -> StudentName.
+* Those **student names** will come that are associated with **CA,CB and CC**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a753d6c0-0fdd-43a6-88f2-452d36ec4dda)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e79d065e-cedb-4383-b85e-ac20bcb90fe3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba987728-0bda-4dc4-b8d1-f7bab263c4b3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb6e3de4-09dd-43a2-ac90-0ff36a07da26)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0c32046-1855-4aca-a01b-7994d0a1a572)
+
+* Yes.
+* CarID and Date should be **same** value with the **Cid**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ebeb2f6-6e01-4b63-a077-3311527f5d41)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3e2339c-3ea5-4900-952b-6c5957950462)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5492a93a-26d8-474c-8ade-ff4751fbf834)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d55baa3-4178-4bac-991a-4ad60b0922c9)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bd149c8c-d4b3-469e-a50a-41e86af2d300)
+
+* Women enrolled in a course question.
+
+### Doubt
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/43522458-a7b6-4baf-9b9c-658c82e1ff2f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c551c2d4-847d-48a0-986e-d9c2ef9458fe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66a82715-dba9-4d8f-b25d-c03aeb317ea6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ceae00b-1262-4e09-b86e-a90316b3e262)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5bc71aaf-082a-49f8-b9b7-ab9d4af51435)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc10e1b0-2496-4b08-a761-fe976bf3c163)
+
+* The condition would be **True** for one row.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/743e696e-56fd-47d5-b4e7-2b0a7242a241)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/73904c6e-516c-48fc-9147-d9120ac2823f)
+
+* Will work.
 
 
 
