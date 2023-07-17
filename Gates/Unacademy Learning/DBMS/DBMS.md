@@ -4617,6 +4617,40 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 
 * Will work.
 
+## trc-drc (21) [17th July 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3dc005e5-d8a9-4f33-906f-d00a444aacfe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37d90f25-832f-4678-ada0-74f0a862c05c)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
