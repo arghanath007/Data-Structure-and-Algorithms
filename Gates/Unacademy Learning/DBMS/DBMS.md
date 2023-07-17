@@ -4462,12 +4462,137 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 * Option **B**.
 * [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d87fabe9-f692-4034-96bb-75b4c3e73caf)
+
 ### Doubt
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5b327ca-36f3-41dc-9b91-1fae868ae180)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35225449-86ad-4d30-a3fd-468487c371e0)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/552d8104-aae0-4832-99a2-3086c0c5e76b)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c591d722-3a59-4345-bfb4-8ee614d177b1)
+
+## doubt-clearing-session (20) [17th July 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b4086eb-69dc-40de-ae49-491cbd02d350)
+
+* Questions.
+
+1) sigma country = 'Germany' V country = 'UK' (customers)
+
+* As we want all of the customers('*' in SQL), so we don't have to write **project(pie)** here.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b7d95318-219f-46f7-b1c8-0140b6371367)
+
+2) pie cname, address, postalcode, country (sigma contactname = 'Yang Wang' (customers))
+3) sigma customerid <=19 (customers)
+4) sigma country != 'Germany' ^ country != 'UK' ^ country != 'USA' (customers)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2d53aa4c-43b8-4206-973f-bb1511a1190d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3fdcc788-a137-4b65-8415-dc515e8f12d9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ee76b12-ffcd-42b2-a9ce-a7cf601b2ce8)
+
+* Set-difference.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/053db361-e0c0-418a-8771-5563c4ce0760)
+
+* Question.
+
+1) sigma supplierid = 1 V supplierid = 2 V supplierid = 3 (products)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b2ad916-21b5-469b-adf5-8fa443d59042)
+
+2) pie productname (sigma price >= 5 ^ price <= 25 (products))
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a7334037-740d-468b-86fe-9734a8056e73)
+
+* As range is mentioned, so, it will be **inclusive** only.
+
+3) pie supplierID (sigma category = 2 (products)).
+
+* If supplier details needed, then use suppliers relations. We have to do **join** then.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f06d4091-1f6c-4e9d-9d5e-63e19ed53cd3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1771f832-cced-48f9-a13f-11e779a26271)
+
+* We are writing **pie suppliername, address, city(project)** because we only want the **supplier details**. If we don't write **pie(project)**, then we will get the details of **products** as well which we don't want.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/56df551e-e3b1-4c2d-8719-67068d18c18d)
+
+4) sigma supplierid = 2 ^ price > 30 (products)
+5) sigma price > 50 ^ supplierid != 6 (products)
+6) sigma price < 30 ^ supplierid != 2 ^ supplierid != 6 (products)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2535c839-d0c4-4d32-9a74-40c6f19a0245)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/524c97f3-331f-4696-9e1c-19d70ea4e10f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/94b28cc9-63d3-4a88-b0d2-8de984c4e58c)
+
+## Division Operator
+
+* R1 / R2.
+* R1 -> Numerator
+* R2 -> Denominator.
+* **R2** should be **smaller** for good/smooth division.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6390583d-554d-42c4-b6be-762bbf4a1af1)
+
+* It will work.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f1ae5604-9937-4b0d-968b-2fbf935e64e1)
+
+* It will work.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb31d33b-429b-40c2-bec8-2a84ffa71bc5)
+
+* It will not work.
+* R1 / R2 
+* The result is the attributes that are not in **R2** but are in **R1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a0b24bb-6cde-4ad8-9424-81639615726f)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
