@@ -4367,21 +4367,107 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/245e7125-4bf5-4c30-a221-7b9da59e0a0a)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/10032de9-4ab2-4838-bec5-1f95f449d2e4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ad9d0103-cb23-406a-93bc-b965f740c8d5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a42e0d4c-5aa7-472c-9d83-b105e2bd780d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5692a80-cb2f-4fd1-9f71-69c5d9f9f21d)
 
-* Start from **40mins**.
+* Question.
+* (pie drivers.did, dname (sigma drivers.did = drives.did ^ cars.cid = drives.cid ^ (ccolor = 'Green' V ccolor = 'Red') ^  (Drivers X Cars X Drives)) - (pie drivers.did, dname (sigma drivers.did = drives.did ^ cars.cid = drives.cid ^ ccolor = 'Green' (Drivers X Cars X Drives))) intersection pie drivers.did, dname (sigma drivers.did = drives.did ^ cars.cid = drives.cid ^ (ccolor = 'red')
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/517a3b63-40a7-4029-9090-d7dac2d26fd5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fac53007-9a7d-4827-965e-f5b75204c289)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db038dcf-d935-4075-b4c5-6332f9eefe11)
 
+* Left Outer Join -> We get all values(rows) of the **left table**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/01867e8a-3f17-4fe9-a507-e3c1b4b9814d)
 
+* Right Outer Join -> We get all values(rows) of the **right table**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db548a54-c492-4121-9fcf-d0b2c8d2702c)
 
+* Full Outer Join -> Extra records of both the tables will come that do not participate in natural join.
 
+## Rename Operator
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9a229353-8019-4b6e-8ed8-90ba2c2d4080)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7bdfe9c0-1da7-4009-b21e-a84085e10489)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0dfe051e-9351-4a9b-923a-788c0277c0a5)
 
+* Yes.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/51189ac5-024e-4c58-972c-95881b797586)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81f99207-bf0c-4294-a70b-7a63223e100b)
 
+* When we want to **rename** the names of the columns as well as the **table** name.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/94950f89-b4a0-4aaa-b209-910e6f3b5b25)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0176612c-17fe-45fd-ac3b-766c831de768)
 
+* When we want to **rename** the names of the columns only, we are aliasing the table as well but we are not giving a name to the table.
+* New instance of **student table** is created. We haven't given a name to the table, we have just renamed the column names.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7fe652a7-724c-464d-9bdd-84573defda7b)
+
+* When we want to **rename** the names of a **specific column**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6dcbc7fc-d71d-4c59-a386-c1987a8ed15b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/238ce0e7-30c9-46cb-9912-1daa05534584)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7cc3e8c9-3b59-4e0a-9b88-d9efab3c1c60)
+
+* Sequential renaming.
+* If we don't want to rename all of the **columns** then we have to put **arrows(->)** for the column renaming.
+* Otherwise it will not work.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/861cfb03-5618-44fd-88fd-15f19777a557)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65435d53-000f-4636-8784-f3211e79546e)
+
+* Question.
+* It is conditional join.
+* (name of all female students) - (name of all female students who have scored equal or lesser than any male student) -> name of all female students who have scored more marks than male students.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bae51f82-48bd-4910-bdb3-b036f52a814d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b124aea-3b4b-4b57-9a91-4d1bbc99df9a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e50a2476-62ca-48e1-b291-faddbbbca7d1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/859f5fe9-6fce-459d-94af-1358b4a5cdf7)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50e8e46b-6f79-459e-86a6-08385835bd19)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa18e0bb-3af2-42ef-984d-d453ad9cab79)
+
+* It is conditional join.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/15e1b59b-c048-4904-86bc-8c4549d0f2a1)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/39136a2d-b519-4291-bc8c-dc19adfa8ad6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e49bf3b0-a292-40d7-b39d-9ba880a6c506)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ba7c951-41d0-4e89-a930-385197089487)
+
+* We got the **female sid** who have not enrolled into a **particular course**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7daaf537-7a4a-4ac5-a0a6-c8229175ad4a)
+
+* The **cid** of **c1, c3 and c4** are the courses where some students have enrolled.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95c6cab0-8ef8-46b9-9663-4532a38d7349)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a9992ed-c932-42d0-8c23-18a08872ae52)
+
+* we will get **those courses** where not all of the female students have enrolled but some of them have enrolled.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/49aa39ce-da5e-43d9-8882-9ac207df5698)
+
+* Option **B**.
+* [**IMPORTANT**]
+
+### Doubt
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5b327ca-36f3-41dc-9b91-1fae868ae180)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35225449-86ad-4d30-a3fd-468487c371e0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/552d8104-aae0-4832-99a2-3086c0c5e76b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c591d722-3a59-4345-bfb4-8ee614d177b1)
 
 
 
