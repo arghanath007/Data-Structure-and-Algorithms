@@ -4561,6 +4561,181 @@ which is **/13**.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/359667e3-71d0-4559-9a42-765f6cd7c477)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76fb642e-cff0-40d5-9594-e480e4a1a3b1)
 
+## error-control-crc-checksum-part-ii (28) [18th July 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1267bd77-d410-4dd6-9280-25e87b415aa6)
+
+* The **parity bit** has **two possibilities**, it can be either **1 or 0**.
+* With **8 bits**, we have **2 ^ 8** possibilities.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e6ca449-72c7-4bc7-af3b-69c784627b07)
+
+* Half of them are mapped to **zero(0)** and half of them are mapped to **one(1)**.
+* If we are sending data though the **first half** which is mapped to **zero(0)** and the data get **corrupted** and it gets converted into some other data which also has the **same parity(0)** then we are not able to detect the **error/corruption**.
+* As long as many data are getting mapped to the **same** error control bits, we will not be able to detect the **errors**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ea22471-85f6-41fb-ba77-47bef7e89ccb)
+
+> For **every 8 its**, we are having **one parity bit**. With **8 bits**, **2 ^ 8** data items are possible. We have either parity bit of **0 or 1** which means **half of them** are getting **parity it 0** and half of them are getting **parity bit 1**. So, **128** data times might be having parity bit as **0**, therefore, if we are sending **one of these 128** data items, if we are transmatting **one of the data items**, then there is a chance that the corruption might occur in such a way that **one of these 128** data items gets converted into **one of them 128** data items, which will have the **same parity** bit of **0**. 
+
+> Therefore the **error probaility** will be **high**, when we have more such no. of data sets which have the **same** error control bits.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89603288-3240-4d56-9e8d-4593d98c1f69)
+
+* There is a chance that the **data** might get corruted as well as the **parity bit** might get corrupted in just a way that it agrees with the data. It cannot catch or **detect** it.
+* The probability is **less** but it is still probable.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d41a357-e91e-498e-85af-a19c30dd10f8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e6cf561d-66d1-4306-bbc7-c2748fcee247)
+
+* CRCG or generator -> 4 Bits.
+* CRC -> 3 bits.
+* With **3 bits**, we can have **2 ^ 3 -> 8** different combinations of CRC possible.
+* With **8 bits**, we can have **2 ^ 8 -> 256** combinations of data items are possible. The data possible is from **0 to 255**.
+
+* 257/8 -> 32 -> 2 ^ 5. 
+* The data is classified into **5 classes** in such a way that **32** data points will get **1 CRC** right.
+* ** 256** combinations of data items are possible and **8** CRCs are available.
+* So, for every **32** data items, there will be **only one CRC**.
+* So, it is a **many to one** mapping.
+* Many data items are mapped to **one CRC**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3659790a-819d-49c2-9ecc-000630d6c78d)
+
+* Many data items are have the same **CRC**.
+* For **one CRC** there are **32 data items** that are mapped to it(one CRC).
+* This is the problem in **error control methods**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f244cec0-4ec9-4528-96bb-62ef4f785a4f)
+
+* If **D0** data items gets **corrupted** and it is is converted into another data item **D1** which is present in the **same** 32 data points of the **same 1 CRC**. There is no problem, the data is **correct**. It is not possible to detect the **error/corruption**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f5230b4-08d6-4642-bc9c-221f13a2ea7a)
+
+* If the transmitted data gets converted into someone other data due corruption and that **new data** is present in the **same** group and the **CRC** says it is **correct**. We are not able to detect the **corruption**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/de0db21b-c75a-4a4a-a342-e106cce2d927)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/acb614d9-8e77-4ff3-8087-ca925d40ecce)
+
+* Solutions for fixing the above problem.
+* Make the **error control bits** also **8 bits**.
+* There will be **256** combinations of data and the **error control** combinations is also **256**.
+* The roblem is that there should be gurantee that for **every data combination**, the **error control** combination should be **unique**. It means that **two data combinations** should not have the **same error control bits**.
+* All of the **data combination** should have **error control** combinations which are **unique**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/718c4f53-3653-4151-afd4-f8592c2438f1)
+
+* We need an **intelligent function** which will have **one to one** mapping. 
+* There should be **no many to one** mapping. we should have **one to one** mapping. 
+* How can we gurantee that first? We also don't want to waste a lot of time computing? 
+
+> The function should be **simple** and it should do **one to one** mapping.
+
+* We are sorted then because if **one data** get corrupted then we are able to **detect/catch** it because **ever data combination** has a **unique error control bit**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/216b99be-2544-406b-bd6e-822d9b473b7d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0d446e4-18d0-4235-bcdf-70988c6870c0)
+
+* We are going towards **Data + Data** method, which is we are sending the data and along with the data we are sending one more copy of the data. We are sending the data **two** times. This will ensure **one to one** mapping.
+* For every data, the **error control** is going to be data, which is **unique**. So, it is going to be **one to one** mapping.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7621de0e-2ad6-4f59-94c5-7b670b251b07)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/39029934-ba6b-4055-a5ce-1ec0563d3581)
+
+* If the data get corrupted and it converted into another data then the **error control data** will be different compared to the **corrupted data**, so we will be able to detect it.
+* Disadvantage -> A lot of wastage of resources.
+* The resources will be doubled.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ef78f89-2f9e-416a-954c-479472d9e3a1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f3f091a7-6059-413a-ac21-5714bb13bbf4)
+
+* We are not **100%** sure that the errors will be detected.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a21025b-3f13-4ada-b270-09fa4cca9462)
+
+* If we use **Data + Data**, it is not **100%** safe.
+* Types of error:-
+* Bit error -> Only one bit is corrupted.
+* Burst error -> A sequence of bits gets corrupted.
+* Even though **Data + Data** is the **best** we still don't use it.
+* For a **large data**, we have a **very small** error control method.
+* We use this because even though it has **many to one** mapping, the probability that the **error** will change the **message** into the **same message** in the group or to a **different message** in a **same group** is **very low/less**.
+* We generally don't worry about it.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2317f416-eb64-423a-a26b-166b8d993b40)
+
+* Out of the **256** combinations of data, not all of them are **meaningful** to the **receiver**.
+* Most of the errors will be detected and even if some of the errors are **not detected or undetected**, they will be **harmless** because someone is not doing it intentionally. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b6e1afe9-5337-49bc-97d9-5c878ac8aa9a)
+
+* In all of **CN** we are going to use **CRC and checksum(CS)** even though they are **not very efficient**. We are happy with them.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/48032576-ca26-4ca6-b810-3b46315b4966)
+
+## Checksum
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/596faa68-aaeb-4822-9908-e178307fa6fc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb43b0dd-6fce-4a3c-84dc-df9f4ee9abc5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7f0c93d-0dc0-4e80-a5f8-dce8043c038a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cef546b1-813d-49e8-ade3-e72a49954915)
+
+* The entire data is **divided** into **8 bits**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/704fb410-9e47-40a1-bbae-6da62ec8be86)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/90be65fc-25ea-49d8-904b-19c7b1c20dbd)
+
+* By adding all of the **numbers**, we got **75**.
+* If the **sum is 75** then we are going to represent **-75** as the **checksum**, which is nothing but **1's comlement**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9fb58b32-0500-4a5e-a4e7-ef41d4a420bc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/640a6807-120d-4241-8511-892ee91b46fb)
+
+* We are going to take the **Data(D) and the Checksum(CS)** and we are going to **transmit** it.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9aac41dd-0156-4602-afbd-caa7b147d1ad)
+
+* We are **adding** the **checksum(CS)** to the **data** and sending it to the receiver.
+* The **checksum(CS)** is **negative** of the **sum of data**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92a57d25-ac39-43fa-8c77-b4364084a1c1)
+
+* Overflow -> 
+* If we **add two 8 bits** numbers, what would be the **result**?  
+
+> It would be as big as **9 bits**, it will not be more than **9 bits**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/87be06af-3b1a-48d8-9517-6f54fc1131b0)
+
+* The **checksum(CS)** would be **8 bits** but we can clearly see that adding **two 8 bits** nos, give a **9 bit number**. So, there is **overflow** in the **CS** slot.
+* The **solution** is called as **wrap around**.
+* Whatever **carry** we are getting, we adding it to the **sum/result**.
+* This is **wrap around carry**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a056116a-c18a-4ad6-b5d1-e81418acfbac)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e4fb4c65-2cd5-49f6-bfdf-fd1a9de8a115)
+
+* Addition is a simple operation comared to **exclusive OR**.
+* At the sender side, we have taken data and to the data we have added **checksum** and now we have transmitted it to the receiver.
+* What happens at the receiver's end? What should the receiver be doing?
+
+> Receiver is also doing the **same** thing. It has the **checksum**. It  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
