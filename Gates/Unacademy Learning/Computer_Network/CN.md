@@ -4327,16 +4327,72 @@ which is **/13**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d17e47c-27b2-4b2c-8005-fe89a85bbbce)
 
+## error-control-crc-checksum-part-i (27) [18th July 2023]
 
+* Single bit errors.
+* Error Control -> We want to see if a packet is corrupted or not.
+* No **error control** method is **efficient**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b29c3f6-c874-4051-9206-dc615a616233)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed62461a-c2d8-4b09-b80b-5e375892536c)
 
+## Error Handling Methods
 
+1) Error Detection -> We have an **error** and we don't know where it is. It is **error detection**.
+2) Error Correction.
 
+* Error Detection -> What we have to do?
 
+> We have to discard the packet and ask again.
 
+> We have a packet and we got the packet. We have seen that there is an error. Depending on the protocol that is being used, **two** things that will be done.
 
+1) Some protocols will **discard** the packet **silently**. It will not do anything, it will simply **discard** the packet. On the other side there is **timeout timer**. After the **timeout timer**, as we haven't got the acknowledgement then the receive will think that the packet is lost and the receive will again **retransmit**.
 
+* Called as packet dropping or discarding packets silently.
 
+2) A sender has sent a packet to the receiver. The receiver has received the packet but it is corrupted. The receiver will send a **negative acknowledgement(NAK)**. The sender is going to retransmit the packet.
+
+* The **process 2** is generally **faster**.
+
+* **Negative acknowledgement(NAK)** -> It means that the receiver has received the packet but it is corrupted. Send the packet again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36810d76-d924-4c91-9f8b-9d4b4cd9d13f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d0f7102-900d-4bb0-8701-a19153fe99f0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df0d5533-5622-48e5-8915-cb509e757ece)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e9bb6ad-6ba8-4ab5-b570-9c105487b940)
+
+* In both the **proceses**, the question will ask for **time**.
+* Transmission delay(Tt) is **negligible**.
+* TTt -> Timeout timer 
+* If a packet is corrupted, then when will the receive receive the packet, in case there are no Negative acknowledgements(NAK)?
+
+> **Tp * TTt** -> 10 + 20 -> 30ms
+
+> We have to compute the time from the beginning of the transmission of the first packet. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a101ed6e-b15d-4375-8436-d10c7e65cd4c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65f3ddf4-3a61-4e59-a588-b2e54feb63f7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/74af0919-9347-4fa4-aeeb-f1e1d55b9a57)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9fc139be-4f94-4fbb-b92e-29dfbe9f33b8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/99da70e1-c335-4fa6-b80a-04015752fc85)
+
+* Tt for a packet maybe given.
+* If given then we have to use it.
+* If not, then **Tt = 0**.
+* If **acknowledgement size** is given, then we have to **use it**.
+* If **acknowledgement size** is not given, then it is **zero(0)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f298b76c-39e1-41be-8351-52da400dd9d0)
+
+* In all of the **flow control** methods, we have used **acknowledgement size** as **zero(0)**. 
+* In Gate questions, they will ask you gy giving **acknowledgement time**. Then, the **cycle time** will change.
+* **Cycle time** is nothing but the **total time** will actually be including the **transmission delay(Tt)** of the *acknowledgement** also. [**IMPORTANT**]
+
+* In **wireless** connections, we will asssume that **Propagation delay(Tp)** is **zero(0)**.
+* If **Propagation delay(Tp)** is given, then we have to use it.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9dbbf89c-a9db-49b5-bbb8-2c7ed2a507de)
 
 
 
