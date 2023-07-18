@@ -4641,29 +4641,262 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf4f570f-3a39-4dfe-8a7c-4261acf525bb)
 
-* Relational Algebra
+* Relational Algebra is procedural.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf410ecf-4536-4dbf-88f6-cafc2c049b1b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0e514e4-bd62-4f52-9a26-d3868e6e7796)
 
+* tuple(t)
+* t -> On the **left side** of the **bar** is the **tuples** we want to **select**.
+* P(t) -> On the **right side** of the **bar** is the **conditions, from where** we will ge the tuples. Conditions that are satisfied by the tuples. [Predicate]
+* t -> tuple variable.
+* {t | p(t)} -> fetch all tuples(t) which are satisfying the predicate, p(t).
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/94e48a0a-c66c-4462-bf7b-b6869b2c9547)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ccee4112-5483-40ba-b497-f64302738711)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/507ee3a4-3b37-43e8-9b13-74c722dc3036)
 
+* {t | t belongs to student} -> fetch all tuples(t) which belong to the table, student.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f097fe4e-3c9a-434f-85f2-f665628b8f8f)
 
+* Yes.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2df1a328-17df-4245-ba18-6e9feff9e003)
 
+* To get a **specific attribute/row** from a tuple.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/541da373-f097-4662-b128-9118799aa619)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b2d86d6c-380e-49ef-a8c0-2a5ce96fabd1)
 
+* We just want the **name** of the students from the student table.
+* Attribute -> name.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86ccd9e6-7ff7-4703-82a1-20914d72dc4a)
 
+* Full row is **tuple(t)** only.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e9b4be2-2569-43d3-886c-5a1746dd27e8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b9bc3f45-5089-4089-bd20-385a909e4a71)
 
+* t[name] OR t.name
+* Both are **same** and correct.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/378b2e42-e2f3-4b5c-afef-b73b12817590)
 
+* Separating multiple rows with commas(,).
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d85eb689-378b-40d1-88ac-441cfcf09a81)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b62a4d9c-c1a8-4f8e-b38e-92087eb70a87)
 
+* This is also **correct**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ebb3190d-cdbe-48f4-a3eb-cb49517229be)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d872e1e6-9230-486f-bb97-fdcd86c79ab6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b3af1be-bd16-4a6f-b3b5-9e683cec85db)
 
+* {t | t belongs to Shopkeeper} -> Fetch all of the tuples from the shopkeeper table.
+* {t | t belongs to Shopkeeper ^ t.rating  > 8} -> Fetch the tuples where the **rating  > 8**.
+* ^ -> AND
+* It is like **where** clause in SQL.
+* Find firstname of all shopkeepers who are having rating between 7 to 10
+* {t.firstname | t belongs to Shopkeeper ^ t.rating >= 7 ^ t.rating <= 10}
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aaf428de-2dd6-4da5-96e2-833366cd42d7)
 
+## Tuple Relational Calculus
+
+* TRC eliminates duplicate.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/77eb0e29-b474-48b2-b80e-7d954eb9d202)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5cfe3b0-a084-4f51-a2f8-916fbc10b4c6)
+
+* Select fname, Lname from students where gender= 'Male' and marks < 20.
+* {t.fname, t.lname | t belongs to students ^ t.gender = 'Male' ^ t.makrs < 20}
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b81db5db-2f71-4192-8ca5-102079109c8c)
+
+* Find all such students whoo's marks are greater than 40.
+* {t | t belongs to students ^ t.marks > 40}
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf133a69-fe8c-4efa-ad7d-e6e0bb3239de)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e1847f4-b192-4387-8756-ae18daa54838)
+
+* Empty set because there is no any attribute age in relation students.
+
+## Quantifiers
+
+* Existential -> There exists a tuple(t), which belongs to relation abd satisfies predicate(p).
+* Universal -> All tuples(t) satisfy the predicate, P(t) then only we can bring the tuples. Otherwise not.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e2b33b0e-5bbe-4050-9928-46f7dddf6d84)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/edae275f-ecd3-4dcb-a5f0-25ff626f6a73)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9beda293-7daf-405d-b2be-450071c02332)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/321d38ac-4c91-4518-afc6-a97d61172802)
+
+* For **two table**.
+* [**IMPORTANT**]
+* {t | t belongs to students ^ t.Gender = 'Female' ^ there exists s {s belongs to Department ^ s.Dname = 'CS' ^ S.Dno = t.Dno}}
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/240855ba-fc32-414c-b3b2-21f43c0efc5e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/837f7a72-1a90-4c82-988b-9aa786945228)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5bbaa7c9-ab28-49b0-be82-c750cd40c665)
+
+* No.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0cd05c04-13a7-4789-a70d-2a66fea7ecf2)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/18d608f2-7caf-4da7-a7cb-4d9b76364249)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/68ab9f16-7ff3-4ec7-a3b0-ba77b7015677)
+
+* Question.
+* {t.Dname | t belongs to Department ^ there does not exist(~) S {S belongs to Students ^ S.Gender = 'Male' ^ S.Dno = t.Dno}}
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9bc853a-de3a-4cf1-b087-d437d146aa18)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db1422a5-df68-42bd-b2f3-b27649129769)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5fb8937-178b-4035-b3da-ce045fe69b3a)
+
+* Symbols for AND, OR and NOT.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dea1f887-ec5d-439b-8c03-d130ead2ec95)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc0fa27c-3a18-4784-a415-6721e83ac3bc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b60662f-ca6f-4ef8-84b3-90c8a987626c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f1eceb3-df26-468b-88fe-55f7ab70330c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/638a79c4-7e6c-4bb6-9578-2db22686ef0a)
+
+* Question.
+* 3 tables.
+* {t.cmodel | t belongs to Cars ^ there exists D {D belongs to Drives ^ D.cid = t.cid ^ there exists E {E belongs to Drivers ^ E.dname = 'Mitchell' ^ E.did = D.did}}}
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5f00f1cd-6870-4856-9001-9683975b0138)
+
+* Whichever is asked first in the question that table comes first. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0faf45e5-9fbc-41ac-8c3f-0b3eebab0d1b)
+
+* In general, when we have to do **joins**, like above, then **there exists** is fine. It will work.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/089695a7-961f-40cf-b4c3-ceb37310c218)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3b11a4a3-36b9-4af2-998c-9d30ae527f69)
+
+* It is **non- procedural**. It is like a sequence of expressions.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e150600-fc62-436e-a79f-9d31504ff496)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e856a8b-f90f-4e82-b9b0-6a1650df8b4d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/23e071e0-1efb-41d2-86cb-4ae758cb1fd2)
+
+* Question.
+* {t.sname | t belongs to Student ^ there exists E {E belongs to Enrolled ^ E.rno = t.rno ^ E.duration= 2023 ^ there exists C {C belongs to Courses ^ C.cname = 'DBMS' ^ C.cno = E.cno}}}
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d9d2d23-f77c-449e-adc9-989cd66cd6b0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/59c15282-9bec-4722-9212-759dccdfc22d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea18894c-9516-4c60-8a0f-0957d2faa631)
+
+## Tuple Variable
+
+* Bound -> Where we added **quantifiers**.
+* Free -> No **quantifiers**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d9415567-640c-4775-aa9f-a11cb0db1a9f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c00a0e13-68a6-4465-974b-cb7ac8f98182)
+
+* Here, we have to write the **commonn table** first.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/47a58f6a-b8c9-4c4c-8d93-c7d9bf0de7bf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df5e500b-0fa8-4100-b005-b14bfae74f79)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/53b92e7f-0769-40ae-b2f4-8cad07495499)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/77ec15f6-2348-4175-9eb6-b78413bd6e28)
+
+* There Exists -> The combination between the rows should match.
+* For all -> There should be combination with all the rows on the right hand side, with the single row on the left side.
+
+## Domain Relational Calculus
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be7f930a-c8fe-40ba-929f-4580485703e9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/852edf4c-8219-4179-9f6f-dbf4dda1e8d3)
+
+* {<r,f,l,m> | <r,f,l,m> belongs to Students}
+* **First part/left side** of the **|** bar is what we want.
+* **Second part/Right side** of the **|** bar is the **conditions**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9693ae68-8a49-4e6f-a1b0-dd71f105c6cf)
+
+* Similar to select * from students.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a997153-b8b4-4b30-ab89-bad9f6e29ae2)
+
+* We just want the **first name** of all students.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/926845a2-1baf-48ca-9bd4-2975ae0b11bb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/14c3561a-325f-45ab-9899-048cc59b0ac9)
+
+* We want the **first name** of those students who have **marks(m) greater than 90** 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9aba1e26-b156-4d1a-8dc8-31e3081b28df)
+
+* The table name we have to write always. All of the columns names we wil also write.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6530bb64-65ff-498e-9836-8e15e3911c69)
+
+* Yes.
+* It shows the particular attribute.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/04f7da53-7657-452f-bd48-d74849d1d083)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/42fb5390-e0fd-4131-ae3d-f4b7247a4d02)
+
+* Question.
+
+* Name of all such drivers who are having rating > 8 and dob = '27-10-1988'
+* {<dn> | <d, dn, r, dob> belongs to Drivers ^ <r> > 8 ^ <dob> = '27-10-1988'}
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/209c8b19-7ea8-4124-bf51-3a64de6e80c9)
+
+* We can write the **variable names** same as the **column names**. Just remember to **maintain** the sequence of the columns in the table. They should come in **sequence**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72a13826-82dd-4b49-b625-669446bd38f4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2d77efc2-5204-485d-bba2-f3577424476f)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8c426a7d-84bb-4c1e-84c3-8283d8952eee)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5020ee02-6713-4b76-abb8-a96a10191a44)
+
+* If we have one/single value with **equal too condition**  then we can **replace** the **domain variable** with that **number/value**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/239c8103-9d6f-4468-8bdf-3c5c81b9144c)
+
+* We can do this in **equal too operator** only. Doesn't work with **>, <** operators.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d81592c-1587-4fe6-95c5-60d0ce5143f7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6468e2ef-dffc-4540-9225-e89ccdaa4a00)
+
+* Question.
+* {<rno, name> | <rno, name, lname, marks> belongs to students ^ <lname> = 'Kumar' ^ <marks> > 50}
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec8d4260-d9be-4e51-b9be-6354c4cb09a7)
+
+* Both are **same** and they work.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0f84a4f-c6ce-4fc2-9eac-ed72a343e66b)
+
+* Question.
+* {<cid> | <accno, cid, amt> belongs to Accounts ^ <amt> > 50000}
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b59072a9-69fb-468c-a01e-9e885418d424)
 
 
 
