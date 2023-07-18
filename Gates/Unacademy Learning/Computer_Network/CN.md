@@ -4421,9 +4421,140 @@ which is **/13**.
 * If we have **odd** no. of **1's** then the **parity bit** is **1**.
 * If we have **even** no. of **1's** then the **parity bit** is **0**.
 * This is **even parity**.
-* It means that we are making the no. of **1's** as **even**.
+* It means while transmitting that we are making always the no. of **1's** as **even**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/49bb50d0-95b8-4201-a1be-a94c19d0ddb6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e79d3e72-b7af-4a17-86f2-471f9f6cfff4)
 
+* The **advantage** is that, if we have **even 1's** then after **transmission** we get **odd 1's** we know that there is an **error**.
+
+* We are trying to make the **no. of 1's as even**. If due to an **error** during the transmission, the **no. of 1's** becomes **odd**, we know there is an **error**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/51e3faeb-6125-464c-aa80-d024d4489bb4)
+
+* It is not **100%** efficient.
+* **One(1) bit** error is that either the **0 bit** becomes **1 bit** or the **1 bit** becomes **0 bit**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b522d232-d34a-4fd8-aa2e-6aee209c4a25)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bd8ddde9-fa04-4e68-973b-029313e29812)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0fda22d2-3100-474a-8e00-2bd132524629)
+
+* If there is **one(1) bit** error we are able to **check/detect** it. We are able to detect it as we know we have sent **even no. of 1's** but after transmission we get **odd no. of 1's**.
+* If there are **two bits** that are **changed** then we would not be able to **check/detect** the error. As it is back to **even no. of 1's**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24dc2512-28d5-43de-8ccc-8ce3e71d5705)
+
+* It is not able to detect **even no. of bit** corrution, like **2, 4, 6 bits**.
+* It is able to detect **odd no. of bit** corrution, like **1, 3, 5 bits**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36181c25-e28f-4eaf-b753-3c05f1c68d6d)
+
+* Not a very efficient method.
+* It is a very simle method.
+* Parity Check -> Error detection method.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a63107ff-cafa-46f4-bb1b-28dcb8c43a33)
+
+## Cyclic Redundancy Check
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/45e6ad14-777f-4eb8-b7bc-68dd1853232c)
+
+* We are going to use **bitwise Exclusive OR**. Also called as **modulo2sum**.
+* If we are adding **two bits**, then we have to add them and we have to **divide the addition by 2**. We have to tell the **remainder**. This is **bitwise Exclusive OR**. 
+* Exclusive OR of **1 , 1** -> 1 + 1 -> 2 -> 2/2 -> Remainder is **0** -> 0
+* Exclusive OR of **1 , 1** -> 0.
+
+* Exclusive OR of **1 , 0** -> 1 + 0 -> 1 -> 1/2 -> Remainder is **1** -> 1
+* Exclusive OR of **1 , 0** -> 1.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc1f1a19-796e-4b20-982c-3a97a613c78e)
+
+* CRC generator -> 4 bits.
+* CRC -> 3 bits.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3bddc940-18e3-4db7-86b7-9b9c94f7f734)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3ea93e8-98b7-4f01-a9cd-4c60919b7e34)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0542e936-ca9b-44d2-9d0e-b5c649831715)
+
+* Always start from the **leading one(1)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/209f5cd6-e87c-4138-9f0a-87045760edce)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f748dc0b-1cde-4609-8cd0-041ffc1c4a9e)
+
+* WHen should stop it?
+
+> When the **length of the remaining bits** starting from the **leading 1** is **less than** the length of the **generator(1101)** no, which is **4** bits here.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed3deba8-3f13-4e72-b856-40943781bac1)
+
+* Less than **4 bits**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9c1d948-84ff-404b-a981-96a1cf5de9eb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85ed18ba-0fcd-4960-a1e6-bd786d74224e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9bf4c4b0-90e4-47ca-8d9c-8a6f154d30ce)
+
+* This is the **sender side**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3112b6b-ee7c-413f-9239-d60b2dfba177)
+
+* The sender has taken the **data and CRC generator or CRCG** and generated the **CRC**.
+* Now the **Data  + CRC** is **transmitted**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f9713de-b59b-4a4c-ad26-5d7874c21c0c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f809a67e-6f58-48c1-bca5-ef77d99c7dd8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3adac6ae-9420-411e-84e4-fb6370227752)
+
+* Why **3** bits?
+
+> Because **CRCG** is **4 bits**.
+
+* We are taking the **data and the CRCG or CRC generator** and we are generating the **CRC**. Now, we are appending the generated **CRC** to the **data**, which is **Data  + CRC** and it is now **transmitted** to the receiver.
+
+* Receiver will take the data and use the **same CRCG or CRC generator**. Receiver knows about the **CRCG or CRC generator** prior to the communication.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2bac31e6-1b5e-4c07-b1d6-f5666c0002f7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/10b14f45-d650-4731-bd69-d9d013d49e63)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7087e32e-c37e-4cb1-8e55-ea8b5555ca54)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22a08e79-b43f-4a45-a8c5-081469f47588)
+
+* So there are **standard** CRC generators.
+* Now, the receiver will take the **data** and the **CRCG or CRC generator** and it will check if the **data** is corrupted or not based on the **CRC**. It has computed that it should get the same CRC.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0ab3123-0b8d-4ae1-a996-a9afbde01f1e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/becabcbc-0962-4743-a317-f0d6400690af)
+
+* Rem -> Remainder
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/00d05d4a-1af8-42bd-a150-6768885d2366)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33bfd1fe-b96e-4618-8c35-550a76aefca9)
+
+* If the data is not corrupted, then we will get the **CRC** as **all 0's** which means the **data** is not **corrupted**.
+
+* **CRCG or CRC generator** is the **same**.
+* This is the **receiver's side**.
+* If any of the bits which are being transmitted are corrupted then we are not going to see **all 0's** in the **CRC**. We are going to see some other numbers.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af89a200-2013-4f87-8e1a-
+1f1e31f7fc04)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ccf7cbaa-4828-4c66-a93b-ebcf41facda3)
+
+* CRC generator can be given as a **function** as well.
+* CRCG -> X ^ 3 + X + 1.
+* Solve like **below** to get the **CRCG bits**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/46721924-8468-4275-87ab-27ad7ec684dc)
+
+* [**IMPORTANT**]
+* To check if the **CRC** we got is write or wrong?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/791056a7-2139-4793-8fc4-0238e9fd6530)
+
+* In space of the **3 0's** at teh end of the data, replace them with the **CRC** bits**. Now do the same **exclusive OR** and check if we get **000** as the **remainder** or not.
+* If we get **000** then the **CRC** is **correct** otherwise the **CRC** is **not correct**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86fe6d35-a3c4-47e8-8c44-4792aad9568f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76f29299-2622-460b-ba25-1e6d76090e63)
 
 
 
