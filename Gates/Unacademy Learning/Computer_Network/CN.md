@@ -4719,8 +4719,27 @@ which is **/13**.
 * At the sender side, we have taken data and to the data we have added **checksum** and now we have transmitted it to the receiver.
 * What happens at the receiver's end? What should the receiver be doing?
 
-> Receiver is also doing the **same** thing. It has the **checksum**. It  
+> Receiver is also doing the **same** thing. It has the **checksum**. It should get **0**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b55624a-bdb1-4691-9a59-5f9379d3074f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af028ef6-11ef-48b2-a130-d3f073c0a395)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8718e31f-8e2d-424d-a5d4-11b92f51f2f2)
+
+* We want to compute the **checksum**, but already the **checksum** field is already present and something has to be kept at the **checksum** field before we can compute the checksum.
+* So, the **initial value** of **checksum** is always **zero(0)**.
+* It does not affect the result.
+* Therefore in the **computation** of **checksum**, many times the **checksum field** is used even if we don't know the **actual checksum value**. We are going to put **all 0's** and compute the **checksum value**.
+* After **computation** of the **checksum value**, we are going to **replace** the **all 0's** with **-75** as **checksum value is 75**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3888f82b-ce54-45f7-b32e-39d82686c5b6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0172ba04-1e90-49d8-80a2-41a2666561fe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a96ba85c-62d4-4304-9b1b-c8e5ee7e2fe7)
+
+* CRC questions.
+* Answer -> Corrupted.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0cd57363-bf51-4e7a-bdfa-910f70889079)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/00f235d4-a292-4dbc-855e-c171a9631c5f)
 
 
 
