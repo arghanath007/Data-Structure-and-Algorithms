@@ -4550,12 +4550,13 @@ which is **/13**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/791056a7-2139-4793-8fc4-0238e9fd6530)
 
-* In space of the **3 0's** at teh end of the data, replace them with the **CRC** bits**. Now do the same **exclusive OR** and check if we get **000** as the **remainder** or not.
-* If we get **000** then the **CRC** is **correct** otherwise the **CRC** is **not correct**.
+* In space of the **all 0's** at teh end of the data, replace them with the **CRC** bits**. Now do the same **exclusive OR** and check if we get **000** as the **remainder** or not.
+* If we get **all 0's** then the **CRC** is **correct** otherwise the **CRC** is **not correct**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86fe6d35-a3c4-47e8-8c44-4792aad9568f)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76f29299-2622-460b-ba25-1e6d76090e63)
 
+* If we get **all 0's** then the **CRC** is **correct**.
 
 
 
