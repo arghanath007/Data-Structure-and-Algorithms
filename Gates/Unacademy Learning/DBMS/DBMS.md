@@ -4621,6 +4621,48 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3dc005e5-d8a9-4f33-906f-d00a444aacfe)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37d90f25-832f-4678-ada0-74f0a862c05c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/469723ce-9656-441b-9452-ce8ca232cda2)
+
+* RA -> Relational Calculus.
+* Predicate Logic(P)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1cdb951-1c9f-4d45-9724-6daab170bfc0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c99539c0-5251-4c3a-b989-4d1accf309cb)
+
+* Yes.
+* Domain -> Concentration on Attributes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b584a890-e51b-4b86-adcc-0659d78f8192)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3b6c9ccf-29b4-455c-afb6-5e6bca583faa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa6636cc-5fa2-4c06-9380-6494c2ec5d4d)
+
+* Tuple -> Focused on tuples -> Bring those tuples by writing conditions.
+* Domain -> Focused on attributes -> Bring those attribute values which satisfy the conditions.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf4f570f-3a39-4dfe-8a7c-4261acf525bb)
+
+* Relational Algebra
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4726,4 +4768,5 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 # Joke
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b8200b49-d63d-4027-88d0-29f087bc60e1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6161e033-2e30-465d-bd81-3b7e20c4a1db)
 
