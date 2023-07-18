@@ -4180,6 +4180,181 @@ which is **/13**.
 
 * Link -> https://unacademy.com/course/computer-networks-part-2/TVTQZZ6R
 
+## access-control-part-v (26) [18th July 20230]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/15698d02-680d-4846-b605-cf9ff8e8b194)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c33c081b-99b4-44d1-b01b-2200c12278de)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e285a52d-2e67-4779-a488-b8ddc0024c0c)
+
+* Aloha is used in **wireless** communications.
+* Even **wireless** networks are also broadcast channels.
+* **Access control(AC)** is required only for **broadcast** channels.
+* When two signals are transmitted with the **same** frequency then **collision** will happen.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7184e00d-ba36-45cd-9642-d66410e56ac8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e2aace3e-4eae-4f7d-9e02-1df508c51809)
+
+* Types of Aloha:-
+
+1) Pure Aloha
+2) Slotted Aloha.
+
+### Pure Aloha
+
+* There is **no carrier sensing(CS)**.
+* There is **no collision detection(CD)** in **aloha**, so we have to use **acknowledgements**.
+* We transmit the data, we wait and if we get the **acknowledgement** then **transmission** is **successful**.
+* If we haven't got the **acknowledgement** then it means that the **transmission** is **unsuccessful**
+* How many times should be try sending the packet?
+
+> There is a **maximum** limit. It will try for **max** times and if it sees that **everytime** it is getting involved in **collision** then it has to **abort** which is **temporarly suspend the transmission** and try after sometime. It should not **retry** immediately.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69837e25-714a-4599-b1c6-3b8c4594b21e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0585906-1f5e-433a-b167-0ea3274b6946)
+
+* Waiting for some random amount of time
+* ome random amount of time -> Back off time.
+* Back off strategy is similart to what we saw in **CSMA/CD**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed62793d-c088-4c55-a2ec-154ed7676e1e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66a214bc-7798-4ee6-921f-26fff2ba850d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1035e684-18e0-498b-b2a3-2fe1bb5970b0)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f737435d-7725-49b5-95cd-e080d6a248c2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/28d81a92-a645-43a8-9d7a-413c108ba7b7)
+
+* Back off time is **randomly** selected.
+* Duplicate data/packets are handeled by **flow control(FC)**. It is not the responsibility of **access control**.
+* Aloha -> Access control(AC)
+* SR -> Flow control(FC).
+
+* With **aloha** as the **Access control(AC)**, we will use **SR** as the **Flow control(FC)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/67ae30bb-d6ff-48aa-bf00-086c0fd064f4)
+
+* Increment back off -> We are counting how many times the packet have been lost.
+* If the packets is lost for **too many times**, then we will **abort**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/518b759a-93e5-491b-b2e6-1c8f48d18719)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f24af891-dd03-4b3e-aff7-156a593419df)
+
+* Efficiency formula.
+* G -> No. of stations willing to transmit data in one transmission time(Tt).
+* Vulnerable Time(VT)
+* Propagation delay(Tp) is not considered in **aloha** as **aloha** is **wireless** and **Tp** is **much less** in **wireless**.
+
+> If we have started transmitting a packet, there are **two** ways collision can happen. **One collision** may happen if someone transmits the data, after we transmit. There is a **collision**.
+
+> Someone was already transmitting the data, and we started transmitting, then we will have **collision**.
+
+* Why are we transmitting when someone else is transmitting?
+
+> Because we cannot do **carrier sensing(CS)** here. In **aloha**, it says that we can transmit the **data anytime**.
+
+* If we are staring a transmission at some point, the **Tt** time after it and **Tt** time before it. During the **entire time**, we have to be the **only one** transmitting the data.
+* If anyone starts transmitting the data, either before **Tt** time or during the **Tt** time then there will be **collision**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc6c9d74-e977-49f7-9d08-6107458b4711)
+
+* This time is called as **vulnerable time(VT)**.
+* Vulnerable time(VT) -> 2 * Tt
+* VT = 2 * Tt.
+* It is close to **Tt**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a8b1e61-0f51-46e3-b032-4dbd1049fc62)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee4224bf-3309-435c-ba52-9f6c05fe1823)
+
+* Because of **2 * Tt** in **vulnerable time**, we are getting the **-2** in the **efficiency of pure aloha**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fbc96a69-314b-48a6-bdf2-c102c4877f29)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c451370c-3af0-4d9b-8695-ac563b208b8b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ef57124-57d6-42d4-a519-98ca1ecec55d)
+
+* **One(1) station** is transmitting in **2 * Tt** time.
+* If **One(1) station** transmits in **2 * Tt** time then there will be **no collisions**.
+* If **Two(2) stations** transmits in **2 * Tt** time then there will be **collisions**.
+* If **One(1) station** transmits in **2 * Tt** time then there will be **no collisions**. So, **efficiency** will be **max**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ba0032f-0d69-44c5-a1df-eac56a5c3ece)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c7338cd-5b68-44c0-a15e-c5451450e998)
+
+* **Max. efficiency** of **Pure Aloha**.
+
+### Slotted Aloha
+
+* In general, the **time slots** are **Tt** but they can be **configured**.
+* If **any station** wants to send the data, then they can only send the **data** at the **start/beginning** of the **time slot** only. They cannot send the data, randomly.
+* In **pure aloha**, stations can send the **data at anytime**.
+* In **slotted aloha**, stations can only send the **data** at the **start/beginning** of the **time slot** only
+* If the slot is from **10 to 11**. The station wants to send the data but it missed the time slot of **10** then it has to wait till **11** to be able to send the data.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d885b16-1648-42dd-94cc-62b2e94f3679)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cbfb11b1-cc2b-41bd-abe0-a1e71fc3a74e)
+
+* In a slot, anyone can transmit.
+* **Previous slot** packet, will not collide with the **next lsot** packet.
+* Vulnerable Time(VT) -> 1 * Tt -> Tt [Slotted Aloha]
+* VT -> Tt.
+* Vulnerable Time(VT) -> 2 * Tt  [Pure Aloha]
+* VT -> 2 * Tt.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/75ee102e-e469-422f-8fe6-605d1bebaf37)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7036a542-e63a-4063-8c20-6e6551bd0d87)
+
+* Efficiency of **Slotted Aloha**.
+
+* In **one(1) transmission delay(Tt)**, if the **no. of stations** which are sending the packet/data is **one**, then we get the **max efficiency**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af11f88d-7810-418e-8628-41bb062e874c)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1dd1a25-dd69-4d31-a5fb-069621a17d48)
+
+* **Max Efficiency** of **Slotted Aloha**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6547bf47-1d51-4886-bee3-bb6a99b94242)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/157a7c88-9650-496f-95ec-19fb6d06f189)
+
+* **Pure Aloha** has **no slots**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19bcd606-f3f8-441d-b153-46b643c9f691)
+
+* Summary of **Alohas**.
+* Practice questions given.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d17e47c-27b2-4b2c-8005-fe89a85bbbce)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
