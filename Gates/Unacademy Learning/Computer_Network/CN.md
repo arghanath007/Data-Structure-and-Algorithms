@@ -4400,11 +4400,28 @@ which is **/13**.
 
 * **Data + Data** -> When we send **two** data. When both the **data** disagree then we don't know which one is right.
 * We don't know which data is right.
-* We will discard both the data and ask for a **re-transmission**.
+* We will discard both the data and ask for a **re-transmission(RT)**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95d594c0-1ad8-4109-9507-c6e10943dff3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba7685ed-9693-4ea1-9f28-f7e14cf4e969)
 
+* **Data + Data** -> It is **efficient**.
+* The disadvantage is that **internet, bandwidth, router, links, gateways** are going to **increase**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa2bc4cd-f0f4-48da-87da-fd6e5d006c7f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3d42a1d-bc03-4820-b7f7-7fcbdbebe269)
 
+* No method is **100% guranteed**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a2ab4e7-b0d7-4db4-bb99-15d29f6e7411)
+
+## Single Parity Check
+
+* If we have **single bit** then it is called as **single parity check**.
+* If we have **odd** no. of **1's** then the **parity bit** is **1**.
+* If we have **even** no. of **1's** then the **parity bit** is **0**.
+* This is **even parity**.
+* It means that we are making the no. of **1's** as **even**.
 
 
 
