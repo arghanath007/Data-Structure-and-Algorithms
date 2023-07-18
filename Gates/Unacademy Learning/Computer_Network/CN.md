@@ -4558,6 +4558,9 @@ which is **/13**.
 
 * If we get **all 0's** then the **CRC** is **correct**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/359667e3-71d0-4559-9a42-765f6cd7c477)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76fb642e-cff0-40d5-9594-e480e4a1a3b1)
+
 
 
 
