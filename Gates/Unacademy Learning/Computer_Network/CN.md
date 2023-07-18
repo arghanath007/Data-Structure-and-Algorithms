@@ -4394,8 +4394,13 @@ which is **/13**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9dbbf89c-a9db-49b5-bbb8-2c7ed2a507de)
 
+## Error Detection
 
+### Data + Data 
 
+* **Data + Data** -> When we send **two** data. When both the **data** disagree then we don't know which one is right.
+* We don't know which data is right.
+* We will discard both the data and ask for a **re-transmission**.
 
 
 
