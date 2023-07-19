@@ -4913,6 +4913,7 @@ which is **/13**.
 * The cost of the network is very **high**.
 * It is not very popularly and not very commonly used. It is used only for some **dedicated** use case.
 * **Point to Point** is not a **broadcast** channel. It is a **unique** channel.
+* Everyone will have their own **dedicated** lines.
 
 ### Bus
 
@@ -4924,10 +4925,121 @@ which is **/13**.
 > Traffic problem or collision. **Collision** is the problem.
 
 * We have to do the **access control**. It is a **broadcast** channel.
+* If we are sending data, not just the **destination**, everyone can see it.
+* **Bus** is a **topology** which is used in a **LAN** network.
+* In a **LAN** generally all the parties are trusted.
+* We generally don't use **encryption**.
+* **Bus** is the most widly used **topology** in the world.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fba8202c-b0db-4317-abbc-bf9c0a0105d0)
 
+### Ring
 
+* It is nothing but a **circle**. The data can generally travel in **one direction**. We can send the data in both the direction, no problem. 
+* In general it travels in **one direction**, so that there is **no collision**. 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e4087db8-e6e6-48c9-90c9-5dc20476628f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a503a4fa-324b-4d83-853e-6ade0456cc1e)
+
+### Star
+
+* There is a **central hub** and we are connecting to that **central hub**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2dc5021c-945a-46c6-8267-e563bd30e5dd)
+
+### Tree
+
+* It is kind of a **hybrid**. It is a **combination** of a **bus and a star**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/080af790-f1fc-4af4-8315-716bfab72718)
+
+* Tree.
+
+### Mesh
+
+* It is a combination of **point to point** link. It is an extension of *point to point** link.
+
+### Hyrid
+
+* No one will use it.
+* It is a theory. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/08282f93-c4e5-4d30-8db8-02e2600beb40)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/15118b24-03c0-42df-8eff-66ef381c7143)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6223b180-4ccf-4bd0-86fd-c4a94b96c71e)
+
+## Encoding
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/78a18c95-d2b2-45ea-bed1-aec798be426c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/493b14e4-4488-4160-bb8d-52d60e2cacd0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f9d0afbc-8d7b-4690-8de5-84444fa7027e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af6bbfce-6d43-45e4-8e37-3313e501fda6)
+
+## Data Link Layer(DLL)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22a12fec-0e01-437a-8f21-5442472cff49)
+
+* Main resposibilities of Data Link Layer(DLL).
+* **Error Control** used in **DLL** -> CRC
+* It is because **DLL** has mainly **hardware** and for **CRC** we need **exclusive OR** and it can be done using **hardware**.
+* **Flow Control** used in **DLL** -> GBN(Go Back N)
+* **DLL** only deals with **one link**. Most of the cases it is a **wired** network. So, **error rate** is **less** and **bandwidth** is **more**.
+* As we are talking about **one wire**, so **out of order** packets are not possible.
+* **Access control** menthod depends on the **type of LAN**.
+* **Ethernet** uses **CSMA?CD**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b7e34e5-96c7-4f55-a158-e4e15c0a956c)
+
+* IP addresses are **logical** addresses.
+
+## Framing
+
+* If the data is **big**, we are going to divide the data into **small pieces** and to every small piece we have to attach the **header**. 
+* We always need the **header**.
+* Most important Things that need to e present in the header -> Destination,
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a13b99b4-3606-4c88-af5a-447191180e20)
+
+* It is a **broadcast** channel so **everyone** sees it but only **C** was ment to see it.
+* So, **every station** should atleast look at the **starting of the frame**. If the **destination address** is not it's **own address** then the **station** should **discard it** and should not **receive it**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f5e01f6-28d1-48dd-ad0d-184dd961bda3)
+
+* So, **every station** should be **continuously** be looking at the **network** then only the **stations** will understand that a packet has started or not.
+* If a packet has started then the stations will look at the **destination address** and see if it's their **own address**, if not then they will not **receive it and discard it**. If it's own address then only it will **receive it**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9a2380c6-07cf-41a5-9c5e-97bd3241dbc0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0920470-2fb0-4408-aac6-4ba74a856621)
+
+* What is the **problem**?
+
+> Most unless and stupidest method. Why should be continuosly looking at the line.
+
+* SFD -> Start Frame Delimiter.
+* In **DLL**, the packets are called as **frames**.
+* We are going to have a **pattern** which is not going to match with the patterns of the data.
+* Usually the **SFD** is **1010101010101010101010101010..11**.
+* No data is going to have such a big run of **1's and 0's**.
+* The **Regular expression(RE)** is converted tino **finite automata(FA)** and then the **finite automata** is converted into **sequential circuit(SC)**.
+* **sequential circuit(SC)** -> It is a **pattern** recognizer(PR).
+
+> Finally we have a **hardware device**, so all the stations will have **NIC** and in the **NIC** we are going to have the **pattern** recognizer(PR). Whenever a packet is going on, whenver the **pattern** recognizer(PR) sees the starting of the packet, it will alert the station by saying that a **packet has started**. Just wait and see if the packet is for that station.
+
+> If the packet is for that station then **take it**, otherwise just **discard it** depending on the **destination address**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/93139f9d-d20b-4ac2-8ed9-a2d2ab1ca85e)
+
+* Every packet is going to have a **fixed pattern** before it. The **pattern** changes from **nnetwork to network**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a64c587-ae0a-4994-a98b-e9e23d07be53)
+
+* So, **no station** has to continuously look at the **link**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9c97f5e9-69fc-484e-992e-2f8c6fe97b8f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/abd242d9-c166-42bc-af57-84528fc9a2ab)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f2f211d-f355-4215-9bc9-0f319b344f92)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b764557-fe7a-4c5d-8df0-488308ee727e)
+![Uploading image.png…]()
 
 
 
