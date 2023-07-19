@@ -4878,6 +4878,63 @@ which is **/13**.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8cd57900-ec6f-46fa-8312-e208497f1187)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a754e6a-888b-4d69-88b1-038cfc543376)
 
+## osi-layers-part-ii(30) [19th July 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3d30fd7-094c-4f20-9eaa-4a65769126db)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f98ba16-0625-4691-a7bc-62236e779c02)
+
+* If not mentioned in the question then take it as **Full Duplex(FD)**.
+* Topology -> It is the way in which we connect the systems.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85e9e362-6e9c-41a2-b080-77b07340601c)
+
+* Topology
+* There are **4** stations and all of them have to be connected by **Point to Point** topology links. How many cables are required?
+
+> **6** cables are required.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a64ab2e-8127-42e3-8059-47d765b11d87)
+
+* Between two stations, there should be a **dedicated** link.
+* Everyone will get a **dedicated** bandwidth. We don't have to share the bandwidth.
+* There will be **no collisions**.
+* Communication will be fast.
+* If we have **n** stations then how many cables required?
+
+> **nC2** as it is a **complete graph**. We are trying to make it a complete graph.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4db8386c-51a3-42d3-a7c3-6518f5684ff4)
+
+* There are **100 stations** already. We want to add **one more** station. How many cables should we be adding?
+
+> It is **very difficult**.
+
+* It is **very difficult** to **add, delete** and manage a station.
+* The cost of the network is very **high**.
+* It is not very popularly and not very commonly used. It is used only for some **dedicated** use case.
+* **Point to Point** is not a **broadcast** channel. It is a **unique** channel.
+
+### Bus
+
+* There is **only one** wire. 
+* We can **add, delete** a system without disturing anything.
+* Simple to install, easy to manage. Everything is fine.
+* What is the **disadvantage**?
+
+> Traffic problem or collision. **Collision** is the problem.
+
+* We have to do the **access control**. It is a **broadcast** channel.
+
+
+
+
+
+
+
+
+
+
+
 
 
 
