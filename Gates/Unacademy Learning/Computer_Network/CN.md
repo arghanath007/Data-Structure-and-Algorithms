@@ -4855,13 +4855,28 @@ which is **/13**.
 * That's why we don't go much into the details of **Physical Layer(PL) and data linked layer(DLL)** layers.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4dfbec16-a3ab-44b2-ac48-fd9806f6c1e7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/18360193-80db-4844-a310-3647adcd41a2)
 
+* Physical link is **wireless** connection.
+* Physical link need not always be a **wire**.
 
+* **0 and 1** will be converted into **light** by the **physical layer** for **optic fibre**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a67e97fc-fb04-4050-b557-afd06075d954)
 
+* The **decoding** and **decoding** is done by the **physical layer**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d2ab29da-79c0-4a60-a939-9aedf9ea3e7e)
 
+* **Simplex** -> Data can travel only in **one direction** [TV, radio].
+* **Half Duplex** -> We can **send/transmit the data** and we can **receive the data** but not at the **same time**. [Wacky Tacky].
+* **Full Duplex** -> We can **send/transmit the data** on **both the sides** at the **same time**. 
 
+* All of **these(above)** is taken care by the **physical layer**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d6d260a-c12e-447b-8779-a2525bc7a300)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8cd57900-ec6f-46fa-8312-e208497f1187)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a754e6a-888b-4d69-88b1-038cfc543376)
 
 
 
