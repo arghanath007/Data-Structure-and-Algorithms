@@ -4741,18 +4741,120 @@ which is **/13**.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0cd57363-bf51-4e7a-bdfa-910f70889079)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/00f235d4-a292-4dbc-855e-c171a9631c5f)
 
+## osi-layers-part-i-and-doubt-clearing-session (29) [19th July 2023]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2015cff-5cc5-4f10-8a3a-24421b9a1481)
 
+* CRC -> Mainly used in Hardware. It is computed in the **hardware(NIC)**.
+* CheckSum(CS) -> Mainly used in Software. 
+* NIC -> Network Interface Card.
+* CRC is simply **exclusive OR**, so the circuit required to implement it is present in **NIC**.
+* Where ever **CRC** is used, it is always a part of the **tailer**. **Tailer** means it is present at the **end** of the packet.
+* **CRC** is always present at the **end** of the packet because **NIC** is going to compute the **CRC** while the packet is being **transmitted**. The **CRC** is going to be appended at the end of the **data**.
 
+* Network layer and transport layer is completely **software**.
+* Network layer and transport layer usually compute the **checksum(CS)**.
+* **Checksum(CS)** is calculated when the packet is with the **sender** only.
+* So, **checksum(CS)** is usually used in the **header**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/075d264a-8f30-4af7-9844-f54074d289b8)
 
+## OSI Layers
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/781e323f-1ab3-41ed-bd5c-22f81ceac1e8)
 
+* IPC -> Inter Process Communication.
+* If two processes are in the **same host(computer)** and they want to **communicate** then we call it as **IPC**.
+* If both of the processes are in the **same host(computer)** then the **OS** is going to provide us with **many facilities** so that they can **communicate** with each other.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc49c8b0-f489-46a5-ae63-6e8cd2783a96)
 
+* When the two processes are in two **different hosts(computer)** and they are too far away and they are just connected through **network**, then we have a **very big problem**. Who will provide the required assistance?
 
+> We need **special hardware and special software**. They should give us an illusion that both the processes are present in the **same host**. It should look like the **IPC** communication.
 
+> The user doesn't have to do anything extra in order to take care of the **network**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8c9a4630-d8cd-4dc9-a560-d15d1693fc35)
+
+* This type of simplification needs a lot of support from **hardware and software**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57442fa1-82a9-47d3-ba93-b78719569400)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9664f3f1-af77-4365-a5e3-fb959ecb593d)
+
+* Software -> Functions.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80114542-d2c2-44ed-9031-112ace8b08ce)
+
+* Mandatory -> Definitely needed.
+* Optional -> Not necessarily needed. Completely user's responsibility.
+
+* If they are not provided:-
+* Error Control -> When data get corrupted we are not able to catch it.
+* Flow Control -> Receiver gets flooded.
+* Access Control -> There will be a lot of collisions.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5203ea57-299f-4f90-be27-b8304e82427f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81c03ecf-8151-46dc-bbd9-76877cc515b5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/00cd11c9-05e2-4c7d-bcb0-64f3821b2ac4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7615182b-cf27-40f2-83db-67f837068586)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/858f5413-c068-4f20-bb1c-2114d47b9119)
+
+## ISO-OSI Model
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65797b63-b40d-452a-a603-529d1cfc928f)
+
+* Totally we have nearly **70** functions including both **mandatory and optional** functions.
+* We have to divide the work of the **70** functions or functionalities and assign the work to different people. So, it would be easy for the people to implement and test it.
+* We will divide the work of the **70** functions into **small small** groups and we will implement them separately. This is called as **divide and conquor**.
+* This is why we are going for **layering**. **Layering** will help in **divide and conquor**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d050db1c-6d9d-455b-b553-e3da6d6b0bfe)
+
+* Encapsulation -> We will try to put all the **functions** which are **closely related** in a tight group as well as all the **variables** together.
+* Layering helps in **Encapsulation**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/143998b6-267f-4c31-b093-e612c6a32ad8)
+
+* Abstraction -> We are going to have some functionalities implemented and someone else is going to have the functionalities implemented and the people who implemented the functionalities need not see the **inner details/inner workings** of the **functionalities** which are implemented by others as long as they are working together fine.
+
+* We do not need to get into the details of how the functions are implemented. All we need is the name of the function.
+* Abstraction -> We don't need the **details**, we just need the **name**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/946baa18-cfd4-4dbb-b165-e8daabfa3547)
+
+* Testing -> It is also simple in layering.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1fbdcc78-c538-4cab-8339-7acba04e45e1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5bd2a877-4378-42fb-8a08-f872838a3603)
+
+* All of the **70** functions/functionalities that are to be **implemented**. So, all of the **functionalities** are 
+**distributed** among the **layers**. All the functionalities are assigned to the **layers**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e8cce4e-216c-4db4-a167-a33bf81ab684)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/14d4cc06-d2aa-4bba-ada4-787ba3db1c09)
+
+* Layers. [**IMPORTANT**]
+
+## Physical Layer
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c827d8b5-4795-4581-9c3f-1b25b762a41e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/897c7dd6-1298-41dc-bb50-b7d43b847ec4)
+
+* **Physical Layer** -> Not for **CSE** students. It is for **ECE** students. They learn in-depth.
+* **Physical Layer(PL) and data linked layer(DLL)**, **Physical Layer** only have **hardware** and **no software**. The  **data linked layer(DLL)** has both **hardware and software**. 
+* From the **network layer** up, the layers are **software** layers. 
+* Network Layer -> Mainly for **Routing**.
+* Transport layer -> Has a lot of **ports**, thick layer.
+* **Application, Presentation, Session layers** are for **user's interaction** or are meant for the **users**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a158c94-07d5-494a-81a3-5cee821f6afb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/621892c2-5f5a-4e96-82c4-f7a7a65e56a6)
+
+* **Physical Layer(PL) and data linked layer(DLL)**, layers mainly deal with **hardwares**.
+* That's why we don't go much into the details of **Physical Layer(PL) and data linked layer(DLL)** layers.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4dfbec16-a3ab-44b2-ac48-fd9806f6c1e7)
 
 
 
