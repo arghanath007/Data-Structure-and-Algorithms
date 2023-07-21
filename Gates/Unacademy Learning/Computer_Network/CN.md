@@ -5039,7 +5039,9 @@ which is **/13**.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/abd242d9-c166-42bc-af57-84528fc9a2ab)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f2f211d-f355-4215-9bc9-0f319b344f92)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b764557-fe7a-4c5d-8df0-488308ee727e)
-![Uploading image.png…]()
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cdaac551-e097-417c-b5d3-fe10cc695927)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0bc28c11-b50a-42e7-9e9c-d0edc2d8d138)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0948e8ed-b32a-46f8-9dc2-0bfd2ca38126)
 
 
 
