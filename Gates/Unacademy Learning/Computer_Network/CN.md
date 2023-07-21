@@ -5386,7 +5386,96 @@ which is **/13**.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/88b43afc-88e5-4553-aa38-69588062ad1c)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34a83b65-2404-45a9-9935-f232275cc60f)
 
-> The rule at the **sender** side has changed. Whenever there is a **zero(0)** followed by **3 1's**,
+* The earlier rule was that whenever **0** followed by **3 1's** was there we are going to put a **0** after the **3 1's**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5f4b33d9-6214-45be-af53-ec28b23bebb6)
+
+* Now, the rule is at the **sender** side has changed.
+* Whenever **0** followed by **3 1's**, even if there is a **0** after the **3 1's**, we are going to **add a '0'** after the **3 1's**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f3ded1a0-b96b-48fa-a512-5fcb7bfe68c6)
+
+* Whenever there is a **zero(0)** followed by **3 1's**, we are going to **add a '0'** irrespective of the **next bit**, even if the next bit is a **zero(0)**. We don't care, **zero(0)** followed by **3 1's**, we are adding a **0** after those **3 1's**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2d5dc0e0-7136-4388-801f-1cfa052fc4d9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/875b257b-5452-4033-92ea-d7da4dad6010)
+
+* On the **receiver's** side, whenever we see a **0** after **one '0'** followed by **3 1's**, we are going to **remove/delete** the **zero(0)** from the **right side**. 
+* The condition is that the **ED** is in a **sepcific pattern** which is **01111**, zero(0) followed by **4 1's**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/831c1be4-4471-4bfc-a8c9-0122135085d2)
+
+* Whenever we see **0** followed by **3 1's**, we **add a '0'** irrespective of what bits comes next.
+* We don't care.
+* Doesn't matter if the **data** is matching with the **pattern**, just add the **0**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/40b76eec-0e55-49a5-9f3a-26fd1a81d159)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3f3539d-d4e5-4cb0-ad6a-cd5a31159935)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a47031a2-0341-4c98-a1b7-f81aea57ab8e)
+
+* Why are we adding the **zero(0)** after **3 1's** and not after **1 or 2 1's**?
+
+> Explained in the **below image**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a6f8525-553c-4424-adbf-a4c2b7106084)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/21b27de7-dd7a-4cca-96b6-e15f2ac2d8af)
+
+* Yes
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/056885f2-b99e-4c95-821f-e0ed4d79d8f3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24bdb60b-068c-43f9-a046-88b20da0702b)
+
+* After every **01**, we are going to **add '0'**.
+* **01** is every in the packet, it is **very common**.
+* Packet size will be **very big**, as for **2 bits**, we are using **3 bits**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/55bf7f9d-802e-45cd-9e04-58c08fcc2c8a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac1e0188-968a-4ae7-93ad-197912916b2c)
+
+* Question
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c570a84-4574-412e-92df-11fc326d3b9d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce6bd292-4fb3-437d-9d57-087ee6201f34)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/70fb76de-7d8e-4f9b-9c2e-66edf5f69052)
+
+* Question.
+* 1 after every 1000
+* 1 after 3 zeros
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/497c0e76-cbbb-43a9-8e7e-4c66a7ff78dd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed37f338-39f8-4038-a82d-fe041648c426)
+
+* We are breaking the **pattern** after the **longest bit**.
+* Delimiter(DL) can be anything, it is generally, **01** followed by **all 1's**, **OR**, **1** followed by **all 0's**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b1f5d30-bb35-4c56-bfa7-be7b6ac263cd)
+
+* In the exam, they are going to clarify which **Delimiter(DL)** they are using.
+* Sometimes, they are going to say in what way they are going ti **break the pattern**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ac043e7-5ef3-4c86-99f4-f38c153be7b4)
+
+* **End Delimited(ED)** is a combination of **1's and 0's**.
+* **Bit stuffing** is **very popular**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d06f142f-a938-40ab-89f5-f5d174a0dc6e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/56afe4e0-3917-4ed8-b17a-44a5d54a9275)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
