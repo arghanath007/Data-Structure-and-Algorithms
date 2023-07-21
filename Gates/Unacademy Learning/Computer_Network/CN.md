@@ -5462,6 +5462,39 @@ which is **/13**.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d06f142f-a938-40ab-89f5-f5d174a0dc6e)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/56afe4e0-3917-4ed8-b17a-44a5d54a9275)
 
+## ipv4 (34) [21st July 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b48b322-a2eb-4c24-b21d-d28da8c6d745)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0cc55b87-eaf3-428c-99e5-2980f8b1a758)
+
+## Network Layer
+
+* Network Layer -> **L3** layer.
+* We are following the **bottom-up** approach.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f51df386-9206-46db-80df-a5fac6c36172)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9cff70a-7fb0-4ce5-a592-a6e2367cacb0)
+
+* Size is not fixed but there is a limitation on the **amount of data** we can send.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/87f56ac9-662e-493c-9c24-8ce4e7c4b3c9)
+
+* Functions of **Network Layer**.
+* Some other **responsibilities** are there which are not so important:-
+
+1) Congestion Control -> Also done by **network layer**. **IP** doesn't deal with **congestion control**. **TCP** deals with it.
+2) Fragmentation
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd356faa-c813-4c96-9ee0-4ec62cf2c138)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83885ae9-3240-46fc-9b70-518223553af9)
+
+* **IP** completely ignores **congestion control**.
+* If asked for **functions of network layer**, then mark **congestion control**.
+* If asked for **functions of IP**, then do not mark **congestion control**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f2eeb182-5ee1-4950-a82a-5f3067531994)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed61c320-603d-4f8b-b682-39b62c1fb8a1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d81700a2-0c86-4012-a81f-97a055a80eea)
 
 
 
