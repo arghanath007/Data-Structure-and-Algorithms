@@ -5377,10 +5377,16 @@ which is **/13**.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8557de6e-bbbf-4699-aa5c-9f0e7d68a858)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b6a3c063-12c0-45bb-b82d-c637d4ec7693)
 
+* We(Sender) are being blamed for something we(Sender) didn't do.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5f6920dc-45c7-4937-90c8-80c75d1a7763)
 
+* Receiver is anyways going to **delete one zero(0)**, which is after **3 1's**. If anyways the **receiver** is going to **delete** it then we **better** add another **zero(0)**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/88b43afc-88e5-4553-aa38-69588062ad1c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34a83b65-2404-45a9-9935-f232275cc60f)
 
+> The rule at the **sender** side has changed. Whenever there is a **zero(0)** followed by **3 1's**,
 
 
 
