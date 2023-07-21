@@ -5043,6 +5043,216 @@ which is **/13**.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0bc28c11-b50a-42e7-9e9c-d0edc2d8d138)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0948e8ed-b32a-46f8-9dc2-0bfd2ca38126)
 
+## ethernet-and-switching-types-part-i(31) [21st July 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0829190a-4384-4668-bfb3-8fb283585863)
+
+### Manchesta Encoding
+
+* Z -> Signal is **1** for the first half of the clock duration and then it falls down to **0** for the **second half** of the clock duration.
+
+* (Inverted Z) -> Signal is **0** for the first half of the clock duration and then it raises up to **1** for the **second half** of the clock duration.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0cdeeaf-1e21-433f-834a-913ca54d2d15)
+
+* How does the wave look like in manchesta?
+
+> **Below**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1cb0f818-c8ae-4511-9c27-813cc58b057f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22a2eabd-a5a9-4770-a81d-c81ce8c23ad1)
+
+* Manchesta encoding of the numbers.
+
+### Differential Manchesta Encoding
+
+* Instead of seeing the entire clock, we just see the **beginning**.
+* Edge -> Either we start from **1 to 0** or we start from **0 to 1**.
+* If it **starts with a edge** then it is **zero(0)**.
+* If it doesn't **starts with an edge** then it is **one(1)**.
+* So, now we have **two different** representation of **0 and 1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6cebc611-afaf-4073-88b0-82ceb613c609)
+
+* Initially **1** should not have **any edge**. We can go with either representation of **1**. So, we can have **two different** waves.
+* We have to check the **options** of the question, with what pattern they have started the wave.
+* With what pattern they start with, the entire wave/pattern is going to look **different**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/03121033-f9da-438a-90d0-28fc7a75d323)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa05eca4-2f65-492c-b75f-77322b216806)
+
+* Any **Edge** will come, which we don't want. So we cannot use this representation for the **second '1'**.
+* We should not have any **edge**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f26b0b1-7f85-463b-8eae-826838f65fb2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fbfd0cd2-5c66-44a6-8013-66d67f5c6c24)
+
+* There should be **no edge** at the beginning of the **clock**. As there is **no edge**, so it is **1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a0b5ab7-d9b6-449c-a7aa-fa34e6fea3f4)
+
+* As there is an **edge** in **0**. So we have to jump from **0 to 1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7edfea74-9a49-45b8-ae74-f26028aea3fa)
+
+* **0** so we need an **edge** from **0 to 1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22a39938-3080-4568-a087-656730db73d6)
+
+* As there is **no edge** fro **1**, so we are using the **second representation** of **1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a7058b2b-5822-4f97-b7b6-e911c14efd4b)
+
+* As there is **no edge** fro **1**, so we are using the **first representation** of **1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/43600258-5c83-4df8-847d-f6b42c566367)
+
+* We will get **different** image, if we start with **different** representation at the starting.
+* In order to send **1 bit**, the signal is **changing** two(2) times.
+* The changes in the signal are called as **baud**.
+* If we have to send **1 bit**, we have to send **2 signals**.
+* For **10 bits**, we need **20 signals**.
+* For **K bits**, we need **2K** signals.
+* For **K bps(bits per second)**, we need **2K baud** per second.
+* Therefore, **Baud rate** -> **2 bps(bits per second)**. [**IMPORTANT**]
+* Baud -> 4 letters
+* Bit -> 3 letters
+* **Baud rate** -> **2 bps(bits per second)** -> **4 letters = 2 * (3 letters)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cda61af8-695f-4de2-8958-ba294a5e00c7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6da1c22b-c27d-4fc3-948f-37d73c8d9ddb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c4c4614-0138-4728-9cc3-a94910a11b40)
+
+* In **both** of them, for sending **1 bits**, we are sending **2 signals**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6fb8a5fa-f39a-4226-999f-909b3979a82c)
+
+* **Data Linked Layer(DLL)** is divided into **two** parts.
+* One part is **Logical Link Control(LLC)**. It's main work is maintaining **flow control**. It uses support from/of **MAC**.
+* Other part is called as **Medium access control(MAC)**. It's main work is maintaining **physical addressing(PA), access control(AC) and framing**.
+* Mac Addresses.
+* Both **LLC and MAC** have their own **Error control(EC)** methods.
+* Both deal with **Error control(EC)** also but their main work is **listed above**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a40ac4c-8776-4b42-9eda-9959c040f3b0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/651a38b3-0d37-4d4c-a8d2-d5e18e17ab8c)
+
+## Framing
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/54238754-1881-412c-9a02-e427267c8e8d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/999ef29d-73f8-4f01-9f8a-84ed7a1bf98c)
+
+* **SFD** acts like a **wake up** call.
+* Everyone can sleep until they see **SFD**. Once they see **SFD** they can actually start reading the packet.
+* We are going to take the pattern which is a **regular expression(RE)**, we are going to convert the **regular expression(RE)** into **Automata**. From the automata, we are going to design the **sequential circuit(SC)**. The **sequential circuit(SC)** is going to be place in the **NIC**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89b32e32-0e3b-4224-9e85-48ea30375d90)
+
+* Have a **fixed length** for all the packets?
+
+> When we have to send the data **greater** than the **fixed length** then there is a **problem**.
+
+> When the **data** is of **less size/length** then we have to do **padding**. It is a wastage of space. These wastage of space is going to leads to **internal fragmentation**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/90f23bf7-06f9-456c-b85c-f83a7b9c6c71)
+
+* Have **variable length** for all the packets?
+
+> If we have **variable length** packets, then we cannot say the **size** of the packets.
+
+1) We can include a **length field** in the header which is going to tell the **length** of the  packet. Then we can read those many bits/bytes of data.
+
+2) We can have a **end delimited**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/38713b5b-3c15-4126-ad78-c6eb31714008)
+
+* Because of the **end delimited**, we are able to know that we have reached the end of the packet.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24ca87eb-2208-40d2-b7db-d4ef60d4237a)
+
+* Both the methods are used in **different LANS**.
+* **Ethernet** has the **length field**.
+* **Token ring** has the **end delimited**. [Not in Syllabus]
+* They are **many LANs** in the world which are using **both**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c5acb4db-7af3-42fd-849f-7037e90a0193)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ecbba55d-9a17-4b4a-aa90-b1580b972a7d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d371e750-1133-4eb2-8870-02ff29c13d82)
+
+* Framing.
+* Theory.
+* Stuffing -> Adding.
+* **CRC** is present at the **end** of the packet.
+* Computing **CRC** is not a simple thing.
+* We  have **1GB** of data and **16 bit CRC**.
+* For **1GB**, we have to take every **16 bits** and we have to apply the **exclusive OR**.
+* The computation is going to be **every high**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/754a3ab8-8ab6-4ca4-8859-a44c204036a4)
+
+* In **framing**, we can have **two** solutions..
+* **Fixed length** -> We don't know what length packets we will be sending.
+* **Variable length** -> It is very popular. With **variable length** packet, we should also send the length of the packet. 
+
+> We can have a **length field** at the beginning of the packet, the **header**. The **length** field should be present at the **header** then only the receiver will understand how many bits to read.
+
+* Therefore, **length** field should be present at the beginning of the header.
+
+* We are going to have **end delimited(ED)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e84f484f-c4ba-4b28-944e-d3e3ed1a594b)
+
+* We are going to choose a **pattern** which is not going to **interfer** with the patterns of the data.
+* We are assuming that **$** is a symbol, which will never be a part of the data. Therefore we are going to use **$** in-order to represent the **end delimiter(ED)**. [Just an asymption]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1336d2e4-a899-4fb1-88c9-8b9d8072b31b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6fd9e1a7-bb5d-4d0f-a172-06797c512872)
+
+* End of the frame delimiter or end delimiter(ED).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65569791-0989-416c-b8f4-1af9c41916a0)
+
+* Whatever **pattern** we have on the **end delimiter**, we should not have that **pattern** in the **data**.
+* The **end delimiter pattern** should not match with the **pattern** in the **data**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5023086f-d09c-46b0-8e60-ede146d8eb66)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/75917e8b-5f2a-4c03-9db8-8d560694502f)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e2e5165b-6069-4fe1-ae54-d82d357b6b25)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3fc668eb-b405-4bc1-b8e9-3723839901c5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76f69c13-3b42-45bd-a189-80741d52c623)
+
+* SFD -> Beginning of the packet.
+* ED -> End of the packet.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c759ae5c-57ce-4cfb-864d-3fc4a30288cd)
+
+* What can we do?
+
+> Why sending the data, the **sender** whenever it sees there is a match in the data. It has to a **append** a new character before it. The **appending** of a new character is called as **character stuffing**. We can choose **any character***.
+
+* We are **adiing** a character.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f54238b2-b8f5-43c1-9a66-3b882b3208ad)
+
+* On the **receiver**'s side, whenever it sees a **NULL(\0)** followed by a **$** then the **receiver** understand that the **NULL(\0)** is added by the **sender** and the **receiver** removes it and then reads it. This is not the **end** of the frame.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0cddbc70-49e3-425d-ab6a-640f24c879e6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c6778943-c8f5-4fe2-91e1-4ad69cfba6e0)
+
+* We can take anything, we just took **\0** as an example. There is **no standard** here.
+
+
+
+
+
+
+
+
+
+
 
 
 
