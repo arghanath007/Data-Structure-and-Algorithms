@@ -5244,23 +5244,138 @@ which is **/13**.
 
 * We can take anything, we just took **\0** as an example. There is **no standard** here.
 
+## switching-types-part-ii(32) [21st July 2023]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd68d61e-f9e2-4e31-8d5b-474745ffe533)
 
+* Class was for 12mins.
+* Some issue with pen.
 
+## switching-types-part-iii-and-doubt-clearing-session(33) [21st July 2023]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/152f3769-15d1-400f-bf3b-8f20a0ef1ee7)
 
+* SFD -> Start Frame Delimiter.
+* In order to find out the **length of the frame**, there are **two** methods:-
 
+1) Length field in the **header**. Used in **ethernet**.
+2) End Delimiter in the packet. Used in **token ring**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7bc9ef42-a45a-4ad4-85c3-669373b41902)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/78847fe2-dee9-45c0-8f0a-b7c579ef755f)
 
+* SFD -> Starting
+* ED -> Ending.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f18b54d1-f1c4-4833-887b-c6e47cc12f5f)
 
+* If we put **NULL(\0)** character before the **$**, then the **receiver** will understand that there is a **$** that is present in the data but it is **not the ending '$'**. It is part of the **data** that's why user has added the **NULL(\0)** before the **$**.
+* This is called as **character stuffing**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f565cd50-9512-4034-af2d-1e47492f57df)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/860a3741-f7f8-4a01-a0c9-951d24552b5f)
 
+* There could be a **problem**, if the **NULL(\0)** character gets **corrupted**. 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab6398eb-7469-4839-99b0-c01d2cb4e700)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5bfdc154-2e3e-4a06-bc0e-f4bcdd9b31ca)
 
+* Another problem.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50e08aa5-5685-4b7e-a343-08fe4be6001b)
 
+* Problem.
+* If in the **data** only there is a pattern of **\0$** is present and we haven't added the **\0** before the **$**. That is a **problem**.
+* The **receiver** will blame that we have **added** the **\0** before the **$** even though the **sender** has not **added** it(**\0**).
+* The **receiver** will remove the **\0**, which is a part of the data.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c17987f7-0eeb-4201-8a24-99540bd4b12f)
+
+* We have to solve the problem, whenever the **above case**, arises we are going to put an **\0** character for an **\0** character and for **every $** we are going to put an **\0** character.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd14a334-d548-43ae-b3cf-d2befe015419)
+
+* This is how **character stuffing** works.
+* For **$** we are going to put an **\0** character. The **receiver** is going to **remove** the **\0**. That is why either there is a **$ or \0 character** we are always going to **add** a **\0** character. 
+* So, whenever the **receiver** sees the **first \0** character, it is going to **remove/delete** it.
+* The **remaining** part is going to be **read** as **data**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/255e80ff-9b25-44a4-bfac-e9ad55237a23)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fbaa7926-99d9-40a7-bb32-d7db1cf3e4d5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/faca3b75-370f-413c-bf6b-37f8d0d1ee3b)
+
+* Yes.
+* This method of **character stuffing** is clearly **in-efficient**.
+* If **NULL(\0)** is in the **data** then there is a problem, otherwise there is **no problem**.
+* Because of the **disadvantages above**, we don't use it anymore.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bdcaf0a3-41f2-41f5-8848-67c8cd130423)
+
+* Adding character, **the size is increasing**. Therefore, it was used long back.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9f4d870a-d4ae-4a0e-afc4-41c3f2d3718a)
+
+## Bit Stuffing
+
+* Binary Pattern -> Followed in bits, 0 and 1.
+* When we have **01111**, zero followed by **4** ones. It is the **end of the frame**.
+* Pattern -> 01111
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a4bcc39-c712-4c31-87fd-ef0ed70e0c7a)
+
+* The pattern can be easily present in the data.
+* When the **receiver** receives the **pattern(01111)** in the data, then the **receiver** stops reading the **data** from that point onwards.
+* Even if there is a **very little** probability of happening then also if there is a **probability** of happening then that thing will happen.
+* If there is a **probability** of something going wrong, then that something will definitely go wrong.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b499838-0e7a-4d75-a403-88e26342516c)
+
+* Solution -> **Break the pattern**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb1bb7eb-bfce-455e-a892-b8cf77b10561)
+
+* Yes, that is the **goal**.
+* Adding a **zero(0)** after the **first, second and third** one(1). All **three** are perfectly valid. BUt we will go with the **last one**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0f57dfd-389f-4529-bd22-4228964e0988)
+
+* Whenever in the **data**, we have the **pattern**, which is matching with the **end delimited**, we are going to do **bit stuffing**. After **bit stuffing** is done, the data is transferred/sent to the **receiver**.
+* The **receiver** is going to see **011101**.
+
+> The rule is whenever there is a **0** followed by **3 1's** and followed by a **0** then the **receiver** will understand that the **first zero(0)** from the **right side** is actually **added** by the **sender** to break the pattern.
+
+> So, the rule at the **receiver's** side is, whenever there is a **0** followed by **3 1's** and followed by a **0**, we **delete/remove** the **zero(0)**. This might be a**added** by the **sender** in order to break the pattern.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/26826bbf-795c-4af5-87c3-56761ee048b2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81591e75-5b50-4638-afb4-10b9e088dbf6)
+
+* Problem.
+* What if the **data** is **0** followed by **3 1's** and followed by a **0**?
+
+> We didn't **stuff** it. We didn't do anything with the **data**. The **data** itself is this.
+
+* We are sending the data and the **receiver** receives it.
+
+> Whenever there a **zero(0)** followed by **3 1's**. Whenever we see a **zero(0)** after it. We have to **remove it**.
+
+* So, the receiver will remove it.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e994d94-f424-4e77-94da-49ac70531499)
+
+* It is not added, it is part of the data but the receiver is removing it.
+* Even though it is off no higher priority, we still have to **solve it8*.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/da78540f-2ee6-4ba2-9230-00449a54b859)
+
+* In the **sender side** if there is **0** followed by **3 1's**. We are going to **append** a **zero(0)** after **3 1's**.
+* In the **receiver's side**, whenever it receives the data, **0** followed by **3 1's** and a **zero(0)**. **Receiver** is going to **remove** the **zero(0)** from the **right side** saying that the **seender** has added it.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/175764dd-a09b-453b-a587-4ded4d6bec8a)
+
+* The **problem** is when the **sender** has not **added** anything, the **data** itself is like this. Whenever the **sender** is sending the data, then the **receiver** will **remove** the **zero(0) bit** from the **right side** of the **data** blaming that the **sender** has **added** it.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8557de6e-bbbf-4699-aa5c-9f0e7d68a858)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b6a3c063-12c0-45bb-b82d-c637d4ec7693)
 
 
 
