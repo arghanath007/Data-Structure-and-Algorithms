@@ -5495,7 +5495,11 @@ which is **/13**.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f2eeb182-5ee1-4950-a82a-5f3067531994)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed61c320-603d-4f8b-b682-39b62c1fb8a1)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d81700a2-0c86-4012-a81f-97a055a80eea)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f081b707-c574-4280-82d2-1a45bcf1ba63)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b7a56736-955f-4366-a632-c7882870cbb7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57f64d10-6080-490d-bcb5-3bd73f447f66)
 
+* If we have a **host** and there are **many processes** in the host.
 
 
 
