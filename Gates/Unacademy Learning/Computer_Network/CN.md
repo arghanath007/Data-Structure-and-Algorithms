@@ -5586,6 +5586,73 @@ which is **/13**.
 
 * Switching is nothing but taking the packet from **one link** and putting it on **other link**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/84dde120-3002-4eef-8fc2-fa0499eb2096)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8725bdf0-1eee-4f31-891e-2d3ef012cfe7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c456f306-84e8-4a94-bcc7-36af9672fc5a)
+
+* Switching
+* Preparing the **routing tables** is called as **routing**.
+* **Routing tables** helps in **switching**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/794d1fbf-02f9-4633-8b1f-3ec599d99fde)
+
+* Functionalities of **network layer(NL)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed09d953-5fe2-4314-983a-883f609cf83d)
+
+* Question.
+* Aggregation -> Supernetting.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5f59b55-074c-4ba4-8009-e488debeddb7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/52f344ea-313b-43cf-be91-daadf92297fa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a15c3bc-bb89-4926-9811-e7d42e0c8662)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/639104c8-410c-4694-bab5-d5d42cd377f9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57dc7248-3187-4fed-bf89-8968f97270a5)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ffc4de1a-7405-4c90-918b-63fa876b951e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f409f2f0-47dd-4faf-9f19-0527893bf518)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a63ba4a0-e6d0-4cae-ae27-2cfea4443f37)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4912b9a9-f507-43fc-932f-0fe6107c9a72)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5623036-fa64-4a8e-82cb-e5beb29652f9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7f2a356-1763-4bae-8a38-fed820cd97e8)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2296cd26-46a2-4229-aac4-666e7b6b2c30)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3713b735-1d6c-4016-851a-f692d353f41a)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ac1add7-bdd8-4cdd-a38c-ff062b6d21a3)
+
+## Transort Layer
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27cac872-bd0a-40ff-8ce4-31f5fb7c4a45)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22b12e78-c19d-4f4e-9625-7dc99106c5a6)
+
+* **End to End** delivery is ensured by the **transport layer**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/15fd9eff-7636-42bb-981d-a46755c96c8d)
+
+* **CRC** is generally used at the **hardware** level. **DLL** is close to **hardware**. So, generally **CRC** is used in **DLL**.
+* **Transport** layer is a **software** layer, so it can do the computation on the cpu. **CheckSum(CS)** is nothing but adding the numbers. So, **CS** is being used in the **transport layer(TL)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ef4714e-6dc2-4e0f-8092-feff321986e1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4ef37fa0-4ef4-4d05-a865-6eb5f7ede1c1)
+
+* We have to be careful of **overflow**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e139f2a1-2c3f-40e8-8530-56e5c2359573)
+
+
 
 
 
@@ -5623,3 +5690,4 @@ which is **/13**.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5cfada5-4035-4541-bed0-9dc30980ed72)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/872195d4-3921-41f3-94dc-7b2819922cab)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f50e666-7214-4583-8728-a2076f78bd28)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e416075b-c7d6-423c-8f72-042d0dc1bd5d)
