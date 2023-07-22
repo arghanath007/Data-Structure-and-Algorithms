@@ -5513,17 +5513,74 @@ which is **/13**.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b8eb8d3-6e5e-4ae4-8244-3f48c7168e54)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/635c76c1-3494-40d9-8637-1576c529abd4)
 
+* Logical Addressing(LA) -> Any number that is **unique** in the **entire world(globally)**.
+* Physical Addressing(PA) -> Any number that is **unique** within a **network**. 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5e5d1cb-034e-467a-88f9-254486936ec8)
 
+* **Logical Addressing(LA)** is the responsibility of the **network layer**.
+* **Physical Addressing(PA)** is the responsibility of the **DLL**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09dca026-90ed-49d0-9661-61483c6eb512)
 
+* IP address -> **32 bit number** which is **globally unique**.
+* MAC accres -> **48 bit number** which is also **globally unique**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/68533c21-9231-4c8a-88d1-f64261493a30)
 
+* No **two hosts** will have the **same IP** address.
+* MAC address is a **hardware no**.
+* IP address is a **software no**. It is not present on **ROM**. It has to be fetched everytime.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/29427231-506b-4ecf-a8a6-33ff57084d4c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/84e3db4a-9b57-41e0-ae7a-bc19a43d1e4a)
 
+* VID -> Vendor ID
+* SNO -> Serial Number.
+* MAC address is definitely a **globally** unique number.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66251189-e1e4-4fdf-8fac-0394ac6e7795)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a150fce-0612-46fd-a160-6d044d4a1daa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e294ce32-8869-42aa-bed8-3cf9fb19bb23)
 
+* As **both**, **IP and mac** address are **globally unique**, so we can use them for **logical address(LA)**.
+* Why we use **IP address** in  **logical address(LA)**?
 
+> **IP address** is **globally unique(1)** and it has the caabilities for **routing(2)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc2cfe84-9182-4a06-b79d-cb060cf1ffc3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd561af2-73fb-4bf9-a253-7e21db9559cd)
+
+* If we have **one IP address**, then there is a **problem**. The **IP address** is not permanent. The **IP address** is
+**temporary**.
+* **Physical address** is a **number** which has to be **unique**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cdf778b6-fc9d-4a3a-9195-1fa5b1d674d4)
+
+* We are using **MAC address** as **physical address**?
+
+> **Permanent**. We want a **permanent no** with the **host**.
+
+* Therefore, **mac address** is used as **physical address(PA)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed094840-cd1d-42a4-a271-f08cf150ffe1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/610784d1-7572-486c-95c4-2b4cbc9044ba)
+
+* Why we use **IP** for **LA** and **MAC** for **PA**?
+
+* IP is mainly for **routing**.
+* MAC is mainly for being **permanent**. [Reasons]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d983422-515f-461d-ab3f-ab36aee2127c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/173aab99-8148-41fd-aefd-676c32b85566)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36327b94-f9ed-42e7-a5ad-02e31e481761)
+
+* Yes.
+
+## Switching
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b910f6bb-60f1-4dbe-add2-ae70bb5728d0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f0fefdb-ede9-4d9a-94cb-886df36e9cf5)
 
 
 
@@ -5559,3 +5616,4 @@ which is **/13**.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/62e3bd2e-4498-4c70-8565-62c2f8fa0bc8)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5cfada5-4035-4541-bed0-9dc30980ed72)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/872195d4-3921-41f3-94dc-7b2819922cab)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f50e666-7214-4583-8728-a2076f78bd28)
