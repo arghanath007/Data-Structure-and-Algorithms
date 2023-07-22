@@ -10,7 +10,7 @@
 
 1) https://unacademy.com/class/csmacd-aloha-set-1-practice-questions-computer-networks/DV5HHYBP
 2) https://unacademy.com/class/gate-questions-on-ip-address-set-1-cn/31RIDORG
-
+3) https://unacademy.com/class/gate-cs-it-2021-answer-key-computer-network/INDY4OSM
 
 # Part-1
 
