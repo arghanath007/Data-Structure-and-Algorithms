@@ -6,6 +6,12 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1831db45-2247-4633-9d83-13923da2c6b9)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a72ecd02-3e38-457a-b694-d47278074e67)
 
+# PYQs
+
+1) https://unacademy.com/class/csmacd-aloha-set-1-practice-questions-computer-networks/DV5HHYBP
+2) https://unacademy.com/class/gate-questions-on-ip-address-set-1-cn/31RIDORG
+
+
 # Part-1
 
 * Link -> https://unacademy.com/course/computer-networks-complete-course/YGKC2V5S
