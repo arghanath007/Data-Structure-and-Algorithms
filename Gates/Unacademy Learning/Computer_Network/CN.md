@@ -5582,6 +5582,12 @@ which is **/13**.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b910f6bb-60f1-4dbe-add2-ae70bb5728d0)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f0fefdb-ede9-4d9a-94cb-886df36e9cf5)
 
+## segmentation-fragmentation-and-reassembly (35) [22nd July 2023]
+
+* Switching is nothing but taking the packet from **one link** and putting it on **other link**.
+
+
+
 
 
 
