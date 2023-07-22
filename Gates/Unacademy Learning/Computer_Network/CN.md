@@ -5500,6 +5500,18 @@ which is **/13**.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57f64d10-6080-490d-bcb5-3bd73f447f66)
 
 * If we have a **host** and there are **many processes** in the host.
+* Generally **communication** happens between the **processes** and not the **computers**.
+* We have to go from **one router to another router** only.
+* One Jump -> Hop-Hop.
+* The **Hop-Hop** communication is taken care by the **DLL** layer.
+* **Host to Host** is taken care by the **network layer**.
+* **IP address** is handled by the **network layer**.
+* **End to End** delivery is taken care by the **Transport layer**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af90740a-ee61-44dc-b123-909988667786)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/67a153ad-0694-4d3a-b021-501b9eb2961a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b8eb8d3-6e5e-4ae4-8244-3f48c7168e54)
+
 
 
 
