@@ -9835,6 +9835,60 @@ b5da-42ddc3936df0)
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf8798f7-b402-466b-97eb-47664538a9f9)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b03541a4-199e-48dc-a340-c1c3c0c3f24e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f493ce5-75c2-4264-a090-ea66a43600b7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d42b502-2f88-42d4-b07e-500488d60394)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/de3684b4-c2c5-4ddd-a923-ad8363a9e085)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bddbd0e1-d8fe-4fc3-ab3e-c36e59b2218a)
+
+* Question.
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b6209b0-e7b6-4381-aca4-af888d405f83)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3b75420e-6edc-4ff5-9179-31327b1cd035)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9581c9b9-39d4-4bf5-9086-7c541640f113)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71548336-ebe8-445a-afbe-0be38732d49b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f4c0187-bdc2-4c8e-81b9-e3e698bd1cb9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4ff8155c-9a56-4385-bff8-959ac787054b)
+
+* Question.
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/43291ba1-e626-44ef-8057-401e44bb68df)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/87649ff5-605a-473c-b5fb-5ebad7579f15)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/178d0c50-87f9-4a67-a077-39fdb50c65d7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30f60865-207f-4e9d-8489-c512f157bf8f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/53b6e4b6-b097-4274-9199-ca442a05684f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cbd2dab4-2865-4f1f-9ae8-92051ddc06e5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6214040a-9c41-4a6d-bb0b-bdd8960df253)
+
+* Question.
+* Option **B**.
+* Poignant -> Regret.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aececfb6-0750-4750-ba63-6d365646dc5c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/74afd9a7-47a7-46ba-b643-db18085d3204)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6def2c72-da18-49c2-9851-d28c7372f9e6)
+
+* Question.
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9886d2ba-7104-4922-a7a3-b16be9495e56)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/75f74b9a-ee34-4365-89d6-b660d42eec95)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cbef0a62-3c91-400a-80ee-44d7995750eb)
+
+* Question.
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e61a62d6-b5f9-4d6c-918d-327b7e709c66)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f8ab8b2-db20-4882-9bd7-06ac8c10f80d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/febff94a-fddf-4fbb-a55f-7c5ef26d0c2e)
+
+
+
+
+
+
+
 
 
 
