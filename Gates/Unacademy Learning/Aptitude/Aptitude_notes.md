@@ -9834,6 +9834,9 @@ b5da-42ddc3936df0)
 * Circumstantial -> Decision Making ability.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf8798f7-b402-466b-97eb-47664538a9f9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b03541a4-199e-48dc-a340-c1c3c0c3f24e)
+
+
 
 
 
