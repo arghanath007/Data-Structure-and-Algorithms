@@ -9883,6 +9883,36 @@ b5da-42ddc3936df0)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f8ab8b2-db20-4882-9bd7-06ac8c10f80d)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/febff94a-fddf-4fbb-a55f-7c5ef26d0c2e)
 
+## verbal-reasoning-part-ix(55) [24th July 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9f5c4e83-b700-4da6-b1a2-98b20c39024f)
+
+* Question.
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98e6496b-58b5-47bb-9193-63d065eb20ce)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7261527c-5dcf-4b76-9885-04e7467667ee)
+
+* Question
+* Option **B**.
+
+* Coup -> Sudden change in government
+* Coupe -> Train's compartment
+* Plummet ->
+* Nosedive ->
+* Plunge ->
+* Poised -> In the balance.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4de49a88-1a24-48f3-a2d0-4f2a64e37e0b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31dca966-ac21-46cd-bd0d-0c2541ac6489)
+
+* Question.
+* Option **C**.
+
+
+
+
+
 
 
 
