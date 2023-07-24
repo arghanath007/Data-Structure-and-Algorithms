@@ -9814,6 +9814,30 @@ b5da-42ddc3936df0)
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f99528c2-5401-416c-b710-ed514662a6b0)
 
+## Verbal-reasoning-part-viii (54) [24th July 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9697183a-b2d1-4388-819f-f5ee7314d133)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3353bcc9-4108-4498-a9c0-1d1e3004ff81)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5340b5f2-2074-4d3a-8c6f-8cfc544645ce)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/73a0b572-6c9e-4e4f-88d3-e480990d495e)
+
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db5dc216-16b6-4758-824b-0456cbf40dfb)
+
+* Question
+* Option **B**
+* Procedural.
+* Circumstantial -> Decision Making ability.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf8798f7-b402-466b-97eb-47664538a9f9)
+
+
+
+
 
 
 
