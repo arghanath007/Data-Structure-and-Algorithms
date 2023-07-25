@@ -5923,13 +5923,55 @@ which is **/13**.
 
 * **Limited broadcasting(LBC)** happens within the **network** itself.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6dab1b73-f96c-4ea9-aae3-3577822e8dae)
 
+* n/w -> network.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5617254f-fe83-477f-8313-4de8a4855563)
 
+* How does **ARP** work?
 
+> The packet is actually **broadcasted**.  Everyone will see it. Whoever is having the **IP address** match, they will give us the **MAC address(m)**. Then the **packet** is sent as a **unicast**.
 
+* It is a **broadcase** done by **DLL** layer.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1760b5dd-0af1-42eb-b7b9-45e9d8c0fb82)
 
+* If the **ARP** packet is seen by the router, the router will check the packet, open it and do everything but the router will not send the **ARP** packet to the other side of the network.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ade5373-1ce7-482e-bc5d-37498bcab95b)
+
+* Limited Broadcasting.
+
+### Directed Broadcasting
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8dcaa508-1619-4217-92b2-74e67f336419)
+
+* In this case, what will **DLL** add?
+
+> **DLL** will find out that the **host and the network** are different. Therefore it will send the packet to the router. It is going to use the **source MAC address** as it's own MAC address. The **destination MAC address** is not the **broadcast address**. Even though it is a **broadcasting message** for some other network. It will go like a **single message** till it reaches the **destination network**. Therefore at the **destination MAC address**, we are going to put the **router's MAC address(mr1)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/84535222-b601-49b5-98aa-c4d207cb2f31)
+
+* The **R2 router** is going to change the **source MAC address** to it's own MAC address. The **destination MAC address** is set to **mr2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/beb834b2-2b04-45b9-8427-cde112a73009)
+
+* The **MAC** address keeps on changing but the **IP address** does not change.
+* The **R2 router** will see the **IP address** and now understand that the packet has to be **broadcasted** to everyone within the network.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b12b9df-d434-416f-971b-45095662ee5b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/753f079a-149d-4743-a77b-b26ed17ddb5a)
+
+* It looks like **Limited broadcasting(LBA)**. The packet will be send to everyone in the network and everyone will read it.
+* Even though it is a **Directed broadcast address(DBA)**, the packet travels in the network like a **normal packet** and whenever it reaches a **router** which is actually connected to the network then that particular router is going to convert the **Directed broadcast address(DBA)** into **Limited broadcasting(LBA)**. 
+* Even the **IP address** is changed to **all 1's**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1caab7d8-40a0-443d-8073-81ed8cb2e9a2)
+
+* So, **Directed broadcast address(DBA)** is actually implemented by **Limited broadcasting(LBA)** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/04ddd3b9-3b0b-4d3c-8643-1e137e9234af)
 
 
 
