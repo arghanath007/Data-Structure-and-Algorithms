@@ -4955,10 +4955,25 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a0d4e4f4-5d04-44e1-bc7b-ab1cc99ee1e7)
 
+## Schedule
 
+* Collection of multiple concurrent transactions.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be44ec5c-a42e-42af-82f5-644444865ed5)
 
+## Concurrency
 
+* Parallel -> 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f437bb4-6de3-42f3-8755-481617b9451d)
+
+* Parallel work.
+
+* Concurrency -> 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cab3f88b-46ef-4e70-9ea3-034fc6fa6b5e)
+
+* Concurrency work.
 
 
 
