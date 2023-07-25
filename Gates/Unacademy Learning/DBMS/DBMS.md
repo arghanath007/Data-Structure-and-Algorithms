@@ -4899,6 +4899,79 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b59072a9-69fb-468c-a01e-9e885418d424)
 
+## transaction-concurrency-control-part-i(22) [25th July 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/75adb8be-752e-4e49-8d74-0b5d9c6d29c6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2542afe3-ac34-4f3e-84de-124c4a2c350d)
+
+* Many to many participation contraint
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1713a586-d008-4e7b-8e36-fd8b40a7a66e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c4a272a3-8dfd-4d54-a79d-f6721b1382f0)
+
+* We cannot control the **participation contraint** in **many to many**.
+* We can control the **participation contraint** in **one to many, many to one and one to one**.
+
+## Transaction
+
+* DB operations -> Read, Write, Update
+* Sequence of **DB access operations** is called as **transactions**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/253f5431-e332-4e2d-a85e-05b9baac234a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a17e2d6c-be23-489a-a10d-7adee29c97b0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/23cda37c-fdf1-4f24-a022-159af7db60f3)
+
+* Transaction -> Sequence of **DB access operations**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83fbbe4e-a487-4de6-aea9-42e0fb4f41f4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc57e29b-98af-4cf7-aa3a-2f92a75c5dd8)
+
+## States of transactions
+
+* Commit -> To save the state of the transactions.
+* Rollback -> Revert the database state to that state where transaction has not even started. It will take us back to the **last commit**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31fb0b25-9bcb-4d28-b835-95575205d078)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/514becc6-3ff5-4a56-ab13-e6ba62e0291e)
+
+* As there was **rollback** at the end, so we **reverted back** to the **last commited value of 'x'** which is **5** that's why we got **x = 5**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bfb6308d-1563-45dd-9299-d6bbe3173739)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0443318f-30eb-4334-90eb-37e00dd220d9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4ebf7528-2e79-4ff0-97fe-8fc23159f374)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/637a64ec-7045-4158-9a58-e9e93fe4e446)
+
+* States of transactions.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d13d15f-0bb4-48cb-b3d2-b48a3c442320)
+
+* If a transaction has **failed** then it has to be **rollback**. It is not the job of the users to **rollback** the transaction. It is the job of **DBMS**.
+* The **rollback** of the transaction is done by **DBMS**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fdd7a61c-a914-4b13-bea4-9c18937942f7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f16c111a-cc58-479a-bc6f-e2df07eee297)
+
+* If the **commit** was successful or the **transactions** were committed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a0d4e4f4-5d04-44e1-bc7b-ab1cc99ee1e7)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
