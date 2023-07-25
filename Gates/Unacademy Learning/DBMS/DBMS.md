@@ -4975,6 +4975,32 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 
 * Concurrency work.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bcb305cc-f3c8-415b-ac6f-0f4d5bf73dd8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/67aa6bdf-25d9-4b8d-975d-3bee752b6ec1)
+
+* Parallel and concurrent run.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98e23125-0dab-40be-ad12-330b9c372028)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0d33718-10cd-457d-a806-c8a21568b00e)
+
+## ACID property
+
+* ACID -> Atomicity Consistency Isolution Durability
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/716bc833-bb6a-4ff3-bf68-22a7a5b1ec84)
+
+* Atomicity -> All or none. Either it will run fully or it will not run.
+* Consistency -> Expected output/result from DB.
+* Isolation -> The concurrent transactions should run in such a way that they provide final result same as they were running like one after another.
+* Durability -> We should be able to see the results for a long period of time.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa889876-c4b6-4dd4-b439-5242c0009841)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/64b09c7d-04e9-42ca-9a42-874b053a9082)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/858ff819-2eae-486c-9665-5847a6dacff5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f363df8-e1e6-4a7b-82be-8aafaec2a274)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91775214-bcb0-4694-a51a-07801a9494a4)
+
+
 
 
 
