@@ -4999,10 +4999,47 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/858ff819-2eae-486c-9665-5847a6dacff5)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f363df8-e1e6-4a7b-82be-8aafaec2a274)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91775214-bcb0-4694-a51a-07801a9494a4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d63d75aa-3384-497c-8a39-3a513260a191)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f935571a-2e76-4761-a330-6a43a6c7da1b)
 
+* Why Concurrency
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f288361-9ddd-4daa-b30f-4e8fa8cda159)
 
+* Problems with concurrency
 
+## Dirty Read or Temporary Update Problem
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f31aaef6-d28b-4491-9ccd-08c8249ce7cf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed93224b-27ff-4153-8bc5-6a9fa3256181)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dce38738-9a4a-44d5-bc5f-d8150c5832ff)
+
+* Reading someone's dirty written value.
+
+## Phantom Read Problem
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e4253d4e-0f66-40da-af00-8bb1d5bcba12)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a96a3174-89fb-49e7-a1a8-9f2bc583750c)
+
+* Wanted to read again and the value was gone.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f445602-9a0c-4646-865a-dff7dcb9481a)
+
+## Unrepeatable Read Problem
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e5f7868-a2c7-4d47-855f-0067a062c25f)
+
+* When **reading** two times, we got the **old value** once and we got the **new value** the next time.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6760824c-992b-49ae-86a4-df87a0a4e0a6)
+
+## Lost Update Problem
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed7b0c8d-7fb9-477d-bbed-0e6902174be1)
+
+* **X= 7** is **lost**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/52cda366-a354-436f-8b42-34c4647a44b6)
 
 
 
