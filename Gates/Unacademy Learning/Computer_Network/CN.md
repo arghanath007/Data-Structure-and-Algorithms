@@ -5973,9 +5973,32 @@ which is **/13**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/04ddd3b9-3b0b-4d3c-8643-1e137e9234af)
 
+## arp-special-address-127-rarp-bootp-and-dhcp (38) [25th July 2023]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8fc0d2c-8c27-4442-bdd9-69ae0f9b3425)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e037dc6b-bb3d-4d32-90cd-bf013626ba3d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/029d18db-290e-4f43-8f63-6d68e41781ef)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0ac3269-b2a0-4874-999b-617974e808c1)
 
+* **Transport layer** is giving us the **port numbers**, that's why we say that **Transport layer** is responsible for **End to End** communication.
 
+* How do we identify hosts?
+
+> Using **IP address**.
+
+* **Network layer** is giving us **IP addresses**. So, **Network layer** can take us from **one host** to **another host**. That's why **Network layer** is responsible for **Host to Host** communications.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f113fc6-a9ec-4f14-90ef-d2be77da1637)
+
+* **Host to router** is generally **one Hop**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a873f82d-824a-4dc2-9a22-03f8dfd11a25)
+
+* How are we identifying sending a packet to the router?
+
+> Using **MAC addresses**. 
+
+* **DLL** layer is dealing with **MAC addresses**. 
 
 
 
