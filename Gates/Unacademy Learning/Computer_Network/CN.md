@@ -5834,12 +5834,94 @@ which is **/13**.
 * In case of **routers**, **IP address** is **permanent** and **MAC is not permanent**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/07b99e46-48f5-40e8-af2d-4dedb838c3df)
-![Uploading image.png…]()
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5bc54d8c-66de-498a-a134-500d073e921e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d2798ed7-74ee-463b-8633-651fd41eab14)
 
+## fragmentation-with-numerical-example-part-ii-and-doubt-clearing-session(37) [25th July 2023]
 
+* **Presentation and session** layer are not important for all the communication.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d192d25b-0afd-43d7-87c2-c5ef73d6cfa1)
 
+* **0's and 1's** will be converted to **signals**.
+* **Header** added by the **transport layer**. 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa5d153d-a41f-4296-b79c-85ae7c839074)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ceb0d28e-4c8f-4e59-a1c0-9b971502832c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2455f2e6-fd72-4abc-af07-243ba8dd100d)
+
+* Transport Layer -> Port Numbers
+* Network Layer -> IP addresses
+* Datalink layer -> MAC address
+* Physical Layer -> SFD delimiter.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9412c186-c678-4fbc-af1b-d2d1d06bddff)
+
+* Physical Layer doesn't do anything, it takes the **packet** and it will convert it into **signals**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc2f32e3-b72a-4e96-8642-80990c2ffba9)
+
+* Google server is in the **same network** as we are. So, what should be the destination MAC address?
+
+> As we are in the **same network**, we don't have to send the packet to the **router. If **Google** is **directly** reachable then send it **directly**.
+
+* So the **destination MAC address** should be the **MAC address of Google**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e3c4518-c4b1-42ef-9bc6-8a2cfac31937)
+
+* How do we know the destination MAC address?
+
+> 
+
+* **ARP** only works within one network. It doesn't work in **two different networks**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc1eec2a-5b64-4306-9210-59c2fc7f7385)
+
+* **Broadcasting** happens in **two layers**, network and datalink layer.
+* In **network layer**, we have **limited broadcasting(LBC)** and **directed broadcasting(DBC)**.
+* In **datalink layer**, we only have **limited broadcasting(LBC)**.
+* In the **network layer header**, source IP address(SID) is going to be present and in the **destination IP aadress, we are going to put **255.255.255.255**.
+* This is the **network layer** packet.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf2e1844-22a1-47ec-8e48-4b60b3d6ad31)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a100518-a992-42f4-95f1-25626f98a638)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d9360f5-6431-43cb-b7ad-c88cbbcdb2ff)
+
+* A -> Hexa-decimal 10.
+* B -> Hexa-decimal 11.
+* The actual **MAC address** would have been, 1010101100010010.... 48bits.
+* The destination **MAC address** at the **DLL** has to be all **1's**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2854761d-9fdc-4bc0-81de-423e0a6e7a1a)
+
+* If we convert into **hexa-decimal** numbers by converting into **all 1's**, then it is going to be **all F's**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eeb2b141-2663-4e5f-892e-e2f1e03e64b1)
+
+* Since the destination **MAC address** is **all 1's**, it means that the **packet** is for **everyone**. Everyone has to **read it**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df470422-b0a7-4949-a727-30d55c95a3f8)
+
+* This is how **broadcasting** is implemented. Even though **broadcasting** is initiated at the **network layer**, the implementation is done at the **DLL** layer.
+* **Broadcasting** is actually done at the **DLL** layer.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ff2f306-e57b-408f-bf65-2ddcf580bbb4)
+
+* How is the **Limited Broadcast(LBC)** is limited to only one network?
+
+> Any broadcast packet which is broadcasted within a network will be discarded by the **network**.
+
+* The router will not forward any **broadcasting(BC)** that is done in **DLL** layer.
+* A **broadcasting(BC)** packet will never cross the **network boundaries**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c917bc3f-0229-4f5b-9f87-25ceee51dbcb)
+
+* Every network is bounded by devices like **router/gateway**, sometimes a **firewall**.
+* Any broadcasting(done at DLL) that is done within the network will be discarded by the network and it(broadcasting done at DLL) will never be forwarded to the **other side**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3411586c-260a-4003-9280-75f0b496b598)
+
+* **Limited broadcasting(LBC)** happens within the **network** itself.
 
 
 
