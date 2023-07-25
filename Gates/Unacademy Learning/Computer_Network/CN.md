@@ -5658,6 +5658,122 @@ which is **/13**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e139f2a1-2c3f-40e8-8530-56e5c2359573)
 
+## fragmentation-with-numerical-example-part-i(36) [25th July 2023]
+
+## Functions of Transport Layer
+
+## Segmentation
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22ac4a1e-e560-4416-ba44-02b26e6c79fd)
+
+* Application Layer(AL) -> There is no limit on the amount of data we can send or we want to send. Data can be of **any size**.
+* Transport Layer(TL) -> It is the responsibility of the Transport Layer(TL) to **divide** the data coming from the Application Layer(AL) into many small pieces. Each one called as **segments** and send them to the layer below it.
+* Network Layer(NL) -> Underlying Network Layer(NL) is using a protocol like **IP**, which says it can only take packets of size **1000 bits**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/009243a3-de2a-4674-93ce-8b12e4955eab)
+
+## Multiplexing and Demultiplexing
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb99554a-a155-4044-a0ef-eeeee2ffe2cf)
+
+* When we have a **host** then we will have a lot of applications running.
+* The process of many processes sending the data through the same channel is called as **multiplexing**.
+* The **reverse** of it is called as **demultiplexing**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/82a4a9ce-07f3-487f-92ef-d17d248865d6)
+
+* For **multiplexing** and **demultiplexing** we are using a concept called as **SPA(Service Point Addressing)**.
+* Every process will have a **unique number** inside the host that number is called as **SPA(Service Point Addressing)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ca616df1-5166-4a3f-99ef-6b2365ccc56c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/013a9200-6dff-44d0-99b0-f789755d0342)
+
+## Congestion Control
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/73cd6772-31d5-46e9-b37f-e1701895a118)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09f952d3-5e2b-4493-bc65-9c85c5fb272c)
+
+* What is the **best place** to stop the traffic? 
+
+> At the point of origin, which is the **sender's side**.
+
+* We will do something at the **sender's side** that is done by **TCP**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1089fd5-bf59-4459-9d00-a785609404d5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc810dde-98fc-415c-9423-6c8e273314b9)
+
+* How all layers work together.
+* **DLL and PL** are present inside the **NIC**.
+* Their main responsibility is taking care of the **LANs**.
+* The **NIC** will contain the **DLL** which knows how to communicate in the **token ring**.
+* **NL(Network Layer)** is present within the **OS**. It is a part of the **OS**.
+* **TL(Transportation layer)** is a part of the **OS**.
+* **AL(Application layer)** is developed by many vendors.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e9e7880-1b6b-4575-a41f-a61279767be6)
+
+* The **hop to hop** is taken care by the **DLL**.
+* **Host to Host** is taken care by the **NL**.
+* **End to End** is taken care by the **TL**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f9ef7c7-1106-4c3b-b6d1-bea3e1d4bd18)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b29d79d7-44ed-4d43-9cfd-473e66bfd70e)
+
+* As a **sender** we only have the **domain name**.
+* We need **IP address** to communicate.
+* We need **DNS** and with **DNS** we can get the **IP address** of **google.com** and communicate with it.
+* We need the **IP address** of **DNS** as well.
+* **ISP** is going to give us/provide us the **IP address** of the **DNS**.
+* **ISP** is going to give us/ provide us our own **IP address(IP1)**, a subnet mask(sm1) and the **IP address(IPd)** of the **DNS** server and the IP address of the **default gateway(IPde)** of the router that is connected to the network.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/807eb62a-5164-4a8b-a54f-029a0fb561f5)
+
+* We have out own **IP address(IP1)** and **IP address of Google(IPg)**. Now, we have **two cases**.
+
+1) When we are present in the **same network** as **Google**. We can **directly** send the message to **Google**.
+2) When are in **different networks**. We have to send the message to the **router**. We cannot **directly** send the message.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/11098296-adb2-4d0a-9b85-9fec5c48148e)
+
+* Router -> Default Gateway 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37ff65b3-3b26-4908-b538-6bdffe751c00)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/94d5a231-0287-4a4c-9d81-e5fbb1ce6456)
+
+* If they are **same/equal** then they are in the **same network**. So, we can **directly** send the message.
+* If they are not **same/equal** then they are not in the **same network**. So, we have to send the message to the **router**..
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c527e16-9eb0-4557-b584-5972a0a42716)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d2661512-d67b-4445-b9c5-ee46ad64bd2f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6efc1ca6-c81b-427f-adb1-a191d0d124b9)
+
+* We should send the message to the **gateway/router**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/52a3f282-747b-4beb-9a62-3152e18bd340)
+
+* The **message(data)** at the **application layer** is given to the **transport layer**. In a host, there can be many **no. of processes**. Whenever a **message(data)** comes we  have to deliver it to **one of them(processes)**. For that, we are going to use something called as the **port number** to identify the process.
+
+* Port Number -> It is a **unique number** which is generated and every server is going to have a **fixed** number for it(port number).
+* We are not going to use **process ID(PID)** because **PID** is being used by the **OS**. It is **randomly** generated and it is not **fixed**.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
