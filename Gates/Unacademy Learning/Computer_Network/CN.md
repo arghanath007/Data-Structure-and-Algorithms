@@ -5998,7 +5998,92 @@ which is **/13**.
 
 > Using **MAC addresses**. 
 
-* **DLL** layer is dealing with **MAC addresses**. 
+* **DLL** layer is dealing with **MAC addresses**. **DLL** is responsible for **Hop to Hop** communications.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c68561a-0009-4896-a0e0-5a365bdf90b7)
+
+* How is the **destination port** known?
+
+> If the **destination port** is not well known then before the communication, we have to use some method by which we can know the **destination port** otherwise we will not be able to **connect with it**.
+
+* How is the **destination IP address** known?
+
+> In most of the cases, **destination IP address** will be known through **DNS**.
+
+* How are we gonna get the IP address of the router?
+
+> It is **ARP**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b125126f-e8df-48e7-8924-e4113072e963)
+
+* **Router/gateway** is the **boundary to a network**.
+* In most of the cases, network is connected to **one router**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e825efd-e193-4e53-a96b-3cee3e5c84a5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c5f9cc5-f3cf-4389-b5ed-b83d2aedb6c0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/15e1fe01-79b7-436a-80f1-405d3bbb8784)
+
+* **Reliability** is there.
+* Load Balancer(LB)
+* If we have **two gateways** then we are going to choose **one gateway** as the ***default gateway**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a4ee088-c0ce-470f-a618-a10a29655b66)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/276b5ed2-ffed-4e65-92d6-7ad1afa33b6b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f9586bd4-1a70-4315-9da7-79e248e62f15)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9afe1c38-cebe-4c02-bf39-7f2b579bb3a8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf52c15e-9645-484c-bcf2-11a9dfca32d6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/78ec5fe7-f00b-4e02-8831-4c915ad02c3d)
+
+* How many times the packet has touched the **transort layer(TL)**?
+
+> **2 times**.
+
+* How many times the packet has touched the **network layer(NL)**?
+
+> **4** times.
+
+* How many times the packet has touched the **DLL**?
+
+> **6 times**.
+
+* How many times the packet has touched the **Physical layer(PL)**?
+
+> **6 times**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0a3531b-df37-47cf-b562-686dedcae2f1)
+
+* What should be the **IP addresses** there in the drawing?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3b9605bf-18b8-4e48-a5ca-7d61ba373312)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2c6eebb-9d2a-4256-a424-6b34b0b9890c)
+
+> We will consider the **two IP addresses** to be in **one network** and we will create an ISP and that **one network** is given **2 IP addresses**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8661e921-de39-4cdc-a3d6-abde2ea681d7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37047ee6-e629-4579-9efc-4458177696b1)
+
+* For a network to have **2 hosts**, we need **4 IP addresses** as **2 are for hosts**, 1 is for **network ID(NID)** and 1 is for **broadcast(BC)**. We have **/30** for the **Host ID**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/342eccce-5ca8-45bc-8f83-65a2bba1cb7d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57272d61-2671-4d73-a390-11c82306777d)
+
+* We have **3 networks** in total.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95f39add-b437-4697-b27b-86eb3af54574)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d32d74be-ef2e-4d93-b342-ed2a29d144e4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c1ddfe0-0c5c-4683-a7ed-50419176f11d)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
