@@ -5775,16 +5775,66 @@ which is **/13**.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d08f463-0a64-466d-8053-3ccbcff5deb2)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/226d2102-1b3d-43ce-a830-346e27f3ebc7)
 
+* The packet is called as **Frame** in **DLL**.
+* The packet is called as **1 MTU** in **Physical layer**. [MTU -> Max. Transmittable Unit]
+* The **common name/generic name** is given which is the **packet**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e88cdb3-8bda-4625-aca5-4b44428e6c39)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/40f357e7-d552-49fc-80ab-5648bcc4cf6c)
 
+* How will the **sender** know the destination's code number?
 
+> All the well known services run on a fixed number on which they run.
 
+* Web Server(WS) runs on **80**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76a76eef-be6f-4054-bf1d-84d5a34b48cf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a91f99c8-6cbc-4f1a-bafc-05556ecb7f72)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b3e6f848-4165-4816-8ae0-59aa516ccd9c)
 
+* The most important thing is the **source and destination** IP address.
+* Source IP address is my **IP address**. We are going to know it through the **ISP**.
+* In the **destination IP address**, we have to put the **IP address of Google(Tg)**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/40a74350-22f7-45cd-a600-a4f5b9168516)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c8aa331-82ca-437c-82b1-0e8c718890f3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/45e44bed-33a8-4363-a2c9-7f6cbde15676)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ffcf3df2-9103-4489-8b5b-ba2f10965aee)
 
+* The **data gram** will be given to **datalink layer(DLL)**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a82fef03-c26e-4934-b04b-a2a152ab7e21)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/73e9d824-a233-4bee-8f06-f036ab1cef00)
 
+* We have only **IP address** of the **router**. We don't have the **MAC address(mr)** of the router.
+* How are we going to get the **MAC address(mr)** of the router, given that only **IP address** of the router is known?
+
+> We are going to use **ARP**. It is a **Address Resolution Protocol(ARP)** which actually takes the **IP address** and gives us the **mac address**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4efffb8-afaf-4035-ab45-6ac6f75f4b15)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd2b2b4f-1fcd-40dc-b1f5-f5df0a8b7321)
+
+* **ARP request** is **broadcast(BC)** when **ARP** wants to ask, we will **broadcast** it to everyone.
+* **ARP reply** is **unicast(UC)** which means **whoever satist** is will **directly** come to me.
+* Only the **router(IPr)** will reply to who that has asked in a **unicast packet**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed75a401-2a8d-4098-b29c-c3dafaa1249c)
+
+* We are using the **IP address** of the **destination**, we are never using the **IP address** of the router. Why is **ISP** giving me **IP address** of the router and not **MAC address of router** directly?
+
+> Even though **MAC is permanent**, **NIC** actually wears out very fast as they take a lot of packets every second. We have to replace the **NIC**. 
+
+* If we **replace** the **NIC** then the **MAC address** is also gone.
+* That's why in this case, **IP address** is **permanent**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a20336d6-e6fc-4731-8704-c59245e55a34)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/717ab126-04bb-47a5-95b7-b31c5436bab1)
+
+* **MAC is permanent** but **IP address** is not permanent.
+* In case of **routers**, **IP address** is **permanent** and **MAC is not permanent**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/07b99e46-48f5-40e8-af2d-4dedb838c3df)
+![Uploading image.png…]()
 
 
 
