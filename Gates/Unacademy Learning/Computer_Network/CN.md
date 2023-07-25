@@ -5755,6 +5755,26 @@ which is **/13**.
 
 * Port Number -> It is a **unique number** which is generated and every server is going to have a **fixed** number for it(port number).
 * We are not going to use **process ID(PID)** because **PID** is being used by the **OS**. It is **randomly** generated and it is not **fixed**.
+* **Port Number** is **fixed** for **most servers**.
+* Every procss is going to have a **port number**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/de5d64ae-14a0-47af-b131-dc7d18167ee5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f3294699-e8d7-49ee-8469-a484004fc46a)
+
+* Now the **packet** at the **transport layer** is given to the **network layer(NL)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f8cf879b-d605-4921-9320-469ccd88b54d)
+
+* At the **application layer**, we call it the **message**.
+* To the **message**, **transport layer** is going to **add**, many things. Out of all the things, the most important thing is the **port numbers**.
+* It(Message + port numbers) is called as the **segment** at the **transport layer**.
+* The **packet** at the **transport layer** is called as the **segment**.
+* To the **segment**, **network layer** is going to **add** many things. Out of all the things, the most important thing are the **IP addresses**.
+* The **packet** at the **network layer** is called as the **data gram**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d08f463-0a64-466d-8053-3ccbcff5deb2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/226d2102-1b3d-43ce-a830-346e27f3ebc7)
+
 
 
 
