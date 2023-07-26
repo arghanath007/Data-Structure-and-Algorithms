@@ -6202,7 +6202,52 @@ which is **/13**.
 * There are **3 networks** in the **above arrangement**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dcbc80c9-5e2c-448f-8abd-5c124064ebef)
-![Uploading image.png…]()
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/997e5b0d-d23a-45dc-a822-92ce6c2e475f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6850c76f-c55d-4f41-a2be-44de9a4e8b6e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bab762cf-ebb9-4364-b9d5-087caf5fc0f4)
+
+* The router will know the **MAC address** of the destination using the **ARP** broadcasting.
+* **ARP** is a mapping which takes **IP** as an **input** and gives **MAC address** as **output**.
+* **ARP** can work **only within one network**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5836b884-2b6a-432c-b5ae-4e73f910c3a6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6cc894e7-be7e-44d3-aeb5-ee83a0035566)
+
+* **ARP** can only be used only when the **destination IP** is actually in the **same network**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e7ddea6-8b07-4056-8d39-47e0dfcde14c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a2f4534-e477-4132-9cda-1b9e3575a0b3)
+
+* The packets will be **lost**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/21e5e3fc-813d-42c7-b42e-e97eb804f40e)
+
+* The **router** is present in all of the **networks**.
+* The **no. of IP addresses** the router will have is **equal** to the **no. of interfaces**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95570f53-17f1-41b5-9bd9-90a0d5720c0c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c03033d-b8ca-45f7-b0bb-9f11ce463e15)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d52ea492-72e8-44cf-89ef-9ab2ad12dde3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e64695a-ba94-4746-8a8c-688d98adc54e)
+
+## Functions of Session Layer
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76662c23-4b85-433a-9394-dcca698c0a01)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/08d9114c-5a5e-4d97-ae02-4ff974e6d5ac)
+
+* Not so **important**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b171cd1-eb5f-4841-83f3-95442d80e1cc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/634fbaae-5d18-4ccc-b6a4-45d49daa570a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d258ceb6-b613-46d5-b8ee-d88d9ecee3ea)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c6e61102-1b5a-4820-bdce-0b026be65568)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c3cd735-f48e-44ab-becd-98728e07f9d1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb3c942e-1543-489a-a768-57951bdda0c8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/edcc71e7-d0b5-4432-a719-94d49dec2d6e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e6fac815-b82f-4b1e-9a10-b4c10951056a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/38de75e4-b68c-4c10-8a2b-aa2f918a2d35)
+
+
 
 
 
