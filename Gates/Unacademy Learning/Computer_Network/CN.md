@@ -6247,6 +6247,55 @@ which is **/13**.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e6fac815-b82f-4b1e-9a10-b4c10951056a)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/38de75e4-b68c-4c10-8a2b-aa2f918a2d35)
 
+## congestion-congestion-control-tcp-timers-and-doubt-clearing-session (41) [26th July 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e46a9365-88f6-4cd8-b3c1-a54bf19fdca6)
+
+## Functions of Presentation Layer
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/96f44f32-9e58-423e-b548-3a6c27d17ebd)
+
+* Application Layer(AL)
+* Presentation Layer(PL)
+* Session Layer(SL)
+* Transport layer(TL)
+* Network Layer(NL)
+* DLL layer
+* Physical Layer(PL)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/39eb35b2-ef6f-4092-a1d6-de3bfa688311)
+
+* We are removing the **Presentation Layer(PL) and Session Layer(SL)** and we are using the **rest of the layers**.
+* It is called as the **TCP/IP** model.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b6192fd9-6b2f-4279-a1f1-3255dd7347d9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c6e2cc9e-5228-415a-9da8-d80f23ca4f75)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea290355-b276-4a40-b21a-bae0caa2dec5)
+
+* Data Translation
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6601d0a2-6abd-42f7-942b-4a63f3beb5dd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/78622d11-7649-4a32-9915-93f4f2ca9fd9)
+
+* We take some encoding and **convert** it into some **other encoding**. **Convertion** is done by the **presentation layer**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e48c2d7-3c3f-4b51-be74-fc87e41cd987)
+
+* Encryption and Decryption.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92ac76a4-ecaa-4b62-ba36-11a6556b14e7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee8506e7-9e88-4e97-8f16-3eb89a61dd26)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f662025f-62f9-48f6-924d-f0c173255c7e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5abab4ca-80f6-4eee-841a-88eaa3df599c)
+
+* Data Compression
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2e41568f-a6c4-4c54-8c2e-b2ccd4b596d9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d406bdad-0e86-41c8-b005-0157e7a587f3)
+
+## Ethernet
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d7f461a2-1872-4612-a27d-fbe629ea463a)
 
 
 
