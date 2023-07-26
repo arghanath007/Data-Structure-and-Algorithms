@@ -10150,7 +10150,12 @@ b5da-42ddc3936df0)
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba207d67-36a0-428c-9721-aa6d4b1d40fd)
 
+### Doubt
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31814719-00be-438b-9125-b1eab08dbb2a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b27614f0-61d3-4ba7-8b3b-ef66f13f08b4)
+
+* Option **D**.
 
 
 
