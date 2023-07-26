@@ -6073,6 +6073,117 @@ which is **/13**.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d32d74be-ef2e-4d93-b342-ed2a29d144e4)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c1ddfe0-0c5c-4683-a7ed-50419176f11d)
 
+## bootp-dhcp-and-icmp(39) [26th July 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2587603-1f82-4f36-9fef-6672a7236f44)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/96c15274-961b-4ae4-99fb-c98dcf1f73e3)
+
+* How we will know the **destination port number**?
+
+> It is a **well known** number. Most of the port numbers are well known.
+
+* What is the port number for **HTTP, SMTP, DNS and POP**?
+
+> We will learn about it **later**.
+
+* How we will know the **destination IP address**?
+
+> It is known by **DNS**.
+
+* How we will know the **DNS**?
+
+> Via **ISP**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9dfebe2c-81c7-40bf-a9e6-4980bcc03636)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1426247-91f8-46f2-92cf-89bfe8f57bb7)
+
+* How do we get the **MAC address**?
+
+> **ARP**. ARP shout
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12968234-02f8-428c-b4d9-a46b2e2423c3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/790c202f-a040-4127-a86b-782b8156373e)
+
+* We have to put the **destination's IP address** instead of the **router's IP address**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/84406c4e-c4d4-4b3b-a577-7511fef4f65e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ad04547-8263-4dee-915a-6da634c73d1e)
+
+* If my message has to go to google, we are supposed to put the **MAC address of Google(mg)**. Why are we putting the **MAC address** of the router, why can't we put the **MAC address of Google(mg)**?
+
+> If we are in a network, the network is bounded by a router. In-order to get the **MAC address** of any station, we will be sending a **broadcast message** to everyone. Only whose who are in the network can see the message. The broadcast can never escape/leave the **network boundary**. Every router will discard the broadcasted packets, if the broadcast is a limited broadcast.
+
+> We will never be able to get the **MAC address** of systems outside the network. Only within the network, if there is a **MAC address**, we are able to get it.
+
+* That's why we have to send the message to the router. That's why we are using the **MAC address of the router**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b1d7bea7-74a1-41d1-84d1-20869e3b1d0c)
+
+* All we need is the **MAC address of the router** and not the **IP address** then why is **ISP** giving us the **IP address of the router** and not the **MAC address of the router**. Why is ISP doing it?
+
+> It is because **IP address** is **permanent** and **MAC address** is **not permanent**. Whenever **hardware(NIC)** changes, the **MAC address** changes. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6385cc84-5c29-4a43-b509-3e24c68551b2)
+
+* In **routers**, **IP address** is **permanent** and **MAC address** is **not permanent(temporary)**.
+* Whenever we want to find out the **MAC address** of a system, let's say a **router**, we are going to do something as **ARP**.
+
+* Should be always send **ARP** message whenever we want **MAC address**?
+
+> **Yes**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/74f54232-4a00-4873-8fa2-4e0707a1ec3d)
+
+* Whenever we need to send a packet, everytime we need the **MAC address** of the **router**?
+
+> Store the **MAC address** in **cache memory**.
+
+* Once we get the **MAC address**, we are going to store the **MAC address** in a table called as the **ARP table**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d132736c-b488-4b0e-8200-4e7e45c86812)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a17726ef-d0a5-42b8-a113-70aee1b7c6b9)
+
+* There can be **multiple entries** as there can be multiple **MAC addresses** which we want to store.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/47f6421b-5c11-4715-923b-cae98ed7f142)
+
+* What happens during the **1hr** time that the **MAC address** change?
+
+> We will keep on sending the packets on the old **MAC address** and the packets will be **lost**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ad19dc0b-0d86-4221-9f1a-b7e0534f1ca6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44c6d888-02af-4f72-83f5-f0e0c9465d43)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e7e3d357-941e-44c5-b520-2e6d86719261)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9559a2cd-907a-4614-95d5-0b6b73f5a2c4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/10c1f0af-c4d3-4eac-9f78-78e4e2f79fc4)
+
+* **Router** is having **3 layers**, **network(NL), datalink(DLL) and physical layers(PL)**.
+* It will have **2 DLL and 2 PL** layers.
+* Based on the **left network**, it is going to have **one DLL and one physical** layer which is going to understand the **left network**.
+* Based on the **right network**, it is going to have **one DLL and one physical** layer which is going to understand the **right network**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a00d58f-30e9-40d0-8f00-3b78de3d264f)
+
+* How many times **DLL** is seen? 
+* How many times **PL** is seen? 
+* GATE Questions.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac7ba6a5-095e-4c01-8c90-1d12948de0fa)
+
+* What will the **router(R1)** do?
+
+> **Router(R1)** understands that it has to send the **packet** to **Ig, IP address of google**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d98e92a8-4d20-486c-a362-e579836c593a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c3530338-dcb0-42a3-8aca-9dd3efe7b745)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce3f4da8-c1c0-4d29-9a50-6466584f2da3)
+
+* Routing Table(RT)
+* Subnet Mask(sm)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c093b68b-e2c7-4b91-a748-a9320be5a4ce)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4330ad9c-9ca5-43f6-90b7-4aa0758c722e)
+
 
 
 
