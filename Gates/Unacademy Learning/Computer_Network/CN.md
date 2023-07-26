@@ -6185,6 +6185,31 @@ which is **/13**.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4330ad9c-9ca5-43f6-90b7-4aa0758c722e)
 
 
+## tcp-header-part-ii-and-retransmission-in-tcp (40) [26th July 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4101a9c2-e2ce-4dbe-8569-ea5f1a890d45)
+
+* How a **packet** moves from **source host** to **destination host**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a5ad5b5-f7c7-49ce-a3a5-a7c94c88a725)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/23ec4297-9626-4944-8c77-a9121efabc26)
+
+* **MAC addresses** comes with the **NIC**. Whenever we buy the **NICs**, the **MAC addresses** comes with it.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8223c9d5-031f-47af-bbc8-fe07ef4755dc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/561886e1-2544-4b13-963e-44421e52c684)
+
+* There are **3 networks** in the **above arrangement**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dcbc80c9-5e2c-448f-8abd-5c124064ebef)
+![Uploading image.png…]()
+
+
+
+
+
+
+
 
 
 
