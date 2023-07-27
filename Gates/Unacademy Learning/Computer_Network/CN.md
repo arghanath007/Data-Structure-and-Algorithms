@@ -6297,16 +6297,72 @@ which is **/13**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d7f461a2-1872-4612-a27d-fbe629ea463a)
 
-* 36mins 
+* Vampire Link -> We are plugging into the system just like a vampire would bite.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac0668ef-192b-495c-8182-d60580f0db67)
 
+* What is the topology?
 
+> According to the **IEEE 802.3** paper, it should be **bus topology**. But currently no one uses **bus topology**.
 
+* **Ethernet** is currently using **star topology**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7ca5a50-154c-4afb-a639-0f91dd0a5f8d)
 
+* If asked in **GATE** which topology used in **Ethernet**?
 
+> We should go for **bus topology**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f213309b-6c34-4901-8421-9cab363c0335)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32d6d4e4-c9a0-4cf0-8804-aa6e8ac0cb93)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec8ba281-498d-4d34-b954-a356929ead73)
 
+* Internally **switch** is like a **bus only**.
+* When talking about **ethernet** -> It is completely **wired**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a082b234-5940-4d18-a9d8-4f666d089d54)
+
+* **Ethernet** is using **full duplex** only.
+* Broadcast link -> When many stations are connected to a common link and a message is being transmitted, if it is seen by everyone then it is called as **broadcast link**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eeaa8f68-9064-46ee-a5f1-fc39ffdd0618)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d0d779b-a75e-4e3a-838a-cdc0b418f716)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e6c59c6-b99b-4b92-bfd5-4560c5d50ef2)
+
+* L -> Min. length of a packet.
+* L >= 2 * Tp * B
+* B or Bw -> Bandwidth.
+* When we talk about **Min. length of a packet(L)**, the **bandwidth(B)** is useful.
+* Depending on the **bandwidth(B)** and depending on the **length of the channel(Tp)**, we are going to see the **Min. length of a packet(L)**.
+* Depending on the **Min. length of a packet(L)**, we are going to talk/say about **padding**.
+* Padding -> Adding dummy data.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/336eddc2-20c2-4d31-b950-23932596f41a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a8281c6-e4bf-44e8-a82b-9e01b9ec91fa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f435d944-fdb6-4823-9987-81910a6dfaa4)
+
+* Frame Format.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b2f8e2ad-4e44-4e2b-8f94-af17087fc970)
+
+* Different **LANs** will have **different formats**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6eaa305e-e1b3-444a-a5bd-13a9becb16df)
+
+* Whatever we are going to encapsulate in the current layer is called as **payload**.
+* Payload -> Whatever in the current layer that has come from the previous/above/upper layer.
+* Physical layer(PL) only adds **SFD(Start Frame Delimiter)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a48e48c-8b34-42da-ba4d-70ffc81f3a03)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c4286656-6db3-435b-9e3e-fcb962ff0e0a)
+
+* Remember the **fields** present in the **frame**.
+* Remember the **sizes** of each **field** present in the **frame**. 
+
+* **TCP and IP header** formating is there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7dbf8505-e129-49f3-be0d-946c5644de67)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df3c6a90-bc01-48d2-9660-6c4c559fbebf)
 
 
 
