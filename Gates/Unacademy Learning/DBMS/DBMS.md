@@ -5152,8 +5152,12 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f271d67c-d3ff-49fb-bacc-b830d4351746)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a1f055b-deb8-4c31-8cde-425c426e647f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/53d8493a-4329-40db-9948-9fb5e1d46753)
 
-* When **checking for conflicts**, we should be checking the **below/bottom** statements than the **above** statements compared to the **current statement**.
+* There will be **no conflict** between **two read operations**, which is **Read to Read** operation.
+* **Conflict** will be between **Read to Write**, **Write to Read** and **Write to Write**. [**IMPORTANT**]
+
+* When **checking for conflicts**, we should be checking the **below/bottom** statements than the **above** statements compared to the **current statement**.  [**IMPORTANT**]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fdeb39be-320d-4f81-845b-93537fcb4c54)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cec40dfa-7e1b-4d82-a8c8-4fa2a4c62ca6)
