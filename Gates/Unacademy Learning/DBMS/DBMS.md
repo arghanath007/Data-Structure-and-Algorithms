@@ -13,6 +13,7 @@
 * Part- 3 -> https://unacademy.com/class/sql-pyq-discussion-part-3/9IHKNZVM
 * Part- 4 -> https://unacademy.com/class/sql-pyq-discussion-part-4/EAQ4FZLP
 * Part- 5 -> https://unacademy.com/class/sql-rdbms-pyq-discussion/HX1N8R7P
+* Part- 6 -> https://unacademy.com/class/rdbms-pyq-discussion-part-3/NA5SHPWS
 
 # SQL Link
 
@@ -5041,37 +5042,157 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/52cda366-a354-436f-8b42-34c4647a44b6)
 
+## transaction-concurrency-control-part-ii (23) [27th July 2023]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72ca1590-fbf8-4379-862b-07312f753aa3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ccc7537-f4d1-4635-86c8-7ce19ffc0b74)
 
+* Some transaction **directly** writes and does nothing else, nor reading or updating anything then it is called as **blind write**.
 
+## Good VS Bad schedule
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0ae47c7-a652-445f-a88b-25db8a9d4fa1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0c9414d-ba51-4733-b93a-79856678c7bf)
 
+* Good schedule -> Final result as expected.
+* Bad schedule -> Final result not as expected.
 
+## Serial VS Non-Serial Schedule
 
+* Serial -> Sequential System.
+* Serial -> First a whole transaction runs then another whole transaction runs. We are not talking about which transaction will run first. Anyone transaction's whole statements are completely run then another transaction's whole statements are completely run.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/77882efb-5eeb-438d-8d18-d1bf047b1f68)
 
+* Non-Serial Schedule -> Also called as **concurrent schedule**. 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea1486fb-1531-403e-ad52-0e11ca0d7615)
 
+* They run in **interleaving** manner. There is no manner/way in which the scheduler runs, anyone of the statements can be run at anytime. We got no idea how the statements are run.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/da78cfe3-4293-4cd3-b54f-70216ac1d5b2)
 
+## Serializable Schedule
 
+* It is a schedule which is **concurrent** but it's final result comes in the way of **serial schedule**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f7e49ef-bf26-4d8f-9c63-bba5b02a5df4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44be51e1-3dac-41a9-ad33-8831d1d26946)
 
+* A concurrent schedule which can provide final output as a serial schedule.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24ec8800-f183-4629-b058-8dc6ce920f2a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/82cdeb8c-035a-4360-8b64-268d8a3e2742)
 
+* Serial Schedule, **rune T1 then T2**.
+* We are getting the **same output** as a **serial schedule**. So, it is working like a **serial schedule**.
+* Serial Schedule, **rune T2 then T1**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30fef9aa-c29d-4b2b-9f01-d5afdb55cfae)
 
+* So, it is a **serializable schedule**.
+* X= 5/10/20
+* Y= 5/15
+* Cocurrent schedule -> X=20, Y=15.
 
+* X= 5/10/20
+* Y= 5/15
 
+* Serial Schedule, T1 then T2 -> X=20, Y=15.
 
+* X= 5/10/15
+* Y= 5/15
 
+* Serial Schedule, T2 then T1 -> X=15, Y=15.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b0d7702-5653-4551-bce1-2415840298cd)
 
+* Question.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98cf1c92-bc03-468c-bb57-bd9663b9ad6d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b646caa-da52-4dd8-b6ee-e3b5d2bedd6e)
 
+* T1 then T2
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2cf1204f-0779-4a19-b4ec-089eef80ddf3)
 
+* T2 then T1
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df3222bc-4b33-45e2-89e7-41d949c8bc83)
+
+* It is **serializable schedule**.
+* As the **concurrent schedule's output** is matching with **one of the serial schedule** outputs which is **T1 then T2**. That's why we can say that the **above** is a **serializable schedule**.
+
+* If it(concurrent schedule) matches with **anyone of the serial schedule output** then it is a **serializable schedule**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c2791eb-1865-4184-ab0f-d56f820484ee)
+
+* Serializability -> Method to prove that a **concurrent schedule** is **serializable**.
+
+* **Types**:-
+
+1) Conflict Serializability
+2) View Serializability
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0760205-cf46-4e1f-adf5-d6169b116785)
+
+## Conflict Serializability
+
+* Find conflicts and then based on it prove that a given schedule is conflict serializable or not.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ce471c1-3cc4-40ff-be3b-e6f22dfe8c69)
+
+### Conflict
+
+* Two(2) database access statements are conflict statements if and only if all of the following conditions are satisfied.
+
+1) Both statements should be in **2 different transactions**.
+2) Both statements should access same data item.
+3) One of them should be a **write operation**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f271d67c-d3ff-49fb-bacc-b830d4351746)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a1f055b-deb8-4c31-8cde-425c426e647f)
+
+* When **checking for conflicts**, we should be checking the **below/bottom** statements than the **above** statements compared to the **current statement**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fdeb39be-320d-4f81-845b-93537fcb4c54)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cec40dfa-7e1b-4d82-a8c8-4fa2a4c62ca6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/264cfabb-46d5-4bff-b8ba-57f0938f83fb)
+
+* 2 conflicts we got.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8777db71-5bb1-4d31-b3ee-ded82cd7df32)
+
+* 2 conflicts we got.
+* R(X) -> W(X)
+* R(Z) -> W(Z)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a45ce0b0-d05b-453c-906e-7e2e01c82c4c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8da619db-9b86-43b2-80be-0eaae5c8c132)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d777812d-bf27-4f5f-82c7-fcd6b478b50b)
+
+## Conflict Equivalent Schedules
+
+* **Different schedules** where we have **same type of conflicts** on the same data items, same sequence.
+* **Two schedules** having **same conflicts** in the same order. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7996649e-24c1-495a-95fb-f6b8fdde4b4e)
+
+* **S1 and S2** are **Conflict Equivalent Schedules**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ddf25749-01e6-4015-ac03-747d4c1d3700)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f642104-3f40-40f3-beb3-6cab9573014b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83041ea2-3c93-41cb-84a3-63f3b7983844)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b08c685d-d736-4e98-88b4-e86b59ff0364)
+
+* Not **Conflict Equivalent schedules**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2713486d-4a7f-4891-98b3-8c3e2975b447)
+
+## Conflict Serializability
 
 
 
