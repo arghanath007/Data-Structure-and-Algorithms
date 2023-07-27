@@ -6511,6 +6511,110 @@ which is **/13**.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b47ca71d-28ad-43ff-ba7f-7c0e49d1eca1)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/60b5124c-a4da-461e-a057-c5abc66a87ef)
 
+## types-of-routing-dvr-and-doubt-clearing-session (43) [27th July 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c8a59bc-b1ad-4453-8df6-db47fae3a067)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1394dcd0-2b88-4669-b1e4-fd0b3e5ac1d3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f24f7a96-f40d-40c4-a531-7dce855663b8)
+
+* They will give the entire packet in **Hexa-decimal**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aee24243-4ee3-4aca-b79b-54159a0296df)
+
+* With **2 bytes**, **16 bits** are possible.
+* We can represent **2 ^ 16** as the **length of the packet**.
+* The **length field** is talking about the **length of the data only** and not the **entire length of the frame**.
+* It is because all of the other fields are fixed.
+* Only thing that changes is the **Data field**.
+* When the **data size is fixed** then we don't have to say the **length of the data**.
+* When the **data size is variable** then that is the **problem**.
+* We can fix the **data of variable length** by **length field and efd(end of the field delimiter)**.
+* **Ethernet** is following the approach of **length field**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/557ea1a8-a07a-4ed5-9bc7-e4cdadab6dbb)
+
+* The **max number** that can be represented in **2 ^ 16** is **(2 ^ 16) -1 -> 65535**.
+* Monopolization.
+* There is a **max limit** on how much data we can send in **ethernet** which is **1500 bytes**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9230bc37-f5d4-4101-871e-2d8b25ef534a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/61b1834d-288f-4387-9b40-bb14ebc339cc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bad06a8e-660f-4f2c-abcb-765fd0c31c65)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/612fa641-3a4e-42f7-aeb4-30280a9fb6eb)
+
+* In **CSMA/CD**, the **length of entire frame**, should be atleast **greater than equal** too, **L >= 2 * Tp * Bw**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e4e1010-2384-493d-a55b-97574d266da2)
+
+* The **frame** has to be **64 bytes**. Therefore, the **min. length** of a **frame** should be **atleast 64 bytes**.
+* L_min >= 64 bytes.
+* The **min. frame length** is **64 bytes**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6288a7fb-1af8-45ee-88f3-644067f5f2f8)
+
+* What is the **data required**, entire frame length is **64 bytes**?
+
+> **64 - (6 + 6 + 2 + 4) -> 64 - 18 -> 46 bytes**.
+
+* **Min. length of the data** is **46 bytes**.
+* **Max. length of the data** is **1500 bytes**.
+
+* **Min. length of the frame** is **46 bytes**.
+* **Max. length of the frame** is **1518 bytes**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6407d939-e64e-4e1d-8eea-18cfc7178007)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fec7bd93-a0d0-4f88-af2b-d824cf70813c)
+
+* If **preamble** is also included when we will **add 8 more bytes** on each side.
+
+* **Min. length of the data** is **46 bytes**.
+* **Max. length of the data** is **1500 bytes**.
+
+* **Min. length of the frame** is **46 bytes + 8bytes**.
+* **Max. length of the frame** is **1518 bytes + 8bytes**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f049975-7fbe-4a31-bbdf-a62485c1fc58)
+
+* Data and Frame **min to max** range.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ccbdef4-89a5-46d6-98c0-dd610d0c1cc9)
+
+* In **standard ethernet** the **size of the frame** is **64 bytes**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0281a9bf-3470-4307-96c5-d8e1192bcd7f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bfdbfc12-c935-4a92-894a-7ce8f77c421b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c4ffb514-ec67-410d-8b93-a9fd0f6aa0fc)
+
+* **CRC** also sometimes called as **FCS(Frame Check Sequence)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f1093598-3874-4992-9e27-8d272a509b97)
+
+* **CRC** is part of the **tail** because **CRC** is computed while the data is being **transmitted**.
+* The **hardware** is going to **compute CRC**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8fafa1e-e8d3-48f7-a23a-db1ed405aef2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/00d8c0f4-80b4-43e8-9abe-505362a66233)
+
+* Advantages of **Ethernet**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8cf6442a-3cf8-434a-8cb9-cce60ad15eb8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab24d435-9fe1-4309-84c8-bac9b62008d2)
+
+* Limitations of **Ethernet**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/930e2589-d196-495e-ae77-262fc3772bd2)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
