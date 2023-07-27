@@ -6604,14 +6604,87 @@ which is **/13**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/930e2589-d196-495e-ae77-262fc3772bd2)
 
+## count-to-infinity-and-split-horizon (44) [27th July 2023]
 
+## Switching
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/085fd2a7-757f-47c8-8e01-c9009b1696d7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e969b9af-c5ee-454b-8c8e-e51e0b45b68a)
 
+* Whenever a packet is sent to a **switch**, a **switch** has to decide and send the packet to one of the outgoing lines. Taking a packet from one side and putting it on the **other side** on one of the outgoing lines. This is called as **switching**. 
+* Out of all the **outgoing lines** which line is the **best one** in order to decide it, the process is called as **routing**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2655aaf7-b193-4816-ac82-56fbe361afd4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a032e988-1eda-4a7a-9bca-a85be29fd31c)
 
+* **Routing** is **optional**, it is not required.
+* Even without routing also, we can send a packet and the packet will reach the destination.
+* The process is called as **flooding**. 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1309afb0-d666-4135-b28b-6c0da6611579)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f20b9640-2030-49e1-9629-617121fbd60f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dde22519-79e3-4f2c-91c1-2b69fb861a0c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/118b4637-3ae1-4164-b603-a2a32c5abb8c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f42301c5-9386-4932-b77b-850660ca9820)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a7bff66e-72ca-4195-8a5f-a5b6d114068a)
 
+## Circuit Switching
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/02d5549a-5b1b-4717-b4e4-4b5010fa34d7)
+
+* Set Up time.
+* **Circuit switching** is done in **physical layer(PL)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3b489245-a002-4eda-baa3-4be83c6c8063)
+
+* There are **H** no. of hops.
+* The length of the message is **m**.
+* The bandwidth is **B**.
+* The **distance** of  a **hop** is **d**.
+* The **velocity** is **V**.
+
+* In order to send the message from **point 'A'** to point **B**, what is the total time required?
+
+> **Total Time** -> Setup Time + (m/B) + ((H * d)/V) + Teardown Time [**IMPORTANT**]
+
+* (m/B) -> Tt
+* ((H * d)/V) -> Tp
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50e849ca-cd79-4e24-b078-ed54d1cb58a0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ca7ac4d-dcb0-4598-8150-76497a832b08)
+
+* What is the disadvantage in **circuit switching**?
+
+> **Setup time**
+
+* This is **circuit switching** is no longer used.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e8583f0-f565-4914-a124-69b317e85d91)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f24ad0cb-19f3-45d5-83fd-922c1501562a)
+
+* Phases involded in **circuit switching**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bdd48282-83d2-4042-9a0c-ea3cda56b6cf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6f39573-62ad-4844-9f10-ddba13c75289)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d12472b3-aa95-4051-bf2e-ebfd096774be)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/132b3184-54b4-4c22-9626-e7b0b66d85b7)
+
+* **Disconnecting** the circuit is **less costly(teardown time)** than connecting the circuit(setup time).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3becf615-d1a3-4533-9487-5bef95bb84a9)
+
+* Formula
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6580edb6-f7f6-40db-afb3-76ffc131573f)
+
+* Advantages and disadvantages.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2bafe3cb-8b18-4139-a643-9d407c910108)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f3a7f351-227a-4dbe-96a1-f17d441772a6)
+
+## Packet Switching
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/270d8143-1759-48c7-b1c8-3b0a0fd0ede6)
 
 
 
