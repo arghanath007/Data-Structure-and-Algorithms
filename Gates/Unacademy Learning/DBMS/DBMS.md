@@ -5194,12 +5194,74 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 
 ## Conflict Serializability
 
+* Given schedule 'S' is conflict serializable if it is conflict equivalent to  S' .
+* Where S' is a **serial schedule**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a47b5b1-8028-489d-8e69-7182d6a9078f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f1587f88-486e-499d-a1a1-70cdfbbd8212)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a947071-0b2d-4ce3-b6a7-060b0a95f4c6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c2c14f3-14b3-48ca-98d3-256006ff229a)
 
+* Conflicts.
+* Precedence Graph -> Directed Graph.
+* Vertices/nodes -> Transactions
+* Edges -> Conflicts.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a140167d-831c-44cd-bba3-dc215b7ba60c)
 
+* After drawing the **graph**, check if it has **cycles** or not.
+* Cycle -> Started from an edge and followed vertices and was able to return to the starting edge. Then it is a **cycle**.
+* If **cycle** present in graph -> Not cconlict serializable
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d7e411b-94f6-46e7-99e3-4fd49a173ff8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1879b915-1f6b-4370-86be-1709fa929bb9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/68f803c1-d1e3-4390-9dc0-cc954eb05362)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37d7141d-94aa-4dea-a700-1319f915b7d8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/53f6492f-0bf3-4626-8ebd-b21c5d46d408)
 
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6fa71fdd-81f0-41e7-97cd-3b4dbaf2d3fb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ef16b10-3669-4515-b34e-554908dd355c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/564462f1-4ad5-4735-b299-34804a46bf6e)
+
+* As it is **conflict serializable**, we have to tell the **sequence** also.
+* Sequence -> T1 -> T3 -> T2.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a4ac1d03-4d43-4527-a477-40cfc12e5a04)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe79d274-3b06-45ba-8fa2-45a71e1ce83b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6f75b15-22c6-4bc0-a308-61efe239713a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4c7b89c-17cd-49dc-8f8c-e0918b23a99f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e941233-f0cb-4dde-aa8f-5347a47f04a6)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b8cf1b2-dd1d-4bd4-9349-267250b44a5f)
+
+* R/W -> Read/ Write
+* Number -> Transaction Number
+* A, B, C -> Data Item
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dda7fb69-53bf-4644-b124-0ac6bb9abee6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b764bd9-7507-4e76-8090-f2e295197740)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d37bc5c6-f508-49dc-b8e5-8819086cd72c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/08a9aff4-0899-4dde-96cf-9e2d2280ecd5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/815aa2d7-3952-43e1-b234-a3e1b1609cbf)
+
+* Wherever **commit** comes after that we don't have to check.
+* No checking after commit for **conflict**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c76fd755-0023-4422-a1e7-96154a0bd112)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1405bdd4-53b2-4704-a0fb-15660c2cfabc)
+
+* No Cycle, so conflict serializable.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/25d8e2d3-4458-4344-ba99-8a102011aeb0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/82931b72-c86b-4f7f-8a7d-c97e7d7f3ad7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/53d8493a-4329-40db-9948-9fb5e1d46753)
+
+* There will be **no conflict** between **two read operations**, which is **Read to Read** operation.
+* **Conflict** will be between **Read to Write**, **Write to Read** and **Write to Write**.
 
 
 
