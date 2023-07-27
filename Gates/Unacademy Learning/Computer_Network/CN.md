@@ -6413,18 +6413,103 @@ which is **/13**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/61301f9e-6eae-4bb8-8790-f2aa68655ae0)
 
-* How do we know the **MAC address** of the **destination address**?
+* How do we know the **MAC address** of the **destination**?
 
 > Using **ARP**.
 
+* How do we know the **MAC address** of the **source**?
 
+> Present on **NIC**. 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/594198d3-f8c8-475c-8626-44339782c169)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/21b3e272-e3d3-4381-a962-732262e605ee)
 
+* Types of **MAC addresses**.
+* Dotted Decimal Representation -> IP addresses.
+* Hexa Decimal Representation -> MAC addresses.
+* **:** is used to separate those numbers.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9636e3ae-246d-4e64-887f-28a36583066f)
 
+* **6 Bytes** in total
+* 1A -> 8 bits -> 00011010.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3dc04730-f328-497b-80b2-38713ffe755a)
 
+* The **most important** thing in the **MAC address** is the **first byte**.
+* If the **Least Significant Bit(LSB)** of the **first byte** is **zero(0)** then it represents something called as **unicast address**.
+* **Unicast address** is **1 to 1**.
+* If we have **one(1)** in the **Least Significant Bit(LSB)** then we cannot assign it to a **station**.
 
+* Question, which of the following **MAC address** can be assigned to a station?
+* If the **Least Significant Bit(LSB)** of the **first byte** is **one(1)** then it represents something called as **multicast address**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76e8e435-f49b-4931-942f-d4a7a6b17498)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/709816b3-2d6c-4210-a96b-01135053815d)
+
+* **All 1's** or **FF:FF:FF:FF:FF**. Which this address of **all 1's** in the **MAC addres** is called as **broadcast address**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66d5a42a-cec2-4000-b8ce-becb67529694)
+
+* Only within a network **broadcast** happens.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/77921e97-8358-4a33-82e5-037825eef3ae)
+
+* **B, D and F** are put in a **group**. They still have their **individual MAC addresses** which are **unicast addresses**. For the **entire group**, we will give **one IP address** and that **IP address** will be a **multicast** IP address.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c04edaff-1719-4c8c-aa63-433bed7161fe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f05be931-5949-4aa1-9046-f5b1119d8ba7)
+
+* Multicasting -> If we have to send a message to **multiple people** and they are in **different-different network**, then we will combine **A, B, C and D** into something called as a **group** and we will give it a **class D** IP address which we have to **buy**. [NOT in SYLLABUS]
+
+* If we are within **one network** and we are trying to create **one group** then we may not need support from **IP address**, we can do it with the **DLL** layer also. At the **DLL** layer we will combine the machines/hosts and we are going to give them something called as **group ID** and it is nothing but a **MAC address** here. The **MAC address** is a **multicast mac address**.
+
+* Whenever the **LSB** in the **first byte** is a **one(1)**, we can say that the **MAC address** is a **multicast address**.
+* We can randomly create a **multicast address**, we don't have to **buy it**.
+* We have to **configure the NICs of B, D and F** and make them believe that the **MAC address** of the **group** belongs to them as well along with their **individual MAC addresses**.
+
+ ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef9c64b9-80b8-4309-8280-766589681659)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9532196b-c81e-44da-b4e8-422923d3e85e)
+
+* **Group ID** is **MAC address** here.
+* Don't have **group IDs** which are the **same**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/051a20dd-d6e9-4550-932c-d3b45a21a813)
+
+* **Broadcast address** is also a **multicast address**.
+* **multicast address** -> FF:FF:FF
+* The **LSB** of the **first byte** is **1**. So it is a **multicast address**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66252aaf-f4ca-4370-9955-cb8f1a547619)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/620cef84-8c2f-4af7-875b-acdee3193a35)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6075379-b5b7-486e-9ade-c0052712065c)
+
+* Which of the **MAC addresses** can be assigned to the **machine(C)**?
+
+> We have to check which **MAC addresses** are **unicast addresses**. Which is **0** in the **LSB** of the **first byte**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/753f6295-a60a-41fc-b6e8-5ac69d912294)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/40d5673c-a0b7-4f68-a4ac-ae8742dcef50)
+
+* Which of the following frames are valid?
+
+> The **source address(SA)** should always has **unicast address**. A packet will come from **one station** and not from **multiple stations**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b6a87773-b8f1-47f3-bb7e-2bdc21bbb037)
+
+* **unicast address** -> Which is **0** in the **LSB** of the **first byte**
+* The **destination field(DA)** can either have **unicast address(UC)** or it can even have **broadcast address(BC)** or it can even have **multicast address(mc)**.
+
+* **Destination field(DA)** is **unicast** -> Sending the packet to **one destination**.
+* **Destination field(DA)** is **broadcast** -> Sending the packet to **all the machines**.
+* **Destination field(DA)** is **multicast** -> Sending the packet to **a group**.
+
+* **Source Address(SA)** can only be **unicast** address. A packet will always originate from a **single host**.
+* Both **Destination address(DA)** and **Source Address(SA)** are of **6 bytes**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b47ca71d-28ad-43ff-ba7f-7c0e49d1eca1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/60b5124c-a4da-461e-a057-c5abc66a87ef)
 
 
 
