@@ -6364,6 +6364,65 @@ which is **/13**.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7dbf8505-e129-49f3-be0d-946c5644de67)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df3c6a90-bc01-48d2-9660-6c4c559fbebf)
 
+## traceroute-pmtdu-routing-and-flooding(42) [27th July 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8232f563-942a-4135-9ed8-1791887533fd)
+
+* Only **LAN** in syllabus.
+* **LAN** is **bus topology** for **GATE EXAM**.
+* **LAN** is **star topology** for **interview EXAM**.
+* Ethernet uses a **broadcast** channel.
+* For **encoding** in **ethernet** we are going to use a technique called as **manchester encoding**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8b4fa33-ea76-4f06-a1df-4c7d28e79182)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/023584f7-b7ad-4915-b6cc-842f3eaf17a7)
+
+* **Ethernet** operates the **DLL** layer.
+* A packet in the **DLL** layer is called as the **frame**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/afa2f18b-556f-41fa-8ac3-56d5db09ec84)
+
+* Preamble -> We are signaling before.
+* Pre -> Before
+* amble -> Signaling.
+* **7 bytes** of **10** will be there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d537e1be-2c1e-495a-868d-ed03dadd902a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c281b690-27a3-492a-aa9e-5504f5255858)
+
+* There is **no difference** between **preamble and SFD**. They fullfil the same purpose.
+* Preamble -> 101010101.....10
+* SFD -> 101010101010....11
+* The **two 1's(11)** says that the entire physical layer part is over and actually the **frame** is starting.
+* **Preamble and SFD** are added by the **physical layer** and not by the **DLL** layer. Even though we are seeing them as a part of the **frame**.
+* **Preamble and SFD** are common for everyone. They don't have to make any changes.
+* **Preamble and SFD** are **same** for every packet.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bfe09a77-93ce-461b-9d94-2fd4cd0df5e7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a3a44b4-ca1e-46ac-9c64-f591ee9b35b9)
+
+* **Destination address** in **DLL** layer is **physical address**. **Physical address** can be any number but it is actually **unique** within the network.
+* In most of the cases we are using **MAC address** as the **physical address**.
+* **MAC address** is already an **unique number** already present in **NIC**.
+* That's why **MAC address** is present in **destination and source address**.
+* **MAC address** is a **6 byte** number. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc5b8087-6990-43cc-a25d-91ba2c8f793b)
+
+* **Source address** is also **MAC address**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/61301f9e-6eae-4bb8-8790-f2aa68655ae0)
+
+* How do we know the **MAC address** of the **destination address**?
+
+> Using **ARP**.
+
+
+
+
+
+
+
 
 
 
