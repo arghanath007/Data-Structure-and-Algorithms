@@ -6773,8 +6773,62 @@ which is **/13**.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b70f07a5-0a64-4fcc-b484-2b5c31e76f5d)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/68bd4aec-d52d-42a1-9179-18b98b0c28eb)
 
+## application-layer-network-devices-and-revision-doubt-clearing-session(46) [28th July 2023]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/737f4a8c-eadd-4586-b0e5-49c94f84e609)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/03a7a278-5146-4d40-ae2c-92f48fd412ca)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3b16601a-da8f-42e1-990b-d284e846223b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50da6be4-6f8d-4ae5-9e46-11d13eba8d1e)
 
+* Pipelining
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/68f65543-1155-4edf-9ab4-7555d39cf2cd)
+
+* The **10 packets** are going in the **same path**. [Assumption]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe5edf4b-32d6-4d33-991e-3b2652610140)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/03d6f94d-130c-4c7d-abae-c0320cd4ad8e)
+
+* **Packetization** is actually helping but not beyond a point.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b2fcb53-7bb3-4e5c-8d5f-982e23096060)
+
+* Why **10 packets** took more time compared to **5 packets**?
+
+> We have to send **more packets** then obviously we have to **add more headers**.
+
+* **Adding more headers** is going to **increase the overhead**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d7a64a19-d234-4b15-9363-5dc73bc8a822)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69a0c33a-b1bb-4a01-8686-e4be6045f9d6)
+
+* **Packetization** is important but we should not **overdo** it.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f7f4bd5-4030-405a-8c2e-bb71e7fed7fb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/46067861-a12c-4595-ae12-d24610ebb128)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/56191399-41a4-4ad7-b3ce-a44d0115255f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/39370f4d-30ca-46ba-b797-067992840f36)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71af960a-67bc-42dc-9cc4-fac1550f16f2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/685fe716-fea4-4efc-84f7-4b2b472ad826)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5bd01fd4-265e-4cf5-ab10-7fef55cc9be2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/554bc9f4-2e54-47f5-bb2b-fca344c5305e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c364b898-b44a-4a52-b48a-b136f97de024)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e1d3c8b-c6ef-4eef-996a-e0f7b474cf28)
+
+* Virtual Circuit Switching VS Datagram Switching
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2aec91da-83ec-4004-8f4d-c3923f886ff9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c4592fc8-d8d3-42d5-94a7-c5624c79ede7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2bb68916-9ee1-440d-ba6e-c21b65d332c3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d0369cc-38a3-4fd2-a180-fb6c55ccab81)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d145a30-375a-41ba-85f9-17f32c9c72c4)
+
+* Header -> Overhead.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a71aad4-45cc-405e-b461-aa4ff5183371)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91d4c9f8-eadb-4334-bb17-d20ea44ac71b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a828c7ee-1b12-4a8e-925e-c8e19c4c5760)
+![Uploading image.png…]()
 
 
 
