@@ -6686,6 +6686,97 @@ which is **/13**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/270d8143-1759-48c7-b1c8-3b0a0fd0ede6)
 
+## traffic-shaping-udp(45) [28th July 2023]
+
+## Packet Switching
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/61c56aa3-c74f-4bfb-ba97-1afd908c4019)
+
+* Packetization.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/82414df1-971d-4805-a726-3d23a8d66044)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/151799f0-4052-46d3-b1c3-074e332f528f)
+
+* From the **sender's side**, packets are sent **one after the another**. Even though we are sending the packets like **1, 2, 3 and 4**.
+* On the **receiver's side** there is **no gurantee** that we are going to receive the packets in the **above order**.
+* Sometimes we might receive the packets **out of order** also.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db40cc9b-20bd-4cd6-a7e3-cf461b657091)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22d5ac23-32fd-4eb3-aefd-e169aa028b31)
+
+* Pipelining.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c3b44e2a-fe69-4517-a236-12fbebafa3d8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bec41d01-a9a4-4a98-b10a-ae41d6a97ce8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b7adfcb-0041-48fd-aee9-5d0a6710fb3f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/714f7f86-d0ff-4885-9ee3-fe347303c913)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e3d38b8-c636-4ce1-85c0-74b835a53a12)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a444a6bf-c73e-47c7-a14a-27f3064956cd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/96f9a32d-9b4c-4328-af94-aa9a160aaf93)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aff9b884-ea4e-4c20-aa27-a6b1150a8b12)
+
+* All the **routers(R1, R2 and r3)** are all **busy**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/668db9f2-32cd-462b-b9ff-17517dc2a3fa)
+
+* Earlier if we see at any oint of time, the message is either at **R1 or R2 or R3**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b2bdeca-f0de-4968-b521-c65a809005fb)
+
+* Now we can clearly see that at any point of time, all the routers are busy doing some work.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b9630bc-865b-47ca-b0fc-062e2893f80b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef63e132-d70d-4123-97b6-4d2ca600492c)
+
+* So, packet **1, 2, 3 and 4** will come out. The assumption we are making is that all of the packets are travelling through the **same path** and it maybe work in some **unique case**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4833e9fa-033d-43c9-9c14-1a2a1e3bd446)
+
+* **4 Tt(transmission delays)** are going to be taken for the **first packet** to come out of the pipe. After that, **every packet** is going to come out for just **1 Tt**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/51b5ae11-b380-46ec-9154-a079f69b0303)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/52e8a443-0631-4eca-9872-c9b7f2ce7075)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e95c441-978a-4ae8-a429-fa47dde30f80)
+
+* Bandwidtg -> 1mbps, (10 ^ 6).
+* Message -> 1000 bytes.
+* We want to send **1000 bytes** of data.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/48f61f19-3b29-44f4-88c3-ee9b6bdbcb4d)
+
+* As mentioned in the question. When we are computing the **time**, we should ignore the **propogation delay(Tp)**.
+* Tp = 0.
+* When we are actually transmitting a **very big packet** then the **transmission delay(Tt)** dominates over **propogation delay(Tp)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/938486a3-8a07-43d6-abb8-964052c360c6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5bacbe4-a901-4398-8d60-a351f702d16a)
+
+* Don't **add transmission delay(Tt)** at the **receiver's end** also. **Receiver** is not retransmitting it again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e18014c2-7e5f-404f-8ddf-00c57b03f316)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f4a99a7-1f61-4220-917f-987b43dc6c3a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8020d6a1-9fb6-45c3-ab0a-ec645c1e8b39)
+
+* We have to **add the header size** as well.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eced9a57-f260-49ac-bd74-0954ffc171c9)
+
+* Yes.
+* We have **added overhead** here.
+* Overhead -> Headers
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3bd48897-40ae-4f9f-b42c-2180d960f506)
+
+* Sending **one packet** is not beneficial compared to sending **5 packets**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b2af3bc7-c81b-4ae1-a425-894a941df7c1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b70f07a5-0a64-4fcc-b484-2b5c31e76f5d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/68bd4aec-d52d-42a1-9179-18b98b0c28eb)
+
+
+
+
+
 
 
 
@@ -6716,7 +6807,6 @@ which is **/13**.
 
 
 ### Misplaced Images
-
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/62e3bd2e-4498-4c70-8565-62c2f8fa0bc8)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5cfada5-4035-4541-bed0-9dc30980ed72)
