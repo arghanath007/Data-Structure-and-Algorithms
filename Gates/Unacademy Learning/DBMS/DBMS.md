@@ -1,4 +1,4 @@
-# DBMS
+ # DBMS
 
 # Course Structure
 
@@ -5480,15 +5480,57 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 
 * If **abort or rollback** is written in a **transaction** then we will **not include** that **transaction**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd7ab5bb-e9f2-409c-a8cd-9399c09f0ed4)
+
+* Do not include **Transaction, T1** above.
+* Do not incloude transactiosn which are having **abort or rollback**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7088d24e-3cc3-4292-b49b-0bd259702f40)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f612c5bf-43b6-4d22-8b0a-37b3c4ba68eb)
+
+* In the given example **T2 and T3** are **only checked**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ca677543-c689-4bd4-b799-fd7f1573c50c)
+
+* Given schedule is **view serializable**.
+* Sequence:-
+* T2 -> T3
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c6482a34-eeb1-4616-a0da-f16e7de951bb)
+
+* T3 -> T2 [Wrong]
+* It is because **final/last write** is **T3** and not **T2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae140e5b-de68-4657-bdc9-30f6d90b320b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1b0789e-fff7-4d74-93d0-ab801a46bd4f)
 
 
+### Doubts
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4cfdc6aa-28a1-4304-965c-279d4fb745f0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce8d1dcf-1ae0-48d3-9318-d7e658718c7d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/534bdc6f-754a-4bfe-a22c-6e4437a5251d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d81d485f-c122-40a0-8c39-3a048bd69e0f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69a32ab8-8c7b-4463-974d-9b2d448a447f)
 
+* Yes.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3265ba05-75c9-4146-8eae-e993869d999e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/abc24338-1ad0-4214-90b9-0c1b9c79a218)
 
+* Question.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e81849c-497d-4398-96dc-5754eb87343d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/75e9d123-1257-4b5a-bc89-4f320ee1ce00)
 
+* 100 outside is **easier** than **200** outside.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5eae5f6d-bf2e-4483-bf1b-a44614df51b4)
+
+* Better possibility.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a283a1a0-8820-428b-97b9-9f7c250e995b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/880cff2d-1b56-42f0-bb90-b2da0121b085)
 
 
 
