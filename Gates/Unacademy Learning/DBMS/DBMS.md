@@ -5371,11 +5371,114 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 
 > As they are **not the same**. So it is **not view eqquivalent**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/785823cd-6be4-494b-ba54-2996f2aac149)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/42b16b71-a204-4b08-a9e9-1ae430c8f073)
 
+* Yes.
+* If anyone of the **3 conditions** are violated then it is **not view equivalent**.
+* All of the **3 conditions** are to be **matched/satisfied** for it to be **view equivalent**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8abcdcf2-c131-4fd1-befa-a0e9fcb912a5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44d9acfd-3d20-44be-9ddf-48d34260ad3a)
 
+1) T2 and T3
+2) T1
+3) T2
 
+* All of the **3 conditions** are to be **matched/satisfied**.
+* So **S1 and S2** are **view equivalent**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/483e574a-4741-48e4-bf22-75c74ec2c4f4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e4419a35-701f-463c-8376-8ed0068e2c88)
+
+1) T2 and T3
+2) T1
+3) T2
+
+* All of the **3 conditions** are to be **matched/satisfied**.
+* So **S1 and S3** are **view equivalent**.
+
+1) T2 and T3
+2) T1
+3) T2
+
+* All of the **3 conditions** are to be **matched/satisfied**.
+* So **S2 and S3** are **view equivalent**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dbf85b04-023a-42b8-b0e5-e2e230d0d47a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/217f8f9d-b407-4198-9992-3284560d7e87)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec660413-79a0-4c0b-a193-510900f70b1b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a978a4a-5609-4499-8bbe-9e0a5e1ab65a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2d269be-a89b-4a97-9066-215320b6a9dc)
+
+* Question.
+* It is **view equivalent**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bd8b7c97-3572-41f1-a815-aca1b62b2e43)
+
+* Yes, we have to check **9 things**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3826def8-45db-4ffa-8fe1-16964d7a293f)
+
+### View Serializability
+
+* A schedule is called as view serializable if it is view equivalent to any serial schedule.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4025f720-38ec-4a64-b64f-2a42b5139706)
+
+* We have to **try multiple times**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f0c3bf6-c926-418f-a4ba-c168cf181518)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/10f71e16-2a74-4b65-b9dc-efed9ee2c04f)
+
+* Question.
+* **T1 and T3** cannot come after **T4**.
+* **T2** should come after **T1**. **T2** has to come **immediately after T1** as there is **W(X)** at **T(3)**.
+* Otherwise **T2** will read **X** from **T3**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f282c05b-7faa-43fa-aab0-998225cf6a0b)
+
+* We have to make a **serial schedule** of **T3, T1, T2 and T4** and check the **view equivalent**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3cb75dfd-1f06-4ed1-a2c9-1422dd338e29)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/655eb2f0-1bd2-4b52-8c0f-c49c94632992)
+
+* Yes it is **view equivalent**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c2ce723-073d-446c-a98c-897632506485)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a14d8bc2-e645-47a1-a2fb-63f9009d3df9)
+
+* It is **view serializable**.
+* The **given schedule** should be **view equivalent** to **one of the serial schedules**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e0f4df80-d46f-4ac2-818a-a31399181c85)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/547369f3-731b-4298-9649-369015bff64c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f554f767-7dcd-41d6-b056-c03b5d96cd2d)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8461a487-9760-48a9-a6bc-0133f85125fd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b1c8209-1b45-410d-b269-36fbea8a8755)
+
+* We are not able to make a **serial schedule** to check **view equivalent**.
+* So it is **not view serializable**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9cfb4b33-9456-4f64-88c3-74dd97ef5cbe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/90979da0-d9be-421e-b763-f24e2f7ca27a)
+
+* After **T3**, **T1** should run because in **Y** data point, **T1** writes last.
+* **T2** should come after **T1** as **T2** writes last in **X** data point.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ec0b5c1-b03d-41f4-8d8d-d054c6d5d1fc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/40db690c-e6ac-4df8-8216-c8b61b439f3e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c13a29f0-cac5-4ba5-9e0b-3e5127731158)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8d25e22-6284-4cb3-825c-a33c7881b767)
+
+* HW.
+
+## Role of abort or rollback
+
+* If **abort or rollback** is written in a **transaction** then we will **not include** that **transaction**.
 
 
 
