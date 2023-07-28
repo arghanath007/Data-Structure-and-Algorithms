@@ -6828,10 +6828,46 @@ which is **/13**.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a71aad4-45cc-405e-b461-aa4ff5183371)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91d4c9f8-eadb-4334-bb17-d20ea44ac71b)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a828c7ee-1b12-4a8e-925e-c8e19c4c5760)
-![Uploading image.png…]()
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/336d95eb-2b05-49de-b9db-7257b044b51a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b921fd2c-895c-4a37-b8f3-b265cdf58d70)
+
+## lsr-and-tcp-header-part-i(47) [28th July 2023]
+
+* Connection Oriented and Connectionless
+* Connection Oriented -> Resources are reserved.
+* Connectionless -> Resources are not reserved.
+* That's why **Connection Oriented** are more reliable than **Connectionless**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7baf1745-eced-4985-8928-af5a8e3f770f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/56405c17-e325-49ad-8fb7-c030ec5f05be)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/163e5c21-32aa-4528-8fa4-4fbff0ebe201)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5562049-90b3-4c29-9496-5856ac2ab7ec)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a4c0d09-7fa8-4f99-a5f9-252910d1d126)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8281c557-7772-4b21-ae6c-4d9cc14c893d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dfe79c72-748b-48d7-b274-ca455af404f7)
+
+* Circuit Switching(CS)
+* Packet Switching(PS)
+
+1) Extra Time
+
+* CS -> ST + TD
+* PS -> (h - 1) * (m / b)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9f4c09ad-79d2-4664-b550-59b6e762f935)
+
+* Depending on the **size of the data**. If it's a **bursty data** then we got with **circuit switching(CS)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/77fc5f12-8655-40cf-a696-6a55a6bf847a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bdaae020-2b2b-451a-bf99-5f97f568d07c)
 
 
 
+
+
+## IPV4
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1d7704d-9025-4e50-a7d5-fcd094c9e913)
 
 
 
