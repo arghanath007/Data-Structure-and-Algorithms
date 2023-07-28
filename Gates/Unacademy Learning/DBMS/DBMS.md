@@ -5267,32 +5267,109 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 * There will be **no conflict** between **two read operations**, which is **Read to Read** operation.
 * **Conflict** will be between **Read to Write**, **Write to Read** and **Write to Write**.
 
+## doubt-clearing-session(24) [28th July 2023]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41eb7dd6-adc4-4568-83dc-f5cd2bb27bbc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b9c3bc02-7065-4193-b749-f82dc98b273f)
 
+* Question
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/764cec61-de73-48e4-9c4e-70a21bd130dd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fcf68806-4b53-4373-8ba8-db1593d87344)
 
+* Answers. 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a690929-c041-4a1a-8f53-f89c2cfc87ca)
 
+* Doubt.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7951f58e-23e0-4d84-897c-4e779e662671)
 
+* Doubt.
 
+## View Serializability
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5da40bec-7708-4e51-8510-17acde93c426)
 
+* There are **many good schedules** which we couldn't identify with the help of **conflict serializability**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1994c6f3-39b5-41ac-8040-f0ff4d44dd7c)
 
+### View Equivalence
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0886c0a4-7829-4afe-afbd-78e2ad2774ab)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30a8f50e-4e61-4c84-a833-15308ea5b7b9)
 
+1) Who is reading first from database
 
+> **T1** is reading the **X** value from **database**.
 
+* **T2** is reading the **written value of 'X' by T1**. It is not reading the original value of **X** from database.
+* Who is reading first from database?
 
+> **T1**.
 
+* Who is reading first from database? -> Who is directly reading the value of **X** from the database before any other **transaction** writes.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41f5db02-07c8-4bd8-998a-6a568d642538)
 
+* So according to the **first rule**, we will say that **T1 and T2** transactions have read first the value of **X** from the database. It is because **T2** has not used **W(X)** which means that the value of **X** has been **updated** from the original value.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa6d303f-1146-48a9-9d14-6e43745a588f)
 
+2) Who is reading from other
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b89170fd-3524-4084-871a-779f33d555fd)
 
+* In this **T2** transaction is the one who is reading from **T1**.
+* **T2** reads **X** from **T1**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d41fe5d-82b1-4ecc-b694-9457205355a7)
+
+* T1 reads **X** first
+* T2 reads **X** from **T1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c549c69c-d55c-4497-bd1e-21ba6ceac8a8)
+
+* Who is reading from from database? 
+
+> T1 and T2.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef8ef139-852e-40c0-8019-c9b31b88a1bd)
+
+* Who is reading from other?
+
+> **T3** is reading from **T1** as **T1** has last written to **X** before **T3** tried to read **X**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/42798d00-d0ec-49e3-86cc-195fd3c04898)
+
+3) Who is writing last
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/51c48214-032a-4846-a383-1c1e54287176)
+
+* **T1** has written last to **X**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24f293da-6226-48de-8e02-cdaf3b94881e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8904395d-f357-429e-a11e-f486fff78edb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/77a20523-a1ef-4382-a93a-f89476314760)
+
+* **View Equivalent** -> When both schedules S1, S2 are following same all 3 points for all data items(Above 3 points).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57ebd05b-df18-4e5b-9a7d-a673339dc43b)
+
+* We have to check if they are **view equivalent** or not.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d118a3d3-6eaf-4df5-b933-1bddc746fe84)
+
+* S1:-
+
+1) T1 reads X first from DB
+
+* S2:-
+
+1) T1 and T2 reads X first from DB
+
+> As they are **not the same**. So it is **not view eqquivalent**.
 
 
 
