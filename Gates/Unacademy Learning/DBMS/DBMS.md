@@ -5532,6 +5532,77 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a283a1a0-8820-428b-97b9-9f7c250e995b)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/880cff2d-1b56-42f0-bb90-b2da0121b085)
 
+## transaction-concurrency-control-part-iii(25) [29th July 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ec01d9b-0dfd-4c24-a086-d07d28ab4880)
+
+* We have proved that a **given schedule** is **view serializable** then it is a **good schedule**.
+* Not all **good schedule** are **view serializable**.
+* All **good schedule** are **view serializable**?
+
+> **NO**.
+
+* All **view serializable** are **conflict serializable**?
+
+> **NO**.
+
+* All **conflict serializable** are **view serializable**?
+
+> **YES**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d57f4c81-693f-435e-bd9f-5f89f94401b5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dcbd69a8-f46e-4dd6-ad7d-6dd8eab5ab88)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/565b9cc2-496d-4961-8549-ef2cd7fa66ac)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec46d2d4-0637-4f66-b01d-bab7a2e922ee)
+
+* Not conflict serializable but not view serializable.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0461e32-3ed4-495f-9fd9-99d30a8fb9e6)
+
+* No. of nodes **equals to** the **no. of transactiosn**.
+* **Runtime complexity** to **find the cycle** -> n + |E|.
+* No. of nodes(n)
+* No. of edges(E)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5f5213c6-64fe-456c-b24c-e00bb92bafa6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e6fbf052-922a-48b6-85c7-b85749557de9)
+
+* Conflict Serializability
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/caf9c8d4-d14c-4d8e-8662-647be32317bf)
+
+* View Serializability
+* Time(K)
+* * No. of nodes(n)
+* **Runtime complexity** to **find the cycle** -> O(k * n!)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0b090ac-5528-4128-8852-935e264a2361)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b8bb53c6-a5f6-47f3-855b-0cc9882078f2)
+
+* NP hard problem.
+
+## Recoverability
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8359c8df-7b72-421d-863c-978d15ae9cd8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/45f554a4-ae05-4719-9e82-508a0301beac)
+
+* Recoverable Schedule -> When no any committed transactions should be rolled back.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d5b785b-7d70-4376-b638-cfa73de0fb5a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d0304f7-d8c2-44a2-86ba-4ba47e33cf06)
+
+* Not recoverable schedule
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af3019bb-ccea-45a6-9a8c-577cd79dbefd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e4f81809-ccd9-42cb-b99d-396938c283ee)
+
+* There is a **problem** that **database** will not allow.
+
+
+
+
+
+
 
 
 
