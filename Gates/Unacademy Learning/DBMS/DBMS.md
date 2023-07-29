@@ -1,4 +1,4 @@
- # DBMS
+# DBMS
 
 # Course Structure
 
@@ -5606,6 +5606,82 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 * Not **recoverable**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34ec7e16-0a32-4d33-a335-0ef9af240f31)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ebb6af7e-e2db-4b2b-93e8-f98a0fbb38aa)
+
+* If there is a possibility of **rolling back a committed** transaction, if **yes**, then it is **non-recoverable schedule**.
+
+* It is **recoverable schedule** only when for any case/condition and for any transaction that fails then also we don't have to **rollback any committed** transactions.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef9cb669-8a0b-426f-a490-fa5a1eb968fe)
+
+* To make **recoverable schedule**, sequence of commits, should be same as sequence of reading dirty values.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/75ec5526-d6d8-4b8e-9b0f-ec0ec3135b00)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b78debc-a8f0-4dff-a3c6-eca477df84fc)
+
+* Recoverable schedule example
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8979513e-240b-4545-ba69-3feb1ddf7d50)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b8ee324-f7de-4a84-93b1-864cfc9d30de)
+
+* Correct.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5c63686-2976-4553-adb9-ffa09e5b36cb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8418eb8-8350-407b-b4f1-77ee42f2e52b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/67b2ef56-c5c4-4a18-8979-9e15928f3df1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/73bc4806-e3e7-4586-b638-6a94051aff57)
+
+* Types.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1b9fceb-c8c7-4522-b30d-2e345cdad6f8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ef1b9ae-cdcf-4234-8f25-e1dfdc89556c)
+
+* Cascading Recoverable Rollback
+* If **T1** fails just before commit then **T1, T2 and T3** rolled back.
+* If **T2** fails just before it's commit, then **T2 and T3** rolled back.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/60c24442-c4ba-47c2-9240-2f96b0716d8e)
+
+* Cascadeless Recoverable Rollback
+* When a transaction fails only that transaction will be rolled-back.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9cfc9156-52a4-41f2-b31a-284b1a84e9a7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7dbe427b-9a4f-4b86-b26a-a7d1cc4c22a0)
+
+* Exactly.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a8b1334-a34d-4920-9168-6f515da06e93)
+
+* Question.
+* Not recoverable.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b19cf594-df8e-49ee-829a-c71f88eb77d4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41a9538d-d06e-4a7c-a02b-fb65dbf514e4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2245843f-eecf-46be-8efe-cb4c7acac8f9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/73ec973c-810e-43e6-beef-2279b5c5e6dc)
+
+* Question.
+* Recoverable schedule.
+* Rollback -> Ignore that transaction.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/223e3f6c-9904-42e5-95d4-37d1714647fc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/99d4cf74-a660-4bac-a626-09762ebd2250)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cfc38ab0-8108-403f-b989-81c68d18d812)
+
+* Question
+* Recoverable schedule.
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
