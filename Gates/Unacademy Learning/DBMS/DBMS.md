@@ -5598,6 +5598,16 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 
 * There is a **problem** that **database** will not allow.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf2dd7ac-1164-4adb-ad16-f525a7771f84)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3283bb66-28c1-4d73-8eb6-dd2ce05041d4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f4f890cf-aa85-46fb-af10-f86f014f0f9b)
+
+* If **T1** failed just before **commit**.
+* Not **recoverable**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34ec7e16-0a32-4d33-a335-0ef9af240f31)
+
+
 
 
 
