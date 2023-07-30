@@ -6997,6 +6997,70 @@ which is **/13**.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3b8a944e-207d-45c0-8aac-5e741eaec30d)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bd043ceb-bfc4-496b-beb7-2819187d9684)
 
+## Part-II Completed
+# Part-III
+
+* Link -> https://unacademy.com/course/complete-course-on-computer-networks-part-iii/D5L56COK
+
+## ipv4 (49) [30th July 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e2ed55eb-3f8e-45ba-be00-7877a8335c73)
+
+* Fragmentation.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/caaeaf7e-8ce2-429c-9990-9976ce7b5f57)
+
+* DF -> Do not Fragment.
+* **Router** is **fragmenting** the packets.
+* MF -> It says that **more fragments** are following.
+* Only the **last fragment** will say that **no fragments** are following.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/600ee494-c9d8-4d70-8259-f777463fa513)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/25c149c6-4cc8-438e-b451-b90090fd4396)
+
+* Fragment offset -> It says that how many **data bytes** are ahead of the particular fragment in that particular packet.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/79a56639-6c60-4e09-bc38-2866815e64a2)
+
+* How many bits do we need?
+
+> **2 ^ 16**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b2b084a8-281d-45a6-b827-a8ca85ab7a4f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/96f499c1-51db-48c0-af09-7b17802aa711)
+
+### Scaling
+
+* Max header length possible -> 60
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f76ccfc0-334c-417a-b024-76c1f6280429)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec1824b5-0520-4d65-b07e-a96e9d160399)
+
+* Fragment offset has to be **multiple of 8**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5c86643c-4365-465a-b8c9-2aa06471b473)
+
+* The **data** here should be **multiple of 8**..
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/74fafde5-f02d-4b25-9a49-61b7181bee35)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b269ab49-3b0e-4d3c-9c75-eb4fa097f137)
+
+* We multpilying a no by **8**.
+* We dividing a no by **8**.
+* A no should be a **multiple of 8**.
+* We are dividing a number by **2 ^ 3 = 8**, it is just **3 right shifts**. It is nothing but discarding the **last 3 bits**.
+* We are multiplying a number by **2 ^ 3 = 8**, it is just **shifting a number**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0460b365-d05f-48bd-9868-fea365802023)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d07b79d3-803b-42e1-847e-00f0e297b1c7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5d28fe2-d6f1-4d2d-9251-53ef3287cdac)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/078d6d78-63b9-4afe-bf4c-177b67284c11)
+
+
+
+
+
+
 
 
 
