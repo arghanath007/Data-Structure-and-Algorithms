@@ -7056,13 +7056,75 @@ which is **/13**.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5d28fe2-d6f1-4d2d-9251-53ef3287cdac)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/078d6d78-63b9-4afe-bf4c-177b67284c11)
 
+## fragmentation-with-numerical-example-part-i(50) [30th July 2023]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/090963cd-4779-4fa2-9e20-1bf0f4be799d)
 
+* Identification Number -> It is a **unique number**, which is used to identify a packet or a **datagram(packet at the IP level)**.
+* It is **16 bits**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c32dcd4-a822-4ee7-8e6d-7f70e9d9639c)
 
+* How can we maintain all packets in the world uniquely?
 
+> **Identification number** is **unique** only for **one connection**.
 
+* For every connection, we will have **unique Identification number**.
+* DA -> Destination address.
+* The **Destination address(DA)** is unique for every connection.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c7d8f4b-cbe4-4d9b-9c19-e206a7042c47)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1465b372-35c0-4973-a2fb-ec5565a510ba)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df24077d-8fff-46f9-b425-574afdb034ab)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8269225-3b79-45a2-a3b1-db49c3ca47ac)
+
+* DF -> Do not fragment
+* DF = 1 [Do not fragment is set to **True]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd3ed31d-13d1-46a2-a693-fed45a1a4cea)
+
+* In **fragment offset**, there is a **scaling** used and the **scaling factor** is **8** here.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/88f239c6-e776-4061-95b1-afa9513f3e8c)
+
+* Time to Live is used to identify **loops**.
+* We don't want IP datagrams to be looping forever.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/005746df-58cd-49ec-a78a-034099bef3b5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/484cb330-4882-49be-a4b1-6fbd4a845665)
+
+* Protocol field.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b17ad25-2b2c-46c8-9e73-b0da38361515)
+
+* We need to identify, which packet is going to be present inside the **IP**. For that reason, **protocol field** is used.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/88935596-defd-4c6e-b5ad-ffd69481337f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3efb45e6-f9a9-4968-9555-2c9f5cd39abb)
+
+* If a router is getting a packet and in the buffer there are already many packets then the **router** will take the **ICMP** packet and discard it and put the **TCP** packet.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32b6cd58-6b51-4537-8a6b-0142a4916d1e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e66e025c-0cfd-4deb-aba8-9556995da8c9)
+
+* Header checksum.
+* Header checksum is already present in the **header**. Now, we are breakeing the **header** into **many 16 bits** in-order to compute the **checksum** but for computing the **checksum**, we need the **checksum value** also because it is present in the **header checksum field** only.
+* Initially, we are going to set the **value** of the **header checksum field** as **zero(0)**.
+* By putting **zero(0)**, we compute the entire **checksum**. Whatever value we get, we will put it in the **header checksum field** only.
+* **Checksum** is calculated by the **software** and not the **hardware**.
+* **CRC** is calculated by the **hardware**. 
+* That's why **CRC** is at the **lower levels** of the **DLL** layer but **checksum** is at the **higher levels**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/03ef8ce8-da89-468c-8d0d-3d4040ba999d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0660f3e2-d497-416d-8945-be5c6382868a)
+
+* Who will compute the header checksum?
+
+> **All**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bae287cd-5e97-4bb9-84c5-054cb1abb67a)
+
+* Why a router changes the **checksum** value?
 
 
 
