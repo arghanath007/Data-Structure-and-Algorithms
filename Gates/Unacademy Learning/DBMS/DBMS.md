@@ -14,6 +14,7 @@
 * Part- 4 -> https://unacademy.com/class/sql-pyq-discussion-part-4/EAQ4FZLP
 * Part- 5 -> https://unacademy.com/class/sql-rdbms-pyq-discussion/HX1N8R7P
 * Part- 6 -> https://unacademy.com/class/rdbms-pyq-discussion-part-3/NA5SHPWS
+* Part- 7 -> https://unacademy.com/class/relational-algebra-pyq-discussion-part-1/AFHZQ2C9
 
 # SQL Link
 
@@ -5730,6 +5731,57 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 * One lock for **each data item**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91feb8c7-ace2-4bcb-b241-6a1d76c870d9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d60f685-41e1-48e0-b07c-9128fdb06426)
+
+* It depends on the **operation**.
+* If it is **both read-read** then there is **no problem**.
+* If on a **database item**, the **transaction** wants to do **only read** then it will take **shared lock**. If the **transaction** wants to do **write/read both** then it will take **exclusive lock**.
+* There is **no problem** with **read operation**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4de32b82-d89c-44ea-9325-653a19eae7e7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aad16528-0465-4a10-acea-93b60d5dbe62)
+
+* Shared Lock -> For only read operations
+* Exclusive lock -> For read/write operations both.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d988cd5-0333-4d15-b785-a9f6f05d1866)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a6ab92a8-9d74-4343-b901-69390ce7a2f8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3aac6c7d-2f0c-425a-8758-b3985ddc11a3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32161434-9925-4856-99c9-04bd0ff3757f)
+
+* Lock_Ex(X) -> It is allowed only when **T1** unlocks **X**.
+* **Shared lock** doesn't have **write** permissions. **Shared lock** has to be **updated** to an **exclusive lock** for **write operations**.
+
+* **0** -> Available, Lock not taken.
+* **1** -> Not Available, Lock have been taken.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33c05a59-9397-4a09-8f23-0891d936c7cf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec37dfa8-ea42-46ef-9990-2d70564523a8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd612802-23fb-4984-9369-80985d9093c4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9220dcc5-a2b2-4995-9f15-b71de6abd951)
+
+* Lock: Busy waiting
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0322e7ee-491c-43ee-bfce-1452efd2fbaf)
+
+* **Busy waiting** for **exclusive lock** on **X**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34baeeaf-6356-48ca-b529-a2a6379983df)
+
+* We **blocked** ourselves. When the **lock** is available, we will be informed and we can now take **lock**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34e3588b-e0b8-4e0d-bbdd-6010f14e15ad)
+
+### Doubt
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af2fad11-8b54-41a0-830d-e794c416cae7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86694ac9-fcaf-482b-8e7c-edda1a502651)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/337dac21-7ead-4414-a7fe-2efcf64ece8c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/68b1e9a1-1e7b-4655-8e0c-95c94565db83)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/752d6b5f-0306-440a-b16a-152dbddbc7d2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b7fa497-fa89-41a7-a2b8-932125888059)
+
+
 
 
 
