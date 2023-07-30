@@ -5669,7 +5669,67 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cfc38ab0-8108-403f-b989-81c68d18d812)
 
 * Question
-* Recoverable schedule.
+* Cascadeless Recoverable schedule.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8aea5a17-c5e8-4e34-bf57-0dca068066e4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5f8df508-7e90-4628-a019-3dbf8368c3f5)
+
+* Strict Recoverable Rollback -> The **second transaction** can **dirty read or write** only after the **commit** of the **first transaction**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5bcbf96a-8b26-48af-8172-3409c6ee38e2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85a58464-2d2c-482d-a4d1-2075899ab490)
+
+* Dirty read and write can be done in another transaction only after commit of first transaction.
+* Cascadeless recoverable is also included in **Strict Recoverable Rollback**.
+* If it is a **Strict Recoverable schedule** then it is also a **Cascadeless recoverable schedule**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/968ef928-4b8d-405c-8389-fd251ad56855)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8eda0bbe-f628-4aaf-9b02-98f7057d53fd)
+
+* Recoverable schedules.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5853413e-3211-4043-81d4-13b3f78e0655)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34085acf-3875-4f13-b600-c8df5d40c3e1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b174d3e5-b193-4fe2-9fd4-3b017b0eb816)
+
+* Yes.
+* Recoverability definition -> It is dependent on **dirty read**.
+* **Dirty read** -> The upper/ before transaction has **written** and the **next transcation** has **read** the value before it could be **committed**.
+* If we include **write on write** then it becomes **strict recoverable schedule**. We will not do **write on write, read on write and write on read**, until the upper transaction is committed.
+
+* In **strict recoverable schedule** -> If the upper/ before transaction has **read** then the **next transcation** can only **read** and cannot **write**. If the upper/ before transaction has **written** then the **next transcation** cannot do either **read** or **write** unless it is **committed**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c204cf26-9221-4f31-8ec6-be4cf600c7a5)
+
+* The **conflict serializability** method we had cannot be used **practically** because for **practical** implementation we have to know the **future transaction statements** and the sequence of run of the transactions, which is **not possible**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/18c44082-7026-4ed7-9652-8dfec8bfddef)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f1bdb34-e292-43d4-a81c-81f4b21705aa)
+
+* **Conflict and view serializability** is not implemented practically.
+
+## Locking Protocols
+
+### Lock
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58acd41e-5294-4467-ad18-2b76bc331c6d)
+
+* Lock
+* How many locks?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a3d3cf6-f4ec-4dfb-8e77-b141e799487b)
+
+* Yes.
+* We can put **locks** on **different data items** at the **same time**.
+* One lock for **each data item**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91feb8c7-ace2-4bcb-b241-6a1d76c870d9)
 
 
 
@@ -5685,14 +5745,7 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 
 
 
-
-
-
-
-
-
-
-
+ 
 
 
 
