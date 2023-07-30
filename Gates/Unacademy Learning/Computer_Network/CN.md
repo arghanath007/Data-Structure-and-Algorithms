@@ -6861,16 +6861,141 @@ which is **/13**.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/77fc5f12-8655-40cf-a696-6a55a6bf847a)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bdaae020-2b2b-451a-bf99-5f97f568d07c)
 
-
-
-
-
 ## IPV4
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1d7704d-9025-4e50-a7d5-fcd094c9e913)
 
 
+## time-out-timer-computation-algo-basic-jacobson-and-silly-window-syndrome(48) [30th July 2023]
 
+## IPV4
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a64c0132-014f-4b23-aecb-f0fb6a40cd79)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/40b63141-0fdc-4cbf-976b-aa33340733d9)
+
+* **IPv6** not in syllabus.
+* Software can handle both **V4 and V6** packets.
+* **V6** has **more features**.
+* **V4 and V6** have ***different formats of headers**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a266f2e-e47c-40fb-b80b-4e48035eec42)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24ddcafc-ca94-499b-a8f4-ef07846de03d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76103ac1-f3a1-4446-bd60-7bd72f0a8916)
+
+* If version of IP address is not mentioned then we have to assume that it is **IPv4**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/793d8459-9200-4efe-adb2-bbd6319e9869)
+
+* **IP** is used at **Network Layer(NL)**.
+* **Network Layer(NL)** is the concept and **IP** is implementation.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66ca6488-6f93-44fa-990c-1e902090b229)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a4c9f1f6-1084-4f07-a28b-e5ca2ee33224)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d379872-c963-4330-8c8f-c80d461a9ba4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2564f620-aaf0-4a43-91a2-410bf9b92ef5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a43fb16d-81bc-4861-b5f7-279a21c0b8e1)
+
+* IPv4 header. It is a **sequence of bits**.
+* With **4 bits**, how many version we can represent?
+
+> **2 ^ 4 -> 16** versions, which is **0 to 15**.
+
+ ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/952a1d3f-faef-4043-b30a-d3ec06b78b99)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32a0065c-c91e-4257-9da3-952df8e4c155)
+
+* From the **top till the end of Destination IP and before the start of option**, it is all **fixed**. 
+* The **Option** part is **variable**.
+* So, the **entire IP header length is variable**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/959364c2-45d1-445c-987d-6f5d31d30de0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f40e9a91-8cde-4caf-add4-c8491793f712)
+
+* The **entire enternet header length is fixed**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d070cfd2-6991-4720-a7b3-0a99b7d05380)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a925e028-a7f9-4168-b0c6-c6d253d6481b)
+
+* Which means in the **IP header**, we have **20 bytes** of data which is **fixed**.
+* Therefore, the **size of the IP header** can range anywhere from **20 to 60 bytes**.
+* **Min. header size** is **20 bytes**. The **min. option size** is **0 bytes**.
+* **Max. header size** is **60 bytes**. The **max. option size** is **40 bytes**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0935fe3-34fa-41db-ae4c-0dcf2513112c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/645cb598-4421-4c48-bb08-6a701587fdc2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4ca273d1-4df4-45f6-a210-7229d49b7e0f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80c09073-9a58-4f1a-9e18-777def752494)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/015334d3-2da8-48b1-9462-f1b55cb160b7)
+
+* **Max. value is 15***.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/96cf39ab-4306-440b-bd40-9310f08f7ff0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e81e6d1-669f-4d5a-baa4-846d4d7dcb3e)
+
+* We are going to do **padding**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8414538-b08c-41b8-ba69-114a1457d202)
+
+* Where we are adding the padding(dummy bits)?
+
+> At the **end of the header** in the **Options field**.
+
+* Padding -> Adding 0's.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/941a66a3-26b0-4d25-9f23-7108db437bc8)
+
+* We have **22 bytes**, we cannot put **decimal number** in **header field** and if we put **6** in the header field then it will think that the **header length** is **6 * 4 -> 24 bytes**.
+* So, what we did is that we **used padding** and **padded the 22 bytes header length** into **24 bytes** which is **6 bytes** in the **header field**.
+
+* Header Length Field(HLF) = (Header Field) * 4.
+* Header Size Field(HS) = (Header Length) / 4.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9cbdeef-5deb-4c43-9af0-4615e6aef056)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/151a8985-456e-411d-b8fe-f64985fd3897)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f37fadf-4ccb-43c9-8873-7bddda051419)
+
+* **31 bytes** is not a multiple of **4**.
+* So, we will make it a **multiple of 4** by **padding**.
+* We did **padding of 1 byte** to make **header size** which is **31 + 1 -> 32 bytes** and a **multiple of 4**.
+* So the **Header length field** is **32/4 -> 8 bytes**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/074749fd-5d7b-4bbd-82f9-5649f2ed99d5)
+
+* **25 bytes** is not a multiple of **4**.
+* So, we will make it a **multiple of 4** by **padding**.
+* We did **padding of 3 byte** to make **header size** which is **25 + 3 -> 28 bytes** and a **multiple of 4**.
+* So the **Header length field** is **28/4 -> 7 bytes**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37e23fc1-db4e-493a-8c48-1bc1bc622478)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3736694e-ef3f-4f28-b3f1-92058061efcf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ae88b50-bcc1-4edf-8c45-6f911a15f52a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/84fc43d0-1844-4910-b25b-2b6548b30844)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2cb3520c-8760-4728-9591-de96cb3190d2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7373d3e0-2bbf-4298-9983-b75dda06d4ed)
+
+* In **ethernet**, the **length field** only represents the **data part**.
+* In **IP**, the **length field** represents both the **data and header part**.
+* Max size of IP packet -> 65535 bytes [Header + Data].
+* Min. size of IP packet -> 20 bytes [No data and min size of header].
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ecd8a0a-8c01-4bda-8878-f4c43404b649)
+
+* Range of IP packet -> Includes both **header and data** -> 20 + 65535.
+* Max. payload(data) that can be present in an IP packet?
+
+> 65515.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89c9b9fa-2ebd-41dc-b522-73e77c6bc7d5)
+
+* Min. payload(data) that can be present in an IP packet?
+
+> Zero(0)
+
+* It means that we can send packets without any data.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/79f9ae27-db8a-4227-9d36-c276f0052a40)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed4506ec-e986-4cc0-bf8a-4fb629332ba2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3b8a944e-207d-45c0-8aac-5e741eaec30d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bd043ceb-bfc4-496b-beb7-2819187d9684)
 
 
 
