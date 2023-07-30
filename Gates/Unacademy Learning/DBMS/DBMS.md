@@ -5781,14 +5781,32 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/752d6b5f-0306-440a-b16a-152dbddbc7d2)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b7fa497-fa89-41a7-a2b8-932125888059)
 
+## transaction-concurrency-control-part-iv(26) [30th July 2023]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/544ca703-5558-4867-8c2d-7b980a60307e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8ee8ed8-9284-46ac-bf1b-792580ad4c59)
 
+* We didn't get **exclusive lock** because there was already **shared lock** taken on **X** by **T1**.
+* **T2** is in **busy waiting** state.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/811c733d-02ef-4743-afc7-4faee06c9ccd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/531292bc-a8f6-4dbd-abcf-540130c498ad)
 
+* After the **shared lock** taken on **X** by **T1** was removed then the **exclusive lock** is taken on **X** by **T2**.
+* Busy waiting -> The transaction will run continuously and it will try to acquire the **lock**. It will not be able to **acquire the lock** and it will keep trying again and again.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d14e71fb-25c6-44da-99e8-5ae9fcbcbc21)
 
+* The solution of **busy waiting** -> Whichever transaction wants to take a **lock** which is **not available** then the transaction is **blocked** and it falls under **blocked transactions**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd2a0a85-eaa4-47cc-85ac-adf4cb8a7bb4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/38468964-9f4f-49e4-aea4-2dce7fbc64b9)
 
+* After sometime, **T1** has unlocked the lock taken on **X**. As soon as it(X) is available, **T2** transaction is **unblocked**. **T2** transaction has come back and the two statements of **T2** are run.
+* **T2** transaction didn't do any **busy waiting**.
+* **Advantage of removing busy waiting** -> The unnecessary usage of resources of DBMS has been **saved**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91ca9aef-b517-4255-bfc5-2966c06945e7)
 
 
 
