@@ -7126,6 +7126,54 @@ which is **/13**.
 
 * Why a router changes the **checksum** value?
 
+> **Time to Live(TTL)** is going to change. If **fragmentation** happens then many values are definitely going to change in the **header** then the Fragment offset(FO), MF bit, length field and header length. Options. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9578fac1-6131-41ca-9ec5-7cb248802107)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c6ccee6d-683c-4b13-9cce-4fc21b6099fd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5cc24f5d-348b-4d24-bbf0-12dd2c85311a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/743a6e86-cd99-4e1c-9f0c-785e81688385)
+
+* IP is **connectionless, unreliable** service.
+* Using **IP addresses** we can go till the **host** and inside the host there are many processes. We can go till the **host** and inside the host there are many processes. The processes have **port numbers**, IP address doesn't have the **port numbers**.
+* So, **IP** is **Host to Host** protocol.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92a2fbad-3249-4470-9882-4ed0f4137d36)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9aeea53f-b02f-4859-a0cb-b71ac49e66e3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c6a97bc5-7e9f-4473-812f-b7211b3183bc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ca0ac8a6-4454-4ce2-8c5d-106d216e5f98)
+
+* Record routing.
+* Source Routing
+
+1) Strict Source Routing -> We specify all of the **routers** that are on the way. We are giving the **entire route**.
+2) Loose Source Routing -> We specify some of the **routers** that are on the way.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2d773066-1e80-4a36-85f3-8eb039b695b8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/593c15cb-220b-4d77-9414-68e75ffb5b5f)
+
+* **Source Routing** is generally used by **ISPs** to find out if there is traffic/congestion on any of the routes. It is generally for **testing purposes**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/633abec4-2c41-4805-a408-8caa8065dc2c)
+
+* How many routers are recorded in the **option's field**, both source and record routing?
+
+> **40B/4B -> 10 IP addresses**.
+
+* We are not going to go for **10 IP addresses** because in the **options** even though we have **40 bytes**, we are not using all of the **40 bytes**. There has to be **some space** given in-order to represent the **type of option** also.
+* That's why we only have **9 IP addresses**.
+
+* **SR** -> Source routing
+* **RR** -> Record routing
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/78f56b9c-9838-4e34-be8e-414e3c4a5497)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92b3dd0c-4675-4bf7-a8f6-fc2442f33268)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92485bd1-210e-4495-abc1-92c01115d6b9)
+
+* Padding -> Adding dummy data to make up the size.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/632b9b16-f28a-4d64-8bb0-85aa9401e902)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37151469-d13f-4e0c-a785-d9ce92533501)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a312925b-a524-473e-aeab-30f1cdb39680)
 
 
 
