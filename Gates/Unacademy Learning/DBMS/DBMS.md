@@ -5854,8 +5854,102 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 
 * When **T4** tries to take **shared lock** on **X**, then there is a **condition check** that happens. If no any blocked transaction on **X** then allowed otherwise blocked.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ad046e0-f961-4cb1-9879-75fb82677f54)
 
 * We are checking that there is any transactions that are in **blocked state** due to **exclusive locks** that are taken on **X**. If so then **shared lock** cannot be taken and the transaction trying to take **shared lock** will be **blocked** as well.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/87e98f09-8d40-4e6f-8ac2-c5afaf1b8001)
+
+* If **T1** transaction has **unlocked** the **shared lock** taken on **X**. Then there are **two ways/cases** which can be taken. Either **one of the blocked transactions** will be **unlocked** in **FIFO order** or **all of the blocked** transactions are **unlocked**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/20fe630c-801b-4470-b114-4c5f2b379d34)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f410fb49-9d68-4d1b-8526-f2a3733e7772)
+
+* Upgrade -> The **shared lock** taken **X** and now that **shared lock** has been **upgraded** to **exclusive locks**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f89cf19-63ef-4309-9135-6644c3bace63)
+
+* Downgrade.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3870a664-dfcd-46b0-802a-0f45ed14245b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c8af220-bd00-4a3b-884b-0b661c2451ec)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8283dc64-36e0-4ed5-85a1-43cbc1c90b74)
+
+* Rules to **acquiring the lock**:-
+
+### Locking protocols
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/51b19253-5d92-4124-b008-f0d30216c7c5)
+
+* 2-phase locking protocol(2PL)
+
+1) Basic 2PL
+2) Strict 2PL
+3) Rigorous 2PL
+4) Conservative 2PL
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f82f36a5-0539-41ab-95ef-e69fad894a1e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6bf87ed7-5873-4f8d-9d54-dcb26c3dcc34)
+
+* Basic 2-phase locking protocol
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/200ca247-cfc7-4828-84e2-bda4d37d3d03)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3071972-178b-49f7-b446-0d69e2b7a918)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3cdf18b8-4030-42d0-a971-4171f791aa50)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/801252dc-adc7-46ba-aa26-b94e7e7ef5b5)
+
+* **Correct** according to **basic 2PL**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/61f4371d-1b8d-473a-8539-c8c5bf075155)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33390eb1-f746-47c6-a262-4af08e1d0e9d)
+
+* **lock(z)** not allowed after **unlock**.
+* We can take **locks** at anytime but after **unlock** we cannot take **any locks**. This is the **only condition**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/49f3a364-c9f9-4c6e-8cf4-dfe78a2bc0b1)
+
+* **Correct** according to **basic 2PL**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/679edca6-8b1f-41ad-bf44-3104d961ba70)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a990ca8-2343-413c-b4a8-f5d274bf7844)
+
+* **Upgrade** happens within the **same transaction**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0d4f80a-c831-4690-a4ec-80c26c18cf15)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b1979a7f-2749-4861-bb90-fc396918abeb)
+
+* The **given schedule** didn't run as it is because of **basic 2PL**, the style of the run has been changed.
+* So, we will say that the **given schedule** is not allowed under **2PL**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8c4d829-e031-4a94-90a8-b30434b7eb97)
+
+* Given schedule is not allowed ubder basic 2PL because it does not run same as given.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac56739c-d471-49c7-86e5-8873cc9e42b3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1493af6c-f27c-4f1d-b86f-f49cf13ffb88)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e2dff856-f1e2-47b0-9285-1dea585eae6a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/400effd1-36cd-4a70-890e-9e54d4e285c5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3500d7c0-1897-493e-8cd6-7ba0a370b630)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19607c40-8a8a-4648-9fc3-81a36d9cc567)
+
+* Every schedule which is allowed under basic 2PL, is conflict serializable also.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fecdfb39-7e68-4ef6-9891-243a371fe3a5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f5bf23c-e817-4a78-a4a4-7a28eb035451)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76a9eaee-e139-4652-a9b6-065f1483b7a3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0b53a5c-997e-4f0b-9532-4c5bb357494d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/625f071e-c843-41d6-a245-79bccde4a195)
+
+* Not serializable.
+
+
+
+
+
+
 
 
 
