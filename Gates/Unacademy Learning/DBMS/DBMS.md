@@ -5805,8 +5805,58 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 * After sometime, **T1** has unlocked the lock taken on **X**. As soon as it(X) is available, **T2** transaction is **unblocked**. **T2** transaction has come back and the two statements of **T2** are run.
 * **T2** transaction didn't do any **busy waiting**.
 * **Advantage of removing busy waiting** -> The unnecessary usage of resources of DBMS has been **saved**.
+* Time is **saved**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91ca9aef-b517-4255-bfc5-2966c06945e7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d538b38d-38cf-4343-855a-5886b2b6392c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3150d46a-c596-4bd0-9796-9cde14130ea4)
+
+* On the **same data item**, we can put **multiple shared locks**?
+
+> **YES**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4790672d-bf5f-4572-9abb-526e64f50a30)
+
+* **W(X)** on **T2** tried to take **exclusive lock** on **X** but it shouldn't take because **T1** has already taken a **shared lock** on **X**.
+* So, the **transaction, T2** is in **blocked state**.
+* **T3** has **R(X)** and it tries to take **shared lock** on **X**. **T3** is successful in taking **shared lock** on **X** even though there is a **shared lock** already taken by **T1** on **X**.
+* It is because **shared locks** can be taken on the **same data item**, multiple times.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/658d4b49-3501-4ac5-be58-223e4068611e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7435c96c-6a03-43a0-9a0d-27fec87c8c81)
+
+* **T1** has released it's **shared lock** on **X** and because of that **T3's shared lock on X** is also gone. Now, **T2** is **unblocked** and **T2** can take **exclusive lock** on **X** now.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65c9a98b-cd90-4ccf-a927-36574389a7f0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/13e29cfe-115c-413a-8744-43dea4af987c)
+
+* So now, **T3** has **shared lock** on **X** and **T2** has **exclusive lock** on **X**.
+* This is a **problem**.
+* If **two shared locks** are taken on the **same data item** then **no. of unlocks** should be the **same** as the **no. of locks** taken. As in here, **two shared locks**, so **two unlocks** should be there before **T2** can take **exclusive lock** on **X**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e654e68d-f1b3-4f74-bdaa-bf51185a8631)
+
+* When the **count = 0** then only the **lock** should be actually **unlocked**. After that only **T2** transaction should be **unlocked**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf1105cc-2a40-4f25-9df5-45e43b1f4846)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b7125b61-8136-4fe8-8fb2-9af0c5a37f56)
+
+* Blocked transactions is unblocked only when **count** becomes **zero(0)** for **multiple shared locks**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ce0935b-acfc-43b0-bd0e-15816d5ecd98)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a5be5ce-0774-403d-9bf4-b30ceff2fbd9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d9e5428-8992-4925-92cf-024bd25ef946)
+
+* Here, when a new transactions keep asking for shared locks on **X**, then **T2** may **starve**.
+* There is a **solution** for **starvation**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eaff4c4d-8682-4937-b4bf-ef954fb694f0)
+
+* When **T4** tries to take **shared lock** on **X**, then there is a **condition check** that happens. If no any blocked transaction on **X** then allowed otherwise blocked.
+
+
+* We are checking that there is any transactions that are in **blocked state** due to **exclusive locks** that are taken on **X**. If so then **shared lock** cannot be taken.
+
 
 
 
