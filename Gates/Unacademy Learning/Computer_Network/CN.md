@@ -7496,11 +7496,17 @@ which is **/13**.
 
 * We know that **fragment offset field(FOF)** will only take those numbers which are **multiples of 8** and divide that number by 8 and put it(fragment offset field(FOF)) there.
 * For the **first one(0)** there is no problem.
+* For the **second one (180)** it is not a **multiple of 8**. Therefore we have to write here only in **multiple of 8**.
+* For that to happen, the **no. of data bytes** present in the **first fragment** should be in **multiple of 8**.
+* We will try to put as much bytes as possible in the **packet** and still see that it is a **multiple of  8**.
+* In this case, **176** is the **biggest number** which is **less than 180** and a **multiple of  8**.
+* Instead of **180** we are writing **176** only.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05010627-ed55-4dba-b3de-6a1913e9606f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7690ef80-4659-453d-b513-0c83bf4be123)
 
-
-
-
+* If we write **176** and so **176 bytes** are ahead of the **second fragment**. Then the **offset** for the **second fragment** will be **176/8 byes** which is **176/8 -> 22 bytes**.
+* THe **fragment offset** is **176** but when we try to store it in the **fragment offset field(FOF)**, we have to **divide the fragment offset by 8** and store the **result**.
 
 
 
