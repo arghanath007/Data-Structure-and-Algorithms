@@ -7387,6 +7387,123 @@ which is **/13**.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/022f7737-3fb0-4428-8d79-31059a78cf52)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0dff77b7-1ee5-44e2-956c-cdbfad86c75d)
 
+## arp-special-address-127-rarp-bootp-and-dhcp(52) [31st july 2023]
+
+* We are talking about **IP datagram**. We are not talking about the **entire frame** in the **DLL** layer.
+* THe **IP datagram** is containing **20 bytes** of **header** and **500 bytes** of **data**.
+* **MTU** means whatever the **DLL** layer can carry.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f3a6d633-268c-4296-8460-54af6c8e09b0)
+
+* If it is the **entire DLL frame** then that is the **MTU** which is given as **200 bytes**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc8cccdc-b131-4bf8-9a4c-d6cb0e946ebd)
+
+* We have to take the **packet** and put it(packet) in these particular **200 bytes MTU** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d23c043-b961-46d7-b8d0-17d6bee0dccc)
+
+* When trying to solve **above type of questions**, Two things are **important**:-
+
+1) What is the **size of the datagram** that is coming.
+2) What is the **MTU** in the network that the packet has to go through.
+
+* A **DLL** layer frame is having a **payload** of **520 bytes**. It means the **same thing**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57191884-744b-4a22-ae51-5ef1f9154652)
+
+* We have to **divide** the packet in such a way that it(packet) will contain **20 bytes of header** in **every datagram**. The **datagram** is divided into **fragments**. Those **fragments** should have **180 bytes of data** and **20 bytes of header**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76d698b1-3ab2-4a91-bdc0-58a439a78ee8)
+
+* We are taking the **500 bytes** packet and dividing it into **3 fragments**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0cb0f058-2bc5-4d34-9507-02f3896cb5f7)
+
+* At the **source**, **transport layer** is doing the **segmentation** according to the **MTU** of it's own network.
+* **Source** doesn't know what the **MTU** of the **other network** is.
+* **Source** will only know the **MTU** of it's **own network**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b5fd768-47c2-4e05-a411-70ab460fccc1)
+
+* At the **source**, **MTU** happens to be **520 bytes** that is why it is sending a **520 bytes packet**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e7cd8328-5892-41e0-8076-2958520d294e)
+
+* The **3 fragmented** packets are created and who should o the **re-assembly**?
+* **R1 router** has **fragmented** the packets.
+* Can **R2 router** do the **re-assembly** of the packets?
+
+> **R2 router** cannot do the **re-assembly**.
+
+* Why **R2 router** cannot do the **re-assembly**.
+
+> **Packets** might take **different routes**. There is **no gurantee** that a **router R2** will get all of the **fragmented packets** for **re-assembly**.
+
+* Reasons:-
+
+1) All packets might not reach the **same router**.
+2) Further fragmentation is required.
+3) It is unnecessary burden on the router.
+
+* That is why **router** is not going to do **re-assembly**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/631e69c9-bb4c-40c4-801a-5e107226621a)
+
+* **Re-assembly and fragmentation** happens at the **network layer** and not at the **transport layer**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ad217cd-857d-45ee-a5c7-1e7e71fc7aa1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1fac1e55-649b-4f71-bff2-d1d74c65f5aa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/21b04106-0ba4-4c54-a9a5-bac7ea2cc2b7)
+
+* For all the **packets** the **identification number** is **100** only.
+* **Receiver** will understand that all of the **fragments** are from the **same packet**.
+* The **fragements** could go **out of order**.
+* **offset(off)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6bd3e810-b6aa-4110-be10-a91bce746667)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a4d31cc9-ef18-4e5e-b8d8-525dd299c829)
+
+* There could be **two packets** with the **same offset number of '2'**, then we can try by putting **1.1 and 1,.2** in the **further fragmentations**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/21fd5c0e-8334-46a9-a7ef-36e8f94bd5f8)
+
+* First -> 0
+* Second -> 1.1
+* Third -> 1.2
+* Fourth -> 2
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f482548-4583-4cd2-bfaf-48c90b4b59c7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd2b7cef-e3f4-4d4f-b1b7-c3266d054ccb)
+
+* We should number the packets in such a way that they ae **scalable**.
+* We will use **datawise numbering**.
+* **Offset** is designed in just a way that it is actually **scalable** for **further divisions**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5f629ed-7d75-4f2c-a606-a0dbdfc54f8f)
+
+* If it is **first fragment** then before it(first fragment) there is **no data**. So the **offset number** is going to be **zero(0)**.
+* Coming to the **second fragment** then before it(second fragment) there are **180 bytes**. So the **offset number** is going to be **180**.
+* Coming to the **third fragment** then before it(third fragment) there are **(180 + 180) -> 360 bytes**. So the **offset number** is going to be **360**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95c15c26-0ef0-4074-9496-ce9d0d0a67d5)
+
+* Where are we going to put the **fragment offset**?
+
+> There is a field called as the **fragment offset field(FOF)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c02ba3bd-fc0f-4b22-be52-6f78f4d286f5)
+
+* We know that **fragment offset field(FOF)** will only take those numbers which are **multiples of 8** and divide that number by 8 and put it(fragment offset field(FOF)) there.
+* For the **first one(0)** there is no problem.
+
+
+
+
+
+
+
+
 
 
 
