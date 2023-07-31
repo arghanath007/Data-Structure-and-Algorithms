@@ -7694,11 +7694,118 @@ which is **/13**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3325d85d-637c-4edd-b44b-08295d389edb)
 
+## bootp-and-dhcp-icmp(53) [31st July 2023]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/00191b6e-3288-46c2-8ce4-adc6f3a66999)
 
+* MF -> More Fragments.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dba1c375-9f40-41c6-8e3b-20b0dec7cb11)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a705bb8-6aef-47bf-8f61-baae82a2c3d2)
 
+* Not all of the packets are **fragmented**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b1fc10a-0fb0-4f8a-8008-0359e7c242c7)
+
+* Whenever **fragmentation** is done, the **parent's offset** becomes the **offset of the first fragment**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa6914bd-9b84-4c07-8810-4f092e326d2a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7fc130de-b983-4c15-a7c4-40cf8e520c84)
+
+* 61 + 22 -> 83.
+* 83 + 22 -> 105.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/18b0d87f-0b50-4188-ac54-aec381ba4afd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ade02a0-d82e-4205-87e6-75cbcea22cfb)
+
+* Parent's data is **multiple of 8**, which is **488** and we divide it into **multiples of 8** then the **last fragment** will also get a **multiple of 8**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2bf2f171-c424-4bd5-bbe4-19b753c47ea4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/de0bcf0b-4b90-45c9-b219-b052d98c5e92)
+
+* The **last fragment** might not get a **multiple of 8** as the **parent is not a multiple of 8**. This is fine because the **parent is the last fragment** and no one is following after it and so the **last fragment** of the parent is the **last fragment** who is followed by no one. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d2a33d6-2d0b-4b6f-aee7-0ac83cec2180)
+
+* If we take a packet which is a **multiple of 8** and we divide it into **multiple of 8**, the **last packet** will also be a **multiple of 8**.
+* If we take a packet which is **not a multiple of 8** and we divide it into packets which are **multiple of 8**, the **last packet** will not be a **multiple of 8**.
+* Since it is the **last fragment**, no one is going to follow it. So, that is fine.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/06683b29-44d4-4d9b-acf7-5f1756f6d37e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/43d59041-84cb-40a1-be63-cd0f3814f043)
+
+## Reassembly Algorithm
+
+* Who is doing **fragmentation**?
+
+> Router.
+
+* Who will do the **Reassembly**?
+
+> Destination.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d2f7ca0c-d615-4465-950a-6e80f8ab0771)
+
+* **Identification number** is used to identify the **fragments** of the **original packet**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0059567-5421-4be3-b85f-d9e23431c4fb)
+
+* **Sorting** cannot be applied directly.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8c0d91f0-b0c6-4726-9982-0c0d9035ce47)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3b2b22d4-d3ed-40c0-beaf-091dbc2a5234)
+
+* We will continue till the **fragment** where the **MF =0**.
+* If one of the **fragment** is **lost** then the **whole packet** is discarded by the **IP layer**. As **IP** is not a reliable service.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f964c426-533f-4b77-82d0-003131e63cf9)
+
+* **Checksum** has to be calculated whenever **fragmentation** is happening.
+* **Checksum** has to be calculated at **every router**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/acf06d64-5aa5-4e5d-8a42-2e9d6433fb0f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9cdb5cde-3bcc-43e4-8880-96fecc39240b)
+
+* Reassembly Algorithm.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/afc54e5c-ccc9-4b6e-a95f-54007f6ad1c3)
+
+* If **MF =0 and offset =0** then there is **no fragmentation**, so we are done. Otherwise if we get any other combination, then it implies that there is **fragmentation** and **more fragments** are coming.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/74a821b9-d183-484b-a54b-79058c7211d5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e64bc509-9469-4274-98c5-b11b6cdfea18)
+
+## ARP
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c97659db-3243-40c2-b8c8-9dd83782848e)
+
+* ARP -> Address Resolution Protocol.
+* Given an **IP address**, it has to give the **MAC addres**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/03cd3cc9-1b79-41e0-a641-367f3370884a)
+
+* ARP request -> Broadcast
+* ARP reply -> unicast
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/796bf0a8-ebc9-4111-a9f1-6a2c93f4725c)
+
+* **ARP** offers service to **IP**.
+* Whenever a **transport layer(TL)** packet comes to **IP**, **IP** is going to give the packet to **ARP** and **ARP** is going to give the **packet** to **DLL** layer.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e2c56c1-20c6-4b6d-a528-a120b0ff6e59)
+
+* **ARP** will see the **destination IP address(DIP)** and it will find out the **destination MAC address**.
+* **ARP** will use the **subent mask** to find out the **destination MAC address**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8ba289d-aa76-409a-a543-7bf099019718)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a08d3323-69d6-4a5d-a8e0-9a93d4a842a1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f207587-ab88-423a-8495-4bf96ffdfa2f)
+
+* The main task of **ARP** is to find out what is the **MAC address** which has to be used by the **DLL** layer.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/88aed84d-6558-4530-863a-ac70652b8720)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/04c8425a-3566-4132-ad26-c42b9ab9ea71)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d097e9de-6c9f-48ba-a197-c7f48e3bab8c)
 
 
 
