@@ -7505,8 +7505,199 @@ which is **/13**.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05010627-ed55-4dba-b3de-6a1913e9606f)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7690ef80-4659-453d-b513-0c83bf4be123)
 
-* If we write **176** and so **176 bytes** are ahead of the **second fragment**. Then the **offset** for the **second fragment** will be **176/8 byes** which is **176/8 -> 22 bytes**.
-* THe **fragment offset** is **176** but when we try to store it in the **fragment offset field(FOF)**, we have to **divide the fragment offset by 8** and store the **result**.
+* If we write **176** which means that **176 bytes** are ahead of the **second fragment**. Then the **offset** for the **second fragment** will be **176/8 byes** which is **176/8 -> 22 bytes**.
+* The **fragment offset** is **176** but when we try to store it in the **fragment offset field(FOF)**, we have to **divide the fragment offset by 8** and store the **result**, which is **22 bytes**.
+* The number which is present in the packet is **22**.
+* We have to understand taht **176bytes** are there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f433506-5ea9-4413-8d1e-c0a61c5220e9)
+
+* For the **3rd fragment**, the **fragment offset** is **176 + 176 -> 352**. So, the **fragement offset field value** is **352/8 -> 44**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8fe13889-daef-4196-8081-553eb3a22d7d)
+
+* For the **given packet**, the **data size** is **500 bytes** and the **header size** is **20 bytes**. The **identification number** is **100**. The **header length field** is **5** because we have to do **20/4 -> 5**, which gives **5**.
+
+ ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b3bfe13a-4365-4a74-8652-1eb4b2924723)
+
+* Total length is **520**.
+* For the given **datagram**, the **MF bit** is **0**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a052140-34ca-43a4-819b-ee0c7b7dec57)
+
+* Why **MF =0**?
+
+> Because **MF** says **more fragments**.
+
+* **Fragment offset(off)** of the **original packet** is **zero(0)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/868c4b97-a43d-40f6-b560-ec8a8aae3926)
+
+* **Offset** says that if anyone is **before it**.
+* **MF** says that if anyone is **after it**.
+* So, **MF =0 and offset =0** means that there **datagram** has **no one** before it.
+
+* **Offset = 0** says that none is **before it**.
+* **MF = 0** says that none is **after it**.
+* So, when a **packet** is **not fragmented** then **MF = 0 and offset = 0**.
+* When the packet is **fragmented** we will see many different values for **MF and offset**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d89f03b3-bf0a-49ee-ac47-58c220dc4293)
+
+* **148** is not a **multiple of 8** and it is not a problem because **no fragments** are following after the **3rd fragement**.
+* If some fragement was following the **3rd fragment** then it would have been a **multiple of 8** because it have to be kept within the **fragment offset field**. So, **last one** need not be a **multiple of 8**, it can be anything.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a9edee9f-090d-4c02-96d7-dbcbc8ae93b3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/544fc4fd-6f1d-467e-bf28-5f8d0aaec194)
+
+* **Header length field(HLF)** for all the **fragmented packets** is **5** because **20/4 -> 5**.
+* Total Length (TL).
+* More Fragments(MF)
+* If **MF = 1** means that **more fragments** are after that **fragment**.
+* If **MF = 0** means that **no more fragments** are after that **fragment**.
+
+* When **FOF(frame offset field) = 0** and **MF =1**, it means that it is the **first fragment** as there is **no one before me** but there are **more fragments coming after me**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/112d03ff-9321-40ce-b58a-1424cba648ae)
+
+* When **FOF(frame offset field) is 'some number** and **MF =1**, it means that it is **some intermediate fragment/packet** as there is **some fragment/fragments before it** and there are **more fragments coming after it**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/467d5191-493f-413c-82fe-2f39d74dd909)
+
+* When **FOF(frame offset field) is 'some number** and **MF =0**, it means that it is **last fragment/packet** as there is **some fragment/fragments before it** but there are **no more fragments coming after it**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a9d59876-6aba-4298-ada4-2675e98ea313)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa9cfada-7907-492c-88a5-b897f35fe1ef)
+
+* Question.
+* How many fragments we got?
+
+> Fragments -> **4**.
+
+* Don't count **header** when we are talking about **offset**.
+* **Identification number** of the **orignal packet** is **10**. So, the **Identification number** of all the **fragments** is **100** as well.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58dfa007-ec80-4350-b2ab-159aaea94e7c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3fa13c49-df6c-411f-80f9-6436e751ebfa)
+
+* We should not take **300** and find the **offset**. We have to take out **20 bytes** for the **header** which leaves us with **280** using that we are going to find out the **offset**.
+* In **MTU** we have to put the **header(H)** as well as the **data(D)**. **Header** is fixed with **20 bytes**.
+* We have to thing about putting the **900 bytes** in the remaining **300 - 20 -> 280 bytes** packets.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6273219c-4daa-4138-9f18-4e9dfd1f5f1f)
+
+* **Header length field(HLF)** is **20/4 -> 5**, which is **HLF = 5** for all the **Fragments**.
+* **Total length(TL)** is **280 + 20 -> 300** and for the **last fragment**, the **Total length(TL)** is **60 + 20 -> 80** which is **80**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/982eda61-8a71-4b1b-a886-306c2bdf1473)
+
+* **Offset value** for the **first fragment** -> 0
+* **Offset value** for the **second fragment** -> 280/ 8 -> 35
+* **Offset value** for the **third fragment** -> (280 + 280)/ 8 -> 35 + 35 -> 70
+* **Offset value** for the **fourth fragment** -> (280 + 280 + 280)/ 8 -> 35 + 35 + 35 -> 105
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5c82324-688e-481e-8508-562f3dff3867)
+
+* **Last packet** need not be a **multiple of 8** but the **other packets** need to be **multiple of 8**.
+* MF -> More Fragments are following
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/474ca6d9-e136-4e3e-ab49-67c732ab8045)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a9762d0-6e61-49f6-9be6-4bfff2f1148c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/716fe242-a0a8-4cb4-b6aa-7423b480cd4b)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/130745b3-35c3-4590-a9df-5a27df85c97e)
+
+* MTU -> 100
+* It means that we know that the **header size** is **20 bytes** which is **fixed** and the **Data size** is **110 - 20 -> 90 bytes**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/74b2899e-501e-4caf-a45c-8643d7ec8eb2)
+
+* For **offset**, we have to see the **parent packet** which is **280 | 20**. THe **offset** of the **parent packet** is **35** which means that **280 bytes** are ahead of the **parent packet**. So, if before the parent, 280 bytes are there then definitely before the **first fragement** of the **parent packet** there are **280 bytes**.
+* If we put **zero(0)** at the **first fragement** of the **parent packet** then there will be **two fragments** with the **same offset number** which is **zero(0)**.
+* It will **case confusion** which is the **first packet**.
+* So, in the **parent packet** whatever **offset** is present that becomes the **offset** of the **first fragement** of the **parent offset**.
+* The **offset** of the **first fragement** of the **parent packet** is **equal** to the **offset** of the **parent offset**.
+
+* **Offset value** for the **first fragment** -> 35
+* **Offset value** for the **second fragment** -> 88/8 + 35 -> 11 + 35 -> 46
+* **Offset value** for the **third fragment** -> (88 + 88)/8 + 35  -> 11 + 11 + 35 -> 57
+* **Offset value** for the **fourth fragment** -> (88 + 88 + 88)/8 + 35 -> 11 + 11 + 11 + 35 -> 68
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ad58aa34-d068-419c-a95a-c3981d945f3c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a323e9af-de2b-479b-b8ed-b4dcfe659571)
+
+* **MF** for the **last fragment** should be **0 or 1**?
+
+> It has to be **1** because if the **parent** is followed by **more fragements** then the **last fragment** should be **followed** by **more fragments**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb165d94-05ac-48e4-961b-7466cd79e644)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a8f17aa-e035-437a-9841-bde6a24b1597)
+
+* The **first fragment's offset** is **equal to** the **parent's offset**.
+* The **last fragment's MF** is **equal to** the **parent's MF**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f0aa90a-95a4-4016-b94f-6e76c458f0ec)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5734284c-da1f-41d6-9b14-018726203ff2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aaf0bdd2-e91d-42d7-8030-1732359be2be)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2fec4009-6adf-42d3-960a-9feabfbb1815)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d7c88979-5700-4427-a148-99092d0c17c1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/18b54ad3-8244-4629-ad6b-e1970ca31e08)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3c4f8d5-4b92-4a73-8623-d79d9a1aaff8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/14914027-54ed-425e-afe5-9511feb00477)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef5ee1da-5d97-4c8b-b5d8-6004c6ac2640)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83fe615f-e269-455b-9412-f4e3ecd5efbb)
+
+* Check the **PDF** here. Read from it.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f3f7b2f2-7282-4c33-8625-53d2cc3e68ee)
+
+* Fragmentation Overhead.
+* We totally got **7 packets**.
+* The **total data** the **7 packets** are carrying is **500 bytes**.
+* The **total no. of headers** is **7** and their **total size** is **7 * 20 -> 140 bytes**.
+* We should sent **520 bytes** if there was **no fragmentation** but we are sending **500 + 140 -> 640 bytes**, which is **640 bytes**. 
+* We should have sent **520 bytes** but we are sending **640 bytes**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5fffc51f-a435-46e4-9253-afa0fc1b3bd2)
+
+* What is the **extra**?
+
+* **640 - 520 -> 120 bytes**.
+* Which is **6 * 20 -> 120 bytes**.
+* **One packet** has to be sent but we are sending **6 extra packets**. Therefore the **overhead** is **6 * 20 -> 120 bytes**.
+
+* What is the **overhead** of the **fragmentation**?
+
+> **6 * 20 -> 120 bytes**
+
+* What is the **efficiency**?
+
+* UB -> 500
+* TB -> 500 + 140
+
+> Efficiency -> UB / TB -> (500 / (500 + 140))
+
+* Efficiency -> UB / TB.
+* UB -> Useful bytes
+* TB -> Toal bytes.
+
+* What is **throughput** or **bandwidth utilization**?
+
+> **Efficiency(Eff) * Bandwidth(Bw)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/14c071f3-5089-411a-8001-c42c2041cabf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16aed3ff-2112-4390-9287-4a8cf1019274)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3325d85d-637c-4edd-b44b-08295d389edb)
+
+
+
+
+
 
 
 
