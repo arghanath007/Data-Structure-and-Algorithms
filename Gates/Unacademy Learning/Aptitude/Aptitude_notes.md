@@ -10258,6 +10258,30 @@ b5da-42ddc3936df0)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1294145b-c440-4470-8fd2-b849981a193d)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e57e217c-c962-42af-94b1-d79055b8a88c)
 
+## percentage-and-di-part-v (58) [31st July 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf6299a7-ee88-4d6f-af05-bf2fe821b47d)
+
+* By what **percentage** has the shopkeeper marked up the goods?
+
+> **50%** markup.
+ 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76001877-7739-45d5-9ddc-bb87a1e81610)
+
+* Discount is **20%**. Even after the discount of 20%, the shopkeeper made a profit of **25%**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4605387c-e14e-496c-9bfc-30d865962607)
+
+* The markup was **56.25%**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e204f5b1-70be-4caf-9a2b-82c208db0db1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3d71ae5-5770-4ccf-97ae-e3c342811bd7)
+
+* We are using **selling price(SP)** as the **junction**.
+* **46.67%** markup in price.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5f5d7ade-3249-4b5b-8c3a-df986bbb975a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/42548256-6bde-4de5-b95f-4cbe6d6c1c60)
 
 
 
