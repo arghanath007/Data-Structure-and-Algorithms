@@ -7175,6 +7175,117 @@ which is **/13**.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37151469-d13f-4e0c-a785-d9ce92533501)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a312925b-a524-473e-aeab-30f1cdb39680)
 
+## fragmentation-with-numerical-example-part-ii (51) [31st July 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c92d7770-16d4-4dd0-905f-eb6f09b5b846)
+
+* Inside a packet there is **20 bytes** of header and then there is **40 bytes**.
+* Sometimes we may have **2 options(option_1 and option_2)** present in the packet, then we are going to separate them out and then we are going to write **no operation** in between the **two(2) options**.
+* **No operation** is going to act as a **separation/gap** between the **options**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ed4a942-12c2-4b49-a4c9-41ff7afaccb8)
+
+* **End of Options** -> As the name suggests, at the end we are going to say that **End of Options**.
+* Both **End of Options** and **No operation** is going to have **different format**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/199c7efc-fecb-48b8-97ae-d2138a935028)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd9b853f-dbf4-49bb-8b7b-8a87cc4482ac)
+
+* All of the **options** are used for **testing and debugging**. **ISP** is going to do the **testing and debugging**.
+* As an **end user** we are not doing **testing and debugging**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/765238ac-e880-4126-87b1-1f0b6958d729)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c03d3f9-66d4-4ee9-8dd5-10efe4432278)
+
+* **Strict source routing** -> It says that exactly what is the root the packet has to take.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a9dc1f37-faa8-4838-93bd-7ae126a95881)
+
+* As a **source(s)** we are connected to the **default gateway(Type of router only for now)**. At the **gateway**, the **default router** is going to set the routing that the packets will go through some network.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/952fbac8-7910-48df-a0c9-9628c73023ac)
+
+* Why is it used?
+
+1) Competitors
+2) Security
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8cd5cd34-fefe-4162-83b9-0ef594eb558e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/abfaf3a5-e369-496e-8e8f-fa1538ce54b7)
+
+* **Loose Source routing** -> It is **Less Rigerous, not very strict**.
+* The packet has to go from **R1 to R4**. We take the packet and it should contain **R1 and R4** but it need not contain **R2 or R3**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/61d360e1-8c32-452f-8588-b6283b006697)
+
+* Timestamps -> THey are used to identify
+* Received(R)
+* Transmitted(T)
+* Whenever a packet is received by the router, it has to **mention two times/things** , when was the packet **transmitted(T)** and when was the packet **Received(R)**.
+* The **transmitted(T) and Received(R)** timestamps are going to say what is the **processing delay(Tp)** at the **router**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc20b7b8-464d-4a26-97d8-e39fc662e0ed)
+
+* Options are generally not used by **end users** they are used by the **ISPs**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81c2562e-98e5-43be-b844-449c3f1b616a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9cffe909-82ac-4eee-87ad-d219def5ff4b)
+
+* Various things about **IP Address**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1654798-0b9a-486b-8934-614f22d62ad7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc493cfe-633e-4fa9-9444-ae6cb325f710)
+
+* IP address is divided into **two parts**, **network ID part(NID) and Host ID part(HID)**.
+* When both the **NID and HID** parts have **valid numbes**, then the address is called as **valid IP address(VIP)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3c277e8-5357-4fe0-8b4b-05ef5104e8f9)
+
+* 1.0.0.0
+* 1.255.255.255
+* Directed Broadcast Address(DBA).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/17876632-13e4-46c2-81b0-4eb51fdf7b4f)
+
+* Limited Broadcast Address(LBA).
+* 255.255.255.255
+* Network Mask(NM) or Subnet Mask(SM).
+* N/W -> Network
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/944a6eb7-6376-4209-b41a-413c3afdb70a)
+
+* Host within a network.
+* When the communication is happening within the **same network**, we actually don't have to send the entire network address. We can just put **zeroes(0)** in the **network ID** and send it.
+* In the **network ID** we have **zeroes** and in the **host ID** part we have a **valid number** then the **number** is called as **Host within a network**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c3db0e08-78bd-4021-b443-77919dc4a5b7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0a60c04-57e7-46f0-ab17-740b91410a33)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc82ebfe-4c5e-4a14-aaa4-a4c14085dea9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f48a301-4c38-45a5-8f8f-0fac1f32d0e6)
+
+* IP -> Software Number.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/75bbf0a2-7fc2-4bb1-b8aa-04c64b0195be)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/244aa6ee-b5d5-4995-9422-7b20cd265357)
+
+* 127 -> Loop Back Address.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5a31cfd-f01f-496a-b160-7c7d86b5f40c)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
