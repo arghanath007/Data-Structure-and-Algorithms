@@ -7272,18 +7272,120 @@ which is **/13**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5a31cfd-f01f-496a-b160-7c7d86b5f40c)
 
+* In **network layer**, the protocol we are operating is **IP**.
+* The **size of the network layer** is **65535**. This is the **total size of the network layer** packet.
+* If we want the **data size** to me **max** then the **min. size of header** is **20 bytes**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be98cd72-2fa9-4ab6-88f9-d144cd3ecfcc)
 
+* The **max** size of the packet in **transport layer(TL)** is **65515** and **20 bytes** is taken for **header size** which is the **min. header size**.
+* The **max. size of the data** is **65515 - 20 -> 65495**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30b9b4f7-0f0a-4b2a-8057-a29d67fdc0d6)
 
+* At the **application layer(AL)** it can **produce any size data**, it doesn't worry about what is happening below.
+* Any size data is given to the **transport layer**.
+* It is the responsibility of the **transport layer** in-order to break the data into **small pieces** and send it in a size that it can fit in the **network layer**.
+* The process of **breaking any size** data into parts which can fit into the **network layer** is called as **segmentation**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ca71c1c7-405d-4ba5-af97-a5743858921e)
 
+* The **max data** we can send in an **enternet packet** is **1500 Bytes**.
+* Ethernet is only able to take **1500 Bytes**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb44a22a-4f91-40d9-855f-869bec8bbe72)
 
+* **Network layer** is sending the packets to **DLL** layer, it should divide the packet into **small-small** parts so that it will sit in the **DLL** layer frame.
+* The process of dividing the packets into **small fragments** at the **network layer** to be able to fit the packets in **DLL** layer is called as **fragmentation**.
 
+* MTU -> Maximum Transmittable Units
+* MTU for TL -> 65495
+* MTU for NL -> 65535
+* MTU for DLL -> 1500
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f2686546-5f61-47c2-a5f2-532f1379c77b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85324389-1957-4d47-9cbf-f6aa47b79561)
 
+* When the packet is taken by the **DLL** layer and it it going to add **header(H), tail(T) and many other things**. This is called as **framing**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b9d06b89-3ea9-4b2c-980b-98c80a3fcd76)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ac3ef0b-937e-4c13-8059-f4294c130474)
+
+* These is for **IP**.
+* Can we avoid **fragmentation** at the **source/sender**?
+
+> **NO**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/182d61ac-f987-4d41-9c30-54c06efda265)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b8c8215-1656-46a9-a7e6-4bb63153841c)
+
+* So, at the **source** we never do **fragmentation**.
+* So, **fragmentation** is done at the **routers**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/42cdd038-b664-4b8a-a160-736b8d05062e)
+
+* What is **MTU** here?
+
+* MTU -> 520 Bytes.
+
+> **MTU** means the **payload** of the **DLL** layer. It means in the **DLL** layer, we are having a **header(H) and a tail(T)** and the remaining body can carry **500 bytes**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8d2cc59-c256-434f-a056-021bbede210c)
+
+* **MTU** is **max. transferable unit**. So it is nothing but the **payload of DLL** layer which is nothing but the **max. size of the IP packet**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e87cee33-3837-44fc-a0c4-b913faedc9e3)
+
+* When  a **DLL** layer **frame** is present and it will have **header(H) and tail(T)**. When we generally say **MTU**, we are talking about the **size** in which the **network layer packet** can sit.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b7ae9de9-21ff-4601-9446-c95abce26d61)
+
+* When we say **520** is the **MTU** then the **network layer** packet along with the **header** should be **520**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/869f7b39-2736-4c02-9b64-bb76c0cb2a6c)
+
+* When talking about **MTU**, they are talking about the **max. size of the data**.
+* Don't take the **entire packet** as **MTU**.
+* We are only talking about the **data part** of the **DLL** layer. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e5c6d28-66aa-4685-a592-62cd8bff3bfb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f9a262c5-4e9f-4ab5-b9dc-653fb318e9e1)
+
+* What about the **data** in the **network layer**?
+
+> If **MTU** is **520** and the **header size** is given as **20** at the **IP** level then then **max data** we can send at the **IP** level is **520 - 20 -> 500**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff67b922-60aa-4ed8-ab8c-b03d6981b009)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b8d297c-6c46-4b69-838f-852b0e291362)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f6792a4-12f8-4308-89b1-85c8d202ba46)
+
+* We want to send **520 bytes** of packet but it is saying that it can handle only **200bytes** as **MTU = 200 bytes**. We have to take the packet and we have to **fragment it** and then **send it**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0c3e81a-35b6-44ce-8886-d004c703e967)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33c680b0-7d32-4303-b04f-944600ad3535)
+
+* **Fragmentation** is not going to **increase efficiency**. We have to again **re-assemble** the packets at the **receive's end**.
+* Sender will not know the **MTU** of the **other network**. Sender will know the **MTU** of the **currrent network** only.
+* Sender also doesn't know the path in which the **packets** will be going.
+* So, it is reasonable for us to burden the **router** to do the **fragmentation** and not at the **sender's side**.
+* **Sender** is never going to do the **fragmentation** headache. **Router** is going to do the **fragmentation**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e2e6089-e644-4927-9208-93efafa58bcd)
+
+* The **router** will take the **packet** which is **500 bytes of data** and **20 bytes of header** and the **router** will try to break it(packet) in such a way that every packet has to have **20 bytes** of **header**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/390184dd-3251-4927-9f9b-9bcc2e70355b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb023da5-cfc4-4ec7-b386-0a70a453a85e)
+
+* We are **copying** the **header** from the **original packet** into the **fragemented packets** made by the **router**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19b80efa-f4f1-4c0e-b11e-b2a8597a03a9)
+
+* The **identification number** of the **original packet** is **100**. So the **identification number** of the **fragmented packets** should be **100** as well.
+* It is because the **identification number** says that all of the **packets** are the **fragments** of the **same packet**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/022f7737-3fb0-4428-8d79-31059a78cf52)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0dff77b7-1ee5-44e2-956c-cdbfad86c75d)
 
 
 
