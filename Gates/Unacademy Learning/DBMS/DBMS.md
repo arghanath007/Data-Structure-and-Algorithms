@@ -6389,6 +6389,8 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 
 * Deadlock Prevention.
 
+![Uploading image.png…]()
+
 
 
 
