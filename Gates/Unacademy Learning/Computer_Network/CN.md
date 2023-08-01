@@ -7807,18 +7807,142 @@ which is **/13**.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/04c8425a-3566-4132-ad26-c42b9ab9ea71)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d097e9de-6c9f-48ba-a197-c7f48e3bab8c)
 
+## traceroute-pmtdu-routing-and-flooding (54) [1st Aug 2023]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e7209774-cb33-4c7c-8aa5-5837cc0eb0ea)
 
+* We are going to use **ARP** inorder to get the **MAC address**.
+* A host wants to send a packet to a destination. The packet has reached the **IP**. Now, **IP** will invoke the **ARP** inorder to find out what is the **MAC address** that it has to send. We are talkig about the next hop **MAC address** and not the **destination MAC address**. If the **destination** is within the **same network** then the **MAC address** will be the **destination's MAC address**. If the **destination** is in a **different network** then the **MAC address** will be the **MAC address of the router**. Whatever the case it is, we are going to use **ARP** inorder to get the **MAC address** and we are going to put the **MAC address** here(DLL layer) and send the **packet**.
 
+* In this case, **router's MAC address** and we are going to send the packet.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7de17feb-4ed2-4df5-95f7-2ad77b857d73)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d59f931-01dd-4f57-9016-74b910ff5175)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d751cc17-be4e-42c4-8a5f-c64320c50198)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33fa8377-0920-49a7-b394-4d204d258a7c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4ccfabd2-8b61-43c8-bcee-4ab4a78495f6)
 
+* ARP.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d2e5c5aa-2b0f-4ecf-b7cb-b51d09d2512f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/283174ba-11ae-4ade-9410-c8f35a0316d5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98899148-6635-4325-a925-a0553004b910)
 
+* **MAC address and IP** are not permanent. 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/45c9bca6-cc2c-4da4-89c9-f858f6fe4f70)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/372c0e9a-43b0-4019-b4e8-37209ef59c3a)
 
+* **Address 127** is called as **loop back address**.
+* It is **Class A** but it is reserved. 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e51408d0-6130-4a12-8178-5bfc5f3aa11b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65a3d5e3-e1e2-4c2f-bddd-d279c298cd02)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b7d3f7f-5c2a-44c0-901c-cfa37c8ce0da)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/841001e0-c34e-4e46-bdca-44c62eaba748)
 
+* **NIC** is not working.
+* **Loop back packet**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b540e04d-95d0-4b29-bdb9-b48b8290f10a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/49539bca-095b-4ecc-8e3e-497c38d68573)
+
+* We are going to send a packet and the **destination address** of the packet is going to be **127.0.0.1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a476c11-b57a-48f0-8892-e51170957b94)
+
+* PING -> PACKET INTERNET GRAOPER
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc9ec682-34ae-4a63-80e2-463278020f7b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/470eee52-5794-4a53-aa69-9bede3bb59d6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f4137166-2fac-4079-9796-d0cbe6a9815d)
+
+* Testing **NIC** is called as testing **self connectivity**. For that testing **self connectivity**, we are using **IP address 127**.
+
+* Applications of **127**:-
+
+1) Testing **self connectivity** -> Wheather our **NIC** is working or not.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/260501e8-4aa7-4afd-91c3-c8aa4a83de86)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0b13452-ba34-45d3-9e7a-fb20c7ceae6a)
+
+* We are going to send a packet to **127** and it is going to **loop back** to us. Therefore the packet is going to the **NIC** and come back from **NIC**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b00d8ade-a2ea-49de-b155-d9e70c55f5a4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71cdfc16-b75e-4a22-9122-0ee1349d95c3)
+
+* Client Server programming.
+* Shared memory concept.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9604d2f-5675-4884-8204-b16f0d1274d4)
+
+* Client Server testing using **loop back address**.
+* **Port Numbers** are important.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f08d3166-4475-48d2-8857-09283c65c1c0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/75df888e-d2d9-49be-97cc-ddafed2cebb9)
+
+## RARP
+
+* **ARP** will map given an **IP address** to a **MAC address**.
+* **RARP**, **reverse of ARP** will map given a **MAC address** to an **IP address**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c906002-1824-4d1f-9c30-ea9bd9da1fd2)
+
+* **MAC address** is hard wired on **ROM**. It is **permanent**. It is present in **NIC**.
+* Even if we turn off the computer and later we turn it on. Still **MAC address** will be there.
+* **IP address** is a **software number**. It is generally present in **RAM**. 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22f3f5fd-6afe-4057-8ad0-5118d77ce023)
+
+* If we turn off the computer and later we turn it on, we will not have our **IP address** we have to ask someone to give an **IP address** before we start the communication.
+* **ISP** is going to give us the **IP address**.
+* If we are in a **LAN** then we have to use a **local server**.
+* So, **RARP** is a **local server**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b3156299-fbd8-4670-9ad5-f0c6d08fcaf3)
+
+* **IP and RARP** have **no connection** at all, they do no interact with each other.
+* When we turn on the system for the first time, we are going to send a **RARP** packet.
+* There is a server called as  **RARP server**  present within the network,
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4fab4a76-cf4d-4ea7-bff3-78c6dc05a79c)
+
+* **NFS** not in syllabus.
+* Network Administrator(NA).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/971a4902-47a8-4904-8251-5093a7c307a6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e7596a76-29d6-454b-abaf-260434dc1089)
+
+* When the **source IP address(SIP)** is **0.0.0.0** which means that **it doesn't have an IP**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a07d43c-7bc7-409a-bfee-c4f9da4bb057)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/becc6047-9e19-4968-8d58-c98707749d74)
+
+* RARP request?
+
+> **Broadcast**, it is a **limited broadcast**.
+
+* RARP reply?
+
+> **Unicast**.
+
+* In the **RARP** request we are going to put our **MAC address**.
+* In **every subnet** we have to use an **RARP server**.
+* **RARP request** are **Broadcast** which means they cannot leave the **network boundaries**, which means they cannot cross the **router**.
+
+* If we have **4 networks or subnets** in the company then we need **4 RARP servers** which is costly.
+* Even if we have **4 RARP servers**, the entire data is distributed among all of the **4 RARP servers**.
+* When the entire data is distributed among all of the **4 RARP servers** there is a **chance** of getting **errors**.
+* The entire data is uploaded manually. The configuration part is done manually.
+* **Two hosts** might get the **same IP addres** which is a disaster.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e95dd9e1-5293-4905-a891-79bad52e5c55)
+
+* The **mapping** is **static**. It is **not dynamic**.
+* We cannot dynamically change the **IP address**.
+* Because of the **above two disadvantages** of **RARP** we are not using **RARP** anymore and it is obsolete(not used).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3de7187b-d010-40d2-a428-1c027dbd3414)
 
 
 
