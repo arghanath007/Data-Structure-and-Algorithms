@@ -6347,7 +6347,60 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09b35270-562e-44fe-b721-5168dbd53d0d)
 
 * Question.
-* It is allowed under **basic 2PL**.
+* It is **not allowed** under **basic 2PL**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c72b3537-e385-410d-9089-3135fb277876)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/00cea820-e39b-4b04-895e-011f351f94b0)
+
+* It is **conflict serializable**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d2c65db2-3ffd-4c2f-8230-b4f21dc70705)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97f1a4b0-55fd-4eac-8cf4-4fed42d4b416)
+
+* Sequence.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c86cbf3-c96d-41e0-bc1c-aadfb41c7900)
+
+## Timestamp
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/024b83a2-5cbe-4298-b02c-851214b80ddd)
+
+* **DOB(Date Of Birth)** of the transaction.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4364de15-e3cc-4378-8dc7-503eb391e114)
+
+* At what time transaction started.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f4a20765-9feb-485d-bf93-363260870c80)
+
+* **1999** is **greater**.
+* According to **birthday**, the **timestamp value** of the **older transaction** should be **bigger or smaller**?
+
+> **smaller**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a483375-ead4-4ed0-8aa8-b1d7ac0bcab8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a191012a-641e-42e7-a9b0-8e42dc145830)
+
+* Assume there are 2 transactions T1 and T2 and their ressperective timestamps TS(T1) and Ts(T2)
+* TimeStamp(TS)
+* So, **T1** is **older transaction** and **T2** is **younger transaction**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32585ca6-0ea9-43b2-a88f-5af6c8eb823c)
+
+* Deadlock Prevention.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
