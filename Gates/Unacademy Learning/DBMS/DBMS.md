@@ -5945,12 +5945,144 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 
 * Not serializable.
 
+## Basic 2 Phase Locking Protocol
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/279246e3-865c-428e-b0b2-83b86661f87c)
 
+* Whenever needed **write 'lock** and once we have **written 'unlock'** then we cannot **write 'lock'** again.
+* We will acquire all the locks at the start and when we start releasing the locks then we will only release the locks and nothing else, we cannot take anymore **locks** after an **unlock** is done.
 
+* After **unlock**, we cannot take any **locks**. It is for **any data-item**.
+* Take all of the **locks possible** at once and when we started **unlocking** then we will only do **unlocking**, no more taking **locks**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a6bc3935-47e5-4453-9fde-eee99fc96396)
 
+* Once we start **unlocks**, we cannot do **any locks** on **any data-items**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d56e8aa1-a304-4bb1-8aa7-2af50ad326ee)
+
+* This is why it is called as **2 phase locking protocol**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d139252-3b01-41b9-90c0-f9fe365a1acb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cae0086c-256c-4936-8f13-1258bc4e5341)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/79c1525b-7a9e-4c34-8bbc-d8c232746e17)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d2b2d249-9325-4801-9195-1f666652f57e)
+
+* If we did **unlock(X)** before **W(Y)** then also it would be **correct according to Basic 2PL** because we are not accessing **X** anymore after that. So no problem. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c712ebb4-d96e-4e96-b3ba-351c99d6a78a)
+
+* **lock(Z)** is not allowed after **unlock**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ee226c3-bb5b-4b7c-9152-58f9312ababe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/422b4317-00d5-4cfa-9405-0bb4162c873d)
+
+* This will work **no problem**. **T2** will run after **T1** has unlocked **X**.
+* **T2** was put in **blocked state**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98341497-322e-45c7-8e83-b8218176fe36)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91fe47db-2c5c-4eeb-99af-7da3c079d3ae)
+
+* **Upgrade** happens within the **same transaction**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b442ad2-c8c5-42cb-ae3f-bd523fef64d6)
+
+* In the **given schedule**, when we applied **basic 2PL protocol**, the schedule didn't **run as it is**. It run like **below(Run actually like**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dad83f03-0f32-4a6e-962f-464a9f35e9bc)
+
+* In the **given schedule**, it didn't **run as it is** because when we applied **basic 2PL protocol**, the style of it's run **is changed**, then we will say that the **given schedule** is not allowed under **basic 2PL protocol**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f81f80ea-67ff-466f-bf20-cc2089741cf8)
+
+* Given schedule is not allowed under basic 2PL because it does not run same as given.
+* The **sequence of run** was **changed** due to application of **basic 2PL protocol**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d45d276-90db-49d7-9af4-e5045084b7e0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/281c92f3-5ea8-4d35-a5ea-81ca25a600fd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eff14e35-1bae-4b60-b252-9792bd29527a)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9c13ee2-34df-4508-9e2d-4c19dfc9f1a4)
+
+* Not Allowed under **2PL**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32c3099d-8ac1-4587-a514-a4c00987b6ab)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81b2c825-ffed-4c94-bbfe-d3f653c1e26a)
+
+* In **one transaction**, we cannot take **lock** after an **unlock**. [**IMPORTANT**]
+* But we can take **lock** in the **other transaction** though.
+* We **unlock(X)** in **T1** and we did **lock_Ex(X)** which was in **T2** transaction. So we are taking **lock** after an **unlock(X)** but in a **different transaction(T2)**, so **no problem** here.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d8b2e2e-500c-4284-b33d-68d1e6b933a6)
+
+* **Unlock** keh badh **lock** cannot happen in the **same/single transaction**. **Single transaction** will not do that.
+* It is **possible** in **different transactions**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d58883a9-3767-4a80-ad7a-798f6aa81dc5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b112fba0-f3f2-44f9-bd72-32bb13c174d0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a19bfb78-f0af-4130-8a15-cff2b10fc250)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/913744fd-b5a6-45e0-b33a-c7d3a8891bc0)
+
+* Allowed under **2PL**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e521c63-bc6a-4eb7-a777-1c41cff278fb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5450f5e5-db19-4222-b745-6b7d64e478c1)
+
+* Every schedule which is allowed under **basic 2PL**, is **conflict serializable** also.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ad4c39dd-cfaf-4d21-9d93-25e4d3ba32bc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44c085a6-d7cb-4b76-9019-6c86bf9f618c)
+
+## transaction-concurrency-control-part-v (27) [1st Aug 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d14cb68c-ca84-4255-a623-ae941bda355d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d5b36f4-11bf-4fde-a955-a15505a69b43)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dfbcc483-5789-4476-b8f9-47fe4cf4e82a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0267cf45-85c2-43eb-bee1-d13498705e17)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a63ac1f-af46-423c-b4d3-b6745d9f5d76)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c429e055-6808-4093-b785-5ea266827349)
+
+* Won't be allowed under **Basic 2PL**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ae31491-7c8d-43e4-8c38-6d341fdd6d8c)
+
+* Not allowed in **Basic 2PL**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb500419-7725-4dd5-b9fb-958b2f09c300)
+
+* We will run **unlock(X) and unlock(Y)** at **10:15AM** so that we can do **lock(Y)** in **T3**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/030b18c2-9de7-48ea-8d0f-c0e60e3ef77c)
+
+* Not allowed in **Basic 2PL**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d78ea22-6de6-4b9b-891d-0c78795d4007)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d1ccfa7-b8a4-4444-8e69-fb2be3e250ed)
+
+* Won't be allowed under **basic 2PL**.
+* **T1's released lock** can be used by **T2**, **YES**.
+* **T2's released lock** can be used by **T3**, **YES**.
+* **T3's released lock** can be used by **T1**, **NO**, it is not possible.
+* It is because when **T3 releases it's lock**, then **T1** cannot take **lock**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19989d43-aa7a-4fea-92c4-f7a12d68ebaf)
+
+* Yes.
+* The lock **T1** has taken on and **T2** wants to use that then after **T1's unlock**, **T2** can use it.
+* After **T2's unlock***, **T3** can use it.
+* **T3's released lock** cannot be used by **T1 and T2** because we cannot do **locking later** after **unlock**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/11f29fdf-4f87-4201-8908-08b0470fd970)
+
+* So there is **no chance of 'cycle'** when we apply **basic 2PL**.
 
 
 
