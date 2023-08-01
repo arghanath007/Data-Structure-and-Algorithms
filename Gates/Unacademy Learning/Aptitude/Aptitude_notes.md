@@ -10432,14 +10432,81 @@ b5da-42ddc3936df0)
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1da59261-9797-4ccf-a03c-0a1102f0a487)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a03d435a-7b79-4a02-988b-94a142e97f27)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/129aae94-5db8-442c-973e-9f3e55426b7f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/46993a40-1232-41e7-a99e-0c2103a37197)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/288badc3-f84a-4527-8add-299b5cbbf199)
 
+* Option **D**. [**IMPORTANT**]
 
+* After **n-operations**, amount of pure liquid left in the cask.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a0e08ed9-316d-4935-b511-5d0cb7480746)
 
+* [**IMPORTANT**]
+* Formula -> X * ((1 - (y/x)) ^ n)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/54c0d593-1480-42bf-89d2-89b4eaa7598c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0e113a8-ed2c-430d-90c1-1b737804ee17)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8eb286fc-b159-42ad-89f7-5952ccd673ca)
 
+* Question.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9fd82413-3ff7-4782-9adb-35c3b0da699a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8bce8d27-d94e-4c2f-b48d-a4eecb31f399)
 
+* Question.
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/938fc553-eaae-4c4d-9148-7f5d9a9040c7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e31e49d9-088d-4d33-96e6-c73bc840888a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/45ccce77-32fa-43e2-95a3-840395d1d195)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b8b4b71b-87d3-4983-8777-552eb472299d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19103aa8-e8d3-4484-834e-4b73366f9a5e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6235c704-0ed7-4e4b-ad2d-b8072cbc8353)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5305aa76-b165-49bc-9b3e-3acddebe9651)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/380428ce-c8ea-435f-81dc-784829139822)
+
+* Question. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/62507976-d373-4a02-95db-cf13152e6a3c)
+
+* Let, the **population** is **100**.
+* **Proportion** word.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98b0a596-a16b-4638-9296-07686406755c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a20cb5fb-3521-4304-bdac-7b8d8578814a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b9d6d54-1a31-4551-84d8-4d38e4472365)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3177bf29-c6e5-4923-984d-32d4daa402f0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/afec4b06-c846-40e4-a828-dcc335784ed8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/faaf7d9c-42a7-49db-ba8c-64deb54e3f87)
+
+* 2001.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc4686dd-3504-427e-93ec-8280a36b6c6b)
+
+* 2011.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/75739114-2d3b-498d-b22c-09e69da5e6d9)
+
+* Option **A**.
+* QoQ -> Quarter on Quarter.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6049bd43-6434-433b-9b6c-743e53e4c8ee)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/188978a8-2a48-4168-8da0-b28c3b87ec85)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dced6d29-6d60-478a-ba7a-09be6bda8d16)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b069af2-9d6b-42d6-864b-2e96bc5e3cf9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/663b277c-141d-48ea-888c-4c3ac6788522)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/306bdfb0-6bbc-4b6e-b095-726ac9d48a6e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c3748e90-0d7d-4843-b86e-74a6acb76206)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/11f37a37-bcda-4373-bdd2-fb01cf6602a7)
+
+* HW.
 
 
 
