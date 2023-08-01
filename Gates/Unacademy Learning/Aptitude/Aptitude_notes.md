@@ -10369,11 +10369,69 @@ b5da-42ddc3936df0)
 
 * Option **B**.
 
+## percentage-and-di-part-vi (59) [1st Aug 2023]
 
+* Averages of the Average is called as **weighted Average**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/361eb252-5896-40ef-babc-26f31f9ac8c7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/052ac656-38d9-4334-ba70-05bda85ce396)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa96219a-b0af-4d78-8347-b9de04c8977e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc06265d-b4c9-4080-83f9-76522f12f7b6)
 
+* Similar to **Average speed*** in **TSD**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d84f557-9d73-4da7-8f01-15c2771e0bdf)
 
+* 3 : 2 -> M : W [Milk : Water].
+* Mixture Alligation.
+* Same State mixtures we will **mix**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e72973de-239d-464e-981b-a3b3cdf37933)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb28ea77-b457-4ec8-a4eb-3ef30bdfee02)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0392b16f-c9e2-4f2f-8821-07bbfdbd34aa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8592188e-b898-4742-9ba9-59173f16866d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba485045-46ec-4331-b323-7a95375ca4bc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb9cf9b7-1cef-42fe-b443-3c4cf7b843a7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f4c0975-5316-48ee-8ef8-21b75ff0852c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/302c055f-c706-4dfb-85b9-e49f265ebb05)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9fd24902-4abc-4d1c-a971-4d967ab22207)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ddcba5e0-677d-4b8e-8d9c-621325f321c1)
+
+* Question.
+* Option **A**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5f10119f-0407-4912-a3a1-ddeddc88a9d6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3cfca59c-7748-4275-a178-33fe26f5430b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37fd7d7f-2afe-4b6f-b9f5-015c96e75d91)
+
+* Question.
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/77c77b0d-afe1-42be-8313-c79ec542096d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8914c842-89c8-4354-a2ac-a4065f96e6b1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/54ce292c-707c-4ebe-8913-33f3c3c32fa4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/78b8ca62-c83d-4d22-8abf-e0754057e87e)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e826e69-03b7-47af-bbf7-822bd53cba9c)
+
+* **NOTES**:-
+
+1) If nothing mentionded then take the **cost price of milk** as **1**.
+2) Water is present in **abundance** and hence it is **free**. If **price of water** is given then we will take the **price of water**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6f718ef-c80e-4348-99c1-d9b9dae163e0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f593c4d-164d-4f4c-a81c-374fe433906a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32f26c8d-5154-44dc-a0d4-44a2e78fe115)
+
+* [**IMPORTANT**].
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1da59261-9797-4ccf-a03c-0a1102f0a487)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a03d435a-7b79-4a02-988b-94a142e97f27)
 
 
 
