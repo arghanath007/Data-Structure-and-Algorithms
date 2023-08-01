@@ -1,4 +1,4 @@
-# DBMS
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7938bfe2-3ebb-437c-bc84-63df4da463c8)# DBMS
 
 # Course Structure
 
@@ -6290,6 +6290,67 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9ded71e-545a-429a-85f3-e5fa80139204)
 
 * Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b0bfd5f-405b-4bd8-af01-93a6ef2d422a)
+
+* If **T1** transaction **failed** then **T2** transaction is also **rolled back**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e5d7b1f-177c-470f-b102-28c98a257713)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ad7dba1-4d2b-4e0a-9c40-01c7ac21476e)
+
+* **Basic 2PL** allows **non-recoverable** schedules also.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef702ffe-dba2-41bd-8d3b-0697c6a2ee56)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a950985-6435-47dd-baca-d3f2af35a0e3)
+
+3) It will be **cascadeless** because we are doing **commit** first then **unlock** and after that someother schedule accesses that **data-item**. **Cascading** cannot happen and on top of that it will be **recoverable** as well. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44ca78c2-7f86-4fdf-ba9b-d09bc41a6124)
+
+* Yes, rec -> recoverable
+
+4) All of them, **basic, strict and rigorous 2PL** may suffer from **deadlock**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2d0dd1ff-af6b-4eaf-925c-d64886f62266)
+
+* Conservative or static 2PL.
+* Lock all the items before the transaction begins execution by predeclaring it's read-set and write-set.
+* It will **declare** it's **read and write sets**.
+* Read set will have the **shared locks**.
+* Write set will have the **exclusive locks**.
+* **After all of the locks** are given then only it will go forward.
+* **unless all of the locks** are provided/available till then it will **wait**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d5b8bc36-3ea9-4a2a-9eaf-2f2485bdab25)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57e0e14d-0b95-4587-9f7f-5470e68af874)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e77ad05-7941-4e2f-98f9-f2b6b45d2ac4)
+
+* **No deadlock** condition here.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b081907-c9f4-452b-ae24-094d5b258f19)
+
+* There will be **heavy starvation** situation here.
+* **Hold and wait** situation should be avoided here.
+* **Either hold all of the locks** or **wait for all of the locks**.
+* It is an **advanced** version of **basic 2PL**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/01ee9afa-a130-4af7-91a3-e898fb98e2c0)
+
+* 2PL.
+* A schedule is allowed in **rigorous 2PL** then that schedule is allowed in **strict, basic 2PL and it is conflict serializable** as well.
+* A schedule is allowed in **strict 2PL** then that schedule is allowed in **basic 2PL and it is conflict serializable** as well but we **don't know or not confirmed** if that schedule is **rigorous 2PL** or not.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b1eff254-6225-43f9-a4ca-a8f955890b64)
+
+* Example of **basic 2PL**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09b35270-562e-44fe-b721-5168dbd53d0d)
+
+* Question.
+* It is allowed under **basic 2PL**.
+
+
+
 
 
 
