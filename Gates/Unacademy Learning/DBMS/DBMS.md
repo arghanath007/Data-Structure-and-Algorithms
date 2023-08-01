@@ -6238,8 +6238,58 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 
 * In **rigorous 2PL** we can also get **deadlock**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a6b04c17-56ef-4652-86e2-e0cdcd094cb0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fccac95a-9a26-47ee-936d-6c675063b396)
 
+* Question.
+* Not allowed under **rigorous 2PL**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/67e7d205-ac47-46a7-8c4e-bb37eef7401f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/344479f5-9c4a-4e42-af56-7f666712d92f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a443960-76df-4618-8c70-7911b0e9783a)
+
+* Question.
+* It is allowed under **basic 2PL**.
+* There is **no relation** of **unlock and commit** in **basic 2PL**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f05cb35-1566-41d2-a363-6c60a8a64d4c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c551a221-938d-4c11-a93d-754ac70175e3)
+
+* Recoverability
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc9aaf24-9e6c-4bcd-bb7c-eb6e71895db3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba3fcff7-c730-49ec-a21a-2d3c605ef840)
+
+* We will have **Recoverability** problem.
+* **Basic 2PL** which allows have to be **recoverable**, which is **not the case**.
+* **Basic 2PL** does not ensure **Recoverability**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1f7b11a-0f97-4ec2-8828-5b7af0237120)
+
+* **Strict and Rigorous 2PL** don't have **dirty read**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31c62e6b-b712-457e-8a20-86c753336a32)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0951024e-4124-4249-ae6e-4dc5871ab419)
+
+2) Even if the schedule is **recoverable**, it does not mean that the schedule is **cascadeles**. **Cascading** can happen as there is **no trust(no bharosa)** of **commit**. We don't know where **commit** is done(no bharosa).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/377b426c-3f0d-4dc8-baa4-fc5165cd28a5)
+
+* **Basic 2PL** allows **dirty read**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/724bcada-36c2-4d1f-8325-3423b9542a94)
+
+* Allowed under **Basic 2PL**.
+* It is **recoverable** but it is not ***cascadeless**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/776e47fb-de73-4ba3-830c-18d633825517)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3b9abf24-802e-4590-8aad-5f840a279756)
+
+* It will be **cascaded recoverable**. **T1** transaction will take **T2** transaction with it as well.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9ded71e-545a-429a-85f3-e5fa80139204)
+
+* Yes.
 
 
 
