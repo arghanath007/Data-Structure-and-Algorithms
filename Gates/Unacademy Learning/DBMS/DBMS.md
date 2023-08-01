@@ -6389,7 +6389,9 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 
 * Deadlock Prevention.
 
-![Uploading image.png…]()
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f408c2d6-9d54-460e-a91a-15e3a757c387)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5fcec889-d95a-4a8c-9b2f-deed44229149)
+
 
 
 
