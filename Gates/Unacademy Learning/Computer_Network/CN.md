@@ -7944,6 +7944,143 @@ which is **/13**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3de7187b-d010-40d2-a428-1c027dbd3414)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/60cfaf4c-eeb7-4109-b962-ccbf51385bbc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8ebd0b8-aaf7-4554-bc5d-6d52c21d7384)
+
+* **Both MAC address and IP address** are **not permanent**.
+* Whenever we change the **NIC**, the **MAC address** changes.
+* When we turn off and turn on our system, the **IP address** changes.
+* **MAC address** is generally **permanent** on a **host(H)** because **NIC** doesn't change too much on a **host(H)**. Therefore for a given host **MAC address** maybe there for a **very long time** but **not forever**.
+* **IP address** is generally **permanent** on a **router** because our **ISP** will buy IP addresses and ISP is going to assign an **IP address** to a **router** for a very long time.
+
+* **Permanent** -> For a very long time.
+
+## types-of-routing-dvr (55) [1st August 2023]
+
+* NFS -> Network File System.
+* The **storing and retriving** happens over a network.
+* **IP address** is a **software number** which is present in the **RAM**.
+* They have **CPU** but they dont have **HDD**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f22ab960-6267-4975-8a08-3dde37a2d719)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7399130-9439-4d84-ac8a-847be6f3fe42)
+
+* **RARP** is a **static binding**. They are **permanently assigned**.
+* For **100 machines** we need **100 IP addresses**. Even if at a time only **50 machines** are only using the **internet connection** and others are not using the **internet connection**, still we need **100 IP addresses**.
+* There is **wastage of IP addresses**.
+* **RARP** -> Obsolete.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a6923d39-757e-4777-abf3-4868c12f1d68)
+
+## BOOTP
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0ad075a-8278-40b6-98c0-28b6975564d9)
+
+* **RARP** starts at the **network layer**.
+* **BOOTP** works at the **application layer(AL)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc17d0ff-e209-4b42-a3ba-441056029d53)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/78e8e9c0-31ec-4971-9df1-fed97cbf6e98)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e7465ea-61ff-49b2-8e38-895e0ac2f97e)
+
+* We want to ***convert** it into a **Client-Server** model.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc0b3c03-7002-4a44-9b58-de6bd2d8b702)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2095b4c3-bba7-488b-a746-be26f5f414ea)
+
+* BOOTP server -> Client.
+* Host -> Server.
+* Turning it into a **Client-Server** model.
+* Relay Agent.
+* **IP port** of **BOOTP server** is **68** 
+* **IP port** of **BOOTP client** is **67** 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe2aa491-784c-4709-8600-74dbd3ecc446)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a667f95a-833a-4d41-8476-8a4db11cc3da)
+
+* **Only one** broadcast message and all the remaining are **unicast** messages.
+* Everything ic configured by **network Administrator(NA)**.
+* At the **application layer(AL)** we have the **BOOTP client**.
+* At **RARP** we do not have **RARP client**. Netowrk layer itself will start the communication.
+* **BOOTP client** and **BOOTP server** will be there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b52d6e2-6c12-4db9-b356-4242358d4de6)
+
+* That's why it is **Client-Server*** architecture.
+* **Client-Server*** architecture -> Out of syllabus.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0dde0561-2bb5-4f67-9cf5-b08ccd1a3e36)
+
+* Even in **BOOTP sever**, **static binding** is done. [Disadvantage]
+* We are going to map every **MAC address** to some **IP address**, even if they don't want to use it.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44d5d348-582a-4453-8749-4bf8d20f01f1)
+
+* **Advantage of BOOTP** over **RARP** -> **Only one server** is required.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/725119d0-8246-4b30-b1fa-61422b0e77b2)
+
+* If we have **one server** then the **entire data** is at **one place**. Therefore there will be **no duplicate values**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3b54988-0d4c-4a85-8c07-5f0a31cf6bf4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa52ac29-cbb1-47ea-947f-bcd7b74adbf8)
+
+# DHCP
+
+* DHCP -> Dynamic Host Configuration Protocol.
+* We have to understand about the **DHCP table** that the **DHCP server** is going to use.
+* **One part** is **static binding** and **one part** is **dynamic binding**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/708de7c8-c4d6-4bd5-88f6-cc1f70dda41b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2124ed37-d888-4397-bc62-fed12512a820)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d03e53bf-f193-4d43-940b-5ed53af6d313)
+
+* Needs IP address forever -> Router, Servers.
+* Router's IP address should not change frequently that's why **routers** are given **Static IP addresses**.
+* **DHCP table** is created by the **network administator(NA)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/585d3e56-cb45-4478-af27-8f8e98a38f7e)
+
+* Dynamic Binding -> What is the **MAC address(M)**, What is the **IP address(IP)** that is allotted and the **leased/lease time**.
+
+* **Lease Time = 10 mins**. It means that the **host** can use that particular **IP address** for **10mins** only.
+* After **time is over(10mins here)**, the host has to send a message to **DHCP**, asking to **renew(extent the lease time) packet**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/465fa037-4289-44ef-83a0-15cae5381088)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ca05bdea-f71c-468b-98d7-80cb96434d76)
+
+* Only **50 IP** needed in **DHCP** and **100 IP** needed in **BOOTP**.
+* Relay Agent(RA)
+* **DHCP** will also used Relay Agent(RA) and so **only one DHCP server** is sufficient. Therefore the **data** is **centralized**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1744e62-63c5-4ba5-8bee-0552710f2068)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
