@@ -6084,14 +6084,94 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 
 * So there is **no chance of 'cycle'** when we apply **basic 2PL**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69b35491-3c33-4b5d-9833-7c52f3c6d2fa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae88f4b4-f0a3-40d3-bae5-432169fdcd9a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/231eb04b-ea3f-48e7-9180-326d12b81a78)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/538e1122-82f6-44f0-a550-dead04905ebf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f77667b6-b6a7-49df-a6d1-adde4729946d)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09135e9b-1c78-4d7f-ae74-193f38d66375)
+
+* **lock(Z)** in **T3** is **not working** because there is already a **lock(Z)** in **T1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0295e2cf-3be2-4e45-b386-b6ce919764c8)
+
+* We are talking about **conflicting locks**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e6145819-074a-4eb1-a0a2-0e8a0a86008e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2406ecc4-d31d-49ea-8cd7-e980dea177fe)
+
+* There is **no cycle** of **conflict** and as there is **no cycle**, so it is **conflict serializable**.
+* If allowed in **basic 2PL** then it is  **conflict serializable** as well. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bab06c38-97c5-48da-94d0-0cd479c34f28)
+
+* Yes.
+* We cannot implement **conflict serializability** practically.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b3988416-34b7-4813-bf39-4bef57d9c9b8)
+
+* Question
+* Not allowed under **2PL**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a9802808-2240-4134-8b3e-368231fe1c8e)
+
+* **Deadlock**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/edd0fced-2820-4bc7-8eba-8d6cd6e38b11)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/751e4dae-d62e-4bec-8021-f3da50d8d097)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ccdb7dc6-22a6-4bc8-a309-b212fcb0d653)
+
+* Starvation -> Indefinite waiting.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b86cfc8-9d9e-4e4c-bc54-3b54878bb423)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4414b212-4e4d-47d6-b3a2-70cbaa73a777)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5619bc8b-2ece-4c74-be31-832eebbeb7b6)
+
+* **Strict schedule**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d64725d2-8467-4558-a925-62d57c53cf03)
+
+* **Strict 2PL** says to follow **Strict schedule**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/968cb692-a6f6-46ba-981a-920e7959cbd6)
+
+* **Commit** is **important** here.
+* If the **upper one** has done **write operation** then we will do **commit** of it and after that only the **lower one** can do **either read or write** operation.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8afb425c-4592-46d3-aae7-f3a1f30cc339)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/84a4d206-4c7a-4e88-a84a-cbf6ffcc3374)
+
+* After **every write** operation, there should be a **commit**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e56d23b6-d457-4458-b840-4b58e52afc65)
+
+ * Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f624a352-d2bb-457c-98c7-b5249265bbb9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/84752c85-76e3-481a-8564-d80de730c5f5)
+
+* Strict 2PL.
+* Exclusive lock should not be release until **commit**.
+* At the **end of the transaction** when the **commit is do** then we will release the **exclusive lock**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0d85e98-379b-4b03-9391-d9688e9b8a27)
+
+* **Strict and basic** 2PL are **different**.
+* **Before commit**, we cannot **unlock the exclusive lock**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f548c1f3-d0fe-41d3-b0cd-bccf41509da7)
 
 
 
 
 
 
-
- 
 
 
 
