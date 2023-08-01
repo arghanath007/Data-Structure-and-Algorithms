@@ -6167,6 +6167,77 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f548c1f3-d0fe-41d3-b0cd-bccf41509da7)
 
+* We can **unlock**, **shared locks** anytime.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d302c97-8349-44f7-8236-1fa93f3ab39c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c4f88ef-d351-4cfe-a93b-2e76dc1244ca)
+
+* Strict 2PL rules not broken.
+* This is allowed under **Strict 2PL**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8af10561-cf12-4689-80e6-411ae7ad3ad3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/29ec0cf5-1682-42d7-9b1d-d80e566bd750)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b7a1a64-15dd-4d0d-9239-a37d7e2b89e9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/87e3a9ba-e3f1-4d1c-be8a-7b22b9cc3cb0)
+
+* Question.
+* This is **not allowed** under **Strict 2PL**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5cdc52ae-5fb7-4f45-b4df-96b948bc0d24)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb188dae-b157-4f1e-a070-a82ee10c58a1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f27a6db3-c198-4d20-9a5b-243bc9ca4922)
+
+* So, **Strict 2PL** only allows **Strict schedules**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d494707c-9e83-4290-919f-e3d15283dd56)
+
+* Question.
+* This is **not allowed** under **Strict 2PL**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4192de78-e27c-4fec-b93d-6f245886cd7e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/305b957c-c9d8-4bed-9efa-422ccbbe87f7)
+
+* Question.
+* Wherever we want, we can **write commit** statement, here. 
+* This is **not allowed** under **Strict 2PL**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d20e039d-ff74-45fb-bdc3-4313e16af440)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f27491c-c2cc-483c-8ac4-9dfe083198a2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/866545dd-e007-472c-9103-6c30edd32700)
+
+* We are getting **deadlock** here as well.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/45b5cd31-5fda-41ef-bcab-236441582ce4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ffdc5249-3454-408a-ae7d-0448ae04b00b)
+
+* Commit happens at the **last/end**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/75d71d2b-71d2-44a2-a9ce-359fd81084cd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b7e0697e-8099-4e67-8c82-61b79b24f049)
+
+* We cannot write commit in the **middle**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d0fb515-c294-42be-a35a-0967b73d8bb0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1eb3b50d-4067-4852-9cbd-2ebffbf26fc3)
+
+* Committed -> Finished/Terminated.
+* Wapas bhejna ho to **new transaction**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae6e10a9-5a3e-419d-90c4-2f366e811790)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2babf039-4e79-4c1d-a1f6-7c93e611ccd8)
+
+* Rigorous 2PL
+* Every lock(Shared and Exclusive) should be released after commit. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/059027f7-a3e2-433c-92e3-998f54f880f6)
+
+* Yes, **Strict 2PL** had **shared problems**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb930adb-2852-44a1-ad0f-dd41865aad0d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d0de2dc-1804-43a2-87bf-7068968e4ddd)
+
+* In **rigorous 2PL** we can also get **deadlock**.
+
 
 
 
