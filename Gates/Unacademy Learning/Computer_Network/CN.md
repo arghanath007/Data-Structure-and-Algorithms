@@ -8317,22 +8317,97 @@ which is **/13**.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/414756d8-2686-4df4-b5dc-8ba423f4d0a3)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/46592580-c4b8-462f-a2c6-38adad60c41e)
 
+## tcp-header-part-2-retransmission-in-tcp (30) [2nd Aug 2023]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/130e51e3-5beb-4ebe-9d1a-435a5c9429ae)
 
+* Router Solicitation
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0df82037-34fe-4d61-a306-f9ca9b9d4070)
 
+* When a packet is sent, the **gateway** will choose **one of the lines** by **distributing the load**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a362af7e-6661-442a-b125-c7ed2e88ef34)
 
+* It(gateway) will use everyone and get **better bandwidth**.
+* **Reliability** is **increasing** because of **more connections** and **cost** is also **increasing**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5f45f8e1-689c-4f91-96af-40769a733fc9)
 
+* A **new router** is connected to the **network** then the **new router** will send an **ICMP packet** which is called as **router advertisement**
+* Router advertisement is a **one way message**. It is not a **request-reply** message.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c209b57b-8bd6-4380-8286-116b1f765c96)
 
+* Whenever we turn on the computer, what we need?
 
+* We get **IP** from -> DHCP.
+* We get **default gateway(DGW)** from -> ICMP.
+* We get **network mask(NM)** from -> ICMP packet [The ICMP packet is called as **Network mask request and reply**].
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e2ec3c35-9552-49c3-a397-5c89ad225472)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2cca1502-af1d-4654-913f-8cab4d2e86ba)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9808eb8f-3a88-4aa5-a787-e9290c3ed124)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3025f527-dece-4a57-85e5-f72bb76aef63)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c4eb0ea5-8570-4f81-9034-9d27a540d15c)
 
+* Timestamp request and reply.
+* Not every useful.
 
+## Traceroute
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ca3b60f8-92ad-48b1-917e-1b3fe42f0a2b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50dd1075-24dc-4997-9f42-5cc40a17c9a4)
 
+* Whenever a **router** discards an **IP** packet and sends an **ICMP** packet, we will know **who discarded it**.
+* It will also send **why it was discarded**? -> Because of the **TTL** it was sent.
+* **Which packet was discarded**? -> This information we also get.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e529b868-233e-4023-87e3-a457e2107ce0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3bebdfa3-952f-4457-8831-9f5de28c49fc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a41393f-cef6-4033-a537-da0e1e5afadd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c56cc0f-3cc8-42c3-84c2-d39932202ce4)
+
+* We will not get any **ICMP** packet from the **destination**.
+* In **every packet** of **traceroute**, we will put an **UDP** packet and within the **UDP** packet we are going to use the **destination port number** as **some random number** which is **not valid**.
+* The **destination** will receive the packet and whenever the packet is received bby the **network layer(NL)**, it will try to see if the **transport layer(TL)** has **some service/process** running on that **port number**. If it is **not present** then the **network layer(NL)** will send an **ICMP packet** saying that the **type** is **destination port unreachable**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3ae90b1-34d1-45e3-8531-765a0bfb5c29)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6aef3f35-dc39-4e6c-b6e4-f5f033a24fc2)
+
+* **Traceroute** is **not client-server**.
+* **Ping** is also **not client-server**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d22876e2-e8f6-4c5e-b03c-9be4c2c425e1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cdecb5c3-9bf8-469e-adf0-5c356bb3f01f)
+
+* Yes.
+* **Traceroute** is **not reliable** because whatever **routers** we see they might not be the **right routers**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9d3de57-c1da-43cc-a87c-7a6bf80ce8c9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/06f17210-0ed3-4c78-b0d9-b7b172d66977)
+
+* The **routes** given by **ICMP** may not be **right(correct)** because the **routes** keep on changing **dynamically**.
+* The **Traceroute** is based on an **unreliable protocol** which is **ICMP**.
+* **ICMP** packets maybe **discarded** and we will never even get a **reply** that **why the packets are getting discarded**.
+* Therefore, the **method ** is **unreliable**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b83e1e6a-32f6-40c7-8479-9d6d93ebb244)
+
+## Path MTU discovery
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab0a5a6b-6e2a-4d0d-96c9-49cf1e414363)
+
+* If we have the packet to be **not fragmented** then we have to find out **how much 'size' we can sent in each packet**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/235f14b3-a74b-481f-b577-de9b72a5f4a6)
+
+* As a **source** we are sending packets to a **destination**, we want to understand what is the **max packet size** we can sent otherwise there will be **fragmentation** and there will be **reassembly** at the **receiver's end**
+* How can we do that?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa560ffb-51ef-4bb0-90d6-6c8e3d82e826)
+
+* We don't know that.
 
 
 
