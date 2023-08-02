@@ -8055,15 +8055,18 @@ which is **/13**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1744e62-63c5-4ba5-8bee-0552710f2068)
 
+## count-to-infinity-split-horizon (56) [2nd August 2023]
 
+* Pool of IPS -> Collection/bucket of IPs
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c8ceeff-9e04-4166-83de-cd1a69b8d5fa)
 
-
-
-
-
-
-
+* If we have **make networks/subnets** then **one DHCP server** is sufficient. Therefore it is **centralized**.
+* Both **DHCP and BOOTP** use the **same port number**.
+* **DHCP server** -> Port Number -> 67
+* **DHCP client** -> Port Number -> 68
+* **DHCP** is **backwards compatible** with **BOOTP**.
+* Any **BOOTP client** can communicate with a **DHCP server**. 
 
 
 
