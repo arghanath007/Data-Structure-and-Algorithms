@@ -1,4 +1,4 @@
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7938bfe2-3ebb-437c-bc84-63df4da463c8)# DBMS
+# DBMS
 
 # Course Structure
 
@@ -6392,6 +6392,29 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f408c2d6-9d54-460e-a91a-15e3a757c387)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5fcec889-d95a-4a8c-9b2f-deed44229149)
 
+## doubt-clearing-session (28) [2nd Aug 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/87d6db56-d265-450c-ac7b-939cdb306024)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/62aaf118-364f-406b-a431-ca6a39edbeb6)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5c50f282-55ce-4e08-9a47-57f566bddeb2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/342c8696-7e91-4a11-aed9-a48145fcb8bb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a907505-420d-4d76-811e-85ec3ba3ac50)
+
+* Not view serializable.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/40608341-752f-419b-a244-55131284379e)
+
+## Timestamp
+
+![Uploading image.png…]()
+
+
+
+
+
 
 
 
@@ -6433,6 +6456,7 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8c85c2c6-4175-4f9d-afec-62497852924e)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f0dd0f2-0158-4b53-8fef-40f439e627ee)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c22ab88f-5e8d-4d32-bf6a-4f9f85cab65a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7938bfe2-3ebb-437c-bc84-63df4da463c8)
 
 # Joke
 
