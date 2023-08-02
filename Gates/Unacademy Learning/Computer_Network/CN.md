@@ -8187,6 +8187,147 @@ which is **/13**.
 
 * Question.
 
+## lsrtcp-header-part-1(29) [2nd Aug 2023]
+
+* Only on **error**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b5f641c-5c5f-4705-957f-d442c2083b14)
+
+* **Source** will get the **ICMP** packet.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76084495-d047-4253-a265-096740e57947)
+
+* **Source** will generate the **request** and someone, either the **router or the destination** will send the **reply**.
+
+1) Error Handling
+2) Request and Reply -> Without an **error** we are using **ICMP** packets.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/53ff587c-85cb-4500-9ba5-c5d9898cb617)
+
+* TTL is **configurable**. Generally it is set to **32**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/70c638e1-8a1b-4c10-a237-1379074e141d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1ea4ea7-b18a-4737-89c3-1e6dbadd573b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/078a428c-1f03-4b8b-9352-68bde17fcfa7)
+
+* Quench -> Stop.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0be5da1d-9f25-4056-8d3a-0c40823a8ae3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95b3fbbd-6166-44d7-9e66-6c9084498475)
+
+* DHU -> Destination Host Unreachable
+* DPU -> Destination Port Unreachable
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9049e90e-2c90-48d7-a124-4b3d6200c421)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e37bc34-b530-4da9-b201-ab83c7a33a42)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4454da4a-beea-4571-bead-025022326c4c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b9f7cb29-b1b0-4d47-9a13-f7cc1c483344)
+
+* How **R3** knows that the other path is better?
+
+> Routing table and routing algorithms.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d570cf34-3197-4aaf-b3b3-0c7a818dc78b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9effaf6c-cf63-4e10-8c47-6fb48f15e8aa)
+
+* How can we identify which packet is killed?
+
+> By using the **header of the IP packet**.
+
+* The **ID** inside the **header of the IP packet** says which **packet is killed**.
+
+* Who killed?
+
+> ICMP comes back in an IP packet and in that IP packet, the source IP says that **who killed it**.
+
+* Why is it killed?
+
+> Type of the **ICMP** packet.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d0fb9a4-00f8-40ce-9529-8fc1c9287414)
+
+* Whenever the packet is discarded, it is to be cut from the **neck** and not from the **head**.
+* *** bytes** of **TCP/UDP** will also be kept in the **box**.
+* **Box** is nothing but the **ICMP** packet.
+* The **head** is kept in the **box**.
+* The **head** contains the **IP header and 8 bytes of data**.
+* **8 bytes of data** -> TCP/UDP part of the header.
+* The entire part is kept in an **IP packet**.
+* **IP header** knows that the **destination IP address** has to be **A** and **source IP address** is **R2**..
+* The message is coming from **R2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50aa3070-854d-41e0-a38f-36616299bb3c)
+
+* By looking at the **IP header(IPH)**, the **source** will understand which **packet** or what **packet**.
+* The particular **type of ICMP** is going to say **why did you kill me**?
+* The **source IP address(SIP)** is going to say **who killed me**?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/547d76a9-498e-4108-8f4a-76fdd4a92420)
+
+* **IP header** is sufficient.
+* Why are we sending **8 more bytes** from the **inside layer** which is either part of **TCP or UDP**?
+
+> It is because **first read, writes** of **TCP and UDP** contain something called as **port number**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/54dd5a4f-cfaf-465a-a237-a9d4696370d7)
+
+* For both **TCP or UDP** packet, we are going to generate an **ICMP** packets.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/67fc512f-e8b6-4963-a581-751fcaebb4f9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c550e629-f7bb-4e27-bdb4-c636a04873de)
+
+## Echo Request and Reply
+
+* **Echo Request** starts from the **network layer** and not from the **application layer**.
+* So it is not a **client-server** model.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7cf6e975-58c4-4fa4-9f64-ce5c502c41ae)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e7d0714-8f71-46f8-adde-f83073f89212)
+
+* It is used to find out whether a **destination network** is **up or not**, the **destination host** is **up or not**.
+* All the **routes** and all the **routers** are working or not.
+* We can **test everything** with **Echo Request and Reply**.
+* We are going to test **connectivity**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf28bd84-fc1f-408e-acf6-6c83936b0e59)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/64ee20ce-9553-4bb0-911c-59ea88de85b4)
+
+* Echo Request and Reply -> All the router's network layer is working or not.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0978924f-00c7-4837-961c-f68e4683b915)
+
+* Mainly for **testing purposes**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0f28952-b1ca-4233-8f99-dbfc51440895)
+
+* PING -> Packet InterNet Groper.
+* It means searching in the dark.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4f6f33e-817e-45b1-89fd-81e47b7f4e4d)
+
+* Once the packet has come back, the **receiver** will compute the **difference** between the time the packet is sent and the time when the packet reached the **receiver**.
+* That **difference in time(10ms, here)** is called as **RTT(Round Trip Time)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd6e2433-ed35-4dee-8aba-7fe0754d36c7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b704020-c535-4c04-9c0f-112e80e2b3ce)
+
+* Time zone can be **different** between the **sender and the receiver**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c70d5338-c4ad-4936-ac87-a735a0e8dfe8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/414756d8-2686-4df4-b5dc-8ba423f4d0a3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/46592580-c4b8-462f-a2c6-38adad60c41e)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
