@@ -6727,8 +6727,76 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8cf56bb5-61d9-4948-9095-33a152e969c4)
 
 * Question.
-* **T2, T3 and T4** transactions are **aborted**.
-* **T1** transaction is only **completed**.
+* **T2, T3 and T1** transactions are **aborted**.
+* **T4** transaction is only **completed**.
+
+* For **R(X)** in **T1**, **younger transaction** has **written** before it, so **abort**, **T1** transaction.
+* **T2** transaction is **aborted** because a **younger transaction(T4)** has **read**  before **W(X)** in **T2**.
+* **T3** transaction is **aborted** because a **younger transaction(T4)** has **read**  before **W(X)** in **T3**.
+* **T4** transaction is **not aborted** because a **not younger transaction** has **read**  before **W(X)** in **T4**. Only **T4's**, **R(X)** has **read** which is within **T4** transaction only and **not a younger transaction**. So, **T4** transaction is **completed**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36dbdc1c-f1cc-4087-bf3a-2ce1e33217a2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ae26a20-b868-4e18-8dc8-7dd5951e2c63)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/01725695-4496-4562-a725-fb2064049897)
+
+* Question.
+* **T2 and T3** are **completed**
+* **T1** is **aborted**.
+
+* **T1** transaction is **aborted** because a **younger transaction(T2)** has **written** before **W(X)** in **T1**.
+* Rollback -> T1 transaction never came.
+* That's why we set **R_TS(X) = 0**.
+* We will **reverse/undo** all of the **changes** made by **T1 transaction**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/608e280f-2afb-4b1f-b44c-8751dd3ab2e2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ff6865c-7606-47ac-a293-2f08ae585c07)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b2bab48b-9b1a-43b9-ac34-d2c957e96100)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9398593e-c0da-47c5-9b40-d34dd770006d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a6d7a82-d2f1-41d1-b5a6-852ebf5c04db)
+
+* We are getting the **final result** as **expected**.
+* The middle **W(X)** in **T2 and T3** are getting overwritten by the **W(X)** in **T3**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1907df38-291d-4cf1-acd4-8c5684195afb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8eb0b9eb-62f9-4574-8232-2090f8d39196)
+
+* For a **serial sequence** of **T1 -> T2**, the **final value** of **X** must be the value writthn by **T2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b7d73f4-830a-4e58-abea-786a30714e6e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a1965d5-8cba-434d-9c80-309d5da9e17a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d96d9c7-e7f5-438f-b5d2-9d7bc99c460f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab2e3226-f701-4d0c-a7ad-d7249d57e97e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dcd4b423-eff1-4661-b7e9-bcdc1a8717ac)
+
+* The **benefit** is that we don't have to **revert** the **T1** transaction.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e4235ff1-b5d2-4dd5-aa84-479c62d97538)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/399b2b61-b66d-4185-bc47-32c9dc7dc064)
+
+* Allow the operation according to **Thomas Write Rule**.
+* Skip -> Don't perform the **operation** and don't make any timestamp changes as well because of the **operation**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7402cd18-a849-4726-b3ac-7c7b5c1a4075)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86735722-099e-4c25-8244-b1a36c5103e0)
+
+* We got the **final value** as **expected**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/02af2dda-ceab-4d5f-a136-e7e3f5bee05d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ee48a42-0b35-442a-b9aa-14f36d59b8a6)
+
+* No, it is for **write-write** operations comparision only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/88d29c89-e519-440b-9a17-2cc41bb6db59)
+
+
+
+
+
+
+
+
+
+
 
 
 
