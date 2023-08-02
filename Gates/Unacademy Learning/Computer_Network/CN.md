@@ -8555,9 +8555,42 @@ which is **/13**.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/869fe8e9-dff7-4018-bebe-9225e0123f56)
 
 * In exam, they will give us the **distance vector routing** and we have to do the **table**.
+* Below the **graph** the costs. FROM **B**, cost of **A to B** is **2**. That's why we wrote **2** there.
+* Below the **graph** the costs. FROM **D**, cost of **A to D** is **1**. That's why we wrote **1** there.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7404d0e8-68b0-45e3-86af-076761449eab)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c716ad9-e7b1-4f90-b127-efe72341b402)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/07b811c9-3538-4787-b1e1-842f57cae873)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8cac412e-dc1c-4715-a37d-ff300bcff4c0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22211320-6ba0-49b9-84ed-a9501e8933c0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f5a11bc-3746-43a7-bcd2-13019624eb1e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a27fb9aa-b40d-4e15-bbc2-8cd390902996)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66feb21d-8d25-4b37-8a2f-33fd1df4fc8d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/494af127-632e-4153-b42b-033ad21ab800)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e935e12-6aae-4077-b637-4b53ee6bffa0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f59cb12e-4af9-4059-8112-3978dfd2c7b8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0c440b5-f255-4451-90ee-6b4726f80ac9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33541208-71ce-4db6-bec7-18fdba06c8fc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/606aa494-b80b-4ffd-ad6e-84b2a78b0e2c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80739ac2-55a4-4083-ab09-7d85b5577be0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/109eb13d-3811-49ca-b9a6-d9edef452170)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cda4595f-0cbb-4936-9f25-b4c2b6c7781d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0570f615-0136-4c83-b32f-8c311711156f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5c3578a4-5e9b-47a3-9a13-15263a12d6a7)
 
+* Two paths are there, we can choose anything.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8c253384-7c6f-463f-8822-0d4498b6833b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8da4e127-4c37-44d8-a17f-a6c5adea3885)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eae95f14-08b3-42ac-9910-3c2ad5927c31)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f2bca4b-5e30-4c20-88b9-b534f25cc7d2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/737cd841-8604-4381-8525-64cfdf864db1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a14d962-6740-4fc0-9edf-43342d0b0348)
+
+* We got the **final tables** and they are **not changing**.
+* From the **tables** we can see what the **unused links** are.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/68ac59f6-ed82-4ffb-91c0-a1a25136b1e8)
 
 
 
