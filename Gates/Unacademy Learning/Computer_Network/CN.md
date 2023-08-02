@@ -8408,6 +8408,28 @@ which is **/13**.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa560ffb-51ef-4bb0-90d6-6c8e3d82e826)
 
 * We don't know that.
+* DF = 1 -> Do not Fragment [Set to True(1)]
+* Problem is **MTU** which is **500**.
+* The **sender** will understand that teh **size** is **500** and now the **sender** will **reset** the **packet size** to **500**. Again the **sender** will sent the **newly configured** packet.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ac01ac3-56b1-4c26-8dba-77ad0e476338)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f81a35f-1ba1-4da7-96c8-242ba53ef2c7)
+
+* This is how we are going to discover the **MTU** of the **router**. 
+* **Fragmentation and reassembly** is a **slow process**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8f01309-d50e-4ece-ba03-0f8de65dd8ef)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3173428-cb28-4897-a8a2-f232be23252a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4a015f3-4b09-435f-afe0-e3e775338d21)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e7d5a2ce-2858-4d7b-95cc-57f02fc55fff)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b200cd61-a98b-4452-9d74-961f9d8e273d)
+
+
+
+
+
+
+
 
 
 
