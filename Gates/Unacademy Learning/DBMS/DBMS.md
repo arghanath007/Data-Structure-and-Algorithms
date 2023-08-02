@@ -6787,6 +6787,7 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 * No, it is for **write-write** operations comparision only.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/88d29c89-e519-440b-9a17-2cc41bb6db59)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/451e676e-27f1-4134-8f7b-cc22c472f282)
 
 
 
