@@ -6565,14 +6565,162 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 * The  **older transactions** will eventually **terminate**. So, there is **no sense** of **starvation**. [**IMPORTANT**]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ed49a9d-c9ed-4d38-902d-b84cae033248)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b32095c-77ac-4b71-b75b-c089bac8e89f)
 
-* Timestamp based algorithms.
+* Timestamp based algorithms for **concurrency control**.
+* Initially **read and write** timestamps are **zero(0)**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b1f1651e-b154-4872-bff3-ef8b06c36fb2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b2ce4072-1495-4dc1-b455-0867ca6fd8e5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/de7219da-996c-4029-a769-bd0da4f143bf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85ede271-b80e-479b-ae9e-cfa21054bc5e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/88fac306-46c8-4cdb-a865-759155f236bc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/40ba0956-dacb-47af-b32f-fb7c233e1409)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d147218e-e1ea-46c7-b2da-422bd2136194)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0efab24c-673b-4dfa-88e3-ef6f144aea8d)
 
+* Yes.
+* R_TS(X) -> Youngest transaction who read X.
+* W_TS(X) -> Youngest transaction who write X.
+* TS(T1) = 1 
+* TS(T2) = 2
+* So, **T1** is **older** and **T2** is **younger**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f58195ef-0da7-4821-93a7-e0c25a1c7a97)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5515cd2-a76f-4c9f-9c16-7dcd355950a1)
 
+* Basic Timestamp algorithm.
+* In whichever sequence the transactions arrive in that sequence/order only they(all transaction) should follow to run. If there is a confict in the sequence then the **Basic Timestamp algorithm** will reject that sequence. 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f1a26da-23fa-470f-83c4-6ee272e6d387)
 
+* There is **no conflict** in **read-read** operations but in **read-write, write-read and write-write** there is **conflict**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/60989431-75d1-4f6d-8445-e9afd526cc5a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a806eae4-68bf-4c26-840f-592738805a6e)
+
+* TS(T1) = 1
+* TS(T2) = 2.
+* **T1** is **older** and **T2** is **younger**.
+* First **old** then **young** which is **T1** then **T2**.
+* T1 -> T2.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ccabeea-703c-4d94-ab5f-bd89bcce8f02)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7901d441-ad5e-45e3-b23d-0bb43cbaae57)
+
+* There is **conflict** between **read-write** and **write-write**. So, we will not allow.
+* We will not allow **conflicting statements** in the **opposite sequence(T2 -> T1)**.
+* This not allowed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c6ddb8f-5140-4898-9337-b49f306685bf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/90ae6ba9-6d4a-40da-9093-8faeeb061baf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/93dffc33-872c-4d1e-88bd-9bd562820945)
+
+* After the **young transaction's** read or write, we will not allow the **old transaction's write** operation.
+* For **every statement**, the **algorithm runs**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8bd93d00-c127-4ca3-9f34-823730f37dbd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5f0bb49c-57f9-4fbb-91bd-5600727df7d3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4df3779d-21d6-42a4-b4dd-8fd1d9d61678)
+
+* If a **younger transaction** has done **read or write** operation then the current transaction's **write** operation is **rejected and aborted** and the current transaction is **rollbacked**.
+* So the **write** operation of **T1** transaction is **aborted** and the whole **T1** transaction is **aborted** and **rollbacked**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f477f13e-a33c-41c8-9b4d-cb6aeca22c29)
+
+* If the **T1** transaction is **aborted** and **rollbacked** then the **T1** transaction will **restart** with a **younger/young timestamp**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cffc3459-f107-4888-8fc5-4e82dfb1480a)
+
+* If either of the **two condition** are true then we will **execute** the **write operation** of **T2** transaction.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f0892cc-d8f3-4541-907a-a1b16e64ad05)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ccf98fd6-727b-411b-92b9-2b3ac574aa26)
+
+* The **youngest transaction** that has **written on X**, it is **T2** transaction. So, we have to update the value of **W_TS(X)** which will be **W_TS(X) = 2** now. Who has **written** that transaction's timestamp(T2 = 2) will come to **W_TS(X)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3dc98387-cda8-48db-ad6f-64a9aef10b23)
+
+* As the **write** operation is allowed so the **young transaction** has got the permission to **write**. So, we have to set the current transaction's timestap who has performed **write** operation in **W_TS(X)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8126803e-a584-45d0-9112-41154285a061)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c67add70-0f5e-4347-8d3f-2216820aeb11)
+
+* We are simply **checking** that if someone has to perform **write** operation then is it **allowed or not**. Before the **write** operation, someone else has done **read or write** operation then the **write** operation is **not allowed**.
+
+* If before the **write** operation an **older transaction or the same transaction** has done the **read or write** operation then the **write** operation is **allowed**
+* If before the **write** operation an **younger transaction** has done the **read or write** operation then the **write** operation is **not allowed**
+* **Younger transaction** should not do the **read or write** operations before the **write** operation.
+* If a **Younger transaction** does then we **abort** the **write** operation.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f63eb0ab-e870-4f8f-8b7d-446625b04cf3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5511f231-a081-43da-b5c0-7959db8d74e7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/48ba19f2-1cbe-4ddc-81e5-d11f09c391df)
+
+* **R(X)** operation of **T1** transaction is **rejected** and the **T1** transaction is **rollbacked**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31e6ddef-63ac-4e45-b745-7c2f3b550d3e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85fbd9af-d819-4fd6-bf2b-93d6a858cd17)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/860ec550-2e0f-425b-8c99-67a4629d312a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0954d77c-b2f2-4f6c-917f-d2c3e56be22b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d8e7a7b-4710-4cac-b40f-98ab7e64f16c)
+
+* R_TS(X) = max(R_TS(X), TS(T)).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c81f374a-2426-4a78-a025-de8b8df28525)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc3d0128-9ca2-4042-86a6-96609bf18377)
+
+* Ultimately we have to **check** after the **younger transaction's operation** we have to stop the **older transaction's operation** otherwise we will get **conflict**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e33684a8-d388-4dec-9ac4-0093c245960f)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0cf7d17b-a013-4f0c-b99c-c19a002fa2b7)
+
+* **No conflict** in **read-read** operation.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/62222f63-737b-4213-b70c-7a50eed0effd)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/384e8207-ba1e-4498-86c2-d0439e8fdb17)
+
+* Maximum wala point:-
+* **R_TS(X)**, we will not update **read's timestamp** with the **current transaction's timestamp** always.
+* On **W_TS(X)**, we will always update **write's timestamp** with the **current ttransaction's timestamp** because we will never allow the **young transaction** to perform **write operation**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/414513bb-ccb1-4336-9010-b38af0934145)
+
+* Read operation timestamp.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/353b1240-a220-44a0-8784-d2ae39412eb8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/833c41c6-208a-4773-b4c7-f2b822ef328c)
+
+* All statements are allowed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c3728aa-67bb-4e8d-9f4e-122a774a8c27)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d945af13-3ba2-4bf6-979a-fc21cdf69b50)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35c0659f-71b6-49e4-972a-d490975b4e7f)
+
+* **Read-Read** meh **no conflict**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d84e5c91-8f7e-446d-a024-3def3ec08c64)
+
+* For the **W(X)** in **T1**, we will check the timestamps of both **read and write** operations.
+* Any **young transaction** has done **read or write** operation before the **W(X)** in **T1**?
+
+> **Yes** [Read timestamp].
+
+* So we will reject **W(X)** operation and whatever **T1** operation has done **rollback** those operations as well.
+* **T1**
 
 
 
