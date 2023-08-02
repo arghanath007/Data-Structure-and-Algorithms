@@ -6720,9 +6720,15 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 > **Yes** [Read timestamp].
 
 * So we will reject **W(X)** operation and whatever **T1** operation has done **rollback** those operations as well.
-* **T1**
+* **T1** operation is **aborted and rolledback**.
+* So, **T2 and T3** transactions are **completed** . **T1** is **aborted**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8126c0d8-bb60-4b66-8aed-bb6ff0029a28)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8cf56bb5-61d9-4948-9095-33a152e969c4)
 
+* Question.
+* **T2, T3 and T4** transactions are **aborted**.
+* **T1** transaction is only **completed**.
 
 
 
