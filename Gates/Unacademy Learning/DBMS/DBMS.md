@@ -6409,26 +6409,164 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 
 ## Timestamp
 
-![Uploading image.png…]()
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/78e4bb53-e50a-40c1-9068-250d3e8591b8)
 
+* Timestamp -> Arrival Time -> DOB.
+* The time when a **transaction** arrives for running/execution.
+* TS(T1) -> Timestamp of T1 transaction.
+* TS(T2) -> Timestamp of T2 transaction.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e585075-35ae-460a-b85f-fd16e4c690e6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9eb374ec-b9b0-417c-a595-426262ab68c0)
 
+* Who came earlier?
 
+> Whoever's **arrival time** is **smaller** that came **earlier**. So, here **T1** came **earlier** than **T2**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/218fe49b-d342-46c1-be8c-c17e1cd33fc8)
 
+* Came Earlier -> Old
+* Came Late/Later -> Young.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b7b0222-635e-42e6-a9e8-217e73e2d1cd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e34024b-6878-4e42-9cd5-5b8241b83fa4)
 
+* So, **T1** is **older** and **T2** is **younger**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/151d7ece-b33f-4243-b4c3-97e49b90ea7d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3455caad-9676-449c-89ba-0bf2f71684f2)
 
+* Deadlock Prevention
 
+### Wait and Die
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0046f29e-743d-4446-b22a-858478849e03)
 
+* They are not **shared locks**.
+* **Tj** has taken the **X** item. It is already **acquired**.
+* **Ti**, **tries to acquire** the **X** item.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e7171b3-75c0-4118-9b75-56cf13da3f94)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/45cc287e-0a01-467d-9c84-8d365ca54e12)
 
+* Now, we have to check their **timestamps**, who is **younger and older** among **T1 and Tj**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/43d337db-b5e0-4838-8ffb-754028afe2dc)
 
+* It means that if a **lock** is already acquired by a **younger transaction** then we are giving permission to the **older transaction** to **wait** but if a **lock** is already acquired by an **older transaction** then we are not making the **younger transaction wait**, we are **aborting** the **younger transaction**.
 
+* The **advantage** is that a **younger transaction** will **never wait** for an **older transaction** and there will be **no circles**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ebc3c95-d92a-4f32-b49e-6df4d7baa956)
+
+* Because of **circular wait**, **deadlock** will happen.
+* We are **preventing circular wait** here(Wait_Die).
+* **Wait_Die** -> Older transaction **waits** and the younder transaction **dies**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e230485b-e6c8-47ef-b39d-f2d9b9f8c6e2)
+
+* The **timstamps** of **two transactions** will **never ever** be the **same**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b15c320f-5731-4f79-bdb5-4bb78748cf3f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dcaf23db-4909-480a-a34f-09161ac3f724)
+
+* **Ti** which is an **older transaction** as the **timestamp(TS) of Ti** is **smaller** than **Tj**, hence **Ti** can **wait**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc2744f8-ae27-400b-b80c-519f159e9533)
+
+* **Ti** which is a **younger transaction** as the **timestamp(TS) of Ti** is **greater/bigger** than **Tj**, hence **Ti** is **aborted** and restarted with the **same timestamp(TS)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a30058bd-2c63-4897-a7c2-ab6f67314cbf)
+
+### Wait and Wound
+
+* It is just the opposite of **Wait and Die**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f595bdb-d647-400b-afd2-9474728aaa86)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86e83234-5878-4607-9cc9-d190430fe527)
+
+* Yes.
+* Younger -> Wait
+* Older -> Wound.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e47220af-d32c-4b8a-9232-2fb5dcf428f5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/78bcfa6a-e38c-4fe8-8b20-2166bf0807b6)
+
+* Ti -> Older
+* Tj -> Younger
+* Tj has the **lock** and **older** wants to acquire the **lock**.
+* We will **abort Tj** as it is a **younger transaction** which has the **lock** and **Ti** which is the **older transaction** will **acquire the 'lock'**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3caa5e9e-2f6d-4b3a-8d9a-2f0186a154bd)
+
+* Ti -> Younger
+* Tj -> Older
+* Tj has the **lock** and the **younger transaction** wants to acquire the **lock**.
+* So, **Ti** being the **younger transaction** has to **wait** for the **older transaction** which is **Tj**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/829ee23a-836c-42cf-9f10-af323dc80721)
+
+* In **wait and die**, a **younger transaction** has taken a **lock** and a **older transaction** is **waiting** for the **younger transaction** to release the lock. So, at a given time the **younger transaction** has released the **lock** but the **lock** was not immediately given to the **older transaction** someother **younger transaction** got the **lock**. The **older transaction** will again **wait**. The **younger transaction** relased the **lock** and another **younger transaction** got the **lock** instead of the **older transaction**.
+
+* The **older transaction** will keep on **waiting**.
+* There maybe **starvation** for **older transactions**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a73b91b3-8839-4788-8550-6724aaecca3b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41df842f-f428-418c-91af-fd8ca558c2d5)
+
+* There maybe **starvation** for **older transactions** in **Wait_Die**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e83a5162-33d7-4aa7-a28f-e70727f76835)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6349c71f-5a00-4ae8-9286-c4478c044246)
+
+* There is **no starvation** for **older transactions** but **younger transactions** may **starve** if **older transactions** keep taking **locks** for **indefinite time** in **wait-wound**.
+
+* After a **definite** amount of time, the **older transactions** will release their **locks** and the **younger transaction** will definitely be able to take the **locks**.
+* The  **older transactions** will eventually **terminate**. So, there is **no sense** of **starvation**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1bf43272-ac03-4540-a4c1-c9d5647dc0fb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cef48147-33a9-4c6d-b3ec-e7023c26d5f3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f8bcb99c-7807-4649-b398-833eaaffefba)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91a3749d-de82-4592-935e-358767660ce4)
+
+* Question.
+* T1 is older than T2
+
+* T2 -> Acquired the lock.
+* T1 -> Requests for lock.
+* W -> T1 Aborted(Die)
+* X -> T1 Waits
+* Y -> T1 Waits
+* Z -> T2 Aborted(Wound)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/67538294-b371-4a03-b909-d91c30de6626)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb6a9c31-b619-426d-906c-6afc8bcc70f2)
+
+* Question.
+* T1 -> Younger
+* T2 -> Older
+* Option **A**, **Wait and Wound**, example.
+* **Transaction** ends in **definite time**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e573f51e-d547-466b-8d14-c44a79e80408)
+
+* Transaction if not killed will eventually terminate and timely termiante. So there is **no chance** of **starvation**.
+* After a **definite** time, the **younger transaction** will get the **lock**, guranteed.
+* So, it is **deadlock free and starvation free**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1dd61f4a-b823-4bfc-8a4b-f3b3fb5185c1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6e674b1f-f365-4e0b-a720-18bb3613903e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e83a5162-33d7-4aa7-a28f-e70727f76835)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6349c71f-5a00-4ae8-9286-c4478c044246)
+
+* There is **no starvation** for **older transactions** but **younger transactions** may **starve** if **older transactions** keep taking **locks** for **indefinite time** in **wait-wound**.
+
+* After a **definite** amount of time, the **older transactions** will release their **locks** and the **younger transaction** will definitely be able to take the **locks**.
+* The  **older transactions** will eventually **terminate**. So, there is **no sense** of **starvation**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ed49a9d-c9ed-4d38-902d-b84cae033248)
+
+* Timestamp based algorithms.
 
 
 
