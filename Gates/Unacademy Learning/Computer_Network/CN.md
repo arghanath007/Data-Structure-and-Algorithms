@@ -8109,23 +8109,83 @@ which is **/13**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5f3fa95b-71a0-4dcf-bdba-daeb567bcdcd)
 
-* Initially we put **TTL =4** and after **each hop** when 
+* Initially we put **TTL =4** and after **each hop**, the value of **TTL decreases by '1'**.
+* Whenever **TTL** becomes **0**, we are going to **discard the packet**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/170ee503-2fd7-4e12-b5ec-2aa4ae14205f)
 
+* Main purpose of **TTL** is avoid **infinite looping**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/076efa79-1131-42b9-8bd8-df7fcd415c8b)
 
+* Whenever an IP packet is discarded, it is not going to do it **silently**. Every router has responsibility to create an **ICMP** packet. In the **ICMP** packet, it is going to say **"I have discarded"**. 
 
+* From the **discarded packet**, it is going to know the **source IP address(S)**.
+* R3 -> Router
+* TTL exceed -> Hence packet is discarded.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a1d1963-4f95-4189-b653-5460c427efb0)
 
+* TTL = 3, initially.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed2cef53-08ba-4f11-9439-04560f398177)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5c485262-eaa9-4c06-8216-2d02dc2ffb71)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/daadc62b-0848-4a23-a69d-fe80afb5d82d)
 
+* **ICMP packet** will go and sit in the **IP packet**. **ICMP packet** will always travel in the **IP packet**.
+* IP -> Datagram service.
+* So, **IP** is **unreliable or not reliable**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/622ed948-64be-4e0b-b9f2-d9eff11536b1)
 
+* With the concept of **ICMP**, it loops like we have so **reliability**.
+* If a **packet is lost** then we are getting a reply that the **packet is lost**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/efa22be9-a839-48bd-8e02-8c5e88f6004e)
 
+* When an **IP packet** is lost we are getting a reply in the form of **ICMP packet**.
+* When an **ICMP packet** is lost then **no ICMP packet** is created/produced.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e1ea81e-93ae-49ee-a508-265da7d6d1e7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb8a611c-4e74-48f4-9eca-0fe5bec569f3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d9ab315-0282-4504-a768-7b0357a83fa3)
 
+* Whenever an **ICMP packet** is discarded, we are not actually using **ICMP**.
+* **ICMP** has **lower priority**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5918ca32-1138-4324-8d3c-f9c99f821ef0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a49d276-7858-4082-9261-a5df5fc174c2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/11c2e2f4-ca8e-4782-b8c0-1e2f5219bbef)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b9ade078-9293-4e2b-ba87-658356564dca)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/969620e2-d083-4505-8994-b9338199b769)
+
+* RTT -> Round Trip Time.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd53a1d1-ee14-4361-9f4f-9be1157c7cd3)
+
+* **TTL** field of the **network layer**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/983f4f15-fcb3-446d-8a9a-31bc52506d4c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac117a7e-32dc-414c-a167-6655add77bef)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bd4066b2-57bb-4482-b254-8a0125aaff18)
+
+* The packet has reached the **destination** even though **TTL = 0**. Therefore the packet is accepted by the **destination** and it will not send us a **reply**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ead90ea-00d1-4d8d-b2b5-b01314241c17)
+
+* In the **IP packet** here, we are sending a **UDP** packet here and we are using a **port number** which is **invalid**. So, in the **destination host**, there will be **no host** running with that **port number**. So, the **destination** will **discard the packet** and it will send an **ICMP packet** but the **type of ICMP** will not be **TTL exceed**. The message is , **destination port unreachable(DPU)**.
+
+* Previously the error the **ICMP packet** was bringing was **TTL exceed**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a9b8826f-45e1-46f5-b5e1-e505427c9d19)
+
+* This is how **traceroute** program works.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d4e7f8f-721e-4dd2-a19b-ad0845032cc3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/60301e60-2e96-4367-ae9a-1caed7219865)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f21960cd-b3ef-4322-b308-1bef5e773dfd)
+
+* Question.
 
 
 
