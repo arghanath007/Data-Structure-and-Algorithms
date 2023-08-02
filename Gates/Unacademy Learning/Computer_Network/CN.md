@@ -8066,7 +8066,58 @@ which is **/13**.
 * **DHCP server** -> Port Number -> 67
 * **DHCP client** -> Port Number -> 68
 * **DHCP** is **backwards compatible** with **BOOTP**.
-* Any **BOOTP client** can communicate with a **DHCP server**. 
+* Any **BOOTP client** can communicate/contact with a **DHCP server** for an **IP address**. 
+* It is done through a concept called as **abstraction**.
+* BOth the **BOOTP client or DHCP client** packets are served by the **DHCP server**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc353ff6-1f0c-48fb-a5a1-47a4888d9608)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9832442c-b492-4dea-a954-3d5b34d18a79)
+
+## ICMP
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a4821dc7-b6bb-4087-84b9-d041de1c6d6f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8e3a4a4-2b5a-4b36-b888-1abc5d51dd09)
+
+* In the **network layer(NL)**, **IP** is the heart of it. 
+* Above **IP**, there is **ICMP and IGMP**. 
+* Below **IP**, there is **ARP and RARP**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/10d30216-0511-499d-8ab0-d59069128797)
+
+* **ICMP packet** will go through **IP packet**. It will not again go to **ARP**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/410f88c6-fd21-4edb-85ff-40c48cbf1473)
+
+* Inside the **IP packet**, the **ICMP packet** will sit.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9f9da881-4aea-4f68-9f36-6c5bdd0d208e)
+
+* **ICMP** Use/Usage:- 
+
+1) For Troubleshooting [Mainly used by network admins for Troubleshooting].
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bd32cf2b-31ca-4e78-81cf-60f8507145cf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6e1ea930-6377-4677-86d6-fe43e2ae4d2e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c472f645-e45c-4236-b6f8-709f5f5c6f83)
+
+* TTL Exceed.
+* The routers are in a **loop** and if a **packet** enters the loop then the **packet** will be in **infinite loop**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ae40b59-8189-45e5-b8bf-a2696d2a2a05)
+
+* We will set a parameter called as **TTL**. **TTL** is present in the **IP packet** and inside the **header** of the IP packet.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5f3fa95b-71a0-4dcf-bdba-daeb567bcdcd)
+
+* Initially we put **TTL =4** and after **each hop** when 
+
+
+
+
+
+
+
+
 
 
 
