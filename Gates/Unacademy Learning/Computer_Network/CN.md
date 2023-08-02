@@ -8424,6 +8424,18 @@ which is **/13**.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e7d5a2ce-2858-4d7b-95cc-57f02fc55fff)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b200cd61-a98b-4452-9d74-961f9d8e273d)
 
+## introduction-to-congestion-congestion-control-tcp-timers-time-out-timer-computation-algo (59) [2nd Aug 2023]
+
+* Flooding -> Sending a packet on all of the **out going** links without doing any routing.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d12856f-3117-49e6-a9bd-ec3fd68b6af1)
+
+
+
+
+
+
+
 
 
 
