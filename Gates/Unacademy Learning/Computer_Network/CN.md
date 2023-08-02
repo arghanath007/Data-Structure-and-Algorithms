@@ -8430,6 +8430,134 @@ which is **/13**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d12856f-3117-49e6-a9bd-ec3fd68b6af1)
 
+* Disadvantages of looding:-
+
+1) Duplicate packets.
+2) Taffic is very very high.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c352510e-a57e-4778-bb92-98d511c6bbf9)
+
+* Advantages of flooding:-
+
+1) It is **reliable**.
+2) Shortest path is guranteed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f24db04-cff1-4292-bfa6-178921a1eec2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0fcc5b4-d6f3-44dc-a49b-fe38a45ef917)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f444431b-8157-4dd4-9d0c-e0e0c70dccbe)
+
+## Routing
+
+* The process of preparing the **routing table** is called as **routing**. Deciding which one to go for is called as **routing**. That is do by **routing table**.
+* Switching -> Taking a packet from one side and putting it on the other side. It is called as **switching**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c8acac3-9b49-4433-997d-8750bd7865f5)
+
+* Entire process of **routing** is **creating the routing table**. 
+* Advantages of routing:-
+
+1) Less Traffic
+2) No duplicate packets.
+
+* Disadvantages of routing:-
+
+1) Processing Delay.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/098a79bf-8160-4453-b343-cd699bf82013)
+
+* Only **one path** taken in **routing**
+* **Shortest path** is not guranteed in routing.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/026c2604-796f-4442-8c7e-7e679e98dfaf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d391ab3-54a9-4f6c-a1fa-f363679c0dff)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69a22f68-dad4-42a9-8bb1-f5f9ecfefef5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bdde66d6-9b06-4a6f-9274-591b2f20bb6a)
+
+* Routing table will be in **RAM**.
+* **Broadcasting and flooding** are **two different** things.
+* **Broadcasting** happens within the network.
+* **Flooding** happens at the **routers**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/84658b7c-b5a4-4084-8f7b-60b4e55229d6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6933abc3-31bf-40d0-be41-df90e3716b1c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ebbd255e-f884-4547-bbef-b8ae01967ccf)
+
+* Types of routing algorithms.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/94922b69-109b-42ac-b260-afc4c8ff011a)
+
+* Depending on the **traffic and topology**, if we change the **routing table** then that is called as **dynamic**.
+* If they(routing table) don't change then they are called as **static**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/54354873-3006-43ee-b8b7-7767ba106f66)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b4b6d24-f315-47df-a113-e914bf302d31)
+
+* Static.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/623effe8-4fda-44be-925f-70320076166b)
+
+* Dynamic.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b74fd1b8-16fe-4af9-b4ad-53017976b086)
+
+* Distance Vector Routing.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c4a662f3-26c1-40d5-bd2c-a10fd100aec3)
+
+* Every router will have a **different routing table**.
+* **Routing** only happening at the **network layer(NL)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a7cf087-d168-478a-8ef5-80c947f78590)
+
+* If the **destination** is a **neighbour** then we can **directly send the packet** and we know the **weight** also.
+* IF **A** wants to send a message to **C** and they are **not neighbours**. As of now, **A** cannot see **C**. **A** can only see **B and D** but it cannot see **C**.
+* That's why we are putting **infinity** in the **destance field**.
+* **infinity** -> It means tthat we don't know hwere is it.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df95f8ec-4727-4747-ac6d-62973eb07376)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/351e9b53-f339-4324-ac87-caddfd336655)
+
+* Generally, uploading and downloading, they are **two dfferent type of ocnnections**,
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6cb9f34e-a93c-4917-a3ba-5ee137ec32cb)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fcd1d0d8-8f58-4621-9a57-b412a1ce231b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/641a5255-fdb1-4d50-9b6c-7aa35e162797)
+
+*How **A**can reach **B**?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e97c0185-fc41-40d1-b6d1-bc58eb0ca205)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/94534965-edc1-4f3d-bd24-ef7c6d360cd9)
+
+* From **D to B** the **distance is 7**.
+* For **A to D**, we have to go from **A to B** then **B to D**. But we have **A to D** and it is **1**, which is **better**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f2504429-5324-4e63-8cd4-a30ba491835b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e2c26db-9c3e-4473-953e-4e53555015e2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/20408d27-a86f-4a80-8ec3-5a7bd35841e3)
+
+* First row don't do it as it is **fixed**.
+* For the **second row**, **0 + 2, 7 + 1 -> 2, 8**. 
+* **Next hop** -> Whenever we got the **minimum**.
+* So for the **second row**, **2** is **min** and we got it from **B** so it is **2, B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/08385294-0338-4840-9871-6a22b4aa0796)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8be666f3-c124-42b3-acbf-c7e8c9ff44df)
+
+* For the **third row**, **3 + 2, 11 + 1 -> 5, 12**. 
+* So for the **third row**, **5** is **min** and we got it from **B** so it is **5, B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ee6585a-9637-4d17-8cbf-dc366d55cd8e)
+
+* For the **fourth row**, **7 + 2, 0 + 1 -> 9, 1**. 
+* So for the **fourth row**, **1** is **min** and we got it from **D** so it is **1, D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/869fe8e9-dff7-4018-bebe-9225e0123f56)
+
+* In exam, they will give us the **distance vector routing** and we have to do the **table**.
+
+
+
 
 
 
