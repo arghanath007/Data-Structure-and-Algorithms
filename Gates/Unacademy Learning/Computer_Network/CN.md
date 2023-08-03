@@ -8730,13 +8730,66 @@ when it is sending it to **B**.
 
 ## Link state routing.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/884780cc-f0d1-417a-8323-a3ce30518e83)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d7a21a56-574d-4be0-83d7-591d1d1dd886)
 
+* The main difference betwween **link state routing(LSR)** and **distance vector routing(DVR)** is that in **DVR** we are basing on the **local knowledge**.
+* Entire concept of **DVR model** is based on what our **neighbours say**. We don't know anything about the network.
+* **local knowledge** -> The knowledge we get from our friends, which means neighbours.
+* **LSR** is based on **global knowledge**.
+* **global knowledge** -> Everyone knows about the structure of the network.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5ebaabb-2d46-45ac-853d-afccd6bfa238)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c1b87ab-3bfd-4157-8ffb-c112652c9644)
 
+* Every routers are going to prepare something called as **link state packets**.
+* We are going to depend on the **state** of the **links**.
+* **link state** -> State of the links.
+* **link state packets** contain on a **particular node**, it contains what is the distance to all it's neighbours.
+* At every node we are computing who are the neighbours.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3184a338-1c82-4c7e-8ace-bdb5fd30557d)
 
+* All of the **link state packets** are **flooded**.
+* In **DVR**, we have only shared the information with the neighbours.
+* In **LSR**, we are flooding the information to everyone in the network.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ca6536ad-423c-4c0a-a3df-8bac2f8f1a5b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fca5a937-5ed1-47fc-ba0d-a554ddd47b04)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d332b1c5-2638-4925-8ffa-3e0cf66ea286)
 
+* How to identify the latest packet?
+
+> Sequence Nos
+
+* We can't take the **late packet** as the **latest packet**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b135a53-7813-4b55-80c7-82906c752125)
+
+* To solve the problem, we are going to us **sequence nos**.
+* WE should take **4** and discard the remaining.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7db555a-2731-46bf-8622-1ff194d9af26)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c53fd83-628a-416b-ae9f-0b03d7bc620e)
+
+* All the packets will keep on getting **discarded**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/03174f78-cab3-465c-93f6-bd6a0cd3c019)
+
+* We should have a **time** for which the **sequence numbers** are **valid**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e7c12368-3eea-4964-84d0-ddf290e27b0d)
+
+* Valid Time(VT).
+* For **every sequence number** we are going to have a **validity**.
+* If a **sequence number** is present in our system for a long time then it means that there is **something wrong**. The packet got corrupted.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b92df7b-fa03-4804-9852-c7e85887159a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8167acf8-1c66-4939-ab5f-4d28b7547b9b)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a48bc64-d235-4484-a688-70cdb943f433)
 
 
 
