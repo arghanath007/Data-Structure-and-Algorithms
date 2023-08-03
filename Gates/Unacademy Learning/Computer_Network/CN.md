@@ -8700,7 +8700,22 @@ which is **/13**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4209e4fb-b6fd-4265-bf7a-d86b59eb8f91)
 
+## traffic-shaping-udp (61) [3rd Aug 2023]
 
+## Split Horizon
+
+* In order to solve **count to infinity** problem they have come up with **split horizon*.
+* **Count to infinity** problem has arrived because we are sending only the **distant vectors** and we are not sending the **next hop(NH)**.
+* Why are we not sending the *next hop(NH)**?
+
+> **Traffic**.
+
+* We don't want to send **next hop**.
+* If **C** is depending on **B** to got to **A** then **C** should not say to **B** that **B** can depend on **C** and **C** will send the acket.
+* Therefore when the **next hop** is **B** for **C** then that particular **distant vector** should contain **infinity**
+when it is sending it to **B**.
+
+![Uploading image.png…]()
 
 
 
