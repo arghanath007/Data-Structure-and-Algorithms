@@ -8654,6 +8654,54 @@ which is **/13**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9154b46e-fb4c-4e3b-bd59-405816eecc76)
 
+* Only **3** are busy/used.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9f16b576-2c2b-4f18-bd87-9b3653b39551)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc136013-761a-43fb-9276-e4e01f82a1fd)
+
+* Is there any better path between **A and B** which is **shorter than 2**?
+
+> **No**, So **AB** is used.
+
+* Is there any better path between **A and D** which is **shorter than 1**?
+
+> **No**, So **AD** is used.
+
+* Is there any better path between **B and C** which is **shorter than 3**?
+
+> **No**, So **BC** is used.
+
+* Is there any better path between **D and C** which is **shorter than 11**?
+
+> **Yes**, So **DC** is **not used**.
+
+* Is there any better path between **D and B** which is **shorter than 7**?
+
+> **Yes**, So **DB** is **not used**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7fbe0848-3bc8-458e-9c0b-71727253f3ea)
+
+* Shortcut way of solving it.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/78c26e0f-dcbd-4033-b509-9a9faeb75522)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9199f803-e80c-481a-81c8-1315a75956e5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8089ef8c-c6f1-4f10-827f-bb891c7c4059)
+
+* Initially **A** is not connected.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/20a653ea-e729-4279-bbfd-8bd81039b484)
+
+* Exchange of vectors.
+* Trafic will **increase** and it will lead to **congestion**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/683817e5-b35e-4305-867f-1c0a2d730d1d)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4209e4fb-b6fd-4265-bf7a-d86b59eb8f91)
+
+
+
 
 
 
