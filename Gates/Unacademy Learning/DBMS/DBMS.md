@@ -6998,10 +6998,21 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 > **No**.
 
 * Now again, we have to do **one by one** checking of **all the blocks** and their content.
-* It is also a **big decision** that when we **store the data** in the **database**, storing the data in the **disk** in the **physical design**.
+* It is also a **big decision** that when we **store the data** in the **database**, storing the data in the **disk** in the **physical design**, it is **very important** to check on **who's basis** we should **order the table** so that **max. no. of queries** run in the **minimum time**.
 
+* Who is **needed more** keep that in **ordered manner**.
+* Who is **not needed** much keep that **randomly**. If we have to check, we will do it **linearly**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f55492f-b6df-49d5-b2c0-4af3cbd7a9a3)
 
+* **Physical storage** of DB table:-
+
+1) Basis on which column the records must be ordered in disk so that maximum number of times. Queries can provide quick results. 
+2) Can we reach to a specific record directly. It is done through **indexing**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81457cb9-2122-4310-997e-2483eb248b7b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7cbddd31-393b-4aba-a8e9-95e52078acfb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0cf15965-aa48-4887-9ec6-968ab7380292)
 
 
 
