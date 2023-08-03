@@ -6803,7 +6803,71 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2dae4b1-e8d4-4ae5-9147-2629b8b9721b)
 
-* Thomas Write Rule -> If a **young transaction** has written earlier and an old transaction has come to **write** then
+* Thomas Write Rule -> If a **young transaction** has written earlier and an old transaction has come to **write** then **basic timestamp algorithm** will **reject** it. **Old transaction** is not allowed to **write** after an **young transaction** has written earlier. **Thomas Write Rule** says that if there is a **write** in the **older transaction** then **allow** than **write** operation.
+
+* If we write it in-order then first we will **read** then there is a **write** in **T1** and we will do another **write** which is in **T2**. The **final value** of **X** will be the **value** that was **written** by **W(X)** in **T2**. 
+
+* **Skip/do not perform** the **write operation** in **T1** and tell that it is **done**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f34c0da-cf86-434f-aaa3-c1faedcdad43)
+
+* Advantage -> We don't have to **rollback** the **T1** operation now. We also got what the **expected result** was.
+* If a **younger transaction** had done **read** operation before the **write** operation in **T1**, then we had to **abort** **T1** operation, **thomas write rule** can't do anything.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50e0f091-87a7-47d2-8917-6bae118d5ee2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d3acb8d-ba46-4172-a6c9-106b93055c17)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5804fb87-bc0e-47aa-a930-8180ca4e82cc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d198e31d-9981-439c-8eaa-1843126636e7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bdd260aa-f926-4454-8d46-8261f335da98)
+
+* According to **thomas write rule**.
+* **T1** transaction is **aborted** because before the **W(X)** in **T1**, **younger transactions(T2, T3, T4)** have done **read/write** operations and the **older transaction** which is **T1** wants to do **write** operation which is **not allowed**.
+* The **W(X)** in **T3** is **skipped** because first we checked if a **younger transaction** has done **read** opration than **T3** but there is **none**. So now we checked if a **younger transaction** has done **write** operation than **T3** and we found that **W(X)** in **T4** and **T4** is a **younger transaction** compard to **T3**. Because of **thomas write rule** the **W(X)** in **T3** is **skipped**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/396d7bca-a3b6-449a-b340-a8438ce369d1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1eba670-60f9-4c9b-8c4b-2e0e2fc367ca)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d91b8bbd-57e6-4b69-8ff5-b2777b55c14f)
+
+* Yes.
+* Anyways we are getting whatever the **written value**, the **T4** transaction has done at the **end**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d0e9454-4990-4e5f-9dc6-9a8cd9490ecb)
+
+* The **basic timestamp algorithm** will run the process/transactions in such a way that the transactions which is **arriving first is run** then the next then the next and so no.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/998cb00d-ff55-42d3-8b30-7cfecdbe3109)
+
+* Timestamp of T1 -> 1
+* Timestamp of T2 -> 2
+* Timestamp of T3 -> 3
+* Timestamp of T4 -> 4
+* First **T1** had arrived then **T2** then **T3** then **T4**.
+* T1 -> T2 -> T3 -> T4
+* In the **above order** only we have to run the **transactions**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7555ef3b-a3e5-4727-a172-6aa452e6e965)
+
+* Question.
+* The **2nd W(X)** in **T2** is **skipped** because of the **W(X)** in **T3** which is a **younger transaction** and had **written** earlier then **T2**.
+* The **2nd W(X)** in **T3** is **skipped** because of the **W(X)** in **T4** which is a **younger transaction** and had **written** earlier then **T3**.
+* The schedule is **allowed**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c803347f-e62e-463c-b331-f1928bd573c3)
+
+* As there is **no waiting**, so there is **no deadlock** here.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8fde7235-2589-4885-88e8-6ef79c96bdd7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34bcdefc-a045-4e36-aa58-99face7bb26a)
+
+* Timestamp ordering algo:-
+
+1) Serializability.
+2) No deadlock.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/011c5edb-3ba8-4b0f-b575-3775ea485a9f)
+
+* Starvation may happen but it depends, if a **restarted transaction gets a younger timestamp** then **Starvation** will not happn.
+
 
 
 
