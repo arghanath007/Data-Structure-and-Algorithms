@@ -8715,9 +8715,42 @@ which is **/13**.
 * Therefore when the **next hop** is **B** for **C** then that particular **distant vector** should contain **infinity**
 when it is sending it to **B**.
 
-![Uploading image.png…]()
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ac3c37e-b62c-4658-baba-a1dcd4ef5fd9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8832c94-6d47-4415-9cf0-aef5333a266e)
+
+* Split Horizon says that if **C** is depending on **B** then it shouldn't say the actual number and instead say **infinity**. It means that **C** is  depending on **B** but **B** should not depend on **C**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a5005f6-7fa9-4195-ad29-0ae353d50fac)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7992dc5b-5965-4568-a58f-35a97cba6eb3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f8616d2e-b470-4428-bddf-a27581f5406d)
+
+* When the links is down, then it is **infinity**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/88e4f020-a555-476b-9553-d8d659644c2c)
+
+## Link state routing.
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
 
 
 
