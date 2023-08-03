@@ -6868,11 +6868,28 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 
 * Starvation may happen but it depends, if a **restarted transaction gets a younger timestamp** then **Starvation** will not happn.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d5db3f0-4752-4d1e-8c01-c8debaf9dacf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24798275-5254-4a19-9dfe-9cf59ecf5185)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/11a9ebb3-d760-4993-a7b5-4408858dd8da)
 
+* Eliminates the possibility of **starvation**.
+* Arrival time changes.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/653f35ce-65bd-4189-b2fb-bb9a6d03d11f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c4fb37c0-9f79-4eec-bd4b-e377b7f46bf4)
 
+* Timestamp.
+* All the **Timestamp schedules** are under **conflict serializability**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/56d4ec38-e428-40b4-8c3a-13bb9efba733)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa1a2708-e82e-402f-ac19-c41dff8c4e58)
 
+* Not conflict serializable.
+* TS -> Timestamp.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fcf3bd1a-3bf4-4381-beef-a15861269792)
+
+* Full/complete/whole schedule allowed.
 
 
 
