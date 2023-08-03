@@ -6889,7 +6889,116 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fcf3bd1a-3bf4-4381-beef-a15861269792)
 
-* Full/complete/whole schedule allowed.
+* Full/complete/whole schedule allowed as it is.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/68bfefbe-e357-4507-94c1-7ddf9f04ef8f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b707f09-70ec-436e-a445-bea800309798)
+
+* Yes. Good point.
+
+## Doubts
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac8d5366-e38e-44e1-9f1e-440123e83845)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/149bd80c-83df-4011-908d-a1230973c0e6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd02e18f-f7ac-4b63-9b1b-bae6d7007897)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7be45831-4121-41e2-aad1-b09716fc1dd4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b779171-f1a9-42b1-93f1-f6bc2bc96719)
+
+## Memory Structure
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/70c6ba54-c030-44d4-9f71-db7f9015a30e)
+
+* RAM -> Main Memory -> Nano seconds(ns)
+* Disk or SSD -> Secondary Memory -> Mili seconds(ms).
+* **DB tool** run on **CPU**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d66d5290-f0d4-4023-8d7f-d4532c2411fd)
+
+* Select * from table -> Many many records(rows) will come. Reading many many records(rows) from **secondary memory** and bringing them to **RAM** will take a lot of time.
+
+* **Access time** of **secondary memory** is **more(greater)** than **main memory**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22731f8c-64e7-4d10-8c19-dd7ca123fe99)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6437b0ef-fb13-4d6f-aa08-e7ae23ab6742)
+
+* Optimization.
+* Query optimizer -> Runs query in such a way that **minimum time** taken to fetch records from disk.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2baef8d0-d14a-4726-ab45-f842fa8f9522)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b78034db-beef-4bbf-8cd2-be0ec726e9bb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a4f6e0d5-f31d-4ca2-ae1e-c78dcc5015c7)
+
+* select ename from employees where dataofjoining > 2001 and salary > 50000.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7441fa05-6b6b-4faf-abdf-06de6e8954ca)
+
+* First we **filtered out** the **table rows** with the **dataofjoining > 2001** condition. We will get **5000** rows. On those rows we used the **salary > 50000** condition and we did comparision on the **5000 and 100** and then we got **82** rows which match both the conditions.
+
+* First we **filtered out** the **table rows** with the **salary > 50000** condition then we would have gotten only **100** rows. On these **100** rows, we would have run the **dataofjoining > 2001** condition and then we got **82** rows which match both the conditions.
+
+* In the **second query run**, the **no. of rows** fetched in the **first time** is **significantly lower** than the **first query run**, which is from **5000 to 100 rows**. So we have to do some much **less comparisions** here. **Disk access** would have been **less** and **time for comparision** would have been **less** as well. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3298a211-2319-419c-9316-bf0fb35cde8b)
+
+* Yes.
+* When we **optimize the query** in such a way that it **runs** and it take **min. no. of comparisions** and **time to run entire query** will be **less**.
+* That's why **SQL** is called as **non-procedural query language**. 
+* We are just writing the **query** and we are not telling the **DB tool** how to **run the query**. 
+* How the query has to be run -> It is the work of the **optimizer**.
+
+## Disk Blocks and Record Storages
+
+* **Block size** is from **512 bytes to 4 kilobytes**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/431e3870-eaf0-45bd-9187-fed3d23a6505)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/347dcd1d-1e67-4f72-8bad-28a77bb41ae2)
+
+* Whole table will come within a **single block**.
+* Entire table stored in **one block** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd9cc36e-e10c-497c-a243-613efa29ae2e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7035677b-3bdf-4eb9-b1b8-69b2e1f959b8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a984726-04f7-484b-9543-99d8cf619c03)
+
+* 16 different blocks needed to stored the **single table**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/967a8ac1-9ffc-41a5-87c4-7d2cc316725b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d77dfeb6-38f2-4ab0-a28e-a5b53f58812e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b186283-a4e9-44a5-8d83-d7c01e671d21)
+
+* Nobody knows where the **employee** with **EID = 76** is **stored** in the table.
+* We have to **check all of them** to find the **employee** with **EID = 76**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2449b04-26a0-4acb-9518-ceee29846f9c)
+
+* With the **help of somebody** we can already know **where, which** record is **stored** then we can **directly** reach to that **record**. If not, then we have to do **linear search**.
+
+* In the **regular cases**, search each record linearly to get the required record.  
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/337822b5-fa82-42ee-933b-be38dda3d729)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/542f010e-438d-42f3-88d6-fe8e144cfa19)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e287b00-d561-4a3c-8125-7059676b5a5c)
+
+* Sorted with **employee ID(Eid)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/519c3755-d875-4b0e-8034-5ac0370ff012)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c344525e-f0bf-4e6a-b7c4-88bc299d40ec)
+
+* In general, all blocks are accessed linearly.
+* But if records are stored in sorted order of eid, then only till that block where eid becomes 90.
+
+* This Chapter -> Physical level of database design.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e81dc26-5f5f-4769-8ecc-50573e0bd387)
+
+* Condition -> Salary > 50000
+* We **sorted** the **table** in the **basis of EID**.
+* According to **salary**, will we get **sorted content**?
+
+> **No**.
+
+* Now again, we have to do **one by one** checking of **all the blocks** and their content.
+* It is also a **big decision** that when we **store the data** in the **database**, storing the data in the **disk** in the **physical design**.
 
 
 
@@ -6912,6 +7021,17 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 
 
 
+
+
+
+
+
+
+## Test Series
+ 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a40c27f5-5d97-44b0-a84e-2075950ad1f0)
+
+* Test Series suggestion.
 
 
 ## Misplaced Images
@@ -6925,4 +7045,5 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b8200b49-d63d-4027-88d0-29f087bc60e1)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6161e033-2e30-465d-bd81-3b7e20c4a1db)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff97efb1-936a-49ec-b763-c5f834347e4c)
 
