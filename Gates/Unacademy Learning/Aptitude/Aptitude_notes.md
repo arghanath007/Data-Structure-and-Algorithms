@@ -10508,21 +10508,163 @@ b5da-42ddc3936df0)
 
 * HW.
 
+## percentage-and-di-part-vii (60) [3rd Aug 2023]
 
+## SI and CI
 
+* Amount(A) = P + I
+* Principle(P)
+* Interest(I)
+* rate of interst(I)
 
+1) Simple Interest(SI)
+2) Compound Interest(CI)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95e89ac9-c58d-4565-8083-3f499074df48)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/435e04c1-e9ac-4ec0-abcb-161aea401fd3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/023fbca4-deb0-4674-b7e6-8ca52813571b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16986233-b950-4693-98ff-5e6abd900a7e)
 
- 
+* SI = (P * R * T)/100.
+* Time(T or n) 
+* PA -> pr annum.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea6deb7f-fe2d-4235-b261-db82dcac5032)
 
+* Qustion.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd8fbda9-7963-48b7-a51f-91044e1d39f1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1fcaad84-77f7-43f6-b82a-c810194dc66c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/600f332f-da31-4d71-9514-dfbc9372cbd9)
 
+* CI.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ae61223-838f-4271-a992-eb90b8f92945)
 
+* Question, Using **CI**.
 
+ ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d199eb7-ccd5-47bc-b751-ef51f29911c1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/145d30ad-f826-4dda-bcb0-ca15c0a0ecb4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b1dcb328-b7c4-41a1-976a-69f0a4e82e2e)
 
+* [**IMPORTANT**]
+* Paisa double.
+* Bank -> SI
+* opulation/Prcious Metal/ Mony -> CI.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30ac947e-c7e4-4f31-a6d6-2dbc4e2199e0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a0b8ab0b-6489-472c-9188-7347d68a7546)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d9a736a7-aaf7-46e6-b971-6a0f09c26750)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d1f5332-7d68-4dd9-9d00-a3b85a479506)
+
+* 2nd part.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9328ccf4-e020-4ca1-80a6-1a63b1912eac)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/904c0bd0-6f05-4ed4-8b7c-cb23a13c4919)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc164265-44b3-40cb-8142-9758a53fd54d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea9c26b4-ea40-4835-8d20-6ae16e9ce648)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/511286d1-9b71-4194-9a18-63d7d76edf70)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c11272a7-1c5a-4f54-8d80-0ed48182bd6a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f073e1e0-15e4-4244-82e2-3ab4cd7bbe2f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/78200f4a-bf0c-4b02-b328-6a2670185878)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a6decb25-177e-495d-9154-367c2369cd6c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c941c1a-9404-47a7-a262-73b0b7684b8d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/93a397e0-5580-4260-92e0-e4a010a11cd4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c5fafc69-9f48-42e5-8f12-36a358a4aa55)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72a9c43f-eb64-4761-9b7d-4af533847d07)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa51deba-74bc-46d5-9898-417e404e8a00)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d937fd22-b7f5-45a8-b5ba-18907244af61)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6403088e-33c3-4279-b326-df67c987e9cf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c8ee1e02-a398-4c68-a009-e0e8e558ebb3)
+
+* Question. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6f82a2a-6af6-4624-8ada-dc6338d6c209)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b08113f4-b418-4e61-b95f-160a6624d7d9)
+
+* For **CI**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/13debcbf-57d8-4077-93e0-edd1978e58bf)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5d2129a-bca6-4a0c-854d-7f5694ccc012)
+
+* Whenever **population** -> CI.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2607419b-737c-4e24-b49c-a14e00e2a69d)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fed918bd-0f25-4a10-84ef-8789fc995346)
+
+* r = 10% per day.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e99d8d8-7a9a-4046-a9f5-a84dc1b31299)
+
+* Whatevre is the **per thing**. According to that we will write the **unit** of the **answer**.
+* per annum -> year
+* per day -> days
+* per hour -> hours
+* per min -> mins
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/814f80e8-3fdf-45c9-8202-99746ff9db42)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/705bd08e-2dc8-4531-bb1c-7784ab21acab)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/23e058fa-e159-4445-ae5f-39905a4d136d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/336dc44c-ae20-407a-a4b7-097d65a35db0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb2ff017-1b0c-4d7e-a392-22e1b94edebc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57e2cbe0-16ea-41e7-b2aa-8d34f66acb39)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2818e04-4ec6-4198-88e6-eb29a0954eef)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac878850-578a-4bfb-ab99-59d638ed1be3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0555191a-ef2a-400c-b5c1-3d21059fef5b)
+
+* [**IMPORTANT**]
+* Annually
+* Quarterly
+* Semi-annually.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/955e4e55-7f14-436b-b90b-be30f033e95c)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9a4f196c-b396-4021-b9dd-7339065f19a8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff5cc7e1-c06e-4e1a-ae7b-6afd0c1649a0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/61d8ab6d-74af-4a57-981d-c36d50d2d728)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/77ef46f2-57f0-428c-8eb1-828dec9a7e7f)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fde6b485-6be7-4475-ad2e-a54eb27ff2eb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c794e537-52f5-47a6-be78-4d998976a937)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/edd2d7e9-c90e-4668-8dee-2bedae8cbb11)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f1e8926-23e0-402c-9e66-f0f40f1626e5)
+
+### Sumary
+
+1) A = P + I
+2) Paisa double/triple/four time meaning
+3) Annually, semi-annually, quarterly
 
 
 
