@@ -8592,11 +8592,67 @@ which is **/13**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/68ac59f6-ed82-4ffb-91c0-a1a25136b1e8)
 
+## time-out-timer-computation-algo-basic-and-jacobson-silly-window-syndrome(60)[3rd Aug 2023]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a91c6bd-fc19-44d6-8d10-92636505dfd6)
 
+* If there are **n** nodes.
+* Maximum length of shortest path, **n - 1**.
+* When will the **distant vectors converge**?
 
+> After **3 rounds**.
 
+* If they exchanged information **3 times** then they have **converged**.
+* Even though we are getting the **final table** after **3 rounds**, we have to do it **periodically**.
+* After sometime we have to **exchange the distant vectors**.
+* Converge -> Final answer and it will not **change**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa9f0687-f580-40fe-a666-da296a59c32b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e402f840-ed95-4e94-83ad-e4ef8f657b24)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/87acd1d8-9072-43e1-a655-c860bfdc8cab)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc75fb42-32b1-4c05-b870-a8d62b665f8b)
+
+* Initial -> Path of length 1 are considered.
+* Next -> Path of length 2 are consider.
+* Next -> Path of length 3 are consider.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ae41e12-9d00-4b56-a1bd-4dc5b0920852)
+
+* Destination, Distance, NextHost
+* For **A**
+* A, 0, A
+* B, 2, B
+* C, 5(2 + 3), B
+* D, 1, D
+
+* Destination, Distance, NextHost
+* For **B**
+* A, 2, A
+* B, 0, B
+* C, 3, C
+* D, 3(1 + 2), A
+
+* Destination, Distance, NextHost
+* For **C**
+* A, 5(3 + 2), B
+* B, 3, B
+* C, 0, C
+* D, 6(3 + 2 + 1), B
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/943494ba-a5d9-40f0-8889-5959da36ec91)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f419fafe-1678-46d4-9c1a-48c59224b10f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b2aeecf-e284-4a43-86fd-c7a5e143f9d3)
+
+* Destination, Distance, NextHost
+* For **D**
+* A, 1, A
+* B, 3, A
+* C, 6(1 + 2 + 3), A
+* D, 0, D
+
+* In **distance vector routing** or in **any routing table**, some of the links will not be used.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9154b46e-fb4c-4e3b-bd59-405816eecc76)
 
 
 
