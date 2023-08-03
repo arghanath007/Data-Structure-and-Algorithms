@@ -6789,6 +6789,27 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/88d29c89-e519-440b-9a17-2cc41bb6db59)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/451e676e-27f1-4134-8f7b-cc22c472f282)
 
+## file-organization-and-indexing-part-i (29) [3rd Aug 2023]
+
+* **Basic Timestamp algorithm** is also called as **Timestamp ordering** as well.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86ded410-fd7f-41a5-bfda-2e34e79dddbb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/551806c4-1521-4251-9e6c-7b9ae380c219)
+
+* It is because **W(X)** in **T2** has **written** earlier/before than the **W(X)** in **T1** and **T2** is a **younger transaction** compared to **T1**. That's why **T1** transaction is **aborted and rolledback**.
+* **W(X)** in **T2** has **written** earlier/before the **W(X)** in **T1**.
+
+## Thomas Write Rule
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2dae4b1-e8d4-4ae5-9147-2629b8b9721b)
+
+* Thomas Write Rule -> If a **young transaction** has written earlier and an old transaction has come to **write** then
+
+
+
+
+
+
 
 
 
