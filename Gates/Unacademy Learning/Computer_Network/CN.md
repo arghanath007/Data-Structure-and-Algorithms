@@ -8943,10 +8943,19 @@ when it is sending it to **B**.
 * If the **receiver** has to send the **acknowledgement** then it has to know the **last byte sequence number** as well.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b592678-a16a-4297-9702-e43bb3118ae7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f4b72ac-127a-434f-ae8d-170e98c6caa1)
 
+* In **TCP header** there is **no length field**.
+* **Transport layer(TL)** will communicate with the **network layer(NL)** and **network layer(NL)** will send the **total length(TL) and header length field(HL)**
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f4e5895-0343-49aa-8b63-8f79b3809328)
 
+* Random Initial Sequence Number(RISN)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c39206f9-523f-4772-8a8c-ab74879b3ada)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4adfcbc6-04ff-45fe-bc1d-8e7faa6d3703)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/07cdd374-3b58-4651-9f6f-00c96d67e1b0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3fa9939f-b70e-4bb2-8701-11724753c3e9)
 
 
 
