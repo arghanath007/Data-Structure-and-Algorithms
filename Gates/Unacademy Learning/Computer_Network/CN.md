@@ -8957,11 +8957,22 @@ when it is sending it to **B**.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/07cdd374-3b58-4651-9f6f-00c96d67e1b0)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3fa9939f-b70e-4bb2-8701-11724753c3e9)
 
+## timeout-timer-computation-algo-basic-jacobson-and-silly-window-syndrome (64) [4th Aug 2023]
 
+* Both the sides will have **4 buffers**.
+* Ws -> Sender buffer
+* Wr -> Receiver buffer.
 
+* In **TC**, any **host** can be a **sender** as well as a **receiver**.
+* Data will be flowing in both the directions.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d2471b9a-848f-4e70-989b-374bcf22ac95)
 
+* Data transmission -> We are actually sending the data.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/222eab39-5896-4070-9eb3-495bbda46dd2)
+
+* Class was for **12mins**.
 
 
 
