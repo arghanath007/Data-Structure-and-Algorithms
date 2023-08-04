@@ -8791,6 +8791,81 @@ when it is sending it to **B**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a48bc64-d235-4484-a688-70cdb943f433)
 
+## tcp-header-part-ii (62) [4th Aug 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/78abe636-33d5-453f-ba81-ac745dfa9b7f)
+
+* TCP header.
+* In **TCP**, both the **server and the client** can communicate using the window size.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb10a616-00d8-4d80-95c3-01a2b91a69d7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/99cb79f2-d4a1-444a-9863-c41a6ee07d1a)
+
+* By looking at the **TCP header** can we figure out **one important field** that is present in **IP header** but not present in **TCP header**?
+
+> **Total length**.
+
+* There is something called as **socket**.
+* If we take **IP address** and combine with **port number(PN)** then using these **two numbers**, we would be able to **uniquely identify** any process.
+* IP : PN
+* **IP address and port number(PN)** are combinedly called as **socket number** or simply **socket**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ba11451-601b-4a2f-b4f2-bbbd577ddb49)
+
+* **IP address** is a **32 bit** number and **port number** is a **16 bit** number.
+* So the **socket** is **32 + 16 -> 48 bit** number.
+* **Socket number** is a **48 bit** number which is used to **uniquely identify** any/a process.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/08b92587-cc87-4814-9ce3-2fb7d93fb0bd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5c19c86e-f434-4c51-b23d-35ecfb836f96)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c4098e0-ed64-4ae6-ae91-1dddf0da5c9e)
+
+* **TCP** is called as a **byte stream protocol**.
+* Since every byte is **numbered** that's why **TCP** is called as a **byte stream protocol**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9f08e71-c96e-4a30-81dd-38f49edad345)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/229c9da6-74b2-49da-9d17-c0ec93224078)
+
+* In **network layer**, the **datagrams** are numbered using **identification numbers**. So, **network layer** is a **packet stream**. 
+
+* **Transport layer** is **byte stream** because the bytes are **numbered**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b563fa6-c495-4fd5-a53b-bf28dd936192)
+
+* **TCP** is called as **connection oriented**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e68e4435-771b-4b2c-b7fe-a4633c9f2589)
+
+* **Connection oriented** means **resources** are reserved. There is a **buffer**. Inside the **buffer** the packets will sit. Generally the packets are not discarded.
+* Connection establishment. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b76938de-2d58-4de2-8fe0-49e005ccf09b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3146d03f-9c7c-4229-8c1d-b7bc3dec8678)
+
+* Multiplexing -> One to Many (1 X n)
+* Demultiplexing -> Many to One(n X 1).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3d643a4-e704-4172-a122-7fcae5d499f2)
+
+* In **FTP**,
+* Data Transfer(DT)
+* Command and Control(CC)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8dab5f3f-699d-48fc-a433-a7cc20e0b12e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b7407b18-e251-409b-b324-b4b5df393a0a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f621df4c-f304-4b27-b30e-6d2a1fa000aa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/944e3394-01db-4743-9492-23bbdb5b2a1d)
+
+* In general, **client** port number will be from **49,152 to 65535**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9a3a6da2-b495-4146-8843-924b1922f3ff)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c8b5508-1948-43d8-ad97-c5d11311e59f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e57503a8-b3d8-4f86-bf7c-67cdf2098ffb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2adc46ce-9950-4c40-b7a8-8f53add47587)
+
+
+
+
 
 
 
