@@ -7014,6 +7014,58 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7cbddd31-393b-4aba-a8e9-95e52078acfb)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0cf15965-aa48-4887-9ec6-968ab7380292)
 
+## file-organization-and-indexing-part-ii(30) [4th Aug 2023]
+
+## Spanned VS Unspanned File organization
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0dfef642-3721-4146-950b-22c392f1d4ef)
+
+* After putting/storing all of the **6 records**. We have filled **6 * 5 -> 30 bytes**. We are left with **32 - 30 -> 2 bytes**.
+* How we will store the **7th record**?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c9fa799-56ec-462e-abbd-f116af6adffe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ae14dfb-cd7e-48c4-9121-c6eebc52107e)
+
+> We can start storing the **7th record** in the **remaining 2 bytes of  block '0'** and the **rest 3 bytes** in the **next block** which is **block 1**.
+
+* If we keep a **record** in **two different blocks** like above because exactly fixed no. of records were not coming to **block '0'**. Some space was **left over**. We didn't want to **waste that left over** space. So we started storing the **7th record's 2 bytes** in **block 0** and the remaining **3 bytes** in **block 1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd2a03c5-0bd4-425b-97f2-18acecdbe533)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41dc062e-5414-484f-92de-fb2e4eee2087)
+
+* This is called as **Spanned file organization**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6cdf549c-370c-4b19-addd-99ec18ec1520)
+
+* **Yes**, if we have to **access 1 record** then we need **two blocks**. As the **7th record** is stored in **two different blocks**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d82fc4c-46b0-4805-96b6-5b9c5b9ca90e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f4f9a850-6058-4d23-b801-4e8bd911b7a6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f69ff7a6-2e33-4737-b1eb-5d70efd722cb)
+
+* Assuming table has **100** records. No. of blocks to store db table.
+* Disk block size -> 32 bytes
+* Record size -> 5 bytes
+* Total size -> 100 records * 5 bytes -> 500 bytes
+* No. of blocks -> Ceil(500/32) -> Ceil(15.6) -> 16 blocks.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71e93961-719b-441b-8bb7-cb0ea6151995)
+
+* Spanned.
+* In **OS language** it is called as **internal fragmentation**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/62cbc21d-739b-4f40-ab41-d8047447c5dc)
+
+### Unspanned
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ebd76425-72de-4f52-b76e-cc3957eee054)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5525ad0-3779-4c34-a3a9-a258443fb4ab)
+
+* A record is tored completely in only one block always.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/00f28d58-a677-4ca0-b942-291b1c2caef6)
+
+* Ofcourse.
 
 
 
