@@ -8896,11 +8896,21 @@ when it is sending it to **B**.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b4a49a08-8ff2-49ed-8c60-587ef768eb5a)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e2bb46d-a7b5-4be3-9223-2a43df374e87)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/64a310d8-f740-4c38-804d-0ce40f08fc5a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35204296-4516-4811-bc3c-fe221727753c)
 
+* **Wrap around** is going to be possible when we run out of the **sequence numbers**.
 
+## Header length
 
+* Just like in **IP**, the **size of the header** is ranging from **20 to 60 bytes**.
+* We have only **4 bits** and with **4 bits** we can get **(2 ^ 4) -1 -> 15** numbers, which is the **max number**. The **max size of TCP header** can be **60**.
+* We have to do **scaling**.
+* Header length(HL) / 4 -> Header length Field(HLF)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e0734874-3914-4199-92f1-c307e952a5c4)
 
+* **Header length Field(HLF)** range is from **5 to 15** and the acutal length is **(5 * 4) to (15 * 4) -> 20 to 60**.
+ 
 
 
 
