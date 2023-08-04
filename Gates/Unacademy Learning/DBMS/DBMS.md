@@ -7175,18 +7175,113 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 
 ## Primary Indexing
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a63fcfc9-6fc7-4ffd-9bab-16ffbf4a8728)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/68aca126-4fb5-49bb-842a-b43671b8cb08)
 
+* We can do **indexing** on any of the c**columns**.
+* If **primary key** is one column then **indexing** is done on **one column** values.
+* If **primary key** is combination of two columns then **indexing** is done on **two column values**.
+* **Indexing** has to be done on **primary key**.
+* **Index and data** order must be the **same**.
+* It is always **sparse index**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1693c7cc-6272-4e69-a48a-f4aaea71d262)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1bbf4d18-c3d2-46b1-9187-498a7ca5f85e)
 
+* Sparse Index.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce2a1715-801b-451a-be71-db71be4d62e9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ff9c57d-7dfe-4346-8f64-addf529d7e68)
 
+* Primary Indexing
+* Indexing done on primary key or any super key.
+* Data must be ordered on index which is **primary key**.
+* It always sparse index.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6b9def0-a360-415e-b27f-ec4a97021f6e)
 
+* Anchor records.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/926657fa-b457-4709-bc71-61eb27a7dfb6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/273aaf16-435a-4e41-8cee-6ea29a3a8a50)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/94557e72-0e9a-47e6-a5fa-01b3ae8ad160)
 
+* Yes.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae50c836-5104-42e6-8dbb-6820594db725)
 
+* Question.
+* How many blocks are accessed?
 
+> **1 block access** for the **index block** and **1 block access** for **data block**.
+
+* So, total **2 block access** are **required**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19916877-5cff-4f69-b10b-01596f953c9f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e3913d1-faa8-4f53-8c3f-32081bcf7f0d)
+
+* Question.
+* In the **index block** we accessed **2 blocks** and in the **data block** we accessed **1 block**.
+
+* So, total **3 block access** are **required**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/de6ab5b3-32f0-4ae9-b877-753fe198c997)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/17e029f7-48eb-4bd1-824e-49eafd112f85)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/55a86636-c056-4742-bac9-3089216f747b)
+
+* We don't have to calculate the **no. of tuples(rows)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/145f2d6d-168c-44d6-8a98-73b472af6c8e)
+
+* Yes. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b24bedc4-f587-44d5-9184-0a4257cb2acf)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9917106-7002-42c3-be23-a8e53b452158)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/47d3e3b2-1366-4b69-b7de-54827beb022c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e714fcf6-0758-44fa-bd99-fefe6025d7d7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d5bda27b-2dc5-4b37-81f9-7c282542be55)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3faf044a-8b1f-448e-86d9-48a307eb5b61)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b27eb0f9-f966-4291-bde1-3bfe091c3a87)
+
+* **32 byte** record we got.
+* If **database table** is stored in **4 blocks** then **indexing** will be of **4 records** as in **primary indexing** we know that we do **sparse indexing**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5a24eeb-1905-4993-a960-781f6ded2622)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e73524e6-e5b5-4965-b04a-cd493a15ce8f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22f503cb-0e48-430e-8dc6-9dc2a3568baf)
+
+* No. of index records = No. of blocks to store DB file.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24621fbe-a7c4-4a15-897f-22c4b5ee52c6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bd14f0e5-56bf-4896-9b67-16cd0df5a92e)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e9fb1cc-c9ae-4371-ba05-9c62a5df81f2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf0cbd71-a036-44ff-9a19-b2de775ded48)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/306a8b1c-c56b-42e4-bfa2-e46728f0bb6e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/219d75af-defa-4ab7-9aca-c6be85927af2)
+
+* Question.
+
+* No. of DB recods per block = (Block size) / (DB record size)
+* No. of blocks to store DB file = (DB file) / (No. of DB recods per block)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/edef1a71-7348-4404-8e60-3bbceac149ad)
+
+* Index record size = (Key size) + (block pointer size)
+* No. of index recods per block = (Block size) / (index record size)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d5c514e9-188a-4f50-8608-b4d04b5d9ebf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff7f3265-0f14-4984-8127-30cbe2a42b31)
+
+* No. of blocks to store index file = (No. of blocks to store DB file) / (No. of index recods per block) 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2627377e-a4c5-445a-86b6-09fede1cfef3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6fd4e0c7-0c9f-490a-88f6-ea8f92c8ef24)
 
 
 
