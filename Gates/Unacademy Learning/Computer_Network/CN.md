@@ -8951,7 +8951,7 @@ when it is sending it to **B**.
 ### Misplaced Images
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/62e3bd2e-4498-4c70-8565-62c2f8fa0bc8)
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5cfada5-4035-4541-bed0-9dc30980ed72)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5cfada5-4035-4541- bed0-9dc30980ed72)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/872195d4-3921-41f3-94dc-7b2819922cab)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f50e666-7214-4583-8728-a2076f78bd28)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e416075b-c7d6-423c-8f72-042d0dc1bd5d)
