@@ -8910,15 +8910,29 @@ when it is sending it to **B**.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e0734874-3914-4199-92f1-c307e952a5c4)
 
 * **Header length Field(HLF)** range is from **5 to 15** and the acutal length is **(5 * 4) to (15 * 4) -> 20 to 60**.
- 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb06548b-2f8f-46c4-8d24-109212046d5c)
 
+* **TCP** is a **connection oriented protocol**, which means **resources are reserved**.
+* **TCP** is a **full duplex** connection.
+* **Client and server(receiver)** both can **send the data**.
+* There will be **windows** at both the **sides**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09de7107-fd27-475d-8af1-cccfd0e7dc4e)
 
+* **Buffers** are **windows**. The **windows** are making **TCP** a **connection oriented protocol**.
+* When we send a packet, the packet is never discarded because space is available and so it is connection oriented.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8029b548-02da-4691-b00e-cd7f36c174f8)
 
- 
+* TCP phases.
+* If every byte is having a **sequence number** then what is the **sequence number** field in the **header**?
 
+> The **sequence number** field in the **header** is nothing but the **starting sequence number**.
+
+ ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/74e31ea7-b4c6-4ffc-8a8c-59bdcbc00fc8)
+
+* When we send the data packet to the sender 
 
 
 
