@@ -8863,10 +8863,39 @@ when it is sending it to **B**.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e57503a8-b3d8-4f86-bf7c-67cdf2098ffb)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2adc46ce-9950-4c40-b7a8-8f53add47587)
 
+## congestion-congestion-control-tcp-timers-timeout-timer-computation-algo-basic-jacobson(63) [4th Aug 2023]
 
+* For **32 bits**, no. of sequence numbers possible are **(2 ^ 32) -1 -> around 4GB**.
+* We can only send **4GB** numbers.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a77e5b8f-c72f-46c4-82ac-788fd2ee3b6c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/43244dff-ffef-42a9-a908-87428e3e6ed1)
 
+* We can revert back to **zero(0)**. **Wrapping around**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b6215763-d12f-48c9-8937-b3ee941ef903)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b2763684-82c7-4b3b-b468-2c4258b35f33)
+
+* Lifetime of a packet is **3mins**. Within the **3mins**, we are not going to repeat those **sequence numbers**. Within the **3mins**, **no wrap around** should happen.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/39b05f81-b427-4af2-aadf-0f8163c9b875)
+
+* 4GB/sec.
+* Every **byte** is eating up a **sequence number**. 
+* **4GB** is nothing but the **wrap around time(WAT)**.
+* Time taken to eat all of the **4GB** sequence numbers is the **wrap around time**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/42876ed5-4c06-4431-a6fb-5082321c0792)
+
+* Therefore **WAT** is **4GB/ (Bandwidth in bytes)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e40b30a8-a4db-4451-8724-ff25352a7f07)
+
+* **WAT** should be **greater than lifetime(LT)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b4a49a08-8ff2-49ed-8c60-587ef768eb5a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e2bb46d-a7b5-4be3-9223-2a43df374e87)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/64a310d8-f740-4c38-804d-0ce40f08fc5a)
 
 
 
