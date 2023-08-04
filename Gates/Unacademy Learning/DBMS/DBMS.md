@@ -7061,12 +7061,16 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ebd76425-72de-4f52-b76e-cc3957eee054)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5525ad0-3779-4c34-a3a9-a258443fb4ab)
 
-* A record is tored completely in only one block always.
+* A record is stored completely in only one block always.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/00f28d58-a677-4ca0-b942-291b1c2caef6)
 
 * Ofcourse.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/38d8d1ea-8604-4142-a281-6c62067adde0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2980e472-cd03-4f20-9768-d990dd8e1fa5)
+
+* Question.
 
 
 
