@@ -8932,7 +8932,35 @@ when it is sending it to **B**.
 
  ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/74e31ea7-b4c6-4ffc-8a8c-59bdcbc00fc8)
 
-* When we send the data packet to the sender 
+* When we send the data packet to the sender, the sender is going to send us an **acknowledgement**.
+* The **acknowledgement** number is the **sequence number** that the **sender** is expecting next.
+* The **sequence number** of the **acknowledgement** is equal to the **next byte** that is expected.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4f23905-f8e5-43a3-a203-d24c3e27c5ae)
+
+* In the **header** there is going to be **sequence numbers**.
+* The **receiver** will only know that the **first byte sequence numbers** is 500.
+* If the **receiver** has to send the **acknowledgement** then it has to know the **last byte sequence number** as well.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b592678-a16a-4297-9702-e43bb3118ae7)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
