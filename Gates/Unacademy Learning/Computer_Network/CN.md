@@ -8974,6 +8974,112 @@ when it is sending it to **B**.
 
 * Class was for **12mins**.
 
+## application-layer-network-devices-and-revision(65) [4th Aug 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1043528e-2ea7-434e-b321-658be152248c)
+
+* Anytime a **client** wants to send a message to a **server**, the **client** is supposed to open a connection in **TCP**.
+* In **TCP** when they want to open a connection, both the sides will use **RISN**.
+* If we use **sequence/sequential numbers** then we will not be able to distinguish between old packets and new packets. If everyone starts from **zero(0)** then we might get a packet from the old connection between the same client and server. That's why we going for **RISN(Random Initial Sequence Numbers)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e100c09-c30a-4255-81d1-a36158f14014)
+
+* SYN -> Syn flag -> Synchronization flag [It is a **flag**].
+* Every first packet that is sent to establish a message should have **SYN = 1**.
+* Initially when we send the **first packet** there is **no acknowledgement** because we didn't receive anything to **acknowledge**. That's why **ack no = 0**.
+
+* When **ack no = 0** then **ACK flag = 0**.
+* ACK flag -> Acknowledgement flag [It is a **flag**].
+* **ACK flag = 0** says that there is **no acknowledgement** in the packet.
+* **SYN = 1** says that it is the **first packet**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5de567c4-840a-459b-9764-a400fcee5cdb)
+
+* There is **something** we are going to use called as **piggy backing**.
+* ACK flag and Syn flag can only take two values eithe 0 or 1.
+* **ack no = 0 and seq no** are both **fields**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c350e259-364c-40e6-970b-d3686a509468)
+
+* MSS -> Maximum Segment Size.
+* Most of the networks are **ethernet** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/94989290-90ca-4b1e-9916-2ba99df2fb9a)
+
+* PMTUD -> Path MTU Discovery.
+* MSS = 460.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6bd2a3db-5fa2-4488-9ffa-27c0196a5be3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d95f099-fdb4-40fa-a6dd-0119c0e2d4f8)
+
+* Advertisement window.
+* **Client and server** can send and receive the data in both the directions. Therefore there will be **two** windows on each side(both sides). One is a **sending windod(Ws)** and one is a **receiving window(Wr)**.
+
+* **Sending windod(Ws)** -> Just like **sliding window** protocol, after we send a packet, we are going to store the **packet** until an **acknowledgement** comes back.
+* **Receiving window(Wr)** -> As it is a connection oriented protocol, whatever packets come we are going to store them without discarding. This is nothing but **resource reserving ore reserving the resources**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fed69f78-11b3-4f2f-9e2b-8e8b7bacbe30)
+
+* Since it s a **connection oriented** protocol, the **buffers** have to be **reserved**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ae01f87-b898-420e-919a-b1021806868d)
+
+* Window -> Receiver window.
+* How many TCP packets, the **receiver window** can hold?
+
+* MSS= 1460
+* Windows = 14600 
+* They are given.
+
+> No. of packets = window size/ MSS -> 14600/1460 -> **10** packets.
+
+* So the sender can only send **10 packets** and after sending **10 packets** the sender has to **wait** because the **receiver** has **no more space**.
+* Only after the **receiver** consumes all of the 10 packets then only the **receiver** can send. It happens via or with the help of **acknowledgements**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c97cc1f-cde6-474c-8bf0-d6ba1c30adba)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1d7c673-4951-4dce-a2d1-d61455851547)
+
+* MSS -> In **one packet** how much data we get.
+* Window size -> How many such packets(MSS packets) the sender can send.
+* In the **options** the **MSS** is kept.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
