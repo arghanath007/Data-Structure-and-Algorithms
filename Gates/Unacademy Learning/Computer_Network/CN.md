@@ -9042,7 +9042,11 @@ when it is sending it to **B**.
 * MSS -> In **one packet** how much data we get.
 * Window size -> How many such packets(MSS packets) the sender can send.
 * In the **options** the **MSS** is kept.
+* The **window size** is kept at the **header**.
+* The **window size** which is kept at the **header** is **16 bits**.
+* The max no we can represent with **16 bits** is **(2 ^ 16) - 1 -> around 64K**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d36fe5aa-aaff-4637-8175-3227801429d1)
 
 
 
