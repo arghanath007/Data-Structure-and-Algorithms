@@ -9119,10 +9119,44 @@ when it is sending it to **B**.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/53862d80-aa37-4e38-a7cf-1a2413d5f428)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cea22265-35df-481c-9baf-ecbbf5f1a636)
 
+## revision-doubt-clearing-session (66) [5th Aug 2023]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/338a5d59-5bf8-4a25-92e7-64bfab5ad7db)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2bca4364-02c5-4c80-b68b-b97b3ceefb33)
 
+* Connection Establishment
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/328fe0d2-74c1-495f-9784-8b5648fb5a7e)
 
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9f8236c9-dd82-4e6a-84cd-37a4c76655b1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5c0633b-7d38-4c12-98dd-1579cb7c6762)
+
+* **521 packet** is already **consumed**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8c86aa2c-7a0f-4b1d-9508-5d1d61784e2d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3cbe54fe-fa15-43bb-98d8-28740f2b48c0)
+
+* **2000** has been **consumed8* so it is **2001**.
+* Piggy backing acknowledgement. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ad0ae2c9-09e0-419d-a618-94e0ecfc1e87)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed266cc4-ba1c-4642-a258-b5d903988cbf)
+
+* If we are not sending any data and we are sending only acknowledgement, then that is **pure acknowledgement**. **Pure acknowledgement** does not **consume** any **sequence numbers**.
+* If we are sending **data and acknowledgement** together in the **same packet** then that is **piggy backing acknowledgement**.
+
+* If the **sender** doesn't have **any data** to send within the time of the acknowledgement then **sender** is going to send **pure acknowledgement** as the **sender** doesn't have **any data**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63403d19-3299-42db-956e-b84e129ceb78)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/60913d89-fbeb-4cd8-9a4a-2e27d04beb94)
+
+* Whenever possible we are going to use **piggy backing acknowledgement** and if it is **not possible** then we are going to use **pure acknowledgement**.
+
+* Except the **first packet**, the **ACK = 1** always. In the **first packet** we don't know what to acknowledge that's why **ACK = 0** is set.
+* Acknowledgement timer(Tack)
+* 
 
 
 
