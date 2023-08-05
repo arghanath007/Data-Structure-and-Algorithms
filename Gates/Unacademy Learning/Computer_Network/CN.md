@@ -9184,7 +9184,48 @@ when it is sending it to **B**.
 
 * **FIN** eats up **one sequence number**.
 
+## application-layer-network-devices-and-revision(67) [5th Aug 2023]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c3e75cb5-ff34-4bbe-a66b-f7a8b5f748a8)
+
+* **FIN packet** is going to consume **one sequence number**.
+* **SYN packet** is going to consume **one sequence number**.
+* **ACK packet** is going to consume **zero(0) or no sequence number**.
+* **Databyte(DB) packet** is going to consume **one sequence number**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b2211a3-3346-4db3-9bad-e581cbe9569e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cdaf51ab-a9aa-4816-9ca4-69ac0a4786a2)
+
+* If we are getting the **data** from the **server side** then we should **acknowledge** it.
+* Connection mean **resources**.
+* Connection establishment menas **reserving resources**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bba936ff-9718-4a31-8a77-989ed286ead6)
+
+* **Acknowledgement** from **client to server** is **pure Acknowledgement** because we are not sending any data from **client to server**.
+
+* Except the**first packet** in**TCP**, every packet ig going to contain **Acknowledgement**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1cd28fc-27f1-479a-8321-ebe57412435b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97a50026-b50b-4d06-a0cd-7fa306d09e72)
+
+* Both sides have terminated the connection.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6d4e42f-b806-48ee-b7f1-b7e6a802c314)
+
+* TIME_WAIT  -> We are waiting for the packets to get over.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/70e2cdd6-e59d-4ecc-9698-6837600e54e7)
+
+* **TCP** wants to **reduce the header overhead**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e6bdf1b-aa0f-4958-b554-7359e6c9c643)
+
+* **Transport layer(TL)** is having **URG = 1**.
+* Every**urgent packet(URH)** will have **7** in their **network layer**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/96ad33e2-0bf2-4ee9-a56b-8446789ff89c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a2de428-690a-4e95-9eb5-7cb17cb72b90)
 
 
 
