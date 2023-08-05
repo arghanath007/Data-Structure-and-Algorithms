@@ -9156,14 +9156,33 @@ when it is sending it to **B**.
 
 * Except the **first packet**, the **ACK = 1** always. In the **first packet** we don't know what to acknowledge that's why **ACK = 0** is set.
 * Acknowledgement timer(Tack)
-* 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/462f252c-edc7-46a1-933b-809933eebd68)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/45ac66d4-8a85-4145-ae69-2c24470d7a61)
 
+* **Acknowledgements** are usually **cummulative**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/45a0131b-b6bb-42b0-ba6c-4a8e84db5583)
 
+* Connection establishment is like having the **buffers**.
+* All of the **buffers** are **reserved**.
+* We have to **free the buffers** when we close the connection.
+* Client doesn't want to send any data to the server, then the **client** is going to send **FIN packet**, where **FIN = 1**.
+* **FIN = 1** means that the **client to server** connection is closed.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d9937a8-fa34-40db-b9b4-449f6c28d652)
 
+* If we don't **deallocate** the resources then the **server** will be down.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/26bc7498-bd48-42ee-8469-1c965af9ab89)
+
+* **Server** can also send the **FIN packet**.
+* **FIN = 1**  means that the **server to client** connection is closed. **One connection** is terminated.
+* This is called as **connection termination**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8c40ebb6-f5a3-41be-8f31-4d763ba97c44)
+
+* **FIN** eats up **one sequence number**.
 
 
 
