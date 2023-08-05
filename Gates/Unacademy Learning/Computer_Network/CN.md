@@ -9048,19 +9048,76 @@ when it is sending it to **B**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d36fe5aa-aaff-4637-8175-3227801429d1)
 
+* Receiver Window size is **16bits** and we take **14 bits** from **options**, so we have **30 bits** now. With the **30bits** we can get a **max** of **1GB** which is the **Receiver Window size**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0dcb995d-45b3-4faa-89cc-c3d0578bc373)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e65d4bc-4fc2-4dd6-b924-5fc95d66d031)
 
+* PMTUD -> It is **optional**.
+* We cannot have **very large** packets because of **fragmentation**. We will have **smaller** packets but don't go **very small** because every packet has a **header** and that **overhead** will be **very high**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e437f5cf-26e3-49ff-af4a-872a8143eadb)
 
+* RST -> Reset Flag.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e4c67769-8c09-4a09-b727-9de2dcf1b6c3)
 
+* Sending an **acknowledgement** of some other packet is called as **piggy backing**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/972da3e6-6652-4883-aa83-b1cf574a1b5d)
 
+* In a **TCP** segment when we are sending data, every byte is actually numbered and the **sequence number** of the **first byte** is going to be used in the **sequence number field**.
 
+* When we are establishing a connection there will be **no data** and we will be sending only the **header** and in the **header** we will be putting some **sequence number**. The **receiver** qill assume that the **sequence number(521)** is over and the next byte the **receiver** is expecting is **522**.
 
+* Next time when the **sender** sends a **data packet**, the **sender** is going to start the **sequence numbers** from **522**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/11278858-41bb-4748-a457-a526e102782f)
 
+* **TCP** is a **byte stream protocol**. Every byte going out in the data packet is numbered.
+* Whenever it is **SYN packet** the **receiver** will understand that **521byte** has come to me and next the **receiver** is expecting is **522 byte**.
 
+* Therefore on the **sender's side**, when the **sender** sends the data the next time, it will use the number **522**.
+* The number **521** is **consumed/over** even though it is not assigned to any data.
+* **SYN packets** which is the **first packet** is going to eat up **one packet**.
+* THe **next number** we have to use is **522**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d26c9cf-2bce-4105-bdae-7c2a5e487a59)
+
+* **SYN packets** will always take **one(1) sequence number**.
+* **Acknowledegement packet** will take **zero(0) sequence number**.
+* **One data byte** will always take **one(1) sequence number**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f211547-d6cd-499e-ba99-4855f50342db)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/602c5863-5953-4a46-8b56-1977785482e7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32a96f3b-aee0-4795-b6c0-f80a18d3b7e9)
+
+* **ACK = 1**, the packet contains **acknowledgement**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7444d195-284c-49db-a09f-ce108ed63af4)
+
+* **ack no** -> It is the **next number** that we are expecting from the **other side**.
+* We got a **sequence number of 200** then what we are expecting **next**? 
+
+> We are expecting a number of **2001**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3edbcf31-17a0-4d3a-9473-5fc469b1b93f)
+
+* On the packet we are going to say that **ACK = 1** and **ack no = 2001**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2d2c96fa-5124-4992-8e1e-543b8fe72ed0)
+
+* This is the **acknowledgement packet** and we have **sequence number = 522** as the **other side** is expecting **522**.
+* It is **pure acknowledgement**. It does not **consume sequence number**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81c72b30-94bb-4196-90fe-5a105dc494a3)
+
+* **SYN = 1** only in the **request and the reply** packet.
+* **Acknowledgement packet** has no **SYN bit**. It is a **pure acknowledgement**.
+* This is called as **3-way handshake**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/53862d80-aa37-4e38-a7cf-1a2413d5f428)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cea22265-35df-481c-9baf-ecbbf5f1a636)
 
 
 
