@@ -9659,7 +9659,50 @@ when it is sending it to **B**.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/46343cac-a9dc-4f8a-b94f-ad89e70d77d9)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/84728f1e-c961-4583-8b49-8e987b7f9549)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69601309-815e-402d-9a5d-67f3685f2cea)
-![Uploading image.png…]()
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ca5dd72-3f5e-4834-a24e-4b8eecdd5bfd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/67d8ccb6-b325-4926-b262-f2a44b505c23)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a290aabc-4704-4992-b132-090b738c5ee1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/51237c97-441e-43bb-9f4c-9c108c3ca8d9)
+
+## application-layer-part-iii-doubt-clearing-session(74) [6th Aug 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/62babae3-276f-402c-8c1e-83cce0ded505)
+
+* Just remember the **FTP commands and responses**, not that important.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7afa4ce-97a3-4393-8fba-7367ad25719b)
+
+* My email account is simply some space dedicated for me on a server.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d5fd963-4511-4e48-9867-a99c8e56c561)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/014892d1-452d-4876-8a34-77d4026b667d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b34adb27-ab78-43fe-838c-ebc958dfb00d)
+
+* SMTP and POP.
+* SMTP is a push protocol -> It is only used for **sending emails** and not for **receiving emails**.
+* In-band protocol -> If the control and the data if they both travel in the **same connection** then that is **in-band** protocol. Example -> SMTP
+* Out-band protocol -> If the control and the data if they travel in **different or two different connections** then that is **out-band** protocol. Example -> FTP
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5fcaef16-2c6b-4672-bdb4-3ddcd02f45b1)
+
+* **SMTP** is for **pushing** and **POP** is for **pulling**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c9c7e51-57ef-49e6-9d22-f207966076a3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb255ece-3273-4e69-8913-b4fbadaa2f5f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f9892cc8-8fc5-4460-bc94-54e246276607)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e393ce5-cde6-449b-b07c-f02e51df1659)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
