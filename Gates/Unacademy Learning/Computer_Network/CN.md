@@ -9230,8 +9230,56 @@ when it is sending it to **B**.
 ## PART-III Completed
 # Part-IV started
 
+## tcp-part-ii(68) [6th Aug 2023]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50f73ed8-6979-4bf4-aaae-ea46e5807fae)
 
+* If the **urgent pointer** is **100** then it means that the **first 100 bytes** of the packet are **urgent**.
+* **URG** -> Urgent Flag
+* **URG = 1** -> Some part of the TCP segment is urgent.
+* Which part of the TCP segment is urgent is given by the **urg pointer**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e49d96ed-80e1-4c54-afd6-d0b9370480a8)
+
+* **RST bit** is generally used to **reset the TCP** connection.
+* Whenever there is a **client and server** and a connection is **established**. During the **establishment** phase, there will be **negotiation** going on and **negotiation** is about **ma segment size(MSS)** generally or some other properties can be negotiated.
+* Whenever the **negotiation** doesn't happen well then either the **client or the server** will send a **reset(RST) flag** saying that we will do it later.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65558b4c-3b51-4735-bd98-226811a7e370)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff6c5f1b-b483-4a91-bfea-53be552e2f3b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d82be758-11cb-4cd7-be59-d193e4b7c96e)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/768b07b3-c173-4286-90f8-5c0cf8a8cff6)
+
+* Whenever a **client** closes a connection that is called as **active close**.
+* Whenever a **server** closes a connection that is called as **passive close**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a68689a3-e188-4f24-af50-8916b74a1d29)
+
+* **Connect** is used to establish a **connection**.
+* **Close** is used to **close** the connection.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9a4bb4b9-7e79-47b3-90e0-975ee5f256e1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1c104cc-be0a-4a78-832e-a7d6ab1480ed)
+
+* Windows size -> Advertisement window.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71aa2112-a93b-433d-be7f-ddfc567e0643)
+
+* Client is going to act as **sender** and the **server** is going to act as **receiver**.
+* Whenever there is a **sender and receiver** especially in a connection we have something called as **flow control**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/948c31a4-80a9-4684-a326-abf1058fbbe5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2efee74c-1313-40b0-9c86-10df35b3546e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/132e6c00-67ad-483c-b6c5-3a37b87efff2)
+
+* Persistance timer
+* The size of the window is **16 bits**, the size is **65535**.
+* To the **16 bits** more **14 bits** are added, which is **30bits** and the size is **around 1 GB**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/feb8428c-5e49-4d81-927f-473047a7ae4a)
 
 
 
