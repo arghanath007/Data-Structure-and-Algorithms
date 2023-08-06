@@ -9692,19 +9692,49 @@ when it is sending it to **B**.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f9892cc8-8fc5-4460-bc94-54e246276607)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e393ce5-cde6-449b-b07c-f02e51df1659)
 
+## application-layer-part-iv (75) [6th Aug 2023]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0fabe52a-82b4-49de-8ed0-de31a9247658)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d51b0eae-efd2-4bd8-a4a0-716fd31ffb7d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/62abdc35-1bd9-42fc-b66a-c10f62f052a9)
 
+* HTTP.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e7cc8fc-ca5c-43c8-a9c7-fc0aff15f363)
 
+* Devices.
+* Attenuation.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/15ec37ea-ee25-4e17-95ed-e7071d6a6d86)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d9246bb-9633-49ed-957a-335536573a3c)
 
+* **Cables** are operating at the **physical layer**.
+* Whenever the signal is loosing it's strength a **repeater** is going to **increase** the strength and send the signal on it's way. It is **not a amplifier**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c9ad725-0642-4052-8644-022fb655af05)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8762288e-ae7c-4f3c-a9ee-e6a00681bf1c)
 
+* **Bridge** will connect **languages of same protocol and  
+* Broadcast Domain -> When we send a broadcast packet, how many people can get the packet.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/39efefa7-cce1-4dc3-b725-f5128be1da76)
 
+* Repeater -> PL
+* Hub -> PL
+* Bridge -> PL, DLL
+* Switch -> PL, DLL
+* Routers -> PL, DLL, NL
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37c99054-b54c-4e51-b89e-7a4edb0d97bb)
 
+## HTTP
 
+* Check the **PDFs** and **notes**.
+* IP + Port number(PNO) -> socket.
+
+# PART-4 Completed.
+
+ 
 
 
 
