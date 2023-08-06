@@ -9581,6 +9581,87 @@ when it is sending it to **B**.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83e4e567-360d-4ed0-a748-f141b7ff62e9)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e87711f5-c215-4e46-a520-2e46ff0510c8)
 
+## Application-layer-part-ii(73) [6th Aug 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6341b23-cbc6-435e-955b-3bef801e0b36)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2b05572-f673-4b86-b5d0-1a6a54e0345b)
+
+* **Sender or receiver** when sending small amounts of data are called as **silly window syndrome**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0090a44a-b1b6-4cf8-88dc-e3d108bab454)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf42cc5c-8333-41db-899e-ed3a6da3c5f9)
+
+* Nagle's Algo -> It talks about the problem at the **sender's side**.
+
+* Clark's Algo -> It talks about the problem at the **Receiver's side**.
+* Whenever the data is full and only **1 byte** of data is available then don't advertise **1 byte**. Just wait for sometime till we get some decent about of data inside the **receiver window(let say 100 bytes)** and then we **advertise** that number(100 bytes). 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/de959818-dbcc-4e8c-950c-49eb137932c1)
+
+* Whenever **PSH flag** is used then the **clark's and Nagle's algos** don't apply.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df436bc1-202c-4968-b1c6-05ca89587bce)
+
+* Traffic Shaping.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/545dccc2-be7c-46f6-bcec-2728d3976d08)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/78ac2f97-90e3-4a22-9576-98dbedd1f101)
+
+* We are controlling the speed at which the packet is going out. So, **congestion** can be controlled.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27a779d0-5848-4ef1-9ec3-95f145fa2b30)
+
+## UDP
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80ce0153-476b-408f-9747-e07412762557)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5cb9d32-6beb-4838-b523-9772108cd7c5)
+
+* In syllabus which use **UDP** ->DNS, BOOTP, DHCP.
+* For **broadcasting/multicasting** we will go with **UDP** and not with **TCP**.
+* **UDP** is used where **speed** is needed instead of **reliability**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5bec59c-7da3-4964-9a02-0a00d918945d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f8b3f282-9275-46f1-992c-970a3341d7a4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6aa30a24-8013-4555-8c53-bed14304e00c)
+
+* Yes, **stateless**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bfcebbb4-a27b-4d24-b092-8ced58c8cb6e)
+
+* UDP header.
+* Encasulated data -> UDP data.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1763540-795e-4641-8ee9-8866a19dfb2e)
+
+## DNS
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f58d2743-11cc-468b-9526-0de527bad4a8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/02f5b25e-49aa-41a6-821d-14d8d85298fb)
+
+* **DNS** uses **UDP**.
+* All of the **remaining protocols** uses **TCP** because they need **reliability**.
+* **DNS**is a **single reply and single response**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d392c577-fb5f-4b9b-9b11-e020282353b7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/40350d31-a5e8-4229-b08b-6a5bbec0e534)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9a43632c-cf14-4c49-8f90-2054c1451c01)
+
+* **DNS** is a **one request and one reply** protocol and therefore we have to use **UDP** and not **TCP**.
+
+## FTP
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ad536fe-8c7b-4651-805b-84fa032977da)
+
+* **FTP** is going to establish **two connections**.
+* THe **control connection** is poersistent. It is going to be there throughout the lifetime of the connection.
+* The **data connection** is closed once s single data tranfer is over.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/46343cac-a9dc-4f8a-b94f-ad89e70d77d9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/84728f1e-c961-4583-8b49-8e987b7f9549)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69601309-815e-402d-9a5d-67f3685f2cea)
+![Uploading image.png…]()
+
+
 
 
 
