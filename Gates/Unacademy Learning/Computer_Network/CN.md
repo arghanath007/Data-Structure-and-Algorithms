@@ -9323,6 +9323,65 @@ when it is sending it to **B**.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12ee66bf-7e06-4e6c-a2c4-d3a24740b6bf)
 
 * Retransmission in TCP.
+* Class ended.
+
+## doubt-clearing-session (70) [6th Aug 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2bbf56bf-02e5-4663-b5a2-184d81b33a96)
+
+* Retransmission in TCP.
+* **TCP** receives **out of order** packets, which is similar to **SR**.
+* **TCP** sends **cummulative acknowledgements**.
+* **GBN** takes **cummulative acknowledgements**.
+* So, **TCP** has both the characteristics of **GBN and SR**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c38778a-02e6-442b-b698-82953925bd15)
+
+* TCP ->75% SR and 25% GBN.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91bb17f9-25b8-46e9-a561-137ca5c05a2e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a7e24dd9-e63f-49c6-8589-93c357df8a78)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/94669046-976d-4ffd-921a-5e0c6a75fabe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aac3a753-0dc2-4434-a7b7-556bc02e6e8d)
+
+* Yes.
+* Generally **retransmissions** happen after the **timeout timer** but **retransmissions** can also happen in **TCP** after receiving **three duplicate acknowledgements**.
+* This is called as **early or fast retransmission**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d54b927c-3521-466a-9ee8-f2d4dd8551bb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0bde9bd5-3fac-4bb5-8dab-a96487a66b9e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37e3f787-59da-4516-972a-41b303cd982e)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85f129cf-9395-4897-b4d7-b29f445c0b98)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dcdefa04-ff2e-41e3-9397-cef491f366e6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76251ae4-c9a2-4b96-9300-678fbcef656f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5447d56-63d6-4e80-bad6-adf67f83a87a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4f403b9-a366-4c30-a044-2657c0c2ddb0)
+
+* This is how **acknowledgements work**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/328a4933-a9b4-44c7-b697-c3f7b69e7254)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b8855a23-52f1-4ea4-8494-5da5cd410eeb)
+
+* Don't wait till the **timeout timer**, we **retransmit** after **three duplicate acknowledgements packets**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dac6edda-f1f1-4e77-a8a2-3ff2bbc29475)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/efe9e87a-40c7-4e1e-92f6-68ff91c29a89)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9eb28ed-de45-4179-8909-24b8e683c5d0)
+
+* **TCP** is using **retransmission** after **three duplicate acknowledgements**.
+* This is called as **early retransmission**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea0dc836-8a6b-4341-96a8-f4623ce47a64)
+
+
+
+
+
+
+
 
 
 
