@@ -9281,9 +9281,48 @@ when it is sending it to **B**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/feb8428c-5e49-4d81-927f-473047a7ae4a)
 
+## tcp-part-iii-retransmission-in-tcp(69) [6th Aug 2023]
 
+* Pseudo Header.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2114dd45-8439-40c9-8f88-2b0f4450001d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff9b60d0-1a97-46b1-90b2-76216e3faa52)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a43aca14-1e8b-4e5c-bc02-9f35eb892524)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6e8f7025-1d5a-49a0-b831-b0e834ef209e)
 
+* If **IP layer** misses it then **TCP** layer is going to **catch it** because of the **checksum(CS)**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f694d5e5-e396-41f6-9e73-f57d5e99c47a)
+
+* So, we need **IP address** checking even at **transport layer**.
+* Pseudo  Header(PH).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b3307d8-6949-40a1-b687-d52bcf3aa70e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6167aa76-9adf-434c-8c04-81f72d8ba172)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa9e6604-bd76-422f-a331-9e4be9d547fa)
+
+* **Options** field in **TCP**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a51cb135-3d2b-4915-977d-f00b5bebf935)
+
+* If we are consuming all of the **sequence numbers** in **1sec** and we have **3 secs** as **lifetime** of a packet then there is a **problem**.
+* The first packet might we still there in the internet and if we send the **same sequence numbers** then there is a problem. That's why we are extending the **sequence numbers** by including **more bits**.
+* In the **sequence number field** only **32bits** are present.
+* The **extra bits** are present in the **options field** called as **timestamp**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2bb04143-fb80-4776-910c-ef9602146c68)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb396dba-414c-4eb4-b843-96c564d121e5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/931d8e3d-a4a6-49bc-8d19-0857086cf26e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2dca843-6256-410d-bc18-147eda0e87f5)
+
+* Padding is used when it is **not a multiple of 4**.
+* **20 bytes and the options** together should be a **multiple of 4**.
+* If it is not a **multiple of 4** then we are going to **add some dummy bytes**. That is **padding**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/67756d71-d018-42af-a75f-e17d15485946)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12ee66bf-7e06-4e6c-a2c4-d3a24740b6bf)
+
+* Retransmission in TCP.
 
 
 
