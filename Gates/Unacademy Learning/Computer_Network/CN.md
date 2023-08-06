@@ -9566,10 +9566,20 @@ when it is sending it to **B**.
 * Deviation can be **early or late**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/90e83b9e-cf49-4d40-b030-2abc3272e3da)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2e4b986e-fff9-425f-83e9-7d69adf3436c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/93dad73a-dc77-47bc-9054-acc3c76f127d)
 
+* NRTT -> Next RTT(Round Trip Time)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6797515d-1a41-49d3-8bbd-ee1a5b58efcb)
 
+* Everytime whenever we send a packet, we are expecting the **acknowledgement** and using the **current timeout timer** we are calculating the **next packet's timeout timer**. There is a chance that the **acknowledgement** might not come.
+* If the **acknowledgement** comes back then we are going to compute the time which is nothing but the **ARTT(actual RTT)**, and based on that we are going to compute the subsequient **timeout timers**.
+* If the **acknowledgement packet** comes back **ontime or within the timeout time** then we know what is the **ARTT**.
+* The problem is we might not be able to know the **ARTT** if the packet is **lost** then that solution is given by **Karn**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83e4e567-360d-4ed0-a748-f141b7ff62e9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e87711f5-c215-4e46-a520-2e46ff0510c8)
 
 
 
