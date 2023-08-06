@@ -9424,14 +9424,78 @@ when it is sending it to **B**.
 
 ## traffic-shaping-udp (71) [6th Aug 2023]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba2b91d3-4452-4e17-b6e7-a176bb40f1b0)
 
+* Congestion window size(Wc)
+* At any point in time the **sender** is going to look at **two windows**, what is the **receive window size(Wr)** and and what is the ***current congestion window size**. It is going to take the **minimum** of them and it is going to transmit it.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/103bde79-a5d7-44d2-9e9a-a6533e18463a)
 
+* Threshold(Th)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd442332-75bf-4974-9ed1-1a7427b367eb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b39ba034-e1e7-4c4e-a642-956f24e015be)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aba1389e-21dd-4be5-bfa6-dd16cc3dedeb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bd299526-0f0a-44df-9346-261fc2376861)
 
+* Round Trip Time(RTT) -> 6
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7908b91d-7a60-468c-be03-0bba0dd13fae)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0e50852-9420-445a-ac6c-997f0d176540)
 
+* Threshold(Th).
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b4a2ac1-15c8-47ed-b385-29b7bcebc442)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb4f94d5-57af-4448-8df2-a25be6f85122)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0984c8a-a3ef-42fb-a168-25619e8d5c63)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71fe8b5c-ac6c-432a-89c7-03f8f128cb38)
+
+* **Timeout** timer is a **sever** indication of **congestion**.
+* **3 duplicate acknowledgements** is a **mild** indication of **congestion**.
+* When there is a **timeout** we react differently and whenever there is a **3 duplicate acknowledgements**, we react **differently**.
+
+* **Slow start phase** is **not slow**, it's starting is **slow**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f81b1c6b-7140-44e0-a37d-ad77b29487a5)
+
+* After sending **32 packets** there is a **timout**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6d26f32-3be6-4db0-8dc2-9d4367641b07)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c82fb3e4-4369-4ad3-87f8-73783e0f134e)
+
+* We are going to start with **sender window size** of **1**. 
+* Threshold is **40**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3b80525b-1987-495a-ad0d-6e927391dcab)
+
+* Receiver window size is **128** and we have reached it.
+* Is the **Receiver window size** always **128**? 
+
+> **No**.
+
+* **Receiver window size** always changes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3b29d0d3-4d7a-4e4d-a022-02cabbceecba)
+
+* **Sender window size** -> 1
+* If **42** is the **max window size** then **threshold** is **21**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea40a7e9-c8fa-4b77-bbbf-bb452eeb2515)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0811997-2451-4fd5-84f1-b2b4722658aa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f2aae92-1da1-45fd-9002-c0a79972fc3d)
+
+* Whenever there is a **timeout** we are going to start from **packet number '1'**.
+* Whenever there are **3 duplicate acknowledgments** we need not be **so strict** because **3 duplicate acknowledgments** is a **mild** indicator for **congestion**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/de896d28-e351-45e6-8488-810fb7068673)
+
+* Whenever **timout** is detected, we are going to go through **slow start**.
+* Whenever **3 duplicate acknowledgments** is detected, we are going to go through **congestion avoidance phase**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5068a1d4-fdb7-49a3-8c8b-830515161bf3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4ba8d357-a60b-434f-a4a2-4a0b907e50bd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/82d408ce-aa21-4da7-bde8-d62dca098f03)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0385d23-a025-484f-ba96-c0e192ba981c)
 
 
 
@@ -9455,3 +9519,4 @@ when it is sending it to **B**.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/872195d4-3921-41f3-94dc-7b2819922cab)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f50e666-7214-4583-8728-a2076f78bd28)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e416075b-c7d6-423c-8f72-042d0dc1bd5d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e3e697d-16bb-466f-8ab1-12f782e37665)
