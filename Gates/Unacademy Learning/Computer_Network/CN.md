@@ -9375,10 +9375,52 @@ when it is sending it to **B**.
 * This is called as **early retransmission**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea0dc836-8a6b-4341-96a8-f4623ce47a64)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/29a28f70-e32e-4b0f-8614-15c303522288)
 
+* Question.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05dc429d-cd59-460e-a8a4-de1c988f7bba)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c77a300-36c5-41f8-8980-a3649e023fca)
 
+* Question
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f12d27e6-6568-4560-baf6-b7eda4202cda)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b83dc3d5-5645-437e-a587-51afb14ccf8e)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee62ab44-5415-43a7-833f-1b2f560c0a8a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32a00af8-a3f2-4fe2-aa2e-e494284bf7bf)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c8675c1a-85af-4ad1-b037-602570c002ab)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37d6e77b-cb78-4138-94d2-4303f1a03f5b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7afa036-a5cd-417a-8e0d-487eea606fbf)
+
+* Congestion Control
+* If all of the routers in the world are overloaded and their **buffers** are filled and if the packets are discarded then that condition is called as **congestion**.
+* **More traffic** is one of the reasons for **congestion**.
+* At the **host side** we are supposed to stop the traffic.
+* How are we going to stop the traffic?
+
+> For that reason in **TCP**, we have **congestion control**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7f1c715-a89e-45ee-9869-bc84489ea9f3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44554378-c906-4925-a2e4-cacf7477b7c7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/786abd80-1ba7-47d6-b9cb-e19ff475bd34)
+
+* The **receiver** is saying that it is able to get **1GB** of data. THe **sender** is saying that it is able to **send 1GB** of data. **Receiver and sender** are having **buffers**. The problem is if we **directly** dump that **1GB** of data in the **network**, then the **network**  is not able to hold it?
+
+> If the **network** is not able to hold it then the **problem** is that all of the packets will be **discarded** and we will keep on **retransmitting**. Again those **retransmissions** will get **discarded**.
+
+> Therefore the **entire internet** will come to **hault**. 
+
+* **Congestion control** -> [**IMPORTANT**]
+* Without **Congestion control** everything will go into **Congestion**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80005f26-3f49-4339-b01b-8848feaa8eea)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c3592703-86ca-404e-a76b-0ffd4f23c599)
 
 
 
