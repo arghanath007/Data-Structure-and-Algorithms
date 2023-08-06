@@ -9504,6 +9504,65 @@ when it is sending it to **B**.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c770bec5-72c9-4986-a285-c3dc9b88151e)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d2dab83d-ddf7-48d4-8322-9726ccad68fe)
 
+## application-layer-part-i(72) [6th Aug 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/839b70c6-8912-43c3-a5e5-375583c0b898)
+
+* TCP timers.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba44cea9-3308-4703-95f9-8d06cc5b3157)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a011c98e-9d3d-45b9-9bbf-7db07fc8df87)
+
+* We are not worried about **transmission delay** at all, we are worried about **propagation delay**.
+
+* ARTT -> Actual RTT.
+* RTT -> Rount Trip Time.
+* RTT -> 10ms
+* ARTT -> 15ms
+* Using these **two numbers** we have to guess the **RTT and timeout(To)** for the **next packet**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d39dbf0a-62bd-430e-8921-35772ae46723)
+
+* The **problem** we have.
+* **RTT** time is **too static** and **ARTT** time is **too dynamic**.
+* We cannot have them **both** alone. So a **combination** of both is **required**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ddbb2cc2-ebcb-4a84-9310-06a091d2bb99)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fea84c0b-e2df-43bb-aa3d-9c5a8b497052)
+
+* **Timeout timer** cannot be **too long or too short**.
+* If **Timeout timer** is **too long** then it is going to **waste our time**.
+* If **Timeout timer** is **too short** then it is going to **lead to many retransmissions** which are **unnecessary**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19ca5640-b616-453f-a193-56d25d869ee9)
+
+* Basic Algorithm.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91ad3ddf-d938-4b87-bfd9-eb18792d1641)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e868d087-7d66-40cc-befc-32aeaaa1efec)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4dc1f9d5-060c-4037-85e1-bd3713f5fe3a)
+
+* Here, **same weight** is given to **each one of them** but we can have **different weights** as well.
+* If we **increase** the value of **alpha** then the **weightable of static part** will **increase**.
+* If we **decrease** the value of **alpha** then the **weightable of static part** will **decrease** and the **weightable of dynamic part** will **increase**.
+* What happens if **alpha** is **zero(0)**?
+
+> We are totally **dynamic**.
+
+* What happens if **alpha** is **one(1)**?
+
+> We are totally **static**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dbcdb1ee-7441-43e4-ae06-cddd3fe22fd9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f1a64c61-4d06-483b-b58e-b64da9f0dfad)
+
+* The **entire history** is considered here, not just **one packet**. 
+* If we had **RTT = 10** then **timeout timer** would be **To = 20**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5126eef-d287-4d99-a058-984fd2a191b5)
+
+* Jacobson's Algorithm.
+
 
 
 
