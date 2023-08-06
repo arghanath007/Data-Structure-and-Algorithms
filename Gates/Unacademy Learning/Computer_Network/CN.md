@@ -9562,6 +9562,11 @@ when it is sending it to **B**.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5126eef-d287-4d99-a058-984fd2a191b5)
 
 * Jacobson's Algorithm.
+* Deviation.
+* Deviation can be **early or late**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/90e83b9e-cf49-4d40-b030-2abc3272e3da)
+
 
 
 
