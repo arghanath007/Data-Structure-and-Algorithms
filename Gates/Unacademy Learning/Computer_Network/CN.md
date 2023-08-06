@@ -9496,6 +9496,18 @@ when it is sending it to **B**.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4ba8d357-a60b-434f-a4a2-4a0b907e50bd)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/82d408ce-aa21-4da7-bde8-d62dca098f03)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0385d23-a025-484f-ba96-c0e192ba981c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/acd5b6f4-9d98-4c4e-9f0d-d16306838a97)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8be0cfe-3fc4-4a57-a7dd-fd90f649b3b5)
+
+* Threshold = (Final value before timeout(To)) / 2
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c770bec5-72c9-4986-a285-c3dc9b88151e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d2dab83d-ddf7-48d4-8322-9726ccad68fe)
+
+
+
+
+
 
 
 
