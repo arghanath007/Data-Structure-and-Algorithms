@@ -7283,6 +7283,44 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2627377e-a4c5-445a-86b6-09fede1cfef3)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6fd4e0c7-0c9f-490a-88f6-ea8f92c8ef24)
 
+## file-organization-and-indexing-part-iii(31) [6th Aug 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a743db52-a7b2-4ffd-b910-0d1b8f7c1e45)
+
+* No issue between **spanned and unspanned**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0918c16b-8b07-456c-8db4-9333b1f55470)
+
+* If there is **free space** in every block then there will be difference between **spanned and unspanned**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/64dabb86-9a5c-43c3-a420-25498c125dce)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/867a3625-dd2f-4c68-96c3-8b8bc4f60f6b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b969fc7-df2e-4791-8a4b-3d0dbda8d483)
+
+* Spanned.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/25e32fe3-e08d-4619-af6d-839c13814249)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f345e5e1-56e3-4ece-9f6c-f4ee30b687c4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8a6e786-ceab-40f7-b1d5-156d38ebd9e7)
+
+* Unspanned.
+* In the **index block** if we have to do **searching** then we have to do **binary search**.
+* No. of comparisions?
+
+> For te **108** blocks, **no. of comparisions = log 108 base2 -> 7**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/51f8bd2e-91bf-4a91-81cf-907909096a63)
+
+* Start from 30mins.
+
+
+
+
+
+
 
 
 
