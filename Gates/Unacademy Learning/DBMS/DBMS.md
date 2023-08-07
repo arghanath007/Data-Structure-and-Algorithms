@@ -7352,7 +7352,7 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 
 * This is **correct**.
 * For **every unique value**, we do **indexing**.
-
+* Start from 52mins.
 
 
 
