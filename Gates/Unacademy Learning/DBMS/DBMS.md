@@ -7307,14 +7307,52 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8a6e786-ceab-40f7-b1d5-156d38ebd9e7)
 
 * Unspanned.
-* In the **index block** if we have to do **searching** then we have to do **binary search**.
+* In the **index block** if we have to do **searching** then we have to do **binary search** instead of **linear search**. The **index and the data** are **ordered** only.
 * No. of comparisions?
 
-> For te **108** blocks, **no. of comparisions = log 108 base2 -> 7**.
+> For the  **108** blocks, **no. of comparisions = log 108 base2 -> 7**.
+
+* With the access of **7** blocks, we can access the block, we want to access.
+* We will **search** first in the **index**.
+* Every **index** has a **block pointer** which is pointing to a **block**.
+* We will do **searching** on the **index block** and after **searching** we will find out the **block** in which the **data** that we want is **located/stored**.
+* We are doing **binary search** on the **index block** and the **no. of block** we have to access is **7** blocks. We accessed **7** blocks and the **job** is done.
+* Out of the **108 blocks**, we have to access only **7 blocks** and the job is done.
+* This is where we can **optimize the access time**.
+
+* **Binary search time complexity** -> O(log n base 2) -> logn base 2.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/51f8bd2e-91bf-4a91-81cf-907909096a63)
 
-* Start from 30mins.
+* **Index** is **metadata** not **overhead**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd301fde-325e-4f52-9b8c-c1c19d35ba03)
+
+* Yes, **spanned** can also have **internal fragmentation** because the **last block** may not be **completely filled**.
+* In **unspanned**, every block can have the possibility of **internal fragmentation**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6085463f-b491-4a25-ae4e-436dc7046652)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a46ef901-1571-4029-8acf-ae0db2f708cd)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e2515a3-af90-441e-9258-dde83e30996f)
+
+* Clustering Indexing
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/122eaa75-629a-401e-99ce-ae896c3aefc5)
+
+* Indexing is done for **each unique value of non-key field**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b7f2608c-34cc-40d1-9ce5-920bc56a39ce)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27404068-59b8-4d2a-8b4f-bebc9e3de298)
+
+* This is **correct**.
+* For **every unique value**, we do **indexing**.
+
 
 
 
