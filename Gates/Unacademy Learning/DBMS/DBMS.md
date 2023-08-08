@@ -7384,6 +7384,27 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 
 * Yes.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5620763-71d9-4a98-b554-e9d7f55e57eb)
+
+* In **primary indexing**, **the no. of records in index file** will be **no. of blocks to store the db file**.
+* In **clustering indexing**, **the no. of records in index file** will be **no. of unique values**.
+* This is the **only difference** everything is **same** in terms of solving the question.
+* **Indexing kiski karni ha** woh dimag(brain) meh ah gaya toh, everything else is **same**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4409b623-1d68-4646-b39e-2a4297705868)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2d76022f-9feb-4fa0-b52b-e2954aad557e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/77e6b403-f325-416c-8860-99148382b3b8)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e4bca64-9444-4846-a299-d1966ea597b0)
+
+* Spanned.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cba50c67-d265-4a0a-a681-801a3c9df6bd)
+
+* Unspanned.
+
 
 
 
