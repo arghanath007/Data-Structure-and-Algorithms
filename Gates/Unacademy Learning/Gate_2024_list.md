@@ -4,7 +4,7 @@
 1) C and DS -> Done [2nd March 2023]
 2) Aptitude -> Started
 3) Digital Logic -> Completed[25th March 2023]  [Do practice question while revision]
-4) COA -> Started [Hault]
+4) COA -> Started
 5) Algorithms-> Completed [31st May 2023] 
 6) OS -> Starting on 8th May 2023 [Completed]
 7) DBMS -> Completed [24th June 2023]
