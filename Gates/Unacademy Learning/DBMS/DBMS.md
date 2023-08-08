@@ -7690,6 +7690,171 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 
 ## file-organization-and-indexing-part-iv (33) [8th Aug 2023]
 
+* When the order is **even numbers like 4,6** then there is confusion. We don't know which element to send **above** during **node splitting**.
+* We can have **two option**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee407388-e3bc-480f-8fb9-2fc33b1ba9ba)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35a49d1b-8dba-4dcb-864b-ad67f7d5826c)
+
+* Right biasing
+* Left biasing
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/145ffff6-a90a-460b-9900-2750d31e06f3)
+
+* Node split in **left or right biasing**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/25249038-a256-441f-8ca0-a5a0afb7e0a8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69944abb-9ab8-4f70-9d2c-a6d8c007fdd8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ccad411d-b7ee-432d-ab8c-812f684bbffc)
+
+* Continue with **Left biasing**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b91e316-629e-48c0-824f-eb0c30b0bfbd)
+
+* Assume a B-Tree of **order-p**.
+* 'p' -> even and p > 2.
+* When during an insertion a node is splitted then the no. of kyes in 2 splitted nodes should be?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58e865a6-c323-4bde-8f59-6cceb5b526b9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b62bcd0-01b3-4142-a1fd-11dc06cf648e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b46c114-f49d-4223-8c0d-95e9fc4c50ae)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b163d6b3-331d-4a70-9de0-99dece254a58)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e77b3ecb-f53b-4284-8e01-5d96c560302d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6eabed80-b4e8-4050-9555-61892c3e95fa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/60b0fa15-fe28-4e6f-a8ed-b8197acbe008)
+
+* Will be mentioned in the question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea608bd7-4f5c-47fb-81d1-c5b180458c02)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d4dd441-0fd6-4b5f-9fc1-700e19072913)
+
+* Question.
+* Degree -> No. of children -> Pointer.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/01d89119-2542-4f4e-8f50-8062da3a12ac)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97916b4b-ebf9-4d68-9b08-45d9cf175aae)
+
+* We are not **concluding** yet.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86983d30-87db-4e69-94d1-1c2855319173)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba913c64-59c8-4b45-a30b-34257896b331)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/247dbfd4-58b7-4d57-9e73-9f8b5b59f77f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32b0a405-f23f-44db-af39-fc4a99932fc5)
+
+* Option **B** is **correct** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4213cab1-e82b-4043-aab6-e52397bb05c8)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b82a31d-b780-4946-8381-758922833765)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/02cc16d3-8cf3-4ad4-9f52-5d35b6b44150)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8165b584-73a5-4a74-82bd-14d795c7001c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05fa55b4-d620-44b5-bec8-a271ed6acde3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/11d10a76-3e87-441d-b550-ba5c4e19390e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92bd30c5-76c7-4266-bf9d-8d5e0ab6e3c0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b13c16b-2296-4831-b266-5852533c315a)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/46aba782-2cbe-4747-ab3b-929365e94112)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/01274e4f-4054-4398-815b-c2a305b52764)
+
+* In general, it is **no. of nodes + 1**. As **maximum** no. of nodes are asked.
+* No. of splits -> 4 [Above question]
+* No. of splits in the question = No. of levels.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e4b7a81-20a4-4b99-8930-f644b2f651ee)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bde84aa7-241c-4aae-894f-a532b3913e36)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24e7bd4e-9e60-4a7b-a110-866c043de72f)
+
+* Practical Imlementation of node on blocks.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c43f9d0-d1cd-47a5-b68f-92f468c53932)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c8af0628-f6f5-430e-a30e-e575952e40a5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3f6f877-e0e2-41d4-b530-dfc60afe5334)
+
+* B8
+* root(B8).
+* Idea to store B-Tree on dissk -> Keep one node of tree on a block. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/439fac6d-20e2-4a8a-b878-18c922eaff99)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85bcaa15-658d-4beb-886d-ed08bc4f7ea3)
+
+* Rec pointer -> Record pointer
+* Tree pointers.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b7f865c-c555-4d12-b44c-2f6fde65537c)
+
+* Max keys -> (p - 1)
+* Max tree pointers -> p
+* Max record pointers -> (p - 1)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1030350f-c627-433b-8579-0dabb444aa03)
+
+* **One complete node's** size.
+* We have to keep the **complete node** within **one block**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d754bab9-9983-4c22-ab6c-ec144c4c1d48)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/787210c7-e567-4e8e-bc94-f7fb8d901539)
+
+* Tree pointer or block no or block pointer.
+* We want to do **min. internal fragmentation**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8818eae7-1f82-48bc-ac62-a7a15c8a5033)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f95792ed-2aee-4fb4-997b-697ab83822d6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/62725944-03f1-41ff-a59a-5c7deddeffc9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f27226d-1442-4ac3-a695-64e665ac11ad)
+
+* yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/046bd498-bdf7-47c0-8375-862c3c4a3cd0)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e773300-9d57-4ef9-863c-da2427517b40)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/500f1a5c-adfd-454f-96c9-3f1586b45605)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0521c7c6-285c-4e18-bcaf-233e891712fc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b02ab42c-da0c-497f-8dc2-dd10c78feccc)
+
+* Height of **B-Tree**.
+
+### Doubts
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aea69e2c-efe3-43bd-b096-ecbc02a01a37)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3b27ba9b-83ad-4b50-bfc2-1419b689f6d1)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/17385609-2ec1-4d4e-bc86-ca5f789b58a7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ccd0f3be-44b8-4b6c-9880-fb857fbe4cd7)
+
+* Yes.
+
+
+
+
+
+
+
+
+
+
 
 
 
