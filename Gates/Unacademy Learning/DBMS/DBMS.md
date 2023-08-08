@@ -7846,15 +7846,86 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 
 * Yes.
 
+## file-organization-and-indexing-part-v (34) [8th Aug 2023]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9549f968-703f-428c-83d1-29526a8ade9a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c161ada-f31d-41f6-abd9-9047dbc2793a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2af5c344-8941-4f8d-9ae1-c86c76987ed6)
 
+* select * from table where key = 20;
+* To search into index, 2 blocks are accessed.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/88d04940-f042-4a06-96d6-fa0ca01897c8)
 
+* To access a specific index, **max no. of blocks** accessed = **no. of levels** in **B-Tree**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1e1b7ca-48db-4282-950d-18eb01d22a31)
 
+* **4 blocks** accessed.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b92f08bd-e3a1-4335-9a90-5a078e908488)
 
+* In given tree, select * from table where ke between 4 and 30.
+* No. of blocks accessed -> **4** blocks.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ad4bd090-370f-425d-a8a2-1a5af8e46f41)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5937fdd-07cb-4452-8745-5fd88e970504)
+
+* **Deletion** in B-Tree.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/46368270-8d76-4c2b-a147-23ba9f842bf6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7caf2a04-ca4b-4e8f-9f38-9a00bb87b381)
+
+* **No changes** after **deletion**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8da7384a-1ca5-44fd-a0d2-16b0e616869c)
+
+* Question [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/51a63fc4-7450-4a5e-8eaa-a010f7fd805e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c40ae4cf-b20d-4d32-8f0e-0613d45ccf9a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f1117b3-4bcb-41c0-b97c-17e11a2a84ae)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f61f9306-a87b-4a9d-9901-eac76aaf181b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd2a8661-0505-4b82-a520-12dab7581d30)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6fc8e11e-fee0-4bf8-89e5-ff95c57182ed)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/afa9b3c4-5c60-40ea-b1c4-bec9c9ecb5cc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65641ada-4016-4b0a-97f9-ee7d9186840f)
+
+* No violation so **no changes** afterwards.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a2c0aed-3239-43cf-9b34-a4960151b2bd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e47836a0-1352-496d-b890-87005ec85242)
+
+* Because of **min. key violation** we cannot borrow.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8401386b-237a-456c-b01d-ff551bd3f905)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a7e88476-cdd6-40d5-9639-d4ab9b9b5c32)
+
+* Will be mentioned in the question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1adc57c5-76e6-4a90-9da8-c6422e94f8ff)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e22d572c-ba15-4f6c-b704-24a06874dd14)
+
+* Inorder successor or predecessor will always be on **leaf node**.
+* Will be mentioned in the question, whether we have to use **successor or predecessor**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c50a08fb-908c-4848-8f37-89539479e751)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc79746d-e9d6-43c3-b853-cc70d87cb578)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7d788ec-8d84-4773-9142-eac62ec025fc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d570c463-3c49-4ca5-bf19-5cedfdc6292b)
+
+### Doubts
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8efe61d8-6776-4ab3-9005-f5192a1a97dc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/75ff8e4a-a566-4c23-8e73-3e6f14aaee89)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d5bd6c3e-0541-4f1e-9123-c3db6c2a9f99)
+
+* COA.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81cbd1b2-19c1-4721-870b-0d049a9ad7cb)
 
 
 
