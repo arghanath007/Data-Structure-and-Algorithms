@@ -7644,7 +7644,53 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e0257cab-b114-47e9-a9e3-46a06ac5f58e)
 
 * Insertion in **B-Tree**.
-* Start from 1hr 21mins.
+* **Insrtion** is always done on **leaf node**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1258618c-daea-4c77-963d-650e2dcd89e9)
+
+* We can keep **2 keys** on a **single node**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6e34601-ecd0-4c2d-91f4-9bd75efdb27c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e4a55019-f30e-4f69-bce3-7d456de4d091)
+
+* We had to make **2 extra nodes**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ad333a9-d44e-4326-bfb2-9d5ba55582c7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9d2ca17-a70d-49db-81f6-4f0283d65545)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8b6ee68-9250-40f8-99fd-1120240fa754)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a4bf45e3-44be-4de5-9650-26aaf783cd81)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1ef7f84-c227-4ce7-9a16-d2a58a44661d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ced5fe58-8dd7-4a8e-89f5-c8f74faf5299)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b86ed91-4c4d-4273-8f68-0b8032b18003)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc0d907b-a538-4d39-a526-390f2d735d70)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/96ef0610-abb2-4f2c-8fff-5902716aef37)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d2821a03-24f7-4932-96b5-55abe272c1fe)
+
+* Question. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/247cb3fe-9cb4-488d-b377-6a25758574cf)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc81fee7-b927-477b-8775-f19ae5a02905)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/07711a3b-486c-4d15-b409-d014ffad6ae9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee774fc6-1734-462f-9439-7d5e0aedf3ec)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9cd2de39-41d8-4926-b5c0-faf31b7692ce)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7356208-0ba1-466e-90c4-d127a0877565)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57186270-3481-4a45-8d79-8561e5030541)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63e2e991-de44-4dba-a240-d862811b23c4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c869377e-d89c-40a2-abf7-413cd25f10b0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24446a65-85cb-4229-bd87-3814f7df8c5f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d2be4619-ed5d-4b7e-b712-f6fed9aafb85)
+
+* Good point, we will see **tomorrow**.
+
+
+
+
 
 
 
