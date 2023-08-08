@@ -7688,6 +7688,13 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 
 * Good point, we will see **tomorrow**.
 
+## file-organization-and-indexing-part-iv (33) [8th Aug 2023]
+
+
+
+
+
+
 
 
 
