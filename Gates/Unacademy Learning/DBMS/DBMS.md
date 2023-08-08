@@ -7405,6 +7405,45 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 
 * Unspanned.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d1c8589-c4c3-40d8-ad59-945fc2a46602)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fdeb5321-c9ca-4a0f-b4a1-03424fee398b)
+
+* Secondary Key Indexing.
+* As the data is **not ordered**, we will not know the **sequence** and for this reason we will have to do **dense index**.
+* For **every record** we have to do **indexing**.
+* Bi, Rj -> Block 'i' and in that record 'j'.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b68fc86-fa97-47e8-bf0f-9f755cd0ef79)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/209e5725-73d0-44e5-b280-74897f9cbc0f)
+
+* **NULL** is also one of the **unique values**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec5bd659-1c83-4c4a-b992-152f1bb91b73)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed7e25e6-a2f3-4a61-8a37-74ee239f60d6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e804c697-20a8-481c-9ac6-9b2226a918e8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/193c1cb5-9797-4cfa-9949-1d2d1b44b5f5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69acf16c-a0d6-4161-b1ab-d47461a956b2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3cf9c1a7-6f60-4e69-a22b-9242b630e7b3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d3b01f5-9ac9-4763-8f19-5bb9c80cedb3)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fcb18ee9-ef81-4d92-8396-a8b83d347778)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92be72f9-5ce3-4497-9578-fc370c1a1e43)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/21aaf1db-422a-4aa3-a4d9-84a248729029)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9367057e-b73c-472d-8e0c-5bf13049e092)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
