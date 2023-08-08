@@ -7346,13 +7346,46 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/122eaa75-629a-401e-99ce-ae896c3aefc5)
 
 * Indexing is done for **each unique value of non-key field**.
+* **Non-key field** means repeated values are possible.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b7f2608c-34cc-40d1-9ce5-920bc56a39ce)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27404068-59b8-4d2a-8b4f-bebc9e3de298)
 
 * This is **correct**.
-* For **every unique value**, we do **indexing**.
-* Start from 52mins.
+* **Indexing** will not be for **every single record**, **NO**. For **every unique value**, we do **indexing**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71787baf-66a4-496a-9ff5-bb2c6fdfa42d)
+
+* We have to **store** the **starting blocks** of **every unique value**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5cd2dc14-f6e1-45ee-b42b-61648b68b4b8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/51d91f19-ce58-4e2b-8668-314e7f6c0f4c)
+
+* Sparse Indexing.
+* In **clustering indexing**, it can be **dense** as well as **sparse**.
+* **Sparse** when -> When non-key field has duplicate values.
+* **Dense** when -> When non-key field has all unique values.
+* The indexing is done for each unique value of non-key field.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/742ff633-c464-4916-85cd-680e6fb13cac)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/572e39d0-4278-442e-8c4e-2afb857975b5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3342737-e4cf-427f-93d7-dac4903855dc)
+
+* We have to search the records in **sequence**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37b11b72-77d3-4c50-8759-f4c62adeb979)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bbbf6b1a-3613-4338-87eb-86c81bd217e1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af78affc-b545-4a76-b833-d97828465730)
+
+* Question.
+* **Clustering indexing** is not directly mentioned but the definition of **clustering indexing** is given.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b8a7920-9cd4-4359-8e36-68702f8170b6)
+
+* Yes.
+
+
+
 
 
 
