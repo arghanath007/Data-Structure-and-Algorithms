@@ -364,6 +364,58 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac9708fd-b774-45dd-89c5-90b6017587c8)
 
+## Joint Probability
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8bc5ac9d-9208-415c-8abc-1d6e509c704a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bbcb79b3-9554-4659-8f9e-904912be2081)
+
+## Conditional Probability
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/267d5137-a683-4b06-ab35-43163baf09fa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d03215ce-d04d-4e14-aae3-35515ea51895)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd063860-23a4-4e57-b554-1d92f0ea8dfd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/13a68024-e768-42b1-a671-fbaeefd76312)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/722f7e2a-f19d-4aae-95ac-612e2f30ccc8)
+
+* The occurance of two events simultaneously.
+
+## Properties of conditional probability
+
+* **A** is a subset of the sample space(S).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4ef82eab-fc28-403d-81b5-8626f215c340)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0fecbc22-5336-4bed-b843-389f8acbc585)
+
+* **A** is a subset of **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1fe756e-f7b0-4f19-90a7-10fba2184edf)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/003f5873-b6db-4c01-88c2-9ceceefeeef3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2256264-ee14-4371-8f80-c9b74124b017)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d2c94d7f-49e2-4f87-ab9e-50ad3d45457c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7cfb337-2aa0-46e8-8eb9-d6116e92f73c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91c3c233-7697-43e3-8f6a-b5d4a7cadb06)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af206fc9-d553-44d4-9a39-a4b2e6ab55dd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e7ab427c-3a7e-43f9-8285-51b5cf94a408)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ed2094d-65e2-4976-b379-1b59911dbb60)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12892dc9-c510-4283-83e7-7ff509716187)
+
+* Whatever we have here(first probability) should be in **complement form** in the next probability.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe01ac38-991f-4914-9624-e34768099e02)
+
+* Denominator must be **same**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dea03336-47f7-4ce0-a09d-c87d5862b97e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1cae30be-327b-4ca6-8567-071d5f063893)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/682bd2d9-4a9c-4e9d-8601-782e092795b6)
+
+## Pair Wise independent events
 
 
 
