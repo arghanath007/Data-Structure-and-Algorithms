@@ -417,6 +417,7 @@
 
 ## Pair Wise independent events
 
+* Start from 1hr.
 
 
 
