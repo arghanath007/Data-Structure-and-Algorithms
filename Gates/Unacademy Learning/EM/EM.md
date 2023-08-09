@@ -181,6 +181,93 @@
 
 ## problems-on-coins-and-dice (2) [9th Aug 2023]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4adf3bd2-79bb-4551-854b-11fff722f35c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6770b80-964f-449f-8221-8d9e1a84129f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37cd67ec-d391-4953-88bc-c1f5bc4894fe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/26c4b380-563a-411b-b0bc-446dc1147186)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce32f9ad-4ead-4a5b-b65d-ca7f5f60ebcb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/537e4c17-ac12-48f6-8a1c-6f026bbb6b61)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/61cf9001-834c-4cde-adbc-c5a0134b6e60)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/714fe117-5607-4526-94f7-2bb61725339b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ffb1dc63-aab3-4ddc-9d1e-c4fe79773c5f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/869f72d3-f178-449e-83e1-b2b5503ed661)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e2f64bb-f61c-41a3-85cf-858f176fd61a)
+
+* **P(A) + P(B)** will be a **bigger value** than **P(A U B)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5c0a096e-5084-4472-a05b-8f377bac708f)
+
+* **4** is removed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f669888-64a9-4376-b666-63b586bf4a49)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a808f591-edfa-4e9e-843e-abd2bfdbd107)
+
+* We are combining the **two cases** and writing then as **less than equal to '<='**.
+* Atmost one -> Maximum is **1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fbafb521-99b3-424d-b3a0-1b55f45e3969)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e12bc1e-9638-4b94-a127-cd9724d9f9d0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/edb56098-3043-443c-8134-e17402fbdc8a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a4e0d507-f7bd-46d4-bbc6-50704447d429)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f8938b4-3355-4305-a271-e44bd81089a0)
+
+## Rolling a Dice
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee6311fd-333a-4557-9dff-000eebe158a8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16d538c0-0521-44ab-b99f-0d0c6d27bdde)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e177b0d3-ec9a-4172-8943-6ec7bc3b4076)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b3db1e2d-914d-4ae5-b12c-1c11dc611a72)
+
+* Propability of **sums** in **two dice**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac40f79e-ef5d-47d0-856e-80c60df61809)
+
+* **Trick** to remember.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89cfb86c-0abb-43e7-8f12-c892de371d7e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bde837c1-bf1e-468e-9b37-313f5cfe8120)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/961b2c31-46d8-4fb3-99af-6a6a48a64b87)
+
+* Three dices.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b4c12ef2-309d-44c5-baa1-8ade6f455c6c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a4c2a53-71c1-4af6-b614-99ae6e516ac2)
+
+* Last **two** are anomalies, they are not coming the in the **pattern**. Thy are **limitation caes**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7f5eaad-cd6f-422f-b3c4-0db59899780d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c84a0eaf-93a1-4f8b-b05e-d0e914ff6edc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dbcc8658-cf97-4206-bd30-4f0b159e31e4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65c0fc3c-1087-4835-9962-252640a27450)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/74d91f9e-b3bb-44bf-8fb5-819433b1cbeb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85d7277b-e02d-4a17-bb6d-10081ea0d01c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e1384d1-d90a-4a47-814c-3bf542de8f9a)
+
+## Pack of Cards
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/422ff4e1-5076-4efa-b7d5-7a4a316b7b18)
+
+* There are **4 suits(Hearts, Diamonds, Spades, Clubs)**.
+* Honour Cards -> King(K), Queen(Q), Jack(J) and Ace(A).
+* Face Cards -> King(K), Queen(Q), Jack(J)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/afe1e41b-bb26-468f-a2fe-7d879aa67a19)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e15b974a-d880-4295-a376-099b43f28ea5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0612df7-b9bd-449a-9a4c-8a4ffa8e4102)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50664eeb-ce74-4057-bd77-cd50db4b88a8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe046055-1bd4-471f-966a-64a7698131aa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4679eb93-ae15-478d-8ecb-8d571534e6de)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bdd86cb4-6f30-4d39-b846-2927b87b1ec6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/49c00584-38a1-4d53-a1e7-d89f63d9214b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fae246a8-0969-4b4d-9d9b-755a141bd59a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1eb0b142-7270-45da-8cd9-c50078b4094c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95c39062-1e69-4562-bf68-9e74d63a67a1)
+
+* [**IMPORTANT**]
+
 
 
 
