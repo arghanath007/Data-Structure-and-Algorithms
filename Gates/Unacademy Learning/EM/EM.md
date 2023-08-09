@@ -138,6 +138,51 @@
 * Probability of **A**, **P(A)** = (no. of favourable events) / (total no. of possible events) = n(A) /n(S)
 * **P(A)** = n(A) / n(S)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44f758e1-324c-4d21-9d10-31520ee29904)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dab219fb-66b2-4d6c-858c-362fa3383cf5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b46c5895-893f-4298-ac6f-695eaa421157)
+
+* Properties of probability [**IMPORTANT**]
+* Atleast one -> Minimum 1, one or more.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/262c4822-e57c-4d69-80d0-97ae2cd1bd73)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/154e6b8e-28a9-4c28-bb91-037632f15550)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c4743ac1-8938-4c40-ad06-11a535f3060b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3e2fd9a-5868-41ca-aeae-d651d9cf1c3b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/082861d0-2835-4a31-8044-05cf10fcbee1)
+
+* P(Atleast one) -> P(A U B) [U -> Union]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/039348b0-3dc5-4b4d-9d1a-824d9a0d6e62)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/afbae795-80f4-447a-8029-f65846a2d9c7)
+
+* Exactly One -> Only A or Only B -> P(Only A) or P(Only B) -> **Exclusive OR**.
+* Either A or B -> A or B or Both
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/da566a08-87a9-4e2c-8094-296a947e5f49)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db655db4-a92b-48ba-a295-bf4d250d89c4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf263809-8349-4022-ac23-2a9dbae4a01d)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e5f3a05-c7a2-4059-b411-b31d497698da)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9320fcb7-3862-41b9-bd3c-ac251a5976e6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2e67bd1-9c9f-412f-9b8e-475f1401e7da)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ca0cd257-8059-4599-b16c-f1afa7a7bb93)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be71fb50-92db-4eb8-ab0c-1d6e06fcd097)
+
+* The **middle part or the common part** is counted **two times**. That's why we are substracting **once**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2d1152c-64a1-4db8-92b9-78d009c413a3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/01bbec1b-a35d-4de7-9164-e1f56ce5f3c2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd17c664-0a1f-4108-97db-c1ec898473cd)
+
+* Wording is **different** but they are the **same**.
+
+
+
+
+
 
 
 
