@@ -9,6 +9,7 @@
 6) OS -> Starting on 8th May 2023 [Completed]
 7) DBMS -> Completed [24th June 2023]
 8) Computer Networks - Completed [6th Aug 2023]
+9) EM -> Started
 
 ## Secret
 
