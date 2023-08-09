@@ -337,6 +337,61 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8fef753f-72b8-4fa8-a0c3-2a35b38b4c57)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6cd2284f-a21a-4c06-9e64-38d6c63bcd4d)
 
+## problems-on-cards-and-balls (3) [9th Aug 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f39a7a3b-c775-4426-a734-13162879f97c)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c2b3868-34f6-4b43-9a10-0ca016e58a6b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dde06e17-2c5a-4327-826f-b1560e98acf3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44729517-3c85-489a-87bf-738899298cbc)
+
+* Question.
+* We cannot give gurantee that **A** will get a **Head(H)**.
+* First time **A** failed, **H'**. The chance will go to **B**.
+* We are talking about **A's winnings** so we have to consider that **A** is the **winner**.
+* The **chance** will come to **A** again when **B** fails, **H'**.
+* **A** has the coin now.
+* This will continue till **infinite**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/348bb3a1-84bf-4e54-9389-f5337b50cc20)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/281101cf-9666-4b86-81f7-74547cd3116d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a360613-a440-42a6-b8aa-2727377f6216)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1315c11-4b0c-43d5-b4cb-fdf57a54dfd5)
+
+* A's winnings.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac9708fd-b774-45dd-89c5-90b6017587c8)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
