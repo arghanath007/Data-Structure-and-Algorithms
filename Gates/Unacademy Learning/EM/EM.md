@@ -712,6 +712,13 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c326eeda-7f12-447c-a077-5baf49671f39)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b02234d-74fa-4620-b6ed-dcf0a1033281)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cfe6d673-3dc7-4e68-a3fe-f0246a613932)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d908bdf-7ad9-43bf-8d49-501de7a8e413)
+
+* Question. [**IMPORTANT**]
+* The **Sender(S)** may send in **High(H) or Low(L)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd09b489-73d2-4763-b5d8-57fc91bdb65a)
 
 
 
