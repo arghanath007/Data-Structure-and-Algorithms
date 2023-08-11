@@ -685,6 +685,39 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/43eec06a-a8ba-4bd6-ab83-b4d3dd8907fd)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6b7bb18-745a-4a31-8736-57b079e73044)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/985bfe04-c0b2-4289-8305-fcacdc604d50)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0648d9c4-a032-415e-bd00-de8eeaf6b4e0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e62e947a-4a03-47bc-abb4-16795e426528)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/29785f11-e4b4-4473-a511-935132cfed0c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05550256-0361-4479-bac8-82afa7738cbf)
+
+* Coin is tossed **twice**.
+* That's why we are taking the **probabilities** of the coins.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa7dabd0-05c7-4104-9ba4-eb0c2bba064a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6e09d0f3-d87f-4bcb-bb8a-41e73f7c0090)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7df0eb76-ae35-4404-9ca2-19b6269b5749)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5de7b48-3b60-47db-9a58-bd2081324757)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0710660-fb03-4744-b00c-a16beb150b53)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a48c2a8d-71a9-4c48-92c0-6600dd36193f)
+
+* If **two conditions** are given -> Bayes' Theorem.
+* Same Color -> First Condition
+* Both White -> Second Condition.
+* We have **one box** here.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b1c2027-39f5-43dd-a2e7-5af1c39018c0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81a7b9c7-4282-442e-afb9-5b7db086ddb6)
+
+* We have **one one** condition here. So, no need of **bayes' theorem**. We can directly solve it.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c326eeda-7f12-447c-a077-5baf49671f39)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b02234d-74fa-4620-b6ed-dcf0a1033281)
+
+
+
+
+
+
 
 
 
