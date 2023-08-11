@@ -586,6 +586,63 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22aea55d-4311-4833-9f45-05a117b1aa2d)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9b7e44b-40b5-4df8-9f44-e81386fd5db2)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5012ea55-b548-46ab-8771-1dcf87224782)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7108fe9b-4a04-46c6-83bd-9cb56d9852b3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/370256fe-3d16-4e1b-9c65-206189b02b07)
+
+* 100% probability of 1st child being the **boy** is given.
+* The **other child's gender** will not depend on the gender of the **first child**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b8a9382e-bdcb-4a41-a8ac-c55cfbc5e2b5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1900ff68-3b84-4689-8de1-4793f0ac532b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71dede30-68db-43cf-8d13-47d3e3313d64)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/20caa80f-0418-44ef-b4ef-9e5be9ebd409)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be515188-1c13-49a2-97f6-1ff2ae12e555)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a18d12b1-937d-4b97-9c20-6d8cb793a971)
+
+* AND -> Intersection.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32dc8760-742f-45a7-99dd-0ce8ddb06a08)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ccb28769-d749-4677-a36a-c39a1c586fcf)
+
+### Doubts
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a65a5bcd-2be6-4fb7-ab56-58b92fcb7d29)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/002724f5-51a5-43d8-a5db-b4f9943a4ce6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6bb6a216-8ca8-4827-99a3-1bc0d0a40c02)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6052386a-ff0b-48c4-b445-d4fb3378f353)
+
+## Total Probability Theorem
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63a08d21-ef08-4bf8-961b-75c59f36113b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/934d9caa-c523-4121-8a13-12fc0f2bfaeb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3118852a-b1e4-4946-8f35-c49e6fdcbced)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c34b86f-7a20-4e14-a13b-7d2763c8611f)
+
+* Question.
+* Probability of selecting **box 'P'** is **1/2**.
+* Probability of selecting **box 'Q'** is **1/2**.
+* **P(R/P)** -> Probability of selecting a **red ball(R)**, that ball is from **box 'p'**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b7f5c838-dc50-43a4-81f0-928e3d1ae5b8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b6fa6651-9d6d-4112-afcb-a531b9c38d15)
+
+* We have **two boxes**, so **N = 2**.
+* Either choose from **box 1(P) or box 2(Q)**, What we want is **red ball(R)**.
+* We can take from either **box 1(P) or box 2(Q)**, we only want a **red ball(R)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f1cc35d-b27a-46e9-883d-1d1ae955a5dc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/623968bd-a850-4ac0-9bfd-f88b1c092513)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ce490b8-37ab-4b9f-ad80-161e6e2d9de2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2824b726-4c4f-44ad-a71a-df84c61dcb31)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bd433069-c6ea-4c2d-a5c3-bd4d5ca9f2f0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/74cc6d0f-f392-44b1-a5a4-39cfda4ebfda)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a726bdb7-57b9-4d10-b31e-720a847ab58c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/96f19bbb-e63f-4090-a536-1b11b394c507)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d81ff04f-9acb-489a-9b85-b5b657fc3f7d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8fbe1e94-9ebc-4c60-8643-93332843c24c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/64f1fd00-6088-4601-b642-3e2717d24816)
+
+* Assignment 2 given.
 
 
 
