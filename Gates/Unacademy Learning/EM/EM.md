@@ -719,6 +719,10 @@
 * The **Sender(S)** may send in **High(H) or Low(L)**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd09b489-73d2-4763-b5d8-57fc91bdb65a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f559b294-313b-443a-81c0-ad9f694b2521)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/826b5e13-9b60-4b49-97d4-97e4bf93ea78)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef381f75-5ac7-4e0d-8125-b11100b1e2fa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35eeffb8-b603-42fc-a83a-b783316ee9b7)
 
 
 
