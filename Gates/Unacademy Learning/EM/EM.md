@@ -427,17 +427,89 @@
 
 * If the condition is satisfied then we can say that **A and B** are **independent events**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/904f8567-30f2-401b-86fa-bdca6305914b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/94d8d921-2637-4a00-bde2-04e089983056)
 
+## Mutually Independent events
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/932b2e08-3f04-4bc8-b4d5-0a26f9cc18e6)
 
+* All of the **three** have to be **independent**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b36f8063-f39e-4ec2-a68b-d6157a2e9aed)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d9eac49f-8d1c-492f-97cb-8a5913cee38a)
 
+* No. of mutually independent conditions -> (2 ^ n) - 1 -n.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91edf631-a7ef-470c-a6b8-4a910223dc2b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb9eddce-55c6-483c-a2e3-a71e1818a84f)
 
+* Yes.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e81aab8f-f6db-42fc-a4ad-2e956e958b54)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba8d10f8-ffab-4add-883e-b10ef091da1d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa3ae68c-a1b2-428a-b94f-b74361c8d100)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b8e6c105-728d-4112-b432-614a2c8ba7de)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/299b5f30-29af-42fd-9643-ac52ad8f5c6b)
 
+* They are independent of each other.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f229517a-c1f1-4656-8033-5f49a37733b2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33f72898-4b4b-4c4f-9479-abddd22c6dc4)
 
+* Option **C and D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d986f702-0a2c-4f63-a037-2ecf6e2273e2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6e5cc5b6-cea2-4a23-be90-b5ebef156dfa)
+
+* No, we have to check if **A and B** are **independent or not**.
+* If the condition, **P(A intersetion B) = P(A) * p(B)** is satisfied then we can say that **A and B** are **independent events**.
+* We have to find the **LHS and RHS** and see if they are **equal or not**.
+* If they are **equal** then they are **independent** otherwise they are **not independent**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36922ed6-c43e-4a35-b306-d270241599b3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c38fa4b2-3ec9-4615-b6fa-dd809784b733)
+
+* Now we have to check if the **probabilities** that we have got, **P(A intsersection B), P(A intsersection C) and P(B intsersection C)** are correct or not with the **above formula**.
+* **P(A intsersection B)** = P(A) * P(B)
+* **P(A intsersection C)** = P(A) * P(C)
+* **P(B intsersection C)** = P(B) * P(C)
+* The **LHS and RHS** are **equal** or not. If they are **equal** then they are **independent** otherwise they are **not independent**.
+
+* P(A) -> Both are heads -> {HH} -> 1/4
+* P(B) -> First Time head -> {HH,HT} -> 2/4 -> 1/2
+* P(C) -> Second Time head -> {HH,TH} -> 2/4 -> 1/2
+
+* **P(A intsersection B)** = P(A) * P(B)
+* LHS, **P(A intsersection B)** = 1/4
+* RHS, P(A) * P(B) = 1/4 * 1/2 = 1/8
+* LHS **not equal to** RHS.
+* **A and B** are **not independent**.
+
+* **P(A intsersection C)** = P(A) * P(C)
+* LHS, **P(A intsersection C)** = 1/4
+* RHS, P(A) * P(C) = 1/4 * 1/2 = 1/8
+* LHS **not equal to** RHS.
+* **A and C** are **not independent**.
+
+* **P(B intsersection C)** = P(B) * P(C)
+* LHS, **P(B intsersection C)** = 1/4
+* RHS, P(B) * P(C) = 1/2 * 1/2 = 1/4
+* LHS **equals to** RHS, LHS = RHS.
+* **B and C** are **independent**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66bdeb3d-e640-4a31-bcfa-0120151e01bc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7932e9a6-5524-4662-8167-4c8b8bbd825c)
+
+* Explaination above.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/256e5f04-75d3-4eb6-b04e-a0f088834e84)
+
+* HS -> Probability_Assignment_1
+* 1 to 20 questions.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/093ef357-a340-404a-ab9b-ce640f327bd2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1fc45e1d-d5f6-45e3-8c80-c5ccb2abd1ef)
 
 
 
