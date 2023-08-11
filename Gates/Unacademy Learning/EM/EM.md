@@ -417,7 +417,19 @@
 
 ## Pair Wise independent events
 
-* Start from 1hr.
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea6d93c9-6d89-4c65-9c49-d85766a8a75d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/04f107dd-6bb2-4a3b-b77d-c828b8f7e827)
+
+* **Second time head** does not depend on the **first time head**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/53316924-08f4-4f1e-8832-39c1811c2654)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0cd3c320-1631-41fe-96aa-8341c8195a0a)
+
+* If the condition is satisfied then we can say that **A and B** are **independent events**.
+
+
+
+
 
 
 
