@@ -644,12 +644,35 @@
 
 * Assignment 2 given.
 
+## conditional-probability (5) [11th Aug 2023]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91bb4855-bbf9-43b8-859b-b0528fe00955)
 
+* Weighted -> Biased Coin.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d15577d-1b87-408d-a390-d450d11c9bc5)
 
+* We will get **even numbers** in both the cases.
+* Whenever the required thing is there in both th cases, then we have to go for **total probability concept**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e814127-c1c6-4d14-a864-3af78a68870f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/46d3716d-1a72-47e6-a36a-e5f3cafc7992)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c18b962d-710a-4bb7-82c2-8a43a7fe2e6a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/39f438a1-7536-428d-9e82-40be495a8eac)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a99b9a02-1b7f-4328-bb20-4b67289e51e3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b4215d9-2677-4616-86d1-cbf1a621cd90)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2e2d790c-94d4-4bd7-aa68-e9b39ff134e3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/93f79bc7-1bed-4322-bb02-6aca4ba31ca6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b897f506-f2f1-40ce-9d41-72672867758f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/74ac0440-1b71-4688-89f6-d8b1bfb1c82d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a123044b-fac5-4b19-9e65-a7290d8e861c)
 
+## Bayes' Theorem 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a32d14e-f801-48cd-aecf-0a508771e9a9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dbf3c00b-e5a5-49b0-9227-b9c9b2ecccb3)
+
+* Start from 33mins.
 
 
 
