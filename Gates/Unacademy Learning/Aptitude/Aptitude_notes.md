@@ -11198,6 +11198,7 @@ b5da-42ddc3936df0)
 * You have to pay the  price , you have to pray the full price , you have to pay the full price in advance
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/729889ae-a14e-477e-a01b-b7da5138cf62)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/158cf5ec-8bee-4de4-acb2-df7c69e0bfbf)
 
 
 ## Scratch Board
