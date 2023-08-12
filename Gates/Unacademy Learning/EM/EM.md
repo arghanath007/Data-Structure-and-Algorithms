@@ -933,6 +933,18 @@
 
 * Arrangements are not possbile here.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/150b9fc7-d4dc-4bb8-81c0-8204395e4ccb)
+
+* Sum of all the probabilities must be **1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5c361c09-a0dc-474b-b496-61e84c385bc4)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cfd05fa7-968f-4260-860f-c052dfae53a3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f3394bb5-4b33-4684-9d31-f3408795c0f6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/335e648a-b1fb-4b50-9f33-db906f37818c)
+
 
 
 
