@@ -1012,11 +1012,65 @@
 * [**IMPORTANT**]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a52c66c0-44cf-48de-a5b1-2ebd7c587897)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6e43993-8271-4dc5-9606-a9aa27f35547)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/53c7791f-2c3d-4677-a477-8dc12e16799b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4889a71d-80b9-47ce-9ce2-c2e189ca51b5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/933e6c7c-9724-4d58-ad98-dee2f3b46e0c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b6f012c-e711-45e7-baef-6c794af66e24)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b067e0d-2b84-4670-8a80-5dfc84500340)
 
+* Done in class
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/52b3cd7f-cb3d-4951-a810-edaf419337c5)
 
+* Without replacement [Doubt]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c3eb72f8-77eb-44dc-b3b5-6a2d07559b75)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89e73c5c-282c-4910-9289-e4b1c8ab9cf6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/818fffd9-0fbc-434d-9a15-c6c5d2f5f6b6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/18f208d8-29ab-4a4e-a23e-feee66934ea5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50faa78f-3de0-4597-a7f7-9d974aaf1984)
 
+## Assignment-3
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3b083dd8-e71a-4674-81b8-86c26ee82787)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e04f3dd1-8dca-4b72-96a5-af7bf82c0361)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4ec29362-0b4d-48ca-9360-0b95fbbc7401)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69edfa4d-2fcf-48a0-a240-17ef142363bc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3509e364-1328-4643-bdfe-9fd29e2b3197)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df3d69c8-dd45-4590-9d84-375bd14ce9e6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bccffd20-1749-444f-b40b-1efe71002764)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c2a2e64-eb6f-42d9-9d98-5f79fcac55c4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5943039-3e66-4000-8d56-09d566d58863)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27116019-bc95-47b0-a2b3-934015d989d5)
+
+* Done already
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/15340cba-798f-4884-abe2-d9aef7af11a5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1891f0b-0450-4d5f-b192-028a6dc68374)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/88f8023b-9669-4749-a23d-9ee5707e20aa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d813cea-1bfd-4804-9e0c-37744e81c789)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c898a2f1-5dae-4edf-a65a-72e04e179e1b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6110a40e-13fa-44cd-acce-fea23050a194)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc877e4c-721e-4dd0-89d7-ad559edaf1e6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/429d6d85-d00b-45ea-9eff-1f9f700095bc)
+
+* **A,B and C** are **independent**.
+* So, **P(A intersection B)** -> P(A) * P(B)
+* So, **P(A intersection B intersection C)** -> P(A) * P(B) * P(C)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ced5f981-32d5-497e-b44a-2d111b32a533)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/460ed8cd-3a76-4b1d-8c07-04a7636f5da3)
+
+* Another way.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f4699c8-4315-4ce2-8988-7ba39d1dda3a)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc3f156f-fe85-43e7-bc2a-ee8ca75529d3)
+
+* Yes.
 
 
 
