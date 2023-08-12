@@ -945,6 +945,25 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f3394bb5-4b33-4684-9d31-f3408795c0f6)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/335e648a-b1fb-4b50-9f33-db906f37818c)
 
+## doubts-clearing-session (8) [12th Aug 2023]
+
+* Means one person one day.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/53e84097-8366-40db-a537-6a51b6230896)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/beb063bc-fc9c-4723-a14d-8419ddd56615)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c8828b14-0f0e-4efd-aef4-1717a9ebb276)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8976404e-b18b-471c-a64c-57b6bfe452b7)
+
+* [**IMPORTANT**]
+
+
+
+
+
+
 
 
 
