@@ -812,21 +812,59 @@
 
 * [**IMPORTANT**]
 
+## problems-on-bayes-theorem (7) [12th Aug 2023]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f43c0625-9ee4-4d45-a7cd-a5f82e7984cf)
 
+* For the sum of two numbers to be **even**, we have to either take both the numbers as **even** or take both the numbers as **odd**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b7aef34a-b48f-488c-a716-607897c0a67a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ae06a62-4b7d-4f0e-89b4-cfbc04d82bff)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc160261-7055-4a74-b50b-5227f29f0bc1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2698a3d6-508f-4785-b7fb-de7c07f7c673)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c9a987e-c04e-4a65-8601-40199e78e1ba)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9c9fc304-ea73-4973-980e-a13e9e2bb7f7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5036770b-9697-4d4e-b445-e2b525d38679)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76d3ef6f-f2fc-460b-ab48-80dd9ca4e771)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d13bb3c-d797-4672-a6da-a4c7b1a60b4f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/06c5fe9c-d67f-4965-884b-393c12f33084)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c3ae4a3-f98a-466c-9838-db50be8eb65c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/84dc891d-0fa7-43ec-a6d0-43ca86ddd325)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c636db4a-5f8f-4c26-a2cd-b10723094461)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/18c68fa0-7a84-4d77-a6ec-e81195c9ef45)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a82aea23-7dcb-4317-b9cb-e818ded6041f)
 
+* Geometric Probability
+* P = (Favorable Area) / (Total Area).
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/397aa1fb-8488-496a-b21d-8d23cb6af343)
 
+* Near to the **center** than the **circumference**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/47a67ecd-f3c9-4d2f-a1bd-c6ef0b2b5ca6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/40a31b25-3451-4ea7-8f86-c1f2b7aeca1c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/21edde27-23c5-493d-acb6-17d5cee97499)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1724df94-e3a1-4eee-a946-ea1225863c9a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e00a8623-4c49-4205-ba1e-fc9ff4b5b6fc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b68bf076-20d7-4fb1-8250-80709e6a9dce)
 
+* [**IMPORTANT**]
+* Venn Diagram Method.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7605d714-6c59-460f-b27d-e39713584543)
 
+* Formula Method.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b5be55f-f0e4-4232-b89a-a9b9b123cf41)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/47674ebe-2261-4cc5-a022-b5b6d1ddc2e0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/068e8245-cb25-42f6-95da-fb26ae1cd2ba)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e329124c-fdb0-49af-9962-dbb83e93fc9f)
 
 
 
@@ -904,4 +942,32 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Misplaced Images
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c5c186c-0774-48bc-90e7-c045abad21fb)
 
