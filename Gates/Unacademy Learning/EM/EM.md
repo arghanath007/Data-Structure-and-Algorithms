@@ -959,6 +959,62 @@
 
 * [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/558113be-6cde-4771-b3c3-3baa9f6b8ba1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05626eb3-dcdb-449f-9a87-ccd7a5c6d9a2)
+
+## Probability Assignment 2
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65b085d1-4662-45e2-8bea-5fed370ad2ad)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d606220-7e84-4ff3-a6f7-59a907954497)
+
+* Arrangement not possible. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f31ec2bc-cec6-4977-a454-91293e15a06e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d1cecde-7946-41da-81d8-272569b02ec6)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/67cd7c97-9666-4fec-a361-9c5a3a35e7d6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c272d544-71ab-4d9b-bdaa-f710ae19d5b1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/639a6caf-7f75-477d-8ece-e90516090a81)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc7566b6-cccc-484e-a543-4424ee83faf8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f9cb832-69c5-49fe-9b83-a50aacc3405b)
+
+* Order is **given**. We cannot change it.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d9847c2c-1308-4cf3-9c00-bc793306d66f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5fe21ed-14d1-4960-8178-cce353d92b58)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2cf2e691-f02c-4882-8b26-1c6b3cdcdf4f)
+
+* **B and C** are mutually exclusive events.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/23c4fd39-5548-48d8-bcf3-b98627a0f637)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30eefc56-2efe-4483-8d81-cf9e94477a2a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee09ba68-1fee-4c85-88e7-a52833450df9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5dcdbb6-6b2d-4e92-bff9-d4c046af96d4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e6ba113b-0535-4635-bcb0-e167523b389a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9794e499-4380-49d7-999d-215fb191b80e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/90a63f72-056d-4e8c-98a0-b030a119c177)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e126f5d-78fd-438e-a168-5e55d89a68da)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba187e72-a066-4c79-9243-f303d939eb44)
+
+* O -> Odd
+* P -> Prime.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c7d9dda-2a80-4aec-9a2c-7db322fa30a6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba8a7fc1-9abd-4bd0-b5ed-b01ba78b5fca)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/10909d16-73b1-4727-8ac8-f3d245b2c6ab)
+
+* For **P(P/O)**, we will first find the **odd numbers** and out of the **odd numbers(O)** we will find the **prime numbers(P)**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/03c8ee00-1cb1-408a-895f-9c201fd445f5)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a52c66c0-44cf-48de-a5b1-2ebd7c587897)
+
+
+
 
 
 
