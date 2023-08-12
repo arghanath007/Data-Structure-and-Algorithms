@@ -865,6 +865,73 @@
 * [**IMPORTANT**]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e329124c-fdb0-49af-9962-dbb83e93fc9f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0309969-7ac1-4d56-8490-77f969412c78)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b2c98bf-e059-42d6-b7e5-4f6df8275f1a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c31e3af-5e1a-42df-9847-f3a294ccd275)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/537cae64-46a6-4559-80b5-de296661dbd3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50be2191-6208-4d6c-8fe1-426e021a762d)
+
+* It will become a **2 digit number**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/821c20ba-dd4e-40b2-81eb-59ff29257176)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f07c2f65-2b8f-4cba-b867-6536b5cc9b2f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/79676e4f-bb2d-4c42-a0f1-0608e25fa643)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f08f1a75-38c6-4a63-9d62-ee82ffc2ac8f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/03e52715-2ec6-4954-b980-c1fd5530346d)
+
+* **Two combinations** where **sundays** come.
+* There are in total **7 combinations**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e19bd09e-03a2-434d-9a2c-9ead3c39ab0a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5c5f2262-f8a0-463a-9b4b-17ff20e0c2d2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a1e5491-2444-4e04-bccb-5a816af1cc5d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71fd95c3-0dfd-4128-9395-693760f1e306)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b99afb6-a8d9-4c16-bcdd-259f54bc0e8e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7f1a94d-82b9-41f8-99ea-bdd7e4cf2a00)
+
+* Should be **integers**.
+* **n and r** are **integers**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a048595f-37ef-4653-ad45-e5e1f44bc3dc)
+
+* **n** value must be **integer** only.
+* If we take **n = 2 or n = 3**, then we will get **fractional values** for **r**.
+* So this solution is **not possible or never happens**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69e5c862-50fa-4a66-be37-863c39e34f7d)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/232a4af9-9c58-4e1b-b60d-ce85e54b967b)
+
+* Impossible situation.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/49217a8f-05dd-4bc0-bdc1-705889130fee)
+
+* Step function(GIF).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2932db44-c543-46ba-bdc2-0b5231b1115f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a7dcc77-1383-4ca8-84ab-742768ff18ae)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d9969201-3eb7-41fb-8fec-aa04cecbf1bb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1acb883d-e9f5-4da5-ba07-689b95f3fd76)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/10ba9503-e9a6-4b5c-a5ee-c5c64423b338)
+
+* To find the **max and min** of any function we have to do **differentiation** or differentiate the function.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be0835eb-2b81-4250-b9e6-ddda632d075b)
+
+* One Way.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef1b3ab0-b944-41dd-8a88-d34734a1c5ba)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/56852246-168c-461f-b26b-b7cf23040d3e)
+
+* Another way.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d316efde-bd6f-4f92-bd76-958c580583a3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ef917e8-28c2-4348-bab3-161dc1c664d4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0dafdcff-bf7d-4140-a70a-512de403294a)
+
+* Arrangements are not possbile here.
 
 
 
@@ -887,9 +954,7 @@
 
 
 
-
-
-
+ 
 
 
 
