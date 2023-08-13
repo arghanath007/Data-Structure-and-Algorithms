@@ -8,3 +8,9 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0083a2e6-8198-471b-a6d2-15dc7a337d2e)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba473a27-97de-4727-a99f-40f9446d26be)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf2829d9-b8a5-4727-aef4-d91cff85086a)
+
+## Syllabus
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5b6ddb8-723b-415c-857e-3c914defaa51)
+
+* Apti is there for **15 marks**.
