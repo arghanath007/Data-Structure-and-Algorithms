@@ -10957,6 +10957,24 @@ b5da-42ddc3936df0)
 
 * HW.
 
+## percentage-and-di-part-ix (63) [13th Aug 2023]
+
+## Inequality
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/868e1441-5d0f-42a7-a594-3063d605c5f8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/789bb580-88c2-45b9-a5a0-cffed88ecec8)
+
+* Question.
+* Option **E**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5dbb93be-ec8a-4a7b-8b96-14802c457ac2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/01cad299-5d3b-4d6b-8bf9-518b2e54f7d2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ab2885a-2347-4545-be7b-86da95db192e)
+
+* Question.
+* Option **C**.
+
+
 
 
 
