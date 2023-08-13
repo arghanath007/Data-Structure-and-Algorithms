@@ -11576,6 +11576,10 @@ b5da-42ddc3936df0)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1484bfec-7375-4282-a40f-62253553479f)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db60efc2-1f6f-49ce-ad76-416f72b82d69)
 
+### Doubts
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aede1bc5-ff32-4bf8-9286-6c4752bc04a4)
+
 
 
 
