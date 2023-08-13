@@ -10891,6 +10891,76 @@ b5da-42ddc3936df0)
 
 * Log 1 = 0 [Regardless of **any base**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/03968523-c07c-482c-a6fc-d36c01184b86)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f403d028-588f-4bef-b312-4e43bd6108cd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a7236388-aecb-4adc-8ef0-e424b895f196)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e2cc202b-3616-4392-aa7e-d0a458555a79)
+
+* [**IMPORTANT**]
+* Doubt.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/28fd76d1-bea7-4473-838d-08ad286c6b33)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/248dd59f-3060-4a34-b756-732428dc0b75)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41d3b9a7-596e-404c-aa7a-0bdd008aaa26)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bda4a867-4179-4dbb-a451-27eeb5b75c10)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf7bdc02-3f70-459b-82fe-b859eaf73fef)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a858b1ee-6b40-47c6-a17d-d7e97f2d1252)
+
+* Rule 5.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a96eae1c-6765-4833-8214-f9b2e71861c8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d887f78-d1da-4b06-b0d6-e8b978514db9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/02e00838-a5c3-468e-a712-bd6ab61b5997)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ae4818e-8add-4e0f-a0b4-686de32c5728)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95401826-7323-4d3d-966a-3a8a3d709bcd)
+
+* 8 ^ (log (cube(121,1/3) base 2) + 1/3) [Whole Power]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd7e975a-c9ac-465e-a724-10987223cb89)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f1b8d6ec-8397-41d6-82f4-56ccdd4262bb)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1af173f5-7ae1-48f5-8f09-381a74200ab3)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3efc09b7-5159-49c4-aded-b2a9826caa51)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2905479a-488f-44b8-be97-864369c26f3d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d68a823a-8634-44b9-b4cf-4a408e1c52e4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6434244-7baf-46ac-93f5-de894de7136a)
+
+## Antilog
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6fda9437-1d3b-495e-9071-de8799d7f153)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b28c846-36e1-4fff-8b03-0a8d0d1e9779)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/56940786-b656-4f7e-b3c6-37a320606f03)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5043a60c-b6fe-48e2-a623-6cddacf29442)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9c37af2c-7a01-461f-bdeb-8f7898f5437f)
+
+* **X and Y** are **integers**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c62b8bfc-f56c-4eeb-b50f-79947036d60e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b27f2044-a01e-4bba-9589-51fbad6a5b05)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc850bab-ffa5-45e5-a599-2721fd90f96f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab63c927-27da-4ef1-af4f-ae22304da444)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3aeddc59-bcab-40d4-9741-9bb15d7d9221)
+
+* HW.
+
+
+
+
+
 
 
 
