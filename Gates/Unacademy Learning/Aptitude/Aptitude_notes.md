@@ -1,4 +1,4 @@
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8eeae31-8503-4e26-92ee-c57270ae9dc4)# Aptitude
+# Aptitude
 
 # Topic
 
@@ -11471,8 +11471,115 @@ b5da-42ddc3936df0)
 * Chord
 * Secant
 * Longest Chord -> Diameter.
+* Tangent
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/123a119f-1b06-4136-b83d-b04cc7c935d3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/62670577-fbb9-41ff-be4a-6d75b8bc44d6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf15b7b4-6683-4f0c-a36d-358ad31ced78)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa743c49-fd0d-4400-bf80-6644beb4bf25)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee127c08-c546-49f7-8fe9-1e70be7c5ad3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e2004b2-9503-4d9a-b317-a74d18bae1a2)
+
+* Length of the arc
+* Sector
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e651c95-5ad3-4a16-8124-0f3fffc676ff)
+
+* LOA -> Length Of the Arc.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8c94f0ad-8798-49f9-997e-47f22d5dfb27)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8df1ac1-d833-4e0d-8444-671e556f0b7c)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f209c610-9bb8-41b0-b3df-ee1fdc1815f1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33ebcf7a-9b1f-4c2d-a582-e3fa5b82e5a6)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c5c9703-52be-458a-9d20-e815107a2247)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8ba6793-bd52-4a26-95b7-fc13b1167ace)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65df3ea6-4fbb-40d4-a9da-ae2cdc50c5b9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/45fb7d70-c29c-4803-a664-280c7c058ed9)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba7827ee-6298-4018-84aa-e54caa4aabed)
+
+* What is the distance between the **two coordinates**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae575de2-d555-4198-a5f7-69eaf2e98c72)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae053aa5-4772-4b18-b42e-00bc08d344ae)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae21903b-fdc3-441b-b096-5588ab5df7e3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/602e1af0-3ffb-4432-a68e-83f62b322ed7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/382ceccf-82c8-4950-8a62-1556546a6b8a)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8eeae31-8503-4e26-92ee-c57270ae9dc4)
+
+* Misplaced Image.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9df59e30-fcba-45b6-a7c0-254ecaea5ba7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea4b2f87-f100-444a-a9c9-679874874473)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6165d14b-755d-4265-a311-e5de11d4b91d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/909d68ef-a0be-4331-9873-44ec80aeb42a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/acdcad0c-930f-4dc5-83bd-cb27d826e671)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24ebf81e-486c-4ade-b63c-d18f508a198b)
+
+* Chord Property
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4699509-72d7-4551-b005-6cdf8ac22488)
+
+* Secant Property
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d5edd5f0-bce6-4bf5-b6ab-db0570198914)
+
+* Secant-Tangent
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b63fa71b-157c-42b2-a8a7-41059d541355)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/59199c96-bf6a-4dd5-9067-6f5c357ec7c1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f7fd424-b41f-405a-9960-81f560ef3731)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/04d1a34a-c6c5-4bbc-9a1a-eaffd3576d5e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5abefa21-4cc2-43e5-9077-edacbd023c48)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c968e7b-5c24-4d7a-94b3-b28211f407b4)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2cc6da62-d211-41ce-9185-abb9d0f93165)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa238311-0d24-4fe8-b3ea-b52850871cdf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9a24476-c4fb-4329-b9ef-829260c113b8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27837ee3-3b8e-4e5b-880f-da7dffa2982d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d5d9f700-2693-494e-867b-7e338672cc97)
+
+* Inscribed Angle = Half of Center/central Angle = (Center Angle) / 2
+* Inscribed Angle = (Center Angle) / 2 [Always]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83d552bf-b26e-4161-ab9a-c7733df55b60)
+
+* On the **same arc**, **two inscribed angles** that are created are always **equal**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bad11282-2abd-43f2-b295-db325097a99e)
+
+* Full Circle
+* Semi-circle.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1484bfec-7375-4282-a40f-62253553479f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db60efc2-1f6f-49ce-ad76-416f72b82d69)
+
+
+
+
+
 
 
 
