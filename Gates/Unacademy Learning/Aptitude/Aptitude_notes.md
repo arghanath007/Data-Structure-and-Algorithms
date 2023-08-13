@@ -1,4 +1,4 @@
-# Aptitude
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8eeae31-8503-4e26-92ee-c57270ae9dc4)# Aptitude
 
 # Topic
 
@@ -11339,6 +11339,132 @@ b5da-42ddc3936df0)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe748a1b-88b1-4503-be0a-c601d4d096e6)
 
 ## doubt-clearing-session (65) [13th Aug 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0322e966-e589-440c-bb16-6dd8da8d4bf8)
+
+* Area of triangle ABC.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c77c483d-1479-45ef-a26e-042ef6a35d67)
+
+* Sum of any two sides of a triangle must be **greater** than the **third side**.
+* **Difference** between any two sides of a triangle must be **less** than the **third side**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef832cd3-bd7a-4a45-98a3-6c663dab898b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d918605-e667-4cfb-9272-aadc1776731f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/024ff92e-8d1d-4013-b7e9-16c161e415e2)
+
+* Semi-perimeter(S) = (a+b+c)/2.
+* Squareroot(s * (s-a) * (s-b) * (s-c)).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35ec9197-5a44-4562-8a39-a4dd28e971f2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7fe76f19-d9cd-4141-acfe-635aa61da29f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9dc2f010-46ca-4338-9d94-91ad5aaae563)
+
+* Median
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f3c5855-66f4-47d3-97e8-c9501f72a0e3)
+
+* Equilateral Triangle
+* Isosceles Triangle
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/693bd4f2-a9b8-48ab-99bf-058a43b15ba4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7eaa5ba-ae08-4f7b-9385-5354eeeb89c7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ca1d9d3e-75fd-43f0-a94d-47ccb22942c0)
+
+* The value of angles in **regular polygom** -> (((n - 2) / n) * 180) degree 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6885fd96-bac7-48c3-98e3-064cc7024b08)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4864a404-14e8-4a92-88b2-b5c35517a0c6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/82461b11-1f4b-4525-ac70-dbb32a9c5f63)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ee5ace8-c895-4e2e-81eb-eda284184d79)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c3d901ca-9316-4952-8500-5679eeeae752)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b2ce7b6c-dc26-44fb-b31b-b91244acd46a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d3411eb-a895-474a-bd07-63ece49e0dde)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a7df3be-1d1f-42ba-98f8-c89fba8582ae)
+
+* There are **two Isoceles triangle**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/78864aa5-93f8-416d-8966-246df4841a68)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6700e06d-79fd-4d0d-bb39-170f29d05bf4)
+
+* Interiol Angle.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d6a4e21-9498-4b2c-bcb8-8ae4379cfb03)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae424a72-adac-47f2-b57f-7524d51daf89)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b3588209-d913-4d7a-9c67-101ca01a0122)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/abcfcaba-b375-4383-8ef9-8322257004a5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/15160d81-bfe8-45d1-9c35-cc7bbc50356f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6fb2422b-0c2d-48f8-89a7-d1922bb6c494)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/da1d4242-15b8-4a05-8fae-bf6dfe1d85a0)
+
+* In any **regular polygon**, sum of all the **exterial angles** is **360 degree**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3fdb4a1f-9bc6-4985-a056-3ad3def0a0a9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/966827e9-02a3-4f89-ab24-a99f1bf5d4e1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab256815-3a8e-4150-ae33-1f83643d165c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/daf2d264-e23b-4fb0-bff9-fcb77f8449bf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8f78ea6-d204-4a80-8c62-eb31bde34263)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af7dbc8f-330d-460a-a826-d524bfd7a203)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a822d910-3fd4-43bb-8e6e-bcd3bca09c19)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fbbdad5a-0e06-4fa8-a954-61a8b6ff8a80)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/824593f9-55fb-4176-91f9-3287d757c0fd)
+
+* 1st circle Circumference -> 88cm
+* 3rd circle Circumference -> 88/4 -> 22cm.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d487927-4d78-412b-b9fb-8858184efaaa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a84b4e9e-b2eb-49aa-9022-ab61d4c6f5b8)
+
+* diameter(d) -> 8cm.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2868de41-d837-460e-966d-78702383c149)
+
+* [**IMPORTANT**]
+* Perforated
+* Disc
+* Same thing.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16d3ff49-888b-48a6-a44c-11577c48ed51)
+
+* Question.
+* Diameter -> 10cm
+* radius -> 5cm
+* Smaller circul diameter -> 10/5 -> 2cm
+* Smaller circul radius -> 2/2 -> 1cm
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a47dea5-de60-4b11-b14c-d8831907e486)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cef162e1-2d19-4a04-b0e8-f6c8dec599ca)
+
+* 6 Equilateral triangles -> 1 regular Hexagon.
+* Area of Equilateral triangles  -> (sqrt(3)/4 * (a ^ 2))
+* Area of regular Hexagon  -> 6 * [sqrt(3)/4 * (a ^ 2)]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/048443b3-7327-43ac-b1e3-7c54832096ee)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/932cd73d-cdd6-421d-86c0-c046c564d187)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ddd66d5-6c6b-46c7-856b-f6aa55ffa825)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae7882d6-b6ab-45d9-a196-893b9d54d761)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ce95061-bb87-4fbd-9dbb-147d512185b2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1e90e06-e66c-4e29-8bc2-e93f6ad94530)
+
+
+
+
+
+
 
 
 
