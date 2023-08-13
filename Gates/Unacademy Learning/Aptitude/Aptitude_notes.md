@@ -10830,7 +10830,23 @@ b5da-42ddc3936df0)
 
 * Option **D**, **1991**.
 
+## percentage-and-di-part-viii(62) [13th Aug 2023]
 
+## Logarithms
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/110b037a-ab37-4cf0-bd51-33ee515253e5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5fa57c0-c116-43f2-99a0-3269a1ea5127)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3885876-8a70-4fb9-be9c-670bec7668e8)
+
+* Rule 1
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b3cec240-7e4d-4303-8020-0bd2889d6aa5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8be5e86-ba38-4a5b-a5f9-f9ad59e5b56d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d511866e-fd17-44d5-a5c2-c9600e011603)
+
+* Rule 2
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b883a55f-4e6d-4ace-8e83-514edaad80a8)
 
 
 
