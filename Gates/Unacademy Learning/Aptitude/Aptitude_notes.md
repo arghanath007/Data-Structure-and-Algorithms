@@ -11070,6 +11070,108 @@ b5da-42ddc3936df0)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a22625e-e782-4288-bf57-e93625f8f8f2)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e90fe3fb-2d73-4985-9174-bf5ed74e07a5)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69dc1e53-3ee1-41ba-8b48-9d9821425618)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a2963d3-ff9b-448b-b1e2-f0f730945193)
+
+* Question.
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2530ed35-773f-4a81-b862-c70567ff7418)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/238d8836-cb2d-49af-b536-25007bb47b82)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35104065-7528-441c-bf42-914eb3e82d8e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e37cd136-7235-4118-9930-c52deb001cfd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4405bb31-2e3c-4a15-8400-9b2881483386)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a0393f89-6a7e-438e-ad38-8e69743e97ad)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d2809897-775b-4bce-9a08-f4f119b4e96b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c72ad1fa-34cc-4bcd-932a-92013a8817e6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec089122-e4b4-4d98-a4fa-8a16dfe1bc1e)
+
+* We have to find **R**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/908ae27b-aa11-4be7-8407-b8ce09c373b9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa9db07c-5e1b-4b0c-9e63-41c5132d328b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9566c380-2516-43da-9f8e-2d99dea89384)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d2e20e4e-b2ab-48bf-845a-3ea640702cb9)
+
+* Question.
+* Option **D**, 
+* **S** -> **Wife**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/56a0e203-3993-4fd5-b35e-515d339c186e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/faaa02bd-6635-4f02-a071-16383f36e5a7)
+
+* Gamy -> Related to marriage.
+* Monogamy -> Single marriage.
+* Bigamy -> Double(2) marriage.
+* Polygamy -> Multiple marriage.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1dc6a9c9-9be3-4464-aa1f-b70834d88509)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5bfb0040-5275-4648-be36-fe957ce310f1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f18165ad-1853-4886-bfd3-59a30db358b8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0c9b3ff-5896-4ce0-967c-5589edc6d2b2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30d5efb4-370b-4a4c-99b5-80bc3e66d53c)
+
+* Question.
+* Clockwise movement(CW)/Anti-clockwise movement(ACW) -> This them.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a52972fe-a02c-4514-8127-07b3ebf04dd2)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3900f152-e56b-4e6e-a4e2-31004258783f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65c924ae-b33f-42c0-85ce-fbf693d0c377)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/765cb7dd-8335-41e4-8971-76b63fdae01a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7c510c9-2fa5-4f65-9215-b2d164527c7a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d686f17-4209-47fc-ab18-20c8a6a9caab)
+
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/07e1deb6-da83-4f50-b560-46af8be4bcaf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/438a1269-a325-4c9d-aa2b-4262e6272d03)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/328cb99a-d9f9-4a8e-8676-40108628574c)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5da7135c-6b0a-461e-b4ed-188135abd8ce)
+
+* Question.
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09e6d8c4-f406-4db9-952b-91c951b8601f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b07c6cf4-f52c-4e25-ad69-af4781a3db1c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe03a259-5d66-4f81-b1b5-ec9cdb3ad198)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a671722-5822-42ba-b2f2-6ebf60cbc184)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b87464e2-c4d8-496a-9d30-ad10522a57d0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/48b9fd31-0c0f-4efe-9879-8ba0c36d7915)
+
+* Question.
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b1a49fb9-2df9-44e2-aa6d-4ed72ecc1ed6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8930abee-d4e5-4868-8696-f340e5472cfe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5ab39f5-e3ea-4dbe-8b48-ecb552697275)
+
+* Question.
+* Option **C**.
+
+* ABCDEFGHIJKLMNOPQRSTUVWXYZ
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f2931c9-46b3-4bed-a442-e1ce8bdc17f8)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
