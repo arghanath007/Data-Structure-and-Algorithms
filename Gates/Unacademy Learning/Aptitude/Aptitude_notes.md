@@ -11460,6 +11460,20 @@ b5da-42ddc3936df0)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ce95061-bb87-4fbd-9dbb-147d512185b2)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1e90e06-e66c-4e29-8bc2-e93f6ad94530)
 
+## geometry-and-miscellaneous-part-ii (66) [13th Aug 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3071535f-7010-4915-a886-773cacb4de4b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/249d256d-7699-4b57-a9a4-f201cad40837)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/abd869b5-e07c-42f6-8498-7cea50b4c0b1)
+
+## Geometry
+
+* Chord
+* Secant
+* Longest Chord -> Diameter.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/123a119f-1b06-4136-b83d-b04cc7c935d3)
+
 
 
 
