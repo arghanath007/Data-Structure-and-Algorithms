@@ -12126,6 +12126,48 @@ b5da-42ddc3936df0)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d082fe2b-5267-470f-9078-2df2d311661c)
 
 * Doubt.
+
+## geometry-and-miscellaneous-part-v (70) [15th Aug 2023]
+
+* Binary Logic.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b7190dc-5369-45a5-9f44-4f8335693024)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/47d56001-d393-4360-aadf-cc02a8301c7b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98edf3ae-e528-4632-85c8-f7a794343097)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f1168152-5c73-4307-8913-97edd62f3683)
+
+* Second statement is **false**, which is **rahul does not have ball**. So, **rahul has the ball**.
+* There is discrepency now. First statement was **true** which meant **chetan has the ball** statement is **true**. But now there is **discrepency** which means this **case is wrong/incorrect**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/991e8cbf-b3dc-425b-aee7-fd46c2a03eaf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/08df8a99-ddbd-44ec-a106-468d13fce153)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a673d5a-f886-4daf-9641-cc97003e5e46)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/da56a093-08e1-484b-a145-d3337e6b8aca)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89bcddd8-5036-4ae5-8ce4-eb92786da22c)
+
+* **Case 2** is **wrong/incorrect**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2e3d0989-5b2b-42e9-b65f-1f4560cdfa33)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f02711d-244a-40ec-85fb-e2525a1acf87)
+
+* **Case 3** is **correct**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d4dbc90-32ff-485d-82d5-2d8cf7454e9d)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  
 
 
