@@ -11830,6 +11830,146 @@ b5da-42ddc3936df0)
 * Figures.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e6bd85b2-98a9-4de6-94ae-276c22aba282)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1fb731c0-a66f-4d16-bea0-ebb0f33ababc)
+
+* Question.
+* Perimeter
+
+* Perimeter of circle -> 2 * pie * r
+* Perimeter of square -> 4 * a
+* Perimeter of equilateral triangle -> 3 * b
+
+* Area
+
+* Area of circle -> pie * (r ^ 2)
+* Area of square -> a ^ 2
+* Area of equilateral triangle -> (sqrt(3)/4) * (b ^ 2)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ced28d73-6633-47db-8ebe-bcc84fb230e6)
+
+* **IMPORTANT**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2e40c5e0-8231-4630-a09f-3561719e1356)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc6d7e03-03f4-4cdf-b491-d89603eeab25)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/20d35d00-da1e-4a1e-b033-151f484e10b9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27dc6503-d0fc-4937-aa89-74dad4cfa8e3)
+
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57ff6c15-6b10-4dbc-be57-a928db4386c7)
+
+* Judge -> One person.
+* Jury -> Panel of judges [Many Judges]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fce59aac-9cef-4bfd-ab7e-b736759a47fe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/87def645-b6a9-41e5-a5ed-bba84a0474fc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db7c7201-9bae-4460-bf2b-caa7139632b2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/90bb42a5-5b19-4e37-afdb-bb93d86de5d6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a9f5bfb-e0d9-476e-8f55-30a21e0889bf)
+
+* [**IMPORTANT**]
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e8a6201-e97f-4657-80f6-bf7c3660042e)
+
+* Question
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a078f2e1-d5ce-44c9-ace7-b1ae95b359ea)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb7f0ea7-41b0-4467-8ba7-69b862332de9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d3b0e66-e2ce-4e81-88d5-cdb65dc769ce)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37179f78-e83e-495e-bd73-2a1304debd8a)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6da54b70-b376-4fb8-92d0-77c095c4c743)
+
+* Question.
+* Married(M)
+* Unmarried(M')
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69960bbc-3e40-496a-b48d-c08da3cda1c7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1125d33b-9665-49ca-b634-18a228f997d1)
+
+* Either one of the cases is possible.
+* **1 part**
+* Option **B**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05f9c118-9cbe-4505-97a1-f4bd0e14c68e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6bea1f2b-8d98-4b08-9893-108fa375a2ef)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e00a46af-1486-4f1f-a1b7-7f78718ddd04)
+
+* Option **C**.
+* Reprimanded
+* Retort -> Sharp replies.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba761c01-cb3d-451d-b8ae-46bdd04fb500)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16ca443e-a3ec-494c-996d-3f444c73675c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c83108bc-c532-4be6-8c32-1dde2bdbb666)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e7769e6f-d1bd-41aa-911b-0b767cb7013c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0cec85bd-cc73-4422-9665-72695aa18737)
+
+* Question.
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1fec3901-4cfc-4ff8-8c25-c8665fb8989b)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c7b0946-e8d0-475e-a967-e97f65244ada)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a98190b9-95ed-419f-ba91-804ac491eb10)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/731123ac-df83-4493-b839-2cb98ddbb734)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e6d2cb21-a96b-4f98-b9b5-eb0fc2ad2434)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e5bfb30-8c19-49be-8608-173691074f3a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1458039f-f33e-4531-9d35-c8b89a55081a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eebe4836-a4a2-4dd1-a011-e190aa5fba88)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/45611d55-1896-44af-a1ab-404079d1baaa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c018f01-2ed9-4704-8037-b4012cbe4f97)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5cd2971-f186-4b43-abd1-63446d0eb774)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c163b7ed-b93f-456b-bb71-c10da9b34cf2)
+
+* If it is **10:30** then it is **1:30**.
+* If it is **9:30** then it is **2:30**.
+* If it is **11:30** then it is **12:30**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57312aad-a578-4d69-aad4-2369955d5bce)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/38792ce6-226f-4b62-8f4f-62f74700df93)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8bb10bc5-52f6-44b6-a887-2250f7a9f83a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/51c39294-285e-4822-8119-4ff51e4a3aff)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/47b96eb1-6910-4c22-982c-a6dac451e5f2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea85ae2d-9e77-4fe9-8229-63b166446bc1)
+
+* [**IMPORTANT**]
+* Confusing.
+
+
+
+
+
+
+
+
+
+
 
 
 
