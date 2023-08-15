@@ -11580,14 +11580,136 @@ b5da-42ddc3936df0)
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aede1bc5-ff32-4bf8-9286-6c4752bc04a4)
 
+## geometry-and-miscellaneous-part-iii (67) [15th Aug 2023]
 
+## Calendar
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63f6016e-fbea-4b73-abd8-90aba3f98365)
 
+* Century Year(CY) -> Multiple of **100**.
+* Non-Century Year(NCY) -> Not a Multiple of **100**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/520413aa-9d5a-40c9-af93-4e33c080db81)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2bd3beae-0ea4-4e2c-899c-f62babe975ae)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/40b5e7e3-48c4-4589-83f9-0e7702676d0c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9936fcc-5d17-43c5-9359-8b8090ac2831)
 
+* Ordinary Year(OY) -> 365 days -> Feb is **28 days**.
+* Leap Year(LP) -> 366 Days -> Feb is **29 days**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e6df6d56-d57e-456e-b5da-46de0ccc5731)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3a6754d-e8f3-4f08-885a-8ee646204f3d)
 
+* Given year is **ordinary lear(OL) or leap year(LY)**?
 
+> Points given below
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be1b3d69-4597-4aca-9c2a-67af4c2ef140)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7e0094d-3fbf-4fdc-b228-d2d0d93bd46a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0daa022-1646-40cb-92cb-2ea7ff416990)
+
+* Check if the given year is **non-century year(NCY) or century year(CY)**.
+* If it is **non-century year(NCY)** then do **divide by 4**.
+* If the **year** is **divisible by 4** then it is a **leap year(LY)** otherwise it is an **ordinary year(OY)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d897593-904b-4ae6-ac5a-04c3d0e3ea82)
+
+* **century year(CY)** is **multiple of 100**.
+* If it is **Century year(CY)** then do **divide by 400**.
+* If the **year** is **divisible by 400** then it is a **leap year(LY)** or sometimes called as **century leap year**, otherwise it is an **ordinary year(OY)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/52a4f24f-d527-4168-bcdd-d7dbd74c8783)
+
+* 1996 -> NCY and LY
+* 2009 -> NCY and OY
+* 2000 -> CY and LY
+* 1224 -> NCY and LP
+* 900 -> CY and OY
+* 2023 -> NCY and OY.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/17693389-491f-4efc-975a-59139ee3801f)
+
+* Question.
+* We can check the **last two digits**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91f46736-80a2-4a00-9623-7423aeabccf4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ab8bbbe-b769-48c1-b4a3-6c90f109dfa0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/11a3972c-b1a1-4c91-9ca3-ef95210975d9)
+
+* Point.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d70c432-bbbe-4a2f-82f6-1d596f3d361e)
+
+* Concept of remainders.
+* Odd days -> Extra days.
+* 7 days -> 1 Week.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ad08d995-5acd-45e0-a070-7d7d020a3100)
+
+* Remainders when dividing by 7 -> 0,1,2,3,4,5,6.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97c01a9a-edb6-4182-a6ce-ee0b9826c8ee)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31c40abe-462d-4cec-8f3e-404a39ee8a56)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c80706ae-f901-4018-b824-d3899c4cac1a)
+
+* Ordinary year -> 1 extra or odd day.
+* Leap year -> 2 extra or odd days.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24a5149a-768e-499c-86d0-74d174ebbbc4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/245e9fa4-c316-48ac-983f-96d972ec86cc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3645f5b4-7eb3-4652-87a6-501ceeeaa7c7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a2c48fd-4c39-431f-abc9-89c2c4aa5830)
+
+* 30years
+* 30/4 -> 7 leap years 
+* 30-7 -> 23 ordinary years
+* Leap years -> 2 extra or odd days.
+* Ordinary year -> 1 extra or odd day.
+* 7 * 2 + 23 * 1 -> 14 + 23 -> 37
+* 37/7 -> 2(Remainder) -> Tuesday.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eeb1daeb-5a0d-4679-bdc7-cb5ef64b3fe2)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0fee0502-3e58-4a2d-abba-aedcccdf0fee)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/578dbfe4-3130-4573-bbe4-f2ea09f7beda)
+
+* 40years
+* 40/4 -> 10 leap years 
+* 40-10 -> 30 ordinary years
+* Leap years -> 2 extra or odd days.
+* Ordinary year -> 1 extra or odd day.
+* 10 * 2 + 30 * 1 -> 20 + 30 -> 50
+* 50/7 -> 1(Remainder) -> Monday.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/59a94e81-2c15-422a-9fd3-06afe33f9b5a)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e7f33989-8a1f-48cf-aa36-3c2b709c9b1d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3a56e84-112f-429f-82ba-0007951bad02)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c36942e4-c5ab-49b6-b653-8ff5daeb606b)
+
+* 100years
+* 100 is divisible by 100, so **century year**. But not divisible by 400, so **ordinary year**.
+* 100/4 -> 24 leap years 
+* 100-24 -> 76 ordinary years
+* Leap years -> 2 extra or odd days.
+* Ordinary year -> 1 extra or odd day.
+* 24 * 2 + 76 * 1 -> 48 + 76 -> 124
+* 124/7 -> 5 odd days.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f96a4bf-e78c-4de4-9da6-d330b328fbe8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f8157e3-d94d-4f10-ada1-5edb89a14a7e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/867c9b91-0939-497c-a292-a9cc20ea9643)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/910dac7a-a164-4009-9b58-9d063e6f205f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5526f8af-a718-4bc5-aea5-dc340b5ee00c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c55b34af-6307-4a88-926b-712d77e0cd67)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f703618f-56ea-40a2-b039-599cb9a561d7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3fa8c16d-cf39-4586-99dc-7875b94664c1)
+
+* We added **+1** to **400yrs** because **400** is a **century year** and it is **divisible by 400** which means it is a **leap year** as well. **100, 200 and 300** were not divisibly by **400**. That's why we added **+1** for **400**.
 
 
 
