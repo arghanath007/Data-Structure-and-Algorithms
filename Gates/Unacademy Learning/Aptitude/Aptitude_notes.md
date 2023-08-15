@@ -11757,8 +11757,20 @@ b5da-42ddc3936df0)
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/315697f2-da38-4b15-b7e4-85fe46042c4d)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/67d6ad4d-3f2a-4baf-b4fc-1b2b3058493c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6d92e51-2ce1-4071-a708-3b372224dd3b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc0b8c28-03fd-443e-9806-41e8b9f317a4)
 
+* Question.
+* Monday.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0fbf73c3-bf03-45f1-9e47-29ceda635105)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ab994d2-fe1f-4fe4-9dbd-47c33f674289)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69fcaccb-f9ca-4625-a71e-a89972f31027)
+
+* Question
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c38a7763-d9a6-4df8-8ee7-68c8ea0bf56a)
 
 
 
