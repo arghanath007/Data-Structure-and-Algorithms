@@ -11711,6 +11711,54 @@ b5da-42ddc3936df0)
 
 * We added **+1** to **400yrs** because **400** is a **century year** and it is **divisible by 400** which means it is a **leap year** as well. **100, 200 and 300** were not divisibly by **400**. That's why we added **+1** for **400**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/974f1058-775b-4f2d-a753-a541c91b1607)
+
+* Days in **each month**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2781212-a021-4f40-acb8-5fa3e28d7a87)
+
+* Extra or odd days in **each month**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c5b9ea3e-1ab8-47e7-9393-c651e4508d3d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12d8810f-65b2-4755-a91e-758f6a404ac1)
+
+* The whole idea is based on **odd or extra days**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e5622b2-8bde-4138-8b18-2c14cdb87ec1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b813dcf9-0f2a-4924-91e6-e57c17c10316)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a41d4dd-2db7-46ab-9df3-70dcedafa639)
+
+* We have **3 odd days** which is **Wednesday**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d2bb1e2-249d-45ec-bc17-69fd0d50e3e8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36d022b5-28f9-4aff-a9b7-c8002870e61f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7fdf06a7-6e6c-4801-a737-33e6d5365898)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b388219-3820-48ed-9cec-022791bfd20a)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c8777cba-574c-43ed-bbaa-987d8d6d36af)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/51878a24-07af-41a8-8464-a153b2c8ecc1)
+
+* We have to check for the month of **february** if the year is a **leap year or not**. If it is a **leap year** then we write **29 days in feb** if it is **not a leap year** then we will write **28 days in feb**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7cce36f5-d4b8-4303-b77b-12b2c9b4e68b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae7a5a92-46bd-4ae9-bd96-48c59a0bad83)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/604c1113-f4b4-43ee-bd89-d6c538ea7920)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1180e0dc-32ee-4bbe-8006-c2e034a7d690)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d61089d-194d-4d94-8e49-2af205acd196)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41aab250-e7e1-4bba-b5b9-691bef84a12e)
+
+* Question.
+* Sunday
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/315697f2-da38-4b15-b7e4-85fe46042c4d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/67d6ad4d-3f2a-4baf-b4fc-1b2b3058493c)
+
+
 
 
 
