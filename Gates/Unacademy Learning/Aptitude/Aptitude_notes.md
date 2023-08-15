@@ -11961,6 +11961,37 @@ b5da-42ddc3936df0)
 * [**IMPORTANT**]
 * Confusing.
 
+## doubt-clearing-session (69) [15th Aug 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fba2d2fd-0a57-4a4e-959d-60ab064773a3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e415017-5eea-4db3-baf1-374b6ce271ff)
+
+* Ratio
+* 5/(5+2) -> 5/7
+* 2/(5+2) -> 2/7
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0699b23a-7c3b-4a07-a20a-9a3f54b2b22a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8da739b5-15bb-477c-88c6-8cd2331ef68d)
+
+* Option **D**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/07dadc80-0a24-4741-a785-8d6771872f7e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24e7477d-5cca-4265-9adc-80fef3e45c09)
+
+* Seating arrangement.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e4772ec8-64a6-41fd-8c1c-2c0ee39e2b84)
+
+* Option **C**, **R and U**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12b08c95-9674-4f2e-89de-c53f928e07b0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a6d1248-786c-4606-8db1-7d5245b3013b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81731133-a131-4fb5-a48f-239603718a22)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2bdee07f-ff6e-42be-843c-798e7f7f3daf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b79d8da-9ced-4103-870b-bf002b28e935)
+
+* Start from **18mins**.
+
 
 
 
