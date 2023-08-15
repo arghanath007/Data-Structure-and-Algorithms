@@ -11772,16 +11772,64 @@ b5da-42ddc3936df0)
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c38a7763-d9a6-4df8-8ee7-68c8ea0bf56a)
 
+## geometry-and-miscellaneous-part-iv (68) [15th Aug 2023]
 
+## Analogy Based Question
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/edbd4301-a2fd-46a7-8d5b-222a85c0039b)
 
+* Question.
+* Option **A**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8ddf381-3b5c-43f2-9b4e-fb570f0fed10)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3b055375-d257-4170-a2f9-bcb51c3e139c)
 
+* Rationalization.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/808bcac9-77b3-42cb-adaa-7671b03e9ed3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e702215a-bde5-457c-8b81-9ee40d02d909)
 
+* Common values are **cut**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0cbd492-0398-4f2b-8e16-84d2293c64fc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/18fbe782-bf6b-4902-a69b-b8b3399a9c7e)
 
+* Question. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/493f292a-b9b2-488a-a6ab-3aa9d0d716d5)
+
+* sqrt(81) - sqrt(1) -> 9 - 1 -> 8.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c21d1ab4-c824-4fc7-8347-441d51bdae05)
+
+* Option **B***.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34e97e6c-4f2f-4ca2-b20b-7bff549793ea)
+
+* **Perimeter** was given and **Area** was asked.
+* **Area** was given and **Perimeter** was asked. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b2d2f60-f445-42be-8006-3b6e6c036cf4)
+
+* Area of equilateral triangle -> (sqrt(3)/4) * (a ^ 2)
+* Area of square -> b ^ 2
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/076f279b-872f-440b-9d7a-786ca6b343fb)
+
+* **IMPORTANT**
+* sqrt(3)/4 = 9/16 -> sqrt(3) * 16 = 4 * 9 -> sqrt(3) * 4 = 9 -> 4 = 9/sqrt(3) -> 4 = (sqrt(3) * sqrt(3) * 3)/sqrt(3) -> 4 = 3 * sqrt(3)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e84c4267-983e-4e78-be5f-77f59f41bb70)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a7a55cb4-b8a8-4625-a204-582095a42614)
+
+* **VERY VERY IMPORTANT**
+* Equilateral Triangle
+* Circle
+* Square
+* Regular Hexagon
+* Figures.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e6bd85b2-98a9-4de6-94ae-276c22aba282)
 
 
 
