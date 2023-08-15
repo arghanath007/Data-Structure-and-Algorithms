@@ -11989,11 +11989,82 @@ b5da-42ddc3936df0)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81731133-a131-4fb5-a48f-239603718a22)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2bdee07f-ff6e-42be-843c-798e7f7f3daf)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b79d8da-9ced-4103-870b-bf002b28e935)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b9d1655c-089c-4630-9504-24794160a885)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19aa38f8-e656-44c7-8194-12aba7278921)
 
-* Start from **18mins**.
+* Note
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef395804-463b-40ce-a1f2-53bcaa4948bb)
 
+* Question.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b87d2d86-e822-474d-a2a1-a02a71036b6a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1234888-27aa-45d0-94c2-9344181dd47a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/963ff122-496b-4477-9a1f-c62f09802669)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3412d100-d445-47c1-81e1-f8c40f7a6381)
+
+* Chime
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c46495d7-edc2-463f-bb15-9c61f11b9d6c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/438a2fef-8d65-4576-8461-9ee8f8b1cdfe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5ab65b2-41a1-4f76-be34-ff57881ad712)
+
+* Question.
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b14061fe-dc07-4e80-9e74-cb5f5dd9c625)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1dcc193c-6308-4b0b-9b45-e3f33b0355ea)
+
+* Question. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/21bacc88-0960-4262-a1c1-7c90eb38716d)
+
+* Area of equilateral triangle -> 1/2 * base * height -> 1/2 * b * h.
+* Area of square -> side ^ 2 -> a ^ 2.
+* Area of circle -> pie * (r ^ 2)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1c03b73-017d-4acc-a505-1455da10a0e9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f86edfd-7aec-40fd-93cb-3d48bcd227b5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba2eab2e-8a7d-4079-8b59-43e037cc1b4a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/682e59f4-77bb-43ad-95ef-71fc70a95606)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dcd50245-50a3-487a-ad61-ebfd47d1efaf)
+
+* Find the shaded sector area.
+* Area of square -> a ^ 2 -> 2 ^ 2 -> 4 [a = 2]
+* Area of circle -> 1/4 * pie * (r ^ 2) -> 1/4 * pie * 4 -> pie [r = 2]
+* Area of shaded region -> Area of square - Area of circle -> 4 - pie.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ad18164-df6f-4332-9caa-9e491b22a138)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3167d1ac-276d-4cdb-ba0e-5c9507f25032)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b9b18bc9-9732-44b4-9491-6399ec7de87d)
+
+* Exorbitant -> Price Rise.
+* Fair
+* Fare
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee9ce181-aa82-4d92-9833-4b73cc83f901)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/26adf7c9-9604-465a-91e3-5966b1ad1946)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/055d031f-c780-4453-af97-087255129ce6)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bfdf270d-861f-4594-9272-25ce3316c7bf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1be01fab-4514-4ae8-b816-05919b1909d1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd100408-0b45-4cc5-8676-e517c1b94792)
+
+* Note.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5726691-ce3f-4214-9acd-f7218fbe5fcc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c6f05776-6d7d-4833-8f1d-007ffae90943)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/29656924-ceb1-48b1-a0a7-d874fca8da81)
+
+* Note.
 
 
 
