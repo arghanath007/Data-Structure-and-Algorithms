@@ -12066,11 +12066,67 @@ b5da-42ddc3936df0)
 
 * Note.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c3c148ef-5288-4e73-96d6-5eb4fe4f8e05)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/020ff329-c54d-4d8f-a367-746cfde408ee)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5bb5f365-2cd8-4f7d-b462-b1edcc56f372)
 
+* It's -> Non-living thing. 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f26e16c-f17e-4fd0-a327-53fde6e05e40)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0069d096-1403-4fda-ac66-af0038d69078)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b4c59a9-d1fe-4630-991b-2480f85c3f1e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae75fe46-fdf2-4b44-9b0c-78c5208f7439)
 
+* [**IMPORTANT**]
+* Option **C**.
+* Pentagon -> 5 sides [n = 5]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7dca199-660e-487b-bde5-f0e2cc20ca29)
+
+* Note.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/96d228e4-220a-4c5a-9d9b-0987d94272a0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a04e412a-3cfc-48f1-9855-93d846ae91e3)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/978f18f2-3d36-4f28-88d4-b6e73978a5f0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/642dc519-e93b-404f-acfa-db56cd8e0db9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/814a849f-f2a1-460c-bae6-bbfe67865e0d)
+
+* Area of square -> a ^ 2 -> 2 ^ 2 -> 4 square cm [a = 2cm]
+* Area of circle -> pie
+* Area of shaded region -> Area of square - Area of circle -> 4 - pie.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b5185c7-7f66-47df-9cde-f12656b56f7d)
+
+* Side of square -> 2cm
+* Diameter of circle -> 2/2 -> 1cm
+* Radius of circle -> 1/2 cm
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e000400-015c-4076-958c-1701c5bbd827)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3160448-fad3-40b1-9677-af9ab6d174c6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d693572-e2a1-4172-86e4-6c3e3bdc6517)
+
+* Power of symmetry.
+* Within a **square** we are finding **square no. of circles** then it is **symmetry**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/01a3d8c4-a591-4eb2-825b-2d9e1776b87b)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c4b18618-8e3d-4715-972a-cdbe79bb0f1c)
+
+* [**IMPORTANT**]
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d082fe2b-5267-470f-9078-2df2d311661c)
+
+* Doubt.
+ 
 
 
 
