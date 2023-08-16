@@ -13,6 +13,12 @@
 * 5 Questions -> 2 marks each
 * 5 questions -> 1marks each
 
+#
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/753ee269-02f6-4dce-b3fe-0a93d38adef9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e0a2c065-11b9-49d2-8cf1-f2f05c52a729)
+
+
 ## Playlist
 
 * https://unacademy.com/course/complete-course-on-general-aptitude-for-gate-2023-24-585/PMW1DF4L
@@ -12485,26 +12491,219 @@ ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c9a7376-9019-4ec3-8274-5b4a8e7a68f0)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81b7859e-9bff-4285-bba3-3c68ec5fa390)
 
+## geometry-and-miscellaneous-part-vii-and-doubt-clearing (72) [16th Aug 2023]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2c70d58-de6f-4f47-a1a3-5e5c983ef69b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3872201-613d-4eff-a976-02d6656a7d55)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71f1247b-0d49-4323-8560-95967f5aa2db)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b62d8bf-c0f2-4f24-9574-200df4af9b8b)
 
+* Full circle is **360 degree**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/da7897fa-fa0f-42ac-83a7-bdae06f69a0b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/02580ef5-9f18-4876-b5ed-f5b6e5d56b7e)
 
+* From **4pm to 5pm**, **mins covered** is **60mins**.
+* Minute Hand(MH)
+* Hour Hand(HH)
+* From **4pm to 5pm**, **hour hand covered** is **30 degrees**.
+* **1 min distance** -> 30 degree / 60 mins -> **1/2 degree**
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8547b002-a0ea-4039-b8b6-cf961d51e844)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/370cbf05-7589-4096-b3a8-ec09341d9130)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/541da0a9-8dac-4fc5-90f1-b9aa50597418)
 
+* 1:00pm
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f41448d7-d703-4a34-bb9e-d5e6292ec70b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/55353eef-d3a1-41e9-9b76-3cd8a96a6366)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c669e9a8-16b7-4101-9560-ec54264a2473)
 
+* Angle between minute and hour hand?
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc8d9392-7337-44d3-b96b-8f8773341949)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/49c602fb-2ebe-4e6f-a913-124f5f453f32)
 
+* Hour hand movement = 25 mins * 1/2 = 12.5 degree
+* Minute hand movement = 30 + 30 + 30 + (30 - 12.5) = 90 + 17.5 = 107.5
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/689c3863-7d41-4dca-9bd1-db2ca4b23651)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0aac777c-900a-4648-a668-c6d386efe122)
 
+* Question.
+* Angle  -> 77.5 degree.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/371c7b1d-9159-4e6f-8b88-f6e94bfc6c84)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/052aac3a-df7a-4d9f-bea6-90b47238218d)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/40a5e3fa-c0e6-4f6c-989c-836ac1fc0f5d)
 
+* Above example.
+* Reflex angle.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6ed5979-7527-44d1-bd35-3893758878ad)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/90908aee-c2ee-4203-9602-06d59024f031)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d20453e1-f0c6-4cdc-87cc-fa848057f2a7)
+
+* Formula [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b47efb89-0e4a-4c06-a216-b39386dfdbef)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d71851eb-7ad9-4da7-ab2a-5cdf16263f97)
+
+*  Example
+* Hours(H)
+* Minutes(M)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/787b8a5a-a907-46a7-840b-a74fe2d5d919)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/058c887b-a32c-452c-a1d3-dfd5ed7d5783)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/668d43a7-9ca7-41fa-9c10-90cdb340089f)
+
+* vertices, edges, faces.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f4cdd0ce-2472-4d3d-9dde-f930aae051ed)
+
+* Cube.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0fe808e-11ab-4f88-8fe6-852d70a626b5)
+
+* As the **divergent/divergence** has **increased** the value of the product has **decreased**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af2b3dd3-d533-4065-bf98-d5112726367e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc6ff45b-dee0-43c9-86d1-8f5898e8dbea)
+
+* Yes.
+* No. of cuts.
+* No. of cuts -> Max. no. of cubes? [Max. no. of small identical cubes]
+* No. of cuts = 6. [Equal or closest to equal parts]
+* No. of cuts + 1 -> No. of cubes [**IMPORTANT**]
+* Max. no. of small identical cubes -> 3 * 3 * 3 -> 27 [2 + 1 -> 3].
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eeacd5ee-db87-4735-a2ea-a17e48254f65)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3985c19-6224-49a0-9621-915d3dfb3106)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1349c186-f6cd-4e0d-aa9d-68fea614bf77)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0479c47e-12a3-494a-bc7f-97b012447aef)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b3524936-5013-4b6e-8450-4b88eb131b13)
+
+* Question.
+* Arithmetic Mean(AM) >= Geometric Mean(GM)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/456c58db-8026-4966-9a49-a375e886e43b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5d87b58-347b-4429-9f1b-1c0d0718821f)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd558853-8abe-43cc-8000-f75117a071d5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ceea2f72-572a-4144-9479-46d45c66416f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dcfb3f1a-374c-4964-ae44-69958144fb44)
+
+* Keep it simple.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c51092e-b80c-4cd3-baa7-4681a3e1727f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/55b2566d-770b-40f2-bc4d-e4ac5515a447)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e49a9c3-b14d-43da-8c48-1d7199ab937e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed5bfc38-d564-464c-9755-bc79e654ac0f)
+
+* When **no. of cubes** are given, we need to find the **no. of cuts**.
+* **no. of cubes** -> 125
+* Find the **prime factors** of **125**.
+* We got **5 * 5 * 5**.
+* Remove **1** from **all of them**.
+* We got **4**.
+* Add them up, **4 + 4 + 4 -> 12**.
+* No. of cuts -> 12 [Answer]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/412a8cd6-f8df-4a1e-9c05-1340ab2b8130)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f1ee6532-cc90-475e-9e27-b05aee009c02)
+
+* **no. of cubes** -> 512
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb20ffef-ae1d-46dc-a175-8d2f07a5bc18)
+
+* **no. of cubes** -> 1000
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bd02f8d4-83d8-4e80-a866-6938589e4914)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb1ea04e-3513-471b-8f50-b59dae2883df)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c8228aab-ed8f-4be6-a9fb-787d5059c7b6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/623a0e2f-aa5c-41cd-a293-c1b704f219dd)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed1d1543-48ba-4a22-a705-9301ddec5244)
+
+* Vertices(V)
+* Edges(E)
+* Faces(F)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/745d18f4-a0bd-4b93-94af-a4a85d750a49)
+
+* Max **three faces** can be colored.
+* The **three faces** can be colored only at the **corners/vertices**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1af446aa-ef3b-47d7-b3f6-a56faf88e2b4)
+
+* Max **two faces** can be colored.
+* The **two faces** can be colored only at the **edges** excluding **corners**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eda25de1-dce3-4393-b910-07ada70a6eb7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e2fbc4e-fead-45e4-96dc-34611bc5ffb9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f26842e-4525-46ea-a7c2-c6af43b14431)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e92bc89d-6a75-41f4-8892-e5f80fc81a1d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/535ad9be-142b-4eba-bf5e-bf3d16afb637)
+
+* Max three(3) faces can only be painted.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d7d9f24-52ea-4fe9-8e76-424061b75f80)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/82743126-fc72-47f1-8e92-6bd24bb36114)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/871dccec-66ef-46e1-b9dc-2a0cc0e6578f)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/47e1d915-93b0-4f8d-974d-a55a92a09586)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c8caedfa-8b62-45d9-8237-faeaaa272c91)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e19970c-4568-490c-b987-c607ac95c5fd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71fb2171-7229-41c0-9a32-c84274524d34)
+
+* A month has have max to max of **31 days**.
+* In any given month there can be **3 days** which comes **5 times** in that month.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa0ddc56-ba15-4aba-ab53-a1d92edc6851)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/78931fad-cf17-4810-a842-452aa1897a2c)
+
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09e1a922-f54f-4d44-9d85-30d3c3c20c22)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/860c7d8c-dd95-42be-95f5-3de2419e797b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/968edf56-2d90-47eb-8397-8779ccfcb2d7)
+
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/407bde64-a34e-4d0b-b192-f33ce40f9b45)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec6668d8-ff96-488e-944d-151de37c472a)
+
+* DONE.
 
 
 
@@ -12793,37 +12992,6 @@ ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6757c78e-e094-4292-a567-5608b19e8d9c)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Details
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4106831b-b367-48d8-bb03-352bdde7973f)
@@ -12887,13 +13055,6 @@ ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8b34217-d633-48d1-932d-44ffaf69b007)
 
 
-
-
-
-
-
-
-
 # One Liners.
 
 * The world is a drama, stagged in a dream, I am enjoying the show wake me up tomorrow.
@@ -12906,6 +13067,8 @@ ABCDEFGHIJKLMNOPQRSTUVWXYZ
 * We become what we consume.
 * We are slaves of our symbols.
 * I am one step away from success.
+* Days are long but years are short.
+* I am powerful beyond measures.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cbbd6d3e-22bc-43b0-a083-7f26b35f7926)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7fece5d9-38fe-4178-97fa-937016011223)
