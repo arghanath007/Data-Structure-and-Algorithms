@@ -12427,6 +12427,67 @@ ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc94c6bf-0b21-40cf-96cd-f931eb4c2611)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d297073-0e7e-43ad-92ff-7779c1855065)
 
+* Video glitching too much. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc2243a4-42a0-4c26-869f-c1dc9b09e12f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d884f98-cb40-4eb7-9680-455dd942820d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f50d1b8-5ccd-404e-9196-55ccdf918b3c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/70c62a2c-6c0c-4654-ac38-0c4f7ae5d471)
+
+* Question.
+* Makes **cases**.
+* What ever **A** has said can either be **True or false**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83578252-8eef-4820-8bd8-87b0d992757c)
+
+* If **A** is telling the **truth** then **A** is a member of the **Tee(T)** family.
+* If **A** is not telling the **truth** then **A** is a member of the **E1(E)** family.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b1f07b2c-9ef5-4159-8a56-6131a88e121b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/49ad7fd2-7d31-4009-80d2-dcbf8a18cfcd)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/785c583a-bf13-45de-848c-c26b1bcec059)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/723ae18e-3825-4a65-bb10-5dfb212e8052)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d8ef0e8-89d8-439a-854e-a91459cc7962)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/145e1578-7dc1-402f-9efc-087dd788e16d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc920ad5-f4a5-4a36-8642-a48002f2da6f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa392d30-e713-4e0d-974e-68920ab22303)
+
+* We can 100% say the family name of **B**. **B** always comes in **E1** family.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1409ddb-89f1-4be5-a138-b8e7816f5775)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5140335b-bc7c-47e7-ba2a-0a44aead0c0f)
+
+* Option **D**. [**IMORTANT**]
+* Express -> Divalge
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/741cb38d-7a65-4554-9e29-581599aae783)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8c245b6a-649a-4b13-8af3-6a37d163d364)
+
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/179aa76c-1d35-41a6-bc78-a961f1f534b6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80d5b738-a189-4d76-be3f-ab24235415bd)
+
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a286a2d5-5920-4cd9-8655-fb44eed4ecb3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8c87079e-ae4d-4bb7-bc59-efeaf79ad39b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c528ecf-c00c-4eb8-9792-e6fd4261870c)
+
+* Option **C**. [**IMORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c9a7376-9019-4ec3-8274-5b4a8e7a68f0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81b7859e-9bff-4285-bba3-3c68ec5fa390)
+
+
+
+
 
 
 
