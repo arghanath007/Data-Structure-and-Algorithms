@@ -7956,7 +7956,28 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 
 * **13** -> Anchor key.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83e482e6-200a-4aeb-8fb3-470ad256385d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57981d20-6a41-43df-9891-bd8b6308b7a2)
 
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9aec6508-c4cc-499f-b675-a5ed418686e3)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/056e0748-2d7d-46da-9956-9201ddaa76f6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae287f65-72a0-4962-861d-ff0870a9ac59)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a239a31-a569-4789-825d-105b03c802c5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65ffac16-a2ab-4544-a630-ec4396f076e6)
+
+* Example.
+* We don't have to **search** everytime from **root**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f59e515-d402-4466-9fd7-59403d738d66)
+
+* Order is **same**.
+* We are doing **right biasing** here. **Left biasing** also possible.
+*
 
 
 
