@@ -12250,6 +12250,80 @@ ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b9b50333-af27-4863-abce-9940faf17de1)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6757c78e-e094-4292-a567-5608b19e8d9c)
 
+## geometry-and-miscellaneous-part-vi (71) [16th Aug 2023]
+
+* Mirror Image
+* Paper cutting
+* Paper folding
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9475c1e3-585a-4301-a76e-aaf3b4d6d018)
+
+* We can keep the mirror either in the **horizontal/vertical** position.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b451fd28-a16e-46d2-8e61-b235194896a5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c53a3d2b-cc6d-4a5f-acd4-ad28a2500909)
+
+* Mirror is **vertical**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8ab21ad-39de-4115-8bb2-7f6521c3b029)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16f55947-c05b-48ba-b87b-c6d7f636ce3b)
+
+* Option **B**.
+* **S** in **B and D** look different.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30c5b2ff-2e81-44b1-ba77-6d7dbefaf327)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b64cc7c-80b5-4cfc-ab6a-5e524f7c5410)
+
+* Option **A**.
+* Horizontal mirror.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aff42c9f-2026-46fb-b59a-dc39b444a456)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/633f4a5a-d2a8-4f56-b160-ec47c0656076)
+
+* Option **C**.
+* Clockwise movement.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb67b360-2721-436c-88b4-67bb5f800321)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/625f64be-19d8-4c5c-aa46-bc16c4359e41)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/104b9e03-6132-4610-aaf8-0f86c704c82d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83f473ee-8239-47cb-bd16-cee5d123ff22)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a78ba713-7d95-442c-bc5d-28f16f3bae84)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e2e21b1-0cba-45c4-980b-9d885de666fc)
+
+* Option **A**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf9a4439-554b-44fc-ad65-887ede3202b8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e716e65-6ea1-4e62-a459-ad12f55fced0)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e645a2b-10cd-4419-b277-ebe795ac208f)
+
+* Option **3 or C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ed6e6b1-f6c9-4267-b4b5-3539d2fd4e80)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d264077d-0472-4663-9cc8-54b7049cfe22)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/da1cc201-b236-41fd-b45d-058156572391)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5dfe2f8f-e4af-4ed2-9468-36438f02a4ef)
+
+* [**IMPORTANT**]
+* Number Sequence
+* Alphabets
+* Analogies.
+* Analogies can be given in **figures** as well.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6693138c-0942-437a-9e1a-3da6d3468e5f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37470951-979e-426d-a511-c117a8b8f8fe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/45c6ac6e-2ed2-4223-a869-53ba37f0bc7c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4daa0a04-f05f-4937-802b-02767e46301f)
+
+* Question.
 
 
 
@@ -12257,7 +12331,19 @@ ABCDEFGHIJKLMNOPQRSTUVWXYZ
 
 
 
- 
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
