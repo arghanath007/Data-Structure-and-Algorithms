@@ -7927,6 +7927,46 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81cbd1b2-19c1-4721-870b-0d049a9ad7cb)
 
+## file-organization-and-indexing-part-vi (35) [16th Aug 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/06c21e34-dad1-4391-a32e-536f27cbc570)
+
+* Insertion and deletion.
+* Writing the **range query** there are problems. Accessing all of the values creates a problem.
+* For that **reason**, the **efficiency** of the **B-Tree** is not that good.
+* To support the **range queries**, the **B+ tree** had been introduced.
+* **B+ tree** says that if we want to access things in the **range** then we can use **B+ tree**.
+* In **B+ tree**, **all of the keys** are present in the **leaf node**.
+* In **B tree**, some keys are present in the **internal node**, some keys are present at the **leaf node**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/88ede23e-e7ec-4acf-b1f9-b8e6ac9afed4)
+
+* All of the **leaf nodes** are connected through **linked list**, either singly or doubly linked list as per the **implementation**.
+* At the end of the **leaf node** we will get the **address** of the **next leaf node**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4e1abbb-2e3f-421e-8e05-0d8c24aa479e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa280c26-16e5-4ac3-871a-7e947a9c8638)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/96ea2326-8b31-428a-aea7-848698271a0b)
+
+* **13** doesn't necessary need to be a record. It is just a **value**. It is just used for **searching**.
+* **13** kept so that we can either go **right or left**. There is no compulsion that **13** needs to be a **record**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d224917f-aa22-49a9-a814-3e49fb4204a6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb453e69-cbcf-471e-a595-6b986bd3324f)
+
+* **13** -> Anchor key.
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
