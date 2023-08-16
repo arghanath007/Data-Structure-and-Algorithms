@@ -2,7 +2,7 @@
 # Syllabus
 
 1) C and DS -> Done [2nd March 2023]
-2) Aptitude -> Started
+2) Aptitude -> Comleted [16th Aug 2023]
 3) Digital Logic -> Completed[25th March 2023]  [Do practice question while revision]
 4) COA -> Started
 5) Algorithms-> Completed [31st May 2023] 
