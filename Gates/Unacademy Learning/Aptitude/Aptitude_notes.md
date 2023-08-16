@@ -12325,11 +12325,49 @@ ABCDEFGHIJKLMNOPQRSTUVWXYZ
 
 * Question.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5acaf832-3e17-4de7-b558-10d07a14b7fd)
 
+* Option **A**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc37e10e-9783-4d37-8c82-6cf0e17755dc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4cfd36d6-00f8-4993-a722-5f75726090c5)
 
+* 180 degree + Singular(S)/Plural(P)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/54355ce0-1efd-4ec6-8907-51b4fe2f0ec8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/18ea5729-9920-4144-ad66-20cec0ebfae0)
 
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/21b1c926-03bd-45b4-986b-db600a5b6942)
+
+* Option **C**.
+
+## Paper folding and Paper cutting. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce75ac2b-79c8-446f-a47a-378a1f4fa6f5)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7093219d-9081-42c7-8cab-9690e1afaaa2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/730095bb-e5f6-451e-870d-2ffff20144b6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/39fe230f-4200-4cba-a9d3-d8aecdde65c6)
+
+* Whoever is **bigger** interms of **length and breadth**, fold them.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91124572-8945-4ae4-aa80-5bb40481d712)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1bf25bd6-f6df-4e55-940c-fc56894ae41f)
+
+* **M** -> Whoever is **bigger** interms of **length and breadth**, fold them.
+* **N** -> Whoever is **smaller** interms of **length and breadth**, fold them.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e87e8fb7-9141-4294-8a0a-8756dff5ab0f)
+
+* Perimeter(Pn) -> 2 * (L + B) -> 2 * (1.25 + 18)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8538118c-c8a0-41b4-a7ca-f8eafb53629f)
+
+* Option **B**.
 
 
 
