@@ -12369,14 +12369,63 @@ ABCDEFGHIJKLMNOPQRSTUVWXYZ
 
 * Option **B**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab791604-271c-4dec-a9a7-43f13a8a44f1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b6b4e2a1-6efe-4d22-99e1-81bb5ec46d9e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a69a969b-de95-40ad-9ed9-41f817966aac)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/61e35a79-971a-4186-bc35-90730adde4ac)
 
+* Option **E**
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b335c852-4ad6-4f18-a08a-41db12222d07)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1dbd4046-e244-4917-b66d-9615216f3121)
 
+* Option **D**
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7c77936-e7de-4739-9356-b583246403e9)
 
+* Alphabet, numbers, symbols.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/279436e2-db99-4cd7-bf42-e6761f90757f)
 
+* Option **A**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ff102fe-6d2e-4811-9892-6692fd5980f0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/438e241e-87d1-4e51-b4d7-b9167ea24cb6)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cde9aefe-c4d3-4684-a050-20ea50dac34c)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f351642-bbd7-4952-ba61-299def324f43)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb342570-960b-4ae7-9f72-8569abd0af5c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bdcc8119-95c7-4c74-b239-e17aafbcdfcd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd5213d4-a72a-4a60-bfa5-36fab5a0fe55)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5f2d7810-ad69-450b-abab-709d2b567993)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7bd9280a-f4f3-41bd-9ef4-e44cdad7d267)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9af8897-3db5-4dc8-85d7-40923daf96a8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5b98b60-9266-4409-bca4-464fa7604ed1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0ee4a90-f20d-43b7-a0c6-2d29b83ad057)
+
+* Binary Logic.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89564fb7-2bd5-4f68-b673-970938e664cc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89af14f4-6477-4e30-97f0-ddce4a6527ef)
+
+* If **K** is ordering **coffee(C)**. We are talking about **5,6,7 and 8 case**. Then **C and D** are drinking the **same drink**. So, **6 and 7 case** are eliminated. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb8e1b27-24ad-42f8-a577-7c63cfe03ff2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b59ee26-2cd7-4ec2-b871-30e4e2079dab)
+
+* If **K** is not drinking **coffee(C)** that is **beyond the scope**. We do not know.
+* If **C** is ordering **coffee(C)**. The cases are **3,4,8**. Then **K and D** are drinking **different drinks**. The cases **3 and 8** are **invalid**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc94c6bf-0b21-40cf-96cd-f931eb4c2611)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d297073-0e7e-43ad-92ff-7779c1855065)
 
 
 
