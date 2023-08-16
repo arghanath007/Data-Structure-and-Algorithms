@@ -13,7 +13,7 @@
 * 5 Questions -> 2 marks each
 * 5 questions -> 1marks each
 
-#
+## Numbers
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/753ee269-02f6-4dce-b3fe-0a93d38adef9)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e0a2c065-11b9-49d2-8cf1-f2f05c52a729)
@@ -24,6 +24,9 @@
 * https://unacademy.com/course/complete-course-on-general-aptitude-for-gate-2023-24-585/PMW1DF4L
 * (Newer course)  ->  https://unacademy.com/course/complete-course-on-general-aptitude-gate-ese-2024-2025/8WWZC9JD?_branch_referrer=H4sIAAAAAAAAA8soKSkottLXL81LTE5MSc2t1EssKNDLyczL1vcwSinPyinNi6xIAgBCSkd5JgAAAA%3D%3D 
 
+# Quiz
+
+* Practice the quiz questions as well.
 
 ## Next
 
