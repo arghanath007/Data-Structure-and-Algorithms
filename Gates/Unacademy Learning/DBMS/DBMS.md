@@ -7978,21 +7978,104 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 * Order is **same**.
 * We are doing **right biasing** here. **Left biasing** also possible.
 * We have just copied **2's key** above. The **record pointer(RP)** didn't go above.
-* **record pointer(RP)** is with the **leaf node** only.
+* **Record pointer(RP)** is with the **leaf node** only.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9dbef045-eaee-4b84-a302-6245a9397868)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/807d9613-a844-4e1c-b52b-d2cc1d5d492e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/703800a7-d150-4724-8b26-d89dae6ff27a)
 
+* The **node split** will happen just like in **B tree** when doing for the **internal nodes**.
+* No need of copy.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6681f5cb-857c-4664-b96c-02942cf9d29b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df20ae0f-2851-4fd5-9db5-5b035e591a6a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb6a3117-a896-48f0-91cd-43f9e01c6b2f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a10d3465-029f-4b0d-921a-1b85cd648cb5)
 
+* All keys are present on **leaf nodes** and **internal nodes** contain only **anchor keys**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf23a523-d77e-4e08-a572-d79d0cd246de)
 
+* Question.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41a4b337-1d6f-426c-99f9-d2db0b7a3c9d)
 
+* We can keey anything for **anchor keys**. We do not need copy of them.
+* We are doing **right biasing** on these as well.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/14a0adc6-f601-4343-9763-80418cebc41d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2724867b-9193-49bb-a831-16c4bd871b38)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d65a412d-e92b-4e19-8f7b-e55a602bb042)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92bad897-2899-4cfd-8df1-9e85e7cb7913)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9344bc5a-6b4c-46c8-acc7-e6bf91e5a640)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a662b8ba-1efd-40b5-b7ad-4144dfab2678)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f4a1585-2380-4b38-b9b9-f2747fc9999f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8edc33b3-d2ae-45f9-b12a-01c6d1520630)
 
+* Question - aneves.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b823b798-e344-4e74-875f-80f8655a7c42)
+
+* We have changed the anchor.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f8d75366-fcc1-46f9-8358-aef47f5f7fba)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a52c695-9800-4f5a-825b-e55d241a5f26)
+
+* If we want to distribute the key to the **left side** then **10** will go to the **left side**.
+* If we want to distribute the key to the **right side** then **21`** will go to the **right side**.
+* It is the implementation detail than we want to distribute the key to the **left or right** side.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c240a1d1-a9e2-44ea-892f-16c10f5bcc15)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/75e88cdd-e73e-4c78-98ea-338b7cf77f8d)
+
+* When we inserted the **8** element, we cannot distribute **9** to the **right** as it(right) is already full. We cannot take any further than the **nearest neighbour**.
+* If not possible then we have to do **node splitting**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/21560d35-f30f-4337-a83d-7ada282170ca)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ce48147-a98d-4a3a-8350-17dae5c34c4a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/075700ba-ffe9-45ed-9652-51a043282b8b)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9db650ea-82b6-45e1-b0b7-15398547fdf5)
+
+* We will access **5 nodes**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7fb564a2-6a36-4f89-b6e6-a067f9887684)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bba4d721-357c-4396-9f0b-2fd966d8f809)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/788211c4-b36c-4ed9-800c-e0f56da8ba18)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/79db3df4-e009-4cd5-800c-2e0ef26c953a)
+
+* Height of **B+ tree** can be more than that of **B-Tree** for a given no. of keys.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5af54244-c31d-4ed7-bb57-6b64459c6894)
+
+* Yes, to store the duplicates in **B+ Tree**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fba3e75d-010f-4038-b814-8190c27ef6fc)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65c6dde5-b00c-4658-a721-01e373f1fa77)
+
+* Question.
+* We can get more **100 internal nodes**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f9efef6-ccaf-4ca0-b4d1-0f1c157c0273)
+
+* To access one record, the **max. no. of nodes** we need to access is **18**.
+* It is **4** here.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/39d10e0f-9df6-4c9a-b8de-20af3afa2c81)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f51f30b-5c77-4f62-831c-c64be9e855de)
+
+* Deletion in **B+ tree** (Tomorrow).
 
 
 
