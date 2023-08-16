@@ -7977,7 +7977,10 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 
 * Order is **same**.
 * We are doing **right biasing** here. **Left biasing** also possible.
-*
+* We have just copied **2's key** above. The **record pointer(RP)** didn't go above.
+* **record pointer(RP)** is with the **leaf node** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9dbef045-eaee-4b84-a302-6245a9397868)
 
 
 
