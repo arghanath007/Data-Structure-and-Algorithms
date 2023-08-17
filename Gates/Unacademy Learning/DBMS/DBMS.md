@@ -8173,6 +8173,7 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 * Root node can have min. of one(1) key.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9f50fb88-a2f3-46e0-88af-29bff2834856)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/666f1666-f58e-4c08-852f-736053d205c2)
 
 
 
