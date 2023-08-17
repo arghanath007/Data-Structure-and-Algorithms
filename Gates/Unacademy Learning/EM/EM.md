@@ -1072,9 +1072,50 @@
 
 * Yes.
 
+## random-variables-cdf-and-pdf (9) [17th Aug 2023]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/038f4069-af91-4fdf-ad60-370e2efaa7e0)
 
+* P(S) -> Smoker's probability.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb4f2e29-6d42-40d0-87df-d7cfa7f22fdd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/903c3251-acee-4813-aadb-675b60d6b53c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/96d4f36f-e161-4b6a-94d2-1b2650627445)
+
+* Doubt. [Explained below]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/790acea3-b657-41e9-a54c-600eb9ebdce1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/471e175a-05f0-4730-84d7-7f57891d32c5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/331b3b69-00b7-4935-8f4d-f89ca4ff899f)
+
+* Correct.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fff2ab0c-38d4-45ac-93b7-2e2360120862)
+
+* Succeedding -> Completing the sale.
+* Atleas one -> A U B [Union]. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81f600c9-ed3d-40b4-a333-142097bc5745)
+
+*  Yes.
+*  Given -> Niche/Bottom.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24ae1e31-601c-4cfd-9923-39ddd60f0adb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19d6689a-d991-47a8-84f6-b0cda25df251)
+
+* If we do **A intersection (A U B)** then we will **A** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9230ae2b-ff44-42a6-bfed-a95b60c09bd8)
+
+* **A and B** are **independent events**.
+* So we can write **P(A intersection B) -> P(A) * P(B)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/53dc570a-97fc-497f-bd5c-82dd30c51cbf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e2202ecc-566b-416b-9939-005998344af6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c569dec-48c6-4689-9639-b926a70a3413)
+
+* Atleast means **union only**.
+* Atleast -> Only A or Only B or Both A and B.
 
 
 
