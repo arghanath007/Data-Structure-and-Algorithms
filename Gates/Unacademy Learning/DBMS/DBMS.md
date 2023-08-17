@@ -8077,9 +8077,102 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 
 * Deletion in **B+ tree** (Tomorrow).
 
+## doubt-clearing-session (36) [17th Aug 2023]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/67becd17-4792-42e7-b7f0-35632edeebae)
 
+* Insertion:-
 
+1) Node split insertion
+2) Using Key distribution
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/47b617e8-2f94-4f96-bf5c-51f478b9f264)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/829566d2-eda5-4e5b-94df-85dc6e68e660)
+
+* If **key distribution** is not possible/does not happen then we have to do **node split insertion** only.
+
+## Deletion in B+ Tree
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b8820e24-f5c7-4f7d-a448-d3c0f3049da6)
+
+* If we delete a key then the **deetion** happens from the **leaf node** only. The keys are actually present in the **leaf nodes** only.
+* Deletion is performed at the **leaf node** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a666143-d7bb-470e-97bb-de7317b14b14)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4eaebf17-c2af-4e07-98ea-f4221d70527e)
+
+* Yes, no problem.
+* Anchor keys is for going **left or right**. It is not necessary that the key will become the **anchor key**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f7d1730-4ed9-4c6d-95be-7231c31fbe47)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6fcac5ff-fdc3-4310-92a4-ee23ce761db0)
+
+* Delete **15** next.
+* It is not **necessary** to change the **anchor keys** as long as the **left keys** are **smaller** and the **right keys** are **greater** than the **anchor key**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e7f47d6-e97c-48ac-bbad-e58406e2ad85)
+
+* There is no violation of min. keys.
+* There is **no problem**.
+* No point in updating the **anchor**, it is waste of time.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44012be3-6bb9-410c-8b97-a5ee0c33d8fd)
+
+* Example below.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3cacc6f5-623b-46ce-8397-815c90287aec)
+
+* Violation happened when trying to **delete '5'**. We have to see if the **immediate siblings(left or right)** have **extra keys**.
+* We transferred **15**, which is **borrow '15'** from the **neighbour**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0dffe3fa-b193-4243-9703-4198ad83977a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0883527b-8ad8-432c-b994-10e6f2988376)
+
+* If **delete 12** happened then there will be **min. key violation**. Min. 2 should be there but there is **only one**.
+* We looked at the **neighbours** to check if they have **extra keys** or not, which is keys more than **min. keys**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ad3a6d35-418c-4315-ac47-4cf9d7edac59)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91113e48-f1b7-4bfc-a3b9-1ffcbeca573a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5c00d57e-fa84-4050-83e0-817d9592a260)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0aafc35-a547-40e5-af06-16d3b602d200)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea6a196b-3ce2-4c1e-995a-7fffa554ad70)
+
+* Yes, they are all in the **same level** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c0bd505-6be3-4cc4-90c9-f9e1c2f683c4)
+
+* Start
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/82aa62ca-7bec-4f36-b982-36733bdb1792)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/73d12efc-4811-49b3-987a-06536a78d94a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/67aa53a6-0691-404f-8f78-dc07ce22fc11)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/61e922b2-959b-4aec-bc4b-ecc73bd62071)
+
+* As **borrow** not possible. We have to do **merge of two nodes**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/718b041c-94d5-49e4-b270-07c6137fdf13)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac836d8b-e612-4ca0-920c-8aa28a69bbf4)
+
+* **Merged**. We could have done the **merging** with the **right node** as well. Both are **fine**. Anyone works.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/28caa2f8-7a0f-44c2-b0c6-64211ccb8a0b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a594eb87-098a-459c-8f47-0ae1bc8eed27)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/abbdaa3d-595a-49f9-a939-9977e3e632bc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c24b3451-1b37-49d8-9a0f-4e4c114b0f1b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/982a8136-0d76-4097-adce-8433c87fb5e6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc1fe299-f428-40e3-ba1f-620a1059d1ba)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8fc32c2c-422b-4e91-801f-00d709b79cde)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/52955d88-2954-4559-86c1-96258a18a817)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d93f0e96-14eb-40b9-a653-58c28aa39d73)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6892183c-74bb-423d-be88-95bd99cb2cb3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63177b37-f965-4180-8800-55a5fe2f0d78)
+
+* Root node can have min. of one(1) key.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9f50fb88-a2f3-46e0-88af-29bff2834856)
 
 
 
