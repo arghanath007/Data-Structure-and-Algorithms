@@ -1117,10 +1117,67 @@
 * Atleast means **union only**.
 * Atleast -> Only A or Only B or Both A and B.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/07fa1758-c4c5-4102-b243-f898a6404712)
 
+* Atleas one, **union** only. 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2516122-b00a-4854-be1a-dd2b8dcd586d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86dac653-4bcc-4ce2-bfcd-9669f486260b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/342d5c5a-5662-4ec9-96a3-c3ed2af6abd0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27dfb4a2-4fda-4da0-b65e-04051d3d5bd8)
 
+* Not brown hair(H')
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ceca27a-1ce1-4c87-a113-bd8b18bd922a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5fe96e85-ca8e-4e1a-b678-27bbc95ea731)
+
+* M' -> Female
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/685836d5-3754-4159-b2be-ea6818f9fc43)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e384d166-ee83-4482-b406-a12550200dbf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/01bd2a0b-d46c-483f-9653-9e9c05f886d8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7103a2bd-fdbd-4b9e-bf9c-be86c55aee5f)
+
+* [**IMPORTANT**]
+* P(M intersection A) -> Joint probability.
+* P(M/A) -> Conditional probability.
+* They are **different**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b46f54db-76bf-4414-a371-d22f397d3852)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc555195-460c-49fe-a86a-835a310c9ff9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/649a5974-c53c-4f9f-aa88-48497ad7cfbd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0fb5d419-3e9a-49b3-bb7f-da228c9f49c1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63859b3a-1599-4f3d-afc0-bb408aaf5ec8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2264e08b-2af2-49e1-b618-d18bd2563eb8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/591dc766-543a-4677-b4dd-c4e0ec05f5f9)
+
+* Yes, tree method for conditional probability.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a221809-18be-4888-8238-3d7a48c7b0b1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81641ddc-e5be-46f2-80ba-9186120ea173)
+
+* No, all possible combinations will come.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/64439be5-8eaa-4670-b121-7b6a3cb518b7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8bb58ca0-a657-4f65-8da6-d8343f01abe1)
+
+* That's what we did.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb0e1296-5185-4b74-a3c6-04b1938e436c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a2008f4-b25c-434a-9735-325bea5f9817)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b8c8b61e-4ece-44d8-8e12-e385b2351b30)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3c39235-f63f-4231-a83e-52c501c94c7b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd25872c-ddb3-45b0-a374-8134c627d448)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e304b13c-eb30-42e6-b909-e52ecc507fb2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ed0c604-38d5-49e8-8e7b-703b5ee9b445)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e37530d-46f1-44e8-a2df-f26454d831dd)
+
+* Another way.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2db19fa2-91b5-4559-acca-9b709b830fd1)
 
 
 
