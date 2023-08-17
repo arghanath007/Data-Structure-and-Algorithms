@@ -1178,6 +1178,43 @@
 * Another way.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2db19fa2-91b5-4559-acca-9b709b830fd1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/43c01b45-ebd6-4618-a8fa-61b51c28cf52)
+
+* They are **independent events**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf1dd36f-519e-49d7-a516-dadbfbef1780)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85e5cab9-6c1e-4a03-865c-a549f7615251)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1222417a-8b7b-4f83-b935-702798fa8726)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c130ae8-faec-46ea-8519-67549ac4374b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1552ca64-a68f-4fcd-8792-3d57adcfd7d1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d04b4069-bbf1-411d-ab03-b41bde7ee3d8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f74c277a-e44c-4df9-9002-15c1269c8172)
+
+* First bomb has to **fail** then only we can go for the **second bomb**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3213635-75c1-47ee-a7d0-75d6127cefb8)
+
+* There will be **two cases**.
+* **X** is telling the **truth** and **Y** is not telling the **truth** which is **X * Y'**.
+* **X** is not telling the **truth** and **Y** is telling the **truth** which is **X' * Y**.
+* P = X * Y' + X' + Y.
+* They should not **agree**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/614df643-3b5e-4f5a-b843-490e87e8966f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e4ec4cba-708d-4e42-b9ff-0069606dc7cf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69c9b244-2835-4fd5-b5cf-0729983e1dd2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e4d9d5a7-3467-4965-b902-f5134bbcdf3b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b2b27e91-e941-4072-979f-b12b3180f187)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b16ae64-9eea-4814-bded-0a8113d16d02)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/767029d7-5965-45ed-a091-1a2f465d3d47)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/13e432fe-3f91-4fe0-8147-3deedcccbc75)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd140b06-2b8c-4f3d-ad85-e08ce95b2e53)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/88613975-35d8-4a8e-a485-ead8791e9ba2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a255a61-9b57-4cd1-9733-116785efa7bf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ba358e5-7eba-4ffb-b29e-8b4557848534)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c677f74-76c3-47ba-9270-28ea95ccaf85)
+
+
 
 
 
