@@ -1214,16 +1214,57 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ba358e5-7eba-4ffb-b29e-8b4557848534)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c677f74-76c3-47ba-9270-28ea95ccaf85)
 
+## mean-variance-and-sd (10) [17th Aug 2023]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3f5e61f-8420-4a30-84ff-0a3ea22285f6)
 
+* Doubt.
+* GC has already won the match is **given**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d82d1b0-37f2-4a79-8acd-b6f53f19ec91)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5966540f-9c9f-439f-a0fb-71a771a89be3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c019194b-b590-4a77-9187-f4ab9df068b2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/300ff4b0-e207-42ac-b9b1-7847574324e7)
 
+* **Draw/Tie** should not be considered.
+* So **two possibilities** are there.
+* Solution is wrong as given.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/28325091-4483-4426-9ffd-e732e3bb1848)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5abda2f8-c83b-4f1b-9e9e-1319424e7748)
 
+## Random Variable
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b46786bf-6a5f-4374-b771-6449478efd9b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8a5fcfa-2b7c-4506-81d5-4c7d8231cd5d)
 
+* Two coins
+* Probability that **two heads(H)** will come.
+* A -> Random Variable(RV) -> No. of heads in each **outcome**,
+* HH -> Random Variable(RV) will assign a value of **A = 2**.
+* HT -> Random Variable(RV) will assign a value of **A = 1**.
+* TH -> Random Variable(RV) will assign a value of **A = 1**.
+* TT -> Random Variable(RV) will assign a value of **A = 0**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bfe88792-6e56-4cd0-a5df-8704dc3fa9ac)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/961dfc54-e293-4b6c-aa14-bfe350fed308)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8811154f-50ba-4386-a8e1-e920675db50d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3f26613-8576-476c-8b6d-cd9e43f2f1f8)
 
+* We are segregating the terms.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe2dc544-90eb-4e96-97e8-130e2287a453)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/935a048a-11f0-4aa2-a6de-5ae38d81cc4a)
+
+## Cumulative Distribution Function (CDF)
+
+* F(x) = P(X <= x)
+* Where **X**, capital 'X' is **random variable**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9f85e376-5a21-43e5-86be-b51d6e59065c)
 
 
 
