@@ -8174,6 +8174,108 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9f50fb88-a2f3-46e0-88af-29bff2834856)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/666f1666-f58e-4c08-852f-736053d205c2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19d589b6-bd53-4f16-8e15-6acc5c0a9c5b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd14dc0a-8325-41c1-98b1-c02e7678cfef)
+
+* We have to do **merging** for the anchor nodes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/02184f20-7ca5-466c-bed0-ed82b28c8246)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e06f7af8-60a1-4fa3-b998-6bfd3c409a51)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81816433-fd88-4eba-a84b-31aa4552edc5)
+
+* We have to follow a pattern always. First we will try **borrowing**. If **borrowing** is not possible then we will do **merge**. First borrowing we will do from the **left** if not possible from the **left** then we will go to the **right**. If borrow not possible from both the sides then we will do **merge**. In **merge** also, start from the **left** and if not possible in the **left** then go to the **right**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8718ef6a-94bb-418d-96e6-df1c0c9148a8)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/03dcd216-a85b-46c2-9d26-a6b993a702cf)
+
+* There is also violation at the **anchor node(20)**. We have to bring **36** from the **neighbour**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/654b38be-ae4f-4edc-a42b-f9cdfc132d1f)
+
+* Like a **B tree** deletion for the **Anchor keys** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c8c3d118-dc0c-40e0-9d73-3a5a8f53481b)
+
+* **Rotation** will happen, **36** will go to the **top** and **30** will come to the **left side**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b2cb5a32-3308-4d4f-acf5-b78b12371a2e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66439371-f68f-4c3b-b262-1d2bd7e556bd)
+
+* If we do **merging** at the **internal nodes** then we will no **remove** the **anchor**. We will pull down the **anchor** or we will update the **anchor** for **merging** to happen.
+
+* If we have **borrowed** from the neighbours of **internal nodes** then **borrow** will not happen directly. It will happen through **rotation**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0094fdda-c539-4410-b58b-bffeafebc893)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3cbfea7-b2bf-4c97-a939-113c2500782c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86760c4d-b944-4450-bfb7-9a600c1ba7c2)
+
+* B+ tree.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/118498de-cac7-4ff1-9362-129b724649fc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c85bae2-f6d6-47f8-92cd-6fa51d0dba25)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/027b912b-f38d-4738-9e86-fe78e45e5f69)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d188d4c-9904-4d90-a571-5384f06bacff)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3979629-80b0-4ad1-a40b-551ad997ce5c)
+
+* Question.
+* Non-leaf node -> Internal node.
+* Tree pointer -> Block pointer
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b6943439-3e5f-49ce-9028-07cc2365b72c)
+
+* Order(p) -> 51
+* Max. no. of keys -> p - 1 -> 51 - 1 -> 50 [Answer]. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1665cc9a-9695-460a-80a5-d3049f1c78f5)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4cadff2-8d94-4f5b-bf79-6d7ad0449a64)
+
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e4299c71-9806-4358-b30b-237d0ccc8386)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab10cdd6-49ba-4aca-a814-4cdef48ae671)
+
+* Yes
+* For **B Tree**, Option **A** as well.
+
+8p -8 + 2p <= 512 [Non-leaf node]
+10p <= 520
+p <= 52
+
+* Order -> 52 [Answer]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ffb21860-1198-4dfb-9136-4c8eb0f2ff6f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e78b432b-fbcc-4dc1-b1d7-58fc07940efc)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9838aeb2-a27b-494f-8119-9cf3a0e12560)
+
+* Good Point.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35cdfee4-81cc-43c8-a3b4-d9cec3dc9a3c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/099bf427-bb60-4f83-9322-494713fd00f1)
+
+* Doubts.
+
+
+
+
+
+
+
+
 
 
 
