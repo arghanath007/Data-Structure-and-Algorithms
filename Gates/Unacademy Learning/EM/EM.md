@@ -1418,6 +1418,29 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/02fe3a75-ab68-468b-b6ae-f72fe1bfb2df)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6683da44-52b0-4406-b9b1-9f70d8d6fc0a)
 
+## Problems-discussion(11) [18th Aug 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e197aaac-5bb7-42d5-9259-ec60f8b8fc98)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d17af204-5bb5-43b4-926d-34bf133db32f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5c1b084-4a7c-4e39-bac9-f754342653c3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27005c4c-4fa8-4566-84d4-7bac58e0e964)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91ad1486-93e6-42ed-be97-6d82084135c9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/56d33f27-8f94-4984-a491-176044421cdd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5360a866-814a-430a-ba15-e1b5ab6c3cb5)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/270ad553-2ec0-45e6-b673-6f8aaf3aff99)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aaf4f09a-d9a4-4a41-8ea3-19f7000567c5)
+
+
+
+
+
+
+
+
+
 
 
 
