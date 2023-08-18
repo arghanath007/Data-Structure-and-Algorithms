@@ -1238,20 +1238,56 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b46786bf-6a5f-4374-b771-6449478efd9b)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8a5fcfa-2b7c-4506-81d5-4c7d8231cd5d)
 
-* Two coins
+* If we toss **Two coins**.
 * Probability that **two heads(H)** will come.
-* A -> Random Variable(RV) -> No. of heads in each **outcome**,
+* Probability of **two heads** will come.
+* Favourable event is getting **two heads(HH)**
+* A -> Two heads.
+* A = {HH} [Favourable event]
+* Now onwards we will call it as **random variable**.
+* Till now we used to call it as **favourable event** and now onwards we are going to call it as **random variable**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ee352fc-6d49-4ca1-8051-12cc18915359)
+
+* A -> Random Variable(RV) -> No. of heads in the **outcome**,
 * HH -> Random Variable(RV) will assign a value of **A = 2**.
 * HT -> Random Variable(RV) will assign a value of **A = 1**.
 * TH -> Random Variable(RV) will assign a value of **A = 1**.
 * TT -> Random Variable(RV) will assign a value of **A = 0**.
 
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bfe88792-6e56-4cd0-a5df-8704dc3fa9ac)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1bdad320-2ff4-4f8e-bf5a-a030ace29610)
+
+* We have defined the **random variable**.
+* How we have **defined**?
+
+> **No. of heads** we are calling.
+
+* **No. of heads** in **each outcome**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5a2360d-6239-412e-a266-3fa05bfda530)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/961dfc54-e293-4b6c-aa14-bfe350fed308)
+
+* Definition
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8811154f-50ba-4386-a8e1-e920675db50d)
+
+* **X** is the **random variable** we are taking.
+* **X** is the **no. of heads** in each outcome.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c65c17c-267c-4967-9540-8406665883fd)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3f26613-8576-476c-8b6d-cd9e43f2f1f8)
 
-* We are segregating the terms.
+* **X** is the **random variable**.
+* **P(X)** probability of getting the particular situations.
+* Probability of getting **two heads** -> 1/4.
+* Probability of getting **one heads** -> 2/4 -> 1/2.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/604764e8-a550-4df6-a582-c231e1c1b846)
+
+* Probability of getting **one heads** -> It is simply **2/4** only.
+* That's what, we are segregating the terms like above.
+* That's why we have defined the term called as a **random variable**.
+* **X** is the random variable and the corresponding probability which is **P(X)**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe2dc544-90eb-4e96-97e8-130e2287a453)
 
@@ -1261,12 +1297,117 @@
 
 ## Cumulative Distribution Function (CDF)
 
+* **CDF** is denoted with the letter **F**.
 * F(x) = P(X <= x)
-* Where **X**, capital 'X' is **random variable**.
+* Where **X**, capital 'X' is a **random variable**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9f85e376-5a21-43e5-86be-b51d6e59065c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98c76907-6f38-44d8-9c8d-a3b56e417beb)
 
-* start from 50mins.
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/61ae8038-f65d-4e8f-a530-2dbc4b2f05e9)
+
+* Toss a coin example we are taking.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3976a0bb-43dc-470e-939f-6a06b162644a)
+
+* How to find **CDF**?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/13c93985-18e0-4a26-96fb-d09a5fe3d71e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bfacf03d-286b-43f3-885b-278827312c72)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/327f272d-be99-49ae-b637-64db845c0040)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd4bd5c4-2905-4619-a1bf-d5a37d701e72)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/982c4e7a-d4eb-4878-8e31-9b7e5e612500)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1b8d2d3-9fc1-455d-a1ea-e8f97cbcddef)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db47c4b7-12be-485b-a81f-f6221542b9d3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b55819c-03c8-41c9-beef-0c512aa15ede)
+
+* Exactly.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f89fa3f-3254-4747-bdad-56d24da9b7ad)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2898372-ab90-4a6b-927f-94a3b1200a29)
+
+* **CDF** is a **staircase** function.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/427107d6-d406-4621-bc94-50b9e619cc93)
+
+## Properties of CDF
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4ec57de7-85ce-4a71-90e4-081f0c5e7fbb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ed37aab-d804-4a3d-8d7e-b2b054f1fcef)
+
+* It(Positive infinite) is sum of all the probabilites. It is nothing but sample space probability.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c895549-c4fb-4af8-9b91-e3062fa4e37c)
+
+* Increasing means always increasing. 
+* Decreasing means always decreasing.
+* It is **non-decreasing** means that it can be **constant** and it maybe **increase** but never **decrease**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a345946c-6110-4995-8046-a61707331573)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a194d1d-8e64-4771-b7c4-3fea495b919e)
+
+* [**IMPORTANT**]
+
+## Probability Density Function(PDF)
+
+* **PDF** is denoted by **small 'f'**.
+* **PDF** = differentiation of **CDF**
+* f(x) = differentiation of **CDF** [**IMPORTANT**]
+* CDF = integration of **PDF**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a45efa03-d469-4c05-a63b-a7ad6bbfe9f1)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f049b9b9-917c-4c87-a1d0-52e3c7993d54)
+
+* Yes. Sum of probabilities upto that point.
+
+## Properties of PDF
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/245ecc17-56c2-4d1b-92fe-de588566d804)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/026fa7ef-ed44-4207-b0bd-3d0d5d1ec39f)
+
+* Area bounded by any PDF curve is unity.
+* Area property.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33214d78-b0f5-4cb4-8ce7-f8f9e9d69f68)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c082f62-d596-46cb-8fdc-cfa56f9b190b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d50aaac-cf4b-4131-b26e-4bb14a93b1d1)
+
+* [**IMPORTANT**]
+
+* If it is a **probability density function** then the **area of any probability density function** must be **1**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6eb1f809-cbc1-4176-a7aa-a8a26fd9240d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92f96e2d-1644-4926-9e95-6c89e18f899e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35b44e7a-f2fc-4fd2-9763-ee0a7735192a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b6f77143-29c8-4708-8a5c-5b99b7dacdd9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb9568a4-dbb8-493b-a167-2f6ada3c12f6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/319e4c22-c357-43fc-81ef-6e95757c3e0b)
+
+* Impulse function.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c45f3987-4874-4718-9963-0426812f748d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d56b0b3c-c8ad-4bb5-b88d-c712eb809026)
+
+* Need to remember the **integration functions**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a075c59-6e3c-4dc3-9de0-aca63fb45796)
+
+* [**IMPORTANT**]
+
+
+
+
+
+
+
+
+
+
 
 
 
