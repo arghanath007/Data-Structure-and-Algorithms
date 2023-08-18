@@ -1432,32 +1432,150 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/270ad553-2ec0-45e6-b673-6f8aaf3aff99)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aaf4f09a-d9a4-4a41-8ea3-19f7000567c5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd0a983e-2540-4c4e-b6fb-ec5a5ca3227b)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9304f576-9225-415a-9bd4-027bbab89bfd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f356019-6804-4839-a342-9f1287c53f8a)
 
+* Practice **Integration problems** more and remember the **formulas**. [**IMPORTANT**]
 
+## Mean
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/880821c2-b85e-42d2-bc03-abec1b794096)
 
+* Average Value
+* Expectation
+* 1st Moment
 
+* X -> Random Variable
+* Mean of a random variable **X**.
+* Expectation(E)
+* **p(x)** -> Probability
+* **x** -> Value
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6817654-725e-496d-93c6-1fdc870451f9)
 
+* In case of a **discrete random variable**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c18a96b0-13bf-4b6d-83e8-08ec402374ba)
 
+* **Continuous random variable**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/45de9dbf-a65f-4eab-bffc-255d9435def6)
 
+* Symbols for **mean**.
+* Sum of the probabilities must be equal to **1**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b7524e42-44b3-4dde-9d4a-156eea38e62c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22d2d6fd-672f-4333-8031-e1f10244c800)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c83684e3-7cf3-44b5-ab98-b1657ae6c097)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c00b6d54-dae1-4d95-b570-c8fde596bdcd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/45ad3c1b-7fc2-4a24-98c4-fcf24e12a38f)
 
+* Sum of odd numbers.
+* AP series sum. 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/23a06421-67b7-4e52-9b1a-24ac50f88188)
 
+* Sum . **n** natural nos. in an AP series -> n/2 * [2 * a + (n - 1) * d]. [**IMPORTANT**]
+* n/2 * [2 * a + (n - 1) * d] = n/2 * [a + l]  [a -> First term, l -> Last term]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9af4c04a-db68-40e2-a87f-a16c5b359c49)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5c98d9d-2ec0-4e31-a14f-32c2f7405d3b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/82c339fa-67fd-4ddc-9ad2-036a400d78bf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c01b50d-6a17-4b2a-9d66-43b80fb9e302)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b14f50c7-9bc4-4412-8fbe-8eef1a2cf417)
 
+* Sum of **odd numbers** -> n ^ 2
+* Sum of **even numbers** -> n * (n + 1)
+* [**IMPORTANT**]
 
+## Properties of Mean
 
+* Constant mean is **k** only.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32e8d4cf-1792-4b5c-8128-6eb68e6fb8d4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4537b597-056b-4964-be3f-5d6c210410b1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4ecfba38-bff2-4d93-974f-826f95e1dfe6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66aa0e19-0a9a-4139-9632-203aa0b983b9)
 
+* [**IMPORTANT**]
 
- 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2d25f674-618c-40c1-bcc6-43cb5b84023b)
 
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c9adcd5-ce21-4209-a3cb-b54342fff3ad)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9517b6bd-c9ef-4881-b9c1-8fa75881c11e)
+
+* E(X) = 1
+* E(X) = 5
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4342006e-fcb8-4dbc-af04-b3c8ae8c70ef)
+
+## Variance
+
+* Variance of a random variable(RV) is defined as:-
+* Var(x) = E[(x -m) ^ 2]
+* **m** is the **mean(m)** of a random variable(RV).
+* **x** is a random variable(RV).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7096ebcf-36ae-4add-a7f4-24e03e7ecefe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/de8176dd-a80b-4fad-8eae-f9fe723bed77)
+
+* **m** is the **mean** which is **constant**.
+* **E[x]** -> It is mean(m) only.
+* **E[x]** = mean(m)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/707032b7-e383-4a91-b36c-42f43534e172)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/718094f8-8aab-4600-881c-cae2901196a3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf2a131b-4687-4776-969a-3fe28f92c774)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b62560ed-de27-456f-8b7f-17b657664293)
+
+* Variance formula [**IMPORTANT**]
+
+### Standard Deviation(SD)
+
+* Positive square root of **variance** is called as **standard Deviation(SD)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df00ed26-cc04-4e7a-9dbc-798181b91152)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ceb7ac0e-701c-4912-b5e0-9f68b78886dd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/752ea0d5-4dfd-4fc7-942c-27065459959a)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c4522be5-cb7a-4e5c-a9c8-eb7617a81d14)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/572a0069-af47-497e-8187-fa4c0de0ebdd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4daa09bb-a492-4083-887a-c4223e37676e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7500c82f-0821-437c-93e6-0b9d5c51ecf7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e130510f-9955-4b44-9916-85c6df171ce7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05e6b014-93a6-4dfd-bfe2-66c0dcbe85c8)
+
+* Option **B**.
+
+## Properties of Variance
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/403f7b12-6f83-4c52-bcdc-f9195ee2dac9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba0983d4-48da-4077-91bf-19dfa01c4885)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be8e4181-5256-43b4-be72-feda98ae9f08)
+
+* 'cov' -> Co-variance
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c6768fe-6099-4c97-9a21-e254bf2a67cb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b1ae2599-230f-4f35-837f-1def8e778c74)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4673f816-e24b-4c65-8a36-d35e75006979)
+
+* Yes, for **co-variance** to exist.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae936dc1-33ba-4b00-9bd9-246d5a216485)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5785b81-53f1-45b7-b0f0-71d98b59e001)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f2abc24b-21ef-40ce-82a7-34e46bd0c6d1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/953611f2-84de-4202-9d1e-a0d839a9be69)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0b24c8e-1a60-4329-b6a9-ee53e5bffdf3)
+
+* [**IMPORTANT**]
 
 
 
