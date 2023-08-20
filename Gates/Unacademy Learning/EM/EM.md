@@ -1744,12 +1744,43 @@
 
 * [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab85a788-f505-4ad9-807e-a98e6103facc)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ed427a4-ae0b-4cee-a334-82452bb97593)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa8a7bf7-1abc-48ef-9488-aecfe1bd4f82)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71139879-80b9-4493-a453-779c60009474)
+
+* A -> First question
+* B -> Second question
+* x -> Marks
+* P(x) -> Probability of getting the marks(x).
+* x = 20, not possible because if **first question(A)** is wrong then the student gets **x = 0** marks.
+* x = 10, the student has to get the **first question** correct and make the **second question** wrong, which is **P(A intersection B')**.
+* **A and B** are **independent events**.
+* x = 30, the student got both the **first and second questions** correct. So **10 + 20 -> 30** marks, which is **P(A intersection B)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9201e112-e889-4827-9e37-b72573a8a2e0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97b1b8d8-0a8d-45b2-9f46-3d5a61d18e59)
+
+* Expected marks(AB) = 16.
 
 
+* x = 10, not possible because if **first question(B)** is wrong then the student gets **x = 0** marks.
+* x = 0, first question(B) has to be **wrong**, which is **P(B')**.
+* x = 20, the student has to get the **first question** correct and make the **second question** wrong, which is **P(B intersection A')**.
+* **A and B** are **independent events**.
+* P(A) = 0.8
+* P(A') = 0.2
+* x = 30, the student got both the **first(B) and second questions(A)** correct. So **20 + 10 -> 30** marks, which is **P(B intersection A)**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/919092b4-ca50-4e47-ac05-a9ab6d576344)
 
-
-
+* If **first question** is **correct** then only we will see the **second question**.
 
 
 
