@@ -1782,6 +1782,33 @@
 
 * If **first question** is **correct** then only we will see the **second question**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/396e22e2-c011-4a7d-9458-187fb8df203b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/639fef74-7ddf-4623-bd3b-6d09ada81454)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ddb93b4-f6ce-40e9-96dd-a84539a78213)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c31933f-673c-4877-a7f9-08e5c8f7e0e8)
+
+* Option **D**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d845ee5b-da6a-4c89-a0d5-3d7e1804f84f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5abba4f-2ade-4c6b-9914-6927e6a77711)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6956c7a3-361b-4451-8d0a-60e5825fa254)
+
+* Yes.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
