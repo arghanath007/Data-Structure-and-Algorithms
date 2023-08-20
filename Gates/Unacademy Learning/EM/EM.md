@@ -1796,16 +1796,34 @@
 
 * Yes.
 
+## matrix-algebra (13) [20th Aug 2023]
 
+* **x** is the no. of letters in each words.
+* **P(x)** is probability of getting the words(x).
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d1cfee3-f336-4301-82ca-bf97f6a66aac)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f8269451-bb20-4927-91d3-1b633d88452e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37ee0c41-12dd-4023-80a9-5995bbb45466)
 
+* [**IMPORTANT**]
+* It is a combination of **AP and GP**. It is called as **AGP**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fed08a61-c497-44f1-8f09-e0091068754d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/28778e9d-8be5-4eb1-9060-1dbe31ade4da)
 
+* **AGP**. [**IMPORTANT**]
+* x = 1/2
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ca722ca0-ccd7-4630-b9da-06971db563b4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9022e1ee-0b02-4447-9005-624e1edde9a6)
 
+[**IMPORTANT**]
+* **p** is the probability of getting a **head(H)**.
+* **q** is the probability of not getting a **head(H)**.
+* N -> No. of times coin be tossed to get first time head.
+* How many times we have to toss the coin?
 
-
-
+> **n + 1** times.
 
 
 
