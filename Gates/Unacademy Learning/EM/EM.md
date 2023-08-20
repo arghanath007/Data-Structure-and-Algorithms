@@ -1915,7 +1915,15 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed8d70ed-a1c4-4f95-a73f-af19377a64f9)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c3f5a23a-bb02-49c6-b75e-ba99924e5ff6)
 
+## problems-discussion (14) [20th Aug 2023]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec99c113-de05-4f7a-99e9-ca4810814ace)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c95ef488-2d3f-4e8c-8d9e-4163a1bb5bcd)
+
+* **mean and variance** are **same/equal**.
+* SD -> Standard Deviation
+
+## Uniform Distribution
 
 
 
