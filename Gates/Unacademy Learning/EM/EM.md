@@ -1925,14 +1925,61 @@
 
 ## Uniform Distribution
 
+* **k** -> Constant.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83da5e96-aaf5-4954-8289-d4de1c3d16e9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63fe7779-d292-466e-ace2-da4a562a9405)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b69d34a-f3d3-4c09-a83e-5f9d69bf4ed0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/275efb52-f29c-48c8-be14-71ef9a76901e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1bcc5cc-b6f2-4bb6-af29-5e07341047ed)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/68d22667-27d8-4826-b305-41c3969c5c4b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/68bbf756-a956-47d1-bf5f-d1fd5a8dc5e2)
 
+* **a** -> Lower limit.
+* **b** -> Upper limit.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a7db785-8791-410a-93ee-e0e7726afcce)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0deacaa4-de1c-4b26-a01d-168c32728a46)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a7c79a0-76d9-462e-b5ea-1d70a24cdaaa)
 
+## Exponential Distribution
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9f6dd66f-5138-4263-828f-29147fcfc48b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c00c7022-be52-4c85-9d94-7495707b62d6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c81d000-f75b-4162-8ebb-a492e8d1f617)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05ca2c8f-6e28-49c4-9849-b0b0fab557b3)
 
+## Normal Distribution or Gaussian Distribution
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a8e8e7a-388f-484c-917a-339ad193a80e)
 
+* n -> infinite and P -> 0, then it is **Poisson's distribution**.
+* n -> infinite and P -> does not tends to zero, then it is **normal distribution**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c4152a6-fdf7-46f1-8304-e1cc6e8c79f0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5491841-724a-42a0-9ebd-8173326b3be3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8eb624b0-d738-41c5-becd-1a21064e750f)
+
+* Normal destiny function
+* The **area** of any **probability density function** is always **1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4068379-b8d2-4c8c-bf25-d8f20a6be1e3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf15d88d-c359-49b4-8280-dbbc06e2e78e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/223ed72d-86a9-41de-b7aa-eb9c9ac1c42d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab42fb0f-5431-40b2-88b0-1be1120ea562)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/67ae1837-e238-429e-829d-6b713f51d9d5)
+
+* mean(miu) = 0
+* SD = 1.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9cb828ec-09b2-4dc0-8784-e81f486f9095)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a2e1b0c-e944-4f69-bf1b-7ca60d4ea3f7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/11d30f2a-2962-40ff-baf7-dad7866eec61)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa62331d-afb7-4730-8a41-7dd292ad1dd9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6fd1f811-72a6-46f2-89df-d3c834a7113f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/545ddc04-da5b-4f28-8c4a-2d83659e45dd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/762ca9d4-901d-4b47-9186-7edfb64b8a60)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/485fa711-5c47-4e24-8225-7d022266c2b3)
 
 
 
