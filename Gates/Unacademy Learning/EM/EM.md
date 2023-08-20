@@ -1825,20 +1825,95 @@
 
 > **n + 1** times.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1fb5a800-dd9b-47b6-b464-919edebd8477)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4117445f-ab43-4990-b8be-fa14c26404ae)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22b9c898-47f1-4103-a104-9970e1c47cd3)
 
+* One time we already tossed and then we tossed for **n** times. That's why we tossed for **n + 1** times.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/872ea76c-b7a9-47ac-a3b9-fe374efed7a8)
 
+* p + q = 1
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65e8d6eb-098e-423a-a999-91314ef941f5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e6ef911-4609-470c-8a41-acc6e276ffbc)
 
+* Yes, we will keep on continue till we get **head**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e1e2b20-2da4-4a9e-89d4-3681c3b2f985)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b3d695d-9c46-4653-9f2f-391f6c41a2ed)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9f9bf482-46bf-4088-861c-dd4aec8d7dc5)
 
+* Yes
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/209b1a67-893c-4ec9-a5f7-fd3b6e352d26)
 
+* Getting the **first head**.
+* Until we get the **first head**, we are in the **first loop**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b3097e77-eb3c-45eb-b429-37ed7035b578)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3cf67052-89f8-499a-a3f1-584e6538bf2c)
 
+* The loop will continue forever.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6725f3e4-404f-4cf9-9b47-c36d08e84df1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71e595a7-cefa-4616-ba84-c43e16783830)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc5c9b25-7d16-4880-a2fe-d37db34bd304)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2625383b-8c99-4beb-b577-350104a2d495)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dfe88bea-700e-42de-93cf-9a0a73c836e1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63148390-c694-49d8-99b0-643abf6f0574)
+
+* **-60** because we are **losing**.
+* **positive number** because it is **profit/gain**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/06012408-b982-4200-b8cf-7060df8d2d52)
+
+## Poisson's Distribtuion
+
+* **n** is the **no. of tries**. It is tending to **infinity**.
+* **p** -> probability of success is very small. It is tending to **zero(0)**.
+* When we multiply **n * p**, we get **mean(lambda)** value.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d0b26f7-472e-4e4e-bc8a-b3ccc9094928)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c4901d9-eb17-4874-8040-1bb0244ee1c3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa32bb97-d89b-4559-9bdf-4f4a80a6682c)
+
+* **n** -> No. of trials
+* **x** -> No. of occurance of the event.
+* Lambda -> mean -> n * p.
+* P -> Poisson's distribution.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2f17874-cafd-4728-b43c-9c25d8b37be0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30964b5a-b4aa-4489-ba49-d9f606c48b9c)
+
+* Poisson is approximated/limited estimation of binomial.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ee5dab5-99c5-48cf-b710-7d41edca1e5b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/87a6fcb0-d296-4666-a534-413714e169af)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bbfc09fa-9b6b-4fce-9e81-920161dfd615)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d5f625ce-ba16-4d76-92bf-8f3905ee97c8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/38a9fd2c-89bc-4283-91a0-d5f870aafaba)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db85d193-4786-4b21-bbbf-35b65406d5db)
+
+* We found out for **one packet**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9b728ce-c85d-418d-beeb-80dc6a3bd05b)
+
+* For **10,000** packets.
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb389548-0cd6-4b20-9bcf-b8af85a85d99)
+
+* p + q = 1
+* So, we can say **binomial** and use **binomial**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/210c62f7-2e57-41e6-810c-eced06eafa3c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ade2725-2526-43b8-8d86-e4c83e5a424a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed8d70ed-a1c4-4f95-a73f-af19377a64f9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c3f5a23a-bb02-49c6-b75e-ba99924e5ff6)
 
 
 
