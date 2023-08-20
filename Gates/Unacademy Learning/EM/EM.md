@@ -6,6 +6,12 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9fd3b380-4375-4916-a697-d61c777a7552)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f52e707-883e-4f93-a9e1-de7b3b10e057)
 
+# Formulas
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b09754a4-5790-47b1-8b5c-4284c38ce313)
+
+* Sir's maths whatsapp group.
+
 ## Course
 
 * Link -> https://unacademy.com/course/comprehensive-course-on-engineering-mathematics-928/HLZ0BPR2
@@ -1664,11 +1670,79 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/18d0e8a7-0de9-4f23-b1d1-2858d3c12733)
 
-* **B** stands for **Binomial**.
-* x-times.
-* **n** is the **no. of tries**.
+* **B** stands for **Binomial distribution**.
+* **x** is the no. of times we need the event.
+* **n** is the **total no. of tries**.
+* **p** is the probability of occurance of an event.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f174ff6-4e94-4aec-b17a-8c8b2d0867b4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/094f3ddc-82dd-4e8d-8ab4-3ef949f7a41d)
 
+* B(x, n, p) = nCx * (p ^ x) * (q ^ (n - x)).
+* q = 1 - p.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2b2382a-4b46-4162-96cf-b6b91d4a6983)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e31091a-c0f9-4af2-9bb5-de41461d2346)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/659735aa-229a-4fb0-b7a5-cb4652e36728)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31cb6af0-dcb1-4ab7-9a8e-263feb6571a6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/326c0610-5c5a-43c3-95e6-fc923a8c8619)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/729a9419-c110-48d9-8fa5-5bfd5d9ae012)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12ae72c5-197c-4394-a9c5-475290878c5f)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4875f64-ceb7-491b-a842-a9423cbcd979)
+
+* All binomials can be done using **PnC**.
+* When two possibilities are there, we can simply go for **binomial**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8836dd8d-d0d7-4351-b627-a7f48e50524e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80f1c753-ecd7-4dbf-9c3c-1a7d9ebb7746)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5cff6bb-3e62-4cdb-814f-b85b1d7710eb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34eb924a-8852-4b39-9364-8e80c533b8c9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80481066-8118-4a28-b2a0-87a3037adbdc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a5aea53-362d-4a8b-acbc-20c03fd12ef6)
+
+* We can't arrange them.
+* Shuffling is not possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e599e388-c801-4493-9165-2c443098944d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34d60b5a-2832-4bc2-8a51-e8f2c1693e80)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0be2ae36-76e0-474c-a2ce-f1f84f8c257e)
+
+* We don't want any **defectives**. So we did **5C0** and **(0.1) ^ 0**. We want all **non defectives** so, we put **(0.9) ^ 5**.
+* p -> Probability of defective
+* q -> Probability of non-defective.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc1c4380-afbe-4175-b041-36046339bb32)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3abada7f-6b3c-4412-aca8-c055af6b1de2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/200cba0a-05e1-4af9-bea8-382728ffa2c1)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc6d748c-22b0-4218-9802-0455fc825ee9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d5a253b6-e604-4ed9-b856-2b7e74650a03)
+
+* Sum of **odd** binomial quotient.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7ba7fc6-d781-4961-bbed-465148d40c34)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/48f1e5c6-4352-4e75-b2cb-7cc69be30251)
+
+* Sum of **odd** binomial quotient formula [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/abf63dcd-5410-4286-a34d-977ddff1d6c3)
+
+* Sum of **even** binomial quotient formula, same as **odd**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/29f85b4a-d819-458a-94ba-09f8ea06a527)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2e68e27-7d80-4142-a4cd-f8e8a4c427c8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e57c036c-7ebf-4ba2-8d65-e621c768c9e5)
+
+* Same as **odd** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a255fffb-cc62-48c4-8bc7-8c7cbb3728f2)
+
+* [**IMPORTANT**]
 
 
 
