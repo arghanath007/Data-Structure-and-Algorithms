@@ -1577,14 +1577,96 @@
 
 * [**IMPORTANT**]
 
+## doubts-clearing-session (12) [20th Aug 2023]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44c62f59-d982-4a3d-8c0a-6c394aef8ef8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9072cc9c-dab3-45a0-aa83-f4a8ba856fd4)
 
+* cov -> Co-variance
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c782982d-e708-41dc-8590-369a5737cc49)
 
+* [**IMPORTANT**]
 
+* R -> Variance
+* Variance of a random variable(x) which is **always greater than equal to zero(0)**. It can never be **less than**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2bedfac6-32be-45b8-bc86-f0b1c3c5f120)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6bfdd9c6-fc08-421b-a96a-dc4e48b5b262)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/99f22319-0768-41b1-9854-5a37836ad0f0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d9b29608-e387-4976-a251-4a9a90dd8e6a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4ca594a5-1a9f-4b64-b9d3-96d08deb4728)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/43846fa7-821e-4934-a1ac-646efa0360da)
 
+* E(x) = 0
+* E(X ^ 2) = (a ^ 3)/6.
+* Mean -> E(x)
+* Variance -> E(x ^ 2) - (E(x) ^ 2) -> (a ^ 3)/6 - 0 ^ 2 -> (a ^ 3)/6
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91ef5cfb-812e-425b-995d-6d39e3ed6b44)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/96d864be-dc67-42ae-af06-7ff68152fc61)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae8d72e8-71d7-4734-b394-8478eb934303)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cbc99d8d-443b-437d-a292-8729ee08c7df)
+
+* E(x) = 0
+* E(X ^ 2) = (a ^ 3)/2.
+* Mean -> E(x) -> 0.
+* Variance -> E(x ^ 2) - (E(x) ^ 2) -> (a ^ 3)/2 - 0 ^ 2 -> (a ^ 3)/2
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f6e7887-2b15-447a-9664-be95d57ed31b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a4180f18-0745-4caa-8de4-a67f3e974f94)
+
+* Option **B**.
+* **Constant of variance** is **zero(0)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/905fd715-ea6b-4fe5-9027-74e65f2965d3)
+
+* [**IMPORTANT**]
+* As **X and Y** are **two independent random variables**, so their **co-variance** is **zero(0)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e48ff174-ea7b-421b-b308-a2d20b06e66f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e10f6cf-a937-4bbc-be1e-dad770dd7ad9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e5c5416-958a-46d3-83a8-abdb5034d206)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2806cf35-a2f0-453c-a81b-b6506aae920b)
+
+* Integral formula [**IMPORTANT**]
+
+## Probability Distributions
+
+* Binominal
+* Poisson
+* Uniform
+* Exponential
+* Gaussian(Normal)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/43172c64-5c15-42d8-b5b2-f50c87f95c2b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c607395-e950-40ae-91eb-06324c81c96d)
+
+* Normalization.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/056cbf5b-93c5-40ed-be93-8d886ac63941)
+
+* Not in syllabus.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0eff8c3-023e-4aaf-9b57-08406c82c907)
+
+## Binominal Distribution
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/218c1354-aa8d-4740-aebb-bbf4870df7ed)
+
+* Two possabilities, **0 or 1**.
+* If we have **Two possabilities** only then we can go for **Binominal Distribution**.
+
+* P -> Probability of occurance
+* Q -> Probability of not occurance
+* P + Q = 1
+* When we have **P + Q = 1**, when sum of the two events is **1** then we can go for **binomial**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/18d0e8a7-0de9-4f23-b1d1-2858d3c12733)
+
+* **B** stands for **Binomial**.
+* x-times.
+* **n** is the **no. of tries**.
 
 
 
@@ -1655,4 +1737,4 @@
 ### Misplaced Images
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c5c186c-0774-48bc-90e7-c045abad21fb)
-
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6664bfad-a06f-4009-9dcf-57c30ddcc6a1)
