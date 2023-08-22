@@ -2104,6 +2104,13 @@
 * Lower triangle matrix.
 * Above the **principle diagonal** all the elements must be **zero(0)**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d06a1727-21d5-49cc-9cb7-a2b524413d12)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57ed4886-5756-4678-a21f-399d20000cc7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/452b7173-6098-4f66-8b29-58a000c62082)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/859f6337-a5d3-43ef-b5bb-03159fe23e3b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/46239971-e2cc-45d1-90ad-2978bebc5060)
+
+* Upper triangular matrix
 
 
 
