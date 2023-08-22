@@ -2058,6 +2058,71 @@
 
 * Row matrix
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5a5a8f9-633d-49d4-b360-8bee7f2f0468)
+
+* Column Matrix
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fdd7c204-328d-420e-9624-c7244998ec5f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f3a0d072-ecab-4d76-8779-aa3147d11acd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c6ebab1-973a-4ffc-aa29-fcb3ab4739d0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6734009f-f632-4bc4-8f95-51defe2c6b26)
+
+* Null matrix or zero matrix
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f8d7688-ab12-407a-b6b0-068618407f03)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2450fa1-eb01-4e0f-b6d3-fe0d1b588370)
+
+* Identity matrix
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6eb77045-c5fb-407d-992d-dfddd5ba292c)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b8cb8e0-82e7-409d-92cc-ec435f88e0bd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4210496a-9d8b-4847-959f-2cfa88999be9)
+
+* Diagonal matrix
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9844a8f3-4964-491f-b428-9c8e0476cc1f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d0277aa-8050-40eb-bf40-36e58d705b2e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81413ac7-27f2-49b1-a048-8fcdcd33dd56)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f3a96e85-017a-4301-86b3-87f06deb0914)
+
+* Scalar matrix
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d7126c2-df08-4283-8031-6ce017138a20)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/51f1f915-47a5-4dca-9741-c0db9d84139b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c8d0eff-f1e8-4ccb-a8ae-7a56a85e73d1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5f23e28f-fcd0-49c8-a51e-fa280258486d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b60153d4-433f-4b7f-845d-16ddaf642ab2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/789a50be-ffc6-4eca-8477-490e22aac8e4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0a8a07b-4eb5-4e78-a00f-d1ed0e9a6e7a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/faef702f-06ac-493c-8334-f32bf0402864)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa72cff4-32df-4d63-8c1f-376faeb177d7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1210c66c-ce4d-426d-8012-3e4b763b3f15)
+
+* Lower triangle matrix.
+* Above the **principle diagonal** all the elements must be **zero(0)**.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
