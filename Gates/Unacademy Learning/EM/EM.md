@@ -2501,8 +2501,26 @@
 * [**IMPORTANT**]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d63430a-3e7a-485c-88e1-90613c7afd7d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f88371d4-572c-4611-8721-252d5be3a7e9)
 
+* Cofactors of **R2**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35a1d4d4-66f8-4109-a382-a9abdac18c66)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b78c1d5-7d5c-43fc-b20f-f21aa19bc535)
+
+* If we multiple with **different cofactor** then we will get **zero(0)**.
+* If we multiple with **same cofactor** then we will get **determinant**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1aa284d7-52dd-41ab-ab9c-40ce9d80cb4f)
+
+* **m** is some **power**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9f69b3dc-e221-4431-a5e6-6e63728ff9d7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/167ce630-29d3-4e6f-968f-f2dae66596bd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be3b08f6-00af-486f-86a5-f80349f47dc8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d5053d74-f0bf-444f-b2be-aba62cfae65f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c0de001-8396-428f-9089-87a621ba62f7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e03c3c07-8a98-4909-9b01-06e68c791f89)
 
 
 
