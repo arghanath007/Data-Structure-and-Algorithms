@@ -2359,6 +2359,116 @@
 
 * Next class.
 
+## doubts-clearing-session (17) [22nd Aug 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e018f4d6-c15e-4afa-b27a-820774314dec)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f4bafefa-39a5-47fe-bc6e-b22ba5013149)
+
+* Equality of matrix
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d02e4755-d729-4b48-96c0-44e593ae9e54)
+
+* Algebra of matrix
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/928c1fbe-ac3c-4c0d-afb3-7da60a57e451)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c499a56-3e35-4604-9eb7-0a1c250a8639)
+
+* Substraction of matrix
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19b5fcb2-5ca3-481b-bb0e-907220a83029)
+
+* Scalar multiplication
+* For addition of two matrix, the order must be **same**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a2a6fef-9122-49b8-a26f-7793bfa4d8c2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c6e787eb-e095-44e1-bc3c-a6c2c7f160d4)
+
+## Multiplication of matrices
+
+* Condition for the multiplication to exist.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4ce18a86-e6fa-4f5e-aeeb-6cdc8db99977)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5080b877-0d3e-47c1-9ed5-4bd81afa22b9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e76190e-48ca-489f-bc71-a79a8b013a31)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ddda9614-94a3-423e-a3c3-43dece31ab69)
+
+* Matrix multiplication.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf72389a-7b6b-4146-8dd5-6c2aa8068720)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c038469-6913-43ca-9bc1-10598ed4b260)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c69eb67-0ce9-4289-b081-ca5109cfec5f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/daef4f2b-1e79-4763-87c9-4caed8e726a2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b02ce42-9c1f-4ab9-a3e7-be735297c2d0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/671581aa-7db8-4e30-8a34-cf0854523cf6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ad63820f-378b-478b-a430-6ef2fd82b233)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e48aaa85-81b1-4203-8172-648710083db9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/94f0d596-be72-44e6-bf06-cdfed189a45d)
+
+* Option **D**.
+* We are not finding **determinant**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e479efc7-f270-4f83-ab42-f1dc2cdb3a35)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1e097b5-55c6-4c2c-80e9-6aa754d70500)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8335911-c313-4cc2-a79f-1c9d548fc143)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91077418-63ef-4eb2-b39b-8c46c2dcaa18)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1fc01914-4cf4-4ce8-af34-413f8c01ccbf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c5e3abc9-3772-43aa-a4fc-95a5d22d6a11)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ced5b2f-ca10-42e6-8095-695581b7d0bd)
+
+* Trace -> Sum of the principle diagonal elements.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8498d529-c394-4a20-a9a9-17b02805c027)
+
+* **I** -> Identity matrix.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c209376f-06f2-4b6f-942d-29e5d40161ba)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/99880b82-bb3f-451e-b5af-af5daafc154a)
+
+### Questions
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8087b0b1-fb14-40bb-8530-f684d6756e7e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6330774-4858-422a-bddf-5e216261acd3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72cbf3e3-0ecd-4688-a349-9bd9a58d1a18)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1291da92-7819-4fc1-96ac-0cffe40ab51a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/755e9926-2741-4e5b-9ac8-c99dba65da48)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5217b3fb-9c58-4268-b74e-e5461e16e298)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c89224d0-fe85-493f-9d94-6a1b415af3f7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/259ffb13-b714-4514-9f7b-b4d7595b7c15)
+
+* If **A and B** are square matrix. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e4fb72c5-c3c2-4ca1-8322-70f6221a348c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e41cdde6-1a22-420c-8b98-31e2231f0fce)
+
+* It is a **skew symmetric matrix**, as sum of all the elements in the matrix is **zero(0)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af02372c-c216-429d-acbc-9a62733eaa70)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d892fa9a-ae67-460f-aa94-bdaf17ef2a3d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/28ba98e4-d936-4a5d-8856-a142746ac841)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a9604c3a-51c6-46d2-bc17-198c4711366e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab62f9fa-5807-4826-b9c5-82904df68598)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30c1bb5b-0551-4124-82ee-3943e91ffeda)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2adffdc-e338-4a39-aa8f-3d663ad353cc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a0a7f14e-9f09-493f-bdfa-87de8b1c5be0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/542cdb6d-7a97-4431-8b5b-71542a388460)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6abfd9ea-7612-4c78-a519-29fc57a040a6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/973bd748-52b9-4a38-bc95-abbea05a0a21)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/23133fa2-9d10-42f9-b793-9ac9d74e3832)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a4fc61d2-507d-4b2c-8203-a0f846f2d579)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cdb4f705-bdd2-47f9-8bab-79e86f33274a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5234709b-812a-4318-8fbe-0a50527b28e8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/82f05337-75b6-47e2-b21b-0e0c0be0c47c)
+
+## Determinant of a square matrix of order two
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2fab10f9-468f-4f90-ae92-f80255d7537f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5c76ec76-8fe2-469c-9be4-93e4f8588294)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/43544833-bdb6-4a98-8f37-c1fe48455c78)
+
+* Minor.
 
 
 
