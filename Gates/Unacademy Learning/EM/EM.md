@@ -2521,7 +2521,18 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d5053d74-f0bf-444f-b2be-aba62cfae65f)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c0de001-8396-428f-9089-87a621ba62f7)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e03c3c07-8a98-4909-9b01-06e68c791f89)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f83fd6b-ea97-4bf8-b5da-7c3019fe8175)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1299e45-7a9a-4d23-98c4-b6563dfdf09a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/10e66f7e-6385-4bc3-a74d-7ba1c0d72062)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf723eaf-52a2-4adf-8843-2af513ff70be)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac52f738-8a97-4de2-9d11-66a7863173f7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f06910cf-b554-408d-8777-f2bfa9768dc4)
 
+* We interchanged **R1 and R2**. So the **-4** becomes **+4** and vise-versa.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb2bd3ec-6d6e-4399-94fe-0036133e67b7)
+
+* **k** is some **constant**.
 
 
 
