@@ -2534,6 +2534,13 @@
 
 * **k** is some **constant**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/55b554e7-535a-4cbb-8979-0e901914971b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83c8102e-0311-4950-93bf-e910e4cc7472)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/226ab7b5-d33b-48ca-90cd-2720675ee4d5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dbe15133-3172-498b-801e-66f04784060b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c267ff9a-525b-4eec-907f-a020f18504f5)
+
+* Start from 1hr 40mins.
 
 
 
