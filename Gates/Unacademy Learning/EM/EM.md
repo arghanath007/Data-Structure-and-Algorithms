@@ -2470,13 +2470,37 @@
 
 * Minor.
 
+## eigen-values-and-eigen-vectors(18) [22nd Aug 2023]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f31f8670-5cc8-4ff7-8202-7271644eb825)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a828b87b-9001-4e83-8143-9acc2a33bfdd)
 
+* Minor
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/116dbbb0-b46d-47c4-8afd-93673fe27e71)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8c2112d-fa77-4e05-b367-a9be4d3fc3b0)
 
+* **Minor** we will get, after that we can find the **cofactors**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/869b7e9d-5867-4f95-8913-ce062de3a4b2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6573c3d6-2bcc-4558-94e6-4b9f2d0fd7b0)
 
+* **Cofactor of A32**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0cf998b1-19a5-4c74-bb8b-3eb58ebcdc68)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/729c12b6-ccbf-4601-a2a6-b682268854f5)
+
+* It must also come **170** only.
+* Any row or column we have to expand.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5811b318-bd8e-455f-88f8-e429a1c0a066)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d63430a-3e7a-485c-88e1-90613c7afd7d)
 
 
 
