@@ -2020,7 +2020,43 @@
 
 * Option **D** is **not correct**.
 
+## doubts-clearing-session (15) [22nd Aug 2023]
 
+## Linear Algebra
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ada2cc9c-a36b-4347-912f-db1e7ef1c7bc)
+
+* Linear equation.
+* By looking at the **powers** we can decide if the equation is a **linear or non-linear** equation.
+* Variable power is **1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cff79b26-af70-4797-96f1-4f3fe24455f7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/11c0ec19-4754-4e2c-b784-4ea0e0215b06)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/458bb6f1-59aa-4369-a7ed-77e68663faa6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/969c9109-2339-43c6-bba9-e9fbc923215c)
+
+* Order of a matrix -> Rows X Columns
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92602df0-b670-4fed-ad22-92212b219be4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/00b98fb8-cf50-4abb-90f9-9c63c994577c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e2ee6a63-b364-4169-a0e7-20296219d551)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1de712b6-91f7-47d6-b8a1-a8105099332f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d5e395ef-88a1-4afd-b9aa-dfea09f3e038)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/224ed14f-06ab-467d-90cf-1d7239d42d32)
+
+* Types of Matrix [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32479e2a-f85e-4e34-b7e5-ad2305569322)
+
+* Rectangular matrix
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ceaa5281-e4b3-49d7-b7cf-091b0db3c8cf)
+
+* Square Matrix
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e027e0f7-6e64-4717-9153-222ca169ad1b)
+
+* Row matrix
 
 
 
