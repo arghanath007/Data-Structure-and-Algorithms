@@ -2112,11 +2112,87 @@
 
 * Upper triangular matrix
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/96d09207-7f12-47a4-be51-216857b47588)
 
+* Real matrix
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6cc116cb-bbd2-48e9-a595-a496d66fcc92)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e2b3d034-ff0f-496c-b99e-2da01102dd3a)
 
+* Complex matrix
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4423fac1-8e22-41ae-9d43-8718b041e7d1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12308c00-f2ee-4073-8ae7-45deba7b05a8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b16a63ea-884d-4e17-9ebf-c59f7831691f)
 
+* Diagonals
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/adba332c-4b93-485f-a96c-513949bdc9e2)
+
+* Trace of a matrix.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/00474961-789c-4039-932b-bc667af1a868)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8179c41-ebf6-42c3-af2c-2eeb2c42d673)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b9235bf7-ffb5-455b-9b1b-4b8306c4f40a)
+
+* Transpose of a matrix
+* Transpose can be for **nay matrix**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/14a72d3a-acf5-4639-b7b9-a76ed8b9d571)
+
+* **n** is some **constant**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc4f66be-7b04-42db-8552-2849b58c9bfe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1bc6cb79-f10e-426e-8015-b6c3c1124539)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ca29e19-b90a-4b38-b8bb-b4cf3cfc1b64)
+
+* Symmetric matrix
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1964968-568e-48bd-afd7-c0cc42d9aead)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f0f25a5-87a3-4fd8-8bfe-6ef93b652559)
+
+* Skew-symmetric matrix
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e28b5dd-a543-42ca-ad22-0a66947e217c)
+
+* Principle diagonal must be **zero(0)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/721d0d9b-767e-46b8-b5ea-57194bfd6ba4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0383bd88-d081-4be0-85a6-23a3f945e7c6)
+
+* Sum of all the elements is **zero(0)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/93c890cb-92b0-4343-bd7c-063f1dba6861)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e52c3b8-9728-48ff-8016-0379febd07b6)
+
+* Note [**IMPORTANT**]
+
+## Properties
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/82558628-3904-42e2-8cba-5fb9c96d6079)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b573250c-9e03-459b-8406-a3014fbb518b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/251a85e9-ab9b-4e96-9132-ce0ddf538e76)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3a39c2a-f77e-4e79-87a6-70846213be3b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ed52eb5-4bf8-47c1-9ba5-5a4edb0b197a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1519e2d-b964-4b42-bc6c-41d87f27aeba)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/00a5af54-91f3-48fe-aeb1-846b4a562ee7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65fe38b0-8b3c-4cbd-aafe-6df30211044e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b3e2711-f852-4dd0-9832-a5e7328304d4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d1a9638-bca1-420e-9ead-527f33ff372a)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/525a3bc3-ee63-4a83-a3e8-f538919499fe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d748c22f-2785-4ce2-a4e4-d596275ebe97)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/072771c2-1a09-4a3b-9fae-0add70ccc8db)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fda7a3ba-05de-46ab-a06f-6bc6c168791f)
+
+* Both are **symmetric matrix**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/47f91fbf-723c-4092-b850-0bf817d97aa4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/907f4dee-9935-4ba4-bc67-8eaec816f34e)
+
+* [**IMPORTANT**]
 
 
 
