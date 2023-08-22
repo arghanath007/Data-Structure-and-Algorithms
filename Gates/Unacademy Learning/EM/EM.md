@@ -2194,6 +2194,76 @@
 
 * [**IMPORTANT**]
 
+## determinants-and-inverse-of-a-matrix (16) [22nd Aug 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8184f281-a40e-4186-8c16-121e2def1f84)
+
+* Orthogonal matrix
+* If the matrix is an **orthogonal matrix** then **inverse** is directly **transpose** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/249f367e-c1d5-42d8-8eb5-309657e1dba7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aec85f52-f120-4d36-a097-8f10ffb0b3d9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f3e1492e-9317-44e1-97de-3e2687c09c97)
+
+* Examples of **Orthogonal matrix**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e757c4ce-24c9-463b-8efe-08ddebf0accc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/613326e0-85c8-4e17-9462-f3b41b829792)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e8fff89-899d-4b44-bc1b-2f594c9d1562)
+
+* Note.
+* If the matrix is **symmetric and orthogonal** then the **inverse** of the matrix is **itself** only. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32f9392f-a481-4151-a855-0f385977f0e5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19413205-1dc2-4749-93ae-c70919329471)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a9c26db9-edac-475e-b21e-02f9b07c4820)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb3d15d1-3be3-4dfc-a173-631f30095c15)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ffd7c3bd-169e-4c70-b0d1-d21ed60c22f5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5cf3809d-165a-4441-b69d-62603de7a6a1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/281d9664-c073-4110-bf98-07f7b2c69bae)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6adef140-319d-4132-91da-7ebd965368ac)
+
+* |A| -> Determinant
+* Determinant is only for **square matrix**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eec104b8-e45f-4896-9483-b220e4e23df3)
+
+* Inverse of a matrix is **itself**. It means **self inverted**. [4th point]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b9b4637e-ab67-4e29-8b96-ff8a6d4a26c1)
+
+* **A'** is called as **conjugate** of **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8bb47ebf-3b74-49ba-ba22-4adab52d575e)
+
+ * Properties [Don't apply de-morgan's laws here]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f42bbefb-c5ec-4bff-85cc-636dcfebf9a8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bd8b0816-672c-454e-ac3f-cf1f8ad8c340)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63c9a5dd-1af0-4d34-91aa-58fc9c92be4e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8b71260-223e-4ecc-b9f3-f280518c34a6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/56a6c379-5b6f-4071-a2b5-0dce7871e87e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b188b544-2bcc-436e-9b5b-59a999bf163a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ffe9aaf-f7d1-45a8-83c1-06427da9fdb0)
+
+* Transposed conjugate of a matrix
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/224f33e4-166a-4a20-a9eb-4fe182dcb63f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0934a6ac-3346-4609-8cb4-160ee5863e1d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1420e2b0-f3eb-4a35-80da-f8077c645324)
+
+* Coming **same** only.
+
+
+
+
+
+
+
+
 
 
 
