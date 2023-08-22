@@ -2256,13 +2256,108 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1420e2b0-f3eb-4a35-80da-f8077c645324)
 
 * Coming **same** only.
+* **k** can be any **constant(real or complex)**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea96cd36-143b-45d9-84c6-521663e1ff77)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/151280ad-4a0f-475b-95d3-0928d27d8a61)
 
+* Hermitian matrix.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/90a2d273-ab66-4f15-b084-69809b1714ff)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9be18601-fb12-4a9d-aa4a-a01bbe0cf7bc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b05e0745-84c9-4ad8-b4fd-6a7b40da865d)
 
+* Condition for Hermitian matrix.
+* '*' means conjugate.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/915c1e72-e1e0-470e-8ddc-2a5d38f35741)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97a31257-72b2-4e91-bee1-7ef083daebed)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8091af0-e7ea-486c-81ec-ff43caf98985)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/933cce0f-9aea-4739-a6e0-d9689018f3d1)
 
+* Conditions.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d6715c5-bba0-4724-8312-92717292ec9c)
+
+* Note.
+* In **skew-hermitian** matrix, the principle diagonal elements are **purely imaginary or zeroes(0)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a0d6b8cc-0415-46b3-b7c4-6aacd8663b48)
+
+* **Skew-hermitian** matrix
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5856ac0-2d7c-4eae-b85c-0ee5c3a23435)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/06e83fd1-40ea-44de-9eba-ae16d53d5377)
+
+* Note.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd832285-66c6-408b-97e4-d7287c33f677)
+
+* Unitary matrix
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d611c2c4-3c70-40b6-8666-56d457e8ee13)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e7cc8e61-7c96-473b-ab8e-78cff4569d8d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b15687b-1f79-4a96-b8e7-cbde52008103)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9c28e37e-782f-4b7b-ac5f-473895c7c70b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb22e64a-e6f2-4b0c-8664-324da147c5a3)
+
+* Properties of Unitary matrix.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/784bc2cb-f35a-4d60-9b41-e35587f87676)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0abf65d-5bc1-43ca-bad8-a2b8b08906bb)
+
+* Idempotent matrix
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5da0cc48-ca0f-46da-9cd9-a7bd1d9452a8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ed6938d-1260-4eed-8bca-13ec9e49a1f7)
+
+* Involuntary matrix
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ade67dc0-70ef-4dea-85d6-9924f6289653)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/46331cda-146c-4c87-802f-aa8877789284)
+
+* Note.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05841b0c-b560-41ce-87f4-fa16195aad5a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c740f3b-d4b3-47af-b0ea-bad23ef73f6a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/508b0c7e-de6c-483a-aa92-bdbf6d500013)
+
+* Nilpotent matrix
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6bffd049-7fec-4c6b-9d85-13bc9140656e)
+
+* Self-dual.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f8b9c10-7324-4e49-a2a7-20d8b3f448b7)
+
+* Non-singular matrix.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f927c9ff-4072-43ff-bc86-be7fabcb6a13)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b3571db3-3bd4-4c8c-8615-bd049cf69fa9)
+
+* Singular matrix.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19e3e2b7-9c4a-4e22-9a3c-37c41893efab)
+
+* Properties.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5acfafda-fe4f-46f8-a2ad-9d072e42355e)
+
+* Periodic Matrix
+
+### Doubts
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7cd32de7-2be6-4cc6-a347-1dab252d9da1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/25a13fbd-1e49-46d1-bbdf-7e6809956481)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f51d4453-f48c-4425-8b36-db2243352765)
+
+* Not in **CSE** syllabus.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ffbb854-e7d5-4f92-9e7e-56fccef06a8a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3929c3c-ccc8-4477-a2d2-09d9d82ffb4f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63311e80-ec9e-4a0c-b6d9-db430f0c9866)
+
+* Next class.
 
 
 
