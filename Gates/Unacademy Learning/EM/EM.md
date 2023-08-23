@@ -2571,6 +2571,13 @@
 ## cayley-hamilton-theorem (19) [23rd Aug 2023]
 
 * Class Cancelled.
+* Class was 30mins
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c5ec318-51eb-49d7-81c2-d13603b43d3d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d148039-4fd4-4862-ba70-1cd39f21c43a)
+
+
+
 
 
 
