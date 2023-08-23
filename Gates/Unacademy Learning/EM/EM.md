@@ -2576,6 +2576,14 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c5ec318-51eb-49d7-81c2-d13603b43d3d)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d148039-4fd4-4862-ba70-1cd39f21c43a)
 
+## rank-of-a-matrix (20) [23rd Aug 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/38caf4c8-51a7-47b9-bbc1-f3449bb05ae0)
+
+* **R1 and R3** are interchanged. They are **swapped**. So a **negative sign** will come. That's why the answer is **-26**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fde3acd4-cccf-4bd3-b54c-5fa9c02c1475)
+
 
 
 
