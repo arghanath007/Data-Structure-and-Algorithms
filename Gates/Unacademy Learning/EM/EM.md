@@ -2539,8 +2539,34 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/226ab7b5-d33b-48ca-90cd-2720675ee4d5)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dbe15133-3172-498b-801e-66f04784060b)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c267ff9a-525b-4eec-907f-a020f18504f5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e26df049-5d71-4057-b716-37310764edef)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/39bde0bd-ad24-4e06-a2b2-28709f1d107f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6148c569-239c-4aee-8776-51062c54757e)
 
-* Start from 1hr 40mins.
+* No. of terms = 6
+* 3! = 6
+* The matrix is 3X3
+* For an n X n matrix, the no. of terms is **n!**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/414c798b-9f6d-4fac-8f2d-5bfb8a5e783c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b1293132-5e7b-4bb9-b3fc-76db3cb4ed22)
+
+* Principle diagonal has all 1's
+* HOD diagonal has all a's.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb0f1381-41f1-4a06-b208-4e77d2db47b4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/342884d4-b283-4cc7-92aa-6f7b29a3a98d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/73f05a93-e1f8-4880-bd9f-192cf60070e1)
+
+* No formula for **odd** numbers here.
+* It works for **even**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/383ea7da-3a34-4d16-89d2-1ed8f8a03ca3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44ea0111-d357-4f1d-a55a-0e4204013353)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0c04e5d-1cb9-4b68-8a20-017ea8b14b92)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/02e1052b-0414-4ee6-bf63-9d29084e1d59)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/78251fbf-84cf-4ca0-bbb1-d6607810ae88)
+
 
 
 
