@@ -2568,8 +2568,9 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/78251fbf-84cf-4ca0-bbb1-d6607810ae88)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e4eb8419-a298-4278-ab18-b848a4af4a2a)
 
+## cayley-hamilton-theorem (19) [23rd Aug 2023]
 
-
+* Class Cancelled.
 
 
 
