@@ -2614,6 +2614,30 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e99d0b0-e4dd-492d-859a-cfb5370bc8fe)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3f3c927-bb7c-4c2a-b5d3-0c18cff0d3a3)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/381dc1d4-9398-40d6-b178-98a3f4e70adf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/64fc0049-0ff8-49bc-904c-458fdd73fe55)
+
+* Det(P) = 0.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c61afe2-30ac-4a9f-97e7-f8b1cafb98ea)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/64a70bdc-45ab-4fa4-874f-153b1a3a043b)
+
+* **n** -> Order.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/61ba83f5-ad4a-43ba-9379-d2626fd5dc98)
+
+* [**IMPORTANT**]
+* Absolute value -> Magnitude.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c977a514-eff3-4afd-bbf1-681df1fcf368)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81f9853f-0e98-4a65-8173-384e9a678acd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ff24680-ac8f-4af6-a574-e27ca87ce7f2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff23f543-242c-4dc3-8cd4-ab594ee52f2e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df12818e-6052-474b-85cf-3d5d403b9df2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8328fa7-a0a8-4736-93ff-b1ccde42ffc7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1cc6249c-8209-4260-82a3-91b31cc36105)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/870b43b0-7c6a-49dd-ac75-1dbe5e308c98)
+
+* Singular -> Det is zero(0).
 
 
 
