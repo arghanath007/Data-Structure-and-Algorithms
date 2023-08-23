@@ -2583,8 +2583,37 @@
 * **R1 and R3** are interchanged. They are **swapped**. So a **negative sign** will come. That's why the answer is **-26**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fde3acd4-cccf-4bd3-b54c-5fa9c02c1475)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eac5de32-bd67-4d19-b925-5e36e3eb3de0)
 
+* UTM -> Determinant (A) or |A| -> Product of elements of **principle diagonal**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1126f483-9f51-4534-914e-e0418dcb129e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9dfeed3b-061f-4642-afd3-396eb709b0cc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/53a2a89d-67f1-40f8-b009-166608c410af)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83755ac0-e328-402c-9a84-e01c1995c560)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/decb3455-54dc-4996-b13e-cb46091b4250)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1397176d-2676-430f-b5e8-82225397be45)
+
+* When we have to do the expansion determinant, whichever row or column has the more no. of zeroes(0), that row or column we have to **select**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5d672ac-71f9-43c6-9bd5-9a23a2529df0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d353f8c9-76e6-4012-a40d-d65ae6018a40)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e389ec25-2acf-4c79-a34c-725ae304beff)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a07c6de2-d60a-4669-8899-227ef976acf6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5183f681-3e21-469a-89fd-2203114f9eff)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e78f9c0d-5838-4907-ab00-76e8880e42cc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b36dd490-c8d6-4d63-acb0-aae7e64cb2dd)
+
+* LTM.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b92bf137-51df-403f-8bd1-5d66c825bcaf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7161b4f5-3fbe-4866-a73d-ed246903055d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/652a4c83-99c8-4578-8163-813bb0bc2d46)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2e9ac8dc-1e0b-4bca-8ddd-b70f31c651af)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4ac5f601-b129-43ad-9d9d-8fccc379c84c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e99d0b0-e4dd-492d-859a-cfb5370bc8fe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3f3c927-bb7c-4c2a-b5d3-0c18cff0d3a3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/381dc1d4-9398-40d6-b178-98a3f4e70adf)
 
 
 
