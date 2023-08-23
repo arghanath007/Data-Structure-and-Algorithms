@@ -2639,6 +2639,71 @@
 
 * Singular -> Det is zero(0).
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/06224205-5c3d-4c4a-a98c-838d326dbf5c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/26190f9f-1f56-47d1-9e47-1c6332ad4763)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b453f20-be35-4c6a-af8b-f2b2121d02f6)
+
+* Done before.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f7fb29e-2485-44de-994d-439e5d2f3291)
+
+## Adjoint of a square matrix
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6eb89f5e-4e34-4a99-899e-6bc6a30e055d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7db5c05c-b8bb-43a9-9752-0ce83b3514c8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/026c67e4-52e6-411b-a3f1-96f20adeb695)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec56c1cb-1445-423b-b56d-9d05a733198c)
+
+* To get the **adjoint**, we have to **transpose** the **cofactor(Cij)** matrix.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65cf4f70-5433-4f7e-b940-e97e83046641)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/48c53ace-65f2-4ccf-8ce5-5be8483210fd)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/96af5a00-b409-4825-8331-ae4fbcdb7212)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e7afc31-b97b-405c-b1f0-88bb62d69780)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/930f8f7d-b46a-4591-b67a-f3cc010f2d34)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ae5d1c1-39da-46f9-8e6b-d132fe8639fc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0ae8b94-abc5-4e50-82bb-9dee4481be44)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eaefd721-a217-41ea-840b-dc56aa9e7eda)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/74c251d9-5c04-46f4-a8eb-6b8d4735fefd)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c3aee23-786f-4571-a9b0-bc552dec7ea3)
+
+## Inverse reciprocal
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/427bb8e0-ff45-4e21-ad4f-2d9afb81dfa8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7aa439aa-a6ac-4c43-8460-0681a57e9750)
+
+* We are directly able to find **'A' inverse**.
+* Invertible matrix -> Inverse must exist. Matrix must be a **non-singular** matrix.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6817bdf7-cfcf-46e1-b452-f7b77b8ec074)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d451ae77-f580-4f36-9846-95f11e3b3898)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/308fa3ee-7ded-44e9-a8ec-aee1be34e88c)
+
+* Det(A) or |A| = -5.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/46638fa1-cdd6-41a1-932b-046b15478031)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/727e200a-3240-450d-b078-20573e01884d)
+
+* Option **C** [**IMPORTANT**]
+* From the options we found the value which is **different** in all of the options and we tried to find **det(A)** from there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7517680a-a614-48b6-90c4-8d6cea8c867f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b1d39546-c0fc-49cf-abc3-1f50bad53f05)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc92bb34-11e1-4b5a-add9-3d3f66c765fc)
+
+
+
+
+
 
 
 
