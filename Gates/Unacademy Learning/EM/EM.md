@@ -2706,16 +2706,31 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8105c598-dab9-4459-b45c-096cf33d0e7a)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/029c977b-bd25-4f69-85ee-064dd288ee3e)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f66f7b38-193f-4577-9505-de6a9800286e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/90c4667f-6ec5-4346-95ae-05d7b72abf54)
 
+* (1,3) will become (3,1)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8b24309-7ed2-45ed-a726-864950957a09)
 
+* First column will become the first row in **R ^ (-1)**.
+* Det(R) or |R| -> 1 * (2 - (-3)) - 0 + (-1) * (6 - 2) -> 5 - 0 - 4 -> 5 - 4 = 1
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e0eff667-3ba7-4ea5-95e3-e6da9f4a18ab)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/abfc757b-5170-4191-a8a2-8f92310da352)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33719d8a-709e-4555-8d48-cd2d56490742)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2a555e1-50f5-42a7-8575-5575b29b0944)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9be3daa8-68c7-466d-bbaf-ad6f031eedbe)
 
+* First row seh to first column hoga nah and vice-versa.
+* Transpose we are doing.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f05a9fc-e2f2-45fe-a3c4-9f8c169e5312)
 
-
+* [**IMPORTANT**]
+* Adjoint only asked, not **inverse**.
 
 
 
