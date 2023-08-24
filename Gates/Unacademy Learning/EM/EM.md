@@ -2732,6 +2732,17 @@
 * [**IMPORTANT**]
 * Adjoint only asked, not **inverse**.
 
+## limit-continuity-and-differentiability (21) [24th Aug 2023]
+
+## Properties of Inverse of a matrix
+
+* **k** is a **constant**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9f6770ee-f37b-41a6-9e1e-f7ff2377dad1)
+
+
+
+
 
 
 
