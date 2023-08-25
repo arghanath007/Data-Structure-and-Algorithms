@@ -2977,11 +2977,56 @@
 
 * C1 and C2 are linearly dependent. So rank is **1**.
 
+* If rank of the matrix(A), whose size is **n X n**, is **n** then the rank of **adjoint 'A'** which is **n** only.
+* If rank of the matrix(A), whose size is **n X n**, is **n - 1** then the rank of **adjoint 'A'** which is **1** only.
+* If rank of the matrix(A), whose size is **n X n**, is less than **n - 1** then the rank of **adjoint 'A'** which is **0** only.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0976e17b-9b4d-48cc-a803-d2c12e73a60c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12e32bcd-7aab-42e5-87cc-6220b3a78920)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/adba71ca-099f-4fd6-9b48-1efb1187309c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b6301b0-7c1c-4881-a13a-118165b51c1c)
 
+* We did **transpose** and then multiplied.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/623cd220-672f-4f49-8ffe-190cbc8a7c61)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b13abc93-ea83-44b5-9b32-f33d98e1cd9e)
 
+* Rank = 0, means **null matrix**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b48262b4-93fb-474a-b586-b6367beeb07c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d5552b8f-4359-47ae-ae0f-0df91d51141c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e355f18a-4d92-4aad-b767-9dd7f38a9c7a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be90b998-bf76-4335-a5f7-3c940f31f36d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee8571f2-97f0-495e-b7a4-bfa9daa5196b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e4ddb296-36f9-4ea9-993e-830d7781416c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f2e91154-9658-482c-8ae4-7196ddd37f8c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ee0e2bf-c81d-4fd2-ab3f-031cd20d8fb3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0194cb3c-3e39-42cf-9cec-b194008ac20b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/178453c1-5836-4503-ba10-87ee8fd0f372)
+
+* Two independent rows, so the rank is **2**.
+* The size of the matrix is **3 X 4**, so **rank = 4** is **not possible**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f348783f-2ae0-43d7-a09a-e07e3938359e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb8eec8d-d59d-45be-8968-f41bd880a879)
+
+* Two independent rows are there, so the rank is **2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d55a9ef0-635f-4d4c-bfb2-8bbd915fb825)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c83ea2e-8155-48d3-a97b-cdde00dfd7bb)
+
+* Doubt.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/726c8f2f-12ad-4847-8c23-ec193f4163b0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c8dad800-5567-4014-832b-f47d10e7f65e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/943b4202-4546-462a-8016-390b684ed048)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe8f196c-11b1-4391-9920-6e34d2d8b657)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b34c7823-0a93-4281-beb6-4fc35f538b70)
+
+* **R3 and R4** are dependent on **R2**. So **R1 and R2** are two independent rows, so rank is **2**.
 
 
 
