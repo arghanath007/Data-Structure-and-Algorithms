@@ -43,7 +43,9 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e7d6ff7b-c17d-4c5e-9d40-ef7b37c5e520)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1dca007-56fb-4925-a6b0-0123346ffe82)
 
+## Links
 
+* Class 1 -> https://unacademy.com/class/free-gate-da-course-l1-introduction-to-ml/GP5HAUHE
 
 
 
