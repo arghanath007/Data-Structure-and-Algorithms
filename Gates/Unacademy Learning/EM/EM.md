@@ -2734,11 +2734,46 @@
 
 ## limit-continuity-and-differentiability (21) [24th Aug 2023]
 
-## Properties of Inverse of a matrix
-
 * **k** is a **constant**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb1fd674-a7e5-494c-a2f9-55c767c3e0ba)
+
+## Properties of Inverse of a matrix
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/455d2a40-c7d9-4301-aae3-d79f46bb28bb)
+
+* Yes. We have to assume by default.
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9f6770ee-f37b-41a6-9e1e-f7ff2377dad1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1d4d3d4-523c-42ac-b619-dd09d4e0b119)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ce86af7-28bb-4c58-95d6-9f40f9106842)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c5a6756a-766f-4355-a0c6-460b0ff6b50a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d459e244-411f-443c-a0b0-3cc67f89579e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7260149-57a4-4f80-9bd2-70b9cec59ee0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b9e242b-180d-4b01-aa11-3839e74b683f)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4cf6c8e9-ce27-46fa-9783-72fc144268d3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1eec304-0a95-4b74-b75e-5dd664b16214)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c106e996-1361-4050-9753-afeaf287ae2c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d73d2f64-dd3f-41d2-bfd8-ebbec9f03512)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6805e80b-5fc2-47e2-ae1f-a2e913c1c3a5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0af3d29a-9006-47a1-b358-7ddebf87735b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/10176063-3736-44a0-b832-57bfadfd4ea5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc35e33b-bb48-401f-a125-3e76d78c8a52)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92272013-c20b-4b15-865d-aaca33f60c9b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d95e798-904a-47c3-bb6a-d446bb29cf72)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/698d94f9-1844-412d-b0c3-01e6129b76cd)
+
+* If the matrix contains only the principle diagonal elements only then **adj(A)** will come like **above**.
+
+
+
+
 
 
 
