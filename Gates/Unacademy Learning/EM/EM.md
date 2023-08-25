@@ -2768,16 +2768,78 @@
 * Yes.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/698d94f9-1844-412d-b0c3-01e6129b76cd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/049c19b3-cec4-482f-8fe0-40656f7b48fb)
 
 * If the matrix contains only the principle diagonal elements only then **adj(A)** will come like **above**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7c8512f-8222-45f4-8929-6946954cd921)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b3a8db24-c32b-4494-964e-3a0407f7ad54)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e4c85a81-04e6-43b2-8c31-5aa8dff58f28)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63e1655d-b278-4969-8ed8-5f30dc43badd)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/286f8246-35af-4628-b0df-b097304f1494)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6bef4e24-815d-4576-af25-4e85ff515fb9)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba82f3f0-9530-481e-9c70-1646bb064d29)
 
+## Elementary Transformations
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0541f19-cdf9-4e3b-9b0a-afe81f9db971)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/08ce3b2d-4a03-481c-b82e-407d10be3366)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c57a99b-e0d0-40f4-b9de-927d2ca23cb4)
+
+* [**IMPORTANT**]
+* **k** is a **constant**.
+* **First and the second** operations changes the **determinant(det)**. [**IMPORTANT**]
+* **Third** operation does not change the **determinant(det)**. [**IMPORTANT**]
+* If we want to find the **determinant(det)** of a matrix, the operations we are able to do is only **third operations**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6538366c-f5f4-4bbd-8999-2b82c8d45355)
+
+* If any two rows or columns are **interchanged** then **minus(-) or negative** will come.
+* If we multiply any row with **'k' constant** then **magnitude** will be affected.
+* If we do the **third property** then there will be **no affect** on the **determinant(det)** of the matrix.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5f14a97d-51f0-4365-a015-d878402ac532)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e6eff4c8-17a8-453b-864b-ace1b647184b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e0f7b2f6-785a-4085-b7ee-d7aa7aa68e84)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7f4c0cb-3ba4-422e-b42e-57f814b902b8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8fb17df5-a5f1-4952-9fda-ad07b03c4848)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6698aa48-cbc0-4a6f-a777-5009a1b10e7f)
+
+* 2 identical columns so **zero(0)**.
+
+## Rank of a matrix
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50a51fca-f0db-4bb0-be18-312c358698ec)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/82a4e90b-db92-4180-8a89-cc782c707417)
+
+* Max minor order -> 2 X 2.
+* **Minor** is always a **square matrix**.
+* Matrix of order(2 X 2) is **zero(0)**. So **rank(r)** is not equal to **2**. Rank is **less than 2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c365b79-e389-426f-a61e-9ac7f2555c3e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8935423-943d-4906-8870-4555e9923711)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16cdb03a-1190-42aa-9883-4b0780407cae)
+
+* As the **minor** is not equal to **zero(0)**. So the **rank of matrix(A)** is **1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/695f1f55-f378-4134-8db0-59d7e59896a1)
+
+* Yes.
+* Max. order minor we can take is **2 X 2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0248075-363e-43b3-9224-deef4cbe7aa8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/03fa6797-9cba-4663-9cf4-e613f7248f7f)
+
+* Rank of matrix(A) = 2.
 
 
 
