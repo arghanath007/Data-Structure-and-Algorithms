@@ -2897,6 +2897,66 @@
 
 * [**IMPORTANT**]
 
+## doubts-clearing-session (22) [25th Aug 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a3b985c-36c6-4bd0-9b76-fef5e386803b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/49f8ade7-a7e1-43d9-8311-32e8fb9aa4f3)
+
+* Rank = 3, means **det** is **non-zero**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db95ac6c-fa9e-4627-8b48-5ce35359b2b7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/445dfd9f-49f6-4bc0-b07d-075ed06e1970)
+
+* As **det = 0**, so rank is **less than 3**.
+* False
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b6614f7d-a7ef-498c-9a7f-87fc72a40dca)
+
+* All the rows depends on each other. There is only one row which is independent row.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ee895c1-432a-4701-81c5-e8972aaa3f87)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/658d369b-74a4-4d58-a6f6-fc7d7111dba6)
+
+* There is only one independent row. So **rank is '1'**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2d0b175c-28b0-4408-bea1-cbefc48e564b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/407f4fcf-8b60-4fd0-8394-fed3a3e0638b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f1648364-e616-4f77-bb78-91c619fc8a23)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6db3b526-588d-4f08-950d-70585b9f9593)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c6556ec9-c949-47cd-b43a-e58e198e0752)
+
+* R2 and R3 are **dependent** only. That's why all zeroes in **R3**.
+* [**IMPORTANT**]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
