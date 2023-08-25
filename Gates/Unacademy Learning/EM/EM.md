@@ -2928,13 +2928,54 @@
 * R2 and R3 are **dependent** only. That's why all zeroes in **R3**.
 * [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/505bf772-797c-40c8-8e7d-a590cf16c87b)
 
+* R2 and R3 are dependent on **R1**.
+* As we have **one independent** row, so **rank is '1'**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a196f37-6dbe-4b8b-9848-88669b649f7f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f1ddc575-1e3e-4d91-a62e-5259e2547e7c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/82368cbd-3fa0-4613-a55b-b90f1f1e1afb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d0ddb29-a44a-47d2-9781-857abe033f11)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a0c3d233-2f1a-4789-864b-04174dbb3266)
 
+* **n** is the max. value of the rank.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed22245a-8bf6-4b2f-86b7-ca46811e70b7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c0f4f05-c6a7-4e72-857d-be31f1e5fce9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50b1c052-fb75-48c5-99d8-40579244c6aa)
 
+* Rank = 2.
+* Except first row, try to make **zeroes(0)** in the other rows.
 
+## Rank Properties.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/355c3873-f017-4ac9-9b95-c01624700c66)
+
+* non singular matrix -> det is non-zero -> Full length/rank matrix -> Rank is max which is **n**.
+* **I** matrix rank is **n** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6fd267b-6bb6-4638-9d07-d7f000bc9a89)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ec02d8c-430b-4210-b268-ac83d6a573e0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/347c2db1-af56-4c16-9f46-88d5af9d8d94)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/de194782-bacd-40a7-8dd6-9cf2ceb63e8d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/25cbe14b-cb6f-4418-82e7-1b90b02667a3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d2fcd2ce-33ac-457e-868a-32095a08b154)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8eda6f9-2c19-4040-baa6-1672a47c05bb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3b4719c7-589a-4181-88d1-e6707228cd61)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1563af01-7483-46aa-a682-aa4bda6ac5f1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee729218-164f-40b8-9ba8-fdc93b653eef)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3c67d5d-6949-4f85-9abe-bff46277777e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6026bfdb-e571-4281-b308-42f2fa43abe0)
+
+* As there are **two non-zero rows**, so the **rank is '2'**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/73be899f-0833-4830-a05e-e4713bb27de6)
+
+* C1 and C2 are linearly dependent. So rank is **1**.
 
 
 
