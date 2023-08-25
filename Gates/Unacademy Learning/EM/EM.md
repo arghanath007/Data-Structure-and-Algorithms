@@ -2840,12 +2840,62 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/03fa6797-9cba-4663-9cf4-e613f7248f7f)
 
 * Rank of matrix(A) = 2.
+* Minor must be **square matrix** only. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f9d24287-f8e5-47b4-84aa-c9d1f59fc03f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30e16d7a-950f-4bb0-a9be-b643393c570f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80d45061-553e-4634-a647-19cf06568ccb)
 
+* Atleast **one non-zero** minor is there, that is **sufficient**. [**IMPORTANT**]
+* Max minor possible is **3 X 3**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/143c48a5-4062-44db-b2e4-2101e9a7bdfa)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5c220fa7-42dd-4d41-a3b4-da79bf36fcd4)
 
+## Row Echelon Form
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0f3378f-d304-4315-b1c9-a196d2df1f41)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cec2f078-94c5-4830-ac96-235c9123e56d)
+
+* The no. of zeroes(0) before the first non-zero element must be in increasing order when we are moving from top to bottom. **No. of zeroes** must be in **increasing** order.
+* Top to bottom, zeroes must be in **increasing order**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32353acd-2aa6-43af-bf7f-3c29a8faf420)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9a0cb5ee-82f8-4e22-a17f-3661197dd176)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/303ec4e8-31ec-440d-a018-89b0c4ca4f6d)
+
+* No. of non-zero rows = 3
+* Rank of matrix(A) = 3.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ebef5e9-a039-4ebd-8c21-c07cc57b95f2)
+
+* We have to change to **Echelon form**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/056b2bec-ca60-4e43-880f-be26fd2dea04)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/833072f7-c97b-4757-995e-cf7857643398)
+
+* Converted to **Echelon form**.
+* No. of non-zero rows = 3
+* Rank of matrix(A) = 3.
+* Only **Row operations** we have to use. Never use **column operations** to convert into **Echelon form**. Column operations not valid here. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86142788-5d6d-46d9-a067-2ce2b65d8016)
+
+* All of the **row operations** are **valid**.
+* We have to count the zeroes before the **first non-zero** element. The **zeroes** coming after that, doesn't matter. Ignore them.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44749c88-3e87-40fd-bf51-c564c604b647)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/04ee071a-e44d-402e-b60c-3c2a852a36f7)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f28f928-c218-4c1f-adb5-761cdd9ff900)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1966242d-0672-4e75-98f8-fa05dc65fedd)
+
+* [**IMPORTANT**]
 
 
 
