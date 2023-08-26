@@ -303,6 +303,48 @@
 
 * [**IMPORTANT**]
 
+## practice-session-on-probability-part-iii (3) [26th Aug 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4877ca36-177f-43f3-9cdf-2d4da12ebbe0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec45a416-bf6c-41a0-8745-d7c568e1b565)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/328b8532-fba9-45b7-a4a4-9b8f289c4d92)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ddf730a-ac2d-41c1-93da-c9d4b3954519)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65085da3-be69-45d4-87f0-ab2816593c21)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f88ef495-82ae-431d-bcea-00445f24b4a3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ad38b8b4-ada2-471f-853b-c83b2afdc568)
+
+* Whatever happened **first** is in **denominator**, here **failed in chemistry** first then **maths**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4bd8e927-f5d5-4565-9d6e-090312fbf1dc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a4cb671-48be-4930-b9db-0c89ffe43e9f)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
