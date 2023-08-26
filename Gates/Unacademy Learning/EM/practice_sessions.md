@@ -159,10 +159,27 @@
 
 * Practice.
 
+## practice-session-on-probability-part-ii (2) [26th Aug 2023]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/044e9d1a-dd67-4057-9393-4a61ec19d385)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89834931-a18a-4ef9-940d-e9a5ce2d14d0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f4d62b4f-cf41-4deb-8f22-a763b194e4f0)
 
+* No. of variables(n) -> 3.
+* No. of combinations -> (2 ^ n) - 1 - n.
 
+* If nothing mentioned about **replacement or not**, by default we have to assume **without replacements**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/43856e0f-51f8-4c5b-90f2-802457145e6e)
+
+* Without replacement -> Sample space **decreases**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/53307a6b-5c07-413a-88c4-3469bb0f3862)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/502da296-f3b3-469f-9cbd-25b25cb19f4f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/21cc2ebd-424e-4c61-b845-6d02106fb583)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f20f1852-8a40-4f20-acc9-afa028722ffa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b7ba95b-522a-424d-8cfd-8b8d28a1fbf7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9a987024-b625-4dba-b54d-1059219f37b1)
 
 
 
