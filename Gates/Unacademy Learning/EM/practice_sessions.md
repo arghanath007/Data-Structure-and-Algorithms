@@ -144,9 +144,20 @@
 ## Bayes' Theorem
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32e9a062-ef0a-409f-b4a9-5f96ade2ba4f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f292b298-4148-4ad4-8404-3f5d439ba93b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/881de417-3b34-458f-ad63-a43cc182cacc)
 
+* Total Probability [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/530f5280-6a88-4835-b7b2-14d13069b4e6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bcac7cd6-f52d-43e8-80bd-55341aebb3f5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d393ba7-0c8a-4212-ac95-3e59559f92a9)
 
+* Total Probability [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1916b7b-e244-4564-9c56-880db47f25f2)
+
+* Practice.
 
 
 
