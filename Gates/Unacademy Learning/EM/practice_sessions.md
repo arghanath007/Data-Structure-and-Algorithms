@@ -317,15 +317,122 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4bd8e927-f5d5-4565-9d6e-090312fbf1dc)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a4cb671-48be-4930-b9db-0c89ffe43e9f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c4e1fdc-0cf0-477d-b2f3-10d54966129a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/965bba83-d3f4-49a9-972c-d5c2c8a20cec)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63eadeff-732d-4a7e-9ad0-695f109bec20)
 
+* Using **Tree diagram**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3aff7768-e5fe-43ba-bcb9-3a79a4c4e13d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/25c476db-65c4-453d-bc7c-ee8c63ba11df)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/46078818-dc45-4000-b9c8-7642cac026fc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3751d6b4-6168-4232-a885-c0cbd2514afb)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3101c2a1-5bb4-47ad-9d90-5d8cf735ed06)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ad08f0b-1c06-4fdf-b463-91c87e764779)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/081f8d38-1ac8-48d7-a05d-4f4b18121f88)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dcd36229-a7df-4bbc-9d2e-270e8b13420a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2211c95e-686c-4c96-96b2-48dcf3432cbc)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95ad5997-3351-4de8-baf5-feebff54cec2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/388fddc5-dbc6-4903-b516-d863fa800570)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/597aadfb-12ce-4ed7-a73d-24753aba29da)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/77370ba5-6cc7-461a-9726-39d059fd0c30)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/773077dc-4836-4265-bbb7-07bd072fb9c1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66fa0721-db2f-4080-8439-d4e0bfa53a8b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f4df1a3f-bfe2-4699-bf3b-204e28488d97)
 
+* 3! -> Arrangements.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0b17bb7-f95f-4b33-9377-98aca1307889)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7d15d57-4db7-42be-8073-0e73e0f610df)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/369c06a5-bb3f-4e4f-b096-a59a18dbac74)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b470f80-ec53-4e1b-8d82-4de35e4737c8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/372c30ac-5b35-4d52-bd80-020b4a91ff30)
+
+* [**IMPORTANT**]
+* Order is mentioned here. Only one arrangement is possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9db70db5-d6dc-4934-a592-1ac781c26dbe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d2b2c72-d857-4e14-84da-2a6504ef247c)
+
+* Both are **equal**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/04e52b5d-59d5-4867-877f-fb60c90c0ee4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d0f8cb3-75b1-4365-adc6-2d5425170d75)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44126c01-651b-4a88-8491-3ea2aeec8de5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d52fbd3e-cee4-4767-aa9c-c5d29cbeb39d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1972755-8088-4a9d-b14d-b4bf06150c13)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b463f822-7de2-465e-b63c-aecfa2c749f5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0307e37c-2b98-4d7c-bd79-a8a9beac92a8)
+
+* We got **r** no. of heads.
+* **n** must always be **integers** only. As **n** is the no. of times the coin is tossed.
+* We are getting that if we **add** the **1.5 or 3/2 to r** then we will get **n**. Then **n** will be in **fractions** which will never be possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5fe7daf1-5b1e-477b-b164-98aec949f7e0)
+
+* Not possible [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/04010608-c8a6-409e-8c1c-f673656f437b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b90bb785-e8b1-4970-bfb9-42f7ca0e7c65)
+
+* Not possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3170079a-a2a1-4da3-949d-754bc2b41767)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/029f8034-37d4-4244-9c73-249888e1935f)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/257cce9d-4074-433a-b1d3-bb3776afc699)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab53aff1-ce4f-4a44-a8f2-c30432b25c27)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c347666-5547-4a87-aa60-acce2d534cba)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/40ea10e2-26f6-433c-a203-5c6dc4db8659)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92731c51-652d-4d19-ab36-afbdad5d526d)
+
+* NOTE. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d01eac38-997b-4bb2-8cc8-6aa6268c9699)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac440b0b-8e84-40a1-b7e8-d49f2d3c315f)
+
+* R -> First Coin.
+* S -> Second Coin.
+* Probability of getting the **head** is required.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/47d1c24f-a035-494c-af4e-5180cfb17d7b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f32ebe54-50f1-430a-b1b5-fa2b9220d680)
+
+* Total Probability formula. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b6282471-b210-4652-8199-56b4004c3521)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9fdf31ec-7df9-4d07-9018-d21594f984cd)
+
+* Whatever we need should be in the **numerator**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0831a19f-8bd3-423e-985d-5afef1523196)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee0fca63-1588-4a47-a3a6-c85637d8568c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/baffb23b-ba2e-4a92-b6fb-705e27c314ec)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b8195a4-0409-4e17-8720-09110a73564d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09da01df-6aae-4994-abac-0477016b747d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d68a52d-e256-43d5-8ed4-4e625823fa69)
+
+* [**IMPORTANT**]
 
 
 
