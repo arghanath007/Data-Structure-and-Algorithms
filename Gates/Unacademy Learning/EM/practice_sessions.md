@@ -180,6 +180,78 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f20f1852-8a40-4f20-acc9-afa028722ffa)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b7ba95b-522a-424d-8cfd-8b8d28a1fbf7)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9a987024-b625-4dba-b54d-1059219f37b1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cada0bbd-45b9-4c33-b6d6-ae6dc003d3ee)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f4e03815-373a-4c2c-9f4c-f01aa968e372)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0667c225-0f8a-4d36-8bce-10dd51b29de5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/10204ec2-5570-4945-9647-38acd8885175)
+
+* We can do **arrangements** here.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/39720b1c-b3da-4f23-ae71-9ee2a80c5d94)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d57ed32c-cc83-4815-baa5-f514acb45cf2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/51ec3ad0-ba72-418d-8f27-12d3dfa3eb87)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/21567c48-57cc-4738-ab3d-44c52ffb5a5f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c6772e0-5e14-4000-b90e-92d154222c54)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ecaea6e-2917-46cb-8d09-1206d055236c)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/574a88b4-0cf1-4694-9262-a578209f193b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83ceb755-f3c3-4073-b937-796369edb4dd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16a7fd66-7c8f-4e65-8a73-038733f4bc73)
+
+* Total Probability question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8eb88fef-a63d-4e94-9c54-7a73eded4842)
+
+* Whether we select the first or second bag, depends on the number we get on the roll of the dice. So it is **biased** and not **unbiased**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/681238c7-433c-4b98-8f09-23184679fa4a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce96770c-62d0-48df-b15f-8322020a6be5)
+
+* For bag selection, we roll a dice.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/afbf8faa-e298-4d32-ad9b-18bc0bfc1e28)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/015d6605-cc80-4f59-b1a8-3dc4f566d611)
+
+* Faces of a dice.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8103222-13ee-4a0a-a2e7-55245bf7d1d6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd143508-0a3a-4e18-a1d1-70b952fb2b47)
+
+* Bayers' theorem.
+* Numerator(Horse) -> Box II.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/679310ce-4494-448b-afb3-784b4f5f95ea)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a6bbd0a0-a031-4e48-add2-a2aa3a49753c)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/453748d0-5090-4908-bfaf-dcd76658123e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58bade4f-a883-4398-af13-096f83899eb2)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a7056f5-ef8f-483a-9f9e-1c4e13945af1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e13df26-fb18-4aca-9129-8dbcd1902cc2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/51b3f485-0306-4061-8bc5-20ac990042d7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8c40dcf1-57b3-45c5-aad6-8dde18ea40f5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a37e5cdb-61de-461f-880b-e219d2b40d7d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5dbbc0df-af50-4524-965f-8f99e0a8ffb8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/07a219d8-cb8b-49cf-936c-aa9d1f6d2404)
+
+* We will go for **binomial theorem**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/78cd9c2c-9cc4-45d8-972b-351f084a8834)
+
+* **Binomial theorem formula**. [**IMPORTANT**]
+
 
 
 
