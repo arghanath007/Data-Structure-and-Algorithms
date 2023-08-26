@@ -137,6 +137,13 @@
 * To select **one red ball** from **box 'II'**, we have to do **6/10**
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a0a379a6-3a74-4641-942d-935370ae8ddb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/932509bc-4d22-4504-9c4b-7643baac3b1c)
+
+* [**IMPORTANT**]
+
+## Bayes' Theorem
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32e9a062-ef0a-409f-b4a9-5f96ade2ba4f)
 
 
 
