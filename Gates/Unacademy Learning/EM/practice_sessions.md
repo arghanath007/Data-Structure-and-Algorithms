@@ -196,6 +196,24 @@
 
 
 
+# Practice Questions
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f8eac562-2b7b-47bb-b5db-18356032acae)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19264e46-56a0-46d9-86f4-2885de36acdf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f52cf35-8d49-43c2-be8d-e48a38a7e2ae)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/539bea15-268d-4dd2-9786-20c4ac673e8c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc12b4fb-2818-4f2f-a12e-7032b6af2017)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2fda6948-251f-496c-bc09-6a66f205e785)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/006af5f7-f102-41d8-a664-2ea5ba05617d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f462d34-166c-43f2-8c28-79f082e4f3fa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b122e69-4cc4-4ef0-aadb-89e9a0be6ddd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33225d92-503a-47e0-a6c4-9d9c2ae99fa7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd9e33e7-33c6-4e98-bdc8-bb180ecfa9a7)
+
+
+
+
+
 
 
 
