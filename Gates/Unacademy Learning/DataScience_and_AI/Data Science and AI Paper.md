@@ -81,11 +81,81 @@
 
 * Reinforcement Learning.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0fbafe55-43c3-4e95-afd5-9dc92052b34d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee671714-3c15-486b-b87e-4dc2dda33e24)
 
+* Supervised Learning
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/645091fb-7e4a-4dff-b7a0-c77d5109d120)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c6129f5d-dbdd-4962-abac-5c67b6fb8e6a)
 
+* **y** is **depenent** on **5 variables(x1, x2, x3, x4, x5**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b6b1d15a-3670-4702-a928-4b3001f1a140)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/012d9317-642a-447f-a8ce-c97e6ec67f0b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44bd1bf1-5663-40db-8ec2-da29c005414e)
+
+* Types of Supervised Learning.
+* **Classification** -> Result of one or more of known type.
+* The **output** will be whatever **output** we have decided.
+* Output will be from one of the defined classes only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/440a1236-20ad-4b5c-8843-34db92ac6e05)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b430e85-380b-4337-9176-2e65688cfc95)
+
+* Regression -> Result is a numerical value.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7de9f97c-c32b-4254-b757-acad18dc438e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d45384b9-33d3-4c13-852d-0050defd9474)
+
+* Finally we have to tell a **number**. There is **no class** here.
+* We have to predict a **number**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd3c7490-2343-48ef-916c-99e1920365b0)
+
+* Types.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7acd3fef-9cbf-4d6c-ac09-af36e9bf9ec1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/54c52b3c-6e9d-4f46-8c00-b7fd8b56672e)
+
+* Classification Types.
+* Onl 2 classes
+* Multiple classes but input is classified into only one class
+* Multiple classes but one input can be labeled as multiple classes
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/48fab071-e582-47cc-acc9-a55b862b861e)
+
+* Outlier -> Data which does not follow usual pattern.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9cc78ee-a323-47f3-8080-e99cd6ca47fc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/397d1e23-0a50-4536-91f1-f64a77ad2d41)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fdc832f4-17ab-4d51-a800-10f3fd10dec0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50578c4b-afe9-4184-979f-9b994064e387)
+
+* Regression.
  
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9baefa41-1218-423e-9ec8-2736ae4ec59b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9f63a9cb-e713-45b9-908d-69faa60e1e4e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ab16fef-b211-4f6d-88ad-9c38a01ac02b)
+
+* Unsupervised learning.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e71812d-16b5-49ed-83a3-6d46d4fc360f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f81a758d-5715-43dd-9bae-f63e8ac40a35)
+
+* Clustering.
+* Grouping is done using the **similarities**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/13f5442d-668b-451f-ab87-b5b592ff8a6f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/800c1f1c-7f67-4d54-a91f-fac8621bcb4b)
+
+* Reinforcement Learning.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6cc6207-d5d0-4ab2-abd3-b4f255448e9a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50527634-46e5-4354-8557-70243a10f859)
+
+
+
 
 
 
