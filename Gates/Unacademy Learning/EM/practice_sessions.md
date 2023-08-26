@@ -43,8 +43,45 @@
 
 * Probability.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/01adcb3e-9e32-4526-9181-dc51c73ee06b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bdd5a8e2-561e-4a9f-ac5d-6800dca32c33)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a361519e-d1da-4076-b584-be90e14815d2)
 
+* Both -> Intersection -> Both must be present.
+* Atleast one -> Either A or Either B or Both -> Either one must be there -> Min. of 1 must be there.
+* Or -> Union.
+* Either A nor B -> Both should not be present.
+* Exactly One -> Either A or Either B -> Only one must be present -> If A occured then no B, If B occured then no A.
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33f6f135-d137-45f8-9f60-b11985652d85)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/abae2386-968f-47b2-b7fc-3dc0a819a026)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e6e78e2-357a-4ea8-a2a1-f6be205e6507)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f91d14dd-c70e-4e6a-a797-877b56e50541)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d14c5b3-d15d-4d88-b1c0-f2b5f515e55c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d0f0967-b489-4010-8360-d249416b7a24)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae1de3b1-fcc2-4a2e-b5e9-e8ba8079dcae)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2e888812-58ca-4e72-ae49-35b445e8a089)
+
+* Rolling a dice.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/abab562e-521c-4fe3-af86-5bf0567b0ef7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c3498da4-435d-4bfd-b5a2-8f91aabcf382)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/917dcbea-72ef-4901-8d93-11bb2fe3a216)
+
+* Pack of cards.
+
+## Problems
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2e24cc2e-beab-4781-a41c-a21cf7bb304b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/657ab9d0-5c59-4694-aef1-2a739beccec9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/02a25ba5-c333-4c05-84b3-0f2513995ff1)
+
+* P(4 <= S <= 11) -> P(4) + p(5) + p(6) + P(7) + p(8) + p(9) + P(10) + p(11) -> (3 + 4 + 5 + 6 + 5 + 4 + 3 + 2)/36 -> 32/26
+* P(4 <= S <= 11) -> 32/36.
 
 
 
