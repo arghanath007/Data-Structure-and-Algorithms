@@ -47,9 +47,39 @@
 
 * Class 1 -> https://unacademy.com/class/free-gate-da-course-l1-introduction-to-ml/GP5HAUHE
 
+## free-gate-da-course-l1-introduction-to-ml (1) [26th Aug 2023]
 
+* Link -> https://unacademy.com/class/free-gate-da-course-l1-introduction-to-ml/GP5HAUHE
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1060cdec-241c-4602-bd4f-79a1ff83cfbe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22932c73-a337-499d-b3e9-c4fa3a80376e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1c15a9f-3cb7-471d-a8ed-679688f13e69)
 
+* Learning
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/73fd002a-07de-441d-bcf6-4a040d4794aa)
+
+* ML
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/778d1bdb-32ef-4149-89d3-ca4f214c3ee5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee4319a5-5b56-4423-8ea8-7a528663b57a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5431ac63-d50d-468a-b587-f8060549e3f0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ab37fb3-c747-4a63-ab88-93fc0c911208)
+
+* We can try and solve the unknown problems.
+* The machines cannot solve problems without **training**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5f87248-4612-4d8c-ae84-38aec6c55d88)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5c5a5573-44d2-427c-81f4-4cd10a604b01)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c99799fe-dc95-4cde-9fd9-bac3330b5693)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef2fb519-b65d-4de5-a44c-1450362b9bea)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6989b9ee-b495-404d-825e-ab8637631945)
+
+* Types of ML.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b882de4-595c-41f1-befb-4cf0b6535dd2)
+
+* Reinforcement Learning.
 
 
 
