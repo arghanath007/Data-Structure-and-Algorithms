@@ -251,18 +251,57 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/78cd9c2c-9cc4-45d8-972b-351f084a8834)
 
 * **Binomial theorem formula**. [**IMPORTANT**]
+* p = q = 1/2
+* We are taking **p and q** values together.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce8076ac-fb4a-4804-8bae-9cdf58fd7499)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/008049ee-0162-4061-97ae-6a6dfd2b20dc)
 
+* Sum of odd Binomial coefficient -> (2 ^ n)/2. [**IMPORTANT**]
+* Sum of even Binomial coefficient -> (2 ^ n)/2. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/599a2de8-be37-49f3-b4a0-7dcfac6c0ae1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c86bc32a-b9bd-477a-96ed-11dca0c03c75)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5cda16ca-359b-49bd-978c-35eb5a68789b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/43e09fea-906d-422b-8cd7-7b6cbcf7d9a4)
 
+* [**IMPORTANT**]
+* P(B intersection C) = 0
+* Two horses cannot be **winners** at the **same time**. It is not possible. 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bd0cf1ce-f85f-4de4-93b5-c89d28e70b2e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d82948c-c732-43ff-a8b0-07fac7191662)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc92a2a0-778a-47a1-ada4-0b5083ec5763)
 
+* [**IMPORTANT**]
+* For **intersection** of **6 and 8**
+* P(6 intersection 8) -> We are taking **LCM(6,8)**. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7654b43c-9379-40d5-b622-24e3d9c4e84f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a1285e7-1205-4cdb-9b7a-8c4e42c065d8)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3fd98f0-f482-4070-a25c-542d94d81d37)
 
+* Geometric Probability = (Favourable Area) / (Total Area). [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/961ef76d-7cbb-4ca6-b44c-03bb94303271)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2d80005d-8191-4106-93aa-fee157b4a4d8)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c8c13364-63e7-4e7f-98ad-54f60db8340f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/08cf75c7-af7e-4d6b-90cc-71da978f448a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/43ad1830-080e-4b72-8dfb-6edf9235fa22)
+
+* [**IMPORTANT**]
 
 
 
