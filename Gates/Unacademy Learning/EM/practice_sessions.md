@@ -83,6 +83,84 @@
 * P(4 <= S <= 11) -> P(4) + p(5) + p(6) + P(7) + p(8) + p(9) + P(10) + p(11) -> (3 + 4 + 5 + 6 + 5 + 4 + 3 + 2)/36 -> 32/26
 * P(4 <= S <= 11) -> 32/36.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c8ab9d30-0f6a-4448-b8a7-f9a517858bd9)
+
+* We are focused on **A's winnings**. **A** is the **winner** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae2c459b-b972-4469-8a1f-af5441578b9f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ad3b2874-d78e-4097-98c6-21c9a6164399)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63390a48-a94d-461c-8d46-84a66a62c905)
+
+* We got **GP** series
+* GP series -> a/(1 - r). [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b50b768e-2a76-4971-944f-f350ddbb1d60)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f2aa21dd-d7bb-4199-b373-6f0f8729bc49)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e849261-4547-4033-adfe-3f957d890e4d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/18d7ee10-d772-4247-8e13-e36063a1eca5)
+
+* **A** started the game
+* P -> Probability of winning
+* Q -> Probability of failure
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2bb92289-5511-43dc-9ef7-139759503431)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0dbc5969-8ceb-42b8-935e-f4249c5e9183)
+
+* Trick [**IMPORTANT**]
+
+* **A** will start the game, after **A**, **B** will go, after **B**, **C** will go and after **C**, **D** will go.
+* A -> B -> C -> D.
+* (q ^ 0) -> 1
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e28b36a7-6064-4713-8561-5ccb3c3cc040)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a6d0576c-d809-4820-92e5-e49f7bd24422)
+
+* For **more variables**, **trick** [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/90a1da47-06e4-4b0d-b33c-509fc33d7537)
+
+* Both **A and B** has to come together. That is **joint probability**.
+* If **A and B** are **mutually exclusive** then **P(A intersection B) = zero(0)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/28aab17a-708a-4d83-8881-d3cf7bc69abe)
+
+* Conditional Probability.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4355d149-7960-4cd0-bb8c-f6fecaf114a6)
+
+* Total probability Theorem.
+* There are **two boxes** and we have to select **one box**.
+* Probability of selecting **box 'I'**. It is **1/2**.
+* In the first box, we have **5 + 6 -> 11 balls**.
+* To select **one red ball** from **box 'I'**, we have to do **5/11**
+* In the second box, we have **6 + 4 -> 10 balls**.
+* To select **one red ball** from **box 'II'**, we have to do **6/10**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a0a379a6-3a74-4641-942d-935370ae8ddb)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
