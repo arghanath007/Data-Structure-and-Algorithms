@@ -3142,6 +3142,146 @@
 
 * [**IMPORTANT**]
 
+## problems-discussion (24) [27th Aug 2023]
+
+* Sum of the **eigen values** = Trace of a matrix
+* Trace of a matrix= 1 + 5 + 5 = 11.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f70157b-5d72-47fb-bf65-63508abe86a6)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ba5a30f-4d19-4afa-8fee-d77a57bd48ab)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f3a2219-6f40-4bc3-9a80-ba197835dd7a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f24b600-20f4-4cc7-8732-38f15fd443d2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b35d12a-fd15-4930-8dfe-e6db0bdab5c8)
+
+* Both terms(15 - lambda and matrix) multiplication equals to **zero(0)** means that both are **zero(0)**. 
+* So we can say that **15 - lambda = 0** and **lambda = 15**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0fe19e0-351d-4a04-8bca-22f1d36b16ec)
+
+* It is mentioned in the question that **A** has only one real eigen value. So, **lambda = 15** is the **only real eigen value**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f4d50000-676a-43ac-b0a1-a223672def7f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cdfdc137-a12d-4eb0-a36d-43b9a082dfb5)
+
+* This type of operation does not change the **determinant(det)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/84f8f900-430b-4e51-b4ff-b2566ea4504b)
+
+* One whole column is **zeroes(0)** means that the **det = 0**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/21f34a2d-bdf6-4e3e-a356-74b50d6ea3c2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f64a517c-2ccc-4005-8552-381096e2d3bd)
+
+* We need to find those **eigen values** whose sum is **-4** and their product is **0**.
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/D7B7CF1DF4
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d411db9-9808-4fb2-b162-2c6876c38d0e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c25014a1-16fb-423e-baa1-388de8c3eaf4)
+
+* [**IMPORTANT**]
+* Product of eigen values -> det |A|.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/de42660e-23f9-424a-9ae5-7ecdcef88284)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a6cf701a-8daa-412a-936a-ee92c5195c15)
+
+* Lambda_1 and Lambda_2 are **eigen values**. So **Lambda_1 + Lambda_2 = trace of matrix = 50 + 80 = 130**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/890c0137-2636-49df-9f09-50ecc9ee0587)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/670b1657-02ec-4da5-8b22-882724da1fc5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f308b786-8c77-4ace-9d9c-8767d5690b55)
+
+* Sum of the roots(alpha + beta).
+* alpha + beta -> Lambda_1 + Lambda_2 -> 3 + 1 -> 4
+* Product of the roots(alpha * beta).
+* alpha * beta -> det of the matrix -> |A| -> 3 * 1 -  2 * 4 -> 3 - 8 -> -5
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/445fa2d3-311d-46d8-8706-b3d36760f3ea)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8bba6502-cc94-46b4-891f-d030567f1fc5)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80d5b656-49c6-464c-b261-373b749ff32b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/369669e9-e60f-41b9-8199-2d271135206b)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e4ed972e-c461-45d2-9009-45bd8c6de849)
+
+* Synthetic division -> To find the **roots**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df78769b-f854-4786-ba61-f9b9a54a278b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf3ae593-2131-4c9e-a489-59b613d063e9)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/77cc63f6-7d01-45a9-b7db-5cba2f597e42)
+
+* We have to find the **roots** of the equation and for that we will use **Synthetic division**.
+* By knowing **one root**, we will be able to find the **other roots**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f1e9ab8e-6d29-4146-88f7-5d52770d6077)
+
+* **2** is one of the roots given in the question, using that we will find the other **roots**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16f8cc36-b4db-4a35-86a1-4a6b8781cfc1)
+
+* Always we will start with a **zero(0)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d4bdbfe-5924-4bce-9cff-061011758b4b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b036fcf-e19a-4b6d-b92d-f9aa836d1b58)
+
+* Last term must be **zero(0)** only. It must be **zero(0)** only. Then only **2** is the root of the **equation**.
+* After **one division**, we have to decrement the powers by **1**. Lower the **powers by 1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9307e6bb-dcfb-4cdf-a549-cb3ef44e48e6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/53cb4fab-7348-43dd-bf4d-fbe1b43e4932)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50d606b5-c540-46b2-9578-07265ce6f0b8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b34fd094-b9a3-45cb-877a-45d86e2eeda3)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/59d51029-35d7-40a3-8c44-1d15a1a37368)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1af39d0a-5645-4a88-b8ff-e1f8edc1addd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/da6f0844-0fff-421e-b516-d8115099434e)
+
+* N ^ 2 = 0
+* It means that **N** is a **nilpotent matrix** and a **nilpotent matrix's** eigne values are **all zeroes(0)**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a102354c-fbae-44aa-bab8-20cd890f1610)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f36c8bc0-e22f-4933-9c78-f112eb0ac9c4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5f78cb1b-df11-4484-bcfb-bb08efd89c16)
+
+* Det of the matrix = Product of eigen values.
+* |A| -> 1 * 1 * 2 * 6 -> 12.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ff2faaf-e721-4b4d-9cd4-2a72cbf51287)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c3beeae-4cd7-4dff-9095-1a6dfa124fc7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/506033c2-8ba7-4b4c-8599-23a19bf95ce9)
+
+
+
+
+
+
+
+
+
+
+
 
 
 
