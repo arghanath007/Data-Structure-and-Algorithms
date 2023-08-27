@@ -434,6 +434,154 @@
 
 * [**IMPORTANT**]
 
+## practice-session-on-probability-part-iv-and-doubt-clearing (4) [27th Aug 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bd35b8ce-a8e7-4da2-8e60-8c2538d0a1ba)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63679a25-837a-4ca0-ba27-b44d2542d50c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3dd665d6-7d45-421a-a621-ccada1b0ac61)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/509152e8-515c-493b-a43d-25250760edca)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d2fb500-8582-447b-9b9f-ef83c94c3547)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/94925c20-b18c-4624-9383-ad3be611f296)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e2a86019-a1f6-4be4-97c1-5664fa842f10)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f5503cc-f5df-4474-abc8-ec9d86f717f4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35dadd7a-4b46-4188-8163-32df55a3a9f6)
+
+* When **X = 1/2 and  Y = 1/2** then the function **f(X,Y) = x * y** is that maximum.
+* To get the **max. value of the function**.
+* f(X,Y) = x * y -> 1/2 * 1/2 -> 1/4 [Max. value of the function]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12aad35c-bb7a-4a13-8c43-ddfba9bcd1ea)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9a9df78b-2faa-4679-895d-d3a6ae5e71b2)
+
+* Max value of **P(A) * P(B)** is **1/4**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b5edda8-8172-4fce-acee-0389f3e45050)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83d8b921-a4b1-435a-92b8-b990eb74149c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e783e2ea-a032-422c-9444-1381809a529d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41448d9d-70ff-4e6a-adc0-e1669f9abc74)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/102ab241-6693-4c6a-882e-4da84d9f23ab)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd3551c5-af09-4399-94e6-732b3f50b737)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5f09582d-2196-455e-9500-9f4cece6b087)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/40f8b74f-435b-4d7b-a91b-1d58a26b2a2f)
+
+* Sum of all the probabilities = 1.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0770f2a4-fbd8-46d7-8e23-262df2b041ec)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf217a6b-dad2-4593-9efc-59bcd88d0faf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d76ae819-9ed9-4c8e-9d94-65f204ae9ca8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c3047dec-5835-40dd-9da5-57ea9e3b1139)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bfd943a9-b32e-412b-8247-54dc37a47c5c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12f72530-8ebf-4685-a7ba-3607a7229dd3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b74a3ed-d365-49fb-81fe-c2a4c71b753d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4349ac39-3807-47af-8ea0-8662dc39b634)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7bf8588a-76e0-436c-a07f-81b947ecc99c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f9e3d3db-7ad1-4cc5-b479-ad9a5800deb6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/717428fb-2451-4552-a4ea-1a5b4c5126e4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b68aab46-07a4-4907-a803-01957f36ae8a)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e28cab0-dcb4-478b-aeec-ee6c0161bc56)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57215a26-f5c7-40ef-8c75-48ac79bb6e84)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6dc0aad5-84e1-4311-bd6a-9a94f180f80e)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e62a252-b2a8-42bb-9878-bd904d62c6e5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9626a770-f44a-40ab-9005-85887af9cba5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69cf6717-e6c9-45f3-b0b0-60d98259d6db)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a444f60-feca-4409-aba3-c26acff106a6)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b7527c6-45f1-4e0d-a3a7-d45813037968)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e91ee32-bd6a-4afb-8d14-2e21e8aeb5ba)
+
+* Fixed -> Days of the week
+* Variables -> No. of accidents.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3cc6be74-7869-48be-9b69-305d8e598965)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6bb2f41a-10e9-4c02-9d7b-b846e3f5491f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6565d4b7-f596-47db-8af3-929c79f463de)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/25c63d5d-db55-4182-aa33-902474d227ad)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7dbb003e-e501-4c4e-81db-c3bbe0cccb05)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e2b4221d-c6a6-46d8-bb56-e7741f0d7592)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/56681b3d-7a21-449a-950f-57ac6cc011c4)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3629aa2-01af-4f80-a676-48fc47f8de26)
+
+* No arrangements.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97b7e352-acb3-4b55-88b9-476184b2746e)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71807e2b-d983-4c72-848b-5959303cfaf3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa34c938-b6c9-43a3-8b52-cec97877d198)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2a6b134-ed22-4d0c-8644-b80974e2a99f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b9abe2fa-6efa-43ff-9bce-e8991eecc9d0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e438a3e0-ed49-471b-a084-12cb4bb73b64)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a90ab565-ff0b-4238-b1b0-27b32a8bcfae)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/abf40aac-9faa-4494-b1d3-6b60b629e3b1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/93995b77-da2c-41d8-9721-30ba0550d06c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f541d1b9-5657-4f25-ac7b-87c1546f8de9)
+
+* Probability that **Abhi** is the **winner only**.
+* **Thomas** should never be the **winner**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a67afb6d-3a02-4fdd-8d67-3e4a876ec3dd)
+
+* We should never get **HH or HT** as it makes **thomas** the winner. Another chance won't come. The game will stop there only.
+* If we get **TT** then also it is **fine**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a4f0ab4-f848-48a6-b1df-8b2a0d65851d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/921f6514-cf80-4555-8198-fb8ea2d5a4a5)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6ecf8fd-7341-4323-8d85-f13c7482ef73)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dacb2197-3f5e-4c40-84b2-1d05bc12aebf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea38014f-5163-4884-97c7-49cc8917bf35)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/da173b0c-80ae-44c5-93ea-b626ada5fb36)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a938af83-7de8-4867-bc96-3a9e06549e9a)
+
+* [**IMPORTANT**]
+
+### Doubts
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8fe0674c-65d1-4b50-a042-fc7f7b82331c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6faca50-a66f-4ea0-b69b-60aeaccbcea5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c62ac37c-603a-4461-92ac-dd378dbde5c3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b99d9f2e-1e4e-4f69-8319-5826827b0b53)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b2a654b-cf7e-4da0-aa40-26dc6cc71319)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/21b6a179-664a-4d3d-9ea8-b7d15266d33e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/572e41ca-9c1b-46ea-a04b-4272c0bd3e22)
+
+* Next Class
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
