@@ -3271,6 +3271,85 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ff2faaf-e721-4b4d-9cd4-2a72cbf51287)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c3beeae-4cd7-4dff-9095-1a6dfa124fc7)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/506033c2-8ba7-4b4c-8599-23a19bf95ce9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c7cd747-7bf6-4f24-bd7f-52d210ca31b0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bce3bbd8-948d-4db1-a30d-5c729058be83)
+
+## Properties of Eigen Vectors
+
+* Multiples of **k**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ad71d3e-b3b1-4d1a-812f-cedf1b328c08)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/64685f7f-8390-48ea-868c-bc885fc7f7bb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/06b10f2a-8da7-46bd-833b-98b534a23753)
+
+* Linearly dependent -> Duplicate.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f409849-7aa7-48b6-a31f-50e7772908e9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6149ce8d-9319-4829-bd87-5ce46bddc02e)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a706bbc9-87b4-4364-a22f-ae87f4a0d970)
+
+* **n** is the **order**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4862db3b-d818-418f-a4ed-a79ab4eeb148)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5798adea-6faa-460a-a7b9-b2dd7184e045)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f55174e3-4358-4bf0-950c-ae3e56a873ab)
+
+* Eigen vectors of A and (A ^ T) are **different**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f2d1f70-21ea-4b8c-a302-67236ff4efb2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec2ad40f-6ef0-4908-8078-4fdc607e8a19)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/752c7f84-7abd-4344-8769-37d142d95fee)
+
+* We can take any value for **k**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/736e410a-e43a-4c0c-a9d2-06955777d03b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/799c73be-fa98-4ba9-a26f-0a496c0d960f)
+
+* If a matrix is squared then eigen values are squared but eigen vectors remain the same.
+* Eigen vectors does not changes.
+* No effect on the Eigen vectors.
+* Whatever operation we did on **matrix** that same operation is done on **eigen values**. No effect on the Eigen vectors.
+
+## Cayley-Hamilton Theorem
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9098bffe-59cd-4232-939b-c1a210d8f701)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d59aef1e-0204-4621-a0f9-97ba09a782ea)
+
+* Inplace of **lambda**, place it as **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c8e9e691-efc9-4cfb-98fb-0659aa12a6cd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b7b578f9-dfac-46a0-bd21-e32f2666bb0d)
+
+* CH Theorem.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0346e90f-dc80-4094-8384-43aafe83e96f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d2b121a1-bff0-455b-b193-5b38132059ba)
+
+* Value of **A ^ 4**.
+* Able to find **higher order powers**.
+* Not much of a sustainable process.
+* Time consuming.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c5a47691-b1e6-40b0-a5fe-68f428ae38f8)
+
+* To find inverse of a matrix.
+* We can multiply **A ^ (-1)** on both sides.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e0e3bed-3883-4ed5-80b2-31bc55192a0a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6f4d813-f010-4038-bb14-22ba974f8419)
+
+* We can **directly** find the **inverse** of a matrix.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1bd70dd-82de-4eb8-82ad-c28227e3fb92)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/939d56a4-9ed2-46c0-bb8f-daae01fe32ea)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7ac898e-f4b5-43ed-90e5-97b95c00ba8b)
+
+## Diagonalization of a matrix
+
+
 
 
 
