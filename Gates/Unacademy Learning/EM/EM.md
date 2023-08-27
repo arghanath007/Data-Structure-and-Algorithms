@@ -3349,11 +3349,70 @@
 
 ## Diagonalization of a matrix
 
+* p -> matrix -> Contains the eigen vector matrix
+* lambda1, lambda2 and lambda3 are distinct.
+* All of the rows and columns in **p** are **independent**.
+* Ran of **p** = 3
+* As 3 rows are independent.
+* Ran of **p** or |P| not equals to zero(0).
+* Det of **p** is non-zero.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/945e9748-3028-41e9-a2f9-7b1dacbffc44)
 
+* AP -> matrix.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/835f53b5-6915-40be-b678-c4d453bb450e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/508dc216-e3ac-40d0-ba9d-363d8f4676fe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/11b4b488-e6c8-4b1b-8650-85a34685eb62)
 
+* Yes.
+* **A** is a given matrix.
+* **D** is a diagonal matrix -> We can get the **diagonal matrix** by placing the eigen values as the principle diagonal elements.
+* **P** is a **modal matrix** -> We can get the **modal matrix** by grouping eigen vectors.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24c422dc-165c-4fca-8298-d73df19c60d6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8586b7ad-4f25-40a7-b091-c22b4404e556)
+
+## Applications
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2e4361b5-58ce-4da7-b206-c04db54ee565)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef0d7912-136f-4d04-846e-81b5ebbcaf65)
+
+* We can get the original matrix **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/01208bc8-0c77-4a67-84e2-4a7478a5b653)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c4faad9e-0225-41f5-8fca-165dbf699d84)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d1eb2b8-79f9-4368-9fb2-e66be218e876)
+
+* **D** -> Diagonal matrix.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/284511c8-87d7-40fc-8fcf-15caa7850120)
+
+* [**IMPORTANT**]
+* Problem -> Lambda1, lambda2 and lambda3 are to be **distinct** and it should be having a **full rank matrix** which is **linearly independent**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c3b845aa-e12c-44c0-a22a-7085e36182d6)
+
+* We know the **eigen vectors and values**.
+* We need the original matrix(A).
+* A = P * D * (P ^ (-1))
+* P -> Eigen vector matrix
+* Eigen Vectors -> X1 and X2
+* Eigen values -> Lambda1 and Lambda2.
+* D -> Eigen values matrix.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/481fa4ca-42d6-476e-8e78-0c8107a4d92f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7369f58-67f0-47ce-93f8-199b360c7e54)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3675316b-da3a-4c08-b2be-3c06055cc90f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5f850aa9-f226-47ed-8660-2197abd1354e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aaf407b3-a9e6-4504-8ded-ed50f3f35da1)
+
+* Same values as **Above question**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4afbd2f4-811b-4083-9ce1-342a6125ecff)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/650edf81-94e7-4d82-afe5-707177b513ed)
+
+* [**IMPORTANT**]
 
 
 
