@@ -3414,8 +3414,17 @@
 
 * [**IMPORTANT**]
 
+## doubts-clearing-session (25) [28th Aug 2023]
 
+## LU Decomposition Method
 
+* L -> LTM matrix [Upper triangular elements must be zero(0)]
+* U -> UTM matrix
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ad97a21b-25fd-4ebb-9e67-3c38f3afbaba)
+
+* Standard form
+* In case of **L** matrix, the principle diagonal elements must be **1** only.
 
 
 
