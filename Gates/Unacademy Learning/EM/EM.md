@@ -3410,7 +3410,7 @@
 * Same values as **Above question**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4afbd2f4-811b-4083-9ce1-342a6125ecff)
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/650edf81-94e7-4d82-afe5-707177b513ed)
+![image](https: //github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/650edf81-94e7-4d82-afe5-707177b513ed)
 
 * [**IMPORTANT**]
 
@@ -3419,22 +3419,116 @@
 ## LU Decomposition Method
 
 * L -> LTM matrix [Upper triangular elements must be zero(0)]
-* U -> UTM matrix
+* U -> UTM matrix [Lower triangular elements must be zero(0)]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ad97a21b-25fd-4ebb-9e67-3c38f3afbaba)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eff6248f-5233-465b-9443-2104d3fdce9a)
 
-* Standard form
+* Standard form (2 X 2)
 * In case of **L** matrix, the principle diagonal elements must be **1** only.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7aee7155-56aa-43c4-b435-344a870ed981)
 
+* 3 X 3
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db4ffde7-1b84-44d6-be68-23db7caa1a50)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce84d0e5-11be-4883-87a6-99dd7ea4beb0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8cd24fe0-c3f3-401c-80f8-c942177dd929)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6641e4b1-27bd-4d7c-a281-1f643a17e536)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f4bec97b-f5d1-4712-a4cb-704c52dd9899)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09eeec7a-aeae-487a-8f36-86e3760c3d5b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/07dde07d-bf44-4f31-9705-d3cd946817b9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6f9c59c-7a78-4f4b-88e6-e4aecacae901)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66bb7bb7-252f-4171-8fe0-3c26469a5397)
 
+* [**IMPORTANT**]
 
+## Calculus
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6dab1075-b62d-4758-943e-3c343997db7e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ad9f21e-808e-442d-96f2-a05ece01090d)
 
+* Function
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2d848dfc-1f6a-441b-8a3f-1d1195b75f1f)
+
+* This is a function.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d803415c-80a2-48a7-b0a1-5444b1d27def)
+
+* Even and Odd functions.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/93ae7a3c-d62b-449d-bc70-70098be7f516)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31a9c3aa-c331-4798-9dd8-af2177439688)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/810e2a94-9f46-40e4-bfa3-e6bec212204f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7cec4099-382e-4893-af72-7b08fd4fbb4c)
+
+* Modulus function
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/618daece-bacd-4baa-9fea-8af5f7838e44)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/623224c2-977b-4be1-95df-e6049a23f825)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12f0c31a-a166-4ccb-9617-6311ab86cbd9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9a0ce52-b2f1-42bb-a37e-64b0652683a9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb15bbbc-1c4d-42d8-84d0-112bf8c77ba0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97b754a4-275b-48e0-b1e5-e9e45c847dc2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71675d68-ff7f-485e-9ef0-9254afac360f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed6f37b7-6449-4a75-bc4c-7311459fc2cb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d1a9936-88dd-41a3-b279-097caf15a76c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/285897fc-82d6-410a-af85-9fbc0e14aaae)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc4d31e0-7e83-4eab-9404-3abb17ba7d3d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7898143a-d32b-4fa2-8fa9-53f50810a8e5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/de4f69fa-dd5b-4f7f-a283-f580153310fd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc1cc9fd-d72b-417b-b061-61d4c8bac2c8)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e10a542-b5ce-4062-9ad7-7717b1c0c2e6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6acda918-7c96-4d88-a053-c85b37d1dde2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b9cc2efd-4589-48a8-ac93-c05594365bae)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f34feda-12b0-444a-afa8-5c9fca629829)
+
+* Limit
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b6c1c0b-cdbe-4155-a8ca-1e5adb135b7d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2f10ce9-2a0f-4f70-af69-07f43751c9a5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/94aa100f-bdd5-4e4f-921d-a1733d9ef171)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a75a76e5-8029-4a0a-b230-31c2fa973fe6)
+
+* Limit of the function **exists**.
+* Limit will **exist**.
+* Left and right hand limit are **finite**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b4deee43-c152-4f4a-9a88-4ac43f9c0a5e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e83c1cc8-55fe-4a44-aea5-2f6e8c2b818a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/20e1a891-b1b6-4276-ac18-009e5c1899dc)
+
+* Limit exists.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63434cd5-188d-4606-aac8-809097d209b2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/01e4f2e4-acbc-4eb8-862f-b12b48320223)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7724be9f-416e-467c-a647-8e0ddf8e578d)
+
+* We have to check **left and right** hand sides using **limits**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ef1100f-6f35-4c94-8d9f-48dbe36a52b1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8cf96c1-fd3f-4c62-899a-84ce60f73e9f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/071cf9e8-732d-4577-af15-16c84defe3a8)
+
+* LHS = RHS
+* But the functional value is **not equal**.
+* Limit exists but functional value are **not equal**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/510bede7-ce53-4af7-9f9a-5d8dcecab04a)
+
+* Note [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8dbc0687-2bb6-41f0-9990-95b052dad0a1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5c607f0a-ad53-4e5c-b95c-77322d6fe05a)
+
+* At **x = 5**, the funtional value does not exist.
 
 
 
