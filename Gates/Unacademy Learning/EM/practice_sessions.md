@@ -608,7 +608,90 @@
 
 * [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/974d6660-77e5-4b57-b955-3a573c1327ed)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c1e38ea-92cf-4ede-a06e-52fbf9be6551)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c410caaf-e3e5-404a-8ba2-f8c9884fb4b8)
 
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ac6a760-86df-4049-8bbf-a1ccffe07fd3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c6b1e063-0a5a-4d7d-adba-48db66fcdc3c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ea45974-3f74-4f0e-aea0-b7f29aad5a85)
+
+* Bayer's theorem. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff79aa6d-5bd6-460e-9524-d0faeac8401c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0d3695d-c4a7-4083-9d10-42c5bcea8ef0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db0a4e49-ebc8-4b18-a02a-0d5f919b6af4)
+
+* Together -> LCM.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/423538bd-3799-4be1-92b5-446e8a398251)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7cb2e2df-dfc4-4194-9f45-286a643951fe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3bb7beb3-81d0-439f-9f1f-f3b8b6f55183)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d8c9917-7c40-4f97-940f-2a0334051eb7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/827f5168-6683-4960-a1db-41684066a433)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31d1e3b7-312e-499f-8257-3601be77a670)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee5c17c5-4e91-4cf3-883b-ab344aaf1209)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc1c3b94-ed33-49c9-87a4-790d7bd284cd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b9107917-d2f2-42f1-855a-1bb7b9cd3aa1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d944e125-5202-4482-a8dd-39a7d26d2473)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc4c746f-b751-4878-86a2-64c3ff3636e9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d1d7739-ab13-405e-8fd4-06fd4df6a1c2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba63ffed-f105-4aa4-8a2b-d4efd291b368)
+
+* [**IMPORTANT**] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa11553d-40f3-4389-b598-f9d355724c19)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c34b5eb-e16f-443e-90f0-07df019c0347)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c977e58d-e657-47d4-8447-8c726ad05ee1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c5299222-d53c-42da-8c6b-798f8d2b05e2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5f3d2b5f-f8ed-430c-b513-a38538a7f59e)
+
+* [**IMPORTANT**] 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/927144bd-4b05-4bf9-9bf0-278c07a59fff)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dfd0db46-c4b6-4b1d-a852-f5a5cc0711b1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7236a9cb-a698-44fe-8baf-ffe169bcfce5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/160218a9-cd92-4a76-a0cd-13a14f6030b6)
+
+* 4 jobs are left out and we have to assign these **4 jobs** to the **three computers** we have.
+* Arrangement = Fixed ^ Variable = 3 ^ 4 -> **Total no. of combinations** to assign the 4 jobs to the 3 computers.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0858655-5028-4ae0-8c40-471182d27715)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c42eba31-d060-45a4-83bd-6051ec4d6fc4)
+
+* Assigning the 4 jobs to the two computers(C1 and C3) -> 2 ^ 4 -> It means assignment of all the jobs to **C1 and C3** and **C2** doesn't get any jobs.
+* That's is not possible.
+* (3 ^ 4) -  (2 ^ 4) -> 81 - 16 -> 65 -> Each computer will get atleast one job now.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e219634d-1f6c-40b8-9af3-34d9a6223962)
+
+* They are asking **permutations** and not probability.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0ae8e32-916c-4fb0-9e87-9709abed16bd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0d44661-22b9-4761-8c35-50f9d76f91c5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ffc482f1-7932-446f-a1d4-9aa265551cfa)
+
+* **5** cases where all of the computers are getting atleast one job.
+* **C1 and C3** already have **job**.
+* **C1 and C3** are getting **J1 and J6** jobs respectively.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae2adcfc-beaf-4be8-bb4d-96d1146f61f0)
+
+* [**IMPORTANT**] 
+
+### Doubts
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89a66c11-1dfc-41af-b530-c8c765507a2f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5313942-d513-410b-964a-7641e9af8b1e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/402e1cdf-24d8-40b5-a37d-33a49433fc6e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f92ca6de-37f0-4a99-840f-7ccd974afb4d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/533ca445-b5cc-40bd-af21-b8be45bef8a4)
+
+* M -> Meet
+* x <= 12 -> Meet time less than 12mins.
+* Next class
 
 
 
@@ -670,6 +753,29 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b122e69-4cc4-4ef0-aadb-89e9a0be6ddd)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33225d92-503a-47e0-a6c4-9d9c2ae99fa7)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd9e33e7-33c6-4e98-bdc8-bb180ecfa9a7)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
