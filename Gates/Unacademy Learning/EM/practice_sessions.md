@@ -693,16 +693,56 @@
 * x <= 12 -> Meet time less than 12mins.
 * Next class
 
+## practice-session-on-linear-algebra-part-ii (6) [28th Aug 2023]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71a0d232-7bf9-42d6-bb34-0f9bed205d43)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce693108-79a7-4819-9026-1592425431e9)
 
+* Shaded area is the favourable event/area.
+* Geometric Probability = Favourable area / Total area.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d193e15-6db4-4beb-a8dc-6e1dd6b1da04)
 
+* Total area -> 60 * 60.f
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d511d678-c38b-492a-8d5b-0cba14076224)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c0e933f-703f-4146-81b0-624b770c7483)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ee192ad-87d4-439a-8ef3-1a974ce31493)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05a98f21-9dad-49ec-aa64-cf269536dba8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1bc1a817-811b-4df6-8d26-0eab244830e6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/717d3cf0-b61d-4a81-a3e0-402dbc5310c8)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec27a019-01e2-4e53-8dfa-0eaf2b377cfb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be630118-9b7f-46ff-a63f-60420c058cb9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0bd45da8-0007-4bf9-84d8-cbc2d5fa8f2c)
 
+* [**IMPORTANT**]
+* For comparison min. of two chocolates are required.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/370fb352-e110-4846-af2a-d537aa0149ba)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d21918f1-e6a6-4931-823f-fcbe618b7567)
+
+* N = 2
+* There are two people in the room.
+* P(Born on same day) = 1 - P(Born on different days)
+* The first person can choose any of the 30 days out of the 30days we have. So, 30/30.
+* The second person should not be born on the day the first person is born. So 29/30.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ffe0214-850b-42da-8007-43e216ab4f05)
+
+* To understand the concept.
+* Now check the **options**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/211817ba-1e7e-4d10-9aae-01c3f03a8929)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f759d83e-75e3-49b8-b02f-67fda21b7e97)
+
+* [**IMPORTANT**]
+* Start from 58mins.
 
 
 
@@ -753,34 +793,6 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b122e69-4cc4-4ef0-aadb-89e9a0be6ddd)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33225d92-503a-47e0-a6c4-9d9c2ae99fa7)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd9e33e7-33c6-4e98-bdc8-bb180ecfa9a7)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
