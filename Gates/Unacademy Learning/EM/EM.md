@@ -3585,13 +3585,88 @@
 * [**IMPORTANT**]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/38a61c92-0778-40f2-8c0b-903432f5e42e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/74b44fb4-e111-4fdf-9ca4-93a454a460af)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f56a123-9d34-4aa0-8ca5-84ce82711224)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/002e7f47-e149-4fab-befa-56fdfacc0cee)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95df42e1-6ce7-4d7e-adfb-8c6b68c209ec)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22ef9f2f-2bee-4ced-95fe-0d4beaabefb0)
 
+* tan 0 -> 0
+* cos 0 -> 1
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b1a7b2d7-bafa-44f4-a165-f7d12d53b43d)
 
+* Note [**IMPORTANT**]
+* Must be in **same units**.
+* Sin x -> Degrees
+* x -> radians.
+* Make them in **same units**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d70aa81-84a8-4b81-9c8b-61e28f01184e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/99665edf-65cb-4817-b9fe-ce2a740ea540)
 
+* **Radians to degree** conversion.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/efd5c0c4-3d84-4132-8fac-1caaa580852b)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8e363e0-ffc7-46e1-9f91-68a8354a5fa8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf95ce5b-4a25-4ee2-a413-405408116dee)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f8e8186f-d8a1-4fa3-9e6a-5060085619af)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db8d8362-ff1f-4526-a099-26039dc50ed7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1384f88b-9dca-4c72-94bf-1d2aa5eeaed9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65f7d5d2-1b0c-449c-82fd-11f0409d024f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cdb208b4-8f0b-4a3a-a411-ccac56d18c4c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85a07ff6-8206-49fe-91d1-4728b96f8049)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5b25683-ea76-4705-8b81-794763e27f0e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa604535-c831-462c-b3c8-966866043d11)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb83327e-01b6-4a36-8495-34a990b6f8c1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea0eb503-65de-463c-9d66-9024aac1a0d3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf9e1f67-7950-428a-a357-bd22d9391d18)
+
+* Trick.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cfbce071-5700-43d6-8e64-a72e0d9b0cc3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0849dc8-5000-42ea-9845-f751c52a16a0)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f01ce1f1-24df-4cae-8eb4-0abbb5bd0ae9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b07e8703-7295-4f03-8f5e-7e3155a53f74)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92b84e7a-2b7c-498e-a0c4-18a9c6f6d0cc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/75ffa9fb-3fe3-4501-a141-be43c0b370da)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf6bf66a-86eb-4eab-87de-e4cdfcfdc543)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/abf71343-4a01-424f-a8f7-88842c9e5081)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5f3259f6-a57a-42e4-b336-5d16bb897146)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3f47dcf-a9cf-4c91-bc4e-d5049da92b8c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5606eb00-5700-44aa-828c-370a700fba1c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2bbae324-6d01-439f-a8a1-2c9bfedf387b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f38916d2-0d1e-4303-959d-1d2735549ed9)
+
+* Take log on both sides and then continue.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0ea0360-8970-42df-b6d0-d0087710b309)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0fda4ac-1211-4c78-9815-6be25291808a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9cb9b5f5-bf10-49e9-a989-adad54b562a4)
+
+* When we have **1 ^ (infinite)**. [**IMPORTANT**]
+* Only for **1 ^ (infinite)** case.
+* Special case.
+* Formula
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/122b066a-de70-4a66-a467-e2a252988c7d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4fa660b9-eced-42ae-9ed9-f9e18f031358)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f001d2e7-9152-4b10-94d4-c33d056d8634)
+
+* We have to make it like that.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/852f0c59-6b21-43d0-9465-b8031f270fdf)
+
+* [**IMPORTANT**]
 
 
 
