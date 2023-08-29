@@ -766,14 +766,53 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6a6800c-632b-4cea-9d2d-ab474497cb62)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/923781d5-02a4-43b1-a3ba-af68316fec58)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b76e1020-4b8f-41a5-baa9-0d43a527a6f9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a462a2e2-c6fa-4749-acfb-1251c736e6ba)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/11377669-fc15-4c24-b7ed-5f9dbd5a4781)
 
+* [**IMPORTANT**] 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/275ad7c3-4c80-4de7-aa4c-a4192852e095)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/420c855e-9786-4984-9be7-5b6d096f05c6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/52fe3621-a60f-48dd-99b7-01441d70a4dc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ad796303-13df-4f7f-80ac-d8be51bbf705)
 
+* Probability of person getting the **wrong report**.
 
+* [**IMPORTANT**] 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a0b1e0a-0ac0-4f64-b968-bbcd785ffb49)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/40dcf35f-f38e-4ef3-ac32-93756ffd52dc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/61dd7000-c47b-4579-a2cb-af477c7870c9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44b496a4-81b4-463c-a8b3-e2a18d5ae883)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b079b7d8-b8ec-488f-8390-11d4f618d332)
 
+* [**IMPORTANT**] 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc3a3c52-a4aa-4c73-b9a4-c7c43da54f50)
 
+* [**IMPORTANT**] 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4940b7e2-6832-4840-9cb2-1c02b824f1ba)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d5eaf87b-c1aa-4340-abb1-eda076a02791)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ddbddb24-6414-497b-8d92-4d7041815e51)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c86966e-78f7-4128-bf4e-617fe3ca608c)
+
+## Random Variable
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71181259-2116-4882-be4e-3d8c8967d256)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66b6eb63-52a7-49fe-bba6-7c57e868ff51)
+
+* Yes.
+* Random variable can be **negative** also, depending on the question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/efa75e12-1f8e-4006-bbd6-80f4a9b2f8d8)
+
+* **X** -> Random Variable.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/75805626-93dd-4bbc-a305-2d2616da549f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/90e08fe4-9a97-4bd7-bc34-f7c40a0e2b77)
+
+* [**IMPORTANT**]
 
 
 
