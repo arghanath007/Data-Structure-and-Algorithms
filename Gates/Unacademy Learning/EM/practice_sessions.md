@@ -835,19 +835,56 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4870024e-f318-4dcd-81f8-741bc295575b)
 
 * PDF.
-* Area bounded by the **PDF curve** is always **unity**.
+* Area bounded by any **PDF curve** is always **unity**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a282bf8-7535-407d-835e-dddf132702b1)
 
 * Mean.
-* 24mins
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8deeff0-00e0-48ff-b026-f15f0914f1c3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e294ed91-432a-4918-adf1-e17b7c60ee79)
 
+* Sum of all the probabilities is **1**. Summation.
+* In case of **discrete random variable** we use **summation**. Finite or countable number of cases is **summation**.
+* For **continuous** case, we use **intigration**. Infinite number of cases is **integration**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f3b3ab77-3168-43b6-9e4c-1e58b6a0fc22)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91beaa36-f245-412c-828e-ee4196e969f3)
 
+* Mean
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d72bd47-89b0-48bb-bb9b-0808c94d0f39)
 
+* Mean Square Value
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f3c3cc1a-9e4a-40c2-b22a-eadfd35a460f)
+
+* Square of mean.
+* RV -> Random variable.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c160379f-2aa6-4b33-af5f-dff44ada604c)
+
+* Properties of mean
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c53ccb02-a98d-4c5f-87e5-4b9c17cd96c8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2e1f9fb0-e85d-4b97-a358-587307361e51)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6fb25259-c352-40f4-934a-a07f33e43470)
+
+* Variance.
+* **Variance** is always **positive only**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/14fda53d-14f8-4922-b026-2340fd67c651)
+
+* Standard Deviation
+* **Variance** of a **constant** is zero(0).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31dcdf27-d658-488d-b525-c5fa175d01a3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92c3c11f-1a39-4a2a-b2e5-15e6269b7865)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a49246d8-4150-4101-9552-fb9c2d293d54)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80c2cc8e-3604-4dd3-b017-28cf139ca39c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/287551eb-47a0-4d9e-af39-c759e5ad2591)
+
+* Start from 40mins.
 
 
 
