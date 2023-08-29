@@ -814,7 +814,33 @@
 
 * [**IMPORTANT**]
 
+## practice-session-on-linear-algebra-part-iii (7) [29th Aug 2023]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b33f3142-885d-4862-b172-8f29938c699f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a6c1112-adf3-4aee-a87e-a57087b79b17)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22d163a8-583d-44a5-9445-b129c6f761ab)
+
+* **X** -> Random Variable.
+* **random variable** is exactly same as **Favourable event**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/783b387a-cf71-49cb-851e-00035dc38a62)
+
+* CDF will take all of the values that are **X <= 2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/78f850af-13c6-41f5-9401-7d0c6832f589)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/75b9d1d2-120a-41bd-a398-0ff598264baa)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4870024e-f318-4dcd-81f8-741bc295575b)
+
+* PDF.
+* Area bounded by the **PDF curve** is always **unity**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a282bf8-7535-407d-835e-dddf132702b1)
+
+* Mean.
+* 24mins
 
 
 
