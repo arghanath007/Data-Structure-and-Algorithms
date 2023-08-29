@@ -3530,6 +3530,108 @@
 
 * At **x = 5**, the funtional value does not exist.
 
+## mean-value-theorems (26) [29th Aug 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1eb8d102-2a2e-4639-aefa-e5d7b9bb676a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e25f1b2-b04f-4999-a935-f73e8b8211cb)
+
+* LHS and RHS must be **finite** and **LHL = RHL** as well then only **limit** exists**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ebb0512-7dd6-4989-9be3-54eb91aec9ad)
+
+* Indeterminate forms [Values which cannot be **defined**].
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd815f83-bfc2-4b1a-bd57-0c89afea8e1d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b920452-2e21-4681-9af1-9dd5bf924b16)
+
+* Determinate forms.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd1c3a2a-e8d8-4540-950e-e0f9042b9e89)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d95cef9b-71c7-41f1-867c-e8b49bd1e8a8)
+
+* Limit is applicable to wherever **x** is there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b8e3029-69f5-4446-af4e-ef4037a52dad)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36d16730-da1e-40e6-b060-9d7e58be204a)
+
+* Evaluation of limits.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/15d4e3de-ed4f-455c-9924-0726e242f39f)
+
+* Don't blindly go for **L' Hospital rule**.
+* Substitude the limit value.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/49d14b9c-f829-47df-8e7c-fb31b9b33350)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/471c0b8b-43bc-41db-83f3-92a56efa91c0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8eda421f-6cc5-419d-8c06-b4e635c8cfa6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/255b5d6e-0cd8-4244-90cb-9154db709a61)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/51745003-19e4-4782-b1e4-a1fd4a02ad3c)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7ecffb2-1d8f-4735-8e25-43316a87233f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d0f0d39-5c1a-4bbd-b435-62a2f9024f28)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/47037aef-0668-41a8-88a7-4e531a9ee965)
+
+* Standard formula [**IMPORTANT**]
+* Remember it.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae9a9414-cd96-4f62-87bc-007026c4b12b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/99591a55-2ea6-46ad-9741-8d447f8d102d)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/38a61c92-0778-40f2-8c0b-903432f5e42e)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
