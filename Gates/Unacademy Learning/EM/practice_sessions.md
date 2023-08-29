@@ -742,9 +742,30 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f759d83e-75e3-49b8-b02f-67fda21b7e97)
 
 * [**IMPORTANT**]
-* Start from 58mins.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6fdb251-5e52-48a4-a4a8-c89523a9e6b1)
 
+* As either A or B.
+* So the input has to be approved by Either A or B, Which means **either A or either B or Both**. Where we can have **three cases**.
+* AB -> Both Work
+* A'B -> Only B approved
+* AB' -> Only A approved.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f2d0406a-2657-4329-8800-ca3a22000f35)
+
+* 1 - (all failure) is **wrong**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/23bd3a71-2f61-4255-94c8-bb92fc62fe8f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/55640609-6e73-4e0e-b23d-05c4454723a4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8aa1b898-0810-44c9-8d93-96e7fa653411)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac3855e7-5743-4597-900f-e13f638c81fc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b40a2f7-c90e-462a-866f-f82dd1d3b3d7)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6a6800c-632b-4cea-9d2d-ab474497cb62)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/923781d5-02a4-43b1-a3ba-af68316fec58)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b76e1020-4b8f-41a5-baa9-0d43a527a6f9)
 
 
 
