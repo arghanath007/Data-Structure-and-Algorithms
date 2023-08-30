@@ -1020,18 +1020,48 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92f6e7ee-6a18-48df-9f1e-ea8a8a875072)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e734bcf8-c03d-4cfe-ac32-44ff0c6c9582)
 
+## practice-session-on-linear-algebra-part-iv-and-doubt-clearing (8) [30th Aug 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9455624-30c7-419c-b747-5fbd1e90770c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b7bf941-a2a8-4d76-8099-403e404f37d2)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f82942c-4fd1-4a36-92f3-2cd8bcaabe8f)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f66dfa72-59da-4749-8885-8e6ceec81795)
+
+* x -> No. of marks the students get.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/065da8d1-a1a6-4a9c-b843-23531395abe5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/40988ba9-c7a9-42f9-9087-864e1d7875a1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6423520-359a-4670-b91a-b534904458c3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e7155c28-2499-4ce8-90f3-3d99e8a419ab)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b45bae1-565a-47f0-9876-26a4d4903ac0)
+
+* U -> Uniform distribution.
+* If we take **above** then **y** value is **greater**.
+* If we take **below** then **y** value is **smaller/less**.
+* We have to select the point in the **below** region.
+* Total Area -> 1 * 3 -> 3.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3734b354-8e28-4db9-ab79-d4d61e5a199b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16afaba7-dcf3-4a7b-9258-bc232e71f31b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eda516d6-adfc-475a-8bfc-87060a2aaab7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/54e042e2-44ce-4d1d-b02f-5f76e9be3fdc)
+
+* (y < x), we have to prove.
+* We are drawing the **y = x** line which is diving the area.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/17593b86-e7e3-477b-9d67-7823561338f0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/48d4f407-9faf-4b43-b026-a9029d9ee8e7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/282ee927-1a0c-4f50-858d-0c3289226700)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/caecba88-9de7-4392-ba44-41e31c861d5a)
 
 
-
-
-
-
-
-
-
-
-
-
+* [**IMPORTANT**]
 
 
 
