@@ -1121,6 +1121,68 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c4bef087-59a0-4e5f-acfa-0808201298a0)
 
+* When we have negative infinity to positive infinity, then we can check for **odd or even** functions.
+* This is an **odd function**.
+* Integration of Odd function = 0. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f9ba7f34-eab6-46dd-ae12-ead3428428cd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9abd6c8a-b3dc-4485-89db-326c6324693b)
+
+* Even/odd functions. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44e4c8d1-bcfc-4600-a961-6961596e872a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5334bdf6-3a3e-4b95-a41f-3267acbe7b68)
+
+* Odd function
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c6d3837-4402-443b-ac50-95d98b179998)
+
+* |X| -> X in **even functions** from 0 to infinity.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37d66a8e-0f8b-426c-9d9c-aed582c37f6a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df8645e1-038a-4ba8-b3a7-71c9d377436c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e76b3130-c1ea-4969-ad1f-95618750ab4c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2c1b6f9-5fc2-4bb8-9d09-0aa69242b277)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f8adc397-2e4f-4c7f-9c2f-f68a463b6b5d)
+
+* e ^ (- infinity) = 0.
+* e ^ 0 = 1.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1445eba1-749e-44b2-8b00-4a19f5155b99)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/442f9906-2b0f-4195-a6d6-7327c62fab69)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/655eb052-adb8-4600-9b1a-39fe4f690035)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c62d385e-7223-4bb4-a470-5b851230bec3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1a766bb-34d3-48fe-8e8b-72040dceb5a0)
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/3D53007891
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e4c9e009-53f4-4eda-a5a7-cc7a0d7f2107)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f9dcb10b-4445-4da2-b138-6afc8569f816)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f59e78d-ab46-4e90-b39a-47e799c1a08d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80c0f7f1-bad1-47e7-8de4-82fc6c1e8ff7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d65c12dc-2e8d-42db-95f7-a946d95044b3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e20ad5e9-2e3d-49ef-bf7d-f06641210540)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d8f3c91-ea79-48d5-8239-85c9bae17417)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd077fb2-211a-456d-b273-087711948fb0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f4b99825-5cb1-4f87-aa3c-a62add9f68fe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5cd3e83-2116-4980-b831-ad6033ee618a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9efc4a86-9089-4266-9442-2b8450fd541c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0bba6f4e-fbc2-44f5-9442-76f8dea0a3f8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/850517c3-5908-46c7-affa-3fc622dc0fa1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/40609c63-0fe3-4961-bbbd-fb3ac07abff1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c6fbac1d-b9b7-447e-9351-cfcdd227038a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6d9069f-4d4f-4823-982c-067073021cce)
+
+* [**IMPORTANT**]
+
+
+
 
 
 
