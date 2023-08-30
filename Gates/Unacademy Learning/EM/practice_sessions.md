@@ -961,6 +961,76 @@
 
 * Binomial distribution 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/866cfa1b-322d-4e97-b723-b1e631474941)
+
+* p -> Very small
+* n -> Very large
+* Poisson's distribution.
+* Only distribution where the **mean and variance** are **equal**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4939b8df-81e9-400d-8bef-b196776b4b09)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6cb561e9-d511-4f8a-9fd1-796d8b1941ce)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8107817b-02e1-4141-9d24-1796d72040e7)
+
+* Uniform Distribution
+* Constant value.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d98de808-b957-4630-9751-24c893c53ee6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/23893d99-2c83-4a35-b69f-157b76cbc23b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/87258caa-c400-4e6a-a9b9-adb0ebefecff)
+
+* Exponential or Continuous distribution.
+* PDF -> Probability distribution function
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e40e732-2eb0-45cd-b691-87540fe78949)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f43aeb32-624d-4b27-8871-bb1d2a449492)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f740d8d6-142a-4af9-b519-ee4852a65187)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5cbb106d-be2e-4b1b-ab71-8ddce9007694)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/18e83e7b-ca25-49c7-b828-8cb4b60edc50)
+
+* Average numbers -> Mean
+* **X** is the no. of attempts.
+
+* [**IMPORTANT**]
+
+* At the green signal there is **no need to wait**.
+* Expected waiting time -> Mean.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/938412dc-0ed0-43b4-943c-ba144379f7e3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58261184-d6fe-4054-a529-1b973487adc7)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6e05328c-2cef-49f7-8459-5130af5dd183)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/054b08ec-dcee-4522-894c-2c5736dac3e9)
+
+* For poisson distribution, **mean and variance** are **equal**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/53cdf28d-dbcf-4e83-948a-fc21a436c64b)
+
+* E(4) = 4 [Constant only]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e87e472a-fad5-48b3-86cb-32efe801f46e)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92f6e7ee-6a18-48df-9f1e-ea8a8a875072)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e734bcf8-c03d-4cfe-ac32-44ff0c6c9582)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
