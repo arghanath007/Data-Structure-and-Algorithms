@@ -920,8 +920,46 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab3860dd-c790-4bd3-902c-5f229442b4f7)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97efb31c-b0d9-4d2c-810a-6929a53fe394)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc75079b-44d7-45c6-8267-37ff35611618)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/77866634-7bcb-41fa-ab88-c9b07cdc2698)
 
+* Zero(0) is also possible.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/04848708-c48f-429f-aca2-16fc273aa1aa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b625e385-7001-405e-8233-cb48ffc903c6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba00ff56-2f30-4fc0-81c1-57cecb7f0bff)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85adf9b4-f4fb-44c7-9f7b-7e41b6aa4e57)
+
+* Unit step function. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed9eba8b-d5ff-4b85-bb57-78e5fa945272)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6fedd4d7-0e47-48a7-af8d-6e8c3496efa3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e0b89c8c-7460-41c1-99fd-df4d4a2644f9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/477146af-6bb9-4972-ad05-413271c34cdc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fca2fe2e-40fd-498d-8fbe-327c7d399afc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b9ee0bea-ed38-44f6-a715-b9a4bf0ef866)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab81eed1-409a-4773-bed0-bc22c685f74e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3981cfd0-1e0d-469e-af9a-3e80983859e7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85208a76-9e5d-4108-b5a9-d1be604388d7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fdba15f2-583d-4cbc-a319-1a2da1ad8506)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/174d075e-b7f1-49c0-9fb7-4d26f2f092ac)
+
+* Means are **equal** but **variances** are **not equal**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2415655-bf62-451c-92ae-79a299074779)
+
+* No need to calculate variance as **mean = 0**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/613a2e0a-1335-4cb8-aa1a-dc7255efabd7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f263b04-233e-4283-b335-60914a204b02)
+
+* Probability Distributions.
+* Binomial distribution -> For 2 possible combinations only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/68b6f7f3-1aee-4b6b-91ba-e3d7fa0fb6e2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/467cfddf-1258-4542-a4d4-617b4b4c17c4)
+
+* Binomial distribution 
 
 
 
