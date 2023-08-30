@@ -1059,15 +1059,23 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/48d4f407-9faf-4b43-b026-a9029d9ee8e7)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/282ee927-1a0c-4f50-858d-0c3289226700)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/caecba88-9de7-4392-ba44-41e31c861d5a)
-
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b2e5a30-9fcc-40ee-b1cd-ae00d7c81ec8)
 
 * [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec2fdb01-8390-441f-8a29-f22ec58b6689)
 
+* X and Y value must be less than 1/2.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aaae9867-f0a6-4b7d-8314-b73156a62b91)
 
+* Total Area -> Total sample space -> 2 * 2 -> 4.
+* Favourable Area -> 1.5 * 1.5 -> 3/2 * 3/2 -> 9/4
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5d96167-64ec-44c6-b3fe-a149d9ba0a45)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7550ba64-a9ea-47ca-85f7-f800747c734b)
 
+* [**IMPORTANT**]
 
 
 
