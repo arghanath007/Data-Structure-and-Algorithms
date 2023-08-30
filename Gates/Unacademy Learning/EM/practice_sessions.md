@@ -884,7 +884,51 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80c2cc8e-3604-4dd3-b017-28cf139ca39c)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/287551eb-47a0-4d9e-af39-c759e5ad2591)
 
-* Start from 40mins.
+* Any Probability Density function(PDF), the **area bounded** must be always **1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f54d728f-3539-495b-addd-fa5fe404e254)
+
+* If it is a **Probability Density function(PDF)** then the **area** must be **1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6873835-176e-47ab-95d1-6516fad4b3d9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f21f576-81ec-4086-b665-aa8b99544f2a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fdfeedaa-6113-4ada-bc82-7067667a3617)
+
+* [**IMPORTANT**]
+* Explaination -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/3B58E5D431
+* (1/(1 + x ^ 2) dx = tan ^ (-1) x [**IMPORTANT**]
+* Property of **Mod x or |X|**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c4bbe3b-22eb-4abf-8d04-c4fdb646689b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31f45aae-5939-4b79-a743-2228dd8970f0)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c62c2d39-6df1-458b-913d-7c6f997cc7fa)
+
+* zero(0).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a4c1126-be2f-4e82-a951-138cbb88f478)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d2493b5-1583-4f88-a54e-e7912b60a21e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/70d6fd30-5939-41a2-9151-97f47a6fb34f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6e3ffdc5-b79c-4549-8bfc-063c6c4fc517)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d23a292-3f6d-4fe8-9f30-10ac78e56898)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8048ea00-33dc-4956-9522-6257d9ffb5a6)
+
+* [**IMPORTANT**]
+* As it is **probability**, the summation must be **equal to 1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab3860dd-c790-4bd3-902c-5f229442b4f7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97efb31c-b0d9-4d2c-810a-6929a53fe394)
+
+
+
+
+
+
+
+
+
 
 
 
