@@ -1,4 +1,4 @@
-# EM practice sessions
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ec214e6-165b-43a6-83aa-c29b11c6f9bb)# EM practice sessions
 
 * Link -> https://unacademy.com/course/revision-course-on-engineering-mathematics-199/ZE7GO6F5
 
@@ -1254,6 +1254,185 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66e60005-4ce7-41c5-8f34-a06ff02210ad)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/70a936de-344c-4c9b-b7d2-5af682427da3)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/64764881-27dd-405e-bcbb-84f971ad51cc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6d293f3-8840-4801-838a-cee639faf9bf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3b346de7-e5b7-47b1-b66f-0ffa7accad89)
+
+* We have to convert the **general density function** into **standard density function**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/21a0a104-0ce6-417e-8f24-37a4ba6b5fa2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed4bf934-67dc-4697-95c6-726cc002d9e1)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af7337ce-b374-4a18-96dc-0ada3115b514)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6144111c-99a1-4c9f-a101-6e08e98c9554)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e9c7be0-7eed-4a2e-9160-0690179c0fcc)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3eac3d3-f17f-493d-93aa-efaca121e1b6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/94b7c067-5c8a-49e1-9e81-285a1e946fa0)
+
+* We are trying to find the area from **1 to infinite** which is **0.5** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/03346770-3644-46b9-b1c1-4d054052b09f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3b7a3e1d-1319-4316-9679-ae955338b10d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/07c9ce58-8fc5-404f-a1b8-9e66f084d508)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/411bb706-79e6-4276-a946-d0c0a629cdbb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e04a3693-d631-4453-b1a9-ecdb6ee06c1f)
+
+* Whatever is the **highest value**, we have to consider. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2d6b2768-e112-48a3-be88-404fd38c2fe5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d776bf6-3bee-42b7-80b5-f9ec1095ae99)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f1ce8f6b-da73-4a45-80c6-77d2e13ca103)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/138de12d-2eaf-4b6b-a72e-1ca74874e8b9)
+
+* Mode -> Sofmething that is repeated more no. of times.
+* Median -> We have to arrange them in **order**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8cca7ecf-424a-4fab-8e65-a8da2e7fd984)
+
+* Even no -> Two values
+* Odd no -> One value.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/14ae95b8-487c-4a39-966d-d9f543f5428a)
+
+* F(10) is **greater**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/45472f47-9f22-4cbf-b229-99d29e5708cf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c55e6dfe-3d8a-4791-bada-cacf18be06dc)
+
+* G(-10) is **greater**.
+* Some cases **F(10) or F(x)** is **greater** and in some cases **G(-10) or G(x)** is **greater**.
+* We cannot say which one is **greater**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/601f4d2a-ce2b-493f-8f02-d49c4fa98fe2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66257230-5490-4985-8002-3794df702b30)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/770ed5b9-588a-4576-87d7-33d8b65285c1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d63e74a-607f-45cd-a321-b95acccb755c)
+
+*  Negative-Negative multiplication gives **positive value**.
+* [**IMPORTANT**]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
