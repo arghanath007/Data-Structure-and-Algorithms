@@ -1181,7 +1181,79 @@
 
 * [**IMPORTANT**]
 
+## practice-session-on-calculus-part-i (9) [30th Aug 2023]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc04d228-d518-4909-917f-9167f9a1c91e)
+
+* This is for **one packet**.
+* We need to find for **10000** packets.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5db48696-deca-4be4-be44-2ee523db21c0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/994e09b6-9955-4617-a7de-5b22233b2fb0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19337b0d-c96a-41f2-94b7-8fd0238dad7b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a69a7797-13e9-44b2-9f65-bf068dad6783)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa6d5aff-d0a8-440c-bf4c-ad5de2df0c1a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f06daa6-79a2-41e5-8db6-ded99117a7c3)
+
+* [**IMPORTANT**]
+
+* Atleast one of the values has to be **5** for the expectation(mean) to be **5**.
+* Sample point values can be **negative also**. Probability cannot be **negative**.
+* **X1, X2 and X3 and X4** values can be **negative values** also.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b4ed5dad-12bb-4bfe-8a1c-8cb6b1e04ed4)
+
+* [**IMPORTANT**]
+* Variance -> Single variable
+* Covariance -> Two variables.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e4c873bf-6ba0-48e3-bf40-9b82d89530f2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f9350421-a68b-4846-98e1-f4924bbf3b33)
+
+* As **X and Y** are **independent** so **Cov(X, Y) = 0**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ff88e3f-017f-4443-8886-2b5982f3a7a3)
+
+* 'd' option is **wrong. [**IMPORTANT**]
+* **-1** means looking **1 rupee**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/996b559f-7b1d-4186-a862-579edffd4238)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9fc1f998-2b18-4c41-8c98-af2f9ee68788)
+
+## Normal Distribution
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee2d567a-4f17-4c3b-9334-ddc3ad7670b3)
+
+* Sigma ^ 2 -> Variance
+* Sigma -> Standard Deviation.
+* Shape of the curve is a **bell shape** curve.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dbafea56-2b21-4dc0-9b20-a321c93ecfe7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c9f31ea-2cef-4fa7-9dbd-9328964b8a71)
+
+* Left side is 50% and right side is 50% in the bell curve graph.
+* Area of any probability density function is **1**.
+* Since the total area is **1**. So the left side is **0.5** and the right side is **0.5**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d5531fc1-2001-4318-bf3f-a1798c884d0a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c4662e33-0bcb-40da-bb5c-51cdfa3deea7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c379cb60-eb09-4d83-b65b-d55beb695b0a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b77a39ef-0e30-4173-b2be-f8d08aa2d1c4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d924ca3-9008-4614-b613-106723b21e82)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/96697cc7-b8b6-4a0c-a645-b448744950d9)
+
+* For a **standard normal density function**, **mean = 0** and **standard deviation = 1**.
+* The values in the graph will just change.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d7fe7be7-e4b1-48eb-b1d8-e8e685d7f33e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e650f7a-b586-4e03-9969-f585c30f7839)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/15f21c32-c138-48fb-8b4a-4ba3ccd07b2c)
+
+* We will convert everything into the **positive area**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66e60005-4ce7-41c5-8f34-a06ff02210ad)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/70a936de-344c-4c9b-b7d2-5af682427da3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/64764881-27dd-405e-bcbb-84f971ad51cc)
 
 
 
