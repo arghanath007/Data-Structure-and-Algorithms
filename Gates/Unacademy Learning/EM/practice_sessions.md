@@ -1,4 +1,4 @@
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ec214e6-165b-43a6-83aa-c29b11c6f9bb)# EM practice sessions
+# EM practice sessions
 
 * Link -> https://unacademy.com/course/revision-course-on-engineering-mathematics-199/ZE7GO6F5
 
@@ -1471,5 +1471,8 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33225d92-503a-47e0-a6c4-9d9c2ae99fa7)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd9e33e7-33c6-4e98-bdc8-bb180ecfa9a7)
 
+# Misplaced Images
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ec214e6-165b-43a6-83aa-c29b11c6f9bb)
 
 
