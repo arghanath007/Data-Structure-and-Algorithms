@@ -1077,6 +1077,21 @@
 
 * [**IMPORTANT**]
 
+* Sum of **odd numbers** -> n ^ 2.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/68c14989-d790-4a7e-bf46-4f973aefbf19)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2dac5a79-aa1f-4ba0-969f-eec86cc994ff)
+
+* Sum.
+
+
+
+
+
+
+
+
+
 
 
 
