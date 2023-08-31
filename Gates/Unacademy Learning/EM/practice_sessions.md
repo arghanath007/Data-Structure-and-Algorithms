@@ -1318,11 +1318,22 @@
 *  Negative-Negative multiplication gives **positive value**.
 * [**IMPORTANT**]
 
+## practice-session-on-calculus-part-ii (10) [31st Aug 2023]
 
+* Det of a matrix(A) -> Product of the eigen values.
+* Trace of a matrix(A) -> Sum of the eigen values.
+* Sum of the eigen values -> Sum of the principle diagonal elements.
+* We will try to expand the row/column which has **maximum no. of zeroes(0)**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/60a1d0d7-1541-4ab6-9081-fd4b9a0e74fe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9176c3d7-1441-4146-b72b-4e1e28a7cc6b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c96c38f8-43d6-4b62-b2e2-8e70492e0f9b)
 
+* If anyone of the **eigen value** is **zero(0)** then the **product** of the **eigen values** will also be **zero(0)**.
 
-
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/78e10e62-f4f3-4581-9faf-e668329f438b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be9008e5-806e-4986-acd2-2d29ee7c9ea5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0383e5a-8e25-49f0-ada4-1492f8eef7eb)
 
 
 
