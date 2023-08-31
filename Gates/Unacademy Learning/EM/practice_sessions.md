@@ -1454,42 +1454,119 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba359a93-878f-4094-bce1-2aec4b838fb5)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e0695a7b-c293-4ef6-b517-67956cc10391)
 
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6883528e-1c07-4412-8305-824487cd9b9e)
+
+* Orthogonal matrix.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e0090b2e-c22f-43e0-8b3c-0b90d4cb8e69)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4133cd94-efc4-4cb8-bf70-855c65d156ba)
+
+* Option **D** is **incorrect**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f1154b7-48f9-4158-9a4d-9a0754113af8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85e8003d-f728-4e93-840d-b8a6b918c278)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/873fd50f-410b-49a2-b466-f0bf756b231b)
+
+* Singular -> det = 0.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05200687-ec42-4d7e-8860-abe8ebc7b0f1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/17ad3d34-96a9-4ddf-9b43-fbb29c6b214b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9875dfc-2d37-4696-9789-a60704e18e6f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee7d7f1e-0077-42be-92b3-9472dd112a89)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/02a9bc1a-a608-4713-9fa4-f45cc969135b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9c5b1b47-38b9-4df0-8c00-ccb6d9539cfd)
+
+* In case of **nilpotent matrix**, the **eigen values** are all **zeroes(0)**.
+* N ^ 2 = 0. It means **nilpotent matrix**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5a32e23-0312-4f30-bdca-5d67ba68bd25)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bae20bb1-e0f8-4e99-9406-9c700dd570e2)
+
+* [**IMPORTANT**]
+* UTM -> In a triangular matrix, the **determinant** is the **product of the principle diagonal elements**.
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/312DB73B2C
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b8e97e3b-ab37-4c5e-87a8-c0e52ebfc5f9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36465198-d750-4577-b397-f82e8c5e808a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d96116ce-144c-462b-90a6-00d744bc693b)
+
+* We have an **UTM** matrix now.
+* Det |A| -> 1 * 1 * 2 * 6 -> 12.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/daeee27f-cf0e-47e1-80ea-091b48f72f75)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/25095ef2-0b57-46d2-be8a-75eb2be9421d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ee23e3b-f649-472c-8ef7-dca285377243)
+
+* Eigen values of **M** is **lambda** which is **4 and 9**.
+* The Eigen values of **M ^ 2** is **lambda ^ 2** which is  **4 ^ 2 = 16 and 9 ^ 2 = 81**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/acd0408c-4c52-482f-8268-6eda50315493)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df7de3cf-0d93-4c9e-880b-a2df5a0c0b33)
 
 * [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b80424c-fd89-42d7-9556-25cada751b2d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e707e420-2fa9-4f63-ba7a-34217d08cfc9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef5a5e60-a6b3-42f0-b41d-f59b0c3dc1fa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/102c61eb-05b7-4aa8-903e-5417f1818e70)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/42e138a0-380a-4617-a209-5b6f34cbff7e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c8df4b5c-315d-41cd-af83-0fd0be0d0840)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bded8261-1c0a-4afd-bcc1-09099acc2b72)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab43f213-a0b9-4257-b6b6-ec786e76ed92)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3b7ba515-73d7-44bb-9a7a-f7a985194e70)
 
+* Done earlier.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf53a44b-c0c6-4c75-8370-15db3663ed21)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dfb4dc51-3de4-4ee1-894a-42cd6a1ac5f7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf137e4d-f2dd-4844-9f95-928e218f6af1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f21a169-b757-44e7-b805-db44daa612f6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d5a6769-e571-4225-af01-0e1877a5de79)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb4c171b-05d0-48be-a329-1965653e4080)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f8ae250a-ef51-45fa-8259-981a03d513bd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db7074e2-88de-457b-8c8e-dd349101bb2d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2300dce3-6991-41ac-bbec-273c3971b791)
 
+* [**IMPORTANT**]
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/DF5952EF52
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e2d0c447-6e77-480c-bc56-75d4c33cd4d7)
 
+* We cannot directly say that **lambda = 3** is the **largest value**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/215c9f37-5885-453a-b467-bfb492643978)
 
+* Largest value is **3** only.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4ba9f035-b4ed-49e9-bd26-880202a324f3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0744dbfb-d202-4e2c-916c-d293562262e6)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/434fc48c-3b07-4a18-b1c0-6019ac16b3c0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/604ea48a-6080-49a4-8828-ac8058b83bcd)
 
+* When it is given like above.
+* Det of M or |M| = Det of first box * Det of second box = |First box| * |Second Box|.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6aaa4125-54a0-4e15-be34-260295a02535)
 
+* [**IMPORTANT**]
+* We can also do by getting the matrix into **UTM matrix**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ab0ec42-dc6d-4d10-904c-e9c2bbb04f40)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/45e65d40-64a2-43cc-adc4-7472b8dcb125)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0570e29-9b52-45b0-b1c1-7f55562ce1c3)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/339dfc81-006f-4dc6-bd8a-d0445483adc2)
 
+* We can do **divide** but **not multiply** when finding **det or |M|**.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b3dfd4e-14c8-4b5a-8500-a2bd4c2ace3f)
 
 
 
