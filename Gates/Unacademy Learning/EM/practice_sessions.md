@@ -1892,6 +1892,91 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5767aeb1-e231-4a9b-bec5-668e08f564cd)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8104699b-2e2d-4895-96be-3180e34a5b7e)
 
+## practice-session-on-calculus-part-iii(12) [31st Aug 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5db3e29c-c968-4022-aaa0-abc7eae26893)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b46e155a-65bf-4e75-ac17-f119bf00ead5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c42037ef-212c-47a1-93c7-4170eaf8acd5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5fba3ab9-1d4b-4d42-ae43-c0af4a15948a)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4014bc12-5316-415b-920f-2f501540911b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd2749bf-b4f8-481d-accd-37e367ab3875)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d214d97-e7ae-4fd7-a5df-8e293e241bfb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2286ebfe-6c96-4952-943d-637c678743ce)
+
+* In the matrix, even though the **eigen values** are the **same** but the **eigen vectors** are not the **same**.
+* We have to satisfy the eigen vectors as well.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ece724cb-1e5b-422b-90fe-a945fbeb29e7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff459e10-94ad-43f2-9989-7e9eb214651a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b4b2072-8e91-4059-8711-21834c5b6e12)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/11c396ab-d0ee-4b2e-a089-12a03c56e33c)
+
+* [**IMPORTANT**]
+* P -> Eigen vector's matrix.
+* D -> Diagonal matrix, whose elements are eigen values.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50032d87-0398-470c-a20e-5d5f8321acd4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea10622c-a59c-40c2-ba2f-848acf5fee17)
+
+* |P| =  -1 - 1 = -2
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eed2622b-bbf1-4d1b-9582-67f07fdd3588)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/765e77d7-2bb5-4cce-8823-a8107ce6a9f1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8542ed8-de63-46af-80d4-8e14c6320bac)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a065aa5c-6588-4965-8d78-61bee298b59b)
+
+* Eigen values of a skew-symmetric is either **zero(0) or imaginary**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa632a45-072c-4adf-8790-0868554c085a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/88f2c525-bbc9-4290-9838-e210a718e8c8)
+
+* If **two rows/columns** are **same** then **det or |A|** is **zero(0)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9181c6ca-a85d-4305-a027-59721aad44aa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b8d10eb1-4dda-4e3e-ae6f-714a5b667331)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe88b51f-b288-41e2-bb73-c0700c98be4f)
+
+* One of the eigen values is zero(0), which means that det |P| = 0 as well.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/14351b7a-68f0-428f-9aad-c06ae8658d15)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97f0ca55-63cd-4ada-a7c7-219a74b99e69)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b8beabc7-aa67-45ee-8221-4c1acab60df4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/43b83afd-b84a-496b-ad78-d52485b08b3e)
+
+* **K** can be anything.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d7287e0-bbdb-48a5-9147-fd82ba6c4438)
+
+* X1 = 1, given and we have to satisfy that.
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f5be0c1-cc70-4b40-9e3c-335f32590869)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/112d6e25-9ddc-479a-8247-b4edd98401ce)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/46e6dfc4-852d-4828-a15c-90de243b4650)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f167cd9-744a-4d4c-bc71-7a12a6e5a2e8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d5e63f9-0aaf-432a-b8e7-fc0dd535d55a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ad8c1b1-5bcf-4c4b-a1ab-3be68f543d67)
+
+* X3 can be anything.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be863f45-0fc0-41c9-8c74-ab83b9770de3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/61bb7b2f-ef88-4745-8ddc-084d097fe234)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0eaf8585-3db8-4eae-a4bf-47d79abd256e)
+
+* start from 1hr 30mins.
 
 
 
