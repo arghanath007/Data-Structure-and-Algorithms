@@ -1358,42 +1358,104 @@
 * [**IMPORTANT**] 
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a54c767-9721-492f-95b6-0b15b93ee585)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65823914-0c6c-4f49-a207-da1cb74676ea)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9c5d5e1d-9a2e-42f3-8204-404a02b5f11a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a28b744-0365-42c6-80e0-d2fd8456ab67)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4ec91365-a30c-42c3-a63f-22ffbf7bee65)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/247d5f0f-9e7c-451b-97ba-d5d8877583d5)
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/789D98EA54
+* Eigen values are always in a pair-wise.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e25d2e43-fed9-4679-b49f-6fb781e7bf4f)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d98ff1d-8689-4fa8-9593-4d108c468933)
+
+* M * n X n * p -> Then(n * n) only **multiplication** is possible. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae362225-7745-41a8-9d57-2dcdd25554d4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/62242685-347c-43fb-afee-0784b823b818)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f4f4745-cfd8-4559-b75e-83342aff6b71)
+
+* Min. no. of multiplications.
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8471d2ad-223b-4ab8-a68f-35984def1c70)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6dabe702-a639-46a5-a840-ae7c4bc42205)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57456448-573b-4fbd-8c14-056b6ec2c9b8)
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/5D28D77BCE
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9fdd82da-867c-4963-9ef2-9b53e285db98)
+
+* In **first quadrant**, **X value is positive** and **Y value is positive**
+* In **fourth quadrant**, **X value is positive** and **Y value is negative**
+* We want to convert the original matrix(x, y) into the mirror image which is (x, -y).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb631f55-0587-4d48-b6a4-5e742325052d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b8e1b40-a678-4986-ab81-87d1ee2e6917)
+
+* We need **y** value as **negative**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa06ff15-dbdf-427c-97c1-e565e61677e5)
+
+* By multiplying the original matrix with [1 0 , 0 -1], we are getting the mirrored matrix.
+* This matrix is called as the **coordinate transformation matrix**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2854e295-c53d-4e2a-a6c8-1d5ae05869c4)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0545b3d9-888f-4929-b4de-41b79049e28f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33831fab-27f6-4fbe-9d9b-18b54f87b325)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b1be3e2-8d65-4369-9120-c2a2f9510f9d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d21fa878-0611-4f41-b041-203f36cec763)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae5f806b-d78b-4e54-8e1d-2fb24ba5a005)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/82ba16be-faac-43fc-9145-b31293c2af64)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e664286d-0403-4bfa-abe8-962659e38cd5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/272fba34-d31b-4e72-89df-dd91e5b7483b)
+
+* Characteristic Equation [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/307f0b30-5b7f-498d-bfd2-13b2dbe9748a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd806672-8bec-417b-a65d-4ae240325b1f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b415c6e-b431-4eb1-97f0-e98feba1526b)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f89ee04c-f9ac-4bfd-be70-d88459f569f0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e93e2cab-a67d-4634-9651-717c3b784905)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a6cf7003-b523-4044-a725-82cc59440520)
+
+* As matrix is **2 X 2**. So, **n = 2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec27ea76-0383-4fc9-bdb4-643e39f31b2f)
+
+* No. of independet eigen vectors.
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa1e4ad3-d17a-4a3e-a5a4-d53853880de9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6406f907-89f2-4207-b025-2d6e6d604d54)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/29be48b7-1a7e-4e6f-b606-8fa1dff49e60)
+
+* Then Hit and trial method.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba359a93-878f-4094-bce1-2aec4b838fb5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e0695a7b-c293-4ef6-b517-67956cc10391)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+* [**IMPORTANT**]
 
 
 
