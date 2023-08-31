@@ -1334,15 +1334,30 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/78e10e62-f4f3-4581-9faf-e668329f438b)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be9008e5-806e-4986-acd2-2d29ee7c9ea5)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0383e5a-8e25-49f0-ada4-1492f8eef7eb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22e7ce51-0e9d-4ff0-b732-3cf9eff7927b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7ff3943-a5a0-4fa0-b7d6-6bece1556887)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b183dcb3-97b8-4408-8de1-16fd1e3a89aa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6463630c-26b4-4225-9429-6ea80f22183c)
 
+* Doubt.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/08173346-6d2c-4dfe-a848-1f314604d4a2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6e90c235-e828-431c-864b-86ed6fdc8816)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5f4a3dd-7b4c-4856-8a72-6182a6a2b4ab)
 
+* Every matrix will satisfy it's own characteristic equation.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/081b5d0a-b29d-4bac-92f7-6d5fdf367545)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9f6250f7-2748-4a57-8178-8d90e21db318)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa671317-7394-4634-a93a-63f3f890c6ba)
 
+* If both the **eigen values** are **positive values** then the **product** will also be **positive value**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9c895dda-7118-4779-97d5-394315d13848)
 
+* [**IMPORTANT**] 
 
-
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a54c767-9721-492f-95b6-0b15b93ee585)
 
 
 
