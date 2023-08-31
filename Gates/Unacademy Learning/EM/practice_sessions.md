@@ -1568,37 +1568,329 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b3dfd4e-14c8-4b5a-8500-a2bd4c2ace3f)
 
+## practice-session-on-calculus-part-iv-and-doubt-clearing(11) [31st Aug 2023]
+
+* A -> Given Vector
+* X -> Eigen Vector
+* Lambda -> Eigen value
+* X1 and X2 can be anything.
+* X3 must be zero(0).
+* Both **B and D** options are satisfying that **X3 = 0** condition.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9a289f54-d86f-4cb1-a31a-3f7326af17f0)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86a58b66-7815-4a32-a88e-0a13bda0c481)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/406d720b-dc3f-45e4-9e58-6a412f0d9419)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34b7eb50-8212-478d-b9b6-64e5cbfa6e70)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b8cfd27-e515-4bcb-9005-21d90d0ee6d0)
+
+* Finding the **cofactor** of **S11**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30bd3f7f-0fe9-4572-8a28-7a5a4364d3b0)
+
+* So S11 is **1/2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c650a28b-fc96-4ba5-8665-0d486227e888)
+
+* One of the eigen values is **zero(0)** and then the other eigen value is **(a + 1)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/79588c9a-f29d-4dcd-98e4-2b1d8655b5ef)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/222940b5-db1c-4cb4-94f0-256eccd35d4e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a45d7d28-a753-46c3-b99c-a23d494e3953)
+
+* Roots of a characteristic equation are the **eigen values**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0cb960b-4326-4a60-b38f-a18c50034601)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/183914e6-6202-474f-afe6-83c27810301b)
+
+* Lambda1 and Lambda2 both are not **real positive characteristic roots** they are both **complex roots**.
+* So the matrix has **no real positive characteristic roots**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7cdcaf44-f0a0-47c3-9031-c5c62a266117)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d2e6589-6e4d-4f11-a2f9-187a93b7e93a)
+
+* Formula [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd139d0e-ddf5-4147-a3ee-a18093d602a2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d9fdc3b-22c1-4677-aba4-ab3c33ae0684)
+
+* The elements are **interchanged** in the matrix.
+* First we can interchange **R1 and R2** and then we can interchange **R2 and R3**.
+* So in total, **2 interchanges**.
+* For **one time change** the **Det of A** will be **-1**.
+* For **second time change** the **Det of A** will be **-(-1) = 1**.
+* After the interchanges the **Det of A** will be **+1** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c61d2c48-388f-496e-aaa5-f191da5948ef)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e65a925-051b-4d29-8583-40c04215aae1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd0b2a8e-062c-43d4-b343-68c0975538be)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ad6f2e6a-2757-4ef9-add6-6f370cd4cf90)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d6cee1e-c0bd-46c3-bbff-c531c786c640)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/59cf6929-3fc9-4fd9-b1a3-25369ca92387)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c68676f1-6d24-4190-88ff-584c3fb90bc3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a7b8524c-8c6a-413b-82d3-ef01774e8398)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/262e0a3a-2087-4718-8d8e-b859549e1e54)
+
+* Principle diagonal elements must be **same**.
+* AB = I
+* It means that **A and B** are **orthogonal matrix**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/502c76bb-ce52-4508-b5b4-3d53efb8181a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6d1c0c2-a9a1-47d0-9948-d09b77a76cb9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95aaad1b-8d46-4b40-81da-1ee8afaeaa06)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d92d813-1ffd-4996-95cc-7ad2155cdcaf)
+
+* Marriage Gate.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a134e6ea-c6ee-478b-b762-341a67d9b28d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f4c86a2-6187-4ce5-b5cc-cc8049fff454)
+
+* When we have changed any of the rows or columns, the magnitude does not **change**, the **sign** only changes.
+* R1 and R3 are interchanged. So the **sign changes**.
+* Determinant's (|A|) sign changes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f8ebca5f-03e5-4856-8ca8-d91f443c3fc4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d815c330-4a74-45d0-8663-64fb7bde92c6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3de4e409-57bf-4287-a54e-ecaf622270de)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7eabfcef-6107-4a33-9f99-e6ef8415b309)
+
+* UTM -> Product of the eigen values -> Product of the principle diagonal elements.
+* (b - a) and (c - a) are the factors of **determinant**.
+* (b - a) * (c - a) -> bc - ab - ac + a ^ 2
+* -1 * (b - a) -> -b + a -> a - b
+* -1 * (c - a) -> -c + a -> a - c
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/084532f9-9763-4d25-99b2-0ba9a5b6c706)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7fbef7ef-90ee-4e77-9591-25699e3e068d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e0ff7ff0-158f-4120-b899-e135e868260a)
+
+* [**IMPORTANT**]
+* A ^ (-1) or 'A' inverse must exist. So, |A| must be **non-zero**.
+* The matrix is called as **non-singular matrix**.
+* |A| = 0, then it is called as **singular matrix**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a9b7426d-a3a2-4d3d-9052-700627955e5d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0666ae8e-cd92-4c8c-a49a-6aeabdd06483)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/45f06432-9985-47f7-b4d0-0d9377fe28ad)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0aeb4bf3-5476-4deb-88b0-1f6a8e2fd1d3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/04635a83-cb5d-4cdd-9d5c-845e2a42c2fc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/59b21c16-013e-48ee-9c6a-a93092cb4046)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b2e0d5db-6cee-4da5-8cba-eb8e6f355a19)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32fb47ae-353a-47c3-b2ad-1c8c2b5723c3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c54a313-6508-4842-be51-e1b82452b2ad)
+
+* The **cofactor** we have calculated.
+* A23 -> (-1) ^ (2 + 3) -> (-1) ^ 5 -> -1
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/14b33367-1e13-4523-81a4-9719240821c8)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05adb7bb-e860-41e4-ac1f-090e0c894d48)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/470c754a-ef1d-447d-be5d-50914335ee0b)
+
+* The no. of terms in an expansion of **|A| or det of A** is **n!, 'n' factorial**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7908819f-d45e-4954-adaf-47cac0211ced)
+
+* [**IMPORTANT**]
+
+* R2 -> R2 + R1. [First Step]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cdf764de-c250-41d1-ba7a-abb13d50b1f7)
+
+* Verify the points from the options using the equation.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0d80379-b4fb-431f-a147-c3c68b97383a)
+
+* Option **B**
+* (0, 0)
+* X= 0 and Y = 0
+* 0 + 0 = 0 
+
+* (-1,1)
+* X = - 1, Y = 1
+* 3 - 1 = 2
+* 2 = 2
 
 
+* (1,2)
+* X = 1, Y = 2
+* 3 + 1 = 4
+* 4 = 4
+* All 3 points are satisfied.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0247fba-3a40-4e3a-937f-fb59f412acc9)
 
+* [**IMPORTANT**]
+* POints must satisfy the equation, simple.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f3e065a0-59a3-4d1d-b0be-be8e626b476e)
 
+* **V** is a **skew-symmetric**.
+* Sum of all the elements is **zero(0)**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f65f77e-bdce-45d8-b6d8-0ea8f38ab0d1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e7f14a63-e7f7-4ff2-8ac8-7b75aaf61898)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a433c9b7-4f6f-4e93-b44d-f0f2230aa015)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/70b2204a-c5ef-4d50-bc14-e5a8bcd31559)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e525a52d-7eab-4978-8dda-f753a875a00e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4eb196b2-6d8f-49cf-813a-251f5ee4344d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/53aa34bb-8cac-4122-b7ae-b1fe62c15f94)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a37e50a-1490-4f6c-84ff-e9c502fb2093)
 
+* UTM -> Eigen Values -> Principle diagonal elements.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5bb363b-c11b-42fa-85e1-846d564e11cb)
 
+* If two matrix's det are non-zero then they **sum's det** is also **non-zero**. 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3eda9086-ea52-479b-8e0d-e807e479bdc9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ca880f0-e3f9-4cd6-af9a-a45d2fa49a6a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d080d44b-9bb2-4382-a3a1-060e81b9100f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fee0d33a-777d-4150-ae09-5864693a1de1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e8b7edf-9b1c-4ce5-8a73-47256c13b4a8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f427d5b3-cd18-442c-848f-3a50db50b07d)
 
+* GM -> Geometric multiplicity
+* AM -> Arithmetic multiplicity -> No. of repeated eigen values.
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c712afc3-2908-441e-ada1-cbe19f5a64ec)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91e58a83-4ce1-4e48-b344-26fe75b33c54)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2d2b4b75-391c-4e6e-8bee-122556c06129)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/47bb1809-e260-40af-baf0-a094a1716c08)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/baf9ff06-47cf-4a71-abd2-002777eb916b)
 
+* [**IMPORTANT**]
+* Symmetric matrix means that **A ^ T = A**.
+* A ^ T -> 'A' transpose.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/55964552-fc08-45fb-9594-c773d2d8ff68)
 
+* For the **symmetric** case, we can select the **upper triangular matrix(UTM) elements** and the **principle diagonal elements** only.
+* In **UTM**, we have to option to choose the **upper triangular elements** and the **principle diagonal elements** only.
+* Id
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a5bb49f-5f72-4c3f-a342-d087e54e62f1)
 
+* In total we have **9 elements**.
+* How many elements we can choose?
 
+> We have the option to choose the **upper triangular matrix(UTM) elements** and the **principle diagonal elements** only.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0aacd648-44fd-4af7-826d-e4d8fbf6a389)
 
+* Otherwise it will not be **symmetric**.
+* In **symmetric case**, what elements we can select?
 
+> **upper triangular matrix(UTM) elements** and the **principle diagonal elements** only [**IMPORTANT**]
 
+* If we have taken an ** n X n** matrix. The no. of diagonal elements is **n** elements.
+* The **no. of upper triangular elements and the no. of lower triangular elements** are **same**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7df92845-3a13-4f9e-95b9-00d940cbfdf1)
 
+* Total no. of elements is **n ^ 2**.
+* LTM + UTM, how many elements are there?
 
+> **(n ^ 2) - n**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e6446730-b2d9-41d4-81a4-3239a8a9f1ab)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/07cb1a9f-ce23-4aae-822d-d91e244e7f58)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16c7b667-8416-4598-9570-533c304f0f7d)
 
+* No. of elements in **UTM**.
+* The no. of elements that are in **UTM** that same elements are in **LTM** also.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d77227de-1687-465e-8cae-7f65ba990b5c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f7456ca-e188-4a48-b624-0dc37526de26)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3858acd1-6311-4694-9c85-d6d70fe8040e)
 
+* No. of UTM elements  + No. of diagonal elements -> (n * (n + 1))/2
+* These many elements we can **select/choose**.
+* [**IMPORTANT**]
+* Each element should be filled with either **0 or 1** only.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3fa1cbb4-c703-40ab-b896-afbaf0b1b314)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe6e7353-1851-4278-9f2e-6f7250c63c67)
+
+* Arrangements.
+* Each one will take either **0 or 1** only.
+
+* How many ways we can do arrangement?
+
+> 2 ^ ((n * (n + 1))/2)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be3af00c-9e19-4c01-9e14-f75737870bfd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0119719a-9f00-478f-83f2-14df5f85d870)
+
+* [**IMPORTANT**]
+* Inverse of 'I' is 'I' only.
+* I ^ (-1) = I.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d4eb32a-ce9f-4e83-97c5-82618793f2d6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/82e74351-7eb1-4403-812c-ba53b718e54c)
+
+* [**IMPORTANT**] 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6163ecc-e9d0-43f7-b8f4-75751ce04856)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d53fe965-9321-4e65-ac00-de555c7882fb)
+
+* Sum of eigen values of a matrix -> Sum of the principle diagonal elements.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1dc538de-ed42-4439-9445-ac12c0d5bd1b)
+
+* Scalar matrix -> 1 X 1 matrix.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc207919-2c2f-4112-9b10-b377209237d4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed1b2346-7973-46fe-a8b0-6d1c6392de2a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/00ec71d8-1ee0-4db1-b13f-1248a5d0ebcd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/64374f04-d4a3-45b8-83e6-6032a4c8ba5b)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f56a647b-eac1-46a5-84f8-d94a0518fc89)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3b38546d-e235-419b-9e78-f8241e7860fb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/49292498-26ac-462d-8854-de45fb1cde24)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fbf2fccf-2013-4515-8e06-b414802599a6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee5edc05-2568-4080-9abb-88958c303deb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d66d9b6c-f8ac-4c73-a543-5a6e61246c89)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a38560d-7f47-4776-8abf-0b6f4e71af38)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0463b368-8609-496f-a5c4-4dc5d8be1ee2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bd394994-1c39-4790-a4e9-32fb06e742d1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/677929c4-271b-4a6a-98a2-81fc33674d56)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ec03814-ce7d-4862-b6da-54fa296d7ab6)
+
+* Option **D** is satisfying the condition that **X3 = 0**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9051b11-219a-4636-885b-49efed290f87)
+
+* [**IMPORTANT**] 
+* Top row -> First Column.
+* We should find the **first column**.
+* Cofactors of **first column**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98a2bed2-edc8-4184-8811-a21ac3a91f71)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58855af8-0763-45b8-aa7c-2f10205c114b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4cb543a5-255a-4020-b2e3-2de6a94c523f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95190902-1276-4e8a-8c89-56c77dc5a75e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/554ca8ef-fe46-479d-ad96-5eb2b32b83cb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f2d0521c-e0f3-474f-8d9a-b67097e24e6b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/925c4d61-f958-4877-a7b9-800c8cd66606)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5767aeb1-e231-4a9b-bec5-668e08f564cd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8104699b-2e2d-4895-96be-3180e34a5b7e)
 
 
 
