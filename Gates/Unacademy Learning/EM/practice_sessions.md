@@ -2295,6 +2295,60 @@
 
 * [**IMPORTANT**]
 * A33 ->It has eigen values.
+* 3 Eigen vectors(X1, X2 and X3)
+* If all the **three eigen values are different** then all of the Eigen vectors(X1, X2 and X3) are **completely independent**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50b94600-4f25-43cb-9943-0e7ff9824669)
+
+* We cannot say the Eigen vectors(X1, X2 and X3) maybe dependent or maybe independent. We can't say, we cannot conclude.
+* Ultimate condition for **diagonalization** -> Eigen vectors must be **independent**.
+* If the Eigen vectors must be **independent**, then we can do/go for **diagonalization**. **YES**.
+* Is it necessary if the eigen values are different then only we can do **diagonalization**? **No**.
+* If the eigen values are **same** also then the eigen vectors maybe independent.
+* If the  Eigen vectors are **independent** then we can do **diagonalization**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65e17123-237c-4d16-9236-64ac4ae9d820)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/14272207-31bc-4f69-ab00-991db3908eee)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/84e4ddd5-3fd2-4eae-a16c-c71ba8959441)
+
+* We can do **diagonalization** provided that the eigen vectors are **linearly independent**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8097f610-f57d-4c28-98c1-f20572cdfe60)
+
+* Det of A -> 3(-20 +18) -(-2)(20 - 12) + 2(-12 + 8) -> 3(-2) + 2(8) + 2(-4) -> -6 + 16 - 8 -> -14 + 16 -> 2.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b3e805bc-14d1-4d0d-848e-26c1f6d7adfc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2b6332e-7562-4d4d-ab2b-9389cbb235bb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/839833a9-cce8-49a2-88dd-14feca1ffd39)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e09e1f89-75af-4f39-bd3e-826591eef6db)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/084e8ced-545a-44ec-9d06-14bba0fea50d)
+
+* Magnitude remains constant but the sign changes.
+* Singular Matrix -> |A| = 0 -> product of the eigen values.
+* One of the eigen values must definitely must be **zero(0)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c12525c-4a1b-4e34-a8f4-427c0317688e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/25f4f964-924b-4b04-b128-7ad875329a71)
+
+* i ^ 2 = -1
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/758fc35d-ed18-4a81-a2dc-16d59065a29a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fbe2c6bc-c470-4a6d-966e-cc88ea376154)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c807d7e3-b279-4346-a0d7-3e72225bb5ad)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe48f73d-ec05-4f2f-ac56-e954f073433d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb93bbd1-a6b2-47d9-8118-0e86e0b5b14b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1956f86-c795-44e4-b56f-406ead029273)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/02de711a-4d52-4765-a651-5877333ae7ff)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d91c954-2148-4a79-bcae-47e00199cffe)
+
+* As the det of the given matrix is **zero(0)**.
+* So the det of the resultant matrix is also **zero(0)**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/685d951f-4067-4a4a-b583-a112d866291a)
 
 
 
@@ -2306,20 +2360,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+   
 
 
 
