@@ -2240,6 +2240,76 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f737eebc-0a95-4e93-bff3-f65cfa054fea)
 
+## practice-session-on-calculus-part-ii (14) [1st Sept 2023]
+
+* The **eigen vectors** of a symmetric matrix are **orthogonal** to each other always.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e49a871e-d3b2-430a-a8aa-bbc4604cfb57)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1c3ce74-d04c-4d49-bbd4-2ecaa6632f3e)
+
+* Rank of the maxtrix = 2 [As there are two independent rows in the matrix]
+* It is a **UTM** matrix
+* So, the principle diagonal elemnts itself are the **eigen values**.
+* Eigen values = 1,1 [Non-zero eigen values]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b710a19e-8ea6-49d6-b28e-afbd7309d863)
+
+* Sum is **5** though how?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/55ecb3b7-bb59-44bf-a8a6-d6a0441e5fa8)
+
+* We have to find the answers in some other way.
+* LHS = RHS [Must be]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb60c98e-9e0f-463f-92cc-b72d042f066f)
+
+* Adding first and fifth equations.
+* Adding second, third and fourth equations together.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6cec4575-175c-4727-b7d0-457af8972329)
+
+* Product of the eigen values ->  2 * 3 -> 6.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b557844d-0dfd-4d61-8f72-869d8d38fe45)
+
+* Tick [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/18b55726-7203-42e8-a63e-b23a0d5d930c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65796a83-8930-44b2-83fd-b617414647f3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/810e5471-f37a-4c37-a8f9-1a5d95edbc2e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69c73c8f-1780-4224-aff3-26de9d9d64ce)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c3d5f87a-4215-43b1-b3a7-d5b165fb63e2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a5e8afe-7f86-42db-ae03-9bd9b7a5b124)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d2d531f8-2314-4324-bcef-f284f9b54687)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35d08f40-4edb-49f5-b818-2570dd3442e1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/894b16f3-f6ba-4e3e-935d-c2d6353e4e52)
+
+* I = 1.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/47b191cc-7ac8-42e7-90fd-e6a553bad2b6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24bbe488-6478-4db1-9c44-37ade4e3651f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/78d828f9-13de-4c79-97c0-69489e87ef68)
+
+* [**IMPORTANT**]
+* A33 ->It has eigen values.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
