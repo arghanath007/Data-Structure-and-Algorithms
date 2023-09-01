@@ -2135,13 +2135,110 @@
 * Yes.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a2daa23-e60a-419d-93b3-969afca219bf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ad61d15e-b544-4e16-8f33-28c77b162d9c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a7c683af-46b6-44b1-8841-f6ee3cbec47b)
 
-* 1hr 3mins.
+* Trace -> Sum of the principle diagonal elements.
+* Det of a matrix -> Product of the eigen values.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0639070-9a81-48ad-8440-a5e00d21acd8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bff6ace9-3044-416c-a8ee-ca56edbbe4d2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/61c9b1dd-a880-4ede-aa33-5c7dec2224d6)
 
+* Principle minors -> Principle diagonal element's minors.
+* Trace of a element, Yes.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58482ec4-1fe4-4d2b-8b57-1229d5c9b100)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a05f2ca2-c0c6-4e4b-970a-8764e4921d38)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/64213c3d-d704-4659-a974-0c39568e9760)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/02027b58-e8d5-452e-96fa-91d97e646708)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a6138a51-aaa1-4976-8e50-fe56bb992969)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea7114cf-07e2-4ba0-a8f9-090347cafefc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc87bf52-3b84-4f7d-ad91-6deebf1c099b)
 
+* To find the **max or min** value of a function, we have to do **f'(x)** or differentiation of the function(f).
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f39ab5d-c9fe-4fa7-a9e1-4b618dbe6b63)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/51079184-5b89-47ac-a1e2-120856311590)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/925d853d-6631-479f-a91a-e252dd8bfdf0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e47c075c-2322-40b2-97bf-79f35210eb2b)
+
+* 1/A -> A ^ (-1) , As **A** is a matrix.
+* [**IMPORTANT**]
+* A11 -> 1 X 1 matrix.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4205a7fb-4fc5-4804-991f-d7ae55090aa8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac77bd1a-5e1b-42b8-b230-92f55976d9d6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ddecdb5d-0075-4202-b2d4-49849674f1ef)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/798edf2c-122e-4472-90ec-eab6b7e19b6f)
+
+* It is a two variable function.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/510241c2-d66a-4d13-b676-92ead9c021ec)
+
+* R1 and R2 rows, we have interchanged.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/268e04f8-444e-4ef7-9b5e-a69c75a257e0)
+
+* In the result we can see that the values have not be changed, just the rows we have changed those are visible in the result as well.
+* In the X1, X2, X3 and X4, matrix, the rows are interchanged as well.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2219dbfc-3fe7-42a7-9472-e0ddd0bed137)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/801a1114-3cbb-4804-a386-14e74524d9a7)
+
+* Columns got interchanged.
+* Pre-multiplication means that the **rows will get interchanged**.
+* Post-multiplication means that the **columns will get interchanged**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/56023da4-9f21-40ea-b45c-28d40d36035b)
+
+* R2 and R3, rows are interchanged.
+* Rows interchanged means **Pre-multiplication**.
+* If it is an **I** matrix then the **det = +1**.
+* As the **two rows** are interchanged, so a **negative sign** will come, which is **-1**. Now, **det = -1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be19b38c-f116-4b57-b38b-25379516dd30)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/edff6636-3cbd-4acb-869f-58e0bd96d349)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db71119b-e03a-45d9-84d9-9218ca157365)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8d72efe-a26e-4c7e-8010-db60c1542787)
+
+* [**IMPORTANT**]
+* Eigen vectors of a symmetric matrix are **orthogonal** to each other.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f143d04-77bc-428d-83f6-32aa2ab6551a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37362117-e97b-4e0e-a9bd-680c6a056124)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6cd165a6-c0a3-42e8-a46d-6c714b457b27)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/64679457-01c1-4ec8-b98e-5cad08bd7839)
+
+* Sum of the eigen values of a matrix -> Sum of the principle diagonal elements.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22cccc57-3755-4b99-a3ca-cd01b389fb7f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0032a8a8-b49c-4ffb-a687-61e068597698)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6aeba95-2a14-4816-b950-2bf32afe53c7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35370d12-612e-49e6-9415-58db63a02a18)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c5f8257c-dc81-40c4-be44-e54742148aac)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c6a8cb8a-6ce5-447f-83fe-cd768f3c6b5a)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1db6401-3afd-4f41-aef7-fe207f8d477d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cccbf620-2ccd-4e2c-829b-3c537c429515)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c3545c8e-0d6a-4281-88c3-7820d4e3336b)
+
+* Scalar multiplication -> Does not affect.
+* Adding two rows -> Row operations does not affect, column operations does. [Row Echelon form]
+* Adding a row with the scalar multiple of another row -> Does not affect.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/161b6558-8572-4c55-bb7d-907d0cf09414)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5419fc12-a16c-4d2d-9fd8-e2933216eb65)
+
+* All of them do not affect the rank of the matrix.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f737eebc-0a95-4e93-bff3-f65cfa054fea)
 
 
 
