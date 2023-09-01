@@ -1,4 +1,4 @@
-# EM practice sessions
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2730583f-109e-4ee2-a65e-e27af0386de5)# EM practice sessions
 
 * Link -> https://unacademy.com/course/revision-course-on-engineering-mathematics-199/ZE7GO6F5
 
@@ -2398,16 +2398,39 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/03f96463-1bf8-4ad1-9019-6345db04c5fd)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a167fd9-7cad-4023-b5e0-81b903a2519d)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e666eae0-b000-4822-a5d4-3a8a81755270)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e23ffbe7-f9b8-4edc-9dff-b206ba6b7e29)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/469aae83-83c4-4a23-b96e-2b1150272973)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fea45e08-7e3e-4e46-89fe-d42f49d6242c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/746963c9-96c2-455c-aa66-9714ebd6d00f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/59347f50-ea1d-481a-904f-06530f47b544)
 
+* As the **det** of the matrix is **0**, so the rank is **not 3**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72af541c-d637-4610-9cb6-97c93a69c575)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/000bd953-a905-4634-ad0e-0e8a14adea99)
 
+* R2 and R3 are copied rows of R1.
+* Only one independent row.
+* Rank will indicate unique values.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4765e85f-e02a-41e4-9bd6-d404e1940594)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/963b8bb2-0eeb-4369-8315-0c067baae987)
 
+* Max. no. of linearly independent row/column is called as the **rank** of the matrix. 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/62c8dbe5-06ba-4de6-9d66-87627c4cb501)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/10fa7ac7-d53b-4464-9d6f-0215c0929790)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/895070b0-457b-4817-92f5-c8088dc59168)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa4515b0-d287-4130-b3a8-f3adb4ebfded)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/adcb8741-0d22-4314-8a05-8acfbd9f2cb2)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aafd0b63-0f02-47da-8982-76d6f43fc077)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/223854c3-9b74-464a-9fc5-c78b08bd1139)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e678bcee-8d31-4ff3-9d80-5b3d1194c66e)
 
-
+* [**IMPORTANT**]
 
 
 
