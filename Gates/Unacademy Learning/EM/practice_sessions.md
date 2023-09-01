@@ -2065,27 +2065,78 @@
 * [**IMPORTANT**]
 * Vector -> It is either completely rows or completely columns.
 * They are in either **1 X n** or **n X 1**.
+* We have to find if the vectors are orthogonal or not.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/74b30e6a-d953-438d-8822-a33890be1bd5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b9951256-1fc7-4639-9e2d-b26ac0df5433)
 
+* Orthogonal
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97cba99a-47d2-426a-8968-3d3305310a6f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b4fe2ae-a9b9-4164-ad92-8a123b218c0e)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/565a751c-5d19-45e2-8e50-e5879196ed80)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f8e71278-29a5-49aa-8382-a6990f7fa987)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/23fbd09a-840b-49b1-823c-63269776a106)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c80f362e-9d55-4deb-a58b-2ac446a4245c)
 
+* They are **orthogonal** but not **orthonormal**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/73ff385d-ec5d-4928-904c-5ad2fb7b6dc9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ad8d3bee-a2e5-4270-9e3a-8d27d1aec863)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a135e9fb-31bd-4af1-b2cd-564a82cc358c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9483320d-da5f-4ae2-850a-08f844ddcf9d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d5bbd796-60b2-49a6-b58f-b8864ffb858c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/387723fd-a75b-4cde-b624-18977dc77a5e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/61c95dfd-6b00-4dd6-894a-a86d1ca09b96)
 
+* Both equations have to be satisfied.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50ae766c-6b5d-41f5-8370-26b81268b33c)
 
+* No. of multiplications -> m * n * p.
+* No. of additions -> n * (n - 1) * p. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a33bce2-106f-411c-adaa-438a94534e65)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0777449f-6809-4002-b5a6-6d20887bd9a8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7df4ffa0-244a-441a-8417-0e3089f2ca60)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/892a85a1-adbf-41a7-b646-f089b7acabd2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef12f29f-79f1-4495-a662-1952b64a776e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97a57ea8-087a-4941-aa24-6f6f16abc687)
 
+* Matrix multiplication is not **commutative**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/84fec8be-4904-42c8-965a-895a6224518f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2519ea56-a893-4205-8adc-c29df2d70098)
 
+* Wherever **1** is there there will be **alpha** now.
+* Principle diagonal elements are **1** for **I6**, which is an **identify matrix**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4502c07c-b554-43fe-8331-67e39acb4be8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d353672-7e47-4c41-8f2e-030e794ead93)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/47b69c16-90f2-43e3-a2cf-262d8696704e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f837a9e8-ab86-436d-8b01-db5d33639d43)
 
+* Det of a matrix.
+* For an **n X n** matrix, the det of the matrix in that above pattern is **(1 - alpha ^ 2) ^ (n/2).
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/01924f0d-c890-43e7-8860-b0be24f40996)
 
+* **Alpha value** must be **+1 or -1** for the det of the matrix to be **zero(0)**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/28cabebd-99ff-409b-923a-624200a418fa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/90ac58e6-ad3e-4a98-ae0e-6eb7d149eafd)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a2daa23-e60a-419d-93b3-969afca219bf)
+
+* 1hr 3mins.
 
 
 
