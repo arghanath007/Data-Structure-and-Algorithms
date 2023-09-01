@@ -2349,6 +2349,77 @@
 * [**IMPORTANT**]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/685d951f-4067-4a4a-b583-a112d866291a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e0243808-d2c3-474a-82f1-99b730a7ad90)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9a4a8e89-2436-44a3-84a9-4667becfc0b3)
+
+* [**IMPORTANT**]
+* The eigen vectors are linearly dependent.
+* Diagonalization is not possible.
+* If the eigen values are **same/repeated** then we cannot say that **P** matrix is a **single matrix**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97429879-eb33-4978-91df-ba1032502f7a)
+
+* [**IMPORTANT**]
+* It is not necessary that one of the eigen values are more than 5.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5c257d25-3b68-48b5-9bad-c0ee04ef895f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09dd74da-438a-43bb-8834-48237ff830c3)
+
+* [**IMPORTANT**]
+* Eigen vectors of a symmetric matrix are orthogonal to each other.
+* Eigen values of a symmetric matrix are **real** 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f12a9cc3-1e4b-47e3-ad0a-3e7461082c11)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9feeff0a-f5f2-40f9-b4ad-21b696fce0af)
+
+* Orthogonal means A * A ^ T = 0.
+* Orthonormal means A * A ^ T = 1.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e484934-4cf0-442e-8060-0203f58019f6)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/88eae724-26ff-433b-8298-5650047d45d6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3516a32b-ed53-407e-8758-5cadcf538662)
+
+* **k** will take all of the values.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65186572-6f22-42c7-87aa-156c4e5970b2)
+
+* As we are doing **post-multiplication**, so the **columns** will change.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dcb37dd8-ab1a-49ea-851a-683a16235130)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb95cd52-b3f9-4acc-9054-74edec63f5dc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5c21c0ba-878e-4af4-b0aa-d47fba2b3f96)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36e2d003-b78b-46ba-8ab4-f786c6dbc068)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/03f96463-1bf8-4ad1-9019-6345db04c5fd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a167fd9-7cad-4023-b5e0-81b903a2519d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e666eae0-b000-4822-a5d4-3a8a81755270)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
