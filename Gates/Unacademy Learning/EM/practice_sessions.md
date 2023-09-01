@@ -2031,6 +2031,64 @@
 * **A ^ n** is a matrix whose eigen value is **lambda ^ n** and their **eigen vector** is **X**.
 * **Eigen value changes** but **eigen vector never changes**. [**IMPORTANT**]
 
+## practice-session-on-calculus-part-i (13) [1st Sept 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81dbcb4a-4464-498a-bd7d-84a6cf142534)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/84dc2782-7da7-47f3-9736-9becec662478)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fda3a49a-b783-4398-8131-292cddf72f1a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab9c8e89-30a8-4058-a585-3f283211fe0b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e93a7b03-f3ce-4a57-be21-4ea745f2c1a0)
+
+* Eigen values of real symmetric matrix -> Always **real**. [**IMPORTANT**]
+* Eigen values of skew-symmetric matrix -> Always **zero or purely imaginary**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30a6c80b-0c14-466f-93e7-2767e717c829)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b01fc1ab-7b35-47f4-b011-75b2fe540b90)
+
+* As the matrix is an **UTM**, so the **eigen values** are the **principle diagonal elements**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09dbc317-3f11-49a7-b633-4819efbe1f13)
+
+* Acoording to **CH theorem**, every matrix has to satisfy it's own characteristic equation.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0799e42-375e-4ccb-b1f6-375c8324fcb7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/946c275a-b293-440e-8d2c-7380c6130b8a)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2aaa51bf-1cf8-45c6-a150-86279d501ffe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/919d4b18-5b05-4a60-8cdd-3a1527d3671a)
+
+* [**IMPORTANT**]
+* Vector -> It is either completely rows or completely columns.
+* They are in either **1 X n** or **n X 1**.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
