@@ -2432,6 +2432,119 @@
 
 * [**IMPORTANT**]
 
+## practice-session-on-calculus-part-iii (15) [1st Sept 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91cca62c-19af-44ac-9e41-02593b8e9dca)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/47236db5-e3a4-43ba-9b40-1d3635e16b98)
+
+* R2 and R3 rows are linearly dependent on R1 row.
+* So we have one independent row which is R1.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57aac68a-8d0c-49a4-b201-c1f3cf271b2e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a39d1774-cc22-4947-a556-2f71a8aa2f21)
+
+* Rank of **A * A ^ T** is same as **rank of A** which is **N**.
+* Rank of **A * A ^ T** = **Rank of A** = **N**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/107f0568-4f1b-4a57-930f-ec289c4288f7)
+
+* **n** -> No. of variables.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a13dfbdc-a591-4516-ad56-156fd696c291)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/585bd989-922c-4f4a-8568-1f04fbd5f851)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8bbb9d7-2d6b-41cc-a61f-636fcf5396bb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0726e993-3d4b-48b7-8743-1b63d3f4bd8c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7131f60-7fc4-4f57-b811-0a351b2b9d59)
+
+* AX = 0 [Homogeneous equation]
+* It will definitely have **solution**.
+* Rank is less than the no. of variables.
+* If **m = n** then we have **unique solutions**.
+* If **m < n** then we have **infinitely many solutions**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ca39eb7-4649-4efd-b42b-d90cabf899c6)
+
+* Trivial solution -> Unique solution.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/48b1af69-0439-4f6f-9895-87045fe8a4e1)
+
+* [**IMPORTANT**]
+* Start from 23mins.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
