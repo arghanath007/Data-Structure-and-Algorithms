@@ -1976,8 +1976,60 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0eaf8585-3db8-4eae-a4bf-47d79abd256e)
 
-* start from 1hr 30mins.
+* Diagonal elements are **1,2,3, ...., n** and rest are **0**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/21480be8-0ae6-47ff-ac31-2af0cff2f09f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9cc3bb45-fa44-4252-9b8b-f60b9c507017)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ea37b9f-f31d-486d-bbe1-79fadb4b4cb6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/84296a7a-d5ae-4b53-bfbe-fa7c973f08ef)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/75df14b4-f0f4-4092-8b82-3dcb4dfed086)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe5c14f2-e10a-4bc5-bd14-081411405ad1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bdb1c6e5-de88-4553-8edf-0930686a8b21)
+
+* [**IMPORTANT**]
+* X1 = 1, X2=0, X3 = -1.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce326bba-6b5d-4ad3-af81-8c34fec891ab)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e0537c46-97f4-4ead-b9f4-7a3a167abb6f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef5b9210-711c-4bc3-ace6-f6217d9b6962)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/458d0961-5299-4408-9ce6-6ad74100bfd8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fad1a62a-c79d-42d4-8b95-e01c97587391)
+
+* Good point
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/982513c0-7db6-4a64-8d38-299d77f5a6a0)
+
+* Diagonal elements in the **upper triangular matrix** is **1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cab72be6-8f71-49f8-9234-2f4f698938fa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/06f99705-ba1f-4b2d-b01d-c263b9b9df94)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66580622-8569-4ed2-98ed-c333406353b8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a9c139d9-0dd5-49cd-bfad-579d661ee351)
+
+* Upper and lower triangular matrix [**IMPORTANT**]
+* By multiplying **L and U** matrix, we can find the corresponding elements.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e593f6d-c9b6-4c7d-b39a-9bdec66f1e0f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eea0366b-e832-4229-a124-d3f8b6634c37)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/53219884-b40c-4b5a-9059-62433456b5c6)
+
+* We can verify using the **options** as well.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf5034bc-4e2e-4953-889b-99debb3a11ed)
+
+* Standard form of **L and U** matrix.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e7b89c05-af30-4d50-985f-3997758d347a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f3ab679-7e69-4438-85b7-68db1f1a5125)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a7edee76-b88b-446a-aa59-fd355ccb466e)
+
+* [**IMPORTANT**]
+* Eigen vector never changes.
+* **A** is a matrix whose eigen value is **lambda** and their **eigen vector** is **X**.
+* **A ^ n** is a matrix whose eigen value is **lambda ^ n** and their **eigen vector** is **X**.
+* **Eigen value changes** but **eigen vector never changes**. [**IMPORTANT**]
 
 
 
