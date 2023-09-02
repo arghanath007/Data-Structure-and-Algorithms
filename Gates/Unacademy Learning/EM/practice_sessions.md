@@ -2649,8 +2649,54 @@
 
 * [**IMPORTANT**]
 
+## practice-session-on-calculus-part-iv (16) [2nd Sept 2023]
 
- 
+* If **|A| = 0** then the matrix has **no unique solutions**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0bc88bee-0182-4ed6-96d9-046add2fd7c6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58f29ea9-24ef-4255-a172-dd2b407e9a96)
+
+* Then rank cannot be **3**.
+* The rank is **less than 3**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d87a0b35-b4b3-41c0-a4c2-bd1b07ef6751)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb7b91ed-7244-43e0-83e1-03b5712ff5f3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec6645f9-87ee-46d0-841e-822ae05b25fe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/963d78a0-d9ee-41af-858b-cac97022502a)
+
+* Dividing the R2 rows with **3**.
+* Only one independent row in the matrix.
+* Rank = 1.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d0a7052-ab5b-4eb9-885b-f571cad7babe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86dbdd7c-7de2-4e8f-bdb8-9ecd365fcd24)
+
+* Non-trivial solutions -> Infinite many solutions.
+If R1 row is multiplied with **3** then we get the **R2** row values.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ac784e4-f996-4431-9836-3682b5f41ba6)
+
+* No solution -> Rank of matrix(A) is **not equal** to the rank of the augmented matrix(A|B).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0504a05c-cb51-4117-abbf-a0dad915027b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32bf58b8-9567-49fa-a700-fbe4b5ed5cc2)
+
+* If lambda = 6 and miu = 20, then there is **infinitely many solutions**.
+* If lambda = 6 and miu **not equals to '20'** then there is **no solution**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3b5f867f-f7b3-43ba-a8d5-9bf58a9c30f0)
+
+* The equation is **homogeneous**, so **no solution** option is **not correct**.
+* The equation definitely has a **solution**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/160f7c91-4d44-4d90-bdf2-223cb4a8ef97)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/daa02ce7-26d1-465e-8eb9-a33b74239629)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d2690406-eff9-4d19-80ea-f867bc2d542e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/11c120aa-6a96-40fc-94d4-a6d24ac9091d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0cef19c-5364-4e81-a8a4-0bf32eafd8bd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a104aeab-813f-47b4-9d72-bc6e5e2ce3bd)
+
+
 
 
 
