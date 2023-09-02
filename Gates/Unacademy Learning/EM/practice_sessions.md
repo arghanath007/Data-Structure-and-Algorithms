@@ -2931,22 +2931,95 @@ If R1 row is multiplied with **3** then we get the **R2** row values.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81bf10fc-f482-45e0-bc45-2cb9a5cca9f7)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/078c8707-d458-4a3b-9771-25244766178b)
 
+## practice-session-on-calculus-part-v (17) [2nd Sept 2023]
 
+* sin 0 = 0
+* cos 0 = 1
+* e ^ 0 = 1
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ee6e441-83da-48aa-83a4-48e83c84238e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc5dfeb3-d9b8-4bf1-8916-860c4e06b52f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80759639-cfcb-4993-982c-6a234027916d)
 
+* ILATE principle
+* I -> Inverse trigonometric
+* L -> Logarithmic
+* A -> Algebra 
+* T -> Trigonometric
+* E -> Exponential
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/841fa9cc-70be-492c-8a76-42853e5242e9)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/79996dce-ba45-49c3-82c0-a2dc93baa2d9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c422f55-5ee5-46a5-aa67-7479959ac063)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/111986dd-3c4c-4432-8013-0356b54931f1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/38b26f79-35fe-4d61-98ba-497bd7949486)
 
+* Sinx lies between **-1 and 1**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/978c2205-3812-4718-b933-0074a26b7cb5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/630e52f0-b1bd-4d34-b25b-76d3a7a6e449)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/818fd1ad-b3cb-4eef-8d4d-22373d6f2d8a)
 
+* If a given function is, if it's **limit exists** then the function is **continuous**. If the function **continuous** then maybe it is **differentiable**.
+* [**IMPORTANT**]
+* If the given function is **continuous** then it means that the given function's **limit definitely will exist** and the function is **differentiable or not**, that gurantee we cannot give.
+* LCD
+* L -> Limit
+* C -> Continuous
+* D -> Differentiability
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3a24bf3-c386-4c3c-a911-a038330ae3f0)
 
+* If **12th standard** is completed then definitely **10th standard** is also completed.
+* We cannot comment about **Differentiability**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9a8701b0-2321-4440-a30b-642d43917ebb)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/933c69e6-e841-49fc-a199-37e4895a60a4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a74cbe83-5648-4d6d-92c2-e862b42c9c08)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a581ba73-4302-4e1a-8e5f-0bdb6dd39608)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/badd0190-1588-412c-bbd2-1b7d64805958)
 
+* Derivative is **not continuous**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9bd958c9-bd7a-4d8d-bd2f-e7e97c25bd31)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b2739efd-49a6-4c26-ab13-354632dbf797)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc864f0e-9dd0-4746-8e46-1d6ad89dfc32)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/15e1a393-501f-412c-a4ca-aef9df9e95ca)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3bd3a5bc-48df-4bdc-b3fe-e53155f9161c)
+
+* log 0 = undefined/infinite
+* log 1 = 0.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9cef290c-ae76-4abe-8d34-ebdfa8c913f5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec4d1d36-32d1-4eb0-a02a-c89a33bb15b1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b6901984-a637-4e0e-9ea2-225de5823f92)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d96b63ed-db04-49dc-a23d-55bbcc498132)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/522a95e1-c877-488d-ba1f-6a0cfc1afeb0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d94fedf0-0923-441d-8e27-3e9adfe9ceac)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9f0d5bf3-5b1c-42d7-a092-cb203777e10d)
+
+* [**IMPORTANT**]
+* Converging -> Tending to Finite value
+* Diverging -> Going to infinity or infinite value.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/677335e6-c89d-4387-8e7d-949904658d5f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/641515b1-d11e-4694-b83d-e84607c5365a)
+
+* zero(0) * (finite value) -> Zero(0)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee540d23-908e-4171-aaa2-534498b555db)
+
+* Note [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e95f1402-6235-4eb9-aafe-362c462ffaa9)
+
+* [**IMPORTANT**]
 
 
 
