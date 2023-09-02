@@ -2469,36 +2469,88 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/48b1af69-0439-4f6f-9895-87045fe8a4e1)
 
 * [**IMPORTANT**]
-* Start from 23mins.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7afae28-c95c-41b9-9b8d-d7d2e5dff7a0)
 
+* UTM.
+* We are doing R1 -> R1 + R1.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5f65c5a8-c895-43e5-ae9e-1bccf8e2584b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6e5ccdd4-6f1c-412a-80c4-71a997b9fe77)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9b022a4-9a32-4963-8b11-57e4e4699925)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e4d8d4e-194b-4c82-8f51-a286abce320f)
 
+* [**IMPORTANT**]
+* We are doing R2 -> R2/4
+* We are also doing R3 -> R3/3
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a21cdff-921f-4aaf-aa94-e5db84dd78a4)
 
+* The ranks must be **equal** for the system to have **solution/solutions**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d17024b6-5569-4e48-a522-956c70826055)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ee3e169-8124-4f36-a296-31e9f966e390)
 
+* **n** is the number of variables(x,y,z).
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b1e0cde5-b07d-4fa7-a521-5ba5b5fbdf27)
 
+* Infinite, Unique and no solution conditions. [**IMPORTANT**]
+* Non-trivial solution -> Many solutions.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8b92d51-69fa-4935-8ce5-e423c20548f6)
 
+* Rank of a matrix **A** is **less than** the no. of variables(n) then it has **non-trivial** solution.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d9cf9551-f149-443e-9a1d-6b2d74a3bf4c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3bc93874-30bf-4ecb-b77c-9641e771cc9a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ae6c6d3-82a5-4bc2-a60a-6f529ea2ad01)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d232f4d8-9c2a-4512-bbd7-0f74b1a9e820)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c06b141d-7e2d-42f5-9ba7-76ccf9b09a2f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aee1e68f-d0a7-4c48-a140-b50bee213c54)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2292612f-bd08-47cb-9050-5498671e8f63)
 
+* Whatever be the matrix, **A ^ m** or **A ^ (anything)**, **eigen vector** remains **same**. **Eigen value** will be multiplied. **A ^ 2 -> lambda ^ 2**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b34b6f1-94a0-4710-88a4-78f7873088a9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e92ae72c-0ec1-4b6e-b66a-d08b72036c9f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2cbbdaac-3e51-46b7-8197-d88bd671b20e)
 
+* It maybe unique solution or maybe many solutions.
+* If it is **equal to 'n'** then we have **unique solution**, otherwise it has **many solutions**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f078afe-fb79-4503-aca5-b6b764a6b123)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e6d5d934-b184-476a-99cf-d41cb7592f24)
 
+* Inconsistent -> No solution.
+* No solution -> Rank of A **not equals to** the rank of (A|B) -> Rank of the matrix and the rank of the augemented(A|B) matrix are not equal.
+* Max. rank of the matrix is **3**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/689b40c6-506d-4c5c-82f9-10b80474d8f9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1115058-4a15-40cc-ac2f-3ceca14e931e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/205a1135-7dc2-4722-8a88-7c01097bef51)
 
+* Max. rank of the augmented matrix is **3**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0cca6f31-8915-43b7-83bc-2edc0607de40)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/75a534e3-c819-480e-be6f-9ba45fcfc4b4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98bd71f1-5d05-4bb9-8796-4a7c903193a2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/726c2578-3a83-40d3-b61d-49766196ed35)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dccb0dd2-6e4c-4cf7-853a-dc5c1c838e5f)
 
+* If the rank of the matrix we got is **4** then the rank of the augmented matrix is definitely **greater than or equal to 4**.
+* The rank of the augmented matrix **cannot be less than** the rank of the individual matrix.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5c303fff-d1cc-42c6-a716-fa2c1910c012)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1028a61d-fffb-4187-8a60-868bdff6054b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/578079dc-f4b1-403a-bfe3-e3e2afe980c7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/350d0b50-865c-422f-93e3-3ed6396661ae)
 
-
-
-
+* Rank of A **not equals to** the **rank of (A|B)**.
 
 
 
