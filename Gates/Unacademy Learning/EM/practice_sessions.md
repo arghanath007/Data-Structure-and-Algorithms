@@ -2885,6 +2885,67 @@ If R1 row is multiplied with **3** then we get the **R2** row values.
 * As there are only two independent rows in the matrix. So the rank of the matrix is **2**.
 * [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/13aa3ed2-e15f-4913-b8bd-1fece061f177)
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/BACB0AD414
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ad35bf5a-f0ec-4c07-977f-263bf7fb6a94)
+
+* As there are two independent rows, so the rank is **2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/943d75b3-2569-45ea-b0c2-db872adc8b6e)
+
+* If we have **4 linearly independent eigen vectors** then it means that we definitely have **4 distinct eigen values** only. Vice-verse maybe or may not be true.
+* We have 4 eigen values and from these 4 eigen values, we have 4 eigen vectors. The 4 eigen vectors maybe independent or maybe dependent.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97449ada-cdd2-4a60-a186-aad363be568d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58b8d0b1-3033-49d0-86c1-74e95481926e)
+
+* Yes.
+* If S2 is True then S1 is True.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2991b418-a0f5-4db9-90f6-f53cddbea6ee)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e2ae3658-a681-4cf0-8956-89553ea2d015)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0bf6a2ab-9ac0-4449-963f-68f419951aad)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1619c0f5-7d7f-4250-821d-9ea57ab895de)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3ecde41-867f-46ca-9146-35a23a6c261b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc556ab0-e051-45c6-b5b0-124f06e5e22c)
+
+* R3 = 2 * R2
+* That's why removed R3 row.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f1f9e997-3bac-4be4-9342-480bb8ebfb95)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a4e1f7f-d6a4-494a-b21c-240811e12228)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5032f34b-c02a-4afa-a2d5-a0d18275dedf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c1d80e5-54b7-4c7c-bff7-1aeb2840c8fc)
+
+* [**IMPORTANT**]
+* We are dividing R2 and R3 rows with **-2**.
+* We are dividing the R4 rows with **-6**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a00c485d-fab2-42e7-9b2a-f2162e310d7e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a0d28125-ada0-4346-9fef-9a276db5b3a2)
+
+* There are only two independent rows, so the rank is **2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81bf10fc-f482-45e0-bc45-2cb9a5cca9f7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/078c8707-d458-4a3b-9771-25244766178b)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
