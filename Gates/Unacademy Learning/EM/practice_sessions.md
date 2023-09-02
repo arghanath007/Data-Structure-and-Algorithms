@@ -1,4 +1,4 @@
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2730583f-109e-4ee2-a65e-e27af0386de5)# EM practice sessions
+# EM practice sessions
 
 * Link -> https://unacademy.com/course/revision-course-on-engineering-mathematics-199/ZE7GO6F5
 
@@ -2552,29 +2552,105 @@
 
 * Rank of A **not equals to** the **rank of (A|B)**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b7e4ff4-dd75-43e5-a18c-6334c7a091a2)
+
+* For the system to have **solutions**, the rank of the matrix is **equal** to the rank of the augmented matrix.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5e07c4f-9d52-439e-9eef-141cda55bb0f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fed6602e-f3af-4f8a-aebc-353ff92796fa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c03b257-4755-4689-b5cd-5f4373ead411)
+
+* [**IMPORTANT**]
+* No. of linearly independently eigen vectors is **equal** to the **no. of different/distinct eigen values**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/600ce8b6-74e9-4b0b-8829-2d11c81a9d37)
+
+* Note. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e811aa66-43b8-48eb-8fe6-e5b5f1de887d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33a017f1-877b-403e-b6ae-41c046532414)
+
+* So, we have **one different eigen vector**.
+* Eigen values of a **symmetric matrix** are purely **real** values. It maybe positive or maybe negative.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/70b07ab3-1b7a-419b-afa6-b32ecc75f187)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e432331-054d-4284-b2ec-250c8565003c)
+
+* Eigen values of a **skew-symmetric matrix** is **zero(0) or purly imaginary**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71e11928-3a3e-48e0-b485-d40b478f4e71)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/899ce0bc-4ade-4e5c-b866-4f089eb01b11)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/62989d3d-f3d3-46a2-9adf-1dfa234dc62a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b81fdb2-1aeb-45bb-a399-5c96f26028fe)
+
+* [**IMPORTANT**]
+* X = (n X 1)
+* The **max. rank of the matrix** is **1**, as **1** is the min. of the no. of rows and columns present in the matrix.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/46b18633-623d-4e2a-9734-b20001ed8313)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be9ed901-9dba-4619-a6c0-de7eb4a3e6fd)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f357f6e8-0c15-4a6f-8372-7078b0334395)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bd6ece1a-e242-4a52-95e2-15bb36e59a85)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97cc6a94-5608-41d9-864b-d5b836f21bff)
+
+* All these values are always **positive**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/23491006-2f65-4934-b526-fc790ce65368)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6019f022-05c8-45e3-97f9-af3a76ad9b08)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e6e39305-e6b0-454f-a377-84e0ff32bb4a)
+
+* As the matrix is a **rectangular** matrix, we cannot talk about **inversibility and transpose** and all.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f5d2a49-7e59-4f3a-b1fc-20810a8998dd)
+
+* Full rank matrix -> Max. rank of the matrix.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71608364-618a-40db-a6b3-c2db7a5f5361)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a945ee52-e9a9-45b9-972d-c972d820ad15)
+
+* [**IMORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c06993f2-2833-4f44-9353-0a06a4542599)
+
+* For the system to have a **solution**, the condition is that the rank of the matrix is **equal** to the rank of the augmented matrix.
+* Rank of A = Rank of (A|B)
+* Rank of A = 2
+* Rank of (A|B) = 3
+* As the ranks of the matrix and the augmented matrix are **not equal**.
+* For them to be **equal**, the value of **a** should be **zero(0)**. So that the rank of the augmented matrix is **2** as well.
+* Then, Rank of A = Rank of (A|B) = 2.
+* Value of **a = 0**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b69bd76-6e90-4bbf-b90e-136cf9640a09)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98ac0033-1a95-4eb9-a4f5-209a84b2458e)
+
+* For **unique solution**, the ranks must be **same**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86430337-894b-41de-a6d5-277b84a3f17d)
+
+* For **alpha = 5**, the rank of the matrix and the rank of the augmented matrix are **same**, which is **2**.
+* Rank of A =  Rank of augmented matrix = 2
+* But it is **not equal** to the **no. of variables(n)** which is **3**.
+* 2 **not equal** to 3.
+* So, there are **solutions** but **infinitely many solutions**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/737110ba-be5c-4722-8de9-976447d15b58)
+
+* If **alpha** value is **not equal to '5'**.
+* Rank of A =  Rank of augmented matrix = 3
+* Rank of A =  Rank of augmented matrix = No. of variables(n) = 3
+* So, **unique solution**.
+* As all of them are **equal**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3691aa94-32eb-4a9b-8bba-7d6b77e5ff5b)
+
+* [**IMPORTANT**]
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
 
 
 
@@ -2644,5 +2720,5 @@
 # Misplaced Images
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ec214e6-165b-43a6-83aa-c29b11c6f9bb)
-
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2730583f-109e-4ee2-a65e-e27af0386de5)
 
