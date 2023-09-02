@@ -3021,6 +3021,178 @@ If R1 row is multiplied with **3** then we get the **R2** row values.
 
 * [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b647624-29c5-4346-acb8-171e69b3ea59)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee830258-0ec0-425f-a65a-e76498f9bee3)
+
+* Representation of Mod(x) or |X|.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/952e79b9-1c1b-4176-992f-dd9e7833a786)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b0e449f-d76a-41a5-9959-6379908611b7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4682bf77-ae1b-4a62-b4e1-c26135e1326d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37b8ab25-801b-4139-af8c-350d5b110c5a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a48b91e7-caf5-4d37-8056-2a342b95fd72)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/240b1488-2844-4892-9a8b-82c5c970db6b)
+
+* The given function is **two times differentiable** only.
+* 3rd time, it is not differentiable.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/304ccf98-cd7c-4383-b789-5aaa553db000)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7d6d99f-53f4-4ea9-a36a-53a250ef2579)
+
+* [**IMPORTANT**]
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/D04A93D03C
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98d7b443-715a-4095-93fe-3986dfe86ed7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c6ea7f1-1961-4c70-b97e-7ae93095ffa9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/87a1079c-c68d-42a1-a73d-e175809f1b5a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/29f2e8a6-1e4b-482f-a4c0-3c2be493a662)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab1e5aaf-249b-41ca-a041-3d4e912f010d)
+
+* roots.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e6a93319-af6a-4504-983f-407ea2b1ad35)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/56386133-78d4-462b-8db7-2cc158df83e4)
+
+* **1** does not satisfy.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c3bd7d73-ce78-4fd7-a934-8001377faa28)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/713a673a-41a1-48c0-93c2-706e6db14718)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/78ed7e5c-9d20-499d-88d7-aa208270eb64)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/199bfd3f-c139-4ffd-a9c9-c67974e9653c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b5b0cf9-6cd3-41f6-8758-f93a823ddf3f)
+
+* 1/x = 0, as 'x' -> infinity.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c5792cb0-04de-4208-8b59-7dc6ac7380ef)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4ef94f7e-6470-4ac5-a7c2-012178d9eb3a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b29cb51-14c8-4766-8b39-3092fa698b1b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8dba2f87-7441-4915-baae-a34ef7b07ad2)
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/E35DF6922C
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed6c05de-07cb-4d55-9884-fd86c4ab0d21)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c8e5be74-f972-448a-a54d-f3c1a3cabd84)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3b56178f-3a64-4fcb-b732-9e5af433904e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dcf190c9-f6d4-4a7a-9cb4-3d861f52d02a)
+
+* Note [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a6d3df5e-bf96-4950-8f8e-c6d7540aeb95)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/316e42a4-a7ef-4a85-83c6-9cdfc775c29f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/de53a1be-43d5-4f29-870c-7a938a4a7a86)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2addce32-fccb-4815-86fc-ee8481de56ca)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1df4678d-23e3-41f1-951b-cc72007a5770)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8fdf3558-e72c-4a25-8fb3-3188988a1468)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2b5ed2e-7bed-4af7-9f1d-dddb40abad85)
+
+* Note [**IMPORTANT**]
+* a = -1.
+* b = 2.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a126a9bb-8659-4cdc-a19a-c84415f37c81)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f676096-80cc-4a56-8a0d-a918b41a993c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1b50be0-cd92-4463-ac6e-bba167e59e16)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0fe3e29c-627e-474e-8b74-25cdb3e6de8c)
+
+* Except **x = 2/3**, the function is **differentiable**.
+* Simply equate the function to **zero(0)** and get the value.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d1fdb4c-05d8-4e32-a074-38124991bc10)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f4f42ec5-5f6d-4012-917d-29ded4ece3ad)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57bac43d-ad66-4439-a394-0d26d4d459d2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb8863d6-18c6-4dfb-b506-935fdcae78ba)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b8d9617d-3512-43b7-ac9c-fa8b581606f6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ac59a4a-594e-4247-90dd-12c5c2f13a1e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aeec5224-2319-430b-903e-79b558153bfc)
+
+* Left Hand Limit(LHL) and Right Hand Limit(RHL) must be **equal to** the **functional value**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb89f552-79f9-41f5-94a2-1b8883d245ad)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/52ace7ac-a965-4cdb-af7b-0097eb8e52f2)
+
+* Mistakenly ticked option **B**. Should be Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f5ae07a-1c35-4771-983b-f1252781849c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/82df19fc-a269-4319-9c5e-5b5f66e5359f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cfc290be-65fc-418b-b714-1ccd660cc95c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6635579e-3197-4fa3-922c-aad83df732b7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2bba985f-0647-45f2-a985-2290f3617329)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/55a75de1-08ef-434d-bab0-454ea4f4bd60)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0aab0a58-e334-4718-8fca-e3b4e165a006)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c90dca7-8d28-448f-b7f6-73385d06ebeb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7aeaaef3-e1bb-40cc-a5ed-390359d1da04)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f5f0f30-d5ca-4e81-ad35-ba77dd387fd2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c304d1e5-c6b1-4d12-bc78-45ed83a9b53c)
+ ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3eced490-76c1-417a-85f4-b50b6542973f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed553f9f-8759-45b8-89bc-78ad207d75ee)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0129d954-288d-4826-ad89-20055b56305f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5dfec87b-4e05-46e6-81d3-8e809abc5374)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ad286c2d-e274-470f-b122-5bb20a52d66f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f393fce-6297-4d76-9c1e-cd12391e11f7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58ac944f-5bd9-40b4-a51b-ffa9a9b79285)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ed3a34b-44cf-4086-9c04-c9e9c898520f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b989b9eb-fc39-489d-95c5-fa50d9b65df2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5386a9b5-d8e7-428c-a0b2-6e83e6622f17)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d297522c-2542-4a0f-92c5-647c1360a5e1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/46b8b9b2-646b-4090-ac67-9d6c63a8ee32)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1620fbee-6fca-4b10-960d-de86b2cf7965)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc1845b9-d822-4a86-be01-a9491c3144ba)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0cc00226-61f0-404d-bc08-d16c7cfa4dac)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/45a2cdae-72b0-411b-b132-facae1b61fe3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f29efb1-cce0-4063-a22c-e4c55a976461)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c17195ac-3e35-452a-882c-ad2fbad939c1)
+
+* Range of **cos** is always **finite** value.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce28795b-7df3-40a4-abef-6aad1e40b785)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e7abe11-1c20-4cc3-b23e-f364f2a4c3ad)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a444a11a-f6fb-4d0b-9c27-4199a82a979b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5f0df827-ce7e-4af0-99cd-68509ac78d6a)
+
+* Cos 0 = 1
+* Sin 0 = 0
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f017e92d-65da-4ee0-9864-59c020eaefd9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/922d3223-0033-4604-bb4f-0a53b5a85bfc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea8db263-f684-4f2a-bd23-3463e7eb3320)
+
+* We will try to get the **0/0 form**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12ecbf58-8a64-42c1-97ff-1c0c45b87ce6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/803d65e8-2e99-4ab6-89db-de616334235f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ad351d7a-e590-4cf9-be8a-32f88bd05d18)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
