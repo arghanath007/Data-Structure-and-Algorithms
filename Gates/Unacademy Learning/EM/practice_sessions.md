@@ -2695,40 +2695,195 @@ If R1 row is multiplied with **3** then we get the **R2** row values.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/11c120aa-6a96-40fc-94d4-a6d24ac9091d)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0cef19c-5364-4e81-a8a4-0bf32eafd8bd)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a104aeab-813f-47b4-9d72-bc6e5e2ce3bd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f42d32a7-f124-4404-b843-2f7e78d3b1bb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57fed8f0-3a15-4ae5-a7e6-83177cbee0d5)
 
+* **Z** depends on **X and Y**.
+* This is linear dependency.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd49897e-9648-4468-a3d2-0410f7103bb2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69325ec3-5540-402d-bacb-14c98a3428a4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/60960519-0f7e-4f2f-b797-29934b412e51)
 
+* [**IMPORTANT**]
+* For **B1 = B2 = 0**, the rank of matrix(A) is **2**.
+* n = 3.
+* **2** is **not equal to 3**. So there are **no unique solutions**.
+* For any value of **B1 and B2**, the rank(A) cannot be more than **2**.
+* Rank A = Rank of (A|B) = 2
+* Which is not equal to  n = 3.
+* So, **infinitely many solutions**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97b9aab8-3f9e-4088-926c-d09c6b82caee)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ed8441a-f9b8-4b48-bff8-5a2abc9fcc88)
 
+* Unit vectors -> Magnitude is **1**.
+* If the three vectors are **independent vectors** then the rank of the matrix should be **maximum** as there is **no relationship** between the three vectors.
+* Rank must be maximum -> Independent vectors.
+* Rank is not maximum -> Not independent or dependent vectors.
+* If |A| = 0, then the rank of the matrix is not 3.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/293cf397-932d-423a-8719-6647f9a6d885)
 
+* As, |P| = 0, the rank of matrix(P) is **less than 3**.
+* So, the vectors are **linearly dependent**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/654d4b0c-abf1-4b26-b22f-570bc06c77da)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b6cb9b59-8b9c-4bb8-b4c8-0b2f2b271576)
 
+* Dividing all of the three rows with **2**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/73d1c09d-3bdf-42d0-bb9e-dd2d6033e9e9)
 
+* **R3** is the **double** of **R2** which is **R3 -> 2 * R2**.
+* So, there are **two independent rows**.
+* Rank is **2**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cee85f68-704e-411f-a047-2e73ffbe9629)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2dfce38b-c2b9-4d58-934c-e92dedae3a56)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8c7c497c-d14a-4b09-a0a8-f4375e6958a7)
 
+* Rank of A =  Rank of (A|B) = n = 3
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6212af39-5512-452b-9f6d-c5992c1a1eaa)
 
+* Interchanging the **rows**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/55d23632-a111-4bfa-8a8a-7ed646fd26c4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3147fe93-5986-4f5a-8b88-2ca9f54dc073)
 
+* n =3 (x,y,z)
+* Infinitely many solutions -> Rank will be **same** but the **det of the matrix is zero(0)** [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/88f6859e-7bec-4b1b-920b-545b009970b3)
 
+* For a system to have linearly independent eigen vectors -> The system should have three different eigen values.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a9a4d240-2632-4d78-825f-e1e668f5e693)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97fdfc50-5bd1-455f-b074-2da51aa5c664)
 
+* Max. value of **a**.
+* To get the max. value of **a**, we have to do **differentiation** and equate it to **zero(0)**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ceb6271-c5da-4058-8350-c62e09b46d28)
 
+* We can do **double differenciation**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/952eaabd-09b6-4115-9e8a-17f6764c119d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5be02d26-7676-4745-bc4d-e6ac57bd5507)
 
+* **Right to left** we have to move, we giving the **signs**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f8f7d97-e0b8-471a-93ee-0aa059c44d58)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/00712c2a-433e-49ea-a96f-19d53b7bcdbf)
 
+* When coming from **negative to positive**, the value is **minimum**
+* When coming from **positive to negative**, the value is **maximum**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/544b816e-f1b6-4623-aff8-055b832e477f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d34d796c-30f0-4990-bdb5-8519cec7f2b2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6aa07237-f3cb-4e5d-9d5f-229fd5b5458b)
 
+* Substituting the **lambda** value.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0448f05-c6b8-4478-a9d7-8a4931466c91)
 
+* [**IMPORTANT**]
 
+* If the **det of a matrix is non-zero** then the **eigen values** are **non-zero**.
+* **det of a matrix** -> Product of the eigen values.
+* If the eigen values are **distinct** then the equations are **linearly independent**. Then we have **unique solution**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8b43235-4483-42d5-8b90-0425541ce550)
+
+* All of them are connected statements.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/548b7b15-0262-4091-9de6-3778d9d89923)
+
+* No solution -> Ranks must be **different**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3c876ef-2856-493a-aeae-5d44bc76df45)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce43fb8d-494b-4b9f-96d5-a24e6ebee816)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f43ebb96-4337-4d7e-9528-f204ddd73467)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57b6431d-7957-4a3b-8727-52b116b671b5)
+
+* Only one independent row we have.
+* Non-trivial solutions -> many soultions -> Det of a matrix is **1**, which is |A| = 1.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97115dc6-7c86-4b04-bad0-ac967dc55cdb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3916ff9d-9246-4474-bcc3-238fabffdb83)
+
+* Doubt
+* Didn't understand.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/42e546bb-741d-4033-a41a-a0be5c6ff9f4)
+
+* Eigen value changes but eigen vectors do not change.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/17f04730-7c49-4bda-be58-710a40470998)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dfa8e040-d45b-4c8e-9825-8992264920ac)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/55b0b908-ad24-404a-840e-389b1d2719eb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f1195925-2c95-47c8-bf9d-dfbcf3f67c48)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2bab9320-8ff7-4886-9bbe-6df60e8bdac6)
+
+* [**IMPORTANT**]
+* Two eigen values are **same**, so there is **only one eigen vector** from the **two same eigen values**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3be77427-f672-49c8-bd4a-2a9e1b391d8d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5257462f-6eae-4bc3-a6e7-f8b4129b67d9)
+
+* So, **no solutions**.
+* System is consistent means there is **solution**. Coulde be single solution or many solutions.
+* To have a **solution**, it could be **finite or infinite** solutions.
+* To have **infinite solutions**, **c - 5 * a - b + 2 * a = 0**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66bdd422-2a96-4c00-b9fd-eb836a88d38f)
+
+* [**IMPORTANT**]
+* If **m < n**, then we have a solution. **NO**. **No. of equations** must be **equal** to the **no, of variables**, which is **m = n**. Then only we have a **unique solution**.
+* If **m  > n**, then there is a **solution** possible. The solution could be any solution.
+* If **m = n** then we have a **unique solution** is possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/939ccb3d-50d0-4e00-bd2e-8ae3d4b8adbe)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9bedabc0-4171-4a88-bed6-fcd6540a2046)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44ed9380-2846-404d-be64-5d7a264428f8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/870e359b-3de5-4703-bfe5-a527fe3313c3)
+
+* We have **4** non-zero rows.
+* So the rank is **4**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1dbdd17d-142b-4f81-8f7b-d286c86fa19f)
+
+* Dividing the first row(R1) by 5.
+* Dividing the third row(R3) by 3.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8a9fb21-9791-4d26-9f13-cc4158d4bcd2)
+
+* As we have two independent rows which are **R1 and R2**. So the rank of the matrix is **2**.
+* The **row(R3)** is dependent on **R1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c63b66d0-f2d1-4279-b009-d12a584cfaa7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/502d4905-5e70-4659-8237-156e0b62538e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c82b986c-c74b-44a7-8451-c4d28bcc9c36)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/59e82817-25eb-4966-acf7-62a0177fd4f7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e701cde4-0458-45ea-859b-92daa21acfae)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44297b35-89c7-4c4e-b274-7f763336ce03)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a587b3e9-fccf-44ec-b63b-55fbf1411021)
+
+* As there are only two independent rows in the matrix. So the rank of the matrix is **2**.
+* [**IMPORTANT**]
 
 
 
