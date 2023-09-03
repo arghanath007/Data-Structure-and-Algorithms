@@ -3674,6 +3674,10 @@
 
 ## Continuity
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab39bf05-94f8-4cf2-8714-49c72c279143)
+
+* [**IMPORTANT**]
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dbb2fd28-c037-45ae-8a1f-24d099283025)
 
 * Defined -> Finite value
@@ -3694,27 +3698,131 @@
 * The function is defined for **2 and 4**, when the function is satisfied for **2- and 4+**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36a192b5-8c33-4b31-8049-d22d2d7e3a1d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d6beb34-ee98-4a8f-8607-208d7debbed4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/569a026c-b0b5-4765-97d4-8a29ed1f10aa)
 
+* We have to take a value a bit less than **a** and we have to take a value which is a bit more than **b**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/18c24335-7911-4cbe-893e-c44ec7efca9b)
 
+* Check for **continuity** for a given function.
+* For **continuity**, limit must exist and functional value.
+* Generally we can check, wherever we have **some discontinuties**.
+* So, for **f(x)**, the limit of the function exists but it is not **continuous**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/745fc856-d7e9-4420-8a07-1753fdfff898)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1542b1c5-f989-482c-9f17-4d5f4132b1a6)
 
+* As the **LHL and RHL** are **not equal** so the **limit does not exists**. Hence, **continuity** also does not exist.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8939dfdd-b411-4903-ae9f-dfe0cfaf0dba)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/59e67dea-6e8a-41de-931f-5cc2290496f8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f65d4397-773f-4c16-baa5-8f4aad6aa330)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d77e003-4460-443e-a8a0-41c324f8e2b6)
 
+* Note [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d58a3f52-7a18-460c-a151-e4361c892d68)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e166752-494f-4394-82cd-239c5323953d)
 
+* At **x = 0**, the function is **continuous** and everywhere else the function is **discontinuous.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/94417563-54ac-40a1-8f7d-88816e0efae0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab1b6ae7-8041-4db0-836b-9aef83454e65)
 
+* Logarathmetic functions are **continuous** functions  only for positive values.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b3af5936-1d93-447d-9f99-0b56b8b34d8b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/284d6a21-3ea4-49a3-a478-f56b46fa5034)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c8ba2747-4e2b-40f5-a594-4c9938688771)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a4efe0d1-b750-45be-b247-13c51a7b9b1d)
 
+* As **f1(x) and f2(x)** are individually continuous functions.
+* So **f1(x) * f2(x)** which is **f(x)** is also a **continuous function**
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc24dcf2-9f14-4b13-8e83-f83fb704085e)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab39bf05-94f8-4cf2-8714-49c72c279143)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81a5cd81-d10c-4f68-901f-bb4b82c00425)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/07a8f0f7-ed4b-4b09-b4ad-26ba2e983522)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b34bcbf-bfab-45af-8d59-02ca4addc8e2)
+
+## Types of discontinuity
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/03083dfa-adab-44f4-a1a3-c893aeee7020)
+
+* Missing point discontinuity -> Limit exists but functional value(f(a)) does not exist.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab424934-4d7d-41f8-94bb-2c7aaa5f06cc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d69c9ac7-86a6-48b7-b21c-95d850bbb3be)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e19e01d2-79fc-40bf-ba8b-c374e4e93475)
+
+* Isolated point discontinuity
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4608a665-0116-4f9f-89e5-8842ccf73614)
+
+* Finite discontinuity
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/986be591-4452-4824-8d4d-d900fd41444a)
+
+* Infinite discontinuity
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/13089106-6414-4481-b551-f9111baa2504)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/632e3d58-38ea-4556-aa9b-4f22edb67172)
+
+* Oscillatory discontinuity
+* Sin pie/2 or sin 90 = 1.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98ed47a9-9074-4991-b97a-bd9ac61e4931)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/59e85a94-4b05-439a-9e0a-6828a36356b5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e6202b0a-0095-4db4-b9e9-358772c8a616)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/937c2cf2-7cbd-440c-98dc-30918292fd42)
+
+## Differentiability
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8959c899-6b9c-4501-ae9b-9e4f26be44d0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8970ebb2-22c2-48f3-aeee-95023a05f3c5)
+
+* In place of **X**, we have put **(a - h)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f392397a-8ec5-400d-b670-d79a4646feeb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09f29be3-1a72-42d3-b365-4fae1b801ab0)
+
+* In place of **X**, we have put **(a + h)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ef97b27-b4ae-46db-b68e-6b98f18c6961)
+
+* LCD
+* L -> Limit exists
+* C -> Continuity
+* D -> Differentiability
+* If **limit exists(L)** then we will have **continuity(C)** and then we will have **Differentiability(D)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/833628be-4f15-49f6-b182-3cf6cd1728fd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/210d02ed-e321-441f-a5d6-0902eda29515)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e52de2f8-07d5-425d-a418-b0469f54bbd3)
+
+* LCD Note [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5cae216b-0d4e-46d0-97de-01da3b884e56)
+
+* Only one **independent column** is present.
+* Remaining are **scalar multiples**.
+* So **rank = 1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9048ad5-c08b-4634-9f52-f3b0151e603b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/374f3636-9073-45aa-9026-a8f69205b131)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa9ae1da-4135-4487-bc71-6908c9420951)
 
 
 
