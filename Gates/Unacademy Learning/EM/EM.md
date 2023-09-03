@@ -3668,7 +3668,32 @@
 
 * [**IMPORTANT**]
 
+## problems-discussion (27) [3rd Sept 2023]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f35eb06-af8b-4718-8add-411fd5a7ba57)
+
+## Continuity
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dbb2fd28-c037-45ae-8a1f-24d099283025)
+
+* Defined -> Finite value
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d00fbd4-29bc-4041-a0b4-ff2dfff4da34)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/758d7ffe-f94c-41e8-add3-73c84896101d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/578388d3-9d75-4360-a6a5-76db932f4d63)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ba4d9a1-946c-4f51-b8a0-6e71628f6a68)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0dfd1274-5b01-40df-b241-ff0dc9ad4c68)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e63007a6-9f78-4694-a838-ef020bbba4ac)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0069ea6-7e1a-4be8-b6c9-166ca8e2d039)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6505dda-ff36-4f69-97c5-76419da72d45)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b2caaf3c-c2d0-4d76-89e5-305c19762869)
+
+* The function is defined for **2 and 4**, when the function is satisfied for **2- and 4+**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36a192b5-8c33-4b31-8049-d22d2d7e3a1d)
 
 
 
