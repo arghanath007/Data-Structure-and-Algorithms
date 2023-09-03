@@ -3169,32 +3169,168 @@ If R1 row is multiplied with **3** then we get the **R2** row values.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/803d65e8-2e99-4ab6-89db-de616334235f)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ad351d7a-e590-4cf9-be8a-32f88bd05d18)
 
+## practice-session-on-calculus-part-vi (18) [3rd Sept 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b49aa8f0-aadf-44aa-ac45-000e62ad544e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41a23991-b887-4e14-b08e-5db456446428)
+
+* Note [**IMPORTANT**]
+* **rt - s ^ 2** is always **less than zero(0)** for any value.
+* So it has neither maximum nor minimum.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9c740456-2c21-4333-ba50-c2af10d0c79d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/90e41370-717b-44ff-b9ad-0172cf6cfce2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d73d6c5-1a24-4196-b5f9-f4d0dad78d0f)
+
+* If we **equate  y' = 0**.
+* (2 * (x ^ 3) - 250)/x ^ 2 =0
+* (2 * (x ^ 3) - 250) = 0
+* 2 * (x ^ 3) = 250
+* (x ^ 3) = 125
+* x ^ 3 = 5 ^ 3
+* x = 5
+* We have **only one root** here.
+* If we have more than **one root**, we have to jump again and again.
+* The starting sign in **y'** is **positive(+)**.
+* So we are putting **positive(+)** on the **right side**.
+* **Odd power** so the sign changes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d23f9d03-447b-46f7-8856-5847a8d4449c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c282c239-dae6-4bbe-b170-5bfbe60f6ff8)
+
+* From negative infinite to **+5**, the value of **y'** is **negative**.
+* From **5 to infinite**, the value of **y'** is **positive**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b942ecf-7fed-43f6-8197-ab217513fedc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bccb0e09-2f71-4aa2-b9dc-50ea81c863b7)
+
+* [**IMPORTANT**]
+* So at **X = 5**, we have **minimum**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dfa15e69-3b94-4830-8586-6f75680b7deb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bda201ab-b68c-4acf-9975-a1f13af8bcc6)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a45af7f3-8599-4a1d-887e-ea856bdb9847)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bcfe58b1-8e67-4e34-a57a-d5269593dd52)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/797d296a-423d-4cd5-a3d6-34a4751f7068)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5c660498-7ca3-478e-9dea-02a56f60bacd)
+
+* Positive as **24 * x ^ 2** is positive.
+* **X ^ 2** is a **even power**, so no change in **sign**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22e03a83-a95e-4ba9-95d3-ddc0baa7a5d5)
+
+* If the sign does not change, then that point is called as **point of inflection**.
+* We have **no. of inflection point**.
+* In case of **maxima and minima**, we have to analyze the **first derivation(f')**.
+* In case of **inflection points**, we have to analyze the **second derivation(f'')**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/715292a4-c571-4273-8d9f-6b42a9a1ab7a)
+
+* In single derivative, if the sign changes from positive to negative -> Maxima
+* In single derivative, if the sign changes from negative to positive -> Minima
+* In single derivative, if the sign does not change -> Saddle point
+* In second derivative, if the sign changes from positive to negative -> Point of Inflections
+* In second derivative, if the sign changes from negative to positive -> Point of Inflections
+* In second derivative, if the sign does not change -> No point of inflections
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d7a79547-669f-49c5-8c39-68c9bf527ade)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d35eced-216b-4565-918d-83c077c44b00)
+
+* At **X = 0**, we have **no point of inflection**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1299f3d2-831d-4bdc-907b-4ea80c7258cc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6234907-41bd-4282-869d-0a08c92530a6)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c45cf98c-cb54-4d9b-9f2d-db9292ae9a7d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d7859b23-73cf-431b-9d64-3e5e4330b43a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/67a12a27-982f-4f19-8906-ddb4a9e8f1dd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8ea8bae-aac6-4bcd-b241-ef0b763e0136)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ffb80561-b334-40cb-b601-ab2f57e44508)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ba7854d-a2f0-46a3-a91c-f4d711cfd645)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9ac78fd-c41b-4d36-8ae4-e353433e711b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ee912f4-0a8c-42f7-b125-6698cd5bded3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/feb367e7-782a-4faa-a535-3efc4b55cc01)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b8fd370-71aa-4ac6-8993-4f6b7e93c115)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2cceb3b4-4caf-430f-afb1-f4d8753789db)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d1dac96-74a3-4516-bcbb-f856e3e46ac0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ae5a2d9-a501-4c2f-a347-4a0fab5383d9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d905b638-cbb3-4f9b-abc1-be103bfbd971)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/164be95d-f6f9-4ac5-86cc-c3cf3b8c65e9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a7d41c7-bc30-4ee5-8e2d-b9a0d3328f8f)
+
+* Max value must be **sqrt(2)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ecf551f1-6ab8-436f-9b26-abf2d7da1552)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af836d84-1291-4c19-adc3-6a7e7dc18782)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/477a2cb1-535b-4e8a-b280-28c9e5e2f858)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0614942f-ff7f-48b6-9e1d-ffc8c1280970)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/03a2def1-0673-4968-ae9d-6afa3d5121cc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be1eb790-a3e3-4a53-85d4-c488c7466a22)
+
+* For max. value of **sinx + cosx**, it is **45 degrees** and the value is **sqrt(2)**
+* We have **sinx - cosx**, so we have to think differently and use **(3 * pie)/4 or 135 degrees** to find the max. value which is **sqrt(2)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/25f216f7-8281-426a-b9a8-6b6145992492)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb49f942-12b6-46ea-a9ce-fb27b3311194)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/42ac6219-ebeb-4ce8-ad7b-1f983ce6bcb7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e713154-d6f1-4197-ad1e-1506f2643cea)
+
+* Saddle point -> Neither maximum or minimum.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/46a62785-7cdc-471a-965e-95f0aca6baaf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69c00dcb-6425-4999-8d2c-52336ec06c39)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2e382025-dda4-4223-9c35-525ac2c3f050)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4dd6b16a-918f-4407-a905-bfb9a1be7dcf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c1b9404-cad4-4927-9ebd-3abd833f8ae0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f8481d28-12b2-456c-a27f-9a77c8a3be87)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50103973-aa3d-461e-bb4c-09f5c6e003db)
+
+* For the max value, we have to find the **global maxima**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/da05229c-08c8-4587-82f8-74de17a7be5a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/21210c3e-1c91-4190-b438-05de4583cd70)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/594773ca-a81f-443f-8a35-2bf47142ab68)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b6ad7f2-c49b-41ab-b51a-269c87830efc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b6c9857-ebd2-40bc-a98c-c9fc7350698e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba310d67-7645-4b19-ab7b-c9ee7f0fdfc1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/62ff5cfa-4265-42e2-b280-d529c27a37f7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/efb584fb-0a92-482c-a472-8857c5891ed7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea8a8400-16ab-46eb-ab49-e79a11976ae4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab897e42-108d-4971-9101-0ac0c9d222df)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ee23474-d557-4699-b68b-666b8674c935)
+
+* As **sign changes** in **double derivate** so we have **point of inflection**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b3947f3d-7a13-4ac1-a2fb-9f15e9bb1a14)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f99a52d5-d7e4-42c6-9103-c167b479dc2c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/440f1a51-0b2e-4ccb-a5f2-8f4d13169bc0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f3360c2-46df-4860-afdb-d0dda3e13630)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ccc0b290-2858-4f91-ab7f-acbf5d09a603)
+
+* No sign changes
+* So, neither maxima nor minima.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16ba78ed-f5e2-4068-9381-ad6be6d24930)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dcab94ee-f455-4d91-a4f4-b0d3d9146a08)
+
+### Doubts
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/BC7752876F
+* For a non-trivial solution, the **det of the matrix is zero(0)**.
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/827B68D712
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/9B72AC9D25
+* As there is **only one** non-zero row in the matrix, so the **rank = 1**.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
 
 
 
