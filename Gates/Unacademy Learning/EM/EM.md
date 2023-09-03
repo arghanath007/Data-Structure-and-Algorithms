@@ -3824,6 +3824,156 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/374f3636-9073-45aa-9026-a8f69205b131)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa9ae1da-4135-4487-bc71-6908c9420951)
 
+## taylors-series (28) [3rd Sept 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2688c6c5-1c86-4c06-af4e-c3d708f07fa5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d49fe899-cb2d-4b40-9e2d-bc71bf3c5d42)
+
+* The solutions are not equal.
+* If all of them(x1, x2, x3, x4 and x5) are non-zeroes then it means that all of the quotients are **non-zero** quotients.
+* The values are not linearly dependent.
+* Rank = Max. rank possible is 4.
+* So, **Rank = 4**.
+* If we have **infinite solutions** then we cannot write multiples of the matrix(2 5 4 3 1).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c50e5dee-3fcb-4618-9a8d-f19755c40957)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c485690e-79d1-4da6-9871-95950289eca1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b4950c3-77d5-4c6c-9e60-a55bae914108)
+
+* The solutions are in the **X** matrix form.
+* So the solutions are **non-zero** and they are **not infinity**.
+* Solutions are some **finite value**.
+* (x1, x2, x3, x4 and x5) are **non-zero** values.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/203b5fb5-9edb-4c89-ba63-337f2917d036)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/25d16456-5d1c-4a9b-9271-7adcc92f2841)
+
+* R2 and R1 are linearly dependent.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/28be4214-e666-4dd0-8215-30a1c6ab21ac)
+
+* Infinite solutions are not allowed and **zero(0)** solutions are not allowed.
+* All solutions are **finite values**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a41f753d-3180-4bdb-8ccb-f31fd038b3d3)
+
+* X1 and X2 will have some **finite values**.
+* R1 and R2 are completely independent rows.
+* So, the rank of the matrix is **2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/79b00d09-70f6-4fb4-8f65-8cbc6a70ba1e)
+
+* Solution should not be zero, solution should not be infinite. Solution should be **finite**.
+* To have **finite** solution, all of the rows must be linearly independent. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dfcb09cc-564e-474d-aae5-f42399513ab9)
+
+* How many non-zero rows are present?
+
+> **4**.
+
+* So the rank of the matrix is **4**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8c68e035-b095-4223-a9a7-4daff2b3c52a)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d7dc1607-169d-4511-89e2-cac8373e2112)
+
+* No.
+* Infinite no. of eigen vectors are possible.
+* Finite no. of eigen value.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/186b7df7-d3b7-420b-8e3e-7470d9602b27)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c8995459-d767-448e-bf75-f3ef4d41e2cf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d794621-7b13-4b20-907d-eb4889e5afc1)
+
+* Working procedure to check continuity and differentiability.
+* If the function is **discontinuous** then we can directly say that it is **not or non-differentiable**.
+* Every **polynomial** function is a **continuous** function.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/40272ac2-3482-4192-9546-7bd45d2e1d6c)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b317226d-daff-47e3-8bed-50e9ee283af3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16d1a1fa-b8c9-4637-8ef9-880f64dcfdbe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0fb3378-cdad-417b-b224-ef9b1292de1c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5614e66-ea0c-49ca-ac16-772186b7133c)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/269a37c6-c42f-4293-a949-a7d16164f087)
+
+* The following function is **continuous**.
+* For **D**, **L and C** should be there.
+* If **Limit exists(L)** then we cannot comment about **continuity(C) and differentiability(D)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab315e53-afec-416c-95d2-b2a9ff1b6272)
+
+* |ax - b| = 0
+* ax = b
+* x = b/a
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/256b46b8-b189-4d08-849e-8575c60060c7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/895e62de-2a1a-4e72-9dd3-45cc870b105b)
+
+* [**IMPORTANT**]
+* [X] -> Step function
+* |X| or mod(x) is always a **continuous function**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ca40b6a-273a-428d-b39c-7315ebd8445e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e1f00a6-ee02-49cd-ba94-2e66ab2a4a3b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/607e8514-1f7d-48e3-a1ca-eda1631efca5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/39b66cb7-6e49-4576-b1d3-7882314c6c66)
+
+* |X| is continuous.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/664cca31-757e-467a-b602-946d83d78574)
+
+* We are in **continuous(C)** but we don't know about **differentiability(D)**, it may or may not exist.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1eb6e3fd-5c09-45f5-a67d-d1c6503c6389)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d3460c1-3d31-4632-b8ba-ca3906d9abf0)
+
+* |X| is not differentiable at **X = 0**.
+* f(x) is continuous as f(x) = |X| ^ 3.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d5bb10a5-21df-45e4-9277-a83a8d6f1e1a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2977a852-1973-4fe1-9103-f4fdfd96c99b)
+
+* The function is differentiable for **two times(f'(x) and f''(x)**.
+* But the function is not differentiable for the third time.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/944d1d03-ed97-4e3f-892a-e31c751e0c23)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/90a0c2dd-6b36-48b9-8cba-94c088079860)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e86688df-2b12-453b-9886-bbc052d080e1)
+
+* Note [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/52a9c357-6a35-42cd-9fd0-1d494a0a5dd6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8174fea9-6d1d-41da-9c6a-68d3dd2eb633)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
