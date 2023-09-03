@@ -2897,6 +2897,1104 @@
 
 * [**IMPORTANT**]
 
+## doubts-clearing-session (22) [25th Aug 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a3b985c-36c6-4bd0-9b76-fef5e386803b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/49f8ade7-a7e1-43d9-8311-32e8fb9aa4f3)
+
+* Rank = 3, means **det** is **non-zero**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db95ac6c-fa9e-4627-8b48-5ce35359b2b7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/445dfd9f-49f6-4bc0-b07d-075ed06e1970)
+
+* As **det = 0**, so rank is **less than 3**.
+* False
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b6614f7d-a7ef-498c-9a7f-87fc72a40dca)
+
+* All the rows depends on each other. There is only one row which is independent row.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ee895c1-432a-4701-81c5-e8972aaa3f87)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/658d369b-74a4-4d58-a6f6-fc7d7111dba6)
+
+* There is only one independent row. So **rank is '1'**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2d0b175c-28b0-4408-bea1-cbefc48e564b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/407f4fcf-8b60-4fd0-8394-fed3a3e0638b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f1648364-e616-4f77-bb78-91c619fc8a23)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6db3b526-588d-4f08-950d-70585b9f9593)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c6556ec9-c949-47cd-b43a-e58e198e0752)
+
+* R2 and R3 are **dependent** only. That's why all zeroes in **R3**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/505bf772-797c-40c8-8e7d-a590cf16c87b)
+
+* R2 and R3 are dependent on **R1**.
+* As we have **one independent** row, so **rank is '1'**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a196f37-6dbe-4b8b-9848-88669b649f7f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f1ddc575-1e3e-4d91-a62e-5259e2547e7c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/82368cbd-3fa0-4613-a55b-b90f1f1e1afb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d0ddb29-a44a-47d2-9781-857abe033f11)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a0c3d233-2f1a-4789-864b-04174dbb3266)
+
+* **n** is the max. value of the rank.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed22245a-8bf6-4b2f-86b7-ca46811e70b7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c0f4f05-c6a7-4e72-857d-be31f1e5fce9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50b1c052-fb75-48c5-99d8-40579244c6aa)
+
+* Rank = 2.
+* Except first row, try to make **zeroes(0)** in the other rows.
+
+## Rank Properties.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/355c3873-f017-4ac9-9b95-c01624700c66)
+
+* non singular matrix -> det is non-zero -> Full length/rank matrix -> Rank is max which is **n**.
+* **I** matrix rank is **n** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6fd267b-6bb6-4638-9d07-d7f000bc9a89)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ec02d8c-430b-4210-b268-ac83d6a573e0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/347c2db1-af56-4c16-9f46-88d5af9d8d94)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/de194782-bacd-40a7-8dd6-9cf2ceb63e8d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/25cbe14b-cb6f-4418-82e7-1b90b02667a3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d2fcd2ce-33ac-457e-868a-32095a08b154)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8eda6f9-2c19-4040-baa6-1672a47c05bb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3b4719c7-589a-4181-88d1-e6707228cd61)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1563af01-7483-46aa-a682-aa4bda6ac5f1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee729218-164f-40b8-9ba8-fdc93b653eef)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3c67d5d-6949-4f85-9abe-bff46277777e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6026bfdb-e571-4281-b308-42f2fa43abe0)
+
+* As there are **two non-zero rows**, so the **rank is '2'**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/73be899f-0833-4830-a05e-e4713bb27de6)
+
+* C1 and C2 are linearly dependent. So rank is **1**.
+
+* If rank of the matrix(A), whose size is **n X n**, is **n** then the rank of **adjoint 'A'** which is **n** only.
+* If rank of the matrix(A), whose size is **n X n**, is **n - 1** then the rank of **adjoint 'A'** which is **1** only.
+* If rank of the matrix(A), whose size is **n X n**, is less than **n - 1** then the rank of **adjoint 'A'** which is **0** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0976e17b-9b4d-48cc-a803-d2c12e73a60c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12e32bcd-7aab-42e5-87cc-6220b3a78920)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/adba71ca-099f-4fd6-9b48-1efb1187309c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b6301b0-7c1c-4881-a13a-118165b51c1c)
+
+* We did **transpose** and then multiplied.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/623cd220-672f-4f49-8ffe-190cbc8a7c61)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b13abc93-ea83-44b5-9b32-f33d98e1cd9e)
+
+* Rank = 0, means **null matrix**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b48262b4-93fb-474a-b586-b6367beeb07c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d5552b8f-4359-47ae-ae0f-0df91d51141c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e355f18a-4d92-4aad-b767-9dd7f38a9c7a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be90b998-bf76-4335-a5f7-3c940f31f36d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee8571f2-97f0-495e-b7a4-bfa9daa5196b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e4ddb296-36f9-4ea9-993e-830d7781416c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f2e91154-9658-482c-8ae4-7196ddd37f8c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ee0e2bf-c81d-4fd2-ab3f-031cd20d8fb3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0194cb3c-3e39-42cf-9cec-b194008ac20b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/178453c1-5836-4503-ba10-87ee8fd0f372)
+
+* Two independent rows, so the rank is **2**.
+* The size of the matrix is **3 X 4**, so **rank = 4** is **not possible**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f348783f-2ae0-43d7-a09a-e07e3938359e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb8eec8d-d59d-45be-8968-f41bd880a879)
+
+* Two independent rows are there, so the rank is **2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d55a9ef0-635f-4d4c-bfb2-8bbd915fb825)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c83ea2e-8155-48d3-a97b-cdde00dfd7bb)
+
+* Doubt.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/726c8f2f-12ad-4847-8c23-ec193f4163b0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c8dad800-5567-4014-832b-f47d10e7f65e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/943b4202-4546-462a-8016-390b684ed048)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe8f196c-11b1-4391-9920-6e34d2d8b657)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b34c7823-0a93-4281-beb6-4fc35f538b70)
+
+* **R3 and R4** are dependent on **R2**. So **R1 and R2** are two independent rows, so rank is **2**.
+
+## problems-discussion (23) [25th Aug 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d38c1b64-234d-4427-adc8-1e2d2e7d208b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f3d00a77-6202-4e5e-b121-6f566eb0183c)
+
+* Non-Homogeneous equations
+* **Linear** because the power of **X, Y and Z** are **1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/525095cd-8743-40d8-b59c-aaa734efc048)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92756f6b-c846-402b-b7df-75d531e26b21)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3056954b-e7c8-45e1-b48d-e0ac7b88411e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e43f14c-bcdf-43eb-964a-36c5d2490480)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aaee4d72-16de-46bc-a6dc-dee4906c8455)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a49dc252-adf0-4b11-af25-cf3aca581924)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ee92673-712f-497b-af84-857e75b1cd1c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/964a818c-e1ae-4991-bc55-0d2c3b6a84cd)
+
+* Non-Homogeneous equations
+* Augmented Matrix
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b204a611-f579-4898-8415-2b4e791e157e)
+
+* Homogeneous equations
+* System is always **consistent**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c0a1015-fe99-4100-97c0-27cfecfeaedd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7986efa-eb92-4bef-b3d4-86898eae8db5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5cbabda0-8754-46d8-9f52-eea04943e710)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d6a318f-605a-454d-9573-4bc7671b355d)
+
+* **n** -> No. of variables.
+* Rank(A) = Rank(A/B) = No. of variables(x1,x2,x3) = 3
+* Unique solution.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b70ca923-e075-4e13-b175-28bab0f06177)
+
+* [**IMPORTANT**]
+* We have to do **rank calculation**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fdb7dffa-013a-4f67-9bf5-5e55d3bd86ba)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/baad708b-c444-4c75-8d38-02df0e65c6b6)
+
+* Trivial -> Unique
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/abd3525f-4b87-47c3-8daf-f82da6e02fcf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f4c8276-9f97-44ae-8a7d-cb6e6f20641c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b90b208-6420-4951-96b9-8a32e68a3d5d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/13e2a47a-7d7d-4d04-8f5e-11765f7f6545)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27353a40-4704-485c-a4d3-7ccb3cdfe413)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2e1a342-da00-4e1e-9ef8-70002cc879a7)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81b340b1-aa66-403e-b679-28d495dc6089)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a11e6be0-3536-4e21-8f81-a6c3f5777f54)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/08fae314-1d4c-4d14-a30e-4673288a0910)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d68d24ea-ebe2-468b-8895-d649fdbb79e6)
+
+* **alpha** is **only one value**.
+* Non-trivial solutions -> Many solutions.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ede53056-be01-463e-bfdc-0782f809b94b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76eaf789-321e-4aff-892c-176636b0aa80)
+
+## 2-variable non-homogeneous equation
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0f8ad0f-b1bc-4388-877b-f5f02bd2f3f6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/49a4ecbf-7072-4db6-8641-4ec114bca830)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/354ae005-ccbc-4a9f-8467-a27f8ce07999)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/87d64ad7-6fda-4910-8065-93e82a4e0864)
+
+* [**IMPORTANT**]
+
+## Eigen values and Eigen Vectors
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/03426243-0aab-4c5e-b080-289d64874d55)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/edbf2743-c8b6-4245-a639-2c76462e154b)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/daee857b-ae43-4202-be9b-4c887dbec55e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd570706-65e9-4732-baf3-e1021d722555)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9172063e-ecf5-427e-b229-7fa7bfa507d6)
+
+* **k** can be any **constant**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a9da5ba-3323-4ebd-95b0-6e9cec2f7fbb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac718ffa-35f0-4b74-a28f-1836d2c22758)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ad459296-f936-4bc0-b1a3-44033f70c8f4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e2a4b79b-ee6b-4b15-8d27-a8eee6e996da)
+
+* Lambda = 3
+* Only non-zero eigen value.
+
+## Properties of Eigen Values
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dbc27a7f-37b6-4538-b58b-1679c4084d78)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/02d50b50-7b10-44e2-8a84-656999228910)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c865ad6f-209d-4e0e-96e4-4d20bdb20d01)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e7e41ce0-24b7-4435-ba6f-a020395520d8)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/49a700d6-509e-4f12-b344-cd578b01f649)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4a4bdbd-e828-4357-8875-4d766e03dc82)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5cc0697-6bc9-4e8e-a62d-a0d560810738)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/566a8a37-5ba7-49dc-b500-70f9097c3ec8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae7ec65a-6b2f-4001-9c62-d975eea64c65)
+
+* [**IMPORTANT**]
+
+## problems-discussion (24) [27th Aug 2023]
+
+* Sum of the **eigen values** = Trace of a matrix
+* Trace of a matrix= 1 + 5 + 5 = 11.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f70157b-5d72-47fb-bf65-63508abe86a6)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ba5a30f-4d19-4afa-8fee-d77a57bd48ab)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f3a2219-6f40-4bc3-9a80-ba197835dd7a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f24b600-20f4-4cc7-8732-38f15fd443d2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b35d12a-fd15-4930-8dfe-e6db0bdab5c8)
+
+* Both terms(15 - lambda and matrix) multiplication equals to **zero(0)** means that both are **zero(0)**. 
+* So we can say that **15 - lambda = 0** and **lambda = 15**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0fe19e0-351d-4a04-8bca-22f1d36b16ec)
+
+* It is mentioned in the question that **A** has only one real eigen value. So, **lambda = 15** is the **only real eigen value**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f4d50000-676a-43ac-b0a1-a223672def7f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cdfdc137-a12d-4eb0-a36d-43b9a082dfb5)
+
+* This type of operation does not change the **determinant(det)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/84f8f900-430b-4e51-b4ff-b2566ea4504b)
+
+* One whole column is **zeroes(0)** means that the **det = 0**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/21f34a2d-bdf6-4e3e-a356-74b50d6ea3c2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f64a517c-2ccc-4005-8552-381096e2d3bd)
+
+* We need to find those **eigen values** whose sum is **-4** and their product is **0**.
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/D7B7CF1DF4
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d411db9-9808-4fb2-b162-2c6876c38d0e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c25014a1-16fb-423e-baa1-388de8c3eaf4)
+
+* [**IMPORTANT**]
+* Product of eigen values -> det |A|.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/de42660e-23f9-424a-9ae5-7ecdcef88284)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a6cf701a-8daa-412a-936a-ee92c5195c15)
+
+* Lambda_1 and Lambda_2 are **eigen values**. So **Lambda_1 + Lambda_2 = trace of matrix = 50 + 80 = 130**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/890c0137-2636-49df-9f09-50ecc9ee0587)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/670b1657-02ec-4da5-8b22-882724da1fc5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f308b786-8c77-4ace-9d9c-8767d5690b55)
+
+* Sum of the roots(alpha + beta).
+* alpha + beta -> Lambda_1 + Lambda_2 -> 3 + 1 -> 4
+* Product of the roots(alpha * beta).
+* alpha * beta -> det of the matrix -> |A| -> 3 * 1 -  2 * 4 -> 3 - 8 -> -5
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/445fa2d3-311d-46d8-8706-b3d36760f3ea)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8bba6502-cc94-46b4-891f-d030567f1fc5)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80d5b656-49c6-464c-b261-373b749ff32b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/369669e9-e60f-41b9-8199-2d271135206b)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e4ed972e-c461-45d2-9009-45bd8c6de849)
+
+* Synthetic division -> To find the **roots**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df78769b-f854-4786-ba61-f9b9a54a278b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf3ae593-2131-4c9e-a489-59b613d063e9)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/77cc63f6-7d01-45a9-b7db-5cba2f597e42)
+
+* We have to find the **roots** of the equation and for that we will use **Synthetic division**.
+* By knowing **one root**, we will be able to find the **other roots**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f1e9ab8e-6d29-4146-88f7-5d52770d6077)
+
+* **2** is one of the roots given in the question, using that we will find the other **roots**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16f8cc36-b4db-4a35-86a1-4a6b8781cfc1)
+
+* Always we will start with a **zero(0)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d4bdbfe-5924-4bce-9cff-061011758b4b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b036fcf-e19a-4b6d-b92d-f9aa836d1b58)
+
+* Last term must be **zero(0)** only. It must be **zero(0)** only. Then only **2** is the root of the **equation**.
+* After **one division**, we have to decrement the powers by **1**. Lower the **powers by 1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9307e6bb-dcfb-4cdf-a549-cb3ef44e48e6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/53cb4fab-7348-43dd-bf4d-fbe1b43e4932)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50d606b5-c540-46b2-9578-07265ce6f0b8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b34fd094-b9a3-45cb-877a-45d86e2eeda3)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/59d51029-35d7-40a3-8c44-1d15a1a37368)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1af39d0a-5645-4a88-b8ff-e1f8edc1addd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/da6f0844-0fff-421e-b516-d8115099434e)
+
+* N ^ 2 = 0
+* It means that **N** is a **nilpotent matrix** and a **nilpotent matrix's** eigne values are **all zeroes(0)**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a102354c-fbae-44aa-bab8-20cd890f1610)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f36c8bc0-e22f-4933-9c78-f112eb0ac9c4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5f78cb1b-df11-4484-bcfb-bb08efd89c16)
+
+* Det of the matrix = Product of eigen values.
+* |A| -> 1 * 1 * 2 * 6 -> 12.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ff2faaf-e721-4b4d-9cd4-2a72cbf51287)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c3beeae-4cd7-4dff-9095-1a6dfa124fc7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/506033c2-8ba7-4b4c-8599-23a19bf95ce9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c7cd747-7bf6-4f24-bd7f-52d210ca31b0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bce3bbd8-948d-4db1-a30d-5c729058be83)
+
+## Properties of Eigen Vectors
+
+* Multiples of **k**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ad71d3e-b3b1-4d1a-812f-cedf1b328c08)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/64685f7f-8390-48ea-868c-bc885fc7f7bb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/06b10f2a-8da7-46bd-833b-98b534a23753)
+
+* Linearly dependent -> Duplicate.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f409849-7aa7-48b6-a31f-50e7772908e9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6149ce8d-9319-4829-bd87-5ce46bddc02e)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a706bbc9-87b4-4364-a22f-ae87f4a0d970)
+
+* **n** is the **order**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4862db3b-d818-418f-a4ed-a79ab4eeb148)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5798adea-6faa-460a-a7b9-b2dd7184e045)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f55174e3-4358-4bf0-950c-ae3e56a873ab)
+
+* Eigen vectors of A and (A ^ T) are **different**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f2d1f70-21ea-4b8c-a302-67236ff4efb2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec2ad40f-6ef0-4908-8078-4fdc607e8a19)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/752c7f84-7abd-4344-8769-37d142d95fee)
+
+* We can take any value for **k**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/736e410a-e43a-4c0c-a9d2-06955777d03b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/799c73be-fa98-4ba9-a26f-0a496c0d960f)
+
+* If a matrix is squared then eigen values are squared but eigen vectors remain the same.
+* Eigen vectors does not changes.
+* No effect on the Eigen vectors.
+* Whatever operation we did on **matrix** that same operation is done on **eigen values**. No effect on the Eigen vectors.
+
+## Cayley-Hamilton Theorem
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9098bffe-59cd-4232-939b-c1a210d8f701)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d59aef1e-0204-4621-a0f9-97ba09a782ea)
+
+* Inplace of **lambda**, place it as **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c8e9e691-efc9-4cfb-98fb-0659aa12a6cd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b7b578f9-dfac-46a0-bd21-e32f2666bb0d)
+
+* CH Theorem.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0346e90f-dc80-4094-8384-43aafe83e96f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d2b121a1-bff0-455b-b193-5b38132059ba)
+
+* Value of **A ^ 4**.
+* Able to find **higher order powers**.
+* Not much of a sustainable process.
+* Time consuming.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c5a47691-b1e6-40b0-a5fe-68f428ae38f8)
+
+* To find inverse of a matrix.
+* We can multiply **A ^ (-1)** on both sides.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e0e3bed-3883-4ed5-80b2-31bc55192a0a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6f4d813-f010-4038-bb14-22ba974f8419)
+
+* We can **directly** find the **inverse** of a matrix.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1bd70dd-82de-4eb8-82ad-c28227e3fb92)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/939d56a4-9ed2-46c0-bb8f-daae01fe32ea)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7ac898e-f4b5-43ed-90e5-97b95c00ba8b)
+
+## Diagonalization of a matrix
+
+* p -> matrix -> Contains the eigen vector matrix
+* lambda1, lambda2 and lambda3 are distinct.
+* All of the rows and columns in **p** are **independent**.
+* Ran of **p** = 3
+* As 3 rows are independent.
+* Ran of **p** or |P| not equals to zero(0).
+* Det of **p** is non-zero.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/945e9748-3028-41e9-a2f9-7b1dacbffc44)
+
+* AP -> matrix.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/835f53b5-6915-40be-b678-c4d453bb450e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/508dc216-e3ac-40d0-ba9d-363d8f4676fe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/11b4b488-e6c8-4b1b-8650-85a34685eb62)
+
+* Yes.
+* **A** is a given matrix.
+* **D** is a diagonal matrix -> We can get the **diagonal matrix** by placing the eigen values as the principle diagonal elements.
+* **P** is a **modal matrix** -> We can get the **modal matrix** by grouping eigen vectors.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24c422dc-165c-4fca-8298-d73df19c60d6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8586b7ad-4f25-40a7-b091-c22b4404e556)
+
+## Applications
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2e4361b5-58ce-4da7-b206-c04db54ee565)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef0d7912-136f-4d04-846e-81b5ebbcaf65)
+
+* We can get the original matrix **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/01208bc8-0c77-4a67-84e2-4a7478a5b653)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c4faad9e-0225-41f5-8fca-165dbf699d84)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d1eb2b8-79f9-4368-9fb2-e66be218e876)
+
+* **D** -> Diagonal matrix.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/284511c8-87d7-40fc-8fcf-15caa7850120)
+
+* [**IMPORTANT**]
+* Problem -> Lambda1, lambda2 and lambda3 are to be **distinct** and it should be having a **full rank matrix** which is **linearly independent**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c3b845aa-e12c-44c0-a22a-7085e36182d6)
+
+* We know the **eigen vectors and values**.
+* We need the original matrix(A).
+* A = P * D * (P ^ (-1))
+* P -> Eigen vector matrix
+* Eigen Vectors -> X1 and X2
+* Eigen values -> Lambda1 and Lambda2.
+* D -> Eigen values matrix.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/481fa4ca-42d6-476e-8e78-0c8107a4d92f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7369f58-67f0-47ce-93f8-199b360c7e54)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3675316b-da3a-4c08-b2be-3c06055cc90f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5f850aa9-f226-47ed-8660-2197abd1354e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aaf407b3-a9e6-4504-8ded-ed50f3f35da1)
+
+* Same values as **Above question**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4afbd2f4-811b-4083-9ce1-342a6125ecff)
+![image](https: //github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/650edf81-94e7-4d82-afe5-707177b513ed)
+
+* [**IMPORTANT**]
+
+## doubts-clearing-session (25) [28th Aug 2023]
+
+## LU Decomposition Method
+
+* L -> LTM matrix [Upper triangular elements must be zero(0)]
+* U -> UTM matrix [Lower triangular elements must be zero(0)]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ad97a21b-25fd-4ebb-9e67-3c38f3afbaba)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eff6248f-5233-465b-9443-2104d3fdce9a)
+
+* Standard form (2 X 2)
+* In case of **L** matrix, the principle diagonal elements must be **1** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7aee7155-56aa-43c4-b435-344a870ed981)
+
+* 3 X 3
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db4ffde7-1b84-44d6-be68-23db7caa1a50)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce84d0e5-11be-4883-87a6-99dd7ea4beb0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8cd24fe0-c3f3-401c-80f8-c942177dd929)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6641e4b1-27bd-4d7c-a281-1f643a17e536)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f4bec97b-f5d1-4712-a4cb-704c52dd9899)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09eeec7a-aeae-487a-8f36-86e3760c3d5b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/07dde07d-bf44-4f31-9705-d3cd946817b9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6f9c59c-7a78-4f4b-88e6-e4aecacae901)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66bb7bb7-252f-4171-8fe0-3c26469a5397)
+
+* [**IMPORTANT**]
+
+## Calculus
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6dab1075-b62d-4758-943e-3c343997db7e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ad9f21e-808e-442d-96f2-a05ece01090d)
+
+* Function
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2d848dfc-1f6a-441b-8a3f-1d1195b75f1f)
+
+* This is a function.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d803415c-80a2-48a7-b0a1-5444b1d27def)
+
+* Even and Odd functions.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/93ae7a3c-d62b-449d-bc70-70098be7f516)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31a9c3aa-c331-4798-9dd8-af2177439688)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/810e2a94-9f46-40e4-bfa3-e6bec212204f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7cec4099-382e-4893-af72-7b08fd4fbb4c)
+
+* Modulus function
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/618daece-bacd-4baa-9fea-8af5f7838e44)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/623224c2-977b-4be1-95df-e6049a23f825)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12f0c31a-a166-4ccb-9617-6311ab86cbd9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9a0ce52-b2f1-42bb-a37e-64b0652683a9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb15bbbc-1c4d-42d8-84d0-112bf8c77ba0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97b754a4-275b-48e0-b1e5-e9e45c847dc2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71675d68-ff7f-485e-9ef0-9254afac360f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed6f37b7-6449-4a75-bc4c-7311459fc2cb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d1a9936-88dd-41a3-b279-097caf15a76c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/285897fc-82d6-410a-af85-9fbc0e14aaae)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc4d31e0-7e83-4eab-9404-3abb17ba7d3d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7898143a-d32b-4fa2-8fa9-53f50810a8e5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/de4f69fa-dd5b-4f7f-a283-f580153310fd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc1cc9fd-d72b-417b-b061-61d4c8bac2c8)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e10a542-b5ce-4062-9ad7-7717b1c0c2e6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6acda918-7c96-4d88-a053-c85b37d1dde2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b9cc2efd-4589-48a8-ac93-c05594365bae)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f34feda-12b0-444a-afa8-5c9fca629829)
+
+* Limit
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b6c1c0b-cdbe-4155-a8ca-1e5adb135b7d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2f10ce9-2a0f-4f70-af69-07f43751c9a5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/94aa100f-bdd5-4e4f-921d-a1733d9ef171)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a75a76e5-8029-4a0a-b230-31c2fa973fe6)
+
+* Limit of the function **exists**.
+* Limit will **exist**.
+* Left and right hand limit are **finite**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b4deee43-c152-4f4a-9a88-4ac43f9c0a5e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e83c1cc8-55fe-4a44-aea5-2f6e8c2b818a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/20e1a891-b1b6-4276-ac18-009e5c1899dc)
+
+* Limit exists.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63434cd5-188d-4606-aac8-809097d209b2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/01e4f2e4-acbc-4eb8-862f-b12b48320223)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7724be9f-416e-467c-a647-8e0ddf8e578d)
+
+* We have to check **left and right** hand sides using **limits**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ef1100f-6f35-4c94-8d9f-48dbe36a52b1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8cf96c1-fd3f-4c62-899a-84ce60f73e9f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/071cf9e8-732d-4577-af15-16c84defe3a8)
+
+* LHS = RHS
+* But the functional value is **not equal**.
+* Limit exists but functional value are **not equal**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/510bede7-ce53-4af7-9f9a-5d8dcecab04a)
+
+* Note [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8dbc0687-2bb6-41f0-9990-95b052dad0a1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5c607f0a-ad53-4e5c-b95c-77322d6fe05a)
+
+* At **x = 5**, the funtional value does not exist.
+
+## mean-value-theorems (26) [29th Aug 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1eb8d102-2a2e-4639-aefa-e5d7b9bb676a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e25f1b2-b04f-4999-a935-f73e8b8211cb)
+
+* LHS and RHS must be **finite** and **LHL = RHL** as well then only **limit** exists**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ebb0512-7dd6-4989-9be3-54eb91aec9ad)
+
+* Indeterminate forms [Values which cannot be **defined**].
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd815f83-bfc2-4b1a-bd57-0c89afea8e1d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b920452-2e21-4681-9af1-9dd5bf924b16)
+
+* Determinate forms.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd1c3a2a-e8d8-4540-950e-e0f9042b9e89)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d95cef9b-71c7-41f1-867c-e8b49bd1e8a8)
+
+* Limit is applicable to wherever **x** is there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b8e3029-69f5-4446-af4e-ef4037a52dad)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36d16730-da1e-40e6-b060-9d7e58be204a)
+
+* Evaluation of limits.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/15d4e3de-ed4f-455c-9924-0726e242f39f)
+
+* Don't blindly go for **L' Hospital rule**.
+* Substitude the limit value.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/49d14b9c-f829-47df-8e7c-fb31b9b33350)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/471c0b8b-43bc-41db-83f3-92a56efa91c0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8eda421f-6cc5-419d-8c06-b4e635c8cfa6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/255b5d6e-0cd8-4244-90cb-9154db709a61)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/51745003-19e4-4782-b1e4-a1fd4a02ad3c)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7ecffb2-1d8f-4735-8e25-43316a87233f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d0f0d39-5c1a-4bbd-b435-62a2f9024f28)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/47037aef-0668-41a8-88a7-4e531a9ee965)
+
+* Standard formula [**IMPORTANT**]
+* Remember it.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae9a9414-cd96-4f62-87bc-007026c4b12b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/99591a55-2ea6-46ad-9741-8d447f8d102d)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/38a61c92-0778-40f2-8c0b-903432f5e42e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/74b44fb4-e111-4fdf-9ca4-93a454a460af)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f56a123-9d34-4aa0-8ca5-84ce82711224)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/002e7f47-e149-4fab-befa-56fdfacc0cee)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95df42e1-6ce7-4d7e-adfb-8c6b68c209ec)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22ef9f2f-2bee-4ced-95fe-0d4beaabefb0)
+
+* tan 0 -> 0
+* cos 0 -> 1
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b1a7b2d7-bafa-44f4-a165-f7d12d53b43d)
+
+* Note [**IMPORTANT**]
+* Must be in **same units**.
+* Sin x -> Degrees
+* x -> radians.
+* Make them in **same units**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d70aa81-84a8-4b81-9c8b-61e28f01184e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/99665edf-65cb-4817-b9fe-ce2a740ea540)
+
+* **Radians to degree** conversion.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/efd5c0c4-3d84-4132-8fac-1caaa580852b)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8e363e0-ffc7-46e1-9f91-68a8354a5fa8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf95ce5b-4a25-4ee2-a413-405408116dee)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f8e8186f-d8a1-4fa3-9e6a-5060085619af)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db8d8362-ff1f-4526-a099-26039dc50ed7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1384f88b-9dca-4c72-94bf-1d2aa5eeaed9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65f7d5d2-1b0c-449c-82fd-11f0409d024f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cdb208b4-8f0b-4a3a-a411-ccac56d18c4c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85a07ff6-8206-49fe-91d1-4728b96f8049)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5b25683-ea76-4705-8b81-794763e27f0e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa604535-c831-462c-b3c8-966866043d11)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb83327e-01b6-4a36-8495-34a990b6f8c1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea0eb503-65de-463c-9d66-9024aac1a0d3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf9e1f67-7950-428a-a357-bd22d9391d18)
+
+* Trick.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cfbce071-5700-43d6-8e64-a72e0d9b0cc3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0849dc8-5000-42ea-9845-f751c52a16a0)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f01ce1f1-24df-4cae-8eb4-0abbb5bd0ae9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b07e8703-7295-4f03-8f5e-7e3155a53f74)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92b84e7a-2b7c-498e-a0c4-18a9c6f6d0cc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/75ffa9fb-3fe3-4501-a141-be43c0b370da)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf6bf66a-86eb-4eab-87de-e4cdfcfdc543)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/abf71343-4a01-424f-a8f7-88842c9e5081)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5f3259f6-a57a-42e4-b336-5d16bb897146)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3f47dcf-a9cf-4c91-bc4e-d5049da92b8c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5606eb00-5700-44aa-828c-370a700fba1c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2bbae324-6d01-439f-a8a1-2c9bfedf387b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f38916d2-0d1e-4303-959d-1d2735549ed9)
+
+* Take log on both sides and then continue.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0ea0360-8970-42df-b6d0-d0087710b309)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0fda4ac-1211-4c78-9815-6be25291808a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9cb9b5f5-bf10-49e9-a989-adad54b562a4)
+
+* When we have **1 ^ (infinite)**. [**IMPORTANT**]
+* Only for **1 ^ (infinite)** case.
+* Special case.
+* Formula
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/122b066a-de70-4a66-a467-e2a252988c7d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4fa660b9-eced-42ae-9ed9-f9e18f031358)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f001d2e7-9152-4b10-94d4-c33d056d8634)
+
+* We have to make it like that.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/852f0c59-6b21-43d0-9465-b8031f270fdf)
+
+* [**IMPORTANT**]
+
+## problems-discussion (27) [3rd Sept 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f35eb06-af8b-4718-8add-411fd5a7ba57)
+
+## Continuity
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab39bf05-94f8-4cf2-8714-49c72c279143)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dbb2fd28-c037-45ae-8a1f-24d099283025)
+
+* Defined -> Finite value
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d00fbd4-29bc-4041-a0b4-ff2dfff4da34)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/758d7ffe-f94c-41e8-add3-73c84896101d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/578388d3-9d75-4360-a6a5-76db932f4d63)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ba4d9a1-946c-4f51-b8a0-6e71628f6a68)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0dfd1274-5b01-40df-b241-ff0dc9ad4c68)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e63007a6-9f78-4694-a838-ef020bbba4ac)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0069ea6-7e1a-4be8-b6c9-166ca8e2d039)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6505dda-ff36-4f69-97c5-76419da72d45)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b2caaf3c-c2d0-4d76-89e5-305c19762869)
+
+* The function is defined for **2 and 4**, when the function is satisfied for **2- and 4+**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36a192b5-8c33-4b31-8049-d22d2d7e3a1d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d6beb34-ee98-4a8f-8607-208d7debbed4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/569a026c-b0b5-4765-97d4-8a29ed1f10aa)
+
+* We have to take a value a bit less than **a** and we have to take a value which is a bit more than **b**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/18c24335-7911-4cbe-893e-c44ec7efca9b)
+
+* Check for **continuity** for a given function.
+* For **continuity**, limit must exist and functional value.
+* Generally we can check, wherever we have **some discontinuties**.
+* So, for **f(x)**, the limit of the function exists but it is not **continuous**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/745fc856-d7e9-4420-8a07-1753fdfff898)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1542b1c5-f989-482c-9f17-4d5f4132b1a6)
+
+* As the **LHL and RHL** are **not equal** so the **limit does not exists**. Hence, **continuity** also does not exist.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8939dfdd-b411-4903-ae9f-dfe0cfaf0dba)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/59e67dea-6e8a-41de-931f-5cc2290496f8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f65d4397-773f-4c16-baa5-8f4aad6aa330)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d77e003-4460-443e-a8a0-41c324f8e2b6)
+
+* Note [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d58a3f52-7a18-460c-a151-e4361c892d68)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e166752-494f-4394-82cd-239c5323953d)
+
+* At **x = 0**, the function is **continuous** and everywhere else the function is **discontinuous.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/94417563-54ac-40a1-8f7d-88816e0efae0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab1b6ae7-8041-4db0-836b-9aef83454e65)
+
+* Logarathmetic functions are **continuous** functions  only for positive values.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b3af5936-1d93-447d-9f99-0b56b8b34d8b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/284d6a21-3ea4-49a3-a478-f56b46fa5034)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c8ba2747-4e2b-40f5-a594-4c9938688771)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a4efe0d1-b750-45be-b247-13c51a7b9b1d)
+
+* As **f1(x) and f2(x)** are individually continuous functions.
+* So **f1(x) * f2(x)** which is **f(x)** is also a **continuous function**
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc24dcf2-9f14-4b13-8e83-f83fb704085e)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab39bf05-94f8-4cf2-8714-49c72c279143)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81a5cd81-d10c-4f68-901f-bb4b82c00425)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/07a8f0f7-ed4b-4b09-b4ad-26ba2e983522)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b34bcbf-bfab-45af-8d59-02ca4addc8e2)
+
+## Types of discontinuity
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/03083dfa-adab-44f4-a1a3-c893aeee7020)
+
+* Missing point discontinuity -> Limit exists but functional value(f(a)) does not exist.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab424934-4d7d-41f8-94bb-2c7aaa5f06cc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d69c9ac7-86a6-48b7-b21c-95d850bbb3be)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e19e01d2-79fc-40bf-ba8b-c374e4e93475)
+
+* Isolated point discontinuity
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4608a665-0116-4f9f-89e5-8842ccf73614)
+
+* Finite discontinuity
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/986be591-4452-4824-8d4d-d900fd41444a)
+
+* Infinite discontinuity
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/13089106-6414-4481-b551-f9111baa2504)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/632e3d58-38ea-4556-aa9b-4f22edb67172)
+
+* Oscillatory discontinuity
+* Sin pie/2 or sin 90 = 1.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98ed47a9-9074-4991-b97a-bd9ac61e4931)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/59e85a94-4b05-439a-9e0a-6828a36356b5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e6202b0a-0095-4db4-b9e9-358772c8a616)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/937c2cf2-7cbd-440c-98dc-30918292fd42)
+
+## Differentiability
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8959c899-6b9c-4501-ae9b-9e4f26be44d0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8970ebb2-22c2-48f3-aeee-95023a05f3c5)
+
+* In place of **X**, we have put **(a - h)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f392397a-8ec5-400d-b670-d79a4646feeb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09f29be3-1a72-42d3-b365-4fae1b801ab0)
+
+* In place of **X**, we have put **(a + h)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ef97b27-b4ae-46db-b68e-6b98f18c6961)
+
+* LCD
+* L -> Limit exists
+* C -> Continuity
+* D -> Differentiability
+* If **limit exists(L)** then we will have **continuity(C)** and then we will have **Differentiability(D)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/833628be-4f15-49f6-b182-3cf6cd1728fd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/210d02ed-e321-441f-a5d6-0902eda29515)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e52de2f8-07d5-425d-a418-b0469f54bbd3)
+
+* LCD Note [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5cae216b-0d4e-46d0-97de-01da3b884e56)
+
+* Only one **independent column** is present.
+* Remaining are **scalar multiples**.
+* So **rank = 1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9048ad5-c08b-4634-9f52-f3b0151e603b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/374f3636-9073-45aa-9026-a8f69205b131)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa9ae1da-4135-4487-bc71-6908c9420951)
+
+## taylors-series (28) [3rd Sept 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2688c6c5-1c86-4c06-af4e-c3d708f07fa5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d49fe899-cb2d-4b40-9e2d-bc71bf3c5d42)
+
+* The solutions are not equal.
+* If all of them(x1, x2, x3, x4 and x5) are non-zeroes then it means that all of the quotients are **non-zero** quotients.
+* The values are not linearly dependent.
+* Rank = Max. rank possible is 4.
+* So, **Rank = 4**.
+* If we have **infinite solutions** then we cannot write multiples of the matrix(2 5 4 3 1).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c50e5dee-3fcb-4618-9a8d-f19755c40957)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c485690e-79d1-4da6-9871-95950289eca1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b4950c3-77d5-4c6c-9e60-a55bae914108)
+
+* The solutions are in the **X** matrix form.
+* So the solutions are **non-zero** and they are **not infinity**.
+* Solutions are some **finite value**.
+* (x1, x2, x3, x4 and x5) are **non-zero** values.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/203b5fb5-9edb-4c89-ba63-337f2917d036)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/25d16456-5d1c-4a9b-9271-7adcc92f2841)
+
+* R2 and R1 are linearly dependent.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/28be4214-e666-4dd0-8215-30a1c6ab21ac)
+
+* Infinite solutions are not allowed and **zero(0)** solutions are not allowed.
+* All solutions are **finite values**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a41f753d-3180-4bdb-8ccb-f31fd038b3d3)
+
+* X1 and X2 will have some **finite values**.
+* R1 and R2 are completely independent rows.
+* So, the rank of the matrix is **2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/79b00d09-70f6-4fb4-8f65-8cbc6a70ba1e)
+
+* Solution should not be zero, solution should not be infinite. Solution should be **finite**.
+* To have **finite** solution, all of the rows must be linearly independent. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dfcb09cc-564e-474d-aae5-f42399513ab9)
+
+* How many non-zero rows are present?
+
+> **4**.
+
+* So the rank of the matrix is **4**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8c68e035-b095-4223-a9a7-4daff2b3c52a)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d7dc1607-169d-4511-89e2-cac8373e2112)
+
+* No.
+* Infinite no. of eigen vectors are possible.
+* Finite no. of eigen value.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/186b7df7-d3b7-420b-8e3e-7470d9602b27)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c8995459-d767-448e-bf75-f3ef4d41e2cf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d794621-7b13-4b20-907d-eb4889e5afc1)
+
+* Working procedure to check continuity and differentiability.
+* If the function is **discontinuous** then we can directly say that it is **not or non-differentiable**.
+* Every **polynomial** function is a **continuous** function.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/40272ac2-3482-4192-9546-7bd45d2e1d6c)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b317226d-daff-47e3-8bed-50e9ee283af3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16d1a1fa-b8c9-4637-8ef9-880f64dcfdbe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0fb3378-cdad-417b-b224-ef9b1292de1c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5614e66-ea0c-49ca-ac16-772186b7133c)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/269a37c6-c42f-4293-a949-a7d16164f087)
+
+* The following function is **continuous**.
+* For **D**, **L and C** should be there.
+* If **Limit exists(L)** then we cannot comment about **continuity(C) and differentiability(D)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab315e53-afec-416c-95d2-b2a9ff1b6272)
+
+* |ax - b| = 0
+* ax = b
+* x = b/a
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/256b46b8-b189-4d08-849e-8575c60060c7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/895e62de-2a1a-4e72-9dd3-45cc870b105b)
+
+* [**IMPORTANT**]
+* [X] -> Step function
+* |X| or mod(x) is always a **continuous function**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ca40b6a-273a-428d-b39c-7315ebd8445e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e1f00a6-ee02-49cd-ba94-2e66ab2a4a3b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/607e8514-1f7d-48e3-a1ca-eda1631efca5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/39b66cb7-6e49-4576-b1d3-7882314c6c66)
+
+* |X| is continuous.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/664cca31-757e-467a-b602-946d83d78574)
+
+* We are in **continuous(C)** but we don't know about **differentiability(D)**, it may or may not exist.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1eb6e3fd-5c09-45f5-a67d-d1c6503c6389)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d3460c1-3d31-4632-b8ba-ca3906d9abf0)
+
+* |X| is not differentiable at **X = 0**.
+* f(x) is continuous as f(x) = |X| ^ 3.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d5bb10a5-21df-45e4-9277-a83a8d6f1e1a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2977a852-1973-4fe1-9103-f4fdfd96c99b)
+
+* The function is differentiable for **two times(f'(x) and f''(x)**.
+* But the function is not differentiable for the third time.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/944d1d03-ed97-4e3f-892a-e31c751e0c23)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/90a0c2dd-6b36-48b9-8cba-94c088079860)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e86688df-2b12-453b-9886-bbc052d080e1)
+
+* Note [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/52a9c357-6a35-42cd-9fd0-1d494a0a5dd6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8174fea9-6d1d-41da-9c6a-68d3dd2eb633)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
