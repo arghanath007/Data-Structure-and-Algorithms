@@ -96,21 +96,101 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ddddb1b-8268-411b-a4fb-125fec4e992e)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cac07f41-807e-4138-97f4-7ddf905c0b56)
 
-* R3 -> Smaller
+* R3 -> Smaller -> Regular Language
 * T0 -> Bigger.
 * Our computer program maximum can be **Type0(T0)**. No chance of more than that. It is the limitation of the computer.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e290a64c-c906-46bf-9a17-5823dd96b7b4)
 
+* To accept smaller language(T3), smaller machine is enough.
+* The smaller machine is called as **Finite Automata(Machine)**.
+* Automata means **machine**.
+* Finite Automata means finite machine
+* Finite Automata also called as **Finite State Machine(FSM)**
+* Which one is the smaller formal language?
 
+> **T3**.
+* Other name of **T3** is **regular language**.
+* **Regular language** is accepted by a machine called as the **Finite Automata(Machine)**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eaa5d6ab-6780-47d2-949b-56dfdaaf04eb)
 
+* Other name of **T2** is **context free language(CFL)**.
+* The machines that accept **context free language(CFL)** are called as **Push Down Automata(PDA)**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b863c99-6c93-4138-889b-278605bbd17d)
 
+* Other name of **T1** is **context sensitive language(CFL)**.
+* The machines that accept **context sensitive language(CFL)** are called as **Linear bounded Automata(LBA)**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5f72166d-552e-446f-ab98-4e6803a9d5ac)
 
+* All computer programs are **T0**.
+* Other name of **T0** is **Recursive Enumerable languages(REL)**.
+* The machines that accept **Recursive Enumerable languages(REL)** are called as **Turing Machine(TM)**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/74f6bda0-a63c-4e57-80fc-bf6efbb8eca4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0fbb9888-93fe-41b1-a868-856e35bd07fd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aca784a8-83ee-4308-8361-7936a9b363b2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/74569991-dd48-4dfb-a964-ca0ffc0722c0)
 
+* Turing Machine is equal to computer.
+* Regular language accepted by a machine called as **Finite Automata**.
+* Formal languages and Automata theory(FLAT).
+* Computing machine and it's capabalities.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eedbb788-cc01-4c55-be70-0723778c85bc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e06c5c53-99f5-49d3-9854-ceb2fd3bd142)
+
+* In general,
+* T3 is the **subset(C)** of **T2**.
+* T_i+1 is the **subset(C)** of **T_i**.
+* Type3 means Type0 also.
+* By default, every/all formal languages are **Type0**.
+* Every machine is a subset of **Turing machine**.
+* **Circle** indicates **state**.
+* Two states are **S1 and S2**.
+* State -> State is nothing but the thing which can remember something. [Remembering Capability]
+* State is nothing  but **Remembering Capability**
+* State is changing and remembering capability is also changing.
+* Nothing knows/known -> Starting State.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c116a8e0-169a-4599-854d-46dc717c4388)
+
+* Remembering capability is **increasing** so our state is **increasing**.
+* Empty State -> S1 [Initial days]
+* 'a' -> Mama's name
+* **S2** means **a** completed
+* **S1** means nothing completed.
+* Same State
+* If something new happened, then we may go to **other state**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a9b1f25-f11a-4e7a-a802-dad45eca1ad5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d9c6eb1e-f007-4530-908a-d902603117a8)
+
+* Double Circuit(Double circle) means **final state**.
+* After accepting **a**, the automata is in **final state**.
+* After completing **aa**, the automata is in **final state**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e620dab2-4763-4708-9bf8-317f3b53d776)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0251b251-09b4-447e-bebe-b8332c900f27)
+
+* The **automata** will accept the **above language**.
+* In the automata, there are **two(2) states**.
+* That's why it is called as **Finite state machine(FSM)**, it it called as **finite automata**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83aa4eae-7daa-4346-8e74-e66ff8dfc28f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee57ac3c-a5e8-4697-aa4b-38bdddf13887)
+
+* The finite automata is accepting **L1** formal language.
+* Finite automata is accepting some formal language means the formal language is a **regular language**.
+* Finite automata will accept **regular language** only.
+* This formal language(L1) is a regular language.
+* For the formal language(L1), finite automata(FA) is available so the formal language(L1) is a regular language.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a868e695-5c0c-4e69-9f63-9e95b02c6abf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30b15c92-1ff7-4a5f-a0ae-9daf46c931b7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e5e8914-a32c-42d2-899e-f45773136625)
 
 
 
