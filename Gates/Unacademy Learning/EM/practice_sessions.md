@@ -3321,6 +3321,9 @@ If R1 row is multiplied with **3** then we get the **R2** row values.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16ba78ed-f5e2-4068-9381-ad6be6d24930)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dcab94ee-f455-4d91-a4f4-b0d3d9146a08)
 
+* Watch the last two videos again(17 and 18) of the calculus problems. [**IMPORTANT**]
+* 
+
 ### Doubts
 
 * Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/BC7752876F
