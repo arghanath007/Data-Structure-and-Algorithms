@@ -1,4 +1,4 @@
-# TOC
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db87f3f9-4670-43db-9fe5-644c00632aed)# TOC
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4dfb4fce-5b66-4a58-8260-3591eb6708bc)
 
@@ -49,18 +49,56 @@
 * Order is **important**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a04a3851-a540-4997-bf0f-b79583963354)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/94f1873d-1e31-4a0a-8631-48f4a83470e3)
 
+* Formal Language -> Set of palindromes
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0dd66a2d-9b8b-454e-a8f7-29e916a711d3)
 
+* One of the formal languages where there are infinite no. of strings.
+* 'n' number of a's followed by n-number of b's.
+* **W** -> We can take any combinations of a's and b's.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c78ec184-fc4b-4038-b49b-da28a258be32)
 
+* a's should come first and then b's should come
+* Infinite language as no boundaries.
+* How many a's and how many b's, no relation
+* 'm'-no. of a's followed by 'n'-no. of b's.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9bfc043b-6c9e-404c-a2fd-61c398263adb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f16d7f6-18db-4914-baa9-46fdf565277e)
 
+* Like these many formal languages
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/13edd8d6-8fb3-4671-a66d-1872c15e5ce9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab7487ee-b304-4498-a7e7-feeca0b7e4d5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d710f226-4e31-41d4-87f7-c8b1c088347f)
 
+* L = {WW} -> String Copy.
+* Exact matching.
+* Whatever we see **first** that same thing should be there in the **second** as well.
+* No. of actual parameters = No. of formal parameters.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8429b54a-3cc8-4cf7-b7d6-571f414afca4)
 
+* Examples.
+* There are **four types** of formal languages:- [According to Chomsky]
 
+1) Type3(T3) formal language
+2) Type2(T2) formal language
+3) Type1(T1) formal language
+4) Type0(T0) formal language
+
+* **Type0** is the superset among all of them.
+* **Type3** is the subset among all of them.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ddddb1b-8268-411b-a4fb-125fec4e992e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cac07f41-807e-4138-97f4-7ddf905c0b56)
+
+* R3 -> Smaller
+* T0 -> Bigger.
+* Our computer program maximum can be **Type0(T0)**. No chance of more than that. It is the limitation of the computer.
 
 
 
