@@ -302,9 +302,55 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd9cb26e-69a1-45d7-95e1-740b395a6bff)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f1cc2ecb-57af-4940-ad39-e945cd71794b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c4d47c15-2c54-452b-be1b-cc81a69fbbbf)
 
+* aaab$
+* Top of the stack should be **Hash** but unfortunately still **a** are there.
+* So a's are **more**.
+* It is **invalid**.
+* In **PDA**, when is the string accepted?
 
+> At the end of the story, **stack** should be **empty**.
 
+* If **stack empty** then only **string is accepted**.
+* String is over($) but still stack is not empty.
+* So **string rejected**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/430aeeab-34aa-47fb-8690-34b92d5007ba)
+
+* **Stack** is taking care about **how many a's came** and afterwards b's will come.
+* In **finite automata**, we do not have any track of **how many a's came**. We don't have **stack**.
+* If we want to compare a's and b's then until b's comes, we should store a's somewhere(stack).
+* We have to keep track of a's, **how many a's came**. We have to store somewhere.
+* **Finite automata** don't have **stack**.
+* Comparison minimally requires **two people**.
+* So, until **b's come**, we cannot do **comparison**.
+* Until **b's come**, **a's** have to wait.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb809f5a-e046-4c07-9af7-356d7e99f189)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/100cbb97-7c52-4b42-b3a7-7e10d6307b46)
+
+* a's more
+* At the end stack should be empty then only **accepted**, otherwise **rejected**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5817a5b-a5db-4811-8eba-ae214923fb5c)
+
+* In the **stack**.
+* Stack not empty, that's why **rejected**.
+* My language, a's = b's.
+* Finite automata fails to recognize those languages where comparison is **involved**.
+* When comparison is involved, finite automata fails we need **PDA**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d209403-2293-4232-9223-4f1d91e109e0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e0a9bd3-7033-447a-8f2e-0bd06584e74a)
+
+* Every valid thing should be **accepted**.
+* No invalid thing should be **accepted**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d6952b7-fd0b-4de0-b51b-5a90a7b3946b)
+
+* In these language, we have to compare, a's = b's = c's.
+* Two comparisons are involved over here.
 
 
 
