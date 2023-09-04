@@ -635,25 +635,77 @@
 
 ## doubt-clearing-session(4) [4th Sept 2023]
 
-## Finite Automata
+## Finite Automata and Regular Languages [**IMPORTANT**]
 
+* Finite Automata:- [Types]
 
+1) Without output
 
+* DFA
+* NFA
 
+2) With Output
 
+* Moore Machine
+* Mealy Machine
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92ee9b63-70f2-4810-8100-99149e2ab340)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/957efb2d-3d57-48b1-a560-534a429db5c3)
 
+* Finite automata without output means if we give **string**, it will say **string** accepted or rejected.
+* This is finite automata as a **language accepter or rejecter**.
+* Finite automata accepting the language or not.
+* This is finite automata as a **language recognizer**.
 
+* Finite automata with output, it will give **output**.
+* If we give two binary numbers, it will give **sum** as the outut.
+* This is finite automata as a **output generator**.
+* Incrementation, **2** becomes **3**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/740510ea-2e11-4e56-988b-96bcc5a6c2e1)
 
+* When can we say that a language is regular?
 
+> For that particular language, if we can construct a finite automata.
 
+* If we can do that then the **language** is a **regular language**.
+* **W** can be anything.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b0cd5df-c266-4cf7-9755-4cb3dc18e14b)
 
+* In the **a ^ n**, except the **first 'a'** and in **b ^ n**, excet the **last b**, remaining definitely will be taken care off.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/680a2515-9030-48e4-a591-83f655ce9474)
 
+* If **finite automata** is possible then the **language is regular**.
+* **Finite automata** as a language recognizer
+* **Finite automata** as a **output generator**.
 
+### Finite Automata without output.
 
+* Finite Automata without output -> DFA and NFA.
+* By default **NFA**.
+* Deterministic means very less people know clearly.
+* Until and unless mentioned about **DFA**, we will not go for **DFA**.
+* Finite Automata(M) is a **machine**.
+* It(FA) is also having some story.
+* Every machine is having some story.
+* Inside **FA**, some states are there.
+* 'Q' -> Set of states.
+* Every machine accepts some language. When we say it is accepting some language, every language is in need of some alphabets.
+* Every machine has some purpose.
+* **Sigma** -> Alphabet, used for input purpose. Input alphabet.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/872375db-1009-4d60-92b2-6d056265931a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ba12bfb-7c9c-4b31-851e-2fdbc31bfe18)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c0e92d4-0085-4f0d-8809-c6ce1e31ef86)
+
+* Until and unless we see the total machine, we cannot say what it is going to do.
+* If we **combine**, then that is **our sigma**. That is our **input alhabet**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a19f253-50d3-4514-8a7d-92e5ffed8c3b)
+
+* Start from -> 1hrs
 
 
 
