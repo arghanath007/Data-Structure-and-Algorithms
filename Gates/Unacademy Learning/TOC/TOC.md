@@ -498,12 +498,83 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/38d01a94-a4ad-4636-93a6-29032696c6f9)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/42ca96a1-a19d-4af3-9fe5-a461b475f5de)
 
+## dfa-construction-i(3) [4th Sept 2023]
 
+* Alphabet(sigma) -> Finite non-empty set of symbols.
+* String -> Collection of symbols over the given alphabet.
+* abbc -> It is not a string because 'c' is not there in the **alphabet**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b220616d-7f78-468d-9f08-b2473effa4b6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9034b3e3-2128-4673-8acc-1f7d66cf6043)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9279c21-2025-44da-9f55-fcf05a52da1f)
 
+* One length strings, two length strings, three length strings possible.
+* Epsilon(E) -> It is a string, whose length is zero(0). It is a zero(0) length string.
+* That's why it is called as **empty string/Null string**.
+* When we write **one symbol**, atleast **one length required**.
+* Total TOC going on with **Epsilon(E)** only.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f41742b-3bba-4b31-9a24-752bb463dba5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c588ed5-ad13-43d0-8071-4d60e19816d2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/649a9482-23f4-44e1-a20e-a4c623d08c36)
 
+* Sigma = {a,b,c}, what is the minimal string possible over this alphabet?
 
+> **Epsilon(E)**
+
+* It is the **special person**.
+* Epsilon(E) Length -> Zero(0).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71976527-d320-44dc-80fd-ed7ed8a23e3b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81209bf4-f776-4666-90e2-18533d6ff4e4)
+
+* When we **concatinate** anyone with **Epsilon(E)**, we get the length of the **anyone string**.
+* At the end of the day, we are concatinating **two string**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b53152f9-c24c-4cf9-af13-2dc9c7b2a12e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/75cf7ef1-e6e9-4117-9729-c81cfdc4a026)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1cf671a2-cf64-4735-b220-a0a219178bc7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/25af01b1-d4b6-4ca5-82ed-9e237e2ef8c5)
+
+* String length -> Modulo operator.
+
+### Power of a alphabet
+
+* Sigma -> {a,b}
+* Sigma ^ 1 -> Over the alphabets(a,b), what are the **1-length strings** possible.
+* Sigma ^ 2 -> Over the alphabets(a,b), what are the **2-length strings** possible -> **Inside the sigma, we have to go **twice or two** times**.
+* When we go inside **sigma**, take anything.
+* Sigma ^ 3 -> Over the alphabets(a,b), what are the **3-length strings** possible -> **Inside the sigma, we have to go **thrice or three** time**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/01d1eb92-a16b-49d4-9e10-3f86b1318927)
+
+* Sigma ^ 100 -> **Inside the sigma, we have to go 100 times**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a4fd496a-49b9-45d7-8253-f739941980e4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a4b259a-dda7-4c81-8c1c-9f1b534f3931)
+
+* Sigma ^ 0 -> **Inside the sigma, we have to go '0' times or don't go inside**. We don't get anything. We will get **Epsilon** only.
+* Sigma ^ 5 -> **Inside the sigma, we have to go '5' times**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1d7e6e4-dabe-4e7f-a727-941713b02d87)
+
+* Sigma ^ * (sigma to the power of star) -> It will give every possible string over the given alphabet.
+* It is also called as **complete language**.
+* In set theory it is called as **universal set**.
+* Set of all strings over the given alphabet including **Epsilon**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3be222d4-0df5-4c26-8b6d-768a56539439)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0876eab9-3744-4ceb-a03a-4c499ffde246)
+
+* N -> Set of natural numbers.
+* It is **Countably Infinite(CI)**.
+* Something we can list out, it is **Countably Infinite(CI)**.
+* {1,2,3,4} -> **Countably Finite(CF)**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f67a8c95-1f0e-4ad2-ad76-56ec5f9ace92)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/06ed0ce6-601f-4b52-b5c1-aac33283ccf2)
+
+* Uncountable.
 
 
 
