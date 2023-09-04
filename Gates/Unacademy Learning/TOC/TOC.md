@@ -575,19 +575,63 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/06ed0ce6-601f-4b52-b5c1-aac33283ccf2)
 
 * Uncountable.
+* Set of real numbers.
 
+* Sigma ^ * -> Means everything including Epsilon.
+* '*' -> Kleen closure
+* Sigma ^ + (sigma to the power of plus(+)) -> Only Epsilon missing.
+* '+' -> Positive Closure.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e913695-f30b-476d-9259-da52e1073d79)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9aa8c5b9-c181-4100-9f83-cbc489990cc7)
 
+### Language
 
+* Language -> Collection of strings over the given alphabet is known as **language**.
+* In the language, infinite no. of strings are here.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c014480-ebbf-428d-bace-816eedb49f7d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f5c3658-e6a9-4cb3-9a36-1f402c2d8d1f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81a06104-6b08-440a-8338-84cb6d87ab64)
 
+* Example
+* In general, **language(L)** is **subset or equal to (sigma ^ * )**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/77c6b719-d3a2-4d8a-8e16-059dde51fc84)
 
+* More than **(sigma ^ * )** is not possible. Not possible, no concept there.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5aeb8821-55ff-424d-b99f-291d5281a267)
 
+* From everything take a **subset**.
+* We can take **infinite as well as finite** subsets.
+* Don't go beyong **(sigma ^ * )**.
+* Empty set is subset to every set.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc5b66ec-5f52-4e82-9ea2-7f77102f497f)
 
+* **L5 and L6** are **language** because they both are **subset** of **(sigma ^ * )**.
+* In **L5 language**, the language is **not empty** but the string accepting is **empty** string.
+* In **L5 language**, **one string** is there whose length is **zero(0)**.
+* In **L6 language**, the language itself **empty**. No one is there. One string is also not accepting.
+* We can take **everything** also.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3bd6146e-9e74-4267-96b2-b6a932de527c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5f4cb14e-20fa-45bc-9bb6-da5509b670ed)
+
+* Countable Language
+
+1) Countably finite -> Set of all Indians.
+2) Countably infinite -> Set of all natural numbers, Set of all computer programs, Set of all Turing Machine.
+
+* Uncountable language -> Set of all real numbers
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d3c1226-de64-478f-9f5f-e9968da02418)
+
+* Computer program is nothing but Turing Machine.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d2ef958c-7015-4696-ae62-2ac9d39066cc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/231894ff-907d-4305-a4c4-48d189bc792b)
 
 
 
