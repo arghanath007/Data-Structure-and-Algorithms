@@ -3954,6 +3954,116 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/52a9c357-6a35-42cd-9fd0-1d494a0a5dd6)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8174fea9-6d1d-41da-9c6a-68d3dd2eb633)
 
+## concavity-and-points-of-inflections (29) [4th Sept 2023]
+
+* **Mod function** are always **continuous**.
+* They maybe differentiable but not in all of the cases.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/feb19b22-5b7c-468b-9104-c9c2cd6a356f)
+
+* Continuous -> Limit must exist.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0b3846a-2075-47ed-9e76-fba2653940ad)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/04844c42-f701-4027-a63b-9f173a6aaaee)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a6da0ae0-ed31-4068-9afd-e475a7624d0f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a67737c2-b53b-4dca-aee6-e53b5cc5d3a4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a6e46b7-541f-4f4d-88de-d32825048c7f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d057654-0319-42e0-9308-9202d86ce79d)
+
+* Differentiability [**IMPORTANT**]
+* Single differentiation, not need of double differentiation
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5cf89b11-6f7c-494a-b5f4-dcb7f5276366)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eff6b3d3-7424-4632-97d5-63867e47c8fc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/476597b9-adfc-4434-8b92-86b1d9601ce4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50eb4aa1-6b6c-41b9-aed0-0f15de867018)
+
+* Sin, Cos are **continuous and differentiable**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d9428e7-b279-46a6-9608-32d30fa4d93e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/00f72a81-d09e-4d7a-8c1b-ab2bc09cfea1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/535edbb9-c2d2-4d61-9d0c-396f946c2d9d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/84ca24ae-73e5-4c4b-9615-6a3eff943089)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/04c3031f-47ee-42cb-84d6-804ba3575c2a)
+
+* Whenever we take the **mod**, we have to make the **negative part** as **positive**.
+* We are checking if atleast one function is **differentiable** then only we are checking if **h(x)** is **differentiable** or not.
+* If both **f(x) and g(x)** are not differentiable then we can directly say that **h(x)** is not differentiable.
+* If anyone(f(x) or g(x)) is **differentiable** then only we will check differentiability of **h(x)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c18c300-8139-4de5-8118-3eeb78b7e478)
+
+* Differentiability of f(x) * g(x)
+* We will completely focus on the **differentiable function**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0a8c908-a548-4737-8b7c-8463c2d05ef0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/879608f5-ecbb-4e43-a3fd-d633754828c7)
+
+* LHD and RHD are **equal**, so we can say that the **function is differentiable**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/855c1a2b-40db-4b41-877b-db435d1eda68)
+
+* Another way of solving.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd1c7351-0e52-4992-96bc-9c01aa409003)
+
+* f(x) is always **differentiable**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3dc1246f-3c83-4945-9066-946d122e6412)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50445fac-371d-4b43-a871-d6634285c6e0)
+
+* [**IMPORTANT**]
+
+## Mean Value Theorems
+
+### Rolle's Theorem
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8429572e-9535-47e7-ab44-1b24aaeca61a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/01a85191-2f4d-41c6-9aa7-131fcdceed72)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/235bcb6a-14fd-40ad-9254-3106289bfc27)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b1cdafb8-6458-44a8-a77e-dbd6fbdd5085)
+
+* Yes
+* Parallel to X-axis means that **slope = 0**.
+* Slope = Y/X.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8184802-ece5-486d-a5c4-07670427ed61)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/926b6de0-fcf5-41e9-b480-daed5f2ee672)
+
+* At, **C = 0**, the function which is **parallel** to the **X-axis**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc35a976-9ee7-40c7-a21d-50f3863085e1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/46a9e5b5-fea5-498f-90b0-2000e26324db)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a41be24-e751-4898-964a-c3faa4aaadec)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe3ecfb2-4887-4a6b-9598-81de257339a5)
+
+* We can equate the numerator to zero(0).
+* Log of **negative value** is **not defined**.
+* (U/V) form rule.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/859a58bf-87e2-427c-819f-1bc88cdfa643)
+
+* (U/V) form rule formula. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d67b74ae-0c2a-4234-8fba-d00527e5beb9)
+
+* Yes
+
+### Lagrange's Mean Value Theorem(LMVT)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/07513d74-deb3-4c52-9650-392cc569d794)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e6d8177-c395-4f10-804f-2845e0439c17)
+
+* The **slope** is nothing but **derivative**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/abf185d6-562a-4faa-9b01-3bc323309b37)
+
+* Sin 90 = 1
+* Sin 0 = 0
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41e96c2c-1b9b-47bd-ba29-bfac862a8537)
 
 
 
@@ -4003,9 +4113,11 @@
 
 
 
+### Doubt
 
-
-
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/833f057e-2f1e-4a67-9aac-306237388729)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb8a2ca2-322b-4c4c-a3af-cd0556a2f9bb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9931f9dc-1f6c-4029-92bc-2a06abd4607b)
 
 
 
@@ -4013,3 +4125,4 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c5c186c-0774-48bc-90e7-c045abad21fb)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6664bfad-a06f-4009-9dcf-57c30ddcc6a1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91674acb-cc1a-42b5-8843-5ec2cf9245ae)
