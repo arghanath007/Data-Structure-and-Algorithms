@@ -4064,6 +4064,14 @@
 * Sin 0 = 0
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41e96c2c-1b9b-47bd-ba29-bfac862a8537)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37079b47-6ab9-416d-b069-a22b5ef41db8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/689f25c9-65d0-45c7-97f1-251a3e7f50eb)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22076290-6492-46cc-9227-6be5646c8b2e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/481693a6-1ba4-46c5-b973-a3709048f347)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a6b56dad-7fce-407c-b105-9e867a4140ea)
 
 
 
