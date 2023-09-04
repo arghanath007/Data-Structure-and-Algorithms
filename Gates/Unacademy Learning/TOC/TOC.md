@@ -1,6 +1,8 @@
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db87f3f9-4670-43db-9fe5-644c00632aed)# TOC
+# TOC
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4dfb4fce-5b66-4a58-8260-3591eb6708bc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/67e960e4-abc6-4c11-bb0f-615be22d1258)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dbc0f3a7-9e89-4a70-a93f-4f3a4806dd78)
 
 * Link -> https://unacademy.com/course/complete-course-on-theory-of-computation/ON3TCUN5?_branch_referrer=H4sIAAAAAAAAA8soKSkottLXL81LTE5MSc2t1EssKNDLyczL1jepdM%2F1SQ0t83FOAgAdZnNEJgAAAA%3D%3D
 
@@ -351,46 +353,145 @@
 
 * In these language, we have to compare, a's = b's = c's.
 * Two comparisons are involved over here.
+* When **a** is coming, push in both the stacks(S1 and S2).
+* When **b** is coming, pop only in **S1** stack. For every **b**, pop 'a'.
+* When **c** is coming, pop only in **S2** stack. For every **c**, pop 'a'.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d8ed4e8-9fc0-422e-9015-b556749ff33f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a46014a2-1ec2-42ab-b211-c05b16a99f91)
 
+* When we saw the first **c**, **b's** is over which means that **a's** also over.
+* It indicates that **a's = b's**.
+* Whenever b's over, then a's also over.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/51779c8c-63bb-43e8-a973-0aab990d57e1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f188c39-40b8-48a8-8dc4-68142e7dd42f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a35e6b65-ab6c-4cfa-b02f-998c3950ac8f)
 
+* **$** means **c's** is over.
+* **c's** is over means that **a's** also over.
+* It indicates that **a's = c's**.
+* We also proved that **a's = b's**.
+* So, indirectly we have proved that **b's = c's**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/687f43e4-5e8c-4ec4-bda7-9683cf42186a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22aa49bc-c917-4981-a0f3-9cc2e75a03b3)
 
+* When two comparisons are there, this is the story. 
+* Now, using **one stack**.
+* Because of two comparisons, we have done **two stacks**.
+* With **one stack**, can we do this?
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aeb89b79-7352-4ef7-a02f-79970392d6db)
 
+* Suggestion
+* **one a** for 'b' and **one a** for 'c'.
+* For every b, pop 'a'.
+* For every c, pop 'a'.
+* Finally stack is empty.
 
-## Difference between NFA and DFA
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ad0584d5-d179-4f4a-a362-f3d7175f9cb2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c32c956d-98af-4ae4-9d77-c354d44a1760)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b3dc6664-c88e-4a38-a22f-9b0d7554400a)
 
+* No invalid ones should be **accepted**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7ba6be5-5cf8-43a3-80dd-57fa28ace195)
 
+* Another suggestion.
+* Nonsense going on.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2301e938-3b6c-4145-bd84-7643fe8066cf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66e21007-a55e-4278-b6a1-8b23315dadb0)
 
+* More than **one comparison**, **PDA** fails.
+* One stack, we cannot do.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/da0f6785-ae38-4a62-a4c4-6e499a3d1d31)
 
+* When comparison required -> Finite automata fails -> PDA says, it can.
+* Only one comparison -> PDA.
+* More than one comparison -> PDA fails -> With one stack we cannot do.
+* Here, two comparisons needed, so **PDA** fails because it(PDA) can handle max. of 1-comparison.
+* For these reason, we are going to **Turing machine(TM)**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e564cb54-c1a8-4aa3-a122-1db11ae3b9d8)
 
+* **Turing machine(TM)** -> For the existing PDA, add one more stack, so total of **two stacks** now.
+* PDA already contains one stack.
+* **Turing machine(TM)** -> Finite automata(FA) + 2-stacks.
+* PDA -> Finite automata(FA) + 1-stack
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3796003c-ab94-48c2-9ec0-8615f6464f14)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d322e07-5d8b-4c6a-99cd-7f3e5cbc8235)
 
+* **LBA** is theoritically present. Practically not there.
+* LBA only for name sake.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc59591f-d492-4882-b7c8-53442a216756)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7124302c-013a-49cb-9812-05e8566ba61d)
 
+* Exam -> 4 Automatas
+* Outside of Exam -> 3 Automatas(FA, PDA, TM) [Since **LBA** is only theoritical]
+* More than one comparison -> Turing Machine.
+* Turing Machine means **two stacks**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b37b661-a47c-447e-9306-1b9d461903e3)
 
+* When 'b' coming, pop 'a' and push 'b' into the other(seecond) stack.
+* For every 'b', pop 'a'.
+* When **b's** are over, stack is empty, so **a's = b's**.
+* For every 'b', pop from first stack and push in the second stack.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ade51065-ccf1-4809-9d2b-7d7fc4650600)
 
+* For every 'c', pop 'b' and push 'c'.
+* When **c's** is over, stack is empty, so **b's = c's**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b33836a-6a03-4800-bda2-20ff07459900)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e7da2ebc-18bf-48dd-8956-be2d9f99eef3)
 
+* Again one stack is empty.
+* For every 'd', pop 'c' and push 'd'.
+* When **d's** is over, stack is empty, so **c's = d's**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/346b2ab6-41ce-4853-8366-fe4ac2a41b99)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ccdd282-6465-4798-8cfd-3835f2744aa2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fea6d77f-d20d-43f8-8440-7b623420f6b0)
 
+* Using **Turing machine**, we can do anything.
+* With **two stack**, we can do anything.
+* Computer is nothing but **finite automata with/plus 2-stacks**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0e87046-62ed-493c-8990-da126ccd7c89)
 
+* At the end of the string, stack is empty then **string is accepted**.
+* First all a's should come, then all b's should come and so on.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0fa9647-a062-4ec5-92cc-75b6627cba5b)
 
+* Inside the computer many programs.
+* For every logic, there is **turing machine**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4ece7a79-f14c-4758-b654-6276d0bedd8e)
 
+* FA + 1-stack -> PDA
+* PDA + 1-stack -> Turing machine
+* Power of **turing machine**, **equals to** the power of the **computer**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/78e219bf-6e27-4c03-9cd5-3de93f2fed55)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/537598ee-4d21-4bc2-8c8d-451b54b18ee2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c838ade4-7c98-437f-9e39-7c01652ad863)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d67a728-62ff-4ae7-97d2-ad0de3181d5b)
 
+* Alphabet -> It is **finite** non-empty set of symbols.
+* Any language where the **alpha bit size** is **infinite**, no way.
+* Language -> Atleast one letter/symbol required.
+* **Alpha bit** is changing from machine to machine.
+* Machine changes -> Language changes -> Automatically Alpha bit changes
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/38d01a94-a4ad-4636-93a6-29032696c6f9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/42ca96a1-a19d-4af3-9fe5-a461b475f5de)
 
 
 
@@ -442,5 +543,40 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Misplaced Images
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db87f3f9-4670-43db-9fe5-644c00632aed)
 
 
