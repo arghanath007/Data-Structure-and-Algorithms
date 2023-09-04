@@ -1,6 +1,11 @@
 # TOC
 
+## Motivation
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4dfb4fce-5b66-4a58-8260-3591eb6708bc)
+
+## Syllabus
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/67e960e4-abc6-4c11-bb0f-615be22d1258)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dbc0f3a7-9e89-4a70-a93f-4f3a4806dd78)
 
