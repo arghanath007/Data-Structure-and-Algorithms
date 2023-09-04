@@ -192,6 +192,194 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30b15c92-1ff7-4a5f-a0ae-9daf46c931b7)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e5e8914-a32c-42d2-899e-f45773136625)
 
+## difference-between-nfa-dfa(2) [4th Sept 2023]
+
+* Why these many Automata's?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2fcb26a7-2fe7-4711-9027-9597e109140a)
+
+* Between a's and b's there is a **relation**.
+* How many a's will come, those many b's should come.
+* What is the minimal string?
+
+> 'ab'.
+
+* If the minimal string is 'ab', then the length of the minimal string is **2**.
+* Minimal string is 'ab' of length **2** then **start automata** is of **three states**.
+* States -> Minimal string length  + 1 -> 2 + 1 -> 3
+* With **three states** start the automata.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/87e54840-82ee-4c97-a229-ddfd6bb6d5af)
+
+* **Every circle** indicate **state**.
+* **Double circle** indicate **final state**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/39fc7de4-d639-44e4-b23e-0bb06f9bbb38)
+
+* Starting state is **S1**.
+* Final state is **S3**.
+* Initial or initially arrow to whom, that's the **starting state**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/670988fb-7cdf-442e-96e1-a5435105df25)
+
+* After reading **ab** from starting state we can go to **final state*** then **ab** is accepted.
+* Minimal string **ab** is accepted.
+* With the **three states**, start the story.
+* When can we say that a machine is a correct one?
+
+> One valid think cannot be rejected. One invalid think cannot be accepted.
+
+* All valids are accepted.
+* One invalid cannot be accepted.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dbbfc3b9-7604-4f74-8cec-e19ff01a6a2b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1671c305-6f61-4e82-a182-d82e207ccbb2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/96f44ef5-f907-44f2-964b-cb24dbc59d0e)
+
+* The automata we have constructed is **wrong**. As it is accepting **invalids** as well.
+* To this language, finite automata not possible.
+* a's and b's are always equal in the language.
+* **Loops** means it may come and it may not come.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/001e5520-1f4c-471f-bf13-9344323f3191)
+
+* This is called as finite automata or finite state machine.
+* Finite state machine has failed to accept the **above language**.
+* As **Finite state machine has failed**, we are going to the **next automata**.
+* The **next automata** is **PDA(Push Down Automata)**.
+* **Push and Pop** operations come in **stack** data structure.
+* FA(finite automata) fails to accept above language, so we are going to **PDA**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d2e0bf7-3087-4a0e-adee-c6aa3dbd3a71)
+
+* In the above diagram, we are not keeping any relation between **a's and b's**, a's are coming any no. of times, b's are also coming any no. of times. This is a **problem**.
+* a's loop can be repeated **infinite** no. of times. So, b's loop also repeat **infinite** no. of times.
+* If a's loop is repeating 10 times then b's loop should also repeat 10 times.
+* But unfortunately there is **no relation**.
+* **a** repeating whatever way it want, **b** also repeating whatever way it want.
+* **a** repeating 10 time and **b** repeating **1 lakh** time.
+* We didn't keep any **condition**.
+* **PDA** is nothing but **finite automata(FA)** only including **one(1) stack**.
+* In **PDA**, **stack** also there.
+* Just add one more stack to **finite automata(FA)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e07ad5c-b803-4d8f-a6cf-f91093c0b433)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c019b9a2-3470-460a-90c8-86933ed72fb1)
+
+* **#(Hash)** indicates(marker) -> **Stack empty** -> Nothing there in the stack.
+* Top of the stack, **#** means that the stack is **empty** now.
+* How do we know string is over?
+
+> There is a **marker**, which is the **dollar($)**.
+
+* **Dollar($)** indicates -> **String is over**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ad6328d-a1c3-4eca-86d7-d73be4fd549c)
+
+* Every **a** is pushed into the stack. As **three a's**, so **three push** operations.
+* When **b** is coming, then start **pop operation**.
+* It is because we have to count the **no. of a's and no. of b's**. [**IMPORTANT**]
+* We have to count that **no. of a's** =(equals) **no. of b's**.
+* For every **b**, pop **'a'**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/10e352ad-8dcf-4f03-a262-f3f7937e0d04)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32a543f7-7e73-413c-91d9-bf2593b16e70)
+
+* Next symbol coming in the input is **$**, which means **string is over**.
+* **$** means **String is over** and **String is over**  means **b's** are over.
+* Now, at the top of the stack, we have **#** which means **stack is empty**.
+* **Stack is empty** means **a's** are over.
+* When we got to know that **b's are over** and **a's also over**, it indicates that **no. of a's** are **equal(=)** to the **no. of b's**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/520afa32-74fd-4ed3-9c45-fb24664bacd0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/798db7be-749c-402e-9bc2-703334a8e62f)
+
+* Yes.
+* No. of a's == No. of b's.
+* Now, **String is accepted**.
+* **$** -> String is over -> b's are over.   [**IMPORTANT**]
+* **#** -> Stack empty -> a's are over.      [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd9cb26e-69a1-45d7-95e1-740b395a6bff)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f1cc2ecb-57af-4940-ad39-e945cd71794b)
+
+
+
+
+
+
+
+
+
+
+
+
+## Difference between NFA and DFA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
