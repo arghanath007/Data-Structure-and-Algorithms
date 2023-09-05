@@ -691,48 +691,184 @@
 * It(FA) is also having some story.
 * Every machine is having some story.
 * Inside **FA**, some states are there.
-* 'Q' -> Set of states.
+* **'Q'** -> Finite and non-empty Set of states.
 * Every machine accepts some language. When we say it is accepting some language, every language is in need of some alphabets.
 * Every machine has some purpose.
-* **Sigma** -> Alphabet, used for input purpose. Input alphabet.
+* **Sigma** -> Alphabet, used for input purpose. **Input alphabet**.
+* Until and unless the total diagram is available, we cannot tell what is the **language**.
+* Total machine should be available.
+* Until and unless we see the total machine, we cannot say what it will do.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/872375db-1009-4d60-92b2-6d056265931a)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ba12bfb-7c9c-4b31-851e-2fdbc31bfe18)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c0e92d4-0085-4f0d-8809-c6ce1e31ef86)
 
 * Until and unless we see the total machine, we cannot say what it is going to do.
-* If we **combine**, then that is **our sigma**. That is our **input alhabet**.
+* If we **combine**, then that is **our sigma**. That is our **input alphabet**.
+* Union of all language we know, that is **our sigma**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a19f253-50d3-4514-8a7d-92e5ffed8c3b)
 
-* Start from -> 1hrs
+* Sigma = {a}
+* It means that the language contain one letter which is **a**.
+* All combinations of **a** are allowed, which are the **strings**.
+* Alphabet is indirectly deciding what should be there in the **language**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7683ab9-34cb-4a7a-9cdd-290ab2489f1a)
 
+* Finite automata given -> States are given and Input alphabet also given.
+* **Sigma(Input alphabet)** for ATM is **0 to 9**.
+* Every machine having some **Sigma(Input alphabet)**.
+* Every maching having some **language**. Every maching will accept some **language**, in that language what symbols are allowed that is called **input alphabet**.
+* Output maybe something else.
+* In the **output** some symbols are allowed.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91c00137-dd6f-4630-a53e-f23cd79b50e2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d343a3dc-5d9c-486e-978e-7ad04b854f23)
 
+* We cannot write **output** here as we are designing **FA without output**.
+* When we are designing **FA with output** then the **output alphabet** will also come.
+* **Without output** -> Language recognizer.
+* It will finally say **string accepted or rejected**.
+* At the end of the input string if we are in the **final state** then **string is accepted**.
+* At the end of the input string if we are in the **non-final state** then **string is rejected**.
+* **F** -> Set of final states.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0e1d5c8-518d-48db-8d75-b9fb80481f01)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/77d19ce8-aa65-4f99-b462-39ac53e303c2)
 
+* Finite set's **subset** is **finite** only.
+* **F** is the **subset or equal to 'Q'**.
+* From one machine to another machine, some changes are there.
+* In some **automatas**, **two states** maybe final.
+* In some **automatas**, **every state** is final state.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/664b1e62-ddf3-4233-a7a8-bfa7631a24b9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/913e2d27-7c25-4a6e-b580-f6a26940f90d)
 
+* Finite automata **without final state or no final state**, it will accept **phi**.
+* Language of that automata is empty language.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f5b91fb-f97a-4951-b910-801f1a7c657a)
 
+* Alphabet maybe many, but no final state.
+* Delta -> Transition Function.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5519788-6b2c-436a-b902-ad1016cbcb81)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80d6f265-1843-4ab0-826e-597c4da1095a)
 
+* Transition Function -> We are going from one state to another.
+* We can write the function or draw the diagram.
+* They are same.
+* **q0** -> Only one start State or initial state. 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f4824ee-b129-4cc5-bf76-2819b9be7afd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed54e804-3443-408d-bfb3-f667ed9fb8ae)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/55f92203-2500-4ddb-9f49-b939284019ca)
 
+* [**IMPORTANT**]
+* All these 5 things are there.
 
+1) Set of states
+2) Input alphabet
+3) Set of final states 
+4) Transition function
+5) Start state
 
+* If finite automata is given then these **5 things(above)** are given.
+* These finite automatas are without output.
+* These finite automatas are for **language recognizer** purpose.
+* Lastly **yes or no**, did we reach **final state** or not.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f041157f-a77c-49ec-9cd6-2604e6bc3677)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c89ed602-fbf2-4610-b14d-ec6942bd4333)
 
+* This is why finite automata is called as **5-Tuple machine**.
+* This is for **NFA and DFA** both.
 
+ ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd540da7-6414-45c9-ab62-b3866af1925a)
 
+* Initial arrow indicate **starting state**.
+* Double circle indicate **final state**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8be2b638-8a89-4b2f-94c0-7a32b9bedc8f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31ff63fa-f68c-432b-b81e-c531d424e8d8)
 
+* Q = {S1, S2}
+* Sigma = {a, b}
+* F = {S2}
+* q0 = S1
+* Transition Function
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/783e2874-6298-4393-98fd-a8158c670f15)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/156f1976-f2bc-43df-9a6b-501a9d23aa5d)
 
+* By looking at the table, we can say that we have **two states** in the automata.
+* '*' -> Final State
+* '->' -> Initial state.
+* Automata can be represented in the **transition diagram** or in the form of **transition table**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e922ac68-522f-40ec-92f4-ec33b787d2c8)
 
+* Representation of FA:-
 
+ 1) Transition diagram
+ 2) Transition table
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aee2be0d-ae02-45ad-a876-f9d619549e2f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/39920f66-3131-4b6f-956a-9752adf8dfdf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/18c5b1ec-e24e-4139-8a93-96e3b65f2b6a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/59078eeb-0ee8-4e97-9538-481b3e832c67)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/537abe13-ec00-46d5-9c17-bfecf6b00f08)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/88980c7e-96b9-4ad0-b1ab-401755398e68)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e3aee15-c0be-4bcf-b049-b62b50bf0b3a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b55e0741-d944-43ff-8de1-eb3995933385)
+
+* Two diagrams
+* First diagram, from each and every state for every input symbol, we are exactly going **one state**. Not more nor less.
+* This is **DFA(Deterministic Finite Automata)**.
+* Exactly having one single behaviour. Deterministic behaviour
+
+* In the **second diagram**, **S1** on **input 'a'** is not going anywhere. **S2** on **input 'a'** is going many places(S1 and S2).
+* This is **NFA(Non-deterministic Finite Automata)**.
+* Different plans are going on. Confusing family.
+* No Clarity.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bba8df00-ad48-4609-8946-1a32255d1762)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/62d3ac48-c39b-4b0e-a5b9-c751fe0e9f62)
+
+* [**IMPORTANT**]
+* DFA -> In the case of **DFA** from each and every state and for every input symbol, exactly **one transition**. Not more nor less.
+
+* All **algorithms** are **deterministic algorithms**.
+* Each and every state -> Rows are covered.
+* Each and every input symbol -> Columns are covered. 
+
+* NFA -> In the case of **NFA** from each and every state and for every input symbol, we have zero transition, one transition or more than one(1) no. of transitions(zero or more than one(1) no. of transitions).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c907d56c-c507-4db3-b4c4-11ae1f6bbdf6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05bb5fc9-7ca0-4836-8323-6a431c58c7fb)
+
+* **NFA** having many possibilities.
+* **NFA** is more flexible or a lot of flexibility.
+* **DFA** construction is **difficult**. Everywhere **1** only.
+
+* While construction **NFA**, luckily everywhere **1** possibility is there. This is also **NFA** and it is a **special NFA**, called as **DFA**.
+* A special type of **NFA** is called as **DFA** where, everywhere **1** possibility only.
+
+* Every **NFA** is **DFA** -> **NO**.
+* Every **DFA** is **NFA** -> **YES**.
+* **Superset** is **NFA**.
+* **Subset** is **DFA**.
+* **DFA** having **less possibilities**.
+* **NFA** having **more possibilities**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63988f0b-4982-4a12-9e08-ccc6db053fde)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a82e2550-5b97-4458-986d-2c7ed5c3d7d5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/07914c9a-823f-4f90-899d-276465aa13d3)
+
+* Every DFA is NFA but every NFA need not be DFA
+* **DFA** is a **subset** of **NFA**. [Will be confusing]
 
 
 
