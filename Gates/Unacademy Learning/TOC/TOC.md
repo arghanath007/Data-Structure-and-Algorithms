@@ -963,8 +963,142 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9141e3a8-5df4-46b6-bd85-2be44bc7b7a1)
 
 * aabab -> String accepted.
-* We have to start automata from **starting** state only.
+* We came to **S1** it means that we started with **a** only.
+* If string not started with **a**, we cannot come to **S1**.
+* We have to start automata from **starting state** only.
 * We cannot start from wherever we want.
+* Valid thing, starts with **a** only.
+* We started from **S0** and after looking at **'a' input** we changed the **states** to **S1**.
+* If we want to remember **something new** then only **change the states**. [**IMPORTANT**]
+* Every state having some meaning.
+* **S0** on **input 'a'** -> **S1**.
+* **S1** on **input 'a'** -> **S1**.
+* **S1** on **input 'b'** -> **S1**.
+* Sigma -> {a, b}
+* States -> S0 and S1.
+* States are **two** and inputs are **two**.
+* **DFA** means, if we want or not, we have to complete eveything.
+* In the **language**, starting with **b**, nothing will come.
+* Deterministic -> We have to saw for everything.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f9f3992-0848-4226-a7d2-da5338d486b5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d0e6c69-7eb4-457d-9109-cbbe66a49000)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dcb8dae3-90f1-4c5e-ab31-82d72fa89d82)
+
+* Required things are completed, stop the diagram.
+* This is **NFA**.
+* Computer programs are **DFA**.
+* We have to say everything.
+* According to the **language**, **starting 'b'** is not possible.
+* If someone starts with **b** then **no change of final state**.
+* If we come to **S2** then no change of going to final state(S1).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c8435f11-709e-4b6c-8a71-d3b811b3a08f)
+
+* This is not **DFA**.
+* **a and b** we are not covering in **S2**.
+* After staring with **b**, anything will come, we cannot go to final state(S1).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/577c187c-c6fa-4355-bb27-06a1e8f72cc2)
+
+* This is **DFA**.
+* Deterministic algorithms.
+* **S2** will say that string already started with **b**.
+* In the diagram, we have **three states**.
+* Final states -> 1 [S1]
+* Non-final states -> 2 [S0 and S2]
+* If at the end of the string, if we are in the **non-final states** then **string** is **rejected**. 
+* If at the end of the string, if we are in **final state** then **string** is **accepted**. 
+
+* From **S0** anyway to go to **final state**?
+
+> If we are at **S0** then we have **some hope** of going to **final state**.
+
+* From **S2** anyway to go to **final state**?
+
+> If we are at **S2** then we have **no hope** of going to **final state**.
+
+* So, **S2** is called as **dead state**. 
+* **Dead State** -> Non-accepting state and no hope as well.
+
+> **S0 and S2** are both patients in one of the hospitals, after testing is over, the doctor said that there is **some hope** for **S0** patient. **S2** is dead already. **S2** already gone.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/667c0f6b-d223-4942-8676-3035ea537929)
+
+* **S2** is there because of **DFA**.
+* We have to include everything.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/17bea880-24ea-469a-b49b-cd727720f461)
+
+* **Dead state** is one of the states.
+* If anyone comes to **Dead state**, they cannot move any further. No way.
+* Behaviours matter.
+* Names doesn't matter.
+
+* From **S2** state, we cannot reach the **final state(S1)**. So **S2** state is a **dead state**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c9e381f-24d2-40af-a663-903cb555b4cc)
+
+* If we remove the **loop** then the automata will not be **DFA**, it will be **NFA**.
+* Because of **DFA**, we have to keep the **loop**.
+* If a string is starting with **b**, then there is **no change** of reaching the **final state**.
+* **S2** means already stated with **b**.
+* After starting with **b**, anything happens we do not care.
+* Total states -> 3
+* Minimal DFA contains **3 states**.
+* Dead state means **no acceptance**.
+* **S2's** behaviour is **dead state**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa51cbb2-60f0-4df4-8cf9-729d6f7344cb)
+
+* Minimal Finite Automata -> NFA -> 2 states
+* Minimal DFA -> 3 states
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac43c76b-49d8-4501-916e-594b225f7643)
+
+* [**IMPORTANT**]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
