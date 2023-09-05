@@ -872,6 +872,104 @@
 
 ## dfa-construction-ii (5) [5th Sept 2023]
 
+* Construct minimal DFA that accepts all strings of a's and b's where in every string, where the starting letter should be **a**.
+
+1) First the language first.
+
+* Minimal String to be accepted -> aa
+* Sigma -> {a, b} -> a or b
+* Can also be written as, (a + b) -> a or b.
+* Both are **same**.
+* Anything -> (a + b) ^ * -> (a, b) ^ *.
+* Whole Star('*') -> We can go inside any no. of times. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a626bcc-4101-4585-8e0f-9485cb20d1ae)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d034028f-b7f1-45f9-ae67-2a06189e926b)
+
+* 'a' followed by **anything**.
+* (a, b) ^ * -> (a + b) ^ * -> (a OR b) ^ *.
+* They are **same**.
+* These **automata** will accept all strings of **a's and b's**.
+* Sigma -> {a, b}
+* All strings -> Sigma ^ * -> {a, b} ^ *.
+* Starting letter is **a**.
+* **a** followed by **anything** is ok.
+* **(a * (sigma ^ * )) -> (a * (a, b) ^ * )** 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5ad985a-bda2-4ebd-9963-b662245e5704)
+
+* a * b -> ab -> We cannot write this as (a, b). It is **one people only** -> Concatenation -> 'a' followed by 'b' -> Two strings became one string only.
+* Followed By -> Dot(.) -> Concatenation.
+* a + b -> a or b -> It is **two people**, either 'a' or 'b' -> **OR or union** operation -> 'a' or 'b'.
+
+* If we want to make **two strings** as **one string** then we will use **Concatenation**.
+* If we want to make **two strings** as **two strings** only then we will use **Union**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc0fa6e7-6244-4853-a108-e765f020e7c2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f67e1b30-c54b-4748-89e8-dceb90e1db20)
+
+* 'a' followed by anything -> a.(sigma ^ *) -> a.(a+b) ^ * -> a(a+b) ^ *.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa1a29c1-8a1e-48c7-8484-b8ec237d07d9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b6136af1-ec50-4be3-88bb-cfd8ac5eb180)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f458211c-37c3-4538-84f8-a115b9d4dd27)
+
+* As whole star(*) is not there, by default power is **1**.
+* We can go inside **once only**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b4c87c7-854e-4cf8-8392-43ac06cc3a8f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed970a5b-e528-495b-ae48-6d7ad020409c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/82295f28-bf5b-438e-a817-ca8bf8181bbf)
+
+* Three operators:-
+
+1) Plus('+') -> Union
+2) Dot('.') -> Concatenation
+3) Star('*') -> Kleene closure.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65e90ab3-adc4-46b5-bb26-7ae22f4efd8a)
+
+* Minimal String -> **a**.
+* Minimal Length -> **1**.
+* Without minimal string, don't try to create a **DFA**.
+* If the **Minimal Length** is **1** then with **1 + 1 -> 2** states, start constructing the **DFA(Automata)**.
+* On the **transitional line** also keep the **minimal string** symbol.
+* Make the **last state** as **final state**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c4b8dce-3d04-4d0e-9b88-3edb3e6e085e)
+
+* Starting from **S0** by reading **a**, it will go to **final state(S1)**. **a** is **accepted**.
+* The purpose of **states** is that every **state** will **remember something**.
+* (a + b) ^ * -> Minimal is **epsilon**.
+* At the end of the string, where we are that matters.
+* At the end of the string, are we in **final state**? 
+
+> It is **accepted**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8db192d4-da42-47e3-8ebe-002ab6acebff)
+
+* If **loop** is not there, then we cannot **accept infinite things**.
+* (a + b) ^ * -> It generates **infinite** people.
+* If we don't keep the **loop** then we cannot accomodate the **infinite** people.
+* We have taken **2 states**, as it is a **finite automata**. We cannot take **more states**.
+* The **language** given is **infinite language**. The only condition is that the **starting** should be with **a**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e335f4f-f062-4e57-b248-94b50b2cff93)
+
+* In **((a + b) ^ * )**, we can take **epsilon**. Overall we cannot take **epsilon**.
+* Overall no change of **epsilon** as already **a** came.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8cd2174c-b91e-444f-8594-27a9af1ca2a1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9141e3a8-5df4-46b6-bd85-2be44bc7b7a1)
+
+* aabab -> String accepted.
+* We have to start automata from **starting** state only.
+* We cannot start from wherever we want.
+
+
+
+
+
 
 
 
