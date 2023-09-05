@@ -1057,14 +1057,59 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac43c76b-49d8-4501-916e-594b225f7643)
 
 * [**IMPORTANT**]
-* Start from 1hr 30mins.
+
+* CMDFA -> Construct Minimal DFA
+* L = {Set of all string over a and b}
+* Sigma ^ * -> (a,b) ^ * -> (a + b) ^ *
+* Minimal String -> Epsilon.
+* Epsilon length -> 0.
+* With **0 + 1 -> 1** states, start the **automata**.
+* With **1 state** that itself is **starting and final** state.
+* Actually by reading some symbol we go to the **final state**.
+* Without reading anything, we are going to the **final state**.
+* It means that **epsilon**, we read.
+
+* **NOTE** -> Start state itself is the final state then by default **epsilon** is accepted.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ad23f4e-2571-49f0-84d4-743539a34485)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff64aac2-f284-40d1-b8ea-5f0ecc4c209a)
+
+* Nothing special.
+* Here, no condition, everything OK.
+* Everyone allowed.
+* It is **DFA**.
+* If it is **DFA**, then indirectly it means that it is **NFA** also.
+* Everywhere exactly **one transition**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a23f5f0b-8f12-4876-9a31-1d189104db77)
+
+* If **conditions** are **more** then **states** are **more**.
 
 
+* CMDFA -> Construct Minimal DFA
+* L = {Set of all string over a,b excluding epsilon}
+* Sigma ^ + -> (a,b) ^ + -> (a + b) ^ +.
+* Except **epsilon**, everything will come.
+* Minimal String -> 1 length
+* With **1 + 1 -> 2** states, start the automata.
 
+* Whenever there is **some hope** then that state is not a **dead state**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/230f1150-9679-4e2b-aad6-ca08f667c8cc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb7cdbcd-d2ed-4781-aefa-c0f201ec8efb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6516a8f7-701a-4e29-ab9b-ecfd51619b9f)
 
+* If we come to **S5** state, then we are **dead**. We have no change of going to the **final state(S3)**. 
+* Other than those **three(a, ab, ba)**, if anything else comes, **reject** all of them.
+* In total we have **5 states**.
+* It is a **finite** language.
+* After some point of time, all of the strings are over.
+* Whenever it is a **finite** language, after some point of time, all strings are over.
+* Even though all are over because of **DFA**, we have to cover some unnecessary things.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e2a6444a-97ce-47a9-adbd-2b56f660eb42)
 
+* If we construct a **DFA** for a **finite language** then compulsory **dead state** required.
 
 
 
