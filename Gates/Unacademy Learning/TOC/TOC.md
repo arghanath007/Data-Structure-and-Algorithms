@@ -870,6 +870,19 @@
 * Every DFA is NFA but every NFA need not be DFA
 * **DFA** is a **subset** of **NFA**. [Will be confusing]
 
+## dfa-construction-ii (5) [5th Sept 2023]
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
