@@ -4073,28 +4073,75 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/481693a6-1ba4-46c5-b973-a3709048f347)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a6b56dad-7fce-407c-b105-9e867a4140ea)
 
+## doubt-clearing-session (30) [5th Sept 2023]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34aa97bb-979d-4be8-b24c-12c17f7d742c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec304332-ce78-48a0-9588-3f08c9c5bf37)
 
+* **f(x)** value lies between **min to max**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/886bd70b-55f8-4e49-8f64-ca360cf4b3e6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/79f314a6-c112-4cf2-8c7e-22c82e9b0ab6)
 
+* We will get **max** value when **x = 1**.
+* We will get **min** value when **x = 0**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b572368-956f-495d-abb8-98b643256542)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/506473a6-3877-4cab-9087-2726af2fc502)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9468b5e6-34ec-4b01-826a-23557c151739)
 
+* By observation, we have to decide it.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bbb102f7-ce12-4234-b492-e38735d76799)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a22fdf67-5109-4e45-85fa-9ff21f5ccba0)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/550e8105-7db3-4521-87aa-128c6d28d9aa)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dfc17e9b-283c-4fe1-a8c1-e3ef6d0dba94)
 
+## Cauchy's Mean Value Theorem
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/897ed817-069c-49b1-a1d4-69255537d31b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95817b3d-2a93-4c85-b37c-8bc66d0c99af)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a41b3269-dbbf-48b9-b231-03ac68a93e70)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c7decf7-d30b-4095-bb54-f61f58d13b3b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ac62fd8-beec-4134-b05d-dc403c436468)
 
+* Otherwise the value will be **zero(0)**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b36f37b2-ae18-4647-9302-eab5b42aebd9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a229d018-5f09-4406-9f19-a625aa52bb5a)
 
+* Note.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9befdc3b-0604-4019-a848-7879e068c4fc)
 
+* [**IMPORTANT**]
 
+## Taylor's Series
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ecf2d2c-8c18-4528-b91e-67f3968a8081)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d234a95d-a091-4d7d-9417-4db1c8b51ee1)
+
+* nth terms means **(n-1)th** term, we have to see.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a34a875e-35b5-49fb-bd97-505d2a96b58f)
+
+* [**IMPORTANT**]
+
+## Maclaurin's Series
+
+* If **x = 0** then the **taylor series** becomes the **Maclaurin series**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9403be57-44bd-4686-ac54-cd84df7edd3c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/037207cb-d723-4263-89df-68444030ddd4)
 
 
 
