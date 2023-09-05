@@ -1109,8 +1109,16 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e2a6444a-97ce-47a9-adbd-2b56f660eb42)
 
-* If we construct a **DFA** for a **finite language** then compulsory **dead state** required.
+* If we construct a **DFA** for a **finite language** then compulsory **dead state** required because other strings, we have to reject.
+* Only three strings accept remaining reject. The red color indicate remaining. The remaining is **infinite**. There is a **loop** also.
+* Whenever we say **infinite**, **loop** required.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf430051-d66f-4501-b814-5cb9781a83b2)
+
+* DFA  for finite language -> Dead State mandatory.
+* Only three strings, we have to accept. After three string are over because of **DFA** other strings we have to take care. We have to **reject** them.
+* The language is saying **only three strings**, not more not less. There is no atleast nor atmost.
+* Most of the time **final state** is **one(1)**. Sometimes maybe many, sometimes maybe all.
 
 
 
