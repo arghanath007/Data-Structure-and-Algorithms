@@ -4142,11 +4142,37 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9403be57-44bd-4686-ac54-cd84df7edd3c)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/037207cb-d723-4263-89df-68444030ddd4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/43af5af5-8cfa-44c5-8843-dc278b19f9f0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63a273e8-dd7c-44a8-b8c9-853a04a9d567)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef1ea418-088a-4051-af81-7f2042a54ccc)
 
+* Series. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e28efe5-0948-4bd4-94f2-4d1c2f1aea26)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a2680b7-86d4-4322-af8c-14b9daa69fca)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a4a104f-9379-4e42-a2a2-933c7e8c74dc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9a1d9b25-16de-4d40-b925-f4ba3c2a1bde)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/70ee7c96-85b8-4c64-a9ed-62e914600764)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/90cb5070-c491-4819-bb93-0371ef99c48c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1ab03bc-8014-438f-bf0f-bd274f8bb2ed)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a3dc358-5cf6-4e79-aa00-cb66d35c53ea)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57c2e931-debf-44d7-ac86-2f5a0be22a81)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd9940e9-4113-4011-a4a1-08027c5be242)
 
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee30026f-82f0-41a7-b953-b10f5e0986c8)
+
+* Sin pie = 0.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f14ea276-3e1b-45f6-bfec-58ea6d019731)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b207bd8-a01f-4f2f-93d7-993177e25094)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89288130-262d-4419-a642-39e135e63e22)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e701f232-7712-44dc-b643-42b14f3dee98)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/51806ce5-42ba-48d1-a3ca-73569651abf8)
 
 
 
