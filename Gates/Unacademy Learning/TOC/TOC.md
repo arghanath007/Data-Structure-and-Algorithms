@@ -1314,7 +1314,12 @@
 * We don't have starting problem.
 * At the end, don't go to **dead state**.
 * We should go to **non-final** state.
- 
+
+ ## dfa-construction-iv (7) [6th Sept 2023]
+
+
+
+
 
 
 
