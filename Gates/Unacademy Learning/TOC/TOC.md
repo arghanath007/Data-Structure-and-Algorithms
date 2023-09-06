@@ -1627,47 +1627,98 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e6b8013-97c6-460e-ba4f-3aa38429b09b)
 
 * L
+* A' -> Other than **A** -> From universal set(U) remove **A**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6e1704ca-f2b8-4b51-b4f9-22e1cb045110)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/23b320ff-fb4c-4a54-adbe-dcd6aed3472c)
 
+* If two people are **complement** to each other then **L intersection L' = Phi** and **L U L' = (Epsilon ^ * )**.
+* Union should be everything.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7876b813-83e2-4970-ada7-7e2deb2fd15e)
 
+* L and L' are complement to each other.
+* Try without **not**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/810193f8-086c-42bc-bdd1-347f83cb8804)
 
+* If **L** is a **regular language** then **L'** is also a **regular language** because for **L'**, **DFA** is also possible.
+* If it is **NFA** and we want **complementation** by interchanging **final and non-final** states, **NFA** will not given **any gurantee**.
+* For some questions, there is **no answer**.
+* In **DFA**, **complementation** works.
+* If we have **NFA** and we want the **complement** then first we have to convert the **NFA** into **DFA** and then do **complementation** on that **DFA**.
+* Don't do **NFA complementation** directly.
+* **DFA complementation** is **guranteed** and always **possible**.
+* **NFA complementation** is **no gurantee**.
+* **NFA** means multiple things.
+* Finale(F)
+* Non-finale(NF).
+* It will work in **both directions**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/debbb8e1-3333-4226-bffd-257fb63d4bd7)
 
+* On **S1** with **input 'a'** there are **two** different behaviours.
+* **a** possible in both the cases/places(L and L')
+* Both are accepting **a**, that is **not possible**.
+* In **complementation**, how something is **common**.
+* In **complementation**, intersection should be **phi**.
+* **NFA complementation** is **no gurantee**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/56e7a7ae-5ccd-4d9e-92c3-dddc680cf918)
 
+* **DFA complementation** is **guranteed** and always **possible**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22b7074e-e66c-43f6-aa51-f165d4d86377)
 
+* Do **conversion** first and then do **complement**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e17d649-3b3c-48f7-9ae9-c5b95dc85ae1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a7626d7-67dd-4a42-8753-9c9105e97332)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3dc598f7-b8c1-48ef-8610-14a2e0f27f9e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1e603bb-e92f-4b4f-8292-66f0058c6047)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/21b32f18-bd13-47c2-ac7f-5fec82081e1f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0be37e61-d727-4f05-8fac-2e0ce1e28898)
 
+* Because of **NFA** we cannot give any gurantee.
+* We have to do **manually**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3b06d7c-841c-48c9-b5dc-1a34d7125b0f)
 
+* Now, interchange
+* Final -> Non-final
+* Non-final -> Final
+* What is **L1**, if it is **DFA**?
 
+>  (Sigma ^ *) - L.
 
+* As we have **NFA**, there is **no gurantee**.
+* We have to check **manually**.
+* We got **(sigma ^ * )**.
+* Everything **accepted**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee950985-a49f-4692-aa04-c46b36dbd067)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e815a47-da9a-4217-98b3-2a70e48af796)
 
+* What is **L1**?
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/278f82f1-27b2-40ea-babb-1b8e9a25f5ae)
 
+* **DFA** is direct.
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/38498d17-aede-4f88-b78f-7974f43acaeb)
 
+* When we say **language** take the **accepted** things.
+* When **language**, check what are **accepted** things.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37ab1efe-18f6-49eb-bfa0-0c1f4a93dee8)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+* When **DFA** is there then the **language** is a **regular language**.
+* **DFA** there means there is a **AP series**.
+* All are **related**.
+* From **DFA** we can get **minimal DFA**.
+* From **NFA** we can converted to **DFA**.
 
 
 
