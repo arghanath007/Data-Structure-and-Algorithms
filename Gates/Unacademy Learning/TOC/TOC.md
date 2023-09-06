@@ -1317,6 +1317,184 @@
 
  ## dfa-construction-iv (7) [6th Sept 2023]
 
+* L = {All strings of a's and b's where each string length is exactly 3}
+
+* Minimal length -> 3
+* **3 + 1 -> 4** states to start the **automata**.
+* (a + b) ^ 3 -> We have to go inside exactly three times. It gives exactly three length string.
+* Everywhere **2 choices, '3' times**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d2cd671-c71b-48b9-aee7-d693cb1d0cf3)
+
+* No.
+* Star(*) means **many times**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a8d25c7-5b67-4de1-8e94-f9818b84b20f)
+
+* More than '3' length string coming, no way of going to the **final state**.
+* No hope is there.
+* Going to **dead state**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/74783245-69fc-4528-9070-547f257be681)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f7fc248-162f-45c3-af40-f63c396772d5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9881426-f4c5-4f27-a950-14a4eafd239b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d777d6dd-1a61-489a-999b-6880ce017678)
+
+* [**IMPORTANT**]
+
+* L = {Atleast 3-length string}
+* 3,4,5,6,7, .......
+* ((a + b) ^ 3) -> Exactly 3 length string.
+* ((a + b) ^ 3) * (Epsilon) ^ * -> ((a + b) ^ 3) * ((a + b) ^ *) -> After exactly 3 length string over, anything can come.
+* ((a + b) ^ *) * ((a + b) ^ 3) -> Anything followed by **three length string**.
+* The string should be **atleast of length = 3**, doesn't matter if it is in the front or at the back.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b20cda85-5461-428a-8e5d-c7440adbd5c0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f9995027-65ac-4d84-bfbc-ffa154759336)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dcd194b0-ebb8-4773-a032-502318cf6860)
+
+* We can write more than 3 in the before or after as well.
+* Anyside  we can take.
+* ((a + b) ^ *)  * ((a + b) ^ 3) * ((a + b) ^ *)
+* Minimal DFA is **unique**. [**IMPORTANT**]
+* There is **no minimal unique regular expression**.
+* **Minimal NFA** is not **unique**.
+* Minimal length -> 3
+* **3 + 1 -> 4** states are need for the automata.
+* It will accept all three length.
+* We are in **S4** means that the **3-length string** is over.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a4b43ac-0ff2-4a2b-a1a3-d6f8744dbcd0)
+
+* This is **NFA**.
+* More than **3-length** is also ok.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/84f2ab11-5b8e-48e0-a758-9d13ebf00666)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5492f20-c2bc-4ea6-8a20-ace2e9f12dcc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b8a0aa3a-5359-44ac-b61f-2dee462b2233)
+
+* All of the **three regular expressions*** are going the **same thing** only.
+* In any expression, if these symbols(*, dot(.), +) are there combined, individually, then the expression is called as **regular expression**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a842efe-68e6-40c0-be54-76c2fd1b8bc1)
+
+* There is **no unique regular expression**.
+* All three are **regular expression**.
+* Minimal **DFA** is unique.
+* Minimal **NFA and regular expression(RE)** is not unique.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb9e109e-c4c7-4459-bc5a-0122b207b394)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f75fa02e-218d-437c-8ef8-e4917182f2b4)
+
+* **Note**:-
+* Minimal DFA atleast 3-length -> 3 + 1 -> 4 states -> No dead state required
+* Minimal DFA atleast 100-length -> 100 + 1 -> 101 states -> No dead state required
+* Minimal DFA atleast n-length -> n + 1 -> (n+1) states -> No dead state required
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/170291ca-40cd-4494-9dd7-4758ef11b91b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f3866ae-5dff-4484-9463-07903b97f41e)
+
+* If asked in **MSQ** and all of the **three expressions** are given then all of the **three** are **correct**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0edfe886-e125-4af2-915f-952b677b13d8)
+
+* [**IMPORTANT**]
+* **NFA** is possible for **regular language**.
+* **Regular language** means **NFA, minimal DFA, DFA and regular expression** there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d25b46a-c676-463b-bf0a-c4a3e4e5b167)
+
+* L = {Set of all strings of a's and b's where each string length is almost 3}
+* It is a **finite language**
+* As it is a **finite language**, so the **Dead state** is compulsory.
+* Minimal length -> 0
+* Minimal string -> Epsilon
+* Initial state = Final State -> Epsilon accepted condition.
+* **0 + 1 -> 1** state needed to start the automata.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31730ce2-792b-4a74-bf3b-634e50fca002)
+
+* Zero(0) length string is **accepted**. Epsilon accepted.
+* If we keep **self-loop** then **1-lakh a's** are also accepted, which we don't want.
+* So no **self-loop** allowed. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d760185-a79e-437d-aa53-3f115597999b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36716dbf-cf0e-4a6d-a2bd-ec7ceeeff6ca)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f90acbd7-4290-43db-905e-6a2bf421c1bc)
+
+* As we have **0,1,2 and 3** string length as **accepted** that's why all of the states are **final states** as well.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36d8560b-f69f-49da-8776-7999a3f45327)
+
+* There is **dead state**.
+* More than **3-length string** is **rejected**.
+* Minimal DFA -> Atmost 3-length -> 3 + 1 = 4 states -> 4 + 1 = 5 states ['1' is a dead state] 
+* Minimal DFA -> Atmost 100-length -> 100 + 1 = 101 states -> 101 + 1 = 102 states ['1' is a dead state] 
+*  NFA -> Atmost 3-length -> 3 + 1 = 4 states [No dead state in NFA] 
+*  NFA -> Atmost 100-length -> 100 + 1 = 101 states [No dead state in NFA] 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/025d96fa-db8e-41b3-8f28-9af75305c82b)
+
+* Every **dead state** is not only **non-final state** but also **permanently non-final state**. **Yes**.
+* But every **non-final state** is not **dead state**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/610f7e2d-fee7-41ee-ac14-4d191e2bafe4)
+
+* Non-final state -> **D** state -> Dead State.
+* Max. characters allowed are 3 characters or strings of length = 3.
+* This problem having maximum **3** places.
+* In every place we can keep **a or b or epsilon**.
+* We can go inside **exactly 3-times**.
+* Everytime we can select whatever we like.
+* **zero(0) length we add three times, we get zero(0) length only**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b0610e0-d81a-433c-b54e-1b5b8cdbf658)
+
+* Two length will come
+* One length will come
+* Three length come.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ede19d6-6210-4540-878a-3bcd353ba993)
+
+* Three times only allowed. More than **3** not allowed.
+* If we do **(sigma ^ * )**, the answer will be **1 lakh**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b622f786-57e3-4f76-b876-a6d9dc5df188)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3cd84c46-94db-4617-a623-4e66f6a4d39f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/55d83f99-9bfb-4ff1-a6c8-65c055c7480a)
+
+* **Whole cube** doesn't mean that all are **three length**. **NO**.
+* This is the reason.
+* We don't know what's inside. 
+* **Whole cube** -> Go inside **three** time.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a06d36f9-000b-4e69-98e9-45cafba11b72)
+
+* Yes.
+* Inside can be **anything**.
+* What is there inside, please check.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7820aa91-0405-484e-96db-12f9b41ea4ff)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f106f1a-5716-448a-b0a5-9f98a566c74a)
+
+* [**IMPORTANT**]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
