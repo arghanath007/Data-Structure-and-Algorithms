@@ -1479,6 +1479,185 @@
 
 * [**IMPORTANT**]
 
+## dobut-clearing-session (8) [6th Sept 2023]
+
+* Prefix -> Set of all leading symbols -> Starting onwards we have to read -> Leading symbols should come -> Starting is compulsory.
+* L = {Accepting all prefix of string abababab..... }
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/53597f98-fc6f-4f10-8a13-9983420fa1d1)
+
+* First prefix is **epsilon**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/deb7b513-850f-4dcc-91e5-d7b1dae12b34)
+
+* How many proper **prefix** are there?
+
+> **Exclusing itself/himself**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c91325a4-01a0-4dcd-8e88-6d5ad6e59927)
+
+* For an **n** length string, the no. of **prefix** are **(n + 1)**.
+* For an **n** length string, the no. of **proper prefix** are **n** only.
+* Minimal length prefix is **zero(0)** which is **epsilon**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/17a455e9-a6b0-4909-8eb3-8e85efa64e40)
+
+* Minimal string -> epsilon
+* Minimal length -> 0
+* **0 + 1 -> 1** state, start the automata.
+* All valids should be **accepted**.
+* All invalids should be **rejected**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/308dba47-a612-4816-8122-f2944b9c718c)
+
+* NFA.
+* Accepting all **valids**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a4dd004-d94c-4e51-9e2d-308f76843a12)
+
+* Minimization of DFA [Later]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bdb0ae32-d1c3-4c85-9c72-b6223899d75b)
+
+* We are doing **minimization of DFA** on **1** to get the **minimal DFA** which is **2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/25c7fb80-f6b0-41e3-8565-5602a2f97d92)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/01397f24-e5db-4421-b132-92ebf4a9facc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/64bfb61c-ea40-4b1d-9295-8367f9c4fbdf)
+
+* Now this is **DFA**.
+* Starting with **b**, there is **no prefix**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f1b7c3f9-95a7-4c00-b4d0-08d5ff85dee5)
+
+* They don't go **outside**.
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e60eb2ae-618f-4960-8ddc-6ea7c0c87cc9)
+
+* Use the already **dead state**. No need of another one.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4db0122f-0e18-45c2-ba4d-911add02ab9a)
+
+* No string is starting with **b**.
+* Side by Side **a** is not allowed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8094207-61d2-4d96-8e0f-36290e650d83)
+
+* The string is not going to me our string, **now also and in the future also** then it is in **dead state**.
+* **DFA** is not unique, **minimal DFA** is **unique**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fbbb09f8-a78f-4e82-bbfa-fa69cdca6998)
+
+* When **no hope** then go to **dead state**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e7a76ade-0a6a-4974-8469-884196297feb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/141082fe-2c95-4f63-b360-7c5401cb0753)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e6beb78a-ce18-4794-9a6e-7c21d5a57933)
+
+* L = {All strings of a's and b's where length of each string is divisible by 5}
+* 0/5 = 0.
+* **Zero(0)** is divisible by **5**, **YES**.
+* We don't care what's inside the strings, whether they are a's or b's.
+* We only care about the **length of the string**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf7b9d4d-081d-4e91-af1f-bd9c65304128)
+
+* AP series.
+* Common Difference -> 5 [Loop/cycle]
+* With a **5** length there is a loop/cycle also.
+* If anything will create an **AP series**, it is compulsory that **finite automata** is **available**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2af94a43-a7b9-4a04-8619-9b7ef97ad29f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2554389b-6144-4a30-90c5-e05069a01a92)
+
+* With a **5** length there is a cycle.
+* Every **5**, we have to come back. That's the **common difference**.
+* Every **5**, we will **accept**.
+* In **minimal DFA** where every string length is divisible by **n** contains **n-state**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4354b36b-7021-4c63-a168-2b97e1cfaa0a)
+
+* Language is **regular** or not.
+* We will just check if **AP series** is coming or not.
+* If **AP series** is coming then **finite automata** is possible.
+* **common difference** means **cycle** is possible with that **common difference**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b951b5de-2563-4078-b7af-433bf8ed2734)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36c4cb46-3488-42d4-add5-e76a68cdf762)
+
+* AP series possible
+* Common difference -> 1.
+* One length cycle is there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/971f767a-8195-4ba4-aa13-c6a91157debf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e3e1a49-7621-447b-8027-2d2963f6f556)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b257437c-4d92-4c22-941e-c1525049fb27)
+
+* AP series coming or not.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe1ce1a7-097d-4705-95e1-060c1445148c)
+
+* If we make **S0** as **final state** then **0, 5, 10, 15...** length strings are **accepted**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6a51486-5724-4980-b4b6-0fee49b0f3ca)
+
+* Make all of the **non-final** state from before as **final states** now and the **final state** from before as **non-final** state.
+* Whatever we were **rejecting** before, now we are **accepting** them.
+* This is the **minimal DFA** for **accepting** all of the strings who length is **not divisible '5'**.
+* This is the **complement** of the previous one.
+* This is **L'**, 'L' complement.
+* **L'** -> {Set of all strings of a's and b's where each string length 'not' divisible by 5}.
+
+* If any problem, **not** is there then we will **remove 'not'**. Construct for **without 'not'** first. After that, do a **complement** which is make the **final states** as **non-final states** and the **non-final states** as **final states**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0ff867f-52a5-4028-90cd-9471c7812f7b)
+
+* [**IMPORTANT**]
+* Don't try to create **'not' first**.
+* First create **without 'not'**.
+* **Epsilon** is not accepted here.
+* **5 a's** are not accepted
+* **3 a's** are **accepted**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f23458b2-d52f-43e2-9c68-f6854ae3181e)
+
+* L-complementation(L').
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e6b8013-97c6-460e-ba4f-3aa38429b09b)
+
+* L
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
