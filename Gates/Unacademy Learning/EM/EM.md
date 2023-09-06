@@ -4174,6 +4174,54 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e701f232-7712-44dc-b643-42b14f3dee98)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/51806ce5-42ba-48d1-a3ca-73569651abf8)
 
+## problems-discussion (31) [6th Aug 2023]
+
+## Maxima and Minima
+
+* At **x = a** we want to check whether the function is **increasing or decreasing**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f86ad381-ad11-401f-9e04-626b9124d4f6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/961b31f9-3812-41e2-9bc6-49ab581fdd88)
+
+* We have to analyze **just before and just after** so that we can decide the given function's nature.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b153337e-6bb8-411c-9b4c-5999da196ac9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef0d9fe1-4864-4924-8e61-bcf97a197072)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ae0a750-e136-4a12-8633-4dbcd429f3a6)
+
+* [**IMPORTANT**]
+* We have to verify at **x = a**, which is **a = 1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a40c8e9-6e80-4c93-a693-48e17919ba40)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb3f893b-96e3-4de1-ba1f-ffe6a785cc90)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc500fab-b9ce-4b55-ba94-8ca0220b9d01)
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/F652B466A7
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e7204552-07ba-4b04-a89a-7926d47e464d)
+
+* Yes.
+* For **strictly increasing** there is no need of **continuous functions**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7bf4bb7d-d818-4462-aa62-c0b0b9eae410)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ee19f2b-502e-44cc-867c-4a218dab701f)
+
+* [**IMPORTANT**]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
