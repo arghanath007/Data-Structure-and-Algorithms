@@ -1120,50 +1120,201 @@
 * The language is saying **only three strings**, not more not less. There is no atleast nor atmost.
 * Most of the time **final state** is **one(1)**. Sometimes maybe many, sometimes maybe all.
 
+## dfa-construction-iii (6) [6th Sept 2023]
 
+* L = {Set of all strings of a's and b's where everything end with b}
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/abe8d44e-27c2-49e1-b03c-0999bf136025)
 
+* Starting **anything** is OK but followed by **b** at the end.
+* **((a + b) ^ * ) * b** -> **Regular Expression**.
+* **anything** followed by **b**, **concatenation(dot)** will come.
+* If we don't write anything, by default **dot** there.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/82fd6df7-9e52-4026-aa73-77777ad4e760)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/de977d1b-218c-454c-81e2-04429e996eef)
 
+* For any language if we construct a finite automata, then that language is a **regular language**.
+* Every **regular language** should have **regular expression** also.
+* When we say **finite automata** is there, then **regular expression** is also there.
+* Minimal String is **b**. No **epsilon** here.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/15aac143-b716-4341-9186-157d5e138967)
 
+* Start with **a**.
+* **S1 and S3** both will **reject** as they are both **non-final** states.
+* **S3** will reject permanently
+* **S1** will reject temporarly.
+* Finite language means it will accept only a few strings.
+* For a Finite language we have to take care about **infinite** also as it is in **DFA**.
+* We have to take care of **everything**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ffa689ed-57f9-4577-a821-c7d037d838a6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c32c138e-83f0-4cb7-b2ea-dce116a480d7)
 
+* Yes.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f2ee6b0-5541-499f-b123-a323cfa62328)
 
+* **S2** indicates already started with **a**.
+* When we are **confirmed**, change the state.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44c3ec69-8609-436e-ba7c-41eb947b510c)
 
+* Ending condition -> Ending with **b**.
+* Minimal string -> **b**
+* Minimal length -> 1
+* With the **1 + 1 -> 2** states, start the automata.
+* We are in **S1** and the string has not ended.
+* Afterways when string ends with **b**, we will go to **final state(s2)**.
+* **Loop** means the symbols may come or may not come.
+* Mandatory thing, then only change the state.
+* Before **b** anything can come.
+* We want to write **a,b** in the loop, but we have written only **a**.
+* We cannot write **2 b's**. It will be a dilemma machine because **two** different behaviour.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6425beba-cb34-4284-9588-5d04199557e8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1327dd6a-7c54-41bf-8268-c944f1f67336)
 
+* Minimal string accepted -> From starting state to go to the final state, what are the strings we are reading without taking care of the loops. 
+* On **S1**, we are going to **S2** by reading **b**.
+* We are at **S2** means that string already ended with **b**.
+* Ending with **one 'b' or 1 lakh b's** doesn't make. Same thing. Keep a **loop** in **S2**.
+* First minimal string of the **automata** is **b**.
+* In **minimal strings**, we don't care about the **loops**, no loops.
+* The **loops** we have to take **one time**, the **minimal string** is **abb**.
+* In **S2**, ending with **b** guranteed.
+* We can keep changing **ending**.
+* If **a** came at the ending then wait at the **non-final state(S1)**. Afterwards **b** will come, then go to **final state(S2)**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a15a7f4-fa84-49e5-b35d-5f0dd3f7edec)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/77b99f57-d683-4b8e-a0f8-44228d8fbd2a)
 
+* **Starting** we cannot change.
+* **Ending** we can change.
+* If we get a string ending with **a** then finally we are at the **non-final state(S1)** and the string is **rejected**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d0a189f-b25e-4f47-b463-0320a30d8fec)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce4be864-992b-4cc8-b8d7-f9e05bb0889e)
 
+* Ends with **a** we will go to **non-final state(S1)**. We cannot say this is the ending. Ending will keep on changing.
+* In **ending with something** condition, there is **no dead state**. [**IMPORTANT**]
+* In **starting with something** condition, there is **dead state**.  [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d178e1e-842f-4d94-9015-2a53fdd5d588)
 
+* On the string **ba**, we will be in the non-final state **S1**. So **rejected**.
+* There is hope of going to **final state**.
+* **Ending** will keep on chaning.
+* **Starting** cannot change.
+* Who will go to **dead state**?
 
+> When there is **no hope**.
 
+* **Ending** condition, don't go to **dead state**.
+* **Starting** condition, go to **dead state**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ca37d7f-e852-4629-82ef-23962bceb7c8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8702f42-61ed-486d-ba0e-9e0d93fdd31c)
 
+* We have **2 states**.
 
+* L = {Set of all strings contain 'ba' as substring}
+* **ba** should be there somewhere in the string.
+* Minimal string -> ba.
+* Minimal Length -> 2
+* With the **2 + 1 -> 3** states, start the **automata**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e0fd8775-8e6c-4ee3-94fc-4bf05081db32)
 
+* ((a + b) ^ *) * (ba) * ((a + b) ^ *)
+* For any language, **regular expression** is possible then **DFA and NFA** are possible.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2aace801-dbd0-42d3-b3f1-69a5ba5005a3)
 
+* Yes.
+* To prove some **language** is a **regular language**, we can write **NFA or DFA** or maybe we can write **regular expression**.
+* Out of all the **three**, whichever we can **prove** is possible then others are also possible.
+* Just **prove one(1)** out of the **three**.
+* **Regular expression** indirectly saying so many things. It is saying that the language is a **regular language**. **Regular expression** there means **DFA and NFA** also there.
+* One thing we find out, remaining things also there.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0073998-0d4f-469a-8ad6-964e3ed055ef)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5eca91a-8a91-40d2-9cf9-a02947e04659)
 
+* Every state we have to take care.
+* **S3** said that already **ba** came.
+* After **ba** anything is **OK**.
+* **S1** said that after me, **ba** will come.
+* In **S2**, already **b** came and after me, **a** will come.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/153ef7df-82d2-494a-b0ac-487c7fdf5483)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a4ff8a8-15a3-44f5-b126-63c21f63096b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/362f4fc8-0d7b-4e03-b529-0ddea35ad8a5)
 
+* Please respect every state.
+* **Minimal DFA** is **unique**.
+* **DFA and NFA** are **not unique**.
+* Minimum **3** states required.
+* Starting or ending no condition. 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0c7bbc3-bc21-4d8c-9173-2e1bff2b33a1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/348adf4c-2aff-4d99-a1d8-85b3868f1dee)
 
+* Ask every state. What are you?
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/490b5240-ef45-4c62-8e3f-ec0db4fca8aa)
 
+* 3 states.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3efb61d-c08f-4c38-95e0-f032d97a3b14)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4d39baa-b56f-45ad-b55c-6efbf46270d8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/59667c07-73ad-43a8-aab1-6b5e823e5895)
 
+* Minimal DFA construction -> Dead State needed or not.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3bd3db52-5bf8-476c-babb-3fcad01c7e4b)
 
+* L = {All string of a's and b's where every string starts with 'a' and end with 'b'}
+* Minimal String -> ab.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a63dd89-acdc-4ed3-9c11-5cd44200ff83)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4dc6e4d2-5e29-4e07-aa0e-f324f070f2ae)
 
+* **a * ((a + b) ^ * ) * b.
+* Minimal String -> ab.
+* Minimal length -> 2.
+
+* **S2** saying that already starting with **a** done, ending with **b** will come afterwards.
+* **S2** gurantees starting with **a**.
+* **S1** saying that after me, string will start with **a** and will end with **b** and it will reach the **final state**.
+* Starting with **b**, go to **S4** state which is the **dead state**.
+* If starting with **b** then no need of checking the ending.
+* No hope is there.
+* **S3** saying that string already started with **a** and ending with **b** also.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/04a01e08-5258-4538-a9d1-ba19f3ae7332)
+
+* If unformunately **a** came at the end then **ending problem** but already started with **a** confirmed. Ending only problem, so go to **S2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6cb2c03-0e18-4440-abbd-87e6af51ef9b)
+
+* **S1** saying that if nothing started then come to **S1** but we already started with **a**, that's why we are going to **S2** if we get **a** at the end.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f338111-008c-4c22-99c0-c6bcfd74b358)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d9109e6-5528-462c-a989-d9e10e57365d)
+
+* Starting symbol we cannot change.
+* We are in **S3** means that string started already. Not only started but **starting with 'a' and ending with 'b'**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12983716-df8a-4933-9b52-549ecee14892)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/916fdb84-7ae0-45a9-9f92-0ca0c6ae6e16)
+
+* Ending problem and starting no problem.
+* We don't have starting problem.
+* At the end, don't go to **dead state**.
+* We should go to **non-final** state.
+ 
 
 
 
