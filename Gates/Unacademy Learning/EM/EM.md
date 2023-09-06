@@ -4205,17 +4205,80 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7bf4bb7d-d818-4462-aa62-c0b0b9eae410)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ee19f2b-502e-44cc-867c-4a218dab701f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e8e263f-0f21-4cd4-a18a-3accf5c1aec2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/48e78acc-65f7-4e20-8be0-be24c130b579)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/99663c9f-289a-4304-a49f-c152191644e4)
 
 * [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9638e5ee-97c6-403c-8647-05f624776917)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/48ddd80c-9b8b-41da-ab98-63aad3a5adbb)
 
+* Monotonic Function
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81289d6b-b19e-4889-aa5e-8729b71593b6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44ac1a82-b24a-47cd-9f8f-881a72277c6d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ace968c7-c674-43ab-9bd1-cb42cfbed831)
 
+* **f'(x)** already given
+* We don't need to find it.
+* Odd power -> Sign Change
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30ffb41f-a551-44be-9226-ec8178336a20)
 
+* Yes.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37ffd0f6-4e3f-4e93-9c80-ebe0b6377515)
 
+* [**IMPORTNAT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be91b622-71ed-4e1a-91be-e3b960fe9a08)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e1822f5-f0d9-45db-bf73-dd0c58701986)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89654d5d-1055-4062-b937-5bdb1cfbfdcf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ec84b74-964a-4db1-bed3-809ac6fcd538)
+
+* Slope = 0 means that **f'(x) = 0**.
+* Stationary Points.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1b11826-e7e3-455e-a5a2-04b761c22e69)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91b39114-004f-4300-b5a9-44637948716a)
+
+* Critical Points
+* Cos 90 = 0.
+* Cos 270 = 0.
+* In this case, **critical and stationary** points are **equal** as there is no point where the function is **not defined**.
+* That's why **critical and stationary** points are **equal**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5eb59037-20de-4910-a611-319edba3d4a7)
+
+* We need to find the **stationary points**.
+* For **stationary points** we need to **equate** the funtion to **zero(0)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5dd492c5-4e4d-4e4c-a781-f6f7382fe8b4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/516540cb-5ae0-464f-b2f7-5f738757ac8e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d6abbad-04b4-4265-86ea-2284dcc842be)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a71933ee-50b2-4046-938e-35aaffc0451b)
+
+* Digital Doubt.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e447850f-a80b-44eb-9cc4-1d19ff520291)
+
+* Local Maxima
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76150e4d-cfc7-49b1-a74e-cf7533f33229)
+
+* Local Minimum
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89d2d6d9-70df-47a1-a255-d92eaa6d6388)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d783aef-3a41-4cb4-af8a-ea7a371f4448)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0cfe0bb-9eff-4e22-bed0-dfc754c04f1d)
+
+* Extreme points and values
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8625ead8-d87c-4cba-90eb-88042331a256)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97769962-b1d8-4cdd-bbe2-3ff1cf988d67)
+
+* First Derivative Test.
 
 
 
