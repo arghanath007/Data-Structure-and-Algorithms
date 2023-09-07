@@ -11,6 +11,11 @@
 
 * Link -> https://unacademy.com/course/complete-course-on-theory-of-computation/ON3TCUN5?_branch_referrer=H4sIAAAAAAAAA8soKSkottLXL81LTE5MSc2t1EssKNDLyczL1jepdM%2F1SQ0t83FOAgAdZnNEJgAAAA%3D%3D
 
+## Practice Class
+
+1) -> https://unacademy.com/class/toc-practice-class-1/XCUW1FGE
+2) -> https://unacademy.com/class/toc-practice-class-2/G37UT7VH
+
 ## introduction-to-theory-of-computation (1) [3rd Sept 2023]
 
 * TOC is nothing but mathematical representation/study of computing machine and it's capabilities.
@@ -1719,6 +1724,138 @@
 * All are **related**.
 * From **DFA** we can get **minimal DFA**.
 * From **NFA** we can converted to **DFA**.
+
+## dfa-construction-v (9) [7th Sept 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ec88083-6b17-456c-bebe-b18528a250b6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83010aa8-b621-4e48-b15b-635049e22dc2)
+
+* Epsilon is accepted, only a's are accepted, only b's are accepted, a's followed by b's are accepted.
+* Minimal string -> Epsilon
+* Minimal length -> 0
+* **(0 + 1 -> 1)** states are needed to start the automata.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc46156e-5c37-45ac-9cb2-bf71599dc39e)
+
+* Epsilon is accepted, only a's coming, only b's coming, a's followed by b's are coming, b's followed by a's are also coming which we don't want.
+* So we need a **new state**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/869732af-40c2-4a64-9e1b-5598148edf8c)
+
+* **S2** means we have already seen **b**.
+* After **b** if we see **a**, then **no hope** of going back to **final state**. We are going to **dead state**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2035e7fd-3637-4e8c-8be4-f8e6060769de)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a109d058-4599-43b3-9f04-6cb7c3fb9368)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2eda6a7f-ba83-48d0-a663-1f9612b53c27)
+
+* **DFA** with **more than '1' final state** has **more power** compared to the **DFA** with only **'1' final sate** because the **DFA** with **more than '1' final state** is **accepting more people**.
+
+* For a particular langugae, we have a **DFA** with **more than '1' final state**, can we convert it into an equivalent **DFA** with **exactly '1' final state**? 
+
+> Sometimes maybe possible, not everytime.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6bd398be-36d1-4fa7-903e-cae832ccafee)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89572cf1-b41d-4991-8cef-ffe793cea801)
+
+* After b's, we don't see a's.
+* It is a trap.
+* (a ^ *) * (b ^ *)
+* (a ^ *) -> Min. a's allowed is **zero(0)**.
+* (b ^ *) -> Min. b's allowed is **zero(0)**.
+* Star(*) -> It means that inside we can repeat any no. of times. To whom we kept **Star( * )**, we can repeat them any no. of times.
+* (a ^ m) * (b ^ n) -> Concatenation.
+* **m** no. of **a**, *followed by*, **n** no. of **b** -> **Followed by** means -> Concatenation
+
+* **m** no. of **a** OR **n** no. of **b** -> **Plus(+)**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86d1f041-b709-4ff0-8c7c-b1c0206c1186)
+
+* Minimum one **a** needed, min, one **b** needed and min. one **c** needed.
+* (a ^ +) -> Inside **minimum** we have to take **one time**. **Epsilon** is not there.
+* (b ^ +) -> Inside **minimum** we have to take **one time**. **Epsilon** is not there.
+* (c ^ +) -> Inside **minimum** we have to take **one time**. **Epsilon** is not there.
+* Minimal string -> abc
+* Minimal string length -> 3
+* **3 + 1 -> 4** states needed to start the **automata**.
+* **S4** means we have already seen **a, b and c**.
+* After **c** any no. of **c's** are allowed.
+* After first **c** we don't see any **a's or b's**.
+* **S3** indicate first **b** over.
+* **S2** indicate first **a** over.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/02583265-e50d-4f57-8823-331491b44259)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb670cfd-5757-4f83-a4c8-59d33e267758)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ecb699b2-1658-4840-9ecf-a13532910476)
+
+* At **S1**, **hope** is there.
+* [**IMPORTANT**]
+* **Dead state** property -> It is one of the non-final state from which we cannot reach **final state**.
+* **Non-final state** -> It is a state from where there is some hope of reaching the **final state**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4f6fe0b-724e-4fc5-bcf1-659d522bdc90)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/658ab590-293e-4618-bd90-6719db35a432)
+
+* Regular Expression -> (a ^ *) * (b ^ *) * (c ^ *).
+* Minimal String -> Epsilon
+* Minimal string length -> 0.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0edd643f-9ae1-454f-98b8-4817d0e82b2b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb1e18a0-916b-407b-8829-1d831381665b)
+
+* Only a's, only b's, only c's, a's followed by b's, b's followed by c's, a's followed by c's, a's followed by b's followed by c's.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/304b0907-9880-4024-b55d-74c72181c8e4)
+
+* [**IMPORTANT**]
+* According to language every **valid string** is covered -> NFA -> Every **valid thing** should be **YES**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1dedd875-152a-42e3-8827-5f4aad227af6)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
