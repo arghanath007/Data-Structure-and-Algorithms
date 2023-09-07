@@ -1811,6 +1811,297 @@
 * According to language every **valid string** is covered -> NFA -> Every **valid thing** should be **YES**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1dedd875-152a-42e3-8827-5f4aad227af6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/888d947e-1f4c-4e2b-b95f-532a2ab07bb3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba665973-b211-4c87-ad37-12fef94c126d)
+
+* After **C's** we don't want to see **a's and b's**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/214b02a7-9246-49b5-ac3e-66e7a0aeed41)
+
+* **S2** means **single a** came
+* **S3** means **single a and single b** came.
+* **a's** are generating alone in the **loop**.
+* **b's** are also generating alone in the **loop**.
+* **Inbalance** came.
+* **All valids** are accepting and **invalids** are also accepting.
+* It is like **(a ^ m) * (b ^ n)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/818cde68-894a-401a-9aa4-9584cdafbdef)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/870f9e6f-c251-4979-b2ee-e894ed1fa2aa)
+
+* It is not **NFA** as well.
+* NFA -> It means that only **valids** should be **accepted**. **One invalid** cannot be **accept/accepted**.
+* **Comparison** is there so **finite automata(FA)** not possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dbbe44ad-35b0-4415-9242-1144e81a26c3)
+
+* **NFA** there means **DFA** also there.
+* We got to know **DFA** not possible, we will say **NFA** not possible as well.
+* For every **NFA**, **DFA** is possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1622afc-8685-4e6b-929c-a03b8f02f034)
+
+* If we remove **dead state** then this is **NFA**.
+* It is only accepting **valids** and not accepting any **invalids** as well.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2dcd4e5e-7ebd-4808-8709-4468f37fc90f)
+
+* If we remove **dead state** then this is **NFA**.
+* Every **valid** thing, it is **accepting**. **One invalid** also not accepting.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bfeac0c1-d231-4ab6-a471-ef1d087cb588)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9f00044c-9e27-4c01-aa79-2583e60af947)
+
+* If **comparison** is there then **NFA** not possible.
+* One invalid also cannot accept.
+* This is **NFA**.
+* This is **not NFA** for the given language.
+* It is accepting more. It is accepting **invalid**.
+* At the end of the day, it should satisfy **language**.
+* **Invalid** cannot accept.
+* **DFA** -> Every invalid should be **reject/rejected**.
+* Why constructing **NFA**, every value should be **accepted** and **one invalid** cannot be **accepted**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1f534df-2540-4bed-a920-0163e4997630)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c5b09448-4eb9-4e7a-92c6-c2a15646138b)
+
+* **NFA** -> All values should be **accepted**, **one invalid** also cannot accept. [**IMPORTANT**]
+* **DFA** -> All values should be **accepted**, **all invalids** should be **rejected**. [**IMPORTANT**]
+* Either **NFA** not **DFA** will **accept invalid**. **None or No one** will **accept invalid**.
+* In Both(NFA and DFA) of them, **invalid** are **not allowed**.
+* No machine will accept **invalid**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/56782923-6f3c-4ff2-9a42-c301764c9178)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b93a833d-ba2b-44fa-b1fa-a1e1f81dbd5f)
+
+* Comparison is there, **finite automata(FA)** fails.
+* Both, **NFA and DFA** will accept **only valid**.
+* No machine, neither **NFA or DFA** will **accept one invalid** also.
+* Every machine will **accept valid** only. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff009035-31ad-4f33-b8fc-8304b1014e97)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c6fe4a7d-06b2-4e58-b23c-035e274bf86c)
+
+* So, the given language is **non-regular**.
+* **NFA** will talk about only **valid** thing.
+* Both **NFA and DFA** having **same** power as they are accepting the same language only.
+* Whatever **NFA** can do, **DFA** also can do.
+* **NFA** is easier because in **NFA** we do no care about the **invalid** thing. One **invalid** we cannot accept in **NFA**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6e1964c7-aacc-4445-96fa-efd21825575b)
+
+* It is because **invalid things** are also **accepting**.
+* Every valid thing **accepted** but **invalid** things also **accepted** that's why it **failed**.
+* **No comparisons** in the earlier **examples**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa4a13a5-1281-4ee4-a1f7-e0369c85bb66)
+
+* In **DFA**, every **invalid** thing goes to **rejected** physically. We will write also. We **show** in the diagram.
+* In **NFA**, we do not show the **invalids** in the diagram because **by default** the **invalids** will go to **rejected**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92b221bd-676a-4b61-910f-86a9c413f726)
+
+* No comparison.
+* So, **NFA and DFA** are possible.
+* So, it is a **regular language**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d26b2a5e-eb67-4821-8ad5-c90f3a6a2a92)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9caaa586-0274-45b5-a806-6b9e8976ac0d)
+
+* Now, **comparison** is there.
+* So, **finite automata** is not possible.
+* It is a **non-regular language**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eaaffdee-397c-45f4-ad2b-12a37d58d9c1)
+
+* Without **comparison**, we cannot say that **'m' not equals to 'n'**.
+* Without **comparison**, we cannot say that both are **not equal**.
+* So, **comparison** is there.
+* So, **finite automata** is not possible.
+* It is a **non-regular language**.
+* Without comparing, we cannot say that they are **not equal**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80f59d8e-be90-43a3-b27e-8b47b1f61980)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea4ef90b-105a-4e96-a2f4-7737232abe82)
+
+* For **equal**, we have to do **comparison**.
+* For **not equal** also, we have to do **comparison**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b4d6c5c2-938d-4f36-83b3-0638b6602fb8)
+
+* Again, **comparison** is there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30a27082-3787-4978-afbc-2c85da60caf4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/53241fec-4d8b-4d8c-a3ac-c0da8c077972)
+
+* Again, **comparison** is there.
+* Similar/same to the **above problem**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a7616262-6bf0-49dd-a7e6-864e56a7dcf3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d895d8b9-3ab7-4ca6-a8ec-f2555532f9e3)
+
+* **comparison** is not there.
+* So, **finite automata** is possible.
+* So, it is a **regular language**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cac6efad-96a6-4671-af1a-744b8ad7dd0b)
+
+* **(m + n = 10)** it is a **finite** language.
+* If we add, no. of **a's** and no. of **b's**, it doesn't go more than **10**. It is **exactly '10'**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ddee4b9-0ed3-4d8f-b15b-24fc7fff80df)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2d8e803d-89c0-4d51-8da3-6bafde8aaab4)
+
+* Every state will remember something.
+* Finite things we can remember.
+* Even though **comparisons** are there, **finite** things we can remember.
+* Finite automata saying that it has finite capability of remembering as it has **finite** states.
+* In the above language, there are only **11 strings** available.
+* So, it is a **finite language**.
+* Every **finite language** is a **regular language**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32d6940a-5579-4325-b092-c0d6df06ee8e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c021bf28-0a4d-46a8-8868-631c8fcc2cb0)
+
+* [**IMPORTANT**]
+* **Finite language** is a **regular language** because **finite automata** can handle any **finite language**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/08928fba-2f9b-4baf-ba16-99263c13c2e9)
+
+* NFA.
+* m = a
+* n = b
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d9281d1b-2bf2-40a1-93b0-a780598b4c35)
+
+* NFA.
+* For **DFA** just do the **dead states** for the **rejected** ones.
+* **Finite automata and stack**, both can **remember**.
+* **Finite automata** can remember **finite things only** as it has **finite** states.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/769bd7c9-dc0d-4603-b37d-d99592eae8e5)
+
+* (m + n = 5) -> It is **finite**.
+* **Not finite** -> Where numbers are not visible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/acd3644c-1b2e-41b5-bc23-8b7f5c6d49ce)
+
+* Infinite possibilities are there.
+* Looks like **finite** but it is **infinite**.
+* Many  possibilities are there.
+* **Comparison** is there. That's the **problem**.
+* If **Comparison** is not there, then we don't care if it is **finite or infinite**.
+* If we want to say some language is a **regular language** then **finite automata** should be **available**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a293cd3f-70fb-4e59-bfa6-6a9c1314326d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57c62721-9eec-4980-ad8d-37fa599de635)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/617e26a8-5a9a-441c-8c80-3446e7f2b23a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/672e7b30-cb51-434d-bf91-1c8d5449d27a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/45cf2020-3ec6-40bf-988f-3342871c0f2b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1fae7f1-da13-4c21-8d70-474026946217)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb9d6dee-7e45-4b3e-b28a-6c30bdc960b3)
+
+* **Comparison** is there but it is a **finite language**.
+* So it is a **regular language**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2666ef5b-8575-4cbd-a3c5-99035119bc5c)
+
+* **Finite automata** can do **finite comparisons**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6def9f98-bf3f-48a1-ba5a-e27e8db99945)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4d9d71e-635a-4bfa-bb36-864c7d595366)
+
+* Every state can **remember and compare** something. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab05f81c-7785-43c7-92c7-4c0d8dca1769)
+
+* It is remembering **more things** but remembering **finite things**.
+* Many **comparisons** are there and still **finite automata** is **possible** because the language is a **finite language**. [**IMPORTANT**]
+
+* **Infinite language** and **comparison** is also there, **finite automata** cannot handle.
+* So it is **not possible**.
+* With the help of **finite states**, we cannot do **infinite comparisons**, it is **not possible**.
+* So all are **non-regular** languages.
+* **Infinite language** and **comparison** is also there, so **infinite comparisons** we have to do, which is not possible with **finite automata** as there are **finite states** only. So, **not possible**.
+
+* **Infinite language** but **no comparisons**, **finite language** can do this. [**IMPORTANT**]
+
+### Algorithm [**IMPORTANT**]
+
+* Language(L) is **regular** language or not.
+* FA -> Finite Automata.
+* RL -> Regular Language.
+* NRL -> Not Regular Language.
+
+* **Comparison** will come in the picture when we have **more than one(1) alphabet**.
+* When **comparison** is there then there is no concept of **AP or GP** series.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9206fe5c-2db0-4e31-b589-b49ecef9853f)
+
+* [**IMPORTANT**]
+
+1) 'L' is **finite** -> FA -> RL
+2) 'L' is **infinite**:-
+
+  * Single Alphabet:-
+       * Check for **AP series** -> FA -> RL
+       * If not **AP series** -> FA not possible -> NRL.
+  * More than **one(1)** alphabet:-
+
+     a) Comparison there -> FA not possible -> NRL
+     b) No comparison there -> FA -> RL.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97055bf0-a597-4505-af62-9d64cc8ea2fb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f3bfbb6-6be8-4100-bb23-9c4fde645587)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76069993-44d5-483a-b79b-a7f3dc4347b2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e30c3008-a682-4143-ab49-6a22ddc4140e)
+
+* [**IMPORTANT**]
+* Practice it.
+* Use **common sense(CS)**.
+* GP series and Finite language -> Regular language
+* Comparison but Finite language -> Regular language
+* Some language is **regular language** then **finite automata** should be **possible** otherwise the **language** is not a **regular language**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7bfb4914-ddcf-478f-af67-f04af42edcad)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b6ccc2cc-620a-44f8-a95a-3fb014f90b4a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a25e4d6f-d57d-439f-9462-b3a3bc00ec3a)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
