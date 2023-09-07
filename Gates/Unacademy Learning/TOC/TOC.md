@@ -1,4 +1,4 @@
-# TOC
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bef6f5d8-9532-4788-a4fe-07b0c733ca7b)# TOC
 
 ## Motivation
 
@@ -2159,61 +2159,212 @@
 
 * [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d8a1f0b-016a-49c5-acf3-5bfd8ac7a133)
 
+* Who is **useless** make him the **starting** state.
+* Who is **usefull** make them the **final** states.
+* Second symbol from **RHS** is **a**.
+* from **RHS** means from **final state**. [**IMPORTANT**]
+* From **final state**, **First symbol** is **a or b**, **second symbol** should be **a**. 3rd or 4th symbol is **anything**.
+* **anything** means we can write **self loop**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3cdf2e48-ea57-4eaf-874a-e2afea6a6fa2)
 
+* NFA.
+* As it is **NFA**, one invalid also we cannot **accept**.
+* By default they are **rejected**.
+* Valid things are **aa or ab** as the **last two symbols**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5c90aa66-fd69-48ce-b060-c5ff98819497)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/016dd8e6-a14f-45cd-9e14-a012b4adb4a3)
 
+* Minimal length -> 3
+* Minimal length string -> abb, aaa, aba, aab
+* **3 + 1 -> 4** states needed.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3289ba68-8fa9-410c-a4ee-392ae027f88f)
 
+* NFA.
+* While constructing **NFA**, **every valid thing** we have to **accept**.
+* One invalid should not be accepted.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f9702fb-e2aa-40a7-9bb1-322e76a610e3)
 
+* [**IMPORTANT**]
+* Every valid -> **YES**
+* Every invalid -> **NO**
 
+* From RHS, 2 symbol is 'a' for **DFA** -> 2 ^ 2 -> 4 states.
+* From RHS, 2 symbol is 'a' for **NFA** -> 2 + 1 -> 3 states.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e72bf4a-2f40-4c93-98fa-cadfc4138bb8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2eb45e51-8c42-4900-b603-d1cc1525cb4d)
 
+* Starting is **S1**
+* Final is **S3**.
 
+## NFA to DFA conversion
 
+* **S1S2** is **one state** name in **DFA**.
+* Take the **Starting state** and apply the symbol **a and b**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a8deae1-473e-40ad-8b45-c2c14b3d1f54)
 
+* After completion of **a and b** in **S1**, we got a **new state** which is **S1S2**. So, go to the **new state**.
+* Don't see the **NFA** states**.
+* After completion of **a and b** in **S1**, if any **new states** came then take.
+* If **no new states** came then **S1S2** also didn't came.
+* Stop there only.
+* If any **new state** then only proceed.
+* If **no new states** then stop it.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3be6c69e-555e-457b-bef3-da4df1e0877a)
 
+* While doing the **transitions** see the **NFA**.
+* From **NFA** only, **DFA** is coming.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a3a9ac6-4a6e-4a06-9508-10f188434823)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/593ebb6b-21fd-4e2d-8005-b5a17224344d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2f08351-1eba-45fc-80a7-e23afbb100ac)
 
+* If any new states came, then only continue.
+* Two new states came.
+* **S3** on 'a' is **nothing** which means **leave it**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/11819480-5246-42e2-b4e2-1d27f10a981d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f04ffbb4-e113-46b2-a7fe-126919f7c3c4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc3c2699-976a-4965-a7a6-fd411d1ec340)
 
+* DFA
+* In the original **NFA**, who is the **final state**?
 
+> **S3**.
 
+* In the equivalent **DFA**, wherever we see **S3** in the states, make them **final states**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/baa07fa3-f0d5-442f-9248-140ad047aebb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a49f3032-be77-4bed-90cf-44d1d7f055c7)
 
+* Final State added.
+* No new states, that's why stopped.
+* 3 states are there in the given **NFA**.
+* For the **3 states**, **8** subsets are possible. That is **subset construction method**. So, **8 states** are required.
+* We managed in **4 states**.
+* This is better than **subset construction method**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/45e55208-d954-4c22-987a-af806e1852ed)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a429a99f-360a-4c3d-b9bb-ecd0f761905f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0599446-73e8-4b19-8fd0-91689096d9cc)
 
+* Exactly
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a08f31c2-1620-4909-8aa8-e33defa0f6d8)
 
+* **NFA TO DFA** convertion:- [**IMPORTANT**]
 
+1) Take NFA start state.
+2) Apply all symbols from **sigma** one by one.
+3) For every **new state** came continue **second step or step-2**.
+4) While applying transitions see **NFA** everytime.  [**IMPORTANT**]
+5) **NFA final state** wherever present in **DFA** make them as **final state**.
+6) If **no new state** then **stop**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3edc5e34-f678-44d9-985b-e57681a456d0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b5555ff-0931-4e14-8669-731b4b3c42be)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c722e7b7-7aef-4c8b-a367-f6c85d67eddc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65904662-5a56-4e63-a3bb-1bf52c13dd28)
 
+* Convert the **NFA** into **DFA**
+* HW. [Tomorrow class]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/18bbbbdb-f403-4fac-979a-58e179a6cd4b)
 
+* 3rd symbol from **left hand side(LHS)** is **a**
+* Constructing **NFA**.
+* Minimal length -> 3
+* Minimal string -> aaa, bba, aba, baa
+* **First symbol** is anything
+* **Second symbol** is anything
+* **Third symbol** is **a**
+* **Fourth and fifth symbol** are anything.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/526af6f5-e98e-4aa4-ba24-a2b14e0c5909)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/56869811-d21a-4e70-8188-0bc4b93d955f)
 
+* **NFA**
+* Trap not required in **NFA**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/23eb4d86-8eab-4918-8647-abfdfd93cf89)
 
+* 3rd symbol from left -> 3 + 1 -> 4 states
+* nth symbol from left -> n + 1 -> (n + 1) states
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a321cb7-331a-4591-b0ad-e5b8737b42f2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/da77980e-a091-402f-832b-c918a1767634)
 
+* The **conversion** is from **NFA** to **DFA** and not **minimal DFA**.
+* If we are lucky we will get **minimal DFA** in the **conversion**.
+* No gurantee.
+* If not **minimal DFA** then there is a **minimization algo** also there.
+* We can apply **minimization algo** to check if the **DFA** is **minimal or not**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/de3a2f0e-2f65-44b4-8a6a-1b922e68b337)
 
+* DFA.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ee96c75-f6c0-4512-926f-b019493b8462)
 
+* NFA
 
+## NFA to DFA conversion
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/009bd868-f7e1-46cb-9458-e6d9a6ab36ee)
 
+* In **NFA** going to multiple states are allowed.
+* In **DFA** going to multiple states is not allowed.
+* **S2** on **b** is not going anywhere, **nothing**.
+* In case of **NFA**, not going anywhere is **allowed**.
+* In case of **DFA**, **we have to go**. If at all not going anywhere then go to **dead state**. No other way.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d59302e-067f-483a-89c0-43463cf61e44)
 
+* If **nothing** there then only **dead state**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b5bbb1d-7fdf-43f0-8810-fefc86e1b6df)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b49b0b94-da37-4ad4-8f02-5ef81d36b988)
 
+* Wherever **S2** make **final state** in **DFA** because **S2** is the **final state** in **NFA**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05bae09b-571b-43c0-88ea-29294a434b69)
+
+* [**IMPORTANT**]
+* NFA's set of states(Q) = {S1, S2}.
+* If **Q** contains **2 states** then **2 ^ Q -> 2 ^ 2 = 4** states.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/691f1fb8-2fff-4286-8f90-8a9762a7a7fc)
+
+* For the given **NFA** when we are constructing **DFA**, in the **worst case** all of the **subsets** can come.
+* This is the **worst case** that can happen.
+* If **NFA** contain **2 states** then the **equivalent DFA** contain **2 ^ 2 -> 4** states.
+* This is the **maximum** thing that can happen.
+* In the **Worst case**, all of the **subsets** came in **DFA** construction. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f90e176-fb50-4340-b47b-db3607e0677f)
+
+* If **NFA** contains **n-states** then equivalent **DFA** contains **2 ^ n** states. This is the **maximum**. More than this is **not possible**. [**IMPORTAN**]
+* Sometimes **less** also may come.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57cdc401-6595-40a0-97b4-8245caf0eb29)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/08880fd2-3819-4d5a-b54a-9084c6955f6f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c5ac59c-35cf-4a96-b243-2244ba73e06e)
+
+* Best case. [Not required]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c441b5d-040a-451c-bbaa-b069e72fe927)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9815dbae-7609-498a-9dea-c1fb42f9fc2a)
 
 
 
