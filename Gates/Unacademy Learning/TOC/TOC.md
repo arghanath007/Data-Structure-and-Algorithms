@@ -2070,41 +2070,94 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b6ccc2cc-620a-44f8-a95a-3fb014f90b4a)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a25e4d6f-d57d-439f-9462-b3a3bc00ec3a)
 
+## dfa-construction-vi (10) [7th Sept 2023]
 
+* L = {Set of all strings of a's and b's where in every string 3rd symbol from left hand side(LHS) is 'a'}
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4dddfb63-7fe7-4807-b1d3-bbd302a55ebd)
 
+* Minimal string length -> 3
+* **3 + 1 -> 4** states needed to start the automata.
+* 3rd symbol should be **a**.
+* 1st and 2nd symbol maybe **a or b**.
+* In **S4** means that **3rd symbol** is already over. Afterwards anything can come, no problem.
+* If 3rd symbol is **b** then there is **no hope** of reaching the **final state**.
+* Because in the future we cannot change the **3rd symbol**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dcad1345-1b6c-4611-84f1-c945475ab931)
 
+* Condition is from **starting** only.
+* Left hand side means **starting** only.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea135670-f86e-4330-9a4c-521121be6051)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/62030706-ac44-4326-8de6-d137a8bdfdec)
 
+* DFA.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1365ce4-0888-44c4-9740-2c9b642b636e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/412836e3-4511-445c-a711-583e2f51db59)
 
+* 3rd from **LHS** is **a** -> 3 + 1= 4 states -> 4 + 1 = 5 states -> '1' is a **dead state**.
+* 100th from **LHS** is **a** -> 100 + 1= 101 states -> 101 + 1 = 102 states -> '1' is a **dead state**.
+* nth from **LHS** is **a** -> (n + 1) states -> (n + 1) + 1 = (n + 2) states -> '1' is a **dead state**.
+* Sigma = {a,b}
+* Regular Expression -> (sigma ^ 2) * a * (sigma ^ *)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ab37c5e-1cce-46b8-90b0-8b46935bf15e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9814f400-32e5-48c3-9bf2-5e9790bac961)
 
+* L = {Set of all strings of a's and b's where in every string 2ns symbol from right hand side(RHS) is 'a'}
+* Sigma = {a,b}
+* Regular Expression -> (sigma ^ *) * a * (sigma ^ 1)
+* Minimal String -> aa, ab
+* Minimal length string -> 2
+* In the **two length** also either **aa** or **ab** should come.
+* Ending symbol should be either **aa** or **ab**.
+* **2 + 1 -> 3** states are needed to start the automata.
+* Start from **S3** state.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a473e214-9f1c-4675-913a-d59bfe381570)
 
+* From **final state(S3)** count. First symbol can be **anything** and second symbol is **a**.
+* Here, **ending** matters.
+* In **S3** means that we are getting **aa**, which is **ending with 'a'**.
+* In **S4** means that we are getting **ab**, which is **ending with 'b'**.
+* In **S2** means that **ending with 'a'** is over.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09dd4c9e-9bae-4572-8306-de4d8e76e927)
 
+* The condition is from **ending**, so **no dead state**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc36b738-c0cd-4516-b693-eb49c39c041c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32e79ff1-6339-4adb-af71-426efd6e1075)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09a314ac-295a-4e0b-8eb9-a148a5b493b5)
 
+* [**IMPORTANT**]
+* L = {3rd symbol from RHS is 'a'}
+* Last 3-symbols target.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57f079df-ce13-4e05-9ad2-da982ed98260)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1a3cd69-db32-4ea9-befe-9d43630fa4ef)
 
+* From ending, we have to take care of all **two length strings**.
+* For **two length strings**, from **ending** possible combinations are **four(4)**. **4 states** take.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b403357b-c51f-482b-8bf0-f6d5c594af1d)
 
+* We want **aa or ab** but **ba** came, that is not my **goal**. **Ending** should be either **aa** or **ab**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1dd65795-3224-40f7-912b-8d2e2a28e910)
 
+* Hope is there.
+* **Second symbol from RHS** -> Ending **two symbols** matter, so there are **four(4)** possibilities. So **four** states are there.
+* **Third symbol from RHS** -> Ending **three symbols** matter, so there are **eight(8)** possibilities. So **eight** states are there.
+* Drawing diagram is difficult but **no. of states** counting is **easy**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27e0183f-e49c-4966-8873-3643bd009a72)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/caacf41a-186c-439a-acb3-bae04d183557)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2331e504-fe38-4cfc-96c2-9078f5acd1bf)
 
-
-
-
-
-
-
-
-
-
-
+* [**IMPORTANT**]
 
 
 
