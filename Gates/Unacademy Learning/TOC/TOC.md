@@ -2366,6 +2366,119 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c441b5d-040a-451c-bbaa-b069e72fe927)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9815dbae-7609-498a-9dea-c1fb42f9fc2a)
 
+## dfa-construction-vii (11) [8th Sept 2023]
+
+### HW
+
+* In **NFA to DFA** conversion, **DFA** is gurantee. It is not guranteed that **minimal DFA** will come.
+* NFA contains **4 states** so **max no. of states** in **equivalent DFA** will be **2 ^ 4 = 16** states, in the **worst case**.
+* **Worst case**, all **subsets** will come.
+* If we are **lucky** then only **one state** will come.
+* If **NFA** contains **n** states then the **equivalent DFA** contains, **min. of one(1) state** and **max. of (2 ^ n) states**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6dae6231-eac2-41b0-b57a-5a578e7419eb)
+
+* 1 <= (DFA states) <= 2 ^ n.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b70e02ea-b539-46c7-b4d5-fb3de5b4c139)
+
+* If we are lucky, we will get **8 states** which we got in the **minimal DFA**.
+* If we are unlucky then we will get **2 ^ 4 = 16 states**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f0e179a-4d4f-4371-b520-ce151b750bca)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c79cf767-edf3-45ee-bede-cf7373d00c63)
+
+* NFA to DFA construction.
+* We got **4 final states**.
+* **Conversion algorithms** are for understanding.
+* Not for GATE exam.
+* Because we are anyways not getting guranteed **minimal DFA**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/61b5c434-5fba-4931-b416-3a2da44c4df0)
+
+* We luckly got **minimal DFA**.
+* We apply **minimization algo** on a **DFA** with **n** states and the **equivalent DFA** has **less than or equal to 'n'** states.
+* **Equivalent DFA** <= **n**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/510792fe-d6cd-4f40-8f2d-90de64289a5f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3179acc-5ce0-4f65-ad00-6f925d9c22de)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
