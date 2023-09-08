@@ -2433,71 +2433,217 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f937e80d-d016-4899-b596-e82eb7e38490)
 
+* **b's** may come or may not come.
+* They may come at any time.
+* Just count **a's only**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27cbdea6-227a-4c85-a72c-8665836ddd12)
 
+* When we divide a number by **4** then we will get **0,1,2 and 3** as the **remainders**.
+* For **every remainder** there is **one state**. 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ddf39da-dbba-4389-bbed-e297d6339e92)
 
+* Whichever matters, give that in the **transition line**.
+* When **only a's** matter, do like this.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a48d5fa-40b2-4210-87c6-4384fc2a5dc9)
 
+* When **length** matters, do like this.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b13a6146-205b-4ee1-96be-286a602fd4b1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d00f91f4-adfb-4869-aa6d-bc8ff4f55d33)
 
+* L = { All strings of a's and b's where in every string no. of a's are divisible by 2 and no. of b's divisible by 2}
+* Try solving **individually**.
+* **AND** operator.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fca73671-6100-4204-90f5-639ad733ab25)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f7bfd47-d019-4f69-b830-7adcf959c1da)
 
+* In **P1** our goal is **no. of a's** and not **b's**. That's why **self loop** for **b's**.
+* As **divisible by 2**, so we get **0 and 1** as the **remainders**, so only **two states** are required for the **two remainders**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/75066ce9-5525-4db6-8d74-70435a1d9494)
 
+* In **P1** our goal is **no. of b's** and not **a's**. That's why **self loop** for **a's**.
+* As **divisible by 3**, so we get **0, 1 and 2** as the **remainders**, so only **three states** are required for the **three remainders**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/888e92d8-1138-48f3-aef7-1d57454d3d18)
 
+* Satisfying **P1** diagram means that at the end of the string, we have to come to **S1**.
+* Satisfying **P2** diagram means that at the end of the string, we have to come to **S3**.
+* Two sets are there, one set has **two elements** and the other set has **three elements**. If we do **cartesian product**, we will get **2 * 3 -> 6** elements.
+* Just do **cartesian product** of states.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9a66c69b-2f81-4bae-af0d-5c55320a0ba5)
 
+* Where both **initial states** from the **previous diagrams(P1 and P2)** are there make that the **initial state** of the final diagram.
+* S13 -> S1 * S3
+* S1 on 'a' -> S2
+* S3 on 'a' S3
+* S13 -> S2 * S3 -> S23.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/007eee50-7bb5-48bc-a061-be702b6cc2ad)
 
+* Yes. **Common initial State**.
+* Using the **existing states** and creating **new states**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1fcb1c50-84d8-47f3-84e7-3dcc86cdaf74)
 
+* Satisfying both the **final states** from the previous diagrams(P1 and P2) and they are coming **together/both** in a state in the combined diagram is the **final state** of the **new diagram**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7feebfd8-fcb9-4e0b-a28c-7c2c581f86de)
 
+* AND -> S13 -> S1 and S3
+* OR -> S13 -> Either satisfying first one or satisfying the second one -> Either one is **final state** then that state is a **final state**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e378386-1bc8-4f8e-97c3-8a9c95aa98a8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/48930288-bdbb-4acc-8aa2-9694cd91029a)
 
+* For **OR** operator.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/deb229cc-c890-4a45-9374-3e0c4f95ffb4)
 
+* **Minus(-)** means that **first one** should **satisfy** but not the **second one**.
+* **First final state** should be there but not the **second final state**.
+* Satisfy here means **final state**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a60149ba-2a7a-4d13-9cc3-5849abdc1cde)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b89b7392-1c5e-4d7d-8237-bcd9228a5ecf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8992c77e-feb1-49b3-895f-813d12c624dd)
 
+* Final States combinations [**IMPORTANT**]
+* If it is **AND** operator then make **S13** as the **final state**.
+* If it is **OR** operator then make **S13, S14, S15, S23** as the **final state**.
+* If it is **minus(-)** operator then make **S14, S15** as the **final states**.
+* The **operators** are present in the question.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c030d4ea-380f-47c8-a846-9007faac5f6c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fdec66f2-63d7-43c9-aacb-5f9f63aee99c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ff7c1b3-df46-40ff-87b8-513a1d77bb08)
 
+* **a's and b's** can come at any place.
+* Anyone can start
+* We have to check how many **a's and b's**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb145211-0002-45bb-9ecd-325eacf82238)
 
+* L = {All strings of a's and b's where every string contains no. of a's divisible by 4 and no. of b's divisible by 2}
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c919b192-12ef-4f62-ba9f-2ad2c2c80e39)
 
+* Conditions are **different**.
+* No. of states for a's is **4**
+* No. of states for b's is **2**.
+* By doing **cartesian product** of the two we got **2 * 4 = 8** states.
+* We cannot do any **minimization**.
+* **Different** conditions means we cannot do **minimization**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eaf8a388-c343-4a29-af83-e6c636ea268a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/40f087e4-01f3-4721-b5ac-988c5e4ff79e)
 
+* Simply find **individually** and multiply. [**IMPORTANT**]
+* **Same** for all of the **three operators**. Only the **final states** are **different/change**, rest everything is **same**. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e94e1be1-990b-477c-95df-fe903a13771f)
 
+* **P1** is on **a's**.
+* **P2** is on **b's**.
+* Whatever states we get by doing **Cartesian product** that is the **no. of states**, we cannot do any **minimization**.
+* As **P1** is on **a's** and **P2** is on **b's**, we cannot do any **minimization** also. This is the **only way**.
+* Condition are on **different people**, we cannot do any **minimization**.
 
+* If the condition are on **same people** or the conditions are **same** then we can do **minimization** or **minimization** is possible. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be762d05-055c-46c8-8a05-170a6ece320d)
 
+* L = {Set of all string of a's and b's where no. of a's divisible by 4 **or** no. of a's divisible by 2}
+* **4 * 2 -> 8** states is **correct** but it may not be **minimum**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d2930da1-4305-4b53-84ca-9e1b86162469)
 
+* It is **AP series** and **common difference** is **2**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bfeda8f2-8ee4-4cac-bfa5-1625bb0942ca)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/84dd6bed-41ff-486c-93e0-2695cacdbf98)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a6666de-b77d-43ae-9a24-e58c96ab49d4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b8990bb6-28c9-4ed3-9316-dd14a18c14a8)
 
+* It is an **AP series** with **common difference** of **4**.
+* If the operator was **AND** operator.
+* Worst case answer is **8**
+* The best answer is **4**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/47f917f2-df4a-4873-b915-adb782b29285)
 
+* We are unable to find out any series.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a50beed6-fb6d-4ccf-abf0-772b614342b4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9997cf84-009a-4d95-8d26-dae10fec7531)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/87899fd8-2c2a-436b-a72f-cfa37a9f6f02)
 
+* How do we know it is the worst case?
 
+> Continue the series until the **max. no. of states** and after that if we are unable to find out the **common difference** then **max. no. of states**, **6** here is the **answer**.
 
+* By default answer is **6**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0166fb39-c8d5-4d66-96c3-6bc2b82bfedc)
 
+* **Same** thing repeating that why we have kept a **loop**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ceb0052-6499-40aa-9abe-0d6f8d14c43e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/200183d4-f087-4c3e-9052-ec8ea3aa1665)
 
+* We don't care about **b's** that's why we keeping **self-loop** of **b's**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0849bf40-44f0-425e-8faf-05d1f7d98042)
 
+* We couldn't find any **series/patterns** in the numbers, that's why we have to use the **max. no. of states** possible that is **21** states.
+* OR operator.
+* **3 * 7 -> 21** states is the **max. no. of states** possible. 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5db4f6f3-708e-4808-aab6-991d8ee33184)
 
+* AP series came.
+* Common difference is **21**.
+* We tried to **decrease** the no. of states from **21** but we are unable to.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/11f4de15-1cb2-4495-b88e-edec475c89c7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/20308f76-85f8-49cc-acbb-a1506ea9f5e1)
 
+* So states are **21** only.
+* **AND, OR** or any operator, it doesn't matter. Everytime **multiply** then **conditions** on the **different symbol**.
+* If **conditions** are **different** then blindly **multiply**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/75ffa6f7-b404-4b7d-b5d5-af371cfaf25b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b3ee235c-a309-46f9-871d-ff9e0d618b0e)
 
+* [**IMPORTANT**]
+* If the **symbols(a's)** are **same** then there is a **difference** between the results of the **operators**.
+* AND -> 4 states
+* OR -> 2 states.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df8446f3-a26c-4471-98cb-3b7e09e8aab7)
+
+* We are getting **same no. of states** which is **6** for both **AND, OR** operators even though the **symbols(a's)** are **same**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/211812cd-eb16-4a9c-a14a-e063da0f417e)
+
+* [**IMPORTANT**]
+
+* How to solve bigger problems?
+
+1) Solve individually first
+2) Blindly multiply which is the **upper bound**.
+3) **Upper bound** is the only answer when we have **different symbols**. **Operators** do not matter.
+4) Game will start with **same symbol**. **Operators** matter now.
+
+* Product automata will give **boundary** which is the **upper bound**.
 
 
 
