@@ -2403,14 +2403,35 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/510792fe-d6cd-4f40-8f2d-90de64289a5f)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3179acc-5ce0-4f65-ad00-6f925d9c22de)
 
+* L = {Set of all strings of a's and b's where in every string no. of a's divisible by 4}
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92ef3514-2406-44da-b94f-593f3535a48e)
 
+* We care about **only a's**.
+* We don't care about the length of the string.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2cf41793-0790-4e24-bd64-798baf723dc0)
 
+* If it was the **length of the string divisible by '4'**.
+* Then it would have been an **AP series**.
+* Common differenece -> 4
+* With **4** one cycle is also possible.
+* There is a **4-length** cycle.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac6f808a-b20a-4e5e-af07-4dbd52f9642f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c824c207-cb8d-4bbd-9900-97e4b0527885)
 
+* No. of a's should be divisible by **4**.
+* Our goal is **only a's**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8290b4df-5060-4d28-b1d4-d416f2c22a0e)
 
+* **b's** is not our problem.
+* They may come or may not come.
+* **Changing state** means compulsory **b** should come.
+* **Loops** means it may or may not come. It is no gurantee.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f937e80d-d016-4899-b596-e82eb7e38490)
 
 
 
