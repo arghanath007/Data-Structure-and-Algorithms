@@ -2645,6 +2645,34 @@
 
 * Product automata will give **boundary** which is the **upper bound**.
 
+## doubt-clearing-session (12) [8th Sept 2023]
+
+* L = {Set of all strings of 0's and 1's where each string contain atmost one pair of '11' or atmost one pair of '00'}
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2319b886-0174-4455-9c18-e85579b04f45)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0989bc65-e930-445c-a7e0-f0b38e84c097)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/832cfd0b-ae5f-4c9d-90e2-d859b2426974)
+
+* Yes, because of **OR** operator.
+* In **OR**, either one is ok, both ar also ok. Both are **not satisfied** then **OR** is not ok.
+* In **Exclusive OR**, either one is satisfied then ok but **both** is not allowed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/921ce2f1-fa30-4422-82ce-dabff5ff33f4)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
