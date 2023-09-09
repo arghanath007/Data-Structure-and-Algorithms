@@ -2996,6 +2996,286 @@
 * They are accepting everything. No way.
 * They are saying **YES** to everything.
 
+* We have **16** more DFAs where the **X** is the **final state.
+* As **X** is already the **initial state** and we are making **X** as the **final state**.
+* So we will not get **empty languages** as we are accepting **epsilon** as the min. string here.
+* We cannot get any diagram where among the 16 DFAs they accept **empty language**. They **min accept epsilon**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a9a1efc4-10ab-42e9-a0b3-e73d3c909e61)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5ae3dff-6a4e-4c04-90e5-f31f819314ea)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c03e021-faf6-4978-9b3b-171f5195d9ec)
+
+* **16 DFAs** where **Y** as the **final state**, **Y** will accept something. Block at **X** itself.
+* **16 DFAs** where **Y** as the **final state**, we want to **accept empty language**. **X** will not come.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/085e1c95-48b0-413b-9f59-4f2bcd6ffb17)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc15faad-860e-4fe3-bb9e-e36554ab4f0e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ba97f64-fc73-42b5-b8f0-4d49b67f3520)
+
+* So we have **16 + 4 -> 20 states**, where **empty languages** are **accepted**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c9a5ef8-23c3-4b51-b74d-4d1bbdfdb720)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b7ff0dd1-2769-4919-aafc-5e1dade8fd65)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/10a5724a-ffcc-4dca-be71-fb696f0b90ef)
+
+* How many DFA's possible with 2-states(X, Y) where **X** is initial, sigma = {0, 1} and accepts everything(sigma ^ * )?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/82a515a7-39d0-4c6a-8651-cff1fe0274a2)
+
+* In the **16 DFAs** where **Y** is the **final state** means that **X** is not the **final state**, so **epsilon** is got. We can't accept everything.
+* So the **16 DFAs** where **Y** is the **final state** are **gone**.
+* For the **16 DFAs** where there is **no final states**, they are **not accepting anything anyways**. So they are **gone** as well.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0cb5e75e-4424-4cec-9124-d6db5b97aa12)
+
+* **16 DFAs** are there where **X** is the **final state**. So **min. epsilon** is **accepted**.
+* **X** contains **4 choices** and **Y** contains **4 choices** as well.
+* So, **4 * 4 -> 16 choices**.
+* **X** is **initial as well as final** state.
+* We want to accept **everything**.
+* So, we will put **self loop** on **X** and **X** will not go **outside**.
+* If **X** goes **outside** then something is **rejected**.
+* Actually on **X**, **0,1** we have **4 ways**
+* Now, **one way** only as **X** is not going **outside**.
+* Now on **X**, **0,1** we have **1 way**
+* Now on **Y**, **0,1** we have **4 ways**
+* So, **1 * 4 -> 4** more ways.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5243ccb6-963b-45d5-a576-e625936df688)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0885110-ed95-4a10-8aec-30900c904aa9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d63b05ec-192d-45b1-8bbe-32f636f085de)
+
+* From the **16 DAFs** where **X** is the **final state**, we have **4 more DFAs** which **accept everything**.
+* **X** is **initial as well as final** state also, so **epsilon** but we want to **accept everything**.
+* So on **X** only keep the **self loop**.
+* **X** only we can select **himself(X)**. **X** don't go **outside**.
+* So **16 + 4 -> 20** DFAs.
+* The no. of DFAs where **everything** is **accepted** is **20** DFAs.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98a24b5e-6f04-470f-abfb-fb2a63fb6d8f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80c3b5c4-aa82-470b-b511-dc3afad22457)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a1d5fa9-30bc-4846-9a54-45c8a5999ce0)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5131cc4c-886a-4a20-bbef-e88933ee8009)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a23e35c8-9b4a-43f5-a2f6-d50f97927958)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/46b5861a-012f-49fd-9255-eb9919414fe5)
+
+* **20 DFAs** are there we are **accepting nothing** or accepting **empty languages**.
+* **Complement** these **20 DFAs** by interchanging the **final to non-final state** and the **non-final to final state** and we will get **DFAs** which will **accept everything**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/adf5fb3a-914f-4989-af76-64ddb94f6e11)
+
+* Yes ofcourse that's the reason.
+* **Complementation** of **nothing** is **everything**.
+* (sigma ^ *) - phi -> (sigma ^ *)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/447abbad-9556-4465-9099-5a858a0ca5ee)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6684c852-b011-4846-92b1-0a10167d0d98)
+
+* Give Regular expression(RE)
+* L = {All strings of a's and b's where starting and ending symbols same}
+* Two possibilities are there.
+* One is **a** at the starting and ending.
+* One is **b** at the starting and ending.
+* (a + b) ^ * -> Everything is possible. It may come or may not come.
+* Whatever we say should come from either **first regular expression** or from **second regular expression**.
+* Because of the above reason, we are using **plus(+) operator**.
+* **Plur or OR operator** means we are going to take **either one**.
+* (a + b) means **two people** are there either **a** or **b**.
+* (a . b) means **one person**. We cannot take **either one**. It is **one string**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2008e295-16b5-44e3-a77d-a7034efe8b0c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ad3d6bf1-1537-4b44-8f07-1fed0b3e6f1f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33e432ba-6399-4a2c-a378-a279eb8b28a7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63404014-7997-493e-938e-535abc3ff999)
+
+* Dot, OR operator [**IMPORTANT**]
+* **a or b** or **b or a**. Both are **same**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c04f0ea9-3148-4cec-bba2-811198632290)
+
+* It is **first one or second one**.
+* Some string will come from the **first one** and some strings will come from the **second one**.
+* There are **two models**.
+* Take either **first or second**. Don't take **common**.
+* We cannot take **both**. That's the meaning of **OR** operator.
+* We cannot get **1 lakh a's and 1 lakh b's**.
+* We can get only **1 lakh a's**.
+* We can get only **1 lakh b's**.
+* **OR** operator -> Either first or second, we cannot take **both**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6edac5f3-49c3-4ad8-b1c6-55dc63f6179d)
+
+* **Concatenation** means **compulsory**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff91895c-200c-42fa-81ad-2ee36e30134b)
+
+* The strings should come from the **first or the second or the third or fourth of fifth** regular expression.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3072cee5-d17f-4c20-b8c4-87d9b97a8cf9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/52027c45-e574-445f-8dab-6546a7ab00ee)
+
+* **Epsilon** is included because when we have only **Epsilon** then the **starting and ending** symbol are **same**.
+* Regular expression having these operators -> Star(*) or kleen closure, Plus(+) or Union, Dot(.) or concatenation [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a1b21fb-fcdd-4a9b-8bd5-d71ea71c42d3)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/703e66bf-b82d-47b8-acd4-7a727db64a7b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3fcdd3a9-4a59-4cf7-89f9-8d2030481399)
+
+* Given RE, L = {Set of all strings of a's and b's where each string contain 'abb' as substring}
+* Minimal String -> abb
+* **abb** can be anywhere in the string.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e38f94e8-1b41-402a-b978-3221cec366f5)
+
+* Starts with **abb** and also no string starts with **b**.
+* They are not mentioned in the question.
+* So wrong regular expression.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44e5b178-fa52-494f-a1ec-b608268fa872)
+
+* We are saying that **ending with 'abb'**.
+* Huge blunder.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f08a0c43-912c-4016-8b02-12fadf6703e6)
+
+* According to the language, **abb** should come as **substring**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e691210f-4670-44d5-9002-7ee63ca7b3a4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19d39add-635e-47d3-ac44-d2a511572749)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5be71d2-cda9-4e43-bf1e-f804f023b8c7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eddc38d8-20b0-4b8a-8e26-86be93b6c9b6)
+
+* We want **abb**.
+* **abb** should be there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f9b72f4-7bea-4898-82db-6789ed493d76)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc4e0ec6-9840-48a0-b60d-537292cd8a6a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3a2b9ba-ea64-4f64-b805-06817cbce9d2)
+
+* Possible options to the questions.
+* Option **2** is **correct**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/39ae39cf-95e5-4bfb-b2ad-159cbab90867)
+
+* Give Regular expression(GRE)
+* L = {Set of all min. 3-length strings over 0,1}
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be187d94-9ff1-47c1-8c58-50e274788ecf)
+
+* Here we want **min. 3-length string**.
+* After **3-length** anything can come.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f77fc1e4-4a05-4db6-8bac-2dd9a4d72377)
+
+* All of the **three** are **correct** but **first two** are **better** answers.
+* In the **Last one**, we are wasting **star(*)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e2531fd-580b-4b01-9d71-08608e9059c5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c4df5e34-da95-4e10-9413-627f6af8a006)
+
+* Non-sense MSQ(Multiple Select Question).
+* In this, **starting symbol doesn't matter** and **ending symbol** doesn't matter.
+* Only **length** matters. Exactly.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b967105c-f183-4781-bb1b-b8e47c35da13)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4dbdf93-447d-48a0-b303-8e60e5c385ac)
+
+* All are **correct**.
+* We have to select **all** of them.
+* **One** we cannot say.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
