@@ -3199,6 +3199,210 @@
 * Atmost 3 means **max is 3**.
 * Atmost 3-length string means we can have **0, 1, 2 and 3** length string.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fbcddab8-c787-4099-9bd7-d079f040133f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b7ab952-a5d3-4360-8361-31a9c414f283)
+
+* Minimal regular expression(RE) is **not unuqie**.
+* Minimal DFA is **unique**.
+* regular expression(RE) will talk about **valid** things only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/88cf9785-0012-4a96-ba8e-ef5558b5cb34)
+
+* Exactly 3-length string
+* (0 + 1) ^ 3 -> We are going inside exactly 3-times.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd0d8a7b-93a8-415d-a97c-be25198b83fd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f3480e3-01dd-498f-99f3-99c9b7a63035)
+
+* L = {Set of all even length strings over the alphaber {0,1}}.
+* **Epsilon** is **zero(0)** length.
+* (0 + 1) ^ 2 -> Two length string is coming.
+* ((0 + 1) ^ 2) * -> Everytime, **two length** will come.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d12ae6d5-d161-41a9-89ce-5ac5fdd96b3b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa8ee8d5-458a-4313-a7a6-eb67eb189069)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d9ff0143-b3d7-4935-a51f-158a7c75bc7d)
+
+* Odd length
+* Even length + 1 -> Odd length
+* ((((0 + 1) ^ 2) * ) * (0 + 1))
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b501d563-48b5-409a-892b-bb6c12ba1e3e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a28befdd-a289-4e56-892a-f2a8a698b948)
+
+* [**IMPORTANT**]
+
+L = {Give a regular expression of all a's and b's where the length of every string is **divisible by 5**}.
+* Length of the string is divisible by 5.
+* ((a + b) ^ 5) *
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/14034eee-c2fe-4bf7-bc15-d70c1f3c50b5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ccf9d7a3-f47b-4594-89c6-f64835850c9f)
+
+* Even means that the number is **divisible by 2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d5eb8e8-f730-495b-a4f5-6a52e63a6321) 
+
+* L = {Set of all string of 0's and 1's where in every string 2-consequtive 1's are not allowed}.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/948093d3-191a-424f-9089-3d366442c792)
+
+* Because of whole star(*), we can go inside **any no. of times**.
+* ((0 + 10) ^ *) * (1 + E).
+* E -> Epsilon.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e89172b5-ecb6-4de3-aea2-bb6f7e6c18b5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/639219be-c163-4999-af77-34768302caa9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cdf51bc2-5fd5-4d16-9b0c-6747932d03dc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff28ce25-3e20-4117-a5d7-9115c446e4f8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b1f5e7b6-91cc-48ac-9a7c-c0bcc7982393)
+
+* [**IMPORTANT**]
+* L = {Set of all strings of all 0's and 1's where in every string consequtive 0's and 1's are not allowed}.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf3fb83a-d519-4e64-9c67-e433712ac913)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b6103ac-dd55-4179-b62a-f02173ae6822)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30f31b68-faa1-41d2-8490-8b3920393bcd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f16986fe-ac64-4bcf-8551-cb75bc8e1528)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/de0fb0e6-8a42-44da-9889-d706a2984e64)
+
+* [(0 + E) * (10) * (1 + E).
+* [**IMPORTANT**]
+
+* L = {All strings of 0's and 1's where in every string 2-consequtive 1's are not allowed and starting with '1'}.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/18dac704-f06f-4fae-8af1-6aa6e7ec81b2)
+
+* Minimal String -> 1,10, 100000, 10001
+* Minimal length -> 1
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a4029d21-c03b-41f4-b61c-51f44c7805f5)
+
+* (10) ^ * -> It means that 0's and 1's side by side are not allowed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce0264cc-73e0-4a3c-9a4e-2707eda8b1f8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71fd8b95-2fb8-40b2-a1b9-d804a26d09af)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b42dba98-ac56-47e4-af65-c8776ce33a36)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee781aea-864e-488a-9dd5-83857ca23f8e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff216d0a-a7b4-4d5c-a66a-6a77def99e4c)
+
+* Everything possible.
+* Try covering the **majority** then try adding the **minorities** that are **left out**.
+* [**IMPORTANT**]
+
+* Epsilon ^ * -> Epsilon possible.
+* Because of **star(*)** we can go inside any no. of times.
+* Phi ^ * -> Epsilon.
+* We may not go inside also then **Epsilon** comes.
+* If we go inside **one time** then **phi** will come.
+* Phi + Epsilon -> Epsilon only [Nothing + One thing -> One thing]
+* Phi -> Nothing
+* Epsilon -> One thing.
+* We don't go inside that's why **epsilon** came.
+* (a + Epsilon) -> They are **two different** people. Either **a** or **epsilon**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50fe1681-29e3-4d0a-9a57-2869e2adba39)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5cd6aa59-2fd3-4a27-8319-3c6075080a3b)
+
+* [**IMPORTANT**]
+* Zero(0) multiplied by anything is Zero(0) only.
+* Epsilon -> Zero(0) length string or empty string [Zero(0) is length].
+* Phi -> Empty language [Zero(0) strings there, not length is zero(0). **Zero(0)** is the no. of strings].
+* As **phi** is a **language**, we cannot say it's length.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/952d3e1e-253c-433d-91f2-2d8eb06140ab)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1af17f7e-1173-414d-9fed-54a6f69cabbe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df9522dc-2099-483c-addd-d5e2e33b1417)
+
+* [**IMPORTANT**]
+* (Phi ^ * ) -> because of **star(*)**, we can go inside any no. of times. Inside, don't go also then **epsilon** will come.
+* (Phi ^ + ) -> because of **plus(+)**, we have to go inside.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/208d2426-238a-4ad0-96a0-a05abcf91195)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f619ecc9-8199-4df4-9088-49c657393edd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e4dfa6f-32d1-48dd-b4fa-d4379f3cea0e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32f147b1-f71a-4452-8b3c-2aac7d08f9e4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a7226210-90c7-4e77-9619-13f933f85de2)
+
+* [**IMPORTANT**]
+* Phi + Epsilon -> Epsilon
+* Length of **epsilon** is **0**. No. of string is **1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/17923429-d3cf-4c05-bd97-cdc0687aeb9c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a65d4e6-646b-4f9b-9898-afd270387c5d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/40b84e88-8be4-46a6-a07f-47e682031e01)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7987f28c-bfaf-4cd6-8e46-d5086320b48a)
+
+* There is no question of **length** as string is **not there**. **N0** string is there.
+* Start from 1hr 33mins.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
