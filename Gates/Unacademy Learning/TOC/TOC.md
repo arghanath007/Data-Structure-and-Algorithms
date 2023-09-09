@@ -2739,6 +2739,15 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/67ee12a0-9315-4f85-acda-c9c7517e5093)
 
 * In total **64** DFAs.
+* In all of the **64** DFAs, who is **initial**?
+
+> **No discussion** of **initial** came because we have **only one choice(x)**.
+
+* If only one choice, what discussion will come.
+* **Initial state** is **fixed** so only **one choice**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9c301e40-be68-4ff9-a080-cfdeb92e4de1)
+
 * Everywhere **2 choices**.
 * Without considering **final states**, we have **2 ^ 4 = 16** DFAs.
 * **X** on **0,1** we have **4 choices**.
@@ -2748,10 +2757,37 @@
 * **Y** on **0,1** we have **4 choices**.
 * **X and Y** on **0,1** we have **4 * 4 = 16 choices**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cca5418f-003b-4f9b-a5b6-8c095318f26d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e4d5bae-10ed-4a6c-ae93-cbe12792396f)
+
+* In all of them **x** is the **initial state**.
+* **X** on **0,1** we have **4 ways**.
+* **Y** on **0,1** we have **4 ways**.
+* **X and Y** on **0,1** we have **4 * 4 = 16 possibilities**.
+* One work is done **m-ways** and another work is done **n-ways**, both can be done at a time in **m * n** ways. [**IMPORTANT**]
+* **X** on **0,1** we have **4 ways**. **Y** on **0,1** we have **4 ways**. Both(X and Y) can be done at a time in **4 * 4 -> 16** ways.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0bcdf4a1-e3a9-41cb-91a7-dfecadc8f262)
+
+* **X** is changing but **Y** is not changing.
+* **Y** on **0,1** we have **4 ways**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ebd544d5-926f-4470-9f14-2461bbf2d00b)
+
+* Everyone is a **DFA**.
+* We have **16** diagrams logically.
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65a6a9f3-e0b0-45b3-870f-7ac4c79ec5a8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6ed4018-b8e4-42c1-8019-8b0e1c82b73e)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e8e2a92-c330-4814-a0a1-dce8e75b3db1)
 
+* We want **DFAs** only.
+* In all of the **DFAs**, **x** is the **initial state**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3843db23-b812-4769-8e75-b1298737e464)
+
 * We have **16 DFAs**.
+* Take all of the **16 DFAs** and in all of the **DFAs**, make all of the states as **final**.
 * **Zero(0)** states as **final state** will accept **empty languages**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1305d47-a10c-48f2-a08b-d2e3dba52bd3)
