@@ -3190,8 +3190,14 @@
 * We have to select **all** of them.
 * **One** we cannot say.
 
-## regular-expression-ii
+## regular-expression-ii(14) [9th Sept 2023]
 
+* Atmost 3-length string
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e84deca-2475-4123-97a9-e5c59d9aec40)
+
+* Atmost 3 means **max is 3**.
+* Atmost 3-length string means we can have **0, 1, 2 and 3** length string.
 
 
 
