@@ -2703,9 +2703,206 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f7f2629-740a-4bae-9a49-6e78b904f1bb)
 
-* How many DFA's possible with 2-states(X and y) where 'x' is initial state?
+* How many DFA's possible with 2-states(X and y) where 'x' is initial state over the alphabet {0,1}?
 
 > All possible **DFA** we have to take care.
+
+* We have **4 choses** for the **final state**, **x and y** both are final, **x** is final, **y** is final, **no one** is final.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e0f3700c-93a8-4f2e-ae43-0503ee894636)
+
+* Is **No one** is final possible?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7728ff86-b389-4d34-9f0e-6a6f2c34987c)
+
+* This is a finite automata.
+* As there is **no final state**, so nothing to **accept** or **no one** is **accepted**.
+* L = Phi
+* L = {} -> Empty Language.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1607b68b-434e-46bd-beec-ae0d2a44fc83)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/156ae588-7fc0-4d2e-ad11-e57a9046a357)
+
+* Only **epsilon** is **accepted**.
+* Everyone going outside, no one coming back to **final state**.
+* The language accepted by the automata is **not empty** but the string is **empty**.
+* The language accepting **empty string** but the language is not empty.
+* Language not empty but accepted string is **epsilon** which is a **empty string**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ebfc634-faaf-4e37-8a50-e95f3a4b8edf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b91f3fc7-e9ca-4944-bbb7-0160ef5252ca)
+
+* DFA -> We can only go to **x or y**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d197e2ad-9bec-4812-b36e-be75f2321ff0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7250ced8-b875-4f08-bdf7-c04fd3b78656)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/67ee12a0-9315-4f85-acda-c9c7517e5093)
+
+* In total **64** DFAs.
+* Everywhere **2 choices**.
+* Without considering **final states**, we have **2 ^ 4 = 16** DFAs.
+* **X** on **0,1** we have **4 choices**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bdf9211f-aca0-4dee-bfad-389675ee3a3b)
+
+* **Y** on **0,1** we have **4 choices**.
+* **X and Y** on **0,1** we have **4 * 4 = 16 choices**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65a6a9f3-e0b0-45b3-870f-7ac4c79ec5a8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e8e2a92-c330-4814-a0a1-dce8e75b3db1)
+
+* We have **16 DFAs**.
+* **Zero(0)** states as **final state** will accept **empty languages**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1305d47-a10c-48f2-a08b-d2e3dba52bd3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f1bfdf80-bc98-421a-b822-4f129f8bbb9d)
+
+* If **initial state** is not mentioned.
+* **X** maybe **intial** so **64 DFA** and **Y** maybe **intial** so **64 DFA**. So in **total**, **64 + 64 = 128** DFAs.
+* We cannot take **two states** as **initial**.
+* If **no state** as **initial state** then we will not know from where to start.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ffb8bde-3a80-4512-a08f-427a9cb5b3c6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8cb1888c-c374-47cc-bea2-0ff82a89f882)
+
+* Without considering **final states**, we have **2 ^ 4 = 16** DFAs.
+* By considering **final states**, we have **2 ^ 4 * 2 ^ 2 -> 2 ^ 6 -> 64** DFAs.
+* Go like this, if we want **answers**.
+
+* In the question, if it was added that, **and only one state is final** then:-
+* We want only **32** DFAs.
+* We only want one state as **final**, either **x** or **y**.
+
+* In the question, if it was added that, **and every state has final** then:-
+* We want only **16** DFAs.
+* We only want where both the states are final.
+
+* In the question, if it was added that, **and no final state** then:-
+* We want only **16** DFAs.
+* We only want where zero(0) states are final.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/100f1b5b-263b-4602-876f-12e176dc4fea)
+
+* In the question, if it was added that, **and atleast one final** then:-
+* We want only **16 + 32 -> 48** DFAs.
+* We only want where **2 states** are final and we want where **either one of the states** are final.
+* Atleast one final state -> Atleast one state ok and both are also ok -> One final state is ok, two final states is also ok.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a9e7fa1b-6f83-4455-9f00-696a3280b5bd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b4a73c20-84fe-443e-aafc-9be84172f95c)
+
+* In the question, if it was added that, **and atmost one final** then:-
+* We want only **16 + 32 -> 48** DFAs.
+* We only want where **zero(0) states or either of the states** as final.
+* Either one state or zero state.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a461b54b-4434-4b79-b82f-347fde229847)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/547340a4-5269-4a9c-af6e-6bc1fa7869b0)
+
+* How many possible DFA's are there with 3-states x,y and z where 'x' is initial and sigma = {0, 1}
+* From **final** state we got **8** possibilities. From **000 to 111**.
+* **000** -> No one is final
+* **111** -> All are final.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c3caea32-8bf4-4de7-99a5-5a82a8f12868)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f134b849-8de7-4a93-af68-1700f2269c4d)
+
+* [**IMPORTANT**]
+* We have **5832** DFAs.
+* **DFAs** without final is **3 ^ 6**.
+* **DFAs** with all final is **3 ^ 6**.
+* **DFAs** with one state as final is **3 * (3 ^ 6) -> 3 * 7**.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2729,4 +2926,4 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db87f3f9-4670-43db-9fe5-644c00632aed)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bef6f5d8-9532-4788-a4fe-07b0c733ca7b)
-
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d43f8ed-d24f-413a-9b1a-dddcb37f6f9b)
