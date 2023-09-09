@@ -2657,17 +2657,43 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/832cfd0b-ae5f-4c9d-90e2-d859b2426974)
 
 * Yes, because of **OR** operator.
-* In **OR**, either one is ok, both ar also ok. Both are **not satisfied** then **OR** is not ok.
+* In **OR**, either one is ok, both are also ok. Both are **not satisfied** then **OR** is not ok.
 * In **Exclusive OR**, either one is satisfied then ok but **both** is not allowed.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/921ce2f1-fa30-4422-82ce-dabff5ff33f4)
 
+* 1100 -> Each pair of 11 or 00 are there. OK. Both are there.
+* 000 -> Two pairs of '00' are there. So not allowed.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50937f74-bc93-465e-92a9-5ed6738da0ec)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec604122-f1ea-4f02-829f-8774fcca73d0)
 
+* AND -> Both are allowed.
+* **OR** is giving some ambiguity.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1dcfedc-c830-44dc-8987-cee0b0d08e95)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/13d36ef5-f31e-437e-8e3a-260790946f46)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/29a7087d-c29a-41bc-be32-a90302c1503a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5f2c2ff9-50f2-4b82-a17e-145294df22df)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f8db5ef6-8879-48fb-ad99-b2bc69262c41)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/059039c2-c23f-4a09-89a2-50f728c636ce)
 
+* Not only we have to remember **00 or 11**, we have to remember **0011**.
+* **AND** operator -> Both should satisfy.
+* Consecutive or Non-consecutive. Doesn't matter. It will work for **both**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d584fdd-c8a1-4c0e-a95f-3ab2df0b1464)
 
+* In this diagram, we were only remembering **00 or 11** only.
+* Let's remember **0011 or 1100**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/651711db-b117-497b-9167-0a8afec71cae)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/99729181-9b64-4e8f-bae6-0b20165c4d4e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bff5207d-a14a-4b39-8004-66563ce7226b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/08ef6f15-f903-4421-bf52-2df9ada2a20b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/99a4363b-a058-4102-b7c0-099201fe15f0)
+
+* We have **10** states.
 
 
 
