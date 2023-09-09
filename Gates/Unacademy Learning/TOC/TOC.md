@@ -2833,6 +2833,27 @@
 * Either one state or zero state.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a461b54b-4434-4b79-b82f-347fde229847)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/93e387aa-73bc-4f43-90d9-1c5dd3817916)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3fde4ca2-4a9f-49e2-a27e-dd8202a309e7)
+
+* **X** is **initial**.
+* In every diagram **X** is **initial**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c5e47634-dd22-4ae9-bc48-3ee27f2fd974)
+
+* How **64** came?
+
+> **X** on **0,1** we have **4 ways**.
+
+> **Y** on **0,1** we have **4 ways**.
+
+* So, **4 * 4 -> 16 ways**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2850c2b8-a91a-4209-8d9a-74d64e8498ec)
+
+* Totally we have **64 DFAs**.
+
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/547340a4-5269-4a9c-af6e-6bc1fa7869b0)
 
 * How many possible DFA's are there with 3-states x,y and z where 'x' is initial and sigma = {0, 1}
