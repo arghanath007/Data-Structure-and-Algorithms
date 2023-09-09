@@ -2870,15 +2870,33 @@
 * **DFAs** with all final is **3 ^ 6**.
 * **DFAs** with one state as final is **3 * (3 ^ 6) -> 3 * 7**.
 
+## regular-expression-i (13) [9th Sept 2023]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/38ed71a8-bc74-4101-82a9-9623ccb65af6)
 
+* How many DFA's possible with 2-states(x,y) where **x** is starting state, sigma= {0,1}.
+* Total DFAs is **64**.
+* No final state is **16**
+* All final state is **16**.
+* Any final state is **16 + 32 -> 48**. Which is **Atleast one final state**.
+* **Atmost one final state** -> **16 + 32 -> 48** -> Maximum one final state.
+* Exactly one final is **32**. Maybe **x** or maybe **y**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3382b195-a479-4526-b8ff-c6f1465ef940)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f066d7a-131c-4ff6-8c32-345b32d4231c)
 
+* How many DFA's possible with 2-states(x,y) where **x** is starting state, sigma= {0,1} and accepts empty language.
+* On **X**, **0,1** we have **4 ways**.
+* Both can go to *X**, both to **Y**, **0** to **X** and **1** to **Y** and **0** to **Y** and **1** to **X**.
+* On **Y**, **0,1** we have **4 ways**.
+* For **X and Y**, we have **4 * 4 -> 16** ways.
+* Totally we have **16** DFAs without thinking about **final state**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2de8402e-2f03-46b6-b7a0-107b16708ec2)
 
-
-
-
+* **16 DFAs** without final state.
+* As **no final state**, they will accept only **phi**. They will **accept** nothing.
+* **16 DFAs** without final state and they are accepting **empty languages**.
 
 
 
