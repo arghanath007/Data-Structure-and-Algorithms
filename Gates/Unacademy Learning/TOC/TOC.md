@@ -1,4 +1,4 @@
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bef6f5d8-9532-4788-a4fe-07b0c733ca7b)# TOC
+# TOC
 
 ## Motivation
 
@@ -2694,10 +2694,18 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/99a4363b-a058-4102-b7c0-099201fe15f0)
 
 * We have **10** states.
+* What is the above DFA doing? [Example questions]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b306cc5e-8724-44cf-9b41-0cb07770f389)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1db9a5fd-4a1b-43de-8079-651700d0844b)
 
+* Another Type of question.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f7f2629-740a-4bae-9a49-6e78b904f1bb)
 
+* How many DFA's possible with 2-states(X and y) where 'x' is initial state?
+
+> All possible **DFA** we have to take care.
 
 
 
@@ -2720,5 +2728,5 @@
 ## Misplaced Images
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db87f3f9-4670-43db-9fe5-644c00632aed)
-
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bef6f5d8-9532-4788-a4fe-07b0c733ca7b)
 
