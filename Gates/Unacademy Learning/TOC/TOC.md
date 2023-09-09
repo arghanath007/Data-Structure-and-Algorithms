@@ -2898,6 +2898,123 @@
 * As **no final state**, they will accept only **phi**. They will **accept** nothing.
 * **16 DFAs** without final state and they are accepting **empty languages**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f214599e-f53f-47b7-b996-ec591093ba12)
+
+* **Y** is **final**.
+* **Y** is ready to accept anything but we have to start from **start state(X)**.
+* **X** is saying, I don't go outside.
+* Like this, we will have **4 more** DFAs.
+* Even though **final state** still it will accept **empty language** if we cannot reach **final state** because from the **initial state**, we cannot reach the **final state**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/70faaf83-61b3-4384-b6de-db45995b9997)
+
+* **4 DFAs** with **Y** as the **final state**, accepting **empty language**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a4b50706-902b-4cfa-aa7f-1afbdcf805b5)
+
+* We don't want to accept anything.
+* When we make **X** as **final** then it cannot accept empty language. It is accepting **epsilon** which we don't want. We want to accept empty language.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/74a0af88-fd10-4b35-857d-9006d8bde7d0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/738c44dc-394e-46f0-872e-9f23ed7c49d0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b1424b06-f5eb-471a-988c-01be2b5b950c)
+
+* **4 diagrams**.
+* **Final state** is there but from **starting state** we cannot reach **final state**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e314b526-9d04-485b-ba79-8589ce8078a1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3cf012ae-4ccf-4816-b0f4-d410228295b2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb1d70c6-71a0-4d13-afad-3103ef8bde53)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d4f547a-af1a-4100-9800-750e1de33e9c)
+
+* We have **16 DFAs** when **X and Y** both are **final**.
+* There is **no chance** of accepting an **empty language**.
+* We will get **epsilon** atleast**.
+* In these **16 DFAs** we are addressing every person and we are **accepting** every person as well.
+* **X** and **Y** both are **final**. We go anywhere that is **final** only.
+* They are accepting **everything**.
+* They are **(sigma ^ * )**.
+* They are called as **universal or complete language**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f554b595-c95d-40e0-b204-4da24e08e779)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8c888f82-f3c3-45f1-8a06-1885ac58ef6f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8ae40b9-72ac-4d73-8844-e35c630e10c9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1115375d-ba64-47e2-94e3-6680e3a77eb7)
+
+* Every string is **YES** only.
+* In the given **DFA(above)**, if every state is **final state** then it will **accept** everything?
+
+> **It is correct**.
+
+* As there is **no non-final** states, so everything is **YES**. There is no **NOs**. [**IMPORTANT**]
+* **(sigma ^ * )** means **all strings** -> Universal or complete language.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/382523aa-00ec-4c5f-8383-9e6544572d56)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e7382d50-df96-4a7e-b1bf-1523b2c2b3ac)
+
+* In the given **DFA**, if every state is **final state** then it will **accept** (sigma ^ * )?
+
+> **Correct**.
+
+* In the given **NFA**, if every state is **final state** then it will **accept** everything?
+
+> **We cannot say**. We cannot give any gurantee. For somethings there is **no response**. For some strings there is **no response** in the machine.
+
+* It is **maybe**.
+* If **maybe** not there then choose **no** as one time fail is **fail only**.
+* Every **DFA** is **NFA**.
+* Accepting everything is **DFA**.
+* **NFA** where everything is **final**, sometimes it will **accept** everything. **YES**. When the **NFA** is a **DFA**.
+* There exists an **NFA** where **every state** is **final** and **accepting everything**, **right or wrong**?
+
+> **True**.
+
+* There exists an **NFA**.
+* Question is not saying **every NFA**. It is saying **one NFA**.
+* If **every NFA** then it is **False**.
+
+* Every **NFA** where **all states** are **final** and **accepting everything**, **right or wrong**?
+
+> We cannot given gurantee. **False**.
+
+* There exists one NFA -> **True**.
+
+* There are some **NFAs** where **every state** is **final** but not **accepting everything**, **right or wrong**?
+
+> **True**.
+
+* There are some **NFAs** where **every state** is **final** and **accepting everything**, **right or wrong**?
+
+> **True**.
+
+* The **NFA** maybe **DFA** who knows.
+* A special type of **NFA** is called as **DFA**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/00232048-2b33-430c-948a-1cfaeedbdd60)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4738cdc6-1990-47d0-a4c1-dac477dcde74)
+
+* They are accepting everything. No way.
+* They are saying **YES** to everything.
+
+* Start from 44mins.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
