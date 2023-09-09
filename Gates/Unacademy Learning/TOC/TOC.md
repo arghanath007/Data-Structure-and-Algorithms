@@ -2996,7 +2996,7 @@
 * They are accepting everything. No way.
 * They are saying **YES** to everything.
 
-* Start from 44mins.
+
 
 
 
