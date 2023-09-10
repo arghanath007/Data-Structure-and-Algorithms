@@ -154,8 +154,15 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6cc6207-d5d0-4ab2-abd3-b4f255448e9a)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50527634-46e5-4354-8557-70243a10f859)
 
+# Batch Information
 
+## Engineering Mathematics
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cdddbead-4fa2-4944-8f5a-b45529ee9962)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/17dad31b-3945-4503-a3a6-149ed4b92bcf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ce08a63-f9f3-40aa-af02-81868930dc83)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b83e38e-55b9-4125-9156-5258c199341d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2580670e-a9a4-4c9d-a76c-3fb7f800e0be)
 
 
 
