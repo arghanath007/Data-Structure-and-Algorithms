@@ -3401,8 +3401,13 @@ L = {Give a regular expression of all a's and b's where the length of every stri
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9c64e095-cd79-466b-b329-9685c24535d9)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7570d838-e01f-4981-aeb1-4f302796af72)
 
+## regular-expression-iii (15) [10th Sept 2023]
 
+* GRE,  L = {All strings of a's and b's including epsilon}
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/40a170f3-c7a9-438a-9cbc-45bb1814dafe)
+
+* In **(a + b) ^ * )** 
 
 
 
