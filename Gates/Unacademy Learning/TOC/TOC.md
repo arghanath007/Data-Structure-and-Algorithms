@@ -3330,14 +3330,143 @@ L = {Give a regular expression of all a's and b's where the length of every stri
 * [**IMPORTANT**]
 * Phi + Epsilon -> Epsilon
 * Length of **epsilon** is **0**. No. of string is **1**.
+* L = {Epsilon}
+* Cardanality of 'L' or |L| = 1 ['L' contains no. of strings]
+* Length of **epsilon** or |epsilon| is **0**
+
+* L = {Phi}
+* Cardanality of 'L' or |L| = 0 ['L' contains no. of strings]
+* Length of **Phi** or |Phi| is **non existent**. There is no question of **length**, as there is **no string**.
+* There is no question of **length** as string is **not there**. **N0** string is there.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/17923429-d3cf-4c05-bd97-cdc0687aeb9c)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a65d4e6-646b-4f9b-9898-afd270387c5d)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/40b84e88-8be4-46a6-a07f-47e682031e01)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7987f28c-bfaf-4cd6-8e46-d5086320b48a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cff1369a-04c2-43e2-b649-3544a444cff2)
 
-* There is no question of **length** as string is **not there**. **N0** string is there.
-* Start from 1hr 33mins.
+* [**IMPORTANT**]
+* GRE, L = {Set of all strings of a's and b's where each string contain exactly 2-a's}
+* Minimal length -> 2
+* Minimal string -> aa
+* **b's** can come at any place.
+* Inbetween can also come. Question didn't mention about **consequitive a's**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f4151179-19a8-47de-9127-72015cd5021c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8cff01b8-28d0-43ed-9c16-dcf11cc0e85d)
+
+* Correct answer. [**IMPORTANT**]
+
+* ((b ^ * ) * a * (b ^ * ) * a) -> If the **last (b ^ * )** is not present/not written then we can say that the string is always **ending with 'a'**.
+* (a * (b ^ * ) * a * (b ^ * )) -> If the **first (b ^ * )** is not present/not written then we can say that the string is always **starting with 'a'**.
+* **Possible options to the question**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/117a86ae-5a8b-4040-b8a7-521039f51282)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d900b77-6b7c-4eff-bbe8-b25672709753)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c711258-6d94-46b0-ba59-a5bd0abf83be)
+
+* L = {Atmost 2-a's}
+* **a's** may come or may not come.
+* If **a's** come then they can come for **2-times** only.
+* ((b ^ * ) * (a + epsilon) * (b ^ * ) * (a + epsilon) * (b ^ * ))
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ae1308b-9b4b-4eeb-8acf-ee6f6e486c43)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c6beb69b-45fe-4b5e-ab38-119842c6fa5d)
+
+* Minimal string -> Epsilon.
+* Max of **2-a's** only possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66685807-d6cd-4d0a-9430-a335ec8f2987)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf593466-69bb-4a6f-a730-9c150f94d68d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2fe09511-f862-45c2-8f01-15c0497a34e7)
+
+* L = {Atleast 2-a's}
+* Minimal string -> aa
+* **2-a's** are compulsory then anything can come.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6f51673-b52f-4231-810b-0b48db3abccd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/46a848fc-7905-4edf-be8b-c4deddf0977c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2d1ae94e-b854-410d-847c-d5153b160a9e)
+
+* All **four** are **correct**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/170c2c04-53c7-41b9-b62f-5f67ad561d3d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7442a82-585c-4868-ab5f-8f44a4f7e346)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/410380d6-0532-4ccf-8a89-f07ed5f87126)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8256389-cdb1-4bb6-a4e7-e0fa64b01696)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea3be7a3-833e-4335-a5d7-912d3a75d1f6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9c64e095-cd79-466b-b329-9685c24535d9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7570d838-e01f-4981-aeb1-4f302796af72)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
