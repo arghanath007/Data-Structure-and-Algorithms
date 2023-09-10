@@ -1,4 +1,4 @@
-# TOC
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97f0067c-0503-45b8-b37e-ba734b7274e6)# TOC
 
 ## Motivation
 
@@ -3407,7 +3407,115 @@ L = {Give a regular expression of all a's and b's where the length of every stri
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/40a170f3-c7a9-438a-9cbc-45bb1814dafe)
 
-* In **(a + b) ^ * )** 
+* In **(a + b) ^ * )**, we can get **epsilon**.
+* If we want to get **epsilon** then don't go **inside** at all.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ee0263d-3913-4692-91b5-29e1ff156900)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2a77132-5969-4436-8699-861dc5068351)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1068ab10-63fd-4d42-bf88-6269c49cce60)
+
+* If we want to get **epsilon** then don't go **inside** at all.
+* If we want **10 a's** then just go inside **once** and then take **(a ^ * )**. It will give **10 a's**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6466f787-2d3b-456c-a3e3-513a3c71ce29)
+
+* Both mean the **same** thing.
+* We wasted **one star(*)** in the **second one**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16f88583-cbca-4cff-9b7a-be3e5502b94e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1bdd847f-bee6-4baa-aab2-66eac421a0f9)
+
+* Meaning wise all are **same**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4df34106-84e7-4f50-8bfb-ceefc2373fcc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c78abb4d-3934-4ca4-9008-e2dc349175d7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c8d28756-ff7b-4e20-87f1-cb681ae1b538)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd42f3f5-96c2-40b3-9039-b44a0b322506)
+
+* Epsilon is possible, a's possible, b's possible, a's followed by b's possible, b's followed by a's possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a0c3e45-1f83-4d01-9794-9ee4733ffaa8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9fdd81c5-8852-4607-947a-90ea3624cad5)
+
+* Which one **even**?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ad06799b-0837-4059-9c9d-be39d9b53fa9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9f0e1b2c-6534-4849-bf42-eba03749c6ed)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83e2d960-5494-4f24-b3a7-256291138648)
+
+1) (0 *) -> All there.
+2) ((00) ^ *) -> Even no. of zeroes.
+3) (((00) ^ *) * 0) -> Odd no. of zeroes.
+4) (((00) ^ *) * (0  + epsilon)) -> Even followed by one odd and sometime, even followed by **zero(0)**, it is **even**.
+
+* So, **1 and 4** are **even**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2133bd2a-941d-4c91-8f84-5f0db897eea3)
+
+* ((0 ^ *) * (1 * (0 ^ *)) ^ *) -> Only 0's is possible, Only 1's is possible, 0's followed by 1's possible, 1's followed by 0's possible.
+* It is like **((0 + 1) ^ * )**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a04a0efd-4d5b-4086-bdb8-66e442499a75)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/23d99b1c-fd4e-4eac-993a-9e38af7cddfe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ddc9962-6186-4f95-becb-b87d6b70d211)
+
+* These **four** are **same**.
+* Always ending with **b**, why not ending with **a**.
+* Always ending with **a**, why not ending with **b**.
+* Always starting with **a**, why not start with **b**.
+* Always starting with **b**, why not start with **a**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d5294122-8cc3-46c8-b4e5-4cd32d3b039c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f855522d-b720-4595-839a-403474f31244)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3509f7c6-3817-4607-a5c0-a7904c620fe8)
+
+* No problem
+* Last **a** will be given by **(a ^ * )** outside.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/605f3b30-7eb6-4331-a546-7179be805d78)
+
+* All **12** of them are **equal**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fcd48d57-6824-4d78-b604-479f3dfb44c9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/52697abe-d850-40d6-83c3-8b5e1b3ef1b5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/90d41c02-87b7-4d07-b21b-eff7ce49d2de)
+
+* L = {Set of all string over it's alphabet, {0,1,2} in which every **2** is immediately followed by exactly 2-0's and every **1** is immediately followed by **0 or 2**.
+* Everyone is immediately followed by **zero(0)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f988dbf-cb2e-418c-904f-4f560cf9d70c)
+
+* [**IMPORTANT**]
+* Directly we cannot write **regular expression**. Directly we cannot construct **DFA**.
+* We have to start with **NFA**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a5e231d-fa56-45bb-8dac-f959483a625f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1dca33ec-bbcf-461c-af33-f87c9e9fa2e2)
+
+## NFA Construction
+
+* **NFA** will cover only valid things.
+* When we are constructing an **NFA** for a given language(L) then we will try to cover everything in **L** only.
+* **DFA** will cover everything in **(Sigma ^ * )**.
+* **NFA** construction much easier than **DFA** construction because **NFA** will cover only string present in **L** but **DFA** will cover every string present in **(Sigma ^ * )**.
+* **(Sigma ^ * )** -> (L U L') -> Valid and Invalid both.
+* L' -> Complement of **L**.
+* **L'** complement people will go to **non-final** state**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c31411b-bf81-4312-a871-1f1a6415b7dc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34701ac8-969c-44f9-8b7f-e4c2fd1f7162)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6bca4dc8-1612-4e4e-94bf-bf236fe492d1)
+
+* Start from 1hr 32mins.
+
+
+
+
+
+
+
+
 
 
 
