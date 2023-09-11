@@ -3619,47 +3619,197 @@ L = {Give a regular expression of all a's and b's where the length of every stri
 * Epsilon-NFA.
 * Minimal NFA not unique.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8dd943bf-a01e-44c9-bea7-1267f5ab5b6d)
+
+* C-NFA
+* L = {abb, baa}
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1becf3f-5e7e-4c32-9221-58b1d2821cbf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/53a2d26a-e0fa-4631-8863-1943443dfead)
+
+* Power set of Q, P(Q) means **subsets**. All **subsets**, anything can happen.
+* There is chance of going to **all** because one of the **subsets** is going to **all**.
+* There is chance of going to **nothing** because one of the **subsets** is going to **empty set**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d0e85cf-da60-4612-8813-ba21e644e670)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5c7c17b1-c27d-469f-ab6c-cfd12acade9e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81fbfbde-40a0-48df-9473-dabc812bb29d)
+
+* Finite Automata(FA).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50a62eee-a075-4fa4-8417-047d8d12262f)
+
+* **NFA** starting and ending symbol are different.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5675b626-0adf-4ba0-81a5-5747ca0c7609)
+
+* Language matters.
+* **Order** relation is there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3c1f46d-af4e-4dab-b863-ba348fb6913f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89455f97-d44f-46c2-9695-98331b2564f3)
+
+* If **order** important or something related to **order** then **Epsilon-NFA** comes to the **picture**.
+
+## Epsilon-NFA to NFA conversion
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7488cfcc-a1fe-4286-b072-e6099232970f)
+
+* This is **((0 ^ *) * (1 ^ *) * (2 ^ *))**.
+* **((a ^ *) * (b ^ *) * (c ^ *))**.
+* Any no of '0's' followed by any no of '1's' followed by any no of '2's'.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a439541-9d2f-44bf-adba-87bc47f9db4e)
+
+* **Epsilon-NFA** having **3 states**.
+* **Equivalent NFA** containing **3 states**.
+* In **Epsilon-NFA**, **q2** is **final state**.
+* In **Epsilon-NFA**, whoever is **final state** make that state **final state** in **Equivalent NFA** as well.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/edeef8fb-7eb3-40b6-a121-c0119ebe6f3e)
+
+* From **q0** by reading only **epsilon**, we can go to **final state**.
+* Final states may **increase**. Sometimes may not **increase**.
+* Either **same** or more will be there.
+* **Initial state** is **same**.
+* **No. of states** is **same**.
+* **Final state** is **same** final state, plus, from any state by reading only epsilon if we can reach **final state** then make that state as **final state**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/99c8b52d-b4ec-4b21-a272-c0b247f75ec8)
+
+* For doing **transition lines**, we have to see the **original diagram**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bee1026e-6162-4a48-a669-4c4a6294a41a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f35460e-26b8-4627-9461-ecaf809994c6)
+
+* On **q0**, if we apply **0**, where can we go.
+* 0 * epsilon * epsilon -> 0
+* 0 * epsilon -> 0.
+* We can read any **no. of epsilon**.
+* **Zero(0)** should be there.
+* **Zero(0)** followed by any no. of epsilon we can read.
+* Before **Zero(0)** also any no. of epsilon we can use.
+* We can take the **epsilon's help**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/560cf266-1b23-4035-92ed-e9026e856ede)
+
+* On **q0**, if we apply **1**, where can we go.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9c1850b8-799f-4cfd-a8ad-1d6fb9306432)
+
+* On **q0**, if we apply **1**, we can go to **q1 and q2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2877b426-a179-4fad-ab4f-2ac93272b97e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d91dac25-5727-4ba8-926a-e5ef0a34a8a4)
+
+* On **q0**, if we apply **2**, we can go to **q2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0380102c-22cd-4a63-80e4-ea3d6dc408cf)
+
+* We cannot. Where is the **2**?
+* **2** is not visible.
+* On the **transition line**, **2** should there.
+* We have to read **2**, we only read **epsilon**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/94ea5b29-06ce-48a4-a7b5-4dffa9c90ad7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/03bb7b6b-97a7-4188-9237-c918f23ea64a)
+
+* No one is going **before**.
+* We are at **q1** and we want to apply **0** but no where **zero(0)** is visible. At **q1** no zero(0) and further also **no zero(0)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/59f7db6e-3d9f-4f15-bf8f-761281a38b17)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8d92308-4165-4cea-915a-9cbcba8034b3)
+
+* **q1** on **0**, no chance.
+* In case of **NFA**, not going anywhere is possible.
+* In **DFA**, not going anywhere is not possible. We have to go to **trap state**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d192eb78-68ad-4243-bf58-1eaa794ddbb1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e22f89af-9c3d-47d5-aacd-a537668e0dc3)
+
+* We are at **q1** now. At **q1** or **after q1**, anywhere **2** is visible, as we cannot go back. We can move in the **forward** direction. From which side we can go, that side any **2** visible? At **q1**, **2** is not visible but after **q1**, **2** is visible.
+* We can go to that **2** with the help of **epsilon**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/28c55491-4d9f-4b49-b9ba-86f2df9c2fb5)
+
+* **q1** on **2** is **q2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2fce86e5-b801-460f-9cdc-9c81a03ec18d)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/361450dc-c669-4c10-a782-a4481f70ceb4)
+
+* We **ignored** it.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d6bdfde-fcd3-4181-9ef7-0aab0038b5de)
+
+* We are at **q2**.
+* On **q2** we want to apply **0**.
+* On **q2**, **0** is not available.
+* We cannot cannot go back. We can go in the **forward** direction and foward is not there. **Backward** we cannot go.
+* Just neglect.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95b32fb9-6438-4602-a3c3-df5cd4046695)
+
+* We are at **q2**.
+* On **q2** we want to apply **1**.
+* On **q2**, **1** is not available.
+* We cannot go back also. Forward is not there.
+* Just neglect.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2da56565-90e3-4f3e-ba92-050e22e5e5ae)
+
+* We are at **q2**.
+* On **q2** we want to apply **1**.
+* On **q2**, **2** is available and we can go to **q2**.
+* We cannot go back also. Forward is not there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95c30f6c-84e8-47ea-8c98-b76355b0bc24)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f26b049-b5f1-4849-bfde-7461773d36ee)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f287e85-2022-4671-af02-37fc9f1f9168)
+
+* [**IMPORTANT**]
+* Major things is **transitions**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/928812ce-61af-45b0-b916-00023812be38)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a4fc94da-ce59-4800-a5d2-5578e0e7f3db)
+
+* We can take **any combinations**.
+* We can take **epsilon's help**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/39074573-f773-4ae2-92b2-52d4ce7ac8f2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4921f76f-5a99-440d-ae2d-e5e871cb8c39)
+
+* Minimal string -> Epsilon.
+* Some many 0's are allowed.
+* Some many 1's are allowed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e5a71b4-1b9c-46a6-9f2a-9e81c2359a2b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc645e9b-1c84-4bf5-a389-e6e3f3b7175e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af3f51b6-11df-4fff-9047-de8b0ef9d9f8)
+
+* **q0** on **1**, we can go to **q2**.
+* **S1** on **1**, we can go to **S2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b657b2f8-7fbf-4b20-aec0-0508bd92dd52)
+
+* On **S1** on **1,2,3** we can go to **S3**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ff0471b-312a-4898-895d-443ac4415480)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12f9d5fc-0882-48f9-9aa0-8bb1361631cb)
+
+* Example.
+
+* **STEPS**:-
+
+1) Take every state.
+2) Take same initial state.
+3) Take same fianl state. Chance of **final state** may increase.
+4) In the original diagram go to every state and we currently at **A** and by reading only **epsilon**, we can reach the **final state**.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d5a28f99-4433-4a94-837a-d2d64b077c59)
 
 
 
