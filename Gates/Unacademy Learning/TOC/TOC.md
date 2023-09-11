@@ -3507,7 +3507,112 @@ L = {Give a regular expression of all a's and b's where the length of every stri
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34701ac8-969c-44f9-8b7f-e4c2fd1f7162)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6bca4dc8-1612-4e4e-94bf-bf236fe492d1)
 
-* Start from 1hr 32mins.
+* **NFA construction** will take care about **valid things**.
+* **DFA construction** will take care of **everything**, valid, invalid both. 
+* **DFA transition function(Delta)** -> Any state which is present in **Q** and applying any of the symbols that are present in **sigma**, we have to go to one of the states present in **Q**.
+* **NFA transition function(Delta)** -> Any state which is present in **Q** and applying any of the symbols that are present in **sigma**, we have to go to **maximum** which is the **worst case** and it is the **Power set of 'Q', P(Q)**. Any combination can happen. This is the meaning of **NFA**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/88c5e62e-7a45-4923-b518-e37307d043d7)
+
+* **NFA** can go anywhere.
+* **DFA** will go to **exactly one(1)**. 
+* In **DFA**, **valid** is **yes** and **invalid** is **no**.
+* In **NFA**, **valid** is **yes** and we don't talk about **invalids**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4c1be57-215b-4d7f-bea5-5be45c33a4fe)
+
+* **NFA** having **choice**. It may not going anywhere but it may go to all also.
+* **DFA** will go everytime **one(1)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d645e613-60b6-469d-b8ab-3e27a4edb55b)
+
+* In the **transition line** of both **NFA and DFA**, the symbols that are present in **sigma** are allowed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24dbcb93-8ad8-4a5c-91aa-db8fbfb73e2a)
+
+* The **transition line** of **Epsilon-NFA**, any state that is present in **Q** and by applying any one of the symbols that are present in **sigma**, we will get **power set of Q, P(Q) or (2 ^ Q)**.
+* Any **subset** we can go.
+* Both are **same**, **P(Q) or (2 ^ Q)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16cc4bb6-8cf9-4806-9a41-599049a28efb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa416336-c693-4d55-aa3d-3b6feb51c4a1)
+
+* As it is the **Epsilon-NFA**, on the **transition line** the symbols that are present in the **sigma** are **valid** and **epsilon** is also **valid**.
+* On the **transition line**, we can give **epsilon** also.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2bdf6433-26fc-44cb-b899-9167bde8c482)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff32dc61-dc27-4180-973d-1b29fa404c41)
+
+* This is allowed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c6f45349-50cb-407f-a402-5b4d0b7dad5f)
+
+* **NFA** means both **epsilon free NFA** and **Epsilon-NFA** will come.
+* **Finite automata** means **all**, we can take any.
+* In **NFA** construction, do the required things only.
+* Everything that is present in **L**, we have to **accept**. That is **NFA**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1f3b23e-5efa-408a-9fff-7d2aacdd61d7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e25a3763-3648-4638-a0c7-9b58565cceec)
+
+* yes.
+* Epsion, only a's, only b's, a's followed by b's.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34ef8255-9037-4990-91ac-781443bb257b)
+
+* All valid things we have to cover. [**IMPORTANT**]
+* Only a single invalid should be accepted. [**IMPORTANT**]
+* **NFA** never contain **dead state**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ff7e7d8-1d85-41db-abe8-ad34e15065cd)
+
+* Every **valid** should be **accepted**. [**IMPORTANT**]
+* One **invalid** also we cannot **accept**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea1990a3-47d3-4b0d-a49f-3d08d5b8d59e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d527826-6ec7-4df1-983f-8beea178b4b1)
+
+* First **a's** should come then **b's** should come.
+* Whenever **order** matter then what we do is like **below**:- [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a759c03c-07ed-4e31-abc9-8826018eb2d5)
+
+* **S1** will take care about **a's**.
+* **S2** will take care about **b's**.
+* We can put **epsilon** on the **transition line**.
+* By reading **epsilon**, we can go to **final state**.
+* **Epsilon** is **accepted**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d3a4153-7068-40e3-a979-a6163389e80f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41d9fc89-b117-48c9-980a-8157387fa7e5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/debb0c6c-f4c5-4265-93fe-5bf8ab47e474)
+
+* We can go from **one state** to **another state** without reading any symbols also. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/442e20f7-480b-48e5-8a04-71cacd2cce25)
+
+* This is **Epsilon-NFA** construction.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f461555f-5afa-419e-a820-5c3ff940bf70)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/88a9608c-383a-45fd-88f2-d0d600841c28)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/42e96e82-4756-4bcc-ad5b-6ad36e194046)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d239709-687f-4e77-8a3c-57f5b6133228)
+
+* Epsilon-NFA [**IMPORTANT**]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
