@@ -4212,15 +4212,39 @@ L = {Give a regular expression of all a's and b's where the length of every stri
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eccb3baa-09a2-41b6-beda-cfbd555357bb)
 
+## conversion-ii(18) [11th Sept 2023]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b08df2c2-e5a6-4c64-9680-caa9205fb928)
 
+* All states are recheable from **initial state**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19c64ae7-9292-4658-b1cf-e344e462edf0)
 
+* No **dead states**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b1abc5e8-c882-4a76-925c-1ec39a9b9368)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e29dca49-9734-47e5-9e8c-0a0b5b3f494d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f959bf6-bfd5-4d88-816c-ea3c2b1c6208)
 
+* We have **three** loops.
+* So it is an **infinite language**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a10373d-3b87-471e-8a13-2131fef03ca3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a9f68465-167d-4ff5-bf30-9244b8c6f8b7)
 
+* [**IMPORTANT**]
+* In the **3rd step**, **loop** is there and **atleast one(1) final state** required.
+* **Loop** is there but **no final state** then it is accepting **empty language**.
+* Whenever **empty language** we cannot say **infinite language**.
+* **Atleast one(1) final state** is there but **no loop** there, then it is **finite language**.
+* **Loop** is there but **no final state** then it is **empty language** which means it is **finite language**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bbcf8d31-db50-4daf-9c6f-d59ff5c02595)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/07f26a19-7529-4b8d-b25c-ea2305c6e849)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/59e13762-ad2c-472f-a296-a9672446532a)
+
+* [**IMPORTANT**]
+ 
 
 
 
