@@ -3600,7 +3600,24 @@ L = {Give a regular expression of all a's and b's where the length of every stri
 
 * Epsilon-NFA [**IMPORTANT**]
 
+## doubt-clearing-session (16) [11th Sept 2023]
 
+* C-NFA -> Construct NFA.
+* L = {Set of all string of a's and b's where each string contain 'abb' as substring}
+* Min length -> 3
+* Min string -> abb
+* Before and after 'abb' can be anything.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6966ae0e-5709-4bd2-b8a3-d74adc9cb37f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/25b58886-1d17-4cf6-9fcf-cf2f834cbb13)
+
+* NFA.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c441800-73e1-4da5-9d6b-4a6983cdfad7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/579cc605-0e96-473e-92ab-031fd32036b1)
+
+* Epsilon-NFA.
+* Minimal NFA not unique.
 
 
 
