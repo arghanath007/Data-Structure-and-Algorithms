@@ -1,4 +1,4 @@
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d3305e7-c0f2-4edd-891f-6d0daec3f01b)# TOC
+# TOC
 
 ## Motivation
 
@@ -4544,3 +4544,4 @@ L = {Give a regular expression of all a's and b's where the length of every stri
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bef6f5d8-9532-4788-a4fe-07b0c733ca7b)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d43f8ed-d24f-413a-9b1a-dddcb37f6f9b)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97f0067c-0503-45b8-b37e-ba734b7274e6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d3305e7-c0f2-4edd-891f-6d0daec3f01b)
