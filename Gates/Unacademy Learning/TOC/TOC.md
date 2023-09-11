@@ -4244,53 +4244,127 @@ L = {Give a regular expression of all a's and b's where the length of every stri
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/59e13762-ad2c-472f-a296-a9672446532a)
 
 * [**IMPORTANT**]
- 
 
+## Equalities
 
+* For **equality**, we need **two** inputs.
+* Not only **Two finite automatas** but **two DFAs**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/034cdd4d-34de-4903-8501-0f646748eb8e)
 
+* Both are **DFAs**.
+* Two machines are equal if both contain **same** no. of states. It is **wrong**.
+* It may be or may not be.
+* No relation.
+* Two machines are equal if both contain **same** no. of **final states**. **NO**. It need not be. 
+* What language they accept that matters.
+* If both accept **same** language then they both are **equal**.
+* When **two machines** are equal, when they both accept the **same** language.
+* Language only matters.
+* If **alphabet** itself is different then we don't check also.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/814c5ea9-2138-4ec4-b886-0209548650c2)
 
+* From both the machines, stay at the **starting state**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ceca147-0cde-4756-a54e-d0ef68bf4511)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c3458e4-f8fa-4335-83f7-5414bc669bd6)
 
+* Both are **equal** measn both accepting **same language**.
+* One machine is on **C** and another machine is on **D**.
+* Both machines contain **C**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6cbc6f29-4766-428e-8c82-cd42f762a82c)
 
+* Different alphabet, no need to compare. They are not going to be **same**.
+* Because of **DFAs**, some behaviour is there.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4039783d-f4d2-4a8f-8976-db2b6f933208)
 
+* Both the automatas start form **starting** only.
+* The table contains **two machines's** behaviour.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1dcab623-f13a-4195-a1fb-846674ba8e0b)
 
+* First machine is **accepting** and second machine is **rejecting**.
+*  At anywhere combination of **final and non-final**, not it.
+*  Both are **not same** because one is accepting(final) and the other is rejecting(non-final).
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f4b0b11-d5ec-4c42-bb3a-398b6ab32485)
 
+* Using comparison table we can say that they are **equal or not**.
+* No. of states doesn't give gurantee that they are **equal or not**.
+* No. of **final states** doesn't give gurantee that they are **equal or not**.
+* The only thing that gives gurantee that they are **equal** is the **language**.
+* Both are **accepting** same language or not.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c640bd65-259f-4869-a314-89bbfad9aaa3)
 
+* These **three** problems of **FA** are **decidable**.
+* In case of **emptyness** problem, our goal is **accepting something**.
+* The **FA** which is a **DFA** is accepting **empty language**. How?
 
+1) If no final-states
 
+* For the given **DFA**, do **complementation** which is turing the **non-final** states to **final states** and then the **final states** to **non-final** states.
+* If we check the **DFA'** or **DFA complement** if it is **empty or not**. **YES** it is **empty**.
+* It means that the given **DFA** is **accepting everything**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b6f33ae0-d26a-4bad-95dc-48adcc100200)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e523316-d949-478c-bd79-266af315d3de)
 
+* Given **FA** which is a **DFA** is accepting everything or not that is also **decidable**.
+* It is called as **completeness problem** of **finite automata**.
+* So, **completeness problem** of **finite automata** is **decidable**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b12ed508-3ca7-4d0e-b217-cdc703ae1187)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f52ddbfc-b68f-4a4d-8239-19ffdcb66a0d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a37fb47-40bd-48f0-919d-1445b6ac3db3)
 
+* Does **FA** accepts the given string **w**?
 
+> On the given **FA**, apply the string **w**. Finally, we are in **final state**, so **w** is **accepted**.
 
+* It is a **decidable** problem. 
+* It is called as **membership** problem.
+* The string is a **member** of the given **FA** or not.
+* If any string that is accepted by the machine is a **number** otherwise it is not a **number**.
+* So, **membership** problem of **FA** is **decidable**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ead1798c-52be-4711-a848-a9383e02e81c)
 
+* Does **FA** halts after reading string **w**?
 
+> **YES**. It will **halt**.
 
+* This problem of **turing machine** is **undecidable**.
+* Hanging** is a part of any device.
+* Small machines may not hang.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5884f501-c598-46ed-b226-a4fff148422b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/28440839-5db3-45dc-b3cb-69d486243a56)
 
+## Minimization of FA(DFA)
 
+* It is **DFA**.
+* Goal:-
 
+1) If any 2-states are behaving as **same** then make it as single state.
+2) Before applying minimization algo, remove unrecheable states from the **initial state**.
 
+* Not recheable is anyhow **useless** only.
+* It will eliminate **redundancy**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/991a0a6c-5dce-4ebc-914d-3f33a896e272)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ca086b8a-8d7e-4c1e-94b3-febfc1b8060b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3a56ffc-271a-41e0-95dc-728b85bb2e95)
 
+1) Taste Filling method -> O(n ^ 2) Time
+2) Partition-Algo -> O(n * log n)
+3) Myhill-Anilnirode Theorem.
 
-
-
-
-
-
-
-
-
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24534891-41f5-439d-9e8a-8f902d2c022a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3593e523-c5e0-4df2-9963-2d60cdd0bd8e)
 
 
 
