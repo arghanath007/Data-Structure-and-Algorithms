@@ -3806,50 +3806,205 @@ L = {Give a regular expression of all a's and b's where the length of every stri
 1) Take every state.
 2) Take same initial state.
 3) Take same fianl state. Chance of **final state** may increase.
-4) In the original diagram go to every state and we currently at **A** and by reading only **epsilon**, we can reach the **final state**.
-
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d5a28f99-4433-4a94-837a-d2d64b077c59)
 
+4) In the original diagram go to every state and we currently at **A** and by reading only **epsilon**, we can reach the **final state**. **YES**, Then **A** also is **final state**.
 
+* We currently at **B** and by reading only **epsilon**, we can reach the **final state**. **YES**, Then **B** is also **final state**.
+* We currently at **C** and by reading only **epsilon**, we can reach the **final state**. **NO**, Then **C** is not **final state**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9c1a1c4-f67e-41a3-9313-3a40392a442e)
 
+5) Now, do the **transitions** using **epsilon**.
 
+* Free service  -> **epsilon**.
+* Symbols in the **original diagram** -> {0,1}
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41cb1653-6daf-4531-87b7-140ca274602f)
 
+* We are at **A**.
+* Now see the **original diagram**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/73af1409-3a61-434e-9fda-2a1698fcff64)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f83bc74-6a22-440a-9c52-18544ec653c9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bee7147d-371b-4e63-b350-f360bde71c3f)
 
+* From **A**, using **0** we can go to **A,B,D,C**.
+* From **A**, using **1** we can go to **A,B,D**.
+* We are at **A** and we want to go to **C**, **zero(0)** is **compulsory**. we cannot do with **1**. Not possible.
+* For **A**, on **1**, we never go to **C**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d30c6c4-a222-495c-9ed6-44b4801d590f)
 
+* We are at **D**.
+* Now see the **original diagram**.
+* We cannot do backward.
+* From **D**, using **0** we can go to **D**.
+* We cannot do backward.
+* From **D**, using **1** we can go to **Phi**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ca85cdc7-b8b1-4956-901f-fab666aae608)
 
+* We are at **B**.
+* Now see the **original diagram**.
+* We cannot do backward. We can go **down and right** and **not left** of **B**.
+* From **B**, using **0** we can go to **C,D**.
+* We cannot do backward. We can go **down and right** and **not left** of **B**.
+* From **B**, using **1** we can go to **Phi**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/995e808d-47c8-48b0-ac7a-34669c23d8ef)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d9ce448d-b3a6-4b7b-bcd6-7e15b8c66e9e)
 
+* We are at **C** now.
+* Now see the **original diagram**.
+* If we want to go **outside** then we need **1**.
+* From **C**, using **0** we can go to **phi**.
+* We cannot do backward. We can go **down and right** and **not left** of **C**.
+* From **C**, using **1** we can go to **B,D**.
+* From **C**, using **1**, we went to **D** by **1 followed by 'epsilon'** which is **1 * epsilon -> 1** only.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3a8e0e6-a68f-4dd4-b9f3-9e89706faa36)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/756df3d3-aa3d-477a-920c-3e8b747af2f4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a539323f-21b3-40ca-b671-9c629e5d8183)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f4e1383-fcbe-4cd4-8b58-bb28f5e48010)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b1f8d376-1d2b-49b7-98d0-9fccdc72640b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ecfb07c6-6149-42ec-a7f9-b2db15c77524)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85c51903-b847-4a43-93cc-aea28c31b4ed)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb6f3b08-2dae-436b-a70d-f8d35fb25741)
 
+* Example
+* States will be **same**.
+* Automata can be represented in a **table** as well.
 
+* We currently at **A** and by reading only **epsilon**, we can reach the **final state**. **NO**, Then **A** is not **final state**.
+* We currently at **B** and by reading only **epsilon**, we can reach the **final state**. **NO**, Then **B** is not **final state**.
+* We currently at **C** and by reading only **epsilon**, we can reach the **final state**. **NO**, Then **C** is not **final state**.
+* We currently at **D** and by reading only **epsilon**, we can reach the **final state**. **NO**, Then **D** is not **final state**.
+* So only **one final state** here, which is **E**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a9d7c6c3-cd0b-4471-980f-9eba55d56eb0)
 
+* Take whatever **final states** we have from the **orignal diagram** and see if we get more **final states** or not.
+* From any state by reading only **epsilon** if we can go to final state then make that state as **final state**. [**IMPORTANT**]
 
+* We are at **A**.
+* Now see the **original diagram**.
+* From **A**, using **0** we can go to **A,B,C,D,E**.
+* From **A**, using **1** we can go to **D,E**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/42e3cc39-3f0b-4d5b-b205-19f8ada5903c)
 
+* We are at **B**.
+* Now see the **original diagram**.
+* We cannot go back. If backwards edge there then go **backwards**.
+* From **B**, using **0** we can go to **C**.
+* We cannot go back. If backwards edge there then go **backwards**.
+* From **B**, using **1** we can go to **E**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b9c05be6-4b17-4ff5-a387-61f5ae4dfebd)
 
+* We are at **C**.
+* Now see the **original diagram**.
+* We cannot go back. If backwards edge there then go **backwards**.
+* From **C**, using **0** we can go to **Phi**.
+* We cannot go back. If backwards edge there then go **backwards**.
+* From **C**, using **1** we can go to **B**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f09a417f-4101-4ecf-b0d0-5d55e6ddf619)
 
+* We are at **D**.
+* Now see the **original diagram**.
+* We cannot go back. If backwards edge there then go **backwards**.
+* From **D**, using **0** we can go to **E**.
+* We cannot go back. If backwards edge there then go **backwards**.
+* From **D**, using **1** we can go to **D**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f287a15c-c71e-40ea-bdba-68b7b448f774)
 
+* We are at **E**.
+* Now see the **original diagram**.
+* We cannot go back. If backwards edge there then go **backwards**.
+* From **E**, using **0** we can go to **Phi**.
+* We cannot go back. If backwards edge there then go **backwards**.
+* From **E**, using **1** we can go to **Phi**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/551d9012-18dc-4838-96da-66c11e21ff4f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/821603b4-92f5-4198-90e4-f9f9838b1683)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/73c63274-c7dc-4c27-97ee-ec648ef8bab4)
 
+* In the **epsilon-NFA**, **q0** is the **initial**.
+* From **q0** by reading **epsilon**, we can go to **q1,q2**.
+* By reading **epsilon** wherever we can go from the **initial state(q0)**, make the total people as **initial state**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e7c115c3-cbc1-4942-a8fc-243e52253051)
 
+* From **q0** on **zero(0)**, we can go to **q0,q1,q2**. We can go to **all**.
+* From **q0** on **zero(0)**, we can go **everywhere**.
+* For **q1 and q2**, something will come.
+* Overall **everything**.
 
+* From **q0** on **one(1)**, we can go to **q1,q2**. 
+* From **q1** on **one(1)**, we can go to **q1,q2**. 
+* From **q2** on **one(1)**, we can go to **phi**.
+* Overall we got **q1,q2**. 
 
+* From **q0** on **2**, we can go to **q2**. 
+* From **q1** on **2**, we can go to **q2**. 
+* From **q2** on **2**, we can go to **q2**.
+* Overall we got **q2**. 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1295abc4-80d9-47c4-8026-df801cf2a072)
 
+* Yes, **new state(q1q2)** came.
+* From **q1q2** on **zero(0)** which is **q1** on **zero(0)**, we got **phi**  and for  **q2** on **zero(0)**, we got **phi**.
+* From **q1q2** on **zero(0)**, we got **nothing**.
+* **Nothing** means we have to go to **trap or dead state**. 
+* From **q1q2** on **one(1)** which is **q1** on **one(1)**, we got **q1q2**  and for  **q2** on **one(1)**, we got **phi**.
+* From **q1q2** on **one(1)**, we got **q1q2**
+* From **q1q2** on **2** which is **q1** on **2**, we got **q2**  and for  **q2** on **2**, we got **q2**.
+* From **q1q2** on **2**, we got **q2**
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc3d07a9-9fbc-42b5-a5db-b9902bc1f689)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2e2993fa-3573-49e6-abd4-71fbf9f19500)
+
+* **q2** on **0** cannot go anywhere. So, **dead state**.
+* **q2** on **1** cannot go anywhere. So, **dead state**.
+* **q2** on **2** we go to **q2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe7e283a-10f2-4e53-8698-402cb5cfd59b)
+
+* This is **DFA**.
+* In the **epsilon-NFA**, **q2** are **final state**.
+* Where **q2** visible that is **final state** in **DFA**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d69a5a55-098f-4a0d-b17e-f9e74bb96341)
+
+* This is like **NFA to DFA** with **one change** which is **initial state** and **transitions**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35ff2a80-deb4-4fbe-b270-67b506d5c257)
+
+* Initial state -> Same initial state as original diagram **plus(+)** from the initial state by reading **epsilon** whichever state we can go to make those also part of the **initial state**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/944b1045-ede1-4b95-a89a-64316e0dc88d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e69db6f-9465-4b25-bb21-9e5329827da3)
+
+* Epsilon NFA to DFA [**IMPORTANT**]
+* **NFA** to **DFA** conversion is going on then who are **final states**?
+
+> Wherever **final state** is visible in the **DFA**, make them as **final state**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb6cb907-3466-48e3-a3ab-aad2ec0d97ab)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fbfa6f19-520f-43db-b85a-7e4980cae9c5)
+
+* Any where if we see **epsilon-NFA's final state** then make that state as **final state** in **DFA**.
+* **Epsilon-NFA to NFA**
+* **Epsilon-NFA to DFA**
+* Options.
+* Minimal DFA no gurantee.
 
 
 
