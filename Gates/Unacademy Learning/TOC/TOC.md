@@ -1,4 +1,4 @@
-# TOC
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d3305e7-c0f2-4edd-891f-6d0daec3f01b)# TOC
 
 ## Motivation
 
@@ -4006,46 +4006,211 @@ L = {Give a regular expression of all a's and b's where the length of every stri
 * Options.
 * Minimal DFA no gurantee.
 
+## conversion-i (17) [11th Sept 2023]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98d4e805-f36d-4f47-a49f-98ed9243caa7)
 
+* NFA to DFA.
+* Taking the starting state which is **A**.
+* From **A**, we can go to **B**, so **B** is **starting state**.
+* From **A**, we can go to **D**, so **D** is **starting state**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e693a5b6-2672-4039-8ce4-cd1db7f67ddc)
 
+* For **ABD** on **0**, we got **A, B, C and D**.
+* For **ABD** on **1**, we got **A, B and D**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8eb3aed8-ad87-4670-b1e7-17e4d06b0ad0)
 
+* New state is **ABCD**.
+* For **ABCD** on **0**, we got **A, B, C and D**.
+* For **ABCD** on **1**, we got **A, B and D**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ff097fd-064f-4187-b4c3-8acdbd9276e4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7eace29-ef19-454d-b7d0-bca79e7b9a29)
 
+* As there are **no new states**, so we can stop.
+* As **D** is the **final state** in the **original diagram**.
+* So, in the equivalent DFA, we have created, wherever **D** is present in the state, mark them as **final states**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/216c02d6-ab09-462e-8d83-7fc61205f62b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd596496-478f-4142-adbf-eea6d70fd920)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f12a79b5-958c-4b1b-97b3-a1cb1919229f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd4d4dce-2c66-435d-887e-2fc11f6dce9d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/860e0d5a-df74-4816-99bb-175b8c20b2b0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/adc11fa1-0a34-450d-af8f-6d780e616c0a)
 
+* Expressive power of DFA = Expressive power of NFA = Expressive power of (Epsilon-NFA)
+* They will all accept the same power. 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/592fd618-3033-460c-a3ec-01afa7d25458)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/deefc805-49d4-42e8-b6bd-4b22b332f086)
 
+* [**IMPORTANT**]
+* **Epsilon-NFA** providing a lot of **flexibility**.
+* Power -> What we can **accept**.
+* In terms of **power** all three will accept the same story.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b2da3227-d9cb-46f5-8da3-babdd1ac3500)
 
+* It is accepting **epsilon** which is nothing but **zero(0)** length string is **accepted**.
+* In **DFA**, on the **transition line**, we cannot take **epsilon**.
+* **Epsilon** is not allowed.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc59f08b-ae99-40a9-ae4a-01b6e8a44b3f)
 
+* This is the way to accept **epsilon** in **DFA**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b690ff21-6b89-4abe-ab61-274438110809)
 
+* First is **epsilon-NFA** and the second one is **DFA**.
+* Minimal finite automata -> We can consider NFA.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c43f9b34-47aa-4709-9ebf-6ec5f991ca5e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/165e8f0a-1209-4074-be6f-84306ca81430)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d9dbde87-1492-4e22-9433-ab6565982e94)
 
+* Using the **conversion** algo, **Epsilon-NFA** contain **4** states and **equivalent NFA** also contain **4** states.
+* For the given language, **Epsilon-NFA** is possible **many ways**.
+* If **NFA** contain **5** states then the **equivalent DFA** will contain in **worst case**, **2 ^ 5 = 32** states.
+* All **subsets** we have to cover.
+* The **Epsilon-NFA** contains **4** states then the **equivalent DFA** will contain in **worst case**, **2 ^ 4 = 16** states.
+* All **subsets** we have to cover.
+* In **worst case**, all **subsets** will come.
+* **NFA** means both **Epsilon-NFA and Epsilon-Free-NFA** will come.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f29a27d1-1249-469a-8cb2-9f3abf1452c9)
 
+* In terms of **power**, all of them will be **similar**.
 
+## Decidable Problems of Finite Automata(FA)
 
+* **Finite Automata(FA)** has no chance of **hanging**. It will either **accept** or **reject**.
+* **Small machines** having **two choices** only, either they will **accept** or **reject**.
+* **Biger machines** having **three choices** only, either they will **accept** or **reject** or **hang**.
+* Computer program is nothing but **Turing Machine**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5f3e881f-1ac4-4fe9-bb3e-5e0f5969292f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8d9e300-9134-47e3-aaf4-d7e0f739926d)
 
+* **Hanging** concept will come from **tuning machine**.
+* If we have **three choices** then it is **not decidable**.
+* If we have **two choices** then it is **decidable**.
+* **Finite automata** is having **two choices** only.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9a7b9f61-5dc4-4b42-a739-02056178329e)
 
+* Problems of **FA** which are **decidable**
 
+1) Emptiness Problem
+2) Finiteness Problem
+3) Equality Problem
 
+## Emptiness Problem
 
+* Input -> Finite Automata
+* Output -> Empty or Not Empty [Two choices]
+* We can give **NFA, DFA, Epsilon-NFA**.
+* We can give anything.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f18b49d9-7b0c-4bf6-9bf5-000d542fae49)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4cdead04-153f-42da-a904-17949dd6164f)
 
+* In the given automata, **no final state** then it will accept **empty language**.
+* **Final state** is there but from **starting state** it is not **recheable**.
+* To check if the given automata is accepting empty language or not?
 
+1) Eliminate those states and it's transitions which are not reachable from **initial state**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4efc9db8-0df6-4b9d-b182-a8b255761c69)
 
+* **E and F** are not reachable from **initial state**.
+* Whoever left are reachable from **initial state**.
 
+2) In the remaining **FA** if we found atleast **one(1)** final state then given **FA** accepts non-empty language otherwise **empty language**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c072eb21-5f3c-4835-b3ea-535ecd659516)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b1e15bb3-113c-4d13-8beb-543f4b8cb12d)
 
+* We don't see any **final state** so the **FA** accepts **empty language**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/49bab000-6375-41dc-bffc-556238d2d020)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/029cbfa6-f6ae-4649-bdf9-3baee677cd5e)
+
+* [**IMPORTANT**]
+* To solve any problem, if we can give an **algo** like **above** then it is a **decidable** problem otherwise it is an **undecidable problem**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/684b47c2-3170-4534-9cba-9e70f404e484)
+
+* Example
+* Empty or Not Empty?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc161c4c-de7d-42af-bf99-a74abcc24139)
+
+* After **simplying** we saw that we have a **final state** which means it is accepting **some language**. So it is a **non-empty language**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8aa7d872-19e6-4565-84bf-655e2e2416b0)
+
+* Emptyness problem of **finite automata(FA)** is **decidable** why?
+
+> There is an **algo** to do this.
+
+## Finiteness
+
+* If we want to get **infiniteness** then **loop** is required.
+* Without **loop** we cannot say **infinite**.
+* Without **loop**, then it is **finite**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d61cfa24-ee12-46a8-8dc2-ad1322a64d55)
+
+* Loop there -> Infinite
+* Loop not there -> Finite.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/460366f5-631d-4351-b264-edf45495146e)
+
+* **Loop** is there but that state is not recheable from the **initial state**.
+* Recheable loop or not.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae444015-904c-43b5-b2f1-c9a923f93b44)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32c4ffc4-b99e-48d0-8847-0a1845be098c)
+
+* From **starting state**, **S4** state is **recheable**. **S4** is **recheable** but what is the use, **S4** is **dead state**. There is **no chance** of going to the **final state**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f393bff4-54c6-4944-b0f9-53653ae47a0a)
+
+* Finite or Infinite -> Belongs to **loops** or not.
+* **STEPS**:-
+
+1) Eliminate those states and it's transitions which are not recheable like **previous problem** from **initial state**.
+
+* When first step is over all states are **recheable**. We can go to **every state**.
+* One person is **recheable** but from that **state/person**, the **final state** is **not recheable**.
+* From any state we cannot reach the **final state** then that state is **dead state**.
+
+2) Elimiate those states and it transitions from which we cannot reach final state.
+
+* There is no use of **loop** at the **dead state** because nothing accepted.
+* **Dead state** means nothing accepting why bother.
+
+3) In the remaining **FA** if loop is present then it accepts **infinite language** otherwise **finite language**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71e6bd9a-f8e7-44ec-a404-242def85f261)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34c32df6-d9a5-4581-a589-7bcb86d0767a)
+
+* Algo. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb9b34be-fbdc-4cd0-9fe4-5f644ca7f1db)
+
+* All states are recheable from **initial state**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2057a3c6-94b8-4ddd-a0e7-787ed18c9b4d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/afcb031e-2ba5-450d-bde6-c4b76b43995d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34679e9b-28dc-4cd2-881f-dd89c0349e23)
+
+* In the remaining diagram there is **no loop**.
+* So it is a **finite** language.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eccb3baa-09a2-41b6-beda-cfbd555357bb)
 
 
 
