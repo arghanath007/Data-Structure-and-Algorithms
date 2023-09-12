@@ -4685,81 +4685,288 @@ L = {Give a regular expression of all a's and b's where the length of every stri
 
 ## doubt-clearing-session(20) [12th Sept 2023]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c1541d6-9338-4951-8555-47435c143a64)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4d30981-8d79-4bc8-9042-347bb4a9c3dc)
 
+* Example
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/570cd76c-92e6-425e-8816-300ac458da66)
 
+1) Check if any states are **unrecheable** from the **initial states**.
 
+* **q3** is **not recheable**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/42b00660-f5d6-4799-a4a3-159f066d69a4)
 
+* Divided into **two** groups, **final and non-final states**.
 
+* For **q0 and q1** for **0**, they were going to **q1 and q6** which are in **same group**.
+* For **q0 and q1** for **1**, they were going to **q5 and q2** which are in **differemt groups**.
+* so, **q0 and q1** are **different**.
 
+* For **q0 and q4** for **0**, they were going to **q1 and q7** which are in **same group**.
+* For **q0 and q4** for **1**, they were going to **q5** which are in **same group**.
+* so, **q0 and q4** are **same**.
 
+* For **q0 and q5** for **0**, they were going to **q1 and q2** which are in **differemt group**.
+* so, **q0 and q5** are **differemt**.
+* For **q1 and q5** for **0**, they were going to **q6 and q2** which are in **differemt group**.
+* so, **q1 and q5** are **differemt**.
 
+* For **q0 and q6** for **0**, they were going to **q1 and q6** which are in **same group**.
+* For **q0 and q6** for **1**, they were going to **q5 and q4** which are in **same group**.
+* so, **q0 and q6** are **same**.
 
+* For **q0 and q7** for **0**, they were going to **q1 and q6** which are in **same group**.
+* For **q0 and q7** for **1**, they were going to **q5 and q2** which are in **differemt group**.
+* so, **q0 and q7** are **differemt**.
+* For **q1 and q7** for **0**, they were going to **q6** which are in **same group**.
+* For **q1 and q7** for **1**, they were going to **q2** which are in **same group**.
+* so, **q1 and q7** are **same**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19bfb7f6-5852-4bf1-8c6b-80473b81b12f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e103d189-758f-441d-85e2-62c1542851ab)
 
+* We have **4** groups.
+* We cannot divide **q1 and q7**. They are exactly **same**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e33ad661-6548-4fd9-b23b-e76d1764e08c)
 
+* For **q0 and q4** for **0**, they were going to **q1 and q7** which are in **same group**.
+* For **q0 and q4** for **1**, they were going to **q5** which are in **same group**.
+* so, **q0 and q4** are **same**.
 
+* For **q0 and q6** for **0**, they were going to **q1 and q6** which are in **different group**.
+* so, **q0 and q6** are **different**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a1f0a66-d219-4e65-9afc-3136003a636c)
 
+* For **q0 and q4** for **0**, they were going to **q1 and q7** which are in **same group**.
+* For **q0 and q4** for **1**, they were going to **q5** which are in **same group**.
+* so, **q0 and q4** are **same**.
+* Last **two rounds** are **same**, so **stop**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e770b2c2-f77e-4279-90d0-da2da0517d4f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f068e10-d6b0-4e29-b2b0-c801d33a945e)
 
+* In **pie3**, we have **5** states.
+* **q1 and q7** are **same**.
+* Make them as **one state** only which is **q1**.
+* **q0 and q4** are **same**.
+* Make them as **one state** only which is **q0**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/943f3ada-824b-4c97-b121-9fd02ef71830)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/87c4b3f2-1612-4bdc-a780-5e3039fa362f)
 
+* Transitions of **q7 and q4** delete as well.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3479fc77-7e01-4be3-9ea3-277c1da138ed)
 
+* After deleting, do some **adjustments.
+* **Minimal-DFA** contains **5** states.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80cdd00e-13f4-49af-ba4d-03125e8f36a7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66e27210-550f-4c2d-bceb-91833930d370)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ad95a9a6-38ec-4caf-9ebb-95cdd6f543d4)
 
+* [**IMPORTANT**]
+* Minimal-DFA
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/00dce909-70be-49c8-95e3-049f0cf6c6c5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e4326ac-95de-4cec-a8db-dcd94f33c369)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/74ab8806-4e88-4201-9aef-64e28fbdec3a)
 
+## Finite Automata to Regular Expression
 
+1) Arden's method -> Standard.
+2) Static Elimination method -> Non-standard, meant for **GATE** exam.
 
+* Worst case use **methods**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/29f4a7f9-c1e0-4580-9a28-7a9a7df98f95)
 
+## Arden's Method
 
+1) We can't apply this method for **Epsilon-NFA**.
+2) If **P and Q** are two regular expression and **P** not contain **Epsilon** then the equation, **R = Q + (R * P)** can be uniquely written as **R = Q * (P ^ *)**.
+3) If **P** contains **Epsilon** then we have **infinite** no. of solutions.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e1d6b6a-5208-4ff4-84e6-c32fa32bba7f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a41f071-16b9-46dd-9b75-995b0c36b181)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/06d54875-3e01-458c-9f1c-a21a1eb9a674)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/418a2a00-0d01-4845-8f98-658500ca44ae)
 
+* Example
 
+* In this automata, any state which is **dead state**.
+* Except **epsilon-NFA**, this method is **applicable** for **NFA and DFA**.
+* If we have **epsilon-NFA** and we want to apply **Arden's method** then we have to convert the **epsilon-NFA** to **epsilon-free-NFA**.
+* As there is **dead state** also, so it is **DFA**. 
+* As **q4** is **dead state**, so if we **remove 'q4' or not remove 'q4'**, the **language** is **same** only.
 
+1) Unreachable states from start states, **delete**.
 
+* We want **language** for this **finite automata**. So, **dead state** cannot bring any language.
+* As it is **DFA**, we have to respond to **everything** and the **unnecessary** things are sent to **dead state**.
+* In **language** participation, **dead state** cannot do anything.
 
+2) **Delete** the **dead states**.
 
+* It is because they don't participate in language.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b6a82b91-c376-497e-92c7-fa8af2851b52)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/287cce27-93ed-4017-81d9-5c41a732cc98)
 
+* **DFA** means **dead states** required.
+* This method is applicable for **DFA and NFA** also. That's why we are utilizing it.
 
+* **Arden's method's**:- [**IMPORTANT**]
 
+* Do the above **two steps**, so we remove the **unnecessary** things, which we don't want.
+* It will save a lot of time.
 
+1) Write state equation for **every state**.
 
+* **q2's** state equation -> Who can come inside **q2** -> **Only incoming edges** take.
+* q2 = q1 * a [**q2's** state equation]
+* q3 = q1 * b [**q3's** state equation]
+* q1 = q2 * b + q3 * a [**q1's** state equation]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1cbc2d72-90b9-4f9f-b9b7-e6ce060bb9d4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e2a160af-1bb5-49b1-b128-31ad057a1e26)
 
+* For **everyone**, we have written the **state equation**.
+* Now, go to **starting state**.
+* For the **starting state** we should write **epsilon**.
+* **q1** is **starting state**.
+* While writing the **state equation** of the **starting state**, write **epsilon** also as it is the **starting state** irrespective of **final state** or not.
+* If **q1** is **not final** then also we have to write **epsilon**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/176f5d33-ef67-422a-b70a-154cd042d216)
 
+* [**IMPORTANT**]
+* If **q2** is **final** then what **q2** will accept? 
 
+> Whatever **q1** is accepting, followed by **a**.
 
+* What is the meaning of **q3** state equation?
 
+> Whoever is coming inside of **q3**, **q3** is accepting. 
 
+* It means that when **q3** is **final** then what **q3** can **accept**.
+* If **q3** is **final** then what it can **accept** is that whatever **q1** is accepting followed by **b**, **q3** can accept.
 
+* What is the meaning of **q4** state equation?
 
+> If **q4** is **final** then what **q4** can **accept**.
 
+* If **q1** is **final** then it can accept **epsilon** also because **q1** is already **starting state**.
+* While writing **state equation** for everyone, if the state is a **start/initial state** then add **epsilon** also. [**IMPORTANT**]
+* For **starting/initial state**, **add 'epsilon'** also to their **state equation**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4a1854d-9d58-4c9e-a4f1-9b2f3304adb6)
 
+* What is the meaning of **q2** state equation?
 
+> If **q2** is **final** then what **q2** can **accept**.
 
+* If **q1** is **non-final state** then also we will add **epsilon** to the **state equation**  of **q1** as it is the **initial/starting state**.
+* We don't care if it is **final or non-final**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af4c1bb6-0e15-40f5-bada-4b317ea054f8)
 
+* [**IMPORTANT**]
+* **Language** means what **final state** it can **accept**.
+* We have written **state equation** for everyone but at the end of the day, we want **state equation** only for **final state**. 
+* **q1** is the **final state**.
+* Only **final state** person is **required** to us.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8350d900-5990-4a88-be46-34523a31da9b)
 
+* The **final answer** should be in terms of **a's and b's**. No one wants **states**.
+* We don't want **states**.
+* **q1** state equation is the **answer** as **q1** is the **final state**.
+* We want **q1** in the form of **a's and b's** only. We don't want **states**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f34b3f1e-cf37-4f1d-81b8-3e23a50f3b14)
 
+* **Final state** only we want.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92c34262-34f2-4460-9b37-2a570ae32dd7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab5137bb-ce28-45d1-8aca-b0ef9a87677b)
 
+* We got **4** by substituting in **3**, **1 and 2**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/55980ea3-a9cb-42e5-ab28-15579ddd9e3f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0bb1531-fffd-4e9a-b287-3a6d0252b7d4)
 
+* We are comparing the equation with **R = Q + (R * P)**.
+* R = q1
+* Q = Epsilon
+* P = (ab + ba).
 
+* As **P** doesn't have **epsilon** so the equation, **R = Q + (R * P)** can be written as **R = Q * (P ^ *)**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fbfbba3a-13b9-4adc-bccb-5bf8fc971227)
 
+* We got **final equation** of **final state** which is **q1**.
+* Inside we don't want to see **states**.
+* We want **final equation** of **final state** which is **q1**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9c8cb686-d612-41a1-9bdc-b7bbc5ba8a33)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32a83709-d61a-4e18-b13a-355f6d4c8480)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09e5c336-142d-4cc6-b3f3-bf07e5e6efba)
+
+* [**IMPORTANT**]
+* Final state equation write using **alphabets**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/96ffcb3c-7a1e-43df-83c3-746698926181)
+
+* Nothing, individually find out the **equations** without the **states** and **add them**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05aac810-517d-483b-9dd0-4df2aa3b83be)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c35d9a53-e6af-4aa9-925d-6007bbd9037e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f8f7a2f-c5a1-4dda-89a7-73abd7a08905)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71e5dcd1-9b3d-444a-919e-8f7fb0580f62)
+
+* Yes, but maybe **time consuming**.
+* In **worst case**, apply this method.
+* If the **diagram** contains **more states** then **don't apply this method**.
+* For every state we have to write **more equations**.
+* Use this for **tricky and small problem/diagram**.
+* For **more states** use the ** second method** maybe.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32a19b72-29a6-473d-a788-5af283ae0f3a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c22fe0c9-95c5-403b-b593-1437a8fffe23)
+
+* They are **same answers**.
+* Maybe the **first expression** we got not there in the **options**, the **second** one is there then choose the **second expression**.
+* Meaning wise both are **same answers**.
+* Tricks being played.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/84db42c5-8371-4070-9335-f7920df92f6f)
+
+* last year question, 2022 paper.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1342a499-9bb5-45ca-815d-6aaa84afdca2)
+
+* First try by solving it **manually**.
+* Problem coming then do **Arden's method**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0fa74e9f-5506-4106-b25a-2a9f6635e772)
+
+* Meaning wise they are **same**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86d97aae-bc36-4620-9cf4-b9eebd43ad60)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/21e9c62c-5d0b-418a-a474-60c37f813a61)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3db3f7ac-a468-479c-9170-25ce3ebecf31)
+
+* After **substitution**, in the **q1** equation we have **q1**.   [**IMPORTANT**]
+* If we want to remove **q1** then we have to **apply arden's method**.
+* Start from 1hr 43mins.
 
 
 
