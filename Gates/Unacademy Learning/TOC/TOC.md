@@ -1,4 +1,4 @@
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c5c73504-3fd9-4ec7-8462-2c46fd0052c8)# TOC
+# TOC
 
 ## Motivation
 
@@ -4516,50 +4516,172 @@ L = {Give a regular expression of all a's and b's where the length of every stri
 
 * In **equivalent**, say **maximum**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/75f6d4d3-4e90-4e5a-81fb-6447a6c8546b)
 
+* For **q0 and q4** for **0**, they were going to **q1 and q7** which are in **same group**.
+* For **q0 and q4** for **1**, they were going to **q5** which are in **same group**.
+* so, **q0 and q4** are **same**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5673b2ed-a313-42a8-a81f-f37df97c18d7)
 
+* For **q1 and q7** for **0**, they were going to **q6** which are in **same group**.
+* For **q1 and q7** for **1**, they were going to **q2** which are in **same group**.
+* so, **q1 and q7** are **same**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7decfa1-4dfe-4ddc-b13c-b25512d5962d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a317de9f-b372-41aa-9040-b8a6ea219e2f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a344e37-ef0b-4f4b-9ef2-1ce63d601c30)
 
+* **pie2 and pie3** are **equal**, it means that if we go **pie4** then also it is **equal**. Same thing will come.
+* **q0 and q4** are **forever equivalent**.
+* **Forever equivalent** means that **q0 and q4** are **same**.
+* The person who created the **DFA**, unnecessarily wasted **one state** because both are **same**.
+* We can make it as a **single state**.
 
+* **q1 and q7** are **forever equivalent**.
+* **Forever equivalent** means that **q1 and q7** are **same**.
+* The person who created the **DFA**, unnecessarily wasted **one state** because both are **same**.
+* We can make it as a **single state**.
+* DFA has **8** states.
+* We removed **one state** directly that is **not recheable** from the **initial state**. We have **7** states now.
+* Why applying **partition algo**, we got to know that **q0 and q4** and **q1 and q7** are **forever equivalents**. They are always **behaving** same.
+* Last **two passes** are **same** means that they will be **same forever**.
+* So, we cannot separate **q0 and q4** and **q1 and q7**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6b4bc56-80a8-4cc3-acc2-1781968fcc3e)
 
+* Last round also **same** means they are **forever equivalent**.
+* **q0 and q4** -> **forever equivalent** -> They are just equivalent.
+* **q1 and q7** -> **forever equivalent** -> They are just equivalent. 
+* **Equivalent** means that give anything they are **equal**.
+* **Equivalent** means **forever equivalent**.
+* **q0, q4 and q6** they are **1-equivalent**.
+* Until **one(1)** only they are **equivalent**.
+* **q5 and q2** are never considered as **equivalent**. Last round **no**, before also **no**.
+* Final state cannot be **equal** to **non-final** state. Never.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee050b0e-1fc5-43ee-893f-cd8ec9895442)
 
+* **q0 and q7** are **zero(0) equivalent**.
+* **Partition algo** is also called as **state equivalence** method.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d28c9325-eb55-4c86-85a9-526a78c3052d)
 
+* If last **two passes** are **same** then stop it.
+* **q0 and q4** are **same**. Why would be want to manage **q4** again. Just delete it.
+* **q1 and q7** are **same**. Why would be want to manage **q7** again. Just delete it.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c4e70ae2-2546-4c7b-9204-97ae1bdd94f1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/772bd84b-943e-4e15-8eeb-182ac6d5f0e2)
 
+* Now, we have **5** states.
+* If we see **q4** anywhere then change it to **q0** because **q4 and q0** are **same** and we deleted **q4** already.
+* Whenever we have **q4**, we can use **q0** in place.
+* If we see **q7** anywhere then change it to **q1** because **q1 and q7** are **same** and we deleted **q7** already.
+* Whenever we have **q7**, we can use **q1** in place.
+* One copy we **delete**.
+* Out of the **two copies**, delete **one copy**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a817d95d-750b-4682-b38f-a6da9e74fb94)
 
+* Table is **better** than **diagram**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2187fb18-fa70-4e1a-a79b-c91e3fde8076)
 
+* Example
 
+1) Find the states that are **not recheable** from **initial state(q0)** then **delete**.
 
+* No one is going to **q7**.
+* So, delete **q7**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a5e076c-de02-4294-afcf-b53a8be7b49a)
 
+* We are drawing to see if any states are **unreachable or not-reachable**.
+* If states are **unreachable or not-reachable** then **delete**.
+* No new states came.
+* From **q3**, nothing new came.
+* From **q0** which is the **initial state**, we cannot go to **q4**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/29544f3b-50b7-4b72-b8a7-6cf56639c6ee)
 
+* From **q0** which is the **initial state**, we cannot go to **q4,q5,q6,q7**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37c9bbab-74a2-42ce-8ebb-9f1e3f33d5aa)
 
+* If the states are **not recheable** from **initial state(q0)** then **delete**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/54c7f2fd-d0d6-47b1-ae01-8c72ce958e0a)
 
+* So, we **deleted** the states **q4,q5,q6,q7** from the table.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c5bf138-53f8-4ae3-bea8-335129274729)
 
+* They are anyhow **uselesss**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/18341a34-4438-4210-90a3-5a3f2eded0b5)
 
+* Carefully perform **step 1**.
 
+2) Partition-Algo
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7bbffc8c-d976-4cfb-9d28-520a9c2fbac9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/11ab6b47-5991-482d-a948-98ce4e42f42c)
 
+* According to **partition algo**, we will have **two groups**. One with **final states** and one with **non-final** states.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/03be7a92-7f0e-45ff-92fb-21c508956c82)
 
+* If we are **lucky** and **final state** is there but it is **not recheable**. We will delete the **final state**. Remaining all of the states will be **non-final states**.
+* We go anywhere **rejected** as it is accepting **empty language**.
+* So, we will have exactly **one state**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97af5efd-b237-42c3-9df0-5bf5dbd9f838)
 
+* For **q0 and q1** for **a**, they were going to **q1 and q0** which are in **same group**.
+* For **q0 and q1** for **b**, they were going to **q0 and q2** which are in **same group**.
+* so, **q0 and q1** are **same**.
 
+* For **q0 and q2** for **a**, they were going to **q1 and q3** which are in **diferent groups**.
+* so, **q0 and q2** are **different**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/39f3abe8-8217-4e61-bdde-fe9628116d1e)
 
+* For **q0 and q1** for **a**, they were going to **q1 and q0** which are in **same group**.
+* For **q0 and q1** for **b**, they were going to **q0 and q2** which are in **differemt groups**.
+* so, **q0 and q1** are **different**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2e501f1-eeed-41f6-b547-46fa81a2f96b)
 
+* No requirement of going further.
+* We cannot divide any further.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/42212e29-d737-4a2c-b388-0a47b7a0762b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e73f9b0-993a-43c4-9d8b-8e7e5c294547)
+
+* So we have **4** states.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/110660b3-da3a-4b35-870d-5d4b6d6f5d79)
+
+* yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe884f77-4652-4bdb-bf4c-025ea92224f9)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf0dfddd-35fd-409a-ab36-3a8b6d494ec9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/003baaab-04cc-4e8b-926d-9f861718486d)
+
+* Questions
+* Steps to solve it.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/643339e5-79f5-4c50-9ed2-d83563da70ee)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/757cdcb7-0034-490c-80bd-af2b88dbaa80)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c11bf632-2ee2-44fb-b84a-d1ccb596db5e)
+
+* **NOTE**:-
+
+* If DFA contains **n-states** then **equivalent minimal-DFA** contains **less than equal** to **n-states**.
 
 
 
@@ -4674,3 +4796,5 @@ L = {Give a regular expression of all a's and b's where the length of every stri
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d43f8ed-d24f-413a-9b1a-dddcb37f6f9b)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97f0067c-0503-45b8-b37e-ba734b7274e6)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d3305e7-c0f2-4edd-891f-6d0daec3f01b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8710bd0a-4e34-4905-8be5-0215477fb53d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c5c73504-3fd9-4ec7-8462-2c46fd0052c8)
