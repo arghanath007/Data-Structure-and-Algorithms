@@ -4997,7 +4997,19 @@ L = {Give a regular expression of all a's and b's where the length of every stri
 * Others don't satisfy.
 * Check the **minimal string** in **automata** as well as in **regular expression** also.
 
+## closure-properties-i(21) [12th Sept 2023]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cea30e39-16bf-4ed4-beee-31bdede6b4c5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/70142ecb-754f-432c-85ae-aeeb4c116603)
+
+* It will work for both **NFA and DFA** also. 
+* No state is behaving like **dead state**.
+* No state is not recheable from **initial state**.
+* Every state is recheable from **initial state**.
+* If **q0** is the **final state** then it can only accept **epsilon**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/866ecf89-3550-4868-a122-499b94d48f54)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/331c6fcd-87a2-46ab-b6be-79909ab92452)
 
 
 
