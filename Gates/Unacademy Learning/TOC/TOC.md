@@ -5231,21 +5231,35 @@ L = {Give a regular expression of all a's and b's where the length of every stri
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/742e9572-6cfc-4c7f-bcfd-f192c2a103e9)
 
+## closure-properties-ii(22) [12th Sept 2023]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5504db2d-158c-4922-9215-cc1e322aae60)
 
+* Example.
+* At **B** there are **two loops**. One loop is **ba** and one is **c**.
+* Between **A and B**, there are **two loops**.
+* We want to manage both the **loops** at **B** only.
+* First of all, from starting state, go to **B**.
+* We have **two loops** at **B** and we will manage the **two loops** at **B** by writing them as **((ba + c) ^ * )**. 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0c5fb59-2575-4fc1-92fb-1b7192e8cd34)
 
+* Minimal string -> ad.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d85c2e19-a2d4-4794-8c3b-c51bf9dbc3f5)
 
+* Between **A and B**, there is **one loop** and we can manage the loop at **A**.
+* Inbetween **c** may come as **c** is there.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/888e647f-cec9-462b-a43a-29e5a6da9f04)
 
+* At **A**, only one loop is there which is **ab**.
+* After **a**, **(c ^ * )** may come and afterwards **(b ^ * )**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/337ee15b-bfba-4596-900f-10f20e62379a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7dfa9127-b7ac-426e-85bd-3be35fa5ed98)
 
-
-
-
-
-
+* Start from 22mins.
 
 
 
