@@ -1,4 +1,4 @@
-# TOC
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c5c73504-3fd9-4ec7-8462-2c46fd0052c8)# TOC
 
 ## Motivation
 
@@ -4366,26 +4366,155 @@ L = {Give a regular expression of all a's and b's where the length of every stri
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24534891-41f5-439d-9e8a-8f902d2c022a)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3593e523-c5e0-4df2-9963-2d60cdd0bd8e)
 
+## conversion-iii (19) [12th Sept 2023]
 
+## Partition-Algo
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/314c108f-6f6b-4fd6-8c11-6d2501c59135)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb4a50d0-7768-4850-bc08-46e41f898660)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1693bead-f032-4bab-8362-6b22540f4177)
 
+* Draw the **diagram** in the exam
 
+* **STEPS**:-
 
+1) Not reacheable states **delete**.
+2) Original algorithm, Partition will start. 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a36e418-1219-4ebb-b5ac-4df5ecf0c51a)
 
+* **q3** is not recheable.
+* **Partition algorithm** -> It divides the states into groups, based on the **behaviour**.
+* Total we had **8** states as, **q3** state is gone, we now have **7** states.
+* We have divided the states into **two** groups which is **pie0**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c36477c-0795-45df-9bad-610438799fb7)
 
+* Starting itself we have **two** groups.
+* **Final state** never be **equal** to **non-final** state. [**IMPORTANT**]
+* **Non-Final state** never be **equal** to **final** state.
+* All **non-final** state maybe **same**.
+* All **final** state maybe **same**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2bf379c0-17bd-4b29-9877-ef69742b9b09)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8f02af3-906b-414e-860d-3cf7d84aad5c)
 
+* Without reading **epsilon**, we got **two parts**.
+* By reading **zero(0)** length string, we got **two parts**.
+* Without reading any symbol, **automata** states can be **divided** into **two parts**. One group is **final states** and the other group is **non-final** states.
+* This is called as **zero equivalence**.
+* **Only one** person, we cannot **divide** further.
+* **q1** saying that **q1** wants to be in the **same** group as **q0**.
+* If **q0 and q1** are having **same** behaviour then only we can stay in the **same group**.
+* How can we decide, two people are equal or not?
 
+> By applying a **symbol** if they both go to the **same** group then they are **equal**.
 
+* For **q0 and q1** for **0**, they were going to **q1 and q6** which are in the **same group**.
+* For **q0 and q1** for **1**, they were going to **q5 and q2** which are in **differenet groups**.
+* so, **q0 and q1** are not **same**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a1183b2-c8e7-465e-a8ee-b3049fe2daf8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83760d14-d4f1-4268-b220-229f6ac987b6)
 
+* For **every symbol** both are going to the **same** group then only they are **same**. [**IMPORTANT**]
+* Further **divides** will only happen and **no combines**.
 
+* For **q0 and q4** for **0**, they were going to **q1 and q7** which are in the **same group**.
+* For **q0 and q4** for **1**, they were going to **q5** which are in the **same group**.
+* so, **q0 and q4** are **same**.
 
+* Why doing **pie1** or when **pie1** creation is going on we will use **pie0**. [**IMPORTANT**]
+* For **pie1** creation, don't use **pie1** only.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9f644586-7477-409b-b8d2-cc6ddf967faf)
 
+* For **q0 and q5** for **0**, they were going to **q1 and q2** which are in **different group**.
+* so, **q0 and q5** are **different**.
+* For **q1 and q5** for **0**, they were going to **q6 and q2** which are in the **different group**.
+* so, **q1 and q5** are **different**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/49ef42dc-f4d4-4897-907e-85b38812b783)
+
+* Because the first one is **q0** in the **group**.
+* Captain kind of thing.
+* Main person.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9782411c-5a7d-4f1a-8f75-f91f658199d1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/971737ee-7c5c-4170-9546-4d03d8fd565b)
+
+* **Pie1** is created using **pie0**.
+
+* For **q0 and q6** for **0**, they were going to **q1 and q6** which are in **same group**.
+* For **q0 and q6** for **1**, they were going to **q5 and q4** which are in **same group**.
+* so, **q0 and q6** are **same**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab86b42f-ac11-4f56-a9c2-3e9f3af4360a)
+
+* For **q0 and q7** for **0**, they were going to **q1 and q6** which are in **same group**.
+* For **q0 and q7** for **1**, they were going to **q5 and q2** which are in **different groups**.
+* so, **q0 and q7** are **different**.
+* For **q1 and q7** for **0**, they were going to **q6** which are in **same group**.
+* For **q1 and q7** for **1**, they were going to **q2** which are in **same group**.
+* so, **q1 and q7** are **same**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cea31a29-2999-41d1-b7b9-f184e87be3f8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/081b722b-53e0-40f2-887e-ec262cd3ab5e)
+
+* All states are over.
+* This is called as **one(1) equivalent**. **One length** strings(0 or 1) we applied.
+* **q0 and q2** are **different** in **pie0** itself.
+* They will be **different** in **pie1** as well.
+* **One(1) equivalent** is nothing but we devided the states by reading **less than equal to 1-length** string.
+* **q2** is already **divided** by reading **zero(0)** length string.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4873562f-05d8-4d38-9402-14d51137d40e)
+
+* According to **pie1**, we have **4** states and we got them by reading **less than equal to 1-length** string.
+* In **pie2**, **two** people are said to be **equal** when if they both are going by applying **same symbol**, they are going to **one** of the groups. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/20206c92-0b2c-496f-9157-11e549e5faa5)
+
+* For **q0 and q4** for **0**, they were going to **q1 and q7** which are in **same group**.
+* For **q0 and q4** for **1**, they were going to **q5** which are in **same group**.
+* so, **q0 and q4** are **same**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/379a22ee-ea8a-4f54-b0e0-212741b8db99)
+
+* For **q0 and q6** for **0**, they were going to **q1 and q6** which are in **different group**.
+* so, **q0 and q6** are **different**.
+
+* We cannot **join 'q6'** with other groups.
+* They are **divided** already.
+* We cannot **merge**, further groups will **divide** already.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30240a8e-71e2-4e41-ae35-082542108411)
+
+* For **q1 and q7** for **0**, they were going to **q6** which are in **same group**.
+* For **q1 and q7** for **1**, they were going to **q2** which are in **same group**.
+* so, **q1 and q7** are **same**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ece21c8b-b1b3-415b-8dd2-30255a62ed74)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e060ae1d-c7fd-41ce-9633-88dde43ffd4a)
+
+* In **pie2** we have **5** states.
+* **q1 and q7** are **two equivalent**.
+* At what length string they are **equal**.
+* Till now, **q1 and q7** are **two length equivalent**.
+* Until which equivalent?
+
+> Say **maximum** number.
+
+* **q0, q4 and q6** are **zero equivalent, one equivalent** but they are not **two equivalent**.
+* Until **one equivalent** they **satisfied**.
+* That's why * **q0, q4 and q6** are **one equivalent**.
+
+* **q1 and q7** are **zero equivalent, one equivalent, two equivalent**.
+* So, they are **two equivalent** which is the **max** till now.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c924ed76-8ecb-4764-9490-504c563b072c)
+
+* In **equivalent**, say **maximum**.
 
 
 
