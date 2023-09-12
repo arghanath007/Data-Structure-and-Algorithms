@@ -4966,7 +4966,30 @@ L = {Give a regular expression of all a's and b's where the length of every stri
 
 * After **substitution**, in the **q1** equation we have **q1**.   [**IMPORTANT**]
 * If we want to remove **q1** then we have to **apply arden's method**.
-* Start from 1hr 43mins.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa3a6bd0-f71e-48f1-95a3-feacd9ae0996)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e4b028d6-d10a-4ecd-82d6-8a5ef738eef1)
+
+* Example.
+* As **q1** is the **initial state** of the diagram, so we are putting an **epsilon** on **q1's state equation**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d01ddcdf-1636-4a91-81c4-181d9cd3625d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f23dffe4-23ce-4539-a6e4-16ef33706c9d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22894bfd-b7e6-4cf3-b64b-2d2390d27b81)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6bd13e0d-336b-4323-836e-9dfb01774c6b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c5f8e1e-ad44-418a-bbf8-d4e9302fbf6a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1002a15-a37d-434f-8c90-45bfec383186)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5de7a4b7-a2a4-4fda-9424-3e4d026a4310)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ffa6369b-2920-48c5-95a2-cded52713341)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95456df7-e353-466e-9ebf-204c59e97eb0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b716263b-a7f9-4be4-a953-71edbca35fdd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b19486dc-eb2a-4408-8bf2-e38946dbff11)
+
+* [**IMPORTANT**]
+* After writing **state equations**, solve in whatever way we want.
+
+
+
 
 
 
