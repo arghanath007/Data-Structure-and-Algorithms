@@ -5011,6 +5011,514 @@ L = {Give a regular expression of all a's and b's where the length of every stri
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/866ecf89-3550-4868-a122-499b94d48f54)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/331c6fcd-87a2-46ab-b6be-79909ab92452)
 
+* We want **q3** interms of **0's and 1's** as **q3** is the **final state**.
+* Epsilon * 1 = 1
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a82e3655-9052-47fb-91cf-41c1f7ac70a0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95e34159-f07d-4b0d-83e3-60a65d9d66cc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c8ba0de6-3d7a-45c9-8709-d3db967f9241)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee9b9878-26e5-4b84-99bd-f4c7a25f79ff)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/868a8a8f-82af-4ce9-a4c4-9e9f61d9ee6e)
+
+* **Options** will be **guranteed** there.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/292f75fc-e853-4675-946e-32e9a7cc28a6)
+
+* We are taking the **whole stars(*)** as **epsilons**. So the minimal string we are getting is **101**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c4a6b02-72ea-48f2-bccc-aa7cbf6cf3ba)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/466e01dd-0084-4fd5-83ab-04a3abae0ddc)
+
+* In **GATE exam**, mostly we have to do **manual checking**.
+* Go to **final state equation** and convert the **final state equation** in terms of **alphabet**.
+* If we want to remove a **particular state** from **himself** then use **arden's method**.
+* If we want to remove other people then use **substitution method**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a46cd3c1-6fb8-4169-a83b-6b4c85497176)
+
+* Example.
+* As in the **A's state equation** only **A** was there, so we were able to apply **arden's method** on **A**.
+* 1 * (1 ^ *) = (1 ^ +).
+* 1 * (1 ^ *) -> To **(1 ^ * )** we are **concatenating a '1'** to all of it's values.
+* Epsilon * 1 = 1.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/48198c19-e349-4fd2-a0f5-91dd5458b651)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ceb6498a-7f23-4b68-a7ec-ed0b1d226798)
+
+* As **all** of the states(A,B and C) are **final states** so we are **adding** all of them.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/70031047-53ab-4bea-8f3e-0d9bd94f331f)
+
+* From the **bracket**, we can only get **epsilon**.
+* We can get **only 1's**.
+* We can get **1's followed by 0's**.
+* In the **options** verify properly.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/68b2667d-1484-4961-9d28-07b2acf79d8b)
+
+* **Epsilon** possible.
+* So many **0's** are accepted.
+* So many **1's** are accepted.
+* **0's** followed by **1's** possible.
+* **1's** followed by only **0's** possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1251edc9-dd1b-48ca-b7d2-19fb0bb13af0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a87aaff5-015b-42a4-b39e-13cf7bf7eea7)
+
+* [**IMPORTANT**]
+* On the given automata, if we apply **minimization** algorithm and really if it is a **one state** then **one state** will come in **minimization** algorithm.
+* All states will be **eliminated** and **only one state is left**.
+* **DFA** will cover everything.
+* Everyone's **final** also will be **accepted**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/633bf7e6-354f-46d8-848e-9f0a73a641c0)
+
+* Directly we can say that it is covering everything.
+* In **DFA** every state is a **final state**. It will accept everything.
+* In **NFA**, every state is a **final state** then also **no gurantee**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/776a1558-3c94-487d-8286-b3ee8880a645)
+
+* In **DFA**, for everyone there is exactly **one transition**.
+* **Minimization** algo will be applicable only for **DFA**.
+* **Minimization of DFA**, if it is **NFA** then some people may not be having some transition.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/299fcb91-d1dd-4424-b9ae-110341308bc1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a85d4d0a-1783-4079-997f-5a5587ce1fe7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/10ce0d15-62db-4d83-b6bb-a7bbcdbc31a1)
+
+* So there is **only one state**.
+* Apply **arden's method** on **q1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e06f61d6-4687-4878-83d5-8f7bf4ada027)
+
+* It will give **one formula**. It cannot give **all formulas**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/21dbe476-19b4-41c5-aa1d-85359a054cc4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5321d744-864d-4f71-b962-e3d3cf0c98fb)
+
+* Finally we wannt **q1** answer.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b9e7f43-100a-4e24-acce-5abba574b145)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed800082-6fd4-4fcc-80a2-f614f3f1fe7c)
+
+* **q0** using **q1** and **q1** using **q0**.
+* As both are using **each other**, anyone we can **substitute**.
+* Both are **same**.
+* In **q0** we are using **q1** and in **q1** we are using **q0**.
+* Anywhere we can **substitute**.
+* Finally we will write **final state** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b43e332-7d08-4059-8127-507d0fd46160)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec6335f3-e120-429d-be2e-27f144d08a72)
+
+* [**IMPORTANT**]
+
+* Between two people, loops means **one person** is using **other person**.
+* They are both using each other.
+* We can substitute anywhere.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a9b3b75-9b51-4f3b-a293-00130fde0a5a)
+
+* **NOTE**:-
+* (a * r) ^ * = a * ((r * a) ^ *) [**IMPORTANT**]
+* Between two people, **loop** is there, where we will manage the **loop**?
+
+> Anywhere. No need to manage both the side. Manage anyone of the sides. We can manage wherever we like.
+
+* Manage the loop anyside.
+* No need to apply **both the side**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e81f640-22e0-4a55-894c-2e659299c8a5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0eb5040-fa62-4ab8-b9e8-3c39a5b4c796)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4fa981be-0e31-4c1c-9e8e-37c3cc9a0caa)
+
+* **1.0** is **not equal** to **0.1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/93dd38af-eb57-46b0-bd83-1abcc517b3c1)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36525644-89ea-4561-b977-01017188ef9a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ae34335-d5fc-48c5-af47-90b7fc6c46c7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1178f073-c0a4-4031-9b98-c875dcac7932)
+
+* **+** is **'or' operator**. [**IMPORTANT**]
+
+## State Elimination Method
+
+* No algo, nothing there.
+* For **GATE** exam purpose it is **created**.
+
+* Our goal is in any method when writing regular expression, our goal is to go from **starting** to **final** state.
+* We will start from starting and go to **final** state.
+* From starting to **final** state, is our goal.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ea4bbf8-e668-4d3e-b93c-dd5258ec80d6)
+
+* We eliminated the state, **s2**.
+* For the given diagram, if we apply **arden's method**, we will get the **answer**.
+* So, finally **regular expression** is **ab**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8fdc8de3-be55-4ca0-bd4f-72ba36daed7f)
+
+* [**IMPORTANT**]
+* If we see this type of **diagram** then use this **method** and remove the **states**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d925cb83-5405-460f-9bcb-1bd6e2de8b72)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/23ac49a7-622e-4c91-a791-a73a0741ec6d)
+
+* [**IMPORTANT**]
+* Our target here is **regular expression** and not **constructing DFA**.
+* We are eliminating **states** one by one.
+* In the **first problem**, **two edges** are there and they are **one after another**. It means we have to do **concatenation**.
+* In the **second problem**, **two edges** are there and they are not **one after another**. They are going at a time. It means we have to do **'OR' operator**.
+* We are not creating **finite automata**.
+* To get the **regular expression**, we are compressing the diagram, **one by one**.
+* We are eliminating unnecessary things, **one by one**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/de2f55f4-6810-473a-854a-558760c3c9a8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef5256d1-2c79-4db2-ac0e-6cf396e09abf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a2bfaa5-9d79-42f9-a3ae-350224655e32)
+
+* [**IMPORTANT**]
+* After minimizing the diagram then we can apply the **arden's method**.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
