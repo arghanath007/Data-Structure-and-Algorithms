@@ -5172,8 +5172,8 @@ L = {Give a regular expression of all a's and b's where the length of every stri
 * [**IMPORTANT**]
 * Our target here is **regular expression** and not **constructing DFA**.
 * We are eliminating **states** one by one.
-* In the **first problem**, **two edges** are there and they are **one after another**. It means we have to do **concatenation**.
-* In the **second problem**, **two edges** are there and they are not **one after another**. They are going at a time. It means we have to do **'OR' operator**.
+* In the **first problem**, **two edges** are there and they are **one after another**. It means we have to do **concatenation**. [**IMPORTANT*
+* In the **second problem**, **two edges** are there and they are not **one after another**. They are going at a time. It means we have to do **'OR' operator**. [**IMPORTANT**]
 * We are not creating **finite automata**.
 * To get the **regular expression**, we are compressing the diagram, **one by one**.
 * We are eliminating unnecessary things, **one by one**.
@@ -5185,24 +5185,51 @@ L = {Give a regular expression of all a's and b's where the length of every stri
 * [**IMPORTANT**]
 * After minimizing the diagram then we can apply the **arden's method**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63b32c91-c121-4daf-af69-37b2135765c4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d09a20af-dbb2-47f9-adcf-5b7c8d96d8ea)
 
+* Because of the **loop**, **(c ^ * )** came.
+* After **a** and before **b**, **loop** can happen.
+* [**IMPORTANT**]
+* We are eliminating, one by one states.
+* Given automata, we are compresing state-wise.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a2a417d-9f37-469a-8e7d-62aa71f6f3c8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/387155e4-4e7d-4f41-949b-b37d9fcd87e1)
 
+* We can apply the method on **all** which is **NFA, DFA and epsilon-NFA**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f42da357-0583-4b57-9c56-7cdcbc0c2c80)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3b448671-f701-48fe-87df-147a946de6a3)
 
+* Example.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d001d56-207f-45a4-9655-e045c01ea543)
 
+* Because of so many **final states** which is confusing, we will take one more **final state** which is **S9** and we will make them as **non-final states** by joining them to **S9** using **epsilon**.
+* Now, we have **one final state** which is **s9**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69fca6ef-171a-4e10-a00a-9084ba7f4042)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4e9f52b-57f0-4fcd-8953-8fddbffe922f)
 
+* From **S4 to S9**, we can write them as **(e + f + g + h)**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dfd17f1c-82ce-4005-b96d-299f15ecfca5)
 
+* From starting to **S4** we can come by either **'ac' or 'bd'**.
+* By any one of these, we can come.
+* After **S4**, we got **(e + f + g + h)**.
+* Make sure to give **brackets**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/296aa727-4b8c-4da6-b52c-26366dbb3d09)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6764de44-9193-4ec4-a371-6e66b2890f99)
 
+* [**IMPORTANT**]
+* More states are there then apply the **above algo/method**.
+* Less states are there then apply the **arden's algo/method**.
+* More states and they are complex, then first make the more states as less states and then apply **arden's algo/method**.
 
-
-
-
-
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/742e9572-6cfc-4c7f-bcfd-f192c2a103e9)
 
 
 
