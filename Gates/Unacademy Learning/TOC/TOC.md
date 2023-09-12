@@ -4987,9 +4987,15 @@ L = {Give a regular expression of all a's and b's where the length of every stri
 
 * [**IMPORTANT**]
 * After writing **state equations**, solve in whatever way we want.
+* Options given in **GATE exam**.
+* Check the **options** one by one.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/07b2f1fc-db5e-4041-b0a4-ac93bef4b416)
 
-
+* See the **automata** first which is **minimal**, which regular expression giving **minimal**. Check next minimal.
+* If we are **lucky** then **one only** will satisfy.
+* Others don't satisfy.
+* Check the **minimal string** in **automata** as well as in **regular expression** also.
 
 
 
