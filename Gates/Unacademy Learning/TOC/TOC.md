@@ -5255,22 +5255,43 @@ L = {Give a regular expression of all a's and b's where the length of every stri
 
 * At **A**, only one loop is there which is **ab**.
 * After **a**, **(c ^ * )** may come and afterwards **(b ^ * )**.
+* While going inbetween **c** may come. So **(c ^ * )**.
+* **c** loop is at **B**.
+* After going from **A** to **B**, inbetween **c** can come, that's why **(c ^ * )**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/337ee15b-bfba-4596-900f-10f20e62379a)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7dfa9127-b7ac-426e-85bd-3be35fa5ed98)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b41540c-e660-4197-86f4-bef67b294ae1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7b5aa56-28be-44db-adbe-4ec9f2dc74e8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/82dd052a-5f98-43cf-83ec-19a56c6b77f5)
 
-* Start from 22mins.
+* On the way **(c ^ * )** is coming take.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ea86562-d73f-4322-8599-cbbf53643cf9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34fa89d2-894b-42c8-b411-5fb50d14fb09)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/389c8716-7c81-465f-9730-7206f8cbc578)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97c8d02e-ee40-4bc5-ab3a-ecca06b40f23)
 
+* At **S1**, we have **two** loops, which are **b and c**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2145db8e-c890-4578-b6af-67ccbabf47a0)
 
+* (a ^ *) * (b ^ *) -> a's followed by b's only possible.
+* We are unnecessarily giving order.
+* Only two loops are there. We cannot separate them.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f651dee-026d-4af1-9853-fbf068ed32ce)
 
+* At one place, **two loops** are there, don't write them **separately**. Keep both of them in a **loop**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3518d696-9119-4a81-9874-8a3353e41182)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66566e08-be86-4c16-b8fe-a957923edac8)
 
+* One person having **many loops** so keep **everything** at that place only. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b2cca222-f083-4129-aaeb-3369930892c8)
 
-
+* At **B**, two loops are there, which are **ba and c**.
 
 
 
