@@ -5292,41 +5292,162 @@ L = {Give a regular expression of all a's and b's where the length of every stri
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b2cca222-f083-4129-aaeb-3369930892c8)
 
 * At **B**, two loops are there, which are **ba and c**.
+* They can come in **any order** for any no. of times.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ce4ad08-7411-42da-bf4f-872b9af7ada3)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6556e969-b061-43e0-8b8e-0478b19df87b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c5d0f3a5-e48f-467d-acc4-18db65110c16)
 
+* They are **same**.
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae01a8fb-b3e0-4927-801c-6eeb912d5ed0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1cc28e90-c9d5-485a-a22c-96bc4a31965f)
 
+* Some of the other possibilities given in options.
+* They are all **same**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea72c03e-4235-49f2-a193-bbd343b43bfe)
 
+* Example.
+* We have **three** loops.
+* One loop is at **S1**, one loop at **s2** and one loop common between **S1 and S2**.
+* We want to manage the **common loop** at **S1**.
+* One loop is at **S1** which is **b**.
+* The common loop is **a * (a ^ * ) * b**.
+* Two loops at **S1**.
+* After all loops are over, we have to go to **S2** as it is the **final state**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b9a7afa-ffd5-4e8b-b46b-a3cf34761169)
 
+* Managing the **common loop** at **S1**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df0923f7-819e-4309-bd7e-eb47e3544f2e)
 
+* Managing the **common loop** at **S2**.
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ceca233e-44d4-435d-9a70-fbccb686f4e0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34eceb4f-496f-44ed-a1ee-04c11153c06b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e2070d8-6ca7-45a5-8433-48144c88e12d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf6c1a16-a144-484d-9063-5a0db5cbfc60)
 
+* Example
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a1d0a93-c1d0-436f-b626-8c8dd1f302ec)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c5f2f561-4db4-42ca-8aa7-3dc99e7af2ee)
 
+* Example
+* At **S1**, there are **3** loops.
+* As we didn't have any **final states** at **S4**, so we removed **S4** state.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae6e815b-c460-4002-9c8a-dc9acb5647c8)
 
+* After all loops are over, we are at **S1**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bfca70fa-29e6-43aa-b242-13d6b58d5999)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2bda565b-5a97-4e02-b17c-d88c598d194a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd5703b0-2c47-4103-8bf0-416a7b10d8c8)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e4d7900f-f2bf-489f-bbba-19736ba7da88)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/43733fe7-38da-4b4d-b128-ff1a82ab281f)
 
+* Example
+* Who are going from **S1** to outside there is **no change** of them going back to **S1**.
+* So **only one loop** at **S1**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d826d459-490a-43f7-b40c-94bf58b45a37)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c34eb45f-4473-4db4-b359-bb4a05181412)
 
+* That is not **e**, that is **epsilon**.
+* So instead of **feg**, we have **f * (epsilon) * g -> f * g -> fg**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d70d882a-385c-4970-b02e-0af0faeed2e6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bfb4d927-0107-47f8-bddf-0a6dffe9f110)
 
+* [**IMPORTANT**]
+* Starting to ending we want to go, that is **our goal**. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3dfcad97-2729-44d2-ac6e-8b3fe436762b)
 
+* **Ignore** that path.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36ed843c-7f2a-4469-9066-20c47828558b)
 
+* If any thing looks like a **dead state**, then we will **not consider** that path.
+* If any path looks like a **dead state**, simply ignore it. It cannot contribute to the **language**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bd1e4f8d-ad76-407a-b776-72ff7614ae2c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/90657b8a-d56f-4718-a970-426e4108187b)
 
+* Example.
+* No state is **dead state**.
+* No state is **unrecheable state**.
+* All states are participating.
+* In **S1** we have **two loops**, they are leaving **S1** and are coming back to **S1**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/07a8e4de-8c80-4e66-9239-649ce5e8c556)
+
+* After both loops are over, we are at **S1**.
+* We don't want to stay at **S1**, we want to go to **final state**, which is **S4**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fbd4c907-ba26-4adf-b20e-8dcfd492dd80)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b6565d3-5ece-4c71-9c42-3da5fdb54285)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/52360e11-4bcf-4d21-a59c-c65c4765c8b2)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66a1284d-e24b-4526-82a5-9d23f7418965)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a88d6b6-12e9-43a8-b742-d8d9eae363b6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/616920b5-780f-43b4-aae7-ee70af6e34eb)
+
+* Example.
+* No loop at **S1**.
+* Between **S2** and **S3** there is a **loop**.
+* To reach **S2**, one way is **a** and another way is **b**.
+* Paths to reach **S2** -> (a + b * (a ^ * ) * b.
+* By taking one of the paths, we are now at **S2**.
+* We did th loop on **S2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83e7fc77-d0e2-4d5f-817f-9948186105d2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/085ee946-e10e-4273-bec4-059d7f15d114)
+
+* [**IMPORTANT**]
+* Give importance to those states which are on the way to the **final state**. 
+* We are managing the loop on **S2** as **S2** state is on the way to the **final state**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc28d641-7da0-407c-b751-8675eb138328)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05cf9a5a-c264-4aa0-a4ba-b432525e8ac3)
+
+* After **bb** we are at **S2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/17aa29b9-84f1-4b6e-b6e6-b70e573b44c4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ef80ba4-22c2-48af-a1c8-3ebccc03680d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8c459c1-ebde-420a-8b07-16ec21784ec7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/856be65c-650b-40a2-b1e1-be9b887a44be)
+
+* Two ways we can go to **S3** is by **b and aa**.
+* We are trying to keep the loop between **S2 and S3** at **S3**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/afc2b703-276b-42d0-b4a0-ac3a52172aeb)
+
+* Starting with **a**, we will get **aa** followed by **bb** which is **aabb**.
+* We want **ab**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f1f09de8-c292-4a6c-8ae0-a314cf173a58)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5d4d730-42a2-45df-9095-9a52dadfe282)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/de90c42e-3115-4b70-a19e-3fb2aa59d6d8)
+
+* [**IMPORTANT**]
+ 
 
 
 
