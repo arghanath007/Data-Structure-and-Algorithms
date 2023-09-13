@@ -5447,7 +5447,142 @@ L = {Give a regular expression of all a's and b's where the length of every stri
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/de90c42e-3115-4b70-a19e-3fb2aa59d6d8)
 
 * [**IMPORTANT**]
+
+## cfg-and-pda-i (23) [13th Sept 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f49c2b8b-33b5-4beb-bfd3-1de9471ce137)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ecdab918-8d8c-4348-acf2-61f069edb135)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2bc891a-4a96-4715-9acd-1c8e345b4bb0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f96db4c6-98d9-4999-a733-58c888c1f909)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/56b98360-4e9a-4429-95bf-91dd0b2aa0d4)
+
+* [**IMPORTANT**]
+* Last class's problem.
+
+* **STEPS**:-
+
+1) First do **manual checking**. Checking first minimal string, second minimal string. Verify 3-4 strings.
+2) Apply State elimination method.
+3) Apply Arden's method.
+4) Combine State elimination method and Arden's method. If possible **minimize**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee687c10-49af-4228-82be-5e20ecfd46e9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/52ec5a2e-1864-4520-b66a-d2f6653d4460)
+
+* Example.
+* Starting state is **S1** and **final state** is also **S1**.
+* After **two** loops are over, we are at **S1** only.
+* We want to be at **S1** only as it is the **final state**.
+* So **stop it**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb8bd833-acd7-4edd-9777-f73909430f5b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e4c68dd4-d4db-45fd-aac4-c071fc2e8126)
+
+* [**IMPORTANT**]
+* Minimal string -> Epsilon
+* Next minimal string -> a.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b914a14c-94ee-48af-a38d-1a91663a675a)
+
+* Example.
+* **S1** is the **starting** as well as the **final state**.
+* Other than **a**, if we go outside of **S1** then the rest of the states are **dead states**.
+* So **S2 and S3** are **dead states**.
+* Before starting the procedure eliminate the **dead states** first. Also delete the **unrecheable** states.
+* We have **(a ^ * )** which is **left**, which is the **remaining diagram**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97da3e27-1a58-4d86-8646-d0257e8fe1cd)
+
+* We cannot write **one loop** as **two loops**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5f634e4b-1372-41f1-882d-d25c68aad044)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ad84b62-0cbe-41ee-a3d5-5948052123d3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f707a2d-eabf-4cee-aa0a-5c4d5c9af5de)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2eeadb7f-30e3-4dd1-b716-51a3cd043ec1)
+
+* When **multiple loops** are there always loop at the above diagram, it will give **clarity**.
+* Don't forget **basic models**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ddc72543-3e9d-4c66-a428-a938807e2375)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a92eeb20-e781-4fb9-ad4c-ce978b36ce3a)
+
+* Example.
+* Some portion is **common** which we can take.
+* Not only **a and b** , position also matters.
+* In **automata**, not only **common string** but position also matters.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19600d26-9fe3-4f47-96c3-efe6151419de)
+
+* Because of **concatenation** we cannot go wherever we want.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9a92d73c-3bd0-4671-9677-9a663161c5d9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a9a0283a-13b8-4b2d-a93f-e19bf30f627c)
+
+* If we want to take **common** then **ab** should be present in **both**. **ab** is there in **both**.
+* Where it should be **common**?
+
+> Either **starting** or **ending** then only we can take/make **common**. We cannot take wherever we want. Some limitations are there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f21b79c8-82aa-490c-9a58-3b73263d9363)
+
+* Meaning should be **same**.
+* **Starting or ending** should be **common**.
+* It is normal mathematics.
+* Means are changing.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/332832d6-c388-470a-ab50-2bc7b3ffa926)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff8f6321-aa7b-48a4-9778-103f42a39c6f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/03647ba1-4901-4f09-b3e8-16092a42775a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b65c3e0b-ed5e-48d3-866a-69a08af939a2)
+
+* [**IMPORTANT**]
+* The string is changed.
+* **ab** is at the middle of the string but we kept **ab** at the **beginning**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/88a6a59f-b98b-4dbd-8ee7-da5f5232795d)
+
+* Answer -> Set of all even length strings.
+* Right side we made common.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/10139c95-a9b5-46cb-a339-5f41b9dc658a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c604f885-7d87-4109-b7b4-342560bec819)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3b8becc1-5631-429d-bd49-c0819e63ef08)
+
+* At **S1**, we have **three** loops.
+* There is a loop between **S1 and S2** which is **10**. We kept it at **S1**.
+* **S3** is having **two** loops.
+* There is a loop between **S2 and S3** which is **10**. We kept it at **S3**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c3f51984-af92-4228-a478-75df17c41041)
+
+* **S1** is having **three** loops now.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63b8e98c-6208-48a6-ab2b-331d3b2abef8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7bcdde4-cc88-4013-aac4-8d5d00c245dd)
+
+* After all of the **three loops**, we are at **S1** now.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d354343-8110-462d-922e-cfbd508b124a)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3cdee4fd-cae1-46c1-9483-5c69cc3a56b5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa230300-9e19-484c-a390-d3351fcf6d7b)
+
+* 5 times **10**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0d55935-1b67-46f5-817a-acf7a3dfee01)
+
+* yes, possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4dcce685-1137-4850-aa2d-3e841bc7f0cd)
+
+* Between **S1 and S3** there is a **common** loop, we kept the **common loop** at **S1**. We can keep it at **S3** also.
  
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1aea1435-10f0-4a3c-859d-6626069e3054)
 
 
 
