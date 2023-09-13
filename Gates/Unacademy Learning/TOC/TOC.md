@@ -5584,27 +5584,55 @@ L = {Give a regular expression of all a's and b's where the length of every stri
  
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1aea1435-10f0-4a3c-859d-6626069e3054)
 
+* Use **Common Sense**.
+* Starting to final how to go -> **GOAL**.
 
+## Regular Expression to Fininte Automata
 
+* Reverse of the previous problems
+* (a + b) -> **a** or **b**. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a7fb12c6-103a-4e7b-b532-a62f967b298e)
 
+* [**IMPORTANT**]
+* One language is there which is **regular**, so it's **regular expression** is **possible**.
+* **a** is **one language** and it's **regular expression** is **r1**.
+* **b** is **another language** and it's **regular expression** is **r2**.
+* If **r1** is **regular** and **r2** is also **regular** then **(r1 + r2)** is also **regular**.
+* As **finite automata** is possible.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/554d904f-4859-4e52-af86-df6e25cceb36)
 
+* yes.
+* One langauge is there which is a **regular language** then it's **regular expression** is possible.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a672ac67-f7a5-40cd-b761-6d50d39a5104)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5c59776-b126-4429-af79-d6da171c9e83)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a45c9be-fde3-4e06-9e15-6d1297b12b6a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa528c82-a5fb-4a91-b34e-94fe63e8d162)
 
+* Combines one is **(r1 + r2)**.
+* If **r1** is **regular** and **r2** is also **regular** then **(r1 + r2)** is always **regular**.
+* **r1** is **regular** means that finite automata is possible.
+* **r2** is **regular** means that finite automata is possible.
+* **(r1 + r2)** is also **regular** because finite automata is possible.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4dcb264a-e5c0-4ea6-affd-e7905bfc3f0f)
 
+* Automata is accepting **r1**.
+* Automata is accepting **r2**.
 
+* **STEPS**:-
 
+1) Take both the diagrams.
+2) Add one common final and one common initial state. Connect using **epsilons**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/39f4c14a-8d80-4122-b3be-6be963134548)
 
-
-
-
-
-
-
-
+* It is accepting **(r1 + r2)**.
+* If **r1** is **regular** and **finite automata** is available.
+* If **r2** is also **regular** and **finite automata** is available.
+* Then, **(r1 + r2)** is also **regular** because **finite automata** is available.
 
 
 
