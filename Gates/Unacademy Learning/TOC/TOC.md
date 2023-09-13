@@ -5622,7 +5622,7 @@ L = {Give a regular expression of all a's and b's where the length of every stri
 * Automata is accepting **r1**.
 * Automata is accepting **r2**.
 
-* **STEPS**:-
+* **STEPS**:- [**IMPORTANT**]
 
 1) Take both the diagrams.
 2) Add one common final and one common initial state. Connect using **epsilons**.
@@ -5634,50 +5634,138 @@ L = {Give a regular expression of all a's and b's where the length of every stri
 * If **r2** is also **regular** and **finite automata** is available.
 * Then, **(r1 + r2)** is also **regular** because **finite automata** is available.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dda34624-2ec1-4dc7-88af-3bb12b0c4117)
 
+* [**IMPORTANT**]
+* It is **Epsilon-NFA**.
+* **Epsilon-NFA** to **DFA** and **Epsilon-NFA** to **NFA**, both are possible.
+* **r1** is **finite automata** and **r2** is **finite automata**, **(r1 + r2)**, how to get?
 
+> Above solution.
 
+* If **r1** is **regular** and **r2** is also **regular** then what about **(r1 + r2)**?
 
+> It is also **regular** because **finite automata** is available.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/13284836-6c17-4f3f-b80d-0510e10f88c2)
 
+* Both the **finite automata** connect like the **above diagram** with the help of **Epsilons**.
 
+* If **r1** is **regular** then **finite automata** is available.
+* If **r2** is **regular** then **finite automata** is available.
+* What about **(r1 * r2)**? [Concatenation]
 
+* **(r1 * r2)**, **r1** Concatenation **r2** means that **r1** is followed by **r2**.
+* Both should go in **one direction** only but **one after another**.
+* In **Concatenation**, **order** is important.
+* **r1** followed by **r2**, so **r1** is the **first one**.
+* So take **r1's** initial state.
+* **r2** is the last one. So, take the **final state of 'r2'**.
+* Conncet both using **Epsilon**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/25d457a8-4fbc-4e8d-9fc4-77b3cac3a9c0)
 
+* **(r1 * r2)** [**IMPORTANT**]
+* **r1** followed by **r2** means that **r1** is **starting** and **r2** is **ending**.
+* Take the **Ending diagram's** final state and the **starting diagram's** initial state.
+* Conncet both using **Epsilon**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2fc0294c-6be6-48f6-8899-3e3c7a125a83)
 
+* If **r1** is **regular** then **finite automata** is available and **r2** is **regular** then  **finite automata** is available.
+* **(r1 * r2)** means that **r1** followed by **r2**.
+* Both should go in **one direction** only, **one after another**.
+* In **Concatenation**, **order** is important.
+* **r1** followed by **r2**, so **r1** is the **first one**.
+* So take **r1's** initial state.
+* **r2** is the last one. So, take the **final state as 'r2'**.
+* Conncet both using **Epsilon**.
+* This is **(r1 * r2)**.
+* **r1** followed by **r2** means that **r1** is **starting** and **r2** is **ending**.
+* Take the **Ending diagram's** final state and the **starting diagram's** initial state.
+* Conncet both using **Epsilon**.
+* If **r1** is **regular** and **r2** is **regular** then **(r1 * r2)** is also **regular**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/550a3672-59fb-475c-84d0-65791de0711c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d00c7876-6386-4d95-a3a9-5f5da48f7855)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d7b2267-44a3-437a-a82e-e315751528e0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cba5f179-f245-4180-9df1-ce2e9cc5dd05)
 
+* **Two** final states we have, which are **S2 and S4**.
+* **S4** is the **final-final state**.
+* **Two** initial states we have, which are **S1 and S3**.
+* **S1** is the **initial-initial state**.
+* **r1's initial state** take as **initial state** and **r2's final state** take as **final state** of **(r1 * r2)**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1afb874-1521-4aa6-b799-7950852743b2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8901eb0c-7103-485a-a18a-2fd854afb85b)
 
+* Connect with the help of **epsilons**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/10445cbd-d0e9-432e-8ff0-8f0784562d63)
 
+* We are not bothered about **decreasing** the **no. of states**.
+* Automatically convertions are there.
+* Goal is **finite automata** possible or not.
+* Writing the **finite automata** of **Epsilon-NFA** is easier.
+* If **r1** is **regular** and **r2** is **regular** then **(r1 * r2)** is also **regular**.
+* If we change the **order** then they are **different** languages.
+* **(r1 * r2)** will be **different**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76f39b30-98cd-410a-8158-6735317a8b5c)
 
+* **(r1 * r2)**
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3712b18-d5a4-49f7-968c-47ca1d2e16c7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ceb2802-faf8-4189-875c-d78423effd87)
 
+* **r1** is **regular**, so **finite automata** is available.
+* We can go from **starting to final** by reading **r1**.
+* The **automata** we have constructed is accepting **r1**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4fec1403-5e04-4b7c-a79d-0284235bea6d)
 
+* **(r ^ * )**
+* Minimal string -> Epsilon, r1, r1r1, r1r1r1, .....
+* If we want **(r ^ * )** then **Epsilon** should be **accepted**.
+* Take **one state before** and **one state after**.
+* **Before** is **starting state** and **last one** is **final state**. 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/daa46ba5-fbd8-4ba5-8b29-dfe253b3edb2)
 
+* We want to accept **epsilon** so from **initial to final** state draw a **transition line** with **epsilon** on it, like **below**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9861e777-ec32-4283-a2a2-3b3ea08f332c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf5a5642-c09d-450a-abdc-659fa6a5e6ae)
 
+* **r1** should also be **accepted**.
+* With the help of **epsilon**, connect **r1**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8346804f-4bcc-4452-8b22-e5f84f76e671)
 
+* **Epsilon and r1** are  **accepted**.
+* **r1** is many no. of times.
+* Come back **epsilon** like below.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c402a8f0-ff90-4ff3-bac4-b9e1be025a08)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f8ff5a7-17cf-489f-9e53-df9b3ee8841a)
 
+* If **r1** is **regular** then **(r ^ * )** is also **regular**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/93bb622e-100a-4a64-b37f-342219af847c)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ecf45414-728f-42cb-bac6-0d7702f9899a)
 
+* For both of the machine by keeping the **white colored edge**, it became **concatenation**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba304612-526a-430f-8499-39b6102a9c22)
 
+* For both of the machine by keeping the **white colored things**, it became **union**. 
 
-
-
-
-
-
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80223388-8991-4a0a-82d5-a5ca0979fa47)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9045fc98-98c8-4672-a4ad-4fe428b41108)
 
 
 
