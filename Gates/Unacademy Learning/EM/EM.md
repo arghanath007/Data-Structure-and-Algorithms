@@ -4555,26 +4555,109 @@
 * If **both the natures** are there then only we have **points of inflections**.
 * There is **no point of inflections**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a796b11-35fc-4319-9700-4523f02689e2)
 
+* **f''(x)** is changing from **negative to positive**.
+* The nature is changing from **convex to concave**.
+* So **x = 0** is a **point of inflection**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b05c93b0-95fa-4d13-8950-1bb08c23f475)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d9b21650-e3bb-40c6-a4bd-844809ad0098)
 
+* **f''(x)** is changing from **negative to positive**.
+* The nature is changing from **convex to concave**.
+* So **x = 1** is a **point of inflection**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bcbbf027-482c-4ed2-819a-c3776b284564)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ebe61b9-d397-4cd9-8a2e-80bdde420c22)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/56c913f5-2350-4f73-a282-2a7acd975cdf)
 
+* Normal Distribution.
 
+## Two Variable.
 
+* Partial derivative -> Differentiation is with **x** only.
+* **y** value is taken as **constant**.
+* For the **two variable** case **pqrst** are **fixed** terms/things. 
+* p -> Always **x** derivative.
+* q -> Always **y** derivative.
+* r -> **Two times**, **'x' derivative**. Double differentiation of 'x'.
+* s -> **x and y** derivative.
+* t -> **Two times**, **'y' derivative**. Double differentiation of 'y'.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/219ce667-46ed-402b-a0ae-2c782427c24c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/347346ab-468e-4ed8-b28d-c85c107c8315)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/063482ef-6824-40d6-9fd7-f2c91e99ea4b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33ce9b37-31df-45db-bb4f-7173ee276cd2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/47aaa3fb-5542-4067-b2c8-caab4f3247f7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7fd45406-e43a-452f-9a73-6500d364b1b9)
 
+* Non extremum -> Either maxima nor minima -> Saddle points.
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/82a53be5-8e90-44f7-b44f-e88596a7fe9c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ad4f158-ab0f-4024-aa5e-48f5ea3a72e3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bdd591a7-0a0b-44cd-bfff-95d5f10fec3d)
 
+* By equating **p and q** to **zero(0)** we are getting the values of **x and y**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ca3f70bd-a84b-4ffe-87b2-d045f0cae165)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/033eb2d8-8656-4d25-ba20-f6652b6da6f4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6574cb8d-633c-4092-a694-d9e002cf6e48)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41d3d398-fa51-4d60-86bb-74aee43b6c21)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2adcee93-a598-45fd-a3ef-98897f711cec)
 
+* f(x,y) = 4 * 1 ^ 2 + 6 * (1/3) ^ 2 - 8 * 1 - 4 * 1/3 + 8
+* 4 + 2/3 - 8 - 4/3 + 8
+* 4 + 2/3 -4/3
+* (12 + 2 - 4)/3
+* 10/3
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7149b1f6-270f-4f41-8c59-c78851ad8ec8)
 
+* [**IMPORTANT**]
+* **x** derivative is already done on **p**, now do **y** derivative on **p** to get the value of **s** which is **dxdy**.
+* Anyone one will work, either do **x** first and then **y** or do **y** first and then **x**.
+* Both will work.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/548f5ed2-279c-4d55-8477-f604f0e39184)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0549991b-8d20-4f02-94d7-808131cf370e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/70062ab5-265c-4780-874e-8acae63033e1)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fce81be7-e06e-44c1-b95a-0f70dc89aff5)
+
+* Doubt
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aeb2dd8f-bb9e-4727-83be-9ded472e261a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1372590-8f6e-4be0-b6b7-e44ddbffd414)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e89a1337-c2a0-4cd0-8dc3-3d1a2e93601a)
+
+* Constrained Maxima and minima
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09c45ca9-3924-451f-ac9c-eba2f74ff53a)
+
+* Example
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd793416-633f-41ff-bf7c-262b341f46e0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a43d896c-68b4-4941-bf3c-5dce39a101e2)
+
+* Max value of **Sin theta = 1**
+* So, **sqrt(2) * 1 -> sqrt(2)**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/adc1f485-f2ac-4b43-9b02-ba07693ee9c1)
 
 
 
