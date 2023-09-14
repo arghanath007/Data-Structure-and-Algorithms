@@ -4670,12 +4670,76 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### Doubt
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/833f057e-2f1e-4a67-9aac-306237388729)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb8a2ca2-322b-4c4c-a3af-cd0556a2f9bb)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9931f9dc-1f6c-4029-92bc-2a06abd4607b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98ba18ab-529c-4fbd-89e3-a97723f17ec2)
 
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/1ADA3AF50D
+4x + 2y = 0
+2x - 3y^2 =0
+
+4x + 2y = 0
+4x = -2y
+x = -2y/4
+x = -y/2
+
+2x - 3y^2 =0
+2(-y/2) - 3y^2 =0
+-y -3y^2=0
+y(-1 - 3y)=0
+
+y=0
+-1 - 3y=0
+-1=3y
+y=-1/3
+
+* y = 0, y=-1/3
+
+4x + 2y = 0 [y=0]
+4x=0
+x=0
+
+* for y=0, x =0
+* (x,y) -> (0,0)
+
+4x + 2y = 0 [y=-1/3]
+
+4x - 2/3 =0
+4x = 2/3
+x = 8/3
+ 
+2x - 3y^2 =0 [y=-1/3]
+
+2x - 3(-1/3) ^ 2 =0
+2x - 3(1/9) =0
+2x - 1/3=0
+2x =1/3
+x = 1/6
+
+* for y=(-1/3), x =1/6
+* (x,y) -> (1/6,(-1/3)) 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/306088ab-2744-4588-a7b6-a4329a0348af)
 
 
 ### Misplaced Images
