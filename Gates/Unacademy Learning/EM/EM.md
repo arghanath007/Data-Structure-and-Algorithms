@@ -4491,6 +4491,85 @@
 
 * [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4480a5f6-0ceb-4109-b498-8e9131e001b5)
+
+* [**IMPORTANT**]
+* f''(x) = 6 * x.
+* f''(x) = 0
+* 6 * x = 0
+* x =0.
+* So, **zero(0) to infinity**, which is **x > 0**, so we have **concave** nature.
+* So, **zero(0) to negative infinity**, which is **x < 0**, so we have **convex** nature.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/79c25403-f6c5-4431-9f69-bd896dfe3453)
+
+* At the point of **x = 0**, the nature of the function is changing from **convex** to **concave**.
+* The point where the **nature of the function changes** is called as **point of inflection**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/afc59fd6-4f64-4f17-be96-1f731bca71f6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d8fff0c-f81e-4530-94a1-094cebdc403e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4e9d5d0-98d4-4917-995f-aa1d7282bff2)
+
+* At **x = 0**, the nature of the function is changing, so **x = 0** is called as the **point of inflection**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e0e2f94-9552-415c-9e97-6443c5cd2aae)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36f2ba83-6780-4eb1-8eed-18fd5248f648)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f01c49e2-20cd-4864-a1e3-68ae7f4ba05b)
+
+* Good point.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1ebc8a9-ef41-4aaa-aa2d-9fd88dff40f3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6e14ab09-a6f1-4c35-ac17-1b89fd348228)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3729a865-2255-4073-868a-8234999aaad8)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea7f1db8-5fbd-4722-b25d-9f0274572c6c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8c817d39-2e79-4ddf-bd39-99f4082f80ee)
+
+* [**IMPORTANT**]
+* At **x = pie/2** the function is not **continuous**. It is **discontinuous**.
+* We have to see **discontinuous** locations.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/777de192-1d6f-41ff-af52-7c21a65c0a3a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e725b77-b726-4f1d-82bf-c9f59cb8fd1e)
+
+* These are the **conditions** for the **point of inflections** with the **above two** conditions satisfied at **x = x0**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e294926d-a259-446d-a3e7-f2eff1e50cee)
+
+* At except **x = 0**, the value of **y''** is always **greater than zero(0)**.
+* As **x > 0**, so the nature is **concave**.
+* It has only one nature which is **concave** nature.
+* It doesn't have **convex** nature.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/114e0842-44fc-47dd-84c2-4ddc7b45ec05)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f5314f5-eba1-4967-9ab2-4384fd842e7f)
+
+* If **both the natures** are there then only we have **points of inflections**.
+* There is **no point of inflections**.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
