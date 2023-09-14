@@ -4659,6 +4659,134 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/adc1f485-f2ac-4b43-9b02-ba07693ee9c1)
 
+* [**IMPORTANT**]
+
+## system-of-linear-equations(34) [14th Sept 2023]
+
+* Upper -> h(x)
+* Bottom -> g(x)
+* Middle -> f(x)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/352ff192-69d8-4d55-bda0-fe98d31eef80)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/546410cc-247c-43bd-b8cb-7b86f99fb726)
+
+* Sandwich Theorem. [**IMPORTANT**]
+* It is not able to find the value of **f(x)**.
+* **f(x)** lies between **g(x) and h(x)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/429f773a-7403-4e8b-80ad-2d4f0a433e6b)
+
+* Conclusion.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1357ea62-6ecf-44f1-8f26-13387483f5db)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/418d5c87-97a1-47b8-b42a-2650ecf92e2e)
+
+* [**IMPORTANT**]
+* Whatever **limit** is given in the **question** we will apply that **limit** in solving the question. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36a4e857-0b6a-4007-8489-154442618f61)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/085119dd-309d-4de7-a4b9-8c4387ec8fe2)
+
+* We want to observe the **inequalities**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a6278423-a759-4dc4-8a6d-748cee0e4555)
+
+* **x** is the **bigger** value.
+* **(x - 1)** is the **smaller** value.
+* **[x]** is the **median or inbetween** value.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b8d3c195-7991-46c7-bd9d-c2cd4c037261)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2afd9f00-c3ed-41ab-ada4-35859e6e8456)
+
+* Adding them.
+* **n** times, **1** are there, so **(-n)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/54596fe8-914c-4c8f-bcc1-1bc070113535)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9174bf3-924e-4eed-b06c-a3d1be7a1ec4)
+
+* Limit tends to **n -> infinity** is given in the question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/794dd0e9-9df2-4aed-b5bd-ae3e657a071d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d5da3eb-4803-4b73-b955-d8f41deada62)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b17d4bb3-fa8a-4748-8622-19eb708cab94)
+
+* [**IMPORTANT**]
+
+## Definite Integrals
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cfcbce56-5dab-4512-aca7-cb3ef104134d)
+
+* Finding the **area** bounded by the given curve.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0126f00f-ece3-4abf-acb1-328f5533e470)
+
+* Total Area of the functions -> Sum of all the areas.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ba6ec1c-9494-4e29-8aca-13ebde552953)
+
+* Integrations.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/06b7e15e-b751-4e7d-9030-35cb5c5828aa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/17ac6101-f608-44d0-b6e6-e9c728fb0344)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f63cb76a-e522-4553-82ca-60833ee53daf)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4506a294-e757-40b0-8532-6bb538375a62)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/095c27e8-a3ae-4a05-bd0d-e2527894f4cb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/78de177e-d8cb-475e-9ae8-14b283c76919)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/00ca6b3e-1141-4fd3-b3d5-2fbcdea998ef)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/da084cbf-c2ff-4041-9e90-f6903f38663d)
+
+* Example
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8bbe13c7-0aa4-4d2c-9cab-ecd87eeccbb9)
+
+* Standard Integrals. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/978fe215-1588-446b-a54c-fc2985d47d67)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/56218e16-ebda-4b38-98b1-6b7f7932e6c3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/14140bf4-7c17-4bb9-abd5-ef7500288127)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aae9599c-d180-4aca-8b50-4ebadb124535)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd13b537-f305-47cf-840d-c872686fc767)
+
+* Adding **1 and 2** equations.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e4731e7-7a67-4d8a-8816-14d6ec4de603)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4ebc1d19-260e-4943-8320-9395dc7857c4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab9b7db8-9325-46b1-b36e-ad20291dc9da)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bacdf6d6-5b25-4f90-84c4-fbf80935a9f2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b9f1d9ea-b77d-4b0c-b1d8-a31eec26b37d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/10bd32e5-833e-45a3-a050-fee687b9e471)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bde22be5-eb79-450a-ae8c-0f7cbbed1737)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/15552481-0577-4897-9d33-c2d76511e292)
+
+* Whenever there is a **limit** in the form of **-a to +a**, always check of **even or odd**. Like **above**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4144cae5-b334-4b86-b0df-6504c7277d23)
+
+* Neither **odd** nor **even**.
+* In this cases, we have to proceed **normally**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f42b7bb0-f034-45e4-aadc-8040c94c1b82)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6182bdf-20bd-4320-a121-43a5fecbeef0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/49e2a1dd-81f3-48a0-a507-1fe817f1fcc3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9f2aa0a8-ccbe-4aab-870b-54ef29b2b2f6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/03f61f27-ed82-4ab2-917a-cc28694fc962)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a38e042-f726-4f89-afe8-038840c5eb0c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf816692-1341-41e5-8f0f-08cd68394de0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/26f432e3-9a55-4573-93fc-778bd3badaab)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4a69b87-6e0d-44a4-b793-392ce3ac7675)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e340c673-b396-4373-86d5-2fe10e5f6c5f)
+
+* [**IMPORTANT**]
+
+
+
+
 
 
 
