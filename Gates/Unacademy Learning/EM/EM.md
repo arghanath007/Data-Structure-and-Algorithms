@@ -4280,6 +4280,99 @@
 
 * First Derivative Test.
 
+## types-of-matrices(32) [14th Sept 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab2a4587-2483-4fce-8424-305a90eea8cc)
+
+* Second Derivate Test.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a07282cb-e375-4c01-a41a-b4b1a082a7fb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d2c73cb2-2be6-4275-af85-869ea58a19d2)
+
+* We cannot conclude if the function is a **maxima or a minima**.
+* We are only able to conclude **increasing or decreasing** function. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5c269f81-b1ab-43ea-9431-74da35aee400)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b9ce31d9-7d3b-46fb-9bf5-187496ccdc39)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e40f311-3649-4c45-bbf6-2a16013cbef9)
+
+* From **odd derivates** we cannot conclude **maxima or minima**.
+* We can only conclude if the function is **increasing or decreasing** function.
+* Most of the questions will be solved using **first derivative**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c550ab5a-ce41-4c9c-a303-11b1ae8ab0c5)
+
+* Find the **roots**.
+* root = 5.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/13cf7c6a-5a90-406e-9ceb-d5e06a868b7d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/916ff455-8225-4fc7-9b23-b70deac860b6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/93d2d303-94c1-4297-b0c2-f19ce963e223)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee097b8a-476c-4f94-beb0-f4ca8b6857e9)
+
+* Done using **first derivative**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0699dc7c-31c4-4f28-8264-2d8fdfdd0bbc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5ce8b87-4cd1-4bc0-b1c1-5acf37683ebb)
+
+* Same doing with **double derivative**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/87a1067d-4e75-4068-b3fb-15ca44ccd420)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0fd4f425-999e-41ab-b473-62600e9fc966)
+
+* First derivative.
+* Try and do **First derivative** and get the answer instead of going to **second derivative**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58faf231-a6de-4526-936b-63b81dce5041)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d16b98ce-b04a-415e-811d-c817c3499726)
+
+* **Odd power**, so the **sign changes**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c9bfea0-e294-48f0-bc11-03daa866e7b4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/505230c6-6672-4e70-9723-db440180710a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a6b1d529-167f-4e6f-ae89-369351a5909a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c3e93c38-dc78-4509-841e-57c064f5785a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/396980b1-ec6e-46dd-b6e0-dd4174b8c0e6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa0c7d2f-57a3-4730-bbac-4c23e2846e23)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b4ec1de-ecae-44e8-9a92-783bd275521a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bed212db-3070-44c8-8f16-e64876e6e747)
+
+* We cannot arrange the function in the terms we want to arrange.
+* So, **first derivate** is **not possible**.
+* So, we are not doing **first derivate** for this problem.
+* We cannot deside the **signs**, will it be **negative or positive** in the graph..
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81e95740-50d6-40f0-b715-4d715c432b89)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b636ae3e-0076-4b2b-a085-519ad292b51d)
+
+* We are putting the value of **x = (3 * pie)/4**. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
