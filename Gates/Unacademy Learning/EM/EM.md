@@ -4384,28 +4384,82 @@
 * [**IMPORTANT**]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71ef0123-b1a7-4145-b8d8-d13fdbf6b6ff)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3cdbc6e4-45fa-4015-8fd8-f7339e92b8c2)
 
+* The question is asking to find **maximum value**.
+* This type of scenario is called as **global maxima**.
+* We need to put the values of the **intervals** in **y**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f45d8acb-b9b5-4b2d-8945-30ed127c0057)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f83e93b-aadf-43bf-90d9-0323ab180241)
 
+* The **options** are **y** values and not **x** values.
+* [**IMPORTANT**] 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/87deaae8-a4c9-45d2-a59f-c45c6d4bf4fd)
 
+* First order derivate test is **not valid**, we have to go for **second order derivate test**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30cc7a3c-1717-4863-8d55-1622b9d5a8a3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/778b7aab-73a1-475e-afe4-9fa266a31943)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a52986b-4de7-492b-b4d9-03266d4a28d9)
 
+* Sin theta/theta = 1
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0fe8460c-2d47-4e52-b071-3700019cd93f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a9f57d1f-37d9-4c54-a649-80491e475d1d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dcb1caa1-5136-433e-8ca2-d7b3f499cc9b)
 
+* First derivate is not possible, so doing **second derivative**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/99272a87-1307-4267-9dc4-7b8ab56795e9)
 
+* We are getting **negative value**, so it is **maximum**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6259a88c-a88e-4650-9fdd-985f12bf2a4e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0f5706a-ee38-4015-b0bb-8168b5a03e69)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/364743dd-af72-4c83-9a5c-1fd67058b32e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e81333ed-9e77-4c39-988a-f07a18ccb5fd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c03e404-c661-4a76-a2de-0b54edabe16d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b98bc626-3ae3-46b7-9f7a-1d6bd9350dfc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/48d6dd34-ccde-4c63-9083-103d8b75dc35)
 
+* **x = 0** is not in the **intervals** of the question.
+* So we are putting the interval values in **y**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a6a7784-72e6-407c-9586-a569d5c5a8f8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e0c43dea-58e2-4e70-9a24-0ed1e670d7f1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d50c7ce-4f22-4d59-93c7-771218574cb4)
 
+* We got **minimum value** but we want **maximum value** which is the **global maxima** we have to find out.
+* We put the **interval** values in **f(x)** and find out the **global maxima** which is the **maximum value**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec029d4f-4ef2-4917-be84-235b4608f822)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f898346b-4f4d-42ab-96e9-dae030cb20a8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cfbab9c5-9da0-48c1-a124-b0634fcb4a5a)
 
+* In the **interval**, **41** is the **max. value**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e2513c6-ad5b-48ac-8b0c-62ab2acc9948)
+
+* When **intervals** are given, check them as well.
+* Apart from getting the **max value**, we have to check the **intervals** as well.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e91a419-0280-45e4-9e91-aff043fb68da)
+
+* Apart from the **maxima and minima values**, we have to check the **upper and lower** bounds as well.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e030948-f54c-472e-abe2-a85eb183b63a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/00ade119-9cb9-4389-959f-a369f7219208)
+
+* The **max. value** of the function is **6**.
+* [**IMPORTANT**]
 
 
 
