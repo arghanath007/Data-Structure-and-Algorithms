@@ -4461,15 +4461,35 @@
 * The **max. value** of the function is **6**.
 * [**IMPORTANT**]
 
+## problems-discussion(33) [14th Sept 2023]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d02f580a-2f40-4f54-9793-dc93cd264c53)
 
+* Convex function
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e00c6c41-6fd1-4315-b667-6fc5d3c3110e)
 
+* Chord -> Straight Line.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/17b16c18-33bf-4285-a825-b9d3a922c77c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6e840a2-2255-4cd7-9932-4be563aa8ea6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ec9dfe6-a5ec-4f6d-ad1d-f3ab33e65a2b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e1fbc81-5f36-40de-82d1-bdc9b64a28a6)
 
+* Convex function example. [**IMPORTANT**]
+* That is called as the **maximum condition**.
+* At that location the function has **maximum value**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a6f0b9bd-727b-4654-9ec8-a78d800cb24e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ffbe09f9-2a8c-459f-8209-e72a31268d82)
 
+* Concave function example. [**IMPORTANT**]
+* That is called as the **minimum condition**.
+* At that location the function has **minimum value**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d705d023-16b7-455f-8024-ca6f4546d7fe)
+
+* [**IMPORTANT**]
 
 
 
