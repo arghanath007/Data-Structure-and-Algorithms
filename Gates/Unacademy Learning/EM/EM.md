@@ -4784,17 +4784,58 @@
 
 * [**IMPORTANT**]
 
+## maxima-and-minima(35) [14th Sept 2023]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8fac0982-b247-4288-8f55-b7e9493ca395)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d7b3f07d-f912-4e1f-b34e-b805008ffb23)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2d5143e3-4d0a-44ac-9c7e-25c661c7379c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7028a8f4-081d-44af-a57d-9673740bba2a)
 
+* Doubt
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/67ff9fe8-feb3-4c47-85fb-267d00bed9a2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/748de958-b247-41c0-9b10-7c54db0e1ddd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb1068be-ea49-4885-ab94-f245062859b1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d2b2c3bd-f2aa-47a0-bd20-cee2c13b8832)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2df20af8-e1f0-439d-8052-0ee1feac402e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ca37cfa7-d09d-4567-99f0-ac46f0d8d58b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/286395cc-46b7-4a6b-bc77-6974c75c3608)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bead6c12-8e56-4161-94f7-76aface0edde)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb5895dc-b48a-4176-8799-385c5cda6935)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41ab25c8-d103-4f92-8224-6738cf968018)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c9ec768-24c6-4135-914a-ecb7a8a26c7d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf8c7844-1a50-410f-87ac-c414fdff2a61)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4654389a-5d2f-411e-b960-da68272d09b1)
 
+* Limites must be from **0 to pie/2**.
+* Then only the formula is **valid**.
+* The power is **7** which is **odd**.
+* As it is **odd**, so the **k** value is **k= 1**.
+* Decrease by **2** everytime.
+* 6-2 = 4
+* 7-2 = 5
+* If further **decrement** leads to **zero(0)** then stop.
+* As **(1/2)** is not possible so no **(pie/2)**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/492b107e-c2b6-4960-830b-58424f088097)
 
+* Whenever we find the last **(1/2)** then multiply it with **(pie/2)**.
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e0258c9-77f6-4e64-bdae-dd33fceaaab7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dfd95348-08c5-4176-bd2d-e7cd23e9c9f8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b8f3dfe6-90eb-44f6-8c29-9c995fa151c6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/accf2705-b0f6-4ce8-b0ef-551d6dab5efb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36fa2544-c135-478b-bb2c-acf22ccae6d9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/122111fa-50a8-4d51-9b57-d6705e4c02a1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34439c01-e019-407b-bec0-d86c97379523)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31fd0508-0993-4a30-9304-5981a67b3fae)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/93b4a8a1-b88a-4bfa-942f-ccf78d4d7c6f)
 
+* Leibnitz Rule
 
-
-
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c586f685-32b9-4c4b-94fc-8b771f8cfe43)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a631479-524a-40a6-9341-b468c1298e67)
 
 
 
