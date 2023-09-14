@@ -4347,7 +4347,43 @@
 
 * We are putting the value of **x = (3 * pie)/4**. 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8142f54a-a589-428f-a51b-ed96402908c1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/53fc10af-dafd-449c-b18a-d78c65a6e339)
 
+* This value is **negative**.
+* **e ^ (power)** doesn't effect whether it is **positive or negative**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be70577a-debd-4d16-92d7-7ecf76aa12b3)
+
+* We are getting **negative** value.
+* **negative** value means **maxima**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3bf1517c-7a0a-4bfd-9a0e-8dc27509f6d3)
+
+* Finding **maxima** at **x = (3 * pie)/4**.
+* We need to find the **maxima** value.
+* At **x = (3 * pie)/4**, we have the **maxima**.
+* We need to find the **maxima** value of the function at that location which is **x = (3 * pie)/4**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/951eab3f-f22e-41a1-9b74-b5703d049fd5)
+
+* We need to find the **maxima** value of the function.
+* As we know **e ^ x** is an **increasing** function.
+* **Max. value** of **sin(x - 45)** will be **1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d3c985f-66f1-4a08-a727-18e02b5c806d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bdbe9617-71a0-4363-8030-da3242e70e5f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95efb34a-dc48-4db1-9421-572caa817d6f)
+
+* We have **2-minimas** and **1-maxima**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b6c5c2a7-9887-430e-b844-f004f013dc1a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ea5ba51-604e-4b2a-8ad1-45462eedada5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b47b0879-db11-479a-b3eb-e3f9ef801f5e)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71ef0123-b1a7-4145-b8d8-d13fdbf6b6ff)
 
 
 
