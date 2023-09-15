@@ -5069,6 +5069,131 @@
 
 * **Plus(+) and minus(-)** will come **alternatively**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/951b569a-b03b-4c3c-a7c0-d3705e3d38e0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ef4e3f5-4b82-4552-9e41-5590e75529ca)
+
+* Will work with **trick**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/55c1ed35-83c3-4769-961a-973524403fbb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ad1b82b-859a-43f1-8cce-5dd06ac4658e)
+
+* [**IMPORTANT**]
+
+## Multiple Integral's
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3341ebd3-bdb5-4e46-8fcb-c2a3b4ea3f84)
+
+* Either do **x** integration first and then **y** integration or do **y** integration first and then **x** integration.
+* First we are doing **x** integration and when we are doing the **x** integration then treat the **y's** as **constants**.
+* When we are doing the **y** integration then treat the **x's** as **constants**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/632f742c-b4db-419c-bb88-0e9798c80e7d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4154b415-29a6-4d08-849a-2fdc96322976)
+
+## Concept of Strip [**IMPORTANT**]
+
+### Vertical Strip
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c3a21bd5-a6e3-42cc-a3be-38def8efac08)
+
+* We want to take the **strip** as **vertical strip**.
+* **x's limits** are **constants** and **y's limits** are also **constants**.
+* We can consider **any limit**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/984ed79a-f348-4de2-bd01-42785ed20893)
+
+* Either **vertical** or **horizontal** strip will work.
+* We want **vertical strip**, so we are taking **vertical strip**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d6e293b-9368-4eab-9cbc-559832106c5a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e6b65784-429f-47c3-ac01-155bed6010cf)
+
+### Horizontal Strip
+
+* **R** -> Region of Integration.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f57580c-dd34-489c-9a1c-6ecbdb6d9c4a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e377e8f-2ac4-4a6f-9c39-75652e6b9890)
+
+* We have take **Horizontal Strip**.
+* That's why we have to do the **integration** of **x** first and then **integration** of **y**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae46452a-2578-45bb-beff-ca0efe721ad2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/43f4d456-7edf-4194-9ae5-314c1fb840dd)
+
+* Whatever **Strip** we have taken, according to that **Strip** we have to select what **type of integration** we have to do.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/566b64a3-5538-4709-b332-93a98ab7d6ae)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e4090ea-26bd-4941-b8d4-4efb53c7615f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/38e2b691-8d02-4098-a3ad-63776069d898)
+
+* In **vertical strip** case, the **integration** that can be done is **y** first and then **integration** of **x**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aec87553-3704-47c2-9a85-cc7d479026de)
+
+* The limits of **x** are from **a to b** and the **y** limits are from **c to d**.
+* **x and y** limits are **constants**.
+* We can take either **horizontal** or **vertical** strip, anyone of them will work. We will get the **same answers**.
+* In **some cases** when **limits** are **not constants**, we have to be careful. [**IMPORTANT**]
+
+* Region of integration is **(x, y)**.
+* **x** is a **function** and **y** is some **constant**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3cb64993-1c3d-4028-b917-3cbd6d109a76)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e6fa8058-c17d-403b-9302-953629022dd5)
+
+* **x** is a function of **y**.
+* What **integration** is to be done, we have to kind that **first**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/748cf03f-cb34-4f10-91be-e86c017c98ac)
+
+* Integration answer.
+* Integration of the value by **substituting** the **limits** must always be **constant** only but here we are getting it(Integration answer) as the **function of 'y'**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bff782b3-8ac8-46aa-8fd1-546b49245c65)
+
+* This is **wrong**.
+* So, what we have to do is that **first** we have to do **x** integration and then **y** integration.
+* Whatever the **function** is given, that we have to see.
+* What we have to **integrate** first, there after we have to take the **constant** and then do it.
+* Whichever is the **function** we see that has to be **integrated first**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c09f76ca-10d6-402a-8fed-5b961f18653c)
+
+* What **integration** has to be done?
+
+> As **x** is the **function**, so **x** integration is done **first**.
+
+* We have to do **x** integration **first** so what **strip** needs to be **considered**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d05b9984-1814-44ea-a7ee-53622edc9ecc)
+
+* When we have taken **vertical** strip then **y** integration is done.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/511c91c4-d3c5-4daa-b590-b3d0c246fde2)
+
+* When we have taken **horizontal** strip then **x** integration is done.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3b2df1d6-0401-4493-8736-92d2fdeaaaa5)
+
+* As we have to do **x** integration **first** that's why we are taking **horizontal** strip.
+* We have to move the **strip**, **up and down**.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
