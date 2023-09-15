@@ -5003,9 +5003,71 @@
 
 * [**IMPORTANT**]
 
+## problems-discussion (37) [15th Sept 2023]
 
+## Integration by parts
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58c0bf6d-9bee-4867-939c-17e0ca13c761)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5007c30-d5a0-4066-acd6-675eb3d51a82)
 
+* ILATE
+* **x, x^2, 2x, 1** -> **algebric function(A)**.
+* **e ^x** -> Exponential function(E)
+* **sinx, cos x** -> Trigonometric function(T).
+* **tan^(-1) * x** -> Inverse Trigonometric function(I).
+* **log x** -> Logarithmic function
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a21bf49-ce80-40fb-9aea-3182e0c028bb)
+
+* [**IMPORTANT**]
+* 1 = x ^ 0 -> That's why under algebric function
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/914e54e0-b339-4b10-9f8a-052ef873da87)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/46ed2db8-2d28-4209-b652-b5aa41275ace)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4abcabfb-8cca-44a2-be7d-7784d87e2f88)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/78ee7ff7-d25a-417e-b90c-f63295a6d46f)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9296f7f2-0742-4526-9280-00d74f301245)
+
+* **f(x)** can be **any function**.
+* The **trick** will be **valid**.
+* **x** is **arithmetic(A)**. So **x** is **u**.
+* **sinx** is **trigo(T)**. So, **sinx** is **v**.
+* **D** means the **x** function
+* **D** -> Derivative
+* **I** -> Integration
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f090ad76-526f-49de-9d2d-ad5575c6e637)
+
+* Until the **derivative(D)** is **D = 0**, continue till that time.
+* Always start from **positive**.
+* **Plus(+) and minus(-)** will come **alternatively**.
+* We have to do **cross multiply** now.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/07f2b906-95f4-4a57-a13b-6faf2991bdea)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5591b3df-5e37-474e-9999-463f8a6a876c)
+
+* The **cross multiply** product is the **answer**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/14757e78-4fbb-4bf2-b348-b8f208126f29)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f60c31d-ab9f-490e-9557-88a5f4237dab)
+
+* By parts **trick**.
+* Trick. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0935c589-ee90-4918-8168-a7bbb3b73462)
+
+* **X ^ 2** -> A -> u
+* **cos2x** -> T -> v
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ae2bf89-53d5-40ac-a9d8-d1317444f016)
+
+* **Plus(+) and minus(-)** will come **alternatively**.
 
 
 
