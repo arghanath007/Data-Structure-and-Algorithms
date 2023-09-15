@@ -4837,6 +4837,186 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c586f685-32b9-4c4b-94fc-8b771f8cfe43)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a631479-524a-40a6-9341-b468c1298e67)
 
+## calculus-introduction(36) [15th Sept 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f669a530-2f4f-4196-a0b4-b43ebb1c4fcd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d6dcfc0-703e-4d47-bd5e-2a9894efceb0)
+
+* Take **e^(ax)** outside.
+* Take **x ^ 2** as it is.
+* **Coefficient** of **x** is **a**, so we are taking **a** in the **denominator** of **(x ^ 2)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9bba1c2f-fc6b-456a-a104-edd0ca10d559)
+
+* **Plus(+) and minus(-)** will come **alternatively**.
+* First we have is **Plus(+)**, so it is **minus(-)** now.
+* Derivative of **(x ^ 2) -> 2x**.
+* In the denominator, we have the **square** of the power of **a**.
+* **Coefficient** of **x** is **a**, so **square of 'a'** which is **(a ^ 2)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58892e03-5732-461d-bb32-c445cca92b2e)
+
+* Derivative of **(2x) -> 2**.
+* **Coefficient** of **x** is **a**, so **cube of 'a'** which is **(a ^ 3)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b5a0ef8-cfff-4daf-99f6-41c36b72bb9b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4741d706-cea7-4c50-9575-d3533b36a7fa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d74ac5ed-8a27-418d-aca8-925a833a18f0)
+
+* [**IMPORTANT**]
+* **e ^ 0 = 1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a25fa698-9493-4b3d-b08e-341dd2b90f7b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e04a5b0-57b4-4265-922f-f61ae2de04a8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c6a749b7-1ae5-4e0b-baf5-c54e7790f36b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41a38bd4-965b-4cf5-949f-4e63e0cae5fe)
+
+* Yes [Shortcut trick]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c4e7ea6f-e99a-4e9d-b5e4-1a62e053d02a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c23c656b-3b42-41f7-87de-c1b06e06bf67)
+
+* We have to split the **limits** of the function from **0 to 1** for **one function** and **1 to 2** for another functions.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/da39d734-7827-4e12-a66f-4757643214cf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b012e24-2c56-4c44-b7ca-f78b24147563)
+
+* Doubt.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05d2fee2-4dd5-4e08-b1d6-8988463729a6)
+
+* We have to identify where the function is **positive** and where the function is **negative**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0479618b-7adb-4d54-8534-ff80ceca45c8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c7fd33c-2d4b-4b37-84e2-a676135e2ceb)
+
+* From the points **x= 1 to x= 2** the function is a **positive** function.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/99c8ca3d-0116-4d01-84b0-60e6c679290b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92805b04-1b7b-4429-a83d-133706feed1b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a381005-2d6d-4d54-806e-0201fad2579a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d08074c-4cf0-44cf-9b7a-f01f88a9271a)
+
+* For **x=1 to x=2**, the function is **positive** and for **x=2 to x= 3** the function is **negative**.
+* So, we have to **split** the **limits**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86439e8a-b9b2-446e-9100-310a4f124cbb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7638e7bf-eea1-4f29-9106-1ee08d428829)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36dd6384-ddd9-44e5-ae0e-5a65ea8da216)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/10843492-9f64-47b5-b74d-aff88240a6f7)
+
+* Doubt [Solved]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd8a51b3-49dd-4caa-94d3-148ede667aeb)
+
+* Integration of **sinx** is **-cosx**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/560d09f9-a68c-4da6-abbf-a66ee9527ab1)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1fd2b0c2-8121-4b47-8850-d233113fb813)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8228966b-b333-4ce3-b0df-3d4c3f2970a0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c3baded9-3766-4b12-a9c9-6aeae941cbca)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc6ec175-dfe0-4b6b-b19e-d0f7bdb147b9)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/342318aa-152a-4e5a-9cf4-3389333579bf)
+
+* Based on the **limits**, the **step 'x'** value depends. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/14a42639-925b-416e-bdb0-30a902f35c98)
+
+* In between **x = 1 to x = 2**, there is **no break**.
+* value of the **step 'x'** function is **1** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa8e3179-78dd-46ed-8b1b-5328b6bce3d6)
+
+* Directly given **1 to 2**. [**IMPORTANT**]
+* So this is **easy**.
+* If **fractional** is given then we have to be **careful**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e9e762f-3d79-435a-acc8-582426ec35c6)
+
+* **Step of '4'** is **4** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a4be54da-319a-4119-bcc8-1f94f8854c9b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d46e7548-a89b-4067-aa1b-7514af18008f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d704cb3-edb7-4d7a-9f16-a8dece67fbb4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/792fa30a-95e6-4985-89fc-342d0c20aed2)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b1fc8a3-9798-4865-9e6c-ac24662f90b3)
+
+* Take the **constant** terms **outside**.
+* **3** is the **coefficient** for all.
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e85540cb-1fc3-4e8b-8c71-e922e27a3f2a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d8a4487-f00a-4807-8684-6a0d7782c42c)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/75ba3db9-50b1-4704-a77e-28f0eb2ead2a)
+
+* We have **(x ^ 2)** and not **x**.
+* If **x = sqrt(2)** then **x^ 2 = sqrt(2) ^ 2 = 2**.
+* At the **x = 2**, it is **discontinuous**.
+* At **x = 1**, we will get an **integer** which will be **discontinuous**.
+
+* **Step function, 'g(x)'** is **discontinuous** at **integers**.
+* The whole thing is **discontinuous** at **integers**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b3a1a581-281c-4acb-a891-6cd7303a9492)
+
+* We need to see the **integer** values.
+* **[x]** -> This is discontinuous at everywhere, **1,2,3,.....**.
+* **[x ^ 2]** -> So, we have to see where the function is discontinuous, **2,3**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f4b193e8-a6e6-41aa-b174-7b7613bf0b5d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72232d97-e1c1-4bf3-baa7-979871b05af5)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf6a0528-2fad-4a28-9f57-41ac0588d55b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9b6d96f-d286-4f33-8964-c4a0813dd1e4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af664968-e9aa-4a46-a862-70771cd8a607)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b24eb288-21af-4d0c-a0ff-5144c60829f9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e8ab6ad-4e9b-4452-a733-1d04421d0500)
+
+* Always we have to find the **integers** where **[x]** is **discontinuous**.
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/206757a5-9df6-41fe-afab-acdfff102c66)
+
+* Whenever we have the **limits** as **-a to +a** then we have to check for **even or odd** functions.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb35f845-74e3-4005-8e8c-b4badb507594)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a54888aa-0237-4db6-931f-e80b28af31a4)
+
+* As the function is an **odd** function so the **integration** of the **odd function** is **zero(0)**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e6cccc23-3fbe-4015-abee-a5275082b04c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b9d03506-217f-41a8-accb-d5af895c5f83)
+
+* [**IMPORTANT**]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
