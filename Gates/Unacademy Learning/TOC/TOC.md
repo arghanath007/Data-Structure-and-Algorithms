@@ -5767,43 +5767,105 @@ L = {Give a regular expression of all a's and b's where the length of every stri
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80223388-8991-4a0a-82d5-a5ca0979fa47)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9045fc98-98c8-4672-a4ad-4fe428b41108)
 
+## doubt-clearing-session(24) [15th Sept 2023]
 
+* Draw **FA** to the **RE** for **(0 * (1 ^ * ) + 1)**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b6cf20c-5fae-4d5d-8016-f6ba1aebed3d)
 
+* Union(+), dot(.) or concatenation and star(*) operator, which has the highest priority?
 
+> **star(*)** operator -> Highest.
 
+* **dot(.) or concatenation** operator -> Second highest.
+* **Union(+)** operator -> Lowest.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a28e35dc-bb39-404e-b582-4bd4ed175a94)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1f04319-6ebc-4a97-a4e5-847568ee0bd4)
 
+* By default, **bracket** have the **highest priority**.
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ffef45c2-4636-4b98-b02e-70843b34745d)
 
+* Example.
+* Who can fight or who are the fighting people?
 
+> **Neighours**.
 
+* **Neighours** only can always fight.
+* The automata accepts **minimal** as **epsilon**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/11035bd0-5d8f-4693-9839-d1e7a786257e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c4b642f-78ac-418d-b342-70171bf97d3f)
 
+* If we can construct **finite automata** then it is a **regular expresssion**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ec5dd86-4d57-4bf6-a1bc-0bf4fa3d536c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c8d9a6ec-0121-404c-b20f-baa774c05fca)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/681293ac-3d01-4e6e-b67e-58bb97dbf11f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e7c21a50-8e70-407f-9c5a-62642f27193b)
 
+* [**IMPORTANT**]
+* We got the meaning, don't worry about the **States**.
+* Automatically ***min. no. of states** will come.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac4919c1-8ed0-4fbd-9e68-081868573b8c)
 
+* **Brackets** are having the **highest** priority.
+* **Two brackets** are there, **left and right** side brackets.
+* **Left bracket** is **highest** priority as it came **first**.
+* So, the **Left bracket** is done **first**.
+* **Star(*)** and **dot(.)** are neighbours.
+* Between **Star(*)** and **dot(.)**, **Star(*)** is the winner.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bbf7898b-5507-4d48-be6b-e7fb2a4701e6)
 
+* If we want to do **union** then both the things are **required**.
+* **11** we have done.
+* **(11 + 0)** is **union**.
+* For **union**, we have to do **commomn final and initial** states.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/611b4ffb-1a96-4cee-b821-e14d6b1517d3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7eb02475-b18a-4ac9-bd00-3670dcb3c8a1)
 
+* We now have **(11 + 0)** using **union**.
+* This is **R1**.
+* How to do **(R1 ^ * )**?
 
+> One state before and one state after.
 
+* With the help of **epsilon** connect the states.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/401fa646-a954-49ea-a4af-efdf1a8b695b)
 
+* Exactly same template
+* We don't worry about **no. of states**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f112e226-eb6a-458e-8247-52eca6b9fc8b)
 
+* **(11)** or **(1.1)** is **concatenation**.
+* After this is over, next star will **start**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef56f345-c74d-4c81-83cf-a725c6d9d60b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58e74b38-e51f-42d8-8b8a-5f8f8561e1af)
 
+* **(00 + 1)** is completed.
+* Making it **whole star(*)**, below.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2718fd72-e1d4-4d26-86fc-5427748b491f)
 
+* [**IMORTANT**]
+* We can do **concatenation** and in **concatenation**, **order** is **important**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e20243bc-2a39-4a18-8110-00a7a90e8079)
 
+* **Final state** keeps on shifting.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ca77bcc-4789-4c47-928d-1cd95eb91efc)
 
-
-
+* [**IMORTANT**]
+* Start from 50mins.
 
 
 
