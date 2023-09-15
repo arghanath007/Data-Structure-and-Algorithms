@@ -5178,9 +5178,81 @@
 
 * As we have to do **x** integration **first** that's why we are taking **horizontal** strip.
 * We have to move the **strip**, **up and down**.
+* So we have to move from **'c' to 'd'**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0cf7e1a1-fad8-453a-8c98-1ae2d7c69b92)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0306d29b-04bd-45ce-8ce6-0aed805180cc)
+
+* **y** is the **function** and **x** values are **constant**.
+* As we have to **integrate 'y'** first, so we have to do **vertical** strip.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e4306443-4d3c-4b4e-b1b2-d92103702828)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d532faa7-8191-4629-b9f4-d5a83aed5d22)
+
+* **x and y** both limits are **constants**.
+* So, we can do **any integration**. No problem.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ddd07e55-0d0e-4d5f-b8fa-8388fca6c731)
+
+* As **dy** is **first** so we are taking the **first limits** as **y's limits**.
+* As **dx** is **second** so we are taking the **second limits** as **x's limits**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/de2096a5-9356-4589-9a45-0a70fcf53c42)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37c65f30-9be4-4b23-a9fa-8756d5a494ec)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ae199cb-711c-4fe3-bfed-de83aa7d27a1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b89d7b1c-fb83-4986-8517-ef4272b50864)
+
+* As there was **x** in the **first limits**, so we had to take the **first limits** as **y's limits** and the **second limits** as **x's limits**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f081fd35-b175-418a-b031-f4fdd7f1179e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4488ad9-9867-497d-9ac1-4105844601c9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd4fae8a-6471-4415-a5e9-30beeb9340f0)
+
+## Triple Integrals
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/23487b80-931a-4c9e-95aa-a6027eb0a010)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5593e5ec-023e-4fd7-8c00-c9b3b621b90c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/898b9017-8e65-42cb-854c-a63002551bbf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30154ebf-0315-4219-9751-a70295b9fb31)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce7f5388-ef03-437a-a5aa-79b47afeb1c0)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/20096fb6-0e71-412e-8878-08eec50f06e1)
+
+* **Limites** we have to see **carefully**.
+* **(x+z) and (x-z)** are **y's limits**.
+* Whoever is not present in the **limit's value**, that person's limits are it then.
+* As in **(x+z) and (x-z)**, **y** was **not present**, so the **limit's** had to be of **y's**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1fdcd5ad-b7c6-4915-9f3d-8867cbd17b9f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d16a97ee-ef13-4c02-b581-9d40d79a35db)
+
+* **First** we have to **integrate 'y'**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/332be264-902d-4580-a6bb-3374c64822c4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4343f1a5-6bb6-48bf-b5fa-8b1a3e7461e6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/087b4b11-8d5d-429d-bc23-3ed82d7d9f05)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c5c61aec-cc2c-48d4-a0fb-8f62ae0b700c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f86e154f-43f5-44e4-a228-d25051321815)
+
+* **'y' limit** contains **more no. of variables**, that's why we have to do **integration** with **y** first.
+* There after, we have to **reduce** the **no. of variables**.
+* We have to identify the **integration first** then we have to maintain the **order**.
+* Last **limits** must be **constants** only.
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6c3b057-a3b6-4fc0-84f6-fb7688b431cf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/94ae1fc4-d8b3-41ab-9533-9e9193c8755f)
+
+* [**IMPORTANT**]
 
 
 
