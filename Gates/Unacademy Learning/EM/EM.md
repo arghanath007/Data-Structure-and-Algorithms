@@ -5254,24 +5254,66 @@
 
 * [**IMPORTANT**]
 
+## doubts-clearing-session(38) [15th Sept 2023]
 
+## Area bounded by the curves
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f8b9876d-4951-46d3-b941-d1233af2b3d2)
 
+* Area of the function
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a7adf1c5-c745-46e6-9e3b-8dea46f286b5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/810e8487-8f52-4fb5-9e3a-bf9881189a83)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed3ae40a-d447-477a-ba1c-672fa107850e)
 
+* Based upon the **limits**, it(Area) does not depends.
+* Based on the **function**, the **Area** will be **positive or negative**.
+* The **value** depends based on the **function** and not based on the **limits**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/850269ef-93e6-4a37-9892-8cf6691cc149)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0152b96a-2d2c-4c08-8a4b-166743499e52)
 
+* Whether we take **positive or negative** value for **y**, the value of **x** will always be **positive**.
+* **(y=x)** is like a **straight line**.
+* The **straight line** is **intersecting** the **curve** at **two points**.
+* At **two locations** the **straight line** is **intersecting** the **curve**.
+* To get the **intersection points**, we need to **equate** the equations.
+* We need to find the **common area** between the **ucurve** and the **straight line**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/efd5516b-078b-4dbf-8f77-0ec1f90c96f0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd990c9b-c1c1-42d5-9623-8b6733444b60)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd9d9a35-4764-468c-be17-ddf77e58245c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4119ffe7-f43f-4462-b397-a9238201bc54)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd2d7d1b-95f0-4f43-95c0-a86f3e5fe2ce)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1b73d9a-8a6c-4043-bd40-8a21494b8fa3)
 
+* Simply solve the **equations**l
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e6381413-ca68-4371-8f7f-87f4d800ad8d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/524ccf67-b721-4ddc-8023-47ee58beda7b)
 
+* **y** value is always **positive**.
+* The **intersection points** are **(0, 0) and (2, 2)**.
+* **y** is **upper limit**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/10ae8d43-a4fa-4132-8104-e65ece94d9e2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ea5fa2b-351a-455d-beb0-1dd1feed0f5f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2d28cd69-96f1-44b7-a236-58bc751e5cfb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e8de4ee-e922-49e9-80d0-39dc3821c234)
 
+* We need the **area**.
+* Area = (upper part) / (Lower part)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83ea9178-e4b0-465e-815e-822b1a52f46c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/433f1d64-3207-4d09-9829-275a4e6b5074)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/56a38b4e-ddb8-4a9a-a253-a50eb0f018f8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e5f3e9c-f057-4a56-ba3a-aa3db7e5eb2d)
 
+## doubts-clearing-session(39) [15th Sept 2023]
 
 
 
