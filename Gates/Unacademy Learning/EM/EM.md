@@ -5315,6 +5315,17 @@
 
 ## doubts-clearing-session(39) [15th Sept 2023]
 
+* a = 1
+* b = 2
+* c = 4/3
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c577cb97-ec6d-4f0c-a39f-3c19932572c7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9f8e84c9-dac2-46be-b2ed-c21b34856a8e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09ae58ac-5113-478f-9b02-6831cbf24fd2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/faad3d9f-c9f2-4ad0-8dba-841b770614b7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c1b4e8c-65a9-421b-a95e-bca1851d84be)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ae71097-92b8-4a0d-8e5a-82c00ae5796e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5c81d866-b585-4ade-8675-585f7a0278a7)
 
 
 
