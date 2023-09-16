@@ -6207,18 +6207,36 @@ L = {Give a regular expression of all a's and b's where the length of every stri
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d05956d5-1166-4825-b1d3-b7e4f8e5b3b1)
 
+1) Moore and mealy are deterministic(like DFA)
+2) No. of final states in moore and mealy machine are **zero(0)** because these are not language recognizers but these are **output** generated.
+3) Lambda : Q -> Delta
 
+* Delta -> Output alphabet
+* Q -> State
+* Lambda -> Output function.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae1ff3e0-5592-455e-8488-5d46a3635ba4)
 
+* In case of **moore** machine if we know **state** then we know **output** as well.
+* Sigma -> Input alphabet
+* Delta -> Output alphabet
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/157a8877-c7d1-4db3-a7d6-4a2ff0aa49a7)
 
+* If in the **moore** machine, we want to know as of now what is the **output**?
 
+> Please check which **state** we are in.
 
+* If we know **State** then we know the **output**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b39515f5-7752-4903-9de0-447b6ffff858)
 
+* **Mealy** output is based on **states as well as input** also.
+* Which state we are in, what **input** we have applied, then **output** come.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3480d2ab-c0d3-4ae3-9116-48babf9a15bd)
 
-
+* [**IMPORTANT**]
 
 
 
