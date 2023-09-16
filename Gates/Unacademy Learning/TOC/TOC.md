@@ -6074,7 +6074,7 @@ L = {Give a regular expression of all a's and b's where the length of every stri
 
 * Many ways we can do.
 * If we don't want to use **epsilon**, write **minimal thing first** and then go to **final state**.
-* We decided that **((0 + 11) ^ * )** should be on the **first state**.
+* We decided that **((0 + 11) ^ * )** should be on the **starting state**.
 * We decided that **((1 + 00) ^ * )** should be on the **last state**.
 * We have to go to **final state** by reading **minimal thing** as **epsilon** is not allowed.
 * **Epsilon-NFA** is easy.
@@ -6088,52 +6088,124 @@ L = {Give a regular expression of all a's and b's where the length of every stri
 * **Order** important and **Epsilon-NFA** is easy.
 * Keep **Epsilon** between whichever **order** is important.
 * Try one thing before **epsilon** and try another thing after **epsilon**.
-* start from 37mins.
+* For **Epsilon-free-NFA** then we need the **minimal things**.
+* **((0 + 11) ^ * )** should be at the **starting state**.
+* **((1 + 00) ^ * )** should be on the **last state**.
+* To go from **starting to ending state**, we have to read something, we cannot read **epsilon**, so we are reading **minimal things**.
+* The **minimal** is either **1** or **00**.
+* Starting loop manage at the **starting state**, intermediate loop manage at the **intermediate state** and final loop manage at the **final state**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d49bea69-1cc1-4b81-9bd3-d556618204af)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/942b54be-8860-4d76-bb5a-78ccd876e98d)
 
+* Conversions we have done.
 
+## Finite Automata with Output
 
+1) Moore Machine
+2) Mealy Machine
 
+* They will produce the output.
 
+### Finite Automata without Output:-
 
+1) NFA
+2) DFA
 
+* They will accept or reject the strings.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97c9652a-d04c-4f4d-afdb-9dd08e377565)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/59ecf374-7d48-4ac8-8422-2e53ebb3c229)
 
+* If we have **moore machine** we can convert the **mealey** machine.
+* Conversion possible.
+* Construct moore machine that count no. of occurences of substring 'ab' in the given string of a's and b's.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ad45d761-457f-4fad-82ed-fa83ed77bb72)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7988ba93-ecf4-4985-b513-d4312c44a8c7)
 
+* To get atleast single '1', we need one substring of 'ab' in the string.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ada891e-2c2c-4211-b850-6b1bfde833c5)
 
+* From the **starting state**, **s1**, if we go to **s3** then **ab** is over.
+* From the **starting state**, if we read **ab** then we are at **s1**.
+* We are at **s3** means that we have already seen **ab**, **one time**.
+* As we have seen **ab**, **one time**, so produce **output** as **1**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e821377-ecd3-43fe-8299-9a3b0ef28296)
 
+* We are at **s1** means **ab** is not completed and afterwards it will come.
+* We are at **s2** means **ab** is not completed and afterwards it will come.
+* If **ab** is over then we print **1** otherwise print **0**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ac310f6-cb68-4184-9e3d-b2f2820ac114)
 
+* In **s3** state, the output is **1** as we have already seen **ab**. 
+* In **S1 and S2** state, the output is **0** as we haven't seen **ab**.
+* In **moore machine** the output is there **within the state only**.
+* The state will decide.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2d62e57-23b6-4e44-93a7-a0337339c360)
 
+* **Moore and mealey** machines both are **deterministic** in nature.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5bae177-95cd-48ee-93de-95ed1c2cb3d5)
 
+* We are able to come to **S3**, for **two(2) times**.
+* Two times are printed.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/13ad091d-d3a9-49bd-be17-6a405d822785)
 
+* It is something like **DFA** construction but take care of the **output** also.
+* For **S1** on **b**, there is **self-loop** as **ab** hasen't come and will come afterwards and then we will print **1**. Before that any no. of b's come, doesn't matter.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/14db2add-e00b-4cbc-a3e8-bbf0944f537e)
 
+* In **S2**, already **a** is over and we are in the process of finding **ab**.
+* After **a**, if **b** comes then we will print **1**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d4291ff-342e-4f03-a150-7acb52cc4a36)
 
+* For **S2** in **a**, we are keeping **self-loop** because **a** is over and we are in the process of finding out **ab**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50793e69-0fa3-4425-ae45-9c77ce7e8d9d)
 
+* **DFA** construction only.
+* We want **output** for everything, **no final state** required.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b86c81ae-5f9c-42c4-80de-6a6f564b618e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0134b3f9-d01f-43f6-b50d-f811da23e96d)
 
+* **Moore and mealey** machines are **output generators** means **no final state**.
+* [**IMPORTANT**]
 
+* **Mealy** machine will produce **output = 1** when **ab** comes **1**.
+* When we come to **s2** then **a** is already over. 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e903cf2-aac3-430a-a5ec-46ff11d8f5d0)
 
+* On **S2**, if **b** comes then go to **S1**.
+* Now **ab** is over and we have printed **1**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/87782382-943a-4d32-b4a5-d21ced528ef3)
 
+* If unfortunately **b** came then print **1** and go to **S1** because **one time** printing of **ab** over.
+* **S1** means nothing is over, it is **starting state**.
+* When nothing is over then **b's** are coming then keep **self-loop**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c3567373-d081-4c89-a5f2-ca8f268bb591)
 
+* 10 b's are on **S1** state then we print **0**. 
+* 10 a's are on **S1** state then we print **0** as **one 'a'** is for going from **S1 to S2** and then rest a's are **self lopp** for **S2**. 
+* For **ab** we are printing **1**.
+* Don't worry about **no. of states**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c830f771-0ee0-4f51-b5d7-9117db3b31cd)
 
+* **S1** indicating **two things**, one is **nothing is over** and the second is that **ab** is over.
 
-
-
-
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d05956d5-1166-4825-b1d3-b7e4f8e5b3b1)
 
 
 
