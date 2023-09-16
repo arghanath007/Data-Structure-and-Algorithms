@@ -6041,15 +6041,54 @@ L = {Give a regular expression of all a's and b's where the length of every stri
 
 * Next class.
 
+## cfg-and-pda-ii (25) [16th Sept 2023]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c532654-8a01-414e-a8c3-aca53982e0c7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc1ba056-9d98-4817-b04f-88e402b756a9)
 
+* Give **last importance** to **loops**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f764f00f-3bec-47a3-a845-5a4f0569f061)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/28ac29d1-b001-48d3-a407-d8d66fdfb21d)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/189c253c-0982-4f5b-8775-bd302881d2e8)
 
+* If we keep the **(1 ^ * )** on the **final state** then problems will come.
+* We have to take **one new state** to keep the **self-loop**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9592e9c-fec5-4f2b-b3c0-e4601846bbd6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e934acfe-e9c6-4bbc-a13c-59ebfe7e84f1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d897c9d-6db6-4920-b0b3-edea7bc0a6d0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6afacf02-fd09-41a2-87fc-b5c8855d335d)
 
+* This is like **(A ^ * ) * (B ^ * )**.
+* This is not **((A + B) ^ * )**.
+* Don't keep to the **same** states, different states we have to go. 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e309f3ce-f2da-4bb7-b2f0-bd61da5578cf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5119e6d5-cab0-4efa-9b61-935f3dc317cb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f0ae559-8122-43d8-badd-1ca71145f975)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7f3c290-54d8-4220-ae48-a8fa33d7a32a)
+
+* Many ways we can do.
+* If we don't want to use **epsilon**, write **minimal thing first** and then go to **final state**.
+* We decided that **((0 + 11) ^ * )** should be on the **first state**.
+* We decided that **((1 + 00) ^ * )** should be on the **last state**.
+* We have to go to **final state** by reading **minimal thing** as **epsilon** is not allowed.
+* **Epsilon-NFA** is easy.
+* Directly doing **Epsilon-free-NFA** is a bit difficult.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/07ebb08d-493e-4f7a-9560-e89361d2c677)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/975aeefc-47ce-45dd-99d9-f74f9fc7755c)
+
+* This is the possible mistake we can do while solving this type of problem.
+* **Order** is important.
+* **Order** important and **Epsilon-NFA** is easy.
+* Keep **Epsilon** between whichever **order** is important.
+* Try one thing before **epsilon** and try another thing after **epsilon**.
+* start from 37mins.
 
 
 
