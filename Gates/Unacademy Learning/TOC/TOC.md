@@ -5865,21 +5865,55 @@ L = {Give a regular expression of all a's and b's where the length of every stri
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ca77bcc-4789-4c47-928d-1cd95eb91efc)
 
 * [**IMORTANT**]
-* Start from 50mins.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/132fbf27-5053-45ab-8d2d-7320e0a92ff8)
 
+* Example.
+* We have **two** brackets.
+* So, we have to do the **left bracket** first.
+* Do **union** operator between **1, 01 and 001**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3565050-99d4-4f51-b435-6c2f7e2bedac)
 
+* This is **(1 + 01 + 001)**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e0e1b80-9e67-4388-8535-739e13cf9b97)
 
+* This is **((1 + 01 + 001) ^ * )**.
+* In this method, **problems** are **only states**.
+* First bracket, whole star(*) completed. After that we have a **dot(.)**.
+* After **First bracket** is over, we should go to the **second bracket**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/882be0e5-6587-4d86-b3fc-67bc84e740cc)
 
+* Both are available, we can do **concatenation** now.
+* After **concatenation**, we got the **total diagram**.
+* As the **total diagram** is over, **last state** is the **final state** and the **first state** is the **initial state**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d1b0675-c549-4df1-8019-d9b6662d2fa2)
 
+* **Total diagram**
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/701b3160-c71a-4f92-bf52-0a5485b46a90)
 
+* Example.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a56e4736-dea6-4cae-8f7c-f5040edb8ddb)
 
+* In the **third** expression, we have **three brackets**. We have to do the **left bracket** first.
+* **Left bracket** has **01 + 10** which means that it has **two** diagrams internally.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/672e98db-04e9-4a33-ac57-2ebbe8443c27)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e796cac2-7403-4c38-b93f-3378967bc975)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91d95ea2-c820-4e32-8063-2a45c91eae34)
+
+* All of the **three expressions** are completed individually.
+* Now we can do the **OR operation(+) or union**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/990ab9b0-95ee-49ce-9e52-d3e13cca0783)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/88e7d2e0-db41-438b-b4e0-4a0d2b9d6d57)
+
+* Union.
 
 
 
