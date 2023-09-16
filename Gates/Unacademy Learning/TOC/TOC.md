@@ -5912,26 +5912,134 @@ L = {Give a regular expression of all a's and b's where the length of every stri
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/990ab9b0-95ee-49ce-9e52-d3e13cca0783)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/88e7d2e0-db41-438b-b4e0-4a0d2b9d6d57)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b7744885-3bc6-4906-8c93-1cf91e2e16f2)
 
 * Union.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/17fcfa9a-a125-45fb-98b2-8a88c85b038b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/702954e7-c728-4494-a302-811d8c1868ab)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83aef96e-ab47-41cf-b4e8-1c0e2fb7e57e)
 
+* Bring the kleen closure template. [**IMPORTANT**]
 
+### Second Method, Method 2.
 
+* From **starting state** to **final state** we want to go by reading **(0 * (1 ^ *) + 1)**.
+* For **one purpose**, **star(*) and plus(+)** are fighting. Who is the winner?
 
+> **star(*)** is the winner.
 
+* **star(*)** will go with **1**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/75b21792-b40e-44e1-9193-a022805f43bc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b8b42e6f-f407-4d21-bb15-5cf0e417dab9)
 
+* We will go from **starting state** to **final state** by either reading **(0 * (1 ^ * ))** or by reading **1**.
+* For the **1**, two people are fighting, who are **star(*) and **dot(.)**.
+* **star(*)** is the winner.
+* **star(*)** will go with **1** only.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7277e8af-78ae-4f4b-88f0-52107665c5cd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd0666fa-35db-420e-a4da-b10acf056986)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d5dd19f-9ed6-4ffb-af9a-12db5ccf73c4)
 
+* Yes.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58fb6782-fb56-40cd-8908-4aeb398b6f0b)
 
+* We have **(1 ^ * )**.
+* Whenever there is a **star(*)**, to make it simple, take **one new state** and keep **epsilons** on the **transition** lines and do the **self-loop** for the **star(*)** on the **new state**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc22d7c2-ca13-4544-b144-30bdc140cffc)
 
+* [**IMPORTANT**]
+* Compared to the **previous problem**, these **method** has **very less states**.
+* In these method, whenever **stars(*)** will come then only **two epsilons** will come.
+* In other places **no epsilon**.
+* To make it **simple**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1805642c-9808-4f29-9dbe-9df416a03a4c)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc6b6472-7f8c-426d-b39b-dc4fe0dad5c0)
 
+* **FA to RE**, it is **State elimination** method. **Bottom to top** is **state elimination** method(SEM).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/979da0db-a536-4e91-8a61-18e7ab68c30c)
+
+* **RE to FA**, it is **top to bottom**. States expansion.
+* Both are **similar**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a9a0221-027d-4a33-b372-e37dea699ba5)
+
+* Example
+* In-between **concatenation** is there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/897492d9-607e-43ca-9557-255808e9ecc9)
+
+* We have **whole star**.
+* Whenever **whole star** came take **one new state** inbetween and **add 'epsilons' before and after**. To the **new state**, keep the **self loop** for the **whole star**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4ef8cf52-bf59-4cd6-b791-553bfcf4fb3e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/125d3f89-3b06-4947-b5de-9f694af0849c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/914015f2-914b-4cee-8e7b-17055ef903bf)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dddbfb04-35d4-44a7-882e-92a6ad92ad26)
+
+* Example
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2fd59f08-ea45-459f-b325-5d0a02397216)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec653e64-b937-4fbe-96b1-1daa4358b2b1)
+
+* We are creating **finite automata**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e4f2639-a0ca-4dee-8f3a-300df4b13af3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/453b1437-a490-409c-b19e-dfc91b8b6db7)
+
+* Example
+* As we have **whole star(*)** so one new state will come in-between.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f0102a6-5a12-4a5e-b1f7-7ffd8e128de2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ccf22c7-7717-452d-9282-631ccbcd5b5a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d5fe6a5a-566b-491d-9523-61fbbad0652b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37ddcc16-5901-4124-a805-86756ec65e04)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6e98064-2377-49fa-81cc-f1566e33bded)
+
+* Meaningfully expand.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9f968acb-c6a9-481d-b7cf-2e0c58e3855b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/373cc193-8071-4450-a2f7-9b9b5f227870)
+
+### Construct Epsilon-Free NFA.
+
+* **NFA** means both will come, **Epsilon-Free NFA** and **Epsilon-NFA**.
+* Construct Epsilon-Free NFA for the **regular expression**:-
+* r = ((a + b) ^ * ) * (aa + bb) * (a + b) ^ *.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66aab381-a846-4cdd-8697-73edc4f039be)
+
+* Example
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3cb91467-733b-46cf-a4c0-010fa6042562)
+
+* Without **loop**, write first.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09638d03-b1c2-4601-b967-1051051596cb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a30cb86a-21d4-40e5-823e-04c085765689)
+
+* Try **minimal** thing **first**.
+* This is **NFA**.
+* Don't worry about the **loops**.
+* Without **loop** try.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9655c7bf-d512-457d-b0ee-f833ab32aa73)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6d059b4-2e3b-41f6-a4a5-aa15fe12cfb2)
+
+* Next class.
 
 
 
@@ -6084,3 +6192,4 @@ L = {Give a regular expression of all a's and b's where the length of every stri
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d3305e7-c0f2-4edd-891f-6d0daec3f01b)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8710bd0a-4e34-4905-8be5-0215477fb53d)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c5c73504-3fd9-4ec7-8462-2c46fd0052c8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/faf6e69f-a9a3-42cd-9f39-7303dfc1b8fe)
