@@ -6520,6 +6520,313 @@ L = {Give a regular expression of all a's and b's where the length of every stri
 
 * The **diagram/table** came from **moore machine**.
 * **Moore** to **mealy** conversion.
+* From the **moore** we constructed the **mealy**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d16306f-faee-47e5-8054-0327230375d9)
+
+* **Moore** diagram.
+* **Moore** machine **output** is based on **state only**.
+* **Moore** machine **output** is not based on **input**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05eb6c22-c9a7-4a06-b7e8-28f9be2d1353)
+
+* By seeing the **table** we can say that it is a **moore or a mealy** table**.
+* In **moore** table, there is **only one column** for **output**.
+* In **mealy** table, for **every input** there is a **output**.
+* **More output** columns are there which means it is **mealy** table as it is based on the **inputs and states**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd6fe804-c124-4c07-8ed7-ee0e521aa319)
+
+* [**IMPORTANT**]
+
+### Moore to Mealy conversion   
+
+* We have **4** states.
+* In **Mealy** output is based on the **input**.
+* In **moore** machine **output** is there in **one column**.
+* In **mealy** machine write the **output** in **two columns**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/00237235-b0c3-4713-b078-148003585469)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bd044f12-c2bc-429e-8150-8613eeec2038)
+
+* **S2 and S3** are looking **same**.
+* **S1 and S4** are looking **same**.
+* We can combine **S2 and S3** and we can also combine **S1 and S4**.
+* In **moore** machine, the **output** column is **separate** which means that based on the **state**, the **output** will come.
+* In **mealy** machine, the **output** column is **not separate** which means that based on the **current state and the current input symbols**, the **output** will come.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b85743b-794e-4c23-b48e-60c6239c0146)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f4cba4e-ae4e-45ed-9a74-a8631c9a492a)
+
+* **Output** is based on where we are going. **S2** output we will write.
+* Not only the **state** is **same**, not only the **input** is **same**, **output** is also **same**.
+* Here **output** also matters.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e3b7447-6e25-4277-8061-869a34de4ecc)
+
+* We don't bother about **minimization**.
+* The **moore** machine contains **10 states** then the **equivalent mealy** machine contains **10 states**.
+* The **moore** machine contains **20 states** then the **equivalent mealy** machine contains **20 states**.
+* **Moore** machine -> **1** column for output.
+* **Mealy** machine -> **2** columns for output.
+
+### Mealy to Moore conversion
+
+* **Mealy** has **2-states**.
+* **Outputs** we have is **3**, which are **0, 1 and 2**.
+* If we want to construct **moore** then **output** should there within the **states only**.
+* We have **2-states** and **3-outputs**.
+* We don't know what **output** should be there within the **states** in **moore** machine as **3-outputs** are possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/549a70d3-269f-4eaf-ba0d-4436057ed97b)
+
+* **Output alphabet size** is **3**. 
+* We don't know the **output** of **S1 state**, we should keep **0, 1 or 2** inside the **S1 state**.
+* We don't know **inside the state** what **output** to keep.
+* Try all **outputs**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0d332ac-b33f-4dc4-ad6b-168ef3df4770)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4691aaa3-ae3b-4fc6-ab4d-fce65f26f030)
+
+* In **moore** machine, inside the state we have to keep **output**.
+* We don't know which **output** to keep.
+* So in **every state**, try all possibilities.
+* **2 * 3 -> 6** combinations. Keep all of the **6** combinations.
+* Out of the **6** people, few of them will be wasted.
+* If we know exactly then we will cover **exactly**.
+* This is the **maximum** thing which can happen.
+* **Conversions** normally give **maximum** only.
+* We are talking about **conversion** only. Not **minimal diagrams** and all.
+* If **mealy** contains **2-states** and output alphabet size is **3** and **equivalent moore** if we create then **maximum** how many states are there?
+
+> **2 * 3 -> 6** states are there, which is **maximum**.
+
+* Out of them, few are **useless**.
+* **Maximum** contains **6** states.
+* Within the state we have to keep **output** but we don't know which **output** to keep.
+* With the name **S1** we have **3** people.
+* With the name **S2** we have **3** people.
+* **Transitions** are missing, we will take care.
+
+* In **mealy** machine, **S1** on **b** we are going to **S1** and the **output** is **2**.
+* In **moore** machine, **S1** on **b**, but we have **three S1's**. We don't know which **S1** to take. So take all of them.
+* * In **moore** machine, **S1** on **b** we are going to **S1** only, but which **S1**?
+
+> **S1** on **b** we are going to **S1** only but that **S1** which contains **output** as **2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b4db977-1ae6-43b8-a55c-fbc17adea901)
+
+* Where are we **going**? **Going** point needs to be **clear**.
+* From **which place** we are going is **not clear**.
+* Where are we going is **clear**.
+* **Out-going** is **not clear**.
+* Where is it **going inside** is **clear**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/543ffc90-b321-436e-90e5-5dbaa9be8fad)
+
+* **Out-going** -> Going outside.
+* **S1** only, everyone is **going** but coming to **S1** which has **output** as **2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6aac68ec-9676-4a50-82d3-22b486ff625f)
+
+* In **mealy**, **S1** on **a** we are going to **S2**.
+* Which **S2**?
+
+> The **S2** which has **output** as**2**.
+
+* Which **S1**?
+
+> All of the **S1's**.
+
+* **Output** is **clear** and where we are going is **clear**.
+* From which place we are going, we have so many **S1's**, we don't know.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/21075233-c3d4-47d4-b108-3f31bb4c9d92)
+
+* Everytime see **mealy** as **mealy to moore** conversion is going on.
+* In **mealy**, **S2** on **a** we are going to **S2** and the output is **1**.
+* Where we are going is **ok**, we are going to **S2** whose output is **1**.
+* From which place we are going?
+
+> **S2** but so many **S2**. Take all.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe82f8fd-0c8f-40be-a76a-04ded63a152e)
+
+* In **mealy**, **S2** on **b** we are going to **S1** and the output is **0**.
+* We are going to **S1** whose output is **0**.
+* Every is coming to **S1** whose output is **0** but from where? 
+
+> From **S2** but so many **S2**. Take all.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c9747f9-d36a-4056-a632-a1628bb0ea93)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/936f0cb1-0322-4a44-903c-5b659454ef48)
+
+* **Where** we are **going** is **clear**.
+* **From which place** we are **going** is **not clear**. So many **S1 and S2** are there.
+* **Output** point is **clear**.
+* **From where** we are **going** is **not clear**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/936f0cb1-0322-4a44-903c-5b659454ef48)
+
+* We have to find those **states** which don't have any incoming people?
+
+> **S2, 0**, **S1, 1**.
+
+* **Incoming** means **no one using** those **states**. **No one is coming** inside those **states**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df050c34-38d7-4dbb-abaf-e05d2bf608c5)
+
+* **Resultant diagram** contains **4-states**.
+* How many states are there?
+
+> **S1 and S2**. Because of both the **states** are **same** we are having some confusion. We can give **different names**. No need to bother.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e2b4e42c-8887-4281-ba19-7893f5507187)
+
+* Who will be **initial state**?
+
+> **S1**.
+
+* Can we make anyone as **initial**?
+
+> **No**.
+
+* If **transition** not there then what will happen?
+
+>
+
+* If we make **S1** as **initial state** then What will be the **output** printed **starting itself**?
+
+> **0**
+
+* At the **starting itself**, the output should be **2**.
+* So **S1** on **2** is the **initial state**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4713ea2d-abff-4c56-8263-c1f71a65c42e)
+
+* We have done this **problem**, so we know which **one** is **initial state**.
+* Can we **generalize** and say anything?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9bb242f9-d27c-4cf4-9234-8d5887f06697)
+
+* Maybe we have done **some mistakes**.
+* Max states -> **2 * 3 -> 6** states.
+* We have **6** possibilities.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/26bd92c1-4579-4881-abdb-8d5df348f6b1)
+
+* If we see the **mealy** table and we only see **two choices** for **S1**, which are **2 and 0**.
+* So we can remove **S1, 1** from the **6-possibilities**.
+* If we see the **mealy** table and we only see **two choices** for **S2**, which are **2 and 1**.
+* So we can remove **S2, 0** from the **6-possibilities**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/811b855c-64d6-4028-89f0-3cc59e8f10ab)
+
+* Now, we have total of **4-states**.
+* As we want to construct **moore** so the **output** will be there within the **states** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30c81765-8449-4f5c-9732-8cc5e65c2973)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/47209514-3336-41a6-b71c-e85db77ac4db)
+
+* Changing the names for **differentiation**.
+* No problem there.
+* We didn't create any problem.
+* This is the **actual problem**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6893a625-fe9f-4444-bc44-cb846a179c02)
+
+* **2 * 3 -> 6** states are there.
+* As **no one** is coming inside of those states, then **cancel** those **states**.
+* After that we are getting **4-states**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/59c7c980-e013-408d-8508-978e5e49bf56)
+
+* Transitions are **same** story.
+* **S1** on **a** we are going to **S2** with **output = 2**. Both the **S1** will come.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e42036cc-f9f7-42c8-9af2-0c1ef8020009)
+
+* **S1** means both the **S1's**.
+* **S1** on **b** we are going to **S1** with **output = 2**. Both the **S1** will come.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b34bdc8-9196-4866-b80c-4708075dc858)
+
+* **S2** on **a** we are going to **S2** with **output = 1**. Both the **S2** will come.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92d81a66-60f8-41ee-b8c0-3ef4aefec35a)
+
+* **S2** on **b** we are going to **S1** with **output = 0**. Both the **S2** will come.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3778c0c7-7032-4000-a2a5-4427fab92f87)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a852d685-030d-4398-9b67-9f1bfe0aea76)
+
+* Who is **initial** in **moore** machine?
+
+> **S1** with **output = 2**.
+
+* In the **mealy** machine, **S1** is **initial state**.
+* In **moore** we have **two S1's**. Who we can make **initial**?
+* Any **generalization** can we do?
+* **aa** -> Output is **1**.
+* **ab** -> Output is **zero(0)**.
+* How can we print starting itself as **zero(0)**?
+
+> **ab** then only we can print **zero(0)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1997051-1c84-4d38-a2ac-857d96db2203)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e416cd9-243f-42e3-822d-13ec4f1e121f)
+
+* How can we do **generalization**?
+
+> **Next class**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a09ee956-5306-4881-9b99-d1faa182a9d7)
+
+* In this **problem**, **initial** is **S1** with **output = 2** because **starting** itself we cannot printout **zero(0)** because according to the **problem** when we get **ab** then only we can print **zero(0)**. **Starting** itself, where is the **ab**?
+* This **problem** is **OK**.
+* We will see **next class**.
+* With the help of **Epsilons** make **single initial state**. That is the thing, one book is saying.
+* Make the **new state** as the **initial state**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/52ab5477-1323-4b54-901f-e56058cda209)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/29e6262d-9734-4e76-9455-ee159458d38c)
+
+* Doubt.
+
+* **States** are **2** and **outputs** are **3**.
+* **Equivalent moore** machine how many **states** as **maximum**?
+
+> **2 * 3 -> 6** states.
+
+* While doing the **conversion**, if **more than one initial states** comes then what we will do?
+
+> With the help of **epsilon**, make it as **single initial state**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8bf0e054-48bc-44f1-b727-1cffeca37ecf)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
