@@ -6361,25 +6361,147 @@ L = {Give a regular expression of all a's and b's where the length of every stri
 
 * **Moore and mealy** are **deterministic** in nature.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/64dee5b5-c81a-48cf-966e-0bcb67e6a482)
 
+* We have to cover remaining **possibilities** also.
+* Our concentration is **ending**.
+* **S3** means **ending** with **aa**.
+* **S4** means **ending** with **ab**.
+* **S3** means **ending** with **aa** but if we get another **a** then ending with **aa**. So for **a** on **S3**, we do **self-loop**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f124b37-d0b1-42b2-b65e-01268815ba87)
 
+* **S3** means **ending** with **aa** but if we get **b** then ending with **ab**. So for **b** on **S3**, we go to **S4**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee6e1f55-c7a3-4886-ab9b-4bb77e5d5b7b)
 
+* **S4** means **ending** with **ab** but if we get **a** then not ending with **ab**. So for **a** on **S4**, we go to **S2**. Because we are getting **a**, so if we get another **a** then we will go to **S3** which is **aa** and if we get **b** then we can go to **S4** which is **ab**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/53f2b4d1-a26f-4305-93ac-b1fa6f955299)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6892f7c5-6b2d-44c2-a036-0b4a7ab6899d)
 
+* **S4** means **ending** with **ab** but if we get **b** then not ending with **ab**. So for **b** on **S4**, we go to **S1** as **bb** or **b** do not work. So we are going to the **starting** which is **s1**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/904a6a14-89ef-4faa-b1fd-f15bc500e080)
 
+* After **S1**, ending will come by either **aa** or **ab**, before that any no. of **b's** no problem.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e36ed439-4e6d-453a-965a-0fc88e6033c8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/99baeaa0-f478-40eb-9346-c1af27412c56)
 
+* This is **moore** machine.
+* In **moore** machine, if we give **5-length input** then we will get **5 + 1 -> 6** length output.
+* Initially we are at the **starting state** without reading any **input symbol** it will print the **starting state** output.
+* **moore** machine means that the **output** is within the **state** only.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8d002ae-a0d0-45c4-94fd-effa7ec13b21)
 
+* We have **7-length input**.
+* Output length is expected to be of length **8**.
+* As of now, the **output** printed is **11** as we have gotten **ending with 'aa'** in the **input**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63194059-7526-475f-92dd-dce20c5494ac)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/93353b2c-a2e7-4c85-8a1f-5bdb389a4412)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3fd5994b-c958-4233-992e-71e811861783)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/669e9897-357a-408c-9690-da124fe052e4)
 
+* [**IMPORTANT**]
+* To us, the **last two** people are **what** that is very **important**.
+* Which is **bb** here, so **2** should be **printed**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/824ef6c1-08b0-40e2-8b9a-9eaeea0cb13f)
 
+* Solve the **last problem** using **mealy**.
+* In **mealy**, on the **transition line** we will get the **output**.
+* Based on the **input as well as the state**, we will get the **output**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b35045f-6fad-47d0-b359-78fff90c8b7c)
 
+* **S2** means ending with **a** happened.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/beb9ff8d-ac29-4c40-81b0-355b3ffcc12b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33733e44-824e-4bda-8d02-d9cc5baddce4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f77e8888-689e-436c-9a1c-0b197e7222be)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7fbf5f11-a119-47cf-bb47-13a78cfbff12)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2caae46b-2933-4135-8c66-f70889980aa9)
+
+* **Minimal DFA, minimal moore machine, minimal mealy machine** is **unique**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bda13931-b526-41d8-b8cb-96247181d622)
+
+* In **mealy**, if we give **n-length input** then we will get **n-length output**.
+* For **every input symbol** we have an **output**.
+* Within the states we don't have any **output**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cabcc4f6-9108-4bb4-a4b6-5eb59c37a40c)
+
+* If we have **state** then we will have **output**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/639ba4f9-7ca7-4906-b2e7-224161e8925c)
+
+* If we have **state and input symbols** then we will have **output**.
+* Machine stops means **string** is over.
+* If machine continues then **string** is not over.
+* It is not **conversion**, we have done the **drawings** directly.
+* If we do **conversion** then we will get **answer** then do not bother about **minimal things**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/136c5625-e2a4-4f49-8a4f-728b592b4c8b)
+
+* In the diagram, we have **4-states**.
+* How many **outputs** are there? [Output alphabet size]
+
+> **Three output symbols(0,1,2)**
+
+* So, (4 * 3) -> 12.
+* The diagram is **moore**, we want to create **mealy**.
+* **Moore** machine contains **4-states**.
+* **Mealy** also takes **same** no. of states.
+
+* **STEPS**:- [Moore to Mealy conversion]
+
+1) If **Moore** machine contains **4-states** then in **mealy** machine take the **same** no. of states.
+
+* Take **same** no. of states as **moore**.
+* Copy states as it is but don't **copy** the **outputs** from inside the **state**. Just copy the **states** not the **outputs**.
+* Inside the **state**, don't write the **output**.
+* **Starting state** write as it is.
+
+* **S1** on **b**, we are going to **S1** and the output is **2**.
+* **S1** on **a**, we are going to **S2** and the output is **2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f2b7eeb-42f1-4709-afff-02a27c18cb11)
+
+* **S2** on **b**, we are going to **S4** and the output is **0**.
+* **S2** on **a**, we are going to **S3** and the output is **1**.
+
+* Instead of writing the **output** on the **state**, write the **output** on the **transition line**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb3507cf-3900-4f27-892a-3ba371c470af)
+
+* **S3** on **b**, we are going to **S4** and the output is **0**.
+* **S3** on **a**, we are going to **S3** and the output is **1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0830f424-c15c-4dcf-bd68-b88b0bf4fa80)
+
+* **S4** on **b**, we are going to **S1** and the output is **2**.
+* **S4** on **a**, we are going to **S2** and the output is **2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c4357f6-3359-4a25-a744-f505b53ddee6)
+
+* GAME OVER.
+* DONE.
+* [**IMPORTANT**]
+* We have not done any **minimization**. It is **as it is**.
+* If we want to do **minimization**, then do the **diagram** on our own. Do it **directly**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/271e49d3-0086-47b4-b14f-b5727c638750)
+
+* **minimized** diagram.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/15593bd8-58aa-4d52-a7a3-3518e5bd34af)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af59fb0e-c71b-492d-b771-3558b36a61b9)
+
+* [**IMPORTANT**]
 
 
 
