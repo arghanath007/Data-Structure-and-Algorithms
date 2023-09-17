@@ -6806,6 +6806,7 @@ L = {Give a regular expression of all a's and b's where the length of every stri
 > With the help of **epsilon**, make it as **single initial state**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8bf0e054-48bc-44f1-b727-1cffeca37ecf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63a72df9-41c3-4222-b213-cc2b4f89a388)
 
 
 
