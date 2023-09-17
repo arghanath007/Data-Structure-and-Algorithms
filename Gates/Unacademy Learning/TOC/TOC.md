@@ -6207,21 +6207,32 @@ L = {Give a regular expression of all a's and b's where the length of every stri
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d05956d5-1166-4825-b1d3-b7e4f8e5b3b1)
 
+* Both are correct.
+
 1) Moore and mealy are deterministic(like DFA)
-2) No. of final states in moore and mealy machine are **zero(0)** because these are not language recognizers but these are **output** generated.
-3) Lambda : Q -> Delta
+2) No. of final states in moore and mealy machine are **zero(0)** because these are not language recognizers but they are **output** generators.
+
+* In the **moore** machines, the **output** is within the **states**.
+* In the **mealy** machines, the **output** is in the **transition lines**.
+
+3) Lambda : Q -> Delta [Moore Machine]
 
 * Delta -> Output alphabet
 * Q -> State
 * Lambda -> Output function.
 
+* If we know **state** then we know the **output**.
+* In case of **moore** machine if we know **state** then we know the **output**.
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae1ff3e0-5592-455e-8488-5d46a3635ba4)
 
-* In case of **moore** machine if we know **state** then we know **output** as well.
-* Sigma -> Input alphabet
-* Delta -> Output alphabet
+* Sigma -> Input alphabet -> The symbols allowed to give **input**.
+* Delta -> Output alphabet -> The symbols available to produce **output**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/157a8877-c7d1-4db3-a7d6-4a2ff0aa49a7)
+
+* Input alphabet  -> a, b
+* Output alphabet -> 0, 1
 
 * If in the **moore** machine, we want to know as of now what is the **output**?
 
@@ -6231,36 +6242,109 @@ L = {Give a regular expression of all a's and b's where the length of every stri
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b39515f5-7752-4903-9de0-447b6ffff858)
 
-* **Mealy** output is based on **states as well as input** also.
-* Which state we are in, what **input** we have applied, then **output** come.
+* **Mealy** output is based on **states as well as input(symbol)** also. Both will decide.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1788219-5cc3-4f20-bcd9-ed5c0fc3f9a6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1400ad3e-0670-4570-9b06-df6ddad02c02)
+
+* Both are **same**.
+* Left is a **better diagram**.
+
+* On **S2** state, **b**, the **output** is **1**.
+* On **S2** state, **a**, the **output** is **0**.
+* Not only **state** but the **input symbol** matters. [**IMPORTANT**]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3480d2ab-c0d3-4ae3-9116-48babf9a15bd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ef6fffe-5280-4423-9477-056775687210)
+
+* Which state we are in, what **input symbol** we applied, then accordingly **output** will come.
+* [**IMPORTANT**]
+
+4) Moore machine, **m** = (Q, Sigma, Phi, S, lambda, Delta)
+
+* Q -> States
+* Sigma -> Input alphabet
+* Phi -> Transition Function
+* S -> Starting state
+* F -> Final state -> No final states in **moore machine**.
+* Lambda -> Output function
+* Delta -> Output Alphabet
+
+* In place of **Final state(F)**, we got **Output functio(lambda) and Output Alphabet(Delta)**.
+* Output is coming how?
+
+> Check **point 3**, output function written there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df3f5b5f-c7b9-45b4-9c48-6ae96f52bd9b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f235f44b-a9d5-4e7c-b585-c91b9686badf)
+
+* It doesn't matter what **input** we are giving.
+* Delta -> Transition function
+* Lambda -> output function
+* This is for **normal** machines(FA).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85cd777b-d566-4b3f-a996-c7b37a5dd77d)
+
+* **Finite automata** is called as **5-tuple machine** because it has **5-values** are there.
+* In **moore machine** we have **6-values**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9445d54-b80b-4951-be42-9d5d70e832aa)
+
+* The **difference** between **moore and mealy** machine is that the **output function**. How are we getting the **output**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c030fd30-a501-4348-a283-f76a1925dad6)
+
+* In which of the machines, the output is based on the **current state** only?
+
+> **Moore machine**.
+
+* In which of the machines, the output is based on the **current state** as well as **current input symbol** also?
+
+> **Mealy machine**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c377585-e139-4e78-890b-8bb63fa80538)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed90e41a-2f20-4c16-8e67-f7d150b50e04)
+
+* Lambda -> Output function
+* Delta -> Output alphabet.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec09e85b-7f4a-474a-9b9b-26830002bff1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4d6ebce-91c0-41d2-965c-e02326c59070)
+
+* Input size is **8**.
+* **States** will decide the **outouts**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0cdff942-4ed4-4a50-9183-bfdab155dd8e)
+
+* Input length is **8** only but **output** length is **9**.
+* Initial output did not came by **input**.
+* Initial output came by **starting state** only.
+* Because of **starting state** one extra output came.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf50ba02-498f-4e92-8be5-ea52c3c4fb13)
+
+* We got **three 1's** which means we have **three ab's** in the **input**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/96589767-b278-408c-bedb-1961b3fbb88a)
+
+* If we give, **input length** of **8** then we will get **output** length of **8 + 1 -> 9**. This is in **moore machine**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1965aa7-6f0b-4557-b132-ba988ad38ba6)
+
+* **moore machine**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c4f56aa2-3924-46cf-8428-ccd49ec91e17)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e7592989-805f-44ae-967d-591d2c67d552)
+
+* In **mealy** machine, whatever **length input** we give that **length output** only we get.
+* We got **three 1's** in the **output**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b190949c-d5f7-449c-acee-f44b2d78686b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be20c0cc-a7dc-4c26-afca-63c2a89845e0)
+
+5) In moore machine for **n-length input** string we will get **(n + 1)** length **output** string but in **mealy** machine we will get **n-length output** string only. 
 
 * [**IMPORTANT**]
-* Start from 1hr 30mins.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
