@@ -6502,9 +6502,24 @@ L = {Give a regular expression of all a's and b's where the length of every stri
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af59fb0e-c71b-492d-b771-3558b36a61b9)
 
 * [**IMPORTANT**]
+* **Input** is either **a** or **b**.
+* By giving **some input** it will go to some other state.
+* NS -> Next state
+* o/p -> Output
+* i/p -> Input
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/edee8afa-2ee4-43b2-a824-01c2cd2bddb1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/defbc794-a550-4ae6-8690-58a54ca1deda)
 
+* Don't worry about **minimization** here.
+* Both are **same**.
+* One is **transition diagram** and one is **transition table**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e87a7b22-8077-4bae-aaad-bce35b193c36)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/521f6ff2-4854-44dc-8412-0401e75b4534)
+
+* The **diagram/table** came from **moore machine**.
+* **Moore** to **mealy** conversion.
 
 
 
