@@ -6346,8 +6346,20 @@ L = {Give a regular expression of all a's and b's where the length of every stri
 
 * [**IMPORTANT**]
 
+## cfg-and-pda-iii (26) [17th Sept 2023]
 
+* Construct moore machine that accepts all strings of a's and b's as input and produces output '1'  if it's input ends with **aa** and produces output **0** if the input ends with **ab** and produces output **2** otherwise.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/17f37180-8c6e-4607-9172-d7224a661223)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3c5a9e4-f563-4b5c-9508-9b4a6dda29c0)
+
+* **aa** -> 1
+* **ab** -> 0
+* **otherwise** -> 2
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/68e58a6f-0377-4e5d-b241-3763b3b4ef67)
+
+* **Moore and mealy** are **deterministic** in nature.
 
 
 
