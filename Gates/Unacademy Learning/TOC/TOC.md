@@ -7205,6 +7205,312 @@ L = {Give a regular expression of all a's and b's where the length of every stri
 
 * [**IMPORTANT**]
 
+## doubt-clearing-session(28) [18th Sept 2023]
+
+## Closure Properties of Regular Languages [**IMPORTANT**]
+
+* **5** marks from **closure properties** only.
+
+### Union
+
+1) L1 = Sigma ^ * then L1 U L2 = L1 [Complete Langauge U anything = Complete language]
+2) L1 = Phi then L1 U L2 = L2 [Phi U anything = anything]
+3) L1 = (a ^ * ) * (b ^ * ) and L2 = (a ^ n) * (b ^ n) then L1 U L2 = (a ^ * ) * (b ^ * ) = L1
+
+* (a ^ * ) * (b ^ * ) -> Any no. of a's and any no. of b's
+* (a ^ n) * (b ^ n) -> No. of a's equals to No. of b's.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12689100-c003-4979-996e-0039450df72f)
+
+* True.
+
+4) L1 = ((a + b) ^ * ) * b * ((a + b) ^ *) and L2 = ((a + b) ^ * ) * a * ((a + b) ^ *) then L1 U L2 = ((a + b) ^ + ), no one will give **epsilon**.
+
+* Take anything either **a** should be there or **b** should be there. Except **epsilon** everything is possible.
+* L1 = It contains string where **b** is the substring. Except **epsilon**, any no. of b's are allowed.
+* L2 = It contains string where **a** is the substring. Except **epsilon**, any no. of a's are allowed.
+* L1 U L2 = All strings where either 'a' as substring or 'b' as substring.
+* So if we combine **L1 and L2**, **any no. of a's and any no. of b's** are allowed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e33426d-6e33-4610-858a-af25dc85c59b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc8ed8b8-3e28-4aaf-b3f4-0b52d3d24090)
+
+5) L1 = (a ^ * ) * (b ^ * ) and L2 = ((a + b) ^ * ) then L1 U L2 = ((a + b) ^ * ) = L2.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6e0b2b3e-d21d-470d-997c-c73e7704975d)
+
+* [**IMPORTANT**]
+* Common Sense needed.
+
+6) If **L1** is regular and **L2** is non-regular over same alphabet **sigma** then **L1 U L2**?
+
+* regular -> To whom FA is possible.
+* **L1 U L2** is always **regular(R)**, we cannot say that as **L1** is regular and **L2** is non-regular(NR).
+* We cannot say **regular or non-regular**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/475ce846-75d6-4d46-9c58-a438a33c2a61)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c77b701e-ee68-4819-9d0f-709036a8552e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9fbd25bc-22c7-49cd-97d4-e488a68f569f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dda20565-5bd5-434a-a6de-0f0f58278317)
+
+* **Always** we cannot say.
+* **Maybe** is **correct**.
+* Maybe regular or may not be regular.
+
+7) If L1 U L2 is regular then what can we comment about **L1 and L2**?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/28859a0b-6ca1-48ae-8570-e337ef1932da)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ca382f61-f505-4843-802c-1566a0b90751)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d7871f0-49cd-4222-b579-bfd5e2d2573d)
+
+* L1 -> Maybe be regular, may not be regular
+* L2 -> Maybe be regular, may not be regular
+
+8) If L1 is regular and L2 is regular then L1 U L2?
+
+> **L1 U L2** is regular always.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6f56ba8-39a2-489c-8168-de86321c5385)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f33c0ff7-a38e-4863-ad35-6daaa71affd6)
+
+* A -> Finite
+* Sigma ^ * -> Infinite set.
+* If we remove **3-4** people from the infinite set then also it will be **infinite set**. It will not become **finite set**.
+* **Finite sets** are not closed under **complementation**. [**IMPORTANT**]
+* For **Finite set** if we do **complementation** then the **answer** is not **finite**. That's the meaning of **not closed**.
+* After operation, the set changed it's behaviour.
+* Before applying the operation, **A** is a **finite set** and after applying the operation, **A** becomes an **infinite set**.
+* Before it was **finite** and after operation it became **infinite**, that's the meaning of **not closed**. That's why **Finite sets** are not closed under **complementation**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c37f308f-9610-4b52-b0b6-50e6e4c2634e)
+
+* **Regular languages** are closed under **union**. [**IMPORTANT**]
+* **Closed** meaning -> **A** is a **finite set** and after applying **complementation** also, **A** became **finite set**.
+* **A and B** are **two finite sets** and if we do **union** then they will become **finite**, **YES**.
+* **Finite sets** are closed under **union**. [**IMPORTANT**]
+* **A and B** are **two finite sets** and if we do **intersection** then they will become **finite**, **YES**.
+* **Finite sets** are closed under **intersection**. [**IMPORTANT**]
+* **Complement** of **finite set** need not be **finite set**. So, it is **not closed**.
+* **L1 and L2** are **regular** and sometimes **L1 U L2** is sometimes **not regular** then we cannot say it is **closed**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3be0a7c9-802a-4c03-8283-024ed63d8bd0)
+
+* So, Regular languages are closed under **union** operation.
+* Closed -> Before and after behaving **same**.
+* **L1** is **regular** then **finite automata** is available.
+* **L2** is **regular** then **finite automata** is available.
+* For **L1 U L2**, we can construct the product machine. **YES**. Using **epsilons** we can do. Like above also we can do. **OR** means any **final** is ok.
+* For **L1 intersection L2**, we can construct the product machine. **YES**. Where both the **finals** are there, then only select the **final state**. Both finals are required.
+* **intersection** means both finals are required.
+* **L1** is **regular** and **L2** is **regular**. So, **L1 intersection L2** is also **regular**
+
+### Intersection
+
+1) Phi(Q) intersection L = Phi(Q)
+2) ((a + b) ^ * ) intersection L = L [Everything intersection something = something]
+3) (a ^ * ) intersection ((aa) ^ * ) = ((aa) ^ * )
+
+* (a ^ * ) -> All a's
+* ((aa) ^ * ) -> Only Even no. of a's.
+
+4) (a ^ * ) * b intersection a * (b ^ * ) -> ab
+
+* (a ^ * ) * b -> Ending with 'b'
+* a * (b ^ * ) -> Starting with 'a'
+
+5) ((a ^ * ) * (b ^ * )) intersection ((b ^ * ) * (a ^ * )) -> {Epsilon, a ^ *, b ^ *} -> (a ^ * + b ^ *) [**IMPORTANT**]
+
+* ((a ^ * ) * (b ^ * ))  -> Ending with 'b'
+* ((b ^ * ) * (a ^ * ))  -> Starting with 'b'
+
+6) ((a ^ + ) * (b ^ + )) intersection ((b ^ + ) * (a ^ + )) -> Phi
+7) ((a * (b ^ + )) intersection ((b * (a ^ + )) -> Phi
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b7afcf8-32b1-4c8c-a9e6-a6d003c19f70)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f24dd84-1b43-47c9-aec5-9e943edaf8d0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f07e356b-3ad5-4117-b032-c0d873079c55)
+
+* All are **regular expression** so, they are **regular**.
+
+* [**IMPORTANT**]
+
+8) If L1 is regular and L2 also regular then **L1 intersection L2** is always regular
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31cac30d-b89b-43aa-8832-b544c8297cc7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/527c1894-b043-4bbd-9523-0eaada3d4349)
+
+* [**IMPORTANT**]
+* Always regular.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ba315a5-d7ba-481b-83f2-3fa056917b1d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ff944ec-cd03-4949-929c-81f13bcef4d1)
+
+9) If L1 intersection L2 is regular then what we are commenting about L1 and L2?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/75209d5a-5320-4ebd-9676-e3fc8ccbb942)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e28fcac-4ce3-4222-8140-f9a46d301ba3)
+
+* Two are non-regular and we got **regular**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b3c9056e-c6ab-4421-8ae6-00f32365ad1a)
+
+* One is regular and one is non-regular and we still get **regular**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/071926d3-74a5-4366-ab9f-d942fd4453b1)
+
+* **L1 and L2** maybe regular and may not be regular.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3304ca0f-fa46-48da-bd97-3039ed1d791b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ceeb6489-2035-4c2e-ae93-70f36c8ca3c8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30d82e36-c1bc-45df-961b-500fd67462be)
+
+* If both are regular then also we are getting **regular**.
+* [**IMPORTANT**]
+
+* Question.
+* **L1 intersection L2** is **regular** and **L1** is also **regular**, what about **L2**? [**IMPORTANT**]
+
+> **L2** -> May be regular or may not be regular.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5dcefcdc-3093-4127-9590-fdfd8b0f444d)
+
+### Complementation
+
+* **L** is regular, so finite automata is available, means **DFA** is available. In the **DFA**, change the **final to non-final** and vice-versa, we will get **complementation**.
+* For **complementation** also, finite automata is there.
+* Before **complementation** we have **DFA** and after **complementation** also we have **DFA**.
+* So, **regular languages** are closed under **complementation**.
+* Before **complementation** we have **finite automata** and after **complementation** also we have **finite automata**.
+* Both the cases, we have **finite automata**.
+* Then we can say it is **closed**.
+
+1) L = Phi(Q) then L' = (Sigma ^ *) - phi(Q) = (Sigma ^ *)
+2) L = (Sigma ^ *) then L' = (Sigma ^ *) -(Sigma ^ *) = Phi(Q)
+3) L = a * ((a + b) ^ *) then L' = b * ((a + b) ^ *) + Epsilon
+
+* In language **L**, starting with **a** only allowed.
+* In language **L**, starting with **b** not allowed. They will by default go to **dead state**.
+* Starting **a** only go to **final state** and starting **b**, they will go to **dead state**.
+* When we do **complementation**, **dead state** becomes **final state** and **final state** becomes **non-final state**.
+* Starting **a** we will go to **dead state** and starting **b**, they will go to **final state**.
+* Language **L** contain **epsilon**. **No**, before **complement**, **epsilon** was **rejected** and now after **complement**, **epsilon** should be **accepted**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ceaf4077-e3fd-4c87-b133-adad11d81619)
+
+* [**IMPORTANT**]
+
+4) L = ((a + b) ^ *) * b * ((a + b) ^ *) then L' = (a ^ *) [**IMPORTANT**]
+
+* **L** -> Contain **b** as substring.
+* **L'** -> Contain **a** as substring.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/573b55c2-7ad4-447c-a48b-cda342a571bd)
+
+* We have to do **complementation**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b39cd97-dd64-436b-b05f-d0d077aca22f)
+
+* Draw **DFA** and verify for doing **complementation**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/262e552f-e44e-4885-a6a9-78fa4fb781dd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89221dae-546a-4bf3-889e-78cd5190a7cc)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
