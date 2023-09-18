@@ -7113,25 +7113,97 @@ L = {Give a regular expression of all a's and b's where the length of every stri
 
 * See **machine**
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bbd8dcc3-a8a0-4bcc-a983-8a5aecb11373)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0030fd3c-4fee-475c-b7fb-70146b8e59cd)
 
+* Mealy
+* Input -> Two binary numbers
+* Output -> Sume of those twi binary numbers
+* Assume LSB comes first and end carry discarded.
+* It is like **adding** two binary numbers.
+* Binary Adder.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80b747dc-261f-4a70-80aa-8196cfab80c0)
 
+* This is not a **binary incrementor**.
+* In the **binary incrementor** we have **carry**. One carry is already there.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f620138-ee72-49aa-a5cf-66b3480d9319)
 
+* This is not a **binary incrementor**, so we don't have **carry** at the **starting only**.
+* **Carry** means **two bits** should come.
+* **S1** not having carry.
+* We have two binary numbers.
+* We don't have anything extra.
+* **S1** is **initial state**. We have two binary numbers but their **LSBs** only. Two bits.
+* The combinations of LSB are **00,01,10, 11**.
+* **S1** is **initial state** and it is having **no carry** because he has only **two binary nos** and from where we will get **carry**.
+* If both **LSBs** are **0's** then **0 + 0 -> 0** and **no carry**.
+* If **LSBs** are **0 and 1** then **1 + 0 -> 1** and **no carry**.
+* If **LSBs** are **0 and 1** then **0 + 1 -> 1** and **no carry**.
+ 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/009cb327-3a50-405d-ab61-95d6f1c34a04)
 
+* **S1** not having carry.
+* If both **LSBs** are **1's** then **1 + 1 -> 2 -> 10** and write the **LSB** first and the **one(1) extra** is the **carry**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d08cc991-9add-41fc-a5c7-28f60bec49d5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44819403-8421-46c8-8997-1be89356d990)
 
+* So, we have **carry** now.
+* **(1,1)** came and we added them and we got **10**, we wrote **0** as **output** in the **transition line** and **1** is **carry** and go to **S2** state.
+* When we come to **S2**, we have **one(1) extra**.
+* **(1,1)** came and we are in **S2** state.
+* Now, we are in **S2** and **(0, 0)** came, **s2** already having **1**, so **1 + 0 + 0 -> 1** output. We lost/completed the **carry**.
+* As we have **lost/completed** the **carry**, we have to come back to **S1**.
+* If **carry** is there then **stay** at **S2** state.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f285e82b-1f03-4c11-b219-edb5b4c90885)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/11b42697-813c-44fd-924b-04d3f187fd17)
 
+* In **S2** state, **1 + 0 + 0 -> 1**, write **1** and comeback to **S1** state. **1** is the **carry** at the **S2** state.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0401759d-cad7-45f4-9acd-a98a042d1862)
 
+* **S2** is having **carry** which is **one(1) extra** and we got **(0,1)**.
+* So, **0 + 1 + 1 -> 2 -> 10**. So, the **output** is **0** and we have carry of **1**, so stay in **S2** state only.
+* **S2** is having **carry** which is **one(1) extra** and we got **(1,0)**.
+* So, **1 + 0 + 1 -> 2 -> 10**. So, the **output** is **0** and we have carry of **1**, so stay in **S2** state only.
+* **S2** is having **carry** which is **one(1) extra** and we got **(1,1)**.
+* So, **1 + 1 + 1 -> 3 -> 11**. So, the **output** is **1** and we have carry of **1**, so stay in **S2** state only.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97536a32-7d58-4c64-8e9d-9baf0e03e13e)
 
+* [**IMPORTANT**]
+* In the diagram, **S2** state remembers **carry** and **no carry** in **S1**.
+* Initially we do not have **any carry**. So the initial state is **S1**.
+* Starting itself we have **carry** then **S2** state become **initial state**.
 
+* Suppose we have got **three people**, **two binary numbers** and **one bit also which is '1'**.
+* Now we have **carry** at the starting itself.
+* Now, start with **S2**.
+* We have to **add two binary numbers**.
+* In the **above question**, there are **two binary numbers** only.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c395d87f-6af2-4d0b-95b9-fb4b2362e158)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb55a60c-c5af-4ecf-9dee-4288fca97980)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/caef80ac-f288-4136-907c-79475c62468a)
 
+* As **mealy** is there so **moore** is also there.
+
+* **NOTE**:-
+
+1) For any regular language **minimal-DFA** is **unique**.
+2) For any regular language **DFA** is **not unique**.
+3) For any regular language **minimal-NFA** is **not unique**.
+4) For a given problem, **minimal moore and minimal mealy** are also **unique** for a given problem.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5f24c82d-1d62-4b85-97e3-a4970c0b4f6e)
+
+* [**IMPORTANT**]
 
 
 
