@@ -7522,24 +7522,62 @@ L = {Give a regular expression of all a's and b's where the length of every stri
 
 * [**IMPORTANT**]
 
+## cfg-and-pda-v (29) [18th Sept 2023]
 
+### Concatenation
 
+1) ((a ^ *) * (b ^ *)) **not equals to** ((b ^ *) * (a ^ *))
+2) Phi(Q) * L1 = L1
 
+*  L1 * Q = L1
 
+3) Epsilon * L1 = L1
 
+* L1 * Epsilon = L1
 
+4) (Sigma ^ *) * a = ((a + b) ^ *) * a
 
+* a * (Sigma ^ *) = a * ((a + b) ^ *)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3aa28a38-4040-4880-a760-09b9c19e9292)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5681c697-561e-4e79-9d09-66b5b900fc3e)
 
+* (Sigma ^ *) * a = (((a + b) ^ *) * a) **not equals to**, ((a + b) ^ *) as in **(((a + b) ^ *) * a)**, the **a** is **compulsory**. Ending with **a** compulsory.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a3baead-2a31-4876-a600-10d0936c654b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/17f2f546-360a-44c4-9665-263957c414a3)
 
+5) (((a + b) ^ *) * (a ^ *)) = ((a + b) ^ *)
 
+* Nothing is **compulsory** in **(((a + b) ^ *) * (a ^ *))**.
 
+6) (((a + b) ^ *) * (a ^ +)) = (((a + b) ^ *) * a)
 
+* Remaining all **a's** we can keep in **((a + b) ^ *)**.
+* **(a ^ +)** means many **a's** also.
+* Here, **ending with 'a'** is **compulsory**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1bfc83a-20a5-4aaf-bb5e-822f4c703c58)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/034e2e93-97f8-4148-9fa0-d23d5d6ed0b8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc8c14e8-fbad-4e17-8084-ffd897b80852)
 
+* [**IMPORTANT**]
 
+7) If L1 is regular and L2 also regular then **L1 * L2** is always regular.
 
+* L1 regular means **FA** there.
+* L2 regular means **FA** there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/532e579b-b8ff-4396-b3de-cc487b97a2db)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bd96c5ff-17bb-4658-9087-6666e6ecf543)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f8abe306-406a-455d-9b70-2e9fbe24638e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2d9a4e87-5742-480b-a9f9-cb2c1534fc37)
+
+* By keeping **Epsilon**, **L1 * L2** finite automata is always possible.
+* Question
+* **L1 * L2** is regular, **L1** is regular, what about **L2**?
+
+> **L2** is also **regular8*.
 
 
 
