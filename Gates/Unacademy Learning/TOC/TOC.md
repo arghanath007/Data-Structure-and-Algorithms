@@ -7001,21 +7001,117 @@ L = {Give a regular expression of all a's and b's where the length of every stri
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9575f199-9012-4b3b-bb17-db47f2108920)
 
+* Construct mealy machine which will take binary numbers as input and produces same **binary number + 1)** as output.
+* Assume **LSB** comes first and end carry discarded.
 * If we give **input** as **8** then we will get **9** as the **output**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4676595-2af2-42db-a832-c23fab8d559f)
 
+* Simply **binary incrementation/incrementor**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8703c2e8-0502-4ad5-a6f2-64de8354bcd4)
 
+* If we give **input** as **15** which is **1111** then we will get **16** as the **output** but the **end carry** is discarded and we will get **0000**.
+* Only **four bits** we have to show.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/82e6337c-403b-40c6-86f2-ce76858133cd)
 
+* Here, **one value** extra is available.
+* Incrementing by **1** means it is having **1**.
+* He is already having **1**.
+* He is ready to give the **1** to us.
+* He already has **1** and is ready to give to us.
+* If **LSB** becomes **zero(0)** then **0 + 1** becomes **1**.
+* Replace **0** by **1**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd2ad74e-e12d-4bef-a90b-847498258101)
 
+* **1000**, the **LSB** is **0**. To the **LSB = 0** add **1** and it became **1**. Remaining people copy as it is.
+* So the **1000** becomes **1001**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a78caa4-5f92-40dc-b5cf-d0d9338a12f0)
 
+* **S1** is having **carry**.
+* **carry** means **1**.
+* We have **two possibilities** here. Either we have **carry** or we do not have **carry**.
 
+* For **0111**, the **LSB = 1**. We are in **S1** state and we are also having **1**. So, **1 + 1 -> 2** but we want **binary representation** which is **10**. Take **0** and **carry = 1**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc9593dd-aa72-4e67-8a7c-3feaf567e9fa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7500c3dc-c115-40b7-b2b1-1788bbd8e5ca)
 
+* Just **adding '1'**.
+* For **binary number, adding '1'**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8569c12b-79a2-4c54-8c36-4af70709f21e)
+
+* **1 + 0 -> 1** and **no carry**.
+* As there is **no carry**, so **copy** as it is.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76e089ff-2fb7-4334-8620-98943bd568db)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/497e7439-e9c4-4b61-a5da-6d3467b07120)
+
+* **1 + 1 -> 2 -> 10**, take **0** and **carry = 1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb530fa1-2cd5-4a80-9daf-d45042dab6a1)
+
+* End carry **discarded**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b6d2ff79-a5c8-4cb2-a4aa-45f103f349ca)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b9eae613-a951-4845-a94a-80dcf5223f2a)
+
+* Initially we are at **S1** state.
+* At **S1** state, we are able to see **LSB**.
+* **S1** means we already have **carry**.
+* We are at **LSB** and **carry** already there.
+* Assume **LSB = 0** and we already have **carry**. So, **0 + 1 -> 1**. **Carry** is not there.
+* Further **carry** is not there.
+* **0** and we already have **1**. So **0 + 1 -> 1**, **add** output as **1** but go to **S2** as **no carry** further. It means that remaining all are **copy**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/68f3f4d8-c69f-43c3-9f42-7d8bb7832345)
+
+* Any boundary on **no. of bits**?
+
+>  No.
+
+* **No. of bits** are how many **bits** that are there on the **input**, those many. Input contains how many.
+* Input stopped means stop the machine.
+* Input stopped means stop it.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f8e849f-605d-4cf1-8e61-6b499deca62d)
+
+* We are at **S1**, so we have **carry**.
+* On **S1**, **LSB** coming as **1** and **S1** already having **carry = 1**. So, **1 + 1 -> 2 -> 10**. Keep **0** here and keep **1** as carry for the **next**.
+* So, we have **carry** still. So, stay in the **same state**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dcb8bb1b-2b4d-4db0-a0e2-33b88f171031)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/38c05556-6a46-468d-8597-f043d9843bc8)
+
+* Input over so **stop it**.
+* Even though **carry** there, don't write it.
+* End carry is discarded.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/421ee1d4-7762-409b-848c-d3fa5ee51a95)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ca527ef2-2005-4526-a502-06915d8778ed)
+
+* [**IMPORTANT**]
+* If input still coming then we will continue.
+* If we feel that **carry** is there then stay at **s1**. [**IMPORTANT**]
+* If **carry** not there then go to **s2**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/673a4210-3426-408e-bf21-9a17df838042)
+
+* **Binary Incrementor** -> **one(1)** only we have extra. When we came to **S2**, we lost that **extra one(1)**. Remaining thing copy.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c5fd95e-cf83-4068-8ac7-bfeaf531c401)
+
+* [**IMPORTANT**]
+* Initially we have **carry**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/182d66cc-4e2a-4e6e-8fbf-6602f40f9aee)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c78e2e98-b2b7-423a-86c0-7381e136357b)
+
+* See **machine**
 
 
 
