@@ -7415,56 +7415,112 @@ L = {Give a regular expression of all a's and b's where the length of every stri
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/262e552f-e44e-4885-a6a9-78fa4fb781dd)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89221dae-546a-4bf3-889e-78cd5190a7cc)
 
+5) If **L** is regular then **L'** is also regular because for **L**, **DFA** is possible and for **L'** also **DFA** is possible. [**IMPORTANT**]
+6) If **L** is not regular then **DFA** is not possible and for **L'** is also not regular and **DFA** is not possible. [**IMPORTANT**]
 
+* In **complementation**, it is **true** both the sides.
+* **Union and intersection** is **one side** only and that side is if **L1 and L2** are **regular** then **L1 U L2** also **regular**.
+* If both **regular** then **union** also **regular**.
+* **Union and intersection** cannot talk in **reverse order** but **complementation** can.
+* **complementation** is working both the sides.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6600f587-da3d-491c-a052-38be6ce7f80c)
 
+* [**IMPORTANT**]
 
+### Difference
 
+* L1 - L2 -> L1 people but not L2. Our goal is **first one** only. **First one** but not **second**. [**IMPORTANT**]
+* Set theory difference.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f9b13c37-80e7-4448-b897-26fae2495275)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/611cfa89-2b89-4915-afb5-7d250a2385eb)
 
+1) Phi(Q) - L1 = Phi(Q)
+2) L1 - Phi(Q) = L1
+3) (Sigma ^ *) - L1 = L1' [(Sigma ^ *) -> Everything/Universal Set]
 
+* We want **everything** except **L1**.
 
+4) L1 - (Sigma ^ *) = Phi(Q)
+5) (a ^ *) - (b ^ *) = (a ^ +)
 
+* **(a ^ * )** people but not **(b ^ * )**.
+* **Epsilon** is the only **common**. Remove it. 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a4bc6e5-1d13-4f6f-a9b7-1dffb3ef1746)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b61c76af-f85f-4716-a883-6cffad283a6e)
 
+* [**IMPORTANT**]
 
+6) (a ^ *) * (b ^ *) - ((a ^ *) + (b ^ *)) = (a ^ +) * (b ^ +) [**IMPORTANT**]
 
+* Common things -> Epsilon, (a ^ *) only, (b ^ *) only.
+* Minimum one **a** required and minimum one **b** required.
+* **ab** there only on the **left side**.
 
+7) (a ^ *) + (b ^ *) - ((a ^ *) * (b ^ *)) = Phi(Q) [**IMPORTANT**]
 
+* Common things -> Epsilon, (a ^ *) only, (b ^ *) only.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/73e1db17-d5ef-4bef-92a3-5b526797fb7d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5c0b1609-a29e-4b1f-bd75-a44df6e10f65)
 
+* From the total **L1** part, substract the **L2** part.
+* **L2'** -> other than **L2**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5bc17afd-0bc3-4865-ab58-c38dbb62a182)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/783f8f60-03d0-4571-a0ac-0281f757c0d6)
 
+* Primary Operations -> Union, intersection, complementation, concatenation.
+* Using **union and complementation**, we can get **minus or difference(-)**.
+* **minus or difference(-)** -> Secondary operation.
+* **L1 and L2** are regular then **L2'** is also regular.
+* We know that **intersection** of two regular languages is **regular**.
 
+8) If L1 is regular and L2 is regular then **(L1 - L2)** is also **regular**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e07ed01-5e3b-4fdf-aa29-01de2170f8b0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/39325742-90a2-4f15-a362-5fedba78eb20)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f34ea0d-4c16-4b2f-9381-e265022e46d4)
 
+* [**IMPORTANT**]
 
+* **L2** is regular so **DFA** is possible then for **L2'** also **DFA** is there.
+* **L1** is already **DFA**.
+* **DFA intersection DFA** is possible.
+* Intersection of two DFAs is possible.
+* Complement of DFAs is possible.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b963563a-a1d6-42c2-97dc-6cb3e2461ffd)
 
+* **Complement and intersection** are already **closed**.
+* As both are **closed** and we are using them both in **difference** so **difference** is also **closed**. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cbad6ee4-bf1e-405a-af2b-8c61b7b0ef13)
 
+* Closed -> union, intersection, Complement, difference
 
+### Subset
 
+* **L1** is regular so we are taking **((a + b) ^ * )**.
+* **L2** which is **subset of 'L1'**.
+* **L2** -> **((a ^ n) * (b ^ N))**, which is **non-regular**.
+* **Regular** languages are not **closed** under **subset**.
+* **Subset** of a **regular language** need not be **regular**, maybe regular, may not be regular. [**IMPORTANT**]
+* **Subset** of a **non-regular language** maybe non-regular, may regular also.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/11f00252-c922-4139-a28d-d182d1741fec)
 
+* If **L** is regular language then it's subset may not be regular, so regular language are not closed under **subset**.
+* **CFL** also.
+* No person is **closed**.
+* **RL, CFL,CSL, REL** all are **not closed under subset operation**. [NOTE] [**IMPORTANT**]
+* It is **subset** and not **substring**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4442ea8c-150e-403b-a225-6f3d2c2c2c72)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+* [**IMPORTANT**]
 
 
 
