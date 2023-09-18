@@ -6862,9 +6862,179 @@ L = {Give a regular expression of all a's and b's where the length of every stri
 * Take one of the initial states as initial state and ignore the **first output**.
 * Any states which do not have incoming?
 
-> (S2, 0)
+> (S2, 0), (S1,1)
 
 * No incoming or incoming not there -> Useless states.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34c0ffa9-094c-4390-8c04-e52339ce31df)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b69446d-b2f8-4c96-bfe3-14335bac4c47)
+
+* Between the **S1,0** and **S1,2**, except the **outputs** there is **no difference**.
+* **Initial output** we are anyhow **ignoring**, so no problem.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2a3e64a-5cf9-492f-9fb7-4b018b8575b5)
+
+* No clarity about **minimal**.
+* It just does the **conversion**.
+
+* **NOTE**:-
+
+* For the given **m-states** and **n-size** output alphabet of a **mealy machine** to construct equivalent moore machine required.
+* **(m * n)** states -> Worst case.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7758efcb-1527-452a-87d0-5f9b01c6c32d)
+
+* **S1** having copies in **moore** machine.
+* **S1** having three copies.
+* Take **one** copy.
+* We have to manage the copies.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6c9b8fd-6fdb-4003-844f-5390fe903da7)
+
+* How many copies we have to manage?
+
+> Depending on the **output alphabet size(n)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ef6fe52-b8d5-4fe8-9253-5061995d0d70)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ea8276d-48e8-48ad-a0da-5f4a265daa71)
+
+* Example.
+* Worst Case -> 4 States * 2 outputs -> 8 states.
+* Every state having **two copies**.
+* **q1** on **0** means every **q1**.
+* That's why **every copy** contain **outgoing same**.
+* **Outgoing is same**, we have to **differentiate** on the **incoming** ones.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb8b6d96-58b7-4fa4-a388-2a9d8d542587)
+
+* These **inside things** are **incoming**.
+* No state of **q1, 0** on the **incoming things**. So remove **q1, 0**.
+* There is state of **q1, 1** on the **incoming things**. So keep **q1, 1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d7e0640-7114-45b4-b7f7-81bb28d41fdd)
+
+* There is state of **q2, 0** on the **incoming things**. So keep **q2, 0**.
+* There is state of **q2, 1** on the **incoming things**. So keep **q2, 1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7cdc4e3a-0bac-4a8f-b199-59b5c700419c)
+
+* There is state of **q3, 0** on the **incoming things**. So keep **q3, 0**.
+* No state of **q3, 1** on the **incoming things**. So remove **q3, 1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ef68976-698d-4454-959b-532381c9d0f3)
+
+* There is state of **q4, 0** on the **incoming things**. So keep **q4, 0**.
+* There is state of **q4, 1** on the **incoming things**. So keep **q4, 1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89338b6a-2960-4e62-9a0b-fcde410352c7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/877dab21-258d-4297-93bf-adfc46e49edb)
+
+* Actually **8** are required.
+* Out of the **8** some of them are not coming **inside of state**, so **delete** them.
+* In case of **moore** machine, **output** is written once only.
+* NS -> Next State.
+* We have **two 'q2's'**.
+* Why giving input we have to consider **all q2's**.
+* We have **two 'q4's'**.
+* Why giving input we have to consider **all q4's**.
+
+* For **q1** on **0**, we are going to **q3** on **0**. As **q3** has **one output** only, so no need to write anything else.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b95aa33-3189-4272-ac12-f35437eed6e9)
+
+* For **q1** on **1**, we are going to **q2** on **0**. As **q2** has **two outputs**, for **q2** which has **output = 0**, which is **q20**, so we have to write **q20**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b96f336-4aef-49cb-b7a3-1da782c04870)
+
+* For **q2** on **0**, we are going to **q1** on **1**. Which **q2**?
+
+> All **q2's**.
+
+* While giving **input**, we have to give **all**.
+* Both of the **q2** we have to take care.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6734ecf8-28b2-44c4-b43d-c53cfe3a6246)
+
+* For **q2** on **1**, we are going to **q4** on **0**.
+* So for both **q2** on **1**, we are putting **q4** and as **q4** have **two outputs**, so we will put **q40** which has the **output = 0** which we want.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b8ba3e3-859b-4e7b-bef9-c4c711812a15)
+
+* For **q3** on **0**, we are going to **q2** on **1**. As **q2** has **two outputs**, so we have to write **q21** which gives **output = 1**.
+* For **q3** on **1**, we are going to **q1** on **1**. As **q1** has **one output**, so we have to write **q1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b437e8f7-75f2-4332-b3c9-e7c2b832123c)
+
+* For **q4** on **0**, we are going to **q4** on **1**. As **q4** has **q40 and q41**, we have to take care of **both**. As **q4** has **two outputs**, so we have to write **q41** which gives **output = 1**.
+* For **q4** on **1**, we are going to **q3** on **0**. As **q4** has **q40 and q41**, we have to take care of **both**. As **q3** has **one output**, so we have to write **q3** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f9f5c42-786c-4e23-8274-7e6ec1987bb7)
+
+* We have **initial state** only one here, which is **q1**.
+* Remaining copies are cancelled.
+* If **more copies** of **initial state** are available then select anyone of them **blindly**. Any how starting output we ignore.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b63d7255-cc2d-4d59-920c-71a41bd9015b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50b4ddc9-a91c-453d-9acf-44a9af9a3171)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b7c371e6-6bc5-4644-9371-8e27b4f3ac58)
+
+* Example
+* As we have **4-states** and **2-outputs** so the **worst case** is **4 * 2 -> 8** states.
+* States not available -> (q1, 0), (q4, 0)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72a46c51-98a9-4f11-b9dc-f4013d3c95d1)
+
+* We now have **6-states**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd99a602-9ac8-4f5c-bd87-28609f3a2983)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e0b9e5c-e53b-43c4-a000-e08458ee454f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ce0e3d3-73dd-4c31-ac9c-28a88809fe73)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ed7e121-25d8-4487-b684-62864528e19e)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9575f199-9012-4b3b-bb17-db47f2108920)
+
+* If we give **input** as **8** then we will get **9** as the **output**.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
