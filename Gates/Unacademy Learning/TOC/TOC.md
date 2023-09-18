@@ -6808,31 +6808,63 @@ L = {Give a regular expression of all a's and b's where the length of every stri
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8bf0e054-48bc-44f1-b727-1cffeca37ecf)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63a72df9-41c3-4222-b213-cc2b4f89a388)
 
+## cfg-and-pda-iv (27) [18th Sept 2023]
 
+### Mealy to Moore
 
+* In **moore** machine the **output** will be within the **states**.
+* Write all combinations with **states and outputs**.
+* Out of the **6-combinations** we got, some of them may not be **useful**.
+* In **worst case** this kind of diagram.
+* In **worst case** all will be useful.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae004270-5ddf-44ca-89df-29a4ed6458b7)
 
+* For **S1** on **b** we are going to **S1** with the **output = 2**.
+* For **S1** on **a** we are going to **S2** with the **output = 2**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fdd38c78-7794-4ae8-8ce7-8c9ca17293a9)
 
+* For **S2** on **b** we are going to **S1** with the **output = 0**.
+* For **S2** on **a** we are going to **S2** with the **output = 1**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/45bd5725-bcbf-44d0-9cc0-b2848451bec2)
 
+* If we say **S1** on **a** then we are going somewhere.
+* **S1** means **every 's1'** we covered.
+* **S1** on **a**, we covered all **S1's**.
+* Whatever **out-going** edges one **S1** is having that **same outgoing** edges are there in other **S1's** as well.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ccf84184-91fa-4ba8-b30b-25eec882e103)
 
+* In **moore** machine, **S1** on **a** and **S1** on **b**, both the things we have covered.
+* Where they are going, it is ok.
+* **S1** on **a** and **S1** on **b**, we have covered.
+* **S1** on **a**, every **S1** we have covered.
+* **S1** on **b**, every **S1** we have covered.
+* In the **mealy** machine, the **S1** state is the **initial state**.
+* In the **equivalent moore** machine, the **initial state** is **S1** only.
+* We have so many **S1's**.
+* We applied **S1** on **a** for **S1, 0**, **S1, 1** and **S1, 2** also.
+* We applied **S1** on **a** for every **S1**.
+* We applied **S1** on **a** and **S1** on **b** applied for every **S1**.
+* For that reason **select any state** as **initial state** no problem at all.
+* For every state we have done the **same**.
+* Select anyone. No problem.
+* Blindly select something from **one of the initial states**. There is **no problem**.
+* We applied **S1** on **a** and **S1** on **b** we covered for **all three of them**.
+* Take **one of the initial states** as **initial state** and ignore **initial or first output**.
+* **Starting itself** one **output** is coming, there is **no use** for that **output**. Just **ignore it**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5321af0b-3a26-45b9-8487-e5aec0cf9f23)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2cbc2b53-932b-4d85-9707-46fef39f8a00)
 
+* Take one of the initial states as initial state and ignore the **first output**.
+* Any states which do not have incoming?
 
+> (S2, 0)
 
-
-
-
-
-
-
-
-
-
-
-
+* No incoming or incoming not there -> Useless states.
 
 
 
