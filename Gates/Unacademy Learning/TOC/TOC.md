@@ -7579,36 +7579,154 @@ L = {Give a regular expression of all a's and b's where the length of every stri
 
 > **L2** is also **regular8*.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fbb01365-2121-44d5-9db6-c83d7205c9ad)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/067baf56-b522-4e8e-acd9-8f7d519d226e)
 
+* [**IMPORTANT**]
+* We concatenated.
+* It looks like **(a ^ n) * (b * n)** but **no**, they do not have **any relation** at all, that's why we can't keep **comparision**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf854830-5a61-4faf-917d-9806fc1ae9e1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb3b6c1d-d954-47da-872e-675f7c92d71e)
 
+* In the language **L1 * L2** any chance of **a's and b's** are **equal**. **YES**. Sometimes they are **equal**. Everytime, need not be.
 
+* **(a ^ n)** came from **one language** and **(b ^ n)** came from **another language**, if we **concatenate** both of them then people will think it is **(a ^ n) * (b * n)**.
+* Actually there is **no relation**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41e3c0aa-b830-4cad-91e6-1af5b27cfb4e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/539dc062-1fcc-47b2-9914-7d82027ea5d4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d704477b-cc8f-4c78-b4c4-46f433dac399)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2d632482-ed73-4235-931c-a5bba8fdf38a)
 
+* If **two languages** are **regular** and we do **concatenation** of the two languages then we will get **L1 * L2** as **regular** as well.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ac06684-ebe4-49b3-9c8b-a6a6982945d1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36d11a7b-9656-42fd-88c2-229cd7657d03)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/951fcf8a-6f2e-44f1-aa55-e3d2a595c913)
 
+* if we observe coarfully tha **b's** will be **more** compared to **x**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9488033f-a58f-4a31-80fb-d8e4447be1bd)
 
+* [**IMPORTANT**]
+* **((a ^ n) * (b ^ n))** is **CFL**, **TRUE** but it is **not regular**.
+* **Regular** means **CFL** also.
+* **((a ^ n)** is **CFL** as well as **regular** also, **TRUE**.
+* **CFL** doesn't mean **regular**.
+* **CFL** is **superset**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/484ce5e3-ed84-4af5-bfb0-2f8f18de913f)
 
+**L1 and L2** are **CFL** and if we do **concatenation** between **L1 and L2** then **((a * n) * (b ^ n) * (c ^ m))**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/08a34703-65ac-44d4-91a0-d1547eab817d)
 
+* If we keep two people side by side then don't bring some **unnecessary relations/conditions**.
+* **No condition** between them.
+* It is **CFL** only.
+* Everywhere **same** story.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db20365b-a042-4b1e-8991-0c24530413c2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6e9c50f-82b5-48e1-8bab-9bd68e7bf6d3)
 
+* Recap:-
 
+7) If two people are **regular** and if we do **concatenation** then result also **regular**.
+8) [**IMPORTANT**]
+9) Examples.
+10) Examples.
 
+## Reversal Operator
 
+* Every string ending with **ab**.
+* Last two symbols should be **ab**.
+* If last two symbols are **aa** then we are in **S2** which means **a** is over.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/caf4e7c2-3c0c-4e63-bc10-81fe0d548327)
 
+* L ^ R -> **Reversal** of **L** -> Looks like starting with **ba** and then **anything**.
+* This is **reversal**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86e19629-d3be-4cb3-b201-7753e4d67aa5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b211962-a27d-4f1e-9400-7ca6ae6f8c4b)
 
+* In the existing automata few changes we need to do.
+* **Everywhere** reverse the **edge direction** as we want **reverse**.
+* Reverse the **edge direction**.
+* Edge is going from **S1 to S2** and in **reversal** make it from **S2 to S1**
+* Everywhere **edge** reverse.
+* **Self-loop** no need of **reversing**.
 
+* We are not **interchanging**, **final to non-final**, we are **interchanging**, **final and starting** states.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30f4244f-e0b5-417d-be8f-27a60467fb18)
 
+* For the **L**, **finite automata** is possible or not.
 
+* **POINTS**:-
 
+1) Reverse edge direction
+2) Interchange initial and final
+3) DEA **reversal** leads to **maybe** DFA,  maybe NFA, maybe Epsilon-NFA.
 
+* **Finite automata is there that is the **important** thing.
 
+4) After reversal if more than **1-initial** then make it as **single initial** with the helop of **epsilon-transitions**.
+
+* **NOTE**:-
+
+* If **L** is regular then **L^R** is also **regular** because both contain **finite automata**.
+* If **L** is regular then **L'** is also **regular** because both having **finite automata**..
+* **L^R** is regular and **L** is regular because **reverse in opposite directions**.
+* More than one **final** and we **interchange** then we will make more than **one initial state**.
+* Make starting/initial state as **final** and **final state** as **starting state**.
+
+* In a given diagram, we have **1-initial state** and **5-final state**. After **interchanging**, what happened is that we now have **5-initial states** and **1-final state**.
+* Insread of writing so many **initials**, make one initial with the help of **non-transitions**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4852864b-3f89-4850-b260-1d723f5d64cf)
+
+* **L** is **non-regular** and **L ^ R** is **regular**, how is that possible?
+
+> **Not possible**.
+
+* Either **both regular** or **both non-regular**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a540d142-2b11-46a5-b2ea-5b65a187f42d)
+
+* [**IMPORTANT**]
+
+* L = sigma ^ *.
+* L^R = sigma ^ *.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19df8e16-6866-4e9b-9c44-a6a8fcc3ade9)
+
+* **S1** is initial state and it becomes **final state** and **final state** became **initial state**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c74bcfb2-fb92-4037-9e36-bdadbae9eb56)
+
+* **Reverse** each direction but still **same** thing came.
+
+3) L = (a ^ *) = **L ^ R** =  (a ^ *)
+4) L = Phi(Q) = **L ^ R** =  Phi(Q)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce13f75f-94e6-4e09-b8e5-1518a9d5b481)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/986d2c5d-3ddb-4754-a7ef-caba13749d19)
+
+5) (a * (a + b) ^ * ) = (((a + b) ^ * ) * a)
+* **Starting** became **ending**.
+
+6) ((a ^ *) * (b ^ *)) = (b ^ *)) * ((a ^ *).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a532cd05-0eeb-4928-8f0f-bb2ebdacab60)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/732bde00-9964-4edf-85af-bd613d046dca)
+
+* [**IMPORTANT**]
+
+## Kleen Closure
+
+* start from 1hr 30mins.
 
 
 
