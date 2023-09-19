@@ -7868,6 +7868,13 @@ b) Both non-regular -> Maybe possible, may not be possible.
 
 * [**IMPORTANT**]
 
+## Quotient Operation [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/039aca5c-71cc-449e-a908-89e8feca5952)
+
+
+
+
 
 
 
