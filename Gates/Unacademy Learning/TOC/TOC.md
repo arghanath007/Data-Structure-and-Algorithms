@@ -8062,8 +8062,8 @@ b) Both non-regular -> Maybe possible, may not be possible.
 
 * [**IMPORTANT**]
 
-* **Above** is regular expression, **below** also regular expression, whatever will come is also **regular expression**. Worst case
-
+* **Above** is regular expression, **below** also regular expression, whatever will come is also **regular expression**. Worst case **phi(Q)** will come that is also **regular expression**.
+* Above is regular but below is not regular then 
 
 
 
