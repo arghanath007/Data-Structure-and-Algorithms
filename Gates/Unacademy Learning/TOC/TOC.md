@@ -7942,8 +7942,139 @@ b) Both non-regular -> Maybe possible, may not be possible.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58869110-f105-430b-85ef-c5aca80ba1a9)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6236929f-06ef-4f14-8b60-b99d7cc071a0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/929a1221-47f6-4a7f-9443-2a4700c5bc6b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5518fd26-b416-43e3-a51d-a221284a9c0a)
 
+8) (a ^ * ) / a -> (a ^ * )
 * (a ^ * ) -> It contains everything in terms of a's.
+* Above **a** is possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb6db92a-4b04-4801-a34a-47d60dc5e451)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7859938c-dd8d-4d7d-b787-e41ba343de5e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3be897e6-c3f0-4da1-aa6c-9fb50d13d744)
+
+* Below part we have to eliminate completely.
+* phi(Q) + something -> Something.
+* We cannot write phi(Q).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/356745aa-9115-48d7-a098-ebf79ce6a6ed)
+
+* **L2** is **infinite**
+* L1 is finite.
+
+9) a/(a ^ * ) -> {a, Epsilon}
+
+* a/a -> Epsilon
+* a/Epsilon -> a.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a212cdd-eb15-471a-a708-37faea2a1ce2)
+
+* If **L1** is regular and **L2** is also **regular** then **L1/L2** is also **regular**.
+* If **above is finite** and **below is finite** then **above/below** result is also **finite**.
+* Regular expression means **regular language** is there.
+
+10) (a ^ * ) / (b ^ * ) -> Epsilon/Epsilon -> Epsilon,a,aa,aaa,..... -> (a ^ * )
+
+* **L1 and L2** both are **infinite**.
+* Above is giving only a's and below is giving only b's.
+* a/Epsilon -> a
+* aa/Epsilon -> aa
+* aaa/Epsilon -> aaa
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83342e35-df88-4364-a492-545c53faeb9a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb97b758-3816-4db3-b68e-72afb5d9eee0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24b60cbc-7a9d-4369-93b4-6d9ce064287f)
+
+11) b * (a ^ *)/b = b/b = Epsilon
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5fc51b1f-2d9a-4d76-a42a-2b72e147cdcb)
+
+* The minimal string of **(b * (a ^ * ))** is **b**.
+
+12) L1/Phi(Q) = Phi(Q)
+
+* Below **Epsilon** is not there. What we will **cancel**?
+* We can't cancel anything in **L1/Phi(Q)** that's why **phi(Q)**.
+* Cancellation should be there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dbd93d73-a69a-400e-8f8c-36e3de13ca5c)
+
+* Atleast **Epsilon** should be there.
+
+13) Phi(Q)/L2 = Phi(Q)
+
+* Answer is always coming from **L1** only.
+* **L1** is only **Phi(Q)**.
+* In **L1** we don't have anything, that's why **Phi(Q)**.
+
+14) ((a ^ *) * b) /(ab) = Epsilon, a,aa,aaa, .... -> (a ^ *) [**IMPORTANT**]
+
+* ((a ^ *) * b) /(ab)
+* ab/ab -> Epsilon
+* aab/ab -> a
+* aaab/ab -> aa
+
+* **L1** is **infinite language**, which is **(((a ^ * ) * b))** as there is **whole star(*)**.
+
+15) Epsilon/a = Phi(Q)
+
+* In **L1**, no **a** is there.
+* In **L2**, a is there.
+* We have to completely cancel **L2** which we can't here that's why **Phi(Q)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9c9c9d5-14db-45d1-a67e-cd4922de7c4f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e44303c-2fbf-4f22-bc21-ded8725f8425)
+
+* **NOTE**:-
+
+1) If L2 includes **Epsilon** then **L1/L2** is that we will atleast/minimum get **L1** guranteed.
+
+* **Minimum L1** will come.
+* More than **L1** is also possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e3b1db6-e4f6-4dd8-8be9-d90d7e79d413)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2da9d870-3954-4182-86b6-7a0b6ca5e757)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/74d3e4b7-142f-4adf-95b2-07b4a6c8b045)
+
+2) If **L2** is not empty then (Sigma ^ * )/L2 = (Sigma ^ * )
+
+* **Not empty** means something is there.
+* L2 = a then (Sigma ^ * ) contains **a** as well. a/a = Epsilon
+* (Sigma ^ * ) = aa, then aa/a = a
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/940c8ef9-7c03-426b-be94-fa5f30a716c7)
+
+* If we take **L2 = ab** then the final answer contains **ab** because **(Sigma ^ * )** contains **ab**.
+
+3) If **L2** is not empty then L2/(Sigma ^ * ) = All prefixes of **L2**.
+
+* Assume that **L2** is one string **ab** then ab/(Sigma ^ * ) = L2, will come.
+* L = ((a ^ *) * (b ^ *)) then L2/(Sigma ^ * )  = ((a ^ *) * (b ^ *))/(Sigma ^ *)
+* ((a ^ *) * (b ^ *))/(Sigma ^ *) = ((a ^ *) * (b ^ *))/Epsilon = ((a ^ *) * (b ^ *))
+* ((a ^ *) * (b ^ *))/(Sigma ^ *) = ((a ^ *) * (b ^ *))/ (b ^ *) = ((a ^ *)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd4123c7-64fe-4682-af35-e9acc456f415)
+
+* Assume that **(Sigma ^ * )** is from **A to Z**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/291126c1-a12c-494f-8015-ccb7625fb49c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6fc67a5e-746f-4c6d-8eb3-9eb9e2068e31)
+
+* [**IMPORTANT**]
+
+* **Above** is regular expression, **below** also regular expression, whatever will come is also **regular expression**. Worst case
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
