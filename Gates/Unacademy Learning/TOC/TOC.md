@@ -8612,6 +8612,235 @@ b) Both non-regular -> Maybe possible, may not be possible.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/300d9af4-379f-4fff-9c96-6d7e14c75342)
 
 * **4-things** are given then only we can say that **Grammer** is given.
+* **Grammer** means **4-things** are given.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d6c6fcf-ddc5-4fae-a428-712f03c0bae0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f24c359-65f2-4e40-88fc-379316109f55)
+
+* Only **productions** are given.
+* If others are not given then **capital letters** are **variables(V)**, **small letters** are **terminals(T)** and **first person** is **start symbol(S)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f4824e0e-5504-4810-99f3-3096c90a4742)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/abff8584-a774-4db4-b63b-62b3024196b3)
+
+* Whatever way it is given in the **question** take accordingly. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/18fdaa01-e4a5-417d-aae6-fc83d1f20a3e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e4c375d-e077-4337-aebc-da3717204afc)
+
+* Only **productions** are given.
+* **capital letters** are **variables(V)**, **small letters** are **terminals(T)** and **first person** is **start symbol(S)**.
+* How many **productions** now?
+
+> 1 + 5 + 5 => 11.
+
+* By default **start symbol** is **s**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e4eaaedd-0427-4af6-95e6-7e4afbdb9f88)
+
+* **Leftmost** one we replaced **first**.
+* This is leftmost derivationn.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea77c28f-8230-4c98-8a3d-6ed726f60128)
+
+* This is **Right Most Derivation Tree(RMDT)**.
+* **Left Most Derivation Tree(LMDT)**.
+* **S** is replaced by **AB**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/94eaf8bc-5585-4872-929b-8574e82b823c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a1822c3-445c-439a-8475-131927a498d6)
+
+* In the tree who are the last people?
+
+> Terminals.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/43b685ed-5e6b-41ad-b9cc-1b99ba674d4a)
+
+* **Expansion** -> Small symbol becomes **big symbol**.
+* Initialy in the **tree**, **S** is the **one symbol**. **One** in the **next level** becomes **two**.
+* It is **expanding**.
+* In a particular level, more than **one** variable, we have **dilemma**. **YES**.
+* Which variable we have to **replace** first?
+
+> **Left one** we are replacing everytime.
+
+* This is **left most derivation tree(LMDT)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44718cdf-d227-4845-bd0b-27f6b66f36aa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/470f0b68-4e13-4614-a951-e19210551841)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/abde5ff4-8714-4d76-b9b6-7d27ed997466)
+
+* Finally the tree is generating, **Epsilon * Epsion -> Epsilon**.
+* The **third tree** is generating **one string(Epsilon)**. The length is **0**. Empty string.
+* **Empty String** -> One person is there whose length is **0**.
+* **Empty language** -> One person also is not there. No string at all.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f97c586c-7b7d-4570-a098-4ccd5e49ea7e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/23299e78-0afa-4516-998b-eccb9e885299)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97e8505e-efc7-4601-8f25-63ea74f4fca6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e4c33d1-5636-49ce-8e8e-22b3b074ff5a)
+
+* We are in **dilemma** which variable to **replace**.
+* We are replacing **A**.
+* So, we are doing **LMD**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/321e5684-6333-4e70-b6be-5f344027157b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dfd625e2-7850-4edc-bd24-55893e26e7ec)
+
+* RMD.
+* **A** is replaced by **a**.
+* **B** is replaced by **b**.
+* **Left one** we replaced **first**.
+* **LMDT**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c78810ed-d4ed-478d-ad76-9d1ef21e6bb5)
+
+* **Right one** we replaced **first**.
+* **RMDT**.
+* Only **numbers** will **differ**.
+* To generate a **particular string**, **LMD** possible means **RMD** is also possible.
+* To generate a **particular string**, **LMDT** possible means **RMDT** is also possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e80efc76-3fac-4c25-920d-9ae23dd9b6f6)
+
+* [**IMPORTANT**]
+* **LMDT** possible means **RMDT** is also possible, both are **exactly** same piece.
+* No difference at all.
+* At the end of the day, both the trees are **same**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b9c26e4-96d9-4a80-a901-806d699ad06a)
+
+* **Derivations** we are talking.
+* First level both are **S**.
+* Second level both are **AB**.
+* Fourth level both are **ab**.
+* At the **third level**, they **differ**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/370c190c-f5f1-4e47-bec7-e41a3866fa28)
+
+* LMD and RMD need not be **same** but **Derivation trees** are **same**.
+* **Derivations** are not same but **Derivation trees** are **same**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/23ecfa18-4f3c-40b1-8854-14e22b04fe9c)
+
+* Purpose of **grammer** is generating **strings**.
+* Process of generating **string** is known as **derivation**.
+* **Derivation** is of **two types**, **LMD** and **RMD**.
+* **LMD** and **RMD** need not be **same**. In some levels they might **differ**.
+* **Derivation trees** are every level is **Same**.
+* Programming language follow **LMD**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1347a56-6374-482e-a638-034d6039337c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/488890fd-69dd-422f-bbae-b6095886f518)
+
+* Here, we are covering **every model**.
+* We are covering **every possibility**.
+* First **A** came then **B** came and then **C** came. We are doing **LMD**. Who will be done first?
+
+> A -> B -> C
+
+* If following **RMD** then **C -> B -> A**.
+* We cannot go to **middle(B)** directly. Some random answer will come.
+* If no dependency then we can do **A,B and C** in any order.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6992361-4ec1-47d8-9b4a-0112cf35f52d)
+
+* LMDT and RMDT are **same**.
+* LMD and RMD need not be **same**.
+* **Derivation** need not be **same**.
+* **Derivation trees** are **same**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e12a98d0-3372-472a-82e5-305542f76486)
+
+* We have **3-productions**.
+* Variable(V) -> S
+* Terminals(T) -> a
+* From the grammer we want to generate **aaa**.
+* Grammer purpose is generating **strings**.
+* **S** having **3-choices**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/64137a28-fede-4399-83e2-5e826afcb89a)
+
+* **S** calling **S** is called as **recursion**.
+* Same story will repeat further.
+* When we say **recursion**, **termination** condition is **required**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/96aa6910-0fc1-4802-a559-38e93692853a)
+
+* **Left and right** side **same** variable is there, this is **recursion**.
+* **recursion** is there in the **grammer**, so the **grammer** can generate **infinite strings**.
+* We can call **infinite** time.
+* **Recursion** not there then it is **finite** string.
+* **Recursion** -> Same person should call itself.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35965bf9-31d4-46ff-86f2-bb360723f9b8)
+
+* In the **first** level we have **1-variable** only.
+* In the **second** level we have **1-variable** only as **a** is the **terminal**.
+* In any level, more than **one variable** then we are in **dilemma**.
+* In the **second** level, we don't have any **dilemma**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db25e648-6938-45a2-a0c8-8cdd46af3234)
+
+* Read all of the **leaf nodes** from **left to right**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9cc8a636-fee9-434c-a411-668eb8de7c99)
+
+* This tree is generating string **aaa**.
+* It is **both**(LMDT or RMDT), as we don't have any choice.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1fcf261-4f32-43d5-863b-ebfff0837961)
+
+* left there means right there.
+* Sometimes atleast **numbers** will **differ** but sometimes **no numbers** also differ.
+* That itself is (LMDT and RMDT).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f25099f0-94a8-41af-9073-e9d745ef4952)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8793a0b7-1b77-4ac3-9d86-79173d4f8833)
+
+* On the **first level** we took **as** and in **second level** we took **sa**.
+* Read all of the **leaf nodes** from **left to right**.
+* We got **aaa**.
+* It is **both**(LMDT or RMDT), as we don't have any choice.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff2f2df8-51e4-4593-81f7-e672070b97aa)
+
+* From the given grammer to generate **aaa** we got **2-LMDT**
+* **2-LMDT** means **2-RMDT** are also possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac899f99-f014-4981-844f-f638dd4ca3f1)
+
+* From the given grammer to generate **aaa**, we got more than **1-tree**.
+* From the given grammer to generate a particular string, if we find out **more than 1-tree** then the **given grammer** is **ambigious grammer**.
+* These are **two-different** trees.
+* Don't worry about **left and right**.
+* From the given grammer to generate a particular string, **more than 1-derivation tree** then the **given grammer** is **ambigious grammer**. [**IMPORTANT**]
+* To generate **aaa** we have more than 1-derivation tree so, the given grammer is **ambigious grammer**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ed58daf-5673-46a5-bb7a-d94916fd93f6)
+
+* [**IMPORTANT**]
+* We want **different trees**.
+* If we can find out two **different trees** then the given grammer is **ambigious grammer**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/42ae1f0e-2dc8-4bc3-8c29-ed6476ca7595)
+
+* The given grammer is **unambigious grammer**.
+* The numbers are for us only.
+* We will see **final tree** only.
+* Left most possible means right most is also possible.
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
