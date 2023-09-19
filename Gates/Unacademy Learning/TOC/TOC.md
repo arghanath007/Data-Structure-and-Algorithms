@@ -1,4 +1,4 @@
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d89f987-edae-410d-9706-92463a2378c3)# TOC
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/444bff3c-64b8-454d-b2de-a3947f43b964)![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d89f987-edae-410d-9706-92463a2378c3)# TOC
 
 ## Motivation
 
@@ -8243,20 +8243,313 @@ b) Both non-regular -> Maybe possible, may not be possible.
 * Formulas. [**IMPORTANT**]
 * To **map** a **language**, the **formulas** are **useful**.
 
+## cfg-and-pda-vii(31) [19th Sept 2023]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e94877f-97d0-458a-bfe9-36c25e5702fa)
 
+* Substitution Formula [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30572193-890b-4485-a24a-17e468a7d491)
 
+* Every symbol is mapped to one string.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a00d75ba-4b18-4a89-9de9-29b6e53ad3ce)
 
+* Every symbol is mapped to one regular language/expression(RL/RE).
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/38a578d3-20c8-4d43-a60f-908e9cce1c09)
 
+* Star(*) means **kleen closure** on **Delta**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3a85a88-685c-447b-bd07-dcc3ce4dec62)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a06de61-da50-459c-857d-86a0aa634291)
 
+* Example
+* **Input** should be in-terms of **Sigma**.
+* **Output** should be in-terms of **Delta**.
+* They will give in terms of **Sigma** and we have to write in terms of **Delta**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f60d95eb-3e7f-41af-a360-9dab8bb0e283)
 
+* Minimal string -> Epsilon.
+* After **b's** we can't get any **a's**.
+* It looks like **((a ^ * ) * (b ^ * ))**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/53991d5d-8c99-48be-8ea8-0b729a30de78)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a63f56ed-7705-4fe0-86fd-60fe26cf962f)
+
+* Meanings cannot change, do whatever way like.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/528873f6-7d8e-4f60-a078-ca413f6cb610)
+
+* Second one is a **superset**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b4387506-38a7-49c6-a208-f2661dd80ff1)
+
+* In the given regular expression, every symbol will be replaced by another regular expression. So, overall becomes **regular**.
+* **010** finite automata available.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6782f939-2693-4daf-bd47-4c5091c6ac70)
+
+* Finally also, finite automata available.
+* For the given regular language, we have a finite automata and we replace every **symbol** by another regular expression, we got another finite automata.
+* If we replace every symbol of a regular language by another regular language overall also becomes **regular**.
+* So, **regular language** are **closed** under **substitution**.
+* After **substitution** also, it became **regular**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c831f343-7331-41cf-acde-e186f08214eb)
+
+* **NOTE**:- [**IMPORTANT**]
+
+1) In the given regular language(RL) if every symbol substituted by another regular language(RL) then result is also regular language(RL).
+2) So regular language(RL) are closed under **substitution** operation.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98bddb51-f7fc-4ee1-853c-7b370e04110d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/777c81eb-7216-44b0-98ff-2a9e5434e718)
+
+* Example
+* Sigma = {0}, Delta = {a,b}, substitution 'f' is defined as f(0) = (a+b)(a+b) = (a+b) ^ 2
+* find, f(00) and f(0 ^ *)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc29d6a3-a1fa-4629-8f07-992c5219e88f)
+
+* Everytime **2** is coming, so **even length**.
+* **even length** followed by **1** is **odd length**.
+* ([(a+b) ^ 2] ^ *)(a+b) **OR** (a+b)([(a+b) ^ 2] ^ *) -> odd length
+* To the **left or right** side of **([(a+b) ^ 2] ^ *)**, keep **(a + b)**, **a** or **b**. It will become **1-length**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/433d8867-5c07-43d8-a420-0769c5d58e27)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/708c37ba-8413-4012-a25d-6cd9edfac538)
+
+## Homomorphism
+
+* It is a special type of **substitution** where every symbol in **sigma** is mapped to one of the **string** over **Delta**.
+* It is a **mapping** from **sigma** to **(Delta ^ * )**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66a2cf8d-591d-48c7-8adb-888b6ba5325e)
+
+* Regular expression contain **string**.
+* Regular expression sometimes contain more string also.
+* A symbol replaced by more strings is nothing but **regular expression**.
+* A symbol replaced by one regular language because a regular language may contain so many strings.
+* Here, in **Homomorphism**, a symbol is replaced by **one string** only.
+* In **substitution**, a symbol is replaced by regular language which may contain many string. 
+* (Delta ^ *) -> String
+* Power set of Delta ^ *), P(Delta ^ *)) -> Substitution
+* If replaced by **string only** then **Homomorphism** and if replaced by **regular language/expression** then **substitution**.
+* **Substitution** is the **superset**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a2bf280-5aa1-4527-b8a2-c6557ac38ea8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/788ec98a-f2e6-4f0e-97fe-49dbb36757f9)
+
+* **Homomorphism formulas** [**IMPORTANT**]
+* Sigma = {0,1}
+* Delta = {a,b,c} and **h** is defined as h(0) = ab, h(1)=bbc.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8dd693ae-4217-4670-818c-4668c9761006)
+
+* Example
+* On the **right side** of the **equal(=)** sign we don't see any **operators** in **Homomorphism** as we are only replacing **strings**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2d1c3777-1aa5-402a-a110-463576791a78)
+
+## Inverse Homomorphism
+
+* h(0) = w [Homomorphism]
+* h ^ (-1) (w) = 0 [Inverse Homomorphism]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/51f778de-206f-45f8-9223-15beb482c06c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6df76a3b-f494-4197-87ed-619dc65b8b85)
+
+* In **Homomorphism**, **symbol** is mapped to a **string**.
+* In **Inverse Homomorphism**, for every **string** we will map **symbol**.
+* **Homomorphism** in the **reverse order** is **Inverse Homomorphism**.
+* Inverse function.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a0c66398-5223-4362-a67a-706e06975341)
+
+* Until now it is **Homomorphism**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a9f5a450-52e4-41e2-a9d9-50288ea3df8d)
+
+* **L** is given in terms of **a and b** which is **Delta**.
+* So, it should be h^(-1) (L).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c4b860d-77ff-45df-a932-21edbf13d2b4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89898cb1-2c7f-4e30-805d-747282466778)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/14dc086b-bb8f-49de-9c1c-9080dad10a9a)
+
+* We don't know **h ^ (-1) (ab)**, **h ^ (-1) (ba)** and **h ^ (-1) (a)**.
+* We are unable to **map** it.
+* It is **not possible**.
+* For the **total language** we cannot give.
+* Atleast for **few strings**, we can give.
+* For the **given language**, **aba** is possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31d03b04-dc9a-45e7-a5bc-0283010a3797)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/759e092a-d76e-4743-8099-59cf57e57b64)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac0e9ad3-a3f1-41aa-87c2-0b33c088abef)
+
+* When **total** is not possible then **atleast** give whatever is **possible**. [**IMPORTANT**]
+* From the **given language** there is no change of **aa**. Not possible.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32a1d88f-f828-44e8-b1d0-ef4dfb89ce3c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/095712b9-fdab-4322-be66-e549b7c64b0d)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c4226431-0bcc-4549-8b24-f688546fd77f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d730eb8-9670-466a-a685-fc1932006bbf)
+
+* **One answer** we got.
+* Many possible combinations.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c62dfd34-d93d-4279-afb2-a3578d8db222)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d407bba3-968c-408a-873c-7e5296c54a3d)
+
+* [**IMPORTANT**]
+* All three are the answer or anyone of the three is the answer.
+* **MSQ** also possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef58692d-d698-4a37-8bf7-903bda096216)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fdeb30f7-93bb-42fe-85c1-56de492509fa)
+
+* In the given **question** there is **no inverse** story. **NO**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12ba0744-5e7f-4482-991c-78b27586177d)
+
+* Part of **above question** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/906f61fd-6bc6-44c5-966a-ac511b717427)
+
+* 0 * (2 ^ *).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf21cd62-e500-4015-8eb4-87066a0e8833)
+
+* (1 ^ *) * 0.
+* Anyone of them is the **answer**.
+* Whichever given in **options** choose that one only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/233c9cf0-bf8c-4994-a114-930c94a63d0b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/38002b66-8bff-404b-a339-3261b18c4a5f)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6300bf7f-8795-4c4c-b123-ad7353735892)
+
+* Two answers will be there.
+* Both are **a** only, we can write **0 or 1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9616a9b4-0ea4-47b9-b21e-a43b856ab9c7)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb3fbf36-aff3-4833-a32b-8374470c49a1)
+
+* In **L**, whatever strings are there we can **divide** every string into **two equal** parts.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dabd9b5c-367d-40b1-86f1-74e60f6fe9bb)
+
+* Everywhere write the **first part**.
+* This is called as **(1/2) * L** or called as **first half** or **half L**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/56c6856c-6056-4db3-8ad9-662c68fbcf9d)
+
+* This is called as **second half**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b362d5ca-7bf9-4c73-a229-7146276263f5)
+
+* For more clarity.
+* If **L** is regular then **1/2 * L** also regular.
+* So the **regular language** is closed under **1/2 * L**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/268d0965-d22d-43e5-8466-47d3825d431f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2cc6343c-4b89-47e4-89a3-f585cb3d49b7)
+
+* We can **divide** every string into **three parts**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b1d35e11-4b6d-4d81-b31f-2d86284c72ea)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2c22fb9-ee8a-49a6-b07c-211cc6232b19)
+
+* If **L** is regular then **1/3 * L** also regular.
+* So the **regular language** is closed under **1/3 * L**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/08cb55af-a6a7-48b3-a5bc-da825405c6c0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/88aa79de-34d2-48cb-bca8-2a9c293024f6)
+
+* **Regular language** is closed under:-
+
+1) Union
+2) intersection
+3) Kleen closure
+4) concatenation
+5) prefix
+6) Suffix
+7) Subtring
+8) substitution
+9) Homomorphism
+10) Inverse Homomorphism
+11) Complement
+12) Difference
+13) Reversal
+14) Quotient Operation
+15) Symmetric difference [Not required]
+16) 1/2 * L
+17) 1/3 * L
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fea62bd4-ca8b-4817-9d3a-10d26b3fecf2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9017e44a-875b-47f9-99cc-4c8402bfaf3e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d813c26d-5dd8-4a65-89c5-eeaee6e8508a)
+
+* **Subset** is not closed over **any language**.
+* [**IMPORTANT**]
+* **Finite subset** which is **regular**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce7adbaf-bca5-48f2-b91b-1d664ec46d1c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2cfe0f0-769b-4fa5-a0ed-881bd71b8c60)
+
+* Every **finite** language is **regular**? Why?
+
+> We can write regular expression by keeping **plus symbol(+)**.
+
+* regular expression possible means **finite automata** is possible.
+* If some strings are not possible to **divide** then **leave them**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34ebbb31-7e8f-4ed5-a291-0a45076849d3)
+
+* Need not be.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/26e08675-07c1-49aa-bec0-768c1628e336)
+
+* Example of above question.
+* Every **even length** string we can write into **two parts**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d3531f4-2860-43c2-997a-6535ce08a150)
+
+* Mostly everything is **closed**.
+* **Subset** is **not closed**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/42897e66-6faa-4ce6-916a-328ea91f4e9b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/005be2c7-dd7f-4fac-8bb8-c63bf500ebf8)
+
+* Wherever possible **divide**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eac389bf-d3b8-404d-8a40-388c3a85d496)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83044547-0498-4f1b-97b7-7d0298f00637)
+
+* Actual **automata** is this **only**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/480cf960-63cb-45cc-843e-55b507ec1316)
+
+## Context Free Language and Push Down Automata
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f9375d47-a850-45de-a7ef-7aebd933a518)
 
 
 
