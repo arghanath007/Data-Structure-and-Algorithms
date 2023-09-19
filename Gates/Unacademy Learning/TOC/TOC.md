@@ -8059,11 +8059,214 @@ b) Both non-regular -> Maybe possible, may not be possible.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/291126c1-a12c-494f-8015-ccb7625fb49c)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6fc67a5e-746f-4c6d-8eb3-9eb9e2068e31)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e6223a1d-f02f-422b-bc86-4aa2ae4b4504)
 
 * [**IMPORTANT**]
 
 * **Above** is regular expression, **below** also regular expression, whatever will come is also **regular expression**. Worst case **phi(Q)** will come that is also **regular expression**.
-* Above is regular but below is not regular then 
+* Above is regular but below is non-regular then what can we comment about overall?
+
+> **Regular/non-regular** -> Result is **regular**.
+
+* ((a ^ *) * (b ^ *))/((a ^ n) * (b ^ n)) -> regular
+
+* **Non-Regular/regular** becomes **Non-Regular**
+* ((a ^ n) * (b ^ n))/Epsilon -> ((a ^ n) * (b ^ n)) -> **Non-Regular**
+* Regular/Regular -> Regular
+
+4) If L1 and L2 are regular then **L1/L2** is also regular.
+
+* Remaining things maybe regular may not be regular.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b92432a-c666-4e96-93ff-9346023acf2a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c441874c-8021-47c0-afb2-ac31f47ca102)
+
+* NR -> Non-regular.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0a06267-a65c-4fec-8b98-65322737ba73)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85730e1d-5e4a-451a-8544-e4e61d8517dd)
+
+## Prefix
+
+* L = {abcd}
+* Prefix(L) = Everytime first people is compulsory  = {Epsilon, a, ab, abc, abcd}
+* Suffix(L) = Always ending symbols required, everytime last people is compulsory = {Epsilon, d, cd, bcd, abcd}
+* Substring(L) = Any part we can take, it has to be a sub-part = {Epsilon, a, b, c, d, ab, bc, cd, bcd, abc, abcd} 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa5dff4b-e162-403a-9562-1edf4744ba1f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bba34a80-c5cc-4bf2-a878-2b0e16cbaddd)
+
+* For any set, **empty set** is the **subset**, similar behaviour here.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d76ecb09-696a-421c-ae1a-3ca525a13abe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f30cd50-2544-4f3c-8447-1c2c1e364656)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/47b55727-fab0-4776-98fd-603d45d44d2e)
+
+* **Phi(Q) * Epsilon = Phi(Q)**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/26505d25-48f9-43bc-bd07-49ef00a4e94c)
+
+* It will accept **abcd**.
+* S1 is starting state and S5 is ending state.
+* For the language **L**, this is the finite automata.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3ff1b9b-0b25-4130-a159-235e2dd4005a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5d89af7-dd2b-405f-b1a8-287f1f97b97e)
+
+* Add remaining all states as **final**. Take/Make every state as **final**.
+* Now, the **modified automata** will accept all **prefixes of 'L'**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80e9cb06-e436-4410-8857-09c46f6628bb)
+
+* We always have to start from starting state, we cannot start from wherever we want.
+* If we start from **starting state** then **Epsilon** is accepted.
+* a,ab,abc,abcd -> all accepted.
+* Only final state is changing, not starting state.
+* **L** is regular then **prefix of 'L'** are also **regular**. **Yes**.
+* The modified automata is for **prefix of 'L'**.
+* Remove the **blue color circles** then the automata will be for **L**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c30f9b1d-595e-4fcd-a256-bce4436028ef)
+
+* In the original diagram **S1** is starting.
+* Now make every state as **initial state**.
+* We can start from anywhere.
+* Make everything as **final**, make everything as **initial**.
+* As everything is initial, we can start from **S4**. Only **d** accepted.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/54751c85-7a84-432f-bed2-bf5ca577b377)
+
+* We want to accept only, **bc** then start from **S2**.
+* We want to accept only, **c** then start from **S3**.
+* We want to accept only, **a** then start from **S1**.
+* For the language **L** if we have **finite automata** then **substring** of **L** also has **finite automata**.
+* If **L** is **regular** then **substring** of **L** is also **regular**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/02626464-fdd9-4b60-ab91-a858d1397101)
+
+* If **L** is **regular** then **finite automata** is available.
+* In that **finite automata** make every state as final and make every state as initial then it will take **all substrings of 'L'**.
+* In that **finite automata** whichever state is **final** keep that state as **final** only, don't make more **final**. Keep that only **final** and make every/all states as **initial**.
+* We can start from **S4**, we will get **d**.
+* We can start from **S3**, we will get **cd**.
+* We can start from **S2**, we will get **bcd**.
+* We can start from **S1**, we will get **abcd**.
+* It will give all **suffixes**.
+* If we want **suffixes** then make every state as **initial**.
+* If we want **prefixes** then make every state as **final**.
+* If we want **substring** then make every state as **final** and every state as **initial**. [Final and starting]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fcb6e769-6de7-4c73-b1f1-646a256f2722)
+
+* If **L** is regular then **prefixes** of **L** is regular, **suffixes** of **L** is also regular, **substring** of **L** is also regular.
+* This is the way of construction **automata**.
+* **L** is regular means already **automata** there. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fabe7588-e67b-4f91-8b2b-94aff184fada)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09286dc2-ef1a-411e-bf7f-4b6b7de20bc3)
+
+* [**IMPORTANT**]
+
+## Substitution
+
+* Sigma -> (Delta ^ *)  ['->' means mapped]
+* Sigma -> P(Delta ^ *), Power set of **(Delta ^ *)**. [P -> Power set]
+* **Star(*)** not there it means it is a **symbol**.
+* **Star(*)** is there it means it is a **string**.
+* **One symbol** will be mapped to **one string**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5dbf6735-9ccd-4607-b4c8-fb2e81e356ad)
+
+* **One symbol** is mapped to **Power set of (Delta ^ *)**, which is nothing but a **regular language(RL)**.
+* **Symbol** is mapped to one **regular language(RL)**.
+* **Power set of (Delta ^ * )** -> **regular language(RL)** over **Delta**.
+* Sigma -> (Delta ^ *) -> String over **Delta**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/173039fd-a020-4f8a-9f76-7b580f3a2c42)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/73420cef-5a57-4971-8ab0-aa7f9e163a19)
+
+* **Substitution** -> It is a mapping from **sigma** to **Power set of (Delta ^ * )** which is a **regular language(RL)**.
+* It is a mapping from each symbol of **Sigma** to one of the regular languages over **Delta**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/acd46459-0e44-4a00-bf15-daa24964542d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2289102a-26ce-43e1-909c-ebd9f597570e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/29f89115-605b-4ae9-a5ce-303dfcc45618)
+
+* [**IMPORTANT**]
+* **Sigma** contains **two symbols** which are **a, b**.
+* This problem contains **two alphabet** or **two language** every language contains **one alphabet** which are **Sigma and Delta**.
+* S(a) -> Substitution of 'a' -> 'a' is mapped to one of the regular language over delta.
+* (0 ^ *) is a **regular** expression over delta.
+* Every symbol of **sigma** will be mapped to one of the regular language over the alphabet, **delta**.
+* This is **Substitution**.
+* ((0 ^ *) * 1) is a **regular** expression over delta.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1cda0650-34bd-417f-9284-4063db5894e5)
+
+* Mapping is done.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b45bb93-f9e1-47ed-8e64-f7b0559e57d7)
+
+* How to calculate **S(L)**?
+
+* S(L) -> S(ab) -> S(a) * S(b)
+* S(abcd) -> S(a) * S(b) * S(c) * S(d). [Formula] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/54ad2fab-30c5-49ea-9a9b-f64bb6745352)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12a730ab-bbfd-4f57-b4c8-07ff44837820)
+
+* This is the type of questions that come in **substitution**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1302bc64-1f12-4124-bfb9-2f1e2103f650)
+
+* **L** is one language.
+* Langauge **L** contains **one string**. It is a **finite language**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80e35816-9566-4647-8b52-e71670c8c218)
+
+* We have to do **substitution** for **language** also.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d4834c3-9982-4eb1-b235-214ceb2a746b)
+
+* Extended substitution [**IMPORTANT**]
+* S(a ^ *) = ([S(a)] ^ *) [Formula] [**IMPORTANT**]
+* S(a) = (0 ^ *)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d6fa4e3-06d2-4c39-a2ac-f640aaf6248c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cae1b2a0-5881-4d9a-b432-2e2e254a1905)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4ee7c7da-feda-4d44-ac2b-725cf54b85dd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f33e9216-95a9-4cf7-8f4a-67a3c0f357e9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f78d412c-70f8-4780-853e-e04f96501078)
+
+* S(a + b) -> S(a) + S(b)  [Formula] [**IMPORTANT**]
+* Formulas. [**IMPORTANT**]
+* To **map** a **language**, the **formulas** are **useful**.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
