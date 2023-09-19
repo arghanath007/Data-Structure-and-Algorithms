@@ -8551,21 +8551,67 @@ b) Both non-regular -> Maybe possible, may not be possible.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f9375d47-a850-45de-a7ef-7aebd933a518)
 
+* Next Class
 
+## closure-properties-of-cfl-i (32) [19th Sept 2023]
 
+## CFL and PDA
 
+* PDA -> 1-stack is there
+* In **Automata** with the help of **state**, we can remember or remembering.
+* PDA is nothing but **finite automata plus(+) stack**
+* **Finite automata** we are remembering something and in **stack** also we are **remembering** something.
+* Combinedly we are **remembering more**.
+* So **more power**.
+* **CFL and PDA** and we need **Grammer**.
+* G -> Grammer
+* G(V, T, P, S)
+* V -> Set of variables
+* T -> Set of terminals
+* P -> Set of productions
+* S -> Start symbol.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/268a0a16-f056-43a3-997a-ac346ac483d7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5145d34-5b63-43fd-ad93-07d2589ccd49)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d81884e-eb3e-4fbd-b013-7bd8b8a3d40a)
 
+* VTPS.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2aa045c-8e81-4cca-92f0-112f2f67a3d0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e448ec7-c7ef-4ca9-a843-61ca70e61393)
 
+* **B** going to **b** and **B** also goes to **Epsilon**.
+* **B** contains **two** things.
+* **B** derives **b** or **B** derives **Epsilon**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e52bff77-0274-4d25-8964-be6cb47e5cb5)
 
+* We can write like this as well.
+* **/**, **slash** is the **OR** operator.
+* **B** going to **b** or **Epsilon**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0fbe86c1-2c1d-4bdc-b26d-436f091107b1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3af410c0-b8b4-43ba-bbb7-77e5afd39792)
 
+* **Grammer** means **4-things** should be **given**.
+* Till now in the **Grammer** only **productions** are given.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b1e6a011-698c-486f-9705-cf051bea27f0)
 
+* We have **4-productions** here.
+* **B** contains **2-productions**.
+* **A** contains **1-productions**.
+* **S** contains **1-productions**.
+* Variables(V) = {S, A, B}
+* Terminal(T) = {a,b}
+* Start Symbol(S) = S
+* **Epsilon** is left out and we know that **Epsilon** is a **special person**.
+* **Epsilon** is neither a **variable** nor a **terminal**. [**IMPORTANT**]
+* Whatever mentioned in the **question** are **variables, start symbol and terminals**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/300d9af4-379f-4fff-9c96-6d7e14c75342)
 
+* **4-things** are given then only we can say that **Grammer** is given.
 
 
 
