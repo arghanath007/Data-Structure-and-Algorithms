@@ -1,4 +1,4 @@
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/444bff3c-64b8-454d-b2de-a3947f43b964)![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d89f987-edae-410d-9706-92463a2378c3)# TOC
+# TOC
 
 ## Motivation
 
@@ -8829,8 +8829,19 @@ b) Both non-regular -> Maybe possible, may not be possible.
 * The numbers are for us only.
 * We will see **final tree** only.
 * Left most possible means right most is also possible.
+* **Ambigious grammer** -> There exists atleast one string to which **more than one(1) parse tree** is possible.
+* From the **given grammer** to generate a particular string if we can find out **more than one(1) parse tree** then it is an **Ambigious grammer** otherwise **unambigious grammer**. 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bd0e2e68-46c6-4ce0-af4c-e0892afc33dc)
 
+* In **compiler**, every program should be **compiled**.
+* We have created a **program** that is giving **ambiguity**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce20085e-9751-4aa5-89d7-8166fca0295b)
+
+* 1 to n or n to 1 -> Types of loops.
+* 1 to n -> LMD
+* n to 1 -> RMD
 
 
 
@@ -8871,3 +8882,4 @@ b) Both non-regular -> Maybe possible, may not be possible.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8710bd0a-4e34-4905-8be5-0215477fb53d)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c5c73504-3fd9-4ec7-8462-2c46fd0052c8)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/faf6e69f-a9a3-42cd-9f39-7303dfc1b8fe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/444bff3c-64b8-454d-b2de-a3947f43b964)![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d89f987-edae-410d-9706-92463a2378c3)
