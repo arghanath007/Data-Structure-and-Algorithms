@@ -1,4 +1,4 @@
-# TOC
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d89f987-edae-410d-9706-92463a2378c3)# TOC
 
 ## Motivation
 
@@ -7700,33 +7700,183 @@ L = {Give a regular expression of all a's and b's where the length of every stri
 * L = sigma ^ *.
 * L^R = sigma ^ *.
 
+2) L = Sigma ^ * then L ^ R = Sigma ^ *
+
+* **Reverse** of **(Sigma ^ * )** is **(Sigma ^ * )** only.
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19df8e16-6866-4e9b-9c44-a6a8fcc3ade9)
 
-* **S1** is initial state and it becomes **final state** and **final state** became **initial state**.
+* **Initial state** become **final state** and **final state** become **initial state**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c74bcfb2-fb92-4037-9e36-bdadbae9eb56)
 
-* **Reverse** each direction but still **same** thing came.
+* **Reverse** in each direction but still **same** thing came.
+* **Same** thing came after **reverse** as well.
 
-3) L = (a ^ *) = **L ^ R** =  (a ^ *)
-4) L = Phi(Q) = **L ^ R** =  Phi(Q)
+3) L = (a ^ *) then  **(L ^ R)** =  (a ^ *)
+4) L = Phi(Q) = **(L ^ R)** =  Phi(Q)
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce13f75f-94e6-4e09-b8e5-1518a9d5b481)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/986d2c5d-3ddb-4754-a7ef-caba13749d19)
 
 5) (a * (a + b) ^ * ) = (((a + b) ^ * ) * a)
-* **Starting** became **ending**.
 
-6) ((a ^ *) * (b ^ *)) = (b ^ *)) * ((a ^ *).
+* **Starting** became **ending**.
+* Starting point becomes ending point and ending point becomes starting point.
+
+6) L = ((a ^ *) * (b ^ *)) then **(L ^ R)** = (b ^ *)) * ((a ^ *).
+
+* **Starting** became **ending**.
+* Starting point becomes ending point and ending point becomes starting point.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a532cd05-0eeb-4928-8f0f-bb2ebdacab60)
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/732bde00-9964-4edf-85af-bd613d046dca)
 
+7) L = ((a + b) ^ *) * a * b * ((a + b) ^ *) then **(L ^ R)** = ((a + b) ^ *) * b * a * ((a + b) ^ *)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/732bde00-9964-4edf-85af-bd613d046dca)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/526301ac-5169-48a6-ba52-9313c667ac0f)
+
+* Both will be **regular** or both will be **non-regular**.
+* **One is regular** and **one is non-regular** that is **not possible**.
+
+* **Question**:-
+* **L and (L ^ R)** are two languages over the same alphabet then which one of the following thing is possible?
+
+ a) Both are Regular is possible -> **YES&**.
+ b) Both are non-regular is possible -> **YES**.
+ c) **One is regular** and **one is non-regular** -> **No way, NO**.
+ 
 * [**IMPORTANT**]
 
 ## Kleen Closure
 
-* start from 1hr 30mins.
+* If **L** is regular then **(L ^ * )** is also **regular**. **Yes**.
+* For the **existing diagram**, one state add before and one state add after, with the help of **epsilon** connect them.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89cf191e-1999-4d1d-8471-22933155e3d3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09c3625b-a37c-4cc2-bbbd-3edbe6e772d0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef030a8e-557d-40e1-9cb8-5e86d395195e)
+
+* Adding one state before and one state after and with the help of **epsilon**, we connected the **states**. Make the **first state** as the **starting state** and the last state as the **final state**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b7289ec6-fc17-4e67-98cc-213181c410c1)
+
+* If **L** is regular then **( L ^ * )** also regular.
+* Regular languages are **closed** under **Kleen closure**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/da8a658a-7126-47ee-a381-190fefa0c6eb)
+
+* **1**.
+
+2) L = Phi(Q) then (L ^ *) = Epsilon [**IMPORTANT**]
+
+* (L ^ *) = (Phi(Q) ^ *) = Epsilon
+
+* (L ^ *) -> If we don't go inside also **one time** then **epsilon** will come.
+* If we go **inside once** then **Phi(Q)** will come.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4ff8d141-0709-4dc8-8639-a0dce8ff7e84)
+
+* **Phi(Q)** means **nothing** man.
+* nothing + something -> something
+* Phi(Q) + Epsilon -> Epsilon
+
+3) L = ((a ^ *) * (b ^ *)) then (L ^ *) = ((a + b) ^ *)
+
+* In the original language(L), a's followed by b's.
+* After doing **whole star(*)**, **a's followed by b's** need not be.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/851d55a9-4104-4da2-9d7b-4a6a0456e8a4)
+
+* **L** is finite automata possible.
+* **L ^ R** also finite automata is possible.
+* With the help of **epsilon** connect them.
+* (L * (L ^ R)) also finite automata is possible.
+* So overall **regular**.
+
+4) L = Epsilon + (a ^ +) = (a ^ *)
+
+* (L ^ *) = ((a ^ *) ^ *) = (a ^ *)
+
+* Conclusion:-
+* ((L ^ *) ^ *) = (L ^ *)
+* If we do **one,two, three** times **star(*)** then it will be **one star(*)** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d4730a6-d441-4cdd-b07a-2ed4844c1b98)
+
+5) ((L ^ *) ^ *) = (L ^ *)
+6) (Epsilon ^ *) = Epsilon
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/82105881-2179-4090-aae8-310386235df0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71d2c5a2-41b5-47d9-a193-b9402dcc556f)
+
+* Prime Numbers
+* 2a's, 3a's, 5a's, 7a's, 11a's, .......
+* Prime Number series is very dangareous story, many things we have to remember.
+* No factor available except **1 and itself**.
+* It is **not regular** and it is **not CFL** also.
+* It is **CSL**.
+* **CSL** and **turing machine(TM)** are **same**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f687c226-fb06-4bed-bfe1-a17d8009ed47)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0121f288-2443-43b7-81bd-e0974a0eff1d)
+
+* LBA -> Linear Bounded Automata
+* 2-S -> 2-stacks.
+* **Turing machine(TM)** and **LBA** both are **same** but in the **LBA**, the **space** is **bounded/limited**. Some Limitations are there.
+* **Turing machine(TM)'s** stack space, no limitation is there.
+* **LBA's** stack space, some limitation is there.
+* Only **difference** is this.
+* If **LBA** is possible then **Turing machine(TM)** is **possible**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a40b39c-2f3a-44d8-b276-da233cecd896)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e98b783-1964-45bd-af16-1b789933066d)
+
+* L = (a ^ p | where **p** is prime)
+* (L ^ *) = (a ^ p | where **p** is prime) ^ * -> Epsilon, a ^ 2, a ^ 4, a ^6,a^8, a^10,a^3,a^9
+* Except **a or single 'a'** everything is there.
+* **a or single 'a'** is not accepted but afterwards everything is accepted.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/48d79738-6ec7-40cf-ae89-f78eff90b2e0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c056dd98-7c8a-44d7-bb29-440ea25cddbb)
+
+* **L** is **regular** then **(L ^ * )** is also **regular**. This is the **only thing** we can comment.
+* **L** is **non-regular** then also **(L ^ * )** is **regular** sometimes.
+* One possible and another one may not be **possible**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d598730d-6646-4847-84f6-6dddf5e213b6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a41937d1-e9f5-4482-b7d6-bc74d38f8ef0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/194dbd71-5654-49c0-92f3-43fe95fe65fc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/20050cc8-5b63-4ffa-ad82-b1104a332d27)
+
+6) If L is non-regular then (L ^ *) maybe regular or may not be regular.
+
+* If **L** is non-regular then anything can happen to **(L ^ * )**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f9440533-f227-4a76-b692-1a561c45319a)
+
+* **Question**:-
+* **L** is a language and **(L ^ * )** is also a language, over the same alphabet then which one of the following is possible?
+
+a) Both regular -> **YES**.
+b) Both non-regular -> Maybe possible, may not be possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/119c9128-c31b-4b39-8cba-65a55a565b9f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cbbde3f4-7b2d-43ec-adb2-bbf99279e4ef)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5954b956-f868-4c14-858a-f6ec2b5344b8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8612e837-6836-4d11-8098-1e39b41ee33c)
+
+* [**IMPORTANT**]
+
+
+
+
+
+
+
+
+
+
 
 
 
