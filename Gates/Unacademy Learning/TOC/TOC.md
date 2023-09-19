@@ -7871,19 +7871,79 @@ b) Both non-regular -> Maybe possible, may not be possible.
 ## Quotient Operation [**IMPORTANT**]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/039aca5c-71cc-449e-a908-89e8feca5952)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e52667b-21cd-4494-a9bd-9503d5f829d1)
 
+* Yes.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/943370d4-1116-4232-b668-3a2128302948)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f4a1f3a7-9437-42c4-840f-58bdffb9c6a4)
 
+* **xy** belongs to **L1**
+* **y** belongs to **L2**
+* Left out part is **x** that is **quotient operation**.
+* **quotient operation** which is **L1/L2** which is **L** is equal to, **L** contains string like **x**. How **x** came?
 
+> For all **xy** belong to **L1** and there exists a **y** belongs to **L2**.
 
+* So that **xy and y** are cancelled and **x** is left out.
+* This is **quotient operation**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fefcb8f5-4554-4bab-bfa9-89a34343a790)
 
+* Whatever answer will come, it should be part of **L1**. **YES**.
+* Answer should be **left out** part of **L1**.
+* It is not like mathematics where we can go wherever we want and cancel. We cannot **cancel** in the **middle**.
+* **Right side** only we can cancel. [**IMPORTANT**]
+* Below part should be **completely cancelled**. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35261e45-e691-4f90-af6a-762501524385)
 
+* Yes.
 
+1) abc/b = Phi(Q)
+2) abc/bc= a
 
+* From **Right side** onwards we should **cancel**.
 
+3) abc/Epsilon = abc
 
+* In **abc**, by default **Epsilon** is there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d1caa27-8713-4380-8cf8-524bc6be946b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35e0fd64-5acb-4b6f-80d0-a7dfb4f0a025)
+
+* Answer always belongs to **left out** part of **L1**.
+* **L2** should be completely cancelled.
+
+4) abc/bac = Phi(Q)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fdfb4413-b52d-4893-a2a8-f882ae4a31dc)
+
+* Above part is **L1** and below part is **L2**.
+* **L1** contain **2-string**.
+* **L2** contain **3-string**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dac0da17-8205-44da-bfcb-67c771424258)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22f3a80f-dc6c-4580-a1ed-1400204b2f0d)
+
+* Every member of **L1** try with every member of **L2**.
+* If any cancelation is possible then try.
+* **Answer** is whatever is **left out**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4bd7d1f9-2c90-48fc-b1a4-747d113eb3dd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6045df87-5656-4cea-9bcd-3c632ef0c7dc)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e65dd62-288f-4e0f-ad4b-b96c7054aafe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/51d702bf-ac72-458e-840c-a17049eac1f2)
+
+7) ab/ab = (Epsilon * (ab))/ab =  Epsilon.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58869110-f105-430b-85ef-c5aca80ba1a9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6236929f-06ef-4f14-8b60-b99d7cc071a0)
+
+* (a ^ * ) -> It contains everything in terms of a's.
 
 
 
