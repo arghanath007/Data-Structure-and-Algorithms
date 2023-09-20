@@ -9223,6 +9223,421 @@ b) Both non-regular -> Maybe possible, may not be possible.
 
 ## turing-machine-i(34) [20th Sept 2023]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3669f6f-1cb2-4488-ba03-0f291a16b343)
+
+* Minimal String -> abb
+* Before and after **abb** anything can come.
+* anything means any no. of a's.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8714fe59-09eb-459c-9979-eaf5f106c47d)
+
+* Using this we will get **10 a's**.
+* Repeat it 10-times and we will get **10 a's**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c449afbe-9ffe-4bde-b88e-e190985a7933)
+
+* **A** replaced by **b** and we will get **b's** now. We will get so many b's.
+* This is a **recursion** and every recursive program should have a **Termination condition**.
+* **Epsilon** -> **Termination condition**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/422a143c-9ca1-4df6-a209-5cc323d8c2c4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/70da987f-2f58-488c-8ae5-967c7320d52e)
+
+* The **A** is generating **((a + b) ^ * )**.
+* If we want only **b's** then start with **bA**.
+* If we want only **a's** then start with **aA**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6c6bb49-f17c-4a96-b205-9d7fe133de1a)
+
+* **Order** is not important here.
+* Anyone we can **start**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/38e5871f-046a-48d8-ae69-e39ea7f77c51)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31aaec03-2b5e-492a-b2ad-3e21f1f61121)
+
+* We are interested in **CFG**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/add743c0-80cf-4476-b98b-265065795878)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/94bf358a-8470-4901-87f7-08a508f40a84)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c3e873d0-7068-4599-8f15-5950889b31b0)
+
+* Correct.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c8900acc-9d9d-45cc-bb5f-fcb80414b49b)
+
+* **Grammer** will start from **start symbol** which is **S**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc1d25b1-4424-48ba-bbfc-bf322a1f91a6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91d0a28d-7407-4360-b8f1-3be2f3e839f0)
+
+* We cannot say **unique**.
+* In **grammer** there is no **unique** concept.
+* For all **Epsilon-free** things the **subset concept** works.
+* For all **Epsilon-free**, **chomsky's heirarchy** will work out. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec61b2be-58b2-4590-b96e-98e80a4f4bcf)
+
+* Example
+* Minimal String -> Epsilon.
+* It is something like **((a + b) ^ * )**.
+* It is exactly like the **previous question**.
+* We can repeat **baa** and **abb** any no. of times.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12cca71e-08d4-434f-83e0-6c3c6bfa0e50)
+
+* **FA and PDA** both are possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9c30453-7a39-41e8-bd49-ca8ec1bcca6b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a038f163-17f8-46ba-8531-c3bfeae86c20)
+
+* It is not regular but it is **CFL**.
+* **CFL** means **CFG** should be there.
+* **Every regular language** is **CFL** [**IMPORTANT**]
+* Every **CFL** maybe regular and may not be regular.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cecaa6bd-5c68-4ec8-9fd3-0746a64babc8)
+
+* Not only order is important but the no. of a's and b's are also important as there is a **relation** between the **a's and the b's**. [**IMPORTANT**]
+* Some **equality** relation is there between the **a's and the b's**.
+* If between two people **some relation** is there then **don't divide**.
+* Without **division** only, we have to **generate them**.
+* If **relation** is there we cannot **divide**.
+* With one variable only we are able to **generate** both of them.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/17d7077e-4970-4677-be79-4f5a2ca37097)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9622f1fc-1ff5-4eb3-abe3-999c6d34837c)
+
+* **S** replaced by **termination condition**.
+* **Termination condition** is decided by what is the **minimal string** there.
+* The minimal string -> ab
+* So, the **termination condition** is **ab** only.
+* Don't write **Epsilon**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b9d1a757-66a1-4c41-a2da-e9c434adfc48)
+
+* [**IMPORTANT**]
+* As there is **some relation** between **a and b**, as **one 'a'** came and along with that **one 'b'** also came. This is the meaning of **relation**.
+* As **2-a's** came so **2-b's** should come. This is the meaning of **relation**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae0af806-029a-47a3-9a27-6fcbed81e83b)
+
+* [**IMPORTANT**]
+* When we **divided** the **relation** is gone.
+* **Relation** there means **we cannot divide**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34eae3eb-9697-43c4-b642-1f47b383dea0)
+
+* Order is important but the no. of a's and b's are not important as there is **no relation between a and b**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2d9fe8d3-7ff6-436a-99e4-2744ea89decd)
+
+* Other than **order** there is no relation between **a's and b's**.
+* **A** alone is generating **a's**.
+* With the **A** we are generating **a's**.
+* **B** alone is generating **b's**.
+* With the **B** we are generating **b's**.
+* As there is **no relation** we are able to **divide** them very easily.
+* Whenever **no relation**, we can **divide**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c7a0224-e285-4c06-8856-7a08008ac13c)
+
+* If a **relation** is there between **two people** then don't try to **divide** it. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1fb71dd1-738b-4327-9a37-7bd03f9caef2)
+
+* [**IMPORTANT**]
+* **Conclusion**:-
+* If **relation** is there then **don't divide**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db63f79a-151c-4ddb-bb1f-ebbd59ebc5f0)
+
+* Example
+* Order is important and there is a **relation** between **a and b**.
+* If **1-b** comes then **2-a's** will come.
+* Minimal string -> baa [n=1]
+* So, **baa** is the **termination condition**.
+* As there is **relation**, so **don't divide**.
+* The language is ending with **a's**.
+* **Don't divide** means use **single variable** for them.
+* Do everything with **single variable**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1dfe7e15-e260-45db-ace2-d705630eba9d)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4579405-5656-4def-b3c4-7acb4bef4ffd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c852dcd8-28e2-4a3b-a73f-5be18daf8a7c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a07d237-36e8-4352-b664-fcffa907dea9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/301b6837-8b46-4132-b8de-63354928fe94)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/410beb3f-860a-4a8a-89e4-6b0ac84768ba)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36f31fa3-d3a1-4581-866c-e7ef25226327)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/38a116d9-e17c-411c-b00a-d12fad5123ee)
+
+* Order is important.
+* There is no relation between **a and (b and c)**.
+* There is a relation between **b and c**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f1c27163-ce09-481c-a953-e44a07c77e07)
+
+* It is **CFL** as **CFG** is possible.
+* Left is **one variable**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb1e8e79-e554-4e86-9b00-8ecaab0a8178)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19defe40-3e0d-4a8d-8e0e-b2459e584881)
+
+* We are able to write **CFG** so it is **CFL**.
+* **a and b** are in **relation** but **(a and b) together and c** are not in any relation.
+* Order is important.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6288b970-161c-4d38-9a2e-976ae1bf2871)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f553c0a2-0bdc-4b60-9da2-ffc84157cfbc)
+
+* CFL.
+* We are able to write **CFG** so it is **CFL**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2304a59e-70b6-4231-a79b-a6b6864da0d5)
+
+* **S1** generating **L1**.
+* **S2** generating **L2**.
+* If **L1** is **CFL** and **L2** is also **CFL** then the **union** of two **CFLs** which are **L1 and L2** is also **CFL**.
+* For **union** also **CFG** available.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65980032-cef5-461e-8bd6-dd0919d83923)
+
+* This is the **union** language.
+* Either **a and b** are **equal** or **b and c** are **same**.
+* It is the **union** of two languages
+* **m = n** means **a and b** are **equal**.
+* **n = K** means **b and c** are **equal**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5831d8c3-a407-4990-8260-2f2927e5f753)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae3be57c-a625-404f-a852-2b2870ef6f2e)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bcbb90e8-9a61-458a-9b1f-a75e6652084b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bbdacb05-64b6-4119-bffe-8b6e9b9b4607)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/beeb9a68-6209-46d8-a60c-d52b31ee23ff)
+
+* [**IMPORTANT**].
+* If L1 and L2 are CFL's then **L1 U L2** is also **CFL**.
+* **L1 intersection L2** need not be **CFL**.
+* **a and b** are friends, **b and c** are also friends.
+* The **intersection** part is that all three(a,b,c) are friends.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aeda5933-722e-4e43-bbf4-5fce0292701e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4ba18fe7-36c3-47ff-ae66-bf4cff9e9a5f)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27d01c81-4b92-47df-b3e4-253a5891bbb8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1633acf8-d914-4966-8aaa-a8caacace30e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/063f0cfe-9dab-4134-ab9a-6fcb5fba86c8)
+
+* We have **OR** operator here.
+* Which means **union**.
+* Either **S1** or **S2**.
+* Anyone.
+* Two comparisons there but at a time both are not required.
+*  At a time we don't have to **satisfy** both.
+*  No relation
+*  If first is satisfied then we have don't have to do the **second one**.
+*  It is like **if-else** statements.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/53b734aa-a39a-4490-af68-5b9d79a59d63)
+
+* Either **if** or **else**.
+* We don't need to do both.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d24682a-069a-490f-9c3d-763f8981aaaf)
+
+* AND operator.
+* Two comparisons and we have to satisfy **both** at the **same time**.
+* We have two inner **for loops**.
+* Both we have to do at a time.
+* Two stacks are required.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e4ba042-b098-4f0a-a952-c25a5576e16a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8b7e6a1-34ec-4a4e-b612-a1591e7b3c01)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/928f4ef2-aa86-42b5-9a64-fd561fccc82a)
+
+* Relation is there.
+* We have written, **CFG**.
+* It is also **CFL**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f36c33a1-0bf4-4c0d-9286-a642fc985e94)
+
+* Inside **ab** is not there, **(a ^ n) * (b ^ n)** is there.
+* Inside **5a's and 5b's** are possible.
+* Inside **10a's and 10b's** are possible.
+* Because of **Star( * )** operator we can go inside any no. of times.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5fb3b2f-c2f7-4f08-9b4f-9daa4edaf50b)
+
+* It is possible, we have to go inside **3-times**.
+* **(a ^ n) * (b ^ n)** will give no. of a's **equal to** no. of b's.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71039f5e-2297-4a91-9b56-3595694711cd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/40824f22-2952-444f-aff7-7476cf12368f)
+
+* Please **add** the **SS** and **Epsilon**, we will get the behaviour of **(L ^ * )**.
+* **SS** -> For many no. of times.
+* **Epsilon** -> For **zero(0)** times also.
+* **S** replaced by **SS**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09ff1dff-4689-402f-a209-fa0a8777ac79)
+
+* If **L** is **CFL** then **(L ^ * )** is also **CFL** by adding the **two productions** extra which are **SS** and **Epsilon**.
+* **SS** will give **repeatation**.
+* **SS** will give **Klean Closure**.
+* For the language **L** we have **CFG** and by adding **two productions** extra, we can get **(L ^ * )**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ce09001-9b04-4826-bee6-e2e74c5cd642)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d5bf715-de29-456b-86ae-b6e8a6e524f7)
+
+* If **L** is **CFL** then **(L ^ * )** is also **CFL**.
+* If we just want **L ^ +** then don't write **Epsilon**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/06e3dfdf-819a-4926-9ba6-63374b38c81b)
+
+* Given CFG,
+* L = {Set of all palindrome over alphabets {a,b}}
+* palindrome -> Starting and last letter should be **same**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/da79434d-f0a6-41d6-a6e8-e425233aff0a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/de501262-7273-469c-9db7-42c344f41bff)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/120806ac-d0ab-4406-a11c-4b4c73aefd8d)
+
+* Termination time if we keep **Epsilon** then it is **Even length** palindrome.
+* Termination time if we keep **a or b** then it is **odd length** palindrome.
+* [**IMPORTANT**]
+* At a time **two symbols** are coming. So, it is **even**.
+* **Even + Even -> Even** palindrome.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/73a058ee-5d06-4bdb-9d76-9aeaaf8f4cb0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/04e26c15-a989-4f5e-b8f2-86e08188d511)
+
+* **Even + Odd -> Odd** palindrome.
+* First and last symbol are **related**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7843d347-b2e7-4aed-834e-1ce738460036)
+
+* First and last symbol should be **same**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a1a474e-2288-400f-a87b-7fb27b7fad4b)
+
+* Minimal String -> Epsilon, a, b
+* Epsilon -> Zero(0) length palindrome.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83686b8c-f56d-4d0d-9ace-bc9c6980ae62)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
