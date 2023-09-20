@@ -8843,6 +8843,87 @@ b) Both non-regular -> Maybe possible, may not be possible.
 * 1 to n -> LMD
 * n to 1 -> RMD
 
+## closure-properties-of-cfl-ii (33) [20th Sept 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec90654d-860e-4c27-8b13-4e778b25f5c3)
+
+* The grammer contains **3-productions**.
+* At the end of the day we have to replace **2-variables**.
+* We are doing **left one** first.
+* Read all **leaf nodes** from **left to right**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/226be33a-0ba4-4760-a15e-4e67cf54463c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ddab2f8f-5ada-48db-828a-8b315ba2e0aa)
+
+* The trees are **both**, **LMDT and RMDT**.
+* Only numbering will differ.
+* Some people will expand **left side** first, some people will expand **right side** first.
+* At the end of the day, we have to expand **left also and right also** which is **both sides**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d1fb1d0-4889-416d-8567-34cc92863cff)
+
+* For a grammer to be **ambigious grammer** we have to show **two-different trees**.
+* There exists atleast 1-string to which more than 1-parse tree.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63e18491-e1e5-4c5f-979a-d72a6e179466)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d44e06fd-4973-42e7-81fb-4cdab93dfb6c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/564f9684-26ae-4080-b1a7-029afdc1e9f0)
+
+* Example
+* This is **recursive grammer** so it will generate **infinite strings**.
+* **NOTE**:-
+
+1) To check if a given grammer is ambigious or not is **undecidable**.
+
+* To solve a particular problem, time complexity is **infinite**. It means that it is **undecidable**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6df01b42-1ef7-4562-8f69-b041d40b7719)
+
+* LMDT is there means that RMDT is also there and vice-versa.
+* Find different **parse trees** -> It means that find different LMDTs and find different RMDTs.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16143d83-8ac9-4b46-a2b0-749a61b90ace)
+
+## According to Chomsky, Types of Grammer
+
+* There are **4-types** -> Type-0, Type-1, Type-2, Type-3.
+* Type-0, Type-1, Type-2, Type-3 -> They are all **grammers**.
+* Type-3 -> Another name is **Regular grammer**.
+* Type-3 or **Regular grammer** will generate **Regular language** which is nothing but **finite automata(FA)** is also possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ac2e118-3936-412f-865b-e33152c1409d)
+
+* When we say **automata** is there means that **grammer** is also there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d2cf7c67-de9b-443a-b1dc-32af25173f64)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4fa495a9-7cfa-43b7-aa30-851d73f5efc8)
+
+* Regular Expression(RE)
+* Every **regular grammer** will generate **regular language**.
+* **regular language** means **finite automata(FA)** is also possible.
+
+* Depending on **grammer**, it will generate **one string** or **many strings**.
+* **One grammer** will generate **one language**.
+* **One automata** will generate **one language**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92d847b4-5e24-42e5-ad35-fcadf3ce3a49)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df9bf45d-8f63-43a3-a22a-ef47afe227ab)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
