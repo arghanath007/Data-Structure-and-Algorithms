@@ -9538,13 +9538,56 @@ b) Both non-regular -> Maybe possible, may not be possible.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83686b8c-f56d-4d0d-9ace-bc9c6980ae62)
 
+## doubt-clearing-session (35) [20th Sept 2023]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/deefabbb-2b35-4bce-93c0-80abf5787cfe)
 
+* Example.
+* a's will come **first** and then **b's** will come.
+* If **no comparison** is there then how we will say that **a and b** are **not equal**. So, **comparison** is there. It is **equal or not**, we have to **comparison**.
+* **Relation** is there otherwise how we will say who is **smaller** and who is **bigger**?
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff0a878b-4277-4f90-b8b5-56cb91e07c6a)
 
+* Yes.
+* **a's and b's** are not equal.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/237f178a-99a4-440a-b88d-2842c5aad07d)
 
+* Order is satisfied.
+* Minimal string -> ab
+* Termination condition -> ab.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7fc1c2e8-d061-46f9-9fcf-1abcb55e3f3b)
+
+* Atleast **one 'b' more**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d186954-b275-49d4-867c-8139b77cbe19)
+
+* If we want **a's** more then go for **second one**.
+* If we want **b's** more then go for **first one**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7fb20060-047e-4264-9ee8-b75785af341a)
+
+* There is a **relation**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8820718-4156-4824-ad2c-24cf8aa44b1d)
+
+* **m !=n** means either **m > n** or **m < n**. That's what we have to prove.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e0723d48-be52-4cf2-bd57-5f4048988128)
+
+* Both the directions they can asy.
+* Language to Grammer.
+* Grammer to Language.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b12dc70-cef1-4bf8-b9a3-367235f159c7)
+
+* If we want to complete, what is the language for the given grammer?
+* In the **language and grammer**, **minimal strings** find out.
+* If **two options** match then for every variable, write the **language**.
+* When **relation** is there, don't **divide**.
 
 
 
