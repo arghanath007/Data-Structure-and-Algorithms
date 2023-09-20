@@ -8925,13 +8925,301 @@ b) Both non-regular -> Maybe possible, may not be possible.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f869c73-59ae-442a-a92d-c7b3b0566fca)
 
 * Type-3 grammer.
+* Type-2 -> Context Free Grammer(CFG) -> It generates **Context Free Languages(CFL)**.
+* **Context Free Languages(CFL)** means **Context Free Grammer(CFG)** should be there.
 
+* Type-1 -> Context Sensitive Grammer(CSG) -> It generates **Context Sensitive Languages(CSL)**.
+* **Context Sensitive Languages(CSL)** means **Context Sensitive Grammer(CSG)** should be there.
 
+* Type-0 -> Unrestricted Grammer(URG) -> It generates **Recursive Ennumerable Languages(REL)**.
+* **Recursive Ennumerable Languages(REL)** means **Unrestricted Grammer(URG)** should be there.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd26b43a-177b-4d28-a315-986f577a35dc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/188f3271-1cff-4847-92c0-c69ef9f7d174)
 
+* **One grammer** will generate **one language**
+* **One language** contains **multiple grammers**.
 
+* **Type-0** has very less conditions.
+* **Type-0** another name is **unrestricted grammer**.
+* grammer normally means **productions**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1147c6ef-ccfb-44aa-b609-ff792baee24b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/daba2a7b-2344-4334-adeb-79b1182fd14a)
 
+* Keep anything on the **right hand side** of the **production**.
+* **right hand side** of the **production** we can keep **variables only, terminals only, variables-terminals combination, epsilon**.
+* On the **left hand side** as well keep **anything** but jut don't keep **Epsilon**.
+* **Left** generating **right one**.
+* **Plus(+) operator** -> Go inside atleast one time.
+* In **Type-0** grammer **no condition** at all.
+* If any grammer is **Type-3** then that grammer is **Type-0** also.
+* If we give any grammer then that grammer should be **Type-0**.
+* By default every grammer is **Type-0**.
+* So, don't do any research on **Type-0**.
+* In **Type-0**, **left is anything except 'Epsilon'** and **right is anything**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/379322be-1156-4d16-9061-eaaef6d2afc1)
+
+* Yes
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a4c08f72-fca8-4cdd-8c00-8d9fd981e628)
+
+* Type-0
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/592d917c-90c3-4d2d-bdc6-13ce1b0e94d2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4bcc6e27-b57c-43fc-8886-f0420c84430d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/884ece30-f49e-4c7e-9352-7f9e8c8bf333)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/808cdb8f-bcd0-4121-a963-e36a0338a19d)
+
+* Type-1
+* Here, on both the sides(Left and right), **Epsilon** is not allowed.
+*  **Epsilon** is not allowed on both the sides.
+*  **Left** is **alpha** and **right** is **Beta**.
+*  **Size of 'alpha'** is **less than equal to** the **size of 'beta'**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/51696c91-6bed-43da-8aac-b2efe94462a7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16515b69-4960-4c4a-b0e5-1120bca6d707)
+
+*  **Alpha** deriving **beta**.
+*  **Derived** should be **bigger**.
+*  **Beta** is the **final product**.
+*  **final product** should be **bigger**.
+*  **Beta** should be **bigger**.
+*  **Equal** also no problem but it(Beta) should not be **smaller**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8612cc3-eb0c-4bee-8729-34c9b5d21ced)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50e8238b-8f80-4a4a-bbaf-11c88db0f3a5)
+
+* Type-2
+* In the **Type-2** grammer on the **left hand side** only **single variable** is allowed.
+* Normally we will use **CFG** only.
+* At a time, **very big condition** is kept.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3257f104-af33-434d-9baa-63a501371752)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2180fc19-627f-4bbc-9906-814c8e043dfa)
+
+* On the **right hand side** mostly there is **no condition**. Except **Epsilon** there is **no condition**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb07c113-5a5e-42c7-b8c7-733d096fa0fc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2d9e80be-5871-4c2c-a5b1-177b25cd10ab)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6bcfec8d-6e14-4b0a-83b3-f3c15958caec)
+
+* **Type-3** is subset to **Type-2**.
+* Conditions are **more** on **Type-3**.
+* In the case of **Type-3**, What is allowed on the **right side**?
+
+> Two models are allowed.
+
+* Single Variable(V) followed by **set of terminal/terminals** which is **(V * (T ^ * ))** or only **terminals(T)** which is **(T ^ * )**.
+* **Set of terminal/terminals** followed by Variable(V) which is **(T ^ * )) * V** or only **terminals(T)** which is **(T ^ * )**.
+* In the first model **V** is on the **left side** and on the second model, the **V** is on the **right side**.
+* **RLG** -> Right Linear Grammer.
+* **LLG** -> Left Linear Grammer.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/77aaacb2-6132-457f-865c-d5e158da31b9)
+
+* In the given grammer, **every production** is either **Left Linear** or **Right Linear**.
+* **Every production** should satisfy either **Left Linear** or **Right Linear**.
+* In a grammer, few are **Left Linear** and few are **Right Linear**. Not allowed. Mixed is not allowed.
+* Every **Left Linear** or **right linear**.
+* Then that grammer is called as **Regular grammer**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc4cb3d9-cab8-4b79-89c7-18b73c170bf2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/825b66dc-5ee9-4661-84fe-b5a42d0e0269)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c3762cb1-23c7-4a5d-bcb9-0595768cc161)
+
+* Example.
+* Which type of grammer is this?
+
+> Arrow symbol, go left side.
+
+* Everywhere single variable? **NO**.
+* If on the **left side**, everywhere **single variable** then the answer is either **Type 2 or Type 3**.
+* Here, more than **single variable** is there. So the condition is **False** here.
+* On the **left side**, we have **multiple variable** then the **answer** we have is either **Type 0 or Type 1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f3834992-9d00-4a83-87e7-e3752e5ff8ed)
+
+* By default it is **Type-0**.
+* We have to **verify**, if it is **Type-1** or not.
+* Condition in **Type-1**, **Size of alpha** is **less than equal to** the size of **beta**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37927193-d025-49b2-a85c-6a41e400f43f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b25d53d7-f563-4eae-8297-18ed31989a13)
+
+* Condition of **Type-1** failed.
+* So, it is **Type-0**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8957d9e5-b2ae-4ba4-8ce3-193519068ffa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea756bc1-e710-4913-b74b-6d5f000d1425)
+
+* Example
+* We want to find the **type** of grammer.
+* **Find Type** means we have to give **highest type number**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98db9bf3-d50e-434a-8af1-315de4c1b68d)
+
+* **STEPS**:-
+
+1) Frist go to the **left side** of the arrow.
+2) Check if they all are **single or multiple variables**?
+
+* If **single variable** then they are either **Type-2 or Type-3**.
+* If **multiple variables** then they are either **Type-0 or Type-1**.
+
+3) If it is  **multiple variables**, then it is by default **Type-1**. Check the **condition** for **Type-1**.
+
+* Size of **alpha** is **less than equal to** the size of **beta**.
+* From this we can say if it is **Type-1** or not.
+
+4) If it is **single variable**,  then it is by default **Type-2**. Check the **condition** for **Type-3**.
+
+* **Condition** for **Type-3**:-
+* Left is **single variable** but on the **right side** it is **variable** followed by set of **terminals** or **only terminals**.
+* In **Type-3** grammer, on the  **right side** multiple variables are **not allowed**. Single variable only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/29dd8d88-1716-4033-831d-b6a5ef85fe7a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2308158-2360-419a-8440-d18c35776798)
+
+* So, **Type-3** failed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c176239-a2c6-49f9-a43c-a55494cc7b67)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b1b5afa-d3d9-4a2b-9aa0-d236de84580c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4cac30fe-f0f7-4159-8240-fbbaa3804566)
+
+* [**IMPORTANT**]
+* We have to give **highest type number**.
+* By default it is **Type-2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b4a2d57d-3ea4-41b8-b3ba-7b77212ae4dc)
+
+* Type-3 condition is satisfied as it is satisfying the condition of **Left Linear Grammer(LLG)**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/93c453f1-b877-470f-8029-2ce27d684cb8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ecf13adf-5a5e-4459-93e9-104baa64fd23)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/339fee95-0167-48ee-9ccf-0d33994f7da0)
+
+* Satisfying **half LLG and half RLG**. It is not allowed.
+* Wrong.
+* It is not **Type-3**.
+* It is **Type-2**.
+* [**IMPORTANT**]
+* Everyone should be either **left linear** or everyone should be **right linear**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f970b555-af6e-40eb-a0e0-d238f97bf3ed)
+
+* So, **Type-3** is satisfied.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f373b385-b984-4936-a7db-e0fe54ed126a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d145244-f4fc-46f6-b0ce-5af9ca556316)
+
+* Type-3 satisfied means **Type-2** also satisfied.
+* **Type-2** is superset and **Type-3** is subset.
+* When **subset** is satisfied then **superset** is also satisfied.
+* **Type-2** satisfied means **Type-1** is satisfied.
+* **Type-1** is satisfied means taht **Type-0** is satisfied.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5130e8ee-12df-4f9b-bce9-841236e14f58)
+
+* We have to give **highest type number**.
+* Type-3 satisfied means before all satisfied.
+* We are giving **subset** means that **before all** are satisfied.
+* Superset means we cannot subset.
+* Subset means we can say Superset.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/de768592-bac6-43b4-b39c-4c51de1a2180)
+
+* Type-3 means Type-0 also. Exactly. **YES**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b0fa2f1-b547-4be4-96bf-fca405eecb6f)
+
+* Exactly.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ea459fa-b263-4c81-b643-bc633495d044)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/00864929-a055-493a-bffe-afab1b46f746)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83fa2fab-f935-4d6e-b01f-07951f7c15e4)
+
+* Type-3 failed
+* It is **Type-2**.
+* **Type-2** means **Type-0 and Type-1** also.
+*  Condition of **Type-1** is that both the side **Epsilon** is not allowed.
+*  We have **Epsilon** on the **right side** so, **Type-1** is not **satisfied** here.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e9cd4c2-e428-40f1-a093-c152e80fcccb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e463d0c1-8da5-49f4-adec-69409731b556)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58b76364-7a10-4b52-8655-022d2b752e52)
+
+* It is in violation of the **subset** property.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa5e8043-5a3e-4f05-9e3f-736086615787)
+
+* The **subset** property is **True** for **Epsilon-free** grammers. [**IMPORTANT**]
+* If **Epsilon** there then the **property** may **fail**.
+* Except **null production or Epsilon** it is fine.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f790a418-a2c9-42d0-a6a1-25fd9982f4bb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3dbab0c6-30b5-4828-b7a7-853a451c4780)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/18f20958-9f65-4a49-844d-cbbe513d0224)
+
+* Remove **Epsilon** and then try.
+* **Epsilon-Free** then only **subset** property.
+* **subset** property don't hold good because **null productions** are there.
+* Except **null productions** then only **subset** property. [**IMPORTANT**]
+
+## Context Free Grammer(CFG)
+
+* It is **Type-2**.
+* **Left side** is **single variable** and on the **right side** anything.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c63622a9-ed94-47f9-9eef-04f4ba7e2303)
+
+* No relation between **a's and b's**.
+* Only thing is that **a's should come first** then afterwards **b's** should come. Other than that there is **no relation**.
+* Minimal string -> ab.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9a89e136-65db-4291-a94e-cd4461738b24)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/18bd2be5-c054-43a4-8000-35e2ba0e55cd)
+
+* The grammer will generate **any no. of a's**. **min. of 1-a**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3b639b7f-3ef8-4f46-be75-cb32a5abb5df)
+
+* Any no. of a's are coming and any no. of b's are coming.
+* According to the **above** language, **a's** should come **first**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2de08957-548d-4c31-8926-d1a8fdc59ec7)
+
+* Now, a's followed by b's will come.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/174f3cef-87e7-404c-8cf6-91ca662b4d94)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/04ab227a-66be-4eb0-9f77-6827a566ef83)
+
+* Left side is **single variable** and **right side** we don't care.
+* Our goal is **Context Free Grammer(CFG)** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f813438-d49e-49df-97af-f92dc7502cc8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd4abaae-ae60-42aa-bd90-7d45f90e63b1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7038a75-d432-4b23-8afb-3317aece97b0)
+
+* [**IMPORTANT**]
+* For any language, **CFG** possible then that language is **Context Free Language(CFL)** is also possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6221bad8-4005-4264-9b8a-6de23cd49bc5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34d3f9b2-183d-402b-ae93-de11ad0fb9ae)
+
+* Our target is **CFL and CFG** only.
+* We are not talking about **regular language or regular grammer** here.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32544fcc-bc60-4bda-b75d-9afe010abeb4)
+
+* We are not interested in that here.
+* Our target is **CFL and CFG** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d55ff99c-5fb0-4275-8ef2-c8f61d1257eb)
+
+* Our goal is for **given language** write **CFG**.
 
 
 
