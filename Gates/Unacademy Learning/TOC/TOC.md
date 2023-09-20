@@ -9221,6 +9221,10 @@ b) Both non-regular -> Maybe possible, may not be possible.
 
 * Our goal is for **given language** write **CFG**.
 
+## turing-machine-i(34) [20th Sept 2023]
+
+
+
 
 
 
