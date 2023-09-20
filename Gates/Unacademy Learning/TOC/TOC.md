@@ -9589,6 +9589,56 @@ b) Both non-regular -> Maybe possible, may not be possible.
 * If **two options** match then for every variable, write the **language**.
 * When **relation** is there, don't **divide**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/accfcc7b-0fcc-4fd5-a2fe-cc38ab49b3e6)
+
+* [**IMPORTANT**]
+
+* Given CFG, L = {Set of all valid balanced parenthesis}
+* Opening coming means closed should come.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5731e78b-2a58-4b33-821c-306641c41894)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/caa058f6-51fb-44b8-9946-22526a84d5ee)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a1cf0e4-a9e3-4084-a515-e510437aa86e)
+
+* In every valid program, **open brackets** will come first.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bca2fb1d-fd07-4657-a0f5-009c55109e70)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32564438-0483-471c-85a5-8d24e5c466c7)
+
+* [**IMPORTANT**]
+* Give CFG, L = {Set of all string of a's and b's where number of a's and b's are equal}
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff863901-fed4-42c0-933c-b5db631b5442)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a910b1f-f715-428d-afb5-51247e4bd16e)
+
+* Possible Combinations.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/375bfe0a-bed2-4eb0-96ef-ed3dae138752)
+
+* Order doesn't matter
+* No. of a's and no. of b's matter.
+* There is **relation**.
+* **a and b** should come at a time.
+* If we write only **a's** coming then gone and if we write about only **b's** coming then they are gone.
+* **a** came means b-should also come.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5da3d59a-a826-4dfa-8c25-94960ee27516)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/06691b45-f70c-4e42-872b-bb0f0a442ec6)
+
+* [**IMPORTANT**]
+* Start from 1hr 28mins.
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
