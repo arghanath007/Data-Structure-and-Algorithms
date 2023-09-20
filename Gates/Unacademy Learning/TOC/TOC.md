@@ -8900,7 +8900,7 @@ b) Both non-regular -> Maybe possible, may not be possible.
 
 * Regular Expression(RE)
 * Every **regular grammer** will generate **regular language**.
-* **regular language** means **finite automata(FA)** is also possible.
+* **Regular language** means **finite automata(FA)** is also possible.
 
 * Depending on **grammer**, it will generate **one string** or **many strings**.
 * **One grammer** will generate **one language**.
@@ -8909,7 +8909,7 @@ b) Both non-regular -> Maybe possible, may not be possible.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92d847b4-5e24-42e5-ad35-fcadf3ce3a49)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df9bf45d-8f63-43a3-a22a-ef47afe227ab)
 
-
+* **One grammer** will generate **one language**.
 
 
 
