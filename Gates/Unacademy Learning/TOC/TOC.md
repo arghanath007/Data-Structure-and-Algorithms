@@ -8910,12 +8910,21 @@ b) Both non-regular -> Maybe possible, may not be possible.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df9bf45d-8f63-43a3-a22a-ef47afe227ab)
 
 * **One grammer** will generate **one language**.
+* **One grammer** cannot generate **miltiple languages**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30f729ca-bd9a-4707-b33d-6215ac91113a)
 
+* The grammer generated one language which is **a ^ +**.
+* **One grammer** will generate **one language** but **One language** having **multiple grammers**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/51d2cfbb-91e3-4321-a2d1-59639f02a6dd)
 
+* This will also generate **a ^ +**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc647a1e-d91f-45c3-9336-6b59979c80b4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f869c73-59ae-442a-a92d-c7b3b0566fca)
 
+* Type-3 grammer.
 
 
 
