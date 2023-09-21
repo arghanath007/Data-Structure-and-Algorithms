@@ -9693,22 +9693,68 @@ b) Both non-regular -> Maybe possible, may not be possible.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32bf98b4-f8c0-4bac-bc8b-125d70e168fe)
 
+## turing-machine-ii(36) [21st Sept 2023]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/392082cb-a752-4311-b139-5112476baef1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/acf15518-3022-42c4-9760-a8edb82bd7b0)
 
+* w = ab
+* ww = abab
+* (ww)' = Everything else except **ww(abab)**.
+* We have to take care about **ww** pattern things.
+* We don't want to see in the language, the behaviour of **ww**. Other than that everything should come.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd0560e6-3e5b-4dc4-afd6-0985d238a026)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e575b4f-ab56-46b0-99b3-672e5923a4d7)
 
+* Our language contains the strings that are **not in 'ww'** form.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85b65aea-302e-496c-b45a-ab06de6fc37a)
 
+* **Epsilon** can be written in **ww** form.
+* So **Epsilon** cannot be in our language.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f71a9f9c-1ec7-485e-a34f-dc87112ff4e8)
 
+* **Odd length** strings are satisfying our language, as they are not in **ww** format.
+* **Odd length** cannot be in **ww** format.
+* **Odd lengths** cannot be divided into two **parts**.
+* Our language contains **all odd lengths**.
+* **Even length** people **maybe part of our language**, we have to **check**.
+* **Odd lengths** we don't have to check also as we cannot make **two parts**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bbb408fa-b0cb-4541-8734-a57ae3c7bac2)
 
+* **Odd lengths** directly say **YES** and **even lengths** first verify.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/48551d30-caa5-4034-973b-d4e7a322013d)
 
+* Minimal string for our language -> a|b, a or b.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e575e844-a862-4e54-9037-746be11c088d)
 
+* **A** will generate **odd length**.
+* Every **odd length** string can be written as **((2 * x) + 1)**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cad06bb1-23c8-4e05-b871-47bf744f253d)
 
+* That **+1** is the **middle 'a'**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/62858125-9582-4b1b-8b75-d0e89eb15363)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/79a38793-0338-423f-90df-86d618b97573)
+
+* Middle person is **a**.
+* Middle is fixed
+* **B** will generate all **odd length** strings where **middle** is **b**.
+* **A** will generate all **odd length** strings where **middle** is **a**.
+* If we **add 'a' and 'b'** then all **odd lengths** will be covered.     
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8329e97-0beb-4007-8eb4-55cffb08ac92)
+
+* **C** will generate all **odd length** strings.
+* Middle person can be **anything**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/832f4177-ac42-43f6-a16a-77f631ac51e7)
 
 
 
