@@ -10053,6 +10053,65 @@ b) Both non-regular -> Maybe possible, may not be possible.
 
 * [**IMPORTANT**]
 
+## turing-machine-iii (37) [21st Sept 2023]
+
+* LHSP -> Left Hand Side Production.
+* CFG -> **Single variable(SV)** on the Left Hand Side of Production
+* Right is **anything**
+* For every **CFL** there is a **CFG**.
+* For every **CFL** there is a **PDA**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d8bb70a-c3b3-44d7-90c0-7948ba9083c5)
+
+* If anything is **CFG** then it is **CSG** also.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/370d081a-16e2-492b-9af2-da1df68adcc3)
+
+* Every **regular** is **CFL**.
+* Every **CFL** is **CSL**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e810e02a-e90f-452f-9a95-ef6f49589e55)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c39d49fb-665f-4f69-87f9-d8abc94c81b3)
+
+* C-CGF -> Conplicated-CFG
+* any **Conplicated-CFG** is given. What is the language(L) it is generating?
+
+> Check minimal strings(first, second and third). Check in the **options** which are matching. **options** contain **languages**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72436ed6-e2fe-4636-bb65-a412c124be9a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e1959dd-9363-4f3c-82f1-292004cd34f8)
+
+* MSQ.
+* Sometimes **one option** is **correct** also there in **MSQ**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f571977-2399-4ae0-af57-befb68fcbff7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/60597bd6-d6e5-4bd2-874a-a7df0c397882)
+
+* Any combination they can ask.
+
+## PDA construction
+
+* PDA -> FA + 1-stack.
+* **FA + 1-stack** where the **stack** can accomodate only **100 symbols** which is nothing but **finite automata(FA)**.
+* There is no use for the **stack**.
+* **Finite things** can be remembered by **finite automata(FA)** not only **stack**.
+* The **stack** can remember **infinite things**.
+* With the help of **finite automata(FA)**, we can anyhow remember the **Finite things**.
+* In the **PDA**, the stack can accomodate only **1-lakh symbols** then what is the language of the **PDA**?
+
+> **Regular language**. It can only do **finite things**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2fdeb92c-a7f2-4218-b44d-e4a3439b7707)
+
+* **LBA** stacks is **infinite** only but the only problem is that it is with respect to the **input size**.
+
+
+
+
+
+
+
+
 
 
 
