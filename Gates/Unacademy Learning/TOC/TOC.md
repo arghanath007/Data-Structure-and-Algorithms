@@ -9624,9 +9624,83 @@ b) Both non-regular -> Maybe possible, may not be possible.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5da3d59a-a826-4dfa-8c25-94960ee27516)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/06691b45-f70c-4e42-872b-bb0f0a442ec6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b36f919-bb21-4ee6-9b81-edc3e88d6d44)
 
 * [**IMPORTANT**]
-* Start from 1hr 28mins.
+* na -> No. of a's in the string 'w'.
+* nb -> No. of b's in the string 'w'.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf37ef4d-18cc-491a-83f0-61cac00b78c2)
+
+* It will accept all the string of 'w'.
+* 'w' -> It is a combination of a's and b's.
+* If there are **2-b's** then we have **2 * 2 -> 4-a's** in the string 'w'. 
+* If there are **7-b's** then we have **2 * 7 -> 14-a's** in the string 'w'.
+* If we write **((a + b) ^ * )** then **Epsilon** is allowed.
+* **Epsilon** means we have **zero(0) b's** so, **2 * 0 -> 0-a's** we will have.
+* 0-b's means 0-a's, so **Epsilon** is allowed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4054304f-b8cc-4bb3-a139-3fa13f78d4b1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/108722bb-e390-439b-ba10-db07390c1247)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9a914f5-7586-4e9f-a88b-39d49c5600b5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d2afc91-0762-4b63-99b5-fc7d8be0a42c)
+
+* Instead of **Star(*)**, we have **plus(+)**.
+* Inplace of **Epsilon** write **aab|baa|aba**.
+* Minimal String-> aab,baa,aba.
+* That's why that's the **termination condition**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea6573ef-adab-414a-923a-9adefe67f02a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc96a534-eeb3-429c-a2a7-61c1797a6f97)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b3be599-7ec1-4c86-86de-58a3c083d625)
+
+* Very difficult to write **manually**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1004229c-3dd3-47b8-9c6a-f6c77d630538)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/811687c2-be77-4adf-8660-3e2a5edb5e2b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b26fb07-2b1b-4142-b90c-aa3587d8afaa)
+
+* Yes.
+* Need to remember the **logics**.
+* [**IMPORTANT**]
+* Give CFG, L = {Set of all Arithmetic Expressions(AE) over the operands = {a, b, c} and operators = {+,-*,/}
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7106067a-4b77-4c49-a848-297accefc12d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/175a67fb-7cf2-4284-b943-4113100a4e34)
+
+* In the grammer terminology, **operands and operators** all are **terminals(T)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba099659-39b9-4b7c-9f2b-383f7f614986)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/010d99cf-0d63-407f-ae3d-2c85ae22e37f)
+
+* In **a + b * c**, the **star(*)** is done first.
+* But we want **plus first** so **brackets** are required, which is **(a + b) * c**.
+* If we want to make anyone **highest priority** then **brackets** are required.
+* Keep **bracket** also.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/856af5d9-83de-43bd-bd06-da763aa177b2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf3b23f4-7cbd-45d2-9fac-5abec80746fa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/014fdac7-722b-4685-9ec1-81ecbb5a03be)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c982e402-198b-4fc5-a333-8541e48cf654)
+
+* **Bracket** is an **operator**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e211416-ba6d-461d-a890-158444ce21f8)
+
+* It is a **CFG** to generate all **Arithmetic Expressions** over the given **operators and operands**.
+* Variable -> E
+* Terminals -> Other than 'E', others are **terminals**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32bf98b4-f8c0-4bac-bc8b-125d70e168fe)
+
+
+
+
+
+
+
+
+
 
 
 
