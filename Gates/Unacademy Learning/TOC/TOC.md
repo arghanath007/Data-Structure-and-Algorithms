@@ -10359,7 +10359,158 @@ b) Both non-regular -> Maybe possible, may not be possible.
 * No **final state** but still the string is accepted.
 * In the stack, no symbols are left out including **Z0**.
 * At the end of the story if we can make **stack** completely empty including **Z0** also not there then we can say that the **string is accepted** by **empty stack**.
-* 
+
+* In **PDA** string is accepted in **two ways**:-
+
+1) **Empty stack** -> This is **PDA** acceptance by **final state**. At the end we are in **final state** or not.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/25ca4f72-8534-4cc9-a93a-59170423a6fb)
+
+2) Final State.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7fb2aee2-8c45-4b02-9511-b961b412a6b9)
+
+* **Final State** possible means **Empty stack** is also possible.
+* **Empty stack** possible means ** Final State** is also possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/addc83b7-423c-4e83-bbef-00ad5eb2ff35)
+
+* PDA acceptance.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37d7e213-bb59-4e25-864a-c4e17429d595)
+
+* Minimal string accepted is **ab**.
+* Take care about all **valids** are accepted. **Invalid** cannot be accepted.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b5346c4-e8b3-4f4a-842f-7a420e42ed90)
+
+* Two ways are there.
+* [**IMPORTANT**]
+* First decide which way we want to **construct** and then accordingly decide what to do next.
+* When we are constructing **final state** don't worry about **empty stack**.
+* One is possible means other one is also possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b1ff82b4-7daa-41fc-8447-8b24aba3d7ab)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/310afc10-4bec-4d3a-97a0-7d25afe5e9fc)
+
+* So many **a's** we want to push.
+* On **S2**, **b** is coming and on top of the stack it is **a** and **pop 'a'**. We are going to **S3**.
+* For **every 'b'**, pop **1-a**.
+* So many **b's** are coming.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae4a2bf0-2423-4d4a-8a6a-c428c8eed520)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d599fe3e-68dd-4c73-afa7-17aee64e0fec)
+
+* **Epsilon** is coming as **b's** are over, still **a's** are there.
+* **a's** are more.
+* **m** is more/greater as **a's** are more.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d7f4f6eb-1aa9-4dc4-a124-5dd37490e03b)
+
+* m > n
+* [**IMPORTANT**]
+* Still **b's** are coming and at the top of the stack it is **Z0** then **a's** are over and **b's** are coming.
+* **b's** are more.
+* **m** is less as **b's** are more. So, **n** is more/greater.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a620a8ca-dab5-4559-a9f6-2c3bb5879d33)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33380b22-ea39-42ac-a341-83702986d861)
+
+* m < n.
+* [**IMPORTANT**]
+* It is accepting for **final state**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/77778f2b-4275-48cd-913e-ec04ae2dd847)
+
+* Two problems.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c5a916a1-f29d-4155-8a6c-a27dfb519ad7)
+
+* May not be.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2201feaf-90b0-4efd-9700-e48f0936691a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6bfeec77-f157-4beb-afbb-c2ea40c072cc)
+
+* **Epsilon** is coming still and at the top of the stack it is **Z0**, pop **Z0** as well. Why going to another state. We want empty stack.
+
+* **b's** are over and still **a's** are coming.
+* **b's** are over and top of the stack is **Z0**. Remove **Z0** also.
+* At the end of the story, **stack** is empty.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d5bdf595-ed4c-499f-90f1-0f0f891f68b4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c2e5920-429a-43a7-94f8-b1a59393b812)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac9cba34-814f-4f31-ae85-0983f4547eff)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bfb11ab7-eab1-4360-ac25-2e354202ac4a)
+
+* We are able to cover everything in the **stack**.
+* Our goal is **a's more**.
+* Don't worry that much about **states**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b0030ac-0413-4cbb-8f8e-956ada2fd9a0)
+
+* **(a ^ m) * (b * n)** is accepting.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c3aa3ba-4b19-44b5-8cfe-311d89498f86)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b22c636-d486-47cd-a137-24b49b3ab76c)
+
+* Example
+* Minimal string -> Epsilon
+* We are trying to do with the **PDA acceptance** of **final state**.
+* First **a** is pushed and afterwards any no. of a's are pushed.
+* In **S2**, **b** came and **a** is in the top of the stack**, so for **every 'b'** pop **1-a**.
+* Any no. of **b's** also pop.
+* **S4** is **final state**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3b3a5c92-4b8f-4e1c-9388-12812a964832)
+
+* It will cover **(a ^ n) * (b ^ n)** where **n >= 1**.
+* **Epsilon** is missing.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b95e519-6a0a-43f6-910b-b3a20e1cd3e2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e6be1e83-9e63-43e2-943b-dfe09c8aba50)
+
+* Starting itself **Epsilon** coming and at the top of the stack we have **Z0**.
+* Some marker needed.
+* At the end of the string, we are in **final state**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f66c997-4b09-4779-8c33-f9c73f7295bb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bdf7b4ba-2fd6-4ded-a3d2-9003fc32cad8)
+
+* Either **'a' more or 'b' more**, we are stuck at **S3** state.
+* **PDA** construction is **not unique**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b735417-df93-4fd4-b90d-4a61b51ac4b2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/163d01ca-3ede-44a2-a71b-32b0a806f1ea)
+
+* Everything should be **accepted**.
+* We don't want to remember anyone in the **stack**.
+* We can solving the **above problem** without **stack** only.
+* In the stack, we are not doing anything.
+* Everytime **skip** means we are not using stack.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ef4b870-1193-42fe-aad4-0719252fd40a)
+
+* [**IMPORTANT**]
+* na(w) -> No. of a's in the string **w**.
+* nb(w) -> No. of b's in the string **w**.
+* Out of all the strings, we are accepting those string which have **a's and b's** as **equal**.
+* Order is not important here, **a's and b's** only required.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e12c7a83-48b6-4e89-843e-80bf54bad5a6)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ac4166e-554f-42e2-aa89-082cc094baab)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc5872df-055b-4dbb-84ad-7c76dcf2638a)
+
+* [**IMPORTANT**]
+
+
+
+
+
+
 
 
 
