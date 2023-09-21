@@ -10247,14 +10247,119 @@ b) Both non-regular -> Maybe possible, may not be possible.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85a30ea0-966a-46c1-b5e2-11753d8495d0)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9933f9b6-73d8-4da9-bc89-eeec4fad50b9)
 
+## doubt-clearing-session(38) [22nd Sept 2023]
 
+* Transition Function for **PDA**.
+* Any state within the **Q** and applying anyone of the input symbols that are present in **Sigma** and by seing anyone of the symbols which are in **top of the stack(K)** then we are going to anyone of the states that are in **Q**. In the stack we are doing some operation. One of the symbols that are on **top of the stack(K)**, we may keep **more than 1-symbol**, we may remove the existing **symbol**, we may keep the existing **symbol**. It is like **(K ^ *)**. One of the combinations will happen. 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fff9a7d8-d939-4825-b0e0-f982ec6e7f5c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/399a3f96-2f5f-4f4c-838d-4604c633feb3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05f062db-c317-4e22-9b6c-2bd46a980689)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b35cd3d-c031-46f2-aed2-24345b36d1ac)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a48964c5-299e-4dbe-b152-5b05fa5ccc99)
 
+* [**IMPORTANT**]
 
+* When we know **string** is over. **Dollar($)** is coming which means **string** is over.
+* The person who is doing **pop** he is doing **push** as well.
+* When we see **Dollar($)**, **b's** are over.
+* Stck is celebrating **a's** are over.
+* For **every b's**, **a's** is cancelled.
+* So, **no. of a's** is **equal to** the **no. of b's**.
 
- 
+ ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/96994d81-63f0-4cbd-ae04-fac065654962)
 
+* **1-a** and **1-b** are popped or 
+* For **every b's**, **1-a** is popped.
+* **b's and a's** are over means that **no. of a's** is **equal to** the **no. of b's**.
+* Next symbol is **Dollar($)** is coming and the top of the stack is **Z0**. It inducates that **successful completion**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ad0ad350-3ce5-4bac-91c2-d656d1ae97bd)
+
+* If **Dollar($)** is not there then **Epsilon** is the **marker**.
+* Some **end marker** required.
+* By default marker is **Dollar($)**.
+* **Input bugger** -> Place where people can give input.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d2d755bc-a02f-406f-82dc-a611f73a81e8)
+
+* Initial marker, i = 1.
+* **PDA** also having **stack**.
+* Stack is initially **Z0**.
+* **PDA** uses **FA** also.
+* Initial **automata** is at **S1** state.
+* For **S1** state, **a** is coming and the top of the stack is **Z0**. By seeing **a** we will go to **S2** ok. In the **stack**, what we want to do?
+* Whatever is the **input**, we are keeping it with **Z0**.
+* The **top of the stack** is **a**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ad3eee4-69a0-4c45-a538-cbb941569df4)
+
+* On **S1** state, **a** is coming. Top of the stack is **zero(0)**.
+* We will go to **S2** state and on **ZO** we will keep **a**.
+* **S2** state means **1-state** is over.
+* In **S2** state, we can push any no. of a's.
+* **S2** state indicates that atleast **1-a** is pushed.
+* Loop may come or may not come.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a0e71ca-6e37-4ead-8648-7238893ca2c2)
+
+* We don't want to accept **Epsilon**.
+* On **S2** state **b** is coming, next symbol expected is **b** and symbol **a** is at the top of the stack.
+* Previously, top of the stack was **a** and now it is **Epsilon**.
+* Came to **S3** states means that we have seen atleas **1-b**.
+* For the **b**, we have popped **1-a** also.
+* We are in **S3**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5762416c-7445-4834-86dd-e99ec29c435f)
+
+* We want to **pop** every **a**.
+* On **S2** state **pop** is going on that is **first pop**.
+* On **S3** state **pop** is going on that is **remaining pop**.
+* In **PDA**, we never see **min. no. of states**, how many.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5c982ca9-d3ad-45a6-b21a-d835b90daea1)
+
+* For **every 'b', 'a' is popped**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2fabda08-89dc-4085-a501-ea1a896dc691)
+
+* **S3** means for **every b's** there is an **a** pop.
+* At the end of the diagram we are at **S4** state.
+* **S4** state is also **final state**.
+* At the end of the string we are in **final state** then it(string) is **accepted**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/452ad50b-43f3-42b8-83f0-48e6376dc237)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/defca0d7-b4a5-451b-976d-6ec201a4a9b8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/618de884-608b-47e9-8406-b6e6193a7776)
+
+* That is the reason it is **(a ^ n) * (b ^ n)**.
+* There is **relation** between **(a ^ n) and (b ^ n)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/38fbba72-c00d-4b96-ba2b-eb5a644c1866)
+
+* Which state we are in, which input symbol we are getting, what is on top of the stack.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/683c1276-1c5f-4c62-a0e4-e23f5a457bf4)
+
+* For taking decision, these things are required.
+* **PDA** construction is **not unique**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b5c21a9-83f4-4311-b582-88aa9a2d3903)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1228017-bf4f-40bf-a128-a88746613aa9)
+
+* On **S2**, **b** is coming and **a** is at the top of the stack.
+* For **every 'b'** pop.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/90499d5e-4b35-4bea-a31b-a489cc4dd89b)
+
+* **Epsilon** means **b's** over.
+* **a's** is also over, so the top of the stack is **Z0**.
+* We will remove the **Z0** also and go to **S4**.
+* We haven't kept any **final state** in this.
+* No **final state** but still the string is accepted.
+* In the stack, no symbols are left out including **Z0**.
+* At the end of the story if we can make **stack** completely empty including **Z0** also not there then we can say that the **string is accepted** by **empty stack**.
+* 
 
 
 
