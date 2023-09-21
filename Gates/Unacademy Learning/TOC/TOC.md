@@ -9755,26 +9755,92 @@ b) Both non-regular -> Maybe possible, may not be possible.
 * Middle person can be **anything**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/832f4177-ac42-43f6-a16a-77f631ac51e7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/542da8eb-4898-4b6c-9467-c0332446c821)
 
+* It is actually **(2 ^ 4)** because the **middle 'a'** is fixed.
+* Every **odd length** string can be written as **((2 * x) + 1)**.
+* **((2 * x) + 1) + ((2 * x) + 1) -> 4x + 2 -> Even**
+* Even(E) + Even(E) -> Even(E)
+* Odd(O) + Odd(O) -> Even(E)
+* **+1 + 1 -> +2** becomes **even number**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4129fd90-3b85-4140-ad9d-333f958d9864)
 
+* Our language contains all **odd length**.
+* **odd length** cannot be **ww** form.
+* **C** will take care about **odd length**.
+* Our language contains **some even lengths** also.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81707f08-7f06-4177-b602-10a248819e2a)
 
+* **A and B** will generate **odd length**.
+* Odd(O) + Odd(O) becomes Even(E) but even though it is **even** they will not be in **ww** format because in **A**, the middle is **a** and in **B** the middle is **b**. This two cannot be **equal**.
+* The **middle** of both **A and B** are not **equal** so they are not in **ww** format.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/25a92ad0-3ff8-4f26-9fe2-cdc350fac9b8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee847220-8cc0-45b2-b86e-5de47a5ff8f7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8befc77-5ac1-4bb0-ba01-0461945282bb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5197129f-b3d6-4320-94c6-4e0ab88fe7b4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ee45b5e-68ab-4283-946e-c657f731a71d)
 
+* **AB and BA** are covering all **even length** strings that are not in **ww** format.
+* **C** is covering all **odd length** that cannot be in **ww** format.
+* B -> Odd length where mid is **b**.
+* A -> Odd length where mid is **a**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80aa07c1-c553-4a1e-94db-fd62762ddedb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b418395d-3133-487b-afe5-ff4f7be8f966)
 
+* **(ww)'** is **CFL** because **CFG** is possible but **ww** is not **CFL**. It is **CSL**.
+* Example of a language where the **L** if **CFL** and **L'** is not **CFL** -> **ww** question.
+* So, **CFL's** are not closed under **complementation**. 
+* **ww** is **even length**. Not all **even lengths** are coming, they are not in **ww** form.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c5c708c-b307-4fab-8069-9b5f30665eb9)
 
+* If it is in **ww** form, then we can **divide** it into **two parts** as **ww** are **even lengths**
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb388d5a-f033-4953-9f17-72a3f0f6d51e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1135031-10eb-4989-9cc2-2a75ee151284)
 
+* 2-stacks.
+* Check the people in the two divided strings.
+* We can't do the **comparision** with **only one stack**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32378352-c2e4-4504-9ce8-fa504b4325e6)
 
+* Stack contain **only 'top'**.
+* In the **ww**, we want to compare **two w's**. We want to compare the **first and the second w's.**
+* Keep the **first 'w'** in the **stack**. Second stack is in **input buffer**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ebe1560d-e7c3-47ca-940a-5dbdcfb2cebc)
 
+* We can't compare now as **first 'w'** in the **stack** and the second stack is in **input buffer**.
+* If we want to do **comparison** then both the **w's first symbol** is required but the **stack** is giving the **last symbol** and the **input buffer** is giving **first symbol**.
+* Indirectly, with **one-stack** we cannot do.
+* In place of **stack** if we take **queue** then it will **work out**.
+* Queue is **FIFO** property.
+* Queue is giving the **first symbol** which we want and the **input buffer** is giving **first symbol**. Now, we can do the **comparision**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7049ada2-ab41-421e-b3a7-1ba12627ee38)
 
+* PDA -> FA + 1-stack only
+* 1-stack only and not **queue**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd50db87-7a73-48ec-8379-42023df935d9)
+
+* PDA.
+* We can implement **queue** with **two stacks**.
+* **Queue** is nothing but **two stacks** we are taking.
+* **Queue** property can be implmented with **two stacks**.
+* We are taking **queue** means, **two stacks** we are taking.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/feb5f3bc-387b-4073-85a3-4f435dd04895)
+
+* **S1 ans S2** are **stack**.
+* Pop the symbols from **S1** and push them into **S2** and now the **two stacks** are acting/working like a **queue** which we want.
+* In **S1**, **C** was the **last symbol** and it was at the **top** of the stack(S1)**.
+* Also **a** is the **first symbol** and it is at the **top** of the stack(S2)**.
 
 
 
