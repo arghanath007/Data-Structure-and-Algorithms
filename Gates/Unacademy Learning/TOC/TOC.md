@@ -10103,13 +10103,70 @@ b) Both non-regular -> Maybe possible, may not be possible.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2fdeb92c-a7f2-4218-b44d-e4a3439b7707)
 
-* **LBA** stacks is **infinite** only but the only problem is that it is with respect to the **input size**.
+* **LBA** stacks is **infinite** only but the only problem is that it is with respect to the **input size**. It is **linear** to the **input size**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/96b12a82-6e79-41c1-97f1-d6ddef2a34c3)
 
+* 100 a's.
+* To the particular language **finite automata** is possible.
+* **PDA** is both **FA and stack**.
+* **PDA** is also possible.
+* To solve the above language, **FA** is **enough**.
+* **PDA** contain **FA + stack**.
+* If we want we can use **stack**. If we don't want to use, it is ok.
+* Given **two(FA + stack)** doesn't mean that we have **two**.
+* If we want we can use **both**.
+* If we want we can use **one**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31f69fd0-6109-4077-b768-b39ca4d265bc)
 
+* Language is accepted by **PDA**.
+* Language is accepted by **finite automata** itself.
+* **PDA** means **finite automata + 1-stack**.
+* We will use **finite automata** only.
+* It is **regular(RL)**.
+* **regular(RL)** means it is **CFL, CSL, REL**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dadc5014-a167-46ae-a064-fb634abb70c8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb2a2859-bbdb-40cc-8756-c8ff37d1054b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f8afbc9-b013-4b34-86c0-9155278d94b4)
 
+* It is an **infinite language** and **no condition** also.
+* **No condition** means **no comparision**.
+* As there is **no comparision** so with **finite automata** we can handle.
+* For the language **L2**, **finite automata** is possible.
+* In case of **PDA**, **finite automata + 1-stack**.
+* We don't want to do anything in the **stack** because whatever we wanted to do has been done by the **finite automata** only.
+* When will **stack** start?
+
+> When **comparisions** are starting then **stack** will start until that time **stack** is relaxing.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f1a7deee-1f2b-4c8f-ad62-fa9d4edd01be)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5437800e-3bfe-4b7c-a892-21bddbfcc279)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3cc0977-c7ae-45da-ae2f-8b6b2234ab47)
+
+* When **(a ^ n) * (b ^ n)** comes then **stack** will start working as **comparisions** are coming.
+* **PDA** can do whatever **FA** can do **plus(+)** extra also.
+* **FA** is called as **5-tuple** machine.
+* Because of **stack**, some **stack** related things will come.
+* **PDA** is nothing but **push, pop and skip** operations only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c5cfd262-9133-4f0b-9800-e328e5a2399d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d2941c68-9b23-4429-a8c9-c5bea50ca9d6)
+
+* We don't want comparisions.
+* So, **stack** not required, **FA** can do it.
+* So, **push, pop and skip** operations are not required here.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ee49c88-399a-4ad7-9dfd-d8feb1631585)
+
+* Suppose on **S1** stae 'a' as input and top of the stack is **Z0** then go to **S2** state and **push(x)** in stack.
+* Before **push** operation, the **automata** is at the **S1** state.
+* On **S1** state, **a** input symbol came.
+* Top of stack is **Z0**.
+* After **push** operation is over then the **automata** is at the **S2** state.
+* Previously at the top of stack is **Z0** and after **push** operation is over, the top of stack is **X**.
+* In **stack operation**, the **last symbol** is visible.
 
 
 
