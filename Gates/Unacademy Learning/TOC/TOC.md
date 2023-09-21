@@ -9842,94 +9842,216 @@ b) Both non-regular -> Maybe possible, may not be possible.
 * In **S1**, **C** was the **last symbol** and it was at the **top** of the stack(S1)**.
 * Also **a** is the **first symbol** and it is at the **top** of the stack(S2)**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/43c748db-809b-4970-a228-3bfb97051790)
 
+* CSL(Context Sensitive Language).
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f273c260-cbe7-4e08-bb00-9885c4cf67c7)
 
+* How many **symbols**?
 
+> Total is **2n** symbols. (a * n) * (b ^ n)
 
+* Turing machine contains **2-stacks**.
+* LBA contains **2-stacks**.
+* The size of the stacks we are taking in **LBA** is **limited** in the form of **input size**.
+* If the **input size** is **2n** then we have to take **LBA** where the stack size is limited to **input size** only.
+* LBA stack is restricted by **input size**. This is a **limitation**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3b818acd-8d64-4125-9ea2-c5ee44a5b785)
 
+* The size of the stacks we are taking in **tuning machine** is **unlimited**. We can take the **stack size** as **infinite size**.
+* No **limitation** in  **tuning machine**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0d07646-07f4-4e4b-9e27-53fee1788c62)
 
+* If the **input** is **n** and we are taking the **stack size** as **n** then it is **linear**.
+* If the **input** is **n** and we are taking the **stack size** as **n ^ 2** then it is **quadratic**.
+* If the **input** is **n** and we are taking the **stack size** as **n ^ 10** then it is **polynomial**.
+* If the **input** is **n** and we are taking the **stack size** as **2 ^ n** then it is **exponential**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a4f69b0-1087-4a62-bdc9-56f202905c4b)
 
+* **LBA** stack is also **infinite** and **tuning machine** stack is also **infinite**. Both are having a lot of space. But **LBA** stack space is **restricted by input size**. Based on the **input** it is restricted.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b28db52f-ef70-496e-afc1-cfd8b8805ace)
 
+* Either both there or both not there.
+* L and L' both are regular.
+* L and L' both are not regular.
+* One is regular and one is not regular, it is not possible.
+* L is **CFL** and L' is **not CFL**, it is possible.
+* That's why it is **not closed**.
+* L is **CFL** and L' is also**CFL**, it is possible atleast sometime.
+* **Closed** means everytime, it should be possible.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c6ea837-8757-4a64-b637-e61eaf21543f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f55da34a-7ea6-408b-8168-6aae35d4e426)
 
+* It is **palindrome**.
+* All the thing that are in **w and w ^ R**, they are **palindromes**.
+* Any string/thing we can write or is in the form of **w * (w^R)** then they are **palindrome**.
+* PDA contains **1-stack**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f917b903-1802-433d-ade3-93c9296e842f)
 
+* **w** is in the **stack**.
+* In **stack**, we can access the **last symbol**.
+* **w ^ R** is in the **input buffer**.
+* If the string is at all **palindrome** then **'w' last symbol** and **'w^R' first symbol** should be **same**.
+* It is **palindrome propert**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c36a1bb-a901-435e-8db2-01024df4f55a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c9a8da2-8502-48eb-86a9-6b911f092df9)
 
+* **Palindrome propert** checking.
+* We can verify if some string is **palindrome** using **1-stack**. **YES**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8373715-8e3c-4c8b-81ad-b2ac18edf390)
 
+* If **CFG** is there then **PDA** is also there.
+* We have done **CFG** till now.
+* Palindrome ->  w * (w ^ R)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff463d0a-95e2-4cf4-85f0-2cd5f743a95b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6e0fe611-e93b-4fb5-891e-4ae0d70c8355)
 
+* **(w * (w ^ R))**.
+* If the string is at all **palindrome** then **'w' last symbol** and **'w^R' first symbol** should be **same**.
+* **(w * (w ^ R))** -> Palindrome, CFG, CFL, PDA -> All there.
+* ww -> CFG not there, so **PDA** also not there.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/88c32025-58da-41a5-a41d-fd773c28e75a)
 
+* **(ww)'** -> CFL
+* **ww** -> Not CFL
+* **L** is **CFL**, **L'** maybe **CFL**.
+* **CFL** are not closed under **complementation, intersection**, remaining things are **closed**.
+* Regular means **CFL**.
+* **Every regular** is **CFL** but **every CFL** need not be **regular**.
+* **CFL** is **superset**, **regular** is **subset**.
+* If **smaller machine** is **satisfied** then the **bigger machine** is also **satisfied**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b391129-fb05-4d93-b89c-ff22e1ad481b)
 
+* Problem. [**IMPORTANT**] 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb5d8b25-bbd9-44b3-b39a-c21c0e748d5d)
 
+* Example
+* i=3, k=2
+* j = 3 + 2 =5.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f478c1da-aa00-4806-903d-d0e0f90f9d5b)
 
+* **b** having **two friends(a, c)**.
+* 'a' coming then 'b' also coming.
+* 5-a's then 5-b's there.
+* 15-a's then 15-b's there.
 
+* 'b' coming then 'c' also coming.
+* 5-b's then 5-c's there.
+* 15-b's then 15-c's there.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66c9494b-35a8-42b2-b521-b2381053c500)
 
+* We are getting, **(a ^ n) * (b ^ (n + m)) * (c ^ m)**.
+* We are getting **b's two times or twice** when **a and b, b and c** are coming. So **b** coming **two times**. As **b** is linked to both **a and c**.
+* **b** coming **two times**, once with **a** and once with **c**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b2c0a6dc-340b-49c1-86ac-819ce9dc71f6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f7f3183-d82d-4ee2-8912-7a415c463785)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e11989e-fdd7-45e5-854b-fad7b712ce29)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/77b82493-d9fb-4372-9da6-063918cad686)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e8da4cf-5578-41df-bf86-f0256ceee96c)
 
+* They are **everything**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/23296792-2c2a-4667-8b03-7cdba6cf739a)
 
+* There are **two conditions**.
+* We have **OR** operator between the **conditions**.
+* So, we don't have to satisfy **both the conditions**, satisfy **anyone of the conditions**.
+* **Anyone** means **CFL** is possible.
+* **OR** operator means **anyone** satisfied is **OK**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6fdcfcc2-07a6-48c4-b39f-6a39af967f6b)
 
+* Comparision is going on between **a's and b's** that's why we kept some **relation** between **a's and b's**.
+* Comparision is going on between **b's and c's** that's why we kept some **relation** between **b's and c's**.
+* If we use **A** at a time then **a's and b's** are **equal** will come.
+* If we use **B** at a time then **b's and c's** are **equal** will come.
+* **C** will generate any no. of **c's**.
+* **D** will generate any no. of **b's**.
+* **E** will generate any no. of **a's**.
+* If we take **C** then we will get **min. of 1-c**.
+* If we take **D** then we will get **min. of 1-b**.
+* If we take **E** then we will get **min. of 1-a**.
+* If we take **A** then we will get **min. of 'ab'**.
+* If we take **B** then we will get **min. of 'bc'**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98c52c95-7c56-4af0-8b04-c9d6cfa7dcd1)
 
+* We ware satisfying **first condition(i < j)** then **a's** are **less** than **b's** or **b's** are **more**. **c's** can be anything, we don't need to bother about **c's**.
+* In **first condition(i < j)** bother about **a's and b's** only and **b's** is **more** which we also have to bother about.
 
+* **A** will generate **a's and b's** equally. But according to **first condition(i < j)**, **b's** should be **more**.
+* Who will generate **only b's**?
 
+> **D**.
 
+* Just add **D** after **A**.
+* Definitely **1-b** extra.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9e54a1b-9dd4-468f-aeff-d09ee3078182)
 
+* First condition is satisfied and any no. of **c's** can come afterwards so put **C** at the end.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef0676f2-8e71-4b32-9b54-56c80331109b)
 
+* We ware satisfying **second condition(i > j)** then **a's** are **more**. **c's** can be anything, we don't need to bother about **c's**.
+* So take **A** first which will generate **a's and b's** equally. We want **more a's** according to the condition so add **E** at the **starting only** before **A**, which will give **only a's** and at the end for any no. **c's** add **C**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/029fc601-9578-47e7-8004-abdab68708f7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/458eb8ea-e0e7-4d6b-8b8e-025eb3e2f235)
 
+* We ware satisfying **third condition(j < k)** which is between **b's and c's**. **c's** are **more**. **a's** can be anything, we don't need to bother about **a's**.
+* So take **B** first which will generate **b's and c's** equally. We want **more c's** according to the condition so add **C** after **B**, which will give **only c's** and we want any no. **a's** so add **E** at the **starting only** before **B**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0d9f9c2-ddb0-4da8-ba96-8134bbac1724)
 
+* EBC
 
+* We ware satisfying **fourth condition(j > k)** which is between **b's and c's**. **b's** are **more**. **a's** can be anything, we don't need to bother about **a's**.
+* So take **B** first which will generate **b's and c's** equally. We want **more b's** according to the condition so add **D** before **B**, which will give **only b's** and we want any no. **a's** so add **E** at the **starting only** before **D**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cda90e59-56d6-4de0-be85-522b4ab648b6)
 
+* EDB
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1574364-627d-42a6-bd34-9a8379c32ab5)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f50bc06-65c3-4f87-83e1-ee3a09697e73)
 
+* [**IMPORTANT**]
+* For **AND** operation, we need **two-stacks**. **1-stack** won't work.
+* For **AND** operation, all are **required**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/82479763-bc8f-43f4-886f-4e133894c19b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f870736-8ad3-4d07-bd07-298ea273a9a8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/658911b5-3de9-461b-8c94-31196cb18d0e)
 
+* If **OR** operator then **1-stack** is **enough**.
+* For **AND** operation, we need **two-stacks**. **1-stack** won't work.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c5cbc371-0720-496d-889a-64a9c0a1d448)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+* [**IMPORTANT**]
 
 
 
