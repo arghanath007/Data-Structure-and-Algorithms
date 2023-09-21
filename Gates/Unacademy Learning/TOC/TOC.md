@@ -10166,7 +10166,97 @@ b) Both non-regular -> Maybe possible, may not be possible.
 * Top of stack is **Z0**.
 * After **push** operation is over then the **automata** is at the **S2** state.
 * Previously at the top of stack is **Z0** and after **push** operation is over, the top of stack is **X**.
-* In **stack operation**, the **last symbol** is visible.
+* In **stack operation**, the **last symbol** is always visible.
+* It is going from **one state** to **another state**. This is called as **transition function**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/20cd1a4c-41af-47b0-a576-7872d1f511bd)
+
+* Only **Z0** is there doesn't mean **top of the stack** is empty, only one variable is there which is **Z0**. I wrote it wrong in the image above.
+* By looking at the **top of the stack**, we have to understand that **push operation** is performed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a91630f1-c6a7-42fd-bffa-4ef1c6b8608d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b3283b3d-6ba9-4149-9903-e9aa6d24e39c)
+
+* [**IMPORTANT**]
+* Before **push** top of the stack is **Z0** which is **1** symbol.
+* After **push** top of the stack is **Z0, X** which is **2** symbols.
+* **1** became **2**, so it is **push** operation only.
+* **Push** means **1** extra symbol coming.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ecebc624-fede-4650-9ab7-d378cb220214)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae7fece8-798f-4007-806f-6fbbd73533e4)
+
+* Before **push** top of the stack is **Z0** and now also **Z0**. Symbol not increasing or decreasing, **Skip operation**.
+* This is exactly **skip operation**.
+* In the stack, we are not doing anything.
+* In the **input** we read **a** and we went to **S2** but in the stack, we are not doing anything. This is **skip operation**.
+* At **S1** state, top of the stack is **Z0** and at **S2** state, top of the stack is **Z0**.
+* We have already read **input 'a'** but in the stack, no change.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/033b8e5f-ab00-443c-85ec-96fc52e3b742)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d434c7a-6350-4b06-9f4e-e5909bc75ddc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/82d75faf-25b9-4d46-937d-7fbac9cb4773)
+
+* Push operation.
+* 1-symbol became 2-symbol, **push operation**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/62ed75de-d3e8-4a57-afeb-15fc776b73a9)
+
+* Skip operation.
+* 1-symbol became 1-symbol, **Skip operation**.
+* **X** is the **Stack alphabet**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a73087c6-57d4-4421-915a-63ecb50db3b4)
+
+* Only the **top of the stack** matters.
+* Stack means **top of the stack** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d053f0ad-3037-41c3-9d6b-a60c9575026a)
+
+* Previously the **top of the stack** is **x**, the **top of the stack** is **deleted** and we have **Epsilon** now.
+* Previously **1-length** is the **top of the stack** and now **0-length** is the **top of the stack**.
+* **1-length** becomes **0-length** means **pop** operation happened.
+* **x** is **1-length**.
+* **Epsilon** is **0-length**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2cc8b543-8bf3-4e5e-b624-0ceafb66790a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/508fb8d9-491a-466f-999a-15e75ffe14d7)
+
+* **Epsilon** is saying that whatever the previous **top of the stack** was there, that one we **deleted**.
+* It doesn't mean that **stack doesn't have anything**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e9c5a8d-e852-4e0b-9547-51c9402bd1e2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8c69847c-2de7-4982-9a79-aa8d07b71c3e)
+
+* Pop operation.
+* 1-length top of the stack becomes 0-length top of the stack then it is **pop operation**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19c90959-ee70-47e3-ad7f-bbbb3d6a6ba7)
+
+* Stack can only see **top of the stack**. It cannot see **below**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ed44a1f-14d4-4c00-97f4-c94b427a40e0)
+
+* Nothing to do in the **stack**.
+* This can be done by **FA**.
+* In the entire **diagram**, the **top of the stack** is **Z0** only. Nothing changed.
+* Entire problem the **top of the stack** is **Z0** only.
+* If we don't want then **don't push**.
+* If we don't want then **don't pop**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85a30ea0-966a-46c1-b5e2-11753d8495d0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9933f9b6-73d8-4da9-bc89-eeec4fad50b9)
+
+
+
+
+
+
+ 
+
+
+
+
 
 
 
