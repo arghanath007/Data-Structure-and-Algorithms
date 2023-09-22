@@ -10907,6 +10907,110 @@ b) Both non-regular -> Maybe possible, may not be possible.
 * Same state, same input symbol and same on the top of the stack also. One person is saying **push** and the other is saying **pop**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/547b469d-be93-4af7-a7f0-3f50e7fa2920)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c02b03f2-e402-4e64-98db-557ab0b277bd)
+
+* In the case of **PDA** this is called as **non-determinism**. [Above thing]
+* It is like **NFA** in **FA**.
+* In case of **FA** because it is a **small machine**, no possibilities should be missed.
+* In case of **PDA** because it is a **larger machine**, some possibilities are missed.
+* Machine is having **some problem**, it don't know for the state **S1**, we have the input as **a** and the top of the stack is also **a**, the machine don't know if it should do **push** or **pop** operation.
+* The machine is **confused**.
+* The machine is in **dilemma**, whether it should do **push** or **pop**.
+
+> If both the symbols are from the **same machine** then do **push**. If one symbol is from **W** and the other symbol is from **(W ^ R)** then do **pop**. The confusion is how will we know? We don't know. We have written both. Machine will select correspondingly. That is a **non-deterministic** machine.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb2b95a5-06ea-4f79-8c82-69c0ee471556)
+
+* [**IMPORTANT**]
+* This can be solved with **right guess**.
+* If we give valid **W * (W ^ R)** then it will go to **final state**?
+
+> We need to accept all valid things. There is a **chance**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/793f0656-82c6-4cd8-9320-b43e270101b7)
+
+* **Non-determinism** means **guessing** is required.
+* If we are **lucky** means that we have do **right** guess then it will work out.
+* **Non-determinism** means nothing but with **right** guess we can solve further or not.
+* We are unable to avoid the **guess**. We have to do **guess** that the meaning of **Non-determinism**.
+* If we do **right** guess then it will work out. **YES**.
+* Can we solve the **above** problem without guess?
+
+> Guess is the only way that is also **right/correct** guess. Guess also **right** guess.
+
+* Guess can be right or wrong also.
+* **Non-determinism** is always like **right** guess.
+* **W * (W ^ R)** is a deterministic PDA or non-deterministic PDA?
+
+> Non-deterministic PDA
+
+* Can we solve the **above** problem without guess?
+
+> **DPDA** not possible. Only **NPDA** is possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35b52a65-02af-4d18-82de-5f65169ed043)
+
+* We cannot solve the **above** problem, without guess.
+* We can solve the **above** problem, with the **right guess**.
+* If we solve a problem without **any guess** then the problem is called as **determinism or DPDA**.
+* If we solve the **above problem** atleast with **guess** then the problem is called as **NPDA**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b002add1-ae4f-42f9-b232-5c2becb9cf78)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f5228fe-8679-467f-9fa7-1bae70541c72)
+
+* We have **3-states**.
+* Guessing needed but **right guess**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/968694f0-c830-452e-82ed-e2ef0f1837dd)
+
+* Yes.
+* Take the **right guess**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c09b2892-68e8-4465-a350-52cb9d611719)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b6ae77f-2da0-4c91-9001-03f84d691ef2)
+
+* Many possibilities, think about **right guess**.
+* **NPDA** means we have choices. **YES**.
+* Our string is accepted or not, how we will know?
+
+> By taking right guess, we can go to **final state** or not.
+
+* **DPDA** is not possible
+* **NPDA** is possible.
+* Expressive power of **NPDA**, E(NPDA) > Expressive power of **DPDA**, E(DPDA)
+* Expressive power of **NPDA** is **more(>)**.
+* **NPDA** accepting some languages which **DPDA** doesn't have any clue.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc6c2bae-ef87-495e-a721-da22c06ea87c)
+
+* [**IMPORTANT**]
+
+* Expressive power of **DFA**, E(DFA) = Expressive power of **NFA**, E(NFA).
+* They are **equal**.
+* For every NFA, DFA is possible.
+* For every DFA, NFA is possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b882f08c-7a1c-455b-abf4-11d7275fb2cb)
+
+* Expressive power -> No. of languages accepting.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc25940f-0028-449c-9d4d-9489e64ffb20)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d871363-fe01-4d2b-b931-911be78d8567)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/388df0c0-9a9d-42c8-b722-28ef313c52df)
+
+* **DPDA** can do means **NPDA** can also do.
+* Whatever **DPDA** can do, **NPDA** can also do.
+* Whatever **NPDA** can do, **DPDA** cannot do.
+* Start from 1hr 11mins.
+
+
+
+
+
+
+
+
+
 
 
 
