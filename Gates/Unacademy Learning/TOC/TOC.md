@@ -10506,6 +10506,347 @@ b) Both non-regular -> Maybe possible, may not be possible.
 
 * [**IMPORTANT**]
 
+## uncountable-and-countable(39) [22nd Sept 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1beebbde-504e-418f-b861-6d576050342e)
+
+* Example
+* Order is not important.
+* Stack contents are important.
+* **Relation** is there, **no. of a's** is **equal** to the **no. of b's**.
+* **Relation** is there but **order** is not there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e95f997-4184-4f3d-9294-c83598e24d03)
+
+* String is starting with **a** and the top of the stack is **Z0**.
+* First **a** is coming in the **stack** so **push** the **a** into the stack which is **Z0a**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9572728f-c656-45f5-9afc-67637132aecc)
+
+* **a** is coming and at the top of the stack is **a**.
+* On **a** once again **a** is coming.
+* If string is starting with **a** and so many **a's** are coming **push** all of the **a's** in the **stack**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a58049d-b590-4c92-81e8-af67c9f2fffc)
+
+* String is starting with **b** and the top of the stack is **Z0**.
+* First **b** is coming in the **stack** so **push** the **b** into the stack which is **Z0b**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0be0073d-8b36-4e4c-a150-32af098c206c)
+
+* **b** is coming and at the top of the stack is **b**.
+* On **b** once again **b** is coming.
+* If string is starting with **b** and so many **b's** are coming **push** all of the **b's** in the **stack**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50268144-b4af-4a7c-9482-e48d518df3f0)
+
+* String may start with **a** followed by many **a's**.
+* String may start with **b** followed by many **b's**.
+* As **order** is not importanat, so we have kept them in the **same state** only.
+* We want to count the **no. of a's** is **equal** to the **no. of b's**. 
+* **a** is coming and the top of the stack is **b**, so for **every-a**, cancel **1-b**.
+* **a** is coming then cancel the **b** from the top of the stack.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9831751f-7751-4e5d-88b5-cc9ef208a0d4)
+
+* **b** is coming and the top of the stack is **a**, so for **every-b**, cancel **1-a**.
+* **b** is coming then cancel the **a** from the top of the stack.
+* Opposite **symbol pop**.
+* Same symbol **push**.
+* String can start with **any symbol**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/633eb7fc-0759-42d2-9294-f2013d35cff7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/21b4136b-8294-4dd1-b1eb-6d8a635ec2c9)
+
+* No. of a's and no. of b's **cancel**.
+* String is over, **Epsilon** came and the top of the stack is **Z0**.
+* Top of the stack is **Z0** means **no one extra**. Both are cancelled.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d971347f-d5ca-4ed3-9d2e-51d5a1f182c4)
+
+* [**IMPORTANT**]
+* We kept/managed everything in **S1** state as there is **no order**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24124c05-4315-4fae-8900-4b85c3b789c8)
+
+* We are not concentrating if stack is empty or not.
+* PDA acceptance by **final state** we have done.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/26e9d068-5565-4b1c-af8b-ded4de0ecac0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/74a5c904-bdae-4d0c-9596-2cc33b5f2183)
+
+* By cancelling **opposite things**, **top of the stack** is **Z0**, which means **no. of a's** is **equal** to the **no. of b's** guranteed.
+* Next symbol is **Epsilon** and **top of the stack** is **Z0** then remove **Z0** also.
+* String is completed means no more comparisions needed, **top of the stack** is **Z0** means everything has **cancelled** each other and we have removed **Z0**, so we are in **s1** state.
+* In the stack, we are able to **eliminate 'Z0'** as well.
+* So string is **accepted**.
+* PDA acceptance by **empty stack** we have done.
+* **Epsilon** is considered as **ending marker**. [**IMPORTANT**]
+* **No. of states** are not **asked** in **questions**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/520aa5ea-cb2b-4b7c-a09f-05910d419a3c)
+
+* In case of **PDA**, **3-things** matter:-
+
+1) What is the **Input symbol coming**.
+2) What is the **Top of the stack**.
+3) Which **state** we are in.
+
+* In case of **FA**, **2-things** matter:-
+
+1) What is the **Input symbol coming**.
+2) Which **state** we are in.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9fd599c0-7302-408d-99a1-5c0215680a9a)
+
+* Only **10 a's**, it will be stuck at **S1** state only.
+* All **a's** are over and then **Epsilon** is coming, top of the stack is **a**, there is **no transition**.
+* The string is automatically **rejected**.
+* Automatically they will go to **dead state**.
+* In **PDA** covering every possibility is **difficult** as many combinations are there.
+* One invalid also cannot be **accepted** and one valid also cannot be **neglected**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c6664ace-167d-492e-b09c-b232bbfcb02e)
+
+* Example.
+* Opposite things are **cancelled**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b4cb68d-c39c-4a96-bf03-87f53e24f1ef)
+
+* String is completed and the top of the stack is **a**, what is the meaning?
+
+> **Extra or more a's** are there.
+
+* Two different symbols we never see in the **stack**. They cancel. Either a's there or b's there. When either things are coming, we are **popping**. [**IMPORTANT**]
+* **Epsilon** is coming and the top of the stack is **a**, the gurantee is that **a's** are more. Go to **S2** state which is **final state**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef75087d-e239-4b85-adbf-20e6f90e42cd)
+
+* String is over, which means **Epsilon** is coming and the top of the stack is **b**, keep **b** as it is. Guranteed **b's** are more. Go to **S2** state which is **final state**.
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2cf55d8b-b7fb-4227-b9d3-722c86393156)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1cd967aa-6b0d-4d1b-9e08-328be4039edf)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db29284c-c8c8-4159-af96-177bccd9898f)
+
+* **Dollar or Epsilon** is the **end marker** they are the **same** thing.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8532c2e1-9ba6-4d58-aa8a-06df0918ab41)
+
+* We verified **more only**.
+* We didn't verify how much more.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/42ffae12-50a3-4fc2-be5d-3f1d17823844)
+
+* Example
+* **a's** are more by **1**.
+* **a** is more. It is **more** by **1**.
+* Who is more?
+
+> **a**
+
+* How much more?
+
+> **By 1** or **+1** only.
+
+* Order is not important.
+* **Epsilon** coming means **string** is over.
+* Both **a's and b's** are cancelled and **string** is over, in the stack, who should be there, as the valid string? **a's** are more, so **a** should be there at the **top of the stack**. 
+* Pop that **a** as well and come to **S2** state.
+* We got to know that **a** is more and we have popped that **a**.
+* If at all **a** is **exactly 1-more** than **b** so, still **Epsion** is coming and at the **top of the stack** we have **Z0**. So keep **Z0** and go to **S3** which is the **final state**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/23b3da73-53cf-4f37-acf0-a4213b85262b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6de40fea-d90b-4ae0-a19a-162b5c7714d7)
+
+* After popping **1-time** we got to know that **a's** are extra and after popping **1-time** we got to know that **stack** is **empty**.
+* Without **popping** the symbol at the top of the stack, we cannot go to **next symbol** in the **stack**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/734cd815-4e36-4146-9bda-968f86d8c0e3)
+
+* Example.
+* L = {W * C * (W ^ R) | W belongs to ((a + b) ^ * )}
+* **C** is there in **sigma**.
+* **sigma** contain **a,b,c**.
+* **W** will take **a's and b's** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7c4f931-2cb0-41fb-99c7-4bd870600083)
+
+* It is **palindrome**.
+* If we **add**, **W * (W ^ R)** then **even palindrome** comes.
+* Here, in-between **W * (W ^ R)** we are keeping **one symbol(C)**, so **even + 1 -> Odd**, so we are getting **odd length palindrome** here.
+* If **W** is **2-symbol** then **(W ^ R)** is also **2-symbol**.
+* If **W** is **3-symbol** then **(W ^ R)** is also **3-symbol**.
+* Even + Even -> Even
+* Odd + Odd -> Even
+* **L** will generate all **odd length palindrome**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c4e054b7-e71c-4b91-8f05-dd5ef240a9e0)
+
+* In the **input string** until which place **W**?
+
+> Until **C**. **C** is the marker between **W** and **(W ^ R)**.
+
+* Whatever symbol is there **before 'C'** that is the **last symbol** of **W**. 
+* Whatever symbol is there **after 'C'** that is the **first symbol** of **(W ^ R)**.
+* **C** came means **W** is over.
+* **After 'C'**, **(W ^ R)** is starting.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e0976094-811d-4d5a-a976-f0844a62489e)
+
+* Every **palindrome** can be **divided into two parts**, which are **W** and **(W ^ R)**.
+* Every **palindrome** can be written in some form of **W** and **(W ^ R)**.
+* In-between **1 more symbol** is there, that is going to be **odd length palindrome**.
+* In-between **no symbol** is there, that is going to be **even length palindrome**.
+* What is the gurantee that the **palindrome** is in the form of **W** and **(W ^ R)**?
+
+> For that we have to **check** if the **last symbol of 'W'** and the **first symbol of 'W ^ R'** are **same/equal** or not. If they are **same** then they are **palindromes** and they are **reverse** to each other.
+
+* Indirectly we are checking the **first and the last** symbol.
+* Same thing only, but we are **starting** from the **middle**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37d896d6-dd74-4cf2-86f9-da835bf29f9d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e00e856-bf1e-4064-a78e-a62e76bb36d0)
+
+* How we will know which is the last symbol of **W** and the first symbol of **(W ^ R)**?
+
+> **C** is going to help in finding them.
+
+* We have to compare **W** and **(W ^ R)** symbols.
+* **W** coming **push**. **W** is there in the **stack**.
+* **(W ^ R)** is coming then start **comparing**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2d148e0a-8a13-40d0-a929-a2b0cc66aa05)
+
+* Every **odd thing** can be written as **((2 * X) + 1)**.
+* At the end of the **W**, at the **input string**, **W** is over, so it is kept at the **stack**.
+* Only **top of the stack** we can access which means only the **last symbol** of **W** we can access from the **stack**.
+* We want **last symbol** only of **W**.
+* **Last symbol** of **W** should be compared with the **first symbol** of **(W ^ R)**.
+* Within **W**, cannot do **pop**.
+* **Pop** means **comparisions** are happening.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/417de152-31b5-46d3-9fcb-c06bdc7bf9d0)
+
+* It is not **no. of a's** is **equal** to the **no. of b's**. That's why we are **not popping** when **opposite symbols** are there.
+* As **W** is going on we will **push**.
+* **W** is combination of **a's and b's** only.
+* If **anything comes** then **push only**.
+* String starts with **a** followed by **anything**.
+* String starts with **b** followed by **anything**.
+* Strings can be combination of **a, b** anything.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c8b89319-d048-4d69-9ad0-788ba7073766)
+
+* Any combination can come in **W** of **a and b**.
+* Before **C** everything is **W**.
+* When we see **C** or when **C** is coming, it means that **W** is over and **(W ^ R)** is going to start.
+* Ending of the string(W) can be anything either **a** or **b**.
+* Don't **push or pop**, just **skip**.
+* By seeing **marker(C)** don't do **push or pop**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/42f51ba0-1ce2-4495-b375-eb6edad9e7f8)
+
+* Total **W** is pushed into the **stack**.
+* **S2** means that **W** is over and it is in the **stack** and **(W ^ R)** is **starting**.
+* Next symbol we are going to **read** is part of **(W ^ R)**.
+* **(W ^ R)** first symbol is **b** and the **top of the stack** is also **b**. The **last symbol** of **W** which is at the **top of the stack** must **match** with the **first symbol** of **(W ^ R)** otherwise the string is **not palindrome**.
+* We have to **pop**.
+* Again **pop**.
+* Again **pop**.
+* If at all **not matching** then it is **not palindrome**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3590a35d-c1c2-4751-aad5-9445c25badd4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1fe83837-b5ea-4428-8e5d-fdd2245d7ebc)
+
+* **Palindrome** means if we see any side then both should be **equal**.
+* Everything else going to **dead state**.
+* String over means **(W ^ R)** is also over.
+* * **Epsilon** means **(W ^ R)** is over/completed.
+* **Z0** means **W** is also over/completed.
+* When **(W ^ R)** is over, **W** is also over, it means that **both are equal** and that's why they have **cancelled** each other.
+* It means that **W** and **(W ^ R)** have **cancelled** each other. 
+* **Epsilon** is coming and top of stack is **Z0**, keep **Z0** as it is. So we will go to **S3** which is the **final state**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1da30e6-de63-4b97-adb4-0e1a8ef1b3a5)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c3c495d-5a1c-46e2-b14a-d91f03ec32d9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/79769990-31ac-4032-9446-83cba15a4f2e)
+
+* In **S1** push everything as until now we haven't seen **C**.
+* It is **W** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f1288920-0119-42e4-b511-ec05ab3e4700)
+
+* Afterwards **C** came so we are in **S2** state.
+* In the **input buffer** we are in **after 'C'**.
+* It means **(W ^ R)** is going to start.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b98add63-d7a3-4414-b507-d91443739599)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ecbb2eb3-f24c-43db-b829-01bcc7aeae07)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a686508-f9a2-49f0-b784-85e84cc6b15b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b8570a17-fc25-4e9f-b1e3-b03724a3b9cf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ef13d26-4eb0-4aec-a042-1d304a72e97b)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff8d53d1-c497-455e-83c8-e4f535c749bc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be7c5cd6-9dab-4a04-8eee-f560664947a2)
+
+* Overall becomes **C**.
+* W -> Epsilon
+* W ^ R -> Epsilon
+* Epsilon * C *  Epsilon -> C.
+* **C** is coming and top of the stack is **Z0** means that **W** is **empty/epsilon**. So, we came to **S2**.
+* After **C**, **epsilon** is coming and top of the stack is **Z0**, keep **Z0** and go to **S3** state.
+* This will take care about **Epsilon** also.
+* This will take care about **Epsilon**, **w** ending with **a** and **w** ending with **b**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5961ce9b-e8d7-45d8-8d5f-452a2b519af8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee165a2b-e631-4c35-88e6-492ac8085eb8)
+
+* **C** is always **skip** only.
+* Starting state itself directly **C** came so the top of the stack is **Z0** only, so **W =  Epsilon**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c9e9412-7c33-44ab-8c5b-fc70573c99a8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/18fda4f7-74f3-49a6-b876-a0d7dab11bdc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a039799a-0624-47c3-89f7-1a7a0111b0c5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/802d2cc3-c7e0-4030-a71a-bd2be814a7c9)
+
+* [**IMPORTANT**]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
