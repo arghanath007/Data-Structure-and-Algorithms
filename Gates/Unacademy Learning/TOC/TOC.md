@@ -10819,6 +10819,110 @@ b) Both non-regular -> Maybe possible, may not be possible.
 
 * [**IMPORTANT**]
 
+## doubt-clearing-session(40) [22Sept 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19fe230f-fa79-486a-8d3f-89b80b74b02a)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4229f8ce-a9d3-48a6-8179-7dede1b51d9c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83970ea8-a2be-4a69-9739-3323bb24474f)
+
+* The marker is **C**. We cannot take whatever **marker** they want.
+* In this problem **marker** required.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0bbeb018-47c9-47c9-abc9-a06801b10738)
+
+* In the place of **C**, we cannot take **a** also.
+* In the place of **C**, we cannot take **b** also.
+* In the place of **C**, we cannot take **Epsilon** also.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3627b6d8-18c8-4621-b230-8f73906dca34)
+
+* Anything came come.
+* Only a's will come, Only b's will come. a's maybe more. b's maybe more.
+* Anything can happen.
+* No condition, **W** can be anything.
+* In the last question, **marker(C)** was there. **Marker** means who can clearly differentiate between **W and (W ^ R)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f388c40f-5ff1-4811-9f91-36f238451648)
+
+* This problem is **Without marker**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/06455901-3e34-4135-8a8a-2dcefeae0118)
+
+* Everything thing **same** except marker is not there.
+* w -> (a + b) ^ *
+* Any combination of **a and b** is possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/da93baa4-f3a0-482a-bc7a-cd479f5b2ddf)
+
+* **w** is **pushing** in the **stack**.
+* **Stack** contains **w**.
+* Assume, w -> ab
+* So, **ab** is pushed in the **stack**.
+* (W ^ R) -> ba
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ef94a01-afd6-4899-b4b0-a10d58ab6d85)
+
+* The **only problem** is **marker** is not there.
+* Logic is **same**.
+* When we are reading the string at any point of time, two consecutive symbols are **same** then we can say one symbol belongs to **W** and other symbol belongs to **(W ^ R)** because of lack of marker.
+* As in **palindrome** the last symbol of **W** and the first symbol of **(W ^ R)** are **same**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a570ce9a-7729-466a-91a0-1235ba8bf769)
+
+* **b** coming and the top of the stack is **b**. We should **pop** and go to **S2** state.
+* The **b** which is coming belongs to **(W ^ R)** which is the **first symbol** of **(W ^ R)** and the **b** that is already there at the top of the stack is **W's last symbol**.
+* The way to verify is if it is a **palindrome** then the last symbol of **W** and the first symbol of **(W ^ R)** should be the **same**. It means that if two consecutive symbols are same then one belongs to **(W ^ R)** and the other belongs to **W**.
+* If both symbols are **same** then **pop** and go to **S2** state.
+* In **S2** state means that **(W ^ R)** is started and **W** has ended.
+* We have to go further as **(W ^ R)** is already started.
+* In the stack already **W** there.
+* So, if **a, a** then **pop** and if **b,b** then **pop** as well.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3fec8c42-f4aa-4901-869a-20eccef30dac)
+
+* If **a** coming and the top of the stack is **a** then **pop** and go to **S2**.
+* The only problem is that marker is not there.
+* The solution is that if it is a **palindrome**, if two consecutive symbols are same then one belongs to the first symbol of **(W ^ R)** and the other belongs to the first symbol of **W**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6e288af4-de93-4136-a853-3d77f8b9ccb7)
+
+* If two symbols are same then start **popping**.
+* String is over and **epsilon** is coming and the top of the stack is **Z0**. Keep **Z0** as it is and we will go to **S3** state which is **final** state.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85cc3a50-2f38-4203-a27f-eb338ebd5c00)
+
+* Final state pda acceptance.
+* If **W** itself having two consecutive same symbols, we have already written those combinations which are **a,a |aa** and **b, b | bb**.
+* If two symbols are **same**, next symbol and the top of the stack symbols are **same** and if they belong to **W** only then **push**.
+* If the two symbols and one belong to **W** and the other belong to **(W ^ R)** then **pop**.
+* Same state, same input symbol and same on the top of the stack.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/04e4be49-206a-4508-b51d-c703ce10a8d5)
+
+* **3 and 6** are **same**.
+* To apply the **3rd and 6th** production, we are in **S1** state, the input symbol we are applying is **a** and **a** is at the top of the stack.
+* Same state, same input symbol and same on the top of the stack also. One person is saying **push** and the other is saying **pop**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/547b469d-be93-4af7-a7f0-3f50e7fa2920)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
