@@ -11263,13 +11263,25 @@ b) Both non-regular -> Maybe possible, may not be possible.
 
 * **i = j** means that **a's** equal to **b's**.
 * **j = k** means that **b's** equal to **c's**.
+* We have **two comparison**, **i = j and j = k** but **one comparison** at a time.
+* We have **OR** operator, so **one comparison** at a time. We don't need to satisfy **both**.
+* First do **i = j** working then stop, if not then **j = k**, **one comparison** at a time, don't need to satisfy **both**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/682a9702-64cd-4418-bd68-c88209183fda)
 
+* **Two comparison** but **one comparison** at a time. So, it is a **CFL**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/edd02953-7f62-45a5-8302-73778d081809)
 
+* **L1** is **DCFL**. **b and c** are **equal**.
+* So, the **logic** is **a's** skip, **b's** push and **c's** pop.
+* It is the **logic**.
 
+* **L1** is **DCFL**. **a and b** are **equal**.
+* So, the **logic** is **a's** push, **b's** pop and **c's** skip.
+* It is the **logic**.
 
-
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/61a986ab-68e7-4195-9506-1b7bd160250d)
 
 
 
