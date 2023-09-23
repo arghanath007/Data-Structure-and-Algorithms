@@ -11365,15 +11365,42 @@ b) Both non-regular -> Maybe possible, may not be possible.
 * **one-comparision** that is **CFL**, we are ok.
 * Sometimes looks like **two-comparisions**, it is still **CFL**. That is actually **one-comparision** only.
 * Don't get **confused** by just looking at the problem.
-* With **one stack** cane we manage it?
+* With **one stack** can we manage it?
 
 > if we can then it is **CFL**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d4920fa-f6ce-4672-95ab-8d427c91a2c5)
 
 * Minimal string -> abcd.
-* Start from 37mins.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c89d565-2e3f-4442-bb25-ae5eeb36da9b)
+
+* No chance of **b** directly coming, which is **b, Z0 | z0b**.
+* Starting **b** coming, top of the stack is **Z0**. It will not work. NO.
+* Starting with **a** will work out which is **a, Z0 | Z0a**.
+* **a's** followed by **first 'b'** will work out.
+* **b's** followed by **first 'b'** will work out.
+* After seeing **first 'b'** we cannot see **a's**.
+* Order matters. Order preserved.
+* No chance of **c** coming directly.
+* **c** can only come if the top of the stack is **b**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec666c0a-f8e1-41f6-a2c4-8bdb9d869cd0)
+
+* If we do like this then after **c** came, **b's** can also come as the top of the stack is **b** still. So, **b** can come. But **b's** should not come after **c**.
+* Change **state** now for **c**.
+* **c** coming and the top of the stack is **b** then **pop 'b'** and go to **S2** state. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a2a2b74-d86d-402b-8dbd-b6365bc0ffa7)
+
+* If **c** coming then the top of the stack should be **b** but **b** is not there. So, no problem.
+* When **d** coming and the top of the stack is **a**, then **pop 'a'**.
+* This is fine.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a408ed3b-44ea-4c20-af22-ddd49df3608b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7aa58285-cb99-4002-ab17-4e536391c2bf)
+
+* String is over and **Epsilon** has come, top of the stack is **Z0**, keep **Z0** and go to **S3** state which is the **final state**.
 
 
 
