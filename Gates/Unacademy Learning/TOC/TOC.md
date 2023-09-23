@@ -11230,27 +11230,23 @@ b) Both non-regular -> Maybe possible, may not be possible.
 
 * [**IMPORTANT**]
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/427d512c-1e27-4af4-8f2e-1c7bfcdbec0c)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a7be804c-ae46-4383-8dbb-f6da68cee4fc)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b27e138a-2639-44d0-beb2-ecfa301d9788)
 
 * Minimal string -> Epsilon.
 * Epsilon should be accepted.
+
+## undecidability-i (41) [23 Sept 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e631bc7-c7bd-48cd-8aa2-d3558e42dbc2)
+
+* **DCFL** means **CFL** also.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a741fe9-13fc-4fe4-9529-e81d96519118)
+
+* In **L1**, **b and c** are **equal**.
+* In **L2**, **a and b** are **equal**.
 
 
 
