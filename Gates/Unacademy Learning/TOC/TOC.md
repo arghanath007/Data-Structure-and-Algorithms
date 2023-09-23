@@ -11001,7 +11001,234 @@ b) Both non-regular -> Maybe possible, may not be possible.
 * **DPDA** can do means **NPDA** can also do.
 * Whatever **DPDA** can do, **NPDA** can also do.
 * Whatever **NPDA** can do, **DPDA** cannot do.
-* Start from 1hr 11mins.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/14d92368-f8e4-44de-9a67-8a1723e0f0ab)
+
+* Example
+* **CFG** possible means **PDA** also possible.
+* For every **CFG**, **PDA** is possible.
+* For every **PDA**, **CFG** is possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6e9696ea-6609-4ef5-b21a-198600cd5020)
+
+* We want to compare **b's and c's**, why **push a's**.
+* Best idea is to skip all **a's**.
+* **b** coming then **push**.
+* **c** coming then **pop**.
+* There is **no dilemma**, it is **DPDA**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ed57241-0f58-4f26-b81a-48cedff5e42b)
+
+* If we say **PDA** then who will come?
+
+> **PDA** maybe **NPDA**, **PDA** maybe **DPDA**.
+
+* Two possibilities are there **NPDA and DPDA**.
+
+* If **PDA** then all will come.
+* Normally if they say **PDA** then we can take **NPDA** as it is **more powerful** than **DPDA**.
+* **PDA** means **NPDA**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d9a2482a-ab4d-48d5-9229-32dce91767ca)
+
+* The language accepted by **NPDA** or **DPDA** is **CFL**. Both are **CFL**.
+* For **DPDA**, it is **DCFL** which is **Deterministic-CFL**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b2adb1ba-171d-448b-ad4c-5c69fdf134cf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a16309b9-8707-47d2-8287-790d3c051132)
+
+* **NPDA** possible means **DPDA** is also possible, we cannot give gurantee.
+* **DPDA** possible means **NPDA** is also possible, we cannot give gurantee.
+* Bacha possible then papa guranteed possible.
+* Papa -> NPDA.
+* Bacha -> DPDA.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1440ec34-cbbe-4d00-90c2-86ccba57b7da)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/23045b70-de4b-4de8-814b-324a1d4e5bd3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/677e8b4c-2b8e-4e01-aa87-7c2c6e88cc09)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d4befce-648d-45e5-b178-83c677a1b805)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5f25ec75-3f9a-4ed1-a2fa-eae136ece527)
+
+* This is **CFL** and not **DCFL**.
+* As it is not **DCFL**, it is **not regular** as well.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f3022bd7-99da-4d53-b1fc-1073d2ae012f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9f8b46c8-5994-4142-a29b-30bb056df8fc)
+
+* This is **DCFL** and it means that **CFL** also.
+* If **subset** satisfied then **superset** guranteed satisfied.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8a872f0-fbb3-41fe-8a87-c7ea6720a91d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97f13561-f2a3-4cb9-931f-61623f6e22cf)
+
+* It is **regular**, it means **DCFL** also. **DCFL** means **CFL** also.
+* We can do it without **stack**.
+* So, we can do it with **stack** also which is we don't use the **stack**.
+* **CFL** is providing **guess**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2812c862-585a-4f02-a2e1-dec9b2e2cbc7)
+
+* DPDA means **guess** not possible. We cannot take **guess**.
+* In **NPDA**, we can take **guess**. If we don't want to take **guess**, it is ok.
+* That's the reason, every **DPDA** is **NPDA** but **every NPDA** need not be **DPDA**.
+* In **PDA**, we have **stack**, we don't have to use **stack** everytime. If needed then only use **stack**.
+* In **NPDA**, guess is there, if really needed then use the guess. If not needed then don't use.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/180190d6-9c78-4a57-a83c-53439105f450)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/55d3373c-97e9-4da6-ba0a-897e9ab9e2a1)
+
+* Minimal string -> abc.
+* We have to compare **b's and c's**.
+* **a** coming **skip**.
+* **b** coming **push**.
+* **c** coming **pop**.
+* Nowhere **dilemma**, so it is **DCFL**.
+* We are going by **final state**. So what is in stack, who bother. It is unnecessary.
+* We are unnecessarily pushing **a's**.
+* So instead **skip a's**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ad715a07-377e-49a2-a2d1-8b3fb101056c)
+
+* **a's** and **b's** cannot come alternatively because if after **b's**, at all **a** comes then the top of the stack is **b** and not **Z0**. So **no problem**.
+* According to the language, **minimal string** is **abc**. If **no 'a'** also then we will go to **final state**. Minimum **1-a** required.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/56fa40de-4ed8-4d72-8523-89d9df3a05c6)
+
+* To change the state, we have to remember **single 'a'**.
+* One Invalid thing we cannot accept.
+* To the problem, **deterministic** is possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a947933-4ad7-4c71-8461-d680b6b31ae4)
+
+* we came to **S2** means **one 'a'** is guranteed.
+* According to language we have to remember **abc**. Minimum is **abc**. **1-a** required. We want to see **atleast 1-a**.
+* First **a** skip and remaining **a's** also **skip**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a7982f7-e8bc-4165-801c-365fc12d1a30)
+
+* **S2** will give gurantee **minimum** of **one 'a'**.
+* **S2** will not give gurantee of **minimum one 'b'**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b205dba-7b67-46fa-80b6-953e7768bcf9)
+
+* Whenever **C** is coming and the top of the stack is **b**, it means that **minimum/atleast 1-b** is there.
+* We can remember something by **state** and we can remember something by **stack**, depending on **requirement**.
+* Epsilon is coming, means string is over.
+* Top of the stack is **Z0** means that **b and c** cancelled each other or are cancelled. Keep **Z0** as it is and go to **S4** state which is the **final state**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be46c412-1736-43fb-8c8d-86f3445f9af8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe4397c3-d3fa-4acb-ad90-109584069ebb)
+
+* If we give only **a's** then we are stuck at **S2** state.
+* Every valid thing should go to **final state**.
+* Every **invalid** thing should be stuck somewhere.
+* If we give only **b's** then we are stuck at **S1** state.
+* If we give to **abc** then we will go to **S4** state which is **final state**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d7abd20-89c6-488b-9a7c-7cd8bb8d3aee)
+
+* Skip **a's**, we are in **S2** state.
+* **b** are coming so **push**. We are in **S2** state.
+* **b** are coming and the top of the stack is **b**. So, **pop**. For every **c**, pop **b**.
+* **3-b's and 3-c's** are cancelled.
+* **2-c's** are still left.
+* Still **c's** are coming.
+* Top of the stack is **Z0**.
+* **c** coming and the top of the stack is **Z0**, this combination is not there. We will get **stuck**.
+* It will be stuck at **S3**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a804171-3b7f-49c7-b6a5-c360cec1e87c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df47048f-61d7-4c6b-9ebb-da5e6ae68a39)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d2040f8-aed7-43cf-b2cd-61720b560863)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c696d8c-f7d9-48a3-aad7-3c52f394d29d)
+
+* (a ^ * ) -> Regular, DCFL, CFL
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aafb41d1-433f-4cff-930b-a8be945b0afe)
+
+* [**IMPORTANT**]
+* Placed games in **options** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/896da70b-6b4b-499d-abde-d5f807e9fe3c)
+
+* Example
+* **a and b** are **equal**.
+* Minimum one **c** is required.
+* Don't go wherever we want to **final**.
+* End of the string we have to decide.
+* End of the string means **Epsilon** is coming.
+* **a's** coming push.
+* **b's** coming pop.
+* **c's** coming skip.
+* It is a **DCFL**. No dilemma.
+* Minimum **1-a** gurantee required.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f3a69da-41a1-4ad7-a869-b6daf4fb7777)
+
+* All **a's** are **pushed**.
+* What is the gurantee that **min/alteast 1-a** came?
+
+> **b** coming and the top of the stack is **a**, which means **minimum/atleast 1-a** came.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/de64dbe7-15cb-4545-932c-549ea7c6ac1c)
+
+* **Minimum/atleast 1-a** came.
+* Otherwise how the top of the stack is **a**.
+* We change the state also with the help of **stack**.
+* When we came to **S2** means that **min. 1-a and 1-b** came.
+* When we came to **S2** means that **min. 1-a, 1-b and 1-c** came.
+* Skip all the **c's** and **a's and b's** are **equal**.
+* Whenever **c's** came stack is empty.  So, **a's and b's** are cancelled or cancelled each other.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5c87eee-cb1b-4698-8714-be87d7e721ae)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a41891d1-fd3a-429e-82f9-76f8c5f8197c)
+
+* After skipping all the **c's** we are in **S3**.
+* We can make **S3** as the **final state** with **Epsilon, Z0 | Z0**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6592349a-d207-4dfa-b2a1-286c09873c37)
+
+* At the end of the string, we are in **S3** which is the **final state**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bfd7ac5d-f622-4971-af39-e23bb1249da7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5828d05d-c146-4c0d-b529-ce1eba0d475a)
+
+* [**IMPORTANT**]
+* At the end where are we.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bd011546-473d-42b4-b56a-2eba0134ff6a)
+
+* In the middle maybe we are in **non-final**. In the middle maybe we are in **final**. It doesn't matter. At the end where are we.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/48a07eb3-e05c-4d92-9157-742a0c97adef)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/54383c79-aea1-445a-a62e-0850a63bf88d)
+
+* That's the reason why we are skipping.
+* Skipping reason is because they are **useless**.
+* At the end of the **production** we are in **S3** which is the **final state** or not.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/035ec38a-d4e4-448c-b5a2-a5a1712128b5)
+
+* One way
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ef5a0c5-3b2e-4628-ac59-c60bbec6ecf8)
+
+* Another way
+* Both are **correct**.
+* Accepted or now, how we will know?
+
+> At the end of the string, are we in **final state**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a20488e-7122-4ac2-a3c7-854562edb95e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9314ec6e-6c0e-4040-8816-3b56a54a650b)
+
+* Stuck means it will go to **dead state**.
+* Some possibilities are not there means they are **stuck** there. Indication that by default they will go to **dead/trap state**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e24fb01e-e3ea-44eb-83a0-1a346864f5a5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35d33acd-a0b4-4fa2-85e4-f879013fd8b2)
+
+* [**IMPORTANT**]
 
 
 
@@ -11011,6 +11238,19 @@ b) Both non-regular -> Maybe possible, may not be possible.
 
 
 
+
+
+
+
+
+
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/427d512c-1e27-4af4-8f2e-1c7bfcdbec0c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a7be804c-ae46-4383-8dbb-f6da68cee4fc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b27e138a-2639-44d0-beb2-ecfa301d9788)
+
+* Minimal string -> Epsilon.
+* Epsilon should be accepted.
 
 
 
