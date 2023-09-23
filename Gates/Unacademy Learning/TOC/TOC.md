@@ -11401,7 +11401,266 @@ b) Both non-regular -> Maybe possible, may not be possible.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7aa58285-cb99-4002-ab17-4e536391c2bf)
 
 * String is over and **Epsilon** has come, top of the stack is **Z0**, keep **Z0** and go to **S3** state which is the **final state**.
+* **Epsilon, Z0 | Z0** means string is over.
+* After executing this, **Epsilon, Z0 | Z0** line whichever state we are in, if that is the **final state** then string is **accepted**.
+* If the statement, **Epsilon, Z0 | Z0** is not executed then the string is **invalid**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83800927-70ef-4cf5-8134-9ba6d8321e3b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b224c18-2921-4dd5-923f-dfebe630bd41)
+
+* [**IMPORTANT**]
+* Both are **same**.
+* After **b's** came, we will not allow **a's**.
+* In one state, if we have kept **many symbols** then **order problem** may come.
+* The order problem is after **b's** came, we will not allow **a's**.
+* **a** coming and the top of the stack is **b**, no way. It is an **order problem**.
+* It will get **stuck** and will automatically go to **dead state**.
+* **S2** state means **c** already started and top of the stack is **b**.
+* **c** coming and top of the stack is **b** then **pop 'b'**.
+* **d** came and top of the stack is **b**, it will not **pop**. We cannot do anything it is **stuck**. Automatically go to **dead state**.
+* **d** came and top of the stack is **a** then only it will not **pop 'a'**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/233c532b-5383-443e-aaa1-358200116d88)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/040a2138-35f7-4bb6-882b-9556d5b94ec6)
+
+* There is no confusion/dilemma. So, it is **DCFL**.
+* One stack we are doing and no confusion/dilemma, so, it is **DCFL**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d72d1fd6-3dbf-4ac9-bade-3acc358ae348)
+
+* Consider the above **PDA** and what is the language accepted by the **PDA**? [Expected question types]
+
+> Whatever **L** is there. Same answer.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e1e40bd-44d1-4d50-9ee3-a3ee68a1ef73)
+
+* Take few examples and try to find the **language**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/149065aa-fc93-4ed9-8828-1e9d1cd4d1b4)
+
+* DCFL means CFL -> CFL means CSL -> CSL means REL
+* DCFL doesn't mean **regular**.
+* If bigger machine(DCFL) is satisfied, doesn't mean the **smaller machine(regular)** will satisfy.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/843fac9d-3d49-4cdd-89db-8f9fe9764774)
+
+* Example
+* We have to compare **a and c** and **b and d**.
+* When **c** come then **a** should be at the top of the stack because with **c** we are comparing **a**.
+* When **c** come then expected top of the stack should be **a** but we are getting **b** as the top of the stack.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/20ab6826-d2a2-4445-a52d-9187a13f93af)
+
+* We have to satisfy **both**, **a and c** and **b and d**. Not anyone but both the condition. Both condition should be **satisfy**.
+* We need **2-stacks**.
+* Not possible with **1-stack**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9a62c8b9-ad38-4841-a3c3-7585dce6d1fc)
+
+* **c's** want **a's** so  when **c** come **pop 'a'**.
+* **d's** want **b's** so  when **d** come **pop 'b'**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc7b43fe-93db-459f-ae5d-82405e2e4695)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/49696a26-aa88-4115-a613-b37ab8fe1d0d)
+
+* How to check if some language is CFL?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/330edba1-7d05-4e5c-a201-cf9ab7cbcfda)
+
+> Two comparision here but **one-comparison** at a time because of **OR** operator.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/479872e0-184c-4791-935f-b537887795f7)
+
+> Two comparision here as well but no **OR** operator here. Two comparision are **independent**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12cbb591-9330-4ab5-95eb-f25d8d36eec7)
+
+> Two comparision here as well, no **OR** operator as well and the comparisions are **independent**. No **CFL** possible here as we need **two sacks** here.
+
+* How to check/verify if some language is CFL or not? [**IMPORTANT**]
+
+> If we can do **directly** without any stack or try using **1-stack**.
+
+> If not possible with **1-stack**. So, **not CFL**. It is **CSL**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32ef899b-fd3b-4029-a47a-34ccfe0bd4c6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b3da4942-c203-4a37-aea3-095741a06f53)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/084c5476-5af7-4118-ad03-11f24ac3ed3f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b3da4942-c203-4a37-aea3-095741a06f53)
+
+* Most expected type of questions in exam. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf021f8d-9148-41d4-9fcb-6081a5b5154d)
+
+* Example.
+* When **b** coming **a** is **increasing**.
+* When **b** increasing **a** is also **increasing**.
+* When **c** coming **a** is **increasing**.
+* When **c** increasing **a** is also **increasing**.
+* How many **b's and c's** are there that many **a's** will come.
+* **a** coming, **push 'a'**.
+* **b** coming, **pop 'a'**.
+* **c** coming, **pop 'a'**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/271650ee-bddd-46eb-adda-754806fa69e2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/912a5df7-53e9-4047-9cb9-5170d35cf448)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3cc487a2-8ef1-4061-b964-2a91f62a5059)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a0a6f8c3-a060-4354-a88e-c087a5440434)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff7d3087-8fb9-478f-91d7-f94e53104055)
+
+* No confusion/dilemma.
+* So it is **DCFL, CFL, CSL, REL**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a4a5f4ea-860a-4dfc-9b99-fbcc896cabe1)
+
+* Which are **DCFL**?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a97fb9d-e91b-4b12-8366-2d3a9aa63620)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/70c5c897-1a04-4054-94f1-5901ece7b48f)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7dc8dd75-beab-4146-9979-811394c468a1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/21cd2440-8ace-44cc-899f-3f7d0dfc751d)
+
+* [**IMPORTANT**]
+* **ww** -> Not CFL. It is **CSL**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e08f607c-8604-43e5-bd3a-fc9945a4e6d5)
+
+* No marker in **question '4'**.
+* Push **w**, skip **x** and pop **(W ^ R)**.
+* Right guess needed. So, it is **CFL**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae72a722-4b04-4afd-adc5-a6763c084824)
+
+* How we will know that **w** is over and **x** is starting?
+
+> Here **right guess** needed. 
+
+* How we will know that **x** is over and **(W ^ R)** is starting?
+
+> Here also **right guess** needed. 
+
+* We have to do **two right guesses** here.
+* This machine is with **2-places guess**, it means that on **two states** guess is required.
+* So, **NPDA** is possible. So **CFL**.
+* **NPDA** means with **right guess**.
+* It is **CFL**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/de179839-22ca-4cea-b69c-9589d451ced6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/600735b1-6a1a-4ba9-851b-b00f0de7b6f3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80ccf605-6a35-496c-b01d-8a86eb311bb1)
+
+* We can't know when first **w** is over and second **w** is starting/started.
+* We have to do **right guess**.
+* With **right guess** we have identified the **middle** where first **w** is over and second **w** is starting.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d39550f-b708-49d1-9cd2-8b22c5261e5d)
+
+* We have differentiated first and second **w** with **stack**, can we compare them using **1-stack**?
+
+> No. We cannot solve this using **1-stack**. Because first **w** is in **stack** and the top of the stack contains the **last symbol** of the first **w** but we want the **first symbol** of first **w** to start comparision with **second 'w'**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3dbd0676-0576-4e7e-acb9-bc7f0a704f58)
+
+* Even though we have done **guess** but with **1-stack** also we cannot solve.
+* This problem with **right guess** also we cannot solve with **1-stack**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e76b2e33-f029-4871-9b8a-22274525d1cc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2309c255-a085-4a8a-9961-3e89e8334f7b)
+
+* Question numbers:-
+
+1) Possible with **1-stack** but **right guess** required.
+2) **1-stack**, no-guess required.
+3) With guess also **not possible**. **1-stack** no way.
+4) With **right guess** we can solve the problem. Any no. of guess we can take.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/51de450f-080b-4591-9794-d94010144d34)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3212651e-c2b1-44bf-b36e-ab6aaa384c43)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9f923fb-6e54-41a8-92da-93f57e2a1af0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/28f2c399-e19c-49e5-aa58-89902ce31eb7)
+
+* [**IMPORTANT**]
+* Regular -> DCFL -> CFL -> CSL -> REL.
+* No dilemma, every string is coming.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9591815-fd00-42e9-8b46-c397e3fd044d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/421ae3e2-6d0b-4878-96dd-95bd073b95bf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6177d1fd-281b-45f3-8279-38688b6d5711)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f510575-62e3-4de6-9510-58bb81a4a2e0)
+
+* Everything **x** is eating. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57b0e0d1-090f-4251-973e-de868c8673cc)
+
+* **w and x** we can take anything.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31a0d12b-0eea-45eb-8dd0-669c09bfc420)
+
+* Why they all are **regular**?
+
+> They are generating **((a + b) ^ * )**. That's it. We can make **W and (W ^ R)** as **Epsilon** and **x** is managing **everything**. As **x** is managing **everything**, that why it became **((a + b) ^ * )**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6fee3a71-913e-4aa4-9813-470b91278341)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32bab0ce-286c-4c15-8a9d-049ff5458cc5)
+
+* We cannot take **W** as **Epsilon**.
+* We cannot neglect **W** as **Epsilon**.
+* We can take **x** as many things except **Epsilon**.
+* We can take **w** as anything except **Epsilon**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b3218d8-6e5a-480f-a13b-21ae2cf8c0d4)
+
+* w = ab, **(w ^ R) = ab, x = a
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e97a3740-f129-4653-a971-9b1bd16b5c9b)
+
+* It looks like starting with **a**, ending with **a** and in-between anything or, starting with **b**, ending with **b** and in-between anything.
+* Minimum **one symbol** required.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b6b9a3b-e729-4ef2-8f56-4cf2382d4b20)
+
+* It is **regular**.
+* regular -> DCFL -> CFL -> CSL -> REL.
+* In this problem also **x** is eating.
+* Except **first and last** symbol, **c** is eating everything.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8c4eea3e-ec13-4159-a580-5ac0c848ce1c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2337f9a-9dba-41c4-8c30-1fc73505aa0e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/94b760d2-be64-41a9-9fcc-21b504e84261)
+
+* **x** is eating everything except **first** symbol from **w** and **last** symbol from **(w ^ R)**.
+* All are **regular**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4aef930e-4f31-4b8b-8a4d-e0619547f518)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/10a858cd-2ac7-4dad-b6eb-315b368a2d0e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a510cc33-6938-4551-8539-54a25f7fd5a9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/64a57a91-89ab-456f-8b75-9238be60e0bd)
+
+* These all are **regular**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe3a947f-22f7-4b1d-b3d7-eecab8c72283)
+
+* It is regular as **x** is eating everything.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09f57ee6-819e-4685-a63d-2ff5a16ee9fc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d521685-643c-4fa5-a567-13bb3e37ac81)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6a19f24-0155-4c24-a24e-d91774f32f6a)
+
+* All are **regular**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d36f0cd6-c88f-43ab-a53a-9addb5cc3e29)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/587859c1-93bd-4b0f-8c1a-487cce47452c)
 
 
 
