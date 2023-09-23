@@ -11244,13 +11244,25 @@ b) Both non-regular -> Maybe possible, may not be possible.
 * **DCFL** means **CFL** also.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a741fe9-13fc-4fe4-9529-e81d96519118)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/48815216-c2b5-4971-9926-311600ad4775)
 
 * In **L1**, **b and c** are **equal**.
 * In **L2**, **a and b** are **equal**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/beeba258-5b46-4086-aede-03ed6794faad)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d77644f5-24f6-4111-bc8b-b0dc88a95580)
 
+* Almost all are **equal**.
+* L1 intersection L2 -> Not DCFL, Not CFL also.
+* We cannot construct **PDA**.
+* **Intersection** of **two DCFLs** need not be **DCFL**.
+* **Intersection** of **two CFLs** need not be **CFL**.
+* This is the **example**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8631c95-16dd-463c-9cd9-fa66149ce31e)
 
+* **i = j** means that **a's** equal to **b's**.
+* **j = k** means that **b's** equal to **c's**.
 
 
 
