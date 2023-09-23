@@ -11283,35 +11283,96 @@ b) Both non-regular -> Maybe possible, may not be possible.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/61a986ab-68e7-4195-9506-1b7bd160250d)
 
+* **L1 U L2** means **i = j** or **J = K**. Either one of them will **satisfy**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fffdf22d-c839-4bc5-b37a-7e9802d9397f)
 
+* **a** is coming in **S1** state and we have **Z0** at the top of the stack, we are **skipping**, if we are trying to **satisfy** the **j = k** condition.
+* **a** is coming in **S1** state and we have **Z0** at the top of the stack, we are **pushing**, if we are trying to **satisfy** the **i = j** condition.
+* For **same** state and **same** input symbol and **same** top of the stack, we are having **two different** behaviours. We may **skip** or we may **push**.
+* It will become **NPDA**.
+* **NPDA** means three things should be **same** -> Same state, same input symbol, same top of the stack and two different behaviour.
+* We have to take **one right guess** here.
+* This is not **DCFL**. It is **CFL**.
+* **Union** of two **DCFL** need not be **DCFL**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dee8ee13-15e6-4b76-848e-4c822a16b2b0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d129bb5-5c94-41a2-a0e0-b3559ef49e0e)
 
+* Don't worry about the **states**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e14784e0-0cc5-408d-914b-79f51aaaa740)
 
+* **Union** is **CFL**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/75c2a0d3-859d-4f04-8091-a6a096f77677)
 
+* Example
+* **a and d** and **b and c** are related. We have to do **comparision**.
+* By default, **Subset** not closed to anyone.
+* The **a's** are for **d**.
+* Until **d** comes the **a's** have to wait.
+* **a's** are pushed.
+* **b's** are pushed.
+* **c's** came pop the **b's**.
+* **d's** came pop the **a's**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5d5d714-c1af-42b0-876e-398e76ef8e41)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91e4ef37-c070-4d65-afb9-6646bb66d5e3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab5b74b1-3deb-4735-b5d0-08d98da199b8)
 
+* No dilemma, so **DCFL**.
+* **PDA** means **1-comparision**.
+* Here, we have **two-comparisions**, **a and d** and **b and c**.
+* At a time, **one-comparision** is going on.
+* There is no relation betwen the **comparisions**.
+* **b and c** comparision is done **first**.
+* **a and d** comparision will be done **last**.
+* When can we say, one paticular thing is **CFL**?
 
+> If anything can be done with **1-stack** that is going to be **CFL**. Instead of saying **1-comparision**, say like this.
 
+* We can solve the problem, using **one stack**. So, the problem is **CFL**.
+* Don't by-heart.
+* Go logically.
+* While solving if we are having **dilemma** or not?
 
+> If **dilemma** then it is not **DCFL**, it is **CFL** otherwise it is **DCFL**.
 
+* No **dilemma** -> **DCFL**.
+* **Dilemma** -> not **DCFL**. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f9ef8f18-4192-4fb2-9848-92df7f98f061)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd1dff64-12b3-4f57-bd71-0a87a675883e)
 
+* Two comparision here as well but **one-comparision** at a time.
+* Do either first one or second one.
+* Nothing is common here.
+* **OR** means we can go different path.
+* **AND** means we cannot do **different path**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e595a2c4-4af2-4d55-beb0-01d13e0f9c10)
 
+* We have to do **a and b** and **b and c**.
+* One common person(b) is there.
+* Two comparision and **b** is common.
+* For the two comparision, something is common(b).
+* **AND** means we cannot do **different path**.
 
+> If in **one stack** we can manage/satisfy the **PDA** which is nothing but **CFL**. While doing that nowhere **ambiguity**, nowhere **dilemma**. It is **DCFL**. [**IMPORTANT**]
 
+* No shortcuts, we have to follow the **logics**.
+* **one-comparision** that is **CFL**, we are ok.
+* Sometimes looks like **two-comparisions**, it is still **CFL**. That is actually **one-comparision** only.
+* Don't get **confused** by just looking at the problem.
+* With **one stack** cane we manage it?
 
+> if we can then it is **CFL**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d4920fa-f6ce-4672-95ab-8d427c91a2c5)
 
-
-
-
-
-
-
+* Minimal string -> abcd.
+* Start from 37mins.
 
 
 
