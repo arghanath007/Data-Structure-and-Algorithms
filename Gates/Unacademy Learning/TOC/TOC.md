@@ -12386,6 +12386,87 @@ b) Both non-regular -> Maybe possible, may not be possible.
 * After doing **union** they are **not DCFL**, they ar **CFL**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3fd1b813-d979-4893-bb0e-6b09b931b470)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b7aa605d-abc9-46f5-8481-3197bc1b6746)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/762c9157-6ec1-40e5-97a1-84efffaf0499)
+
+* **DCFLs** are not closed under **reversal**.
+* Most of the times **DCFL** fail.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/47b0d7bb-840e-46f5-a59e-5dffca21f275)
+
+* Write **CFG** for **(W * (W ^ R))**.
+* It is **CFG**, so it is **CFL**.
+* **Palindrome** will look like every side **same**.
+* We are doing **reversal** of **(W * (W ^ R))**.
+* **Reverse** the entire production.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/20bc8ca0-1c66-4084-9caa-8dc72d35cb2c)
+
+* As it is a **palindrome**, after **reversing**, it is the **same**.
+* So it is **CFG** which means it is **CFL**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7fa27c02-cf55-4b3c-9311-b7e654b21125)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ddc8024e-59bd-4232-8847-f44ad1b2e02c)
+
+* **CFLs** are closed under **reversal**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a30807ea-afee-4d58-81fa-344de4dcbb68)
+
+## Kleen Closure(a ^ *) | Positive Closure(a ^ +)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b8993c49-7dca-47e5-b762-32fb0013927b)
+
+* It is going to generate either **a or b**.
+* For the language **L** we have a grammer, **S** goes to either **a** or **b**.
+* For the language **(L ^ * )**, we want to **add**, the **SS** and **Epsilon** to **L** to make it **(L ^ * )**.
+* **(L ^ * )** -> S -> L | SS | Epsilon
+* S ->  a | b | SS | Epsilon
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c18cfc40-f450-462c-9ff4-caf2d61485fe)
+
+* For **(L ^ + )**, just add **SS**.
+* **SS** will give **repeatation**.
+* **(L ^ + )** -> S -> L | SS.
+* S ->  a | b | SS.
+* **CFLs** are closed under **Kleen Closure(a ^ *)(KC) and Positive Closure(a ^ +)(PC)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be88281a-24c7-4be0-9018-cfe550ba8d61)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/28e05de1-ac77-453e-9059-fe7d4548d0c5)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72f58f8a-bae8-476f-bf89-7f77eff626a8)
+
+* It is **DCFL**.
+* **Union** means **plus(+)** operator.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
