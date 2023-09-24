@@ -12334,14 +12334,58 @@ b) Both non-regular -> Maybe possible, may not be possible.
 
 * [**IMPORTANT**]
 
+## undecidability-v (44) [24th Sept 2023]
 
+* DCFL is not closed under concatenation.
+* CFL are closed under concatenation.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6dfb4a42-bc75-47f7-8fc0-e46f0c14195b)
 
+* In **L1 * L2** there is **no relation** between **((a ^ n) * (b * n)) * (c ^ m)**, that's why instead of **c * n** we have written **c * m**, to demonstrate the **no relation**.
+* Two different things we are keeping **side by side**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ad33d8a-7961-4c2e-ac14-7a2ae8f43220)
 
+* Example.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1457d33c-7fbe-4615-ae45-d732079bbb15)
 
+## Reversal Operator.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/45e79a41-7430-4e74-b432-a69ee22c06b7)
+
+* They are **DCFL** individually.
+* String starting with **a**, **a** push and **b** pop.
+* String starting with **c**, **c** skip, **a** push, first **b** skip and second **b** pop.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b3630dc-6d28-4a4d-9773-181d56a35e2a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6fe264dc-0668-4c92-9437-9fdfea2098ba)
+
+* Marker(c) is there. It is giving clarity.
+* No dilemma
+* So it is **DCFL**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f015d06b-be8e-496b-a626-f904766cd4d6)
+
+* Normally **union** of **two DCFLs** is not **DCFL** but here **union** of **two DCFLs** is **DCFL**.
+* If we remove the **marker(c)** then it is **not DCFL**, it is **CFL**.
+* First **a** coming is **first part**.
+* First **c** coming is **second part**.
+* It is **DCFL**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ebaeea8-523e-46ea-80e5-94dad69a3838)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/140dda9b-c13b-4db0-8422-7dc6d8ed1e65)
+
+* After the **reversal** operation is done.
+* According to the **first part**, first b coming then push and pop for a.
+* According to the **second part**, first b coming then skip.
+* First language starting with **b** and second language also starting with **b**.
+* We are getting some dilemma.
+* So, it is not **DCFL**, it is **CFL**.
+* Individually they are **DCFL**.
+* After doing **union** they are **not DCFL**, they ar **CFL**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3fd1b813-d979-4893-bb0e-6b09b931b470)
 
 
 
