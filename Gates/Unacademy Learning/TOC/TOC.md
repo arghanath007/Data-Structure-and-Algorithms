@@ -11983,6 +11983,172 @@ b) Both non-regular -> Maybe possible, may not be possible.
 
 * [**IMPORTANT**]
 
+## undecidability-iii (43) [24th Sept 2023]
+
+## Closure Properties
+
+### Union
+
+* L1 -> CFL -> DCFL.
+* **a** coming **push** and **b** coming **pop**.
+* **CFL** is **bigger**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b17a5d49-c5a7-4388-a94f-d2f2dfb14661)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80d39fd3-49be-46b3-8999-f83b6b9721ac)
+
+* L2 -> **a** coming **push**, **first b skip** and **second b pop**.
+* Min of **1-a** required.
+* first **b** coming and top of the stack is **a**, **skip** and go to **S2** state.
+* second **b** coming and top of the stack is **a**, **pop** and go to **S3** state.
+* third **b** or the first **b** of the next **bb** coming and top of the stack is **a**, **skip** and go to **S2** state.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd156a5c-c423-4031-afda-aa15bc0ad226)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/237cc772-fb3e-4a2d-8b2f-85e8928d60f6)
+
+* All a's pushed we are in **S1**.
+* First **b** skipped we are in **S2**.
+* Second **b** popped we are in **S3**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5b8d35d-d7bf-498f-8847-ebbf48c97ece)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cdf8e98c-e2b7-48fe-ba16-e0f77b8e75f3)
+
+* [**IMPORTANT**]
+* PDA accepted by final state.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/985d0efa-aecb-446a-af9b-2ce4d3b1f96a)
+
+* **L2** logic -> **a's** push, first **b** skip, second **b** pop.
+* No dilemma
+* So, it is **DCFL**.
+* L2 -> DCFL -> CFL.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e0c5c6a3-16be-46e9-8895-99c72bc5fed2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/794d2eb7-aa1b-4509-8094-748d071048db)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ca61bd11-6c42-4114-8e7f-b7cc32cea506)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a312f82b-ee01-4c31-bed5-0d0637253648)
+
+* We are getting **dilemma**. So it is **CFL**.
+* Union of two **DCFL** need not be **DCFL**.
+* Union of two **CFL** always **CFL**.
+* DCFL's are not closed under **Union**.
+* CFL's are closed under **Union**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/03301fb7-95fd-4d36-afba-ed64b898f952)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/614d0eab-f6cf-4a09-90c9-3d36f9337acb)
+
+* For any language if we can construct the **CFG** then the language is called as **CFL**.
+* For any language if we can construct the **DPDA** then the language is called as **DCFL**.
+* For any language if we can construct the **NPDA** then the language is called as **CFL**.
+* For every **DFA**, regular grammer is possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d2bcfb17-382a-48cc-991e-5649ab74833f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37bfa925-7a71-4c47-bd4b-8ed7a8cbadfa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e0c8e786-05da-4650-9215-5aa4babd3b2a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1786c94f-6f3f-48cb-803f-e24f4c116241)
+
+* After **Union** it became **CFL**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b30e39da-b759-4a6a-9bfb-9a5c20e3e8a9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bdf622fa-62c0-4d18-b1b2-229668d05273)
+
+* We added **c and d**.
+* By seeing first symbol **c**, push **a** and pop **b**.
+* By seeing first symbol **d**, push **a**, first 'b' skip and second 'b' pop.
+* No Ambiguity as they are going in **different paths**.
+* They go at same path, same state, same top of the stack but the behaviours are **different**, then there is **problem** and it is **NPDA**.
+* But in the **above** one starting only they **differ**. No Ambiguity there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2743293-ec65-4a4f-8bee-921927e6963b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe13a4e8-a6d1-4cdf-88b0-561846b08dde)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bff62c50-105c-4e11-8db0-ac149f79f6ba)
+
+* Both languages are starting with **a**, they will go in the same path, at one place they differ, when they see the **first 'b'**. One person saying they will **skip** and the other person saying they will **pop**. There they **differ**.
+* By seeing **first 'b'** different behaviours are coming.
+* Non-determinism means both are going on the same path, same state, same input symbol, same top of the stack but two different behaviours.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a57ef925-0600-4875-90d0-c16c20106465)
+
+* Here, they are going in **two** different paths starting itself.
+* Individually they are **DCFL** and overall as well it is **DCFL**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be8afeaf-6ef1-41a1-978e-8812e0e42236)
+
+### Intersection
+
+* **DCFL** is not closed under **intersection**.
+* **CFL** is not closed under **intersection**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fdc2d53d-8222-49c4-b2b1-4d364e7e5264)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5efb6e22-e5a5-46da-a153-7f5a5e1c385f)
+
+* In intersection of **L1 and L2**, **a, b and c** all are **equal**.
+* L1 intersection L2 -> It is CSL.
+* Intersection of two **CFLs** need not be **CFL**.   [**IMPORTANT**]
+* Intersection of two **DCFLs** need not be **DCFL**. [**IMPORTANT**]
+* Both are not closed(CFL and DCFL).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65ca9157-e175-458b-ab54-d235aa3d9ebf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58a152d5-928e-4e6f-92da-c8dada3aca70)
+
+* Intersection, all should be **equal**.
+* a = b = c.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f0c1790-1a3f-4e56-9fd8-0ab50e8cf2bf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30f07558-a643-41c5-ba7d-53b2aeee32c2)
+
+* According to **L1**, all people **equal** should be there.
+* According to **L2**, all people **equal** should be there.
+* In the **intersection** point, all of them(a,b,c) are **equal** which is **a = b = c**.
+* **L1 intersection L2** contain all **equal** people.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ef08f13-13d0-4049-9dec-1ca89c68f0cf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81d3b09d-d93f-4df9-afd1-b10148ccebba)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb375007-41c6-44a8-86ec-8bd021ef6db1)
+
+* Few are missing in **intersection**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a06a66c5-5f3d-433e-a30a-ab4b30829a75)
+
+* [**IMPORTANT**] 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/641055c1-03d1-4605-8a57-7486cdf6d05c)
+
+* Intersection means equal people only will come.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ddd979c5-61ae-4134-b8e9-755187fc3526)
+
+### Complement
+
+* (a ^ n) * (b ^ n) -> It is **DCFL** -> **a** push, **b** pop.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af9524cd-faa0-41f3-b80d-a867aa3b9850)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc4d5bd3-b553-4ce1-b100-24351699ad7d)
+
+* m != n -> Either **a's** is more or **b's** are more.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
