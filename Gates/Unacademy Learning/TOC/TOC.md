@@ -12129,19 +12129,210 @@ b) Both non-regular -> Maybe possible, may not be possible.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc4d5bd3-b553-4ce1-b100-24351699ad7d)
 
 * m != n -> Either **a's** is more or **b's** are more.
+* a's more or b's more still go to final state.
+* **DCFL** are closed under **complementation**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/40f359f6-27f1-4b9e-91a6-77f750412783)
 
+* Final condition to go to final state is different but everything else is same.
+* **DCFL complementation** closed means that if some language is **DCFL** then it's complementation is also **DCFL**.
+* Just interchange the **final to non-final and non-final to final**.
+* Construct for **(a ^ n) * (b ^ n)** and do **complementation**.
+* DCFL closed under **complementation**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8ae1686-73ed-499c-8c8e-981a73728f40)
 
+* It is exactly like **DFA**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12d3d56f-7163-43b7-a38f-c02b48a2d3fb)
 
+* **(a ^ n) * (b ^ n)** accepted.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0241d39e-58cf-4d41-b1f1-05ed540549ec)
 
+* Except **(a ^ n) * (b ^ n)** everything is accepted.
+* The things we didn't cover will by default go to **dead state**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/baff7e45-ed88-498c-85c6-2e876e66e4e8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5892be6-b508-4aa0-8335-991ced11b7c1)
 
+* **L** is **CFL** but **L'** is not **CFL**. It is **CSL**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3719b23e-32af-4c71-803e-d112073b8104)
 
+* **L** is **CFL** but **L'** is not **CFL**. It is **CSL**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e81b932-149e-4396-b4c8-33463677f773)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ccaf847b-25fe-4453-9661-d6bc67eb0def)
+
+* All boys completement is **other than that**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba6e9f0e-6ce2-4c5e-8b87-ad057e0a7d59)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2503387a-63a4-4ad4-9702-e4359e94a52e)
+
+* CFL's are not closed in **complementation**.
+* L = {a ^ P | p is prime}
+* Is it regular?
+
+> It is **non-regular**
+
+* Regular language are closed under complementation.
+* If **L** is regular then **L'** is also **regular**.
+* If **L** is **non-regular** then **L'** is also **non-regular**.
+* Both having **DFA** or both not having **DFA**.
+* Final to non-final and non-final to final conversions.
+* Closed means both are having **DFA**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3cebb8ae-e62c-4382-a1a1-f07cccea44f5)
+
+* We don't need to check **L'**. Either both are **regular** or both are **non-regular**.
+* We have to apply **closure properties** first and then try **manually**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b6e580b5-2cd4-450c-9ca8-5df4f118fc34)
+
+* **DCFL** are closed under **complementation**.
+* As **L** is **DCFL**, so **L'** is also **DCFL**, we don't need to check.
+* We know it via **closure properties**.
+* We don't need to construct also.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0ede164-09b4-4b27-92f4-34fc2e6d870c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/23ee56cb-c380-4f5c-be63-22c87a631994)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6876219e-553d-4ae9-8716-606c5327ce46)
+
+* Because DCFL's are closed under complementation.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5f83d059-d116-48f7-81a6-1aa8e119e40e)
+
+* **L** is **CFL**.
+* **CFL** is not closed under complementation.
+* So, **L'** maybe **CFL** or may not be **CFL**.
+* Here, **L'** is **CFL**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2934dc00-5f49-42bc-a4e5-806a28117b69)
+
+* Apply **closure properties**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27d69d46-46dd-45c0-9b2a-78b96822e2e8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/de82d1be-20d2-4e4a-902b-12c4b4773bb0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2fc3fd63-7af5-4640-a703-de42adbe0b5f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/302fa000-4ce2-4237-a28c-01be3ef48011)
+
+* Because CFL's are not closed under complementation.
+* Try manually.
+* Manual things normally not given in exam.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b1dd8af-98c1-4ad6-8699-48579dac51c1)
+
+* **L2'** complements means **other than L2**, all outside people will come, including **L1**.
+* (L1 - L2) -> L1 people but not L2. **Common part** we have to remove.
+* L1 and L2 both are **DCFL(D)**.
+* Complementation of **DCFL** is **DCFL**.
+* **DCFL'** is **DCFL**.
+* Complementation of two **DCFLs** maybe **DCFL** or may not be **DCFL**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76981356-0bf3-4cdd-9f02-a80bd2926809)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b1da661b-b1ef-4845-ba80-5f4c3b628c08)
+
+* **DCFL** is not closed under **Intersection**.
+* Maybe **DCFL** or may not be **DCFL**.
+* While doing the **difference** operation **DCFLs** are failed in **intersection**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e00c01f-e01a-49ae-8b05-482c9cf41b16)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6bf5c181-4025-4ef6-9d56-35c2b2a57484)
+
+* **L1 and L2** are **CFL**.
+* **CFL** complementation is not closed. It is sometimes **CSL** also.
+* **CFL** complementation, problem is coming.
+* **CFL** intersection, problem is also coming.
+* **CFL** is failing in **two places** which are **complementation and intersection**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b72b5ac-940b-46ec-8192-29fa6c3c0c77)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58597822-4baf-4032-b1fd-1fcdad1a5ae3)
+
+* **DCFL's and CFL's** are not closed under **difference**.
+* Most of the time **DCFL** fail.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34873726-ab6a-4b62-9d75-f600a78fd549)
+
+* Regular language are closed under **complementation**.
+* Intersection of **smaller and bigger** one is **bigger one** only. [**IMPORTANT**]
+* **CFL** is the bigger one here.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/371f9185-bd46-42a2-83c2-4ac17e91664b)
+
+* Union of **smaller and bigger** one is **bigger one** only. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd63631c-c5fb-463b-9763-8945455a60d9)
+
+* Intersection of **CFL and regular** is **CFL**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2cba6967-5021-4a0f-9c95-45138d612557)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/26c24fb8-2b68-4d8c-bfdb-2340169fc845)
+
+* We are getting **CFL**.
+* Intersection of **bigger and smaller** one, **no gurantee** of the **smaller one** coming but the **bigger one** will be **guranteed**. [**IMPORTANT**]
+* Union of **bigger and smaller** one, **no gurantee** of the **smaller one** coming but the **bigger one** will be **guranteed**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d8a8f60-483d-4947-bf4d-3f171bd9f6e8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc551a25-92e3-42c9-92e9-4c55be6ab8fd)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe417501-3bea-4071-bcf5-2d0f3838d65d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9c6436ed-49bd-490b-95c8-1a0ce448ed8a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c2981ea-5b90-48b1-a0d9-c3f9df2dec6f)
+
+* When **not closed** then we have to go for **manual checking**.
+
+## Concatenation
+
+* DCFL's not closed under **Concatenation**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd9d2735-6bbc-4094-91b7-cf06c7076379)
+
+* Both are **DCFL** individually.
+* We are doing **Concatenation**
+* **(a ^ n) * (b ^ n)** -> Logic is **a** push and **b** pop.
+* **(a ^ k) * (b ^ (2 * k)** -> Logic is **a** push and first **b** skip and second **b** pop.
+* Individually we check and they are **DCFL** individually.
+* After **Concatenation** what is the logic?
+
+> **a** push and **b** pop then **a** push, first **b** skip and second **b** pop.
+
+* One story followed by another story.
+* No dilemma.
+* Overally it is **DCFL** as well.
+* First and second story no relation at all.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6316e5d6-17c9-478d-9a6a-b1bca41e06e8)
+
+* It became like **union**.
+* If **n = 0** then **(a ^ n) * (b ^ n)** is **0** and then **(a ^ k) * (b ^ (2 * k)** will come.
+* If **n = 0** then **second part** will come.
+* If **k = 0** then **first part** will come.
+* This is **CFL**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af65b151-89a1-49f2-8458-e0f8f3a73916)
+
+* If first **b** coming then what we should do?
+
+> We don't know if first **b** belongs to first or second part. If first **b** belongs to **(a ^ n) * (b ^ n)** then **pop** and if first **b** belongs to **(a ^ k) * (b ^ (2 * k)** then **skip** 
+
+* Overall is not **DCFL**. It is **CFL**.
+* We did **concatenation** but it is behaving like **union** because of **n, k >= 0**. If **n = 0** then **second part** will come. If **k = 0** then **first part** will come. It looks like **union**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9c5d9b7-b2f5-4405-b18e-2ad3bb7caa1c)
+
+* Yes.
+* **n, k >= 1** then it will be **concatenation** only and not **union**.
+* It is going to be **DCFL** now for **n, k >= 1**.
+* **CFLs** are closed under **concatenation**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce4aadbd-30d0-4da4-a899-61dfce749e58)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/38276700-d9ff-4426-899b-3eaa521a402c)
+
+* [**IMPORTANT**]
 
 
 
