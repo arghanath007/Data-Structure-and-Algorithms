@@ -11662,12 +11662,162 @@ b) Both non-regular -> Maybe possible, may not be possible.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d36f0cd6-c88f-43ab-a53a-9addb5cc3e29)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/587859c1-93bd-4b0f-8c1a-487cce47452c)
 
+## undecidability-ii (42) [24th Sept 2023]
 
+* Consider the following PDA, for the language L = {Set of all odd length palindromes over (a,b)}
+* W * (W ^ R) -> Even length
+* W * C * (W ^ R) -> Odd length -> It is **DCFL** as there is a special marker(C) in it.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8bfa8d9e-8332-4a3e-910b-4ce7915c6279)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bd9e8172-88ec-4282-8de2-aa3db149a4ef)
 
+* If we don't keep anything in the **middle** then it is **even length**.
+* If we keep either **a** or **b** in the **middle** then it is **odd length**.
+* Marker should be there.
+* If marker not there then it is **CFL**.
+* NPDA possible then **CFL** possible.
+* DPDA possible then **DCFL** possible.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9dc60b33-673d-46dc-9120-266d0c502ead)
 
+* W * C * (W ^ R) -> Odd length and special marker(C) is there -> It is **DCFL**.
+* Odd length but no special marker(C) is there -> It is **CFL**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb6cb1fd-75df-47da-850d-c1d7dab9bb7b)
+
+* This is **odd length** but no special marker(c) here. So **right guess** required which makes it **CFL**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a69b8db-4a6c-406a-b132-4c33fcc7506b)
+
+* First and the last symbol we are checking.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b11ebf68-5119-4a29-be7b-46e787739d2d)
+
+* **w** can start with **a** or **b**. So, we are writing **a, z0 | z0** and **b, z0 | z0**.
+* **w** finished. The **middle** is not part of **W * (W ^ R)**, so we are **skipping it.
+* Middle can be either **a** or **b**.
+* Middle is acting as the **marker** here.
+* When the **middle** is coming then **anything** can be on top of the stack.
+* After **w** completed, top of the stack is the **last symbol** of **w** and it can be **anything**.
+* Marker can be **a or b** and top of the stack can be **a or b**. So, total 4-combinations possible.
+* In **S2** state means that **(W ^ R)** is starting and we have to **pop**.
+* We cannot write all possibilities here, it is a **palindrome**, the last symbol of **w** which is at the top of the stack should match with the first symbol of **(W ^ R)** which is the **input symbol**. Both should be **same**, if they are **palindrome**. That's why we have **a,a | Epsilon** and **b,b | Epsilon**. We want matching symbols.
+* String ended means **Epsilon** has come and top of the stack is **Z0** so **skip** and go to **S3** which is the **final state**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f4d15c51-a25a-41ec-9ee4-3dcfd267a0ff)
+
+* Odd length minimal means **a or b**.
+* Only a, Only b -> They are **palindrome**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a67baec4-19b1-434a-a83f-5f39106ab998)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3342f0e-60f1-4e51-a54a-e5a7401248f8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/82fcb175-b2d4-4a44-b86f-dd199cfb4cb9)
+
+* This is the reason it became **NPDA**, **a,b | ba** and in the transition line we have **a,b | b**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a56a09bf-35f3-4a8b-8250-58ed06bceee5)
+
+* Assume marker **c** available -> w * c * (w ^ R).
+* Then it is **DPDA**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a0e019c1-6bd8-4f26-bcaf-830d2c7bac89)
+
+* In instead of 4-combinations in the transition line of **s1**, we have 2-combinations now. The top of the stack can be **a or b** and **c** is coming which is the **marker**.
+* **Marker** means clearly differentiation possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a11c63e-2c3e-477c-a8ba-acf6b9f110fd)
+
+* In-between marker there then minimal string is **c**, **w** we can take **epsilon**.
+* When **c** coming top of the stack is **z0**.
+* Only **c** also we should **accept**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44211b27-5e40-4f90-8471-7dcabdcae955)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1586ea26-3aa0-4d00-88d9-372fab44bbbb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ac4434d-a738-4b76-8c0b-d49a6c14ddba)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/68bb6340-a2ac-450b-8128-406bd9947fdd)
+
+* This is **odd length palindrome** with **marker**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41dc3a6d-ea87-4ada-abe0-3a1ae5743487)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89cda7e0-b0c0-47b2-95bb-d887867dc29e)
+
+* No confusion, so it is **DPDA**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e2e9d5df-1d09-4ab5-9223-3ca696d9f9c8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a577440-829a-4430-b27f-effe46b9e02a)
+
+* Odd length palindrome
+
+1) With marker, (w * c * (w ^ R)), it is **DCFL**.
+2) Without marker, (w * (a or b) * (w ^ R)), it is **NPDA** which is **CFL**. Right guess required.
+
+* (w * (a or b) * (w ^ R)) -> (w * a * (w ^ R)) -> (w * b * (w ^ R)) [We can take either **a** or **b** as the middle]
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36e6f6a2-cf01-4daf-836f-313a130b2c5b)
+
+* We have 6-possibilities at **S1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/738cfca9-672a-47c2-9ab5-dbf59843d94d)
+
+* Anything of **w** comes, we should **push**.
+* **a** coming and top of the stack is **Epsilon**. Top of the stack normally contains **Z0**.
+* **a** coming and top of the stack is **Epsilon** means even though top of the stack is there it is not seeing.
+* **a** coming and top of the stack is **anything**, **push 'a'**. No need to see the **stack** also.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cfdc5d0b-a9c5-4ee5-803d-895217e54632)
+
+* It means we are not seeing the stack. (a, Epsilon | a).
+* **a** coming and top of the stack is **anything**, **push 'a'**. **Epsilon** means we are not seeing the top of the stack.
+* (a, Epsilon | a) -> Before the operation top of the stack is **zero(0) length** and now it is **1-length**, so it is **push** operation.
+* Without seeing the top of the stack **push**. This is called as **blind push** operation. We are not caring what is the top of the stack.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36e679f4-a2dd-4f51-afc0-b65ff7e6e90c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2ddf595-91f7-4783-98a9-1cfca1a59caa)
+
+* Every though we have seen the **stack**, we are anyhow **pushing**.
+* We have decided whatever it maybe we want to **push**, why we want to see the top of the stack. We have decided to push anyhow. We want to **push** anyhow.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b134cb4b-a9ae-494f-b48a-a4cb5d6ee94e)
+
+* (a, Epsilon | a) _. If input symbol 'a' coming without seeing the top of the stack simpy push 'a'.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e2eb601-3cc0-416b-881d-3df4c21d4561)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e351d8d8-ed92-4ba7-92b5-af59bb19e058)
+
+* We are not seeing the top of the stack -> **NPDA** problem.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d4b2fd2-4fb9-46ef-ad02-527339689632)
+
+* Before **0-length** afterwards also **0-length**.
+* Top of the stack whatever previous now also same.
+* When **c** coming, top of the stack can be anything, keep as it is.
+* **DPDA** means **NPDA** also possible.
+* **DPDA** means without guess.
+* With guess also possible which is **NPDA**.
+* Top of the stack **Epsilon** means we are not seeing the top of the stack, top of the stack can be anything.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31aa6fd1-8b19-4634-85d5-e90a1a7f23c3)
+
+* [**IMPORTANT**]
+* In two cases we can say the given is **NPDA**
+
+1) Same state, same input symbol, same top of the stack but two different behaviour.
+2) Top of the stack is **Epsilon**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/02581858-3d16-4ee9-8575-e70c00ef56c4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/49e9ff99-0ada-4142-9270-a165ffa74472)
+
+* For every **DPDA**, **NPDA** is possible, How?
+
+> Not required to take a guess. Top of the stack can be **anything**. We don't care what is the top of the stack.
+
+* Because of **blind push** it became **NPDA**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/075fdc59-8eab-429a-b8de-77d64ee869f0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a4144f52-7bf3-4292-9551-36da2afd7e71)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1e63fa4-00dc-4d3c-899c-9e41c7aa93bb)
 
 
 
