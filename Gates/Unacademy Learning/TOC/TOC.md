@@ -12440,6 +12440,169 @@ b) Both non-regular -> Maybe possible, may not be possible.
 * It is **DCFL**.
 * **Union** means **plus(+)** operator.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a05dfcd0-a5e0-4606-b282-d77780427d62)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d308b915-ad14-4f7d-a56e-d42096868edf)
+
+* It is **DCFL**.
+* If **k = 0** then we will get the **first part**.
+* If **n = 0** then we will get the **second part**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57b422d3-4415-4e3f-be73-7c2ed3aff0c0)
+
+* If it is a **concatenation**, **c** belongs to both the **parts**.
+* Everytime **c** will come.
+* Every string starting with **c**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2d6998d6-1c92-4860-b9fd-b1abb717ff26)
+
+* First **a** everywhere **push** and when first **b** coming **dilemma** is there.
+* Individually they are **DCFL**.
+* After doing **kleen closure(Star( * ))**, it is **not DCFL**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e85a46f1-9aa9-45f2-839f-0832740ca53e)
+
+* **L** is **DCFL** and **(L ^ * )** is **not DCFL**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f88a2b3d-02ee-4bcb-8eaf-2bd4ff7d7f4d)
+
+* [**IMORTANT**]
+
+## Prefix
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/776a32f6-84b4-4589-aef8-2d84745d0a1c)
+
+* For prefix we have to concentrate on **first part**.
+
+* For the language **L** we have **CFG** for the **prefix of 'L'** also we have **CFG**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/739f928b-16ac-43a0-8b77-5a388d06a1fa)
+
+* Don't write **suffixes**, write **prefixes**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80c8de00-760b-4511-84cd-cc321b41a787)
+
+* **CFLs** are closed under **prefix**.
+* **DCFLs** are closed under **prefix**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35dc98de-3e72-4d8a-b3e9-cd17ca3e386b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/11088590-faa6-49f3-8c98-0a227ae0de26)
+
+## Suffix
+
+* **Suffix** means we have to start from the **righthand side**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/daa1543e-33e1-42a7-ba98-e839d62d0a36)
+
+* As we are taking **suffixes**, we don't know exactly what to do.
+* **First 'b'** skip, second **b** push. The **b** on the second language has to **push**.
+* We don't know what to do.
+* We are in **dilemma**.
+* **Suffix** means from **ending** we have to take.
+* **Reversal and taking from the end** are two different things.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a14352e5-1398-431c-ae64-a03ff451d35d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1165a3f0-74d2-48bb-82ab-96b95b3bf09d)
+
+* Starting with **a**, we don't know if it is **first part or second part.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3caf9ac2-0cfb-4d75-8172-08b60676983d)
+
+* Original language not having any problem. After **reversal** problem is coming. 
+* **DCFL** are not closed under **suffix**.
+* **CFLs** are closed under **suffix**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/78fae03e-f3ba-4987-9c84-c4c045223d8e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/38acbaf5-c5e7-4d62-b045-e32a4bad17b4)
+
+* For **suffix** write the **ending parts**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd944c35-bc5f-4343-a76d-75c2e3332277)
+
+* **Reverse and suffix** are different.
+**CFLs** are closed under **suffix**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33e650f7-04b7-430f-b5cc-b79eeeca23a8)
+
+* Evrey **suffix** is a **substring**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9fef50e9-bf2a-4d17-86e2-3d46d019ca29)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/68f995ad-9e5e-4f81-b29f-b0ad6d47d8ce)
+
+## Subset
+
+* Regular means **DCFL, CFL** also.
+* Subset failed by all/everyone.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/adddfe6d-d0b9-4ebc-b7e5-8c6b88b83b84)
+
+* If we take **finite subset** then **finite language** is **regular**.
+* Every **finite language** is **regular**.
+* regular -> DCFL -> CFL.
+* Finite pass but subset fail.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/61f8ebfd-7f73-4f78-90af-c65d9a1ab9e0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c5cb4d7f-b977-44ff-a4f8-cae011d2fa0a)
+
+* If question given, try to solve it using **closure properties** first and if not possible then only go to **manual checking**.
+* Please don't do directly. [**IMORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1efe2f5-c1d8-403c-a137-ff2469dedf92)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a0a57a80-22b6-417c-89c2-b6089e8fbc65)
+
+* DCFL are closed under **complementation**.
+* CFL not closed under **complementation**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a74f1ad-6a04-46fa-9b4a-7ba0832c5971)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6319ed81-3715-43a2-9ea1-83fdc2e12cf8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/925c437c-7b3d-4cfe-bfac-e2a10d84c1f6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c231ab90-7dbc-485b-8f64-0d852945b393)
+
+* **(a ^ p)** is **non-regular**, where **p** is prime.
+* **(a ^ p)** is also **non-regular**, where **p** is non-prime.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f8e7ccdf-f298-45b2-b2f2-7cc7dc9464e0)
+
+* Language **L** is nothing put set of all strings and every 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/75366293-4128-444b-b4e8-1dc05c1e0d0f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/06e6951b-7e56-4fcc-bfd1-be2d5136ce41)
+
+* It is **non-regular**.
+* It also means that **((a ^ m) * (b * n))** and **m != n** is also **non-regular**.
+* Language **L** is a set of all string where every length string is divisible by 5. It is **regular**, so **not divisible by 5** is also **regular**.
+* **Union** of two regular language is also **regular**.
+* Two **CFL**, **L1 and L2**, **intersection** maybe or may not be as **CFL** is not closed under **intersection**.
+* If clarity not there then do **manual checking**.
+
+## Decidable Problems of CFL
+
+1) Emptiness of CFL
+2) Finiteness of CFL
+3) Membership of CFL -> **x** is a member of the given problem or not.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f74000ed-59d5-4375-a5aa-13474d164e72)
+
+* Finite automata is nothing but a directed graph.
+* Two Finite automatas are equal or not, it is **decidable**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0161201b-3424-460e-9995-dc7fc27cc253)
+
+* Few of the **decidable problems**.
+* This is not for **DCFL**, it is for **CFL**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4ea4ea0a-f7be-400c-94e6-daa454c693bc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a5b10c3-2f52-4a2a-bb9c-7b8b4ca0058f)
+
+* CFG -> Left hand side single variable
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1718451-f9e6-4369-bed3-dfee32161029)
+
+* The language is **empty language**.
+* Algorithms are there for the **Decidable problems of CFL**.
+
+
+
+
 
 
 
