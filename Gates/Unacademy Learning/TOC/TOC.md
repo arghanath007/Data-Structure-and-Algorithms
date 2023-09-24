@@ -11818,6 +11818,171 @@ b) Both non-regular -> Maybe possible, may not be possible.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/075fdc59-8eab-429a-b8de-77d64ee869f0)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a4144f52-7bf3-4292-9551-36da2afd7e71)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1e63fa4-00dc-4d3c-899c-9e41c7aa93bb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d10ea5f4-18b7-4a8a-8a1c-235dc9641ce5)
+
+* Example
+* End marker is **Dollar($)** only.
+* String is ending with **Dollar($)** only.
+
+* Options:-
+
+1) Regular and infinite
+2) DCFL but not regular
+3) CFL but not DCFL
+4) Finite language
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d5069c7-ab5d-4382-9354-19749afbf3d6)
+
+* On **s1**, transition is that when **a** coming **push**.
+* Only first **a** push.
+* After **a** push is over, top of the stack is **a**.
+* Anything is coming and the top of the stack is **a** then **skip only**.
+* In **S2** we are skipping many symbols.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2954b7aa-44ee-48d2-bd77-adabe3a15940)
+
+* **b** coming and top of the stack is **a** then **pop**.
+* In **S3** state no symbols are coming. It means that for **last 'b' pop**.
+* First **a** push, **last 'b'** pop and in-between anything skip.
+* **Dollar($)** is coming and top of stack is **Z0** so **skip** and go to **S4** which is **final state**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/742ba706-942f-49a4-910f-6b8f5517dede)
+
+* We got some **dilemma** also because we have **b, a | a** and **b, a | Epsilon**, we have same **same state, same input, same top of the stack but two different behaviour**.
+* So it is **NPDA**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a90bba1b-cf9a-48d3-8448-6259e140de67)
+
+* First **a** push, **last 'b'** pop and in-between anything.
+* We have changed the state from **S1** to **S2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/710e8a75-807b-4fcb-bb18-aaf257d6f5a2)
+
+* Minimum **1-skip** we have to do.
+* Language -> (a * ((a + b) ^ + ) * b) [**IMPORTANT**]
+* Atleast one symbol required because we changed the state also.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/708a490b-f755-4359-bcb1-1b55f3051432)
+
+* [**IMPORTANT**]
+* It is **regular** and for the whole plus(+), we can have **infinite** symbols.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/04b78b33-3c0a-46fd-9a8c-e2fc92cd6acc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/524a4664-ea0c-4a1e-81f0-adff0df8214c)
+
+* Option **A** -> Regular and Infinite.
+* [**IMPORTANT**]
+* The language is **DCFL**.
+* Given **PDA** is not **DPDA** but the language is **DCFL**?
+
+> We will write one more PDA then DPDA possible. DPDA possible.
+
+* Language of the **NPDA** is **regular**.
+* **regular** means **DCFL**.
+* Most of the **NPDA**, regular expression is not possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/113121e4-ee84-425e-b001-2bb928cad4ab)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8cafd2a2-b909-4e48-94ff-f6da37d4b63c)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/52c3f811-a1d8-4333-a967-863b6300f987)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72b7b442-0f9f-478a-8539-c4a4147460e1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d9ea10f7-9ee8-4c59-afc0-fa8c9dd883df)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a9997312-0954-4ab8-ab1c-9729e4cf5dd4)
+
+* Minimum **1-a** needed otherwise we will not get **a** as the top of the stack.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee47eddc-30aa-4cfd-8bd1-597226fd65dd)
+
+* any -> a or b
+* anything pop.
+* End of the string **dollar($)** is coming at top of the stack is **Z0** go to **S4** it is the **final state**.
+* As many **a's and a'b** combined we have that many **c's** we had.
+* c =  a + b.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e506e27-7c5e-4637-8561-a89f13c66f9b)
+
+* Yes.
+* Minimal string -> m,n >=1
+* Language looks like -> (a ^ m) * (b ^ n) * (c * (m + n)), m,n >= 1.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31311a39-b3b5-4f18-8896-03f151f42f3c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6da655d3-eb66-4e09-9e3f-228a4b82e39f)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2efb90d4-1133-48f1-8b96-d621713ceff8)
+
+* Deterministic -> Solving.
+* Non-Deterministic -> Vertification -> Atleast can we verify.
+* Non-Deterministic -> Doubts there as there are **Dilemma there**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/404231cf-89a0-4ff8-a2a1-0492f6d6678f)
+
+* a, any | a, any -> Push -> Something extra.
+* a, any | any -> Skip.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/084faf40-0be1-46f2-a768-dfc1da3108e2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/993d088d-488a-4965-b395-fce051b6af7b)
+
+* Example
+* Epsilon means **anything**.
+* We are reading **Epsilon** means, we are reading **anything**.
+* (0, Epsilon | 0) -> Push operation as **0-length** becomes **1-length**.
+* (1, Epsilon | 1) -> Push operation as **0-length** becomes **1-length**.
+* We are pushing **0's and 1's**.
+* (1, Epsilon | Epsilon) -> Skip operation.
+* (0, Epsilon | Epsilon) -> Skip operation.
+* (Epsilon, Epsilon | Epsilon) -> Skip operation without reading anything.
+* We can **skip** also without reading anything.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/75cf809a-7636-4f34-ba35-6b016a01829b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83611e38-787b-4473-9d6c-cdc2560edad6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/51beff06-c4fd-4af1-aff8-64bebe322606)
+
+* While going from **A to B**, we are not doing anything. So **skip**.
+* (Epsilon, Epsilon | Epsilon) -> Without reading input symbol and without seeing stack also we are going from **A to B**, which is going to **next state**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a9d0cdd4-2feb-4f20-9b11-cb41ec9f8352)
+
+* A ->  Push operation
+* A to B -> Skip operation
+* In **B**, matching there then only **pop**.
+* Odd length -> (1, Epsilon | Epsilon), (0, Epsilon | Epsilon)
+* Even length -> (Epsilon, Epsilon | Epsilon)
+* Odd + even length palindromes -> All length palindromes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/da6ab961-af9a-4361-bcae-0caa9dffba39)
+
+* Even + 0 -> Even
+* Even + 1 -> Odd
+* (W * (W ^ R)) -> Even length.
+* Inbetween we can take **one symbol** and in-between we can take **no symbol** also.
+* Even, odd both are coming.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81092e19-352b-4c9a-8f68-f399b3f7bcb2)
+
+* A ->  Push operation
+* To go from **A to B**, if **1** comes and top of the stack anything **skip it**, if **0** comes and top of the stack anything **skip it**. Without taking any symbol also, top of the stack anything **skip it**. Three ways.
+* Seeing **1**, **0** and without seeing anything also **skip**.
+* At the **end**, **Epsilon** coming means that **String is over**.
+* In-between **Epsilon** coming means that we are not reading any input symbol, we are happily going from one state to another state. [**IMPORTANT**]
+* Before the **final state**, **Epsilon** is coming means **string over**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a0701f90-0480-4e9a-9594-34a76535cda1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e5d61bb-6c1d-4899-a71e-ccac580ca179)
+
+* This is **NPDA** because without seeing the top of the stack we are going.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3138bc8e-e3f5-4f1f-b487-ad43c5721b60)
+
+* [**IMPORTANT**]
+
 
 
 
