@@ -12600,11 +12600,145 @@ b) Both non-regular -> Maybe possible, may not be possible.
 * The language is **empty language**.
 * Algorithms are there for the **Decidable problems of CFL**.
 
+## undecidability-vi (45) [25th Sept 2023]
 
+1) Emptiness
 
+* Input -> One CFG grammer
+* How to verify **CFG** generating empty language or not?
 
+> **STEPS** below:-
 
+1) Eliminate not reachable productions from start symbol **S**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5f9e87c2-ef2a-4af1-b79e-2bb865110297)
+
+* From start symbol(S), **C** is not recheable.
+* Not recheable, just **delete**.
+* Delete **C**.
+* Whoever left out, they are **recheable**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a591d37f-7d54-4292-b6de-3113f4868fc8)
+
+* Whoever are left out, **verify** for them.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6dbe587f-ac0f-48af-8f4c-b88ff62643cf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/276dcf26-2d9b-42f3-8e62-c32a03ae2579)
+
+* The productions that are generating **one string**, keep them.
+
+2) If any production not generating atleast one string then **delete** that production.
+
+* After completion of the **two above steps**, still productions are left out.
+* It means the language is **non-empty** otherwise **empty**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/17de9d32-6591-4c9f-b54a-fe09a364c939)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16898b95-ea11-4ac4-a37b-09b8bb7c7115)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0384da3d-9bea-48f6-81ab-0ddd4efc8ab1)
+
+* Steps.
+* Atleast one production left out after the **two above steps** then **non-empty** otherwise **empty**.
+
+2) Finiteness
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d75c873a-9b52-49e2-a00b-16d06c90324c)
+
+* Grammer.
+* In the above grammer, **Variables to Variables** only see the **relation**.
+* **Variables to Variables** productions only read.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9efd1d03-c020-4fe3-a445-126a071f414a)
+
+* **C, D, E and F** are not **variables to Variables** productions.
+* Only underline **variables to Variables** productions.
+* B -> EF|b
+* B -> EF, B -> b
+* B -> EF -> **variables to Variables** production.
+* B -> b -> Not a **variables to Variables** production.
+* **S** derive **AB**.
+* **S** goes to **AB**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d3972bc-d309-472a-9f8f-7008ba18eccc)
+
+* No variable relation further.
+* Termination relation, **leave it**.
+* The diagram whatever we got, is there any **cycle** or **self-loop** or **loop**, what it is? 
+
+> **No**, we don't have anything like that.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/25114c80-05eb-4c42-9b5d-f34129419814)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83c64947-220b-41bf-bf8e-506a6d57e747)
+
+* **No Cycle** means it will generate **finite language**.
+* If **Cycle** there it means that it will generate **infinite language**.
+* Just see **variable to variable** relations only and other things neglect. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/829bfa20-0ef1-43b2-bc26-062cad0dea1f)
+
+* Doing those two above steps are minimizing the grammer. Unnecessary people are eliminated.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b6b0c824-954c-4e21-b550-96894cca4dc2)
+
+* After doing those **two steps**, the grammer we are getting is known as **Reduced Grammer**.
+* On any grammer we are  doing those **two steps**, then that grammer is known as **Reduced Grammer**.
+* Reduce the **grammer first**.
+* After **reducing** the grammer is completed, all necessary things are there.
+
+* On the grammer, first apply the reduced grammer concept. After getting the reduced grammer. To that particular reduced grammer draw the **particular diagram**. Variable to Variable relation, we should **draw**. In that **diagram** no cycle, then it is a **finite language** otherwise **infinite language**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c7ba269-fd1c-47a3-9561-7be89f7cd856)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2d27febb-9e9a-4479-88a5-073e8238ca7c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/803a3cb3-09ca-494c-a291-b5ff9307ecd4)
+
+* Example
+* Anything which is not recheable from starting state **S**?
+* **E, F, G** are not recheable from starting state **S**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/072adc8e-a46c-492a-8588-2abb41f3d965)
+
+* Anything recheable but not generating anything?
+
+> **No**, all are generating.
+
+* We got reduced grammer.
+* To the **reduced grammer**, **variable to variable** we should see. We don't care about **terminals**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/099afa13-8ce8-4c0a-93cf-12389c87a8fd)
+
+* After completion of the diagram, we are getting **loops**.
+* So it is **infinite language**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a262e186-8d55-4c9f-b30d-118fb7376a68)
+
+* **STEPS**;-
+
+1) Do reduced grammer first. Unnecessary things eliminate.
+2) We got reduced grammer and in that reduced grammer, we see **variable to variable** relation. We don't care about **terminals**.
+3) After completion of the diagram check if there is **loop or not**.
+
+* Loop -> Infinite language
+* No-loop -> Finite language
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af65b8a8-d4c0-49ca-8537-b218bafcd85d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a0e2aacc-321b-4b97-8668-884547ac350e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7d01da1-ba99-400d-85d1-185e0d2f05f5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9a4c5408-39b9-4533-a4a1-7680c9c7c074)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3772f361-fc2c-4003-810e-0230e2700a42)
+
+3) Membership
+
+* Membership Algorithm -> Will do in **practice class**.
+* CYK-Algo -> Not required in GATE exam point of view.
+* Membership Algorithm -> CYK-Algo 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/02498483-df3b-44a6-8c3a-0ce38a329fa7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1643acc-61a6-4bb6-94e5-38281af9617f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bdeeb2d4-8b69-4297-a4d3-c92b4cad8df5)
+
+* These three algorithms are **decidable**.
 
 
 
