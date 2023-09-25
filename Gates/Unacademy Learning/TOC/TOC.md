@@ -12739,7 +12739,241 @@ b) Both non-regular -> Maybe possible, may not be possible.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bdeeb2d4-8b69-4297-a4d3-c92b4cad8df5)
 
 * These three algorithms are **decidable**.
-26mins.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/da2f179f-6eac-4c66-b927-f252c9be9b51)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/47b8ab5d-ed77-4504-940d-2ee0b6c4610a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d369a25-7806-4beb-8800-d0cd7c6a1123)
+
+* **Decidable** -> Algorithm there or not there.
+* Infinite Time -> No Algorithm -> Undecidable.
+* Any problem's answer is **yes or no** then they are **decision** problems.
+* Algorithm available and taking less time(Polynomial time) -> **Decidable** problem.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f1f888e-e69e-4960-bce9-0b3737602e97)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/949e7339-45ec-4b43-9f0e-1fc2899bbfd9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/078b6001-8815-4fb2-99c2-e1bf099b212c)
+
+## Turing Machine(TM)
+
+1) PDA -> which language?
+2) CFG -> which language
+3) Closure properties
+
+* They will give one PDA and will ask which language.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ff1d539-bd74-4608-87b6-831e7796b9e1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/62eb9c0a-5ce8-4f6a-884d-dc00621f455c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8ba9637-62c5-4fa4-95ee-9d560ac9fd2e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7718af41-972a-4e55-a57d-db978ee56f48)
+
+* TM(m) = (Set of states(Q), Input alphabet(Sigma), Transition function(s), starting state(S), final state(F), Tau(T), Blank(B)).
+* Turing maching contains **FA** means states are there.
+* Turing maching contains **2-stacks**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a36228ea-64a4-428c-bb98-35f3ccc035ad)
+
+* T -> Tape alphabet.
+* In **PDA** we are using **stack**.
+* In **TM**, we are using **tape**.
+* B -> Initial Tape symbol
+* Initial **tape** contains **blank symbol**.
+* Initially the **input** is in **tape**.
+* In **TM**, everything is in **tape** only.
+* The size of the **tape** is **infinite**.
+* On both the sides we have **infinite** space. Two way infinite space.
+* If we keep some **restrictions** in the tape then it is called as **LBA**.
+* Computer is a **Turing machine**.
+* Computer can **hang**.
+* **Turing machine** can also **hang**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9a519ab9-cbe9-4d3e-a99d-a8dcd43d356c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0342877-1232-4e71-934e-6b0fbf9652bf)
+
+* Most of the problems of **turing machine** is **undecidable**, means they will **hang**.
+* **Turing machine** is nothing but **tape**.
+* Nothing closed, both sides are **infinite**.
+* Two way **infinite** tape.
+* In **PDA** we see the **stack** story.
+* It is **7-tuple** machine.
+* In tape initially everything is **blank**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ab18073-d477-43f8-8d68-2ca80a50be8b)
+
+* There is **no minimal turing machine**.
+* There is only minimal **DFA, moore and mealy** machines. They are **unique**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80fca146-88f8-4df2-9dbc-892183c67b05)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6fe56b11-3c44-4f99-8701-910acb7e77c6)
+
+* Blank(B) is subset of Tau(T).
+* All the tape symbols are known as **Tau(T)** one of the symbol is **Blank(B)**.
+* Initial input(Sigma) is in **tape** only.
+* Initial input(Sigma) is subset of Tau(T).
+* Whatever symbols we want to access via **TM** will be stored in **tape** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa02292f-81df-49f7-b3c5-43be9e606b5d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a4f2528-35b2-4564-9086-d1d3485e23ef)
+
+* We can keep **equal** also.
+* In **FA** input is in **input buffer**.
+* In **PDA** input is in **input buffer**.
+* In **TM**, everything is in **tape** only. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a9a40a98-14c8-4c05-9362-82141894c4f4)
+
+* In **TM**, input is in **tape** only.
+* B -> Blank
+* Keep the **inputs** in **tape** only.
+* **Input** is in **tape**. Not only that pointer is pointing to input first symbol.
+* It is **tape pointer**.
+* Keep the **tape pointer** at the **starting place**.
+* **Tape pointer** is initially at the first symbol of the input string.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f998c4bc-292f-440d-88b9-bce29bcf16df)
+
+* **Tape pointer** is pointing to first symbol **a**.
+* **TM** is nothing but **FA plus(+) 2-stacks**.
+* Input pointer where is it pointing?
+
+> **a**.
+
+* That input will come.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2570de23-c872-424b-9f2e-2cae10a3217d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e393f48-d9bd-4170-ab28-06315b926cec)
+
+* Replace that **a** by **y**.
+* In **TM**, we can not only **read** but **write** also.
+* If we don't want to **write**, it is also **ok**.
+* Keep as it is.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae9b634b-1b79-425f-b476-c46fdbea906b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bac929be-f2ed-4f00-b6c3-445c9b027ee0)
+
+* We can go **left(L) and right(R)** side.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a34c4b1e-3301-4e4a-b63c-619b7a18aeb9)
+
+* We can **Stay(S)** as well.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5235734c-52af-4bba-93fb-9526db3fd552)
+
+* We are going **right(R)** on the tape.
+* If we want we can change state, if we don't want to change state, we can do that also.
+* In **TM**, **Tape and FA** both are there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6511f68d-cee0-4af2-97aa-ed4e27463e70)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9c80961e-8703-4412-af5a-96b65d08114b)
+
+* We can replace by anything but that **anything** should be present in the **tape alphabet**. Whatever symbol we are keeping in the **tape** should be a part of the tape.
+* We cannot use whatever symbol we like.
+* Everything should be part of the tape.
+* In the tape we can **read and write** as well.
+* In the tape we can go **left, right, stay**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3dda16fc-e162-4fdc-a760-074582c3c65f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/414606d9-60ed-4842-b710-603cd2c53f6a)
+
+* In **DFA** we are moving **right** side only.
+* In **2-DFA** we are moving **left and right** side.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0db9b85e-09d2-48d5-bf72-b6bfad6ef58f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c57a46bf-9340-4174-8e3f-8e43e3bd2b4e)
+
+* Initially the **tape pointer** is at the **first symbol of input string**.
+* Initial tape symbols are **blank(B)**.
+* Static memory is **0**.
+* Stack memory is **garbage**.
+* **TM** memory is **tape** which is **blank**.
+* **No input** then the **tape** is **blank** everywhere so keep the **tape pointer** anywhere.
+* No boundry for **left and right** side.
+* In **FA**, we can read but not write.
+* In **PDA**, we can read but not write.
+* In **2-DFA** we are moving **left and right** side.
+* In **2-PDA** we are moving **left and right** side.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/129f94d5-0545-4991-b6a2-35938413996e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b4cd5331-e3f1-47f0-b03e-8917fc33205e)
+
+* Transition Function.
+* Q -> State
+* Sigma -> Input symbols.
+* Left(L), Right(R), Stay(S).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af59c570-5d01-4c0e-8254-a4bf0126b82a)
+
+* We can keep the **superset** as well.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6332685b-b67e-4253-a323-765885bcdd93)
+
+* DTM -> Deterministic Turing Machine
+* NTM -> Non-Deterministic Turing Machine
+* Both are **equal**.
+* **DTM** possible means **NTM** possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ede39dc3-c01f-49a4-843d-e81be10d4f81)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/631d4ca6-a32b-4fd7-8073-f2eae1292301)
+
+* Example
+* Construct TM,  L = {a ^ n | n >= 1}.
+* Minimal String -> a.
+* Starting state itself blank(B) came then **no 'a'**.
+* Starting state itself should come with **a**. Min **1-a** required.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34cf5472-86fd-4636-997e-bbfec7b30aa2)
+
+* We are replacing **a** by **a** and going to **right side**.
+* Changing the state indicates that **1-a** over.
+* If we don't change state then **1-a** not over.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a2c5bd3-13bf-4ecc-88b3-591186b6b307)
+
+* Self-loop is going on **a | a, R**, replace **a** by **a** and going **right side**.
+* Now **blank(B)** coming.
+* On **S2** state **blank(B)** is coming means that **string is over**.
+* String ended with **blanks(B)**.
+* **Blank(B)** means **string is over** and it is also **valid string**.
+* **B | B, S**, replace **blank(B)** by **blank(B)** and stay(S) in there only but go to **Hault(H) state** which is the **final state**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9086984-a7a5-4950-a520-e8db4c807d09)
+
+* This is **Hault-final state**.
+* **Hault state** because there is **no transitions** further.
+* **Hault-final state** means **string is accepted**.
+* **Hault state** doesn't mean that **string is accepted**.
+* Accepted because finally we are in **hault-final state**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4fe6d5e-60a0-492f-a879-df22febf9d7e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/47bb682f-2e86-414c-bc1b-25a41d057d88)
+
+* Epsilon * Blank(B) -> Blank(B)
+* Directly we are reading **blank(B)** means starting state itself **blank(B)** is coming means **Epsilon** accepting.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34c86bbe-52fc-4acf-bb9e-3ce3df57aa82)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1f9abc4-0c27-46cb-93a9-29aa17d71299)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a660304-b412-4023-bf8c-8087c159dd28)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/859d9471-e7a1-4c25-a24b-7d153b5fa3db)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7afc0c86-f415-42a6-b3a0-538f0df3cb53)
+
+* **TM** is **FA + 2-stacks**. The **2-stacks** are replaced by **tape**.
+* Whatever the **2-stacks** can do, the **tape** can also do.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f49da2d5-dafa-443d-b35c-6527393288fc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/46cad680-0a05-4595-ba2d-d4f6b37b9847)
+
+* [**IMPORTANT**]
+* **2-stacks** physically not there but **logically** there.
+* Functionality wise **2-stacks** and **tape** are **same**.
+
+
+
+
+
+
+
 
 
 
