@@ -13077,21 +13077,45 @@ b) Both non-regular -> Maybe possible, may not be possible.
 * No Order problem then keep in safe state.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/55b1f986-dc98-4d1d-86cd-a337e60a4e1d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91b75081-acdd-4fb4-b664-c6b4cd6d30fe)
 
+* **S1** state **a** coming
+* If we don't replace **a** by **x** then how we will know that **a's** have ended.
+* In-between **a's** skip them.
+* In-between **b's** skip them.
  
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5ecebb6-251d-476e-9289-300ae2de3dab)
 
+* First round over, **first a,b and c** are cancelled.
+* Next goal, cancel **second a,b and c**.
+* While going back we will see **b,y,a**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/239001d1-0837-49a7-bfad-dcca1ab86288)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a4741a12-5482-4732-8032-9a110680f137)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71aa6b7b-b80f-4fae-85ca-de3b0898a83c)
 
+* It is getting **repeated**.
+* Each round, each row of **a,b,c** are getting cancelled.
+* When we got to know that **a's** are over, skip all **y's and z's**, we got **blank(B)** and went to **hault-final(H)** state.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f9137729-4a24-4a58-b136-58d50d5c8b77)
 
+* **FA + tape** -> **TM**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f20b2d29-1c24-4ddb-bd20-999633a41086)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6503787b-ca3f-4bf9-8bbf-f03d109fd483)
 
+* Palindrome.
+* First and last symbol cancel.
+* Starting and ending symbol **cancel**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1be93230-875e-497d-b430-dc05b12ec03c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/88223f83-1aa8-4a6d-8225-190d7a784b9e)
 
-
-
+* HW.
 
 
 
