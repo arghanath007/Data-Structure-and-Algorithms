@@ -13006,16 +13006,79 @@ b) Both non-regular -> Maybe possible, may not be possible.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b258958-0100-47b1-a1bc-75914fbbea1f)
 
 * Starts with **a**, ends with **b** and in-between anything is possible.
+* Before any symbol blank is there which means it is the **starting symbol**.
+* After any symbol blank is there which means it is the **ending symbol**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2427dc2-d64e-45a7-99c3-bca4e93240fa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b822f657-f3d4-42d3-8247-2bccc8a02796)
 
+* If order problem not coming do in **1-state**.
+* If order problem coming do in **multiple-states**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a6197966-1f32-487c-9872-a117ab0df448)
 
+* First target **minimal string**.
+* Starting with **a** and ending with **b** is **minimal**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d7c6c6f8-7b3c-4d31-a890-583f4a5658b7)
 
+* Minimal string accepted.
+* After the **first 'b'** any no. of **b's** can come.
+* After the **first 'a'** and going to **S2**, any no. of **a's** we can come.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8c84f11f-a47e-4e1c-9cc3-8ec97bf012a8)
 
+* **ab** over, we are in **S3** state.
+* On **S3**, **Blank(B)** comes, we can go to **Hault-Final state(H)**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3bc20ce7-df14-4d87-a0fc-d9e1252f6842)
 
+* So many b's are coming, we are in **S3**.
+* After b's if we get **a** then go to **S2** state and go to the right side.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab228184-560f-49eb-a140-5b52317c4680)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b13026e5-9cac-4e6a-bedf-3ee1747ab8c1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d2166c38-e748-4a0c-8c9b-daa0a23d30ea)
+
+* It is **regular language**.
+* One scan is enough.
+* Ending symbols can change.
+* Starting symbols we cannnot change.
+* **S2** indicating starting with **a**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/985fecc0-3587-4b5e-85ac-e8bdd7d673f0)
+
+* On **S1**, **b** coming it is almost like **dead state** which is going to be **hault-non-final state**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1eaca052-b0c7-4c17-9017-1cb41a9906ef)
+
+* Unnecessary things will go to **hault-non-final state**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba171e0e-8099-4914-a370-5be951cb3dfa)
+
+* Example.
+* Logic
+* If we cancel **1-a** then we have to cancel **1-b**.
+* After **x** whoever is there.
+* First **a**, we cancelled.
+* How we will know who is the first **b**?
+
+> After skipping all a's and if we get the symbol **b**, that's the first **'b'**.
+
+* Replace *b** with **y**.
+* No. of **y** indicate how many **b's** are cancelled.
+* No. of **X** indicate how many **a's** are cancelled.
+* After skipping **a and b** we will have **Blank(B)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16d3faa1-655b-415c-80bf-c5a949492371)
+
+* Order problem coming change state.
+* None will ask min. no of states.
+* No Order problem then keep in safe state.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/55b1f986-dc98-4d1d-86cd-a337e60a4e1d)
+
+ 
 
 
 
