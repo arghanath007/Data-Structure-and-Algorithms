@@ -12739,6 +12739,7 @@ b) Both non-regular -> Maybe possible, may not be possible.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bdeeb2d4-8b69-4297-a4d3-c92b4cad8df5)
 
 * These three algorithms are **decidable**.
+26mins.
 
 
 
