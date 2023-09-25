@@ -12968,14 +12968,44 @@ b) Both non-regular -> Maybe possible, may not be possible.
 * **2-stacks** physically not there but **logically** there.
 * Functionality wise **2-stacks** and **tape** are **same**.
 
+## undecidability-vii (46) [25th Sept 2023]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/270bb057-a61c-418d-bc47-4a659849e0b0)
 
+* Example
+* Minimal String -> aab.
+* Min. of **1-b**.
+* Any no. of b's can come.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f3e5ff2-3513-4192-880c-54bf4de1b9be)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97397a0b-a26c-40d6-b726-f51d76fac783)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a6864e2-3e27-4b8c-8b5a-7ac4acae3df5)
 
+* **S5** state is **Hault-Final** state.
+* The strings that go to **S5** state those strings are only **accepted**.
+* The **TM** above will say if the string is **accepted or rejected**.
+* The **TM** above is called as a **language recognizer**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba2f8d58-cae9-4396-82bd-046c46086276)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb2fd1aa-b8e0-452f-83e6-a0dc7998162a)
 
+* [**IMPORTANT**]
+* **TM** can be over in **three** ways:-
 
+1) **Language recognizer** -> For any **input** it will say **yes or not**.
+2) Transducer -> For any **input**, it will give **output**.
+3) Enumarator.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6bc33c8e-fbc4-46ac-8df3-fa2b4929aa72)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a969738-5662-431e-bced-4894379570dd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/004087de-bca0-4616-b1b1-58b609f7f65c)
+
+* [**IMPORTANT**]
+* Construct TM for the L = {Set of all strings of a's and b's where every string starts with **a** and ends with **b**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b258958-0100-47b1-a1bc-75914fbbea1f)
+
+* Starts with **a**, ends with **b** and in-between anything is possible.
 
 
 
