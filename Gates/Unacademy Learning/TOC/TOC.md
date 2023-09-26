@@ -13576,9 +13576,15 @@ b) Both non-regular -> Maybe possible, may not be possible.
 
 * And on these questions asked.
 * These types of questions will be asked. [**IMPORTANT**]
+* Between binary and unary representation which will take **less space**?
 
+> Binary representation.
 
+* Unary will take **more space**.
+* Unary is easy for us.
+* Machine is like a small kid.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/10f312b6-400b-4e48-9ee7-6252dbc68f7b)
 
 
 
