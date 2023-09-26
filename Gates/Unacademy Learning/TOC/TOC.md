@@ -13586,9 +13586,23 @@ b) Both non-regular -> Maybe possible, may not be possible.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/10f312b6-400b-4e48-9ee7-6252dbc68f7b)
 
+## touring-machine-iii (48) [26th Sept 2023]
+
+* **FA** languages is **regular language**.
+* **FA** will accept only one language. It is **regular language**.
+* **PDA** will accept only one language.
+
+## TM languages
+
+* **TM** is accepting two languages:-
+
+1) Recursive Language
+
+* For all **w** belongs to **L**. It is valid string. For very **valid string**, **TM** will go to **halt-final** state.
+* For all **w** not belongs to **L**. It is invalid string. For very **invalid string**, **TM** will go to **halt-non-final** state.
 
 
-
+2) Recursive Enumarable language
 
 
 
