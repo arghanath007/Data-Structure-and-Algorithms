@@ -13179,10 +13179,430 @@ b) Both non-regular -> Maybe possible, may not be possible.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/45ca41d1-a747-4170-b813-a09d274bd8e2)
 
-* Above story is saying saying that starting **a** and ending **a**.
-* Above story is saying saying that starting **b** and ending **b**.
+* Above story is saying saying that starting **a** and ending **a**. [**IMPORTANT**]
+* Above story is saying saying that starting **b** and ending **b**. [**IMPORTANT**]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d9466cb6-40c8-4148-beef-6e4c94d5abda)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/43ad89c7-c8a8-428c-8e98-365f9657ddfb)
+
+* After cancelling **first and the last symbols** we have to come back.
+* If both are **same** then only **cancel**.
+* After cancelling **first and the last symbols** we are at the **right most place**. We have to come to **left most** place, skip all people from right hand side and go left side.
+* After replacing first symbol by **a**, we are at the **left most** place but we want to go to **right most place**. Replace **a** by **a** which is **a | a, R** and **b** by **b** which is **b | b, R**, everyone skip-sip and go right side.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d1f42b7-5536-4ad1-b3c1-716cd98ec7ab)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c6041eac-f15e-4b61-bf6f-816371b6e1b0)
+
+* [**IMPORTANT**]
+* Advantage of **TM**:-
+
+1) We can move in both the directions.
+2) Read and write also.
+
+* Evertime we are cancelling **first and last** symbol and coming back to **starting place**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d5595cd1-286c-41d7-bd53-3b1dd2033b9d)
+
+* We are in **first symbol** which is the **fourth symbol**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fcc57de5-d1b6-42e4-9fa2-24ebea931d2c)
+
+* After cancelling first symbol, we skipped everything and we are in **S3** state. Automata is expecting **a** as it is starting with **a**, so ending with **a** only but we have **blank(B)**.
+* In **S3** instead of getting **a** we got **blank(B)**.
+* Starting symbol is there but ending symbol is not there.
+* Only one symbol there.
+* So it is **odd palindrome**.
+* Ending symbol is **blank(B)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/145a0bc1-6e9d-4ee4-8abe-46684b082301)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/21ded201-d8c6-4c47-8465-c404fbe958c5)
+
+* **Hault-final** will come with **only 1-symbol**.
+* **S3** indicating starting symbol(a) is there but ending symbol not there, it is **blank(B)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1c926e8-73c1-45e7-b1e0-0ca925aa4c83)
+
+* **S6** indicating starting symbol(b) is there but ending symbol not there, it is **blank(B)**.
+* **S3 and S6** indicate only **1-cancel**, first symbol there, last symbol not there.
+* This is **odd palindrome**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd5f4e0e-edf8-41d1-88c0-d1c6fe9ea508)
+
+* Starting itself **blank(B)** came.
+* Replace **blank(B)** with **blank(B)** and **stay(S)**, this is **even palindrome**.
+* **1-symbol** also not there then go to **hault-final state**.
+* **0-length palindrom** means all **blank(B)**. Directly go to **final state**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b216672-1ca8-4202-9dc1-beabf7f9d4e3)
+
+* In **S1**, blank will come in **two-ways**.
+
+1) First and last symbol cancel, blank came. -> Even
+2) Without cancelling anything, directly blank came. -> Even
+
+* All **even** things **S1 'blank'** will take care.
+* Always matching there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/400791be-7012-4cd5-9844-cf36ac14704b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8c7bf542-349a-4b5d-adc9-4f497dc6b62c)
+
+* [**IMPORTANT**]
+* If we keep both then all palindromes are accepted.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/401577bd-c003-4be4-9f7b-182b7ebaf86e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6df2e7e4-089e-4dc2-94ef-89b74832de34)
+
+* Starting with **a** but ending with **b**, there is no **transition line** for **b**, so it will go to **hault-non-final** state.
+* Complete necessary things, remaining all will go to **hault-non-final** state.
+* **TM** has **turn-around** capability. It can move in both the direction. It can read and write also.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e2ca2d6-e2c9-4004-8fcb-1dc443c1d7f7)
+
+* Great logics possible in **TM**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/28f7feab-72d6-4b1d-ae2f-3c716d227fad)
+
+* It is non-determinism.
+* One person saying blank and one person saying *x*. We don't know which one we should keep.
+* It is called as **NTM**.
+* **NTM** possible means **DTM** also possible.
+* **NPDA and DPDA** are different.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/040fe9d7-ed92-47d4-acd3-469643a2c110)
+
+* True.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6adca11c-d606-474c-85ff-1d3590b5f695)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57433e7d-fa99-49ea-98e1-3cad7b95d2f0)
+
+* True.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4ffe3e2d-f75e-42f3-bd09-85508e5207e0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ee01566-e9e1-483d-bb8b-ff75de967b42)
+
+* In **ww** both the **first symbol** should be **same**.
+* In **w(w ^ R)**, **first and last symbol** should be **same**.
+* In **TM** can we find out **mid/middle**?
+
+> **Yes** we can do.
+
+* We can **multiple two numbers** in **TM**.
+* If we can do **the thing** in computer then we can also do the **same thing** in **TM** as well. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/52d38ca2-07d3-40af-9712-249ce5006c67)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5a876d9-87e9-4680-a44f-820882bd3dd8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4da362e2-83b1-48b0-bdd8-7f0069588381)
+
+* While storing **ww**, keep **blank(B)** in between **first 'w'** and second **w**.
+* In the tape string is stored by **user**.
+* If the first symbol is **a** then again the first symbol should be **a** only.
+* This is like **palindrome** only except in **palindrome** we did **first and last symbol**. Here we are doing **first and first symbol**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5bff6079-1931-436c-b8f6-ae080dbf83e7)
+
+* If we don't keep **blank(B)** then also we can do. Some special procedure we have to do.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8c848592-2824-433c-a7f1-8a9a98f155bb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b1d94ef1-8e03-4607-a83b-75732142f27d)
+
+* Middle **blank(B)** is a separator.
+* Anything comes **skip** until the **blank(B) marker** comes.
+* **S3** means we are in **second 'w'**.
+* **First 'w'** first symbol **a** we already cancelled.
+* We are expecting **second 'w'** first symbol as **a** only.
+* After **blank(B)**, **a** will come.
+* First symbol of both **w** we cancelled.
+* If we replace **a and b** with **blank(B)** then confusion will come.
+* **x** indicate cancelled part.
+* **x** is part of tape albhabet.
+* Both the First symbol of **w's** are cancelled.
+* If both are **same** then only we cancel.
+* If both are **not same** then we don't cancel.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/531ea276-af8f-4a19-8b70-41780a1842c1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65f40da3-47ff-4fe7-b7c6-61a216b43576)
+
+* In **S1** both the things are completed.
+* In **S1** we are able to see **blank(B)**.
+* In-between **blank(B)** is there.
+* If first part is over then it will check if second part over or not. If second part also over, then it is **completed**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/02194ef0-c0f7-4034-bc4e-5d892506873a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/802cd1cf-62e7-4762-92d3-03e55b709426)
+
+* Rought diagram.
+* It is something like **w * (w ^ R)**.
+* In **S2** skip every person(a's and b's**.
+* We are going from left to right side because we want **second 'w'**.
+* **S3** indicating **second 'w'** starting.
+* In **S3** first symbol should be **a** as the starting symbol was **a**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27714227-9896-4e0f-9697-e74019641fab)
+
+* By seeing **x** we have to come back.
+* When we see the first time **x**, replace **x** by **x** and come right side.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ffddd7ea-4d22-4b53-9360-7b9ce234c115)
+
+* If had replaced **a** by **blank(B)** then serious problems would have come like **infinite loop**.
+* We have replaced **a** by **x** so no **infinite loop** coming.
+* When we are coming from right to left side, when we see first time **x** then do, replace **x** by **x** and come right side. It is the indicator **previous symbols** are cancelled.
+* Again we are at the **first symbol**.
+* In **S5** skip all.
+* After **B** we will see **x** in second **w** because earlier we cancelled some symbol.
+* So **skip** all **x** after **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f151397d-e8fc-40a2-8818-9241214dc507)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f08ece2-ac2f-4fd8-b1bb-7193d67ae95d)
+
+* Now we should go to **third symbol** and while going we will see **x** so replace **x** by **x** and go **left** side.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ca050ad-84f3-423b-bc64-79d71b792695)
+
+* While going back we will see **B**.
+* Some confusion is coming.
+* So in the **second 'w'** part instead of replacing **a and b** with **x** we will replace them with **y**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f17e8198-82d9-4e2e-94ec-323a1edba9f9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b2c55f3-40b1-4f6b-a015-850b0276ac48)
+
+* While coming back we will see **a's, b's and y's** also.
+* When skipping all the people we will see **x**. When we see the **first 'x'** stop.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0777af6-e38f-4c6a-93e5-e769c6590d3d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c913e07d-bd2b-4aee-9276-d939300aed14)
+
+* **ww** and **w(w ^ R)** both are **almost same**.
+* While coming in the **second 'w'** we will see **y's** first.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5a3e09d-f693-449b-8419-c03828541431)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2fe106d8-add7-47d9-8bf3-ee7571d3bcc0)
+
+* yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4295206e-e744-4296-b718-45207bed14e7)
+
+* Yes.
+* Computer is **TM**.
+* Something is left out we will see that in **S1**.
+* In first **w** if we see something then on **S1** we will see.
+* First **w** is completed over and the expected symbol is **B**.
+* First and second **w** are completed cancelled.
+* **S7** indicate **first 'w'** completed.
+* Second **w** should also be over.
+* We have to skip all **y's** in **S7 state** so that we can gurantee that Second **w** is also over.
+* After skipping all **y's** if it is valid then we will get **B**.
+* In **S1** state **B** came but we were expecting some symbol. It means that **first 'w'** is over. Immediately check if **second 'w'** over or not.
+* After **B**, **second 'w'** will start as we have done some cancellation so **y's** are there, **skip all y's**. After skipping all y's if we see **blank** then nothing left out, **second 'w'** is also over.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/96465a11-de38-4cf2-bd1d-b8445304bb13)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/935e24c4-02ba-4376-9bfe-0269e514f71e)
+
+* [**IMPORTANT**]
+* Hf -> Hault-Final state.
+* In exam **small TM** will come.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/25ec26c4-fa7b-4a7b-a7b0-087c574d5ae1)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dcb504aa-9f56-46de-9f44-6612b1976358)
+
+* Example
+* TM as a **transducer**.
+* Before and after the number **blanks(B)** are there.
+* **5** representation in **5 1's**.
+* **7** representation in **7 1's**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f757d1ed-0edd-4470-9109-22f36896d3c6)
+
+* We want **12 1's**.
+* We have written in **unary** format.
+* 1000 -> 1000 1's
+* 100 -> 100 1's
+* **Unary** format examples.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f7e9bb1-d36d-4435-bba9-1f1f7f567753)
+
+* Expected output -> 12 1's.
+* Don't write **blank(B)**. We want **12 1's** continuously.
+* Just remove the in-between **blank(B)** then we will get the **output**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95ef1816-b476-461a-b8fd-38b0ced7f51e)
+
+* Initially we are in the first place of **m**.
+* Forget about **states**.
+* Why we changed the state, why can't we write total story in one state?
+
+> We want to say min. value of **m** is **11** required. We cannot get directly **blank(B)**. Atleast **m** value is **1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/59774a8f-f204-4518-b679-3630c3b4f9d1)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/033d361b-8052-46a5-9f2c-707e7f190128)
+
+* It is one tape only. There are **no two tapes**.
+* Convert the existing tape so that the same original tape contains the **output only**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/457278c9-33aa-4696-a16a-44da225ba752)
+
+* All 1's are copied.
+* **B** is the separator between **m and n**.
+* Whenever we see the **B**, replace the **B** with **1** and go **right**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a862705-e9a8-46c8-9102-6db7efdbccab)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d4b77cc-80c4-4b0d-8d17-df30abe2cf69)
+
+* Afterwards **1's** will come. **1 by 1** go right.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db724e03-d600-4727-a93d-66024f98a3c6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bbbe71d5-9bdd-4a6d-bb31-b6dc9b186a1b)
+
+* We have **one extra '1'**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe3286bb-cad7-4c29-8dff-5beca4bf0c61)
+
+* We are at the **last symbol**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7e6018b-24af-468b-9666-77fda803c25d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cba13ddf-a978-4892-adc3-b31a27327997)
+
+* We corrected the **one extra '1'** we had before.
+* We replaced the **last '1'** with **B** and went to **hault-final state**.
+* **TM** as a **transducer**, the **output** is important. We don't care if we are in **final state** or not.
+* **TM** as a **transducer** means that we want **output**. In the tape finally what is there that is important.
+* **TM** as a **language recognizer** means we are in **final state** or not. That's important or matters.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/514d65c9-d20e-48e6-a1ab-e64a095b2838)
+
+* **TM** as a **transducer**. [**IMPORTANT**]
+* **m and n** are greater than equal to **1**.
+* If **m and n** are greater than equal to **0** then we can do them in **one state**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac702338-2f24-4dfd-a2e7-47ff1ee2c694)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eec429f8-95e3-44b1-9e3c-db821cf17138)
+
+* Don't worry about **states**. What is the **output of tape** finally that is important/matters.
+* **TM** as a **transducer**, only see the **output**.
+* We are in **final state** and **output** is **wrong** then the **transducer** is of **no use**. **Outputs** matters here.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b3e8037-4eb3-46c2-a347-0143e0283c18)
+
+* HW.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7cc11c97-c474-4ba3-a019-f7f45a652d5a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb6b9aa4-8c9e-41c7-ada7-30f4655af152)
+
+* Initially we are in **first part**. Go to second part make **first person** blank and then come back to first part and make last symbol blank.
+* Repeat it many times till we get **blank(B)** in second part.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a76c29a4-6546-4b83-8da5-69bde4b94480)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ddb3ac3-7a38-46e3-9276-18a56c3c7b7b)
+
+* We cancelled **n** first and then we came back to **m** and cancelled **m**.
+* If we cancel **m** first then **m** is **bigger** and we will make mistake.
+* So cancelling **n** which is **smaller** is **better**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef3b2339-b914-4596-9475-1920372ebaa1)
+
+* If some problem is coming by keeping **B** in **n** then keep some other symbol like **x**. Replace the **1's** in **n** by **x** when cancelling them.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bd5b6f03-2090-4e7a-bbd5-dd8702db6911)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d859a97-6af3-4015-8f46-2de7e26175b3)
+
+* At the end we want **only 1's** in the tape as the **output** so replace all the **x's** with **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/20bc8833-5a6e-4745-9f1f-06bbe30496b1)
+
+* Substraction.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85f056a1-ba20-4239-9ca6-2dfadd81b739)
+
+* Multiplication is nothing but repeated **addition**.
+* Adding **5** two times or adding **2** five times.
+* Addition is **communitative**.
+* Adding **2** five times is my **goal**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dbe00a51-0e4f-483b-96d5-a5cbb1f6f079)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c36f07a6-cf77-4cf2-9f9b-b9395333ab4b)
+
+* We copied **'n' 1-time**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2e0a3266-cedc-406e-b9db-c632c8963017)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6b08cd6-a5af-4b2d-a704-38551120523d)
+
+* **m** times copy **n**.
+* **m-times 'n'** is over. So stop it.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6622dd5f-6719-4002-b7bf-53f4f25fdbd5)
+
+* Multiplication.
+* Power is nothing but repeated multiplication.
+* Division is nothing but repeated substraction.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2157b50a-1b80-48ed-86ad-aa84c57c9891)
+
+* m = 10, n=2
+* 10/2 = 5 [Answer]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/571dca07-d098-4b79-b703-ebe4cf918a36)
+
+* Division
+* To make it zero(0) we have done **substraction 5-times**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d49c3317-0ef6-401e-9343-a1f186659eb8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bd3d6ddb-bbf2-44bf-88f5-4deddb9ec3fc)
+
+* blank came means **m** over.
+* At the end we only want the **output**.
+* When **fractions** are coming stop it.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/74f2a10f-946a-4ac1-9b1b-a89c7f37dd87)
+
+* HW.
+* Not asked in exam.
+* Multiplication of two numbers are possible in **TM** or not?
+
+> **Yes** it is possible.
+
+* Addition of two numbers are possible in **TM** or not?
+
+> **Yes** it is possible.
+
+* Substraction of two numbers are possible in **TM** or not?
+
+> **Yes** it is possible.
+
+* And on these questions asked.
+* These types of questions will be asked. [**IMPORTANT**]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
