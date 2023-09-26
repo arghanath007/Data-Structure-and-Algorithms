@@ -13601,11 +13601,163 @@ b) Both non-regular -> Maybe possible, may not be possible.
 * For all **w** belongs to **L**. It is valid string. For very **valid string**, **TM** will go to **halt-final** state.
 * For all **w** not belongs to **L**. It is invalid string. For very **invalid string**, **TM** will go to **halt-non-final** state.
 
+* Every **valid** thing goes to **halt-final** and every **invalid** thing goes to **halt-non-final**.
+* For any language we have a **TM** like above then the language is called as **recursive language**.
+* For every **valid or invalid** we are going to **halt**.
+* For these reason **TM** is called as **halting-TM**. It will **halt** everytime.
+* Every language accepted by **halting-TM** that language is **recursive language**.
+* **Halting-TM** is an **algo**.
+* One of the property of **algo**, it should **halt/terminate**. It should. take **finite time**.
 
 2) Recursive Enumarable language
 
+* For all **w** belongs to **L**. It is valid string. For very **valid string**, **TM** will go to **halt-final** state.
+* For all **w** not belongs to **L**. It is invalid string. For very **invalid string**, **TM** will go to **halt-non-final** state or **TM** will go to **infinite loop**. Anything can happen.
+* It is a **program**. Anything can happen. It may hang.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f4da1fad-ec11-42ea-be88-c6d698a04858)
 
+* Which one having one choice extra?
+
+> Recursive Enumarable language
+
+* Every algo is a program but every program is not an algo.
+* Program is superset.
+* Recursive Enumarable language is superset.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/738c7737-90fe-4bfc-be85-29aa7be3e3bf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e2bab37-4a33-43d6-9468-2bf2038ae2e0)
+
+* Recursive(Rec) means **TM** possible which will **halt** which is **halting-TM**.
+* Recursive Enumarable language(REL) possible means **TM** possible which may halt or may not halt.
+* Non-Recursive Enumarable language(NREL), **TM** not possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e90b08ce-ad3a-41dd-94b1-1f21f828e3d7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ebbcb3a4-ed30-45e1-ac55-445db1136b03)
+
+* Rec is subet of REL.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/514e6c67-1f8d-43c1-a89b-5298b225d0ae)
+
+* In Recursive **valid and invalid** things are having **logic**.
+* Everything having **logic** in **recursive**.
+* Other name of **recursive** is **decidable**.
+* **Halt** means logic is there.
+* In **REL**, **valid** having **logic**, **invalid** don't have **logic**. They may halt or may not halt.
+* Other name of **REL** is **Semi-decidable**.
+* Atleast one having logic.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1b074ac-3ded-46c4-a957-a522567d280d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb21aa50-25dc-4bbe-b4bb-8d226718c13a)
+
+* Non-Recursive Enumarable language(NREL) are **undecidable**.
+* No one having logic.
+* **Semi-decidable** means that is also **undecidable**.
+* **Semi-decidable** not there in **options**, we will select **undecidable**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b47d898-3263-487f-bcc1-ae9d5d84e84d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7bbf144-e0c0-475d-b467-8c8f30f6ff26)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c42f0498-4e37-4351-a9d9-29d886d8f81b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c606358f-4a23-4c4e-bd53-0523058d5d2b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ccce1538-3ddc-4303-a49b-dc933f6b3b6e)
+
+* FA -> Regular
+* DPDA -> DCFL
+* NPDA -> CFL
+* LBA -> CSL
+* Haltimng-TM(H-TM) -> Recursive
+* TM -> REL
+
+## Closure Properties
+
+* Two recursive language union is recursive.
+* Two REL language union is REL.
+* So **Rec and REL** are closed under **union**.  [**IMPORTANT**]
+
+* Two recursive language intersection is recursive.
+* Two REL language intersection is REL.
+* So **Rec and REL** are closed under **intersection**.  [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2fa5eed-9aa3-49fc-b0a5-b8d1f11a80ee)
+
+* Smaller one we can **write** as the bigger one.
+* We cannot downgrade.
+* We can upgrade.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/880e6fad-eaa1-442d-817d-a891836c57b6)
+
+* One Bigger and one smaller are given, the **bigger** one will come. Upgrade the **smaller** one. We will get the **answer**.
+* Smaller one we can upgrade.
+* Bigger one we cannot downgrade.
+* This is how **union or intersection** between a **bigger one** and a **smaller one** results in the **bigger one** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba012b1c-8a66-41a0-aaf4-5ee3b1fd6167)
+
+* **REL and Rec** are closed under **concatination**.
+* **Rec** is closed under **complementation**.
+* **REL** is not closed under **complementation**.
+* **Complementation** of **REL** need not be **REL**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80a926bc-835d-4b74-8afd-8bf3bfc8bdf8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/886ac9f6-fc43-41ee-acb0-4bf9555986b1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/618e0273-ed65-4272-9a67-96d6c16a568b)
+
+* 10-20 questiosn have come in exam. [**VERY IMPORTANT**]
+* Major point of **Closure properties** in **TM** is **complementation**.
+* **Rec** complementation is **Rec**.
+* **REL** complementation is **may REL or may not be REL**.
+* **Decidable** means recursive.
+
+### Decidable
+
+* **L** is Decidable.
+
+1) For all **w** belongs to **L**. It is valid string. For very **valid string**, **TM** will go to **halt-final** state.
+* For all **w** not belongs to **L**. It is invalid string. For very **invalid string**, **TM** will go to **halt-non-final** state.
+
+2) **H-TM** possible. **L** is having **H-TM**.
+3) Algo possible. For **L** algo is possible.
+4) Whenever it is **decidable** for language **L**, **H-TM** is possible. For **L'** also **H-TM** is possible.
+
+* Recursive language is closed under **complementation**.
+* **L** is decidable means that **L** is having **Halting-TM** as it is closed under **complementation**, **L'** also having **Halting-TM**.
+* **L** is **decidable** so **L'** is also **decidable**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81675414-0436-431a-a568-debb6a7d75e0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/70245638-b03b-41c9-a14f-92fb6ee81473)
+
+### Semi-Decidable
+
+* **L** is REL.
+
+1) **L** has **TM** but **L'** has no-TM.
+
+* No-TM -> It may halt or may not halt.
+
+2) L is REL but L' is non-REL.
+
+* No-TM -> non-REL [Same meaning]
+
+3) For all **w** that belongs to **L**, it has **logic**. 
+
+* For all **w** that does not belongs to **L**, it has **no-logic**. 
+
+4) **L** has program. **L** has **TM** not **H-TM**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8aee3099-c6b7-42b6-9ed8-3f6f198f3339)
+
+* **L** is **non-REL**.
+
+1) L has **no-TM**.
+2) For all **w** that belongs to **L**, it has **no-logic**. Valid also no logic.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/174969ec-95d2-475c-901e-2d1f72fd50ac)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/098d0e9a-a0e5-4ed0-9696-3001b1a8f8cf)
+
+* [**IMPORTANT**]
 
 
 
