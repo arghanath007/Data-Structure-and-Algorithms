@@ -13117,6 +13117,78 @@ b) Both non-regular -> Maybe possible, may not be possible.
 
 * HW.
 
+## touring-machine-ii [26th Sept 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/56064bdb-b451-42dc-b693-6974eedaaf61)
+
+* In L2, no marker.
+* L1 and L2 are CFL.
+* In L2, in place of **x** we keep **c** then it is **DCFL**.
+* L = L1 U L2, all palindrome's over {a,b}
+* We will create **TM** for **L**.
+* **L** will accept **all**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dab739e9-9de5-42ce-a22e-f4a5792e1269)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3cabe6fb-c943-4c21-a558-16842cca16d6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf532fba-7cf9-4689-8e59-a4011a11a747)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/695dc24d-0927-497a-8377-39fbe94ede85)
+
+* First symbol should be **same** as the **last symbol**.
+* In **S1**, anything is **starting symbol** which is **a or b**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3b7a3dbd-5c48-473a-b22c-ed4d98a50018)
+
+* Relace **a** by **blank** and go **right**.
+* We cancelled **first symbol 'a'** and last symbol should be **a** as well.
+* First symbol **a** means **last symbol** should be **a**.
+* **S2** means **first symbol 'a'** we already cancelled.
+* First symbol **a** we cancelled, next target is **last symbol** should also be **a**.
+* If at all it is the **last symbol**, after it **blanks(B)** will come.
+* Whenever starting of **blanks(B)** before it is the **last symbol**.
+* We cancelled **first symbol 'a'**, we are looking for **last symbol** which is also **a**.
+* Let's first find the **last symbol**.
+* **Skip 'a' and 'b'**, if we see **blank(b)** the  replace **blank(b)** with **blank(b)** and go **left(L)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76d62bb6-7eb7-4c0e-9fc5-d43c63507488)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16b8e2f0-57e9-4237-9d4c-7452142c472e)
+
+* In **S2** if we do **B | B, L** then we will be in an **infinite loop** because on the **left side** of **B** anything will be there and it will trigger the other two **loops**. We have to do it in **another state**.
+* In **S2** if we do **B | B, R** then we will be in an **infinite loop** as **B** are **infinite**.
+* We should change the state.
+* **B | B, L** go to the **S3** state.
+* **S3** state means that we are at the **last symbol** of the **tape**.
+* In automata we are in **S3** state.
+* **Last symbol** should be **a** only not **b**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a0ad8201-648b-4218-a579-e42fe950e03f)
+
+* Replace **a** by blank and come left.
+* In automata we are **S4** state
+* In tape we are in 2nd last symbol.
+* First and last symbol are same, we cancelled them.
+* Next goal is 2nd symbol from first and last, we cancel.
+* First we have to go to 2nd symbol and then come to 2nd last symbol.
+* We are at 2nd last symbol and we are going **left** to the 2nd symbol.
+* When we see left most blank indication that we got the first symbol.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e73fd04-58d5-4a66-931f-fac9c727037a)
+
+* Now we are in **S1** state and in tape we are in **2nd symbol**. In the process we are in first symbol.
+* **S6** means we are in **last symbol**.
+* As it starts with **b**, it should end we **b** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/45ca41d1-a747-4170-b813-a09d274bd8e2)
+
+* Above story is saying saying that starting **a** and ending **a**.
+* Above story is saying saying that starting **b** and ending **b**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d9466cb6-40c8-4148-beef-6e4c94d5abda)
+
+
+
+
+
+
 
 
 
