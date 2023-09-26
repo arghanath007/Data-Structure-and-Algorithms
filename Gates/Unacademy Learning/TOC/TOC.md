@@ -13854,6 +13854,62 @@ b) May not be REL or Non-REL -> It means that it is **Non-Rec**.
 
 * **REL** not closed under **complementation** [Major Story]
 
+## touring-machine-iv (49) [26th Sept 2023]
+
+1) If L is rec then L' also rec
+2) If L is REL then L' maybe REL or may not be REL.
+3) If L and L' both are REL then both are Rec.
+4) If L is REL but not Rec then L' is not REL.
+
+* **REL** complementation is either **REL** or **non-REL**. If at all **REL** then it is **Rec**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/537becfd-f5f5-4921-a152-cfcbfa3181fc)
+
+* [**VERY IMPORTANT POINTS**]
+
+5) If L and L' are complement to each other then what can we comment about each other:-
+
+1) Both **L and L'** are **Rec**.
+2) One is **REL** and but **not Rec**, another **not REL**
+
+* One is **REL** and but **not Rec**, complementation is **non-REL**
+
+3) Both are **non-REL** possible.
+
+* If some language is **non-REL** then **TM** is not there and it's complement is also not there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7702ce10-3209-49a4-95be-f978a26111cf)
+
+4) One is REL another Rec.
+5) BOth are **RE** but not **REC**. [NOT POSSIBLE]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5179156f-a7b8-49ac-9099-a641b57810d7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5820353d-8a40-449a-ab14-c459150acddf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/07add0f9-5ee7-4279-9a82-48ebe4a9e950)
+
+* **Rec** means **REL** also.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/858e8fb4-a679-4458-af36-40304e91708b)
+
+
+* No **H-TM** but **TM** possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a7e67cb-c9ec-464c-94b6-3ece73a46945)
+
+6) BOth are Rec but not REL. [Not possible]
+7) One Rec another not Rec.  [Not possible]
+8) Both are not Rec.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d395b4f7-eabe-4ac0-8dc1-1bb217bea2a4)
+
+### Undecidability or Decidability
+
+* Start from 42mins.
+
+
+
+
+
 
 
 
