@@ -13759,11 +13759,100 @@ b) Both non-regular -> Maybe possible, may not be possible.
 
 * [**IMPORTANT**]
 
+* When we say **REL** it maybe recursive(Rec) or may not be recursive(non-Rec).
+* Semi-decidable another name is **un-decidable**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d2d21463-4fca-4b32-b4e2-8a6a37c0a256)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/296862e6-8e79-4bba-b5b4-4d3ee0682d8a)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d7f1784b-789b-4cfd-9e61-59bbad33df44)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c98afda0-427b-481a-ba90-80e0f3086732)
 
+* No-logic means we cannot keep it inside computer.
+* Non-recursive enumerable language we cannot keep inside computer.
+* REL will sometimes hang.
+* In **Rec** nothing will hang.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ed8bd02-8fad-46a5-886c-7039bfd94323)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a978c7f5-9874-4c5a-9eee-94a3ed582085)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0837b2d-5279-4f65-ab52-bfd1b8803111)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4065139f-049f-4bf4-b4ab-07de85614fff)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc5ef02a-37c6-491c-8d4f-7df778c21b5c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e0e7ac4d-657c-4994-8864-fc9153d3bbd5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/64f492f3-27a1-49bd-ae93-683259c5ca53)
+
+* [**IMPORTANT**]
+1) If **L** is **Rec** then **L'** is also **Rec** as it is closed under complementation.
+2) If **L** is **REL** and **L'** is also **REL** then **L** should be **Rec** otherwise it is not possible. [Major Point] [**IMPORTANT**]
+3) If **L** is **REL** and **L'** is **non-REL** then **L** is **not Rec**. [Major Point] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3006dc0d-91c7-452e-b846-a80f06dd5421)
+
+* There is no confusion here.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7edecee6-c9e1-4eee-9e99-7e5fdde0173a)
+
+* If **L** is **Rec** then **L'** is also **Rec**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89001455-5581-4692-8893-5f65b6214589)
+
+* **L** is **REL** means that **L** maybe **Rec**.
+* L is REL and L' is also REL then L is Rec.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/87eec1d0-37ac-44cb-b3ad-4848b7411efd)
+
+* Only two models are there. There is **no dilemma**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f548faa8-0c12-4ce7-b035-9a70dacd3284)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ec59210-8e89-4b2c-895e-b277f389857c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9fd2da3-555a-49c1-9984-bfa3e3955f18)
+
+* [**IMPORTANT**]
+* REL is upper and Rec is lower.
+* REL is superset and it can come down. After complementation is also closed then REL can come down. After complementation is not closed then REL cannot come down.
+
+1) If L is Rec then L' also Rec.
+2) If L is REL then L' will have two possibilities:- 
+
+a) It maybe REL -> It means that it is **Rec**.
+b) May not be REL or Non-REL -> It means that it is **Non-Rec**.
+
+* REL is not closed under complementation.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8883b488-f2cb-4dbb-a19a-5d589e67332c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e3f9ec8-f7cd-4341-9764-ac7ab0e01808)
+
+* [**IMPORTANT**]
+
+3) If L is REL but not Rec then L' is **Non-REL**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1476f00d-4bb2-4270-a063-ac8aebd567ee)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a29f956a-df27-4a83-a683-906ef86daf1a)
+
+* Indirectly saying the same thing.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/02ca531d-5d5d-4d9a-a6f7-5c2e1d6c79c2)
+
+* If **L** is **REL** then **L'** is also **REL** then both **L and L'** are in **Rec**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d5336f9-4648-4760-a739-97a7daf66168)
+
+* If **L** is **REL** then **L'** is **Non-REL** then both **L and L'** are in **Non-Rec**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/99408171-9905-4d49-9ec3-0a095515df77)
+
+* Only **two** models.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/230618dc-9816-4daf-acbb-554b3b85a79f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7d9f481-8f8e-42c8-be01-d89a4a6c33c6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b74750c-4a74-4b3e-9843-7bb434940664)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36eeecef-c31e-498f-8531-67329c6a157b)
+
+* **REL** not closed under **complementation** [Major Story]
 
 
 
