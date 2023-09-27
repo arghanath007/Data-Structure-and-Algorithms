@@ -13896,7 +13896,7 @@ b) May not be REL or Non-REL -> It means that it is **Non-Rec**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a7e67cb-c9ec-464c-94b6-3ece73a46945)
 
-6) BOth are Rec but not REL. [Not possible]
+6) Both are Rec but not REL. [Not possible]
 7) One Rec another not Rec.  [Not possible]
 8) Both are not Rec.
 
@@ -13904,16 +13904,114 @@ b) May not be REL or Non-REL -> It means that it is **Non-Rec**.
 
 ### Undecidability or Decidability
 
-* Start from 42mins.
+1) Emptiness Problem of FA -> Algo is there -> Decidable Problem
+2) Equality problem of FA -> Algo is there -> Decidable Problem
+3) Finiteness problem of FA -> After simplification is over, no cycle -> Decidable Problem
+4) Membership problem of FA -> In Final then accepted -> Decidable Problem
+5) Totality or Completeness(Is it accepting everything, is it accepting (sigma ^ *)) problem of FA -> First do complementation first and then verify empty or not -> Decidable Problem
 
+* Totality is **Decidable** for **DCFL**.
 
+6) Co-finiteness problem of FA -> Decidable Problem
 
+* Given FA complementation accept finite language or not. After complementation is over apply **finiteness** algo. There is an algo.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/770d97df-9f2f-47c5-8e51-38d5b483fff1)
 
+* True
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/87299714-5a4e-4595-956d-fb6867bd33b1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/049a0650-5c70-4555-bd7c-f8354cf79366)
 
+* [**IMPORTANT**]
 
+7) Intersection empty problem of two FA -> Decidable Problem
+8) FA1 subset of FA2, we want to verify -> **FA1 - FA2 = Phi(Q)**, we have to check -> Decidable Problem
 
+* Construct machine for **FA1 - FA2**?
+
+> Product Machine
+
+* In **product machine** final states will **differ**.
+* Construct product machine and check for empt.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d2af0d5-2c2f-4c9c-9e24-a11100548830)
+
+* FA1 subset of FA2.
+* Any other way?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a942e387-e838-4ace-8223-3f32d13af534)
+
+* Set Theory Substraction.
+* First one people(a,b) but not second one people(a,b,c,d), we finally got **Phi(Q)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/adf48738-a640-4e4f-b1ef-6d5a90945dba)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/13e0760f-4ef2-4f66-8b97-413b04b87dfa)
+
+* Substraction finally **non-empty**.
+* Substraction finally becomes **empty** means that **first one** is a **subset** of the **second one**.
+* Substraction finally becomes **non-empty** means that the **first one** is **not a subset** of the **second one**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f6e97e7-6520-49b8-b803-8e5effbee0c7)
+
+9) Ambiguity problem of regular language -> It is **decidable**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af2fc528-9117-4a21-9707-024527cfbefa)
+
+* There are two ways to derive **a**, one is direct **S -> a** and one is **S -> aA, A -> Epsilon**.
+* This will generate only **a**.
+* For every given **ambigious regular grammer**, equivalent **unambigious regular grammer** we can write. It is a proven.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b11ba59-20b1-4bd9-9b37-cb0b978c0c9a)
+
+* Now there is **no ambiguity**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/01aa8fb3-1490-47aa-a829-fbfdba0fa64c)
+
+* Ambiguity problem of regular language. What does that mean?
+* For the given ambigious regular grammer equivalent unambigious regular grammer is possible.
+* It is **decidable**.
+* Write regular grammer from **minimal-DFA**.
+* In **DFA** there is **many choice**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/15cca8c8-6db3-42d9-8916-72f61ddfe3fc)
+
+### For CFL
+
+1) Finiteness
+2) Emptiness
+3) Membership
+
+* Rest is in **chart**.
+
+### For DCFL
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa7675a1-2db0-441b-894f-990d5a5b713b)
+
+### Turing Machine (Undecidability/ Decidability)
+
+* We have one **TM** and one string also. After reading that string what is the result?
+
+> If the string is valid then it will go to **halt-final** state.
+
+> If the string is **invalid** then it will **hang** also and it may go to **halt-non-final** state. Anything can happen.
+
+* In case of **TM** there is a chance of **hang** also.
+* Invalid thing if we give then **TM** may **hang** also.
+
+* We have a **TM** and one string(w), after applying string(w), **TM** will halt or not?
+
+> If **valid** string then it will **halt**.
+
+> If **invalid** string then it may **halt** or it may **hang**.
+
+* We are discussing about **TM** above.
+* **H-TM** has 2-possibilities, if string is **valid** then **halt-final state** and if string is **invalid** then **halt-non-final state**.
+* **TM** has 3-possibilities, if string is **valid** then **halt-final state** and if string is **invalid** then it may **halt** or may not **halt**.
+
+1) Halting problem of TM
+
+* Given TM(m), string(w).
 
 
 
