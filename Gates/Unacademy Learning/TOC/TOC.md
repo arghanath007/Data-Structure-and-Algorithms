@@ -14574,6 +14574,198 @@ b) May not be REL or Non-REL -> It means that it is **Non-Rec**.
 
 * [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/970834db-af5e-4a39-8cef-ec6f03ca35a7)
+
+* Example
+* All are recheable.
+* A -> bA, it is recursion but termination not there.
+* As **B** was using **A** and **A** is useless so **B** is also **useless** now.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/01b89328-c6be-4427-9f5a-5774c30352de)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4ad1d9e2-e5d0-4f97-a371-a77838296eb9)
+
+* Simplyfy the given grammer. Don't do creativity.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eadc572a-8f5f-46e4-9be7-1193456a87cd)
+
+* Before and after **simplification** the languages are **same**.
+* If **L(G)** does not have **Epsilon** then **L(G) = L(SG)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a718c83-2c71-4d25-b9b0-78653e135581)
+
+* If the original language don't have **Epsilon** and anyhow after **simplification**, **Epsilon** is removed. They both are **equal**.
+* If the original language have **Epsilon** and anyhow after **simplification**, **Epsilon** is removed. We cannot give **gurantee** that they both are **equal**.
+* They both are **not equal**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e51fdead-0f5c-40fe-b735-a90d64f4dcdc)
+
+* For every **Epsilon** free CFG, we can write equivalent simplified CFG.
+* **Epsilon** free CFG is not there then for every CFG we can write simplified CFG, they may not be **equal**.
+* For every CFG, the CFG may contain **Epsilon**, we can write simplified CFG but no gurantee of equality.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/40b623a3-57db-4035-9ed0-f4f976afc121)
+
+## Normal Form
+
+1) CNF (Chomsky Normal Form)
+2) GNF (Greibach Normal Form)
+
+* In **CNF** all of the productions are in the form of **V -> VV|T**, single variable(V) generating **exactly two variables or a single terminal(T)**.
+* In **GNF** all of the productions are in the form of **V -> T(V *)**, single variable(V) generating **single terminal(T)** followed by **(V ^ * )**.
+* Single terminal(T) is also ok in **GNF**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc093ba8-eadc-430f-a53a-a5b7037bf2df)
+
+### CNF
+
+* If we do directly then problem will become complex.
+* First simply and after simplification doing **CNF** is very easy.
+* First step is **simplification** and then go for **conversion**.
+
+* V -> VV|T
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/99df3eb5-736a-4534-b43a-a11f43519c34)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0dcbf77a-0134-44cc-8e32-c05bd677d542)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c29ff31-4003-4421-bce3-320b1ae6aba5)
+
+* Example
+* It is not **CNF**. We have to **convert**.
+
+* **CONVERSION STEPS**:-
+
+1) Simplify
+
+* Any null production?
+
+> NO.
+
+* Any unit production?
+
+> NO.
+
+* From **S** everyone is recheable?
+
+> YES.
+
+* **S** having **recursion** but it is having no termination. So it don't generate anything.
+* Starting symbol only not generating anything.
+* After simplification, all are gone.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83e21f87-c345-446d-bca8-0c2e76c4a205)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f95cff39-536d-421e-9e63-fb444432741e)
+
+* No simplification, all are gone.
+* Two terminals are not allowed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b9561567-8d47-4c18-802c-20e5914b9016)
+
+* Many ways are there.
+* One way we have written.
+* **CNF** having some **fixed format**.
+* Whenever fixed format, we can do **estimation**. Ofcourse.
+* If random format is there then we cannot do **estimation**. Ofcourse.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4ccbff1b-27f9-4f56-b4a9-ee61c987312b)
+
+* See the **estimation**, they are doing.
+* From the **CNF** grammer we want to generate **2-length** string.
+* To generate a **2-length** string from the **CNF**, we are using **3-productions**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b240e85-451e-44ae-be70-24ea1de1d791)
+
+* This is the advantage of having fixed format.
+* We can exactly predict how many **productions** we are going to take.
+
+* To generate an **n-length** string from a given **CNF** grammer, the no. of productions needed is **(2 * n) - 1**. [**IMPORTANT**]
+* Advantage of **normal form**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5e37d40-0a26-47df-beab-cc4b86471f59)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ab39848-cc36-46a7-83d7-04a6b13ca383)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd4e50d8-4dcc-4c1b-988d-5db5438bbf42)
+
+* **abcd** -> string -> 4-length string
+* 2 * n -1 -> 2 * 4 - 1 -> 8 - 1 -> 7.
+* In **normal grammer** we don't know how many productions to take.
+* In **CNF** grammer we can say, how many productions to take.
+* Because of **CNF**, some **advantage** is coming
+* For the given CNF grammer to generate **n-length** string we need **(2 * n) - 1** productions. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9c3948b3-4714-4c0f-8285-90c9906ec20d)
+
+* NOTE.
+* Original grammer contain **Epsilon** and if we convert it into **CNF** then we will not get **equivalent**. **NO** because **Epsilon** is missiong. **CNF** don't generate **Epsilon** because on the right hand side **exactly two variables or 1-terminal(T)** is only allowed. **Epsilon** is not allowed.
+* For every **Epsilon-free CFG** we can construct equivalent **CNF**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/84cb9f6f-a466-4fce-bf4e-feacf6dbbec3)
+
+## GNF
+
+* V -> T(V*)
+
+* **Conversion Steps**:-
+
+1) Simplify -> No simplification possible
+2) Is it **GNF**? -> Convert into **GNF**.
+
+* **B -> b** is **GNF**.
+* **A ->aA|bB|b** is **GNF**.
+
+* Those people who are in **GNF** write as it is.
+* **S** is not in **GNF**.
+* Replace **A** with **A's possibilities**.
+* **A** already passed the **GNF**, so use it(A).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a639ee1e-2968-4d66-bf0d-60ab5579554d)
+
+* Before conversion it is not **GNF**.
+* Simply substitute.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6467a54e-bbf6-4cee-adec-af965eceae0d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0ec4aaa-0c59-4d17-8894-533e62951c68)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63996cf1-eb51-4014-89bb-3afeeea0a26c)
+
+* Example.
+* It is not **GNF**, so **convert**.
+
+1) Simply -> No simplification.
+2) Conversion
+
+* We replaced the **b** with **B** and in the next level we did **B -> b**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1de7c0a0-cd82-4445-80d1-cc6ab363ae83)
+
+* First letter is **terminal**.
+* In **GNF** if we want to generate **10-length** string then **10-productions** are enough because every production will generate exactly **1-terminal(T)** guranteed.
+* We will never show one production where there is **no terminal(T)**.
+* To generate **n-length** string according to **GNF** or from **GNF**, **n-productions** are enough.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b81fceee-7ba0-4a6d-9236-497afe19bfa7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/52eea4ab-de8a-4348-b65f-f6cff072471c)
+
+* 5-length string needs 5-productions.
+* Exactly **1-terminal(T)** guranteed.
+* More than **1-terminal(T)** not possible.
+* Given grammer contain **Epsilon** then can we write **equivalent GNF**?
+
+> **NO**.
+
+* After conversion, because we are **simplifying**, **Epsilon** may go.
+* Equivalence may not be possible if **Epsilon** is possible in the given grammer.
+
+
+
+
+
+
 
 
 
