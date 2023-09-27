@@ -14009,9 +14009,127 @@ b) May not be REL or Non-REL -> It means that it is **Non-Rec**.
 * **H-TM** has 2-possibilities, if string is **valid** then **halt-final state** and if string is **invalid** then **halt-non-final state**.
 * **TM** has 3-possibilities, if string is **valid** then **halt-final state** and if string is **invalid** then it may **halt** or may not **halt**.
 
-1) Halting problem of TM
+1) Halting problem of TM.
+ 
+* Given TM(m), string(w). Does **m** halts after reading **w**?
 
-* Given TM(m), string(w).
+> No gurantee. It is **undecidable** problem.
+
+* If the same problem came in **H-TM** then it would be a **decidable** problem.
+* If the same problem came in **FA** then it would be a **decidable** problem.
+* If the same problem came in **DPFA** then it would be a **decidable** problem.
+* If the same problem came in **NPFA** then it would be a **decidable** problem.
+* If the same problem came in **NBA** then it would be a **decidable** problem.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32fb92d7-103e-47c7-a4e8-b8351426a779)
+
+* **TM** is a computer.
+* We cannot give gurantee that a **computer/machine** will never hang.
+* Hanging possibility there.
+
+2) Membership problem of **TM**:-
+
+* Given TM(m), string(w). Does **w** is member of **m**?
+
+> Hanging possibility there. So it is **undecidable**.
+
+* Previous problem(1) is that it will **halt** or not.
+* In this problem(2) it will **halt** at final or not.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/52bcfc79-11ba-4403-bc81-7fdd07a5c8f0)
+
+3) Blank Tape Halting problem -> Undecidable.
+
+* Given TM halt on blank Tap?
+
+> No one knows, there maybe hanging.
+
+* Is **Q3** saying we will construct **TM** for blank tape?
+
+> NO.
+
+* We can construct that is ok.
+* They are not asking about construct.
+* They have given one **TM**, will it accept blank tape?
+
+> This is the question(Q3).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/14befd5f-bf08-4d72-a1de-63cdc8194b48)
+
+* These are meant from **TM** only. They are **TM** terminology.
+* We have a **TM** which is accepting blank only, no problem.
+* The problem is that we have some **TM** it may accept blank or may not accept blank.
+* Given a **TM**, we don't know what the **TM** will do.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/59e9bbe2-7ae2-4e50-bb13-ed656646ae7e)
+
+4) State entry problem of TM.
+
+* Given TM(m), state(S5) and string **w**. Does **m** enters state **S5** while processing string **w**?  
+
+> It is **undecidable** problem. 
+
+* Hanging there means **undecidable** problem. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/388bfe09-e3c4-491e-9352-6568eefd2b61)
+
+5) PCP is undecdable.
+6) m-PCP is undecdable.
+7) Give TM(m), string(w
+
+* **k** moves are over an we are in the final state.
+* String also completed and we are in final state. So, it is **accepted** otherwise **nonp-acceptedd**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8c90f922-de1d-4a76-8ea9-6c1c07efeb1c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea7f2507-d328-4024-b785-a85f2329d18e)
+
+* Given **TM(m)**, string(w) thus **m** halts after **k** moves.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd30bc4a-2405-40ec-a863-fb8259f799a1)
+
+* **K** moves are over, stop it.
+* Hanging means **loop** is going on.
+* **loop** is going on means some steps/moves are repeating.
+* Total moves became **k** stop it.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/740b4ff4-cce6-4638-9434-1b4fc9903f8d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/21c64005-3ca3-491f-a630-10fe9add61d5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a68cdf46-c4ed-4de3-80de-204dcd57a208)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
