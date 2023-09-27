@@ -14096,23 +14096,322 @@ b) May not be REL or Non-REL -> It means that it is **Non-Rec**.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/21c64005-3ca3-491f-a630-10fe9add61d5)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a68cdf46-c4ed-4de3-80de-204dcd57a208)
 
+## miscellaneous-i (50) [27th Sept 2023]
 
+## Countable and UnCountable
 
+* N = Set of natural numbers -> 1,2,3,4,.....
+* Z = Set of integer -> -Z, 0, +Z -> ...., -2,-1,0, 1,2,3.....
+* Q = Set of rational numbers -> P/Q form where P and Q are integers and Q not equal to '0'.
+* N is subset of Z.
+* Z is subset of Q.
+* **Q** is the superset.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/421a62b9-f9ac-4ac4-abcd-feba074e6d80)
 
+* Subset of a finite set is finite subset
+* Subset of a infinite set maybe infinite subset or maybe finite subset.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd99752c-ce14-4985-9723-9ff20a3b0373)
 
+* Subset operation is not closed under infinite set.
+* Maybe finite also.
+* Subset of a finite set is finite.
+* Subset operation is closed under finite set.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f444e3a6-090a-4333-a675-204c87b0f238)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6657045a-cedb-4390-b754-b494b0ff73b3)
 
+* R = Set of Real numbers
 
+1) Set of rational numbers -> P/Q form -> P,Q belongs to Z, Q not equal to 0.
+2) Set of irrational numbers -> sqrt(2), sqrt(3)....
 
+* **Z** contains positive as well as negative also.
+* N subset of Z subet of Q subset of **R**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eba8cf4f-de7c-4e55-acf5-35cd14099a93)
 
+* **R** also has **irrational numbers**.
+* CN =  Set of complex numbers -> a + ib where a,b belongs to R.
+* N subset of Z subet of Q subset of **R** subset of **CN**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/325f7bba-cb93-43c2-b459-fff6f435f9dc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc027bf2-a8af-4536-bfb8-fd58b3e8a57b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ea9fbfb-b38a-4e02-be87-de4e2beaaa28)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e141c155-a78b-472d-8345-3085463adbd8)
 
+* Set:-
 
+1) Finite Set
 
+* Countably finite
 
+2) Infinite Set
+
+* Countably infinite
+* Uncountably infinite.
+
+* Countable means either **Countably finite** or **Countably infinite** but it is **countable**.
+* Uncountable means **Uncountably infinite**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/64443842-3480-4f53-b1d2-ef6eaada2452)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eee3005b-b500-497a-a188-de84ea105bb6)
+
+* EP -> Enumeration Procedure.
+* Set(S) said to be countable if **S** has **EP**.
+* EP -> Every member of **S** can be printed in **finite time**.
+* Every number will get a chance.
+* Every number is printed.
+* Infinite means big number.
+* Practically there is **no infinite**.
+* Normally all are **finite** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7cec27da-57b2-44ae-ace7-c35ea875dfdf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/905586b6-b342-4ef0-a3ab-ab5e50cba07c)
+
+* It is actually **infinite set** but we can print every number.
+* So this is **countably infinite(CI)**.
+* We can list out every number.
+* We can list out positive integers.
+* We can list out negative integers.
+* We can list out Zero.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b46f705b-dc82-4944-bca9-f21250519ddc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c21073a0-b2de-4021-af78-db81b3781247)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/594b8f46-e310-45a5-a6e3-7f83c73497c2)
+
+* Z -> Overall it is **CI**
+* CF -> Countably Finite
+* Zero(0) -> Only one thing there, zero.
+* That why **Zero(0)** is **CF**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa1ad13e-1c9a-4a38-8144-9b8b8f4439be)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/78a6d43b-7a19-4277-a64b-a8d356bd21c3)
+
+* Below all are **natural numbers**
+* Same for **negative numbers** as well.
+* Above or below we can keep **negative nos**.
+* Above person negative, below person negative, both positive.
+* Three models possible.
+* Every number can be listed out.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35323f94-c678-4a9a-8884-ace8f5297927)
+
+* CI U CI -> CI
+* CI union(U) CI is **CI** only.
+
+* When will **0.5** will come, we don't know.
+* Between **0 and 1**, **0.5** is available.
+* In-between so many people are there, how we will print them?
+* Between **0 and 1**, so many people are there.
+* Between **0.1 and 0.2**, so many more people are there.
+* We write anything, they can point something **missing**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/439e92dd-8d74-4015-8624-b6992f123c37)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/14f53dd4-ebdc-4a0f-9177-2cc2b56273f0)
+
+* To get the next person's turn, it will take **infinite** time.
+* It is **uncountable**.
+* Uncountable means **uncountable infinite**.
+* It is not possible to list out all.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c58c1cfc-e063-4a88-8cbc-b029b8bfd6f6)
+
+* Listing every number is difficult.
+* One person is always missed out.
+* Enumeration is not possible.
+* Using Cantor's Diagnolization theorem we can prove that, **Set of real numbers is uncountably infinite(Uncountable)**. [**IMPORTANT**]
+* **Set of real numbers is uncountably infinite(Uncountable)** -> Listing every number is difficult
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b34c040-815a-4c74-85a8-3513585068a0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3355dc1-47d6-49d6-8be2-5c98f4760dee)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5c47956-8363-46db-8e24-2885b52ae987)
+
+* Here **P/Q** required.
+* P,Q -> Integers.
+* P -> Rows
+* Q -> Columns.
+* Major game is **real numbers**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/64b16027-b3f0-47f2-b003-fe21b161bdf8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a2c9828-412b-4c3e-b4f6-1b0d41015ec1)
+
+* Set of Real numbers is **uncountable**.
+* R -> Real
+* a -> R -> uncountable(u)
+* ib -> R -> uncountable
+* Uncountable union(U) uncountable is **uncountable**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e0ab2a3e-98f2-4f5d-b164-795396e7e687)
+
+* **uncountable infinite(uci)** union(U) **uncountable infinite** is **uncountable infinite**.
+* It is **uncountable(u)**.
+* Complex number are also **uncountable or uncountable infinite**.
+* Real number is also **uncountable**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ca558122-91b0-4a6b-8caa-2f98dedd64af)
+
+* Subset will become **less**.
+
+1) Subset of countable is countable but subset of uncountable is maybe countable or may not be countable i.e uncountable.
+2) Countable(c) cartesian product of countable(c) is countable(c) only.
+3) Uncountable(U) cartesian product of Uncountable(U) is Uncountable(U) only.
+4) Uncountable(U) cartesian product of countable(c) is Uncountable(U) only.
+5) Countable(c) cartesian product of countable(c) cartesian product of countable(c) is countable(c) only.
+6) Countable(c) cartesian product of countable(c) cartesian product of countable(c) .....(infinite times) is countable(c) only.
+
+* Individually we listed then combined also we listed.
+
+7) Uncountable(U) cartesian product of uncountable(U) cartesian product of uncountable(U) .....(infinite times) is uncountable(U) only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3df1ebd5-6e93-4b46-878a-480bc5aafdc2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5d865f8-d2df-4720-b3d0-52194be1263c)
+
+* [**IMPORTANT**]
+* N -> Natural numbers
+* Q -> Rational numbers
+* Z -> Set of integers
+* R -> Real numbers
+* CN -> Complex numbers
+* Real numbers = Rational numbers + Irrational numbers
+* If countable(C) plus(+) something already goes to uncountable(U) then that something is **uncountable** only. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bae7220b-e895-4db3-826d-9522f9c75695)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/533fc170-8606-4a68-9c8e-b1239bc0769d)
+
+* U = C union(U) U
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7dec11a1-c9d0-484f-b4d6-cc01c62ec312)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd624568-049a-47f2-939f-6d4c9b7617c2)
+
+## Cantor's theorem
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb171185-7be6-4ecd-bb3b-d4b07c3dcda2)
+
+* If **S** is **Countably Infinite(CI)** then the subset is **countable**.
+* Countable means it has two part **CF and CI**.
+* If **S** is **Countable Infinite(CI)** then it is talking about **countably infinite(CI)** only. It is not talking about  **countably finite(CF)**.
+* If **S** is **Countably Infinite(CI)** which is **CI is N,Q,Z** then Power set of 's', which is **P(S)** is **uncountable**.
+* **N** is already **infinite**.
+* All Subsets of an **infinite set** becomes **uncountable** only. We cannot list them.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89bb56e1-dbfe-43aa-af0d-971d1cc27cd0)
+
+* Subsets of **CF** which is **finite set** is **finite** set only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb9981d3-1a9b-423a-b7a6-26915a279ae3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d7ba0a56-23a1-4b00-b87b-b1a1fd09ce69)
+
+* N -> Natural numbers -> Countable
+* Uncountable -> Real, irretional, complex numbers(CN), P(N), P(Z), P(Q)
+* P(N) -> Power set of N
+* P(Z) -> Power set of Z
+* P(Q) -> Power set of Q
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e98cacf8-d019-4fb2-bf5a-8d4f90bfb0c0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c84747bc-f228-449e-a1c6-be52998e75fa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f905e59a-e59d-4ff4-b80b-e5152608dd1e)
+
+* This was maths terminology
+
+### TOC terminology
+
+* If we take any language(L) over **sigma** then every language is subset of **(sigma ^ * )**.
+* Subset of countably infinite(CI) is countable.
+* **(Sigma ^ * )** is everything.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b02310a4-2676-44a3-989d-0925ea2ddef7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b240cc9-d370-4bef-a496-d34ca7fd4849)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2fa38029-cb31-4d56-b326-41746840956e)
+
+* Overall it is **countable**.
+* Set of all regular language are **countable**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/07eb0d53-723a-40ca-afcd-e5b397ff85e9)
+
+* Only regular languages are countable?
+
+> The **language(L)** is a subset of **(Sigma ^ * )**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7710bf82-896d-42dc-ba51-edfdf40d9505)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a0bd363-ea27-4eae-9fe2-aef109d51fac)
+
+* Subet of **CI** is **countable**.
+* Set of all **CFLs** is also **countable**.
+* Set of all **CSL** is also **countable**.
+* Set of all **recursive languages** is also **countable**.
+* Set of all **REL** is also **countable**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9450567-54f5-499a-a261-127dae0fa4d0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9be2726d-2714-4b95-b8e0-2306b98cd220)
+
+* All **RL** union(U) all **CFL** union(U) all **CSL** union(U) all **Rec** union(U) all **REL** union(U) all **non-REL**.
+* This is **2 ^ (sigma ^ * )**.
+* This is called as **set of all languages**.
+* This means **set of all languages**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b02de12-db33-4018-a060-3ac7b4d83f33)
+
+* **(sigma ^ * )** is **CI**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/25b750fb-15d7-42c5-817b-ad4d87316f45)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8db0d1b5-fa37-41c7-a725-1ad81b39e427)
+
+* So, **2 ^ (sigma ^ * )** is **uncountable**.
+* **2 ^ (sigma ^ * )** -> **set of all languages**.
+* Uncountable(U).
+* Countable(C).
+* Everyone is Countable(C) but overall it is **Uncountable(U)**.
+* So it means that set of **non-REL** is **Uncountable(U)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/763bd25d-08de-4a09-95f7-0f6a45244991)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/723d03ac-cb19-435f-a228-040d84776f89)
+
+* [**IMPORTANT**]
+* **non-REL** means **no TM** possible because it has **no logic**.
+* **non-REL** is **uncountable(U)**
+* CI -> Countably Infinite.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/828bebb3-3e70-4db4-a4f7-34020b76712f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/579b5842-106a-47e9-a5d6-badc11b7ea10)
+
+* [**IMPORTANT**]
+* Countable -> Sigma ^ *, Set of regular languages, Set of CFL, Set of CSL, Set of recursive, Set of REL.
+* Uncountable -> 2 ^ (Sigma ^ *), Set of non-REL, Set of non-regular language, Set of non-CFL, Set of non-CSL, Set of non-recusive.
+
+* Non-regular language means maybe CFL, maybe CSL, maybe non-REL also.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1309f1f9-2bc7-4d4f-b5fb-6cacc7ed9ecc)
+
+* One regular langugae is **CI**.
+* Set of regular langugae is also **CI**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0898016f-e47e-4895-a26e-f1918eb72bd6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8bcfc31a-61e6-42cd-ab90-3046e4d21f45)
+
+* **L** is **countable** that's it.
+* Whatever is the **L**, we don't care.
+* **L** is subset of **(sigma  ^ * )**. [**IMPORTANT**]
+* **(sigma  ^ * )** is countable and subset of countable is countable.
+* So **L** is countable.
+* If something is **CI** then the subset is also **countable**.
+* All **non-REL** are very big sets.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a9ab0c6-6414-43d3-9263-9068c956df0f)
+
+* Everything **countable** but totally/overall it is **uncountable**.
+* Set of **non-REL** is **uncountable**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81a1383b-98ed-4d68-bfe4-d5f9b4b71852)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5812e557-025e-469c-9374-f7a0d66b3635)
+
+* Only one **non-REL** is **countable**. **YES**. [**IMPORTANT**]
+* We can list it easily.
+* Set of **non-RELs** is **uncountable**. **YES**. [**IMPORTANT**]
 
 
 
