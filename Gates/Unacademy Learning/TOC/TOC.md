@@ -14413,36 +14413,166 @@ b) May not be REL or Non-REL -> It means that it is **Non-Rec**.
 * We can list it easily.
 * Set of **non-RELs** is **uncountable**. **YES**. [**IMPORTANT**]
 
+## miscellaneous-ii (51) [27th Sept 2023]
 
+## Simplification of CFG
 
+1) Elimination of Null Productions.
+2) Eliminations of Unit productions.
+3) Eliminations of useless symbols.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bfe8a941-c02d-4248-a4dc-ad09ed8b01c0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6eb9572-7935-4e7e-ad43-6e03f4189566)
 
+* We cannot do them in whatever order we want.
+* First is **null** then **unit** then **useless**.
+* Order is important.
+* To get the **simplified one** we have to followed the above order.
 
+### Elimination of Null Productions
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a497cfd6-7329-4d9d-8e79-6b2a841bda18)
 
+* We have **1-NULL production**.
+* The **NULL production** is a **direct** one.
+* We don't want to see **NULL productions** in the grammer be it **direct or indirect**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c46bb170-731c-49b2-8a3d-7d853e991078)
 
+* We have **3-NULL productions**.
+* The **2-NULL productios** are **direct**, A -> Epsilon, B -> Epsilon.
+* The **NULL production** which is **indirect**, S -> AB.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95a34613-a6c7-4732-9cbe-3e17749f8091)
 
+* Who is creating trees?
 
+> 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/70719afc-afd8-406a-9ce8-faf96face9f7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d3b5b88-2182-4fcc-aeeb-fc759b30f08e)
 
+* In the given CFG, Epsilon not belongs to LFG(Language of 'G') then we can equivalent CFG after eliminating Null productions.
 
+* **STEPS**:-
 
+1) Write transitions as it is.
+2) Eliminate the direct null productions.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b7e9a0f8-2467-4b32-9877-95a771a07bcf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0f7a1c7-0046-4726-b296-4d5109d6cbd9)
 
+* **B and C** are direct null productions
+* **A** is indirect  null production.
+* Three are generating null production which are **A,B and C**.
+* Before eliminating **C** wherever **C** visible on the right side, replace them with **Epsilon**.
+* Before eliminating **B** wherever **B** visible on the right side, replace them with **Epsilon**.
+* Before eliminating **A** wherever **A** visible on the right side, replace them with **Epsilon**.
+* We have kept **Epsilon** for them individually.
+* Put **Epsilon** in combinations like **BC -> Epsilon**, **AB -> Epsilon**, **AC -> Epsilon** and **ABC -> Epsilon**.
+* We want all of the **combinations**, don't worry about **redundancy**.
+* Our concentration is eleminating **null production**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e539f9de-fddf-49d2-93a8-3e87daa3bde8)
 
+* In the **original language** from **S** no null production or Epsilon is coming.
+* Now in both the original and the current there is **no Epsilon**.
+* Both are **Equal**.
+* Both will accept **L**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d2731bb-219c-42fc-9175-edf63c227005)
 
+* [**IMPORTANT**]
+* Both the Left and right side **single variable(SV)**.
+* This is **unit production**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4fafc3b3-250e-4c79-aab5-5aea55c02ebd)
 
+* This kind of things we have to eliminate.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ad660a3-8753-478e-b4cb-3e95e139a8bf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ae4168e-1c14-466d-8f08-894b0867f779)
 
+* In **A -> B**, replace the **B** with **a**, so it is **A -> a**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2558f8d4-9c8f-4724-8518-9334d15c937c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/93a80d84-e2db-40c5-8fa7-8a030ba6994e)
 
+* At the end of the day **S -> a**.
+* Both are same language
+* This is the procedure.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d3e6118-ca8d-4a96-b67d-d50df82ea983)
 
+* There is no unit production.
+* So, it is **same** after unit production derivation.
+* Only **B** generating **Epsion**.
+* Wherever **B** keep **Epsilon**.
+* Now remove null productions.
+* Unit production we did first and then did null production.
+* Now again **unit production** came.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb9a134f-e893-45f5-8f94-e221aebf9a17)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d98f3d64-9c94-499a-9f86-03a48b40d621)
+
+* First do **null** then do **unit**.
+* If we do in any other way/order then problems will come.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e290ca7-c8e3-4848-8795-20b36a143ab7)
+
+* Example
+* EUP -> Eliminate Unit Productions.
+* Verify where **single-single variables** available.
+* First do **null** productions.
+* As there is no one so we can directly go to removal of **null** productions.
+* **single-single variables** are **three(3)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e87f3186-1118-4ef8-a9fc-50d6308acc17)
+
+* Copy as it is.
+* As **A -> B** is in **unit production** so we are replacing **B**.
+* Replace **B** with **B's possibilities**. Now replace **A** with **A's possibilities**.
+* There is no use of **A -> A**, so we removed it.
+* As **B -> A** is in **unit production** so we are replacing **A**.
+* As **S -> B** is in **unit production** so we are replacing **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b37c3e1d-8e39-43c3-a86b-9b7b9505045d)
+
+* [**IMPORTANT**]
+
+### Useless Symbol Elimination
+
+* If only one is asked to then just do that **only one**.
+* When we want overall simplification first do **NULL** then **unit** then **useless**.
+* If asked for specific then only do that **specific** only.
+* Useless Symbol Elimination contain two steps:-
+
+1) Eliminate those variables and it's productions, not reachable from start state.
+
+* From the first two levels we can see that there is no use of **D**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/654b7876-0aba-4fc3-bb17-50127386a906)
+
+* After first step is over whatever is left/available they are recheable from first step.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80a65bc4-080b-4895-b8ae-6c6ac95d3ec2)
+
+2) Eliminate those productions not producing any state.
+
+* They are reachable.
+* B -> bB, this is hanging. Nothing generating. It is **recursion**. Every recursion should have **termination**. This recursion not having termination.
+* It will not generate any string.
+* Whoever is dependent on **B** will also not generate any string. So **S -> ABC** remove it.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b287f11-69dc-4fe4-8aaf-f0cc5d5d263d)
+
+* They are recheable and generating string also. [**IMPORTANT**]
+* **C** is generating string but **C** is not recheable in the final string.
+* Simply CFG -> Do all **three**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/77e4000d-a0e9-4785-bd3f-f14f3f4bfc6c)
+
+* [**IMPORTANT**]
 
 
 
