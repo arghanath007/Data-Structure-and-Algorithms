@@ -138,8 +138,67 @@
 * Normally linking is done at **compilation time**. [**IMPORTANT**]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9890af81-68bc-4d3b-9cd0-355ba442fc61)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/afb98062-a90c-49c5-aff5-77b2b0993e82)
 
-* Start form 1hr 14mins.
+* If the above program is given to **pre-processor**, the **'#' statemenet** is related to **pre-processor**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b6320be-c0a1-4ee6-b1de-ab17bd027777)
+
+* In the program everywhere we have written the shortcut.
+* First we define the shortcut then we are using the shortcut everywhere.
+* Whenever we say **compile** the **pre-processing** will start. The **pre-processor** will see the **Hash(#) symbol** and immediately go inside. **Square(X)** is the shortcut and **x * x** is the actual statement. The **pre-processor** will come inside the code and wherever the **shortcut** is there it will replace the **shortcut** with the actual statement which is **x * x**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c923197-427d-41cd-9c0d-006e2f9f0213)
+
+* First replace **all the shortcuts with actual statement** and then remove whatever shortcut defination we had in the **'#' statement**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/61350518-5c38-4805-bc64-5e5b3f4a0bea)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50b6ab6e-0995-4265-af00-c8c9bd645182)
+
+* **Pre-processor** never do any calculations. It will only do **substitution**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6e2de493-ed0f-40f6-9db9-b44f002cfd67)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef20e3cc-469f-4178-99b6-8fa193d7c520)
+
+* **Pre-processor** never do any calculations. It will only do **substitution** and it will replace all the shortcuts with actual statement.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4dd93f51-58f7-4fbd-b802-a95cc9f1b623)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/47edd883-7620-4f29-9745-6343ef7c530c)
+
+* Do as mentioned in the shortcut. Don't be emotional and add brackets from yourself even though **brackets** are not there. 
+
+## Compiler Introduction
+
+* Compiler will convert from **high level to low level**. Compiler is a **translator**.
+* Compiler is a program. It is a **software**.
+* Compiler input -> High level language.
+* Compiler output -> Low level language.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1fa97632-3fcc-4225-80c3-44cf702d9cab)
+
+* Compiler is a program which will take **High level(HLL)** as **input** and will give **Low level(LLL)** as **output**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66f18681-6520-493d-85d4-6659efef6faf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a982d240-7f4b-4c5c-bbae-adf226e3c7ce)
+
+* They are **functions**.
+* There are **6-functions**.
+* ICG -> Intermediant Code Generator.
+* CO -> Code Optimization.
+* TCG -> Target Code Generator.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0716b3d4-f004-4140-a478-86df0d50c6b7)
+
+
+
+
+
+
+
+
+
+
+
 
 
 
