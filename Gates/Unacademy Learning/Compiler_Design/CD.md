@@ -244,6 +244,54 @@
 * **High level to Low level** we have to go via **intermediant code**.
 * If we directly go from **High level to Low level** then we will miss so many things.
 
+## lexical-analyzer-part-ii (2) [28th Sept 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a84c112-751d-4d77-858f-d1328b25ba5e)
+
+* The table contains **types** of every symbol.
+* That's why the table is called as **symbol table**.
+* Purpose of **symbol table**. It contains every variables and it's **type**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c81da880-c839-49a6-88fc-16514228c90c)
+
+* Before **declaration** the table was **empty** because **no variable**.
+* Symbol/variable names is nothing but **identifier**.
+* **Symbol table** contains **identifiers, identifier's names**, followed by it's **data types**.
+* **Identifier** are **variables and functions**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8788a27-857f-4c08-83e3-2b8804e410d8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6956b6cd-9aa3-4773-9489-2080a7bcaa52)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f44f27c6-a09e-44ce-830d-2f00cb8cc010)
+
+* **Symbol table** contains **identifier's names** and it's information. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b20fd596-873a-4a57-a51b-3ca947d66012)
+
+* If the variables belong to **one function** then **every function** having **one symbol table**.
+* Total program not having **one symbol table**. **NO**. **Every function** having **one symbol table**.
+* Global variables are stored in **static area**.
+* **Symbol table** internally contains the **identifiers** of that particular function.
+* After installing **c-compiler** inside our system and now the system knows that **a** is an **identifier**. **a** is an **integer** datatype. **while** is a keyword.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
