@@ -272,31 +272,124 @@
 * Global variables are stored in **static area**.
 * **Symbol table** internally contains the **identifiers** of that particular function.
 * After installing **c-compiler** inside our system and now the system knows that **a** is an **identifier**. **a** is an **integer** datatype. **while** is a keyword.
+* Can we use operator **x** in c program or not?
 
+> If we want to use it then **x** should be there in the operator list. If it is not there, we cannot use it.
 
+* c program operators are fixed. One fixed table is there.
+* c program keywords are fixed. One fixed table is there.
+* c program symbol table is not fixed. It keeps on changing from function to function. It is completely based on the **user**. It is the **user table**.
+* Symbol table keeps on changing depending upon variables.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ef1a6cf-d7a0-4bfc-bbb4-3fd5a92cb332)
 
+* **x** is an **identifier type token**.
+* We can check it(**identifier type token**) in the symbol table
+* In the symbol table, in which row **x** is there?
 
+> In the first row.
 
+* The token is given which is **(id,1)** [id -> Identifier, 1 -> Token no.]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fefceda3-fd0f-4632-b2b3-1b29807dbfbf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f4bb19e8-fdd9-46bb-92e9-78f4b632c9da)
 
+* = -> Assignment operator type token.
+* They are **fixed**. So no need to give **token**.
+* Only for **new people**, give **token**.
+* a -> Identifier token -> (id, 2)
+* + -> Addition operator type token.
+* b -> Identifier token -> (id, 3)
+* * -> Multiplication operator type token.
+* 60 -> Integer Constant. [No token required]
 
+* Next phase of the compiler is **syntax analyzer** and it will see **((id,3)** instead of **b**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7928374e-37b3-4c97-8114-21524be34381)
 
+* Table means it is **array**. It has **random access**.
+* To give the **token**, **lexical analyzer** is taking more time as it is the **first phase** of the **compiler**.
+* **Lexical analyzer** is saving a lot of time for **other phases** of the **compiler** by giving **token numbers**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8aed8a69-0805-415a-941d-a490acb60e83)
 
+* **Lexical analyzer** input is **HLL statement** and the output is **token string**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8feb2328-8c84-4f0c-bfa6-71ffd313eecc)
 
+* Syntax analyzer input is **token string** and the output is **syntax tree**.
+* 'c' compiler installed means 'c' language rules are installed as well, which is nothing but **grammer**.
+* Grammer is nothing but set of rules.
+* Every production is a rule.
+* Compiler is a set of rules which is nothing but **grammer**.
+* Compiler is installed means set of rules are installed which inturn means that grammer is installed.
+* Compiler is installed means grammer is installed. We have grammer. **YES**.
+* Grammer means set of rules.
+* Compiler is installed means we have grammer and we have string also now.
+* Using the grammer can we generate the string?
 
+> Membership problem.
 
+* To generate a tree two things are required, **grammer and string** are required.
+* To generate a tree two things are required, for which string and using which grammer?
 
+> So grammer and string required.
 
+* if string not there then for what purpose we are drawing a tree.
+* if string there but grammer not there then with what rules we are drawing a tree.
+* Without any rules what is the purpose of drawing a tree.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7702bdc7-96bb-46df-95ef-bd0c18dd98d2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be5eb1a6-b19f-4d79-b556-07c42b913cbe)
 
+* Tree possible then **member**.
+* Tree not possible then **not a member**.
+* From the c compiler we installed we are getting the **grammer** from there only.
+* To generate tree, **grammer and string** are required.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/20e4d1fd-0bb4-41c6-91cf-101906aace3f)
 
+* Tree possible then the **user program** is a **valid** program. Using the rules tree is possible.
+* Tree not possible then the **user program** is **invalid**.
+* Compiler is nothing but grammer there.
+* For everything there is a **grammer**.
+* Compiler grammer is huge grammer. Different people have different combinations. So many rules are there. WHich rule we have to select?
 
+> What tokens are going on based on them the rules will be taken.
 
+* Syntax analyzer actually needs two inputs **grammer and string**. **Grammer** is build-in.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8590598a-0677-427e-86cf-f7f65dd8b26a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/452af461-fba7-45b5-951c-cf2e3465beb2)
+
+* For every statement in a program, there is **1-tree**.
+* Everyline we will draw **1-tree**.
+* All trees are connected by root which is **main()**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf4babd0-ccd0-4178-b54f-8c7b575d0018)
+
+* For one of the lines **tree is not possible** then **syntax error**.
+* Semantic analyzer input is **syntax tree** and output is **modified syntax tree**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fae415c0-d485-4ae5-81c7-cb5c17d90214)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/43efd457-37ea-4feb-a00e-a57fde20443e)
+
+* If we want to do operation between two variables then they should be of **same type**.
+* In grammer **function** is called as **variable**.
+* In program it is called as **function**.
+* Bigger data type cannot come to smaller data type but the smaller data type can come to Bigger data type.
+* In **T and F**, there is **multiplication** but there is **type mismatch**, **T** is **float** and **F** is **integer**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6999b216-193a-4c75-8276-181789351aa6)
+
+* We are modifying **F**.
+* We are converting the **interger** which is **60** into **float** which is **60.0**.
+* This is **typecasting**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b723bd9-8ae7-441c-ae5d-2833ddc5c1c8)
+
+* **F** is now **float**.
+* Type conversion is doing but it is **not possible** then we will show **error message**.
 
 
 
