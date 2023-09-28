@@ -1,6 +1,8 @@
 
 # Syllabus
 
+## CS-IT Syllabus
+
 1) C and DS -> Done [2nd March 2023]
 2) Aptitude -> Comleted [16th Aug 2023]
 3) Digital Logic -> Completed[25th March 2023]  [Do practice question while revision]
@@ -13,6 +15,16 @@
 10) TOC -> Completed
 11) CD -> Started
 12) DM -> Started.
+
+## DA and AI
+
+* DBMS -> Same as CS-IT
+* Data Warehousing -> In another Course
+
+
+### DA and AI
+
+
 
 ## Secret
 
