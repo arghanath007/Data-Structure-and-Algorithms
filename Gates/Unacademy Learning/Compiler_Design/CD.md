@@ -188,22 +188,61 @@
 * TCG -> Target Code Generator.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0716b3d4-f004-4140-a478-86df0d50c6b7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1beed268-2873-4dce-99f5-25f40336fc02)
 
+* Lexical Analyzer purpose is **scanner**. It will **scan** the program.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d9a1dfdd-9286-479b-b44a-82cb6971cb9f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/929a23c1-4c64-4f9c-9908-f1369443ead0)
 
+* Lexical Analyzer purpose -> Scanning -> Introduction.
+* Syntax Analyzer purpose -> Syntax/Physical checking -> Physical problem.
+* Semantic Analyzer purpose -> Semantic/meaning/logical checking -> Logical/Mental problem.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a4ccdbb6-45b4-4870-9236-d8a60aed43af)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b4bbfd5b-973d-43a0-8429-1fc62e67d9a8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/73b3e97b-b5ea-4a3e-9914-0ce1a4cd4888)
 
+* If the **first three checking(Lexical, Syntax, Semantic)** are **succefully completed** then the program is **syntactically and semantically** correct/perfect.
+* Until now we have not done **conversion**. Until now we were just **checking**.
+* Purpose of **first three phrases** is **checking**.
+* Purpose of **compilation** is **conversion**.
+* Final goal is **conversion** only.
+* We want to **covert** valid programs only.
+* First check/verify program is valid or not. If **valid** then **convert**.
+* From **Intermediate Code Generation(ICG)**, **code conversion** story is there.
+* **Last three steps** belongs to how to **convert input to output**.
+* After **checking** is successful meaning the program we have written is **valid**.
+* If  **first three steps** are not there then we are **converting** everyone.
+* Checking **first** for **valid program** and then **conversion**.
+* Lexical Analyzer input is **HLL is string** and output is **token string**.
+* Syntax Analyzer input is **token string** and output is **syntax tree**.
+* Semantic Analyzer input is **syntax tree** and output is **modified syntax tree**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3133bbcb-e227-4fa8-b62f-228609d58786)
 
+* Intermediate Code Generation(ICG) input is **modified syntax tree** and output is **Intermediate code**.
+* Code optimization(CO) input is **Intermediate code** and output is **Optimized Intermediate code**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8dceec0c-6bce-4ad1-aa90-0b0957818533)
 
+* Target Code Generator(TCG) input is **Optimized Intermediate code** and output is **Target Code**.
+* Finally we will get the **Target Code**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/79c61c07-826b-4c93-bc80-c49166c7b7c5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9bab63f9-3995-4f7c-8840-e0836563ca35)
 
+* Who will draw the tree?
 
+> Syntax analyzer will try to **draw** the tree.
 
+* If tree not possible then **syntax error**. Problem in the program.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3e0b790-86d8-47c3-9e77-157fa6734222)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/40e25a79-263b-4286-8792-0ffd684ec188)
 
-
+* **High level to Low level** we have to go via **intermediant code**.
+* If we directly go from **High level to Low level** then we will miss so many things.
 
 
 
