@@ -14762,6 +14762,11 @@ b) May not be REL or Non-REL -> It means that it is **Non-Rec**.
 * Equivalence may not be possible if **Epsilon** is possible in the given grammer.
 
 
+## Doubt
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/23993966-3235-4fc3-b2eb-5f9212a76c3d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9f137ee7-6101-41ab-9673-fd360a2fa135)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e35edd2f-ebf7-4eaf-8f0a-512a0f44b5f6)
 
 
 
