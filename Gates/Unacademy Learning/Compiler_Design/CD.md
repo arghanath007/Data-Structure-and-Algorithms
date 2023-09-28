@@ -390,6 +390,239 @@
 
 * **F** is now **float**.
 * Type conversion is doing but it is **not possible** then we will show **error message**.
+* Type checking will be taken care of by **sementic analyzer**.
+* Higher data type to lower data type conversion will give problem but vice-versa is possible.
+* **Syntax analyzer** never see data types. **Syntax analyzer** goal is tree creation.
+* **Lexical analyzer** work is **only tokens**.
+* **Syntax analyzer** work is **only tree**.
+* **Sementic analyzer** work is **only type checking**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5582c1a9-a2f3-421d-8f4a-7f3bcb2fc549)
+
+* When to the table but unfortunately there is **no type**. So it is clear that it is an **undeclared variable**.
+* **Undeclared variable** is found out when using the **token number** we went to the table and say there is **no type**. That's how we got to know.
+* **Sementic analyzer** work is **type checking and undeclared variable**.
+* Same variable cannot be declared twice.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc8de4cf-d0c2-4ee7-bd6c-e14e69f0cc8f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/26bfbe90-f792-4f46-a334-221243cef354)
+
+* Symbol table is empty as declaration is not done.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ddf526ae-5ce1-4304-a220-2f5476401d83)
+
+* Lexical analyzer will simplify other phases of the compiler. True.
+* If checking not successful it will give errors.
+* No errors then ready for converstion.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c8ae0e4b-ee86-4325-adab-aaed2b0f7601)
+
+* Checking done, now we are doing **conversion**.
+* **Star(*)** has higher priority.
+* Every **intermediant operation** will be done in **one intermediant variable(t1, t2)**.
+* Assignment operation will never be **intermediant operation**. It is the **final operation**. No temporary variable required.
+* We are doing according to **priorities**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e158afac-5499-4765-a755-4ff7a28d4cba)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d096526a-fd90-4074-8968-4a61789ab4ba)
+
+* Tokens are required only for **checking** purposes.
+* Next is **code optimizatio(CO)**.
+* If we are able to do some tweaks/changes to make the code more optimized then do them otherwise leave it as it is.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bebb49fc-0167-4b73-9a4c-35850ac2944b)
+
+* Next is **Target code Generator(TCG)**.
+* **Star(*)** -> Mul
+* **+** -> Add
+* Lastly we want to store the result in **x** because we did **optimization**. So we will write **move/store** at the end.
+* Everyline we will use the **opcode**.
+* Everyline contains **1-opcode**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/de488b7c-2d4a-4a09-afad-7777fb19a5ab)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9f0da00-e170-4a00-99f6-3b9319d68066)
+
+* First line **Star(*)** -> Mul
+* Second line **+** -> Add
+* Third line -> Store
+* In three line we compressed it.
+* **Target code Generator(TCG)** not in syllabus.
+* **Code optimization** is the **optional phase** of the compiler.
+* While will store in symbol table?
+
+> Lexical analyzer.
+
+* All of the **6-phases** of compiler are having right to store in symbol table.
+* We are storing **identifiers** in the symbol table.
+* Error handler is another phase of the compiler where all errors are noted down. When total compilation is done then the errors are printed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/11caf0ad-9bf5-4347-9802-3bfea47344cf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2974783a-02a6-4d99-82a4-31951de58ee8)
+
+* Who can store in symbol table?
+
+> All.
+
+* If **All** option not there then choose **lexical analyzer**.
+* Compiler has **6-phases** sometimes **5-phases** are also there.
+* **Code optimization** phase is **optional**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/267322ac-7a10-495d-a6d6-8c09cf6d78b2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/804197e7-e9fd-4d69-9a25-62df3de80263)
+
+* Middle end of compiler/Optional ways of compiler -> Code optimization
+* Front End -> LA to ICF
+* Back End -> Target Code Generator(TCG).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2dce33b2-345b-4b00-80f0-91f96e9dbba7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a73bdb3-a42b-47f7-ba04-d94405904ebc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b123fdfe-7c9f-4f36-8863-0f7de4ccc8c1)
+
+* Target code means machine instructions.
+* Machine means processor.
+* After **c compilation** is over whatever result came that is a **machine dependent code**.
+* After **Java program compilation** is over whatever result came that is **machine independent code** because the compilation is till **TCG** phase only.
+* **Intermediant code** is **machine independent code** as there is **no machine instructions**.
+* **Target code** is **machine dependent code**.
+* Java compilation is half compilation.
+* Another name of **Intermediant code** is **byte code**.
+* Between **c and Java compilation**, Java compilation is **faster** as there is **half compilation**.
+* Between **c and Java program running**, Java program running will take **more time** as only **half compilation** is done.
+* Remaining half compilation and running when Java program running.
+* **Java compilation** is **machine independent code** means we can run it in any system.
+* Between **c and Java program running**, c program is running faster. We directly have **machine code** available.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92f57125-fcb5-4534-8308-54aff0031ba2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e6a82f3-1802-418b-a726-db3c17938ed1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/513b972d-1d2c-4b9f-a100-417bbffded7c)
+
+* Hardware -> processor.
+* Target code as it is related to processor.
+* until **Code optimization** it is **platform independent**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63bfb52f-282b-4de2-9494-dd41faa60737)
+
+* When we said **compile** on a program **xyz.c** then all of the **6-phases of compiler** started running on **xyz.c**.
+* If **more main memory** then go for **single pass compiler**. If at a time all of the **6-phases of compiler** are loaded in **main memory** then it is **single pass compiler**
+* If **less main memory** then go for **multiple pass compiler**. If at a time some of the **6-phases of compiler** are loaded in **main memory** then it is **multiple pass compiler**
+* If we do **more passes** then **redundant** work is **increased**.
+* **multiple pass compiler** advantage is that with **less space** we can manage but **more time** taken.
+* Total compilation done at a time -> Single pass compiler.
+* Total compilation done in multiple passes -> multipass compiler.
+* **Single pass compiler** advantage is that with **less time** taken but we need **more space(main memory space)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8cfb3fa9-19d8-4d15-82c1-34e3d4e3fe6b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31f614cd-764a-47af-9a52-de5ea8be597c)
+
+* [**IMPORTANT**]
+* c compilation advantage -> Running time faster, compilation slow only.
+* Java compilation advantage -> Running time more, Platform independet, compilation time less.
+* c compiler means **c language, all of the rules**.
+* c compiler -> Software -> Written in some programming language.
+* c compiler rules are written in **any language**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37b82462-bdfd-4caa-be96-e9f001dbe2be)
+
+* Yes.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
