@@ -890,10 +890,19 @@
 
 * [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d69c55e6-81d0-4cb3-972f-aa93d255aa8d)
 
+* Example
+* There is a comment(//) which is a single line comment.
+* We have to skip the comment.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee826e2a-af07-4ac8-9550-522d96bc1628)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8dc604f4-c3bd-4e91-b339-216ec63902e1)
 
+* Answer is **31** [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/79cc5bf8-7a75-40c6-b3ee-03a019b86b9b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/917f156f-1e39-4983-b415-67945592a92c)
 
 
 
