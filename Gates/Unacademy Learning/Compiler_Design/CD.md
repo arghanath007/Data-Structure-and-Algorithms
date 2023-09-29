@@ -770,25 +770,125 @@
 
 * Expected question -> Finding no. of tokens? [Program will be given]
 * [**IMPORTANT**]
-* Start from 1hr 49mins.
 
+### Examples
 
+* Normally **declaration** first and then initialization.
+* We have done **reverse** but still no problem.
+* The goal is only tokens.
+* He is not bothered about syntax, semantic, declared or undeclared.
+* Declaration not there still it will work but his goal is only **tokens**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e7af8815-fa80-4400-9570-96155928a474)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5e40406-9a1b-4821-b8f8-0420d8086310)
 
+* How many tokens does the program contain or count no. of tokens in the program?
 
+> 
 
+* **S** is starting state.
+* We are explaining only tokens. There is **no parser** nothing.
+* To do **tokenization** we are using **one automata** that is called as **finite automata** which is **DFA**.
+* To do **tokenization** we are using **DFA** as the **automata**.
+* The **LA** phase of compiler will do the **tokenization**.
+* To create the **pharse tree** we are using **PDA** as the **automata**.
+* For **type checking** we are using **LBA/TM** as the **automata**.
+* For **LA** we are using **DFA** as the **automata**.
+* If **DFA** not there then there is **no LA** which means **no tokens**.
+* If **PDA** not there then no **syntax analyzer**.
+* If **LBA/TM** not there then no **semantic analyzer**.
+* If at all these three(LA, syntax, semantic) people are not there then there is **no compiler**.
+* **No compiler** means no programming language.
+* **DFA** will always start from **starting state**.
+* States are more, remembering capability is **more**.
+* **S** means nothing over.
+* **S1** means **a** over.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af33f0c1-d5a0-400a-9f03-a6851bde6c7d)
 
+* To do **tokens** we are using **DFA**. The phase of the compile is **LA**.
+* **S1** state indicate **i** over.
+* **i** is an **identifier**. We are looking for **longest matching** so we will **wait**.
+* If we don't want to **wait** then go to **final state**.
+* **Waiting** means don't go to **final state**.
+* **S2** state indicate **in** over.
+* **in** can be **identifier token**
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58d98c81-188e-4efa-8c21-93c2621d18c2)
 
+* **S3** state indicate **int** over.
+* **int** can be **identifier token**
+* What should come further so that we can increase?
 
+> Based on the next one we will take action.
 
+* By seeing the **blank** we got confirmation that the previous one is a **token**.
+* Most of the time we have to read one **extra/next symbol** to confirm that the previous one is a **token**.
+* So **stop** and confirm.
+* **S4** state which is **final state** means that token is confirmed.
+* Token name -> int -> It is of Keyword type -> return(int, keyword).
+* Token type -> Keyword.
+* We stopped because token is confirmed.
+* If token confirmed then stop.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef759cf2-3b63-4662-8a56-f9c716060a2e)
 
+* Token confirmed means go to **final state**. [**IMPORTANT**]
+* Hope is there then go further if hope is not there then stop and confirm.
+* We read one extra character. It is the **blank** character.
+* Excluding **blank**, **int** is a **token**.
+* Sometimes we have to read **some extra**.
+* **S3** means **int** over.
+* **int** followed by **blank** means that **int** is a **token**.
+* **inta** -> variable name -> Identifier.
+* **inta;** -> We have two tokens(inta and ;).
+* **;** -> Separator type.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/abfbea14-d572-4d0d-8072-abba26637799)
 
+* After reading extra(;) we got to know that the extra part is not part of the token and it is **separate**. It means that previous one is **1-token** and this **extra part** maybe next token.
+* **inta;** cannot be **one token**.
+* When we say it is an **identifier type** token then **token no** required.
+* return(inta, id) -> **token no** required, from the symbol table we got the **token no** -> return(id, 5)
+* If we go to **5th row** of symbol table then we will see **variable name 'inta'**
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7606872c-ebd2-49a3-86c0-0f6a6d2c242b)
 
+* Every **identifier(id)** will be there in the symbol table.
+* In **S3** we have to cover all possibilities. That is **DFA**.
+* In **DFA** we have to check all combinations.
+* Every possibility we have to cover.
+* Changing state means we are remembering something new.
+* S1 means **i** over.
+* S2 means **in** over.
+* We will continue till confirmation will come.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e2288ec9-b857-43c8-800f-c101bfc41b74)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a88c5ce6-4076-499d-b048-83fae8901536)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/762c433a-3208-4e50-ae6c-cb7d975849b9)
+
+* Whenever there is a function so system must be followed.
+* function name is **main() only**.
+* Answer is **36**. [Answer]
+* **LA** uses **DFA**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4413a64b-4c05-4450-a0ba-d06f0d2a71a3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1da73688-f88a-4451-a456-6d0d438e0eb7)
+
+* How many tokens are there. Count everyone? 
+* Double quote starting and double quote ending is **one string**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/171d6e5a-57d8-4f93-a73f-722348eefccc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c58ebbc-5417-414a-bf3b-8766e3dea359)
+
+* Answer is **24**.
+* 'a' -> One token because it is **one character**.
+* 10.75 -> One float.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8da6227f-468c-4c17-b7cd-ea6d73b355c3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/786d529e-06db-4b44-880a-cc623607dad2)
+
+* [**IMPORTANT**]
 
 
 
