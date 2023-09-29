@@ -525,79 +525,252 @@
 
 * Yes.
 
+## lexical-analyzer-part-iii (3) [29th Sept 2023]
+
+## Lexical Analyzer(LA)
+
+* Expected Question -> Find no. of tokens?
+
+> Program will be given and we have to Find no. of tokens.
+
+* Another name for **parser** is **syntax analyzer**.
+* It is called **parser** because it will create **parse tree**.
+* Another name for **parse tree** is **syntax tree**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/00be1088-358b-40a6-a130-16a79105200f)
+
+* 100 rows and 30 columns.
+* Column will increase first.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b1098110-aaa9-4462-b22b-4c4f7a6bd69c)
+
+* This is the program we are compiling.
+* This is the **input** to **LA**.
+* First row and first column we have **LA**.
+* If we say **LA** to start then it will start from First row and first column, which is r=1, c=1.
+* LA's goal -> Getting the tokens.
+* Parser's goal -> Creating parse tree.
+* To create **parse tree**, **grammer and string** are needed.
+* String is the **program**. **Program** is nothing but a **string**.
+* Grammer is build-in with the **c** compiler.
+* Grammer is inside the computer.
+* Grammer means set of rules.
+* Grammer started from the start symbol(S). We cannot start it from anywhere.
+* D -> Declaration.
+* F -> Function Call.
+* E -> Arithmetic Expression
+* W -> While Loop
+* For everything there is **1-variable**. [**IMPORTANT**]
+* The **variable/variable name** should be there in the **variable list**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e2858714-79a8-47f8-99a3-4032bfc6e131)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce4c6da8-5d15-4304-ab56-8e2b1fea4db1)
 
+* **B** will generate all.
+* **S** is all strings of **a's and b's** ending with **a**.
+* **Parser** is at the **start symbol** and in front of **parser** many possibilites are there, **S -> D, S -> F, S -> E and S -> W** and many more.
+* **Parser** is at the **start symbol** and it is having **dilemma**. Infront of it many possibilites and don't know which possibility to take.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eeb7c4d9-80e6-49d0-a657-1b7d5bd12cb3)
 
+* **LA** is giving **token**.
+* **LA** is at the first place of the program.
+* When **parser** will ask for the **nexttoken()** then only **LA** will start.
+* When **parser** will ask for the **nexttoken()** then only **LA** will give the tokens.
+* After reading few characters **LA** got to know it is a **token**.
+* **i, n and t** individually are tokens as well.
+* **int** is combined also a tokens.
+* Then we have to go for **longest matching**.
+* Individually token and combined also token then we have to go for **combine** which is **longest matching**.
+* **LA** follows **longest matching**.
+* Individually token but combined is not a token then we have to go for **individually**.
+* a,b -> Identifier type token
+* Star(*) -> Operator type token.
+* **,** -> Separator type token.
+* We have to say what **type** of token it is? we just can't say **token**.
+* This is **individually token**.
+* a * b -> It is not an identifier. It is an expression. It cannot be a token.
+* Combined is one **expression**. It cannot be a token then go for **individual**.
+* If individually token as well as combined also token then take **combined**. [**IMPORTANT**]
+* If individually token and combined not token then take **individually**. [**IMPORTANT**]
+* Between individual and longest(combined) we will go for **longest(combined)** if **longest(combined)** is available otherwise we will go with **individual**.
+* a -> Identifier type token
+* **;** -> Separator type token.
+* Both are token.
+* Combined **a;** is what type of **token**?
 
+> Combined it is not an identifier. Only **a** is **identifier**. Only **;** is separator.
 
+* As combined, **a;** is not a token, so we have to go with **individually**.
+* We are not calculating **no. of characters**, we are calculating **no. of tokens**.
+* Token means if possible, **group** is there. If not then **separate** and do **individually**.
+* **LA** post probable mistake? [**IMPORTANT**]
 
+> Students will take individually. Don't take individual take longest match. If longest **possible** then don't go individual. If longest **not possible** then go for individually. 
 
+* **=** -> Assignment type token.
+* **==** -> Equal type token.
 
+* Individuall also token(=) and combined also token(==).
+* So take the **longest token** which is **==**. [**IMPORTANT**]
+* So it is **1-token** because combined also token.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d62c6169-0967-4c10-99d3-a3afd8ca0779)
 
+* **+** -> Operator type token. [Token name -> Binary Addition]
+* **++** -> Operator type token. [Token name -> Uniary incrementation]
+* Individuall also token(+) and combined also token(++).
+* So take the **longest token** which is **++**. [**IMPORTANT**]
+* So it is **1-token** because combined also token.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be261fcc-a9c8-4615-8a4b-94d3747b489a)
 
+* **a+=b** -> a = a + b.
+* **+=** -> In the operator list it is there. So it is **1-token**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/00b93dc0-a886-44c6-8f85-5dd6829306f2)
 
+* In c-language while calculating **tokens** we have to go for **longest matching**.
+* If we have doubt if it is **1-token** or not then see the **operator list**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/00dff6b8-ad0a-4caa-aba7-66f89fcecc06)
 
+* **LA** will do **tokens**. Whenever **parser** needed **token** then parser will ask **LA** for tokens then **LA** will give tokens.
+* **Parser** asking for tokens because in front of **parser** there are many possibilities.
+* **LA** and **parser** are communicating with each other.
 
+* **int** -> Data type token
+* **,** -> Separator type token
+* **int,** -> Combined no meaning.
+* So we have to do **individually** here and we have **2-tokens** which are **int and ',' as we are doing **individually**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d2a50b9-3ea2-4340-8823-a2932ee57aa4)
 
+* If possible we will **combine**, if not possible we will not combine and do **individually**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f65aea51-83c7-4499-91c5-57f07e599cff)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/209166f2-6362-4846-88f4-8a81d826551a)
 
+* **LA** will return the token to **parser**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1524b512-9f10-4b1f-8bf1-e34f4e09ac12)
 
+* **LA** and **parser** at any time can store in **symbol table**.
+* If **LA** and **parser** at any point of time want to take they can take from **symbol table**.
+* At any time **errors** will be informed to **error handlers**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d62cd302-f619-4815-95fc-d13d638887ac)
 
+* Rule is saying that **open bracket** should come **next** but the programmer has written that **Plus(+)** is coming next.  Who is correct?
 
+> Rule only.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a6a78bc-d457-4627-ad23-b7cbe2758963)
 
+* Yes.
+* Token that is coming from the program is *+** but according to rule it is expecting **open bracket** but whatever he is expecting according to the rule, it is not coming. Whom he will blame?
 
+> Programmer only.
 
+* Now he will go and inform to **error handler**.
+* Who is informing to error handler?
 
+> Parser
 
+* Parser expecting open bracket but **+** came.
+* Error Message -> Syntax error: bracket expected but **+** came.
+* The **error handler** will ask the **LA** as of now n the program at which place you are?
 
+> Row no 25 and column no 4.
 
+* We have to print row and column no also.
+* **Error Message** -> Row no 25 and column no 4 there is a syntax error: bracket expected but **+** came.
+* **LA** is giving the **row and column number**.
+* **LA** is the only one who knows in the program how many rows and columns are there and at which place it is there.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91d486bf-1c52-4234-bc2d-feef3f2b1dac)
 
+* Primary functions of **LA** -> Tokens, providing **row and column** no. [**IMPORTANT**]
+* Who is scanning the program?
 
+> **LA**.
 
+* Other people don't know.
+* Further people don't read the program, they read the **token string**.
+* In the **token string**, no row or column there.
+* If **1-error came** then also we will **continue further**. We want all of the errors.
+* **id** means identifier.
+* Who needs types or who is checking types?
 
+> Semantic analyzer.
 
+* The error will be sent to **error handler** by the **Semantic analyzer**.
+* The **error handler** will ask for the row and column nos from **Semantic analyzer**.
+* **Error Message** -> Row no 75 and column no 15 there is a semantic error: variable 'x' is undeclared.
+* Whenever tree creation is going and wherever **types** are required/there **semantic analzer** will come.
+* Whenever tokens are required **LA** will take care.
+* Whenever grammer is required **Syntax analyzer** will take care.
+* All three(semantic, LA, Syntax) are communicating with each other. [**IMPORTANT**]
+* The program will be **scanned** by the **three(semantic, LA, Syntax)** people for **1-time** only.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e980dbe-70de-4f97-83d4-3cc6d5cf008a)
 
+* Tree creating is keep on going, at which place **semantic analyzer** will come? 
 
+> Token is identifier. Whenever **LA** will say that the **next token** is an **identifier**. **Identifier** means data type is there. So **semantic analyzer** will go and check. [**IMPORTANT**]
 
+* **LA** is only reading the program. Depending on the requirements it will give **tokens**.
+* They(semantic, LA, Syntax) are doing **at a time**.
+* When the above process is going on **semantic analyzer** is **type cheking**, **LA** is **creating tokens**, **syntax analyzer** is **creating syntax tree**. Everyone doing their part/work.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/984dd01a-f46f-4284-8aa6-5084e820c92a)
 
+* **POINTS**:-
 
+1) **LA** is first phase of the **compiler** which is also known as **scanner**.
+2) **LA** will divide the given program into meaningful string which are known as **tokens**. Different types of tokens are as follows:-
 
+* Identifier(id) type token.
+* Operator type token.
+* Keyword type token.
+* Separator type token.
 
+3) **LA** will eliminate **white space characters** and **comment lines**. They are not counted as **tokens**.
 
+* Comments are for **user/programmer** convenience. BY seeing comments **compiler** will ignore/skip them.
+* By seeing starting of the comment until ending we will **skip it**.
+* // -> Single line comment
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bd992c4d-0afb-4a7a-aeb8-e9a9c8a516d7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/568b18bf-f2db-43e4-a7a5-8dc8453deef7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a51b595-a3ac-4d6a-8421-4467c906a7b7)
 
+* Comments.
+* Doing **tokens** will be stopped when the compiler see **'/*'** this in the program and until the compiler sees **'*/**. After **'*/**, the compiler can start doing **tokens** again.
+* Inbetween nothing is there.
+* By seeing comments compiler will skip it.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f8571cd3-72a3-4697-84f6-2e2f80a88321)
 
+* int a -> Two tokens(int and a). The white space character between **int and a** is not counted.
+* If we don't keep gap between **int and a** then it will be a **different meaning** which is **inta**. It is a variable.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4879740a-222a-4ffe-9db7-1c5b7cad5697)
 
+* **inta** variable.
+* If we want data type is **int** and variable is **a** then we have to keep **gap**.
+* Because of the **gap** it became **two tokens**.
+* **Gap** is not a token.
+* Functionality of **LA** -> tokens, comments are eliminations, white space characters are eliminations, help in giving error messages by providing row and column number. [**IMPORTANT**]
+* **White space characters** -> blank space, tab space, new line character.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/23d14526-ca20-43ac-a70c-b08650b02d45)
 
+4) **LA** also helps in giving error messages by providing row and column number.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+* Expected question -> Finding no. of tokens? [Program will be given]
+* [**IMPORTANT**]
+* Start from 1hr 49mins.
 
 
 
