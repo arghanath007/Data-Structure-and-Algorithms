@@ -904,6 +904,100 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/79cc5bf8-7a75-40c6-b3ee-03a019b86b9b)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/917f156f-1e39-4983-b415-67945592a92c)
 
+## parsing-part-i (4) [29th Sept 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c96c02e0-b39d-4492-9295-d3b229025406)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c778a06-8c81-4dd5-ae9b-3ca3fd1f8804)
+
+* Example.
+* *c -> Expression not a token.
+* * -> Operator
+* c -> Operand.
+* *c -> 2-tokens( * and c).
+* *ccc -> 2-tokens( * and ccc).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/355ea0f3-cbd7-4302-937b-231195c3f481)
+
+* a * b -> 3-tokens.
+* In **7th and 8th** line the **comments** are replaced by **blank/space** so they are same as **4th and 5th** lines.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/47b833cb-fa45-4d9b-9ded-97c509dc04fa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/778a4d9d-9492-479b-b82c-30b24e90ea6b)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b00d7a9b-557e-433a-b9b1-e458ba878db0)
+
+* Example
+* Between open and closed bracket, open bracket should come first.
+* if )a( -> Syntax rule.
+* Tokens only find out. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/359ad3ce-9523-4004-a25d-5f6a82f4b1a1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2693f377-22a5-4f99-979d-294274c34c00)
+
+* it is a **multi-line** comment.
+* He is trying for token but unable to decide -> Example of Lexical Error.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3121fad0-4eaa-48aa-a089-6195761a9650)
+
+* Start from 50mins.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
