@@ -1751,24 +1751,89 @@ c) A grammer(G) is said to be **Ambigious grammer** if we can find **atleast one
 
 ## parsing-iii (6) [1st Oct 2023]
 
+## Top down parser
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8713c63d-5530-4396-9830-632b708e917a)
 
+* It is recursive grammer. It will generate many strings.
+* We want **abbcde** string.
+* Variable(S) is having only one choice, so we don't have any dilemma.
+* If possible then **expand** otherwise say **not possible**.
+* Variable(S) is having only one choice, we have to **expand**
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16727c0f-2d73-41ce-be94-1aeb50d21a4a)
 
+* **a** cancelled. We got it.
+* String means program will read from **left to right**.
+* Which character we type first we have to read it first.
+* Left means first person.
+* Right means last person.
+* Input string we will read from **left to right**.
+* Left most symbol is **a**.
+* Left most symbol we are reading in string so, we have to read the left most symbol of expanded **S** as well.
+* While expansion going on we have to read it from **left to right**.
+* In the second level of **S** we have **2-variables(A and B)**. We will expand **A** first which is the **left one**.
+* Input string is read from **left to right** then in **derivation** also we have to expand from **left to right**.
+* If we always first expand **left variable** first then it is **left most derivation**.
+* If we always first expand **right variable** first then it is **right most derivation**.
+* Normally every parser will follow **left most derivation** only.
+* String also we will read from **left to right** and the expansion we will do from **left to right** only. So we are following **left most derivation**.
+* String also we will read from **left to right** and the expansion we will do from **right to left** then there is **no meaning**.
+* Every **parser** follows **left most derivation** only. [**IMPORTANT**]
+* No **parser** will read from **right most derivation**.
+* Practically **left most derivation** only there. Theoretically **right most derivation** is there.
+* **Left most derivation** -> When we have more than two variables then we will give preferrence to the **left most variable**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/619bed7c-976e-4555-ac6b-8fb03931ed76)
 
+* Top Down parser follows **Left most derivation**.
+* We have to expand **A** first.
+* **A** is having **two choices(Abc and b)**.
+* We are looking for **b**. So for **A** we should take **first choice(Abc)**.
+* If variable having more than **1-choice** then computer will face difficulty.
+* A variable having more than **1-choice/production** finding the correct production is **difficult**.
 
+* Top Down Parser:-
 
+1) It will start from first symbol and proceed to string.
+2) Top Down Parser follows **Left most derivation**.
+3) Top Down Parser difficulty, a variable contain **more than 1-choice/production**. Selecting the correct one is difficult.
 
+* To solve the drawback(Point 3), we have two options:-
 
+1) Brute Force
+2) LL1 parser or predictive parser.
 
+* **A** is difficult as there are **multiple choices**.
+* **S** has only one choice.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2df91cfa-f60a-4340-97c5-fbcee3ed33da)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/273ea2de-7c02-4bb1-9fea-86ec43c3e6ab)
 
+* LL1 parser.
+* We are taking **first production** which is **Abc**.
+* How many people are fighting?
 
+> Only **leaf nodes** check which are variable.
 
+* Terminal we cannot expand.
+* **A** is having **2-choice**.
+* We are at **A** and we want **b**, so we will take **b** this time. But this is **human behaviour**. Machine cannot do this.
+* Machine will always do similar behaviour.
+* We have to take **second production(b)**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f14aa40d-ee6f-4e26-888a-48bfe53366ba)
 
+* String is over.
+* End of the string there is **dollar($)**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f60f846c-5e6b-413d-8d6f-977a4dc1873b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd119d26-9e9b-496d-b3d9-82e839da8d8f)
+
+* **Predictive parser** is better than **brute force parser**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9a1d4275-9afc-4e30-892f-ae447bde1cec)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d961a14-cf88-4efe-8abb-d17637ce0537)
 
 
 
