@@ -1,4 +1,4 @@
-# Compiler Design
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5eff1507-a093-4b38-9b62-114aa658b9ff)# Compiler Design
 
 * Link -> https://unacademy.com/course/complete-course-on-compiler-design/U5V0ZQEX
 
@@ -1882,7 +1882,7 @@ c) A grammer(G) is said to be **Ambigious grammer** if we can find **atleast one
 
 * It is a **complex parser**.
 
-* Bottom Up parsel:-
+* Bottom Up parser:-
 
 1) It will start from string and proceed to start symbol.
 2) Identifying substring whom we should compress so that we will finally get start symbol. It is very difficult.
@@ -1890,28 +1890,259 @@ c) A grammer(G) is said to be **Ambigious grammer** if we can find **atleast one
 * Identifying correct substring is difficult so that we get to the start symbol.
 * The substring whom we have compressed that substring is called as **handle**.
 * Substring is **handle**.
-* In the GATE exam if it is asked to do **bottom up approach** do **top down approach** and just draw **1-tree** and count the **no. of productions**.
+* In the GATE exam if it is asked to do **bottom up approach** do **top down approach** only and just draw **1-tree** and count the **no. of productions**. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/39a20ed2-b798-4114-82db-54ddd58e6aa5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e14040d4-5e95-4387-8fd6-4695cc7d5fb5)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d076c3e1-5468-4b3d-8613-ebf134dae274)
 
+* Identifying correct handles in **bottom up approach** is difficult.
+* The substring which we are compressing is known as **handle**.
+* **r3** means **3rd production** we reduced.
+* After completion of the entire procedure, go **top** and number them from top to bottom.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b8a0ffe6-984d-4c71-af4c-5048cafe8609)
 
+* After **bottom up parser** is over see in the **reverse order**, it looked like a **top down parser** who is working in **right most derivation**.
+* If we see from **bottom** no variables.
+* Acutally **bottom up parser** has **no derivation**. From the bottom no derivation.
+* If we still want to know the **derivation** then see in the **reverse order** and it looks like a **top down parser** who is working in **right most derivation**.
+* **Bottom up parser** in the normal order means we will see from **bottom**, it has **no derivation**. No variable at the bottom.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f3eea287-79c1-4c1b-a262-2d4e59f853ae)
 
+3) It follows **reverse of right most derivation**.
 
+* Bottom up parser derivation without reverse order?
 
+> No derivation.
 
+* Bottom up parser derivation in the reverse order?
 
+> Looks like **top down parser** with **right most derivation**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d7381fe8-36f6-4e18-bdf7-bfd988dc600b)
 
+* Bottom up parser follow which derivation?
 
+> **No derivation**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3b18ce6a-d674-452b-b22c-92267d8e2dfb)
 
+* [**IMPORTANT**]
 
+## Top Down Parser
 
+* Difficulty -> Selecting correct production.
+* When a variable has more than **1-production** then selecting the correct choice is difficult.
+* To solve the **problem/difficult** we have two approach:-
 
+1) With Backtracking
 
+* Recursive Descent parser
+
+2) Without Backtracking
+
+* Non-Recursive Descent parser or Predictive Parser or LL(1) parser.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d0a1500-3173-4dd7-9889-40acd417b966)
+
+* All top down parser with the name **LL**. why?
+
+* First **L** indicate scanning input from **left to right**.
+* No one will read input from **right to left**.
+* Second **LL** indicate using **left most derivation**.
+* Top down will follow **left most derivation**.
+* **LL** means **top down**.
+
+* All bottom up parser with the name **LR**. why?
+
+* First **L** indicate scanning input from **left to right**.
+* **R** indicate scanning input from **left to right** but using **reverse of right most derivation**.
+* **LR** means **bottom up**.
+* Both **top down parser and bottom up parser** read from **left to right** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f2d808ff-1b3f-49bb-ac1b-d25fa219d2fe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/475b9b5a-c6c9-43da-b80c-7915192d5bde)
+
+* [**IMPORTANT**]
+* With backtracking means **brute force**.
+* Try one combination and it failed then backtrack come backa again and try another combination/possibility.
+* Another name of **recursive descent parser** is **brute force**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f115d8d6-f515-4b11-afdf-1d500811bcce)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/99b51ad3-50b5-40b0-8996-69dbdc40ab84)
+
+* Recursive Descent Parser.
+* LAS -> Look Ahead Symbol.
+* This is exactly like **brute force**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d9da650-0d82-41f6-9d07-e1666b36ad49)
+
+* We have **12-productions**.
+* Input -> ghijkl
+* It is possible. **YES**.
+* We will start from **S -> GHI** then **G -> gh, H -> ij, I -> kl**.
+* Parser input -> Grammer and String
+* Output -> Tree.
+* Top down parser will start from **start symbol(S)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d481c6a8-47ea-4f80-9373-dd5c838c8934)
+
+* We are at the **start symbol** which means **start function** and LAS symbol is **g**. Everything is ready.
+* We are at **S** and we want **g**. As it is brute force we can select anyone.
+* Now program is running.
+* **S** contain **3-productions**.
+* SO according to the algorithm select anyone of them.
+* We selected **S -> ABC**.
+* A -> X1
+* B -> X2
+* C -> X3
+* Right side we have three symbols(X1, X2 and X3) so the value of **k** is **3**.
+* When these symbols(X1, X2 and X3) are over then only the for loop is over.
+* When the Right side three symbols(X1, X2 and X3) are over then the **production** is over.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66319f03-f4bd-4503-9924-67a94dfe7b95)
+
+* We are at **S** which means **S's productions** are running. **S's code** is running.
+* **S's code** steps:-
+
+1) Select any production of **S**.
+
+* For loop is three times.
+* If **A** is a variable then call again.
+* **Variales** can change.
+* Now **A** is called.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30c42957-214c-4405-83a3-8a38bd401b84)
+
+* **A** having only one choice.
+* For loop is running **1-time**.
+* X1 -> a
+* When we come to **else part** means we are in **terminals**.
+* **a** and **g** are not matching.
+* **A** failed.
+* So it is **bad choice**.
+* **Error** means we have to **backtrack**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1eace56-0e91-474f-990b-8b709771ee5f)
+
+* **A** having two choices and both failed. It means that mistake is not at **A**, mistake is at the **parent**. Because of **A** we came to **A**.
+* **i = 1** is **A**.
+* First function call is **S**. **S -> ABC** we have taken and we have expanded **A** firstly. This is called as **left most derivation**.
+* For loop is going on from **1 to 3**. So **A** is expanded first.
+* For loop is going on from **3 to 1** then **C** will be expanded first. It is **right most derivation** then.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dbd0f68c-9e02-42ca-9167-0447d39279aa)
+
+* Now parent will try another possibility.
+* **C** is **internally** calling everyone.
+* First itself fail what is the need to go further.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66fc10a9-6d65-4a9b-acfe-b7fce9a20042)
+
+* [**IMPORTANT**]
+* Parser at variable **S**.
+* In the input string first symbol coming is **g**.
+* **g** is the **LAS or look ahead symbol**.
+* Parser is at **S** and is looking for **g**.
+* **S** contain **3-productions**.
+* Select any production of **S**. For these reason a lot of backtracking is going on.
+* In case of **predictive parser or LL(1)** parser, instead of select any production of **S** we will have **select correct production of 'S'** from table.
+* We are at **S** so go to **S** row. **LAS** is **g**.
+* If we go **'S' row and 'g' column** then it will say take **3rd production**. **3rd production** is **S -> GHI** we take.
+* It will directly give correct production.
+* The table name is **LL(1) parsing table**. Name of the parser is **LL(1) parser**.
+* Which parser is each to start?
+
+> Recursive Descent parser. Start directly and dance inbetween.
+
+* **LL(1) parser** is saying that don't start directly first construct table. Do prediction first. Do some work. Construct some table.
+* **LL(1) parser** is using **Dynamic Programming**.
+* In **LL(1) parser** instead of selecting anything randomly select correct one from table.
+* Table name is **LL(1) parsing table**.
+* Between **LL(1) parser** and **recursive descent parser** is that in **recursive descent parser** we are selecting any production of **S** but in **LL(1) parser** we are selecting the correct production of **S**. Other than that eveything is the **same**. [**IMPORTANT**]
+* Everything same except the **starting line** between **LL(1) parser** and **recursive descent parser**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f4496414-d475-4ecc-995c-e750f655a846)
+
+* We cannot start **LL(1) parser** directly without a table.
+* We need a table first.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ac84718-f48a-4adf-abc3-a65f8ab6a003)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1ee0a3f-9766-4485-b76b-480c5645c33f)
+
+* Example -> **Recursive descent parser**
+* Every variable is function call.
+* Variable means function call.
+* **A** is variable so call further.
+* **A** is having **5-choices**.
+* We can select anyone of the **5-choices** as it is **recursive descent parser**.
+* **a** is terminal and input string having **terminals** only, so we are checking if both are matching or not.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/88e6726a-4094-44c9-b844-cb4a02f6ffd3)
+
+* **a** will inform to parent that **a** is successful.
+* **A** is having **5-choices**. The **correct choice** is **3rd-production** which is **abc**.
+* **B** is variable.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6e6ddc03-b645-4496-be49-e06bd060a8ac)
+
+* Everything is **failed**.
+* **B** tried every possibility and it failed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/40c9baf1-d04b-491c-8547-d5e911d5a1d3)
+
+* Problem is at the **parent**.
+* We have to do **back-tracking**.
+* This is the problem of **left factoring**. It is almost like misleading. It is diverting the path.
+* Actually curent person is **A -> abc**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d35ec0a9-0398-4cfe-b6eb-aeccc244ea39)
+
+* Finally parser confirmed that **tree** is not possible.
+* Actually tree is possible.
+* Parser will give parsing error even though tree is possible.
+* Even though tree is possible because of **left factoring** parser may say that **tree** is not possible. It is called as **parsing error**. We may get **parsing error**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f2253ba1-678a-4d6f-9a74-28ba5334e23e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/59bc7855-4eaa-49b2-82f2-b8522beb4058)
+
+* Program will stop by giving **error message**.
+* Here we have **compiler** so it will stop at **infinite loop**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc38500b-9639-4828-9bcc-0506afa91c6f)
+
+* In the last **S()**, **S -> aS**, the **a** didnt match with **b** so we backtracked.
+* **S** having two choices.
+* Let's do the 2nd choice now whish is **S -> b** and the **b** in the input is matching with the **b** from the **output**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09b67657-9fd2-400f-a658-3c51f6a65947)
+
+* Right recursion having no problem.
+* Left recursion having problem.
+* Grammer contain **Left recursion** the problem is that **recursive descent parser** will go to **infinite loop**.
+
+* **NOTES**:-
+
+1) In **recursive descent parser** for every variable we will write one recursive function(All variables contain the same code).
+2) In **recursive descent parser** a lot of time is wasting in the form of backtracking.
+3) If the grammer contain **left recursion** then **recursive descent parser** may go to **infinite loop**(There is a chance of not going to infinite loop also).
+4) If the grammer contain **left factoring** then **recursive descent parser** may give **parsing error**. It means that tree is not possible.
+5) **Recursive descent parser** uses **stack** data structure(S0 parser uses **PDA**).
+
+* Next parser is **same** only difference is that it does not use **back-tracking**.
+* There is **stack** and **PDA** also there.
+* Select correct production from **LL(1)** table.
+* Everything else is **same**.
+* One parser doesn't have backtracking means that it has a **table**.
+* One parser does have backtracking means that there is **no table**.
+* **LL(1) parser** another name **predictive parser** another name **non-recursive descent parser**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/569dca3c-ab81-477b-a6e4-6de333ff9418)
 
 
 
