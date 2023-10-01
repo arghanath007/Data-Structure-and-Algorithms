@@ -1835,29 +1835,62 @@ c) A grammer(G) is said to be **Ambigious grammer** if we can find **atleast one
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9a1d4275-9afc-4e30-892f-ae447bde1cec)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d961a14-cf88-4efe-8abb-d17637ce0537)
 
+* Top Down Pharser Working [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/673cfb16-3589-4908-837d-07c8b78642fb)
 
+* Bottom up pharser will start from string.
+* 4th production is **B -> d**.
+* If we replace **B** by **d** then it is **expansion** and if we replace **d** by **B** then it is **compression/reduction**.
+* Left replaced by right **expansion** which is **top down** and if **right** replaced by **left** then it is **compression** which is **bottom up**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b4e0d362-2521-4daa-8500-3f7a0f4f0349)
 
+* Yes.
+* aABe -> S [Reduction] [r1]
+* Abc -> A [Reduction] [r2]
+* b -> A [Reduction] [r3]
+* d -> B [Reduction] [r4]
+* Reduction means we will see from **right side**.
+* On the right side no where only **a** there, so we cannot reduce the **a** in the string.
+* On the right side there is only **b** there, so we replaced **b** with **A**.
+* The **first reduction** we have done is **b -> A** and the production is **A -> b** which is **r3**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e803c63-161b-489e-b367-ba089f8f5398)
 
+* Now the **reduction** we are doing is that, **Abc-> A** and the production is **A -> Abc**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/10764177-8852-437f-90b1-4ef1686abbd5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/64e408eb-f74d-4435-b5df-8e90d51f06f0)
 
+* The **d** is replaced with **b**, the production is **B -> d**.
+* The **aABe** is replaced with **S**, the production is **S-> aABe**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8724d3fd-9660-49cb-bdaf-c465ac5ed20a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/21461776-3cee-4ddd-8a7f-22308291490f)
 
+* The trees are looking **same**.
+* The difficulty with **bottom up parser** is that we don't know whom to **compress**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/314e190f-448f-4e9c-a225-605fed29ae70)
 
+* [**IMPORTANT**]
+* The difficulty with **bottom up parser** is identifying a sub-string which we have to **compress**. It is **difficult**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b8bd96f-8341-4357-92ec-4aa53694a5d1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b3ea2060-7ccc-480c-8592-bb445bf69a90)
 
+* It is a **complex parser**.
 
+* Bottom Up parsel:-
 
+1) It will start from string and proceed to start symbol.
+2) Identifying substring whom we should compress so that we will finally get start symbol. It is very difficult.
 
-
-
-
-
-
-
+* Identifying correct substring is difficult so that we get to the start symbol.
+* The substring whom we have compressed that substring is called as **handle**.
+* Substring is **handle**.
+* In the GATE exam if it is asked to do **bottom up approach** do **top down approach** and just draw **1-tree** and count the **no. of productions**.
 
 
 
