@@ -1156,6 +1156,224 @@ c) A grammer(G) is said to be **Ambigious grammer** if we can find **atleast one
 
 * CFG generates CFL.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b13c1c9-3c49-4844-8a5c-d95d33cf96ab)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0556adc-0293-4868-a832-09f6b5349f7b)
+
+* Example.
+* Capital letters are variables and rest are terminals.
+* Variable -> E
+* Terminal -> +, * , id
+* Epsilon -> Special Person -> Weight is Zero(0).
+* id -> identifier -> One variable name.
+* It is **CFG**.
+* Recursion also there.
+* Grammer will generate infinite strings.
+* Minimal string -> Epsilon.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2abd00d2-0a6d-418a-aa5d-d2e958bfc45d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e3a60c7-02cd-430e-a5d8-dd0b3c003818)
+
+* E -> E + E -> id + id
+* Read from left to right.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a958b224-c767-4a87-8ac8-c365607dbe14)
+
+* With the plus(+) operator many operations will come.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb808361-b3d7-402d-96b0-56158fa83317)
+
+* Any no. of star(*) and any no. of plus(+) possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d2d9b30-4d7e-452e-a8e7-9fc4543c7be2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/796da8d4-170e-46e1-8899-3a681f75793c)
+
+* Both the trees are generating **same**.
+* Simply read from **left to right**.
+* The above grammer is generating some string in **multiple ways** so it is **ambigious grammer**.
+* It is **ambigious grammer**. So **Stop**. We just have to find **atleast one string** with multiple parse trees possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/148a00b2-df5d-4360-a26f-0ffa3786044b)
+
+* [**IMPORTANT**]
+* It is generating combinations of plus and star. It is generating plus only. It is generating star only.
+* It is a **CFG** that is generating all **arithmetic expression** over the operator(+, *).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d2ac780f-cd03-4df9-85ab-e418e1ee9c0e)
+
+* We will get **arithmetic expression** for operators(- and /) as well.
+* It is a **CFG** that is generating all **arithmetic expression** over the operator(+, *, - and /).
+* It is a **CFG** for set of all **arithmetic expression**.
+* There is a **CFG** for **for loop, while loop**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85bd6be2-c8d8-4911-b734-bfd3d648c886)
+
+* It is Ambigious grammer.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0cd48fa-8df8-481c-9e8f-6c0bf33b8ff1)
+
+* According to c-language this expression answer is **23**.
+* This is the answer we are expecting.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb1f7c65-58e8-4d7b-bd27-c993dca346bf)
+
+* We started from **top**.
+* Every program executing will start from **top** only.
+* Whoever is visible first, they are having **left priority**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8823f299-149d-410c-ab9d-44d37a01e6a2)
+
+* **Highest priority** people will be at the **down/bottom** of the tree. They will be the **last person**.
+* **Star(*)** is at the **down/bottom** of the tree. **Star(*)** has the **Highest priority**.
+* After **Star(*)**, **plus(+)** which has lower priority compared to **Star(*)**.
+* According to the tree, last people have the highest priority and the last people are the terminals. Which means that **operands** have the highest priority.
+* After **operands** next comes the **operators**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/21b3cc00-b53b-496f-8edc-5012c42f7908)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98098aca-02d2-43bf-840b-354441bddb6f)
+
+* Every time **operands** only have the highest priority. Bottom people will be done **first**.
+* Highest operator is **star(*)** and next is **plus(+)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3656a499-d1e1-46fe-83dd-a69304baa1a2)
+
+* According to the **left tree**, answer is **23**. [First tree]
+* According to the **right tree**, answer is **35**. [Second Tree]
+* If the grammer is **ambigious** means that there are **multiple trees** and for those multiple trees we have **multiple answers** as well. [Problem of **ambigious** grammer]
+* The grammer is having problem. [**IMPORTANT**]
+* Multiple trees means multiple answers.
+* According to **c-language** it contains the **first tree** because in the tree **star(*)** has the highest priority and in c-language also **star(*)** has the highest priority.
+* According to **c-language** contains **first tree**.
+* The two trees came from the **above grammer**. So **this grammer** is not there in the **c-compiler**.
+* The **c-compiler** will generate only **1-tree**.
+* **c-compiler** grammer is **unambigious**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37b41297-c5c0-4cd7-be56-60439e14e42d)
+
+* While writing compiler we cannot write some **ambigious grammer**.
+* Please write always **unambigious grammer** for compiler.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fffbbe09-f94a-4853-beb3-f9d908a15f42)
+
+* Multiple tree means multiple answers which we don't want. So we have to convert the above ambigious grammer into equivalent unambigious grammer. [NOTE]
+
+## Conversion From Ambigious to unambigious grammer, According to **c-language**
+
+* According to **c-language** which is **( * > +)**, **star(*)** is **greater than plus(+)** .
+* We want **first tree**.
+* Here only in **1-way** we want. Previosuly multiple ways were possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5fd7598f-5daf-4c4b-be78-4e6f6bdaa36d)
+
+* Variable(E) having three choices. We can take anyone. Because of this only, we can **take anyone**, two trees came and made the grammer **Ambigious** and we got multiple answers.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e0a703c-729b-4adb-b338-8e1d2b381d45)
+
+* Don't say anyone now. Now **1** only.
+* According to **c-language**, **plus(+)** has **least priority**.
+* **Least priority** person should come **first**.
+* **Least priority** person write **first**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d56013cf-b070-4f6e-bd8b-4631800670ad)
+
+* All people in the **same level** problems will come.
+* If we want to make something nice then go for **levels**.
+* Different levels are going on so **different variables** are coming.
+* In previous grammer there is **one level**. For **one level**, one variable is enough.
+* If new variable not there then same variable we have to write.
+* **id** should be in the **last level**.
+* In the top level we have taken **plus(+)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95fc6d76-63bc-4e83-89a5-c45d41e799f8)
+
+* No chance of directly taking **star(*)**.
+* We have to come to **E** first.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9410841a-7b8f-46c4-bb69-c07f44b4ee47)
+
+* So **second tree gone**. Only first tree possible.
+* We want **equivalent grammer**.
+* **Equivalent grammer** -> Whatever previous grammer generating, it should generate the same grammer.
+* It should be **one way only**. Means **1-parse tree** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9f4d16b2-15aa-4721-b2ea-f765e5332d66)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/39009e03-5b3b-43f7-81f2-2b87b93f683c)
+
+* [**IMPORTANT**]
+* We cannot directly get **star(*) or id** like the previous grammer.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8e05792-e687-4da0-a53f-64c4d0718a80)
+
+* We cannot go back. From next level we cannot come back to previous level.
+* There are **rules and regulations**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be9b1cf9-c0fe-4f31-b822-f6677108b7fc)
+
+* We want both plus and star, so we will first take plus then we will take star.
+* In the previous one **no condition**. They are in the **same level**.
+* In this one there are **conditions** and they are on **different levels**.
+* Both the grammers are **same** because they are generating same strings but instead of generating a single using many ways now we are having **one way** only.
+* We have introduced new variables everytime so that we can go to **different levels**.
+* If new variables not there then we cannot go to **different levels**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/da3339a7-c5db-42d0-98c8-18619decced0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eca22a20-0ffa-409f-84fc-27fb0cc9e7c9)
+
+* According to c-language.
+* **Same priority** means **same level**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8ec94ef-e70e-42c2-91d3-a87f52f4774e)
+
+* Bracket is special person.
+* Bracket is **highest priority**.
+* So keep it at the **last level**.
+* Inside **bracket** anyone can come. So keep **start symbol(E)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dce06674-46bc-4088-9f3d-9d7729be22e5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8483b579-639e-4405-95f8-aaf9af29a490)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f9168ff5-4d90-4ea5-b712-0f9c0587aa21)
+
+* [**IMPORTANT**]
+* Both will generate **arithmetic expressions**.
+* In **c-compiler** the **above grammer** came.
+* **Divide(/)** is greater than **minus(-)**.
+* Same level means **same priority**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/03f5b0f9-9e2b-4013-9f63-57ccae44348e)
+
+* Question.
+* In this grammer, star and plus operator which is highest priority?
+
+> Both are **same**. Because of **same level**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e02b1ca-0369-49fd-b749-d742f5d8d939)
+
+* Question.
+* In this grammer, star and plus operator which is highest priority?
+
+> Star(*). Because of different level.
+
+* Star(*) is bottom level which means higher priority.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b9b0de02-c107-476a-a825-5e6420c1022f)
+
+* Question.
+* In this grammer, star and plus operator which is highest priority?
+
+> Plus(+) and divide(/). Because of different level.
+
+* Plus(+) is bottom level which means higher priority.
+
+* In this grammer -> [**IMPORTANT**] words.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1064db82-f6bf-4ac0-9324-f4c4c89bd7f1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d5f78ff5-9d27-46d2-bb89-87ed9dfbb02b)
+
+* [**IMPORTANT**]
+
+
+
+
 
 
 
