@@ -931,76 +931,230 @@
 * Example
 * Between open and closed bracket, open bracket should come first.
 * if )a( -> Syntax rule.
-* Tokens only find out. 
+* Goal is how many tokens. Tokens only find out.
+* Problem with syntax or semantic maybe. No problem with tokens.
+* Answer -> 36.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/78244546-d92b-4ca4-910f-b2b507214e3b)
+
+* While(1) -> Condition True.
+* While loop keeps on printing **abc**, it will go to infinite loop.
+* While condition will never fail.
+* It will never stop. It will print **abc**.
+* It is a **runtime error**. It is not a **compile time error**.
+* While running it is everytime **True**.
+* Compile will just **scan** just one time.
+
+> In the above program there is an infinite loop story but that infinite loop problem is at which phase of the compiler? Infinite loop problem is none of the phases of the compiler. Why running the program, the infinite loop problem will come. 
+
+* We have one program and when we compiled the program **lexical, semantic, syntax** didn't give any errors. How will give further errors?
+
+> No one will give further errors as checking is over.
+
+* After the first three phases of the compiler, the remaining phases are for **conversion** purposes and not for **checking** purposes.
+* The first three phases of the compiler are for **checking** purposes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f8804aa-b29f-4a0c-bf10-a1ae81cf9bf9)
+
+* Answer is **36**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b8184cb-3a52-4ce8-8e38-da94ec7f2bdf)
+
+* In terms of **tokens** no problem.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/359ad3ce-9523-4004-a25d-5f6a82f4b1a1)
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2693f377-22a5-4f99-979d-294274c34c00)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db18475e-fdce-4d12-bb8f-ddbd4b4a805a)
 
-* it is a **multi-line** comment.
-* He is trying for token but unable to decide -> Example of Lexical Error.
+* Example
 
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3121fad0-4eaa-48aa-a089-6195761a9650)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eaa67d7a-1f5f-49fe-9cd1-d31d858a5a05)
 
-* Start from 50mins.
+* Until now **22** tokens.
+* /* -> Comment started.
+* It is a **multi-line** comment.
+* **multi-line** comment started, so comment ending should come. Until comment ending comes, the compiler will **skip**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d86f0464-8537-4697-9bd5-90f0c4311f86)
 
+* Compiler skipped and the total program is over.
+* Compiler is unable to find out matching one.
+* Compiler will give **lexical error**. [**IMPORTANT**]
+* This is the **lexical error**.
+* He is trying for token but unable to decide, total program is over -> Example of Lexical Error. [**IMPORTANT**]
+* Before **lexical error** there are **22** tokens.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92f3db27-5db4-44a9-98ee-f1520629506b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6878d076-bfc9-49c2-adc9-0052941b1a27)
 
+* Example of Lexical Error [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4046a7a2-96fb-4d9d-8dcd-7a13749d3239)
 
+* How many tokens?
 
+> Until **22** no problem. Further problem there. Finally there is a **Lexical Error** in this problem.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/165d5a43-549c-4b00-b5c6-21883ea6b075)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ed305b6-bbe3-4c08-9d1d-0d4b6eec7754)
 
+* If this is the problem then **23** is the answer.
+* We can say something is a **string** when it is in **double quotes("")**.
+* String cannot go to different lines. Write in one line.
+* Whatever we are thinking write it in a single line.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6750bf56-ab3a-4615-aabb-8b6dc34c1a4f)
 
+* Identifier.
+* Because of identifier we cannot write **20 characters**.
+* For every identifier there is a limit.
+* Giving **very big/larger name** to an **identifier** is an example of **lexical error**.
+* There is a limitations.
+* Don't give very big identifier names.
+* We are talking about **identifier size**.
+* Example of **lexical error** -> Comment started but comment ending not there. Compiler is unable to find out the tokens -> Larger identifier names.
+* Double qoutes starting and double quotes ending is one string but we have to write Double qoutes starting and double quotes ending in one line only. If we keep multiple lines then the string is considered to be **two different strings**. There is no relation between them.
+* String should be **continuous**. In one line only string should be written.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/474b2690-3fa4-4d4a-b48c-383a0ad2137c)
 
+* String not ending with double quotes -> Syntax error.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dabcb5ad-8ea0-4167-a8ab-c39d754a9cbb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2e80eabd-324e-487f-b053-1bbe5dd84deb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/56c0aba8-1324-4379-a908-ee5f2fcfabfd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95e63705-47b0-4c42-91ec-cb8ba300f193)
 
+* Multi-line comment. Multi-line string not there.
+* By default at the end of the line, string is over.
+* Lexical errors are very less.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff61d488-43d7-4909-aa45-200c34522cc7)
 
+* Example.
+* How many tokens?
+* Answer -> 13 tokens.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aacbd53c-af36-4e72-a19f-b072159b6e52)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/919a2252-e670-43cb-8435-1ceb897f99da)
 
+* **Two operands** we have written side by side -> Syntax Error.
+* [**IMPORTANT**]
+* Token means **longest matching**.
+* Which one of the following is said to be token without reading next input symbol/character?
 
+a) int -> We cannot say without reading the next input -> inta.
+b) float -> We cannot say without reading the next input -> floata.
+c) return -> We cannot say without reading the next input -> returna.
+d) ; -> **;** followed by something cannot be a **Token**. **;** itself is **one token**. [Answer]
+e) ( -> **(** followed by something cannot be a **Token**. **(** itself is **one token**. [Answer]
+f) , -> **,** followed by something cannot be a **Token**. **,** itself is **one token**. [Answer]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a216649-8301-40ac-b864-888c4e66cc1f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/791f722d-39c6-4dd0-b1f8-640310eeb320)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/adfe8861-9f9a-44eb-b581-d3ba3f279160)
 
+* **Separators** are considered to be **one-one tokens**. [**IMPORTANT**]
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/15f8e9b0-58b8-4721-8f82-7ff1ceb86d61)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a9ca0ea2-ed75-4661-9ef5-d43025fa6dd4)
 
+* TOC.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a921a8d5-c114-4232-b056-b5c53ffc1894)
 
+* 2 productions
+* Terminal(T) -> a
+* Purpose of grammer -> Generating strings.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e2b4610d-8447-4cbd-9eeb-485d09b76f10)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58fc8447-e79b-4898-9a79-623a55ae52f7)
 
+* Grammer will generate infinite language
+* Minimum string -> a
+* CFG will generate CFL.
+* **S** means **2-possibilities**.
+* Concentrate about **variables**.
+* Recursion is there(S -> aS).
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b4c719fa-211b-40e8-bf6e-c51f05b8c511)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc02f221-3831-420c-8325-d3ec3fab12be)
 
+* We can use anyone.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c9f80b2-88a4-4bf1-a968-47a1045a28d0)
 
+* We have to read the tree from **left to right** in leaf nodes.
+* How many trees possible?
 
+> Two trees possible.
 
+* For drawing tree, **grammer and string** is needed.
+* Parser -> Syntax analyzer -> Needs grammer and string.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c32774d8-dca5-43c4-98dd-5e675c9b99b0)
 
+* From the given grammer to generate a string **more than one tree** is possible. Then that grammer is called as **ambigious grammer**.
+* If we can show for a given grammer and to generate a string multiple trees are possible then that grammer is an **ambigious grammer**.
+* 2-parse trees possible.
+* If more than **1-parse trees** possible for any string of a given grammer then it is **ambigious grammer**.
+* If **1-parse tree** possible then not **ambigious grammer**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/348d2e06-40f2-4dfb-871f-f4af0656ab3f)
 
+* The grammer will generate many strings.
+* String -> a, aa, aaa, ........
+* Minimal string -> a
+* For **Minimal string -> a** only **1-tree** is possible.
+* The grammer is **ambigious grammer** doesnt mean that for every string more than **1-parse tree** possible.
+* **Ambigious** means that there exists **atleast one string** to whom more than **1-parse tree** possible.
+* Even though it is **Ambigious grammer** for some strings only **1-parse tree** possible.
+* If any grammer is **Ambigious grammer** that means that there exists **atleast one string** to whom more than **1-parse tree** possible. Not for **every string** more than **1-parse tree** possible.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5a3f325-2565-4076-bdf7-f13265a2cb37)
 
+* A grammer(G) is said to be **Ambigious grammer** if we can find **atleast one string** to whom more than **1-parse tree** possible.
+* To say **Ambigious grammer**, **one string** is enough.
 
+* Question:-
+* A grammer(G) is said to be **Ambigious grammer**? Which of the following is true?
 
+a) Every string should have multiple trees. [Need not be]
+b) Every string cannot have multiple trees. [NO]
+c) A grammer(G) is said to be **Ambigious grammer** if we can find **atleast one string** to whom more than **1-parse tree** possible. [Answer]
 
+* Find one string and stop it.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cca3f354-d2b9-4e7b-9f6c-ecc1c0d62a9a)
 
+* Read the leaf nodes from **left to right**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f21eba5-04a7-4e92-b652-29cd20b0e5e4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3521396c-57c1-4bd8-a189-7c1e7353134f)
 
+* Question:- [Expected Questions]
+* How many parse trees possible for the string **aaa**?
 
+> 4 parse trees
 
+* Question:-
+* Every CFG is ambigious?
 
+> Need Not be.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ee2aad7-6b55-4bf3-9867-ae588dc00057)
 
+* Two string are possible.
+* Every **CFG** need not be **ambigious**. [**IMPORTANT**]
+* Some CFG is ambigious?
 
+> Yes.
 
+* No CFG is ambigious?
 
+> False.
 
-
-
-
+* CFG generates CFL.
 
 
 
