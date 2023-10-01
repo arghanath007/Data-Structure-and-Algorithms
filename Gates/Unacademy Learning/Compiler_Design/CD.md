@@ -1371,6 +1371,9 @@ c) A grammer(G) is said to be **Ambigious grammer** if we can find **atleast one
 
 * [**IMPORTANT**]
 
+## parsing-part-ii(5) [1st Oct 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a90924c8-1cfd-4d69-b367-859af1d03c35)
 
 
 
