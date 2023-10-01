@@ -1374,6 +1374,309 @@ c) A grammer(G) is said to be **Ambigious grammer** if we can find **atleast one
 ## parsing-part-ii(5) [1st Oct 2023]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a90924c8-1cfd-4d69-b367-859af1d03c35)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/969f8885-7da9-4b4c-9b8d-7f5609cccfba)
+
+* There are **2-grammers**.
+* 1st Grammer -> Set of all the arithmetic Expressions over the operatons(+,-, *, /) and over the operand(id).
+* Variables -> E
+* Terminals -> Anything except Variables.
+* Whether it is **ambigious or unambigious**, **operand** has the highest priority.
+* Don't think much about **operands**. Throw them in the last level. Just think about **operators**.
+* If two people are having different priority then they will be in different levels. [**IMPORTANT**]
+* If two people are having same priority then they will be in same level. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69de6f4f-6fc9-426b-93ce-d8e57b1eede4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/01b83a8b-1d22-4220-abc8-f52dd1d403af)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/13c3dc5c-f922-4e75-98e1-f7fb176bb4f8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9c763ba-02d4-476b-9ab2-3f033b0971c0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2e5c53b7-3396-466e-a77a-d8d775e62467)
+
+* We are expanding **left side** means that we are going **left side down** indicating that **down** will be done first. In the tree **bottom** will be done first.
+* It means that **left side star(*)** will be done first then **right side star(*)**.
+* According to **c-language** between **two multiplication**, **left side** multiplication is done **first** and then the **right side** multiplication is done.
+* Both the multiplication having **same priority**. Associativity is from **left to right**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a5769c6-e7d0-4f7b-a8b9-a7666983c3b8)
+
+* It means that closing right side and opening left side which is **left to right**.
+* The below grammer is only having **left to right**.
+* If we want **1 more star(*)** then left only we can expand.
+* The above grammer is having both **left to right and right to left**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/18e95689-5eff-44f9-bb08-14c7f612f59a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9750e86a-96a8-4fa1-ab09-b752313bc6a5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b028bfd-05e5-4662-bf32-354808b0eb40)
+
+* Everytime, we are introducing new variables.
+* We are writing them in different levels because of different priorities.
+* We are introducing new variable on the **right side** means that if we want the **same operator** again then right side expansion not possible. Left side only we can expand. Left side only we can go down means **left to right** associativity.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5bebec62-a8a8-4776-89f3-a1ec23f95ac2)
+
+* **Left to right** associativity.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86784c47-1e82-477a-869d-ba47c7cf4115)
+
+* This is **right to left** associativity.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7c6f7ab-0d08-436a-96e2-429a6c399d25)
+
+* Associativity possible in both ways.
+* Not only introducing the new variable but which side we are introducing the new variable also matters.
+* In the original grammer, both the side **left to right** or **right to left** associativity both are possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8608096-d932-4507-9360-3feb4965aac1)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69437560-0462-4469-afb7-a4c12a988a4f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c56cb3db-129b-4aeb-bc34-ac7b7947af11)
+
+* Question [**IMPORTANT**]
+* **Bracket** is by default at last place.
+* As **minus(-)** has **right to left** associativity means that it has to expand on the **right side** so put the new character on the **left side** like **A -> B - A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed468c2c-09ed-4d97-92ed-965c965427f3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b940c2d-d1fd-467c-83ae-3431efa188af)
+
+* [**IMPORTANT**]
+* Same levels having **same priority**.
+* Compiler is constructed using **unambigious rules**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eec84bd6-4565-4f7d-95df-36773851abfe)
+
+* Sometimes **unit productions** are needed for **unambigious grammer**.
+* Boolean Expression -> Final answer is 0 or 1.
+* **B** is **bit** it can be either **0 or 1**.
+* With **B -> B or B** we will get so many **OR** operators.
+* With **OR** operator we can write so many people.
+* With **OR** operator we can generate every possible combination.
+* With **OR** operator there is a sequence possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41db483a-ffda-4d2e-bb06-dafaad65996b)
+
+* Grammer is nothing but **rules**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a087806-dd39-4fb4-a7c7-82666c9da60e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bfd804e7-dff4-4daa-9736-ec5fbdeb0f09)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9a64ab21-1d9c-41a3-aaee-aed36c4881f3)
+
+* It is the grammer for set of all boolean expressions over the operator(OR, AND, NOT, bracket).
+* Operands are **0 and 1**.
+* It is **ambigious grammer** as they are on the **same level**.
+* All have the highest priority.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2bf2089b-e0cb-42fc-83d2-c9fe59e6322d)
+
+* Not > and > Or
+* They are all **left to right** associativity.
+* As **not** operator is **unary operator** which means **only one(1)**. For that we cannot introduce a **new variable** in **D** otherwise there will be **no recursion**. We just write **not D** only.
+* When recursion is over, lastly replace **D** by **E**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a2bd458-6e01-4a4d-9dfe-f4e21e44a74d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/afe39c93-62b3-416d-9ab7-fcafce5fb388)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50b449f7-47a8-4570-b3d5-006ab6e220f9)
+
+* Unary operator [**IMPORTANT**]
+* Grammer can be given in **tree form** as well.
+* Drawback of **unambigious grammer**, **unit production** is there.
+* There is no algorithm to check/verify if a given grammer is ambigious grammer or not. So checking if given grammer is ambigious or not is **undecidable problem(NPC -> NP complete problem)**. [NOTE]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f99ab8f-77c4-4230-b593-8b8fc57756ed)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/658ef5c1-7b49-4ce8-873f-0a720eec9650)
+
+* There is no algorithm to convert the given complex ambigious grammer into equivalent unambigious grammer. It is also **undecidable problem(NPC -> NP complete problem)**.  [NOTE]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7787c15e-bd8e-494b-a779-57e988119bee)
+
+* As it is a small grammer, we can check and say it is an **ambigious grammer**.
+* Because of small grammer we can convert the **ambigious grammer** to **unambigious grammer**.
+* Just remove one possibility.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/294bf320-d026-4617-a9c0-6b8ba38ba059)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/195e83ca-0971-4d9f-89aa-d3e36f170ca2)
+
+* Example
+* Computer will read/see one symbol at a time.
+* Whatever factor we want(a) that factor is common on left side of every person -> Left factoring.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95ba2a53-5d31-4a93-a4ad-f3fb0a2d62b0)
+
+* Left factoring.
+* From the above grammer to generate string **ad** all the three products are fighting because in the given input string, first character **a** is given by all of the three productions.
+* This problem is known as **Left factoring**.
+* The common part in all three is **a**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3499237-7d0f-4784-a92e-77a6347e75f9)
+
+* **a** is common and **a** followed by remaining which is **S'**.
+* **S' -> b|c|d**.
+* From the above grammer we want to generate **ad**.
+* **a** is over already and in **S'** we want **d**. So no fighting.
+* No fighting means no problem.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12600c6f-4170-4be1-9c6d-61995fc92dc3)
+
+* This **result** is called as elimination of **left factoring**.
+* Another name is **left factored grammer**, which means that **left factorization** is done.
+* **1** means no fighting. More than **1** means fighting.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d57d150a-a85e-486f-83d0-49431284c293)
+
+* Compiler grammer rules:-
+
+1) Umambigious grammer.
+2) Left factored grammer.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb6dedc0-2f93-451d-a949-ac0d969e2c5f)
+
+* Example.
+* For **S -> i** we have **two people** fighting(iets and ietses). So there is **left factoring** problem.
+* Four places it is common which is **iets**.
+* Until which place fighting is there make it **common**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/586e4a7e-9137-43bb-8950-4a4dae9cda3e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dcef9b33-bf76-4498-bdd1-f38909b989a1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80eb6e95-18cd-4292-bd14-7a0ded706fc0)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/18cf814f-7a2d-48ba-936f-50be9c683ee4)
+
+* Example.
+* Until **a** only it is **common**.
+* Fighting is there means there is **problem**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dfbec3e4-176a-41a5-bc2f-fc35be643081)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2867c190-1897-4790-9773-a149ae0de91a)
+
+* Left factored grammer.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a686305b-9f7d-4310-9f3c-7f42f551fdc7)
+
+* Everywhere **one choice**.
+* Start from 2hrs 3mins.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
