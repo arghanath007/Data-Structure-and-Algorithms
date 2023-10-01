@@ -1556,41 +1556,198 @@ c) A grammer(G) is said to be **Ambigious grammer** if we can find **atleast one
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a686305b-9f7d-4310-9f3c-7f42f551fdc7)
 
 * Everywhere **one choice**.
-* Start from 2hrs 3mins.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/93bd51ba-ab24-4087-9214-cf489eeaa6d3)
 
+* It is CFG.
+* It is recursion. **S** calling **S** and **S** is the first element. So it is **left recursion**.
+* **Left recursion** -> **S** is there at the first place only.
+* It is **left recursive grammer**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd2289c0-bba3-486a-82ee-df50e552b8eb)
 
+* It is **Right recursive grammer**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81e16498-fb62-4ec1-b7aa-ec525caa7337)
 
+* Two types.
+* Recursive grammer. **Left and right recursive grammer**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9265a0c8-3860-4732-9c08-eeece419834b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/879f5f2d-e67d-49c1-88cd-0b32fb75644e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/450f9cb7-caf2-4aa2-91ee-f302950b29e6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c9afa84-2ada-4589-8fe1-b7d1a143ad74)
 
+* b * (a ^ *) -> Within the **brackets** if we write **a** then it is **(a ^ *)**.
+* S -> b{a} -> There is **no left recursion**.
+* This is called as elimination of **left recursion** using **EBNF(Extended Backus–Naur normal form**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/baf0554a-38e9-4c09-aaa8-64bc9f75665b)
 
+* S -> b{a} -> Minimal string -> b.
+* This is one way to **eliminate left recursion**.
+* S -> Sa/b
+* This is another way to **eliminate left recursion**.
+* **S** contain **two productions(Sa, b)**. **Sa** is the **first production** which is having problem.
+* **S** is have two choices, **first one** is having problems, don't use **first one** use the **second one**.
+* **b** don't have any problem write **b** as it is.
+* **S** goes to **Sa**. **S** replaced by **b**.
+* Instead of writing **a** write **S'**.
+* So for **S -> Sa** we write **S -> bS'**.
+* **S'** means **a** which is **S' -> a**.
+* For repeatation purpose write **S' -> aS'**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/04ba47a1-9e77-43d2-b954-a53fcb08877e)
 
+* Minimal string -> b
+* Another way to write it.
+* Instead of writing **S -> b**, in **S'** write **S'-> Epsilon** so that we get **b** as well which is the minimal string.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0215c5c-ecd2-488e-a5d9-2e126e550548)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0b129e5-0d4a-40e5-8dc6-0473936b9adf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe161e91-fd45-4d12-a320-a1a32a039ceb)
 
+* Elimination of left recursion -> Two ways.
+* Not there in **CFG** form.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/45490b85-216c-4356-ab7a-f4da66074693)
 
+* S -> Sa/b.
+* **S** has two productions.
+* Second one(b) don't have problem.
+* First one(Sa) is having problem.
+* Second one substitute in first one.
+* **S** replaced by **b** and remaining **S'** we write.
+* **S'** means **a**.
+* If we write only **a** then **a** will come **one time only**.
+* Along with **a** write **S'** so we can get as many **a** we want for the **repeatation**.
+* The termination condition for **S'** is **Epsilon**.
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac59a38a-7664-47df-9d19-cc24e57ba58e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb23f875-ba50-4560-9a97-0490aeeaca7a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/940716be-ad34-4a33-90e7-99d80970bc16)
 
+> There are two recursions(Left and right recursion). Left recursion we have eliminated using two ways which are **EBNF and CFG**.
 
+* Elimination of Left recursion using **CFG**.
+* Left recursion means on the left side **S** should be there.
+* On the left side no where **S** ->  Elimination of Left recursion
+* Left recursion is eliminated but right recursion came.
+* If recursion is at all not there then how will will get the infinite strings.
+* If recursion is at all not there then we will not get those infinite strings.
+* Recursion should be there.
+* We don't want **left recursion**.
+* We have written the **left recursion** as **right recursion**.
+* While eliminationg left recursion we got **right recursion**.
+* **Right recursion** whatever is there **no problem** at all. No need to eliminate also.
+* Left recursive grammer will create problem to **parser**. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83750222-b578-4e8d-8b05-099517da4034)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/14903fab-8e3f-4968-9bdc-70b23c03bd1f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/23531d8c-63ec-4a61-b976-f1e3b47b9c7a)
 
+* Left recursion having problem.
+* Right recursion don't have any problem.
+* Left recursive grammer will create problem to **parser**. That's why we have to eliminate **Left recursive grammer**.
+* Convert the Left recursive grammer to equivalent right recursive grammer.
+* **Parser** like **right recursive grammer**.
+* **Parser** don't have any problem with **Right recursive grammer**. So, no need to **eliminate**.
+* **Parser** having problem with **left recursive grammer**. So, we eliminiated **left recursive grammer**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9a659dbc-cc7b-404f-959e-783e9afcd764)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f7e0df0-b0a8-476a-80b8-b7a9d5ad605c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3956cf2e-979e-4976-ab31-54ff89d24742)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f3d15c25-3bb1-42e2-af48-d43eed7109ee)
 
+* Example.
+* **S** contain **3-productions**.
+* **Sa** which is the **first one** having problem.
+* Start with second. Replace **S** with **b** and in place of **a** write **S'**.
+* **S'** means **a** only with **repeatations** which is **S' -> aS'** and for recursion we need termination condition which is **Epsilon**.
+* For **C** replace **S** with **C** and for **a** write **S'**.
+* **a** keep on repeating.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/694a50ee-2cca-45f5-8d6f-08cb9fca37b8)
 
+* We are eliminating **left recursion** not eliminating recursion.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19a028f8-bcb2-454c-b7a7-21b79a778464)
 
+* We want to eliminate **left recursion** not eliminate recursion.
+* [**IMPORTANT**]
 
+* Question:-
+* Check following statements are true or false?
 
+1) For every left recursive grammer we can construct equivalent right recursive grammer -> Correct.
+2) Elimination of left recursion is decidable problem? -> Correct. [It is a Decidable problem]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92fab850-d66a-472d-a1b6-400eae77658c)
+
+3) left recursive grammer we have to eliminate because it will create some problem to parser? -> Correct.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bcad900a-e292-4ef3-8254-7e3b145fb922)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d711c8df-418a-42c7-a66a-6b3a132c0379)
+
+* We are replacing **S** with **c** and for **a** with **S'**. Do the same for **d and e**.
+* We are replacing **S** with **c** and for **b** with **S'**. Do the same for **d and e**.
+* Common things we don't have to write.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c375686-8294-4b62-9879-a34b1a20a9da)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a1fd908-714f-4567-9af8-904c3517f806)
+
+* Elimination of left recursion is a **decidable problem**.
+* We are not eliminating elimination, we are eliminating **left recursion** and we are getting **right recursion** in place of **left recursion**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/28c37510-0ad6-40d2-ba19-9287be4af136)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cdbdb70f-b12b-4027-a5c5-9f159b3cd63c)
+
+* It is indirectly left recursion.
+* Replace **A** by possibility of **A**.
+* Indirectly means nothing **one time substitute**.
+* Left recursion visible, do the **same story**.
+* One place we substitute and then do normally.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ef9384b-3b44-40a7-bf94-8432d7f17f4c)
+
+## Parsers
+
+* Process of deriving the string is known as **parsing** which is also called as **derivation**.
+* Process of deriving the string from the given grammer is known as **derivation(also known as parsing)**.
+* Derivation or parsing both are same.
+* Depending upon how parsing is performed we have two types parsers of:-
+
+1) Top down parser
+2) Bottom up parser.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a6b8f97f-3448-42c3-b969-a269b1cdc8be)
+
+* Total chapter purpose is drawing tree.
+* Input to the problem -> Grammer and sting are required
+* Output -> Tree.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c8edbc9-0798-432b-90ac-7fb5aa0e802f)
+
+* Top down parser will start from **start symbol(S)** and keep on **expanding** until **string** will come.
+* Bottom up parser will start from **string** and keep on **compressing** untill **start symbol(S)** will come.
+* Both are different approaches.
+* Powerful one is **Bottom up parser**. It is solving many problems. It is parsing more grammers.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/29234ba5-61db-419d-9f7b-31e2403cd83c)
+
+* **Top down parser** follows **expansion** and **Bottom up parser** follows **compression**.
+* At the end both will do the **same thing**.
 
 
 
