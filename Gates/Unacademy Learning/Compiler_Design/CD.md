@@ -2197,6 +2197,268 @@ c) A grammer(G) is said to be **Ambigious grammer** if we can find **atleast one
 
 * Example
 * Minimal String -> a.
+* Infinite strings are coming.
+* Starting symbol is **a** for every string.
+* **S** has two productions.
+* First(S) -> a.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b552f204-b659-49b9-8533-5af0234ba474)
+
+* [**IMPORTANT**]
+* Whenever we want to generate any string we have to always see what is the **first character** these production can generate.
+* From the grammer(S) we want to generate the string **ghi**.
+* First character is **g** and we have 4-productions in **S**.
+* It is checking/matching **g** with the first characters of every production and seeing which can produce the desired string(ghi).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/010f0f60-0b22-4cea-bc4e-b4d53266f12a)
+
+* **Top down parser difficult** is that if the variable contain **more than 1-choice/production** and selecting the correction production is **difficult**.
+* **Top down parser above difficult** is **solved** by looking/seeing at **first()** of the **variable**. [**IMPORTANT**]
+* a = g, No
+* d = g, No
+* g = g, Yes.
+* Computer will do calculations.
+* In **recursive descent parser** having a **variable** with **many choices** then we will apply **first()** on the **variable**.
+* **LL(1)** is calculations.
+* If two people match then it is called as **left factoring**.
+* If we want to make **parsing so easy** then the grammer should contain **no left factoring**. That(left factoring) is not the problem of **LL(1)** that is the problem of **grammer**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3b10308-1aae-4f9b-98e1-6ce85fb641f4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/211e5cb3-670c-418e-a31a-fc837a03e6bb)
+
+* First(S) -> Set of all terminals present in first position of every string derived by **S**. [Definition]
+* Whatever **S** will generate in all those strings, starting/first character.
+* Final answer is **set of terminals(a, d, g)**.
+* First(Terminal) -> Terminal [NOTE]
+* First(Epsilon) -> Epsilon [NOTE]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/622e3e29-3c4f-420c-b25a-6fb69a32b606)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3eb6c928-4143-49d6-87a4-0b465b68e2df)
+
+* Example.
+* We have **10-variables**.
+* Every variable's first we have to find out.
+* If we want **first(C)** then go to production of **C** first.
+* **first(C)** means whatever **C** will generate, we want their starting character.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea12772b-fe45-4bc6-bf77-4c53122d3e5d)
+
+* **first(C)** -> c
+* **first(E)** -> e
+* **first(I)** -> i
+* If we are asked to find **first()** for the above question then we have to find the **first()** for all **variables**.
+* The internsion here is to find **first(S)**.
+* If we want to find **first(S)** then go to **productions of 'S'**.
+* **S** contain **3-productions**.
+* **D** is a **variable**. So go to the **production of 'D'**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f3375d31-f796-4cac-8803-40041639b86e)
+
+* **G** is a **variable**. So go to the **production of 'G'**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f849c6f-c710-4e34-8a6e-08c1e28131a1)
+
+* **A** is a **variable**. So go to the **production of 'A'**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8b675bb-2eea-4c62-a3c2-6da5a2b15905)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/313af8b5-9c72-42bb-a1ab-ddd90968f971)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9008b7ce-7513-4297-9477-9383faff2ea0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9c07110e-0a70-47be-abf5-a3f5e3043155)
+
+* As they are terminals(a,j,k,d,g) so they came as it is.
+* first(S) -> a,j,k,d,g. [**IMPORTANT**]
+* If required they will call. If not required then they will not call.
+* Major functions of **top down parser** is **first() and follow()**.
+* Everywhere **first() and follow()** is required. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e4587b1-7499-4780-9dd6-72f92a5b685f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1c4ed89-758f-44d9-a01a-623f00638d7e)
+
+* First means **first person**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/261b05d4-7114-47cf-925f-48ad05fdebb2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/59a071a4-c607-4059-9cd1-84d0470da959)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/904a09a3-2d05-48fb-99f2-5bf1ed7745b3)
+
+* Everytime **A** only generating.
+* First(ABC) means First(A). First(A) generating something.
+* Giving chance to next one.
+* **Epsilon** means
+* First(S) -> First(ABC) -> First(A) -> a,d,e,f, Epsilon -> a,d,e,f, First(BC).
+* First(A) will sometime generate **a**, sometime generate **d**, sometime generate **e**, sometime generate **f**, sometime it(A) will take rest(Epsilon). Now if we want first symbol contact **B**.
+* Epsilon means **taking rest**.
+* Epsilon * BC -> BC.
+* First(BC) -> Give chance to **next people**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a876d46-5b27-4f5f-bb7e-8e9316074c75)
+
+* First(BC) -> First(B) -> b.
+* What is first(S) finally?
+
+> first(S) -> a,d,e,f,b.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ab115da-3f86-490c-a6a6-d96169f744d8)
+
+* [**IMPORTANT**]
+* First person is **Epsilon** means **giving chance to second one**('B' here).
+* Second one generating first symbol **b**. It is **first symbol**.
+* How second person generating **first symbol**?
+
+> First person not generated anything.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/432091c1-4980-408c-8b0a-7967dd8327c0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c32041b9-7e76-4021-a95d-f21542c9ccb8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f205588d-70ed-4064-ab5e-0650c1782217)
+
+* **B** is also taking rest.
+* **Epsilon** in **A** means **A** wants to give chance to **B**.
+* **Epsilon** in **B** means **B** wants to give chance to **C**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3b7693d2-0686-418c-b0d1-df0140d41174)
+
+* Now **C** got the chance.
+* **S** will create so many **strings**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/07af4914-5fda-485a-a5cc-b6187a6a73d2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d2ba7ddc-cf05-4046-a913-8ea07527d674)
+
+* first(S) -> a,d,e,f,b,g,h,i,k,j,c
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/18548bc7-6d94-41bb-a32d-ef649fe233a3)
+
+* Until now in the final answer **Epsilon** came.
+* **A** can be **Epsilon**, **B** can be **Epsilon** but **C** cannot be **Epsilon**
+* Epsilon * Epsilon * c -> c
+* **S** is not generating **Epsilon** because **S** is based on **ABC** and **A -> Epsilon** is possible, **B -> Epsilon** is also possible but **C -> Epsilon** is not possible. So **S** not generating **Epsilon** from where **Epsilon** will come.
+* First(S) never contain **Epsilon** because there is one person(C) who is not generating **Epsilon**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d262ef0-2fac-41fb-a4d8-1d50d5671f0b)
+
+* **C -> Epsilon** means that **A** is taking rest, **B** is taking rest and **C** is also taking rest. Everyone is taking **rest**. Someone should work.
+* **Epsilon** came means all are not capable.
+* **A** is not capable as **Epsilon** is there.
+* **B** is not capable as **Epsilon** is there.
+* **C** is not capable as **Epsilon** is there.
+* Everyone is **Epsilon**. So finally **Epsilon** came.
+* If finally **Epsilon** comes then write **Epsilon** otherwise don't write **Epsilon**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7bba261b-5e34-4d90-b036-260e830604b0)
+
+* first(S) -> a,d,e,f,b,g,h,i,k,j,c, Epsilon
+* Lastly **Epsilon** came.
+* Why Lastly **Epsilon** came?
+
+> **A, B and C** all are **Epsilon**. So gurantee that **Epsilon** came.
+
+* Epsilon * Epsilon * Epsilon -> Epsilon.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a646b39d-aecb-4087-837d-5879b2b24466)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d5502548-17c4-4cd3-8172-00a711fa6be3)
+
+* [**IMPORTANT**]
+* One person is also **not Epsilon** then **Epsilon** will not come.
+* First one(A) is Epsion means giving chance to **second one(B)**.
+* Second one(B) is Epsion means giving chance to **third one(C)**.
+* All are Epsilon means all are giving chance. So finally **Epsilon** will came. [**IMPORTANT**]
+* First(S) -> First(ABC) -> First(A) -> a,d,e,f.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/baa86734-1791-4f99-876a-fb40fbfff4ac)
+
+* First(S) -> First(ABC) -> First(A) -> a,d,e,f, Fi(BC) -> a,d,e,f,b,g,h,i.
+* **Epsilon** is not possible as **B** saying that **B** is compulsory.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e7e80711-2061-4daa-b54e-c7a8f0481f0e)
+
+* If all(A,B and C) are not capable then only **Epsilon** will come finally.
+* As of now **B** is compulsory.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ebdd70cb-513e-400f-8515-22c6da430e95)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b9cbc327-1501-4816-b837-3e1b8739d321)
+
+* We can go to **C** now.
+* **C** saying that **C** is compulsory.
+* So **no Epsilon** on **C**.
+* First person(A) has **Epsilon** means **A** is giving chance to second person(B).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0da3fd58-0783-46b7-8d91-8510a64c8c22)
+
+* All(A,B and C) are **Epsilon** then finally **Epsilon** will come in the **answer**.
+* **Atleast one person** is **not Epsilon** means that in the final answer **Epsilon** will not come.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7b12ce7-a030-4cc9-8022-35d9ef961ba4)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d58748df-1464-42af-b954-8167d8c97345)
+
+* Example
+* Grammer contains **5-variables**.
+* Find **first** of every variable.
+* First(E) -> F(TE') -> F(T) ->  F(FT') -> F(F) -> (,id
+* First(E') -> F(+TE') and F(Epsilon) -> F(+) and F(Epsilon) -> +, Epsilon
+* First(T) -> F(FT') -> F(F) -> (,id
+* First(T') -> F(*FT') and F(Epsilon) -> F( *) and F(Epsilon) -> *, Epsilon
+* First(F) -> (,id
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5781174-3296-441e-89dd-cda48b66accc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec312650-392d-47c3-9198-9f5e92a7995d)
+
+* In the given grammer they are written as **i,d** then they are two terminals.
+* In the given grammer they are written as **id** then it is one terminal.
+* In-between **comman(,)** or not there check.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/14c0eca2-14b3-42a6-88bb-8ed5f28e15d9)
+
+* First one is **Epsilon** then go to **second one** but **second one** is not there then we have to **write** epsilon, no other **option**.
+* First(E) is **TE'** means first(T). first(T) is **(, id**. In first(T) there is **no Epsilon** so **T** is compulsory, we cannot go any further.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e2e83f6b-ab9c-49d1-a5b3-7cc157fed344)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c7affcf-63ed-4b1c-9124-d49ec7ddbd41)
+
+* [**IMPORTANT**]
+* For every variable if we find out **first()** then how many have first symbol as **open bracket('(')**?
+
+> We have three-variables(E, T, F)**. 3-Variables [Numerical Problems]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/10ceeed3-891e-4787-8387-9b2f5239fded)
+
+* Example
+* For every variable find **first**.
+* first(S) -> f(aBDh) -> f(a) -> a
+* first(B) -> f(cC) -> f(c) -> c
+* first(C) -> f(bc) or f(Epsilon) -> f(b) or f(Epsilon) -> f, Epsilon
+* first(E) -> f(f) or f(Epsilon) -> f , Epsilon
+* first(F) -> f(e) or f(Epsilon) -> e, Epsilon
+* first(D) -> f(EF) -> f(E) -> f, Epsilon -> f(f), f(F) -> f, e, Epsilon
+
+* f(E) -> f, Epsilon.
+* When we got **f and Epsilon**, cancel **Epsilon** and go back to, see next person **F** is giving chance, which is **f(F)**. **f(F)** is **e, Epsilon**.
+* When we got **Epsilon** again, cancel **Epsilon** and go back to, check if we got **next person** or not. If **next person** not there then don't cancel **Epsilon** and keep it.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c6e9f05-aa43-48e3-a598-f65e827e32ca)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/51a540b2-a027-46c2-bcdb-65647598f964)
+
+* [**IMPORTANT**]
+* In the above question, how many **variables** contains **two symbols**?
+
+> **4**, m = 4 which are **B, C, E and F**. 
+
+* In the above question, how many **variables** contains **Epsilon symbol**?
+
+> **5**, n= 5 which are **B,C,D,E and F**.
+
+* Now what is **mn + 7** value?
+
+> mn + 7 -> 4 * 5 + 7 -> 27.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72774116-e01c-4123-b1b0-ec2ab217be57)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ddc4d9d-35eb-44cb-b190-2b93d1b3ae10)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8a73ac8-8913-4066-a99c-cb2b0f03f776)
+
+* [**IMPORTANT**]
+
+### Follow()
 
 
 
