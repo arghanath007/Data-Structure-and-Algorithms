@@ -1,4 +1,4 @@
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5eff1507-a093-4b38-9b62-114aa658b9ff)# Compiler Design
+# Compiler Design
 
 * Link -> https://unacademy.com/course/complete-course-on-compiler-design/U5V0ZQEX
 
@@ -2159,6 +2159,39 @@ c) A grammer(G) is said to be **Ambigious grammer** if we can find **atleast one
 
 ### First()
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/588ae5ed-1430-488f-9c5b-b1d3ce4a6904)
+
+* **S** contains **3-productions**.
+* **S** is generating **3-strings(abc, def, ghi)**.
+* First(S) = a, d, g
+* It means that for every string whatever **S** will generate, in every string starting letter is taken/used.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/67eb5a2d-be2f-462c-84a2-ec7c189c33d5)
+
+* First().
+* First() of any variables is equal to?
+
+> **First of any variable** we want to find out, then first of all we have to find out that **variable will generate what strings**. In all those **string** find out what is the **starting letter**. That is the **answer**.
+
+* This is called as **First**.
+* **S** is generating **3-strings(abc, def, ghi)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c56032ad-f40c-4806-bb9b-21fbf4d96003)
+
+* **S** will generate **4-strings(abc, def, ghi, Epsilon)**.
+* Starting letter of **Epsilon** is **Epsilon** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/969a5c68-ab4e-4f97-bae7-a37b684fcea9)
+
+* **S** will generate **4-productions**.
+* **Comma(,)** means **union**.
+* First of any terminal is **itself** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b4e21a5-cda1-419d-a032-beb7734c8032)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5549866a-65f0-4d87-a061-8af9ac1141c6)
+
+* [**IMPORTANT**]
+* **First(S)** is equal to -> Whatever strings **S** is generating in all those strings starting character.
 
 
 
@@ -2190,6 +2223,36 @@ c) A grammer(G) is said to be **Ambigious grammer** if we can find **atleast one
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Misplaced Images
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/13c32075-f1fd-4277-9417-1f78dea3cf1b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5eff1507-a093-4b38-9b62-114aa658b9ff)
 
 
 
