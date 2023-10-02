@@ -2708,47 +2708,218 @@ c) A grammer(G) is said to be **Ambigious grammer** if we can find **atleast one
 
 * Rules.[**IMPORTANT**]
 
+## parsing-v (8) [2nd Oct 2023]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/26497e69-33cc-43ea-8c2d-f54bc24f1e26)
 
+* If we want to find **first()** of any variable then we have to go **left** side.
+* If we want to find **first()** of any variable then we have to go **right** side.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc0c4f69-6832-451f-8c10-bd704c266201)
 
+* Find **first() and follow()** for all variables.
+* E -> first(E) -> first(TE') -> first(T) -> first(FT') -> first(F) -> id, (.
+* T -> first(T) -> first(FT') -> first(F) -> id, (.
+* E' -> first(+TE') -> first(+) -> +, Epsilon.
+* F -> id, (.
+* T' -> first(*FT') and first(Epsilon) -> first( *) and first(Epsilon) -> *, Epsilon.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e452769-b09f-4e86-88f4-8b6e76249738)
 
+* First().
 
+* E -> $, follow(E) -> $, first( ')') -> $, )
+* T -> first(E') and first(E') -> first(+TE') and first(Epsilon) -> first(+) and first(Epsilon) -> +, Epsilon -> +, follow(E) -> +, $, ).
+* E' -> follow(Epsilon) and follow(Epsilon) -> follow(E) and follow(E') -> follow(E) -> $, )
+* F -> follow(F) -> first(T') and first(T') -> first(T') and first(T') -> *, Epsilon -> *, follow(T) -> *,+, $, ).
+* T' -> follow(T') -> first(Epsilon) and first(Epsilon) -> follow(T) and follow(T') -> follow(T) -> +, $, )
 
+* first(Epsilon) -> Next one not available, so go to parent.
+* If we want to find out **follow()** then first step is only at **start symbol** keep **$**.
+* **E** is **start symbol**.
+* **start symbol** is also a **variable**.
+* **follow()** of any variable is nothing but **first(remaining part)** immediately to the right side.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3bdc7bb-8ca8-482d-b249-55e8095d534e)
 
+* follow(E') -> Go to the right side. It is at **two places** so two things may come.
+* **E'** is at **two places** on the right hand side.
+* follow(E') is calling follow(E'). If we call ourselves then nothing will come.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/126b9ba6-74f4-4fde-8a0a-9052202b78e2)
 
+* follow(T)
+* **T** is at **two places** on the right hand side.
+* **follow** never contain **Epsilon**. [**IMPORTANT**]
+* follow(T) -> first(E') -> +, Epsilon
+* Remove the **Epsilon** and go next. As go next not possible so go to the parent which is follow(parent) which is follow(E).
+* We know that follow(E) is **$, )**.
+* follow(T) -> +, $, )
+* follow means we have to somehow remove **Epsilon**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c183909a-7e8f-4cf2-8484-316d268cbcca)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed1b531c-ea77-4980-9de5-82940a86985e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f96c38bd-88ff-454b-b17b-e3fc259da166)
 
+* follow(T') 
+* **T'** is at **two places** on the right hand side.
+* follow(T') is calling follow(T'). If we call ourselves then nothing will come.
+* It is of not use. Leave it.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2eda7329-2d08-4203-a969-411dd8b7fdb3)
 
+* follow(F) 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3a650c4-1838-45d6-936f-cc282a09371a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/29324f7a-8558-4c03-8ab1-911f22d49cde)
 
+* Follow().
+* Betwen **first and follow()** do **first()** and then do **follow()**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7349b97f-39b3-4cbf-b742-d80baf28100b)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/11bdc20d-58ff-4499-a8cf-cc0c5de8b784)
 
+* Example
+* Write first() and follow() for every variable.
 
+* **FIRST**:-
+* first(S) -> first('(L)') and first(a) -> (, a
+* first(L) -> first(SL') -> first(S) -> (, a
+* first(L') -> first(,SL') and first(Epsilon) -> first(,) and first(Epsilon) -> comma(,), Epsilon
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac13aada-8a22-4b03-9ae0-554c5520c985)
 
+* first().
 
+* **FOLLOW**:-
+* As soon as we starting doing **follow()**, one thing we should do blindly is that give **$** to the **start symbol**.
+* follow(S):- $, comma(,), follow(L), follow(L')
+* follow(S):- $, comma(,), follow(L), )
+* follow(S):- $, comma(,), )
 
+1) first(L') -> comma(,), Epsilon -> Remove Epsilon go next, next not there go to parent -> comma(,), follow(L)
+2) first(L') -> comma(,), Epsilon -> Remove Epsilon go next, next not there go to parent -> comma(,), follow(L')
 
+* We don't know **follow(L)** so we are keeping it as it is.
+* We don't know **follow(L')** so we are keeping it as it is.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65b7ecdc-73d0-48c5-93e5-c730de98ae6c)
 
+* After doing **follow(L)** below we now know that **follow(L)** is **closed bracket(')')**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef0ff9c6-19e5-4807-802c-6478ea5f265c)
 
+* After doing **follow(L')** below we now know that **follow(L')** is also **closed bracket(')')** only.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5213459-5ed7-4dc1-8039-0c33908027d7)
 
+* follow(L):- )
 
+1) first(')') -> )
 
+* follow(L'):- )
 
+1) first(Epsilon) -> Go to parent -> follow(L) -> )
+2) first(Epsilon) -> Go to parent -> follow(L') -> Calling itself only -> Nothing ignore.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/96172b46-4386-4404-ace8-d888e661ea8e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6764bf96-38f2-41fa-8548-a9661caa19ac)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ed87618-7c71-4837-9cfe-d4d6ace8e01c)
 
+* Example
+* First and Follow of every variable.
+* first(S) -> first(aBDh) -> first(a) -> a
+* first(B) -> first(cC) and first(Epsilon) -> first(c) and first(Epsilon) -> c, Epsilon
+* first(D) -> first(FE) -> first(F) -> e, Epsilon -> e, first(E) -> e,f, Epsilon.
+* first(C) -> first(bC) and first(Epsilon) -> first(b) -> b, Epsilon
+* first(F) -> first(e) and first(Epsilon) -> e, Epsilon
+* first(E) -> first(f) and first(Epsilon) -> f, Epsilon
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/afe7d7e2-142c-4cfa-8723-692e598de802)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8098dd62-e565-4a13-9203-b3297471dfcb)
+
+* first()
+
+* follow(S) -> $
+* follow(B) -> first(Dh) -> first(D) -> e,f, Epsilon -> e,f, first(h) -> e,f, h. [**D** is Epsilon, so go next(h)]
+* follow(D) -> first(h) -> h.
+* follow(C) ->  e,f,h
+
+1) follow(c) -> first(Epsilon) -> Go to parent -> follow(B) -> e,f,h
+2) follow(c) -> first(Epsilon) -> Go to parent -> follow(C) -> Calling itself -> ignore.
+
+* follow(F) -> first(E) -> f, Epsilon -> Remove epsilon, go next, not possible, Go to parent -> f, follow(D) -> f, h .
+* follow(E) -> first(Epsilon) -> Go to parent -> follow(D) -> h
+
+* On the right hand side there is **no 'S'**. So only **$** will come.
+* There is **one variable** which is not coming anywhere on the right hand side of the grammer. It is indicating that the variable will never come in **any derivation**.
+* So the **follow(above person) -> Phi**.
+* It is a useless variable.
+* **S** is the **star symbol** and minimum is **dollar**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/896a60ed-2476-474e-9698-452fd83a87f8)
+
+* Epsilon -> Null or empty string -> Language is not empty, string is empty.
+* Phi -> Empty Language -> Language itself empty, no one there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8174a5f1-4e5a-46e3-a6ff-a197de67268a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5996ff65-6542-41ce-9f52-bb38625e3da6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7da7c3b8-9f82-4385-b656-46a4a22314ef)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/10b3add2-0734-4993-923c-9ef7c2bb0028)
+
+* Example.
+
+* first(S) -> first(aSbS), first(bSaS), first(Epsilon) -> first(a), first(b), first(Epsilon) -> a, b, Epsilon
+* follow(S) -> $, a, b
+
+1) first(b) -> b
+2) first(Epsilon) -> Go to parent -> follow(S) -> Nothing
+3) first(a) -> a
+4) first(Epsilon) -> Go to parent -> follow(S) -> Nothing
+
+* **S** is at **4-places** on the right hand side.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66be9b28-2fe5-426d-b6d0-01bd134b455a)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30627417-d4f3-4db3-af5e-6dedf7ab6811)
+
+* Example
+* first(S) -> first(A), first(B) -> first(Epsilon), first(Epsilon) -> Cancel Epsilon and go next -> a, b
+* first(A) -> first(Epsilon) -> Epsilon
+* first(B) -> first(Epsilon) -> Epsilon
+
+* follow(S) -> $
+* follow(A) -> first(a), first(b) -> a, b
+* follow(B) -> first(b), first(a) -> b, a
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5236153b-7027-4c5d-b245-f4dc71a8e4bd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85bfe020-5b6e-42a5-98b0-5ef48ddeb1e6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/78265298-1e85-4de2-922f-c5e71d64dd78)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e73125d-94a2-4e0c-b627-8c7d96d6d565)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/464b5661-d52d-4625-8896-d067d26fcf6b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a02ea06-beb8-4d6c-a322-ffd6c65bbf0c)
+
+* Yes
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9fd9eb04-4eee-474f-8482-3453e979f7bd)
+
+* [**IMPORTANT**]
+
+## LL(1) Parsing table Construction Algorithm
 
 
 
