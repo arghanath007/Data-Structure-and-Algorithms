@@ -2144,6 +2144,28 @@ c) A grammer(G) is said to be **Ambigious grammer** if we can find **atleast one
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/569dca3c-ab81-477b-a6e4-6de333ff9418)
 
+## parsing-iv (7) [2nd Oct 2023]
+
+## LL(1) Parser
+
+* This is without backtracking.
+* In LL(1) Parser no backtracking because we are using LL(1) Parsing table to select the correct production.
+* To **construct LL(1) Parsing table** we need two functions:-
+
+1) First()
+2) Follow()
+
+### LL(1) Parsing Table
+
+### First()
+
+
+
+
+
+
+
+
 
 
 
