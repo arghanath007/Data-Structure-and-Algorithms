@@ -1,4 +1,4 @@
-# Compiler Design
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c6bf9c49-01a8-4407-bf0f-92c01cd177a4)# Compiler Design
 
 * Link -> https://unacademy.com/course/complete-course-on-compiler-design/U5V0ZQEX
 
@@ -2919,24 +2919,325 @@ c) A grammer(G) is said to be **Ambigious grammer** if we can find **atleast one
 
 * [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/936e8d98-967b-44b4-af06-6b5b0c5acf18)
+
 ## LL(1) Parsing table Construction Algorithm
 
+* LL(1) parser is without backtracking.
+* From now onwards if we want to construct a **tree** don't take any production blindly. See the table.
 
+* **ALGO**;-
+* For each production A -> Alpha, repeat following steps.
 
+1) Add A -> Alpha under m[A,d] where for all **d** belongs to first(alpha).
+2) If first(Alpha) contain Epsilon then add A -> alpha under m[A, e] for all e belongs to follow(A).
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a4b77f45-6ffb-4f1f-baf2-8264288ef751)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8d05cf1-2cee-40c4-9899-398d08f505ed)
 
+* LL(1) Parsing table Construction is nothing but finding **first() and follow()**.
+* First step is saying **first()** and second is saying **follow()**.
+* Construct **LL(1) parsing** table for the following grammer.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/04e967da-db0e-4158-9fe7-70ee25b6eeeb)
 
+* Grammer.
+* We have **5-variables(E, E', T, T', F)**.
+* Table means rows and columns.
+* 5-variables are there means that **5-rows** are there.
+* Terminals -> +,*, (, ), id. So **5-terminals**.
+* **5-columns** are there plus one more extra that is for **$**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e34dc6d2-f5c5-49fa-b216-ffeb8e5a5d58)
 
+* Every entry in the table is **production**.
+* **E'** row contain **S' production** only.
+* If the parser is at **E** then we have to take **'E' productions** only.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0d6e894-49f4-4a9a-9d2f-2b02d901eb68)
 
+* **F -> (E)** production should go where in the table?
+* It belongs to **F** variable so go to **'F' row**. In the **'F' row** ok but to which column?
+* In the **'F' row** and to which column we want to know then the production we have what is the first symbol? It is **open bracket('(')**.
+* If it will generate at all open bracket how can we take it as **star(*)**.
+* We are at **F** and in the input **open bracket** is coming then we will take **8th one**.
+* We are at **F** and in the input **id** is coming then we will take **7th one**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/623fb256-8a69-4369-bce7-fa9df40bd95b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/42ccded0-10fd-4cb7-9bf1-cae5a6ee75b1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/729c0f32-f8b4-4037-8adc-2bd5ef07a72f)
 
+* The production is asking where should it go?
+* It belongs to **E'** variable. So it should go to **E'** row.
+* No change in **row**.
+* In that row which column?
+* We will decide the **column** by seeing the **first symbol** only which is using **first()**.
+* first(+TE') -> +
+* On **E'** row and on the **+** column we should write **E' -> +TE'**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f648aa9-40b1-4bd8-b644-76649c21f9bd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5954178f-ef13-4396-a842-f26f03e14777)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e7a683b3-0d99-415b-8185-c58fa4b9b2c7)
 
+* 5th production belongs to, **T' -> *FT'**.
+* Row is **T'** and the column is **star(*)** as the **first symbol** is **star(*)** only.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/68e1719b-f6a1-4cad-af76-975858dcfc0b)
 
+* At the end of the whole story we are expencting **productions** within the table.
+* We may have written the **numbers** in the table but actually the **productions** are there within the table.
+* At the end **every production** should go inside the table.
+* Beauty of the table is that if we go to any entry there will be **only one production** there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/90115578-5f2d-45b1-b488-c09bbb41ae39)
+
+* 7th production is **F-> id**
+* Row is **F** and the first symbol is **id** so the column is **id**.
+* We have to see **first symbol** and then accordingly we have to take **action**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b7c0d709-c41e-4641-9249-7ca7b4637b6a)
+
+* 1st production is **E -> TE'**.
+* Row is **E** and the first symbol is **first(T) -> first(F) -> id, (**. So the column is **id, (**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b1313363-69cd-4027-8f0b-3fcfa85f5a3d)
+
+* 4th production is **T -> FT'**.
+* Row is **T** and the first symbol is **first(T) -> first(F) -> id, (**. So the column is **id, (**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b0455c6-a2e6-423b-beb1-05d4421d4832)
+
+* What is **first(Epsilon)**?
+
+> Epsilon
+
+* **Follow()** uses **first()**.
+* **first(Teminal)** -> Terminal.
+* **first(Epsilon)** -> Epsilon.
+* **first(abc)** -> a.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33424b6a-c1aa-448e-a9ac-2f2cd1f1e197)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea4150fb-cc27-45c5-b1a9-936b8e50236f)
+
+* This is the production.
+* A -> Alpha [Production]
+* Row -> A
+* Column -> first(Alpha).
+* m [A, first(Alpha)]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/40a57c98-d287-46d6-9c21-f61427c22f44)
+
+* There is **no Epsilon** column in the table.
+* **Epsilon** column is not there.
+* The compensation for **Epsilon** came means that as **Epsilon** came so go further and further is not there, so go for **follow(A)** which is **follow(parent)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0dac24c3-13d2-4489-a6ab-19dd894861c0)
+
+* When we will go to **second step**?
+
+> Epsilon is there but Epsilon column is not there.
+
+* If we do **first(alpha)** and **Epsilon** not coming then do **first step**.
+* If we do **first(alpha)** and **Epsilon** coming then remove the **Epsilon** and do **follow(parent)**. This is the **second step** saying.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ca58088-c8d6-46ae-a22c-f8ffb4b86706)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe0138d6-3fbe-4ea8-9241-e31e666e8cac)
+
+* 3rd production is **E' -> Epsilon**.
+* Row is **E'**, first symbol is **first(Epsilon)** and we are getting **Epsilon**. We do not have **Epsilon** column. Do the compensation which is **follow(parent) -> follow(E')**.
+* We have **E** at two places on the right hand side.
+
+1) follow(E') -> first(Epsilon) -> Go further but further not there, Go to parent -> follow(E) -> $, ) [**E** is the start symbol so **$**]
+2) follow(E') -> first(Epsilon) -> Go further but further not there, Go to parent -> follow(E') -> Calling itself -> Nothing
+
+* Row is **E'**,
+* Column is **$, )**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a57203fb-b869-43a1-a0f5-76a69ddc1fc5)
+
+* 6th production is **T' -> Epsilon**.
+* Row is **T'**.
+* First symbol is **first(Epsilon)** and we are getting **Epsilon**. We do not have **Epsilon** column. Do the compensation which is **follow(parent) -> follow(T')**.
+
+1) follow(T') -> first(Epsilon) -> Go further but further not there, Go to parent -> follow(T) -> first(E') -> +, Epsilon -> 
+2) follow(T') -> first(Epsilon) -> Go further but further not there, Go to parent -> follow(T') -> $, +, ) [We found this out previously]
+
+* Row is **T'**.
+* Column is **+**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/56f50f2e-2f27-4126-95a2-0a4f634feba4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6442f686-e665-47d5-8084-e63b3e60046d)
+
+* [**IMPORTANT**]
+* Grammer given what is the table size?
+
+> How many variables those many **rows**. How many terminals those plus '1' columns.
+
+* Variable Count = Rows
+* Terminals + 1 = Columns.
+* Now multiply.
+* Without the table backtracking is required.
+* With the table backtracking is not required.
+* In the grammer directly there is **no ambiguity**.
+* We are at **T'** and it is having 2-productions. We are in dilemma which one to take.
+* If we see **directly** confusion is there. In **T'** we don't know which one to take.
+* Without seeing the table if we do then it is **recursive descent parser**.
+* If we see the table and do then it is **LL(1) parser**.
+* Whatever problem we had in **grammer** we thought the **LL(1) parser** would solve and we created **LL(1) parsing table**. After construction of the table we got to know that inside the **table** also there are **problems**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6e92dd2c-eef0-42c5-970c-b71d0f332f9e)
+
+* Indirectly the **LL(1)** parser is saying that it tried will all of it's capabilities but still we are getting **confusion** means that the **given grammer** cannot be handled by **LL(1) parser**.
+* So the given grammer is not **LL(1)**.
+
+* Question:-
+* Check if the given grammer is **LL(1)** or not.
+
+> Just complete the table and in the table every entry contain maximum of **1-production**.
+
+* If somewhere multiple came then it is a **problem**.
+* Conflict there means **multiple people**.
+* So it is not **LL(1)**.
+* For the given grammer if we construct **LL(1) pharsing table** then can we give gurantee that everytime **no conflict**. We cannot say that.
+* For some grammer we do not get the **multiple values**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/644d71ac-290a-4d81-9416-b5d1a7c9eb52)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7bf8c4eb-1168-44eb-8aeb-786455f186ef)
+
+* Construct **LL(1) parsing table** for the following grammer. [Next question]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05e414f1-e284-45e6-b3b9-e92cd4de8bd3)
+
+* Grammer.
+* How many columns?
+
+> **5** columns as there are **5-terminals** which are **a, comma(,), $, (,)**. [**IMPORTANT**]
+
+* How many rows?
+
+> Variables -> Rows. Variables -> S, L, L'. So **3** variables means **3-rows**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1201d067-3cb6-4909-87c9-8e9ad45b700c)
+
+* Row -> alpha1
+* Column -> a,b,c,d. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/441aa9a2-d370-4c71-b638-ae8b7ce2c5ec)
+
+* If **Epsilon** came then remove **Epsilon** and go further, further not there. Go to **parent** which is **follow(parent)** which is **follow(alpha1)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e34450d5-5c6f-4701-8141-518e4d7ec29f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/29b60ecf-4c35-4359-834f-4d436e76babb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ccb8af8-ad36-43b9-9bea-8b41e2263741)
+
+* Question:-
+* Fill **x,y and z** in the table.
+
+> Don't do the complete column in the exam. Do the necessary things. Focus on the needed thinks.
+
+* 4th production is **L' -> ,SL'**.
+* Row is **L'**
+* First symbol is first(,SL')-> first(,) -> ,
+* Row is **L'** and column is **,**.
+* first(Epsilon) comes then only do **follow()**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/831c0bc3-8b56-4660-9dee-bb058f885aa7)
+
+* 2nd production is **S -> a**
+* first(a) -> a
+* Row is **S** and column is **a**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd15ed10-7ddb-4734-940a-0f1c2c521007)
+
+* 1st production is **S -> (L)**.
+* first( (L) ) -> first( ( ) -> (.
+* Row is **S** and column is **(**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/536c3765-69bd-4c3e-b6b9-9abda61c228c)
+
+* 3rd production is **L -> SL'**
+* first(SL') -> first(S) -> first( (L) ), first(a) -> (, a
+* Row is **L** and column is **(, a**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab3727ce-47ef-4297-b934-aad0267853d8)
+
+* 5th production is **L' -> Epsilon**.
+
+1) first(Epsilon) -> go further, further not there, go to parent -> follow(L') -> first(Epsilon) -> Calling itself, Nothing
+2) first(Epsilon) -> go further, further not there, go to parent -> follow(L) -> )
+
+* Row is **L'** and column is **)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5df448a9-22b2-49a5-978a-658114480c9b)
+
+* In the table nowhere there is **multiple productions** at any entry.
+* Given grammer is **LL(1) grammer**.
+* In the above **LL(1) parsing table** no entry contain **multiple productions**. So the given grammer is ***LL(1) grammer**. [NOTE]
+* With the **table** there is **no dilemma**.
+* If we see the **grammer** there is **dilemma**.
+* According to the **above grammer** we do not find the **'L' row and ')' column** as the combination in the table. We got empty space means that the string we are trying for that does not belong to the **above grammer**.
+* That is the reason why **table** is saying **it doesn't know**.
+* Table construction is done.
+* How many blank spaces are there in the table?
+
+> **9** blank spaces. They are nothing but **error entries**.
+
+* Blank entries means **error entries**.
+* The error is called as **parsing error**.
+* The particular grammer is saying that in it's grammer this strings will not come.
+* This is called as **parsing error**.
+* In the **LL(1)** parsing table no. of error entries is equal to no. of blank entries. [NOTE]
+* **parsing error** -> Syntax error.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/94c0852e-8ee9-4941-8074-a7331e626f8c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/913757a6-0cb6-471f-adc1-44133f7c6744)
+
+* Example.
+* What is the problem/difficulty with the above grammer?
+
+> When for a variable we have multiple choices/productions. Dilemma comes.
+
+* If we draw a table then also the problems may not be there.
+* Problems will mostly come if multiple choices/productions are there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5f7660ed-7c92-42d6-b097-57e34e451103)
+
+* 4-variables(B,C,F,E) will cause trouble if we use the grammer directly. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27701cc4-d192-4c50-8ab4-972d91a60b1b)
+
+* Check if the given grammer is **LL(1) or not**?
+
+> Who can trouble me? Only those **4-rows** can cause trouble. So only draw those **4-rows** because anyhow other people no trouble.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a39a064f-dae7-475e-b556-caf18cce807d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6cd47486-57b8-4dc6-a4ff-35777abc0e9d)
+
+* There are totaly **10-productions**.
+* **S and D** have only **1-production**.
+* Every column **1** is there in **S** row.
+* Every column **6** is there in **D** row.
+* To get the conflict minimum of **2-productions** required.
+* If **variable** have more than **1-production** then only we will have **dilemma**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4531add4-9c3d-4c9e-8549-04dcbebb2b18)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/00834e5b-b5bc-4630-9778-a3836fb7fd22)
+
+* We want to check if the grammer is **LL(1) grammer** or not. We have to try the **variables(B,C, F, E)** which are causing **problems**.
+* **S and D** no need to check also if **directly** no problem then if we do how problem will come.
+* If we are **lucky**, we draw the table then the **problems** may are gone.
+* If we are **unlucky** then **problem** maybe there.
+* If we draw the table, **problem** may not be there.
+* Don't construct **row** for every person. Necessary people we should **construct**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4627bef6-5e5b-4b0b-9b90-5708cce0512e)
+
+* No no problem then **not draw**.
+* Don't construct every row.
+* The rows having problem construct them.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c9511ce-8ac0-4b63-a045-db06c4758b40)
 
 
 
