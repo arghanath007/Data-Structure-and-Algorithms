@@ -13,8 +13,9 @@
 
 ## Practice Class
 
-1) -> https://unacademy.com/class/toc-practice-class-1/XCUW1FGE
-2) -> https://unacademy.com/class/toc-practice-class-2/G37UT7VH
+1) Class-1 -> https://unacademy.com/class/toc-practice-class-1/XCUW1FGE
+2) Class-2 -> https://unacademy.com/class/toc-practice-class-2/G37UT7VH
+3) Closure properties of TOC -> https://unacademy.com/course/closure-properties-of-toc/2C43VH3C
 
 ## introduction-to-theory-of-computation (1) [3rd Sept 2023]
 
