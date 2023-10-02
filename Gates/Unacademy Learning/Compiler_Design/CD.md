@@ -2460,6 +2460,257 @@ c) A grammer(G) is said to be **Ambigious grammer** if we can find **atleast one
 
 ### Follow()
 
+* Follow() internally contain **first()**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/03e3b445-c646-4e1d-8421-16c2beac2f98)
+
+* 7-productions and 7-variables.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76f4bdd2-bd50-4ce0-8e5b-d93626667af7)
+
+* Read the leaf nodes from left to right.
+* string is **defbc**.
+* First symbol is **d**.
+* After **f**, **b** is there.
+* They maybe in **different levels** but who cares.
+* d -> e -> f -> b -> c
+* We can say that **S** is over when all the childrens are over.
+* When we say **c** is over, after **c**, **S** is over.
+* **S** over means who is after **S**, **dollar($)** is there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/94cf4a8d-c2bb-4701-9fb0-5c55283f7926)
+
+* String is now **defbc$**.
+* After **c**, **dollar($)** is there.
+* How can we say **string** is over?
+
+> Dollar($) will come.
+
+* **c** over means **S** is over because afterwards **no one** is there.
+* **S** is over means string is over.
+* String is over means next one is **dollar($)**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/17caf45c-34ff-4d2e-9e21-b76a8fa76ceb)
+
+* After **f**, next symbol is **b**.
+* Sometimews we don't follow this rule and it will create problem.
+* After **b**, next symbol is **c**.
+* After **c**, next symbol is **dollar($)**.
+* **Next symbol** is called as **follow()**. [**IMPORTANT**]
+* Follow(D) -> After **D** immediately whatever is there and we want the starting symbol.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7714800-d9c3-435a-af8b-c9e5cae35403)
+
+* Follow(D) -> first(EF) -> first(E) -> e 
+* Follow(D) means whatever it's neighbouts will generate, in that we want the starting symbol/character.
+* Follow(D) means immediately right hand side. Whatever will come in that starting symbol/character.
+* We want **terminal** of **neighbours**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6829aa5e-6619-4f66-8398-8c3889d2456f)
+
+* string from left to right is **defbc$**.
+* Follow(F) -> Follow(A) -> First(BC) -> First(B) -> b.
+* After **F** nothing is there.
+* **Follows** means immediately next person but next is not there for **F**. After **F** no one there.
+* After **D**, next person is **E**.
+* After **E**, next person is **F**.
+* After **F** no one there.
+* Unfortunately no one there. If no one is there indication that after **F** no one, indicating that **parent is over**.
+* Parent of **F** is **A** which means **A** is over.
+* So for **follow(F)**, immediately to the right of **F** no one there which means **parent(A) is over**. So **follow(F)** is now **follow(A)** as **parent(A)** is over.
+* After **F** no one means **parent is over**.
+* After **F** no one means production is over which means **parent is over**.
+* It means **after parent(A)** who is there?
+* We have to find that.
+* After **A** we have **BC**.
+* Follow(F) -> Follow(A) -> First(BC) -> First(B) -> b.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ad945516-66f3-473a-bf77-e5e04d51633a)
+
+* This is why sir said after **F** next symbol is **B** because of the above reason. For **Follow(F)** we got **b**.
+* This is the **reason**.
+* After **e**, next symbol is **f**.
+* After **f**, next symbol is **b**.
+* For these reason only for **Follow(F)** we got **b**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/117ce2cb-2408-4f35-b63b-004e6adcba13)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/752ab4fd-7f64-4343-b1f8-10c4a3d8664e)
+
+* [**IMPORTANT**]
+* After **F** no one means **A-production** is over. After **parent(A)** we have to find **next**.
+* **F's follow** is **equal to** parent's follow because after **F** there is no one means the production is over, the **parent(A)** is over. After **parent(A)** who will come. Indication or meaning, one level we are going **up** as the **current level** is over.
+* Follow(C) -> Follow(S) -> First($) -> $. [$ -> Terminal]
+* After **C** no one is there which means that **level** is over. We have to go to the parent of **C** which is **S**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/70649676-90f4-44da-91d9-1e9bfb133c02)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/39709713-79b8-442b-a6e3-ceebfe9414f8)
+
+* [**IMPORTANT**]
+* In exam see the **grammer** it is **enough**.
+* For meaning we have drawn the **tree/diagram**.
+* After **c** next person is **dollar($)**.
+* After **c** physically there is no one but after **c** logically there is **dollar($)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/90ee61b0-7579-4825-94d2-24bd25a8435e)
+
+* Example.
+* Leaf nodes from left to right -> abcde$.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a13b9b9-2a8b-44ea-9c8f-2bd569fd4516)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c38a985e-5c1b-4bb3-9777-82eece3bb92b)
+
+* Leaf nodes from left to right -> ace$.
+* So after **a**, **c** is there **not Epsilon**.
+* Physically looks like **Epsilon** is there but **c** is there logically.
+* After **c**, next symbol is **e**.
+* After **e**, next symbol is **$**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/47df6777-45f4-4edf-a6e0-055fb072f651)
+
+* As **first(A) -> Epsilon** we have to remove **Epsilon** and go further to **B** which is **first(BC)**.
+* Same thing we have to do in the **above example** as well.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be58bbaa-32d7-44b6-a9ed-18091d4e0870)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc2b421e-d8da-4773-bd1d-b1f64c18c8a6)
+
+* After **a** only **c** is there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/928d6e3b-64a9-4459-ab75-dc64ad0e9349)
+
+* Follow(F) -> follow(A)
+* No one is there after **F** which means the production is over, the level is over. We have to go to **parent(A)**. So we will do **follow(A)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd892478-e855-4419-b692-afad913f30a7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/260b5ca7-310f-494e-94e9-02d020dcaba2)
+
+* After **c** next symbol is **e**.
+* Follow() [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c8607b70-2c2e-4307-9121-c4c038ad951e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e04879b5-1eec-41d3-b420-10b25a976728)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/87cead80-87b8-41bb-b12c-500ad3256682)
+
+* string is **abcde$**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/01cbb527-ec3e-4417-9dd0-780b59696fa1)
+
+* string is **$**.
+* Directly **$** came.
+* Directly end marker came which is **$** meaning/means string is **Epsilon**.
+* Starting itself end marker($) came so string is going to be **Epsilon**.
+* Epsilon * $ -> $.
+* Everything is **Epsilon**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/61539b65-537e-4327-838d-49d4f4729482)
+
+* Follow(D) -> Fi($) -> $.
+* Second also **Epsilon** came so go further but further not there means contact parent. Parent of **F** is **A**. So it is **follow(A)** which is the **parent**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf7de762-ef66-4b71-b272-a5dfba98b4b5)
+
+* Second also **Epsilon** came so go further but further not there means contact parent. Parent of **C** is **S**. So it is **follow(S)** which is the **parent**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22b286b1-ff22-443a-a171-c6b3ba42cba4)
+
+* So **Follow(D)** is **$** because only one thing is there.
+* String of the above tree is **$** only.
+* Next symbol is **$** only, we don't have anything other than **$**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0c7ed97-4ff5-4963-9ae7-b6a9aa66ce3f)
+
+* [**IMPORTANT**]
+* In the current level we cannot solve so go to **parent** maybe **parent** can solve it.
+* Follow means **next one**. If **next one** is not there then **parent's next one**. If **parent's next one** also not there then **it's parent's next one**. Like that we have to go.
+* If **next one** is **Epsilon** then cancel **Epsilon** and go to **next one**. **Next one** is also **Epsilon** then cancel that one and go **next**. **Next** not there then go to **parent**. Lastly there is the **Dollar($)**.
+
+* **NOTE**:-
+* Follow() of any variable we take, it never contain any **Epsilon**. [NOTE] [**IMPORTANT**]
+* Follow() of any person never contain any **Epsilon**. NOTE] [**IMPORTANT**]
+* **Worst Case** is we will get **dollar($)**.
+* **Worst Case** end marker which is the **dollar($)** will come.
+* If nothing there then atleast **dollar($)** there.
+
+* **Next** is **Epsilon** that is **not possible**. [**IMPORTANT**]
+* If **next** is **Epsilon** then don't write **Epsilon** take **parent here**. [**IMPORTANT**]
+* We cannot say **next** is **no one**. [**IMPORTANT**]
+* If **next** is **no one** then we can take **parent here**. [**IMPORTANT**]
+ 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35f69999-5297-46f1-8a5c-0f52c5f7affc)
+
+* **NOTE**].
+* **First** of **some variable** then **Epsilon** is possible. [**IMPORTANT**]
+* **Follow** of **some variable** never contain **Epsilon**. [**IMPORTANT**]
+
+> What we are generating, sometimes we will generate **Epsilon**. We cannot say **our neighbour** is not generating anything. We cannot say that. **Neighbour** is not generating anything means **go to parent**.
+
+* This is how **follow()** is maintained.
+* **Follow()** purpose is **next symbol**. Don't say **next symbol** not there.
+* If **next symbol** really not there then **$** will come. Atleast end marker($) will come.
+* We cannot say that end marker($) is not there.
+* String is over means next symbol is **$**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41f7f658-6d05-473b-8655-3b1b05ddbaad)
+
+* Follow(D) -> $
+* Follow(E) -> $
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/54540bca-7c40-40f5-b73b-8ccb2eb0ae9d)
+
+* Worst case **$** will come.
+
+* **RULES TO FIND FOLLOW()**:-
+
+* Assume **A** is variable
+
+1) If **A** is start symbol then what is **Follow(A)**? [Minimum]
+
+> **$**.
+
+* Follow(Start Symbol) -> Follow(S) -> Follow($) -> $.
+* Follow of **Start Symbol** is **$**.
+* Follow of **Start Symbol** minimum is **$**.
+* **$** plus something may come.
+
+2) B -> CDAEF
+
+* Follow(A) -> First(EF).
+
+* If we want to find **follow()** of any person then **arrow symbol** see **right side** where is that person.
+* In the production we will see **right side** for **follow()**.
+* If we want to find out **first()** then **arrow symbol** see **left side** where is that person.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/46a7ca66-2135-471e-9603-eb4d14150cb8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50ac3987-db53-40a9-be88-2d65f9270d5b)
+
+* [**IMPORTANT**]
+* For follow(A) if at all the production is like **above** then **follow(A)** is **first(EF)**.
+* If **A** is **start symbol** then **$** also will come.
+* If not **start symbol** then normal story.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7e44893-8fb8-44e7-9378-5190d26ca338)
+
+3) B -> CDA (OR) B -> CDAE, E -> Epsilon.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/68bb6045-9381-47bd-8dca-252f44e0089b)
+
+* In the production **B -> CDA** after **A** no one is there. If after **A** no one is there then **follow(A)** is **follow(B)**. It means that there is no one at **A** so **A** is going to it's **parent(B)**.
+* follow(A) -> follow(parent of A) -> follow(B).
+* In the production **B -> CDAE** after **A** next symbol is **E** which is **Epsilon**.
+* After **A** no one physically is **equal to** after **A** someone who is **Epsilon**.
+* They are **same** meaning only.
+* The two productions are **same**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be9910a5-9b90-45e2-b2f2-fcc57aac9a65)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc6f8455-e8f5-4d4b-9dd6-e6094f472908)
+
+* Rules.[**IMPORTANT**]
+
+
+
+
 
 
 
