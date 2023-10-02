@@ -2193,6 +2193,22 @@ c) A grammer(G) is said to be **Ambigious grammer** if we can find **atleast one
 * [**IMPORTANT**]
 * **First(S)** is equal to -> Whatever strings **S** is generating in all those strings starting character.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c4d1c3d5-0d43-4cd6-ba5d-04c2808e6084)
+
+* Example
+* Minimal String -> a.
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2253,15 +2269,3 @@ c) A grammer(G) is said to be **Ambigious grammer** if we can find **atleast one
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/13c32075-f1fd-4277-9417-1f78dea3cf1b)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5eff1507-a093-4b38-9b62-114aa658b9ff)
-
-
-
-
-
-
-
-
-
-
-
-
