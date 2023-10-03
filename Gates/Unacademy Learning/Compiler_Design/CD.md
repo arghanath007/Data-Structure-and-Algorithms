@@ -3854,30 +3854,116 @@ c) A grammer(G) is said to be **Ambigious grammer** if we can find **atleast one
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2107e5f3-f67b-40da-900e-8a7b99b7b339)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4fb59902-e1bc-47d7-a5ca-8e0216cea523)
 
-## LR Pharsing Algo.
+## parsing-vii (10) [3rd Oct 2023]
 
+## LR Parsing Algo.
 
+* CLR1 another name is LR1.
+* Top down parser superior is LL1.
+* Bottom up parser superior is CRL1 which is LR1.
+* Top down parser topmost LL1.
+* Bottom up parser topmost is LR1.
+* Top most things we have to compare.
+* Between LL1 and LR1, **LR1** is the superior.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27181a3e-4441-4dbd-b9c1-cad4f5e3023e)
 
+* TOS -> Top of the stack.
+* Assume x -> state number on Top of the stack(TOS), a -> look ahead symbol
+* Parser uses **PDA**.
+* LA uses DFA.
+* PDA -> DFA + 1-stack.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c9903af-18e1-412d-a156-654e5e7c9d26)
 
+1) If action[x,a] - Si then shift **a** and **i** and increment input pointer.
 
+* LR parses uses **table** and the name of the table is **action**.
+* Row -> S
 
+2) If action[x, a] = rj and jth production is **alpha -> Beta** then pop **2 * mod(Beta) symbols and replace by alpha. If sm is the state below alpha then push goto[Sm, alpha]
+3) If action[x,a] = blank then PE(Parsing Error)
 
+* blank -> gap.
 
+4) If action[x,a] = acc then SCP(Success completion of parsing).
 
+* acc -> Accepted.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0e7e7a9-1da6-429d-869b-af74b813b4d6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e8797cc-a7dc-4bf8-83b5-140f78145230)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86ecf369-58ce-473d-a6b9-b10d68144fca)
 
+* Example
+* How to generate that string from the given grammer using bottom up.
+* If we do directly then it is production.
+* If we do **reverse** then it is reduction.
+* Right side replaced by left side is **reduction**. It is also called as **compression**.
+* Left to right is **expansion**.
+* Handles -> Which substring we are replacing to finally get to the start symbol.
+* Bottom up parser will start from string and proceed to start symbol.
+* Production used in the reverse order is **reduction**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e6cf70d5-e646-4e8e-bb73-4689eb41f226)
 
+* 5-productions we are using. 5-reductions we have done.
+* We used the productions in the reverse order so it is  bottom up.
+* 1st reduction we have done is **b -> A**.
+* b -> A -> 1st reduction
+* aA -> A -> 2nd reduction
+* aA -> A -> 3rd reduction
+* b -> A -> 4th reduction
+* AA -> S -> 5th reduction
 
+* New grammer and new string, it is difficult with the bottom up parser. The difficulty is we don't know which is the first reduction and all.
+* Read from the bottom as it is **bottom up** and read the right side people(b, aA, AA). They are called as **handles**.
+* Identifying handles is very difficult.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/489f65df-c26e-4566-ba7d-8158e3c38899)
 
+* We have done this manually.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/533a32c3-ac93-4b91-bd29-cc5d964edf81)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9f26b4b-aa26-49f6-8b57-d694c27c9057)
 
+* Look Ahead symbol is **a** now.
+* What is **x**?
 
+> **x** is the state number on top of the stack.
 
+* Initial state is **zero(0)**.
+* Initially the automata is in the **zeroth(0)** state.
+* Zero(0) is the state number which is at the top of the stack initially.
+* Top of the stack is **AA** there. **A&& production come and loose.
+* Top of the stack is **AA** and **AA** productions can reduce now.
+* **shift** means handle not possible **wait**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a47a4490-b153-45f2-952a-2b30f4ad67b6)
+
+* Phi(Q) means two **A's(capital a's)** are over.
+* Top of the stack **5** indicate that **AA** is over.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a872399b-c612-4eda-923f-05bd82b39328)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d665513-aaa4-4d56-948a-0fe57fe84337)
+
+* 4 symbols are popped and replaced by **S**.
+* What is **0S**?
+
+> 1. [From the table]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1102d951-e915-464f-9ae2-9248f7006b6a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6b20706-0a8f-4169-8e83-b3c24d9fef81)
+
+* We have to **push** one.
+* **1** indicates that **S** is over.
+* **S** over means total tree came. So **$** should come.
+* Top of the stack is **1**, look ahead symbol is **$**.
+* **$** means we will see **action** part.
+* We have to check **action** part of **1$**. It is **acc**.
+* Finally it is **acc**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd428be3-62b8-44b7-a01f-f63009d242df)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/544dca48-9ce2-4906-9081-fd9373af3e9f)
 
 
 
