@@ -3242,32 +3242,87 @@ c) A grammer(G) is said to be **Ambigious grammer** if we can find **atleast one
 ## parsing-vi (9) [3rd Oct 2023]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c40fd4d-af73-4ba8-81c7-43517ba93782)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72771e80-fcaf-435b-ba76-d68d7f1e3420)
 
+* Rows -> 6
+* If they ask verify if the grammer is **LL(1) grammer** or not?
 
+> We will draw only **4-rows(B,C,F,E)** as they are the ones causing problems not the rest. So, No need to draw them. 
 
+* If a variable contains **1-productions** then there is **no problem**.
+* Write/draw only those variables which have **multiple or more than 1-production**.
+* We have to write **4-rows** and no change in **columns**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ccbfa4b3-b82c-4fbe-a3c3-f1c452d58c77)
 
+* As we are checing **LL(1) grammer** or not. So we don't want **S and D** rows. They are not causing any problems as they have **1-production** only.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa0adc79-0f04-41e5-99aa-d3ef535569ff)
 
+* **1st and 6th production** are not required. We don't need to think about them. 
+* 9th production is **E -> f**
+* Row -> E
+* Column -> first(f) -> f
+* **9** means 9th production.
 
+* 7th production is **F -> e**
+* Row -> F
+* Column -> first(e) -> e
 
+* 2nd production is **B -> cC**
+* Row -> B
+* Column -> first(cC) -> c
 
+* 4th production is **C -> bC**
+* Row -> C
+* Column -> first(bC) -> b
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a0fd923-ed6a-4d2a-bfa3-ca8bd5c90bce)
 
+* 3rd production is **B -> Epsilon**
+* Row -> B
+* Column -> first(Epsilon) -> go further, further not there, go to parent -> follow(B) -> first(D) -> first(FE) -> first(F) -> first(e), first(Epsilon) -> e, Epsilon -> go to parent -> follow(F) -> first(E) -> first(f), first(Epsilon) ->e,f, first(Epsilon) -> go to parent -> e,f,follow(E) -> e,f,first(Epsilon) -> go to parent -> e,f,follow(D) -> first(h) -> e,f,h.
+* Column -> e,f,h.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c4848c57-f747-4b56-8613-2de607773fb5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91c6f64a-a1dc-4500-8b3e-4fc153d03274)
 
+* 5th production is **C -> Epsilon**
+* Row -> C
+* Column -> first(Epsilon) -> go to parent -> follow(C) -> e,f,h.
 
+1) follow(C) -> first(Epsilon) -> go to parent -> follow(B) -> first(Dh) -> first(D) -> first(FE) -> first(F) -> first(e), first(Epsilon) -> e,Epsilon -> go to parent -> e, first(E) -> e,f, Epsilon -> go to parent -> e,f, first(h) -> e,f,h.
+2) follow(C) -> Calling itself ignore.
 
+* 8th production is **F -> Epsilon**
+* Row -> F
+* Column -> first(Epsilon) -> go to parent -> follow(F) -> first(E) -> first(f), first(Epsilon) -> f, Epsilon -> go to parent -> follow(E) -> f, Epsilon ->f, follow(D) -> f, first(h) -> f,h
+* Column -> f,h
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/955e7e30-ec8d-45bc-afa7-fc16ccb35ec3)
 
+* 10th production is **E -> Epsilon**
+* Row -> E
+* Column -> first(Epsilon) -> go to parent -> follow(E) -> first(Epsilon) -> go to parent -> follow(D) -> first(h) -> h.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac3dbaa1-c4ce-4d73-8ba4-fb1497ff7407)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9218ff05-b280-4a1c-b7af-0c0b7af7e78d)
 
+* Question:-
+* For the grammer if we construct **LL(1) parsing table** then How many error entries?
 
+> We cannot do any shortcut. We have to draw the **whole table** then only we will see the no. of blank spaces.
 
+* The above one is **LL(1) grammer**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af5c22b6-d342-42b4-96ca-dc420addbf3d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eaada76b-0cc1-4604-9d70-1732217481c7)
 
+* Total Error Entries. 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/59a437dd-48ce-4092-9bf8-9deb8ced432a)
 
+* Example.
 
 
 
