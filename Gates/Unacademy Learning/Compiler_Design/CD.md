@@ -3541,64 +3541,320 @@ c) A grammer(G) is said to be **Ambigious grammer** if we can find **atleast one
 
 * Examples.
 
+* Example 1:-
+* 2nd production **A -> c**
+* Row -> A
+* Column ->first(c) ->c
+
+* 3rd production **A -> Epsilon**
+* Row -> A
+* Column -> first(Epsilon) -> go further, not there, go to parent -> follow(A) -> first(B) -> d, first(Epsilon) -> go further, not there, go to parent -> follow(B) -> first(b) -> d, b.
+
+* 4th production **B -> d**
+* Row -> B
+* Column -> first(d) -> d
+
+* 5th production **B -> Epsilon**
+* Row -> B
+* Column -> first(Epsilon) -> go further, not there, go to parent -> follow(B) -> first(b) -> b
+* Don't have to check **1st production** because it has only **1-production**.
+* **LL(1) grammer** is satisfied
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9c4eddcc-a564-4e00-899f-8087493551a4)
+
+* Do the **shortcut** method:-
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/294e1d87-fddb-48b0-a3ab-b0a6626622e9)
+
+* first(c) intersection follow(Epsilon) -> **c** intersection **d, b** -> Phi(Q)
+* first(c) -> c
+* follow(Epsilon) -> go further, not there, go to parent -> follow(A) -> first(B) -> first(d) , Epsilon -> d, Epsilon -> go further, not there, go to parent -> follow(B) -> d, first(b) -> d,b
+
+* first(d) intersection follow(Epsilon) -> d intersection b -> Phi(Q)
+* first(d) -> d
+* follow(Epsilon) -> go further, not there, go to parent -> follow(B) -> b
+* Don't have to check **1st production** because it has only **1-production**.
+* **LL(1) grammer** is satisfied.
 
 
+* Example 2:-
+* first(aSA) intersection follow(Epsilon) -> **a** intersection **$, c** -> Phi(Q)
+* first(aSA) -> first(a) -> a
+* follow(Epsilon) -> go further, not there, go to parent -> follow(S) -> $, first(A) -> first(c), Epsilon -> c, Epsilon -> go further, not there, go to parent -> follow(A) -> first(Epsilon) -> follow(S) -> $, c
 
+* first(c) intersection follow(Epsilon) -> c intersection **$, c** -> c -> Not Phi(Q)
+* first(c) -> c
+* follow(Epsilon) -> go further, not there, go to parent -> follow(A) -> first(Epsilon) -> go further, not there, go to parent -> follow(S) -> $, c
+* **LL(1) grammer** is not satisfied.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/516e6bd9-2631-411a-b43b-661fa14034a9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d99377a-c9b5-4ffb-9ee0-d6089b543db5)
 
+* Example 3:-
+* Ignore **S** only **1-production**.
+* first(a) intersection follow(Epsilon) -> a intersection **b, $** -> Phi(Q)
+* first(a) -> a
+* follow(Epsilon) -> go further, not there, go to parent -> follow(A) -> first(B) -> first(b), first(Epsilon) -> b, Epsilon -> go further, not there, go to parent -> b, follow(B) -> b, Epsilon -> go further, not there, go to parent -> b, follow(S) -> b, $
 
+* first(b) intersection follow(Epsilon) -> b intersection $ -> Phi(Q)
+* first(b) -> b
+* follow(Epsilon) -> go further, not there, go to parent -> follow(B) -> first(Epsilon) -> go further, not there, go to parent -> follow(S) -> $
+* **LL(1) grammer** is satisfied.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9a9d3961-89b7-4165-ae34-bd1a305c5327)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/711f69b3-df15-451c-8d65-c8fe93137a23)
 
+* [**IMPORTANT**]
+* 1 -> **LL(1) grammer**
+* 2 -> Not **LL(1) grammer**
+* 3 -> **LL(1) grammer**
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ab7c19e-4aaf-4c17-b95b-1e60ea21a436)
 
+* Example.
+* first(aAa) intersection follow(Epsilon) -> a intersection a -> a -> not Phi(Q)
+* first(aAa) -> a
+* follow(Epsilon) -> go further, not there, go to parent -> follow(S) -> $, Epsilon -> Epsilon go further, not there, go to parent -> follow(A) -> first(a) -> a
+* It is Not **LL(1) grammer**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72d4a30a-3350-4878-90e2-f2188c7751a7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9503196d-c7ec-4d5b-83c9-9ca9fa20926c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/742dde97-b4f7-4522-bf1b-1f742d6f8987)
 
+* [**IMPORTANT**]
+* NOTE:-
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a68376ce-fe7b-4499-9caf-417dfeed8b08)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a05a2c7-a815-4ac5-966a-4af077ed302c)
 
+* If any grammer contains **left factoring** then there is **no chance** of it being **LL(1) grammer**.
 
+* If grammer contain **left factoring** then it is not **LL(1) grammer**. [**NOTE**]
 
+* As not asked to do **convertion** and check. Just say that the grammer doesnt have **LL(1) grammer** as it has **left factoring**. Don't do **conversion** and all.
+* [**IMPORTANT**]
+* We have a grammer which is **not LL(1) grammer**. What about **left factoring**?
 
+> May be, may not be. We don't know.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/905f7bf8-042e-4154-9b1d-4fc66bc19823)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fdd51f54-a40f-44e5-86b2-1c4a8e4f4f30)
 
+* Example.
+* Verify it is **LL(1) grammer** or not?     [Don't do conversions in these types of questions]
+* first(b) -> b
+* first(Sa) intersection first(b) -> **first(S) , b** intersection **b** -> b -> Not Phi(Q).
+* first(Sa) -> first(S) -> first(Sa), first(b) -> first(S) , b -> Same loop repeating itself.
+* So it is not **LL(1) grammer**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9071c97c-326a-4907-8e3e-c986ecee88db)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/11e2fa49-7a57-4d0d-af6a-8d757d6c81be)
 
+* If any grammer contain **left recursion** then it is not **LL(1) grammer**.
+* We can convert or not that is a **different story**.
+* Right recursion don't have any problem.
+* Right recursion no problem.
+* We have to verify **Right recursion** also before concluding anything.
+* **Right recursion** and **LL(1) grammer** have **no relation**. Depending on the **grammer** it maybe **LL(1) grammer** or may not be **LL(1) grammer**.
+* No conclusion for **Right recursion** as anything can happen.
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aba20f88-15bc-4794-95bc-12f400fe97ef)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b63dd35-89a1-4e3d-acbb-2a8ad26892ff)
 
+* If grammer contain **left recursion** it is **not LL(1) grammer**. So we cannot apply on the **left recursive grammer**, **LL(1) parser** as it is not **LL(1) grammer**.
+* **LL(1) parser** is only applicable for **LL(1) grammer**. [**IMPORTANT**]
+* We can apply **recursive descent parser** to anyone as it is **brute force**. It doesn't have any rules or regulations. It may work or may not work. Anything can happen. It is the starting parser.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/68fc1216-1999-453f-8a50-cda7023e2a72)
 
+* Example
+* Verify **LL(1)** grammer or not.
+* first(aSbS) intersection first(bSaS) -> a intersection b -> Phi(Q)
+* first(aSbS) -> first(a) -> a
+* first(bSaS) -> first(b) -> b
 
+* first(bSaS) intersection first(Epsilon) -> **b** intersection **b,a** -> b -> Not Phi(Q).
+* first(bSaS) -> first(b) -> b
+* first(Epsilon) -> go further, not there, go to parent -> follow(S) -> $, first(b), first(a) -> b,a
+* This is not **LL(1)** grammer.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b70ab241-aa10-4514-b126-81c42a15112c)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27cf6423-d233-4e20-b840-c581ea605e1f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0574ca23-c955-443f-acd3-1c59daf9d1fa)
 
+* If the given **grammer** is **ambigious grammer** then the grammer will never be **LL(1) grammer**.
+* If the given **grammer** contain **ambiguity** then it is **not LL(1) grammer**.
+* If the given **grammer** contain **ambiguity, left factoring, left recursion** then it is **not LL(1) grammer**. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b02fd393-a3aa-4f33-a086-9f94becd37c7)
 
+* Grammer is not **LL(1) grammer**. What is the reason?
 
+> We clearly cannot say what is the reason. May be **ambiguity, May be left factoring, May be left recursion**. Anyone of the can be the reason. Sometimes these **three** may not be the reason also.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bfabf067-a35b-41a3-8366-6fd833339b36)
 
+* We have a grammer that has **no ambiguity, no left factoring, no left recursion** then what is that grammer?
 
+> Maybe **LL(1)** may not be **LL(1)**. Some other problem.
 
+* If grammer is **LL(1)** then it means that the grammer doesn't have **ambiguity, left factoring, left recursion**. One side it is **True**.
+* If grammer is **LL(1)** then it dont have **ambiguity, left factoring, left recursion**.
+* If grammer don't have **left recursion, left factoring and ambiguity** then the given grammer may be **LL(1)**, may not be **LL(1)** no gurantee.
+* **LL(1)** means these three(left recursion(LR), left factoring(LF) and ambiguity) not there.
+* These three(left recursion, left factoring and ambiguity) not there doesn't mean **LL(1)** may be, may not be.
+* NOTES [**IMPORTANT**] 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8c501fa-f8b7-454c-a2c0-6f405a5e3943)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9514d77f-1458-405d-84e3-19740f395cbf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ceabaf5d-2cc1-4a88-b84a-b004a90049aa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ce68e74-6c91-4f10-85eb-d9119974a604)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb181b75-5eed-4c83-8131-d996dc6aef07)
 
+* A -> It has **left recursion(LR), left factoring(LF) and ambiguity**. So it is not **LL(1)**.
+* C -> It doesnt have **left recursion(LR), left factoring(LF) and ambiguity** but we constructed **LL(1) parsing table** and saw **conflict**. So it is not **LL(1)**.
+* B -> It doesnt have **left recursion(LR), left factoring(LF) and ambiguity** and we constructed **LL(1) parsing table** and saw **no conflicts**. So it is **LL(1)**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eacf13b2-a14d-45da-8008-bde8864efcb4)
 
+* **Left recursion(LR), left factoring(LF) and ambiguity** -> They are not **sufficient** conditions**, they are **necessary conditions**.
+* Question:-
+* Which one of the following is sufficient condition to say that the given grammer is LL(1) grammer?
 
+1) Elimination of left recursion
+2) Elimination of ambiguity
+3) Elimination of left factoring
+4) None of these [Answer]
 
+* Answer -> Option **4**, None of these.
+* What is the sufficient condition to say some grammer is LL(1) grammer?
 
+> In the table **no conflict**. That is the only way. [**IMPORTANT**] 
 
+* [**IMPORTANT**] 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/93ddb4fb-07a9-4b0c-91d0-4ede7c157f80)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b9198939-6aa1-45d8-8ab2-254d32524d68)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2aa2f9f6-0279-4e2e-a176-ca03fa97ee0a)
 
+* When can we say grammer is CFG?
 
+> Left side single variable.
 
+* When can we say grammer is regular?
 
+> First it should be **CFG** then on the **right side** it should either have **left linear or right linear**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6a862af-f4c9-4571-9ac9-d6b7adb0fb23)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a678fbdc-e656-4fe1-ad67-1453855711fb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/06147dd0-cd9c-4ff7-be94-4ac81c6eaa05)
 
+* Regular grammer generates regular language.
+* CFG generates CFL.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4061bd7a-ca9d-424b-af95-a738871ca82a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d859df4a-fce6-4355-a513-182ecb70980b)
 
+* Every regular grammer is **LL(1) grammer**?
 
+> Need not be.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c3f3193-1996-48c3-a0c3-65fe77d35b06)
 
+* **Every regular grammer** need not be **LL(1) grammer**. It means that we have a **regular grammer** it may be **LL(1)** or may not be **LL(1)**. Sometimes it may **fail**. [NOTE]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95286a93-882f-4c6f-a91b-e19fc0125d33)
+
+* **Every regular grammer** need not be **LL(1)** because it may be **ambigious or left factoring or left recursive**. [NOTE]
+* [**IMPORTANT**]
+* Questions/Problems:-
+
+1) only first()
+2) only follow()
+3) first() and follow()
+4) Draw Table
+5) Check LL(1) or not.
+6) From the notes. True or False Statements.
+
+## Bottom Up Parser
+
+* Without backtracking or no backtracking because table is there.
+* Directly we take correct one.
+
+1) LR Parsers
+
+* LR(0)
+* SLR(1)
+* LALR(1)
+* CLR(1)
+
+2) Operator Precedence Parsers.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19b6ba10-5f33-4a19-b9be-290bab73d5fe)
+
+* Checking give grammer is ambigious or not is **undecidable problem**.
+* Converting given grammer into equivalent unambigious grammer is **undecidable problem**.
+* Ambiguity means **undecidable problem**.
+
+## LR Parser
+
+1) Ambiguity grammer can never be **LR**. It doesn't mean that unambiguity grammer will be **LR**. There is a hope
+2) Unambiguity grammer maybe **LR**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/29fe6c17-00d6-43b0-a34a-133670d735a6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b991885-d2a5-4c61-8d81-d824f4689d7c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16e52456-d25b-46d9-9838-073383c10410)
+
+* LL(1) subset of LR(1)
+* LL(2) subset of LR(2)
+* LL(K) subset of LR(K)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ba757df-d191-4564-8ebe-157edc213ff3)
+
+* **LR** having table.
+* **LL** also having table.
+* Size of **LR** parsing table(PT) is approximately **2-times** the size of **LL** parsing table(PT).
+* LR is difficult to implement.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f4ab344-12cb-4242-abbb-5b03f02f1877)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6dfd0279-0db6-4eec-b349-7546fa720ddc)
+
+* **LR** means scanning inputs from left side and using reverse of right most derivation.
+* Every parser will scan inputs from left only.
+* No one will scan from right.
+* CLR(1) -> Canonical LR.
+* LALR(1) -> Look Ahead LR.
+* SLR(1) -> Simple LR.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc14e656-f777-4df6-a65a-27e3c11829d8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3f2f7a8-df96-41eb-8f57-e8e7659bd00b)
+
+* Every LL(1) grammer is regular grammer?
+
+> No.
+
+* Every regular grammer is not LL(1) grammer. We know.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4474f48-6fc2-4c05-a666-831eeefe3255)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92bbe3ba-5fad-4fbe-8ba1-d208ac9156d9)
+
+* Bottom Up Parser -> LR parser.
+* For all **LR parser** parsing algorithm is **same** but parsing tables are different.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5339c12-fe77-4ea4-ae1c-3c29191d18aa)
+
+* Top down -> From **S** to **ABC**.
+* Bottom Up -> From **ABC** to **S** -> Compression only there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2088fd77-f505-442e-8ffb-8c64d23125ea)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2107e5f3-f67b-40da-900e-8a7b99b7b339)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4fb59902-e1bc-47d7-a5ca-8e0216cea523)
+
+## LR Pharsing Algo.
 
 
 
