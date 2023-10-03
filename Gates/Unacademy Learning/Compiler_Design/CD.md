@@ -3323,6 +3323,310 @@ c) A grammer(G) is said to be **Ambigious grammer** if we can find **atleast one
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/59a437dd-48ce-4092-9bf8-9deb8ced432a)
 
 * Example.
+* LL(1) grammer or not.
+* We have only one variable(S).
+* Terminals -> a,b, $
+* 1st production -> **S -> aSbS**
+* Row -> S
+* Column -> first(aSbS) -> first(a) -> a
+
+* 2nd production -> **S -> bSaS**
+* Row -> S
+* Column -> first(bSaS) -> first(b) -> b
+
+* 2nd production -> **S -> Epsilon**
+* Row -> S
+* Column -> first(Epsilon) -> got to parent -> follow(S) -> $, a,b
+
+1) follow(S) -> first(b) -> b
+2) follow(S) -> first(a) -> a
+3) follow(S) -> Calling itself ignore.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a7a2179-4a50-4005-9454-6f799c74d44d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd20a8ea-1582-4ff6-a5a1-9997f18881bb)
+
+* This is not **LL(1)** as some places have multiple entries.
+* These are **error entries**.
+* **Error entries** means **blank**.
+* Question:-
+* How many places conflict came?
+
+> **2 places(a,b)**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d671e76f-d761-4dab-891a-15052f4b299d)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d97794c1-37e5-4897-b9f1-89aaa0df9d08)
+
+* Example
+* LL(1) or not.
+* Productions ->4
+* Variables -> S,A,B
+* Terminals -> a, b, $
+* **S** is starting variable so **$** there.
+
+* 1st production, **S -> AaAb**
+* Row -> S
+* Column -> first(AaAb) -> first(A) -> first(Epsilon) -> go further, further there -> first(a) -> a
+
+* 2nd production, **S -> BbBa**
+* Row -> S
+* Column -> first(BbBa) -> first(B) -> first(Epsilon) -> go further, further there -> first(b) -> b
+
+* 3rd production, **A -> Epsilon**
+* Row -> A
+* Column -> first(Epsilon) -> go to parent -> follow(A) -> a,b
+
+1) follow(A) -> first(a) -> a
+2) follow(A) -> first(b) -> b
+
+* 4th production, **B -> Epsilon**
+* Row -> B
+* Column -> first(Epsilon) -> go to parent -> follow(B) -> a,b
+
+1) follow(B) -> first(b) -> b
+2) follow(B) -> first(a) -> a
+
+* No need to write for **A and B** variables as they have **1-production** only. [**IMPORTANT**]
+* We will draw **1-row** for **S** variable.
+* This is **LL(1)** grammer, there are no places have multiple entries.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/79e95ada-712a-46d6-b62b-1e8849357b47)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cabf90f9-3611-40bd-933b-d084b2586ee5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d9015b82-b4da-4dda-bb15-13e018a3a56a)
+
+* [**IMPORTANT**]
+* No need to write for **A and B** variables as they have **1-production** only. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8fa05800-aaeb-4c9d-8ff2-75b8ff112d26)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4df43fcc-b7ba-4140-8bc0-382a7256c147)
+
+* We have **3-error entries**. [**IMPORTANT**]
+* There is **no conflict**. So it is **LL(1) grammer**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d02aecc5-e933-4d8f-b1de-8c9dc7699090)
+
+* From the given grammer what is the minimal string possible?
+
+> Minimal String -> ab, ba.
+
+* There is **no recursion**.
+* The grammer will generate only two strings -> ab, ba.
+* We want to generate **ab** string.
+* Top down parser follows **Left most derivation**.
+* In the given string the first character we want to derive is **a**.
+* **A** is variable so **expand**.
+* If it is **terminal** then compare with **look ahead symbol**
+* Read all of the leaf nodes from **left to right**.
+* If terminal is equal to the **look ahead symbol** then **increment** the **input pointer**. So it will go to next which is **point at 'b'**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc8a4a72-edcd-4379-81da-6904022eeca2)
+
+* At any time we have **doubt** which production we have to take, **LL(1)** will look/see at the **table**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1389f865-608a-4f8d-aad7-d1701900753a)
+
+* Top down parser will start from **Start symbol(S)** and it follows **left most derivation**.
+* If any dilemma because of more than **1-production** then see the **table**.
+* If we take some string which is not part of the **grammer** then gurantee that we will end up with **blank symbol**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/164c9916-c331-4542-b865-c648f8cca238)
+
+* **b** and the **a** which is at the **look ahead symbol** are not equal which means **parsing error**. We cannot go further.
+* Wherever not matching **blank** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/82bbad24-3156-4f2a-8ba4-27c7ec21a369)
+
+* How to check if given grammer is **LL(1) grammer** or not? [Short Cut]
+
+1) If grammer(G) not contain null production.
+
+* S -> Alpha1 | Alpha2 | Alpha3.
+* Null production means **Epsilon**.
+* **S -> Epsilon** not there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c21de8ff-115c-4218-bef1-10813258cfc1)
+
+* In the **a** column we have 1st production.
+* In the **b** column we have 2nd production.
+* In the **c** column we have 3rd production.
+* They are going different. So no problem.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd35ef14-798a-4ecb-ba04-1c5f6cbc11b8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e51c3e3-68ad-48e0-85e3-8c11d92332ca)
+
+* In the **a, b** column we have 1st production.
+* In the **b, c** column we have 2nd production.
+* Alread in the **b** column **1st production** is already there and **2nd production** also came. So it is not **LL(1)** grammer.
+* If we want to confirm it is **LL(1) or not** then this is the rule:-
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/941ae5f5-0b67-4b51-90c1-6cef5360ecd8)
+
+* How to check if given grammer is **LL(1)** grammer? [**IMPORTANT**]
+
+1) If given grammer don't have **null production**:-
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ac61ae1-0fcc-431f-97d6-27d8f1b8f0d1)
+
+* Just find out **first()** of every production. [Step 1]
+* All of them have the same **row** which is **S**.
+* We have to do **intersection** between the **columns** of the productions. We have to do **pair-wise** intersection between them. [Step 2]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac9de6a9-7b56-4156-9519-af96c0d169cb)
+
+* Phi(Q) means **no two productions** will go in the **same column**.
+* Just find out **first()** of every production.
+* One of them is **not phi** means it is **not LL(1) grammer**. One fail means all of them will fail.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69bd4611-e860-47c1-84d8-742efbb1f39c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8560a38-6c84-4731-9531-53bab8137158)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/99a491ca-459e-44b9-8e07-3cbe176e49c1)
+
+* **Disjoint** means nothing common.
+* Pairwise Disjoint then It is **LL(1) grammer**. [**NOTE 1**]
+* [**IMPORTANT**]
+* It will work for grammers which don't have **null productions** i.e **no Epsilon** there.
+* For **null productions**, **follow** required.
+
+2) If **grammer(G)** contains **null productions**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8f8c1de-cfec-47c2-a732-1707b1f8f004)
+
+* 1st production -> **a** column
+* 2nd production -> **b** column
+* 3rd production -> **c** column
+* There is no problem here.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ed4f296-ee06-4a49-ad5e-4dd85e90257b)
+
+* Now **problem** is there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1308f639-ff81-44bc-b4f5-2065d54157b2)
+
+* **Pairwise disjoin** should be there like **above** only.
+* **Pairwise disjoin** then it is **LL(1)**. [**NOTE 2**]
+* [**IMPORTANT**]
+* In both the places **Pairwise disjoin**.
+* In the second note there is **follow()** that is the **only difference**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/101c9f4d-5472-4e2c-ae3d-03d237ffc969)
+
+* If variable are having **1-production** then **skip** them. They are not causing any problems.
+* If we want to check **LL(1)** or not then we have to **concentrate** on **variables** that are having **more than 1-production or multiple productions**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0f3cac5-82fd-44be-81e4-2091fa4374ce)
+
+* [**IMPORTANT**]
+* Checking following grammer is **LL(1)** or not.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bcc30586-a9bb-44ca-83c4-e9fa6530e73d)
+
+* Example.
+* Ignore **E** as it has **1-production** and concentrate on **S** as it has **more than 1-production**.
+* S -> E|b.
+* first(S) -> first(E) -> b.
+* first(b) -> b.
+* first(S) intersection first(b) -> b intersection b -> b -> Not equal to **phi(Q)**. For **LL(1)** grammer it should be **phi(Q)**. So it is **not LL(1) grammer**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ab04fb9-76ca-4bc5-84ef-199c9f0e99e8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4086cc76-d165-4e34-9aba-540e7bd9b13b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/079b5dc6-d508-4ee3-a403-d63058f65103)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f776feb8-6051-4b98-9621-1b759ecd3a88)
+
+* So it is **not LL(1) grammer**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/02b0e235-c005-4b05-b6fa-c6976b37bfef)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d5c9e23-78d5-4f93-b94e-2c0549ece6a7)
+
+* Examples.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
