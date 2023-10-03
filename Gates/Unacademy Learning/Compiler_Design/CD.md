@@ -3964,12 +3964,249 @@ c) A grammer(G) is said to be **Ambigious grammer** if we can find **atleast one
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd428be3-62b8-44b7-a01f-f63009d242df)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/544dca48-9ce2-4906-9081-fd9373af3e9f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/518ebc4b-fb49-46c4-b73e-4088bcc2d569)
 
+* These are the reductions that came by **algorithm**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3fe7667-faa0-40d4-aed7-41b046a5a8c8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/84f3d9af-e7df-417a-bfc6-7cc69ce50e11)
 
+* Table is given.
+* Handle not there at the top of the stack -> Push
+* That's what the algo is doing.
+* Handle there then **reduce**.
+* Whatever table said do that.
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/373aca29-2d90-4ff6-904a-ff8c2f1123ed)
 
+* After everything is over we are numbering them in **reverse order**. 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9a4acca-131d-451a-9985-d4328c6487e4)
+
+* So the **bottom up parser** in the **reverse order** is **right most derivation**.
+* Two **A's** we got from **S**. We expanded the **right one** first.
+* In the **reverse order** if we see it looks like a **top down parser** who is working as a **right most derivation**.
+* Bottom up parser derivation -> In the **reverse order** it is **right most derivation**.
+* Actual order **no derivation** of bottom up parser.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c718f10-41b7-4140-a051-fbf27cf8d447)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d39f6b5-ac74-4690-b112-e1d144c3eeb4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1948faac-d403-4e8e-8aa4-133b3ef67cc1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5aad698d-f55f-4338-a8b2-840c4a8ee945)
+
+* Example.
+* From grammer only table came.
+* 1st Column -> inputs
+* 2nd Column -> Stack contents
+* 3rd Column -> Reductions
+* When we will reduce?
+
+> Somewhere we have seen **reduce(OR)** in the table. [OR means reduce]
+
+* When we will push?
+
+> Somewhere we have seen **shift(push)** in the table. [shift means push]
+
+* Whatever table said do that.
+* Input is **aaab$**
+* Stack is **0**.
+* first symbol is **a**.
+* So **0a** means **S3**.
+* **S3** means **shift 'a'** which is input and increment input pointer.
+* When we have done the **shift** then **input** will **increase**. [**IMPORTANT**]
+* Input -> aab$, stack -> 0a3, Top of the stack -> 3. So it is **3a**. It is **S3**.
+* We will add **a3** again and increment input pointer.
+* Input -> ab$, stack -> 0a3a3, Top of the stack -> 3. So it is **3a**. It is **S3**.
+* We will add **a3** again and increment input pointer.
+* **Shift** means input will **decrease**.
+* Input -> b$, stack -> 0a3a3a3, Top of the stack -> 3. So it is **3b**. It is **S4**.
+* We will add **b4** and increment input pointer.
+* Input -> $, stack -> 0a3a3a3b4, Top of the stack -> 4. So it is **4$**. It is **r3**. [r3 -> Reduce 3rd production]
+* 3rd production = A -> b
+* Reducing 3rd production means that on the right hand side we have **one symbol(b)**, so **pop** 2-symbols and replace by **A**. Stack is **0a3a3a3b4 -> 0a3a3a3A**
+* What about **A**? It is **3A**. See the **goto part**. **Goto part** of **3A** is that **6** should be there. Stack is **0a3a3a3A -> 0a3a3a3A6**.
+* Reduction means replace **b** by **A**. We have **only one symbol of 'b'** in the stack then **pop 2-symbols**. We replaced **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa6b05d5-2332-4807-a325-354e12852e3b)
+
+* Now **A** came. So remember **A** also.
+* When top of the stack, **variable** comes then go to **goto part** and check **3A** as **3** is before **A**. Goto part of **3A** is **6**. Push **6**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85d8a834-4df8-478b-8bbd-3c082b64c05e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f3bac49-47b5-4bd0-b862-3fb60b07023c)
+
+* Forget **state number**. At the top of the stack **handle** there or not there?
+* Input -> $, stack -> 0a3a3a3A6, Top of the stack -> 6. So it is **6$**. It is **r2**. [r2 -> Reduce 2nd production]
+* 2nd production= A -> aA
+* As we have **2-symbols** on the right hand side. We have to **pop 4-symbols**.
+* Stack is **0a3a3a3A6 -> 0a3a3A**.
+* **A** has come. So we have to do **A's** as well. It is **3A**, as **3** is before **A**. Goto place of **3A** is **6**. Push **6**. 
+* Stack is **0a3a3a3A6 -> 0a3a3A6**.
+* Reduce time don't increase input pointer.
+* Shift time only increase input pointer.
+* Input -> $, stack -> 0a3a3A6, Top of the stack -> 6. So it is **6$**. It is **r2**.
+* 2nd production= A -> aA
+* As we have **2-symbols** on the right hand side. We have to **pop 4-symbols**.
+* Stack is **0a3a3A6 -> 0a3A**.
+* **A** has come. So we have to do **A's** as well. It is **3A**, as **3** is before **A**. Goto place of **3A** is **6**. Push **6**. 
+* Stack is **0a3A -> 0a3A6**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/627bc537-af6b-41f9-a5a9-7b48cfbdd544)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/277144be-cf54-48ba-95c2-edccc866b8c0)
+
+* Input -> $, stack -> 0a3A6, Top of the stack -> 6. So it is **6$**. It is **r2**.
+* 2nd production= A -> aA
+* As we have **2-symbols** on the right hand side. We have to **pop 4-symbols**.
+* Stack is **0a3A6 -> 0A**.
+* **A** has come. So we have to do **A's** as well. It is **0A**, as **0** is before **A**. Goto place of **0A** is **2**. Push **2**. 
+* Stack is **0A -> 0A2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/664cbc78-640c-4f85-9867-5d85f7ac9c18)
+
+* Input -> $, stack -> 0A2, Top of the stack -> 2. So it is **2$**. It is **blank**. It is **parsing error**.
+* It is **parsing error** because it means that the string will not come from the given grammer.
+* If string is **possible** from the given grammer then we will see **acc**.
+* If string is **not possible** from the given grammer then we will see **blank**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d5e6456-fa18-4ed8-bcaf-00fc3f93b4aa)
+
+* If **blank** came no need to go further. What we will do.
+* Do whatever **table** says.
+* Everything is done by **table** only.
+* Major is **table** only.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa7fbc46-882e-4dd2-bf5c-749aeb4aaa3d)
+
+* Example.
+* It is **possible**.
+* After giving number to productions. Now give numbers in **reverse order**.
+* Bottom up parser follows revers of right more derivation.
+* Give normal numbers and then give reverse numbers then it will become top down. Bottom up will become top down.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f2322dd-8c4c-46db-ab85-5a78c36fba8a)
+
+* Input -> abab$, stack -> 0, Top of the stack -> 0. So it is **0a**. It is **S3**.
+* Input -> bab$, stack -> 0a3, Top of the stack -> 3. So it is **3b**. It is **S4**.
+* Input -> ab$, stack -> 0a3b4, Top of the stack -> 4. So it is **4a**. It is **r3**.
+* 3rd production= A -> b
+* As we have **1-symbol** on the right hand side. We have to **pop 2-symbols**.
+* Stack is **0a3b4 -> 0a3A**.
+* **A** has come. So we have to do **A's** as well. It is **3A**, as **3** is before **A**. Goto place of **3A** is **6**. Push **6**. 
+* Stack is **0a3A -> 0a3A6**.
+* Input -> ab$, stack -> 0a3A6, Top of the stack -> 6. So it is **6a**. It is **r2**.
+* 2nd production= A -> aA
+* As we have **2-symbols** on the right hand side. We have to **pop 4-symbols**.
+* Stack is **0a3A6 -> 0A**.
+* **A** has come. So we have to do **A's** as well. It is **0A**, as **0** is before **A**. Goto place of **0A** is **2**. Push **2**. 
+* Stack is **0A -> 0A2**.
+* Input -> ab$, stack -> 0A2, Top of the stack -> 2. So it is **2a**. It is **S3**.
+* Input -> b$, stack -> 0A2a3, Top of the stack -> 3. So it is **3b**. It is **S4**.
+* Input -> $, stack -> 0A2a3b4, Top of the stack -> 4. So it is **4$**. It is **r3**.
+* 3rd production= A -> b
+* As we have **1-symbol** on the right hand side. We have to **pop 2-symbols**.
+* Stack is **0A2a3b4 -> 0A2a3A**.
+* **A** has come. So we have to do **A's** as well. It is **3A**, as **3** is before **A**. Goto place of **3A** is **6**. Push **6**. 
+* Stack is **0A2a3A -> 0A2a3A6**.
+* Input -> $, stack -> 0A2a3A6, Top of the stack -> 6. So it is **6$**. It is **r2**.
+* 2nd production= A -> aA
+* As we have **2-symbols** on the right hand side. We have to **pop 4-symbols**.
+* Stack is **0A2a3A6 -> 0A2A**.
+* **A** has come. So we have to do **A's** as well. It is **2A**, as **2** is before **A**. Goto place of **2A** is **5**. Push **5**. 
+* Stack is **0A2A -> 0A2A5**.
+* Input -> $, stack -> 0A2A5, Top of the stack -> 5. So it is **5$**. It is **r1**.
+* 1st production= S -> AA
+* As we have **2-symbols** on the right hand side. We have to **pop 4-symbols**.
+* Stack is **0A2A5 -> 0S**.
+* **S** has come. So we have to do **S's** as well. It is **0S**, as **0** is before **S**. Goto place of **0S** is **1**. Push **1**. 
+* Stack is **0S -> 0S1**.
+* Input -> $, stack -> 0S1, Top of the stack -> 1. So it is **1$**. It is **acc**.
+* **1** indicate **S** is over. So string should be **over**.
+* acc -> Successful completion of parsing(SCP).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b2a6a0a6-725e-4b22-8eb7-3f9db51b42b2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e0f03874-6c6c-45d5-9dd8-3c2bcd0d4179)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a850702-e116-4b39-a7cf-decee957f1c3)
+
+* We cannot say which **derivation**.
+* Let's see in **reverse order**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d076840d-3208-4cbb-b86d-5c329af14820)
+
+* We have given the numbers in **reverse order**.
+* Bottom up reverse is top down.
+* If we give **reverse order** then Bottom up reverse is **top down**.
+* So if we see in the **reverse order** it looks like **top down** but the **derivation** is **right most**.
+* Expand **right one**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/155b5941-adf5-4d6a-807e-af243cf2ae2f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/963a7fbd-3fc8-4c75-aab4-7fcc9ff61241)
+
+* Reverse Order right most derivation.
+* Bottom up parser difficulty -> Identifying **handles** are difficulty if we do manually.
+* If we do using/apply the **algo** then no difficulty nothing.
+* Questions:-
+* How many handles?
+
+> As many productions are there those many handles. **5-handles**.
+
+* What are those?
+
+> See from bottom. b, aA, b, aA, AA -> **5-handles**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/caa12aa9-43c1-477f-a234-7f644ed53168)
+
+* Prefix -> Set of all leading(starting) symbols -> We always have to read from the left hand side.
+* 'TOC' string prefix -> Epsilon, T, TO, TOC
+* Suffix -> Set of all tailing(ending) symbols -> We always have to read from the right hand side.
+* 'TOC' string suffic -> Epslion, C, OC, TOC
+* While bottom up parsing is going on all the **prefixes** present in the **stack** are known as **viable prefixes**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ea9586d-67f6-4e1a-a56d-837bbc104450)
+
+* **b** itself is a handle.
+* If handles comes then how can we keep something in the handle?
+
+> If handle comes we have to **reduce**.
+
+* **a** is possible as **viable prefix**.
+* **ab** is possible as **viable prefix**.
+* **abb** is not possible. Whenever **b(middle 'b')** came, **b** itself is a handle. It will reduce there is no chance.
+
+* **a** is possible as **viable prefix**.
+* **ab** is possible as **viable prefix**.
+* **aA** is also possible as **viable prefix**. **b** becomes **A** due to **reduction**.
+* **aAb** is also not possible as **viable prefix**. **aA** itself is a **handle**. It will reduce there is no chance
+* **Ab** is possible as **viable prefix**.
+* **aa** is possible as **viable prefix**.
+* We have to **push** first without pushing how we will know that it is a **handle**.
+* If **handle** there then don't **push** one more symbol.
+* **A** is also **handle**.
+* All of the **prefixes** that are possible in the **bottom up parsing** in the **stack** those are known as **viable prefixes**.
+* Prefixes not strings.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e0b79da2-870d-47a6-bf33-39dbe7ae4b92)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16090e0c-d172-49dd-9e67-1c928c34c1b4)
+
+* **Viable prefixes** purpose is they are making a **handle**. They are very close to **handle**. Maybe handle or may be very close to handle.
+* Handle is also viable prefix?
+
+> **YES**. It means that handle can come inside **stack** or not. **YES** it can come inside **stack**.
+
+* Handle is also viable prefix only.
+* One viable prefix contains **1-handle** possible?
+
+> Maybe.
+
+* One of the handle maybe viable prefix.
+* One viable prefix cannot have/contain **2-handles** or cannot have/contain **more than 1-handle**. [**IMPORTANT**]
+* Handle itself is one viable prefix. [**IMPORTANT**]
+* When one handle will come we will **reduce**. No chance of second one.
+* Table is deciding when to **push and pop**.
 
 
 
