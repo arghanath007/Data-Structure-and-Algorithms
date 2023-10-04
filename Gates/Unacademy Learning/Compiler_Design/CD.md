@@ -4208,6 +4208,334 @@ c) A grammer(G) is said to be **Ambigious grammer** if we can find **atleast one
 * When one handle will come we will **reduce**. No chance of second one.
 * Table is deciding when to **push and pop**.
 
+## parsing-viii(11) [4th Oct 2023]
+
+## LR(0) parsing Table Construction
+
+* To construct LR(1) parsing Table, Functions needed are **first() and follow()**.
+* To construct LR(0) parsing Table, we need two functions:-
+
+1) Closure().
+2) Goto().
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66a647fa-b88e-45f3-a7c3-d9e60718aeb7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/67502b75-89d4-4d2d-8267-3a05470ac809)
+
+* Both grammers are same.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/292eeac7-421b-4977-bfd7-e9a7c838802d)
+
+* These two gammers are same or not?
+* When can we say two grammers are equal?
+
+> When both are accepting same language. Both are accepting same strings.
+
+* Language is collection of strings.
+* Whatever **G** is accepting **G'** is also accepting same only.
+* Only difference in **G'**, one more level is increased(S' -> S).
+* Both the grammers are same if they accept the same language.
+* We have added **one production** extra in **G'** grammer. That's why it is called as **augmented grammer**.
+* Augmentation -> Adding
+* Original grammer is **G** and **augmented grammer** is **G'**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b4eae897-2717-4b7b-b6d5-327e1e6efdeb)
+
+* Augmented Production = S' -> S.
+* They are **same(G and G')** because language are **same**. Other than **increasing one level** we have done nothing else.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72bb7042-c5ad-4653-9afe-988371f433ab)
+
+* In the last production **dot(.)** is at the **right most place**.
+* **dot(.)** is kept at the **right hand side** of the production.
+* S -> .xyz  [It indicates that production just started now]
+* S -> xyz.  [It indicates that the production is over]
+* When **xyz** is over then **S** is over.
+
+* S -> .xyz [It indicates that production just started now]
+* S -> x.yz [It indicates that **x** only is over]
+* S -> xy.z [It indicates that **xy** is over]
+* S -> xyz. [It indicates that the production is over]
+* Production just started now means that the **dot** is on the **left most place**.
+* Dot(.) will be there on the **right side** only as the story is there on the **right side only**. Anywhere on the **right hand side**.
+* Dot(.) is at the **right hand side** but in the **left most place**, it means that **production just started now**.
+* The **parser** knows how much over and how much not over is by seeing/using the **dot(.)**. [**IMPORTANT**]
+* Dot(.) is there at the **left most place**, the **parser** got to know that the **production just started now**.
+* Dot(.) is there at the **right most place**, the **parser** got to know that the **production is over**.
+* The **compiler(grammer)** knows in the production how much over and how much not over is by seeing/using the **dot(.)**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee7738ef-2919-4756-8620-e32de1bf1556)
+
+* Take the productions and keep **dot(.)** on the **right hand side** anywhere. Those are called as **LR(0)** items.
+* S -> xyz. This is **LR(0)** item and another name is **completed LR(0) item** or **reduced LR(0) item** or **final LR(0) item**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98c08bcc-6ac0-4511-90cb-04944b2deaf5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d2d5bca-9217-4f18-b237-a1282e766f8f)
+
+* When **LR(0) item** is going on starting itself we will get the dot(.) at the left most place.
+* Completed LR(0) item will give **reduce/reduction**.
+* Non-Completed LR(0) item will give **shift**.
+* Out of the four LR(0) item, the **first 3** will give **shift** entries at they are Non-Completed LR(0) items and the dot(.) has not reached the right most place.
+* Production not over **shift** will come.
+* Production over **reduce** will come.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/29f239c5-60f5-4949-b7c0-acce5586de16)
+
+* **LR(0) parsing table** contains **shift-reduced entries**.
+* The only debate is how to find out **shift** entries and **reduced** entries. As we want to construct **LR(0) parsing table**.
+* Who given reduced entry in the table?
+
+> Completed LR(0) item.
+
+* Who will give shift enties in the table?
+
+> Non-Completed LR(0) item.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3db02d87-9c77-4cf6-8ce1-9ba3fbc0d7e7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b2527252-24df-4153-a101-599c6a97224d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e536c99f-dec7-4355-a38e-5ae28f30df82)
+
+* LR(0) item.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe61c64b-6ef9-45a7-af92-7a722f182dc2)
+
+* Total is LR(1) item as something extra.
+* **, and 'a'** not there then it is LR(0) item.
+* dot(.) not there then it is production.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e4e79b09-6186-4c2e-9180-4f5b4d3ff412)
+
+### Closure()
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7c7f40f-1445-49c5-8323-5eee1b7e8a8d)
+
+* S -> A.A [LR(0) item]
+* It is the production from the grammer(G).
+* **Closure()** will be calculated for **LR(0) items** only.
+* We cannot calculate **Closure()** for **productions**.
+* The **input** of **Closure()** is **LR(0) item** only.
+* **Closure()** of any **LR(0) item** is **equal to**:-
+
+1) Write **LR(0) item** as it is.
+
+* After dot what is there? 
+
+> **A** is there. It means that the **parser** is at **A**.
+
+* After dot(.) who is immediately there, **A** indication that the **parser** is at **A** then we can use **productions** of **A** or **A's productions**.
+
+* S -> .xyz
+* It means that **parser** is at **x**.
+* **.x** means that **parser** is at **x**. We are at **x**. **x** is not over. If we do some work then **x** will be over then we will move the dot(.).
+* We can use the **S** productions now.
+* S -> x.yz
+* **.y** means that **parser** is at **y** now.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95042380-79c1-48a7-9817-86156a1f0347)
+
+* If the Parser is at **A** which means we can use the **productions** of **A**.
+* If the Parser is at **S** which means we can use the **productions** of **S**.
+
+2) After dot whoever is there immediately write that variable's all productions from the grammer. 
+
+* Write all of **A's productions** from the grammer. 
+* As the productions are **starting** so the dot will be there at the **left most place**.
+* The productions we can take means we can **start** using them. Dot is there at the first place.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/017d525e-d776-40fa-8636-59d8367b46ef)
+
+* A -> .aA, A -> .b
+* After dot, **terminal** is there then **stop it**. We cannot get any further.
+* After dot, **variable** is there then we can write the **variable's content(productions)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/897ac3bc-cf72-4a86-889e-2ceda8e86591)
+
+* S' -> S -> Augmented production
+* S' -> .S -> Augmented LR(0) item.
+* Closure(S' -> .S) [Closure of Augmented LR(0) item]
+
+1) Write as it is.
+
+* S' -> .S
+
+2) After dot whoever is there immediately write that variable's all productions from the grammer. 
+
+* After dot **S** is there so copy all of the **variable(S)'s productions** from the grammer by keeping dot at the first place.
+* S -> .AA
+* After dot we have variable(A). So we can go further.
+* After dot **A** is there so copy all of the **variable(A)'s productions** from the grammer by keeping dot at the first place.
+* A -> .aA | .b
+* After dot **terminals** are there so **stop it**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/52f658e5-fa6e-4022-8099-6c55f1d1ddd5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4cc8f8c8-3552-4aed-8521-85ba356d7470)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/908e9467-a104-4347-9412-82b29047078b)
+
+* Closure() will be applied for **LR(0) items** only.
+* In the table **acc** came because of **augmented productions**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3634a33c-0f93-4275-8f8c-ed08f04bc818)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/18eed22e-d3f8-4b98-8a15-7689f9aa37ef)
+
+* Example.
+
+1) Write as it is.
+
+* A -> .aA
+
+2) After dot immediately any variable? No. There is **terminal**, we cannot go any further. Just stop.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fce8b791-a3a8-4bec-b6f6-4bd91238f8c1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4ed7aa02-af04-461c-8fa5-f930053ea8d3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5ea2ed6-78cb-4cfa-a620-771275945b14)
+
+* Example
+* Closure(S -> .AA)
+
+1) Write as it is
+
+* S -> .AA
+
+2) After dot any variables there then copy all of their productions.
+
+* After dot **A** is there so copy all of the **variable(A)'s productions** from the grammer by keeping dot at the first place.
+* A -> .aA | .b
+* After dot there are **terminals(a,b)** so just stop it.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/84bc07db-a416-43a3-adb4-3aa4c1655534)
+
+* Closure(I)
+* I -> LR(0) item.
+* G -> Grammer.
+
+1) Add **I** [Write as it is]
+2) If A -> BC.DE is **I** and D -> FH is in **G** then add **D -> .FH** to the closure(I)
+
+* Whatever we have written as it is. After dot(.) variable is there so it will gurantee generate something in the grammer(G) then write the **productions** by keeping dot(.) at the first place.
+
+3) Repeat 2nd step for every newly added LR(0)-item.
+
+* Repeat **2nd step** for every **newly added LR(0)-item**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/049cbb36-c63f-4db1-bce7-a026cbf048ac)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f27454e3-dbc6-4eb0-82bd-c395806624c0)
+
+* [**IMPORTANT**]
+* Start from 1hr 1mins.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
