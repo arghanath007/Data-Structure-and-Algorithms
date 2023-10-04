@@ -4420,30 +4420,107 @@ c) A grammer(G) is said to be **Ambigious grammer** if we can find **atleast one
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f27454e3-dbc6-4eb0-82bd-c395806624c0)
 
 * [**IMPORTANT**]
-* Start from 1hr 1mins.
 
+## Goto()
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/38583048-6e4c-48ab-baf0-05f97b1741dd)
 
+* S -> .AA [LR(0) item]
+* After dot **A** is there.
+* In the LR(0) item after dot **A** is there then we have to give **A** as **input**.
+* **Goto()** has **two inputs**. One is **LR(0) item** and one is the **input**.
+* **Input** is whoever there immediately after dot in the **LR(0) item**.
+* We cannot give whatever we like as the **input**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3678881-499e-4a42-b7ef-7237d8590479)
 
+1) Whatever **LR(0) item** we have given **same** thing will come. After dot **A** is there.  We have given **A** as input. Dot will **shift** to the **middle**.
 
+* Whatever symbol we have given as **input**, dot will **shift** after that symbol.
+* It is indicating that **A** is over. We have given **A** as input.
+* If we have given **A** as input so **A** is over.
 
+2) From now onwards it is **same closure()**. After dot **variable(A)**. Get all of the **contents(productions)** of the **variable(A)** from the grammer.
 
+* A -> .aA | .b
+* As after dot **terminals** there so we stop.
+* Only first step differ remaining all will be like **closure()**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/39063c76-a1e6-4370-8ffa-697fdab32449)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c206107f-e93c-468b-ab30-08577a8fcc5d)
 
+* This is **LR(0) item**. After dot **y** is there. So we have to give **y** as input.
+* After **goto()** it will be **S -> xy.z**.
+* Dot will move after the **input symbol**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ddaf51f7-0acf-44a3-a6d5-012a47e3b62a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b7fa1f1-f3a9-41ce-bbc3-20452539146e)
 
+* Example of **Goto()** [**IMPORTANT**]
+* Only **1st step** is **different** next steps are same as **closure()**.
+* How to get 2nd step?
 
+> Whatever 1st step answer we got to that apply **closure()**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d340c7d-15bd-419f-9a86-06ee5a68a2e5)
 
+* It is **LR(0)** item.
+* After dot immediately there is **a**. So **a** is the **input** to **goto()**.
+* goto() needs two inputs.
+* Now we have to move dot after the **input(a)**.
+* **A -> a.A**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bfb81ef2-fa24-4b50-81cc-88780dd0d2c1)
 
+* Now do **closure()**.
+* First is write as it is which is already there.
+* After dot we have a **variable(A)**. So copy all of the **variable(A)'s productions** from the grammer and put dot(.) at the **starting**.
+* A -> .aA | .b.
+* After dot we have **terminals(a,b)** so stop it.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b38e9f9-c93a-4b44-a8a0-d8c683ed5a6e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/649cc330-0284-4396-85c3-dfc6841b0f07)
 
+* Example
+* After dot we have **A**, so **A** is the input for **goto()**.
+* We will write the dot after the **input(A)**, which is **A -> aA.**.
+* Now apply **closure()** on **A -> aA.**.
+* After the dot we have **no variables**. So **stop it**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1405f44f-ec58-46b3-9f03-88ed28f21e33)
 
+* [**IMPORTANT**]
+* I -> LR(0) item
+* x -> goto() input.
+* Goto(I, x) -> It means that after dot in **I** we have **x**.
+* What is the **output**?
 
+1) Add **I** by just move dot after **x**.
+2) Apply Closure() of first step. [closure(1st step)]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6df5b725-d9fa-4bf4-b604-2bbc4cb8e20b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3421d528-008d-43f9-a180-26e2ba58f86e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83169299-8ec7-4179-a266-891abd874248)
+
+* [**IMPORTANT**]
+
+## LR(0) parsing table construction algo
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d5db9f5f-fecb-497a-96a9-9d724f3da74c)
+
+* Algo
+
+1) I0 = Closure(Augmented LR(0) item)
+2) Using I0 construct DFA
+3) convert DFA into LR(0)-PT
+
+* Construct LR(0) parsing table for the following grammer.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/da665fab-0af4-4750-817e-72ef592fe3a1)
+
+* Grammer(G):-
+* S -> AA
+* A -> aa|b
 
 
 
