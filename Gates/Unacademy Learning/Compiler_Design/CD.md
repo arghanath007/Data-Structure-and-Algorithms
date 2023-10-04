@@ -4521,6 +4521,7 @@ c) A grammer(G) is said to be **Ambigious grammer** if we can find **atleast one
 * Grammer(G):-
 * S -> AA
 * A -> aa|b
+* 1hr 21mins.
 
 
 
