@@ -4709,23 +4709,79 @@ c) A grammer(G) is said to be **Ambigious grammer** if we can find **atleast one
 * In the **fourth state(I4)** we should write **r3** as **Production '3'** is completed.
 * **fourth state(I4)** means **4th row** and **Production '3'** is completed. We should write **r3** in **state(I4)**, total row we write. That's why it is called as **LR(0)**.
 * **LR(0)** means blindly write.
+* **fourth state(I4)** means **4th row** and **Production '3'** is completed. We should write **r3** in **total action**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/288af9d9-1983-42bc-b8db-4b7c6073bb50)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/326f2a7e-5451-45a7-9e5a-a9bc06961e20)
 
+* **Fourth state(I4)**.
+* **LR(0)** is the **least power**.
+* It is writing blindly.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0293030b-8ea2-48c8-aaae-50f54915e074)
 
+* In **I5** state **no one** going outside so **no shift**.
+* They are not going outside because they are **completed**.
+* So **S -> AA** production is **completed** which is **r1**.
+* LR(0) so write **r1** everywhere in the **action part**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d65f1cd-8723-4a97-9f19-ccf78be2c1c0)
 
+* In **I5** state **no one** going outside so **no shift**. They are **completed**.
+* Already over what input we will give.
+* If they are not over, to make them **over** we will give **input**. [**IMPORTANT**]
+* So **A -> aA** production is **completed** which is **r2**.
+* LR(0) so write **r2** everywhere in the **action part**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/820bd387-b31f-4462-8846-97aa68f186b2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5c6fd24-b1f4-4900-a084-2b4a07a89d0f)
 
+* [**IMPORTANT**]
+* We are going from one state to another state by applying **Goto()**.
+* **Goto()** -> Going from one state to another state.
+* Within the state we are using **closure()**.
+* **Closure()** -> In the state we are expanding possibilities.
+* **I1** state is not part of grammer. 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65cb960e-ce2f-409f-be82-a810fb11cb1c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19a2c20e-8b65-4bf7-b562-b6290217a434)
 
+* [**IMPORTANT**]
+* No conflict in the **table** so the given grammer is **LR(0) grammer**.
+* In the above LR(0) parsing table no conflict, so the give grammer is **LR(0) grammer**.
+* We are using LR(0) item.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/891f83ca-6952-453c-b460-235208db017b)
 
+* Construct LR(0) parsing table for the following grammer.
+* The given grammer is not LL grammer as it has **left recursion**.
+* If maybe **LR** because it don't care about **left recursion, left factoring**. It will only care about **ambiguity**.
+* If it is **ambigious grammer** then not need to check also. Stop and say it is **not LR** grammer.
+* If we don't know that it is **ambigious grammer** or not then we can **check**.
+* **LR** grammer is only afraid of **ambiguity**.
+* **LR** grammer is not afraid of **left recursion, left factoring**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f45e1a0a-2a03-4cd4-8ad3-cfaaba2ef48f)
 
+* It has **left recursion** so it is **not LL(1) grammer**.
+* The grammer maybe **LR(0)** grammer because it is not afraid of **left recursion, left factoring**. I
+* **LR(0)** grammer is only afraid of **ambiguity**.
+* **LR(0)** grammer is **more powerful** so there it **hope**.
+* Bottom up parsers are **more powerful**.
+* In **ambiguity**, both **LL(1) and LR(0)** grammer will **cry**.
+* In **left recursion**, **LL(1)** grammer will **cry** and **LR(0)** grammer will not **cry**.
+* In **left factoring**, **LL(1)** grammer will **cry** and **LR(0)** grammer will not **cry**.
+* More powerful doesn't mean that **everytime** it will work.
+* There is a **hope**
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/02525c5c-991e-4f02-94de-584b5ce2f871)
 
+* Example.
+* Check **LR(0)**.
+* Grammer(G):-
+* S -> (L) | a
+* L -> L,S | S
+* Start from 2hrs 23mins.
 
 
 
