@@ -4514,69 +4514,203 @@ c) A grammer(G) is said to be **Ambigious grammer** if we can find **atleast one
 2) Using I0 construct DFA
 3) convert DFA into LR(0)-PT
 
-* Construct LR(0) parsing table for the following grammer.
-
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/da665fab-0af4-4750-817e-72ef592fe3a1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81f7c7d2-a8c0-4b35-81b8-b017750ca8c3)
 
+* Construct LR(0) parsing table for the following grammer.
 * Grammer(G):-
 * S -> AA
 * A -> aa|b
-* 1hr 21mins.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a7523890-6798-411f-bd48-85b199a79524)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4ab20c6b-ced4-4f3d-a876-d5dffa95627c)
 
+* Take the augmented production and keep the dot on the left most place. It became augmented LR(0) item.
+* To the augmented LR(0) item find **closure()**.
 
+1) Write as it is.
 
+* S' -> .S
 
+2) Check if variable there after dot.
 
+* **Variable(S)** is there after dot. So write all of the contents(productions) of **Variable(S)** keeping **dot(.)** at the first place, from the given grammer. 
 
+* S -> .AA
+* **Variable(A)** is there after dot. So write all of the contents(productions) of **Variable(A)**, keeping **dot(.)** at the first place, from the given grammer.
+* A -> .aA |.b
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a42506ae-8a24-4245-ac44-b263a33cc0a2)
 
+* This is **state zero** which is **I0** which is nothing but **starting state** of **DFA**.
+* Automata will state from **state zero**.
+* We are at the **starting state**.
+* In **I0** state we have **4 LR(0) items**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f6fe4ca-b2ee-4836-835d-e326c2838fcf)
 
+* In the first LR(0) item after dot, **S** is there so we have to write **S** as **input**.
+* In the second LR(0) item after dot, **A** is there so we have to write **A** as **input**.
+* In the rhued LR(0) item after dot, **a** is there so we have to write **a** as **input**.
+* In the second LR(0) item after dot, **b** is there so we have to write **b** as **input**.
+* After dot whoever is there we have covered **everyone**. That is why it is **DFA**. DFA means covering every possibility.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a4f67ed6-e4c9-4c73-b21f-58880053feb9)
 
+* We have covered every possibility.
+* We are now applying **Goto()**.
 
+1) We are writing as it is and moving the dot after the **input**.
+2) Perform **closure()**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a34583c4-e730-4909-aa8c-b3f8c47db1c4)
 
+* Applying **Goto()** on **S' -> .S** and **S** as the input we got **S' -> S.**. After dot no variable there so **stop**. This is **I1**.
+* Applying **Goto()** on **S -> .AA** and **A** as the input we got **S -> A.A**. After dot we have **variable(A)** so copy all of the contents of **variable(A)** from the given grammer starting with dot.
 
+* A -> .aA | .b
+* This is **I2**.
+* Applying **Goto()** on **A -> .aA** and **a** as the input we got **A -> a.A**. After dot we have **variable(A)** so copy all of the contents of **variable(A)** from the given grammer starting with dot. 
 
+* A -> .aA | .b
+* This is **I3**.
+* Applying **Goto()** on **A -> .b** and **b** as the input we got **A -> b.**. After dot no variable there so **stop**. This is **I4**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/74e18aaa-d842-43bf-9f5e-d7c8b41d8615)
 
+* State(I1) indicate **S** over. It means that we have given **S** as input. **S** is given as input because after dot **S** is there. **.S** came because of augmented production(S' -> S). If augmented production(S' -> S) is not there then the **I1** state never arrives. Because of **I1** state only **acc** will come.
+* State(I1) indicate **S** over. **S** over means string is also over. On state I1 we are expecting **$**. On the **I1** state **$** should come then only we are successful.
+* Because of augmented production(S' -> S) only we got the **I1** state.
+* Why we have written augmented productions in the grammer?
 
+> To get the **acc** in the table.
 
+* To get **acc** in the table **S** should be **over**.
+* State(I1) indicate **S** over.
+* State(I3) indicate **a** over.
+* State(I4) indicate **b** over.
+* We got **I0** after **I0** we have to make it **DFA** by covering every possibility.
+* After dot Whatever there apply **Goto()**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8459695e-3d28-44a4-9dba-1d33fad4bd4f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/46a5b045-f6dc-49de-8ec1-6311a9f0bfb1)
 
+* It is called **DFA** because in **I0** we have covered every possibility.
+* If we want to make it **DFA** then on every state we have to **cover**. Covering not possible then stop it.
+* Possibility there we have to cover.
+* In **I1** state we don't have to apply any input. After dot nothing there which means **completed**.
+* To make it **DFA** after dot whatever we have we have to apply it.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/134850d4-6ddc-4fd0-8585-d10b35687d7b)
 
+* In **I2** state we have **A, a, b** after dot. So we have to apply **three** possibilities.
+* In **I3** state we have **A, a, b** after dot. So we have to apply **three** possibilities.
+* In **I4** state we don't have to apply any input. After dot nothing there which means **completed**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e4ca0d2d-2e48-4a6b-b2df-88c004981079)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb8e7d46-2083-4c70-9362-e6a3733cfa79)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4cbfb7ae-55b0-40f4-9aee-05c8ef9dff7c)
 
+* **I6** is as it is like **I3** so no need to write it. Remove it.
+* If something new then only **new number**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0349e734-2fe9-4e96-be11-f84b53da7a53)
 
+* If **same** will come then keep **self-loop**.
+* **I3** on **a**, **I3** only coming then keep **self-loop**.
+* Meaningfully do it.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0964488-f4d1-47f8-a6ac-eaa055b00f64)
 
+* **I3** completed
+* **I4** completed.
+* **I5** completed.
+* **I5** completed.
+* They have no chance of expansion. It means all are **completed**. We have made **DFA**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae07c598-6089-4762-bad3-5a28d7ca5e8f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9a163c1-7e66-4a13-8ebb-556718b761dd)
 
+* [**IMPORTANT**]
+* DFA representation in two forms **transition diagram** and **transition table(LR(0) parsing table)**.
+* Rows are based on **no. of states** in the DFA.
+* **I3** state indicate **a** over.
+* **I4** state indicate **b** over.
+* **I6** state indicate **aA** over. [aA -> Handle]. **r1**
+* **I5** state indicate **AA** over. [AA -> Handle] , **r2**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7f14684-5be7-4e33-84f7-fe3ed609d593)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/055ffb9a-d2ca-4c74-abc3-76a48b8449c4)
 
+* Table contain two parts:-
 
+1) Action contains terminal(a,b) followed by **$**. 
+2) Goto contain variables(A, S).
 
+* For both the tables then common part is **rows** which are **state** only.
+* For both the tables the common part is **no. of rows**.
+* Columns will differ.
+* **0 to 6** states which means **7**s states tables.
+* Table contains two parts so the columns are divided into two parts(Action and Goto).
+* **S'** is a **new creating** not part of the **grammer**. We cannot add **S'** in the grammer part. [**IMPORTANT**]
+* Purpose of **augmented production(S')** is **acc**. Only for **acc** not for others. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8c982dda-fdc3-4931-a663-7e65e2ad9cc2)
 
+* In the **diagram state no zero(0)** which is **equal** to ***table row no zero(0)**.
+* From **state no zero(0)**, **4** people are going outside. Out of the **4**, **2 terminals(a, b)** are going. So the **2 terminals(a, b)** will go to **action area**. So the **2 variables(S, A)** will go to **Goto area**.
+* From **state no zero(0)**, **4** people are going outside. It means that in the **0th row**, **4 values** will come.
+* **Terminals** will come to **action area**. [**IMPORTANT**]
+* **Variables** will come to **Goto area**. [**IMPORTANT**]
+* For **state no zero(0)** and **a** we have **I3**. Write **S3** in the table.
+* For **state no zero(0)** and **b** we have **I4**. Write **S4** in the table.
+* **Shift and reduced** are in the **action part**. Write only **S and r** in the **action area**. [**IMPORTANT**]
+* Don't write any **S and r** in the **Goto area**. Just write **number**. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/47e58831-57bb-4fa8-a2d7-cec4a27669d3)
 
+* On **I0**, 4 people are going outside. So in the **0th row**, 4 values will come. They are all not **shift or reduce**. Out of the 4 people 2 people are going to **Goto part**, write numbers for them. There is no **shift or reduce**. Only 2 people are going to **action part**. Only **2 shift** will come.
+* Completed -> Dot on the right hand side.
+* In state **I0** anyone completed?
 
+> No, so no **reduce** will come.
 
+* How to check in state **I0** no reduce?
 
+> Go to state **I0** and check if any production completed. No one completed so no reduce.
 
+* For only **terminals** which are going to **action part** for them only we have **2 shift**. Remaining will go to **Goto area**.
+* State **I0** over.
+* In state **I1** whoever is there, they are **augmented production**. The purpose of **augmented production** is **S** over or not over. To these we don't have to do anything.
+* **I1** indicate that **S** over. **S** over means string should also be over. On **I1(1)** we are expecting **$**. **I1(1)** on **$** blindly write **acc**. **S'** is the special person, no reduce no shift. Write **acc**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/592da45d-ace4-4212-9c72-2c48cc2ebac7)
 
+* In **I2**, three people are going outside. 1-variable(A) and two terminals(a,b). variable(A) cannot give **shift or reduce** leave it. Two terminals(a,b) so **two shift** will come.
+* **I2(2)** on **a** will give **I3**. Write **S3** on the table.
+* **I2(2)** on **b** will give **I4**. Write **S4** on the table.
+* **I2(2)** on **A** will give **I5**. Write **5** on the table.
+* **I2** over.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22d5821b-44e5-40e3-baad-6209bb1a4955)
 
+* In **I3**, three people are going outside. 1-variable(A) and two terminals(a,b). variable(A) cannot give **shift or reduce** leave it. Two terminals(a,b) so **two shift** will come.
+* **I3(3)** on **a** will give **I3**. Write **S3** on the table.
+* **I3(3)** on **b** will give **I4**. Write **S4** on the table.
+* **I3(3)** on **A** will give **I6**. Write **6** on the table.
+* **I3** over.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5867747b-50ca-4ec7-9618-1a8922bc7069)
 
+* No reduce in **I3** because no one completed means handle not came.
+* IN **I4** no one is going outside. It means **no shift**. One person is completed. **Production '3'** which is **A -> b** is completed.
+* **Completed** also called as **final** also called as **reduced**.
+* **Production '3'** is completed we should write **r3**.
+* In the **fourth state(I4)** we should write **r3** as **Production '3'** is completed.
+* **fourth state(I4)** means **4th row** and **Production '3'** is completed. We should write **r3** in **state(I4)**, total row we write. That's why it is called as **LR(0)**.
+* **LR(0)** means blindly write.
 
-
-
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/288af9d9-1983-42bc-b8db-4b7c6073bb50)
 
 
 
@@ -4636,3 +4770,4 @@ c) A grammer(G) is said to be **Ambigious grammer** if we can find **atleast one
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/13c32075-f1fd-4277-9417-1f78dea3cf1b)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5eff1507-a093-4b38-9b62-114aa658b9ff)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c6bf9c49-01a8-4407-bf0f-92c01cd177a4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb1a6fb8-6936-4717-9fe7-2777648a8645)
