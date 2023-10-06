@@ -4767,12 +4767,16 @@ c) A grammer(G) is said to be **Ambigious grammer** if we can find **atleast one
 * The grammer maybe **LR(0)** grammer because it is not afraid of **left recursion, left factoring**. I
 * **LR(0)** grammer is only afraid of **ambiguity**.
 * **LR(0)** grammer is **more powerful** so there it **hope**.
-* Bottom up parsers are **more powerful**.
+* **Bottom up parsers** are **more powerful**. They maybe hope.
 * In **ambiguity**, both **LL(1) and LR(0)** grammer will **cry**.
 * In **left recursion**, **LL(1)** grammer will **cry** and **LR(0)** grammer will not **cry**.
 * In **left factoring**, **LL(1)** grammer will **cry** and **LR(0)** grammer will not **cry**.
 * More powerful doesn't mean that **everytime** it will work.
 * There is a **hope**
+* In **compiler** the dangereous problem is **ambiguity**.
+* Identifying **ambiguity** is undecidable. Conversion is also undecidable.
+* **Left factoring and left recursion** we can convert.
+* **ambiguity** is the complex problem.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/02525c5c-991e-4f02-94de-584b5ce2f871)
 
@@ -4781,25 +4785,148 @@ c) A grammer(G) is said to be **Ambigious grammer** if we can find **atleast one
 * Grammer(G):-
 * S -> (L) | a
 * L -> L,S | S
-* Start from 2hrs 23mins.
 
+* Step **1** is **I1**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30b45214-e7e5-42b2-9e34-807ae11cdbc6)
 
+* Start symbol is **S**.
+* Create the augmented production.
+* S' -> S
+* S' ->.S [Augmented LR(0) item]
+* Find the closure() of **S'**.
 
+1) Write as it is.
+2) **Variable(S)** is after dot, so write the contents(productions)** of **Variable(S)** with the dot at the starting from the given grammer.
 
+* S -> .(L) | .a [( -> Terminal]
+* No variable after dot so stop it.
+* It is **I0** state.
+* **I0** is over. To make it **DFA** we need to cover **3 possibilities**. 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b437e28-506b-4cf3-81fe-e83b49693d79)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/15c53e37-83a0-41b4-9eb0-fd265bbc92d7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a897c5a8-be8f-4499-a380-3b1a8c87ed7c)
 
+* Because of **S -> (.L)**, we have **L** after the dot. So we have to copy all of the **contents(productions)** of **variable(L)**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/23ce85b8-357e-4de0-bfda-050f52e02974)
 
+* Now we have **L and S** after the dot. No use of writing the **contents(productions)** of **variable(L)** again. Write the **contents(productions)** of **variable(S)** only.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bcf8a9a2-15c5-4e01-8da0-d315bbf3da9d)
 
+* In **I1** after dot nothing there. Leave it.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4bd18ac6-b917-40ba-93a8-2e72bbc5f1c7)
 
+* In **I2** we give two **L's** after dot. Both will go.
+* On **I2** if we give **L** then both **first and second production** both will go as after dot **L** is there.
+* At the end of the day **L** only.
+* It is **one** as we are doing **DFA**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/318ed4d1-f31e-4935-ba5e-637dc7b04ac0)
 
+* S -> (L.)
+* For the input of **)** we got **S -> (L).**. It is now completed. This is **I6**.
+* L -> L.,S
+* For the input of **,** we got **L -> L,.S**. As we have **variable(S)** after the dot so we have to copy all of the contents(productions) for **variable(S)**. This is **I7**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/29d8074f-efb9-47b5-bebc-f46e692fc65f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/067c5e3c-0ee6-4087-b56f-18d1619ab3b2)
 
+* For **S** in **L -> L,.S** We have input of **S**. So it is **L -> L,S.**. It is **I8** state and it is completed.
+* We have **0 to 8** which is **9** states.
+* [**IMPORTANT**]
+* In **DFA** one state and one symbol only. We cannot give same symbol multiple times.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c37d9a69-c37a-4ec9-9613-0e39a6c88528)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57b6f00d-b0fa-4943-90d0-2b2b9511cb45)
+
+* [**IMPORTANT**]
+* Going outside by giving some **input** means they are **not completed**. To complete them we are going outside.
+* If already completed we cannot go outside.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d9dbca06-0886-48c7-8dd3-d95e42ee4b2a)
+
+* In state **I0**, 3 people are going outside. Going outside means **shift entries** will come. We have **variables(S)** they will go to **Goto part** and **terminals(a, '(' )** will go to **action part**. Only the **terminals(a, '(' )** will **shift entries**.
+* Our goal is **action part** only.
+* **I0** completed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b72d8318-d03f-436a-b66a-32203e4ecb81)
+
+* **I1** is special person.
+* No need to do special work for **I1**.
+* Nothing will come because of **I1**. The only thing which will come is **1** on **$** we will write **acc**. Other than this nothing there.
+* **I1** completed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ce86d40-92d4-453c-9ead-1b1ce5a27ff0)
+
+* In state **I2**, 4 people are going outside. Going outside means **shift entries** will come. We have **variables(S, L)** they will go to **Goto part** and **terminals(a, '(' )** will go to **action part**. Only the **terminals(a, '(' )** will **shift entries**.
+* **I2** completed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3690d631-e6d5-4292-a9b3-57c9a0245690)
+
+* In state **I3**, no one is going outside. It means that they are already completed. If already completed why apply **input**.
+* Completed people will give **reduce**. [**IMPORTANT**]
+* Non-Completed people will give **shift**. [**IMPORTANT**]
+* As **I3** is completed, so it will give reduce.
+* State is **3** as it is **I3**.
+* The productionis **S -> a.**, so it is the **2nd production** from the given grammer.
+* We have to write **r2** in the **total action**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33a55dd2-eb96-4972-a807-6a96f6135749)
+
+* In state **I4**, 2 people are going outside. Going outside means **shift entries** will come. We have **no variable** and they will go to **Goto part** and **terminals(',' , ')')** will go to **action part**. Only the **terminals(',' , ')' )** will **shift entries**.
+* **I4** completed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5fecfec9-3a60-40e5-b49e-614e7b68be0e)
+
+* In state **I5**, no one is going outside. It means that they are already completed.
+* State is **5** as it is **I5**.
+* The productionis **L -> S.**, so it is the **4th production** from the given grammer.
+* We have to write **r4** in the **total action**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5720d728-013e-4f5f-8e9b-f092071678e9)
+
+* In state **I6**, no one is going outside. It means that they are already completed.
+* State is **6** as it is **I6**.
+* The productionis **S -> (L).**, so it is the **1st production** from the given grammer.
+* We have to write **r1** in the **total action**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e5c4262-6a8d-4eb3-a7e2-67097cd41205)
+
+* In state **I7**, 3 people are going outside. Going outside means **shift entries** will come. We have **variable(S)** and they will go to **Goto part** and **terminals(a , '(')** will go to **action part**. Only the **terminals(a , '(' )** will **shift entries**.
+* **I7** completed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b4b11fb-7d7b-4a20-8a33-2beafec5cb6e)
+
+* In state **I8**, no one is going outside. It means that they are already completed.
+* State is **8** as it is **I8**.
+* The productionis **S -> L,S.**, so it is the **3rd production** from the given grammer.
+* We have to write **r3** in the **total action**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3716a806-0f60-4b2a-a07a-69091b2ccece)
+
+* There is **no conflicts**.
+* So it is **LR(0)** grammer.
+* **LR(0)** grammer passed means everyone will **pass**.
+* Top down parser, top most one is **LL(1)** and it said it **cannot**. Bottom up parser's least parser which is **LR(0)** and it said **yes**.
+* **LR(0)** is more powerful.
+* **LR(0)** passed means **SLR(1), LALR(1) and CLR(1)** will gurantee **pass**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/990463eb-8796-49e2-86b0-afcb73c4ec80)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/912e1963-ac67-4775-8962-8caf6ee11b46)
+
+* Small error in table. Fixed.
+* **Action part** is more valuable in the **table**.
+* Unless and until mentioned to draw total table, don't draw total table.
+* Do only **Action part**.
+* **Goto part** only for **name sake**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31487bec-945b-497f-9b98-da66195c1b25)
+
+* All not completed people will not give **shift entry**.
 
 
 
