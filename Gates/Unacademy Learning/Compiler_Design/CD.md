@@ -4965,6 +4965,93 @@ c) A grammer(G) is said to be **Ambigious grammer** if we can find **atleast one
 
 * [**IMPORTANT**]
 
+## parsing-ix(12) [6th Oct 2023]
+
+* **Unambigious** grammer **LR** there is **hope**. If hope is there then only we will check. After checking it may pass or it may fail.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
