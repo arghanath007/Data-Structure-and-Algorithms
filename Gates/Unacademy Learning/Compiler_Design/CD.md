@@ -4927,17 +4927,43 @@ c) A grammer(G) is said to be **Ambigious grammer** if we can find **atleast one
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31487bec-945b-497f-9b98-da66195c1b25)
 
 * All not completed people will not give **shift entry**.
+* Not only **not completed** but after dot **terminal** should be there then only we will get **shift entry**. [**IMPORTANT**].
+* Question:-
+* Not completed people will give **shift entry**?
 
+> **NO**. It is **wrong**.
 
+* Shift entries will come because of **not completed** but every **not completed** cannot give **shift entry**. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8b3b2e8-c764-46ef-8347-7f14bf41aca4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4655b74c-76f3-49bd-b2ee-9331c890249c)
 
+* **Reduce** will come because of **completed**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ccf55a1-4834-471a-849d-a0e940af6623)
 
+* SR(Shift-reduce) conflict. At that time it is saying that we may **push** or we may **pop**. That is the **dilemma**. Maybe handle or may not be **handle**.
+* In **two places** problem came.
+* Already **shift** there and then **reduce** came.
+* Shift means **push**.
+* Reduce means **pop**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be683c34-2362-4f12-b67f-32bfb8331487)
 
+* There maybe chance that two people may/will complete.
+* This is **RR(reduce-reduce)** conflict.
+* We will get **RR** conflict when in **one state** multiple people are **completed**.
+* **Bottom up parser, LR parser** contain **two conflicts** whcih are **SR and RR** conflicts. [**IMPORTANT**]
+* There is **no SS** conflict.
+* We will get **SR** conflict when in **one state** completed people are there as well as **non-completed** people also there.
+* In one state **completed and non-completed** both people are there then it is **SR** conflict will come.
+* In one state **more than one(1) completed** people are there then it is **RR** conflict will come.
+* Conflict will come in the **action area** only.
+* Write only **action area**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f6badbe-4fda-4c3f-9d22-783f2730d01e)
 
-
+* [**IMPORTANT**]
 
 
 
