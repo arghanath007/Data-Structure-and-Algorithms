@@ -4968,49 +4968,114 @@ c) A grammer(G) is said to be **Ambigious grammer** if we can find **atleast one
 ## parsing-ix(12) [6th Oct 2023]
 
 * **Unambigious** grammer **LR** there is **hope**. If hope is there then only we will check. After checking it may pass or it may fail.
+* Not completed and shift not came -> After dot immediately **variable(A)** there.
+* We have to take variable as input. We are going to **Goto part**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b464bf3f-0aad-4b8f-b4a1-645e13a378eb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2bf50fad-2ad3-4f29-b777-527e6797e44c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/77650e03-0c0e-423f-87e4-3a3e059829d3)
 
+* In **LR** parser, **SS** conflict is not possile, why?
 
+> We are using **DFA**.
 
+* If we use **NFA** then it is possible.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ff5fcab-82d5-4cd4-8d1b-2cdf01c2ddd5)
 
+* LR parser conflicts -> Two possible -> SR and RR conflicts.
+* SR or RS both are **same**.
+* Reduced entries will come in the table because of **completed** people.
+* Is there any completed person who will not give reduced entries?
 
+> Augmented production. It is not part of our grammer.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/29552393-d1a1-4418-8c59-e43d05b15ed8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d5977f52-20bb-4cf8-a889-f29a5e75fcbe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b7885d61-6eda-456f-9fa4-c19da0756d7f)
 
+* To get the **conflict** minimum of two productions are required. Not only min. of two but out of them one should be reduced.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/96f01fa1-ea72-4fc0-aa4d-585aee56c86e)
 
+* If at all the state(I5) is having conflict then:-
 
+1) I5 should have minimum of two productions.
+2) Atleast one of them in those two productions is completed.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c55d7a33-7f5b-4b63-8548-6c188bab7bee)
 
+* LL(1) and CLR(1) or LR(1) are only having **relation**.
+* LL(1) and LR(0) or SLR(1) or LALR(1) are not having any **relations**.
+* Check the given grammer **LR(0)** or not?
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd1732f7-cd07-4719-91c3-701c7dd2f509)
 
+* If **LR(0)** passes then **SLR(1), LALR(1) and CLR(1) or LR(1)** are also **passed**. No need to do them also.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b57512bd-87f5-4541-afd5-38a044dacdfc)
 
+* Find the **closure()** of **LR(0) item** and we will get **I0** state.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/046fcb59-1e2b-417a-baa2-0d2a7ea5f9b1)
 
+* As we have **variables(E, T)** after do so we have to copy the contents(productions) of the **variables(E, T)** and starting add dot to them from the given grammer.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee7f9897-6bdb-4597-af71-2bfa6fae856d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e3cd850-9c62-4dc3-b0f2-76f57c11bf95)
 
+* How to check if given grammer is **LR(0)** grammer or not, after DFA over?
 
+> One way is **table**.
 
+* If any state having problem it has to satisfy one criteria which is **minimum of two productions**. Out of the two, one should be **reduced**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/59952452-e437-4929-95cd-65e3c7834759)
 
+* It looks like a problem but it is not a problem because it is augmented production.
+* Augmented production will only give **acc**.
+* It is not part of the grammer.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a7abc19-54ff-487e-b6d6-736f496159d7)
 
+* CHeck if the grammer is **LR(0)** grammer or not.
+* LL(1) failed due to **left factoring**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ed81559-e747-4939-a995-d4a961abb74e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/01091b9a-3619-4b09-b8f7-96cd294a3d42)
 
+* We have a **conflict** as we have more than two productions and one of them is **reduced**.
+* 2nd Production is completed in the **I1** state. So write **r2** everywhere as it is **LR(0) grammer**.
+* With the **+** as the **input** we were going to **I2** state. So write **S2** for it. **r2** and **S2** are in the same place in the 1st row with **1**.
+* We have one(1) **SR** conflict.
+* As we have **conflict** so it is not **LR(0)** grammer.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b446484c-65fb-4ce9-9901-2c1d6d1f3b32)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f70a4332-d1d9-4bbd-a86a-df0262f494c8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae23c345-e25e-4cad-b375-5eb83d263cb7)
 
+* It is not a **LR(0)** grammer.
+* How many states are having problem?
 
+> One state.
 
+* The state having problem is called as **inadequate state(IS)**.
+* The state having no problem is called as **adequate state**. 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bdcf264c-e466-4423-8ea3-e1bfc02980a6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec6c8aad-afce-49e6-ad92-e9ac91abdd59)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d3f3eab-2aea-402c-bc9d-8966b5131886)
 
+* If it was **LR(0)** grammer then it would have **zero(0) inadequate state(IS)**.
+* LR(0) parser we write the reduce everywhere. We have write the **r2** everywhere because of **LR(0)**.
+* In **SLR(1)** everywhere we don't write. Only few places we will write.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e62799d-eb74-4d04-9955-15d5c3d3217e)
 
-
-
-
+* 1hr 17mins.
 
 
 
