@@ -5472,9 +5472,312 @@ c) A grammer(G) is said to be **Ambigious grammer** if we can find **atleast one
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b91846ee-e763-451d-90d2-bd7ab9d02e17)
 
+## parsing-x(13) [7th Oct 2023]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e2c8164c-3d34-4b1d-a896-c886a7fa153e)
 
+* To the augmented LR(1) item do **closure()** we will get **I0**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a429e3c5-0d8e-4765-babc-5ba7002671f2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d291ad1-d915-4fc7-8872-5938c208c1af)
+
+* Here, LAS are required.
+* **closure(augmented LR(1) item)**:-
+
+1) Write as it is.
+2) Ignore LAS and do normal closure.
+
+* After dot we have **S** so write the productions of **S** starting with dot from the given grammer.
+* After dot we have **A** so write the productions of **A** starting with dot from the given grammer.
+* After dot terminal there so stop it.
+* Now add **LAS** to the new people that have come.
+* For LAS of **S**, we have first(,$) -> $
+* For LAS of **A**, we have first(A,$) -> first(A) -> first(aA), first(b) -> first(a), b -> a,b -> a|b.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16301281-942b-4ca0-80e7-7de10f6fc7de)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71c1310f-491d-46ca-bdab-7325ca5da5c4)
+
+* Everywhere **LAS** are coming. How we will use them, afterwards we will see. While filling table we will use them. As of now no use. They will come everytime.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed91d25d-6399-4889-81ee-eb4a77b347e4)
+
+* In the **LR(1)** item we will know that the production is completed after dot there is a **comma(,)**. Comma(,) indicates afterwards **LAS** will come not productions. [**IMPORTANT**]
+* Dot followed by comma(,) means production is over. Nothing will come so leave it.
+* Comma(,) is for separation.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/47250efc-69b2-4927-8ca5-30519b31c0f0)
+
+* Write as it is by moving dot to the right, as it is **Goto()** that's why we are going to apply **closure()** to whatever we got.
+
+1) Write as it is
+2) Ignore **LAS** and do normal **closure()**.
+
+* After dot we have **A** so write the productions of **A** starting with dot from the given grammer.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee74abe8-3de3-4925-9e59-1680e01ff3f4)
+
+* We are going outside for **4-times** so we have applied **Goto()** four times.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7295209f-d4eb-4c91-9b20-f13b9adc07dc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6082a475-7db3-47b3-97de-77dc3dc8da70)
+
+* **I0** is over.
+* In **I1** after dot comma(,) there which means production over. Leave it.
+* In **I2** we have **A, a, b** which are coming after dot.
+* For the input of **A**, the production is **S -> AA., $** which is after dot comma(,) there which means production over. Leave it. It is **I5**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/684ef216-0127-4b84-ba4e-8b5d19fd018e)
+
+* **LAS** are different.
+* If we combine them then **more conflicts** maybe will come.
+* In case of **LR(0)** those two states we **same** and we combined them. Two rows content we kept in one row, so more conflict.
+* **LAS** different means the two states are different.
+* After dot **A** is there so we wrote the productions of **A** starting with dot from the given grammer.
+* States are increasing means rows are increasing.
+* Only **a** over then **I3** state will remember.
+* If **Aa** over then **I6** will remember.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f822fbb2-1263-4ca2-955c-7aff4e1b99d1)
+
+* Two states are there which contain exactly same productions, every thing same except the **LAS** then they are two different states in **CLR(1)**.
+* If **LAS** are not there then both are **same**.
+* In case of **CLR(1)** if two people different only by **LAS** then we can give **different number**.
+* So states are **more** which means **cost** is also **more**.
+* **CLR(1)** advantage is more power because of more states and the disadvantage is more cost.
+* **LAS** are **important**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef6adfb8-baa2-4ffb-8e8c-1d0e1677885c)
+
+* **I4** is over as after dot comma there.
+* **I5** is over as after dot comma there.
+* **I4** is over as after dot comma there.
+* In **I6** we have given **A** as input and we got **A -> aA.,$** which is **I9**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d5776f0-d288-48e2-ba93-da7da981c402)
+
+* For **a** input in **I6** we are getting **I6** only.
+* For **b** input in **I6** we are getting **I7** only.
+* **I6** is over as after dot comma there.
+* **I7** is over as after dot comma there.
+* **I8** is over as after dot comma there.
+* **I9** is over as after dot comma there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6079437f-cbc3-46df-aacd-b179b48a32c2)
+
+* In the augmented LR(1) item, we have to keep the **LAS** as **$**. Remaining everyone will come one after another.
+* It is targetting path wise. Conflicts are less as states are more but cost is more.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e9a42c0-5282-4b52-9fe8-cea43870c1a0)
+
+* We did this in **LR(0)** with **7** states but with **CLR(1) we are getting **0 to 9** which is **10 states**.
+* We are constructing **DFA** and for **LR(0)** parser the no. of states is **n1**.
+* We are constructing **DFA** and for **SLR(1)** parser the no. of states is **n2**.
+* We are constructing **DFA** and for **CLR(1)** parser the no. of states is **n3**.
+* What is the relation between in terms of **n1, n2 and n3**?
+
+> **n1 and n2** are **same**. Only in reduced entries they differ. There is no **LAS** for them. For **CLR(1)**, **LAS** are there. So more states. Sometimes equal also. Most probably CLR(1) having more states, sometimes equal also.
+
+* Most of the time **CRL(1)** having more states, sometimes equal also.
+* n1 == n2 <= n3.
+* Less than equal to -> Sometimes equal, sometimes less.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9390350-80a4-4502-990b-26b4d71915b7)
+
+* This is **in-general**.
+* If we write for a **specific problem** then we have to write either **less than or equal to**, we cannot write both.
+* To the above problem **LR(0)** is **7 states**.
+* To the above problem **SLR(1)** is also **7 states**.
+* To the above problem **CLR(1)** is **10 states**.
+* To the above **specific problem**:-
+* n1 = 7
+* n2 = 7
+* n3 = 10
+* n1 = n2 < n3
+* 7 = 7 < 10
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf5dd2e3-cc0f-4a92-aa74-0571e4793bc6)
+
+* Grammer given -> Specific to that grammer only asking.
+* Grammer not given -> In general asking.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce6a5d1b-2141-4522-b94a-bfb668f5aab6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8078c6d0-4caa-4100-a074-dbedcb8e1583)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7ab8457-067b-4b48-883b-384a38124ee3)
+
+* n1 = n2 <= n3 [In-general]
+* n1 = n2 = n3 OR n1 = n2 < n3 [Specific problem asking, grammer is given]
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf620211-2617-475f-851e-60f132cfca3b)
+
+* We are doing **CLR(1)** table.
+* **Minimized CLR(1)** another name is **LALR(1)**.
+* **Goto** part actually not required. It will not create any trouble.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/183b3f88-439c-4100-98f9-06e68859fdac)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c69327a4-6c86-45ef-97b3-509a4046c5af)
+
+* Goto part done.
+* In any state we are going outside by reading a **terminal** then we are getting **shift entries**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f53a846e-99ca-4e94-aedf-2f83b7edfe40)
+
+* Action part done.
+* Shift entries done.
+* In all **LR** parsers there is **no difference** in **shift entries** there is only difference in **reduce entries**.
+* In **I4** the production **A -> b** is completed which is **3rd production** which means **A** is completed so we have to do **follow(A)**.
+* follow(A) -> follow(Epsilon) -> go further, further not there, go to parent -> [This is SLR(1)].
+* In **I4** the production **A -> b** is completed which is **3rd production** so we should write **r3** in the **LAS** only. **LAS** of **I4** is **a|b** so we will write **r3** on **4th row** for **a and b** in the table.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6e41acb0-3b35-4a96-819b-0599e5a8b0f0)
+
+* In **I5** the production **S -> AA** is completed which is **1st production** so we should write **r1** on **5th row** for **$** in the table.
+* In **I7** the production **A -> b** is completed which is **3rd production** so we should write **r3** on **7th row** for **$** in the table.
+* In **I8** the production **A -> aA** is completed which is **2nd production** so we should write **r2** on **8th row** for **a and b** in the table.
+* In **I9** the production **A -> aA** is completed which is **2nd production** so we should write **r2** on **8th row** for **$** in the table.
+* This is **CLR(1)** table.
+* There is no conflicts.
+* So the above grammer is **CLR(1)** grammer.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22c4da42-879b-4686-a07a-5482c734e7cb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c0864c1-e471-47aa-a479-392f5aa20555)
+
+* [**IMPORTANT**]
+* CLR(1) and LALR(1) **both** will take care only in that path.
+* Minimized CLR(1) is LALR(1).
+* **SLR(1)** will take care **overall**.
+* LR(0) does not take care of anything.
+* CLR(1) and LALR(1) **both** will take care about every specific path.
+* CLR(1) and LALR(1) both will take care about every path.
+* Given grammer is CLR(1) because in CLR(1) parsing table, no conflict.
+* CLR(1) is more powerful comparing with all other parsers because it will take care in every path.
+* The only problem with CLR(1) is if two states differ only by **LAS** then they are considered to be **2-different** states so cost will be **more**. Power is more so cost is also more.
+* To decrease the cost of CLR(1) we are applying minimization algo on CLR(1).
+* **Minimized CLR(1)** is also known as **LALR(1)**.
+* In **LALR(1)** if two state differ only by **LAS**, consider it as single state. Cost will **decrease**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c359054-8e1e-4755-9487-46576291e81c)
+
+* CLR(1).
+* I3 and I6 are **same**.
+* I4 and I7 are **same**.
+* I8 and I9 are **same**.
+* These **6** people are 6 different states in **CLR(1)**.
+* These **6** people are 3 different states in **LALR(1)**.
+* This is the only minimization we will done.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/081491ce-e3c3-4075-9aa5-b06df5e1be36)
+
+* I3 and I6 productions are **same**. **LAS** only differ.
+* As productions are **same** that's why we are talking.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7bca368f-74d4-441a-a6c3-d6cd2df15cf7)
+
+* Rename **I3** state to **I36** and in **LAS** with the **a and b** also add **$**. Now **LAS** is **a, b, $**.
+* Now remove **I6** state.
+* Differ by **LAS** only. Let's make both the states in **one place**.
+* In both of the combined paths we are either getting **a or b or $** in **LAS**. We did minimization.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a950c987-902e-4dc3-ad21-48ddd12338d7)
+
+* Rename **I4** state to **I47** and in **LAS** with the **a and b** also add **$**. Now **LAS** is **a, b, $**. Now remove **I7** state.
+* Rename **I8** state to **I89** and in **LAS** with the **a and b** also add **$**. Now **LAS** is **a, b, $**. Now remove **I9** state.
+* Previously no. of states was from **0 to 9** which is **10 states**. Out of the **10 states** after **minimization**, **3** of the states are **removed**. Now we have **10 - 3 -> 7** states.
+* LR(0) is also **7** states.
+* SLR(1) is also **7** states.
+* LALR(1) is also **7** states.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c60e9e98-4383-4227-b6e0-e142ab36a1f8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/03d5095f-5f9b-4f44-9e3f-3f11b4c0e3c7)
+
+* After minimizing it is like **LR(0)**. No care there in **LR(0)** but in **LALR(1)** there is **care**. Every path we have taken care of.
+* We now have to make it **DFA**.
+* In **I2** for **b** earlier it was going to **I7**, now it is going to **I47** as **I7** and **I47** are **same** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/faa969c2-2637-4143-a1a4-ad9b367c2ca4)
+
+* **3 and 6** we have to merge.
+* **4 and 7** we have to merge.
+* **8 and 9** we have to merge.
+* **Two conflicts** are only possible, **SR and RR** conflicts. Don't create new conflicts.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa386b8b-18f7-4be6-8459-f3acf55dbc1b)
+
+* **SS** conflict is not there. It is not possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/196567d2-853e-4092-b5da-3b6f627baff8)
+
+* In the **3rd row** of the table for **a** we have **S36**, for **b** we have **S47** and for **A** we have **89**.
+* Just make two as 1.
+* We removed **6th row**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c928c283-042f-4580-b657-0b31532d429c)
+
+* In the **4th row** of the table for **a** we have **r3**, for **b** we have **r3**.
+* We removed **7th row**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a9e90e0-6658-43b0-90fc-afffd4bba0a1)
+
+* r3 -> Reduce 3rd production.
+* r3 or r1 then it is **RR conflict**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f4afb5b-a7d9-4aca-93c8-a31f1cf157a4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8fdb4291-7792-4449-941e-08b5cdaa4af0)
+
+* In the **8th row** of the table for **a** we have **r2**, for **b** we have **r2** and for **$** we have **r2**.
+* We removed **9th row**.
+* New rows -> 0, 1, 2, 36, 47, 5, 89.
+* In place of **S3** write **S36** as state **I3** not there.
+* In place of **S4** write **S47** as state **I4** not there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b5f1dbb-0231-4b0e-ad17-2e68ce10fca5)
+
+* 0th row -> S36, S47, 1, 2
+* 1st row -> acc
+* 2nd row -> S36, S47, 5
+* 3rd row(36) -> S36, S47, 89
+* 4th row(47) -> r3,r3,r3
+* 5th row -> r1
+* 6th row(89) -> r2,r2,r2
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4bb714aa-dec5-4468-be70-6e8c15eac6a1)
+
+* When merging is going on then one row contains **r2,r2 and r2** and another row contains **r1,r1 and r1**. If we **merge** them then we will get **RR** conflict.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/de4af2e2-02b3-45ae-89d9-9cc48de1a149)
+
+* **SR** conflict will never come after **combining/merging**.
+* After **minimization** there is **no conflict**.
+* It is **minimized CLR(1)** and another name is **LALR(1)**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c1c3d7b-7a9e-462b-b45e-203101621d78)
+
+* Two states we are making as one, it is **LALR(1)**.
+* Every paths individual then it is **CLR(1)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89fb3759-4451-4a25-a7c3-f98bae6435bf)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ccc45ca-0dbb-49b0-afbc-181f3a54014b)
+
+* Conclusion [**IMPORTANT**]
+* n1 = n2 = n4 <= n3. [In-general]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a777d07b-4913-46c7-91b0-47e75f5e42ca)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db1e70d7-c24a-484f-a4a3-4c515ff34098)
+
+* Specific problem.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1845edd2-f285-4525-8a42-c300bf433943)
+
+* [**IMPORTANT**]
+* Check the following grammer is **LALR(1)** or not.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/53173e65-3d15-4cdb-8335-5f871d349e27)
+
+* Example.
+* Start from 1hr 38mins.
 
 
 
