@@ -5220,93 +5220,257 @@ c) A grammer(G) is said to be **Ambigious grammer** if we can find **atleast one
 2) Both the parser Goto part of the table will differ. -> False. [The Goto part will not change that's why we haven't written the Goto part. No Change]
 3) Both the parser shift entries will differ. -> False [Shift entries do not chance]
 4) Both the parser error entries should be differ. -> False [Instead of 'should be', 'may be' would be there. We have done extra calculations, it may change]
-5) Both the parser reduced entries may be differ. -> True
-6) Both the parser blank entries may be differ. -> True [Error means blank entries only]
+5) Both the parser reduced entries may differ. -> True
+6) Both the parser error entries may differ. -> True. [5th and 6th are indirectly same]
+7) Both the parser blank entries may differ. -> True [Blank means error entries only] [Error means blank entries only]
+8) Both the parser DFA no. of states will differ. -> False.
 
+* In **LR(0)** everywhere we have written **reduced** so **few gaps**.
+* In **SLR(1)** we have written **reduced** in **few places** so **more gaps**. Less reduced coming so more gaps.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fbed531f-79b5-482e-9803-661e139996b4)
 
+* We are creating **DFA**. There is **no minimal DFA** here.
+* Following grammer is **SLR(1)** or not.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1f07c5a-7d21-452a-ab8c-0ede12861202)
 
+* Example.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/55c9aa05-b1a0-4633-9574-2af5f467e8dd)
 
+* For **LL(1)** we are checking **S** only because it has multiple productions.
+* There is **no problems** in the grammer so **LL(1)** passed.
+* As **LL(1)** is the top most parser of **top down parser**, so the top most parser of **bottom up parser** will also pass because of **LL(1)** passing.
+* So **CLR(1)** which is the top most parser of **bottom up parser** will also pass.
+* We compared the **toppers** and they **passed**.
+* In the first group **topper satisfied** which gurantees that the **topper** in the **second group** will also satisfy.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc1c2ac7-ab74-4e5f-bcc8-f72322da9d6b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9a98f327-8e24-4e18-8702-d04b3d56a381)
 
+* We don't know about **LR(0), SLR(1), LALR(1)**. Anything can happen.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1bc0384a-6051-44dc-94e6-7a50fad5eaad)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ac86ab2-8ec7-4dc4-8e0c-326c5cd0e854)
 
+* Because of **.S** we got the productions of **S**.
+* Because of **.A and .B** we got the productions of **A and B**.
+* If we give **Epsilon** as input in **I0** then both will come but first question is how can we give **Epsilon** as input in **DFA**. We cannot given **Epsilon** as input, otherwise it will become **Epsilon-NFA**.
+* We cannot keep **Epsilon** on transition line.
+* .Epsilon -> . (dot only) [ . -> dot]
+* dot Epsilon means dot only.
+* Without reading any symbol, it is **accepted**. Without reading any symbol, it is in final state.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5061c6a2-26fe-4898-af15-d8c8600bec06)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b566564-21e7-4589-a9e5-5658d04ba269)
 
+* In **I0** we can say something is **completed** if it has **null productions(Epsilon)**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8fc39598-57d3-4a1d-9f69-bb8af29f38b1)
 
+* In **I0** finally there are **5** productions.
+* Out of the **5**, **2** productions are **completed**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/426e3281-d4f4-45e2-8a6d-63b6f12c7e6e)
 
+* Purpose of **example** is to handle **Epsilon** in productions.
+* On **I0** three people are going outside but all of the **inputs** are **variables(A,B, S)** so no shift entries will come.
+* On **I0** no shift entries there.
+* **2** productions are **completed** which are **3rd and 4th productions**. So we will write **r3 and r4**.
+* State is **0** as it is **I0**.
+* We are going to write the reduce(r3 and r4) everywhere because it is **LR(0)**.
+* Total row is **r3** and total row is **r4**.
+* So we have **3-RR conflicts**.
+* So it is not **LR(0)** grammer.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5644a9ff-dd06-4d48-9860-119144b9d887)
 
+* **I0** looks like a problem. Min of 2 productions and one of the productions is reduced. Two reduced are there.
+* Now we will check for **SLR(1)**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2496237f-f5be-470e-8e57-bc55f8154236)
 
+* Further more coming.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8266611-1b7a-42c9-9998-416b4ce21951)
 
+* Only terminals there.
+* LR(0) having problem or not?
 
+> We have to do till **I0** state only. Problem there or not there, one is enough.
 
+* LR(0) having how many problems?
 
+> Then we have to check all. How many problems are there then we have to check all.
 
+* In **I0** state we have **3-problems** and the state is **I0** only. Only one **inadequate state** and 3 problems there.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/14544dcc-1c81-44da-bc21-19d448e30295)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5c8b2228-8636-49af-a0c0-26d029f9de50)
 
+* For **SR** we need one going outside reading terminal, which means **no shift** possible as we don't have anyone going out. So **SR** is also not possible.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/888e9a9d-e754-4a5b-b280-0cb58964993d)
 
+* **It looks like a problem but it is not a problem** but still we are checking once.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/15b99013-fa98-4b72-9d5d-fbf8bf7929f2)
 
+* Finally in the **LR(0)** parser we have one **inadequate state** and 3-RR conflict, problems there 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a925a5d-3406-47c2-9fa6-c5c6caa59075)
 
+* It is not LR(0) grammer.
+* One state is having problem and in that one state only we have 3-RR conflicts.
+* Now we check for **SLR(1)**.
+* Check **I0** state for **SLR(1)**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e32834d4-bc26-460d-8fba-7a843ebe6d6d)
 
+* Copy all of the shift entries from LR(0) to SLR(1) but we don't have any shift entries.
+* The production **A -> .** which is the 3rd production which is reduced, which means **A** is **completed** so we will do **follow(A)**. We will write **r3**.
+* follow(A) -> first(a), first(b) -> a,b
+* So for **0** we will write **r3** on **a and b**.
+* The production **B -> .** which is the 4th production which is reduced, which means **B** is **completed** so we will do **follow(B)**. We will write **r4**.
+* follow(B) -> first(b), first(a) -> a,b
+* So for **0** we will write **r4** on **a and b**.
+* So **RR** conflict is still there.
+* Now  have **1 adequate state and 2-RR conflicts** there.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d2a3da5-82ed-4492-a88b-c1806f951b84)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8fbdfb30-9041-420c-a6e7-0e9e906fd7d4)
 
+* SLR(1) failed.
+* Given grammer is not SLR(1).
+* Now check for **LALR(1)**. [To be done later]
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/23ba4435-d025-4bec-9f5d-81ec1103f6d2)
 
+* **LALR(1)** we have to **verify**.
+* LR(0) and SLR(1) parser belongs to **LR(0)** items.
+* We need to add some more to **LR(0)** items to make them **LR(1)** items.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f4a0e35a-beb1-4299-bfbf-149edee344dd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89b35e82-daec-481c-a446-a0c4e5bac03a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/175da041-6e08-4a07-8d64-3816c08316f1)
 
+* Augmented production
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db030659-8ee1-498e-874d-68442b51586a)
 
+* Augmented LR(0) item.
+* Comma(,) not there for separation purpose we have kept.
+* LAS -> Look Ahead Symbol
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7fd0127f-d906-4fb8-966b-35fe9e89c1f3)
 
+* LR(1) item.
+* How to find closure() and Goto() of LR(1) items?
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea02c6c5-601d-4154-ab5a-c58a8016a2b5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98daed1c-4bb5-4c87-985e-bde514d4430b)
 
+* Closure of **LR(1) item**:-
 
+1) Copy as it is.
+2) For now forget about **LAS** which is **$** and do normal story.
 
+* Because of **.S** we have to write the productions of **S** starting with do from the grammer.
+* Because of **.a** we have to write the productions of **A** starting with do from the grammer.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a59906ee-f4c2-4a70-9987-c68e0a814e06)
 
+* New people also require **LAS**.
+* First of remaining part.
+* After **S** immediately **$** is there.
+* First($) -> $.
+* So we will write **$**. 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2cb0a369-40d5-49a6-a5a4-5f84b3b8aaa9)
 
+* First(A$) ->first(A) -> first(aA), first(b) -> first(a), b -> a,b
+* So we will write **a or b** which is **a|b**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7fec0cd8-0292-41ed-813c-7cbfdd72761c)
 
+* Everyone taking care of from where they came.
+* Everyone taking care of **Look Head**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f722027-51b3-41df-9bdb-c7f0f3b1c302)
 
+* SLR(1) finding **follow()** at the **end**.
+* LALR(1) finding **follow()** everytime.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0ea3bba-f8be-44e0-baae-f9b1d152d73c)
 
+* Example-1 [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/56cc3da3-97a2-44da-a3a4-d3dcaea7790c)
 
+* Example-2
 
+1) Copy as it is.
+2) Ignore LAS and do normal closure.
 
+* After dot termianl is there so stop it.
+* If something new will come then **LAS** will come to the picture.
+* Nothing new came, so stop it.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33fe6d20-cdc2-4ce7-987f-54ed9710d4e7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/393859c3-209b-420b-bc98-1f068995c9e8)
 
+* Example-3
 
+1) Write as it is.
+2) Ignore LAS and do normal closure.
 
+* After dot **A** is there so write the productions of **variable(A)** starting with dot from the grammer.
+* So new things came now do **LAS** for the new people.
+* first(c|d) -> first(c|d) -> c|d.
+* After dot no varialble so stop it.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ce14b4c-123b-460c-b4b1-da27a101c948)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f9eb6b6f-1dc4-4c0f-8d47-f0dfdd441c90)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76c32e2d-b2f3-4f1c-ad59-482bf43076ef)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fea57e33-847d-4b07-923a-53e5e9114771)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7737ef4e-5aed-4059-8671-b7ad51002884)
 
+* Closure(LR(1) item) definition [**IMPORTANT**]
+* **D** is a variable.
+* **G** -> grammer.
+* LAS cannot be **Epsilon**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d1d369f-dc82-4485-a676-9c587a2c577e)
 
+* Goto(LR(1) item, input) example.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b0f7895-af98-415a-94ce-374f4f3d7e12)
 
+* In **Goto()** after dot whoever there they are the **input** for the **Goto()**.
+* As after dot **A** there so **A** is the **input**.
 
+1) Write as it is by moving dot.
+2) Whatever answer we got in step(1) to that do **closure()**. Ignore **LAS** and do normal **closure()**.
 
+* After dot we have **A** so write the productions of **A** starting with dot from the given grammer.
+* Now do the **LAS** for the new people.
+* first(a|b) -> a|b
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c427d08-6e74-46bb-8e8a-581c25796d28)
 
+* Goto() Example [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f438df5a-e653-441a-96a5-71629ce023a1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/710cf320-ff6e-4611-a5d8-ff9503bad2b9)
 
+* Definition Goto() [**IMPORTANT**]
 
-
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b91846ee-e763-451d-90d2-bd7ab9d02e17)
 
 
 
