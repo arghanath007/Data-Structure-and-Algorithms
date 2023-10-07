@@ -5075,7 +5075,248 @@ c) A grammer(G) is said to be **Ambigious grammer** if we can find **atleast one
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e62799d-eb74-4d04-9955-15d5c3d3217e)
 
-* 1hr 17mins.
+* We want to check if it is SLR(1) or not?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/944238fe-3ebf-47d2-b636-adc09b968d98)
+
+* Because of the above **state**, it is not LR(0).
+* Now check for **SLR(1)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2d8eaacb-c400-44c9-a983-f5d734266145)
+
+* We have to check the above state only because all of the other states have passed **LR(0)** so they will pass **SLR(1)** as well.
+* We are drawing **SLR(1)** table.
+* We will check **necessary row** wherever previous one failed. That place we will check.
+* In the state where is the **shift entry**?
+
+> We are going outside by reading terminals.
+
+* Whatever **shift entry** there in **LR(0)** write that **shift entry** in **SLR(1)**.
+* In all **LR parser** only change is **reduced entries**. **Shift entries** are **same**.
+* Only **reduced entries** differ. **Reduced entries** will decrease in **SLR(1)** compared to **LR(0)**.
+* In **LR(0)** we write the **reduce everywhere**.
+* In **SLR(0)** we write the **reduce only few**.
+* Only **reduce** will differ. They may **decrease** sometime maybe same also.
+* In all **LR parser**, **Shift entries** are **same**. They will not **chance**.
+* In all **LR parser**, **Reduce entries** may **differ**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f881ce4-2e69-41c6-b619-39f9168fd29d)
+
+* The production **E -> T.** which is the **2nd production** that is **completed**. Production is **2** so we will write **r2**.
+* We should write **r2** everywhere in **LR(0)** but in the case of **SLR(1)** write **r2** not everywhere but whichever production(E) is over, that production(E)'s follow find out.
+* The production is over, it means that **E** is over. The next person that will come is **follow(E)**. So find **follow(E)**.
+* follow(E) -> $, first(Epsilon) -> go furthere, not there go to parent -> follow(E) -> calling itself only no use -> $.
+* As **E** is the start symbol so **E** has **$**.
+* follow(E) -> $.
+* So **1** on **$**, write **r2** instead of writing **r2** everywhere in **LR(0)**.
+* Now, the **conflict** is removed.
+* So the given grammer is **SLR(1)** grammer.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92f1f048-2818-4cb1-89d3-61a01507e984)
+
+* **Reduce entries** will change and mostly they will **decrease**.
+* The given grammer is **SLR(1)** which means that it is **LALR(1) and CLR(1)** as well.
+* For the given grammer we create **SLR(1) and LR(0)** both, no. of **inadequate state(IS)**, what is the difference?
+
+> LR(0) has **1 inadequate state(IS)** state and SLR(1) has **zero(0) inadequate state(IS)**. So **1 - 0 -> 1** **inadequate state(IS)** we have.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc3c06ce-d868-4cc8-a842-0d779967856a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f12ba01b-ab66-4a12-90c4-74f78c14d845)
+
+* We checked **only one state** because in **LR(0)** only one state **failed** and the remaining states **passed** in **LR(0)**.
+* [**IMPORTANT**]
+* First try **LR(0)** and whoever failed on them try **SLR(1)**. Don't directly do **SLR(1)** it is wastage of time.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c278ef1-e493-4d5c-82f1-720fcb7b8d2e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b12a833-1662-4ad5-ab8f-449378791465)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/96c21a1b-21fe-4a3f-81fc-06dc76e16d56)
+
+* SLR(1) or not.
+* It is not **LL(1)** grammer because of **left recursion**.
+* First try **LR(0)** and wherever problem there then try **SLR(1)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c363345-5e9f-4aaa-8fc8-5a8398b87139)
+
+* Where **1-production** is coming no need to write them.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33af5040-e30c-4416-8d18-2c0cead6a84d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/99fad363-7c4b-4322-8500-f17854fb4179)
+
+* In **I3** for **id and F** as **input** we are getting only **1-production** so leave it. No need to write.
+* In **I4** for **id and F** as **input** we are getting only **1-production** so leave it. No need to write.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/74ce7a1d-9c38-4625-aa93-2302edde64df)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65b2b2b2-dd45-4a88-a458-77b61dfee61b)
+
+* The empty circles no need to check. The empty circles don't look like problem. Look like problem then we will **check**. Not look like problem then we will **not check**.
+* The problems are:-
+
+1) Minimum of two productions.
+2) One of the two production has to be **reduced** i.e **completed**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8afe4656-0092-4a85-9d9f-0299afe099b9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bd79e82d-c3f9-46c3-9dd8-40b9434632f6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a1f3d36-4e66-4872-990b-9cc2e02ace8d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee2a0940-41e8-463b-b1ea-9020b8874418)
+
+* **I2 and I5** states look like problem.
+* We want **shift entries of any state** and we get shift entries by going outside reading a **terminal**.
+* In **I2** by reading **star(*)** we are going outside to **I4** so we will write **S4** for **2** in **star(*)** in the table.
+* In **I5** by reading **star(*)** we are going outside to **I4** so we will write **S4** for **5** in **star(*)** in the table.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/28cdb7da-d3fd-43a6-984c-e735d8281aab)
+
+* Now we will go to **reduced**.
+* In **I2** the production is **E -> T.** which is getting reduced and it is the **2nd production**, so we will write **r2** everywhere as it is **LR(0)**.
+* In **I5** the production is **E -> E+T.** which is getting reduced and it is the **1st production**, so we will write **r1** everywhere as it is **LR(0)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27f1692e-5df5-4871-b156-e48c6c1c930b)
+
+* So we have **two SR** conflicts.
+* One state having **one SR** conflict.
+* Two state having **two SR** conflicts.
+* Two inadequate states and **two SR** conflicts also.
+* Sometimes in **one state**, **two SR** conflicts can happen.
+* One inadequate state having **one SR** conflict.
+* Two inadequate state having **two SR** conflicts.
+* Between inadequate state(IS) and conflicts, **conflicts** are **more** because in **one state** there can be **more problems**.
+* Atleast **one inadequate state(IS)** is there so finally it is not **LR(0)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/432b9d72-cc3f-4dcb-a5c4-98876a18be1d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a978af2-9290-4fba-92c6-7b3cdc10fed7)
+
+* The given grammer is not **LR(0)**.
+* If they ask how many states are there?
+
+> Everything we have to **expand**. Don't do any minimization. [**IMPORTANT**]
+
+* We have to check **SLR(1)** for the two given states only which are **I2 and I5**.
+* Write the **shift entries** from **LR(0)** as it is. They will **not change**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e45dbe8-f85f-490c-a379-ea1577e3ffbf)
+
+* In **I2** the production **E -> T.** is reduced which is the **2nd production**, which means that **E** is over, so we will write **r2** in the table, as it is **SLR(0)** table we will do **follow(production) -> follow(E)**. 
+* follow(E) -> $, first(+) -> $, +
+* **E** is the start symbol so **$** also there.
+* So for **I2** we will write **r2** in **2** for **+ and $** in the **SLR(0)** table.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/00dad336-e93c-4883-bd26-b03360bb7227)
+
+* In **I5** the production **E -> E+T.** is the **1st production** which is reduced which means that **E** is over, so we will write **r1** in the table, as it is **SLR(0)** table we will do **follow(production) -> follow(E)**. 
+* follow(E) -> $, +
+* So for **I5** we will write **r1** in **5** for **+ and $** in the **SLR(0)** table.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ecdc820-74ff-4eda-9ce2-e6cd5f7abbe4)
+
+* So we have **zero(0) inadequate states(IS) and zero(0) conflicts(SR)**, which means the grammer is **SLR(1)** grammer.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97d077f6-ab8b-4e51-bf54-38dc54746a15)
+
+* [**IMPORTANT**]
+* Question:
+* Which one of the following is **True** for **SLR(1)** and **LR(0)**?
+
+1) Both the parser DFA no. of states are same. -> True. [Doubt]
+2) Both the parser Goto part of the table will differ. -> False. [The Goto part will not change that's why we haven't written the Goto part. No Change]
+3) Both the parser shift entries will differ. -> False [Shift entries do not chance]
+4) Both the parser error entries should be differ. -> False [Instead of 'should be', 'may be' would be there. We have done extra calculations, it may change]
+5) Both the parser reduced entries may be differ. -> True
+6) Both the parser blank entries may be differ. -> True [Error means blank entries only]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
