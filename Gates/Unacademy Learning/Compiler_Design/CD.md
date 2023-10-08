@@ -5957,20 +5957,201 @@ c) A grammer(G) is said to be **Ambigious grammer** if we can find **atleast one
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c3701cde-d53a-41ed-9630-f45509340ad7)
 
 * In all of the three states we have min. of 2 productions but none of the states have one production which is **reduced**.
-* No states looks like it is having any problem in **CLR(1)**.
+* No states looks like it is having any problem in **CLR(1)**. No one looks like a problem then we could have drawn the table.
 * So it is **CLR(1)**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12f97248-fa12-4b01-bdf7-dc606c42268a)
 
 * Can we do **minimization**?
 * For **LALR(1)** we have to see if we can combine states or not.
-* 
+* **I1 and I2** have same productions but they differ in **LAR**. We will try to combine them.
+* Combining **I1 and I2**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef635d5d-e8fa-4894-affc-d6cea9cf92a2)
 
+* The new state is **I12**.
+* We have moved the **LAS** from **I2** to **I1** and removed **I2**.
+* Now checking if **I0 and I12** have any problem.
+* They don't have any problem.
+* No state looks like a problem.
+* After minimization also there is **no problem**.
+* So it is **LALR(1)** also.
+* No state looks like a problem. So it is **LR(0)** also.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9940f16d-627c-44eb-a998-956ddf7e92ef)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8cbb40e-e1c0-4120-88ce-6992c4e16403)
 
+* If states related question comes then we will not neglect any states with one production. We will write all of the states even if they have only one production.
+* State means don't keep any gapes otherwise it will create problem.
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d5ce0d99-a16b-4153-95a1-33005b98a126)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a85a80e-6a28-49cf-92d8-b0465df99515)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/031a7213-acd0-4781-89ef-8a70cf7f49c9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35c8c208-9df5-4ac3-9719-3ca967e20337)
 
+* In all of them the **productions** are **same**.
+* Productions are **same** everywhere then why we are combining?
+
+> Productions are same then everything is **same**. **NO**. In **CLR(1)**, **LAS** also matters. That's the reason **I5 and I6** are separate in **CLR(1)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d1731b2-e348-4e21-84c0-c503cdced68a)
+
+* Production 1 and 2 are **completed** they are already **reduced**.
+* State no for **I5** is **5**, we will write **r1** for 1st production(A -> c.) where in the case of **CLR(1)**?
+
+> We will **r1** in the **5th row** of the table for **a, b, c** which are the **TAS** for 1st production.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b220fe1-4112-46d8-a018-8762ed872efd)
+
+* State no for **I5** is **5**, we will write **r2** for 2nd production(B -> d.) where in the case of **CLR(1)**?
+
+> We will **r2** in the **5th row** of the table for **d, e, f, g, ......, z** which are the **TAS** for 2nd production.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2742548b-c286-4aa6-ae1b-039d658e5abd)
+
+* There is no chance of **SR** because both of the productions are **completed**, so no chance of **shift(S)**, so **SR** not possible.
+* We only have chance of **RR** conflict in **I5**.
+* Any **RR** conflict for **I5** in CLR(1)?
+
+> No **RR** conflict.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1736374-f262-4911-bafd-64738436dbae)
+
+* State no for **I6** is **6**, we will write **r1** for 1st production(A -> c.) where in the case of **CLR(1)**?
+
+> We will **r1** in the **6th row** of the table for **d, e, f, g, ......, z** which are the **TAS** for 1st production.
+
+* State no for **I6** is **6**, we will write **r2** for 2nd production(B -> d.) where in the case of **CLR(1)**?
+
+> We will **r2** in the **6th row** of the table for **a, b, c** which are the **TAS** for 2nd production.
+
+* Any **RR** conflict for **I6** in CLR(1)?
+
+> No **RR** conflict.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/82a765c1-e7d9-4045-8e30-ce94565e8d99)
+
+* No **RR** conflict in both I5 and I6.
+* Productions are same and they(I5 and I6) differ by **LAS** only.
+* For **LALR(1)** we should combine. We combined them.
+* What is the **LAS** in **I56**?
+
+> We are doing **union** of both the I5 and I6 states **LAS**.
+
+* For both the productions we will have **LAS** as **a,b,c, .... ,z**.
+* We are doing table to see if we have any conflicts or not.
+* State no for **I56** is **56**, we will write **r1** for 1st production(A -> c.) where in the case of **LALR(1)**?
+
+> We will **r1** in the **56th row** of the table for **a, b, c, d, e, f, g, ......, z** which are the **TAS** for 1st production.
+
+* State no for **I56** is **56**, we will write **r2** for 2nd production(B -> d.) where in the case of **LALR(1)**?
+
+> We will **r2** in the **56th row** of the table for **a, b, c, d, e, f, g, ......, z** which are the **TAS** for 2nd production.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3c4da48-d151-4ea3-90b3-2b644e6f2dc6)
+
+* So **RR** conflict came.
+* We are getting **26-RR** conflicts in **I56**.
+* Before combining **no conflict** there but after combining **conflict** came.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a58774ad-1987-4866-9851-81e68d3e2f6d)
+
+* This is the **example** for, there are some **CLR(1)** parser before combining no problem/conflicts, after combining problem/conflicts will come.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc5dcc19-94f3-4b61-9bf1-8e2180636d17)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba4c0e50-e68e-4914-bbd8-5d3e30a90e85)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f849dedd-e585-4a06-90a7-6b911de99855)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb085a94-d61c-462f-a24d-d4c0a69f9873)
+
+* Even though CLR(1) parser don't have **RR** conflict, **LALR(1)** parser may contain **RR** conflict. Example above. [**NOTE-1**] [Standard Parser Statement] [**IMPORTANT**]
+* If CLR(1) dont have **SR** conflict then **LALR(1)** also don't **SR** conflict. [**NOTE-2**] [Standard Parser Statement] [**IMPORTANT**]
+* In the **CLR(1)** states they dont have **SR** conflict and we have to prove that after combination for **LALR(1)** we will get **SR** conflict in **I56** state.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27a986e8-6115-4e97-ab8f-18515ed7d16a)
+
+* We talking about **SR** conflict which means one production is completed and one production is not completed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30d449f8-8db3-494a-907c-f0966a4d2246)
+
+* Production **A** is not completed and production **B** is completed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab2005b7-18e3-446e-af77-bb6afb6c564f)
+
+* We combined because the productions are **same** and they differ by **LAS** only.
+* Before combining no conflict but after combining conflict is required, that's what we have to **prove**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/caed55b9-7ffd-4138-a159-82e900726aae)
+
+* We have the liberty of selecting the **LAS** here.
+* Production 2 is completed so the **reduced entry** is in **Production 2** only. So we will write **r2** as it is **Production 2** on **d,e,f**.
+* **LAS** are for **reduced** only. They are not for **shift** [**IMPORTANT**]
+* Production 1 is  not completed so we will get **shift entry** in **Production 1** only. So we will write **S1** as it is **Production 1** as after dot **d** there which is the input of. So we will get **shift entry** at **d**.
+* **Shift** means don't look at **LAS**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d10f08d-75fc-4116-a97b-0bd38c40d670)
+
+* At **d** we have **shift** as well as **reduce** so **SR** conflict is coming.
+* So we cannot write **d** in **LAS** of **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/acd20468-14de-405d-b492-4acf20e24d36)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6373538-a5f2-464a-b12c-e04027258c1e)
+
+* Shift at 1st production is at **d**.
+* Reduce at 2nd production is at **a,b,c,e,f**.
+* Other than **d** write anything.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3b7418a2-f947-4cdd-a5e1-8ee8ce2126a7)
+
+* Ignore **LAS** in 1st production as we are finding **shift** there.
+* **Shift entry** and **LAS** no relation.
+* Shift entry is already **d** which is **fixed** only in **I6** we cannot change it.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ed832f8-ccc1-43b8-bd72-92ac2214157c)
+
+* **LAS** in **I56** is **union** of **LAS in I5** and **LAS in I6**. 
+* Shift entry is already **d** which is **fixed** only in **I56** we cannot change it.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a365534d-79c9-40ec-8d3b-eb275867b978)
+
+* If shift is at **d** then reduce cannot be at **d**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3bc9dd91-bfde-4850-be8b-70631034192b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3995ad4d-5d06-42f4-baf3-8f47a3eb69da)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac892021-7f65-4233-bbc2-ae3f7134dbd9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b3b1ebf-56de-4aa0-9c8a-342471f190ce)
+
+* Finally **d** not there.
+* Other than **d** everywhere is **r2**.
+* Shift is at **d** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e3d4394-5593-4b79-9075-f0733db6b6e3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b73f76ec-1732-4563-9c20-b847eb38bb4a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f17b60cc-4c0c-4795-8173-ea9e64111b10)
+
+* Prove of Note-2 [**IMPORTANT**]
+* Finally **SR** didnt came. No chance. SR not possible.
+* Question:-
+* We have one grammer and that grammer is **CLR(1)** grammer but not **LALR(1)**, what will be the reason for it?
+
+1) RR conflict [CORRECT]
+2) SR conflict
+3) Either A or B
+4) none
+
+* Option **1** is **correct**, **RR** conflict.
+* Question:-
+* We have one grammer and that grammer is **not LALR(1)** grammer because it is having **SR** conflict, then what can we comment about **CLR(1)**?
+
+> It is not **CLR(1)** also because of **SR** conflict there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/620d3ce8-dd2b-4f2a-ae40-26dc9f5b9d7c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a9c1986-dfb6-436c-bc20-447dcbf8e86c)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5061d5e1-ed50-4ee0-9330-9d8d4668d607)
 
 
 
