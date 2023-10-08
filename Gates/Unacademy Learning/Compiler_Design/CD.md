@@ -5903,6 +5903,94 @@ c) A grammer(G) is said to be **Ambigious grammer** if we can find **atleast one
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86409f13-6959-4e1a-a053-eda9b36808b4)
 
 * Example.
+* Question:-
+* What is the no. of states in the given grammer? 
+
+> The state which contains one production we have to write that as well. We have to write everything/everyone. Don't do minimization. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d9a809c7-77dd-45f0-97bb-63d1e728a6ae)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a98f1af7-e5a1-45bf-b192-b7bce39b7b66)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b9580fe-dda7-4b39-a332-02148706af29)
+
+* The dilemma is that is it(LALR(1)) **less than** or **equal to**, which one is it.
+* **CLR** is **more** or **equal** that is the dilemma.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2811f606-904b-4d99-997d-272b6fa25f8e)
+
+* This is the confirmation which is needed.
+* Two states are **same** but differ by **LAS** only, so stop the diagram.
+* Until we got the **confirmation** continue with the diagram.
+* The two states are **two** in **CLR(1)** but they are **one** in **LALR(1)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/26fc7ff7-863b-49f5-b9ab-6558f9833f5d)
+
+* We got confimation in the above grammer that **CLR(1)** is **more** so stop it.
+* When we got the confirmation so stop it.
+* Question:-
+* The question is either LALR(1) is less than or equal to?
+
+> LALR(1) is less than **CLR(1)**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/261a38b2-3ede-40bb-a32e-03781f38595f)
+
+* Question:-
+* The question is between CLR(1) and LALR(1), how many states differ?
+
+> We have to write the whole diagram and then check the difference.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c8ad82a4-533e-4d23-bf89-5b7195efada7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/afbbe05d-5882-4082-98e2-168b309f2203)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/305223cf-2e8f-4891-954b-136ecc23c5b9)
+
+* Difference is there in the **LAS** between **I1 and I2** states that matters.
+* Little bit different or completely different write in different states in **CLR(1)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ced927c2-ee6c-433b-9a5f-41297aea821c)
+
+* We have verify three states(I0, I1 and I2).
+* We are verify if the grammer is **CLR(1)** or not.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc2148de-1b1f-4006-8e90-4301ebf902bd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c3701cde-d53a-41ed-9630-f45509340ad7)
+
+* In all of the three states we have min. of 2 productions but none of the states have one production which is **reduced**.
+* No states looks like it is having any problem in **CLR(1)**.
+* So it is **CLR(1)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12f97248-fa12-4b01-bdf7-dc606c42268a)
+
+* Can we do **minimization**?
+* For **LALR(1)** we have to see if we can combine states or not.
+* 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
