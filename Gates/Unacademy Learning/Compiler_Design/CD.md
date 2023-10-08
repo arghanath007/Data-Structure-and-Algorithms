@@ -5777,45 +5777,132 @@ c) A grammer(G) is said to be **Ambigious grammer** if we can find **atleast one
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/53173e65-3d15-4cdb-8335-5f871d349e27)
 
 * Example.
-* Start from 1hr 38mins.
 
+* Steps for **LALR(1)**:-
 
+1) CLR(1) or not verify first. CLR(1) **True** means without combining no conflicts there. CLR(1) then may be LALR(1).
+2) Now combine conflicts may come or may not come.
 
+* After combining also no conflicts then it is **LALR(1)** also.
+* Check the following grammer is **LALR(1)** or not -> First check **CLR(1)** and the given grammer is not **CLR(1)** then there is **no chance** of **LALR(1)**.
+* Without combining itself conflict is there and with combining conflicts will increase.
+* After combining problems may come. 
+* Check the following grammer is **LALR(1)** or not -> First check **CLR(1)** and **CLR(1)** failed then there is **no chance** of **LALR(1)**.
+* Before combining itself **problem/conflicts** there and after combining more **problem/conflicts** there.
+* If it is **CLR(1)** then there is **hope/chance** there that the grammer will be **LALR(1)**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ead1015e-3979-4f25-84fd-920e6e967494)
 
+* Check the following grammer is **LALR(1)** or not
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6e633a0f-f891-4a19-bb58-afe14743e227)
 
+* The grammer is **CLR(1)** because it is **LL(1)**. [**IMPORTANT**]
+* Top down parser top most parser is **LL(1)**. [**IMPORTANT**]
+* Bottom up parser top most parser is **CLR(1)**. [**IMPORTANT**]
+* Bottom up is more powerful.
+* As **LL(1)** passed so **CLR(1)** also **passed**.
+* We got that **CLR(1)** has **passed** ok but for **LALR(1)** we need the **diagram of CLR(1)** for doing the combinations.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/adfa78bc-949b-44c3-867f-2bd3197c6d40)
 
+* We will write the augmented LR(1) item
+* S' -> .S , $
+* Find closure(' -> .S , $)
 
+1) Write as it is
+2) Ignore LAS and normally do closure.
 
+* As **.S** there we have to write the productions of **S** starting with dot from the given grammer. 
+* As **.A** there we have to write the productions of **A** starting with dot from the given grammer. 
+* As **.B** there we have to write the productions of **B** starting with dot from the given grammer. 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/610dd50c-020d-4536-89ea-4dd77e48532c)
 
+* **LAS** of **S** is **first(,$) -> $**.
+* **LAS** of **A** is **first(aAb,$) -> a**.
+* **LAS** of **B** is **first(bBa,$) -> b**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/edcfbb77-f603-40ef-8e6d-9bbf598275b6)
 
+* 1-mark question.
+* The above grammer is given and it will simply say augmented LR(1) item closure() contains how many productions?
+* The above grammer is given and it will simply given the total Io state and leave the LAS and tell to fill them?
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/10aa9423-c976-4aa2-b2a6-31d24c8a60cd)
 
+* If we are getting **only one production** then no need to write it as we will get either shift or reduction only. No conflicts will be there.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/39698d88-87d0-4529-b61a-11c06b7dc6a0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b8e80544-4d05-4943-94ce-128ec560e844)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a1bd6a0-8c83-49b7-96a7-61d5700b0dfa)
 
+* For **a** input in **I1** we got **S -> Aa.Ab,$**, as **A** there after dot we need to write the productions of **A** starting with dot from the given grammer.
+* **LAS** of **A** is first(b,$) -> b.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eedadbaa-eee9-4423-9f5b-b3ead66e3b34)
 
+* For **b** input in **I2** we got **S -> Bb.Ba,$**, as **B** there after dot we need to write the productions of **B** starting with dot from the given grammer.
+* **LAS** of **B** is first(a,$) -> a.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/525b7a39-310a-45d3-806e-eeac6bcbc878)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/15b42fc1-48cd-4004-89b2-d4adba491a8b)
 
+* In **I0** we have min. of 2 productions and one of them is reduced. So problem maybe there. Need to check.
+* In **I3** we have min. of 2 productions and one of them is reduced. So problem maybe there. Need to check.
+* In **I4** we have min. of 2 productions and one of them is reduced. So problem maybe there. Need to check.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/47b087bd-b3f6-41b8-a358-6375a8a7d939)
 
+* Only for the **three states(I0, I3, I4)** which **look like a problem**, we will create the **CLR(1)** table.
+* We will get **shift entries** by reading terminal in any state we should go outside.
+* In **I0** no shift entries.
+* In **I3** no shift entries.
+* In **I5** no shift entries.
+* No shift entries means there is no chance of **SR** conflict. **RR** maybe possible.
+* In **I0** we have two reduced **A -> Epsilon** and **B -> Epsilon** which are **r3 and r4**, which means that **A and B** are completed. So we will write **r3** on **0th row** for **a** and **r4** on **0th row** for **b**, where **a and b** are **LAS** of **A and B** respectively.
 
+> While writing reduced in the case of **LR(0)**, we will write **r3 and r4** everywhere and we will get **RR** conflict. So **LR(0)** not possible. For **SLR(0)**, we will write **r3 and r4** for the **follow(A) and follow(B)**. Follow(A), Follow(B) -> a,b. So we will write **r3 and r4** for **a and b** in **0th row** which will give **RR** conflict.  So **SLR(0)** not possible. Don't check **LALR(1)** because we have to do minimization first, so do **CLR(1)** then do **LALR(1)**. In case of **CLR(1)**, we look at **LAS** to see where to write **r3 and r4**. So we will write **r3** on **0th row** for **a** and **r4** on **0th row** for **b**, where **a and b** are **LAS** of **A and B** respectively. As of now it is **CLR(1)**, we need to check **I3 and I4** states.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bcd24e3a-6624-4081-97c8-ce90d53b4997)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6996fbef-ec82-4bc6-87e5-12a744885eae)
 
+* For 0th row or 0th state(I0).
+* LR(0) -> 3 conflicts -> 3-RR
+* SLR(0) -> 2 conflicts -> 2-RR
 
+* For the further rows(I3 and I4) it is very easy as **no shift entries** are there, so no chance of **SR conflict**. [**IMPORTANT**]
+* If we go to **I3** state we have 2-productions and one of them is completed. For **RR** conflict we need **2 completed** productions which is not possible. So **RR** conflict is also not possible in **I3**. [**IMPORTANT**]
+*If we go to **I4** state we have 2-productions and one of them is completed. For **RR** conflict we need **2 completed** productions which is not possible. So **RR** conflict is also not possible in **I5**. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e281c524-19e6-474c-98cf-76ca2a016f7a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80b274ea-9347-47a4-a62e-a0fbb3ce351e)
 
+* For 3rd and 4th row we have no **SR or RR** conflicts. In **0th state** also no conflicts there.
+* It means that it is **CLR(1)**.
+* So the given grammer is **CLR(1)**.
+* Without doing the above work we can say that the given grammer is **CLR(1)** grammer as it is **LL(1)** as well.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d60ffd9-6cfd-46af-a920-1997165d90d6)
 
+* In the above diagram check if any states have same productions but differ only by **LAS**.
+* **No** there is no state like that. No need to minimize as well, it is already **minimized**.
+* It means that the diagram is already **minimized** which means that **LALR(1)** is also satisfied.
 
+* In the above **CLR(1)** not **no states** differ by **LAS** so already it is **minimized CLR(1)**.
+* So the given grammer is **LALR(1)** also.  [**IMPORTANT**]
 
+* **Question**:-
+> If in the exam a grammer is given and asking all parsers then do **CLR(1)** first and while writing reduced entries verify all of the **parsers** as we did **like above**. Writing reduce take care. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c64ed86e-96bc-4c5f-86b3-871ce5571194)
 
+* [**IMPORTANT**]
+* Check grammer is LALR(1) or not.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86409f13-6959-4e1a-a053-eda9b36808b4)
+
+* Example.
 
 
 
