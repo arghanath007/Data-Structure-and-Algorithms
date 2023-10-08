@@ -1,4 +1,4 @@
-# Compiler Design
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8cd32bd2-987a-4a12-879c-8491e39b0439)# Compiler Design
 
 * Link -> https://unacademy.com/course/complete-course-on-compiler-design/U5V0ZQEX
 
@@ -6153,9 +6153,37 @@ c) A grammer(G) is said to be **Ambigious grammer** if we can find **atleast one
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5061d5e1-ed50-4ee0-9330-9d8d4668d607)
 
+## sdt-part-1 (14) [8th Oct 2023] 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dafcdfb0-a5c6-4ce3-ae8c-c6e101f700b3)
 
+* Example
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2bff5bd-f5d1-4a1a-9e9e-818b20293d15)
+
+* [**IMPORTANT**]
+* Same person coming with different **LAS** we have to take care of them as well. [**IMPORTANT**]
+* Same person but coming with different **LAS** that's why we have to write them **again**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8780cd0b-b049-44a3-b15f-2a91c1d2a12e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c57ee2c9-f703-41fe-88f4-db6119acbc29)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7bd2cbb2-719a-41bd-87c9-ff7a17e038c6)
+
+* Instead of writing the productions once again but with **+** just add **+** to the LAS of already **E** production there. Like above done.
+* Same **E** production one time coming with **$** and one time coming with **+** but they are both there in one state only. No need to write **twice**. Just write one time and add the **LAS**. It will become easy.
+* We are writing them again because same **E** production are coming with different **LAS** that's why.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4682f74b-1561-44f9-b660-12d9f31cdfe2)
+
+* Now add **star(*)** to the TAS.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d961d4d-44c3-41b8-b647-7c3d0e47d64f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e92dba37-0cdd-464e-abee-827ffcf84fd0)
+
+* This is **I0**. [**IMPORTANT**]
+* Mistake -> Same person(production) is coming and we ignored it. Actually same person(production) but with different **TAS** then we have to write it.
+* Production **same** and **TAS** is also **same** then we can ignore it.
+* Production **same** and **TAS** is **different** then we have to write it.
 
 
 
