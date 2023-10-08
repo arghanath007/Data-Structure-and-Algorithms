@@ -1,4 +1,4 @@
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8cd32bd2-987a-4a12-879c-8491e39b0439)# Compiler Design
+# Compiler Design
 
 * Link -> https://unacademy.com/course/complete-course-on-compiler-design/U5V0ZQEX
 
@@ -6185,6 +6185,217 @@ c) A grammer(G) is said to be **Ambigious grammer** if we can find **atleast one
 * Production **same** and **TAS** is also **same** then we can ignore it.
 * Production **same** and **TAS** is **different** then we have to write it.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9295d668-86e8-4614-9b42-1b8dc4a0acad)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3efa1c70-70b8-456a-8e58-68204acf78d2)
+
+* For **+** input in **I1** we got **E -> E+.T, $|+** as after dot **T** there we have to write the productions of **T**.
+* T -> .T*F |.F
+* As after dot **T** there we have to write the productions of **T**. Productions of **T** already there no need to write them just update **LAS** with star(*). So LAS is now **( $ | + | * )**.
+* As after dot **F** there we have to write the productions of **F**.
+* F -> .id
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc9fcbd9-5227-4b3a-8eca-ae8c7acd2f69)
+
+* I3 state:-
+* E -> E+.T, $|+
+* T -> .T*F |.F, $ | + | *
+* T -> .F, $ | + | * 
+* F -> .id, $ | + | *
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd0954fc-3e61-4281-8668-835524e9016e)
+
+* **I0 and I3** are the important states here, they are doing some thing new. Productions are **same** but with different **LAS**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bd9aa290-5359-4433-80ca-b82d3c2b9c38)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b74404bf-f1df-4afe-9f53-94c7b1163fb6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41a66983-91b0-4b09-89da-ad2bb961cf51)
+
+* [**IMPORTANT**]
+* **CLR(1)** or not, check if the states are looking like having conflicts or not.
+* So the **I2 and I5** states are looking like having **conflicts**. Let's check.
+* Draw for the these(I2 and I5) two states.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/61c9a067-bbef-4854-b2cf-958bd0c25651)
+
+* In **I2** state we have production **E -> T** which is 2nd production is completed so we will write **r2** on the **2nd row** as it is **I2** state. The LAS are **$ and +**. We will write **r2** on the **2nd row** for **$ and +** which are **LAS**.
+* We will get **shift entry** in **I2** as there is someone going outside reading **star(*)** which is a **terminal**. It is going to **I4** state so write **S4**. We will write **S4** on the **2nd row** for **star(*)**.
+* Shift and reduce columns are **different** so **no conflict** there.
+* It looked like a problem but it is not a problem in **CLR(1)**.
+
+* In **I2** state we have production **E -> T** which is 2nd production is completed so we will write **r2** on the **2nd row** as it is **I2** state. **E** is completed so we will do **follow(E) -> $, first(+) -> $, +**. We will write **r2** on the **2nd row** for **$ and +** which we got from **follow(E)**.
+* We will get **shift entry** in **I2** as there is someone going outside reading **star(*)** which is a **terminal**. It is going to **I4** state so write **S4**. We will write **S4** on the **2nd row** for **star(*)**.
+* Shift and reduce columns are **different** so **no conflict** there.
+* It looked like a problem but it is not a problem in **SLR(1)**.
+* For the state **I2** it is not **LR(0)**. So the given grammer is not **LR(0)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a2a0edc-ff20-4613-bc94-fc76be8bf212)
+
+* In **I5** state we have production **E -> E+T** which is 1st production is completed so we will write **r1** on the **5th row** as it is **I5** state. The LAS are **$ and +**. We will write **r1** on the **5th row** for **$ and +** which are **LAS**.
+* We will get **shift entry** in **I5** as there is someone going outside reading **star(*)** which is a **terminal**. It is going to **I4** state so write **S4**. We will write **S4** on the **5th row** for **star(*)**.
+* Shift and reduce columns are **different** so **no conflict** there.
+* It looked like a problem but it is not a problem in **CLR(1)**.
+* For the state **I5** it is not **LR(0)**. So the given grammer is not **LR(0)**. **SR** conflict is there.
+
+* In **I5** state we have production **E -> E+T** which is 1st production is completed so we will write **r1** on the **5th row** as it is **I5** state. **E** is completed so we will do **follow(E) -> $, first(+) -> $, +**. We will write **r2** on the **5th row** for **$ and +** which we got from **follow(E)**.
+* We will get **shift entry** in **I2** as there is someone going outside reading **star(*)** which is a **terminal**. It is going to **I4** state so write **S4**. We will write **S4** on the **5th row** for **star(*)**.
+* Shift and reduce columns are **different** so **no conflict** there.
+* It looked like a problem but it is not a problem in **SLR(1)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1525101-9c48-471f-8c43-5ba83ae97dec)
+
+* [**IMPORTANT**]
+* **LR(0)** failed in both the states **I0 and I5**.
+* **SLR(1)** passed which means that **LALR(1) and CLR(1)** also passed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b821f55-c685-45b5-a284-0e0183c2f7f0)
+
+* The states that are not empty, none of the states have the same production and differ only by **LAS**. So the above drawing is **minimized CLR(1)** only which is **LALR(1)**.
+* So the grammer is **LALR(1)** also.
+* If the same production is coming again in **LR(0)** then we can **ignore/neglect them** as there is **no LAS** in **LR(0)** but in the case of **LR(1)** item we have to write them again as the **same production** is coming with **different LAS**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd7390ad-84b6-40cd-a1a2-da25d3194ba8)
+
+* We have **E' -> .E, $**, because of **.E** we have to write the production of **E** further and we got another **.E**.
+* For the **LAS** of **E**, we got the **$** from the first **.E** as **first(,$) -> $**.
+* For the second **.E**,  we have to write the production of **E** further but we already have productions of **E** written already but now the **LAS** is different as **first(+T) -> +**, which is **+**.
+* Finally we will write
+* E -> .E + T, $|+
+* E -> .T, $|+
+* The same is for **T** as well for the first **.T** we wrote the productions of **T** and the TAS was **first(, $+) -> $|+**. We get another **.T** as we have already written the productions of **T** just add the **different TAS** which is **first(*F) -> star( * )**.
+* Finally we will write
+* T -> .T * F, $|+|*
+* T -> .F, $|+|*
+* The same thing happened in **I3** state as well.
+* Do the union of **LAS** as the two productions are **same**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0919dbff-8229-416c-90ec-6cec42d588d0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ecaa471d-361a-4c00-bd1a-34f2991db093)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33ab8ec8-9eee-4af0-b9a3-9b551e0aa865)
+
+* Example.
+* Complete first 4-states.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/26f65f6e-3606-4a41-a2b2-de4b217436c6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f914abd3-6e6c-4de9-8618-4078d0446972)
+
+* Because of the above two states having same production but different **LAS**, **CLR(1)** having more states. We have to out that combination where same production but different **LAS**.
+* If we can find one incident also then **CLR(1)** having more states.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc5983b3-89b4-4441-9c99-1e55a15170df)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e958ca26-cdac-4e4e-8735-5314a1214e9e)
+
+* Minimum of 1-state extra.
+* If the goal is if the given grammer is LALR(1) or not then if state has one production then leave it.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b2af482e-a060-4e4b-9c70-88b916903f0b)
+
+* In **I2** for the first **.L** we wrote the productions of **L** and the LAS was **first( ),$ ) -> )**. For the second **.L**, we just updated the **LAS** by adding **first( ,S ) -> ,**. So the **LAS** is now **), comma(,)**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/467cc925-307c-4ac4-a7bc-3e529bfa5826)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf1c7a04-a731-4acb-8866-7619a1ef9ec5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b259abc1-3693-4062-a0cd-6904ded4e2bd)
+
+* first(a) -> a
+* first(b) -> b
+* intersection of a and b -> Phi(Q)
+* So it is **LL(1)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/14235cf7-0c45-4157-b904-7e6aadeef921)
+
+* LL(2) -> In every string read first two symbols. [**IMPORTANT**]
+* first(ab) intersection first(ac)  -> Phi(Q)
+* first(ac) intersection first(ad)  -> Phi(Q)
+* first(ab) intersection first(ad)  -> Phi(Q)
+* So it is **LL(2)**.
+* More symbols if we read at a time then **more power**.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -6224,3 +6435,4 @@ c) A grammer(G) is said to be **Ambigious grammer** if we can find **atleast one
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5eff1507-a093-4b38-9b62-114aa658b9ff)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c6bf9c49-01a8-4407-bf0f-92c01cd177a4)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb1a6fb8-6936-4717-9fe7-2777648a8645)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8cd32bd2-987a-4a12-879c-8491e39b0439)
