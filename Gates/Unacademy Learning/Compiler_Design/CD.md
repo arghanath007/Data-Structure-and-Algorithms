@@ -6306,100 +6306,210 @@ c) A grammer(G) is said to be **Ambigious grammer** if we can find **atleast one
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/14235cf7-0c45-4157-b904-7e6aadeef921)
 
-* LL(2) -> In every string read first two symbols. [**IMPORTANT**]
+* LL(2) -> In every string read first two symbols. Max of 2 symbols. [**IMPORTANT**]
 * first(ab) intersection first(ac)  -> Phi(Q)
 * first(ac) intersection first(ad)  -> Phi(Q)
 * first(ab) intersection first(ad)  -> Phi(Q)
 * So it is **LL(2)**.
 * More symbols if we read at a time then **more power**.
+* LL(3) -> In every string read first three symbols. Max of 3 symbols. [**IMPORTANT**]
+* LL(1) is the subset of LL(2) is the subset of LL(3) ... is the subset of LL(K).
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b73c4abc-8f36-4508-95ee-f0426aef0c4f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ca2f668a-0aea-4a4a-81bf-9b4dc84f1b2b)
 
+* LL(0) not there. We have to read symbol. Without reading symbol how can we say.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5f6e854f-a8fc-4f44-b568-9d594cfefd9c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa04feac-bcf7-418f-837a-c0fd06bf67b7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/90331957-a630-4b31-b3b2-6119f78d9b90)
 
+* LR(1) subset of LR(2) subset of LR(3) ... subset of LR(K).
+* LR(1) -> CLR(1).
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a4f609f-6ecb-4b5b-8027-f673dd5cb880)
 
+* We have a grammer which is not LL(1) what about LR?
 
+> Maybe, may not.
 
+* We have a grammer which is LL(1) what about LR(0)?
 
+> Maybe, may not.
 
+* LL(1) fail but LR(0) pass.
+* LL(1) pass means what we say about LR(0)?
 
+> No relation.
 
+* LL(1) fail means what we say about LR(0)?
 
+> No relation.
 
+* Only relation between **LL(1)** and **CLR(1)**.
 
+* We have a grammer that is **LL(1)** what about LR(0)?
 
+> Maybe, may not.
 
+* Every LL(1) is CLR(1) which is nothing but LR(1).
+* Every LL(1) is subset of LR(1).
+* Every LL(2) is subset of LR(2).
+* ...........
+* Every LL(k) is subset of LR(k).
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86098f85-6d7a-4334-9414-70a5eb45bb22)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0fff1751-3c61-4f80-ae61-9ed67a0fffe6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/08dfcabb-1f8e-4c03-bde6-a9629855d555)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa3e8a9a-924e-47fa-855b-6f6235875a63)
 
+* Example.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4eb32077-2630-4458-9606-77f9f51a6311)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa9d148d-434f-4091-a672-ad70a035f611)
 
+## Operator Precedence Parser
 
+* Bottom up parser is of two types:-
 
+1) LR parser -> It will be applicable to unambigious. Unambigious we will check. Ambigious no need to check also.
+2) Operator Precedence Parser -> It will be applicable only for operator grammer.
 
+* Operator Grammer -> A grammer(G) is said to be operator grammer if it don't have null production and if it don't have two adjacent(side by side) variable on the right hand side of the production.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9a294369-aaec-4a4a-bfd1-8775c8cadf79)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fdedaaf0-6f1e-4efc-815e-5855fc7a1a85)
 
+* It has no Null productions.
+* It has no two variables side by side on the right hand side of the production.
+* So it is operator grammer.
+* To the grammer operator presedence parser will be applicable.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f322d5f-e751-4438-887e-2f8c0231e682)
 
+* It is an ambigious grammer.
+* Operator presedence parser is the only parser that is applicable on ambigious grammer also.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32c614e8-99db-49df-b1ed-54a415bd9db7)
 
+* We have written in different levels.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c55043fd-547e-423b-b6bc-cdd87ca35911)
 
+* Upper one is ambigious grammer and the below one is unambigious grammer but the important thing is both are operator grammer.
+* Operator grammer is always ambigious, no relation.
+* It will work for ambigious grammer also. It doesn't mean that it don't work for unambigious grammer.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cdc2fec9-2635-46b9-96aa-a837266c7740)
 
+* Operator grammer is only for ambigious grammer, need not be.
+* Operator grammer condition is satisfied or not, that matters.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f3398175-1fbc-4dcc-a01a-30605b682cd0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a2ec102-4503-4b7c-b64a-bc0958bd9c51)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/46bc43dd-e32e-475e-9e5b-3e5d2d4ffdbd)
 
+* **Operator presedence parser** will be applicable to **Operator grammer**. That maybe ambigious or it maybe unambigious, anything can happen. We don't have any relation.
+* We have an ambigious grammer and we want to pass the ambigious grammer with one parser, which parser we may prefer?
 
+> **Operator presedence parser**. As others are directly saying **NO**. Atleast it(Operator presedence parser) is saying maybe it can. Only condition is that it should be **operator grammer**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a7d2cbee-a6a2-4df6-a846-3ccbbb42a117)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd57094b-f84f-4e50-96e3-dad4a08fc9e1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bffbc33d-a626-4aa2-b1c3-821c424b2eaa)
 
+* Example
+* Operator grammer or not?
 
+> It is not operator grammer. Two or more variables are side by side.
 
+* Can we convert it?
+* Convert the following grammer into operator grammer.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e86b9eed-d4ae-4f89-8782-2916846dbd15)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/20a78ce9-b0c5-4983-969e-5aa497cf0f02)
 
+* Example
+* Operator grammer or not?
 
+> It is not operator grammer. Two or more variables are side by side.
 
+* Can we convert it?
+* Convert the following grammer into operator grammer.
+* **A** having two possibilities. Write both of them. 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/385c3d9d-3a8f-4f16-a760-42219f4cb31d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f262b7e-8fa3-49f8-b313-83525e9f2dec)
 
+* Example 
+* Operator grammer or not?
 
+> It is not operator grammer. Two or more variables are side by side.
 
+* Can we convert it?
+* Convert the following grammer into operator grammer.
+* After conversion same meaning should come.
+* **P** means **SR and S** also.
+* **SR** means **P**.
+* Somewhere we have **SR**, we can replace the **SR** with **P**. **YES**.
+* First we replaced **R** with **possibilities of R**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab082fe8-b434-4e6b-bdee-d54cdee56d8a)
 
+* **P** is superset and **SR** is subset.
+* **SR** means **P** and **S** also **P**.
+* **P** having two meaning.
+* **P** having two choices(SR and S).
+* We are able to do **SR -> P** because the side effect of **P -> S** is taken care of.
+* Normally we don't do like this.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba01e6fa-9b93-48c8-9fba-c9b370a63e21)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1ec53f8-c677-4d0d-9e68-622f5ff8f2f9)
 
+* If in the original grammer **SbS** is not there then we have kept **SR -> P** and **P** having two choices(SR and S). So we will get **SbSR and SbS**. **SbS** is not there so some serious issues will come.
+* Substitution is normally done from **left to right**. Normally we don't do **right to left**.
+* We cannot write subset by superset.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/11b0425b-9be3-4bcf-99e8-1f1b4a47d6a7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5fb2d45-d205-4b03-b061-413f301c7c1f)
 
+* Normal way to solve the above problem is via substitution.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4aee4e01-2583-4c6f-a7a7-fb1981032b84)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/636ffe56-4d21-4858-8eea-6926b47296b6)
 
+* We did direct substitution and we got answer directly. No need to replace subset by superset.
+* Whenever after substitution also still problem is coming then replace subset by superset.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9882a91-3bcc-4102-8387-3f93fc2593e4)
 
+* Convert the following grammer into operator grammer?
 
+> Verify the options. Check who are operator grammers first.
 
+* If we replace left by right then it is **normal substitution**.
+* If we replace right by let then it is **back substitution**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/adfd462c-5a73-4c65-b108-7f0beafe8b45)
 
+* As of now **P** is generating only one(a) then we cannot replace **a** by **S** as **S** is generating so many.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c92e923-557b-4d82-a8b8-13310738eaa9)
 
+* Now we can replace **a** by **S** because any how rest are coming in **B**.
+* If already there then no problem.
+* If already not there then we cannot use the above method(subset by superset).
+* We are replacing **subset by superset**.
+* Operator presedence Parser -> Operator grammer -> Two conditions there.
+* Given grammer and say it is operator grammer or not. [Question]
+* Given grammer and convert it is operator grammer?  [Question]
 
+> Substitute. Lucky then direct substitution is possible. Unlucky then back substitution we can do.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+## Syntax Directed Translation(SDT)
 
 
 
