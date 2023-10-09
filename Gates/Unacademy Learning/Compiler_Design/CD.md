@@ -6509,6 +6509,9 @@ c) A grammer(G) is said to be **Ambigious grammer** if we can find **atleast one
 
 > Substitute. Lucky then direct substitution is possible. Unlucky then back substitution we can do.
 
+## sdt-part-2 (15) [9th Oct 2023]
+
+
 ## Syntax Directed Translation(SDT)
 
 
