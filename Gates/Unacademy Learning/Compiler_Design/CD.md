@@ -6511,17 +6511,42 @@ c) A grammer(G) is said to be **Ambigious grammer** if we can find **atleast one
 
 ## sdt-part-2 (15) [9th Oct 2023]
 
-
 ## Syntax Directed Translation(SDT)
 
+* It is like parser, syntax is also there.
+* Compiler -> Grammer -> Set of rules.
+* On the program we have done compilation means we have applied the grammer production on the program.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a6e4790-f12e-4680-8464-39e5f80bf272)
 
+* All the errors whatever came after compilation, all came because of the yellow color lines, {pf("hi")} only.
+* After compilation is over whatever things we see on the screen all came because of the yellow color lines, {pf("hi")} only.
+* For every production within the brackets we write some story.
+* Those are called as **symantic actions**.
+* Grammer plus(+) symantic actions is known as **SDT**. [Difinition]
+* Which phase of the compiler is **SDT**? [**IMPORTANT**]
 
+> It is the **new phase of the compiler** who is helping to every other phase of the compiler. [**IMPORTANT**]
 
+* It will give direction what should be done exactly at that point of time.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f95a440-ac45-4d17-a465-3b246b5f5fec)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1a9ec56-04fe-4742-8420-feac6a3357f1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd333305-7efe-496c-a011-c77df1413fe5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dab97ce1-364d-4a61-a1dc-020367237851)
 
+* We compiled the program and we are able to see so many **errors** in the screen they are called as **Semantic Actions**.
+* Every production having **Semantic Actions**.
+* Using **SDT** we can do **type checking** also.
+* Using **SDT** we can do **syntax checking** also.
+* Some portion of the grammer is for the **tokens**, some portion is for **syntax**, some portion is for **semantic**. Grammer will be divided into parts. Every part will be useful for some work.
+* For lexical purpose some grammer there, syntax purpose some grammer there, beside that grammer write the **semantic actions** also.
+* **Semantic actions** is helpful to every phase of the compiler.
+* Every production having some **semantic actions**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0db0ba8-01c3-4d1e-ad1d-392fd2a4c218)
 
+* Every variable having some characteristics which are known as the attributes of that particular variable.
 
 
 
