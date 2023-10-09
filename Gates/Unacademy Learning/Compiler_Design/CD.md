@@ -6733,11 +6733,291 @@ III) Semantic actions will be placed **anywhere** on the right hand side(RHS) of
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a4d00d9-da5e-4749-848e-fe2c3c9eab3f)
 
+* Input and output is given and we have to construct **SDT**.
+* First write the **grammer** for the **input**.
+* Output will come because of **semantic action**.
+* Grammer will give **input**.
+* Grammer and semantic action both there then it is **SDT**.
+* Grammer we have to write with respect to **input** and **semantic action** we have to write with respect to **output**.
+* According to **c-language**, **multiplication(*)** is done first and then **plus(+)** is done.
+* Who even is done at the **last** will be at the **top of the grammer** and who ever is done at **first** will be at the **bottom of the grammer**.
+* Plus will be done last. 
+* Least person is at the top.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f93d876-7635-4bad-8598-6f5030ac0928)
 
+* We want unambigious grammer for unique answer.
+* With ambigious grammer multiple answers will come.
+* Using the above grammer for the input string draw the tree.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0fa713d2-2545-4913-a376-1a1ebe6588f4)
 
+* If we get **many trees** then the given grammer is ambigious grammer.
+* If we get **one tree** only then the given grammer is unambigious grammer.
+* The bottom of the tree is **star(*)** after operand(id). After **star(*)** we have **plus(+)**. After **star(*)**, **plus(+)** will be done.
+* **Star(*)** will be done **first**.
+* Tree will come as per the **grammer**.
+* From grammer only tree came.
+* Both(tree and grammer) are same.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc998665-1983-4e65-b602-0cf86d1f10d2)
+
+* Terminals means no one required.
+* In every path leaf nodes(operands(id)) will be done first.
+* Which path we will take?
+
+> Left one because in the program they wull come first.
+
+* Output purpose write semantic action.
+* To do the plus operation left and right required.
+* When **F -> id** is going on then what semantic action we should write?
+* **F -> id**, **F** is the variable.
+* Every variable inside having so many attributes. One of the attribute name is **val**.
+* The **semantic action** is **F.val = id**, just store **id** in the **val**.
+* The parent is coming from the children which means it is a **synthesized attribute**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ccf88c0b-923c-4199-8770-a2327e0e6f47)
+
+* From the child, the parent is getting the data. It is a **synthesized attribute**.
+* Now the **F** value is going to **T** value.
+* Now the **T** value is going to **E** value.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/94c62455-72ab-42f9-88c4-ee40851fd2ac)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/52abc356-5a35-4288-b0da-2b76589b41f9)
+
+* The left value of the plus operation is now available.
+* The left value is now available because of the semantic actions.
+* As of now, We have written the semantic actions to work on the left side.
+* We tried them on the right side and they are working on the right side as well then no need to chance them.
+* Left and right side of the multiplication is available, it is a correct time to do the multiplication.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/46a13785-b704-478a-b9cf-bdfc1e846e41)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e598d7b-e79e-44af-a3bd-aaee01e7ec96)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/081868ff-3a68-4a70-8431-15b44f4f6e29)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a89bb11-0503-4753-8569-deb8c3a2bc05)
+
+* Finally write **printf(E.val)** it will printout **14** as the **output**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f76bd94d-60a8-466b-860c-ae2bf9ccd960)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33e0b5d1-8af9-47d2-a3fb-8d97b41740b4)
+
+* SDT writing which is equal to, using grammer write input. Input purpose write grammer and for output purpose write semantic action.
+* If the write the grammer as ambigious then multiple trees will come which will give multiple answers and it will create problem. 
+* Any problem is given and we have to find SDT, how we will start? [**IMPORTANT**]
+
+1) For the given input write the grammer. [By using **input** we have written the grammer]
+2) From the given input to get the output, adjust the semantic action.
+
+* First we should know which is the highest priority. According to that write the grammer.
+* In the input only the highest priority is **star(*)**. According to that we have written the grammer.
+* In the input next highest priority is **plus(+)**. According to that we have written the grammer.
+* So using **input**, write the grammer first.
+* Grammer writing is over now we can draw the tree.
+* By using **input** we have written the grammer.
+* Grammer and input string is available, now draw the **tree**. This is the **parser** only.
+* Try to write **unambigious grammer**.
+* Tree construction is also over.
+* Unit productions cannot bring anything new. Same thing will be copied again and again.
+* Problem -> Construct SDT for the following input and output or for the given arithmetic expression.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c98e7d3e-6862-42f3-a4e0-1c4c7758aa5e)
+
+* We have one **SDT**.
+* We are using one attribute which is **val**.
+* **Val** is synthesized attribute. It is the only attribute we have. So the above one is a **S-attributed definition**.
+* **S-attributed definition** inside uses synthesized attribute.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fdd6f634-a6ed-4a69-87bd-0d901d31e268)
+
+* **S** means **L** also. Which means that it is **L-attributed** definition also.
+* Consider the following SDT and they will give the above input and output, what is it?
+
+> It is both **S and L-attributed** definitions.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ff1afb2-c581-4ce3-92f4-a4b5448084c7)
+
+* Name of the tree is syntax tree or parse tree.
+* In parse tree every at every variable, attribute value not there. 
+* It is also called as annonated parse tree or decorated parse tree(PT).
+* In the case of **annonated parse tree or decorated parse tree(PT)** at every variable, attribute value is also there. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1986971b-a687-4631-b253-85789d26d25d)
+
+* The grammer cannot be **ambigious**.
+* According to **grammer** say, priorities will decide.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/13c8f522-8c27-44b3-b794-296437568968)
+
+* **Val** we have it is **synthesized attributed** which means they are **S-attributes** and **S** means **L** also.
+* In the tree the execution started from the **bottom**. It is bottom up evaluation.
+* We have written the semantic actions at the right hand side and at the right most place.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/457db2a3-7b03-48a1-82f0-2198a5111994)
+
+* Consider the following SDT:-
+* E -> E#T {E.val = E.val * T.val}
+* E -> T {E.val = T.val}
+* T -> T&F {------}
+* T -> | F {T.val = F.val}
+* F -> num. {F.val = num}
+* **& and #** are just signs, what exactly they are doing, we have to see the **definitions**. Check definitions, it will see what they exactly are.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/15c64400-fc99-4e39-b389-a35613cf1ae4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b7a8b19a-992a-4836-92d7-ee8d5319c1dd)
+
+* E -> E#T
+* Parent name is **E**. The left child is **E**.
+* As both are **E**, so people are having confusion.
+* When we write **E.val** is it **parent or left child**.
+* To eliminate confusion, instead of **E**, **E1** will be there.
+* To eliminate confusion, **E1** has been written.
+* It is not **E1** it is **E** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f2d3f329-4576-4230-b2c9-2442e25428df)
+
+* It is the same for **T1** as well.
+* It is not **T1** it is **T** only.
+* **E1.val** is left child.
+* **E.val** is the parent.
+* So no confusion.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc8fbbf8-cbc9-498a-9c3b-977f21e74858)
+
+* input -> 8#2&4#16&12#4&2.
+* output -> 512.
+* **#** is star(*) operator it is already given.
+* We don't know what **&** does, we have to find it.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef75cf93-19b1-4d6d-b161-fab86fc4f8af)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a59f14fd-973c-45b4-ac1c-ade2cf9d635a)
+
+* By seeing the grammer, **&** is the highest. 
+* In the expression we have **3-&** in the input.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a079ee42-0986-4566-a8aa-0ea4c5c063e8)
+
+* **&** has left to right associativity.
+* **#** has left to right associativity.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ededb0f-48fa-4e86-894d-4a47739de5e4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16a632c1-459c-46b5-bac0-1b4cbe1a2fce)
+
+* As plus(+) is giving more than output so **star(*)** will give ever more. So no need to check **star(*)** as well.
+* We can mark option **D** which is **none** as **correct**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86d53b04-5c1b-4af5-afdf-49074187a491)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3fab159-3204-49cb-a0f1-c2e769210ed8)
+
+* Option **D** which is **None** is **correct**. [**IMPORTANT**]
+* While doing the question we are everytime seeing the grammer which means **tree** is constructed.
+* Everytime seeing grammer means logically tree is constructed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d96806cf-e218-425e-96cc-46b18b358b2c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/054c8245-1cd5-4883-89f3-701339ab5b6d)
+
+* Example.
+* **&** is the highest priority with **left to right** associativity.
+* **&** is three operations.
+* input: 2#3&5#6#4&2&3
+* 3&5 -> 3 + 5 -> 8.
+* 4&2 -> 4 + 2 -> 6.
+* 6&3 -> 6 + 3 -> 9.
+* 2#3&5 -> 2 * 8 -> 16
+* 2#3&5#6 -> 16 * 6 -> 96
+* 2#3&5#6#4&2&3 -> 96 * 9 -> 864
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/20714e13-2db2-4145-ac00-286c4299af33)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/164ef1d1-e581-4b0d-adaf-cca33e86b74d)
+
+* [**IMPORTANT**]
+* Construct SDT to convert given infix expression into postfix expression.
+* **star(*)** done first as it has higher priority and then plus(+).
+* First we will write 'bc*' then we will do **abc*+**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0629c05a-85e8-40a5-b98a-7e2ececaac01)
+
+* [**IMPORTANT**]
+* For **SDT**, input purpose write the grammer. Using that grammer for the given input draw the tree. [Procedure]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/673aa8ed-d880-4565-837c-b485070f82ae)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/01e6e6af-5485-4545-9693-d142d33cf9e4)
+
+* Read all leaf nodes from **left to right**.
+* **Infix to postfix** conversion we are writing the **same expression in another form**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a6259f0a-ef93-4f9e-83f5-19324c34bf19)
+
+* Postfix -> Operators last and operands first.
+* Operands comes then print and if operators come then don't print.
+* printf(id).
+* Output **a** is printed.
+* There is no compulsion that we have to write **everywhere**. If we don't have anything then don't write anything.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31be10b7-8030-4385-b2e1-c729c061e137)
+
+* Now **b** is printed.
+* Left and right operand over then print the **operator**. Whenever **T** going to **T and F** is going on just print **operator** as left operand is already printed and right operand is already printed then print **star(*)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8625afc4-050d-4ff1-8361-6d0f9fdd8305)
+
+* As left operand is already printed and right operand is already printed then print **plus(+)**.
+* Now printf(+).
+* Previously when left and right are **available** then we were **evaluating** now when left and right are **available** we are **printing**.
+* We are not evaluating anyone we are just printing.
+* First print **operand**. Left operand is over, right operand is also over then print **operator**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe3f6b16-d62e-4638-88cc-ec19c321f3a7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1dab5f66-a064-4968-b12f-63834f5ea0f6)
+
+* Construct SDT to convert the given Infix expression to prefix expression.
+* input: a+b*c
+* output: a+*bc -> +a*bc.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05b26576-0817-424c-8934-5dc2f0c85c52)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ebdca48-f1f7-4189-bd4b-81f9fcb47f76)
+
+* Example
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4235d9bf-b2f3-489e-87b6-1c72283c4969)
+
+* We have written **print(+)** at the end, as at the end when both the operands are over then we have printed/written the **+**.
+* For **postfix** we are printing **+** after the operands are over.
+* The semantic action we have written in the **postfix** at the right hand side and at the right most place as **after operand we are printing operator**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/afe1dadc-a16f-40e4-817b-c9edb50c3570)
+
+* In **prefix** we are printing **+** before the operands. Before only **print(+)** then go for **E and T**.
+*  The semantic action we have written in the **prefix** is at the right hand side and at the left most place as **before operand we are printing operator**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5a54047-8cb5-4e5a-bc15-29b8a8cf22b6)
+
+* Before every **operator** we want to do some **operation** before only print the **operator**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f8bce4d-9d4a-4ceb-a348-6fd804010982)
+
+* In **prefix**, first operator then operand.
+* If we print **operator last** then it is **postfix**.
+* If we print the **operator before** then it is **prefix**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f8dfd9d-4a80-48ee-8e27-28faccd60fd8)
+
+* Prefix. [**IMPORTANT**]
+* As we have written the **semantic action** at the first place(left most place) instead of the last place(right most place), so it is **L-attributed** definition.
+* So it is **L** but not **S**.
+* Example of **L-attributed** definition but not **S-attributed** definition
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/28f96895-2496-4705-9416-c83ed56c4e48)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58be0b88-b4b3-46e3-af9f-57f584dd0396)
+
+* For it **S-attributed** is possible but it is very difficult.
+* [**IMPORTANT**]
+* Operator not there then we can print anywhere.
+* If operator there then print(operator) and then go for operands.
+* Postfix -> Print operator -> At the end/last.
+* Infix to Infix -> Print operator -> Inbetween.
+* Prefix -> Print operator -> At the beginning/left.
+* We can print the **operator** wherever we want but we cannot print the **operand(id)** wherever we want.
+* Without reading **operand(id)** we cannot do print.
 
 
 
