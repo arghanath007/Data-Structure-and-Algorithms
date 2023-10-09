@@ -6709,12 +6709,29 @@ III) Semantic actions will be placed **anywhere** on the right hand side(RHS) of
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3eb18181-843a-4808-b1cb-e1f5a31b3faf)
 
 * [**IMPORTANT**]
-* 1hr 11mins.
 
+## Applications of SDT
 
+1) Arithmetic expression Evaluation
+2) Infix to postfix conversion
+3) Infix to prefix conversion
+4) Binary to decimal conversion
+5) Type checking
+6) Syntax Tree creation
+7) Storing into symbol table
+8) Counting no. of reductions
+9) Intermediate code generation.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37abcc18-ef84-4ee5-a39a-dbbc6a54e32a)
 
+* There are many more.
 
+### 1. Construct SDT to evaluate given Arithmetic expression
+
+* input: 2 + 3 * 4
+* Output: 14.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a4d00d9-da5e-4749-848e-fe2c3c9eab3f)
 
 
 
