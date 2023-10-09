@@ -6546,7 +6546,122 @@ c) A grammer(G) is said to be **Ambigious grammer** if we can find **atleast one
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0db0ba8-01c3-4d1e-ad1d-392fd2a4c218)
 
+## Attributes
+
 * Every variable having some characteristics which are known as the attributes of that particular variable.
+* Every variable having so many **attributes**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8d01233-e0ee-43cd-85e5-52a4747bda05)
+
+### Types of attributes:-
+
+* There are two types:-
+
+1) Synthasized attributes -> At any variable attribute value will be calculated using children attribute value then it is called as **Synthasized attribute**. [Definition]
+
+2) Inherited attributes -> At any variable attribute value will be calculated using sibling or parent. Inheriting  either from sibling or parent.
+
+* Every variable having so many **attributes**. We have taken one attribute **s**.
+* At **A** we have taken one attribute **A.s**
+* At **B** we have taken one attribute **B.s**
+* At **C** we have taken one attribute **C.s**
+* At **S** we have taken one attribute **S.s**
+* How **S.s** will be calculated?
+
+> Using children attribute value.
+
+* If something is coming using children then that attribute is called as **synthasized attribute**.
+* At every variable we have taken the attribute **s**.
+* How to calculate the **s** value at the parent?
+
+> At the parent, **S.s** is equal to children's attribute value.
+
+* The children of **S** are **A,B and C**.
+* At the parent, the attribute value is calculated using children attribute value.
+* We can take all three, we can take any two, we can take one.
+* Only thing is parent is interms of the children.
+* Parent value is interms of children value.
+* On the children by doing some calculation we will get the parent.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5fa114f7-43e2-4d1e-b60b-ebf561c433de)
+
+* Inside the **SDT**, **attributes** are there.
+* Inside the **semantic action** we will see **attributes**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd85096a-1623-439b-af9f-63ffafdd39c4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b8688d86-cb3f-47aa-9706-631d295423e0)
+
+* Terminal means we cannot expand further. Terminal value is itself, we cannot do anything.
+* Terminal.s -> itself [Cannot go any further]
+* What is the **S.s** value?
+
+> A.s * B.s
+
+* Why not **C** there in **S.s** value. If we want we can take.
+* It is some function of children.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f598e09a-5b1b-47ad-8f11-31b49e9e3ab7)
+
+* Do anything but write in terms of children of the parent.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/efddb0aa-b4c3-4c2f-91a1-bb04ad9ca847)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33cb61d3-5ad0-4a4d-81f1-79501f7f5e00)
+
+* Inherited attributes.
+* At any variable, attribute value will be calculated using sibling or from parent.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b221065-0c1e-47f2-b5e2-f9e3bc400884)
+
+* Inside semantic action, attributes are there.
+* Sometimes inside the semantic action, no attributes are there. Sometimes may not be.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0783f41-6f2a-4116-b83b-44ea7c15645b)
+
+* Semantic action internally contain attributes. The attribute name visible is **type**.
+* E -> E1 + E2
+* **E** is the parent.
+* **E1 and E2** are the children.
+* E.type = E1.type
+* Parent(E) type is equal to child(E1) type. Parent(E) is getting the type from the children(E1). So it means that it is **synthesized attribute** as the parent is getting the attribute(type) from the children(E1 and E2).
+* **E** getting from **E1**. **Parent** is getting from **child/children**.
+* Inside the **SDT** we are using **synthesized attribute**.
+* Depending on ***what attributes we have used inside SDT**, SDT are **two types**.
+* Inside semantic action we will use **attributes** and what kind of attributes we are using based on that **SDT are two types**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d331dca-3ea5-4ba6-bfcf-2728f613310e)
+
+### Types of SDTs
+
+* Inside semantic action we will use **attributes** and what kind of attributes we will use inside semantic action accordingly **SDT are of two types**.
+
+1) S-attributed Definition -> **S** means synthesized attribute. It uses synthesized attribute.
+2) L-attributed Definition
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d5c14126-2661-4b48-8613-8691e429d11b)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
