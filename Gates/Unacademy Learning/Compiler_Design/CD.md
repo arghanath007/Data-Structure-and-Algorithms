@@ -6634,15 +6634,42 @@ c) A grammer(G) is said to be **Ambigious grammer** if we can find **atleast one
 
 * Inside semantic action we will use **attributes** and what kind of attributes we will use inside semantic action accordingly **SDT are of two types**.
 
-1) S-attributed Definition -> **S** means synthesized attribute. It uses synthesized attribute.
-2) L-attributed Definition
-
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d5c14126-2661-4b48-8613-8691e429d11b)
 
+1) S-attributed Definition. 
 
+I) **S** means synthesized attribute. It uses synthesized attributes.
+II) If any SDT is an S-attributed Definition then evaluation should be done from bottom up. It follows bottom up evaluation. Childrens over then parents are over. After children then parent. It is also called as **post order** evaluation.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc39d61f-555c-4fbe-ba72-e644cefc445e)
 
+* Within the brackets we have to write that is semantic action.
+* We will write semantic action after the production is over.
+* Right hand side of the production at the right most place.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/52be5888-5504-45ae-8e3c-b152295ca091)
+
+* Semantic action will be placed in the **S-attributed definition** where?
+
+> Always, Right hand side of the production at the right most place.
+
+III) Semantic actions will be placed on right hand side of the production at the right most place.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1bd24e6-8012-498a-bd97-04579e4021b2)
+
+* Attribute means compulsory dot(.) required. To access attribute dot(.) required.
+* There are some attributes no attribute there.
+* **S-attributed definition** saying that it can use **synthesized attribute**. It can use **synthesized attribute**, if we don't want to use anything then it is also ok but one thing is that we cannot use **inherited attribute**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/693ac539-ffec-406c-94b1-e913e1ca6c2f)
+
+2) L-attributed Definition
+
+I) It means that we can use both **synthesized** as well as **inherited** attribute.
+
+* **S-attributed** is more **strict** compared to **L-attributed**.
+* **L-attributed** is superset and **S-attributed** is subset.
+* Every **S-attributed** is **L-attributed**.
 
 
 
