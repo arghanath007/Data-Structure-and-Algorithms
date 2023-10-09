@@ -6655,6 +6655,8 @@ II) If any SDT is an S-attributed Definition then evaluation should be done from
 
 III) Semantic actions will be placed on right hand side of the production at the right most place.
 
+* It means that after the production only semantic action is there.
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1bd24e6-8012-498a-bd97-04579e4021b2)
 
 * Attribute means compulsory dot(.) required. To access attribute dot(.) required.
@@ -6665,24 +6667,48 @@ III) Semantic actions will be placed on right hand side of the production at the
 
 2) L-attributed Definition
 
-I) It means that we can use both **synthesized** as well as **inherited** attribute.
+I) It means that we can use both **synthesized** as well as **inherited** attribute. It uses both synthasized and inherited but in inherited taking either from **parent or left sibling or right sibling**. In **L-attributed Definition** for **inherited attributes** taking from **right sibling** is not allowed. We can take from either **left sibling or parent** that is allowed.
+
+* That's why it is called as **L-attributed** we can only use the **left(L)** sibling and not the **right sibling**.
 
 * **S-attributed** is more **strict** compared to **L-attributed**.
 * **L-attributed** is superset and **S-attributed** is subset.
 * Every **S-attributed** is **L-attributed**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ad5ce413-35d3-437d-8924-e851f6c40f54)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c27a8c19-c556-4352-9d98-912fbc5cc25e)
 
+* To the **C**, **A and B** are left siblings.
+* To the **B**, **A and C** are siblings. Parent is **S**. **A** is left sibling and **C** is right sibling.
+* According to inherited attribute **B** will get from **A or C or S**.
+* When we are calculating for **B** it means that **A** is completed as it is to the **left** of **B** and **C** is yet to be **completed** as it is to the **right** of **B**.
+* Left sibling is already **done/completed** that's why we can use it.
+* Right sibling is not **done/completed** that's why we can't use it. It is the one who is going to come in the **future or later on**. We cannot use the one who is going to come afterwards.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fbdd0a14-4e7b-444c-8c1d-d943c61a2997)
 
+* Practically **left sibling** is possible in program as it is completed already.
+* If we want to take both(S and L) then take both, if we don't want to take anything(not taking S or L) then also it is ok.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a7628b64-b62f-49ba-98b5-897e0db5378b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/796e8777-274a-4230-aeb8-6d21611db9ea)
 
+* **S** means **L** also.
+* **L** doesn't means **S** also.
+* **L** is the superset and **S** is the subset.
+* [**IMPORTANT**]
+* Question:-
+* Every **S** is **L** -> True
+* Every **L** is **S** -> False.
 
+II) It follows left to right **depth first order**.
+III) Semantic actions will be placed **anywhere** on the right hand side(RHS) of the production.
 
+* **S** is more strict that's why it is the smaller set.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3eb18181-843a-4808-b1cb-e1f5a31b3faf)
 
-
-
-
+* [**IMPORTANT**]
 
 
 
