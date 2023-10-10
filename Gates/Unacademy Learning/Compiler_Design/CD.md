@@ -7209,6 +7209,58 @@ III) Semantic actions will be placed **anywhere** on the right hand side(RHS) of
 
 * Same story it will be, what we did in **reduction** same we will do for **production** as well.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/29a2c472-f3ed-4184-8b50-f558c635ba43)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1134c893-dad8-4462-9ecf-5dcf19500a9a)
+
+* Example:-
+* Count no. of reductions needed using bottom up parser to parse string **a@b$.ag**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f12ad889-e9ee-4d7d-a88f-fcfe9dc77cd8)
+
+* Read all of the **leaf nodes** from **left to right**.
+* We have **10-productions**, so the answer is **10**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/691ec371-7581-4ffd-a3f4-f64fb0f7ce4b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5492609c-19ab-4272-95e7-e71f5ba2b3cf)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f55d1632-cc78-4e7d-8232-a1937896d08b)
+
+* Totally we have **4-combinations**.
+* Answer -> 4.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f6490cc-fbd4-48fd-88e1-b537860e0308)
+
+* [**IMPORTANT**]
+* What is the meaning of left most derivation?
+* Start from 1hr.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
