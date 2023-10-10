@@ -7107,6 +7107,7 @@ III) Semantic actions will be placed **anywhere** on the right hand side(RHS) of
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1df0e0b-f5ef-44b2-badb-6d99be9c3a8b)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/688de3c3-8848-40a5-87bf-ad2da6f8f794)
 
+* Question:-
 * Construct SDT to count no. of reductions required to evaluate the given arithmetic expression.
 * Input: 2 + 3 * 4
 * Output:-
@@ -7130,39 +7131,83 @@ III) Semantic actions will be placed **anywhere** on the right hand side(RHS) of
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3451b7c6-d52b-4883-a0a4-6f5954cbec60)
 
-* Production if we see in the reverse order then it is **reduction**.
+* Production if we see in the **reverse order** then it is **reduction**.
+* **F -> id** is the first production which is successfully completed. It is the **leaf node** only and it is the **left most one**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86a73cc2-9051-4a18-94eb-11c989f65529)
 
+* **F** replaced by **id** is **expansion**. Which means **F -> id** is a production.
+* **id** replaced by **F** is **reduction**.
+* Reduction is seen in **bottom up parser**.
+* From the given grammer to generate the input string, we have used **8-productions**.
+* Every production if we see in the reverse order is reduction.
+* **No. of reduction** counting is nothing but **no. of productions** we have used in the tree.
+* From the **top** if we see then it is no. of **productions**.
+* From the **bottom** if we see then it is no. of **reductions**.
+* **No. of reduction** and * **No. of productions** are **similar**.
+* From the given grammer to generate the input string, we have used **8-productions** which is nothing but in the **reverse order** it is **8-reductions**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/47bdb6f9-67f9-4391-8886-a909f4596442)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5f939a7-c76a-4903-ae5b-b09ae24a36ad)
 
+* So the **output** is **8**. [**IMPORTANT**]
+* Question:-
+* From the given grammer to generate the input string how many productions we are using?
+* The reverse order can also be asked.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b174b3c-4dc0-4f7c-a25f-3a5e37bb0ebc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a1421ce-ac48-43bd-a0dc-e15e18d898ae)
 
+* Complete semantic actions.
+* We are **adding** left people to right people. [Left + right]
+* Even though multiplication is there we will do **addition** because our goal is **counting** no. of reductions.
+* nr -> No. of reductions.
+* E.nr = E.nr + T.nr + 1 = 3 + 4 + 1 = 8. [E.nr -> Left side, T.nr -> Right Side, 1 -> Including itself]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f068ebb-cd7d-4586-a3a8-bceb33994c3b)
 
+* The attribute name we are using is **nr**.
+* First left side required.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/374ca058-5688-481c-83f9-ae134dc7cfde)
 
+* Only one attribute we have used.
+* **nr** is getting data from **child**.
+* At the **parent** data is calculated using the **children**.
+* So this is **synthesized attribute**.
+* **nr** is **synthesized attribute** which means it is **S-attributed definition** and as it is **S**, so it is **L-attributed definition** also.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cca5fc1c-6e42-4287-b1b0-7fc8de19b8e3)
 
+* So the answer is **both 'S' and 'L' attributed definition**.
+* From the given grammer to evauluate the given arithmetic expression, how many reductions needed it will **calculate**.
+* Write SDT for the above problem:- [Steps]
 
+1) Input purpose write grammer.
+2) Output purpose write semantic action.
 
+* Finally **SDT** will come.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ccd07e7e-64d1-4b6f-9b7a-22b489e127db)
 
+* [**IMPORTANT**]
+* Left side is **70** reductions and right side is **80** reductions, total how many?
 
+> 70 + 80 + 1 -> 151. [1 -> Itself, last production] 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36c045fa-27b0-4c1b-9354-6f7292645955)
 
+* Because of multiplication don't multiply, because of addition don't add, What is the given problem accordingly we have to plan.
+* Multiplication means multiplication and addition means addition in the case of **expression evaluation**.
+* But here(above problem) we are not evaluating. To evaluate how many productions needed we are calculating. We are not calculating the expression value but we are calculating the no. of reductions needed to evaluate the given arithmetic expression.
+* Here we are not evaluating expressions. To evaluate how many reductions needed we are calculating. [**IMPORTANT**]
+* Depending on requirements we have to plan.
+* Question:-
+* Consider the SDT to count the no. of productions needed to execute the given arithmetic expression?
 
+> Reductions and productions are **same**. If we see from the **top** then it is **productions** and if we see from the **bottom** then it is **reduction**.
 
-
-
-
-
-
-
-
-
-
-
-
+* Same story it will be, what we did in **reduction** same we will do for **production** as well.
 
 
 
