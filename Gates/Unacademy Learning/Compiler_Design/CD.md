@@ -7019,6 +7019,53 @@ III) Semantic actions will be placed **anywhere** on the right hand side(RHS) of
 * We can print the **operator** wherever we want but we cannot print the **operand(id)** wherever we want.
 * Without reading **operand(id)** we cannot do print.
 
+## sdt-part-3 (16) [10th Oct 2023]
+
+* Semantic action we can write anywhere depending upon the requirements.
+* Semantic action we can keep anywhere.
+* E -> E + T
+* To use any operator we don't need to declare it first or declare anything.
+* To use any variable we need to declare it first.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fce43811-58e5-4013-8a50-069f9dc9b5f6)
+
+* Where we will write **print(T)**?
+
+> As **T** is a variable we have to write print(T) after **T** is completed. We cannot write print(T) before **T**.
+
+* After variables are over, we can use them.
+* Where we will write **print(E)**?
+
+> As **E** is a variable we have to write print(E) after **E** is completed. We cannot write print(E) before **E**.
+
+* What are the possibilities of **print(E)**?
+
+> After **E** we can write it anywhere. So we have **3-possibilities** which are **after 'E', after '+', after 'T'**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0500e8ea-4957-4754-aa1e-17f2639cc61e)
+
+
+* Where we will write **print("Hi")**?
+
+> As **Hi** is not a  variable, we can write it **anywhere**.
+
+* What are the possibilities **print("Hi")**?
+
+> 4-places we can write.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5703a763-eb24-4c2b-9ea3-3cd3df1ab192)
+
+* Where we will write **print("plus")**?
+
+> As **plus** is not a  variable, we can write it **anywhere**.
+
+
+
+
+
+
+
+
 
 
 
