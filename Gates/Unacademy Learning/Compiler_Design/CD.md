@@ -7059,6 +7059,111 @@ III) Semantic actions will be placed **anywhere** on the right hand side(RHS) of
 
 > As **plus** is not a  variable, we can write it **anywhere**.
 
+* **S-attributed definition** is good for bottom-up parsing.
+* **L-attributed definition** is good for top-down parsing.
+* Bottom-up parser is like **S-attributed definition**. [Like -> Easy]
+* Top-down parser is like **L-attributed definition**. [Like -> Easy]
+* For every **L-attributed definition**, **S-attributed definition** is possible.
+* For every **S-attributed definition**, **L-attributed definition** is possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d7252785-555a-45c8-ac83-ed7b04b68c3d)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f305849-fc39-4745-9271-cff128092cf4)
+
+* If we want to print **semantic action** for **S -> AS** then **A and S** should be over.
+* We cannot print wherever we want.
+* The production is over which is **A -> a** which means that the semantic action **3** will be printed. 
+* Read all of the **leaf nodes** from **left to right** -> aaadbc.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2fab96f4-01fd-4b1a-9213-49fd006284a5)
+
+* **d** is the **terminal**. Without doing anything it is **over**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef703a37-030a-4dd6-8eeb-ef92723d2b93)
+
+* **C -> c** is completed so **6** is printed.
+* As **B -> b** is over and **B -> C** is also completed, so the **B -> bC** is also completed which means we will print **4**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7935b094-0422-4cd9-bd61-4eae19abe5c5)
+
+* As **B -> d** is over and **B -> B** is also completed, so the **B -> dB** is also completed which means we will print **5**.
+* As **S -> A -> a** is over and **S -> B** is also completed, so the **S -> AB** is also completed which means we will print **2**.
+* As **S -> A -> a** is over and **S -> S** is also completed, so the **S -> AS** is also completed which means we will print **1**.
+* As **S -> A -> a** is over and **S -> S** is also completed, so the **S -> AS** is also completed which means we will print **1** again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f0018e6-1a39-4857-879d-8535ba4b33af)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95458aec-b6b3-4382-91db-e4fa21954a0d)
+
+* The answer is **333645211**. [**IMPORTANT**]
+* It is **S-attributed** definition as the semantic actions are at the **end**.
+* As there is **no dot** in the grammer so we don't have any attributes in the grammer.
+* As there are **no attributes** and both the **S and L** attributed definition accept no attribut grammers as well.
+* So the above **SDT** is both **S and L** attributed definition.
+* Leaf node means **bottom only**. Further we cannot go.
+* Down/bottom means **leaf node**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1df0e0b-f5ef-44b2-badb-6d99be9c3a8b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/688de3c3-8848-40a5-87bf-ad2da6f8f794)
+
+* Construct SDT to count no. of reductions required to evaluate the given arithmetic expression.
+* Input: 2 + 3 * 4
+* Output:-
+* **Grammer** will be written to **input**.
+* **Semantic action** will be written to **output**.
+* As we don't know output so we will write **Semantic action** afterwards.
+* Grammer:-
+* A -> A + B
+* A -> B
+* B -> B * C
+* B -> C
+* C -> id.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7736467f-868a-46b3-9dd9-5a4768cdcb98)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5303cd5f-b69e-4169-8ba4-e8d3c1e03768)
+
+* Read all leaf nodes from **left to right**. We got the **input**.
+* The tree contains how many productions?
+
+> Totally we have **8** productions.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3451b7c6-d52b-4883-a0a4-6f5954cbec60)
+
+* Production if we see in the reverse order then it is **reduction**.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
