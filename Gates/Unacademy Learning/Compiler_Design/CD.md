@@ -7294,39 +7294,94 @@ III) Semantic actions will be placed **anywhere** on the right hand side(RHS) of
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b4d22e23-cd16-4471-bc3f-b2f5ede67c2d)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d02626a-7db8-4d76-b23c-7d4323822288)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dde54bf9-e26b-4bca-bc37-47413b650364)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b3a49cb-35b4-4b49-b5e6-8567bb0b1778)
 
+* Answer -> 23*4*2*====* [**IMPORTANT**]
+* Unless and until say **print** then only do **print**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e7f75893-c8d1-4ba2-ad2f-ddbeba316975)
 
+* The above **SDT** is **L-attributes** because the **semantic actions** we have written wherever we want.
+* The above **SDT** is **L-attributes** but not **S-attributes**.
+* The conversion is possible from **L to S**. For every **L**, **S** is possible.
+* Conversion is a different story.
+* Whatever given is what. It is **L-attributed** but not **S-attributed**.
+* The given one is **L-attributed** but not **S-attributed**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e63c4ee-0c0f-4911-893e-acffc7563232)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c789bc73-7bff-425f-a8ea-7eb24b3333b9)
 
+* Example.
+* It is **L-attributed** but it is not **S**. We can convert them that is a different story.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c549a3a-79a1-48ac-9b77-f3bedc7f5b9b)
 
+* Why drawing the tree don't worry about **semantic actions**, just draw the tree. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/79039392-4df9-4fc9-aa2a-df300927d6dd)
 
+* Now mark where are the **semantic actions**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6cf17c1-1686-43db-a068-b487c9b67f3c)
 
+* Wherever the **blue colors** we have written they are the answers mostly. We have **9** people.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eab44ab8-c7ab-4b7a-9211-31d0d12c882e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/70491dfa-22df-48ee-b097-69a29098cdf1)
 
+* Output -> *****+***.
+* Wherever **star(*) or plus(+)** visible don't print. Wherever it is written **printf(*) or printf(+)** then/there only **print**.
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/52497b96-1afb-4238-aa08-4170c9eea167)
 
+* Example
+* It is **L-attributed** because the **semantic actions** are everywhere.
 
+### L-attributed to S-attributed Conversion
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9c7d4af7-5004-4139-90cf-64af88df53e3)
 
+* Now the **semantic action** is at the **end/last**.
+* We have converted the same thing to **S-attributed**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/93c4cd56-913e-4eeb-b6c1-2cfc6f3c977c)
 
+* Using the above procedure we can convert the **L-attributed** to **S-attributed**. [**IMPORTANT**]
+* There is no requirement to convert from **S-attributed** to **L-attributed** because every **S-attributed** is **L-attributed** only. [**IMPORTANT**]
+* Every **S** is **L** only but not every **L** is **S**, need not be.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0539cf2c-e112-4d1a-bd24-532df0fbcae1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/276f33f5-dfb3-4430-be36-8dd744d5e4fe)
 
+* Every **L** will be converting to **S**.
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b1701223-b976-4b34-874d-1695db561bf9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb845397-a6ea-4185-bfc1-37064b014b7c)
 
+### Construct SDT to convert the given binary number into decimal number.
 
+* Input:- 111.111
+* Output:- 2 ^ 2 + 2 ^ 1 + 2 ^ 0 . 2 ^ (-1) + 2 ^ (-2) + 2 ^ (-3) -> 4 + 2 + 1 . 0.5 + 0.25 + 0.125 -> 7.875.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3e5b356-a329-4322-acb3-6b7e86ec4701)
 
+* After **dot(.)** power will start with **minus(-1) or -1**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8af7e950-ef28-4ec0-a8f7-ceef7c39d983)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/074e2bdc-a209-4d4a-a569-70f373bcfdcf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a7ac72a6-0a05-425e-b2b4-3f2afafe2880)
 
-
-
+* Example.
+* Convertion from binary to decimal number.
+* For these problem we have to construct **SDT**.
+* Grammer -> input
+* Semantic action -> output
+* Binary to decimal number conversion, the **input** is **binary number**. **Output** is **decimal number**.
 
 
 
