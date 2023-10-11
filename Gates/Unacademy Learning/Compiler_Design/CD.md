@@ -7214,27 +7214,104 @@ III) Semantic actions will be placed **anywhere** on the right hand side(RHS) of
 
 * Example:-
 * Count no. of reductions needed using bottom up parser to parse string **a@b$.ag**.
+* Bottom up parser means reductions.
+* Top down parser means productions.
+* **A** is not having recursion.
+* Do manually checking and then rectify if any problem comes.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f12ad889-e9ee-4d7d-a88f-fcfe9dc77cd8)
 
 * Read all of the **leaf nodes** from **left to right**.
-* We have **10-productions**, so the answer is **10**.
+* Just count how many productions.
+* No. of productions and no. of reductions are **same**.
+* We have **10-productions**, so the answer is **10**. [**IMPORTANT**]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/691ec371-7581-4ffd-a3f4-f64fb0f7ce4b)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5492609c-19ab-4272-95e7-e71f5ba2b3cf)
 
+* Bottom up is given for **confusion**.
+* Simply draw the tree and how many productions we are using.
 * [**IMPORTANT**]
 
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f55d1632-cc78-4e7d-8232-a1937896d08b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/93de1b6b-8657-4529-9c73-7727010b8e46)
 
-* Totally we have **4-combinations**.
-* Answer -> 4.
+* Example
+* No. of parse tree(PT) possible?
+* As start symbol is not mentioned in the question, we will take **G** as the start symbol as it is the first symbol in the production.
 
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f6490cc-fbd4-48fd-88e1-b537860e0308)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef0ffc58-6327-4707-a823-44480333daf4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8d5bed5-873d-45d6-ba66-2164ef039f6a)
 
+* So we have **4** parse trees which are possible.
+* We have **4** combinations.
 * [**IMPORTANT**]
-* What is the meaning of left most derivation?
-* Start from 1hr.
+* A tree is given/drawn and it is asked if it is left most or right most derivation tree?
+
+> Both. Only numbers will differ.
+
+* Left people give the next number that is left most derivation and right people give the next number that is right most derivation.
+* One tree possible means that itself is left most derivation tree and that itself is the right most derivation tree. Only numbers will differ.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dcf8c4f8-214a-4935-807f-49ce60e4023e)
+
+* Small numbers on the left side is **left most derivation**.
+* Small numbers on the right side is **right most derivation**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a1ebeba-48f3-4345-ad59-e7d31c04b45c)
+
+* We have **4** trees available.
+* Those **4** are both **left and right** most derivation trees.
+* Left most derivation tree means  **right** most derivation tree also possible. Only things is that numbers will differ.
+* LMDT(a) -> Left most derivation tree
+* RMDT(b) -> Right most derivation tree
+* DT(c) -> derivation tree
+* Relation between a, b and c?
+
+> a = b = c.
+
+* Left most derivation trees possible that many right most derivation trees are possible.
+* Whether we say Left most derivation tree or Right most derivation tree or derivation tree, all of them are **same**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e59656e-3e97-40df-8d74-3634197342d8)
+
+* No. of Parse Tree(PT) -> No. of Derivation tree -> No. of Left most derivation tree -> No. of Right most derivation tree -> All are **same**. At the end of the day, no. of trees or how many trees that matter.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f15202de-866d-41d6-b6bb-4306efc79ce2)
+
+* Answer -> 4 [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c5f1b19-adab-48fa-8f0f-31f029fe8e38)
+
+* Example.
+* E -> TR{printf( * )}
+* R -> +T{printf( * )}R{printf(+)}
+* R -> Epsilon{printf(*)}
+* T -> num{printf(num)}
+* Input: 2 + 3 + 4 + 2
+* Output:
+* What is the SDT?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b4d22e23-cd16-4471-bc3f-b2f5ede67c2d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d02626a-7db8-4d76-b23c-7d4323822288)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dde54bf9-e26b-4bca-bc37-47413b650364)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
