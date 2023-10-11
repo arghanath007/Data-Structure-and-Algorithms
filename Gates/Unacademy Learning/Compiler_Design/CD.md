@@ -7382,6 +7382,198 @@ III) Semantic actions will be placed **anywhere** on the right hand side(RHS) of
 * Grammer -> input
 * Semantic action -> output
 * Binary to decimal number conversion, the **input** is **binary number**. **Output** is **decimal number**.
+* **L** will give binary number without fraction.
+* L -> LB | B [It is a recursion]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ee562a3-95d6-4e04-acc6-0f5cb6303aa9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83d31d13-a27f-4712-a884-f337bde8ddd8)
+
+* S -> L.L | L
+* L -> LB | B
+* B -> 1 | 0.
+* Using the **above grammer** we can generate binary numbers with or without fractions.
+* SDT to convert the binary number to decimal number.
+* For the **second input(101.110)** draw the tree.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e9f0850-648e-4cd8-bd1b-a3f5025c49b8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8834cbe6-d3ba-497c-94a9-41559aedbfc0)
+
+* Read all leaf nodes from left to right. It is **101.110**.
+* We have a **binary number** that contain only **1-bit** What is the decimal value?
+
+> If that bit is **zero(0)** then the answer is **0**. If that bit is **one(1)** then the answer is **1**.
+
+* DV -> Decimal Value.
+* B -> 1 {B.DV = 1}
+* B -> 0 {B.DV = 0}
+* There are **base/termination** condition.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b1210191-8741-4274-a9c6-6b41dd71ac64)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a03f7da-48e8-411a-b826-4d8db8972a57)
+
+* 10 -> 2 [Binary -> Decimal value]
+* Whatever on the left side, **decimal value(2)** there multiply it by **2** and as it is add the right side value(0).
+* So it is **2 * 2 + 0 -> 4**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ed144a1-a762-48f9-a8bd-9560485d7a7f)
+
+* Whatever on the left side, **decimal value(4)** there multiply it by **2** and as it is add the right side value(1).
+* So it is **4 * 2 + 1 -> 9**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bfbd75d8-7eeb-4d61-bcfe-9d7d2c8f01ff)
+
+* Everytime we are **adding a bit** on the **right side** then only the powers will **increase**.
+* If we add on the **left hand side** then the powers will not **increase**. There is **no gurantee**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cfcccaeb-2b6d-450d-8f67-9720a0214398)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9f6b9dad-ee27-472a-a6ee-5c8b7624c101)
+
+* On the existing binary number if we add another(1-bit) bit on the right hand side then the power of the  existing binary number will **increase/increment by 2**.
+* For the given binary number we are **adding one bit on the right side** means that we are **multiplying by 2** which is nothing but **left shift**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b22e786-5798-4ce4-8df6-358dc2d78a46)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8c8f30ed-1da7-4cd2-8ec3-964223e17b84)
+
+* For the given binary number we are **adding two(2) bits on the right side** means that we are **multiplying by (2 ^ 2) -> 4** which is nothing but **2-left shifts**.
+* For the given binary number we are **adding 5 bits on the right side** means that we are **multiplying by (2 ^ 5) -> 32** which is nothing but **5-left shifts**.
+* **Right shift** is nothing but **divide by 2**.
+* **Left shift** is nothing but **multiply by 2**.
+* **Right shift binary number** is nothing but **divide by 2**.
+* **Left shift binary number** is nothing but **multiply by 2**.
+* When we do **left shift**, the **2 ^ 0** becomes **2 ^ 1**.
+* When we do **right shift**, the **2 ^ 1** becomes **2 ^ 0**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/144cdee2-85f3-4b8f-a894-af23306d6252)
+
+* Left shift -> Adding one bit on the right side.
+* 111 -> 7
+* 1110 -> 7 * 2 + 0 -> 14
+* 1111 -> 7 * 2 + 1 -> 15
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97b6de8c-0f45-483b-a451-05b58915e483)
+
+* We have a binary number and we want to multiply it by **2** then do **one(2 ^ 1) left shift**.
+* We have a binary number and we want to multiply it by **4** then do **two(2 ^ 2) left shift**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a114907-641e-45a3-8441-25c1e2cd6322)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e2079ec-8eef-4950-958f-ccd20b475113)
+
+* [**IMPORTANT**]
+* Unit productions cannot bring anything **new** same thing only copy.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aeaf0ad9-27d5-42bd-84f2-ef425d76b8e5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e899fb3c-0a4f-496b-8fe1-f56f6da238a7)
+
+* On the left side of the **tree** we got **5** which we were expecting.
+* On the right side in the **tree** we got **6** but we were expecting **.75**.
+* We applied **same story** on the **left and the right** side of the **tree**.
+* Without fractions we have do that. With fractions needs a few more lines.
+* On the left side we got **5** and on the right side we got **6** but if we **combine** them we will get **5.75**. **Small trick** needed.
+* On the right side we got **6** and we have **3-bits** on the right side.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/26e2bf7b-1310-44de-9496-bb4b7f5d2dc5)
+
+* Right side value -> 6
+* No. of bits on the right side -> 110 -> 3-bits
+* 6/2 ^ 3 -> 6/8 -> 0.75
+* Right and left side do **same** and at the end **right side** value divide by **2 ^ (no. of bits on the right side)**.
+* Calculate **no. of bits**.
+* Just do **addition** and we will get **no. of bits**. **Add** the no. of bits of **left and right**. 
+* **nb** -> No. of bits.
+* On the left we have **1-bit** and on the right we have **1-bit** and if we combine then we will get **1 + 1 -> 2-bits**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/46d9208b-6073-4653-90b4-36988d0147f2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c104b50b-1275-4615-8e27-9209a4cb79a9)
+
+* S.DV = (L1.DV + L2.Dv) / (2 ^ (L2.nb)) = 5 + 6/(2 ^ 3) = 5 + 6/8 = 5 + 0.75 = 5.75.
+* DV -> Decimal Value
+* nb -> no. of bits.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/efe6eaab-a594-47da-947b-197c3743b152)
+
+* Whatever we are doing on the right side same thing we are doing on the left side.
+* **No. of bits** we are calculating on both the sides but we are applying it on the **right side** because we are applying a **common** code on both the sides. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c0ed583-6f26-46db-a668-f8eba6c91f53)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce900b6d-1e6c-4ea1-a293-0b5089ff0548)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f6105ec-8f1b-4323-b2e3-93a479c3c556)
+
+* Fraction binary number to convert it into decimal numbers. [**IMPORTANT**]
+* Steps:-
+
+1) Remove the fraction i.e the dot(.)
+2) Find out the value of the binary number the normal way i.e without fraction way.
+3) Now divide the **value** we got in **step 2** by **2 ^ (no. of bits)**.
+
+* No. of bits needed on the **right side** but it is needed on the **right side** as it is **common code** so use it on the **right side** and don't use the **no. of bits** on the **left side**.
+* nb -> No. of bits.
+* L1.nb -> Left side no. of bits.
+* L2.nb -> Right side no. of bits.
+* [**IMPORTANT**]
+* S.DV = L1.DV + L2.DV / (2 ^ (L2.nd)). [Formula] [**IMPORTANT**]
+* L.DV = 2  * (L1.DV) + B.DV [Formula] [**IMPORTANT**]
+* Consider the following **SDT**, convert the from **binary to decimal**, Fill in the blanks.
+* The gaps are in the **above formula**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/845e0cae-0f7c-4134-bd52-ed1e50ec3582)
+
+* [** VERY IMPORTANT**]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
