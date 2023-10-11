@@ -1,4 +1,4 @@
-# Compiler Design
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ba58666-55b5-4785-9195-18d4fb31fe2a)# Compiler Design
 
 * Link -> https://unacademy.com/course/complete-course-on-compiler-design/U5V0ZQEX
 
@@ -7520,68 +7520,220 @@ III) Semantic actions will be placed **anywhere** on the right hand side(RHS) of
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/845e0cae-0f7c-4134-bd52-ed1e50ec3582)
 
-* [** VERY IMPORTANT**]
+* [**VERY IMPORTANT**]
 
+## intermediate-code-generation(17) [11th Oct 2023]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6e531000-6124-4d5b-9fd4-485b10525a41)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/411e1bdb-41a6-4118-a885-36dd85f38dd1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fbce21de-ff50-45bc-814c-e9b71423e3f2)
 
+* 101.1010 -> 5.(10/2^4) -> 5.(10/16) -> 5.625
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7cb68d11-5a4d-43cf-9185-53f710ae40c0)
 
+* The last **SDT** we makde there we used **2 attributes** which are **nb and DV**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91ee5da4-74e7-4cde-8d4e-e2a8dfd2123f)
 
+* At the parent the attribute value which is decimal value(DV) is calculated using **children attribute** which means **synthesized attribute**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a27bb1c4-21ee-411d-93a1-c705b9eab65d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed3e8a95-7f52-4865-905d-68934cba9927)
 
+* [**IMPORTANT**]
+* 1-Right Shift -> Divide by 2 once.
+* 2-Right Shift -> Divide by 2 twice -> Divide by 4 once.
+* Dot moving **left** means **right shift**. It means powers are **decreasing** that is **divisible by 2**.
+* Dot moving **right** means **left shift**. It means powers are **increasing** that is **multiply by 2**.
+* The **parent** came from the **children**.
+* The **attributes(DV and nb)** are **synthesized attributes**.
+* So they are **S-attributed** definition which means they are **L-attributed** definition as well.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/74a09df7-cd8d-404d-ac90-30225b99cc42)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/55872976-6271-423b-abdd-49695724d7c7)
 
+* Who is depending on whom?
 
+> See the **semantic action**.
 
+* a = b
+* **a** is dependent on **b**.
+* Dependency Graph.
+* **Left side people** are **dependent** on the **right side people**.
+* **Left side people** are **based** on the **right side people**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d9e650dc-fc88-4b71-9f69-f1f8d78c8770)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5128d5c1-c1fb-4ba5-9950-402e4f3e7e19)
 
+* The dependency graph came from **semantic actions**.
+* From the **dependency graph**, topological sort came.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/00fcbb8b-90b2-45a7-83fd-fa0bd2d639d7)
 
+* SDT is given and they are asking to find in which order the SDT will run/execute?
 
+> The **SDT** will run/execute in which **order** that will be decided by the **dependency graph and the topological sorting**.
 
+1) Using the **semantic actions** draw the **dependency graph** first.
+2) Using the **dependency graph** apply **topological sorting**.
 
+* Another name of **dependency graph** is directed asylic graph(DAG).
+* **Dependency graph** never contain **cycle**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/269a5042-5f23-42c2-9d04-8385c786930f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/890b8db7-07fd-4445-ae21-882345618714)
 
+* [**IMPORTANT**]
 
+* Construct SDT to create syntax tree for the given **arithmetic Expression**.
+* input: x = a + b * c.
+* output
+* How many operators?
 
+> **3**, +, * , =
 
+* Out of the **three(3)**, **assignment(=)** has the **least priority**.
+* Out of the **three(3)**, **multiplication(*)** has the **most priority**.
+* First should be **b * c**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bd8cefc2-85d1-4b4a-b096-df8349cd030f)
 
+* It is called as **expression tree** in **data structure**.
+* [**IMPORTANT**]
+* For the given **input** we have to produce that **output**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb00b837-69c9-4a52-964c-aa68db28e4cb)
 
+* Directions are not needed.
+* This is a **syntax tree**.
+* For the **input** write the **grammer** first.
+* **Assignment(=)** has the **least priority** so it is at the top of the grammer.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/569261c8-1cfb-4dcf-80e1-4c2bffc09b65)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b300e06-42d5-476c-802e-33ab3a3da880)
 
+* In the **parse tree** the **internal/intermediant nodes** are the **variables** and the **leaf nodes** are the **terminals**.
+* In the **syntax tree** the **internal/intermediant nodes** are the **operators** and the **leaf nodes** are the **operands**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/779b7328-e392-4175-be92-a1f3be4c66be)
 
+* If it is an **operand** then we will have to create a **leaf node**.
+* If it is an **operator** then we will have to create a **internal/intermediant node**. For that we need **left and right** side both.
+* For **assignment(=)** left and right both are required.
+* Direction is from **top to bottom** because **parent** contain **child's address**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3b75fbd6-bca8-4fb3-9425-05f8c2bb8949)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4294de50-fd9c-4568-a42e-3747b6d6ab43)
 
+* We have **5-nodes**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/46a09ac1-0959-4952-8083-7b5a1dc8c939)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76f2cd57-705a-48e2-a0b1-9d1a8f505b80)
 
+* This is Syntax tree.
+* We have **7-nodes** which means we have called **makenodes()** 7-times.
+* **Malloc()** creating **address** and it(Malloc()) will return the **address**. Everytime **one node** is created and it(Malloc()) will return the **address**.
+* P -> Pointer.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d7a26d93-755f-4ee7-bdbc-e572926fc7c3)
 
+* The tree which contains **operators and operands**, it is called as **syntax tree**.
+* The tree which contains **terminals and variables**, it is called as **parse tree**.
+* Meaning-wise both are **same**, different way of saying.
+* Parent having **child address**. It is not a **dependency graph**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/845dc685-91ae-4821-b81a-6a4a4bd8c8cd)
 
+* With the red color it is **Annonated Parse tree**.
+* Without the red color it is **parse tree**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/316c1b2d-8444-41d2-b202-3a7c2c05df52)
 
+* Left person is dependent on right people.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/686903e9-d9ac-4a78-9af5-a362491549c2)
 
+* **Topological Sort** -> If **a** is based on **b** then **b** should be over first and then **a**.
+* No programming nothing.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a8256f7-df20-4a4d-a086-a006fa7946d2)
 
+* When we are going, go **left** first.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d6bb485-d8d5-42c5-be90-ad2ee5cd5e6a)
 
+* SDT execution order how to decide?
 
+> We do not decide. **Topological sort and dependency graph** will decide.
 
+* **Topological sort** came from **dependency graph**.
+* **Dependency graph** came from **semantic action**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e96e8eb9-2ffc-424f-a5b8-490f24ee271b)
 
+* Topological sort normal -> 6,7,5,4,3,2,1
+* Topological sort, programming way -> 3, 4, 6, 7, 5, 2, 1.
+* We can do **3, 4, 6, 7** in any order because they are not **dependent** on anyone.
+* Topological sort, how many possible?
 
+> **Leaf nodes** we can arrange. As we have **4** leaf nodes so it is **4! -> 24** possibilities, followed by **remaining**
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e0afb85c-e163-4082-877b-95797ed74be9)
 
+* [**IMPORTANT**]
+* Using **SDT** we can do **anything**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/324d046f-79a9-4cf7-8ecb-c69c63811da5)
 
+* Construct SDT to generate intermediate code for the given arithmetic expression(AP)
+* Example
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f49522d9-eb40-4caa-b2ba-d9e5117cb370)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b29bc24e-7e58-4e77-89df-df557191cd76)
 
+* Wherever we are there is an **x** there. In the **output** if we see in the **first place** there is **no 'x'**. We cannot **skip** also as it will come afterwards. Store it and go further.
+* To do the **plus(+)**, left and right is required, left is available and the left is **a**. Go to **right** also.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ee5d00b-ac7a-47b0-bfa4-2f595f9b5596)
+
+* T1.val = b and F.val = c.
+* To do **star(*)** both left and right are available.
+* If both are available then it is the correct time to do **intermediant operation**. We have to create one **intermediant variable**.
+* newtemp() -> It will generate new temporary variable. [It is given in the problem]
+* newtemp() is a function which will create new temporary variable on each and every function call in the sequence.
+* T.val = newtemp() So, T.val = T1 [When we called newtemp() once]
+* gen() -> Generate -> It is a function which will generate output code on each function call. It don't do any calculation.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2eef29f1-5070-4fed-9cb0-2d8b7cc7c414)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9decd1d0-e0c9-4676-8592-6db71d9e91e2)
+
+* Example
+* newtemp() -> It will generate new temp variable for each call in the **T** sequence.
+* To solve the problem draw the **diagram**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f3034434-0e13-412f-8c68-c84de923e16f)
+
+* We can expand on both(left and right) the sides of **E -> E + E**.
+* So it is an **ambigious grammer**. Two answers will come.
+* The grammer is having **two choices**. Some have expanded on the **left side** and some have expanded on the **right side**. 
+* Assume **left to right associativity**.
+* Naturally two answers coming but we want only one **answer**, so we are assuming **left to right** associativity.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e28f45d9-480f-4e74-bd71-442dd3e97e40)
+
+* **Left to right associativity** so expand the **left side**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f4bc43a-971d-4dcf-86f7-1d2f8223a1fd)
+
+* Read all of the leaf nodes from left to right side.
+* **Semantic action** at the **end**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2bc3d47f-e3b7-4fb5-bbfe-830c41aa54fe)
+
+* Create a new **temporary variable(t1)** for the **first time**.
+* It is creating new temporary variables at the **operands** also. It may not follow any rules.
+* For **plus(+)**, left and right side are available so we can do **plus(+)**.
 
 
 
