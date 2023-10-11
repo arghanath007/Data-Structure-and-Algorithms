@@ -7735,20 +7735,76 @@ III) Semantic actions will be placed **anywhere** on the right hand side(RHS) of
 * It is creating new temporary variables at the **operands** also. It may not follow any rules.
 * For **plus(+)**, left and right side are available so we can do **plus(+)**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c47879f1-9f48-43d7-8713-23828ed47b66)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/faa5388c-a609-4220-a3bd-ccbd34a686b0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a13fbf87-288f-418c-9270-cc07b9d41e4e)
 
+* Using **left to right**.
+* Construct SDT to store type information into symbol stable.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b7788ae-fe21-4702-903d-36b76ef22c75)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4ace771c-61ff-4d5e-aa51-0ad06d73500a)
 
+* Example
 
+1) Input purpose write grammer.
 
+* Input is **declaration**.
+* D -> Data Type -> int | float | char
+* V -> Variables -> V, id | id
+* S -> DV;
+* D ->  int | float | char
+* V -.> V, id | id
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3c9d90a-d56b-4968-8160-e6556c01adb1)
 
+* **CFG** for generating all **c-declarations**.
+* Declaration means data types followed by variable.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/78d30bff-7235-4ec3-a96d-4d2f7f67b283)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/04b8df76-c388-4397-947a-22d80fb0decb)
 
+* Grammer is over and now we have to write the **semantic actions**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/441b3df7-f7e6-4a2e-913e-e84e33662ef2)
 
+* Read all leaf nodes from **left to right**.
+* Parent is doing two things whatever possible it is **storing** and **type** also forwaring to the **next level**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3fe097a-1a46-4ff2-ba04-d652bafcf9a1)
 
+* We have used only one attribute(type).
+* Initially **type** is a **synthesized attribute**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/74b488b7-84f9-4d57-9e52-33d3697ec629)
+
+* In the problem we have **2-sttributes**. Sometimes it is **synthesized** and sometimes it is **inherited**.
+* Initially it is **synthesized attribute**, afterwards it is **inherited**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8bc479fe-d618-4eb3-a94a-09f53182c298)
+
+* **2** is based on **1**.
+* V.type(2) = D.type (1)
+* From **1**, **2** is coming.
+* Parent will give **type**.
+* Variable came from **id**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86e87a58-ffc8-4864-b1d0-99aedff3cc3a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d2908b7-1266-4bef-84a6-aeb8f966849f)
+
+* If it has **cycles** then how it is a **DAG**. So it has **no cycle** that's why directions are there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db66c272-a2cc-4b31-9f3e-a4a4fa22f918)
+
+* One possible sequence of **order**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e84670c2-0505-430f-ae07-2c1f01e322e9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/64b95a7f-c6e7-4df9-93da-3f61bd422c51)
+
+* The above problem was a bit **difficult** because **synthesized as well as inherited** attributes where there.
+* Both the **sequences** are **correct**.
+* **1 and 2** are siblings which means they are **inherited**.
+* **2 and 5** are siblings which means they are **inherited**.
 
 
 
