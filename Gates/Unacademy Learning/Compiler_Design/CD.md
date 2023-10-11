@@ -1,4 +1,4 @@
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ba58666-55b5-4785-9195-18d4fb31fe2a)# Compiler Design
+# Compiler Design
 
 * Link -> https://unacademy.com/course/complete-course-on-compiler-design/U5V0ZQEX
 
@@ -7821,3 +7821,4 @@ III) Semantic actions will be placed **anywhere** on the right hand side(RHS) of
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c6bf9c49-01a8-4407-bf0f-92c01cd177a4)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb1a6fb8-6936-4717-9fe7-2777648a8645)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8cd32bd2-987a-4a12-879c-8491e39b0439)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ba58666-55b5-4785-9195-18d4fb31fe2a)
