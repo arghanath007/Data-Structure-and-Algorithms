@@ -8040,25 +8040,49 @@ III) Semantic actions will be placed **anywhere** on the right hand side(RHS) of
 ## 3-address Code
 
 * Maximum of 3-addresses.
-* 1hr 59mins.
+* X = y + z
+* It is **3-address** code as max of 3-addresses there.
+* X = y
+* It is **3-address** code as max of 3-addresses there.
+* X = a[i]
+* Array name(a) means base address. **i** is one variable having address.
+* So **a, i and x** are three people so it is **3-address** code as max of 3-addresses there.
+* a[i] = X
+* It is **3-address** code as max of 3-addresses there.
+* X = *a.
+* **( *a )** is a **pointer** so **a** has a **base address** and **( *a )** points to the value at that **address** which means **two people there** and we have **x**.
+* So **a, *a and x**, are three people so it is **3-address** code as max of 3-addresses there.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/18d9b289-8637-47e5-9632-bec018f6203d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/396f447a-a3f0-4ed5-bce3-29f3931bf0dc)
 
+* These all are **3-address** code.
+* Question:-
+* Check which one of the following is not 3-address code? [Expected Question]
 
+> Some of them will be 3-address code and some of them will not be 3-address code.
 
+* x = a[i][j].
+* So **a, i, j and x**, are four people so it has **4-addresses** which means it is not **3-address code**.
+* x = f(a,b).
+* So **a, f, b and x**, are four people so it has **4-addresses** which means it is not **3-address code**.
+* if(a < b) goto c.
+* So **a, b and c**, are three people so it has **3-addresses** which means it is **3-address code**.
+* This is **conditional goto**.
+* goto c.
+* So **c**, are one people so it has **1-address** which means it is **3-address code**.
+* This is **unconditional goto**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a18409e-dd7a-4ba9-b0da-d1db8c776b6b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81d8fb0f-7d45-4ac9-b21c-78c480ad4345)
 
+* Everyone having different **address**.
+* Intermediante code means even though we have **4-representations**, people will write **3-address** code.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b937169-c2a7-4af7-9711-26179e03da45)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31855b08-0f9d-4025-9c08-e0f9c7454600)
 
-
-
-
-
-
-
-
-
-
-
+* 1hr 28mins.
 
 
 
