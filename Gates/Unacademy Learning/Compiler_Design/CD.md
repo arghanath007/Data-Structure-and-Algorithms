@@ -8227,13 +8227,129 @@ III) Semantic actions will be placed **anywhere** on the right hand side(RHS) of
 
 * If not mentioned then it is **row-major order**.
 
+## runtime-environment(19) [12th Oct 2023]
+
 ### Control Flow Graph(CFG)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ceb3e87a-4886-452a-b01c-62d16fd212e8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e1de432-3078-4472-a238-c77050772a11)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e264307d-de37-42a8-8a80-d7cbbcbc81f2)
 
+* For the given **3-address code** how to draw **control flow graph(CFG)**.
+* If we want to draw the **control flow graph(CFG)** then what is the first condition?
 
+1) Find leaders.
 
+* To draw **control flow graph(CFG)**, we need to find **leader**.
+* How to find **leaders**?
 
+1) First statement is the leader. [So statement '1' is a leader]
+2) Target of a goto is a leader. [So statement '3 and 2' are leaders]
+3) Next statement after goto is a leader not the target of goto. [So statement '10 and 12' is a leader]
 
+* We have **5-leaders** which are **1,2,3,10,12**.
+* In the above program we have **5-leaders**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f153f70b-9432-4e35-8d33-aac720a5c01e)
+
+* **Basic block** -> From one leader to before next leader, they are **basic blocks**.
+* One basic block cannot contain **2-leaders**.
+* Using **leaders** how to find no. of basic blocks?
+
+> 
+
+* **No. of basic blocks** is equal to **no. of leathers** because one basic block cannot contain **2-leaders**.
+* In a **basic block** everytime **first person** is the **leader**.
+* In a **basic block**, **first person** should be a **leader**.
+* 3 to 9 are **basis blocks** is nothing but set of **3 order statements** where control enters at the beginning and leaves at the end. In-between no chance of stopping which means no jump or no hault or no goto.
+* Unfortunately if we stop in a **basis block** then we have to end at the **end only(9th statement)**.
+* It is because based on the **leaders** only we have done the **basis block**.
+* **Basic block** is a set of **3 order statement** where control enters at the beginning and leaves at the end, in-between no hault or no goto. [Basic Block Definition]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1e88ce8-6077-4c79-bb61-c239c19d2957)
+
+* Question:-
+* Code given and asked how many leaders?
+* Code given and asked how many basic blocks?
+* Using leaders how to find/count no. of basic blocks?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6e1fad6c-4b05-4fba-9121-39aa3f480c3c)
+
+* Basic block 1 -> Statement 1
+* Basic block 2 -> Statement 2
+* Basic block 3 -> Statement 3 to 9.
+* Basic block 4 -> Statement 10 to 11.
+* Basic block 5 -> Statement 12.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b477de85-ef67-4b5d-97e3-ff7ed9db376d)
+
+* Basic block 1 contain only 1-line. The last part is **i = 1**. There is **no goto statement**. As there is nothing special so the **control** will go to **Basic block 2**.
+* We are seeing the basic block's last line only because inbetween no goto, no hault only last person can go. We cannot go in the middle. If we start at the beginning then we can leave only at the **end**. So see the **last statement** of every **basic block**. In the last statement only we can **go somewhere**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92fea591-4cfd-4f5c-a6c1-539492a066f8)
+
+* Basic block 2 contain only 1-line. The last part is **j = 1**. There is **no goto statement**. As there is nothing special so the **control** will go to **Basic block 3**.
+* Basic block 3 contain only **9 - 3 + 1 -> 7-lines. The last part is **if j <= 5 goto 3**. If the condition is **true** then we have to **goto statement '3'**. If the condition is **false or not true** then we will go as it is to the next **statement(10)**.
+* So every **conditional goto** will bring **two edges**, one edge to the next level and one edge to wherever we are going. 
+* Last line of **Basic block 3** is if the condition is **true** then go to **statement '3'**. So we will do **self loop**. If the condition is **false** then we will go to **statement(10)**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/033d488e-5c4b-4290-a99a-fa3cf926b131)
+
+* Basic block 4 contain only **11 - 10 + 1 -> 2-lines. The last part is **if i <= 5 goto 2**. If the condition is **true** then we have to **goto statement '2'**. If the condition is **false or not true** then we will go as it is to the next **statement(12)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4fbfef8c-16d1-4ddd-9830-799c0b035416)
+
+* Basic block 5 contain only **1-line. The last part is **j = j + 5**. There is **no goto statement**. As there is nothing special so the **control** will go to further but further not there, so it will **stop**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/56e494fd-f1ac-4c38-adcb-9725cc45c3c4)
+
+* This is called as **control flow graph**. How is the flow of control.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/675dbdb6-3884-491c-846f-0c57fe0d19e7)
+
+* From the middle we cannot go anywhere.
+* Conditional goto will give **two edges(Fail or Pass)** in the control program.
+* Unconditional goto will give **one edge** to the control program.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b90a89de-c1fa-44c9-b128-9f3c55c13511)
+
+* **S** is the starting node and **E** is the **ending node**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2137209-b993-45e9-ba33-419bd98cb4e0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd35c700-7fdf-426f-96e6-8a61ca46b297)
+
+* Now this is **control flow graph(CFG)**.
+* Question:-
+* Code is given and if we construct **CFG** then how many nodes are there?
+
+> We have **7-nodes** which are **S, B1, B2, B3, B4, B5, E** which is **5 + 2 -> 7**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c704b796-d3c9-44a6-b33d-e82141cd0add)
+
+* It is **directed graph**.
+* In the **DFT** tree if we find a **single baggage** also then **cycle** is there.
+* After **control flow graph(CFG)** drawing is over then how we will know if that particular graph having cycle or not?
+
+> Apply **DFT** and see/chcek if **baggage** is there or not. If **baggage** is there then **cycle is there** if **baggage** is not there then **cycle is not there**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f647e886-cb59-4553-a9d7-7452705ecdc0)
+
+* **Cycle** means baggage.
+* In the above graph apply **DFT** and verify if any **baggage** present. If **baggage** there then **cycle exists** and if **no baggage** then **no cycle exists**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0aff9238-796b-479a-ba6a-5851ae27dfec)
+
+* Given **3-address code** contain cycle or not, how to verify?
+
+> Draw the CFG first. On the CFG apply DFT. If **backedge** is there then **cycle is there** and if **no backedge** then **no cycle** is there.
+
+* Purpose of **CFG** -> Using CFG we can verify given **3-address code** contain cycle or not.
+* No. of **leaders** is equal to **no. of basic blocks**.
+* When we say it is **CFG** then **vertex and edges**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/986832d0-b6d8-4afb-8ec5-93a2c46c4fd3)
+
+* Star from 54mins.
 
 
 
