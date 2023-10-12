@@ -7880,55 +7880,167 @@ III) Semantic actions will be placed **anywhere** on the right hand side(RHS) of
 * Between **intermediate code and code optimization**, **code optimization** is **optional**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/976aad3f-678c-4a7d-a54a-88c453c28300)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4514e0a0-20ab-410e-a780-1312890c64b1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a781d09-69ca-4a8a-95f3-cad0371efae0)
 
+* For the **last person** there is no requirement for the **intermediate variable**.
+* Only for the **intermediate people** we have **intermediate variable**.
+* This is called as **3-address code** which means **maximum of 3-addresses**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0dac65f0-b967-42e9-b135-bebbb6e8d11f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/17b21459-2e3a-4122-915f-6feec51d0955)
 
+* This is **linear form**.
+* **3-address code** [**IMPORTANT**]
 
+### Postfix Notation
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ca904d01-d694-4ae4-b75a-34407090fff0)
 
+* **8** is **x = 7**.
+* Postfix of **x = 7** is **x7=**. Operator we have to write **last**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c5dad56a-27c0-4913-a250-732354d4b4de)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95db5d17-68ef-4992-821a-7091ccf17b14)
 
+* It is **linear form**.
+* It is **postfix notation**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5fd56da5-1310-4161-b6b3-46e809b94ade)
 
+* Postfix notation [**IMPORTANT**]
+* Immediately ask which operator? Binary or unary operator.
+* Binary Operator -> 2 things POP.
+* Unary Operator -> 1 thing POP.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3eb1c4f7-5126-4021-a26d-919ac76ae6f2)
 
+* Every operator we have to **Stop** and we have to perform **operation**. If we see an **operator** then there will be a **temporary variable(t1)**. Result place there is a **temporary variable(t1)**.
+* Operator means keep **1-temporary variable** there.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8531a8cf-ea2c-45ae-b7fe-3ba91bcf2d04)
 
+* Meaning-wise both are **same**.
+* Fighting is always done with **neighbours only**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/68c9405f-532b-4eb8-b43a-17e1103f1442)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9a01972f-632b-454a-acae-4acb09becda5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19bbafd1-7b51-4fb0-acce-d7f52b9910b4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ddb39e3-d309-4bd7-8770-5c664bfd8b72)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c75ac41-05b1-4e7e-883b-ea9b6a590d93)
 
+* According to the **tree** , **b * c** first because it is there at the **bottom of the tree**. The operator which is at the **top** will be done **last**.
+* Whatever **tree** say follow it.
+* **Bottom people** we have to **leave bracket** otherwise it will cause misguidance.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e308693e-370b-41cf-98b1-7a203fa6c9d7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71ee1bac-1531-4997-bed5-3323a8b27f42)
 
+* It is **a * (b + c)**.
+* Take care about the brackets.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/791d54ea-05b5-4c0e-bfb7-894013a8ed82)
 
+* According to **c-language**, **star(*)** has the **highest priority** but according to the **tree** may not be.
+* Tree given means **priorities** are given. [**IMPORTANT**]
+* In the **tree** bottom people have the **highest priority**.
+* In the **tree** top people have the **least priority**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ecf7ec91-eb8b-4fce-ad29-50676c88108b)
 
+* This is **syntax tree**.
+* Question:-
+* Expression is given and to that expression if we create syntax tree how many leaf nodes?
 
+> How many **operands** are there that many **leaf nodes(LN)**.
 
+* How many **operators** are there those many **internal nodes(IN)**.
+* Tree means **no cycle**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66312086-b023-4b5d-a0be-43628493dfde)
 
+* Meaning-wise all three are **similar**.
+* Intermediate variable -> t1,t2,t3, ....., t7.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32bad01d-5105-4f73-8449-41bc81e0aa15)
 
+* **1** is **b * c**.
+* **2** is also **b * c**.
+* We don't do **2**. One time only we will do. This is actually **code optimization**. **DAG** is used in **code optimization** only.
+* For **5** we have **t4 - d**. As **d** is already there in the **tree** so go there. Don't take **same person** again.
+* In **DAG** we cannot say **no. of operands** equal to the **no. of leaf nodes**. **NO** because we have **removed** some of the **repeatations**. We cannot give gurantee.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d50b709-d610-4aef-90f5-7e71aeb1e979)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0ed1f7f-d19e-447d-a353-9643b5d9a215)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f2db2b40-ae95-4368-a03c-88294e07306f)
 
+* By default there is **no cycle**. because the direction is from **top to bottom**. No one will go from **bottom to top**. This is for **expression evaluation**.
+* If we draw the **DAG** for **dependency graph** then there maybe **cycles**.
+* Until and unless said for **dependency graph**, normally **DAG and syntax tree** direction is from **bottom to top**.
+* **DAG**. Coming every year in paper. [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc63ac0d-1501-459f-bd3e-3da1bf7e0d3a)
 
+* Ofcourse.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed771dcd-903f-4d1a-af83-9d8097fade37)
 
+* Example.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2fee8df-68f3-4e77-bc10-312158ac1607)
 
+* This is **3-address code**.
+* Every **operator** is having **1-temporary variable**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e5198f1-c834-4ba2-be81-3468aa438771)
 
+* This is **postfix notation**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/506d44c1-1242-4e55-b067-e74ea4107531)
 
+* This is **syntax tree**.
+* **1** is **a + a**. **Left** is also **a** and **right** is also **a**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eecf98ea-7e65-48de-844d-9a1bebf18a8e)
 
+* Next is **(a + a) * (a + a)**. **a + a**. is already there no need to do.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ecd14ae8-e435-4fd9-bc59-f60b7d890104)
 
+* Below people will be **done first** we have to keep brackets.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/adee3db9-126b-43de-b99e-6408955d4c14)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8aa163d2-b716-4a22-a1cc-c8d16d2573e1)
 
+* We have taken **2 stars(*)** because the **left and the right** of the **stars(*)** are **different**.
+* If **same meaning** then don't do.
+* We cannot write **same operand 1-more time**.
+* We can write **same operator, YES**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9cd97250-81e3-45ce-a810-6a0403043fbd)
 
+* No cyles in **DAG**.
+* How many leaf nodes in **DAG**? [**IMPORTANT**]
 
+> DAG contain no. of leaf nodes = No. of distinct operands.
+
+* How many leaf nodes in **syntax tree**? [**IMPORTANT**]
+
+> Syntax tree contain no. of leaf nodes = No. of operands. 
+
+* In **DAG** we have to take care about **brackets**, below people keep **bracket**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66f63997-7d5c-4464-9f35-3c3c8d3a9f8d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b657b83d-eb91-4fe3-a171-df21c3cff595)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81452de8-dbdb-4fb5-b323-1be6e5dccb6d)
+
+* The directions in **DAG** is **top to bottom**.
+* [**IMPORTANT**]
+
+## 3-address Code
+
+* Maximum of 3-addresses.
+* 1hr 59mins.
 
 
 
