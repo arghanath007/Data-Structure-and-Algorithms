@@ -7806,6 +7806,108 @@ III) Semantic actions will be placed **anywhere** on the right hand side(RHS) of
 * **1 and 2** are siblings which means they are **inherited**.
 * **2 and 5** are siblings which means they are **inherited**.
 
+## intermediate-code-generation-part-2(18) [12th Oct 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cbcb1845-7985-4d13-b5dd-2bb74c942c1b)
+
+* **L-attributed** means it can use both **synthesized and inherited attributes** but in the case of **inherited attributes** one condition is there that we cannot **inherit** from the **right sibling** can only **inherit** from **left sibling and parent**.
+* E.val = G.val
+* **E** is taking from the **right sibling(G)**. We cannot take from the **right** but we can take from the **left**.
+* As **E** is taking from **right sibling(G)** which is not allowed in **L-attributed**.
+* That's why **L-attributed** is not possible.
+* **S-attributed** also fails because we are taking from **siblings** and in **S-attributed** which **maximum** means **synthesized attributes**.
+* Both the **S and L attributed** are not possible.
+* Answer -> None [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8c771bc1-16a5-4a7d-abd3-ed8bde5da611)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d28165e3-1741-4d7d-874d-db4cec053512)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d716ee1-9b44-4545-87b3-0a4951db2d31)
+
+* [**IMPORTANT**]
+
+## Intermediate Code Generation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
