@@ -7827,6 +7827,64 @@ III) Semantic actions will be placed **anywhere** on the right hand side(RHS) of
 
 ## Intermediate Code Generation
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c8eea6f7-bda9-408a-b564-d146ff2a5fe4)
+
+* Intermediate code advantage is that **portability** will come.
+* It is the **machine independent code**.
+* Totally we have **3-codes** which are **high level, low level and intermediate level**.
+* The code improvement can been done in **all three places** of the code.
+* Code improvement transformations can be done in **source code, intermediant code and target code**. [NOTE] [**IMPORTANT**]
+
+### Representations of Intermediate Code
+
+1) Linear Form
+
+* 3-address code
+* Postfix notation
+
+2) Tree Form
+
+* Syntax Tree
+* DAG
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f43912c-c08e-4762-8a91-b32750617be6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5641f31f-861a-4ae1-ae78-338d3fcf99f9)
+
+* Example
+* Plus(+) -> Add
+* Multiplication(*) -> Mul
+* Divide(/) -> Div
+* Everything will be converted from **high level** to **intermediate** first.
+* Highest priority will be done **first**.
+* We have **2-star(*) and 1-divide** who have the **Highest priority**, they have **left to right** associativity so they will done from **left to right** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1fe448f-3cf0-4e55-a484-261fad5cf01a)
+
+* Assignment(=) is always the **last person** as it has the **least priority**.
+* Whenever **intermediate code** is going on we will create the **intermediate variables(t1)**.
+* For every **intermediate operation** create **1-intermediate variable**.
+* This is only **intermediate code**, we do not care about **code optimization** here.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
