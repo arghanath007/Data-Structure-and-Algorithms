@@ -7865,15 +7865,21 @@ III) Semantic actions will be placed **anywhere** on the right hand side(RHS) of
 * For every **intermediate operation** create **1-intermediate variable**.
 * This is only **intermediate code**, we do not care about **code optimization** here.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b708b3f1-173b-437d-bfda-f10973e272be)
 
+* t1 = b * c.
+* **t1, b and c**, three people/variable are inside. Every person/variable needs **1-address**. That's why this is called as **3-address code**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/742d7e94-c2e4-4ead-93b5-6ff58f655493)
 
+* **3-address code** is one way of representing intermediate code but **3-address code** means **maximum** of **3-addresses**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2e07dd9c-1f24-4fa9-93e0-9c047b558603)
 
+* Don't think little bit about **minimization** because that is  **code optimization**.
+* Between **intermediate code and code optimization**, **code optimization** is **optional**.
 
-
-
-
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/976aad3f-678c-4a7d-a54a-88c453c28300)
 
 
 
