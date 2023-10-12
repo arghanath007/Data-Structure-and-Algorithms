@@ -8076,16 +8076,21 @@ III) Semantic actions will be placed **anywhere** on the right hand side(RHS) of
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a18409e-dd7a-4ba9-b0da-d1db8c776b6b)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81d8fb0f-7d45-4ac9-b21c-78c480ad4345)
 
-* Everyone having different **address**.
-* Intermediante code means even though we have **4-representations**, people will write **3-address** code.
+* Types of **3-address code**. [**IMPORTANT**]
+* Everyone **function** having different **address**.
+* Intermediante code representation is in **4-ways** only but normally people will write **3-address code** only.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b937169-c2a7-4af7-9711-26179e03da45)
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31855b08-0f9d-4025-9c08-e0f9c7454600)
 
-* 1hr 28mins.
+* [**IMPORTANT**]
+* Difference between integer constant and integer variable?
 
+> Everything is same, one difference is that **constant** is constant only, cannot change and **variable** can change.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/192ba434-fc64-4722-8748-5318cb417d2d)
 
+* Example.
+* Operands -> a,b,c,d,e,f,g,h.
 
 
 
