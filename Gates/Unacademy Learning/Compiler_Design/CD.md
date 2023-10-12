@@ -8090,10 +8090,144 @@ III) Semantic actions will be placed **anywhere** on the right hand side(RHS) of
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/192ba434-fc64-4722-8748-5318cb417d2d)
 
 * Example.
-* Operands -> a,b,c,d,e,f,g,h.
+* Write **3-address code** for the statement.
+* Operands -> a,b,c,d,e,f,g,h 
+* Total **8** operands means **8** addresses.
+* Directly **8** required but we are converting it into **3** to be able to use as **3-address code**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d88f7c4f-4782-4a93-8aff-a77c456a9fd0)
 
+* We have **3-addresses** which are **a, b and destination** which we don't know yet.
+* When we don't know **keep gap**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16124b04-665a-43f9-9b02-678f4a1b4ca7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/955a4d7f-551a-4ee7-9fcb-3a4282b6ebfb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc009342-9471-4fbb-bd03-df53e4a152fe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/670d195d-4643-4b45-a233-4a43bb951f8c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f4bfced9-a17e-4b02-89ad-7788592d271b)
+
+* Everywhere we are using maximum of **3-addresses** in all of the lines.
+* Line-wise draw the tree.
+* We converted the **if-else** into **3-address** code.
+* High level language(c-language) have **for,while loop, if-else**, low level language(assembly language) doesn't have **for,while loop, if-else**.
+* Backpatching -> Coming or came back and filling.
+* Patching -> Filling.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/64646411-7473-4380-b24a-1f797dcc5951)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aaae145a-e840-4e27-9498-d8efd7313747)
+
+* Example
+* Write 3-address code for the following program. [Convert]
+* Our target is **low level code** so we have to eliminate slowly all **keywords**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83f984ad-66b5-45cd-a53e-e39366e17e05)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bbc29368-5b8d-4163-9112-c8c17563146c)
+
+* Condition checking will run for **(n + 1)** time.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/738b2012-4872-4209-8399-ceb3bbb9870e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/59949bcd-5181-45e9-8709-334a53ab9695)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8041e1a9-7c06-40b5-a2be-bdf6af12886f)
+
+* Every line **max of 3-addresses**.
+* [**IMPORTANT**]
+* Finally every line of the program is converted into **3-addresses** code.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e4f5e118-403b-42b6-a692-8e2c7051d20a)
+
+* We wrote the **addresses** of the **if and goto** statements after we completely written all of the other statements as we don't know at the starting where to go.
+* We came back and added the **addresses** in the **blanks**. This is **backpatching**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71688745-553e-4789-b9bd-cbbb234abea9)
+
+* Example
+* Write 3-address code for the following program:-
+* When no one will match then go to **default case**.
+* **Switch case** is not a **loop**. It will execute **only once**.
+* If **case 3** is executed then **default** will not execute. As **break** is there.
+* If **case 3** is executed and **break** is not there then it will go to **case 10** also and **default** will get executed.
+* If **no break** then it will execute all.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb128364-6574-45e1-96d4-d2c3fb06747e)
+
+* **break** means we should go out/terminat/halt statement.
+* **Default** means no need to check as well. Directly execute the code.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0713f93e-7032-4a40-8836-2180d1641ec7)
+
+* We are directly writing **halt statement** after **default**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b95ca49b-9240-453c-9f30-ee8ed4709178)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/06897e50-8a9d-4b1d-9645-21706fa724a4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2defe81-d107-4d8b-a451-896ddfc7d89c)
+
+* If anyone comes to **2006** address then they are stuck there as it is the **halt statement**.
+* [**IMPORTANT**]
+* For the **break** statement we have written **goto 2006**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b4f5c00-7048-4d1e-b660-909dce666827)
+
+* Total program will now look like **intermediate code**. No switch keyword, no for or while loop.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44f10eb5-769f-4a44-87d1-372342416ffe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5036c94f-18f9-4cf2-a69a-172e49814654)
+
+* Example
+* Write 3-address code for the following statement:-
+* Consider the following statement in **c-language**, array name is **a** based address is **3000**, element size is **2-byte**, 10 rows and 25 columns are there. [**IMPORTANT**]
+* In the way also in **English** the question could be given as well. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0df6e8ca-a2e4-4938-b3e6-10144982cf46)
+
+* One element side is **2 bytes** as it is **integer**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/030022d6-3ada-4347-a470-d17ceec2a5de)
+
+* x = a[i][j]
+* It is not a **3-address code**. We have **4-addresses** as we have **x,a,i and j**.
+* The element belongs to **ith row and jth column**.
+* Initially we are in **0th row and 0th column**.
+* Between **0th and ith row** we have **(i - 0 + 1) rows**, if we want to go to **ith row**.
+* We don't want to cross **ith row** before **ith row** how many?
+
+> **(i - 0) rows**
+
+* Between **0th and ith row** we have **(i - 0) rows**. Before **ith row** how many rows is there that is **(i - 0)** rows.
+* Before **ith** row how many rows?
+
+> **(i - 0)** rows is **'i' rows** only.
+
+* We are in **0th row** and we want to access **ith row**.
+* **t1** contain is to go to the **row(ith)** how many elements we have to cross. **t1** elements we have to **cross**.
+* To go to **row** we have to cross **50** and to go to that **column** in that row is **5**. So total is **55** people, if we cross then we will reach the desired **row and column**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1d4c3a3-b193-4be9-a00a-05511cb0bcbf)
+
+* **t4** contain the address of the **element**.
+* **x** contains the value at the address.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c2f68ab-d67d-471f-977b-027311ba5954)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ca0323fd-c80b-4054-aad9-c8fbf7abc903)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8c0d743-4127-496e-bafe-db4818dc0d6a)
+
+* 2D array formula.
+* The formula will give **address**.
+* The question wants **data**. So write **star(*)** lastly to get the **data** at that address.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/853513d2-9819-4856-a142-e4e8f6179be1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c8acb163-4df4-4603-b36f-ecd899472dcd)
+
+* 3D array question given. [Ask someone]
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89a2e47a-d52f-44ce-b32b-c227053eaaa2)
+
+* If not mentioned then it is **row-major order**.
+
+### Control Flow Graph(CFG)
 
 
 
