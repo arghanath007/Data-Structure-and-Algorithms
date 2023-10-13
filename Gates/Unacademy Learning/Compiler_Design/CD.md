@@ -8360,10 +8360,318 @@ III) Semantic actions will be placed **anywhere** on the right hand side(RHS) of
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/94f9df90-5fd5-4924-949b-73e501c3e4b7)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/070ad6b3-33af-4556-8a52-11ad317777a1)
 
-* Basic block **1** last line nothing special. So go to the next basic block which is **2**.
-* Basic block **2** last line nothing special. So go to the next basic block which is **3**.
-* Basic block **3** last line nothing special. So go to the next basic block which is **4**.
-* Basic block **4** last line has conditional goto statement, so two edges will come. We are going to **3rd statement** and not 3rd basic block. We are go to the next basic block which is **5**.
+* Condition means **if** should be there.
+* Basic block **1** last line nothing special. So go to the **next statement** which is **3**.
+* Basic block **2** last line nothing special. So go to the **next statement** which is **5**.
+* Basic block **3** last line nothing special. So go to the **next statement** which is **9**.
+* Basic block **4** last line has conditional goto statement, so two edges will come. We are going to **3rd statement** and not 3rd basic block. So go to the **next statement** which is **10**.
+* Basic block **5** last line has conditional goto statement, so two edges will come. We are going to **20th statement** and we are going to the **next statement** which is **12**.
+* Basic block **6** last line has conditional goto statement, so two edges will come. We are going to **9th statement** and we are going to the **next statement** which is **15**.
+* Basic block **7** last line has conditional goto statement, so two edges will come. We are going to **12th statement** and we are going to the **next statement** which is **17**.
+* Basic block **8** last line has **unconditional goto statement**, so only one edge will come. We are going to **5th statement**.
+* Basic block **9** last line nothing special. Leave it. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d871967-2e9a-4b93-a6dd-850b61f7b530)
+
+* First basic block keep one edge(S) **inside**.
+* Last basic block keep one edge(E) **outside**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c88f646c-86be-4658-aa02-44d1b91222fb)
+
+* Nodes -> 9 + 2 -> 11.
+* Edges -> 14.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d2364d97-9b69-4cbb-b74b-fbfb1020d5ea)
+
+* Backedge is there so **cycle** is there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/acf0014a-6d47-4350-9469-9329b15a8427)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f5d595b-b2e2-4667-a34a-cebed74bbe2f)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/46292411-a47a-4891-a305-9320e480b6dd)
+
+* Consider the following basic block.
+* If you create DAG find no. of nodes and no. of edges.
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/910db83c-4568-4677-87ad-ede46acb3c8c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a3f083c-5627-4d7c-8ec5-ef117b2e7060)
+
+* We have **one equal(=)** in that.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a55ccc8-fc03-422a-9db0-7579e0a4b6cd)
+
+* Whenever **basic block** is given don't draw like **above** because here we have so many **equals(=)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7064dff6-41e4-4bce-a9d8-b3e46907be45)
+
+* This is **a**, don't write **equal** one more.
+* a = b + c
+* d = b + c
+* Both the **(b + c)** are **same** because inbetweeen **e** is getting updated and not **b or c**. So write **(b + c)** once only. No need to do it **twice**.
+* DAG means **optimization**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af82a01d-267d-4f8e-8d25-b8deba2dd810)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c999bafa-d0dc-4d7c-839f-72189eb23d64)
+
+* This is **e = a + 1**.
+* **f = d + 1**. It is already **d** also. So **e = a + 1** and **f = d + 1**, both are **same**. They are physically looking **different** but they are **logically same**. **(a + 1) and (d + 1)** both are **same** because **a and d** are **same**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/40c11283-3482-4c11-9b2f-6da11f84f195)
+
+* **e and f** both are **same**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a99586da-439f-4176-b7e0-267c0cd4f3f1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b2cd4f7c-3e36-4c44-bd35-996e6eb69419)
+
+* Nodes -> 6
+* Edges -> 6
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8bfc4f64-ef59-4067-aa56-738d00b24468)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/068dc9bb-e03c-4fe8-9fae-eff7903bcb14)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d6842ba-fc54-495e-aa46-a753dacb0c7c)
+
+* When we say **DAG** it means it is **optimization**.
+* Whenever **basic block** is given do like the **above process**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63116efb-1996-473e-b2d3-d0835fe404dc)
+
+* **a** having two meanings.
+* If **a** having only one meaning then that is **SSA(Static Single Assignment)**. One person is having one meaning only.
+* One person having multiple meaning then that is **not SSA**.
+* Above one is not **SSA** because **a** having two meanings.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4bf9560d-a9e4-4762-9a54-20312866d506)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12989743-f6df-4351-9396-f04e9634bd79)
+
+* Above is not **SSA** because **a** is having more than **1-meaning**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8eb86fb7-a384-4ffe-923f-cddab46ce6e0)
+
+* How to convert to **SSA**?
+
+> Left hand side we don't want to see the **same person** more than 1-time.
+
+* If we can do that then it is **SSA**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/47bd1fd0-40f8-4dee-9c95-6c55ab524e15)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b568df0a-5e81-4854-8ccd-55339389772a)
+
+* New name is not important here, important is that one person should have 1-meaning only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea3e8845-12b8-4a8f-af3d-de2ff7a9a707)
+
+* **SSA** is another way of representing **3-address code**.
+* More than 1-meaning means ambiguity will come.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa49fa48-6445-4493-a12c-eb77941db62b)
+
+* [**IMPORTANT**]
+* Convert following code into SSA.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7f9b242-c8fc-4fe7-9ffc-ed7e18a346c2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f8c24062-61c8-46bb-a25d-1540c054afb2)
+
+* Example.
+* **x** is repeating **twice** and **y** is repeating **thrice**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c750b9df-88f0-43a3-b10b-ad27682e5c7e)
+
+* After first line is over the meaning of **x** is that **x = u - t**.
+* When we are renaming on the **left side** we have to use that **renamed variable** on the **right side** as well.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ec7f65a-f3e7-4b84-8879-3b11005ae9f9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d61649cf-973e-4727-a7b3-367ca4f3ebcc)
+
+* This is the meaning of **SSA**.
+* Before conversion we have **6-variables**.
+* After conversion we have **9-variables**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa6a788d-8d9c-4d5b-85f4-90dee2cda704)
+
+* It is one form of **intermediate code**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3680d0fb-4f08-42e4-afef-0ffbfe37c867)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8501be2c-e3ea-4c86-8a31-df82c4c80457)
+
+* Example.
+* Option **B** is **Correct**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2bb32bf5-2b8d-462a-942e-122c3183854f)
+
+* Originally we have **7-variables**.
+* After conversion we have totally **9-variables**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/121ebfd1-a1dc-43a1-abed-a2200b657d81)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea1e81a7-f1cb-4d1b-8710-4d7f74bf9b5c)
+
+* What is the equivalent expression for this?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8bcaeb56-d3d3-4d20-88dc-23388e1883f8)
+
+* Example
+* (a + b * c) * (b * c - d) [Answer]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a7d79dd-3236-4b6e-8912-91e66a081bca)
+
+* If side-effect there then keep **brackets**.
+* **(b * c)** is common between **a and d**.
+* Advantage of **DAG** -> Same expression we don't do more than **1-time**. It is also called as **Common Sub-expression elimination**. It is used for **optimization**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e261d70-5485-448d-8205-2870a554757b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44d8ec80-2f15-4017-af91-af7c36ace7c1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/224596a6-730c-4390-a250-526be6133ed6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1918eca5-cce2-46bf-b693-83905e6aeba7)
+
+* By seeing option verify.
+* If both with brackets and without brackets are there and we can select only one then go for **with bracket** one because it is more clear. [**IMPORTANT**]
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/504def8c-10af-476a-a066-1b16fc992894)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d627193c-ece7-4a2c-aa36-d0d267b8365b)
+
+* Example.
+* If we create **DAG** then no. of edges and no. of nodes how many?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fdff9e72-e571-43ee-8906-86b04d3fb1c4)
+
+* **DAG** means **minimization**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1330f48e-69f5-443b-9158-b12b4cdacb3f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72526531-f5d9-493a-bb18-7e806c25ee74)
+
+* In the above code there is no **minus(-)** also.
+* Reverse of **plus(+)** operator is **minus(-)** operator.
+* Reverse means both can **cancel** each other.
+* Reverse of **multiplication(*)** operator is **division(/)** operator.
+* We didn't do the **reverse** in this problem because there were only **plus(+)** no **minus(-)** there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/672f3bc9-db32-48a2-b554-e0f84953560b)
+
+* Whatever **d** then **a** is also **same**.
+* Whatever **a** is not **d**. Whatever **d** is that **a**.
+* **d** is assigned to **a**.
+* When we see **opposite/reverse** operators are there then we will thing of these **substitutions**. The reverse of **plus(+)** is **minus(-)** and we have **minus(-)** that's why we did the **substitutions**.
+* We know to **cancel** because **opposite/reverse** operators are there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c8203ddf-90b2-427b-8c3f-babd4853ab97)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66f8a138-8150-4156-9bdd-4de650afcec4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1418f396-bc29-40fd-b782-34d572ba5414)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e6b04336-c4c2-407c-abca-e997bd4faf0b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b4a05f48-2ee9-4a5b-b735-3dc5ce6adc6f)
+
+* We written the **first three people** as it is because **no minimization/cancelling** is happening or possible. No common also. **b + c** physically look same but **logically** they are **different** because in-between **c** is getting **updated**.
+* In the **last two people** cancellation is possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3aa5bfce-f0fd-46a4-bd2d-899631d1e706)
+
+* We are replacing the **last two lines**.
+* **e = d - b** with **e = c**.
+* **a = e + b** with **a = d**.
+* **Minimization** is possible and we have done it.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3dcf7b90-89e3-467a-83b6-620be9386fc6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a951d88f-9a79-409e-9221-e523ab9c0f06)
+
+* These are the **first three lines**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8427a0f5-b012-4950-a746-67ac2386ae28)
+
+* **Last two lines** are added.
+* **Same operator** means **no substitution or cancellation** are possible.
+* By seeing opposite people there is **hope**.
+* [**IMPORTANT**]
+* 2hr 30mins.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
