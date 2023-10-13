@@ -8707,8 +8707,40 @@ III) Semantic actions will be placed **anywhere** on the right hand side(RHS) of
 
 ### Indirect Triple.
 
+* It means that **triple** is over already. **Triple** is already available. **Triple** is already over.
+* If we want to move the 2nd line result to somewhere then just copy the **result** to some other address.
+* **Indirect Triple** is nothing but when **triple** is over, we cannot move the **result**. So **Indirect Triple** is saying that whichever we want we can **move it**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/da9fb710-0ddf-4d57-8133-e16ccbc9c4cb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9146b308-358d-43cf-83c6-c094c44f2f2c)
 
+* Better for Space -> Triple
+* Better for moving -> Quadraple.
+* Better for Space and moving -> Create triple to save space and then use indirect triple for movement.
+* [**IMPORTANT**]
+* We don't want to move at all -> Triple.
+* We want to move the result everytime -> Quadraple.
+* We want to move something sometimes -> First create **triple** and then do **indirect triple** for doing the movements.
+* After **Triple**, **indirect triple** will come.
+* After **Triple**, we are going to **indirect triple** because in the **triple** we cannot move at all but in the case of **indirect triple** we can move whatever we want.
+* Take the **triple** result and we can move the result wherever we want using the **indirect triple**.
+
+## Runtime Environment
+
+* Compilation is done by the **compiler**.
+* Running will be done by the **processor**.
+* Compiler don't run the program but will create the **runtime environment**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3016d1d9-2606-4b1e-bdfa-4db9d0b9a3f2)
+
+* The first function called is **main()**.
+* Function call is a **push** operation.
+* main() will push then **A** will push then **B** will push then **C** will push. After **C** no one is coming, so after **C** push some point of time **C** will be over. **C** will be popped out next **B** will popped out next, **A** popped out next, Main() popped out.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/282d1203-7fa4-4664-8d3c-3ec04977a63d)
+
+* Other than **main()** calculation it will do everything.
+* start from 45mins.
 
 
 
