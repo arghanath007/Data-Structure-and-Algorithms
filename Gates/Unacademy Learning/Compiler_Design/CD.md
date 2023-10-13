@@ -8348,14 +8348,22 @@ III) Semantic actions will be placed **anywhere** on the right hand side(RHS) of
 * When we say it is **CFG** then **vertex and edges**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/986832d0-b6d8-4afb-8ec5-93a2c46c4fd3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb844b2c-bc3f-4c59-aa0a-4572ebc71f76)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c1ce62c-2b64-483e-a0b6-501082ea0a53)
 
-* Star from 54mins.
+* Example
+* Find the **leaders**
+* Leaders -> 1,3,20,9,12,5,10,12,15,17,20 -> 1,3,5,9,10,12,15,17,20 -> 9 leaders
+* Basic blocks -> 9
+* Nodes -> 9 + 2 -> 11 ['+2' for starting and ending node]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/94f9df90-5fd5-4924-949b-73e501c3e4b7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/070ad6b3-33af-4556-8a52-11ad317777a1)
 
-
-
-
-
+* Basic block **1** last line nothing special. So go to the next basic block which is **2**.
+* Basic block **2** last line nothing special. So go to the next basic block which is **3**.
+* Basic block **3** last line nothing special. So go to the next basic block which is **4**.
+* Basic block **4** last line has conditional goto statement, so two edges will come. We are going to **3rd statement** and not 3rd basic block. We are go to the next basic block which is **5**.
 
 
 
