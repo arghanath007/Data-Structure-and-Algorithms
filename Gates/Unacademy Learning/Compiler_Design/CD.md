@@ -8584,10 +8584,15 @@ III) Semantic actions will be placed **anywhere** on the right hand side(RHS) of
 * **Last two lines** are added.
 * **Same operator** means **no substitution or cancellation** are possible.
 * By seeing opposite people there is **hope**.
+* Nodes -> 6 [Answer]
+* Edges -> 6 [Answer]
 * [**IMPORTANT**]
-* 2hr 30mins.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/702b030e-9a7e-4c9f-ae18-7d19c3df8ecc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0dd4b91-bf35-4541-8335-0e52c912f717)
 
+* [**IMPORTANT**]
+* Start from 2hr 31mins.
 
 
 
