@@ -8733,54 +8733,138 @@ III) Semantic actions will be placed **anywhere** on the right hand side(RHS) of
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3016d1d9-2606-4b1e-bdfa-4db9d0b9a3f2)
 
+* The **main work** is given to the **processor**.
+* Other than the **main work** is all done in the **runtime environment**.
+* Run the program and **main()** will run **first**. While running **main()**, **A** is called. So it will go to **A**. While running **A()**, **B** is called. So it will go to **B**. While running **B()**, **C** is called. So it will go to **C**. While running **C()**, it will not call anyone.
 * The first function called is **main()**.
-* Function call is a **push** operation.
+* Function **call** is a **push** operation.
 * main() will push then **A** will push then **B** will push then **C** will push. After **C** no one is coming, so after **C** push some point of time **C** will be over. **C** will be popped out next **B** will popped out next, **A** popped out next, Main() popped out.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/282d1203-7fa4-4664-8d3c-3ec04977a63d)
 
 * Other than **main()** calculation it will do everything.
-* start from 45mins.
+* Function **over** is a **pop** operation.
+* **main()** called **first**.
+* **main()** called means **main()** will push inside the **stack** which is nothing but **main()** will not **push** but **main() activation record** will **push**.
+* **main() activation record** will push **first**, next **A() will push** which means **A() activation record** will push, next **B() will push** which means **B() activation record** will push, next **C() will push** which means **C() activation record** will push. Now **C** is over so **C's activation record** will pop.
+* **A** is **pushed** and funtion **A()** is called, **A** will push in the stack, it means that **A's activation record** will push.
+* When a function is called, it means that the function is pushed in the stack means **it's activation record** is pushed in the stack.
+* Program starting local variables will be there.
+* Declaration means local variable.
+* **main** pushed means **main's activation record** will push which is nothing but **main() local variable and main() temporary variable** will push.
+* **Activation record** has some valuable things.
+* Local variables will **push**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/754706d9-676f-4f4a-ad82-3a8b617a0b91)
 
+* Whatever/What parameter we are passing to the **next function** is called as **actual parameters**.
+* We have to remember the **actual parameters**.
+* When a function is called, it means that the function is pushed inside the stack means **it's activation record** is pushed inside the stack. **Activation record** contains the **function's local variable and temporary variable** and **actual paramemters** that we are passing.
+* 4 parameters so far -> Local and temporary variable, actual parameter, machine status. [**IMPORTANT**]
+* Whenever a function **B** is called then it's activation record is created and it will be pushed inside **stack**.
+* **B's activation record** contain **Local variable** of **B function**, **temporary variables**, actual parameter, return value, access link, control link and machine status. [NOTE] [**IMPORTNAT**]
+* **B's activation record** is created and it will be **pushed** inside the **stack**.
+* **Global variables** belongs to everyone, so they cannot be part of the **activation record**.
+* Question:-
+* Which one of the following is not part of the **activation record**? [Types of question which may come]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1e06b73-113c-4ea5-828b-b7d68726cdcf)
 
+* Starting itself if we don't know the **local variables** then keep them as **Null**. Initially all are **Null**.
+* **Local variables** initially is **Null**.
+* **Temporary variables** initially is **Null**.
+* **Actual parameter** initially is **Null**.
+* Initially all the things are **Null**.
+* whenever program is running then they will be keep on **updating**.
+* Initially **activation record 7-fields** contain **Null**. All are **Null**.
+* **Activation record** will **push**, **activation record** is initially **Nul** . These are the basic things **compiler** will do. Actually value will be kept by the **processor**.
+* When function **B** is running then it's **activation record** will keep on **updating**. [NOTE][**IMPORTANT**]
+* When function is over or completed it's execution then it's **activation record** will be **popped** out of the **stack** as no long needed. [NOTE][**IMPORTANT**]
+* Called means **push**.
+* Over means **pop**.
+* Running meeans **Updating**.
+* Program is over means all functions are over.
+* Question:-
+* **Activation record** contains what parameters? [**IMPORTANT**]
 
+> Local variable, temporary variables, actual parameter, return value, access link, control link and machine status. [NOTE] [**IMPORTNAT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d196111-81c3-429e-bd34-1f18f1e129f0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b878cff6-16bf-4dc5-8070-ea720120eddb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d783100-9301-4d66-8e2d-f692dfc4fa66)
 
+* Example
+* **main()** is called **first**.
+* Function definition means we cannot **call**. [**IMPORTANT**]
+* Function defintion and function call is **different**.
+* **D()** is Function defintion.
+* **B()** is function call.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0753d8b0-d35f-4b47-b3fc-cb396ba620ec)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ca7c5aa-0571-44e9-903a-9b24ba6463ab)
 
+* main() -> B() -> D() -> H() -> G() -> I() -> A() -> E() -> F() -> C() -> Nothing.
+* Inside **C()** no one called. So Stop it.
+* After **main()**, the next function calls is **B()**.
+* Now go to the **B()'s code**.
+* **C()** is the only one who is not calling anyone.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4afbe1c-5683-4914-aa50-b5a026f4a434)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/46c5620b-fc56-4a12-8603-49e0306c9672)
 
+* [**IMPORTANT**]
+* Function definition doesn't mean that we will **call**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/03b3682c-15f1-4a12-b7a4-091eda40f4af)
 
+* D() -> Function Definition
+* { -> Function Definition started
+* .
+* .
+* .
+* .
+* } -> Function Definition ended.
 
+* D(); -> Function call/calling
+* Difference between funcion calling and definition.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/10bdc58a-0f7a-4c0f-bba2-5b679ac5aff6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d39fa4f9-fba7-4cfa-b932-040c2d5e6c4b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a16f1fed-9e2c-4a7c-ac31-19af86267f9b)
 
+* We came to **D()** from **B()**. This is control link.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/04a4a523-9233-4af7-bfbb-987788775f2b)
 
+* My control link is nothing but from where I came. [**IMPORTANT**]
+* My control link is who called you? [**IMPORTANT**]
+* Control link of someone is nothing but who called him, from where that person came. [**IMPORTANT**]
+* **main()** came from where?
 
+> It is the first person. It doesn't have any control link. It's control link is **Null**.
 
+* **E** called **F** so **E** is the **control link** of **F** or **F's control link** is **E**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b908537-2622-49d3-ad0b-fe023ec075be)
 
+* No one called then the **control link** is **Null** which is for **main()**.
+* **Control link** keeps on getting **updated**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1392ad3-03e5-41e4-9203-1c1ea8e156cd)
 
+* **E's control link** is **A**. 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d924f719-96db-49ec-90d8-c97d9435a8c3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aae1ebc2-d078-4606-abdd-6004da28f30a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4afe8e7f-7e79-4a55-9682-7bff392af52c)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+* [**IMPORTANT**]
+* My control link means **incoming edge**.
+* **main()** don't have any **incoming edge**.
+* Another name for **control link** is **dynamic link**. It keeps on **changing**.
+* **D's control link** is **B**.
+* Another name for **access link** is **static link**. It will never change.
+* **D()'s code** is there in **main()**. So **D()'s access link** is **main()**.
 
 
 
