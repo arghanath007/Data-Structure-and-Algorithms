@@ -9056,7 +9056,11 @@ III) Semantic actions will be placed **anywhere** on the right hand side(RHS) of
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a36a8cb-0a4d-48cb-912e-1f64f9c3ba36)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf2137e5-b82a-49b3-993d-a0ebc0933860)
 
-## Intermediate Code.
+## code-optimzation-part-1 (21) [14th Oct 2023]
+
+## Code Optimization
+
+### Intermediate Code.
 
 
 
