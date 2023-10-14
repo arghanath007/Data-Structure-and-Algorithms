@@ -9062,17 +9062,34 @@ III) Semantic actions will be placed **anywhere** on the right hand side(RHS) of
 
 ### Intermediate Code.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/847b133a-1ef3-4749-9b86-56722eea60ae)
 
+* If we want to do any **optimization** then do at **loop** as **loop** will repeat many time.
+* Optimization major part is **loop** only.
 
+1) Loop optimization:- [Major One]
 
+* Loop invariant -> Inside loop there is something which is not changing. [Variant -> Changing, invariant -> Not changing]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c43cd05-7234-4506-abd3-47fc4315bf21)
 
+* Everytime **1-substraction, 2-addition and 1-multiplication**.
+* First time we have done **x = a - b** and next time we do **x = a - b** the value of **x** will be **same** only as the values of **a and b** are not changing from one interval to another interval.
+* That's why this is called as **invariant**.
+* This kinds of things we have to avoid.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3bf748a2-8645-47ba-8e31-db682e84d96b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a2514ee-c069-4cf3-9773-909a25222a0d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/274f69af-235b-4a24-984c-4b25beaaea0d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09ba8277-1f25-42bf-b996-d2b38f17fc14)
 
+* Loop invariant example.
+* Now **S** value is getting **updated** with every iteration of the **loop**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9eb5de9b-adaa-4d0e-a642-28e8e1453a8a)
 
-
-
+* Whether we keep them before or after the loop, important thing is that keep them out of the **loop**.
+* Start from 15mins.
 
 
 
