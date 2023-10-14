@@ -8865,6 +8865,209 @@ III) Semantic actions will be placed **anywhere** on the right hand side(RHS) of
 * **D's control link** is **B**.
 * Another name for **access link** is **static link**. It will never change.
 * **D()'s code** is there in **main()**. So **D()'s access link** is **main()**.
+* **F()'s code** is there in **B()**. So **F()'s access link** is **B()**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/204ec02b-df40-416e-a640-52eb3d28bbbf)
+
+* **G()'s code** is there in **main()**. So **G()'s access link** is **main()**.
+* **H()'s code** is there in **C()**. So **H()'s access link** is **C()**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/808959d0-98b3-49b0-9031-c92ca80f5602)
+
+* **Incoming edge** coming in the **control link** is called as **control link**.
+* **Incoming edge** coming in the **access link** is called as **access link**.
+* **main()** doesn't have **control or access link**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9124cca-d4af-4c39-99f0-ee7bc96e4787)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a0698ed-42ff-4da6-b099-f48ae2e57da7)
+
+* **Access link** is nothing but from where we **accessed** my code.
+* **Control link** is nothing but from which place we came, who called you.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c767d25-0cb5-4c27-bac9-b9e1f54bf579)
+
+* Left side is **control link**.
+* Right side is **access link**.
+* **Control link** is useful for **dynamic scoping**.
+* [**IMPORTANT**]
+
+## storage Allocation Technique
+
+* Parameter parsing techniques -> Special class.
+* Link -> https://unacademy.com/class/parameter-passing-technics/63T2HPP4
+
+1) Static Storage allocation
+2) Stack storage allocation
+3) Heap storage allocation
+
+* Main memory will be divided into **three parts**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/802fb669-de59-4fdb-b8dd-bb2ea8ec72ee)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bbe74cc7-259a-40b1-9fbc-867d4d016e25)
+
+* Main-memory RAM area.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a614135f-e72e-4a41-9f04-a8c5c1e20c50)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2592e56-8612-4c7f-904b-6ac71ddc1421)
+
+* Factorial.
+* For **recursion** we are using **stack**.
+* Function call means again **push**.
+* First function call is **fact(6)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f8fd705-334e-4d2d-897f-0802c19f7ed0)
+
+* First person will go from **outside** and next person will go from **inside**.
+* We are executing the **same code**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/870b9f30-daf9-4e80-8937-95794278689b)
+
+* Every function is having it's own memory.
+* If we call a function then it's **activation record** is created.
+* Every function is having it's own **local variables**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2acb56bb-668e-4ed0-88c9-6283fcd86c33)
+
+* Till now **6-function call**. Everytime **int n** will get executed. So for the **6-times** the memory of **int n** will be created.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/308fc1f5-8bd7-4aeb-9864-f062ec78d205)
+
+* **return** means going back from which place we came.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16db95f6-43cd-46e3-b32b-8deb76cc3523)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9b15960-fc08-4dfc-a770-fdcd6658d5dc)
+
+* **720** is the **answer** sent to the **main()**.
+* Everywhere **variable name** is **same** only.
+* We have **many 'n'** because every function is having their own memory.
+* static int n;
+* If we declare one variable as **static int n;** then memory will be allocated in **static area**.
+* Everytime no new **int n** memory is created. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/217544d5-3c80-4c31-81c5-785780e5c924)
+
+* Static varible memory will be allocated only one time. Memory allocated at compile time itself. At Runtime memory will not be allocated.
+* If we create memory at runtime then memory will allocate many time.
+* If we create memory at compile time then only one time memory will allocate.
+* By mentioning the **static keyword** we said to the **compiler** that even though it is a **recursive program**, create memory at **compile time**. So memory is allocated one time only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/428a9e90-60a5-48d1-a756-1f275b9d5ada)
+
+* We have allocated memory one time and now we will **execute the program**.
+* The value of **n = 1**.
+* So the final value of **fact(6)** is **1** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bfe7a8b7-30a9-45fb-a2a4-3dd8a3e1fe43)
+
+* If we write **recursive program** then we cannot make **static**.
+* If we make **static** then **1** will come.
+* Stack storage allocation is invented for **recursion**.
+* If we want to use **recursion** then we have to use **Stack storage allocation** or **stack data structure**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bcb972ac-d006-4a53-922d-76209142d0eb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e246c14-ee2b-4436-818f-819810fc9484)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef4bb0a2-6fe6-4b5b-a1de-4783324d0529)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9488dd8-28ca-44c9-93cc-ab63f0c96d79)
+
+* Recursion and static no relation.
+
+### Static Storage Allocation
+
+1) Memory allocated only once.
+2) Memory allocated at compile time which is also known as **static binding or early binding**.
+3) Recursion is not supported. [Drawback/disadvantage]
+4) Dynamic data structure is not supported.
+
+* One variable and one memory location is given, it means that memory is allocated. This is called as **memory allocation**. Another name is **binding**.
+* **Binding** is a mapping from variable to memory location.
+* If the **binding** is done by the **compiler** then it is **static binding**.
+* If the **binding** is done by the **processor** then it is **dynamic binding**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2505a9f-8ac6-4db4-8359-3fdf08847e38)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9cb89e9-7051-4279-bd27-566fd5b78d06)
+
+* Another name of **compile time** binding is **static binding**. Another name of **static binding** is **early binding**.
+* If we do the binding early(early binding) then it takes **less memory** but the drawback is that **recursion** is not supported. [**IMPORTANT**]
+* If we do the binding late then it takes **more memory** but **recursion** is supported.  [**IMPORTANT**]
+
+### Stack Storage Allocation
+
+1) A function is running, it's activation record is created and is pushed inside the stack and it keeps on updating.
+2) When a function is over, it activation record is popped out of the stack.
+3) Recursion is supported. [Advantage]
+4) Dynamic data structures are not supported. [Disadvantage]
+5) Once a function is completed it's execution, we cannot get it back it if it is required afterwards, as is popped out of the stack. [Disadvantage]
+6) Another drawback with the stack storage allocation is, we can always access the top most element even though so many elements are present inside stack. [Disadvantage]
+
+* Called -> Push
+* Over -> Pop.
+* Completed means **pop**.
+* Dynamic programming does not believe in the **stack**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bedcd145-3ee9-4e63-9dd9-67b738fad452)
+
+* **Top** will always point to the **top most element of the stack**.
+* Stack will give priority to the top most element of the stack.
+
+### Heap storage allocation
+
+1) We can do insertion and deletion wherever we want and whenever we want.
+2) Recursion is supported.
+3) Dynamic data structures is also supported. [Linked List]
+
+* How to create memory(allocation) in the heap area?
+
+> Malloc().
+
+* How to de-allocate memory in the heap area?
+
+> free().
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e246d1e-fa57-4667-b775-042bafaddb4f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d67263a5-e9fc-42bc-89b9-2a383da869f1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f43d805-00af-4705-bf71-5c0b8b71f520)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d7aca907-b7af-47b0-b50f-220b54f58239)
+
+* Which storage allocation supports recursion?
+
+> Stack also and heap also.
+
+* Heap supports everything. [**IMPORTANT**]
+
+* Which storage allocation supports recursion only?
+
+> Stack area.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/552b5746-9415-4720-9b77-7eb539bfa05c)
+
+* [**IMPORTANT**]
+
+## Code Optimization
+
+* Code Optimization is done in **two areas**.
+
+1) Intermediate Code
+2) Target Code
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9245342e-72b5-40d1-8845-007ebaaa984d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a36a8cb-0a4d-48cb-912e-1f64f9c3ba36)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf2137e5-b82a-49b3-993d-a0ebc0933860)
+
+## Intermediate Code.
+
+
+
+
+
+
+
+
+
+
+
 
 
 
