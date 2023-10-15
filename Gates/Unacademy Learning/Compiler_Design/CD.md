@@ -9196,6 +9196,36 @@ III) Semantic actions will be placed **anywhere** on the right hand side(RHS) of
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cbd805c3-06f2-41d3-af19-a77010311bda)
 
+* Copy Propagation -> Don't store one variable in another variable and don't propagate.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09b50102-43db-4048-b5bf-6a5cd762dc9c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b244ef28-98cd-4ff2-bfc3-6e8eb2de6c00)
+
+* They look like **similar**.
+* [**IMPORTANT**]
+
+### Strength Reduction
+
+* Between **multiplication and addition**, **multiplication** is **costly**.
+* Replace the **costly operator** with **less costly operator**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d62532e-aabd-49f2-8599-ea703c71b2cb)
+
+* 4 * j -> j + j + j + j
+* If possible replace the **costly operator** with **less costly operator**.
+* Between **multiplication and power**, **power** is **costly**.
+* x ^ 2 -> x * x.
+* Multiplication is **less costly** compared to **power**.
+* Between **multiplication and left shift**, **multiplication** is **costly**.
+* 8 * x -> Left shift 3-times.
+* start from 1hr 8mins.
+
+
+
+
+
+
+
 
 
 
