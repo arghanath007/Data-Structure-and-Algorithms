@@ -9067,9 +9067,9 @@ III) Semantic actions will be placed **anywhere** on the right hand side(RHS) of
 * If we want to do any **optimization** then do at **loop** as **loop** will repeat many time.
 * Optimization major part is **loop** only.
 
-1) Loop optimization:- [Major One]
+### Loop optimization:- [Major One]
 
-* Loop invariant -> Inside loop there is something which is not changing. [Variant -> Changing, invariant -> Not changing]
+1) Loop invariant -> Inside loop there is something which is not changing. [Variant -> Changing, invariant -> Not changing]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c43cd05-7234-4506-abd3-47fc4315bf21)
 
@@ -9088,13 +9088,113 @@ III) Semantic actions will be placed **anywhere** on the right hand side(RHS) of
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9eb5de9b-adaa-4d0e-a642-28e8e1453a8a)
 
-* Whether we keep them before or after the loop, important thing is that keep them out of the **loop**.
-* Start from 15mins.
+* Whether we keep them before or after the loop, important thing is that keep them out of the **loop**. Meaning cannot change. Unnecessary why we have kept them inside the loop.
+* Problem -> Loop Invariant
+* Solution -> Code Motion -> Code is moving outside of the loop.  [Motion -> Moving]
+* Code optimization is possible in both **source programming language and intermediate code**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bcaa4c01-e1c0-48c0-a296-2fb067f5ec12)
 
+* Another name for **loop invariant** is **Code Motion**.
 
+2) Loop Unrolling:-
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/156baf4b-4473-4fb3-a53c-8d9525943e57)
 
+* Infinite loop. [Answer]
+* It is **infinite loop** because only one function call. It is a loop inside one function. So one function call. One function call and the **i** value keeps on changing and the condition is always passed.
+* In the above example, only one function is pushed into the **stack**. So **infinite loop** and not **stack overflow**.
+* In recursion whenever we say more function call, function calling itself. Every function call is a push operation. More functions we call, more stack will be occupied. At some point of time stack is over and we will call it **stack overflow**.
+* **Stack overflow** means so many functions are pushed inside **stack**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/503f99ec-208a-40e7-b7e9-62845e04b99a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/739dc2e1-36a5-42f8-8ed3-ea96c51dbc76)
+
+* Problem -> Loop unrolling -> Decreasing comparisions
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/38958037-0f81-48e3-a6bd-57ba466cdde1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/214c0b16-905c-4a0b-b286-1c3c7ad7614a)
+
+* **Loop unrolling** means if possible by us, decrease the no. of times loop repeating.
+
+3) Loop Jamming:-
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ad43cc9-2654-4dae-a8d4-4d20c79b93d9)
+
+* After first loop only second loop or after second loop only first loop. Examples of dependency.
+* No dependency is there between the two loops.
+* So write **1-loop** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a14b6077-5d21-4df2-ad50-e4b182fec383)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/47d63350-608f-4506-847b-5520e3b2438f)
+
+* Anyhow no dependency.
+* Loop Jamming means loops are together.
+* If possible then **combine** them.
+
+4) Induction Variable Elimination
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0758a757-367b-45c5-90b6-1a5bb5771355)
+
+* Loop is based on **i** variable.
+* Loop will repeat 100 times.
+* Inside the loop **x, i and j** are **changing**.
+* **i and j** are incrementing by **constant factor**.
+* Inside the loop there are always people who are **incrementing or decrementing(changing)** by **constant factor**. Those variable are known as **induction variable**. [**IMPORTANT**]
+* Inside the loop **i and j** are always changing by **constant factor** then **i and j** are known as **induction variable**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2476cbdd-e983-4a1e-81da-a1e35ef7de82)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/75bf23b6-e3ca-49e6-a2aa-594f379c88b2)
+
+* Always **i** incrementing by **+2** then it is **n/2**.
+* Always **i** incrementing by ** (*2) ** then it is **log n**.
+* Induction variable definition -> Inside the loop there are some variables who are changing everytime by constant factor. So the target is elimination of induction variable.
+* That's why we eliminated **i**.
+* In the **2nd loop**, same meaning but **i** not there.
+* To manage one loop **1-induction variable** is needed.
+* Manage a loop without induction variable is not possible.
+* In the **1st loop**, we had **2-induction variables** that why we removed **i**.
+* **x** is based on **j** that's why we couldn't remove **j**.
+* We made **1-induction variable** in the **2nd loop**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e97f7c4-2b63-44e3-b3db-7452bf30cd08)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8f2b4f9-6f05-4411-8e1f-c0b1e7c7098d)
+
+* Question:-
+* Above program is having which problem?
+* Above code having how many induction variable?
+ 
+### Constant Folding
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/673e6bc5-6e27-4e2d-8205-dcec0684a460)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f755195-6bb1-4c2f-a6b2-f1c2d144f954)
+
+* While writing a program don't write a line, where the line contain all constants.
+* If we have written a line which contains all constants then the compiler in the **code optimization** part will **compress** like **above**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2fa34a59-42b1-479f-a379-6bc4d7de18b9)
+
+* Folding -> Compression.
+* Processor will have to do **more work**. Processor time will be wasted.
+* If we don't do this then the **compile time** will be **more**. We are unnecessarily **increasing** the compile time. If we do outselves then **compile time** will be **less**.
+* The **warning** they are giving it that don't write **lines/expressions** with **only constants** in them.
+* Constant Folding -> Don't write **expressions or conditions** with **constants only** or only with **constants** directly. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f4aa544e-d7e3-4f0b-be0d-32f31ee9e99f)
+
+### Constant Propagation
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/052b186e-1fe7-4434-8bc7-85c6d91a165e)
+
+* Constant Propagation -> Storing the constants into variables and then we are **propagating** further. We are propagating **constants** by storing in variables further.
+* Avoid this also.
+* Constant Propagation -> Don't store constants into variables and don't propagate them. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6928e817-2af0-44b2-bf4e-6cd1846081a1)
+
+### Copy Propagation
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cbd805c3-06f2-41d3-af19-a77010311bda)
 
 
 
