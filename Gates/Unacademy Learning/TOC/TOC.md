@@ -13,8 +13,9 @@
 
 ## Practice Class
 
-1) -> https://unacademy.com/class/toc-practice-class-1/XCUW1FGE
-2) -> https://unacademy.com/class/toc-practice-class-2/G37UT7VH
+1) Class-1 -> https://unacademy.com/class/toc-practice-class-1/XCUW1FGE
+2) Class-2 -> https://unacademy.com/class/toc-practice-class-2/G37UT7VH
+3) Closure properties of TOC -> https://unacademy.com/course/closure-properties-of-toc/2C43VH3C
 
 ## introduction-to-theory-of-computation (1) [3rd Sept 2023]
 
@@ -14762,6 +14763,11 @@ b) May not be REL or Non-REL -> It means that it is **Non-Rec**.
 * Equivalence may not be possible if **Epsilon** is possible in the given grammer.
 
 
+## Doubt
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/23993966-3235-4fc3-b2eb-5f9212a76c3d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9f137ee7-6101-41ab-9673-fd360a2fa135)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e35edd2f-ebf7-4eaf-8f0a-512a0f44b5f6)
 
 
 
