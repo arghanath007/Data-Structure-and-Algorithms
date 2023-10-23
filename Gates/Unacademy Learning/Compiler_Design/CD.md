@@ -9463,7 +9463,7 @@ III) Semantic actions will be placed **anywhere** on the right hand side(RHS) of
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/918c3451-e4ec-4840-b67a-dfb41fd7f4cd)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/73428d45-2567-492f-8e11-25c17336f0b5)
 
-* Find no. of addition and de-reference operations used.
+* Find no. of time, addition and de-reference operations used.
 * Star(*) -> De-reference.
 * Ampercent(&) -> Reference.
 * **Reference** with **variable name** will give **address**.
@@ -9482,26 +9482,89 @@ III) Semantic actions will be placed **anywhere** on the right hand side(RHS) of
 * Brackets are there.
 * **a -> b** another way of writing is **((*a).b)**. Pointer to structures.
 * **a -> b**, **star(*)** is there which is called as **de-reference**.
+* **a -> b** inside **one star(*), one dot(.) and brackets** are also there.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b43b3efb-30f4-40c4-9129-f3e5e5e48858)
 
+* Question.
+* Loop is from **0 to 199** and it will fail at **200** and we are incrementing **i** by **2** every time. So no. of times of the loop is **(0 + 199)/2 -> 200/2 -> 100** times.
+* Loop is **100 time**.
+* It is **if-else** so we will go either **if** or **else**, either one of them. Not both. We will execute either **if** or **else**.
+* For **if** we have **3-additions and 1-dereference**.
+* For **else** we have **3-additions and 1-dereference**.
+* We have came count of **addition and dereference** for both **if and else** part. Both are **same**, either take anyone.
+* We are assuming that we are going to **if part** all of the time, so we have **3-additions and 1-dereference** in the **if part** and **1-addition** from the **incrementation of the 'i'** in the **for loop**.
+* So in total we have **4-additions and 1-dereference** in each loop iteration.
+* We have **100** iterations of the loop so **4 * 100 -> 400** additions and **1 * 100 -> 100** dereferences.
+* Outside of the loop we have **3-additions and 2-dereferences**.
+* In total we have **403-additions and 102-dereferences**.
+* It is **403, 102** which is **option 'A'**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d3e3379-6d77-4cda-9efd-c76e8313541b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d9bddf3-863f-458c-9380-73a0d019de59)
 
+* It is **403, 102** which is **option 'A'**.
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ad4ab32-93f2-43df-bdb7-743c8893d86f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f33e0f60-e365-495f-bf42-e7779c1dc6e2)
 
+* Question
+* Find no. of time, addition and de-reference operations used after doing **optimized code**?
+* Options are **same**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be3c5368-9b07-443b-a3db-1a188d35b4a2)
 
+* **OPTIMIZED CODE**:-
 
+```C
+t1 = x + 3;
+t2 = y -> f1;
+t3 = y -> f2;
+z = t1 + t2 + t3;
+for(i=0; i< 200; i+=2)
+{
+  if(z > i)
+  {
+    p = p + t1;
+    q = q + t2;
+  }
+  else
+  {
+    p = p + t3;
+    q = q + t1;
+  }
+}
+```
+* We have **3-additions** outside of the **loop**.
+* The loop is **100 times** and the addition is **3 times**. So we have **300 + 3 -> 303-additions**.
+* We have no **dereferences** inside the **loop**.
+* We have **2-dereferences** outside of the **loop**.
+* So it is **303, 2** which is **option D**.
+* [**IMPORTANT**].
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d9a050c7-434d-4835-9f15-0806e9f4dcc8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/00450f8e-7701-41c2-b4fb-41d2866a00bc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0203f90-5ddf-4244-9087-7b74d02d3ffd)
 
+* We have used **code motion** optimization technique.
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72ec7946-7b39-44f2-9095-4f0c53020bdf)
 
+## Live Variable Analysis
 
+* A variable 'x' is live at statement 'i' if and only if:-
 
+1) Some statement 'j' should read 'x'
+2) There should be a path from 'i to j'.
+3) Statement 'j' should read old-x **OR**, 'i to j' no write to 'x'(including 'i', excluding  'j').
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fefdbb65-50b5-46a1-93c4-5b27f9cbf339)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0bfa7a29-0a1c-45d2-9564-dec2a4279954)
 
-
-
-
+* 4 to 7 path is there because of 5 and 6.
+* 7 to 4 path is not there.
 
 
 
