@@ -9558,13 +9558,150 @@ for(i=0; i< 200; i+=2)
 
 1) Some statement 'j' should read 'x'
 2) There should be a path from 'i to j'.
-3) Statement 'j' should read old-x **OR**, 'i to j' no write to 'x'(including 'i', excluding  'j').
+3) Statement 'j' should read old-x **OR**, 'i to j' no write to 'x'(including 'i', excluding 'j').
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fefdbb65-50b5-46a1-93c4-5b27f9cbf339)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0bfa7a29-0a1c-45d2-9564-dec2a4279954)
 
-* 4 to 7 path is there because of 5 and 6.
+* 4 to 7 path is there because of 4,5, 6 and 7.
 * 7 to 4 path is not there.
+* 1 to 7 there is a path.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/011befee-c529-4d62-848d-778877d5016b)
+
+* There is no **goto, no going back also**.
+* At the statement 3, one variable **x** is set to be **live variable** if and only if some statement(j) should read **x**. There should be a **path** from **i to j**. Statement 3 is **i**. Boundary of **j** is it goes from **statement 3** to **4,5,6,7** also.
+* Reading means on the right hand side of the **Assignment operator(=)**, **x** should be there.
+* a =  b + c.
+* Right people are **read**.
+* Assignment operator(=) left side is **write** as someone is changing it. **a** is **write**. We are changing means **write** only.
+* Assignment operator(=) right side is **read**. So **b and c** is **read**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9602f946-5c68-4b17-a2d5-e731d430fff2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/371ace68-629d-4709-9582-7f12808caaee)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/40dd5e99-901a-471a-8636-0c9ca4baf7df)
+
+* Minimum **j** will start from atleast **itself**. We can use yourself(j). **j** maybe **3, maybe 4, maybe 5 and so on**. **i** is also **3** confirmed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b27c1b94-a5f1-4eef-8efa-4de21c13948c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b5f312b-8d51-4544-bb86-263c976b3c0a)
+
+* In-between **x** could be updated.
+* old-x means **no updated 'x'**. Previous/original 'x' only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/da31e060-c6b7-470f-be43-d680ba45405d)
+
+* **j** can be **including 'x** which are **3 or 4 or 5** also but **excluding 'j'**.
+* In the above example **i = 3** and **j = 6**.
+* Range of **j** is from **3 to 6**, we have to **include 'i' and exclude 'j'**. So the range of **j** is from **3 to 5**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a6d3d66-b28b-4cf3-bcc9-f869ce4afdb5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1b8e3af-6397-4270-a653-aa24caf2412c)
+
+* **Reading 'x'** is done **first**. That is the reason why at **j** we can **read** even though if we **write** also no problem.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9837f307-6287-40b7-abf9-1a2ba677de66)
+
+* In **statement 3**, **x** is live or not?
+
+> At the **statement 3**, **x** is live if and only if some statement should read **x**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/828713f2-82ab-429b-92bd-6d276396a2f8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71b4bbee-6237-4673-9357-d48afd094c62)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bfcaa3b4-f327-4155-9b34-4416eb23b8f3)
+
+* We are reading **old value of 'x'** so no problem.
+* We are reading **new value of 'x'** then **x** is not a live variable.
+* **Updation** has happened at **i** itself and further we have **read the value of 'x'** then **x** is not live.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/42192cc2-3d4d-4bdd-ab3d-6e926d9ff54a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a0f7d22-935b-4a7f-9a8a-8c4dd15b3ed0)
+
+* Basic blocks are **4**.
+* How many statements are there in this program?
+
+> **3 + 1 + 1 + 1 -> 6** statements
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f6f652e-5713-4ad2-a3e0-f68efedeada2)
+
+* We have **6** unique variables.
+* We have **4-basic blocks(B)**, **6-statements and 6-variables**.
+* Let's take **6 rows and 6 columns**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e597128-6dce-4c40-9688-adbcd60e6a6b)
+
+* 5th statement means 5th row.
+* q = S * u.
+* At the 5th statement we have a total of **6-variables** in the table. We will check one by one.
+* At the 5th statement, **p** variable is **live** or not we want to **check**. How we will check?
+
+> After **5th** which statement can come? Path is required. See the path. After **5th statement**, **6th statement** can come. After **5th statement**, **1st statement** can also come because from **6th we can go to 1st**. After **5th statement**, everyone can come because of **loop**.
+
+> First condition is that someone should read **p**. Reading means right side of **assignment(=)**. **YES** someone is reading **p**. Path is there as well. Not only path but **old-p** is there but updating has taken place in **p**, so **old-p** is not there but **new-p** is there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce6c9631-ffd6-464b-ac4e-203966d247c9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f90bca1-c243-43a4-afb5-3c1958f5de57)
+
+* It is **new-p**, so the **p** at the **5th statement** is not **live** because someone updated the **p** in-between.
+* N -> Not Live.
+* It is **new-q**, so the **q** at the **5th statement** is not **live** because someone updated the **q** in-between.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/79ced66e-e5a6-4e86-96ca-cc6f371a5c3d)
+
+* At the **5th statement**, **u** is live or not?
+
+> **u** is reading itself. If it is reading itself then if further updation happens then **no problem**. So **u** is **live**.
+
+* L -> Live.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/62c78321-c67f-4606-bde2-cea756b1bc8c)
+
+* At the **5th statement**, **v** is live or not?
+
+> Someone is reading **v** and path is also there. Inbetween no where **v** is updated. So **v** is **live**.
+
+* At the **5th statement**, **r** is live or not?
+
+> Someone is reading **r** and path is also there. Inbetween no where **r** is updated. So **r** is **live**.
+
+* At the **5th statement**, **s** is live or not?
+
+> **s** is reading **itself**. So no need to go further. So **s** is **live**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/53fefec6-e57c-4535-ad87-f36a05054407)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ee0651a-2a8b-4184-bbea-d707cd305884)
+
+* Checking **first row**.
+* p -> N
+* q -> L
+* r
+* s
+* u
+* v
+
+* At the **1st statement**, **p** is live or not?
+
+> **p** is updated already. **p** is not live.
+
+* At the **1st statement**, **q** is live or not?
+
+> **q** reading itself. No need to check furthere. **q** is live.
+
+* At the **1st statement**, **r** is live or not?
+
+> **r** reading itself. No need to check furthere. **r** is live.
+
+* At the **1st statement**, **s** is live or not?
+
+> **s** is updated already. **s** is not live.
+
+* At the **1st statement**, **u** is live or not?
+
+> **u** is updated already. **u** is not live.
+
+* At the **1st statement**, **s** is live or not?
+
+> **s** is updated already. **s** is not live.
 
 
 
