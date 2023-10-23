@@ -9201,24 +9201,129 @@ III) Semantic actions will be placed **anywhere** on the right hand side(RHS) of
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09b50102-43db-4048-b5bf-6a5cd762dc9c)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b244ef28-98cd-4ff2-bfc3-6e8eb2de6c00)
 
-* They look like **similar**.
+* All of the three have different meanings. They look like **similar**.
 * [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92c8eda5-fcc9-48dc-a983-0c26ddd0c544)
+
+1) Don't write **expressions or conditions** with **constants only** or only with **constants** directly.
+2) Don't store one variable in another variable and don't propagate.
+3) Don't store constants into variables and don't propagate them.
+* [**IMPORTANT**]
+* Question:-
+* Above Code having what problem [Expected Question]
+* In the **second(2) one** which is **copy propagation** there is **propagation** but **no constant**. It is not related to **constants**, it is related to one variable stored in another variable and we are propagating.
+* **First(1) and third(3)** one belongs to **constants**.
+* These are **optimizations** outside the **loop**.
+* **Loop optimization** is **four(4)**. 
 
 ### Strength Reduction
 
 * Between **multiplication and addition**, **multiplication** is **costly**.
 * Replace the **costly operator** with **less costly operator**.
+* Question:-
+* In the above program what optimization we can do? [Expected Question]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d62532e-aabd-49f2-8599-ea703c71b2cb)
 
 * 4 * j -> j + j + j + j
-* If possible replace the **costly operator** with **less costly operator**.
+* **Strength Reduction** -> If possible replace the **costly operator** with **less costly operator**. [Definition]
 * Between **multiplication and power**, **power** is **costly**.
 * x ^ 2 -> x * x.
 * Multiplication is **less costly** compared to **power**.
+* **Power** can be replaced by **multiplication**.
 * Between **multiplication and left shift**, **multiplication** is **costly**.
-* 8 * x -> Left shift 3-times.
-* start from 1hr 8mins.
+* 8 * x -> Left shift 3-times -> Multiply by 8.
+* Left shift -> Multiply by 2.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e6312d32-cfbc-4ce7-9ed1-c1f7d2122f6d)
+
+* x/8 -> Right shift 3-times -> Divide by 8.
+* Right shift -> Divide by 2.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9a6a64a8-30d8-4aaa-b79b-5fa4541c53f5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7deb0a9-a744-4fd5-abfd-545ce08aca01)
+
+* **a,b and t1** before **c and d** is not required.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/622fddab-2d87-427e-b60b-aecb586028f4)
+
+* If that code is there or not there we will get the **same answer**. So that code is **dead code**.
+* No use of that **code**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b64e83e-3df6-4226-a1d0-dc261c485a91)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a89be2fc-4d96-415f-8b04-1c6924a746bc)
+
+* **T1** is calculated at **two(2) places**. We will take the **new value**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65de800c-d5aa-4de4-b3d9-16596e35c719)
+
+* Whenever there is a **function call be careful**. Don't neglect **blindly**.
+* Until and unless we know about the **function** which is **Display()** we cannot say that the **above code** is **dead code**.
+* The function maybe printing **Hi** as well then we will get **Hi and 5600**.
+* If we remove the above code then we will only get **5600** which is **not correct**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/012d1176-b275-4dfa-894e-20e0b12ee020)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f9d3e85-4ee7-4504-a64c-c47b518fc156)
+
+* [**IMPORTANT**]
+* If we can say for sure that the **function** is only returning **800** then only we can **remove** the **above code** otherwise it may do some other thing and return something else as well then we will not be able to **remove** the **above code**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1342f530-8d25-46cd-81ec-573d891048e0)
+
+* With the function we are getting **Hi5600** and without the function we are getting **5600** which is **incorrect**.
+* With the **above code(function)** we are getting the **same output** and without the **above code(function)** we are getting the **same output** then the **above code(function)** is **dead code**.
+* [**IMPORTANT**]
+* Multiplication and left shift -> left shift
+* left shift and addition -> No relation/comparision there. Not required.
+* One left shift and 5-additions, which one is more costly?
+
+> One addition and one left shift, both would be **equal**. Whenever more additions, then more costly.
+
+* One multiplciation can be replaced by **1-addition**.
+* Power is replaced by **multiplciation**.
+* Multiplication is replaced by **left shift**.
+* Division is replaced by **right shift**.
+* In **function** everything matters.
+* **Dead code** is nothing but the code is there and we are getting **one specific output** and the code is not there and we are getting the **same one specific output** then that code is **dead code**. No use/significance of that **code**.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
