@@ -9674,10 +9674,10 @@ for(i=0; i< 200; i+=2)
 * Checking **first row**.
 * p -> N
 * q -> L
-* r
-* s
-* u
-* v
+* r -> L
+* s -> N
+* u -> N
+* v -> L
 
 * At the **1st statement**, **p** is live or not?
 
@@ -9699,9 +9699,250 @@ for(i=0; i< 200; i+=2)
 
 > **u** is updated already. **u** is not live.
 
-* At the **1st statement**, **s** is live or not?
+* At the **1st statement**, **v** is live or not?
 
-> **s** is updated already. **s** is not live.
+> **v** is read and there is a path available and **v** is not updated in-between. So **v** is **live**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d57086d-ac4e-4a73-971b-5c9fa528e312)
+
+* Reading and writing on the **same line** no problem. We will **read first**. Reading is **more priority**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f737240f-e35c-44c6-ac5e-c4091e396db2)
+
+* [**IMPORTANT**]
+* In statement 4, how many people live?
+
+> **2** which are **r and u**.
+
+* In statement 5, how many people live?
+
+> **4** which are **r,s,u and v**.
+
+* In both statement 4 and 5, how many variables are live?
+
+> **2** which are **r and u**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a17b8c26-6acb-4a49-b0e6-2650ca8c1f0e)
+
+* There is one variable which is **not live** to that variable we have given one register but we got to know that it is not live, we can take back the register as we got to know that the variable is not live. So that we can give the register to a variable that is **live**. So that we can utilize the no. of registers as minimum as possible.
+* Not live then no need to give a register.
+* We got to that the variable is **not live** so we will take back all of the resources that we have given to that **variable**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5f9c66a-79b7-46e3-b1c7-fd99edd609de)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/02cfdadf-ffed-47dd-a811-8f96d547434b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cbaaf187-9280-4dda-8900-34e5814751b6)
+
+* Assignment is not there so everything is **reading** only and no writing.
+* We are talking about that **basic block** only. Within that **basic block** who is **live** and within that **basic block** who is **dead**, if we find them within that **basic block** then they are called as **gen function** and **kill function**. Within that **basic block** only take care.
+* In basic block(B1) only who are live, they are called as?
+
+> **Gen-1**.
+
+* In basic block(B1) only who are live, they are called as?
+
+> **Gen-2**.
+
+* Whatever **basic block** number that number only is the **Gen number**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/670fcd35-ed06-4478-a0b8-60ce4823b896)
+
+* Who are live in that specific basic block only?
+
+> When we are finding **Gen** of a specific basic block only then don't see **above or below** basic blocks. Only that particular basic block we have to see.
+
+* In a specific basic block who are killed/dead?
+
+> They are called as **Kill operation**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f27de35d-f599-4748-aeed-0c7966dc2173)
+
+* We are reading **c** in basic block 1 but it is getting **updated**. It indicates that in **basic block 1**, **c** is not **live**.
+* If we read only **old-c** then **c** is **live**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/08e724a3-62a4-4ea8-b14d-e251f2b14b7e)
+
+* **Reading** means **right side** and on the **right side** only **c** is there and it is also **updated**. So **no one** is **live** in **basic block 1**.
+* **Live** means **reading** required.
+* No live in **basic block 1**.
+* Left side means **killed/dead/updated**.
+* So **Gen 1 = Phi(Q)** and **Kill 1 = a,b,c,m**.
+* **Kill** finding is very simple as **left side** people only write. **Kill** means **updated**.
+* When we are finding **Gen and kill** for a particular **basic block**, then that basic block only see. Don't see above or don't see below.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc8bb397-5349-487c-bba4-06ef933e1ab2)
+
+* In **basic block 2**, **a** is **old-a** only as no updation here.
+* Whatever **m** is there we are reading that only.
+* No updation, nothing there.
+* No updating so the **kill** is **Phi**.
+* So the **Gen2 = a,m** and **kill = Phi**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/241d7194-0612-4077-8dd9-cbfd6b04e2ed)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f8353f48-1a97-455e-93b6-75e90cd348bf)
+
+* In **basic block 6**, the **Gen 6 =  a,b,c** which are on the **right side** but not **t1** as it was **updated** and we are getting the **new t1**.
+* **Gen** is the **right side** people who are not **updated** and we are getting the **old variable** only.
+* **Kill** is the **left side** people.
+* So the **Kill 6 = t1, a**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09828822-70d8-4252-a952-f9335647de04)
+
+* Gen K = The set of variables which are live in basic block 'k'. [Definition]
+* Live -> Reading old value in that basic block.
+* Kill K = The set of variables which are updated(Killed/Kill) in the basic block 'k'. [Definition]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/866b25b5-0017-49a0-9687-cdd9966068dd)
+
+* Between **reading and updating**, **reading** is done **first**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa240799-8586-4491-b839-4e5013a24129)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f2c37e9-cdcb-4e78-9a38-4b3ad75040c1)
+
+* [**IMPORTANT**]
+* There is a **basic block** and at the entrance who are **live**?
+
+> That is called as **In of 'k'**.
+
+* There is a **basic block** and at the exit who are **live**?
+
+> That is called as **Out of 'k'**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d034e59f-d71e-4236-ba99-31a87f642022)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b56411dd-8d03-475a-a3ab-75f9d52f60ab)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/55d661d6-2480-42ba-b748-0250e34fd428)
+
+* We are starting from the **bottom**.
+* Last person **out** is **phi**.
+* **In** of any person is **equal to** the, **In6 = (out6 - Kill6) U Gen6**.
+* Without calculating **out** we cannot calculate **in**.
+* It is **set theory minus(-)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/369a1c6c-328c-48bc-bb23-978795fb83bd)
+
+* Set theory difference is if **anything common** cancel. If nothing common then whatever there on the **left side** write that.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12cc176b-321c-4283-b77c-fc287e0dc41d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9107926-cf7d-4d4e-9b7e-0c7c7b8452df)
+
+* Set theory difference [**IMPORTANT**]
+* In6 = (out6 - Kill6) U Gen6 -> (out6 - Kill6) U Gen6 -> (Phi - Kill6) U (a,b,c) -> Phi U (a,b,c) -> a,b,c.
+* In6 -> a,b,c.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6fb3930a-c1e5-438f-b1a3-5131845997e5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e6cb50b-fbac-4a32-a794-794a5dd88c31)
+
+* **In formula** [**IMPORTANT**]
+* Last person **out** is **Phi**.
+* Last person **In** is the **In formula**.
+* For the **basic block(B5)**, **Out5 = Phi** and **In5 = (out5 - Kill5) U Gen5**.
+* In5 = (out5 - Kill5) U Gen5 -> (out5 - Kill5) U Gen5 -> Phi U Phi -> Phi.
+* Phi - anything -> Phi [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/43703f71-ed36-4e0a-b121-c2612203dd25)
+
+* **Out** is normally **Phi** only.
+* Middle person **out** is **equal to** **next people's in**. As it has **two next people** so do **union** between them.
+* For the **basic block(B3)**, the **out3 =  in5 U in6 = Phi U (a,b,c) = a,b,c**.
+* **out3 = a,b,c**.
+* In3 = (out3 - Kill3) U Gen3 -> (out3 - Kill3) U Gen3 -> ((a,b,c) - (Phi)) U (a) -> (a,b,c) U a -> a,b,c.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0af1f6b-834c-47e0-b535-9d25183d309c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b8678505-c0da-4ae1-83f1-225aed57f04a)
+
+* Formulae [**IMPORTANT**]
+* **Basic block(B4)** is normally **leaf node** only. Because of the **loop** we will do one more time.
+* **Leaf node's out** is **Phi(Q)** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/274fe096-fbf7-42f3-b4c4-17374a721616)
+
+* Any person's **out** is **equal to** next person's **in** only.
+* **B2 and B4** are **part of the loop**.
+* If **B4** is the **last person** then **B4's out** is **phi** but it's out is **B2** now. It has something now. Previously it don't have.
+* **Loop part** do one more round, nothing there. Loop people only do one more round. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/367be605-1a2c-4c1b-9d3e-6557bf39b74b)
+
+* First round.
+* Because of loop we have to do **second round** of the loop people which are **B2 and B4**.
+* Next person of **B4** is **B2**. Initially it was not there.
+* **B4's out** is **B2 person's in**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb4a5458-dc02-411d-988b-fdfc840b1fad)
+
+* As **B4's out** has **changed** so **B4's in** is also **changed**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/920ba396-d1d1-4160-a96c-1c10dea73f31)
+
+* Because of **B4's chances**, **B2** will also change.
+* Loop people do **two times**.
+* Just do **two rounds** for the **loop**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e60b5213-b136-43ad-840c-b0650a6ec163)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c049b8d5-3a7d-4068-9780-4c1f7f13e6da)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/26987334-fa04-4bbe-a17d-c6d4bb1fd9b2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f8cbdf86-a5e4-4382-b451-f98ab5ae89a6)
+
+* [**IMPORTANT**]
+* **In** is having formulae.
+* Middle person **out** is **equal to** next person's **in**.
+* Last person **out** is **equal to Phi(Q)**.
+* Within the **block analysis** is **Gen and Kill**.
+* Entrance is **in** and exit is **out**.
+* Total program is **live variable**.
+* **NOTE**:-
+* Every DCFL is unambigious.
+* Every DCFL is LR(1) grammer.
+* [**IMPORTANT**]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
