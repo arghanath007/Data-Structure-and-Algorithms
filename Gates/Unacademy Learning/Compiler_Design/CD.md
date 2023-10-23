@@ -9361,41 +9361,127 @@ III) Semantic actions will be placed **anywhere** on the right hand side(RHS) of
 
 * **# define** means **pre-processor** will come to the picture. **Pre-processor** will replace wherever **a** there with **0**.
 * We will get **printf(bye)** as the **output**.
+* The statement **printf(hi)** is **unreachable code**. Eliminate **unreachable code**. We can eliminate it.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d902819b-b1d8-4d16-939f-212f3241e9ba)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce2bad98-2957-46f3-af73-eb7b3450df31)
 
+3) Use of Machine instructions
 
+* mov R0 i
+* **i** going to **R0**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a68d319-af8d-47db-bd0d-a594ddca466d)
 
+* After the statement is over **R0** contain **i**. Assume **i =5** then **R0** contain **5**.
+* mov R1 1.
+* Move **1** to **R1**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34678c48-f17c-41ce-9d39-8f54befedf3e)
 
+* Both **R0 and R1** will be **added** and kept in **R0**.
+* Initially **i =5**, final value of **R0** is **5 + 1 -> 6**.
+* mov i R0
+* Now **R0** contain **6**.
+* **R0** will be shifted to **i**. So **6** will be moved to **i**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/90bbf88a-86b9-4a19-abed-8fb498aa1513)
 
+* Initially **i =5** and now **i = 6** finally.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/308476ff-1561-4e4a-a0e4-76b332136e87)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d2eccbe4-06d7-4792-bff8-1c96fd2fd1a0)
 
+* Don't create **instructions** by yourself, if already there(inc), they exist then use them.
+* If **not available** then we can use our own.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80f0a127-ae13-4b43-b614-7876bf0ab304)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5d8b9be-51c4-4c37-a687-65a2333134ce)
 
+4) Redundant store and load instructions
 
+* Load a R0 -> Whatever **a** contain that goes to **R0**. **a** will go to **R0**.
+* Spilling -> Moving register Data into main memory. [Register spill]
+* Loading ->
+* After the above line both **a and R0** are **same**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c54c9eec-bae5-4ea1-9c78-c22dd60a85e3)
 
+* Store R0 a -> Whatever **a** contain will come to **R0**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/657ab320-6d89-4c09-b40a-596f6cb4c61c)
 
+* Both are **same** thing.
+* It is unnecessary to write both.
+* Same thing we are **copying again**.
+* Don't use both at a time.
+* Meaning is **same**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/08739ba5-54bd-4dee-99c9-5ca1894b81e5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/057b2613-0f92-4ee2-adc9-ad3bed85ab67)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb3207b3-c593-47f6-ab91-5eb81d73ddb6)
 
+* Both are not required. Do anyone.
+* Unnecessary things eliminate.
+* Write anyone of them.
+* [**IMPORTANT**]
 
+5) Algebric Simplification
+6) Strength reduction
 
+* Here both the **Algebric Simplification and Strength reduction** can be done.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a978d31e-9e7b-41ee-84b3-9102121a40ec)
 
+* Whatever we have done in the **intermediate code** similar/same things can be done/applied on the **target code**.
 
+### Register Allocation
 
+* Try to use less registers without any change in the meaning of the program.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1e014f9-0228-43a6-8f82-2c8049007d82)
 
+* There is a program and we are trying to find out the prime numbers.
+* To solve the above problem, we used **5-registers**.
+* If possible can be take less than 5?
 
+> Someone has done the same thing by allocating the registers properly without changing the meaning meaning it will still check if the given number is **prime number** or not. **Registers** are only **3**.
 
+* **Register allocation** -> Try to use **less registers** without any change in the program. Allocating registers properly/carefully in such a way that minimum of as many registers as possible **allocate**.
+* It is almost equal to the **cromatic number of the graph**. Allocate for every vertex color in such a way that no adjacent people contain the same color.
+* Previously checking prime number or not and now also checking if prime number or not.
+* Previously **5-registers** and now **3-registers**.
+* If we allocate the **registers properly** can we **decrease the count of registers or not**.
+* If not possible then say **not possible**.
+* If possible then say how is the allocation possible.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/40364973-f0f3-4622-afd1-08291bc76bf7)
 
+* Graph Coloring -> Register Allocation. [Both we have to match]
+* In the given graph how many colors are there those many **registers** we have to allocate.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/918c3451-e4ec-4840-b67a-dfb41fd7f4cd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/73428d45-2567-492f-8e11-25c17336f0b5)
 
+* Find no. of addition and de-reference operations used.
+* Star(*) -> De-reference.
+* Ampercent(&) -> Reference.
+* **Reference** with **variable name** will give **address**.
+* **De-reference** with **address** will give **value**.
+* **y -> f1** means that **(*y).f1**. It means **pointer to a structure**. [**IMPORTANT**]
+* **dot(.)** came meaning **structures**.
+* **Star(*)** means **pointer**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9177872-4011-4aad-9cf7-0c7bece316b1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b7360441-2722-4d77-8bd5-a70b254a306d)
+
+* Between **star(*) and dot(.)**, **dot(.)** has the **highest priority**.
+* As **dot(.)** has the **highest priority** so we need to keep **brackets** otherwise **dot(.)** will be done **first**. That's the reason first **star(*)** is required.
+* In our opinion **star(*)** required that's why we kept **brackets**.
+* **a -> b** means that **((*a).b)**.
+* Brackets are there.
+* **a -> b** another way of writing is **((*a).b)**. Pointer to structures.
+* **a -> b**, **star(*)** is there which is called as **de-reference**.
 
 
 
