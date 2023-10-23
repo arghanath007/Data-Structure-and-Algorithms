@@ -9287,6 +9287,90 @@ III) Semantic actions will be placed **anywhere** on the right hand side(RHS) of
 * In **function** everything matters.
 * **Dead code** is nothing but the code is there and we are getting **one specific output** and the code is not there and we are getting the **same one specific output** then that code is **dead code**. No use/significance of that **code**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6544134c-78aa-44a5-899f-27c01229aebd)
+
+### Algebraic Simplification
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/42b7c604-db89-427e-9bfc-655c82e37a97)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f56f1904-74ff-4e12-9070-0983ae1001f7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0fbc8187-446c-417e-aec6-8325e8ed90b8)
+
+### Common Subexpression Elimination
+
+* Also called as **DAG**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65652701-2767-4fb3-b473-b6376e20aefc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bbd25d7e-05dd-43e9-9495-f9a548983714)
+
+* **b * c** is there **two times**.
+* **a** is also coming **twice** and we cannot **write the same thing twice** in **DAG**.
+* Direction is **top to bottom**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d191aca-3f2c-44a8-9076-62513ca18ecd)
+
+* **DAG** will calculate the **sub-expression** one time only. If **same expression** is there multiple times then **DAG** will calculate it **once**.
+* **DAG** purpose is **Eliminating common sub-expression elimination**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a0bdb10-2671-4b5e-a69e-c0618a2d8369)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f4233e3f-e260-4bdd-a1e2-9fbb4af1871a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98b1061c-6ddf-4a83-911b-5cefdd2185eb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/230cbc0d-0545-4b2e-bd20-34782a21ea8c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0881efc9-91f2-43af-9fe1-d32b3af30ab1)
+
+* Question:-
+* If we create **DAG** then minimum no. of nodes how many possible?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/43f65261-287e-40d8-9f71-42ef2336f73c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/93b10a7a-cdbc-49cf-aae0-a8e42c4d6aa0)
+
+* Both are **correct**.
+* If at all **minimum no. of nodes** possible or asked then go for the **right side DAG**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f20ddd3e-6d9f-45ae-a9cc-7d4b69b625b0)
+
+* Give **priority** to the **right side DAG**.
+* Based on the **options** we can choose.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1662f955-400b-44f6-ad40-037d41c33985)
+
+* These all are **intermediant code**.
+
+## Code optimization on Target Code.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b90e474-42bb-4f6e-8b4b-9c5e4d44789d)
+
+1) Peephole optimization
+2) Register allocation.
+
+### Peephole optimization
+
+1) Flow Control optimization:-
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/48e6bc12-8404-47f1-af26-7fbb2bb361c9)
+
+* **L4** contains the **code**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dbb20819-b1fc-47a9-bbdf-9e2ca1baba43)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b4b0132b-9ead-43a4-ad83-91d00fb04866)
+
+* In **CFG** this is called as **elimination of unit production**. 
+
+2) Removal of unreachable code
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ef46cb7-f75f-4442-8cfd-dcce94f4164c)
+
+* **# define** means **pre-processor** will come to the picture. **Pre-processor** will replace wherever **a** there with **0**.
+* We will get **printf(bye)** as the **output**.
+
+
+
+
+
+
+
+
+
+
 
 
 
