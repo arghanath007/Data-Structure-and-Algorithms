@@ -13,7 +13,7 @@
 8) Computer Networks - Completed [6th Aug 2023]
 9) EM -> Completed
 10) TOC -> Completed
-11) CD -> Started
+11) CD -> Completed.
 12) DM -> Started.
 
 ## DA and AI
