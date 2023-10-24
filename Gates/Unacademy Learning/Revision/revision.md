@@ -28,6 +28,12 @@
 
 * From 15th Jan till exam.
 
+## Mistakes
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa49d180-59a8-48eb-b6a2-beb9f9b57d67)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f9d76f33-862b-4cf3-9c9a-062931aa11ea)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0c0d556-1c9e-496a-8134-f92366cf508f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b04c030-00c3-4249-bab4-8bbe45b73727)
 
 
 
