@@ -18,7 +18,9 @@
 
 * Graph(G) is nothing but **vertives(V) or nodes and edges(E) or lines**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8d4d94f-370e-4be5-8317-6a0a72ccb4a9)
 
+* Start from 24mins.
 
 
 
