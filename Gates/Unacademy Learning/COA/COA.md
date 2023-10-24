@@ -2369,6 +2369,25 @@ If address is reaching memory then the memory has to read the address. So, memor
 ![image](https://user-images.githubusercontent.com/54589605/229131592-f788e006-8036-4c36-a273-865799a89817.png)
 ![image](https://user-images.githubusercontent.com/54589605/229131722-fdcbbde8-ede7-43c2-8437-510c570b1bd9.png)
 
+# Selective Study
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3b95960f-29d5-48ac-a835-dc2342a289f4)
+
+## cache-organization-part-ii (14) [24th Oct 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d09377fd-7c35-425b-aa09-91fee05433d0)
+
+* Associative Memory
+* Addressable Memory -> We have a memory cell and each cell has an address. To that address when a CPU generates some address, we can reach to that specific address and on that address **read and write** can happen.
+* Associative Memory hardware which is just opposite of Addressable Memory. In this we have cells, yes but the cells don't have any **address**.
+* These are memory cells but addresses are not there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6bf64e38-142d-4d9f-ad63-4ab2f83ddb69)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b5afdaf-3b0a-4dee-aa8e-375d5a908895)
+
+
+
+
 
 
 
