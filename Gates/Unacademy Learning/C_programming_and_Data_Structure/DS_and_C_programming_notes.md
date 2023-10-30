@@ -22,12 +22,13 @@
 
 ## Important Topics and Video to watch when doing revision
 
-* Pointer videos -> * https://unacademy.com/class/pointer/D788WQUL
-  
-                    * https://unacademy.com/class/array/HG0OOZN2
-                    * https://unacademy.com/class/array-with-pointers/56LKYSW6
-                    * https://unacademy.com/class/structure-and-union/JA6PA1NQ
-                    * https://unacademy.com/class/functions/660SO1X9
+* Pointer videos:-
+
+* https://unacademy.com/class/pointer/D788WQUL
+* https://unacademy.com/class/array/HG0OOZN2
+* https://unacademy.com/class/array-with-pointers/56LKYSW6
+* https://unacademy.com/class/structure-and-union/JA6PA1NQ
+* https://unacademy.com/class/functions/660SO1X9
 
 * Doubt Clearing(Many DPPs and Quiz question discussed) -> https://unacademy.com/class/doubt-clearing-session/SJZIOSWP
   
