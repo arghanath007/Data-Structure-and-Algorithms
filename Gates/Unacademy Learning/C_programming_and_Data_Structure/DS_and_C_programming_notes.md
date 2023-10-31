@@ -313,9 +313,12 @@ Hence **d=1** [Since integer value of True is 1.]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ebc72a5-01ed-4c8b-b307-c616d3c9df7e)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/54e859ba-e527-4c5e-908f-4ad4ec8e3941)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/baa39ef3-9e85-4855-8c9c-1ddb9e0905b9)
 
+* Zero(0) -> False
 
-
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/153559d6-544c-487b-97bd-aa71ec7b15c7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/236d8673-d5b8-4cbf-883e-b2cd9372347c)
 
 
 
