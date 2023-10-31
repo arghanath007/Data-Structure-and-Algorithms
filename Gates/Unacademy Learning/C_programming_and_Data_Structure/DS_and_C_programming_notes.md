@@ -234,6 +234,7 @@ Hence **d=1** [Since integer value of True is 1.]
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df95d71d-ac06-4067-8815-519114364eb4)
 
 * %i.
+* https://www.geeksforgeeks.org/difference-d-format-specifier-c-language/
 
 ### Structure of C-programming language
 
