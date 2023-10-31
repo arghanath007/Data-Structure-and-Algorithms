@@ -482,9 +482,9 @@ Solved in **8_Doubt_Clearning_Session**.
 
 #### Example
 
-int a=5, b=2;  [Normal variable]
-int *p;  [Special variable called as pointer.(Declaration)] 
-p= &a;   [Pointer p storing the address of a.(Initialization)]
+* int a=5, b=2;  [Normal variable]
+* int *p;  [Special variable called as pointer.(Declaration)] 
+* p= &a;   [Pointer p storing the address of a.(Initialization)]
 
 int *q= &b; # Initialization and declaration in the same line.
 
@@ -577,6 +577,11 @@ Solved in **8_Doubt_Clearning_Session**.
 * From **8_Doubt_Clearning_Session**.
 
 ![image](https://user-images.githubusercontent.com/54589605/221846570-4b7949dc-7f89-4b82-80ab-4724f03a9151.png)
+
+* [**IMPORTANT**]
+* Link [**Solution Explaination**] -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/D9E718C1EA
+
+
 ![image](https://user-images.githubusercontent.com/54589605/221846604-6a0fee97-9910-414f-a97b-cfd4bbd07b35.png)
 ![image](https://user-images.githubusercontent.com/54589605/221847480-da6aeadf-46f0-4092-a1c1-0c726efdbae4.png)
 ![image](https://user-images.githubusercontent.com/54589605/221847547-1136f6cb-da5c-4810-92e4-e95ddcd93571.png)
