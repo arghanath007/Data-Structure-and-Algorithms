@@ -99,7 +99,11 @@
 ### Bitwise Operators
 
 ![image](https://user-images.githubusercontent.com/54589605/221763444-5287d4da-a04f-4c08-88d9-6ef09bf7be19.png)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d248171c-4690-4e40-9770-4a552f9f3266)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/08ee3def-f7d8-44e4-8561-542fd5529487)
 
+* Logical AND, logical OR -> True or False
+* Bitwise AND, Bitwise OR -> Finding the value.
 
 ### Left and Right Shift
 
