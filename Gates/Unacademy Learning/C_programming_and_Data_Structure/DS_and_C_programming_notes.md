@@ -572,9 +572,10 @@ Solved in **8_Doubt_Clearning_Session**.
 
 * Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/8A11AF610A
 
-### Extra Questions
+### Extra Questions 
 
 * From **8_Doubt_Clearning_Session**.
+* All of the **below questions** are **VERY IMPORTANT**.
 
 ![image](https://user-images.githubusercontent.com/54589605/221846570-4b7949dc-7f89-4b82-80ab-4724f03a9151.png)
 
