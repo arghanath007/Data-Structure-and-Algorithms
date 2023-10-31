@@ -311,6 +311,21 @@ Hence **d=1** [Since integer value of True is 1.]
 
 * [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ebc72a5-01ed-4c8b-b307-c616d3c9df7e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/54e859ba-e527-4c5e-908f-4ad4ec8e3941)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ### Break and continue (5)
 
