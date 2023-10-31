@@ -482,9 +482,9 @@ Solved in **8_Doubt_Clearning_Session**.
 
 #### Example
 
-int a=5, b=2; # Normal variable
-int *p;  # Special variable called as pointer.(Declaration)
-p= &a;   # Pointer p storing the address of a.(Initialization)
+int a=5, b=2;  [Normal variable]
+int *p;  [Special variable called as pointer.(Declaration)] 
+p= &a;   [Pointer p storing the address of a.(Initialization)]
 
 int *q= &b; # Initialization and declaration in the same line.
 
