@@ -590,7 +590,6 @@ Solved in **8_Doubt_Clearning_Session**.
 ![image](https://user-images.githubusercontent.com/54589605/221847635-d45ca320-468f-420e-b7af-f2bf20aa0a18.png)
 
 
-
 ## Array With Pointers (7)
 
 ![image](https://user-images.githubusercontent.com/54589605/221837423-9a544a67-9697-443a-a9a3-ce04a03cc1af.png)
