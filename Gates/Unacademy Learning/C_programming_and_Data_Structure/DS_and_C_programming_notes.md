@@ -231,6 +231,10 @@ Hence **d=1** [Since integer value of True is 1.]
 
 > Question 6, ['Associativity' comes into the picture when two or more operands have the same precedence. Here '/' and '*']
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df95d71d-ac06-4067-8815-519114364eb4)
+
+* %i.
+
 ### Structure of C-programming language
 
 ![image](https://user-images.githubusercontent.com/54589605/221766732-ec2114ae-ab8f-47f0-a113-781dedb0f453.png)
