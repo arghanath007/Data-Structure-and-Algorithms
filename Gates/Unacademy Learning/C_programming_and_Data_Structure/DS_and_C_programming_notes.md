@@ -307,6 +307,7 @@ Hence **d=1** [Since integer value of True is 1.]
 * *%lu* ->Unsigned int or unsigned long
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/56bbfcda-8fec-43ee-b68a-1e088cf8e6e5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d669742-1c31-4224-82d7-3456940a12ac)
 
 * [**IMPORTANT**]
 
