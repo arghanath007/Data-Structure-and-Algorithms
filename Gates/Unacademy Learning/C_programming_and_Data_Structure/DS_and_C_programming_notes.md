@@ -692,6 +692,26 @@ Solved in **8_Doubt_Clearning_Session**.
 
 ## 2D Array (8)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/275876f1-7231-414c-987f-56780b43c919)
+
+* [**VERY IMPORTANT**]
+* Link -> https://www.programiz.com/c-programming/bitwise-operators#complement
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7fc10bc9-0918-46d6-9467-e4e772fca9e6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8e1b7d7-4981-414b-8cd9-d052105e65ec)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f43d184-5b80-4281-ab3f-aa4437ef938d)
+
+* ~ -> Bitwise complement
+* 2's Complement
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9f2bb3de-97bc-494d-bb09-d78529bd5d84)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8762afb9-2a02-436d-bc1d-6bb6e8981b07)
+
+* [**IMPORTANT**]
+
+
+
+
 ![image](https://user-images.githubusercontent.com/54589605/221840561-0c9e6c5d-730c-4c6b-a541-e7018971e716.png)
 ![image](https://user-images.githubusercontent.com/54589605/221840580-919a0484-2708-4f34-8300-e9f4198af733.png)
 ![image](https://user-images.githubusercontent.com/54589605/221840867-71b2a6ad-5ec8-48fb-bb6b-38e556d9698b.png)
