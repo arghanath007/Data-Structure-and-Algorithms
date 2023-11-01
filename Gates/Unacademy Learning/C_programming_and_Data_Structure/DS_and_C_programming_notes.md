@@ -714,8 +714,10 @@ Solved in **8_Doubt_Clearning_Session**.
 ### Row-wise order
 
 ![image](https://user-images.githubusercontent.com/54589605/221840700-af750b59-86e1-45ea-ad1b-e4a673cc3a76.png)
-![image](https://user-images.githubusercontent.com/54589605/221840724-cf9a6711-9de4-4c53-8ce9-ef18b9789044.png)
 
+* Row-wise Order Formula [**IMPORTANT**]
+
+![image](https://user-images.githubusercontent.com/54589605/221840724-cf9a6711-9de4-4c53-8ce9-ef18b9789044.png)
 
 ### Find the address of any element A[i][j].
 
