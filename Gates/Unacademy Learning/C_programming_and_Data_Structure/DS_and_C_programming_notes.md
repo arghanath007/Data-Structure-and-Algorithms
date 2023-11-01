@@ -711,6 +711,13 @@ Solved in **8_Doubt_Clearning_Session**.
 
 * [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/62be819a-cbe9-4507-bd19-8626a1a86538)
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/46A924AEA2
+* Option **B** is **Correct**.
+* Check for both cases which **m** is a multiple or power of **2** and in another case **m** is not a multiple or power of **2**.
+* We had taken **m = 8 and m = 15**.
+* count = floor(log m) + 1 [OPTION 'B'] [**ANSWER**]
 
 
 
