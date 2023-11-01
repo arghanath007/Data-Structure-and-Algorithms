@@ -599,7 +599,10 @@ Solved in **8_Doubt_Clearning_Session**.
 ![image](https://user-images.githubusercontent.com/54589605/221837961-a9ae3766-4e7d-4440-9f12-4d5ac8aa8ba3.png)
 ![image](https://user-images.githubusercontent.com/54589605/221838139-1b2154d0-95fd-45a2-89fc-6488c290c67f.png)
 
-* &A[0] and &A are **same**. They point to the base address of the array(A).
+* **&A[0] and A** are **same**. They point to the base address of the array(A).
+* A -> Base address of the array
+* &A -> Address of constant pointer 'A'.
+* &A[0] -> Base address of the array
 
 ![image](https://user-images.githubusercontent.com/54589605/221838317-ff04443c-fb6a-4ff1-9932-078000a6d28a.png)
 ![image](https://user-images.githubusercontent.com/54589605/221838479-ba66838b-de58-4de6-a05e-3e4c4c929c51.png)
