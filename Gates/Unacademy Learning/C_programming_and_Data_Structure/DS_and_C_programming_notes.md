@@ -610,6 +610,7 @@ Solved in **8_Doubt_Clearning_Session**.
 ![image](https://user-images.githubusercontent.com/54589605/221838792-a6deea09-a849-41b2-818e-4b4796308d6c.png)
 ![image](https://user-images.githubusercontent.com/54589605/221839136-66e7b76b-6aee-4768-9f3c-63f0d2b8f3b9.png)
 
+* Revise them again. [**VERY IMPORTANT**]
 * No errors, **constant pointer A and variable x** are explicitely converted to  **(int)** and **(int *)** respectively.
 
 * int *p =&A[0];
