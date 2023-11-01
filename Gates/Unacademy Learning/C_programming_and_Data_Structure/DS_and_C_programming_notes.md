@@ -706,6 +706,8 @@ Solved in **8_Doubt_Clearning_Session**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9f2bb3de-97bc-494d-bb09-d78529bd5d84)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8762afb9-2a02-436d-bc1d-6bb6e8981b07)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9f7805cd-566d-426a-98be-2e3c36b8496d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5633fb2d-6585-4c8a-80a4-b2814c11a94e)
 
 * [**IMPORTANT**]
 
