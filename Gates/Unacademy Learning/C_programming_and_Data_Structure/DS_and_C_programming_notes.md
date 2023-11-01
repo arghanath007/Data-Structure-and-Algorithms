@@ -692,6 +692,8 @@ Solved in **8_Doubt_Clearning_Session**.
 
 ## 2D Array (8)
 
+# SHORT-NOTEs IMPORTANT
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/275876f1-7231-414c-987f-56780b43c919)
 
 * [**VERY IMPORTANT**]
@@ -718,6 +720,12 @@ Solved in **8_Doubt_Clearning_Session**.
 * Check for both cases which **m** is a multiple or power of **2** and in another case **m** is not a multiple or power of **2**.
 * We had taken **m = 8 and m = 15**.
 * count = floor(log m) + 1 [OPTION 'B'] [**ANSWER**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ecea64f0-5770-4dd2-bfe7-a36e3fd79e2d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb779a75-707e-4a01-88a9-f9492a3e0db6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5fa179f-0274-4754-a3fb-4794b5c76152)
+
+* [**IMPORTANT**]
 
 
 
