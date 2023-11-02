@@ -945,6 +945,9 @@ Solved in **8_Doubt_Clearning_Session**.
 ## Union
 
 ![image](https://user-images.githubusercontent.com/54589605/221855258-8317e2b4-8b91-4f12-852b-a1c9500cf068.png)
+
+* In **Union** the size of the **union** is given by the **largest/greatest** in **size** datatype that is present in the **union**.
+
 ![image](https://user-images.githubusercontent.com/54589605/221855281-dc5750f8-b2ab-4279-b026-80c418aa9266.png)
 
 
