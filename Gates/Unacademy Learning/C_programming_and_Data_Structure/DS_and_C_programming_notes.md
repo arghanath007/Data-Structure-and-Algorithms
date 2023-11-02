@@ -1002,6 +1002,10 @@ Solved in **8_Doubt_Clearning_Session**.
 ![image](https://user-images.githubusercontent.com/54589605/221858111-c8eed570-0b20-4b2a-b6ee-cd191ce6eab6.png)
 ![image](https://user-images.githubusercontent.com/54589605/221858193-4d886675-7d3e-40db-b9f8-c4eb42929d86.png)
 ![image](https://user-images.githubusercontent.com/54589605/221858241-b57d5e23-ed02-4ad3-a914-d31eadec22c3.png)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf753d70-08fb-475e-99b6-743bd9313415)
+
+* Function declaration, definition, call example.
+
 ![image](https://user-images.githubusercontent.com/54589605/221858461-17005f6a-cd2d-4812-a088-1f734f6e3022.png)
 
 
