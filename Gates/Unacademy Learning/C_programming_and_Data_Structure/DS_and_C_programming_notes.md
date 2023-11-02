@@ -969,8 +969,9 @@ Solved in **8_Doubt_Clearning_Session**.
 
 ## Union and Structure difference
 
-> In union, we are not getting separate space for each value. The largest size data type in the union is used as the size of the union. That size is used **repeatedly and overlapping and overwritten** to store the values of the union. Previous values are replaced/removed when newer values are entered and the previous values are not accessible anymore. **All of the values are not uniquely and simultaneously present at the same time**.
-> In structure, we are getting separate space for each value. **The size is the total sum of all the data-types present in the structure**. **All of the values are uniquely and simultaneously present at the same time**.
+* **Union** -> In union, we are not getting separate space for each value. The largest size data type in the union is used as the size of the union. That size is used **repeatedly and overlapping and overwritten** to store the values of the union. Previous values are replaced/removed when newer values are entered and the previous values are not accessible anymore. **All of the values are not uniquely and simultaneously present at the same time**.
+
+* **Structure** -> In structure, we are getting separate space for each value. **The size is the total sum of all the data-types present in the structure**. **All of the values are uniquely and simultaneously present at the same time**.
 
 ## DPP 4.
 
