@@ -1150,11 +1150,13 @@ Solved in **8_Doubt_Clearning_Session**.
 ![image](https://user-images.githubusercontent.com/54589605/221880258-c1e26ce2-c2e6-4053-be22-a13e8395395e.png)
 ![image](https://user-images.githubusercontent.com/54589605/221880287-a4a46c8e-b3b2-43ce-8dcd-743aad65dbe0.png)
 
+* [**IMPORTANT**]
 
 ![image](https://user-images.githubusercontent.com/54589605/221880744-066104c3-5379-402b-a491-cc9d90bae874.png)
 ![image](https://user-images.githubusercontent.com/54589605/221880679-3327008d-8675-4b26-93f9-1fa49c451d02.png)
 ![image](https://user-images.githubusercontent.com/54589605/221880886-98b7d806-8b15-4d6a-8ae9-6ee2c9be81cf.png)
 
+* Added in **IMPORTANT TOPICS Doc**.
 
 ## DPP 6
 
@@ -1167,11 +1169,14 @@ Solved in **8_Doubt_Clearning_Session**.
 ![image](https://user-images.githubusercontent.com/54589605/221881115-59cef393-a72e-4a5c-8f46-6662cecec552.png)
 ![image](https://user-images.githubusercontent.com/54589605/221881165-744c1c7b-d42f-45bc-ad1a-c3a89ba78d6d.png)
 
-* fun(fun(5)) -> fun(5) + fun(7) = 7 + 17 = *24*(Ans)
+* **fun(fun(5))** -> fun(5) + fun(7) = 7 + 17 = *24*(Ans)
+* We know fun(5) -> 7, fun(3) = 3, fun(4) = 5.
+* This is how we calculated **fun(fun(5))**.
 
 > We are re-using the already calculated values(fun(0), fun(1)...fun(5)) from previous fun(5) but computer is doing it again from scratch. Hence first it is calculating *fun(5)* first as it is inside and then calculates *fun(7)* separately from scratch without re-using the values it got from fun(5). Hence we are adding *fun(5) + fun(7)* to get the count of *fun(fun(5))*.
 
 * **IMPORTANT** look at all of the recursion question int *13_REcursive_Questions PDF* file.
+* Added in **IMPORTANT TOPICS Doc**.
 
 #### Question
 
