@@ -1503,7 +1503,9 @@ Solved in **8_Doubt_Clearning_Session**.
 
 ![image](https://user-images.githubusercontent.com/54589605/221955645-8d092cca-ca07-4be0-813a-9ea27f1783f1.png)
 ![image](https://user-images.githubusercontent.com/54589605/221956501-b00ad1f9-408e-4d61-be17-4b6ac929e325.png)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2118e30a-0def-468a-b09f-746b612b6c72)
 
+* Explaination [**IMPORTANT**].
 
 
 ## Quiz questions (1)
