@@ -72,7 +72,13 @@
 
 * Explanation [**IMPORTANT**].
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c43a5f1-34ea-4eaa-b4db-4f95467db742)
 
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/ED8C6094C9
+x=10 | 9 | 8 | 7 | 6
+y=10 | 8 | 8 | 6
+
+* y = 6 [Answer]
 
 
 
