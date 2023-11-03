@@ -87,6 +87,38 @@ y=10 | 8 | 8 | 6
 * Data Structure -> https://www.youtube.com/playlist?list=PLG9aCp4uE-s3Rs4AjzG0VcXQCggmOJJ6W
 * C-programming PYQS -> https://gateoverflow.in/questions/programming-in-c/programming?sort=gate
 
+## PYQ Tough questions
+
+* Not able to Solve them mainly.
+* Others are in the above PYQs link which I am able to solve.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ce2cb7f-bbb0-458e-aadb-40f33282144b)
+
+* No output.
+* Option **C**.
+*
+1) https://gateoverflow.in/395812/gate-cse-2014-set-2-question-10-modified
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3568760d-df42-4da5-9300-0ac5a3d2b6f4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a44c206e-f929-4a58-a666-8a936819fbcc)
+
+
+2) https://gateoverflow.in/371903/gate-cse-2022-question-33
+3) https://gateoverflow.in/357530/gate-cse-2021-set-2-question-10
+4) https://gateoverflow.in/357505/gate-cse-2021-set-2-question-35
+5) https://gateoverflow.in/333209/gate-cse-2020-question-22
+6) https://gateoverflow.in/333185/gate-cse-2020-question-46
+7) https://gateoverflow.in/302821/gate-cse-2019-question-27
+8) https://gateoverflow.in/302796/gate-cse-2019-question-52
+9) https://gateoverflow.in/302795/gate-cse-2019-question-53
+10) https://gateoverflow.in/204103/gate-cse-2018-question-29
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dbc3a6f4-f0f6-4cb8-bbb4-effeff715f05)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cebed3f4-71b5-4231-900f-a21cb31ff4ae)
+
+11)
+
+
 
 
 # Practice Questions
