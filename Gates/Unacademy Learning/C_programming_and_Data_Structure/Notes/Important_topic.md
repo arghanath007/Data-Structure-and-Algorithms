@@ -85,6 +85,7 @@ y=10 | 8 | 8 | 6
 # PYQs
 
 * Data Structure -> https://www.youtube.com/playlist?list=PLG9aCp4uE-s3Rs4AjzG0VcXQCggmOJJ6W
+* C-programming PYQS -> https://gateoverflow.in/questions/programming-in-c/programming?sort=gate
 
 
 
