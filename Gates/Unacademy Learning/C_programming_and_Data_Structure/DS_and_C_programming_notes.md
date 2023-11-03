@@ -1497,7 +1497,6 @@ Solved in **8_Doubt_Clearning_Session**.
 ![image](https://user-images.githubusercontent.com/54589605/221954453-7d48e871-6415-48f4-ab59-10edf6a58c5d.png)
 ![image](https://user-images.githubusercontent.com/54589605/221954914-25ef48ee-15ec-4767-ab84-9a772a27aee3.png)
 
-
 * *p++ OR *p-- -> Is causing the issue from the looks of it. We should use **(*p)++** or **(*p)--** respectively, as this is giving the desired output.
 
 * printf("%d\n",(*p)--);
@@ -1512,7 +1511,6 @@ Solved in **8_Doubt_Clearning_Session**.
 
 * Explaination [**IMPORTANT**].
 * Added to **IMPORTANT TOPIC DOCs**.
-
 
 ## Quiz questions (1)
 
