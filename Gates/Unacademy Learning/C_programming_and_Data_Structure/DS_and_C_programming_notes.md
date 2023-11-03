@@ -1202,12 +1202,17 @@ Solved in **8_Doubt_Clearning_Session**.
 
 * Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/455E0B5471
 
-
 ![image](https://user-images.githubusercontent.com/54589605/221902744-2fd5a676-bbe9-4b8f-8913-7574f29809df.png)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1e74cf8-06ee-4728-9e3c-ef9c4185f769)
+
+* Solution.
+
 ![image](https://user-images.githubusercontent.com/54589605/221903104-673e7b77-e515-4cdf-a3e5-2612394bf154.png)
 ![image](https://user-images.githubusercontent.com/54589605/221903385-8e051139-b55a-4d98-8ab8-abbdc33f7e9a.png)
 ![image](https://user-images.githubusercontent.com/54589605/221904318-8afae79f-a5ea-4469-88f7-3ce2e3d09589.png)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d77e4aeb-5bd4-4221-83bb-8ef1420c47b1)
 
+* Solution.
 
 ## Dynamic Memory Allocation (15)
 
