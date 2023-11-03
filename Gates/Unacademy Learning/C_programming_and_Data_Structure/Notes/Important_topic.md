@@ -93,6 +93,7 @@ y=10 | 8 | 8 | 6
 * 1 and 2 are the have the same questions from the c-language Course.
 
 3) https://unacademy.com/class/c-programming-pyqs-on-recursion-practice-session/7T8AA1KO
+4) https://unacademy.com/class/practice-questions-on-c-programming/NJJRFRAN
 
 ## 3
 
@@ -138,6 +139,66 @@ y=10 | 8 | 8 | 6
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d011fc50-8c80-4e35-ae56-22fc5f335240)
 
 * 51 [Answer] [**IMPORTANT**]
+
+## 4
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d127419d-7250-4826-b44a-e748a9e8e4ed)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f59bdbd4-593e-46ad-8ff3-78aaf6bdedf4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a95721ee-4568-40e6-a12d-d476317a3010)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a80abef8-1a85-4083-9880-cdaf32f75753)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5e61b50-71d4-4f5b-b285-48f501ca0753)
+
+* **C-language** is **case-sensitive**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d8ccb64-977d-4514-928a-7762fc488ced)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d58d1c77-edcf-4a4b-937b-92bd4f73684f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1bcaada1-e462-4263-9a4a-72a3f08c7134)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98f9c0d6-06c1-45d2-a29a-92045b7498f9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/87c846bb-961d-407e-b50d-c8db77e542f1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/11478c0f-7948-485d-ade2-aae61accbfb9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/caf16f67-2250-4c90-989e-95599917a672)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d86d218-bf67-41c8-9db9-90d2b4eb4a9c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/758fe2fe-6f56-4714-8ddd-3fba8bca6c1d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95b412f5-ef2a-4092-ab49-31f4ad7a20e8)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3284cd9e-91c9-47e6-b21b-cc859941b149)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3c5bc52-64fa-426c-8708-aec3183674c4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a526e96c-f057-45ea-abaa-eb11debd89a0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a01e42ca-ddf9-4fcf-8b8e-66e43e20c85e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a384fc64-b3a7-481a-9125-067dbec247ca)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/838c3dfe-0375-46d2-a7f4-4f3912da1da0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b866047-b50d-4468-a1a6-dda026ebe137)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b8684370-aa02-455c-a4e8-6751db2a35c7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/985b5678-f175-467e-a07c-ac30beb3cdfe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/78c3cf70-c6e6-46c9-a91d-05e74446bc9a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f3b5eec-2f52-4261-a29b-aebf4b6f3f83)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0949de4d-f4e8-455b-972c-70bd58b72a1a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dab27fce-03bc-4ae9-8828-4b00f0b50ab1)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fceb16fc-0dd2-4a51-8cea-002716a7884f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f8510b1-af12-4c4b-ada7-9cea620c816a)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
