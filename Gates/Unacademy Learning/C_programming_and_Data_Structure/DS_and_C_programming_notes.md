@@ -1186,7 +1186,6 @@ Solved in **8_Doubt_Clearning_Session**.
 
 ![image](https://user-images.githubusercontent.com/54589605/221897517-f15749c9-670c-4d40-882f-a3fd15161fb5.png)
 
-
 > In recursion, **it is created for first call and used by all recursion calls as a single copy**. If a static variable is created within a recursive function then it will be **created/generated once only** when the function is called for the very first time unlike local variables which are created/generated for every recursive call of the function.
 > **By default**, if we haven't initialized a *static* variable then it is initialized by *zero(0)*. 
 > In normal variables, if we haven't initialized the variable then it is initialized by some *garbage value*.
