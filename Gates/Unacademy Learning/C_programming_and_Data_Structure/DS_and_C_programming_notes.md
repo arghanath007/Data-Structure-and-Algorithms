@@ -1396,8 +1396,9 @@ Solved in **8_Doubt_Clearning_Session**.
 
 * To be able to **printout** a character from a **string** we have to use **the * (st + 2)**, to get the value at that given address. Otherwise we will get an error.
 
-
 ![image](https://user-images.githubusercontent.com/54589605/221946476-bd6809a5-ab69-448a-841c-760876b44684.png)
+
+* Added to **IMPORTANT TOPICS Doc**.
 
 ## Literals and Constants
 
@@ -1503,6 +1504,7 @@ Solved in **8_Doubt_Clearning_Session**.
 
 ![image](https://user-images.githubusercontent.com/54589605/221955645-8d092cca-ca07-4be0-813a-9ea27f1783f1.png)
 ![image](https://user-images.githubusercontent.com/54589605/221956501-b00ad1f9-408e-4d61-be17-4b6ac929e325.png)
+
 
 
 
