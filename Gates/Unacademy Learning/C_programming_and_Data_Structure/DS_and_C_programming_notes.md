@@ -1191,6 +1191,10 @@ Solved in **8_Doubt_Clearning_Session**.
 > In normal variables, if we haven't initialized the variable then it is initialized by some *garbage value*.
 
 ![image](https://user-images.githubusercontent.com/54589605/221897955-d5420a14-d63b-46bb-9024-9ff9523bf7f4.png)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/def312cd-86ea-4bcd-bd92-9e7d88bef434)
+
+* Solution.
+* f(5) = 18 [Answer]
 
 ### Question
 
