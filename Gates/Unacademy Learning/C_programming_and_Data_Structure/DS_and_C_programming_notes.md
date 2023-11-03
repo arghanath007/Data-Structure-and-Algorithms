@@ -1127,6 +1127,8 @@ Solved in **8_Doubt_Clearning_Session**.
 ![image](https://user-images.githubusercontent.com/54589605/221877925-10b3e522-ef71-4732-bf0c-fc408387d878.png)
 ![image](https://user-images.githubusercontent.com/54589605/221877951-7dbd92cc-6a8b-442a-b2dd-4040a5331ae7.png)
 
+* Added to **IMPORTANT TOPICS Doc**.
+
 ## Question
 
 ![image](https://user-images.githubusercontent.com/54589605/221874776-8cae9037-6149-403d-9cb5-96566c7d7781.png)
