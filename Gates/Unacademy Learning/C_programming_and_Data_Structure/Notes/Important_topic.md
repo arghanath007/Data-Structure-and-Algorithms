@@ -142,6 +142,16 @@ well if indexing starts from '0'. Then the formula will be like below:-
 * Base -> Base address
 * i -> The index in the array.
 
+## Difference Between Call By Value and Call By Reference
+
+* **Compiler**
+![image](https://user-images.githubusercontent.com/54589605/212529265-4d9b9a5e-7c7f-4924-89bf-f6fdc044f0a8.png)
+![image](https://user-images.githubusercontent.com/54589605/212530290-cccf5b83-a34b-4fba-a899-9730facaa306.png)
+![image](https://user-images.githubusercontent.com/54589605/212530339-2a2f90ff-d9ac-4d64-974e-c78bc4e60085.png)
+![image](https://user-images.githubusercontent.com/54589605/212530371-15c26203-036e-4ad9-8c19-6681ffacdd7e.png)
+
+* Call by Value -> Only a copy of the value is sent to the function which is in **foo()** and the original values are not modified. Here we are just using foo(char* x, char* y) which are just pointers and just pointing to the values.
+* Call by Reference -> The address of the original values are send to the **bar()** as we are using **bar(&p, &q)** and in the bar(char** x, char** y) which is taking the addresses. 
 
 
 
