@@ -349,6 +349,129 @@ well if indexing starts from '0'. Then the formula will be like below:-
 * Time Complexity -> Theta(1)
 * No Loop needed.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a67bfabc-0e90-40d7-821a-7f0b7bfbb38b)
+
+* Insertion before a given node.
+* Time complexity =  *O(n)*
+
+## Different insertion in linked list
+
+* **Beginning** -> Runtime complexity = *Theta(1)*
+* **After a given node** -> Runtime complexity = *Theta(1)*
+* **At end** -> Runtime complexity =  *Theta(n)*
+* **At end when last node is given** -> Runtime complexity =  *Theta(1)*
+* **Before a given node** -> Runtime complexity =  *O(n)*
+
+## Deletion in Linked List
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ccb2fd49-3c8e-4c97-b426-e278677289c4)
+
+* Deletion at Beginning.
+* Runtime complexity = Theta(1)
+
+> *free(p)*, the pointer 'p' was pointing to the node and the space take by that node would be set free. The node will neither exist in memory nor in the linked list.
+
+* free(p) -> keyword.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f616489-2cfa-4af9-bce9-b6715da11f18)
+
+* Deletion of a given node location.
+* Runtime complexity = O(n)
+* Only valid way to delete a given node.
+
+#### More ways to delete a given node
+
+> Interview question, **delete a given node but we cannot use an extra pointer or a new pointer, which will loop to one place before 'loc' position**. Below are the ways to tackle this problem/question asked in interviews.
+
+#### Invalid Method 1
+
+```c
+    start = loc ->link.
+```
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d67a3215-04d6-45c8-b88d-ede293d5687e)
+
+#### Invalid Method 2
+
+```c
+    loc -> data = loc->link->data;
+    loc->link = loc->link->link;
+```
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2e7243af-51fe-4f1e-ab05-58b5ed64ecc5)
+
+> Both are invalid ways of deleting a given node. Normal way is the only valid way.
+> Look at the *26_Types_of_linked_list* PDF file, the code and the explaination is there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/da5ae4d7-bc69-4417-96e3-beb02efdc863)
+
+* Delete at the end
+* Time Complexity -> O(n) OR Theta(n)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69deefd4-b87f-40d6-ae7d-d75b33ea3639)
+
+* Deletion at the end when last node address is given
+* Time Complexity -> O(n) OR Theta(n)
+* last -> It is the address of the last node in the linked list.
+
+```c
+    struct node* p =start;
+    while(p->link->link)
+    {
+        p=p->link;
+
+    }
+    p->link=NULL;
+    free(last);
+```
+
+> Even if the address of last node is given, we still need to traverse the list and get to the 2nd last element of the list.
+
+### Deletion in linked list (26)
+
+* **Beginning** -> Runtime complexity = *Theta(1)*
+* **of a given node** -> Runtime complexity = *O(n)*
+* **at the end** -> Runtime complexity = *Theta(n)*
+* **at the end when address of last node is given** -> Runtime complexity = *Theta(n)*
+
+## Searching in Linked List
+
+### Linear Search
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a156c0d-eff5-4bfb-a707-3b4886cc850b)
+
+* Time complexity -> O(n)
+
+### Binary Search
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a2de3be-c5c6-4a57-8809-8511e04636cc)
+
+> Linked List should be sorted.
+> Binary search in linked list is not possible in *logn* runtime complexity. As we have to linearly traverse the list to go to the mid element of list. Hence to find mid element we have to do *n/2* comparisons every time, which is *O(n)* runtime complexity. As it is not possible to reach the mid element in *constant or O(1)* runtime. To reach mid element, we need linear or *O(n)* time complexity.
+> Binary search in linked list can not be as efficient as it is on array because in linked list, reaching to mid node is not possible in constant time.
+
+* If someone asks can we implement binary search in linked list?
+
+> Yes we can implement binary search in linked list. But the runtime complexity will not be in *O(logn)* but will be in *O(n)*.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae36c1f2-2682-4b0d-8c0b-dbbea5d67285)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22f31c5f-12d8-40cb-90ff-34c974d5d42c)
+
+* [**IMPORTANT**].
+* Union(U) -> O(n ^ 2) -> Both sets are combined but common/duplicates are removed. Uniques are kept only.
+* Intersection() -> O(n ^ 2) -> Only the common values from both the sets are kept.
+* Membership -> O(n) -> Similar to **searching** -> If an elements belongs to a given set or not.
+* Cardinality -> O(n) -> Similar to finding **count or no. of elements** -> To find the no. of elements in a given set.
+
+## Reversing in Linked List
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3f837f7-6134-4c9e-9176-c20e16963b25)
+
+
+
+
+
+
 
 
 
