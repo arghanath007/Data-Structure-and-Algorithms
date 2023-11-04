@@ -123,11 +123,16 @@ y=10 | 8 | 8 | 6
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d9d7d99e-bbb5-4d03-9f01-34eee9673eef)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3047519a-ca8f-424a-93c8-cd78fe7798a7)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db349b8e-4194-45c0-9876-3b6ca45515f9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d847222f-a2be-47d7-8fbb-fb71606e1f4c)
 
 * Example with Relative index.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8959f4e2-8bd7-4cb6-bc93-5ddfd6efccac)
 
-* This is when the index of the array is starting from **zero(0)** and we can directly put the value without during any additional calculations(**below**).
+* Indexing is from **zero(0)** or indexing is starting from **zero(0)**.
+* It saves the **(i-LB)** calculation. CPU doesn't have to do the substraction which helps in performance as
+well if indexing starts from '0'. Then the formula will be like below:-
+
 * Location of an element Loc of A[i] = Base address + size of an element in memory * i = Base + w * i.
 * [**Important**]
 
