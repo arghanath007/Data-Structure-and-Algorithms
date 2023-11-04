@@ -122,6 +122,10 @@ y=10 | 8 | 8 | 6
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d9d7d99e-bbb5-4d03-9f01-34eee9673eef)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3047519a-ca8f-424a-93c8-cd78fe7798a7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db349b8e-4194-45c0-9876-3b6ca45515f9)
+
+* Example with Relative index.
+
 
 * This is when the index of the array is starting from **zero(0)** and we can directly put the value without during any additional calculations(**below**).
 * Location of an element Loc of A[i] = Base address + size of an element in memory * i = Base + w * i.
