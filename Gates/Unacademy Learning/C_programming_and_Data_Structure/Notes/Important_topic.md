@@ -107,6 +107,18 @@ y=10 | 8 | 8 | 6
 
 ## Array
 
+### Relative Index
+
+* Relative index(RI)= (i-LB)
+
+* Relative index would help us to find the location of an element
+
+### Location of an element
+
+* Location of an element Loc of A[i] = Base address + size of an element in memory * relative index = Base + w * (i-LB).
+* [**Important**]
+* This is when the index of the array is not starting from **zero(0)** then we have to calculate it and we have to use the **above formula** that time.
+* This is when the index of the array is starting from **zero(0)** and we can directly put the value without during any additional calculations(**below**).
 * Location of an element Loc of A[i] = Base address + size of an element in memory * i = Base + w * i.
 * [**Important**]
 

@@ -1738,9 +1738,7 @@ y=10 | 8 | 8 | 6
 
 ### Location of an element
 
-* Location of an element Loc of A[i] = Base address + size of an element in memory * relative index
-  
-                                     = Base + w * (i-LB).
+* Location of an element Loc of A[i] = Base address + size of an element in memory * relative index = Base + w * (i-LB).
 
 #### Question
 
