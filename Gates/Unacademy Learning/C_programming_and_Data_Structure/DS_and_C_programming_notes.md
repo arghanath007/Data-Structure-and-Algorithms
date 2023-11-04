@@ -1959,7 +1959,7 @@ if n = 10, then position = 8(2^3)
 ## Find max power of 2 which is smaller than n
 
 ```c
-    int x =Ceil(logn/log2); // Find the power
+    int x =Floor(logn/log2); // Find the power
     int y= pow(2,x); // Value
     return y;
 ```
