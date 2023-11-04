@@ -193,11 +193,27 @@ well if indexing starts from '0'. Then the formula will be like below:-
 
 ## Find max power of 2 which is smaller than n
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/20da9872-bb3b-4f54-be9e-2e3948efda7e)
+
+* Question
+* Solution Below.
+
 ```c
     int x =Ceil(logn/log2); // Find the power
     int y= pow(2,x); // Value
     return y;
 ```
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a026e12c-a832-4c3e-8dbc-88d5c7842ac9)
+
+
+## Questions
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1cdcea74-b70e-4161-bd59-a762bd95d8ad)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/def5dc8f-606a-47e8-82cb-2f7ae47cc342)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a108b243-e83f-4b38-9b46-530074bdc282)
+
+
 
 ## Linked List
 
