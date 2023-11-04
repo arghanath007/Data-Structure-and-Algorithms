@@ -116,7 +116,7 @@ y=10 | 8 | 8 | 6
 
 ### Location of an element
 
-* Location of an element Loc of A[i] = Base address + size of an element in memory * relative index = Base + w * (i-LB).
+* Location of an element Loc of A[i] = Base address + size of an element in memory * relative index = Base + w * (i-LB). [**FORMULA**]
 * [**Important**]
 * This is when the index of the array is not starting from **zero(0)** then we have to calculate it and we have to use the **above formula** that time.
 
@@ -130,10 +130,10 @@ y=10 | 8 | 8 | 6
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8959f4e2-8bd7-4cb6-bc93-5ddfd6efccac)
 
 * Indexing is from **zero(0)** or indexing is starting from **zero(0)**.
-* It saves the **(i-LB)** calculation. CPU doesn't have to do the substraction which helps in performance as
+* It saves the **(i-LB)** calculation. CPU doesn't have to do the subtraction which helps in performance as
 well if indexing starts from '0'. Then the formula will be like below:-
 
-* Location of an element Loc of A[i] = Base address + size of an element in memory * i = Base + w * i.
+* Location of an element Loc of A[i] = Base address + size of an element in memory * i = Base + w * i. [**FORMULA**]
 * [**Important**]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c59debe-3d78-4e81-99a1-236a96ed95cc)
@@ -141,6 +141,8 @@ well if indexing starts from '0'. Then the formula will be like below:-
 * w -> size of an element in memory
 * Base -> Base address
 * i -> The index in the array.
+
+
 
 
 
