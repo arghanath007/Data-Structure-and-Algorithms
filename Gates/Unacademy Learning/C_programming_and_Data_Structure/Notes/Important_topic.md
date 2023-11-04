@@ -166,6 +166,35 @@ well if indexing starts from '0'. Then the formula will be like below:-
 * Insertion always at the start(LB) -> **Theta(n)**. Since we have to right shift all of the 'n' elements by 1 index.
 * Deletion always at the start(LB) -> **Theta(n)**. Since we have to left shift all of the 'n' elements by 1 index.
 
+## Max and min element in an array
+
+* Runtime Complexity -> O(n) OR Theta(n)
+* Space Complexity -> O(1) OR Theta(1)
+
+## Tournament Method
+
+* Runtime Complexity -> O(n) OR Theta(n)
+* Space Complexity -> Theta(n) -> As we are storing the values from each round of the **tournament**.
+
+## Find Min and max both
+
+* Method 1 -> 2 * n -2
+* Method 2 -> (3 * n)/2 - 2 -> (1.5 * n) - 2
+* Method 2('n' is **odd**) -> Ceil(1.5 * n) - 2
+
+## Finding second minimum
+
+* *Formula for finding comparisons required Method-1* -> n-1 + n-2 = **2n -3**
+
+* *Formula for finding comparisons required Method-2* -> n-1 + logn-1 = **n+logn-2**
+
+
+
+
+
+
+
+
 
 # PYQs
 
