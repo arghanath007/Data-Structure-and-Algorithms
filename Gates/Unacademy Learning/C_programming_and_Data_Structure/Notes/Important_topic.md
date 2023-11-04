@@ -189,7 +189,14 @@ well if indexing starts from '0'. Then the formula will be like below:-
 
 * *Formula for finding comparisons required Method-1* -> n-1 + n-2 = **2n -3**
 
-* *Formula for finding comparisons required Method-2* -> n-1 + logn-1 = **n+Ceil(logn)-2**
+* *Formula for finding comparisons required Method-2* -> n-1 + logn-1 = **n+logn-2**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30792cb7-e1cb-459c-ab61-7bae06f186e8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e43bcd2b-b50f-4093-8ad6-28464c65bcd1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/566dc0a7-7c5f-4dcd-9b27-530e976398f4)
+
+* Example
+
 
 ## Find max power of 2 which is smaller than n
 
@@ -209,11 +216,14 @@ well if indexing starts from '0'. Then the formula will be like below:-
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/020b7f35-9eff-435f-90d1-9152a75f517d)
 
 
-## Questions
+## IMPORTANT Questions
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1cdcea74-b70e-4161-bd59-a762bd95d8ad)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/def5dc8f-606a-47e8-82cb-2f7ae47cc342)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a108b243-e83f-4b38-9b46-530074bdc282)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8f0bf68-e785-42e7-8f42-afd17a10edff)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8bd9096f-93ba-472e-9c15-53a95a3fc0c5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9b899da-9b5e-4bf8-9d40-f17789c00926)
 
 
 
