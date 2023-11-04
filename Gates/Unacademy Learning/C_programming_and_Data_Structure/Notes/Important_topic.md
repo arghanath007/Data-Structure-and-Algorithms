@@ -80,12 +80,41 @@ y=10 | 8 | 8 | 6
 
 * y = 6 [Answer]
 
+# Data Structure
+
+## Notations
+
+* i=0, i<n
+
+* i=1, i<=n
+
+> They are the same thing.
+
+* for(i=1;i<=n;i*=2) or for(i=n;i>=1;i/=2)
+
+> Runtime complexity is *log n base 2*
+
+![image](https://user-images.githubusercontent.com/54589605/212310762-93bf11d6-389a-40bd-9f4f-cdaa7451b04d.png)
+
+* for(i=1;i<=n;i*=3) or for(i=n;i>=1;i/=3)
+
+> Runtime complexity is *log n base 3*
+
+* int k;
+* for(i=1;i<=n;i*=k) or for(i=n;i>=1;i/=k)
+
+> Runtime complexity is *log n base k*
+
+## Array
+
+
+
 
 
 # PYQs
 
 * Data Structure -> https://www.youtube.com/playlist?list=PLG9aCp4uE-s3Rs4AjzG0VcXQCggmOJJ6W
-* C-programming PYQS -> https://gateoverflow.in/questions/programming-in-c/programming?sort=gate
+* C-programming PYQs -> https://gateoverflow.in/questions/programming-in-c/programming?sort=gate
 
 ## PYQ Tough questions
 
