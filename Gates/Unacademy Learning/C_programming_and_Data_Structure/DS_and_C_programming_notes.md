@@ -1936,7 +1936,7 @@ y=10 | 8 | 8 | 6
 
 * *Formula for finding comparisons required Method-1* -> n-1 + n-2 = **2n -3**
 
-* *Formula for finding comparisons required Method-2* -> n-1 + logn-1 = **n+logn-2**
+* *Formula for finding comparisons required Method-2* -> n-1 + logn-1 = **n+Ceil(logn)-2**
 
 ## Questions before DPP(20_Doubt_Solving_Session)
 

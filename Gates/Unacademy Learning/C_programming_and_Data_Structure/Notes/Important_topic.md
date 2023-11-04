@@ -189,7 +189,7 @@ well if indexing starts from '0'. Then the formula will be like below:-
 
 * *Formula for finding comparisons required Method-1* -> n-1 + n-2 = **2n -3**
 
-* *Formula for finding comparisons required Method-2* -> n-1 + logn-1 = **n+logn-2**
+* *Formula for finding comparisons required Method-2* -> n-1 + logn-1 = **n+Ceil(logn)-2**
 
 ## Find max power of 2 which is smaller than n
 
