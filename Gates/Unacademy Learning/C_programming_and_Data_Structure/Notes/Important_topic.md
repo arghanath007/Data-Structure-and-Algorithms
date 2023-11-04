@@ -188,6 +188,15 @@ well if indexing starts from '0'. Then the formula will be like below:-
 
 * *Formula for finding comparisons required Method-2* -> n-1 + logn-1 = **n+logn-2**
 
+## Find max power of 2 which is smaller than n
+
+```c
+    int x =Ceil(logn/log2); // Find the power
+    int y= pow(2,x); // Value
+    return y;
+```
+
+## Linked List
 
 
 
