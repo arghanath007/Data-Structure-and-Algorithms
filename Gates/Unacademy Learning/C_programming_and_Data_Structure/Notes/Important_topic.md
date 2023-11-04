@@ -590,6 +590,85 @@ will loose access to some nodes in the list.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89671cc5-6ea3-4a67-8f1e-9c2a8294be30)
 
 
+## Queue
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/230dcb7e-c0c9-4dc0-bec8-8e8040fab891)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/212dacb0-1c82-41ea-ad48-7ea6eae02730)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91126145-32d3-4a8a-ab63-7b2b35ebf4c9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eeab3aac-6d03-4aff-8c57-5225da51cca3)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/de2aca15-3879-45e5-8c88-fda46e745315)
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/87E9B83466
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/52b02399-b478-4d6e-8fa5-87c1a6fc9ad1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/84c2a3a4-11a7-438f-9cf3-a6cbeddaa584)
+
+## Implementation of queue using **linked list**
+
+* **Enqueue** -> Insertion at the end -> **Theta(1)**
+* **Dequeue** -> Deletion from the front -> **Theta(1)**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/448a87cb-f030-47ed-a56f-ebbba529f25e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/49af69d8-30fd-49bb-9d05-be34e40d2552)
+
+* QueueFront() -> It reads **front** element of the queue and returns it.
+* QueueRear() -> It reads **rear** element of the queue and returns it.
+* IsEmptyQueue() -> Returns **True** if the given **queue** is **empty** and returns **False** if the given **queue** is **not empty**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/46ba1acc-23ff-4eb8-98c2-dda0c3c31ac8)
+
+* Solution.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d10e67c0-3782-4549-9a8f-f52f8d9b94e7)
+
+* Rear Node -> Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/448d4855-bc9d-464b-b69e-367fc60c4987)
+
+* Done Earlier.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cea52e0b-0ce3-4bac-9da4-fc4006b79544)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e8ee0c3-4577-4cb7-85de-defa09cf290b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6391f247-e372-416a-9277-d53cd755b983)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2c5dc16-0f7e-424d-a347-f875241b4263)
+
+* Queue = 10,5,9,6.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b565001-6745-4500-9ebb-5a50d86a5351)
+
+* multideQ(k)
+* Time Complexity -> Theta(k) or O(n).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31e3eac9-593c-4921-81dc-c29a6777508d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/84cb9b4a-4b7d-4367-a7a0-e92776bb8165)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5b56bf0-d637-461f-a647-9f1fe86ae3b8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b56b0d9-0b6c-4f80-bd03-75f55a8bf445)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ecb11d35-83ac-44f0-b624-99285d2ac7b3)
+
+> The reversing that is happening in image 2. It is happening in queue2 or Q2, where the elements are
+first being deleted or de-queued and then immediately inserted or enqueued into Q2. Which is
+mentioned in image 3, underlined with color. This is how it is happening.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/667b392a-5fc6-4d49-bfab-79d1d08b526b)
+
+* enqueue(Q2, Dequeue(Q1)); 
+* [**IMPORTANT**]
+
+## Stack
+
+
+
+
+
 
 
 
