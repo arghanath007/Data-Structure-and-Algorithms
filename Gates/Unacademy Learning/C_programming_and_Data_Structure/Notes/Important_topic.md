@@ -157,6 +157,14 @@ well if indexing starts from '0'. Then the formula will be like below:-
 
 * We have use *x = *y, so that the values which the pointers are pointing to gets **updated**.
 
+## Summary of complexities of insertion and deletion in Array
+
+![image](https://user-images.githubusercontent.com/54589605/212548206-5b052a7b-4386-44ba-9705-3232cb010052.png)
+
+## Insertion, Deletion questions
+
+* Insertion always at the start(LB) -> **Theta(n)**. Since we have to right shift all of the 'n' elements by 1 index.
+* Deletion always at the start(LB) -> **Theta(n)**. Since we have to left shift all of the 'n' elements by 1 index.
 
 
 # PYQs
