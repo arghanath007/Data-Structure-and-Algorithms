@@ -2335,6 +2335,8 @@ if n = 10, then position = 8(2^3)
 
 ### Deletion at the end when last node address is given
 
+* last -> It is the address of the last node in the linked list.
+
 ```c
     struct node* p =start;
     while(p->link->link)
@@ -2343,7 +2345,7 @@ if n = 10, then position = 8(2^3)
 
     }
     p->link=NULL;
-    free(loc);
+    free(last);
 ```
 
 > Even if the address of last node is given, we still need to traverse the list and get to the 2nd last element of the list.
@@ -2354,7 +2356,7 @@ if n = 10, then position = 8(2^3)
 
 ### Linear search in LL
 
-* Rumtime complexity -> O(n)
+* Runtime complexity -> O(n)
 
 ### Binary search in LL
 
