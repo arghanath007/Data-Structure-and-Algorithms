@@ -238,9 +238,116 @@ well if indexing starts from '0'. Then the formula will be like below:-
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6340345e-fecb-421a-add6-e8996f3e4543)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e401b32-4ecc-42d6-b028-aeee05b7d11a)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c29ef024-3ec1-4094-8ad5-63927a06c332)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d2c31ae-eb89-4e9f-8b59-b8ba37655d82)
 
 * Practice some **Linked List** questions.
+* Look at all of the **PDF files** of **Linked List**. [**IMPORTANT**]
+* p = p -> link; [For **Traversing** in Linked List] 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44acd22f-fb60-43d7-8458-5407d9d5ed18)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/28e5209e-24e0-49b8-a744-3e9093675777)
+
+* NPD -> Null Pointer Dereferencing
+* If the conditions were **correct** then we can say that the **data of the 2nd last node** of the linked list is the **answer**.
+
+### Base conditions missing:
+
+* start =NULL;
+* If Linked list has one element only. 'start' pointer  points to only one node.
+
+![image](https://user-images.githubusercontent.com/54589605/212615573-8835e66b-559b-4a75-99d0-022920d6f11b.png)
+
+### To remove the NPDs errors
+
+![image](https://user-images.githubusercontent.com/54589605/212616164-dda68630-d5fb-4c8d-92c6-c753825778af.png)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65cc1ec5-65c8-49dd-8ea5-b403dac7ff5c)
+
+* **Insertion** of elements in a **array** is fixed by **insertion** in **linked list**.
+
+## Valid NULL terminated linked_list
+
+* start=NULL 
+
+> There is 'start' pointer so linked list exists but it is empty or has zero(0) nodes. As it has a 'start' pointer which means there exists a linked list which is empty or has zero(0) nodes, but a linked list exists never the less.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/75efe1c5-e0f3-46bb-9266-1af7ead34c3f)
+
+### Creating a new node
+
+```c
+    struct node* n =(struct node*) malloc(sizeof(struct node));
+
+    if(n == NULL)
+    {
+        printf("Out of memory");
+    }
+```
+
+> If **all of the memory** is used up, then **malloc()** will return **NULL**. 
+> If *n == NULL* is true then, the system is out of memory.
+
+## Linked List Insertion
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd3ba85c-1923-4927-abe1-05fa3c9c2b49)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a07628f-be18-4ba3-b03b-5f028702bad1)
+
+* **n** is the **new node** to be **inserted**.
+* n -> data = item;
+* It means that the **new node(n)'s data part** is filled with **item**.
+* n -> link = start;
+* It means that the **new node(n)'s link part** is pointing to the address where the **start pointer** is pointing to **currently** which is the **first node** of the **linked list**.
+* start =n;
+* It means that the **start pointer** is pointing to the **new node(n)** now which means that the **new node(n)** is now the **first node** of the **linked list**.
+* This is **insertion at the beginning**.
+* Time Complexity -> Theta(1) -> Constant.
+* No loops nothing needed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37dc1904-bec8-415f-9461-cf1baf89b0c2)
+
+* **n** is the **new node** to be **inserted**.
+* n -> data = item;
+* The **location(loc)** is already given/passed to us in the **function** so need to **iterate** to that **location(loc)**.
+* **loc** is the located after which the **new node(n)** is to be **inserted**.
+* n -> link = lock -> link
+* It means that the **new node(n)'s link part** is pointing to the address where the **loc's link part** is pointing to **currently**.
+* lock -> link = n
+* It means that the **loc's link part** is updated to **pointing** to the **new node(n)**.
+* This is **insertion after a given node**.
+* Time Complexity -> Theta(1) -> Constant.
+* No loops nothing needed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32da9786-dc8e-4e93-827b-16382cafe7f4)
+
+* **n** is the **new node** to be **inserted**.
+* n -> data = item;
+* For this we have to use **loop** because we have to **traverse/iterate** to the **end of the linked list**.
+* The **while loop** is **traverse/iterate** to the **end of the linked list**.
+* Now we are at the **last node of the linked list**.
+* **n** is the **new node** to be **inserted**.
+* n -> data = item;
+* n -> link = NULL;
+* As **new node(n)** is meant to be the **last node** of the **linked list** that's why we are setting the **link part of the new node(n)** to **NULL** which signifies the **end of the linked list**.
+* p -> link = n;
+* Now the **'p' pointer** which is at the **last node** of the **linked list** and it's **p -> link = NULL** and we are updating it's **link part** to point to the **new last node** of the **linked list** which is **n**.
+* This is **insertion at the end**.
+* Time Complexity -> Theta(n)
+* Loop needed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/717fac70-2a61-4681-9fda-62d4f36c6657)
+
+* **Insertion at the end** when the **address** of the **last node** is given.
+* **n** is the **new node** to be **inserted**.
+* n -> data = item;
+* n -> link = NULL;
+* As **new node(n)** is meant to be the **last node** of the **linked list** that's why we are setting the **link part of the new node(n)** to **NULL** which signifies the **end of the linked list**.
+* **last** is the  **address** of the **last node** which is given.
+* last -> link = n;
+* Now the **'p' pointer** which is at the **last node** of the **linked list** and it's **p -> link = NULL** and we are updating it's **link part** to point to the **new last node** of the **linked list** which is **n**.
+* last = n;
+* Now the **last** is pointing to the **new last node** which is **n**.
+* **Insertion at the end** when the **address** of the **last node** is given.
+* Time Complexity -> Theta(1)
+* No Loop needed.
 
 
 
