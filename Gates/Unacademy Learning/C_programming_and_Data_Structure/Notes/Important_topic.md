@@ -1,5 +1,8 @@
-
 # Important Topics
+
+## Note:-
+
+* Practice some **Linked List** questions.
 
 ## Recursion
 
@@ -198,7 +201,17 @@ well if indexing starts from '0'. Then the formula will be like below:-
 
 ## Linked List
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/78f66411-b7fe-4b52-8375-c824c363542f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c855aa9e-f38b-4833-ae5c-399931422316)
 
+* Condition
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57fa7787-7731-432f-89a7-90d0f40273af)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6340345e-fecb-421a-add6-e8996f3e4543)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e401b32-4ecc-42d6-b028-aeee05b7d11a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c29ef024-3ec1-4094-8ad5-63927a06c332)
+
+* Practice some **Linked List** questions.
 
 
 
