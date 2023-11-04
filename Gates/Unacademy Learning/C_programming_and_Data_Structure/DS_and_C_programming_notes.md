@@ -1771,11 +1771,14 @@ y=10 | 8 | 8 | 6
 > It saves the (i-LB) calculation. CPU doesn't have to do the substraction which helps in performance as well if indexing starts from '0'.
 > Then the formula will be like below.
 
-* Location of an element Loc of A[i] = Base address + size of an element in memory * i
-  
-                                     = Base + w * i.
+* Location of an element Loc of A[i] = Base address + size of an element in memory * i = Base + w * i.
+* [**Important**]
 
-**Important**
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c59debe-3d78-4e81-99a1-236a96ed95cc)
+
+* w -> size of an element in memory
+* Base -> Base address
+* i -> The index in the array.
 
 > When CPU tries to access an array element, it has to first find the address of the element. To find the address he has to use the non-optimised or earlier formula(i-LB) one. If we keep LB=0, then the formula will be reduced to the above one(Base + w * i). In that case, CPU is saving one substraction every time it tries to access an element which in turns increases the performance of the CPU. Everytime we want to improve the performance of the CPU, hence the programming languages have adopted to keeping the starting index of an array to zero(0) for improving the performance.
 
