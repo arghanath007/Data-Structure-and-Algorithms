@@ -153,6 +153,9 @@ well if indexing starts from '0'. Then the formula will be like below:-
 * Call by Value -> Only a copy of the value is sent to the function which is in **foo()** and the original values are not modified. Here we are just using foo(char* x, char* y) which are just pointers and just pointing to the values.
 * Call by Reference -> The address of the original values are send to the **bar()** as we are using **bar(&p, &q)** and in the bar(char** x, char** y) which is taking the addresses. 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/49c65df4-a844-4e9b-b60d-63d0d0531d6c)
+
+* We have use *x = *y, so that the values which the pointers are pointing to gets **updated**.
 
 
 
