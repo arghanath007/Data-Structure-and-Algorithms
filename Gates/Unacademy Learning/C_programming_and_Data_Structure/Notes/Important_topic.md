@@ -107,7 +107,14 @@ y=10 | 8 | 8 | 6
 
 ## Array
 
+* Location of an element Loc of A[i] = Base address + size of an element in memory * i = Base + w * i.
+* [**Important**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c59debe-3d78-4e81-99a1-236a96ed95cc)
+
+* w -> size of an element in memory
+* Base -> Base address
+* i -> The index in the array.
 
 
 
