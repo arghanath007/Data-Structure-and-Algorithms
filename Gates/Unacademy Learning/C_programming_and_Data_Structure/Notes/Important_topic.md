@@ -199,7 +199,7 @@ well if indexing starts from '0'. Then the formula will be like below:-
 * Solution Below.
 
 ```c
-    int x =Ceil(logn/log2); // Find the power
+    int x =Floor(logn/log2); // Find the power
     int y= pow(2,x); // Value
     return y;
 ```
