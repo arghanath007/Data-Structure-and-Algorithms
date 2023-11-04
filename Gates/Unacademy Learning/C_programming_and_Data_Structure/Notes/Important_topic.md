@@ -205,6 +205,8 @@ well if indexing starts from '0'. Then the formula will be like below:-
 ```
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a026e12c-a832-4c3e-8dbc-88d5c7842ac9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1819bad3-92d1-45fb-ada3-e635ecdf0e6e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/020b7f35-9eff-435f-90d1-9152a75f517d)
 
 
 ## Questions
