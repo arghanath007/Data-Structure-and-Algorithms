@@ -467,6 +467,133 @@ well if indexing starts from '0'. Then the formula will be like below:-
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3f837f7-6134-4c9e-9176-c20e16963b25)
 
+## Double Linked List
+
+### Insertion
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d79a0d99-3ca1-4797-a349-33c33f56e529)
+
+* At the beginning
+* Time Complexity -> Theta(1)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5397801-2a0a-473d-83c4-74052f4b0f29)
+
+* After a given node
+* Time Complexity -> Theta(1)
+
+> In linked list insertion, always update/add the links/pointers of the new node which is being inserted
+into the list first then change/modify/update the existing links/pointers in the list. Othewise we will
+loose access to the already existing links/pointers in the list. Sequence is important otherwise we
+will loose access to some nodes in the list.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/658af2d8-6c07-4a34-a133-288d4eed9516)
+
+* Before a given node
+* Time Complexity -> Theta(1)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8c4e58af-e966-4de9-9de1-a5b02b6ad051)
+
+* At the end when address of last node is given.
+* last -> Address of the last node.
+* Runtime complexity -> Theta(1)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c709bb0d-940f-4565-8c18-784d78f482da)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e92b1fb-b9a5-4d21-a538-544aa53a0c82)
+
+* At the end when address of last node is not given.
+* p = n;
+* It is not needed **necessarily** as **p pointer** is a user generated pointer anyways.
+
+### Insertion in doubly linked list
+
+* At benginning -> Theta(1)
+* After a given node-> Theta(1)
+* Before a given node-> Theta(1)
+* At the end when address of last node is given -> Theta(1).
+* At the end when address of last node is not given -> Theta(n).
+
+## Deletion in Doubly Linked List
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2424cd41-5363-43c1-a93b-a3f4b09dbba3)
+
+* First Node or Beginning.
+* Runtime complexity -> Theta(1)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/554fb464-f134-483e-abd2-31806b5e34f6)
+
+* Given Node
+* Runtime complexity -> Theta(1)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e6b76a8-ff48-4255-a79e-db2f2f41d666)
+
+* Last node, when address of last node given.
+* Runtime complexity -> Theta(1)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/981b237b-c921-47ac-8b11-22a7bc24d29f)
+
+* Last node, when address of last node is not given.
+* Runtime complexity -> Theta(n)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d66d237a-b98f-46d1-9bed-06d9b0b40533)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d31e95bb-0827-4dbd-90f1-cb9ce55affc0)
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/AAB92BA2E1
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c258de9a-7bfc-4bbb-83c0-d4ffad8476b2)
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/AB7ED031BF
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7291d634-d3e0-4817-917d-aaf77009962b)
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/D0BBB518A3
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a748d710-6508-4e0a-a1e1-56f7314a6c0d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/993fb772-54e6-48c9-95ff-0cce89bef8cc)
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/F61BECE127
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d603d333-d092-4ca4-9edf-1a78a44fe94d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63b0ee6c-9e84-43f5-87f0-1ec199b51c58)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c2cc594-84e6-43d7-b418-6ad4c270af22)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/11b5cb28-199d-4cb0-b747-905ffba73475)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9fe42e1b-fed0-4ef2-99a5-abd94c13067f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81950173-b5c8-4ddc-b292-8cca52781b2c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/13f2c735-358f-4e8f-b205-dcd10881fc4a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2070acfa-99ed-408c-a4ee-daeca0553551)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b597c93f-4681-4f01-b9af-264649e64869)
+
+* [**IMPORTANT**]
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/B34C5792C4
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5c93d7c6-4cde-421f-81fa-556630606ff7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db5a64da-863a-492a-975f-4f7f3aaeeb87)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/84ade7b5-1cc3-4f3b-9e93-f4aed66606ec)
+
+* Solution
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5f97bd71-9d92-4673-878a-18cefb3539bf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f46bfdcb-d54b-4ea8-9bb1-48aa350f32b8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/61f1bc8b-c992-4b96-aa47-ee2c96209fc8)
+
+* Solution
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6f58760-4ee3-4c2f-98c0-bd37ec7fbb4d)
+
+* Solved Earlier Check.
+* **PDF 28** has **Linked List PYQ questions**.
+* The solutions which I did are in **DS and C programming notes** page **175**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/43ba760c-eb14-4dde-9465-6b927bc97e54)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89671cc5-6ea3-4a67-8f1e-9c2a8294be30)
+
+
+
+
+
+
 
 
 
