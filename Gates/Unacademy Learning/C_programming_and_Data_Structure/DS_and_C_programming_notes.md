@@ -3322,20 +3322,18 @@ if n = 10, then position = 8(2^3)
   #include <stdio.h>
 
   int main() {
-    char str1[]="Madeeasy";
-    char str2[]= {'M','a','d','e','e','a','s','y'};
+    char str1[]="Madeeasy"; //String
+    char str2[]= {'M','a','d','e','e','a','s','y'}; //Character Array.
     int m=sizeof(str1)/sizeof(str1[0]);
     int n=sizeof(str2)/sizeof(str2[0]);
     printf("m=%d, n=%d\n",m,n);
     printf("%d\n", sizeof(str1)); // length of array + 1. since it is a string
-    printf("%d\n", sizeof(str1[0])); //sizeof of character
+    printf("%d\n", sizeof(str1[0])); //sizeof of one character(Char) is **1 byte** only.
     printf("%d\n", sizeof(str2)); // length of array. since it is a character array.
     printf("%d\n", sizeof(str2[0]));
     return 0;
   }
 ```
-
-
 
 ## Recursion in DS (37) [23 Jan 2023]
 
@@ -3369,6 +3367,7 @@ if n = 10, then position = 8(2^3)
 ![image](https://user-images.githubusercontent.com/54589605/213985691-d8ffa948-5d3d-4d26-a6da-3d61d05634b0.png)
 ![image](https://user-images.githubusercontent.com/54589605/213985718-885483c1-fd2a-4b69-b55a-08bd526f4731.png)
 
+* Tower Of Hanoi Formuals.[**IMPORTANT**]
 
 ### DPP 9 from *37_Recursion_in_DS*
 
