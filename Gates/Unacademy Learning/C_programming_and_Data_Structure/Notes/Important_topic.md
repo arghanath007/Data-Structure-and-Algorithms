@@ -705,6 +705,13 @@ mentioned in image 3, underlined with color. This is how it is happening.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2e533288-7451-4fe5-9b31-dec55fce4899)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9774da0-5993-4634-acd5-eb2bc07ea685)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e0f76572-d812-4886-878d-de60f807c159)
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/71DB154857
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d3800fd-5af9-478e-a16a-8e08a3ad290f)
+
 
 
 
