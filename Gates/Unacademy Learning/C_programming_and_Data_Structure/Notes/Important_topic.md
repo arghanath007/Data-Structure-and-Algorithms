@@ -909,15 +909,77 @@ mentioned in image 3, underlined with color. This is how it is happening.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c3be91d-ce30-453d-8a82-de45b490827a)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f8e693c-5f86-42fa-8dfe-4eb9a029f577)
+![image](https://user-images.githubusercontent.com/54589605/214226632-39b05234-2cc4-47ca-8549-4973f6a20878.png)
+![image](https://user-images.githubusercontent.com/54589605/214226694-a3603350-7a2a-41d7-beca-4de09da049b2.png)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4cc2fd3e-bf26-4fb1-b6a5-2699b5f747b2)
 
-* m = 9, n = 8.
+* m = 9, n = 8. [Explained above]
 * Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/BC08C292D8
 
+## Recursion
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c29263ac-f8ae-4aa6-bd88-c80b11aec543)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e65306da-b4f8-4e13-ab23-58a1b994d914)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e0d24079-db59-4267-b565-c15158f1446a)
 
+* Example
+* No. of function calls(Invocations)
+* No. of additions.
+* Formuals.[**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e670c7c-8fb3-407b-ab43-73f2252d16ef)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dae0833f-cd6b-4a09-9e44-7a72bed91f61)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2bcd3c67-df1e-41d4-9b1a-982e3f20b7e8)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/052ae166-ce92-4972-9ada-afbf2902fee7)
+
+* Code for the above **question**.
+
+### Tower of Hanoi
+
+* Runtime complexity -> Theta(2^n)
+
+### Algorithm
+
+![image](https://user-images.githubusercontent.com/54589605/213985691-d8ffa948-5d3d-4d26-a6da-3d61d05634b0.png)
+![image](https://user-images.githubusercontent.com/54589605/213985718-885483c1-fd2a-4b69-b55a-08bd526f4731.png)
+
+* Tower Of Hanoi Formuals.[**IMPORTANT**]
+
+## Tree
+
+* Degree of a node -> No. of children of the node.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8576ceb0-7676-429c-b432-b70c0fd6092c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f081134-abfb-4e14-b8f2-36fa20bc5d60)
+
+* Formula [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/14068d50-291f-4bf8-bcf7-ff9327c0a25c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9042cdfd-266c-4d5e-9b71-905b61c06134)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0dcac6f-76ad-4001-9f23-df5c118b43d9)
+
+* Finding **Min and max** no. of nodes in a tree.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c15f7850-700d-4ee3-8786-f47cf9ca3e87)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/041ad046-beac-479e-bb95-09234c798e37)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85450be8-46cb-436b-bc56-da4da456e70e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/390c2d5b-a509-4af5-bad8-e33607d70bb7)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/163a1b38-838a-499f-95be-f240ed66e762)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b72f9ee-9649-407f-af5e-f190f8daa31e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3308b81-cb2e-4487-a558-a6fb69b46370)
+
+* Unlabelled Nodes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e74d8164-6b91-4606-851d-c42e00d1e234)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4462ff78-cefc-491f-925a-84b424d70bea)
+
+* Distinct Keys.
 
 
 
