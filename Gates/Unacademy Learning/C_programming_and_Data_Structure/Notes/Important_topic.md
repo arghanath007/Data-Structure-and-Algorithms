@@ -865,16 +865,53 @@ mentioned in image 3, underlined with color. This is how it is happening.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/384b4ed6-ddc7-434d-8451-adf8dcffd77e)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/afe39171-45dd-45ea-a56b-28b87decc029)
 
+## Expression Conversion
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed0de017-7c74-4ef6-b769-54fa9799533f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/775aa53f-79b9-4c9a-a176-a94f79d3d71a)
 
+* Infix to **Pre and Postfix**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cec561cf-c253-4720-9514-0c09ba2bbc4d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd2d4d52-8466-43d1-a26b-ba1b596b9489)
 
+* Postfix to Infix
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9be621cc-fa4c-4116-ad31-18ea800ab97f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fec7a59e-0c2f-406e-b6f7-8c4d821f50b8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0de04e63-ce63-478e-8d9c-6544661e6376)
 
+* Postfix to prefix
+* We can either do the conversion directly or do it in steps. Like convert first from post to infix and then from infix to prefix.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8fc9c1c1-5410-4f9b-80f1-4cae955a2f15)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4dbe07c8-2edb-404f-9c3b-0eb97e08e185)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91e25250-627a-442f-826e-558204d840cd)
 
+* Prefix to infix
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/84077d18-820a-4d54-9577-2c057d5d4523)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d49afb29-dcbc-4139-b5cd-e2675ff13746)
 
+* Prefix to Postfix.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b75118d-6755-4607-a2e0-2e12e2591d5e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c014433f-4a99-455c-bc61-304b38091f3f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/efdfa3fd-dabd-4126-a751-64378bc63acd)
+
+* Question **5** [**IMPORTANT**].
+* **-b** is the **unary operator**. Solve it **first** before the **binary operators** as **unary operators** have **higher precedence** than **binary operators**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f398852-3977-4109-882c-0cc86c41756c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa2acaf9-2fdf-4861-9629-b28607d0b512)
+
+* [**IMPORANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c3be91d-ce30-453d-8a82-de45b490827a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f8e693c-5f86-42fa-8dfe-4eb9a029f577)
+
+* m = 9, n = 8.
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/BC08C292D8
 
 
 
