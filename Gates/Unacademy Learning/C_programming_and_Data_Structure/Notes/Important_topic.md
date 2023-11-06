@@ -665,11 +665,52 @@ mentioned in image 3, underlined with color. This is how it is happening.
 
 ## Stack
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/62e50999-3b69-4a4e-b25a-c009c4af997d)
 
+* Push
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d5e7dc5-0855-4dc7-881b-35aac59691e3)
 
+* POP
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7145c108-f950-47a3-b3a9-b4f476a21c2f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44fbac9b-7dd5-42a6-a31b-e538a8ebed28)
 
+* Stack using Linked List.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/967ecb57-4fdb-421a-b584-8b428e0cc39c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/359d71f3-1b3b-4feb-b93c-2596da9ff48a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1e98af8-97d3-4aa2-a958-4bf6d0d0e035)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bd8f7244-4a45-4405-b320-c815983c00ab)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bfd94b5c-8e84-4515-a25d-0509db4da906)
+
+* Formula
+* Total permutations -> n! 
+* Catalan Number -> No. of Valid Permutations -> (2*nCn)/(n+1) [For 'n' elements]
+* Not valid -> Total - Catalan Number
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a16b1621-d26d-4d1c-887b-f6103a2026a0)
+
+* Example
+* Stack Permutations -> The different ways or different orders in which we can pop out elements from the stack.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d73c01d-a646-4321-8864-93d4e777950d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d215f44a-2c8f-4939-8b6a-d22324b7920c)
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/C43A5E8F09
+* Option "D" -> Strictly Decreasing Order [Answer].
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2e533288-7451-4fe5-9b31-dec55fce4899)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9774da0-5993-4634-acd5-eb2bc07ea685)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e0f76572-d812-4886-878d-de60f807c159)
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/71DB154857
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d3800fd-5af9-478e-a16a-8e08a3ad290f)
 
 
 
