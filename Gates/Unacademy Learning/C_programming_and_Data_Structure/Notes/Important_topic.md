@@ -703,6 +703,10 @@ mentioned in image 3, underlined with color. This is how it is happening.
 * Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/C43A5E8F09
 * Option "D" -> Strictly Decreasing Order [Answer].
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2e533288-7451-4fe5-9b31-dec55fce4899)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9774da0-5993-4634-acd5-eb2bc07ea685)
+
+
 
 
 
