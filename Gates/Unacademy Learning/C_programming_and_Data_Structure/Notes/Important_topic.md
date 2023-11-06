@@ -981,14 +981,71 @@ mentioned in image 3, underlined with color. This is how it is happening.
 
 * Distinct Keys.
 
+## Tree Traversals
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/47d32350-b704-4b75-a52f-90e443eed2de)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e188e12a-f20c-44c8-a6b1-c6f2afc8e38d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d611b06c-9bbf-4246-8d94-ae9526372958)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c64690d8-3ddb-46bd-a397-133cf21d0fdc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d532a0b2-50dc-4a2b-bbfd-4880cfee21a1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac0b1cf8-bee6-4dfc-b922-284c0754efc1)
 
+* Dot Method.
+* Conventional Traversal -> Left to right
+* Converse Traversal -> Right to Left.
 
+> Conventional Traversal -> First symbol of preorder traversal is the root of the tree. Last symbol of postorder traversal is the root of the tree.
 
+* Reverse of converse preorder traversal -> Conventional postorder.
+* Reverse of converse postorder traversal -> Conventional preorder.
+* Reverse of converse inorder traversal -> Conventional inorder.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ee1602a-7102-493b-b35f-1654947bf4bb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/87915174-2b09-41dc-9d09-a11a92971634)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58dbc455-b539-455d-a930-a0613bdc96d0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/254d3dc7-22f3-4f86-84b0-62f08fd5bb2e)
 
+* Max and min height of a tree with **n** nodes.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d768dc8-bd59-4d31-a846-af58827b6ed2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/53f820d1-9295-4817-b76a-9eb916e55d27)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba6b2ae1-6178-410f-a8ab-0523a1892e55)
 
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/B3B38A08BE [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0bbbf39-de1d-4c7c-8748-b8f5ed1c2a6c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df5ce576-58b9-400a-855e-e67e291537a3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92c208ed-5ab3-48d4-96f5-4f8d442bb1b4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3f2054d-ed69-4091-bc36-cd36cf87a6a7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d57b6d4-b275-4cdd-b9ab-a1d20a3bd2e9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27e760e8-aba7-4627-adbe-c6d9ce86aa9d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ef111fa-a9f2-4e90-8ce4-52e4b7b43fbd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8515fc93-9582-4f90-b874-6816d2575156)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b054e94-fc95-4c82-8633-2f00be664188)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/468f12e3-a7e8-45a2-8a1d-427c4a76e59f)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ea8ca66-4d17-47e5-a2ea-0b8355b06848)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/70b3c30f-be99-4a5f-a03e-bfcfd9aa0985)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/00ca9286-9a09-4178-b925-9c3861325267)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed63938e-151b-4627-9131-f8fe5d95c126)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24466b44-22e8-4c13-add9-84b42aa3e2ca)
+
+* Tree Construction.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b2ea9043-9a97-4f26-bb27-15318ae08c7a)
+
+* Condition.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4bba7f2a-ba06-41d4-b5f0-c50c89b91331)
+
+> Got one of them wrong. Should be like below.
+
+![image](https://user-images.githubusercontent.com/54589605/214589897-7af3ca55-2d05-4a77-990f-0a21d2c74927.png)
+![image](https://user-images.githubusercontent.com/54589605/214590416-3daea8fb-a6b3-424e-b828-15cb8d84cbd9.png)
+
+> In post-order we do, Right->Left->root(RLn). So as *7* is not between *3* and *4*, hence it is not the right child of *3*.
 
 
 
