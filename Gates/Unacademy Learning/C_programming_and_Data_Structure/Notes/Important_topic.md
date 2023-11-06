@@ -711,6 +711,181 @@ mentioned in image 3, underlined with color. This is how it is happening.
 * [**IMPORTANT**]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d3800fd-5af9-478e-a16a-8e08a3ad290f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a871888-cda5-4a13-91c0-d3dbcc686353)
+
+* Solution.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e922b54-6d73-42c5-8e07-55eb3aade338)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bfb69b7e-5f83-4ee0-8228-2d1cc915077d)
+
+* We found the fastest horse.
+* How to find the 2nd fastest horse now?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d003ebf-e54a-4b58-b53d-a1856cddfb5c)
+
+* We have to do one more race.
+* We take the 2nd place horse from the **final state** and we have to go to the group from where the **fastest horse** came and we have to take the 2nd fastest horse from that group.
+* Between these **two horses** do the **final race**. Among the two whoever is the **winner** is the **second fastest** horse.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a040c780-a52b-49c3-b63c-a693b3717001)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/29f2e945-de50-44ab-9a0a-a19d02f67efd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/55ad86a0-b7d8-451a-b543-5ed4754a8ee8)
+
+* Example.
+* We have to do one more race to find the **2nd fastest horse** after finding the **Fastest horse**.
+* Do the race between the **2nd horse** we got from the **final state** and the **2nd place horse** from the group where we got the **fastest horse**.
+* From this race we will get the  **2nd fastest horse**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d659d46e-95e5-414f-829a-84529d809247)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2163908-6cb6-4028-a058-9f16a327ae0c)
+
+* Total no. of races -> 7 races [Answer].
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7dfb24c-8c84-44dc-95dd-76a78814c680)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/da4f6a0a-c8ec-4482-b682-082c6f5e6296)
+
+* Question-> We have to find the best two horses among the **25 horses** given. No stopwatch is given.
+* Interview Type Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d498c7d6-7c28-45ca-8cb9-2a8d0b08cb60)
+
+* If **n** is **odd** then **Ceil()**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/096698b7-cc51-443f-9422-cfd41eeb3d27)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/517837db-b57f-46ea-8369-0da9c5f618d5)
+
+* We have **10 opponents**.
+* To eliminate **2 opponents** we have uses **2 efforts**. **2 constants efforts**. As soon as we eliminated **2 opponents**, **1 opponent** is added back. So total efforts is **2 + 1 -> 3**. **1 effort** is for the addition of the **1 opponent**.
+* For the total of **3 efforts** only **1 opponent is eliminated** or to **eliminate 1-opponent** we need **3-efforts**.
+* The **1 remaining opponent** is an **exception** because only **1 opponent** is left so to eliminate it we need **1-effort** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3425985f-5102-49c6-8c05-fae8cc2ae7cd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83c1d93f-1419-430d-9f3b-79d82139fa67)
+  ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a5f237e-bf76-4f8d-8ebd-67e90befbffc)
+
+* So it is **3 * (n - 1) + 1 -> 3 * n -2**.
+* So the asymptotitc notation is **O(n) or Theta(n)**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7172dd1f-6516-4032-8254-92477a6b107b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8c8d403-9fc7-4383-8084-13a78a643e1c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee35f182-bd66-4164-bb80-b77270f65d37)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/56a03981-766b-4918-a21f-eaa718482ac1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/79a9649f-70fe-4793-8fb5-fe2dca74904a)
+
+* Explaination.
+* Needed to take an **example**.    
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6aa7376a-d72d-474d-b295-7317737cec1c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/64a46add-f820-4643-888c-1d9929d3791a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22a4c728-fed3-4460-85e6-806f2d419a71)
+
+* [**IMPORTANT**]
+* Formula needed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9eebecd0-9a7d-486e-ac5b-bbe5d25267b2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b409403d-184a-4d1c-8bfd-92e02916bf53)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09866195-8b76-4d32-a8c7-7696ed49cf3e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b7a6768-4c9a-4a2f-b0ee-1ee6c44363f3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/06d3f541-b7b1-4731-89e0-3b193fe8ddc0)
+
+* [**IMPORTANT**]
+* **PDF 32** Questions are **IMPORTANT**. Practice them.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dbdf5830-60ba-4e07-9a92-ffd0878b3fa8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a54a25fb-981b-4420-b876-05c8ea1225b9)
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/E4F85EA5FC
+* Two -> Option **B**. [Answer]
+
+### Question on **Implementation of queue using stack**
+
+![image](https://user-images.githubusercontent.com/54589605/213703623-01a7eaea-9512-47e2-8dd9-24710da198b6.png)
+
+### Worst case
+
+![image](https://user-images.githubusercontent.com/54589605/213703671-48d6c5f5-a77b-4aa9-b801-2b9ce3d294f2.png)
+
+> We are inserting all of the 'n' elements in 's1' stack. After insertion into 's1' we are popping all of the elements from 's1' and then inserting/pushing them into 's2' stack. After that we are deleting only the 'm' elements out of the 'n' elements in 's2'.
+
+* Total insertions -> n + n = 2n
+* Total Deletions -> n + m = n+m
+
+> In insertion, we are performing 'n' PUSH operations to insert/push the n elements into s1. After the popping from s1 we are doing n PUSH operations to insert/push the n elements into s2.
+
+> In deletion, we are performing 'n' POP operations to delete/pop the elements from s1. We are performing 'm' POP operations to delete/pop the elements from s2. 
+
+### Best case
+
+![image](https://user-images.githubusercontent.com/54589605/213703711-bcdaa296-02f3-42af-ac2f-240499ea66c1.png)
+
+> We are firstly inserting only the 'm' elements into s1 stack. From s1 we pop the 'm' elements and then we push them into s2 stack. From s2 we pop/delete the 'm' elements. Then we  insert the remaining/rest (n-m) elements.
+
+* Total insertions -> m + m + (n-m) = n+m
+* Total Deletions -> m+m=2m
+
+> In insertion, we are performing 'm' PUSH operations to insert/push the m elements into s1. After the popping from s1 we are doing m PUSH operations to insert/push the m elements into s2. At the end after all of the deletion/pop in s2, we are inserting/pushing the remaining (n-m) elements into s1 stack.
+
+> In deletion, we are performing 'm' POP operations to delete/pop the elements from s1. We are performing 'm' POP operations to delete/pop the elements from s2.
+
+### Conclusion
+
+> We are saving a lot of PUSH() and POP() operations in *Best case* by just taking the 'm' elements instead of the whole 'n' elements. All of the PUSH() and POP() operations of remaining (n-m) elements are saved.
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f61d4ed1-993f-42e6-85f6-c6270cac8600)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f834b02-d251-43b5-9103-7ca5d15e9090)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b10ee16-1f43-476f-9ca9-aa55e138365a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf7b1c0d-4862-43f6-a747-e2254e4d7c07)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e55931cc-f3c6-4673-a84c-8f4bbea0012d)
+
+* Option **D**, **Y + 2 * X**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c742b0ef-ae19-43e4-b191-a10059b34ba8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58c64e5e-92b1-48e2-98c5-452e5b1d8727)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/017b1c23-542d-4e9a-a2cf-34fed4fcada4)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/56d4fff6-41de-4bd6-9350-545de456d6b5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa5e66dc-5df4-4bd7-a45a-ca3c93cda52a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f6935d3-636c-47cf-9972-4a14f346a21e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/06c55f7e-c3f7-410b-8020-cad8ea04f61e)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c295a0e-b6ae-4ea8-abf1-144ef0e518bb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d30b46c-379a-49ab-9906-44c1f24bcf85)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c3439e18-3c35-4333-a6ba-120402685989)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e8b9686-65ef-442e-9bd6-7847a3c8d5a6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/384b4ed6-ddc7-434d-8451-adf8dcffd77e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/afe39171-45dd-45ea-a56b-28b87decc029)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
