@@ -3745,9 +3745,9 @@ if n = 10, then position = 8(2^3)
 
 * If *pre and post* order *can* provide a unique binary tree?
 
-> True. [**Condition Applied**] [Alawys -> False] [Can -> True]
+> True. [**Condition Applied**] [Always -> False] [Can/Maybe -> True]
 > The condition is that every node much have either **zero(0) or two** children. There should be **no nodes** in the tree which have **one or single** children.
-> If this type[above condition making] tree exists. If the *pre and post* order are given for that tree, then we can construct a **unique** tree from that *pre and post* order traversals.
+> If this type[above condition making/satisfying] tree exists. If the *pre and post* order are given for that tree, then we can construct a **unique** tree from that *pre and post* order traversals.
 
 ### Question on *Construction of tree using traversals*
 
@@ -3768,7 +3768,7 @@ if n = 10, then position = 8(2^3)
 ![image](https://user-images.githubusercontent.com/54589605/214589897-7af3ca55-2d05-4a77-990f-0a21d2c74927.png)
 ![image](https://user-images.githubusercontent.com/54589605/214590416-3daea8fb-a6b3-424e-b828-15cb8d84cbd9.png)
 
-> In post-order we do, Left->right->root. So as *7* is not between *3* and *4*, hence it is not the right child of *3*.
+> In post-order we do, Right->Left->root(RLn). So as *7* is not between *3* and *4*, hence it is not the right child of *3*.
 > In the above image, we will get *4* variations as there are nodes with single children. Hence it is not clear that those single children should be *left or right* child of the node.
 
 ## Using *Pre and post* order traversals to construct *unique binary tree* **Important** (41)
