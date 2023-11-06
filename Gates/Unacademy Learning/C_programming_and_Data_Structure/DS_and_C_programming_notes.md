@@ -3076,7 +3076,7 @@ if n = 10, then position = 8(2^3)
 
 > Both of the stacks start from the opposite ends of the arrays or two different ends of the array.
 > Here, we can perform insertion as long as we have empty space or free space to store new elements in the array.
-> Space utilization is optimized than *method 1*.
+> Space utilization is **more optimized** than *method 1*.
 
 ### stack one(1)
 
