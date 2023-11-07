@@ -1,4 +1,4 @@
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9d4a676-9830-4b47-824b-6eb5fd6069f0)# Important Topics
+# Important Topics
 
 ## Note:-
 
@@ -1503,4 +1503,6 @@ right child can be present as well that doesn't matter. Then that node's data is
 
 
 
+# Misplaced
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9d4a676-9830-4b47-824b-6eb5fd6069f0)
