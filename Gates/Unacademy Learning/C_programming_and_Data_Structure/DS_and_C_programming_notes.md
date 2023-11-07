@@ -3798,6 +3798,9 @@ if n = 10, then position = 8(2^3)
 > This is an example of **Pre-order** traversal.
 
 ![image](https://user-images.githubusercontent.com/54589605/214609085-b068a08d-92b9-4c81-8310-ff7cceb94408.png)
+
+* This is the condition for finding the **leaf nodes**.
+
 > This is the processing part of *root* node. We are processing/executing some logic on the root node(n).
 
 ![image](https://user-images.githubusercontent.com/54589605/214609318-2bc7a893-fbbd-4c7a-a5bd-0974c167b2c4.png)
