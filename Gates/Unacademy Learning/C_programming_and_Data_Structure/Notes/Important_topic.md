@@ -1180,6 +1180,148 @@ mentioned in image 3, underlined with color. This is how it is happening.
 
 * K-Ary Tree Formula.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/54adb1e0-7e07-4e5a-bf95-63bfdca4c37f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dda1de81-7eb9-4747-88d8-10f52a855de5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2e97f4c5-5c49-4506-afc8-c28e612eeb5a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dcd9c73d-f3d1-4bd9-a74c-2409cdacf08e)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/75a26c5c-0c98-44d8-8bc7-d633f8315e2d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8daf978d-189d-4528-b00e-ae2452de6f8a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f2141de-8bed-4b9f-8de4-0d9e86130211)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/29300058-db59-47b2-b510-bd218f97e7d3)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef722859-6013-42ea-affc-4169131bb659)
+![image](https://user-images.githubusercontent.com/54589605/215473274-8be10813-d743-4051-90ef-6b632518f093.png)
+![image](https://user-images.githubusercontent.com/54589605/215473349-7ed66e1a-1130-4dfa-80c5-2d1f03884557.png)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a65fa62d-4a22-44b8-9b46-f08e6bf2e9d1)
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/4716FB369B
+* Try and solve it using an **example**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b7fc5ed-e4aa-4033-b583-fe672e5ab0f0)
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/CE3E11A0DD
+* Use the formula
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7844199-f1f8-4e3d-b9be-10e2df234987)
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/B705FB1630
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7422e6a-a357-4c07-931d-7220938f06c6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98de9453-c598-47fa-a009-96c735cf0279)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/529ac1e7-94cf-456f-9065-9e58057136aa)
+
+* Trick -> Use **Dot Method**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0a557c7-c4c1-43b3-9b0d-fb8a6880ea33)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19830f7f-e126-410f-b420-91c09c8c0f8f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b61c434-9cb8-4991-9394-212f58711a81)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/648caabb-b2e0-4e1f-ab84-a0122b27bfe7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c68f94ec-3960-4cca-a1ba-baaa9114e2dd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/68c81e57-501f-4109-bc95-fcb8ba8bd373)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a4e258f-327e-439e-adf5-adaa3e48719a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5ec96fe-c96a-446f-a390-a6ca79c2431d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/45c5c6d8-5ac3-4feb-a52d-1575c015ce61)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b3e25853-2b77-4e7b-b9c9-6e3057b0e9dc)
+
+* Solution
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/67e2c044-0ab1-421a-9573-6862716897e1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b862343c-02a2-4dc4-a02f-51b23a2362fa)
+
+* BST construction
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4cf0207f-abec-473a-b564-80c6e2609eb6)
+
+> Go to the left->left->left as long as we don't find a node who's left child is empty or not present,
+right child can be present as well that doesn't matter. Then that node's data is the minimum of BST.
+
+* Finding Minimum value in a **BST**.
+
+> Go to the right->right->right as long as we don't find a node who's **right child** is empty or not present, left child can be present as well that doesn't matter. Then that *node's data* is the **maximum** of BST.
+
+![image](https://user-images.githubusercontent.com/54589605/215524979-2bcf875a-3e8e-42c2-865a-16533adf97fb.png)
+
+* Finding Maximum value in a **BST**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e830e461-fb02-401b-81cd-0045512a3a86)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d391411-d3e7-49f6-ac2e-ba0fe5594cb5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/447659cf-7b75-4fd7-a1fb-75caa8b39df3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7fed07cf-b47e-4ca8-8fc3-46f7bbd30ce8)
+
+* BST Construction.
+
+> If we take the **Inorder** traversal of a BST then it will be (left subtree-> root-> right subtree) smaller values->root->larger values.
+> Hence, if we take the **Inorder** traversal of a BST, then it will be in **sorted order/sequence** of **ascending order**.
+> **Inorder traversal** of a BST is a **sorted sequence** in **ascending order**.
+> **Converse Inorder traversal** of a BST is a **sorted sequence** in **descending order** as it is the **reverse/opposite** of **conventional inorder**.
+
+> We can directly **construct** a BST from a **pre-order** traversal because in BST, the left subtree elements are smaller than root and right subtree elements are greater than the root. We have to insert the elements from **left to right**.
+
+> Pre-order -> **root->Left->right**. Traversal is from **left to right**.
+> We know the left most element is the **root** of the tree. Hence, we will traverse all of the elements from **left subtree** then only will go to **right subtree**. After we have gone to the **right subtree** we can't go back to traversing **left subtree** which is **wrong**. First traverse the whole **left subtree** and then come to **right subtree** which is **pre-order** traversal.
+
+> Post-order -> **Left->right->root**. Traversal is from **right to left**.
+> We know the right most element is the **root** of the tree. Hence, we will traverse all of the elements from **right subtree** then only will go to **left subtree**. After we have gone to the **left subtree** we can't go back to traversing **right subtree** which is **wrong**. First traverse the whole **right subtree** and then come to **left subtree** which is **post-order** traversal.
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/28f0a940-b1f9-4b60-9e2f-2a8c887d6925)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1bc4124e-b572-4954-9991-1b669fca09af)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf49189a-3814-45bb-89a2-4700f7aacb99)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f03d9430-b1a2-49c1-9237-a9a7be68a5cc)
+
+* Example.
+
+![BST_1](https://user-images.githubusercontent.com/54589605/215524198-5268d132-72f5-470d-8406-8887610ec4d2.jpeg)
+![BST_2](https://user-images.githubusercontent.com/54589605/215524225-01079dbd-363b-4a2f-afc8-5bb41326a27b.jpeg)
+![BST_3](https://user-images.githubusercontent.com/54589605/215524234-237ba913-bdd4-42e4-8d51-50e82f79fefb.jpeg)
+![BST_4](https://user-images.githubusercontent.com/54589605/215524267-e8e47e4a-955e-4cbf-9cd1-c8932be1aedc.jpeg)
+![BST_5](https://user-images.githubusercontent.com/54589605/215524286-55507edb-19e2-4515-aafa-ce272433986e.jpeg)
+
+### Question 7
+
+![image](https://user-images.githubusercontent.com/54589605/216317637-977c8b60-3bbf-4380-bc35-2ec6907ad7c5.png)
+
+> In *48_Doubt_Clearning_Session* PDF file Page **7** question, if they had asked **How many number of levels in the tree?** 
+
+* **How many number of levels in the tree?** 
+
+> **3** levels (Ans)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1b591c7-905e-45f7-9741-bdf65d7001c4)
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/24AC824735
+* Element at the Lowest Level -> 67 [Answer] 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0343657-70d6-4967-89cc-cad4c0839c6b)
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/996FF92255
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b789d4f-384c-48cf-80ba-8c79c62742f7)
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/2406CA7232
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/42d3756a-2ff3-4f52-b0e5-b84cc1daa3ba)
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/6B14068263
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1aa24026-997f-40b9-8d92-32c0f55604e4)
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/95E34CBC69
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a842895-9f3f-4138-a7f4-448afc44e85d)
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/52E1399564
+
+
 
 
 
@@ -1361,4 +1503,6 @@ mentioned in image 3, underlined with color. This is how it is happening.
 
 
 
+# Misplaced
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9d4a676-9830-4b47-824b-6eb5fd6069f0)
