@@ -1047,6 +1047,152 @@ mentioned in image 3, underlined with color. This is how it is happening.
 
 > In post-order we do, Right->Left->root(RLn). So as *7* is not between *3* and *4*, hence it is not the right child of *3*.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/25563e39-4ba1-4740-8d2d-ddf392f7dcca)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3afb779f-2d6e-42ba-ac31-57a68bac0535)
+
+* Doubt
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4bf49e8e-4695-43e1-beaa-9b918d17014e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b19bb1e6-018b-4ddf-af40-eea1ec88cffe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db167497-d23f-46d1-8f1d-ae8a543d35f4)
+
+* Example if **Zero(0) or 2-children** are only present.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b4acc719-b42d-4d6a-a8a7-8e0ba4884469)
+![image](https://user-images.githubusercontent.com/54589605/214605000-b2ce047d-a552-447a-b6a0-2e8dda0ea7ba.png)
+
+* Here we are counting the no. of leaf nodes in the *Binary Tree*.
+
+> We have to understand the conditions and have to reach the *base condition/case* of the program to be able to find out what is the program is trying to achive running on a *Binary Tree*.
+
+* For the above question and in general
+
+> The main **funda/logic of recursion in binary tree** is that if we have reached the *base condition/case* of the program and then we have to finally return a value(which is value=1 here), otherwise if we haven't reached the *base condition/case* yet then **count** from *left subtree* and *right subtree*.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a255794c-1af9-441f-9722-feb5057ebd8c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1aba43a-12e3-4198-8df7-13496719cacf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee2bbe63-1d92-41cf-9303-fa3a80520def)
+
+## Height of Tree
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b03361d5-689d-44c4-ae09-1080308811b4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35d2c64e-832f-46f6-8864-b539de4e65c1)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/981dd087-d015-4b15-801d-b0d3498be1ba)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7429192-9e6f-4a01-a525-400c459a3d9c)
+
+* Mirror Image.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1a62789-16d4-4d5c-90af-8b997615cd66)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/607e081d-5ce3-4d31-a27d-f88a65d8735a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44d40f4d-2ac9-4839-a8cf-37a075769a16)
+
+* We can solve them cleverly using **Dot Method**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5eb78626-9ffa-45bf-b0e4-65bd67600322)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/08653bc2-376c-4272-b6f4-7d0e5dfb07bb)
+
+* **Pre and Post** to draw a tree [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/96231f34-517d-458f-b03f-0e45d209df56)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/29e71ce4-41f3-4264-923e-697859a55f88)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/957e55f1-0df5-4bf3-bdfa-44f56a5eaa83)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/753dae4a-9165-4140-b3c9-0bc96212747e)
+
+### LeftMost Child Right sibling Representation:-
+
+* So that we can store the **general tree** like **binary tree**.
+* If root's child is there then it is on the **left side**.
+* If root's sibling is there then it is on the **right side**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d89200d-0687-4315-b08f-cdccd0f63456)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d7693f2-d369-42f8-874b-4903875af44a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e286f76c-87b9-4bc7-bd86-cc1b54237f44)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1f579b6-ff56-4e93-91c7-ca1fdc60e087)
+
+* In **general tree** there is no concept of **left and right child**. That only happens in **binary tree**.
+* In **general tree**, child is child.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d7110ebe-417a-4a3b-9424-255fcfbf4e9d)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/983cad59-5049-4219-8de6-1f42daf26e1a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5c8146a3-2843-4b42-943a-37d6ebae1c7f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/14111f80-13f7-4551-b984-3d07f534d001)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a0d74b4c-5fbc-4420-be3a-46511e8b8336)
+![DPP_solutions_Tree_27](https://user-images.githubusercontent.com/54589605/215255849-046de82b-6b96-4d10-964e-1c4dfb613f33.jpeg)
+![DPP_solutions_Tree_28](https://user-images.githubusercontent.com/54589605/215255858-42fbfedb-47c8-41da-b58e-fb5396c00d0f.jpeg)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/546c5e94-c9f6-48f5-b38e-d74a6658695d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8155dc57-847b-4ded-a166-e6db67f745f8)
+
+* Last two(2) problems with **pre and post** order expressions. [**IMPORTANT**]
+* Preorder -> Right to left
+* Postorder -> Left to right
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/892f420f-a3ef-44fa-8346-d134b7a4b1ce)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ec76c5c-9647-4cf5-9283-690bbf11c17e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/49b94c9b-a36c-4912-9465-01777c5f72c1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/61d99f7d-478d-4790-9d3c-d95be5fb27d6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2018b9e-9662-480f-99a8-6f143f8f0840)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9234ac18-50a0-4f70-a443-fafd033936c5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/402047e7-e82e-4c14-af3c-c32998007215)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dce16477-cda7-4856-9437-f1edd4dff7c6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5224ec7c-ed07-4208-ac52-23cd6fa46cf7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/51e393af-0627-499a-a5e7-c387d69d17d9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/031941e8-9d5f-4e1d-8234-77341006ce76)
+
+## Complete Binary Tree(CBT)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a717f133-5b45-43ab-ae51-0e42e550524d)
+
+* **Max and Min** no. of nodes in a Complete binary tree.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0685fae9-c995-4b7d-8291-a74fd08f2b95)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/942727a3-12af-427a-a8ea-6ef99d3ada04)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e67e1341-8f88-49e6-bcda-b105dea893c7)
+
+* Array Representation
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b7dc7d8-6dd7-40b2-8c0e-368d3a817032)
+
+## Full Binary Tree
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3b269e83-01bf-47c3-abae-3eeccc0435ac)
+
+* Binary Tree
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63c31029-420c-45a3-8fbb-5600b31c6b1a)
+
+* Full Binary Tree Formula [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d9da8d7-5932-4e13-b9ce-e1c460f70c1a)
+
+* Complete BT formula.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/73bee0e9-4550-47f1-a595-3e9fb7909afc)
+
+* 3-Ary Tree Formula.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e7883ac-f13e-4d72-aff0-cbdb83f83250)
+
+* K-Ary Tree Formula.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
