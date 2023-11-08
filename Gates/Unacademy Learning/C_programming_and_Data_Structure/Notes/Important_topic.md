@@ -1,4 +1,4 @@
-# Important Topics
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f33173dd-60d1-47e5-9350-4d425fed35f9)# Important Topics
 
 ## Note:-
 
@@ -1320,6 +1320,160 @@ right child can be present as well that doesn't matter. Then that node's data is
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a842895-9f3f-4138-a7f4-448afc44e85d)
 
 * Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/52E1399564
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c90e18a7-9b4f-44d7-9117-a22898fc6030)
+
+* Explaination
+
+> For 'n' distinct keys/elements and an(one) unlabeled binary tree with 'n' nodes. As there was one
+unlabeled binary tree with 'n' nodes and we can get arrange the 'n' distinct keys in '1' way to get a
+BST.
+
+> We created different ways to create Binary Trees. The answer we got for Binary Tree is the same
+answer for Binary Search Tree because for finding the different binary trees for n distinct
+elements, we use Catalan number. For finding the different binary search trees for n distinct
+elements, we use Catalan number multiplied by 1. Hence both have the same answer. If the
+question is for binary tree with n unlabelled nodes, we will get the same answer as above
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/68b648be-3757-4d06-bb4f-5906dcb5dc3b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d67ca43-17fd-4b4f-83cb-d5cd170af5f3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/59555c51-a9f9-4cb5-84b8-7ba389398143)
+![image](https://user-images.githubusercontent.com/54589605/215996188-3866dec5-9d84-4fe8-b3c2-324746ddeaf1.png)
+![image](https://user-images.githubusercontent.com/54589605/215996218-e4cb4b46-0aa1-4077-81d2-70cbe3e28fae.png)
+
+## Deletion in BST
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/652150b8-5dc2-4765-a8cd-d0f83729e05b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c8e1153a-09d8-4178-a041-456606283378)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e8fbb7f-e780-4a5f-aa67-691496bb8473)
+
+* Inorder Successor -> It is the closest value **next** to the **node value** we are **deleting**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/de4fa953-6da0-4388-96b3-1eacc9e70e0a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/524a9103-8982-475e-bfa7-255b9cae7fa9)
+
+* Inorder Predecessor -> It is the closest value **previous** to the **node value** we are **deleting**.
+* If we used the **dot method for inorder** then we would have gotten the **Predecessor** for **80** is **40** but we are finding the **previous value** to the **node'a value** we are **deleting**. The **closest previous value** to **80** in the tree is **70** so the **Inorder Predecessor** of **80** is **70** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a7fa0da-5f78-4b6f-a2e0-83e89a4166e7)
+
+* Time Complexity in BST.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ad9230e-b92c-48a8-94a4-238ba247f30a)
+![image](https://user-images.githubusercontent.com/54589605/216318968-84e16bfa-1a92-4078-8741-2510c4978bea.png)
+![image](https://user-images.githubusercontent.com/54589605/216319234-6e90e9d2-eaa9-4933-9965-d317ff486ad1.png)
+
+* [**IMPORTANT**]
+* Right subtree -> p
+* root -> 1
+* Left subtree -> n - p - 1.
+* 1st number -> n-p-1 + 1 -> n-p.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58c58cd2-1e61-40d4-80d2-1f9ce47d1572)
+
+* n -> No. of nodes
+* Height of **Balanced Tree** -> Log n.
+* Height of **AVL tree** -> Log n.
+
+![AVL_1](https://user-images.githubusercontent.com/54589605/216122733-f5acf2a3-f67c-41e6-9959-4a31b486b32a.jpeg)
+![AVL_2](https://user-images.githubusercontent.com/54589605/216122739-b7c3d037-c788-4a4e-8f88-88f39bd23ac3.jpeg)
+![AVL_3](https://user-images.githubusercontent.com/54589605/216122744-2f368151-2f74-4cd7-9f15-81b165c2e243.jpeg)
+![AVL_4](https://user-images.githubusercontent.com/54589605/216122747-892e24c4-ed43-4d40-9c8c-b6fe174affe4.jpeg)
+![AVL_5](https://user-images.githubusercontent.com/54589605/216122749-010ff949-5324-4799-b11a-ddd77d75fbd7.jpeg)
+![AVL_6](https://user-images.githubusercontent.com/54589605/216122752-6adcb552-9d88-49d9-a516-916f04028e36.jpeg)
+![AVL_7](https://user-images.githubusercontent.com/54589605/216122756-50092681-758e-496a-b1cd-d297994b09c5.jpeg)
+
+> **Q1** from Image 1 before DPP starts is the **AVL Tree Insertion 2 question** on *47_Balanced_Binary_Search_Tree* PDF file page **19**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/762087ad-0eda-4507-b540-f3038229aed8)
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/A3F5CCC384
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9a164e91-230c-4670-bd89-b408c048f41c)
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/B2B704FD8A
+* Min. no. of nodes in an AVL Tree **formula** [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/251c7d66-fbb6-4119-bb19-e7a48aaf480d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/82c58bae-42d5-4b18-a579-4f0df7c417ce)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/96b3385d-def6-4d22-a623-0603eab5572b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d152f812-2284-4c1f-82f8-099906856de0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be91aac9-8e7e-4eef-a985-a625edcddea3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24518782-ca63-4a3c-83cf-23a0153cd2d8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3566ee1b-60f3-4626-a8d0-95cec251de4c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/52b59c9a-372f-43c5-93fa-cf55e5e0c7de)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/77d2db3e-acb7-4117-a31d-2b1164e6d336)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4102051f-0251-4937-892e-314431481965)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/adaa206d-2fe9-4b84-9a93-9c8a30abce1c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3cc889f1-18c3-426d-a715-31767b28240b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d39beefd-dbfe-490e-9b5f-b06645f07aca)
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/D7CE7A652A
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/60A61C78DD
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/669442c1-4a05-41cf-ba6f-65f2381af1e3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35cddede-da5e-4885-bfaf-6d8bb0bc8f96)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c11c50c4-90a9-4f3d-9bdb-c46341abec06)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5814872-4c5e-4e0a-b1a4-7917a789d6c0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c1b9b64-c8ca-4417-8d0c-068c5c35d1f8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ccbb3ce0-0850-4358-8654-8797b594caac)
+
+* Create AVL Tree [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1fc5484-dac4-4366-84ad-ad39dce0b882)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d5009c5-804e-4701-a787-7bf5b9d0f921)
+
+* Practice all the **AVL Tree** drawings from **48_Doubt_Session PDF**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3af3c222-b817-409c-9f8c-8c61a45cd7e5)
+
+* AVL Tree deletion
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/638dab7b-0507-4420-88b5-194e9e8cda13)
+
+* The deleted no(25) is on the right side of the **imbalanced node(2)** as it has **balance factor** of **2**. The **balance factor** of the **left child** of **2** is **0** so it is **R0**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8fa23d40-980b-4fe5-9a3d-bc497aefb926)
+
+* The deleted no(25) is on the right side of the **imbalanced node(20)** as it has **balance factor** of **2**. The **balance factor** of the **left child** of **node(20)** is **1** so it is **R1**.
+* The deleted no(25) is on the right side of the **imbalanced node(20)** as it has **balance factor** of **2**. The **balance factor** of the **left child** of **node(20)** is **-1** so it is **R-1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa495d27-67a1-4863-b371-a1bd084ec4eb)
+
+* The deleted no(15) is on the **left side** of the **imbalanced node(20)** as it has **balance factor** of **-2**. The **balance factor** of the **right child** of **node(20)** is **0** so it is **L0**.
+* The deleted no(15) is on the **left side** of the **imbalanced node(20)** as it has **balance factor** of **-2**. The **balance factor** of the **right child** of **node(20)** is **1** so it is **L1**.
+* The deleted no(15) is on the **left side** of the **imbalanced node(20)** as it has **balance factor** of **-2**. The **balance factor** of the **right child** of **node(20)** is **-1** so it is **L-1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69c84136-d9b2-437e-8d21-c16e00fb3756)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f9bb7956-dfd9-4299-b463-fe1ce1110250)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e1989d6-31d1-4bb5-819f-e4b170028c5a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e64a60a8-e3a8-4b9f-959d-99646e51aa89)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ef4548b-40e3-4a18-b410-af801f92923f)
+
+* Min. no. of nodes in AVL tree.
+
+> For Maximum nodes, we have to completely fill all of the levels of the tree. Because AVL tree is a
+BST as well as a Balanced tree. For Minimum nodes, we can either fill the left subtree to h-1 height
+and right subtree to h-2 height or vice-versa. Here, 'h' is the height of the tree. Because we can
+have a balance factor of 1.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb49dcbf-e439-49e0-a4a3-e72ed1c25935)
+
+* Height of tree with single node is **zero(0)**.
+* Height of AVL tree -> log n -> Ceil(log n) -> Ceil(log 7) -> Ceil(2.8) -> 3.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a4642f2d-2c43-452d-bcd0-c6fbfe783741)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9595da16-c265-407f-ac3d-e3aff847e5fe)
+
+* Practive them again.
+
+
 
 
 
