@@ -4246,11 +4246,11 @@ We know,
 * Search the element to be deleted
 * Find the no. of children of node to be deleted.
 * Call one of the following cases based on no. of children
-    1) **Case 0** -> Node with 0 children
-    2) **Case 1** -> Node with 1 children
-    3) **Case 2** -> Node with 2 children
+    1) **Case 0** -> Node with 0 children -> No Children, so we are directly deleting the nodes.
+    2) **Case 1** -> Node with 1 children -> Replace Deleted node by it's single child.
+    3) **Case 2** -> Node with 2 children -> Replace deleted node by it's inorder predecessor or successor.
 
-* Two conditions/ways in **Case 2**
+* **Two conditions/ways in Case 2**
     1) **Inorder Successor** -> Element just after the element to be deleted in the sorted sequence.
     2) **Inorder Predecessor**-> Element just before the element to be deleted in the sorted sequence.
 
@@ -4762,6 +4762,8 @@ We know,
 
 > Rest of Heap PYQs in **53_Heap_and_Binary_Heap** PDF file.
 
+* [**IMPORTANT**]
+
 ## 53_Heap_and_Binary_Heap(Heap PYQs and BST PYQs) (53) [13th Feb 2023]
 
 ### Rest of Heap PYQs
@@ -4772,6 +4774,7 @@ We know,
 ![Heap_14](https://user-images.githubusercontent.com/54589605/218458868-a2706192-7464-414b-8ebf-025efbbaa780.jpeg)
 ![Heap_15](https://user-images.githubusercontent.com/54589605/218458876-a79a1952-e2d6-4841-88a5-8a4dc2570943.jpeg)
 
+* [**IMPORTANT**]
 
 ### BST PYQs
 
@@ -4793,6 +4796,7 @@ We know,
 
 ![BST_7](https://user-images.githubusercontent.com/54589605/218459151-2c4517a9-5aad-4721-b816-ddbf2e5b4ba9.jpeg)
 
+* [**IMPORTANT**]
 
 ## 54_Tree_part(BST PYQs) (54) [13th Feb 2023]
 
@@ -4848,6 +4852,7 @@ We know,
 > In **Q32**, finding the sum of elements from **v1 to v2**:
 > Finding the sum of elements from **v1 to v2** will be in **constant** time as it is found out by using a **formulae**.
 
+* [**IMPORTANT**]
 
 ## Graph (55) [14th Feb 2023]
 

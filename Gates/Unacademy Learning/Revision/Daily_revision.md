@@ -1,5 +1,5 @@
 # C-programming
 
-* Continue from **Basics of Tree (46)** page *295*.
-* Start from PDF file **31**.
+* Continue from **Heaps (53)** page *398*.
+* Start from PDF file **53**.
 * Check the solutions of the *doubts* asked from the above important questions.
