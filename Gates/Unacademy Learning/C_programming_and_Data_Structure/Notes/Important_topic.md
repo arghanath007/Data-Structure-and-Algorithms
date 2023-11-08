@@ -1,4 +1,4 @@
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f33173dd-60d1-47e5-9350-4d425fed35f9)# Important Topics
+# Important Topics
 
 ## Note:-
 
@@ -1473,6 +1473,45 @@ have a balance factor of 1.
 
 * Practive them again.
 
+## Heap
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5ae61dd-0ae8-4eb3-9be1-08579b84bc7e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c4e7da0c-0e12-4a79-b017-ac8e035f3750)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/14c1507c-5ff1-41ef-a3db-683b2665947e)
+
+* Insertion in heap.
+* Runtime Complexity for Insertion in heap -> O(log n)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63243296-e040-4bd1-b392-d037e749b461)
+
+* Option **A** [Answer]
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/DAABAFFFF6
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1e03376-ea4e-4c0c-95da-ee4e3f4b0911)
+
+* Building Heap(One by one insertion) -> O(n * log n).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0aaa60a-6da2-4556-9517-b86157bd8360)
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/7F998D1336
+
+## Runtime complexity
+
+* Runtime complexity for **each insertion** in Heap -> **O(log n)**
+* Runtime complexity for **'n' insertion** or **one by one** insertion in Heap -> **O(nlog n)**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ad28912-c487-4cd2-9a86-e686d5487d13)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/509d621a-eefc-47fa-84dc-faba9c8b9491)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef752a49-e727-47e7-a1e1-a19238624871)
+
+> If elements are given in ascending order like above then zero(0) swaps are required to build min-
+heap
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dee933cb-1f19-47c9-bb8b-86dc4901295d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/38eb5685-1105-48ed-9c39-fb64ac3986f7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/568d92b2-f38a-457a-9aef-17625f91acc4)
+
+* Time Complexities in **Heap**.
 
 
 
@@ -1660,3 +1699,4 @@ have a balance factor of 1.
 # Misplaced
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9d4a676-9830-4b47-824b-6eb5fd6069f0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f33173dd-60d1-47e5-9350-4d425fed35f9)
