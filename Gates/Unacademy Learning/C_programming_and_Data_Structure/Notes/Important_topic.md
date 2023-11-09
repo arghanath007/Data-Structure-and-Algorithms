@@ -1671,6 +1671,207 @@ heap
 
 * We are doing **BST** deletion using the **deletion cases**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/08843c2d-022b-421d-9c40-0e07a5237645)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4993d54c-35b4-4020-8b8b-7d0699721809)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91c8e3cf-6f7e-4dba-adf9-53f7680c897c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8df1d3c9-3bd2-4fdb-8a66-5ffb9d3bda2f)
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/00F8CFD5F8
+* We have **log n** level.
+* O(n * log n).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d81906f-4ba5-4165-89c2-cf659161900d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b8ac9df-66be-47ad-b2fb-8f80d3a32420)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a665421-94cd-4134-b1fc-a719cc822639)
+
+* Read Question Carefully, **CANNOT** word.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a31ea48-9156-426f-88f7-7287a6f82673)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/109d85b3-e200-4092-8261-2b83e9b379a0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea03ef5a-44cd-4e75-8999-82f1fd23cc23)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c6fc2ef-cde4-4b24-8fa6-ef08042e5c08)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33fbc9da-3f7d-460d-a27d-6ffd0d66c1cf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/48d38fc2-bc17-43ce-97e3-f95ea036d357)
+
+* [**IMPORTANT**]
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/ADE441C37A
+* Searching -> O(n)
+* If the sequence(inorder) is **sorted** then the **searching** is **O(log n)** time.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/07f7827b-60d5-4db4-941e-f176f346a9b7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be0ac2d6-7ac5-49be-9e7f-5a0d08302199)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0155b44d-0835-4530-9789-bb71eac4c63e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/071afdcc-2c12-4d7b-aca6-b6a579a42276)
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/024C7449CF
+* Option **C**.
+* Solve all of the questions in **53 PDF** file. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/55c37115-5a70-469d-b488-64fbdc0df1f1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1977d81d-cfb4-459e-8a0b-ad6e41f566b3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31476912-06db-45ca-803f-c120b2bc4985)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c94e8495-9a0a-4e7f-9acc-01db130cce24)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5c78bc4-0856-4190-bdf0-5e85e7de0def)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ee0c1c3-fd9a-4324-b2d6-6231e3c25b53)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/84120545-82cf-483b-a013-f2f5e7910c86)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f1b3ef79-5cc2-459c-9094-9e57abbe9dd4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8c69b305-80c5-439c-b101-503372b6a327)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86d5f3c4-59de-4521-99c6-933d33d0fe72)
+
+* Questions.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b14cad6-7f23-49ca-8927-85b1273712dc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/398153be-fa15-4da3-ad68-e9fb7fee5d0e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/487e40c3-9098-440f-8c26-880abfe8667e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c68eaadd-7ad7-4b56-875e-cfd06ae27093)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f9251eeb-5de4-4d2f-be92-87840a00ecba)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c3fde7a7-40eb-426f-8e52-62c2c6759c92)
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/653659E6EF
+* https://gateoverflow.in/333184/gate-cse-2020-question-47
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b07330a5-723b-4377-966a-93ab204aae2c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/402844b1-72ab-4f2b-8b98-72e1c7c4d2d4)
+
+* Nodes = 1023 = 2 ^ 10 - 1
+* Assuming index starts from **zero(0)** as it is an **array**. Index are from **0 to 1022**.
+* Leaf Nodes = 2^10 = 512 [1 -> 2 -> 4 -> 8 -> 16 -> 32 -> 64 -> 128 -> 256 -> 512 -> Nodes at each level]
+* No. of comparisions -> 512 - 1 -> 511 [Answer]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f8d9f508-c1a7-4ff3-881d-e6fbfa20228c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/352b5be3-3b83-4112-8e46-22d1ed32b110)
+
+* Leaf Node. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1de1e2c4-8f6a-41bb-ac15-e1c2e03a8e22)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89ac03f8-fae6-49dc-b84c-c48503569b40)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4406f5c5-f07c-4e37-93a4-a0b0b42ca3dd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/643d05b6-f926-41b5-8852-6580cdf3a103)
+
+* Height of the tree or levels of the tree is **log n** and we have **n** nodes. We have **log n** levels and in **each level** it is taking **n** time. So it is **n * log n**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12889793-7029-4e19-ba98-1d604b65f0bc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/13e516cf-9fc6-43be-8c9d-53ed6ecfca61)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f88a7d89-c36b-45ab-99b7-e5828f0a7960)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/869f2f29-88d4-49eb-b2c8-2171342f6379)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2737ee8d-35af-439e-8c21-1fb2fc73bf2a)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/071e8905-13b8-4f09-8ff3-acb6e13fae81)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ded292c2-82a3-406b-87e4-ed6f4ed6ecb4)
+
+* Order Traversal -> Sorted sequence in ascending order.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d1569ff-40b2-4b73-85da-96998a65575a)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6fedb41c-1ebd-4b5a-88b2-32f68e6bde14)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5838464-e6dd-46cb-b089-2ca04af6453d)
+
+* Practice all of the questions from **54 PDF** file.
+* All look at the way I solved the problems in the **Notes PDF** file.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
