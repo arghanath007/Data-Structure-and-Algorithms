@@ -1663,6 +1663,14 @@ heap
 
 * Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/4B3468F7C8
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae39104d-72fa-4f56-afbc-ccdaca30e608)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/77fdc9b8-f680-476d-973d-5b8f7caaa38d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bca61b80-48d6-41c7-8486-a9481bfdbd11)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1616dfe7-9d16-4c46-9266-e1472120e1a5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/64fc9259-9396-4356-b4be-61026b87dce0)
+
+* We are doing **BST** deletion using the **deletion cases**.
+
 
 
 
