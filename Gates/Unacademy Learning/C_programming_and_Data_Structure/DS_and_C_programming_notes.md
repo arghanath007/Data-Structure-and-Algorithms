@@ -4903,7 +4903,7 @@ We know,
 
 ## Graph Traversal
 
-* Breadth First Traversal -> Breadth First Search(BFS)
+* Breadth First Traversal -> Breadth First Search(BFS) -> Level Order Traversal.
 * Depth First Traversal -> Depth First Search(DFS)
 
 * Breadth First Traversal -> It is a **level-order traversal** of the tree. We traverse/search just casually each and everywhere without going into **complete details/depth**. We do not check in **complete details/depth** each and everywhere and have checked at all of the locations. Then also we **haven't found the searched element**, then we come to each and every place and now search in **complete details/depth**.
@@ -4982,7 +4982,6 @@ We know,
 > Here, it is asked for **DFS**, we have to traverse the whole **graph** using **DFS** technique and **minimize** the **maximum possible recursion depth**. The  **maximum possible recursion depth** which is possible using **DFS** has to be **minimized**.
 
 ![image](https://user-images.githubusercontent.com/54589605/219035695-abd88290-1755-421d-af68-317ef54bf189.png)
-
 
 > Solved in **57_Hashing** PDF file.
 
@@ -5102,6 +5101,8 @@ We know,
 
 ## Hashing PYQs (59) [17th Feb 2023]
 
+* [**IMPORTANT**]
+
 > In **Q1** from 1989, **linear probing** works **circularly or does a circular check**. For **maximum comparisons**, we will start from **8** and check **circularly** till we find an **empty space**. **8,9,0 and 1** are all full and **2** is empty hence the **maximum comparisons** will be **5**, **4** collisions and **1** empty space. From **0 to 2 [0,1,2]**, the comparison are **3**, **2** collisions and **1** empty space. 
 
 * **8,9,0, 1 and 2** are the comparsions which total to **5**.
@@ -5180,7 +5181,6 @@ We know,
 ![Hashing_6](https://user-images.githubusercontent.com/54589605/219847862-8d7c2e99-f6c9-4600-a060-ea0180c420fc.jpeg)
 ![Hashing_7](https://user-images.githubusercontent.com/54589605/219847866-2769ff3d-368a-426c-8d3b-b7f9e5b3d5c1.jpeg)
 
-
 ## Hashing and Tree PYQs (60) [18th Feb 2023]
 
 ### Rest of Hashing PYQs
@@ -5189,15 +5189,10 @@ We know,
 ![Hashing_9](https://user-images.githubusercontent.com/54589605/219855484-133a489d-ac7b-40cc-b5ab-3ed8e3852485.jpeg)
 ![Hashing_10](https://user-images.githubusercontent.com/54589605/219855492-215c37ac-cd6f-4d64-8872-17b9b52657bb.jpeg)
 
-
-
 ### Tree PYQs
 
 ![Tree_1](https://user-images.githubusercontent.com/54589605/219855536-a6a3f641-e50f-44dd-9a03-76fee43e63e9.jpeg)
 ![Tree_2](https://user-images.githubusercontent.com/54589605/219855537-6e8fc32c-1a40-4772-a50e-587ecee84b30.jpeg)
-
-
-
 
 ## Mega Quiz
 
