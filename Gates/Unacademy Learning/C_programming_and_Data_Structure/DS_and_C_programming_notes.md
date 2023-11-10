@@ -5236,9 +5236,9 @@ We know,
 ![image](https://user-images.githubusercontent.com/54589605/221614421-f5d9ba57-76e3-419a-bb4d-bd14128b1f44.png)
 ![image](https://user-images.githubusercontent.com/54589605/221614383-8daef28c-50ce-45ac-9298-515fcd56dc69.png)
 
- ## Quiz 3
+## Quiz 3
  
- * Link -> https://unacademy.com/quiz/quiz-iii/5C2VOPBX3P/solutions/SP_QY18XR362FBGM7H6O
+* Link -> https://unacademy.com/quiz/quiz-iii/5C2VOPBX3P/solutions/SP_QY18XR362FBGM7H6O
 
 
 ## Quiz 4
