@@ -2017,12 +2017,24 @@ heap
 
 * Solution.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8e70175-7b7f-43c0-b8b1-63091817df7a)
 
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/6C6C8611CB
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9435275-5f28-43e7-a82a-854d56cd3002)
 
+## Quiz-2
 
+* Solutions in **20 PDF** file.
 
-
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92145416-2be1-491d-b671-7dcf6fb80da8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae0e112f-af50-4786-8a83-56efecc85155)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9c7435b-03d4-461f-873b-d8be30eb71f4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6301f6bb-88b8-4c11-9632-d8ecf4a90476)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95fa2181-0bd9-4cdc-8dc1-08cad851e371)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/78071ab1-0e2a-473a-aa0d-f62e3e8de282)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/681aff25-f613-45f5-92cb-8a3dc9018765)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a74539b4-fc82-4a01-9834-647e8cb9b918)
 
 
 
