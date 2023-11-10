@@ -2036,6 +2036,11 @@ heap
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/681aff25-f613-45f5-92cb-8a3dc9018765)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a74539b4-fc82-4a01-9834-647e8cb9b918)
 
+## Quiz 1
+
+* link -> https://unacademy.com/quiz/quiz-i/RIE675803I/solutions/SP_QOQ4E07DUQSMG52YT
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b350b02-36e9-4ad7-a16d-a731a7f6be14)
 
 
 
