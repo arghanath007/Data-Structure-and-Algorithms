@@ -2012,8 +2012,10 @@ heap
 * Row_sub -> Row subset whose element is to be found
 * LL_row -> Lower limit of row
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8a50fb8-c639-4f0d-9928-0cbe701e8210)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5aa38d33-66ad-491f-bae1-47b492b4c47d)
 
-
+* Solution.
 
 
 
