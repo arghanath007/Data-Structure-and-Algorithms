@@ -1776,48 +1776,220 @@ heap
 * Practice all of the questions from **54 PDF** file.
 * All look at the way I solved the problems in the **Notes PDF** file.
 
+![image](https://user-images.githubusercontent.com/54589605/218647292-12841d56-6682-4e4e-b996-f57d568196cb.png)
 
+### For **Insertion**
 
+> As it is a sorted doubly linked list, we have to **traverse** the list in **linear search (binary search is not possible in linked list)** order to find the position where the insertion maintains the sorted sequence.
+> Hence for **one(1)** insertion, the time complexity is **O(N)**.
+> For **log N** insertions given in the question, the time complexity is **logN * O(N) -> O(N log N)**
 
+### For **Deletion**
 
+> As the pointer is provided for the element to be deleted, we know that time complexity for deletion in doubly linked list is **constant or O(1)**.
+> For **N** deletions given in the question, the time complexity is **N * O(1) -> O(N)**
 
+### For **Searching**
 
+> We know traversing in doubly linked list happens in **linear search** order. Searching is basically traversing the list to find the **element** we are searching. 
+> Hence for **One(1)** search, the time complexity is **O(N)**.
+> For **log N** searches, the time complexity is **log N * O(N) -> O(N logN)**.
 
+### For **Decrease Key**
 
+![image](https://user-images.githubusercontent.com/54589605/218646677-e5934d96-a0d0-4283-986e-31687e3a7706.png)
 
+> When decreasing **26** with **23**, we get **3**. After that the sequence is not in **sorted** order as **3** is the result from **26-23-> 3** and **3** is disrupting the sorted sequence. Hence, we have to sort the sequence to fit **3** in the sequence. 
+> The sorting takes **O(N)** time complexity. The decreasing key operations happens in **O(1) or constant** time complexity. Hence the **time complexity** for **One(1) Decrease key** operation is **O(N) * O(1) -> O(N)**.
+> For **'N' Decrease key** operations, the **time complexity** will be **N * O(N) -> O(N^2)**.
 
+![image](https://user-images.githubusercontent.com/54589605/218649357-8e6596d8-3453-4584-88b8-46c9f1d343d4.png)
 
+> The answer is **O(N^2)** as it is the **highest** time complexity out of the all. Adding all of them up also, gives us the same answer **Asymptotically**.
 
+## Graph
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2be285c8-cb46-4845-887f-b158443fac3d)
 
+* BFS with Queue.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b62102d-d8b5-4c61-9bb5-010dea4181e4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05d35823-559c-47a3-a901-86e3cbf3bf19)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/03ee9eb5-f9ce-462e-9a61-8448d9f71344)
 
+* Examples.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3627c084-9c2a-46d5-9617-228202c90486)
 
+## DFS
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b8e53567-d42b-430c-adad-0f25ac981b48)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f927ffa2-2d83-4361-8b8b-57f7dde0c3b6)
 
+## DFS Using Stack
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d6a013c-135f-48e5-95ba-9d72c803c9ba)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b5440f8-64b0-45be-b4f5-4f81893b1d43)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27d3fc3f-b182-483a-a75e-e5b2efb2c32a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a966b18d-108b-428d-8270-17b10d592165)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ed789c7-ef5a-4354-8fa8-765591f00de7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58116735-73c4-47f3-9e71-3c6f5795129d)
 
+* Similar to the **sequence 3**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ff85423-540d-4561-8cc2-45ebd29af483)
+![Graph_3](https://user-images.githubusercontent.com/54589605/218752612-4349c7df-3105-49a9-b8ff-73867f5376dc.jpeg)
+![Graph_4](https://user-images.githubusercontent.com/54589605/218752647-43196541-7fec-4095-ba75-e811caecc778.jpeg)
+![Graph_5](https://user-images.githubusercontent.com/54589605/218752658-53ae8fb7-1752-45ac-b5da-3407441f2f59.jpeg)
+![Graph_6](https://user-images.githubusercontent.com/54589605/218752669-19a2b0c9-574e-4ba1-a25f-bdc93f58a5e6.jpeg)
+![Graph_7](https://user-images.githubusercontent.com/54589605/218752678-449a32de-3ebf-4044-98ba-0ec03a0217b2.jpeg)
+![Graph_8](https://user-images.githubusercontent.com/54589605/218752686-85f51b45-3eef-42e5-8efd-cf242865f825.jpeg)
+![Graph_9](https://user-images.githubusercontent.com/54589605/218752702-edb73788-60a3-4fe1-9ebb-4d982fad56fa.jpeg)
+![Graph_10](https://user-images.githubusercontent.com/54589605/218752737-26b3886c-5912-4ed9-af4c-da7f8017424b.jpeg)
 
+## Graph Question from **56_Graph** 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4870b537-bd96-4886-b546-e8ff3fa403b3)
+![image](https://user-images.githubusercontent.com/54589605/219034438-ad04fb15-3679-4d61-bbe9-4e80a4eb906c.png)
+![image](https://user-images.githubusercontent.com/54589605/219034462-a78855f4-d474-4ec2-b0a3-35f28be2b4a8.png)
 
+> Here, it is asked for **DFS**, we have to traverse the whole **graph** using **DFS** technique and **minimize** the **maximum possible recursion depth**. The  **maximum possible recursion depth** which is possible using **DFS** has to be **minimized**.
 
+![image](https://user-images.githubusercontent.com/54589605/219035695-abd88290-1755-421d-af68-317ef54bf189.png)
 
+> Solved in **57_Hashing** PDF file.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1bcd44d-a1b0-40ba-9057-802e3194fc01)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7eda8517-f454-40a3-9d67-91402881bcab)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/caf10ea0-34e4-4131-b4f2-22dc0d5ed47a)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2e47b5f3-2cb3-4e5c-8a98-4c8368e7e99b)
 
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/B283F5E1F9
 
+## Hashing
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/79502f7d-fac6-478f-9d01-a753f0a7e733)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89bdbf2c-4b73-494c-8a42-6881c0bbd039)
 
+## Load Factor Formula **Important**
 
+![image](https://user-images.githubusercontent.com/54589605/219338978-b1769c46-d021-4b01-808f-0115aa4f6e9d.png)
 
+## Space Utilization Formula **Important**
 
+![image](https://user-images.githubusercontent.com/54589605/219339231-34465015-009e-4d3c-bb75-38edcf4a5d05.png)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6edc3312-fd2b-46da-90fd-5996bce36494)
 
+* Load Factor and Space utilization
 
+## Hashing PYQ
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4824ea00-e4cd-4e2b-a25e-94cf023528b5)
+
+> The **minimum** will always/anyway be **1** as we have to do **atleast one(1)** comparison to **seach** an item. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8342b435-593d-4e38-aa3e-568f5706435e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b8993c89-35fc-471f-b57b-cda61b40a05f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b296a8cb-eaea-41b3-b236-9ea9fa5c2c52)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9328663c-9733-4f9d-80da-981ba659f7c0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f236bcc-c54a-4490-b712-03e6d347c5e9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/949e9a25-21b6-4c76-8059-3560e624f0da)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/009c54a6-b4ce-48f7-b0ac-cf96e0d84f9e)
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/FBF107EB95
+* Link -> https://gateoverflow.in/3461/gate-it-2007-question-28
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4fa4ef0b-3c10-473c-bfab-da5208ab8c0a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c77521d9-153a-4a01-baf5-c38c024dadc8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e4d75b8-b8e8-4f0e-8405-ebbfad064bd4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f7a069b-ece5-4194-ba6f-48a75b638f36)
+
+* [**IMPORTANT**]
+* For value **52** according to **52 % 10 = 2**, it should be at **2nd place** but it is at **5th place**. It is because we have **collision at 2,3 and 4**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7f9d3a5-6454-4fb5-922f-7681810994e2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9301c925-87f1-4c65-bab4-fb580d3357b7)
+
+* Before we insert **52** the locations **2,3 and 4** should be **filled**. After that insert **52**.
+* So **52** should come after **42,23 and 34**.
+* **46** is inserted at **6** where it should be.
+* **33** is inserted at **7** but according to **33 % 10 = 3**, it should be at **3rd place** but it is at **7th place**. It is because we have **collision at 3,4,5,6**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b8cdccfa-7eab-4d31-ab6d-5a07fd19d17f)
+
+* Before we insert **33** the locations **3,4,5 and 6** should be **filled**. After that insert **33**.
+* So **33** should come after **23,34,52 and 46**.
+* So **52** should come after **42,23 and 34** and after **52** only **33** will come.
+* It means that **33** should come after **42,23,34,52 and 46**.
+* **33** should come at the end.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/23c42c7d-87d7-4cb6-9408-fbfe1d108398)
+
+* It is similar to like after 1, 2 comes and after 2, 3 comes.
+* So we can say that after 1, 3 comes.
+* Transitive relation.
+* **42,23,34,46** all are going to their respective places without any **collision**.
+* Insert all of the **42,23,34,46** keys in **any sequence** as they are going to their respective places.
+* Take the **permutation** of the **4 above keys(42,23,34,46)**. So the permutation is **4!**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/307e324f-5b4e-4d4e-8cc9-76050ffa2c0b)
+
+* **4! -> 24**, so **24** different sequences are possible.
+* It is not mandatory that **46** should be inserted before **52**. Before **52** these three keys **42,23,34** should be inserted. We can keep **46** after **52** as well.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/adb6c14c-87c0-4350-851c-a2d920a6d1d3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4415a92f-47b3-4571-a239-4430484078aa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e15734ec-7c2c-481f-98aa-c68906f6bdd8)
+
+* [**IMPORTANT**]
+* In these **30** combinations we will get the **same hash table** given in the question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3407774b-ec92-445e-9359-2d59311fb46f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1052bcc8-c296-4443-946e-be23628cd6aa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/203e021e-68cd-4d3d-aa6f-073a919f6aac)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/169923dc-2042-4b40-8c3c-a4b5fe81ef7e)
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/76618E4796
+* Link -> https://gateoverflow.in/8152/gate-cse-2015-set-2-question-33
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/781886b6-4cb4-438b-abd7-2b185f45baae)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6a1814a-450d-4103-b667-61e4843ab3f6)
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/E302BC3905
+* Link -> https://gateoverflow.in/333208/gate-cse-2020-question-23
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5759cea-2788-412c-b858-e0e2aa447ca7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e239a86-d003-4286-b27f-c930f5f880ca)
+
+* Link -> https://gateoverflow.in/357404/gate-cse-2021-set-1-question-47
+
+![Hashing_1](https://user-images.githubusercontent.com/54589605/219847829-e0197717-2412-432d-9bd8-4355e456d99f.jpeg)
+![Hashing_2](https://user-images.githubusercontent.com/54589605/219847833-d450126a-92a3-48bd-8368-7e7f763a45d8.jpeg)
+![Hashing_3](https://user-images.githubusercontent.com/54589605/219847841-d30eab2a-30a2-4e24-b303-a4f0ec8e6fdf.jpeg)
+![Hashing_4](https://user-images.githubusercontent.com/54589605/219847852-691ba01d-e939-4cf4-a66b-b1766ef708d8.jpeg)
+![Hashing_5](https://user-images.githubusercontent.com/54589605/219847855-a29612cf-f6df-4bfa-b494-ff53d3f895f5.jpeg)
+![Hashing_6](https://user-images.githubusercontent.com/54589605/219847862-8d7c2e99-f6c9-4600-a060-ea0180c420fc.jpeg)
+![Hashing_7](https://user-images.githubusercontent.com/54589605/219847866-2769ff3d-368a-426c-8d3b-b7f9e5b3d5c1.jpeg)
+![Hashing_8](https://user-images.githubusercontent.com/54589605/219855523-6d784843-be57-4825-a74c-7ede31cc869a.jpeg)
+![Hashing_9](https://user-images.githubusercontent.com/54589605/219855484-133a489d-ac7b-40cc-b5ab-3ed8e3852485.jpeg)
+![Hashing_10](https://user-images.githubusercontent.com/54589605/219855492-215c37ac-cd6f-4d64-8872-17b9b52657bb.jpeg)
+
+* Hashing
+
+![Tree_1](https://user-images.githubusercontent.com/54589605/219855536-a6a3f641-e50f-44dd-9a03-76fee43e63e9.jpeg)
+![Tree_2](https://user-images.githubusercontent.com/54589605/219855537-6e8fc32c-1a40-4772-a50e-587ecee84b30.jpeg)
+
+* Tree
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae7f8ce4-cdec-45c3-a6c3-2d0ac0a7fb0a)
+
+* Practice the question in **60 PDF** file.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a09c3bc-9f88-4f2f-9f2c-5fd114ba0483)
 
 
 
