@@ -1776,8 +1776,100 @@ heap
 * Practice all of the questions from **54 PDF** file.
 * All look at the way I solved the problems in the **Notes PDF** file.
 
+![image](https://user-images.githubusercontent.com/54589605/218647292-12841d56-6682-4e4e-b996-f57d568196cb.png)
 
+### For **Insertion**
 
+> As it is a sorted doubly linked list, we have to **traverse** the list in **linear search (binary search is not possible in linked list)** order to find the position where the insertion maintains the sorted sequence.
+> Hence for **one(1)** insertion, the time complexity is **O(N)**.
+> For **log N** insertions given in the question, the time complexity is **logN * O(N) -> O(N log N)**
+
+### For **Deletion**
+
+> As the pointer is provided for the element to be deleted, we know that time complexity for deletion in doubly linked list is **constant or O(1)**.
+> For **N** deletions given in the question, the time complexity is **N * O(1) -> O(N)**
+
+### For **Searching**
+
+> We know traversing in doubly linked list happens in **linear search** order. Searching is basically traversing the list to find the **element** we are searching. 
+> Hence for **One(1)** search, the time complexity is **O(N)**.
+> For **log N** searches, the time complexity is **log N * O(N) -> O(N logN)**.
+
+### For **Decrease Key**
+
+![image](https://user-images.githubusercontent.com/54589605/218646677-e5934d96-a0d0-4283-986e-31687e3a7706.png)
+
+> When decreasing **26** with **23**, we get **3**. After that the sequence is not in **sorted** order as **3** is the result from **26-23-> 3** and **3** is disrupting the sorted sequence. Hence, we have to sort the sequence to fit **3** in the sequence. 
+> The sorting takes **O(N)** time complexity. The decreasing key operations happens in **O(1) or constant** time complexity. Hence the **time complexity** for **One(1) Decrease key** operation is **O(N) * O(1) -> O(N)**.
+> For **'N' Decrease key** operations, the **time complexity** will be **N * O(N) -> O(N^2)**.
+
+![image](https://user-images.githubusercontent.com/54589605/218649357-8e6596d8-3453-4584-88b8-46c9f1d343d4.png)
+
+> The answer is **O(N^2)** as it is the **highest** time complexity out of the all. Adding all of them up also, gives us the same answer **Asymptotically**.
+
+## Graph
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2be285c8-cb46-4845-887f-b158443fac3d)
+
+* BFS with Queue.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b62102d-d8b5-4c61-9bb5-010dea4181e4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05d35823-559c-47a3-a901-86e3cbf3bf19)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/03ee9eb5-f9ce-462e-9a61-8448d9f71344)
+
+* Examples.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3627c084-9c2a-46d5-9617-228202c90486)
+
+## DFS
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b8e53567-d42b-430c-adad-0f25ac981b48)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f927ffa2-2d83-4361-8b8b-57f7dde0c3b6)
+
+## DFS Using Stack
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d6a013c-135f-48e5-95ba-9d72c803c9ba)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b5440f8-64b0-45be-b4f5-4f81893b1d43)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27d3fc3f-b182-483a-a75e-e5b2efb2c32a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a966b18d-108b-428d-8270-17b10d592165)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ed789c7-ef5a-4354-8fa8-765591f00de7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58116735-73c4-47f3-9e71-3c6f5795129d)
+
+* Similar to the **sequence 3**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ff85423-540d-4561-8cc2-45ebd29af483)
+![Graph_3](https://user-images.githubusercontent.com/54589605/218752612-4349c7df-3105-49a9-b8ff-73867f5376dc.jpeg)
+![Graph_4](https://user-images.githubusercontent.com/54589605/218752647-43196541-7fec-4095-ba75-e811caecc778.jpeg)
+![Graph_5](https://user-images.githubusercontent.com/54589605/218752658-53ae8fb7-1752-45ac-b5da-3407441f2f59.jpeg)
+![Graph_6](https://user-images.githubusercontent.com/54589605/218752669-19a2b0c9-574e-4ba1-a25f-bdc93f58a5e6.jpeg)
+![Graph_7](https://user-images.githubusercontent.com/54589605/218752678-449a32de-3ebf-4044-98ba-0ec03a0217b2.jpeg)
+![Graph_8](https://user-images.githubusercontent.com/54589605/218752686-85f51b45-3eef-42e5-8efd-cf242865f825.jpeg)
+![Graph_9](https://user-images.githubusercontent.com/54589605/218752702-edb73788-60a3-4fe1-9ebb-4d982fad56fa.jpeg)
+![Graph_10](https://user-images.githubusercontent.com/54589605/218752737-26b3886c-5912-4ed9-af4c-da7f8017424b.jpeg)
+
+## Graph Question from **56_Graph** 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4870b537-bd96-4886-b546-e8ff3fa403b3)
+![image](https://user-images.githubusercontent.com/54589605/219034438-ad04fb15-3679-4d61-bbe9-4e80a4eb906c.png)
+![image](https://user-images.githubusercontent.com/54589605/219034462-a78855f4-d474-4ec2-b0a3-35f28be2b4a8.png)
+
+> Here, it is asked for **DFS**, we have to traverse the whole **graph** using **DFS** technique and **minimize** the **maximum possible recursion depth**. The  **maximum possible recursion depth** which is possible using **DFS** has to be **minimized**.
+
+![image](https://user-images.githubusercontent.com/54589605/219035695-abd88290-1755-421d-af68-317ef54bf189.png)
+
+> Solved in **57_Hashing** PDF file.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1bcd44d-a1b0-40ba-9057-802e3194fc01)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7eda8517-f454-40a3-9d67-91402881bcab)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/caf10ea0-34e4-4131-b4f2-22dc0d5ed47a)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2e47b5f3-2cb3-4e5c-8a98-4c8368e7e99b)
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/B283F5E1F9
+
+## Hashing
 
 
 
