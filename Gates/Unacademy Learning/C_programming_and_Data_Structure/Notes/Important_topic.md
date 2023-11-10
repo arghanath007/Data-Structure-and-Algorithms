@@ -1991,9 +1991,26 @@ heap
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a09c3bc-9f88-4f2f-9f2c-5fd114ba0483)
 
+## Row and Column Wise Formulas
 
+### Column Major Order [**IMPORTANT**]
 
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/5F70C77520
 
+![image](https://user-images.githubusercontent.com/54589605/222139974-782e2cd5-bf44-447c-a7dd-aed19048b17b.png)
+![image](https://user-images.githubusercontent.com/54589605/222146605-841da049-7e2d-4947-a159-3fd37cb383b2.png)
+![image](https://user-images.githubusercontent.com/54589605/222147606-5f5326e3-11f4-4659-8f7d-42aafc0c7c65.png)
+![image](https://user-images.githubusercontent.com/54589605/222147697-3d49c6c8-a4b6-46aa-8cdb-0bf080e812fc.png)
+![image](https://user-images.githubusercontent.com/54589605/222147864-cbb52508-d857-426a-b1ad-b392cbee4934.png)
+
+* A[i][j] = Base_Address + W * ((Col_sub - LL_col)* r + (Row_sub - LL_row))
+
+* W -> Size of each element. [We have to find theses here in the above question]
+* Col_sub -> Column subset whose element is to be found
+* LL_col -> Lower limit of column
+* r -> No. of rows
+* Row_sub -> Row subset whose element is to be found
+* LL_row -> Lower limit of row
 
 
 

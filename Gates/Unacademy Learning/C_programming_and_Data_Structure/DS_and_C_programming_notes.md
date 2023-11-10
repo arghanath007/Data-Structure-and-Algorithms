@@ -727,8 +727,6 @@ Solved in **8_Doubt_Clearning_Session**.
 
 * [**IMPORTANT**]
 
-
-
 ![image](https://user-images.githubusercontent.com/54589605/221840561-0c9e6c5d-730c-4c6b-a541-e7018971e716.png)
 ![image](https://user-images.githubusercontent.com/54589605/221840580-919a0484-2708-4f34-8300-e9f4198af733.png)
 ![image](https://user-images.githubusercontent.com/54589605/221840867-71b2a6ad-5ec8-48fb-bb6b-38e556d9698b.png)
