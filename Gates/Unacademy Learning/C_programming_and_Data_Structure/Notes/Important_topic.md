@@ -2095,7 +2095,7 @@ heap
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6906f7e3-96bb-461b-96e8-23d6b79340e6)
 
-* Link ->
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/40C833D6EA
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ce4f4b2-7088-4b6e-9ce9-ffe5b862f7c8)
 
@@ -2119,7 +2119,13 @@ heap
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/059a16f8-6742-43b4-8eaf-f6cf138e22ab)
 
+## Doubts yet to me asked
 
+* The images no **87,88,89** are not asked in for **doubt** ask them when other doubts are **solved**.
+
+## C-Programming Test-1
+
+* Link -> https://unacademy.com/quiz/c-programming-test-1/C8D16FYRMB/solutions/SP_CFXLR4QX6V9VIAWVF
 
 
 
