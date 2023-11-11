@@ -2322,7 +2322,15 @@ Here's the corrected analysis:
 * Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/EAF42D0411
 * Still have doubt in the **answer**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/caa999d7-1bc6-4356-b7ee-cfb197281a64)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f4b9ada-c9f8-4da2-be76-d7a8810409be)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/93918f31-8246-4e31-b2a3-a6c9d8cf3684)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac6d8a7e-fca5-4592-a5fe-233ffeb02169)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d126ad2-aceb-42eb-aa00-07dd48b9cf24)
 
+* Explaination -> As we are doing **dynamic scoping** in this question, so when we are calling **n()** then we are sending the **address** of **a** into the **local variable** of **x**. So when we are doing **x = x * a**, as we don't have a **value** of **a** and because of **dynamic scoping** we called **n()** from **m()** so we are going **one step** back to the **m()** and we are grabbing the value of **a** from the **m()** which is **2**. So it is **x = 2 and a = 2** so after the multiplication the value of **x** is **4** which is printed and we return from **n()**, now we print the value of **a** in the **m()** which is **2**. So the **final output/answer** is **4,2**.
+* Remember the **above concept**. [**IMPORTANT**]
+* If it was normal **static scoping** then we wouldn't have to go back to **m()** instead we could have take the value of **a** from the **global declaration of 'a'**.
 
 
 
