@@ -2333,6 +2333,7 @@ Here's the corrected analysis:
 * Remember the **above concept**. [**IMPORTANT**]
 * If it was normal **static scoping** then we wouldn't have to go back to **m()** instead we could have take the value of **a** from the **global declaration of 'a'**.
 
+> Dynamic Scoping -> Dynamic scoping means from stack trace it will take value that is value of a from function it called pass by reference means value will be retained if changes outside function so D is correct
 
 
 
