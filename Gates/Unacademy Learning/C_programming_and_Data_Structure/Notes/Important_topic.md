@@ -1991,6 +1991,13 @@ heap
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a09c3bc-9f88-4f2f-9f2c-5fd114ba0483)
 
+* Question/Doubt
+* Link -> https://gateoverflow.in/3461/gate-it-2007-question-28 
+* Which is the correct answer I am getting D? Some are saying B as well.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c58c0bb8-47fc-417a-98a0-6c9cfdffb65d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e3243f7-3675-48e4-af00-0b9af9aa8e3a)
+
 ## Row and Column Wise Formulas
 
 ### Column Major Order [**IMPORTANT**]
@@ -2022,6 +2029,7 @@ heap
 * Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/6C6C8611CB
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9435275-5f28-43e7-a82a-854d56cd3002)
+
 
 ## Quiz-2
 
@@ -2075,21 +2083,41 @@ heap
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d06b1be9-2e05-4664-ac3c-c71fd93509cc)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/130cfab7-1901-4eb0-aa56-b825381f783d)
 
+## Mega Quiz [**IMPORTANT**]
 
+* Link -> https://unacademy.com/quiz/mega-quiz/5XX9411NS0/solutions/SP_GEP10SX69USF80ICC
+* Practice all of them **again**.
+* Trick questions are there.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0a3a98e-1328-4d8d-b01d-2ed0393e4874)
 
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/20F5207BF6
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6906f7e3-96bb-461b-96e8-23d6b79340e6)
 
+* Link ->
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ce4f4b2-7088-4b6e-9ce9-ffe5b862f7c8)
 
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/07D8B26C65
+* Hand-shaking Lemma
+* For the **sum of degrees** we have to **multiply** them with their **no. of nodes**. For example for **a1** it has **degree '1'** so we will multiply **a1** with **1**. For **a2** we will multiply **2 * a2** like that.
+* Sum of Degrees = 2 * (No. of edges).
+* No. of edges = (No. of nodes) - 1. [This is for **Tree** as there is **no cycle** in tree].
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85ea2132-d4eb-4e70-bf27-cd54eabf8bc5)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/349487a2-f9cb-4fee-9eff-0ee15a271d08)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7fc9e2a5-4cbd-4a7a-9839-a416027dfed7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9124dc5a-8660-45d5-9f66-6beeefda7237)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/938f915d-3e64-47b9-bc65-a73410be9878)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0b5bc55-401e-437d-b7f6-66780849b5cf)
 
+* Solution
 
-
-
-
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/059a16f8-6742-43b4-8eaf-f6cf138e22ab)
 
 
 
