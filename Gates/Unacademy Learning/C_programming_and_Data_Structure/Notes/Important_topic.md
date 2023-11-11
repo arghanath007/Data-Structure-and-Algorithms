@@ -2123,24 +2123,87 @@ heap
 
 * The images no **87,88,89** are not asked in for **doubt** ask them when other doubts are **solved**.
 
+## 87
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa39da3b-17bb-446b-b3e2-7f3723a85cc7)
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/4F8DD35E7C
+
+## 88
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92619055-1a8a-49ea-b48d-4a6a3c993779)
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/466C529520
+* Traversing the whole array **1 time**.
+
+## 89
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4cfff86e-9499-470b-bde5-a39fc0b517a5)
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/2A4849D4E5
+
+
 ## C-Programming Test-1
 
 * Link -> https://unacademy.com/quiz/c-programming-test-1/C8D16FYRMB/solutions/SP_CFXLR4QX6V9VIAWVF
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6289b646-833a-4b6c-bc20-cc28b4742a26)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9dc48fd2-1a55-447b-8e24-29ce54286b74)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f09b50da-c37d-4904-9959-aadf2793403d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c8cdd57a-9e39-4f5f-b0ca-12223b9ca947)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ca8afd86-0f5e-4153-ab18-618e0a4c7459)
 
+* Question 2.
+* Indent doesn't matter, we are still getting **10** as the **answer**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2e962a49-2a9a-450b-87d4-ed49219324f5)
 
+* Question 4
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/898F0459D8
+* Solution of different question is given, waiting for **correct solution**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9c000c45-1e42-40af-a7e9-8765dcb7e69c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a384f10-dabd-4cbd-aab9-eee6a4eb7bb8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b06d0d26-902a-43b8-b310-c09ffd0a0dcc)
 
+* Question 9
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/0F9D9B7B3D
+* Correct Solution Given.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f78c18b-695a-4c22-857f-3eb8eba64060)
 
+* Question 12
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/5CBCB7AA6E
+* X -> Memory Lost(3).
+* Y -> Dangling Pointers(1).
+* Z -> Uninitialized Pointers(2).
+* Correct Solution Given.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0fc64532-bc30-4d7a-974e-9559555a559f)
 
+* Question 14
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/8100844886
+* **A** is a **pointer type Array**.
+* **B** is a **integer 2D array**.
+* A[2] -> Can Take pointer. No Complile Time error
+* A[2][3] -> Can take **integer**. No Complile Time error.
+* B[1] -> It is a **base address** of the array. It cannot be changed as array in **C language** as it is a **constant pointer**. No Complile Time error.
+* B[2][3] -> Can take **integer**. No Complile Time error.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db43c3ba-de4f-4b3c-bc18-257e2a3dde83)
 
+* Question 15
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/415F2F0BD6
+* Incorrect solution. Waiting for **correct solution**.
 
+### Dangling Pointers
 
+* For **Question 12** from the **above Test** of **c-programming Test-1**.
+* Link -> https://www.geeksforgeeks.org/dangling-void-null-wild-pointers/
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f4ecb35f-c616-4aa8-a133-7df75cd45820)
+
+> A pointer pointing to a memory location that has been deleted (or freed) is called dangling pointer. There are three different ways where Pointer acts as dangling pointer.
 
 
 
