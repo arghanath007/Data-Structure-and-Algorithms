@@ -2205,8 +2205,13 @@ heap
 
 > A pointer pointing to a memory location that has been deleted (or freed) is called dangling pointer. There are three different ways where Pointer acts as dangling pointer.
 
+### Activation Record
 
+* For **Question 15** from the **above Test** of **c-programming Test-1**.
+* Link -> https://www.geeksforgeeks.org/access-links-and-control-links/
 
+> An activation record is a contiguous block of storage that manages information required by a single execution of a procedure. When you enter a procedure, you allocate an activation record, and when you exit that procedure, you de-allocate it. Basically, it stores the status of the current activation function. So, whenever a function call occurs, then a new activation record is created and it will be pushed onto the top of the stack. It will remain in stack till the execution of that function. So, once the procedure is completed and it is returned to the calling function, this activation function will be popped out of the stack.
+> If a procedure is called, an activation record is pushed into the stack, and it is popped when the control returns to the calling function.
 
 
 
