@@ -2042,16 +2042,38 @@ heap
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b350b02-36e9-4ad7-a16d-a731a7f6be14)
 
+## Quiz 2
 
+* Link -> https://unacademy.com/quiz/quiz-ii/ULGCT6UVU5/solutions/SP_59DBH6G06JEIHAI6J
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9cc6a942-3705-4e9f-a4c2-2a177a92e06c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc1d5389-ff04-4c4d-a58e-74bdcea03f3b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f54cd99-7492-4cbc-af6b-bbd1178e46cd)
 
+## Quiz-III
 
+* Link -> https://unacademy.com/quiz/quiz-iii/5C2VOPBX3P/solutions/SP_V7WZ94DI18AUCSGSJ
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e27fcd77-f0c0-4473-8c83-4e81a001a4f1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36b09efd-4dbb-4f56-b5f9-1e0946c030e3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f57662d-0b7e-45e2-a338-62c1a5c0513e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9c20e16a-dca5-4388-a931-6c0339a6a8c6)
 
+## Quiz-4
 
+* Link -> https://unacademy.com/quiz/quiz-iv/8PD0KGWQGS/solutions/SP_KVTVHZVQJWTMCAA1Z [**IMPORTANT**]
+* Not solving them correctly.
+* Practice them once again.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d559d62-35bd-46a0-9487-eebcb92e02f7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/908f274e-21d9-4cef-bb7f-43e759cb3ff8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19ee53b7-2892-4ba0-ab7f-3c852592f72b)
 
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/3211C274B0
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2aa2fa08-e39c-4ae9-ac26-34f5514613ad)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d06b1be9-2e05-4664-ac3c-c71fd93509cc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/130cfab7-1901-4eb0-aa56-b825381f783d)
 
 
 
