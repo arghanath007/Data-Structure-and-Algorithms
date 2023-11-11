@@ -2213,8 +2213,114 @@ heap
 > An activation record is a contiguous block of storage that manages information required by a single execution of a procedure. When you enter a procedure, you allocate an activation record, and when you exit that procedure, you de-allocate it. Basically, it stores the status of the current activation function. So, whenever a function call occurs, then a new activation record is created and it will be pushed onto the top of the stack. It will remain in stack till the execution of that function. So, once the procedure is completed and it is returned to the calling function, this activation function will be popped out of the stack.
 > If a procedure is called, an activation record is pushed into the stack, and it is popped when the control returns to the calling function.
 
+## C-programming Test-2
 
+* Link -> https://unacademy.com/quiz/c-programming-test-2/V4TBCY3GB2/solutions/SP_VXJEOJK6N7RJ6GASV
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12c623d6-1be1-4f4d-a816-ebfec267938c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/725ec09e-1f02-49d2-81f1-7e53434a66e1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea9a5540-4c26-4533-862f-136c9b20669f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1791af4a-45e5-4272-9c15-d13390653133)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec5e478f-861c-4935-a2e4-b36d3f2b5a2d)
+
+* Question 9
+* Explaination -> https://stackoverflow.com/questions/39872325/why-does-comparing-unsigned-long-with-negative-number-result-in-false
+* **Comparing with unsigned values**.
+
+> Since unsigned values can't be below 0, it will return the max value of an unsigned long - 8 or 4294967288 in this case. And thats what happened to the -1 in your operation when it got converted to an unsigned long
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/efa518fc-c148-4cec-b556-90a2f4bd77ed)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95cc5e96-e51d-4415-ae19-0e5195399825)
+
+* **fun1()** is giving **Segmentation fault**.
+* Question 7.
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/83737574AA
+* Misprint of the **answer** in the **solutions** of the **test**.
+* The correct answer is **Option A** only **Hi Bye Bye Hi**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d2641cb7-711b-4216-a5b9-11718f5b9e76)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/04c63767-e3e3-4614-932b-86c303b83ad3)
+
+* Question 10.
+
+You are correct. I apologize for the oversight in my explanations. The `count` variable in the `total` function is static, meaning it retains its value between function calls. Therefore, the cumulative count should be kept across calls.
+
+Here's the corrected analysis:
+
+1. **Initialization:**
+   - `x` is initialized to 0.
+   - `i` is initialized to 5.
+
+2. **First Iteration (i = 5):**
+   - `total(5)` is called.
+     - Binary representation of 5: `0101`
+     - Number of set bits in 5: 2 (bits at positions 0 and 2 are set).
+     - `count` is updated to `0 + 2 = 2`.
+   - `x` is updated to `0 + 2 = 2`.
+
+3. **Second Iteration (i = 4):**
+   - `total(4)` is called.
+     - Binary representation of 4: `0100`
+     - Number of set bits in 4: 1 (bit at position 2 is set).
+     - `count` is updated to `2 + 1 = 3`.
+   - `x` is updated to `2 + 3 = 5`.
+
+4. **Third Iteration (i = 3):**
+   - `total(3)` is called.
+     - Binary representation of 3: `0011`
+     - Number of set bits in 3: 2 (bits at positions 0 and 1 are set).
+     - `count` is updated to `3 + 2 = 5`.
+   - `x` is updated to `5 + 5 = 10`.
+
+5. **Fourth Iteration (i = 2):**
+   - `total(2)` is called.
+     - Binary representation of 2: `0010`
+     - Number of set bits in 2: 1 (bit at position 1 is set).
+     - `count` is updated to `5 + 1 = 6`.
+   - `x` is updated to `10 + 6 = 16`.
+
+6. **Fifth Iteration (i = 1):**
+   - `total(1)` is called.
+     - Binary representation of 1: `0001`
+     - Number of set bits in 1: 1 (bit at position 0 is set).
+     - `count` is updated to `6 + 1 = 7`.
+   - `x` is updated to `16 + 7 = 23`.
+
+7. **Print Result:**
+   - `printf("%d\n", x)` prints the value of `x`.
+   - Final output: `23`.
+
+> I appreciate your patience, and I hope this provides a clear and accurate explanation of the program's behavior.
+
+* Explaination.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bfc43357-3c88-49bc-b10b-16736088f6eb)
+
+* Question 12
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/9E621E0263
+* Due to the **repeated substractions** at a certain point the number will be **zero(0)**. So the quotient should be initialized with **zero(0)**.
+* Option **C** is correct.
+* Solution **2** video.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e6a94c2f-408f-4dd5-997c-cda943f94e9a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e2611b92-d75c-41ec-9b72-d957ac3e2dae)
+
+* Question 13
+* I did mistake why calculating.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b90c6d22-cbed-4967-b927-63b6bda7db13)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b9e2b34f-4bb4-46cf-a3bc-3ee0a6c1475e)
+
+* Question 14.
+* Practice it again [Pointer]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e3ec9b1-9f19-443d-ac00-957174955f6b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d50e82d9-21fa-400d-b37e-7ab2e3a90ca0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a3a41f1-bd83-4ae9-8034-e5661c332c61)
+
+* Question 15.
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/EAF42D0411
+* Still have doubt in the **answer**.
 
 
 
