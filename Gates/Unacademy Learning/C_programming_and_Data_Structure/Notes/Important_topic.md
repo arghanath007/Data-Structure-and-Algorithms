@@ -2336,8 +2336,21 @@ Here's the corrected analysis:
 > Dynamic Scoping -> Dynamic scoping means from stack trace it will take value that is value of a from function it called pass by reference means value will be retained if changes outside function so D is correct
 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1da2d62-8563-4d29-8970-42f399b3603f)
 
+* Question
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0c98784-93d4-4541-9658-0cd89ef8344d)
+
+* Explaination
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/55d94410-772b-4cf0-8acf-d08601711406)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f19db3e-771d-4820-b229-c6a468e691a4)
+
+* Explaination
 
 
 
