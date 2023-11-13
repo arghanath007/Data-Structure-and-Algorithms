@@ -2423,6 +2423,112 @@ Here's the corrected analysis:
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf57bc9f-473a-4cca-8de6-858c679d47a9)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b9918e8-d391-4249-8fa8-20e005b0f249)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9cb6347a-24f7-4489-81f3-492d16aa805d)
+
+* Explaination.
+
+## Subject-test-programming-data-structures
+
+* Link -> https://unacademy.com/quiz/subject-test-programming-data-structures/Y3R4SJN550/solutions/SP_2OEXAK01J1D7M718M
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b5d5701-d1e2-4e03-814f-b3b6aab68609)
+
+* Question 1.
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/5791DEB54B
+* Answer in the **test solutions** is incorrect.
+* Correct is **Option 'A'** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9fbbf66e-d35f-415a-a5db-ceb8f5a169ca)
+
+* Always check the **other options** multiple options could be **correct**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/534c420a-6951-4dd4-9a9b-9f5d59b26c09)
+
+* Explaination and the given solution to the question don't make sense.
+* Question 5.
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/2951CE2383
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/abc1e577-3386-4133-ac21-53f7b3f1ba46)
+
+* For **n = 12** we are getting **6 leaf nodes**.
+* For **n = 13** we are getting **7 leaf nodes**. So it will be **Ceil()**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66f22d1a-4d8f-490d-82d1-f4bef220bdd1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9021c3c-8af9-49f3-a4cf-58c92c4a5493)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e060e29c-3d3f-43ef-ad99-185b1df1861e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/21568e70-b9f7-41fa-a5b2-68512be22cad)
+
+* Question 12
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/576D862549
+* Topological Sort/order
+* Still have **doubt**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4705dfde-4ad5-48d5-a4b5-5c840daae97e)
+
+* Silly mistake did it with **2 children**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/53103899-d5f7-48e2-b989-05d31720ee08)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a287d31e-a8e8-4d8e-9d3a-37cd62831417)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3bb91e6c-3f72-4858-ae8c-778ab29944f2)
+
+* I thought it was **merge sort** and it is. Be confident on what you are thinking.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f864de21-e74e-4662-8b61-28ed50f0e401)
+
+* Radix Sort
+* Question 19
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/AB3349942C
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/adff095a-477b-48a8-9d4d-1f72a987ec68)
+
+* Question 20
+* Link -> 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf1568d5-e95d-4b41-8a8b-3b99d3ad53f3)
+
+* [**IMPORTANT**]
+* Question 22
+* Link -> 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb09fdee-aa3a-4d8b-8ebf-902224393f87)
+
+* [**IMPORTANT**]
+* Question 23
+* Link -> 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76d61373-8120-4f92-ba9f-4126ebe147f7)
+
+* Silly mistake should have checked all of the **factors**. I only checked the factors at the **root** of the tree. Check the **factor** where we are **deleting/adding** elements.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f414f28a-9b9f-4a36-8578-9cf16a35a000)
+
+* Silly mistake should have **drawn** a tree and calculated it. For **height** we are starting from **zero(0)**, for **1 node** we have height as **zero(0)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7adcac01-f22a-439e-843a-bbc3ba7ce519)
+
+* **Same** as the above question draw the **tree** and verify the **count**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9c33ed39-a504-4f29-abb4-89f2fc069a76)
+
+* Question 29
+* Link ->
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe81b5d0-df5a-427f-87d5-1319c37eff90)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3593445-4dc2-4624-b99c-236597e8716a)
+
+* Solution/Explaination for some of the **questions** from above.
+
+## Topological Sort and Radix Sort
+
+* Ask the rest of the **above doubts** in the **doubt** section when the other doubts are **answered**.
+
+
 
 
 
