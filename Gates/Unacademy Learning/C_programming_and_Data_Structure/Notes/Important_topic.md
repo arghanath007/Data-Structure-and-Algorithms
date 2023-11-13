@@ -2399,18 +2399,30 @@ Here's the corrected analysis:
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dbab71ce-6e73-4645-ac12-7b6339edecd8)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f0e2fa5-ac7d-4b90-ac66-5b88695dfc4c)
 
+## Data-structures-test-2
 
+* Link -> https://unacademy.com/quiz/data-structures-test-2/5DEA9CNQ39/solutions/SP_TPVBRL9FEEBJD834N
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed286f27-4375-4707-ab2d-c1dffdcf5d1f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1172906c-4230-4153-87a2-e17a14c7458d)
 
+* [**IMPORTANT**]
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/DDF1B29831
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac740147-520e-45fc-9116-c8891d5a011b)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b1772bb-0a92-4a00-8ba7-33d07169e59a)
 
+* Read the questions carefully.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a4796688-1386-4804-9c4b-f729289a47eb)
 
+* [**IMPORTANT**]
 
-
-
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf57bc9f-473a-4cca-8de6-858c679d47a9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b9918e8-d391-4249-8fa8-20e005b0f249)
 
 
 
