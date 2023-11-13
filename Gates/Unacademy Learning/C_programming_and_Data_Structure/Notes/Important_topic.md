@@ -2386,6 +2386,30 @@ Here's the corrected analysis:
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c6b14fed-bf76-4720-b7e0-97242d947a28)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/46f49737-b40b-4d37-83a4-6c243b0686e0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c74e6851-69fb-4f50-99bf-9dcaef468079)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa4e8955-691d-4f1c-8439-f21036f5f863)
+
+* Finding the value of **postfix** expressions.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/897d9001-32b0-4a04-97bb-bf304f16dacf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e2fd313a-1a98-4afc-a078-6cead7afd381)
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/C6F175B107
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dbab71ce-6e73-4645-ac12-7b6339edecd8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f0e2fa5-ac7d-4b90-ac66-5b88695dfc4c)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
