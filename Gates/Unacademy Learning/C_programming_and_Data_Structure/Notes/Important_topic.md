@@ -2352,6 +2352,48 @@ Here's the corrected analysis:
 
 * Explaination
 
+## Data-structures-test-1
+
+* Link -> https://unacademy.com/quiz/data-structures-test-1/XTOUKUUBGZ/solutions/SP_7VJUJT3Z18WMIE34N
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d72c68d-c35e-4736-92d4-92b838cc763b)
+
+* 2
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95485d93-ac41-4906-9e69-5141a01f284a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7bb7aa4f-03c2-46bf-9159-bf161dbe002e)
+
+* Non-decreasing and Non-increasing Meaning.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7985255d-77f2-4a91-8d75-8539a1b4509e)
+
+* 3D array, Column Major Order [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8708811-00b6-402a-9825-4852335f1b54)
+
+* As the index is starting from **-6** and we want till **4** so from **-6 to 4** we have **11** elements.
+* So in each row we have **element count** is **increasing**. At the end we have **10 elements**.
+* Index is starting from **-6** and ending at **8**.
+
+> An **upper triangular matrix** is a square matrix, whose all elements below the principal diagonal are zeros.
+> A **lower triangular matrix** is a square matrix, whose all elements above the principal diagonal are zeros.
+
+* Upper and Lower triangular matrix
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3208650c-65dc-41b1-8e21-c371326ec963)
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/3A0E7E2792
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c6b14fed-bf76-4720-b7e0-97242d947a28)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/46f49737-b40b-4d37-83a4-6c243b0686e0)
+
+
+
+
+
+
+
+
 
 
 
