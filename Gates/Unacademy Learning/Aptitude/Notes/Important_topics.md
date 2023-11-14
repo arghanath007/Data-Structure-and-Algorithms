@@ -1,6 +1,67 @@
 # Aptitude
 
-* Start from Page **187(Newer Course)**.
+* Start from Page **187**.
+
+## Questions
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f696b97-6b20-47d3-aae4-e192dc15aed3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0c0a098-33b9-4530-80ad-f7d0a7c77f84)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/661c29db-7b38-4602-8a99-06555db81c07)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e7bcf223-4d75-48b6-899f-f70c84d83b5f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c1bbc9c-464f-408b-9f38-0d2c73c64077)
+
+* Link -> https://aptitude.gateoverflow.in/3139/The-number-that-least-fits-this-set-324-441-and-________-324-441
+* **97**, **Option C** is the **answer**.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Works/Meanings
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/73e169bb-dbd1-4bf9-a642-61f15f739520)
+
+* Phony -> Sound
+* Eu -> Positive meaning/word.
+
+> **Eu** comes in-front of whatever means/meaning it is saying something **positive**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b5625db-b46f-4b3b-9d82-c1e14b5789ee)
+
+* **Debauch** -> English work for **Tharki** people -> Somebody who has multiple affairs.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ca6f43c-016a-4b48-ad03-3b76c0783409)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/443fd843-566c-42cb-8ab0-cac226dd1577)
+
+* **Fare** -> Price of the car/service we booked -> Price/Money.
+* **Fair** -> Fairness -> Unbiased.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6edf484e-9d00-455b-9615-247d4945615a)
+
+
+
+
+
+
+
+
+
+
+
 
 ## PYQs
 
@@ -57,6 +118,11 @@
 
 * [**IMPORTANT**]
 * Start from **Page 24**.
+
+
+
+
+
 
 
 
