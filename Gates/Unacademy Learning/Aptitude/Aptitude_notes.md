@@ -1154,7 +1154,7 @@
 
 ## Prime and Composite
 
-* **1** is either **prime** nor **composite** number.
+* **1** is neither **prime** nor **composite** number.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/da1f9b69-8eae-4b8c-9927-017c856a7f04)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/25a2e06e-9892-4742-a473-7c4b88de444a)
@@ -1236,7 +1236,8 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ae5c4ef-7156-4f38-bcac-ee3379dc0e89)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a655ec97-ab09-4ac8-8a16-89051829eaaf)
 
-* We need to **add '2'** so that the **no. is divisible by 3**.
+* As we have **1** as the **remainder** from the **7/3 = 1**. So to make it a **3 or a multiple of 3**, we need to **add '2'** so that the **no. is divisible by 3**. So it is **1 + 2 -> 3**, which is a **multiple of 3**.
+* Now it is **divisible by '3'**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7dbb5f66-0c47-4a77-b191-2c1d75878bef)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c5bbcbc5-a9ab-4adf-a006-0634b2837b42)
@@ -1250,7 +1251,7 @@
 * Phony -> Sound
 * Eu -> Positive meaning.
 
-> **Eu** comes infront of whatever means it is saying something **positive**.
+> **Eu** comes in-front of whatever means/meaning it is saying something **positive**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aaa020c8-36c3-4e31-8ac8-77c6e79bd950)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b5625db-b46f-4b3b-9d82-c1e14b5789ee)

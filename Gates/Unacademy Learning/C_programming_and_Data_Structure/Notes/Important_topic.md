@@ -2519,7 +2519,7 @@ Here's the corrected analysis:
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9c33ed39-a504-4f29-abb4-89f2fc069a76)
 
 * Question 29
-* Link ->
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/B7D941AE3B
 * [**IMPORTANT**]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe81b5d0-df5a-427f-87d5-1319c37eff90)
@@ -2530,6 +2530,8 @@ Here's the corrected analysis:
 ## Topological Sort and Radix Sort
 
 ![Uploading image.png…]()
+
+* Ask from **Rocky Telegram friend**.
 
 * Radix sort is out of syllabus I think.
 * Topological is in syllabus.
