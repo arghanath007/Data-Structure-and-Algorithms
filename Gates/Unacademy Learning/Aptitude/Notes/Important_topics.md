@@ -13,6 +13,37 @@
 * Link -> https://aptitude.gateoverflow.in/3139/The-number-that-least-fits-this-set-324-441-and-________-324-441
 * **97**, **Option C** is the **answer**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9aedfca-57c9-428c-af12-1ad65fc152b1)
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/4D43F58F76
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b114c48c-9852-4884-b044-46f7d58ea7d5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/38d63cbe-b754-4e93-94ba-6c22e5f550db)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/59326153-9bfe-4480-965e-36d68c007949)
+
+* Questions
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/599cb09e-9a5a-4abc-9188-a3329429c94d)
+
+* Option **B**, VZDQ.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9adcfe2e-4e8e-4413-83bb-007012aff6d0)
+
+* Prime Numbers
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f3806f4-ba10-4ce1-8aa1-cf2b453d0776)
+
+* Composite Numbers.
+
+
+
+
+
+
+
+
+
+
 
 
 
