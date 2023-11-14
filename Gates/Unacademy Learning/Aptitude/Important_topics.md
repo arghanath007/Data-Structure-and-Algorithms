@@ -2,6 +2,8 @@
 
 ## PYQs
 
+* Doing from the **Aptitude Gate PYQ 2010-2021.pdf** PDF file.
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd7c5b2e-1df5-417e-9839-a3c13193d5d3)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/07b678f4-7c58-45d6-ae6a-44e462e2b244)
 
