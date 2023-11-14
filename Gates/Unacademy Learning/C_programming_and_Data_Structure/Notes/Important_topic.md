@@ -2528,7 +2528,9 @@ Here's the corrected analysis:
 
 * Ask the rest of the **above doubts** in the **doubt** section when the other doubts are **answered**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7babe72d-ef66-449d-b7fb-f6df6f9d688a)
 
+* Explaination.
 
 
 
