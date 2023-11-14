@@ -2333,6 +2333,206 @@ Here's the corrected analysis:
 * Remember the **above concept**. [**IMPORTANT**]
 * If it was normal **static scoping** then we wouldn't have to go back to **m()** instead we could have take the value of **a** from the **global declaration of 'a'**.
 
+> Dynamic Scoping -> Dynamic scoping means from stack trace it will take value that is value of a from function it called pass by reference means value will be retained if changes outside function so D is correct
+
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1da2d62-8563-4d29-8970-42f399b3603f)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0c98784-93d4-4541-9658-0cd89ef8344d)
+
+* Explaination
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/55d94410-772b-4cf0-8acf-d08601711406)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f19db3e-771d-4820-b229-c6a468e691a4)
+
+* Explaination
+
+## Data-structures-test-1
+
+* Link -> https://unacademy.com/quiz/data-structures-test-1/XTOUKUUBGZ/solutions/SP_7VJUJT3Z18WMIE34N
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d72c68d-c35e-4736-92d4-92b838cc763b)
+
+* 2
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95485d93-ac41-4906-9e69-5141a01f284a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7bb7aa4f-03c2-46bf-9159-bf161dbe002e)
+
+* Non-decreasing and Non-increasing Meaning.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7985255d-77f2-4a91-8d75-8539a1b4509e)
+
+* 3D array, Column Major Order [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8708811-00b6-402a-9825-4852335f1b54)
+
+* As the index is starting from **-6** and we want till **4** so from **-6 to 4** we have **11** elements.
+* So in each row we have **element count** is **increasing**. At the end we have **10 elements**.
+* Index is starting from **-6** and ending at **8**.
+
+> An **upper triangular matrix** is a square matrix, whose all elements below the principal diagonal are zeros.
+> A **lower triangular matrix** is a square matrix, whose all elements above the principal diagonal are zeros.
+
+* Upper and Lower triangular matrix
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3208650c-65dc-41b1-8e21-c371326ec963)
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/3A0E7E2792
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c6b14fed-bf76-4720-b7e0-97242d947a28)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/46f49737-b40b-4d37-83a4-6c243b0686e0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c74e6851-69fb-4f50-99bf-9dcaef468079)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa4e8955-691d-4f1c-8439-f21036f5f863)
+
+* Finding the value of **postfix** expressions.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/897d9001-32b0-4a04-97bb-bf304f16dacf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e2fd313a-1a98-4afc-a078-6cead7afd381)
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/C6F175B107
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dbab71ce-6e73-4645-ac12-7b6339edecd8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f0e2fa5-ac7d-4b90-ac66-5b88695dfc4c)
+
+## Data-structures-test-2
+
+* Link -> https://unacademy.com/quiz/data-structures-test-2/5DEA9CNQ39/solutions/SP_TPVBRL9FEEBJD834N
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed286f27-4375-4707-ab2d-c1dffdcf5d1f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1172906c-4230-4153-87a2-e17a14c7458d)
+
+* [**IMPORTANT**]
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/DDF1B29831
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac740147-520e-45fc-9116-c8891d5a011b)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b1772bb-0a92-4a00-8ba7-33d07169e59a)
+
+* Read the questions carefully.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a4796688-1386-4804-9c4b-f729289a47eb)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf57bc9f-473a-4cca-8de6-858c679d47a9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b9918e8-d391-4249-8fa8-20e005b0f249)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9cb6347a-24f7-4489-81f3-492d16aa805d)
+
+* Explaination.
+
+## Subject-test-programming-data-structures
+
+* Link -> https://unacademy.com/quiz/subject-test-programming-data-structures/Y3R4SJN550/solutions/SP_2OEXAK01J1D7M718M
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b5d5701-d1e2-4e03-814f-b3b6aab68609)
+
+* Question 1.
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/5791DEB54B
+* Answer in the **test solutions** is incorrect.
+* Correct is **Option 'A'** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9fbbf66e-d35f-415a-a5db-ceb8f5a169ca)
+
+* Always check the **other options** multiple options could be **correct**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/534c420a-6951-4dd4-9a9b-9f5d59b26c09)
+
+* Explaination and the given solution to the question don't make sense.
+* Question 5.
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/2951CE2383
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/abc1e577-3386-4133-ac21-53f7b3f1ba46)
+
+* For **n = 12** we are getting **6 leaf nodes**.
+* For **n = 13** we are getting **7 leaf nodes**. So it will be **Ceil()**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66f22d1a-4d8f-490d-82d1-f4bef220bdd1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9021c3c-8af9-49f3-a4cf-58c92c4a5493)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e060e29c-3d3f-43ef-ad99-185b1df1861e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/21568e70-b9f7-41fa-a5b2-68512be22cad)
+
+* Question 12
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/576D862549
+* Topological Sort/order
+* Still have **doubt**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4705dfde-4ad5-48d5-a4b5-5c840daae97e)
+
+* Silly mistake did it with **2 children**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/53103899-d5f7-48e2-b989-05d31720ee08)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a287d31e-a8e8-4d8e-9d3a-37cd62831417)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3bb91e6c-3f72-4858-ae8c-778ab29944f2)
+
+* I thought it was **merge sort** and it is. Be confident on what you are thinking.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f864de21-e74e-4662-8b61-28ed50f0e401)
+
+* Radix Sort
+* Question 19
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/AB3349942C
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/adff095a-477b-48a8-9d4d-1f72a987ec68)
+
+* Question 20
+* Link -> 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf1568d5-e95d-4b41-8a8b-3b99d3ad53f3)
+
+* [**IMPORTANT**]
+* Question 22
+* Link -> 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb09fdee-aa3a-4d8b-8ebf-902224393f87)
+
+* [**IMPORTANT**]
+* Question 23
+* Link -> 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76d61373-8120-4f92-ba9f-4126ebe147f7)
+
+* Silly mistake should have checked all of the **factors**. I only checked the factors at the **root** of the tree. Check the **factor** where we are **deleting/adding** elements.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f414f28a-9b9f-4a36-8578-9cf16a35a000)
+
+* Silly mistake should have **drawn** a tree and calculated it. For **height** we are starting from **zero(0)**, for **1 node** we have height as **zero(0)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7adcac01-f22a-439e-843a-bbc3ba7ce519)
+
+* **Same** as the above question draw the **tree** and verify the **count**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9c33ed39-a504-4f29-abb4-89f2fc069a76)
+
+* Question 29
+* Link ->
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe81b5d0-df5a-427f-87d5-1319c37eff90)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3593445-4dc2-4624-b99c-236597e8716a)
+
+* Solution/Explaination for some of the **questions** from above.
+
+## Topological Sort and Radix Sort
+
+* Ask the rest of the **above doubts** in the **doubt** section when the other doubts are **answered**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7babe72d-ef66-449d-b7fb-f6df6f9d688a)
+
+* Explaination.
+
+
 
 
 
