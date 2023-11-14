@@ -1405,7 +1405,7 @@
 * **STEPS**:-
 
 1) If the no. is a **non-prime/composite** number.
-2) Break the no. into it;s **prime factors**.
+2) Break the no. into it's **prime factors**.
 3) Take the **powers** of the **prime factors** and **divide**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea505e8c-fb6a-40f3-9120-9e5e4a9a3bad)
@@ -1485,9 +1485,18 @@
 * 2's UDV -> 6
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b84a8a44-0685-4ede-9aaa-432a928db801)
+
+* 2
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1eb02503-f86a-4fc6-b396-0119a7d5cd0d)
+
+* 2,3 7 and 8.
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16900c84-f866-4a3c-8fec-09acc7edd97d)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aba91643-cb2b-4f58-a1d0-af3000fa9c4c)
+
+* 4 and 9.
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b49637d0-c836-4549-b19d-efabca03de8a)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc45e2ba-9779-420b-8075-2ef1cfa8881a)
 
@@ -1515,6 +1524,7 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ec37fc6-c147-4a2f-bc1f-fc49b9ca260a)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f793af2f-aa83-432b-89b8-e7c71ef61456)
 
+* L2D -> Last Two Digits.
 * The **divisibility** rule of **4** is that the **last two digits** should be **divisible by 4**. [**IMPORTANT**]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3494dee-4e78-4927-94da-892955c8bb21)
