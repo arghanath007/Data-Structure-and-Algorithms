@@ -2122,7 +2122,7 @@ heap
 ## Doubts yet to me asked
 
 * The images no **87,88,89** are not asked in for **doubt** ask them when other doubts are **solved**. (SOLVED below)
-* Only **86** doubt left.
+* Only **86** doubt left. (Solved)
 
 ## 87
 
