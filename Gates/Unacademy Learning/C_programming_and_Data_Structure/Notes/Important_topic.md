@@ -2443,9 +2443,12 @@ Here's the corrected analysis:
 * Always check the **other options** multiple options could be **correct**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/534c420a-6951-4dd4-9a9b-9f5d59b26c09)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8784b5cc-ea15-45cc-abe3-0d2d52c1fa3a)
 
 * Explaination and the given solution to the question don't make sense.
 * Question 5.
+* **Depth of a Node** -> It is the no. of edges present in path from the root node of a tree to that node.
+* **Height of a Node** -> It is the no. of edge present in the longest path connecting that node to a **leaf node**.
 * Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/2951CE2383
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/abc1e577-3386-4133-ac21-53f7b3f1ba46)
@@ -2487,19 +2490,19 @@ Here's the corrected analysis:
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/adff095a-477b-48a8-9d4d-1f72a987ec68)
 
 * Question 20
-* Link -> 
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/85DB953E51
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf1568d5-e95d-4b41-8a8b-3b99d3ad53f3)
 
 * [**IMPORTANT**]
 * Question 22
-* Link -> 
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/8A9229512D
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb09fdee-aa3a-4d8b-8ebf-902224393f87)
 
 * [**IMPORTANT**]
 * Question 23
-* Link -> 
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/88D9283CA5
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76d61373-8120-4f92-ba9f-4126ebe147f7)
 
@@ -2525,6 +2528,11 @@ Here's the corrected analysis:
 * Solution/Explaination for some of the **questions** from above.
 
 ## Topological Sort and Radix Sort
+
+![Uploading image.png…]()
+
+* Radix sort is out of syllabus I think.
+* Topological is in syllabus.
 
 * Ask the rest of the **above doubts** in the **doubt** section when the other doubts are **answered**.
 
