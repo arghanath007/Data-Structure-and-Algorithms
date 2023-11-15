@@ -308,6 +308,69 @@
 
 * Example
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b37b2c0-87e8-4dd1-a23a-87978a222793)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d509f7de-292b-4538-b89a-03448834c480)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/979f5393-3e3f-4d13-9371-9778150a7ea8)
+
+* Break any natural no into it's **prime factor's form**.
+* n -> No. of factors.
+* Sn -> Sum of factors.
+* Pn -> Product of factors.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/121da960-1a15-4675-978f-d40103ff626b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b2a3be36-9658-437b-bf77-75d875d513b9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a69ba092-9c02-4b86-acfa-9180cc0dc6ba)
+
+* **No. of factors** formula. [**IMPORTANT**]
+* **a, b and c** are **prime factors**.
+* **p, q and r** are the **powers of the prime factors**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f3ab77c2-dba0-483a-b487-98c22c9e3388)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/acad5507-c791-4884-b4e9-48af1007aca7)
+
+* Example
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e2c4b134-fe97-4533-a185-6dbcecd9c666)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e9a2cea-81d3-4cdb-b37e-7bcde3c2d834)
+
+* Note.
+
+1) Incase of **perfect squares**, the **power** of the **prime nos** are always **even**.
+2) In **perfect squares**, **power** is always **even**.
+3) In **perfect squares**, the **no. of factors(n)** is always **odd**.
+
+> The powers(p, q and r) are always **even** and adding **+1** gives **odd** only. We know **multiplying odd** nos gives **odd no** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69afe058-3d1f-4a26-9083-c74a0eeb4fbe)
+
+* If we see **odd factors** then we are talking about **perfect squares**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/949684b1-3b0d-4491-b194-f2cbbcf17e1f)
+
+* **Perfect square** means the **powers of the nos** should be **even**.
+* To make a **perfect squares**, we have to make the **powers even**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/062b0526-69fe-406c-bf73-d1e6c00a32d9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8cbb1a3a-a7e1-401c-97cb-9c1fe6f97a26)
+
+* Perfect Square -> Even Power or Power is Even.
+* Perfect Cube -> Power = 3, Power of 3, Multiple of 3 power. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
