@@ -355,19 +355,63 @@
 
 * Perfect Square -> Even Power or Power is Even.
 * Perfect Cube -> Power = 3, Power of 3, Multiple of 3 power. 
+* For any **natural no(N)** find the **prime factors**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/51b2a097-87ff-4040-9450-b073cfa084e9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/496a5299-7d50-4099-a84e-d8102831876f)
 
+* Note
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/faee7fda-0033-493d-9d95-96f9fcfbc617)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a27bde7e-24e7-4ee5-8f0d-8b7d19899110)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce0c49ea-23e3-4ce0-9d0f-09058d573456)
 
+* **NOTE**:-
 
+* **Integers** -> 0, +- 1, +- 2, +- 3, .....
+* Even Integers -> 0, +- 2, +- 4, +- 6, .....
+* Odd Integers -> +- 1, +- 3, +- 5, +- 7, ......
 
+* **Integers** [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba8ebf59-d4e7-42a2-8680-53dfeae5b7e0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b7133dd-59ea-48f3-a039-05b4833a337b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d2742193-cdad-4870-96a3-a4a503af53b0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5581f845-d31c-4d05-9711-2290b1e515f6)
 
+* Never just say **integers** always say **positive or negative integers**.
+* **a - b = Even**, the **difference** of **two nos** is **even**.
+* **Must be True** -> Unconditionally True.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/126c30d6-d3ea-4456-ab2a-6a372be29095)
 
+* If asked in the question that **which of the following could/can** be even?
 
+> Then we could have also given option **A** along with option **C** as it was satisfying one of the **two** conditions where **a - b = Even**.
 
+> We are talk about **possibilities**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/865156d2-3d26-445c-89b2-63d81ec8d642)
+
+* **Can/could** -> Option **A and D** correct in that case.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2de31c0e-08a7-4605-af75-747fb63b7faa)
+
+* Must be true, except = **False**
+* Must be false, except = **True**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f2f0f4d-ac9b-430a-ae84-2ebf2feac857)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a394ccdd-e08c-463d-975c-621510d00533)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b83f351-ce1b-4316-8483-5fccdcb860ea)
+
+* Smallest Value -> (1/x) -> Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f1d18d4-5419-40e5-9c05-4c8f134dbb50)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c90b63d2-a50f-4927-ad73-694441494e72)
+
+* **a, b and c** are **prime factors**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3f2db4e-6e40-484f-885d-4795f56887da)
 
 
 
