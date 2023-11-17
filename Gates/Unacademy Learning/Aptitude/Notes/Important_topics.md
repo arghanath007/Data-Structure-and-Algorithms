@@ -573,6 +573,7 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ddfb28b4-734e-4521-a151-612fa9bc47c5)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4dcfd995-d319-4f63-966d-d905c88ee728)
 
+* Till **Aptitude_1_10** PDF File.
 
 
 
@@ -585,6 +586,42 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+## Verbal Reasoning
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66976464-aede-43af-a9bc-95f86845e5a5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36293992-ecfe-4b02-b10d-7302bf38894f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c4759550-0d8a-43d6-909a-74c8086eca3e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2988c0f0-5c77-44ab-9368-94cec4199c24)
+
+* Certain -> Some.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/28284e0b-d9e7-499b-87a7-a32c28a46b9d)
+
+* Option **B**. Correct answer.
+
+* **180 degree words**:- [**IMPORTANT**]
+
+1) Though
+2) Although
+3) However
+4) Despite
+5) Inspite off
+6) But
+7) Yet
+8) Notwithstanding
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb044243-9bad-49f0-bf2f-7197aa83acbd)
 
 
 
@@ -632,9 +669,24 @@
 * **Fair** -> Fairness -> Unbiased.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6edf484e-9d00-455b-9615-247d4945615a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f02248f5-88e0-421c-89c5-1f8a5f075efd)
 
-
-
+* Underpin -> Support, justify.
+* Where ever **burse** word comes it is related to purse(wallet)
+* Xenophobic -> Fear of the unknown.
+* phobia/phobic -> Fear of something.
+* Nationalism -> Positive Word.
+* Jingoism -> Negative Word.
+* Secular/Communal -> Community.
+* Heterogeneous -> Multiple Philosophies.
+* Give in -> Surrender
+* Euphemism -> Telling something in a way that the front person doesn't get hurt. [**IMPORTANT**]
+* **Eu** -> Positive meaning
+* Cognitive -> Thought Process.
+* Cog -> Knowledge.
+* demonstrated
+* demo -> About people
+* democracy
 
 
 
