@@ -516,7 +516,57 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd1405dc-1b47-4d24-b84f-897fde3dbe41)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/28168ecb-61e1-41e7-8137-a00109982479)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/254abde3-0af2-4ad8-8d1c-aa4bae998695)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bea15b51-ca58-4346-ad3d-fdbbf225fa6d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f9ee9933-d957-4bcd-8352-85094a3a1e43)
 
+* Option **B**.
+* Unit digit asked so **5!** onwards there is a **zero(0)** at the **unit digit place**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/60fa466b-f791-495c-820c-a4af17c3b326)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3fc80258-831d-4deb-b2eb-04beb60f1a19)
+
+* **Last 2 digits** asked so **10!** onwards there is a **two zeros(0)** at the **unit and tenth digit place**.
+
+* Find the **prime factors** of **168**.
+* Find from where the **remainder** of the **factorials** is **zero(0)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b3087a5-09e9-4d45-be0e-98bc7af5b454)
+
+* From **7!** onwards, **remainder = 0**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89c02bec-26ff-490a-a07a-43786f549a3f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c334f830-77c0-477d-a18c-ee34e00f8679)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a23a205-65d2-4572-9e41-7cf7491a4f12)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/68b445a9-1e23-4a9d-a922-9677cff818ad)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bab323d7-51cf-42f5-94c5-2c99f5f5d884)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d2a55035-a23b-49ee-94c7-4aa6de45c849)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d458743-4ad6-4889-95ff-3ee47b83b712)
+
+* Book pages **count**.
+* **Co-prime/Relatively Prime** -> When the **HCF(Highest Common Factor)** between two nos. is **1**. **HCF = 1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a29ea6a-9e7a-4570-9e72-5a18973e4f8a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f3e6603d-a751-4aa2-9e7f-21aa64f5ec20)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98071416-055f-4993-bffe-d0cb79734373)
+
+* Example
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/832949ea-ee0c-47eb-be5c-471772cc16eb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66714a3f-cb7a-4d89-927c-ee6563b9b319)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e2bc677-df4b-4884-95da-82e5e8fa175a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1c557f9-e580-4671-89f9-8460b67c9265)
+
+* Finding the **sum**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95f336e7-6257-4d91-a885-5a8da53ec77a)
+
+* If we see **fractions** in **powers** then we can take **LCM** of the powers and then **compare** them, which is **greater or smaller**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e51aa007-3d75-45e4-86e3-8934807fce0a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8c592322-7db2-4e2d-a52c-561db12fe39e)
+
+* Once check how to find the **HCF and LCM** easily from **PDF 10**.
 
 
 
