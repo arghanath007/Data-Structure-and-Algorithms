@@ -355,26 +355,223 @@
 
 * Perfect Square -> Even Power or Power is Even.
 * Perfect Cube -> Power = 3, Power of 3, Multiple of 3 power. 
+* For any **natural no(N)** find the **prime factors**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/51b2a097-87ff-4040-9450-b073cfa084e9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/496a5299-7d50-4099-a84e-d8102831876f)
 
+* Note
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/faee7fda-0033-493d-9d95-96f9fcfbc617)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a27bde7e-24e7-4ee5-8f0d-8b7d19899110)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce0c49ea-23e3-4ce0-9d0f-09058d573456)
 
+* **NOTE**:-
 
+* **Integers** -> 0, +- 1, +- 2, +- 3, .....
+* Even Integers -> 0, +- 2, +- 4, +- 6, .....
+* Odd Integers -> +- 1, +- 3, +- 5, +- 7, ......
 
+* **Integers** [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba8ebf59-d4e7-42a2-8680-53dfeae5b7e0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b7133dd-59ea-48f3-a039-05b4833a337b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d2742193-cdad-4870-96a3-a4a503af53b0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5581f845-d31c-4d05-9711-2290b1e515f6)
 
+* Never just say **integers** always say **positive or negative integers**.
+* **a - b = Even**, the **difference** of **two nos** is **even**.
+* **Must be True** -> Unconditionally True.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/126c30d6-d3ea-4456-ab2a-6a372be29095)
 
+* If asked in the question that **which of the following could/can** be even?
 
+> Then we could have also given option **A** along with option **C** as it was satisfying one of the **two** conditions where **a - b = Even**.
 
+> We are talk about **possibilities**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/865156d2-3d26-445c-89b2-63d81ec8d642)
 
+* **Can/could** -> Option **A and D** correct in that case.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2de31c0e-08a7-4605-af75-747fb63b7faa)
 
+* Must be true, except = **False**
+* Must be false, except = **True**
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f2f0f4d-ac9b-430a-ae84-2ebf2feac857)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a394ccdd-e08c-463d-975c-621510d00533)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b83f351-ce1b-4316-8483-5fccdcb860ea)
 
+* Smallest Value -> (1/x) -> Option **B**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f1d18d4-5419-40e5-9c05-4c8f134dbb50)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c90b63d2-a50f-4927-ad73-694441494e72)
 
+* **a, b and c** are **prime factors**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3f2db4e-6e40-484f-885d-4795f56887da)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2dcb4b12-31d4-4ed5-b3f2-91c4cb062c00)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83739d22-5052-4f7c-8134-384449169a34)
+
+* How many factors are **odd** and how many factors are **even**?
+* n_odd -> No. of **odd** factors.
+* n_even -> No. of **even** factors.
+* Factors = Divisors. [**IMPORTANT**]
+* What are **odd** factors?
+
+> **Odd** numbers. **1 and 3**. That's why **2** odd factors.
+
+* What are **even** factors?
+
+> **Even** numbers. **12, 2, 6 and 4**. That's why **4** even factors.
+
+* If we want to find **odd** factors then do exactly the **same thing** as we do when finding **no. of factors**. **Power + 1** then multiply. **YES**. But do it for **odd factors only**.
+
+* 12 -> 2 ^ 2 + 3 ^ 1
+
+> As **3** is an **odd no** and we are finding **odd factors**, so we will take **3** only. So the power of **3** is **1**, which means **odd factor = (1 + ) = 2**.
+
+* n_odd + n_even = n.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1700e1aa-d2c7-4fd0-aa01-248392c24477)
+
+* Prime Factors of 12 -> (2 ^ 2) * (3 ^ 1)
+
+> When we are **dividing by 2**, then we are taking out **2** from the **Prime Factors of 12** and we are left with **(2 ^ 1) * (3 ^ 1)**. So to find the **no. of factors of 2**, we will take the **powers** of the **prime factors** and **add + 1** to them. So, **(1 + 1) * (1 + 1) -> 2 * 2 -> 4**.
+
+* **No. of factors of 2** -> 04.
+
+> When we are **dividing by 3**, then we are taking out **3** from the **Prime Factors of 12** and we are left with **(2 ^ 2)**. So to find the **no. of factors of 3**, we will take the **powers** of the **prime factors** and **add + 1** to them. So, **(2 + 1) -> 3**.
+
+* **No. of factors of 3** -> 03.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f46812d-ef90-4e52-88a2-28b38fc88295)
+
+* n_even -> /2 [Divide by 2]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69000e43-94cb-42ee-a49b-9564c082fc62)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ca2c08d-ae31-4ad9-9d24-000112b80d68)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69651f2e-ab9e-484a-af58-9db79d9f91ca)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d166d87b-7e4c-4448-97e8-ce86af51c04d)
+
+* n = No. of factors
+* N -> No. Or Number
+* Pn = (N) ^ (n/2)
+
+* N = 12
+* n = 06
+* Pn = (N) ^ (n/2) -> 12 ^ (6/2) -> 12 ^ 3.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71e3c27b-9778-4434-bc1c-482dae2298c3)
+
+* Product of Factors
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9a296626-c226-40a7-94eb-d2707220ff6f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f02e1f88-262f-4f47-88e1-19f96da94cec)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/10560298-0f2a-4078-b6da-5e8a42a713f0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8300cfa4-8c35-4d0b-a9c0-d784eda1141f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a7bd17b-f38b-4b3d-bd9e-2e9efff19219)
+
+* Sum of Factors(Sn) formula. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2357b7dc-35f7-41d9-af59-7f88f2c1aad6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/53ae33b1-1957-43c2-a75b-43a524471f3b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/598a8fb9-0621-45b0-b47c-c94bb8de6e28)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d30dae54-a06c-4c6b-b95b-b5042f752eb1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c63a8f31-c6af-4429-ba02-44be7982c938)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3844b12c-325a-4c05-9c6f-a62f5c2273cf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc22440f-099d-4573-9b86-011797cf9e78)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c7ddfba-8d1f-45ac-b086-e77e7d9b538a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bdb5d925-0f37-4099-84b2-dfbc8b7e4031)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/387f5cad-48d5-4102-8444-dd4777a29483)
+
+* Regardless the value of **n**, we will get **1**.
+* ((a + 1) ^ n)/a = 1
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a591550-06d3-4139-91b9-65b927094ecf)
+
+* (a ^ odd)/(a + 1) -> No. itself(a)
+* (a ^ even)/(a + 1) -> 1
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f21d88d-c1ba-41e7-8c0c-ac919aaa2db1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f347c2a9-6e8e-4449-be84-2ce5021b7d61)
+
+* Examples
+
+* As long as there is **no factorial**, **2023** is **odd**.
+* (odd ^ (anything)) -> Odd.
+* As long as there is **factorial**, **2023!** is **even**, whatever the **power** is.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/472d386a-f9ee-42eb-be31-0c277b41ecbf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a170a6a1-a3d4-4a72-930c-65431d894769)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5b31f08-69bb-40a0-a92f-3aa30999d969)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/96a28395-ad43-4c20-bbcb-b043a7d6474e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/800f6fc1-6afd-4178-a76a-d116a8a9bdf7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/708dc000-8cab-4aef-8be8-61af9be41c06)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/950e6909-a1fa-48f4-9a1e-175bef2f06f8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3fa7fffc-969d-4349-9f0d-7bc7f623406e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/87a8bf55-ffd6-465f-9208-99416c255b42)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd1405dc-1b47-4d24-b84f-897fde3dbe41)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/28168ecb-61e1-41e7-8137-a00109982479)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/254abde3-0af2-4ad8-8d1c-aa4bae998695)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bea15b51-ca58-4346-ad3d-fdbbf225fa6d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f9ee9933-d957-4bcd-8352-85094a3a1e43)
+
+* Option **B**.
+* Unit digit asked so **5!** onwards there is a **zero(0)** at the **unit digit place**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/60fa466b-f791-495c-820c-a4af17c3b326)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3fc80258-831d-4deb-b2eb-04beb60f1a19)
+
+* **Last 2 digits** asked so **10!** onwards there is a **two zeros(0)** at the **unit and tenth digit place**.
+
+* Find the **prime factors** of **168**.
+* Find from where the **remainder** of the **factorials** is **zero(0)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b3087a5-09e9-4d45-be0e-98bc7af5b454)
+
+* From **7!** onwards, **remainder = 0**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89c02bec-26ff-490a-a07a-43786f549a3f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c334f830-77c0-477d-a18c-ee34e00f8679)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a23a205-65d2-4572-9e41-7cf7491a4f12)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/68b445a9-1e23-4a9d-a922-9677cff818ad)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bab323d7-51cf-42f5-94c5-2c99f5f5d884)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d2a55035-a23b-49ee-94c7-4aa6de45c849)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d458743-4ad6-4889-95ff-3ee47b83b712)
+
+* Book pages **count**.
+* **Co-prime/Relatively Prime** -> When the **HCF(Highest Common Factor)** between two nos. is **1**. **HCF = 1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a29ea6a-9e7a-4570-9e72-5a18973e4f8a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f3e6603d-a751-4aa2-9e7f-21aa64f5ec20)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98071416-055f-4993-bffe-d0cb79734373)
+
+* Example
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/832949ea-ee0c-47eb-be5c-471772cc16eb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66714a3f-cb7a-4d89-927c-ee6563b9b319)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e2bc677-df4b-4884-95da-82e5e8fa175a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1c557f9-e580-4671-89f9-8460b67c9265)
+
+* Finding the **sum**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95f336e7-6257-4d91-a885-5a8da53ec77a)
+
+* If we see **fractions** in **powers** then we can take **LCM** of the powers and then **compare** them, which is **greater or smaller**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e51aa007-3d75-45e4-86e3-8934807fce0a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8c592322-7db2-4e2d-a52c-561db12fe39e)
+
+* Once check how to find the **HCF and LCM** easily from **PDF 10**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b855157-9049-4204-9c3c-bc14bf095d44)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e8cb2cd-1f1e-4c52-9660-5055b78bc303)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ddfb28b4-734e-4521-a151-612fa9bc47c5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4dcfd995-d319-4f63-966d-d905c88ee728)
 
 
 
