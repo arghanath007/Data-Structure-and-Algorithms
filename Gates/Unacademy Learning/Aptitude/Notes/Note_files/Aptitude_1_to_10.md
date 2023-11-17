@@ -1084,6 +1084,9 @@ N -> No. Or Number
 * Option **B**. 
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/254abde3-0af2-4ad8-8d1c-aa4bae998695)
+
+* Option **B**.
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bea15b51-ca58-4346-ad3d-fdbbf225fa6d)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/818161df-ad01-4472-9656-4ea18276a61f)
 
@@ -1160,12 +1163,12 @@ N -> No. Or Number
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7fd406cf-6333-40dd-ba98-1dce3e4b0143)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a15f1040-271a-4f58-9c4d-233836295f51)
 
-* We are trying to find those nos which are **les than equal to 10** and **relatively prime** to **10**.
+* We are trying to find those nos which are **less than equal to 10** and **relatively prime** to **10**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81af15e0-0d2c-4bbe-b17c-22b8a463872a)
 
 * Factors of 10 -> 2 and 5.
-* All those natural nos which are **les than equal to 10** and they don't have **2 and 5** both. If anyone of **2 or 5** is there in a no., then it will show up in the HCF.
+* All those natural nos which are **less than equal to 10** and they don't have **2 and 5** both. If anyone of **2 or 5** is there in a no., then it will show up in the HCF.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5460e8df-717e-45b4-8b82-0bf801c75646)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/449b2f3f-ee84-4908-b32b-679893bcc32e)
@@ -1194,12 +1197,12 @@ N -> No. Or Number
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98071416-055f-4993-bffe-d0cb79734373)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ccc0a619-9ef7-4ce3-915d-b0d115395201)
 
-* Natural nos, less than equal to **N** and are **relatively prime to 'N'.
+* Natural nos, less than equal to **N** and are **relatively prime to 'N'**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/21d717ce-220e-4e94-86b0-74b8af863ea9)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50061fd4-ab12-4cd7-b17c-5bbc50cffa19)
 
-* **N** -> Prime factors -> (Nos <= N) and (N * (1 - (1/a)) * (1 - (1/b)) * (1 - (1/c))
+* **N** -> Prime factors -> (Nos <= N) and (N * (1 - (1/a)) * (1 - (1/b)) * (1 - (1/c)))
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22a67194-2cec-4ccb-8a7b-95cf957b711a)
 
