@@ -11,7 +11,7 @@
 * Whenever there is the use of the word **whether**, it is a **choice between two**.
 * I cannot able to understand **whether** to go for a or b. 
 * **If** -> Conditional clause.
-* **whether** -> Choice between two things.
+* **whether** -> Choice between two things. [**IMPORTANT**]
 
 * When I saw the baby, it was crying. -> **Correct**.
 * We use **It** for **three** things:-
@@ -59,21 +59,23 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed722ff5-282e-406b-bc9e-6acdb01e993a)
 
 * Conclusion -> What can we conclude.
-* Inference ->
-* Deduction ->  
+* Inference -> What can we infer.
+* Deduction -> What can we deduct.
 
 * CID
-* What can be infered from the above paragraph?
+* What can be inferred from the above paragraph?
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d258b396-85e6-450e-ab4d-171c9c88afc3)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2044270b-b9ff-447d-9816-3361f5a47e90)
 
-* Verbal and Critical Reasoning:-
+* Verbal and Critical Reasoning:- [**IMPORTANT**]
 
 1) CID [Most focussed on in GATE exam]
 2) If **True**, then which statements, **strengthens** the above argument. **Bolster, underpin**.
 3) If **True**, then which statements, **weakens** the above argument. **Undermine, undercut**.
-4) They will give a paragraph and they will **delete** the **last line**. It is will asked, **Which line is deleted?** from the above paragraph. **What is the center idea of the paragraph?**. Most **Miscellaneous** questions as well.
+4) They will give a paragraph and they will **delete** the **last line**. It will be asked, **Which line is deleted?** from the above paragraph. **What is the center/central idea of the paragraph?**. 
+
+> Most **Miscellaneous** questions as well.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b577499-cf2f-4099-b4b8-b851ea3576e4)
 
@@ -103,7 +105,6 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97731156-9b38-4103-82f1-ad9d05926d26)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a401805-c12d-4c24-a45f-21580784aece)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/84c877ad-c7ba-44a3-bbf0-fb31dd8d6b91)
-
 
 * **NOTE**:-
 
@@ -170,15 +171,15 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1137f690-5bba-42e9-96d4-8ab88e625f6b)
 
-* Option **A**.
+* Option **A**. [**IMPORTANT**]
 * Reasoning -> We want **unique solutions(us)**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f49c07e8-7b86-421a-a836-3676aa186239)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/52d191a1-4fd3-4d18-b5fe-8be5b39f2554)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/844c44db-a1ca-4398-9a26-3cf9b859a539)
 
-* If we choose **statemen 1** only then we are getting an **unique solution** of **Riaz(R)** as the eldest son.
-* If we choose **statemen 2** only then we are not getting an **unique solution** as both **Riaz(R) and Shiv** are coming as the eldest son.
+* If we choose **statement 1** only then we are getting an **unique solution** of **Riaz(R)** as the eldest son.
+* If we choose **statement 2** only then we are not getting an **unique solution** as both **Riaz(R) and Shiv** are coming as the eldest son.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef739238-ab69-4d28-a4b2-9b509fc12133)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a9db96f-3f4d-4f49-be1f-b8726ecdf88a)
@@ -225,7 +226,7 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5d86194-ae0d-48fd-8f58-c203e3835789)
 
-* Option **C**.
+* Option **C**.[**IMPORTANT**] 
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6aaa5058-deb2-4a49-bb0d-4c24d7847e4d)
 
@@ -236,29 +237,31 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/509dbe11-7c32-42af-9af5-09ffd20c030b)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ca91958-8311-4ba2-a46e-00dfef95474d)
 
-* Comes in Exams. Remember it.
+* Comes in Exams. Remember it. [**IMPORTANT**]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a15824eb-2df8-41fa-899f-27ec1030eae4)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4a8f42a-1f81-4d28-8ca4-05f06e2e5290)
 
-* Option **B**.
+* Option **B**. [**IMPORTANT**]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c9c8ad5-4842-40be-9381-4e19b683b13d)
 
-P -> < 10
-R -> > 10
-S -> > 15
-Q -> < 8 
+* P -> < 10 (Male) [A]
+* R -> > 10 (All people)
+* S -> > 15 (All people Except non-residents) [C,D]
+* Q -> < 8  (Female)
+* T -> [B]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/54df0d37-1e28-4654-ad30-d89e14e262ab)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/54e3d1c9-5b5c-447a-8c27-e73de2b0fad8)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa3baa5f-653b-4eb9-8246-8cd89c8feb43)
 
-* Option **C**.
+* Option **B**.
+* Link -> https://gateoverflow.in/41496/gate2014-ec-1-ga-7
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/834ad0b5-cf7e-4cfd-a97a-f447e6fefac5)
 
-* **IV**, option **C**.
+* **IV**, option **C**. [**IMPORTANT**]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/336f2089-18db-47a9-8537-a23c39d31790)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72d2bdb9-1977-49d9-85ac-d0568f46c8b7)
@@ -270,9 +273,12 @@ Q -> < 8
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/970ed274-aee0-4359-a17e-24c61f3e92db)
 
 * Option **D**.
+* Link -> https://gateoverflow.in/1944/gate-cse-2014-set-2-question-ga-7
 * Will discuss on next class.
 
-## Quiz-2 Discussion
+## Quiz-2 Discussion [**IMPORTANT**]
+
+* Really good questions given. **Practice** them **again**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0768d646-d06f-4f28-8784-d3f74ac095c8)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c4aae29-0cf4-4c11-a082-df07bd45f562)
@@ -300,6 +306,8 @@ Q -> < 8
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2bba5611-8f55-46c1-afa2-b8eebea05351)
 
+* Option **B** [**IMPORTANT**]
+
 ## Permutation combination probability part-I
 
 * Where ever there is a **choice**, we want to select two black markers **or** three red markers. We want to select three boys **or** four girls.
@@ -307,6 +315,7 @@ Q -> < 8
 
 * When there is **no choice**, we want to select two black markers **and** three red markers. We want to select three boys **and** four girls.
 * When there is **no choice**, we use **multiplication( * )** and in probability we use **intersection(n)**.
+* Remember it.[**IMPORTANT**]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e06c033e-c255-4e0a-ba57-48f306248a7d)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b64d580f-f530-43c1-9591-62c4d89ebf2d)
@@ -400,7 +409,7 @@ Q -> < 8
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c02d1304-62ed-45c1-8f88-90ff65204c6c)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf9d5d99-9921-4f46-83c3-956e79aaeff0)
 
-### Conclusion
+### Conclusion [**IMPORTANT**]
 
 1) In **permutation and combination**, always attack the **condition** at the **first place**. 
 2) If condition is given, then **sort** the conditions and after **sorting** go to the **very first place**. If **repetition is allowed or not allowed**, if there is **zero or no zero**, once we are **done/satisfied** with the **condition**, we will go to the **very first place**.
@@ -613,7 +622,7 @@ Q -> < 8
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/21242554-aa3a-494d-8672-f5979a85ba86)
 
 1) Do for **one case**.
-2) Whatever no we got **multiply** it with the **no. of digits no.** is asked in the question.
+2) Whatever no we got **multiply** it with the **no. of digits** is asked in the question.
 
 > Here, it was asked for a **3 digit no**.
 
@@ -763,6 +772,9 @@ Q -> < 8
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/560415bf-fad4-4daa-9b74-546e6bd759fe)
 
 * Answer -> **50**.
+* Small **Trick** to solve it **faster**. 
+
+> We have the range from **1 to 5** so the **min** for the **ten and unit** place is **2 and 1**. The **max** for the **ten and unit** place is **5 and 4**. So We will start from with the **min of 2** which is **2/3/4/5** so **4 permutation**. The max is **5**. So we will do **(4 * 5)/2 -> 10** which is the **permutation** for the **unit and tenth** place. As the **hundred place** is **independent** so we will do **5** for it. So the final answer is **10 * 5 -> 50** which we got earlier as well.
 
 ## Permutation combination probability part-III (15) [16th June 2023]
 
