@@ -573,6 +573,54 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ddfb28b4-734e-4521-a151-612fa9bc47c5)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4dcfd995-d319-4f63-966d-d905c88ee728)
 
+* Till **Aptitude_1_10** PDF File.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec62c281-072a-4b63-af2b-1ee0c349bfc9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/948a63c1-9e56-4917-95db-5f7f202c1e50)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/08311b6f-950b-40f2-afac-b72ce131fe26)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1da95021-e078-4895-ab27-4277a001f1ac)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/224e2d9c-d826-4d5c-82b8-9bf6084a02ac)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b7bdd35-f32f-4e7b-88e7-a317e5c6c96b)
+
+* Zero(0) at the unit place.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/42050d84-e162-4002-92bc-d7cd45234adc)
+
+* Non-zero(0) at the unit place.
+*  We are adding **4 + 6 =10**, because either the **Zero(0) at the unit place** will come or the **Non-zero(0) at the unit place** will come. **OR** that's why we did **add**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6db1d61d-427b-44f4-aed2-31c164f77931)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d63fc1ae-eb56-4b47-9ff7-84132d1fbfb4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/93dfb9c3-0c32-4d73-9c66-c6693854147c)
+
+* No-repetition. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b3003e3-c06f-4ff6-bc88-b349e8ec76ed)
+
+* Exactly one **5**.  Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c6a7464d-6203-4ffa-8a66-95c4bc12e54e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/68f7187c-574d-4b8a-bcc3-f80d88cf69c9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e819758b-f8ae-4d15-b7b6-21551042de71)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1add0f1-0704-4fde-bde8-d3160d6acf00)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c6b7230-1a4a-43d8-afba-ac5d665a9298)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0de353f-1b9d-4601-bd38-2e8294685620)
+
+* Using the digits **1/2/3/4/5**, how many **3-digit nos** can be formed which have **atleast one 5**? 
+
+> **61**.
+
+### Atleast one '5'
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8bb4e79-d2a2-4958-974a-5f441021f792)
+
+* **Atleast one '5'** -> Total - (what is not required).
+* Total -> 5 * 5 * 5 -> 125
+* Not Required -> The cases, where there is **no '5'(1 - 4)**.
+* Not Required -> 4 * 4 * 4 -> 64
+* **Atleast one '5'** -> Total - (what is not required) -> 125 - 64 -> **61**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b8d8edf-c777-463e-8459-0a9204374b3f)
 
 
 
@@ -585,6 +633,43 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+## Verbal Reasoning
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66976464-aede-43af-a9bc-95f86845e5a5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36293992-ecfe-4b02-b10d-7302bf38894f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c4759550-0d8a-43d6-909a-74c8086eca3e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2988c0f0-5c77-44ab-9368-94cec4199c24)
+
+* Certain -> Some.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/28284e0b-d9e7-499b-87a7-a32c28a46b9d)
+
+* Option **B**. Correct answer.
+
+* **180 degree words**:- [**IMPORTANT**]
+
+1) Though
+2) Although
+3) However
+4) Despite
+5) Inspite off
+6) But
+7) Yet
+8) Notwithstanding
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb044243-9bad-49f0-bf2f-7197aa83acbd)
 
 
 
@@ -632,6 +717,24 @@
 * **Fair** -> Fairness -> Unbiased.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6edf484e-9d00-455b-9615-247d4945615a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f02248f5-88e0-421c-89c5-1f8a5f075efd)
+
+* Underpin -> Support, justify.
+* Where ever **burse** word comes it is related to purse(wallet)
+* Xenophobic -> Fear of the unknown.
+* phobia/phobic -> Fear of something.
+* Nationalism -> Positive Word.
+* Jingoism -> Negative Word.
+* Secular/Communal -> Community.
+* Heterogeneous -> Multiple Philosophies.
+* Give in -> Surrender
+* Euphemism -> Telling something in a way that the front person doesn't get hurt. [**IMPORTANT**]
+* **Eu** -> Positive meaning
+* Cognitive -> Thought Process.
+* Cog -> Knowledge.
+* demonstrated
+* demo -> About people
+* democracy
 
 
 
@@ -641,6 +744,16 @@
 
 
 
+
+
+
+
+
+
+
+## Doubts
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a59bc549-4298-4d65-bf77-b2a2830b02f3)
 
 
 
