@@ -839,7 +839,7 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/191fa088-5ff4-4408-a683-1661c689608f)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e8f1fe4-0de2-46b6-844f-d59f99e5e24e)
 
-* Always break into **zero and non-zero** cases.
+* Always break into **zero and non-zero** cases. [**IMPORTANT**]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f9d3c153-1809-4c24-8385-0674f5378c22)
 
@@ -914,7 +914,7 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df5a5d03-edcc-46ad-815d-650035083c55)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/578d172f-6a7d-4107-93d9-dda5d168a1b2)
 
-* Formulas.
+* Formulas [**IMPORTANT**].
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/413a849b-1f4d-443d-91a4-3bfc6004ab39)
 
@@ -1001,7 +1001,7 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4249c700-2022-4495-ab0c-64b1ef75670f)
 
-* We want to **arrange** the **5** people -> First **select** the **5** people and then **arrage** the **selected** people -> 5C5 * 5! -> 1 * 120 -> **120**.
+* We want to **arrange** the **5** people -> First **select** the **5** people and then **arrange** the **selected** people -> 5C5 * 5! -> 1 * 120 -> **120**.
 
 * If we have **n** distinct objects and we want to **arrange** all of them -> nCn * n! -> 1 * n! -> **n!**.
 * It is always **n!**.
@@ -1009,14 +1009,14 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc01a149-e48a-4437-ae08-b01bfbed0c76)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff2bdc43-c5f7-439a-a9d8-991091cb9ded)
 
-* Whenever we use **permunation and combination(p&c)**, there is always an **inherent** assumption that **repetition is not allowed** or **no repetition**.
-* That's why we say **n** distinct objects in **permunation and combination(p&c)**.
+* Whenever we use **permutation and combination(p&c)**, there is always an **inherent** assumption that **repetition is not allowed** or **no repetition**.
+* That's why we say **n** distinct objects in **permutation and combination(p&c)**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/120ce398-e2d0-4e53-b46e-87f0b4a3e119)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fce118d2-f51e-42f7-8766-0a994b03d8c4)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f5f4ecc-d29d-4ad8-ac67-f14cecb7daeb)
 
-* Using the **4-letter** word, **PEAK**, we are creating a **4-leeter word**, which is **4C4 * 4! -> 1 * 4! -> 4! -> 24**.
+* Using the **4-letter** word, **PEAK**, we are creating a **4-letter word**, which is **4C4 * 4! -> 1 * 4! -> 4! -> 24**.
 * Every single **letter** is **only used once**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cff58298-a772-4b61-9e00-e4fce1a7fd5d)
@@ -1085,7 +1085,7 @@
 * Total -> **5!**
 * **Not Needed** -> When **DEL** is together, **here**.
 
-* We have **n** things and the **arrangement** of the **n** things -> nCn * n! -> 1 * n! -> **n!*.
+* We have **n** things and the **arrangement** of the **n** things -> nCn * n! -> 1 * n! -> **n!**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/59b71266-d27e-496d-b66c-8f8c2d68511a)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5cd9e255-dc0e-449a-b833-fef973739d71)
@@ -1113,8 +1113,8 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a42c94c-ee02-4566-9578-4ca5257698cf)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e072ef7-6de4-4418-81e9-7e69c1d83650)
 
-* 2nd option or calculation is **correct** -> **6C3 * 4C2 * 5!**.
-* There is no conditon for **consonents and vowels**, we can place them anywhere. That's why **5!**. It is like any **5-letter** word.
+* 2nd option or calculation is **correct** -> **6C3 * 4C2 * 5!**. [**IMPORTANT**]
+* There is no condition for **consonants and vowels**, we can place them anywhere. That's why **5!**. It is like any **5-letter** word.
 * Let's create a **question** for the **first option** -> ((6C3 * 3!) * (4C2 * 2!)).
 * We had to create a **5-letter** word and the **3-consonants** should come at **3 odd** places? 
 
@@ -1609,7 +1609,7 @@
 * Total -> 2 ^ 4 -> No conditions
 * Not required -> Zero questions attempted
 * A >= 1 -> Atleast one question -> Min one question -> 1, 2, 3 ... 'n' cases -> **One question up to 'n'** questions -> **OR** Except **zero questions, 4C0, no question attempted** .
-* A >= 2 -> Atleast one question -> Min two questions -> 2, 3, ....'n' cases -> **Two questions up to 'n'** questions -> **OR** Except **zero or one question, 4C0 and 4C1, no question attempted and one question attempted**  .
+* A >= 2 -> Atleast two questions -> Min two questions -> 2, 3, ....'n' cases -> **Two questions up to 'n'** questions -> **OR** Except **zero or one question, 4C0 and 4C1, no question attempted and one question attempted**  .
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1fd15443-b4f3-4af4-91f9-e25d3a3e01d0)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0bf83079-21c3-45dc-bbbd-80fd964e3d1d)
