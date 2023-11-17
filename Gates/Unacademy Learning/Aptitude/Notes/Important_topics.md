@@ -621,15 +621,29 @@
 * **Atleast one '5'** -> Total - (what is not required) -> 125 - 64 -> **61**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b8d8edf-c777-463e-8459-0a9204374b3f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9220f0c6-91e6-4a5a-b16a-31334973226d)
 
+* Between Means -> 0 < N < 10 ^ 6 [Excluding upper and lower limit]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34b5779e-883a-419a-9b0d-3100162b5cf5)
 
+* [**IMPORTANT**]
+* Here we are not asking to find a **2 or 3 or a 4-digit number**. We are finding the **count** so no need to **exclude zero(0)** from the **first position** of the number, include **zero(0)** as well. 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b07f8a19-d00e-43e7-9801-21822d09d8a4)
 
+* Question.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/560415bf-fad4-4daa-9b74-546e6bd759fe)
 
+* Answer -> **50**.
+* Small **Trick** to solve it **faster**. 
 
+> We have the range from **1 to 5** so the **min** for the **ten and unit** place is **2 and 1**. The **max** for the **ten and unit** place is **5 and 4**. So We will start from with the **min of 2** which is **2/3/4/5** so **4 permutation**. The max is **5**. So we will do **(4 * 5)/2 -> 10** which is the **permutation** for the **unit and tenth** place. As the **hundred place** is **independent** so we will do **5** for it. So the final answer is **10 * 5 -> 50** which we got earlier as well.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/683bd2d7-e1e7-4965-85fa-3393c302a608)
+
+* [**IMPORTANT**]
 
 
 
@@ -754,6 +768,8 @@
 ## Doubts
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a59bc549-4298-4d65-bf77-b2a2830b02f3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ceddf3b-be15-410c-92b8-72bd45b101e6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5688e94-40c8-4c77-9635-e1ba3c0bc544)
 
 
 
