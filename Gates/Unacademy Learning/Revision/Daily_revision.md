@@ -5,4 +5,4 @@
 
 # Aptitude
 
-* Start from **Page 227** and with **PDF 5** file.
+* Start from **PDF 21** file.

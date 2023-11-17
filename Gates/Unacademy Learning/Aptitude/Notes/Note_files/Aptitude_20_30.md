@@ -140,6 +140,7 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0beacd96-66b6-45fa-955c-ceb02f521088)
 
 * How many **4-letter** words can be formed from the letters of the above word?
+* We are only **dividing by 2!** and sometimes by **2! * 2!** and sometimes **no division** because we are making a **4-letter** word and depending on the **letters** the **divisor of 2!** is coming.
 
 > **HW**.
 
