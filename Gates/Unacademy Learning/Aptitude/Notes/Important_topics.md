@@ -713,6 +713,37 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36d3dd8f-9313-48cc-84dd-6a4bee0d3965)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e649c9e-bb49-4952-a9e3-7d27839d55c3)
 
+* End of **Aptitude_10_20**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05d64d62-23c9-43d9-a055-dd664a438206)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66875b03-7d7c-412b-9095-8f61be38abdd)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e583c51e-a510-49ca-9c35-62318eea9cdf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1e9d41a-9b24-4e5b-ad4a-08b002c8653c)
+
+* Consecutive nos here are **5 and 4**, so **mirroring** happened.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/027b8b5d-fda3-4be7-91b4-c3a7b2df0c97)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b04f8dfa-37e2-4bc6-b84a-db266e7c0f26)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2d6a85ed-18b8-4ed2-9e28-ab3a14911389)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1802844e-7046-42cc-89d5-d14d51296039)
+
+* Practice it again. [**IMPORTANT**]
+
+
+
+
+
+
+
+
+
+
 
 
 
