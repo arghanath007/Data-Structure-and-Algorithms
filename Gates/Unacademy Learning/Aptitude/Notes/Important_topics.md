@@ -568,6 +568,29 @@
 
 * Once check how to find the **HCF and LCM** easily from **PDF 10**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b855157-9049-4204-9c3c-bc14bf095d44)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e8cb2cd-1f1e-4c52-9660-5055b78bc303)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ddfb28b4-734e-4521-a151-612fa9bc47c5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4dcfd995-d319-4f63-966d-d905c88ee728)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
