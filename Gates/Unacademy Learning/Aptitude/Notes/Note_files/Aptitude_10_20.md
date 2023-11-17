@@ -776,6 +776,9 @@
 
 > We have the range from **1 to 5** so the **min** for the **ten and unit** place is **2 and 1**. The **max** for the **ten and unit** place is **5 and 4**. So We will start from with the **min of 2** which is **2/3/4/5** so **4 permutation**. The max is **5**. So we will do **(4 * 5)/2 -> 10** which is the **permutation** for the **unit and tenth** place. As the **hundred place** is **independent** so we will do **5** for it. So the final answer is **10 * 5 -> 50** which we got earlier as well.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/683bd2d7-e1e7-4965-85fa-3393c302a608)
+
+
 ## Permutation combination probability part-III (15) [16th June 2023]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2440e351-78ab-4a12-ae4b-350743075461)
