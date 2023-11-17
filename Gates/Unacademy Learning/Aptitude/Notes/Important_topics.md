@@ -2,6 +2,11 @@
 
 * Start from Page **187**.
 
+## Reminders
+
+* Look at all of the **Quiz questions**.
+* Look at **PDF 18 and 19** again. [**IMPORTANT**]
+
 ## Questions
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f696b97-6b20-47d3-aae4-e192dc15aed3)
@@ -621,12 +626,92 @@
 * **Atleast one '5'** -> Total - (what is not required) -> 125 - 64 -> **61**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b8d8edf-c777-463e-8459-0a9204374b3f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9220f0c6-91e6-4a5a-b16a-31334973226d)
 
+* Between Means -> 0 < N < 10 ^ 6 [Excluding upper and lower limit]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34b5779e-883a-419a-9b0d-3100162b5cf5)
 
+* [**IMPORTANT**]
+* Here we are not asking to find a **2 or 3 or a 4-digit number**. We are finding the **count** so no need to **exclude zero(0)** from the **first position** of the number, include **zero(0)** as well. 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b07f8a19-d00e-43e7-9801-21822d09d8a4)
 
+* Question.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/560415bf-fad4-4daa-9b74-546e6bd759fe)
+
+* Answer -> **50**.
+* Small **Trick** to solve it **faster**. 
+
+> We have the range from **1 to 5** so the **min** for the **ten and unit** place is **2 and 1**. The **max** for the **ten and unit** place is **5 and 4**. So We will start from with the **min of 2** which is **2/3/4/5** so **4 permutation**. The max is **5**. So we will do **(4 * 5)/2 -> 10** which is the **permutation** for the **unit and tenth** place. As the **hundred place** is **independent** so we will do **5** for it. So the final answer is **10 * 5 -> 50** which we got earlier as well.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/683bd2d7-e1e7-4965-85fa-3393c302a608)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/191fa088-5ff4-4408-a683-1661c689608f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e8f1fe4-0de2-46b6-844f-d59f99e5e24e)
+
+* Always break into **zero and non-zero** cases. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dae27873-ff7e-44be-b0cc-09c53875f926)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65f57ab0-2a14-40d6-9525-8b01ca32b3ab)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/53200821-3b28-4c62-973d-caaac6f4e5a3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb37c7e8-25b6-43f8-8904-ec9a3a183fdf)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb37c7e8-25b6-43f8-8904-ec9a3a183fdf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/03726f62-f82a-4d64-a841-3ace415a8fa3)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/64ec3e96-6c16-4e53-a4ba-2dcdde8c16f2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a42c94c-ee02-4566-9578-4ca5257698cf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e072ef7-6de4-4418-81e9-7e69c1d83650)
+
+* 2nd option or calculation is **correct** -> **6C3 * 4C2 * 5!**. [**IMPORTANT**]
+* There is no condition for **consonants and vowels**, we can place them anywhere. That's why **5!**. It is like any **5-letter** word.
+* Let's create a **question** for the **first option** -> ((6C3 * 3!) * (4C2 * 2!)).
+* We had to create a **5-letter** word and the **3-consonants** should come at **3 odd** places? 
+
+> Here the **option 1** would make **sense**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b07b2cf-f149-4a0d-ae48-9c834e208734)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/494894b2-2f3e-48e4-8557-25ee82167c28)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/26d62ea8-74f3-45de-85b9-5fa45a2bdd09)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e2efffa-e5de-4340-a4fb-6a2224916962)
+
+* No **two** boys can sit together.
+* Boys -> 3, Girls -> 5.
+
+* **STEPS**:-
+
+1) Take the **other party first(Girls here)**.
+2) Find for **girls** -> **5!**.
+3) Place the boys at the gaps.
+4) Find for **boys** -> **6C3 * 3!**.
+
+> In the **6 gaps** we can place the **3 boys** so **6C3** and for the **arrangement** of the **3 boys**, it is **3!**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0599cfd6-c041-49d6-9480-c5aa4031469b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/96238438-996e-4b8d-a50b-19fce6e360e0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5c390233-7b21-4fda-9cb3-d914ad95d07a)
+
+* The **extra place** is the **pseudo gap**.
+* If we had **m** no. of boys and **n** no. of girls then total no. of arrangements such that no two boys can sit together.
+
+1) Pick the other party(Girls here) -> n!
+2) One more place than girls -> (n + 1)Cm * m!.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9f20ee2d-d7ab-4aea-a46d-e86621969062)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/03f7ca5a-5f1f-4710-9a73-edd3c7cc4796)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/79dc98e6-cd7b-43b3-995c-8017a1bf2962)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ae4966b-d346-489d-b289-07cd9a9bbcbf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36d3dd8f-9313-48cc-84dd-6a4bee0d3965)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e649c9e-bb49-4952-a9e3-7d27839d55c3)
 
 
 
@@ -670,7 +755,24 @@
 8) Notwithstanding
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb044243-9bad-49f0-bf2f-7197aa83acbd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0604694b-5f59-4723-b134-b6dcf5f977c4)
 
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9c2366ac-2e2d-4110-b3c3-542e097021e0)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1914ee2-0f2c-4684-b0a1-a1c504dfe9ee)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1cc98815-6ca8-4fe4-98ac-9ce807e8bd98)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/250df7aa-fdf5-43bb-8d07-1a65e699eade)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/307e0ca5-d8cd-4a6a-a3c2-af785d74a622)
+
+* Option **D**.
+* In **option 'c'** we cannot use the **most** which is a **superlative** degree so casually.
 
 
 
@@ -744,7 +846,28 @@
 
 
 
+## Formulas
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/578d172f-6a7d-4107-93d9-dda5d168a1b2)
+
+* Formulas [**IMPORTANT**].
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/413a849b-1f4d-443d-91a4-3bfc6004ab39)
+
+* nPr -> Permutation
+* nCr -> Combination/Selection
+* r! -> Arrangement
+* nPr = nCr + r! 
+* **Permutation** = Combination/Selection + Arrangement
+* Incase of **password**, **arrangement** matters. [**IMPORTANT**]
+* We can put **zero** at the **first place** as it is a **password** and not a **number**.
+* In **circular arrangement** we cannot tell from where it is starting and where it i
+* In **linear arrangement** for **n** elements it is **n!**.
+* For **circular arrangement** for **n** elements is **(n - 1)!**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8888a9f1-2b38-4cde-bcf8-c8eea3f1ea0f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dac0cf03-82a5-4ec3-b89a-1f5bfb779e9c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a194fe7-8c7b-463d-8144-d74f4054a25f)
 
 
 
@@ -754,6 +877,8 @@
 ## Doubts
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a59bc549-4298-4d65-bf77-b2a2830b02f3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ceddf3b-be15-410c-92b8-72bd45b101e6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5688e94-40c8-4c77-9635-e1ba3c0bc544)
 
 
 
