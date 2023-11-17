@@ -2,6 +2,11 @@
 
 * Start from Page **187**.
 
+## Reminders
+
+* Look at all of the **Quiz questions**.
+* Look at **PDF 18 and 19** again. [**IMPORTANT**]
+
 ## Questions
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f696b97-6b20-47d3-aae4-e192dc15aed3)
@@ -704,7 +709,9 @@
 
 * [**IMPORTANT**]
 
-
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ae4966b-d346-489d-b289-07cd9a9bbcbf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36d3dd8f-9313-48cc-84dd-6a4bee0d3965)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e649c9e-bb49-4952-a9e3-7d27839d55c3)
 
 
 
@@ -755,6 +762,17 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9c2366ac-2e2d-4110-b3c3-542e097021e0)
 
 * Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1914ee2-0f2c-4684-b0a1-a1c504dfe9ee)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1cc98815-6ca8-4fe4-98ac-9ce807e8bd98)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/250df7aa-fdf5-43bb-8d07-1a65e699eade)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/307e0ca5-d8cd-4a6a-a3c2-af785d74a622)
+
+* Option **D**.
+* In **option 'c'** we cannot use the **most** which is a **superlative** degree so casually.
 
 
 
@@ -841,6 +859,16 @@
 * r! -> Arrangement
 * nPr = nCr + r! 
 * **Permutation** = Combination/Selection + Arrangement
+* Incase of **password**, **arrangement** matters. [**IMPORTANT**]
+* We can put **zero** at the **first place** as it is a **password** and not a **number**.
+* In **circular arrangement** we cannot tell from where it is starting and where it i
+* In **linear arrangement** for **n** elements it is **n!**.
+* For **circular arrangement** for **n** elements is **(n - 1)!**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8888a9f1-2b38-4cde-bcf8-c8eea3f1ea0f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dac0cf03-82a5-4ec3-b89a-1f5bfb779e9c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a194fe7-8c7b-463d-8144-d74f4054a25f)
+
 
 
 
