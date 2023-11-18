@@ -735,7 +735,9 @@
 
 * Practice it again. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a0b87fc5-489a-42b7-8661-0a6867011a2a)
 
+* Option **A**.
 
 
 
@@ -805,11 +807,36 @@
 * Option **D**.
 * In **option 'c'** we cannot use the **most** which is a **superlative** degree so casually.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a7a040ff-3b3b-4f77-9303-68cedfef804e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/21f2f5e4-b37e-450c-bcc0-4f5d56ec04c7)
 
+## Reasoning
 
+* Two Types:-
 
+1) Unique conclusion -> Single outcome -> Deductive reasoning(Syllogism)
+2) Doubt with the outcome -> Inductive reasoning.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81215fce-1f5e-483b-94a1-f5573632d2de)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e931bdf1-e20c-486e-8eff-e915e9cbc6d9)
 
+* Syllogism must have **unique solutions**. That's why we called it **logical necessity(LN)**.
+* Syllogism is all about **unique solution** -> Atleast an **unique solution**.
+* Syllogism is based on **two** words:-
+
+1) Atleast
+2) Unique solution
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/457f768d-bda9-48de-bdef-c43ba37b744a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4fbb42b9-2f80-4da8-84fd-18b73e0d3c25)
+
+* Question
+* Always go for **atleast** because in **Syllogism** we want **unique solutions**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2bb7f1a7-0403-46ec-901d-e79263b9e16e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7128332b-795e-4fd7-81d2-6e1eb62901c5)
+
+* Check the **Theory** again from **PDF 23**.
 
 
 
@@ -868,8 +895,11 @@
 * demonstrated
 * demo -> About people
 * democracy
+* Quite -> No/less sound
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a884f1e-2331-4a7d-8824-490354a784c7)
 
+* Quite.
 
 
 
