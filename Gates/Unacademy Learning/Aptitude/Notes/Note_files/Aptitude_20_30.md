@@ -174,7 +174,7 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/233a963c-d5a5-44ce-83eb-31bdc4a18e94)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85909867-22a6-47ab-86ad-277a105ab905)
 
-* When **Argha** sees outside of the window, it it **weather**.
+* When **Argha** sees outside of the window, it is **weather**.
 * **Weather** for an **extended duration of time** is **climate**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ca401cb-c06b-4c95-9715-79144a1e6bd9)
@@ -262,6 +262,9 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/45fb1e31-3e4d-453d-8b8c-1e6de3a633db)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/475c7746-d7bd-457b-a323-9429fa24349d)
+
+* Argument(A) = Premise(P) + Conclusion(C).
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e86bb7d-fe49-46d7-a0f4-b843efd7eea0)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/67849338-c3e5-4a89-9558-9f8787fca1ee)
 
@@ -287,7 +290,7 @@
 
 * The person is an **engineer**. The set **A** has many elements and all those elements should be present in **engineer(E)** set.
 
-> The set **A** shouldn' t have any elements that are not common in the **engineer(E)** set.
+> The set **A** shouldn't have any elements that are not common in the **engineer(E)** set.
 
 > There cannot be any element which is not **common** between the **the person(A)** set and **engineer(E)** set.
 
@@ -448,6 +451,8 @@
 * Atleast one element of **X** is common with **Y**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/457f768d-bda9-48de-bdef-c43ba37b744a)
+
+* [**IMPORTANT**]
 
 4) Some **X** is/are not **Y**.
 
@@ -740,7 +745,7 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db094d2d-fabe-4cb1-8b9c-9652325c3d51)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/64cd1990-fd84-427d-abc1-ddeb74cf51a9)
 
-* Whichever statement is is **attached** with **if** that statement is **p** and the other statement is **q**.  [**IMPORTANT**]
+* Whichever statement is **attached** with **if** that statement is **p** and the other statement is **q**.  [**IMPORTANT**]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/334950b6-57ef-4096-98d7-89304e55d927)
 
