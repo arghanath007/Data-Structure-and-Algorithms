@@ -739,11 +739,131 @@
 
 * Option **A**.
 
+## Summary
 
+* If **p** then **q**.
 
+1) p -> q
+2) q' -> p'
+3) Sequence is **Important**.
+4) Whichever statement is **attached** with **if** that statement is **p** and the other statement is **q**.  
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cde46402-ff52-42db-856f-7c8514608ae5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aeae5a97-3f07-4057-8a6e-b36c7f614de6)
 
+## Summary
 
+1) Either **p** or **q** -> **p** or **q**.
+2) **p** is **not True**(p') -> **q**.
+3) **q** is **not True**(q') -> **p**.
+4) We are talking about **unique solutions** here as well.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8b3c2fb-e5f7-4e2d-8523-9c9f775db656)
+
+### **Whenever/when**
+
+* Brother of **if** is **whenever/when**.
+* Whenever **p**, then **q**.
+* **q**, whenever **p**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ec2d94c-fd4a-4bd2-81d0-cedbe17c4800)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc81bbe4-ab04-4b93-b057-fd7b655a4019)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f634ceb7-5be0-44f2-aa58-b51097489f63)
+
+* Note
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/477af446-aff2-4b2e-8266-d6748681c9bc)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a9d4f07-c353-407f-91a9-90c7bf87dcad)
+
+* Option **B**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b014e5d8-dfa8-4e48-90ec-e5805a3166d6)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f300e9f-38d9-4391-8e60-6b54965539ac)
+
+* Option **C**.
+
+* **AND** gate.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5ca05dc-916e-45a4-bec9-bf3f0cdcee5c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86204b4d-e49f-464c-8de5-d661fa680367)
+
+* When both **p and q** are **true** then only the **compound statement** is **True**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd31da0d-3d06-4652-81f0-9fcbbc5c622e)
+
+* De-morgan's law.
+* (p or q)' = p' and q'.
+* (p and q)' = p' or q'.
+
+ If, then.
+* Within **q** there are more statements.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ce3cd79-df94-45e8-a289-ac029d2f4219)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a2fea88-a718-4275-9b6f-d639e26e5e48)
+
+* For the compound statement to be **True** in **either, or**, **p' -> q** and **q' -> p**.
+* **q1' -> q2** and **q2' -> q1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c68cffa3-6e65-44ea-8bd4-6366756027d1)
+
+* As we got **q2' -> q1** which means **q** is **True**. So **p -> q** which is a unique solution for **if, then**. So, **option 'A'** is correct.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/940667b7-2569-455b-acbb-f7e1ba5522b4)
+
+* There is only **one way** where the **compound statement** ruptures, when both the statements are **false**.
+* The **AND** point of de-morgan's.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b903ceda-93f6-47f5-aa6d-00e8abf83660)
+
+* [**IMPORTANT**]
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d721d3b-3cb3-49de-9df1-3a50368072f3)
+
+* [**IMPORTANT**]
+* Unique solution -> Logical Necessity (LN)
+* No unique solution -> Logical possibility(LP)
+* If anyone of them(not unique solutions) are given, thne they are **LP**.
+* Option **A** -> Logical possibility(LP) as it given **no unique solution**.
+* Option **B and D** gives **unique solutions** that's why they are Logical Necessity (LN)**.
+* **If, then** -> **p -> q** and **q' -> p'**.
+* Option **C** is **correct** answer.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d48a899b-e0f1-49bf-97ec-959f8ff32d9e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c36013f1-b133-4b5c-8e40-189dde63651c)
+
+* [**IMPORTANT**]
+* **NOTE**:-
+
+* If **p** then **q**
+* p -> q
+* q' -> q'
+
+* Whenever we see the word **only** with **If, then**, then do **180 degree** of the **unique solution** outcome cases.
+* Only if **p**, then **q**.
+* q -> p
+* p' -> q'
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/762dd714-fa9f-4305-8839-791033bba91d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a44bdee0-cf48-4468-abbc-e56f26c5f2d4)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8383dfc8-df04-474d-8b62-7818027f1359)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c6500c6d-63ca-41a6-9eb8-bd642bb4f00b)
 
 
 
@@ -837,6 +957,16 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7128332b-795e-4fd7-81d2-6e1eb62901c5)
 
 * Check the **Theory** again from **PDF 23**.
+
+
+
+
+
+
+
+
+
+
 
 
 
