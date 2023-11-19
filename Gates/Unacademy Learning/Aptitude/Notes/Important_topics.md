@@ -1143,11 +1143,144 @@
 * Not required -> PPP + QQQ -> 10C3 + 11C3 
 * We want -> Total - Not required -> 21C3 - (10C3 + 11C3) -> 1045.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/49f33a68-7744-4e49-ad2e-ad3de6f40ae9)
 
+* Sum of **squares** of an **n** natural no ->  1/6 * (n * (n + 1)) * (2 * n + 1) = 1/6 * 8 * 9 * 17 = 204 [n=8]
 
+* Probability of getting **1 X 1** square in a chess board -> (8 ^ 2)/204 -> 64/204
+* Probability of getting **2 X 2** square in a chess board -> (7 ^ 2)/204 -> 49/204
+* Probability of getting **6 X 6** square in a chess board -> (3 ^ 2)/204 -> 9/204
+* Probability of getting **3 X 3** square in a chess board -> (3 ^ 2)/204 -> ((3 X 3) value) / (Sum of **squares** of an **n** natural no) -> (3 ^ 6)/204 -> 26/204.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d85fa5df-f5df-4a6b-9299-bc796715424b)
 
+* How a rectangle is formed?
 
+> (Horizontal)C2 * (Vertical)C2.
+
+* Horizontal(H)
+* Vertical(V)
+* **HC2 * VC2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3e39a3e-4380-4a4d-8b9d-96338bc135c3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/94a376ee-c7dd-41cb-9c22-db5bc20f1265)
+
+* **All squares** are **rectangles**.
+* **All rectangles** are **squares**, not necessarily.
+
+* Find no. of rectangles?
+* Vertical lines(V) -> 20
+* Horizontal Lines(H) -> 10
+
+* No. of rectangles -> HC2 * VC2 -> 10C2 * 20C2.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/422dbbfd-f1f6-4d5c-b967-bc2c99173590)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe63e49e-88bc-4fea-b946-3f5352a7f485)
+
+* **m** parallel lines and **n** parallel lines
+* No. of **parallelogram** -> mC2 * nC2 
+
+> **Select two** horizontal lines and **two** vertical lines.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8eb7fd42-bcc5-4bbf-9e39-a961228c17a4)
+
+* Question
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd475587-766b-4bf7-96fe-283d61c3270e)
+
+* If there is exactly **one** handshake between two people, that means **total no. of handshake** between **three** people, will be **nC2 -> 3C2 -> 3**. 
+* **3C2** signifies **one** handshake between two people.
+* If there is exactly **one** handshake between two people, that means **total no. of handshake** between **five** people, will be **nC2 -> 5C2 -> 10**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6e088011-1319-4ea0-86e9-bec4a28a8f34)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/45f93037-8b4c-4e1e-b110-45a9d475297c)
+
+* Question.
+* Answer -> **TRUE**.
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/E9DB432758
+* No. of handshakes -> 12C2 -> 66.
+* So it is **True**.
+* This is valid for **tournaments** as well.
+* Considering that there is **one match** between **two teams**.
+* There are **three** teams such that there is **exactly one match** between two teams -> **nC2 -> 3C2 -> 3**.
+* There are **five** teams such that there is **exactly one match** between two teams -> **nC2 -> 5C2 -> 10**.
+* We don't know how many teams are there but **total no. of matches** is **66** -> nC2 = 66.
+* Hand-shakes
+* Tournaments
+* Gift-exchange
+* Theses all can be done with the **above** concept.
+
+* **CK** gave gift to **kanhaiya** and **kanhaiya** gave **return** gift to **CK**.
+* So, between **two** people, there is **two** gift exchanges.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a92253a3-d0a0-497f-b0db-3bbf5772394f)
+
+* **One gift exchange** between **two people** -> nC2
+* **Two gift exchange** between **two people** -> 2 * nC2
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b6e526c7-c160-4ae0-9efa-cf8530e2fa46)
+
+* In the way that **Divya and saima** had exchanges their **greeting cards** with **each other**. Total **no. of cards exchanged** is **some no., let's say 50**, such that **every student has given a card to every other student**.
+
+* This is a clear case of **2 * nC2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/534e988a-32c8-4458-a24b-244977d7506e)
+
+* We have to see if there is **one gift exchange** or **two gift exchange**. That will determine if it will be only **nC2** or **2 * nC2** or something else.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/171ce301-6fec-4dcf-b269-83c68d2113f2)
+
+* option **B**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b4814383-c99b-448e-9be5-a66e23c66909)
+
+* If **DELHI** was the word. Instead of **MATHEMATICS**, the word is **DELHI**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c66ace6-004d-4015-b9a6-d447c8c9f378)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05cb2c74-fe9e-4096-bb6f-d032d7f427b4)
+
+* Form a **4** letter word using the letters of the word **MATHEMATICS**.
+* Major concern is **repetition**.
+* We can have **3 cases**.
+
+1) **No repetition** -> (5 + 3)/C4 * 4! -> 8C4 * 4!.
+* **8 letters** -> H, E, I, C, S, M, A, T (4 letters) -> 8C4
+* **5 letters** with are not repeated in **mathematics** word -> H, E, I, C, S 
+* **3 letters** with are repeated in **mathematics** word -> M, A, T
+* Arrangement is **4!**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4eaa0e04-465e-4c24-9fee-484967f731e3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b391a75-ace8-4e50-bcd3-26b44c1a83ca)
+
+2) When **1-pair** is **repeated** -> 3C1 * 7C2 * (4!/2!)
+
+* One of the **repeated letters** will be repeated in the word.
+* **7 letters** with are not repeated in **mathematics** word(Two letters) -> H, E, I, C, S, A, T -> 7C2
+* **Out of the 3-pairs** one pair is selected(two letters) -> **3C1** -> Represents **one out of the three repetition letter pair cases**.
+* Arrangement is **4!**, as **repetiton of one pair** that's why divide by **2!**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f411e62c-4166-42f4-8228-03c84db82ee0)
+
+3) When **both pairs** are repeated -> 3C2 * (4! / (2! * 2!)).
+
+* **Out of the 3-pairs** two pair is selected(four letters) -> **3C2** -> Represents **two out of the three repetition letter pair cases**.
+* Arrangement is **4!**, as **repetiton of two pair** that's why divide by **2! * 2!**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7621e8a-9789-4d22-ae91-4836b70259f8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9114d9e0-365a-4627-bf38-95de389a3467)
+
+* We are doing **5C4 * 4!** because **5** letters do not repeat in **MATHEMATICS** and we want **4 letter** word so it is **5C4** and the **4!** is for the **4 letter** arrangement.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b0205d5-3744-4726-adfa-156e1d950a14)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e4508cf5-a17c-4e2e-bd56-5b9d6733de1c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5296daca-c3c0-4bb1-bd6f-9e200df618fc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a604d7b7-140a-46d1-be80-9a814784ac04)
+
+* Option **C**.
 
 
 
