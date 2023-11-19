@@ -985,13 +985,13 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/14d15fe5-9551-4c93-81f5-f73f373051b8)
 
-* No two **hindi midium** students must sit together -> Pseudo gap.
+* No two **hindi medium** students must sit together -> Pseudo gap
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1f5a689-4b89-403a-8471-dac65e75405a)
 
 * 5! -> English Students
 * 6C5 -> Hindi students
-* 5! -> English Student's arrangements.
+* 5! -> Hindi Student's arrangements.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5182112-38d8-47d9-9fb2-7653af2582ce)
 
@@ -1073,6 +1073,10 @@
 
 * **Total no. of straight lines** -> (Total no. of points and select any two points(pointsC2)) - ((colinearC2) + 1).
 * **Total no. of straight lines** -> (totalC2 - colinearC2) + 1.
+* The formula and finding it directly give the **same answer** only.
+* **10C2 - 4C2 + 1 -> 40**.
+* **TotalC2 - ColinearC2 + 1 -> nC2 - BB + 1 -> 10C2 - 4C2 + 1 -> 40**.
+* [**IMPORTANT**]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a0c8a5b-33d7-4dda-8055-a84f476c18d5)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e91676da-3741-433d-a9f0-f6f4e64a3042)
@@ -1084,7 +1088,7 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2125b094-02c4-41f9-a8ac-436e19543ea7)
 
 * We have **100** points/vertices -> 100C2.
-* * We have **100** points/vertices but **10** are co-linear -> 100C2 - 10C2 + 1.  
+* We have **100** points/vertices but **10** are co-linear -> 100C2 - 10C2 + 1.  
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc74b6fb-05c7-4850-998b-1ec392ebe7fc)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/793eb23b-90ff-45eb-baa5-907994be12af)
@@ -1120,6 +1124,8 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d56ab22d-8d55-41d2-a4cc-5261a020722c)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0deb8d68-a3e5-46f3-9371-c0d8e5920fd7)
 
+* So it is **nC3 - BBB -> 10C3 - 4C3 -> 120 - 4 -> 116**.
+* It is **same** as the **above formula**.
 * **Total No. of triangles** -> totalC3 - colinearC3
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/764343c1-8759-4f51-b480-5a2e9aba48d1)
@@ -1245,7 +1251,7 @@
 * So, the **no. of rectangles** are -> 9C2 * 9C2 -> 1296.
 
 * **All squares** are **rectangles**.
-* **All rectanges** are **squares**, not necessarily.
+* **All rectangles** are **squares**, not necessarily.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af5b0dab-6b08-4431-a91d-157774aaaeeb)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9a004bb3-c94a-4b94-812c-53a742885395)
@@ -1334,8 +1340,7 @@
 * Question.
 * Answer -> **TRUE**.
 
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a7b5d3b-3078-4591-9898-
-efe4b05d9d09)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a7b5d3b-3078-4591-9898-efe4b05d9d09)
 
 * This is valid for **tournaments** as well.
 * Considering that there is **one match** between **two teams**.
@@ -1399,7 +1404,7 @@ efe4b05d9d09)
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fbe3893b-9021-485e-9671-c6ada0c81df0)
 
-* If **DELHI** was the word.
+* If **DELHI** was the word. Instead of **MATHEMATICS**, the word is **DELHI**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c66ace6-004d-4015-b9a6-d447c8c9f378)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05cb2c74-fe9e-4096-bb6f-d032d7f427b4)
@@ -1433,6 +1438,9 @@ efe4b05d9d09)
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7621e8a-9789-4d22-ae91-4836b70259f8)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9114d9e0-365a-4627-bf38-95de389a3467)
+
+* We are doing **5C4 * 4!** because **5** letters do not repeat in **MATHEMATICS** and we want **4 letter** word so it is **5C4** and the **4!** is for the **4 letter** arrangement.
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/40a4a7f9-4282-4657-bf31-f041562b789b)
 
 * Question
@@ -1566,7 +1574,7 @@ efe4b05d9d09)
 2) **1/4/5/8/9** -> (5!/5) * (1 + 4 + 5 + 8 + 9) * (11111).
 3) **1/2/2/3/4** -> (5!/(5 * 2!)) * (1 + 2 + 2 + 3 + 4) * (11111).
 
-> **Divinding** by **2!** because we have a  **repetition** of **2 twice**.
+> **Dividing** by **2!** because we have a  **repetition** of **2 twice**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1dc548df-35c4-462e-9b06-29d9a1f78443)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f8b61738-4097-431f-a276-79c57059e030)
@@ -1574,7 +1582,7 @@ efe4b05d9d09)
 
 4) **1/1/3/3/3** -> (5!/(5 * 2! * 3!)) * (1 + 1 + 3 + 3 + 3) * (11111).
 
-> **Divinding** by **2! * 3!** because we have a  **repetition** of **1 twice and 3 came thrice or three times**.
+> **Dividing** by **2! * 3!** because we have a  **repetition** of **1 twice and 3 came thrice or three times**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f49bdd6b-f0cb-43ea-9b54-f3876878cfb8)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4dcdfaa9-88a0-4151-ab20-5462fb35f7f5)
@@ -1659,7 +1667,9 @@ efe4b05d9d09)
 * FM -> RO -> FMRO -> 2
 * FO -> MR -> FOMR -> 3
 * FO -> RM -> FORM -> 4 -> 4th Word [**ANSWER**]
+* We are finding the **rank/position** of the **word** using **permutations** by looking at the **distribution** of the **letters**. 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81a7026d-a0c9-4621-bd79-6d9630684f13)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/efcfca68-4b56-48ad-a52b-808ff7d349ff)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1607632-bb5e-4815-a79e-785df10b7c8f)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/13530950-1a5f-4fae-8fb8-5fff926c6fb1)
@@ -1724,6 +1734,9 @@ efe4b05d9d09)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71004b12-3a0e-455a-b50d-ca326d2214ff)
 
 * Word -> DELHI
+* Cases -> 5! -> 120
+* Distribution = 5 * 4! = 5 * 24 = 120.
+* So for each **word** now, instead of **6** permutations which we saw **earlier** now we have **24** permutations.
 * DE -> We  have **3 letters** left which is **HIL**, so arrangement of **3 letters** is **3! = 6**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91deedaa-e2a5-4732-80e8-5996f340cbf5)
@@ -1830,6 +1843,7 @@ efe4b05d9d09)
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b608e2e-7f4e-4a95-b28f-802ed3d1d575)
 
+* Explanation.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8135631-057f-4117-9cd8-896ae4523678)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f9bfeee-b914-40a8-ba66-9bf2eec6bca1)
@@ -1869,6 +1883,9 @@ efe4b05d9d09)
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b19eb9b-6971-4bb9-b4eb-82b0acac77c4)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c90776cb-bce7-49ad-a401-2fce0fea6628)
+
+* Option **D**or **11** is not the **correct** answer. Check below. **Option 'C'** is the **correct** answer.
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0e1f3c7-ebb8-424a-8f39-8291ae4a27cc)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7806d55b-6037-4def-aef4-0be9b39f67ab)
 
@@ -1911,7 +1928,7 @@ efe4b05d9d09)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/704b3c20-7912-4350-9717-7cc599f028c9)
 
 * Algebra. [**IMPORTANT**]
-* Main importance/imporant thing of **algebra** is **inequality**.
+* Main importance/important thing of **algebra** is **inequality**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba8409ec-2fc0-449d-ab93-3cdac9c3205f)
 
@@ -2129,7 +2146,7 @@ efe4b05d9d09)
 
 * Question
 * Option **B**.
-* Option **C and D** are wrong becuase **children** asked in the question, so, we need to find **categories**.
+* Option **C and D** are wrong because **children** asked in the question, so, we need to find **categories**.
 * Gyne/Gyna -> Related to **females**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f63f4e6c-69f0-40ad-b215-cf53efd9e400)
