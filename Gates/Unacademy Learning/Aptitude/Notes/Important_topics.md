@@ -865,10 +865,12 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8383dfc8-df04-474d-8b62-7818027f1359)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c6500c6d-63ca-41a6-9eb8-bd642bb4f00b)
 
+* There could be arrangements between either the **husbands or wifes** which is **H1** can play with either **W1 or W5**. So, we have to do **2!** multiplication to either **husbands or wives** not both. 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b0d73c5-1424-4332-9239-770efbdbf6ed)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bbb97a7b-a4e1-4df0-8bb8-1b098e4cbebd)
 
-
-
+* Option **D** correct. All the above.
 
 
 
@@ -1059,6 +1061,94 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8888a9f1-2b38-4cde-bcf8-c8eea3f1ea0f)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dac0cf03-82a5-4ec3-b89a-1f5bfb779e9c)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a194fe7-8c7b-463d-8144-d74f4054a25f)
+
+## Geometry
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb35f44e-b97e-4cd2-ad5a-fbf5313f1d92)
+
+* As many **sides** that many **vertices**.
+* If **n** sides then **n** no. of **vertices**
+* Total no. of **straight lines(S/L)** -> Sides + Diagonals.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/874e2057-f0ed-4e24-9d54-0283b8cd0e5c)
+
+* If **n** sides then **n** vertices.
+* n = sides = vertices.
+* Out of the **n** sides, we have **selected** 2 **vertices/points** which is **nC2**.
+* **Total no. of diagonals** -> (Total no. of straight lines(S/L)) -  (No. of sides) ->  nC2 - n. [Formula]
+* **Total no. of points/vertices** we have is **n**.
+* **Total no. of straight lines(S/L)** -> nC2 [Formula]
+* Hexagon -> No. of sides/vertices(n) -> 6.
+* Decagon -> No. of sides/vertices(n) -> 10.
+
+* **NOTES**:-
+
+* Min. no. of points required to draw a **straight line** -> 02
+* Min. no. of points required to draw a **triangle** -> 03
+* **Co-linear** -> 3 or more points/vertices are said to be **co-linear** if they come in the **same line**.
+* **3 or more** because **2 points/vertices** are required to make a **straight line**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5272cad-1555-4d2b-9188-cc6aebf13d83)
+
+* **Total no. of straight lines** -> (Total no. of points and select any two points(pointsC2)) - ((colinearC2) + 1).
+* **Total no. of straight lines** -> (totalC2 - colinearC2) + 1.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a0c8a5b-33d7-4dda-8055-a84f476c18d5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e91676da-3741-433d-a9f0-f6f4e64a3042)
+
+* We have **20** points/vertices. Tell total no. of **straight lines(S/L)** -> 20C2.
+* Now, we **20** points/vertices but **5** are co-linear -> 20C2 - 5C2 + 1.
+* The formula and finding it directly give the **same answer** only.
+* **10C2 - 4C2 + 1 -> 40**.
+* **TotalC2 - ColinearC2 + 1 -> nC2 - BB + 1 -> 10C2 - 4C2 + 1 -> 40**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2125b094-02c4-41f9-a8ac-436e19543ea7)
+
+* We have **100** points/vertices -> 100C2.
+* We have **100** points/vertices but **10** are co-linear -> 100C2 - 10C2 + 1.  
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/793eb23b-90ff-45eb-baa5-907994be12af)
+
+### Triangle
+
+* Triangle -> **nC3**
+* **3** is important for **Trian
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d56ab22d-8d55-41d2-a4cc-5261a020722c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0deb8d68-a3e5-46f3-9371-c0d8e5920fd7)
+
+* So it is **nC3 - BBB -> 10C3 - 4C3 -> 120 - 4 -> 116**.
+* It is **same** as the **above formula**.
+* **Total No. of triangles** -> totalC3 - colinearC3
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b5f1d7a-4222-40c3-b258-a3da3b31c5ed)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/60e459f0-d698-47bf-8d92-ba87415161eb)
+
+### Summary [**IMPORTANT**]
+
+* Straight Lines -> nC2
+* Triangle -> nC3.
+
+* We need **3** points for the **triangle**.
+* As all of the points are **co-linear** so **PPP and QQQ** will not work and will contribute **zero(0)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41c13a6e-dc6e-4672-897d-513864a41366)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ca0188e-44e5-4cbf-b50f-e202523c0389)
+
+* Total -> (10 + 11)C3 -> 21C3
+* Not required -> PPP + QQQ -> 10C3 + 11C3 
+* We want -> Total - Not required -> 21C3 - (10C3 + 11C3) -> 1045.
+
+
+
+
+
+
+
 
 
 
