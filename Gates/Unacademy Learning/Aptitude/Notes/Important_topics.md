@@ -865,6 +865,212 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8383dfc8-df04-474d-8b62-7818027f1359)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c6500c6d-63ca-41a6-9eb8-bd642bb4f00b)
 
+* There could be arrangements between either the **husbands or wifes** which is **H1** can play with either **W1 or W5**. So, we have to do **2!** multiplication to either **husbands or wives** not both. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b0d73c5-1424-4332-9239-770efbdbf6ed)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bbb97a7b-a4e1-4df0-8bb8-1b098e4cbebd)
+
+* Option **D** correct. All the above.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b83df04b-836f-4348-b6d1-4879b933975c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5c8d894c-9e4e-40b1-8e44-dc426fb22fd8)
+
+> We are getting **2 * (1 + 2 + 3)** which is the **sum** at the **unit, tenth and hundred** place. That's why we are **multiplying** the **sum** with **10 ^ 2, 10 ^ 1 and 10 ^ 0**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/79834241-73ea-48f8-8138-f66c7ab053fa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec9b8838-2fbe-408b-a014-d9c43d99a107)
+
+* [n!/n * (1 +2+3+4+....+n) * (10 ^ (n-1) + 10 ^ (n-2) + ..... + 10 ^ 1 + 10 ^ 0)]
+* Every vertical column's digit sum.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/90b4c16a-de34-4012-ac1d-846712bd2ccc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/11d44b03-6abc-4721-ad79-edb430e8b8e1)
+
+* **6-digit's** sum.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/25710082-366f-42e1-a50a-999111ee0701)
+
+> **Dividing** by **2!** because we have a  **repetition** of **2 twice**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1dc548df-35c4-462e-9b06-29d9a1f78443)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/754523e5-92c1-47c6-8549-1cf8c852a614)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c65ce17-351c-4683-b5a4-d004918a3036)
+
+* Option **B**
+* If **zero(0)** is given and we have to find **5-digit** nos.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9c4e9245-9516-4a6a-805d-aea5aaa4e16e)
+
+* **0/1/2/3/4** -> **5-digit sum** -> (Find normal 5-digit no as if no zero is there) - (4-digit sum)
+* 0/1/2/3/4 -> 5-digit sum -> (5!/5 * (0 + 1 + 2 + 3 + 4) * (11111)) - (4!/4 * (1 + 2 + 3 + 4) * (1111)) 
+* Every case where **zero(0)** has come **first** which is as good as **4-digit** numbers. So, we will find the **5-digit no** sum and **substract** the **4-digit sum** from the **5-digit** sum. Then we will get the **answer**.
+
+* If **zero(0)** comes first in a **5-digit no** then that no is as good as **4-digit no**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89dd4824-e749-4317-8936-6955a584d3f9)
+
+* Word -> PEAK
+
+1) Alphabetical order -> PEAK -> AEKP
+2) Total Cases -> 4! -> 24
+3) Distribution -> 4 * 06 -> 24.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f839ee6e-eef1-453e-b951-300da15ab3d6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8cb69823-6c47-4780-8e9f-5104cddef4df)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81a7026d-a0c9-4621-bd79-6d9630684f13)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aaa0e6b4-2a0b-49cc-80bb-d8d6b69aaf5f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/796594bc-87bd-403d-8cea-4f116ffd5bb8)
+
+* **TRICK**.
+* Word -> Gold
+
+1) Alphabatical order -> DGLO
+2) Total cases -> 4! -> 24
+3) 5th word -> **DOGL**
+
+* DGLO
+* DGOL
+* DLGO
+* DLOG
+* **DOGL** -> 5th word.
+
+* All of the things can be down using the **Alphabatical order**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/986bf337-154e-4f94-9de6-4e6709a75ad9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb18b2df-71ca-4bea-ad30-abaabcd8af3a)
+
+* 15th word -> DIHEL
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a0381f7e-14a4-4d01-92dc-5e65e26a2487)
+
+* 30th word -> EDLIH
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58abc333-d0d1-4a54-9e02-0ef4978657cf)
+
+* 75th word -> IDHEL
+* 100th word -> LDHIE 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef6281bb-85fd-459e-a307-e5bb6a190a15)
+
+* Word -> AGAIN
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/efc9c4ab-f004-43dc-8a19-dbfb0de3c312)
+
+* A -> AGIN -> 4! -> 24
+* A -> 0
+* G -> AAIN -> 4!/2! -> 24/2 -> 12.
+* I -> AAGN -> 4!/2! -> 24/2 -> 12.
+* N -> AAGI -> 4!/2! -> 24/2 -> 12.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0f9bcc2-d358-4569-bb6a-4262efba62e6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b50c938d-ee6b-4d81-a401-2ba302f15956)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8527a141-7dbe-45ff-981b-c92eaf6966b1)
+
+* 50th word -> NAAIG
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8b97dd6-9d40-402a-8bf3-58d06d9b25a3)
+
+* Find the **rank** of **OFMR**?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6e1ad439-3332-43cc-85fd-cdc202c423f9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/394b1eb0-e968-49a2-ab97-58e11d80a4bf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd420349-5d9d-459f-a96b-286f7c038657)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33f9f1c7-a5fc-4ced-bbe6-e01d0d2a8e90)
+
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b608e2e-7f4e-4a95-b28f-802ed3d1d575)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd9dcc28-3dae-4a30-9cdb-4f797d94d479)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7806d55b-6037-4def-aef4-0be9b39f67ab)
+
+* Option **C** correct answer.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/526618f6-b360-4c8b-94a8-79c12e285960)
+
+* **r** -> No. of variables
+* **n** -> Power.
+* **Formula** -> (n + (r-1))C(r-1)
+* (a + b) ^ 2
+* (a + b) ^ 3
+* (a + b) ^ 7
+* (a + b + c) ^ 2
+* (a + b + c) ^ 50
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8b0dd04-e82c-4c5e-b560-b82d10ed6463)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a01ac526-eb20-4e94-94c5-a2caa24b8f94)
+
+* **(a + b) ^ 7** -> (n + (r-1))C(r-1) -> (7 + 2 - 1)C(2-1) -> 8C1 -> **8**.
+* n = 7, r = 2
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5bbdcdca-3626-4c85-bcd4-9b211d8fc577)
+
+* No. of terms in ((a + b + c +d) ^ 10)?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cdff50c2-819b-45e7-9b8d-2d2fd3733b06)
+
+* Question.
+
+> **(n + (r-1))C(r-1) -> (10 + 4 -1)C(4 - 1) -> 13C3 -> 286**.
+
+* What is the **min** value of **X and Y**?
+
+> **X = Y = 0**, as **X >=0 and Y >= 0**.
+
+> From **4** take out the **min. values of X and Y** from **4**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3b73668d-39bd-4d9b-b2a7-ecfbf74b1ac4)
+
+> Use the **(n + (r-1))C(r-1)** to get the **answer**.
+
+* Here, **n** is the value on the **right side** of the equation.
+* **r** is the **no. of variables**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b64f8d9-136e-4ad1-8836-c1c9035c76b7)
+
+* When **X > 0 and Y > 0**. **Min value of X an Y** is **X = 1 and Y = 1**.
+* Now, we will **substract**, the **min. value of X and Y** from **4**. So, the equation is **X + y = 4 - 1 - 1**.
+* **X + Y = 2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c559b28d-135d-4568-a332-d7b6769fff91)
+
+* We are finding **no. of solution**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/760e9837-a86b-4750-926d-b20b0b8c6913)
+
+* For **X >=0, Y >=0, Z>=0**, the **min values of X= Y = Z = 0**. So the **new equation** is **X + Y +z = 10**.
+* New expression -> **X + Y + Z = 10**.
+* We got **no. of solutions** as **66**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d7449f33-dd27-4d3a-b044-c5401e78adf9)
+
+* For **X >=0, Y >0, Z>0**, the **min values of X=0, Y = Z = 1**. So the **new equation** is **X + Y +z = 10 - 1 - 1**.
+* New expression -> **X + Y + Z = 8**.
+* We got **no. of solutions** as **45**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35cc06a0-c8ed-4d5d-b80e-3dbd9b24302b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aee245ad-cf04-42fc-89fc-12679d80846c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e22ee495-6f43-4b4c-bbc3-16ee0de6a72f)
+
+* For **X >0, Y > 1, Z > 2**, the **min values of X = 1, Y = 2, Z = 3**. So the **new equation** is **X + Y +z = 10 - 1 - 2 - 3** -> **X + Y + Z = 10 - 6**.
+* New expression -> **X + Y + Z = 4**.
+* We got **no. of solutions** as **15**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8dd38441-4d27-4a36-b6c4-cfcf076677a5)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b370691c-5bc4-4d8b-9259-7f02bc2a4431)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16b1f1a0-6406-4a45-b4e5-3c2f43c1052e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f378112-6b58-497d-bb6c-9faa3a9e950b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d5a34eb-1ef5-4843-8927-9b85367dd06a)
+
+
+
+
 
 
 
@@ -958,19 +1164,39 @@
 
 * Check the **Theory** again from **PDF 23**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb303bfc-13b9-425f-b96f-fef6feab2989)
 
+* Question
+* **Mock/Deride/Jeer** -> Ridicule someone
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ed48cb9-37c0-464f-8797-65b3acffa4df)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/665111fd-e258-44c3-af73-dd1ea9ca2121)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50770236-f9bf-4a1c-92b7-633d40e272d9)
 
+* Option **B**.
+* **Closest** -> [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/487e1292-3bc3-4062-872d-397794b4b193)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9204f2ed-8308-4e69-99a2-fd11fec32446)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b29c7930-d7d4-4026-8f27-ccf7fcfd1dcd)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2e513f5a-89df-4fa4-9e4e-8327b4ed6242)
 
+* Question
+* Option **D**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/350bf355-2755-49cf-b7fa-3ad78982d513)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d5068e03-a753-4f66-a4ba-956bc3a8b1e1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91bfdcf8-aaf1-4dc5-a90e-47098fcd9413)
 
+* Question
+* Option **A**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/acf39f54-429d-485b-b51c-be89ce38315f)
 
-
-
+* Option **A**.
 
 
 
@@ -1030,6 +1256,113 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a884f1e-2331-4a7d-8824-490354a784c7)
 
 * Quite.
+* **Mock/Deride/Jeer** -> Ridicule someone
+* Ridiculous -> Adjective
+* **ous** -> The word becomes an adjective.
+* Absurd
+* Praise -> Tarif karna
+* Phony
+* Euphony ->
+* **Eu** -> positive word.
+* Cacophony
+* Euphoria -> Extreme happiness
+* Eulogy -> Praise
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/665111fd-e258-44c3-af73-dd1ea9ca2121)
+
+* Summit ->
+* Peak/pinacle/Apex/Summit/Acme
+* Acme -> the point at which something is at its best or most highly developed
+* Peak -> the pointed top of a mountain
+* Apex -> the top or highest part of something
+* Peek -> a quick or furtive look
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/718e138c-6fee-4c65-a54a-f0f1434c2264)
+
+* Epitomy -> a person or thing that is a perfect example of a particular quality or type
+* Epitome -> a person or thing that is a perfect example of a particular quality or type
+* Apogee -> the highest point in the development of something; a climax or culmination
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d4a27d9-720e-4109-a08c-d3488f2eef54)
+
+* Opposite words:-
+* Nadir -> the lowest or most unsuccessful point in a situation
+* Abyss -> a deep or seemingly bottomless chasm
+* **Thorough** -> Up to date.
+* **Meticulous** -> Precise/Perfect/Diligent/Precision.
+* **Tenacious** -> Hardworking.
+* **Beside** -> Next
+* **Besides** -> Except/Excluding -> Besides this take everything.
+* **Many** -> Used for **countable** things.
+* **Much** -> Used for **uncountable** things.
+* People -> One nationality.
+* Peoples -> Different/Multiple nationalities.
+
+* **Sleeping postures**.
+
+* **Prone**
+* **Supine**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e6bd3978-9d1e-40aa-99eb-d0d3b7c80ba8)
+
+* Question
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/48633996-f962-4ab1-a188-8b3488138135)
+
+* Prone.
+* Prune -> a plum preserved by drying and having a black, wrinkled appearance.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57e81ac3-90d6-4371-ba16-8f87313a2249)
+
+### **180 degree words**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc078e9c-fc5d-44e9-94df-1b972be3d912)
+
+* Though
+* Although
+* However
+* Inspite of
+* But
+* Despite
+* Yet
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/535deaa8-40d0-40cd-a33b-1a5d15f52008)
+
+* Bereft -> Void of ideas -> Bereft of ideas.
+* Gyne/Gyna -> Related to **females**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f63f4e6c-69f0-40ad-b215-cf53efd9e400)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cbf8f460-6fcc-47ca-858a-17ac110e3773)
+
+* Misogamy -> Hatred to marriage.
+* Miso/Mis -> Related to **Hatred**.
+* Misogyny -> Hatred to women.
+* Misandry -> Hatred to men.
+* Ortho -> Related to **BONE**.
+* No. of bones in Adult -> 206.
+* Compliment -> 'i' means praise -> Tarif
+* Complement -> Perfectly Matches
+* Desert -> Ragistan -> Dry place -> Deserted piece of land -> Sahara 
+* Dessert -> The dessert was too sweet -> Sweet.
+* Insure -> Insurance -> Giving insurance -> arrange for compensation in the event of damage to or loss of (property), or injury to or the death of (someone), in exchange for regular payments to a company or to the state
+* Ensure -> make certain that (something) will occur or be the case
+* Etiquette -> the customary code of polite behaviour in society or among members of a particular profession or group
+* Pandemic
+* Pan -> Spreads in the Whole world -> Universal.
+* Twisted -> Fabrication
+* Appreciated
+* Returned
+* Ignored
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1059,6 +1392,227 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8888a9f1-2b38-4cde-bcf8-c8eea3f1ea0f)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dac0cf03-82a5-4ec3-b89a-1f5bfb779e9c)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a194fe7-8c7b-463d-8144-d74f4054a25f)
+
+## Geometry
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb35f44e-b97e-4cd2-ad5a-fbf5313f1d92)
+
+* As many **sides** that many **vertices**.
+* If **n** sides then **n** no. of **vertices**
+* Total no. of **straight lines(S/L)** -> Sides + Diagonals.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/874e2057-f0ed-4e24-9d54-0283b8cd0e5c)
+
+* If **n** sides then **n** vertices.
+* n = sides = vertices.
+* Out of the **n** sides, we have **selected** 2 **vertices/points** which is **nC2**.
+* **Total no. of diagonals** -> (Total no. of straight lines(S/L)) -  (No. of sides) ->  nC2 - n. [Formula]
+* **Total no. of points/vertices** we have is **n**.
+* **Total no. of straight lines(S/L)** -> nC2 [Formula]
+* Hexagon -> No. of sides/vertices(n) -> 6.
+* Decagon -> No. of sides/vertices(n) -> 10.
+
+* **NOTES**:-
+
+* Min. no. of points required to draw a **straight line** -> 02
+* Min. no. of points required to draw a **triangle** -> 03
+* **Co-linear** -> 3 or more points/vertices are said to be **co-linear** if they come in the **same line**.
+* **3 or more** because **2 points/vertices** are required to make a **straight line**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5272cad-1555-4d2b-9188-cc6aebf13d83)
+
+* **Total no. of straight lines** -> (Total no. of points and select any two points(pointsC2)) - ((colinearC2) + 1).
+* **Total no. of straight lines** -> (totalC2 - colinearC2) + 1.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a0c8a5b-33d7-4dda-8055-a84f476c18d5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e91676da-3741-433d-a9f0-f6f4e64a3042)
+
+* We have **20** points/vertices. Tell total no. of **straight lines(S/L)** -> 20C2.
+* Now, we **20** points/vertices but **5** are co-linear -> 20C2 - 5C2 + 1.
+* The formula and finding it directly give the **same answer** only.
+* **10C2 - 4C2 + 1 -> 40**.
+* **TotalC2 - ColinearC2 + 1 -> nC2 - BB + 1 -> 10C2 - 4C2 + 1 -> 40**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2125b094-02c4-41f9-a8ac-436e19543ea7)
+
+* We have **100** points/vertices -> 100C2.
+* We have **100** points/vertices but **10** are co-linear -> 100C2 - 10C2 + 1.  
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/793eb23b-90ff-45eb-baa5-907994be12af)
+
+### Triangle
+
+* Triangle -> **nC3**
+* **3** is important for **Trian
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d56ab22d-8d55-41d2-a4cc-5261a020722c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0deb8d68-a3e5-46f3-9371-c0d8e5920fd7)
+
+* So it is **nC3 - BBB -> 10C3 - 4C3 -> 120 - 4 -> 116**.
+* It is **same** as the **above formula**.
+* **Total No. of triangles** -> totalC3 - colinearC3
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b5f1d7a-4222-40c3-b258-a3da3b31c5ed)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/60e459f0-d698-47bf-8d92-ba87415161eb)
+
+### Summary [**IMPORTANT**]
+
+* Straight Lines -> nC2
+* Triangle -> nC3.
+
+* We need **3** points for the **triangle**.
+* As all of the points are **co-linear** so **PPP and QQQ** will not work and will contribute **zero(0)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41c13a6e-dc6e-4672-897d-513864a41366)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ca0188e-44e5-4cbf-b50f-e202523c0389)
+
+* Total -> (10 + 11)C3 -> 21C3
+* Not required -> PPP + QQQ -> 10C3 + 11C3 
+* We want -> Total - Not required -> 21C3 - (10C3 + 11C3) -> 1045.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/49f33a68-7744-4e49-ad2e-ad3de6f40ae9)
+
+* Sum of **squares** of an **n** natural no ->  1/6 * (n * (n + 1)) * (2 * n + 1) = 1/6 * 8 * 9 * 17 = 204 [n=8]
+
+* Probability of getting **1 X 1** square in a chess board -> (8 ^ 2)/204 -> 64/204
+* Probability of getting **2 X 2** square in a chess board -> (7 ^ 2)/204 -> 49/204
+* Probability of getting **6 X 6** square in a chess board -> (3 ^ 2)/204 -> 9/204
+* Probability of getting **3 X 3** square in a chess board -> (3 ^ 2)/204 -> ((3 X 3) value) / (Sum of **squares** of an **n** natural no) -> (3 ^ 6)/204 -> 26/204.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d85fa5df-f5df-4a6b-9299-bc796715424b)
+
+* How a rectangle is formed?
+
+> (Horizontal)C2 * (Vertical)C2.
+
+* Horizontal(H)
+* Vertical(V)
+* **HC2 * VC2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3e39a3e-4380-4a4d-8b9d-96338bc135c3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/94a376ee-c7dd-41cb-9c22-db5bc20f1265)
+
+* **All squares** are **rectangles**.
+* **All rectangles** are **squares**, not necessarily.
+
+* Find no. of rectangles?
+* Vertical lines(V) -> 20
+* Horizontal Lines(H) -> 10
+
+* No. of rectangles -> HC2 * VC2 -> 10C2 * 20C2.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/422dbbfd-f1f6-4d5c-b967-bc2c99173590)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe63e49e-88bc-4fea-b946-3f5352a7f485)
+
+* **m** parallel lines and **n** parallel lines
+* No. of **parallelogram** -> mC2 * nC2 
+
+> **Select two** horizontal lines and **two** vertical lines.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8eb7fd42-bcc5-4bbf-9e39-a961228c17a4)
+
+* Question
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd475587-766b-4bf7-96fe-283d61c3270e)
+
+* If there is exactly **one** handshake between two people, that means **total no. of handshake** between **three** people, will be **nC2 -> 3C2 -> 3**. 
+* **3C2** signifies **one** handshake between two people.
+* If there is exactly **one** handshake between two people, that means **total no. of handshake** between **five** people, will be **nC2 -> 5C2 -> 10**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6e088011-1319-4ea0-86e9-bec4a28a8f34)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/45f93037-8b4c-4e1e-b110-45a9d475297c)
+
+* Question.
+* Answer -> **TRUE**.
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/E9DB432758
+* No. of handshakes -> 12C2 -> 66.
+* So it is **True**.
+* This is valid for **tournaments** as well.
+* Considering that there is **one match** between **two teams**.
+* There are **three** teams such that there is **exactly one match** between two teams -> **nC2 -> 3C2 -> 3**.
+* There are **five** teams such that there is **exactly one match** between two teams -> **nC2 -> 5C2 -> 10**.
+* We don't know how many teams are there but **total no. of matches** is **66** -> nC2 = 66.
+* Hand-shakes
+* Tournaments
+* Gift-exchange
+* Theses all can be done with the **above** concept.
+
+* **CK** gave gift to **kanhaiya** and **kanhaiya** gave **return** gift to **CK**.
+* So, between **two** people, there is **two** gift exchanges.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a92253a3-d0a0-497f-b0db-3bbf5772394f)
+
+* **One gift exchange** between **two people** -> nC2
+* **Two gift exchange** between **two people** -> 2 * nC2
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b6e526c7-c160-4ae0-9efa-cf8530e2fa46)
+
+* In the way that **Divya and saima** had exchanges their **greeting cards** with **each other**. Total **no. of cards exchanged** is **some no., let's say 50**, such that **every student has given a card to every other student**.
+
+* This is a clear case of **2 * nC2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/534e988a-32c8-4458-a24b-244977d7506e)
+
+* We have to see if there is **one gift exchange** or **two gift exchange**. That will determine if it will be only **nC2** or **2 * nC2** or something else.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/171ce301-6fec-4dcf-b269-83c68d2113f2)
+
+* option **B**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b4814383-c99b-448e-9be5-a66e23c66909)
+
+* If **DELHI** was the word. Instead of **MATHEMATICS**, the word is **DELHI**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c66ace6-004d-4015-b9a6-d447c8c9f378)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05cb2c74-fe9e-4096-bb6f-d032d7f427b4)
+
+* Form a **4** letter word using the letters of the word **MATHEMATICS**.
+* Major concern is **repetition**.
+* We can have **3 cases**.
+
+1) **No repetition** -> (5 + 3)/C4 * 4! -> 8C4 * 4!.
+* **8 letters** -> H, E, I, C, S, M, A, T (4 letters) -> 8C4
+* **5 letters** with are not repeated in **mathematics** word -> H, E, I, C, S 
+* **3 letters** with are repeated in **mathematics** word -> M, A, T
+* Arrangement is **4!**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4eaa0e04-465e-4c24-9fee-484967f731e3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b391a75-ace8-4e50-bcd3-26b44c1a83ca)
+
+2) When **1-pair** is **repeated** -> 3C1 * 7C2 * (4!/2!)
+
+* One of the **repeated letters** will be repeated in the word.
+* **7 letters** with are not repeated in **mathematics** word(Two letters) -> H, E, I, C, S, A, T -> 7C2
+* **Out of the 3-pairs** one pair is selected(two letters) -> **3C1** -> Represents **one out of the three repetition letter pair cases**.
+* Arrangement is **4!**, as **repetiton of one pair** that's why divide by **2!**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f411e62c-4166-42f4-8228-03c84db82ee0)
+
+3) When **both pairs** are repeated -> 3C2 * (4! / (2! * 2!)).
+
+* **Out of the 3-pairs** two pair is selected(four letters) -> **3C2** -> Represents **two out of the three repetition letter pair cases**.
+* Arrangement is **4!**, as **repetiton of two pair** that's why divide by **2! * 2!**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7621e8a-9789-4d22-ae91-4836b70259f8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9114d9e0-365a-4627-bf38-95de389a3467)
+
+* We are doing **5C4 * 4!** because **5** letters do not repeat in **MATHEMATICS** and we want **4 letter** word so it is **5C4** and the **4!** is for the **4 letter** arrangement.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b0205d5-3744-4726-adfa-156e1d950a14)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e4508cf5-a17c-4e2e-bd56-5b9d6733de1c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5296daca-c3c0-4bb1-bd6f-9e200df618fc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a604d7b7-140a-46d1-be80-9a814784ac04)
+
+* Option **C**.
+
 
 
 
