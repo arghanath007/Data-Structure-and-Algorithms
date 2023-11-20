@@ -274,7 +274,7 @@
 * For **n** different things is **n!**.
 * If I throw **2 coins**, sample space would be **2 ^ 2**.
 * Probability of getting a **head and a tail**, **P(HT)** ->  2! / (2 ^ 2) -> 2/ 4 -> 1/2
-* Two different albhabets arrangement is **2!**.
+* Two different alphabets arrangement is **2!**.
 * As **H and T** are two different alphabets so their arrangement is **2!**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69b825e0-8d68-4b26-bcfd-8ea611a0b001)
@@ -287,7 +287,7 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f89393f-7932-4980-9f47-276b3d3b578e)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3e9d41f-e6f3-4273-9f1b-54792f682a09)
 
-* We have make **no. of coins** irrevalent, as we are using **n!** which is for **n** different things.
+* We have make **no. of coins** irrelevant, as we are using **n!** which is for **n** different things.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9199dc21-b215-4b81-b4b9-0bfc9cb6cb80)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66b1db19-8ba7-4109-933e-236846448994)
@@ -375,7 +375,7 @@
 * **Magic Triangle**.
 * Outside or above the line values are **sum**.
 * Inside or below the line values are **ways**.
-* There is a the way to calculate the **probability** of **sum** questions in **2-Dices**.
+* This is the way to calculate the **probability** of **sum** questions in **2-Dices**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e64c6785-618d-4b62-b54a-0766e596afe2)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8f3a611-ab9d-47f8-a4ec-71bb3e5c1819)
@@ -448,12 +448,12 @@
 
 ## Probability
 
-* For **n** different thing's **arrangement is **n!**.
+* For **n** different thing's **arrangement** is **n!**.
 * 2-Dice **trick**.
 * If we have thrown two dice simultaneously or thrown one dice twice. The **sample space** will be **6 ^ 2 -> 36**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e27d69d-efaa-424e-9a77-2697168157f0)
- ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/edd16671-3616-41e6-b067-9647941760f2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/edd16671-3616-41e6-b067-9647941760f2)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/03b347c1-7aee-43a5-9e5f-26bb675eeb0c)
 
 * Value coming in **Dice 1** is **smaller** than the value coming in **Dice 2**.
@@ -520,7 +520,7 @@
 
 * Playing cards [**IMPORTANT**]
 * If we pick **4 cards** and nothing is mentioned/said then it is **52C4** which means we are picking the **4 cards** simultaneously.
-* If we pick **4 cards** only by **one-by-one** or **succusively**. Then, there will be **two** cases:-
+* If we pick **4 cards** only by **one-by-one** or **successively**. Then, there will be **two** cases:-
 
 1) **With replacement(R)** -> 52C1 * 52C1 * 52C1 * 52C1.
 2) **Without replacement(WR)** -> 52C1 * 51C1 * 50C1 * 49C1.
@@ -542,7 +542,7 @@
 * [**IMPORTANT**]
 
 * In **Question 1**, we are multiplying **2!/2!** because we have **two red balls** which means their **arrangement** is **2!** and as **red** is **repeated twice** so divide by **2!**.
-* In **Question 2**, we are multiplying **2!** because we have **one red and one blue balls** which means their **arrangement** is **2!** and as there is no **repettition** so no divide by **2!** here.
+* In **Question 2**, we are multiplying **2!** because we have **one red and one blue balls** which means their **arrangement** is **2!** and as there is no **repetition** so no divide by **2!** here.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ccbf853b-dd61-4dda-ab5e-0a1b6acd7ee9)
 
@@ -576,8 +576,7 @@
 * Arrangement yes, take cases would be easier.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7365ca64-8fc5-4b39-b706-c7c6e873770a)
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0bef3e85-700a-4aa8-8d6f-
-5b5574c1cc0e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0bef3e85-700a-4aa8-8d6f-5b5574c1cc0e)
 
 * **Yes**, arrangement there.
 
@@ -630,14 +629,14 @@
 
 ## On an **average**
 
-* **On a average**, in the last **10yrs**, **floor** has happened for **4** times which is **4/10**. 
+* **On a average**, in the last **10yrs**, **flood** has happened for **4** times which is **4/10**. 
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5fc01bf0-2044-4c5b-aff4-c06266bff01d)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1911a2d4-4378-427f-bb9a-0d6f77854b17)
 
 * Question
 * 0.04 -> 4/100 -> 1/25
-* It means that on a average of **25yrs** there is **1** earthquate that has happened.
+* It means that on a average of **25yrs** there is **1** earthquake that has happened.
 * So, between **earthquakes** there is roughly a gap of **25yrs**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7eeaee5b-aa3e-4c34-a5a6-8dd53fc516e5)
