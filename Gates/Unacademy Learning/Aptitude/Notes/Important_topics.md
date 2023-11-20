@@ -1067,8 +1067,48 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16b1f1a0-6406-4a45-b4e5-3c2f43c1052e)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f378112-6b58-497d-bb6c-9faa3a9e950b)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d5a34eb-1ef5-4843-8927-9b85367dd06a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/18c36ded-459f-4ea4-b58c-94ce7c7091b6)
 
+* For **n** different things is **n!**. [**IMPORTANT**]
+* Probability of getting a **head and a tail**, **P(HT)** ->  2! / (2 ^ 2) -> 2/ 4 -> 1/2
+* Two different alphabets arrangement is **2!**.
+* As **H and T** are two different alphabets so their arrangement is **2!**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f89393f-7932-4980-9f47-276b3d3b578e)
+
+* For **3 coins**, we want to find **P(HHT)**.
+* **P(HHT)** -> (3! / 2!)/ (2 ^ 3) -> 3/8
+* **3!** is for **3 letters** which are **HHT** and divide by **2!** since **H** is repeated **twice**.
+* Sample space -> 2 ^ 3.
+* We have make **no. of coins** irrelevant, as we are using **n!** which is for **n** different things.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63a2d824-5c77-498d-8520-884b39107352)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f513ab7-a76e-4d98-a0ae-9c0e3d1ddf92)
+
+* For **5-coins**, we are finding probability of **P(HHHTT)**.
+* Sample Space -> **2 ^ 5**
+* **5!** is for the **no. of letters(HHHTT)**.
+* Divide by **3! * 2!** because we have **H** repeated **3 times** so **3!** and **T** is repeated **2 twice** so **2!**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7fc2452-32ce-4cfb-8268-2c90c7142463)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d5dc5dd-ad79-4c5f-bd1f-61197a4d113e)
+
+* Fair -> Unbiased. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05320e1c-a036-4ef4-8f1c-a913fc708f69)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e8ca092-6ed9-4da6-8bf4-5ce739273c3b)
+
+* Probability of **Atleast one(1) Tail(T) and Atleast one(1) Head(H)**. 
+* It means that we have to **remove** both **HHH and TTT**. 
+* That's why the probability is **6/8**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3bef577d-23e1-431e-b96e-4e5c078993c6)
+
+* Atleast 3-H.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c8927ddf-d76e-4e4e-8f08-1e1dc5437ed3)
+
+* Atmost 2-H
 
 
 
