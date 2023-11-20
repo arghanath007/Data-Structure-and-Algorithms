@@ -1110,9 +1110,46 @@
 
 * Atmost 2-H
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc2e6599-9ba0-41a8-9fba-099b621ed61d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b9a5d726-06d8-4b58-bf6a-57488a974e31)
 
+* 2-Dice Sum.
+* This is the way to calculate the **probability** of **sum** questions in **2-Dices**.
+* What is the probability of P(sum <= 3) -> (1+ 2)/36 -> 3/36 -> 1/12 [**IMPORTANT**]
+* What is the probability of P(sum >= 9) -> P(sum=9) + P(sum=10) + P(sum=11) + P(sum=12)  -> (4 + 3 + 2 + 1)/36 -> 10/36
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/035d7e68-3aaa-474e-9879-84c6c06ce10b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b2dc94ed-bafb-4bd6-81d9-82b9b09f3661)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c5fbc5f7-6b10-4eea-8754-17be17f8bb49)
 
+* What is the probability of P(sum =8) -> 5/36.
+* What is the probability of P(sum = 8 or 3) -> (5 + 2)/36 -> 7/36
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a22e1ced-85bc-4e99-bd97-f199313d2dc5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/deb0838b-a2ec-4423-848e-06be05b9dfdd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/585ff1f2-d89a-4b3a-9f13-14db3a206c80)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/afed90b0-e5c7-4b25-9b5c-8848fb7c8dbf)
+
+* P(Sum = Even Nos).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/abcf207b-37dc-427e-8277-0b4ef1d63513)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7e65376-2716-40d3-b9e5-0c28901cb074)
+
+* [**IMPORTANT**]
+* For **n** different thing's **arrangement** is **n!**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f865951-e1ee-4d0e-bd8e-63536a3c8f80)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/882ecac9-3b80-4145-8f2e-5982b437c409)
+
+* For the **4th question**, **1 - 6C2/15C2** is **wrong** because we have substracted **both white condition**. There will be **2 cases**, which are **zero white and 1 white case**.
+* We have removed **both white case only**.
+* We wanted **P(None White)**, which means remove all **white balls**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/110693d2-8c14-4ba4-8dcf-26fd4882ba84)
+
+* Correct answer is **9C2/15C2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1077dc8e-ab2a-483c-bf51-ebcf82c92bb0)
 
 
 
