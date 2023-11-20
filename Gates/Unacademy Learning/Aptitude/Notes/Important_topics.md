@@ -1151,6 +1151,46 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1077dc8e-ab2a-483c-bf51-ebcf82c92bb0)
 
+* It has total **52** cards.
+* Colors -> Black and Red -> 26 Cards each.
+* Suits -> Spade, Club, Heart and Diamond -> 13 cards each.
+* Face Cards/Picture Cards -> J/Q/K -> 03 cards each -> **03 * 4 -> 12** in total.
+* Honour Cards -> J/Q/K/A -> 04 cards each-> **04 * 4 -> 16** in total.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/305c8ea8-95f5-42ac-9efb-89fe3f2ddc8e)
+
+* If we pick **4 cards** and nothing is mentioned/said then it is **52C4** which means we are picking the **4 cards** simultaneously.
+* If we pick **4 cards** only by **one-by-one** or **successively**. Then, there will be **two** cases:-
+
+1) **With replacement(R)** -> 52C1 * 52C1 * 52C1 * 52C1.
+2) **Without replacement(WR)** -> 52C1 * 51C1 * 50C1 * 49C1.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97eb540e-5e40-4958-849e-3100d938bb48)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a16abbc4-39b5-4a73-a72c-311ae41cce32)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c2514ef-fb0f-4e86-9d86-0de751eeef1f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/167b724d-fa77-418e-8d52-1e1b6e3813af)
+
+* It is said that the **second card** is **red** only. Two cases are possible, either the first case is **blue** and the second card is **red** or the first case is **red** and the second card is **red** also.
+* BR + RR.
+* As we are fixing the **second ball** to be **red** only so there will be **no arrangements** here.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7365ca64-8fc5-4b39-b706-c7c6e873770a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/952f72ee-95ea-4ab2-9234-4e2520a80d3f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/40bc4c00-f28e-42f9-8242-67715ce3c222)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f23df13-a2b4-4096-82f3-05fafdab9103)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1911a2d4-4378-427f-bb9a-0d6f77854b17)
+
+* Question
+* 0.04 -> 4/100 -> 1/25
+* It means that on a average of **25yrs** there is **1** earthquake that has happened.
+* So, between **earthquakes** there is roughly a gap of **25yrs**.
+
 
 
 
