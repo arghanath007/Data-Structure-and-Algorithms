@@ -1067,12 +1067,129 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16b1f1a0-6406-4a45-b4e5-3c2f43c1052e)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f378112-6b58-497d-bb6c-9faa3a9e950b)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d5a34eb-1ef5-4843-8927-9b85367dd06a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/18c36ded-459f-4ea4-b58c-94ce7c7091b6)
 
+* For **n** different things is **n!**. [**IMPORTANT**]
+* Probability of getting a **head and a tail**, **P(HT)** ->  2! / (2 ^ 2) -> 2/ 4 -> 1/2
+* Two different alphabets arrangement is **2!**.
+* As **H and T** are two different alphabets so their arrangement is **2!**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f89393f-7932-4980-9f47-276b3d3b578e)
 
+* For **3 coins**, we want to find **P(HHT)**.
+* **P(HHT)** -> (3! / 2!)/ (2 ^ 3) -> 3/8
+* **3!** is for **3 letters** which are **HHT** and divide by **2!** since **H** is repeated **twice**.
+* Sample space -> 2 ^ 3.
+* We have make **no. of coins** irrelevant, as we are using **n!** which is for **n** different things.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63a2d824-5c77-498d-8520-884b39107352)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f513ab7-a76e-4d98-a0ae-9c0e3d1ddf92)
 
+* For **5-coins**, we are finding probability of **P(HHHTT)**.
+* Sample Space -> **2 ^ 5**
+* **5!** is for the **no. of letters(HHHTT)**.
+* Divide by **3! * 2!** because we have **H** repeated **3 times** so **3!** and **T** is repeated **2 twice** so **2!**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7fc2452-32ce-4cfb-8268-2c90c7142463)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d5dc5dd-ad79-4c5f-bd1f-61197a4d113e)
+
+* Fair -> Unbiased. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05320e1c-a036-4ef4-8f1c-a913fc708f69)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e8ca092-6ed9-4da6-8bf4-5ce739273c3b)
+
+* Probability of **Atleast one(1) Tail(T) and Atleast one(1) Head(H)**. 
+* It means that we have to **remove** both **HHH and TTT**. 
+* That's why the probability is **6/8**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3bef577d-23e1-431e-b96e-4e5c078993c6)
+
+* Atleast 3-H.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c8927ddf-d76e-4e4e-8f08-1e1dc5437ed3)
+
+* Atmost 2-H
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc2e6599-9ba0-41a8-9fba-099b621ed61d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b9a5d726-06d8-4b58-bf6a-57488a974e31)
+
+* 2-Dice Sum.
+* This is the way to calculate the **probability** of **sum** questions in **2-Dices**.
+* What is the probability of P(sum <= 3) -> (1+ 2)/36 -> 3/36 -> 1/12 [**IMPORTANT**]
+* What is the probability of P(sum >= 9) -> P(sum=9) + P(sum=10) + P(sum=11) + P(sum=12)  -> (4 + 3 + 2 + 1)/36 -> 10/36
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/035d7e68-3aaa-474e-9879-84c6c06ce10b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b2dc94ed-bafb-4bd6-81d9-82b9b09f3661)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c5fbc5f7-6b10-4eea-8754-17be17f8bb49)
+
+* What is the probability of P(sum =8) -> 5/36.
+* What is the probability of P(sum = 8 or 3) -> (5 + 2)/36 -> 7/36
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a22e1ced-85bc-4e99-bd97-f199313d2dc5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/deb0838b-a2ec-4423-848e-06be05b9dfdd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/585ff1f2-d89a-4b3a-9f13-14db3a206c80)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/afed90b0-e5c7-4b25-9b5c-8848fb7c8dbf)
+
+* P(Sum = Even Nos).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/abcf207b-37dc-427e-8277-0b4ef1d63513)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7e65376-2716-40d3-b9e5-0c28901cb074)
+
+* [**IMPORTANT**]
+* For **n** different thing's **arrangement** is **n!**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f865951-e1ee-4d0e-bd8e-63536a3c8f80)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/882ecac9-3b80-4145-8f2e-5982b437c409)
+
+* For the **4th question**, **1 - 6C2/15C2** is **wrong** because we have substracted **both white condition**. There will be **2 cases**, which are **zero white and 1 white case**.
+* We have removed **both white case only**.
+* We wanted **P(None White)**, which means remove all **white balls**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/110693d2-8c14-4ba4-8dcf-26fd4882ba84)
+
+* Correct answer is **9C2/15C2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1077dc8e-ab2a-483c-bf51-ebcf82c92bb0)
+
+* It has total **52** cards.
+* Colors -> Black and Red -> 26 Cards each.
+* Suits -> Spade, Club, Heart and Diamond -> 13 cards each.
+* Face Cards/Picture Cards -> J/Q/K -> 03 cards each -> **03 * 4 -> 12** in total.
+* Honour Cards -> J/Q/K/A -> 04 cards each-> **04 * 4 -> 16** in total.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/305c8ea8-95f5-42ac-9efb-89fe3f2ddc8e)
+
+* If we pick **4 cards** and nothing is mentioned/said then it is **52C4** which means we are picking the **4 cards** simultaneously.
+* If we pick **4 cards** only by **one-by-one** or **successively**. Then, there will be **two** cases:-
+
+1) **With replacement(R)** -> 52C1 * 52C1 * 52C1 * 52C1.
+2) **Without replacement(WR)** -> 52C1 * 51C1 * 50C1 * 49C1.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97eb540e-5e40-4958-849e-3100d938bb48)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a16abbc4-39b5-4a73-a72c-311ae41cce32)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c2514ef-fb0f-4e86-9d86-0de751eeef1f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/167b724d-fa77-418e-8d52-1e1b6e3813af)
+
+* It is said that the **second card** is **red** only. Two cases are possible, either the first case is **blue** and the second card is **red** or the first case is **red** and the second card is **red** also.
+* BR + RR.
+* As we are fixing the **second ball** to be **red** only so there will be **no arrangements** here.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7365ca64-8fc5-4b39-b706-c7c6e873770a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/952f72ee-95ea-4ab2-9234-4e2520a80d3f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/40bc4c00-f28e-42f9-8242-67715ce3c222)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f23df13-a2b4-4096-82f3-05fafdab9103)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1911a2d4-4378-427f-bb9a-0d6f77854b17)
+
+* Question
+* 0.04 -> 4/100 -> 1/25
+* It means that on a average of **25yrs** there is **1** earthquake that has happened.
+* So, between **earthquakes** there is roughly a gap of **25yrs**.
 
 
 
@@ -1354,6 +1471,99 @@
 * Appreciated
 * Returned
 * Ignored
+* Enlightened -> Epiphany -> Nirvana
+* Enlightenment
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/15777ccd-cc01-4735-951a-acd235a3bebb)
+
+* Salvation
+* Joy -> Happiness
+* Jovial -> Joyousness/Happiness
+* Jovian -> Related to planet **Jupiter**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e76a65a1-c699-456a-af40-6cc031cab178)
+
+* Option **A**.
+* Ineffable -> Ineffable happiness -> too great or extreme to be expressed or described in words.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4d1e37c-38c4-4715-8f44-dc478e3f7e41)
+
+* Gladiator : Arena -> Professional Rivalry. [Key Word]
+* Option **D**.
+* Dance : Stage -> Could be a performance as well.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4d1e37c-38c4-4715-8f44-dc478e3f7e41)
+
+* Lawyer : Courtroom -> Professional Rivalry.
+* **Nonchalance** -> Carelessness -> Calm.
+* **Nonchalant** -> Insouciant -> feeling or appearing casually calm and relaxed; not displaying anxiety, interest, or enthusiasm.
+* Carefree -> Positive word
+* Careless -> Negative word -> Reckless.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d0a8f8a-50b2-43d9-8bbd-ad1eb5e072af)
+
+* Option **D**.
+* Calm.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eac4c355-f2ee-4dc1-b15b-fbea4591e758)
+
+* Option **B**.
+* Despite -> 180 degree word.
+* Delegations -> Delegates -> Group of representatives.
+* Demolish -> Obliterate -> Annihilate
+* Exterminate
+* Uproot
+* Saborate
+* Nullify
+* Naive
+* Novice
+* Tyro
+* Callow
+* **Puerile** -> [**IMPORTANT**]
+* Childish -> Negative word
+* Childlike -> Positive Word
+* Pupil -> One/Only.
+* Student -> Many 
+* Green ->
+* Greenhorn -> Naive/Novice/Tyro/Callow/Apprentice.
+* **Whimsical** -> unpredictable -> Sudden change in mood -> Doing things on a **whim**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d18d03bd-0da3-4146-a1d7-104c27649d5e)
+
+* Moody
+* Whimsical -> Bitcoin/Economy/Weather -> Examples
+* Vagary -> an unexpected and inexplicable change in a situation or in someone's behaviour
+* Humorous -> Funny
+* Virtuous -> Moral
+* vaguely -> in a way that is uncertain, indefinite or unclear; roughly
+* **The** -> Related to **religion**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5500989-ebde-4e8c-a1e6-7723142080fe)
+
+* Demos/Dem -> People/Crowd
+* Demand -> 
+* Democracy ->
+* Demography -> Demography of people.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/87b22b9e-21a0-4040-91d5-94de05b18da7)
+
+* Demagogue.
+* Eminent -> Important personality  [**IMPORTANT**]
+* Imminent -> Something which is about to happen -> Imminent danger. [**IMPORTANT**]
+* Forthcoming -> Near future -> Diwali is forthcoming.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f15b44bd-1fa5-43c9-b670-cf5701443360)
+
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b5d33f8-bb9c-41eb-84a3-7bfe21d61b79)
+
+* Wet blanket.
+
+
+
+
+
 
 
 
@@ -1624,6 +1834,18 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a59bc549-4298-4d65-bf77-b2a2830b02f3)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ceddf3b-be15-410c-92b8-72bd45b101e6)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5688e94-40c8-4c77-9635-e1ba3c0bc544)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/552566de-ad81-485e-a65e-a5f5433b3aa0)
+
+* Question -> https://user-images.githubusercontent.com/54589605/246620274-71f7c7a8-b3f6-48cb-99f0-cc2620deff33.png
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4459bcd2-e6ae-4754-9d6c-50882b21e264)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/655f1a68-39f0-44df-b28b-bbca989f6966)
+
+* Solution.
+
+
+
+
 
 
 
