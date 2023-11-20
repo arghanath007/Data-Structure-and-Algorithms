@@ -1354,6 +1354,99 @@
 * Appreciated
 * Returned
 * Ignored
+* Enlightened -> Epiphany -> Nirvana
+* Enlightenment
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/15777ccd-cc01-4735-951a-acd235a3bebb)
+
+* Salvation
+* Joy -> Happiness
+* Jovial -> Joyousness/Happiness
+* Jovian -> Related to planet **Jupiter**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e76a65a1-c699-456a-af40-6cc031cab178)
+
+* Option **A**.
+* Ineffable -> Ineffable happiness -> too great or extreme to be expressed or described in words.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4d1e37c-38c4-4715-8f44-dc478e3f7e41)
+
+* Gladiator : Arena -> Professional Rivalry. [Key Word]
+* Option **D**.
+* Dance : Stage -> Could be a performance as well.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4d1e37c-38c4-4715-8f44-dc478e3f7e41)
+
+* Lawyer : Courtroom -> Professional Rivalry.
+* **Nonchalance** -> Carelessness -> Calm.
+* **Nonchalant** -> Insouciant -> feeling or appearing casually calm and relaxed; not displaying anxiety, interest, or enthusiasm.
+* Carefree -> Positive word
+* Careless -> Negative word -> Reckless.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d0a8f8a-50b2-43d9-8bbd-ad1eb5e072af)
+
+* Option **D**.
+* Calm.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eac4c355-f2ee-4dc1-b15b-fbea4591e758)
+
+* Option **B**.
+* Despite -> 180 degree word.
+* Delegations -> Delegates -> Group of representatives.
+* Demolish -> Obliterate -> Annihilate
+* Exterminate
+* Uproot
+* Saborate
+* Nullify
+* Naive
+* Novice
+* Tyro
+* Callow
+* **Puerile** -> [**IMPORTANT**]
+* Childish -> Negative word
+* Childlike -> Positive Word
+* Pupil -> One/Only.
+* Student -> Many 
+* Green ->
+* Greenhorn -> Naive/Novice/Tyro/Callow/Apprentice.
+* **Whimsical** -> unpredictable -> Sudden change in mood -> Doing things on a **whim**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d18d03bd-0da3-4146-a1d7-104c27649d5e)
+
+* Moody
+* Whimsical -> Bitcoin/Economy/Weather -> Examples
+* Vagary -> an unexpected and inexplicable change in a situation or in someone's behaviour
+* Humorous -> Funny
+* Virtuous -> Moral
+* vaguely -> in a way that is uncertain, indefinite or unclear; roughly
+* **The** -> Related to **religion**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5500989-ebde-4e8c-a1e6-7723142080fe)
+
+* Demos/Dem -> People/Crowd
+* Demand -> 
+* Democracy ->
+* Demography -> Demography of people.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/87b22b9e-21a0-4040-91d5-94de05b18da7)
+
+* Demagogue.
+* Eminent -> Important personality  [**IMPORTANT**]
+* Imminent -> Something which is about to happen -> Imminent danger. [**IMPORTANT**]
+* Forthcoming -> Near future -> Diwali is forthcoming.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f15b44bd-1fa5-43c9-b670-cf5701443360)
+
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b5d33f8-bb9c-41eb-84a3-7bfe21d61b79)
+
+* Wet blanket.
+
+
+
+
+
 
 
 
@@ -1624,6 +1717,18 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a59bc549-4298-4d65-bf77-b2a2830b02f3)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ceddf3b-be15-410c-92b8-72bd45b101e6)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5688e94-40c8-4c77-9635-e1ba3c0bc544)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/552566de-ad81-485e-a65e-a5f5433b3aa0)
+
+* Question -> https://user-images.githubusercontent.com/54589605/246620274-71f7c7a8-b3f6-48cb-99f0-cc2620deff33.png
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4459bcd2-e6ae-4754-9d6c-50882b21e264)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/655f1a68-39f0-44df-b28b-bbca989f6966)
+
+* Solution.
+
+
+
+
 
 
 
