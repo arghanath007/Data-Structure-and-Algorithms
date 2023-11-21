@@ -715,7 +715,7 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a99b53a-7c3e-4633-8696-70cdb674f5a4)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6801aeec-9248-4c78-af02-ba332ebe600b)
 
-* Toss for **infinite** times that is not **important**. The **infinite** point is **irrevalent**. They are giving the **infinite** point purposefully. 
+* Toss for **infinite** times that is not **important**. The **infinite** point is **irrelevant**. They are giving the **infinite** point purposefully. 
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6059b45-c111-4e36-ac26-2d47195129e1)
 
@@ -740,7 +740,7 @@
 ### Independent Events
 
 * When the events are not related to each other.
-* That's when we wrtie **P(A/B) -> P(A)**.
+* That's when we write **P(A/B) -> P(A)**.
 * **P(A/B) -> P(A) * P(B)**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/672e264c-c9c3-4e94-b2ae-71dbe25dd2bd)
@@ -829,7 +829,7 @@
 
 ## Average Speed
 
-* **Average Speed -> Total Distace / Total Time travelled**.
+* **Average Speed -> Total Distace / Total Time traveled**.
 * Distance -> Speed * Time.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/547ae87e-41ce-4a53-812f-3c6f503235e2)
@@ -878,6 +878,7 @@
 * **Min. time** of bolts -> 170mins
 * **Min. time** to produce **9000 nuts and bolts** -> Max(**Min. time** of nuts, **Min. time** of bolts) -> Max(130mins, 170mins) -> **170** mins. 
 * we need both **nuts and bolts** to be completed in **min. time**. That's why we are taking the **max time** from both **nuts and bolt's minimum times**.
+* [**IMPORTANT**]
 
 ### Questions 
 
@@ -893,7 +894,7 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31798ba1-2c76-485d-ac4c-c1d3ea106a50)
 
 * [**IMPORTANT**]
-* If we travelled from one particular point to another point and came back to that particular point then the **average speed** is,
+* If we traveled from one particular point to another point and came back to that particular point then the **average speed** is,
 * **Average Speed** -> 2D/[(D/x) + (D/y)] -> 2 * x * y /(x + y)
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab71c480-33c8-4ca7-a85c-b32d5672643e)
@@ -912,6 +913,7 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d92fa09-402a-4c98-9869-4c3d7dea414e)
 
+* Summary [**IMPORTANT**]
 * Distance between home to clg and from clg to home is **same**.
 * Ideally **Ajit** takes **t** time.
 * We are doing **t + (5/60)** because he is taking **5 mins more** by being **5 mins late**.
@@ -1061,9 +1063,9 @@
 
 * **Speed** of the **carriage** when respect to the **man** who is in **sitting/resting/standing** condition(Scm) -> (Sc ~ Sm) ->  D/t + 0km/hr -> (100/100) /(4/60) + 0kh/hr -> 1.5 + 0 Km/hr -> 1.5 kh/hr.
 
-> As the man is in **sitting/resting/standing** condition, the speed of the **man** is **0 km/hr**, which we have put to get the **speed of the cariage with respect to the resting man**.
+> As the man is in **sitting/resting/standing** condition, the speed of the **man** is **0 km/hr**, which we have put to get the **speed of the carriage with respect to the resting man**.
 .
-> As the man is in **moving** condition, there is a speed of the **man** which we have put to get the **speed of the cariage with respect to the moving man**.
+> As the man is in **moving** condition, there is a speed of the **man** which we have put to get the **speed of the carriage with respect to the moving man**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5372676-6703-46b7-8d10-f255afcddf5f)
 
