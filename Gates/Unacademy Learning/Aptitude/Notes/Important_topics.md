@@ -1191,6 +1191,114 @@
 * It means that on a average of **25yrs** there is **1** earthquake that has happened.
 * So, between **earthquakes** there is roughly a gap of **25yrs**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ebbcaef8-2f99-44d4-b427-9999c8278b67)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/00b21c0f-58bc-4036-b070-62521d877973)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ceebdbf6-7474-4da4-890f-ee94cac83594)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/249d3aca-c0f7-4431-8050-5875e6f96383)
+
+* P(Get '1' atleast 4 times)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9cfecd21-048c-4f12-87e8-7173eb4da2ce)
+
+* It means that the **fifth** toss must contain a **head**. Fix the **Head(H)** at the **fifth** toss. It is **fixed**.
+* Probability of getting the **head** is **1/2**. Not just a **head** but the **3rd** head.
+* It means in the prior **4 tosses**, we must get **2 more heads**.
+* So in the prior **4 tosses**, we are getting **2 Heads and 2 Tails**.
+* It is a must that at the **fifth** toss, **head** must come.
+* Attack the **condition** **first**.
+* Arragemet is **4!/(2! * 2!)**.
+* P(3rd Head at 5th Toss) -> [(1/2) ^ 2 * (1/2) ^ 2 * (4! / (2! * 2!)) * (1/2)]
+* **Infinite no. of times**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76845807-20d0-4680-939b-cdddbb6bc73f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/78a4fd07-fd8c-4ec8-b531-a29a2f268a7e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c67de3b1-9a89-4e63-89af-43aaae28854e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/672e264c-c9c3-4e94-b2ae-71dbe25dd2bd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab23eb1a-dee1-4ad0-8b11-987f8889380e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98025c18-3980-4f11-a3d3-2bc8787fc455)
+
+* P(Exactly '1' solved)
+* P(Solved) -> 1 - (Not solved)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/82183c21-c915-4170-8233-ec32caaa39c9)
+
+* P(AC) = 1 - A'C'
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f295ffb-14eb-4e26-8aa4-bea706318c4a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/566f54b2-54f1-4de0-b2ab-642dc883e771)
+
+* High precision component
+* P(Atleast one meets the design specifications) -> 1 - P(None meets specifications)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b347c09-cd96-401d-a398-978e22a8e038)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f719e56-ec54-4865-a8c0-9a7d9638ced1)
+
+* P(operation is not successful) -> P(A'B'C')
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30cd2bf5-2ea5-45d2-a471-b26aec5e77ff)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72905c81-cdf9-44f0-b390-ad97d2fd9da0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb21d67c-676f-4602-bc3d-29c0558f8d01)
+
+* Option **A**.
+* Trains was running in **45 km/hr**.
+* 45km/hr * (5/18) -> 12.5 m/sec
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a9816eb0-6382-4d68-bda1-aa04b73aa8dc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef628c01-ec40-4a97-b8dd-b1dc037475fb)
+
+* 1 km/hr -> 5/18 m/sec
+* 1 m/sec -> 18/5 km/hr.
+* [**IMPORTANT**]
+* **Average Speed -> Total Distace / Total Time traveled**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b31861a5-b451-44c8-8947-e222f0e79f8b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a55fdd76-82ea-4eb9-bc38-a6abe0ff7d5f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b31861a5-b451-44c8-8947-e222f0e79f8b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a55fdd76-82ea-4eb9-bc38-a6abe0ff7d5f)
+
+> There is a factory that produces nuts, the rate of nut production is **100 nuts/min**. After it produces **1000** nuts, the machine needs to be cleaned for **5 mins**.
+
+* **Min time** taken to produces **9000** nuts?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2d29ed9e-bcdd-4e70-92c0-d663d15350a1)
+
+* Question.
+* In **1hr -> 60mins** nuts produced is **1000 * 4 -> 4000** nuts.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa17521b-5e6d-4f18-908f-4e8a5197f442)
+
+* Last **5** mins is for **cleaning** machine purpose. As **minimum** time taken asked.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a12b1fe3-26eb-485f-90f2-e23b18a89154)
+
+* **Min. time** to produce 9000 bolts.
+*  As **Min. time** asked we fill remove the last **cleaning time**.
+* **Min. time** to produce 9000 bolts -> 180 - 10 -> 170mins.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4aa398c1-0d6b-4520-ae7c-da1ba7e434f8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e14bbf0-fe4a-4e65-b79e-7c2a247a04e4)
+
+* Combining the **nuts and bolts** questions together.
+* **Min. time** to produce **9000 nuts and bolts**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0bb6833d-b461-4b63-b47f-a1425557c49b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9bfe873d-07c8-4fe2-a2ef-060568beb4b6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f644551a-1158-4f64-a104-01bb6360c160)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c3a31e86-ceb8-44d0-ada2-d0982fea1f3f)
+
+* **Min. time** of nuts -> 130mins
+* **Min. time** of bolts -> 170mins
+* **Min. time** to produce **9000 nuts and bolts** -> Max(**Min. time** of nuts, **Min. time** of bolts) -> Max(130mins, 170mins) -> **170** mins. 
+* we need both **nuts and bolts** to be completed in **min. time**. That's why we are taking the **max time** from both **nuts and bolt's minimum times**.
+* [**IMPORTANT**]
+
+
+
+
+
+
+
 
 
 
