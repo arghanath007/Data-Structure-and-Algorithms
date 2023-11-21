@@ -1293,6 +1293,71 @@
 * we need both **nuts and bolts** to be completed in **min. time**. That's why we are taking the **max time** from both **nuts and bolt's minimum times**.
 * [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5f75c2a6-873e-409c-a853-3dabb07f33d2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/182d0f68-22e4-4f8b-8d08-e233d0d70f4c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31798ba1-2c76-485d-ac4c-c1d3ea106a50)
+
+* [**IMPORTANT**]
+* If we traveled from one particular point to another point and came back to that particular point then the **average speed** is,
+* **Average Speed** -> 2D/[(D/x) + (D/y)] -> 2 * x * y /(x + y)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1739068f-e8af-44fd-af7e-b67b7889876c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b10c9957-7422-4c2b-adee-cb6ca06c4b3c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d92fa09-402a-4c98-9869-4c3d7dea414e)
+
+* Summary [**IMPORTANT**]
+* Distance between home to clg and from clg to home is **same**.
+* Ideally **Ajit** takes **t** time.
+* We are doing **t + (5/60)** because he is taking **5 mins more** by being **5 mins late**.
+* We are doing **t - (5/60)** because he is taking **5 mins less** by being **5 mins early**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c236cc3-5f36-45da-9bd7-5a2e0dc09f7a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/04e63496-7a21-4779-80c7-d135bc9451d6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/88c86e29-c312-4d20-bebc-18ecccfd664b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b2b902fa-cd5c-417b-af33-d0ee1e900b00)
+
+* Most of the time, they have picked **early and late time**.
+* It is for **frame of reference**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/327ab124-e80c-4795-8349-d0fde4195ef3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d894d76-f3b1-4008-8fa6-73f2f82e81f5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/429696e5-64e3-4698-b41e-598062d510b8)
+
+* If **speed increases** then **timing** must reduce such that the **expenditure/Distance** must remain constant.
+* On the contrary if **speed decreases** then **timing** must **increase** such that the **expenditure/Distance** must remain constant.
+* When we are talking about **time difference**, **distance** is **constant**. Then, **speed and time** are **inversely** proportional.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d2b4d71-857a-486e-b193-89a9f329ce43)
+
+* When **two** bodies move in the **same** direction -> **(X ~ y) km/hr** ['~' -> difference].
+* When **two** bodies move in the **opposite** direction -> **(X + y) km/hr**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c0ff0b2-e8ed-4fa5-849b-fcb825cedee8)
+
+> The carriage was visible to me for **4mins** upto **100m**.
+
+* If he was **sitting/resting/standing** condition when he said the **above statement** then the **Distance of 100m** and the **Time of 4mins** would be of the **carriage**. Which means we can find the **speed** of the **carriage**.
+
+* **Speed** of the **carriage** when **man** is **sitting/resting/standing** condition(Sc) -> D/t -> (100/100) /(4/60) -> 1.5 Km/hr.
+
+* If he was in **moving** condition when he said the **above statement** then it will be the **speed of the carriage with respect to the man(M)** who is also **moving**. Both the **carriage and the man** are moving in the **same direction**.
+
+* **Speed** of the **carriage** when respect to the **man** who is in **moving** condition(Scm) -> (Sc ~ Sm) ->  D/t + 3km/hr -> (100/100) /(4/60) + 3kh/hr -> 1.5 + 3 Km/hr -> 4.5 kh/hr.
+* Speed of carriage -> Sc
+* Speed of Man -> Sm
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b544324-4a21-4df7-b104-f6805a752197)
+
+* **Speed** of the **carriage** when respect to the **man** who is in **sitting/resting/standing** condition(Scm) -> (Sc ~ Sm) ->  D/t + 0km/hr -> (100/100) /(4/60) + 0kh/hr -> 1.5 + 0 Km/hr -> 1.5 kh/hr.
+
+> As the man is in **sitting/resting/standing** condition, the speed of the **man** is **0 km/hr**, which we have put to get the **speed of the carriage with respect to the resting man**.
+.
+> As the man is in **moving** condition, there is a speed of the **man** which we have put to get the **speed of the carriage with respect to the moving man**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5372676-6703-46b7-8d10-f255afcddf5f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa7de7eb-2d1a-48ed-affd-9f721a241fd4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/603f2c90-f8e6-4b11-87c6-5c4b3e5af297)
+
 
 
 
