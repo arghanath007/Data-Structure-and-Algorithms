@@ -1374,6 +1374,27 @@
 * Question. [**IMPORTANT**]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f914130e-6e4a-41d2-a1b1-92a632cd13b0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e3efd64-ab28-4473-8d69-e7d2fb8e5678)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b5aaac1-1f68-433b-817f-89308277a64f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d3c15ec-b979-48aa-b6d3-f6d0fb7fe128)
+
+* Question. [**IMPORTANT**]
+* Total time taken such that **chetan and Deepak** will meet?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/288bf24e-668c-46d2-b2f4-4a9c4337c00a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/204363bd-8dbb-43d7-be69-b5fb2d4cd156)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2561686e-1958-4b3f-ba96-fa4643d18e42)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4914becb-b48d-4999-90c8-7f9afba593b1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed1cc6d0-341d-490f-a62b-066f6373ce68)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58db289d-753e-4134-a8cc-ad90f7245843)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8bb24f2d-3e21-4bf6-8b14-e02886e90d63)
+
 
 
 
