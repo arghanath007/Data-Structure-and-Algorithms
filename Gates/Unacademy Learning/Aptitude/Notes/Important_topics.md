@@ -6,6 +6,7 @@
 
 * Look at all of the **Quiz questions**.
 * Look at **PDF 18 and 19** again. [**IMPORTANT**]
+* Remember/Practice the **Time, Speed and Distance** formulas and questions.
 
 ## Questions
 
