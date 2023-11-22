@@ -1180,8 +1180,17 @@
 * [**IMPORTANT**]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/caa80e12-fa45-472d-9450-b95704f147b3)
+
+* Working of banks.
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e08b3feb-aab5-4143-981c-e1d6e6878c5d)
+
+* Loans
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed10dabe-fa9f-497f-8999-8c5e2da1532a)
+
+* Bank Collapse
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/634bbeb5-4c74-469d-9d1b-d70a87f7a27c)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ecb09898-a5f8-4465-ae1e-d673b977dbac)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/162d429f-1181-41aa-b968-d573565291b7)
@@ -1230,6 +1239,10 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f737057e-858c-4247-b7a7-e7771b70a5f7)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b2db8d2-1c39-4c29-92f9-2180ed64517f)
+
+* [**IMPORTANT**]
+* Link -> https://gateoverflow.in/41497/gate2014-ec-1-ga-8
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f836dc9f-1048-4624-b584-dce69d2898ba)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/899b0b9e-926f-474a-8c30-7564c6f7067b)
 
@@ -1325,7 +1338,7 @@
 * [**IMPORTANT**]
 * Distance travelled by the **motorcycles(M1 and M2)**:-
 * D1(M1) -> S1 * T -> 4hr/hr * 9hr -> 36km
-* D2(M2) -> S2 * T -> Total Distance - D1 -> 72hr - 36hr -> 36hr.
+* D2(M2) -> S2 * T -> Total Distance - D1 -> 72km - 36km -> 36km.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ab7b0ed-55d2-4acf-8418-86ad36cbf30b)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/576e42b1-3c5d-45ac-bd3d-1a2cbff25935)
@@ -1400,7 +1413,7 @@
 * Option **D**
 
 * disinterest -> Hatred.
-* uninterest -> Out of interest range
+* uninterested -> un-interest -> Out of interest range
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/085fe520-acfc-42af-9260-3db414c48d8f)
 
@@ -1496,7 +1509,7 @@
 
 * Question.
 * Option **A**.
-* Foster -> Rearing/Fostering/growth/nourish/
+* Foster -> Rearing/Fostering/growth/nourish.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/555efc03-6d2e-41be-8eca-1e3ad61c7a39)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e15f6490-588d-465d-92d6-95d863ba9a2b)
@@ -1576,7 +1589,7 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cbd86cdf-3498-4c30-bd93-00f79acb211d)
 
 * Question.
-* Option B.
+* Option D.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ff5ef1a-c544-4bb8-8dd5-38079499664a)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d928af35-320e-48e4-8108-0ffc10363f04)
