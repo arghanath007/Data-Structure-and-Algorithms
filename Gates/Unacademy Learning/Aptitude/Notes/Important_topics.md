@@ -1357,12 +1357,77 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5372676-6703-46b7-8d10-f255afcddf5f)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa7de7eb-2d1a-48ed-affd-9f721a241fd4)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/603f2c90-f8e6-4b11-87c6-5c4b3e5af297)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f737057e-858c-4247-b7a7-e7771b70a5f7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b2db8d2-1c39-4c29-92f9-2180ed64517f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b9d1d17-9063-4de2-9d6a-885e86fb900c)
 
+* [**IMPORTANT**]
+* Link -> https://gateoverflow.in/41497/gate2014-ec-1-ga-8
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e9fdd4b-b3d6-42b4-9ca2-8f4fac462994)
 
+* Question. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/46c5619b-be3b-456e-96fd-74baeb5f841d)
 
+* Link -> https://gateoverflow.in/313652/gate2018-me-1-ga-8
+* Question. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f914130e-6e4a-41d2-a1b1-92a632cd13b0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e3efd64-ab28-4473-8d69-e7d2fb8e5678)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b5aaac1-1f68-433b-817f-89308277a64f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d3c15ec-b979-48aa-b6d3-f6d0fb7fe128)
+
+* Question. [**IMPORTANT**]
+* Total time taken such that **chetan and Deepak** will meet?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/288bf24e-668c-46d2-b2f4-4a9c4337c00a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/204363bd-8dbb-43d7-be69-b5fb2d4cd156)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2561686e-1958-4b3f-ba96-fa4643d18e42)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4914becb-b48d-4999-90c8-7f9afba593b1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed1cc6d0-341d-490f-a62b-066f6373ce68)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58db289d-753e-4134-a8cc-ad90f7245843)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8bb24f2d-3e21-4bf6-8b14-e02886e90d63)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa369483-09f8-4be7-bbb7-455bf306a575)
+
+* AP series problem.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec8fcb32-0dbf-4088-a46f-59b048956814)
+
+* AP -> No. of terms.
+* We need to find the no. of terms basically.
+* How long will it take them to meet? -> Duration
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95986533-5ad5-4053-8489-00272c338d35)
+
+* There is **no difference** between **The time taken to meet** and the **no. of terms**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41a1508c-9db1-40e8-8fb3-6668d383cca9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9f65a2aa-1aaf-44f8-8ebb-33e3cf80b460)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/56748acf-ed0a-42d2-b653-a862a6299241)
+
+* Explaination.
+* [**IMPORTANT**]
+* t -> Time
+* n -> No. of terms.
+* a -> initial/starting value
+* d -> difference between 2nd and 1st value, 2nd value **minus(-)** first value.
+* t = n = 9hrs.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27e070c9-552d-4fee-83aa-f30b7892be2d)
+
+* [**IMPORTANT**]
+* Distance travelled by the **motorcycles(M1 and M2)**:-
+* D1(M1) -> S1 * T -> 4hr/hr * 9hr -> 36km
+* D2(M2) -> S2 * T -> Total Distance - D1 -> 72km - 36km -> 36km.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/576e42b1-3c5d-45ac-bd3d-1a2cbff25935)
 
 
 
@@ -1488,6 +1553,32 @@
 
 * Option **A**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e60b50e-4faa-4cd9-ba88-72a4a5403e41)
+[image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a89730e2-59d4-4085-8331-c7ffe3788de8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e68e302c-7448-4a0a-9f5b-9d10a8bedacc)
+
+* Option **A**
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30c97626-92a0-492f-acbd-b43b79e1e4e9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41263f66-2a78-4fc0-a1ba-1e43031801a2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9f693bc-0014-4ba5-855c-c78fe7c3205f)
+
+* Option **B**.
+* Kindly -> Adverb
+* Type -> Synonym
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f445400-1f49-4f4f-ac3a-7f2faa5ef669)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d41b515d-32de-46cc-a36f-983ec426b438)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b295843f-2a9f-4cd6-9b0c-1213515d9dac)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/910f8fb5-f359-41ad-a893-99e929c56e77)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe5d1466-6e0a-43d7-9d41-f18b0b716b2c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8de71898-1ca7-4f0c-9795-29d143e30c30)
+
+* Doubt
+* Link -> https://gateoverflow.in/411870/gate-in-2023-ga-question-6
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0aa391e2-4cb2-4715-9d2b-8ebd5e073dfa)
 
 
 
@@ -1732,18 +1823,77 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b5d33f8-bb9c-41eb-84a3-7bfe21d61b79)
 
 * Wet blanket.
+* Altruism -> Those people who thing 'u' before 'i' -> It is the human concern for the wellbeing of others.
+* 'ism' -> Related to **philosophy** -> It is an **noun**.
+* Communism -> Socialism -> Capitalism
+* Social bonding -> Positive word
+* Familiarity -> Familiarness -> close acquaintance with or knowledge of something
+* Belongingness -> the state or feeling of belonging to a particular group
+* Empathy -> Understanding the same emotion.
+* Sympathy -> Daya -> pittyness
+* Guild -> a medieval association of craftsmen or merchants, often having considerable power
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b98c6413-8409-4f49-b4a9-4c4ece0506ad)
 
+* Guilt -> Guilty
+* Pretext -> a reason given in justification of a course of action that is not the real reason
+* Commend -> Praise 
+* Command -> Order
+* Censor -> Censorship -> an official who examines books, films, news, etc. that are about to be published and suppresses any parts that are considered obscene, politically unacceptable, or a threat to security
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6152006a-678e-4039-8df6-7dd6e852ec4f)
 
+* Censure -> Criticize -> Critics
+* Torturous -> Pain and sufferings
+* Tortuous -> Puzzle/Twisted
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/26803741-0e39-4d10-babd-33cb75dd510e)
 
+* Yore.
+* you are -> you're -> Same thing.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/353f5058-0ce1-461b-9b6c-303ead556dd2)
 
+* Almost all -> Some.
+* Always
+* All
+* None
+* **IMPORTANT words**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae3157c2-09b3-462b-ade1-f75ff1c0c353)
 
+* Always is a **cautious word**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a88ea1c7-e4ee-439e-8f6c-318ea84f9dcd)
 
+* [**IMPORTANT**]
+* Foster -> Rearing/Fostering/growth/nourish.
+* Fostering
+* Childish -> Negative word
+* Childlike -> Positive word
+* Simile -> Direct(DC) Comparision -> As/like -> As busy as bee.
+* Metaphor -> In-direct Comparision(IDC) -> My father is the light of my life.
+* Cancer -> Un-controlled cell division.
+* Abyss -> Hell/bottomless pit.
+* Quench -> Satisfy/extinguish/quenched.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb6c665c-3881-4d14-90cc-e087301232c9)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1d16077-f312-47e7-9f4a-30c695a5cea2)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf25560f-b49d-45a3-aa8e-c1f3f7a9802c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/67071107-ef70-4c58-9a65-645103901657)
+
+* Adverse -> Can never be used for human beings -> Harsh climatic condition/Adverse weather. 
+* Averse -> Hatred -> Usually followed by **to** which is a **preposition** -> Hatred to something.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d928af35-320e-48e4-8108-0ffc10363f04)
+
+* Option D.
 
 
 
@@ -1995,6 +2145,57 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a604d7b7-140a-46d1-be80-9a814784ac04)
 
 * Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7fd15cf7-f187-443e-b588-a93f5f4019e9)
+
+* ~ -> Difference
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c04d3c69-a30a-4eca-a335-3861fe0a106e)
+
+## Train-Platform (Telegraph Pole)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/372b2a20-7ad0-4f31-89b2-d5b81b1e1faa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d88f08b1-c4e0-4b14-8478-c7e7d187dd12)
+
+* T = D/S = Lt/St
+* Lt -> Length of the train.
+* St -> Speed of the train.
+* Summary -> Time, Speed and Distance.
+
+## Train-Platform
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1270a0cc-fa5a-4b1f-9c88-fabd1b0d8634)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d5365201-ad98-405a-b921-76806e9d3dc3)
+
+* Lp -> Length of the platform
+* Lt -> Length of the train.
+* St -> Speed of the train.
+* T = D/s = (Lt + Lp) / St [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f836dc9f-1048-4624-b584-dce69d2898ba)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/899b0b9e-926f-474a-8c30-7564c6f7067b)
+
+* Train and Man moving towards each other:- [**IMPORTANT**]
+* T -> D/s -> Lt/(St + Sm)
+* Lt -> Length of train.
+* Sm -> Speed of Man
+
+* Train and Man Moving in same direction:-
+* T -> D/s -> Lt/(St ~ Sm)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
