@@ -1394,10 +1394,40 @@
 * Question.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8bb24f2d-3e21-4bf6-8b14-e02886e90d63)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa369483-09f8-4be7-bbb7-455bf306a575)
 
+* AP series problem.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec8fcb32-0dbf-4088-a46f-59b048956814)
 
+* AP -> No. of terms.
+* We need to find the no. of terms basically.
+* How long will it take them to meet? -> Duration
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95986533-5ad5-4053-8489-00272c338d35)
+
+* There is **no difference** between **The time taken to meet** and the **no. of terms**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41a1508c-9db1-40e8-8fb3-6668d383cca9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9f65a2aa-1aaf-44f8-8ebb-33e3cf80b460)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/56748acf-ed0a-42d2-b653-a862a6299241)
+
+* Explaination.
+* [**IMPORTANT**]
+* t -> Time
+* n -> No. of terms.
+* a -> initial/starting value
+* d -> difference between 2nd and 1st value, 2nd value **minus(-)** first value.
+* t = n = 9hrs.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27e070c9-552d-4fee-83aa-f30b7892be2d)
+
+* [**IMPORTANT**]
+* Distance travelled by the **motorcycles(M1 and M2)**:-
+* D1(M1) -> S1 * T -> 4hr/hr * 9hr -> 36km
+* D2(M2) -> S2 * T -> Total Distance - D1 -> 72km - 36km -> 36km.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/576e42b1-3c5d-45ac-bd3d-1a2cbff25935)
 
 
 
@@ -1532,15 +1562,23 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30c97626-92a0-492f-acbd-b43b79e1e4e9)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41263f66-2a78-4fc0-a1ba-1e43031801a2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9f693bc-0014-4ba5-855c-c78fe7c3205f)
 
+* Option **B**.
+* Kindly -> Adverb
+* Type -> Synonym
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f445400-1f49-4f4f-ac3a-7f2faa5ef669)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d41b515d-32de-46cc-a36f-983ec426b438)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b295843f-2a9f-4cd6-9b0c-1213515d9dac)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/910f8fb5-f359-41ad-a893-99e929c56e77)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe5d1466-6e0a-43d7-9d41-f18b0b716b2c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8de71898-1ca7-4f0c-9795-29d143e30c30)
 
+* Doubt
+* Link -> https://gateoverflow.in/411870/gate-in-2023-ga-question-6
 
-
-
-
-
-
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0aa391e2-4cb2-4715-9d2b-8ebd5e073dfa)
 
 
 
@@ -1798,17 +1836,64 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b98c6413-8409-4f49-b4a9-4c4ece0506ad)
 
 * Guilt -> Guilty
+* Pretext -> a reason given in justification of a course of action that is not the real reason
+* Commend -> Praise 
+* Command -> Order
+* Censor -> Censorship -> an official who examines books, films, news, etc. that are about to be published and suppresses any parts that are considered obscene, politically unacceptable, or a threat to security
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6152006a-678e-4039-8df6-7dd6e852ec4f)
 
+* Censure -> Criticize -> Critics
+* Torturous -> Pain and sufferings
+* Tortuous -> Puzzle/Twisted
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/26803741-0e39-4d10-babd-33cb75dd510e)
 
+* Yore.
+* you are -> you're -> Same thing.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/353f5058-0ce1-461b-9b6c-303ead556dd2)
 
+* Almost all -> Some.
+* Always
+* All
+* None
+* **IMPORTANT words**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae3157c2-09b3-462b-ade1-f75ff1c0c353)
 
+* Always is a **cautious word**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a88ea1c7-e4ee-439e-8f6c-318ea84f9dcd)
 
+* [**IMPORTANT**]
+* Foster -> Rearing/Fostering/growth/nourish.
+* Fostering
+* Childish -> Negative word
+* Childlike -> Positive word
+* Simile -> Direct(DC) Comparision -> As/like -> As busy as bee.
+* Metaphor -> In-direct Comparision(IDC) -> My father is the light of my life.
+* Cancer -> Un-controlled cell division.
+* Abyss -> Hell/bottomless pit.
+* Quench -> Satisfy/extinguish/quenched.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb6c665c-3881-4d14-90cc-e087301232c9)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1d16077-f312-47e7-9f4a-30c695a5cea2)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf25560f-b49d-45a3-aa8e-c1f3f7a9802c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/67071107-ef70-4c58-9a65-645103901657)
+
+* Adverse -> Can never be used for human beings -> Harsh climatic condition/Adverse weather. 
+* Averse -> Hatred -> Usually followed by **to** which is a **preposition** -> Hatred to something.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d928af35-320e-48e4-8108-0ffc10363f04)
+
+* Option D.
 
 
 
