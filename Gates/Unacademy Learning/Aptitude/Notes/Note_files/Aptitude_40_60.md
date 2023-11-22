@@ -33,8 +33,8 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0d1bb1e-8450-41b0-8a67-a0f074ad0a0f)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44210526-470c-425f-ad90-0a00dba9854f)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5bb4aea1-b6de-48db-b33b-0ee2bfbf4768)
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9b01ec5-8a27-4664-
-b5da-42ddc3936df0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9b01ec5-8a27-4664-b5da-42ddc3936df0)
+
 * Option **C**.
 * Find the distance travelled by the boat?
 
@@ -74,6 +74,10 @@ b5da-42ddc3936df0)
 * Example
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e62e3f0-99d7-4cb6-ab98-4a9712d7951d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a17d56a-4401-4968-afa6-998e8a091b10)
+
+* First find the relation between **x and y** and then find the value of **y**.
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/53c5a7d9-c8f4-47ad-afbd-db568424fb49)
 
 * Question
