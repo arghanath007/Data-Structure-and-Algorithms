@@ -1357,9 +1357,23 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5372676-6703-46b7-8d10-f255afcddf5f)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa7de7eb-2d1a-48ed-affd-9f721a241fd4)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/603f2c90-f8e6-4b11-87c6-5c4b3e5af297)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f737057e-858c-4247-b7a7-e7771b70a5f7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b2db8d2-1c39-4c29-92f9-2180ed64517f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b9d1d17-9063-4de2-9d6a-885e86fb900c)
 
+* [**IMPORTANT**]
+* Link -> https://gateoverflow.in/41497/gate2014-ec-1-ga-8
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e9fdd4b-b3d6-42b4-9ca2-8f4fac462994)
 
+* Question. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/46c5619b-be3b-456e-96fd-74baeb5f841d)
+
+* Link -> https://gateoverflow.in/313652/gate2018-me-1-ga-8
+* Question. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f914130e-6e4a-41d2-a1b1-92a632cd13b0)
 
 
 
@@ -1487,6 +1501,24 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/acf39f54-429d-485b-b51c-be89ce38315f)
 
 * Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e60b50e-4faa-4cd9-ba88-72a4a5403e41)
+[image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a89730e2-59d4-4085-8331-c7ffe3788de8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e68e302c-7448-4a0a-9f5b-9d10a8bedacc)
+
+* Option **A**
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30c97626-92a0-492f-acbd-b43b79e1e4e9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41263f66-2a78-4fc0-a1ba-1e43031801a2)
+
+
+
+
+
+
+
+
 
 
 
@@ -1732,7 +1764,19 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b5d33f8-bb9c-41eb-84a3-7bfe21d61b79)
 
 * Wet blanket.
+* Altruism -> Those people who thing 'u' before 'i' -> It is the human concern for the wellbeing of others.
+* 'ism' -> Related to **philosophy** -> It is an **noun**.
+* Communism -> Socialism -> Capitalism
+* Social bonding -> Positive word
+* Familiarity -> Familiarness -> close acquaintance with or knowledge of something
+* Belongingness -> the state or feeling of belonging to a particular group
+* Empathy -> Understanding the same emotion.
+* Sympathy -> Daya -> pittyness
+* Guild -> a medieval association of craftsmen or merchants, often having considerable power
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b98c6413-8409-4f49-b4a9-4c4ece0506ad)
+
+* Guilt -> Guilty
 
 
 
@@ -1995,6 +2039,57 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a604d7b7-140a-46d1-be80-9a814784ac04)
 
 * Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7fd15cf7-f187-443e-b588-a93f5f4019e9)
+
+* ~ -> Difference
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c04d3c69-a30a-4eca-a335-3861fe0a106e)
+
+## Train-Platform (Telegraph Pole)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/372b2a20-7ad0-4f31-89b2-d5b81b1e1faa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d88f08b1-c4e0-4b14-8478-c7e7d187dd12)
+
+* T = D/S = Lt/St
+* Lt -> Length of the train.
+* St -> Speed of the train.
+* Summary -> Time, Speed and Distance.
+
+## Train-Platform
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1270a0cc-fa5a-4b1f-9c88-fabd1b0d8634)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d5365201-ad98-405a-b921-76806e9d3dc3)
+
+* Lp -> Length of the platform
+* Lt -> Length of the train.
+* St -> Speed of the train.
+* T = D/s = (Lt + Lp) / St [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f836dc9f-1048-4624-b584-dce69d2898ba)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/899b0b9e-926f-474a-8c30-7564c6f7067b)
+
+* Train and Man moving towards each other:- [**IMPORTANT**]
+* T -> D/s -> Lt/(St + Sm)
+* Lt -> Length of train.
+* Sm -> Speed of Man
+
+* Train and Man Moving in same direction:-
+* T -> D/s -> Lt/(St ~ Sm)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
