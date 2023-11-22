@@ -1444,6 +1444,16 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
 ## Verbal Reasoning
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66976464-aede-43af-a9bc-95f86845e5a5)
@@ -2183,9 +2193,56 @@
 * Train and Man Moving in same direction:-
 * T -> D/s -> Lt/(St ~ Sm)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b6c61dd9-355d-4ad9-b1a8-a4d8ed530017)
 
+* Revision
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4edfe5ad-dce3-4f75-a009-75ee8247eb52)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/08a2b6ee-5ce9-4981-9132-658dcdd345bc)
 
+* Downstream -> (x + y) km/hr
+* Upstream -> (x - y) km/hr.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b3af440d-cc9b-44f4-9e1c-9a68cb525b1e)
+
+* T = Total time Taken
+* T = td + tup
+* T = d/(x + y) + d/(x -y); [D = S *  T, T = D/s, D, d -> Distance]
+* x -> Speed of Human.
+* y -> Speed of stream.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44210526-470c-425f-ad90-0a00dba9854f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9b01ec5-8a27-4664-b5da-42ddc3936df0)
+
+* Find the distance travelled by the boat?
+
+> **18km**.
+
+* d -> S * T -> (x + y) * T ->(OR) (X - Y) * T.
+* Both give same answer
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/52ea139a-21f5-4f27-af0d-d40e0a34c727)
+
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c907e27-fb2d-4aa2-8870-2d780d7f33c1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/944c6673-a0d4-483d-8268-353eeb5a9d2c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/51aa42bd-126c-4b83-82e5-467466c9d155)
+
+* Option C.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e62e3f0-99d7-4cb6-ab98-4a9712d7951d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a17d56a-4401-4968-afa6-998e8a091b10)
+
+* First find the relation between **x and y** and then find the value of **y**.
+* [**IMPORTANT**]
+* Time of downstream(td) = Time of upstream(tup)
+* Total time = td + tup.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5bbe1cb7-77c2-4a95-82ed-21374548771b)
+
+* [**IMPORTANT**]
 
 
 
