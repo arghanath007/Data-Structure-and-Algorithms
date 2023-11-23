@@ -2245,6 +2245,117 @@
 
 * [**IMPORTANT**]
 
+## HCF and LCM
+
+* **NOTE**:-
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5601303f-4b97-406b-b6a1-0b03c5d91f45)
+
+* Question
+* Factorization -> Find Prime factors.
+* HCF -> Common among all the numbers.
+* LCM -> Take the factors and put their highest powers.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ed0af41-d5e0-481b-9a26-e8e91513f889)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e2691907-f693-4245-a80f-7d9b24e032eb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b4ea407-1b1f-445d-ae74-0f1b7c8873c6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a60b6930-b737-4d37-b2cc-19bf43b9677d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c1655fe-dd57-4a2b-9827-c4265c65c1e0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a67600a7-e69b-4489-acc8-e4db2d98fe4c)
+
+* For **factorials** the **HCF and LCM** are a bit different. The **smallest number** is the **HCF** and the **largest number** is the **HCF**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c15a059c-0ba3-4aa1-bb43-533aa6db6a30)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/965363c4-7b5c-43b6-ad4e-48efc467f020)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97d3cc65-bedb-4260-8962-1f0e43bbe086)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8873ed0-a371-45b0-9b2d-39f4df67eef4)
+
+* Largest -> 3 ^ (1/3) -> 3 ^ 4 -> 81
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/18eaa6f7-4a23-4643-b16a-84e584d118c6)
+
+* The time in which, **chetan(C)** finished the race, that is from **9 to 9:30** and in the **30mins**, **chetan(C)** finished the race.
+* Where was **Prabhas(P)**?
+* When we come across **linear races** or talk about **linear races**, **time(T)** is **constant**. [**IMPORTANT**]
+* **Time(T)** is **constant**
+
+* **Distance(D)** directly proportional to **speed(S)**.
+* Sc/Sp = Dc/Dp  [**IMPORTANT**]
+* Sc/Sp = Dc/Dp = 100/70 = 10/7 
+* Sc -> Speed of chetan
+* Sp -> Speed of Prabhas
+* Dc -> Distance travelled by Chetan.
+* Dp -> Distance travelled by prabhas.
+
+* Now, **Chetan** is running **100m** and as **Prabhat** lost in the previous **100m** race by **30m**. This time, **Prabhat** gets a **30m** head start.
+* So **Prabhat** has to run **100 - 30 -> 70m** and **Chetan** is running **100m**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3d13004-d533-4c99-a7eb-9ed8ff5b023f)
+
+* In **linear races**, time is **constant** and **distance** is **directly** proportional to **speed**.
+
+* Dc/Dp = Sc/Sp
+* There are **two** ways of solving it:-
+
+1) Dc = (Sc/Sp) * Dp
+2) Dp= (Sp/Sc) * Dc
+
+* We know that **Sc/Sp = 10/7**, so **Sp/Sc = 7/10**.
+* DC  = 100m
+* Dp = 70m
+* So, it is **tie/draw** because **Prabhas** got a **head start** of **30m** so **70 + 30 -> 100m** and **Chetan** also ran **100m** that's why.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5609263-c464-4b63-adef-6cb1173ed8c7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2064c61e-510d-41cd-8819-c046fdb436d1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/54fa5228-89c0-4a6e-97f1-a34382942b5b)
+
+* Now, **Chetan** is running **100m** and as **Prabhat** tied in the previous **100m** race by running for **70m**. This time, **Prabhat** gets a **20m** head start.
+
+* So **Prabhat** has to run **100 - 20 -> 80m** and **Chetan** is running **100m**.
+* Finally **chetan** won.
+
+* Dc/Dp = Sc/Sp
+
+1) Dc = (Sc/Sp) * Dp
+2) Dp= (Sp/Sc) * Dc
+
+* We know that **Sc/Sp = 10/7**, so **Sp/Sc = 7/10**.
+* DC  = 114m
+* Dp = 70m
+* So, **Chetan** won finally.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b7c2a18-944b-4a15-b9e6-0a8cc05ddbbf)
+
+* Time(T) is constant in **linear races**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/251faa93-9b16-4039-8ebd-9b13118f8983)
+
+* So **Sahil** won over **Arjun** as he covered more **distance** in the **same amount of Time(T)**.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
