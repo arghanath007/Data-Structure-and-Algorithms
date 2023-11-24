@@ -23,6 +23,44 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2cf3da62-ced6-407e-980f-3b6c625d856c)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2574d12c-363a-4f34-b37f-00899cde1bbb)
 
+* Mtech without GATE exam (only top opportunities) -> https://www.youtube.com/watch?v=B94DWRhGK_g
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a4aa423-940a-47da-9f0b-b8b2595793cc)
+
+> **Resume Projects** is **important**.
+
+* IIIT Hydrabad(H)
+* Bits HD
+* IIIT Delhi(D) -> With Gate and Without Gate both there. We have to choose any one of them. Only choice there. We cannot choose both. Check notification from clg.
+* IIIT Bangalor(B) ->
+* IIT Jodhpur.
+* NIT Karnataka(3rd NIT) -> 
+* NIT Calicut(2nd NIT) ->
+* NIT Warangal(4th NIT) -> They don't release every year. Have to check.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
