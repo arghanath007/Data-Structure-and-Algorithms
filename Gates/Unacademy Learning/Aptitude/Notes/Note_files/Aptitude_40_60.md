@@ -119,7 +119,7 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/965363c4-7b5c-43b6-ad4e-48efc467f020)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ec1ef8b-6267-40a1-8248-06c294a97913)
 
-* Question 'C".
+* Question **C**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97d3cc65-bedb-4260-8962-1f0e43bbe086)
 
@@ -145,7 +145,7 @@
 
 * The time in which, **chetan(C)** finished the race, that is from **9 to 9:30** and in the **30mins**, **chetan(C)** finished the race.
 * Where was **Prabhas(P)**?
-* Where we come across **linear races** or talk about **linear races**, **time(T)** is **constant**.
+* When we come across **linear races** or talk about **linear races**, **time(T)** is **constant**. [**IMPORTANT**]
 * **Time(T)** is **constant**
 
 * **Distance(D)** directly proportional to **speed(S)**.
@@ -182,7 +182,8 @@
 * We know that **Sc/Sp = 10/7**, so **Sp/Sc = 7/10**.
 * DC  = 100m
 * Dp = 70m
-* So, it is **tie/draw**.
+* So, it is **tie/draw** because **Prabhas** got a **head start** of **30m** so **70 + 30 -> 100m** and **Chetan** also ran **100m** that's why.
+* [**IMPORTANT**]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5609263-c464-4b63-adef-6cb1173ed8c7)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2064c61e-510d-41cd-8819-c046fdb436d1)
@@ -221,6 +222,11 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/99599d3a-902e-4396-a10c-e7737545c85b)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb67bafd-2d33-44d4-9b1d-0e964a8a177a)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/251faa93-9b16-4039-8ebd-9b13118f8983)
+
+* So **Sahil** won over **Arjun** as he covered more **distance** in the **same amount of Time(T)**.
+* In **Linear Races**, **Time(T)** is **constant** and for that reason **Distance(D)** is **directly proportional** to **Speed(S)**.
+* **D = S**.
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d534610b-e390-45c1-9d59-8336e2b8381f)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f510119-da88-42ef-8231-fd65bfd9dace)
 
