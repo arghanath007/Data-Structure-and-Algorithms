@@ -1907,6 +1907,216 @@
 
 * Option D.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb8fba62-5d7e-4043-950b-50a7d954b1e0)
+
+* Answer -> Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e74b7962-71a1-487b-b50f-86472fb48b63)
+
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e0f8c5da-c5c1-4610-9a19-43ca9df5f99a)
+
+* Option **A**.
+* D -> 4 -> 26 - (4-1) -> 26 - 3 -> 23
+* I -> 9 -> 26 - (9-1) -> 26 - 8 -> 18
+* V -> 22 -> 26 - (22-1) -> 26 - 21 -> 5
+* Y -> 25 -> 26 - (25-1) -> 26 - 24 -> 2
+* A -> 0 -> 26 - (0) -> 26 - 0 -> 26
+
+ ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/64c23ea2-f690-434f-bc75-99e053637d7c)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e3153aa-9c17-4e33-9776-6f1ec6c8cdaf)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8eea6bec-9ed1-4b73-9d49-a835b389b46c)
+
+* Total no. of matches?
+* 3 + 1 + 1 -> 5 matches.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5dca021-7a38-481c-97d1-b06279acb5f2)
+
+* Question
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3b662e20-cbec-4e5c-9184-b9493abacb06)
+
+* Formula.
+* (n-1) -> 150 - 1 -> 149. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce5d16bb-950b-406f-ae38-8ada70b6e059)
+
+* Option **B**.
+* **Zero(0)** is an **even number**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8ba9010-f14b-48f5-b95b-5c682ea92ebc)
+
+* 1/2 + 1/4 + 1/8 + 1/16 + 1/32 -> -> (last denominator - 1)/ (last denominator) -> (32 - 1)/32 -> 31/32 
+
+> Whatever is at the **last denominator** minus 1, gives the **numerator**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6acabb6-0eba-4906-8eb1-cebe5fe79d40)
+
+* **1 work(w)** is completed in **12 days**.
+* In **1 day**, the work completed is **1/12** work.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/417b276b-6f22-49b1-b564-32a566027c85)
+
+* **When working together** -> 1/x + 1/y -> (x + y)/(x * y) -> This is **One day's work**.
+* **Total no. of days** -> (x * y)/(x + y)
+* Formulas [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0bbca3b1-5a15-41c4-acdc-c22557d1caa1)
+
+* This is the **1 day's** work.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/929a8d86-fd49-437a-91de-11dbff1e6e67)
+
+* This is the **total no. of day's** work.
+* Adding **percentages** to get **100%**
+* Adding **fractions** to get **1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/204c1839-f6f7-4d41-9026-dac4f4a531e9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d13af675-93fe-4799-8422-7adf84310603)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/300bd8a6-4db2-45a7-93e2-06214b340294)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d7a5764-6cb0-460b-b5c4-74fd9c0ed3fc)
+
+* **A and B** work together but **Alternately**.
+* In that **Alternately**, let's start with **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0bb44e16-afa4-4289-82bc-6cffbdb92925)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c5b36ee2-728d-48b2-bfab-428d1126b950)
+
+* Previously **15%** of the work was done **per day**.
+* Now with working **alternately**, we are still get **15%** of the work done in **2 days** now.
+* Pattern -> 2-days 
+* So, in **12** days, **90%** of the work is **done**.
+* Work left(WL) = 100 - 90 -> 10 %.
+* As we are starting with **A**, so **A** is coming on **odd days**.
+* As **13** is a **odd day**, so **A** is coming to work on **day 13**.
+* Work Done by **A** on **day 13** -> Work left - 8.33 -> 10 - 8.33 -> 1.67
+* Work Left -> 1.67
+* **B** came on **day 14**.
+* Work Done by **B** on **day 14** -> Work left/6.67 -> 1.67/6.67 -> 0.25 -> **1/4**.
+* We did **subtraction** for **A** but for **B** we did **division** above because for **A** the amount of **work left(WL)** is more than the amount of work **A** can do in **1-day**. As for **B**, the work left(WL) is **less than** the amount of work **B** can do in **1 day**. So to calculate the time in which **B** completes the **work**, that's why we did **division** for **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/307fefc5-9cf1-4a9c-8125-d7fa1993257d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7cc04525-d56f-49fe-889d-baa9a21c897b)
+
+* Total no. of days -> 12 + 1 + 1/4 -> 13 * (1/4) days.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf2728fb-6f91-422f-9267-ee1af5f1890f)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97e266e8-ec6e-4357-9e79-edc6e43687f4)
+
+* Question.
+* **B** starts.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b348a0b-1b10-4d9f-a7fb-97f908e1a2c4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a5dd499-5512-4d02-af00-d9415aac5790)
+
+* Patterns.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a59ec1a9-1181-4c42-9f74-49021517dd21)
+
+* Question
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a07649d2-a180-401c-8137-32ae01adb9ff)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83426fd9-a657-4e85-87d6-be31e89e9d71)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5937797-b319-4547-8bcb-6b9f5f0d07a9)
+
+* 5 * (5/19) days.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89b80c84-f46c-4458-9f70-42348f5fbe4e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8bb800a-ee13-4d54-9a23-314edb9cb4b8)
+
+* 15.5 days.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65c2d8f2-1054-4f8b-90e1-57d0e4c5059f)
+
+* 10.5 days.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d5af1214-6257-418d-9e44-f3b09e64f861)
+
+* 8.26 days.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b3cda423-d660-41d3-9653-ecfffb92eb5f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f02dfd71-c000-4e78-9e35-04df2521e05a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b4cb7ef-54a6-47d4-b1e3-deb90f392a44)
+
+* Question
+* Option **B**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aeb08f20-2a4c-492f-a010-453e557e09ee)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e79846d0-a7cd-4072-9d71-7f396bf155e0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd4377ab-efa5-403e-8a7a-03048bff937a)
+
+* Question
+* Answer -> **11 more days** required by **B** to finish the work.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f02bb89d-ec4d-4344-b5b9-ae0f0cdc3991)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/114d1776-ddc2-46ce-ab9b-2b9123d1b1f8)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/56f40cbf-4736-4b26-b928-09cec9b83c1a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b580c6ce-79c2-448c-8fc7-a6159d20ec98)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1226396c-6607-4b36-aae5-279ba8e88b36)
+
+* **7** days.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a067cff3-1f63-4325-9c9d-3f62a49b39b4)
+
+* Find the **ratio**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6f721f2-a2df-4f3b-876f-d080a644078c)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2364,15 +2574,21 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/385bd24f-f69e-48bd-981d-1cbf026bdc52)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e62216c-cba8-44ea-ba01-daf5e94941ba)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b23c1e41-f1a0-4055-801b-ccb4cf90526d)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf79839b-7fda-4371-993a-2207a23743b6)
 
+* Jitna **bars** utna 9's
+* The no. of **bars** that many 9's.
+* The **digits** that are after the **dot** but are not under the **bar** then those **digits** are **subtracted** from the **digits** that are **under the bar**.
+* The **count** of the **digits** that are not **under the bar** after the **dot** that many **zeroes(0)** are placed instead of the **9s** in the **denominator**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c36e787-52ae-4178-9a0e-f26bc2a45896)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a6026d2-e3bb-421f-a5cd-58ad36f50b06)
 
-
-
-
-
+* [**IMPORTANT**]
 
 
 
