@@ -232,6 +232,12 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/027277ec-431a-4a80-bf19-4d1a20cefc8f)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d534610b-e390-45c1-9d59-8336e2b8381f)
+
+* Time is **Constant**.
+* First is the **formula**.
+* Next is the **value** for the **above question** we are doing.
+* [**IMPORTANT**]
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f510119-da88-42ef-8231-fd65bfd9dace)
 
 * Three people, **A, B and C** are running on an **x meter** track. 
@@ -247,10 +253,18 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/08b40580-f863-4fe0-aef1-ca9325fdd942)
 
+* Further we can see that **B** has finished the race. That's by **Distance of B** is **x**.
+* As **C** is behind by **8m** that's for **Distance of C** it is **x-8**.
+* [**IMPORTANT**]
 * Find the distance? 
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85e5bb67-6148-4b8b-a9fd-d3fa8c90c39d)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f9ae3c78-9810-4800-8ccf-aeb5deffdede)
+
+* Now find the **Track length**.
+* We can see that the **left hand side** of both the **equations**, which are **Sb/Sc = (x-12)/(x-18)** and **Sb/Sc = (x)/(x-8)**.
+* So we can do is that **(x)/(x-8)= (x-12)/(x-18)**.
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/770b88a8-dfb5-4821-925d-1c87c194c044)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/53defad8-1aa8-4911-bdd3-de7bdac7907d)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a6e2c2db-9b85-4a9d-bfc5-92757d3e9bba)
@@ -267,8 +281,8 @@
 1) **Himanshu(H)** completed the **x meters** and was returning back and met **Abhishek(A)** at **M** point. **Abhishek(A)** was short by **420m**
 2) **Himanshu(H)** reached point **N** when **Abhishek(A)** completed the race(x meter). **Himanshu(H)** was **924 m** away from the **finish line(x meter)**.
 
-1) Sh/Sa = Dh/Da = (x + 420)/(x - 420)
-2) Sh/Sa = Dh/Da = (x + 924)/ x
+3) Sh/Sa = Dh/Da = (x + 420)/(x - 420)
+4) Sh/Sa = Dh/Da = (x + 924)/ x
 
 > Distance of **Abhishek(A)**, which is **Da** is **x** since **Abhishek(A)** comleted the race by the time **Himanshu(H)** reached **924 m** away from the **finish line(x meter)**.
 
