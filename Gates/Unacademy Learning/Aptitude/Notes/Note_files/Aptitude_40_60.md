@@ -253,7 +253,11 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f9ae3c78-9810-4800-8ccf-aeb5deffdede)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/770b88a8-dfb5-4821-925d-1c87c194c044)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/53defad8-1aa8-4911-bdd3-de7bdac7907d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a6e2c2db-9b85-4a9d-bfc5-92757d3e9bba)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/68290ee8-bd45-48fd-b993-ee8b8c5b7918)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65a53a98-9ff6-48b4-a4ef-8c7bd8eaee60)
 
+* Working.
 * Distance of track  -> 48m.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d93bcdc6-e669-4d91-9841-57e9630e7a39)
