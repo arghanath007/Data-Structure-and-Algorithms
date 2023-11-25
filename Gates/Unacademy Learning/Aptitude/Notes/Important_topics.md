@@ -2358,9 +2358,12 @@
 * **Distance** is **directly proportional** to **Time**.
 * [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ea8612d-8c68-430d-bc43-839ca308f446)
 
+* Solved using **powers**.
 
-
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/385bd24f-f69e-48bd-981d-1cbf026bdc52)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e62216c-cba8-44ea-ba01-daf5e94941ba)
 
 
 
