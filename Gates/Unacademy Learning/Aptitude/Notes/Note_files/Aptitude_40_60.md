@@ -224,9 +224,13 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/251faa93-9b16-4039-8ebd-9b13118f8983)
 
 * So **Sahil** won over **Arjun** as he covered more **distance** in the **same amount of Time(T)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d1efe6a-eb7d-4204-a522-3ea53219d354)
+
 * In **Linear Races**, **Time(T)** is **constant** and for that reason **Distance(D)** is **directly proportional** to **Speed(S)**.
 * **D = S**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/027277ec-431a-4a80-bf19-4d1a20cefc8f)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d534610b-e390-45c1-9d59-8336e2b8381f)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f510119-da88-42ef-8231-fd65bfd9dace)
 
