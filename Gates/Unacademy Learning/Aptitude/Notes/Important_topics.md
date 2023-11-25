@@ -1430,15 +1430,25 @@
 * D2(M2) -> S2 * T -> Total Distance - D1 -> 72km - 36km -> 36km.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/576e42b1-3c5d-45ac-bd3d-1a2cbff25935)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5581ddf-4935-4c2a-964a-a332965c324a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36d8afa9-ead3-45df-926e-7ec80884852f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ac5b1b2-14fb-4818-bb4c-480cdb158555)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d83046f1-494d-43c0-841d-1a5dfe384e8c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7518c81d-bf06-44f8-a8e3-acffb5f471b7)
 
+* Option **C**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd5abfab-472d-49a2-a9ed-6b67e43ade3b)
 
+* Option **C**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/452e0dcf-1f3b-437d-b1ab-23b899ff9699)
 
-
-
-
-
+* After the **3 steps** where the pipes worked and stopped working. After that **calculations**, the tank filled is **41%**. So **empty** is **100-41 -> 59%**. 
+* Now find the time needed to completed the **full tank**.
+* So it is **59/15 -> 3hrs 56mins**.
+* So it is **3PM + 3hrs 56mins -> 6pm 56mins**. 
+* Time -> 06:56PM.
 
 
 
@@ -2589,16 +2599,34 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a6026d2-e3bb-421f-a5cd-58ad36f50b06)
 
 * [**IMPORTANT**]
+* Work Done **directly proportional** to the **no. of men**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4a11015-91a2-4cfe-8e03-98e79758c4c8)
 
+* W = D * M * T * E.
+* W -> Work
+* D -> No. of days
+* M -> Men/Women
+* T -> Time
+* E -> Efficiency.
+* Formula [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7bcf295d-d32d-4494-a8fe-99239b8e737e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/871d1956-8988-4a9f-a472-3a6c3d06a98b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0773ee18-8044-4f42-a5ee-12ff6df92291)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/59c08e42-0f33-45d5-b3fc-109999a0dcf8)
 
+* **Work Done(W)** is sometimes defined in the form of **volume** as well.
+* (D1 * M1)/W1 = (D2 * M2)/W2.
+* Formula [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ba3deef-a401-4e98-9291-20ce62a08a44)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ab7460c-7f0f-45c0-ae93-5f79f0c049e7)
 
+* Convert into **full Men** or into **full women** then calculate for the **no. of days**.
+* Here also use **W = DMTE**.
 
-
-
-
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80bed3af-5baf-4737-8072-7323c33f41ed)
 
 
 
