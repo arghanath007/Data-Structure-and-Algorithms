@@ -6,6 +6,7 @@
 
 * Look at all of the **Quiz questions**.
 * Look at **PDF 18 and 19** again. [**IMPORTANT**]
+* Look at **PDF 41**. [**IMPORTANT**]
 * Remember/Practice the **Time, Speed and Distance** formulas and questions.
 
 ## Questions
@@ -2332,7 +2333,30 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/251faa93-9b16-4039-8ebd-9b13118f8983)
 
 * So **Sahil** won over **Arjun** as he covered more **distance** in the **same amount of Time(T)**.
+* Ratio of **Speed of Himanshu** by **speed of Abhishek** -> Sh/Sa -> 6/5.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e4b9fc9-f302-4e59-8d88-8f7b88de6840)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9dabc346-9379-4972-a2a9-41b2a7183c7a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/13bca868-2c25-4954-baf1-91051a53b852)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab061096-7256-461b-b449-199a32fdbc8d)
+
+* Time constant [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/027277ec-431a-4a80-bf19-4d1a20cefc8f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d534610b-e390-45c1-9d59-8336e2b8381f)
+
+* Time is **Constant**.
+* First is the **formula**.
+* Next is the **value** for the **above question** we are doing.
+* Time is **constant**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce7d31b5-9cc1-407e-87cf-429b82b9f311)
+
+* **Linear Races**.
+* D = S * T
+* Time is **constant**.
+* **Distance** is **directly proportional** to **Time**.
+* [**IMPORTANT**]
 
 
 
