@@ -1601,6 +1601,53 @@
 * Link -> https://gateoverflow.in/411870/gate-in-2023-ga-question-6
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0aa391e2-4cb2-4715-9d2b-8ebd5e073dfa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bd31252e-8c7d-4f50-bc0a-d3a9bc7d6129)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/637a5d0f-53cb-45e3-af87-064497f45d37)
+
+* Adjacent
+* Opposite.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a53f9814-6f1f-4bf9-912a-3798d5af1b63)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f4692ce-311f-441a-985b-5f04ae5916b4)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a53a6cf7-12ef-442d-b41e-b789f1056763)
+
+* Conversely.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc4a63df-55e0-4104-bd1e-e7ac5cbb89d0)
+
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57f71d6f-e33d-4ea0-876f-3151b335a365)
+
+* Option **B**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1fde3100-42d6-4ed6-ad9a-7b2503dbaddc)
+
+* Option **B**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f51cc3f4-e89f-496b-a1e2-ce7c3c50a82f)
+
+* Option **A**.
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2095,7 +2142,9 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6f721f2-a2df-4f3b-876f-d080a644078c)
 
-
+* Democracy
+* Demand
+* Demography
 
 
 
@@ -2754,26 +2803,383 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d986edc3-6fcf-4e50-9b87-5c7034ce26c6)
 
 * The **graph/chart** can be represented in **degrees** as well.
-* So, **100% = 360degree**. 
+* So, **100% = 360degree -> 10% = 36 degree**. [**IMPORTANT**]
+* For **20%**, we just have to multiply the **10%** by **2** therefore the **36 degree** is also **multiplied by 2**.
+* **2 * 10% = 2 * 36 degree -> 20% = 72 degree**.
+* **6 * 10% = 6 * 36 degree -> 60% = 216 degree**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/43305e52-9b75-4d83-a2ca-a50fede0901c)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2bb93be6-65a7-45fc-8a8b-a953b48f645e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fef14e8d-7951-436d-b459-11c094dfd382)
 
+* Option **B**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e251039b-e834-4cbb-aae1-475c6d5707cb)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d44c9a44-d579-4d99-9c56-5d38d9e8b330)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/07378553-1237-4d02-b775-f86894ea5e86)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c78df600-01f6-4f51-bc46-fbb16b658499)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba7ec484-3c22-464b-bce6-b8f2f3e25d6d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/de33d0b6-3a02-4596-9659-3676d5003d79)
 
+* X% of Y = Y% of X 
+* Formula
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c0381a1-88f6-45ce-a99e-4c2a8eb78df6)
 
+* Option **A**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0acce06-c22b-4b2d-b145-a5b1756f189c)
 
+* Min and Max.
+* Product of elements having **max and min** value in the set. [**IMPORTANT**]
+* Amax/Bmin * (Amin/Bmax) -> (Amin/Bmax) * (Amax/Bmin)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1e467a8-88d9-483b-88ce-c0f1d944368d)
 
+* Option **D**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d27d91e0-5a93-4bb7-80d3-7d2a90691eec)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8a318f8-11cb-46a1-b1c5-cb4bd9773ee0)
 
+* **a** -> People who passed in **Maths** only and not in **English**.
+* **a** -> ME'.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a7b99f7d-a095-4461-9809-dbaba00bf262)
 
+* **b** -> People who passed in **English** only and not in **Maths**.
+* **b** -> M'E.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3deeb2e1-b854-449e-b47c-5101cbbbfecd)
+
+* **x** -> People who passed in both **English and Maths** only.
+* **x** -> ME
+* **n** -> People who didn't pass in both **English and Maths** only.
+* **n** -> M'E'.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/387c00c2-9adc-4e13-aacc-d2c7e6eb246c)
+
+* Let **ME** which is **passed in both** is **20**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb9e81ab-f8f2-4e7d-bf74-5781701e085a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1dafba7-3efc-4c6e-9443-f6554c20109e)
+
+* For the **Samsung and Sony but not Dell or HP laptops**, we are getting **9** as the **answer** which is **Option 'A'** because we are removing **one 8** as it is in the set of **Dell** and we want **not Dell**. We have to remove **30** as well because it is in the set of **HP** and we want **not HP**.
+* So we are left with **1 and 8** so the count of people who like **Samsung and Sony but not Dell or HP laptops** is **1 + 8 -> 9** people.
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7138862e-f20a-45f0-aa1c-b6bc614d21c8)
+
+* We have to find the **common** among all of the **diagrams**.
+* Option **B** which is **8**. [Answer]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba153d4d-3cf3-41fb-aa1d-62917c708e58)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/527c244b-bea8-4774-b5d5-e628c14c48e5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e57d5626-8a65-4674-8368-cc899799c795)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ddee32b-3053-464e-ba1a-9868a28ba88c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3cc4288-c91b-4959-843d-180933a16b65)
+
+* Another type of question may come which is find the percentage(%) of the **student population**.
+* % of Read books -> (Read books/Total students) * 100%
+* Others can also be found out like this only.
+* Question from **2019** Paper.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/13b0725a-b881-43c5-874a-776e95f39297)
+
+* Question.
+* Option **D**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e95cb4ea-df67-4871-afdf-1ad8abdcee40)
+
+* Read Book OR Play Sports -> 108
+* Read Book AND Play Sports -> 51
+* OR -> Union
+* AND -> Common
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba153d4d-3cf3-41fb-aa1d-62917c708e58)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7dc91669-312b-4ae9-9933-d307bb77aed7)
+
+* Read Book OR Play Sports but not Watch TV -> R OR P but TV' -> 72.
+* Remove the values from **Read Book OR Play Sports** which have values from **Watch TV** set.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0711de8-5f9e-40d1-a74a-3a01544560c3)
+
+* Read Book AND Play Sports but not Watch TV -> R AND P but TV' -> 44.
+* Read Book AND Play Sports -> 51.
+* Remove the values from **Read Book AND Play Sports** which have values from **Watch TV** set.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/262fc082-a8b7-4688-abb4-b382e3f62537)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3cc4288-c91b-4959-843d-180933a16b65)
+
+* Another type of question may come which is find the percentage(%) of the **student population**.
+* % of Read books -> (Read books/Total students) * 100%
+* Others can also be found out like this only.
+* Question from **2019** Paper.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bbad97e6-8435-4fde-8a6a-367db73c3340)
+
+* Option **C**.
+* **change** means both **increase and decrease**.
+* **change** is a **neutral word**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32daf654-d1f2-4954-80de-7de7f9d7aef0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/10905983-75ff-4323-8839-71ce3568589d)
+
+* Successive percentage(%) change = (a + b + ((a * b) / 100)) %
+* If it is **increment** then it is **plus(+), positive** sign.
+* If it is **decrement** then it is **minus(-), negative** sign.
+* Formula [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91972444-40d3-4d6d-b019-283d507340b5)
+
+* Successive percentage(%) change.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/572aef7f-8a83-476f-95d0-c954026b477f)
+
+* [**IMPORTANT**]
+* Increment of 20% -> 1 + 1 * (20/100) -> 1 + 0.2 -> 1.2
+* Increment of 30% -> 1 + 1 * (30/100) -> 1 + 0.3 -> 1.3
+* Decrement of 20% -> 1 - 1 * (20/100) -> 1 - 0.2 -> 0.8
+* Decrement of 30% -> 1 - 1 * (30/100) -> 1 - 0.3 -> 0.7
+* Less than **1** means **decrement**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3d63db5-d428-4366-8c8c-41958c7d1b22)
+
+* To get the **percentage** back, we are taking the **percentage** of **1.331** which is **(1.331 - 1) * 100% -> 0.331 * 100% -> 33.1%
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66c397a5-19e6-4830-9cb9-76354fa254e9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fedf5981-7c95-404e-a059-a6c1e0bfdfc7)
+
+* Circumference of circle(C) -> 2 * pie * r [Formula] [**IMPORTANT**]
+* C is **directly proportional** to **radius(r)**.
+* Area of circle(A) -> pie * (r ^ 2) [Formula] [**IMPORTANT**]
+* A is **directly proportional** to **(r ^ 2)**
+* There is a **30%** increment in the **radius(r)**.
+* There is a **80%** decrement in the **radius(r)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7550f9f0-7960-4108-b765-71a9b3d28ac8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e68603f-81ec-4cf2-87a3-45d484d2f6b5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ac494c6-2fe4-473f-9cee-fc722d1d246f)
+
+* **Perimeter** of a **Square** -> 4 * a
+* **Area** of a **Square** -> a ^ 2
+* **a** is one of the sides of the **Square**.
+* Formula [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2516ae17-fe22-4d13-a285-1be41f6efac4)
+
+* In **geometry**, **height(h)** means **90 degree**.
+* **Volume(V)** of a **Cone** is **V = (1/3) * pie * (r ^ 2) * h**.
+* r -> radius of the cone.
+* h -> height of the cone.
+* Formula [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9c2b40ab-78cf-4551-8aca-ad23ad7b64a5)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91b3e6c5-2a21-40ec-9fab-f55fc4ace4d8)
+
+* 10% Increase in **r** -> (1.1) ^ 2 -> 1.21 -> (1.21 - 1) * 100% -> 0.21 * 100 -> 21% increase 
+* 20% Increase in **r** and 20% Increase in **h** -> (1.2) ^ 2 * (1.2) -> (1.2) ^ 3 -> 1.728 -> (1.728 - 1) * 100 -> 72.8% increase 
+* 50% Increase in **r** and **constant** in **h** -> (1.5) ^ 2 -> 2.25 -> ((2.25 - 1) / 1 ) * 100% -> 1.25 * 100 -> 125 %
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e878e5de-4977-4968-8e99-179f09d7aaf1)
+
+* If the **radius** increased by **90%** instead of the **50%** given in the question.
+* Answer is **261%**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f659c7a3-0fc4-4b32-b945-054049cdd0f4)
+
+* It is **37.50%** concentrated solution of milk.
+* Milk(M) -> 3/8
+* Water(W) -> 5/8
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41d8a5a6-68ad-4cad-a980-356f7a83ab91)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89a1c999-6b2b-4d88-b87c-51b13f52878d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22590097-5660-4120-850c-962a2ecfbb62)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/502cfb25-03ae-4d4f-90ab-e95e66f7d469)
+
+* Income = Earn(Active) + Receive.
+* Income = Savings(S) + Expenditure(E).
+* Income = Disposable Income
+* Formula [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d7ecc8a5-491f-4e38-a61a-9a486c834dcb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/87e70bfe-8593-4292-8687-96db4027721d)
+
+* New Savings(Snew)
+* New Savings percentage change
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f1f548a-5b63-46f9-a305-8c05793c35db)
+
+* Income = Savings + Expenditure
+* Formula [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ecc55ffe-af1e-4237-b75e-a3404dcf1f9f)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb12c5ea-dd47-4c0c-9ba4-3cbf0574e8d9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83301ca9-e630-47e7-b2fc-4de3eae38db5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/25a38972-c593-4adc-969c-927654858601)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/877433f6-9d4f-48dd-866c-fb6d9e6be46f)
+
+* Surplus -> Positive.
+* Deficit -> Negative.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/229888b2-4955-4373-9643-0ba4178aaa40)
+
+* To calculate the **Fiscal Deficit(FD)** we need to keep in mind that **Fiscal Deficit(FD)** comes from **GDP**. **Fiscal Deficit(FD)** is a **percentage** of **GDP** as mentioned in the question.
+* Trade = Export - Import.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ca42cbe2-b0c7-43a5-ad61-c1f26fffa6f3)
+
+* The year in which the combined **percentage increase** in both **exports and imports** is the **highest** is the year of **2006**. The **percentage increase** is **37.50%**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c60aeaa6-4843-4e78-9c8c-f5fbe136f9c8)
+
+* Trade Deficit -> Export is less and Import is more. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83c9ba46-3fe0-48c7-8428-4e7849448f9f)
+
+* Question
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e519435-b74c-4e84-9d69-37090f6341a9)
+
+* E = P * C
+* E -> Expenditure
+* P -> Price
+* C -> Consumption.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/07bbf0a5-806b-49a0-b6ec-d5e6ddff6a61)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac57b44e-8f2c-4def-b291-03c420c56065)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22238c66-b477-43db-b0db-f597976fc44d)
+
+* When the **Price(P)** is **increasing** then  we are using **(R/(100+R)) * 100%**.
+* When the **Price(P)** is **decreasing** then  we are using **(R/(100-R)) * 100%**.
+* If it is **increase/increasing/increment** then we are using **(R/(100+R)) * 100%**.
+* If it is **decrease/decreasing/decrement** then we are using **(R/(100-R)) * 100%**.
+* **Expenditure(E)** must remain **constant**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c9dd232-378d-41f5-9c30-936991d69125)
+
+* [**IMPORTANT**]
+* 3 Steps:-
+
+1) If Increase then decrease and vice-versa.
+2) Convert the percentage(%) into fraction.
+3) Calculate. If **decrease** then **minux**, if **increase** then **plus**.
+
+* Decrease of 33.33%
+
+1) Increase 
+2) 33.33% -> 1/3
+3) As it is **decrease**, so we will do **minus**.
+
+* 1/3 -> 1/(3 - 1) -> 1/2 -> 50% increase
+
+* Decrease of 12.50%
+
+1) Decrease -> Increase
+2) 12.50% -> 1/8
+3) As it is **decrease**, so we will do **minus**.
+
+* 1/8 -> 1 /(8 - 1) -> 1/7 -> 14/28% increase
+
+* Increase of 5%
+
+1) Increase -> Decrease
+2) 5% -> 1/20
+3) As it is **Increase**, so we will do **plus**.
+
+* 1/20 -> 1/ (20 + 1) -> 1/21 -> 4.76% decrease.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9f69a1da-e355-4f38-99dc-1b0ae735d821)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/806f2d22-6980-4137-b85a-6db4bb6cef8f)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c92fe432-fb09-4951-a316-22fba8d89eeb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24b47e67-86af-4bcd-8a74-c8f974de3b20)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a39f9484-cd3d-4996-9b9e-c83ec70b4636)
+
+* Formula [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/79afcdd5-32d3-4f14-b6ee-6226424bf2b5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/11c00be4-35cb-4966-bc45-888775ecdf56)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/06b28d47-749b-44a9-acd7-f2efc25da579)
+
+* We are finding **R** as **P and S** are given.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0734afc7-d43c-4e62-b39a-26eecb319db6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05dac76d-1b91-4c30-a39a-7b85dde48224)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/20dd67b1-00ad-4a2c-a391-af98869b07d5)
+
+* (37.5/(137.5))*100 -> 27.27%
+* More -> Increasing/increment.
+* Less -> Decreasing/Decrement.
+
+* Anew = A + (% of A)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b81f5d28-daf5-4ecb-a975-d0091e7603fe)
+
+* In **a^2new = 1.96 * (a ^ 2)**, we are **squaring** both the sides, so we are getting **anew = 1.4 * a**.
+* So it is **(1.4 - 1) * 100 -> 40% increase** w
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/326cc7bd-ac36-4cf2-87f7-ce10cc1e24cf)
+
+* It is **same** as **Square** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d921ca95-1075-4b5f-a9f9-8ce8585ecae8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/997dea06-0687-4a6c-89db-a7560025ecd0)
+
+* Successive increments.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/74e20a98-ee53-4f9d-b460-deeaaf1e92aa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/980a1188-832c-426a-b29e-400dc6fe770c)
+
+* Find the **t10** term of the **fibonacci sequence**.
+* y^2 - x^2 = 517.
+* We got **y = 29**, so to find **x** we have to simply put the value of **y** in one of the equations and get the value of **x**. The value of **x** maybe come as **-18** but we will take it as **18** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7404ee2f-c6f4-41b4-9658-33fd4c0c2164)
+
+* Power of Multiplication.
+* We got the **t6 and t7** terms. Now find **t10** term. Add **t6 and t7** to get **t8**, add **t7 and t8** to get **t9** and add **t8 and t9** to get **t10**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9a521760-7930-4b2d-a2db-5b652a7117b3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/60cc3a02-d836-4e36-96ac-cde1da8d4995)
+
+* It was given that the **t7 and t6** terms are **y^2 and x^2** which are equal to **517**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c5e6ef3f-b788-4254-a422-ec8f32746943)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5003fd06-4398-444a-9376-8332a97916f1)
+
+* The Answer is **32%** only.
+* Sir was saying a **trick** to solve the **multiplications of 11**.
+* 23 * 11 -> 2(2+3)3 -> 253
+* 54 * 11 -> 5(5+4)4 -> 594.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1ca03c9-3d72-40a7-b6ae-5d3d31df3917)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/baeae7be-3180-49b6-a0a7-695f4a3a0b95)
+
+* Net chance = ((FV - IV)/IV) * 100% = ((57.75-50)/50) * 100 = (7.75/50) * 100 = 15.5%.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e88215e7-61d2-4200-96d3-a07940be8b76)
+
+* Option **B**.
 
 
 
