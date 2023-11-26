@@ -6,3 +6,4 @@
 # Aptitude
 
 * Start from **PDF 36** file.
+* Start from Line **1920**.

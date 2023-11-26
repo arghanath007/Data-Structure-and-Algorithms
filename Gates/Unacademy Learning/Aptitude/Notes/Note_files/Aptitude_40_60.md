@@ -289,7 +289,7 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6036ce2-5ee2-4532-9067-4f7a8dc4affd)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f955db1c-c4dd-45b9-8c7b-0f5ccf118fb8)
 
-* Ratio of **Speed of Himanshu** by **speed of Abhishek** -> Sh/Sa ->
+* Ratio of **Speed of Himanshu** by **speed of Abhishek** -> Sh/Sa -> 6/5.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e4b9fc9-f302-4e59-8d88-8f7b88de6840)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9dabc346-9379-4972-a2a9-41b2a7183c7a)
@@ -364,6 +364,7 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85516283-76cf-4bd4-889f-bdcaa13f89e8)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd7f5ae8-5bf4-4485-aef1-ff158c938799)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ea8612d-8c68-430d-bc43-839ca308f446)
 
 * Solved using **powers**.
 
@@ -411,6 +412,8 @@
 
 * Jitna **bars** utna 9's
 * The no. of **bars** that many 9's.
+* The **digits** that are after the **dot** but are not under the **bar** then those **digits** are **subtracted** from the **digits** that are **under the bar**.
+* The **count** of the **digits** that are not **under the bar** after the **dot** that many **zeroes(0)** are placed instead of the **9s** in the **denominator**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80c2ad79-4092-4382-9919-f9e5040c8a4c)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d5023aa-3916-434b-bda4-df1bacc597cf)
@@ -477,6 +480,7 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8eea6bec-9ed1-4b73-9d49-a835b389b46c)
 
 * Total no. of matches?
+* 3 + 1 + 1 -> 5 matches.
 * [**IMPORTANT**]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5dca021-7a38-481c-97d1-b06279acb5f2)
@@ -492,6 +496,7 @@
 
 * Question
 * Option **B**.
+* **Zero(0)** is an **even number**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce5d16bb-950b-406f-ae38-8ada70b6e059)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31d68793-1188-4608-9684-2cb43eb4fcc2)
@@ -536,7 +541,7 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6acabb6-0eba-4906-8eb1-cebe5fe79d40)
 
 * **1 work(w)** is completed in **12 days**.
-* In **1 day*, the work completed is **1/12** work
+* In **1 day**, the work completed is **1/12** work.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a674e14-7899-4baf-aa64-63c880bbe1d5)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33e690c6-c43f-4960-8ac0-d2180b2dbae5)
@@ -551,14 +556,23 @@
 * **Total no. of days** -> (x * y)/(x + y)
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0bbca3b1-5a15-41c4-acdc-c22557d1caa1)
+
+* This is the **1 day's** work.
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/929a8d86-fd49-437a-91de-11dbff1e6e67)
+
+* This is the **total no. of day's** work.
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a471c3f-2a70-4037-96d1-56ed6ada4916)
 
-* Adding percentages to get **100%**
-* Addding fractions to get **1**.
+* Adding **percentages** to get **100%**
+* Adding **fractions** to get **1**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b889a53-f02d-4f5a-b536-9dfcf6a6cc25)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ccd24832-9196-4a22-b1e6-b078d0365f64)
+
+* Examples.
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/204c1839-f6f7-4d41-9026-dac4f4a531e9)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f7454c5-1a51-498b-aa45-eee17c59e27f)
 
@@ -571,7 +585,8 @@
 
 ## Time speed distance work and time part-VII (44) [5th July 2023]
 
-* Total No. of days to complete the work together -> (X * Y) / (X + Y)
+* **Total No. of days** to complete the work **together** -> (X * Y) / (X + Y)
+* Formula.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd3607fb-297f-41cc-b08e-62c9ba778a8f)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/300bd8a6-4db2-45a7-93e2-06214b340294)
@@ -596,7 +611,8 @@
 * Work Done by **A** on **day 13** -> Work left - 8.33 -> 10 - 8.33 -> 1.67
 * Work Left -> 1.67
 * **B** came on **day 14**.
-* Work Done by **B** on **day 14** -> Work left/6.67 -> 1.67/6.67 -> 0.25 -> **1/4**
+* Work Done by **B** on **day 14** -> Work left/6.67 -> 1.67/6.67 -> 0.25 -> **1/4**.
+* We did **subtraction** for **A** but for **B** we did **division** above because for **A** the amount of **work left(WL)** is more than the amount of work **A** can do in **1-day**. As for **B**, the work left(WL) is **less than** the amount of work **B** can do in **1 day**. So to calculate the time in which **B** completes the **work**, that's why we did **division** for **B**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/307fefc5-9cf1-4a9c-8125-d7fa1993257d)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7cc04525-d56f-49fe-889d-baa9a21c897b)
@@ -608,6 +624,7 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97e266e8-ec6e-4357-9e79-edc6e43687f4)
 
 * Question.
+* **B** starts.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b348a0b-1b10-4d9f-a7fb-97f908e1a2c4)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a5dd499-5512-4d02-af00-d9415aac5790)
@@ -777,6 +794,10 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/452e0dcf-1f3b-437d-b1ab-23b899ff9699)
 
+* After the **3 steps** where the pipes worked and stopped working. After that **calculations**, the tank filled is **41%**. So **empty** is **100-41 -> 59%**. 
+* Now find the time needed to completed the **full tank**.
+* So it is **59/15 -> 3hrs 56mins**.
+* So it is **3PM + 3hrs 56mins -> 6pm 56mins**. 
 * Time -> 06:56PM.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19611040-a6ce-4a35-a21a-d05bae834392)
@@ -828,21 +849,35 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2af5135d-826c-4dc6-8b50-8c98e5365791)
 
+* 5 Men or 8 Women can finish a piece of work in **10 days**.
 * 5 M = 8 W
 * 1 M = 8/5 W
 * 1 W = 5/8 M.
+* M -> Men
+* W -> Women
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ab7460c-7f0f-45c0-ae93-5f79f0c049e7)
 
 * Convert into **full Men** or into **full women** then calculate for the **no. of days**.
 * Here also use **W = DMTE**.
+* If there are **24 Women** then in how many days the **work is completed**? 
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80bed3af-5baf-4737-8072-7323c33f41ed)
+
+* D1 = 10 days [Given]
+* For **M1** it is given **5M or 8W**, convert it **completely** into either **Men or Women**. We can taken **Men**, so **M1 = 5** which is given only.
+* M1 = 5 Men [Given]
+* For **M2**, it is given **24 Women**. Simply we will convert the **24 women** into their equivalent count of **men** using **1W= 5/8M**, so for **24 women** it is **24 * 5/8 -> 15 Men**.
+* So the **24 Women** is as good as the **15 Men**.  
+* So M2 = 15 Men.
+* [**IMPORTANT**]
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a43ceb1c-d0c7-422e-aa14-0ac63cf48351)
 
 * Question.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/01a49f6b-c4e8-4dac-b44a-7e315b75ed60)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8611c665-ebd5-478d-a376-b1470a56953c)
 
 * **P/S -> Pipes and Cisterns**.
 
@@ -861,6 +896,7 @@
 * Question
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ed7fc5a-d4df-4cf7-92fb-7d3dc708b4aa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b853d6ac-0700-460a-a9cd-f2cfe4648ec8)
 
 * Option **B**.
 
@@ -888,16 +924,20 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b9b755a7-dc18-48c0-bef9-f6a253e94351)
 
 * Efficiency.
-* We are multiplying the **no. of people** we are picking from **each team** with their **1 man's work**.
+* We are multiplying the **no. of people** we are picking from **each team** with their **1 man's 1 day work**.
 * Example we have picked **2 people from Arjun's team** and their **1 person's work is 1%**.
 * So, **2 people from Arjun's team** work is **1% * 2 -> 2%** which is the **Efficiency**.
-* We picked **6 people from Chirag's team** and **5 people from Rishab's team**.
+* We picked **6 people from Chirag's team** and **5 people from Rishab's team** which respectively got us **3% and 1.65%**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/badd29b8-0903-48c4-b963-82cac903c3fe)
 
 * Question
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b06f9770-c819-439e-9922-629b236518cf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b423aadb-ee61-4ba3-9578-1c266232a1da)
+
+* [**IMPORTANT**]
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a4468b75-3ca2-49c5-ac0a-1e01959472a6)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a7df631-864e-480b-bd42-28dd9a8cfac0)
 
@@ -936,8 +976,10 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8dc6a36b-98f0-4d0c-bd8f-7ca10b75415d)
 
 * They are going to add **one technician** every **hour**.
+* From the time of **11 am to 5pm** which is **6hrs**, we had **6 technicians**. So it is **6 * 6 -> 36MHrW**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3409ca05-3115-4156-b76e-97d413ff0901)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ee00f36-dfc2-4a4e-8b73-f108e8b3b1b9)
 
 * [**IMPORTANT**]
 
@@ -963,6 +1005,7 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6e0b17c7-422f-4467-86b1-5aa80d3928a9)
 
 * **1/4** of **5 days** is **1 * (1/4)**.
+* It is **1/4** of **5 days**. So it is **5 * (1/4) -> 5/4 -> 1.25**. So the **total** is **25 + 1.25 -> 26.25**.
 * 25 days * (1 * (1/4)) -> 26 * (1/4).
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12b76e45-a5ef-4f0e-b19d-4d0c1a3b6175)
@@ -974,6 +1017,7 @@
 
 * Question. 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/124dc8d7-7081-445c-b9f8-dcb761aef406)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b85107bb-e689-45cd-a0be-35f3f31e40a5)
 
 * T -> Total Time.
@@ -1019,7 +1063,7 @@
 
 * (a ^ n) / (a + 1) [**IMPORTANT**]
 * If **n** is **odd**, then we will get the **number itself(a)** as **remainder**.
-* If **n** is **even**, then we will get the **1** as **remainder**.
+* If **n** is **even**, then we will get **1** as the **remainder**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2eab2a29-2d1c-467d-a826-7e57a14e7740)
 
@@ -1227,6 +1271,7 @@
 
 * Min and Max.
 * Product of elements having **max and min** value in the set. [**IMPORTANT**]
+* 2/175 [Answer]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/74ce111a-4e9c-4395-b4d4-74b634119dfa)
 
@@ -1242,6 +1287,10 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/329c7a94-127c-4c82-b3ac-0c2157fc6236)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc705ee1-4fdd-447f-ac23-ce45d48d724f)
+
+* Option **A** which is 19 Coins.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d27d91e0-5a93-4bb7-80d3-7d2a90691eec)
 
 ## doubt-clearing-session(49) [15th July 2023]
 
@@ -1304,10 +1353,16 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76bdb92d-c5d9-41a5-8392-ef3505371256)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3064010c-5ea8-4311-8a20-64902433f202)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1dafba7-3efc-4c6e-9443-f6554c20109e)
+
+* For the **Samsung and Sony but not Dell or HP laptops**, we are getting **9** as the **answer** which is **Option 'A'** because we are removing **one 8** as it is in the set of **Dell** and we want **not Dell**. We have to remove **30** as well because it is in the set of **HP** and we want **not HP**.
+* So we are left with **1 and 8** so the count of people who like **Samsung and Sony but not Dell or HP laptops** is **1 + 8 -> 9** people.
+* Option **A**.
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0723f728-80c7-434b-a237-02596c49cd63)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7138862e-f20a-45f0-aa1c-b6bc614d21c8)
 
-* 8.
+* We have to find the **common** among all of the **diagrams**.
+* Option **B** which is **8**. [Answer]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/13b0725a-b881-43c5-874a-776e95f39297)
 
@@ -1316,11 +1371,35 @@
 * [**IMPORTANT**]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e95cb4ea-df67-4871-afdf-1ad8abdcee40)
+
+* Read Book OR Play Sports -> 108
+* Read Book AND Play Sports -> 51
+* OR -> Union
+* AND -> Common
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba153d4d-3cf3-41fb-aa1d-62917c708e58)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7dc91669-312b-4ae9-9933-d307bb77aed7)
+
+* Read Book OR Play Sports but not Watch TV -> R OR P but TV' -> 72.
+* Remove the values from **Read Book OR Play Sports** which have values from **Watch TV** set.
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0711de8-5f9e-40d1-a74a-3a01544560c3)
+
+* Read Book AND Play Sports but not Watch TV -> R AND P but TV' -> 44.
+* Read Book AND Play Sports -> 51.
+* Remove the values from **Read Book AND Play Sports** which have values from **Watch TV** set.
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/262fc082-a8b7-4688-abb4-b382e3f62537)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3cc4288-c91b-4959-843d-180933a16b65)
+
+* Another type of question may come which is find the percentage(%) of the **student population**.
+* % of Read books -> (Read books/Total students) * 100%
+* Others can also be found out like this only.
+* Question from **2019** Paper.
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb429c04-72cf-423b-aad4-7e0e8d734033)
 
+* Example of the **above** type of question.
 * Question.
 * Option **C**.
 
@@ -1339,8 +1418,8 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ca49588c-f3a9-40bf-90bc-32f546250a97)
 
 * [**IMPORTANT**]
-* If it is **increment** then it is **plus(+), positive**.
-* If it is **decrement** then it is **minus(-), negative**.
+* If it is **increment** then it is **plus(+), positive** sign.
+* If it is **decrement** then it is **minus(-), negative** sign.
 * Formula -> (a + b + ((a * b) /100))
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b8fb1669-1fbe-4262-ba18-4740d0418769)
@@ -1360,11 +1439,16 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/48e459ae-f8d3-4110-8d2b-42781aba2959)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1ea886c-1bfe-45de-be63-746493d6d736)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3d63db5-d428-4366-8c8c-41958c7d1b22)
+
+* To get the **percentage** back, we are taking the **percentage** of **1.331** which is **(1.331 - 1) * 100% -> 0.331 * 100% -> 33.1%
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9a29bb73-8837-412e-98da-295dbda8b9c3)
 
 * Question.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66c397a5-19e6-4830-9cb9-76354fa254e9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fedf5981-7c95-404e-a059-a6c1e0bfdfc7)
+
 
 * CI
 * CAGR
@@ -1398,6 +1482,9 @@
 
 * Square, 
 * Perimeter(P) and Area(A)
+* **Perimeter** of a **Square** -> 4 * a
+* **Area** of a **Square** -> a ^ 2
+* **a** is one of the sides of the **Square**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2516ae17-fe22-4d13-a285-1be41f6efac4)
 
@@ -1407,12 +1494,12 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9c2b40ab-78cf-4551-8aca-ad23ad7b64a5)
 
 * Cone
-* Volumne.
+* Volume.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91b3e6c5-2a21-40ec-9fab-f55fc4ace4d8)
 
-* 10% Increase in **r** -> (1.1) ^ 2 -> 1.21 -> 21% increase 
-* 20% Increase in **r** and 20% Increase in **h** -> (1.2) ^ 2 * (1.2) -> (1.2) ^ 3 -> 1.728 -> 72.8% increase 
+* 10% Increase in **r** -> (1.1) ^ 2 -> 1.21 -> (1.21 - 1) * 100% -> 0.21 * 100 -> 21% increase 
+* 20% Increase in **r** and 20% Increase in **h** -> (1.2) ^ 2 * (1.2) -> (1.2) ^ 3 -> 1.728 -> (1.728 - 1) * 100 -> 72.8% increase 
 * 50% Increase in **r** and **constant** in **h** -> (1.5) ^ 2 -> 2.25 -> ((2.25 - 1) / 1 ) * 100% -> 1.25 * 100 -> 125 %
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b822891f-e81c-4803-9db8-a2c9862b1957)
@@ -1422,8 +1509,13 @@
 * Option **C**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a9fa4420-2744-4e3d-886a-3c1da4580c0e)
+
+* If the **radius** increased by **90%** instead of the **50%** given in the question.
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e878e5de-4977-4968-8e99-179f09d7aaf1)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee8e2229-5eaf-4c6c-b3fb-b132bdbbfceb)
+
+* Answer is **261%**.
 
 ## percentage-and-di-part-ii (50) [16th July 2023]
 
@@ -1438,8 +1530,8 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f659c7a3-0fc4-4b32-b945-054049cdd0f4)
 
-* 3/8
-* 5/8
+* Milk(M) -> 3/8
+* Water(W) -> 5/8
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/204f25b6-b7a0-4228-8a4e-1ba8d1c4a8f0)
 
@@ -1460,13 +1552,13 @@
 
 * Income = Earn(Active) + Receive.
 * Income = Savings(S) + Expenditure(E).
-* Income = Disposible Income
+* Income = Disposable Income
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d7ecc8a5-491f-4e38-a61a-9a486c834dcb)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/87e70bfe-8593-4292-8687-96db4027721d)
 
-* New Savings
-* New Savinga percentage change
+* New Savings(Snew)
+* New Savings percentage change
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f1f548a-5b63-46f9-a305-8c05793c35db)
 
@@ -1478,13 +1570,14 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ecc55ffe-af1e-4237-b75e-a3404dcf1f9f)
 
-*[**IMPORTANT**]
+* [**IMPORTANT**]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd52417c-7c91-479d-83f5-6fa468c76285)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb12c5ea-dd47-4c0c-9ba4-3cbf0574e8d9)
 
 * 10 Characters
 * 10 lines in each page
+* We have **10 pages** like the **above format**.
 * We need to fill **10 * 10 * 10** -> **(10 * 10 * 10) / 10 * 10 -> 10 pages**.
 * So, we need **10 pages**.
 
@@ -1517,6 +1610,10 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f4e7cf85-306d-4332-9ef3-df257d14c535)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/877433f6-9d4f-48dd-866c-fb6d9e6be46f)
+
+* Surplus
+* Deficit.
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3977ee3c-8e7a-4ea4-a69a-d11825434fac)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/418290a7-3e05-4e1a-b9e5-f6b086dd0e4d)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9f38f1c5-d364-4144-be53-d6eb60a28ebb)
@@ -1525,6 +1622,9 @@
 * Question.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/229888b2-4955-4373-9643-0ba4178aaa40)
+
+* To calculate the **Fiscal Deficit(FD)** we need to keep in mind that **Fiscal Deficit(FD)** comes from **GDP**. **Fiscal Deficit(FD)** is a **percentage** of **GDP** as mentioned in the question.
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cdc00a5a-e680-4ffa-a409-092ebbc8bb69)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5f88934-6309-42f4-8238-b3f8c79ba2f7)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/29f96bf2-764a-4e89-b5eb-19f7b3e2271e)
@@ -1539,7 +1639,7 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/de1d14f0-24e3-44eb-9536-6be62d902c8c)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ca42cbe2-b0c7-43a5-ad61-c1f26fffa6f3)
 
-* 2006.
+* The year in which the combined **percentage increase** in both **exports and imports** is the **highest** is the year of **2006**. The **percentage increase** is **37.50%**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/64281ee6-8b7b-40f0-aeaa-a0cb0b36c195)
 
@@ -1581,6 +1681,10 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22238c66-b477-43db-b0db-f597976fc44d)
 
 * [**IMPORTANT**]
+* When the **Price(P)** is **increasing** then  we are using **(R/(100+R)) * 100%**.
+* When the **Price(P)** is **decreasing** then  we are using **(R/(100-R)) * 100%**.
+* If it is **increase/increasing/increment** then we are using **(R/(100+R)) * 100%**.
+* If it is **decrease/decreasing/decrement** then we are using **(R/(100-R)) * 100%**.
 * **Expenditure(E)** must remain **constant**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c9dd232-378d-41f5-9c30-936991d69125)
@@ -1602,7 +1706,7 @@
 
 * Decrease of 12.50%
 
-1) Decrese -> Increase
+1) Decrease -> Increase
 2) 12.50% -> 1/8
 3) As it is **decrease**, so we will do **minus**.
 
@@ -1650,7 +1754,7 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c427246d-a2b2-4375-b7f6-4bbde6c45539)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/79afcdd5-32d3-4f14-b6ee-6226424bf2b5)
 
-* Aread(A) is constant.
+* Area(A) is constant.
 * Revenue(R) is constant.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/11c00be4-35cb-4966-bc45-888775ecdf56)
@@ -1666,14 +1770,25 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05dac76d-1b91-4c30-a39a-7b85dde48224)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/20dd67b1-00ad-4a2c-a391-af98869b07d5)
 
+* (37.5/(137.5))*100 -> 27.27%
+* More -> Increasing/increment.
+* Less -> Decreasing/Decrement.
 * [**IMPORTANT**]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c215e5d8-2502-4035-81da-d8ac0c92846f)
 
 * [**IMPORTANT**]
+* Anew = A + (% of A)
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b81f5d28-daf5-4ecb-a975-d0091e7603fe)
+
+* In **a^2new = 1.96 * (a ^ 2)**, we are **squaring** both the sides, so we are getting **anew = 1.4 * a**.
+* So it is **(1.4 - 1) * 100 -> 40% increase** w
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/326cc7bd-ac36-4cf2-87f7-ce10cc1e24cf)
+
+* It is **same** as **Square** only.
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d921ca95-1075-4b5f-a9f9-8ce8585ecae8)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/997dea06-0687-4a6c-89db-a7560025ecd0)
 
@@ -1685,8 +1800,26 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ccec921-2313-40fc-84b7-d64699744805)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/74e20a98-ee53-4f9d-b460-deeaaf1e92aa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/980a1188-832c-426a-b29e-400dc6fe770c)
+
+* Find the **t10** term of the **fibonacci sequence**.
+* It was given that the **t7 and t6** terms are **y^2 and x^2** which are equal to **517**.
+* y^2 - x^2 = 517.
+* We got **y = 29**, so to find **x** we have to simply put the value of **y** in one of the equations and get the value of **x**. The value of **x** maybe come as **-18** but we will take it as **18** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7404ee2f-c6f4-41b4-9658-33fd4c0c2164)
+
+* Power of Multiplication.
+* We got the **t6 and t7** terms. Now find **t10** term. Add **t6 and t7** to get **t8**, add **t7 and t8** to get **t9** and add **t8 and t9** to get **t10**.
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f4589a0-6134-44d2-a45e-ffa46e041ec5)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5003fd06-4398-444a-9376-8332a97916f1)
+
+* The Answer is **32%** only.
+* Sir was saying a **trick** to solve the **multiplications of 11**.
+* 23 * 11 -> 2(2+3)3 -> 253
+* 54 * 11 -> 5(5+4)4 -> 594.
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1ca03c9-3d72-40a7-b6ae-5d3d31df3917)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cae2ec1f-a624-4d20-a442-41e9e7295199)
 
@@ -1694,6 +1827,8 @@
 * Different type.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/baeae7be-3180-49b6-a0a7-695f4a3a0b95)
+
+* Net chance = ((FV - IV)/IV) * 100% = ((57.75-50)/50) * 100 = (7.75/50) * 100 = 15.5%
 
 ## verbal-reasoning-part-vii(52) [16th July 2023]
 
@@ -1739,7 +1874,7 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1cffda5f-d23f-4624-87bf-040a62d7232a)
 
 * Question.
-* Option **C**.
+* Option **B**.
 * In **circle/circular**, there will be **one gap** for **A** to sit between **E and D**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ca1848a6-f380-48e1-ab62-f326869877aa)
@@ -1764,10 +1899,12 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f4692ce-311f-441a-985b-5f04ae5916b4)
 
 * [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a53a6cf7-12ef-442d-b41e-b789f1056763)
+
 * Conversely.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/17291e69-f029-43da-bc82-a2c1a0c74d39)
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a53a6cf7-12ef-442d-b41e-b789f1056763)
 
 ## doubt-clearing-session(53) [19th July 2023]
 
