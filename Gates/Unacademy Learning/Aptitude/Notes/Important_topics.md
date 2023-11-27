@@ -1705,6 +1705,164 @@
 
 * [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/847556da-2b1f-43a9-a938-d28a111f788c)
+
+* Option **C**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd11f057-bdf6-4bd8-94ee-bac3dd7c4705)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d60c3de3-1030-45eb-b377-1c1f79782f82)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4312dd82-b967-4d78-8298-80b731f68420)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b8d9082-0c6f-4904-ab34-374003c92b33)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3143e00a-d373-478c-ba93-9e82a6d9fc35)
+
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0710198-b3af-4807-a1af-a581a5358672)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/02240c07-4652-49a7-b911-8d27cba2313c)
+
+* 10% more = 1.1
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/768943e3-c880-4585-a846-7ea94af5a53f)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2d0bc941-0ccd-4228-a549-784cf1a62039)
+
+* Option **D**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2943df20-3d65-4899-b17a-6994c035dc79)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4acd13d2-265e-4c76-a2e5-d5eed537f6e7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8504b4a1-da56-4e4a-b843-7952497694fb)
+
+* MP or MRP -> Marked Price or Maximum Retail Price or Original Price Or catalogue Price Or List Price.
+* **Discount %** is always on **marked price(MP)** unless mentioned otherwise.
+* **Discount %** is also called as **commission %**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c4cae08-e996-4339-999e-a21f88ccc51d)
+
+* CP -> Cost Price.
+* **Profit/lost %** is found out with respect to the **Cost Price(CP)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f99528c2-5401-416c-b710-ed514662a6b0)
+
+* Formula [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/73a0b572-6c9e-4e4f-88d3-e480990d495e)
+
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db5dc216-16b6-4758-824b-0456cbf40dfb)
+
+* Option **B**
+* Procedural -> relating to an established or official way of doing something
+* Circumstantial -> Decision Making ability.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71548336-ebe8-445a-afbe-0be38732d49b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f4c0187-bdc2-4c8e-81b9-e3e698bd1cb9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cbd2dab4-2865-4f1f-9ae8-92051ddc06e5)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/74afd9a7-47a7-46ba-b643-db18085d3204)
+
+* Option **B**.
+* Poignant -> Regret.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9886d2ba-7104-4922-a7a3-b16be9495e56)
+
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/febff94a-fddf-4fbb-a55f-7c5ef26d0c2e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98e6496b-58b5-47bb-9193-63d065eb20ce)
+
+* Link -> https://ee.gateoverflow.in/1486/gate-electrical-2020-ga-question-7
+* Option **C**.
+* Do the **letters** individually. First letter of **first word** is lined with the **first letter** of the **second word** and so on.
+* Second letter of **second word** is lined with the **first letter** of the **third word** and so on.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7261527c-5dcf-4b76-9885-04e7467667ee)
+
+* Question
+* Option **B**.
+
+* Coup -> Sudden change in government
+* Coupe -> Train's compartment
+* Plummet -> fall or drop straight down at high speed
+* Nosedive -> a steep downward plunge by an aircraft
+* Plunge -> jump or dive quickly and energetically (**OR**) push or thrust quickly
+* Poised -> In the balance -> having a composed and self-assured manner.
+* Confusion -> uncertainty about what is happening, intended, or required
+* Catch-22 -> Situation in which one cannot avoid a problem because of contradictory constraints
+* Perplex -> make (someone) feel completely baffled
+* Quizzical -> (of a person's expression or behaviour) indicating mild or amused puzzlement
+* Convoluted -> (especially of an argument, story, or sentence) extremely complex and difficult to follow
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7ad3974-30bf-4057-8c8a-98b4f274d366)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe8e07c7-9522-4f6b-8ad0-00401511941a)
+
+* Option **D**.
+* Pristine -> in its original condition; unspoilt -> pristine condition.
+* Cogent -> Clarity.
+* Cog -> A word about Knowledge.
+* Cognitive Decline
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71590bd6-77e1-4604-88ae-4d1feaa168e4)
+
+* Option **A**.
+* Course -> Track.
+* Coarse -> Rough
+* Beside -> Next/ Adjacent
+* Besides -> Except
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b7df90a-0547-4e6c-bb45-ac19bb88f6ae)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ca5023f9-2e48-466b-badb-1262135340d7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c79320d0-cc08-467d-98f2-2dd3aab0266d)
+
+* Option **C**, (II) and (IV) only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c00868d1-09d9-478f-b4b4-c19345fbbc89)
+
+* Question
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/28b59478-3a3c-401c-959a-21721b44d303)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/28b59478-3a3c-401c-959a-21721b44d303)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f169cbd-4b51-4e00-832d-09fd1daee278)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32aa56f1-6ca3-43c8-b601-085c8e19c3fb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd75d145-30c3-43df-99a0-33569c240103)
+
+* Option **A**.
+* Link -> https://gateoverflow.in/39536/gate-cse-2016-set-2-question-ga-06
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c419609-65c1-4f82-a856-f33a0b0b8dd0)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce352695-b857-4df2-9a77-4614110b791a)
+
+* Apparel -> Sunday Special -> Clothing -> Cloths.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ccda09f-a34f-4908-9533-5e0ee4fa6a4c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ecaa3e9-2bca-4013-bae5-4c9d3ab8e2ff)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f692a5ee-7a6c-4444-8a30-0c55e22a620e)
+
+* Link -> https://gateoverflow.in/313382/gate2018-ce-2-ga-10
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b2ae7ac5-f6bd-449b-bbe7-f4050af7669d)
+
 
 
 
