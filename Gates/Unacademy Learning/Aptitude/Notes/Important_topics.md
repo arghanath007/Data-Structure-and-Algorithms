@@ -1632,20 +1632,77 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc4a63df-55e0-4104-bd1e-e7ac5cbb89d0)
 
 * Option **A**.
+* **What was** means we have to find the **previous months** production.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57f71d6f-e33d-4ea0-876f-3151b335a365)
 
 * Option **B**.
-* [**IMPORTANT**]
+* B = P% more than A:-
+* B = A + A * (p/100)
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1fde3100-42d6-4ed6-ad9a-7b2503dbaddc)
 
 * Option **B**.
-* [**IMPORTANT**]
+* Take some value of **A**. We are taking **A = 100**.
+* We are doing **A-C -> 100-91** because we are finding how much is **A** taller than **C**. That's why **A - C**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f51cc3f4-e89f-496b-a1e2-ce7c3c50a82f)
 
+* Nothing is mentioned about **valid/invalid** and nothing else is mentioned.
+* It means that **A=40%** given so **B = 60%** votes.
 * Option **A**.
+* [**IMPORTANT**]
+* Correct Answer is **B**. Check **below**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bdb575a8-9b4c-4ce6-93be-1bf7b6e3af78)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cdbfc608-9171-40f1-8853-23f1e17ee480)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd594f63-c33e-498c-a934-3a5010cb5a59)
+
+* Mistake
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7404d91e-8bc3-4d40-a0bc-266c4f4125c8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a0a4d55-d9f5-41a9-969c-8aa495375e1d)
+
+> Total population is **x**. **90%** of the population come in the voting age. **80** of the people casted votes. Out of them **70%** of the votes are **valid**.
+* The person who won the election won by **60%** votes so the other person got **40%** of the votes. This is **same** as the **above question**.
+* The difference in votes is **2000**. 
+* The difference in **% of votes** is **60-40 -> 20%**.
+* So it is **0.2 * (0.7 * 0.8 * 0.9x) = 2000**.
+* Now find the value of **x**. 
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa0ce94a-a6b7-42e4-887c-365b2ed39437)
+
+* However.
+* -0.15*(0.4x) = 0.85 * 0.4x
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e164e13c-654d-4a00-a224-6749f81d9e5b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2229bc21-ef46-4d0d-a49f-589a4bba9293)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/510d67a4-0c37-45f9-83e8-107fd0863cb4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0871ad39-7848-4b7c-bbfd-9705f9ec69c2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/722dc8b9-2cac-4925-a32e-ab50ce3745b3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3b46cb7f-58cb-420d-954b-103f1101cbfa)
+
+* For **Q**:-
+* 0.15 * 0.4x = 0.06x
+* 0.6x + 0.06x = 0.66x
+* -0.25 * 0.6x = 0.15x
+* (0.6x +  0.15 * 0.4x) - (0.25 * 0.6x) = 0.66x - 0.15x = 0.51x = 51%
+* So **Q** got **51%** of the votes.
+* There is no mention of **Valid/ In-valid** votes in the question.
+* So the rest of the votes goes to **P** which is **100-51 -> 49%** of the votes.
+* Q - p = 2
+* (51 - 49)% = 2
+* 2%x = 2
+* x = 2/(2/100)
+* x = 2 * (100/2)
+* x = 100.
+* Total no. of votes(x) = 100
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8eece25-c690-4c13-aedd-fb0f54ea7a29)
+
+* [**IMPORTANT**]
 
 
 
@@ -3310,4 +3367,19 @@
 
 
 
+# Images
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7404d91e-8bc3-4d40-a0bc-266c4f4125c8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bdb575a8-9b4c-4ce6-93be-1bf7b6e3af78)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa0ce94a-a6b7-42e4-887c-365b2ed39437)
+
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e164e13c-654d-4a00-a224-6749f81d9e5b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2229bc21-ef46-4d0d-a49f-589a4bba9293)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/510d67a4-0c37-45f9-83e8-107fd0863cb4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0871ad39-7848-4b7c-bbfd-9705f9ec69c2)
+
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cdbfc608-9171-40f1-8853-23f1e17ee480)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd594f63-c33e-498c-a934-3a5010cb5a59)
 
