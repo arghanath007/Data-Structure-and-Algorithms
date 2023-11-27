@@ -1619,9 +1619,15 @@
 
 * Conversely.
 
+### Important Questions
+
+* Practice the below **questions again**. [**IMPORTANT**]
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed79ae65-48cc-4791-8798-69a717333d43)
 
 * Option **B**.
+* Take some value of **B**, either **1 or 100** for easier calculations.
+* Fraction questions.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc4a63df-55e0-4104-bd1e-e7ac5cbb89d0)
 
