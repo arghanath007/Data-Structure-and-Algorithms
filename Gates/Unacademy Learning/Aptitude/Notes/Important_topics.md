@@ -8,6 +8,7 @@
 * Look at **PDF 18 and 19** again. [**IMPORTANT**]
 * Look at **PDF 41**. [**IMPORTANT**]
 * Remember/Practice the **Time, Speed and Distance** formulas and questions.
+* Look at **PDF 53** Questions.
 
 ## Questions
 
@@ -1703,6 +1704,7 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8eece25-c690-4c13-aedd-fb0f54ea7a29)
 
 * [**IMPORTANT**]
+
 
 
 
