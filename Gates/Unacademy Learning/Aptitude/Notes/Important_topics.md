@@ -1863,8 +1863,88 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b2ae7ac5-f6bd-449b-bbe7-f4050af7669d)
 
+* Try to match with the **options**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6453b81-6e31-4252-8b69-a972b03c496d)
 
+* MP -> Marked Price/Catalouge Price/Max Retail Price/List Price/Original Price
+* D% -> Discount percentage(%)
+* C% -> Commission percentage(%)
+* D% or C% -> Discount or Commission percentage(%)
+* SP -> Selling Price
+* P/L% -> Profit or Lost percentage(%)
+* P% -> Profit percentage(%)
+* L% -> Lost percentage(%)
+* CP -> Cost Price
+* **Profit and Loss**.
+
+## NOTE:-
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/01651e91-3395-44f4-8df7-750650a45b9d)
+
+* %change = ((FV - IV)/ IV) * 100%
+* %Profit = %Gain = ((SP - CP)/CP) * 100%
+* %loss = ((CP - SP)/CP) * 100%
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bec628f6-d0a9-46b8-872e-28a5ce14db4d)
+
+* Profit Margin% = Margin% = ((SP - CP)/ SP) * 100%
+* **Profit or Loss** is found in accordance to **CP**.
+* **Profit Margin or Margin %** is found in accordance to **SP**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af0d3d90-d923-4c12-ad91-86c4bd66f6b3)
+
+* Sales or Revenue -> SP
+* Expenditure -> Cost
+* Formula [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf09c583-08e7-4c02-8d8e-016eefbbd83d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0cd415f1-7831-43c0-a30b-95228d90009c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0ddc2e1-b51f-4add-9dbb-20cf6e255d4d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44e591e6-68bc-4779-a2e6-edfb8bb972f0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/446a6f11-28eb-48db-9d3b-5c47014a01f3)
+
+* We can write the **sequence of discounts** together.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d244229b-41a7-4c89-97af-2bcfbb1e5f27)
+
+* **684** is the **final value(FV)**.
+* **1000** is the **initial value(IV)**.
+* Substract **684** from **1000** to get the **equivalent discount**.
+* Have to use the **((FV - IV)/IV) * 100%**.
+* FV = 68.4
+* IV = 100
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7bf3fe2-c159-40bb-afae-2fc708afc1ef)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc5c2edc-8b3a-4811-878a-ee8ae57b8429)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dbfa0a80-1755-48b3-a526-25d2593cb4ad)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/442739c4-5fd9-4d21-b5ea-61876cbd532f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36deb0db-25fc-40e7-af68-201d2468c2a5)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba207d67-36a0-428c-9721-aa6d4b1d40fd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b27614f0-61d3-4ba7-8b3b-ef66f13f08b4)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aff2b002-0885-418b-af39-946df03ed4f2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b163e755-5f7c-4f10-8d67-018fdba8ab58)
+
+* Option **C**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a823e2b-652e-47dd-a0c4-a46cb8987c40)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d69c8e0c-6695-4930-81a0-ab5a834996e9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab469e38-7d70-4bd8-bc1b-2d7079b408f4)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50321258-ffad-4cc8-b732-f225f15ecd8b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cdad8cc9-99cb-473e-a5bc-f187063f7544)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff75b226-842e-40c7-a896-962c985a6dd3)
+
+* [**IMPORTANT**]
 
 
 
