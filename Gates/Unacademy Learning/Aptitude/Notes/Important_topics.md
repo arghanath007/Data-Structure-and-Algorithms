@@ -2089,6 +2089,126 @@ Option **D**.
 
 * Option **B**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e1df76a-175d-4d64-a97e-2b7dd8e654a6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b8322dc-e2f4-4bad-b6c0-e3820ae92d56)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a4b2f14-36a8-485a-96eb-e86c79e2d4da)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/052ac656-38d9-4334-ba70-05bda85ce396)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa96219a-b0af-4d78-8347-b9de04c8977e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc06265d-b4c9-4080-83f9-76522f12f7b6)
+
+* Similar to **Average speed*** in **TSD**.
+* Formula [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb28ea77-b457-4ec8-a4eb-3ef30bdfee02)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/302c055f-c706-4dfb-85b9-e49f265ebb05)
+
+* Formula [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb9cf9b7-1cef-42fe-b443-3c4cf7b843a7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8914c842-89c8-4354-a2ac-a4065f96e6b1)
+
+* Option **A**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3cfca59c-7748-4275-a178-33fe26f5430b)
+
+* Option **A**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8914c842-89c8-4354-a2ac-a4065f96e6b1)
+
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e826e69-03b7-47af-bbf7-822bd53cba9c)
+
+* Option **C**.
+* **NOTES**:-
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6f718ef-c80e-4348-99c1-d9b9dae163e0)
+
+1) If nothing mentioned then take the **cost price of milk** as **1**.
+2) Water is present in **abundance** and hence it is **free**. If **price of water** is given then we will take the **price of water**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32f26c8d-5154-44dc-a0d4-44a2e78fe115)
+
+* Formula [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1da59261-9797-4ccf-a03c-0a1102f0a487)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a03d435a-7b79-4a02-988b-94a142e97f27)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/129aae94-5db8-442c-973e-9f3e55426b7f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/46993a40-1232-41e7-a99e-0c2103a37197)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/288badc3-f84a-4527-8add-299b5cbbf199)
+
+* Option **D**. [**IMPORTANT**]
+
+* After **n-operations**, amount of pure liquid left in the cask.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a0e08ed9-316d-4935-b511-5d0cb7480746)
+
+* Formula -> X * ((1 - (y/x)) ^ n)
+* X -> Total Amount
+* y -> Replaced amount
+* n -> No. of times/Count.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/54c0d593-1480-42bf-89d2-89b4eaa7598c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0e113a8-ed2c-430d-90c1-1b737804ee17)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9fd82413-3ff7-4782-9adb-35c3b0da699a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e31e49d9-088d-4d33-96e6-c73bc840888a)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19103aa8-e8d3-4484-834e-4b73366f9a5e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6235c704-0ed7-4e4b-ad2d-b8072cbc8353)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5305aa76-b165-49bc-9b3e-3acddebe9651)
+
+* Option **C**.[**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/62507976-d373-4a02-95db-cf13152e6a3c)
+
+* Let, the **population** is **100**.
+* **Proportion** word.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98b0a596-a16b-4638-9296-07686406755c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a20cb5fb-3521-4304-bdac-7b8d8578814a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b9d6d54-1a31-4551-84d8-4d38e4472365)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3177bf29-c6e5-4923-984d-32d4daa402f0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/afec4b06-c846-40e4-a828-dcc335784ed8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/faaf7d9c-42a7-49db-ba8c-64deb54e3f87)
+
+* 2001.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc4686dd-3504-427e-93ec-8280a36b6c6b)
+
+* 2011.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/75739114-2d3b-498d-b22c-09e69da5e6d9)
+
+* Option **A**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/11f37a37-bcda-4373-bdd2-fb01cf6602a7)
+
+* HW.
+* Link -> https://gateoverflow.in/39616/gate-cse-2016-set-1-question-ga06
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd5f6c6b-36ba-451e-b6dc-21063fb77a8f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eee6ba4d-e948-455d-9923-104ebcd66438)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/42de5f40-a507-4723-b484-b90fe01b57dc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58f841db-200b-407a-87b5-d88c681413d6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e7fa5a76-3f32-4bc5-be67-8c14ca8c6ba2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0e16be8-9390-435c-b979-45ea69570bf0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3bc23261-ca01-4d7b-ada2-9462f054019a)
+
+* Practice [**IMPORTANT**]
+
+
 
 
 
