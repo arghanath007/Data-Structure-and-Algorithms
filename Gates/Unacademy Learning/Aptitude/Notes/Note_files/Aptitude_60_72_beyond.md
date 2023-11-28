@@ -5,7 +5,7 @@
 * Amount(A) = P + I
 * Principle(P)
 * Interest(I)
-* rate of interst(I)
+* rate of interest(I)
 
 1) Simple Interest(SI)
 2) Compound Interest(CI)
