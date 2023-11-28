@@ -2208,6 +2208,127 @@ Option **D**.
 
 * Practice [**IMPORTANT**]
 
+## SI and CI
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/435e04c1-e9ac-4ec0-abcb-161aea401fd3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/023fbca4-deb0-4674-b7e6-8ca52813571b)
+
+* Amount(A) = P + I
+* Principle(P)
+* rate of interest(I)
+
+1) Simple Interest(SI)
+2) Compound Interest(CI)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16986233-b950-4693-98ff-5e6abd900a7e)
+
+* SI = (P * R * T)/100.
+* Time(T or n) 
+* PA -> pr annum.
+* Formula [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1fcaad84-77f7-43f6-b82a-c810194dc66c)
+
+* SI and CI
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/600f332f-da31-4d71-9514-dfbc9372cbd9)
+
+* CI.
+* Formula [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/145d30ad-f826-4dda-bcb0-ca15c0a0ecb4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b1dcb328-b7c4-41a1-976a-69f0a4e82e2e)
+
+* [**IMPORTANT**]
+* Paisa double.
+* Bank -> SI
+* Population/Precious Metal/ Money -> CI.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a0b8ab0b-6489-472c-9188-7347d68a7546)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d9a736a7-aaf7-46e6-b971-6a0f09c26750)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d1f5332-7d68-4dd9-9d00-a3b85a479506)
+
+* 2nd part.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9328ccf4-e020-4ca1-80a6-1a63b1912eac)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/511286d1-9b71-4194-9a18-63d7d76edf70)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/511286d1-9b71-4194-9a18-63d7d76edf70)
+
+* When finding the **year/time(n)** then we will use the **log**.
+* When finding the **rate of interest(r)** then we will use the **squaring/cubic** or any higher power depending on what the **year/time(n)** it is given for.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c11272a7-1c5a-4f54-8d80-0ed48182bd6a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/904c0bd0-6f05-4ed4-8b7c-cb23a13c4919)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc164265-44b3-40cb-8142-9758a53fd54d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea9c26b4-ea40-4835-8d20-6ae16e9ce648)
+
+* Calculating **squares** of numbers easily.
+* Cube Root of **3** -> 1.44
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6403088e-33c3-4279-b326-df67c987e9cf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6f82a2a-6af6-4624-8ada-dc6338d6c209)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b08113f4-b418-4e61-b95f-160a6624d7d9)
+
+* For **CI**.
+* Rate of interest for **CI** would be **18%**.
+* 1 Lakh -> 100,000.
+* 2 Lakh -> 200,000.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5d2129a-bca6-4a0c-854d-7f5694ccc012)
+
+* Whenever **population** -> CI.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fed918bd-0f25-4a10-84ef-8789fc995346)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e99d8d8-7a9a-4046-a9f5-a84dc1b31299)
+
+* Whatever is the **per thing**. According to that we will write the **unit** of the **answer**.
+* per annum -> year
+* per day -> days
+* per hour -> hours
+* per min -> mins
+* 1 Million -> 10,00,000
+* 5 Million -> 50,00,000
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/23e058fa-e159-4445-ae5f-39905a4d136d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac878850-578a-4bfb-ab99-59d638ed1be3)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0555191a-ef2a-400c-b5c1-3d21059fef5b)
+
+* [**IMPORTANT**]
+* r -> Rate of interest
+* n -> Time/years.
+* Annually -> r, n
+* Semi-annually -> r/2, 2n
+* Quarterly -> r/4, 4n.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff5cc7e1-c06e-4e1a-ae7b-6afd0c1649a0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9a4f196c-b396-4021-b9dd-7339065f19a8)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/77ef46f2-57f0-428c-8eb1-828dec9a7e7f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fde6b485-6be7-4475-ad2e-a54eb27ff2eb)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f1e8926-23e0-402c-9e66-f0f40f1626e5)
+
+### Summary
+
+1) A = P + I
+2) Paisa double/triple/four time meaning
+3) Annually, semi-annually, quarterly
+
+
 
 
 
