@@ -2735,16 +2735,18 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e826e69-03b7-47af-bbf7-822bd53cba9c)
 
+* Option **C**.
+
 * **NOTES**:-
 
-1) If nothing mentionded then take the **cost price of milk** as **1**.
+1) If nothing mentioned then take the **cost price of milk** as **1**.
 2) Water is present in **abundance** and hence it is **free**. If **price of water** is given then we will take the **price of water**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6f718ef-c80e-4348-99c1-d9b9dae163e0)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f593c4d-164d-4f4c-a81c-374fe433906a)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32f26c8d-5154-44dc-a0d4-44a2e78fe115)
 
-* [**IMPORTANT**].
+* Formula [**IMPORTANT**].
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1da59261-9797-4ccf-a03c-0a1102f0a487)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a03d435a-7b79-4a02-988b-94a142e97f27)
@@ -2760,6 +2762,9 @@
 
 * [**IMPORTANT**]
 * Formula -> X * ((1 - (y/x)) ^ n)
+* X -> Total Amount
+* y -> Replaced amount
+* n -> No. of times/Count.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/54c0d593-1480-42bf-89d2-89b4eaa7598c)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0e113a8-ed2c-430d-90c1-1b737804ee17)
@@ -2799,11 +2804,11 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/afec4b06-c846-40e4-a828-dcc335784ed8)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/faaf7d9c-42a7-49db-ba8c-64deb54e3f87)
 
-* 2001.
+* This is for the year of **2001**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc4686dd-3504-427e-93ec-8280a36b6c6b)
 
-* 2011.
+* This is for the year of **2011**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/75739114-2d3b-498d-b22c-09e69da5e6d9)
 
