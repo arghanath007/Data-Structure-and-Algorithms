@@ -4,7 +4,6 @@
 
 * Amount(A) = P + I
 * Principle(P)
-* Interest(I)
 * rate of interest(I)
 
 1) Simple Interest(SI)
@@ -21,10 +20,14 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea6deb7f-fe2d-4235-b261-db82dcac5032)
 
-* Qustion.
+* Question.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd8fbda9-7963-48b7-a51f-91044e1d39f1)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1fcaad84-77f7-43f6-b82a-c810194dc66c)
+
+* SI and CI
+* Formula [**IMPORTANT**]
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/600f332f-da31-4d71-9514-dfbc9372cbd9)
 
 * CI.
@@ -40,7 +43,7 @@
 * [**IMPORTANT**]
 * Paisa double.
 * Bank -> SI
-* opulation/Prcious Metal/ Mony -> CI.
+* Population/Precious Metal/ Money -> CI.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30ac947e-c7e4-4f31-a6d6-2dbc4e2199e0)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a0b8ab0b-6489-472c-9188-7347d68a7546)
@@ -56,7 +59,15 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/904c0bd0-6f05-4ed4-8b7c-cb23a13c4919)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc164265-44b3-40cb-8142-9758a53fd54d)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea9c26b4-ea40-4835-8d20-6ae16e9ce648)
+
+* Calculating **squares** of numbers easily.
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/511286d1-9b71-4194-9a18-63d7d76edf70)
+
+* When finding the **year/time(n)** then we will use the **log**.
+* When finding the **rate of interest(r)** then we will use the **squaring/cubic** or any higher power depending on what the **year/time(n)** it is given for.
+* [**IMPORTANT**]
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c11272a7-1c5a-4f54-8d80-0ed48182bd6a)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f073e1e0-15e4-4244-82e2-3ab4cd7bbe2f)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/78200f4a-bf0c-4b02-b328-6a2670185878)
@@ -79,6 +90,7 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b08113f4-b418-4e61-b95f-160a6624d7d9)
 
 * For **CI**.
+* Rate of interest for **CI** would be **18%**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/13debcbf-57d8-4077-93e0-edd1978e58bf)
 
@@ -98,7 +110,7 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e99d8d8-7a9a-4046-a9f5-a84dc1b31299)
 
-* Whatevre is the **per thing**. According to that we will write the **unit** of the **answer**.
+* Whatever is the **per thing**. According to that we will write the **unit** of the **answer**.
 * per annum -> year
 * per day -> days
 * per hour -> hours
@@ -121,6 +133,9 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2818e04-4ec6-4198-88e6-eb29a0954eef)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac878850-578a-4bfb-ab99-59d638ed1be3)
+
+* Option **B**.
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0555191a-ef2a-400c-b5c1-3d21059fef5b)
 
 * [**IMPORTANT**]
@@ -133,6 +148,9 @@
 * Question.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9a4f196c-b396-4021-b9dd-7339065f19a8)
+
+* [**IMPORTANT**]
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff5cc7e1-c06e-4e1a-ae7b-6afd0c1649a0)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/61d8ab6d-74af-4a57-981d-c36d50d2d728)
 
@@ -150,7 +168,7 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/edd2d7e9-c90e-4668-8dee-2bedae8cbb11)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f1e8926-23e0-402c-9e66-f0f40f1626e5)
 
-### Sumary
+### Summary
 
 1) A = P + I
 2) Paisa double/triple/four time meaning
@@ -180,8 +198,10 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2352c20c-1f7e-4499-af8c-7383e7e9e41a)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/223e7058-fc96-44c4-ab9b-e609b04016d0)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e2dedb97-ded1-4258-9f03-8a567b0d9885)
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff6fbdb0-08bf4ae5-81a5-2e3a9c48a879)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/52bb6971-83b1-47da-b381-423372e4c08f)
+
+* Option **B**.
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b7b88629-7d3f-4304-a9f9-bc802fffef8a)
 
 * Question.
@@ -191,6 +211,9 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f4ea216d-cc55-4136-a859-b0551516bef6)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24d01439-e65e-412e-a518-347e33dc7634)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6aa819e1-7ca0-417f-bbd1-2ebef82992f2)
+
+* Option **D**.
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fdfde64b-8a6e-4d96-9750-823b676c7abb)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f341bfd-7894-4350-aac4-b68cf4949658)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16e0aa20-2be4-42ff-a8a3-19924d6c00a8)
@@ -205,7 +228,8 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/07002355-531a-471e-b317-8bf8247151ae)
 
 * South
-* Average -> (20.4+30.6+45.9+35.8)/4 -> 33.175 -> 33
+* Average -> (20.4+30.6+45.9+35.8)/4 -> 132.7/4 -> 33.175 -> 33
+* Option **A**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09a99757-9214-49f2-8fea-1ece9728f57e)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/998e7fca-a840-43f3-9422-72cb8c88d574)
@@ -215,21 +239,30 @@
 * Yes.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95460a8f-6b79-4ed7-a306-c6f29bc6d38e)
+
+* Could be useful.
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f4ab53ea-58ec-4ab2-841d-df1c235e70b2)
+
+* Different Question.
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe60016d-b26a-45f2-9022-ebfaf40eb242)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b5ce979-0bc2-4d62-9509-07423c9459f6)
 
 * Question
+* Option **D**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0cb9c667-20ea-470c-81e1-b5d67df5526f)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a74c299-52db-47a5-916d-50c51a5d5193)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/779cd86a-1d31-46fc-bb50-30e9a8cbbd3a)
 
-* Question.
+* Question. 
+* [**IMPORTANT**]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/64fefba2-5030-4238-9feb-6fd02369ff94)
 
 * [**IMPORTANT**]
+* Option **D**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/49977f02-ece2-4834-91e6-2bdf2b2da9b2)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/194fbc47-25c2-484d-a443-01ea4fe65ce3)
@@ -249,12 +282,12 @@
 * Question.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/adb4766f-3915-4444-b9af-67aa9b5a036f)
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19ad129f-13e6-49fe9ebe-781208fe6c89)
 
 * CP -> (35/100) * 11500 -> 4025
 * SP -> (40/100)* 16000 -> 6400
 * Profit -> SP - CP -> 6400 - 4025 -> 2375
 * Profit % -> (2375/4025) * 100 -> 59%.
+* Option **C**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/315cf259-fb36-4182-9a69-6cdeab8d1a5a)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/56aa2cbd-f6bc-40a5-a89b-48dfc3a50309)
@@ -268,6 +301,7 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b465c99-81ed-4181-9b5f-ad9004693b69)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/622aa91c-b79f-4f47-8f02-30ab486258b7)
 
+* Option **B**.
 * [**IMPORTANT**]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/01afe84a-5c4d-47b0-b831-d7d00f5711dc)
@@ -277,6 +311,9 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8506650f-d80e-4fe5-b8d6-d8212f558f3a)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a90c3923-40fd-4688-90ca-acc8c3f83559)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe3433d6-3a68-42c1-b063-717d1e79b5aa)
+
+* Option **C**.
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/73266fea-2b70-42e4-a486-f9d457ccce97)
 
 * Question
