@@ -8,6 +8,7 @@
 * Look at **PDF 18 and 19** again. [**IMPORTANT**]
 * Look at **PDF 41**. [**IMPORTANT**]
 * Remember/Practice the **Time, Speed and Distance** formulas and questions.
+* Look at **PDF 53** Questions.
 
 ## Questions
 
@@ -1704,13 +1705,389 @@
 
 * [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/847556da-2b1f-43a9-a938-d28a111f788c)
 
+* Option **C**
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd11f057-bdf6-4bd8-94ee-bac3dd7c4705)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d60c3de3-1030-45eb-b377-1c1f79782f82)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4312dd82-b967-4d78-8298-80b731f68420)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b8d9082-0c6f-4904-ab34-374003c92b33)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3143e00a-d373-478c-ba93-9e82a6d9fc35)
 
+* Option **A**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0710198-b3af-4807-a1af-a581a5358672)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/02240c07-4652-49a7-b911-8d27cba2313c)
 
+* 10% more = 1.1
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/768943e3-c880-4585-a846-7ea94af5a53f)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2d0bc941-0ccd-4228-a549-784cf1a62039)
+
+* Option **D**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2943df20-3d65-4899-b17a-6994c035dc79)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4acd13d2-265e-4c76-a2e5-d5eed537f6e7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8504b4a1-da56-4e4a-b843-7952497694fb)
+
+* MP or MRP -> Marked Price or Maximum Retail Price or Original Price Or catalogue Price Or List Price.
+* **Discount %** is always on **marked price(MP)** unless mentioned otherwise.
+* **Discount %** is also called as **commission %**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c4cae08-e996-4339-999e-a21f88ccc51d)
+
+* CP -> Cost Price.
+* **Profit/lost %** is found out with respect to the **Cost Price(CP)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f99528c2-5401-416c-b710-ed514662a6b0)
+
+* Formula [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/73a0b572-6c9e-4e4f-88d3-e480990d495e)
+
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db5dc216-16b6-4758-824b-0456cbf40dfb)
+
+* Option **B**
+* Procedural -> relating to an established or official way of doing something
+* Circumstantial -> Decision Making ability.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71548336-ebe8-445a-afbe-0be38732d49b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f4c0187-bdc2-4c8e-81b9-e3e698bd1cb9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cbd2dab4-2865-4f1f-9ae8-92051ddc06e5)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/74afd9a7-47a7-46ba-b643-db18085d3204)
+
+* Option **B**.
+* Poignant -> Regret.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9886d2ba-7104-4922-a7a3-b16be9495e56)
+
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/febff94a-fddf-4fbb-a55f-7c5ef26d0c2e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98e6496b-58b5-47bb-9193-63d065eb20ce)
+
+* Link -> https://ee.gateoverflow.in/1486/gate-electrical-2020-ga-question-7
+* Option **C**.
+* Do the **letters** individually. First letter of **first word** is lined with the **first letter** of the **second word** and so on.
+* Second letter of **second word** is lined with the **first letter** of the **third word** and so on.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7261527c-5dcf-4b76-9885-04e7467667ee)
+
+* Question
+* Option **B**.
+
+* Coup -> Sudden change in government
+* Coupe -> Train's compartment
+* Plummet -> fall or drop straight down at high speed
+* Nosedive -> a steep downward plunge by an aircraft
+* Plunge -> jump or dive quickly and energetically (**OR**) push or thrust quickly
+* Poised -> In the balance -> having a composed and self-assured manner.
+* Confusion -> uncertainty about what is happening, intended, or required
+* Catch-22 -> Situation in which one cannot avoid a problem because of contradictory constraints
+* Perplex -> make (someone) feel completely baffled
+* Quizzical -> (of a person's expression or behaviour) indicating mild or amused puzzlement
+* Convoluted -> (especially of an argument, story, or sentence) extremely complex and difficult to follow
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7ad3974-30bf-4057-8c8a-98b4f274d366)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe8e07c7-9522-4f6b-8ad0-00401511941a)
+
+* Option **D**.
+* Pristine -> in its original condition; unspoilt -> pristine condition.
+* Cogent -> Clarity.
+* Cog -> A word about Knowledge.
+* Cognitive Decline
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71590bd6-77e1-4604-88ae-4d1feaa168e4)
+
+* Option **A**.
+* Course -> Track.
+* Coarse -> Rough
+* Beside -> Next/ Adjacent
+* Besides -> Except
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b7df90a-0547-4e6c-bb45-ac19bb88f6ae)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ca5023f9-2e48-466b-badb-1262135340d7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c79320d0-cc08-467d-98f2-2dd3aab0266d)
+
+* Option **C**, (II) and (IV) only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c00868d1-09d9-478f-b4b4-c19345fbbc89)
+
+* Question
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/28b59478-3a3c-401c-959a-21721b44d303)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/28b59478-3a3c-401c-959a-21721b44d303)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f169cbd-4b51-4e00-832d-09fd1daee278)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32aa56f1-6ca3-43c8-b601-085c8e19c3fb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd75d145-30c3-43df-99a0-33569c240103)
+
+* Option **A**.
+* Link -> https://gateoverflow.in/39536/gate-cse-2016-set-2-question-ga-06
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c419609-65c1-4f82-a856-f33a0b0b8dd0)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce352695-b857-4df2-9a77-4614110b791a)
+
+* Apparel -> Sunday Special -> Clothing -> Cloths.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ccda09f-a34f-4908-9533-5e0ee4fa6a4c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ecaa3e9-2bca-4013-bae5-4c9d3ab8e2ff)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f692a5ee-7a6c-4444-8a30-0c55e22a620e)
+
+* Link -> https://gateoverflow.in/313382/gate2018-ce-2-ga-10
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b2ae7ac5-f6bd-449b-bbe7-f4050af7669d)
+
+* Try to match with the **options**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6453b81-6e31-4252-8b69-a972b03c496d)
+
+* MP -> Marked Price/Catalouge Price/Max Retail Price/List Price/Original Price
+* D% -> Discount percentage(%)
+* C% -> Commission percentage(%)
+* D% or C% -> Discount or Commission percentage(%)
+* SP -> Selling Price
+* P/L% -> Profit or Lost percentage(%)
+* P% -> Profit percentage(%)
+* L% -> Lost percentage(%)
+* CP -> Cost Price
+* **Profit and Loss**.
+
+## NOTE:-
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/01651e91-3395-44f4-8df7-750650a45b9d)
+
+* %change = ((FV - IV)/ IV) * 100%
+* %Profit = %Gain = ((SP - CP)/CP) * 100%
+* %loss = ((CP - SP)/CP) * 100%
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bec628f6-d0a9-46b8-872e-28a5ce14db4d)
+
+* Profit Margin% = Margin% = ((SP - CP)/ SP) * 100%
+* **Profit or Loss** is found in accordance to **CP**.
+* **Profit Margin or Margin %** is found in accordance to **SP**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af0d3d90-d923-4c12-ad91-86c4bd66f6b3)
+
+* Sales or Revenue -> SP
+* Expenditure -> Cost
+* Formula [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf09c583-08e7-4c02-8d8e-016eefbbd83d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0cd415f1-7831-43c0-a30b-95228d90009c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0ddc2e1-b51f-4add-9dbb-20cf6e255d4d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44e591e6-68bc-4779-a2e6-edfb8bb972f0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/446a6f11-28eb-48db-9d3b-5c47014a01f3)
+
+* We can write the **sequence of discounts** together.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d244229b-41a7-4c89-97af-2bcfbb1e5f27)
+
+* **684** is the **final value(FV)**.
+* **1000** is the **initial value(IV)**.
+* Substract **684** from **1000** to get the **equivalent discount**.
+* Have to use the **((FV - IV)/IV) * 100%**.
+* FV = 68.4
+* IV = 100
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7bf3fe2-c159-40bb-afae-2fc708afc1ef)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc5c2edc-8b3a-4811-878a-ee8ae57b8429)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dbfa0a80-1755-48b3-a526-25d2593cb4ad)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/442739c4-5fd9-4d21-b5ea-61876cbd532f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36deb0db-25fc-40e7-af68-201d2468c2a5)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba207d67-36a0-428c-9721-aa6d4b1d40fd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b27614f0-61d3-4ba7-8b3b-ef66f13f08b4)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aff2b002-0885-418b-af39-946df03ed4f2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b163e755-5f7c-4f10-8d67-018fdba8ab58)
+
+* Option **C**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a823e2b-652e-47dd-a0c4-a46cb8987c40)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d69c8e0c-6695-4930-81a0-ab5a834996e9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab469e38-7d70-4bd8-bc1b-2d7079b408f4)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50321258-ffad-4cc8-b732-f225f15ecd8b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cdad8cc9-99cb-473e-a5bc-f187063f7544)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff75b226-842e-40c7-a896-962c985a6dd3)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/77c62098-675c-4f1f-a862-aec1c79fb295)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe20c253-06b9-45fa-adde-556f8b2c8188)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/73f2e12e-1657-4b07-86a8-5f5e8fed6d45)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/041d47e4-6e36-4a4a-8c9c-726c0961b01d)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/630b8639-fe32-4403-ac3c-611db801eabf)
+
+* Option **E**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6cf76ede-ef30-4423-a42c-233226a0de9b)
+
+Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf6299a7-ee88-4d6f-af05-bf2fe821b47d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76001877-7739-45d5-9ddc-bb87a1e81610)
+
+* Discount is **20%**. Even after the discount of 20%, the shopkeeper made a profit of **25%**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4605387c-e14e-496c-9bfc-30d865962607)
+
+* The markup was **56.25%**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e204f5b1-70be-4caf-9a2b-82c208db0db1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3d71ae5-5770-4ccf-97ae-e3c342811bd7)
+
+* We are using **selling price(SP)** as the **junction**.
+* **46.67%** markup in price.
+* After finding the **x and y** relation, we are multiplying the value we got in the **x and y** relation to get the **Markup price(MP)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/42548256-6bde-4de5-b95f-4cbe6d6c1c60)
+
+* We are getting **20% * 25% -> 1.2 * 1.25 -> 1.5**.
+* So the formula **((FV - IV)/IV) * 100% -> ((1.5 - 1) / 1) * 100 -> 50%.
+* We are getting the **Marked up(MP)** price.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5c6891cb-959d-4a6f-9f04-a0478a7d6a10)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4af9f6d0-81f4-4151-a92c-618454f867aa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0e56f05-2f01-4429-b101-066c58c7f217)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16e1b88f-3b8e-43e4-8192-af1ea0b3ab23)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9c06fbbd-31fd-412c-884a-e8cfddcd154e)
+
+* Cross verify.
+* Checking if the **CP** we got is **correct or not**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e6e69cbe-08c4-48c5-b7dd-7da6d6483b9e)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dae631f7-f70f-4ae2-b838-7f1ddbb8272e)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fbd22fd1-2176-4b4c-9e06-2fd44194d8d7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69832cf1-0b44-4849-93aa-7fff28353363)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9dc89342-de3b-4efd-9664-dfa55858c5a7)
+
+* Numbers in the **graphs** are given in **3 ways** usually.
+
+1) Absolute Number
+2) Ratio/%
+3) Average
+
+* YOY -> Yeah On Year
+
+* Numbers in the **graphs** are given in **3 ways** usually.
+
+1) Absolute Number
+2) Ratio/%
+3) Average
+
+* YOY -> Yeah On Year
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac48b30c-f59a-4e78-bcd4-bb2b8be355dd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4bf3f406-de95-452a-ac9a-b1999b79cc9b)
+
+* In 1996, what was the percentage increment?
+
+> Automatically it means that with respect to **previous year**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44fdc287-dd63-45b0-862d-1c0618370647)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5df2f1b7-4f59-4996-b5ac-bdf07ec63730)
+
+* For Year 1999.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/296c89fb-c5d5-4c0f-912f-66881db627db)
+
+* For Year 1996
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f48503e-f993-409e-965c-3e6cf57a47aa)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac2a5400-edf3-4cea-b65b-61b62be43b9e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41f9c354-775e-4072-84ac-6826d619b937)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b9e38719-7816-48ac-aee8-76ff71d0d8d3)
+
+* Let us suppose that in both the **exports(E)** is **constant**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9dd2d076-65d8-4a3a-bf28-e53571cd0d49)
+
+* IV = 0.85
+* FV = 0.35
+* ((FV - IV) / IV) * 100 -> 0.35-0.85/0.85 * 100 -> 58.82% down. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92178aee-538d-41d3-b1ab-71f058aa2381)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a90ce58c-c158-4f2f-8d98-358bc623f1b6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3bfc5fb5-6493-42c8-88ba-c875bf8106ef)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea6c0428-388d-48c6-a3b6-867d99cf363d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a81b8199-242e-4b4b-88e2-87c3d2ff2245)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3df840d1-a599-4a0a-a9f8-77cb05e5adf7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bd091170-e48c-42c0-920f-2e8237c310e2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f96574d-d93e-4d49-a364-30abbff57d19)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a57d63eb-632f-44e7-9a41-4dd62326d4a6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7438b465-39d6-48ed-8434-00cb8a6791f9)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4605c194-d1bc-4c4f-aed3-b8ced7ff4ffa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7087ecbb-06d1-4287-ad64-434e773f64ef)
+
+* The **binder charge** which is **10%** of the cost is **6000** so **10% = 6000**. It is given in the **question** check below.
+* 20% = 12000
+* 30% = 18000
+* So no and calculate the **rest** accordingly.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c810c11-4d0d-464e-8b2b-e692d7e1d853)
+
+* Option **B**.
 
 
 
