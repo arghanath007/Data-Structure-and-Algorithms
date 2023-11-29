@@ -365,13 +365,18 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5fa57c0-c116-43f2-99a0-3269a1ea5127)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3885876-8a70-4fb9-be9c-670bec7668e8)
 
+* Formula [**IMPORTANT**]
 * Rule 1
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b3cec240-7e4d-4303-8020-0bd2889d6aa5)
+
+* Formula [**IMPORTANT**]
+* Rule 2
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8be5e86-ba38-4a5b-a5f9-f9ad59e5b56d)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d511866e-fd17-44d5-a5c2-c9600e011603)
 
-* Rule 2
+* Log with Base 10.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b883a55f-4e6d-4ace-8e83-514edaad80a8)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9de04df1-c7f0-4ea3-b801-a0e79ba9acc6)
@@ -382,49 +387,84 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/022d6eed-4ae8-4e5b-a02a-82faa856a33d)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85235807-53a5-4ff7-86d2-7c4bcd5d0005)
 
+* Formula [**IMPORTANT**]
 * Rule 3.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b11e44b0-f547-417b-81ae-9c20e158666d)
+
+* Example
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a378f3cd-afef-4ab7-beeb-a89d67e501cf)
 
+* Formula [**IMPORTANT**]
 * Rule 4.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f07c43d0-862e-43a7-a04b-363d4fb18d08)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/52be5cbf-bb33-464e-9ff9-216abf299ba5)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b1d1cf37-bda1-4d34-895e-9f4167ce4359)
+
+* Examples
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f508b3e7-07e2-42c1-ab20-b65161f6a88b)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/278373ff-f5f9-4858-a740-e4463940532e)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cdc62d2d-610f-4c39-a4f7-93ae71cdd3be)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1a07e6c-fcb7-4869-b1d9-108a615b57ca)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c90a0709-408b-4951-bf3f-b4cdde5f47a4)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98093b0c-9a22-409c-9084-dfb2b8b3d112)
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95fcdee5-de6d-4c68-9264-9bd117194cdd)
+
+* Example
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3199e93a-9305-431e-b45d-5728c444364a)
 
 * [**IMPORTANT**]
 
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0dd112f7-4779-4466-bed4-e7fb6ccb1cd3)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ddc78a38-b4b5-4f92-a357-b7ce565f6c02)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/40bc53b4-bc8c-474b-b9ae-1d6d8e8e2477)
+
+* Examples
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c127ca3-d5cf-476e-8f43-5862b8f57741)
 
 * [**IMPORTANT**]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1676b29d-86cf-4356-a893-fd41c6b06f66)
+
+* [**IMPORTANT**]
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/abd99929-9778-4891-87e3-4b1e482d31f5)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7dfecd95-9e90-4de6-b14a-79865444b99e)
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f9549ffc-8035-4c98-920c-8bbc10b6dedf)
+
+* Example
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1da6f710-5891-4570-8b33-8d8d2ff6f089)
 
 * Log 1 = 0 [Regardless of **any base**]
+* [**IMPORTANT**]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/03968523-c07c-482c-a6fc-d36c01184b86)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f403d028-588f-4bef-b312-4e43bd6108cd)
+
+* Tan 45 = 1
+* log 1 base 10 = 0
+* [**IMPORTANT**]
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a7236388-aecb-4adc-8ef0-e424b895f196)
+
+* tan 89 -> tan (90 - 1) = cot 1
+* tan (90 - theta) = cot theta
+* [**IMPORTANT**]
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e2cc202b-3616-4392-aa7e-d0a458555a79)
 
+* This is using the **same** above concept where from **tan 1 to tan 89** and in-between **log(tan 45)** comes and we know **tan 45 = 1** so **log 1 = 0**.
+* They used the **log m + log n = log(m * n)** logic.
+* They have converted the **addition** of all the **log values** to **multiplication**.
+* Link -> https://gateoverflow.in/39522/gate2015-ec-3-ga-9
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/8C4AFAA66C
+* tan 1 = tan(90 - 89) = cot 89.
+* tan 1 = cot 89.
+* cot 89 = 1/tan 89
 * [**IMPORTANT**]
-* Doubt.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/28fd76d1-bea7-4473-838d-08ad286c6b33)
 
@@ -436,18 +476,26 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41d3b9a7-596e-404c-aa7a-0bdd008aaa26)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bda4a867-4179-4dbb-a451-27eeb5b75c10)
+
+* [**IMPORTANT**]
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf7bdc02-3f70-459b-82fe-b859eaf73fef)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a858b1ee-6b40-47c6-a17d-d7e97f2d1252)
 
+* Formula [**IMPORTANT**]
 * Rule 5.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a96eae1c-6765-4833-8214-f9b2e71861c8)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d887f78-d1da-4b06-b0d6-e8b978514db9)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/02e00838-a5c3-468e-a712-bd6ab61b5997)
+
+* Examples
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ae4818e-8add-4e0f-a0b4-686de32c5728)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95401826-7323-4d3d-966a-3a8a3d709bcd)
 
 * 8 ^ (log (cube(121,1/3) base 2) + 1/3) [Whole Power]
+* [**IMPORTANT**]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd7e975a-c9ac-465e-a724-10987223cb89)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f1b8d6ec-8397-41d6-82f4-56ccdd4262bb)
@@ -460,8 +508,15 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3efc09b7-5159-49c4-aded-b2a9826caa51)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2905479a-488f-44b8-be97-864369c26f3d)
+
+* Addition is **890**.
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d68a823a-8634-44b9-b4cf-4a408e1c52e4)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6434244-7baf-46ac-93f5-de894de7136a)
+
+* Question.
+* Solution Above.
+* Answer -> 890.
 
 ## Antilog
 
@@ -477,11 +532,29 @@
 * **X and Y** are **integers**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c62b8bfc-f56c-4eeb-b50f-79947036d60e)
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b27f2044-a01e-4bba-9589-51fbad6a5b05)
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc850bab-ffa5-45e5-a599-2721fd90f96f)
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab63c927-27da-4ef1-af4f-ae22304da444)
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3aeddc59-bcab-40d4-9741-9bb15d7d9221)
 
+* Integers
+* Example
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b27f2044-a01e-4bba-9589-51fbad6a5b05)
+
+* Example
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc850bab-ffa5-45e5-a599-2721fd90f96f)
+
+* They are **positive integers**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab63c927-27da-4ef1-af4f-ae22304da444)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e7de70e-d8f3-48eb-94f9-00255b4147d8)
+
+* Option **A**.
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/66596DD9F2
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3aeddc59-bcab-40d4-9741-9bb15d7d9221)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/200500db-eb8c-4f26-ae8b-8b726468e4e9)
+
+* Link -> https://gateoverflow.in/313648/gate2018-me-1-ga-6
+* Option **A**.
 * HW.
 
 ## percentage-and-di-part-ix (63) [13th Aug 2023]
@@ -526,7 +599,9 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/876913f1-91d2-4bb3-b105-c05dfa9400bc)
 
-* Blood Relations
+* Drawing to do the **Blood Relation** questions.
+* We are assuming **negative sign(-)** to represent **female/girl/mother/sister**.
+* We are assuming **positive sign(+)** to represent **male/boy/father/bother**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a76b2570-8af4-4efd-8eaa-f9647e51a1b8)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6f6ee0d-e63c-4a4b-a4d3-b8f39f4f001d)
@@ -578,10 +653,16 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b94e2eff-2fa1-4d7e-8c20-9c3edbfbe888)
 
 * Question.
+* [**IMPORTANT**]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff55d943-ab47-4442-bfc3-c9f2d93ea767)
+
+> From the two equations given below we have to find the value of **x and y** Then compare the values of **x and y** with each other. Find out which of the **options** are matching with the **comparisons** we did, matching is the **correct option**.
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36dc493a-64e6-4f24-a796-3c787cbb0d14)
 
+* Comparing the values of **x and y** and checking which **option** is matching.
+* Option **A**.
 * [**IMPORTANT**]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/88e2ab8a-906c-446e-8e81-00b740b7b2f5)
@@ -589,14 +670,25 @@
 * Question.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3248a9a1-73e0-43a2-87fc-062de7ea8878)
+
+* This is done **same** as the **above** question.
+* Option **B**.
+* Sir mistakenly ticked **option A**. We can clearly see from the **workings** that **x< y** which is **X < Y** which is **option B** only.
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ca0a50d-7848-4c84-9847-fc6a91860154)
 
 * Question.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cfa2265b-3cf8-45ae-8b82-5d4beb6a4d39)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a22625e-e782-4288-bf57-e93625f8f8f2)
+
+* Option **A**.
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e90fe3fb-2d73-4985-9174-bf5ed74e07a5)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69dc1e53-3ee1-41ba-8b48-9d9821425618)
+
+* Option **E**.
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a2963d3-ff9b-448b-b1e2-f0f730945193)
 
 * Question.
@@ -615,8 +707,14 @@
 * We have to find **R**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/908ae27b-aa11-4be7-8407-b8ce09c373b9)
+
+* Option **D**.
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa9db07c-5e1b-4b0c-9e63-41c5132d328b)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9566c380-2516-43da-9f8e-2d99dea89384)
+
+* We have to start solving them from **left to right** side.
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d2e20e4e-b2ab-48bf-845a-3ea640702cb9)
 
 * Question.
@@ -664,12 +762,21 @@
 * Option **D**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09e6d8c4-f406-4db9-952b-91c951b8601f)
+
+* Plus
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b07c6cf4-f52c-4e25-ad69-af4781a3db1c)
+
+* Ball
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe03a259-5d66-4f81-b1b5-ec9cdb3ad198)
 
 * [**IMPORTANT**]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a671722-5822-42ba-b2f2-6ebf60cbc184)
+
+* Formula [**IMPORTANT**]
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b87464e2-c4d8-496a-9d30-ad10522a57d0)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/48b9fd31-0c0f-4efe-9879-8ba0c36d7915)
 
@@ -712,6 +819,7 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6c9cf9f-62dc-4cd4-b8af-2d21aad91c6e)
 
 * Colinear -> Points lying on the same line.
+* 3 or more points are said to be colinear if they lie on the same line.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/415b6c1a-a23c-4aa4-a674-c954605810ab)
 
@@ -725,13 +833,28 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c155b4f-fdfb-472a-9ca5-a415e5a0413e)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ffd96a9-ec2c-4987-bef2-9fc225405098)
+
+* Point of Intersection(POI). 
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e355db8-c1af-4770-8edd-6e91150893ef)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/14850a4f-66ac-4245-b205-30c2cf260110)
 
+* **Acute Angle** -> **less** than 90 degree.
+* **Right Angle** -> **equal to** 90 degree.
+* **Obtuse Angle** -> **Greater** than 90 degree.
 * Height -> Altitude [90 degree line]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7407054d-68b5-49ef-b63c-bc680346a781)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09e7d95b-81ca-4b50-94da-dd590454b247)
+
+* Area Of a Triangle.
+* Area = (1/2) * base(BC) * height(AD).
+* Formula [**IMPORTANT**]
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/11d66f8f-c9eb-455d-8d02-aee1950f0e9d)
+
+* Different Triangles.
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/13a2eaf4-34c1-40d3-ab81-6f3c2bd358f8)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d646fcf5-1062-498d-83be-be8df78ab40c)
 
@@ -750,6 +873,7 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe45b281-44fc-4861-88e0-c2826bdb0d96)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb06e956-e65f-40f1-a697-e1a8d784a85c)
 
+* Vertically opposite angles are **always equal**. 
 * Vertically opposite angles.
 * **Q1** is always **equal** to **Q3**. 
 * **Q2** is always **equal** to **Q4**.
@@ -771,11 +895,10 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/972e8309-8611-4acb-b04b-6f6c95049499)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/47faaa29-72a6-4a8f-8ba6-c43eb89f33be)
-
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/46123174-af2f-471f-b6ee-beb9ba047ede)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d30b6c5-5616-49ad-8df2-5e47b4a13975)
 
-*Cut
+* Cut
 * Bisect -> Intersect
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/00015203-db6e-4cce-a571-79499214a8a9)
@@ -794,6 +917,10 @@
 * Question.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6643a778-6c9b-4ce9-9ab8-d4e471b36ae4)
+
+* Example
+* [**IMPORTANT**]
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/15a5eebe-0c92-4f5e-b4e7-d76f7040dc6f)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/07bf6b40-9442-4bde-a979-264b208f265e)
 
@@ -803,6 +930,13 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5643717f-c400-4333-9ba4-010f8a907057)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b38a469-a694-4062-9819-8410ab9213b1)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ddc1f01-61a8-4377-9779-f9b49f56bd9b)
+
+* Sum if infinite terms in **GP series**.
+* Formula [**IMPORTANT**]
+* **a** is the first term
+* **r** is the common ratio
+* **n** is the number of the term which we want to find.
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fefe30b5-4534-4212-97a4-7c561db9d018)
 
 * Infinite GP formula [**IMPORTANT**]
@@ -810,13 +944,43 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b06e5e6-a3e8-4df6-90a0-b24069b9a8ff)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf3c6762-f526-4ebe-9357-c87389d9211c)
 
+* Example
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/273257c6-c736-487e-834d-04b144759b4f)
+
 * Equilateral Triangle
 * Circle
 * Square
 * Regular Hexagon
 
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/273257c6-c736-487e-834d-04b144759b4f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3b85c42c-c3b0-46b7-8ba6-7fc0a6cfaebb)
+
+* Where **a** is the **perpendicular**.
+* **b** is the **base**.
+* **c** is the **hypotenuse**.
+* Hypotenuse2 = Perpendicular2 + Base2 
+* c^2 = a^2 + b^2  
+* Formula [**IMPORTANT**]
+* Pythagoras theorem
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9dba97ad-c50e-4c7f-81a6-176bdde66bb9)
+
+* AC -> **hypotenuse**.
+* AD -> **perpendicular**.
+* DC -> **base**.
+* AC ^ 2 = AD ^ 2 + DC ^ 2.
+* AD = a
+* DC = a
+* AC ^ 2 = a ^ 2 + a ^ 2 = 2 * (a ^ 2)
+* AC = sqrt(2 * (a ^ 2))
+* AC = sqrt(2) * a.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/afb9233a-6591-4897-adbc-5489a621e7ee)
+
+* (a/2) ^ 2 + (a/2) ^ 2 -> a^2/4 + a^2/4
+* Hypotenuse = sqrt(a^2/4 + a^2/4)
+* Hypotenuse = a / sqrt(2)
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab13271d-7651-4294-8ecf-9a7d4080a17c)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c71e4e29-1456-4563-88c4-cb9f0b8ea643)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d4a0798-ef9b-45df-b5db-8928d337b9e9)
@@ -830,12 +994,23 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2d5cd2b3-dc9c-459e-99d0-ac4c3dc8323c)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3751b48f-c966-4d28-8bfc-4c69d30843f9)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4fc5022e-e494-4a8d-b866-da1ea62969af)
+
+* Revise them again. A bit hard to **remember**.
+* Watch the **lecture** again.
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5730e3b4-4777-45ce-afe2-fe34c8f5be7e)
 
 * Question.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d278635-2e8e-4c74-bbde-3d43bec97469)
+
+* We are getting a **pattern** of **2/3**. Multiplying **2/3** with the **numbers** is giving us the **next number** in the **series**.
+* Answer -> 16.
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f65b90d-188a-49cf-9dd8-3667999f14d1)
+
+* Contour lines
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/74892e5f-045e-4d41-b66f-059ed2440716)
 
 * Question.
@@ -852,6 +1027,9 @@
 * Option **C**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f9cfe67b-e8b4-405d-a61b-eeed31463d22)
+
+* Lines.
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ba2f823-f38c-42f4-b178-d8b1d774eb68)
 
 * Question.
@@ -878,68 +1056,104 @@
 * [**IMPORTANT**]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef832cd3-bd7a-4a45-98a3-6c663dab898b)
+
+* Example
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d918605-e667-4cfb-9272-aadc1776731f)
+
+* 12 - 7 = 5 [Minimum]
+* 12 + 7 = 19 [Maximum]
+* Greater than **5** and less than **19** is the range of values that are possible.
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/024ff92e-8d1d-4013-b7e9-16c161e415e2)
-
-* Semi-perimeter(S) = (a+b+c)/2.
-* Squareroot(s * (s-a) * (s-b) * (s-c)).
-
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35ec9197-5a44-4562-8a39-a4dd28e971f2)
+
+* Heron's formula.
+* Semi-perimeter(S) = Perimeter/2 = (a+b+c)/2.
+* Area = sqrt(s * (s-a) * (s-b) * (s-c)).
+* Formula [**IMPORTANT**]
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7fe76f19-d9cd-4141-acfe-635aa61da29f)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9dc2f010-46ca-4338-9d94-91ad5aaae563)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f3c5855-66f4-47d3-97e8-c9501f72a0e3)
+
 * Median
 
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f3c5855-66f4-47d3-97e8-c9501f72a0e3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/693bd4f2-a9b8-48ab-99bf-058a43b15ba4)
 
 * Equilateral Triangle
 * Isosceles Triangle
 
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/693bd4f2-a9b8-48ab-99bf-058a43b15ba4)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7eaa5ba-ae08-4f7b-9385-5354eeeb89c7)
+
+* Polygons.
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ca1d9d3e-75fd-43f0-a94d-47ccb22942c0)
-
-* The value of angles in **regular polygom** -> (((n - 2) / n) * 180) degree 
-
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6885fd96-bac7-48c3-98e3-064cc7024b08)
+
+* The value of angles in **regular polygon** -> (((n - 2) / n) * 180) degree
+* **n** -> No. of sides of a **polygon**.
+* Formula [**IMPORTANT**] 
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4864a404-14e8-4a92-88b2-b5c35517a0c6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a0381762-edbc-41fb-837d-4f0616b20cee)
+
+* Examples
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/82461b11-1f4b-4525-ac70-dbb32a9c5f63)
+
+* Equilateral and Isosceles Triangle.
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ee5ace8-c895-4e2e-81eb-eda284184d79)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c3d901ca-9316-4952-8500-5679eeeae752)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b2ce7b6c-dc26-44fb-b31b-b91244acd46a)
+
+* Example
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d3411eb-a895-474a-bd07-63ece49e0dde)
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a7df3be-1d1f-42ba-98f8-c89fba8582ae)
 
-* There are **two Isoceles triangle**.
+* There are **two Isosceles triangle**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/78864aa5-93f8-416d-8966-246df4841a68)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6700e06d-79fd-4d0d-bb39-170f29d05bf4)
 
-* Interiol Angle.
+* Interior Angle.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d6a4e21-9498-4b2c-bcb8-8ae4379cfb03)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae424a72-adac-47f2-b57f-7524d51daf89)
+
+* Example
+* [**IMPORTANT**]
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b3588209-d913-4d7a-9c67-101ca01a0122)
 
 * Question.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/abcfcaba-b375-4383-8ef9-8322257004a5)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/15160d81-bfe8-45d1-9c35-cc7bbc50356f)
+
+* Example
+* n = 120 degree [Answer]
+* [**IMPORTANT**]
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6fb2422b-0c2d-48f8-89a7-d1922bb6c494)
 
 * [**IMPORTANT**]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/da1d4242-15b8-4a05-8fae-bf6dfe1d85a0)
-
-* In any **regular polygon**, sum of all the **exterial angles** is **360 degree**.
-
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3fdb4a1f-9bc6-4985-a056-3ad3def0a0a9)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/966827e9-02a3-4f89-ab24-a99f1bf5d4e1)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab256815-3a8e-4150-ae33-1f83643d165c)
+
+* In any **regular polygon**, sum of all the **external angles** is **360 degree**.
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/daf2d264-e23b-4fb0-bff9-fcb77f8449bf)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8f78ea6-d204-4a80-8c62-eb31bde34263)
 
+* Example.
 * [**IMPORTANT**]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af7dbc8f-330d-460a-a826-d524bfd7a203)
@@ -948,32 +1162,52 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a822d910-3fd4-43bb-8e6e-bcd3bca09c19)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fbbdad5a-0e06-4fa8-a954-61a8b6ff8a80)
+
+* GP series 
+* GP series formula used.
+* a / (1 - r)
+* a = A
+* r = 1/4.
+* [**IMPORTANT**]
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/824593f9-55fb-4176-91f9-3287d757c0fd)
 
 * 1st circle Circumference -> 88cm
 * 3rd circle Circumference -> 88/4 -> 22cm.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d487927-4d78-412b-b9fb-8858184efaaa)
+
+* First Circle(C) = 88cm
+* Second Circle(C/2) = 88/2 = 44cm
+* Third Circle(C/2 ^ 2) or C/4 = 88/4 = 22cm
+* [**IMPORTANT**]
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a84b4e9e-b2eb-49aa-9022-ab61d4c6f5b8)
 
-* diameter(d) -> 8cm.
+* Area of Circle -> Pie * (r ^ 2).
+* Circumference of a circle -> 2 * Pie * r.
+* Formula [**IMPORTANT**]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2868de41-d837-460e-966d-78702383c149)
 
+* diameter(d) -> 8cm.
+* radius(r) -> d/2 -> 8/2 -> 4cm.
+* Perforated -> Disc [Same thing/meaning].
 * [**IMPORTANT**]
-* Perforated
-* Disc
-* Same thing.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16d3ff49-888b-48a6-a44c-11577c48ed51)
 
 * Question.
 * Diameter -> 10cm
 * radius -> 5cm
-* Smaller circul diameter -> 10/5 -> 2cm
-* Smaller circul radius -> 2/2 -> 1cm
+* Smaller circular circle diameter -> 10/5 -> 2cm
+* Smaller circular circle radius -> 2/2 -> 1cm
+* What is the ratio?
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a47dea5-de60-4b11-b14c-d8831907e486)
+
+* Original Disc Area / Perforated Disc Area
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cef162e1-2d19-4a04-b0e8-f6c8dec599ca)
 
 * 6 Equilateral triangles -> 1 regular Hexagon.
@@ -981,11 +1215,22 @@
 * Area of regular Hexagon  -> 6 * [sqrt(3)/4 * (a ^ 2)]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/048443b3-7327-43ac-b1e3-7c54832096ee)
+
+* [**IMPORTANT**]
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/932cd73d-cdd6-421d-86c0-c046c564d187)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ddd66d5-6c6b-46c7-856b-f6aa55ffa825)
+
+* [**IMPORTANT**]
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae7882d6-b6ab-45d9-a196-893b9d54d761)
+
+* [**IMPORTANT**]
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ce95061-bb87-4fbd-9dbb-147d512185b2)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1e90e06-e66c-4e29-8bc2-e93f6ad94530)
+
+* [**IMPORTANT**]
 
 ## geometry-and-miscellaneous-part-ii (66) [13th Aug 2023]
 
@@ -2598,3 +2843,10 @@ ABCDEFGHIJKLMNOPQRSTUVWXYZ
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/729889ae-a14e-477e-a01b-b7da5138cf62)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/158cf5ec-8bee-4de4-acb2-df7c69e0bfbf)
+
+
+# Extra Images
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95fcdee5-de6d-4c68-9264-9bd117194cdd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0dd112f7-4779-4466-bed4-e7fb6ccb1cd3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f9549ffc-8035-4c98-920c-8bbc10b6dedf)
