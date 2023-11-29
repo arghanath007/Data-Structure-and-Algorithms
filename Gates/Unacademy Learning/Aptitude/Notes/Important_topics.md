@@ -2815,12 +2815,289 @@ Option **D**.
 * **Q2** is always **equal** to **Q4**.
 * Always equal -> Vertically opposite angles.
 
+## Parallel Lines
 
+* They are **co-planar**.
+* They do not **intersect**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8e865f7-c4b9-418d-a0a8-42b9a4a7fc49)
 
+* Transversal -> Transversal is a line that cuts two or more co-planar lines.
+* Corresponding angles are equal and lines are parallel.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/47faaa29-72a6-4a8f-8ba6-c43eb89f33be)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d30b6c5-5616-49ad-8df2-5e47b4a13975)
 
+* Cut
+* Bisect -> Intersect
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/016019dd-0cb5-425c-8dbe-70cc44a08277)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9dad5b85-e217-408e-8ec0-be66289c3446)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/02ee5193-84f3-41de-b6da-6b696b8ff23d)
+
+* Exterior Angle -> Sum of two interior opposite angles.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6643a778-6c9b-4ce9-9ab8-d4e471b36ae4)
+
+* Example
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5643717f-c400-4333-9ba4-010f8a907057)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b38a469-a694-4062-9819-8410ab9213b1)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ddc1f01-61a8-4377-9779-f9b49f56bd9b)
+
+* Sum of infinite terms in **GP series**.
+* **a** is the first term
+* **r** is the common ratio
+* **n** is the number of the term which we want to find.
+* Formula [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf3c6762-f526-4ebe-9357-c87389d9211c)
+
+* Example
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/273257c6-c736-487e-834d-04b144759b4f)
+
+* Equilateral Triangle
+* Circle
+* Square
+* Regular Hexagon
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3b85c42c-c3b0-46b7-8ba6-7fc0a6cfaebb)
+
+* Where **a** is the **perpendicular**.
+* **b** is the **base**.
+* **c** is the **hypotenuse**.
+* Hypotenuse2 = Perpendicular2 + Base2 
+* c^2 = a^2 + b^2  
+* Formula [**IMPORTANT**]
+* Pythagoras theorem
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9dba97ad-c50e-4c7f-81a6-176bdde66bb9)
+
+* AC -> **hypotenuse**.
+* AD -> **perpendicular**.
+* DC -> **base**.
+* AC ^ 2 = AD ^ 2 + DC ^ 2.
+* AD = a , DC = a
+* AC ^ 2 = a ^ 2 + a ^ 2 = 2 * (a ^ 2)
+* AC = sqrt(2 * (a ^ 2))
+* AC = sqrt(2) * a.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/afb9233a-6591-4897-adbc-5489a621e7ee)
+
+* (a/2) ^ 2 + (a/2) ^ 2 -> a^2/4 + a^2/4
+* Hypotenuse = sqrt(a^2/4 + a^2/4)
+* Hypotenuse = a / sqrt(2)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab13271d-7651-4294-8ecf-9a7d4080a17c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c71e4e29-1456-4563-88c4-cb9f0b8ea643)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d4a0798-ef9b-45df-b5db-8928d337b9e9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92a6fed6-572b-4697-80e0-7ff9b688be7c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e987c48-7dd3-4a65-9f77-a2c6f99988de)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4ec37618-3a80-413e-9a92-ede2dc16713b)
+
+* Infinitely or Indefinitely.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/479982ab-1603-424e-91bb-685fabb0a5bc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2d5cd2b3-dc9c-459e-99d0-ac4c3dc8323c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3751b48f-c966-4d28-8bfc-4c69d30843f9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4fc5022e-e494-4a8d-b866-da1ea62969af)
+
+* Revise them again. A bit hard to **remember**.
+* Watch the **lecture** again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d278635-2e8e-4c74-bbde-3d43bec97469)
+
+* We are getting a **pattern** of **2/3**. Multiplying **2/3** with the **numbers** is giving us the **next number** in the **series**.
+* Answer -> 16.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f65b90d-188a-49cf-9dd8-3667999f14d1)
+
+* Contour lines
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9bcc6e55-d87e-41bc-bb8b-6844040ba436)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9dfdcf1a-32a2-4e96-96de-2424204543f0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dbc0c67c-8cb4-43c8-b2cb-25b5c5bfa599)
+
+* P > 575m.
+* 425 < S < 450.
+* 500 < T < 525.
+* 525 < Q < 550.
+* R < 500.
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f9cfe67b-e8b4-405d-a61b-eeed31463d22)
+
+* Lines.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e57acfd6-784f-476e-957c-82e8099c3b6a)
+
+* Option **C**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0322e966-e589-440c-bb16-6dd8da8d4bf8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c77c483d-1479-45ef-a26e-042ef6a35d67)
+
+* Area of triangle ABC.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c77c483d-1479-45ef-a26e-042ef6a35d67)
+
+* Sum of any two sides of a triangle must be **greater** than the **third side**.
+* **Difference** between any two sides of a triangle must be **less** than the **third side**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef832cd3-bd7a-4a45-98a3-6c663dab898b)
+
+* Example
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d918605-e667-4cfb-9272-aadc1776731f)
+
+* 12 - 7 = 5 [Minimum]
+* 12 + 7 = 19 [Maximum]
+* Greater than **5** and less than **19** is the range of values that are possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/024ff92e-8d1d-4013-b7e9-16c161e415e2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35ec9197-5a44-4562-8a39-a4dd28e971f2)
+
+* Heron's formula.
+* Semi-perimeter(S) = Perimeter/2 = (a+b+c)/2.
+* Area = sqrt(s * (s-a) * (s-b) * (s-c)).
+* Area of triangle, ABC = 1/2 * BC * AD = 1/2 * a * h.
+* Formula [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9dc2f010-46ca-4338-9d94-91ad5aaae563)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f3c5855-66f4-47d3-97e8-c9501f72a0e3)
+
+* Median
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/693bd4f2-a9b8-48ab-99bf-058a43b15ba4)
+
+* Equilateral Triangle
+* Isosceles Triangle
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ca1d9d3e-75fd-43f0-a94d-47ccb22942c0)
+
+* The value of angles in **regular polygon** -> (((n - 2) / n) * 180) degree
+* **n** -> No. of sides of a **polygon**.
+* Formula [**IMPORTANT**] 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4864a404-14e8-4a92-88b2-b5c35517a0c6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a0381762-edbc-41fb-837d-4f0616b20cee)
+
+* Examples
+* For **Square**, **n = 4**
+* For **Triangle**, **n = 3**
+* [**IMPORTANT**] 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ee5ace8-c895-4e2e-81eb-eda284184d79)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b2ce7b6c-dc26-44fb-b31b-b91244acd46a)
+
+* Example
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d6a4e21-9498-4b2c-bcb8-8ae4379cfb03)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae424a72-adac-47f2-b57f-7524d51daf89)
+
+* Example
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b3588209-d913-4d7a-9c67-101ca01a0122)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/abcfcaba-b375-4383-8ef9-8322257004a5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/15160d81-bfe8-45d1-9c35-cc7bbc50356f)
+
+* Example
+* n = 120 degree [Answer]
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6fb2422b-0c2d-48f8-89a7-d1922bb6c494)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/da1d4242-15b8-4a05-8fae-bf6dfe1d85a0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3fdb4a1f-9bc6-4985-a056-3ad3def0a0a9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/966827e9-02a3-4f89-ab24-a99f1bf5d4e1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab256815-3a8e-4150-ae33-1f83643d165c)
+
+* In any **regular polygon**, sum of all the **external angles** is **360 degree**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/daf2d264-e23b-4fb0-bff9-fcb77f8449bf)
+
+* Example.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af7dbc8f-330d-460a-a826-d524bfd7a203)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a822d910-3fd4-43bb-8e6e-bcd3bca09c19)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fbbdad5a-0e06-4fa8-a954-61a8b6ff8a80)
+
+* GP series 
+* GP series formula used.
+* a / (1 - r)
+* a = A
+* r = 1/4.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/824593f9-55fb-4176-91f9-3287d757c0fd)
+
+* 1st circle Circumference -> 88cm
+* 3rd circle Circumference -> 88/4 -> 22cm.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d487927-4d78-412b-b9fb-8858184efaaa)
+
+* First Circle(C) = 88cm
+* Second Circle(C/2) = 88/2 = 44cm
+* Third Circle(C/2 ^ 2) or C/4 = 88/4 = 22cm
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a84b4e9e-b2eb-49aa-9022-ab61d4c6f5b8)
+
+* Area of Circle -> Pie * (r ^ 2).
+* Circumference of a circle -> 2 * Pie * r.
+* Formula [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2868de41-d837-460e-966d-78702383c149)
+
+* diameter(d) -> 8cm.
+* radius(r) -> d/2 -> 8/2 -> 4cm.
+* Perforated -> Disc [Same thing/meaning].
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16d3ff49-888b-48a6-a44c-11577c48ed51)
+
+* Question.
+* Diameter -> 10cm
+* radius -> 5cm
+* Smaller circular circle diameter -> 10/5 -> 2cm
+* Smaller circular circle radius -> 2/2 -> 1cm
+* What is the ratio?
+* Original Disc Area / Perforated Disc Area
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cef162e1-2d19-4a04-b0e8-f6c8dec599ca)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/048443b3-7327-43ac-b1e3-7c54832096ee)
+
+* 6 Equilateral triangles -> 1 regular Hexagon.
+* Area of Equilateral triangles  -> (sqrt(3)/4 * (a ^ 2))
+* Area of regular Hexagon  -> 6 * [sqrt(3)/4 * (a ^ 2)]
+* Formula [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/932cd73d-cdd6-421d-86c0-c046c564d187)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ddd66d5-6c6b-46c7-856b-f6aa55ffa825)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae7882d6-b6ab-45d9-a196-893b9d54d761)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ce95061-bb87-4fbd-9dbb-147d512185b2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1e90e06-e66c-4e29-8bc2-e93f6ad94530)
+
+* [**IMPORTANT**]
 
 
 
