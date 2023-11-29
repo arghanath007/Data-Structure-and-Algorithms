@@ -2598,12 +2598,222 @@ Option **D**.
 
 * Option **A**.
 * Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/66596DD9F2
+* [**IMPORTANT**]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3aeddc59-bcab-40d4-9741-9bb15d7d9221)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/200500db-eb8c-4f26-ae8b-8b726468e4e9)
 
 * Link -> https://gateoverflow.in/313648/gate2018-me-1-ga-6
 * Option **A**.
+* [**IMPORTANT**]
+
+## Inequalities
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/01cad299-5d3b-4d6b-8bf9-518b2e54f7d2)
+
+* Option **E**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/56328f55-b171-42bb-bf30-5e711149575f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/860f714a-d4fd-405e-93fb-8f9087f00731)
+
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/881ded05-ad43-447c-bcf7-653c1c625de1)
+
+* ABCDEFGHIJKLMNOPQRSTUVWXYZ
+* Word -> PRECIOUS
+* OQFBJPVR -> Conversion.
+* BFJOPQRV -> Alphabetical Order.
+
+## Blood Relations
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/876913f1-91d2-4bb3-b105-c05dfa9400bc)
+
+* Drawing to do the **Blood Relation** questions.
+* We are assuming **negative sign(-)** to represent **female/girl/mother/sister**.
+* We are assuming **positive sign(+)** to represent **male/boy/father/bother**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9610bfd2-fb21-4a8b-8382-9e3a61179dec)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6f6ee0d-e63c-4a4b-a4d3-b8f39f4f001d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5c288bc4-a0d3-4731-858f-0f124dac7b89)
+
+* Cannot be determined.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be18bb66-737c-4c0b-8b59-da931eaa4e58)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89298993-6bc3-4971-8b93-8e22eee3a243)
+
+* Option **B**.
+* Aunt -> Your father's brother's wife.
+* If nothing mentioned from the father or mother's side -> Maternal [**IMPORTANT**]
+
+## Sequence Series
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c7f64bf-b136-42e0-b136-712af31b2a81)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e41a9ede-9e9e-48ce-8f98-407ef38d4087)
+
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d635179-a47c-40da-b475-4ac77e33fb44)
+
+* Sequence
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e2914fab-58cd-45df-b584-12e75d1dc325)
+
+* Patterns. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/300765b5-cbd5-48b8-b9cd-0a84cbd7d17e)
+
+* Option **A**.
+
+* +4/-9/+16/-25/+36
+* +2^2/-3^2/+4^2/-5^2/+6^2
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff55d943-ab47-4442-bfc3-c9f2d93ea767)
+
+> From the two equations given below we have to find the value of **x and y** Then compare the values of **x and y** with each other. Find out which of the **options** are matching with the **comparisons** we did, matching is the **correct option**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36dc493a-64e6-4f24-a796-3c787cbb0d14)
+
+* Comparing the values of **x and y** and checking which **option** is matching.
+* Option **A**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3248a9a1-73e0-43a2-87fc-062de7ea8878)
+
+* Option **B**.
+* This is done **same** as the **above** question.
+* Sir mistakenly ticked **option A**. We can clearly see from the **workings** that **x< y** which is **X < Y** which is **option B** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a22625e-e782-4288-bf57-e93625f8f8f2)
+
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69dc1e53-3ee1-41ba-8b48-9d9821425618)
+
+* Option **E**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec089122-e4b4-4d98-a4fa-8a16dfe1bc1e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/908ae27b-aa11-4be7-8407-b8ce09c373b9)
+
+* Option **D**.
+* Grand-Daughter.
+* We have to start solving them from **left to right** side.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/faaa02bd-6635-4f02-a071-16383f36e5a7)
+
+* Option **D**, 
+* **S** -> **Wife**.
+* Gamy -> Related to marriage.
+* Monogamy -> Single marriage.
+* Bigamy -> Double(2) marriage.
+* Polygamy -> Multiple marriage.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30d5efb4-370b-4a4c-99b5-80bc3e66d53c)
+
+* Question.
+* Clockwise movement(CW)/Anti-clockwise movement(ACW) -> This them.
+* Triangle -> Clockwise movement -> +1/+2/+3/+4
+* Diamond -> Clockwise movement -> +1/+2/+3/+4
+* The **shades** of the **triangle** are doing **180** or **changing places** everytime.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a52972fe-a02c-4514-8127-07b3ebf04dd2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d686f17-4209-47fc-ab18-20c8a6a9caab)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/07e1deb6-da83-4f50-b560-46af8be4bcaf)
+
+* Option **A**.
+* Try to find the **sequences/patterns** in the **drawings**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5da7135c-6b0a-461e-b4ed-188135abd8ce)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09e6d8c4-f406-4db9-952b-91c951b8601f)
+
+* Plus
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b07c6cf4-f52c-4e25-ad69-af4781a3db1c)
+
+* Ball
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe03a259-5d66-4f81-b1b5-ec9cdb3ad198)
+
+* Option **D**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a671722-5822-42ba-b2f2-6ebf60cbc184)
+
+* Formula [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/48b9fd31-0c0f-4efe-9879-8ba0c36d7915)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8930abee-d4e5-4868-8696-f340e5472cfe)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5ab39f5-e3ea-4dbe-8b48-ecb552697275)
+
+* Option **C**.
+
+## Geometry
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af3212ab-3f24-4d9f-ac94-43ab014ccb86)
+
+* We have **n** no. of points.
+* No. of **straight lines** -> nC2.
+* Min. no. of points required to draw a straight line -> **2**.
+* If we have **5 points** then **no. of straight lines** -> nC2 -> 5C2 -> 10 lines.
+* Min. no. of points required to draw a **triangle** -> nC3.
+* If we have **10 points** then **no. of triangle** -> nC3 -> 10C3 -> 120 triangle.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6c9cf9f-62dc-4cd4-b8af-2d21aad91c6e)
+
+* Colinear -> Points lying on the same line.
+* 3 or more points are said to be colinear if they lie on the same line.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c155b4f-fdfb-472a-9ca5-a415e5a0413e)
+
+* Intersection -> When two straight lines intersect at the same point.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ffd96a9-ec2c-4987-bef2-9fc225405098)
+
+* Point of Intersection(POI). 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/14850a4f-66ac-4245-b205-30c2cf260110)
+
+* **Acute Angle** -> **less** than 90 degree.
+* **Right Angle** -> **equal to** 90 degree.
+* **Obtuse Angle** -> **Greater** than 90 degree.
+* Height -> Altitude [90 degree line]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7407054d-68b5-49ef-b63c-bc680346a781)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09e7d95b-81ca-4b50-94da-dd590454b247)
+
+* Area Of a Triangle.
+* Area = (1/2) * base(BC) * height(AD).
+* Formula [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/11d66f8f-c9eb-455d-8d02-aee1950f0e9d)
+
+* Different Triangles.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d646fcf5-1062-498d-83be-be8df78ab40c)
+
+* **Area** of all the triangles is the **same**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/47ce230f-704d-46ff-8e6c-0c381dc55047)
+
+* **Base and height** are the **same**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/14953d65-9190-4f27-8e25-5545df9978b2)
+
+* Sum of **two angles** is **90 degree** then they are called as **complementary angle**.
+* Sum of **two angles** is **180 degree** then they are called as **Supplementary angle**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb06e956-e65f-40f1-a697-e1a8d784a85c)
+
+* Vertically opposite angles are **always equal**. 
+* Vertically opposite angles,
+* **Q1** is always **equal** to **Q3**. 
+* **Q2** is always **equal** to **Q4**.
+* Always equal -> Vertically opposite angles.
 
 
 
