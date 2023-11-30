@@ -3533,6 +3533,184 @@ Option **D**.
 * [**IMPORTANT**]
 * Practice it **again.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69960bbc-3e40-496a-b48d-c08da3cda1c7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1125d33b-9665-49ca-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6bea1f2b-8d98-4b08-9893-108fa375a2ef)b634-18a228f997d1)
+
+* Married(M)
+* Unmarried(M')
+* Either one of the cases is possible.
+* Both of them cannot happen **together**. Not possible.
+* **1 part**
+* Option **B**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e00a46af-1486-4f1f-a1b7-7f78718ddd04)
+
+* Option **C**.
+* [**IMPORTANT**]
+* Reprimanded -> a formal expression of disapproval
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0913e5de-c914-49f9-b1e3-5a7daf566e67)
+
+* Prejudice.
+* Retort -> Sharp replies.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1fec3901-4cfc-4ff8-8c25-c8665fb8989b)
+
+* Option **B**.
+* Taunt -> Taunting -> a remark made in order to anger, wound, or provoke someone.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/731123ac-df83-4493-b839-2cb98ddbb734)
+
+* Option **D**.
+* Agitated -> feeling or appearing troubled or nervous
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e6d2cb21-a96b-4f98-b9b5-eb0fc2ad2434)
+
+* Mirror
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e5bfb30-8c19-49be-8608-173691074f3a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1458039f-f33e-4531-9d35-c8b89a55081a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eebe4836-a4a2-4dd1-a011-e190aa5fba88)
+
+* Mirroring the clock hands.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/45611d55-1896-44af-a1ab-404079d1baaa)
+
+* If it is **11:30** then it is **1:30**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c018f01-2ed9-4704-8037-b4012cbe4f97)
+
+* 9:00 -> 3:00.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5cd2971-f186-4b43-abd1-63446d0eb774)
+
+* 9:30 -> 3:30.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c163b7ed-b93f-456b-bb71-c10da9b34cf2)
+
+* If it is **10:30** then it is **1:30**.
+* If it is **9:30** then it is **2:30**.
+* If it is **11:30** then it is **12:30**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea85ae2d-9e77-4fe9-8229-63b166446bc1)
+
+* Option **D**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e415017-5eea-4db3-baf1-374b6ce271ff)
+
+* Ratio
+* 5/(5+2) -> 5/7
+* 2/(5+2) -> 2/7
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8da739b5-15bb-477c-88c6-8cd2331ef68d)
+
+* Option **D**
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24e7477d-5cca-4265-9adc-80fef3e45c09)
+
+* By default, Facing the **center**.
+* Seating arrangement.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b9d1655c-089c-4630-9504-24794160a885)
+
+* Option **C**, **R and U**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19aa38f8-e656-44c7-8194-12aba7278921)
+
+* Note [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1234888-27aa-45d0-94c2-9344181dd47a)
+
+* We didn't calculate **DP** because it was already mentioned that **P** wins the race. So the race size was **500m** so **Distance of 'P'** is **500m**.
+* We only calculated **Distance of 'Q'**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/963ff122-496b-4477-9a1f-c62f09802669)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b3e95b5e-0d24-4345-ab80-ce5d613c733c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3412d100-d445-47c1-81e1-f8c40f7a6381)
+
+* heel -> the back part of the human foot below the ankle.
+* heal ->  wound, injury, or person) to become sound or healthy again
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c46495d7-edc2-463f-bb15-9c61f11b9d6c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/438a2fef-8d65-4576-8461-9ee8f8b1cdfe)
+
+* Bell Chimes
+* We have to do **LCM**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b14061fe-dc07-4e80-9e74-cb5f5dd9c625)
+
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/21bacc88-0960-4262-a1c1-7c90eb38716d)
+
+* As mentioned in the **question** all of the **6 letters** are there on each of the dice. So the **3 letters** can also be **repeated** which means **QQ, VVV, UU** are also possible.
+* Question. [**IMPORTANT**]
+* Area of equilateral triangle -> 1/2 * base * height -> 1/2 * b * h.
+* Area of square -> side ^ 2 -> a ^ 2.
+* Area of circle -> pie * (r ^ 2)
+* Formula [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1c03b73-017d-4acc-a505-1455da10a0e9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f86edfd-7aec-40fd-93cb-3d48bcd227b5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba2eab2e-8a7d-4079-8b59-43e037cc1b4a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/682e59f4-77bb-43ad-95ef-71fc70a95606)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dcd50245-50a3-487a-ad61-ebfd47d1efaf)
+
+* Find the shaded sector area.
+* Area of square -> a ^ 2 -> 2 ^ 2 -> 4 [a = 2]
+* Area of circle -> 1/4 * pie * (r ^ 2) -> 1/4 * pie * 4 -> pie [r = 2]
+* Area of shaded region -> Area of square - Area of circle -> 4 - pie.
+* Formula [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ad18164-df6f-4332-9caa-9e491b22a138)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee9ce181-aa82-4d92-9833-4b73cc83f901)
+
+* Option **D**.
+* Exorbitant -> Price Rise.
+* Fair -> impartial and just, without favouritism or discrimination
+* Fare -> the money paid for a journey on public transport
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bfdf270d-861f-4594-9272-25ce3316c7bf)
+
+* Option **B**.
+* **T** is an **uncle** to **S**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1be01fab-4514-4ae8-b816-05919b1909d1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd100408-0b45-4cc5-8676-e517c1b94792)
+
+* Note. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c6f05776-6d7d-4833-8f1d-007ffae90943)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/29656924-ceb1-48b1-a0a7-d874fca8da81)
+
+* Note.
+* Start from line **2008**.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
