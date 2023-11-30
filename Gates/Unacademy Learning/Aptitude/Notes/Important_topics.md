@@ -3099,6 +3099,612 @@ Option **D**.
 
 * [**IMPORTANT**]
 
+## Geometry
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/62670577-fbb9-41ff-be4a-6d75b8bc44d6)
+
+* Chord
+* Secant
+* Longest Chord -> Diameter.
+* Tangent
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee127c08-c546-49f7-8fe9-1e70be7c5ad3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e2004b2-9503-4d9a-b317-a74d18bae1a2)
+
+* Area -> Pie * (r ^ 2) -> (Theta/360) * (Pie/(r^2)).
+* Circumference -> 2 * Pie * r 
+* Length of the arc -> CD -> (Theta/360) * (2 * Pie * r).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e651c95-5ad3-4a16-8124-0f3fffc676ff)
+
+* Sector
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8c94f0ad-8798-49f9-997e-47f22d5dfb27)
+
+* LOA -> Length Of the Arc.
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8df1ac1-d833-4e0d-8444-671e556f0b7c)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f209c610-9bb8-41b0-b3df-ee1fdc1815f1)
+
+* Formula [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33ebcf7a-9b1f-4c2d-a582-e3fa5b82e5a6)
+
+* OM = 5cm
+* AM = 12, so MB = 12cm as well.
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c5c9703-52be-458a-9d20-e815107a2247)
+
+* Solution [**IMPORTANT**]
+* We are using the **pythagorean theorem**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65df3ea6-4fbb-40d4-a9da-ae2cdc50c5b9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/45fb7d70-c29c-4803-a664-280c7c058ed9)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba7827ee-6298-4018-84aa-e54caa4aabed)
+
+* What is the distance between the **two coordinates**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae575de2-d555-4198-a5f7-69eaf2e98c72)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae053aa5-4772-4b18-b42e-00bc08d344ae)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae21903b-fdc3-441b-b096-5588ab5df7e3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/602e1af0-3ffb-4432-a68e-83f62b322ed7)
+
+* Solution.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/382ceccf-82c8-4950-8a62-1556546a6b8a)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9df59e30-fcba-45b6-a7c0-254ecaea5ba7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea4b2f87-f100-444a-a9c9-679874874473)
+
+* Solution [**IMPORTANT**]
+
+### Chord
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/909d68ef-a0be-4331-9873-44ec80aeb42a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/acdcad0c-930f-4dc5-83bd-cb27d826e671)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24ebf81e-486c-4ade-b63c-d18f508a198b)
+
+* Chord Property [**IMPORTANT**]
+* Formula [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4699509-72d7-4551-b005-6cdf8ac22488)
+
+* Secant Property
+* Formula [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b63fa71b-157c-42b2-a8a7-41059d541355)
+
+* Secant-Tangent
+* Formula [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/59199c96-bf6a-4dd5-9067-6f5c357ec7c1)
+
+* Chord
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f7fd424-b41f-405a-9960-81f560ef3731)
+
+* Secant-Tangent
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c968e7b-5c24-4d7a-94b3-b28211f407b4)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2cc6da62-d211-41ce-9185-abb9d0f93165)
+
+* Solution [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa238311-0d24-4fe8-b3ea-b52850871cdf)
+
+* AB = 12cm
+* AP = 6cm
+* PM = 6cm
+* We have to find out **PD**.
+* Solution [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9a24476-c4fb-4329-b9ef-829260c113b8)
+
+* CD -> Diameter of the circle.
+* PD = 18cm
+* CD = PD + PC = 18 + 2 = 20cm.
+* Radius = Diameter/2 = CD/2 = 20/2 = 10cm.
+* Solution [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27837ee3-3b8e-4e5b-880f-da7dffa2982d)
+
+* Inscribed Angle = Half of Center(central Angle) = (Center Angle) / 2
+* Inscribed Angle = (Center Angle) / 2 [Always]
+* Formula [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83d552bf-b26e-4161-ab9a-c7733df55b60)
+
+* On the **same arc**, **two inscribed angles** that are created are always **equal**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db60efc2-1f6f-49ce-ad76-416f72b82d69)
+
+* Full Circle
+* Semi-circle.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aede1bc5-ff32-4bf8-9286-6c4752bc04a4)
+
+* Doubts
+
+## Calendar
+
+* Century Year(CY) -> Multiple of **100**.
+* Non-Century Year(NCY) -> Not a Multiple of **100**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/520413aa-9d5a-40c9-af93-4e33c080db81)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9936fcc-5d17-43c5-9359-8b8090ac2831)
+
+* 2023 -> Non-Century Year(NCY)
+* Ordinary Year(OY) -> 365 days -> Feb is **28 days**.
+* Leap Year(LP) -> 366 Days -> Feb is **29 days**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be1b3d69-4597-4aca-9c2a-67af4c2ef140)
+
+* Given year is **ordinary lear(OL) or leap year(LY)**?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7e0094d-3fbf-4fdc-b228-d2d0d93bd46a)
+
+* Check if the given year is **non-century year(NCY) or century year(CY)**.
+* If it is **non-century year(NCY)** then do **divide by 4**.
+* If the **year** is **divisible by 4** then it is a **leap year(LY)** otherwise it is an **ordinary year(OY)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d897593-904b-4ae6-ac5a-04c3d0e3ea82)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/52a4f24f-d527-4168-bcdd-d7dbd74c8783)
+
+* **century year(CY)** is **multiple of 100**.
+* If it is **Century year(CY)** then do **divide by 400**.
+* If the **year** is **divisible by 400** then it is a **leap year(LY)** or sometimes called as **century leap year**, otherwise it is an **ordinary year(OY)**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/17693389-491f-4efc-975a-59139ee3801f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91f46736-80a2-4a00-9623-7423aeabccf4)
+
+* We can check the **last two digits**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/11a3972c-b1a1-4c91-9ca3-ef95210975d9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d70c432-bbbe-4a2f-82f6-1d596f3d361e)
+
+* Concept of remainders.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ad08d995-5acd-45e0-a070-7d7d020a3100)
+
+* Odd days -> Extra days.
+* 7 days -> 1 Week.
+* Remainders when dividing by 7 -> 0,1,2,3,4,5,6.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97c01a9a-edb6-4182-a6ce-ee0b9826c8ee)
+
+* Odd days -> Day of the week.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c80706ae-f901-4018-b824-d3899c4cac1a)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24a5149a-768e-499c-86d0-74d174ebbbc4)
+
+* Ordinary year -> 1 extra or odd day.
+* Leap year -> 2 extra or odd days.
+* It is a **Thursday**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3645f5b4-7eb3-4652-87a6-501ceeeaa7c7)
+
+* Yes. The **31th of december** of **0020yr** was as **thursday**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a2c48fd-4c39-431f-abc9-89c2c4aa5830)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0fee0502-3e58-4a2d-abba-aedcccdf0fee)
+
+* It is a **Tuesday**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/578dbfe4-3130-4573-bbe4-f2ea09f7beda)
+
+* Yes. The **31th of december** of **0030yr** was as **tuesday**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3a56e84-112f-429f-82ba-0007951bad02)
+
+* Yes. The **31th of december** of **0040yr** was as **Monday**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c36942e4-c5ab-49b6-b653-8ff5daeb606b)
+
+* 100years
+* 100 is divisible by 100, so **century year**. But not divisible by 400, so **ordinary year**.
+* 100/4 -> 24 leap years 
+* 100-24 -> 76 ordinary years
+* Leap years -> 2 extra or odd days.
+* Ordinary year -> 1 extra or odd day.
+* 24 * 2 + 76 * 1 -> 48 + 76 -> 124
+* 124/7 -> 5 odd days.
+* So it is a **Friday**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f96a4bf-e78c-4de4-9da6-d330b328fbe8)
+
+* As **100** is a **century year** as it is **divisible by 100**. So for **100** to be a **leap year** it has to be **divided by 400** but **100** is not **divided by 400** so it is **an ordinary year**.  
+* So **100** is a **century year** and an **Ordinary Year**.
+* 100 -> CY, OY.
+* That why instead of **25 leap years** we have **24 year leaps**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5526f8af-a718-4bc5-aea5-dc340b5ee00c)
+
+* This is **incorrect**.
+* **Correct** below.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c55b34af-6307-4a88-926b-712d77e0cd67)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3fa8c16d-cf39-4586-99dc-7875b94664c1)
+
+* This is **correct**.
+* We added **+1** to **400yrs** because **400** is a **century year** and it is **divisible by 400** which means it is a **leap year** as well. **100, 200 and 300** were not divisible by **400**. That's why we added **+1** for **400**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/974f1058-775b-4f2d-a753-a541c91b1607)
+
+* Days in **each month**.
+* We can count them using the **ups and downs** in our **knuckles**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2781212-a021-4f40-acb8-5fa3e28d7a87)
+
+* Extra or odd days in **each month**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c5b9ea3e-1ab8-47e7-9393-c651e4508d3d)
+
+* Summary
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12d8810f-65b2-4755-a91e-758f6a404ac1)
+
+* Example.
+* The whole idea is based on **odd or extra days**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e5622b2-8bde-4138-8b18-2c14cdb87ec1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b813dcf9-0f2a-4924-91e6-e57c17c10316)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a41d4dd-2db7-46ab-9df3-70dcedafa639)
+
+* We have **3 odd days** which is **Wednesday**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d2bb1e2-249d-45ec-bc17-69fd0d50e3e8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36d022b5-28f9-4aff-a9b7-c8002870e61f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7fdf06a7-6e6c-4801-a737-33e6d5365898)
+
+* 1600 -> 1600/400 -> No remainder -> No odd days.
+* If a **year** is completely divisible by **400** then it has **no odd days**.
+* For **300**, we saw that **100 years** has **5 odd days**. So for **300** it is **5 * 3 -> 15** odd days.
+* **15/5 -> 1**.
+* So **300** has **1 odd day**.
+* 1600 -> 0 odd days.
+* 300 -> 1 odd day.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b388219-3820-48ed-9cec-022791bfd20a)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c8777cba-574c-43ed-bbaa-987d8d6d36af)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/51878a24-07af-41a8-8464-a153b2c8ecc1)
+
+* We have to check for the month of **february** if the year is a **leap year or not**. If it is a **leap year** then we write **29 days in feb** if it is **not a leap year** then we will write **28 days in feb**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1180e0dc-32ee-4bbe-8006-c2e034a7d690)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d61089d-194d-4d94-8e49-2af205acd196)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/315697f2-da38-4b15-b7e4-85fe46042c4d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/67d6ad4d-3f2a-4baf-b4fc-1b2b3058493c)
+
+* Sunday 
+* Example
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ab994d2-fe1f-4fe4-9dbd-47c33f674289)
+
+* Monday
+* Example
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c38a7763-d9a6-4df8-8ee7-68c8ea0bf56a)
+
+* Option **C**.
+
+## Analogy Based Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/edbd4301-a2fd-46a7-8d5b-222a85c0039b)
+
+* Question.
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3b055375-d257-4170-a2f9-bcb51c3e139c)
+
+* Rationalization
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/808bcac9-77b3-42cb-adaa-7671b03e9ed3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e702215a-bde5-457c-8b81-9ee40d02d909)
+
+* **sqrt(3) - 1**.
+* Common values are **cut**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0cbd492-0398-4f2b-8e16-84d2293c64fc)
+
+* Example
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/18fbe782-bf6b-4902-a69b-b8b3399a9c7e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/493f292a-b9b2-488a-a6ab-3aa9d0d716d5)
+
+* Example
+* sqrt(81) - sqrt(1) -> 9 - 1 -> 8.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c21d1ab4-c824-4fc7-8347-441d51bdae05)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34e97e6c-4f2f-4ca2-b20b-7bff549793ea)
+
+* sqrt(81) - sqrt(1) -> 9 - 1 -> 8.
+* Option **B***.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b2d2f60-f445-42be-8006-3b6e6c036cf4)
+
+* **Perimeter** was given and **Area** was asked.
+* **Area** was given and **Perimeter** was asked. [**IMPORTANT**]
+* Either **Perimeter** is given and **Area** is asked or **vice-versa** happens.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/076f279b-872f-440b-9d7a-786ca6b343fb)
+
+* Area of equilateral triangle -> (sqrt(3)/4) * (a ^ 2)
+* Area of square -> b ^ 2
+* Perimeter of a **Triangle** -> 3 * a
+* Perimeter of a **Square** -> 4 * b
+* sqrt(3)/4 = 9/16 -> sqrt(3) * 16 = 4 * 9 -> sqrt(3) * 4 = 9 -> 4 = 9/sqrt(3) -> 4 = (sqrt(3) * sqrt(3) * 3)/sqrt(3) -> 4 = 3 * sqrt(3)
+* So it is **4 : (3 * sqrt(3))**
+* Formula [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a7a55cb4-b8a8-4625-a204-582095a42614)
+
+* [**IMPORTANT**]
+* Equilateral Triangle
+* Circle
+* Square
+* Regular Hexagon
+* Figures.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e6bd85b2-98a9-4de6-94ae-276c22aba282)
+
+* Question
+* Perimeter
+
+* Perimeter of circle -> 2 * pie * r
+* Perimeter of square -> 4 * a
+* Perimeter of equilateral triangle -> 3 * b
+
+* Area
+
+* Area of circle -> pie * (r ^ 2)
+* Area of square -> a ^ 2
+* Area of equilateral triangle -> (sqrt(3)/4) * (b ^ 2)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ced28d73-6633-47db-8ebe-bcc84fb230e6)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/20d35d00-da1e-4a1e-b033-151f484e10b9)
+
+* Example
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27dc6503-d0fc-4937-aa89-74dad4cfa8e3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57ff6c15-6b10-4dbc-be57-a928db4386c7)
+
+* Option **A**.
+* Judge -> One person.
+* Jury -> Panel of judges [Many Judges]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/90bb42a5-5b19-4e37-afdb-bb93d86de5d6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a9f5bfb-e0d9-476e-8f55-30a21e0889bf)
+
+* [**IMPORTANT**]
+* Option **B**.
+* Link -> https://gateoverflow.in/313645/gate2018-me-1-ga-4
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e0c3ef89-161c-4c37-aebe-d73e0d45d9fe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8951aff0-6e9d-481b-8512-b0094982ca7e)
+
+* Area of Rectangle = Length(l) * Breath(b).
+* Area of triangles = (1/2) * Length(l) * Breath(b).
+* Formulas [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e8a6201-e97f-4657-80f6-bf7c3660042e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d3b0e66-e2ce-4e81-88d5-cdb65dc769ce)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37179f78-e83e-495e-bd73-2a1304debd8a)
+
+* [**IMPORTANT**]
+* Practice it **again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69960bbc-3e40-496a-b48d-c08da3cda1c7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1125d33b-9665-49ca-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6bea1f2b-8d98-4b08-9893-108fa375a2ef)b634-18a228f997d1)
+
+* Married(M)
+* Unmarried(M')
+* Either one of the cases is possible.
+* Both of them cannot happen **together**. Not possible.
+* **1 part**
+* Option **B**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e00a46af-1486-4f1f-a1b7-7f78718ddd04)
+
+* Option **C**.
+* [**IMPORTANT**]
+* Reprimanded -> a formal expression of disapproval
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0913e5de-c914-49f9-b1e3-5a7daf566e67)
+
+* Prejudice.
+* Retort -> Sharp replies.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1fec3901-4cfc-4ff8-8c25-c8665fb8989b)
+
+* Option **B**.
+* Taunt -> Taunting -> a remark made in order to anger, wound, or provoke someone.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/731123ac-df83-4493-b839-2cb98ddbb734)
+
+* Option **D**.
+* Agitated -> feeling or appearing troubled or nervous
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e6d2cb21-a96b-4f98-b9b5-eb0fc2ad2434)
+
+* Mirror
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e5bfb30-8c19-49be-8608-173691074f3a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1458039f-f33e-4531-9d35-c8b89a55081a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eebe4836-a4a2-4dd1-a011-e190aa5fba88)
+
+* Mirroring the clock hands.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/45611d55-1896-44af-a1ab-404079d1baaa)
+
+* If it is **11:30** then it is **1:30**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c018f01-2ed9-4704-8037-b4012cbe4f97)
+
+* 9:00 -> 3:00.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5cd2971-f186-4b43-abd1-63446d0eb774)
+
+* 9:30 -> 3:30.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c163b7ed-b93f-456b-bb71-c10da9b34cf2)
+
+* If it is **10:30** then it is **1:30**.
+* If it is **9:30** then it is **2:30**.
+* If it is **11:30** then it is **12:30**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea85ae2d-9e77-4fe9-8229-63b166446bc1)
+
+* Option **D**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e415017-5eea-4db3-baf1-374b6ce271ff)
+
+* Ratio
+* 5/(5+2) -> 5/7
+* 2/(5+2) -> 2/7
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8da739b5-15bb-477c-88c6-8cd2331ef68d)
+
+* Option **D**
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24e7477d-5cca-4265-9adc-80fef3e45c09)
+
+* By default, Facing the **center**.
+* Seating arrangement.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b9d1655c-089c-4630-9504-24794160a885)
+
+* Option **C**, **R and U**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19aa38f8-e656-44c7-8194-12aba7278921)
+
+* Note [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1234888-27aa-45d0-94c2-9344181dd47a)
+
+* We didn't calculate **DP** because it was already mentioned that **P** wins the race. So the race size was **500m** so **Distance of 'P'** is **500m**.
+* We only calculated **Distance of 'Q'**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/963ff122-496b-4477-9a1f-c62f09802669)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b3e95b5e-0d24-4345-ab80-ce5d613c733c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3412d100-d445-47c1-81e1-f8c40f7a6381)
+
+* heel -> the back part of the human foot below the ankle.
+* heal ->  wound, injury, or person) to become sound or healthy again
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c46495d7-edc2-463f-bb15-9c61f11b9d6c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/438a2fef-8d65-4576-8461-9ee8f8b1cdfe)
+
+* Bell Chimes
+* We have to do **LCM**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b14061fe-dc07-4e80-9e74-cb5f5dd9c625)
+
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/21bacc88-0960-4262-a1c1-7c90eb38716d)
+
+* As mentioned in the **question** all of the **6 letters** are there on each of the dice. So the **3 letters** can also be **repeated** which means **QQ, VVV, UU** are also possible.
+* Question. [**IMPORTANT**]
+* Area of equilateral triangle -> 1/2 * base * height -> 1/2 * b * h.
+* Area of square -> side ^ 2 -> a ^ 2.
+* Area of circle -> pie * (r ^ 2)
+* Formula [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1c03b73-017d-4acc-a505-1455da10a0e9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f86edfd-7aec-40fd-93cb-3d48bcd227b5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba2eab2e-8a7d-4079-8b59-43e037cc1b4a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/682e59f4-77bb-43ad-95ef-71fc70a95606)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dcd50245-50a3-487a-ad61-ebfd47d1efaf)
+
+* Find the shaded sector area.
+* Area of square -> a ^ 2 -> 2 ^ 2 -> 4 [a = 2]
+* Area of circle -> 1/4 * pie * (r ^ 2) -> 1/4 * pie * 4 -> pie [r = 2]
+* Area of shaded region -> Area of square - Area of circle -> 4 - pie.
+* Formula [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ad18164-df6f-4332-9caa-9e491b22a138)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee9ce181-aa82-4d92-9833-4b73cc83f901)
+
+* Option **D**.
+* Exorbitant -> Price Rise.
+* Fair -> impartial and just, without favouritism or discrimination
+* Fare -> the money paid for a journey on public transport
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bfdf270d-861f-4594-9272-25ce3316c7bf)
+
+* Option **B**.
+* **T** is an **uncle** to **S**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1be01fab-4514-4ae8-b816-05919b1909d1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd100408-0b45-4cc5-8676-e517c1b94792)
+
+* Note. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c6f05776-6d7d-4833-8f1d-007ffae90943)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/29656924-ceb1-48b1-a0a7-d874fca8da81)
+
+* Note.
+* Start from line **2008**.
+
+
+
+
+
+
+
 
 
 
