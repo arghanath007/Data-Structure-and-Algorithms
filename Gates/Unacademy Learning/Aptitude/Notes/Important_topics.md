@@ -3697,11 +3697,107 @@ Option **D**.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/29656924-ceb1-48b1-a0a7-d874fca8da81)
 
 * Note.
-* Start from line **2008**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5cf6af2-233f-40f7-82b2-4fe3126e2ce7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/235ce2b6-319f-4623-aa60-0c1d11d7e2f0)
 
+* West -> Western countries/nations.
+* west -> Direction on the map. east-west
+* August -> Month of the year. It is a **noun**.
+* august -> It is a very august occassion. Auspicious occasion. It is an **Adjective**.
+* Difference in the **capital letters** meaning difference in **meaning** as well. 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c3c148ef-5288-4e73-96d6-5eb4fe4f8e05)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/841b8b8b-1849-4f5e-80f1-ac7f2139cc21)
 
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/020ff329-c54d-4d8f-a367-746cfde408ee)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b176ac60-4e3e-4e1d-bc94-24564d68b902)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d9f32db-5158-4e73-858c-c93e039c8ef7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7112795b-9bff-4569-a029-f3a0d440b1f0)
+
+* Question
+* [**IMPORTANT**]
+* It's -> Non-living thing. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f26e16c-f17e-4fd0-a327-53fde6e05e40)
+
+* 72 degree.
+* It is **star geometry**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0069d096-1403-4fda-ac66-af0038d69078)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b4c59a9-d1fe-4630-991b-2480f85c3f1e)
+
+* Note.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae75fe46-fdf2-4b44-9b0c-78c5208f7439)
+
+* [**IMPORTANT**]
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7dca199-660e-487b-bde5-f0e2cc20ca29)
+
+* This is similar to the **above question** only.
+* Pentagon -> 5 sides [n = 5]
+* This is similar to the **above question** only.
+* Each angle of a pentagon is **108 degree**.
+* For the **star**, the angles are divided **equally** so **108/2 = 72**.
+* Note.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/978f18f2-3d36-4f28-88d4-b6e73978a5f0)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/642dc519-e93b-404f-acfa-db56cd8e0db9)
+
+* Circle inside a Square.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/814a849f-f2a1-460c-bae6-bbfe67865e0d)
+
+* Area of square -> a ^ 2 -> 2 ^ 2 -> 4 square cm [a = 2cm]
+* Area of circle -> pie
+* Area of shaded region -> Area of square - Area of circle -> 4 - pie.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b5185c7-7f66-47df-9cde-f12656b56f7d)
+
+* Side of square -> 2cm
+* Diameter of circle -> 2/2 -> 1cm
+* Radius of circle -> 1/2 cm
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e000400-015c-4076-958c-1701c5bbd827)
+
+* We have **4 circles** that's why **4 * (pie * (r ^ 2))**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3160448-fad3-40b1-9677-af9ab6d174c6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d693572-e2a1-4172-86e4-6c3e3bdc6517)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/01a3d8c4-a591-4eb2-825b-2d9e1776b87b)
+
+* We know that the length of the **square** is **2 cm** here.
+* Calculate the **no. of radius(r)** we need for a **single row** of circles. We have **3 circles** in a single row here.
+* So each circle has **2 radius(r)** as **2 * radius = diameter**.
+* For the **3 circles** it is **3 * 2 = 6** radius(r).
+* To find the **single radius(r)** value we need to do simple calculation:-
+* 6 * r = 2 [**IMPORTANT**]
+* r = 2/6 = 1/3
+* r = 1/3 [This is the radius value]
+* We can do this for **any no. of circles** in a **row**. [**IMPORTANT**]
+* Power of symmetry.
+* Within a **square** we are finding **square no. of circles** then it is **symmetry**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c4b18618-8e3d-4715-972a-cdbe79bb0f1c)
+
+* [**IMPORTANT**]
+* Derived from the **above examples**.
+* Here also we used the **above formula** only.
+* Option **B**.
+
+* Start from 2091 line.
 
 
 
