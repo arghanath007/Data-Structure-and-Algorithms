@@ -9,6 +9,8 @@
 * Look at **PDF 41**. [**IMPORTANT**]
 * Remember/Practice the **Time, Speed and Distance** formulas and questions.
 * Look at **PDF 53** Questions.
+* See the **Words** from the **Aptitude_60_72_beyond** markdown/pdf file.
+* Not needed to look at the **Details** from the **Aptitude_60_72_beyond** markdown/pdf file. Mostly contains **extra/not needed** things.
 
 ## Questions
 
@@ -3797,7 +3799,768 @@ Option **D**.
 * Here also we used the **above formula** only.
 * Option **B**.
 
-* Start from 2091 line.
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d082fe2b-5267-470f-9078-2df2d311661c)
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/E93066B8E5
+* Doubt.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b7190dc-5369-45a5-9f44-4f8335693024)
+
+* Binary Logic.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/47d56001-d393-4360-aadf-cc02a8301c7b)
+
+* **One(1)** of the statements is **True** and the **other two(2)** statements are **False**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98edf3ae-e528-4632-85c8-f7a794343097)
+
+* All of the **different cases**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f1168152-5c73-4307-8913-97edd62f3683)
+
+* The **three things** we have are **Ball/Pen/Pencil**.
+* C -> Ball
+* R -> Does not have Ball
+* A ->Does not have Pen.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/991e8cbf-b3dc-425b-aee7-fd46c2a03eaf)
+
+* Second statement is **false**, which is **rahul(R) does not have ball**. So, **rahul(R) has the ball**.
+* There is discrepancy now. First statement was **true** which meant **chetan(C) has the ball** statement is **true**. But now there is **discrepancy** as both **chetan(C) and rahul(R)** both have the **ball**, which means this(Case 1) **case is wrong/incorrect**.
+* **Case 1 or A** is **wrong/incorrect**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/da56a093-08e1-484b-a145-d3337e6b8aca)
+
+* Statement II is **True** which is **'R' does not have a Ball**. So **R** either has a **Pen or a Pencil**.
+* Statement III is **False** which is **'A' does not have a Pen**. So **A** definitely has a **Pen**.
+* Statement I is **False** which is **'C' has a Ball**. So **C** either has a **Pen or a Pencil**.
+* The are **discrepancy/contradictions** here.
+* If **R** has **Pen** and **A** definitely has **pen**. It is not possible.
+* If **R** has **Pencil** and **A** definitely has **pen**. Now **C** can have either **Pen or pencil**, which **C** can't have as **R and A** are having **Pencil and Pen** respectively. So, It is not possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89bcddd8-5036-4ae5-8ce4-eb92786da22c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2e3d0989-5b2b-42e9-b65f-1f4560cdfa33)
+
+* **Case 2 or B** is **wrong/incorrect**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f02711d-244a-40ec-85fb-e2525a1acf87)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d4dbc90-32ff-485d-82d5-2d8cf7454e9d)
+
+* Statement III is **True** which is **'A' does not have a Pen**. So **A** either has a **Ball or Pencil**.
+* Statement II is **False** which is **'R' does not have a Ball**. So **R** definitely has a **Ball**.
+* Statement I is **False** which is **'C' has a Ball**. So **C** either has a **Pen or a Pencil**.
+* If **A** has a **Ball** and **R** definitely has a **Ball**. It is not possible.
+* If **A** has a **Pencil** and **R** definitely has a **Ball**. Now **C** can have either **Pen or a Pencil**. **C** cannot have a **Pencil** as **Pencil** is taken by **A** already. So **C** can have **Pen**.
+* **A** has a **Pencil**, **R** definitely has a **Ball** and **C** can have **Pen**.
+* **Case 3 or C** is **correct**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ad43a7d-6eab-47a7-b9e1-376c2cc80c9a)
+
+* Sibling -> dren or offspring having one or both parents in common; a brother or sister -> Brothers/Sisters.
+* Always check all of the **cases**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d2322bbf-98dd-4045-bc90-5fde151b93c3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97d51311-8a87-4f1f-930a-6662430e67aa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d76796e-709e-4846-86c5-bffa3b19645c)
+
+* Worst Player -> Zita OR Zita's son.
+* Best Player -> Zita's brother. [Always, in both the cases]
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7d9ca44-fb5e-446a-ad92-c9dd08e1e08c)
+
+* For **Kartik**, either **first statement** is correct or the **second statement** is **correct**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/70e34f5a-7822-4c24-8342-8a5ccf38a626)
+
+* We have assumed that the **first statement** is **correct** and the **second statement** is **not correct**. 
+* So the **assumptions** made by **us** for **kartik** should be **reflected** in the **other statements** as well otherwise our **assumptions** are **not correct**.
+* So we know that **Vivek and Ritam** are **have not stolen the phone**. This our **assumption**. Which has to **hold True** in the **next statements** as well. 
+* On the **basic** of the **above assumption** we have to decide which is the **Truth** and which is a **lie**.
+* If the **above assumption** is **not working** then we will go to the **next assumption** for **kartik** which is **first statement** is **not correct** and the **second statement** is **correct**.
+* The **second assumption** for **kartik** is not **correct** anyways because it is giving **contradiction** as we are saying that both **Vivek and Ritam** have stolen the **mobile phone**.
+* Wrong assumption.
+* **Approach IMPORTANT**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b890490d-fb5e-43ca-bc36-01cc18b9c8f3)
+
+* Type of question. [**IMPORTANT**] 
+* Area(A) and Perimeter(P) formula **usage**.
+* Need to know the **formulas**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8aa7db5-195e-4127-8e12-2cef060cd5c0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a40cec8-b2b6-453b-8a2a-4166901a2e9e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72c6ef4e-8ead-4d83-ac88-af728a8f8764)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37ada209-6bfd-42b5-9918-14522d97360e)
+
+* [**IMPORTANT**]
+* Practice it **again**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76a7ecba-c1e1-4d05-9f6a-7da83c7caf68)
+
+* **Product** value is **maximum** when the both the **values(x,y)** are **equal**.
+* When the **divergence/gap** between the **values(x,y)** increases the **product value** decreases.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b3323ee-375e-462c-80bc-1574158c8b6a)
+
+* Arithmetic Mean(AM) -> (x + y)/2.
+* Geometric Mean(GM) -> sqrt(x * y).
+* When **'X' is not equal to 'Y'**.
+* Then **AM > GM**.
+* AM >= GM
+* (x + y)/2 >= sqrt(x * y)
+* When **X = Y** then:-
+* AM -> x + x /2 -> 2x/2 -> x
+* GM -> sqrt(x * x) -> sqrt(x ^ 2) -> x
+* AM = GM.
+* This is the **case** when **AM is equals to GM**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d90e826-f56a-467f-a6e4-873eba634b80)
+
+* What is the relevance of the point?
+
+> We have a **circle** and we have cut out a **rectangle** from the **circle**. Area of the **rectangle** is **maximum**. It always means that it is a **square**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2030fcca-223e-4d9c-b4f9-329c9c1f7fb8)
+
+* How do we know that?
+
+> When they said a **quadrilateral/rectangle** with **maximum area**.
+
+* **Maximum area** means that all of the **sides** are of the **same length**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6e3873e5-9437-4c78-8740-632430d4b9d1)
+
+> When someone says **maximum area** it means that we are cutting a **square**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f30f055-fc60-4c4d-a10e-bbc83895d0db)
+
+* When we are going from **outside** to the **inside**, everything who's **unit** is in **centimeters(cm)**, multiply them with **1/sqrt(2)** and all of them who have **units** in **square centimeters(cm ^ 2)**, multiply them with **1/2**.
+* **Centimeters(cm)** -> **1/sqrt(2)**
+* **Square centimeters(cm ^ 2)** -> **1/2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ecc2faac-9635-4b43-92f8-ad8ea031c24d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/da05964f-a1ad-415f-8203-726cf5d53bcb)
+
+* If we take a **mid point** of a **square** then we will get a **square**.
+* If we take a **mid point** of a **square** then we will get a **rhombus**.
+* Whether it is **square or rhombus**, **rhombus** is a **square only** with **special case**.
+* All of the **squares** are by default **rhombus only**. The **opposite** need not be **True**.
+* Square(Sq) <-> Rhombus(Rh).
+* These **type of statements** are made to **confuse us**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b4236cf4-2e56-46ab-a9d7-08e0278c4e69)
+
+* This is also **True** when me draw a **circle** as well. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bd233d7a-f693-4e03-ab2f-1e1f9daf1231)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b67a03dd-1a08-488e-9f0b-146774c2eca6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/61aaed8e-730c-4978-8c8f-a5a11b955039)
+
+* Question.
+* Outer most side is **2cm**.
+* What is the **3rd square's side**?
+
+> Solution Below.
+
+* 2 * (1/sqrt(2)) -> 2 * (1/sqrt(2)) * * (1/sqrt(2)) -> 2 * ((1/sqrt(2) ^ 2)) -> 2 * (1/2) -> 1.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/21605d10-3b2a-4e90-9406-7db8dee0f64e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92781e1c-4150-48f8-8670-3420d71ef8b8)
+
+* Solution.
+* Answer -> 1cm.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a6a9f0e-62e8-418f-a52f-acdc23af260b)
+
+* What is the relation of the **1cm** with the **circle**?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09bb790a-ca6d-4e6f-bba8-1d88c3f104fd)
+
+> The **1cm** is the **diameter(D)** of the **circle**. So the **radius = D/2 = 1/2 = 0.5cm**.
+
+* r = 1/2cm = 0.5cm.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1772cedb-f53b-4d9a-98b3-62253d14eaec)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34218986-0296-4abe-9fa1-1e6b051f425e)
+
+* Area of the **blue colored circle**?
+* Area = Pie * r ^ 2 = Pie * (1/2) ^ 2 = Pie / 4
+* Area = Pie/4 [Answer]
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc1ae6e0-3015-4e24-95e0-35702a206358)
+
+* Inscribed -> Inside
+* Circumscribed -> Outside
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac6d5237-5cbb-4976-8c76-5a036b644a06)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/55357561-affd-4b9f-bc49-f6297623dfec)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50c65f94-bbec-4f94-9bce-d1fedf2e7883)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df2d89fe-9db4-43fa-91e2-953a35a5bcd0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3775f2cf-9251-4e26-abdc-f7408168293e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c1d05bd-754f-448c-b15a-7724a1ce5138)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d7175792-6c0d-4026-a6aa-bd95d9a5551b)
+
+* Option **A**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/00d48ef6-a284-4359-97f1-4b376163b616)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b6a084ae-2a96-4c65-8460-46f5c8d79186)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5cb38b51-4307-4322-ac0f-27d4d18d8d9a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5587db65-5941-44dc-9cb4-1ae9cdcc696b)
+
+* Thursday temp is **1.15 times** more than **monday**.
+* So **Thursday** is **46 degrees**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9948a4c4-d666-40c5-846e-6c3e04a8afed)
+
+* Option **A**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/15717c44-7206-4c2e-ae53-97b33a343da2)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bd84df8d-27ac-4954-9d63-ad33e579f391)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b7fb8d53-a14a-46a5-8b5a-d37667a2c15b)
+
+* 19 cases where the **number -> 23** came.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff34fcec-abad-4ab2-80d6-dcb46f1b5e85)
+
+* **1000 + 900 * 3 -> 3700** cases where the **number -> 23** came.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57ee0f6a-d224-4c49-bad7-98830d2301cc)
+
+* Option **C**.
+* 10 * 10 + 9 * 10 + 9 * 10 -> 100 + 90 + 90 -> **280 cases**.
+* 10 -> 0 to 9
+* 9 -> 1 to 9.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5da09532-f62e-4dee-9098-2123aaef058b)
+
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b9b50333-af27-4863-abce-9940faf17de1)
+
+* Option **C**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9475c1e3-585a-4301-a76e-aaf3b4d6d018)
+
+* Mirror Image
+* Paper cutting
+* Paper folding
+* We can keep the mirror either in the **horizontal/vertical** position.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8ab21ad-39de-4115-8bb2-7f6521c3b029)
+
+* Option **D**.
+* Mirror is **vertical**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16f55947-c05b-48ba-b87b-c6d7f636ce3b)
+
+* Mirror is **vertical**.
+* Option **B**.
+* **S** in **B and D** look different.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aff42c9f-2026-46fb-b59a-dc39b444a456)
+
+* Option **A**.
+* Horizontal mirror.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb67b360-2721-436c-88b4-67bb5f800321)
+
+* Option **C**.
+* Clockwise movement.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/104b9e03-6132-4610-aaf8-0f86c704c82d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83f473ee-8239-47cb-bd16-cee5d123ff22)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e716e65-6ea1-4e62-a459-ad12f55fced0)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e2e21b1-0cba-45c4-980b-9d885de666fc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf9a4439-554b-44fc-ad65-887ede3202b8)
+
+* Option **A**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d264077d-0472-4663-9cc8-54b7049cfe22)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/da1cc201-b236-41fd-b45d-058156572391)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5dfe2f8f-e4af-4ed2-9468-36438f02a4ef)
+
+* Option **3 or C**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6693138c-0942-437a-9e1a-3da6d3468e5f)
+
+* Number Sequence
+* Alphabets
+* Analogies.
+* Analogies can be given in **figures** as well.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc37e10e-9783-4d37-8c82-6cf0e17755dc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4cfd36d6-00f8-4993-a722-5f75726090c5)
+
+* Option **A**.
+* 180 degree + Singular(S)/Plural(P)
+* 180 degree + Singular(S)/Plural(P)
+* We are first rotating the **first image** by **180 degrees** and then we are changing the **singular** elements to **plural** and vice-versa.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/18ea5729-9920-4144-ad66-20cec0ebfae0)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/21b1c926-03bd-45b4-986b-db600a5b6942)
+
+* 180 degree + Singular(S)/Plural(P)
+* We are first rotating the **first image** by **180 degrees** and then we are changing the **singular** elements to **plural** and vice-versa.
+* [**IMPORTANT**]
+* Option **C**.
+
+## Paper folding and Paper cutting. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7093219d-9081-42c7-8cab-9690e1afaaa2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/730095bb-e5f6-451e-870d-2ffff20144b6)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/39fe230f-4200-4cba-a9d3-d8aecdde65c6)
+
+* Whoever is **bigger** in-terms of **length and breadth**, fold them. [**IMPORTANT**]
+* **Fold them** means that we are **dividing by 2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91124572-8945-4ae4-aa80-5bb40481d712)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1bf25bd6-f6df-4e55-940c-fc56894ae41f)
+
+* **M** -> Whoever is **bigger** in-terms of **length and breadth**, fold them.
+* Initial **length and breath** of **M** is **10 and 18cm** respectively.
+* Among **10 and 18**, **18** is **bigger** so we are **folding 18** which means we are **dividing 18 by 2**. So we get **10 and 9**. Now **10** is **bigger** so we are **folding 10** and we get **5 and 9**.
+* **N** -> Whoever is **smaller** in-terms of **length and breadth**, fold them.
+* Initial **length and breath** of **N** is **10 and 18cm** respectively.
+* Among **10 and 18**, **10** is **smaller** so we are **folding 10** which means we are **dividing 10 by 2**. So we get **5 and 18**. Now **5** is **smaller** so we are **folding 5** and we get **2.5 and 18**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e87e8fb7-9141-4294-8a0a-8756dff5ab0f)
+
+* Perimeter(Pm) -> 2 * (L + B) -> 2 * (5 + 4.5) -> 9.5 * 2 -> 19cm.
+* Perimeter(Pn) -> 2 * (L + B) -> 2 * (1.25 + 18) -> 19.25 * 2 -> 38.50cm.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b6b4e2a1-6efe-4d22-99e1-81bb5ec46d9e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a69a969b-de95-40ad-9ed9-41f817966aac)
+
+* **Perimeter** of a **rectangle** -> 2 * (length(l) + breath(b)).
+* Formula [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b335c852-4ad6-4f18-a08a-41db12222d07)
+
+* Option **E**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7c77936-e7de-4739-9356-b583246403e9)
+
+* Option **D**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ff102fe-6d2e-4811-9892-6692fd5980f0)
+
+* We are getting to the **10th** **letter** from the **right side** and then we are going to the **right side** of the **10th letter** to find the **3rd letter** to the **right side** of the **10th letter**.
+* Option **A**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f351642-bbd7-4952-ba61-299def324f43)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7bd9280a-f4f3-41bd-9ef4-e44cdad7d267)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9af8897-3db5-4dc8-85d7-40923daf96a8)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89564fb7-2bd5-4f68-b673-970938e664cc)
+
+* Binary Logic.
+* Tea(T)
+* Coffee(C)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89af14f4-6477-4e30-97f0-ddce4a6527ef)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb8e1b27-24ad-42f8-a577-7c63cfe03ff2)
+
+* If **K** is ordering **coffee(C)**. We are talking about **5,6,7 and 8 case**. Then **C and D** are drinking the **same drink**. So, **6 and 7 case** are eliminated. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc94c6bf-0b21-40cf-96cd-f931eb4c2611)
+
+* If **K** is not drinking **coffee(C)** that is **beyond the scope**. We do not know.
+* If **C** is ordering **coffee(C)**. The cases are **3,4,8**. Then **K and D** are drinking **different drinks**. The cases **3 and 8** are **invalid**. **4** is the **only valid** case.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/70c62a2c-6c0c-4654-ac38-0c4f7ae5d471)
+
+* Question.
+* Makes **cases**.
+* What ever **A** has said can either be **True or false**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83578252-8eef-4820-8bd8-87b0d992757c)
+
+* If **A** is telling the **truth** then **A** is a member of the **Tee(T)** family.
+* If **A** is not telling the **truth** then **A** is a member of the **E1(E)** family.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b1f07b2c-9ef5-4159-8a56-6131a88e121b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/49ad7fd2-7d31-4009-80d2-dcbf8a18cfcd)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/785c583a-bf13-45de-848c-c26b1bcec059)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/723ae18e-3825-4a65-bb10-5dfb212e8052)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d8ef0e8-89d8-439a-854e-a91459cc7962)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/145e1578-7dc1-402f-9efc-087dd788e16d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc920ad5-f4a5-4a36-8642-a48002f2da6f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa392d30-e713-4e0d-974e-68920ab22303)
+
+* We can 100% say the family name of **B**. **B** always comes in **E1** family.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1409ddb-89f1-4be5-a138-b8e7816f5775)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/741cb38d-7a65-4554-9e29-581599aae783)
+
+* Option **D**. [**IMPORTANT**]
+* Express -> Divulge/Reveal
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/179aa76c-1d35-41a6-bc78-a961f1f534b6)
+
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a286a2d5-5920-4cd9-8655-fb44eed4ecb3)
+
+* Entrust <-> Intrust [Same Meaning words]
+* Entrust -> assign the responsibility for doing something to (someone)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c5b06fd-6f98-475d-915b-ddd10f4c26ac)
+
+* Intrust -> Same meaning as **Entrust**.
+* Distrust -> the feeling that someone or something cannot be relied upon -> doubt the honesty or reliability of; regard with suspicion
+* Untrust -> Lack of trust, mistrust, doubt.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8c87079e-ae4d-4bb7-bc59-efeaf79ad39b)
+
+* Option **C**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81b7859e-9bff-4285-bba3-3c68ec5fa390)
+
+* Option **C**. 
+* **7, 11 and 17** are all **prime numbers**. So the **missing number** is also a **prime number**.
+* That's why **13** is the **missing number**.
+* Link -> https://gateoverflow.in/313558/gate2019-ee-ga-3
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2c70d58-de6f-4f47-a1a3-5e5c983ef69b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71f1247b-0d49-4323-8560-95967f5aa2db)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b62d8bf-c0f2-4f24-9574-200df4af9b8b)
+
+* **Full circle** is **360 degree**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/da7897fa-fa0f-42ac-83a7-bdae06f69a0b)
+
+* **1hr or 60mins** is **30 degrees**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8547b002-a0ea-4039-b8b6-cf961d51e844)
+
+* From **4pm to 5pm**, **mins covered** is **60mins**.
+* Minute Hand(MH)
+* Hour Hand(HH)
+* From **4pm to 5pm**, **30 degrees** is covered by the **hour hand**.
+* **1 min distance** -> 30 degree / 60 mins -> **1/2 degree**
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/541da0a9-8dac-4fc5-90f1-b9aa50597418)
+
+* Angle between minute and hour hand?
+* **1 minute = 1/2 degree** [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f41448d7-d703-4a34-bb9e-d5e6292ec70b)
+
+* We are finding for **20mins**. So we are **multiplying** by **20** on each of the sides.
+* **20mins -> 1/2 * 20 -> 10 degrees**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/49c602fb-2ebe-4e6f-a913-124f5f453f32)
+
+* **Hour hand movement** = 25 mins * 1/2 = 12.5 degree
+* **Minute hand movement** = 30 + 30 + 30 + (30 - 12.5) = 90 + 17.5 = 107.5
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/689c3863-7d41-4dca-9bd1-db2ca4b23651)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/689c3863-7d41-4dca-9bd1-db2ca4b23651)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0aac777c-900a-4648-a668-c6d386efe122)
+
+* Question.
+* Angle  -> 77.5 degree.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/371c7b1d-9159-4e6f-8b88-f6e94bfc6c84)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/052aac3a-df7a-4d9f-bea6-90b47238218d)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6ed5979-7527-44d1-bd35-3893758878ad)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/90908aee-c2ee-4203-9602-06d59024f031)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d20453e1-f0c6-4cdc-87cc-fa848057f2a7)
+
+* Hour(H)
+* Minutes(M)
+* Finding the **angle** between the **Hour(H) and minute(m)** hand. Use the **above formula**.
+* Formula [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b47efb89-0e4a-4c06-a216-b39386dfdbef)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/787b8a5a-a907-46a7-840b-a74fe2d5d919)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/058c887b-a32c-452c-a1d3-dfd5ed7d5783)
+
+* Example. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1cbbc744-6b6c-4a11-817f-411dc22c2a28)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f62aaed8-fd7c-4267-8d27-f040d8636c23)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b57a61e2-6b69-434c-bc3f-5d0aaad5e841)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d291279e-bfe9-4dab-b82f-81f4567efa43)
+
+* Example. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/360aba16-59f3-4295-88e8-93ae705b87ad)
+
+* Question -> 10:35.
+* As the **hour hand(HH)** has moved **forward/moving up** that's why we are **adding it**.
+* 30 * 3 + 35/2 = 90 + 17.5 = 107.5
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dcdfbc45-59f9-4a9c-be5a-f73fc0606a7e)
+
+* Example. [**IMPORTANT**]
+* In the earlier **example** we did **substraction** because it was **moving down/cutting down the angle** that's why we did **substraction**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6069b96f-cfdb-4664-9009-81df3e0479fc)
+
+* Reflex angle.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0427156c-8f48-4d32-9f4f-305423e1b223)
+
+* Question
+* 11:00 -> 11:45
+* We can see that the **Hour hand(HH)** is **moving up/increasing the angle**, so we will do **addition** here.
+* 30 * 2 + 45/2 = 60 + 22.5 = 82.5 [Answer]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2e1b20bb-6573-4228-80d2-022922d00c45)
+
+* Example [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d74bfa7-614b-433a-bf39-721ec1abf2d7)
+
+* Example
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc93e7c5-2001-4095-9263-fb189c11f795)
+
+* Example
+* 1:25pm
+* H = 1, M = 25
+* |30H - 11/2M| -> |30 * 1 - 11/2 * 25| -> |30 - 137.5| -> 107.5 [Answer]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d09205b0-b64d-4ee5-94ef-36d6f7e92617)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f4cdd0ce-2472-4d3d-9dde-f930aae051ed)
+
+* vertices, edges, faces.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af2b3dd3-d533-4065-bf98-d5112726367e)
+
+* As the **divergent/divergence** has **increased** the value of the product has **decreased**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eeacd5ee-db87-4735-a2ea-a17e48254f65)
+
+* No. of cuts.
+* No. of cuts -> Max. no. of cubes? [Max. no. of small identical cubes]
+* No. of cuts = 6. [Equal or closest to equal parts]
+* No. of cuts + 1 -> No. of cubes [**IMPORTANT**]
+* Max. no. of small identical cubes -> 3 * 3 * 3 -> 27 [2 + 1 -> 3].
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eeacd5ee-db87-4735-a2ea-a17e48254f65)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3985c19-6224-49a0-9621-915d3dfb3106)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1349c186-f6cd-4e0d-aa9d-68fea614bf77)
+
+* We are calculating the **no. of cubes**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0479c47e-12a3-494a-bc7f-97b012447aef)
+
+* Example.
+* We have **9 cuts**.
+* We are **dividing the 9 cuts** equally and we are getting **3 cuts for 3 instances**. So we will **add +1** to all of the **3 instances** which will give us **3 instances** with **4 cut** each.
+* So, **4 * 4 * 4 -> 64** cubes.
+* No. of cubes -> 64
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b3524936-5013-4b6e-8450-4b88eb131b13)
+
+* Question.
+* For **12**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5d87b58-347b-4429-9f1b-1c0d0718821f)
+
+* For **15**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd558853-8abe-43cc-8000-f75117a071d5)
+
+* For **5**.
+* Example
+* Answer -> 18.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ceea2f72-572a-4144-9479-46d45c66416f)
+
+* Possible Case.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c51092e-b80c-4cd3-baa7-4681a3e1727f)
+
+* Example.
+* For **17**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/55b2566d-770b-40f2-bc4d-e4ac5515a447)
+
+* Example.
+* For **8**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e49a9c3-b14d-43da-8c48-1d7199ab937e)
+
+* Example.
+* For **11**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed5bfc38-d564-464c-9755-bc79e654ac0f)
+
+* When **no. of cubes** are given, we need to find the **no. of cuts**.
+* **no. of cubes** -> 125
+* Find the **prime factors** of **125**.
+* We got **5 * 5 * 5**.
+* Remove **1** from **all of them**.
+* We got **4**.
+* Add them up, **4 + 4 + 4 -> 12**.
+* No. of cuts -> 12 [Answer]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/412a8cd6-f8df-4a1e-9c05-1340ab2b8130)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f1ee6532-cc90-475e-9e27-b05aee009c02)
+
+* No. cuts -> **145 and 512**.
+* **no. of cubes** -> 512
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bd02f8d4-83d8-4e80-a866-6938589e4914)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb1ea04e-3513-471b-8f50-b59dae2883df)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c8228aab-ed8f-4be6-a9fb-787d5059c7b6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/623a0e2f-aa5c-41cd-a293-c1b704f219dd)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed1d1543-48ba-4a22-a705-9301ddec5244)
+
+* Vertices(V)
+* Edges(E)
+* Faces(F)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/745d18f4-a0bd-4b93-94af-a4a85d750a49)
+
+* Example.
+* Max **three faces** can be colored.
+* The **three faces** can be colored only at the **corners/vertices**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1af446aa-ef3b-47d7-b3f6-a56faf88e2b4)
+
+* Max **two faces** can be colored.
+* The **two faces** can be colored only at the **edges** excluding **corners**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eda25de1-dce3-4393-b910-07ada70a6eb7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e2fbc4e-fead-45e4-96dc-34611bc5ffb9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f26842e-4525-46ea-a7c2-c6af43b14431)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e92bc89d-6a75-41f4-8892-e5f80fc81a1d)
+
+* **125** small identical cubes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/535ad9be-142b-4eba-bf5e-bf3d16afb637)
+
+* Max three(3) faces can only be painted.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d7d9f24-52ea-4fe9-8e76-424061b75f80)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/82743126-fc72-47f1-8e92-6bd24bb36114)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/871dccec-66ef-46e1-b9dc-2a0cc0e6578f)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/47e1d915-93b0-4f8d-974d-a55a92a09586)
+
+* Example.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e19970c-4568-490c-b987-c607ac95c5fd)
+
+* Monday
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71fb2171-7229-41c0-9a32-c84274524d34)
+
+* **30/7 -> 2**.
+* **31/7 -> 3**.
+* A month can have max to max of **31 days**.
+* In any given month there can be **3 days** which comes **5 times** in that month.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa0ddc56-ba15-4aba-ab53-a1d92edc6851)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09e1a922-f54f-4d44-9d85-30d3c3c20c22)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/860c7d8c-dd95-42be-95f5-3de2419e797b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/968edf56-2d90-47eb-8397-8779ccfcb2d7)
+
+* Option **A**.
+* [**IMPORTANT**]
+
 
 
 
