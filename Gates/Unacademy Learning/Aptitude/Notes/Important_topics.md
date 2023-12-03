@@ -2717,7 +2717,7 @@ Option **D**.
 * Clockwise movement(CW)/Anti-clockwise movement(ACW) -> This them.
 * Triangle -> Clockwise movement -> +1/+2/+3/+4
 * Diamond -> Clockwise movement -> +1/+2/+3/+4
-* The **shades** of the **triangle** are doing **180** or **changing places** everytime.
+* The **shades** of the **triangle** are doing **180** or **changing places** every time.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a52972fe-a02c-4514-8127-07b3ebf04dd2)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d686f17-4209-47fc-ab18-20c8a6a9caab)
