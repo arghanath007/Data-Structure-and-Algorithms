@@ -6139,10 +6139,122 @@ Option **D**.
 
 
 
+# Tests
+
+## Test 1
+
+* Link -> https://unacademy.com/quiz/general-aptitude-test-1/UTGQOWB8CX/solutions/SP_M47A10JO2X2MX81HQ
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2124f9c2-89a9-48b0-8c7b-abcdd78a6e09)
+
+* 1
+* Black/White Squares -> 4 [In each row/column]
+* We have **8 rows**.
+* So **4 * 8 -> 32** squares of Black/White. [Total]
+* Squares satisfying the **question requirement** -> 32 - (4 + 4) -> 32 - 8 -> 24 [4 -> rows, 4 -> columns]
+* Combinations/Ways -> 24 * 32 -> 768 [Correct Answer]
+* But **768** not in the options. So it is **option D**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e581ff4-1fa2-4b5e-ae30-8acbcaad4457)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/689f4309-6fd6-4f1b-abdb-e955cfb0fbe4)
+
+* 2
+* The angles at the **corners** of the **square** are **90 degrees**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1b918eb-bd2f-4287-b78f-634df23c5fb2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/02226c0a-f665-4572-a07a-c7e918d071c2)
+
+* 3
+* Exceptionable -> open to objection; causing disapproval or offence -> Intolerable
+* Exceptional ->  unusual; not typical -> an item in a company's accounts arising from its normal activity but much larger or smaller than usual -> Unusually good.
+* Obliged -> make (someone) legally or morally bound to do something
+* Compelled -> force or oblige (someone) to do something
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89454899-aad4-42f7-84b8-e0af51d5c440)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3db805e0-3c1a-456e-b7f0-61b7fc9abcec)
+
+* 4
+* The year **1941-42** is the **base year**.
+* Average Annual % increase = (200 - 100)/ (4 * 100) = 100/40 = 5/2 = 2.5%.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22db72b1-440c-4140-b8c4-4adb61c91936)
+
+* 5
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/88bf5bb3-f5c8-4d4c-b077-c87bb952b334)
+
+* 7
+* Got it correct by change.
+* Retellings -> means a new account or an adaptation of a story -> A retelling is a new version of an old story
+* Obscure -> not discovered or known about; uncertain
+* Garb -> clothing, especially of a distinctive or special kind -> dress in distinctive clothes
+* Distinct -> recognizably different in nature from something else of a similar type
+* Whirlwind ->  a column of air moving rapidly round and round in a cylindrical or funnel shape
+* Vacuous -> having or showing a lack of thought or intelligence; mindless
+* Nomenclature -> the devising or choosing of names for things, especially in a science or other discipline
+* Buttery -> containing or tasting like butter -> a room in a college where food is kept and sold to students
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6f406e1-2a32-450f-8f5b-a9b0b4f7de13)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/188b94d6-564e-4d90-ae39-76fb99ce3fc4)
+
+* 9.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d98ca57-cb78-40ee-8a84-eb437e684529)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/934d40bd-6cb7-496c-a293-a9ec30b4b1fd)
+
+* It would be **PT ^ 2**.
+* 10.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/569acb4d-a379-4460-a5a0-131f89713e55)
+
+* use the **calculator** and try to put the **options** and see which is **correct**.
+* 11
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2693b195-b9de-439e-9c9a-0bd176b58931)
+
+* 12
+* Remember the **formula**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aadc562b-fb9a-40ea-8d9c-396dd03d91f7)
+
+* 13
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b64e56e-be92-496b-85eb-5e2665758461)
+
+* 14
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0dbdd1c8-7ce1-4d43-8d0c-3465355b0227)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6dd0bb0c-fadb-47fd-ab38-c97bb5d00398)
+
+* 15
+* Correct Answer -> Gauri(G).
+* As there is no **Gauri(G)** in the options so the **answer** is **option D**.
+
+## Test 2
 
 
 
-## PYQs
+
+
+
+
+
+
+
+
+
+
+
+
+
+# PYQs
 
 * Doing from the **Aptitude Gate PYQ 2010-2021.pdf** PDF file.
 
