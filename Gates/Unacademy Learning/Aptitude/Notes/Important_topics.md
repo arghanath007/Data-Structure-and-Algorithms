@@ -6131,6 +6131,367 @@ Option **D**.
 
 * Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/6FA661AF83
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/61be29d8-fc7d-4441-b86e-67b3093f7b9d)
+
+* Link -> https://www.quora.com/Consider-an-obtuse-triangle-with-sides-8cm-15cm-x-cm-If-x-is-an-integer-how-many-such-triangles-are-possible/answer/Girija-Warrier?ch=15&oid=31576573&share=a9598de7&srid=u9WUc4&target_type=answer
+
+
+
+
+
+
+
+
+
+# Tests
+
+## Test 1
+
+* Link -> https://unacademy.com/quiz/general-aptitude-test-1/UTGQOWB8CX/solutions/SP_M47A10JO2X2MX81HQ
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2124f9c2-89a9-48b0-8c7b-abcdd78a6e09)
+
+* 1
+* Black/White Squares -> 4 [In each row/column]
+* We have **8 rows**.
+* So **4 * 8 -> 32** squares of Black/White. [Total]
+* Squares satisfying the **question requirement** -> 32 - (4 + 4) -> 32 - 8 -> 24 [4 -> rows, 4 -> columns]
+* Combinations/Ways -> 24 * 32 -> 768 [Correct Answer]
+* But **768** not in the options. So it is **option D**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e581ff4-1fa2-4b5e-ae30-8acbcaad4457)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/689f4309-6fd6-4f1b-abdb-e955cfb0fbe4)
+
+* 2
+* The angles at the **corners** of the **square** are **90 degrees**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1b918eb-bd2f-4287-b78f-634df23c5fb2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/02226c0a-f665-4572-a07a-c7e918d071c2)
+
+* 3
+* Exceptionable -> open to objection; causing disapproval or offence -> Intolerable
+* Exceptional ->  unusual; not typical -> an item in a company's accounts arising from its normal activity but much larger or smaller than usual -> Unusually good.
+* Obliged -> make (someone) legally or morally bound to do something
+* Compelled -> force or oblige (someone) to do something
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89454899-aad4-42f7-84b8-e0af51d5c440)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3db805e0-3c1a-456e-b7f0-61b7fc9abcec)
+
+* 4
+* The year **1941-42** is the **base year**.
+* Average Annual % increase = (200 - 100)/ (4 * 100) = 100/40 = 5/2 = 2.5%.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22db72b1-440c-4140-b8c4-4adb61c91936)
+
+* 5
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/88bf5bb3-f5c8-4d4c-b077-c87bb952b334)
+
+* 7
+* Got it correct by change.
+* Retellings -> means a new account or an adaptation of a story -> A retelling is a new version of an old story
+* Obscure -> not discovered or known about; uncertain
+* Garb -> clothing, especially of a distinctive or special kind -> dress in distinctive clothes
+* Distinct -> recognizably different in nature from something else of a similar type
+* Whirlwind ->  a column of air moving rapidly round and round in a cylindrical or funnel shape
+* Vacuous -> having or showing a lack of thought or intelligence; mindless
+* Nomenclature -> the devising or choosing of names for things, especially in a science or other discipline
+* Buttery -> containing or tasting like butter -> a room in a college where food is kept and sold to students
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6f406e1-2a32-450f-8f5b-a9b0b4f7de13)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/188b94d6-564e-4d90-ae39-76fb99ce3fc4)
+
+* 9.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d98ca57-cb78-40ee-8a84-eb437e684529)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/934d40bd-6cb7-496c-a293-a9ec30b4b1fd)
+
+* It would be **PT ^ 2**.
+* 10.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/569acb4d-a379-4460-a5a0-131f89713e55)
+
+* use the **calculator** and try to put the **options** and see which is **correct**.
+* 11
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2693b195-b9de-439e-9c9a-0bd176b58931)
+
+* 12
+* Remember the **formula**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aadc562b-fb9a-40ea-8d9c-396dd03d91f7)
+
+* 13
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b64e56e-be92-496b-85eb-5e2665758461)
+
+* 14
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0dbdd1c8-7ce1-4d43-8d0c-3465355b0227)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6dd0bb0c-fadb-47fd-ab38-c97bb5d00398)
+
+* 15
+* Correct Answer -> Gauri(G).
+* As there is no **Gauri(G)** in the options so the **answer** is **option D**.
+
+## Test 2
+
+* Link -> https://unacademy.com/quiz/general-aptitude-test-2/58XMVYCN9T/solutions/SP_HL9QFD2YJMTW1M47D
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/25e2738b-6d8c-49cb-ac1e-6ac7fe3308f0)
+
+* 1
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f3925d5c-8459-4714-ae88-16771fcec320)
+
+* Concept
+* A -> 8
+* B -> 15
+* C -> x
+* C < a + b
+* x < 8 + 15 -> x < 23.
+* C > |a - b|
+* x > |8 - 15| -> x > |-7| -> x > 7.
+* X < 23 & X > 7.
+* X -> 8 to 22(8,9,10,..., 22).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6e579180-62c8-4ff1-ae39-4b29b4f2071f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80f0ab83-e7cf-4f91-a124-8fcc1fa3e28a)
+
+* X.
+* Suppose **15cm** is the longest side.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ce1a174-4b0c-4222-bfa3-4c035d89f537)
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/CE21BC5709
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0bd5c52-6739-476e-9276-e621e2498581)
+
+* 2
+* 0 to 999999
+* 3 * 3 * 3 * 3 * 3 * 3 -> 3 ^ 6 -> 729
+* The number **000000** is not allowed.
+* So **729 - 1 -> 728** [Answer]
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef7e8096-a952-49db-b1cf-e5890762094d)
+
+* 3
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34b1114a-cd07-427c-add2-abe5cf016614)
+
+* 5
+* Remember the **formula**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/06197334-1c03-415a-9c66-e6d15b67a85c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1434c41-01f8-4dd0-8c63-ce9139c591e1)
+
+* 6
+* I did it **correct** by looking at the **answers**.
+* Understand the **logic**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/beac257f-c93e-4779-bdd9-f20328a66200)
+
+* 7
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fbd3e862-34ef-440c-a3c0-ed4354d54150)
+
+* Area of a Square -> ((Diagonal of a square) ^ 2)/2 [Formula] [**IMPORTANT**]
+* Area of a Circle -> Pie * (r ^ 2).
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e914ce1f-2e2a-4103-9ee0-2d04af03cb08)
+
+* 8
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/287f0460-4ef4-4f12-826c-cbce15b196d5)
+
+* 9
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef243268-316d-4df5-9574-1874eabd3437)
+
+* 12
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1637064a-09da-478b-9cb1-0ba45a623385)
+
+* Benign -> gentle and kindly -> (of a disease) not harmful in effect
+* Malignant -> evil in nature or effect; malevolent -> (of a disease) very virulent or infectious
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bba4a489-f779-43ab-9e11-2ef07c30fe63)
+
+* 13
+* Hiatus -> a pause or break in continuity in a sequence or activity
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/87ea4650-02f8-4aad-bf34-f0d683e9aefd)
+
+* Extension -> a part that is added to something to enlarge or prolong it
+* quiescence -> inactivity or dormancy, quiet, still, or at rest.
+* expression -> the action of making known one's thoughts or feelings
+* alienation -> the state or experience of being alienated -> the transfer of the ownership of property rights
+* absolution -> formal release from guilt, obligation, or punishment
+* latency -> delay, time delay. 
+* hint -> a slight or indirect indication or suggestion -> a small piece of practical information or advice
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/20ae4516-0162-4b6f-b4e6-cf98825ad8c4)
+
+* 15.
+
+## Test-III
+
+* Link -> https://unacademy.com/quiz/subject-test-general-aptitude/TKN1DXZJE6/solutions/SP_MASSB3AI1D35ARHSI
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc7757de-ac38-4bc7-9a9a-1267b8242493)
+
+* 1
+* Remember the **formula**.
+* n * (n - 1) = No. of gifts
+* n -> No. of children.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09d5718f-e07f-4c67-9ea9-a946fd038139)
+
+* 3
+* Quadratic Equation formula
+* x ^ 2 - x - 1 = 0.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b47c6c9d-25ae-418f-8533-cdc746c41071)
+
+* x = (-b +- sqrt(b ^ 2 - (4 * a * c)))/2 * 1
+* a= 1, b = -1, c = -1
+* formula [**IMPORTANT**]
+​​
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a816bef-b072-4ada-a576-4b9d254a2764)
+
+* 4
+* Read the question carefully.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/88aef4c8-999b-487f-a3a4-44e77cd1638f)
+
+* 5
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/3CC0AD5084
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ffc4ef59-d2a4-4932-9046-5d58d9c09b8d)
+
+* Try to solve by looking at the **options**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ca1a34c8-e50d-412e-9b00-8ee94a3d6f50)
+
+* 6
+* Read questions carefully.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be798b08-fe09-462f-8144-e30b7e0ddd21)
+
+* 8
+* Read questions carefully.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e0466023-ed63-47a6-a5e5-a1549c9b3e92)
+
+* 11
+* Remember the **formula** [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db9453cd-d426-44f4-8c7a-90b3841af233)
+
+* 12
+* Dices -> 6 faces.
+* P(3 multiple) * P(2 blue) + P(5 multiple) * P(2 blue) + P(neither 3, nor 5) * P(2 blue)
+* P(3 multiple) -> 2/6 -> 1/3 [3,6]
+* P(5 multiple) -> 1/6 [5]
+* P(neither 3, nor 5) -> 1 - (3,6,5) -> 1 - 3/6 -> 1 - 1/2 -> 1/2
+
+* Remember the **formula** [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/233e0d3a-4ee2-4757-9b16-cf08889aff13)
+
+* 13
+* Remember the **formula** [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b13d7b4-b244-483f-aacd-1c76e7fd0bdd)
+
+* 14
+* Neighbours -> Collinear points - 1 -> 11 - 1 -> 10.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dde1731a-bda6-45dc-a1cf-3f6b5aa0f012)
+
+* 15
+* Remember this **concept/formula**.
+* For **nCr** if **n** is **even** then **nCr** is the highest for **r=n/2**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5748c4b-7fc6-4044-bd68-eecfb84136f5)
+
+* 17
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63f7c633-092f-4bd6-8a25-5a0fddd2cd3b)
+
+* 19
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f3135db5-af74-482e-8d5d-6f4080d58a0e)
+
+* 21
+* Trying -> Singular verb
+* So instead of **are** we will use **is** as there is **singular verb** used before.
+* Remember.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c663e1e-9358-41d0-b136-6ec7ce4f5cd1)
+
+* 23
+* Read carefully.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e46a91fb-6644-4f3a-a52c-9bac3efaa3c4)
+
+* 24
+* Read carefully.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bdaf9df1-692e-4268-8747-ec6deacfdaf7)
+
+* 25
+* Got it correct by chance.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/542829bc-fdbd-4790-8354-d6439abb1b7e)
+
+* 28
+* REMONSTRANCE -> a forcefully reproachful protest
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12e34639-a647-4278-9f75-144010ed13da)
+
+* ENDEMIC.
+* Reproof -> an expression of blame or disapproval
+* Dross -> something regarded as worthless; rubbish
+* Expostulation -> discuss, examine
+* Indigenous -> originating or occurring naturally in a particular place; native
+* Arrogate -> to take or claim for oneself without right; appropriate -> take or claim (something) without justification. 
+* Mendacious-> not telling the truth; lying
+* Objection -> an expression or feeling of disapproval or opposition; a reason for disagreeing -> Objection.
+* Local -> relating or restricted to a particular area or one's neighbourhood
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86016f81-ef91-4d74-93a5-80ef22088bfe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a1a1dfb-32b2-4510-a877-ee4bb37fb393)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3536487b-f2bc-4b6d-9e6f-c1acb4daf212)
+
+* 29
+* [**IMPORTANT**]
 
 
 
@@ -6142,7 +6503,21 @@ Option **D**.
 
 
 
-## PYQs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# PYQs
 
 * Doing from the **Aptitude Gate PYQ 2010-2021.pdf** PDF file.
 
