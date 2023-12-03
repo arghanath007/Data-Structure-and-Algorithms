@@ -6351,6 +6351,154 @@ Option **D**.
 
 ## Test-III
 
+* Link -> https://unacademy.com/quiz/subject-test-general-aptitude/TKN1DXZJE6/solutions/SP_MASSB3AI1D35ARHSI
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc7757de-ac38-4bc7-9a9a-1267b8242493)
+
+* 1
+* Remember the **formula**.
+* n * (n - 1) = No. of gifts
+* n -> No. of children.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09d5718f-e07f-4c67-9ea9-a946fd038139)
+
+* 3
+* Quadratic Equation formula
+* x ^ 2 - x - 1 = 0.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b47c6c9d-25ae-418f-8533-cdc746c41071)
+
+* x = (-b +- sqrt(b ^ 2 - (4 * a * c)))/2 * 1
+* a= 1, b = -1, c = -1
+* formula [**IMPORTANT**]
+​​
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a816bef-b072-4ada-a576-4b9d254a2764)
+
+* 4
+* Read the question carefully.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/88aef4c8-999b-487f-a3a4-44e77cd1638f)
+
+* 5
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/3CC0AD5084
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ffc4ef59-d2a4-4932-9046-5d58d9c09b8d)
+
+* Try to solve by looking at the **options**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ca1a34c8-e50d-412e-9b00-8ee94a3d6f50)
+
+* 6
+* Read questions carefully.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be798b08-fe09-462f-8144-e30b7e0ddd21)
+
+* 8
+* Read questions carefully.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e0466023-ed63-47a6-a5e5-a1549c9b3e92)
+
+* 11
+* Remember the **formula** [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db9453cd-d426-44f4-8c7a-90b3841af233)
+
+* 12
+* Dices -> 6 faces.
+* P(3 multiple) * P(2 blue) + P(5 multiple) * P(2 blue) + P(neither 3, nor 5) * P(2 blue)
+* P(3 multiple) -> 2/6 -> 1/3 [3,6]
+* P(5 multiple) -> 1/6 [5]
+* P(neither 3, nor 5) -> 1 - (3,6,5) -> 1 - 3/6 -> 1 - 1/2 -> 1/2
+
+* Remember the **formula** [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/233e0d3a-4ee2-4757-9b16-cf08889aff13)
+
+* 13
+* Remember the **formula** [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b13d7b4-b244-483f-aacd-1c76e7fd0bdd)
+
+* 14
+* Neighbours -> Collinear points - 1 -> 11 - 1 -> 10.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dde1731a-bda6-45dc-a1cf-3f6b5aa0f012)
+
+* 15
+* Remember this **concept/formula**.
+* For **nCr** if **n** is **even** then **nCr** is the highest for **r=n/2**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5748c4b-7fc6-4044-bd68-eecfb84136f5)
+
+* 17
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63f7c633-092f-4bd6-8a25-5a0fddd2cd3b)
+
+* 19
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f3135db5-af74-482e-8d5d-6f4080d58a0e)
+
+* 21
+* Trying -> Singular verb
+* So instead of **are** we will use **is** as there is **singular verb** used before.
+* Remember.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c663e1e-9358-41d0-b136-6ec7ce4f5cd1)
+
+* 23
+* Read carefully.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e46a91fb-6644-4f3a-a52c-9bac3efaa3c4)
+
+* 24
+* Read carefully.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bdaf9df1-692e-4268-8747-ec6deacfdaf7)
+
+* 25
+* Got it correct by chance.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/542829bc-fdbd-4790-8354-d6439abb1b7e)
+
+* 28
+* REMONSTRANCE -> a forcefully reproachful protest
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12e34639-a647-4278-9f75-144010ed13da)
+
+* ENDEMIC.
+* Reproof -> an expression of blame or disapproval
+* Dross -> something regarded as worthless; rubbish
+* Expostulation -> discuss, examine
+* Indigenous -> originating or occurring naturally in a particular place; native
+* Arrogate -> to take or claim for oneself without right; appropriate -> take or claim (something) without justification. 
+* Mendacious-> not telling the truth; lying
+* Objection -> an expression or feeling of disapproval or opposition; a reason for disagreeing -> Objection.
+* Local -> relating or restricted to a particular area or one's neighbourhood
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86016f81-ef91-4d74-93a5-80ef22088bfe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a1a1dfb-32b2-4510-a877-ee4bb37fb393)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3536487b-f2bc-4b6d-9e6f-c1acb4daf212)
+
+* 29
+* [**IMPORTANT**]
+
+
+
+
+
+
+
 
 
 
