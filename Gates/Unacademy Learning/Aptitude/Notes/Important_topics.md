@@ -6131,6 +6131,10 @@ Option **D**.
 
 * Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/6FA661AF83
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/61be29d8-fc7d-4441-b86e-67b3093f7b9d)
+
+* Link -> https://www.quora.com/Consider-an-obtuse-triangle-with-sides-8cm-15cm-x-cm-If-x-is-an-integer-how-many-such-triangles-are-possible/answer/Girija-Warrier?ch=15&oid=31576573&share=a9598de7&srid=u9WUc4&target_type=answer
+
 
 
 
