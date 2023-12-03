@@ -6239,6 +6239,117 @@ Option **D**.
 
 ## Test 2
 
+* Link -> https://unacademy.com/quiz/general-aptitude-test-2/58XMVYCN9T/solutions/SP_HL9QFD2YJMTW1M47D
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/25e2738b-6d8c-49cb-ac1e-6ac7fe3308f0)
+
+* 1
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f3925d5c-8459-4714-ae88-16771fcec320)
+
+* Concept
+* A -> 8
+* B -> 15
+* C -> x
+* C < a + b
+* x < 8 + 15 -> x < 23.
+* C > |a - b|
+* x > |8 - 15| -> x > |-7| -> x > 7.
+* X < 23 & X > 7.
+* X -> 8 to 22(8,9,10,..., 22).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6e579180-62c8-4ff1-ae39-4b29b4f2071f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80f0ab83-e7cf-4f91-a124-8fcc1fa3e28a)
+
+* X.
+* Suppose **15cm** is the longest side.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ce1a174-4b0c-4222-bfa3-4c035d89f537)
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/CE21BC5709
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0bd5c52-6739-476e-9276-e621e2498581)
+
+* 2
+* 0 to 999999
+* 3 * 3 * 3 * 3 * 3 * 3 -> 3 ^ 6 -> 729
+* The number **000000** is not allowed.
+* So **729 - 1 -> 728** [Answer]
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef7e8096-a952-49db-b1cf-e5890762094d)
+
+* 3
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34b1114a-cd07-427c-add2-abe5cf016614)
+
+* 5
+* Remember the **formula**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/06197334-1c03-415a-9c66-e6d15b67a85c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1434c41-01f8-4dd0-8c63-ce9139c591e1)
+
+* 6
+* I did it **correct** by looking at the **answers**.
+* Understand the **logic**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/beac257f-c93e-4779-bdd9-f20328a66200)
+
+* 7
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fbd3e862-34ef-440c-a3c0-ed4354d54150)
+
+* Area of a Square -> ((Diagonal of a square) ^ 2)/2 [Formula] [**IMPORTANT**]
+* Area of a Circle -> Pie * (r ^ 2).
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e914ce1f-2e2a-4103-9ee0-2d04af03cb08)
+
+* 8
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/287f0460-4ef4-4f12-826c-cbce15b196d5)
+
+* 9
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef243268-316d-4df5-9574-1874eabd3437)
+
+* 12
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1637064a-09da-478b-9cb1-0ba45a623385)
+
+* Benign -> gentle and kindly -> (of a disease) not harmful in effect
+* Malignant -> evil in nature or effect; malevolent -> (of a disease) very virulent or infectious
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bba4a489-f779-43ab-9e11-2ef07c30fe63)
+
+* 13
+* Hiatus -> a pause or break in continuity in a sequence or activity
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/87ea4650-02f8-4aad-bf34-f0d683e9aefd)
+
+* Extension -> a part that is added to something to enlarge or prolong it
+* quiescence -> inactivity or dormancy, quiet, still, or at rest.
+* expression -> the action of making known one's thoughts or feelings
+* alienation -> the state or experience of being alienated -> the transfer of the ownership of property rights
+* absolution -> formal release from guilt, obligation, or punishment
+* latency -> delay, time delay. 
+* hint -> a slight or indirect indication or suggestion -> a small piece of practical information or advice
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/20ae4516-0162-4b6f-b4e6-cf98825ad8c4)
+
+* 15.
+
+## Test-III
+
+
+
+
 
 
 
