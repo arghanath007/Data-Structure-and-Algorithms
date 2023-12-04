@@ -6524,58 +6524,167 @@ Option **D**.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd7c5b2e-1df5-417e-9839-a3c13193d5d3)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/07b678f4-7c58-45d6-ae6a-44e462e2b244)
 
+* Page 4.
 * indirect
+* Circuitous -> roundabout, indirect, going around.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f29f8d1f-bddf-4bc9-950e-d02dccce46e9)
+
+* Crooked
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/29ccc95c-6212-4368-8b9b-a4d16aa94fd2)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ff0517a-2e2c-46a3-be81-08e14bff0a2c)
 
+* Page 6.
 * A
+* Fallows -> Uncultivated land.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/99da09b2-20e9-43b0-ac9c-ad60d4b8d04c)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c64fa20-623f-46e0-91a9-a69b657d39b7)
 
+* Page 8.
 * D
+* Uphold -> confirm or support (something which has been questioned)
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f98ca8f-7361-4986-9a0f-d6e8ab0a32a9)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95475e32-3ad0-44b1-a961-88ba149e7010)
 
 * C
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97ab5d41-bf48-449c-b376-5e414f9b9575)
+
+* betrayed.
+* belied -> (of an appearance) fail to give a true impression of (something)
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3f081e2-4b43-447a-8bff-ab42b1734b7d)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/817da32f-eab9-4245-99fe-8fbf4979fe6a)
 
+* Explaination.
 * [**IMPORTANT**]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ecf1448e-250f-4986-8e92-fe05e382abdd)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8c833e0f-a2c5-4f0f-9554-6548a9c31be3)
 
+* Page 14.
 * D
+* [**IMPORTANT**]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff6c5a31-930a-433e-9c57-a92d85c7bf5e)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f133a36b-7fca-4b5c-be87-bbb7afd01bf7)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f9f07850-e676-4178-aa86-628c791cc82e)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/de6ff3bc-f921-4424-bb40-020d847a7ba2)
 
+* Page 16.
 * Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/BF11BC98A2
 * Link -> https://gateoverflow.in/2369/gate-cse-2010-question-61
 * [**IMPORTANT**]
 * If the sum of the **digits** is giving us a **2-digit number** then we are adding **+2** to the summation and if the sum of the **digits** is giving a **1-digit number** only then we are **not adding anything** to the summation.
+* Option **C**.
+* [**IMPORTANT**]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fed17217-37ab-4060-9439-b983e9df47df)
+
+* Page 19.
+* Option **D**.
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c971555-5f40-49ec-8075-5df6d5debfe5)
 
+* solution.
 * [**IMPORTANT**]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3b61224a-d2ac-4e7e-be85-e6970cebbc27)
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/008c8f84-d6b3-407a-87e0-78380e2befff)
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea827712-e587-46c8-917b-f6f966597f29)
 
+* Page 21
+* Option **B**.
+* Link -> https://gateoverflow.in/2373/gate-cse-2010-question-65
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34b05aa5-a3a7-4084-9788-e7d4101136a9)
+
+* Solution
+* Better explaination.
 * [**IMPORTANT**]
-* Start from **Page 24**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/631d0e5e-ce46-463e-b014-ad4ebbc18488)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b99f5d5f-6477-4566-a633-0b50b3abc59f)
 
+* Page 24.
+* Option **B**.
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d93441a8-edbb-43e1-90da-ce0dd8341002)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6fc4d715-5435-43a4-a12e-cfa4fae7483f)
 
+* Page 27
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/13b5d1a1-5745-4765-986c-b9e777b071c4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/96825487-af7f-448a-b562-6f56951f00db)
+
+* Solution.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2d805a75-d0ac-4988-b7a1-181ea28c2bf6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/467a46ed-5b8d-4f48-a79f-e1afffb06373)
+
+* Page 29
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16961b08-7d22-47a9-b06a-3347b99999c5)
+
+* Page 31.
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65d1c021-5538-4a95-be7c-0899e5485464)
+
+* Words and their **meanings.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b8d7b5f-e3cf-4ad6-bc15-d7c26ab4432a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e421f11d-e490-41a4-adff-6a3d422c7be8)
+
+* Page 33
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a22fe54-ef6c-4e7b-b8ae-46109a3acae7)
+
+* Page 35.
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/11572f45-e309-4471-bc5f-88566a124c29)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a14c940-10fb-4416-9357-5b6716b5a459)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/18f81b90-0866-4401-b8df-e8d095bad869)
+
+* page 37
+* Option **D**.
+* Link -> https://gateoverflow.in/2172/gate-cse-2011-question-62
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb16c51a-4d45-4bdb-81c3-084966c56b6a)
+
+* Better Solution.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6e9bd870-050a-43cf-be3e-1b2d95fd0794)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb5a934c-da0a-4b06-8c3b-e0272a8cdfe8)
+
+* Page 39.
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b4067f2-9f93-4a8c-9369-161db76b6c55)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8f51098-539e-4c5c-9cc6-a7191118156a)
+
+* Page 41.
+* Option **D**.
+* Remember the **formula**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2442dea0-dba6-4551-b88d-3feb70886115)
+
+* Page 43.
+* Link -> https://gateoverflow.in/2174/gate-cse-2011-question-64
+* Better solution.
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/259b68f2-489c-48c0-938e-256f3e4f2cbc)
+
+* Page 45.
+* 
 
 
 
