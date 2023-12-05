@@ -7263,6 +7263,140 @@ Option **D**.
 * Checking the **options**.
 * [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f82bfe16-3684-487c-b510-87195d1b565c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c3da28d-e2b4-4f02-ad30-0f3bff08932a)
+
+* 205
+* Option **D**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a1320c4-7450-49bb-9c37-c1657d408234)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/206f29ff-fb7d-40fb-83c4-d4530fb4a0ad)
+
+* 207
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86364f79-93e4-4cc7-9d25-aee623e79ca1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6eabebc6-7d16-4425-a568-d0d1164e7c58)
+
+* 209
+* Option **B**.
+* Always draw the **venn diagram**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f4fd5e43-c493-450d-8530-eaa58515f7ad)
+
+* 211
+* Option **D**
+* Link -> https://gateoverflow.in/110921/gate2016-ce-2-ga-9
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4bf8c2a-eb24-4040-8335-5fe168518e88)
+
+* Better solution.
+* Lateral Surface Area of a pyramid = (1/2) * Perimeter * slant height.
+* Formula [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/facbbd08-5c72-4322-8f1b-d73fd03e0b59)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ea7929d-174b-445c-abb1-3ecaabf62c2f)
+
+* 213
+* **C**
+* Read question carefully.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09504c1a-1613-4399-9e91-c5d33444fc99)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d970150-fab1-47fa-a2bb-30d6faaa1b20)
+
+* 218
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a629fbf-d9ba-4f44-bca2-500e31e2f674)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fdd474e7-9370-4142-a6cf-965c947b625d)
+
+* 220
+* Option **D**
+* Mean -> Average
+* Mode -> Most Frequency
+* Median -> Middle element of the sorted order.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/522d18a4-0aa2-42d0-bd62-8cd28f69926d)
+
+* 222
+* Option **C**.
+* Read Question carefully.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f31ca6ae-14c8-4de4-b581-6595748095ca)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e916fb25-1662-4d9c-9f6a-f1cdafc3262d)
+
+* 224
+* Option **C**.
+* Volume of a Right circular cone(V) -> (1/3) * Pie * (R ^ 2) * h.
+* Formula [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2be5baac-a57c-4b63-b452-91fa9306f295)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc92e0e4-74f0-4cb8-93c4-26d38be42957)
+
+* 226
+* Option **C**.
+* Tampering -> Ball tampering -> interfere with (something) in order to cause damage or make unauthorized alterations
+* Incubating -> of a bird) sit on (eggs) in order to keep them warm and bring them to hatching -> be developing an infectious disease before symptoms appear
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3e4f6b7-1b8c-4459-bbcb-cc93dee05675)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/28ad7bc7-c72d-4268-91f5-b408d0f6ad15)
+
+* 228
+* Option **B**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27dc2814-2f7c-474c-9a9b-44bea6d8d86a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b295a11-d745-455c-a065-e71d707839cc)
+
+* 230
+* Option **C**.
+* Calculate **carefully**.
+* Link -> https://gateoverflow.in/313480/gate2017-ce-1-ga-10
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f670a8e9-e4b6-4f41-bd1f-cda5f910bcac)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3f96134-27d9-4b3b-bd37-efb06bae378b)
+
+* 232
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/25bcf631-6713-48dc-b02c-8536274c1168)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d9d335b4-8ee7-4473-9456-2b66800b366e)
+
+* 234.
+* Option **A**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98278059-5626-4725-b86b-b612c99fc92f)
+
+* Solution.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4517ba39-eb67-4192-9076-48b2a3635c2a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6a67bd8-e630-4f2d-9ade-a173ab8c6954)
+
+* 236
+* Read carefully.
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e68e504f-1073-4e09-a370-877ba77f6742)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f60d4d2e-28f7-4b6b-8f91-d7f7938b7db4)
+
+* 239
+* Option **B**.
+* Link -> https://gateoverflow.in/313421/gate2017-ce-2-ga-2
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef462563-34b0-46b6-b0b6-1c80dc3361b1)
+
+* Solution.
+* Start from 241.
+
+
+
+
 
 
 
