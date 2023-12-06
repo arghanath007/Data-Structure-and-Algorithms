@@ -1,4 +1,4 @@
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af8a1347-6ab4-4c14-920f-477b4481dd15)# Aptitude
+# Aptitude
 
 * Start from Page **187**.
 
@@ -8290,3 +8290,5 @@ Option **D**.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19ad129f-13e6-49fe9ebe-781208fe6c89)
 
 * Image not available.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af8a1347-6ab4-4c14-920f-477b4481dd15)
