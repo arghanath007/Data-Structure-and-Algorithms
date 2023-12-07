@@ -299,7 +299,7 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e76550d-1f7b-42d7-89d3-c91f97fb2f33)
 
 * Question.
-* Option **B**.
+* Option **A**.
 * **A** is a **1D array** and it is expecting **pointer**.
 * char *b, what is **b** expecting?
 
@@ -307,13 +307,40 @@
 
 * char *b = "string";
 
-> If more **characters** are givenn then there is **no problem**.
+> If more **characters** are givenn then there is **no problem**. Take what is **required**. Ignore the **rest**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec37389b-c601-47fb-b899-dee692e4cb54)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/476eed1e-ed20-4c88-968b-2a5c0fb573eb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d31f39f-1d64-4ff3-975b-a46324c7b4bf)
 
+* Solution.
+* B[10][10] -> What is the problem?
 
+> There are **10 rows** and every row contains **10 columns**. 
 
+* *A[10] -> What is the problem?
 
+> There are **10 rows** and every row contains **non-uniform** no. of columns.
 
+* [**IMPORTANT**]
+* Using **A** we can implement **B**, as **A** is the **superset** of **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/befbbef4-a459-469e-98df-f0acdc483eba)
+
+* Array **A and B** both are **2D arrays**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d89fda7b-fc94-4183-98e5-1c5c84da8fe8)
+
+* 1,2 and 4 are possible.
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1502a8a3-e10a-43eb-b78c-49ea12ea2c80)
+
+* Doubt
+* Using array **A** we can implement **2D** array. Whatever **B** can do **A** can do but whatever **A** can do, **B** cannot do.
+* **B** is continuous, **A** is not continuous.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09d6287a-368e-4094-b9ce-167a2e1f0824)
 
 
 
