@@ -283,8 +283,31 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a45e5b81-efa9-4db8-b375-ea02814bc62b)
 
 * Question.
+* Option **B and D**.
+* The function will terminate if we send **n** in the form of **powers of 2**.
+* **Powers of 2** are **infinite**.
+* For many people the **function f()** will not terminate also.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/52c47ab6-a5b0-4f30-a7d3-9563d087a361)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9f84ebe5-19d0-44cb-be49-8ed83cdb4e49)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1dbb0364-e1de-46b3-b810-3cb63d7be282)
 
+* Solution.
+* If it is a **C-program** and all then it will gurantee **terminate** because of **stackoverflow** condition.
+* In **programming** terminology then **everyone** will terminate.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e76550d-1f7b-42d7-89d3-c91f97fb2f33)
+
+* Question.
+* Option **B**.
+* **A** is a **1D array** and it is expecting **pointer**.
+* char *b, what is **b** expecting?
+
+> It is expecting an **address** of a **character**.
+
+* char *b = "string";
+
+> If more **characters** are givenn then there is **no problem**.
 
 
 
