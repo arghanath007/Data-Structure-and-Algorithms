@@ -342,26 +342,130 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09d6287a-368e-4094-b9ce-167a2e1f0824)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9a6c3d98-3c7c-478c-9896-dafc889712fb)
 
+* Question
+* Option **A**. [55]
+* For more than **1 function call**, draw a **tree** it will become **easy**.
+* f1(5) = 5.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5947b7c3-51b9-499d-b8b0-e175a5d9fa75)
 
+* Those many **push** operations that many **pop** operations.
+* Going back **i** value is not changing because of **static** keyword.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30397600-1065-49f2-9f60-d1db5792ed9b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e56ff2bb-544c-4530-b4e0-12cb4daf5b42)
 
+* If **static** is there then **memory** is created at **compile time**. Compiled only once.
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1140eacb-90e3-47d9-a51b-c6595a683031)
 
+* Question
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f55dd486-a7b8-4c9a-b15c-ea01560985b4)
 
+* Option **C**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a9bfa62-dc1e-42fc-b110-8dffffffa0b8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1fa4d1d5-297e-4064-8ecc-a62a3f4abee3)
 
+* Solution.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5c9b7217-4bd9-41a5-a5c6-b3f1b6b8592b)
 
+* Question.
+* T1 -> S1
+* T2 -> S3
+* T3 -> S1
+* T4 -> S2, S4.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c72abc59-bc69-4486-8d2c-f0b86dba8beb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/966f3623-1047-4f34-b706-3f3236287957)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/060b2fa9-2778-43bd-a26d-d476e1fc2765)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72574aea-7cb8-4820-abf3-4290d1eedf05)
 
+* Option **D**.
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/93994364-e284-459b-8752-b0f18e708aeb)
 
+* Question
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3116c18e-eb72-4cb8-beff-fe6fc1fd66a1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff28a7b6-e824-46a5-b0aa-828ac4a5a07d)
 
+* Option **C** -> 13.
+* Some dependency there then be careful with **post-incrementation**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f875379-0cbf-49f2-afcc-0d1f892042f0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a32b987-2e53-42cf-a350-7fd14d5d02aa)
+
+* Question.
+* Problem with the **first code** is that we are getting **Dangling Pointer**.
+* In the **second code**, inside **px** we didn't keep any **address**. If we don't keep any address then **by default** we have some **garbage value**.
+* *(garbage value) -> Some **segmentation error/fault** may come.
+* For anyone if we want to use **star(*) i.e pointer** then we have to check one thing which is it is **Null or not**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6be2ba05-c681-4c89-af04-767c6ee74ae1)
+
+* Verify if it is **NULL or not**.
+* If it is **NULL** then don't **say or give star(*) i.e pointer**.
+* [**IMPORTANT**]
+* So **second code** maybe will give **error**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a7376d5-4e8d-4409-8fe8-755a87ea6958)
+
+* **malloc()** not only creating memory, where memory is created, it will return that address.
+* **malloc()** returning **void pointer**. [**IMPORTANT**]
+* It is returning **void pointer** which is **type casted** to **integer pointer**. Integer variable address came which is stored in the variable **px**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e011e01-b9e6-486c-af3b-5794bafd2899)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4969c076-e669-4513-b0de-aef2781bd8be)
+
+* **malloc()** will return the **address** if **space** is available.
+* If **space** is not available, then **malloc()** will return **NULL**. [Very rare incident, alot of space is available nowards]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19054609-7abb-4366-b24c-a5e8ef568438)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/53270ae6-cf0a-46e0-81ae-bb618b373fc8)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7484d26d-5407-4dbc-86e4-ff7ff9b7f6b7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c8fbb86-ffb8-4a17-9263-f37a1d6de1cf)
+
+* [**IMPORTANT**]
+* All of the **three codes** are creating problem.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9771c845-089b-4174-980b-cfd41b0a8f30)
+
+* Factorial of a number.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/196687d3-b378-489c-bb04-3097376611a9)
+
+* Asymptotically they are **same**.
+* In the second one **push and pop** operations are **extra**.
+* Comparing **both** the **first one** is **better**.
+* Mathematically **first one** is **better**.
+* **Space** point of view, **first one** is **better**.
+* **Dangling Pointer** -> We deleted some memory and still we are pointing to it, that is called as **dangling pointer**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b1677ec5-e175-4852-a79c-267bf7669b72)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be6885ec-f3a9-4d65-85a2-99da0f799541)
+
+* Stack -> Within function
+* Static -> Total Program -> In **static**, we do not have any control. Total program is over then it will vanish. In-between we cannot do anything. **Allocation and de-allocation** is done by the **compiler only**.
+* Heap -> Total Program -> In the heap area if we create whenever we want we can **de-allocate** the **memory**. It is within **our control**. If we want to **de-allocate** the **memory** in-between we can do so. Anytime we can **de-allocate** the **memory**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e74656d-9c9f-4556-b725-7c51f15190dd)
+
+* Question.
+* Next Class.
 
 
 
