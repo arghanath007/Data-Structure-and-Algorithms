@@ -465,7 +465,250 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e74656d-9c9f-4556-b725-7c51f15190dd)
 
 * Question.
-* Next Class.
+* Next Class
+
+## challenging-problems-iii (3)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5c764f84-4de1-4842-8658-e62ccf2acbb1)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0bc73ff-f804-4a1c-aab3-11f72fa0f1bd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8326ae68-d898-44be-8332-265875691d52)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/948a681d-7ae8-431b-9bee-5edbc41ee5f9)
+
+* Solution
+* Output -> 3323321. [1]
+* For more than **1 function call** please draw a **tree**.
+* It is a **recursive** program.
+* Recurrance Relation -> T(n) ['n' people]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7155d332-ccae-4255-88b1-f5bcffc14ff0)
+
+* T(0) = 0.
+* T(n) = 2T(n-1) + 1
+* As only one **printf** statement is there so **only one character** is printed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5fb6c991-0b87-4bc3-aad8-d2b16f79c7c7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bfc3e8b7-1cdd-4094-a8ab-373d48eec4c6)
+
+* T(0) = 0. So we **removed T(0)**.
+* No. of characters printed -> (2^n) - 1. [2]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8d85072-e5f3-43d7-8bd5-3882b9122f5b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/275dbea1-5b6a-49e1-8014-eda9f48bf065)
+
+* Matching properly.
+* T(n) = 2 * T(n-1)  + 1.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/01a2364e-ac80-4035-adc1-bdf67105c079)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/93617a8b-790a-4252-83dc-190da22f8597)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e65dc3e7-4add-4b75-986b-7c1ef0fd6562)
+
+* Time Complexity -> 2 ^ n -> O(2 ^ n).
+* We will get **n** level tree.
+* Space Complexity -> No. of levels in the tree -> O(n)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a1c1d62-d2fa-4841-8708-e95529dbf141)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e66dd960-6daa-493c-8f71-25e3d11cd5ed)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/60f9502e-e649-4a42-a3c0-52dd3fb7e4b9)
+
+* Question
+* Option **D or 4**.
+* Union -> n * log n [n ^ 2, if we don't do sorting first]
+* Intersection -> n * log n [n ^ 2, if we don't do sorting first]
+* Membership -> Some is member of the list or not -> **n**. [One scan required]
+* Cardinality -> Counting no. of people -> **n**. [One scan required]
+* Between **n * log n** and **n ^ 2** we are taking **n * logn** for **union and intersection** because **n * log n** is **better** than **n ^ 2**.
+* Arbitrary Order -> Not sorted order.
+* Between **Array based merge sort** and **linked list based merge sort**, **linked list based merge sort** is **better**. It is because **Array based merge sort** is **outplace** and **linked list based merge sort** is **inplace**.  [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/47980b48-956b-4245-bcdb-5e11f45ea1bf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f07f4ac-a17f-4b94-ab94-0da5f0bfc756)
+
+* If it was mentioned that they are in **sorted order** then **union and intersection** will take **n** time or **O(n)**. We will apply **merge algo** to them.
+* As nothing is mentioned so we will consider that they are not in **sorted order**. So **union and intersection** will take **n * logn** time or **O(n * log n)**. We will have to first sort them using **merge sort** which will take **n * log n** time and then we will use **merge algo** to **merge them** which will take **n + n -> 2 ^n** time. So the overall is **n * log n + 2 ^ n -> n * log n**.
+*  [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24c92425-c646-4652-85a4-7a8377665749)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ac915c7-3eb3-43ec-b23d-808f07623a1c)
+
+* Slowest -> Taking **more time**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ace0c17-651b-4524-93f3-1613bc55b12b)
+
+* Question.
+* [**IMPORTANT**]
+* We have **5** elements in the **array**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/10455c35-9038-4305-a954-2365f0416c4c)
+
+* integer -> 2B
+* pointer -> 8Bytes
+* struct test size -> 2 + 8 -> 10B.
+* Name of the array -> st.
+* Size of the array -> 10 * 5 -> 50B.
+* printf(st) ->  1000. [Prints the base address of the array(st)]
+* printf(st + 1) -> 1010.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc5653ec-e31b-41b7-96f8-61ced0f90ca6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ac010ec-591a-44d6-8551-eab6f970381a)
+
+* st[3] or *(st + 3) -> Way of selecting the **3rd element** from the array.
+* st[3] -> Shortcut
+* *(st + 3) -> Actual.
+* If it is an **integer array** and we go inside, we don't require a **dot**.
+* As it is a **structure array**, so a **dot** is required.
+* This is the **only different** between them(integer and structure array). [**IMPORTANT**]
+* **c** is expecting an **address** of a **character**. [**IMPORTANT**]
+* We are given **string**.
+* **String** is given means that we are giving the **address of the 1st character**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5518cc6-ca7f-4064-9b23-aad1ef2533b2)
+
+* printf(st + 4) -> 1000 + 4 * 10 -> 1040. [Skipping 4 people]
+* printf(*(st + 4)) -> *(1000 + 4 * 10) -> *(1040) -> Inside we have two people.
+* printf(*(st + 4).c) -> *(1000 + 4 * 10).c -> *(1040).c -> 6000.
+* printf("%s", *(st + 4).c) -> From **6000** onwards print everything -> brother. ['brother' will be printed until null character(\0) comes]
+* printf("%c", *(*(st + 4).c)) -> *(6000) -> b.
+* %s -> For address
+* %c -> For character.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee6cbeeb-b71a-4a06-bdea-0511c27df753)
+
+* p -> 1000
+* p + 1 -> 1000 + 1 * 10 -> 1010.
+* (),  arrow(->)  [() and arrow(->) have the same precedence. They are from **left to right**] [**IMPORTANT**]
+* (*p).c OR p -> c [They are **same**]
+* (*p).c -> Actual
+* p ->c [Shortcut]
+* *p.c -> As **brackets** are not there, so **dot(.)** will be done **first**. As **dot(.)** having highest priority.
+* (*p).c -> As **brackets** are there, so **inside brackets()** will be done **first**. As **brackets()** having highest priority.
+* Between star(*) and dot(.), dot(.) has the highest priority.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/438d1a7e-5a64-42b2-956e-77f51ce6dd04)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50c04375-adb2-4934-a8ff-b9985272f2ea)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/51f5b89c-3da6-47e9-a412-b9837eb210db)
+
+* p[0].i OR *(p + 0).i [They are **same**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86677be1-1a5e-416e-b5c6-3b25afda3d8b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/78c30926-2fa2-4cb7-9266-4aa718c5be36)
+![Untitled](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c60de2c6-683a-45e1-a22e-ee543997db34)
+
+* Option **B**
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4bd99e01-4db4-4617-83dd-5a5586020eec)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d2d9bda7-0877-4dc8-95f6-bbbcb9ec8675)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7cc4f2d7-7ffe-4d38-9177-f0929951f01d)
+
+
+* Precedence used in the **above question**.
+* **dot(.) and arrow(->)** have the **same precedence**. They are **left to right** associative.
+
+![image](https://uadoc.uacdn.net/common/K9HD816WU7/1637019287Q9FYWH.png)
+![1637019287Q9FYWH](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/785fcce6-f620-4a03-8384-d97a0820447f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30c15cf9-650e-4b53-b058-09dcc58a660f)
+
+* Precedence list [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/311d137d-bda9-436d-b652-0d070e732f10)
+
+* For **Pre and post**, it is from **right to left** precedence. So **P++** will be executed first.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/39f7af03-3716-4607-aea9-4f128fbed1d3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4cb49e0-9287-428b-8732-07e2fdccc4b9)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6cab4337-4d4d-431c-8e38-57bc4ed6d628)
+
+* Options.
+* Link -> https://gateoverflow.in/3594/gate-it-2006-question-51
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e761f77-70a1-43f6-8ca7-6201623d29f2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d10d49cf-3f39-44c2-9166-79413fb99643)
+![image](https://gateoverflow.in/?qa=blob&qa_blobid=7889409222220005821)
+![80797ee1-b1bc-4d5c-b92b-9b5ec72de22a](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c55cd93-deda-4357-96e9-989343471aeb)
+![Untitled](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6db4ac99-b2f0-44cc-8a31-e180cb8652af)
+
+* Solution.
+* [**IMPORTANT**]
+* Array going means **address of first element** going.
+* Aray passing is nothing but **sending base address**.
+* **x** is an array in the **main()**.
+* In the **print()**, **a** is a **pointer variable**.
+* We are passing **4000** address to **a** and **a** is pointing to address **4000**.
+* **a** is an **integer pointer**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e01c059-5059-47ed-890e-c002d41a87eb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb1598d9-0bde-47e4-bad1-d623e573bd14)
+
+* **Bracket** indicate **one star(*)**.
+* int *a[] = int **a [They are **same**]
+* **Array** never go.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b242dde6-b79d-4bd3-9f72-5de2212f92ae)
+
+* **a** got **4000** and inside **4000** there is another **address**. So **double star(*)**. It is a **double pointer**.
+* **a** should be a **double pointer**.
+* In the **printf** statements **a** is a **double pointer** or a **pointer variable**.
+* **Double pointer** -> *a[] -> **a. [Representation] [**IMPORTANT**]
+* a[0][2] -> *(*(a + 0) + 2).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab322109-1bff-404f-92bf-ce85fee75895)
+
+* We got **8** as the output for the **first printf** statement.
+* *a[2] -> Bracket has higher priority than **star(*)**. So **bracket** will be done first.
+* *a[2] -> *(*(a+2)).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/43ea7d84-5cd5-424e-b8e1-360eaf951526)
+
+* We got **-12** as the output for the **second printf** statement.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5509883-228d-4fef-acac-1be5585fe09a)
+
+* From doing the **first two printf** statements we got the **option**. No need to do the rest.
+* Option **A**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9eab0477-6b0d-49ba-8d53-3443978ee5a6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c6e0205f-5504-4dfe-ad05-41c61d26ff04)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d7cc5c61-e4c3-430d-a47f-7260a907d025)
+
+* a[-1][+1] -> *(*(a-1) + 1)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c220ecf9-2875-46b8-9b4d-c1a1aeb989cd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5156698-585c-4cd4-82ef-01a22e778059)
+
+* Take care about **priorities**.
+* [**IMPORTANT**]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
