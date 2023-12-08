@@ -1,4 +1,4 @@
-# C and DS
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff1235d1-354e-4d4c-b57f-eda2a0add6ae)![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d59ce3f8-bc91-4dbe-bab5-d6e0d24662d5)![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc7343aa-01f9-42b2-afe5-58e9be069e55)![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0858f9f9-f4a3-4a07-aee8-48158ad0ac37)# C and DS
 
 ## Challenging Problems-I (1)
 
@@ -692,30 +692,287 @@
 * Take care about **priorities**.
 * [**IMPORTANT**]
 
+## challenging-problems-iv-doubt-clearing-session(4)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83ff4928-80ba-4a91-bb5b-97b7607a795c)
 
+* Question
+* Ascending order -> Elements maybe same.
+* Increasing Order -> Elements will be different.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2cbf4392-58ce-40cb-b91e-129f0c34374a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a66f6f0-e06a-4102-a14a-d3ebff28a8d2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/04aed4c3-784a-4364-b263-8a6c9ab9a078)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b02b7286-f6a3-43d5-934f-ad16b6c43fe8)
 
+* Solution
+* Option **B**.
+* Worst Case time complexity -> Only one scan -> O(n).
+* Best Case time complexity -> O(1).
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0dcf89d4-9a4b-4a6e-b655-fa2b5ecae47f)
 
+* Question.
+* As it is a **balanced BST** so the no. of levels is **log n**.
+* Time complexity to find an element -> logn -> Worst case.
+* **Inorder** of a **BST** will give us the **ascending order** of the tree.
+* Just apply **inorder** on the tree and until **a** will come **don't print**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b2e985e-6b01-4d7e-8f16-ad9d1f110023)
 
+* More than **n** never possible.
+* Answer should be **less than 'n'**.
+* To find out **a**, it took **log n** time. From that element onwards using the **inorder** print **k** people. **k** people printing took **k** time.
+* So **log n + k**.
+* After **first log n** over then print the **k** people.
+* No relation between **k and b**.
+* Option **B**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1bdc32d7-7372-4c6f-810a-3cf8f08755dd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b670ed72-65cf-4269-9dc9-abf7acea5c8b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/053cf815-462d-4d08-9727-785060da0f07)
 
+* Solution.
+* O(n) -> One Scan -> Worst Case.
+* This question came **3 to 4** times.
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5decc63-b3df-4ad6-86b0-ab41e4f9f074)
 
+* Question
+* Option **D**.
+* **AVL** root can be **determined** from the start because whoever comes **first** may not stay the **root** because inbetween **many rotations** can happen and the root may change. Anyone can be **root**. Because of **rotations**, roots keep on changing.
+* In **BST**, whoever came first is/will be the **root**.
+* First person inserted should be **4** only.
+* From the **BST**, we are trying to make it into a **Complete BST**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57eb25e9-3781-47cb-83dc-2945d5fada26)
 
+* **2 and 6** can be written in **2!** ways because even if **6** comes **earlier** than **2**, it will anyhow go to the **right side** as the root of the tree is **4** and **2** anyhow will go to the **left side**.
+* **1,3,5,7** can be written in **4!** ways, they can come in **any order**. After **4,2 and 6**, the rest of the numbers can come in **any order** no problem.
+* 1 * 2! * 4! -> 2 * 24 -> 48 possibilities.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/714a8a43-f088-47ff-a1bd-b562017084f4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/792f106b-c183-4563-be92-942a84370a01)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d71106da-0586-48b9-b2ac-b537af01cc15)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12c07c73-ab54-4f58-aa43-c27cc19736df)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e127f92c-d561-4066-add2-a95d3cb3739d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b9c924c-7c47-4b75-8539-fcd83d82c6be)
 
+* Option **D**.
+* [**VERY VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5332e89-9e6c-4407-a1b6-1792e3fa4eb9)
 
+* Question
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a93ae6bb-44b4-427d-a009-40ddea16a32b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9775a6d9-52b1-4e38-ac04-fe1d11b2418e)
 
+* Total -> 7!.
+* 4! -> For people less than 60.
+* 3! -> For people more than 60.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/da415bdb-f68f-4092-8a69-4193feeda8b3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/75576945-fef1-4207-9945-846e55353ca3)
 
+* Solution
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/18b536a3-24fb-40a1-bfaa-e704f41964ec)
 
+* Formula
+* 0! -> 1.
+* Option **A**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34b4a08e-9afa-43ff-96ba-e67a6d0e4115)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed7738fe-77f2-428c-8d30-c652f169530e)
+
+* Question.
+* int -> 2B
+* pointer -> 8B
+* Total -> 2 + 8 -> 10B.
+* First For loop is running for **3 times**.
+* Second For loop is running for **4 times**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4bc04577-3b53-4928-af38-5425930689a2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/035f994c-6ed7-4c30-96db-38e5a80aa61c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bbf987d1-a3eb-4cfa-b365-9c3ed2ebeeac)
+
+* For **index = 3**, at the end of it there maybe a **problem**. We are referencing the **value** of a **garbage value**.
+* *(garbage).value.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f9ff3ace-67ff-4d79-82cc-c83838924901)
+
+* Options.
+* Option **D**.
+* Uninitialized pointers we cannot say **star(*)** because anything can happen.
+* It may give **error message**. Some **error** may come.
+* Have to check if **head** is **NULL or not**. Didn't check in the **question**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bbdb9dbf-6033-4831-812e-246612b7102a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7177a9dd-963d-41c5-9dec-f27b1479be98)
+
+* Question.
+* Sibling -> Common/Same parent
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/092850a4-b7b9-4aaf-a94d-f8ee3e9cec86)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/789a5e51-c390-4888-b0ca-591963e2f5e6)
+
+* n-ary tree -> Input
+* Binary Tree -> Representation.
+* Internal nodes -> 6
+* Leaf Nodes -> 8.
+* Left side is **NULL** means that the **left most** child is not there.
+* If **no child** at all then the **left most** child is not there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/380ccabb-75bb-4aa3-a075-0f6af849c62b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/556c680e-24f3-45ca-90a8-7acef55537e6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/59a743a8-39ff-4bb3-a053-4ed96efc8334)
+
+* Solution.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d89b9235-fcd2-4fe5-8f95-617f9acb11d5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9225848d-1695-4387-94dd-b5384e4237c2)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d7cc6be7-41f9-4d2e-92bf-657b65fd309e)
+
+* Question
+* Permutation -> Order change/changed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c09e810e-052c-408c-b949-69c940f0b89c)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/23b60075-4fac-4b44-826a-122dbc0ee04b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a24443b-74d9-479b-a288-ff104f1b1c74)
+
+* We haven't changed the order of the elements.
+* If we change the **order** of the elements then it is called as **permutation**.
+* **Combination** means that **order** we cannot change.
+* Any **sorted array** combination is **sorted**.
+* **Sorted array** combination is **sorted** only. We cannot change the **order**.
+* In **permutation** we can change. In **combination** we can change.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b71d2c2-be4d-49eb-ace7-ac6bb6d83c53)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/739409eb-8afd-4833-aa8a-8e5e1850bdd4)
+
+* Question.
+* In **Array** random access is possible, we can go wherever we want.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5dc84990-55e8-40f3-b1be-48a2e219ec7b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58ab1864-d4a9-42df-b1d6-0ab1ef08edd0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dae6a72f-e46e-4b80-b6dc-57db667d2b3e)
+
+* Option **A**.
+* **NOTE**:-
+* **Queue** implementation using **Linked List(LL) or array** is **constant** for both. [**IMPORTANT**]
+* **Stack** implementation using **Linked List(LL) or array** is **constant** for both. [**IMPORTANT**]
+* When we are implementing **stack** using **Linked List**, in the **push** operation we will call **malloc**.
+* **Linked List** means dynamic behaviour.
+* **malloc** is related to the **Heap area**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/379befa9-feda-422a-bef8-355e3a8b393d)
+
+* Question.
+* As no one is pointing to the **address of 1000**, so we can call it as **memory leak**.
+* There is **memory leak** in this problem.
+* **malloc** returns **void pointer**.
+* In the **first malloc** call, we are not even **typecasting** as well. We are simply accepting the **void pointer** from **malloc** and putting it in **x**.
+* As both **void pointer and integer pointer** are of **8 bytes**, so we will not loose any memory but we will receive a **warning**.
+* We are storing the **void pointer** in **integer pointer**, so **type mismatch** is happening and we will get an **warning** as both the **sizes are same**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dee66868-bb25-4081-9558-71f3e810c5eb)
+
+* We have executed **free(x)**, before **x** was pointing to **2000**. Now **2000** is gone.
+* So **x** is a **dangling pointer** now.
+* Program is over so the **dangling pointer** is gone. **x** was a **local variable** and it **lifetime** was till the function is over, as the function is over, so **x** is also over.
+* **Dangling pointer** is there but it will not create any problem.
+* **Dangling pointer** is there but we are not using it.
+* **Memory leak** is confirmed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69008629-9168-4070-a44d-55400f743bd9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/614a4e0a-64d9-4bbc-9278-3bf3e1042fa9)
+
+* Options.
+* Option **A** is **correct** in **cpp or C++**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50342065-a7a1-45d0-9b0d-5c3adca05af5)
+
+* Option **D**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7241317f-9a82-44d6-b2e8-eccf26b28551)
+
+* if(*x) then no memory leak at all.
+* if(x) then memory leak everytime.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76b00284-3c33-4d9f-9f2b-a3112027b4fe)
+
+* If **p** is a **void pointer** then **(*p) and (p+1)** are **not possible**. We will get an **error**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c987f0c8-3a6a-437e-8505-0c607aa4b0c8)
+
+* If **p** is an **integer pointer** then **(*p)** lets us read 2B of data.
+* **(p+1)** lets us **increment by 2bytes**.
+* They are possible, we will not get an **error**. 
+* [**IMPORTANT**]
+
+ ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1667e81-cfd0-41ad-9ee3-0f335f902c12)
+
+* **p** is a **void pointer** but we are using **(int *)** for **typecasting** and to convert the **void pointer(p)** into **integer pointer**.
+* *(int *)p -> Now we will get 2B of data.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/75c154f3-b650-4d1a-b5f8-07ccac83187e)
+
+* Option **D**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69501028-8f26-48de-a515-c99486cbc89b)
+
+* Question.
+* Option **D**.
+* The problem is talking about implementing **Queue** using **Stack**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/87596ec6-be81-4f67-b7ad-23d94acee9e1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/45101234-b9b8-4aac-96e7-290b759956bd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a60e63aa-58ff-4ad3-a539-8f0cb5fcf8a4)
+
+* EQ -> Enqueue -> Push().
+* DQ -> Dequeue -> Reverse() then Pop() then Reverse().
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31b90a4d-2669-4cab-a3ad-47b2adfe9ad0)
+
+* **Reverse** is one operation which will take **constant time**.
+* All **predefined** will take **constant time**.
+* We don't know how they are **implemented**.
+* We are implementing **Queue**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6610f00c-430e-4d69-927b-cbf8901b46e9)
+
+* We got **1 instruction** for **enqueue** and **3 instructions** for **dequeue** but that is not present in any of the **options**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37b1eafb-e54c-461b-8c1c-b2b7c53ac162)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6982732d-e991-40da-946c-b83afa3d2a18)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e45d869f-972e-47dd-b081-3fcca123cce6)
+
+* Now.
+* Enequeue -> First Reverse then push and then Reverse.
+* Dequeue -> Pop.
+* Option **C**.
+* To implement **queue** we need **two stacks**.
+* [**IMPORTANT**]
 
 
 
