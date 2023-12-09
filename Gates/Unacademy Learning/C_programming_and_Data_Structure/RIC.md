@@ -1,4 +1,4 @@
-# C and DS
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d2690a9-6976-409b-8726-b0d17b1715c4) # C and DS
 
 ## Challenging Problems-I (1)
 
@@ -973,6 +973,343 @@
 * Option **C**.
 * To implement **queue** we need **two stacks**.
 * [**IMPORTANT**]
+
+## challenging-problems-vi(6)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/196f4c1b-377a-4fba-9f53-b2f54a80061f)
+
+* Question
+* Option **C**.
+* Options are given **mathematically**. Just substitude the **values**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c4b43cf7-8588-45d4-83fb-b8d472e5c75e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e7eb55e8-c01d-4426-be93-40ff59775c7c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9f933df9-4da8-4906-96c9-ec617b1297a4)
+
+* Solution
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/13a3a2e1-24c0-4f77-9f84-d2db2c8a6b51)
+
+* Question
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58b28f06-53a7-4370-ab04-94f3dc0ae8e3)
+
+* Solution.
+* i = i + s; [Implicit type casting is done]
+* Expression time no problem.
+* Calling time maybe problem, so **verify**.
+* No specific language name is mentioned, we are talking in **general**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb23827d-54fd-4636-8315-d7b52b4c6f24)
+
+* Option **D**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc1c13f3-34ef-4ce1-aa45-9c12ffe44761)
+
+* Question.
+* Option **A**.
+* Deletion of the smallest element:-
+* Best case is **O(1)** and worst case is **O(log n)** for **min heap**. They both come under **O(log n)** which is **requirement***.
+* In **AVL** tree the **smallest element** is there in the **left most node**.
+* In **AVL** tree to get to the **left most node** which is to get the **smallest element** and it will take **log n** time. After **log n** time is over we will **delete** but we have to do **balancing as well** which will need another **log n** time.
+* In **AVL**, deleting the **smallest element** is always **log n** because we have to go to **left most path**.
+  
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce36b013-2886-4c99-bd50-e59771290482)
+
+* So in **min heap** deleting of **smallest element** is taking **O(1)** for **best case** and **O(log n)** in worst case but in **AVL**, it is always **O(log n)**.
+* **Deletion of the smallest element** -> Min Heap is **O(log n)** and AVL tree is **O(log n)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa4851b1-eaf5-426c-94fc-bbce88938473)
+
+* Min heap
+* In **min heap** tree **insertion of element** will take **log n** in **worst case** and **constant time(1)** in **best case**.
+* In **min heap** we are **inserting** the element **blindly** without checking/verifying if the element is there or not there.
+* **Min heap** is not for **searching** purpose. It is not a **search tree**.
+* **Insertion** in **min heap** is **log n** but we have to **check/verify** if the element is present in the **min heap** or not for that we need **n** time.
+* So the total time to insert an **element in min heap** is **log n + n -> n**.
+* Overall is **n**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/82d23a5d-89bc-4174-9da2-7593421bb7d6)
+
+* AVL tree.
+* When we are finding the element in the **AVL** tree and instead of finding the element we find **NULL** which means the **element is not there**.
+* In **AVL and BST**, the **insertion** is always done at the **NULL** place.
+* In the path **NULL** came which means **element** is not there and we have to insert the element there.
+* In the **AVL** tree if we see **NULL** which means time taken is **log n** because **NULL** cannot be there at the **Starting levels**.
+* **NULL** indicate element is not there then **insert**.
+* For **AVL** tree **insertion** it takes **log n** which is **always/every case**.
+* We are not **inserting** blindly, if element is not there then we are **inserting**.
+* In **AVL** tree we verified by checking if **NULL** there or not, if **NULL** there then only we are **inserting the element**.
+* **AVL** tree is a **search tree**, **searching** becomes so easy.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5fc70fdd-7b12-4d2f-8476-8d081c8443de)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97c523c8-d8f3-4eb9-af8b-d30076b844cf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9a31556d-d43f-4b3a-aca8-7825626ebf8f)
+
+* Left is **min heap** and right is **AVL** tree.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/da9749b8-8c08-42ce-aa46-ffc51124f728)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/55054fe2-8561-45e7-a443-471e2ed2883c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc7a6023-b89a-4781-bc98-14ca2c55e370)
+
+* Option **B**.
+* [**IMPORTANT**]
+* **Min heap** has failed here because we have to check **first** if the element is present or not but in **min heap** it is **inserting the element** blindly without checking if the element is present or not. To check **first** it will take **n** time which is more than the **required time(log n)** that's why answer is **AVL** tree. [**IMPORTANT**]
+* **Sorting** means both **ascending and descending** order.
+* Heap means both **max and min** heap.
+* **Max heap** will give **ascending order** because we are deleting the **max. element** and storing it at the **end** as gap is there at the **end** only. Gap is not there at the **starting**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/90ba212c-184b-4595-9af5-d81404078ca0)
+
+* Question
+* Just **insertion of an element**.
+* It is option **C**. [Both]
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/365bad6e-a1d9-4e4e-a2eb-4cb5b97f0462)
+
+* Question
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc49ddaa-efea-46e6-848b-9e3f5a06662e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/84c4d7f9-0d28-467c-9114-f4bfed44e6a1)
+
+* Linear Queue is full.
+* Linear Queue is Empty.
+* Circular Queue is full.
+* Circular Queue is empty.
+* Front(F) and Rear(R).
+* In the normal implementation of **circular or linear** queue for **n** elements array we can store **n** people. It is **efficient**, we are not wasting any **slots**.
+* For the **question's implementation** of **circular queue** for **n** elements array we can store **n-1** people. One slot is **empty**, we are wasting **one slot**, it not **efficient**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4967f48a-e428-4f0e-8ab4-1122b670f045)
+
+* This is an array of **n** elements storing **n** elements. 
+* The array given in the **question** is an array of **n** elements storing **n-1** elements. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b001e275-0ad2-4615-b707-c1b39771e24b)
+
+* **Rear(R)** is the variable which contains the position of the **next element** to be **inserted**.
+* **Rear(R)** is first inserting the element then it is incrementing itself.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/82c60800-d411-462a-9b96-8c8b3e3d7043)
+
+* In the **normal circular queue**, **Rear(R)** starts from **-1** and first it is **incremented** and then we insert an element.
+* X[R] = a; [Insertion]
+* R++; [Increment/increasing]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98f7999d-33f1-4dcd-b72b-a4148a7304e2)
+
+* When **R = -1** then first we will **increment** and then we will **insert/store**.
+* When **R = 0** then first we will **insert/store** and then we will **increment**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3b9d0b61-474d-4d8d-b0e8-1944bd19c6fb)
+
+* Size is **6** [n].
+* Capacity is **n-1**.
+* We have inserted **5** elements which is **(N-1)** so we cannot insert anymore elements further. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c92d239-4bad-4f09-b0a4-e446de571edd)
+
+* Condition for **circular queue** to be **full**. [**IMPORTANT**]
+* Wherever **R** is now there is **no element** there as have to store **n-1** elements. **R** is empty now.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4285d4b8-54ce-4fbc-98a9-0a164dafda37)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2e848a3c-f0ac-4fea-b4b6-72a741879425)
+
+* For **deletion**, first store/delete and then increment.
+* y = X[F] [Store/delete]
+* F++; [Increment]
+* **F** is at **1** so now **R** can move.  
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa3d4353-c0d9-4217-b3b4-36ece5ee80f8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1d6b60c-1850-4f00-9fdc-252070376189)
+
+* because of **circular queue**, the **increment** will be done using **mod n**.
+* Now **F and R** are **equal**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e262b430-9dd5-40d1-a8d1-6dfee84d89cc)
+
+* **F and R** are **same**, so **circular queue** is **empty**.
+* At anywhere they can be **equal** doesn't have to be at a **specific location**.
+* **Equal** means **empty**.
+* Every thing is fine about **circular queue** behaviout but **one slot** is **empty**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f00e6496-3aac-42aa-8788-6a97c684f99c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/894ae843-2645-4462-a838-2a7ba883c018)
+
+* [**IMPORTANT**]
+* if ((R+1)mod n == F) [Queue is full]
+* if (R == F) [Queue is Empty]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/94bf1a78-227f-4cab-a718-ca94e9b44e62)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/04ef0469-919a-4647-a895-6f51c70a2349)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/67d28a69-f8a6-4a0b-af0b-df3f7ba24f7a)
+
+* Circular queue code for **n** elements but we can hold only **n-1** elements.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/138aec73-6d6b-42f7-9716-f9fc90f1133a)
+
+* Option **A**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/18194126-5505-4c81-bd67-3e4fbecf7d4f)
+
+* Option A -> Need not be.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f2442d60-59d4-4721-aacf-6804eb84d914)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8758d143-0781-4971-ae24-5e7c935927af)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/acab1d12-389c-4346-ab6b-fcd634eb0fd2)
+
+* Doesn't matter what **F and R** value are.
+* **F and R** are **equal** which means queue is **empty.
+* Now correct option is Option **E**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e27c76c-dbbb-4ae9-86e8-52d6e8292fa9)
+
+* Then **normal circular queue** story.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19f22b19-f10e-4d98-b805-5865b223e633)
+
+* Question.
+* Option **D**.
+* 1 -> Post
+* 2 -> Pre
+* 3 -> In
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c415886b-6a1e-4a15-abef-6b579b41e087)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d6a7f58-cd00-4c12-a4cf-c88ba47878fb)
+
+* Solution.
+
+## challenging-problems-vii (7)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ad6bd32-1c63-4983-a61b-2a7a65057614)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa49ccbd-7537-453c-8422-2987cb2c4245)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d9d01f7-7609-495c-b42d-0c8a3fd3e84a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/baa51adc-05e4-449b-ad8b-017b04f6ab6e)
+
+* Subtree containing **4** nodes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b5c64e1-295d-4d75-b10c-a9a533cd21b7)
+
+* Sh4N -> Subtree having 4 nodes.
+* T -> Total nodes till now.
+* r -> Root.
+* l -> No. of nodes on the left subtree.
+* R -> No. of nodes on the right subtree.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0682e47f-ad74-4e56-838a-18245243bf3c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a7425d6-71ce-48b0-b795-6cf76f72d2b6)
+
+* Code.
+* If it is an **empty binary tree** which is **if(r == 0)** then **total no. of nodes** we will return **zero(0)**.
+* It is a **recursive** call.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f1975a6-b030-47e5-a1e5-04e60540b038)
+
+* Total nodes(T) is **zero(0)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3658ba2d-79cd-4c19-98f3-0d4d80a1bcc0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/45917bee-cb1c-4e61-9f1a-581f09be9912)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/efeb7aee-46b3-40a5-bb30-8577e08bb55a)
+
+* We don't care what the function **Sh4N()** is returning as we are not storing it anywhere for later use. We need the **count** variable value because we are printing the **count** variable value.
+* Our goal is incrementing the **count** variable.
+* We have done **1 scan** of the total tree.
+* One scan required.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2d58744-a300-4e2c-aa5b-e3f93c942f92)
+
+* Wherever we got **total as 4**, we have print it.
+* We have to see the **total tree**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/73a0d7c9-4e90-4ac1-bc4d-f70db4092717)
+
+* The program -> **Counting total nodes**.
+* If we remove that line then it is the **above program**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/918bb12c-bacb-4f8e-bb86-21847cd12e68)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6abf5e8d-4eda-412a-9365-786d0cf4f4cc)
+
+* If it is an **unbalanced** tree means all of them will go to **one side** then also it is **O(n)**.
+* Every function call is **constant time(C)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/74e797b4-e93d-4340-9146-84ff41ba5e8d)
+
+* Answer -> We have to scan the tree one(1) time. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b5733f8-de6c-472a-8bf0-8dc976554620)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/79131906-f703-4dfb-a99c-7dd70b85b1fd)
+
+* So the time complexity is **n**.
+* So **a = 1 and b = 0**.
+* **a + 10b -> 1 + 10 * 0 -> 1**.
+* Option **A**.
+* Best/tighest Upper bound.
+* n -> O(n) [Best Upper Bound]
+* n -> O(n ^ 3) [Upper Bound]
+* Rooter Binary Tree -> We have to start from one person, we cannot start from wherever we want.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95b141b8-9c60-4d5a-bd5d-fdd33c95e2ae)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b24a7bc-e0c2-4299-b1ee-287e213a1d80)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f4e70aaa-8af1-4c34-a06f-0421c2900231)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b3698932-be89-42e6-8efb-35dfa16d3782)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/559c5577-d471-4185-a7bf-7e73151061d5)
+
+* Bit-wise and(&)
+* Logical AND(&&)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f651d760-66fa-4ab7-a3a6-4784abdfcbe0)
+
+* Right Shift -> Divide by 2.
+* Count -> Counting the no. of 1's.
+* **v** contains **two 1's** and **v** contains **3 bits**.
+* 5 -> 101
+* 4 -> 100
+* 3 -> 011
+* 2 -> 010
+* 1 -> 001
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3cfd951b-ee9e-458f-ba1a-a682fb05edda)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a1c05b3-e91f-4610-bebc-f04b2d073468)
+
+* Option **A**.
+* Solution.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a37a636-b064-4167-9604-cfb1799841e6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e2b5c80-7352-43b9-9f4e-9542c168d99a)
+
+* If **static** not there then **answer** is **7**.
+* If **x** in the **main()** is **static or not** doesn't matter because it will give the **same** answer for both of the cases.
+* [**IMPORTANT**]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
