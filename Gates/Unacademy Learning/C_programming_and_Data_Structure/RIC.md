@@ -1295,10 +1295,287 @@
 
 * If **static** not there then **answer** is **7**.
 * If **x** in the **main()** is **static or not** doesn't matter because it will give the **same** answer for both of the cases.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4586ece5-ca6a-4864-9b06-32bd2a6f5e90)
+
 * [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5cf7fe5f-2109-46ef-84dc-aea7e1f71d37)
 
+* Question.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71f4ba34-925a-410f-bc64-84f442372646)
+
+* **8** leaf nodes are there.
+* Path length -> 2,4,6.
+* Path lenghts are **even**.
+* We have to pick two people from the **leaf nodes** only.
+* Independently -> Independent of  first selection. We can choose the same leaf node again.
+* To select **1 leaf node** out of the **8 leaf nodes** takes **8** possibilities.
+* To select **another leaf node** out of the **8 leaf nodes** takes **8** possibilities.
+* So **8 * 8 -> 64** possibilities.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff10410e-4e71-49c6-800c-1826352ba2c7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3367c058-826d-46b1-8508-152d75b4ec7f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7af31196-b154-42f1-b36f-feb39a087918)
+
+* x -> Path length
+* p(x) -> Probability of getting path length.
+* Answer -> 4.25
+* [**IMPORTANT**]
+* If in the question it was mentioned **choose uniformly, independently and distinctly at random** then? 
+
+> **First possibility** would be **8** and the **second possibility** would be **7**. Below **8 * 7 -> 56** would come. Also **0 length** pairs would not be possible.
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b05c702c-2691-43b8-b141-361c824c1c9c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b7a94e4-fcf0-4ff8-a1e8-9a4e4c6e9d10)
+
+* Question.
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aaff69b5-99ca-47f6-a42f-9b4a103d5399)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e80bfe5a-0f96-4222-b45c-17f6040915bd)
+
+* **Swap** by **call by reference**.
+* In **call by reference** original values will be affected.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/569a12e4-0e84-44fc-98ab-62cea930026f)
+
+* printf(x) => 1000
+* printf(y) -> 2000.
+* printf(temp) -> Garbage value.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/74f52bac-ff5f-4da6-bc91-8341a7312e94)
+
+* **Swapping** is done but it didn't touch the **original values**. [**IMPORTANT**]
+* The addresses were **Swapped**.
+* If **star(*)** was there then **original values** are affected.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f3553c0f-3e47-4b24-bbac-056e9455523c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b9cfab4-8655-4c83-a283-84aa9e279bcc)
+
+* Option **D or 4**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/310c4e29-553c-4cd3-a873-d181d63e91f7)
+
+* No where mention of **call by reference** in the question.
+* If program is given and it is mentioned that the parameters are passed by **call by reference** then we will use the **above logic**.
+* But in the **above question** there is no mentioned that the parameters are passed by **call by reference** that's why we are not using the **above logic** in the **above** question.
+* If **explicitely** mentioned that the parameters are passed by **call by reference** then only do the **above logic**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d580719c-5cd1-456d-bd0d-c5c643a482d8)
+
+* We cannot do anything by **ourselves**.
+* Keep it in **mind**.
+* The trap is the **swap()** here.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7884aee4-1793-4842-a77e-0cc0b3911234)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7db84abd-d265-43bd-ae60-8e815eb6767e)
+
+* int i = 0;
+* **i** is not a **static variable** otherwise no option will match.
+* If **i** is a **static variable** then we will get **6 3 6 3** or **6 3** twice. As nothing changed in the **second function call**, **i = 5** and we didn't go into the **loop**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2078144a-5fe8-4973-ae4a-603629b79f82)
+
+## challenging-problems-viii-doubt-clearing-session(8)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/172242ad-e501-423f-a8a8-088b2093da36)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae056dfd-0d33-47b0-8ed5-6f1051617b53)
+
+* Question.
+* Both of the code looking like **same**.
+* In the **second code(work2)** we are using **temporary variables**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e05dfbd8-6597-4c8f-bded-74004a8cfcd3)
+
+* Option **C**.
+* Among both of them **work1()** is better in terms of **space** compared to **work2()**.
+* CPU time -> In-accordance to time or time complexity.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27033b0d-7302-47d9-a8e2-0942fff8087b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0be17e9-9997-4020-a472-d8661b8989de)
+
+* First code returning **18**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce53b7b0-f784-47bc-b37b-22a04c82fa80)
+
+* Second code returning **17**.
+* Both are giving **different answers** for the **same input**.
+* Both the codes are **99%** same. Sometimes they will give **different answers**. [**IMPORTANT**]
+* **work1()** is taking **updated values**.
+* In **work2()** we are taking **temporary variables** and they are not **updating**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/06c2c7a8-aca2-435e-9a90-c705c88e4854)
+
+* Looks same but they are giving **different answers**.
+* [**IMPORTANT**]
+* In **work1()** we are calculating **(i + 2)** two times.
+* In **work2()** we are calculating **(i + 2)** once as the value is stored in a **temporary variable**. When again **(i + 2)** is required, we will use the  **temporary variable**.
+* One time we will calculate and store it in a **temporary variable** and use it **again and again**. This is done in **work2()**.
+* In **work1()**, **(i + 2)** calculation is done **again and again**.
+* When we will calculate **again and again**, we will get **updated values**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b524fa4-4d2e-4a2d-b74d-1d4b783d2e8d)
+
+* **Space** point of view, **work1** is **better**.
+* **Efficiency/time**  point of view, **work2** is **better**.
+* **S1** is **false**. **S2** is **correct**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce966171-4b6b-4129-9cc8-8ac84439f2b2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/20427c06-6caf-442c-965c-ca7f57624510)
+
+* Option **B**.
+* Both are not same code.
+* **Time** is decided by **arithmetic operations**. The **more** the **arithmetic operations**, the **more** is the **time**. [**IMPORTANT**]
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f32db636-a226-4a7a-ab89-c7d7d0680dfe)
+
+* Question. [NAT]
+* Answer -> 15.
+* By default is **call by value**.
+* By default is **static scoping**.
+* If it is not mentioned.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72beb767-6db8-4c3d-ab78-a44cad28cb9b)
+
+* No one taking **-1** which is return from **stkFunc()**.
+* stkTop++ -> Post-incrementation.
+* --stkTop -> Pre-decrementation.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc73c7fb-e32d-496f-b393-7e29d3332183)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e73641be-066e-4fc1-b504-3922b9e2ac54)
+
+* Answer -> 15.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8531a97-4b4c-43b8-ad5f-987fd2250564)
+
+* Question.
+* Inorder -> Left-Root-Right.
+* If **only one** is there then it itself is the **left**. [**IMPORTANT**]
+* **Inorder** is mainly for **binary tree**.
+* It is an **n-ary** tree then how we will do **in-order**?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aecd0463-f03c-4b27-8a07-e2dc2b9d4ef8)
+
+* **In-order** of an **n-ary** tree:-
+* LeftSubtree(LST) -> Root -> Remaining. [Steps] [**IMPORTANT**]
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5492ffed-f1b0-43bb-a963-6440fb462b37)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9627564b-1283-497d-b95a-59e4653fae01)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b14ffec-7bbb-45eb-a226-778a752f56de)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e0e0c49c-3a0e-4515-9fd5-fe604ce60fb9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ca6ec8a5-916c-46be-b9cc-e2f0719c7b1e)
+
+* Option **A**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72726b8d-de4b-4a5d-b090-502c142bfd1e)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b835bb9a-34c9-4fb4-aa97-4683ca7a6727)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/53e67cf4-ed4a-4f4c-b0dc-c102b3311a0e)
+
+* **Right side** kind of trees have same **pre and in-order**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b3fc91af-54f8-44fa-a5f1-7cc3852dc4b9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e51d4d3b-f710-4581-90f1-c1c96557f435)
+
+* **Left side** kind of trees have same **post and in-order**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/098eeb27-9322-43ae-aae1-3dee3483566c)
+
+* pre -> ACB
+* In -> ABC
+* They are both not **same**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72aedad6-ab5a-403a-86ed-a619bf8599e6)
+
+* **3** nodes are there and **3** levels are there. So **height is 2**.
+* No. of noes(n) = height(h) + 1 = 2018 + 1 = 2019 [Answer]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6712b37a-dd14-401c-880b-7a11412e9baa)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6cd69b26-98e5-4116-aeb5-9c6ffa52ceea)
+
+* **Directed** graph have **in-degree and out-degree**.
+* **Undirected** graph have **degree**.
+* In a **binary tree** max degree is **3**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e085f003-4c69-4c8d-bd2b-bc8d32e82afe)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/504a300a-34f9-4f9d-90c8-514b1426b928)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/96744ee1-abca-423e-9ccf-9196d6d549ef)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b2ba4387-b2b8-424f-bfe3-a3b43cbbcb52)
+
+* Some many **20s** are there.
+* Using **binary search** find out the **first 20**. It took **log n** time. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f284987-653f-4c16-90f3-76aaa5e02c5c)
+
+* Doubt.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d915910-bf91-465f-974b-7c6c35f1ff34)
+
+* Answer -> log n.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9748feef-9e8c-457c-a9b7-30102c8a9874)
+
+* Question.
+* Remember the **formula**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f14abdea-641c-48da-9755-e09e535bcd0c)
+
+* Only **1 leaf node(L)** and **3 internal nodes(I)** for **n = 1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/817d47e9-eeaa-46b2-9691-a17f64e47f0f)
+
+* **5 leaf node(L)** and **4 internal nodes(I)** for **n = 2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/137ac3f1-14aa-4b73-a40e-ca6d3b847cf1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b14d6a2-ab9a-4dca-bb8e-e1f9db4d3d28)
+
+* **13 leaf node(L)** and **6 internal nodes(I)** for **n = 3**.
+* Some relation between **L and I**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e182a9ab-fb41-4ca7-8f31-7220a3e15782)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58c7dbad-1b90-453a-82c0-b49c4ba0fd8e)
+
+* Examples.
+* n-ary tree, Leaf Nodes(L), Internal Nodes(I)
+* L = (n-1) * I + 1 
+* Formula [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/73ea6918-1862-488c-a3f0-0a066651506f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aba3d261-b8e6-49e4-9721-b53ed8137b8d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c8a2796e-0290-4565-ab30-051db45d166f)
+
+* This formula is only for **complete/full n-ary** tree. Every node having either **'n' children or zero(0) children**.
+* Formula [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/508f5612-0a64-4ed9-9f6e-19d4f3f5cb9f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c548c6b-415e-4f66-b8d1-a5264ce3937c)
+
+* Answer -> 5
+* Option **C**.
+* [**IMPORTANT**]
 
 
 
