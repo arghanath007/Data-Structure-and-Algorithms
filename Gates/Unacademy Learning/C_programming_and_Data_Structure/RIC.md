@@ -1,4 +1,4 @@
-# C and DS
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d352880a-a572-415a-9a0e-6410565a6f4f)# C and DS
 
 ## Challenging Problems-I (1)
 
@@ -1646,6 +1646,119 @@
 
 * We have **pre-order** and **In-order** is missing.
 * **In-order** is not given **directly**. **In-order** is given **indirectly** by mentioning **BST**.
+* **In-order** of **BST** will be in **ascending order**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/812fc439-5a9f-4f9d-b9e1-91e94ef43b4b)
+
+* [**IMPORTANT**]
+* In **min-heap** tree the **root** is the **minimum element**.
+* Ascending order of **BST** -> **In-order** of the **BST**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ca82059b-fdd2-4c2d-a650-418be89f5844)
+
+* In **pre-order** the first element is the **root**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b10f2984-a559-41a4-ac46-833dd45b8dca)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af7ce473-eab6-43ad-86e3-1079e56f87f8)
+
+* We draw the **BST** tree and now we will get the **post order**.
+* Solution.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/18867271-b30f-4bc3-9c51-b05b5cbf5531)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5dffcaea-7902-448c-986e-57b1f9d2fe15)
+
+* Best algo will take **O(n)** time.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ccf09871-79bb-4475-8247-182c9d55ceb8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63167ceb-a14a-431c-8c4f-639e4ddc0680)
+
+* BST -> In-order
+* BST + pre -> Unique tree
+* BST + post -> Unique tree
+* BST + In -> Multiple/not unique.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e768cc3-11b7-4c13-829a-302425f675e7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4ee1c53c-854c-497e-bff2-357a38be3a7e)
+
+* No. of BSTs possible.
+* Many **BST** will come.
+* Formula -> 2nCn/(n+1). [Catalan Number]
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b02abbd8-cc1c-4784-84fb-7232e8a8459a)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef9c2404-aed0-4220-af17-c97c12846c56)
+
+* In the given **preorder or postorder** to create **BST** will take **O(n)** time for **every case(EC)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a8757c7-ce5b-4af7-81fb-5be7eac17db0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24e30e60-2a92-4419-aa1a-67e2fe8c8262)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/504dbfd2-5ad3-4d16-94ee-cb6c88add842)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c2b3bc8-c81f-439c-9d4d-897f542a899f)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/688887bd-c830-46f2-bb73-1ce8cf486909)
+
+* This is the **flaw** in the program. If **same character** is repeated twice.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e8d16a9-4dc7-4baa-a1bc-dc6d6f1d0c89)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c61a660-fb76-48c6-9b89-846bbf3a3a84)
+
+* We have to take in account the **old and the new** array as well.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0858f8e-7bee-463f-b7d7-698f29881567)
+
+* Whatever we are **replacing** , it is again further coming. **b** replaced again by **a**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/035bf48e-15fa-4d63-8437-74374497f3da)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b3ce704-863f-4693-8d9e-69b97a0f1f0e)
+
+* This is the **problem**.
+* Simply **break** required.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83373fe0-ac73-4ab1-b004-d3015755d06f)
+
+* yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/717b22d4-1901-43c6-8a2e-245b8c66c70b)
+
+* With **break** we will go out of the **second for loop**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/264bb580-664d-433e-b37e-82d9999aaf73)
+
+* Option **B**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b32b3272-543c-4d9b-8f91-55a3356fc7c5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a55a7a91-4ef0-4ad2-945f-2cf17c771c5d)
+
+* Yes.
+* Except upcoming elements replace with **anyone**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/84ec7121-e8c1-4bda-bbc8-34e16091feec)
+
+* Last person is not having any problem as **j** loop is anyways ending.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16c5a0fc-9bdb-4fc5-a40f-28f3fd1023ea)
+
+* A's content doesn't matter here. **Old Array's and New Array's** contents matter here.
+
+
+
+
+
+
+
 
 
 
