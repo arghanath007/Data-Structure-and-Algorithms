@@ -1,4 +1,4 @@
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d352880a-a572-415a-9a0e-6410565a6f4f)# C and DS
+# C and DS
 
 ## Challenging Problems-I (1)
 
@@ -1753,7 +1753,10 @@
 
 * A's content doesn't matter here. **Old Array's and New Array's** contents matter here.
 
+![Untitled](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d22af6de-bf8d-4c39-b93b-3528fc58cd59)
 
+* Work.
+* [**IMPORTANT**]
 
 
 
@@ -1784,3 +1787,4 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc7343aa-01f9-42b2-afe5-58e9be069e55)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0858f9f9-f4a3-4a07-aee8-48158ad0ac37)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d2690a9-6976-409b-8726-b0d17b1715c4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d352880a-a572-415a-9a0e-6410565a6f4f)
