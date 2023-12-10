@@ -1,4 +1,4 @@
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d2690a9-6976-409b-8726-b0d17b1715c4) # C and DS
+# C and DS
 
 ## Challenging Problems-I (1)
 
@@ -1577,6 +1577,75 @@
 * Option **C**.
 * [**IMPORTANT**]
 
+## challenging-problems-ix (9)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f9c4c4dc-f7a9-42d8-a2a6-88c683e19875)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f65f94d-e1bf-4a53-97a2-406dfa9ed716)
+
+* int &x;
+* Actually the **&** in **x** is not required. It is already mentioned in the **question** that it is **call by reference**.
+* Whenever **x** is there within the **f()**, put a **star(*)** infront of **x** as **x** is pointing to the address of **1000(p)**. [**IMPORTANT**]
+* *x = *x + 1;
+* f(*x,c) * (*x);
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d4ba5de-61f0-497b-93cf-827c1ee9c509)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bed86bfe-8ce8-48e1-889f-6ef226c87ef2)
+
+* Function **f()** is called **5** times but **x = x + 1;** is executed **4** times only.
+* printf(x) -> 1000.
+* printf(c) -> 5.
+* Two operands are required to do **binary operation** and only one **operand** is available, we cannot do **directly**. Another one should be required as well.
+* Keep as it is and don't write the **values**.
+* **x** is an **address** and we cannot **multiply address** so we have to give **star(*)** to **x**, which is give **(*x)**. [**IMPORTANT**]
+* (Some address) * 25 -> Error message will come. [**IMPORTANT**]
+* There is **no meaning** with multiplying with addresses.
+* Pointers we cannot **add, multiply, divide**. It will give an **error message**.
+* **Two pointers** we can **substract** that is ok.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1fb6924b-7302-410e-9c2e-41bbd49e53e1)
+
+* **x** is a **local variable**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/45bb62da-987a-48ac-97ce-6ab58a90da08)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3543d6b5-1112-486f-a83d-fd6997ba8045)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6dbd4c4a-e900-47f2-a45f-432782f577c8)
+
+* **Call by reference** problem using **recursion** practice.
+* Option **B**. [6561]
+* [**IMPORTANT**]
+* **Value** we cannot change but **address** we can **change**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b38675b-49f7-4900-b713-3c727195a926)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e7c4162-7470-42a0-abd9-9fb049fd1ee4)
+
+* **p** expecting an **address of a character**.
+* Data is clearly there in the memory.
+* Address of only one character **p** is asking but we gave **p** a **string** which is the **first character address** of the **string**. If we give **more** then the **more** we can **access**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/23fe8d18-8922-4b70-b2aa-4098535b721c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d2fc254-9f49-400a-9d0a-a6c73ce74026)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0f1286c-b25f-45b2-b6fd-896076c88f3a)
+
+* If we have given **a** and now if we go to address 1000 then **a** is there.
+* If we go to **p + 1** then we will **Null character(\0)** as **a** is a **string** because it has **double quotes, "a"** then followed by **garbage value**. If **more** data is visible then we will get the **data** otherwise we will get **garbage value**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/367c246b-e20c-4670-ad88-6e8e1ec516d3)
+
+* Question.
+* To create a tree either **Pre and In** or **Post and In** are required. Only **one answer** is possible. We will create **unique binary tree(U-BT)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9aa27435-7a27-4dbd-aba0-2276258494be)
+
+* If only one is given either **Pre or Post or in**, anyone of them is given then **multiple answers** are possible. We do not create **unique binary tree**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bedc8f37-e375-4def-a89d-2ef897dc7d23)
+
+* We have **pre-order** and **In-order** is missing.
+* **In-order** is not given **directly**. **In-order** is given **indirectly** by mentioning **BST**.
 
 
 
@@ -1601,3 +1670,4 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d59ce3f8-bc91-4dbe-bab5-d6e0d24662d5)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc7343aa-01f9-42b2-afe5-58e9be069e55)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0858f9f9-f4a3-4a07-aee8-48158ad0ac37)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d2690a9-6976-409b-8726-b0d17b1715c4)
