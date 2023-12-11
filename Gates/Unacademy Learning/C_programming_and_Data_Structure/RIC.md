@@ -2018,6 +2018,137 @@
 
 * Question.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8b31624-2153-4875-8e2d-a567e6d54d3a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/49d4c4c0-eb01-4a63-90bd-e528f87ff6fc)
+
+* **10** insertions are equal to **10** push operations.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d7c4f16-bf8a-4d2c-8ba7-aa620e4a66fc)
+
+* **Pop** all of the elements from **S1** and **push** them to **S2** stack.
+* **Stack** is normally **reverse**.
+* We have used **stack** two times, so it is **reverse of reverse** which means it is in **normal order** now.
+* Now it is **queue** behaviour.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dfb40f22-e46d-410e-a050-2a8ddd8183f1)
+
+* **S1** contain the **reverse** people.
+* **S2** contain the **normal/actual order** people.
+* Now **pop** from **S2** and **a** will be **popped**.
+* For **insertion** go to **S1**. Everytime **insertion** is **S1** only.
+* For **deletion** go to **S2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f351bae8-4655-4eae-9e60-358d377a9262)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a3574f1-94b8-4484-8eaf-0e83049b702a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8088fe1c-7c6d-41d6-b6ea-cfca6a7f1628)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/03e6e862-7aa7-4fbe-93b5-4ab8c5a0d02b)
+
+* Pop everything from **S1** and push them to **S2**.
+* **Enqueue** is **easy** compared to **Dequeue**.
+* **Delete** is **more costly** than **insert**.
+* **Time** of **delete** is **n** for **pop** from **s1** another **n** for **push** into **s2** and **1** to **pop** 1-element from **S2**. So it is **n + n + 1 -> 2 * n + 1**.
+* **1 dequeue** is **(2 * n) + 1** operations.
+* Time complexity for **Dequeue** is **O(n)** for **worst case(WC)**. For **best case** it is **O(1)**.
+* Time complexity for **Enqueue** is **O(1) or constant** for **every case(EC)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c3ac361a-e274-446a-a342-870d799ca317)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/75d67aa2-d09c-4a6a-928f-629e588a8f1f)
+
+* The program will give **best performance** when it is used **alternatively**.
+* The program will give **worst performance** when **n push/insertions** operations are followed by **n pop/deletion** operations.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/38b7a341-d0de-45ed-9337-1c8be8828c07)
+
+* options.
+* Always target about **best and worst** or **min and max** case.
+* **n** insert and **m** delete operations are performed.
+* **Best case** comes in **alternatively**.
+* **Worst case** comes in first all of the **n** push are done and then **m** pop are done.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c79dbd0-350b-40ce-8c71-16a8b3ab0182)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9e6e59f-881b-4f3d-8941-44c6f06fddc5)
+
+* Worst Case(WC):-
+* 2n -> PUSH [x]
+* n + m -> POP. [y]
+* * This is **continuous**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9979eb53-3a47-4077-8787-dcb8a6cddaa2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b9cf3b5f-74be-4319-9cfb-5321a73d7738)
+
+* Best Case(BC):-
+* n + m -> PUSH  [x]
+* 2m -> POP.   [y]
+* This is **alternatively**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2236ba4-3eb6-4aab-9104-9cae18ccf205)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/104b39a0-be54-4310-9d56-5591500949c7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d08194d-7aaf-4e75-bf3f-56ae9bb677a0)
+
+* n + m > 2m. [As **n** > **m**]
+* [**IMPORTANT**]
+* x -> PUSH.
+* y -> POP.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95db4a10-00d2-4b6a-945e-a14ebc0065c8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5be2cdf0-1b45-4fe4-8f62-ca89adadae74)
+
+* Option **A**.
+* [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36a74c5c-0864-4291-861c-53d34ad8308e)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71ce1e32-cb15-4131-b2eb-689771891f47)
+
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36ca2665-b56e-479b-a765-694c70256e2f)
+
+* This is **correct** which is **O(n)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30d9d6d5-a1fa-40f6-9fc9-6afcdb456e81)
+
+* We have to **delete the node**.
+* We have to delete the node at **address 4000**.
+* If it was to delete the **data** instead of the **node**, then we could have the done the **above creating** and got **O(1)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bdd7b564-87b4-46cb-a90b-00e1a97158e6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0181546f-bbaa-4193-bedc-88867a23b008)
+
+* Option **A** [O(n)]
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c20d922d-dfae-4e0f-95d4-63e65475fb18)
+
+* Question.
+* Looks like **postfix** evaluation of an expression.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8229d356-6dfe-45f7-afd8-8dfe70d71e77)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/62a4790d-8fd7-4c6a-a05e-ddb62e782b2d)
+
+* EOF -> End Of File.
+* Option **B**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2022291a-2ef7-4328-aca1-57ef3e677b53)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d96dd77-8a2c-41a8-b861-73ec8ef7727d)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fae92fa4-b63b-42ef-a393-85153b00adec)
+
+
+
+
+
+
+
+
 
 
 
