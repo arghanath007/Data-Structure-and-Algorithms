@@ -3,6 +3,7 @@
 * 1-time Revision Done.
 * Test Series Given
 * RIC Done
+* Check the last PDF file from RIC class. Some questions left. solve them.
 
 # Aptitude
 
