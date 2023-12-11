@@ -1758,9 +1758,235 @@
 * Work.
 * [**IMPORTANT**]
 
+## challenging-problems-x
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/030c5cea-325c-4184-a6d1-f42db4d9d559)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5b00103-bd94-48c6-a769-c2f9323003c8)
 
+* Question.
+* Option **C**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc5d103a-838a-462a-8366-84a211861fee)
+
+* Ascending Order.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d33d898-ec5b-4f02-b1c4-3c50c8f89240)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0b5be7c-43cd-40d7-a8da-cb897d725625)
+
+* For every element in **Queue(Q)** we are running the while loop two times, once for **pushing** the element to **stack** and the next loop is for **popping** the element from **stack**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/67437def-14d4-4a99-b6b4-2428cf5bf739)
+
+* We did from **16 to 2** which is **15** elements so **15 * 2 -> 30** iterations and now the **stack** is **empty**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/845a920e-b251-454a-b193-8bff86980e4a)
+
+* Now the **Queue** looks like this.
+ 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c09eda1b-0408-40bd-887b-e4c014a1a7d4)
+
+* We ran the while loop **once** and element **1** was pushed to the **stack**.
+* For the next iteration, top of stack is **1** and the head of queue is **16** and **1 <= 16** is **True**, so head of the queue **16** is pushed into the **stack**.
+* For the next iteration, top of stack is **16** and the head of queue is **15** and **16 <= 15** is **False**, so head of the queue **16** is **popped** from the **stack** and **inserted** at the end of the queue.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f07d1931-c766-4187-bfbc-ee7d9708399e)
+
+* The **same** thing is happening again, for **each element**, the loop is running **twice** and it will run from **16 to 3** which is **14** elements.
+* Lastly inside the **stack**, the element **2** will come.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac046904-95c5-4892-b462-734752c7c310)
+
+* From **1 to 15** elements are in the stack.
+* For every element which is inserted in the **stack** permanently like **1 and 2**, we are multiplying with the remaining elements. For **2**, we had **(16 - 2) * 2 + 1 -> 14 * 2 + 1 -> 29.
+* For **3**, we had **(16 - 3) * 2 + 1 -> 13 * 2 + 1 -> 27.
+* So on ....
+* The last person came is **16**. So **queue** is not empty as **16** there in the **queue** and top of stack is 15 and **15 <= 16**, so **push** the element **16** into the **stack**. For **16** we had **only one iteration of the loop**.
+* For the **next iteration**, **queue is empty** so the **while loop** stops/ends.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5332e43-069b-4739-a540-81268b149200)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4666bca2-e0cd-4279-8ebf-e9e21f9b5f1a)
+
+* For **every element** the no. of iterations decreasing is **2**. Everytime one element is going into the **stack** which means one element is **decreasing** then **2 iterations** are **reduced/decreasing**.
+* It is **AP** series.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed1159da-cfa8-4e70-b90c-8d030dce36f7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af3eb091-aaac-4528-98cc-1f4fc865cfd7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1aa4b689-fd67-437f-a4a5-59a03632f44d)
+
+* Option **C**.
+* Sum if **n-terms** of **AP series** -> (n/2 * (a + l)). [**IMPORTANT**]
+* Formula [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8af9f92f-b7b5-4e4d-a7a1-5c6c6b9e4c1a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6209642e-13c0-4a42-8f8f-19923aafe9d8)
+
+* Find the **last term(nth term)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3cd9ed5d-7770-480f-a702-e6f0851a020f)
+
+* Maximum -> 256 [Option **C**] [Worst Case]
+* Minimum -> 16. [Option **A**] [Best Case]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea3f7f3e-fef7-4d73-ad3d-767f28f61f31)
+
+* Don't have to check all of the **16** numbers.
+* Just take **5** numbers and check with **increasing and decreasing** order**, we will understand what is happening.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a55f721c-4621-4e87-9b49-1157b25bd5b4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d166503-8b96-496d-b24c-f8a7bbb8191b)
+
+* Question.
+* Link -> https://gateoverflow.in/3758/gate-it-2005-question-13
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ded582d5-874c-4932-9522-1c3122bbe21f)
+
+* Option **C**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2da1b6ac-e931-4605-82c7-ad971c0dc248)
+
+* Question.
+* BST -> in-order [Given]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32ecafd7-59ed-4c00-adc2-f3970a440e3e)
+
+* Good observation.
+* By seeing the options we can say that **5** is the **root**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0756a9a1-ff66-405c-986e-525ce9a6aa23)
+
+* After **root**, left people should come. So option **B** is not correct as **6** cannot come before **1,2,3 and 4**.
+* From the remaining options we can see that **3** is coming next. So **3** is the **next root**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7317429-37fe-4281-9bb5-bc930657256e)
+
+* After **root**, left people should come.
+* So after **3**, **1 and 2** should come.
+* In Option **C**, **4** came before **1 and 2** so option **C** is **not correct**.
+* Now the **next root** is **1**. So **2** is after **1**, so **2** should be in the **right side**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/25922f17-6aed-42b7-8ae4-4920ac3cd2f8)
+
+* Left subtree looks fine now.
+* Let's go to the **right subtree**.
+* We can see that **7** is the **next root**. **6** should be to the **left** of **7** and **8** should be to the **right** of **7**.
+* So after **7**, **6** should come as it is **pre-order**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/43ce25be-6b64-4b47-9fd5-c720fe346170)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e41e2099-9d4f-4f91-96cc-6c42eca48e33)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a8d79fa-d126-4cc9-a629-3664d6c5a915)
+
+* [**IMPORTANT**]
+* As we are making **pre-order** so the first element in the options is the **root**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/08d74d7f-8e8b-4b06-9268-162e641ee82e)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50e631f5-6718-420f-9ebc-02b4891d82db)
+
+* Always check till the **last element/end**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c4086886-1750-44c9-943a-081252410454)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2cb79fbf-a62b-40a6-8aab-1100a1f4af87)
+
+* **BST** is not shown here.
+* Anyone can be **root** in **BST**.
+* Whoever is inserted **first** into the **BST** that element is the **root** of the **BST**.
+* We will not know which element is inserted **first**.
+* We are checking if it is **search path or not**. We are not creating **BST**. We are not **adding** any node. This is the **misunderstanding**.
+* Instead of **BST** it was given normal **binary tree** then we would have to go to **every path**. In **binary tree**, we don't know where is the **element**. In **every path** we have to go.
+* As it is a **BST**, we can go to **only one path**.
+* **BST**, it is a **searching tree** for that it is **mentioned/used**.
+* **BST** is designed for **searching purpose**. We have to go to **only one path**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/49c22414-0a09-4796-8922-4ba58db861fc)
+
+* In the **min-heap** tree, we have to go to **every path/everywhere** because **min-heap** is meant for **minimum element** and not for **searching purpose**. [**IMPORTANT**]
+* **Search tree** are meant for going in **one path**. [**IMPORTANT**]
+* The path we have **selected** is part of the **BST**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4fd96ea5-f09c-4694-9761-ce830cc998c5)
+
+* We want **less** -> Go **Left**.
+* We want **more** -> Go **Right**.
+* It is a **search path** and it is one of the paths of the **BST**.
+* Path of the **BST** is also **BST**.
+* We are **searching**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e08b7758-f245-48c4-9509-f98f6eaebc22)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/768e11ce-ccb2-4d44-9a97-b90cf07a4bc1)
+
+* Option **D**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a7cb62d-cb42-4969-a8e9-0d119464f01a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff153a1b-963e-4097-86d4-b42f65f9d361)
+
+* Question.
+* Queue -> a,b,c,d
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce542a49-d5b6-42e2-8f33-d03be75393ef)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05634deb-ac89-41ce-984f-b971a4a4f7cf)
+
+* Whatever data we will give it will **reverse** it.
+* We are inserting at the **ending** always.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ce83241-2376-4112-bc49-bfeeed2599fb)
+
+* Option **B**.
+* [**IMPORTANT**]
+* If variable **i** is **static** then **all of the elements will be last element**. [Option **e**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/677b2e60-5a19-473b-a846-34a4279dfb6a)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3381ec75-5c44-4e0b-bc71-f9f93767f2da)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f13e312-80f6-4b33-b8ef-8086b674de92)
+
+* Smaller element -> 30. [In the left-most path, the last leftmost element]
+* Larger element -> 70. [In the right-most path, the last right-most element]
+* Just **return root**.
+* Sometimes **root** cannot be the **answer** because **root** can be the **max element** sometimes or the **min element** sometimes. [**IMPORTANT**]
+* If **root ->right** is **NULL** then return **root -> left**.
+* If **root ->left** is **NULL** then return **root -> right**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9dcfdc5a-9c96-4e82-9b54-aa5f659b7985)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/629b028f-b997-46d2-9869-b89748ef8c86)
+
+* There are **3 possibilities**.
+* The **answer** can be the **root** or **root -> left(l)** or **root -> right(r)**.
+* If only one node is there, we cannot do anything then we have to say that **return NULL**. Not possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/281a97b6-7e64-4737-851b-f5c223805a09)
+
+* As the **answer** is surrounding **root** only that's why the **time taken** is **O(1)** or **constant** time.
+* By looking at **surrounding of root** we can conclude.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19cf7033-3050-4d67-9941-7f53d6bf4724)
+
+* Option **D**.
+* [**IMPORTANT**]
+
+## analysis-of-test (11)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b8308c1b-81a2-4e45-adc1-0fb96c862e3a)
+
+* Question.
+* As there is some node on the **right side** which indicates **right** is there, that's why we are doing **+1** and then calling the **height()** with **n -> right**.
+* When we come to **B1**, it is already **confirmed** that there is an **edge** on the **right side**.
 
 
 
