@@ -2,6 +2,7 @@
 
 * 1-time Revision Done.
 * Test Series Given
+* RIC Done
 
 # Aptitude
 
@@ -13,3 +14,5 @@
 * Do the rest of the **PYQs**.
 * Aptitude Completed.
 * PYQs done.
+
+# Algorithms
