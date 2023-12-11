@@ -2141,11 +2141,63 @@
 * Question.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fae92fa4-b63b-42ef-a393-85153b00adec)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ec63e72-809f-47df-84d2-40aace2b61f6)
 
+* At the end of **j** loop nothing is printed.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d79e6442-4341-44f6-91f2-a06e9bcbe750)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eae2a5cb-33ab-4a88-b7ed-a6af01b1bef6)
 
+* Option **D**.
+* Checking **confidence**.
+* Asymptotically means **logic required**.
+* Mathematically means **no logic, substitute values**.
+* If **two options** matching then take **another example**.
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/42618df0-1b5b-4bf8-b326-21a3d41850a6)
 
+* Doubt.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7cd2a260-d61d-44c0-aa02-654d814e9b9e)
+
+* Question.
+* For more than 1 function call write it in the form of a **tree** would be easier to solve it.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d818375f-847f-4173-ae10-ca74c3ac6aed)
+
+* Solution
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/18b7d7bf-cd04-4c6c-b1a6-27b2069a9a4b)
+
+* Question.
+* **+1** in **2D** array means that we will **skip one row**. [**IMPORTANT**]
+* **a** is a **2D** array.
+* With **(int *) a**, the question has **type casted** the **2D** array into an **integer pointer**. [**IMPORTANT**]
+* Now **a** is an **integer pointer**.
+* So **+1** in **integer pointer** means that we will **skip one element** only now and not one row. [**IMPORTANT**]
+
+* With **(int *) a + 1**, **a** will go with **bracket** first which means **a** is an **integer pointer** and we are doing **+1** to that **integer pointer** which means we will **skip one element** only.
+* With **(int *) a + 2**, **a** will go with **bracket** first which means **a** is an **integer pointer** and we are doing **+2** to that **integer pointer** which means we will **skip two(2) elements** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33ce2d18-a808-4d08-a568-7627581d116d)
+
+* Without **typecasting**, **a** is a **2D** array and **+1** to a **2D array** means that we will **skip one row**. [**IMPORTANT**]
+* [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30dd1aea-3690-46d2-af3a-4ab3b97d5d87)
+
+* **Very Trick Question**.
+* Solve and we will get the **answer**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69bb2da0-4faf-4737-8858-e4fb44ac90c3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/507eeeed-039d-4226-bce0-d8865b85f91e)
+
+* Question.
+* **arr** is a **3D** array.
+* So **arr[1]** means that we will **skin one 2D array**.
+
+* Completed.
 
 
 
