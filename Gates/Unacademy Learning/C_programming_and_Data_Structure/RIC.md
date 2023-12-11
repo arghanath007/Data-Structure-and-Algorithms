@@ -1986,15 +1986,37 @@
 
 * Question.
 * As there is some node on the **right side** which indicates **right** is there, that's why we are doing **+1** and then calling the **height()** with **n -> right**.
-* When we come to **B1**, it is already **confirmed** that there is an **edge** on the **right side**.
+* When we come to **B1**, it is already **confirmed** that there is an **edge** on the **right side**. It is **not NULL**.
+* **B1** indicates that the **left side** is **only NULL**.
+* **+1** is for counting the edge that is aleady there on the **right side**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e055e57d-ebbd-4cfe-901c-5fc992ee0f12)
 
+* **B2** indicates that both the sides, **left and right** are **not NULL**.
+* For **B2**, both **left and right** sides are **not NULL**. So we have to calculate the **maximum** of **left and right** sides which is **1 + max(h1, h2)**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9a5c7132-cf51-4db3-b4bc-26560a583d26)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ad374561-7c12-4629-b708-52edb9e634b9)
 
+* Option **A**
+* Remember it.
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d2d804cb-15ea-4dd3-a2b7-f6f1ba562429)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ce2e4de-8d3f-486e-8dc2-20d31c235d93)
 
+* BN -> Both Null
+* RNN -> Right Not Null
+* LNN -> Left Not Null
+* BNN -> Both Not Null [Maximum time take]
+* All of the **different cases**.
+* **Left Null** means that all of the nodes are on the **right side**.
+* Every node we have to **check**.
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f132bc4-9a8b-4ecc-b018-cec403d45c91)
 
+* Question.
 
 
 
