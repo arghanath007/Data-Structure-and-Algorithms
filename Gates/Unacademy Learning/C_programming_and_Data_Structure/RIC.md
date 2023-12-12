@@ -2199,6 +2199,84 @@
 * **arr** is a **3D** array.
 * So **arr[1]** means that we will **skin one 2D array**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/20d0910a-383a-48b8-bc68-895116c7e6fd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4824862f-3b68-4ded-896e-fe75f686d04b)
+
+* Link -> https://gateoverflow.in/357488/gate-cse-2021-set-2-question-49
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1651129d-da93-4122-a4b6-dbb26af6fbf9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f833f85d-640e-4889-a5f8-80cea39b1a36)
+
+* Answer -> 60.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2e12eb8d-7ab3-41de-9d23-5973571c86dc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8181e88-30a8-431c-90dd-da338327f16b)
+
+* Link -> https://gateoverflow.in/8478/gate-cse-2015-set-3-question-26
+* Answer -> 140.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9c890bb3-bf08-4c05-8934-cf23b23c70de)
+
+* Link -> https://gateoverflow.in/85987/gate-cse-1990-question-11b
+* Quesiton from **1990**.
+* Descriptive question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab189baf-bde4-4d90-bc8d-12157f369e95)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6622742a-61c9-4394-a8f8-33cd56872586)
+
+* Link -> https://gateoverflow.in/484/gate-cse-2008-question-61
+* Option **D**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3de6905-efe2-47af-a2af-a69b6d03c96d)
+
+* Question
+* Always take more than **2 examples**.
+* Link -> https://gateoverflow.in/1835/gate-cse-2006-question-57
+* Option **C**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f2a6f77f-708f-44a6-a3d1-44a4b2ef625f)
+
+* Question.
+* Link -> https://gateoverflow.in/333209/gate-cse-2020-question-22
+* Answer -> 19
+* Option **B**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aad558e2-d0e5-44d3-930c-af5c72c92056)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b17fc817-c32f-480b-afe0-83d10da40f71)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f49291a-8b5d-4d0a-a024-7022debda00a)
+
+* Question.
+* Link -> https://gateoverflow.in/118293/gate-cse-2017-set-1-question-13
+
+![Image](https://gateoverflow.in/?qa=blob&qa_blobid=3929787017247558211)
+![s34](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95d654f4-c17a-494d-8b3b-e0ba33f7dae6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a6e14b65-495c-4295-a109-5fd0e0e3fff0)
+
+* Dangling Pointer -> Dangling Pointer means if it points to a memory location which is deleted(freed)
+* Memory Leaf -> https://www.geeksforgeeks.org/what-is-memory-leak-how-can-we-avoid/
+* [**IMPORTANT**]
+
+
+
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba20fcbc-d5b0-4a99-80c7-4d2dc8d56bca)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/61a1838c-7305-4f28-8434-d1aa65598ec0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5bbc57eb-8ef2-43c3-8f41-1b4ec50fdfa5)
+
+* Doubt.
+
+
+
+
+
+
+
+
 * Completed.
 
 
