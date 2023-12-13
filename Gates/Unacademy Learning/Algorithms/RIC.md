@@ -326,9 +326,71 @@
 
 * **Values of p**.
 
+## challenging-problems-ii(2)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ec9789a-94ce-43e4-bb32-cbe4dfcda6b2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b6765904-130e-4cc5-959d-7e8eacea1a32)
 
+* Just return **mid element**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/53dfee41-250a-440e-ab2f-cf53040d0765)
+
+* Link -> https://gateoverflow.in/452/gate-cse-2008-question-40
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/25aae6b2-b40d-435e-a670-c4778baaf997)
+
+* Option **B**. [log n]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1967750-2457-4dd8-b7e9-170ddd860320)
+
+* Option **A**.
+* It is an **array** and not a **sorted array**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa20ac28-269d-4e17-b236-2a5c19c2bd32)
+
+* Candidate(C), Votes(V).
+* Whenever **votes** are **zero(0)** change the candidates.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e49b653f-c39f-497e-8000-7d6dbfd50003)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1640262e-51c8-4637-92fb-c605bcc61155)
+
+* Voter's algorithm [**IMPORTANT**]
+* **10** is the **last candidate**.
+* The most probable winner is whoever the **last candidate** is.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/82b3a544-4a21-4d26-89df-4d8a8a49e42a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c79afec-dc4e-4ec9-81f0-6c841affd71b)
+
+* Finding **probable winner**.
+* **1 scan** for potential candidate finding.
+* **1 scan** for confirming the potential candidate winning.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/885b34d7-51cc-4b5a-b471-6d9cdb172b78)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80483f35-4c63-4d8c-b078-083d493797a4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27c13c6e-6b85-47b9-bea1-9757727c541c)
+
+* Overall it is **O(n)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd36a331-355a-4b24-8779-d48d61fe5482)
+
+* Probable candidate is **50**.
+* **50** value is more than half, so **50** is the **answer**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/61ddbc5d-91d7-4183-9fa5-6317fb16e8ed)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ebb84e0-9524-40c3-8f36-ab397069fd2a)
+
+* Solution
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/661c0351-f592-486b-9838-c0d2a7cb6169)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65731ddd-269b-4df3-949c-e7e09bc395a7)
+
+* Unsorted Array(USA)
+* Sorted Doubly Linked List(SDL)
+* Start from **33mins**.
 
 
 
