@@ -3,7 +3,8 @@
 * 1-time Revision Done.
 * Test Series Given
 * RIC Done
-* Check the last PDF file from RIC class. Some questions left. solve them.
+* Check the last PDF file from RIC class. Some questions left. solve them. (Done)
+* 22 and 23 PYQs done.
 
 # Aptitude
 
@@ -12,5 +13,6 @@
 * Do the rest of the **PYQs**.
 * Aptitude Completed.
 * PYQs done.
+* 22 and 23 PYQs done.
 
 # Algorithms
