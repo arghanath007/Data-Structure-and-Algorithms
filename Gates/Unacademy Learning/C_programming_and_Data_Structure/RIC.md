@@ -2271,7 +2271,9 @@
 * Solution.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5cc3190-fe75-4b87-a598-7d88845d1d1e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec961d77-2fa7-4f5a-adbe-4d290c7ec637)
 
+* Explaination.
 * [**IMPORTANT**]
 
 
