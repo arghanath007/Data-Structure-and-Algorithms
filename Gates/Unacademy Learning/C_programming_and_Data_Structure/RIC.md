@@ -2262,13 +2262,25 @@
 * [**IMPORTANT**]
 
 
-
-
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba20fcbc-d5b0-4a99-80c7-4d2dc8d56bca)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ab3ea0b-f16f-4c7c-bf82-6692a6b19a6c)
+
+* Solution.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5cc3190-fe75-4b87-a598-7d88845d1d1e)
+
+* [**IMPORTANT**]
+
+
+
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/61a1838c-7305-4f28-8434-d1aa65598ec0)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5bbc57eb-8ef2-43c3-8f41-1b4ec50fdfa5)
 
-* Doubt.
+* Doubts.
 
 * Completed.
 
