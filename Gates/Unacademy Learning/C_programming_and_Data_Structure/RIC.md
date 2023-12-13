@@ -2270,18 +2270,86 @@
 
 * Doubt.
 
-
-
-
-
-
-
-
 * Completed.
 
+# PYQ 
 
+## 2022
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff1de7bc-9648-4f9e-8e9f-c0a3d3290546)
 
+* Link -> https://gateoverflow.in/371931/gate-cse-2022-question-5
+* Option **A**.
+* Time Complexity -> Theta(n)
+* Space Complexity -> O(1).
+* For explaination -> Click on Link.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f9199aa-ab14-4bdc-8673-f87fbc8adaf3)
+
+* Link -> https://gateoverflow.in/371925/gate-cse-2022-question-11
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e989d61c-a841-4a8d-a0a0-2e2759f040d8)
+
+* Solution
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f1dc562-4326-4c0b-8db2-cdf8c0b7f271)
+
+* Link -> https://gateoverflow.in/371918/gate-cse-2022-question-18
+* Answer -> 509.
+* For explaination -> Click on Link.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b957f8bd-d758-48d9-bd67-fd68da218537)
+
+* Link -> https://gateoverflow.in/371884/gate-cse-2022-question-52
+* Answer -> 0
+* For explaination -> Click on Link.
+* [**IMPORTANT**]
+
+## 2023
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e95d2a45-d7a6-42e7-8964-34aa94763bc0)
+![image](https://gateoverflow.in/?qa=blob&qa_blobid=3170695855052305029)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e41e7dc6-d52b-4a00-bf69-23cba7e15033)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/253e7979-362d-4441-a287-c095c285879a)
+
+* Link -> https://gateoverflow.in/399310/gate-cse-2023-question-2
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1864140b-78c8-4f7a-9736-af51643bddfc)
+
+* Link -> https://gateoverflow.in/399309/gate-cse-2023-question-3
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86898512-647b-4ad2-932a-6c1b3af96aa1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9a42e40f-8999-4680-8a0e-33ede8b64622)
+
+* Link -> https://gateoverflow.in/399275/gate-cse-2023-question-36
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1dff0765-7c64-42b2-9ea1-09a75d757e82)
+
+* Link -> https://gateoverflow.in/399274/gate-cse-2023-question-37
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9a053f6-32ff-4221-83f0-9928e4a77e9b)
+![image](https://gateoverflow.in/?qa=blob&qa_blobid=9998539677481651773)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4dd9427f-538a-4178-8acf-ab82d192d3dc)
+![image](https://gateoverflow.in/?qa=blob&qa_blobid=10773341877092277116)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/75f8ed2a-1036-43fa-b469-a4888abd7013)
+
+* Explaination.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/56bdff4d-d197-4652-85c2-8657cf2771a9)
+
+* Link -> https://gateoverflow.in/399262/gate-cse-2023-question-49
+* For explaination -> Click on Link.
+* Answer -> **8**.
+
+![image](https://gateoverflow.in/?qa=blob&qa_blobid=1250632408370390751)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a75fdab5-26cc-4c6d-a30a-ec6dc211bc9e)
+
+* Solution.
 
 
 
