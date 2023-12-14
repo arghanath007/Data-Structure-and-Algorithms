@@ -536,15 +536,180 @@
 * [**IMPORTANT**]
 
 
+## challenging-problems-iii(3)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d25890f4-eb33-400f-89bb-31c913b6e95c)
 
+* Question.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e01bff0-43e0-465e-92f5-2d057ce35624)
 
+* There is a graph(G) to that graph we constructed an **MST(T)**.
+* No. of edges maybe more in the **graph** but the no. of edges is **V - 1** in **MST**. [V -> Vertices]
+* **T** contains **6 vertices** and **5 edges**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/966ec097-4fe0-4d85-8f07-acbba49462d7)
 
+* Between **adjacency list and adjacency matrix** representation, **adjacency list** is better/best because **adjacency matrix** always takes **O(V ^ 2)** time. Until and unless mentioned in the question about **complete graph**, don't go for **adjacency matrix**. Normally **list only**.
+* **O(V ^ 2)** matrix is the best idea when we have **V ^ 2** edges which is a **complete graph**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0930a1b2-2178-417c-b48a-116c688389c8)
 
+* Previously **C to E** edge not there.
+* Before construction **MST**, original graph does not contain **C to E** edge.
+* In the given graph(G) a new edge is added.
+* Graph is now a little bit modified.
+* MST(T) is the MST of the **old graph**.
+* Modified graph is **G'**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/62e1b447-84f3-4b7f-9ed6-b7a83906cd39)
+
+* Now to construct **MST** for the new **graph(G')** how long will it take?
+* The new edge that is added in the graph(G') will go to the **new MST** or not, we will have to chek.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4aa05eee-0026-42d6-8bc8-bab36cc4bdb1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/555863b7-c540-4427-92d4-821180f0a6bf)
+
+* **C** adjacent is **E** and we have added **E** to the **adjacency list** of **C**.
+* Time taken is **constant**.
+* As it is an **array**, we can directly go to **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/894ea877-bf02-4390-be0a-50668bc72d2f)
+
+* We have added like this. It is a **cycle**.
+* **MST** already contains **(V - 1)** edges. If we add another edge then gurantee **cycle** will come.
+* If **cycle** will come then the **edge** will be **rejected**.
+* How to check if cycle is there or not?
+
+> No need to check/verify also. We know **MST** contains **(V - 1)** edges, so if we add another edge then **cycle** will come. So it is confirmed/guranteed that **cycle** will come, no need to **check**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a7f3d97d-3a7d-470d-a3a5-233838513159)
+
+* No need to check if cycle is there or not. **Cycle** will always come.
+* Because of **cycle** we cannot **add the edge**.
+* Because of **cycle** we cannot **delete the new edge**.
+* When **cycle** comes don't **delete** the **new edge**, check among the **cycle** who has the **largest(max) weight**. It is **19** here. So **delete '19'**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e7839667-36f8-4f43-98c4-c90ae193c01f)
+
+* In the **cycle**, find out who is the **largest** and **delete** it.
+* We are deleting the largest one within the **cycle** and not within the **MST**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/529261bf-ee49-4ac7-bc8a-ca592105fa6a)
+
+* Largest one within the **MST** would have been **70**, we wouldn't be able to **delete 70**.
+* By adding the edge, **cycle** came, within the **cycle**, find the **largest weight** edge. [**IMPORTANT**]
+* We added **2** from **C to E**.
+* We applied **BFS and DFS** to find out the **participants of the cycle**.
+* We applied **BFS and DFS** on the **adjacency list** so the time taken is **V + E -> V + V -> 2 * V**.
+* Here **E** is **V** only. It is not a **graph**, it is **MST**. **MST** having **V** edges only. It is not **(V - 1)** because **we added one(1) edge**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce49bc90-ba21-4270-9d77-11f2d81bcd12)
+
+* After cycle checking is over, we have to delete the **max weight** edge. Out of **V** edges, we have to find the **max** and it will take **V** time.
+* In the **worst case** all of the **'V' edges** can participate in the **cycle**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac4ced75-3f3b-41ac-9134-8eb15b71a4ab)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea005d5a-b87b-4f51-b5a9-6de39a3aab2f)
+
+* So finally **2 * v + V -> 3 * V -> O(V)**.
+* There is no **E** here.
+* We are doing this in the **MST**. [**IMPORTANT**]
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e7e15bec-050c-44fa-882c-407db9b44778)
+
+* Then delete **1 edge**.
+* Delete anyone of them.
+* In **adjacency matrix**, we have to scan the **total row**.
+* If instead of **adjacency list**, it is given **adjacency matrix** then the time is **O(V ^ 2)**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c99325c-2617-4ddb-8cb1-8b209775ec7a)
+
+* Option **D**.
+* [**TRICK and IMPORTANT**]
+* Bellman ford is meant for **negative edge weights**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6104eb6f-79ed-46a0-a50a-5a043adb1388)
+
+* If **adjacency matrix** given then it is **O(V ^ 2)**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8518e60-d29f-4111-a681-fa186c2e1604)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d34993ba-abb0-49b6-b520-76ef356b0a92)
+
+* Question
+* Array **A** has **n** slots where every element is **0 or 1**.
+* We can take **all 0's or all 1's**. We can take combination of **0's and 1's**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5910e1a-f80a-426c-8a4a-cb582370958b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/301c7c4b-1298-4317-aa0f-1467fb179af1)
+
+* Assume all **1's** are there then we will never go to the **else** part and in turn never go to the **f()** function.
+* As the array size is **n** so the loop will repeat **n** times.
+* So the time complexity is **O(n)** as **only one scan** is required.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b05db7c9-9e9e-455e-805c-cddaa1188688)
+
+* Assume all **0's** are there then we will never go to the **if** part and in turn will always go to the **f()** function.
+* Everytime we will go to **else** part.
+* We know that **f(m)** time complexity is **Theta(m)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/087dcd90-1eb8-4fec-8840-0aefb0454516)
+
+* So **f(0)** time complexity is **Theta(0)** which is **minimum time complexity** and it is **O(1) or constant**.
+* All zeroes(0), so everytime **f(0) -> constant**.
+* So time complexity for **all zeroes** is **1 * n -> O(n)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a810a5e1-6817-4422-935c-4993370b0466)
+
+* The fucntion **f()** time complexity is **dependent** on the **input**.
+* If **inputs** are **more** then **f()** time complexity is also **more**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/79544929-a16f-4c2a-a033-e283ed264de3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2619f016-1b5e-4f51-b66e-32c8d023e2e7)
+
+* If **half 1's and half 0's** are there.
+* So half of the time it is in **if** part and half of the time it is in **else** part.
+* If we do **half time if** then the **counter** value is **n/2**.
+* So for the **half 1's** the **time complexity** is **n/2 -> O(n)**.
+* For the **1st 0's**, we will go to the **else part**, so the **f()** is called and we know that **counter = n/2** so **f(n/2)** is called which is **Theta(n/2) -> Theta(n)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a00e9522-5995-452e-af73-4dc6f58768e7)
+
+* n/2 is **Theta(n/2) -> Theta(n)**. [YES]
+* Asymptotically we can write **both**.
+* After the **f()** is over, **counter = 0**.
+* From the **2nd zero(0)** onwards the same thing will happen that happened when **all zeroes(0)** were taken.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5b8db92-0cbf-4052-b954-8086bbf2629d)
+
+* For the rest zeroes(0), time is **constant** for **1 zero(0) and for the **n/2 - 1** zeroes it is **1 * (n/2 - 1) -> n/2 -> O(n)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab7c65d2-ad3c-4bfd-9bb2-4375722df758)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b279209b-6c31-4c23-9ccf-3f82d0efd105)
+
+* So the **overall time complexity** is **O(n)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/684c2f2e-f4b6-4a71-a2f6-db97baa07182)
+
+* if the line **counter =0** is not there then what happened with the **1st zero(0)** that same thing will happen with the rest of the zeroes as well. For **1 zero(0)** it is **n/2** time and we have **n/2** zeroes(0). So it is **n/2 * n/2 -> O(n ^ 2)**. [**IMPORTANT**] 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dfbe8b95-9af4-49fd-9efe-8021298ecb10)
+
+* Overall it is **n + n + n -> 3 *n -> O(n)**.
+* The **time complexity** of the **program** is finally **n**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6822e638-98a8-4cea-ad61-935f5d8ee2a7)
+
+* Checking the options by putting **n** on the **left hand side**.
+* Option **C and D**. [MSQ] [Answer] [**VERY IMPORTANT**] 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ecee8a42-c169-4147-9110-463ed97b4806)
+
+* Yes, **C** option contains **D** also. **Theta(n)** contains **O(n) and Omega(n)**. [**IMPORTANT**]
+* Option **C**. [MCQ]
+* **C** is the **superset** of **D**. Choose **superset** over subset.
+* [**IMPORTANT**]
 
 
 
