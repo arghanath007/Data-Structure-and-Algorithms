@@ -390,7 +390,154 @@
 
 * Unsorted Array(USA)
 * Sorted Doubly Linked List(SDL)
-* Start from **33mins**.
+* To find an element **x** in an **unsorted array** will take **n** time.
+* **Min-heap** is not a **search tree**. **BST/AVL** is a **search tree**.
+* **Min-heap** is meant for **minimum element finding**.
+* To find an element **x** in a **Min-heap** will take **n** time.
+* To find an element **x** in a **sorted array** will take **log n** time because we applied **binary search**.
+* To find an element **x** in a **sorted double linked list** will take **n** time because we have to apply **linear search**, **binary search** is not effective.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8acf2388-44f3-44d1-ad62-ed700ebc4b08)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/75638c65-af22-42ed-b044-d06c001d7c77)
+
+* For **insertion** of **x** in **unsorted array** will take **constant(1)** time. If an element is already there in the array where we want to **insert 'x'** then we will move the already inserted element to last place and place the inserted element at that place.
+* a[n] = a[5]
+* For **insertion** of **x** in **min heap**, it is same as **finding 'x'** in min-heap it will take **n** time because we will insert the element at the **end** and we will use **heapify** to find the correct place for **x**. 
+* For **insertion** of **x** in **sorted array** we will insert the element at the end of the array and the array will be **unsorted** so we will have to **shift/move** the element to the correct position to make the array sorted again. **Worst case** is that we have to take the inserted element from the **right most place** to the **left most place**.  
+* For **insertion** of **x** in **sorted doubly linked list** we will not insert at the **beginning** we will iterate and find the number which is **just bigger than 'x'** and we will **insert 'x'** before that number only. So this will take **n** time for inserting 'x'.   
+
+* n * 1, n * logn, n ^ 2, n ^ 2.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b58e98e-ae9e-4ee8-aa25-6212868bde88)
+
+* For **deletion**, the address of the element is given which is to be **deleted**.
+* **Gap** cannot be present within or an **array**. So after **deletion** of the element, take the **last element** of the array and put it in that address. Replace the deleted element with the last element.
+* For deletion of element **x** from the **unsorted array**, it will take **constant time** because the address of the element to be *deleted* is given and we are filling the gap of the deleted element by replacing it with the last element of the array.
+* **Unsorted array** so order doesn't matter.
+* For deletion of element **x** from **min-heap**, it will take **log n** time because after deletion we will have to take the **last element** and put it in the deleted element place and we will have to do **heapify** method.
+* For **sorted array**, when we delete 'x', it will take **n** time because deleting 'x' is constant as address is given but because of sorted array, we have to **left shift** all of the elements after the deleted element to fill the gap of the deleted element.
+* **Worst Case** is **n** elements are **left shift**.
+* For **sorted doubly linked list**, when we delete 'x', it will take **constant** time because deleting 'x' is constant as address is given and we can fill the gap by just linking the **previous and next** nodes of the deleted node.
+
+* sqrt(log n) * 1, log n * sqrt(logn), n * sqrt(logn), 1 * sqrt(log n).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9567f07-7844-45e7-b3c8-e0de376d9fbd)
+
+* For the **decrease key** operation, the address of the element is given.
+* For **unsorted array**, for element **x**, it will take **constant** time, as address is given and the order doesn't matter.
+* For **min heap**, for element **x**, it will take **log n** time, as after performing **decrease key** operation we will have to perform **heapify** operation.
+* For **sorted array**, for element **x**, it will take **n** time, as after performing **decrease key** operation we will have to **sort** the array as the **left elements** maybe bigger than the **updated element**.
+* For **sorted doubly linked list**, for element **x**, it will take **n** time, as after performing **decrease key** operation we will have to **sort** the **linked list** as the **left elements** maybe bigger than the **updated element**. **Same** as **sorted array**.
+
+* 1 * sqrt(log n), logn * sqrt(log n), n * sqrt(log n), n * sqrt(log n).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7876ac51-70a4-43cb-96b6-23cc281b9107)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ffe443a-493e-4672-858c-7a3501dc6f13)
+
+* [**IMPORTANT**]
+* We know that for **min-heap** tree that **insertion and deletion** take **log n** time.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/23a7e4cb-cd70-4dec-ae96-0e498fe71113)
+
+* Answer -> Unsorted array. [**IMPORTANT**]
+* Option **A**.
+* For **finding elements**, **unsorted array** is the **worst**.
+* As **unsorted array** mostly **no conditions** are there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8f148b0-9005-4946-86e9-ae9dcf4f55f4)
+
+* [**VERY VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b625c3b-1925-4049-b0b2-ba81b224dbbb)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/229338d7-73b0-44d1-b870-3ec9b82ef5d7)
+
+* Loop happened for **k** times.
+* After **k**, fail will happen.
+* At **(k + 1)**, loop failed.
+* **K** times only, loop passed.
+* Sum of **k** natural number is **k ^ 2**.
+* So **k** is approximately **sqrt(n)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e08b2419-1794-4cd4-b814-c9183462dd53)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/52f638bc-46e3-45c8-9cea-b6230fb69f03)
+
+* Time Complexity -> O(sqrt(n))
+* So loop is repeated **sqrt(n)** times.
+* [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c19a13c7-a996-4e31-9a85-d1d77ebacc82)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d7afb62-0109-4560-b482-e5cb91a31b24)
+
+* Sum of squares of **k ^ 2** natural numbers -> (K * (k + 1) * (2 * k + 1))/6
+* Formula [**IMPORTANT**]
+* k = n ^ (1/3)
+* [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac4e180f-4794-4803-913a-81b0ff500933)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9903802e-8003-44ce-9ec1-f6ea16ab1cc1)
+
+* Question.
+* Instead of **i ^ 2**, we have **2 ^ i**.
+* Sum of **k** natural numbers in the **GP**.
+* Doubt.
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/905D320581
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/521bc98c-72f9-47d7-8633-e7646e25b5b0)
+
+* Question.
+* We have **n** arrays and the size of each array is **n**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/909967df-1a14-4a3e-a466-457b5a707c75)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bef1add9-3090-40c6-9d22-6e967a684d79)
+
+* **NOTE**. [**IMPORTANT**]
+* In **n** elements of **unsorted array** to find **median**, time complexity is **O(n)**.
+* In **n** elements of **sorted array** to find **median**, time complexity is **O(1)**. **Median** is the **middle element**.
+* Median = n/2 [Smallest element]
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2d00340c-ab54-4379-b4e2-be322c6d7630)
+
+* For every array to find the median is **n** and for **n** arrays it is **n * n -> n ^ 2** time taken.
+* Now we have **n** medians.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95181eeb-5dd9-40ce-bbec-b020744869cb)
+
+* **Median** of **n** arrays.
+* **n ^ 2** for finding **individual medians** and **n** to find the **last/final median**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e2d3ff5-e49a-484d-8b7b-b42a1a434781)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1385c777-7c77-43a1-b3ef-f86ff9c024cc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8785aa41-3f49-4688-ad78-317de9c092bc)
+
+* **n ^ 2 + n -> O(n ^ 2)** [Answer]
+* Option **B**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c8c98909-982a-4cf7-9e20-6858986c5112)
+
+* If instead of **Big-O** in the **options** we have **Omega** which is **lower bound** so we got **O(n ^ 2)** as the **answer** so option **A, B and C** are **correct answer**.
+* [**IMPORTANT**]
+* If all of the option contain **Big-O** then option **B and D** are **correct**.
+* If all of the option contain **Theta** then option **B** are **correct**.
+* If all of the **arrays** are **sorted** then the **answer** is **n + n -> 2 * n -> O(n)** which is option **C**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0343909-e640-4cfb-aa54-116b3a08827b)
+
+* Big-O -> Right side will be more or equal.
+* Omega -> Left side will be more or equal.
+* Theta -> Left and right side both are equal.
+* [**IMPORTANT**]
+
+
+
+
 
 
 
