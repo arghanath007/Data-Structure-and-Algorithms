@@ -711,6 +711,56 @@
 * **C** is the **superset** of **D**. Choose **superset** over subset.
 * [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d2286d78-edf6-4c87-8134-52a3752e04a7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b4753b77-a7b3-4136-8e61-7ed33b943d99)
+
+* Question.
+* All 0's -> n -> o(n)
+* All 1's -> n -> O(n)
+* Half 0's and Half 1's -> n/2 + n/2 * n/2 -> n ^ 2 -> O(n ^ 2).
+* If not mentioned which **case** to find then find out **two cases(best,worst)** then we can select the **best option**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c725e3ea-f11e-40fd-918d-c2a50ed91d46)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5c34e996-9bcc-4471-86f5-208df4e3f54a)
+
+* **Minimum** is **n** and **maximum** is **(n ^ 2)**.
+* Option **E and G**. [Answer] [**IMPORTANT**]
+* The time complexity of **f()** is given that is a **trap**. Be very careful. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e309787-25fb-45df-9b61-29c1ea06cb4b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/26aec662-75b6-422e-b67b-74ae5ac242c7)
+
+* Question
+* Here time complexity of **f(m)** which is **Theta(n)** is **independent** of the **inputs** send to **f()**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/414ea081-ac93-4000-8b82-0159530ab362)
+
+* For **all 0's**, we will get time complexity as **n ^ 2** because for **f(0)** we are getting **n** time as **input** of **f()** is **independent** of the time complexity of **f()**. So for **'n' 0's** we will get **n * n -> n ^ 2** time. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3afea37c-71c4-44b9-a35f-8b526f41ac6a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/68bd2692-0824-4a09-aa33-f895be401c3a)
+
+* For the **half 0's and half 1's** we will get **n ^ 2** because for the **half 1's** it is **n/2** and for the **half 0's** it is **n/2 * n/2 -> n ^ 2**. So **n + n ^ 2 -> n ^ 2** time.
+* Option **E**. [Answer] [**IMPORTANT**]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
