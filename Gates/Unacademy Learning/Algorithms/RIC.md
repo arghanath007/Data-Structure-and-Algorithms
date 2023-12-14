@@ -743,6 +743,304 @@
 * For the **half 0's and half 1's** we will get **n ^ 2** because for the **half 1's** it is **n/2** and for the **half 0's** it is **n/2 * n/2 -> n ^ 2**. So **n + n ^ 2 -> n ^ 2** time.
 * Option **E**. [Answer] [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c12971b5-d99f-4b67-a91f-07f2a1f34445)
+
+* **returns** means we will stop the program.
+* Now **best case** is **O(1)** for **all 1's**.
+* **Worst case** is **O(n ^ 2)** for **all 0's**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4ed80e73-80db-47c3-b9b7-8e1bf885463b)
+
+* Option **E** which is **O(n ^ 2)** is **correct**. [Answer] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef796ac1-958d-42d9-b430-b425ef81be54)
+
+* Question.
+* Doubt.
+
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/053030e9-38ac-4e25-a819-0d6f9da2f541)
+
+* Question.
+* Option **B**.
+* In **f2()** there is **1 loop** so it takes **O(n)** times.
+* In **f1()** we have **recursio**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a33a545e-5b2b-4913-a09d-fe6b08f1a1ab)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a6062808-37db-4918-8a66-74402b088ede)
+
+* because of **two function calls** it is generating **binary tree**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fcb391da-d158-4bda-96d2-e4e29ef71df5)
+
+* Option **B**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e489269e-139a-4441-8f99-42a638eeb94d)
+
+* Question.
+* Because of the loop ther are so many recursive calls.
+* It is asking for **space complexity**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c14de11d-7bd2-4118-a849-d6b7d7cbbf88)
+
+* Recursion program **space complexity** is not based on **no. of function call**, it is based on **no. of levels**. [**IMPORTANT**] [NOTE]
+* When drawing the **recursive tree**, either expand the **leftmost or the rightmost** tree. If needed then expand the **middle**.
+* Recursion program **stack space** is based on **no. of levels**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/06956770-7abb-4bc4-bc9a-d21a08c67a78)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d4bd604-0fa2-4409-af9a-0d128c908077)
+
+* **Complete binary tree** approximately contains **2 ^ n** nodes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/498189e8-3d8c-4787-acd5-8bb415c6ba7e)
+
+* No. of calls is **n ^ n**.
+* No. of levels is **n + 1 -> O(n)**.
+* Space Complexity -> **O(n)**. [Answer] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5580343-3468-4d19-846a-e32d4cd548b3)
+
+* Question.
+* As soon as we **compute** and store the value, **space** is going to **increase** and **time** is going to **decrease**.
+* We have to add a **table** to store the **computed** values.
+* Stack size is **n + 1** and the table size is **n + 1**.
+* So the overall size is **n + 1 + n + 1 -> O(n)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ad751b98-cd67-4219-8c9b-6c8e09cd20b0)
+
+* Option **B**. [Answer] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8df7fd75-324a-43f6-8613-a3db7a99e97f)
+
+* DFC -> Distinct Function calls.
+* For **space complexity**, because of **recursion**, **stack** is required and for **storage** the table is required.
+* For **normal programs** the **space complexity** required is **no. of levels**.
+* For **Dynamic programming** the **space complexity** required is **no. of levels and a table** also.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/814eee29-324f-4984-b1f0-6259f57ee9ae)
+
+* If we write **recursive** programming then the whole tree will go into the **stack**.
+* If we write **dynamic** programming then **only** the **distinct values** will go into the **stack**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e7b765e-f276-4b71-ab57-040d9633a921)
+
+* In normal stack everyone is going inside.
+* In dynamic programming stack before calling we will verify/check if it is already there or not. If already available then don't call.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b833186a-acbd-4a2b-a462-b444312b3429)
+
+* In dynamic programming stack(DP), who are not available at that point of time then they will come.
+* In the normal stack(N-DP), all of the elements will be pushed.
+* In the tree, **left** will be called **first**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/777c97b7-d599-46eb-baa8-f95bac676831)
+
+* Because of the for loop for **i = n - 1** and **n=5**, so we will call **f(4)**. Left side has more height here, we have to go more. Initially nothing is available.
+* In the tree **left** will be done first. When we go to **right** last then all are available.
+* If we **reverse** it then in the tree **left** is not available. After sometime we will go to the **right** side and all are available.
+* In dynamic programming, we can save **stack space** when comparing **left and right** height, **left** height is more then we **cannot save**. If **right** height is **more** then we can **save**.
+
+## challenging-problems-iv-and-doubt-clearing-session(4)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/60c318eb-78c0-4a31-9780-4f957b59d184)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e58fb56-9f73-4fcd-be45-459bb9c778b0)
+
+* Take any 3 elements, need not be **continuously**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30fd14b0-8678-4620-8050-d707e6fa57a4)
+
+* If **distinct** is not there and we pick 3 elements then after **sorting** the elements we cannot gurantee that the **middle element** is either **maxma or minima**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c667df83-b028-40df-9d47-a87cca13e5e4)
+
+* Yes, for that we have to **scan** and find **3 distinct elements**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b4b11448-0460-4765-b1f1-3799520959db)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d31064ba-145b-4022-bb32-9faf4ffeef0f)
+
+* It is **not distinct** and **unsorted**.
+* **Worst case** is **n** time.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a45bfa26-7c1f-4c23-a70c-2adc05d3be37)
+
+* Best case is **1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e23c58da-68f1-4230-a4fa-745ebe29f442)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2fefe24c-18ae-4680-8958-ff5c5f4cf473)
+
+* It is **distinct and unsorted**.
+* For **distinct**, it is **O(1)** for **every case(EC)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/53a2a859-ff48-4778-a661-c187a722e3fe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35f6bfc1-8a49-4134-9652-98627b8ddcbb)
+
+* It is **not distinct** and **sorted**.
+* Take the **first element** which is **10** and find out the **last 10**. To find the **last 10** apply **binary search**.
+* Best case is **1**.
+* Only for 3 elements, two binary search(BS) is enough.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d66c94f7-3854-44fa-a64c-d9946301aade)
+
+* Question.
+* It is **distinct and unsorted**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/296dff0c-a3aa-4236-937a-e96db8c5355a)
+
+* Take **21 elements** which will take **O(1)** time then **sort** the elements which will take **O(1)** time and then we will return the **11th element** which will take **O(1)** time.
+* So the overall is **O(1)** for **every case(EC)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1da2f5b4-0b80-45d5-b884-42ee87350b53)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f86bf5ca-0cb1-4502-a438-aafff7129751)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dfdd4d1e-c1f7-4772-9dc5-f0124fd1e3e5)
+
+* If it is **unsorted and distinct** not there then the time taken is **O(n)** for **every case(EC)** because we don't know which **21 elements** to take because **distinct not there**. We need to do **one scan**.
+* If it is **sorted and distinct** then the time taken is **O(1)** for **every case(EC)**.
+* If it is **sorted and distinct** not there then the time taken is **O(log n)** because we can apply **binary search** here.
+* [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/17ac9af3-9571-48e9-a878-45e1f5317038)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2087e25a-7a23-4b66-a019-2f7b816c1925)
+
+* Question.
+* Time complexity is based on what is the value of **k**.
+* Sorting is going to take **k log k** and we will return the **mid** element.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27d87c0c-efa1-4056-83f9-4fb6ad4ac52f)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a29b7692-825a-490e-b972-e750bb249e0c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/42401eaa-5a39-4750-aeac-75ccbc99feb7)
+
+* Question.
+* A vertex is said to be a **Universal Sink** if the **above condition** is met.
+* Out-degree -> 0
+* In-degree -> V - 1.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0821b6d3-a717-4b2d-98e7-da4e3a76950c)
+
+* Weighted graph. It has **4 vertices**.
+* For **vertex 1** it has **2 out-degree** and **1 in-degree**.
+* For **vertex 2** it has **1 out-degree** and **2 in-degree**.
+* For **vertex 3** it has **0 out-degree** and **3 in-degree**.
+* For **vertex 4** it has **3 out-degree** and **0 in-degree**.
+* Graph is represented in the form of **adjacency matrix**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd6bb927-dc39-46da-9912-d4bcbd7e337c)
+
+* We have a **universal sink**. It is **vertex '3'**.
+* For a **vertex** we want to check **universal sink**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bfd5d12f-69ee-42ed-aa31-fa15c9d37b0b)
+
+* There is no edge weights here.
+* Options **B**.
+* **3-4** as of now it's out-degree is **zero(0)**.
+* **3** can be **universal sink**.
+* **Column** indicate **in-degree** and **row** indicates **out-degree**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/558709ba-0262-47f0-9af7-7ce9bfb9322f)
+
+* If we take two vertices(V1 and V2) and **V1 -> V2 is 1** means that **V1** cannot be **universal sink** because **out-degree** of **V1** is **1** as we are going outside.
+* If we take two vertices(V1 and V2) and **V1 -> V2 is 0** means that **V2** cannot be **universal sink** because **out-degree** of **V1** is **0**.
+* **1** means **first vertex** is cancelled and **0** means **2nd vertex** is cancelled. [**IMPORTANT**]
+* Everytime **1 cancellation** is guranteed.
+* **3 comparisions** are done and 3 elements are gone. Now **3** is only left out. So for the **3**, whoever is left out, verify **one row and one column** which are **3rd row and 3rd column**.
+* Total time -> V - 1 + 2 * V -> 3 * V -> **O(V)**.
+* Elimination -> V - 1.
+* Verification -> 2 * V.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/01bfdeda-b86c-435b-b6d6-dcedfca8b7a4)
+
+* Option **B**.
+* [**VERY IMPORTANT**]
+* **I n-degree** actually require **(V - 1)** and to say **universal link**, **in-degree** required is **(V - 1)**. Everyone should come inside.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7827116b-f2ba-4228-b7d8-48157eba2bcd)
+
+* **3 -> 1 is 0** there is no chance that **1** is **universal sink** because **3** said it will never come inside of **1**. There is chance of **3** to be **universal sink** because it has said **it will not come outside**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/781b9a8d-0bf4-4d33-8f3e-13fe52370f81)
+
+* **V1 -> V2** is **0** then **V2** is gone.
+* **V1 -> V2** is **1** then **V1** is gone. [LOGIC] [**IMPORTANT**]
+* In case of **matrix** we can directly go.
+* In **list** we cannot go directly. We have to work the **list**. So time taken which is **E or O(E)** and it is covering **Edges(E)**.
+* All of the lists if we add then it is **E**.
+* All of the lists if we add then it is **V ^ 2** that is for **complete graph**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c9ce0f6-84f2-42aa-a40c-2b3fa6641294)
+
+* Question.
+* **i** is row and **j** is column.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac9079a0-8e21-4850-9217-c6bf57262fbe)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b1f419d-2abb-4bef-a84a-796a6f1ac0e9)
+
+* Universal link is **3** here.
+* See **only matrix**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/524a53e0-75f2-4b1c-9e69-ae49d3fa3f5e)
+
+* We have **10 vertices(V)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e820b20d-d857-4459-8efb-f1593db5c48b)
+
+* For **1 -> 5** it is **1** so **1** is gone.
+* **8** can be **universal sink**.
+* Whatever **i** contain that is **universal sink**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7bc38a2c-5256-406d-8a94-a0d5f4f68694)
+
+* **row(i)** should be **zero(0)** and **column(j)** should be **1**.
+* A[j][i] should be **1**.
+* A[i][j] should be **0**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b66f8058-1c78-44ec-93df-029d4f621f2a)
+
+* Option **C** and then option **B**.
+* Both should satisfy that why **and(&&)** operator.
+* Doubt [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fcf0e8c1-ba35-407d-a69c-d193cc50a3fa)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bbe615f7-6ca8-49e1-8093-fcc3e74a3ada)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9df757d8-d244-4ef9-abd8-f3681e722a89)
+
+* Question.
+* It is a **recursive program**, write the **recurrence relation** and find the **time complexity**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5717700-d95b-4c04-a8d1-4934ee62e1f8)
+
+* Time Complexity -> log(log n).
+* Doubt [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b6e6c7e-d842-4f1d-b89c-95be788adb09)
+
+* Question.
+* Link -> https://gateoverflow.in/3857/gate-it-2005-question-84b
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2ae85b8-73aa-46d5-9531-f1641e91ad6b)
+
+* Solution.
+
+## challenging-problems-v (5)
+
+
+
+
 
 
 
