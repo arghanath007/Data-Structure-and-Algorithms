@@ -1254,15 +1254,369 @@
 * Option **A**. [Answer] [**IMPORTANT**]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab248c42-48f0-4632-bcc5-d82d5a59f3ce)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ddf0d471-9ee1-4c37-a96a-21d2984f818b)
+
+* Question.
+* Simply apply **Dijkstra's algo**.
+* Source -> S. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9a2ec7a-09ef-4688-b78a-f3869ce7c8e7)
+
+* Initial is **zero(0) and NULL(N)**. Rest are **infinite and Null(N)**.
+* We selected **S** and now delete **S**.
+* Adjacent of **S** is **A,B and D**.
+* Now do **decrease key operation** on **A, B and D** from **S**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f9a8a75-fb18-4c92-ad74-64da60303e6d)
+
+* Among the **adjacents**, **B** is better as it has **3**.
+* After **S** next is **B**.
+* Adjacent of **B** is **D**.
+* Now do **decrease key operation** on **D** from **B**.
+* We are getting **3 + 4 -> 7** from **B to D** and **D** already had **7**. As mentioned in the question that "we will **update** only when a strictly shorted path is discovered". So we will not **update 'D'**.
+* If we **update** the cost will remain **same** but the **parent will change** from **S to B**. Path is **different**.
+* **Shortest path** need not be **unique**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c8fa518-827c-465d-9d9d-cc5acc61d346)
+
+* After **B** it is **A** as it has **4**.
+* Adjacent of **A** is **C**, now **C** is updated with **4 + 1 -> 5** and **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e1c648a-3f3e-49d9-90f1-f069a3e6d1e5)
+
+* After **A** it is **C** as it has **5**.
+* Adjacent of **C** is **G,E,D**, now **G** is updated with **5 + 2 -> 7** and **C**. **E** is updated with **5 + 1 -> 6** and **C**. For **D**, we are getting **5 + 3 -> 8** which is more than **7** that's why **D** is **not updated**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cab23753-3b41-4f37-b309-f4369178b4c7)
+
+* After **C** it is **E** as it has **6**.
+* Adjacent of **E** is **G,T,D**, now **G** is with **6 + 2 -> 8** but **G** has **7** which is **smaller** so **G** is **not updated**.
+* **T** is updated with **6 + 4 -> 10** and **E**. For **D**, we are getting **6 + 1 -> 7** which is **equal** to **7** that's why **D** is **not updated**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5495a1fe-f465-438e-990c-0d4197c33026)
+
+* After **E** it is **G or D** as they both have **7**.Take any **7**. [No mention of what to do if two vertices have the **same cost**]
+* We are taking **D** after **E**.
+* Adjacent of **D** is **F,T**.
+* **F** is **7 + 5 -> 12** and **D**.
+* **T** is **7 + 3 -> 10** and **T** already had **10**, so **T** is not **updated**.
+* **D to E** also but **E** is already completed. so leave it.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/96846344-4bcf-4916-81c8-8106c0f8b77a)
+
+* Could be decided by the **options** as well.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aea8df42-748f-4fe8-b09b-3fc878394569)
+
+* After **D** it is **G** as it is **7**.
+* Adjacent of **G** is **T**.
+* **T** is **7 + 3 -> 10** and **T** already had **10**, so **T** is not **updated**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/700efb80-790a-44b2-b10c-30ecfd7b18c1)
+
+* After **G** it is **T** as it is **10**.
+* Adjacent of **T** is **F**.
+* **F** is **10 + 5 -> 15** and **F** already had **12**, so **F** is not **updated**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9dd1b764-09d0-4d52-af25-c9baccd7b5e6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32e0c998-e6c5-4176-ab20-2411407fa3fd)
+
+* After **T** it is **F** which is left out. No need to do anything extra. Just take it.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/56e6c35e-edb3-4c90-a8a8-ce2837922289)
+
+* No options matching.
+* Main goal is **next problem**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/10acf395-9249-4f88-81bd-8bec70464789)
+
+* Option **E**. [Answer]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/02e31836-fd66-4c13-8af2-8383c7818c7d)
+
+* Yes. Sir make a typo.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/52aa7fc2-12c5-4656-97f9-3b22d359b968)
+
+* Question.
+* It is looking for **shortest path** between **S to T**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5c7be7a2-334e-449a-b81d-e480f18254f6)
+
+* That's why we stored the names of the **vertices** from where the **previous came**. So we started from **T** and we say that it's parent is **E** so we go to **E** and we say that **E's** parent is **C** and **C's** parent is **A** and **A's parent** is **S**.
+* SACET [Answer]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a899ef57-be96-473e-9112-264df479e1ea)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8896c4de-9380-4b75-a7d4-99880d779c8e)
+
+* Option **D**.
+* [**VERY IMPORTANT**]
+* Simply **Dijkstra's** with **one condition**.
+* **Reading and understand** what the **condition** is mentioned in the **question** is **very important**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d24de88-be1c-4a31-84e5-025bfa1958df)
 
 * Question.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c884c9dd-f905-4860-b3d5-96c73a2c6921)
 
+* MST.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e0ff1661-b124-4d08-92f5-538377794784)
 
+* We have **MST** and if we add another edge then we will have **cycle**. If **cycle** came then we have to **delete** the larger one from the **cycle**.
+* The **larger one** in the cycle is **9**. Instead of deleting **9** we deleted the edge from **A to B**, it means that the **edge weight** of **A to B** is more than **9** which is **10**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a843e72e-c140-44de-92e7-7e4bcd996c05)
 
+* if the **edge weight** would have been **same** then we could have kept either one of them but it is mentioned in the question that the **edge weights** are **distinct**, so no need to be bothered about **same edge weights**.
+* If **distinct edge weights** are not mentioned then instead of taking **10** we could have take **9** as the **edge weight** of the **deleted node**. [**IMPORTANT**]
+* When in **doubt** read the **problem**.  [**IMPORTANT**]
+* **ED** is **added** in **MST** and **cycle** came. Larger edge weight is **6** and we have to delete **6** but we deleted **E to D** edge because the **edge weight** of **E to D** would have been **7** which is more than **6**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d57a17e-c841-4923-95c8-4bd2cb2b0f39)
+
+* **CD** is **added** in **MST** and **cycle** came. Larger edge weight is **15** and we have to delete **15** but we deleted **C to D** edge because the **edge weight** of **C to D** would have been **16** which is more than **15**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34ee1c99-2842-4c24-9c2e-8cf2f779d190)
+
+* For every **MST** problem, edge weights are missing. Edge weight we have to give. We have to do the **similar/same process** we did **above**.
+* Just add the cycle concept. Somehow bring **cycle concept** and delete the **larger one**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/197f7a9c-f84e-453c-9400-ddc92c8f3fc4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/82e0ee2d-98b7-48a1-8f2b-7f2e9185dfbe)
+
+* Min. possible sum of weights -> 10 + 9 + 2 + 15 + 16 + 7 + 4 + 6 -> 69
+* Option **B** [Answer] [**VERY IMPORTANT**] [MOST Expected QUestion]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ecfb9ab2-6fe6-4130-a4fc-9d9daae8ae04)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ac5bc19-890d-4d32-83a2-4f579605b36e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80bccef0-ecb9-464c-bcd5-b429bb8ee5b3)
+
+* Question.
+* Minimum -> Distance.
+* If we want to go to **H** from **A** we need to go via **E or F**.
+* **E and F** can only come inside of **H**.
+* **F** already came from **source** and it's cost is **7**. [Got **7** from the table. F.minimum]
+* **E** already came from **source** and it's cost is **11**. [Got **11** from the table. E.minimum]
+* We can go to inside of **H** either via **E** or via **F**.
+* **F's cost** is **7**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24483281-1cdb-44ac-b523-daa11be21565)
+
+* **H** is having there two offers.
+* **H.minimum** is **19** and **H's parent** is **E**.
+* So **H** has taken the offer of **E**.
+* **E's offer** was **11 + x** so we know the cost is **19** so **11 + x = 19**. So **x** is **8**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b14ecfb8-0d0d-495e-a677-1cc9415191d4)
+
+* Why **F** was not selected?
+
+> It should be that **7 + y** is more than 19.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/357eb7a1-c1f7-4b57-a60d-211119da76be)
+
+* yes.
+* Possibilities of **y** are **12,13, ...**.
+* **y** is **12 or more than 12**.
+* It should be **x + y >= 20**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cfdcf8b4-0f13-44c0-ab5b-fc9a673bdc34)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a340ebe2-e3d1-4e00-9779-69087bc82113)
+
+* We have to follow the **table** given in the **question**.
+* [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2971c1f6-5621-40c1-b6d0-20ea39057bc3)
+
+* Question.
+* **Point 'I'** is trying to say that **MST** is going to give **shortest path**.
+* Between two people if we want **shortest path**, according to point **I**, construct **MST** for the given graph and **MST** itself is the **shortest path** among all of the people.
+* **Indirectly** saying that **all pair shortest path** algo is not needed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d102a5e-8563-4af1-8c4a-a1a194a3e0f4)
+
+* Example
+* We want to go from **A to C** then using **prim's algo**. One path is **3** and another path is **10**.
+* Adjacent elements best one will be taken by **prim's algo** which is **3(A to B)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c645957b-0da7-4475-aea7-fe4270e7a709)
+
+* From either sides **smaller weights** are taken which are **8 and 9** but the actual is **10** only. So the other two are **neglected**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3bef8d3-c01b-4a34-a226-6be235571d9c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7135f3e2-b1c6-4882-98f4-de78f5af58a6)
+
+* To go from **A to C**, actual cost is **10** but we are taking **8 + 9 -> 17**.
+* Proof -> We studied two different algos for the two different things. If they are **same** then why did we study two different algos. They are **different**. It is **not correct**.
+* Point **I**. [It is **wrong**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e4974563-8fd4-41bc-b861-87f90a6ab559)
+
+* Total edge weight -> 100045.
+* Edges -> 10.
+* Avg edge weight -> 100045/10 -> 10000 [Approx]
+* Vertices -> 7.
+* Edges -> V - 1 -> 7 - 1 -> 6.
+* **MST** should contain **max. of 60000**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cabab9dd-b5e5-4780-bc2f-8ddd31df2285)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3b2474d4-4a36-4752-9319-59d6f22651af)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/18519244-428e-4615-b448-461733d3803a)
+
+* **100000** is deciding the story. Otherwise graph will be disconnected.
+* Point **II**. [It is **wrong**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ca2cd4d7-3ff0-4e86-a957-40ec8b3d767b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e714065-7301-4077-8480-bda36da41258)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/04a02651-8f0b-4b55-b7b6-003925b476b8)
+
+* option **D**.
+* [**VERY IMPORTANT**]
+
+##  challenging-problems-vi (6)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/46dee05e-12d7-4897-9411-18c8d05b0d7b)
+
+* Question.
+* Elements are **same**. No need to sum. Elements as it is matching.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/29fa7295-a166-45d4-8a2a-c30eb8a634c0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8ccdf98-2310-4dec-907f-3d86d21bca99)
+
+* Matching not there stop it.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/460ca77c-218b-4bac-88f7-f57312b5616c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd0b14e8-23d6-450d-a1fd-52da00102988)
+
+* After 20 time matching, on the 21st element we didn't get a matching, so stop it.
+* Update the **largest span** to **20** now. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9a2edc5-0b1a-408d-b268-30a443602d41)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d5bbbf7-8e16-4340-980a-929c134d11b2)
+
+* Both the array will stop together as they are of the **same size**.
+* We have done **only one scan** of both the arrays. [YES]
+* Time Complexity -> **O(n)** for **Every Case(EC)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/54461c3a-f318-449a-9d5c-7bb74a164d21)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d93e446-c821-4ade-bf71-0299ae09d998)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e55b0ba7-34b0-407a-8fe1-421ebe472f09)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/158ed700-3bfa-4f94-b285-a07268e4bd05)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6883d4ad-a3a3-4e20-85e8-6ba9c20fc841)
+
+* We have take **two variables(UNLS and CLS)**. Two variables is **constant space**.
+* Option **C**. [Answer] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d88d3a6-2cba-43a6-b0ae-917687a7e369)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a737819a-685f-450c-adaf-1c1f2e564e7e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8c8c6062-0802-4ff7-873a-15bf74873967)
+
+* x and y.
+* Subsequence means it is not compulsory.
+* Real numbers -> maybe negative, maybe positive, maybe fraction.
+* Real numbers are **uncountable**.
+* We want to get **max**.
+* **a0** maybe sometimes **negative**, maybe sometimes **possitive**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9f60ace2-bbb6-43b0-89c9-cd0fa667df90)
+
+* It is **dynamic programming**, we are covering every possibility.
+* By seeing **options** we can say, if it belongs to **greedy or dynamic** programming.
+* Dilemma there and we are doing all that is **dynamic programming**.
+* We are taking only **y** if **a0** is **negative**.
+* We are taking only **a0 + y** if **a0** is **positive**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c4f1d4d-c3b0-4285-9810-29802d800112)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c492b2a9-f328-49b9-b4e1-8098c3744df7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d1b8b04-0dd8-46b7-9e3a-a99cb90fd747)
+
+* When we have **y** it is **only one** so don't have to do **1/2**. When **a0 + Y** is there together, they are **two elements**, **first element** is not **divided by 2**, the **second element** is **divided by 2**.
+* That why it is **x = max(y, a0 + (y/2)**.
+* Option **B**. [Answer] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86c51ebc-c725-44e4-9b46-7e8a57c579af)
+
+* If **1st two lines** are not there then the **correct answer** is option **A**. [Answer] [**IMPORTANT**]
+* If **1st two lines** are there then the **correct answer** is option **B**. [Answer] [**IMPORTANT**]
+* If instead of **division** there is **multiply** then the **correct answer** is option **C**. [Answer] [**IMPORTANT**]
+* If the numbers were **all positive numbers** then the **correct answer** is option **D**. [Answer] [**IMPORTANT**]
+* [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/06b60c32-233a-4976-9207-0f6806de4214)
+
+* Question
+* Articulation point -> D.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65a19053-28a7-4c6e-817a-e4fa59b93687)
+
+* **DFT** tree we have drawn and the root is **A**.
+* If the **DFT** tree root contain **degree = 2 or more** then the **root** is the **articulation point**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bdc650c0-1623-4d80-a30d-4bcff452b149)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b8ef44e-78bc-4435-be1b-7b3ad621bd0f)
+
+* From the diagram, it can see that the **articulation point** is **A** as **vertex 'A'** has **degree = 2**.
+* If we **delete 'A'** then the graph becomes **disconnected**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5bf95089-dbf6-4984-96f6-7b2719e41f7a)
+
+* **T** is the **DFS tree**.
+* In the graph **G an B** are going to meet via **A**.
+* In the graph **F an C** are going to meet via **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9c9a61f0-762b-47ed-b31a-d9369af6c112)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/149bc96c-7417-4931-a324-51e42457729e)
+
+* option **B and D**. [MSQ] [Answer] [**IMPORTANT**]
+* If **u** is the **articulation point** then **all paths** should come through it.
+* **Doubt**. Check again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa19ef65-3682-494e-adf6-7e055a0ecf07)
+
+* We are talking about **1 Ancestors and 1 decendent**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6de2c157-4a68-4cbb-b361-8ad5fd63fabd)
+
+* We want to go from **x to y**.
+* **x** area is the **ancestors** and **y** area is the **defendents**.
+* **u** is the articulation point.
+* If we want to go to **x to y** then we have compulsory go via **u** then only **u** is articulation point.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09168913-66b6-43c8-8d3c-7060067e9ab9)
+
+* **NOTE**.
+* If **u** is an articulate point then there is atleast **1-pair(x,y)**. Suchthat all paths from **x to y** should go via **u**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0987784d-a7a9-4242-890f-e7468de1c59e)
+
+* Question.
+* Complete Graph -> **(n * (n-1))/2** edges.
+* **K4** contain **4 ^ (4 - 2) -> 4 ^ 2 -> 16** spanning trees are there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e71d6d6-b00b-45f5-8cbe-d12c8ce68321)
+
+* In the two spanning trees there is **no common edge**.
+* If **2 * n - 2** is not there then we cannot give **any gurantee** here.
+* If two spanning trees are there to cover all of the elements, two different paths are possible.
+* Max is **4**.
+* Atmost **4**, True.
+* Some edges we are missing out.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e8fb56b-b0f6-4287-85df-9bd4e391d8d8)
+
+* option **A, B and C** [Answer] [**IMPORTANT**]
+* Doubt. Check it again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1205bafb-92ec-498b-8e00-7902f1f70331)
+
+* Question
+* Option **B**.
+* Doubt. Check it again.
 
 
 
