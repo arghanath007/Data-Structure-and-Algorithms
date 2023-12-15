@@ -1038,11 +1038,224 @@
 
 ## challenging-problems-v (5)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/82278a63-ec50-4755-8e12-441805cebf56)
 
+* Time Complexity is **O(log (log n))** as there is **no loop** in either **if or else** part.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ac7723f-e7f9-40f0-a929-1c477bfe0317)
 
+* Answer.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be1c47e2-83de-46b4-8fca-c75936c619b2)
 
+* Question.
+* As we have **3 function calls** of **A()** that's why **3 * T(n)** and **constant(C)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9755d18-0e98-493f-b2c3-c1573edf9a9a)
+
+* There is **no loop** in **if part**.
+* Using **Master's theorem**.
+* T(n) = 3 * T(n/2) + C
+* a = 3, b = 2
+* n ^ (log a base b) -> n ^ (log 3 base 2) [Formula] [**IMPORTANT**]
+* **f(n)** is **constant**.
+* As **n ^ (log 3 base 2)** is **bigger** than **f(n)** which is **contant** by **polynomial time** so it is **O(n ^ (log 3 base 2))**. [Answer]
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac0d196d-2d29-456c-a369-30d159b95951)
+
+* Question.
+* There is **no loop** in **if part**.
+* Just concentrate only on **loops and function calls**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/358cb3cf-1646-40d7-80e3-35d54feefd66)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/587d2840-5a1d-4033-860f-aa8524a866a2)
+
+* Using **Master's theorem**.
+* **n ^ 2 and n** are small small operations which are **constant terms** leave them.
+* A(n/2) + A(n/2) -> 2 * T(n/2)
+* a = 2, b = 2.
+* n ^ log a base b -> n ^ (log 2 base 2) -> n ^ 1 -> n
+* **f(n)** is **constant(1)**.
+* So **n** is **greater** than **f(n)** which is **constant(1)**.
+* So **time complexity** is **O(n)**.
+* It is **2 * T(n/2) + C** because there is **no loops**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9a9a5870-19cb-4cca-935d-34694294fc7f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/285d15f8-38e0-4322-99dc-56aed3039397)
+
+* Question.
+* For each **i** iteration the **Bar()** will be called with **Bar(n/2)**.
+* **4 * T(n/2)** is going to give us **no. of function calls**.
+* The for loops of **i and j** are going to give us the **cost of 1 function call**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3738f8cf-c232-46f9-9778-2103cf8353fb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98a66c01-fa60-4c0e-99e9-109cd27e6aa4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9742e457-6e7b-4f07-987f-54b7a5a9ad9a)
+
+* Using **master's theorem**.
+* T(n) = 4 * T(n/2) + n ^ 2.
+* a= 4, b= 2.
+* n ^ log a base b -> n ^ log 4 base 2 -> n ^ (2 * log 2 base 2) -> n * (2 * 1) -> n ^ 2.
+* **f(n)** is **n ^ 2**.
+* Both are **n ^ 2**. So according to **master's theorem**, on the **right side** write **(log n) ^ 0** then also both sides are **equal**.
+* For the **answer** is the **right side** but insead of **(log n) ^ 0** we will do **+1** to the **power of log n** which is **(log n) ^ (0 + 1) -> (log n) ^ 1**.
+* So **time complexity** is **O((n ^ 2) * (log n) ^ 1) -> O((n ^ 2) * log n)**. [Answer]
+* Bar(n) -> (n ^ 2) * log n
+* **Theta** possible means **Omega and Big-O** are possible as well. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b798e0a3-71c8-430b-95e6-af07e729e9b8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b345b17-6f6e-46d1-83ea-6f324822e18f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/70d64bd5-8378-4ca6-a8dd-ac8f26b1f000)
+
+* All statements are **correct**.
+* Answer -> 3.
+* [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/709b25e4-4696-4795-99b7-0e4c38b46b73)
+
+* If the **for loop 'i'** above the **Bar(n/2)** recursive function call is not there then we will get **T(n/2)** and using **master's theorem** we will get **a = 1, b = 2**, which is **n ^ log 1 base 2 -> n ^ 0 -> 1** which is **constant**. We know that **f(n)** is **n ^ 2**. So the **right side** is **bigger** so the **time complexity** is **O(n ^ 2)**.
+* **Time complexity** -> **O(n ^ 2)**. [Answer]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d810fe1f-98ec-4086-a565-54da2d62f16f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80182cbf-c046-4545-a463-344baad2fa76)
+
+* For the **above condition** only **S3** statement is **correct**, so the **answer** is **1** only.
+* Answer -> 1
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e255d23-a5b5-4793-86ae-ff48d1d43916)
+
+* Even if we multiply **Bar(n/2)** with **2** which is **2 * Bar(n/2)**, we will get **4 * T(n/2)** because **2** is a **constant**. We will ignore it.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8e8cfa9-b67a-4830-bd12-c4c11adff091)
+
+* Question.
+* **i and j** are **same loops** only.
+* k -> log n
+* j -> n/2
+* i -> n/2
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b30d863-2363-4e4b-b8fa-6cad23a79944)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76052171-2dc8-4581-902f-bcc77b90bded)
+
+* Overall -> (n/2 * log n * n/2) -> O((n ^ 2) * log n). [Answer] [**IMPORTANT**]
+* **No dependency** also.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/106660c9-ef75-45f6-836b-0678853cb8a8)
+
+* Question.
+* Program is given and we have to **search** accordingly.
+* Uniform -> Equal probability.
+* **Worst case** is actually **infinite**. We can take the same value of **i** over and over again.
+* It is not going **one by one**, it is taking values **randomly**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/095a2e96-d50e-4139-aa05-e94f26d71054)
+
+* **Worst case** is actually **infinite**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b47ebe1-5576-401c-83e0-a8b2e965c76d)
+
+* This is the **actual problem**.
+* It is not going **one by one**, it is taking values **randomly**.
+* When there is a concept of **picking randomly** then we have the concept of **expectation**.
+* The question is asking what is the expected no. of comparisons.
+* Expected no. of comparision = No. of comparisions * probability. [Formula] [**IMPORTANT**]
+* E = 1 * (1/n) [Probability -> 1/n]
+* Passed(P) -> 1/n
+* Failed(F) -> 1 - (1/n).
+* It will happen for **infinite** times.
+* The common thing about them is **(1/n)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ec2ce13-d667-4e73-96d0-d6c720c7ab36)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4eeac1f0-bc9f-47d8-b398-90b57bf59faa)
+
+* We can write **1** as **1 * ((n-1)/2) ^ 0**.
+* In every term the 2nd part looks like **GP**.
+* In every term the 1st part looks like **AP**.
+* It is an **AP-GP** series.
+* Convert **AP-GP** series into **GP** series.
+* In the **GP** series find the **r** value.  [r = (n-1)/n]
+* So we will **multiply with 'r'** on both the sides.
+* Just one **right shift** happened and it will continue till **infinite**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6bf50431-aaab-479c-96bb-809116f51bb5)
+
+* We will do **E - (E * ((n-1)/n))**.
+* So the first value is **copied**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/13d3d8ce-834c-45f3-888f-fe89679e6e2f)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2133e1c7-c523-4d24-a8bd-dd87d175f244)
+
+* Sum of **n** terms in **GP** ->  (a * ((r ^ n) - 1))/(r-1) [**r** value is more than '1' and it is **finite GP**] [Formula] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dbbaa197-7988-46b5-9b58-c5c0b98648fa)
+
+* Sum of **n** terms in **GP** ->  a/(1 - r) [**r** value is more than '1' and it is **infinite GP**] [Formula] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aad897df-9de4-4f0c-a6b2-925ec94389c6)
+
+* a = 1, r = (n-1)/n. [a = ((n-1)/n) ^ 0 = 1]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0be9d2c3-d7df-4880-be28-59319b647e99)
+
+* E = n [**Expectation**] [Answer] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/455ad9f8-6993-447d-8717-e9a310e98cf9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b981553-10c4-45d5-aa18-c9452198686d)
+
+* Expected no. of comparision = No. of comparisions * probability.
+* Expectation [Formula] [**IMPORTANT**] [Probability Expectation]
+* We are not picking **one by one**, we are picking **randomly**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e206b750-11bd-4cb4-ad79-6366b5b1cb98)
+
+* For **E**, we passed in the **1st try** so it is **1 * (1/n)**.
+* For **E**, we passed in the **2nd try** so we failed in the **1st try** so it is **1 - (1 * (1/n))** which is for **fail(F)** and then we **passed(p)** which is **(1/n)**. So overall as we did **2 tries** so it is **2 * F * P -> 2 * (1 - (1 * (1/n))) * (1/n)**. It goes on like this for **infinite time**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5584afe2-d4e4-423b-b48f-477afea93a16)
+
+* Max. no. of comparison is **infinite**.
+* Assume **x** is present in **A** is not there. It doesn't matter because we are picking **randomly** and we are **checking** them.
+* **Infinite** times we are checking.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a904dd5-97cf-48d8-9707-b4e834c6424a)
+
+* Here in the question, it is mentioned that **x** is present in **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f60b2940-03fe-49d1-a137-1e8156350347)
+
+* This is also **infinite**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/53c9cd4f-1378-4c7e-b7dd-edc33778c609)
+
+* Instead of the **logic** given in the question, we are using **linear search(LS)**.
+* We are not taking **randomly** also. It is **linear search**.
+* We are going to ask every element if it is the element we are **searching** in the **array(A)**.
+* We have do **(n - 1)** comparisons and still no matching and we have **only one element** left.
+* We cannot compare the **last element** with **x** because **element x** exists or is present. So no need to **compare**.
+* We are asked to find the **maximum**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72deb0b0-eaca-4b56-89c1-72d58cbb8f3e)
+
+* option **B** [Answer] [**IMPORTANT**]
+* It is **not 'n'**, it is **(n-1)** because we are asked **maximum**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b02e71fc-e38a-424a-861c-0876a97f53b1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09489c42-591a-4c6b-800c-a4b9689775eb)
+
+* That line is not given that **Assume 'x' is present**. That's why it is **n** and not **(n - 1)**.
+* **Worst Case** -> Maximum -> n  time
+* Option **A**. [Answer] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab248c42-48f0-4632-bcc5-d82d5a59f3ce)
+
+* Question.
 
 
 
