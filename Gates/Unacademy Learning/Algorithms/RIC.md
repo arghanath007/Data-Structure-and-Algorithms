@@ -1897,6 +1897,52 @@
 * In **adjacency matrix** there is **no pointer**. Only in **adjacency list** there is **pointer**.
 * Linked list internally contains **pointer**.
 
+## challenging-problems-viii-and-doubt-clearing-session (8)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d559d15d-fd04-4083-8f20-75d91f3894b6)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e01d8098-4a93-4db4-9c74-9ccba3e90e09)
+
+* We have **4** people.
+* Out of **4** people we are selecting **2** people -> 4C2. [Combinations]
+* Out of **4** people we are selecting **3** people -> 4C3. [Combinations]
+* Any combination of **sorted** is **sorted only**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/574e0595-6d10-4a6e-8f4c-e3cc2e187205)
+
+* In **permutations** order can change.
+* **Combination** means so elements we can leave.
+* **Combinations** are nothing but **subsequence**. Order we cannot change. Some elements we an leave.  [**IMPORTANT**]
+* In **Combinations** we never bother about **order**.
+* In **permutations** we bother about **order**.
+* Purpose of the problem is **difference** between **permutation and combination**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ed6eccf-bf82-481b-a70e-6f6a4c48f6b2)
+
+* **A** is divided into **2 parts** which are **B and C**.
+* Out of **8** integers we are selecting **5** integers which is **8C5**. They are already **sorted**, we don't have to do anything.
+* Out of **3** integers we are selecting **3** integers which is **3C3**.
+* **Sorted array** combinations are **sorted only**. [Question based on this line] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/17695f21-be20-4cd5-abbb-3317ed389f6d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4553f77e-27bb-4b58-992b-27e1b11cb455)
+
+* Option **C**. [Answer] [**IMPORTANT**]
+* Sorted array any combination is also sorted.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/893f05c6-fe5e-4bba-8dae-98b8f6cc5e4d)
+
+* Question.
+* It is asking **no. of comparisons**.
+* As it is a **balanced tree** so **no. of levels** is **log n**.
+* Start from **50**.
+
+
+
+
+
 
 
 
