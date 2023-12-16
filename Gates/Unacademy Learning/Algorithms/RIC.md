@@ -1618,6 +1618,284 @@
 * Option **B**.
 * Doubt. Check it again.
 
+## challenging-problems-vii(7)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71fb9c74-d0e0-4785-9efa-b4b9508ec6d0)
+
+* Option **B**.
+* See practice class for explaination.
+* Practice Class Link -> https://unacademy.com/class/practice-problems-on-array-and-graphs-with-raisehand-feature/DR3GVS5H
+* Solution Below.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cab02c53-b302-460d-bceb-f7fae2f8c7e0)
+
+* Question.
+* Undirected graph is always **symmetric matrix** as **A to B and B to A** are same.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b3bf1f0-2d40-4efe-89b4-01fd04fd5ef5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2fe5ddc9-6391-4979-be2b-2d53f30b49bd)
+
+* If two paths are there with **length '8'**, **anyone** of them is the **shortest path**.
+* Our goal is **shortest path**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e86d3a9-8813-458e-904a-ad7f19760d19)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c5ab2c59-d86d-49cc-894c-2ea6fe38f103)
+
+* To go from **C to D** the best path is **12**.
+* Largest possible integer -> 12.
+* We can select the larger value but the **condition** is that the **larger value** should participate in one of the **shortest path**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2dd356a1-ac7a-4baa-98b8-82d812b4b775)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d9ad1b76-c5a3-4967-84c4-69cef13d2fed)
+
+* Draw the **graph** and do accordingly.
+* Manual checking only, no algo. [Doubt]
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/267fab8c-1cce-4e71-a3f1-0a1a70628529)
+
+* Question.
+* Trick of **dynamic programming**.
+* Everywhere we have two choices we can either go to the **next one** or **take the shortcut**.
+* Particularly for **a number** contains **max. of 1 shortcut**.
+* Every number having two choices either go to the **next one** or **take the shortcut**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f9c33d47-e3a1-483e-a074-98534d0398e6)
+
+* Option **C**. [Answer]
+* T(y) -> T(10)
+* T(z) -> T(15)
+* y = 10, z = 15
+* yz = 10 * 15 = 150.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91094fb9-230d-493a-bff7-bd5e6eb428be)
+
+* Question.
+* If both **matching** then **expr1**.
+* If both **not matching** then **expr2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f200613-af8b-4180-a05e-be512daa6c6b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f1761f54-e1a3-4a60-ab62-17a07a0c8e0f)
+
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aade4c12-fa09-4ae6-8879-b41cc070df93)
+
+* Question.
+* Recursive program is mostly in **post order**.
+* Table is needed.
+* Every where 2ways are there **Row major and Column major** order.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa00e32d-8823-4f37-a3f8-dc295c04e667)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5644ff2-53a9-47fe-af85-a9c140533009)
+
+* Option **B**. [Doubt] [**IMPORTANT**]
+  
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a5dba31-f820-47ac-97fb-6b44a9e8a121)
+
+* Tabular method.
+* Dynamic programming needed table.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f32c850d-626e-4471-9b2d-15eadd391a5e)
+
+* While computing the **1st row**, **0th and 1st row** are enough/needed.
+* While computing the **2nd row**, **1st and 2nd row** are enough/needed.
+* At a time **only two rows** are required. Previous and current values we can use.
+* We can save **table size** by just using **two rows**.
+* Total table we have to fill. 
+* All values/entries we have to calculate.
+* We are calculating **total rows**.
+* We can manage with **two rows**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44b3bb5f-e0a1-4314-852b-517c05558fcd)
+
+* Can we improve the **table size**?
+
+> Only two rows are required at a time. We can improve to **two rows**. [For interview, not needed for GATE exam]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b610cdc-4f0c-4fd4-b1f5-02939ae7e1f7)
+
+* Question.
+* So many ways are coming.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4ecc05a-5832-4483-84cf-d57cd5f5afb4)
+
+* In the **best answer** what is the **explicitly computed pair**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0fb659b-d685-42e7-993f-c9e4043d1da0)
+
+* We have two **explicitly computed pair** which are **F1, F2** and **F3 and F4**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16f54a6d-a6ba-43d0-b7e5-f20b7a2c805c)
+
+* Pairs given in the **options**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d848409a-be10-4576-b2e2-0a6061d71b8c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d84d6361-d6f9-4c3c-8428-b888a396be0e)
+
+* Possibilities.
+* We can see that **F5** is very big as it has **1 * 1000**. So it will be done at the **last/end**. **F5** is the last person to be **multiplied**.
+* So we actually have **4 matrixes** instead of **5**.
+* By seeing **F5** matrix, we now have **4 matrix**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/edabca2d-98c9-4ec2-85df-19ce30caf7ec)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b6c5426-e131-4af4-b8b6-c5e31cd76398)
+
+* **4(1 + 1 + 2)** possibilites are **left out**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c7156c7-e2c9-4899-910d-c6c59b67ab2c)
+
+* All of the **4 possibilities**.
+* Take care of the **options**.
+* Option **D** is **directly** gone because of **F5** there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5d04d23-92ad-4ded-a8c4-62b267e2e71f)
+
+* Verify all of the **4 possibilities**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d36003c5-122c-441b-a629-0ba0c4275264)
+
+* Option **C**. [Answer] [**IMPORTANT**]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Practice Class questions
+
+* Practice Class Link -> https://unacademy.com/class/practice-problems-on-array-and-graphs-with-raisehand-feature/DR3GVS5H
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4055a255-3c25-401e-b2ba-26dec883e441)
+
+* Question.
+* Lightest edge -> Least cost edge.
+* Heaviest edge -> Most cost edge.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea8f31af-c719-4ab0-852c-a8cfd613d3c3)
+
+* 3rd min is **30** and we cannot take it because then a **cycle** will be formed.
+* 4th min is **40**.
+* In the given graph the **lightest edge** is **10**.
+* Lightest edge will gurantee come to **MST**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f6a9141-2043-4103-b554-dd4460035dfa)
+
+* Lightest edge of cycle some cycle(*ABD*) is **30** but that is not part of the **MST**.
+* Point **I** -> Need not be. [Not True]
+* If **e** is the lighest edge of G, then every MST of G includes e -> **True**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd6a4cbb-1d6a-405e-86a8-60fedd284248)
+
+* Whenever **cycle** came then we will **delete** the **last minimum(maximum)**.
+* Every MST excludes heaviest(max) edge weight -> **No** -> Sometimes it is needed.
+* Exclude heaviest(max) edge weight in the cycle -> **Yes**. [Outside of cycle maybe sometimes required]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1efc9323-af88-43a1-a9ac-0b4b6ea25aec)
+
+* The heaviest(max) edge weight in the entire graph is **70**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ca40df05-e5b8-41e8-8da5-2ed3e6e83aea)
+
+* Example.
+* Every **MST** don't have the heaviest(max) edge weight -> No/Wrong. [Sometimes needed]
+* Heaviest(max) edge weight in the **cycle** we have to exclude. [Correct]
+* In the overall graph the heaviest(max) edge weight we may exclude, we may not exclude. It depends/depending on the **problem**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aef2f7b6-d6a6-4a88-9f72-7d9b472064f8)
+
+* If **distinct** is not there then **same element** can come again and again.
+* Point **II** -> Correct.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dcf53728-cb55-4a67-815e-47076b9f71ed)
+
+* Option **B**. [II only]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cec3d81a-cdb8-4194-b023-d3f2fada458b)
+
+* If **distinct weights** are not there then the **lightest weights** maybe **many**.
+* Point **I** -> Need not be [False]
+* Point **II** -> False.
+* Option **D**.
+
+* Completed Graph -> No. of spanning Trees -> n ^ (n - 2). [Formula] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2f6902f-43c2-4ed4-a093-c12a28d2ab1e)
+
+* Question.
+* We have **undirected graph** and the graph is represented in **adjacency list**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/84bc28d4-092a-435d-90fe-24a67d3ab17c)
+
+* As it is an **undirected graph** so we can say **1 adjacent 2 and 2 adjacent 1**. We can go both the directions.
+* In **directed graph** we cannot say the **above**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/478576d3-c3fe-4d2d-a375-4343d488273d)
+
+* Adjacency list representation.
+* It is **undirected graph** and **vertex 1 and vertex 2** are adjacent so what happens that in **1** adjacent, **2** is there. In **2 adjacent**, **1** is there.
+* If we take any edge **1 to 2** because of it is an **undirected graph** in **1 adjacency list**, **2** will be there. In **2 adjacency list**, **1** will be there.
+* They are **twins** of each other.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3aae36b8-c019-4b60-9814-a82a09961712)
+
+* If **4 adjacent** is **1** then in **4 adjacent list**, **1** will be there. So in **1 adjacency list**, **4** will be there.
+* They are called as **twins** of each other.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ea41434-1008-4283-9a3c-c88890869c2a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65816a6f-76fc-4950-bccd-bb99b9075e67)
+
+* In the **2000** node we will keep the **string address** of **1000** and in the **1000** node, we will keep the **string address** of **2000**.
+* So every node contains a **pointer** to it's **string**.
+* We have to **modify the adjacency list** in such a way that **every node** contain a **pointer** to it's **string**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a747d18-1e5f-46f4-91db-9ec98626d6f9)
+
+* In **every node** we have to **add another field or add one more field**. **Space** will **increase** but it is mentioned in the question that **memory size is not a constraint**. Don't worry about memory.
+* Normally **efficient** means that both **time and space** are **less** but in the problem it is mentioned don't worry bout **memory/space**.
+* Memory is not a problem, thing about **time**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9a28e8cb-4d8d-4e73-afe8-1a3d8474155b)
+
+* Everytime we are creating a node at the **starting** only. Not required to go at the **ending**. If we go **ending**, unnecessary **time waste**. 
+* We can always go directly to the **ending**, when a **pointer** is there at the **ending**.
+* We can **add** in **starting or ending** also.
+* **Twins** are created at a time, it is the best idea. Otherwise to find the **twin** it will take **sometime**. If we create at a time then **finding the twin** is **easier**.
+* Creating both the nodes -> Constant 
+* Creating both the twins -> Constant.
+* Linking both the twins -> Constant.
+* Everytime **constant** is going on.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1bc38f8f-df19-4910-a0e3-82554877710c)
+
+* **Adjacent of 1** all completed so **1** is over. Mark **1** as completed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9eeddc04-7257-4189-b806-c43eeceff4af)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7451d05d-52c8-4b1c-bc4c-b11e97bff9fc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b4cc1d0-8073-4091-ac20-724195a4b5b3)
+
+* All are completed means **4** is over.
+* **One scan** we have done for all of the **vertices and edges**.
+* **Create at a time** so **less time** is taken.
+* We have to created the **same person** again and again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/00ea43c2-80a2-40d4-bb8c-b212e546734d)
+
+* Time Complexity -> O(m + n). [One Scan needed] [Answer] [**VERY IMPORTANT**]
+* If graph is **directed graph** then there is **no concept** of **twin pointer**.
+* **Twin pointer** concept will come for **undirected graph**.
+* In **adjacency matrix** there is **no pointer**. Only in **adjacency list** there is **pointer**.
+* Linked list internally contains **pointer**.
 
 
 
