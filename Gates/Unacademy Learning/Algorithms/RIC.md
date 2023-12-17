@@ -2162,12 +2162,6 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/465b0f1d-2814-4d71-9272-864268cd1a3e)
 
 * Question.
-* n = 16
-* sqrt(n) -> sqrt(16) -> 4
-* n -> 16
-* log 16 base 2 -> 4
-* 100/n -> 100/4 -> 25
-* 10
 * Option **B**.
 
 ## challenging-problems-ix (9) 
@@ -2175,7 +2169,35 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e58343e-557b-425d-b98c-58dbbb0d37de)
 
 * Question.
-* Between **10 and 100/n** we have to **multiply with 'n'** to **100/n** to get a constant which is **100**.
+* Between **10 and 100/n** we have to **multiply 'n' to 100/n** to get a constant which is **100**.
+* So **100/n** is **smaller** than **10**.
+* Among **sqrt(n) and log n**, **sqrt(n)** is **bigger**.
+* In **algorithm** terminology, **constant numbers** are **smaller**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5810df4d-6c65-4c66-98ad-c9441bb91fbe)
+
+* Option **B**. [Answer] [**IMPORTANT**]
+* First do **manually**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8fa9153c-99e3-4302-ba78-65f8081a9fe6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e10115a0-82d2-4998-8037-a65f6a5d1534)
+
+* Yes, Without applying **log** we can solve the **above question** and without **substituting values** for **n** then we got the **right answer**. These are **some probable** mistakes. [**IMPORTANT**]
+* Use **common sense**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/706d7d8b-347c-48ab-886b-ababd4f72e86)
+
+* Question.
+* 27mins
+
+
+
+
+
+
+
+
+
 
 
 
