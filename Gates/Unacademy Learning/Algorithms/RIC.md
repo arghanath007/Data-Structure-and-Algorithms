@@ -1758,20 +1758,6 @@
 * Option **C**. [Answer] [**IMPORTANT**]
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Practice Class questions
 
 * Practice Class Link -> https://unacademy.com/class/practice-problems-on-array-and-graphs-with-raisehand-feature/DR3GVS5H
@@ -1934,10 +1920,255 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/893f05c6-fe5e-4bba-8dae-98b8f6cc5e4d)
 
+* Question. [**IMPORTANT**]
+* we are talking about **insertion**.
+* Insertion of **1 element** is **log n**.
+* If the keyword **binary search** is not there then the **answer** is **log n**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2dfb891d-a321-452c-9980-057cbf977007)
+
+* CBT.
+* As it is a **balanced tree** so it has **log n** levels.
+* log 31 base 2-> 5 levels.
+* With 31 nodes how many levels possible?
+
+> log (31 + 1) base 2 -> log 32 base 2 -> 5 levels.
+
+* In a **CBT** there are **k** levels and **n** nodes.
+* nodes(n) = (2 ^ K) - 1  [Formula] [**IMPORTANT**]
+* levels(k) = log(n + 1) base 2.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae8d296f-bbc0-43f1-8cd7-5a55dd0e167b)
+
+* [Formula] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e20d628e-6cb8-4955-9996-55b1ebcf5512)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a6be257-c5dc-4efe-921a-e9b01a41c082)
+
+* Everytime we are **comparing** and then we are **swapping**.
+* Everytime we are doing **1 comparison**.
+* In **worst case** we are doing **log n** comparisons.
+* Everytime we are doing **1 swap**.
+* In **worst case** we are doing **log n** swaps.
+* So overall **comparisons and swaps** are **log n + log n -> 2 * log n -> O(log n)**. [This is the time complexity for **insertion**]
+* We are travelling in **one path**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8594db75-fb21-45e6-9fe5-d383f332ba0c)
+
+* This is **worst case**.
+* Every level **1 element** there.
+* In the path there are **log n** people.
+* We know the **elements** in the path are already **sorted**. So we are performing **binary search** on the path.
+* 1st element position is **1**, 2nd element position is **2**, 3rd element position is **4**, 4th element position is **8**, 5th element position is **16**, 6th element position is **32**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5c6f4ad8-8a89-44e2-9df9-6f2c2190fffa)
+
+* By looking at the powers of 2(0,1,2,3,4,5), we are getting **log n or log n + 1** people.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/08ec75a6-2cc8-43d2-8c27-4f0349246015)
+
+* We are at **2 ^ 5 -> 32** position. This is the position of the **new node** to the **inserted** in **max heap**.
+* To go to the **middle**, we are dividing the **power by 2** which is **2 ^ (5/2) -> 2 ^ 2.5 -> 2 ^ 2 -> 4**. [Taking lower bound]
+* So the **new node** is comparing with the **node** at **2 ^ 2 -> 4** position in **max heap**. As the **new node** is **bigger** it will check again.
+* Apply **binary search** again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/45849437-8d08-4f5e-bf0e-d5aa49fc8617)
+
+* **2 ^ (2/2) -> 2 ^ 1 -> 2**
+* So to **2nd position** and compare.
+* Still problem at **new node** is **bigger**. 
+* Apply **binary search** again.
+* **2 ^ (1/2) -> 2 ^ 0 -> 1**
+* So to **1st position** and compare.
+* we have to go further above but it is not possible as we have reached the **root**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0a06f9a-b9a1-48cf-bce3-828032910a42)
+
+* BS -> Binary search
+* **Binary search** on **n** people is **log n**.
+* We have done **binary search** on **log n** people, so it is **log(log n)** comparisons.
+* After **log(log n)** comparisons are over **new node(500)** is at the **root**.
+* **100** was already there on the root, so it should go to the **next level**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/75739d67-13e5-4cce-b484-44a3663b13df)
+
+* **Swaps** are still **log n**.
+* We have to **swap** everyone.
+* **Swaps** we cannot change.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/694e22be-b98c-4cbd-a321-5ea5731627da)
+
+* **log(log n) + log n -> O(log n)**.
+* Overall **time complexity** is **O(log n)**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d178fb3-5c5b-4060-ab8a-a3d8e6db550f)
+
+* Yes.
+* In the question it is asked **comparisons**, which is **log(log n)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19d8bc33-5677-4d9c-8106-5eae4d532a07)
+
+* Option **B**. [**IMPORTANT**] [Answer]
+* We are **inserting** only **one element** in **max heap**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/21863668-d96a-4c28-90a0-9fc237629cc0)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a5064dd-57c7-478a-8900-5c2bacf5934f)
+
 * Question.
-* It is asking **no. of comparisons**.
-* As it is a **balanced tree** so **no. of levels** is **log n**.
-* Start from **50**.
+* V -> OR operator
+* /\ -> AND operator.
+* We have **two choice**, we may take or we may not take.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/adba9b51-e8cc-4286-8d7f-260b494405f9)
+
+* In **0-1** knapsack, **capacity** of the knapsack is **m**.
+* In **0-1** knapsack, **no. of objects** is **n**.
+* In the **sum of subsets**, **no. of elements in the set** should be **n**.
+* i -> no. of elements
+* j -> sum of subset
+* **i** should be **decreased** whether we take the **element or not**.
+* We can either **take** or **not take**. We cannot do both at the same time. Both are **not possible**. That's why **/\ -> AND** operator is not possible. So option **D** is **wrong**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb1853bd-ec45-41b2-9163-397bf16663bd)
+
+* Option **B**. [Answer] [**VERY IMPORTANT**]
+* X[i - 1, j] -> We are **not taking** that why no **j - something**, but we have we have to **decrement 'i'**.
+* X[i - 1, j - (a * i)] -> We are **taking** that why **j - something(a * i)** and we have we have to **decrement 'i'**.
+* We have to **decrement 'i'** in both of the **cases**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a1e326c-e8ff-45c5-8383-6dbaee39fff9)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f376e75-b074-4a7e-952f-77a0cbedbcd5)
+
+* SOS -> Sum of subsets.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/03f797b4-4461-4c94-950a-de2c38aa6233)
+
+* Intermediate sub-problems may say **yes** doesn't mean that the **final problem** will say **yes**.
+* **Final answer** is decided by the **final entry** only.
+* Others may workout or may not workout.
+* Option **A** is **correct** as the **sum is 'W'** but the problem is that if the given condition of the option is **True** then only it is **True** which is a **no**.
+* Even though option **A** condition failed there is **still hope**.
+* So option **A** is **not correct**. Option **A** is an **intermediate answer**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3aac8bb1-7c8c-462d-a30e-986b177de314)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66a06d23-8b16-45c0-bf3d-2b84fcb10c1c)
+
+* Option **C** is always correct.
+* **C** is the **superset** which will decide everything.
+* Everything decided by option **C**.
+* Option **C**. [Answer] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/45b58cef-4b67-4660-a753-d26e502de19f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b939ed23-19d1-4b98-9894-840ed527bbd8)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3039c6e1-193b-453c-93e0-0fa56c411953)
+
+* We are trying option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f3852ad-4ecd-4370-a969-fd0429508284)
+
+* It will go to **infinite loop**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc1bfddd-d3c5-406e-829f-373f7b54b001)
+
+* Option **A,B and D** will **pass**.
+* Option **C** will **fail**. [Answer] [**IMPORTANT**]
+* We have to do **manual checking** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/08fa48eb-6702-4232-9e33-f7acc94df1a1)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72f025c5-be22-42f2-a139-8fb53fb0dac3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3297d990-35be-4a93-bc6d-5b9360b45a44)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a6e070e-8f67-4822-87f9-caa1db436be4)
+
+* Option **A**.
+* Manual checking **needed**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50cbc7d5-bb07-46f7-936e-40fafd7a871b)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a2d1a62-b923-4715-ac11-8cea719d886d)
+
+* Question.
+* We want to create **MST** for **G**.
+* We have **5 vertices**.
+* We want **4 edges**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/118899ba-ca20-4760-8e35-9cab4a055ad0)
+
+* 3rd minimum is **4**.
+* We cannot take **CD** as **cycle** will be formed.
+* We can take either **AB OR BC** as they are not causing any **cycles**.
+* We can take either of them(AB or BC) so we have **two choices**.
+* If we can take **both** then we have **1 choice** only. [**IMPORTANT**]
+* We can take either of them(AB or BC) that's why **two choices** came. Only if **one possible** then we have **two choices**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0be1149-115c-4483-93cc-a7ce599f2aec)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d5635d2-731e-4499-b475-616781e9c34a)
+
+* We tought we will take **2 MSTs** as there are **2 10's** but we can take **both 10's** so **only one MST will come**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c140742c-693f-4c1d-939a-4e3bc974c882)
+
+* We got only one MST finally.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec2e8717-31c7-4329-a50b-9b3e4514f18a)
+
+* 1st min -> 1 choice.
+* 2nd min -> 1 choice.
+* 3rd min -> 2 choices. 
+
+> For **3rd min**, 2 people(AB and BC) are fighting we **cannot both at a time**. We have to take either one of them. That's why for **3rd min** we have **2 choices**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b28b8b05-9cb1-4649-be73-6f77508015e1)
+
+* We want **4 edges** and we got **3 edges**, so the **next min** is **5 or x**.
+* If we take **x = 1** then there is no fighting for **last min** edge.
+* If we take **x = 1** then we will have **only 2 MSTs**.
+* For **x = 3**, it is same as **x = 1** only. No fighting there for **last min** edge.
+* For the **2nd last min**, then **two 3's** will come but we can take **both 3's** without any **cycle** so we are left with **only 2 MSTs**. No fighting.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/793468dd-004d-4685-8329-804c2c94c144)
+
+* If we keep **x = 5** then there will be **two 5's** and there will be fighting for the **last min** edge which we want.
+* We will have **two choices**.
+* The interesting thing is that we cannot take **both 5's** as **cycle** will come.
+* We cannot neglect either one of them as well.
+* We have to take **either one of the 5's**.
+* We have **2 MSTs** from **4** and **2 MSTs** from **5**.
+* So overall no. of **MSTs** is **2 * 2 -> 4** MSTs.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b4ea79d-a17f-4300-a012-2737f2700878)
+
+* It is asking **no. of MSTs**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76a9af3a-5ece-4421-82ab-e4eea6401aa8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1c4303c-a16a-42f6-8688-f9bbbd429eb4)
+
+* Value of **x** is **5**.
+* Answer -> 4 [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/465b0f1d-2814-4d71-9272-864268cd1a3e)
+
+* Question.
+* n = 16
+* sqrt(n) -> sqrt(16) -> 4
+* n -> 16
+* log 16 base 2 -> 4
+* 100/n -> 100/4 -> 25
+* Option **B**.
+
 
 
 
