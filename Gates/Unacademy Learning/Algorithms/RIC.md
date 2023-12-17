@@ -2167,11 +2167,15 @@
 * n -> 16
 * log 16 base 2 -> 4
 * 100/n -> 100/4 -> 25
+* 10
 * Option **B**.
 
+## challenging-problems-ix (9) 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e58343e-557b-425d-b98c-58dbbb0d37de)
 
-
+* Question.
+* Between **10 and 100/n** we have to **multiply with 'n'** to **100/n** to get a constant which is **100**.
 
 
 
