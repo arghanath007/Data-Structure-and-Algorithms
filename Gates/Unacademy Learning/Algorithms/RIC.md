@@ -2443,10 +2443,92 @@
 
 ## challenging-problems-x(10)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ce77d7b-dc82-44e9-87c1-b3b793e0cbe4)
 
+* Question.
+* It is a 2D array.
+* Every row and column are sorted.
+* Infinite means big numbers.
+* Inbetween gaps are not allowed.
+* Max no. of elements is **n ^ 2** elements.
+* We are searching element **x**.
+* All elements are not **sorted**. Elements are row-wise sorted.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/612f7c8b-f62c-4dc6-92e4-a57a62c7400e)
 
+* Apply **binary search** row or column wise.
+* In every comparison either **every row or column** is getting **cancelled**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cee02de4-736d-4509-acf3-8489f1cce31e)
+
+* Procedure.
+* Maximum we will check **1 row and 1 column**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e6b4479-ace9-4ed3-a71e-93c9873f94db)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d04b468-294d-43f5-84ad-de03d85fede6)
+
+* Option **A**. [Answer] [**VERY IMPORTANT**]
+* 1 row and 1 column we have to **verify**.
+* 1st row and 1st element is **1** but we want **31** so we will got to the **next row** in the **same column** as **x > element** which is **31 > 1**.
+* 2 ways means it is not a good idea.
+* **1st row and last element** is the **best starting point**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3eba62e4-3d2c-4df2-991f-b1e48555c1a0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/354d232f-1c42-422b-87ad-ace33847f4a8)
+
+* Two time complexities are possible:-
+* Best Case -> 1
+* Worst Case -> n
+* **n** and **1**.
+* Which is **O(n)**.
+* We have covered every possibilities.
+* Left hand side is **our problem**.
+* As it is mentioned in the question that **how much time** so we have to cover **every case/possibility**.
+* If **case** is not mentioned then do for **every case**.
+* Don't bother about **average case**.
+* **Best and worst** case are **same** means that **average case** is the **same** as well. So don't need to find out about **average case**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8742e7a6-91af-4fb7-9eb9-13862f2e087e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30e5c503-326e-401d-a20e-5fe1e0dfd9e3)
+
+* This question asking **all of the cases**.
+* Our goal is **best algo**.
+* [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e89226f9-73c7-4040-b3a2-977c35da544c)
+
+* For the best algo in worst case -> Only one possibility -> n -> Theta(n).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/775af515-e3e4-43d0-8aba-b6c4f7e9c0b0)
+
+* If it is mentioned which **algo** we want then well and good but if **not mentioned** then we always want the **best algo**.
+* Possibilities -> 1,n -> O(n). [Answer]
+* Left side is **1 and n** so the **overall** is **O(n)** which fits both **1 and n**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/93f012c4-520b-468c-9500-d8f067c7c649)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/057318e8-a222-4094-afde-5ffe7ef7ee46)
+
+* Question [1]
+* Option **B**.
+* Infinite -> Gap.
+* Gaps not allowed in the middle.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4110ff05-2e80-496b-af55-5b39a6387d94)
+
+* In that table to find minimum element time complexity? [2]
+
+> **1**. 1st element is only **minimum**. Return the **1st element**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/17e36014-01bb-4e53-a709-d12194b8f03b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/529a7448-def5-4ea0-933f-6cde655d97cd)
+
+* The **1st min element** is **deleted** and a gap is there, we have to fill the gap. Automatically the **2nd min** should take the place of **1st min**.
+* In the table it is a **gurantee** that the **1st min element** should be at the **1st place**.
+* So for the **1st place** the **next row(2) and the next column(3)** elements are fighting. Not the **total row or the total column**. In that **row**, the **next element** and in that **column**, the **next element**.
+* Between **2 and 3**, **2** is **minimum** so **2** is placed at **1st place**.
+* As **2** bacame to **1st place** so there is a **gap** at the **2nd place**. So we will do the **same thing** we did for **1st place**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5cdb945a-8b98-4905-a4f8-de0cd7b7aa69)
 
 
 
