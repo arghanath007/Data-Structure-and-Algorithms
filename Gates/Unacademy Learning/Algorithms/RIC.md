@@ -1,5 +1,7 @@
 # Algo RIC
 
+* Link -> https://unacademy.com/course/rank-improvement-course-on-algorithms/4KS8RGAE
+
 ## challenging-problems-i (1)
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8592c6d-4444-4339-a2cd-91423ce1a101)
@@ -2529,6 +2531,428 @@
 * As **2** bacame to **1st place** so there is a **gap** at the **2nd place**. So we will do the **same thing** we did for **1st place**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5cdb945a-8b98-4905-a4f8-de0cd7b7aa69)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be2267cc-f1ba-432d-9b5d-de96cb5f68f6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/94853b89-8e2b-4ec1-b510-837ab87e3cb6)
+
+* For **18**, **gap and 25** are fighting.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2af3644-fa69-4d57-b84a-bf2d9e6f0423)
+
+* Yes.
+* Everywhere take **minimum and minimum**.
+* On the right hand side **gap** is not allowed. So **shift** it. **25** will go there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27d6ec47-b266-423b-ada8-3ad6bd26799f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f042a116-324d-4d44-b408-09af5a82692e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9adf1889-d7c3-40cb-a1ef-5925f7c4f035)
+
+* Lastly **gap** is there.
+* Always **minimum** required. Be careful.
+* Option **B** [Answer] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a356f4b-5e99-40db-8eb7-ef361d42b319)
+
+* last row and last column elements, use **common sense**.
+* There is no problem if we delete from **last row or last column**. Just keep **gap**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5c15423-d307-4a02-9d2e-db7ccda85a7a)
+
+* Question.
+* Recursive program is given in the form of **flowchart**.
+* Write the **recurrence relation** for **time complexity**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a692501c-4a90-4964-b702-542ce481e38a)
+
+* The path with **more function calls** means **more time** which will give **worst case**.
+* Take the **path** where the **larger/more function calls** are there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76ebe1d8-6912-43f1-9565-7408ee3cdead)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb99b3b9-d257-4471-b4f5-d78a47bb54f6)
+
+* We definitely have to write both the **recursive and the non-recursive** functions.
+* 5 * T(n/2) -> Recursive function
+* C -> Non-recursive function.
+* Alpha -> log 5 base 2 [Answer] [**IMPORTANT**]
+* If they asked for **best case** then we would gone to the **left hand side** where we would have gotten only **2 function calls**, so we will get **2 * T(n/2)**.
+* **Best case** means select the path which has the **least function calls**. [**IMPORTANT**]
+* **At a time** means all should be available.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e017cd98-d0b4-46b9-bb8e-c821768bfbe3)
+
+* Question [Doubt]
+* Clique problem -> In the given graph is there a subgraph which is a complete graph. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/11c8aaca-8bc7-459f-86e8-087f95ec7c30)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8164cdd5-1020-4304-bb93-6e0e49d550e8)
+
+* Starting from **C** we are applying **dijkastra's algo**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72e25f1e-a4f9-41dd-bf27-13321131b39a)
+
+* Adjacent of **B** which are **not completed** are **E**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b9ccb3ac-d012-443f-8157-490b82c717b1)
+
+* Question.
+* There are **4** lists and each list individually contails **n/4** elements which is **400/4 -> 100** elements.
+* Every list is individually sorted.
+* We are performing **merge algo or merge sort** here.
+* To **merge lists** we would have **100 + 100 -> 200** elements and we would need **199** comparisons.
+* To **merge lists** we would have **200 + 200 -> 400** elements and we would need **399** comparisons.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/629c62c2-1b41-4aae-a6f9-2ac92685e180)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c03e2171-8149-4d65-8449-89091f42f1a3)
+
+* **199 * 2 + 399 -> 797**. This is the **maximum**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3035a0f-c02e-4540-acff-aa23c5e5f0e9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6ef10e3-841c-4ea1-8cc9-0672cff11ce7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/edca512a-0d6c-496b-976a-e8834ab21f53)
+
+* Always elements are going from the **same group**. **100** comparisons are over and **100** elements are out. The other **list** is left out, so copy the other **list** elements.
+* It is **same** for the **400** elements as well.
+* This is the **best case**, which is minimum of **m and n**. [min(m,n)]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3b8fe755-edd7-42de-9786-750fcca93298)
+
+* Yes, minimum of **m and n**. [**IMPORTANT**]
+* This is for **comparisons**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f089e05-2809-41da-980a-58f29713052e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69c4bf5d-a631-47a4-88bb-8fa3f2ffa3be)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4cdab538-0e50-4317-b9ed-027877dd5cf1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b04f06d-9bd2-4433-b546-9d48c41896b0)
+
+* Moves -> 200 + 200 + 400 -> 800 moves.
+* Worst Case/Best Case -> ***m + n** [Moves] [Sum of internal nodes] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd22efac-6758-4387-a628-f0f2a630bc3b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d274567-3cc6-4bd9-87b9-54c5a53029b6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b312306-3409-45fc-b8cb-dd7ff239e095)
+
+* Worst Case -> **m + n - 1**. [Comparisons] [**IMPORTANT**]
+* This is for **comparisons**.
+* Moves -> 200 + 200 + 400 -> 800 moves.
+* Add everything, don't do **-1 or +1**.
+* Worst Case/Best Case -> ***m + n** [Moves] [Sum of internal nodes] [**IMPORTANT**]
+* [**VERY IMPORTANT**]
+
+## test-analysis-and-doubt-clearing-session (11)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34686dc1-3e89-491e-a9c2-b3fd4cd9a2cb)
+
+* Question.
+* **Every case** of **merge sort** is **same** only.
+* To sort **n** elements, merge sort will take **n * log n** time which is **n * log n** operations.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63f9a8eb-2de3-4ed2-b035-666451e6e5ba)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/acc8973f-e695-4ae1-9c6b-54b40f6807b5)
+
+* To sort **64** elements we need **n * log n -> 64 * log 64 base 2 -> 64 * log 2 ^ 6 base 2 -> 64 * 6 -> 384** operations/moves.
+* So the **64 * log 64 base 2** or **384** operations/moves are taking **30 seconds** of time.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5d5b415-3524-4b73-81ad-64480db5b0ea)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/058702bb-5d59-4e4d-be9e-53dd60002f6f)
+
+* If **30 secs** not given and directly it is mentioned that 64 elements to sort, how many operations are needed in the merge sort?
+
+>  **64 * log 64 base 2** -> 384 operations. we can stop it. It is nothing but **384** moves. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/058702bb-5d59-4e4d-be9e-53dd60002f6f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d35d215b-221c-48d3-8a27-efc1b614f097)
+
+* If the **30 sec** data is not given in the question then we will go **directly** to **6mins** and we will solve it. **Directly** we can do it.
+* One operation cost is **30/384** as it is **given** and we utilized it.
+* If the **30 sec** data is not given in the question then we will think that **one operation cost** is **constant**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/503310b8-b79f-49a2-bba5-b4537e5f4dfb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/964eca3c-d8c5-49a0-9d3f-6677e5e80f6a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92b72fde-f023-411e-ac49-93a9b308aeb4)
+
+* Question.
+* We have to check **manually**.
+* 0-length and 1-length string are possible.
+* **5 and 7** are the lengths of the string so the **max possible length** of the string is **5** only.
+* 1-lenght string -> q
+* 2-lenght string -> pq
+* 3-lenght string -> pqr
+* 4-lenght string -> pqrr, qprr, qprr
+* 5-lenght string -> Not possible.
+* **Longest common subsequence** length is **4**.
+* x = 4.
+* No. of **Longest common subsequence(y)** is **3**.
+* y =3.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c97bf064-83c2-4430-b049-e68080d3d10d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1bd2beca-4ac5-4d59-9864-d573251c9c96)
+
+* Option **D**. [Answer] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af319074-ca2d-49f8-9414-2539e1252e7e)
+
+* Question.
+* On the given graph, **kruskal algo** is applied.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/39288181-c6bd-4335-887c-e7d330b89675)
+
+* We have **9 vertices** so we need **8 edges**.
+* 1st min is **1** which is **AE**.
+* 2nd min is **2** which is **AG**.
+* 3rd min is **3** which is **AB**.
+* We will find the rest like this only.
+* We finally want **connected** graph.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b78be701-5d08-4799-8ca1-72e7d69c0f10)
+
+* Final graph.
+* Using **kruskal algo** we got **MST**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a30874fd-1c48-46a5-b192-094569552e9b)
+
+* Edges(1 to 8).
+* When we see the **graph** all of the **edge weights** are **distinct**.
+* If all of the **edge weights** are **distinct** then we will get **unique MSTs**.
+* If we apply **prim's** then we will get **different edge sequence** as it is a **different approach**.
+* The 4th edge which is in **kruskal** that edge will come in **prim's** as well confirmed but at **which place** it will come we do not know. As **prim's** is a **different approach**.
+* If we apply **prim's** on the given graph then we will get **many edge sequences** because we can **start from anywhere**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8de40474-3b43-4e7b-a51c-d31518826e98)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec174439-25bf-4971-a555-4dd6ace096f8)
+
+* ei or e1.
+* Edge weight -> 12
+* Edge Name -> CF
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/03796da7-b7c1-4a6f-b25c-4834838dbf6a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/68072438-1eb2-41a8-b261-8b3584e1e883)
+
+* The edge **ei** came at the **last place(8th)** position of the **kruskal's algo**.
+* The edge **ei** position is **e8i**.
+* Whatever edges **kruskal** has that same edges will come in **prim's** as well but we don't know in which **sequence** they will come, as **prim's** is a **different approach**.
+* The **ei** position in **kruskal** is **8**. [eik]
+* The **ei** position in **prim's** is **3**. [eip]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/87370f3e-9c12-4722-bfcb-486ed5f219fc)
+
+* Prim's having **many sequences**.
+* Kruskal is having **only one**.
+* Prim's having **many sequences**, we can start from **vertex 'A'**. If we start the **prim's** algo from **A** then we will have **only one** sequence.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/88320edd-b541-414b-8528-d2a110c7b69c)
+
+* More than **1 scan** is preferrable.
+* Prim's can start from any vertex so start from that vertex which has the **maximum difference**.
+* Kruskal algo's last person will come to the first place of **prim's**.
+* It is **(C, F)**. We can either take **C or F**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c6026261-1c85-43fa-ab3d-09163e4e231c)
+
+* We thought **CF** will come but **CE** came.
+* Adjacent of **C** is not better with **F**, it is better with **E**. That's why **CE** came.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce93f6a0-70ae-46ac-b4ee-fc13efa6411e)
+
+* Closest number.
+* We want **kruskal's** last people in **prim's** first place.
+* Try from the **last**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/291aa49b-3aef-4f0e-afdb-a961841a949a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4cd4cd4-df18-4408-a50a-78d5a2a4fbcc)
+
+* We stopped it because we entered into the **minimum area**. We want to go to the **right hand side** area.
+* Take **Kruskal's last point** and start **prim's algo** so that we will get the **maximum difference**. [**IMPORTANT**]
+* To get the **minimum difference**, from the vertex we started **Kruskal**, from that vertex only, start **prim's algo** as well. [**IMPORTANT**]
+* Don't try blindly. Use **common sense**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c32f0e1-fc3c-4b12-81e0-c2731af2262e)
+
+* Answer -> 6 [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d339b06-1c45-4754-90de-0da066a64a6d)
+
+* Question.
+* In **Heap sort** to sort **n** elements we need **n * log n** time.
+* **x** element to sort took **log n** time but actually **x** element to sort will require **x * log x** time.
+* So **x * log x** is guranteed **equal to 'log n'**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7cae1eff-7ecb-4266-b58e-662c5be532ff)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71a8fc96-f0cc-4c27-bf13-174374aa438c)
+
+* Theta(log n) [Right side]
+* Theta means **asymptotically** both the sides are **equal**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d5eebbe8-fc0b-4d53-a718-38364c2297cf)
+
+* We replaced **x** with **option 'c'**.
+* Between **log(log n) and log(log(log n))**, we know that **log(log n)** is **bigger** than **log(log(log n))**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/47b8c30a-4874-4800-b35e-7db10169893c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b26949a1-e64b-4cd0-94ce-2fb392dc7e08)
+
+* **Left and right side** are **same**.
+* Both sides are same/equal asymptotically.
+* On the **left side** we have **asymptotically 'log n'**.
+* So **substitute** in the **options**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9fad6c93-dd20-42ff-8d09-fcb896df262c)
+
+* Option **C** [Answer] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/333f8dcf-9194-4baa-ab9f-096929e8b163)
+
+* Question.
+* To the algo, **a** is the **input** and **b** is the **output**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/99411213-40ce-4b5e-bc9a-ca2c7d38bd2e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d04e5eb0-8390-4f38-9ebb-cb050163021a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/75f3a5ff-c7e9-4d5e-ba78-3c58c18a2298)
+
+* Both of the **codes** are doing the **same** thing only.
+* The **largest number** satisfying the **condition** is **10**. [11 is failed]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2ffe812-c392-458f-aec8-a99356cc4b00)
+
+* Program.
+* Returning value is **b**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7015df67-fee6-487f-b13a-3089e6f0d5e8)
+
+* The **largest** number passed or satisfied is **m**. **m** is the **answer**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/022fb5a2-3c3e-4045-ba96-acf361ad8c61)
+
+* We are doing **linear search(LS)** and the **time complexity** is **O(n)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8ebecb9-4c30-4eae-bec3-088888ef20c5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8824b8b4-5cde-43a8-8d0c-127769e87854)
+
+* When **i** value is **n ^ (1/3)** then we are **n ^ (1/3 * 3) -> n ^ 1 -> n** equalling to **n**. So **i** value is **n ^ (1/3)**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b55bd81-bbb5-48f6-bfd2-039b3eb82ffb)
+
+* We are doing **linear search(LS)** which is ok but the **loop** is repeating for **n ^ (1/3)** time. 
+* Time Complexity -> **O(n ^ (1/3)**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/685b26b4-8aa7-4c3c-ad20-29211f8e48b3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ca8da87-22cc-43b0-880d-58c650f4fa16)
+
+* We have done **1000/2 -> 500** and got **500**. We are doing **500 ^ 3**. **500 ^ 3** is giving more than **1000**. Indicating that **500** is not our answer. Our answer should be **before only**.
+* We have done **500/2 -> 250** and got **250**. We are doing **250 ^ 3**. **250 ^ 3** is giving more than **1000**. Indicating that **250** is not our answer. Our answer should be **before only**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8715c80f-c412-48c1-ac7f-f1c9be0f04fa)
+
+* We will keep on **dividing by 2** till we find the **cube root of 1000**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a83a96a-02e5-4eaa-a1b7-78fbd98e48ef)
+
+* **8 ^ 3** is not more than 1000, so go to the **right side**.
+* Actually we want **equal**.
+* We got **9 to 15**, so the mid element is **9 + 15/2 -> 24/2 -> 12**. So, **12 ^ 3** is more than 1000, so go to the **left side**.
+* We got **9 to 12**, so the mid element is **9 + 12/2 -> 21/2 -> 10**. So, **10 ^ 3** is **equal to** 1000, so we stop.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f69ec7e8-1697-43ca-a6fe-3e9f05471a30)
+
+* We applied **Binary Search**.
+* If **exact cube root** is possible then **exact answer** will come. 
+* If **exact cube root** is not possible then continue till me get **one element** in the range.
+* Binary Search termination condition is if **one element** comes then **stop** it.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f9bb8fa5-c3a9-488e-aa73-333b082b079b)
+
+* **Binary Search**.
+* Time Complexity -> **O(log n)**.
+* We solved in **Decimal format** so convert the **binary format** into **decimal format**.
+* If we **divide a number by 2** then we will get **0 or 1**. We will do the division for **log n** time. We will have **log n** bits.
+* If **n** is the number and we convert the number from **decimal to binary** then we will have **log n** bits. [**IMPORTANT**]
+* To convert the **binary to decimal** number then we have to **multiply with powers of 2**.
+* Conversion will take **log n** time. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bd78db57-9149-4f45-a3fa-f6e31342faf7)
+
+* one for loop is going on and it will repeat for **log n** times.
+* To convert from **binary to decimal** number it will take **one loop** which is of **log n** time. [**IMPORTANT**]
+* Binary Search -> log n
+* Conversion -> log n [As there are only 'log n' bits]
+* Total -> 2 * log n -> O(log n). [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/01b9b7cf-c933-4fb1-9f91-653b7ea5452a)
+
+* We can solve using **linear search** and the time taken is **log n** for **conversion** and **n ^ (1/3)** for **linear search**, so the overall time complexity is **O(n ^ (1/3)**. [Linear Search] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/46521d7c-883c-4bde-bf60-966547b43ff6)
+
+* We can solve using **binary search** and the time taken is **log n** for **conversion** and **log n** for **binary search**, so the overall time complexity is **O(log n)**. [Binary Search] [**IMPORTANT**]
+* **Less than  'log n'** is never possible because **conversion** itself takes **log n** time. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/baeff21f-9cf9-43dc-8010-b850db3e9ba1)
+
+* Option **C**. [Answer] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/88ae2f56-4f9b-4428-803a-13d8ecda1273)
+
+* Question.
+* The **1st 'k' and the last 'k'** elements are **not sorted** but the middle **n - (2 * k)** elements are **sorted**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ee038f1-4089-4c1f-bea8-86b423935e5c)
+
+* Except **constant people** everyone is **sorted**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6cd598d2-41ef-4667-b2a0-2167030475df)
+
+* Option **A** [Answer] [**IMPORTANT**]
+* Quick Sort -> When most of the people are not sorted. [It is the **reverse**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/784912bc-6089-4709-bfa1-3cef7c86cbe5)
+
+* Question.
+* Completely not graph given.
+* We can keep the edge weights **anywhere**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0699cf52-4fd1-4f1b-a0a6-b2c688a417c7)
+
+* The **minimum possible weight** of a **min cost spanning tree(MST)** is **3**.
+* The **maximum possible weight** of a **min cost spanning tree(MST)** is **7**.
+* Max -> 1 + 2 + 4 -> 7 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2bdc183d-82f4-46b1-b83e-73beb6bbed9c)
+
+* Option **B** [Answer] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e820d5f-7be2-4802-9086-78668580ff54)
+
+* Question.
+* All edge weights are **distinct** and it is possible for **MST** and not for **shortest path**. [**IMPORTANT**]
+* In a graph all of the edge weights are **distinct** assume then **multiple paths** are possible.
+* Whether it is **distinct edge weights or not**, **multiple paths** are possible. [**IMPORTANT**]
+* When **multiple paths** are possible and we have selected one of the paths as the **shortest path**. After sometime **5** is substracted from all of the **edge weights**. Previously as many **shortest paths** were there now also that many **shortest paths** are available. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12253bcd-1e6a-4665-a87d-402368479949)
+
+* S1 and S2 are **True**. [Answer]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4244e85-f8bc-4377-a887-f93b4bfb97c2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6bf9b271-5b5b-45d4-8116-04c498828aae)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3efa3108-f597-44b8-81f6-80683b2036a6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b615ac9b-08ee-4869-84a1-0b59c0b10b5f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/260f684f-2ab1-4f79-a133-b3d0ceff628a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/957e6ae2-bbed-4286-a295-36aaacaa8ab9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/004075a0-cbd6-44a1-bdd1-1ceff51fb816)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66ec2f06-f58b-4779-9722-296511cef89f)
+
+* Doubt.
+
+* **COMPLETED**.
+
+
+
+
+## Images
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f2bda58-a946-423e-8d3c-cf44ec0ab64e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd6efe56-3bb3-4a68-8c37-f7b7b584dbb3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3096e650-0486-4ca1-acf4-283e09524b4a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f2a5610-ce99-4a55-80ec-fd932a16ea2c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1bfd0d1-9506-4950-9cc1-de0a56eb2c38)
 
 
 
@@ -2539,9 +2963,6 @@
 
 
 
-
-
-
-
+ 
 
 
