@@ -2930,18 +2930,63 @@
 
 * S1 and S2 are **True**. [Answer]
 
+## Doubts
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4244e85-f8bc-4377-a887-f93b4bfb97c2)
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/91A1FC1691
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6bf9b271-5b5b-45d4-8116-04c498828aae)
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/CDB875928A
+* Option **A**.
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3efa3108-f597-44b8-81f6-80683b2036a6)
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/6A73285586
+* Done by **sir** earlier.
+* Finding **median** in an **unsorted** array takes **n** time. [**VERY IMPORTANT**]
+* Option **C**.
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b615ac9b-08ee-4869-84a1-0b59c0b10b5f)
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/7FE9A0DC4B
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/260f684f-2ab1-4f79-a133-b3d0ceff628a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f9a7547-12cf-4992-ac62-629d3b1f1f31)
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/532D7B5EDC
+* Option **D**. [**VERY IMPORTANT**]
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/957e6ae2-bbed-4286-a295-36aaacaa8ab9)
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/270CBCDD59
+* Option **A**.
+* Articulation point -> Definition. [**VERY IMPORTANT**]
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/004075a0-cbd6-44a1-bdd1-1ceff51fb816)
+
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/19AD83FF71
+* **k** is independent of **n**. So **k** is a **constant** with respect to **n**. So we can ignore **k**.
+* Option **C**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/070c0796-67a5-4211-8398-b993c436f53a)
+
+* Radix sort time complexity finding. [**VERY IMPORTANT**]
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66ec2f06-f58b-4779-9722-296511cef89f)
 
-* Doubt.
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/83EF6EA50A
+* Solved by **sir** earlier.
+* Option **C**.
+
 
 * **COMPLETED**.
+
+# PYQS
+
+## 2022
+
 
 
 
