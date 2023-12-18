@@ -2187,10 +2187,261 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/706d7d8b-347c-48ab-886b-ababd4f72e86)
 
+* Question. [**VERY IMPORTANT**]
+* Asking seeing this type of question, We should think which **algo we can apply**. Which **algo can manage this**.
+* It is an **unsorted array**.
+* Question is talking about **worst case**.
+* **Insertion sort** is meant for **best case**.
+* In the **sorted array** all of the elements should come.
+* After sorting is over all of the **min elements** will come.
+* **First min** should be at the **first place** but as it is an **unsorted** array, the **first min** is guranteed to be in **'k' places**. It is because **every element** is **k positions** away from its **actual position/place maximum in the sorted array**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9642cc7b-0d5a-4ac2-974d-4a4231d1c4fe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/959b50a3-b76e-4e96-8054-0fc2f7d06d79)
+
+* To come to the **first place or first min place**, only **k** elements are fighting. [**IMPORTANT**]
+* If the **condition** is not there then for the **first place or first min place**, **n** elements are fighting. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e8ab279-a66f-4e4b-b6ca-5fc50c01f26b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b3f86f10-9c5b-4db5-b52a-39eb90b12558)
+
+* Using **build heap** with the **k** elements build a **min heap**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/429ec4eb-7273-404f-a082-522dbb1848de)
+
+* Constructing **min-heap** for **k** elements and took **k** time.
+* We deleted one element from **min-heap** and we got the **1st min element** and it took **log k** time.
+* After **k + log k** time we got **1st minimum**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7928465d-03ec-4d0b-a745-2a9874bd6ce6)
+
+* For the **1st min**, it was from **1 to kth position**.
+* For the **2nd min**, it is from **2 to (k + 1)th position**.
+* In the **min-heap** we have **k - 1** elements as we found the **1st min**.
+* So we have to **insert (k+1)th element** in the **min heap** to find the **2nd min**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9cca6897-4d1f-4dfb-af17-ebe6db33c8ca)
+
+* Insertion of (k+1)th element in **min-heap** will take **log k** time.
+* Now we have **k** elements in **min-heap**.
+* For **every element**, **k** elements will fight.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31c51f89-ba62-4a93-8e2c-8ebd0397cdfc)
+
+* For the **2nd min**, **inserton** of (k+1)th element in **min-heap** will take **log k** time and **deletion** of an element from **min heap** took **log k** time. So overall is **2 * log k** time.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57655721-ac6a-4cc3-855b-0f6378882478)
+
+* So for **every element** after the **1st min**, the time taken is **2 * log k**.
+* **1st min or 1st element** will take more time than the rest of the elements as it doesn't have **min heap**. Others are having **min-heap**, **1st element** has to **build min-heap**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f8a3071-9358-4242-aa66-84aa333c5803)
+
+* **1st time** is **k + log k** time and the rest are **2 * log k** and we have **(n - 1)** elements so it is **(n - 1) * (2 * log k)**.
+* Overall **time complexity** is **(k + log k) + (n - 1) * (2 * log k) -> k + n * log k -> O(n * log k)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/581d3843-36aa-40bd-b201-bf59ceafd52c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4501664a-f010-43f0-9cc0-cb2af30787e0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a7d28ff-9fe9-4184-bb3f-2d640e7df15d)
+
+* Option **D** [Answer] [**VERY IMPORTANT**]
+* Every time **k** elements are fighting.
+* **Worst case** is everytime we have to **swap**. It is like we are **comparing** and then we are **swapping** and then again **comparing** and then **swapping**.
+* **Worst case** is **1 comparison** and **no swaps**.
+* Actual **heap sort** is **in-place**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/442ac116-c630-47c5-8bf4-02939b2fbb48)
+
 * Question.
-* 27mins
+* f1(n) = (n ^ (0.999999)) * log n
+* **Neglect** the **constants**. [**IMPORTANT**]
+* We cannot remove the **0.99999** from **f1** as it is a **power of 'n'**. [**IMPORTANT**]
+* We cannot remove the **1.00001** from **f3** as there is a **power of 'n'** over it. [**IMPORTANT**]
+* We can remove the **10000000** from **f2** as it is only **multiplied to 'n'**. [**IMPORTANT**]
+* **f(3)** is **bigger** as it is **exponential**.
+* so **f(3)** is the **largest** and will go at the **end**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58065812-6ca3-455f-9e16-c3b66f1c5d02)
+
+* The **max** value of **f1** will be **n * log n** only.
+* **n log n** is **smaller** than **n ^ 2**. So **n ^ 2** si the **2nd biggest**.
+* Between **n * log n and n**, we have to use **common sense**. We have to convert **n** inot **(n ^ 0.9) * (n * 0.1)**. We know that **n * log n** was **(n * 0.9) * log n** and this will make the **comparison easier**. We will **cancel** the **common part** which is **(n * 0.9)**, so we are left with **log n** and **n ^ 0.1**. We know that **n** is bigger than **log n**, so **f2** is the **3rd largest**.
+* **f1** is the **smallest**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2cf2457c-6cc2-446e-8e72-8c014bfcccf1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8854dc4e-bb93-4584-a2cb-b17ac57d2a80)
+
+* The main purpose of the problem is **f1 and f2** comparison only. [**VERY IMPORTANT**]
+* Option **D**. [Answer] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76d4549f-1f0b-45c8-a937-306c9ae3593e)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a21c1aa2-991e-49a2-b6b1-cafe82e60308)
+
+* Between **f2 and f3**, we can write **f2** as **n ^ 1.5 -> n * sqrt(n)** and **f3** is **n * log n**. So **n** is **common** and we are left with **sqrt(n) and log n**. So **sqrt(n)** is bigger than **log n**.
+* so **f2** is **bigger**.
+* Between **f1 and f4** there is **nothing common** and they are **big functions** also. Now we can apply **log** on both **f1 and f4**. After applying **log** on both the sides we got **n and (log n) ^ 2**. Between **n and (log n) ^ 2**, we know that **n** is **bigger** than **(log n) ^ 2**. If we have still **doubt** and nothing is **common still**, so apply **log** again. After applying **log again** we got **log n and (2 * log(log n))**, now it is clear that **log n** is **bigger** than **(2 * log(log n))**
+* So **f1** is **bigger**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/503c9273-c01e-45f0-a5bb-47594282de82)
+
+* We have to be smart where to apply log and where not to apply log. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9043d9c1-258e-46ac-867f-831927e23579)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b3bb24bf-68ec-4bb2-b52a-24ade96ff436)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bda2e84c-192d-4120-acaf-f20ec0d8e705)
+
+* Option **A**. [Answer]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/13563390-0f39-49c4-9491-678e04bbfed1)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09e1cecf-ad78-4810-bd2f-d5abbb165e7c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b10eef0b-4998-41f5-b57c-948eb31ad2ff)
+
+* T(1) = 1 is **given**.
+* We solved for **T(2)**. We got **2 * sqrt(2)**.
+* We are checking the **options** for **n = 2** where we are getting **2 * sqrt(2)**.
+* We substituded in the **options** because the options are given **mathematically** and not **asymptotically**. As the **options** are given **mathematically** so we can **substitude**. [**VERY IMPORTANT**]
+* In option **A** we got **2 * sqrt(2)**.
+* Option **A** [Answer] [**VERY IMPORTANT**]
+* **Asymptotically**, options **A, B and C** are **same**.
+* If **options** are given **asymptotically** then we can't **substitude**, we have to go with **procedure**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4dca7c07-f912-408e-b76e-88714aa89481)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2efa1ee-df04-4d19-ab20-aaa2cd7a8f44)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e9c8fd6-70fa-4307-8257-7e7370634657)
+
+* **1st and 2nd level**, non-recursive terms are **same**. Everytime **same** thing will come.
+* It is not a series.
+* We are **dividing by 2** so we will get **log n** levels.
+* It is not a series that why we could stop.
+* **Series** not stop like **above**. We have to solve the **whole series**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41d9dde5-a378-4660-ac25-f311933dd615)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7cb0e9f-8db9-4625-b541-578b56ec5f9c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/344e4d93-6fbf-42b8-9cb8-4d8972736fad)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8fc1d359-bec6-45b6-9de6-e5f61eb20dcb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/40b0bf49-b053-4b2f-baf3-a518d0f291e0)
+
+* Answer [Option **A**]
+* **Procedure** if the options were given **asymptotically**. [Substitution Method]
+* We will go for **Substitution Method** when **asymptotically** options are given.  [**IMPORTANT**]
+* We will go for **Substituting values** when **mathematically** options are given.  [**IMPORTANT**]
+* Look at the **option** when tough **recurrence relations** are given.
+  
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8769522f-db8a-44b6-a508-e073084b8d1f)
+
+* Question.
+* We have **9 vertices** and **12 edges**.
+* As we have **9 vertices** so we have to take **8 edges**.
+* All of the **7 edges** with edge weight of **0.1** we have taken.
+* We have included all of the **7 edges** with edge weight of **0.1** so we have **only one MST**.
+* All of the **0.1** are coming and there is **no cycle**.
+* Till now we have **only one MST**.
+* For the **8th edges**, all of the **0.9 edge weights** are fighting.
+* Out of the **4** edge weights with **0.9**, we can take **3** of them. One is not possible as it will create **cycle**.
+* So we have **3 possibilities**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d98b0bae-ca0a-485c-be19-240ec8b3df4b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5f17936c-24d8-4c0f-a49e-9d13f23ea79f)
+
+* Answer -> 3 [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e2d4dd0-d1d3-4c40-9428-d175ea701531)
+
+* Question. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ea04ec5-86bf-4152-ad4c-bcf92c5275bc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19ab63f5-35fe-4165-a46b-d80ffcae7b26)
+
+* We cannot add one more edge also.
+* Only two kinds of edges are possible, **tree(T) and back(B)**. **Cross edges** are not there.
+* When we want to **check** take the **complete graph** as it has all of the **edges**.
+* Point **I** [Correct]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c5a62ce0-8250-4c3c-a244-7234b5008f7a)
+
+* In the graph between **u and v** there is an **edge**.
+* Depth -> level.
+* |i - j| = 1 -> Need not be. Can be **zero(0)** also from the above example. **Zero(0)** possible. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa7ff1e8-d1a9-4b08-ba2e-a9bca10d3dcf)
+
+* In the graph between **u and v** there is an **edge**.
+* Question saying it is **always '1'**. Need not be, **zero(0)** is also possible. [**IMPORTANT**]
+* Point **II** [Wrong]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/53628090-31bb-4481-9c55-66f1605845ef)
+
+* In point **II**, instead of **|i - j| = 1** it was written that **|i - j| <= 1** then point **II** would have been **correct**.
+* As **mod operator** is there so **negative** is **not possible**.
+* Possibilities are **0 or 1**. Negatives are not there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c292a5b1-8da3-4c9c-b1d4-44576872b98c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d40bd57-5e90-44fe-879c-0def8864db91)
+
+* Option **A** [Answer] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a91ef212-70e9-4a8f-94b7-e521af73df17)
+
+* Question
+* **Inversion** -> **Indexes** are **smaller** but the **values** are **greater**. [**IMPORTANT**]
+* Out of **n** elements we are selecting two(2) which is **nC2**.
+* We can select two elements in **nC2** ways.
+* There are **nC2** pairs.
+* If we take **any pair** then that pair maybe an **inversion** or may not be an **inversion**.
+* If we take **any pair** then there are **2 possibilities**. The pair maybe an **inversion** or may not be an **inversion**. There are only 2 choices.
+* We want **expected no. of inversions**.
+* Probability that a pair become an **inversion** is **1/2**.
+* Probability that a pair did not become an **inversion** is again **1/2** as we have only 2 choices.
+* **nC2** -> Possibilities [nC2 -> (n * (n - 1))/2]
+* **1/2** -> Probability [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8eaaee8f-88d9-42a6-a719-c9da44d44354)
+
+* If it was to find **Expected no. of non-inversion** -> **Same answer** -> nC2 * 1/2 -> (n * (n - 1))/2. [**IMPORTANT**]
+ 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e69b5dce-7092-44e2-9cdc-bd80ffbaa654)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4bb34da1-da94-4d21-a52e-e12d97f8584f)
+
+* Question.
+* Comparison based sorting algos -> Bubble sort, selection sort, insertion sort, merge sort, quick sort, heap sort.
+* Non-Comparison based sorting algos -> Counting sort, radix sort, bucket sort.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f65df1ac-cd02-4bb4-899f-89dd7e1b79ea)
+
+* We have to find out the **worst case** for the **Comparison based sorting algos**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4179cbbf-e79d-4426-bcac-4a7c67a99e77)
+
+* Out of all the **worst case** for the **Comparison based sorting algos** the **best one** is **n * log n**.
+* Tighest lower bound -> **best one** -> **n * log n** -> Omega(n * log n). [Omega -> left side is more or equal, lower bound] [**IMPORTANT**]
+* Lower Bound -> Minimum.
+* Minimum of all of the **worst cases** of **Comparison based sorting algos**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2120d663-cbca-431b-b60b-236bfff643c9)
+
+* For **Comparison based sorting algos** the **worst case time complexity** cannot be **less than**, **n * log n**. There is **no chance**. [**IMPORTANT**]
+* **n * log n** is the **minimum** that is possible in **worst cases**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7897b770-ff3a-4470-8d11-d10a3ab2145f)
+
+* Option **C** [Answer] [**VERY IMPORTANT**]
+* If it is **asked** that for all of **Comparison based sorting algos** find the **best case** and among them find the **best one** then it is **n**. [Bubble Sort] [**IMPORTANT**]
+* If it is **asked** that for all of **Comparison based sorting algos** find the **best case** and among them find the **worst one** then it is **n ^ 2**. [Selection sort is always **n ^ 2**] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b3f38851-5c62-4601-b014-8fe961f0132c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36965b4b-1ee5-445e-a647-086d6ec64cd7)
 
 
+## challenging-problems-x(10)
 
 
 
