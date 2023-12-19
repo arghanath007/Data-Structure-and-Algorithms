@@ -16,3 +16,25 @@
 * 22 and 23 PYQs done.
 
 # Algorithms
+
+* 1-revision Done.
+* Give the **test series** tests. [Not Done]
+* Do the rest of the **PYQs**.
+* Algorithms Completed.
+* RIC Done.
+* 22 and 23 PYQs done.
+
+# DBMS
+
+
+
+
+
+
+
+
+
+
+
+
+# EM
