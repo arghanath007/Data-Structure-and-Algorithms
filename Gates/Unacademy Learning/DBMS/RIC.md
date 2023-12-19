@@ -255,10 +255,21 @@
 
 * Link -> https://www.youtube.com/watch?v=8gOwfWoe_y4&list=PLQWaMUgfBFZfrrhCxmGixhb8KBddocPsa&index=2
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e43c2381-6d8e-4a05-84fa-d71724ef4da6)
 
+* Question.
+* Attrbutes -> Column Name.
+* Relation -> Table.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e360223-6fde-4f07-ac32-38a8ca75d568)
 
+* option **D**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba5bbd69-2b0e-4c87-b80c-6eff2e70f247)
+
+* Question
+* select Employee-name from EMP, DEPT where EMP.Dept-no = DEPT.Dept-no and Location = 'Calcutta';
+* select count(Employee-no) from EMP group by Dept-no where Salary > 100000. 
 
 
 
