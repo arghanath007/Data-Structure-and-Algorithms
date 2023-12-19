@@ -2987,6 +2987,81 @@
 
 ## 2022
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a373d08-941e-4673-b2f0-bf3301b67b17)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd704172-4662-4dbe-809d-144cb31be957)
+
+* Link -> https://gateoverflow.in/371935/gate-cse-2022-question-1
+* [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/289cee19-72dd-435f-aeda-7b52ff047b0a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac1795bc-5491-4dd2-9d80-2a2612e69a10)
+
+* Link -> https://gateoverflow.in/371930/gate-cse-2022-question-6
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27a76d0b-f2d5-44c3-89e8-59cc32295608)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b0d98d0-7aee-4d5f-babe-4b8ac08c857d)
+
+* Link -> https://gateoverflow.in/371925/gate-cse-2022-question-11
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c042842-edfb-4b08-a975-8aabdff53c06)
+
+* Link -> https://gateoverflow.in/371897/gate-cse-2022-question-39
+* All edge weights are **distinct** -> Exactly one MST possible for the graph. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be3bee55-942b-495f-9e09-ca88ff668e66)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c4d26a06-021d-4811-9131-5821300a8ceb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/286dbe25-dbc0-4b5f-9c08-e969bc0616c2)
+
+* Cut property.
+* Solution.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e27b024-b920-47be-a4a4-0e9cd5f94677)
+
+* Link -> https://gateoverflow.in/371888/gate-cse-2022-question-48
+* Doubt.
+* Explaination in **link**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/979d638d-fe37-40d9-8309-80890e85a1b8)
+
+* Link -> https://gateoverflow.in/399302/gate-cse-2023-question-10
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16760f36-cd00-40ac-90ce-6fdadb6f58b1)
+
+* Solution
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/762e054e-ddf0-4f84-bd2c-b5d81349767e)
+
+* Question.
+* Link -> https://gateoverflow.in/399292/gate-cse-2023-question-19
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f21f7129-4675-4e05-bbab-db5ebfd8ab3e)
+
+* Explaination.
+* My Solution -> Option **A and C**.
+* Solution -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/1F69C082FE
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0307e97b-0594-4a1e-a4c4-61a02c373b1a)
+
+* Link -> https://gateoverflow.in/399265/gate-cse-2023-question-46
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c7895ae-5465-4838-9515-5c632c21b33b)
+
+* Solution
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/84437638-5c65-4e4f-9fb5-ce882a2c920f)
+
+* Question
+* Link -> https://gateoverflow.in/399267/gate-cse-2023-question-44
+
+![image](https://gateoverflow.in/?qa=blob&qa_blobid=18223187302522103691)
+![image](https://gateoverflow.in/?qa=blob&qa_blobid=8329604592691147487)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9f0a6ad-2f79-4ed4-afad-d047af8cac99)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/61ea18e5-81e1-4d9c-94db-c7c74c315fa0)
+
+* Solution.
+* **Small o** means that the **right side** is **just greater than the left side**. [**IMPORTANT**]
+* **Big O** means that the **right side** is **greater than and equal to the left side**.
+* Option **A and D**.
 
 
 
