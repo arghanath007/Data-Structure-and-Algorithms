@@ -268,8 +268,177 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba5bbd69-2b0e-4c87-b80c-6eff2e70f247)
 
 * Question
-* select Employee-name from EMP, DEPT where EMP.Dept-no = DEPT.Dept-no and Location = 'Calcutta';
-* select count(Employee-no) from EMP group by Dept-no where Salary > 100000. 
+* select Employee-name from EMP, DEPT where EMP.Dept-no = DEPT.Dept-no and Location = 'Calcutta' and Salary > 50000;
+* select Dept-no, count(Employee-no) from EMP where Salary > 100000 group by Dept-no. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db12d8c5-f388-4c7f-ad70-dfc222df49eb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b2e03db5-b7b2-4677-94a1-8c339257178c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a69c4b66-8f36-43e9-b32e-bbefe0ab6f04)
+
+* Question.
+* If we do **cross product** between **r and s** then if **s** is **non-empty** then only we will get **records** otherwise **s** is **empty**.
+* If **s** is **empty** then the **cross product** between **r and s** will result in **no records**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/633591de-38e3-4052-a513-f851a9460186)
+
+* Option **A**. [**IMPORTANT**] 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58490c40-1db1-47c8-b26e-9210e6e7f366)
+
+* Question.
+* All of the comparison which are done with the **null value** are **false** whether the comparison is **=, >, <** etc.
+* We assumed that **x** is **null**.
+* A -> false, false
+* B -> false, false
+* C -> false, True
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/491fce7e-dbc3-48e1-8017-70e4e8c09a65)
+
+* Option **C**. [**IMPORTANT**] 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/56210db1-30a8-4c3a-951e-059a54dc6fa0)
+
+* Question.[**IMPORTANT**] 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/08d39fab-8090-4baf-92ac-10500e3f3b89)
+
+* Solution.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/08effab8-61ce-4864-8f76-c8e471779961)
+
+* Option **C**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8283994a-fe23-472f-ba62-424168492086)
+
+* Question.
+* select regno from examinee where (select avg(score) from exainee) [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa0cb93e-b373-4d7c-8db9-c988d521447e)
+
+* Solution.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7866b38d-66cd-47cc-aace-3100661c59e0)
+
+* Question.
+* select centr_code from appears, examinee where appears.regno = examinee.regno and score > 80. [Correct]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc9de6e0-8514-4a06-a2cb-e0542519636b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9890f359-d2ae-4739-9b83-a666ea809bca)
+
+* Solution
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/baf10324-5eeb-469b-852c-dcf22bacec5d)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a08f674-6465-4b5a-a060-5294eff3723a)
+
+* Option **C**. [**IMPORTANT**]
+
+## 2
+
+* Link -> https://www.youtube.com/watch?v=UTXZRcBaxaY&list=PLQWaMUgfBFZfrrhCxmGixhb8KBddocPsa&index=2&t=10s
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a471c3c7-18bd-4141-8268-a7f37626ec75)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7455f02-0337-4e0c-b6fa-0dda7357092e)
+
+* Question.
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/804086e1-8957-470e-ab91-8a47dc3f4644)
+
+* Question. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19a68033-ee4b-4866-b509-5246a64f48c4)
+
+* Taking an **example** to solve the **question**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/581042a1-0c70-4d65-a233-cb73eb35f7dd)
+
+* Query 3.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4fc50e81-c7fb-4dcd-96d2-f2b117fb932f)
+
+* If within **exists** there is a **sub-query** written and within the **sub-query** there is **co-relation**.
+* Co-related sub-query. 
+* For every row of the outer query, the inner row will run completely once.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b3d7bf2-7b77-4890-8e9c-71a1be22b41b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a914f0dd-41e5-477c-8045-6a39bcd374ba)
+
+* Option **B** [**VERY IMPORTANT**]
+* Link -> https://gateoverflow.in/1846/gate-cse-2006-question-68
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/995269e3-c598-47c2-b641-12be7603ce02)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e0a8189-8ab9-4eb9-8de5-1dc16ecda1c1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83429c91-a626-4bd4-a484-d858016dcffa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e48b57b-a9fe-4750-b2e9-5d68e42f0f76)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89701089-faa7-4504-8b36-3b9250d55c96)
+
+* Solution.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d7b63fab-9563-45cf-a2b8-e02d9fc2801f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8dd1be5c-ff08-43b5-8683-cdcd8416a8b8)
+
+* Question
+* There is no **co-relation** which means that the **inner query** will run first and then the **outer query** will run based on the **inner query** result/output.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/428ef8e2-4ff3-4e56-b7c8-5bf73c90ff3d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c6f184e7-b24a-46d0-afc0-1cebf883432c)
+
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d23b755-3698-45c8-bebd-eb9262e12c1f)
+
+* Question. [**IMPORTANT**]
+* Anyone ->
+* Any one -> 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/68f3d972-e93b-4b9a-885d-f0a90b90b2bd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/04f44303-9b24-4604-bf7b-a2fbe32474a6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a0ed542-5bce-450c-b20a-f8a992b9c4fc)
+
+* Example to show why option **A**.
+* Option **A**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c24d404c-3d2b-4124-b6c5-7eca9228594d)
+
+* Question. [**IMPORTANT**]
+* There is a **syntax error** in the above query.
+* If we have done **group by** on an **column** then that column should be in the **select comman**. This is expected by the **SQL engine** followed for the **GATE Exam**. [NOTE] [**VERY IMPORTANT**]
+* We have written **Group By school-id** but **school-id** is not there in the **select comman** we have **sch-name and count(*)** in the **select comman** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a6b9c2e-9715-493d-b5d0-c3b4dd150f10)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/148fdd95-d351-46b4-a82e-9c8601efcb05)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f9a61ec4-23f0-4949-9b83-c6afeb9d285c)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c40bda30-8b0d-4452-bbb6-957ce87be8ec)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bd3a792a-bfce-4e79-8ac2-acb60cb6c42a)
+
+* Option **C**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d49ebd19-af4a-4eb2-a1ad-65112ec5f3a6)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9db016dd-f8cd-438c-85c7-770bbbc899e6)
+
+* Option **C**.
+
+
+
+
+
+
+
 
 
 
