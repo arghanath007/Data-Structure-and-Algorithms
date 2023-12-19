@@ -247,9 +247,13 @@
 
 * Option **D**. [**IMPORTANT**]
 
+# PYQ
 
+* Playlist -> https://www.youtube.com/playlist?list=PLQWaMUgfBFZfrrhCxmGixhb8KBddocPsa
 
+## 1
 
+* Link -> https://www.youtube.com/watch?v=8gOwfWoe_y4&list=PLQWaMUgfBFZfrrhCxmGixhb8KBddocPsa&index=2
 
 
 
