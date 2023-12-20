@@ -682,12 +682,92 @@
 
 ## 5 (2015-2018)
 
+* Link -> https://www.youtube.com/watch?v=2S7J-0Klxi4&list=PLQWaMUgfBFZfrrhCxmGixhb8KBddocPsa&index=6
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/923a46fd-1e39-4ea8-9f18-909ba5c36b9a)
 
+* Question. [Trick Question] [**IMPORTANT**]
+* There are only **two student names** which are **Raj and Rohit** and as we are doing **Group By of student names** so we will have **only two groups** which are of **Raj and Rohit**. [Trick]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b0204a1-e6ab-4f04-bace-d78ff9e242b4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/acdf1fb6-740d-4bcc-8b1d-34846c9b6ee5)
 
+* Answer -> 2.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6c76bf5-5322-4b42-a3ab-008f1c999edd)
 
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/053769e0-5665-4456-a520-afb7c5060cca)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af899e04-8b1e-4a39-8337-89eb82f9c176)
+
+* Option **A**.
+
+## 6 (2016-2019)
+
+* Link -> https://www.youtube.com/watch?v=XaVVE_n-AWM&list=PLQWaMUgfBFZfrrhCxmGixhb8KBddocPsa&index=7
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/297b05ee-2c6f-4d4d-b0b4-53ad15e1bcfd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b3963f09-ab41-4f48-a85d-a43b2201a537)
+
+* Question.
+* **With** clause -> There is a **query** and solve the **query**. The **result** of the query is copied to the **temporay table** which is **total** here. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/494e78ed-18a2-45ec-8559-2170adc4021c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b177431-14cf-4df1-9712-2ddb1ab8122e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95cb5f09-f088-4f17-8e78-aeae6b598cdf)
+
+* Link -> https://gateoverflow.in/39604/gate-cse-2016-set-2-question-52
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f9697ffb-f905-464a-8c86-d9e5c0cb90f8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b74b8785-0ea0-453a-bda3-3494608472c9)
+
+* Answer -> 2  [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1d5cd52-f6ab-4c89-b0be-630cac25bb3f)
+
+* Question [**VERY IMPORTANT**]
+* **from** clause will run first, so we will run the **where** clause. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/453a5a17-230c-4463-af7f-23944049dcfe)
+
+* EC -> temporary table.
+* **DeptName and Num** are the column names of the temporary table which is **EC**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a2a6487-d3d3-43c8-9312-f25620213fcb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/318f0769-190f-43dc-abad-6c7d7094d7be)
+
+* Answer -> 2.6 [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/02cbb41f-948f-45c5-8976-0116cf703614)
+
+* Question.
+* Greater than Any -> (> Any) -> min(of all the values) -> 10
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a043587b-cc19-402c-908a-ff71f7cbbe8b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24e5cf14-e7ad-4f40-8d86-85fcdcb05b91)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/17b17402-3762-4f20-a52a-49543e456702)
+
+* 1st condition of the where clause didn't return any tuples.
+* 2nd condition of the where clause returned **7 tuples**.
+* Answer -> 7  [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/28265f4b-2f66-478d-af82-6985a959b35b)
+
+* Question
+* Full Outer Join -> It keeps the combination of **inner, left, right** outputs.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a5a695d-e443-4551-a6d6-5213a385a23e)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c3e05b9-3154-4b5f-a4a2-943ade1fbd53)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1ef3c45-42bd-41b2-82ce-caa40bbf49a3)
+
+* Answer -> 5 
 
 
 
