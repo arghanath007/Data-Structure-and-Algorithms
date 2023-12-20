@@ -770,6 +770,155 @@
 
 * Answer -> 5 
 
+## 7 (2020-2022)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7cf8be99-b1f5-4f45-a243-6feaa85b3b2f)
+
+* Question.
+* We are comparing the **inner query** output which is **225** individually with the **costs**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fed728ee-ba85-46fb-9a33-f37f098a220a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95a50ddd-5981-494e-9073-a4a41b6b7475)
+
+* Answer -> 4 ['1' S2 row and '3' S3 rows] [**IMPORTANT**] 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91eb3046-35c1-4290-b5f2-1db90bd13cb4)
+
+* Question.
+* There is **no co-relation**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/84c1253a-84fb-47f3-af15-083b8e9e3c12)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/47a42623-37cc-40b9-b350-61f6d2043fc9)
+
+* Question. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b77a5abe-3705-4029-9f57-913d8e110c2e)
+
+* Not Exist [**IMPORTANT**]
+* In **inner query** the meaning of **except** is **set difference**. [**IMPORTANT**]
+* This is a **co-relation**.
+* Set difference -> A - B -> From the first set remove the elements of the second set. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/45fe7cb2-a772-480b-853e-0b26d20d75a6)
+
+* S01 -> Empty -> not exist(Empty) -> True.
+* S02 -> Not Empty -> not exist(Not Empty) -> False.
+* S03 -> Not Empty -> not exist(Not Empty) -> False.
+* S04 -> Empty -> not exist(Empty) -> True.
+* S05 -> Not Empty -> not exist(Not Empty) -> False.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31940f13-fe72-494f-8d18-f7f7d035ee41)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b7cfbcc5-0675-43c6-95cf-1abbb35196ce)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85700fb6-1151-450a-a277-e4e6ac913600)
+
+* Answer -> 2 [**VERY IMPORTANT**]
+
+## 8 (2004 - 2023)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ba78477-2d96-4517-832e-854b1078214f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e0ccd79-67a3-49c8-9b87-3e31e790800a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36bac557-b50c-437c-ad98-7cb04135fbaf)
+
+* ER modelling [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/120e281c-9936-4cbd-8b55-a1c199d31844)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b2e01ff-7f70-491a-81cc-3a2398542aa5)
+
+* Option **B** [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/843fc037-266d-4ff3-850b-d59bdf577be6)
+
+* Question.
+* R1 -> 1 to many -> 2 tables -> 1 table for E1 and 1 table for E2 and R1 goes to E2 as **E2** is **many**.
+* R2 -> many to many -> 3 tables -> 1 table for E1 and 1 table for E2 and 1 table for R1.
+* So total of **3 table** we have which are **1 table for E1 and 1 table for E2 and 1 table for R1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ebb77b7-017d-4c18-b1e9-d3d340a1792d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f2ca755-6355-430e-85ab-3a083830bacc)
+
+* Option **B**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a1d6202-50a7-43c3-93a2-5f8fe6429cbf)
+
+* Question.
+* The relationship establishment.
+* Combination of both the **tables** are needed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a4b8df7c-985a-4a4d-8e7d-01eeb0c933c7)
+
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/207f7b8a-7e3b-4319-b797-d13500fc41e2)
+
+* Question.
+* N -> Double box -> Weak entity set -> There is **no key**. [**IMPORTANT**]
+* R2 -> Weak relationship set.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e7d1ba87-fa72-4932-90ea-77b13bc507bf)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63c8197d-67fc-4c38-a7c8-c7ac65e47a55)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/90f7e83d-e47e-430e-adda-224afec947a0)
+
+* Option **C**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/caaec89e-1c85-4d8a-8f68-66a044ae5ac6)
+
+* Question
+* E1 to E2 -> many to many relationship [m:n relationship]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a49804f7-3636-4814-91fc-2adf4b057a3e)
+
+* Answer -> 4 [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/914ac139-e7da-4010-b2f2-3bfdd6ef7171)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e03c07f-5c54-45ef-a98c-6be533d34cc4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/39a9d5a7-7780-4aa7-b17e-f1d319d626f7)
+
+* Option **C**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/738a5aca-b5ce-42b3-9490-4eb285f13400)
+
+* Question.
+* Cardinality -> No. of entities.
+* Atmost one -> **Zero(0)** is also possible. Minimum is **zero(0)**.
+* But we would **ignore** the **atmost one** case which is option **D** because we have **total participation** mentioned in the question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b85b10f-20bc-4cd5-af10-c7f3cb234c77)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/580827a0-0f0c-46a2-9e19-fa6d0d0a63cd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b6b1c502-5231-428b-afb8-93ddb88d6646)
+
+* Option **A**. [**IMPORTANT**]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
