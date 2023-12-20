@@ -335,9 +335,9 @@
 
 * Option **C**. [**IMPORTANT**]
 
-## 2
+## 2 (2006-2010)
 
-* Link -> https://www.youtube.com/watch?v=UTXZRcBaxaY&list=PLQWaMUgfBFZfrrhCxmGixhb8KBddocPsa&index=2&t=10s
+* Link -> https://www.youtube.com/watch?v=O4eHu5Ij9_0&list=PLQWaMUgfBFZfrrhCxmGixhb8KBddocPsa&index=5
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a471c3c7-18bd-4141-8268-a7f37626ec75)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7455f02-0337-4e0c-b6fa-0dda7357092e)
@@ -432,6 +432,228 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9db016dd-f8cd-438c-85c7-770bbbc899e6)
 
 * Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34eb7aaf-7ade-45a6-a62a-93238b6f6352)
+
+* Question.
+* Take an **example** and solve it accordingly.
+* **student** information in the **enrolled** table will be **repeated/not unique** and **course** information will be **repeated/not unique** that's why **student, course** combination is the **primary key** of **enrolled**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d062794f-50a7-4a24-9af8-845642fdbbdc)
+
+* enrolled table.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a7dfeee0-115b-4f32-9338-e28ed161f87b)
+
+* Paid table.
+* We have made the tables in accordance with the **primary keys** of those particular tables.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aefe5811-43c5-4dcc-8b17-1dd8799dc5ae)
+
+* Query 3 output.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4fc50e81-c7fb-4dcd-96d2-f2b117fb932f)
+
+* Query 4 -> Co-related sub-query.
+* If within **exists** there is a **sub-query** written and within the **sub-query** there is **co-relation**.
+* Co-related sub-query. 
+* For every row of the outer query, the inner row will run completely once.
+* Link -> https://gateoverflow.in/1846/gate-cse-2006-question-68
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/995269e3-c598-47c2-b641-12be7603ce02)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e0a8189-8ab9-4eb9-8de5-1dc16ecda1c1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83429c91-a626-4bd4-a484-d858016dcffa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e48b57b-a9fe-4750-b2e9-5d68e42f0f76)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89701089-faa7-4504-8b36-3b9250d55c96)
+
+* Solution.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/622a4b04-1f9b-4285-b22a-14bb78c9b6a4)
+
+* Option **B** [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d7b63fab-9563-45cf-a2b8-e02d9fc2801f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8dd1be5c-ff08-43b5-8683-cdcd8416a8b8)
+
+* Question
+* There is no **co-relation** which means that the **inner query** will run first and then the **outer query** will run based on the **inner query** result/output.
+* All of the above are **done earlier**. Check above in (2).
+
+## 3 (2004-2006)
+
+* Link -> https://www.youtube.com/watch?v=UTXZRcBaxaY&list=PLQWaMUgfBFZfrrhCxmGixhb8KBddocPsa&index=3
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/618715a0-a032-42c7-bb7b-b083340587e3)
+
+* Question.
+* We can see that **having** clause is being put after **group by** clause which means that on every group the **having** clause condition is placed.
+* From the **inner query** we are getting the **avg salary** of all the employees in the company and we are **comparing** with the **outer query** which is the **avg salary** of **Male(M)** employees of a **particular department**.
+* We want the **avg salary** of **Male(M)** employees of a **particular department** which are **more** than the **avg salary** of employees of the company, then we want the **names of those departments**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa1631a8-7d8b-4f1a-8356-14bce2a15dc9)
+
+* Option **D**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eda5cbe9-5248-4309-8ca3-3d54926b2059)
+
+* Question.
+* Cross or Cartesian  product.
+* r1 -> student -> 3 rows. [2 rows inserted in the student table]
+* r2 -> department -> 2 rows. [3 rows inserted in the department table]
+* c1 -> student -> 3 columns. [No. of columns in the table]
+* c2 -> department -> 2 columns.
+* rows -> r1 * r2 -> 3 * 2 -> 6
+* Columns -> c1 + c2 -> 3 + 2 -> 5 [No. of columns in each table]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f2e74e04-d306-456c-a820-e3378e4ffb97)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/42295235-a40e-4434-abdf-29e9b176094e)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/486a7d36-0f44-47c4-99b2-7ab64cadc1da)
+
+* Question.
+* NULL -> It means that we do not have any value in that place. **No value present**. [**VERY IMPORTANT**]
+* So **roll no '4'** doesn't have **any marks**. It is **not zero(0)**.
+* If we do **NULL + something** we will get **NULL** only.
+* If we replace **NULL** then only some other value can come. [**IMPORTANT**]
+* **avg()** is an **aggregrator** function so it will **ommit/ignore** the **NULL values**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db0ce39d-6b71-4e5c-87e1-ec064a2a8981)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9a860966-f216-4b1b-bce4-5858c7578c22)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/818500cf-76b9-4663-957e-b434b00af49e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ddf6a39-3753-4b43-a9bb-ae89e5e71ebe)
+
+* In **roll no '4'** there is **no value** so we cannot consider it and **divide by 4** to get the **avg**. That's why we are ** dividing by 3**.
+* **NULL** represents **no value present**. [**VERY IMPORTANT**]
+* Option **C**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e441b8ba-922a-4701-9e12-00cb47a2b43a)
+
+* Question.
+* If we want then we can set **foreign key(fk)** as **null**. So **query i** is **passed**. 
+* **Primary key(pk)** main constraint is **not NULL and unique**. We cannot make **primary key** as **null**. So **query ii** is **failed**.
+* Only **foreign key(fk)** can be **null** if we set it up like that. **Primary key(pk)** cannot be **null** ever.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91a6c3ff-9f49-4bab-9115-6c0a29df4a1e)
+
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8211cc1-2c96-456a-bd73-b9ec23aa9969)
+
+* Question.
+* Take an **example** easier to **solve**.
+* This is **co-relation**.
+* **count(*)** represents the **position/order** in-terms of the **price of the book**, how much expensive it is **compared** to the others.
+* If **count(*) = 1** means that it is the **2nd most expensive book**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/066ab372-3270-434f-aa29-4c4e3aca82e1)
+
+* These **5 books** are the highest/expensive priced books.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a964d4ec-f0a1-4b24-b500-5aff4d2e156f)
+
+* Option **D**. [0 to 4 i.e 5 most expensive books] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1abe3db6-7373-4c5e-9349-f461b0c76669)
+
+* Question.
+* It is a **co-related** query.
+* not unique -> It means it is present **more than once**. Minimum of atleast 2 times present. [**VERY IMPORTANT**]
+* Unique -> It means that it is present **only one**. Supplies only one item. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05c7e940-ccd7-4d9e-be86-7a5403f20d69)
+
+* Option **D**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce8ab8d0-97bc-46b2-987b-80b566be91b7)
+
+* Question.
+* We can't tell for sure that **statement 1 and 5** are **100%** correct they look **correct**.
+* Statement **4** is **100%** correct.
+* option **C** has **statement 4** in its **answer**.
+* option **C** [Answer] [**VERY IMPORTANT**]
+
+## 4 (2011 - 2014)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e72c00a9-5501-46ba-ad3f-69afb3788bf7)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fda7c246-b82b-4d85-8bb6-ee2f773ed177)
+
+* logic
+* X = 7
+* y = (2 ^ x) - 1 -> 128 - 1 -> 127
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b6284c75-d7d6-4fc7-8db2-c30c99718653)
+
+* option **A** [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f76ec1e0-981e-4a8e-bbd3-f5d255f109ce)
+
+* Question.
+* Natural Join -> Common column -> Bank_manager. [This is not cross product]
+* Ramest Sunderajan -> 2 Rows
+* Ramgopal -> 1 row
+* Suresh Sunderajan -> 2 rows
+* 2 + 1 + 2 -> 5 rows.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1dbdf47f-9cf2-46c0-ad87-1dbfbd23e78d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22c30192-7293-4c99-afcc-0bcb4dd19cc1)
+
+* Option **C**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e7bafcc-ff5c-42ff-8742-11dfcbd738a4)
+
+* Question.
+* **Having** clause is used after **group by** clause only. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a557344a-961f-497f-afa8-58a234cd3813)
+
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/566f9035-7cf2-4f0c-9ba1-fc83f6a68f35)
+
+* Question.
+* Inner query returns **nothing** as there is **no 'Arun'** name in **B** table.
+* **Age greater than All** will always be **True** for the **outer query**.
+* So all of the rows of table **A** will come.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4849daca-3658-4b73-9508-c09cf0a9145d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/551c8356-b651-4dac-b2c3-d1d55aa31330)
+
+* If inner query returns **nothing** then **greater than All** will **always be True** for **every record**. [**IMPORTANT**]
+* Option **B**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e930abaa-f37a-4a89-81fc-212efcc80b2b)
+
+* Question
+* Check Assetion -> Put constrains such that the **row** becomes a **primary key** or the row behaves like a **primary key**.
+* S1 -> False.
+* **a** is the **foreign key** of table **S** and it is referencing to table **R** which has **two columns(a and b)** as the combined **primary key**. This is **not possible**. [**IMPORTANT**]
+* Primary key of **R** table is **not a single value/column**. * Primary key of **R** table is the combination of two columns.
+* This is **not possible**.
+* It should have been that **two columns** from table **S** were the **foreign keys** which would be referencing to table **R** then that would have been possible. [YES] [**IMPORTANT**]
+* S2 -> False
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0cd72185-33f4-41de-a32d-d088328b9a3a)
+
+* If the **primary key** is of **two columns** then the **foreign key** also should have been of **two columns** as well. [**VERY IMPORTANT**]
+* Option **D**.
+
+
+
+
+
+
+
+
+
+
 
 
 
