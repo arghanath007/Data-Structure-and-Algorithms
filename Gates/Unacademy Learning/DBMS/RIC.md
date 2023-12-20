@@ -766,6 +766,7 @@
 * Question
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1ef3c45-42bd-41b2-82ce-caa40bbf49a3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27610d9d-4019-4866-b3e1-a4def2471cc3)
 
 * Answer -> 5 
 
