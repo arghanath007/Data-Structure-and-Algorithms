@@ -645,10 +645,42 @@
 * If the **primary key** is of **two columns** then the **foreign key** also should have been of **two columns** as well. [**VERY IMPORTANT**]
 * Option **D**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f7e3174-44d0-43ec-9fb1-65b9320e6a2d)
 
+* Question. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a14534b7-668a-407c-adcd-0144cded46e1)
 
+* Could be **equal** as well.
+* Option **B**. 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a714d2d-5438-4163-8193-29b14326f6ab)
+
+* Question.
+* Take **example table** and solve.
+* In **natural join** which is option **A**, we may get **more tuples** as compared to **in** clause given in the question. More results will come.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b029b960-877f-4cc1-9148-ab509c5fafc9)
+
+* Option **C**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b024f4a9-beef-4e57-a5bd-149e0605fa2e)
+
+* Question
+* It is a **co-related** query.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b993ffb-7df7-437e-ba87-de72ec7bef29)
+
+* Example taken to solve the question.
+* Not exists -> Whatever the **inner query** is giving as **output** that shouldn't **exist** then the **not exists** condition return **true**.
+* If an **employee** has customers who has ratings of **not Good** then that **employee is not selected**. [**IMPORTANT**]
+* The **employee** are **selected** who have customers and their ratings are **Good only**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aeaba33d-df85-45db-8d84-cc7d41170dce)
+
+* Option **D**. [**VERY IMPORTANT**]
+
+## 4
 
 
 
