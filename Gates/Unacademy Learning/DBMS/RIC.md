@@ -1255,17 +1255,64 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6e2d4e9b-5e33-40b7-addb-f0489af335ce)
 
 * Question
+* Solved below.
 
+## 12 (2014-2017)
 
+* Link -> https://www.youtube.com/watch?v=O6SrmI-FQpM&list=PLQWaMUgfBFZfrrhCxmGixhb8KBddocPsa&index=13
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d1f8062-4a01-4280-80cc-4b45992afd1c)
 
+* Question
+* Atomic Values -> Single valued attributes.
+* We have **4 candidate keys**.
+* For **2NF**, we have to check **partial depedency** and for that we have to see if any **non-prime attributes** are dependent on **(DA, DE, DF, DB)**.
+* We can see that the **non-prime** attributes are **C,G,H**.
+* We can see **non-prime attribute 'F'** is partially dependent on a part of a key(DF) which is **F**. So there is **partial dependency**.
+* So it is not in **2NF**.
+* We have to find all of the **candidate keys** so that we can find the **prime and non-prime** attributes**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/051f2ab1-936a-44dd-bdb6-37885a3dd4cf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1211bc01-d48f-489e-846b-97143e6ce9ea)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5f591ec7-d314-400c-808b-e8cf912e6d46)
 
+* Option **A**. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91b196f8-04c6-4e6a-b841-0e190f451b44)
 
+* Question.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f6b37e0-e117-4fe6-b802-a54b75654ce2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e47805ae-5a56-44f6-8613-031a03aaed26)
 
+* Option **B**. [MCQ]
+* Option **B and C**. [MSQ] [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/56e44f9e-3a54-4108-9b33-766afce4b2c6)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d7c44a33-d398-4b8d-96b9-4cea4f4a8508)
+
+* Answer -> 8.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf42ce53-30db-4ebe-8e22-7061dd1b3d92)
+
+* Question.
+* x -> Any value that is not 19.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2178046e-f133-4042-a530-be63ec89d467)
+
+* Answer -> 19.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/196107aa-b87f-4d31-b736-a55717a93b91)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41f908f8-8a25-4c0f-9745-d87e03a0d19d)
+
+* option **B**.
+* 29:52mins
 
 
 
