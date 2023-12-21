@@ -1312,19 +1312,149 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41f908f8-8a25-4c0f-9745-d87e03a0d19d)
 
 * option **B**.
-* 29:52mins
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76f83194-123c-402b-8443-cd34ad5f089d)
 
+* Question.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0f0cc55-5eb1-4b54-a15d-e0e971b6f42b)
 
+* Option **A**. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e973d74b-580a-476a-ad6c-7acfd3153a3a)
 
+* Question. 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c2f1bb2-e0ab-4695-9bc9-3fce0a1fb708)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0575d3e-778e-4084-ba92-406a6e0b3c4b)
 
+* Full Natural Outer Join -> It is not cartesian product. It is **natural join** only.
+* Option **C**. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8fe79127-12bc-41c2-9a13-587854af4ed4)
 
+* Question.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/11ec61c5-06d4-4ed9-a633-23fc0cc7b335)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19934892-df50-4005-9983-8d9c367f7fb1)
 
+* Trivial functional dependency -> Right hand side is a **subset** of the left hand side. [**IMPORTANT**]
+* Option **C**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/06f62438-a182-40fc-818c-a5388632cad6)
+
+* Question.
+* Whoever becomes the **super key** that has to have **XY** within it.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e86f4a01-d3d2-427a-9675-d4e324523d11)
+
+* Option **B**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7926f999-a3af-49ae-ab23-32fb373a6ec3)
+
+* Question.
+* Irreducible equivalent -> Cannot be further reduced.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fec180d0-e3e1-4dec-a583-a0f4a5b2bc3d)
+
+* Option **A**. [**IMPORTANT**]
+
+## 13 (2018-2023)
+
+* Link -> https://www.youtube.com/watch?v=3-L40MliI50&list=PLQWaMUgfBFZfrrhCxmGixhb8KBddocPsa&index=13
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/107845f9-dca7-460e-8e82-18757e16502f)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f23e14a2-c886-46fe-9d22-23b9e8fac56c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d4e2d34-4841-47ef-8243-703eccfb281a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6386ecac-c5a1-4395-90c6-85c582358b2e)
+
+* Option **B**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65f725e2-3ed4-4ed7-b873-193600d4fdb4)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e2ce0d9-58c9-4b37-b024-f0b7130c7ac2)
+
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/49c56d33-59be-475f-abef-eee4f3f61066)
+
+* Question.
+* If there is a dependency from **non-prime to non-prime** then it is not in **3NF**. 3NF is violeted. [Option **B**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/02afe0b0-fd97-43f4-9729-169d36722fe0)
+
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e554c35-edde-4b32-9e04-c41f06cee8bb)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9cc105f1-9ecf-4ac4-8ce5-d8d4a123c418)
+
+* We have a whole row now which means that we can **derive** all of the attributes of **R1**. It means that we can **derive** all of the attributes of **R**. So it is **lossless decomposition**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd5ccb97-138b-4682-ad84-8f45d079e24e)
+
+* For any particular row, we didn't get all of the attributes.
+* If in decomposition if we have **more than two tables** then the **above method** is very easy to use and very understandable.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/106fadb6-6458-4529-8f46-293d874fc020)
+
+* option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/00cc1911-cd32-4de6-bfd9-c52779251a5f)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/081e03f4-7312-4995-bedb-18723e5272d3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f8feb1ae-a245-4603-b40f-47efe22e455e)
+
+* **mgRId** is the **foreign key** which is referring to the **primary key(EmpId)** of the **same table**. 
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c442b02-12cd-4b43-808f-1c213936131a)
+
+* Question.
+* Just find the **closure** of the **LHS**. We will easily solve the **question**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a6c0f16c-8f9f-4282-8834-ef2c1fdbc2dd)
+
+* Options **A, C and D**. [MSQ]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e4dca7d-9205-4ce7-b254-f6cb94af7380)
+
+* Question.
+* If all attributes of a relation are **prime attributes** then the relation is in **3NF**. [True] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c624cf9e-a75b-4184-a202-729f32c7c5e5)
+
+* Option **A**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc8a03a6-ee1d-443b-bb2e-a517fb243ec7)
+
+* Question.
+* Find the **candidate/primary keys** and then find the **combinations** with the other attributes.
+* **A and B** are the **candidate/primary keys** and **C, D and E** are the **non-prime attributes**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/40c5bc76-e76d-419a-8483-fed3b768aef2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ddde5169-a095-4aa4-969a-deca456d4751)
+
+* Answer -> 2 ^ 3 -> 8. [C,D,E -> 3] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63b9bdc7-f23b-4f5f-ab4f-537b9bed7554)
+
+* Question
+* Degree/arity -> No. of attributes/columns. [**IMPORTANT**]
+* Cardinality -> No. of tuples/rows/records. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e2a8066b-194a-4884-8c4d-c08610a5e1db)
+
+* Option **A**.
 
 
 
