@@ -1180,7 +1180,102 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/73d29fc2-1a59-427f-ab39-c966e654a1ec)
 
 * Question.
-* Option **D**.
+* Between **R1 and R2** we have a common attribute **A**. Common attribute must be a **key** of one of the tables for **lossless**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef98ada4-41b3-4776-a62b-18b008729fdc)
+
+* Between **R12 and R3** we have a common attribute **B**. As **B** is key on one of the tables so it is **lossless**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb944332-742d-4210-a780-e59f3345cebc)
+
+* Option **A**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f72fd38-6c87-4792-b242-6a2c42021717)
+
+* Question
+* Prime attribute -> AB
+* **B** is a part of the prime attribute and it is deriving a **non-prime** attribute **G**.
+* So it is **partial dependency**.
+* It is not in **2NF**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/020dacad-3123-4f6a-a9f6-393cbc865289)
+
+* Option **D**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0623c200-643b-439d-aab6-1da11a9484c9)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63603a79-0e95-4382-a50b-45063ad6c52a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d210c415-eda8-4f97-897e-906f1ffbf3b6)
+
+* It means that in all of the FDs, the LHS will be the **key**. This is the property of **BCNF**.
+* Option **A**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/14fed8c8-8e34-43e4-bfaf-b4e8a81a06c2)
+
+* Question
+* Tuples -> Different rows
+* Natural Join -> On the common column we have to put the **equal to** operator.
+* Common attribute/column is **B**.
+* **B** is a **key** of one of the tables which is the **R** table.
+* So from the **R** table we will get **200 unique values of 'B'**.
+* In the **S** table we don't know if **B** will be a **key** or not.
+* So **max** tuples we will get is **100**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b8cffcda-5139-4e54-b6db-0b8e9a48d9ba)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e60b5cf8-0ebd-4baf-a156-2c26e6bb1117)
+
+* Option **A**. [**IMPORTANT**]
+* If **min** would have been asked then we would have said **zero(0)**. We would have said that there is **no common value** between the **B columns** of **R and S** table. So **no tuples** would have come in the **natural join** of **R and S** table. [**IMPORTANT**]
+* If the **key** of **R** table was not given then we would have said **2000** tuples. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8cfdd583-e3fd-4535-bc1f-9356444cdf9e)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f4b17ba-bcd4-4c6f-95db-66f6b7c05049)
+
+* Using **BankAccount_Num** we cannot uniquely identify students.
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/661edd01-e6ea-4641-962c-97d17d86ca33)
+
+* Question
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1714e4f9-9be5-4253-812e-4ec3fff15a48)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b1b18dbc-9aaa-43f0-9dc1-436a5bb8d9c1)
+
+* Option **B**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6e2d4e9b-5e33-40b7-addb-f0489af335ce)
+
+* Question
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
