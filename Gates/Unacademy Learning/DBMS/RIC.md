@@ -903,21 +903,284 @@
 
 * Option **A**. [**IMPORTANT**]
 
+## 9 (1990-2002)
 
+* Link -> https://www.youtube.com/watch?v=XuUh2rv1cTQ&list=PLQWaMUgfBFZfrrhCxmGixhb8KBddocPsa&index=10
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d359ccd1-10cc-48d0-ba53-c1bfc3e25cf5)
 
+* Question.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/879e01c0-5854-49f9-8c8b-8a56eed4ff04)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb92007c-8dc6-4f18-a4fb-044db0452922)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1c77152-cc74-489b-9b4e-c40cbfbe7ab1)
 
+* Option **A, B and D**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/02b71419-8804-4090-858c-21923cca3344)
 
+* Question
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2caa5bfe-2e3b-40a2-8012-e859f999bb48)
 
+* If the **decomposition** is **FD preserving** and **lossless** as well then it is **decomposed** to **3NF**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e45fa23f-5f8a-46d4-abce-9c5d36e75ef2)
 
+* Option **D**. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4784866f-fd7a-4b52-a59d-71b9a971dffd)
 
+* Question.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/82f752ca-6280-4368-b88f-231854477b29)
 
+* We should check if **EC** can be a **candidate key**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8bec15e7-34ee-4bfd-8ed8-9f579b7fd38b)
+
+* We checked which **attributes** are not present on the **right hand side**. We have to involve those **attributes** in the key itself because we cannot derive them from **other attributes**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e2c22377-4eee-47c9-aab4-bc34fc37ada0)
+
+* Option **B**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/689575f3-dfb3-4833-b844-1945da6c073a)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1baac8b0-6013-402a-8b40-b069c21a4efd)
+
+* We didn't get more than **1 value** as well.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57679420-be56-4495-9903-dc24d1a6e711)
+
+* Multiples values of **Y** will come.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9977295f-bdff-40d4-9bd8-ddf8aef4f9f8)
+
+* We have to see that we are getting **unique values** for the **same combination** of numbers. [**IMPORTANT**]
+* option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b2b36d70-aca8-4afe-acb5-bc64e70f405d)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/faa1be77-a206-4fb7-9dc2-9bd19814c29d)
+
+* There is no **common attribute** in R1, R2 which is (R1 intersection R2 equals to phi) hence the decomposition is **lossy** decomposition. [**IMPORTANT**] 
+* Option **C** [**VERY IMPORTANT**] 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1dcd5c7b-aa39-42d5-9cc7-7be7a2ee26ad)
+
+* Question
+* There is only one FD in option **D**. Prime attribute is **A**, non-prime attributes are **BCD**. Prime attribute is **single** which means it is **not a composite key** then there will be **no partial dependency**, so it is in **2NF**. For **3NF**, we need **transitive dependency** but there is only one FD, so it is in **3NF**. The key is on the **left hand side** of the FDs so it is in **BCNF**. It is alone in **BCNF** so no decomposition is possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0081baf-68d3-4fef-a100-68fff847ad14)
+
+* In option **C**, we will get the **over-lapping** key concept. On the right hand side, we are getting the **prime attribute(A)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ddeaa8b4-3ce3-4dc5-a62f-7e4fbad10067)
+
+* Because of the **above reason**, option **C** is **not dependency preserving and not lossless join**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2d7a978d-a422-46fc-89ff-7fbeee72d81e)
+
+* Option **C**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/244317e5-214b-4852-8a08-82ca702e5d79)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c5879a63-c835-41a5-a1df-930717e426d4)
+
+* Option **A**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/878b680e-2ed5-4b74-acb2-ad529253d575)
+
+* Question.
+* It is an **MCQ** question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b70d13c1-bcc4-416d-98c7-2786d46851ba)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24bde10b-a17b-447f-8e3b-50d963d37162)
+
+* Option **C** [MCQ] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33682f50-e760-42c3-a02a-8e3c21f6dfcf)
+
+* Option **B, C**. [MSQ]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9c228417-811f-45f7-bb75-274475e353b0)
+
+* Question.
+* One is in **BCNF** which means it is already in **3NF**, so we will check who satisfies **BCNF** definition.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41d1c5d7-750a-4079-9814-862268500a69)
+
+* Option **A and B** will not 100% give us the **gurantee** which one is **BCNF** and which is **3NF**.
+* Sometimes **BCNF** give **dependency preservation and lossless presevation** as the **answer** and sometimes it **doesn't**. We will not be **100% sure/guranteed**.
+* Option **C**. [**IMPORTANT**]
+
+## 10 (2004-2006)
+
+* Link -> https://www.youtube.com/watch?v=CJB1GqEQbcE&list=PLQWaMUgfBFZfrrhCxmGixhb8KBddocPsa&index=11
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ac4dec3-968f-40cc-a7b9-e9b262903f1c)
+
+* Question.
+* **4NF** is now not in **syllabus**.
+* We have **two candidate keys**.
+* **Prime to prime** there is **no partial dependency**.
+* There is **no partial dependency** so it is in **2NF**.
+* There is **no transitive dependency** so it is in **3NF**.
+* Definition of **BCNF** is that on the **LHS** side we should have **prime attributes** only and nothing else.
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/666cad0f-0f6d-4be9-9dbd-610732e4ac10)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1250e3e4-ff56-4170-9ada-0f929273e8fb)
+
+* Option **B** [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a9d3a1f8-0f42-4163-9b25-2573877587b7)
+
+* Question.
+* Assumption that **empcode** is the **key**.
+* In terms of **FD**, we can derive anything from the **key**.
+* From **empcode**, we can derive every other thing.
+* There is no problem of **partial dependency**. So it is in **2NF** at minimum.
+* From **empcode** we can generate **pincode**, **YES**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a62528c3-a5eb-41af-a7d1-3f97a2a0a6b8)
+
+* Because of **transitive depedency** the possibility of **3NF** is **gone/removed/violated**.
+* It will stay in **2NF** only and cannot go to **3NF**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dfb4ffff-3059-4ef7-96f3-1ad98a55d47a)
+
+* It is given **empcode** as **unique** but it is not necessary that we would consider **empcode** as the **key**. We have also assumed that **empcode** is **not NULL** also.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/08169354-152c-4275-987e-f586f0131252)
+
+* It is a bit ambigious as it is an **old question**. Questions are explaine properly now.
+* Option **B**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a6c54f0e-5a50-4c6f-87a3-a3c0de4946c7)
+
+* Question.
+* Solve it using **closure properties**.
+* Find the **closure** of the **LHS** and check it with the **RHS**, if they are what we want.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc6fe18e-6a9f-405e-b560-c8b68054c1e5)
+
+* Option **B**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41eb443a-a022-490b-96b1-4a31e8dea170)
+
+* Question.
+* In option **D**, if **three attributes** come then we cannot take **gurantee** that where the keys will be. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a03ef6ed-92a6-4060-a3ad-94929c3271fe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9f697404-d221-4904-86c9-a50f1b7ab444)
+
+* Till **3NF** there will never be **lossy decomposition**. Never. **lossless and dependency preserving** will come only.  [**IMPORTANT**]
+* Option **C**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5577f71-1d5c-41a7-afaf-ceb493853166)
+
+* Question.
+* To find the **candidate keys** we have to play a **trick** and find out which **attributes** are not there on the **RHS**. **E and H** are not there on **RHS**. [**IMPORTANT**]
+* Option **A and B** are elimiated instantly because the keys do not have **E and H** and we need to have **E and H** that's why.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e375390f-6acf-4a2a-b28b-c2c5034284b1)
+
+* We can use **another trick** here which is we got **AEH** as one of the **keys**, we could try to find if we can get **A, E, H or a combination of the three attributes** from the **other attributes** then those attributes can be **keys** as well. [**IMPORTANT**]
+* **E and H** cannot be derived from **other attributes** which we say **above**.
+* We can see that **D -> A**, so **DEH** should also be a **key**. Let's find it.
+* **AEH** is both in option **C and D**.
+* **DEH** is only in option **D**.
+* No need to **check any more**.
+* We can see that **BC -> D** ad **E -> C** and **E** is already there in the **key** so replace **D** with **B** and we get **BEH** which should also be a **key**. Let's find it.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5177f2e5-d2ef-480d-b43f-8adb2ee6c063)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a64ee40-6a72-4d05-962e-c3164dc41b62)
+
+* Option **D**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a9e9dd37-cba2-496c-9dba-ac8d52e78703)
+
+* Question.
+* Candidate key -> F1F2
+* A part of the key which is **F1** is deriving a **non-prime** attribute which is **F3**.
+* A part of the key which is **F2** is also deriving a **non-prime** attribute which is **F4**.
+* So it is not in **2NF**. [Because of partial dependency]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57dd9ba0-cebd-4f1d-9458-dff64857303d)
+
+* Option **A**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80f01401-670b-4bde-bba5-70f8493eaefe)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/01e31024-0b57-4a6a-9743-14ec6567867c)
+
+* Common attribute is **A**.
+* **r1 * r2** result is not the **same** as the output of **R**. They are not the **same**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a33326c-bb51-4d60-8e53-265a9caa4730)
+
+* option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fbe45392-c94d-469a-83bb-112f7befedd5)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b4a0092e-af26-48a7-baa2-1a45e5970405)
+
+* Option **C** [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e09601d-c350-4015-b36b-e3975185904f)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/caae3c64-7e12-40e8-97c5-831bfb2deefa)
+
+* option **C** is **super key**.
+* Option **B**.
+
+## 11 (2007-2013)
+
+* Link -> https://www.youtube.com/watch?v=O2bdXFCbl28&list=PLQWaMUgfBFZfrrhCxmGixhb8KBddocPsa&index=11
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b266d1c-3bab-4b3d-ba94-78694bbba9f9)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5c44dee4-83d9-40d0-91a8-96abdd41c21e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/87604bcd-5dab-4835-a6a9-d71007830a36)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/67be5b10-2297-4e25-b424-b0e1e12e2cde)
+
+* Question
+* No partial depedency so **2NF**.
+* As there is only one **FD** in **Collection** so it is in **3NF**.
+* The key is on the **LHS** which it is so it is in **BCNF**.
+* In **Book** we have **two keys** which are **combination of Author-title** and **Catalog-no**.
+* No partial depedency so **2NF**.
+* **Price** column is **transitively** dependent on the **prime keys**.
+* **Price** is a **non-prime** attribute.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b40e212f-2695-4024-a2f8-43b881e66ade)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e910fe7a-6c59-4a1b-b1a9-88a22473e802)
+
+* Option **C**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/73d29fc2-1a59-427f-ab39-c966e654a1ec)
+
+* Question.
+* Option **D**.
 
 
 
