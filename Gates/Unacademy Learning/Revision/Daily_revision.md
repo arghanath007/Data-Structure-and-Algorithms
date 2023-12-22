@@ -36,6 +36,7 @@
 
 # Data Warehousing
 
+* started the course on **22nd Dec 2023**.
 
 
 
