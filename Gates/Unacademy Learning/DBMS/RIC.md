@@ -1456,10 +1456,105 @@
 
 * Option **A**.
 
+# PYQ
 
+## 2021
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e902a7ae-530f-4e34-b3a2-ab1b0c507422)
 
+* Link -> https://gateoverflow.in/357439/gate-cse-2021-set-1-question-13 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d482da41-dc44-46df-8b87-28ced379fbbd)
+
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5aa2476-b034-494a-8e68-5970ab664b49)
+
+* Link -> https://gateoverflow.in/357428/gate-cse-2021-set-1-question-23
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/21df41bb-2fd3-48f5-9820-800b718c4290)
+
+* Answer -> 205 OR 820. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b1d8458c-c509-4a81-96d8-61cf2d07450f)
+
+* Link -> https://gateoverflow.in/357424/gate-cse-2021-set-1-question-27
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/342ed9e6-2431-47e5-ae71-f5b4b1d9a7d8)
+
+* Option **C**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7e627ff-a3c7-4a05-89e8-17ee109e245e)
+
+* Link -> https://gateoverflow.in/357419/gate-cse-2021-set-1-question-32
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8c5e3eda-6e2f-4634-a6ce-7d0d81b9c122)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05f1214f-1e95-44b8-9020-a459e1492c77)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b40eb8de-4a3b-4b2b-beb6-2dbcbdc3a683)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/764dca3d-8e4f-4f3c-9cb2-3ea5dc881b77)
+
+* Option **B** [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a7c64489-5e69-4498-9374-f8a9f524a6e8)
+
+* Question.
+* Link -> https://gateoverflow.in/357418/gate-cse-2021-set-1-question-33
+* Link -> https://www.youtube.com/watch?v=3-L40MliI50&list=PLQWaMUgfBFZfrrhCxmGixhb8KBddocPsa&index=14 [40mins]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b14aff4-d876-4a02-abfd-d8292ce52b6c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58e7fdea-7efd-4fe0-9059-ed9d335c5b40)
+
+* We are just putting the attributes which are given to us from **R1 to R4**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a7d85724-8145-430f-9865-14e250b3f3fb)
+
+* Now we will look at the **FDs**.
+* Among the four of them(R1 to R4) we have to divide the **FDs**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41f72d8c-fcc6-4e58-913e-5b3d240b49ae)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/872cf215-545f-4c87-98e2-16b7a5188440)
+
+* For, **P -> X**, whenever there is **P** in a row, we are putting **Circle** for **X**.
+* For, **Y -> ZW**, whenever there is **Y** in a row, we are putting **Circle** for **Z and W**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b33a372-237a-4a0e-88c7-2a8668dca72d)
+
+* For, **Q -> Y**, whenever there is **Q** in a row, we are putting **Circle** for **Y**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec63187d-ecfc-481f-8bdb-454279d875ec)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/474728fc-074a-4a0e-894b-22fab4a1cb63)
+
+* As we got **Y** in **R1** that's why we put **Circle** for **Z and W** in **R1** row.
+* We are checking if we can cover a **full row**. If we can cover a **full row** then the decomposition is a **lossless** decomposition. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b06ffd1-1f6d-419c-8eac-be9ec068bd71)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/edafa89d-2b89-4482-9f71-18e47b44edd7)
+
+* We got two **FDs** for **D2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d9be3cb5-10e4-46c2-93d2-ed8f62af3c4f)
+
+* For **Q -> Y**, wherever there is **Q**, we are putting **circle** for **Y** in that row.
+* For **Y -> ZW**, wherever there is **Y**, we are putting **circle** for **Z and W** in that row.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34b6f63d-f256-46a6-8d19-dd74ebc27560)
+
+* As there are no more **FDs**, so we will not get **T and X**.
+* As we are not able to fill a **whole row**, so the decomposition is **lossy decomposition**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/11db2ffb-b7ef-494f-9186-b2f6a992d1c5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d5d00083-ed58-4fd5-a0c0-3458013ae80c)
+
+* Option **A**. [**VERY IMPORTANT**]
+* If we have **more than one table** in decomposition then the **above method** is **easier and understandable** to use.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69f06cca-37c4-45dd-a461-9425bf5337a6)
+
+* Link -> https://gateoverflow.in/357534/gate-cse-2021-set-2-question-6
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/46e8e65b-7acf-4e91-9622-5ba40f4c3147)
+
+* Option **D**.
 
 
 
