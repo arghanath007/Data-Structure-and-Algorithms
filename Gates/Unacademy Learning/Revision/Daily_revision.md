@@ -17,16 +17,24 @@
 
 # Algorithms
 
-* 1-revision Done.
+* 1-revision Done. [Not Done]
 * Give the **test series** tests. [Not Done]
-* Do the rest of the **PYQs**.
+* Do the rest of the **PYQs**. [Done]
 * Algorithms Completed.
 * RIC Done.
 * 22 and 23 PYQs done.
 
 # DBMS
 
+* 1-revision Done. [Not Done]
+* Give the **test series** tests. [Not Done]
+* Do the rest of the **PYQs**. [Done]
+* DBMS Completed.
+* RIC Done. [Not there]
+* Did the PYQ and practice of DBMS from YT.
+* 21, 22 and 23 PYQs done.
 
+# Data Warehousing
 
 
 
