@@ -73,8 +73,42 @@
 * Validation -> Checking the correctness of the data.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb5575be-c738-464d-a017-ea05b58f20bf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6af4b73e-c6c8-4528-9074-e1d4f07ff85c)
 
 * Transform.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b7241f24-7b05-47e6-bed7-c62dae4493f5)
+
+* Cleansing.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3226dbbd-599c-45c6-9a6b-adc851f99b3c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d26db27a-697f-4df4-afa1-e01896895cac)
+
+* Example **Transform**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ecc3e809-e112-49f0-b1b1-2e553f315349)
+
+* Load
+* Data warehousing -> It has **containers**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7cc0c1bf-3a20-4a21-9f41-0bec24250982)
+
+* Data Warehousing types which are **ETL and ELT** based. [Types]
+* **ETL** bases data warehousing has **staging** or uses **staging**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/48516ddf-0189-45c7-af57-2f57ddf26348)
+
+* **ETL** bases data warehousing.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05be9351-595f-4e2d-907b-e76cc00668b9)
+
+* **ELT** bases data warehousing.
+* If we want to use **external ETL** tool then we can use **ETL based date warehousing**. [**IMPORTANT**]
+* If we want to use **internal ETL** tool then we can use **ELT based date warehousing**. **Staging** area is within itself(warehouse) only and the transformation of the data happens there only. [**IMPORTANT**]
+
+
+  
+
 
 
 
