@@ -1657,10 +1657,16 @@
 
 * Answer -> 2.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/645349c5-60bc-48f8-822a-e5cb6ef4c1d1)
 
+* Link -> https://gateoverflow.in/399259/gate-cse-2023-question-52
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb1f5892-bdf3-448a-9e9f-d9ac9de080a9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/49da9ec3-cafa-41c4-a290-089a452348b7)
+![image](https://gateoverflow.in/?qa=blob&qa_blobid=5724532638357271697)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dcd70fd8-9e4a-4a4a-8a5b-b0fc8a6df614)
 
-
+* Answer -> 6 Blocks. [**VERY IMPORTANT**]
 
 
 
