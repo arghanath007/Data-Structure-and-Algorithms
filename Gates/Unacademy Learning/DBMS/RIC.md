@@ -1,5 +1,7 @@
 # DBMS
 
+* This is not **RIC** course, as no **RIC** course done by **VDsir** for **DBMS**.
+* Did the **PYQs and practice class** videos from **YT**.
 
 # Revision
 
@@ -7,7 +9,7 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f44dbbb-e9f7-4624-b310-bab991b149c4)
 
-* Keywords, columnames and tablenames -> Not case sensitive.
+* Keywords, column names and table names -> Not case sensitive.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/03629afd-2d12-48f7-a7b0-947eecbfe475)
 
