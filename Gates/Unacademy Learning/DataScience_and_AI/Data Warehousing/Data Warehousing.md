@@ -106,9 +106,25 @@
 * If we want to use **external ETL** tool then we can use **ETL based date warehousing**. [**IMPORTANT**]
 * If we want to use **internal ETL** tool then we can use **ELT based date warehousing**. **Staging** area is within itself(warehouse) only and the transformation of the data happens there only. [**IMPORTANT**]
 
+## data-warehousing-basics-part-ii (2)
 
-  
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4eae6c1d-415b-463d-9c54-3668661af769)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d64dab50-a27b-4854-a24d-028dd6606914)
 
+* Data Mart. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f83c5279-98bd-404d-a25b-ce5b1113f0dc)
+
+* Data Warehousing VS Data Mart.
+* Dimensional Model -> **Dimensional Model** is within the **Data Marts**. When using the **data marks**, we ar strategically using them for **mining the data**
+* A set of rules is defined.
+* The **sumarized** data can also be pushed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f2514cd-c003-4571-a401-16bc95f858b8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1588e70-0214-4d68-a020-bf56f2be8781)
+
+*  Data-warehousing **architecture.
+*  28mins
 
 
 
