@@ -1556,6 +1556,115 @@
 
 * Option **D**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/881eb765-27ff-4127-a14f-b1624335f70b)
+
+* Link -> https://gateoverflow.in/357519/gate-cse-2021-set-2-question-21
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/52ece7f3-c409-4676-9cb1-b72243a4bf48)
+
+* Answer -> 698.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f154b80-d934-4960-8294-94d01116cfc7)
+
+* Link -> https://gateoverflow.in/357509/gate-cse-2021-set-2-question-31
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5192df3c-d6ce-4720-9ff0-20e31dc9de61)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd7716ce-533e-4373-9f2c-767be089fb78)
+
+* Question.
+* Link -> https://gateoverflow.in/357508/gate-cse-2021-set-2-question-32
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0dd52b90-ea30-4a33-9d83-2cd9b49b7a71)
+
+* There is a **diry read** because **W(X)** is performed in **T1** and then **R(X)** is performed in **T(3)** after the **W(X)** is performed.
+* Option **B**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f40b2c92-f9d6-4f68-afa9-aab428855e10)
+
+* Link -> https://gateoverflow.in/357500/gate-cse-2021-set-2-question-40
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7974c8d0-08f2-49b6-888d-51390d1ace3b)
+
+* Option **A, C and D**. [**IMPORTANT**]
+
+## 2022
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3b7047b5-1e02-4faf-8642-e6b004f2d48b)
+
+* Link -> https://gateoverflow.in/371932/gate-cse-2022-question-4
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7eff1eb4-f034-47c5-8c4a-58aad6ef8c9d)
+
+* Option **A**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a86219bb-9c61-42b9-a54e-0f4196c77061)
+
+* Link -> https://gateoverflow.in/371921/gate-cse-2022-question-15
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5b5a6ba-9a32-4612-817e-90ab65eb01ee)
+
+* Option **A and B**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e370d65-939a-42e2-b163-6d4abeb53cbf)
+
+* Link -> https://gateoverflow.in/371915/gate-cse-2022-question-21
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5a18445-9e16-478f-86f2-95db9103c523)
+
+* Answer -> 8.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63fa0e05-5934-4331-ad26-b4ce7fd9b764)
+
+* Link -> https://gateoverflow.in/371907/gate-cse-2022-question-29
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/581a5512-7cdb-4df9-965b-87f3c5849ec4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/94115819-92bc-4289-a97f-1ea4a52a9dc2)
+
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33ba992e-5bb3-40f6-ac78-42fa2713372d)
+
+* Question.
+* Link -> https://gateoverflow.in/371890/gate-cse-2022-question-46
+
+![image](https://gateoverflow.in/?qa=blob&qa_blobid=5747314665531169248)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ccea93fd-4335-4d94-b897-8ae2035cf37f)
+![image](https://gateoverflow.in/?qa=blob&qa_blobid=3306154045518037619)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ce72ec4-f72b-4797-9040-28ab2c794460)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b29a653b-894c-4f29-b132-c67093486adf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71f67f4b-950c-44a2-979f-8e812a906b64)
+
+* Answer -> 2
+
+## 2023 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/743c8b69-2f4d-4848-8f8f-025554a57b18)
+
+* Link -> https://gateoverflow.in/399306/gate-cse-2023-question-6
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ca56f87-a998-4cbe-9726-1d693a1586d1)
+
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/869f65cb-1b54-4918-beb7-7283559b48f1)
+
+* Link -> https://gateoverflow.in/399260/gate-cse-2023-question-51
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e63c58cc-f96b-4341-baca-d2635be9b34d)
+
+* Answer -> 2.
+
+
+
+
+
+
+
+
+
 
 
 
