@@ -358,10 +358,242 @@ Specialization -> Specializing the information of an entity set.
 
 * Aggregation [Example]
 
+## Relational Model
 
+* Relation -> Table.
+* There is a relation **Student** which means that there is a **student** table.
+* Attributes -> Columns
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2fe7a188-91ac-484f-87e0-dd5dc6991ae8)
 
+* Table Name -> Relation(student)
+* Columns -> Attributes(Rno, name)
+* 4 rows, so we have **4 tuples/records** within the relation.
+* Tuple -> Row.
+* **Degree or Arity** -> No. of Columns -> Number of attributes in relation
+* **Cardinality** -> No. of rows or records -> No. of tuples in a relation.
+* All of the **constraints** that we have put and all of the database construct used to construct the database. All of them combined is called as the **Database Schema**.
+* **Database Instance** -> Snapshot of the data in the database at a given instant in time.
+* **Domain** means when some values comes **what type of value(int, varchar, char)** it will be. Kind of datatype.
+* A unique set of values permitted for an attribute.
+* Difference between **Domain** and **constraint**:-
+* **Domain** -> What is the datatype of the value.
+* **Constraint** -> Even if the datatype of the value is correct, then also the value is **rejected/not allowed**.
+* **Domain constraint** -> Specifies an important condition that we want each instance of relation to satisfy.
+* **Keys** -> An attribute or set of attributes whose values can uniquely identify a tuple in a relation.
+* Super Key -> All possible keys of a relation.
+* Candidate key -> Minimal super key. A super key whose proper subset is not a key.
+* Example -> rno, name + fname
+* **name + fname** combination because the subset of them is **name and fname** and none of them are **keys** individually. That's why they are **candidate keys**.  
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1918acd1-d5a0-410d-9f99-9006ee28ec5a)
+
+* If **ABC** is a **candidate key** then **A, B, C , AB, AC, BC** are not **keys**.
+* **ABCD** is a **super key** but not **candidate key**.
+* Prime Attributes -> Attributes of candidate keys.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f71fa7f1-85ee-4bd8-9fc3-7206d1d8da89)
+
+* Question.
+* Total no. of super keys which are not candidate keys?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6956597d-e749-42f1-9282-e5e98546051d)
+
+* ACDB -> Not a candidate key as **ACD** alone is a key. **ACDB** can be a **super key**, yes.
+
+## Primary Key
+
+* One table has only one **primary key**.
+* Chosen candidate key for implementation.
+
+* Alternate key -> All other candidate keys apart from primary key
+
+### Foreign Key
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea30e54b-1045-4d6f-92a0-1c2f3b3ce254)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb927970-11e5-45f4-b214-1b024799faaf)
+
+> The constraint put on the **Account.Branch_id** column is called as **Referential Integrity constraint**.
+
+* The value we are referring from should be a **primary key** of that table. **Compulsory**.
+* The one who is referring the value is called as **foreign key**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d7968e9c-a739-4501-8f5e-329079f44265)
+
+* Of-course
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e38f589d-f3b8-4ef0-a687-2c04e0c4e87f)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30c0d2f6-d738-4f0a-b701-786cdb01193c)
+
+* Branch table is **parent** table.
+* The **FOREIGN KEY** constraint prevents invalid data from being inserted into the foreign key column, because it has to be one of the values contained in the parent table.
+
+### Referential Integrity constraint
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a739c618-7145-43e3-9d83-6ed4e94b5fe1)
+
+* Foreign Key may not be **unique**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a05db006-b8bf-4bdf-bad3-53c34d743ee4)
+
+* Integrity constraint is still maintained.
+* Foreign Key can have **NULL**.
+
+## Cascading effects
+
+### On update cascade
+
+* It says that foreign key value refers to which ever parent table value, if there is **updation** at tha parent table then at the **foreign key** updation will also happen.
+* DBMS will do it **automatically**.
+* If parent table value updated then automatically foreign key values are also updated accordingly.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32f8e38e-0df6-4480-9bc1-e75d9ebbca2e)
+
+* Example.
+* On delete cascade -> Careful implementation
+* On delete No action -> Makes no sense.
+* On delete set NULL -> Careful implementation -> Only foreign key set to **NULL**.
+* More cascade options.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3413aa74-193b-4350-87e4-0beb2d5c7ace)
+
+* On Update Cascade -> If we **update** the column **Branch.Bid** and the value of **B4** is updated to **B5** then the  column **Account.Bid** values which has **B4** will be updated to **B5**.
+
+### On Delete
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cab57c81-6141-455f-bf3a-c2530cd29c19)
+
+1) On Delete **Cascade** -> If we **delete** the **B3** row in **Branch.Bid**, then the **B3** values present in **Account.Bid**, their whole/entire **row** entry will also be **deleted**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c3bb9c6-ace0-4817-b1fc-f7ed85247226)
+
+* Example
+* Not only the value is deleted, the whole row is **deleted**.
+
+2) On Delete **Set NULL** -> If we **delete** the **B1** row from **Branch.Bid** then the **B1** values in **Account.Bid** will be set/updated to **NULL**. We will have **no value** there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b796944a-e98d-4eb5-8d9d-ad9649f055ee)
+
+3) On Delete **No action** -> If we **delete** the **B2** row from the **Branch.Bid** then there will be **no changes** to the values in the **Account.Bid** column.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1e21971-001f-4f58-bf03-54c1883e2105)
+
+## SQL
+
+* SQL is not **case sensitive**.
+* Only **DB** values are **case sensitive**.
+* Semicolon Mandatory? -> **NO**.
+* If we want to run **multiple queries** together then after the end of **each query** we need to put **semi-colon** there.
+* Run all queries together then after each query semicolon needed.
+
+### Select Command
+
+* Used to retrieve data from one or more tables.
+* select * from Customers;
+* **Select** command is used for **column** filtering as well.
+* select City from Customers -> All rows of the column **city** will be displayed as **output**.
+* select Country, City, CustomerName  from Customers
+
+### Distinct keyword
+
+* Need to be used with select, to **fetch only unique values** of designated columns(s).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a296088-02b9-4a77-8cb9-ded7df0a0b29)
+
+* Combination of **Country and Postalcode** which are **unique** those are **selected**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/20436b7e-9ac5-4300-8bc4-925cc36a84f4)
+
+* Error, not allowed.
+* We cannot write **distinct** in one column and not in the other.
+* If we write more than **one column** then **distinct** should be applied to all **columns**, or **none of the columns** should have **distinct**.
+* We have to put **distinct** on all of the columns we want to retrieve or none of the columns should have **distinct** keyword.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2949f983-72c4-44fa-89ce-39d307ed8080)
+
+* select distinct itemp from itemmaster;
+* **3** distinct values -> 3 rows -> 2, 4 and NULL.
+
+## Where command
+
+* Used with select, update, delete, insert commands
+* Used to filter specific rows from table.
+* Syntax -> select columns from tablename where condition;
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a7e73fb7-f963-425f-85c7-dbaf5402381b)
+
+* This comes under DML.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c19a76f-5d0a-476d-80c4-f2a20b3dc4e1)
+
+* select * from customers where customerid = 3;
+* As **3** is **integer** so no need of **quotes**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2d36fd20-3da7-4895-9d5d-6e8b13344fab)
+
+* Operators with **where** clause.
+* Atleast 10 -> Min of 10 -> >= 10 -> Greater than equal to 10. [**IMPORTANT**]
+* Maximum of 10 -> Max of 10 -> Less than equal to 10 -> <= 10. [**IMPORTANT**]
+ 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cdcbaad1-792e-4e21-b51e-ed46940e18f3)
+
+* select * from orderdetails where quantity <= 10
+* Less than equal to 10.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bfda6dd9-9548-4b00-9d11-eab35705384c)
+
+* Not equal to 10.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0fe0d5e4-0f0b-46a4-b9a7-67ed081ccfce)
+
+* select city,postal from suppliers where country <> 'USA'
+
+## Logical Operators
+
+1) AND -> True when condition 1 and condition 2 both are true. 
+2) OR -> True when either of the conditions(1 or 2) are true.
+3) NOT -> Negate/Opposite.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/90ce5c6a-7fba-48de-bc1c-97d67735637c)
+
+* Example
+* Quantity is atleast **5** and atmost **30**.
+
+## Between keyword
+
+* Between lowerbound(LB) and upperbound(UB).
+* lowerbound(LB) and upperbound(UB) are **inclusive(included)**. [**IMPORTANT**]
+* Used to filter the records in the specific range.
+* select * from orderdetails where Quantity between 5 and 30. [Example]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8c49df39-25b7-4c01-9275-63f92224b077)
+
+* Example
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/007dcd70-6d4c-4823-b824-7896d050505f)
+
+* select * from orderdetails where quantity < 10 or quantity > 20
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36742bc6-9fe1-41cb-a902-6007619cf520)
+
+* not in between 10 and 20.
+
+* select * from orderdetails where quantity not between 10 and 20
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eea7a325-801d-4f24-bab6-d07ba1acb791)
+
+## NULL 
+
+* We have to use the **is NULL** keyword here. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e9e9492-cbb0-4e6d-b16a-789ba96286d0)
+
+* Nothing because here in **=** operator, **NULL** is taken as a value.
+* To compare **NULL** values, or to find where **NULL** are there, we have to use **is NULL** keyword.
+* select * from itemmaster where itemp is NULL.
 
 
 
