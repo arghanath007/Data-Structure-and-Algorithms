@@ -24,7 +24,13 @@
 * We have to write **is NULL** to compare with **NULL**, nothing value.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b954858e-5b56-4c31-a574-cf2e61c1cd0b)
+
+* **= NULL** and **is NULL**.
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/38ffa0f9-30c8-46a7-82a0-a208ae4be6c1)
+
+* **Not NULL** sql query.
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/90759a6a-3485-4605-9cfd-fec7519303bd)
 
 * Is the table possible or not?
@@ -52,7 +58,7 @@
 * Fetch **4 records** after starting 5 records
 * limit x,y
 * leaves starting **x**  no. of records and fetches next **y** records.
-* select * from customers limit 5, 4
+* select * from customers limit 5, 4 [x -> 5, y -> 4]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba53f861-cdae-40ac-a0f0-e52620bca1ee)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a29f11da-5420-4e0d-90a9-5b09c04c2401)
@@ -96,6 +102,9 @@
 ## avg()
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/94ee2a8f-af17-44ef-b724-94d1981ac203)
+
+* Example.
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ab3a686-3d02-479e-9924-9f212b3f8473)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/14315cca-4bfb-4463-83d3-a55a7891b626)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a9f70e56-e15f-4e18-9bd1-7d975fdb7f36)
@@ -110,6 +119,7 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d8e25f1-ad6a-4e28-b6bf-e7c4127d9530)
 
 * **min() and max()** -> Works both on char data and numbers. For char data it returns the first or last record according to **lexicographic order**.
+* Lexicographic -> Alphabetical order.
 
 * **avg() and sum()** -> Will work only on numbers. Returns zero(0) for others.
 
@@ -131,18 +141,25 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c24bca67-2d6f-45cf-8d44-c7908265e62e)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6a192ba-78ba-4296-90b1-6b66c0c2363f)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b970ecbb-9ed4-4409-8ad8-292eae527f80)
+
+* Example
+* [**IMPORTANT**]
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/23de4729-be9f-498b-b180-0bc9e5c23055)
 
 * Average -> Summation/Count -> (5 + 7 + 7 + 7)/4 -> 26/4 -> 6.5.
 * We will not count the **NULL** as there is nothing over there.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b3bab3bf-748e-4994-b891-dfddbe88ce4c)
+
+* Example.
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/153b4984-ae12-4646-b112-27ef5f969eb4)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f84a40a8-8240-4be7-9dbf-118b3dc00f17)
 
-* Select count(*) from itemmaster
+* Select count(*) from itemmaster [**IMPORTANT**]
 
-> **8 rows** will come.
+> **8 rows** will come. 
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5122d88-747f-4cc9-bdea-dadad74a9ec1)
 
@@ -150,18 +167,26 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cdd1a52c-22ca-4c53-807f-c049494b81c0)
 
-* count(*) will look at **no. of rows** that's why it will be **8 rows**.
+* count(*) will look at **no. of rows** that's why it will be **8 rows**. [**IMPORTANT**]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e20939b4-45f7-406a-ac04-cb9362c496a3)
 
 * Yes.
+* As **itemp** is a **column** it will count the **not NULL** values**. [**IMPORTANT**]
+* As **itemmaster** is the **table name** so it will count the **no. of rows** in the table. [**IMPORTANT**]
 * create table itemmaster(item int, itemp int)
 * **Creating table**
 * insert into itemmaster values(1,2)
 * **Inserting values into the table**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c0f6080-56db-4589-922c-4e37cb35a30c)
+
+* Creating table and inserting rows into the table.
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cdb90b81-9f51-4fcc-9a7c-02d8ebe0665d)
+
+* Output.
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c51cfd5-5a0c-4fab-9997-55e5aadf6a58)
 
 * NULL means **nothing**.
@@ -224,17 +249,14 @@
 
 * Both give the **same output**.
 
-
-
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd7402ab-6a7e-4f52-9292-5b702d2d7d6f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9cc91892-358a-4a29-a842-f6fe70c6d9e8)
 
 * Subqueries
 
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9cc91892-358a-4a29-a842-f6fe70c6d9e8)
-
 ## Alias
 
-* Used to give a temporary name toa table, or a column in a table
+* Used to give a temporary name to a table, or a column in a table.
 * No spaces allowed
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0585fd8-32f5-424c-bb94-a299ea3985a3)
@@ -256,11 +278,17 @@
 * select avg(price) as Average from products
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37c3f97e-2ab3-477d-8dd1-84501b5d722a)
+
+* No spaces allowed in **Alias**.
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc768781-aeb3-4f94-b1a3-c991eeaa07e7)
 
-* If we give **keywords** in **single or double quotes** then they work as aliases.
+* If we give **keywords** in **single or double quotes** then they work as aliases. [**IMPORTANT**]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3b62ae5e-bba2-4048-8e09-1b12a0dc2d81)
+
+* Example.
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cbd8592d-ebfc-443c-a5c4-1a945abc56eb)
 
 * Alias examples, where can we use alias and where we cannot.
@@ -269,7 +297,8 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24d7cae2-5ccd-4011-badb-d103fd5bcb63)
 
-* from -> where -> select
+* from -> where -> select [**VERY IMPORTANT**]
+* This is the **running sequence** of the commands.
 * Limit runs at the end.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/805ad8b4-08b3-4b91-b851-22f8f9ad7682)
@@ -282,7 +311,7 @@
 
 ## Types of Join
 
-* Inner join -> As called as **natural join**.
+* Inner join -> Also called as **natural join**.
 * Left Join
 * Right Join
 * Full Join
@@ -298,7 +327,9 @@
 * Cartesian Product will return the product of each row from one table to all of the other rows in the different table.
 * When we do **joins**, how many columns we have?
 
-> Left side table  + right side table combination is the **no. of columns*.
+> Left side table  + right side table combination is the **no. of columns**.
+
+* So it is **3 + 3 -> 6** columns in the **cartesian product** of the **above tables**. 
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/628f410c-8434-46e0-8465-ae522353b099)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7152caec-7a5e-4ba4-a35f-f87ed3c2dd77)
