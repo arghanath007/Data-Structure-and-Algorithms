@@ -148,13 +148,13 @@
 
 3) **View Level** -> The way it is filtered to be seen by the users on the website. Seen by the users. Part of **logical level**.
 
-* How will see logical level?
+* Who will see logical level?
 
 > Not the **user**. The creator/maker of the database.
 
 > Everything will be stored in the disk, but we don't know where it is **stored**. The tool(DBMS) only knows where the database is stored in the disk/memory.
 
-* From the logical level can be see the physical level info?
+* From the logical level can we see the physical level info?
 
 > **NO**. In-between there is the DBMS tool.
 
@@ -177,13 +177,13 @@
 
 * Yes.
 
-## DBMS designing and er modeling (2) [24th June 2023]
+## DBMS designing and ER modeling (2) [24th June 2023]
 
 * Commit -> To make the changes permanent we use **commit**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32b5fa4d-0950-4948-8551-3fbf6e293a5d)
 
-* Rollback -> Revert back all of the changes and go back to the last state where the DB was saved/commited(before the changes were made).
+* Rollback -> Revert back all of the changes and go back to the last state where the DB was saved/committed(before the changes were made).
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a3d36d7-2c0f-4051-b638-7262090e7faa)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4cc69bd5-9927-49fe-bb5a-8148b5f9a075)
@@ -281,10 +281,10 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7520baf0-a81b-42a3-b442-100a0f8414e9)
 
 1) Naive Users -> No idea that DB is there ->  Normal people
-2) Appliocation programmers -> Writing Application -> Developing softwares.
+2) Application programmers -> Writing Application -> Developing softwares.
 3) Sophisticated users -> Use/write query to access DB.
 4) Specialized users -> Developes query language or DBMS tool.
-5) Database Administrator -> DBA -> Any DBMS highest level person which manages database. Databae's admin.
+5) Database Administrator -> DBA -> Any DBMS highest level person which manages database. Database's admin.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f4aa4981-18ef-43d5-ac08-d686bb81c336)
 
@@ -297,7 +297,7 @@
 ## Data Model
 
 * When we store the data in the **database**, the data is represented in which format. That is Data Model.
-* How do you reperesent the data when we create the **database**?
+* How do you represent the data when we create the **database**?
 
 > That is Data Model.
 
@@ -393,7 +393,7 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37c22372-76c0-4415-bd8c-7abb91ede666)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/552dd74a-69d3-4e28-b4f5-59123d66d487)
 
-* Name + fathername -> The combination is called as a **key**.
+* Name + father-name -> The combination is called as a **key**.
 
 ## Prime Attribute/Key attribute
 
@@ -542,7 +542,6 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b89433c-ee2e-4b88-a1bc-0fc42db7d6ad)
 
 * If one entity in the relationship is showing relationship of more than one on the right side then it is **One to Many** relationship.
-
 * Towards the **one** side put an **arrow**. The other side is the **many**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/455264b6-24c4-42fb-913b-da8bdaf441b3)
@@ -575,18 +574,18 @@
 
 * Specifies the presence of an entity when it is related to another entity in a relationship type.
 
-1) Total participation -> All entities of an entity set are particiating in a relationship
+1) Total participation -> All entities of an entity set are participating in a relationship
 2) Partial participation -> Not all entities are participating.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e31113b5-2d87-4a74-b635-62de8b358da0)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9a97bff3-328d-46aa-84c8-7dbab6e01449)
 
-* Customer's particiation will be **partial** here.
-* Credit card's particiation will be **total** here.
+* Customer's participation will be **partial** here.
+* Credit card's participation will be **total** here.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b7fb5d8-d8f2-4be0-988a-a8186ca389ae)
 
-* Where there is **total particiation**, we will put **double lines** on that side. 
+* Where there is **total participation**, we will put **double lines** on that side. 
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fbb14f66-0032-4c01-ad3e-625146227c06)
 
@@ -594,8 +593,8 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4803a7bd-9e6c-4f79-ae2e-55e5f48e326c)
 
-* **Departments** participation will be **total particiation** as every department must have a manager.
-* **Educator's** participation will be **partial particiation** as every educator will not manage a department, not necessarily.
+* **Departments** participation will be **total participation** as every department must have a manager.
+* **Educator's** participation will be **partial participation** as every educator will not manage a department, not necessarily.
 
 ## Questions
 
@@ -616,7 +615,7 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ea309ca-776d-4f27-992b-0a9cd1f1d889)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8fb099db-b0fd-48d7-bea9-db2f14c0a8de)
 
-* Drawing the **set diagram** will make the questions easier to solve.
+* Drawing the **set diagram** will make the questions easier to solve. [**IMPORTANT**]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2101be5b-6bb1-4a8e-a242-f14cda4d9086)
 
@@ -625,7 +624,7 @@
 ## Weak or Strong Entity
 
 * A weak entity is an entity that cannot be uniquely identified by it's attributes alone.
-* A weak entity set does not have **key**. 
+* A weak entity set does not have a **key**. 
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bef6d83a-0c01-48b2-9933-1013b47f919b)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dcc2517a-b8ce-4abb-8e85-96007edb9c57)
@@ -648,11 +647,10 @@
 
 * One Singer can sing many songs.
 * In one song many singers possible
-* So, **Many to Many** relationship.
+* So, **Many to Many** relationship. [Example]
 * Songs has **total participation**, as songs cannot be created without singers.
 * Singer has **total participation**, as singer has sung songs that's why he is a singer.
 
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e99b99d6-1990-4f96-8f01-45ab1af318f3)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8cd0eb5c-259e-4aae-9bb9-22ab930ec04c)
 
 * One customer can buy many products
@@ -666,18 +664,38 @@
 
 * Yes.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9c5aa40a-6112-4686-a507-6529a227ed88)
+
 * One children can go to many schools, different times(Secondary from one school, higher secondary from another school)
 * One School can have many children.
 * So, **many to many** relationship.
 * Not necessary that all children go to school, that's why **partial participation** in **children** entity set.
 * It is necessary that all schools have children, that's why **total participation** in **school** entity set. 
 
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9c5aa40a-6112-4686-a507-6529a227ed88)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2f9ae8d-3e07-4f9c-9682-589c0dec027d)
 
 * Examples.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3fd7637a-e534-4e2a-a92b-1356d4adf351)
+
+## Summary
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/15dfa836-ae84-4353-bac6-90de36e89ae8)
+
+* One to One.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/45b5500b-1476-4e03-bf27-594414abe6d5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12f2db2a-0533-4da4-8b86-458ededb9c70)
+
+* One to Many.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe936e02-7a98-414f-8a77-de5f916ef56c)
+
+* Many to One.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b873a27d-951d-41ce-b3cb-011cfbd3a5a6)
+
+* Many to Many.
 
 ## Doubt clearing session relational modeling (4) [25th June 2023]
 
@@ -688,7 +706,7 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/592c54ca-b7df-4618-aaf5-58cbc8a05a42)
 
 * Strong and weak entity set.
-* Weak entity set participation in a **relationship** will always be **total participation**.
+* Weak entity set participation in a **relationship** will always be **total participation**. [**IMPORTANT**]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a0f2402d-d31b-48cf-9ff5-bed017c1869a)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85e1499f-c2f2-4752-9726-0908aee22b4a)
@@ -703,15 +721,15 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ffbd310a-a91c-43fd-8086-edc04b3c23ec)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a455248-cb71-4fc6-b92a-33c1c7d96ce1)
 
-* If one **entity** of **Employee enity set** which is **strong entity set** then it is called as **Dominant Entity**.
-* If one **entity** of **dependents enity set** which is **weak entity set** then it is called as **Subordinate Entity**.
+* If one **entity** of **Employee entity set** which is **strong entity set** then it is called as **Dominant Entity**.
+* If one **entity** of **dependents entity set** which is **weak entity set** then it is called as **Subordinate Entity**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af7fa60b-aa85-4c9b-b96a-fb7663918ea5)
 
-* Both the **Dominant and Subordinate** terms will come into **existance** when we are talking about the **above relationship** of **Employee and dependents** which is a relationship between a **strong entity set(Employee) and weak entity set(dependents).
+* Both the **Dominant and Subordinate** terms will come into **existence** when we are talking about the **above relationship** of **Employee and dependents** which is a relationship between a **strong entity set(Employee)** and **weak entity set(dependents)**.
 
 * If we take one **entity** and not the whole set from the **strong entity set(Employee)** then it is called as **Dominant entity**.
-* If we take one **entity** and not the whole set from the **weak entity set(Dependets)** then it is called as **subordinate entity**.
+* If we take one **entity** and not the whole set from the **weak entity set(Dependents)** then it is called as **subordinate entity**.
 
 ## Types of Attributes
 
@@ -727,11 +745,13 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/06b6fb20-2bb1-4255-8306-9c45ce15c247)
 
 * Single Valued -> Single value possible for each entity(Rno, name, dob).
-* Multi valued -> Multiple values possible for on entity(Phone no).
+* Multi valued -> Multiple values possible for one entity(Phone no).
 
 * To draw **Multi valued**, we need to put **double circle/ellipse** around the value in ER diagram.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa284105-aca8-4ed4-96f0-e31f2e341818)
+
+* Example
 
 ## Simple VS Composite/Compound attribute
 
@@ -748,7 +768,7 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/82f9b1a9-64a8-4b25-9781-080109c2388a)
 
 * We have **4** attributes here, **Rno, fullname, dob, address**.
-* **fullanme** is a **composite attribute** of **firstname, middlename, last name**.
+* **fullname** is a **composite attribute** of **firstname, middlename, last name**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d72bc182-9a41-4f40-b9d3-3f9ff24bb076)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/88e0f6bf-1b3f-4402-be5d-5ad7236975f7)
@@ -784,11 +804,14 @@
 * Age -> Derived attribute
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/893c4836-54f3-42ff-850c-e0edcd19dd5e)
+
+* [**IMPORTANT**]
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d42dae6c-454c-4a52-96ed-0d5239b6d18d)
 
 * No.
 
-## Entended ER features
+## Extended ER features
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c5cfc8eb-82ac-4f5d-850a-14cbcb8bd21a)
 
@@ -799,14 +822,21 @@
 5) Aggregation
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ccfdc497-89aa-4fed-8fd2-735315a1b54b)
+
+* Specialization
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7cb0ee16-158e-4e1b-b3cd-194cdc9a7bf0)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b9ce0269-1641-45d1-81d3-36a55bd5b7fc)
+
+* Generalization
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92e16d2a-8369-428b-a65d-bad65ac32bfd)
 
+* Example. [**IMPORTANT**]
 * Vehicle is a **2-wheeler** and **4-wheeler** -> **Specialization**
 * **2-wheeler** and **4-wheeler** are **vehicles** only -> **Generalization**.
 * In one **entity set**, we are specializing two different **special categories**.
-* When we are going towards **specilization**, we have to make the **special categories** when the **specialized entity sets** have some **special attributes**. 
+* When we are going towards **specialization**, we have to make the **special categories** when the **specialized entity sets** have some **special attributes**. 
 * If there is no **special attributes** for the **specialized entity sets** then there is no point in creating the **special categories**. 
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32751aad-ec36-4ed6-952e-ad33af9a5e14)
@@ -816,7 +846,7 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a0370f8-8ea8-4dfd-8ec0-0386c3620d8b)
 
-1) Disjoint set -> Any entity is **mutual exclusively** going to either one of the **specialized entity sets**.
+1) Disjoint set -> Any entity which is **mutual exclusively** going to either one of the **specialized entity sets**. One entity of higher-level entity set is present in only one lower-level entity set. 
 
 * One entity of higher-level entity set(**Vehicle**) is present in only one lower-level entity set(**2-wheeler** and **4-wheeler**).
 
@@ -824,13 +854,13 @@
 
 * Vehicle will be either **2-wheeler** or **4-wheeler**.
 
-2) Overlapping -> Present in more than one.
+2) Overlapping -> Present in more than one. One entity of higher-level entity set can be present in more than one lower-level entity set.
 
-* One entity of higher-level entity(Musician) set can be present in more than one lower-level entity sets(**singler** and **guitarist**).
+* One entity of higher-level entity(Musician) set can be present in more than one lower-level entity sets(**singer** and **guitarist**).
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92d318d9-3926-411d-a1ea-c6df6d1379e0)
 
-* Musician can be **singler** and **guitarist** as well.
+* Musician can be **singer** and **guitarist** as well.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e40012d-a6e2-4fda-8e03-1ad74cae8229)
 
@@ -853,7 +883,7 @@
 
 ## Aggregation
 
-* Relationships is shown betweeen **entity sets**.
+* Relationships is shown between **entity sets**.
 * Relationships-set participating in relationship then aggregation is used.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7cbab4bd-b2d8-4af2-8d47-c4f9f7709cc5)
@@ -869,7 +899,7 @@
 
 * Correct way.
 
-* The manager is not **managing** individual job, employee or branch. **Manager** manages the already exisiting relationship.
+* The manager is not **managing** individual job, employee or branch. **Manager** manages the already existing relationship.
 * We want to show a relationship of a relationship with a different entity set is called as **Aggregation**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/522c5427-e2eb-41e2-a6a0-42fdb18837a8)
@@ -956,7 +986,7 @@
 
 ## Database Instance
 
-* Snapshot of the data in the datbase at a given instant in time.
+* Snapshot of the data in the database at a given instant in time.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ddd10f06-0754-48bd-9aa9-5d3660a5d697)
 
@@ -977,7 +1007,6 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1fa28fa0-7205-412a-9d58-8c5e43f8b304)
 
 * Difference between **Domain** and **constraint**:-
-
 * Domain -> What is the datatype of the value.
 * Constraint -> Even if the datatype of the value is correct, then also the value is **rejected/not allowed**.
 
@@ -1020,7 +1049,7 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b03db404-fdc7-4793-a74b-50888728956d)
 
 * Minimal super key
-* A super key whose prope subset is not key
+* A super key whose proper subset is not a key.
 * Example -> rno, name + fname
 * **name + fname** combination because the subset of them is **name and fname** and none of them are **keys** individually. That's why they are **candidate keys**.  
 
@@ -1061,7 +1090,7 @@
 
 * One table has only one **primary key**.
 * Chosen candidate key for implementation.
-* Example -> rno, name + fname
+* Example -> rno, name + fname.
 * Primary Key -> rno
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b4e2bf72-3f17-4fc9-81e9-982a6699f507)
@@ -1080,7 +1109,7 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/744680ed-f871-4b25-8058-84130c2d788e)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea30e54b-1045-4d6f-92a0-1c2f3b3ce254)
 
-> The constraint put on the **Account.Branch_id** column is called as **Referencial Integrity constraint**.
+> The constraint put on the **Account.Branch_id** column is called as **Referential Integrity constraint**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb927970-11e5-45f4-b214-1b024799faaf)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6de4c11-a832-4a15-b0ec-a64c1e527452)
@@ -1092,23 +1121,26 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d7968e9c-a739-4501-8f5e-329079f44265)
 
-* Ofcourse
+* Of-course
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6cde2110-e6d6-47d7-9d89-42241286a098)
 
 * Not necessary but easier to remember if same name given.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e38f589d-f3b8-4ef0-a687-2c04e0c4e87f)
+
+* [**IMPORTANT**]
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30c0d2f6-d738-4f0a-b701-786cdb01193c)
 
 * Branch table is **parent** table.
 * The **FOREIGN KEY** constraint prevents invalid data from being inserted into the foreign key column, because it has to be one of the values contained in the parent table.
 
-### Referencial Integrity constraint
+### Referential Integrity constraint
 
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8340c8cd-4938-416e-b14c-96c401fb472d)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a739c618-7145-43e3-9d83-6ed4e94b5fe1)
 
-### Referencial Integrity Example
+### Referential Integrity Example
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3bb0a7f7-dea0-42a0-a411-022e6e4542ea)
 
@@ -1120,6 +1152,9 @@
 * Foreign Key may not be **unique**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24e2d6c7-360e-4a85-ba9b-0f5c5976aaef)
+
+* No. As we can see **below**.
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a05db006-b8bf-4bdf-bad3-53c34d743ee4)
 
 * Integrity constraint is still maintained.
@@ -1127,7 +1162,7 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f89efb3-7e27-4d75-b7ee-c1e44960dd5a)
 
-## Cascading effect
+## Cascading effects
 
 ### On update cascade
 
@@ -1137,6 +1172,8 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b87dadb2-cf5c-471f-8a21-f9b1e90ab50b)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32f8e38e-0df6-4480-9bc1-e75d9ebbca2e)
+
+* Example.
 
 ### On delete cascade
 
@@ -1167,7 +1204,7 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3413aa74-193b-4350-87e4-0beb2d5c7ace)
 
-* On Update Cascade -> If we **update** the column **Branch.Bid** and the value of **B4** was updated to **B5** then the  column **Account.Bid** values which had **B4** will be updated to **B5**.
+* On Update Cascade -> If we **update** the column **Branch.Bid** and the value of **B4** is updated to **B5** then the  column **Account.Bid** values which has **B4** will be updated to **B5**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/442c9283-e8af-4a89-aaac-6f606794a2bf)
 
@@ -1175,23 +1212,32 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cab57c81-6141-455f-bf3a-c2530cd29c19)
 
-1) **Cascade** -> If we **delete** the **B3** rows in **Branch.Bid**, then the **B3** values present in **Account.Bid**, their whole/entire **row** entry will also be **deleted**.
+1) On Delete **Cascade** -> If we **delete** the **B3** row in **Branch.Bid**, then the **B3** values present in **Account.Bid**, their whole/entire **row** entry will also be **deleted**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44cb951b-2504-4f83-bed8-d51290342310)
+
+* Example
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c3bb9c6-ace0-4817-b1fc-f7ed85247226)
 
 * Not only the value is deleted, the whole row is **deleted**.
 
-2) **Set NULL** -> If we **delete** the **B1** row from the **Branch.Bid** then the values in **Accound.Bid**, their values will be set/updated to **NULL**. We will have **no value** there.
+2) On Delete **Set NULL** -> If we **delete** the **B1** row from **Branch.Bid** then the **B1** values in **Account.Bid** will be set/updated to **NULL**. We will have **no value** there.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b796944a-e98d-4eb5-8d9d-ad9649f055ee)
+
+* Example.
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37fb0613-02b0-4a2b-b6ea-1c63da334604)
 
 > In **Account.Bid**, **NULL** values should be allowed otherwise **On Delete Set NULL** will not work.
 
-3) **No action** -> If we **delete** the **B2** row from the **Branch.Bid** then there will be **no changes** to the values in the **Accound.Bid** column.
+3) On Delete **No action** -> If we **delete** the **B2** row from the **Branch.Bid** then there will be **no changes** to the values in the **Account.Bid** column.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1e21971-001f-4f58-bf03-54c1883e2105)
+
+* Example
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb2ceda7-2717-4548-9f05-7707a3fb9c9a)
 
 ## SQL
@@ -1208,7 +1254,7 @@
 
 * How we will access ER diagram data?
 
-> We do not store anything in **ER diagram**, it is just a **representation**. From **ER diagram**, we create a **table**, and we actually store that **table**.
+> We do not store anything in **ER diagram**, it is just a **representation**. From **ER diagram**, we create a **table**, and we actually store in that **table**.
 
 * ER diagram -> Paper thing(Representation).
 
@@ -1250,6 +1296,7 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6731e7e9-f49f-468e-8c67-9c3fa383a803)
 
 * Semicolon Mandatory? -> **NO**.
+* If we want to run **multiple queries** together then after the end of **each query** we need to put **semi-colon** there.
 * Run all queries together then after each query semicolon needed.
 
 ## Retrieving Data
@@ -1273,7 +1320,7 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/26344a3f-e456-4658-88a1-6a344827d6fc)
 
-* select City from Customers -> All rows of column city.
+* select City from Customers -> All rows of the column **city** will be displayed as **output**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ebb0d44-d3d9-4f04-9edb-950470e30052)
 
@@ -1315,7 +1362,7 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/21a6f69f-da4d-4fe5-8a49-3fd71371e331)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a296088-02b9-4a77-8cb9-ded7df0a0b29)
 
-* Combination of **Country and Postalcode** are **unique** that are **selected**.
+* Combination of **Country and Postalcode** which are **unique** those are **selected**.
 * distinct combinations
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/48cde4c4-373d-4826-b8c5-830bf38325dd)
@@ -1324,7 +1371,6 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6392f7d2-9eae-4c77-803d-a458519f1939)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/20436b7e-9ac5-4300-8bc4-925cc36a84f4)
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27f3a02c-5033-44d3-945c-aae250a7bed3)
 
 * Error, not allowed.
 * We cannot write **distinct** in one column and not in the other.
@@ -1389,7 +1435,13 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/380afdaf-bfa9-4a9d-b3e7-42b7233ec34b)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2d36fd20-3da7-4895-9d5d-6e8b13344fab)
+
+* Operators.
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6e9435a1-665a-4e25-bb01-a94436c3c90f)
+
+* Table.
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98427d11-9456-4c95-963a-701b7ae4d2f6)
 
 * Atleast 10 -> Min of 10 -> >= 10 -> Greater than equal to 10.
@@ -1422,30 +1474,33 @@
 
 * Not equals to 10.
 
- ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bfda6dd9-9548-4b00-9d11-eab35705384c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bfda6dd9-9548-4b00-9d11-eab35705384c)
+
+* Not equal to 10.
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0fe0d5e4-0f0b-46a4-b9a7-67ed081ccfce)
 
-* select city,postal from suppliers where country <> 'USA:
+* select city,postal from suppliers where country <> 'USA'
 
 ## Logical Operators
 
-1) AND -> True when conditiom 1 and condition both are true. 
-2) OR -> True when either of the conditions are true.
-3) NOT
+1) AND -> True when condition 1 and condition 2 both are true. 
+2) OR -> True when either of the conditions(1 or 2) are true.
+3) NOT -> Negate/Opposite.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f3483701-8fa8-48be-a49c-6a33addb93e9)
+
+* Syntax
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/90ce5c6a-7fba-48de-bc1c-97d67735637c)
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2aa23fb4-291d-48c4-ae4c-44084b55e3d0)
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/349c4682-5a8b-4a11-b852-3b2102ad9828)
 
+* Example
 * Quantity is atleast **5** and atmost **30**.
-
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d1381fb-0221-489a-ad4a-e28f9e798263)
 
 ## Between keyword
 
 * Between lowerbound(LB) and upperbound(UB).
-* lowerbound(LB) and upperbound(UB) are **inclusive(included)**.
+* lowerbound(LB) and upperbound(UB) are **inclusive(included)**. [**IMPORTANT**]
 * Used to filter the records in the specific range.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd5efada-b218-4dc7-8f33-31a4eb39e290)
@@ -1455,6 +1510,9 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/02658f80-c6e2-4c64-91bf-4f78928fdad0)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8c49df39-25b7-4c01-9275-63f92224b077)
+
+* Example
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/007dcd70-6d4c-4823-b824-7896d050505f)
 
 * select * from orderdetails where quantity < 10 or quantity > 20
@@ -1464,6 +1522,9 @@
 * less than 10 or greater than 20.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36742bc6-9fe1-41cb-a902-6007619cf520)
+
+* not in between 10 and 20.
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1924cc0b-1896-452b-86d3-9cc371a553e0)
 
 * Another way
