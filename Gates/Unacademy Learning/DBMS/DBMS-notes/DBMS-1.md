@@ -127,6 +127,9 @@
 * In Files system -> Files are not secured.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/082502f3-67c1-44e7-b27c-18c138c13d9e)
+
+* Security
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf8717dd-85a6-4267-a7dd-0a48ba9d6984)
 
 ## How Database or Data is stored?
