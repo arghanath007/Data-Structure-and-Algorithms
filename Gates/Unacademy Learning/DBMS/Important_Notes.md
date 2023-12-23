@@ -594,6 +594,161 @@ Specialization -> Specializing the information of an entity set.
 * Nothing because here in **=** operator, **NULL** is taken as a value.
 * To compare **NULL** values, or to find where **NULL** are there, we have to use **is NULL** keyword.
 * select * from itemmaster where itemp is NULL.
+* **= NULL** -> We are comparing with the string NULL or "NULL".
+* We have to write **is NULL** to compare with **NULL**, nothing value.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/38ffa0f9-30c8-46a7-82a0-a208ae4be6c1)
+
+* **Not NULL** sql query.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/90759a6a-3485-4605-9cfd-fec7519303bd)
+
+* Is the table possible or not?
+
+> **NO**, the table is not possible.
+> As **Xyz** and **XYz** are both same as there is **no case sensitivity**. We also know that **same name columns** are also not possible.
+
+* Column name, table name, keyword are **not case sensitive**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e6fd5537-775b-4be7-a368-210e2c32c814)
+
+* Limit -> Used to limit number of fetched records from a huge database table.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19328153-6ce8-458a-a429-a9e75c69d4f7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/160fdf98-b185-4821-be40-4d0e3510a928)
+
+* Fetch **4 records** after starting 5 records
+* limit x,y
+* leaves starting **x**  no. of records and fetches next **y** records.
+* select * from customers limit 5, 4 [x -> 5, y -> 4]
+
+## Aggregate Functions
+
+* Performs a calculation on multiple values and returns a single value.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/79d5aac0-f29b-4706-920a-e8c63960733c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/94ee2a8f-af17-44ef-b724-94d1981ac203)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98a88697-0f5a-4a60-8d73-38a764aa2b43)
+
+* **min() and max()** -> Works both on char data and numbers. For char data it returns the first or last record according to **lexicographic order**.
+* Lexicographic -> Alphabetical order.
+
+* **avg() and sum()** -> Will work only on numbers. Returns zero(0) for others.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b970ecbb-9ed4-4409-8ad8-292eae527f80)
+
+* Example
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/23de4729-be9f-498b-b180-0bc9e5c23055)
+
+* Average -> Summation/Count -> (5 + 7 + 7 + 7)/4 -> 26/4 -> 6.5.
+* We will not count the **NULL** as there is nothing over there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f84a40a8-8240-4be7-9dbf-118b3dc00f17)
+
+* Select count(*) from itemmaster
+
+> **8 rows** will come.
+
+* count(*) will look at **no. of rows** that's why it will be **8 rows**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e20939b4-45f7-406a-ac04-cb9362c496a3)
+
+* Yes.
+* As **itemp** is a **column** it will count the **not NULL** values**. [**IMPORTANT**]
+* As **itemmaster** is the **table name** so it will count the **no. of rows** in the table. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/04c98ed6-5ef4-40f1-868e-c0f63fcdd01b)
+
+* NULL means **nothing**.
+* As it is **nothing**, so no need to include it when counting average. 
+* select * from customers where country in ('USA', 'Germany', 'UK')
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a7290955-9ef7-4227-a3e4-07cbd6d206c5)
+
+* select * from customers where country not in ('Mexico', 'Sweden')
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/64e7564e-0aac-4de0-a9b0-45d54acf520f)
+
+* Sign change
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/87d58641-b957-454f-a3c9-77ad8bc67321)
+
+* select * from customers where country != 'Mexico' and country != 'Sweden';
+* select * from demo where name <> 'Created by' AND name <> 'SQL Online' AND name != 'Twitter'
+* select * from demo where name != 'Created by' AND name != 'SQL Online' AND name != 'Twitter'
+* Different way of writing the above query. 
+* != -> <> 
+* Both give same output.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd7402ab-6a7e-4f52-9292-5b702d2d7d6f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9cc91892-358a-4a29-a842-f6fe70c6d9e8)
+
+* Subqueries
+* Alias -> Used to give a temporary name to a table, or a column in a table.
+* No spaces allowed
+* Alias should be unique.
+* No spaces allowed in **Alias**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc768781-aeb3-4f94-b1a3-c991eeaa07e7)
+
+* If we give **keywords** in **single or double quotes** then they work as aliases. [**IMPORTANT**]
+
+# Summary
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24d7cae2-5ccd-4011-badb-d103fd5bcb63)
+
+* from -> where -> select [**VERY IMPORTANT**]
+* This is the **running sequence** of the commands.
+* Limit runs at the end.
+
+## SQL Joins
+
+* Needed to retrieve records from more than one table collectively.
+
+## Types of Join
+
+* Inner join -> Also called as **natural join**.
+* Left Join
+* Right Join
+* Full Join
+* Self Join
+* Cartesian Product
+
+### Cartesian Product
+
+* Cartesian Product will return the product of each row from one table to all of the other rows in the different table.
+* When we do **joins**, how many columns we have?
+
+> Left side table  + right side table combination is the **no. of columns**.
+
+* So it is **3 + 3 -> 6** columns in the **cartesian product** of the **above tables**. [**IMPORTANT**]
+* **Cartesian Product** return combination of each row of student table .
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe40c317-1f63-4071-a408-eb1d86706e3b)
+
+* No. of rows -> 4 * 3 -> 12. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c608afb6-9bab-47ea-8fd0-2614b47d4c05)
+
+* select customers.customername as CustomerName, employees.EmployeeID  from customers, employees
+* Cartesian Product is **costly operation**.
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
