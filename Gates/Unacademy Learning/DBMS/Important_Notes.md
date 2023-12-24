@@ -738,6 +738,388 @@ Specialization -> Specializing the information of an entity set.
 * select customers.customername as CustomerName, employees.EmployeeID  from customers, employees
 * Cartesian Product is **costly operation**.
 
+## Questions
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/684a9c4a-0b52-4993-b780-7292feb29c84)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ade1732b-37b9-4b4d-8d6a-827c2a0e2a35)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1943e8ab-339a-4d55-a1f0-d85edc55237b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5878c6a9-850a-473e-ba0f-3751650b42d9)
+
+* Table design refinement.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/daf935ab-8ba3-4885-af22-f49bf07fc04e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6229d434-03db-45fb-826e-e8205720cdef)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22adf47c-a1c6-4c72-967f-f6711b49029d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a9fff723-ba8a-4097-b1fb-c938a818825a)
+
+* Independence -> We can store the data anywhere.
+* Flexibility
+* Data Integrity
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/690b2553-5a28-430b-ba6d-a5bf3b1f0e27)
+
+* Tuples -> Rows.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/250a38c7-7707-4b3e-96b7-c475aa9c20d5)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a68627f-b045-4122-9ed3-69098ff2856c)
+
+* Question.
+1) select * from customers where country IN ("Germany', 'Berlin');
+2) select customername, address, city, postalcode, country where contactname ='Yang Wang';
+3) select * from customers where customerID <= 19;
+4) select * from customers where country NOT IN ('Germany, 'UK', "USA');
+
+* For **Query '3'** -> We don't know if the table is **sorted or ordered** using **customerID** or not, it is better to write **customerID <= 19**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e38e4b01-9b50-41b3-9246-c2f1df314979)
+
+* Yes, limit could be wrong there as well.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89e3785f-6b9e-49e4-b57d-d0cf0b9a7040)
+
+* Table.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ef2446f-bb8d-42b0-b5d2-1ecc5658cc47)
+
+1) select * from products where supplierid IN (1, 2, 3);
+2) select productname from products where price between 5 and 25;
+3) select supplierid from products where categoryid = 2;
+4) select * from products where supplierid = 2 and price > 30;
+5) select * from products where price > 50 and supplierid != 6;
+6) select * from products where price < 30 and supplierid not in (2, 6);
+
+**OR**
+
+select * from products where price < 30 and supplierid != 2 and supplierid != 6;
+
+## Inner Join
+
+* We need **one** common column for **inner join** to work.
+* Inner Join -> It will give those records that are in the left table and are matching with the column records of the right table.
+* select * from table 1 Inner Join table2 on table1.column = table2.column [Syntax] [One Way]
+* select * from table1, table2 where table1.column = table2.column
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/783f9aab-151a-4673-afa1-8aafbb8a5b4d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5543eee1-4f03-4459-a940-6164567e57b7)
+
+* select * from student, library where student.rno = library.rno [Syntax] [Another Way]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c6cd093e-5a00-4e47-9e43-e3985905b730)
+
+* select * from T1 inner join T2 on T1.A = T2.A
+* Example.
+
+## Left Join/ Left Outer Join
+
+* Left Join/ Left Outer Join -> Entire rows of left table and the matching rows from the right table.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/547ddfc3-bf20-44a9-8285-3605addbcce0)
+
+* select * from student left join library on student.rno = library.rno [Syntax] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5a6edda-7537-4c84-84a8-7f61a131a63d)
+
+* Result set 
+* Min. no. of rows in result = no. of rows in left table. [**IMPORTANT**]
+
+* In the left table we have **4** rows and **3 rows** in the right table. How many max rows we will have after **left outer join**? [**IMPORTANT**]
+
+> We will have **12** rows max.
+
+> All **4 + 3 -> 7** rows from the two tables are all identical then **4 * 3 -> 12**.
+
+* If all the values are **distinct**?
+
+> The no. of rows will be  -> No. of rows in left table
+
+* Min. no. of rows in result = no. of rows in left table
+
+* It is **true** when common column has unique values in both tables.
+
+## Right Join / Right Outer Join
+
+* Right Join / Right Outer Join -> All rows of right table and only matching rows from left table. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e82fb62d-8e6d-4d68-aefb-9970c1b8185a)
+
+* select * from student right join library on student.rno = library.rno [Syntax] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/42d8644d-e1cd-4471-9b25-1bfaff75fa07)
+
+* Resultant set
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/14f2ca0d-51e7-4688-9ee4-e1fc624a46f8)
+
+* Lib -> Library table
+* ROJ -> Right Outer Join
+* Stud -> Student table.
+* LOJ -> Left Outer Join
+* Yes. [**IMPORTANT**]
+
+## Full Join/ Full outer join
+
+* **Full Join/ Full outer join** -> We taking all the rows from left and right table and, whatever matching data from left table has with right table we will write it and if it is not there we will write **NULL**. We will take the matching data from right table which are matching with left table and if not there we will write **NULL**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/38d6e7f1-8bf3-48b3-bb8c-7d7b8f1111e6)
+
+* select * from student full outer join library on student.rno = library.rno [Syntax] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b02061e-d61b-4449-8faf-5c42d32f194f)
+
+* Output from the **above query**.
+* **Inner Join** -> Only the matching data we will get from the left and right tables from the **common column** between the two tables.
+
+> We can say that **Inner join** is a subset of **left and right** joins.
+
+* Left Join
+* Right Join
+* Full join -> It is the **superset** of **left and right** join.
+* **Left and Right** join are **subset** of **Full join**.
+* So **inner join** is also a **subset** of **Full join**.
+* They are **subsets** and not proper subsets.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc33d274-c6d9-4f1a-9c18-0ad211a77e86)
+
+1) Result set of inner join -> (subset) -> Result of left outer join
+2) Result set of inner join -> (subset) -> Result of right outer join
+3) Result set of right join -> (subset) -> Result of full join
+4) Result set of left join -> (subset) -> Result of full join
+5) Result set of inner join -> (subset) -> Result of full join
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e269146f-b0c6-45f5-b7e2-be0b5edf84a2)
+
+* Question
+* Option **D**
+* **Cross product** is the **superset** of all of the **joins**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a212c449-b350-4f9b-9e50-323afb61abcf)
+
+* Question
+* Option **D**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d36ced0-06fd-42be-a04d-3ab5287303be)
+
+* Finding the **no. of rows and columns** from the **Cartesian Product**. [Formula] [**IMPORTANT**]
+* Combination of **Left Outer Join(LOJ) and Right Outer Join(ROJ)** is **Full Outer Join(FOJ)**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e93a91f-7b5d-4297-9219-6c9aa752b566)
+
+* Question.
+* select customername from customers, orders where customers.customerid = orders.customerid
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ffc3940-1eb9-4837-a448-50a8cbceaa8d)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/982f51b2-cbd6-4c5b-9c02-227c8201b274)
+
+* Question.
+* select orderid from orders inner join employees on orders.employeeid = employees.employeeid where firstname= 'nancy'
+* select orderid from orders, employees where orders.employeeid = employees.employeeid and firstname= 'nancy'
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b2d4420-f6fa-414e-b522-3a593f5d780c)
+
+* Ordering. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/303499b2-7383-42eb-bdb8-31a38d615739)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0cbb3b5a-7c9e-46e8-9374-d66a663caf64)
+
+* We want to know the **name of the drivers** who have **driven atleast once** in a race. [Question]
+* select distinct(dname) from drivers, drives where drivers.did = drives.did and racedate is not NULL.
+* find name of all those students who have enrolled for atleast one course during 2022.
+* select distinct student.sid, sname from student, enrolled where student.sid = enrolled.sid and duration = 2022;
+* Find name of all those students who have enrolled for course with id=5.
+* select distict student.sid, sname from student, enrolled where student.sid= enrolled.sid and courseid = 5;
+* list out all student information and if they enrolled for any courses then those information also.
+* select * from student left join enrolled on student.sid = enrolled.sid;
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb95c81e-cf64-45ed-8485-b2fec0e3b464)
+
+* find name of all students who have enrolled for course 'DBMS'.
+* select distinct student.sid, student.sname from student, course, enrolled where student.sid = enrolled.sid and course.courseid = enrolled.courseid and coursename = 'DBMS'; 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e7040b31-908d-4918-ae93-798e3ae231fe)
+
+* Another way of writing the **query**.
+
+## Self Join
+
+* We have to join the table with **itself** only. It is called as **self join**.
+* If we have to join the table with **itself** then we will have to do **aliasing**. It is **compulsory**.
+* We have to assume they are **two different** tables and then do **aliasing**. 
+* Find name of all such employees who are managers also.
+* select distinct E1.name from employee E1, employee E2 where E1.Eno = E2.ManagerID
+* Find name of all employees who are having managers?
+* select distinct ename from employee where managerid is not NULL. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c4ea76a9-d712-42ec-bf4a-a5bee5e6a7e2)
+
+## Group By clause
+
+* Used in collaboration with the select statement to arrange identical data into groups.
+* Select information in **groups**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5706804-3e1c-463d-9384-871cf68ed7f2)
+
+* Select * from demo group by name;
+* For all of the **unique values** of **dob** column, we are creating **separate** groups for them.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3cff86ee-b790-45b6-8c31-109ba28362e7)
+
+* select * from customers group by country;
+* For **each country** there is a **separate group** for it thanks to the **group by** clause.
+* select country, count(customersID) from customers group by country;
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86315cdb-34b1-42a3-a3c7-33f97d02a0bf)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b4c26c7-5d3a-45ac-a7b7-7cc55cf57c25)
+
+* Yes. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2f91a29-09ee-442b-9197-137769d833c8)
+
+* 4 rows are selected.
+* select * from student group by Rno;
+
+> **5 rows(1,2,3,4,5)** will come.
+
+* select * from student group by name;
+
+> **3 rows(A, C, D)** will come.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86a77073-a0a6-4e5b-add2-bb2c48035a4c)
+
+* Automatically **distinct**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e6dec18a-0a00-47e0-a800-0d361cf0964e)
+
+* From -> Where -> Group by -> select.
+* Sequence [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/48131301-1ddd-42c7-aa3e-1500930e85df)
+
+* select categoryid, sum(price) from products group by categoryid;
+* The column on which **group by** clause is performed/done, that must be included in select. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4331270d-251c-4ef6-aea7-32d2762b00f1)
+
+* select categoryid, min(price) from products where price > 20 group by categoryid; [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f65cf106-144c-4404-896d-df8c2c85657b)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/300aec39-70e9-422f-bfa1-0df464f4ac96)
+
+* select categoryid, sum(price) from products where sum(price) > 200 group by categoryid; [**Wrong query**]
+
+* We are putting the condition after the **group by** clause but **where clause** runs before **group by** clause. We need a new clause here, which is **Having** clause.
+
+## Having clause
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65ddb9fd-f58f-4cda-9c9f-2dc7aaf4ba5e)
+
+* Having clause [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/11394bbd-ab0c-4d47-84fb-6ca328058562)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/38ac4cfe-46a6-4466-8d06-777daeda4c6b)
+
+* select categoryid, sum(price) from products group by categoryid having sum(price) > 200. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/73998ef5-f875-4b4c-92ab-4758d262c1fb)
+
+* Having clause **sequence**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69bda08b-622d-4d80-9a7d-63c7fa3f3f2e)
+
+* Where VS Having clause **difference**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d86f711-5d82-477f-bcb9-aa67d167da60)
+
+* Yes, **having** cannot be written alone without **group by** clause.
+
+## Order By
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/06d33b8c-2c03-45ca-acf2-b40b2370e5fe)
+
+* Default ordering is **ascending** order.
+* Order by doesn't make any changes to the table.
+* Ordering the fetched data.
+* Order by runs after **select** clause.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d9dfa3c-5bdd-45ac-b54a-f16e36648c11)
+
+* Example.
+* If two **country** names are **same/equal** then those rows are **sorted** using **postal code**, otherwise we are doing the sorting with **country** only. [**IMPORTANT**]
+* The **order by** keyword is used to sort the result-set in **ascending or descending order**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c55d2fd1-ed13-49a6-8e54-9b01b6dbbfc9)
+
+* From -> Where -> group by -> having -> select -> order by [**IMPORTANT**]
+* select categoryid, sum(price) from products group by categoryid having sum(price) > 200 order by sum(price) desc
+
+## Subquery
+
+* Subqueries can be within **select, where and from**.
+
+1) Single row subquery -> returns single row of one column(One value)
+2) Multiple row subquery -> returns multiple rows of a column(Multiple values)
+3) Corelated subquery
+
+## Single row subquery
+
+* If countryname was directly not given, and we had to find the country name and for that we had to write a query.This is **subquery**.
+* Fetch the name of all customers which are from same country of customer name 'The Cracker Box' [Question]
+* select customername from customers where country = (select country from customers where customename = 'The Cracker Box') [Answer]
+
+* Find all such products which are having price less than price of product name 'Tofu'.  [Question]
+* select * from products where price < (select price from products where productname = 'Tofu) [Answer]
+* Highest product price -> max(price)
+* Find the product with second highest price. [Question]
+* select max(price) from product where price < (select max(price) from products) [Answer]
+
+* (select max(price) from products) -> max(price) [Inner Query]
+* select max(price) from product where price < -> Except **max(price)** we will get the rest rows -> Out of those rows we will select the **max(price)**. Which is the **second highest price**.
+
+* Find the product with third highest price. [Question]
+
+* select max(price) from product where price < (select max(price) from product where price < (select max(price) from products)) [Answer]
+
+## Multiple Row Subquery
+
+* returns multiple rows of a column
+* Inner query returns multiple values. So, **equal to(=), greater than (>), etc** they don't work.
+* We have to use some **keywords** like **In, any, all, exist**.
+* Find all customers that are from the same countries as the suppliers. [Question]
+* select * from customers where country IN (select distinct country from supplier) [Answer]
+* In -> multiple OR. [In keyword] [**IMPORTANT**]
+* Find all customers, that are from those countries where there is not any suppliers  [Question]
+* select * from customers where country NOT IN (select country from suppliers) [Answer]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a0dabff2-d187-486f-94ea-1665eb1a9350)
+
+* Find all customers, who have placed more than 2 orders. [Question]
+* select * from customers where customerID IN (select customerID from orders group by (customerID) having count(orderID) > 2) [Answer] [**IMPORTANT**]
+* We can do this subquery using **inner join** as well but **inner join or joins** in general they are quite **costly operations**. That's why using **subquery** is better.
+
+
+
+
+
+
+
+
+
 
 
 
