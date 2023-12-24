@@ -1110,11 +1110,322 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 
 * Find all customers, who have placed more than 2 orders. [Question]
 * select * from customers where customerID IN (select customerID from orders group by (customerID) having count(orderID) > 2) [Answer] [**IMPORTANT**]
-* We can do this subquery using **inner join** as well but **inner join or joins** in general they are quite **costly operations**. That's why using **subquery** is better.
+* We can do this subquery using **inner join** as well but **inner join or joins** in general they are quite **costly operations**. That's why using **subquery** is better. [**IMPORTANT**]
 
+## Any Operator
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/53d83a83-e8ff-48ef-907e-949a78b1a77d)
 
+* Operators used with **ANY** keyword -> =, <>, !=, >=, >, <, <=.
+* Any means **anyone**.
+* Any -> **OR** operation.
+* Find the productname of all those products which have their orders quantity larger than 50. [Question]
+* select productname from products where productid = any (select productid from orderdetails where quantity > 50) [Answer]
+* Find the productname of all those products which have their productIDs less than any of the product having orders quantity equal to 1 [Question]
+* select productname from products where productid < any (select productid from orderdetails where quantity = 1) [Answer] 
+* select productname from products where productid < (select max(productid) from orderdetails where quantity = 1) [Example]
+* We will directly get **one value** which is the **max(productid)** and we don't have to use the **any** keyword here.
+* If it was **> any**, then we would have used the **min()**, **min(productid)**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a5b5116-dd42-4d7d-9d60-d25bab0b0ffb)
+
+* Subquery Summary [**IMPORTANT**]
+
+## All subquery
+
+* Any -> Anyone one value.
+* All -> Comparing with everyone
+* All -> **AND** operation.
+* Operators used with **All** keyword -> =, <>, !=, >=, >, <, <=.
+* Find the productname of all those products which have their productsids less than all of the product have orders quantiy equal to 1.
+* select productname from products where productid < all (select productid from orderdetails where quantity = 1)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/59d066e8-6a9c-48f6-9681-9ff5cb50d964)
+
+* Sub-query **ALL** summary.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76c544ef-8475-4a32-86c0-136a1c655f3d)
+
+* **! All** -> Behaves like **Not In**.
+* Finds all employees whose salaries are greater than the salary of all the employees in the sales department with departmentID is 2. [Question]
+* select * from employee where salary > All (select salary from employee where departmentid = 2) [Answer]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e107ebcd-9f3c-40ab-9251-00b64d395ca2)
+
+## Exists subquery
+
+* Checking if the **result set** returned by the **inner query** is present or not.
+* If **Yes**, then we will get the result from the outer query.
+* select * from customers where customerID = 1 -> Returns all the details of customers where id is '1' -> Returns 1 tuple/row.
+* We are checking if **result** coming from **inner query** or not.
+* **Existence** of output there in the **inner query**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c85fd42b-5ff7-4464-a3ac-35ee7d0c898f)
+
+* select * from orders where exists (select NULL)
+* (select NULL) -> It selects **NULL** as the **only one value**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5381dbf-cc77-43dc-bccf-dff7426fa415)
+
+* In the **result set**, we are getting **NULL**.
+
+## Co-related subquery
+
+* For each row of outer query, either inner query runs again and again. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/183a6c4f-3575-49b7-b662-b4eef36aafda)
+
+* Example
+* select Rno, name from student S where exist (select * from enrolled E where S.ro = E.rno);
+* With **corelated subqueries** we are doing a type of **inner join** in the above question.
+* write a query to select all such customers record which have atleast one order placed.  [Question]
+* select * from customers C where exists (select * from order O where C.customerID = O.customerID) [Answer]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed907a93-6830-452a-8ff9-32602f434e25)
+
+* [**IMPORTANT**]
+* (customers.*) -> Prints the columns only from the **customer's table**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed54ef66-35e3-48a8-bb62-af85e200d25e)
+
+1) select customername from customers where country = (select country from customers where customername = 'Around the Horn')
+2) select postalcode, count (*) Counter from customers group by postalcode.
+3) select country, max(Counter) from (select country, count(*) Counter from customers group by country);
+4) select country from customers group by country having count(*) = 1
+
+* [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff2ecfc5-9f1c-4bbf-ad67-aa4abd1e99a7)
+
+* Question
+1) select * from product where price = (select price from products where productname = 'Aniseed Syrup')
+2) select suppliername from suppliers where supplierid IN (select supplierid from products where price > 20)
+3) select * fom products where productname != 'Tofu' and categoryid = (select categoryid from products where productname = 'Tofu')
+
+* [**VERY IMPORTANT**]
+
+## Set Operators
+
+* Set operators are used to combine results from two or more select statements
+* SQL rule -> Both the **result sets** from the **select statements**, **no. of columns** should be **equal**.
+* **Set operators** doesn't change the **columns**.
+* Same no. of columns as in left or right select statement.
+* **Set operators** is happening on the **data**.
+* Set Operators -> Union, Union All, Intersect, Minus Or Except
+* In **union**, duplicates are **eliminated**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c16ff70f-42bb-4327-a274-cabfc42f70a2)
+
+* Example
+* We have done **union** of the **rows**.
+* (select city from customers) UNION (select country from suppliers)
+* UNION -> Eliminates duplicates
+* Union All -> Duplicates are not eliminated. Shows all **tuples**. [**IMPORTANT**]
+* Intersection -> Common
+* Intersect -> Gives common tuples.
+* Minus or Except -> It gives **set difference**.
+* select * from T1 except select * from T2 -> We will get those rows from T1 which are not in T2.
+* select * from T2 except select * from T1 -> We will get those rows from T2 which are not in T1.
+* Find out those cities where we don't have customers but only suppliers. [**IMPORTANT**]
+* select city from suppliers EXCEPT select city from customers.
+
+## Create Table
+
+* No value i.e NULL, it is fine
+* If it is **value** then it should be **unique**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/847b80d3-4241-4b96-9e69-66683a5619fc)
+
+* Primary Key
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3026a348-5c34-4911-90d4-3d9a8fb9734c)
+
+* Foreign Key
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/47b4cc73-b02b-4d5f-b859-1e952ca11b57)
+
+* Relational Model
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0bef48ce-ec62-4611-b735-a083a04c98b9)
+
+* Relation -> Table.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c4003ac6-60db-4b73-a57c-aeac998b6ea6)
+
+* Attributes
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/56e92fad-f0a4-45c5-9d82-7b500b8e0611)
+
+* Tuple
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b9803c7d-22c8-48a6-831a-dc5543dce250)
+
+* Relation example
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6423d2f5-7ef8-4eaf-bb85-665f931dfc0a)
+
+* DB Schema
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6032d5dc-c5a9-4b83-87bc-f118b21397a2)
+
+* DB Instance
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c524c38-1ba6-4a04-b43a-841f1ff36425)
+
+* Domain -> Datatype.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bdf31b8d-e4e6-4bbf-957c-639f7766fb05)
+
+* Domain Constraint
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fcc935ae-1dd1-4d46-9f0e-8ec79d53cb01)
+
+* Degree or Arity
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f68678a6-fd4c-4a46-8f4a-38219a1634ce)
+
+* Cardinality
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/923b24d9-9db0-430e-9a85-e54bc4ed1755)
+
+* Functional Dependency
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7305a393-37af-4092-aace-503937195746)
+
+* If we have **one value of 'A'** then give **one value of 'B'** and not **two values**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9bfb7a3e-dd01-4be4-a81f-caf17c99e30c)
+
+* For **a1** value of **A** column we are getting **two different values** of **B** column which are **b1 and b3**. So **a1** is giving **not unique** values.
+* So, **A -> B** does not **hold**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0f7f758-0b8f-4de9-80bd-ae176635d325)
+
+* Another Example
+* For **a1** value of **A** column we are getting **unique value** of **B** column which is **b1**. So **a1** is giving **unique** value.
+* For **a2** value of **A** column we are getting **unique value** of **B** column which is **b2**. So **a2** is giving **unique** value.
+* So, **A -> B** does **hold**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c63aa487-e921-4392-9561-2580d9efbc1a)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8535f50c-777f-4bad-84ed-49e6f6fe3380)
+
+* A -> B -> doesn't Hold
+* B -> C -> Holds
+* C -> A -> doesn't Hold
+* C -> B -> doesn't Hold
+* A -> C -> doesn't Hold
+* AB -> C -> Holds
+* Ac -> B -> Holds
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/137e406d-e00d-4283-9a50-c29727975a8e)
+
+* Example [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/692d87df-94a5-4c80-8e20-590b7ca79ba5)
+
+* Example
+* A+ -> {A, B}
+* B+ -> {B}
+* C+ -> {C, D, A, B}
+* D+ -> {D, A, B}.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9cf3d4f1-8a03-4032-82ec-86a3382405bb)
+
+* Trivial Functional Dependency
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f8395abe-fc85-4f09-adbf-83224f49a6d4)
+
+* Reflexivity Rule
+* If **A to B** holds then **AC to BC** will also hold. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/70473b11-f847-44a6-8faf-d02c52e0af80)
+
+* Augmentation Rule.
+* If **E -> F** holds then **ABE to ABF** alos holds.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e295f0f-24ca-4ff2-82f2-6de5b48b8bd5)
+
+* Example
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27f83c71-60ef-4395-908a-d3eb920409ee)
+
+* Transitivity Rule
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1bef4ff8-00e9-4170-94d7-60faf2980088)
+
+* Addition Rule.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e0cf66a9-40fc-405c-a373-d52a400ef39e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e53e3e5-dd2d-4428-bd11-5249c1cd11c7)
+
+* Example.
+* FD+ -> {A -> B, B -> C, AB -> D, A -> C, A -> D}
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5186916a-ea9d-4b50-9da4-03b693aae4b8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ecd7ea7-f61d-4ef2-bee7-a48759e9024a)
+
+* Question [**IMPORTANT**]
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92b834a6-8bba-4bae-bd5d-52193eba5c63)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc631168-42d6-4f8d-af8e-962df77437be)
+
+* In closure of **A**(A+) -> {A, B, C, D}
+* If we find all of the attributes in closure of **A**(A+) then only we can say that **A** is a **key**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c564af8d-88f2-436f-a6a3-b43929d3bc59)
+
+* Question
+* In closure of **A**(A+), we found all of the **attributes** within it, so **A** is a **candidate key**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ed2d633-61c0-483f-8d4d-2c334d8bd399)
+
+* When we are finding **keys**, we will check on the **right hand side**, what we don't have. Whatever is not there, that will be coming in the **key**. [**TRICK**] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/361adc6b-6292-4ab8-8c04-21fe1c59c473)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/871ba4e6-66eb-4dac-87e6-a551de0cee4b)
+
+* Example.
+* Candidate Key -> A
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ddee556e-b0ca-4601-87d7-03992e6aa384)
+
+* All of them have **all of the attributes** in their **closures**.
+* So, **A, B, C and D** are **candidate key**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1609e260-a207-4391-9cdf-5246a8f2d281)
+
+* Only **one** of them have **all of the attributes** in their **closures**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31bed794-6fc7-4a73-9895-d70733c1e7e0)
+
+* So, **AB ** is the **candidate keys**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9a50e026-3fdb-4881-a64b-7d622dab6d91)
+
+* Attributes not in the **right hand side** -> A
+* A+ -> A
+* AB+ -> A, B, D, C, F, E
+* **B** can be replaced in **AB+**, which is **C**
+* AC+ -> A, C, B, D, F, E
+* **C** can be replaced in **AC+**, which is **D**
+* AD+ -> A, D, C, F, B, E
+
+* Only **three(AB, AC, AD)** of them have **all of the attributes** in their **closures**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0536b8c6-e464-4819-a887-828767e4cd87)
+
+* So, **AB, AC, AD** are the **candidate keys**.
+* We have to check if the values can be derives from other values or not **like above**. [**IMPORTANT**]
 
 
 
