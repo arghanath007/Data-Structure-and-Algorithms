@@ -33,6 +33,7 @@
 * RIC Done. [Not there]
 * Did the PYQ and practice of DBMS from YT.
 * 21, 22 and 23 PYQs done.
+* Start from PDF **8**.
 
 # Data Warehousing
 
