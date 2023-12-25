@@ -1427,6 +1427,36 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 * So, **AB, AC, AD** are the **candidate keys**.
 * We have to check if the values can be derives from other values or not **like above**. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eeffda2c-2860-47b4-a541-9036e6e42765)
+
+* These are the **6** keys.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/892e9ee3-bba3-4ea0-b0e5-39954d9ef2be)
+
+* These **three** are the **keys**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f1fb6b7-3687-47ac-8420-1d67c59a4d0e)
+
+* So, **three** keys are coming.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9af51c66-3578-4af1-87c0-327e131e8d73)
+
+* Example.
+* On the right side is the **minimal set**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ba430c1-2bd3-4263-b73c-04bab8e42b1b)
+
+* Exactly.
+
+## Normalization
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/efe4639d-ebf1-46b1-b0a
+
+
+
+
+
+
 
 
 
