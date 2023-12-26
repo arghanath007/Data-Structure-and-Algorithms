@@ -1450,7 +1450,250 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 
 ## Normalization
 
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/efe4639d-ebf1-46b1-b0a
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/efe4639d-ebf1-46b1-b0a6-18f37f5d3e7d)
+
+* Definition.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b5d4868-cd20-4958-ae24-63d3ce1f5fb7)
+
+* If we didn't allow **NULL** value in **P-Id, P_Name and P_Price**. They should be **Not NULL**.
+* There is an **anomaly** due to **insertion** into the table.
+* **Insert anomaly**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e8388c1-8264-4dc9-b878-e646beb655d4)
+
+* **Update anomaly**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c6a0307f-8d0c-417d-a751-b76d2d3752f5)
+
+* Delete product jeans
+* Deletion Anomaly
+* Customer with id **c3** also deleted.
+* To **remove** the above anomalies we use **normalization**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/577524d5-c6f5-421b-b396-ceccf29ffd4f)
+
+* Normalization.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/01f2c9ec-7398-4887-88b3-1f3edd3605ad)
+
+* For the relation to be in **1NF** -> Remove Repeating Groups.
+* For the relation to be in **2NF** -> Remove Partial Dependency.
+* For the relation to be in **3NF** -> Remove Transitive Dependency.
+* For the relation to be in **BCNF** -> Remove overlapping Candidate key.
+* GATE syllabus till **BCNF**. [**VERY IMPORTANT**]
+* NFs -> 1NF, 2NF, 3NF, BCNF.
+
+## 1NF
+
+* A relation R is said to be in 1NF if there is no any multi-valued attribute in R.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/941e56d7-e86f-4a0c-bf74-5e3e3bbaef14)
+
+* We removed the **Rno** column.
+* Keep multi-valued attribute along with **primary key** of table in another table. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a41c3bef-ee74-476d-bfe5-80cea2e3a499)
+
+* This is also a **good solution**.
+
+## 2NF
+
+* If we have to normalize the DB table in **2NF** form, then they should be **normalized** in **1NF** form already.
+* If we have to perform **2NF** form then the DB table should in **1NF** form already.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9a2d474-266f-4951-b632-9b0a5aa13de6)
+
+* There is **no any** non-prime attributes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1db0ee96-7874-4566-82c1-b440d22cf8b7)
+
+* Partial Dependency.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/acb597d3-ef1a-495b-a5ea-6058a9ddd8e6)
+
+* Prime and non-prime attribute.
+* if key is a **composite** key and from the **sub-part**. If the **sub-part** derives some **non-prime** attribute.
+* This is called as **Partial Dependency**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33d74be4-f1b6-4ad7-93a6-2d72faf2444d)
+
+* Example
+* Candidate Key is **AB**.
+* Prime attribute -> A, B
+* Non-prime attribute -> C, D
+* If **table's data** is not given, then we can assume that the **table** is in **1NF** form.
+
+* For the table to be in **2NF** form, there are **two** conditions:-
+
+1) Table should be in **1NF**.
+2) No partial dependency. 
+
+* **A or B** alone can derive any **non-prime** dependency?
+
+> **Yes**, **B** derives **D**.
+
+* It is a **partial dependency**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/610d3b48-e781-4006-8811-5dcc987a41dc)
+
+* Example.
+* Given relation **R** is not in **2NF**.
+* We have to get it to **2NF**.
+* To get the relation in **2NF**, we have to **decompose** the relation.
+* To bring **R** in 2NF, decompose **R** into **two** relations such that we remove **partially dependent** attribute from **R** and keep it in another relation. [**IMPORTANT**]
+* We have to keep the **partially dependent** attribute with whom it is **dependent** on. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2e10a702-41d5-45e5-8e36-4593310b5343)
+
+* Key in **R1** table is **AB**.
+* Key in **R2** table is **B**.
+* So, there is **no partial dependency**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a04eb922-f8da-4ff7-bd22-bed298e4a8b7)
+
+* Both **R1 and R2** are in **2NF**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf00fc77-358c-4ded-8b72-d71f4965e8c7)
+
+* Question.
+* Candidate Key -> AB
+* Prime attributes -> A, B
+* Non-prime attributes -> C, D, E
+* We have **two partial dependencies**.
+* A -> D and B -> E
+* We have to keep **each partial dependency** in separate tables.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4667cdfc-d8c9-499f-8fae-4adf724e88ca)
+
+* Solution [**IMPORTANT**]
+* Now, **R, R1 and R2** are in **2NF**, **partial dependencies** are removed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/035c330c-b837-4fd8-bf3f-b8a5093bdeec)
+
+* Option **C and D**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7180af91-8f02-43bd-8bba-3e0455458d1b)
+
+* **AB** is a **candidate key**.
+* **A and B** are **prime attributes** and **C** is **non-prime** attribute.
+* **B -> C** is **possible**.
+* **C -> B** is **not possible**.
+* We have a **partial dependency**, as **AB** is a **candidate key** and **B -> C** is **possible**.
+* So, the **partial dependency** is **B -> C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/45b49d67-c574-4bce-b856-1bfa1188e1cd)
+
+* **D -> E** is the **partial dependency** because **D** is a **prime attribute** and **E** is a **non-prime attribute**.
+* **AB -> C** is the **partial dependency** because **A and B** are **prime attributes** and **C** is a **non-prime attribute**.
+
+* Steps to get **2NF**, Method(Decompose into 2NF):- [**VERY IMPORTANT**]
+
+1) Find the **Candidate Key**.
+2) Find the **prime and non-prime attributes**.
+3) Check if **individual values** from the **Candidate Key** have **dependency** on **non-prime attributes**.
+4) If so, then they are **partial dependencies**.
+
+* As we found that **AB -> C** is causing **partial dependency**, so remove **C** from **R** table.
+* Keep **C** in a **separate** table with it's **dependency** which is **AB**, which is **R2** table.
+
+* As we found that **D -> C** is causing **partial dependency**, so remove **E** from **R** table.
+* Keep **E** in a **separate** table with it's **dependency** which is **D**, which is **R3** table.
+* Don't remove the **dependencies**, which are **AB and D** from the **original table(R)**.
+* Only remove **C and E** from the **original table(R)**.
+
+* R1(A, B, D) -> No Need of **FDs** as **ABD** together is making a **key**. No sense of **deriving** a fourth attribute.
+* R2(A,B, E)
+* R3(D -> E)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a87b06c1-0aca-46d7-af61-026984f8597f)
+
+* For every **partial dependency** we will create a **separate table**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5f3358e8-dbfa-4caa-9354-a5b8688ce4a2)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05b1c9b9-65f4-45c3-97bf-6069f5856779)
+
+* In **2NF**. [**IMPORTANT**] [Solution]
+
+## 3NF
+
+* Transitively dependent:- [**IMPORTANT**]
+* Key -> Non-prime_1
+* Non-prime_1 -> Non-prime_2
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1552441-9541-4195-b3c1-c5ac2cd5a2ae)
+
+* **Transitively dependent**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22cb98d5-1b63-4f84-aee1-19d955c23b55)
+
+* Candidate key -> AB
+* Prime -> A, B
+* Non-prime -> C, D
+* Check for 2NF -> No partial dependency -> **2NF satisfied** -> It is in **2NF**..
+
+* AB -> C [Key -> non-prime_1]
+* C -> D [non-prime_1 -> non-prime_2]
+* So, AB -> D [Transitively dependent]
+* **D** is **Transitively dependent** on the **key(AB)**.
+* So, **3NF** not satisfied.
+* **D** is **transitively dependent** so **D** is the **issue/problem**.
+* If **D** is the **issue/problem**, then **remove 'D'**.
+* Keep **D** in a **separate table** with **C**.
+* Decompose **R** into **2 relations**.
+* Whoever is **Transitively dependent** with **D** here, we will remove that from the **original table**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ce197a9-46d9-47bb-95a2-fca4bc51cafe)
+
+* To whom **D** is **directly dependent** on, that should go with **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/46503d93-b39a-4f77-9056-070275df4bdb)
+
+* If **D** is transitively dependent on **key** then, **remove 'D'** from the **original table** and keep it in **another table** along with the **attribute** with which **D** is **directly dependent**.
+* Don't remove **C** from the **original table**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b60a18c0-2ea5-4d8c-a0d2-4264734f7e37)
+
+* There is **transitive dependency** as **A** is the **key**.
+* A -> C
+* C -> D
+* A -> D
+* **D** is **transitive dependency** on **A**.
+* So **3NF** not **satisfied**.
+* We have to **decompose** the **R3** table into more tables to satisfy **3NF**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89dc63df-d77d-4817-b16a-9a95757d0e88)
+
+* Question.
+* If the **candidate key** is a **single column key** then there is **no partial dependency**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/887979fd-6753-43ad-afe1-fb1b0b233901)
+
+* Question.
+* **C -> D** is a **partial dependency** as **C** is a **prime attribute** and **D** is a **non-prime attribute**. So not in **2NF**, we have to do **decomposition** of **R** to get it into **2NF form**.
+* **AC -> B** is a **partial dependency** as **A and C** are **prime attributes** and **B** is a **non-prime attribute**. So not in **2NF**, we have to do **decomposition** of **R** to get it into **2NF form**.
+* We got **R, R2 and R3** which are in **2NF**.
+* Now to check for **3NF**.
+* There is **transitive dependency** in **R3** which is **C -> E**. So we have to do decomposition of **R3** to get **3NF** form.
+* **E** is **transitively dependency** on key **C**.
+* We got **R31 and R32** tables, now they are in **3NF** form.
+* The final tables are -> R, R2, R31, R32.
+* Solution. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac6ea0c4-36e6-4902-91d3-9ea4b9655c79)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e39151ba-aace-4c01-9cde-6324e800fa06)
+
+* Solution [**IMPORTANT**]
+
+
+
+
 
 
 
