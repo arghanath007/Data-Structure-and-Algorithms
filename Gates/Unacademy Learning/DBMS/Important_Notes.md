@@ -1688,10 +1688,332 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 * Question.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e39151ba-aace-4c01-9cde-6324e800fa06)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d2a9b53b-2e27-4107-9d08-0c6ed6e5417a)
 
 * Solution [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b961ef3f-324e-423b-9f12-7eebcf79e9f8)
 
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/273c8c50-80f9-482b-9062-b3db9d3871db)
+
+* np -> Non-prime to Non-prime
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b7ff8fb8-b0a7-4012-82ef-d12ab80c8a33)
+
+* So, there will be **transitive dependency**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27c95ccc-45e6-47fe-aede-25ea330acfad)
+
+* Question. [**IMPORTANT**]
+* 3NF.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bdf1a88a-6c9c-43f6-9a0a-9c9fcc079c0f)
+
+* Then also **3NF** is adequate.
+
+## BCNF
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/728498aa-4381-46f0-9fe5-637c7794f42f)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb9048e1-a00b-47f4-917b-e4611c4a1c6b)
+
+* Example.
+* Candidate Keys -> AB and AD.
+* No any partial or transitive dependency. Hence already in **3NF**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3883e08e-ff2b-4308-8b0d-0879463f8e8d)
+
+* In the **FDs** or **functional dependency**, the **LHS** should be a **key** for it to be in **BCNF**. [**IMPORTANT**]
+* Not in **BCNF**.
+* The solution is to do **decomposition**.
+* Remove **B** from the original table.
+* Put **B** in another table with **D**.
+* Do not remove **D** from original table.
+* Remove **B** from the original table and keep it in another table with **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/96fe50c6-b0e8-45ba-a3ea-16936b6cf1ce)
+
+* Solution [**IMPORTANT**]
+* There is some **data loss** as earlier the **FD** was **AB -> CD** in the original(R) table but in **R1** table it is **A -> CD**. 
+* This **decomposition** is called as **lossy decomposition**. [**IMPORTANT**]
+* **BCNF** can create problems. There is **no any solution** for this.
+* When we do **decomposition** till **3NF**, everything is **fine**. **No data loss**, no **FDs** are lost as well.
+* When we go to **BCNF**, there is a **possibility/chance** that **FD** is **not preserved** or the **decomposition** that happened, causes **data loss**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/372ecc2a-6768-4f9b-b3c2-d7ba8cf40d81)
+
+* Upto 3NF decomposition -> Definitely **lossless and dependency preserving** -> **Compulsory**.
+* BCNF decomposition -> Not necessarily -> **lossless and dependency preserving** -> **possibility/chance**.
+
+* BCNF **always provides** lossless and dependency preserving decomposition?
+
+> **False**.
+
+* BCNF **may provide** lossless and dependency preserving decomposition?
+
+> **True**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/de84b500-0ba5-4fed-9179-7a097b478c5d)
+
+* Question.
+* Keys -> ABY, BCY, ACY
+* **AB -> C** is **partial dependency** because **AB** is a part of the **key** and **C** is a **non-prime** attribute. So it is **not in 2NF**. 
+* Option **A**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7072851f-f177-4119-a6c9-52636017057b)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5916ba7c-da64-42d0-967f-e3254f13691d)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ade4bd9-93af-448a-b178-d80fe577d7dd)
+
+* Solution.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a3ff8f5-8483-402f-91ae-89b40bb2d82b)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9bb1dfe-1d89-439d-a078-5155447af4d3)
+
+* Solution.
+* Option **A**.
+* Partial Dependency are there -> A -> C and B -> D.
+* So it is not in **2NF**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7792e435-df29-4dfc-ba9c-55c9ab01dfdb)
+
+* Decomposition to remove the **partial dependency**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a5d5e35-5d15-4abb-8ae9-29ef934f0291)
+
+* Question. [**IMPORTANT**]
+* It is already in **3NF** because all of the attributes of **R** are the **prime attributes**. So **no partial or transitive dependencies**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72b845ff-90b1-4188-a98d-e8bc3f9954f2)
+
+## My Work
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e207028-2a6a-4a9f-b9a2-f6d1a430bdc0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b993ef4-5809-4c37-93f8-8f68bdb4e7ef)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/62efd41a-1125-4281-a9c6-c439595289a2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9be6958b-211a-4e7d-89d2-a5ab4c9ad008)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/497c97b8-2325-4094-95bc-a96a7c6e704c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/382515b9-177b-49da-8628-407fb9e00b9c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30a7411c-cb70-4bc3-9b3e-172a8835448e)
+
+* DONE.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c07ca70-51bb-4b21-8841-be24e27fc5e6)
+
+* Relation is already in **3NF**.
+* Also in **BCNF** because for each **FD**, the **LHS** is a **key**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32327a14-fa63-4b9e-981b-887cd8552037)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc78a731-4271-40b3-8ce9-0a7cf0122983)
+
+* Solution
+* Answer -> **a, b, c**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e2ddf8c7-601a-48d3-9136-5831b80f1332)
+
+* BCNF [**IMPORTANT**] [Answer]
+* A -> B
+* No partial or transitive dependencies -> 3NF.
+* LHS is a **key**. So **BCNF**.
+* Same for **B -> A, AB -> AB**.
+* We said that if more than **2 attributes** are given then it is not possible to find **relation** without **FDs**.
+* If **2 attributes** are there then it is possible without **FDs**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be7e6f58-7a75-4784-9d07-8d07a352ed8d)
+
+* For **partial dependency**, all of the **above problems** happen.
+* To remove them we apply **normalization**.
+* Option **D**.
+* **Inconsistency** comes because of **redundancy**.
+
+## Lossy VS Lossless Decomposition.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c70cf1ef-6705-4d77-89a6-03d70cc2776b)
+
+* We will do **inner join** and the **common column** is **sname**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d42656f5-550a-485c-931b-3fdf219326cd)
+
+* select * from student_details S inner join s_department d on S.sname = d.sname;
+* We will get **4 columns** and **4 rows**.
+* If we want the **department** of **roll 12 vishvadeep**, then the **query engine** will be **confused** as we have **two roll 12 vishvadeep**, one of them has **CSE** as their **department** and the other has **AI** as their **department**.
+
+* We didn't get the **correct** information, we wanted.
+* This is **lossy decomposition**. [**IMPORTANT**]
+* It will be **lossy decomposition** when we do **inner join** on the **decomposition tables** and after doing **inner join** the **result set** that we will get. If the **result set** is **not equal** to the **original table** then it is **lossy decomposition**.
+
+* If the **result set** is **same to same** as the **original table** then it is **lossless decomposition**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/03e2ce19-3f1a-450f-9bb1-8b85be934dfa)
+
+* Lossless Join Decomposition
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d22f539d-5e8b-484f-a35b-6cf4c4045b79)
+
+* Example.
+* select * from student_details S, S_department d where S.rno = d.rno
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/74f0cf3d-5f28-4048-8165-7c99f2d18c3f)
+
+* Inner Join
+* R becomes a **subset** of the **result set** -> Lossy decomposition.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c80c6734-61b0-4504-b897-d5894f4e1cb9)
+
+* Question. [**IMPORTANT**]
+* **Y** is the **common table**.
+* We will get **lossy decomposition** because **5** is there **two** times in **Y** column. We will get more columns than there was in the **original table**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b151eec-b111-4676-9fe8-17a3d7d18fe3)
+
+* Good **observation**. [**IMPORTANT*
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dfa81e50-7a5e-4179-afbf-e43a0482b5ea)
+
+* Question. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c6eabe81-5bb9-4215-af52-685d4a6f7b21)
+
+* If the **common column(Rno)** is the **key** in **both the tables** then it should be **lossless**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2db03374-5b3a-47ed-b8a6-fb7397e8c648)
+
+* If the **common column(Sname)** is **not a key** in **both the tables** then it will be **lossy**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df65349e-dbe1-4a01-a61a-ad4e972dec12)
+
+* We are doing **intersection** between the **attributes** of **R1 and R2 table**.
+* If the **common attribute(D)** we got is a **candidate key** in anyone of **R1 or R2** then it is a **Lossless decomposition**.
+* **D** is **key** in **R2** hence it is **Lossless decomposition**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5bd5b940-9e3d-4405-8c19-285999d358e4)
+
+* Solution.
+* **R1 intersection R2**, between **R1(A, B, C) and R2(A, D, E)**. So, we have **A** as the **common attribute**.
+* Is **A** a key in **R1 or R2**?
+* As it is a key in **R1** table, so **yes** it is **lossless**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c81a715-f0e2-4cd6-8c33-3d937c8b8e09)
+
+* Lossy. [**IMPORTANT**] [Solution]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ffc82bad-577f-4fd5-a006-967977305d90)
+
+* Question.
+
+* Common between **R1 and R2** is **B, C**. **Two Attributes**.
+* If we have **more than one common attribute** then we have to write condition on all of the attributes.
+* We have to write **join condition** on all of the **attributes**.
+* We have to do **AND**.
+* R1's FDs, A -> BC, BC -> A
+* R2's FDs, B -> CD
+* R1's key -> A, BC
+* R2's Key -> B
+* As **BC** is a **key** in **R1**, so it is **lossless**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/199df87d-94d6-4deb-a468-cf9e35d9e250)
+
+* If we do **inner join** of **three tables** then we have to write **two join conditions**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dec44e16-23c2-44e7-9f36-0b525303ab8e)
+
+* Combine **two-two** tables.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81b176f7-7838-490c-b2c3-c3785b2eabab)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4aaea5b-d661-4136-8f5a-e56b66123a4b)
+
+* Lossless.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/17d70ebf-468c-4a1f-ba14-79fde58f7b2f)
+
+* Question.
+* There is **no common attribute** between **R1 and R2**.
+* So, **lossy**. [**IMPORTANT**].
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a7477c0-0640-4260-94d1-6295869d53ff)
+
+* **x -> y** is the **partial dependency**, we **remove** it from the **original table**.
+* **y** was **dependent** on **x**.
+* **x** also goes to the **new table** with **y** and **x** becomes the **key** of that **table**.
+* **x** is also present in the **original table** also.
+* So, **x** is common in the **new as well as the original table** and **x** is **key** in **one of the tables**.
+* That's why **2NF and 3NF** always gives **lossless decomposition**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e2af48a-73f6-4ae9-9c6b-71c780e0f267)
+
+> First we will check **common attributes**, then we will check if among them we have any **keys** or not. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7fed8730-5e8a-4544-9306-0c5f563d5d40)
+
+* **C** was the key in **R1**.
+* **AB** was the key in **R2**.
+* Common was **A**.
+* **A** was not a key in **R1 and R2**.
+* So, **Lossy** then.
+* Doesn't matter with **prime attributes**. [**IMPORTANT**]
+
+## Dependency Preserving Decomposition
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a2d5626-abbd-4e6c-bbea-8a9abc2c729a)
+
+* Definition.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d42c7c1e-5808-4d8a-b10d-1fa30b9efee2)
+
+* Question. [Example 1]
+* Dependency Preserving.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/279a7355-3336-4b5f-a94e-a8d81190c37b)
+
+* **Not Dependency Preserving Decomposition**. [Example] [Question] [**IMPORTANT**]
+* From the **union** of the **FDs** of **R1 and R2**, we couldn't get **D -> A** from the **question**. So it is a **not Dependency Preserving Decomposition**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/da7c32db-9e10-4887-ba77-05bfbd3882e8)
+
+* [Example] [Question] [**IMPORTANT**]
+* **Not Dependency Preserving Decomposition**.
+* From the **union** of the **FDs** of **R1 and R2**, we couldn't get **D -> C** from the **question**. So it is a **not Dependency Preserving Decomposition**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0577fc14-865a-4367-98bf-e9d800722172)
+
+* [Example] [Question] [**IMPORTANT**]
+* **Dependency Preserving Decomposition**.
+* From the **union** of the **FDs** of **R1 and R2**, we are getting all of the **FDs** from the **question**. So it is a **Dependency Preserving Decomposition**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf9099cd-287a-4ccf-ab7e-ed1ce6b75f87)
+
+* As there is **no common** between the **R1 and R2**, so it is a **lossy decomposition**.
+* It is **dependency preserving** because we are getting all of the **FDs** from the question after we do **union** of the **FDs** from **R1 and R2**. 
+* **Dependency preserving and Lossy decomposition** -> **Dependency preserving and not lossless decomposition**.
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/84e7a534-adba-4c6a-86dd-10f0b8e3ee23)
+
+* Question
+* Option **2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ba5b0de-94b8-4eac-a7dd-e63d790d65ba)
+
+* Solution.
+* Start from **PDF 17**.
 
 
 
