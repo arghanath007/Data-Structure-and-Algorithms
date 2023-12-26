@@ -2013,8 +2013,11 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ba5b0de-94b8-4eac-a7dd-e63d790d65ba)
 
 * Solution.
-* Start from **PDF 17**.
 
+## ER Diagram to relational model
+
+* 1 Entity Set -> 1 Table.
+* pDF -> 17.
 
 
 
