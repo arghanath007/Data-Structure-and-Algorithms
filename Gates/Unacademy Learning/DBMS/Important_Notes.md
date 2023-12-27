@@ -2017,14 +2017,383 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 ## ER Diagram to relational model
 
 * 1 Entity Set -> 1 Table.
-* pDF -> 17.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f7b4b84-e9de-4ea1-a10c-210f8bef74f8)
+
+* Many to Many Relationship.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a4de5671-30c4-4bb9-af7a-452c87f903ba)
+
+* Using **both Eid and Cid** together we can make a **composite key** for the **Teachers table**.
+* Teaches.Eid -> Foreign Key referring to **Educators.Eid**
+* Teaches.Cid -> Foreign Key referring to **Courses.Cid**
+* **No partial dependency** present in **Educators, Courses and Teachers** tables.
+* So, all the **three** tables will be in **2NF**.
+* **No transitive dependency** present in **Educators, Courses and Teachers** tables.
+* So, all the **three** tables will be in **3NF**.
+* All **3 relations** are in **BCNF**.
+* Keys are in **LHS**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2379b0f8-47f5-465c-9a5b-595daa1c9040)
+
+* Option **1**.
+* Solution.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/23e2b79d-f61b-480c-bca5-c348852e4960)
+
+* Option **2**.
+* **Primary Key** in **Educators** table is **Eid Cid**, combination of both.
+* We will get **partial dependencies** because **Eid** alone can derive **non-prime** attributes **Ename and ESalary**.
+* If we do **decomposition** here to remove the **partial dependencies**, we will get a table with **Eid, Ename and ESalary** and another table with **Eid, Cid and Since** which is **same** as the earlier(option **1**) one we created.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/28876d6e-02d0-4113-8e2b-9a9697b62351)
+
+* Option 2.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/732d4d78-c118-49b2-97c1-ee4d20b823ae)
+
+* Option **3**. [Mistakenly written option 2]
+* Problems:-
+
+1) Partial Dependency
+2) Cid -> Cname, Cfee 
+
+* The above one is a **many to many** relationship , so the ***option '1'** is the **correct answer**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f195887d-bb48-4b5c-a278-0896a7446bf8)
+
+* We have to keep **one student's information** only **once**.
+* **One to many** relationship [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12459bdc-c944-4208-8673-02876a1971c0)
+
+* **Sid** is the **primary key** in **students** table.
+* **Eid** is the **primary key** in **Educators** table.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b43e68a1-2b2a-413d-967e-f001b8594d95)
+
+* **Eid** is not **primary key** and **too much redundancy**. 
+* That's why we can't keep the **relationship** in the **one side** which is the **educator** table. [**IMPORTANT**]
+* So we will go towards **many**, which is **students** table. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/70e2fac1-ff6d-404e-a8cb-26ba5f38683f)
+
+* There is **no point** of creating **three** tables when we can get the work done in **two** tables. [**IMPORTANT**]
+* **Best Solution** -> Take relationship information towards many side entity set. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/55350ab5-32ad-4a8f-8ac0-957cd9b0ed88)
+
+* **Sid** is the **primary key** in **student and Guides** tables.
+* So, we can keep them **together** and make **2 tables** instead of **3 tables**.
+* **Sid** is **primary key**. So it is  better to keep it in **same** table.
+* **One to Many** and **Many to one** is **same thing**. [**IMPORTANT**]
+
+### One to One Relationship
+
+* It will be in **2 tables** only.
+* **3 tables** scenario comes when there is **Many** relationship. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/82a85115-70bf-4b16-84ef-9077ba151294)
+
+* Whichever side we will have **total participation**, we will keep the **relationship details** on that side only.  [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d276bd94-103f-4a72-b97e-0e51be1036a7)
+
+* **Option 2** is better because **license** table has total participation in **relationship**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6bf8e840-4a2a-4af9-b2a1-820eaf79d493)
+
+* Keep **two tables** and set **guide_eid** as **Not NULL**.
+* So **student** table will be **total participation**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/42ad1521-3119-4bcc-9bc7-61c0f27ac416)
+
+* There cannot be any **department** without any managers.
+* **Department** table has **total participation**. That's why we are keeping the **relationship** which is **manages** in the **Department** table and also it is a **One to Many** relationship so the **relationship** which is **manages** needs to be in the **Many side** which is the **department** side. [**IMPORTANT**
+* Many TO Many -> 3 tables. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a8c7721-16c3-427b-9336-0829ae75d4d6)
+
+* If there is **overlapping** then it makes sense to go for **3 tables**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57326c7c-0af5-46af-bf80-5cc26dc3a0af)
+
+* Relationship.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/47a6807f-32e2-45b7-b75c-f8df4001a6c0)
+
+* Overlapping
+* Dis-joint.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/38e1d08d-fcdf-46cf-a9fb-cec9fd9864d2)
+
+* There can be **multiple dependents**.
+* The key can be a **summation** of all the attributes, **Eid Dname and Dbod** which is the **key**.
+* **Eid** cannot be the **primary key** in **departments table**.
+
+## Relational Algebra
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/907e3137-701a-4858-b932-c587e8bf8686)
+
+* SQL -> Non-procedural query language
+* Relational Algebra -> Procedural query language
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d597c546-d3e4-4ebd-8349-e6446dfc2949)
+
+* Basic Operators.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa929a82-9f45-482b-864b-fd74dd73432d)
+
+* We will get all of the **rows and the columns**. We will get the **whole** table.
+
+### Select
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9f89f31-9215-4ddd-a897-58fb44b15e42)
+
+* Syntax.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4bb1a122-194a-4236-9e8b-42cf56c2c8c4)
+
+* Example
+* sigma(rating > 8) (sailors)
+* Sigma -> For Filtering rows.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/93019435-b79f-456d-9b70-ddd180c2c742)
+
+* Example 
+* Find all sailors who have rating greater than 8 but age less than 25.
+* '^' -> AND symbol [**IMPORTANT**]
+* 'V' -> OR symbol [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e6303554-7229-4110-b366-46a07d717baf)
+
+* Example
+* The **select** operation is **commutative**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a9de2545-864e-4111-bcd0-136475c3bd75)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/55357f53-d456-4bac-b9d0-10af83507af1)
+
+* Question
+* Link -> https://gateoverflow.in/743/gate-cse-2001-question-2-25
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb0e42f0-ce97-4a11-8d3f-60b46b85f304)
+
+* Solution.
+* **select** filters rows based on the cond
+* **Same** as **where clause** in **SQL**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a650117-4b7e-471b-842e-16660f688437)
+
+* Example.
+* (Sigma) price >= 15 ^ price <= 30 (Products)
+
+## Project
+
+* The **project** operation results in a set of **distinct tuple** as the project operation removes duplicate tuples.
+* It is like **select clause** of SQL.
+* It **eliminates** duplicate from tuples/rows. It takes only **distinct** values from tuples/rows.
+* We do **project** at the **last/end**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05ff3842-b965-4fad-84eb-cae2afa00d71)
+
+* pie cname (customers)
+* We will get **distinct customer names**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3afeaf74-9081-40e7-86ab-c6c5aec6e5ed)
+
+* pie Ename, Salary (Employee) [Example] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2ae8910-9770-4b95-8a7a-35e3e465e920)
+
+* pie Salary (Employee) [Example] [**IMPORTANT**]
+* We are getting **distinct salary** which are **3** only
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65a4aaa7-ecba-4044-9d88-38bb5aee56e6)
+
+* pie A, B (R) [Example] [**IMPORTANT**]
+* We got **combination** of the **distinct values**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a383973-aca4-4cfc-b9c2-9f5f485f1be5)
+
+* **Sequence** of **execution**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/67dd15ea-f87c-46ca-9b9c-746835d8bc71)
+
+* pie Ename (sigma Dno = 2 ^ salary > 17000 (Employee))  [Example] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12b05b65-1eb0-4de3-aa6e-4c3de8e152c0)
+
+* Yes, fetching the records.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5bded8e-3a39-4441-8c41-479326d0ab52)
+
+* Fetch name and dno of all male employees who are having salary less than 30000. [Example] [**IMPORTANT**]
+* pie ename, dno (sigma salary < 30000 ^ sex = 'M' (Employee))
+
+## Set Operations
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/197612ed-7da1-4978-9828-ec83de9eb7ae)
+
+* If we want to use a **set-operator** then we have to keep **two** things in mind:-
+
+1) No. of columns must be **same**.
+2) Data Types in the corresponding columns must be **same**.
+
+* No. of columns and data types of corresponding columns must be **same**.
+* If the **condition** are met then **any set operation** will work.
+* Operations is performed on **tuples/rows**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33ce46eb-51d3-48be-bbf0-91e464eba41a)
+
+* Example. [Table]
+* The **whole tuple** needs to be **duplicate** otherwise we will write the **tuple** in the **union**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d598f68b-86c4-4007-a9a4-99b131e28808)
+
+* We got the **distinct age and distinct name** from **E1 union E2**. [Example] [**IMPORTANT**]
+* **Relational Algebra(RA)** doesn't remove them automatically but **project** removes them automatically. There is a **difference** [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/54c5458c-5d4e-415f-9377-35999f9864ee)
+
+* (pie sname (sigma dob = '27-10-1988' (Students))) U (pie ename (sigma salary > 15000 (employees))) [Question] [Example]
+
+### Intersection
+
+* Intersection -> Common Only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f8b8291f-bf0b-47ac-b5a8-7e0a91f25cd5)
+
+* Example
+
+### set-difference
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a33be5f8-6730-43e7-a123-ecb30a8078b6)
+
+* E1 - E2 -> * E1 - E2 -> All those tuples of **E1** which are not present in **E2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e570fa1-3ebd-4820-bf12-cfb3f2762c55)
+
+* E2 - E1 -> All those tuples of **E2** which are not present in **E1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/673266d9-9ec3-4242-ad4b-f6eee5df494b)
+
+* **Union and intersection** are commutative and associative. [**IMPORTANT**]
+* **Set-difference** is not applicable.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/864e01d7-7cf2-4eb6-b242-6cbc9d536bf4)
+
+* **Yes**, they are **equivalent**. [Example] [Question] [**IMPORTANT**]
+* **Project** is **distributive** over **union**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0325e796-b2d4-4f7a-a827-325de0faca66)
+
+* **Project** is **not distributive** over **intersection**. [Example] [Question] [**IMPORTANT**]
+* Both are **not equivalent**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/82fa8f90-0895-4427-934d-e817413f6649)
+
+* Solution. [**IMPORTANT**]
+
+## Cartesian Product(Cross product)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd4d0522-4669-4577-87f3-6f483514a6c0)
+
+* Cartesian Product(Cross product) 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc317b2a-3fdb-4dc0-80f8-3763bdcca7f4)
+
+* Cartesian Product(Cross product)  -> pie A = D (R X S) [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/094ceb7c-af16-4109-81f7-705bd04b9801)
+
+* Solution. [**IMPORTANT**]
+
+## Joins.
+
+* When we join **two tables** and we filtered out the result based on the condition.
+* This is called as **condition or conditional join**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69ecdf5a-0fde-425f-be2d-fa7800ebfabe)
+
+* In **conditional join**, the join condition would be **>=, >, <=, <**.
+* There will be **no equal too(=)** con
 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af322074-3221-4e29-bc36-1b7b5d898822)
+
+* Equi Join.
+* In **Equi join**, we are going to use **=** operator.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a63a919b-da49-4a20-bc50-f36b48979458)
+
+* We will get **two** rows.
 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e35a6c14-dc43-4dd9-af94-834830e4a185)
 
+* In **cross product** form.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/da86550f-2d7b-4d98-9704-370d47306ceb)
 
+* Example of **Equi Join**.
+* We will get **101, 103 and two times 104**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ee7ad5d-6b5f-4cf9-a605-5c642760c075)
+
+* In **natural join**, we don't have to write any conditions. 
+* We will write it directly.
+* There will be **one common column**, the **column name** would be **same** as well.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d20067ad-9945-4186-9628-4fe2303a7b1d)
+
+* The **Rollno** is the **common column** here.
+* The condition will be automatically applied on them(common column).
+* The **common column** name should be **same**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7ab5b99-f170-4bef-a481-2fd7f4152fe6)
+
+* If the **common column** name is not the **same** then we have to **explicitly** write it. Like above. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7dd5ec53-0b90-43c0-842a-8f3100660e4a)
+
+* **Implicitly equi join** is used for all **common columns**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e738f533-2b94-4478-9bb1-b64f7133e946)
+
+* There are **two** common columns, **A and B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/64dac596-4d87-408d-a912-f121d99cef71)
+
+* Attribute/column name which is the **common column** does not have the **same name**.
+* Then, we have to **explicitly** write the **condition**.
+* Otherwise, we can write like **natural join**, no conditions needed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/68c6b02e-d101-4f0f-a92e-9c8573f34534)
+
+* The **common column** which is **cid** has the **same** name. [**IMPORTANT**]
+
+### Summary of Joins
+
+* **Conditional Join** -> <, > [Cannot be equal to(=)]
+* **Equi Join** -> =
+* **Natural Join** -> No condition. [The tables have the common column with the same name on both the tables]
+* In **natural join**, automatically the **common column** join condition is there. We don't have to write it. 
+* In **equi join**, we have to write the **common column** join condition. The **name** of the **common column** is **different**.
+* [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7985e12-b4e9-4e9f-b6da-ba52c281fbef)
+
+* One Way. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f9d355c-29b5-4e84-a769-02b8aae70dd6)
+
+* Another Way. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee7492af-fd4c-4066-a0b2-ee872a3a590c)
+
+* Solution. [**IMPORTANT**]
+* Start from **1497**.
 
 
 
