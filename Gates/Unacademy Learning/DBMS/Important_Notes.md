@@ -2393,7 +2393,256 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee7492af-fd4c-4066-a0b2-ee872a3a590c)
 
 * Solution. [**IMPORTANT**]
-* Start from **1497**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0659fd5c-78fa-4ad5-a08c-cc8472fe03f7)
+
+* (pie dname (sigma drivers.did = drives.did ^ cars.cid = drives.cid ^ ccolor = 'Blue' (Drivers X Cars X Drives))) (Intersection(U)) pie dname (sigma drivers.did = drives.did ^ cars.cid = drives.cid ^ ccolor = 'Black' (Drivers X Cars X Drives))
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/517a3b63-40a7-4029-9090-d7dac2d26fd5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fac53007-9a7d-4827-965e-f5b75204c289)
+
+* Solution. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db038dcf-d935-4075-b4c5-6332f9eefe11)
+
+* **Left Outer Join** -> We get all values(rows) of the **left table**. [**IMPORTANT**]
+* **Right Outer Join** -> We get all values(rows) of the **right table**. [**IMPORTANT**]
+* **Full Outer ** -> Extra records of both the tables will come that do not participate in natural join. [**IMPORTANT**]
+
+## Rename Operator
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81f99207-bf0c-4294-a70b-7a63223e100b)
+
+* When we want to **rename** the names of the columns as well as the **table** name.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0176612c-17fe-45fd-ac3b-766c831de768)
+
+* When we want to **rename** the names of the columns only, we are aliasing the table as well but we are not giving a name to the table.
+* New instance of **student table** is created. We haven't given a name to the table, we have just renamed the column names.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7fe652a7-724c-464d-9bdd-84573defda7b)
+
+* When we want to **rename** the names of a **specific column**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6dcbc7fc-d71d-4c59-a386-c1987a8ed15b)
+
+* Both.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7cc3e8c9-3b59-4e0a-9b88-d9efab3c1c60)
+
+* Sequential renaming.
+* If we don't want to rename all of the **columns** then we have to put **arrows(->)** for the column renaming. Otherwise it will not work.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/861cfb03-5618-44fd-88fd-15f19777a557)
+
+* All [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bae51f82-48bd-4910-bdb3-b036f52a814d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b124aea-3b4b-4b57-9a91-4d1bbc99df9a)
+
+* Example
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/859f5fe9-6fce-459d-94af-1358b4a5cdf7)
+
+* It is conditional join.
+* (name of all female students) - (name of all female students who have scored equal or lesser than any male student) -> name of all female students who have scored more marks than all male students.
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa18e0bb-3af2-42ef-984d-d453ad9cab79)
+
+* It is conditional join.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/39136a2d-b519-4291-bc8c-dc19adfa8ad6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e49bf3b0-a292-40d7-b39d-9ba880a6c506)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ba7c951-41d0-4e89-a930-385197089487)
+
+* We got the **female sid** who have not enrolled into a **particular course**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7daaf537-7a4a-4ac5-a0a6-c8229175ad4a)
+
+* The **cid** of **c1, c3 and c4** are the courses where some students have enrolled.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95c6cab0-8ef8-46b9-9663-4532a38d7349)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a9992ed-c932-42d0-8c23-18a08872ae52)
+
+* we will get **those courses** where not all of the female students have enrolled but some of them have enrolled.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/49aa39ce-da5e-43d9-8882-9ac207df5698)
+
+* Option **B**.
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d87fabe9-f692-4034-96bb-75b4c3e73caf)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b7d95318-219f-46f7-b1c8-0140b6371367)
+
+* Question.
+* 1
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3fdcc788-a137-4b65-8415-dc515e8f12d9)
+
+* Solutions [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ee76b12-ffcd-42b2-a9ce-a7cf601b2ce8)
+
+* Set-difference. [Another way]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b2ad916-21b5-469b-adf5-8fa443d59042)
+
+* Question.
+* 1
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f06d4091-1f6c-4e9d-9d5e-63e19ed53cd3)
+
+* Solutions. 
+* As range is mentioned, so, it will be **inclusive** only. [**IMPORTANT**]
+* If supplier details needed, then use suppliers relations. We have to do **join** then.
+* We are writing **pie suppliername, address, city(project)** because we only want the **supplier details**. If we don't write **pie(project)**, then we will get the details of **products** as well which we don't want.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/524c97f3-331f-4696-9e1c-19d70ea4e10f)
+
+* Solutions.
+
+## Division Operator
+
+* R1 / R2.
+* R1 -> Numerator
+* R2 -> Denominator.
+* **R2** should be **smaller** for good/smooth division.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6390583d-554d-42c4-b6be-762bbf4a1af1)
+
+* It will work. [**IMPORTANT**] [Example]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f1ae5604-9937-4b0d-968b-2fbf935e64e1)
+
+* It will work. [**IMPORTANT**] [Example]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb31d33b-429b-40c2-bec8-2a84ffa71bc5)
+
+* It will not work. Since we want **R2 attributes** to be **subset** of **R1 attributes** and **D** is not in **R1**.
+* R1 / R2 
+* The result is the attributes that are not in **R2** but are in **R1**.
+* Should be **R1 - R2**, mistake fix it. Check **below**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a0b24bb-6cde-4ad8-9424-81639615726f)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9be66525-0c30-47bf-99f4-7f77d489555e)
+
+* Example. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57c92636-c7d5-472e-b269-ae109d751528)
+
+* Definition.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8cef5b77-18a5-498b-9ba6-f311c863eb15)
+
+* Example [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5ffca06-39cf-490d-bd26-82b786803c7e)
+
+* Example [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/96d3bf6e-aa55-489d-83b1-2e49f371c129)
+
+* Single value of **B column** associated with **A1 and A4** from the **R2** table's **A column**. [Example] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e0b8488f-a241-4d5a-821f-2b1f10bd8862)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/28b36384-5609-4bff-9379-dd3b4b260e01)
+
+* Example [**IMPORTANT**]
+* **Division** operator is **for all**.
+* After the **division** we will get **pid** but which **pid** we will get. The **pid** that are associated with every **prodid**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f97a244-0885-4e46-9439-5b5ace6a84b6)
+
+* We want that **pid** which is in-front of all the **prodid**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b645c9bb-3260-4082-a6ee-ef6a1900e002)
+
+* Question.
+* https://gateoverflow.in/118329/gate-cse-2017-set-1-question-46
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ec4bdf1-0d0f-4a5b-9240-59ceeacbaf07)
+
+* Solution
+* Answer -> 4
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e79d065e-cedb-4383-b85e-ac20bcb90fe3)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d55baa3-4178-4bac-991a-4ad60b0922c9)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e79d065e-cedb-4383-b85e-ac20bcb90fe3)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba987728-0bda-4dc4-b8d1-f7bab263c4b3)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0c32046-1855-4aca-a01b-7994d0a1a572)
+
+* Yes.
+* CarID and Date should be **same** value with the **Cid**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5492a93a-26d8-474c-8ade-ff4751fbf834)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66a82715-dba9-4d8f-b25d-c03aeb317ea6)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5bc71aaf-082a-49f8-b9b7-ab9d4af51435)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc10e1b0-2496-4b08-a761-fe976bf3c163)
+
+* The condition would be **True** for one row only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/743e696e-56fd-47d5-b4e7-2b0a7242a241)
+
+* Same Only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/73904c6e-516c-48fc-9147-d9120ac2823f)
+
+* Will work.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
