@@ -2767,6 +2767,25 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 * 3 tables.
 * {t.cmodel | t belongs to Cars ^ there exists D {D belongs to Drives ^ D.cid = t.cid ^ there exists E {E belongs to Drivers ^ E.dname = 'Mitchell' ^ E.did = D.did}}} [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0faf45e5-9fbc-41ac-8c3f-0b3eebab0d1b)
+
+* In general, when we have to do **joins**, like above, then **there exists** is fine. It will work.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5f00f1cd-6870-4856-9001-9683975b0138)
+
+* Whichever is asked first in the question that table comes first. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/089695a7-961f-40cf-b4c3-ceb37310c218)
+
+* Solution. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e856a8b-f90f-4e82-b9b0-6a1650df8b4d)
+
+* Another Way. [**IMPORTANT**]
+
+
+
+
 
 
 
