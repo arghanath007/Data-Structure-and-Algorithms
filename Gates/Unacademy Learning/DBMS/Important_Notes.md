@@ -2618,20 +2618,170 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 
 * Will work.
 
+## trc-drc 
 
+* RA -> Relational Calculus.
+* Predicate Logic(P)
+* Domain -> Concentration on Attributes
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3b6c9ccf-29b4-455c-afb6-5e6bca583faa)
 
+* Relational Calculus.
+* **Tuple Relational Calculus** -> Focused on tuples -> Bring those tuples by writing conditions.
+* **Domain Relational** -> Focused on attributes -> Bring those attribute values which satisfy the conditions.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf4f570f-3a39-4dfe-8a7c-4261acf525bb)
 
+* Relational Algebra is procedural.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0e514e4-bd62-4f52-9a26-d3868e6e7796)
 
+* tuple(t)
+* t -> On the **left side** of the **bar** is the **tuples** we want to **select**.
+* P(t) -> On the **right side** of the **bar** is the **conditions, from where** we will get the tuples. Conditions that are satisfied by the tuples. [Predicate]
+* t -> tuple variable.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/94e48a0a-c66c-4462-bf7b-b6869b2c9547)
 
+* {t | p(t)} -> fetch all tuples(t) which are satisfying the predicate, p(t). [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/507ee3a4-3b37-43e8-9b13-74c722dc3036)
 
+* {t | t belongs to student} -> fetch all tuples(t) which belong to the table, student.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f097fe4e-3c9a-434f-85f2-f665628b8f8f)
 
+* Yes.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2df1a328-17df-4245-ba18-6e9feff9e003)
+
+* To get a **specific attribute/row** from a tuple. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/541da373-f097-4662-b128-9118799aa619)
+
+* Example.
+* We just want the **name** of the students from the student table.
+* Attribute -> name.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86ccd9e6-7ff7-4703-82a1-20914d72dc4a)
+
+* Yes, Full row is **tuple(t)** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e9b4be2-2569-43d3-886c-5a1746dd27e8)
+
+* Example. [Another Way]
+* t[name] OR t.name
+* Both are **same** and correct.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/378b2e42-e2f3-4b5c-afef-b73b12817590)
+
+* Separating multiple rows with commas(,). [Example]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d85eb689-378b-40d1-88ac-441cfcf09a81)
+
+* Comparing with **SQL** statements.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b62a4d9c-c1a8-4f8e-b38e-92087eb70a87)
+
+* This is also **correct**. [Another Way]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ebb3190d-cdbe-48f4-a3eb-cb49517229be)
+
+* Example.
+* ^ -> AND
+* It is like **where** clause in SQL.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aaf428de-2dd6-4da5-96e2-833366cd42d7)
+
+* Find firstname of all shopkeepers who are having rating between 7 to 10 [Question]
+* {t.firstname | t belongs to Shopkeeper ^ t.rating >= 7 ^ t.rating <= 10} [Answer]
+* TRC(Tuple Relational Calculus) eliminates duplicate. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/77eb0e29-b474-48b2-b80e-7d954eb9d202)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5cfe3b0-a084-4f51-a2f8-916fbc10b4c6)
+
+* Both give the **same output** but the writing is in **different formats**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf133a69-fe8c-4efa-ad7d-e6e0bb3239de)
+
+* Example
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e1847f4-b192-4387-8756-ae18daa54838)
+
+* Empty set because there is no any attribute age in relation students.
+
+## Quantifiers
+
+* Existential -> There exists a tuple(t), which belongs to a relation and satisfies predicate(p).
+* Universal -> All tuples(t) satisfy the predicate, P(t) then only we can bring the tuples, otherwise not.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e2b33b0e-5bbe-4050-9928-46f7dddf6d84)
+
+* Quantifiers [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/321d38ac-4c91-4518-afc6-a97d61172802)
+
+* For **two table**. [**IMPORTANT**] [Example]
+* {t | t belongs to students ^ t.Gender = 'Female' ^ there exists s {s belongs to Department ^ s.Dname = 'CS' ^ S.Dno = t.Dno}}
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/837f7a72-1a90-4c82-988b-9aa786945228)
+
+* Explanation.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5bbaa7c9-ab28-49b0-be82-c750cd40c665)
+
+* No.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0cd05c04-13a7-4789-a70d-2a66fea7ecf2)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9bc853a-de3a-4cf1-b087-d437d146aa18)
+
+* Solution. [**IMPORTANT**]
+* {t.Dname | t belongs to Department ^ there does not exist(~) S {S belongs to Students ^ S.Gender = 'Male' ^ S.Dno = t.Dno}}
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5fb8937-178b-4035-b3da-ce045fe69b3a)
+
+* Symbols for AND, OR and NOT.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dea1f887-ec5d-439b-8c03-d130ead2ec95)
+
+* NOT Symbols
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f1eceb3-df26-468b-88fe-55f7ab70330c)
+
+* Another Way. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/519b409f-53f4-4b2f-a9d8-62899f083385)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd52733d-73dc-48db-b53d-d77056d5dceb)
+
+* Explanation.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/638a79c4-7e6c-4bb6-9578-2db22686ef0a)
+
+* Question.
+* 3 tables.
+* {t.cmodel | t belongs to Cars ^ there exists D {D belongs to Drives ^ D.cid = t.cid ^ there exists E {E belongs to Drivers ^ E.dname = 'Mitchell' ^ E.did = D.did}}} [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0faf45e5-9fbc-41ac-8c3f-0b3eebab0d1b)
+
+* In general, when we have to do **joins**, like above, then **there exists** is fine. It will work.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5f00f1cd-6870-4856-9001-9683975b0138)
+
+* Whichever is asked first in the question that table comes first. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/089695a7-961f-40cf-b4c3-ceb37310c218)
+
+* Solution. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e856a8b-f90f-4e82-b9b0-6a1650df8b4d)
+
+* Another Way. [**IMPORTANT**]
 
 
 
