@@ -2783,12 +2783,143 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 
 * Another Way. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/59c15282-9bec-4722-9212-759dccdfc22d)
 
+* Solution. [Another Way]
+* {t.sname | t belongs to Student ^ there exists E {E belongs to Enrolled ^ E.rno = t.rno ^ E.duration= 2023 ^ there exists C {C belongs to Courses ^ C.cname = 'DBMS' ^ C.cno = E.cno}}}
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c00a0e13-68a6-4465-974b-cb7ac8f98182)
 
+* Here, we have to write the **common table** first. [Example]
 
+## Tuple Variable
 
+* Bound -> Where we added **quantifiers**. Used with **Quantifiers**.
+* Free -> No **quantifiers**. Not quantified.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/53b92e7f-0769-40ae-b2f4-8cad07495499)
+
+* **There Exists** -> The combination between the rows should match. [Example] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/77ec15f6-2348-4175-9eb6-b78413bd6e28)
+
+* **For all** -> There should be combination with all the rows on the right hand side, with the single row on the left side. [Example] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/852edf4c-8219-4179-9f6f-dbf4dda1e8d3)
+
+* {<r,f,l,m> | <r,f,l,m> belongs to Students}
+* **First part\left side** of the **|** bar is what we want.
+* **Second part\Right side** of the **|** bar is the **conditions**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9693ae68-8a49-4e6f-a1b0-dd71f105c6cf)
+
+* Similar to select * from students.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a997153-b8b4-4b30-ab89-bad9f6e29ae2)
+
+* We just want the **first name** of all students.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/14c3561a-325f-45ab-9899-048cc59b0ac9)
+
+* We want the **first name** of those students who have **marks(m) greater than 90**.  [Example] [**IMPORTANT**]
+* The table name we have to write always. All of the columns names we will also write. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6530bb64-65ff-498e-9836-8e15e3911c69)
+
+* Yes.
+* It shows the particular attribute. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/209c8b19-7ea8-4124-bf51-3a64de6e80c9)
+
+* We can write the **variable names** same as the **column names**. Just remember to **maintain** the sequence of the columns in the table. They should come in **sequence**. [**IMPORTANT**]
+* Name of all such drivers who are having rating > 8 and dob = '27-10-1988'
+* {<dn> | <d, dn, r, dob> belongs to Drivers ^ <r> > 8 ^ <dob> = '27-10-1988'}
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/209c8b19-7ea8-4124-bf51-3a64de6e80c9)
+
+* We can write the **variable names** same as the **column names**. Just remember to **maintain** the sequence of the columns in the table. They should come in **sequence**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8c426a7d-84bb-4c1e-84c3-8283d8952eee)
+
+* [Example] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5020ee02-6713-4b76-abb8-a96a10191a44)
+
+* If we have one/single value with **equal too condition**  then we can **replace** the **domain variable** with that **number/value**. [Another Way] [Example] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d81592c-1587-4fe6-95c5-60d0ce5143f7)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec8d4260-d9be-4e51-b9be-6354c4cb09a7)
+
+* Both are **same** and they work.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b59072a9-69fb-468c-a01e-9e885418d424)
+
+* Example [Solution] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2542afe3-ac34-4f3e-84de-124c4a2c350d)
+
+* Many to many participation constraint [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c4a272a3-8dfd-4d54-a79d-f6721b1382f0)
+
+* We cannot control the **participation constraint** in **many to many**.
+* We can control the **participation constraint** in **one to many, many to one and one to one**.
+
+## Transaction
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc57e29b-98af-4cf7-aa3a-2f92a75c5dd8)
+
+* Sequence of **DB access operations** is called as **transactions**.
+
+## States of transactions
+
+* **Commit** -> To save the state of the transactions.
+* **Rollback** -> Revert the database state to that state where transaction has not even started. It will take us back to the **last commit**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/514becc6-3ff5-4a56-ab13-e6ba62e0291e)
+
+* As there was **rollback** at the end, so we **reverted back** to the **last committed value of 'x'** which is **5** that's why we got **x = 5**. [Example]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4ebf7528-2e79-4ff0-97fe-8fc23159f374)
+
+* States of transactions. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d13d15f-0bb4-48cb-b3d2-b48a3c442320)
+
+* If a transaction has **failed** then it has to be **rollback**. It is not the job of the users to **rollback** the transaction. It is the job of **DBMS**.
+* The **rollback** of the transaction is done by **DBMS**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f16c111a-cc58-479a-bc6f-e2df07eee297)
+
+* If the **commit** was successful or the **transactions** were committed.
+
+## Schedule
+
+* Collection of multiple concurrent transactions.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f437bb4-6de3-42f3-8755-481617b9451d)
+
+* This is **Parallel** work.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cab3f88b-46ef-4e70-9ea3-034fc6fa6b5e)
+
+*  This is **Concurrency** work.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bcb305cc-f3c8-415b-ac6f-0f4d5bf73dd8)
+
+* Parallel run. [Example] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/67aa6bdf-25d9-4b8d-975d-3bee752b6ec1)
+
+* Concurrent run. [Example] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0d33718-10cd-457d-a806-c8a21568b00e)
+
+* Parallel and concurrent run. [Example] [**IMPORTANT**]
+* 409 Line.
 
 
 
