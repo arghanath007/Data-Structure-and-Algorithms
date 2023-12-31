@@ -2919,8 +2919,395 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0d33718-10cd-457d-a806-c8a21568b00e)
 
 * Parallel and concurrent run. [Example] [**IMPORTANT**]
-* 409 Line.
 
+## ACID property
+
+* ACID -> Atomicity Consistency Isolation Durability
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/716bc833-bb6a-4ff3-bf68-22a7a5b1ec84)
+
+* Atomicity -> All or none. Either it will run fully or it will not run.
+* Consistency -> Expected output/result from DB.
+* Isolation -> The concurrent transactions should run in such a way that they provide final result same as they were running like one after another.
+* Durability -> We should be able to see the results for a long period of time.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f935571a-2e76-4761-a330-6a43a6c7da1b)
+
+* Why Concurrency [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f288361-9ddd-4daa-b30f-4e8fa8cda159)
+
+* Problems with concurrency [**IMPORTANT**]
+
+## Dirty Read or Temporary Update Problem [**VERY VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed93224b-27ff-4153-8bc5-6a9fa3256181)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dce38738-9a4a-44d5-bc5f-d8150c5832ff)
+
+* Reading someone's dirty written value. [**IMPORTANT**]
+
+## Phantom Read Problem
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e4253d4e-0f66-40da-af00-8bb1d5bcba12)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a96a3174-89fb-49e7-a1a8-9f2bc583750c)
+
+* Wanted to read again but the value was gone. [**IMPORTANT**]
+
+## Unrepeatable Read Problem
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e5f7868-a2c7-4d47-855f-0067a062c25f)
+
+* When **reading** two times, we got the **old value** once and we got the **new value** the next time. [**IMPORTANT**]
+
+## Lost Update Problem
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed7b0c8d-7fb9-477d-bbed-0e6902174be1)
+
+* **X= 7** is **lost**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ccc7537-f4d1-4635-86c8-7ce19ffc0b74)
+
+* Some transaction **directly** writes and does nothing else, nor reading or updating anything then it is called as **blind write**. [**IMPORTANT**]
+
+## Good VS Bad schedule
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0c9414d-ba51-4733-b93a-79856678c7bf)
+
+* Good schedule -> Final result as expected.
+* Bad schedule -> Final result not as expected.
+
+## Serial VS Non-Serial Schedule
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/77882efb-5eeb-438d-8d18-d1bf047b1f68)
+
+* Serial -> Sequential System.
+* Serial -> First a whole transaction runs then another whole transaction runs. We are not talking about which transaction will run first. Anyone transaction's whole statements are completely run then another transaction's whole statements are completely run.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea1486fb-1531-403e-ad52-0e11ca0d7615)
+
+* Non-Serial Schedule -> Also called as **concurrent schedule**. 
+* They run in **interleaving** manner. There is no manner/way in which the scheduler runs, anyone of the statements can be run at anytime. We got no idea how the statements are run.
+
+## Serializable Schedule
+
+* Serializable schedule is a schedule which is **concurrent** but it's final result comes in the way of **serial schedule**.
+* A concurrent schedule which can provide final output as a serial schedule is called as serializable schedule.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24ec8800-f183-4629-b058-8dc6ce920f2a)
+
+* Example
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30fef9aa-c29d-4b2b-9f01-d5afdb55cfae)
+
+* Serial Schedule, **run T1 then T2**.
+* We are getting the **same output** as a **serial schedule**. So, it is working like a **serial schedule**.
+* Serial Schedule, **run T2 then T1**.
+* So, it is a **serializable schedule**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b0d7702-5653-4551-bce1-2415840298cd)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b646caa-da52-4dd8-b6ee-e3b5d2bedd6e)
+
+* T1 then T2
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2cf1204f-0779-4a19-b4ec-089eef80ddf3)
+
+* T2 then T1
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df3222bc-4b33-45e2-89e7-41d949c8bc83)
+
+* It is **serializable schedule**.
+* As the **concurrent schedule's output** is matching with **one of the serial schedule** outputs which is **T1 then T2**. That's why we can say that the **above** is a **serializable schedule**.
+
+* If it(concurrent schedule) matches with **anyone of the serial schedule output** then it is a **serializable schedule**. [**IMPORTANT**]
+
+* Serializability -> Method to prove that a **concurrent schedule** is **serializable**.
+
+* **Types**:-
+
+1) Conflict Serializability
+2) View Serializability
+
+## Conflict Serializability
+
+* Find conflicts and then based on it prove that a given schedule is conflict serializable or not.
+
+### Conflict
+
+* Two(2) database access statements are conflict statements if and only if all of the following conditions are satisfied.
+
+1) Both statements should be in **2 different transactions**.
+2) Both statements should access same data item.
+3) One of them should be a **write operation**.
+
+* There will be **no conflict** between **two read operations**, which is **Read to Read** operation.
+* **Conflict** will be between **Read to Write**, **Write to Read** and **Write to Write**. [**IMPORTANT**]
+* When **checking for conflicts**, we should be checking the **below/bottom** statements than the **above** statements compared to the **current statement**.  [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fdeb39be-320d-4f81-845b-93537fcb4c54)
+
+* Example
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cec40dfa-7e1b-4d82-a8c8-4fa2a4c62ca6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/264cfabb-46d5-4bff-b8ba-57f0938f83fb)
+
+* 2 conflicts we got.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8777db71-5bb1-4d31-b3ee-ded82cd7df32)
+
+* 2 conflicts we got.
+* R(X) -> W(X)
+* R(Z) -> W(Z)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d777812d-bf27-4f5f-82c7-fcd6b478b50b)
+
+* Example.
+
+## Conflict Equivalent Schedules
+
+* **Different schedules** where we have **same type of conflicts** on the same data items, same sequence.
+* **Two schedules** having **same conflicts** in the same order. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7996649e-24c1-495a-95fb-f6b8fdde4b4e)
+
+* **S1 and S2** are **Conflict Equivalent Schedules**. [Example] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f642104-3f40-40f3-beb3-6cab9573014b)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b08c685d-d736-4e98-88b4-e86b59ff0364)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2713486d-4a7f-4891-98b3-8c3e2975b447)
+
+* Not **Conflict Equivalent schedules**. [Example] [**IMPORTANT**]
+
+## Conflict Serializability
+
+* Given schedule 'S' is conflict serializable if it is conflict equivalent to  S' .
+* Where S' is a **serial schedule**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a140167d-831c-44cd-bba3-dc215b7ba60c)
+
+* Precedence Graph -> Directed Graph.
+* Vertices/nodes -> Transactions
+* Edges -> Conflicts.
+* After drawing the **graph**, check if it has **cycles** or not.
+* **Cycle** -> Started from an edge and followed vertices and was able to return to the starting edge. Then it is a **cycle**.
+* If **cycle** present in graph -> Not conflict serializable [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37d7141d-94aa-4dea-a700-1319f915b7d8)
+
+* Cycle present -> Not Conflict Serializable.
+* Solution [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ef16b10-3669-4515-b34e-554908dd355c)
+
+* Solution.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/564462f1-4ad5-4735-b299-34804a46bf6e)
+
+* As there is **no cycle** so it is **conflict serializable**, so we have to tell the **sequence** also. [Example]
+* Sequence -> T1 -> T3 -> T2.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b8cf1b2-dd1d-4bd4-9349-267250b44a5f)
+
+* R/W -> Read/ Write
+* Number -> Transaction Number
+* A, B, C -> Data Item
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d37bc5c6-f508-49dc-b8e5-8819086cd72c)
+
+* Solution.
+* As there is **no cycle** so it is **conflict serializable** and we have to write the **serializability sequence**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/08a9aff4-0899-4dde-96cf-9e2d2280ecd5)
+
+* Yes [Answer]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/815aa2d7-3952-43e1-b234-a3e1b1609cbf)
+
+* Wherever **commit** comes after that we don't have to check.
+* No checking after commit for **conflict**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1405bdd4-53b2-4704-a0fb-15660c2cfabc)
+
+* No Cycle, so conflict serializable. [Example]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41eb7dd6-adc4-4568-83dc-f5cd2bb27bbc)
+
+* Doubt. [Solved]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b9c3bc02-7065-4193-b749-f82dc98b273f)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05ab65dd-3448-4254-abf4-0049420cd3ca)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f81d5f7-fb41-4df0-a77d-f80da75babaf)
+
+* Solution.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/764cec61-de73-48e4-9c4e-70a21bd130dd)
+
+* Answers. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72812e13-502c-45f4-a145-c1271daa70b2)
+
+* Question.
+* Link -> https://gateoverflow.in/2063/gate-cse-2014-set-3-question-29
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/da04876f-7284-43e4-b222-1590672da92d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9fa912f3-f7e3-4bbe-af4f-e838d8d50182)
+
+* Solution.
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3247a5c2-610c-4573-93d1-86834efe9256)
+
+* Question.
+* Link -> https://gateoverflow.in/357419/gate-cse-2021-set-1-question-32
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6419c674-6949-434e-97d8-188117140247)
+
+* Solution.
+
+## View Serializability
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5da40bec-7708-4e51-8510-17acde93c426)
+
+* There are **many good schedules** which we couldn't identify with the help of **conflict serializability**.
+
+### View Equivalence
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30a8f50e-4e61-4c84-a833-15308ea5b7b9)
+
+1) Who is reading first from database
+
+> **T1** is reading the **X** value from **database**.
+
+* **T2** is reading the **written value of 'X' by T1**. It is not reading the original value of **X** from database.
+* Who is reading first from database?
+
+> **T1**.
+
+* Who is reading first from database? -> Who is directly reading the value of **X** from the database before any other **transaction** writes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41f5db02-07c8-4bd8-998a-6a568d642538)
+
+* So according to the **first rule**, we will say that **T1 and T2** transactions have read first the value of **X** from the database. It is because **T2** has not used **W(X)** which means that the value of **X** hasn't been **updated** from the original value.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa6d303f-1146-48a9-9d14-6e43745a588f)
+
+2) Who is reading from other
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b89170fd-3524-4084-871a-779f33d555fd)
+
+* In this **T2** transaction is the one who is reading from **T1**.
+* **T2** reads **X** from **T1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d41fe5d-82b1-4ecc-b694-9457205355a7)
+
+* T1 reads **X** first
+* T2 reads **X** from **T1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c549c69c-d55c-4497-bd1e-21ba6ceac8a8)
+
+* Who is reading from from database? 
+
+> T1 and T2.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef8ef139-852e-40c0-8019-c9b31b88a1bd)
+
+* Who is reading from other?
+
+> **T3** is reading from **T1** as **T1** has last written to **X** before **T3** tried to read **X**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/42798d00-d0ec-49e3-86cc-195fd3c04898)
+
+3) Who is writing last
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/51c48214-032a-4846-a383-1c1e54287176)
+
+* **T1** has written last to **X**. [**VERY IMPORTANT**] [Example]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8904395d-f357-429e-a11e-f486fff78edb)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/77a20523-a1ef-4382-a93a-f89476314760)
+
+* **View Equivalent** -> When both schedules S1, S2 are following all the 3 points for all data items(Above 3 points). [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57ebd05b-df18-4e5b-9a7d-a673339dc43b)
+
+* We have to check if they are **view equivalent** or not. [Question] [Example]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d118a3d3-6eaf-4df5-b933-1bddc746fe84)
+
+* Not **View equivalent**. [Solution]
+* S1:-
+
+1) T1 reads X first from DB
+
+* S2:-
+
+1) T1 and T2 reads X first from DB
+
+> As they are **not the same**. So it is **not view equivalent**.
+
+* If anyone of the **3 conditions** are violated then it is **not view equivalent**.
+* All of the **3 conditions** are to be **matched/satisfied** for it to be **view equivalent**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44d9acfd-3d20-44be-9ddf-48d34260ad3a)
+
+* Question.
+
+1) T2 and T3
+2) T1
+3) T2
+
+* All of the **3 conditions** are to be **matched/satisfied**. [**IMPORTANT**]
+* So **S1 and S2** are **view equivalent**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/217f8f9d-b407-4198-9992-3284560d7e87)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2d269be-a89b-4a97-9066-215320b6a9dc)
+
+* Question.
+* It is **view equivalent**.
+1) R(X) of T1
+2) W(X) of T2
+3) W(Z) of T3.  [Solution]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bd8b7c97-3572-41f1-a815-aca1b62b2e43)
+
+* Yes, we have to check **9 things**.
+
+### View Serializability
+
+* A schedule is called as **view serializable** if it is view equivalent to any serial schedule. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/10f71e16-2a74-4b65-b9dc-efed9ee2c04f)
+
+* Question. [Example]
+* **T1 and T3** cannot come after **T4**.
+* **T2** should come after **T1**. **T2** has to come **immediately after T1** as there is **W(X)** at **T(3)**.
+* Otherwise **T2** will read **X** from **T3**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f282c05b-7faa-43fa-aab0-998225cf6a0b)
+
+* We have to make a **serial schedule** of **T3, T1, T2 and T4** and check the **view equivalent**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/655eb2f0-1bd2-4b52-8c0f-c49c94632992)
+
+* Serial schedule.
+* Yes it is **view equivalent**.
 
 
 
