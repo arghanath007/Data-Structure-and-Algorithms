@@ -2783,12 +2783,1192 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 
 * Another Way. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/59c15282-9bec-4722-9212-759dccdfc22d)
 
+* Solution. [Another Way]
+* {t.sname | t belongs to Student ^ there exists E {E belongs to Enrolled ^ E.rno = t.rno ^ E.duration= 2023 ^ there exists C {C belongs to Courses ^ C.cname = 'DBMS' ^ C.cno = E.cno}}}
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c00a0e13-68a6-4465-974b-cb7ac8f98182)
 
+* Here, we have to write the **common table** first. [Example]
 
+## Tuple Variable
 
+* Bound -> Where we added **quantifiers**. Used with **Quantifiers**.
+* Free -> No **quantifiers**. Not quantified.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/53b92e7f-0769-40ae-b2f4-8cad07495499)
+
+* **There Exists** -> The combination between the rows should match. [Example] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/77ec15f6-2348-4175-9eb6-b78413bd6e28)
+
+* **For all** -> There should be combination with all the rows on the right hand side, with the single row on the left side. [Example] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/852edf4c-8219-4179-9f6f-dbf4dda1e8d3)
+
+* {<r,f,l,m> | <r,f,l,m> belongs to Students}
+* **First part\left side** of the **|** bar is what we want.
+* **Second part\Right side** of the **|** bar is the **conditions**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9693ae68-8a49-4e6f-a1b0-dd71f105c6cf)
+
+* Similar to select * from students.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a997153-b8b4-4b30-ab89-bad9f6e29ae2)
+
+* We just want the **first name** of all students.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/14c3561a-325f-45ab-9899-048cc59b0ac9)
+
+* We want the **first name** of those students who have **marks(m) greater than 90**.  [Example] [**IMPORTANT**]
+* The table name we have to write always. All of the columns names we will also write. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6530bb64-65ff-498e-9836-8e15e3911c69)
+
+* Yes.
+* It shows the particular attribute. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/209c8b19-7ea8-4124-bf51-3a64de6e80c9)
+
+* We can write the **variable names** same as the **column names**. Just remember to **maintain** the sequence of the columns in the table. They should come in **sequence**. [**IMPORTANT**]
+* Name of all such drivers who are having rating > 8 and dob = '27-10-1988'
+* {<dn> | <d, dn, r, dob> belongs to Drivers ^ <r> > 8 ^ <dob> = '27-10-1988'}
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/209c8b19-7ea8-4124-bf51-3a64de6e80c9)
+
+* We can write the **variable names** same as the **column names**. Just remember to **maintain** the sequence of the columns in the table. They should come in **sequence**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8c426a7d-84bb-4c1e-84c3-8283d8952eee)
+
+* [Example] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5020ee02-6713-4b76-abb8-a96a10191a44)
+
+* If we have one/single value with **equal too condition**  then we can **replace** the **domain variable** with that **number/value**. [Another Way] [Example] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d81592c-1587-4fe6-95c5-60d0ce5143f7)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec8d4260-d9be-4e51-b9be-6354c4cb09a7)
+
+* Both are **same** and they work.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b59072a9-69fb-468c-a01e-9e885418d424)
+
+* Example [Solution] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2542afe3-ac34-4f3e-84de-124c4a2c350d)
+
+* Many to many participation constraint [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c4a272a3-8dfd-4d54-a79d-f6721b1382f0)
+
+* We cannot control the **participation constraint** in **many to many**.
+* We can control the **participation constraint** in **one to many, many to one and one to one**.
+
+## Transaction
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc57e29b-98af-4cf7-aa3a-2f92a75c5dd8)
+
+* Sequence of **DB access operations** is called as **transactions**.
+
+## States of transactions
+
+* **Commit** -> To save the state of the transactions.
+* **Rollback** -> Revert the database state to that state where transaction has not even started. It will take us back to the **last commit**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/514becc6-3ff5-4a56-ab13-e6ba62e0291e)
+
+* As there was **rollback** at the end, so we **reverted back** to the **last committed value of 'x'** which is **5** that's why we got **x = 5**. [Example]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4ebf7528-2e79-4ff0-97fe-8fc23159f374)
+
+* States of transactions. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d13d15f-0bb4-48cb-b3d2-b48a3c442320)
+
+* If a transaction has **failed** then it has to be **rollback**. It is not the job of the users to **rollback** the transaction. It is the job of **DBMS**.
+* The **rollback** of the transaction is done by **DBMS**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f16c111a-cc58-479a-bc6f-e2df07eee297)
+
+* If the **commit** was successful or the **transactions** were committed.
+
+## Schedule
+
+* Collection of multiple concurrent transactions.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f437bb4-6de3-42f3-8755-481617b9451d)
+
+* This is **Parallel** work.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cab3f88b-46ef-4e70-9ea3-034fc6fa6b5e)
+
+*  This is **Concurrency** work.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bcb305cc-f3c8-415b-ac6f-0f4d5bf73dd8)
+
+* Parallel run. [Example] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/67aa6bdf-25d9-4b8d-975d-3bee752b6ec1)
+
+* Concurrent run. [Example] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0d33718-10cd-457d-a806-c8a21568b00e)
+
+* Parallel and concurrent run. [Example] [**IMPORTANT**]
+
+## ACID property
+
+* ACID -> Atomicity Consistency Isolation Durability
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/716bc833-bb6a-4ff3-bf68-22a7a5b1ec84)
+
+* Atomicity -> All or none. Either it will run fully or it will not run.
+* Consistency -> Expected output/result from DB.
+* Isolation -> The concurrent transactions should run in such a way that they provide final result same as they were running like one after another.
+* Durability -> We should be able to see the results for a long period of time.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f935571a-2e76-4761-a330-6a43a6c7da1b)
+
+* Why Concurrency [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f288361-9ddd-4daa-b30f-4e8fa8cda159)
+
+* Problems with concurrency [**IMPORTANT**]
+
+## Dirty Read or Temporary Update Problem [**VERY VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed93224b-27ff-4153-8bc5-6a9fa3256181)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dce38738-9a4a-44d5-bc5f-d8150c5832ff)
+
+* Reading someone's dirty written value. [**IMPORTANT**]
+
+## Phantom Read Problem
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e4253d4e-0f66-40da-af00-8bb1d5bcba12)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a96a3174-89fb-49e7-a1a8-9f2bc583750c)
+
+* Wanted to read again but the value was gone. [**IMPORTANT**]
+
+## Unrepeatable Read Problem
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e5f7868-a2c7-4d47-855f-0067a062c25f)
+
+* When **reading** two times, we got the **old value** once and we got the **new value** the next time. [**IMPORTANT**]
+
+## Lost Update Problem
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed7b0c8d-7fb9-477d-bbed-0e6902174be1)
+
+* **X= 7** is **lost**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ccc7537-f4d1-4635-86c8-7ce19ffc0b74)
+
+* Some transaction **directly** writes and does nothing else, nor reading or updating anything then it is called as **blind write**. [**IMPORTANT**]
+
+## Good VS Bad schedule
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0c9414d-ba51-4733-b93a-79856678c7bf)
+
+* Good schedule -> Final result as expected.
+* Bad schedule -> Final result not as expected.
+
+## Serial VS Non-Serial Schedule
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/77882efb-5eeb-438d-8d18-d1bf047b1f68)
+
+* Serial -> Sequential System.
+* Serial -> First a whole transaction runs then another whole transaction runs. We are not talking about which transaction will run first. Anyone transaction's whole statements are completely run then another transaction's whole statements are completely run.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea1486fb-1531-403e-ad52-0e11ca0d7615)
+
+* Non-Serial Schedule -> Also called as **concurrent schedule**. 
+* They run in **interleaving** manner. There is no manner/way in which the scheduler runs, anyone of the statements can be run at anytime. We got no idea how the statements are run.
+
+## Serializable Schedule
+
+* Serializable schedule is a schedule which is **concurrent** but it's final result comes in the way of **serial schedule**.
+* A concurrent schedule which can provide final output as a serial schedule is called as serializable schedule.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24ec8800-f183-4629-b058-8dc6ce920f2a)
+
+* Example
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30fef9aa-c29d-4b2b-9f01-d5afdb55cfae)
+
+* Serial Schedule, **run T1 then T2**.
+* We are getting the **same output** as a **serial schedule**. So, it is working like a **serial schedule**.
+* Serial Schedule, **run T2 then T1**.
+* So, it is a **serializable schedule**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b0d7702-5653-4551-bce1-2415840298cd)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b646caa-da52-4dd8-b6ee-e3b5d2bedd6e)
+
+* T1 then T2
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2cf1204f-0779-4a19-b4ec-089eef80ddf3)
+
+* T2 then T1
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df3222bc-4b33-45e2-89e7-41d949c8bc83)
+
+* It is **serializable schedule**.
+* As the **concurrent schedule's output** is matching with **one of the serial schedule** outputs which is **T1 then T2**. That's why we can say that the **above** is a **serializable schedule**.
+
+* If it(concurrent schedule) matches with **anyone of the serial schedule output** then it is a **serializable schedule**. [**IMPORTANT**]
+
+* Serializability -> Method to prove that a **concurrent schedule** is **serializable**.
+
+* **Types**:-
+
+1) Conflict Serializability
+2) View Serializability
+
+## Conflict Serializability
+
+* Find conflicts and then based on it prove that a given schedule is conflict serializable or not.
+
+### Conflict
+
+* Two(2) database access statements are conflict statements if and only if all of the following conditions are satisfied.
+
+1) Both statements should be in **2 different transactions**.
+2) Both statements should access same data item.
+3) One of them should be a **write operation**.
+
+* There will be **no conflict** between **two read operations**, which is **Read to Read** operation.
+* **Conflict** will be between **Read to Write**, **Write to Read** and **Write to Write**. [**IMPORTANT**]
+* When **checking for conflicts**, we should be checking the **below/bottom** statements than the **above** statements compared to the **current statement**.  [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fdeb39be-320d-4f81-845b-93537fcb4c54)
+
+* Example
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cec40dfa-7e1b-4d82-a8c8-4fa2a4c62ca6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/264cfabb-46d5-4bff-b8ba-57f0938f83fb)
+
+* 2 conflicts we got.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8777db71-5bb1-4d31-b3ee-ded82cd7df32)
+
+* 2 conflicts we got.
+* R(X) -> W(X)
+* R(Z) -> W(Z)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d777812d-bf27-4f5f-82c7-fcd6b478b50b)
+
+* Example.
+
+## Conflict Equivalent Schedules
+
+* **Different schedules** where we have **same type of conflicts** on the same data items, same sequence.
+* **Two schedules** having **same conflicts** in the same order. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7996649e-24c1-495a-95fb-f6b8fdde4b4e)
+
+* **S1 and S2** are **Conflict Equivalent Schedules**. [Example] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f642104-3f40-40f3-beb3-6cab9573014b)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b08c685d-d736-4e98-88b4-e86b59ff0364)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2713486d-4a7f-4891-98b3-8c3e2975b447)
+
+* Not **Conflict Equivalent schedules**. [Example] [**IMPORTANT**]
+
+## Conflict Serializability
+
+* Given schedule 'S' is conflict serializable if it is conflict equivalent to  S' .
+* Where S' is a **serial schedule**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a140167d-831c-44cd-bba3-dc215b7ba60c)
+
+* Precedence Graph -> Directed Graph.
+* Vertices/nodes -> Transactions
+* Edges -> Conflicts.
+* After drawing the **graph**, check if it has **cycles** or not.
+* **Cycle** -> Started from an edge and followed vertices and was able to return to the starting edge. Then it is a **cycle**.
+* If **cycle** present in graph -> Not conflict serializable [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37d7141d-94aa-4dea-a700-1319f915b7d8)
+
+* Cycle present -> Not Conflict Serializable.
+* Solution [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ef16b10-3669-4515-b34e-554908dd355c)
+
+* Solution.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/564462f1-4ad5-4735-b299-34804a46bf6e)
+
+* As there is **no cycle** so it is **conflict serializable**, so we have to tell the **sequence** also. [Example]
+* Sequence -> T1 -> T3 -> T2.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b8cf1b2-dd1d-4bd4-9349-267250b44a5f)
+
+* R/W -> Read/ Write
+* Number -> Transaction Number
+* A, B, C -> Data Item
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d37bc5c6-f508-49dc-b8e5-8819086cd72c)
+
+* Solution.
+* As there is **no cycle** so it is **conflict serializable** and we have to write the **serializability sequence**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/08a9aff4-0899-4dde-96cf-9e2d2280ecd5)
+
+* Yes [Answer]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/815aa2d7-3952-43e1-b234-a3e1b1609cbf)
+
+* Wherever **commit** comes after that we don't have to check.
+* No checking after commit for **conflict**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1405bdd4-53b2-4704-a0fb-15660c2cfabc)
+
+* No Cycle, so conflict serializable. [Example]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41eb7dd6-adc4-4568-83dc-f5cd2bb27bbc)
+
+* Doubt. [Solved]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b9c3bc02-7065-4193-b749-f82dc98b273f)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05ab65dd-3448-4254-abf4-0049420cd3ca)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f81d5f7-fb41-4df0-a77d-f80da75babaf)
+
+* Solution.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/764cec61-de73-48e4-9c4e-70a21bd130dd)
+
+* Answers. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72812e13-502c-45f4-a145-c1271daa70b2)
+
+* Question.
+* Link -> https://gateoverflow.in/2063/gate-cse-2014-set-3-question-29
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/da04876f-7284-43e4-b222-1590672da92d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9fa912f3-f7e3-4bbe-af4f-e838d8d50182)
+
+* Solution.
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3247a5c2-610c-4573-93d1-86834efe9256)
+
+* Question.
+* Link -> https://gateoverflow.in/357419/gate-cse-2021-set-1-question-32
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6419c674-6949-434e-97d8-188117140247)
+
+* Solution.
+
+## View Serializability
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5da40bec-7708-4e51-8510-17acde93c426)
+
+* There are **many good schedules** which we couldn't identify with the help of **conflict serializability**.
+
+### View Equivalence
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30a8f50e-4e61-4c84-a833-15308ea5b7b9)
+
+1) Who is reading first from database
+
+> **T1** is reading the **X** value from **database**.
+
+* **T2** is reading the **written value of 'X' by T1**. It is not reading the original value of **X** from database.
+* Who is reading first from database?
+
+> **T1**.
+
+* Who is reading first from database? -> Who is directly reading the value of **X** from the database before any other **transaction** writes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41f5db02-07c8-4bd8-998a-6a568d642538)
+
+* So according to the **first rule**, we will say that **T1 and T2** transactions have read first the value of **X** from the database. It is because **T2** has not used **W(X)** which means that the value of **X** hasn't been **updated** from the original value.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa6d303f-1146-48a9-9d14-6e43745a588f)
+
+2) Who is reading from other
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b89170fd-3524-4084-871a-779f33d555fd)
+
+* In this **T2** transaction is the one who is reading from **T1**.
+* **T2** reads **X** from **T1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d41fe5d-82b1-4ecc-b694-9457205355a7)
+
+* T1 reads **X** first
+* T2 reads **X** from **T1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c549c69c-d55c-4497-bd1e-21ba6ceac8a8)
+
+* Who is reading from from database? 
+
+> T1 and T2.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef8ef139-852e-40c0-8019-c9b31b88a1bd)
+
+* Who is reading from other?
+
+> **T3** is reading from **T1** as **T1** has last written to **X** before **T3** tried to read **X**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/42798d00-d0ec-49e3-86cc-195fd3c04898)
+
+3) Who is writing last
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/51c48214-032a-4846-a383-1c1e54287176)
+
+* **T1** has written last to **X**. [**VERY IMPORTANT**] [Example]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8904395d-f357-429e-a11e-f486fff78edb)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/77a20523-a1ef-4382-a93a-f89476314760)
+
+* **View Equivalent** -> When both schedules S1, S2 are following all the 3 points for all data items(Above 3 points). [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57ebd05b-df18-4e5b-9a7d-a673339dc43b)
+
+* We have to check if they are **view equivalent** or not. [Question] [Example]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d118a3d3-6eaf-4df5-b933-1bddc746fe84)
+
+* Not **View equivalent**. [Solution]
+* S1:-
+
+1) T1 reads X first from DB
+
+* S2:-
+
+1) T1 and T2 reads X first from DB
+
+> As they are **not the same**. So it is **not view equivalent**.
+
+* If anyone of the **3 conditions** are violated then it is **not view equivalent**.
+* All of the **3 conditions** are to be **matched/satisfied** for it to be **view equivalent**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44d9acfd-3d20-44be-9ddf-48d34260ad3a)
+
+* Question.
+
+1) T2 and T3
+2) T1
+3) T2
+
+* All of the **3 conditions** are to be **matched/satisfied**. [**IMPORTANT**]
+* So **S1 and S2** are **view equivalent**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/217f8f9d-b407-4198-9992-3284560d7e87)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2d269be-a89b-4a97-9066-215320b6a9dc)
+
+* Question.
+* It is **view equivalent**.
+1) R(X) of T1
+2) W(X) of T2
+3) W(Z) of T3.  [Solution]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bd8b7c97-3572-41f1-a815-aca1b62b2e43)
+
+* Yes, we have to check **9 things**.
+
+### View Serializability
+
+* A schedule is called as **view serializable** if it is view equivalent to any serial schedule. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/10f71e16-2a74-4b65-b9dc-efed9ee2c04f)
+
+* Question. [Example]
+* **T1 and T3** cannot come after **T4**.
+* **T2** should come after **T1**. **T2** has to come **immediately after T1** as there is **W(X)** at **T(3)**.
+* Otherwise **T2** will read **X** from **T3**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f282c05b-7faa-43fa-aab0-998225cf6a0b)
+
+* We have to make a **serial schedule** of **T3, T1, T2 and T4** and check the **view equivalent**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/655eb2f0-1bd2-4b52-8c0f-c49c94632992)
+
+* Serial schedule.
+* Yes it is **view equivalent**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a14d8bc2-e645-47a1-a2fb-63f9009d3df9)
+
+* It is **view serializable**.
+* The **given schedule** should be **view equivalent** to **one of the serial schedules**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e0f4df80-d46f-4ac2-818a-a31399181c85)
+
+* Solution.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b1c8209-1b45-410d-b269-36fbea8a8755)
+
+* We are not able to make a **serial schedule** to check **view equivalent**.
+* So it is **not view serializable**. [Example] [**IMPORTANT**]
+
+## Role of abort or rollback
+
+* If **abort or rollback** is written in a **transaction** then we will **not include** that **transaction**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd7ab5bb-e9f2-409c-a8cd-9399c09f0ed4)
+
+* Do not include **Transaction, T1** above. [Example]
+* Do not include transaction which are having **abort or rollback**.
+* In the given example **T2 and T3** transactions are **only checked**.
+* Given schedule is **view serializable**.
+* Sequence:-
+* T2 -> T3 [Correct]
+* T3 -> T2 [Wrong]
+* It is because **final/last write** is **T3** and not **T2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/534bdc6f-754a-4bfe-a22c-6e4437a5251d)
+
+* Solution.
+* We have proved that a **given schedule** is **view serializable** then it is a **good schedule**.
+* Not all **good schedule** are **view serializable**.
+* All **good schedule** are **view serializable**?
+
+> **NO**.
+
+* All **view serializable** are **conflict serializable**?
+
+> **NO**.
+
+* All **conflict serializable** are **view serializable**?
+
+> **YES**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d57f4c81-693f-435e-bd9f-5f89f94401b5)
+
+* Diagram [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec46d2d4-0637-4f66-b01d-bab7a2e922ee)
+
+* Not conflict serializable but view serializable. [Example] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5f5213c6-64fe-456c-b24c-e00bb92bafa6)
+
+* No. of nodes **equals to** the **no. of transactions**.
+* **Runtime complexity** to **find the cycle** -> n + |E| -> n ^ 2 [Approx].
+* No. of nodes = no. of transactions = n
+* No. of edges(E)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e6fbf052-922a-48b6-85c7-b85749557de9)
+
+* To find **Conflict Serializability**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/caf9c8d4-d14c-4d8e-8662-647be32317bf)
+
+* View Serializability
+* Time(K)
+* No. of nodes(n)
+* **Runtime complexity** to **find the cycle** -> O(k * n!)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0b090ac-5528-4128-8852-935e264a2361)
+
+* Conflict and View Serializability **difference**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b8bb53c6-a5f6-47f3-855b-0cc9882078f2)
+
+* NP hard problem.
+
+## Recoverability
+
+* **Recoverable Schedule** -> When no any committed transactions should be rolled back.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d5b785b-7d70-4376-b638-cfa73de0fb5a)
+
+* Example
+* Not recoverable schedule
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f4f890cf-aa85-46fb-af10-f86f014f0f9b)
+
+* If **T1** failed just before **commit** then it is not **recoverable**.
+* If there is a possibility of **rolling back a committed** transaction, if **yes**, then it is **non-recoverable schedule**. [**IMPORTANT**]
+* It is **recoverable schedule** only when for any case/condition and for any transaction that fails then also we don't have to **rollback any committed** transactions. [**IMPORTANT**]
+* To make **recoverable schedule**, sequence of commits, should be same as sequence of reading dirty values. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b78debc-a8f0-4dff-a3c6-eca477df84fc)
+
+* Recoverable schedule example
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b8ee324-f7de-4a84-93b1-864cfc9d30de)
+
+* Correct.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/67b2ef56-c5c4-4a18-8979-9e15928f3df1)
+
+* Recoverable schedule example
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/73bc4806-e3e7-4586-b638-6a94051aff57)
+
+* Types.
+
+### Cascading Recoverable Rollback
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1b9fceb-c8c7-4522-b30d-2e345cdad6f8)
+
+* [**IMPORTANT**] [Example]
+
+### Cascadeless Recoverable Rollback
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/60c24442-c4ba-47c2-9240-2f96b0716d8e)
+
+* Cascadeless Recoverable Rollback [Example]
+* When a transaction fails only that transaction will be rolled-back. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7dbe427b-9a4f-4b86-b26a-a7d1cc4c22a0)
+
+* Exactly.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a8b1334-a34d-4920-9168-6f515da06e93)
+
+* Question. [Example]
+* Not recoverable. It is because **T3** transaction committed before than **T1 and T2** and if **T1 or T2** transactions **fail** before their respective **commits** we have to **rollback** T3 as well which is a **committed transaction**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2245843f-eecf-46be-8efe-cb4c7acac8f9)
+
+* Then **T3** transaction will be required to **rollback** and as **T3** transaction is a **committed** transaction and we have to **rollback** a committed transaction then it is **not-recoverable**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/73ec973c-810e-43e6-beef-2279b5c5e6dc)
+
+* Question. [Example]
+* Recoverable schedule.
+* Rollback -> Ignore that transaction.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8aea5a17-c5e8-4e34-bf57-0dca068066e4)
+
+* Cascadeless Recoverable schedule. [Example]
+
+### Strict Recoverable Rollback 
+
+* Strict Recoverable Rollback -> The **second transaction** can **dirty read or write** only after the **commit** of the **first transaction**. [**IMPORTANT**]
+* Dirty read and write can be done in another transaction only after commit of first transaction. [**IMPORTANT**]
+* **Cascadeless recoverable schedule** is also included in **Strict Recoverable Rollback**.
+* If it is a **Strict Recoverable schedule** then it is also a **Cascadeless recoverable schedule**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/968ef928-4b8d-405c-8389-fd251ad56855)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8eda0bbe-f628-4aaf-9b02-98f7057d53fd)
+
+* Recoverable Schedules.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34085acf-3875-4f13-b600-c8df5d40c3e1)
+
+* Recoverability definition -> It is dependent on **dirty read**.
+* **Dirty read** -> The upper/ before transaction has **written** and the **next transaction** has **read** the value before it could be **committed**.
+* If we include **write on write** then it becomes **strict recoverable schedule**. We will not do **write on write, read on write and write on read**, until the upper transaction is committed.
+
+* In **strict recoverable schedule** -> If the upper/ before transaction has **read** then the **next transcation** can only **read** and cannot **write**. If the upper/ before transaction has **written** then the **next transcation** cannot do either **read** or **write** unless it is **committed**.
+* The **conflict serializability** method we had cannot be used **practically** because for **practical** implementation we have to know the **future transaction statements** and the sequence of run of the transactions, which is **not possible**.
+* **Conflict and view serializability** is not implemented practically.
+
+## Locking Protocols
+
+### Lock
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58acd41e-5294-4467-ad18-2b76bc331c6d)
+
+* We can put **locks** on **different data items** at the **same time**.
+* One lock for **each data item**.
+* Lock '0' -> Available
+* Lock '1' -> not-available.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d60f685-41e1-48e0-b07c-9128fdb06426)
+
+* It depends on the **operation**.
+* If it is **both read-read** then there is **no problem**.
+* If on a **database item**, the **transaction** wants to do **only read** then it will take **shared lock**. If the **transaction** wants to do **write/read both** then it will take **exclusive lock**. [**IMPORTANT**]
+* There is **no problem** with **read operation**.
+* **Shared Lock** -> For only read operations
+* **Exclusive lock** -> For read/write operations both.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d988cd5-0333-4d15-b785-a9f6f05d1866)
+
+* Compatibility. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a6ab92a8-9d74-4343-b901-69390ce7a2f8)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3aac6c7d-2f0c-425a-8758-b3985ddc11a3)
+
+* Example.
+* Lock_Ex(X) -> It is allowed only when **T1** unlocks **X**.
+* **Shared lock** doesn't have **write** permissions. **Shared lock** has to be **updated** to an **exclusive lock** for **write operations**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33c05a59-9397-4a09-8f23-0891d936c7cf)
+
+* **0** -> Available, Lock not taken.
+* **1** -> Not Available, Lock have been taken.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec37dfa8-ea42-46ef-9990-2d70564523a8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd612802-23fb-4984-9369-80985d9093c4)
+
+* Example.
+
+## Busy waiting 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9220dcc5-a2b2-4995-9f15-b71de6abd951)
+
+* Lock: Busy waiting [Example]
+* **Busy waiting** for **exclusive lock** on **X**.
+* We **blocked** ourselves. When the **lock** is available, we will be informed and we can now take **lock**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af2fad11-8b54-41a0-830d-e794c416cae7)
+
+* Solution.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/811c733d-02ef-4743-afc7-4faee06c9ccd)
+
+* We didn't get **exclusive lock** because there was already **shared lock** taken on **X** by **T1**.
+* **T2** is in **busy waiting** state.
+* After the **shared lock** taken on **X** by **T1** was removed then the **exclusive lock** is taken on **X** by **T2**.
+* **Busy waiting** -> The transaction will run continuously and it will try to acquire the **lock**. It will not be able to **acquire the lock** and it will keep trying again and again. [**IMPORTANT**]
+* The solution of **busy waiting** -> Whichever transaction wants to take a **lock** which is **not available** then the transaction is **blocked** and it falls under **blocked transactions**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/38468964-9f4f-49e4-aea4-2dce7fbc64b9)
+
+* After sometime, **T1** has unlocked the **shared lock** taken on **X**. As soon as it(X) is available, **T2** transaction is **unblocked**. **T2** transaction has come back and the two statements of **T2** are run.
+* **T2** transaction didn't do any **busy waiting**.
+* **Advantage of removing busy waiting** -> The unnecessary usage of resources of DBMS has been **saved**.
+* Time is **saved**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3150d46a-c596-4bd0-9796-9cde14130ea4)
+
+* On the **same data item**, we can put **multiple shared locks**?
+
+> **YES**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4790672d-bf5f-4572-9abb-526e64f50a30)
+
+* **W(X)** on **T2** tried to take **exclusive lock** on **X** but it shouldn't take because **T1** has already taken a **shared lock** on **X**.
+* So, the **transaction, T2** is in **blocked state**.
+* **T3** has **R(X)** and it tries to take **shared lock** on **X**. **T3** is successful in taking **shared lock** on **X** even though there is a **shared lock** already taken by **T1** on **X**.
+* It is because **shared locks** can be taken on the **same data item**, multiple times. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7435c96c-6a03-43a0-9a0d-27fec87c8c81)
+
+* **T1** has released it's **shared lock** on **X** and because of that **T3's shared lock on X** is also gone. Now, **T2** is **unblocked** and **T2** can take **exclusive lock** on **X** now. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/13e29cfe-115c-413a-8744-43dea4af987c)
+
+* So now, **T3** has **shared lock** on **X** and **T2** has **exclusive lock** on **X**.
+* This is a **problem**.
+* If **two shared locks** are taken on the **same data item** then **no. of unlocks** should be the **same** as the **no. of locks** taken. As in here, **two shared locks**, so **two unlocks** should be there before **T2** can take **exclusive lock** on **X**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b7125b61-8136-4fe8-8fb2-9af0c5a37f56)
+
+* Blocked transactions is unblocked only when **count** becomes **zero(0)** for **multiple shared locks**.
+* Here, when a new transactions keep asking for shared locks on **X**, then **T2** may **starve**. [**IMPORTANT**]
+* There is a **solution** for **starvation**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ad046e0-f961-4cb1-9879-75fb82677f54)
+
+* When **T4** tries to take **shared lock** on **X**, then there is a **condition check** that happens. If no any blocked transaction on **X** then allowed otherwise blocked.
+* We are checking that there is any transactions that are in **blocked state** due to **exclusive locks** that are taken on **X**. If so then **shared lock** cannot be taken and the transaction trying to take **shared lock** will be **blocked** as well.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/20fe630c-801b-4470-b114-4c5f2b379d34)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f410fb49-9d68-4d1b-8526-f2a3733e7772)
+
+* Upgrade -> The **shared lock** taken **X** and now that **shared lock** has been **upgraded** to **exclusive locks**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3870a664-dfcd-46b0-802a-0f45ed14245b)
+
+* Downgrade.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8283dc64-36e0-4ed5-85a1-43cbc1c90b74)
+
+* Rules to **acquiring the lock**:-
+
+### Locking protocols
+
+* 2-phase locking protocol(2PL)
+
+1) Basic 2PL
+2) Strict 2PL
+3) Rigorous 2PL
+4) Conservative 2PL
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3071972-178b-49f7-b446-0d69e2b7a918)
+
+* Working.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3cdf18b8-4030-42d0-a971-4171f791aa50)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/801252dc-adc7-46ba-aa26-b94e7e7ef5b5)
+
+* **Correct** according to **basic 2PL**. [Example]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/61f4371d-1b8d-473a-8539-c8c5bf075155)
+
+* **Lock_Ex(Z)** is not allowed after **unlock**. [Example]
+* We can take **locks** at anytime but after **unlock** we cannot take **any locks**. This is the **only condition**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/49f3a364-c9f9-4c6e-8cf4-dfe78a2bc0b1)
+
+* **Correct** according to **basic 2PL**. [Example]
+* **Upgrade** of the locks happen within the **same transaction**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b1979a7f-2749-4861-bb90-fc396918abeb)
+
+* The **given schedule** didn't run as it is because of **basic 2PL**, the style of the run has been changed. [**IMPORTANT**]
+* So, we will say that the **given schedule** is not allowed under **2PL**.
+* Given schedule is not allowed under **basic 2PL** because it does not run same as given.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e2dff856-f1e2-47b0-9285-1dea585eae6a)
+
+* Example
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/400effd1-36cd-4a70-890e-9e54d4e285c5)
+
+* Example 
+* Every schedule which is allowed under **basic 2PL**, is **conflict serializable** also. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/625f071e-c843-41d6-a245-79bccde4a195)
+
+* Not serializable.
+* Whenever needed **write 'lock'** and once we have **written 'unlock'** then we cannot **write 'lock'** again.
+* We will acquire all the **locks at the start** and when we start releasing the locks then we will only release the locks and nothing else, we cannot take anymore **locks** after an **unlock** is done.
+
+* After **unlock**, we cannot take any **locks**. It is for **any data-item**.
+* Take all of the **locks possible** at once and when we started **unlocking** then we will only do **unlocking**, no more taking **locks**. [**IMPORTANT**]
+* Once we start **unlocks**, we cannot do **any locks** on **any data-items**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d139252-3b01-41b9-90c0-f9fe365a1acb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cae0086c-256c-4936-8f13-1258bc4e5341)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/79c1525b-7a9e-4c34-8bbc-d8c232746e17)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c712ebb4-d96e-4e96-b3ba-351c99d6a78a)
+
+* **lock(Z)** is not allowed after **unlock**. [Example]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/422b4317-00d5-4cfa-9405-0bb4162c873d)
+
+* This will work **no problem**. **T2** will run after **T1** has unlocked **X**.
+* **T2** was put in **blocked state**. [Example]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b442ad2-c8c5-42cb-ae3f-bd523fef64d6)
+
+* In the **given schedule**, when we applied **basic 2PL protocol**, the schedule didn't **run as it is**. It run like **below(Run actually like**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dad83f03-0f32-4a6e-962f-464a9f35e9bc)
+
+* In the **given schedule**, it didn't **run as it is** because when we applied **basic 2PL protocol**, the style of it's run **is changed**, then we will say that the **given schedule** is not allowed under **basic 2PL protocol**
+* The **sequence of run** was **changed** due to application of **basic 2PL protocol**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9c13ee2-34df-4508-9e2d-4c19dfc9f1a4)
+
+* Not Allowed under **2PL**.
+* In **one transaction**, we cannot take **lock** after an **unlock**. [**IMPORTANT**]
+* But we can take **lock** in the **other transaction** though.
+* We **unlock(X)** in **T1** and we did **lock_Ex(X)** which was in **T2** transaction. So we are taking **lock** after an **unlock(X)** but in a **different transaction(T2)**, so **no problem** here. [**IMPORTANT**]
+* **Unlock** keh badh **lock** cannot happen in the **same/single transaction**. **Single transaction** will not do that. [**IMPORTANT**]
+* It is **possible** in **different transactions**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/913744fd-b5a6-45e0-b33a-c7d3a8891bc0)
+
+* Allowed under **2PL**. [Example]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44c085a6-d7cb-4b76-9019-6c86bf9f618c)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d14cb68c-ca84-4255-a623-ae941bda355d)
+
+* Another Name [Growing and Shrinking]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d5b36f4-11bf-4fde-a955-a15505a69b43)
+
+* Example
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ae31491-7c8d-43e4-8c38-6d341fdd6d8c)
+
+* Won't be allowed under **Basic 2PL**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a63ac1f-af46-423c-b4d3-b6745d9f5d76)
+
+* Example
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c429e055-6808-4093-b785-5ea266827349)
+
+* Won't be allowed under **Basic 2PL**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb500419-7725-4dd5-b9fb-958b2f09c300)
+
+* We will run **unlock(X) and unlock(Y)** at **10:15AM** so that we can do **lock(Y)** in **T3**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d1ccfa7-b8a4-4444-8e69-fb2be3e250ed)
+
+* Won't be allowed under **basic 2PL**. [Example]
+* **T1's released lock** can be used by **T2**, **YES**.
+* **T2's released lock** can be used by **T3**, **YES**.
+* **T3's released lock** can be used by **T1**, **NO**, it is not possible.
+* It is because when **T3 releases it's lock**, then **T1** cannot take **lock**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19989d43-aa7a-4fea-92c4-f7a12d68ebaf)
+
+* Yes.
+* The lock **T1** has taken on and **T2** wants to use that then after **T1's unlock**, **T2** can use it.
+* After **T2's unlock***, **T3** can use it.
+* **T3's released lock** cannot be used by **T1 and T2** because we cannot do **locking later** after **unlock**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/231eb04b-ea3f-48e7-9180-326d12b81a78)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/11f29fdf-4f87-4201-8908-08b0470fd970)
+
+* So there is **no chance of 'cycle'** when we apply **basic 2PL**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f77667b6-b6a7-49df-a6d1-adde4729946d)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09135e9b-1c78-4d7f-ae74-193f38d66375)
+
+* **lock(Z)** in **T3** is **not working** because there is already a **lock(Z)** in **T1**. [Example]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2406ecc4-d31d-49ea-8cd7-e980dea177fe)
+
+* There is **no cycle** of **conflict** and as there is **no cycle**, so it is **conflict serializable**.
+* If allowed in **basic 2PL** then it is  **conflict serializable** as well. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bab06c38-97c5-48da-94d0-0cd479c34f28)
+
+* Yes.
+* We cannot implement **conflict serializability** practically.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b3988416-34b7-4813-bf39-4bef57d9c9b8)
+
+* Not allowed under **2PL**. [Question]
+* Not allowed in **2PL**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a9802808-2240-4134-8b3e-368231fe1c8e)
+
+* **Deadlock**. [Explanation] [Solution]
+* Suffers from **deadlock**. It is situational. It is **not always**.
+
+### Starvation
+
+* Starvation -> Indefinite waiting.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b86cfc8-9d9e-4e4c-bc54-3b54878bb423)
+
+* Starvation of small transactions due to large transaction. [Example]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4414b212-4e4d-47d6-b3a2-70cbaa73a777)
+
+* Starvation of large transactions due to large transaction. [Example]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5619bc8b-2ece-4c74-be31-832eebbeb7b6)
+
+* **Strict schedule**.
+* **Strict 2PL** says to follow **Strict schedule**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/968cb692-a6f6-46ba-981a-920e7959cbd6)
+
+* **Commit** is **important** here. [Example]
+* If the **upper one** has done **write operation** then we will do **commit** of it and after that only the **lower one** can do **either read or write** operation.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/84a4d206-4c7a-4e88-a84a-cbf6ffcc3374)
+
+* After **every write** operation, there should be a **commit**. 
+* We  missed that in the last **write(X)** in the **T3** transaction.[**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e56d23b6-d457-4458-b840-4b58e52afc65)
+
+ * Yes. [**IMPORTANT**]
+* Strict 2PL -> Exclusive lock should not be release until **commit**.
+* At the **end of the transaction** when the **commit is done** then we will release the **exclusive lock**.
+* **Strict and basic** 2PL are **different**.
+* **Before commit**, we cannot **unlock the exclusive lock**. [**IMPORTANT**]
+* Strict 2PL -> **Exclusive lock** should be released after **commit**. [**IMPORTANT**] 
+* Strict 2PL -> We can **unlock**, **shared locks** anytime. [**IMPORTANT**] 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c4f88ef-d351-4cfe-a93b-2e76dc1244ca)
+
+* Strict 2PL rules not broken. [Example] [**IMPORTANT**]
+* This is allowed under **Strict 2PL**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5cdc52ae-5fb7-4f45-b4df-96b948bc0d24)
+
+* This is **not allowed** under **Strict 2PL**.
+* Solution [**IMPORTANT**]
+* **W(X)** in the **T4** transaction is getting **blocked**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f27a6db3-c198-4d20-9a5b-243bc9ca4922)
+
+* So, **Strict 2PL** only allows **Strict schedules**. Yes. [Example] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4192de78-e27c-4fec-b93d-6f245886cd7e)
+
+* Solution. [Example] [**IMPORTANT**]
+* This is **not allowed** under **Strict 2PL**.
+* As the **R(X)** in **T2** transaction is getting **blocked** that's why.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/866545dd-e007-472c-9103-6c30edd32700)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f27491c-c2cc-483c-8ac4-9dfe083198a2)
+
+* Wherever we want, we can **write commit** statement, here. 
+* This is **not allowed** under **Strict 2PL**.
+* We are getting **deadlock** here as well.
+* Commit happens at the **last/end**. [Example] [**IMPORTANT**]
+* We cannot write commit in the **middle**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d0fb515-c294-42be-a35a-0967b73d8bb0)
+
+* It is because of **deadlock** happening here.
+* Committed/Commit -> Finished/Terminated.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae6e10a9-5a3e-419d-90c4-2f366e811790)
+
+* Wapas bhejna ho to **new transaction**.
+
+### Rigorous 2PL
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2babf039-4e79-4c1d-a1f6-7c93e611ccd8)
+
+* Rigorous 2PL
+* Every lock(Shared and Exclusive) should be released after commit. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/059027f7-a3e2-433c-92e3-998f54f880f6)
+
+* Yes, **Strict 2PL** had **shared problems**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d0de2dc-1804-43a2-87bf-7068968e4ddd)
+
+* In **rigorous 2PL** we can also get **deadlock**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/67e7d205-ac47-46a7-8c4e-bb37eef7401f)
+
+* Solution
+* Not allowed under **rigorous 2PL**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c551a221-938d-4c11-a93d-754ac70175e3)
+
+* Recoverability [Solution] [Example]
+* It is allowed under **basic 2PL** as there is **no relation** of **unlock and commit** in **basic 2PL**. [**IMPORTANT**]
+* We will have **Recoverability** problem.
+* **Basic 2PL** which allows us to be **recoverable**, which is **not the case**.
+* **Basic 2PL** does not ensure **Recoverability**. [**IMPORTANT**]
+* **Strict and Rigorous 2PL** don't have **dirty read**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31c62e6b-b712-457e-8a20-86c753336a32)
+
+* 2PL. [**IMPORTANT**]
+
+1) Even if the schedule is **recoverable**, it does not mean that the schedule is **cascadeless**. **Cascading** can happen as there is **no trust(no bharosa)** of **commit**. We don't know where **commit** is done(no bharosa). [**IMPORTANT**]
+
+* **Basic 2PL** allows **dirty read**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/724bcada-36c2-4d1f-8325-3423b9542a94)
+
+* Allowed under **Basic 2PL**.
+* It is **recoverable** but it is not **cascadeless**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3b9abf24-802e-4590-8aad-5f840a279756)
+
+* It will be **cascaded recoverable**. **T1** transaction will take **T2** transaction with it as well.
+* **T2** transaction is also getting **rolled back**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b0bfd5f-405b-4bd8-af01-93a6ef2d422a)
+
+* **Cascaded recoverable** -> If **T1** transaction **failed** then **T2** transaction is also **rolled back**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ad7dba1-4d2b-4e0a-9c40-01c7ac21476e)
+
+* **Basic 2PL** allows **non-recoverable** schedules also. It **fails** because we are doing **dirty read**.
+* All of them, **basic, strict and rigorous 2PL** may suffer from **deadlock**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a950985-6435-47dd-baca-d3f2af35a0e3)
+
+* It will be **cascadeless** because we are doing **commit** first then **unlock** and after that some other schedule accesses that **data-item**. **Cascading** cannot happen and on top of that it will be **recoverable** as well. 
+
+### Conservative or static 2PL
+
+* Conservative or static 2PL.
+* Lock all the items before the transaction begins execution by predeclaring it's read-set and write-set. [**IMPORTANT**]
+* It will **declare** it's **read and write sets**.
+* Read set will have the **shared locks**.
+* Write set will have the **exclusive locks**.
+* **After all of the locks** are given then only it will go forward.
+* **unless all of the locks** are provided/available till then it will **wait**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d5b8bc36-3ea9-4a2a-9eaf-2f2485bdab25)
+
+* Example
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e77ad05-7941-4e2f-98f9-f2b6b45d2ac4)
+
+* **No deadlock** condition here.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/01ee9afa-a130-4af7-91a3-e898fb98e2c0)
+
+* 2PL. [**IMPORTANT**]
+* A schedule is allowed in **rigorous 2PL** then that schedule is allowed in **strict, basic 2PL and it is conflict serializable** as well.
+* A schedule is allowed in **strict 2PL** then that schedule is allowed in **basic 2PL and it is conflict serializable** as well but we **don't know or not confirmed** if that schedule is **rigorous 2PL** or not.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c72b3537-e385-410d-9089-3135fb277876)
+
+* Example.
+* It is **not allowed** under **basic 2PL**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/00cea820-e39b-4b04-895e-011f351f94b0)
+
+* It is **conflict serializable**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97f1a4b0-55fd-4eac-8cf4-4fed42d4b416)
+
+* Sequence
+
+## Timestamp
+
+* Timestamp -> At what time transaction started.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f4a20765-9feb-485d-bf93-363260870c80)
+
+* **1999** is **greater**.
+* According to **birthday**, the **timestamp value** of the **older transaction** should be **bigger or smaller**? [**IMPORTANT**]
+
+> **smaller**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a191012a-641e-42e7-a9b0-8e42dc145830)
+
+* Assume there are 2 transactions T1 and T2 and their respective timestamps TS(T1) and Ts(T2). [Example] [**IMPORTANT**]
+* TimeStamp(TS)
+* So, **T1** is **older transaction** and **T2** is **younger transaction**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32585ca6-0ea9-43b2-a88f-5af6c8eb823c)
+
+* Deadlock Prevention.
 
 
 
