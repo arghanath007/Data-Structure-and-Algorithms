@@ -4438,6 +4438,78 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 * We are just writing the **query** and we are not telling the **DB tool** how to **run the query**. 
 * How the query has to be run -> It is the work of the **optimizer**.
 
+## Disk Blocks and Record Storages
+
+* **Block size** is from **512 bytes to 4 kilobytes**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/347dcd1d-1e67-4f72-8bad-28a77bb41ae2)
+
+* Whole table will come within a **single block**. [Example]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a984726-04f7-484b-9543-99d8cf619c03)
+
+* 16 different blocks needed to stored the **single table**. [Example]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b186283-a4e9-44a5-8d83-d7c01e671d21)
+
+* Nobody knows where the **employee** with **EID = 76** is **stored** in the table.
+* We have to **check all of them** to find the **employee** with **EID = 76**.
+* With the **help of somebody** we can already know **where, which** record is **stored** then we can **directly** reach to that **record**. If not, then we have to do **linear search**.
+* In the **regular cases**, search each record linearly to get the required record.  
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/519c3755-d875-4b0e-8034-5ac0370ff012)
+
+* Sorted with **employee ID(Eid)**.
+* In general, all blocks are accessed linearly.
+* But if records are stored in sorted order of eid, then only till that block where eid becomes 90.
+
+* **Physical storage** of DB table:-
+
+1) Basis on which column the records must be ordered in disk so that maximum number of times. Queries can provide quick results. 
+2) Can we reach to a specific record directly. It is done through **indexing**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7cbddd31-393b-4aba-a8e9-95e52078acfb)
+
+## Spanned VS Un-spanned File organization
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0dfef642-3721-4146-950b-22c392f1d4ef)
+
+* After putting/storing all of the **6 records**. We have filled **6 * 5 -> 30 bytes**. We are left with **32 - 30 -> 2 bytes**. [Example]
+* How we will store the **7th record**?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ae14dfb-cd7e-48c4-9121-c6eebc52107e)
+
+> We can start storing the **7th record** in the **remaining 2 bytes of  block '0'** and the **rest 3 bytes** in the **next block** which is **block 1**.
+
+* If we keep a **record** in **two different blocks** like above because exactly fixed no. of records were not coming to **block '0'**. Some space was **left over**. We didn't want to **waste that left over** space. So we started storing the **7th record's 2 bytes** in **block 0** and the remaining **3 bytes** in **block 1**. [Way 1]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41dc062e-5414-484f-92de-fb2e4eee2087)
+
+* This is called as **Spanned file organization**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6cdf549c-370c-4b19-addd-99ec18ec1520)
+
+* **Yes**, if we have to **access 1 record** then we need **two blocks**. As the **7th record** is stored in **two different blocks**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f4f9a850-6058-4d23-b801-4e8bd911b7a6)
+
+* Assuming table has **100** records. No. of blocks to store db table.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71e93961-719b-441b-8bb7-cb0ea6151995)
+
+* Spanned. [Solution] [Example]
+* In **OS language** it is called as **internal fragmentation**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/62cbc21d-739b-4f40-ab41-d8047447c5dc)
+
+### Un-spanned
+
+
+
+
+
+
+
 
 
 
