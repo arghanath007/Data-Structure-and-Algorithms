@@ -4504,10 +4504,87 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 
 ### Un-spanned
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5525ad0-3779-4c34-a3a9-a258443fb4ab)
 
+* A record is stored completely in only one block always.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/00f28d58-a677-4ca0-b942-291b1c2caef6)
 
+* Of-course.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/38d8d1ea-8604-4142-a281-6c62067adde0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/694317e6-d5cb-42eb-b825-74892ef99d2f)
+
+* Spanned. [Example] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b9977f11-2542-4326-a72a-99a4ecb750a5)
+
+* Un-spanned.
+* In **un-spanned** we cannot keep **half record** some where else. The extra space which is **left**, that will not be  **used**. That's why we took **floor** value when finding the **no. of records per block**. We can keep **34** full/complete records.
+* 14 complete blocks and **0.7 or 70%** of the **15th block**.
+* So that's why we took **ceil** value when finding the **no. of blocks**.
+
+## Indexing
+
+* Used to access records in **less time**.
+* For **indexing**, we need **separate pages** for them.
+
+* Used to access records in **less time**.
+* For **indexing**, we need **separate pages** for them.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/51f532a7-3383-40f0-a4c1-2c7d9ed482e2)
+
+* Where we have kept the DB records/table rows, they are called as **data blocks**.
+* When the **DB table** is stored then in technical term, it is called as **Database file**.
+* When the **index** is stored then in technical term, it is called as **index file**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8fa23878-e566-45af-af3a-b7f7759ca065)
+
+* DB File.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/088cea85-e858-4fd5-8dd6-b13c4c02a35e)
+
+* Indexing techniques.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c572c447-2e8f-4f96-b2e0-d4db3e3face2)
+
+* Indexing techniques [Related to sequences].
+
+1) Clustered Indexing
+2) Non-Clustered Indexing
+
+### Clustered Indexing
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9d73024-6a11-4b16-ae65-61f2e46c6703)
+
+* In the sequence we have arranged the pages in the book, chapter 1 then chapter 2 then chapter 3 and so no. In that **same sequence** only we have done the **indexing**.
+* In the sequence, we have arranged the **files**, in that **same sequence** we have arranged the **index**. This is called as **Clustered Indexing**.
+* **Clustered Indexing** -> Data order and index order are **same**. [**IMPORTANT***]
+* In what order we have arranged the data in the blocks?
+
+> In the order of **Rno**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a19630b5-dbde-4184-a017-e2cff04bd386)
+
+* **Clustered indexing** -> Storing the records in **DB file** and storing the **indexing** in **index file** and the **sequence of storing** in both **DB file and index file** is the **same** then it is an example of **Clustered indexing**. [**IMPORTANT**]
+* **Data and index** order are the **same**. Like in **books**.
+
+### Non-clustered Indexing
+
+* **Non-clustered Indexing** -> Data order and index order are not the **same**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0351dd3c-36aa-40fa-aa40-b0a627b57614)
+
+* In the **sequence**, the **indexing** has been done in that **same sequence** the **data** in the **DB file** is **not stored/kept** and **vice-versa**.
+* There is a **difference** between the **sequence** of the **data stored** and the **sequence** of the **indexing**. That is called as **Non-clustered Indexing**. [**IMPORTANT**]
+
+* Dense VS Sparse index.
+* Dense -> Index record is for each database record
+* Sparse -> Index record is for a few database records only.
+
+## Primary Indexing
+
+* Start from **833 page**.
 
 
 
