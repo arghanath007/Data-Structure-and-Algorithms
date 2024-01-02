@@ -1,5 +1,10 @@
 # DBMS
 
+## Revision
+
+* See the **PDF 28** again. **Basic Timestamp algorithm**. Time there then watch the video. [**IMPORTANT**] 
+
+
 ## Important Notes
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf8717dd-85a6-4267-a7dd-0a48ba9d6984)
@@ -4199,16 +4204,239 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 
 * Example
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4df3779d-21d6-42a4-b4dd-8fd1d9d61678)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f477f13e-a33c-41c8-9b4d-cb6aeca22c29)
 
+* If a **younger transaction** has done **read or write** operation then the current transaction's **write** operation is **rejected and aborted** and the current transaction is **rolled-back**.
+* So the **write** operation of **T1** transaction is **aborted** and the whole **T1** transaction is **aborted** and **rolled-back**.
+* If the **T1** transaction is **aborted** and **rolled-back** then the **T1** transaction will **restart** with a **younger/young timestamp**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c3728aa-67bb-4e8d-9f4e-122a774a8c27)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d945af13-3ba2-4bf6-979a-fc21cdf69b50)
 
+* Example.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35c0659f-71b6-49e4-972a-d490975b4e7f)
 
+* **Read-Read** meh **no conflict**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d84e5c91-8f7e-446d-a024-3def3ec08c64)
 
+* For the **W(X)** in **T1**, we will check the timestamps of both **read and write** operations.
+* Any **young transaction** has done **read or write** operation before the **W(X)** in **T1**?
 
+> **Yes** [Read timestamp].
 
+* So we will reject **W(X)** operation and whatever **T1** operation has done **rollback** those operations as well.
+* **T1** operation is **aborted and rolled-back**.
+* So, **T2 and T3** transactions are **completed** . **T1** is **aborted**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8126c0d8-bb60-4b66-8aed-bb6ff0029a28)
+
+* Solution [**VERY IMPORTANT**]
+* TS(T1) = 1, TS(T2) = 2, TS(T3) = 3.
+* TS(T1) < TS(T2) < TS(T3)
+* So **T3** is the **younger/youngest** transaction.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8cf56bb5-61d9-4948-9095-33a152e969c4)
+
+* Question. [**IMPORTANT**]
+* **T2, T3 and T1** transactions are **aborted**.
+* **T4** transaction is only **completed**.
+* For **R(X)** in **T1**, **younger transaction(T4)** has **written** which is **W(X)** before it, so **abort**, **T1** transaction.
+* **T2** transaction is **aborted** because a **younger transaction(T4)** has **read**  before **W(X)** in **T2**.
+* **T3** transaction is **aborted** because a **younger transaction(T4)** has **read**  before **W(X)** in **T3**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36dbdc1c-f1cc-4087-bf3a-2ce1e33217a2)
+
+* **T4** transaction is **not aborted** because a **not younger transaction** has **read**  before **W(X)** in **T4**. Only **T4's**, **R(X)** has **read** which is within **T4** transaction only and **not a younger transaction**. So, **T4** transaction is **completed**. [**IMPORTANT**]
+* TS(T1) = 1, TS(T2) = 2, TS(T3) = 3, TS(T4)= 4.
+* TS(T1) < TS(T2) < TS(T3) < TS(T4).
+* So **T4** is the **younger/youngest** transaction. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/01725695-4496-4562-a725-fb2064049897)
+
+* Question. [Example] [**VERY IMPORTANT**]
+* **T2 and T3** are **completed**
+* **T1** is **aborted**.
+* **T1** transaction is **aborted** because a **younger transaction(T2)** has **written** which is **W(X)**, before **W(X)** in **T1** 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ff6865c-7606-47ac-a293-2f08ae585c07)
+
+* Rollback -> T1 transaction never came.
+* That's why we set **R_TS(X) = 0**.
+* We will **reverse/undo** all of the **changes** made by **T1 transaction**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a6d7a82-d2f1-41d1-b5a6-852ebf5c04db)
+
+* We are getting the **final result** as **expected**.
+* The middle **W(X)** in **T1 and T2** are getting overwritten by the **W(X)** in **T3**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8eb0b9eb-62f9-4574-8232-2090f8d39196)
+
+* For a **serial sequence** of **T1 -> T2**, the **final value** of **X** must be the value written by **T2**. [Question] [Example]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b7d73f4-830a-4e58-abea-786a30714e6e)
+
+* Thomas Write Rule.
+* The **benefit** is that we don't have to **revert** the **T1** transaction. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7402cd18-a849-4726-b3ac-7c7b5c1a4075)
+
+* Example [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86735722-099e-4c25-8244-b1a36c5103e0)
+
+* We got the **final value** as **expected**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ee48a42-0b35-442a-b9aa-14f36d59b8a6)
+
+* No, it is for **write-write** operations comparison only. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/88d29c89-e519-440b-9a17-2cc41bb6db59)
+
+* Yes.
+* **Basic Timestamp algorithm** is also called as **Timestamp ordering** as well.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/551806c4-1521-4251-9e6c-7b9ae380c219)
+
+* It is because **W(X)** in **T2** has **written** earlier/before than the **W(X)** in **T1** and **T2** is a **younger transaction** compared to **T1**. That's why **T1** transaction is **aborted and rolled-back**. **W(X)** in **T2** has **written** earlier/before the **W(X)** in **T1**.[Example] [**IMPORTANT**]
+
+## Thomas Write Rule
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2dae4b1-e8d4-4ae5-9147-2629b8b9721b)
+
+* Thomas Write Rule -> If a **young transaction** has written earlier and an old transaction has come to **write** then **basic timestamp algorithm** will **reject** it. **Old transaction** is not allowed to **write** after a **young transaction** has written earlier. **Thomas Write Rule** says that if there is a **write** in the **older transaction** then **allow** than **write** operation.
+* If we write it in-order then first we will **read** then there is a **write** in **T1** and we will do another **write** which is in **T2**. The **final value** of **X** will be the **value** that was **written** by **W(X)** in **T2**. 
+* **Skip/do not perform** the **write operation** in **T1** and tell that it is **done**. [**VERY IMPORTANT**]
+* **Advantage** -> We don't have to **rollback** the **T1** operation now. We also got what the **expected result** was. [**VERY IMPORTANT**]
+* If a **younger transaction** had done **read** operation before the **write** operation in **T1**, then we had to **abort** **T1** operation, **thomas write rule** can't do anything. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d3acb8d-ba46-4172-a6c9-106b93055c17)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5804fb87-bc0e-47aa-a930-8180ca4e82cc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d3acb8d-ba46-4172-a6c9-106b93055c17)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bdd260aa-f926-4454-8d46-8261f335da98)
+
+* According to **thomas write rule**. [Example] [**IMPORTANT**]
+* **T1** transaction is **aborted** because before the **W(X)** in **T1**, **younger transactions(T2, T3, T4)** have done **read/write** operations and the **older transaction** which is **T1** wants to do **write** operation which is **not allowed**.
+* The **W(X)** in **T3** is **skipped** because first we checked if a **younger transaction** has done **read** operation than **T3** but there is **none**. So now we checked if a **younger transaction** has done **write** operation than **T3** and we found that **W(X)** in **T4** and **T4** is a **younger transaction** compared to **T3**. Because of **thomas write rule** the **W(X)** in **T3** is **skipped**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d91b8bbd-57e6-4b69-8ff5-b2777b55c14f)
+
+* Yes.
+* Anyways we are getting whatever the **written value**, the **T4** transaction has done at the **end**.
+* The **basic timestamp algorithm** will run the process/transactions in such a way that the transactions which is **arriving first is run** then the next then the next and so no.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/998cb00d-ff55-42d3-8b30-7cfecdbe3109)
+
+* Timestamp of T1 -> 1
+* Timestamp of T2 -> 2
+* Timestamp of T3 -> 3
+* Timestamp of T4 -> 4
+* First **T1** had arrived then **T2** then **T3** then **T4**.
+* T1 -> T2 -> T3 -> T4
+* In the **above order** only we have to run the **transactions**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7555ef3b-a3e5-4727-a172-6aa452e6e965)
+
+* Question. [**IMPORTANT**]
+* The **2nd W(X)** in **T2** is **skipped** because of the **W(X)** in **T3** which is a **younger transaction** and had **written** earlier then **T2**.
+* The **2nd W(X)** in **T3** is **skipped** because of the **W(X)** in **T4** which is a **younger transaction** and had **written** earlier then **T3**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c803347f-e62e-463c-b331-f1928bd573c3)
+
+* The schedule is **allowed**.
+* As there is **no waiting**, so there is **no deadlock** here.
+* Timestamp ordering algo:- [**IMPORTANT**]
+
+1) Serializability.
+2) No deadlock.
+
+* Starvation may happen but it depends, if a **restarted transaction gets a younger timestamp** then **Starvation** will not happen.
+* **Restarted transactions** gets a **younger timestamp**. This eliminates the possibility of **starvation**.
+* Arrival time changes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c4fb37c0-9f79-4eec-bd4b-e377b7f46bf4)
+
+* Timestamp.
+* All the **Timestamp schedules** are under **conflict serializability**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa1a2708-e82e-402f-ac19-c41dff8c4e58)
+
+* Not conflict serializable.
+* TS -> Timestamp.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fcf3bd1a-3bf4-4381-beef-a15861269792)
+
+* Full/complete/whole schedule allowed as it is.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b707f09-70ec-436e-a445-bea800309798)
+
+* Yes. Good point.
+* Write(W), Conflict Serializable(CS)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/68bfefbe-e357-4507-94c1-7ddf9f04ef8f)
+
+* No need to study. Just remember the **names**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/149bd80c-83df-4011-908d-a1230973c0e6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a55a695-c9dd-4428-b932-1aedea8df6eb)
+
+* Question [**IMPORTANT**]
+* Link -> https://gateoverflow.in/981/gate-cse-2006-question-20-isro2015-17
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb4cedd8-b3b1-40ec-951c-a6b57b3e5fc7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff87c883-41cb-46f4-ac6a-fba5febb3d6e)
+
+* Solution
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd02e18f-f7ac-4b63-9b1b-bae6d7007897)
+
+* Yes
+
+## Memory Structure
+
+1) Main Memory
+2) Secondary Memory
+
+* RAM -> Main Memory -> Nano seconds(ns)
+* Disk or SSD -> Secondary Memory -> Milliseconds(ms).
+* **DB tool** run on **CPU**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d66d5290-f0d4-4023-8d7f-d4532c2411fd)
+
+* Select * from table -> Many many records(rows) will come. Reading many many records(rows) from **secondary memory** and bringing them to **RAM** will take a lot of time.
+
+* **Access time** of **secondary memory** is **more(greater)** than **main memory**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6437b0ef-fb13-4d6f-aa08-e7ae23ab6742)
+
+* Optimization.
+* **Query optimizer** -> Runs query in such a way that **minimum time** taken to fetch records from disk.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a4f6e0d5-f31d-4ca2-ae1e-c78dcc5015c7)
+
+* select ename from employees where dataofjoining > 2001 and salary > 50000. [Example]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7441fa05-6b6b-4faf-abdf-06de6e8954ca)
+
+* **Query One(1)** -> First we **filtered out** the **table rows** with the **dataofjoining > 2001** condition. We will get **5000** rows. On those rows we used the **salary > 50000** condition and we did comparison on the **5000 and 100** rows, then we got **82** rows which match both the conditions.
+
+* **Query Two(2)** -> First we **filtered out** the **table rows** with the **salary > 50000** condition then we would have gotten only **100** rows. On these **100** rows, we would have run the **dataofjoining > 2001** condition and then we got **82** rows which match both the conditions.
+
+* In the **second query run**, the **no. of rows** fetched in the **first time** is **significantly lower** than the **first query run**, which is from **5000 to 100 rows**. So, we have to so do much **less comparisons** here. **Disk access** would have been **less** and **time for comparison** would have been **less** as well.  [**IMPORTANT**]
+
+* When we **optimize the query** in such a way that it **runs** and it take **min. no. of comparisons** and **time to run entire query** will also be **less**.
+* That's why **SQL** is called as **non-procedural query language**. 
+* We are just writing the **query** and we are not telling the **DB tool** how to **run the query**. 
+* How the query has to be run -> It is the work of the **optimizer**.
 
 
 
