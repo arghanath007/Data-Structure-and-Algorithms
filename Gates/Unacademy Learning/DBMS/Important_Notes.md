@@ -4793,28 +4793,253 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 * For **every record** we have to do **indexing**.
 * Bi, Rj -> Block 'i' and in that record 'j'.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b68fc86-fa97-47e8-bf0f-9f755cd0ef79)
 
+* Example.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/209e5725-73d0-44e5-b280-74897f9cbc0f)
 
+* **NULL** is also one of the **unique values**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/193c1cb5-9797-4cfa-9949-1d2d1b44b5f5)
 
+* Example
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9367057e-b73c-472d-8e0c-5bf13049e092)
 
+* Question. [Answers]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/21aaf1db-422a-4aa3-a4d9-84a248729029)
 
+* Solution [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3da23662-63a3-4bf3-8ebd-e360254e6c88)
 
+* Clustering Indexing [Summary]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8c0786e7-4b73-4773-b1a6-3dc55c03f79e)
 
+* Secondary Key Indexing [Summary]
 
+## Secondary non-key indexing
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d424184d-3e30-4df4-88ef-23d3b0e8428f)
 
+* For **every unique value** there will be **indexing**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed48251e-8940-4482-9794-96f3a1ead3b0)
 
+* Example.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce0379c0-a702-4fd4-a32f-e682a83d4b9e)
 
+* **B5** is index block for value **A**.
+* **Primary, clustered and secondary key** indexing are the **most important**. [**IMPORTANT**]
+* **First level** is **sparse indexing** and the **next level** is **dense indexing**. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e822b27d-b1bf-42d0-a47b-3f532148fd52)
 
+* Summary. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f537e452-ec35-4b93-b66a-5bd3cbf1c32b)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7258292e-1c25-4a38-93ef-66312b3904a9)
+
+* Solution.
+
+## Multilevel indexing.
+
+* Do **indexing** on the **index**.
+* As they are **keys** so they will be **unique values**. **Indexes** are **unique** and on top of that they are in **sorted** order. 
+* We will do **primary indexing** of the **index**.
+* We can do **sparse indexing** of the **anchor records**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/43bad67f-480b-4c40-8103-f2c6352c59e5)
+
+* Example.
+* For **2 block access**, we will get the **index's record pointer**. [**IMPORTANT**]
+* **No. of levels** = **No. of blocks accessed**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6aad1dec-d191-45e8-9a56-ad2299ac70d4)
+
+* Without **multilevel index**:-
+* To search indexes, **no. of blocks** to be accessed = **log b base 2**. [Binary Search]
+* **'b'** -> No. of blocks required to store indexes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b7b1b9e-cc67-4062-8324-25a45099f314)
+
+* Of-course.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/74710775-46f5-4b61-a4fe-cb22543f67fc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e9d918c-de57-4541-8662-1669974ccd97)
+
+* **Note** -> One block access extra to access DB record. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/84205fd4-4563-40e5-b5a0-a587d6d59b76)
+
+* n-level multilevel indexing -> To access index(record pointer), no. of blocks accessed = **'n'**.
+* **Note** -> One block access extra to access DB record.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/baf7d1e9-b0b6-4a47-9f90-6fd9651b2f0a)
+
+* Question. [**IMPORTANT**]
+* For **2-level indexing** we accessed **2 blocks** and we got the **record pointer**. We have to access the **record** as well. **Another block access** to get to the **record** we wanted to **access**. We wanted the **DB row**. For that we need **+1 block access**. That why **2 + 1 -> 3 block access**. [Solution] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9eb0a558-dc8a-4be0-9c69-2877512f3154)
+
+* Yes.
+
+* If the **DB file** is **ordered** on the **non-key field** then **DB file** is **not ordered** on the **key field**.
+* **Secondary indexing** is **dense**.
+* The **no. of index records** needed is **16384 or 2 ^ 14** as the indexing is **dense**.
+* As it is **un-spanned**, so we have to see **block by block**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d5bc353-04f0-470b-b544-64948e4f0ef2)
+
+* For **every block** we need **one index**. [**IMPORTANT**] [Solution]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f17f76b4-2eda-46f3-b458-4406ec9f7bd4)
+
+* Solution.
+* Option **C**.
+* We are storing **index file** here and not the **DB file**. THat's why we ignored the **32 bytes** information given. 
+
+## B-Tree
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72046352-fe07-433b-a66a-d5163c1e2d62)
+
+* It is like **binary search tree**.
+* In **Binary Search Tree** we can do **searching** here.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6fdea640-b1a5-4065-a994-410d6dd4f132)
+
+* Left -> Smaller values
+* Right -> Bigger values.
+* We have to do **indexing** in such a way that we have to take the help of **BST(Binary search tree)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e2bdb40a-a9ff-4cd8-8f96-84f27ce03431)
+
+* In **BST**, the **min time for searching** is **Log n**, if we have **n** nodes in the tree. [Example] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8468ba44-e921-47c8-b3f1-d5726c124f0d)
+
+* As **no. of elements** in **BST increases** -> Tree grows **vertically** and it's height increases.
+* Hence even for **searching** when **log n base 2** time required that too becomes **very large**.
+* **Solution** -> Make a tree which can grow **horizontally and vertically** also.
+* We have to make a tree where in **every node** we can keep **multiple keys(more than 1 key)**.
+* The **advantage** is that when we insert an element or when we increase the no. of elements, then the tree will grow **horizontally and vertically** as well instead of **horizontally only** in **BST**.
+* That is **B-Tree**.
+* Binary Tree -> From **one node** we get **two pointers or children**.
+* 3-ary tree -> Each node can have **3 children**.
+* For **3-ary tree**, we have **3 children** and we can have **2 keys**.
+* For **binary tree**, we have **2 children** and we can have **1 keys**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1de7ba82-ad52-4ad1-ab70-e61ae805833a)
+
+* We will grow the tree in every direction. [Example]
+* **Height** will be not that much and for that reason **searching** will take **less no. of block access**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c4fe0ff-4b2c-4f78-ab92-8fe3a2818691)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec57f07b-5b69-40c0-b7f7-c0fad749547d)
+
+* At-most -> Maximum
+* **Max** is pointers(**p**) and **keys** is **(p - 1)**. [**VERY IMPORTANT**]
+* Max. pointers -> p.
+* Max. Keys -> (p - 1).
+* Min. pointers -> Ceil(p/2).
+* Min. Keys -> Ceil(p/2 - 1). [Formula] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7cea5c58-c31f-4f66-96a6-2b6f108a0347)
+
+* Ceil value.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e744311-b49e-46f2-91f1-524eb1def320)
+
+* Keys -> Values. [Example]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/828ab576-7a30-416c-89ec-9face45f1907)
+
+* Each node can have **3 children or pointers** and **2 keys or values**. [Example]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ab3f474-360a-45fe-ad25-3be6c8b6ed36)
+
+* **Except root on any node**, we have to apply the **min and max** rule of **keys**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/861024b9-bb40-4e6b-89ad-49a0ad89371e)
+
+* Yes, **balanced tree** always.
+* All **leaves** appear on the **same level**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5bd2031c-7ce5-4091-94ba-f03cd62f8df6)
+
+* Example.
+* Remember the **formula**. [**IMPORTANT**]
+
+* Why learning **B-Tree**?
+
+> We want to keep the **indexing** in **B-Tree**.
+
+* **Every node** has **two pointers**. **One pointer** is of the **record** and the **other pointer** is for the **tree**.
+* Rec pointer -> Record pointer.
+* **Record** means the **row/tuple**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb37bdb4-6172-453f-b26c-890742038679)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/79bb43db-f53a-470c-b423-b80c9a22ac13)
+
+* Example.
+* We have kept **max of '4' keys**.
+* We have to keep **'4' record pointers** for **4** keys.
+* We have to keep **'5' tree pointers** for **4** keys.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ad333a9-d44e-4326-bfb2-9d5ba55582c7)
+
+* Not possible. [Example] [Question] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9d2ca17-a70d-49db-81f6-4f0283d65545)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8b6ee68-9250-40f8-99fd-1120240fa754)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a4bf45e3-44be-4de5-9650-26aaf783cd81)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1ef7f84-c227-4ce7-9a16-d2a58a44661d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ced5fe58-8dd7-4a8e-89f5-c8f74faf5299)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b86ed91-4c4d-4273-8f68-0b8032b18003)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc0d907b-a538-4d39-a526-390f2d735d70)
+
+* Solution.
+* Insertion in **B-Tree**. [Example] [Question] [**IMPORTANT**]
+* **Insertion** is always done on **leaf node**.
+* We can keep **2 keys** on a **single node**.
+* p = 3
+* Max keys -> p - 1
+* Min. keys -> Ceil(p/2 - 1) -> 1
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/247cb3fe-9cb4-488d-b377-6a25758574cf)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc81fee7-b927-477b-8775-f19ae5a02905)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/07711a3b-486c-4d15-b409-d014ffad6ae9)
+
+* Solution. [Question] [Example] [**IMPORTANT**]
+* p = 5
+* Max. key = p - 1 = 4
+* Min. key = Ceil(p/2 - 1) = 2
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee774fc6-1734-462f-9439-7d5e0aedf3ec)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7356208-0ba1-466e-90c4-d127a0877565)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57186270-3481-4a45-8d79-8561e5030541)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63e2e991-de44-4dba-a240-d862811b23c4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c869377e-d89c-40a2-abf7-413cd25f10b0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24446a65-85cb-4229-bd87-3814f7df8c5f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d2be4619-ed5d-4b7e-b712-f6fed9aafb85)
+
+* Good point, we will see **tomorrow**.
 
 
 
