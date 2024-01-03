@@ -5514,10 +5514,17 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 
 * Good Point.
 
+## Question
 
+* Link -> https://gateoverflow.in/333177/gate-cse-2020-question-54
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc170272-4e36-4d1d-a13c-e09f6e06e63f)
 
+* Question.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2714cb4a-7fc0-4dce-a121-1a797c47c7fd)
+
+* Solution. [**VERY IMPORTANT**]
 
 
 
