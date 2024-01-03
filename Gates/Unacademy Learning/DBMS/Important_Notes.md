@@ -4584,7 +4584,242 @@ select * from products where price < 30 and supplierid != 2 and supplierid != 6;
 
 ## Primary Indexing
 
-* Start from **833 page**.
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a63fcfc9-6fc7-4ffd-9bab-16ffbf4a8728)
+
+* Primary Indexing:- [**IMPORTANT**] [Points]
+* Indexing done on primary key or any super key.
+* Data must be ordered on index which is **primary key**.
+* It is always **sparse index**.
+* We can do **indexing** on any of the **columns**.
+* If **primary key** is one column then **indexing** is done on **one column** values.
+* If **primary key** is combination of two columns then **indexing** is done on **two column values**.
+* **Indexing** has to be done on **primary key**.
+* **Index and data** order must be the **same**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1bbf4d18-c3d2-46b1-9187-498a7ca5f85e)
+
+* Sparse Index.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/273aaf16-435a-4e41-8cee-6ea29a3a8a50)
+
+* Anchor records.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/94557e72-0e9a-47e6-a5fa-01b3ae8ad160)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae50c836-5104-42e6-8dbb-6820594db725)
+
+* Question. [Example]
+* How many blocks are accessed?
+
+> **1 block access** for the **index block** and **1 block access** for **data block**. So, total **2 block access** are **required**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e3913d1-faa8-4f53-8c3f-32081bcf7f0d)
+
+* Question.
+* How many blocks are accessed? [Example]
+
+> In the **index block** we accessed **2 blocks** and in the **data block** we accessed **1 block**.
+
+* So, total **3 block access** are **required**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/55a86636-c056-4742-bac9-3089216f747b)
+
+* We don't have to calculate the **no. of tuples(rows)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b24bedc4-f587-44d5-9184-0a4257cb2acf)
+
+* Question. [Example] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9917106-7002-42c3-be23-a8e53b452158)
+
+* Solution.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/47d3e3b2-1366-4b69-b7de-54827beb022c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e714fcf6-0758-44fa-bd99-fefe6025d7d7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d5bda27b-2dc5-4b37-81f9-7c282542be55)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3faf044a-8b1f-448e-86d9-48a307eb5b61)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b27eb0f9-f966-4291-bde1-3bfe091c3a87)
+
+* **32 byte** record we got.
+* If **database table** is stored in **4 blocks** then **indexing** will be of **4 records** as in **primary indexing** we know that we do **sparse indexing**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5a24eeb-1905-4993-a960-781f6ded2622)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e73524e6-e5b5-4965-b04a-cd493a15ce8f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22f503cb-0e48-430e-8dc6-9dc2a3568baf)
+
+* No. of index records = No. of blocks to store DB file.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24621fbe-a7c4-4a15-897f-22c4b5ee52c6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bd14f0e5-56bf-4896-9b67-16cd0df5a92e)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e9fb1cc-c9ae-4371-ba05-9c62a5df81f2)
+
+* Explanation.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/219d75af-defa-4ab7-9aca-c6be85927af2)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff7f3265-0f14-4984-8127-30cbe2a42b31)
+
+* Solution [Example] [**VERY IMPORTANT**]
+* No. of DB records per block = (Block size) / (DB record size)
+* No. of blocks to store DB file = (DB file) / (No. of DB records per block)
+* Index record size = (Key size) + (block pointer size)
+* No. of index records per block = (Block size) / (index record size)
+* No. of blocks to store index file = (No. of blocks to store DB file) / (No. of index records per block) 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a743db52-a7b2-4ffd-b910-0d1b8f7c1e45)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec2603e4-9824-402d-bb01-9f5bd986023e)
+
+* Solution.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/64dabb86-9a5c-43c3-a420-25498c125dce)
+
+* Question. [Do for both **spanned and un-spanned**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/867a3625-dd2f-4c68-96c3-8b8bc4f60f6b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b969fc7-df2e-4791-8a4b-3d0dbda8d483)
+
+* Spanned. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f345e5e1-56e3-4ece-9f6c-f4ee30b687c4)
+
+* Un-spanned. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8a6e786-ceab-40f7-b1d5-156d38ebd9e7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f950e62-7ea8-4e34-99c8-4a7ce902044c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b89150c0-8156-48c2-b94a-7dccd87e43e9)
+
+* Solution. [**VERY IMPORTANT**]
+* In the **index block** if we have to do **searching** then we have to do **binary search** instead of **linear search**. The **index and the data** are **ordered** only.
+* No. of comparisons?
+
+> For the  **108** blocks, **no. of comparisons = log 108 base2 -> 7**.
+
+* With the access of **7** blocks, we can access the blocks, we want to access.
+* We will **search** first in the **index**.
+* Every **index** has a **block pointer** which is pointing to a **block**.
+* We will do **searching** on the **index block** and after **searching** we will find out the **block** in which the **data** that we want is **located/stored**.
+* We are doing **binary search** on the **index block** and the **no. of block** we have to access is **7** blocks. We accessed **7** blocks and the **job** is done.
+* Out of the **108 blocks**, we have to access only **7 blocks** and the job is done.
+* This is where we can **optimize the access time**.
+
+* **Binary search time complexity** -> O(log n base 2) -> logn base 2. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd301fde-325e-4f52-9b8c-c1c19d35ba03)
+
+* Yes, **spanned** can also have **internal fragmentation** because the **last block** may not be **completely filled**.
+* In **un-spanned**, every block can have the possibility of **internal fragmentation**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a46ef901-1571-4029-8acf-ae0db2f708cd)
+
+* Yes.
+
+### Clustering Indexing
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e2515a3-af90-441e-9258-dde83e30996f)
+
+* Clustering Indexing
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b7f2608c-34cc-40d1-9ce5-920bc56a39ce)
+
+* * This is **wrong**.
+* Indexing is done for **each unique value of non-key field**. [Example]
+* **Non-key field** means repeated values are possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27404068-59b8-4d2a-8b4f-bebc9e3de298)
+
+* This is **correct**.
+* **Indexing** will not be for **every single record**, **NO**. For **every unique value**, we do **indexing**. [**IMPORTANT**]
+* We have to **store** the **starting blocks** of **every unique value**. [**IMPORTANT**]
+* Sparse Indexing. [Example above]
+* In **clustering indexing**, it can be **dense** as well as **sparse**.
+* **Sparse** when -> When non-key field has duplicate values.
+* **Dense** when -> When non-key field has all unique values.
+* The indexing is done for each unique value of non-key field.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3342737-e4cf-427f-93d7-dac4903855dc)
+
+* We have to search the records in **sequence**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af78affc-b545-4a76-b833-d97828465730)
+
+* Question. [Example] [**IMPORTANT**]
+* **Clustering indexing** is not directly mentioned but the definition of **clustering indexing** is given.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5620763-71d9-4a98-b554-e9d7f55e57eb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e465a87e-7272-4a03-8bdd-1fd5182bf597)
+
+* Solution. [**IMPORTANT**]
+* In **primary indexing**, **the no. of records in index file** will be **no. of blocks to store the db file**.
+* In **clustering indexing**, **the no. of records in index file** will be **no. of unique values**.
+* This is the **only difference** everything is **same** in terms of solving the question.
+* **Indexing kiski karni ha** woh dimag(brain) meh ah gaya toh, everything else is **same**. [True]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b8a7920-9cd4-4359-8e36-68702f8170b6)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/77e6b403-f325-416c-8860-99148382b3b8)
+
+* Question. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e4bca64-9444-4846-a299-d1966ea597b0)
+
+* Spanned.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cba50c67-d265-4a0a-a681-801a3c9df6bd)
+
+* Un-spanned.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3cc7a5f8-fb92-4881-aa19-c5429e2c5632)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a301a05-bd84-4245-badc-03235ec7c85e)
+
+* Solution. [**VERY IMPORTANT**]
+
+### Secondary Key Indexing
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fdeb5321-c9ca-4a0f-b4a1-03424fee398b)
+
+* As the data is **not ordered**, we will not know the **sequence** and for this reason we will have to do **dense index**.
+* For **every record** we have to do **indexing**.
+* Bi, Rj -> Block 'i' and in that record 'j'.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
