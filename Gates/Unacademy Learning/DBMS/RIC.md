@@ -1670,7 +1670,393 @@
 
 * Answer -> 6 Blocks. [**VERY IMPORTANT**]
 
+## SQL - 1
 
+* Link -> https://unacademy.com/class/sql-pyq-discussion-part-1/FIVDGXH3
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/651db0bb-c2e2-46aa-ab78-fc67eba1e285)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f88cc90-4e36-466c-999d-7062d255459a)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6853f70-f0dd-4c3d-9729-28606e53bfbb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9c23861-c110-4c25-b13a-7c3ce585c5e4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e27d7a16-2650-405f-aeb9-694ebccd5613)
+
+* Solution. [Can we solved using **Sub-query**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ea9ebfd-fde2-42bb-bde1-01f1f4d5fd5b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1646fadb-dbbe-4a67-8503-3f25920769aa)
+
+* Option **A**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/072c39b4-81ef-426f-9e79-afad2ff30c74)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea41cb75-3b9c-4f90-90c6-685a4c811156)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ccbf85b-201a-45b3-837d-d60158d100c3)
+
+* Option **C**.
+* Check once with **x** as **Null value** and **x** as **not Null value**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e92bf918-5019-4476-8656-25d654f2566a)
+
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/49928453-0b81-47d3-a004-5c1d57ac0eec)
+
+* Solution.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19be8351-ca36-417b-97a5-ebf425990e58)
+
+* Solution.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f8ae6b66-5397-45be-9189-03763bf36cb9)
+
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/694190e1-f4a9-4ae7-bcdd-ae5d58b4245d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5436c407-eb9a-46d4-89bd-10fcd70bb2e9)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/07077ed7-875a-4b04-af1d-49ef1d267ad6)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8d89b1c-a70a-4079-8110-12b7216b0e66)
+
+* Option **C**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f52fa9b2-b30b-4b4d-8367-81376a581200)
+
+* **NULL** allowed in **foreign key** but **NULL** not allowed in **primary key**.
+* Option **C**. [**IMPORTANT**]
+
+## SQL - 2
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5bdfae47-0a79-4bfe-bd72-e4b298f6a6c1)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72140a4d-a59e-4a40-ad43-d4a12be36d99)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69ee1041-6591-413d-9aac-eee1d6a52782)
+
+* Co-related subquery.
+* Option **D**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/75f07ef3-55ce-451c-bb0e-0b97a7188f92)
+
+* Take an **example** with a **table** would be easier to solve the question.
+* All of the rows that should be coming out from the inside should be **not unique** rows. Multiple rows should come with the **same supplier** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05e77a9f-cfed-4ac1-b2d2-00a6328d5341)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0bd2589e-dfd8-458e-8266-b51a22ddfd1d)
+
+* Option **D**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/21d64e2c-f15a-4008-857b-178e82f2a34b)
+
+* We should have gotten **'2' 3rd ranks** but instead got **'2' 4th ranks**. So **Query 1** is not working properly.
+* Take an **example** with a **table** would be easier to solve the question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8dd9d3ac-fd3c-4921-8014-edcaa23f122d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3159475d-8458-4ba3-9710-4bed6acf6ca8)
+
+* Discuss on the **next class**.
+
+## SQL - 3
+
+* Link -> https://unacademy.com/class/sql-pyq-discussion-part-3/9IHKNZVM
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a46fc8b7-dbb2-4d37-9154-db1b9710a8f1)
+
+* Option **C**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a59af1b3-6450-4faa-8e0b-b0901fa5973a)
+
+* 100 students have enrolled in the **course** but only **80** students have **paid** for the course.
+* Query 1 -> Only students who have enrolled for atleast one course and paid. From the **outer query** there will be duplicates.
+* Query 2 -> Unique students who have paid and enrolled.
+* Query 2 -> Here also we will get duplicate information as well.
+* If we select **student information** from **paid** then we will get the **student information** only once because the **student information** is the **primary key** in the **paid table**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd5e299f-82fe-4199-931a-0c4987dc8cfe)
+
+* Option **B** [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/70349898-c106-4651-bfc8-b80dabce01f4)
+
+* Option **A** [**IMPORTANT**]
+
+* Any one -> Koi akh.
+* Anyone -> Koi bhi.
+* **Not exist** is **True** when the **inner query** returns **all Null** rows.
+* If nothing is returned from the **inner query** then **Not exist** is **True**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fdafd0b7-0a74-4cca-8715-4b193c1f6802)
+
+* **Q1** is **correct** because if we get any **rows** in the **inner query** then we don't select the **employee**.
+* We want **greater than all** and not **greater than any**. We will get **greater than minimum** in **Q2**, so it is **incorrect**.
+* In **Q1** when the **inner query** doesn't return anything then we know that we found an **employee** whose **salary** is higher than the employees of **department '5'**. We will select that **employee**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/392c4afb-0872-41ca-ad49-08bea59f4141)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6001fd8f-89fc-4df5-8586-edc4c17582ee)
+
+* Option **A**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c98afe51-bfda-4224-b5b3-e6814b1fc5ec)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a4798d37-bb51-415f-94d7-b1068a28688a)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36a0c1f5-d70a-469d-b18e-6410b1b26551)
+
+* Option **C**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/340f0659-1e36-488c-9162-51a641711d33)
+
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6e908c99-e729-47e3-b69a-69f3043b3a9a)
+
+* Option **A**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d7743c4f-5449-469a-8016-835fc23d428b)
+
+* We will get **5 rows**.
+* **Ramesh-Sunderajan** creates **2 rows**.
+* **Suresh-Ramgopal** creates **1 row**.
+* **Mahesh-Sunderajan** creates **2 rows**.
+* Total of **5 rows**.
+* Option **C**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a9cea2a8-bbdb-4376-b7b2-9fae400b565b)
+
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09f72d3f-8712-43f5-9b5a-19872222bf3c)
+
+* Greater than All (nothing) -> The condition will always be **True**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc3c9843-5eb2-4804-af59-ccc7e58cd198)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3689cd4-2211-4747-9bc7-e790360fa34b)
+
+* As the primary key in table **R** is a combination of two columns(a and b), so the **foreign key** which is referencing the **primary key** of table **R** should also be a combination of two columns, otherwise it will give an **error** and it will not work. So **S2** is **false**. [**IMPORTANT**]
+* Option **D**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a6015743-7fab-4cc0-8870-d655825fca31)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac4a74d5-dee7-4926-acb6-9080c64657c8)
+
+* Solution.
+* Answer -> 1,4,5.
+
+## SQL-4
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0722a842-e9aa-4f4c-a806-64e300d07b8c)
+
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b193195a-9ac4-48da-9383-a48c1f15e764)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ea0db0f-f6ed-495a-8cad-39dd46f002ae)
+
+* We want duplicate from **R** and not from **S**. [**IMPORTANT**]
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4801ea00-7a0f-41e0-be0b-4aa94726905f)
+
+* Option **D**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24f50eac-d304-4390-801c-e4b08df191d7)
+
+* There will be **two groups** according to the **student_name** whch are **Raj and Rohit**.
+* We will get **two rows** as the resultant set.
+* Answer -> 2.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/acbf561c-f6b9-4959-8e2b-2ab01c7c930d)
+
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/abe31aef-2e91-4d23-87c8-317f43dfa96f)
+
+* This is condition join.
+* Answer -> 2.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d9106268-16d4-4967-8597-4c81983fe462)
+
+* Answer -> 2.6
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e36aeeaf-813c-487c-bb16-eea55a246db4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa73efb9-775c-4bcf-a9d8-088fc4ff9d34)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/887f1a01-60b7-409b-bfb6-978f2ac8c42c)
+
+* Answer -> 7.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c8870a3b-e957-42ed-a3b9-4b8f8ab06dc0)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c5d9e932-7f28-4b7d-8ae3-82625833cfbe)
+
+* Answer -> 5
+* Because of **group by student_name** we are getting **5 rows** and we are not doing any **joins**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9fd88dc1-0b6b-4738-afb9-1fb938bdd55f)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f68f94cc-a722-49ae-a076-368199182c41)
+
+* Answer -> 4.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ccab1a0-ae5a-4354-abb7-11a1713fc82e)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4bcaa910-bd4f-4409-bb81-58abe5614424)
+
+* Solved in **next class**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ebd77e1e-e76e-4f6f-b8e3-d422ad0f9375)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7393b716-f652-4953-8f9e-65f966296cb4)
+
+* Answer -> 2.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f5b8d3a-d68e-4b50-a4f9-a5b5d4a174cf)
+
+* Predictable topics.
+
+## SQL-5
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/64f4c5f3-96c1-4686-8ac3-b17f99f00243)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1cf36c95-30a8-4a4a-97c7-cce242371898)
+
+* S01. 
+* As it is a **co-related** subquery between the **outer query** and the **2nd inner query**, so for every output of the **outer query** we have to run both the **inner queries** everytime.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec70dd3d-a8e6-4e83-97c1-ec732980b108)
+
+* For **S02** we are getting **C12** as the output form the **inner queries** and as the output of the **inner queries** is **not empty or NULL** so **NOT EXIST** will return **false** and **S02** will not be selected in the **output statement**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc4f7503-7da1-4238-a855-f59d7fd79c6c)
+
+* For **S03** we are getting **C11 and C12** as the output form the **inner queries** and as the output of the **inner queries** is **not empty or NULL** so **NOT EXIST** will return **false** and so **S03** will not be selected in the **output statement**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76901f36-aed4-4839-9f7b-e14f8ab8734b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/690699b8-aa10-47fa-9a93-ed55ba884db6)
+
+* For **S04** we are getting **NULL** as the output form the **inner queries** and as the output of the **inner queries** is **empty or NULL** so **NOT EXIST** will return **True** and so **S04** will be selected in the **output statement**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/222d0c27-cd59-4fd4-b9ce-d9c3965bad32)
+
+* For **S05** we are getting **NULL** as the output form the **inner queries** and as the output of the **inner queries** is **empty or NULL** so **NOT EXIST** will return **True** and so **S04** will be selected in the **output statement**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44469436-bc6e-4ab5-a7cd-a938bb83ee16)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bdda3532-b55d-46c7-b599-22e79cebec07)
+
+* Answer -> 2. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/20507eba-8405-4994-8fb4-9e593fe2dca5)
+
+* We have **10 drivers** and there are **2 rows** from the inner query so **10 * 2 -> 20** more comparisons.
+* We earlier has **45** so total is **45 + 20 -> 65** comparisons.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c6e2cfa1-096f-49ad-a555-4ff6fb97fbc8)
+
+* We have to find out the **no. of comparisons**.
+* Answer -> 65 [**VERY IMPORTANT**]
+* Below **Answer** is better.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7857502c-2eb8-42c4-8ad8-07cd3f5496e7)
+
+* To find the **red** colored car we needed **4** comparisons.
+* We got **2 red colored** cars -> 102 and 104.
+* We have **10 tuples** in **R** table.
+* We searched **102** in **R** table and got it for **3 times(22, 31, 64)**. So we did **10 more comparisons** here.
+* As this is **optimized SQL query** so we can ommit the comparisons we have done before for **102**.
+* So for **104** we need to do **7** comparison only on the **R** table.
+* We had already done **2** comparisons for **red** so for **green** we need **2** comparisons only in the **C** table.
+* So we will compare the **Green** which is **103** and we will compare it in the **R** table and we get **5** comparisons.
+* So in total we have done **4 + 10 + 7 + 2 + 5 -> 28** comparisons to get the **2 rows** finally.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22281beb-3aac-41b5-97f6-997df1c305db)
+
+* Question has **multiple possibilities**. So many **different answers**.
+* [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5bdf1129-fa3c-4fd3-b0ab-89f2cb08eeff)
+
+* It is because of **BCNF**.
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/74ce5dbc-5263-47ee-8a12-6d245a8bb67b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c49ebe94-e33f-4bdc-a954-c2d53a7c553b)
+
+* More Explaination.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3277c419-4974-45cd-b90e-c9d1cf5f7baf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7584f2da-bc53-4573-8de2-3b3e143dd74b)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/68bd45ae-92e1-4b35-87ce-671469f74fbf)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/54b90a57-ee3e-4d27-8d7e-3e7ed279e3a2)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e7e5f86-bb00-4455-b71b-ae983d8b340e)
+
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aaea506b-2914-4823-8e59-856ca600c6d3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30b2159f-e1cd-4e1f-af03-7f3a9d4e7b40)
+
+* Option **C**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec716bda-2347-4a89-8448-9b72c3ca3c6d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6741245f-8f14-45ad-8345-50813e015de1)
+
+* FDs -> Zero.
+* The dependencies that come from **FDs** are **zero(0)** because of **BCNF**.
+* Option **A**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce439ac7-8175-457e-b082-5b530416a38f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/714050e2-0a92-4d9c-a1cc-0ee039a74c78)
+
+* Option **B and C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6cfb5da6-f50e-4360-9266-e87c98843aa9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a4aec03-b6bb-46a2-b6cc-b2614486483a)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/059e8a02-f2b9-41e7-8136-43afcc0d483b)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ffbd724c-fe15-493a-b36f-d53a256f33aa)
+
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db80f785-a35a-45f2-a634-608139368e18)
+
+* Either any **parital or transitive** dependency so it is in **3NF**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31f3899a-ed5c-4092-a245-1d99804ebc23)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/901918b4-6d6e-45f0-9763-88327ce7c451)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0eb58381-2b8e-4f46-bdd4-e2e2a02263c7)
+
+* Next Class.
 
 
 
