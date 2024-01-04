@@ -1881,6 +1881,112 @@
 
 * Option **A**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/abe31aef-2e91-4d23-87c8-317f43dfa96f)
+
+* This is condition join.
+* Answer -> 2.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d9106268-16d4-4967-8597-4c81983fe462)
+
+* Answer -> 2.6
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e36aeeaf-813c-487c-bb16-eea55a246db4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa73efb9-775c-4bcf-a9d8-088fc4ff9d34)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/887f1a01-60b7-409b-bfb6-978f2ac8c42c)
+
+* Answer -> 7.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c8870a3b-e957-42ed-a3b9-4b8f8ab06dc0)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c5d9e932-7f28-4b7d-8ae3-82625833cfbe)
+
+* Answer -> 5
+* Because of **group by student_name** we are getting **5 rows** and we are not doing any **joins**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9fd88dc1-0b6b-4738-afb9-1fb938bdd55f)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f68f94cc-a722-49ae-a076-368199182c41)
+
+* Answer -> 4.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ccab1a0-ae5a-4354-abb7-11a1713fc82e)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4bcaa910-bd4f-4409-bb81-58abe5614424)
+
+* Solved in **next class**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ebd77e1e-e76e-4f6f-b8e3-d422ad0f9375)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7393b716-f652-4953-8f9e-65f966296cb4)
+
+* Answer -> 2.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f5b8d3a-d68e-4b50-a4f9-a5b5d4a174cf)
+
+* Predictable topics.
+
+## SQL-5
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/64f4c5f3-96c1-4686-8ac3-b17f99f00243)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1cf36c95-30a8-4a4a-97c7-cce242371898)
+
+* S01. 
+* As it is a **co-related** subquery between the **outer query** and the **2nd inner query**, so for every output of the **outer query** we have to run both the **inner queries** everytime.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec70dd3d-a8e6-4e83-97c1-ec732980b108)
+
+* For **S02** we are getting **C12** as the output form the **inner queries** and as the output of the **inner queries** is **not empty or NULL** so **NOT EXIST** will return **false** and **S02** will not be selected in the **output statement**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc4f7503-7da1-4238-a855-f59d7fd79c6c)
+
+* For **S03** we are getting **C11 and C12** as the output form the **inner queries** and as the output of the **inner queries** is **not empty or NULL** so **NOT EXIST** will return **false** and so **S03** will not be selected in the **output statement**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76901f36-aed4-4839-9f7b-e14f8ab8734b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/690699b8-aa10-47fa-9a93-ed55ba884db6)
+
+* For **S04** we are getting **NULL** as the output form the **inner queries** and as the output of the **inner queries** is **empty or NULL** so **NOT EXIST** will return **True** and so **S04** will be selected in the **output statement**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/222d0c27-cd59-4fd4-b9ce-d9c3965bad32)
+
+* For **S05** we are getting **NULL** as the output form the **inner queries** and as the output of the **inner queries** is **empty or NULL** so **NOT EXIST** will return **True** and so **S04** will be selected in the **output statement**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44469436-bc6e-4ab5-a7cd-a938bb83ee16)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bdda3532-b55d-46c7-b599-22e79cebec07)
+
+* Answer -> 2. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/20507eba-8405-4994-8fb4-9e593fe2dca5)
+
+* We have **10 drivers** and there are **2 rows** from the inner query so **10 * 2 -> 20** more comparisons.
+* We earlier has **45** so total is **45 + 20 -> 65** comparisons.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c6e2cfa1-096f-49ad-a555-4ff6fb97fbc8)
+
+* We have to find out the **no. of comparisons**.
+* Answer -> 65 [**VERY IMPORTANT**]
+* Below **Answer** is better.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7857502c-2eb8-42c4-8ad8-07cd3f5496e7)
+
+* To find the **red** colored car we needed **4** comparisons.
+* We got **2 red colored** cars -> 102 and 104.
+* We have **10 tuples** in **R** table.
+* We searched **102** in **R** table and got it for **3 times(22, 31, 64)**. So we did **10 more comparisons** here.
+* As this is **optimized SQL query** so we can 
+
+
+
+
+
+
+
+
+
 
 
 
