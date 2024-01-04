@@ -1977,12 +1977,86 @@
 * We got **2 red colored** cars -> 102 and 104.
 * We have **10 tuples** in **R** table.
 * We searched **102** in **R** table and got it for **3 times(22, 31, 64)**. So we did **10 more comparisons** here.
-* As this is **optimized SQL query** so we can 
+* As this is **optimized SQL query** so we can ommit the comparisons we have done before for **102**.
+* So for **104** we need to do **7** comparison only on the **R** table.
+* We had already done **2** comparisons for **red** so for **green** we need **2** comparisons only in the **C** table.
+* So we will compare the **Green** which is **103** and we will compare it in the **R** table and we get **5** comparisons.
+* So in total we have done **4 + 10 + 7 + 2 + 5 -> 28** comparisons to get the **2 rows** finally.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22281beb-3aac-41b5-97f6-997df1c305db)
 
+* Question has **multiple possibilities**. So many **different answers**.
+* [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5bdf1129-fa3c-4fd3-b0ab-89f2cb08eeff)
 
+* It is because of **BCNF**.
+* Option **B**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/74ce5dbc-5263-47ee-8a12-6d245a8bb67b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c49ebe94-e33f-4bdc-a954-c2d53a7c553b)
+
+* More Explaination.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3277c419-4974-45cd-b90e-c9d1cf5f7baf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7584f2da-bc53-4573-8de2-3b3e143dd74b)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/68bd45ae-92e1-4b35-87ce-671469f74fbf)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/54b90a57-ee3e-4d27-8d7e-3e7ed279e3a2)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e7e5f86-bb00-4455-b71b-ae983d8b340e)
+
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aaea506b-2914-4823-8e59-856ca600c6d3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30b2159f-e1cd-4e1f-af03-7f3a9d4e7b40)
+
+* Option **C**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec716bda-2347-4a89-8448-9b72c3ca3c6d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6741245f-8f14-45ad-8345-50813e015de1)
+
+* FDs -> Zero.
+* The dependencies that come from **FDs** are **zero(0)** because of **BCNF**.
+* Option **A**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce439ac7-8175-457e-b082-5b530416a38f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/714050e2-0a92-4d9c-a1cc-0ee039a74c78)
+
+* Option **B and C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6cfb5da6-f50e-4360-9266-e87c98843aa9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a4aec03-b6bb-46a2-b6cc-b2614486483a)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/059e8a02-f2b9-41e7-8136-43afcc0d483b)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ffbd724c-fe15-493a-b36f-d53a256f33aa)
+
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db80f785-a35a-45f2-a634-608139368e18)
+
+* Either any **parital or transitive** dependency so it is in **3NF**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31f3899a-ed5c-4092-a245-1d99804ebc23)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/901918b4-6d6e-45f0-9763-88327ce7c451)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0eb58381-2b8e-4f46-bdd4-e2e2a02263c7)
+
+* Next Class.
 
 
 
