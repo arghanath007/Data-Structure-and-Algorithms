@@ -2165,11 +2165,49 @@
 
 * Option **C**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/573e8102-7284-48ab-918d-694085ee16bf)
 
+* Option **C**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0bc7bbb-fb55-401a-bc93-d484c52789a4)
 
+* Option **C and D**.
+* Option **C** is doable but option **D** is not at all doable.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37783f75-1cc6-44c3-aca1-c8b2c4ef1fa2)
 
+* Finally Option **D**. [Answer]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b597f73f-d0eb-4fef-8c0b-8cef57f7ab54)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4aac374c-dcbd-401a-92cc-6b33ff9d99af)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/99e75ef1-afff-42a3-a075-16112583081e)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/044ef7e5-b5db-42d1-bf97-84084226196c)
+
+* Option **A**.
+* We will get **distinct value** from **project** anyway.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e58b8f09-621a-420b-9d71-369294f65240)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8fcff57d-2376-4117-9aad-8e4b66dd5d9a)
+
+* Answer -> 4.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b68df628-f2ad-4aa6-a9a0-619224c88a88)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e7084b9-8cfd-417a-b1c2-d090a6a419e9)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e66b354b-317f-47bd-9d19-8d6f420ca831)
+
+* Option **A**.
 
 
 
