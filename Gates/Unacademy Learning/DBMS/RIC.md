@@ -2209,6 +2209,72 @@
 
 * Option **A**.
 
+# Tests
+
+## Test 1
+
+* Link -> https://unacademy.com/quiz/dbms-test-1/G704R9ZOU9/solutions/SP_Y54A4DMRHO8RP189Z
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0702d7f0-a679-43ff-95fa-92ceed9aac7f)
+
+* 2
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/0C1E8B47FC
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8a456d8-c03b-49f5-9810-d0bf8f75f32d)
+
+* 3
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/02efe76c-20bb-47c4-b707-7c77d6fc3138)
+
+* 4 [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/90ef37bb-68ea-4958-b260-81e22cfb9551)
+
+* 5 [Doubt]
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/F428308559
+* Waiting for **update**, solutions are of **different questions**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b7b17474-81d7-4eec-a3f4-91e7693c7376)
+
+* 7
+* My mistake I did **A -> B** instead of **B -> A**. [Focus more]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44104b92-ad34-46dd-a0f3-4018590056ca)
+
+* 8 [Doubt]
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/5591E3FD64
+* Waiting for **update**, solutions are of **different questions**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0cfe865-e10c-44e2-8213-39d3d70ab8d6)
+
+* 10. [**IMPORTANT**]
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/C1C6453D6F
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b2909544-3b4b-4a90-83e8-1255f1786553)
+
+* 11. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0fc3bf5-b510-46d3-bd69-fff643e2d2db)
+
+* 12. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/434f8b37-2ba6-4bb0-9d83-848a8e40ef73)
+
+* 13. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d4a2e8a-3cb6-4d10-93c5-213b3075055b)
+
+* 14. [Doubt]
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/F6E2BF5575
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6e4aedb8-4293-4b3e-adc9-c485ffc911e1)
+
+* 15. [Doubt]
+* Can't submit doubt waiting for others to solve.
+
+
+
+
 
 
 
