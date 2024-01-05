@@ -302,20 +302,47 @@
 
 * Example. [**VERY IMPORTANT**]
 
+## operators-and-control-statements(2)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2999eaf3-ed4a-498d-a04e-2517c19c55f8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3c91bac-ca80-4c1f-9c65-871a01c1eebf)
 
+* Operators
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e93e250c-111d-4638-83ed-1e3ec486865e)
 
+* Types of Operators.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c057161a-c4ff-4dfc-b99b-0f9368fee827)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/23ea26ba-5e64-4c7b-92a6-0be5a3dcab93)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/49a458ef-9a59-4327-9caf-9e4eb2466e8d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/78e7b119-c588-4995-8b9d-431b60b8a96a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1fd4ade-f98c-4913-9841-8279d64b0699)
 
+* Arithmetic Operators.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5a4fb47-86c7-4003-8863-47cad78ba1a5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f2dfbe1-1919-493b-8175-452e986db032)
 
+* Example. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fcc3439c-45c4-4621-b3c5-48ae4f749cb6)
 
+* Solution.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae2d1c52-aa29-4222-b3aa-d5ec121607b5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5dcbe45d-a5b9-414f-bffa-18afba426942)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4121c1e6-7a62-45a3-9661-b81b7972b7e9)
 
+* Example [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/54ce68af-607f-4055-9527-917a20db13dd)
 
+* Solution.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d956441a-90ad-49f3-9eea-d0c47e2b73f9)
+
+* Comparison Operators.
 
 
 
