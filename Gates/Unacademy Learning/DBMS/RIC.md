@@ -2275,6 +2275,8 @@
 
 ## Test-2
 
+* Link -> https://unacademy.com/quiz/dbms-test-2/MRFWWWL5I9/solutions/SP_4CAXNRR8OWUVPA561
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/533b8c49-0109-40ea-802f-208ec373c563)
 
 * 1
@@ -2329,7 +2331,88 @@
 
 * 14 [**IMPORTANT**]
 
+## Test-3
 
+* Link -> https://unacademy.com/quiz/subject-test-dbms/HTZYBDX2SE/solutions/SP_EGGTF7U5NLGZN8J5P
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b26f1b7d-0d3f-44bd-a309-e085e373e8d5)
+
+* 1 [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d37487f-56cb-4515-9720-25ecc3f14436)
+
+* 4 [Doubt]
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/8AE230CF93
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a80e08c2-cf3a-4c0f-ac6e-311ccb570510)
+
+* 5 [Doubt]
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/DB7BFEE324
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/17f96020-cf98-4c37-b7ef-1ee8e41de159)
+
+* 9 [Doubt]
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/6D8D0FF114
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dad69241-17ab-4717-bdba-eb3b6e43162f)
+
+* 10
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ad5507e-5866-49a7-a7dc-1db0e052694e)
+
+* 11 [**IMPORTANT**]
+* Can't submit doubt, waiting.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c56d5535-ce2b-488e-a924-62e7977be017)
+
+* 14 [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a867d7c-b55a-4cee-8583-593ce2bd8e6f)
+
+* 16 [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b8dac859-7c65-41d8-b52f-b6a2a34c4ccc)
+
+* 17 [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/51edc8cf-b976-40fd-8f2e-0c3478f1827f)
+
+* 18 [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6acdde5-b683-415d-b0ef-d0e1a89db70e)
+
+* 19 [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e167c01-229f-45f8-a5d1-b1d4b4e0fee0)
+
+* 20 [**IMPORTANT**]
+* Can't submit doubt, waiting.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb0f05f2-9d2a-41e0-a307-3d2a0ab667c3)
+
+* 21
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4372acb9-0d35-4df1-8157-d632e4a25993)
+
+* 22 [**IMPORTANT**]
+* Can't submit doubt, waiting.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41582606-8460-44a8-a9b1-0cb6e64b6451)
+
+* 23 [**IMPORTANT**]
+* Can't submit doubt, waiting.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f32d932-c96d-424b-ab9a-83d096134a16)
+
+* 25 [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8fd564fd-14b2-4352-bd3c-1421d9c523f2)
+
+* 27 [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b8304fb2-445f-4a61-8cd6-644a92c345f1)
+
+* 29 [**IMPORTANT**]
 
 
 
