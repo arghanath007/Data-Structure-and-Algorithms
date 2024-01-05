@@ -2209,6 +2209,218 @@
 
 * Option **A**.
 
+# Tests
+
+## Test 1
+
+* Link -> https://unacademy.com/quiz/dbms-test-1/G704R9ZOU9/solutions/SP_Y54A4DMRHO8RP189Z
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0702d7f0-a679-43ff-95fa-92ceed9aac7f)
+
+* 2
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/0C1E8B47FC
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8a456d8-c03b-49f5-9810-d0bf8f75f32d)
+
+* 3
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/02efe76c-20bb-47c4-b707-7c77d6fc3138)
+
+* 4 [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/90ef37bb-68ea-4958-b260-81e22cfb9551)
+
+* 5 [Doubt]
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/F428308559
+* Waiting for **update**, solutions are of **different questions**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b7b17474-81d7-4eec-a3f4-91e7693c7376)
+
+* 7
+* My mistake I did **A -> B** instead of **B -> A**. [Focus more]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44104b92-ad34-46dd-a0f3-4018590056ca)
+
+* 8 [Doubt]
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/5591E3FD64
+* Waiting for **update**, solutions are of **different questions**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0cfe865-e10c-44e2-8213-39d3d70ab8d6)
+
+* 10. [**IMPORTANT**]
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/C1C6453D6F
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b2909544-3b4b-4a90-83e8-1255f1786553)
+
+* 11. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0fc3bf5-b510-46d3-bd69-fff643e2d2db)
+
+* 12. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/434f8b37-2ba6-4bb0-9d83-848a8e40ef73)
+
+* 13. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d4a2e8a-3cb6-4d10-93c5-213b3075055b)
+
+* 14. [Doubt]
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/F6E2BF5575
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6e4aedb8-4293-4b3e-adc9-c485ffc911e1)
+
+* 15. [Doubt]
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/D3FC129C3F.
+* Waiting for **update**, solutions are of **different questions**.
+
+## Test-2
+
+* Link -> https://unacademy.com/quiz/dbms-test-2/MRFWWWL5I9/solutions/SP_4CAXNRR8OWUVPA561
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/533b8c49-0109-40ea-802f-208ec373c563)
+
+* 1
+* Selected the correct options only but mistakenly selected option **C** as well.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e5a45c0-ff81-485d-be6a-a55a2a61ec36)
+
+* 3 [**VERY IMPORTANT**]
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/2D337E00D7
+* As **cycle** is formed so it is **not conflict serializable**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98fb7b6b-b3dd-49f6-8d29-8836faedf432)
+
+* As there is **no blind write** here so it cannot be **view serializable** too.
+* As it it either **conflict or view** serializable therefore we can say that the **transactions** are not **serializable** at all. [Doubt there]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4cfe17f7-4af4-4303-9766-5da62bf171f4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e28a0105-14db-40cd-a66c-b9766019eb83)
+
+* 4 [**IMPORTANT**]
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/4B7AD6426D
+* We are checking if the left side of the **arrow(->)** values can be used on the right side of the **arrow(->)**. Check the **video** for **better explaination**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d352e1d8-6350-4bcf-993f-268c7fafd9c8)
+
+* 6 [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ca33c49-f4e6-4b0e-8b1d-528c242d1b8d)
+
+* 9 [**IMPORTANT**]
+* Check the closures properly.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa80c061-f873-4785-a58a-83efcee9714a)
+
+* 10 [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b0246db-4425-4d7f-8ad4-a9b55fe980be)
+
+* 11 [Doubt]
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/BE4A2F0301
+* Solution is of a different solution.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37d7b9a2-9826-4f10-9ba1-c52e4da1906b)
+
+* 12 [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b201b83-ba4a-4e1b-a59c-5c06181599df)
+
+* 13 [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/acc92e3e-87b6-4260-8a89-e4884d5cd25b)
+
+* 14 [**IMPORTANT**]
+
+## Test-3
+
+* Link -> https://unacademy.com/quiz/subject-test-dbms/HTZYBDX2SE/solutions/SP_EGGTF7U5NLGZN8J5P
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b26f1b7d-0d3f-44bd-a309-e085e373e8d5)
+
+* 1 [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d37487f-56cb-4515-9720-25ecc3f14436)
+
+* 4 [Doubt]
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/8AE230CF93
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a80e08c2-cf3a-4c0f-ac6e-311ccb570510)
+
+* 5 [Doubt]
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/DB7BFEE324
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/17f96020-cf98-4c37-b7ef-1ee8e41de159)
+
+* 9 [Doubt]
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/6D8D0FF114
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dad69241-17ab-4717-bdba-eb3b6e43162f)
+
+* 10
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ad5507e-5866-49a7-a7dc-1db0e052694e)
+
+* 11 [**IMPORTANT**]
+* Can't submit doubt, waiting.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c56d5535-ce2b-488e-a924-62e7977be017)
+
+* 14 [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a867d7c-b55a-4cee-8583-593ce2bd8e6f)
+
+* 16 [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b8dac859-7c65-41d8-b52f-b6a2a34c4ccc)
+
+* 17 [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/51edc8cf-b976-40fd-8f2e-0c3478f1827f)
+
+* 18 [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6acdde5-b683-415d-b0ef-d0e1a89db70e)
+
+* 19 [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e167c01-229f-45f8-a5d1-b1d4b4e0fee0)
+
+* 20 [**IMPORTANT**]
+* Can't submit doubt, waiting.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb0f05f2-9d2a-41e0-a307-3d2a0ab667c3)
+
+* 21
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4372acb9-0d35-4df1-8157-d632e4a25993)
+
+* 22 [**IMPORTANT**]
+* Can't submit doubt, waiting.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41582606-8460-44a8-a9b1-0cb6e64b6451)
+
+* 23 [**IMPORTANT**]
+* Can't submit doubt, waiting.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f32d932-c96d-424b-ab9a-83d096134a16)
+
+* 25 [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8fd564fd-14b2-4352-bd3c-1421d9c523f2)
+
+* 27 [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b8304fb2-445f-4a61-8cd6-644a92c345f1)
+
+* 29 [**IMPORTANT**]
+
+
+
+
+
+
+
+
 
 
 
