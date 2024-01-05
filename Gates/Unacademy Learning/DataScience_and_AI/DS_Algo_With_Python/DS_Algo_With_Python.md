@@ -428,9 +428,183 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e38ee39f-d233-453f-b2c8-a775b1003f0a)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c960ce51-a373-4ab1-9bc8-8168bd951a4a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/59021255-7e04-4268-9b45-9979d88078f4)
 
+* Question.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7530f71-e325-4950-bd75-c9940b74d911)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2838df1-3f79-47bd-b37c-e3d43a4d1520)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76e4f875-5947-4f64-9f0e-6f70bc00e24b)
 
+* Solution.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/039af510-d9a9-4a42-9d6b-c8f4f3f484c1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33bfcce8-fa0c-435c-ae06-434cebb8a5ec)
+
+* Right shift. [Formula] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec7ca5b5-d664-4df6-a8c6-3cb670dd07ee)
+
+* Positive number will stay positive and negative number will stay negative.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/49531b5f-e719-473f-adfd-04020ea37b70)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5adda38-630c-4fab-8b3b-96d0e1b0fc8e)
+
+* Example.
+* There is no chance of **overflow** in **right shift/divide**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c653a7e-f1ae-4a3c-9548-7cf302b09f6a)
+
+* Right shift.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e40029a4-f380-46cf-a856-c3c6266f0ebb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac7f6630-ac2e-4ee5-a390-882a0139d1db)
+
+* Example
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eab8b4fb-dca0-4695-947d-ea79f82c0e7c)
+
+* Identify operators.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df71d733-7895-43e9-8cb0-24aadbc28b73)
+
+* Operator precedence.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6770edbb-e557-4e3b-905d-c6395c1a60ff)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33cdee57-eecc-4251-a6fe-9333dd115bd5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/048ef665-9838-4a5b-af07-92244e677696)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a883f3a-897b-4064-8f6b-bdd3f156b09e)
+
+* Example.
+* **Left and right** shift can be done of **integers** only. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66a4fee8-21f8-42b0-a1d6-d7bc2b910249)
+
+* Solution. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/90571a7b-10da-4627-a3eb-8d4d0b592009)
+
+* Floor().
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ca694e9-7bd9-4f75-92bd-4f6604a54eb8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4ddb5a85-ed3d-4530-ae60-ede2b628efb4)
+
+* yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bde6ecf4-2b63-4ec5-8143-7b098d22c1eb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/21e2b12f-2db0-4107-9705-37c42fcbf06f)
+
+* Statements.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7164e9b1-fd3f-48a8-a022-ed72f25b6f00)
+
+* Control statements.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4ed70b95-bc00-40ee-92c8-bf40c1b77581)
+
+* Conditional statements.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0cd0e80e-cece-44d7-bd0b-aac1b14bed77)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/717d6964-2ea5-4209-a063-0021420686a2)
+
+* If statement.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3be2b043-e507-4706-ae44-a8d65731ac35)
+
+* Question.
+* **NULL** is not defined in **python**. [**IMPORTANT**]
+* If we want to use **NULL** in **python** then we use **None**. [**IMPORTANT**]
+* if None: -> False [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ffabb94-92d1-4b83-9264-edca7fe519ec)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69d33cd0-8ba2-4995-b84e-94d96e178563)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/43579297-e45b-4730-9d6e-2463f03a2c74)
+
+* Solution [**IMPORTANT**]
+* **Zero(0)** is either a **positive nor a negative** number. That's why **Zero(0)** gives **false** as the output.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7db9975b-89b1-459c-8600-26b040f0b3fc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/578ea067-ff6b-4619-805a-74e9696eb79f)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f3182ada-f6dd-4c4c-a47d-0761ede13370)
+
+* If-Else statements.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/377c0efe-6006-4a21-9225-7936c217767b)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/062e5f37-6b04-4274-8fc1-23f3a6bf0a91)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4fca0084-644a-4795-94fb-0a134f37bb2b)
+
+* Solution [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba7915d0-17ac-4220-b8c2-3d2fcd0af3b0)
+
+* Nested If-Else statements. [Example]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/06ce3a8c-00a3-4930-9ce0-d392a629f806)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6285e36c-cae8-4a04-a69b-86fdde2d311b)
+
+* Solution. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/635d417d-18e4-4a45-8938-3758506f4669)
+
+* Solution. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff7ac566-59c2-44b2-8f68-ea95bffc186e)
+
+* Loops.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80020d32-b389-47c4-9890-17d54636bb83)
+
+* Types of loops.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c90b011a-6b76-4a82-bded-135beb5bdbce)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/17db10b6-2ef6-48ba-85e6-13a789af2bac)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/242ab563-4c53-48bf-9d47-4376cb4ae2a5)
+
+* While Loop -> Pre-test loop.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c50a986-1a40-41b9-9364-292d78136aca)
+
+* We will get an **error** because we have to initialized a value of **i** there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80faf24f-35ee-474a-bb57-1c5a8bab1cad)
+
+* i = 1.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/392aa473-1fbc-43cc-9169-e2acf6cd3eff)
+
+* Switch Case
+* There is  no **switch** keyword in python.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef47993f-bc7d-4cbd-953a-a780a5314233)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c38ddd4-bd04-4fdd-8dea-0d1ff40faaa8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d08ffd96-69fd-4fdd-8645-990a5fe68f00)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d049453-5c8d-4373-8bdb-b6fe30cd841d)
+
+* Example [**IMPORTANT**]
 
 
 
