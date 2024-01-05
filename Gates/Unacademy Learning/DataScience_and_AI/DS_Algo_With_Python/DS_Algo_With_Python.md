@@ -344,6 +344,97 @@
 
 * Comparison Operators.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/26460c5d-e365-448c-9a02-6ccae023050e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a85444c-b424-4e14-829d-a2683ac316d4)
+
+* Logical Operators.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f29cfccc-b155-4c55-af5b-be8bcce9fd1c)
+
+* Bitwise operators.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/59a9ddb9-71b5-40d2-b07c-2a93dff3b229)
+
+* Operation performed between two 16-bit numbers.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f74bc43-954a-40dd-9a8c-62185d303f0d)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c6db4292-b02f-45bf-b8aa-373e15964566)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c127a23-ba7f-4f28-84c6-9c224f77f2be)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8bab6e4d-f33c-47f2-b99a-2ee881aefa1a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c5756626-1da9-41e1-b437-6eb9c6d01371)
+
+* 2's Complement. 
+* MSB -> Most Significant Bit.
+* LSB -> Least Significant Bit.
+* Process to find **2's Complement**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/885fc36c-407e-47b3-bd7d-93cc004a8054)
+
+* Question
+* To get **2's Complement** -> Start from **LSB** and copy down the bits as it is till we find the **1st '1' bit**, copy down that **'1' bit** as well after that **flip** the rest of the bits of the **binary number**. [**VERY IMPORTANT**] [Timing -> 30mins]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4fa8936f-7dbb-4c12-8c57-7acb0a02f696)
+
+* Solutions. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65287419-698f-48da-be08-9132da573a56)
+
+* Solutions. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91487ef2-fc0f-483b-a865-15ec47fda52b)
+
+* **Negative numbers** are represented in **2's complement form**.
+* Now we have to do **negation** of **-6** binary number.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb5a14fb-87f5-4a31-8f62-10d82d7dfe93)
+
+* As the first bit is **zero(0)** so it is a **positive number**. To find out the **magnitude** of a **positive number** we don't have to do **2's complement** we can find it **directly**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8eafd910-3471-4ad9-b013-48e15f0041d8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f963b444-fdf3-408a-98fe-9a3da73ddd84)
+
+* Solution [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb3afd08-dbf0-455c-ba5c-6a9ca4629172)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/835654b6-a0eb-4076-a636-365427e7cba4)
+
+* Example. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ad15b49-b3da-43a4-b6bb-9b4deecda985)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/345228a3-7259-400d-9de1-dbc77420dd55)
+
+* Why 1's complement is not used.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5649ec95-4b96-4768-8192-7e6e20305a92)
+
+* To find **binary** numbers.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/82535c1e-ec0c-4a09-824d-afd10d7efc06)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b66bdf0-91bc-4580-a9e4-e39c04539322)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e2a8608-9fea-4fc3-8814-e37bd7c9860c)
+
+* Left Shift operator.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd4c0ecf-4e45-45c2-aca3-df77e49f9ca8)
+
+* **Overflow** case. [**IMPORTANT**]
+* Before performing operation the **MSB** was **Zero(0)** and after performing operation **MSB** is **1**. If **MSB** changes after performing operation which means that there is **overflow**. Whether **MSB** changes from **1 to 0 or 0 to 1**, it is **overflow**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e38ee39f-d233-453f-b2c8-a775b1003f0a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c960ce51-a373-4ab1-9bc8-8168bd951a4a)
+
+
+
+
+
+
+
 
 
 
