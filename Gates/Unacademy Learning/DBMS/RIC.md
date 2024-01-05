@@ -1670,6 +1670,16 @@
 
 * Answer -> 6 Blocks. [**VERY IMPORTANT**]
 
+## PYQ Links
+
+* Part- 1 (Done) -> https://unacademy.com/class/sql-pyq-discussion-part-1/FIVDGXH3
+* Part- 2 (Done) -> https://unacademy.com/class/sql-pyq-discussion-part-2/USA9WKOY
+* Part- 3 (Done) -> https://unacademy.com/class/sql-pyq-discussion-part-3/9IHKNZVM
+* Part- 4 (Done) -> https://unacademy.com/class/sql-pyq-discussion-part-4/EAQ4FZLP
+* Part- 5 (Done) -> https://unacademy.com/class/sql-rdbms-pyq-discussion/HX1N8R7P
+* Part- 6 (Done) -> https://unacademy.com/class/rdbms-pyq-discussion-part-3/NA5SHPWS
+* Part- 7 (Done)-> https://unacademy.com/class/relational-algebra-pyq-discussion-part-1/AFHZQ2C9
+
 ## SQL - 1
 
 * Link -> https://unacademy.com/class/sql-pyq-discussion-part-1/FIVDGXH3

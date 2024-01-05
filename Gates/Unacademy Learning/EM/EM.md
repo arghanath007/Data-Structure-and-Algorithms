@@ -1,5 +1,9 @@
 # Engineering Mathematics
 
+## RIC Course Link
+
+* Link -> https://unacademy.com/course/ric-on-digital-logic-design/VR0E7ZWC
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/283765c9-4d6d-45eb-9a32-a87478dfa03d)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/733c6e91-867b-4e77-8915-41bccc3a4621)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2680c090-d9dc-4cd0-8b12-de97875b6bdb)

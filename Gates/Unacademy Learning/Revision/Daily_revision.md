@@ -32,14 +32,17 @@
 * DBMS Completed.
 * RIC Done. [Not there]
 * Did the PYQ and practice of DBMS from YT.
-* 21, 22 and 23 PYQs done.
-* Start from PDF **8**.
+* DBMS PYQs from Unacademy free classes.
 
 # Data Warehousing
 
 * started the course on **22nd Dec 2023**.
 
+# DS with Python.
 
+# Engineering Mathematics
+
+* RIC Course Link -> https://unacademy.com/course/ric-on-digital-logic-design/VR0E7ZWC
 
 
 
