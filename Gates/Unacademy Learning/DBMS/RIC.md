@@ -2270,7 +2270,70 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6e4aedb8-4293-4b3e-adc9-c485ffc911e1)
 
 * 15. [Doubt]
-* Can't submit doubt waiting for others to solve.
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/D3FC129C3F.
+* Waiting for **update**, solutions are of **different questions**.
+
+## Test-2
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/533b8c49-0109-40ea-802f-208ec373c563)
+
+* 1
+* Selected the correct options only but mistakenly selected option **C** as well.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e5a45c0-ff81-485d-be6a-a55a2a61ec36)
+
+* 3 [**VERY IMPORTANT**]
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/2D337E00D7
+* As **cycle** is formed so it is **not conflict serializable**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98fb7b6b-b3dd-49f6-8d29-8836faedf432)
+
+* As there is **no blind write** here so it cannot be **view serializable** too.
+* As it it either **conflict or view** serializable therefore we can say that the **transactions** are not **serializable** at all. [Doubt there]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4cfe17f7-4af4-4303-9766-5da62bf171f4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e28a0105-14db-40cd-a66c-b9766019eb83)
+
+* 4 [**IMPORTANT**]
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/4B7AD6426D
+* We are checking if the left side of the **arrow(->)** values can be used on the right side of the **arrow(->)**. Check the **video** for **better explaination**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d352e1d8-6350-4bcf-993f-268c7fafd9c8)
+
+* 6 [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ca33c49-f4e6-4b0e-8b1d-528c242d1b8d)
+
+* 9 [**IMPORTANT**]
+* Check the closures properly.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa80c061-f873-4785-a58a-83efcee9714a)
+
+* 10 [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b0246db-4425-4d7f-8ad4-a9b55fe980be)
+
+* 11 [Doubt]
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/BE4A2F0301
+* Solution is of a different solution.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37d7b9a2-9826-4f10-9ba1-c52e4da1906b)
+
+* 12 [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b201b83-ba4a-4e1b-a59c-5c06181599df)
+
+* 13 [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/acc92e3e-87b6-4260-8a89-e4884d5cd25b)
+
+* 14 [**IMPORTANT**]
+
+
+
+
+
+
 
 
 
