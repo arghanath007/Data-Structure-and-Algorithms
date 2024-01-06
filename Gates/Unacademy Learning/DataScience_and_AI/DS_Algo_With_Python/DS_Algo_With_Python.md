@@ -1,4 +1,4 @@
-# DS, Algo Using Python
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f27bc3d-0938-4ea1-93d6-bffd7da05c1f)# DS, Algo Using Python
 
 * Link -> https://unacademy.com/course/data-structure-and-algorithms-using-python/XAK8Q1SL
 
@@ -605,6 +605,320 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d049453-5c8d-4373-8bdb-b6fe30cd841d)
 
 * Example [**IMPORTANT**]
+
+## strings (3)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fec7dcc0-084d-445e-a1ad-87cb52b2c8de)
+
+* Example
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31facb28-5702-41bf-8f73-642e2467c18d)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eeb5fe23-3eda-4033-94aa-d8bfdcca3980)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d320be0-9c92-4d75-8f0b-20e19f8d4ff9)
+
+```python
+for i in range(0, 5, 1):
+  print(i)
+```
+> We will run from **0 to 4** with a **step of '1'** everytime which is the **by default** in **python only**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e4c921fd-bc6e-4d2f-a02c-66eb66a3f1fa)
+
+* range() -> It works on **integer** values only that's why we are getting an **Error** in the above loop. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/68c55c74-9bd3-422b-bc4d-b6e02942a636)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df74dc8f-b33c-4ff0-af59-b897762ea4c4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2af3dc5c-31de-4118-8d63-758351dbee97)
+
+* range() [Example]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/04fcce1f-e3da-417f-9c65-75610c7f4017)
+
+* **Integer** object is not **iterable**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b17002db-6036-4429-a240-29aa4838e42c)
+
+* Example [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df10cd3c-e5f8-49a5-99fc-a60c9c710481)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e9af9c6-9ee0-4d45-9ad4-491e7cef6bf1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/25cf7b4e-6db5-4ecd-ab75-e84b3a1483d7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/04f9e20b-500a-43a3-8ffb-2dc1a7af0515)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8b78bfe-a3ec-459b-9371-ff2349f79773)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9acb4bbf-bcdf-4c4f-86a1-66be5b33f238)
+
+* Explicit type-casting.
+* Examples.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9a858564-d8fd-452f-98fa-9e0b5d7aab77)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0afffe33-3142-4088-93ed-52115d395269)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0de57903-862f-4b53-8ced-a00bd3cfe45a)
+
+* **break** statement.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa53a395-1801-414c-8bb2-f09ce8c39e53)
+
+* Question.
+* Q1:-
+* n=7 6 5
+* c=0 6 11
+* Output:-
+* 5
+* 11
+* Q2:-
+* Output:-
+* 1
+* Q3:-
+* Error
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e259af32-11ca-42b8-afe3-3d31ef9ee5e2)
+
+* Q1.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cadc87a8-2218-4a64-8a9b-2d96b406366a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/408ceee1-0254-4bd4-bc1d-81a3338c55e0)
+
+* Q2.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a367fc89-0638-4a42-8b6d-db09314b5659)
+
+* Q3. [Error]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c88f9691-aa18-4441-8bbc-1f9002e6f15d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/11fd41c0-f14b-4bab-bd2a-161c21b99ff8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/196cdb05-f953-4924-b646-7f474b7d6d9d)
+
+* Output.
+* We don't have **9** in **octal**.
+* **Octal** is from **0 to 7**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/432c3a28-06d1-4cd9-b92e-baa3fd4241c9)
+
+* **Continue** statement.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7f04907-d5ea-4d5e-8b4b-4ef8fa1364ea)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce0bfade-61f1-4d9e-94d1-10c3cd8015e3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb70e0ff-b5d9-48b2-81d0-771bbc9a086e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df089c2e-c71d-4fe4-927e-e421bdc64936)
+
+* Floor Division
+* Q1 [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/20efb10c-5fd0-4aa8-8eaf-e282f06aa42c)
+
+* Q2 -> Pyton
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b1bce57-000f-4917-b5f9-8aa65055daa3)
+
+* return statement.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a6eb865e-f198-43a1-9aea-691e5aec91ab)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/892cec8d-4101-46dc-9900-ceb5941a1a53)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ccdfcbac-4ba3-46cf-9839-a2134ba16111)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f39de5c-4c59-46f7-bf6a-ac967bf16038)
+
+* Solution.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41583ece-3cf5-45a0-adc2-52f8a515f671)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/55c7b606-2f99-4532-a816-8bd7896ab9c5)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d6caeb2-0a13-4e71-b174-dbcdf04caad6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/90fe775b-19c4-47d2-b5dc-119a3ba5aa08)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9805997a-4025-433a-ae71-1bfcc4055c49)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d56e09b-c300-40fb-b682-25a22a169689)
+
+* Solution. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3d3bc17-5e16-4ca9-b81b-5e6df176d78e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/efd2fdd7-c343-4652-84cc-4554d10ab19b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/79167526-ac58-4bf7-a463-365950baa81e)
+
+* Solution.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0889125f-bd17-46eb-96fa-195066e717bc)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c336b580-bf0d-4fcb-b03c-1a092895423b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91996971-2f23-491e-9b7b-2db3c362a945)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/892cd399-dd59-449c-a166-9ab925e7daa4)
+
+* Solution.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30468b75-95df-493b-87d5-83bc9c4ad113)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ed2c8d1-c643-4ed9-8333-d48488484367)
+
+* Solution.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f1d62e86-dd83-48f3-acd7-a42f1b8d27e6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5545688b-7895-42a1-bfb9-cca3b61d82cd)
+
+* Another Way. [Easier, Two loops not needed]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a0744f51-99ae-45f8-b8c8-11cfff59dff4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b1f387d-81f4-402a-be2b-30b94116009f)
+
+* String.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae42cb5f-8889-4552-a5c7-8d258208fdde)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b7e6725-52ad-4946-a07f-b055b26aec40)
+
+* Multi-line string.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/90d75377-1cc9-48c7-8427-72080aa004db)
+
+* Indexing.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34848d59-47eb-4f57-a38f-6a6f74262303)
+
+* Example.
+* Positive Indexing -> Left to Right.
+* Starting with **Zero(0)** happens in **positive indexing**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec341692-bcfb-4fb4-8f09-d4a7ff68ff25)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba1a2ea7-38e2-4e28-8ec7-072bf42f1a32)
+
+* Negative Indexing -> Right to Left.
+* Starting with **minus one(-1)** happens in **negative indexing**.
+* Negative Indexing starts from **-1**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83765d69-b328-4519-859e-17076e693ce0)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea6d1217-e53b-457c-bf6c-9a28b2fdeb67)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d7af0f7-8141-4c1a-b4db-d843d633ea19)
+
+* Slicing.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/623cd0d1-b194-4308-8c7e-464d48d19712)
+
+* Question.
+* Q1 -> **4** is excluding, so it is from **2 to 3**.
+* Q2 -> 0 to 7.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e211645-76ff-412b-a957-0177c00f51c6)
+
+* [**IMPORTANT**]
+* Reverse reading not possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8c88774-5e4c-4257-b994-0208e87a285b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ab80a63-daa5-436a-adfe-e05d6dcc053a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7bb8ac2d-b02d-442f-9514-ea12312e12f6)
+
+* So it will be from **0 to 9** range.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6bb84a4b-8a9e-43e8-968e-c52c308f94c8)
+
+* [:10] -> Starts from **zero(0)** till **10 - 1 -> 9**. [**IMPORTANT**]
+* [10:] -> Starts from **10** till the **length - 1** or **ending - 1**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/29de3e60-bccc-4d1a-a06a-15910b3e0f58)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/68857472-03d3-46e7-bae8-3f2b0a93d8c2)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6fb51b29-bcb9-4cf0-91ff-a321acacd4fe)
+
+* Concatenation of strings.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/48b21491-0b63-4542-9729-b413a35d323a)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d19dbdb8-bdf1-4607-a285-4b7df9be9eef)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dba9ce50-c64d-4240-93cf-58622d9cb71a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d7c7edd1-1da2-4289-8634-c0452e0c05fd)
+
+* Solutions
+* If **dot(.)** was in **quotes** like "." then maybe string would have taken the **dot(.)** and printed like **Anand.Biswas** but we are getting **error** for the **above dot(.)**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5fcef531-a0e9-4063-87e4-dfc13ecb761b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5f240b3-e6e5-4bb4-a487-1bd66ba436a4)
+
+* String formatting.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1175dd66-5449-4598-a8a6-fa0a0e6ba346)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b840436a-a721-487c-9335-341505cd3221)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3edc49f5-405e-4a63-9ed3-0c5499071582)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/55be6f3e-cf79-48e0-a704-d0a9898b9428)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4832d1b9-7b01-4f9b-97f5-5975be1e1934)
+
+* String **methods**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7ec9d26-3268-42d1-936b-6536941136ab)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f7ba774-86d0-4f87-8a39-0c0bc12cb1c7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0fb54f5-2dbd-429f-b16a-0ebee87fa934)
+
+* Examples.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/084ac7a5-0ca9-49ae-b502-431e98153c0d)
+
+* encode() -> It does encoding in **UTF-8** format. It converts it into **byte format**. In the **output** we don't see the **byte format**. Whatever string we are writing in front of that **b** comes like **b"BTECH"**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0b675d2-69fb-43e4-ae19-3e113ea1cbae)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/584b25d4-922e-4e17-9f64-648b84aa3889)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4904f9dd-e006-4ab3-b09c-6b46fc6cb5ed)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f819b06-682c-40cb-b153-a7316dc8afea)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a7d6cb0-eed1-4f5d-be90-7893c3a390d9)
+
+* Q1 [**IMPORTANT**]
+* capitalize() -> It will **capitalize** the first letter of the string and make the rest of the **characters** in **lowercase**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1364949-bafd-44e8-81db-45e7ea7734d3)
+
+* Q2
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ff650e4-e6ed-48f0-8a95-06c7f9ee8a64)
+
+* Q3
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/13985187-4f8d-47ee-bf05-85723b150990)
+
+* Q5
+* Reverse slicing is possible. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0efe48fb-7562-4cfd-89ab-c25d3941d85a)
+
+* Solutions. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95c32dc4-ec56-4f22-a93d-1b925c36760e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e4b8e3a4-2a80-4a35-8bdf-f252457912f4)
+
+* Doubts.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c392bd16-2005-4917-8fdd-ed58145c735d)
+
+* [:] -> It will go from **starting** to the **end/ending**.
+
+
+
 
 
 
