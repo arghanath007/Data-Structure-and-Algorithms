@@ -1,4 +1,4 @@
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f27bc3d-0938-4ea1-93d6-bffd7da05c1f)# DS, Algo Using Python
+# DS, Algo Using Python
 
 * Link -> https://unacademy.com/course/data-structure-and-algorithms-using-python/XAK8Q1SL
 
@@ -917,6 +917,20 @@ for i in range(0, 5, 1):
 
 * [:] -> It will go from **starting** to the **end/ending**.
 
+## list-set-tuple-and-dictionary (4)
+
+* **\t** -> It is for the **tabs**.
+* Default is **4 space** in **tabs**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dca448f5-d1cc-423e-a73c-54c7620cd8e3)
+ ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b922137-bcea-4ded-8098-9660d4810910)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a0bef77-7cdb-4818-8047-dc3ea85804d4)
+
+* Whatever character we are searching using the **find()** and that character is not there in the string then the **output** will be **-1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4b396a8-4843-462c-a5c7-a929139ee2e0)
+
+* Whatever character we are searching using the **index()** and that character is not there in the string then it will give an **error**.
 
 
 
@@ -935,3 +949,10 @@ for i in range(0, 5, 1):
 
 
 
+
+
+
+
+# MISC
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f27bc3d-0938-4ea1-93d6-bffd7da05c1f)
