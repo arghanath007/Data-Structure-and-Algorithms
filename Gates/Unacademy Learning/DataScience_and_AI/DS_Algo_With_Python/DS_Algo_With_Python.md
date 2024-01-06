@@ -1,4 +1,4 @@
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b1cdf3d-91b4-4204-959e-985a21cfaf15)# DS, Algo Using Python
+# DS, Algo Using Python
 
 * Link -> https://unacademy.com/course/data-structure-and-algorithms-using-python/XAK8Q1SL
 
@@ -1389,6 +1389,63 @@ for i in range(0, 5, 1):
 
 * List Comprehension [Example]
 
+## python-as-oops-part-1 (6)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/42f799c6-7b5c-4a25-a8c8-a67928305311)
+
+* Nested Lists.
+* Positive and Negative indexing both are possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2678dae9-6e08-4236-a136-be542d2e1787)
+
+* Indexing and Slicing.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d10c8f77-27f7-4bba-aefd-d55ce46ab28f)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/08336a5b-c146-45bb-9dfe-9551ba436dff)
+
+* List Methods.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e238b82-b172-4af7-91f5-c478ae2037d1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f28c88ca-782b-4670-97c4-88ac30ffc7fc)
+
+* Examples.
+* As the **return type** of **sort() and reverse()** are **none** so they will **return nothing or None**. The **output** is **None**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1dfcb852-0a5d-4369-86d1-dd8106ee7023)
+
+* Solution.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12d61b2d-cb69-466a-8717-7349b69ad588)
+
+* Set.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/273cbdf8-30be-4353-b9c6-782d84028bed)
+
+* Example
+* Unchangeable -> We cannot change the **value**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc35462f-e21e-460a-af72-6e6139d26163)
+
+* Solution [Example] 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76aeaf09-2c37-4e75-8a29-91b53801e3a7)
+
+* Question.
+* We cannot predict in which **random order** the **EmpName.add('Jam')** will give. They are in random order. We cannot predict the **output**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0346e368-e084-4f43-91fb-deab0e84c13c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86e6feb3-3248-4164-9a2c-f128bdf8660b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/15158cf1-7a17-4cd7-9989-faeb562eaefb)
+
+* Solution.
+* Start from **44mins**.
+
+
+
+
 
 
 
@@ -1409,7 +1466,4 @@ for i in range(0, 5, 1):
 # MISC
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f27bc3d-0938-4ea1-93d6-bffd7da05c1f)
-
-
-
-
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b1cdf3d-91b4-4204-959e-985a21cfaf15)
