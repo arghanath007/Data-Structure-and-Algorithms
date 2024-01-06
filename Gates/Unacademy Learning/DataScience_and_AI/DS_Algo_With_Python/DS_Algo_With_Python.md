@@ -1,4 +1,4 @@
-# DS, Algo Using Python
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b1cdf3d-91b4-4204-959e-985a21cfaf15)# DS, Algo Using Python
 
 * Link -> https://unacademy.com/course/data-structure-and-algorithms-using-python/XAK8Q1SL
 
@@ -1177,10 +1177,217 @@ for i in range(0, 5, 1):
 
 * Solution. [**IMPORTANT**]
 
+## python-lambda-array (5)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/52cd566c-a398-4c6f-aa68-a483a6e19d5f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f877c8d-5410-4f4e-926f-1df381128b65)
 
+* Question.
+* For the **same input** of **2** for **a, b and c** we are calling the function again with that **same input** again so it will be **infinite loop** and we will have **no ouput**.
+* There is some **logical error**.
+* we have to check all of the **cases**.
+* Option **D**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/62f49cd8-8ba9-499b-afb2-79bed0e789b9)
 
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0fe465d8-1562-40b2-9d57-d47a1606dc26)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2d6a0ff1-fa23-42f3-a343-2cd52cd700d8)
+
+* Answer -> 7.
+
+ ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8953b80-53ae-4ee1-8384-6d5ae7b32f96)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/70f4a8dc-86dc-4d25-b6e6-fec304ed2ea0)
+
+* Solution.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e33edff6-9062-4285-9aa9-8e1460c951e2)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9355759a-2e0e-49b7-a79f-3b9e6ecc7e2b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/51a1e426-b724-4e0f-8fc4-f10bfb7a7070)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa486bd0-85d2-4635-900c-f1dde558de7b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/edc53328-0ee5-4eec-91af-821aeb19a7bf)
+
+* Solution. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f618bbe-fc33-4e55-8028-28a8c37d8d9b)
+
+* Question
+* Right shift.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/25494eaf-3072-4dd1-9916-91ace750c130)
+
+* Solution.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a9d3fad-b4b5-438d-a98c-080f377e718a)
+
+* Question
+* m=  10 11 12
+* n=  0  11 10 -2
+* n1= 0  12
+* Answer -> -2. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c3287702-7e2b-42ea-8a8a-c31f58215e90)
+
+* Solution.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f006aa5-f7b5-4230-8fc5-0edcfd1bda3f)
+
+* Question
+* x = 2
+* y = 5 12
+
+* x = 12 26
+* y = 2
+* Answer -> 26 [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e207f8d-07cc-4854-8411-a87c2930ba8e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d50bec9-1de1-4368-809d-3d6822688a17)
+
+* Solution.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e48cefd3-d097-489d-94cc-decf5e5aa8af)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/affacb98-2dda-4724-8d19-2af497b2123d)
+
+* Solution. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa63224f-a481-4330-bbbf-452d263bf256)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d9f206e-fc70-4917-a74f-7ca422939f34)
+
+* Solution.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1400e245-8058-46a5-907d-3df7b65868ac)
+
+* Python Collections.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4572abb4-dfc1-4088-bed1-862b1aa0a35f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ace19f6-18d0-4ea0-bd30-3d53e529fed7)
+
+* List
+* There is a property of **list** either we can store **similar** type of data in the list or if we want to store **dis-similar** type of data then that is also **allowed**.  [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf6b9d16-30f4-4afe-99fe-410c5e8c2f25)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b7202e20-7324-4a50-aefe-2ebac383593e)
+
+* Example.
+* Like **strings**, **list** also supports **positive and negative indexing**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/87932db9-37ac-4e55-bd4e-8869ae06a2c4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86242dbc-bc7e-4a35-ac81-65b5bd94985c)
+
+* If we want to access any value of the **list** we could do so by accessing the **index** at which the value is stored in the **list**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27e4834a-c545-4e96-bdbf-1bc09d49ca57)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e217b29-85a7-4073-a06a-44fc9a17a9c9)
+
+* Solution.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cdcc5b47-11cf-4d48-a4bb-e990455e86f1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65147cf4-8b49-40ae-b6a5-66b76856e4fd)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2078b11-e055-416a-9ec0-c550aa772d1b)
+
+* Solution.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3151de33-8125-42d5-ac57-6424650e6c76)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f53add5-79ca-4a54-86f0-3e82a717bec0)
+
+* List Slicing.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63c30b77-1229-4521-9d21-144de5c11b3e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cfe0fa54-2c7c-4e89-ab9a-00874c383fc8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/220cd3d4-fe55-472a-8264-1e5331945f8f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8819f9f6-7148-4f10-99b8-6fc9d03b9ba6)
+
+* Insert -> Insert New Data Items in List.
+* If we have to do **position wise insert*** then we have to use **insert()**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d5c86c4b-42e0-4963-a3dd-f7268b13fb4b)
+
+* Append -> New Data Items at End of the lIst.
+* **Append** is used to append the **data item** to the **end of the list**.
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eeafce3c-0995-4724-bd2e-798baa5974cc)
+
+* Insert
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92095d9e-a7da-444a-8a60-5360d9483f24)
+
+* Question.
+* If the **name** to be deleted is not in the **list** then we will get an **error** otherwise that **name** will be deleted from the list.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c75b591e-29e8-4341-bfa9-ad20e23de7d4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/40acd309-8189-427e-8cb8-39c8fb483ef9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e77c397-9512-4963-81ce-b7450acb9a70)
+
+* Difference between **EmpName and Empname[0]** is that with **EmpName** we are **deleting the complete list** and with **EmpName[0]** we are **deleting only the 0th index value**. [**VERY IMPORTANT**]
+* After **deleting the complete list** then we try to print the **list** then we get an **error** and if we use **EmpName[0]** and delete the **last element in the list** then we will get **[]** as the **output** if we try to print the **list**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec6849d2-70d0-4cad-8355-0e99f8db2b68)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/baa01b7a-7fba-41f7-b466-22586c20c45d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/775768a5-8ad7-4740-91a8-f5ab41dd809a)
+
+* Differences.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9a137cb2-b439-4b74-9764-40703316025a)
+
+* EmpName.clear() -> We are clearing all of the data from the list but still we have the **EmpName** list which is **empty**. The **output** will be **blank list**.
+* del EmpName -> We are deleting the variable list named **EmpName**. The variable list **EmpName** is not going to exist. If we try to print **EmpName** then we will get an **error**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d016a5b1-8979-41e9-80cc-7676aa7472d5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bbb9660e-36a0-470c-b4c1-70a1d65caa3e)
+
+* sort().
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98bdec7a-c4bc-4bce-be36-a2981d1aff1d)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/099ed6bf-212a-4bd5-ba8a-e30ed34c0ffb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a113fce-5c93-44be-91f2-b47b8e989413)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86ddcd3a-7727-4f7f-821e-7225bc926adc)
+
+* Stable Sorting.
+* Example. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d0b27a8-3a47-459b-8598-d205dc42ec9f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/47be3390-30af-4c0c-bf9d-06169107790f)
+
+* Copy Lists
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d63bb431-cd3e-42d2-83b1-0b58774e91c6)
+
+* Join Lists [Example]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd3b0931-0f31-4943-aa1c-941b3687f349)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e3cc136-2d4f-4283-a89e-ccacef73d0e9)
+
+* Solution [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09e3c877-cabc-4b9b-bed4-a37e7232b0ef)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e87037d-b156-4f4a-8ae7-8a28307cb383)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/43317e06-73e9-4469-b473-a44ab10222e1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/64d7b49b-3c5a-4c31-8b86-fc968bc06254)
+
+* List Comprehension [Example]
 
 
 
@@ -1202,3 +1409,7 @@ for i in range(0, 5, 1):
 # MISC
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f27bc3d-0938-4ea1-93d6-bffd7da05c1f)
+
+
+
+
