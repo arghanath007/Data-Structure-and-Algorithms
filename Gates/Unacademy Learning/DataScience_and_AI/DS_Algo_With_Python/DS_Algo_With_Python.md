@@ -1730,15 +1730,152 @@ for i in range(0, 5, 1):
 
 * First the **brand** was **Tata** and now the **brand** got updated to **Ford**. **Brand** will come only once and we cannot repeat the **keys** but we can **update** the **keys**. It is **modifiable**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/233c4541-618d-4590-a35e-6e65d6f1af32)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92b65309-fbaa-4bda-84c9-8c34fbce5aad)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f4535a2-08c6-44f1-bb98-93a4619464c9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce1b8da2-eb7d-46b9-a9d3-98a3f2811f4e)
 
+* Example.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d562726b-d7dd-4990-b7b7-8fe979b642b1)
 
+* Example.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91927b07-2da0-41a5-9b6c-d1dc8e3fa742)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aeda640b-dadd-4f03-a31a-177f5f14c4fd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a625f7af-4541-4fe3-b7a2-6adcc3f37f50)
 
+* Example.
+* In **dictionary** focus is on **keys** and corresponding to the **keys** we are giving **values**. If anywhere a **key** is getting **repeated** then **count that key only once**. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c6f8053-38b8-4006-ac43-a026b4f6089b)
 
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb13a8f8-a006-4a53-a7e2-162771afe740)
+
+* Solution.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76bccca6-f8f9-4d90-9d1f-c2af0eb58c7b)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/504de565-4d69-4f20-a404-3fe0b4745c52)
+
+* Solution.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1246c192-83df-4a31-8197-f56021a44ff1)
+
+* We can do **searching** in the **dictionary** also.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/93ef38ab-4c89-4e9e-b025-fd1952587b29)
+
+* Solution.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b5593be-59ec-46f6-b22a-fc31a21a0ff3)
+
+* Question.
+* **popitem()** -> In that case, the **lastly inserted** item in the **dictionary** will be **popped** from the dictionary. If **year** key was inserted lastly in the **thisdict** dictionary then with **popitem()**, the **year** key is **popped** from the **thisdict** dictionary.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16d457a4-8aa2-4480-b197-1cc2513befff)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0bf41583-2299-436a-a30d-08f1d47698a8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eddacbaa-b56e-4da7-b780-cd3806c38bbe)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f04c178-f116-485a-aaf7-9d8e65da5ba7)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb045776-aa60-4f95-84cd-bfd720453f8c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/935e904c-d359-4016-a34b-9806c3eec569)
+
+* Nested Dictionaries.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4834a986-2989-4030-9b19-d67975ff368c)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d790a46-02ef-4c4e-81ef-b5cdf2144ede)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/70613fb3-928f-48e0-8fa6-e2040a1f2fa8)
+
+* **Dictionary** Methods.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d54cd390-4d31-4bc1-a6cd-e7c96ce34b5e)
+
+* Recursion.  
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e548c00-26d0-44e9-b540-d37f390c6227)
+
+* Recursive function.
+* Dictionary -> Way for storing the data.
+* Hashing -> Searching Technique.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1305492e-7eb1-43bb-81d9-465c8c8a9dfa)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b4226e6a-69d8-41cf-8896-d2335a6f2807)
+
+* Answer -> 8.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac2df81b-d586-446b-9e6f-e5ab7ca13c48)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8dcc5701-e83e-45f6-97a1-3d844be8a86c)
+
+* Answer.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/849ee5f8-99cd-4460-883b-9762b51f96f9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec365c31-c009-4618-a40e-3553fcf0509b)
+
+* 11
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/140fd79a-6089-492e-bd6c-49c354b12929)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6157e545-97f3-49c7-9922-027c6034fc37)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3550de65-e93c-4bb7-b73d-95cb354bf4d5)
+
+* 6
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/891fd448-67d0-4d62-98e2-6e59a41434bd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c5e70087-93c3-4964-8ed4-820c13ddbe85)
+
+* [4,16] [Answer] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ddccdb8-688e-441b-a11e-8eae247d8adb)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/17ce506f-be32-4039-9048-6ea985902a4c)
+
+* Answer -> 8.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b29f1cd-4c26-400d-a609-f12d6c6a72af)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f854209-e450-461f-b033-1fac3d9456ae)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0f7b6ef-e75d-45dc-a0c7-b0d9d15a94a0)
+
+* Question. [**IMPORTANT**]
+
+1) Output
+2) No. of function calls.
+3) Total no. of additions done/performed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ad98e7d6-5c75-435b-bf1d-cab910b91acd)
+
+* Output [1]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb58d8f5-45f7-4cf5-a595-8f32dbfd5fe4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/53f2945c-2794-41b9-b499-e2f07965e23f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/75294159-2e90-462d-8479-ae4ab7daf41d)
+
+* No. of function calls [2]
 
 
 
