@@ -1441,13 +1441,232 @@ for i in range(0, 5, 1):
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/15158cf1-7a17-4cd7-9989-faeb562eaefb)
 
 * Solution.
-* Start from **44mins**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce40147c-794d-4d3a-b941-5d31b823bdc6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f24373c4-9724-4ad2-9ddf-027169022b23)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2481eacc-ea7c-4ff4-b516-cd22513adf0e)
 
+* Remove Set Items
+* **pop()** -> It removes random element from the set because **position/indexing** to remove a specific element is not given.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8d1b49f-7245-4173-a069-0daf5a3bbc41)
 
+* Join Sets
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e4e247c-6d63-4a46-80ee-ead95df27939)
 
+* Result.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5e0e3f4-6b90-4743-b96c-7bc72b5887a7)
+
+* Keep Duplicates.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72b4d905-0219-4f7f-98e4-671eb3ad27c2)
+
+* Result
+* The output/result will come in **any order**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/67690384-f6a0-40b7-8281-99e091474052)
+
+* Set Methods.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d9d787e-d1b1-4af2-8921-8ca47ad72c37)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1f0ba6c-a52a-4a50-9e66-b4223f11ef14)
+
+* Concepts. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e465380-858a-4554-9531-35c247ffb796)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/55d810df-1a0a-4565-821e-ac773e974d52)
+
+* Concepts.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a97e084-a50e-4844-bce5-c8e6eabb5adb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c5c89f5f-f727-4301-986d-2ff6a9ffa496)
+
+* Whatever changes are done that are performed/done in **set 'A'**.
+* The return type of the method is **None** that's why nothing will go to **c** variable. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db05c82b-bd1d-46cb-9c2a-d649bbcc6717)
+
+* Mistake in **typing**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/272dcc78-749c-4bf3-9757-006b26a1b72d)
+
+* Union -> We did **union** between the two sets.
+* Intersection -> We get the **common** elements from both the sets.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6830c090-f644-4cc9-a0a5-f79dda61eba3)
+
+* **Difference** -> We get the **uncommon** elements of the **first set**. [Example]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5630f7dc-a242-4c90-8b3c-44e081c781fd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/caaafd1a-2c47-4e9c-bd59-f391d7ef0b86)
+
+* **Symmetric Difference** -> Whatever is the **common** between the two sets, remove/eliminate the **common elements** and take the rest of the elements from the sets. This is **Symmetric Difference**. [Example]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3fd98f24-f9c5-42c7-92d3-8189f33c660a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5e537ef-c35b-462d-a623-db38d5c9f387)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ecb6271a-ba99-434b-a2ad-f1e81399f53a)
+
+* Example
+* **A.symmetric_difference_update(B)** and **B.symmetric_difference_update(A)** the difference that in **A.symmetric_difference_update(B)** the **result** is stored in **set 'A'** and in **B.symmetric_difference_update(A)** the **result** is stored in **set 'B'**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b205ccfa-b6d5-461b-9d4f-e4cdbaab9e05)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac1fdb72-c339-4818-823f-7e13a9d9e8e7)
+
+* The **return type** of the above method **symmetric_difference_update()** is **None** which means it will **not return anything**. It is going to update/change the content in the given **setName** passed to the method.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/20ea3cd3-48c2-4f80-8ec0-485272becd0b)
+
+* Set Methods. [Question]
+* If there is **no similarity** between the two sets then those two sets are called as **disjoint sets**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24088eaf-297f-44b0-9953-5ad8aecde4e6)
+
+* Example
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/60a0756d-5a4d-4f9f-83bb-8e82b5d212af)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d42a8ca4-e672-4812-b54c-13dcf7aff5ef)
+
+* Solution.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe2e2fc2-8106-4669-ab0c-ac3e0e0f9b8f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/73a0fa82-dc4c-4701-ab56-222f0582bda5)
+
+* Tuple.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a42b4db-e921-4285-a00b-2716677d4fc4)
+
+* DT -> Data Type
+* DS -> Data Structure
+* They are **same** thing only.
+* **List and Tuple** both allow duplicate values.
+* **Set** doesn't allow duplicate values.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b7ff2e93-0451-41c5-a735-6e0271e30702)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/616872a0-803e-4e5c-8404-d31634ca4777)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/181a68f8-411f-45ce-a70e-d6d9ec0ea3d1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f9de266-838a-4698-86dc-66de506553a1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/025c9cc4-bc36-42c7-8384-268a57070e4f)
+
+* tuple() **constructor**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92ab5936-b115-4e7e-be77-bdc8d5afb243)
+
+* In **sets** we cannot do the **above operation** because **sets** don't have **index/position**.
+* We can do the **above operation** in **lists, tuples, strings**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac20b92b-eab3-4fab-87b4-d566c94f098c)
+
+* Question.
+* The **results/outputs** will be in the format of a **tuple**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab9bcb91-e83e-4a4c-9b2b-d639fa6ac7e8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f348dfd-e8fe-4b0a-91e8-ae884ce40c07)
+
+* Solutions.
+* **Ordering** is important here. We have to write in the **order**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05317026-3876-49e5-9441-19b337287e3f)
+
+* We cannot do **directly** but there is an **alternate way**. We have to do it **indirectly**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e2903eee-5265-473a-8bd3-fdddbad4e519)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa008ed7-bbb6-42e0-8072-2e809851a405)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/26962301-aae8-40c7-9dc7-615f90fe344c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4efc9d47-937f-44e9-9e07-56a744fbda69)
+
+* **List** is a **class** name and it is not a function. [**IMPORTANT**]
+* Build-in **append()** method is neither in **set** nor in **tuples** because they are **immutable**. We cannot use the **append()** method but if we want to **append** something then we have to use **lists** to do the **appending**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/47cf7244-2fef-4fa0-93be-63275098ca29)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8688398e-7d6f-4157-86c4-1904d36bf98f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/528751cf-0da3-47a7-a2a9-4596828c6f1f)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/745001d5-5960-4d2c-ac5f-2bf1b918c093)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a3f727d-372f-41ff-89e3-cd3969fc226b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/828feab0-7547-4621-b4bd-3a1e4dcc6fb1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4475b526-ab97-4100-a54d-ee8cecdfd850)
+
+* Unpacking a tuple -> We are **extracting** the tuple values.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/43ce44b3-624f-498e-b971-886675cade3c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19ffcbff-2c27-430c-9740-eb0b9eed4f0e)
+
+* We can do the unpacking with **sets** also but there is no point of doing unpacking with **sets** as there is **no order or ordering** in **sets**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/14dd9204-171d-441a-b12e-f276678f1c32)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5370bc4c-b3a5-4d06-afc7-80a6311b98b9)
+
+* What is the value of **x, y, z**? 
+
+> Any order of 1,2,3
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8550e8a2-f6e6-46d2-bdfc-a6e1ba481e01)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/812e9f7b-41f1-494b-b0ef-e4eb7316b816)
+
+* Example
+* Otherwise we will get an **error**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a69ad73d-7252-4881-9403-d33c9584c9d9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92c25669-4bfe-4e65-be82-77887686de4b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/da67d38e-cf98-4427-935d-c404cd1f5b73)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71719772-ecce-4f7e-bea9-64f158ff08da)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6dbb1d8-a53d-4c41-b7d2-99b0bb05e7fb)
+
+* The **result** will be in the form of **lists**. In **output** we got a **list**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f3ff8af0-ef92-4c66-af3c-30c2088f448a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a380f53-19e9-4286-ab30-2a0475578be2)
+
+* Data Types.
+* Can we do the **above operations** on a **set**?
+
+> **Yes** but there is **no use or point** for it in **sets** as **sets** are not **ordered or ordering** there in **sets**. No order in the **output**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12530f63-32b5-4e23-8523-1d38b775b0e3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b88eeb83-bb34-4327-a745-db3998ca583e)
+
+* [**IMPORTANT**]
+* This is **one to one** mapping.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a9115f6c-275f-498b-9962-23626c8b7d86)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9bb381cf-37e9-4a35-866a-89abf1d5299a)
+
+* Solution.
+* In place of **tuple** we are using **set** then also we will get the **outputs** but the **outputs** will be in **random order**.
+ 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6bed0d5c-b5c4-4330-8cee-d53f7dc2f646)
+
+* Good Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9f415240-8dad-4062-8aed-5a4a9b72094c)
+
+* Solution.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a02670c6-4f4a-4ad6-9146-8c6b4d5b8a6c)
+
+* **Yes**, we can write it.
 
 
 
