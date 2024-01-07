@@ -1711,6 +1711,43 @@ for i in range(0, 5, 1):
 * **Set class** doesn't allow **duplicate values**. [**IMPORTANT**]
 * **Tuple class** allows **duplicate values**. [**IMPORTANT**]
 
+## python-as-oops-part-2 (7)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/07fc938e-ad7e-41c2-baf8-f07ef38d88bc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2af4e447-b3d7-41a7-8642-c04a7f767f3e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7bfc2266-b5ba-433c-bb29-e55aa8495b4e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/26d4cece-68dd-40db-b42c-deae596017f4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a0be279-9090-48fc-b394-f4f2213ce2b0)
+
+* Dictionaries
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/833dbbf9-4e53-4076-b04b-8e4fcf827aa2)
+
+* Question
+* If the **complete content** is **duplicate** then we have to write the **complete content** only once. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d47d76c8-d012-4514-9b6e-6c49a604e6f5)
+
+* First the **brand** was **Tata** and now the **brand** got updated to **Ford**. **Brand** will come only once and we cannot repeat the **keys** but we can **update** the **keys**. It is **modifiable**.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
