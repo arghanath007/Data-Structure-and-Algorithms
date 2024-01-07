@@ -1668,6 +1668,50 @@ for i in range(0, 5, 1):
 
 * **Yes**, we can write it.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f652c620-b070-415a-80f0-43787918d851)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/461dd2f5-c80e-40c9-848b-05737c8b237d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9f09931a-152e-4157-9bbd-7cabaac02bd0)
+
+* [**IMPORTANT**]
+* First one is **better**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d6d4de3-0e50-4eb7-abe2-f25e699d0d2d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a01490b-48cf-4cfd-bfb6-38d7b10bf99d)
+
+* Question 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a9ad2ef1-1150-484f-96b1-928882733dd3)
+
+* Solution.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4deb734d-3511-48ca-9a2d-a0f6af030193)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41f809cd-d906-4926-9259-79e9acd15d80)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e0471ca-7da1-4940-9e58-ac0cc13f20c5)
+
+* Solution.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85cf6ad4-46dd-4880-9fb2-4c3c1f651763)
+
+* Question.
+* **5** is coming **2 times** in the first question. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66e1b4d5-dd4a-4fa5-886c-526f7a295663)
+
+* **count() and index()** are not defined with **sets class** so we will get an **error**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc804b35-ebe3-4e6b-b9a6-0601895009c2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e512b20-594b-46d3-8b5a-287fcbd425b1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9a82181d-d524-4c3a-a8c9-afebe91c4630)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/144407d4-2ceb-4178-b050-719942cbba84)
+
+* [**IMPORTANT**]
+* **Set class** doesn't allow **duplicate values**. [**IMPORTANT**]
+* **Tuple class** allows **duplicate values**. [**IMPORTANT**]
+
+
 
 
 
