@@ -2273,100 +2273,285 @@ for i in range(0, 5, 1):
 * **pass** statement.  
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/092dd08b-1f3e-4f46-a008-0adc04820db0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb551931-a4a3-4f44-829b-bbe87539feb1)
+
+* Example
+* When we will use the **objects(blu and woo)** to access the **class attributes**, the **value** will be **Same** only.  [**IMPORTANT**]
+* When we will use the **objects(blu and woo)** to access the **instance attributes**, the **value** will be **different**.  [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d00fa4d4-6bfa-4850-9a09-3ceb7f928598)
+
+* For **placeholder**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d67105da-26df-4a05-9877-eac56c100dc9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3453f9e6-d9bc-4f7f-b9b3-b074606216c4)
+
+* **Class attributes** are **fixed** for all of the **objects** of that **class**. [**IMPORTANT**]
+* **Instance attributes** are **not fixed or different** based on the **objects** of the **class**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/398500d3-3e4c-4ee9-acdc-1bac1d7f5eae)
+
+* Python classes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1b0f501-4e9e-48b2-9cb4-bbea5708ba91)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/166ebb64-e58d-496b-b582-636279cc9b58)
 
 * Example
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae64f744-e24c-4059-acce-fbd23d3c5aa2)
 
+* Constructor.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a633844c-3de3-4dcc-aea4-8d884dcd00a1)
 
+* Example
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76a9111f-30b6-4d3c-82b9-7af370cc638e)
 
+* Example
+* As we are not passing any values.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/17934d43-2814-4692-bc0d-12d1e35ce7fa)
 
+* Variables.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8df7fb5-d2dc-435f-8942-3af90dabf72a)
 
+* We have to pass **self** which is mandatory, others are **optional**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/da825e8d-ea96-4ede-8d4b-c1c31932ef1a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f2c5e775-2309-4f9a-a18e-ac69634b5918)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/496044e6-a639-42d0-964c-1fdb3402cc35)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/372145ef-d2cd-4abb-a143-f4bfa6d4413b)
 
+* Example [**IMPORTANT**]
+* When we called the **someFunction()**, the **local variables** of that function were created and when the calling of the **someFunction()** was ended then the **local variables** of that function were **deleted/destroyed** along with the contents of the variable. [**IMPORTANT**]
+* When we are doing **print(f)** at the **end** we are calling the **global variable 'f'**.
+* The **global variable 'f'** is a **integer** and the **local variable 'f'** is a **string**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/17809639-dd6c-444a-a980-d753901394f3)
 
+* Working
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/089a3b70-9294-4a7b-acc8-86d6f10e4bc2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/da7d6bbb-6933-49f0-b4a7-10fda3aa0b82)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b0c6c6d-74dc-40d5-a88f-47be5592fc4b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/02ecbec3-0271-4be7-a20c-6e5c9b30317f)
 
+* Example
+* Python object(Pyobj)
+* **Two local variables** cannot have the **same** name.
+* **Two global variables** cannot have the **same** name.
+* **One local and one global variable** can have the **same** name. [Example above] [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6059ca68-21e5-4e49-9cb8-ec99576f744f)
 
+* Example
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ceba43e7-b816-4a02-a0c8-b67425c813f9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f623324d-acf0-49fd-8ec3-ceb6aa97debe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85c5f34f-d4b9-4326-8a28-1d44320e6159)
 
+* Solution. [**IMPORTANT**]
+* **nonlocal** -> The **scope** of it is not just within the **function** it is also available outisde of the **function** as well. It is **not Global**
+* **nonlocal** is **not Global**. [True]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30bbd6ab-5057-44da-a5a6-dc65ccfa9544)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a245a78-016e-477b-b48f-4b45739282c7)
 
+* In this case the **non-local 'a'** is a **global** variable.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f25f02a-c8d6-484f-a8b7-e778c6d9efde)
 
+* In this case the **non-local 'a'** is not a **global** variable. Outside of that **smallest block**, the **non-local 'a'** can go one block **outside** but cannot go to the **biggest/outside** block where the **global 'a'** is there. [**IMPORTANT**]  
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a44ae111-e152-4b42-88c3-7fa36dfa555e)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7c38e05-6eee-4ccd-910d-2100cb36457a)
 
+* Yes.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/795a66ad-6746-4eba-9989-af06fe12cebf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c1ed073-5a70-416e-bfdc-0006c938711c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31a01072-4dd9-4295-9fe5-b3916ebafbb2)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6424c663-1009-4258-8ab9-0156bf19a0d8)
 
+* Methods.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/328af316-e33e-4ef1-b891-e02bb1b5cd24)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/574a2911-8fdd-469a-b20c-8bf0405701b4)
 
+* Variables.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72306a20-6803-4616-8065-fdf2ce494f7b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f206a58-64f6-463d-bb62-2ecaf299832e)
 
+* Instance Method. [Example]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef884919-618d-4b95-9f6d-679e9a48f6d1)
 
+* Class Methods
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f2cd881-9a6a-43de-a3ed-5562f0d2bf4a)
 
+* Example
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/908a1aa4-46a2-4889-b707-80b299c2a3aa)
 
+* static method.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ee3c7df-0e18-4337-829a-2e0ef22a6e1f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b735e2f6-7d4c-469f-a267-9639f756bd8c)
 
+* Inheritance
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a16152a1-13cd-4358-a435-52286a3987eb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6088079e-aa3b-4698-b959-2c32a5cc3db7)
 
+* Types of **inheritances**.
+* Any of the combination of inheritances(excluding hybrid) are called as **hybrid inheritance**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d5e52b4-e0f4-4b3a-9844-e61d008518d9)
 
+* Simple inheritance
+* We have created an **object of the child class**.
+* Using the **child class object**, it can access it's own **methods** and it can also access it's **parent's methods** as well.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b82e59e-7f38-421b-a061-889dcc34deae)
 
+* Example.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/77409ad1-7bd7-4592-8d40-24f7c8a0cdb9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1fceb37d-028a-4230-a932-de03dedd40a9)
 
+* Multiple inheritance
+* Using the **child class object**, it can access it's own **methods** and it can also access it's **parent's methods** as well, where **parents** are **more than '1'** as well.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/17a63531-ab76-406d-b873-073b059b35e4)
 
+* In **multiple** inheritance there is **no relationship** between **c1 and c2**. **c1** has it's own properties and **c2** has it's own **properties**. [**MPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9363b2fd-aab1-44f9-91c0-dc615c143a51)
 
+* Example.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ca0e25e9-5d46-4ee9-b9b5-e3a962438615)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ada47129-50ec-4ea3-8074-e12f64f42e12)
 
+* Multi-level inheritance
+* Using the **child class object**, it can access it's own **methods** and it can also access it's **parent's methods** as well and also the **methods of it's grandparents** as well.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9dfc6624-93c7-4169-b030-739ea6b94f3b)
 
+* In **Multi-level** inheritance there is **relationship** between **c1 and c2**. 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce4f9327-919b-41ae-bc4f-46e0ef368218)
 
+* Hierarircal inheritance
+* There is a **parent** and the parent has **multiple children**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/73f51ff3-e897-4fbe-8299-1c8557efe563)
 
+* Example.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8bf719a7-47a9-401e-8448-87e0ff7a2a28)
 
+* Hybrid Inheritance.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/166ada53-82cb-43dd-9925-0ff93452590d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32b98c56-019c-4026-920b-d88d26c81c14)
 
+* C1 -> Base for C3 and C4 and it is child for **P1**.
+* C3 -> Base for C4 and child for **C1, P1 and P2**
+* C4 -> Child for all.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86a15f4a-2d4b-49f8-aba0-a6e9c5b18116)
 
+* Polymorphism.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a964bcb-44c8-4bf2-bc16-d88dd4a46670)
 
+* method overrriding and overloading.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66495ff2-791d-4092-af83-05ee0b889a36)
 
+* Example.
+* Method names are **different** so no **polymorphism**.
+* To do **polymorphism** method names should be **same**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/42df3ca2-b8d0-440f-a8e0-2703f32c4ea0)
 
+* Example.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/279e9420-db9b-40e9-821b-ea60d428b977)
 
+* **Square and Triangle** are two different classes. [Example]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/67d15fd0-d6ab-4c9a-b59a-186b51d52556)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b46eb48-a3d9-4db1-9aae-d776d20243ce)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb80cf92-30fc-4215-af6a-42fa74cc202c)
 
+* Example.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc58e4cf-58f6-4738-b594-d2a73f2e89a2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d10d8ce-5e4f-411c-994a-66f89bc3c9c1)
 
+* Example.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0da82e4b-96a5-4068-9e0e-56500a5de0a9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ff48959-fa71-49cc-a21e-97ac9943d975)
 
+* Hierarchical inheritance. [Example]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ca01a303-780a-45ff-a49b-d13d880d5b43)
 
+* obj.super().flight().
+* **super** keyword.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b3bdcac2-b65e-45a3-9b9b-12d2c071cc9e)
 
+* Data Abstraction. [Background details is hidden]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/43d26362-4204-4a78-a854-9636b784e28b)
 
+* Example.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa742181-faca-4f24-8fcb-9ae5b6ae6bbd)
 
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/adcfad38-bfe2-43bf-9983-d56b57270fc3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/daecf676-69d9-4ad9-b2af-4249198553ea)
+
+* Example.
+* Understand the **logic**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f044f6c-8400-449c-80fc-c9f798fed21b)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f8db6f3a-34d6-4bc9-b66b-672f2f0705a7)
+
+* Outputs.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63071ee8-8202-4f21-913d-7564c9018b96)
+
+* Abstraction
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/498ec325-ab40-4091-9f05-7b3440895fb1)
+
+* Doubt [**IMPORTANT**]
+* Run it once and check **output**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cde07999-5b9b-4326-acdf-fe3e01db370d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef40fcbc-26d5-4a7f-8461-ae6fedddb7d6)
+
+* **id** -> It gives the **address**.
 
 
 
